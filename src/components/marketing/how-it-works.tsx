@@ -1,0 +1,50 @@
+import { PenTool } from 'lucide-react'
+import { useTranslation } from '@/features/i18n/provider'
+import { pick, works } from '@/features/site/content'
+import { SectionHead } from './section-head'
+import { Reveal } from './reveal'
+
+/** How It Works: numbered timeline (01–05) with a design-support note. Shared by home and /how-it-works. */
+export function HowItWorks() {
+  const { locale } = useTranslation()
+  const c = pick(works, locale)
+
+  return (
+    <section className="border-y border-border bg-bg-alt">
+      <div className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
+        <SectionHead kicker={c.kicker} title={c.title} sub={c.sub} />
+
+        <ol className="relative mt-16 grid gap-10 md:grid-cols-5 md:gap-5">
+          {/* connector line (desktop) */}
+          <span
+            className="absolute left-0 top-[22px] hidden h-[3px] w-full rounded-full bg-gradient-to-r from-primary/15 via-aqua/40 to-sun/40 md:block"
+            aria-hidden="true"
+          />
+          {c.steps.map((step, i) => (
+            <Reveal as="li" key={step.title} delay={i * 90} className="relative">
+              <div className="relative z-10 flex items-center gap-3 md:block">
+                <span className="step-tile h-[44px]! w-[44px]! border-2 border-white bg-white! text-primary shadow-[var(--shadow-md)] ring-4 ring-aqua/20">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                {i < c.steps.length - 1 && (
+                  <span className="h-px flex-1 bg-gradient-to-r from-primary/40 to-transparent md:hidden" aria-hidden="true" />
+                )}
+              </div>
+              <h3 className="mt-4 font-display text-[16.5px] font-bold">{step.title}</h3>
+              <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{step.body}</p>
+            </Reveal>
+          ))}
+        </ol>
+
+        <Reveal className="mt-12">
+          <div className="mx-auto flex max-w-2xl items-start gap-3 rounded-2xl border border-primary/20 bg-card p-5 shadow-[var(--shadow-sm)]">
+            <span className="icon-tile shrink-0 bg-aqua/10!">
+              <PenTool size={18} />
+            </span>
+            <p className="text-[14px] leading-relaxed text-fg-2">{c.note}</p>
+          </div>
+        </Reveal>
+      </div>
+    </section>
+  )
+}

@@ -1,0 +1,104 @@
+name: Deploy
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # secrets 不能直接用于 if，先探测并暴露为 step output，缺失时优雅跳过整个部署，
+      # 避免 fork/未配置凭据的仓库每次 push 到 main 都留下红叉。
+      - name: Check for Cloudflare credentials
+        id: guard
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::CLOUDFLARE_API_TOKEN 未配置，跳过部署。如需自动部署，请设置 CLOUDFLARE_API_TOKEN 与 CLOUDFLARE_ACCOUNT_ID secrets。"
+          fi
+      - if: steps.guard.outputs.enabled == 'true'
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.0.0
+      - if: steps.guard.outputs.enabled == 'true'
+        uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
+      - if: steps.guard.outputs.enabled == 'true'
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.4.0
+        with:
+          node-version: 22
+          cache: pnpm
+      - if: steps.guard.outputs.enabled == 'true'
+        run: pnpm install --frozen-lockfile
+      # wrangler.jsonc 不入库；从提交的占位模板生成，并注入真实生产资源 id。
+      # 在仓库 Variables 里配置 CF_PROD_D1_ID / CF_PROD_KV_ID（必填）、CF_PROD_DOMAIN（可选）。
+      - if: steps.guard.outputs.enabled == 'true'
+        name: Generate wrangler.jsonc
+        env:
+          CF_PROD_D1_ID: ${{ vars.CF_PROD_D1_ID }}
+          CF_PROD_KV_ID: ${{ vars.CF_PROD_KV_ID }}
+          CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
+        run: node .github/scripts/gen-wrangler.mjs
+      # @cloudflare/vite-plugin 在 build 时根据 CLOUDFLARE_ENV 把对应环境的 bindings
+      # 烘焙进 dist/server/wrangler.json；deploy 读取该产物，故环境在 build 时选定。
+      - if: steps.guard.outputs.enabled == 'true'
+        run: pnpm build
+        env:
+          CLOUDFLARE_ENV: production
+      - name: Deploy to Cloudflare
+        if: steps.guard.outputs.enabled == 'true'
+        uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4.0.4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy
+      # 每次部署后把 GitHub Secrets 同步为 Worker secrets（单一数据源，无需手动
+      # wrangler secret put）。GitHub 里未设置/为空的 key 自动跳过（不覆盖 Cloudflare
+      # 已有值）；要"删除"某个密钥请先在 GitHub 清空它，再手动清理 Cloudflare 侧。
+      - name: Sync Worker secrets
+        if: steps.guard.outputs.enabled == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          BETTER_AUTH_SECRET: ${{ secrets.BETTER_AUTH_SECRET }}
+          BETTER_AUTH_URL: ${{ secrets.BETTER_AUTH_URL }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GITHUB_CLIENT_ID: ${{ secrets.GITHUB_CLIENT_ID }}
+          GITHUB_CLIENT_SECRET: ${{ secrets.GITHUB_CLIENT_SECRET }}
+          STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
+          STRIPE_WEBHOOK_SECRET: ${{ secrets.STRIPE_WEBHOOK_SECRET }}
+          STRIPE_PRICE_PRO_MONTHLY: ${{ secrets.STRIPE_PRICE_PRO_MONTHLY }}
+          STRIPE_PRICE_PRO_YEARLY: ${{ secrets.STRIPE_PRICE_PRO_YEARLY }}
+          STRIPE_PRICE_PRO_LIFETIME: ${{ secrets.STRIPE_PRICE_PRO_LIFETIME }}
+          TURNSTILE_SITE_KEY: ${{ secrets.TURNSTILE_SITE_KEY }}
+          TURNSTILE_SECRET_KEY: ${{ secrets.TURNSTILE_SECRET_KEY }}
+          ADMIN_EMAILS: ${{ secrets.ADMIN_EMAILS }}
+          CF_ANALYTICS_TOKEN: ${{ secrets.CF_ANALYTICS_TOKEN }}
+          SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+          RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
+        run: |
+          jq -n '{
+            BETTER_AUTH_SECRET: env.BETTER_AUTH_SECRET,
+            BETTER_AUTH_URL: env.BETTER_AUTH_URL,
+            RESEND_API_KEY: env.RESEND_API_KEY,
+            EMAIL_FROM: env.EMAIL_FROM,
+            GOOGLE_CLIENT_ID: env.GOOGLE_CLIENT_ID,
+            GOOGLE_CLIENT_SECRET: env.GOOGLE_CLIENT_SECRET,
+            GITHUB_CLIENT_ID: env.GITHUB_CLIENT_ID,
+            GITHUB_CLIENT_SECRET: env.GITHUB_CLIENT_SECRET,
+            STRIPE_SECRET_KEY: env.STRIPE_SECRET_KEY,
+            STRIPE_WEBHOOK_SECRET: env.STRIPE_WEBHOOK_SECRET,
+            STRIPE_PRICE_PRO_MONTHLY: env.STRIPE_PRICE_PRO_MONTHLY,
+            STRIPE_PRICE_PRO_YEARLY: env.STRIPE_PRICE_PRO_YEARLY,
+            STRIPE_PRICE_PRO_LIFETIME: env.STRIPE_PRICE_PRO_LIFETIME,
+            TURNSTILE_SITE_KEY: env.TURNSTILE_SITE_KEY,
+            TURNSTILE_SECRET_KEY: env.TURNSTILE_SECRET_KEY,
+            ADMIN_EMAILS: env.ADMIN_EMAILS,
+            CF_ANALYTICS_TOKEN: env.CF_ANALYTICS_TOKEN,
+            SENTRY_DSN: env.SENTRY_DSN,
+            RESEND_AUDIENCE_ID: env.RESEND_AUDIENCE_ID
+          } | with_entries(select(.value != null and .value != ""))' > /tmp/secrets.json
+          npx wrangler secret bulk /tmp/secrets.json --env production
