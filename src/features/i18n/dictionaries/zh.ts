@@ -102,6 +102,7 @@ export const zh: Dict = {
     banReason: '封禁理由', banReasonPlaceholder: '为何封禁该用户？',
     banExpires: '封禁到期', banNever: '永不',
     banDefaultReason: '管理员封禁', banSubmit: '封禁用户', banPermanent: '永久',
+    deleteUser: '删除用户', deleteUserConfirm: '此操作将永久删除该用户及其所有数据，无法撤销，是否继续？', userDeleted: '已删除用户',
     rowsPerPage: '每页条数', pageOf: '第 {page} / {total} 页',
     noResults: '未找到用户', waitlistEmpty: '还没有人加入候补名单', closeDrawer: '关闭',
     waitlist: '候补名单', waitlistExport: '导出 CSV', locale: '语言',

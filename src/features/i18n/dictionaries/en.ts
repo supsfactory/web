@@ -111,6 +111,7 @@ export const en = {
     banReason: 'Ban reason', banReasonPlaceholder: 'Why is this user being banned?',
     banExpires: 'Ban expires', banNever: 'Never',
     banDefaultReason: 'Banned by admin', banSubmit: 'Ban user', banPermanent: 'Permanent',
+    deleteUser: 'Delete user', deleteUserConfirm: 'This permanently deletes the user and all their data. This cannot be undone. Continue?', userDeleted: 'User deleted',
     rowsPerPage: 'Rows per page', pageOf: 'Page {page} of {total}',
     noResults: 'No users found', waitlistEmpty: 'No signups yet', closeDrawer: 'Close',
     waitlist: 'Waitlist', waitlistExport: 'Export CSV', locale: 'Locale',

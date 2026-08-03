@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from '@tanstack/react-router'
-import { Ban, Check, Copy, LogIn, CalendarIcon } from 'lucide-react'
+import { Ban, Check, Copy, LogIn, CalendarIcon, Trash2 } from 'lucide-react'
 import { toast } from 'sonner'
 import { authClient } from '@/features/auth/auth.client'
 import { useTranslation } from '@/features/i18n/provider'
@@ -172,6 +172,18 @@ export function UserDetailDrawer({ row, open, onOpenChange, currentUserId, onCha
             onClick={() => act(() => authClient.admin.impersonateUser({ userId: row.id }), t('admin.impersonate'), () => router.navigate({ to: '/{-$locale}/app' }))}
           >
             <LogIn size={15} /> {t('admin.impersonate')}
+          </Button>
+
+          <Button
+            variant="default"
+            disabled={isSelf || busy}
+            style={{ background: 'var(--destructive)', color: '#fff' }}
+            onClick={() => {
+              if (!window.confirm(t('admin.deleteUserConfirm'))) return
+              act(() => authClient.admin.removeUser({ userId: row.id }), t('admin.userDeleted'))
+            }}
+          >
+            <Trash2 size={15} /> {t('admin.deleteUser')}
           </Button>
         </div>
 
