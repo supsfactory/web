@@ -127,7 +127,7 @@ export const en = {
     nav: {
       solutions: 'Custom SUP Solutions', products: 'Products', whoWeServe: 'Who We Serve',
       howItWorks: 'How It Works', gallery: 'Project Gallery', about: 'About Us',
-      contact: 'Contact', cta: 'Start Your Project',
+      contact: 'Contact', cta: 'Start Your Project', login: 'Sign in', app: 'App',
     },
     footer: {
       tagline: 'The custom SUP manufacturing partner behind emerging paddle brands — from first idea to finished products.',

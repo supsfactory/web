@@ -31,6 +31,16 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
     </Link>
   )
 
+  const authLink = loggedIn ? (
+    <Link to="/{-$locale}/app" className={buttonVariants({ variant: 'ghost', size: 'sm' })}>
+      {t('sup.nav.app')}
+    </Link>
+  ) : (
+    <Link to="/{-$locale}/login" className={buttonVariants({ variant: 'ghost', size: 'sm' })}>
+      {t('sup.nav.login')}
+    </Link>
+  )
+
   return (
     <header
       className="sticky top-0 z-30 border-b border-border/80 shadow-[var(--shadow-sm)] backdrop-blur"
@@ -48,6 +58,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
           <ThemeToggle theme={theme} />
           <LangSwitch />
         </div>
+        <div className="hidden lg:block">{authLink}</div>
         <div className="hidden lg:block">{cta}</div>
 
         {/* mobile hamburger */}
@@ -66,8 +77,8 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         <div className="flex flex-col gap-1 border-t border-border px-4 py-3 lg:hidden" onClick={() => setOpen(false)}>
           {navLinks}
           <div className="mt-2 flex items-center gap-3">
+            {authLink}
             {cta}
-            {loggedIn && <Link to="/{-$locale}/app" className={buttonVariants({ variant: 'ghost', size: 'sm' })}>App</Link>}
           </div>
         </div>
       )}

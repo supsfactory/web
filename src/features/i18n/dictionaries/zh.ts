@@ -118,7 +118,7 @@ export const zh: Dict = {
     nav: {
       solutions: '定制解决方案', products: '产品', whoWeServe: '客户群体',
       howItWorks: '合作流程', gallery: '项目案例', about: '关于我们',
-      contact: '联系我们', cta: '开始你的项目',
+      contact: '联系我们', cta: '开始你的项目', login: '登录', app: '应用',
     },
     footer: {
       tagline: '新兴桨板品牌背后的定制 SUP 制造伙伴——从第一个想法到成品交付。',
