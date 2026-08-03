@@ -10,6 +10,8 @@
 
 import { getRouteApi, notFound } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
+import { I18nProvider } from '@/features/i18n/provider'
+import { defaultLocale } from '@/features/i18n/locale'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { CtaBand } from '@/components/marketing/cta'
@@ -233,11 +235,13 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
   })()
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={!!user} />
-      {body}
-      <Footer theme={theme} />
-    </div>
+    <I18nProvider locale={defaultLocale}>
+      <div className="min-h-screen bg-background text-foreground">
+        <SiteNav theme={theme} loggedIn={!!user} />
+        {body}
+        <Footer theme={theme} />
+      </div>
+    </I18nProvider>
   )
 }
 

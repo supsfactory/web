@@ -72,6 +72,14 @@ const REGISTRY_RAW = suffixMatch(siteGlob, 'pages.yaml') ?? ''
 const REGISTRY = (parse(stripBom(REGISTRY_RAW)) as RegistryEntry[]) ?? []
 const PAGES_YAML = parseYamlMap(pageGlob)
 
+/** Global market regions afarer serves, sourced from the distributor coverage list. */
+const REGION_COUNT = (() => {
+  const dist = (PAGES_YAML['solutions-distributors'] ?? {}) as { coverage?: { regions?: unknown[] } }
+  const regions = dist.coverage?.regions
+  if (Array.isArray(regions) && regions.length > 0) return regions.length
+  return 6
+})()
+
 /** Type inference for pages that ship no registry entry (dedicated-route pages). */
 function inferSectionType(value: unknown, key: string): string {
   if (key === 'hero' || key.includes('hero')) return 'hero'
@@ -297,7 +305,10 @@ export function getGeoEntity(): Record<string, unknown> | undefined {
   return geoJson('entity')
 }
 
-/** Replaces the afarer `{SITE}` template placeholder with the SUPsfactory brand. */
+/** Replaces the afarer `{SITE}`/`{BRAND}`/`{count}` template placeholders with brand values. */
 export function brandify(text: string): string {
-  return text.replaceAll('{SITE}', 'SUPsfactory')
+  return text
+    .replaceAll('{SITE}', 'SUPsfactory')
+    .replaceAll('{BRAND}', 'afarer')
+    .replaceAll('{count}', String(REGION_COUNT))
 }
