@@ -1,0 +1,103 @@
+meta:
+  title: 'SUP Wholesale & Retail Partner Program | {SITE}'
+  description: 'SUP wholesale partner program for retailers and sporting goods stores. Full product line, dropshipping options, competitive wholesale margins from 20–35%, and low MOQ to start.'
+
+hero:
+  tagline: Retail Partners
+  title: 'Sell Premium Inflatable SUPs<br />With Margins That Work'
+  subtitle: 'Become an Afarer retail partner — carry the fastest-growing SUP brand in your market with full wholesale pricing, dropshipping, professional marketing materials, and dedicated support.'
+  image:
+    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Afarer SUP boards displayed in a retail store
+
+margin_section:
+  title: 'Retail Margins & MOQ'
+  subtitle: 'Wholesale pricing tiers designed for retail profitability.'
+  items:
+    - tier: 'Basic Partner'
+      discount: '20%'
+      moq: '500 units/yr'
+      margin_note: '~$150–250 profit per board'
+      features:
+        - 'Access to full product line'
+        - 'Marketing materials package'
+        - 'Email support'
+        - 'Product catalog access'
+    - tier: 'Premium Partner'
+      discount: '30%'
+      moq: '2,000+ units/yr'
+      margin_note: '~$250–400 profit per board'
+      features:
+        - 'Dedicated account manager'
+        - 'Exclusive territory protection'
+        - 'Custom marketing support'
+        - 'First access to new products'
+        - 'Staff training sessions'
+    - tier: 'Flagship Partner'
+      discount: '35%+'
+      moq: '5,000+ units/yr'
+      margin_note: '~$350–500+ profit per board'
+      features:
+        - 'Co-branded marketing campaigns'
+        - 'In-store display support'
+        - 'On-site staff training'
+        - 'Joint social media promotions'
+        - 'Priority production allocation'
+
+product_line:
+  title: Complete Product Line
+  subtitle: 'A SUP board for every customer who walks through your door.'
+  items:
+    - name: All-Round Series
+      description: 'Best seller — fits 80% of customers'
+    - name: Touring Series
+      description: 'Performance paddlers — higher margin'
+    - name: Yoga Series
+      description: 'Niche market — premium pricing'
+    - name: Kids Series
+      description: 'Family customers — repeat buyer'
+    - name: Racing Series
+      description: 'Enthusiast market — brand halo'
+    - name: Accessories
+      description: 'High margin add-ons (paddles, vests, pumps, bags)'
+
+catalog:
+  title: Retail Partner Resources
+  subtitle: 'Download our comprehensive retail partner kit.'
+  items:
+    - name: '2026 Product Catalog'
+      desc: 'Full lineup with specs, pricing, and ordering information'
+      icon: 'tabler:file-text'
+      link: '/resources/download-catalog'
+    - name: 'Retail Partner Guide'
+      desc: 'Margin calculator, merchandising tips, and best practices'
+      icon: 'tabler:book'
+      link: '/resources/download-catalog'
+    - name: 'Marketing Asset Pack'
+      desc: 'Hi-res product photos, lifestyle images, and POS materials'
+      icon: 'tabler:photo'
+      link: '/media'
+
+support:
+  title: Retail Partner Support
+  subtitle: 'Everything you need to sell confidently.'
+  items:
+    - 'High-res product images (professional photography)'
+    - 'Lifestyle photos for social media, website, and catalog'
+    - 'Marketing materials — posters, shelf talkers, banners'
+    - 'Product training videos for staff education'
+    - 'Social media content pack (weekly posts)'
+    - 'SEO-optimized product descriptions'
+    - 'Dropshipping option available — no inventory risk'
+    - 'Net 30 payment terms'
+
+cta:
+  title: 'Ready to become an Afarer retail partner?'
+  subtitle: 'Apply for partnership or download our retail catalog to get started.'
+  actions:
+    - text: 'Apply for Partnership'
+      href: '/contact?partner=retail'
+      variant: 'primary'
+    - text: 'Download Retail Catalog'
+      href: '/resources/download-catalog'
+      variant: 'secondary'

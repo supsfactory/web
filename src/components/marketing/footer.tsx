@@ -12,7 +12,7 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
   return (
     <footer className="relative border-t border-border bg-bg-alt px-5 pb-12 pt-16 md:px-7">
       <span className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-primary/40 via-aqua/50 to-sun/40" aria-hidden="true" />
-      <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[1.3fr_1fr_1fr_1fr_1fr]">
+      <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[1.3fr_1fr_1fr_1fr_1fr_1fr]">
         {/* Brand */}
         <div className="md:col-span-1">
           <Logo />
@@ -50,6 +50,16 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           <Link className="foot-link" to="/{-$locale}/how-it-works">{t('sup.footer.howItWorks')}</Link>
           <Link className="foot-link" to="/{-$locale}/gallery">{t('sup.footer.gallery')}</Link>
           <Link className="foot-link" to="/{-$locale}/contact">{t('sup.footer.contact')}</Link>
+        </FooterCol>
+
+        {/* Resources */}
+        <FooterCol title={t('sup.footer.colResources')}>
+          <Link className="foot-link" to="/$" params={{ _splat: 'factory' }}>{t('sup.footer.factory')}</Link>
+          <Link className="foot-link" to="/$" params={{ _splat: 'technology' }}>{t('sup.footer.technology')}</Link>
+          <Link className="foot-link" to="/$" params={{ _splat: 'academy' }}>{t('sup.footer.academy')}</Link>
+          <Link className="foot-link" to="/$" params={{ _splat: 'guides' }}>{t('sup.footer.guides')}</Link>
+          <Link className="foot-link" to="/$" params={{ _splat: 'evidence/case-studies' }}>{t('sup.footer.evidence')}</Link>
+          <Link className="foot-link" to="/$" params={{ _splat: 'news' }}>{t('sup.footer.news')}</Link>
         </FooterCol>
 
         {/* Legal */}

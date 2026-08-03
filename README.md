@@ -47,7 +47,7 @@ Custom-built "Bright Ocean Studio × Premium Manufacturing" design system: Ocean
 
 Every series is a manufacturing platform — shape, artwork, EVA deck pads, and packaging all adapt to your client's brand (50pcs MOQ per design).
 
-**AI-ready content**: `/llms.txt` and `/llms-full.txt` index both the docs and the full product catalog (names, SKUs, specs, prices, recommended use), so answer engines can cite the actual offering.
+**AI-ready content**: `/llms.txt` and `/llms-full.txt` index the docs, the full product catalog (names, SKUs, specs, prices, recommended use), and the SEO landing pages with their FAQ — so answer engines can cite the actual offering.
 
 ## The platform under the hood
 
@@ -55,16 +55,17 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 |------|--------------|
 | **Auth** | Email/password with mandatory verification, password reset, and account deletion via [better-auth](https://better-auth.com). Google & GitHub OAuth that gracefully hide themselves when their env vars are unset. Sessions use D1 as source of truth with a cookie cache. |
 | **Storage** | [R2](https://developers.cloudflare.com/r2/) object storage with a working avatar upload (validated, streamed back through a serving route since R2 isn't public). Zero-config locally via miniflare — see [storage](src/content/docs/features/storage.mdx). |
-| **Email** | [Resend](https://resend.com) with string templates (React Email isn't usable on workerd). Missing API key? Emails are captured to the console so local dev never blocks. |
+| **Email** | [Resend](https://resend.com) with string templates (React Email isn't usable on workerd). Missing API key? Emails are captured to the console so local dev never blocks. The admin notification email HTML-escapes every field before sending. |
 | **Waitlist** | A complete pre-launch signup loop: a public signup page, Turnstile bot protection, an admin management page + CSV export, and automatic subscriber sync into a [Resend](https://resend.com) audience (gracefully skipped when unconfigured). |
+| **Inquiry** | A public B2B inquiry form (name/company/country/email/WhatsApp/business type/quantity/requirements + optional logo upload to R2) with per-IP rate limiting + Turnstile, an HTML-escaped admin notification email, and an admin pipeline: status workflow, CSV export, and sandboxed logo serving. |
 | **Changelog** | An in-app `/changelog` page — MDX-driven, per-locale, with a `published` flag. |
 | **Feedback** | Signed-in users submit feedback + a "my feedback" list; an admin governance page drives status transitions and replies. Also the **reference for adding your own feature**: a vertical slice with ownership filtering, a pure function layer, both gate patterns, and dual-pool tests — see [feedback](src/content/docs/features/feedback.mdx). |
 | **i18n** | Path-based locale routing via TanStack's `{-$locale}` optional prefix — English at `/`, 中文 at `/zh`. All marketing copy, UI strings, and docs translated. |
 | **SEO** | Per-locale sitemap, `hreflang`, canonical URLs, OpenGraph tags (featured image now a real product photo from the afarer CDN), `robots.txt`, `noindex` on authenticated pages, and 5 keyword-targeted landing pages. |
-| **AI-ready** | **Runtime:** [`llms.txt`](/llms.txt) index and [`llms-full.txt`](/llms-full.txt) full corpus — docs **plus product catalog**; clean frontmatter-stripped Markdown via `/docs-md/*`; `robots.txt` pointing to both. **Codebase:** [`AGENTS.md`](AGENTS.md) is the single source of truth for coding agents (auto-imported into [`CLAUDE.md`](CLAUDE.md)). |
-| **Admin** | better-auth admin plugin: roles, ban, user impersonation, a searchable/paginated user table, and a stats dashboard — all built on real data. |
+| **AI-ready** | **Runtime:** [`llms.txt`](/llms.txt) index and [`llms-full.txt`](/llms-full.txt) full corpus — docs **plus the full product catalog and the SEO landing pages (incl. FAQ)**; clean frontmatter-stripped Markdown via `/docs-md/*`; `robots.txt` pointing to both. **Codebase:** [`AGENTS.md`](AGENTS.md) is the single source of truth for coding agents (auto-imported into [`CLAUDE.md`](CLAUDE.md)). |
+| **Admin** | `ADMIN_EMAILS` is the **single source of truth**; the DB `role` column is a cache, two-way-synced on every gated access (promote on first use, demote the moment an email leaves the list). Every admin surface — pages, server fns, CSV exports, and better-auth's own `/api/auth/admin/*` — shares one `assertAdmin()` gate that returns **404** for non-admins (the admin surface stays invisible). Roles are least-privilege (`ban` / `impersonate` / `delete` / `list` only). Searchable/paginated user table, stats dashboard, ban/impersonate/delete actions — all on real data. |
 | **Theme** | Dark-first design with a light/dark toggle persisted via cookie. |
-| **Security & observability** | Turnstile bot protection, security headers + production CSP, auth-endpoint rate limiting (D1-backed), startup env validation (fail-fast); CF Web Analytics (cookieless) and Sentry error reporting — all optional, off when keys are blank. |
+| **Security & observability** | Nonce-based production CSP (no `unsafe-inline` for scripts), baseline security headers, Turnstile bot protection, per-IP rate limiting (D1-backed), startup env validation (fail-fast); admin endpoints gated to `ADMIN_EMAILS` (404 for non-admins), admin notification emails HTML-escaped, uploaded logos served sandboxed (`default-src 'none'; sandbox`); CF Web Analytics (cookieless) and Sentry error reporting — all optional, off when keys are blank. |
 | **Dev/Ops** | Cron Triggers reference (daily cleanup of expired sessions/tokens/rate-limit rows), local/staging/prod environment separation, GitHub Actions CI (lint + typecheck + build). |
 
 ## Tech stack
@@ -126,17 +127,20 @@ pnpm cf-typegen        # regenerate worker-configuration.d.ts from wrangler.json
 src/
   features/        # vertical slices, each self-contained
     site/          # marketing content (content.ts: products, sections, FAQ) + landings.ts + llm.ts
-    auth/          # better-auth setup, middleware, social buttons
+    auth/          # better-auth setup, middleware, social buttons, admin-roles (least-privilege)
     storage/       # R2 object storage: validated upload + serving route (avatar)
     email/         # Resend client + string templates
     waitlist/      # signup page + Turnstile + admin mgmt + CSV export + Resend audience sync
+    inquiry/       # B2B inquiry form: validation, rate limiting, Turnstile, logo upload,
+                   # HTML-escaped admin notification, admin pipeline (status workflow + CSV)
     audience/      # Resend contacts/audience sync (reused by waitlist)
     changelog/     # MDX-driven in-app changelog page (/changelog)
     feedback/      # example feedback box: submit/list/admin governance — the teach-by-example slice
     i18n/          # dictionaries (en/zh) + provider
     seo/           # sitemap, robots, locale head tags (og:image, hreflang)
     docs/          # fumadocs source/layout config + llms.txt text generation
-    admin/         # admin plugin wiring + dashboard
+    admin/         # ADMIN_EMAILS-gated admin: assertAdmin gate, role two-way sync,
+                   # user list/stats/ban/impersonate/delete + CSV exports
     analytics/     # CF Web Analytics beacon (optional)
     maintenance/   # Cron cleanup task (expired sessions/tokens/rate-limit rows)
     theme/         # dark-first theme toggle
@@ -145,8 +149,8 @@ src/
     marketing/     # hero, why-us, who-we-serve, studio-section, products-section,
                    # how-it-works, gallery-section, cta, reveal, board-art, landing-page
   routes/
-    {-$locale}/    # locale-prefixed pages: /, /zh, /products, /solutions, /customizer,
-                   # /sup-startup-brands, /admin, /app, ...
+    {-$locale}/    # locale-prefixed pages: /, /zh, /products, /solutions, /who-we-serve,
+                   # /customizer, /waitlist, /changelog, 5 SEO landings, /admin, /app, ...
     api/, docs/, docs-md/, llms.txt, robots.txt, sitemap.xml   # top-level routes (outside the locale group)
   content/docs/    # in-app docs content (fumadocs mdx sources)
   db/              # Drizzle schema barrel + client + migrations

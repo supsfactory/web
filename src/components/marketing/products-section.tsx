@@ -1,3 +1,4 @@
+import { Link } from '@tanstack/react-router'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, products, type Product } from '@/features/site/content'
 import { Reveal } from './reveal'
@@ -5,7 +6,13 @@ import { Reveal } from './reveal'
 /** Single catalog card: real product photo with sku/price chips, then brand-book details. */
 export function ProductCard({ product }: { product: Product }) {
   return (
-    <div className="marine-card flex h-full flex-col overflow-hidden p-0">
+    <Link
+      to="/$"
+      params={{ _splat: `products/${product.slug}` }}
+      className="group block h-full"
+      style={{ color: 'inherit' }}
+    >
+      <div className="marine-card flex h-full flex-col overflow-hidden p-0 transition-transform duration-300 group-hover:-translate-y-1">
       <div className="zoom-img relative aspect-[4/3] overflow-hidden border-b border-border-2 bg-bg-alt">
         <img
           src={product.image}
@@ -42,7 +49,8 @@ export function ProductCard({ product }: { product: Product }) {
           ))}
         </div>
       </div>
-    </div>
+      </div>
+    </Link>
   )
 }
 

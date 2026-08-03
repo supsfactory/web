@@ -1,0 +1,73 @@
+meta:
+  title: 'How to Choose SUP Thickness — Engineering Analysis | {SITE}'
+  description: 'Technical guide to inflatable SUP board thickness: how 4", 5", and 6" boards differ in rigidity, weight, stability, tracking, and performance. Thickness recommendations for touring, yoga, surfing, racing, and all-around paddling.'
+back_text: 'Back to Research'
+
+hero:
+  tagline: 'Engineering'
+  title: 'How to Choose SUP Thickness — Engineering Analysis'
+  subtitle: '6 min read'
+
+content_html: |
+  <h2>The Three Standard Thicknesses</h2>
+
+  <h3>4" (10 cm) – Touring &amp; Performance</h3>
+  <ul>
+    <li>Highest rigidity – less flex under load</li>
+    <li>Lightest – less material, less air volume</li>
+    <li>Excellent tracking – reduced side-to-side rocking</li>
+    <li>Fastest – reduced drag, easier glide</li>
+    <li>Best for: Touring, racing, fitness paddling, experienced paddlers</li>
+  </ul>
+
+  <h3>5" (12.7 cm) – All-Around</h3>
+  <ul>
+    <li>Good rigidity – balanced flex-to-stiffness ratio</li>
+    <li>Moderate weight – standard material usage</li>
+    <li>Good primary + secondary stability</li>
+    <li>Best for: Recreational paddling, beginners, casual lake and river use</li>
+  </ul>
+
+  <h3>6" (15.2 cm) – Stability &amp; Yoga</h3>
+  <ul>
+    <li>Highest primary stability – massive buoyancy</li>
+    <li>Heaviest – more PVC material, larger air volume</li>
+    <li>Slowest – more drag, harder to maintain glide</li>
+    <li>Best for: Yoga/fitness, heavy paddlers (100+ kg), very choppy conditions</li>
+  </ul>
+
+  <h2>Engineering Analysis</h2>
+  <p>The stiffness of an inflatable SUP is governed by internal air pressure and the moment of inertia of the board's cross-section. At 20 PSI, a 4" board shows approximately 30% less deflection under load than a 6" board of the same width and length. Primary stability comes from waterline width and buoyancy; secondary stability is influenced by rail shape and board width.</p>
+
+  <h2>Thickness by Paddler Weight</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Paddler Weight</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Recommended Thickness</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Under 65 kg (143 lbs)</td><td class="p-3 border">4"</td></tr>
+      <tr><td class="p-3 border">65 – 90 kg (143 – 198 lbs)</td><td class="p-3 border">5"</td></tr>
+      <tr><td class="p-3 border">90 – 115 kg (198 – 253 lbs)</td><td class="p-3 border">5" or 6"</td></tr>
+      <tr><td class="p-3 border">Over 115 kg (253 lbs)</td><td class="p-3 border">6"</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Thickness vs. PSI Trade-off</h2>
+  <p>A common misconception is that higher PSI can compensate for excessive thickness. At 25 PSI, a 6" board shows more flex than a 4" board at 15 PSI because the geometric moment of inertia dominates the stiffness equation. For performance-oriented paddlers, a thinner board at lower pressure outperforms a thicker board at higher pressure.</p>
+
+  <h2>Afarer Lineup</h2>
+  <ul>
+    <li><strong>4" boards:</strong> Cheetah Touring series – 12' x 30" x 4" touring SUPs for fitness and distance paddling</li>
+    <li><strong>5" boards:</strong> Cheetah All-Round series – 10'6" x 32" x 5" for recreational use</li>
+    <li><strong>6" boards:</strong> Cheetah Ultra-Stable series – 10' x 34" x 6" for yoga, large paddlers, and photography platforms</li>
+  </ul>
+  <p>All boards utilize 1,680 DTEX drop-stitch cores with 20 PSI rated pressure and 1.2 mm PVC laminates.</p>
+
+cta:
+  title: 'Not sure which thickness is right for you?'
+  subtitle: 'Browse our SUP lineup or consult our sizing team.'
+  button_text: 'View SUP boards'
+  button_link: /products

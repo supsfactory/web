@@ -1,0 +1,123 @@
+meta:
+  title: 'About — Inflatable SUP & Boat Manufacturer | {SITE}'
+  description: 'afarer is a professional inflatable SUP and boat manufacturer with an in-house factory, marine engineering, and OEM/ODM production. Discover our certified plant and nautical solutions for brands and businesses.'
+  keywords:
+    - 'inflatable sup manufacturer'
+    - 'inflatable boat manufacturer'
+    - 'sup factory china'
+    - 'oem paddle board manufacturing'
+    - 'paddle board manufacturer'
+hero:
+  tagline: About us
+  image:
+    src: https://assets.afarer.com/images/afarer/factory/afarer-factory-building.webp
+    alt: afarer factory and workshop
+  title: |
+    Marine engineering, <br />
+    built the <span class="text-accent dark:text-white">afarer</span> way
+  subtitle: 'We started in a coastal workshop with one boat and a stubborn belief: marine products should be engineered like they matter, because they do. Today we ship to over 40 countries, but every hull still passes through the same hands that started the company.'
+
+stats:
+  title: By the numbers
+  columns: 4
+  stats:
+    - title: Hulls delivered
+      amount: '2,400+'
+    - title: Countries shipped
+      amount: '40'
+    - title: Years of combined experience
+      amount: '60'
+    - title: Average warranty response (hours)
+      amount: '24'
+
+features3_what_we_build:
+  title: What we build
+  subtitle: 'We started in a coastal workshop with one boat and a stubborn belief: marine products should be engineered like they matter, because they do. Today we ship to over 40 countries, but every hull still passes through the same hands that started the company.'
+  columns: 3
+  isBeforeContent: true
+  items:
+    - title: SUP boards
+      description: Inflatable SUP boards from 9 ft to 12 ft. Designed for touring, yoga, fishing and family use.
+      icon: tabler:ship
+    - title: Inflatable SUPs
+      description: PVC inflatable SUP boards from 9 ft to 12 ft. Light, tough and easy to stow.
+      icon: tabler:speedboat
+    - title: Premium SUP packages
+      description: Compact, high-spec SUPs custom-built to match your brand or fleet requirements.
+      icon: tabler:crown
+
+features3_more:
+  columns: 3
+  isAfterContent: true
+  items:
+    - title: Accessories
+      description: Paddles, pumps, covers, dry-bags and electronics. All matched to our boards.
+      icon: tabler:package
+    - title: Refit & repair
+      description: In-house board repair, pad replacement and accessory upgrades.
+      icon: tabler:tool
+    - title: Custom builds
+      description: Project-by-project design for commercial, scientific and military customers.
+      icon: tabler:hammer
+  image:
+    src: https://assets.afarer.com/images/afarer/factory/afarer-design-discussion-2.webp
+    alt: Boat design and engineering discussion
+
+steps2_values:
+  title: Our values
+  subtitle: Three principles that have shaped every product since day one.
+  items:
+    - title: Build like it carries your family
+      description: Every hull, weld and fastener is treated as if our own families will use it.
+      icon: tabler:heart
+    - title: Engineer before we sell
+      description: Inflatable SUP boards from 9 ft to 12 ft. Designed for touring, yoga, fishing and family use.
+      icon: tabler:settings
+    - title: Support that outlasts the warranty
+      description: Twenty-year-old hulls still call us for spare parts, and we still pick up.
+      icon: tabler:headset
+
+steps2_milestones:
+  title: Milestones
+  subtitle: A short version of the afarer story.
+  isReversed: true
+  items:
+    - title: Founded in a coastal workshop
+      description: Started by two naval architects with a CNC mill and a stubborn idea.
+      icon: tabler:building-factory
+    - title: First 1,000 hulls delivered
+      description: Reached in our seventh year, mostly through word of mouth and repeat customers.
+      icon: tabler:circle-check
+    - title: International export programme
+      description: Now shipping to 40+ countries with localised support partners on five continents.
+      icon: tabler:world
+
+features2_locations:
+  title: Our locations
+  tagline: Find us
+  columns: 3
+  items:
+    - title: Headquarters & workshop
+      description: Inflatable SUP boards from 9 ft to 12 ft. Designed for touring, yoga, fishing and family use.
+    - title: EU service centre
+      description: Inflatable SUP boards from 9 ft to 12 ft. Designed for touring, yoga, fishing and family use.
+    - title: APAC partner network
+      description: Authorised service partners in Australia, Japan, Singapore and Hong Kong.
+
+brand_hub_tagline: Brand
+brand_hub_title: Explore Our Brand
+brand_hub_subtitle: Dive deeper into our SUP engineering expertise, global presence, and the principles that drive us.
+
+brand_hub_cards:
+  - title: Marine Expertise
+    desc: Decades of material science, precision manufacturing, and real-world testing —from PVC/Hypalon fabrication to deep-V hull design and drop-stitch technology.
+    link: /brand-marine-expertise
+    link_label: 'Learn more →'
+  - title: Global Presence
+    desc: Shipping to 50+ countries from our Qingdao facility with authorized service partners across Europe, Asia-Pacific, and the Americas.
+    link: /brand-global-presence
+    link_label: 'Learn more →'
+  - title: Why afarer
+    desc: Vertical integration, dual certification (ISO 9001 + BSCI), CE compliance, and low MOQs —built for brands, distributors, and government agencies.
+    link: /brand-why-afarer
+    link_label: 'Learn more →'

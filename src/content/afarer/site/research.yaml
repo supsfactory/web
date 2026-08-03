@@ -1,0 +1,49 @@
+badge: Latest Research
+heading: Knowledge Center
+description: In-depth technical research on SUP and inflatable watercraft materials, construction, safety standards, and manufacturing
+topics:
+  - slug: drop-stitch-technology
+    category: Technology
+    readTime: 8 min read
+  - slug: pvc-vs-hypalon
+    category: Materials
+    readTime: 10 min read
+  - slug: ce-certification-guide
+    category: Compliance
+    readTime: 7 min read
+  - slug: sup-thickness-guide
+    category: Engineering
+    readTime: 6 min read
+  - slug: oem-buyer-guide
+    category: Sourcing
+    readTime: 12 min read
+  - slug: sup-manufacturing-process
+    category: Manufacturing
+    readTime: 10 min read
+  - slug: eva-foam-technology
+    category: Materials
+    readTime: 7 min read
+  - slug: uv-printing-vs-eva-block
+    category: Technology
+    readTime: 6 min read
+  - slug: fusion-lamination-vs-glue
+    category: Manufacturing
+    readTime: 8 min read
+  - slug: sup-valve-types
+    category: Engineering
+    readTime: 6 min read
+  - slug: fin-systems-guide
+    category: Engineering
+    readTime: 7 min read
+  - slug: board-hull-design
+    category: Engineering
+    readTime: 9 min read
+  - slug: quality-testing-standards
+    category: Compliance
+    readTime: 8 min read
+  - slug: sup-paddle-technology
+    category: Equipment
+    readTime: 7 min read
+  - slug: military-grade-pvc-specs
+    category: Materials
+    readTime: 8 min read

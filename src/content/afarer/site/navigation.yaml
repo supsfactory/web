@@ -1,0 +1,175 @@
+header:
+  topBar: []
+  links:
+    - text: Inflatable SUP
+      links:
+        - text: All-Around SUP
+          href: /all-around-sup
+        - text: Touring SUP
+          href: /touring-sup
+        - text: Yoga SUP
+          href: /yoga-sup
+        - text: Kids SUP
+          href: /kids-sup
+        - text: Fishing SUP
+          href: /fishing-sup
+        - text: Whitewater SUP
+          href: /whitewater-sup
+        - text: Ultra-Stable SUP
+          href: /ultra-stable-sup
+    - text: Technology
+      href: /technology
+    - text: OEM / ODM
+      links:
+        - text: OEM / ODM
+          href: /oem-odm
+        - text: SUP Manufacturer
+          href: /fabricant-sup-gonflable
+        - text: OEM Paddle (Private Label)
+          href: /oem-paddle
+        - text: Inflatable Boat Manufacturer
+          href: /bateau-gonflable-fabricant
+        - text: Nautical Equipment Supplier
+          href: /fournisseur-nautique
+    - text: Solutions
+      links:
+        - text: For Resorts & Hotels
+          href: /solutions/resorts-hotels
+        - text: For Paddle Clubs
+          href: /solutions/paddle-clubs
+        - text: For Rental Operators
+          href: /solutions/rental-operators
+        - text: For Retail Partners
+          href: /solutions/retail-partners
+        - text: For Distributors
+          href: /solutions/distributors
+        - text: Build Your Own Brand
+          href: /solutions/build-your-own-brand
+        - text: B2B Solutions Matrix
+          href: /b2b-solutions-matrix
+    - text: Resources
+      links:
+        - text: Industry Guides
+          href: /guides
+        - text: Case Studies
+          href: /evidence/case-studies
+        - text: Factory Tour
+          href: /factory
+        - text: Quality Control
+          href: /quality-testing
+        - text: Certifications
+          href: /certifications
+        - text: Safety
+          href: /safety
+        - text: Trust Center
+          href: /trust
+        - text: Download Catalog
+          href: /resources/download-catalog
+        - text: News
+          href: /news
+        - text: Journal
+          href: /journal
+    - text: About Afarer
+      href: /about
+    - text: Contact
+      href: /contact
+  actions:
+    - text: Get a Quote
+      href: /request-quotation
+      variant: primary
+footer:
+  links:
+    - title: Inflatable SUP
+      links:
+        - text: All-Around SUP
+          href: /all-around-sup
+        - text: Touring SUP
+          href: /touring-sup
+        - text: Yoga SUP
+          href: /yoga-sup
+        - text: Kids SUP
+          href: /kids-sup
+        - text: Fishing SUP
+          href: /fishing-sup
+        - text: Whitewater SUP
+          href: /whitewater-sup
+        - text: Ultra-Stable SUP
+          href: /ultra-stable-sup
+    - title: Solutions
+      links:
+        - text: For Resorts & Hotels
+          href: /solutions/resorts-hotels
+        - text: For Paddle Clubs
+          href: /solutions/paddle-clubs
+        - text: For Rental Operators
+          href: /solutions/rental-operators
+        - text: For Retail Partners
+          href: /solutions/retail-partners
+        - text: For Distributors
+          href: /solutions/distributors
+        - text: Build Your Own Brand
+          href: /solutions/build-your-own-brand
+        - text: B2B Solutions Matrix
+          href: /b2b-solutions-matrix
+    - title: Resources
+      links:
+        - text: Industry Guides
+          href: /guides
+        - text: Case Studies
+          href: /evidence/case-studies
+        - text: Factory Tour
+          href: /factory
+        - text: Quality Control
+          href: /quality-testing
+        - text: Certifications
+          href: /certifications
+        - text: Safety
+          href: /safety
+        - text: Trust Center
+          href: /trust
+        - text: Download Catalog
+          href: /resources/download-catalog
+        - text: News
+          href: /news
+        - text: Journal
+          href: /journal
+    - title: Company
+      links:
+        - text: About Afarer
+          href: /about
+        - text: Technology
+          href: /technology
+        - text: OEM / ODM
+          href: /oem-odm
+        - text: SUP Manufacturer
+          href: /fabricant-sup-gonflable
+        - text: OEM Paddle (Private Label)
+          href: /oem-paddle
+        - text: Inflatable Boat Manufacturer
+          href: /bateau-gonflable-fabricant
+        - text: Nautical Equipment Supplier
+          href: /fournisseur-nautique
+        - text: Contact
+          href: /contact
+        - text: Warranty
+          href: /warranty
+        - text: FAQ
+          href: /faq
+  secondaryLinks:
+    - text: Terms
+      href: /terms
+    - text: Privacy Policy
+      href: /privacy
+    - text: Medical Disclaimer
+      href: /disclaimer
+  socialLinks:
+    - text: YouTube
+      href: https://www.youtube.com/@afarer
+    - text: X
+      href: https://x.com/afarer
+    - text: Instagram
+      href: https://www.instagram.com/afarer_watersports/
+    - text: Facebook
+      href: https://www.facebook.com/profile.php?id=61572404318679
+    - text: RSS
+      href: /rss.xml

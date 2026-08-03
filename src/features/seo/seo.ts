@@ -10,6 +10,8 @@ const PUBLIC_PATHS = [
   '/about',
   '/contact',
   '/customizer',
+  '/waitlist',
+  '/changelog',
   '/custom-sup-manufacturing',
   '/private-label-sup',
   '/sup-for-resorts',

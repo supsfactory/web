@@ -1,0 +1,54 @@
+meta:
+  title: 'SUP Wholesale Distribution Partner Program | {SITE}'
+  description: "Join Afarer's global SUP wholesale distribution network. Exclusive territories, complete inflatable SUP product portfolio, competitive wholesale pricing, and dedicated account management in 50+ countries."
+
+hero:
+  tagline: Distributors
+  title: 'Join Our Global<br />Distribution Network'
+  subtitle: "SUP wholesale distribution partner program with exclusive territories, complete inflatable SUP product portfolio, and world-class support. Afarer ships to 50+ countries — we're looking for established marine and water sports distributors."
+  image:
+    src: https://assets.afarer.com/images/afarer/factory/afarer-factory-building.webp
+    alt: Afarer global distribution and shipping operations
+
+benefits:
+  title: What Distributors Get
+  subtitle: 'Everything you need to succeed in your market.'
+  items:
+    - 'Exclusive territory rights'
+    - 'Complete product catalog (SUP, accessories, parts)'
+    - 'Competitive wholesale pricing'
+    - 'Marketing & sales materials (translated)'
+    - 'Training program (product, sales, maintenance)'
+    - 'Trade show support'
+    - 'Sample program'
+    - 'Drop-ship capability'
+    - 'Dedicated distributor account manager'
+    - '45-60 day payment terms'
+
+coverage:
+  title: Current Distribution
+  subtitle: 'Afarer currently serves these markets directly.'
+  regions:
+    - name: Europe
+      countries: 'France, Germany, UK, Spain, Italy, Netherlands, Sweden, Norway, Poland, Greece'
+    - name: Asia
+      countries: 'Japan, South Korea, China, Thailand, Singapore'
+    - name: Middle East
+      countries: 'UAE, Saudi Arabia'
+    - name: Americas
+      countries: 'USA, Canada, Brazil, Mexico'
+    - name: Oceania
+      countries: 'Australia, New Zealand'
+    - name: Africa
+      countries: 'South Africa, Morocco'
+
+cta:
+  title: 'Ready to become a distributor?'
+  subtitle: 'Apply for our distributor program or download our distributor information kit.'
+  actions:
+    - text: 'Apply for Distributor Program'
+      href: '/contact?partner=distributor'
+      variant: 'primary'
+    - text: 'Download Distributor Kit'
+      href: '/resources/download-catalog'
+      variant: 'secondary'

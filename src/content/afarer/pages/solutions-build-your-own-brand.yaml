@@ -1,0 +1,115 @@
+meta:
+  title: 'Private Label SUP Manufacturing & Custom Brand Launch | {SITE}'
+  description: 'Private label SUP manufacturer for new paddle board brands. Launch your own SUP brand with Afarer — full OEM/ODM service including design, prototyping, custom branding, production, and global logistics.'
+
+hero:
+  tagline: Build Your Own Brand
+  title: 'Launch Your Own<br />SUP Brand'
+  subtitle: "You have the vision. We have the factory, the expertise, and the supply chain. Private label SUP manufacturing and custom SUP brand development — together, we'll build a brand that stands out."
+  image:
+    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Custom branded SUP board on water
+
+process:
+  title: Your Brand Journey
+  subtitle: 'From idea to market in 5 phases.'
+  steps:
+    - phase: 'Phase 1'
+      title: 'Idea'
+      period: 'Week 1-2'
+      items:
+        - 'Market research & competitor analysis'
+        - 'Target customer definition'
+        - 'Brand positioning workshop'
+        - 'Product line strategy'
+    - phase: 'Phase 2'
+      title: 'Design'
+      period: 'Week 3-6'
+      items:
+        - 'Board shape & graphic design'
+        - 'Color matching & material selection'
+        - 'Accessory specification'
+        - 'Packaging & label design'
+    - phase: 'Phase 3'
+      title: 'Prototype'
+      period: 'Week 7-10'
+      items:
+        - 'Sample production'
+        - 'Quality testing (pressure, buoyancy, UV)'
+        - 'Design adjustments'
+        - 'Final approval'
+    - phase: 'Phase 4'
+      title: 'Production'
+      period: 'Week 11-14'
+      items:
+        - 'Bulk manufacturing'
+        - 'QC inspection (per unit)'
+        - 'Sea freight / air freight'
+        - 'Customs clearance documents'
+    - phase: 'Phase 5'
+      title: 'Launch'
+      period: 'Week 15-16'
+      items:
+        - 'Product photography'
+        - 'Website product feed'
+        - 'Marketing materials'
+        - 'Launch support'
+
+packages:
+  title: Startup Packages
+  subtitle: 'Packages designed for every stage of brand growth.'
+  items:
+    - name: Starter Brand
+      tagline: '50-100 units · 2 board models'
+      features:
+        - 'Basic logo printing'
+        - 'Standard packaging'
+        - 'Email support'
+    - name: Growing Brand
+      tagline: '300-1,000 units · 3-5 board models'
+      features:
+        - 'Custom color + logo'
+        - 'Custom packaging'
+        - 'Product photos'
+        - 'Dedicated manager'
+    - name: Established Brand
+      tagline: '1,000+ units · Full product line'
+      features:
+        - 'Full customization'
+        - 'Premium packaging'
+        - 'Marketing collateral'
+        - 'Priority production'
+
+features:
+  title: Why Brands Choose Afarer
+  subtitle: '10+ years of OEM experience, full certification, and the lowest MOQ in the industry.'
+  items:
+    - title: '10+ Years OEM Experience'
+      description: '2,400+ hulls delivered to brands worldwide.'
+      icon: 'tabler:clock'
+    - title: 'Full Certification'
+      description: 'CE / ISO / UKCA / BSCI / REACH — all certified.'
+      icon: 'tabler:certificate'
+    - title: '30-Day Lead Time'
+      description: 'Faster than industry average from order to shipment.'
+      icon: 'tabler:truck-delivery'
+    - title: 'Low MOQ'
+      description: 'From 50 units — lowest in the industry.'
+      icon: 'tabler:package'
+    - title: 'In-House Design'
+      description: 'Full design support from concept to final artwork.'
+      icon: 'tabler:palette'
+    - title: 'Global Logistics'
+      description: 'Sea freight, air freight, and customs clearance support.'
+      icon: 'tabler:world'
+
+cta:
+  title: 'Ready to launch your brand?'
+  subtitle: 'Start your brand journey or download our OEM guide.'
+  actions:
+    - text: 'Start Your Brand Journey'
+      href: '/contact?package=oem'
+      variant: 'primary'
+    - text: 'Download OEM Guide'
+      href: '/resources/download-catalog'
+      variant: 'secondary'

@@ -1,0 +1,96 @@
+meta:
+  title: 'Case Studies — Successful OEM Projects | {SITE}'
+  description: 'Real projects, real results: SUP fleets for resorts, private labels, distribution, and rescue. See how afarer supports its OEM partners.'
+  keywords:
+    - 'sup case studies'
+    - 'oem paddle board projects'
+    - 'sup manufacturer references'
+    - 'nautical project examples'
+hero:
+  tagline: Case Studies
+  title: 'Real Projects, Real Results<br />—afarer in Action'
+  subtitle: 'See how afarer partners with distributors, brands, and operators worldwide to deliver custom marine solutions for every application.'
+  image:
+    src: https://assets.afarer.com/images/afarer/factory/afarer-factory-building.webp
+    alt: afarer case studies —custom marine manufacturing projects
+features3_cases:
+  tagline: Featured Cases
+  title: 'Custom Solutions<br />For Real Challenges'
+  isBeforeContent: false
+  columns: 3
+  items:
+    - title: European Diving Center Fleet
+      customer: BlueMed Diving Centers
+      country: Greece
+      industry: Diving & Marine Tourism
+      challenge: 'Required 12 dive-configured SUPs for a chain of diving centers across multiple Greek islands. Each board needed custom gear attachment, storage for 8 tanks, and stable platform for open-water diver entry. Fleet needed to arrive within 60 days for the start of tourist season.'
+      solution: 'Produced 12 SUP Voyager Dive models with integrated gear racks, stable platforms, and extra-wide drop-stitch construction for boarding stability. Each board was branded with the customer fleet livery. All 12 boards pressure-tested and shipped from Qingdao within 55 days.'
+      product: SUP Voyager Dive
+      results: 'All 12 boards delivered on time for the tourist season. Fleet has been in daily operation for 18+ months with zero material failures. Customer ordered 6 additional units in year two.'
+      image: 'https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp'
+      quote: 'The SUP Voyager Dive has been the backbone of our daily diving operations. Stability is excellent, and the gear storage layout keeps the deck clean and safe for our guests.'
+      icon: tabler:lifebuoy
+    - title: Australian Distributor OEM Program
+      customer: Pacific Watersports Pty Ltd
+      country: Australia
+      industry: OEM/ODM Manufacturing
+      challenge: 'Australian distributor needed a private-label SUP board range at competitive pricing to compete with Chinese direct-to-consumer brands. Required 8 unique models covering beginner through advanced, with custom graphics, custom packaging, and drop-ship fulfillment to retail outlets.'
+      solution: 'Developed 8 SUP models (All-Around, Touring, Yoga, Kids, Sport, Ultra-Compact, Ultra-Stable, Whitewater) with exclusive Australian graphics package. Custom retail packaging with QR codes linking to setup videos. Drop-ship logistics configured from Qingdao direct to Australian retail stores.'
+      product: Custom SUP Line (8 models)
+      results: 'Concept to first shipment in 90 days. Retail sell-through rate of 85% in first season. Distributor expanded partnership to include additional SUP models in year two.'
+      image: 'https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp'
+      quote: 'afarer delivered a complete SUP line in 90 days —from initial design to retail floor. The quality matches brands selling at twice the price point.'
+      icon: tabler:currency-dollar
+    - title: Middle East Rescue Equipment Supply
+      customer: National Civil Defense Authority
+      country: United Arab Emirates
+      industry: Search & Rescue
+      challenge: 'Civil defense organization needed 20 patrol-ready SUPs for coastal search and rescue, port security, and flood response. Required high-visibility boards, full safety equipment, and compliance with local maritime regulations.'
+      solution: 'Supplied 20 SUP Patrol models with high-visibility orange drop-stitch construction, full safety packages, SOLAS reflective tape, and reinforced construction. Each board was CE-certified and tested to applicable standards. Documentation package included compliance certificates for local registration.'
+      product: SUP Patrol
+      results: 'Fleet deployed across 5 coastal stations. Boards have been operating in extreme heat (45°C+) with no degradation. Performance and durability exceeded specifications.'
+      image: 'https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp'
+      quote: 'The SUP Patrol exceeded our operational requirements. In extreme heat conditions, the boards show no signs of UV degradation after 24 months of daily use.'
+      icon: tabler:alert-triangle
+    - title: European OEM Brand Partnership
+      customer: North Sea Marine Equipment BV
+      country: Netherlands
+      industry: OEM/ODM Manufacturing
+      challenge: 'Established European marine brand wanted to expand into the SUP market without investing in manufacturing facilities. Needed a white-label partner capable of producing 5 SUP models (9 ft to 12 ft) with private branding, CE certification, and exclusive EU distribution rights.'
+      solution: 'Established white-label manufacturing agreement for 5 SUP models. Each model branded with customer logos and color scheme. CE certification documentation prepared for each model. Exclusive EU distribution rights granted with minimum order commitments. Technical documentation provided for local service network.'
+      product: Custom SUP Line (5 models)
+      results: 'Multi-year agreement signed. First production run of 50 units shipped within 75 days. Brand launched at major trade show with positive dealer reception.'
+      image: 'https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp'
+      quote: 'Working with afarer allowed us to enter the SUP market without building a factory —they delivered a complete turnkey solution with CE certification and dealer support documentation.'
+      icon: tabler:building
+    - title: Caribbean Resort Fleet
+      customer: Paradise Island Resorts Ltd
+      country: Bahamas
+      industry: Marine Tourism & Hospitality
+      challenge: 'Luxury resort needed a complete water sports equipment fleet for guest activities: 40 SUP boards for guided tours, 20 additional SUPs for lagoon exploration, 10 SUP boards for guest excursions, plus accessories. All equipment needed custom resort branding and had to be delivered before peak tourist season.'
+      solution: 'Produced complete SUP package: 40 SUP Voyager boards (All-Around model), 20 SUP Explorer boards, 10 SUP Touring boards, plus PFDs, paddles, pumps, and repair kits. All equipment printed with resort logo and tropical color scheme. Containerized shipment with full inventory manifest.'
+      product: Full SUP Package (70+ units)
+      results: 'Fleet arrived 6 weeks before peak season. Guest satisfaction scores for water sports activities increased 40% year-over-year. Equipment has lasted 3 seasons with only routine maintenance.'
+      image: 'https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp'
+      quote: 'The complete package approach meant we received everything we needed in one shipment —boards and accessories all branded and ready for guest use. Our guests love the equipment quality.'
+      icon: tabler:beach
+    - title: US Coastal Patrol Contract
+      customer: Atlantic Coastal Security Agency
+      country: United States
+      industry: Maritime Security & Law Enforcement
+      challenge: 'US coastal security agency required heavy-duty patrol SUPs for open-water operations. Needed high-performance boards with military-spec equipment and compliance with US Coast Guard regulations.'
+      solution: 'Engineered SUP Patrol with reinforced drop-stitch construction, high-visibility color schemes, encrypted communication gear mounts, and integrated equipment attachment points. Boards reinforced for heavy-duty operations. USCG compliance documentation provided.'
+      product: SUP Patrol
+      results: 'Agency reported 95% mission readiness rate over first 12 months. Additional order placed for 8 units.'
+      image: 'https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp'
+      quote: 'The SUP Patrol gives our crews the performance required for open-water operations. The reinforced construction provides critical durability without compromising handling.'
+      icon: tabler:shield
+cta:
+  title: 'Have a project you want to discuss?'
+  subtitle: 'Every afarer partnership starts with a conversation. Tell us about your requirements and we will develop a solution.'
+  actions:
+    - variant: primary
+      text: Start your project
+      href: /contact
+    - text: View our capabilities
+      href: /brand/marine-expertise

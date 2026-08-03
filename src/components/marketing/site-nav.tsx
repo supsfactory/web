@@ -18,9 +18,12 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
     <>
       <Link to="/{-$locale}/solutions" className={linkCls}>{t('sup.nav.solutions')}</Link>
       <Link to="/{-$locale}/products" className={linkCls}>{t('sup.nav.products')}</Link>
+      <Link to="/$" params={{ _splat: 'factory' }} className={linkCls}>{t('sup.nav.factory')}</Link>
+      <Link to="/$" params={{ _splat: 'technology' }} className={linkCls}>{t('sup.nav.technology')}</Link>
+      <Link to="/$" params={{ _splat: 'academy' }} className={linkCls}>{t('sup.nav.academy')}</Link>
+      <Link to="/$" params={{ _splat: 'news' }} className={linkCls}>{t('sup.nav.news')}</Link>
       <Link to="/{-$locale}/who-we-serve" className={linkCls}>{t('sup.nav.whoWeServe')}</Link>
       <Link to="/{-$locale}/how-it-works" className={linkCls}>{t('sup.nav.howItWorks')}</Link>
-      <Link to="/{-$locale}/gallery" className={linkCls}>{t('sup.nav.gallery')}</Link>
       <Link to="/{-$locale}/contact" className={linkCls}>{t('sup.nav.contact')}</Link>
     </>
   )

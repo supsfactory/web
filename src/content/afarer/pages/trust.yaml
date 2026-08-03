@@ -1,0 +1,190 @@
+meta:
+  title: 'Trust — Quality, Standards & Reputation | {SITE}'
+  description: 'Why trust afarer: CE and ISO certifications, integrated factory, global references, and warranty. A professional inflatable SUP and boat manufacturer.'
+  keywords:
+    - 'trusted sup manufacturer'
+    - 'certified paddle board factory'
+    - 'reliable sup supplier'
+    - 'certified sup factory'
+hero:
+  tagline: 'Built to standards that matter'
+  title: 'Trust afarer'
+  subtitle: |
+    Every product we build is CE certified —tested for safety,<br />
+    durability, and performance. No shortcuts. No exceptions.
+  taglineSection: 'Certified. Tested. Proven.'
+  image: 'https://assets.afarer.com/images/afarer/hero/tech-meeting-small.webp'
+  imageAlt: 'afarer product undergoing quality testing'
+
+stats:
+  title: 'afarer by the numbers'
+  stats:
+    - title: 'CE Certified'
+      description: 'All recreational products meet EU safety standards'
+    - title: ''
+      description: 'Quality management system since 2012'
+    - title: 'BSCI & REACH'
+      description: 'Ethical manufacturing and material compliance'
+    - title: '2-Year Warranty'
+      description: 'On every afarer product —no questions asked'
+
+features3_certifications:
+  title: 'Certifications & Compliance'
+  subtitle: 'Every product is independently tested and certified to international standards.'
+  columns: 3
+  isBeforeContent: true
+  items:
+    - title: 'CE Certification'
+      description: 'All afarer SUPs meet the European CE safety standard for recreational use. Each product undergoes pressure, buoyancy, and load testing before leaving the factory.'
+      icon: 'tabler:certificate'
+    - title: ''
+      description: 'Our 12,000 m² Qingdao facility operates under an  quality management system. Every production batch is traceable, documented, and inspected.'
+      icon: 'tabler:clipboard-check'
+    - title: 'BSCI Social Compliance'
+      description: 'We are BSCI-certified, ensuring ethical labor practices, safe working conditions, and environmental responsibility across our supply chain.'
+      icon: 'tabler:users'
+    - title: 'REACH & RoHS'
+      description: 'All materials —PVC, Hypalon, EVA foam, adhesives —comply with EU REACH and RoHS regulations. No restricted substances, no compromises.'
+      icon: 'tabler:flask'
+    - title: 'Material Testing Lab'
+      description: 'In-house materials lab tests tensile strength, UV resistance, seam integrity, and abrasion for every fabric batch before production.'
+      icon: 'tabler:microscope'
+    - title: '2-Year Warranty'
+      description: 'Every afarer product comes with a two-year warranty against manufacturing defects. We stand behind what we build.'
+      icon: 'tabler:shield-check'
+
+testimonials:
+  tagline: 'Customer Trust'
+  title: 'What our customers say'
+  subtitle: 'From first-time paddlers to professional fleet operators —see why they trust afarer.'
+  items:
+    - content: 'We outfitted our entire rental fleet with afarer SUPs. Two seasons in, zero failures. The CE certification made insurance approval seamless.'
+      name: 'Marco V.'
+      title: 'Tour operator, Croatia'
+    - content: 'As a first-time buyer, I was nervous about quality. The ISO documentation and test reports they shared gave me complete confidence.'
+      name: 'James T.'
+      title: 'SUP Explorer 11 owner, Canada'
+    - content: 'We work with afarer for our coastal patrol units. Their QC process is consistent across every batch —that reliability matters in mission-critical operations.'
+      name: 'Lt. Cmdr. Andres'
+      title: 'Naval procurement, Philippines'
+
+steps2_manufacturing:
+  title: 'How we ensure quality'
+  subtitle: 'From raw material inspection to final pressure testing —every product goes through a rigorous quality chain.'
+  items:
+    - title: 'Raw Material Inspection'
+      description: 'Every roll of PVC fabric is tested for thickness, tensile strength, and UV resistance before entering production.'
+      icon: 'tabler:search'
+    - title: 'In-Process QC'
+      description: 'Weld seams, valve installations, and chamber bonds are inspected at each station during assembly.'
+      icon: 'tabler:eye'
+    - title: 'Pressure Testing'
+      description: 'Every inflatable product is inflated to 1.5x rated PSI and held for 24 hours to verify air retention and seam integrity.'
+      icon: 'tabler:wind'
+    - title: 'Final Inspection'
+      description: 'Each unit is inspected for finish, hardware, and packaging before being approved for shipment. Batch samples go to our lab for destructive testing.'
+      icon: 'tabler:clipboard-check'
+
+factory_audit:
+  title: 'Factory Audit & Social Compliance'
+  subtitle: 'Our 12,000 m² Qingdao facility is open to third-party audits. We maintain BSCI social compliance certification and welcome customer inspections.'
+  stats:
+    - value: '12,000 m²'
+      label: 'Production Facility'
+    - value: '200+'
+      label: 'Skilled Workers'
+    - value: '15,000+'
+      label: 'Annual Unit Capacity'
+    - value: 'BSCI'
+      label: 'Social Compliance'
+  highlights:
+    - title: 'BSCI Certified'
+      desc: 'amfori BSCI social compliance certification — ethical labour, safe conditions, environmental responsibility.'
+      link: '/certifications'
+    - title: 'Open for Inspection'
+      desc: 'We welcome customer factory audits. Schedule a visit or virtual tour of our Qingdao production lines.'
+      link: '/factory'
+    - title: 'Full Traceability'
+      desc: 'Every production batch is documented and traceable — from raw material lot numbers to final QC sign-off.'
+    - title: 'ISO 9001:2015'
+      desc: 'Quality management system certified by SGS. Our processes meet international manufacturing standards.'
+      link: '/certifications'
+
+warranty_section:
+  title: 'Warranty & After-Sales Support'
+  subtitle: 'We stand behind every product with clear warranty terms, fast claims processing, and genuine replacement parts.'
+  items:
+    - title: '2-Year Product Warranty'
+      desc: 'All afarer products carry a 2-year warranty against manufacturing defects — seam failure, valve defects, and material delamination under normal use.'
+    - title: 'Lifetime Parts Support'
+      desc: 'Genuine replacement parts — valves, repair kits, fins, D-rings — available for all models. We maintain moulds and tooling for a minimum of 5 years after production end.'
+    - title: '48-Hour Claim Response'
+      desc: 'Warranty claims acknowledged within 48 hours. Replacement boards shipped within 10 business days for approved claims.'
+    - title: 'Global Repair Network'
+      desc: 'Authorised repair centres in 15+ countries. Field repair kits available for remote operations. DIY repair guides for minor damage.'
+    - title: 'OEM Customer Support'
+      desc: 'Dedicated account managers for B2B partners. Quarterly business reviews, inventory planning, and co-branded marketing support.'
+    - title: 'Certification Package'
+      desc: 'Full compliance documentation provided with every shipment — CE Declaration, test reports, material safety data sheets.'
+      link: '/contact'
+
+trust_resources:
+  title: 'Trust Resources'
+  subtitle: 'Download our certification portfolio, QC reports, and compliance documentation.'
+  items:
+    - title: 'Certification Portfolio'
+      desc: 'CE, ISO 9001, BSCI, REACH, RoHS, AS 1799 certificates in one package.'
+    - title: 'QC Testing Standards Report'
+      desc: '24-hour pressure hold tests, UV aging per ISO, tensile strength validation — complete methodology.'
+    - title: 'Factory Profile & Audit Report'
+      desc: '12,000 m² facility overview with production line photos and third-party audit summary.'
+    - title: 'Warranty Policy Document'
+      desc: 'Full warranty terms, claims process, and replacement parts pricing.'
+  cta_text: 'Request Trust Resources'
+  cta_link: '/contact'
+
+faqs_sup:
+  title: 'SUP Board FAQs'
+  subtitle: 'Common questions about our stand-up paddle boards.'
+  columns: 2
+  items:
+    - title: 'What SUP board sizes does afarer offer?'
+      description: 'We offer SUP boards from 9 ft to 12 ft, covering everything from compact all-around boards to touring and specialty designs. Each model is available with multiple configuration options.'
+    - title: 'What is the difference between an inflatable SUP and a hard SUP?'
+      description: 'An inflatable SUP uses drop-stitch construction with thousands of internal threads allowing high air pressure, while a hard SUP uses epoxy or fiberglass. Inflatable SUPs offer portability and storage convenience without sacrificing rigidity.'
+    - title: 'What is the weight limit for SUP boards?'
+      description: 'Our SUP boards support up to 150 kg depending on the model and volume. Each product page lists the maximum load rating for your specific model.'
+    - title: 'Are afarer SUPs CE certified?'
+      description: 'Yes. All recreational SUP models are CE certified under applicable European standards for recreational use.'
+    - title: 'What is the warranty on SUP boards?'
+      description: 'All afarer SUPs come with a standard one-year warranty against manufacturing defects, covering seam failure, valve defects, and material delamination under normal use.'
+    - title: 'How long does it take to inflate a SUP board?'
+      description: 'Using the included hand pump, a full inflation to 15 PSI takes approximately 8–12 minutes. For faster inflation, we recommend our afarer 12V electric pump, which inflates a board in under 4 minutes.'
+
+faqs_materials:
+  title: 'SUP Material & Care FAQs'
+  subtitle: 'Common questions about our inflatable SUP materials, care, and storage.'
+  columns: 2
+  items:
+    - title: 'What materials are used in afarer inflatable SUPs?'
+      description: 'We use military-grade PVC (1100 denier) with UV-stabilized, abrasion-resistant construction, compliant with EU REACH and RoHS regulations.'
+    - title: 'How long do inflatable SUPs last?'
+      description: 'With proper care, a quality PVC inflatable SUP lasts 5–10 years. Regular cleaning, UV protection, and proper storage significantly extend service life.'
+    - title: 'What maintenance is required for an inflatable SUP?'
+      description: 'Basic maintenance includes rinsing with fresh water after each use (especially in saltwater), drying before storage, checking valve seals annually, and avoiding prolonged sun exposure when not in use.'
+    - title: 'Can inflatable SUPs be used in saltwater?'
+      description: 'Yes. All afarer inflatable SUPs are designed for both freshwater and saltwater use. We recommend rinsing with fresh water and drying thoroughly after saltwater exposure.'
+    - title: 'How do I store an inflatable SUP?'
+      description: 'Deflate, clean, and dry the board completely before storage. Roll loosely (avoid tight folds), store in a cool dry place away from direct sunlight, and keep off concrete floors to prevent moisture wicking.'
+    - title: 'What is the weight capacity of afarer inflatable SUPs?'
+      description: 'Weight capacities range from 100 kg for our smallest models to over 200 kg for larger boards. Each product page lists the maximum load rating for your specific model.'
+
+cta:
+  title: 'Want to see the certifications yourself?'
+  subtitle: 'Request our certification portfolio, factory audit reports, or material compliance documentation. No NDA required.'
+  actions:
+    - variant: primary
+      text: 'Request certification docs'
+      href: '/contact'
+    - text: 'Visit our factory page'
+      href: '/factory'

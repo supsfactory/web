@@ -1,0 +1,17 @@
+points:
+  - id: products
+    metric: '12'
+    label: products across 2 categories
+    detail: SUP, Accessory
+  - id: countries
+    metric: '50+'
+    label: countries served
+    detail: Global distribution network across EU, US, ASIA
+  - id: founded
+    metric: '2012'
+    label: founded
+    detail: Over a decade of water sports manufacturing
+  - id: certified
+    metric: ISO
+    label: CE certified
+    detail: Every product meets international safety standards

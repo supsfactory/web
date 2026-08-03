@@ -25,7 +25,7 @@ export interface Landing {
   ctaButton: string
 }
 
-const landings: Localized<Landing[]> = {
+export const landings: Localized<Landing[]> = {
   en: [
     {
       slug: 'custom-sup-manufacturing',

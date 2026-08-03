@@ -47,7 +47,7 @@ SUPsfactory 是 SUP（站立式桨板）OEM/ODM 制造商的生产级官网。�
 
 每个系列都是制造平台——板型、图案、EVA 防滑垫与包装都适配客户品牌（单图设计 50 件起订）。
 
-**AI 友好内容**：`/llms.txt` 与 `/llms-full.txt` 同时索引文档与**完整产品目录**（名称、SKU、规格、价格、适用人群），答案引擎可直接引用真实产品信息。
+**AI 友好内容**：`/llms.txt` 与 `/llms-full.txt` 同时索引文档、**完整产品目录**（名称、SKU、规格、价格、适用人群）与 SEO 落地页（含 FAQ），答案引擎可直接引用真实产品信息。
 
 ## 底层平台
 
@@ -55,16 +55,17 @@ SUPsfactory 是 SUP（站立式桨板）OEM/ODM 制造商的生产级官网。�
 |------|------|
 | **认证** | 基于 [better-auth](https://better-auth.com) 的邮箱密码登录（强制邮箱验证）、找回密码、注销账号。Google 与 GitHub OAuth——未配置环境变量时按钮自动隐藏（优雅降级）。会话以 D1 作为唯一数据源，并配合 cookie 缓存。 |
 | **存储** | [R2](https://developers.cloudflare.com/r2/) 对象存储，内置完整的头像上传功能（校验 + 私有服务路由流式返回）。本地开发经 miniflare 零配置——见 [存储文档](src/content/docs/features/storage.mdx)。 |
-| **邮件** | [Resend](https://resend.com) + 字符串模板（React Email 在 workerd 上不可用）。没配 API key 时邮件打印到控制台，本地开发不会被卡住。 |
+| **邮件** | [Resend](https://resend.com) + 字符串模板（React Email 在 workerd 上不可用）。没配 API key 时邮件打印到控制台，本地开发不会被卡住。发给后台的询盘通知邮件发送前对所有字段做 HTML 转义。 |
 | **等待列表** | 完整 pre-launch 报名闭环：公开报名页、Turnstile 防刷、后台管理页 + CSV 导出、报名邮箱自动同步 [Resend](https://resend.com) audience（未配 key 时优雅跳过）。 |
+| **询盘** | 公开 B2B 询盘表单（姓名/公司/国家/邮箱/WhatsApp/业务类型/数量/需求 + 可选 Logo 上传至 R2），带按 IP 限流 + Turnstile、字段全转义的后台通知邮件，以及后台管道：状态流转、CSV 导出、沙箱化 Logo 访问。 |
 | **更新日志** | MDX 驱动、按语言区分、带 `published` 开关的站内 `/changelog` 页。 |
 | **反馈箱** | 登录用户提交反馈 +「我的反馈」列表；后台治理页做状态流转与回复。同时是**加你自己功能的教学范本**：纵向切片、归属过滤、双门控模式与双池测试——见 [反馈文档](src/content/docs/features/feedback.mdx)。 |
 | **i18n** | 通过 TanStack 的 `{-$locale}` 可选前缀做路径式多语言路由——英文在 `/`，中文在 `/zh`。营销文案、UI 字符串与文档均已翻译。 |
 | **SEO** | 按语言生成的 sitemap、`hreflang`、canonical、OpenGraph 标签（封面图已改为 afarer CDN 的真实产品实拍）、`robots.txt`、认证页 `noindex`，以及 5 个关键词落地页。 |
-| **AI 友好** | **部署侧**：内置 [`llms.txt`](/llms.txt) 索引与 [`llms-full.txt`](/llms-full.txt) 全文语料——文档**加产品目录**；`/docs-md/*` 提供去除 frontmatter 的干净 Markdown；`robots.txt` 主动指向二者。**代码侧**：[`AGENTS.md`](AGENTS.md) 是编码 agent 的单一事实来源（自动导入 [`CLAUDE.md`](CLAUDE.md)）。 |
-| **后台** | better-auth admin 插件：角色、封禁、用户模拟登录、可搜索/分页用户表、统计仪表盘——全部基于真实数据。 |
+| **AI 友好** | **部署侧**：内置 [`llms.txt`](/llms.txt) 索引与 [`llms-full.txt`](/llms-full.txt) 全文语料——文档 + 产品目录 + SEO 落地页（含 FAQ）；`/docs-md/*` 提供去除 frontmatter 的干净 Markdown；`robots.txt` 主动指向二者。**代码侧**：[`AGENTS.md`](AGENTS.md) 是编码 agent 的单一事实来源（自动导入 [`CLAUDE.md`](CLAUDE.md)）。 |
+| **后台** | `ADMIN_EMAILS` 是**唯一权限真源**；DB 的 `role` 列只是缓存，并在每次受控访问时双向同步（首个操作即授权、邮箱移出即实时降权）。所有后台面——页面、server fn、CSV 导出、better-auth 的 `/api/auth/admin/*`——共用同一个 `assertAdmin()` 门，非管理员一律 **404**（后台面不可见）。角色最小权限（仅 `ban`/`impersonate`/`delete`/`list`）。可搜索/分页用户表、统计仪表盘、封禁/模拟登录/删除——全部基于真实数据。 |
 | **主题** | 暗色优先 + 亮/暗切换，cookie 持久化。 |
-| **安全 & 可观测性** | Turnstile 防刷、安全响应头 + 生产 CSP、认证端点限流（D1 存储）、启动期 env 校验（fail-fast）；CF Web Analytics（无 cookie）与 Sentry 上报——均可选，留空即关。 |
+| **安全 & 可观测性** | 基于 nonce 的生产 CSP（脚本无 `unsafe-inline`）、基线安全头、Turnstile 防刷、按 IP 限流（D1 存储）、启动期 env 校验（fail-fast）；后台端点门控到 `ADMIN_EMAILS`（非管理员 404）、后台通知邮件全字段 HTML 转义、上传 Logo 沙箱化返回（`default-src 'none'; sandbox`）；CF Web Analytics（无 cookie）与 Sentry 上报——均可选，留空即关。 |
 | **运维** | Cron Triggers 参考实现（每日清理过期 session/token/限流行）、local/staging/prod 多环境、GitHub Actions CI（lint + typecheck + build）。 |
 
 ## 技术栈
@@ -125,17 +126,20 @@ pnpm cf-typegen        # 从 wrangler.jsonc 重新生成 worker-configuration.d.
 src/
   features/        # 按业务逻辑纵向切片，每个模块自包含
     site/          # 营销内容（content.ts：产品/板块/FAQ）+ landings.ts + llm.ts
-    auth/          # better-auth 配置、中间件、社交登录按钮
+    auth/          # better-auth 配置、中间件、社交登录按钮、admin-roles（最小权限）
     storage/       # R2 对象存储：校验上传 + 服务路由（头像）
     email/         # Resend 客户端 + 字符串模板
     waitlist/      # 报名页 + Turnstile + 后台管理 + CSV 导出 + Resend audience 同步
+    inquiry/       # B2B 询盘表单：校验、限流、Turnstile、Logo 上传、
+                   # 全转义的后台通知邮件、后台管道（状态流转 + CSV）
     audience/      # Resend 联系人/受众同步（waitlist 复用）
     changelog/     # MDX 驱动的站内更新日志页 (/changelog)
     feedback/      # 示例反馈箱：提交/我的列表/后台治理——加自己功能的教学范本
     i18n/          # 语言字典 (en/zh) + provider
     seo/           # sitemap、robots、多语言 head 标签（og:image、hreflang）
     docs/          # fumadocs 源/布局配置 + llms.txt 文本生成
-    admin/         # admin 插件接线 + 仪表盘
+    admin/         # ADMIN_EMAILS 门控后台：assertAdmin 门、角色双向同步、
+                   # 用户列表/统计/封禁/模拟登录/删除 + CSV 导出
     analytics/     # CF Web Analytics beacon（可选）
     maintenance/   # Cron 定时清理任务（过期 session/token/限流行）
     theme/         # 暗色优先的主题切换
@@ -144,8 +148,8 @@ src/
     marketing/     # hero、why-us、who-we-serve、studio-section、products-section、
                    # how-it-works、gallery-section、cta、reveal、board-art、landing-page
   routes/
-    {-$locale}/    # 带可选语言前缀的页面：/、/zh、/products、/solutions、/customizer、
-                   # /sup-startup-brands、/admin、/app …
+    {-$locale}/    # 带可选语言前缀的页面：/、/zh、/products、/solutions、/who-we-serve、
+                   # /customizer、/waitlist、/changelog、5 个 SEO 落地页、/admin、/app …
     api/, docs/, docs-md/, llms.txt, robots.txt, sitemap.xml   # 顶级路由（locale 组之外）
   content/docs/    # 站内文档内容 (fumadocs 的 mdx 源)
   db/              # Drizzle schema barrel + client + 迁移逻辑

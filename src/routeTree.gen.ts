@@ -9,10 +9,46 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as WhatIsSupRouteImport } from './routes/what-is-sup'
+import { Route as WarrantyRouteImport } from './routes/warranty'
+import { Route as TrustRouteImport } from './routes/trust'
+import { Route as TourismRecreationRouteImport } from './routes/tourism-recreation'
+import { Route as TechnologyRouteImport } from './routes/technology'
+import { Route as SizeGuideRouteImport } from './routes/size-guide'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as SearchAndRescueRouteImport } from './routes/search-and-rescue'
+import { Route as SafetyRouteImport } from './routes/safety'
 import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
+import { Route as ResourcesRouteImport } from './routes/resources'
+import { Route as ResearchRouteImport } from './routes/research'
+import { Route as RequestQuotationRouteImport } from './routes/request-quotation'
+import { Route as RanddcenterRouteImport } from './routes/randdcenter'
+import { Route as QualityTestingRouteImport } from './routes/quality-testing'
+import { Route as QualityRouteImport } from './routes/quality'
+import { Route as PartnersRouteImport } from './routes/partners'
+import { Route as NewsRouteImport } from './routes/news'
+import { Route as MediaRouteImport } from './routes/media'
+import { Route as MaritimeSafetyDefenseRouteImport } from './routes/maritime-safety-defense'
 import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as LlmsFullDottxtRouteImport } from './routes/llms-full[.]txt'
+import { Route as LifestyleRouteImport } from './routes/lifestyle'
+import { Route as LearnRouteImport } from './routes/learn'
+import { Route as KnowledgeRouteImport } from './routes/knowledge'
+import { Route as JournalRouteImport } from './routes/journal'
+import { Route as InflatableVsHardboardRouteImport } from './routes/inflatable-vs-hardboard'
+import { Route as GuidesRouteImport } from './routes/guides'
+import { Route as FishingRouteImport } from './routes/fishing'
+import { Route as FactoryRouteImport } from './routes/factory'
+import { Route as EvidenceRouteImport } from './routes/evidence'
+import { Route as EntityDotjsonRouteImport } from './routes/entity[.]json'
+import { Route as DisasterReliefHumanitarianAidRouteImport } from './routes/disaster-relief-humanitarian-aid'
+import { Route as CustomRouteImport } from './routes/custom'
+import { Route as CommunityRouteImport } from './routes/community'
+import { Route as CommercialWorkboatsRouteImport } from './routes/commercial-workboats'
+import { Route as BrandRouteImport } from './routes/brand'
+import { Route as AfarerRouteImport } from './routes/afarer'
+import { Route as AcademyRouteImport } from './routes/academy'
+import { Route as SplatRouteImport } from './routes/$'
 import { Route as Char123LocaleChar125RouteRouteImport } from './routes/{-$locale}/route'
 import { Route as Char123LocaleChar125IndexRouteImport } from './routes/{-$locale}/index'
 import { Route as Char123LocaleChar125WhoWeServeRouteImport } from './routes/{-$locale}/who-we-serve'
@@ -55,14 +91,104 @@ import { Route as ApiInquiryLogoSplatRouteImport } from './routes/api/inquiry-lo
 import { Route as ApiAvatarsSplatRouteImport } from './routes/api/avatars/$'
 import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
 
+const WhatIsSupRoute = WhatIsSupRouteImport.update({
+  id: '/what-is-sup',
+  path: '/what-is-sup',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WarrantyRoute = WarrantyRouteImport.update({
+  id: '/warranty',
+  path: '/warranty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TrustRoute = TrustRouteImport.update({
+  id: '/trust',
+  path: '/trust',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TourismRecreationRoute = TourismRecreationRouteImport.update({
+  id: '/tourism-recreation',
+  path: '/tourism-recreation',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TechnologyRoute = TechnologyRouteImport.update({
+  id: '/technology',
+  path: '/technology',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SizeGuideRoute = SizeGuideRouteImport.update({
+  id: '/size-guide',
+  path: '/size-guide',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SearchAndRescueRoute = SearchAndRescueRouteImport.update({
+  id: '/search-and-rescue',
+  path: '/search-and-rescue',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SafetyRoute = SafetyRouteImport.update({
+  id: '/safety',
+  path: '/safety',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RobotsDottxtRoute = RobotsDottxtRouteImport.update({
   id: '/robots.txt',
   path: '/robots.txt',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ResourcesRoute = ResourcesRouteImport.update({
+  id: '/resources',
+  path: '/resources',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ResearchRoute = ResearchRouteImport.update({
+  id: '/research',
+  path: '/research',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RequestQuotationRoute = RequestQuotationRouteImport.update({
+  id: '/request-quotation',
+  path: '/request-quotation',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RanddcenterRoute = RanddcenterRouteImport.update({
+  id: '/randdcenter',
+  path: '/randdcenter',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QualityTestingRoute = QualityTestingRouteImport.update({
+  id: '/quality-testing',
+  path: '/quality-testing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QualityRoute = QualityRouteImport.update({
+  id: '/quality',
+  path: '/quality',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PartnersRoute = PartnersRouteImport.update({
+  id: '/partners',
+  path: '/partners',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NewsRoute = NewsRouteImport.update({
+  id: '/news',
+  path: '/news',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MediaRoute = MediaRouteImport.update({
+  id: '/media',
+  path: '/media',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MaritimeSafetyDefenseRoute = MaritimeSafetyDefenseRouteImport.update({
+  id: '/maritime-safety-defense',
+  path: '/maritime-safety-defense',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LlmsDottxtRoute = LlmsDottxtRouteImport.update({
@@ -73,6 +199,97 @@ const LlmsDottxtRoute = LlmsDottxtRouteImport.update({
 const LlmsFullDottxtRoute = LlmsFullDottxtRouteImport.update({
   id: '/llms-full.txt',
   path: '/llms-full.txt',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LifestyleRoute = LifestyleRouteImport.update({
+  id: '/lifestyle',
+  path: '/lifestyle',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LearnRoute = LearnRouteImport.update({
+  id: '/learn',
+  path: '/learn',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const KnowledgeRoute = KnowledgeRouteImport.update({
+  id: '/knowledge',
+  path: '/knowledge',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const JournalRoute = JournalRouteImport.update({
+  id: '/journal',
+  path: '/journal',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const InflatableVsHardboardRoute = InflatableVsHardboardRouteImport.update({
+  id: '/inflatable-vs-hardboard',
+  path: '/inflatable-vs-hardboard',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GuidesRoute = GuidesRouteImport.update({
+  id: '/guides',
+  path: '/guides',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FishingRoute = FishingRouteImport.update({
+  id: '/fishing',
+  path: '/fishing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FactoryRoute = FactoryRouteImport.update({
+  id: '/factory',
+  path: '/factory',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EvidenceRoute = EvidenceRouteImport.update({
+  id: '/evidence',
+  path: '/evidence',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EntityDotjsonRoute = EntityDotjsonRouteImport.update({
+  id: '/entity.json',
+  path: '/entity.json',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DisasterReliefHumanitarianAidRoute =
+  DisasterReliefHumanitarianAidRouteImport.update({
+    id: '/disaster-relief-humanitarian-aid',
+    path: '/disaster-relief-humanitarian-aid',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CustomRoute = CustomRouteImport.update({
+  id: '/custom',
+  path: '/custom',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CommunityRoute = CommunityRouteImport.update({
+  id: '/community',
+  path: '/community',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CommercialWorkboatsRoute = CommercialWorkboatsRouteImport.update({
+  id: '/commercial-workboats',
+  path: '/commercial-workboats',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BrandRoute = BrandRouteImport.update({
+  id: '/brand',
+  path: '/brand',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AfarerRoute = AfarerRouteImport.update({
+  id: '/afarer',
+  path: '/afarer',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AcademyRoute = AcademyRouteImport.update({
+  id: '/academy',
+  path: '/academy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SplatRoute = SplatRouteImport.update({
+  id: '/$',
+  path: '/$',
   getParentRoute: () => rootRouteImport,
 } as any)
 const Char123LocaleChar125RouteRoute =
@@ -316,10 +533,46 @@ const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
+  '/$': typeof SplatRoute
+  '/academy': typeof AcademyRoute
+  '/afarer': typeof AfarerRoute
+  '/brand': typeof BrandRoute
+  '/commercial-workboats': typeof CommercialWorkboatsRoute
+  '/community': typeof CommunityRoute
+  '/custom': typeof CustomRoute
+  '/disaster-relief-humanitarian-aid': typeof DisasterReliefHumanitarianAidRoute
+  '/entity.json': typeof EntityDotjsonRoute
+  '/evidence': typeof EvidenceRoute
+  '/factory': typeof FactoryRoute
+  '/fishing': typeof FishingRoute
+  '/guides': typeof GuidesRoute
+  '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
+  '/journal': typeof JournalRoute
+  '/knowledge': typeof KnowledgeRoute
+  '/learn': typeof LearnRoute
+  '/lifestyle': typeof LifestyleRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
+  '/maritime-safety-defense': typeof MaritimeSafetyDefenseRoute
+  '/media': typeof MediaRoute
+  '/news': typeof NewsRoute
+  '/partners': typeof PartnersRoute
+  '/quality': typeof QualityRoute
+  '/quality-testing': typeof QualityTestingRoute
+  '/randdcenter': typeof RanddcenterRoute
+  '/request-quotation': typeof RequestQuotationRoute
+  '/research': typeof ResearchRoute
+  '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
+  '/safety': typeof SafetyRoute
+  '/search-and-rescue': typeof SearchAndRescueRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/size-guide': typeof SizeGuideRoute
+  '/technology': typeof TechnologyRoute
+  '/tourism-recreation': typeof TourismRecreationRoute
+  '/trust': typeof TrustRoute
+  '/warranty': typeof WarrantyRoute
+  '/what-is-sup': typeof WhatIsSupRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
@@ -362,10 +615,46 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
 }
 export interface FileRoutesByTo {
+  '/$': typeof SplatRoute
+  '/academy': typeof AcademyRoute
+  '/afarer': typeof AfarerRoute
+  '/brand': typeof BrandRoute
+  '/commercial-workboats': typeof CommercialWorkboatsRoute
+  '/community': typeof CommunityRoute
+  '/custom': typeof CustomRoute
+  '/disaster-relief-humanitarian-aid': typeof DisasterReliefHumanitarianAidRoute
+  '/entity.json': typeof EntityDotjsonRoute
+  '/evidence': typeof EvidenceRoute
+  '/factory': typeof FactoryRoute
+  '/fishing': typeof FishingRoute
+  '/guides': typeof GuidesRoute
+  '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
+  '/journal': typeof JournalRoute
+  '/knowledge': typeof KnowledgeRoute
+  '/learn': typeof LearnRoute
+  '/lifestyle': typeof LifestyleRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
+  '/maritime-safety-defense': typeof MaritimeSafetyDefenseRoute
+  '/media': typeof MediaRoute
+  '/news': typeof NewsRoute
+  '/partners': typeof PartnersRoute
+  '/quality': typeof QualityRoute
+  '/quality-testing': typeof QualityTestingRoute
+  '/randdcenter': typeof RanddcenterRoute
+  '/request-quotation': typeof RequestQuotationRoute
+  '/research': typeof ResearchRoute
+  '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
+  '/safety': typeof SafetyRoute
+  '/search-and-rescue': typeof SearchAndRescueRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/size-guide': typeof SizeGuideRoute
+  '/technology': typeof TechnologyRoute
+  '/tourism-recreation': typeof TourismRecreationRoute
+  '/trust': typeof TrustRoute
+  '/warranty': typeof WarrantyRoute
+  '/what-is-sup': typeof WhatIsSupRoute
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
   '/api/search': typeof ApiSearchRoute
@@ -409,10 +698,46 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
+  '/$': typeof SplatRoute
+  '/academy': typeof AcademyRoute
+  '/afarer': typeof AfarerRoute
+  '/brand': typeof BrandRoute
+  '/commercial-workboats': typeof CommercialWorkboatsRoute
+  '/community': typeof CommunityRoute
+  '/custom': typeof CustomRoute
+  '/disaster-relief-humanitarian-aid': typeof DisasterReliefHumanitarianAidRoute
+  '/entity.json': typeof EntityDotjsonRoute
+  '/evidence': typeof EvidenceRoute
+  '/factory': typeof FactoryRoute
+  '/fishing': typeof FishingRoute
+  '/guides': typeof GuidesRoute
+  '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
+  '/journal': typeof JournalRoute
+  '/knowledge': typeof KnowledgeRoute
+  '/learn': typeof LearnRoute
+  '/lifestyle': typeof LifestyleRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
+  '/maritime-safety-defense': typeof MaritimeSafetyDefenseRoute
+  '/media': typeof MediaRoute
+  '/news': typeof NewsRoute
+  '/partners': typeof PartnersRoute
+  '/quality': typeof QualityRoute
+  '/quality-testing': typeof QualityTestingRoute
+  '/randdcenter': typeof RanddcenterRoute
+  '/request-quotation': typeof RequestQuotationRoute
+  '/research': typeof ResearchRoute
+  '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
+  '/safety': typeof SafetyRoute
+  '/search-and-rescue': typeof SearchAndRescueRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/size-guide': typeof SizeGuideRoute
+  '/technology': typeof TechnologyRoute
+  '/tourism-recreation': typeof TourismRecreationRoute
+  '/trust': typeof TrustRoute
+  '/warranty': typeof WarrantyRoute
+  '/what-is-sup': typeof WhatIsSupRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
@@ -458,10 +783,46 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/{-$locale}'
+    | '/$'
+    | '/academy'
+    | '/afarer'
+    | '/brand'
+    | '/commercial-workboats'
+    | '/community'
+    | '/custom'
+    | '/disaster-relief-humanitarian-aid'
+    | '/entity.json'
+    | '/evidence'
+    | '/factory'
+    | '/fishing'
+    | '/guides'
+    | '/inflatable-vs-hardboard'
+    | '/journal'
+    | '/knowledge'
+    | '/learn'
+    | '/lifestyle'
     | '/llms-full.txt'
     | '/llms.txt'
+    | '/maritime-safety-defense'
+    | '/media'
+    | '/news'
+    | '/partners'
+    | '/quality'
+    | '/quality-testing'
+    | '/randdcenter'
+    | '/request-quotation'
+    | '/research'
+    | '/resources'
     | '/robots.txt'
+    | '/safety'
+    | '/search-and-rescue'
     | '/sitemap.xml'
+    | '/size-guide'
+    | '/technology'
+    | '/tourism-recreation'
+    | '/trust'
+    | '/warranty'
+    | '/what-is-sup'
     | '/{-$locale}/admin'
     | '/admin/inquiries.csv'
     | '/admin/waitlist.csv'
@@ -504,10 +865,46 @@ export interface FileRouteTypes {
     | '/{-$locale}/app/'
   fileRoutesByTo: FileRoutesByTo
   to:
+    | '/$'
+    | '/academy'
+    | '/afarer'
+    | '/brand'
+    | '/commercial-workboats'
+    | '/community'
+    | '/custom'
+    | '/disaster-relief-humanitarian-aid'
+    | '/entity.json'
+    | '/evidence'
+    | '/factory'
+    | '/fishing'
+    | '/guides'
+    | '/inflatable-vs-hardboard'
+    | '/journal'
+    | '/knowledge'
+    | '/learn'
+    | '/lifestyle'
     | '/llms-full.txt'
     | '/llms.txt'
+    | '/maritime-safety-defense'
+    | '/media'
+    | '/news'
+    | '/partners'
+    | '/quality'
+    | '/quality-testing'
+    | '/randdcenter'
+    | '/request-quotation'
+    | '/research'
+    | '/resources'
     | '/robots.txt'
+    | '/safety'
+    | '/search-and-rescue'
     | '/sitemap.xml'
+    | '/size-guide'
+    | '/technology'
+    | '/tourism-recreation'
+    | '/trust'
+    | '/warranty'
+    | '/what-is-sup'
     | '/admin/inquiries.csv'
     | '/admin/waitlist.csv'
     | '/api/search'
@@ -550,10 +947,46 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/{-$locale}'
+    | '/$'
+    | '/academy'
+    | '/afarer'
+    | '/brand'
+    | '/commercial-workboats'
+    | '/community'
+    | '/custom'
+    | '/disaster-relief-humanitarian-aid'
+    | '/entity.json'
+    | '/evidence'
+    | '/factory'
+    | '/fishing'
+    | '/guides'
+    | '/inflatable-vs-hardboard'
+    | '/journal'
+    | '/knowledge'
+    | '/learn'
+    | '/lifestyle'
     | '/llms-full.txt'
     | '/llms.txt'
+    | '/maritime-safety-defense'
+    | '/media'
+    | '/news'
+    | '/partners'
+    | '/quality'
+    | '/quality-testing'
+    | '/randdcenter'
+    | '/request-quotation'
+    | '/research'
+    | '/resources'
     | '/robots.txt'
+    | '/safety'
+    | '/search-and-rescue'
     | '/sitemap.xml'
+    | '/size-guide'
+    | '/technology'
+    | '/tourism-recreation'
+    | '/trust'
+    | '/warranty'
+    | '/what-is-sup'
     | '/{-$locale}/admin'
     | '/admin/inquiries.csv'
     | '/admin/waitlist.csv'
@@ -598,10 +1031,46 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   Char123LocaleChar125RouteRoute: typeof Char123LocaleChar125RouteRouteWithChildren
+  SplatRoute: typeof SplatRoute
+  AcademyRoute: typeof AcademyRoute
+  AfarerRoute: typeof AfarerRoute
+  BrandRoute: typeof BrandRoute
+  CommercialWorkboatsRoute: typeof CommercialWorkboatsRoute
+  CommunityRoute: typeof CommunityRoute
+  CustomRoute: typeof CustomRoute
+  DisasterReliefHumanitarianAidRoute: typeof DisasterReliefHumanitarianAidRoute
+  EntityDotjsonRoute: typeof EntityDotjsonRoute
+  EvidenceRoute: typeof EvidenceRoute
+  FactoryRoute: typeof FactoryRoute
+  FishingRoute: typeof FishingRoute
+  GuidesRoute: typeof GuidesRoute
+  InflatableVsHardboardRoute: typeof InflatableVsHardboardRoute
+  JournalRoute: typeof JournalRoute
+  KnowledgeRoute: typeof KnowledgeRoute
+  LearnRoute: typeof LearnRoute
+  LifestyleRoute: typeof LifestyleRoute
   LlmsFullDottxtRoute: typeof LlmsFullDottxtRoute
   LlmsDottxtRoute: typeof LlmsDottxtRoute
+  MaritimeSafetyDefenseRoute: typeof MaritimeSafetyDefenseRoute
+  MediaRoute: typeof MediaRoute
+  NewsRoute: typeof NewsRoute
+  PartnersRoute: typeof PartnersRoute
+  QualityRoute: typeof QualityRoute
+  QualityTestingRoute: typeof QualityTestingRoute
+  RanddcenterRoute: typeof RanddcenterRoute
+  RequestQuotationRoute: typeof RequestQuotationRoute
+  ResearchRoute: typeof ResearchRoute
+  ResourcesRoute: typeof ResourcesRoute
   RobotsDottxtRoute: typeof RobotsDottxtRoute
+  SafetyRoute: typeof SafetyRoute
+  SearchAndRescueRoute: typeof SearchAndRescueRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
+  SizeGuideRoute: typeof SizeGuideRoute
+  TechnologyRoute: typeof TechnologyRoute
+  TourismRecreationRoute: typeof TourismRecreationRoute
+  TrustRoute: typeof TrustRoute
+  WarrantyRoute: typeof WarrantyRoute
+  WhatIsSupRoute: typeof WhatIsSupRoute
   AdminInquiriesDotcsvRoute: typeof AdminInquiriesDotcsvRoute
   AdminWaitlistDotcsvRoute: typeof AdminWaitlistDotcsvRoute
   ApiSearchRoute: typeof ApiSearchRoute
@@ -614,6 +1083,48 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/what-is-sup': {
+      id: '/what-is-sup'
+      path: '/what-is-sup'
+      fullPath: '/what-is-sup'
+      preLoaderRoute: typeof WhatIsSupRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/warranty': {
+      id: '/warranty'
+      path: '/warranty'
+      fullPath: '/warranty'
+      preLoaderRoute: typeof WarrantyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/trust': {
+      id: '/trust'
+      path: '/trust'
+      fullPath: '/trust'
+      preLoaderRoute: typeof TrustRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tourism-recreation': {
+      id: '/tourism-recreation'
+      path: '/tourism-recreation'
+      fullPath: '/tourism-recreation'
+      preLoaderRoute: typeof TourismRecreationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/technology': {
+      id: '/technology'
+      path: '/technology'
+      fullPath: '/technology'
+      preLoaderRoute: typeof TechnologyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/size-guide': {
+      id: '/size-guide'
+      path: '/size-guide'
+      fullPath: '/size-guide'
+      preLoaderRoute: typeof SizeGuideRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sitemap.xml': {
       id: '/sitemap.xml'
       path: '/sitemap.xml'
@@ -621,11 +1132,95 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/search-and-rescue': {
+      id: '/search-and-rescue'
+      path: '/search-and-rescue'
+      fullPath: '/search-and-rescue'
+      preLoaderRoute: typeof SearchAndRescueRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/safety': {
+      id: '/safety'
+      path: '/safety'
+      fullPath: '/safety'
+      preLoaderRoute: typeof SafetyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/robots.txt': {
       id: '/robots.txt'
       path: '/robots.txt'
       fullPath: '/robots.txt'
       preLoaderRoute: typeof RobotsDottxtRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/resources': {
+      id: '/resources'
+      path: '/resources'
+      fullPath: '/resources'
+      preLoaderRoute: typeof ResourcesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/research': {
+      id: '/research'
+      path: '/research'
+      fullPath: '/research'
+      preLoaderRoute: typeof ResearchRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/request-quotation': {
+      id: '/request-quotation'
+      path: '/request-quotation'
+      fullPath: '/request-quotation'
+      preLoaderRoute: typeof RequestQuotationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/randdcenter': {
+      id: '/randdcenter'
+      path: '/randdcenter'
+      fullPath: '/randdcenter'
+      preLoaderRoute: typeof RanddcenterRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/quality-testing': {
+      id: '/quality-testing'
+      path: '/quality-testing'
+      fullPath: '/quality-testing'
+      preLoaderRoute: typeof QualityTestingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/quality': {
+      id: '/quality'
+      path: '/quality'
+      fullPath: '/quality'
+      preLoaderRoute: typeof QualityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/partners': {
+      id: '/partners'
+      path: '/partners'
+      fullPath: '/partners'
+      preLoaderRoute: typeof PartnersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/news': {
+      id: '/news'
+      path: '/news'
+      fullPath: '/news'
+      preLoaderRoute: typeof NewsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/media': {
+      id: '/media'
+      path: '/media'
+      fullPath: '/media'
+      preLoaderRoute: typeof MediaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/maritime-safety-defense': {
+      id: '/maritime-safety-defense'
+      path: '/maritime-safety-defense'
+      fullPath: '/maritime-safety-defense'
+      preLoaderRoute: typeof MaritimeSafetyDefenseRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/llms.txt': {
@@ -640,6 +1235,132 @@ declare module '@tanstack/react-router' {
       path: '/llms-full.txt'
       fullPath: '/llms-full.txt'
       preLoaderRoute: typeof LlmsFullDottxtRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/lifestyle': {
+      id: '/lifestyle'
+      path: '/lifestyle'
+      fullPath: '/lifestyle'
+      preLoaderRoute: typeof LifestyleRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/learn': {
+      id: '/learn'
+      path: '/learn'
+      fullPath: '/learn'
+      preLoaderRoute: typeof LearnRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/knowledge': {
+      id: '/knowledge'
+      path: '/knowledge'
+      fullPath: '/knowledge'
+      preLoaderRoute: typeof KnowledgeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/journal': {
+      id: '/journal'
+      path: '/journal'
+      fullPath: '/journal'
+      preLoaderRoute: typeof JournalRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/inflatable-vs-hardboard': {
+      id: '/inflatable-vs-hardboard'
+      path: '/inflatable-vs-hardboard'
+      fullPath: '/inflatable-vs-hardboard'
+      preLoaderRoute: typeof InflatableVsHardboardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/guides': {
+      id: '/guides'
+      path: '/guides'
+      fullPath: '/guides'
+      preLoaderRoute: typeof GuidesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/fishing': {
+      id: '/fishing'
+      path: '/fishing'
+      fullPath: '/fishing'
+      preLoaderRoute: typeof FishingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/factory': {
+      id: '/factory'
+      path: '/factory'
+      fullPath: '/factory'
+      preLoaderRoute: typeof FactoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/evidence': {
+      id: '/evidence'
+      path: '/evidence'
+      fullPath: '/evidence'
+      preLoaderRoute: typeof EvidenceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/entity.json': {
+      id: '/entity.json'
+      path: '/entity.json'
+      fullPath: '/entity.json'
+      preLoaderRoute: typeof EntityDotjsonRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/disaster-relief-humanitarian-aid': {
+      id: '/disaster-relief-humanitarian-aid'
+      path: '/disaster-relief-humanitarian-aid'
+      fullPath: '/disaster-relief-humanitarian-aid'
+      preLoaderRoute: typeof DisasterReliefHumanitarianAidRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/custom': {
+      id: '/custom'
+      path: '/custom'
+      fullPath: '/custom'
+      preLoaderRoute: typeof CustomRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/community': {
+      id: '/community'
+      path: '/community'
+      fullPath: '/community'
+      preLoaderRoute: typeof CommunityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/commercial-workboats': {
+      id: '/commercial-workboats'
+      path: '/commercial-workboats'
+      fullPath: '/commercial-workboats'
+      preLoaderRoute: typeof CommercialWorkboatsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/brand': {
+      id: '/brand'
+      path: '/brand'
+      fullPath: '/brand'
+      preLoaderRoute: typeof BrandRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/afarer': {
+      id: '/afarer'
+      path: '/afarer'
+      fullPath: '/afarer'
+      preLoaderRoute: typeof AfarerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/academy': {
+      id: '/academy'
+      path: '/academy'
+      fullPath: '/academy'
+      preLoaderRoute: typeof AcademyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$': {
+      id: '/$'
+      path: '/$'
+      fullPath: '/$'
+      preLoaderRoute: typeof SplatRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/{-$locale}': {
@@ -1034,10 +1755,46 @@ const Char123LocaleChar125RouteRouteWithChildren =
 
 const rootRouteChildren: RootRouteChildren = {
   Char123LocaleChar125RouteRoute: Char123LocaleChar125RouteRouteWithChildren,
+  SplatRoute: SplatRoute,
+  AcademyRoute: AcademyRoute,
+  AfarerRoute: AfarerRoute,
+  BrandRoute: BrandRoute,
+  CommercialWorkboatsRoute: CommercialWorkboatsRoute,
+  CommunityRoute: CommunityRoute,
+  CustomRoute: CustomRoute,
+  DisasterReliefHumanitarianAidRoute: DisasterReliefHumanitarianAidRoute,
+  EntityDotjsonRoute: EntityDotjsonRoute,
+  EvidenceRoute: EvidenceRoute,
+  FactoryRoute: FactoryRoute,
+  FishingRoute: FishingRoute,
+  GuidesRoute: GuidesRoute,
+  InflatableVsHardboardRoute: InflatableVsHardboardRoute,
+  JournalRoute: JournalRoute,
+  KnowledgeRoute: KnowledgeRoute,
+  LearnRoute: LearnRoute,
+  LifestyleRoute: LifestyleRoute,
   LlmsFullDottxtRoute: LlmsFullDottxtRoute,
   LlmsDottxtRoute: LlmsDottxtRoute,
+  MaritimeSafetyDefenseRoute: MaritimeSafetyDefenseRoute,
+  MediaRoute: MediaRoute,
+  NewsRoute: NewsRoute,
+  PartnersRoute: PartnersRoute,
+  QualityRoute: QualityRoute,
+  QualityTestingRoute: QualityTestingRoute,
+  RanddcenterRoute: RanddcenterRoute,
+  RequestQuotationRoute: RequestQuotationRoute,
+  ResearchRoute: ResearchRoute,
+  ResourcesRoute: ResourcesRoute,
   RobotsDottxtRoute: RobotsDottxtRoute,
+  SafetyRoute: SafetyRoute,
+  SearchAndRescueRoute: SearchAndRescueRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
+  SizeGuideRoute: SizeGuideRoute,
+  TechnologyRoute: TechnologyRoute,
+  TourismRecreationRoute: TourismRecreationRoute,
+  TrustRoute: TrustRoute,
+  WarrantyRoute: WarrantyRoute,
+  WhatIsSupRoute: WhatIsSupRoute,
   AdminInquiriesDotcsvRoute: AdminInquiriesDotcsvRoute,
   AdminWaitlistDotcsvRoute: AdminWaitlistDotcsvRoute,
   ApiSearchRoute: ApiSearchRoute,

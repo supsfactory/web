@@ -1,0 +1,86 @@
+meta:
+  title: 'OEM Inflatable Paddle & Private Label | {SITE}'
+  description: 'OEM/ODM inflatable paddle manufacturer: custom paddle production, private label, and wholesale. CE-certified factory in China to build your own stand up paddle brand.'
+  keywords:
+    - 'OEM paddle board'
+    - 'ODM inflatable SUP'
+    - 'private label SUP'
+    - 'custom paddle manufacturer'
+    - 'paddle board wholesale'
+    - 'professional SUP supplier'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'OEM Inflatable Paddle<br />Manufacturing Under Your Brand'
+  subtitle: 'From idea to finished product: we manufacture your custom inflatable paddle. Logo, colors, packaging, custom mold — OEM/ODM production in China, ready for your market.'
+  image:
+    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+    alt: Custom OEM inflatable paddle with brand logo
+  actions:
+    - text: 'Start My OEM Project'
+      href: /contact
+      variant: primary
+    - text: 'See OEM Packages'
+      href: /oem-odm-manufacturer
+      variant: secondary
+stats:
+  - value: '16'
+    label: 'Weeks from idea to market'
+  - value: '50'
+    label: 'Minimum MOQ (units)'
+  - value: '200+'
+    label: 'Custom models delivered'
+  - value: '100%'
+    label: 'CE certification included'
+features:
+  title: 'A Complete OEM Service'
+  subtitle: 'Everything under one roof: design, prototyping, manufacturing, quality control, and logistics.'
+  columns: 3
+  items:
+    - title: 'Design & Engineering'
+      description: '3D modeling, PVC/VS2 material selection, and custom graphic design.'
+      icon: 'tabler:palette'
+    - title: 'Prototype & Validate'
+      description: 'CE-certified sample with quality testing before mass production.'
+      icon: 'tabler:flask'
+    - title: 'Mass Production'
+      description: 'Full-scale manufacturing with inline QC and factory audit support.'
+      icon: 'tabler:building-factory'
+    - title: 'Private Label'
+      description: 'Logo, labels, packaging, and display boxes in your brand image.'
+      icon: 'tabler:shield-check'
+    - title: 'Certified Quality'
+      description: 'CE / ISO / UKCA / BSCI / REACH — professional inflatable paddles for global markets.'
+      icon: 'tabler:certificate'
+    - title: 'Global Shipping'
+      description: 'FOB Qingdao, CIF major ports, and door-to-door delivery to 50+ countries.'
+      icon: 'tabler:world'
+faqs:
+  title: 'OEM Paddle Production FAQ'
+  subtitle: 'Answers to the most common questions from brands launching their own paddle.'
+  items:
+    - title: 'How do I create my own paddle brand?'
+      description: 'Launch your brand in 16 weeks: brief, design, CE-certified prototype, mass production, and delivery. Explore our OEM packages.'
+    - title: 'What is the production lead time?'
+      description: 'The sample is ready in 2-3 weeks, bulk production in 30-45 days depending on volume.'
+    - title: 'Does the paddle carry our logo?'
+      description: 'Yes — full private label: logo printing, custom colors, packaging, and labels in your brand.'
+    - title: 'Can I buy in bulk from day one?'
+      description: 'The MOQ is 50 units for standard models, with wholesale pricing tiers as volume increases.'
+geo:
+  tagline: 'B2B Positioning'
+  sentence: 'Afarer is a professional manufacturer of inflatable SUPs and inflatable boats (OEM/ODM), specialized in design, custom production, and nautical solutions for brands, distributors, clubs, and businesses.'
+  audiences:
+    - 'Private labels'
+    - 'Wholesalers'
+    - 'Distributors'
+    - 'Nautical centers'
+cta:
+  title: 'Bring your paddle brand to life'
+  subtitle: 'Receive a detailed OEM quote within 24 hours.'
+  actions:
+    - text: 'Request an OEM Quote'
+      href: /contact
+      variant: primary
+    - text: 'Download the OEM Guide'
+      href: /research/oem-buyer-guide
+      variant: secondary

@@ -1,0 +1,27 @@
+visuals:
+  - id: life-vest-classic
+    image: https://assets.afarer.com/images/afarer/products/afarer-life-vest-classic.webp
+  - id: life-vest-pro
+    image: https://assets.afarer.com/images/afarer/products/life-jacket-afarer-inflatable-boat-afarer-factory-exterior.webp
+  - id: sup-explorer-11
+    image: https://assets.afarer.com/images/afarer/products/afarer-sup-allround-board.webp
+  - id: sup-cheetah-surge
+    image: https://assets.afarer.com/images/afarer/products/sup-series/sup-cheetah-surge-1.webp
+  - id: sup-leviathan-wake
+    image: https://assets.afarer.com/images/afarer/products/sup-series/sup-leviathan-wake-1.webp
+  - id: sup-medusa-glow
+    image: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+  - id: sup-ocean-pulse
+    image: https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-pulse-1.webp
+  - id: sup-ocean-voyager
+    image: https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp
+  - id: sup-dolphin-wave
+    image: https://assets.afarer.com/images/afarer/products/sup-series/sup-dolphin-wave-1.webp
+  - id: sup-flowing-lotus
+    image: https://assets.afarer.com/images/afarer/products/sup-series/sup-flowing-lotus-1.webp
+  - id: sup-jungle-mandala
+    image: https://assets.afarer.com/images/afarer/products/sup-series/sup-jungle-mandala-1.webp
+  - id: sup-tropical-breeze
+    image: https://assets.afarer.com/images/afarer/products/sup-series/sup-tropical-breeze-1.webp
+  - id: oars-pump-set
+    image: https://assets.afarer.com/images/afarer/products/accessories/oar-pump-1.webp

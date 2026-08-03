@@ -1,0 +1,123 @@
+meta:
+  title: 'B2B Client Solutions Matrix | {SITE}'
+  description: 'Complete Afarer B2B client solutions matrix covering 24 customer types — from outdoor startups to marine conservation institutions.'
+
+hero:
+  tagline: B2B Client Solutions
+  title: '24 B2B Solutions<br />Matched to Your Business'
+  subtitle: 'From startup founders to global distributors — find the exact Afarer solution designed for your business model, industry, and goals.'
+  image:
+    src: https://assets.afarer.com/images/afarer/factory/afarer-factory-aerial-1.webp
+    alt: Afarer factory and manufacturing facility
+
+solutions:
+  title: Client Solutions Matrix
+  subtitle: 'Every customer type, their core need, and the Afarer solution page designed for them.'
+  items:
+    - clientType: Outdoor Startup Founder
+      need: Brand Creation
+      solutionPage: Build Your SUP Brand
+      link: /solutions/sup-brand-startup
+    - clientType: Outdoor Brand Manager
+      need: Outdoor Brand Expansion Into Water Sports
+      solutionPage: Expand Outdoor Brand Into Water Sports
+      link: /solutions/expand-outdoor-brand-water-sports
+    - clientType: Surf Shop Owner
+      need: Surf Business Upgrade
+      solutionPage: Bring Inflatable Technology Into Surf Business
+      link: /solutions/inflatable-technology-for-surf-business
+    - clientType: Amazon Seller
+      need: E-commerce Growth
+      solutionPage: Product Differentiation & Fast Supply
+      link: /solutions/ecommerce-sup-brand-development
+    - clientType: Fishing Gear Brand
+      need: Fishing SUP
+      solutionPage: Create Your Fishing SUP Brand
+      link: /solutions/create-fishing-sup-brand
+    - clientType: Yoga & Wellness Brand
+      need: Wellness Water Products
+      solutionPage: SUP Yoga Equipment Solutions
+      link: /solutions/sup-yoga-wellness-equipment
+    - clientType: Creator Brand
+      need: Influencer Brand
+      solutionPage: Creator Edition SUP Startup
+      link: /solutions/creator-influencer-sup-brand
+    - clientType: Paddle Club Founder
+      need: Club Fleet
+      solutionPage: Commercial SUP Fleet
+      link: /solutions/commercial-sup-fleet
+    - clientType: Rental Business Owner
+      need: Rental Operations
+      solutionPage: Durable Rental Fleet Solution
+      link: /solutions/durable-sup-rental-fleet
+    - clientType: Resort Activity Manager
+      need: Hotel Experience
+      solutionPage: Resort Water Activity Package
+      link: /solutions/resort-water-activity-package
+    - clientType: Water Sports Academy
+      need: Training & Education
+      solutionPage: SUP Academy Equipment Program
+      link: /solutions/sup-academy-equipment-program
+    - clientType: Cruise & Yacht Company
+      need: Yacht Experience
+      solutionPage: Luxury Portable SUP Package
+      link: /solutions/luxury-portable-sup-package
+    - clientType: Outdoor Retail Buyer
+      need: Retail Channel
+      solutionPage: Retail Private Label Program
+      link: /solutions/retail-private-label-program
+    - clientType: Distributor & Importer
+      need: Regional Distribution
+      solutionPage: Regional OEM & Supply Chain Partner
+      link: /solutions/regional-oem-supply-chain-partner
+    - clientType: Corporate Project Buyer
+      need: Corporate Events
+      solutionPage: Corporate SUP Event Package
+      link: /solutions/corporate-sup-event-package
+    - clientType: Water Sports Brand Manager
+      need: Water Sports Brand Expansion
+      solutionPage: Expand Your Water Sports Portfolio
+      link: /solutions/expand-your-water-sports-portfolio
+    - clientType: Pet Adventure Brand Owner
+      need: Pet Outdoor
+      solutionPage: Pet-Friendly Paddle Board Program
+      link: /solutions/pet-friendly-paddle-board-program
+    - clientType: Beach Recreation Operator
+      need: Beach Entertainment
+      solutionPage: Complete Beach Activity Equipment Solutions
+      link: /solutions/complete-beach-activity-equipment-solutions
+    - clientType: Water Park Developer
+      need: Theme Entertainment
+      solutionPage: Commercial Water Park SUP Fleet
+      link: /solutions/commercial-water-park-sup-fleet
+    - clientType: Private Island & Luxury Club Owner
+      need: High-End Lifestyle
+      solutionPage: Premium Custom SUP Collection
+      link: /solutions/premium-custom-sup-collection
+    - clientType: Tourism Board & Public Park Operator
+      need: Public Tourism Projects
+      solutionPage: Destination Water Sports Package
+      link: /solutions/destination-water-sports-package
+    - clientType: Kids Adventure & Summer Camp Operator
+      need: Youth Education
+      solutionPage: Kids Exploration SUP Program
+      link: /solutions/kids-exploration-sup-program
+    - clientType: Water Rescue & Safety Organization
+      need: Professional Rescue
+      solutionPage: Professional Water Rescue SUP System
+      link: /solutions/professional-water-rescue-sup-system
+    - clientType: Marine Conservation & Research Institution
+      need: Environmental Research
+      solutionPage: Eco Research & Monitoring SUP Platform
+      link: /solutions/eco-research-monitoring-sup-platform
+
+cta:
+  title: 'Not sure which solution fits your business?'
+  subtitle: 'Describe your project to our B2B team and we will recommend the right configuration and pricing.'
+  actions:
+    - variant: primary
+      text: Talk to Our B2B Team
+      href: /contact?subject=b2b-solutions
+    - variant: secondary
+      text: Download Catalog
+      href: /resources/download-catalog
