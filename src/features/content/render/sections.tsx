@@ -564,9 +564,103 @@ function CaseList() {
   )
 }
 
-/* ─────────────────────────── html + prose ─────────────────────────── */
+/* ─────────────────────── cases (features3_cases) ─────────────────────── */
 
-function HtmlWidget({ html }: { html: string }) {
+function CaseCardsWidget({ c }: { c: Record<string, unknown> }) {
+  const items = arr(c.items) as Record<string, unknown>[]
+  if (items.length === 0) return null
+  return (
+    <Container>
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
+      <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        {items.map((it, i) => (
+          <div key={i} className="marine-card flex h-full flex-col p-6">
+            {str(it.image) && <img src={str(it.image)} alt="" loading="lazy" className="mb-4 aspect-[16/9] w-full rounded-xl border border-border-2 object-cover" />}
+            <div className="flex flex-wrap items-center gap-2 text-[11.5px] font-bold uppercase tracking-wider text-fg-3">
+              {str(it.industry) && <span className="pill border-primary/25! bg-soft! text-primary!">{str(it.industry)}</span>}
+              {str(it.country) && <span>{str(it.country)}</span>}
+            </div>
+            <h3 className="mt-3 font-display text-[17px] font-bold">{brandify(str(it.title))}</h3>
+            {str(it.customer) && <p className="mt-1 text-[12.5px] font-semibold text-fg-3">{brandify(str(it.customer))}</p>}
+            {str(it.challenge) && <p className="mt-3 flex-1 text-[13.5px] leading-relaxed text-fg-2">{brandify(str(it.challenge))}</p>}
+            {str(it.quote) && <blockquote className="mt-4 border-t border-border pt-3 text-[12.5px] italic leading-relaxed text-fg-3">“{brandify(str(it.quote))}”</blockquote>}
+          </div>
+        ))}
+      </div>
+    </Container>
+  )
+}
+
+/* ─────────────────────── academy categories + knowledge ─────────────────────── */
+
+function AcademyCategories({ c }: { c: Record<string, unknown> }) {
+  const cats = (arr(c.__raw).length ? arr(c.__raw) : arr(c.categories ?? c.items)) as Record<string, unknown>[]
+  if (cats.length === 0) return null
+  return (
+    <Container>
+      <SectionHead kicker={str(c.tagline) || 'Learning Paths'} title="Skill Paths" sub="Step-by-step guides and tutorials organized by skill level —from SUP basics to advanced rescue techniques." />
+      <div className="mt-10 grid gap-5 md:grid-cols-2">
+        {cats.map((cat, i) => {
+          const guides = arr(cat.guides) as Record<string, unknown>[]
+          return (
+            <div key={i} className="marine-card flex h-full flex-col p-6">
+              <div className="flex items-center gap-3">
+                <span className={`inline-flex h-9 w-9 items-center justify-center rounded-lg bg-soft font-display text-sm font-extrabold text-primary`}>
+                  {String(str(cat.level).charAt(0)) || '?'}
+                </span>
+                <div>
+                  <h3 className="font-display text-[17px] font-bold">{brandify(str(cat.level) || '')} Guides</h3>
+                </div>
+              </div>
+              <div className="mt-4 space-y-2.5">
+                {guides.map((g, j) => (
+                  <Link key={j} to="/$" params={{ _splat: str(g.href || g.slug).replace(/^\/+/, '') }} className="group block rounded-xl border border-border px-4 py-3 transition-colors hover:border-primary/40">
+                    <div className="text-[14px] font-bold">{brandify(str(g.title))}</div>
+                    {str(g.desc) && <p className="mt-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )
+        })}
+      </div>
+    </Container>
+  )
+}
+
+function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
+  const sections = (arr(c.__raw).length ? arr(c.__raw) : arr(c.sections ?? c.items)) as Record<string, unknown>[]
+  if (sections.length === 0) return null
+  return (
+    <Container>
+      <SectionHead kicker="Knowledge Center" title="Knowledge Center" sub="Expert knowledge and buying guides for marine professionals, fleet operators, and water sports enthusiasts." />
+      <div className="mt-10 space-y-10">
+        {sections.map((sec, i) => {
+          const guides = arr(sec.guides) as Record<string, unknown>[]
+          return (
+            <div key={i}>
+              <h3 className="font-display text-xl font-extrabold">{brandify(str(sec.title) || '')}</h3>
+              {str(sec.desc) && <p className="mt-1.5 max-w-3xl text-[13.5px] leading-relaxed text-fg-3">{brandify(str(sec.desc))}</p>}
+              <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                {guides.map((g, j) => (
+                  <Link key={j} to="/$" params={{ _splat: str(g.href).replace(/^\/+/, '') }} className="marine-card group flex h-full flex-col p-5">
+                    <h4 className="font-display text-[14px] font-bold">{brandify(str(g.title))}</h4>
+                    {str(g.desc) && <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
+                    <span className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-primary">
+                      Read guide <ArrowRight size={13} />
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )
+        })}
+      </div>
+    </Container>
+  )
+}
+
+/* ─────────────────────────── html + prose ─────────────────────────── */function HtmlWidget({ html }: { html: string }) {
   return (
     <Container narrow>
       <div
@@ -595,6 +689,9 @@ const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNod
   material_traceability: (c) => <TraceabilityWidget c={c} />,
   qc_dashboard: (c) => <StatGrid items={statItems(c)} heading={c} />,
   equipment_section: (c) => <EquipmentWidget c={c} />,
+  features3_cases: (c) => <CaseCardsWidget c={c} />,
+  categories: (c) => <AcademyCategories c={c} />,
+  knowledge_sections: (c) => <AcademyKnowledge c={c} />,
 }
 
 const TYPE_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNode | null> = {
@@ -677,6 +774,7 @@ function ContentWidget({ c }: { c: unknown }) {
 
 export function AfarerSection({ def, content }: { def: AfarerSectionDef; content: unknown }) {
   const c = content
+  if (def.type === 'blog_latest' && c == null) return <BlogLatest c={{} as Record<string, unknown>} />
   if (c == null) return null
   if (typeof c === 'string' && c.trim() === '') return null
   const obj = isObj(c) ? c : { __raw: c }
@@ -684,7 +782,7 @@ export function AfarerSection({ def, content }: { def: AfarerSectionDef; content
   if (keyWidget) return keyWidget(obj)
   if (def.type === 'content') return <ContentWidget c={c} />
   const typeWidget = TYPE_WIDGETS[def.type]
-  if (typeWidget) return typeWidget(obj)
+  if (typeWidget && isObj(c)) return typeWidget(obj)
   return <ContentWidget c={c} />
 }
 
