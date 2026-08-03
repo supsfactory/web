@@ -25,15 +25,24 @@ test('CSP is omitted in dev (PROD=false)', () => {
   expect(res.headers.get('content-security-policy')).toBeNull()
 })
 
-test('CSP is set in production and allows Turnstile/analytics', () => {
+test('CSP is set in production and allows Turnstile/analytics; nonce replaces unsafe-inline for scripts', () => {
   vi.stubEnv('PROD', true)
-  const csp = withSecurityHeaders(new Response('x')).headers.get('content-security-policy')
+  const csp = withSecurityHeaders(new Response('x'), 'abc123').headers.get('content-security-policy')
   expect(csp).toContain("default-src 'self'")
+  expect(csp).toContain("script-src 'self' 'nonce-abc123'")
+  expect(csp).not.toContain("script-src 'self' 'unsafe-inline'")
+  expect(csp).toContain("style-src 'self' 'unsafe-inline'") // inline style attrs only
   expect(csp).toContain('https://challenges.cloudflare.com') // Turnstile
   expect(csp).toContain('https://static.cloudflareinsights.com') // Web Analytics
   expect(csp).not.toContain('fonts.googleapis.com') // fonts are self-hosted
   expect(csp).not.toContain('fonts.gstatic.com')
   expect(csp).toContain("frame-ancestors 'none'")
+})
+
+test('prod response without a nonce skips CSP rather than emitting unsafe-inline', () => {
+  vi.stubEnv('PROD', true)
+  const res = withSecurityHeaders(new Response('x'))
+  expect(res.headers.get('content-security-policy')).toBeNull()
 })
 
 test('protocol upgrades (101 / websocket) pass through untouched', () => {

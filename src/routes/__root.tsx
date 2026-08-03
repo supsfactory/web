@@ -3,6 +3,7 @@ import { isLocale, defaultLocale } from '@/features/i18n/locale'
 import { getPreferences } from '@/server/preferences'
 import { getOptionalUser } from '@/features/auth/middleware'
 import { getAnalyticsToken } from '@/features/analytics/analytics'
+import { getNonce } from '@/lib/csp'
 import { Toaster } from '@/components/ui/sonner'
 import { useResolvedTheme } from '@/features/theme/use-resolved-theme'
 import appCss from '@/styles/app.css?url'
@@ -72,10 +73,13 @@ function RootComponent() {
   // （docs 翻译成英文时同步改这里）。
   const lang = isLocale(params.locale) ? params.locale : pathname.startsWith('/docs') ? 'zh' : defaultLocale
   const resolvedTheme = useResolvedTheme(theme)
+  // CSP nonce for the two inline scripts (theme boot + hydration); undefined in
+  // dev, where no CSP is enforced anyway (see src/lib/security-headers.ts).
+  const nonce = getNonce()
   return (
     <html lang={lang} className={theme} suppressHydrationWarning>
       <head>
-        <script dangerouslySetInnerHTML={{ __html: THEME_BOOT_SCRIPT }} />
+        <script nonce={nonce} dangerouslySetInnerHTML={{ __html: THEME_BOOT_SCRIPT }} />
         <HeadContent />
       </head>
       <body>

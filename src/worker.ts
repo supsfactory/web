@@ -11,6 +11,7 @@
 import * as Sentry from '@sentry/cloudflare'
 import entry from '@tanstack/react-start/server-entry'
 import { withSecurityHeaders } from '@/lib/security-headers'
+import { runWithNonce, getNonce } from '@/lib/csp'
 import { assertEnvOnce } from '@/lib/env-validate'
 import { createDb } from '@/db/client'
 import { runCleanup } from '@/features/maintenance/cleanup'
@@ -22,8 +23,12 @@ const fetchHandler = (
 const handler = {
   async fetch(request: Request, env: Cloudflare.Env, ctx: ExecutionContext): Promise<Response> {
     await assertEnvOnce()
-    const response = await fetchHandler(request, env, ctx)
-    return withSecurityHeaders(response)
+    // The nonce scope must wrap BOTH the SSR render (script tags read it) and
+    // header construction (CSP references it) — ALS makes that request-scoped.
+    return runWithNonce(async () => {
+      const response = await fetchHandler(request, env, ctx)
+      return withSecurityHeaders(response, getNonce())
+    })
   },
 
   // Cron Triggers entry (schedule in wrangler.jsonc → triggers.crons). Runs the
