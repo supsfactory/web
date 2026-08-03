@@ -18,8 +18,8 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           <Logo />
           <p className="mt-3.5 max-w-[24em] text-[13.5px] leading-relaxed text-fg-3">{t('sup.footer.tagline')}</p>
           <div className="mt-5 flex flex-col gap-2 text-[13.5px] text-fg-2">
-            <a href="mailto:hello@supsfactory.com" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
-              <Mail size={15} className="text-primary" /> hello@supsfactory.com
+            <a href="mailto:info@supsfactory.com" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
+              <Mail size={15} className="text-primary" /> info@supsfactory.com
             </a>
             <Link to="/{-$locale}/contact" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
               <MessageCircle size={15} className="text-primary" /> WhatsApp

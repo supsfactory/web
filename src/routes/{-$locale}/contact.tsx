@@ -52,20 +52,20 @@ function ContactPage() {
           <p className="mt-2 text-[14.5px] leading-relaxed text-fg-2">{t('sup.contact.infoBody')}</p>
           <div className="mt-7 flex flex-col gap-4">
             <a
-              href="mailto:hello@supsfactory.com"
+              href="mailto:info@supsfactory.com"
               className="marine-card flex items-center gap-4 p-5 transition-colors hover:border-primary/40"
             >
               <span className="icon-tile"><Mail size={19} /></span>
               <div>
                 <p className="text-[12px] font-bold uppercase tracking-wide text-fg-3">{t('sup.contact.emailLabel')}</p>
-                <p className="mt-0.5 text-[15px] font-semibold">hello@supsfactory.com</p>
+                <p className="mt-0.5 text-[15px] font-semibold">info@supsfactory.com</p>
               </div>
             </a>
             <div className="marine-card flex items-center gap-4 p-5">
               <span className="icon-tile"><MessageCircle size={19} /></span>
               <div>
                 <p className="text-[12px] font-bold uppercase tracking-wide text-fg-3">{t('sup.contact.whatsappLabel')}</p>
-                <p className="mt-0.5 text-[15px] font-semibold">+86 138 0000 0000</p>
+                <p className="mt-0.5 text-[15px] font-semibold">+86 13305324192</p>
               </div>
             </div>
           </div>

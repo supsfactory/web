@@ -97,7 +97,7 @@ export function InquiryForm({ turnstileSiteKey }: { turnstileSiteKey: string | n
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="field">
           <Label htmlFor="inq-whatsapp">{t('inquiry.whatsapp')}</Label>
-          <Input id="inq-whatsapp" name="whatsapp" maxLength={60} autoComplete="tel" placeholder="+86 138 0000 0000" />
+          <Input id="inq-whatsapp" name="whatsapp" maxLength={60} autoComplete="tel" placeholder="+86 13305324192" />
         </div>
         <div className="field">
           <Label htmlFor="inq-type">{t('inquiry.businessType')} <span className="req">*</span></Label>
