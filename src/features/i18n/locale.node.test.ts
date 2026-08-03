@@ -3,8 +3,8 @@ import { translate, negotiateLocale, locales, defaultLocale, stripDefaultLocaleP
 import { en } from '@/features/i18n/dictionaries/en'
 
 test('stripDefaultLocalePrefix：去掉 /en 前缀且保留 query 和 hash', () => {
-  expect(stripDefaultLocalePrefix('/en/pricing?ref=x')).toBe('/pricing?ref=x')
-  expect(stripDefaultLocalePrefix('/en/sponsor?status=success&session_id=cs_1')).toBe('/sponsor?status=success&session_id=cs_1')
+  expect(stripDefaultLocalePrefix('/en/contact?ref=x')).toBe('/contact?ref=x')
+  expect(stripDefaultLocalePrefix('/en/products?tag=1')).toBe('/products?tag=1')
   expect(stripDefaultLocalePrefix('/en/docs#setup')).toBe('/docs#setup')
   expect(stripDefaultLocalePrefix('/en')).toBe('/')
   expect(stripDefaultLocalePrefix('/en?a=1')).toBe('/?a=1')

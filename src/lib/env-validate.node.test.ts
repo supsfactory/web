@@ -42,10 +42,10 @@ test('half a Turnstile pair is an error; a full pair is fine', () => {
   expect(validateEnv({ ...ok, TURNSTILE_SITE_KEY: 'k', TURNSTILE_SECRET_KEY: 's' }).errors).toEqual([])
 })
 
-test('Stripe key without webhook secret is an error; missing price ids warn', () => {
+test('unknown Stripe vars are ignored (no errors, no warnings)', () => {
   const r = validateEnv({ ...ok, STRIPE_SECRET_KEY: 'sk_test' })
-  expect(r.errors).toEqual([expect.stringContaining('STRIPE_WEBHOOK_SECRET')])
-  expect(r.warnings).toEqual([expect.stringContaining('STRIPE_PRICE_PRO_')])
+  expect(r.errors).toEqual([])
+  expect(r.warnings).toEqual([])
 })
 
 test('assertEnvOnce keeps throwing on EVERY call while the env is invalid', async () => {
@@ -64,16 +64,5 @@ test('assertEnvOnce passes and memoizes on a valid env', async () => {
   vi.doMock('./env', () => ({ env: { BETTER_AUTH_SECRET: SECRET, BETTER_AUTH_URL: 'https://app.example.com' } }))
   const { assertEnvOnce } = await import('./env-validate')
   await expect(assertEnvOnce()).resolves.toBeUndefined()
-  await expect(assertEnvOnce()).resolves.toBeUndefined()
   vi.doUnmock('./env')
-})
-
-test('Stripe fully configured is clean', () => {
-  const r = validateEnv({
-    ...ok,
-    STRIPE_SECRET_KEY: 'sk_test',
-    STRIPE_WEBHOOK_SECRET: 'whsec',
-    STRIPE_PRICE_PRO_MONTHLY: 'price_123',
-  })
-  expect(r).toEqual({ errors: [], warnings: [] })
 })

@@ -1,6 +1,6 @@
-# Contributing to FlareStarter
+# Contributing to Vectoflare
 
-Thanks for your interest in improving FlareStarter! This is a starter template, so
+Thanks for your interest in improving Vectoflare! This is a starter template, so
 the bar is: changes should keep it **honest** (no mocked/stubbed features), lean,
 and runnable on the Cloudflare free-to-cheap stack.
 
@@ -33,7 +33,7 @@ pnpm build       # production build
 ## Conventions
 
 - **Branch** off `main`: `feat/...`, `fix/...`, `docs/...`, `chore/...`.
-- **Commits**: [Conventional Commits](https://www.conventionalcommits.org) (`feat(storage): ...`, `fix(billing): ...`). Keep them scoped and self-describing.
+- **Commits**: [Conventional Commits](https://www.conventionalcommits.org) (`feat(storage): ...`, `fix(auth): ...`). Keep them scoped and self-describing.
 - **Code style**: match the surrounding file. Features live as self-contained vertical slices under `src/features/<name>/`; never hand-write owner filters — use `scopeFromUser`/`ownedBy`/`withOwner` from `src/db/scope.ts`.
 - **Env access**: only via `src/lib/env.ts` (never `process.env`). New vars go in `wrangler.jsonc` vars, `.dev.vars.example`, and the zod schema in `src/lib/env-validate.ts`.
 - **Tests**: name them `*.node.test.ts` (pure/node pool) or `*.workers.test.ts` (real D1/R2 via miniflare). Add tests for new logic.

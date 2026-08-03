@@ -62,7 +62,6 @@ function InquiriesAdmin() {
         role: session?.user?.role ?? 'admin',
         image: session?.user?.image ?? null,
       }}
-      isPro={false}
       active="admin-inquiries"
       crumb={t('admin.navAdmin')}
     >

@@ -3,9 +3,9 @@
  *
  * The schema is the single source of truth for what a valid env looks like;
  * `Env` is inferred from it, so the shape and the types never drift. Conditional
- * rules (OAuth pairs, Stripe webhook secret) live in `superRefine`. Soft advice
- * that shouldn't block startup (e.g. Stripe key but no price ids) is returned as
- * `warnings`, since zod issues are all hard errors.
+ * rules (OAuth pairs, Turnstile pair) live in `superRefine`. Soft advice that
+ * shouldn't block startup is returned as `warnings`, since zod issues are all
+ * hard errors.
  *
  * `validateEnv` is pure (unit-tested in the node pool); `assertEnvOnce` runs it
  * once per isolate from the server entry — `env` is imported lazily there so the
@@ -34,13 +34,6 @@ const envSchema = z
     GOOGLE_CLIENT_SECRET: optional,
     GITHUB_CLIENT_ID: optional,
     GITHUB_CLIENT_SECRET: optional,
-    STRIPE_SECRET_KEY: optional,
-    STRIPE_WEBHOOK_SECRET: optional,
-    STRIPE_PRICE_PRO_MONTHLY: optional,
-    STRIPE_PRICE_PRO_YEARLY: optional,
-    STRIPE_PRICE_PRO_LIFETIME: optional,
-    // Kill switch for WeChat Pay on sponsorships — see features/sponsor/sponsor.config.ts.
-    STRIPE_WECHAT_PAY_ENABLED: optional,
     ADMIN_EMAILS: optional,
     TURNSTILE_SITE_KEY: optional,
     TURNSTILE_SECRET_KEY: optional,
@@ -57,16 +50,6 @@ const envSchema = z
     pair('GOOGLE_CLIENT_ID', 'GOOGLE_CLIENT_SECRET', 'Google OAuth')
     pair('GITHUB_CLIENT_ID', 'GITHUB_CLIENT_SECRET', 'GitHub OAuth')
     pair('TURNSTILE_SITE_KEY', 'TURNSTILE_SECRET_KEY', 'Turnstile')
-
-    // A Stripe secret key with no webhook secret means webhooks fail signature
-    // verification silently.
-    if (env.STRIPE_SECRET_KEY && !env.STRIPE_WEBHOOK_SECRET) {
-      ctx.addIssue({
-        code: 'custom',
-        path: ['STRIPE_WEBHOOK_SECRET'],
-        message: 'STRIPE_WEBHOOK_SECRET is required when STRIPE_SECRET_KEY is set',
-      })
-    }
   })
 
 /** Fully-validated env. Required fields are non-optional here. */
@@ -84,19 +67,7 @@ export function validateEnv(raw: Record<string, string | undefined>): EnvReport 
     ? []
     : result.error.issues.map((i) => i.message)
 
-  // Soft advice — never blocks startup.
-  const warnings: string[] = []
-  const has = (k: string) => typeof raw[k] === 'string' && raw[k]!.trim() !== ''
-  if (
-    has('STRIPE_SECRET_KEY') &&
-    !has('STRIPE_PRICE_PRO_MONTHLY') &&
-    !has('STRIPE_PRICE_PRO_YEARLY') &&
-    !has('STRIPE_PRICE_PRO_LIFETIME')
-  ) {
-    warnings.push('STRIPE_SECRET_KEY is set but no STRIPE_PRICE_PRO_* price ids — checkout will be unavailable')
-  }
-
-  return { errors, warnings }
+  return { errors, warnings: [] }
 }
 
 let checked = false

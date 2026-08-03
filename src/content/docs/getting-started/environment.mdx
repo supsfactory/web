@@ -43,25 +43,6 @@ description: 了解 SUPsfactory 需要配置哪些环境变量以及它们的用
   }}
 />
 
-## 支付 (Stripe)
-用于计费和订阅。
-<TypeTable
-  type={{
-    STRIPE_SECRET_KEY: {
-      description: 'Stripe 的 Secret Key，用于服务端调用 Stripe API',
-      type: 'string',
-    },
-    STRIPE_WEBHOOK_SECRET: {
-      description: 'Stripe Webhook 签名密钥，用于校验回调真实性',
-      type: 'string',
-    },
-    VITE_STRIPE_PUBLISHABLE_KEY: {
-      description: '暴露给客户端的 Stripe Publishable Key',
-      type: 'string',
-    },
-  }}
-/>
-
 ## 安全与防护 (Turnstile)
 替代 Google reCAPTCHA 的无感人机验证。
 <TypeTable

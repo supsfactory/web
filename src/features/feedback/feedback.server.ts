@@ -7,8 +7,6 @@ import { and, desc, eq, count } from 'drizzle-orm'
 import type { DB } from '@/db/client'
 import { ownedBy, withOwner, type Scope } from '@/db/scope'
 import { user } from '@/features/auth/auth.schema'
-import { subscription } from '@/features/billing/billing.schema'
-import { hasProAccess, resolveEntitlement } from '@/features/billing/entitlement'
 import { feedback, type Feedback } from './feedback.schema'
 import { FEEDBACK_STATUSES, TITLE_MAX, BODY_MAX, OPEN_LIMIT, type FeedbackStatus } from './feedback.shared'
 export { TITLE_MAX, BODY_MAX, OPEN_LIMIT }
@@ -46,7 +44,7 @@ export async function deleteMyFeedback(db: DB, scope: Scope, id: string): Promis
 
 export interface AdminFeedbackRow {
   id: string; title: string; body: string; status: string; adminNote: string | null
-  createdAt: Date | string; name: string | null; email: string | null; isPro: boolean
+  createdAt: Date | string; name: string | null; email: string | null
 }
 
 export async function listFeedbackForAdmin(db: DB, p: { page: number; pageSize: number }): Promise<{ rows: AdminFeedbackRow[]; total: number }> {
@@ -54,26 +52,18 @@ export async function listFeedbackForAdmin(db: DB, p: { page: number; pageSize: 
     .select({
       id: feedback.id, title: feedback.title, body: feedback.body, status: feedback.status,
       adminNote: feedback.adminNote, createdAt: feedback.createdAt,
-      name: user.name, email: user.email, role: user.role,
-      subStatus: subscription.status, subPlan: subscription.plan, subLifetime: subscription.lifetime,
+      name: user.name, email: user.email,
     })
     .from(feedback)
     .leftJoin(user, eq(feedback.userId, user.id))
-    .leftJoin(subscription, eq(subscription.userId, feedback.userId))
     .orderBy(desc(feedback.createdAt))
     .limit(p.pageSize)
     .offset(p.page * p.pageSize)
   const [{ c }] = await db.select({ c: count() }).from(feedback)
-  const rows: AdminFeedbackRow[] = listed.map((r) => {
-    const ent = resolveEntitlement(r.subPlan != null
-      ? { status: r.subStatus ?? 'none', plan: r.subPlan, currentPeriodEnd: null, lifetime: !!r.subLifetime }
-      : null)
-    return {
-      id: r.id, title: r.title, body: r.body, status: r.status, adminNote: r.adminNote,
-      createdAt: r.createdAt, name: r.name, email: r.email,
-      isPro: hasProAccess(r.role, ent),
-    }
-  })
+  const rows: AdminFeedbackRow[] = listed.map((r) => ({
+    id: r.id, title: r.title, body: r.body, status: r.status, adminNote: r.adminNote,
+    createdAt: r.createdAt, name: r.name, email: r.email,
+  }))
   return { rows, total: Number(c) }
 }
 

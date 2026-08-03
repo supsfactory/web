@@ -5,7 +5,7 @@ import { execSync } from 'node:child_process'
  * Capture the authenticated pages used in the README "Preview" section.
  *
  * Produces dark-theme (default), 1440-wide full-page shots of the admin stats
- * dashboard, the admin user table, the app dashboard, and the Pro page. Written
+ * dashboard, the admin user table, and the app dashboard. Written
  * to e2e/screenshots/readme/ (git-ignored); the good ones are copied into
  * .github/assets/ for the README.
  *
@@ -13,8 +13,7 @@ import { execSync } from 'node:child_process'
  *   pnpm exec playwright test e2e/readme-shots.spec.ts
  *
  * Auth mirrors admin-users.spec.ts: sign up admin@example.com (in ADMIN_EMAILS
- * → admin role), mark it verified in the local D1, sign in. Then seed a lifetime
- * Pro subscription for that user so requirePlan('pro') on /app/pro passes.
+ * → admin role), mark it verified in the local D1, sign in.
  */
 
 const ADMIN = { email: 'admin@example.com', password: 'password12345', name: 'Admin' }
@@ -37,21 +36,9 @@ async function loginAsAdmin(context: BrowserContext, baseURL: string) {
   expect(res.ok(), 'admin sign-in should succeed').toBeTruthy()
 }
 
-function seedLifetimePro() {
-  // resolveEntitlement returns plan 'pro' for an active lifetime subscription.
-  d1(
-    `INSERT OR REPLACE INTO subscription ` +
-      `(id, user_id, provider, customer_id, subscription_id, status, plan, price_id, ` +
-      `current_period_end, cancel_at_period_end, lifetime, payment_failed_at, created_at, updated_at) ` +
-      `SELECT 'sub-readme', id, 'stripe', 'cus_readme', NULL, 'active', 'pro', NULL, ` +
-      `NULL, 0, 1, NULL, 0, 0 FROM user WHERE email = '${ADMIN.email}'`,
-  )
-}
-
 test('README preview shots (dark, full page)', async ({ page, context, baseURL }) => {
   const base = baseURL ?? 'http://localhost:3000'
   await loginAsAdmin(context, base)
-  seedLifetimePro()
 
   await page.setViewportSize({ width: 1440, height: 900 })
 
@@ -59,7 +46,6 @@ test('README preview shots (dark, full page)', async ({ page, context, baseURL }
     ['/admin', `${OUT}/admin.png`],
     ['/admin/users', `${OUT}/admin-users.png`],
     ['/app', `${OUT}/app-dashboard.png`],
-    ['/app/pro', `${OUT}/app-pro.png`],
   ]
 
   for (const [path, file] of shots) {

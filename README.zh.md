@@ -7,7 +7,7 @@
     <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white" alt="TypeScript"></a>
   </p>
   <p>
-    <em>Bright Ocean Studio × Premium Manufacturing——基于 FlareStarter 全栈 SaaS 起步模板构建的完整 SUP 品牌平台。</em>
+    <em>Bright Ocean Studio × Premium Manufacturing——基于 Vectoflare 全栈 SaaS 起步模板构建的完整 SUP 品牌平台。</em>
   </p>
 </div>
 
@@ -15,7 +15,7 @@
 
 [English](README.md) | **简体中文**
 
-SUPsfactory 是 SUP（站立式桨板）OEM/ODM 制造商的生产级官网。它将完整设计的双语（en / zh）营销站与 [FlareStarter](https://github.com/FlareStarter/flarestarter) 的全套 SaaS 后端结合：认证、计费、邮件、运营后台等——每个功能都是真实实现，没有 mock 或占位，全部跑在 Cloudflare 低成本（乃至免费）技术栈上（Workers + D1 + KV + R2）。
+SUPsfactory 是 SUP（站立式桨板）OEM/ODM 制造商的生产级官网。它将完整设计的双语（en / zh）营销站与 [Vectoflare](https://github.com/vectoflare/vectoflare) 的全套 SaaS 后端结合：认证、计费、邮件、运营后台等——每个功能都是真实实现，没有 mock 或占位，全部跑在 Cloudflare 低成本（乃至免费）技术栈上（Workers + D1 + KV + R2）。
 
 ## 营销站
 
@@ -54,12 +54,10 @@ SUPsfactory 是 SUP（站立式桨板）OEM/ODM 制造商的生产级官网。�
 | 模块 | 能力 |
 |------|------|
 | **认证** | 基于 [better-auth](https://better-auth.com) 的邮箱密码登录（强制邮箱验证）、找回密码、注销账号。Google 与 GitHub OAuth——未配置环境变量时按钮自动隐藏（优雅降级）。会话以 D1 作为唯一数据源，并配合 cookie 缓存。 |
-| **计费** | [Stripe](https://stripe.com) 订阅（月付/年付）**以及**一次性终身买断、Customer Portal 入口、基于套餐的路由守卫 (`requirePlan`)、幂等 webhook 处理、可靠触发的计费事件钩子。续费扣款失败时在 app 内提示更新支付方式——见 [计费文档](src/content/docs/features/billing.mdx)。 |
 | **存储** | [R2](https://developers.cloudflare.com/r2/) 对象存储，内置完整的头像上传功能（校验 + 私有服务路由流式返回）。本地开发经 miniflare 零配置——见 [存储文档](src/content/docs/features/storage.mdx)。 |
 | **邮件** | [Resend](https://resend.com) + 字符串模板（React Email 在 workerd 上不可用）。没配 API key 时邮件打印到控制台，本地开发不会被卡住。 |
 | **等待列表** | 完整 pre-launch 报名闭环：公开报名页、Turnstile 防刷、后台管理页 + CSV 导出、报名邮箱自动同步 [Resend](https://resend.com) audience（未配 key 时优雅跳过）。 |
 | **更新日志** | MDX 驱动、按语言区分、带 `published` 开关的站内 `/changelog` 页。 |
-| **赞助** | 独立 `/sponsor` 页演示真实 Stripe 收款闭环：**纯捐赠不解锁**。一次性与月度均为金额驱动（PWYW），支持微信支付（走 Stripe `wechat_pay`），GitHub 致谢头像墙按金额分层。配置在 `src/features/sponsor/sponsor.config.ts`。 |
 | **反馈箱** | 登录用户提交反馈 +「我的反馈」列表；后台治理页做状态流转与回复。同时是**加你自己功能的教学范本**：纵向切片、归属过滤、双门控模式与双池测试——见 [反馈文档](src/content/docs/features/feedback.mdx)。 |
 | **i18n** | 通过 TanStack 的 `{-$locale}` 可选前缀做路径式多语言路由——英文在 `/`，中文在 `/zh`。营销文案、UI 字符串与文档均已翻译。 |
 | **SEO** | 按语言生成的 sitemap、`hreflang`、canonical、OpenGraph 标签（封面图已改为 afarer CDN 的真实产品实拍）、`robots.txt`、认证页 `noindex`，以及 5 个关键词落地页。 |
@@ -75,7 +73,7 @@ SUPsfactory 是 SUP（站立式桨板）OEM/ODM 制造商的生产级官网。�
 - **[Cloudflare Workers](https://workers.cloudflare.com)** 运行时，经 `@cloudflare/vite-plugin` 部署
 - **[D1](https://developers.cloudflare.com/d1/)** (SQLite) + **[Drizzle ORM](https://orm.drizzle.team)** + 数据迁移
 - **[KV](https://developers.cloudflare.com/kv/)** 缓存、**[R2](https://developers.cloudflare.com/r2/)** 对象存储
-- **[better-auth](https://better-auth.com)**、**[Stripe](https://stripe.com)**、**[Resend](https://resend.com)**
+- **[better-auth](https://better-auth.com)**、**[Resend](https://resend.com)**
 - **[Tailwind CSS v4](https://tailwindcss.com)**
 - **[Vitest](https://vitest.dev)**（Node 单测 + 经 `@cloudflare/vitest-pool-workers` 的 Workers/D1 集成测试）
 
@@ -97,8 +95,8 @@ cp wrangler.example.jsonc wrangler.jsonc
 
 # 3. 配置本地环境变量（复制示例，按需填写）
 cp .dev.vars.example .dev.vars
-#    本地一切都可选——Stripe/Resend key 留空会优雅降级
-#    （无计费入口、邮件打印到控制台）。
+#    本地一切都可选——Resend/Turnstile key 留空会优雅降级
+#    （邮件打印到控制台、表单不校验人机）。
 
 # 4. 建立本地 D1 表结构
 pnpm db:migrate:local
@@ -128,13 +126,11 @@ src/
   features/        # 按业务逻辑纵向切片，每个模块自包含
     site/          # 营销内容（content.ts：产品/板块/FAQ）+ landings.ts + llm.ts
     auth/          # better-auth 配置、中间件、社交登录按钮
-    billing/       # Stripe provider、权益控制、webhook、事件钩子
     storage/       # R2 对象存储：校验上传 + 服务路由（头像）
     email/         # Resend 客户端 + 字符串模板
     waitlist/      # 报名页 + Turnstile + 后台管理 + CSV 导出 + Resend audience 同步
     audience/      # Resend 联系人/受众同步（waitlist 复用）
     changelog/     # MDX 驱动的站内更新日志页 (/changelog)
-    sponsor/       # 独立赞助页：一次性/月度 Stripe 收款 + GitHub 致谢墙
     feedback/      # 示例反馈箱：提交/我的列表/后台治理——加自己功能的教学范本
     i18n/          # 语言字典 (en/zh) + provider
     seo/           # sitemap、robots、多语言 head 标签（og:image、hreflang）
@@ -165,7 +161,6 @@ drizzle/           # 生成的 SQL 迁移文件（仓库根，与 src/ 同级）
 - `BETTER_AUTH_SECRET`、`BETTER_AUTH_URL`（同时决定 canonical / sitemap origin）—— **必填**；启动时校验。
 - `RESEND_API_KEY`、`EMAIL_FROM`（邮件服务；留空则由控制台捕获）。
 - `GOOGLE_CLIENT_ID/SECRET`、`GITHUB_CLIENT_ID/SECRET`（可选社交登录）。
-- `STRIPE_SECRET_KEY`、`STRIPE_WEBHOOK_SECRET`、`STRIPE_PRICE_PRO_*`（计费）；`STRIPE_WECHAT_PAY_ENABLED`（可选）。
 - `ADMIN_EMAILS`（管理员邮箱）。
 - `TURNSTILE_SITE_KEY`、`TURNSTILE_SECRET_KEY`（可选 bot 防护）。
 - `CF_ANALYTICS_TOKEN`、`SENTRY_DSN`（可选分析 + 错误上报）。
@@ -183,7 +178,7 @@ wrangler deploy
 
 > Cloudflare 运行环境在**构建时**通过 `CLOUDFLARE_ENV` 选定（而不是 `wrangler deploy --env`），因为 Vite 插件会将选定环境的 bindings 注入构建产物。
 
-首次部署的**完整流程**——创建 D1/KV、设置 secrets、远程迁移、配置 Stripe webhook——请参阅 [部署文档](src/content/docs/getting-started/deploy.mdx)。
+首次部署的**完整流程**——创建 D1/KV、设置 secrets、远程迁移——请参阅 [部署文档](src/content/docs/getting-started/deploy.mdx)。
 
 > R2 已在 `wrangler.jsonc` 默认启用并接入代码（头像上传参考）。部署前先建桶：`wrangler r2 bucket create supsfactory-files`（见 [存储文档](src/content/docs/features/storage.mdx)）。
 
@@ -217,15 +212,12 @@ wrangler deploy
 | `RESEND_AUDIENCE_ID` | Resend → Audiences → id | 不同步 waitlist 受众 |
 | `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | Google Cloud Console → OAuth 客户端，回调 `https://api.<域名>/api/auth/callback/google` | 登录按钮隐藏 |
 | `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET` | GitHub → Settings → Developer settings → OAuth Apps | 登录按钮隐藏 |
-| `STRIPE_SECRET_KEY` | Stripe Dashboard → Developers → API keys（`sk_live_…`） | 计费关闭 |
-| `STRIPE_WEBHOOK_SECRET` | Stripe → Webhooks → 端点（`whsec_…`） | webhook 校验失败 |
-| `STRIPE_PRICE_PRO_MONTHLY` / `_YEARLY` / `_LIFETIME` | Stripe → Products → Price id（`price_…`） | 无 Pro 定价 |
 | `ADMIN_EMAILS` | 逗号分隔的管理员邮箱 | 无管理员 |
 | `TURNSTILE_SITE_KEY` / `TURNSTILE_SECRET_KEY` | Dashboard → Turnstile → 创建 widget | 表单照常可用（无验证码） |
 | `CF_ANALYTICS_TOKEN` | Dashboard → Analytics & Logs → Web Analytics | 不注入统计 |
 | `SENTRY_DSN` | Sentry 项目 → Client Keys (DSN) | 不上报错误 |
 
-说明：GitHub 里留空的 key 在同步时自动跳过（不会覆盖 Cloudflare 已有值）；要"删除"某密钥请先在 GitHub 清空，再手动清理 Cloudflare 侧。`STRIPE_WECHAT_PAY_ENABLED` 不在同步清单内——生产要开启微信支付请手动 `wrangler secret put STRIPE_WECHAT_PAY_ENABLED --env production`。
+说明：GitHub 里留空的 key 在同步时自动跳过（不会覆盖 Cloudflare 已有值）；要"删除"某密钥请先在 GitHub 清空，再手动清理 Cloudflare 侧。
 
 ## 文档
 
@@ -235,7 +227,6 @@ wrangler deploy
 - [`install.mdx`](src/content/docs/getting-started/install.mdx) —— 本地环境安装
 - [`deploy.mdx`](src/content/docs/getting-started/deploy.mdx) —— 生产环境部署
 - [`branding.mdx`](src/content/docs/customization/branding.mdx) —— 标题/描述/社交预览图/logo
-- [`billing.mdx`](src/content/docs/features/billing.mdx) —— 计费与订阅、扣款失败（dunning）处理
 - [`security.mdx`](src/content/docs/platform/security.mdx) —— 安全头/CSP、env 校验、限流、Turnstile
 - [`observability.mdx`](src/content/docs/platform/observability.mdx) —— 分析 + Sentry
 - [`storage.mdx`](src/content/docs/features/storage.mdx) —— R2 对象存储与文件上传

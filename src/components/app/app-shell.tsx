@@ -1,12 +1,10 @@
 import { useEffect, useState, type ReactNode } from 'react'
 import { Link, getRouteApi } from '@tanstack/react-router'
-import { Home, Sparkles, Settings, Gauge, Users, Menu, ClipboardList, PanelLeftClose, PanelLeftOpen, Heart, MessageSquare, Inbox } from 'lucide-react'
+import { Home, Settings, Gauge, Users, Menu, ClipboardList, PanelLeftClose, PanelLeftOpen, MessageSquare, Inbox } from 'lucide-react'
 import { Logo } from '@/components/brand/logo'
-import { Badge } from '@/components/ui/badge'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
 import { useTranslation } from '@/features/i18n/provider'
-import { PaymentFailedBanner } from '@/features/billing/components/payment-failed-banner'
 import { UserMenu } from '@/components/app/user-menu'
 
 const rootRoute = getRouteApi('__root__')
@@ -31,17 +29,13 @@ export interface ShellUser {
  */
 export function AppShell({
   user,
-  isPro,
   active,
   crumb,
-  paymentFailed,
   children,
 }: {
   user: ShellUser
-  isPro?: boolean
   active: string
   crumb: string
-  paymentFailed?: boolean
   children: ReactNode
 }) {
   const { theme } = rootRoute.useLoaderData()
@@ -55,9 +49,6 @@ export function AppShell({
       return !v
     })
   }
-
-  // admin pages don't load billing, so the topbar badge shows the role there
-  const onAdminPage = active.startsWith('admin-')
 
   // `rail` = collapsed icon rail (desktop only; the mobile drawer is always full-width)
   const sidebar = (rail: boolean) => {
@@ -76,11 +67,6 @@ export function AppShell({
         <Link to="/{-$locale}/app" activeProps={{}} className={item(active === 'dashboard')} title={t('app.dashboard')}>
           <Home size={18} className="shrink-0" />
           {label(t('app.dashboard'))}
-        </Link>
-        <Link to="/{-$locale}/app/pro" activeProps={{}} className={item(active === 'pro')} title={t('app.proDemo')}>
-          <Sparkles size={18} className="shrink-0" />
-          {label(t('app.proDemo'))}
-          {!rail && <Badge variant="pro" className="ml-auto">Pro</Badge>}
         </Link>
         <Link to="/{-$locale}/app/feedback" activeProps={{}} className={item(active === 'feedback')} title={t('feedback.nav')}>
           <MessageSquare size={18} className="shrink-0" />
@@ -109,10 +95,6 @@ export function AppShell({
             <Link to="/{-$locale}/admin/inquiries" activeProps={{}} className={item(active === 'admin-inquiries')} title={t('admin.inquiries')}>
               <Inbox size={18} className="shrink-0" />
               {label(t('admin.inquiries'))}
-            </Link>
-            <Link to="/{-$locale}/admin/sponsors" activeProps={{}} className={item(active === 'admin-sponsors')} title={t('admin.sponsors')}>
-              <Heart size={18} className="shrink-0" />
-              {label(t('admin.sponsors'))}
             </Link>
             <Link to="/{-$locale}/admin/feedback" activeProps={{}} className={item(active === 'admin-feedback')} title={t('admin.feedbackAdmin')}>
               <MessageSquare size={18} className="shrink-0" />
@@ -173,20 +155,10 @@ export function AppShell({
             <b>{crumb}</b>
           </span>
           <div className="flex-1" />
-          {onAdminPage ? (
-            <Badge variant="pro" dot className="shrink-0">
-              {user.role || 'admin'}
-            </Badge>
-          ) : (
-            <Badge variant={isPro ? 'pro' : 'free'} dot className="shrink-0">
-              {isPro ? t('billing.pro') : t('billing.free')}
-            </Badge>
-          )}
           <ThemeToggle theme={theme} />
           <LangSwitch />
         </div>
         <div className="app-main">
-          <PaymentFailedBanner show={!!paymentFailed} />
           {children}
         </div>
       </div>

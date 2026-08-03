@@ -57,8 +57,6 @@ Secrets and variables → Actions → Secrets），`deploy.yml` 每次部署后�
 | `EMAIL_FROM` | 可选 | 发信地址，如 `noreply@your-domain.com` |
 | `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | 可选 | Google 登录（留空则按钮不显示） |
 | `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET` | 可选 | GitHub 登录 |
-| `STRIPE_SECRET_KEY` / `STRIPE_WEBHOOK_SECRET` | 可选 | Stripe 计费 |
-| `STRIPE_PRICE_PRO_MONTHLY/YEARLY/LIFETIME` | 可选 | 线上 price ID |
 | `TURNSTILE_SITE_KEY` / `TURNSTILE_SECRET_KEY` | 可选 | Turnstile bot 防护（两个都设才生效） |
 | `ADMIN_EMAILS` | 可选 | 逗号分隔的管理员邮箱（后台权限） |
 | `CF_ANALYTICS_TOKEN` | 可选 | Web Analytics beacon token |
@@ -70,14 +68,6 @@ GitHub Secret 再 push，或手动重跑 Deploy workflow。不想走 GitHub 的�
 `npx wrangler secret put <KEY> --env production`（批量用
 `npx wrangler secret bulk .prod.vars --env production`，文件格式同 `.dev.vars`，
 务必 gitignore）。
-
-**Stripe webhook**:在 Stripe Dashboard 为线上域名创建 endpoint
-`https://<域名>/api/webhooks/stripe`,订阅事件 `customer.subscription.created`、
-`customer.subscription.updated`、`customer.subscription.deleted`、
-`checkout.session.completed`、`checkout.session.async_payment_succeeded`、
-`charge.refunded`、`invoice.payment_failed`(启用赞助墙再加 `invoice.paid`、
-`charge.dispute.created`);创建后把签名密钥(`whsec_…`)用上面的
-`STRIPE_WEBHOOK_SECRET` 命令写入。
 
 **运营后台**:`ADMIN_EMAILS`(逗号分隔的管理员邮箱,放 GitHub Secret 或手动
 `npx wrangler secret put ADMIN_EMAILS --env production` 均可);详见 [基础 Admin](/docs/features/admin)。

@@ -5,12 +5,10 @@
 import { count, gt } from 'drizzle-orm'
 import type { DB } from '@/db/client'
 import { user, session } from '@/features/auth/auth.schema'
-import { subscription } from '@/features/billing/billing.schema'
 
 export interface AdminStats {
   totalUsers: number
   activeUsers: number
-  subscriptions: { active: number; pastDue: number; canceled: number; pro: number; free: number }
 }
 
 /**
@@ -21,13 +19,5 @@ export async function getAdminStats(db: DB, now: number): Promise<AdminStats> {
   const [{ c: totalUsers }] = await db.select({ c: count() }).from(user)
   const activeRows = await db.select({ uid: session.userId }).from(session).where(gt(session.expiresAt, new Date(now)))
   const activeUsers = new Set(activeRows.map((r) => r.uid)).size
-  const subs = await db.select({ status: subscription.status, plan: subscription.plan }).from(subscription)
-  const subscriptions = {
-    active: subs.filter((s) => s.status === 'active').length,
-    pastDue: subs.filter((s) => s.status === 'past_due').length,
-    canceled: subs.filter((s) => s.status === 'canceled').length,
-    pro: subs.filter((s) => s.plan === 'pro').length,
-    free: subs.filter((s) => s.plan === 'free').length,
-  }
-  return { totalUsers, activeUsers, subscriptions }
+  return { totalUsers, activeUsers }
 }

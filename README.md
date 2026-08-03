@@ -7,7 +7,7 @@
     <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white" alt="TypeScript"></a>
   </p>
   <p>
-    <em>Bright Ocean Studio × Premium Manufacturing — a complete SUP brand platform built on the FlareStarter full-stack SaaS starter.</em>
+    <em>Bright Ocean Studio × Premium Manufacturing — a complete SUP brand platform built on the Vectoflare full-stack SaaS starter.</em>
   </p>
 </div>
 
@@ -15,7 +15,7 @@
 
 **English** | [简体中文](README.zh.md)
 
-SUPsfactory is the production-ready web presence for an SUP (stand-up paddleboard) OEM/ODM manufacturer. It pairs a fully designed bilingual (en / zh) marketing site with the complete SaaS backend from [FlareStarter](https://github.com/FlareStarter/flarestarter): auth, billing, email, an admin console, and more — every feature a real implementation, no mocks or stubs, running on the Cloudflare free-to-cheap stack (Workers + D1 + KV + R2).
+SUPsfactory is the production-ready web presence for an SUP (stand-up paddleboard) OEM/ODM manufacturer. It pairs a fully designed bilingual (en / zh) marketing site with the complete SaaS backend from [Vectoflare](https://github.com/vectoflare/vectoflare): auth, email, an admin console, and more — every feature a real implementation, no mocks or stubs, running on the Cloudflare free-to-cheap stack (Workers + D1 + KV + R2).
 
 ## The marketing site
 
@@ -54,12 +54,10 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 | Area | What you get |
 |------|--------------|
 | **Auth** | Email/password with mandatory verification, password reset, and account deletion via [better-auth](https://better-auth.com). Google & GitHub OAuth that gracefully hide themselves when their env vars are unset. Sessions use D1 as source of truth with a cookie cache. |
-| **Billing** | [Stripe](https://stripe.com) subscriptions (monthly/yearly) **and** one-time lifetime purchase, a Customer Portal link, plan-gated routes (`requirePlan`), idempotent webhook handling, and best-effort billing event hooks. Failed renewals surface an in-app "update your payment method" banner — see [billing](src/content/docs/features/billing.mdx). |
 | **Storage** | [R2](https://developers.cloudflare.com/r2/) object storage with a working avatar upload (validated, streamed back through a serving route since R2 isn't public). Zero-config locally via miniflare — see [storage](src/content/docs/features/storage.mdx). |
 | **Email** | [Resend](https://resend.com) with string templates (React Email isn't usable on workerd). Missing API key? Emails are captured to the console so local dev never blocks. |
 | **Waitlist** | A complete pre-launch signup loop: a public signup page, Turnstile bot protection, an admin management page + CSV export, and automatic subscriber sync into a [Resend](https://resend.com) audience (gracefully skipped when unconfigured). |
 | **Changelog** | An in-app `/changelog` page — MDX-driven, per-locale, with a `published` flag. |
-| **Sponsor** | A standalone `/sponsor` page demoing a real Stripe donation loop — **pure donation, unlocks nothing**. One-time and monthly, amount-driven (PWYW), with WeChat Pay support and a GitHub thank-you avatar wall. Config via `src/features/sponsor/sponsor.config.ts`. |
 | **Feedback** | Signed-in users submit feedback + a "my feedback" list; an admin governance page drives status transitions and replies. Also the **reference for adding your own feature**: a vertical slice with ownership filtering, a pure function layer, both gate patterns, and dual-pool tests — see [feedback](src/content/docs/features/feedback.mdx). |
 | **i18n** | Path-based locale routing via TanStack's `{-$locale}` optional prefix — English at `/`, 中文 at `/zh`. All marketing copy, UI strings, and docs translated. |
 | **SEO** | Per-locale sitemap, `hreflang`, canonical URLs, OpenGraph tags (featured image now a real product photo from the afarer CDN), `robots.txt`, `noindex` on authenticated pages, and 5 keyword-targeted landing pages. |
@@ -75,7 +73,7 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 - **[Cloudflare Workers](https://workers.cloudflare.com)** runtime, deployed via the `@cloudflare/vite-plugin`
 - **[D1](https://developers.cloudflare.com/d1/)** (SQLite) with **[Drizzle ORM](https://orm.drizzle.team)** + migrations
 - **[KV](https://developers.cloudflare.com/kv/)** for caching, **[R2](https://developers.cloudflare.com/r2/)** for object storage
-- **[better-auth](https://better-auth.com)**, **[Stripe](https://stripe.com)**, **[Resend](https://resend.com)**
+- **[better-auth](https://better-auth.com)**, **[Resend](https://resend.com)**
 - **[Tailwind CSS v4](https://tailwindcss.com)**
 - **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`)
 
@@ -98,8 +96,8 @@ cp wrangler.example.jsonc wrangler.jsonc
 
 # 3. Configure local env (copy the example and fill in what you need)
 cp .dev.vars.example .dev.vars
-#    Everything is optional locally — blank Stripe/Resend keys degrade
-#    gracefully (no billing, console-captured emails).
+#    Everything is optional locally — blank Resend/Turnstile keys degrade
+#    gracefully (console-captured emails, no captcha).
 
 # 4. Create the local D1 schema
 pnpm db:migrate:local
@@ -129,13 +127,11 @@ src/
   features/        # vertical slices, each self-contained
     site/          # marketing content (content.ts: products, sections, FAQ) + landings.ts + llm.ts
     auth/          # better-auth setup, middleware, social buttons
-    billing/       # Stripe provider, entitlements, webhooks, hooks
     storage/       # R2 object storage: validated upload + serving route (avatar)
     email/         # Resend client + string templates
     waitlist/      # signup page + Turnstile + admin mgmt + CSV export + Resend audience sync
     audience/      # Resend contacts/audience sync (reused by waitlist)
     changelog/     # MDX-driven in-app changelog page (/changelog)
-    sponsor/       # standalone sponsor page: one-time/monthly Stripe + GitHub thanks wall
     feedback/      # example feedback box: submit/list/admin governance — the teach-by-example slice
     i18n/          # dictionaries (en/zh) + provider
     seo/           # sitemap, robots, locale head tags (og:image, hreflang)
@@ -166,7 +162,6 @@ See [`.dev.vars.example`](.dev.vars.example) for the full list. Locally everythi
 - `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL` (also drives canonical/sitemap origin) — **required**; validated at startup
 - `RESEND_API_KEY`, `EMAIL_FROM` (email; blank → console-captured)
 - `GOOGLE_CLIENT_ID/SECRET`, `GITHUB_CLIENT_ID/SECRET` (optional social login)
-- `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `STRIPE_PRICE_PRO_*` (billing); `STRIPE_WECHAT_PAY_ENABLED` (optional)
 - `ADMIN_EMAILS`
 - `TURNSTILE_SITE_KEY`, `TURNSTILE_SECRET_KEY` (optional bot protection)
 - `CF_ANALYTICS_TOKEN`, `SENTRY_DSN` (optional analytics + error reporting)
@@ -186,7 +181,7 @@ wrangler deploy
 
 > Cloudflare environment is selected **at build time** via `CLOUDFLARE_ENV` (not `wrangler deploy --env`), because the Vite plugin bakes the chosen bindings into the build.
 
-The **full first-time walkthrough** — creating D1/KV, setting secrets, running remote migrations, configuring the Stripe webhook — is in [deploy](src/content/docs/getting-started/deploy.mdx).
+The **full first-time walkthrough** — creating D1/KV, setting secrets, and running remote migrations — is in [deploy](src/content/docs/getting-started/deploy.mdx).
 
 > R2 (object storage) is enabled by default in `wrangler.jsonc` and wired into the code (avatar upload reference). Before deploying, create the bucket: `wrangler r2 bucket create supsfactory-files` (see [storage](src/content/docs/features/storage.mdx)).
 
@@ -220,15 +215,12 @@ The repo ships two workflows: `ci.yml` (lint + typecheck + test + build, no secr
 | `RESEND_AUDIENCE_ID` | Resend → Audiences → id | No waitlist audience sync |
 | `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | Google Cloud Console → OAuth client, callback `https://api.<domain>/api/auth/callback/google` | Login button hidden |
 | `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET` | GitHub → Settings → Developer settings → OAuth Apps | Login button hidden |
-| `STRIPE_SECRET_KEY` | Stripe Dashboard → Developers → API keys (`sk_live_…`) | Billing off |
-| `STRIPE_WEBHOOK_SECRET` | Stripe → Webhooks → endpoint (`whsec_…`) | Webhook verification fails |
-| `STRIPE_PRICE_PRO_MONTHLY` / `_YEARLY` / `_LIFETIME` | Stripe → Products → Price ids (`price_…`) | No Pro pricing |
 | `ADMIN_EMAILS` | Comma-separated admin emails | No admins |
 | `TURNSTILE_SITE_KEY` / `TURNSTILE_SECRET_KEY` | Dashboard → Turnstile → create a widget | Forms work without captcha |
 | `CF_ANALYTICS_TOKEN` | Dashboard → Analytics & Logs → Web Analytics | No beacon |
 | `SENTRY_DSN` | Sentry project → Client Keys (DSN) | No error reporting |
 
-Notes: keys left blank in GitHub are skipped during sync (they never overwrite existing Cloudflare values); to remove a secret, clear it in GitHub first, then clean up the Cloudflare side manually. `STRIPE_WECHAT_PAY_ENABLED` is not in the sync list — set it manually with `wrangler secret put STRIPE_WECHAT_PAY_ENABLED --env production` to enable WeChat Pay in production.
+Notes: keys left blank in GitHub are skipped during sync (they never overwrite existing Cloudflare values); to remove a secret, clear it in GitHub first, then clean up the Cloudflare side manually.
 
 ## Documentation
 
@@ -239,7 +231,6 @@ Content lives in [`src/content/docs/`](src/content/docs/):
 - [`install.mdx`](src/content/docs/getting-started/install.mdx) — local setup
 - [`deploy.mdx`](src/content/docs/getting-started/deploy.mdx) — production deployment
 - [`branding.mdx`](src/content/docs/customization/branding.mdx) — titles, descriptions, social preview image, logo
-- [`billing.mdx`](src/content/docs/features/billing.mdx) — billing & subscriptions, failed-payment (dunning) handling
 - [`security.mdx`](src/content/docs/platform/security.mdx) — security headers/CSP, env validation, rate limiting, Turnstile
 - [`observability.mdx`](src/content/docs/platform/observability.mdx) — analytics + Sentry
 - [`storage.mdx`](src/content/docs/features/storage.mdx) — R2 object storage / file uploads

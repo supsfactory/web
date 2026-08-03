@@ -4,7 +4,7 @@
  *
  * `BUCKET` is a Cloudflare binding (like DB/CACHE): declared in wrangler.jsonc,
  * always present in dev (miniflare), test, and deployed environments. There is
- * no API key to be absent, so — unlike Stripe/Resend — there's nothing to
+ * no API key to be absent, so — unlike Resend — there's nothing to
  * degrade gracefully here.
  */
 import { avatarObjectKey } from './storage'

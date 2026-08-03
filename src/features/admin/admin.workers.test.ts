@@ -6,7 +6,7 @@
  *  2. access ctrl  — normal user calling listUsers → rejected; admin → returns list
  *  3. ban/unban    — banUser → banned truthy; sign-in rejected; unbanUser → cleared, sign-in works
  *  4. impersonate  — impersonateUser → session.impersonatedBy = admin id; stopImpersonating → cleared
- *  5. stats        — seed users/sessions/subscriptions → getAdminStats counts match
+ *  5. stats        — seed users/sessions → getAdminStats counts match
  */
 import { describe, test, expect, beforeAll } from 'vitest'
 import { env } from 'cloudflare:test'
@@ -26,24 +26,6 @@ const TEST_ADMIN_EMAILS = 'admin@test.com'
 // ---------------------------------------------------------------------------
 beforeAll(async () => {
   await applyAuthSchema(env.DB)
-  // Billing subscription table (for intent 5 stats)
-  await env.DB.prepare(
-    `CREATE TABLE IF NOT EXISTS "subscription" (
-      "id" TEXT PRIMARY KEY NOT NULL,
-      "user_id" TEXT NOT NULL UNIQUE,
-      "provider" TEXT NOT NULL DEFAULT 'stripe',
-      "customer_id" TEXT NOT NULL,
-      "subscription_id" TEXT,
-      "status" TEXT NOT NULL DEFAULT 'none',
-      "plan" TEXT NOT NULL DEFAULT 'free',
-      "price_id" TEXT,
-      "current_period_end" INTEGER,
-      "cancel_at_period_end" INTEGER NOT NULL DEFAULT 0,
-      "created_at" INTEGER NOT NULL,
-      "updated_at" INTEGER NOT NULL,
-      FOREIGN KEY ("user_id") REFERENCES "user"("id") ON DELETE CASCADE
-    )`,
-  ).run()
 })
 
 // ---------------------------------------------------------------------------
@@ -339,8 +321,8 @@ describe('4. impersonation: impersonateUser sets impersonatedBy; stopImpersonati
 // ---------------------------------------------------------------------------
 // Intent 5: getAdminStats — seeded data matches counts
 // ---------------------------------------------------------------------------
-describe('5. getAdminStats: seeded users/sessions/subscriptions match counts', () => {
-  test('totalUsers / activeUsers / subscriptions counts match seeded data', async () => {
+describe('5. getAdminStats: seeded users/sessions match counts', () => {
+  test('totalUsers / activeUsers counts match seeded data', async () => {
     const db = createDb(env.DB)
     const now = Date.now()
     const suffix = crypto.randomUUID().slice(0, 8)
@@ -393,29 +375,6 @@ describe('5. getAdminStats: seeded users/sessions/subscriptions match counts', (
       .bind(`stats-s3-${suffix}`, pastExpiry, `tok-s3-${suffix}`, now, now, userIds[2])
       .run()
 
-    // Insert subscriptions for users
-    await d1
-      .prepare(
-        `INSERT OR IGNORE INTO "subscription" ("id","user_id","provider","customer_id","status","plan","cancel_at_period_end","created_at","updated_at")
-         VALUES (?,?,?,?,?,?,0,?,?)`,
-      )
-      .bind(`stats-sub1-${suffix}`, userIds[0], 'stripe', `cus-${suffix}-1`, 'active', 'pro', now, now)
-      .run()
-    await d1
-      .prepare(
-        `INSERT OR IGNORE INTO "subscription" ("id","user_id","provider","customer_id","status","plan","cancel_at_period_end","created_at","updated_at")
-         VALUES (?,?,?,?,?,?,0,?,?)`,
-      )
-      .bind(`stats-sub2-${suffix}`, userIds[1], 'stripe', `cus-${suffix}-2`, 'past_due', 'free', now, now)
-      .run()
-    await d1
-      .prepare(
-        `INSERT OR IGNORE INTO "subscription" ("id","user_id","provider","customer_id","status","plan","cancel_at_period_end","created_at","updated_at")
-         VALUES (?,?,?,?,?,?,0,?,?)`,
-      )
-      .bind(`stats-sub3-${suffix}`, userIds[2], 'stripe', `cus-${suffix}-3`, 'canceled', 'free', now, now)
-      .run()
-
     const stats = await getAdminStats(db, now)
 
     // totalUsers: at least our 3 seeded users (other tests may have added more)
@@ -424,12 +383,5 @@ describe('5. getAdminStats: seeded users/sessions/subscriptions match counts', (
     // activeUsers: at least our 2 users with unexpired sessions
     // (userIds[2] only has an expired session so should NOT contribute)
     expect(stats.activeUsers).toBeGreaterThanOrEqual(2)
-
-    // subscriptions: at least 1 active, 1 past_due, 1 canceled, 1 pro, 2 free (from our seed)
-    expect(stats.subscriptions.active).toBeGreaterThanOrEqual(1)
-    expect(stats.subscriptions.pastDue).toBeGreaterThanOrEqual(1)
-    expect(stats.subscriptions.canceled).toBeGreaterThanOrEqual(1)
-    expect(stats.subscriptions.pro).toBeGreaterThanOrEqual(1)
-    expect(stats.subscriptions.free).toBeGreaterThanOrEqual(2)
   })
 })

@@ -5,9 +5,8 @@ title: "Cloudflare 已知坑（开发须知）"
 1. **per-request 绑定**：Drizzle/auth 每请求新建（用 `createDb(env.DB)`），绝不跨请求复用。
 2. **禁用 `process.env`**：一律从 `src/lib/env.ts` 的 `env`（来自 `cloudflare:workers`）取；ESLint 已强制（`no-restricted-properties`）。
 3. **CPU-ms 预算**：图像等重计算监控/降级。
-4. **Node 兼容**：`compatibility_flags: ["nodejs_compat"]` 已开；需要的 polyfill 在此登记。
-5. **（阶段2）Stripe webhook**：取原始 body + Web Crypto 异步验签，非 Node crypto。
-6. **（阶段1）Better-Auth 后台任务**：关键 session 写入走同步路径 + 重试，避免响应后 D1 瞬时错误挂起。
+4. **Node 兼容**：`compatibility_flags: ["nodejs_compat"]` 已开；需要的 polyfill 在此登记（CSP nonce 用的 `node:async_hooks` 即一例）。
+5. **（阶段1）Better-Auth 后台任务**：关键 session 写入走同步路径 + 重试，避免响应后 D1 瞬时错误挂起。
 
 ## Cron Triggers（定时任务）
 

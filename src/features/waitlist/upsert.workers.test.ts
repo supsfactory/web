@@ -30,11 +30,11 @@ test('concurrent double-submit: one added / one already, no 500 from the unique 
 
 test('inserts a new email then reports already on repeat; persists source', async () => {
   const db = createDb(env.DB)
-  const base = { email: 'src@example.com', locale: 'en', source: 'pricing' as const, now: new Date() }
+  const base = { email: 'src@example.com', locale: 'en', source: 'waitlist' as const, now: new Date() }
   const first = await upsertWaitlist(db, { id: crypto.randomUUID(), ...base })
   expect(first).toBe('added')
   const second = await upsertWaitlist(db, { id: crypto.randomUUID(), ...base })
   expect(second).toBe('already')
   const row = await db.select().from(waitlist).where(eq(waitlist.email, 'src@example.com')).limit(1)
-  expect(row[0].source).toBe('pricing')
+  expect(row[0].source).toBe('waitlist')
 })

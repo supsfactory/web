@@ -21,12 +21,10 @@ import { Route as Char123LocaleChar125TermsRouteImport } from './routes/{-$local
 import { Route as Char123LocaleChar125SupStartupBrandsRouteImport } from './routes/{-$locale}/sup-startup-brands'
 import { Route as Char123LocaleChar125SupForResortsRouteImport } from './routes/{-$locale}/sup-for-resorts'
 import { Route as Char123LocaleChar125SupForClubsRouteImport } from './routes/{-$locale}/sup-for-clubs'
-import { Route as Char123LocaleChar125SponsorRouteImport } from './routes/{-$locale}/sponsor'
 import { Route as Char123LocaleChar125SolutionsRouteImport } from './routes/{-$locale}/solutions'
 import { Route as Char123LocaleChar125ProductsRouteImport } from './routes/{-$locale}/products'
 import { Route as Char123LocaleChar125PrivateLabelSupRouteImport } from './routes/{-$locale}/private-label-sup'
 import { Route as Char123LocaleChar125PrivacyRouteImport } from './routes/{-$locale}/privacy'
-import { Route as Char123LocaleChar125PricingRouteImport } from './routes/{-$locale}/pricing'
 import { Route as Char123LocaleChar125HowItWorksRouteImport } from './routes/{-$locale}/how-it-works'
 import { Route as Char123LocaleChar125GalleryRouteImport } from './routes/{-$locale}/gallery'
 import { Route as Char123LocaleChar125CustomizerRouteImport } from './routes/{-$locale}/customizer'
@@ -38,17 +36,14 @@ import { Route as DocsSplatRouteImport } from './routes/docs/$'
 import { Route as DocsMdSplatRouteImport } from './routes/docs-md/$'
 import { Route as ApiSearchRouteImport } from './routes/api/search'
 import { Route as AdminWaitlistDotcsvRouteImport } from './routes/admin/waitlist[.]csv'
-import { Route as AdminSponsorsDotcsvRouteImport } from './routes/admin/sponsors[.]csv'
 import { Route as AdminInquiriesDotcsvRouteImport } from './routes/admin/inquiries[.]csv'
 import { Route as Char123LocaleChar125AdminRouteRouteImport } from './routes/{-$locale}/admin/route'
 import { Route as Char123LocaleChar125AppIndexRouteImport } from './routes/{-$locale}/app/index'
 import { Route as Char123LocaleChar125AdminIndexRouteImport } from './routes/{-$locale}/admin/index'
-import { Route as Char123LocaleChar125AppProRouteImport } from './routes/{-$locale}/app/pro'
 import { Route as Char123LocaleChar125AppFeedbackRouteImport } from './routes/{-$locale}/app/feedback'
 import { Route as Char123LocaleChar125AppAccountRouteImport } from './routes/{-$locale}/app/account'
 import { Route as Char123LocaleChar125AdminWaitlistRouteImport } from './routes/{-$locale}/admin/waitlist'
 import { Route as Char123LocaleChar125AdminUsersRouteImport } from './routes/{-$locale}/admin/users'
-import { Route as Char123LocaleChar125AdminSponsorsRouteImport } from './routes/{-$locale}/admin/sponsors'
 import { Route as Char123LocaleChar125AdminInquiriesRouteImport } from './routes/{-$locale}/admin/inquiries'
 import { Route as Char123LocaleChar125AdminFeedbackRouteImport } from './routes/{-$locale}/admin/feedback'
 import { Route as Char123LocaleChar125authVerifyEmailRouteImport } from './routes/{-$locale}/(auth)/verify-email'
@@ -56,7 +51,6 @@ import { Route as Char123LocaleChar125authResetPasswordRouteImport } from './rou
 import { Route as Char123LocaleChar125authRegisterRouteImport } from './routes/{-$locale}/(auth)/register'
 import { Route as Char123LocaleChar125authLoginRouteImport } from './routes/{-$locale}/(auth)/login'
 import { Route as Char123LocaleChar125authForgotPasswordRouteImport } from './routes/{-$locale}/(auth)/forgot-password'
-import { Route as ApiWebhooksStripeRouteImport } from './routes/api/webhooks/stripe'
 import { Route as ApiInquiryLogoSplatRouteImport } from './routes/api/inquiry-logo/$'
 import { Route as ApiAvatarsSplatRouteImport } from './routes/api/avatars/$'
 import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
@@ -129,12 +123,6 @@ const Char123LocaleChar125SupForClubsRoute =
     path: '/sup-for-clubs',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
-const Char123LocaleChar125SponsorRoute =
-  Char123LocaleChar125SponsorRouteImport.update({
-    id: '/sponsor',
-    path: '/sponsor',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
 const Char123LocaleChar125SolutionsRoute =
   Char123LocaleChar125SolutionsRouteImport.update({
     id: '/solutions',
@@ -157,12 +145,6 @@ const Char123LocaleChar125PrivacyRoute =
   Char123LocaleChar125PrivacyRouteImport.update({
     id: '/privacy',
     path: '/privacy',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
-const Char123LocaleChar125PricingRoute =
-  Char123LocaleChar125PricingRouteImport.update({
-    id: '/pricing',
-    path: '/pricing',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
 const Char123LocaleChar125HowItWorksRoute =
@@ -227,11 +209,6 @@ const AdminWaitlistDotcsvRoute = AdminWaitlistDotcsvRouteImport.update({
   path: '/admin/waitlist.csv',
   getParentRoute: () => rootRouteImport,
 } as any)
-const AdminSponsorsDotcsvRoute = AdminSponsorsDotcsvRouteImport.update({
-  id: '/admin/sponsors.csv',
-  path: '/admin/sponsors.csv',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const AdminInquiriesDotcsvRoute = AdminInquiriesDotcsvRouteImport.update({
   id: '/admin/inquiries.csv',
   path: '/admin/inquiries.csv',
@@ -255,12 +232,6 @@ const Char123LocaleChar125AdminIndexRoute =
     path: '/',
     getParentRoute: () => Char123LocaleChar125AdminRouteRoute,
   } as any)
-const Char123LocaleChar125AppProRoute =
-  Char123LocaleChar125AppProRouteImport.update({
-    id: '/app/pro',
-    path: '/app/pro',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
 const Char123LocaleChar125AppFeedbackRoute =
   Char123LocaleChar125AppFeedbackRouteImport.update({
     id: '/app/feedback',
@@ -283,12 +254,6 @@ const Char123LocaleChar125AdminUsersRoute =
   Char123LocaleChar125AdminUsersRouteImport.update({
     id: '/users',
     path: '/users',
-    getParentRoute: () => Char123LocaleChar125AdminRouteRoute,
-  } as any)
-const Char123LocaleChar125AdminSponsorsRoute =
-  Char123LocaleChar125AdminSponsorsRouteImport.update({
-    id: '/sponsors',
-    path: '/sponsors',
     getParentRoute: () => Char123LocaleChar125AdminRouteRoute,
   } as any)
 const Char123LocaleChar125AdminInquiriesRoute =
@@ -333,11 +298,6 @@ const Char123LocaleChar125authForgotPasswordRoute =
     path: '/forgot-password',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
-const ApiWebhooksStripeRoute = ApiWebhooksStripeRouteImport.update({
-  id: '/api/webhooks/stripe',
-  path: '/api/webhooks/stripe',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const ApiInquiryLogoSplatRoute = ApiInquiryLogoSplatRouteImport.update({
   id: '/api/inquiry-logo/$',
   path: '/api/inquiry-logo/$',
@@ -362,7 +322,6 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
-  '/admin/sponsors.csv': typeof AdminSponsorsDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
@@ -374,12 +333,10 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
   '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
   '/{-$locale}/how-it-works': typeof Char123LocaleChar125HowItWorksRoute
-  '/{-$locale}/pricing': typeof Char123LocaleChar125PricingRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/products': typeof Char123LocaleChar125ProductsRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRoute
-  '/{-$locale}/sponsor': typeof Char123LocaleChar125SponsorRoute
   '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
   '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
   '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
@@ -390,7 +347,6 @@ export interface FileRoutesByFullPath {
   '/api/auth/$': typeof ApiAuthSplatRoute
   '/api/avatars/$': typeof ApiAvatarsSplatRoute
   '/api/inquiry-logo/$': typeof ApiInquiryLogoSplatRoute
-  '/api/webhooks/stripe': typeof ApiWebhooksStripeRoute
   '/{-$locale}/forgot-password': typeof Char123LocaleChar125authForgotPasswordRoute
   '/{-$locale}/login': typeof Char123LocaleChar125authLoginRoute
   '/{-$locale}/register': typeof Char123LocaleChar125authRegisterRoute
@@ -398,12 +354,10 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/verify-email': typeof Char123LocaleChar125authVerifyEmailRoute
   '/{-$locale}/admin/feedback': typeof Char123LocaleChar125AdminFeedbackRoute
   '/{-$locale}/admin/inquiries': typeof Char123LocaleChar125AdminInquiriesRoute
-  '/{-$locale}/admin/sponsors': typeof Char123LocaleChar125AdminSponsorsRoute
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
   '/{-$locale}/admin/waitlist': typeof Char123LocaleChar125AdminWaitlistRoute
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
-  '/{-$locale}/app/pro': typeof Char123LocaleChar125AppProRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
 }
@@ -413,7 +367,6 @@ export interface FileRoutesByTo {
   '/robots.txt': typeof RobotsDottxtRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
-  '/admin/sponsors.csv': typeof AdminSponsorsDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
@@ -425,12 +378,10 @@ export interface FileRoutesByTo {
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
   '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
   '/{-$locale}/how-it-works': typeof Char123LocaleChar125HowItWorksRoute
-  '/{-$locale}/pricing': typeof Char123LocaleChar125PricingRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/products': typeof Char123LocaleChar125ProductsRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRoute
-  '/{-$locale}/sponsor': typeof Char123LocaleChar125SponsorRoute
   '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
   '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
   '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
@@ -441,7 +392,6 @@ export interface FileRoutesByTo {
   '/api/auth/$': typeof ApiAuthSplatRoute
   '/api/avatars/$': typeof ApiAvatarsSplatRoute
   '/api/inquiry-logo/$': typeof ApiInquiryLogoSplatRoute
-  '/api/webhooks/stripe': typeof ApiWebhooksStripeRoute
   '/{-$locale}/forgot-password': typeof Char123LocaleChar125authForgotPasswordRoute
   '/{-$locale}/login': typeof Char123LocaleChar125authLoginRoute
   '/{-$locale}/register': typeof Char123LocaleChar125authRegisterRoute
@@ -449,12 +399,10 @@ export interface FileRoutesByTo {
   '/{-$locale}/verify-email': typeof Char123LocaleChar125authVerifyEmailRoute
   '/{-$locale}/admin/feedback': typeof Char123LocaleChar125AdminFeedbackRoute
   '/{-$locale}/admin/inquiries': typeof Char123LocaleChar125AdminInquiriesRoute
-  '/{-$locale}/admin/sponsors': typeof Char123LocaleChar125AdminSponsorsRoute
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
   '/{-$locale}/admin/waitlist': typeof Char123LocaleChar125AdminWaitlistRoute
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
-  '/{-$locale}/app/pro': typeof Char123LocaleChar125AppProRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app': typeof Char123LocaleChar125AppIndexRoute
 }
@@ -467,7 +415,6 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
-  '/admin/sponsors.csv': typeof AdminSponsorsDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
@@ -479,12 +426,10 @@ export interface FileRoutesById {
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
   '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
   '/{-$locale}/how-it-works': typeof Char123LocaleChar125HowItWorksRoute
-  '/{-$locale}/pricing': typeof Char123LocaleChar125PricingRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/products': typeof Char123LocaleChar125ProductsRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRoute
-  '/{-$locale}/sponsor': typeof Char123LocaleChar125SponsorRoute
   '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
   '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
   '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
@@ -495,7 +440,6 @@ export interface FileRoutesById {
   '/api/auth/$': typeof ApiAuthSplatRoute
   '/api/avatars/$': typeof ApiAvatarsSplatRoute
   '/api/inquiry-logo/$': typeof ApiInquiryLogoSplatRoute
-  '/api/webhooks/stripe': typeof ApiWebhooksStripeRoute
   '/{-$locale}/(auth)/forgot-password': typeof Char123LocaleChar125authForgotPasswordRoute
   '/{-$locale}/(auth)/login': typeof Char123LocaleChar125authLoginRoute
   '/{-$locale}/(auth)/register': typeof Char123LocaleChar125authRegisterRoute
@@ -503,12 +447,10 @@ export interface FileRoutesById {
   '/{-$locale}/(auth)/verify-email': typeof Char123LocaleChar125authVerifyEmailRoute
   '/{-$locale}/admin/feedback': typeof Char123LocaleChar125AdminFeedbackRoute
   '/{-$locale}/admin/inquiries': typeof Char123LocaleChar125AdminInquiriesRoute
-  '/{-$locale}/admin/sponsors': typeof Char123LocaleChar125AdminSponsorsRoute
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
   '/{-$locale}/admin/waitlist': typeof Char123LocaleChar125AdminWaitlistRoute
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
-  '/{-$locale}/app/pro': typeof Char123LocaleChar125AppProRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
 }
@@ -522,7 +464,6 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/{-$locale}/admin'
     | '/admin/inquiries.csv'
-    | '/admin/sponsors.csv'
     | '/admin/waitlist.csv'
     | '/api/search'
     | '/docs-md/$'
@@ -534,12 +475,10 @@ export interface FileRouteTypes {
     | '/{-$locale}/customizer'
     | '/{-$locale}/gallery'
     | '/{-$locale}/how-it-works'
-    | '/{-$locale}/pricing'
     | '/{-$locale}/privacy'
     | '/{-$locale}/private-label-sup'
     | '/{-$locale}/products'
     | '/{-$locale}/solutions'
-    | '/{-$locale}/sponsor'
     | '/{-$locale}/sup-for-clubs'
     | '/{-$locale}/sup-for-resorts'
     | '/{-$locale}/sup-startup-brands'
@@ -550,7 +489,6 @@ export interface FileRouteTypes {
     | '/api/auth/$'
     | '/api/avatars/$'
     | '/api/inquiry-logo/$'
-    | '/api/webhooks/stripe'
     | '/{-$locale}/forgot-password'
     | '/{-$locale}/login'
     | '/{-$locale}/register'
@@ -558,12 +496,10 @@ export interface FileRouteTypes {
     | '/{-$locale}/verify-email'
     | '/{-$locale}/admin/feedback'
     | '/{-$locale}/admin/inquiries'
-    | '/{-$locale}/admin/sponsors'
     | '/{-$locale}/admin/users'
     | '/{-$locale}/admin/waitlist'
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
-    | '/{-$locale}/app/pro'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
   fileRoutesByTo: FileRoutesByTo
@@ -573,7 +509,6 @@ export interface FileRouteTypes {
     | '/robots.txt'
     | '/sitemap.xml'
     | '/admin/inquiries.csv'
-    | '/admin/sponsors.csv'
     | '/admin/waitlist.csv'
     | '/api/search'
     | '/docs-md/$'
@@ -585,12 +520,10 @@ export interface FileRouteTypes {
     | '/{-$locale}/customizer'
     | '/{-$locale}/gallery'
     | '/{-$locale}/how-it-works'
-    | '/{-$locale}/pricing'
     | '/{-$locale}/privacy'
     | '/{-$locale}/private-label-sup'
     | '/{-$locale}/products'
     | '/{-$locale}/solutions'
-    | '/{-$locale}/sponsor'
     | '/{-$locale}/sup-for-clubs'
     | '/{-$locale}/sup-for-resorts'
     | '/{-$locale}/sup-startup-brands'
@@ -601,7 +534,6 @@ export interface FileRouteTypes {
     | '/api/auth/$'
     | '/api/avatars/$'
     | '/api/inquiry-logo/$'
-    | '/api/webhooks/stripe'
     | '/{-$locale}/forgot-password'
     | '/{-$locale}/login'
     | '/{-$locale}/register'
@@ -609,12 +541,10 @@ export interface FileRouteTypes {
     | '/{-$locale}/verify-email'
     | '/{-$locale}/admin/feedback'
     | '/{-$locale}/admin/inquiries'
-    | '/{-$locale}/admin/sponsors'
     | '/{-$locale}/admin/users'
     | '/{-$locale}/admin/waitlist'
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
-    | '/{-$locale}/app/pro'
     | '/{-$locale}/admin'
     | '/{-$locale}/app'
   id:
@@ -626,7 +556,6 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/{-$locale}/admin'
     | '/admin/inquiries.csv'
-    | '/admin/sponsors.csv'
     | '/admin/waitlist.csv'
     | '/api/search'
     | '/docs-md/$'
@@ -638,12 +567,10 @@ export interface FileRouteTypes {
     | '/{-$locale}/customizer'
     | '/{-$locale}/gallery'
     | '/{-$locale}/how-it-works'
-    | '/{-$locale}/pricing'
     | '/{-$locale}/privacy'
     | '/{-$locale}/private-label-sup'
     | '/{-$locale}/products'
     | '/{-$locale}/solutions'
-    | '/{-$locale}/sponsor'
     | '/{-$locale}/sup-for-clubs'
     | '/{-$locale}/sup-for-resorts'
     | '/{-$locale}/sup-startup-brands'
@@ -654,7 +581,6 @@ export interface FileRouteTypes {
     | '/api/auth/$'
     | '/api/avatars/$'
     | '/api/inquiry-logo/$'
-    | '/api/webhooks/stripe'
     | '/{-$locale}/(auth)/forgot-password'
     | '/{-$locale}/(auth)/login'
     | '/{-$locale}/(auth)/register'
@@ -662,12 +588,10 @@ export interface FileRouteTypes {
     | '/{-$locale}/(auth)/verify-email'
     | '/{-$locale}/admin/feedback'
     | '/{-$locale}/admin/inquiries'
-    | '/{-$locale}/admin/sponsors'
     | '/{-$locale}/admin/users'
     | '/{-$locale}/admin/waitlist'
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
-    | '/{-$locale}/app/pro'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
   fileRoutesById: FileRoutesById
@@ -679,7 +603,6 @@ export interface RootRouteChildren {
   RobotsDottxtRoute: typeof RobotsDottxtRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   AdminInquiriesDotcsvRoute: typeof AdminInquiriesDotcsvRoute
-  AdminSponsorsDotcsvRoute: typeof AdminSponsorsDotcsvRoute
   AdminWaitlistDotcsvRoute: typeof AdminWaitlistDotcsvRoute
   ApiSearchRoute: typeof ApiSearchRoute
   DocsMdSplatRoute: typeof DocsMdSplatRoute
@@ -687,7 +610,6 @@ export interface RootRouteChildren {
   ApiAuthSplatRoute: typeof ApiAuthSplatRoute
   ApiAvatarsSplatRoute: typeof ApiAvatarsSplatRoute
   ApiInquiryLogoSplatRoute: typeof ApiInquiryLogoSplatRoute
-  ApiWebhooksStripeRoute: typeof ApiWebhooksStripeRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -776,13 +698,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125SupForClubsRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
-    '/{-$locale}/sponsor': {
-      id: '/{-$locale}/sponsor'
-      path: '/sponsor'
-      fullPath: '/{-$locale}/sponsor'
-      preLoaderRoute: typeof Char123LocaleChar125SponsorRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
     '/{-$locale}/solutions': {
       id: '/{-$locale}/solutions'
       path: '/solutions'
@@ -809,13 +724,6 @@ declare module '@tanstack/react-router' {
       path: '/privacy'
       fullPath: '/{-$locale}/privacy'
       preLoaderRoute: typeof Char123LocaleChar125PrivacyRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
-    '/{-$locale}/pricing': {
-      id: '/{-$locale}/pricing'
-      path: '/pricing'
-      fullPath: '/{-$locale}/pricing'
-      preLoaderRoute: typeof Char123LocaleChar125PricingRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
     '/{-$locale}/how-it-works': {
@@ -895,13 +803,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminWaitlistDotcsvRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/admin/sponsors.csv': {
-      id: '/admin/sponsors.csv'
-      path: '/admin/sponsors.csv'
-      fullPath: '/admin/sponsors.csv'
-      preLoaderRoute: typeof AdminSponsorsDotcsvRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/admin/inquiries.csv': {
       id: '/admin/inquiries.csv'
       path: '/admin/inquiries.csv'
@@ -930,13 +831,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125AdminIndexRouteImport
       parentRoute: typeof Char123LocaleChar125AdminRouteRoute
     }
-    '/{-$locale}/app/pro': {
-      id: '/{-$locale}/app/pro'
-      path: '/app/pro'
-      fullPath: '/{-$locale}/app/pro'
-      preLoaderRoute: typeof Char123LocaleChar125AppProRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
     '/{-$locale}/app/feedback': {
       id: '/{-$locale}/app/feedback'
       path: '/app/feedback'
@@ -963,13 +857,6 @@ declare module '@tanstack/react-router' {
       path: '/users'
       fullPath: '/{-$locale}/admin/users'
       preLoaderRoute: typeof Char123LocaleChar125AdminUsersRouteImport
-      parentRoute: typeof Char123LocaleChar125AdminRouteRoute
-    }
-    '/{-$locale}/admin/sponsors': {
-      id: '/{-$locale}/admin/sponsors'
-      path: '/sponsors'
-      fullPath: '/{-$locale}/admin/sponsors'
-      preLoaderRoute: typeof Char123LocaleChar125AdminSponsorsRouteImport
       parentRoute: typeof Char123LocaleChar125AdminRouteRoute
     }
     '/{-$locale}/admin/inquiries': {
@@ -1021,13 +908,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125authForgotPasswordRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
-    '/api/webhooks/stripe': {
-      id: '/api/webhooks/stripe'
-      path: '/api/webhooks/stripe'
-      fullPath: '/api/webhooks/stripe'
-      preLoaderRoute: typeof ApiWebhooksStripeRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/api/inquiry-logo/$': {
       id: '/api/inquiry-logo/$'
       path: '/api/inquiry-logo/$'
@@ -1055,7 +935,6 @@ declare module '@tanstack/react-router' {
 interface Char123LocaleChar125AdminRouteRouteChildren {
   Char123LocaleChar125AdminFeedbackRoute: typeof Char123LocaleChar125AdminFeedbackRoute
   Char123LocaleChar125AdminInquiriesRoute: typeof Char123LocaleChar125AdminInquiriesRoute
-  Char123LocaleChar125AdminSponsorsRoute: typeof Char123LocaleChar125AdminSponsorsRoute
   Char123LocaleChar125AdminUsersRoute: typeof Char123LocaleChar125AdminUsersRoute
   Char123LocaleChar125AdminWaitlistRoute: typeof Char123LocaleChar125AdminWaitlistRoute
   Char123LocaleChar125AdminIndexRoute: typeof Char123LocaleChar125AdminIndexRoute
@@ -1067,8 +946,6 @@ const Char123LocaleChar125AdminRouteRouteChildren: Char123LocaleChar125AdminRout
       Char123LocaleChar125AdminFeedbackRoute,
     Char123LocaleChar125AdminInquiriesRoute:
       Char123LocaleChar125AdminInquiriesRoute,
-    Char123LocaleChar125AdminSponsorsRoute:
-      Char123LocaleChar125AdminSponsorsRoute,
     Char123LocaleChar125AdminUsersRoute: Char123LocaleChar125AdminUsersRoute,
     Char123LocaleChar125AdminWaitlistRoute:
       Char123LocaleChar125AdminWaitlistRoute,
@@ -1089,12 +966,10 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125CustomizerRoute: typeof Char123LocaleChar125CustomizerRoute
   Char123LocaleChar125GalleryRoute: typeof Char123LocaleChar125GalleryRoute
   Char123LocaleChar125HowItWorksRoute: typeof Char123LocaleChar125HowItWorksRoute
-  Char123LocaleChar125PricingRoute: typeof Char123LocaleChar125PricingRoute
   Char123LocaleChar125PrivacyRoute: typeof Char123LocaleChar125PrivacyRoute
   Char123LocaleChar125PrivateLabelSupRoute: typeof Char123LocaleChar125PrivateLabelSupRoute
   Char123LocaleChar125ProductsRoute: typeof Char123LocaleChar125ProductsRoute
   Char123LocaleChar125SolutionsRoute: typeof Char123LocaleChar125SolutionsRoute
-  Char123LocaleChar125SponsorRoute: typeof Char123LocaleChar125SponsorRoute
   Char123LocaleChar125SupForClubsRoute: typeof Char123LocaleChar125SupForClubsRoute
   Char123LocaleChar125SupForResortsRoute: typeof Char123LocaleChar125SupForResortsRoute
   Char123LocaleChar125SupStartupBrandsRoute: typeof Char123LocaleChar125SupStartupBrandsRoute
@@ -1109,7 +984,6 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125authVerifyEmailRoute: typeof Char123LocaleChar125authVerifyEmailRoute
   Char123LocaleChar125AppAccountRoute: typeof Char123LocaleChar125AppAccountRoute
   Char123LocaleChar125AppFeedbackRoute: typeof Char123LocaleChar125AppFeedbackRoute
-  Char123LocaleChar125AppProRoute: typeof Char123LocaleChar125AppProRoute
   Char123LocaleChar125AppIndexRoute: typeof Char123LocaleChar125AppIndexRoute
 }
 
@@ -1125,13 +999,11 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
     Char123LocaleChar125CustomizerRoute: Char123LocaleChar125CustomizerRoute,
     Char123LocaleChar125GalleryRoute: Char123LocaleChar125GalleryRoute,
     Char123LocaleChar125HowItWorksRoute: Char123LocaleChar125HowItWorksRoute,
-    Char123LocaleChar125PricingRoute: Char123LocaleChar125PricingRoute,
     Char123LocaleChar125PrivacyRoute: Char123LocaleChar125PrivacyRoute,
     Char123LocaleChar125PrivateLabelSupRoute:
       Char123LocaleChar125PrivateLabelSupRoute,
     Char123LocaleChar125ProductsRoute: Char123LocaleChar125ProductsRoute,
     Char123LocaleChar125SolutionsRoute: Char123LocaleChar125SolutionsRoute,
-    Char123LocaleChar125SponsorRoute: Char123LocaleChar125SponsorRoute,
     Char123LocaleChar125SupForClubsRoute: Char123LocaleChar125SupForClubsRoute,
     Char123LocaleChar125SupForResortsRoute:
       Char123LocaleChar125SupForResortsRoute,
@@ -1152,7 +1024,6 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
       Char123LocaleChar125authVerifyEmailRoute,
     Char123LocaleChar125AppAccountRoute: Char123LocaleChar125AppAccountRoute,
     Char123LocaleChar125AppFeedbackRoute: Char123LocaleChar125AppFeedbackRoute,
-    Char123LocaleChar125AppProRoute: Char123LocaleChar125AppProRoute,
     Char123LocaleChar125AppIndexRoute: Char123LocaleChar125AppIndexRoute,
   }
 
@@ -1168,7 +1039,6 @@ const rootRouteChildren: RootRouteChildren = {
   RobotsDottxtRoute: RobotsDottxtRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   AdminInquiriesDotcsvRoute: AdminInquiriesDotcsvRoute,
-  AdminSponsorsDotcsvRoute: AdminSponsorsDotcsvRoute,
   AdminWaitlistDotcsvRoute: AdminWaitlistDotcsvRoute,
   ApiSearchRoute: ApiSearchRoute,
   DocsMdSplatRoute: DocsMdSplatRoute,
@@ -1176,7 +1046,6 @@ const rootRouteChildren: RootRouteChildren = {
   ApiAuthSplatRoute: ApiAuthSplatRoute,
   ApiAvatarsSplatRoute: ApiAvatarsSplatRoute,
   ApiInquiryLogoSplatRoute: ApiInquiryLogoSplatRoute,
-  ApiWebhooksStripeRoute: ApiWebhooksStripeRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

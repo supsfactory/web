@@ -12,7 +12,7 @@ title: "Storage (R2)"
 ## 工作原理
 
 `BUCKET` 是一个 Cloudflare **绑定**(binding),和 `DB`、`CACHE` 一样声明在
-`wrangler.jsonc` 里。与 Stripe/Resend(可以缺省的外部 API key)不同,绑定**始终存在**
+`wrangler.jsonc` 里。与 Resend(可以缺省的外部 API key)不同,绑定**始终存在**
 —— 本地开发和测试用的是 miniflare 模拟的 R2,**零配置**即可跑。
 
 - **写** —— `uploadAvatar` server fn(`src/features/storage/actions.ts`):校验类型/大小

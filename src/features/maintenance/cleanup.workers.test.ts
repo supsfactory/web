@@ -12,14 +12,11 @@ import { env } from 'cloudflare:test'
 import { eq } from 'drizzle-orm'
 import { createDb } from '@/db/client'
 import { session, verification, rateLimit, user } from '@/features/auth/auth.schema'
-import { processedWebhookEvents } from '@/features/billing/billing.schema'
 import { applyAuthSchema } from '@/features/auth/test-helpers'
-import { applyBillingSchema } from '@/features/billing/test-helpers'
-import { runCleanup, RATE_LIMIT_STALE_MS, WEBHOOK_EVENT_RETENTION_MS } from './cleanup'
+import { runCleanup, RATE_LIMIT_STALE_MS } from './cleanup'
 
 beforeAll(async () => {
   await applyAuthSchema(env.DB)
-  await applyBillingSchema(env.DB)
   // rateLimit table lives in migration 0005 (not in applyAuthSchema) — mirror it here.
   await env.DB.prepare(
     'CREATE TABLE IF NOT EXISTS "rateLimit" ("id" TEXT PRIMARY KEY NOT NULL, "key" TEXT, "count" INTEGER, "last_request" INTEGER)',
@@ -73,18 +70,5 @@ describe('runCleanup', () => {
     await runCleanup(db, now)
     expect((await db.select().from(rateLimit).where(eq(rateLimit.id, `rl-stale-${tag}`))).length).toBe(0)
     expect((await db.select().from(rateLimit).where(eq(rateLimit.id, `rl-fresh-${tag}`))).length).toBe(1)
-  })
-
-  test('deletes webhook idempotency markers past retention, keeps recent ones', async () => {
-    const db = createDb(env.DB)
-    const now = Date.now()
-    const tag = crypto.randomUUID()
-    await db.insert(processedWebhookEvents).values([
-      { eventId: `evt-old-${tag}`, processedAt: new Date(now - WEBHOOK_EVENT_RETENTION_MS - HOUR), status: 'done' },
-      { eventId: `evt-new-${tag}`, processedAt: new Date(now - HOUR), status: 'done' },
-    ])
-    await runCleanup(db, now)
-    expect((await db.select().from(processedWebhookEvents).where(eq(processedWebhookEvents.eventId, `evt-old-${tag}`))).length).toBe(0)
-    expect((await db.select().from(processedWebhookEvents).where(eq(processedWebhookEvents.eventId, `evt-new-${tag}`))).length).toBe(1)
   })
 })

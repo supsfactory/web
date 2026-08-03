@@ -14,10 +14,3 @@ test('reset-password 模板支持中文', async () => {
   expect(out.subject).toBe('重置你的密码')
   expect(out.html).toContain('https://app/reset?token=xyz')
 })
-
-test('renderEmail: pro-activated renders subject/html/text with the url', async () => {
-  const r = await renderEmail({ template: 'pro-activated', locale: 'en', data: { url: 'https://example.com/app' } })
-  expect(r.subject).toBeTruthy()
-  expect(r.html).toContain('https://example.com/app')
-  expect(r.text).toContain('https://example.com/app')
-})

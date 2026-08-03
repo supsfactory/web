@@ -52,7 +52,7 @@ export function withOwner<V extends Record<string, unknown>>(scope: Scope, value
 - `createFeedback(db, scope, { title, body }, now)`——trim + 长度校验（`TITLE_MAX=80`、`BODY_MAX=2000`，来自 `feedback.shared.ts`）；`COUNT(open by owner) >= OPEN_LIMIT(10)` 时返回 `{ ok: false, reason: 'limit' }`；通过后 `withOwner` 落库。注意 COUNT→INSERT 不是原子操作，并发提交理论上可短暂超限——这是**故意**的软闸（真正的治理手段是 admin 封禁账号），为教学示例上事务或唯一约束不值得，保持代码的诚实简单比“看起来更严谨”更重要。
 - `listMyFeedback(db, scope)`——`ownedBy` 过滤 + 按 `createdAt` 倒序。
 - `deleteMyFeedback(db, scope, id)`——**一条 SQL 里的归属 + 状态双守卫**：`WHERE ownedBy(...) AND id=... AND status='open'`。漏掉归属守卫是越权删除（能删别人的反馈），漏掉状态守卫会让用户抹掉已进入治理流程（`planned`/`shipped`/`closed`）的记录。
-- `listFeedbackForAdmin(db, { page, pageSize })`——`LEFT JOIN user`（拿 name/email/role）+ `LEFT JOIN subscription`（拿 plan/status/lifetime），逐行派生 `isPro = hasProAccess(role, resolveEntitlement(sub))`。这是 `hasProAccess` 在仓库里的第二个真实用例（第一个是套餐门控），用来在治理列表里给付费用户的反馈打 Pro 徽章。
+- `listFeedbackForAdmin(db, { page, pageSize })`——`LEFT JOIN user`（拿 name/email/role），治理列表按提交时间倒序分页。
 - `setFeedbackStatus(db, id, status, adminNote, now)`——状态流转（校验 `status` 落在 `FEEDBACK_STATUSES` 里）+ 可选一句话回复，更新 `updatedAt`。
 
 **为什么单独有 `feedback.shared.ts`**：`FEEDBACK_STATUSES`、`TITLE_MAX`、`BODY_MAX`、`OPEN_LIMIT` 这几个常量客户端组件（表单校验、状态徽章）和服务端都要用。如果把它们定义在 `feedback.server.ts` 里，客户端组件 `import` 它就会把 Drizzle、`db/scope` 等服务端依赖一并拖进浏览器 bundle。`feedback.shared.ts` 顶部注释写死了这条规矩：「不要在这里 import 任何服务端模块」——它是纯函数层和 UI 层共享常量、又不污染 bundle 的隔离层。
@@ -107,13 +107,12 @@ i18n 字典 `en.ts` / `zh.ts` 必须结构同一（`zh` 类型是 `typeof en`）
 
 ## 6. 测试（双池）
 
-`feedback.workers.test.ts` 跑在 **workers 池**（真实 D1，`cloudflare:test` 的 `env.DB`）。workers 池**不会**自动跑 migration，所以 `beforeAll` 里手写建表 DDL（`feedback` 表 + 一份最小 `subscription` 表，供 admin JOIN 测试用），再插入两个测试用户（`fb-a` 普通用户、`fb-b` 管理员，用来验证 Pro 徽章派生）：
+`feedback.workers.test.ts` 跑在 **workers 池**（真实 D1，`cloudflare:test` 的 `env.DB`）。workers 池**不会**自动跑 migration，所以 `beforeAll` 里手写建表 DDL（`feedback` 表），再插入两个测试用户（`fb-a` 普通用户、`fb-b` 管理员）：
 
 ```ts
 beforeAll(async () => {
   await applyAuthSchema(env.DB)
   await env.DB.exec(`CREATE TABLE IF NOT EXISTS feedback (...)`)
-  await env.DB.exec(`CREATE TABLE IF NOT EXISTS "subscription" (...)`)
   // 插入 fb-a（role: user）、fb-b（role: admin）
 })
 ```
@@ -125,7 +124,7 @@ beforeAll(async () => {
 - 连续提交撞到 `OPEN_LIMIT`（10）→ `limit`；关闭一条腾出配额后可再提交（非 `open` 状态不占额度）。
 - 归属隔离：A 看不到 B 的反馈。
 - 删除双守卫：B 删不动 A 的（归属）；A 删不动自己已 `planned` 的（状态）；A 删得动自己 `open` 的。
-- admin 列表 JOIN 出提交人 email、`isPro` 派生正确（`fb-b` 的 admin 角色应为 `true`，`fb-a` 应为 `false`）、`setFeedbackStatus` 写入的状态和 `adminNote`（trim 后）能读回来。
+- admin 列表 JOIN 出提交人 email、`setFeedbackStatus` 写入的状态和 `adminNote`（trim 后）能读回来。
 
 > **级联删除断言不在这个文件里**：删 `user` 行后 `feedback` 一并消失，这条断言在 `src/features/auth/auth.workers.test.ts` 的 `test('5. delete user cascades feedback (FK)')`——它是删号流程测试的职责，不是 `feedback.workers.test.ts` 的。照抄本切片加新功能时容易想当然地把级联断言也写进新 feature 自己的测试文件，记住：**级联删除是账号删除流程负责验证的，写进 `auth.workers.test.ts`**，新 feature 的 workers 测试只管自己那张表的业务规则和守卫。
 
@@ -163,5 +162,5 @@ beforeAll(async () => {
 想继续练手，试试这几个方向（都刻意留在 V2 之外，不在开源版实现）：
 
 - **公开路线图 + 投票**：把 `status='planned'/'shipped'` 的反馈做成一个无需登录可见的公开页，加一张 `feedback_vote(feedback_id, user_id)` 关联表做去重投票，按票数排序。
-- **状态变更邮件通知**：`setFeedbackStatus` 状态跃迁后触发一封「你的反馈有新进展」邮件——参照 `billing` 切片的 `hooks.ts`（`onProActivated` 等）钩子模式，给 feedback 也加一个 best-effort 的通知钩子，接 `email` feature 的模板系统。
-- **CSV 导出**：治理页加导出按钮，照 `sponsor` 切片的 `/admin/sponsors.csv` 抄一份 `/admin/feedback.csv`。
+- **状态变更邮件通知**：`setFeedbackStatus` 状态跃迁后触发一封「你的反馈有新进展」邮件——best-effort 通知钩子模式，接 `email` feature 的模板系统。
+- **CSV 导出**：治理页加导出按钮，仿 `waitlist` 切片的 `/admin/waitlist.csv` 抄一份 `/admin/feedback.csv`。

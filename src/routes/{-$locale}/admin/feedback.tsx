@@ -52,7 +52,6 @@ function Row({ r, onSaved }: { r: AdminFeedbackRow; onSaved: () => void }) {
           <div className="flex flex-wrap items-center gap-2">
             <span className="font-semibold">{r.title}</span>
             <Badge variant={STATUS_VARIANT[r.status as FeedbackStatus] ?? 'free'}>{t(`feedback.status.${r.status}`)}</Badge>
-            {r.isPro && <Badge variant="pro">Pro</Badge>}
           </div>
           {r.body && <p className="mb-0 mt-1.5 max-w-[60ch] text-sm text-fg-2 line-clamp-3">{r.body}</p>}
           <div className="mt-2 font-mono text-xs text-fg-3">

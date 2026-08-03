@@ -47,7 +47,6 @@ function WaitlistAdmin() {
         role: session?.user?.role ?? 'admin',
         image: session?.user?.image ?? null,
       }}
-      isPro={false}
       active="admin-waitlist"
       crumb={t('admin.navAdmin')}
     >

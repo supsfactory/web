@@ -86,16 +86,6 @@ export function createAuth(authEnv: AuthEnv, db: DB) {
     user: {
       deleteUser: {
         enabled: true,
-        // 删号前取消在生效中的 Stripe 订阅：subscription 行随删号级联消失，customerId
-        // 映射一丢，Stripe 侧的活订阅将永远扣费且无法对账。抛错会中止删除（宁可删不掉）。
-        beforeDelete: async (user) => {
-          const { env } = await import('@/lib/env')
-          if (!env.STRIPE_SECRET_KEY) return // 未接 Stripe → 无订阅可取消
-          const { createStripeProvider } = await import('@/features/billing/stripe')
-          const { cancelSubscriptionsForUser } = await import('@/features/billing/billing.server')
-          const provider = createStripeProvider(env)
-          await cancelSubscriptionsForUser(db, (id) => provider.cancelSubscription(id), user.id)
-        },
       },
     },
     databaseHooks: {

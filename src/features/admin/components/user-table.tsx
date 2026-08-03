@@ -43,8 +43,6 @@ export function UserTable({ rows, sortBy, sortDir, onSort, onRowClick }: Props) 
           <SortHead col="name" label={t('admin.name')} />
           <SortHead col="email" label={t('admin.email')} />
           <TableHead>{t('admin.role')}</TableHead>
-          {/* secondary columns fold away on phones — the detail drawer has them */}
-          <TableHead className="hidden md:table-cell">{t('admin.plan')}</TableHead>
           <TableHead>{t('admin.status')}</TableHead>
           <SortHead col="createdAt" label={t('admin.createdAt')} className="hidden md:table-cell" />
         </TableRow>
@@ -74,7 +72,6 @@ export function UserTable({ rows, sortBy, sortDir, onSort, onRowClick }: Props) 
             </TableCell>
             <TableCell><span className="font-mono text-[12.5px] text-fg-3">{u.email}</span></TableCell>
             <TableCell>{u.role === 'admin' ? <Badge variant="pro">{t('admin.roleAdmin')}</Badge> : <span className="text-fg-2">{u.role ?? 'user'}</span>}</TableCell>
-            <TableCell className="hidden md:table-cell">{u.plan === 'pro' ? <Badge variant="pro">{t('admin.pro')}</Badge> : <span className="text-fg-3">{u.plan ? t('admin.free') : '—'}</span>}</TableCell>
             <TableCell>{u.banned ? <Badge variant="warn" dot>{t('admin.banned')}</Badge> : <Badge variant="ok" dot>{t('admin.active')}</Badge>}</TableCell>
             <TableCell className="hidden text-fg-3 md:table-cell">{fmtDate(u.createdAt)}</TableCell>
           </TableRow>

@@ -37,7 +37,7 @@ If a dev server is already running on :3000 it is reused (outside CI).
 - Opens the per-user detail Drawer (row click) and screenshots it.
 
 Manual things still worth an eyeball when you run it: header-sort and pagination
-clicks, the ban (reason + expiry calendar) / unban / copy-email / Stripe-link /
+clicks, the ban (reason + expiry calendar) / unban / copy-email /
 impersonate flows and their sonner toasts, and the Drawer direction (right on
 desktop, bottom on mobile).
 

@@ -7,8 +7,8 @@ const origin = 'https://app.example.com'
 test('localizePath: en no prefix, zh prefixed', () => {
   expect(localizePath('en', '/')).toBe('/')
   expect(localizePath('zh', '/')).toBe('/zh')
-  expect(localizePath('en', '/pricing')).toBe('/pricing')
-  expect(localizePath('zh', '/pricing')).toBe('/zh/pricing')
+  expect(localizePath('en', '/products')).toBe('/products')
+  expect(localizePath('zh', '/products')).toBe('/zh/products')
 })
 
 test('robots disallows app/admin/api + lists sitemap', () => {
@@ -50,11 +50,11 @@ test('sitemap includes single-locale docs paths without hreflang alternates', ()
 })
 
 test('localeHead: canonical + hreflang alternates + og', () => {
-  const head = localeHead({ origin, locale: 'zh', path: '/pricing', title: 'T', description: 'D' })
-  expect(head.links.find((l) => l.rel === 'canonical')?.href).toBe(`${origin}/zh/pricing`)
-  expect(head.links.some((l) => l.rel === 'alternate' && l.hrefLang === 'en' && l.href === `${origin}/pricing`)).toBe(true)
-  expect(head.links.some((l) => l.rel === 'alternate' && l.hrefLang === 'zh' && l.href === `${origin}/zh/pricing`)).toBe(true)
+  const head = localeHead({ origin, locale: 'zh', path: '/products', title: 'T', description: 'D' })
+  expect(head.links.find((l) => l.rel === 'canonical')?.href).toBe(`${origin}/zh/products`)
+  expect(head.links.some((l) => l.rel === 'alternate' && l.hrefLang === 'en' && l.href === `${origin}/products`)).toBe(true)
+  expect(head.links.some((l) => l.rel === 'alternate' && l.hrefLang === 'zh' && l.href === `${origin}/zh/products`)).toBe(true)
   expect(head.links.some((l) => l.hrefLang === 'x-default')).toBe(true)
   expect(head.meta.some((m) => m.title === 'T')).toBe(true)
-  expect(head.meta.some((m) => m.property === 'og:url' && m.content === `${origin}/zh/pricing`)).toBe(true)
+  expect(head.meta.some((m) => m.property === 'og:url' && m.content === `${origin}/zh/products`)).toBe(true)
 })

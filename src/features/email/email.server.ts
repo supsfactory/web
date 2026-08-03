@@ -6,7 +6,7 @@ import type { Locale } from '@/features/i18n/locale'
 export interface SendEmailInput {
   to: string
   locale: Locale
-  template: 'verify-email' | 'reset-password' | 'pro-activated'
+  template: 'verify-email' | 'reset-password'
   data: { url: string }
 }
 

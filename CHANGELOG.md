@@ -18,7 +18,7 @@ and this project aims to follow [Semantic Versioning](https://semver.org/spec/v2
 - **Error boundary** — a styled 500 page (`defaultErrorComponent`) so uncaught
   render/loader errors no longer blank the screen.
 - **Environment validation** — fail-fast zod schema validates required env on
-  startup; conditional rules for OAuth pairs and Stripe; clear aggregated errors.
+  startup; conditional rules for OAuth pairs; clear aggregated errors.
 - **Bot protection** — optional Cloudflare Turnstile on sign-up / sign-in /
   password-reset, enabled when `TURNSTILE_*` keys are set (degrades gracefully).
 - **Governance** — `CONTRIBUTING.md`, `SECURITY.md`, `CODE_OF_CONDUCT.md`, and
@@ -30,4 +30,4 @@ and this project aims to follow [Semantic Versioning](https://semver.org/spec/v2
 - Known gaps tracked for production hardening: per-endpoint auth rate limiting,
   error/abuse monitoring, and analytics.
 
-[Unreleased]: https://github.com/flarestarter/flarestarter/commits/main
+[Unreleased]: https://github.com/vectoflare/vectoflare/commits/main

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from '@tanstack/react-router'
-import { Ban, Check, Copy, ExternalLink, LogIn, CalendarIcon } from 'lucide-react'
+import { Ban, Check, Copy, LogIn, CalendarIcon } from 'lucide-react'
 import { toast } from 'sonner'
 import { authClient } from '@/features/auth/auth.client'
 import { useTranslation } from '@/features/i18n/provider'
@@ -102,23 +102,9 @@ export function UserDetailDrawer({ row, open, onOpenChange, currentUserId, onCha
             </div>
           </div>
 
-          {row.stripeUrl && (
-            <div className="grid gap-1">
-              <span className="text-fg-3 text-xs">{t('admin.customerId')}</span>
-              <a href={row.stripeUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 font-mono text-[13px] text-primary hover:underline">
-                {row.customerId} <ExternalLink size={13} />
-              </a>
-            </div>
-          )}
-
           <div className="grid grid-cols-2 gap-3">
             <div className="grid gap-1"><span className="text-fg-3 text-xs">{t('admin.joined')}</span><span>{fmtDate(row.createdAt)}</span></div>
             <div className="grid gap-1"><span className="text-fg-3 text-xs">{t('admin.updated')}</span><span>{fmtDate(row.updatedAt)}</span></div>
-            <div className="grid gap-1">
-              <span className="text-fg-3 text-xs">{t('admin.plan')}</span>
-              <span>{row.plan === 'pro' ? <Badge variant="pro">{t('admin.pro')}</Badge> : row.plan ? t('admin.free') : '—'}</span>
-            </div>
-            <div className="grid gap-1"><span className="text-fg-3 text-xs">{t('admin.status')}</span><span>{row.status ?? '—'}</span></div>
           </div>
 
           <hr className="border-border" />

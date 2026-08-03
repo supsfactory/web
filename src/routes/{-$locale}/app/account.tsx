@@ -1,7 +1,6 @@
 import { createFileRoute, useRouter, Link } from '@tanstack/react-router'
 import { useState, type ReactNode } from 'react'
 import { requireUser } from '@/features/auth/middleware'
-import { getEntitlement } from '@/features/billing/middleware'
 import { signOut, changePassword, deleteUser } from '@/features/auth/auth.client'
 import { mapAuthError } from '@/features/auth/errors'
 import { useTranslation } from '@/features/i18n/provider'
@@ -11,14 +10,13 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Card } from '@/components/ui/card'
 import { LogOut, Trash2 } from 'lucide-react'
-import { ManageSubscription } from '@/features/billing/components/manage-subscription'
 import { AvatarUploader } from '@/features/storage/components/avatar-uploader'
 
 export const Route = createFileRoute('/{-$locale}/app/account')({
   head: () => ({ meta: [{ name: 'robots', content: 'noindex' }] }),
   loader: async ({ params }) => {
-    const [user, ent] = await Promise.all([requireUser({ data: { locale: (params as { locale?: string }).locale } }), getEntitlement()])
-    return { user, ent }
+    const user = await requireUser({ data: { locale: (params as { locale?: string }).locale } })
+    return { user }
   },
   component: AccountPage,
 })
@@ -48,7 +46,7 @@ function Section({
 }
 
 function AccountPage() {
-  const { user, ent } = Route.useLoaderData()
+  const { user } = Route.useLoaderData()
   const { t } = useTranslation()
   const router = useRouter()
 
@@ -98,7 +96,7 @@ function AccountPage() {
   }
 
   return (
-    <AppShell user={user} isPro={ent.plan === 'pro'} active="account" crumb={t('app.account')} paymentFailed={ent.paymentFailed}>
+    <AppShell user={user} active="account" crumb={t('app.account')}>
       <div className="mb-6">
         <h1 className="page-h">{t('app.account')}</h1>
         <p className="mt-1.5 font-mono text-[13.5px] text-fg-3">{user.email}</p>
@@ -127,10 +125,6 @@ function AccountPage() {
               <Button type="submit" disabled={pwBusy}>{t('auth.changePassword')}</Button>
             </div>
           </form>
-        </Section>
-
-        <Section title={t('billing.currentPlan')}>
-          <ManageSubscription plan={ent.plan} status={ent.status} currentPeriodEnd={ent.currentPeriodEnd} lifetime={ent.lifetime} />
         </Section>
 
         {user.role === 'admin' && (

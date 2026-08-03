@@ -14,16 +14,6 @@ beforeAll(async () => {
     `body TEXT NOT NULL DEFAULT '', status TEXT NOT NULL DEFAULT 'open', admin_note TEXT, ` +
     `created_at INTEGER NOT NULL, updated_at INTEGER NOT NULL)`,
   )
-  await env.DB.exec(
-    `CREATE TABLE IF NOT EXISTS "subscription" (` +
-    `"id" TEXT PRIMARY KEY NOT NULL, "user_id" TEXT NOT NULL UNIQUE, ` +
-    `"provider" TEXT NOT NULL DEFAULT 'stripe', "customer_id" TEXT NOT NULL, ` +
-    `"subscription_id" TEXT, "status" TEXT NOT NULL DEFAULT 'none', ` +
-    `"plan" TEXT NOT NULL DEFAULT 'free', "price_id" TEXT, ` +
-    `"current_period_end" INTEGER, "cancel_at_period_end" INTEGER NOT NULL DEFAULT 0, ` +
-    `"lifetime" INTEGER NOT NULL DEFAULT 0, "payment_failed_at" INTEGER, ` +
-    `"created_at" INTEGER NOT NULL, "updated_at" INTEGER NOT NULL)`,
-  )
   const db = createDb(env.DB)
   await db.insert(user).values([
     { id: 'fb-a', name: 'FB A', email: 'fb-a@example.com', emailVerified: true, createdAt: new Date(1000), updatedAt: new Date(1000), role: 'user' },
@@ -83,19 +73,16 @@ describe('归属隔离与删除守卫', () => {
 })
 
 describe('admin 列表与状态流转', () => {
-  test('JOIN 提交人 + isPro 派生（admin 角色即 Pro access）+ adminNote 写读', async () => {
+  test('JOIN 提交人 + adminNote 写读', async () => {
     const db = createDb(env.DB)
-    const r = await createFeedback(db, B, { title: 'pro badge check', body: '' }, 4000)
+    const r = await createFeedback(db, B, { title: 'note check', body: '' }, 4000)
     if (!r.ok) throw new Error('setup failed')
     await setFeedbackStatus(db, r.id, 'shipped', '  已在 v1.2 上线  ', 4100)
     const { rows, total } = await listFeedbackForAdmin(db, { page: 0, pageSize: 100 })
     expect(total).toBeGreaterThan(0)
     const row = rows.find((x) => x.id === r.id)!
     expect(row.email).toBe('fb-b@example.com')
-    expect(row.isPro).toBe(true)                    // fb-b role=admin → hasProAccess
     expect(row.status).toBe('shipped')
     expect(row.adminNote).toBe('已在 v1.2 上线')     // trim
-    const rowA = rows.find((x) => x.email === 'fb-a@example.com')
-    expect(rowA?.isPro).toBe(false)
   })
 })

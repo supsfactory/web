@@ -1,6 +1,6 @@
-export type WaitlistSource = 'waitlist' | 'pricing'
+export type WaitlistSource = 'waitlist'
 
 /** Server-side allowlist for the client-supplied attribution source. */
-export function clampSource(s: string | undefined): WaitlistSource {
-  return s === 'pricing' ? 'pricing' : 'waitlist'
+export function clampSource(_s: string | undefined): WaitlistSource {
+  return 'waitlist'
 }
