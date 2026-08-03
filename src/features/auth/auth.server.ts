@@ -4,6 +4,7 @@ import { admin, captcha } from 'better-auth/plugins'
 import { tanstackStartCookies } from 'better-auth/tanstack-start'
 import type { DB } from '@/db/client'
 import * as schema from './auth.schema'
+import { adminRoles } from './admin-roles'
 import { sendEmail } from '@/features/email/email.server'
 import { negotiateLocale, defaultLocale, type Locale } from '@/features/i18n/locale'
 import { isAdminEmail } from '@/features/admin/is-admin'
@@ -103,7 +104,14 @@ export function createAuth(authEnv: AuthEnv, db: DB) {
     // Bot protection on sign-up/sign-in/password-reset — only when a secret key
     // is configured, so blank env degrades gracefully (no captcha, like OAuth).
     plugins: [
-      admin(),
+      admin({
+        // 最小权限：后台 UI 实际只用 ban/unban/impersonate/removeUser（用户列表走
+        // 自定义 getAdminUsers，不走 listUsers）。只保留这些 + 只读 list，撤掉
+        // create/update/set-role/set-password/set-email/get 等改密改权原语——
+        // 即使 role 被外部篡改成 admin，这些高危端点也无权调用。role 与 ADMIN_EMAILS
+        // 的同步由 assertAdmin 门（./routes/api/auth/$.ts）负责。
+        roles: adminRoles,
+      }),
       tanstackStartCookies(),
       ...(authEnv.TURNSTILE_SECRET_KEY
         ? [captcha({ provider: 'cloudflare-turnstile', secretKey: authEnv.TURNSTILE_SECRET_KEY })]

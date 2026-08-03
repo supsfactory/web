@@ -11,7 +11,6 @@ import { admin } from 'better-auth/plugins'
 import type { DB } from '@/db/client'
 import { isAdminEmail } from '@/features/admin/is-admin'
 import * as schema from './auth.schema'
-
 // ---------------------------------------------------------------------------
 // Auth env for tests — secret/URL are arbitrary but required by better-auth
 // ---------------------------------------------------------------------------
@@ -111,8 +110,13 @@ interface CapturedEmail {
 // createTestAuth — same config as createAuth but email hooks push to array.
 // Pass adminEmails (comma-separated) to wire the bootstrap databaseHook that
 // assigns role='admin' on sign-up for matching emails (same logic as production).
+// adminPluginOptions lets tests exercise the real permission matrix (adminRoles).
 // ---------------------------------------------------------------------------
-export function createTestAuth(db: DB, adminEmails?: string) {
+export function createTestAuth(
+  db: DB,
+  adminEmails?: string,
+  adminPluginOptions?: Parameters<typeof admin>[0],
+) {
   const sentEmails: CapturedEmail[] = []
 
   const auth = betterAuth({
@@ -146,7 +150,7 @@ export function createTestAuth(db: DB, adminEmails?: string) {
         },
       },
     },
-    plugins: [admin()],
+    plugins: [admin(adminPluginOptions)],
     // No tanstackStartCookies plugin in test — it tries to import @tanstack/react-start-server
   })
 

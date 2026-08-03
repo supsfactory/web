@@ -15,6 +15,7 @@ import { createDb } from '@/db/client'
 import { user as userTable, session as sessionTable } from '@/features/auth/auth.schema'
 import { applyAuthSchema, createTestAuth, extractToken, extractCookie } from '@/features/auth/test-helpers'
 import { getAdminStats } from './getAdminStats'
+import { adminRoles } from '@/features/auth/admin-roles'
 
 // ---------------------------------------------------------------------------
 // Test ADMIN_EMAILS value
@@ -383,5 +384,96 @@ describe('5. getAdminStats: seeded users/sessions match counts', () => {
     // activeUsers: at least our 2 users with unexpired sessions
     // (userIds[2] only has an expired session so should NOT contribute)
     expect(stats.activeUsers).toBeGreaterThanOrEqual(2)
+  })
+})
+
+// ---------------------------------------------------------------------------
+// Intent 6: least-privilege roles — the real adminRoles object from createAuth.
+// Admin keeps the endpoints the UI uses; credential/role-mutation endpoints are
+// denied even for an admin session.
+// ---------------------------------------------------------------------------
+describe('6. least-privilege: adminRoles grants UI endpoints, denies mutations', () => {
+  test('admin can list/ban/impersonate/remove; cannot setRole/setPassword/update/get/create', async () => {
+    const db = createDb(env.DB)
+    const suffix = crypto.randomUUID().slice(0, 8)
+    const adminEmail = `lp-admin-${suffix}@test.com`
+    const targetEmail = `lp-target-${suffix}@example.com`
+    const { auth, sentEmails } = createTestAuth(db, adminEmail, { roles: adminRoles })
+    const password = 'Password123!'
+
+    // Register admin
+    await auth.api.signUpEmail({ body: { email: adminEmail, password, name: 'LP Admin' }, asResponse: true })
+    const adminVE = sentEmails.find((e) => e.to === adminEmail)!
+    await auth.api.verifyEmail({ query: { token: extractToken(adminVE.url) }, asResponse: true })
+
+    // Register target
+    await auth.api.signUpEmail({ body: { email: targetEmail, password, name: 'LP Target' }, asResponse: true })
+    const targetVE = sentEmails.find((e) => e.to === targetEmail)!
+    await auth.api.verifyEmail({ query: { token: extractToken(targetVE.url) }, asResponse: true })
+
+    // Register a second target for the denied block — stays alive while target1
+    // is removed, so the denials are permission-based (403), not user-not-found.
+    const target2Email = `lp-target2-${suffix}@example.com`
+    await auth.api.signUpEmail({ body: { email: target2Email, password, name: 'LP Target 2' }, asResponse: true })
+    const target2VE = sentEmails.find((e) => e.to === target2Email)!
+    await auth.api.verifyEmail({ query: { token: extractToken(target2VE.url) }, asResponse: true })
+
+    // Sign in admin
+    const adminSignIn = await auth.api.signInEmail({ body: { email: adminEmail, password }, asResponse: true })
+    expect(adminSignIn.status).toBe(200)
+    const adminCookie = extractCookie(adminSignIn)
+
+    const targetRows = await db.select().from(userTable).where(eq(userTable.email, targetEmail))
+    expect(targetRows).toHaveLength(1)
+    const targetUserId = targetRows[0].id
+
+    const headers = cookieHeaders(adminCookie)
+
+    // --- Granted: the four endpoints the admin UI actually uses ---
+    // (impersonate before ban: the admin plugin refuses to create an
+    // impersonation session for a banned user — BANNED_USER 403.)
+    const listRes = await auth.api.listUsers({ query: {}, headers, asResponse: true })
+    expect(listRes.status).toBe(200)
+
+    const impersonateRes = await auth.api.impersonateUser({ body: { userId: targetUserId }, headers, asResponse: true })
+    expect(impersonateRes.status).toBe(200)
+
+    const banRes = await auth.api.banUser({ body: { userId: targetUserId }, headers, asResponse: true })
+    expect(banRes.status).toBe(200)
+
+    const removeRes = await auth.api.removeUser({ body: { userId: targetUserId }, headers, asResponse: true })
+    expect(removeRes.status).toBe(200)
+
+    // --- Denied: credential/role-mutation primitives (least privilege) ---
+    const target2Rows = await db.select().from(userTable).where(eq(userTable.email, target2Email))
+    expect(target2Rows).toHaveLength(1)
+    const target2UserId = target2Rows[0].id
+
+    const setRoleRes = await auth.api.setRole({ body: { userId: target2UserId, role: 'admin' }, headers, asResponse: true })
+    expect(setRoleRes.status).toBeGreaterThanOrEqual(400)
+
+    const setPasswordRes = await auth.api.setUserPassword({
+      body: { userId: target2UserId, newPassword: 'NewPassword123!' },
+      headers,
+      asResponse: true,
+    })
+    expect(setPasswordRes.status).toBeGreaterThanOrEqual(400)
+
+    const updateRes = await auth.api.adminUpdateUser({
+      body: { userId: target2UserId, data: { name: 'Hacked' } },
+      headers,
+      asResponse: true,
+    })
+    expect(updateRes.status).toBeGreaterThanOrEqual(400)
+
+    const getUserRes = await auth.api.getUser({ query: { id: target2UserId }, headers, asResponse: true })
+    expect(getUserRes.status).toBeGreaterThanOrEqual(400)
+
+    const createRes = await auth.api.createUser({
+      body: { email: `created-${suffix}@example.com`, password, name: 'Created' },
+      headers,
+      asResponse: true,
+    })
+    expect(createRes.status).toBeGreaterThanOrEqual(400)
   })
 })
