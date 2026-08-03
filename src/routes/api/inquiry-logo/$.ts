@@ -24,6 +24,10 @@ const handler = async ({ request }: { request: Request }) => {
   if (object.httpMetadata?.contentType) headers.set('Content-Type', object.httpMetadata.contentType)
   headers.set('ETag', object.httpEtag)
   headers.set('Cache-Control', 'private, max-age=60')
+  // 上传的 logo 是原始用户内容：对服务端发的响应强制沙箱 + 禁所有默认加载源，
+  // 防止以顶层文档打开恶意 SVG 时执行内联脚本（<img> 内嵌渲染本就不跑脚本）。
+  headers.set('Content-Security-Policy', "default-src 'none'; sandbox")
+  headers.set('X-Content-Type-Options', 'nosniff')
   return new Response(object.body, { headers })
 }
 

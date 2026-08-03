@@ -39,23 +39,28 @@ export async function sendInquiryNotification(apiKey: string | null, from: strin
     `Logo: ${data.logoUrl ?? 'none'}`,
     `Submitted: ${i.createdAt.toISOString()}`,
   ].join('\n')
+  const e = esc
   const html = [
     '<div style="font-family:Arial,sans-serif;max-width:560px;margin:auto">',
-    `<h2 style="color:#0b2540">New project inquiry — ${i.name}</h2>`,
+    `<h2 style="color:#0b2540">New project inquiry — ${e(i.name)}</h2>`,
     '<table style="border-collapse:collapse;width:100%;font-size:14px">',
-    row('Company', i.company),
-    row('Country', i.country),
-    row('Email', `<a href="mailto:${i.email}">${i.email}</a>`),
-    row('WhatsApp', i.whatsapp),
-    row('Business type', i.businessType),
-    row('Estimated quantity', i.quantity),
-    row('Requirements', i.requirements),
-    row('Logo', data.logoUrl ? `<a href="${data.logoUrl}">View logo</a>` : '—'),
+    row('Company', e(i.company)),
+    row('Country', e(i.country)),
+    row('Email', `<a href="mailto:${e(i.email)}">${e(i.email)}</a>`),
+    row('WhatsApp', e(i.whatsapp)),
+    row('Business type', e(i.businessType)),
+    row('Estimated quantity', e(i.quantity)),
+    row('Requirements', e(i.requirements)),
+    row('Logo', data.logoUrl ? `<a href="${e(data.logoUrl)}">View logo</a>` : '—'),
     '</table>',
-    `<p style="color:#7c8b9c;font-size:12px">Submitted at ${i.createdAt.toISOString()} · locale ${i.locale}</p>`,
+    `<p style="color:#7c8b9c;font-size:12px">Submitted at ${i.createdAt.toISOString()} · locale ${e(i.locale)}</p>`,
     '</div>',
   ].join('')
   await transport.send({ to: to[0], subject, html, text })
+}
+
+function esc(s: string): string {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;')
 }
 
 function row(label: string, value: string) {

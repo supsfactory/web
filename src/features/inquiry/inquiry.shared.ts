@@ -48,7 +48,7 @@ export function clampInquiryInput(d: unknown): InquiryInput {
 }
 
 export function isValidInquiryEmail(email: string): boolean {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)
+  return /^[^\s@<>"']+@[^\s@<>"']+\.[^\s@<>"']{2,}$/.test(email)
 }
 
 export interface FileCheck {
