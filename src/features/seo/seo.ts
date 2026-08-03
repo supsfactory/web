@@ -22,8 +22,8 @@ const PUBLIC_PATHS = [
 // Open Graph 要求 language_TERRITORY 形态（en_US），裸语言码会被严格解析器忽略。
 const OG_LOCALE: Record<Locale, string> = { en: 'en_US', zh: 'zh_CN' }
 
-// 社交分享封面：真实产品图（assets.afarer.com，用户自有 CDN）比 logo 更适合做 OG 图。
-export const OG_IMAGE = 'https://assets.afarer.com/images/afarer/products/afarer-sup-allround-board.webp'
+// 社交分享封面：真实产品图（assets.supsfactory.com，自有 R2 CDN）比 logo 更适合做 OG 图。
+export const OG_IMAGE = 'https://assets.supsfactory.com/images/sups/products/afarer-sup-allround-board.webp'
 
 export function buildRobots(origin: string): string {
   return [

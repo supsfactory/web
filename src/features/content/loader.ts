@@ -1,4 +1,5 @@
 import { parse } from 'yaml'
+import { assetUrl } from './assets'
 import type {
   AfarerArticle,
   AfarerCaseUse,
@@ -184,7 +185,17 @@ function mdxBodyOf(glob: Record<string, string>, slug: string): string {
 }
 
 const PRODUCTS: AfarerProduct[] = Object.entries(PRODUCT_DATA)
-  .map(([slug, d]) => ({ slug, body: mdxBodyOf(productGlob, slug), ...(d as object) } as unknown as AfarerProduct))
+  .map(([slug, d]) => {
+    const rec = { ...(d as object) } as Record<string, unknown>
+    if (typeof rec.image === 'string') rec.image = assetUrl(rec.image)
+    if (Array.isArray(rec.gallery)) {
+      rec.gallery = (rec.gallery as { url?: unknown; alt?: unknown }[]).map((g) => ({
+        ...g,
+        url: typeof g.url === 'string' ? assetUrl(g.url) : g.url,
+      }))
+    }
+    return { slug, body: mdxBodyOf(productGlob, slug), ...rec } as unknown as AfarerProduct
+  })
   .sort((a, b) => a.title.localeCompare(b.title))
 
 const NEWS: AfarerPost[] = Object.entries(NEWS_DATA)
@@ -195,7 +206,7 @@ const NEWS: AfarerPost[] = Object.entries(NEWS_DATA)
       title: String(rec.title ?? slug),
       date: String(rec.publishDate ?? ''),
       excerpt: rec.excerpt ? String(rec.excerpt) : undefined,
-      image: rec.image ? String(rec.image) : undefined,
+      image: rec.image ? assetUrl(String(rec.image)) : undefined,
       category: rec.category ? String(rec.category) : undefined,
       author: rec.author ? String(rec.author) : undefined,
       tags: Array.isArray(rec.tags) ? rec.tags.map(String) : [],

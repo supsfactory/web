@@ -4,6 +4,7 @@ import { ArrowRight, Check } from 'lucide-react'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
 import { getAfarerProducts, getNewsPosts, getCaseUses, getResearchTopics, getAfarerPage, brandify } from '../loader'
+import { assetUrl } from '../assets'
 import type { AfarerPage, AfarerSectionDef } from '../types'
 
 /**
@@ -179,7 +180,7 @@ function FeatureGrid({ c, grid = 'sm:grid-cols-2 lg:grid-cols-3' }: { c: Record<
         {items.map((it, i) => {
           const body = brandify(str(it.desc) || str(it.description) || str(it.body) || str(it.subtitle) || '')
           const href = str(it.href) || str(it.link) || ''
-          const image = str(it.image)
+          const image = assetUrl(str(it.image))
           const icon = str(it.icon)
           const card = (
             <div className="marine-card flex h-full flex-col p-6">
@@ -575,7 +576,7 @@ function CaseCardsWidget({ c }: { c: Record<string, unknown> }) {
       <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {items.map((it, i) => (
           <div key={i} className="marine-card flex h-full flex-col p-6">
-            {str(it.image) && <img src={str(it.image)} alt="" loading="lazy" className="mb-4 aspect-[16/9] w-full rounded-xl border border-border-2 object-cover" />}
+            {str(it.image) && <img src={assetUrl(str(it.image))} alt="" loading="lazy" className="mb-4 aspect-[16/9] w-full rounded-xl border border-border-2 object-cover" />}
             <div className="flex flex-wrap items-center gap-2 text-[11.5px] font-bold uppercase tracking-wider text-fg-3">
               {str(it.industry) && <span className="pill border-primary/25! bg-soft! text-primary!">{str(it.industry)}</span>}
               {str(it.country) && <span>{str(it.country)}</span>}
