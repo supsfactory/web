@@ -1,0 +1,146 @@
+name: Upload afarer images to R2
+
+# 手动触发：把 afarer 仓库 public/images/afarer/* 的图片上传到
+# supsfactory-files-prod 桶的 images/sups/ 前缀，并尝试把自定义域
+# assets.supsfactory.com 绑定到该桶（与 src/features/content/assets.ts
+# 的 URL 重写保持一致）。
+#
+# 依赖仓库 secrets：CLOUDFLARE_API_TOKEN（需 Account › R2 › Edit 权限）、
+# CLOUDFLARE_ACCOUNT_ID。
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  R2_BUCKET: supsfactory-files-prod
+  CDN_DOMAIN: assets.supsfactory.com
+  CDN_ZONE: supsfactory.com
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      # 未配置凭据时优雅跳过，避免留下红叉。
+      - name: Check for Cloudflare credentials
+        id: guard
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID 未配置，跳过。"
+          fi
+
+      - if: steps.guard.outputs.enabled == 'true'
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.0.0
+
+      # 只拉图片目录，避免整个 afarer 仓库。
+      - name: Checkout afarer images
+        if: steps.guard.outputs.enabled == 'true'
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.0.0
+        with:
+          repository: theafarer/afarer
+          path: afarer
+          sparse-checkout: |
+            public/images/afarer
+
+      # 探测 token 的 R2 权限、桶是否存在，并解析自定义域所在 zone。
+      - name: Preflight R2 access
+        id: preflight
+        if: steps.guard.outputs.enabled == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          API="https://api.cloudflare.com/client/v4"
+          AUTH="Authorization: Bearer ${CLOUDFLARE_API_TOKEN}"
+
+          HTTP=$(curl -sS -o /tmp/r2buckets.json -w '%{http_code}' \
+            "$API/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets?per_page=100" -H "$AUTH")
+          if [ "$HTTP" = "200" ]; then
+            echo "r2_ok=true" >> "$GITHUB_OUTPUT"
+            if jq -e --arg b "$R2_BUCKET" '.result | any(.name == $b)' /tmp/r2buckets.json >/dev/null; then
+              echo "bucket_exists=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "bucket_exists=false" >> "$GITHUB_OUTPUT"
+              echo "::notice::桶 $R2_BUCKET 不存在，将尝试创建。"
+            fi
+          else
+            echo "r2_ok=false" >> "$GITHUB_OUTPUT"
+            echo "::error::R2 API probe failed (HTTP $HTTP). CLOUDFLARE_API_TOKEN 需要 Account › R2 Storage › Edit 权限。$(jq -c '.errors' /tmp/r2buckets.json 2>/dev/null)"
+          fi
+
+          ZHTTP=$(curl -sS -o /tmp/zones.json -w '%{http_code}' \
+            "$API/zones?name=$CDN_ZONE&per_page=1" -H "$AUTH")
+          if [ "$ZHTTP" = "200" ]; then
+            ZID=$(jq -r '.result[0].id // ""' /tmp/zones.json)
+            if [ -n "$ZID" ]; then
+              echo "zone_id=$ZID" >> "$GITHUB_OUTPUT"
+              echo "zone_found=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "zone_found=false" >> "$GITHUB_OUTPUT"
+              echo "::warning::Zone $CDN_ZONE 不在该账号下，自定义域绑定将跳过。"
+            fi
+          else
+            echo "zone_found=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Zone lookup failed (HTTP $ZHTTP)。"
+          fi
+
+      - name: Create R2 bucket if missing
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true' && steps.preflight.outputs.bucket_exists == 'false'
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          curl -sS -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
+            -d "{\"name\":\"$R2_BUCKET\"}" | jq .
+
+      - name: Upload afarer images to R2
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: node scripts/upload-afarer-images.mjs --http --src afarer/public/images/afarer
+
+      - name: Attach custom domain to R2 bucket
+        id: cdn
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true' && steps.preflight.outputs.zone_found == 'true'
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          ZONE_ID: ${{ steps.preflight.outputs.zone_id }}
+        run: |
+          RESP=$(curl -sS -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/domains/custom" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
+            -d "{\"domain\":\"$CDN_DOMAIN\",\"enabled\":true,\"zoneId\":\"$ZONE_ID\"}")
+          echo "$RESP" | jq .
+          if echo "$RESP" | jq -e '.success == true' >/dev/null 2>&1; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::自定义域绑定未成功（若提示已存在可忽略）。否则请手动绑定: https://dash.cloudflare.com/$CLOUDFLARE_ACCOUNT_ID/r2/default/buckets/$R2_BUCKET/settings"
+          fi
+
+      - name: Verify upload
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/&per_page=100" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            | jq '{success, listed: (.result | length), sample: [.result[].key]}'
+          if [ "${{ steps.cdn.outputs.ok }}" = "true" ]; then
+            echo "--- CDN HEAD test: https://$CDN_DOMAIN/... ---"
+            curl -sSI --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/sups/products/afarer-sup-allround-board.webp" | head -1
+          else
+            echo "自定义域尚未就绪，跳过 CDN 可达性检查。"
+          fi

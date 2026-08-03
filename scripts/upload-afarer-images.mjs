@@ -2,22 +2,27 @@
  * Uploads the afarer image tree to R2 under `images/sups/`.
  *
  * Source:  <afarer-repo>/public/images/afarer/   (211 webp + 2 jpg + 1 ico)
- * Target:  R2 bucket via its S3-compatible API, key prefix `images/sups/`
- *          so the CDN URLs match the rewrite in src/features/content/assets.ts.
+ * Target:  R2 bucket, key prefix `images/sups/` so the CDN URLs match the
+ *          rewrite in src/features/content/assets.ts.
  *
- * Zero dependencies: SigV4 signing is implemented with node:crypto + fetch.
+ * Zero dependencies (SigV4 signing via node:crypto + fetch).
  *
- * Credentials (R2 API token — create in Cloudflare dashboard → R2 → Manage R2
- * API Tokens, with Object Read & Write for this bucket):
+ * Two auth modes:
  *
- *   $env:R2_ACCOUNT_ID="<account id>"
- *   $env:R2_ACCESS_KEY_ID="<access key id>"
- *   $env:R2_SECRET_ACCESS_KEY="<secret>"
- *   $env:R2_BUCKET="supsfactory-files-prod"
+ *   --http   Cloudflare R2 HTTP API with a bearer token. Used by CI (GitHub
+ *            Actions) where only CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID
+ *            are available. The token needs Account › R2 › Edit permission.
+ *
+ *   (default)  S3-compatible API with an R2 API token (dashboard → R2 → Manage
+ *            R2 API Tokens, Object Read & Write for the bucket):
+ *            $env:R2_ACCOUNT_ID / R2_ACCESS_KEY_ID / R2_SECRET_ACCESS_KEY.
+ *
+ * Bucket name defaults to supsfactory-files-prod (override via R2_BUCKET).
  *
  * Usage:
- *   node scripts/upload-afarer-images.mjs                # upload everything
- *   node scripts/upload-afarer-images.mjs --dry-run      # list without upload
+ *   node scripts/upload-afarer-images.mjs                              # S3 mode
+ *   node scripts/upload-afarer-images.mjs --http                       # HTTP API mode
+ *   node scripts/upload-afarer-images.mjs --dry-run                    # list without upload
  *   node scripts/upload-afarer-images.mjs --src E:/github/afarer/public/images/afarer
  */
 
@@ -31,13 +36,15 @@ const flagValue = (name, fallback) => {
   return i !== -1 && args[i + 1] ? args[i + 1] : fallback
 }
 const DRY_RUN = args.includes('--dry-run')
+const HTTP_MODE = args.includes('--http')
 const SRC_DIR = flagValue('src', 'E:/github/afarer/public/images/afarer')
 const KEY_PREFIX = flagValue('prefix', 'images/sups/')
 const CACHE_CONTROL = flagValue('cache', 'public, max-age=86400')
 const CONCURRENCY = 8
 
 const BUCKET = process.env.R2_BUCKET ?? 'supsfactory-files-prod'
-const ACCOUNT_ID = process.env.R2_ACCOUNT_ID ?? ''
+const ACCOUNT_ID = process.env[HTTP_MODE ? 'CLOUDFLARE_ACCOUNT_ID' : 'R2_ACCOUNT_ID'] ?? ''
+const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN ?? ''
 const ACCESS_KEY = process.env.R2_ACCESS_KEY_ID ?? ''
 const SECRET = process.env.R2_SECRET_ACCESS_KEY ?? ''
 
@@ -112,9 +119,8 @@ async function walk(dir, out = []) {
 
 /* ───────────────────────────────── upload ───────────────────────────────── */
 
-async function upload(key, localPath) {
+async function uploadS3(key, body, localPath) {
   const url = `https://${BUCKET}.${ACCOUNT_ID}.r2.cloudflarestorage.com/${key}`
-  const body = await readFile(localPath)
   const { authorization, amzDate, bodyHash } = signPut({
     method: 'PUT',
     url,
@@ -138,8 +144,36 @@ async function upload(key, localPath) {
   }
 }
 
+async function uploadHttp(key, body, localPath) {
+  const url = `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/r2/buckets/${BUCKET}/objects/${encodeURIComponent(key)}`
+  const res = await fetch(url, {
+    method: 'PUT',
+    headers: {
+      authorization: `Bearer ${API_TOKEN}`,
+      'content-type': contentType(localPath),
+    },
+    body,
+  })
+  const data = await res.json()
+  if (!data.success) {
+    throw new Error(`PUT ${key} -> ${res.status} ${JSON.stringify(data.errors)}`)
+  }
+}
+
+async function upload(key, localPath) {
+  const body = await readFile(localPath)
+  return HTTP_MODE ? uploadHttp(key, body, localPath) : uploadS3(key, body, localPath)
+}
+
 async function run() {
-  if (!DRY_RUN && (!ACCOUNT_ID || !ACCESS_KEY || !SECRET)) {
+  if (DRY_RUN) {
+    /* fall through, no credentials needed */
+  } else if (HTTP_MODE) {
+    if (!ACCOUNT_ID || !API_TOKEN) {
+      console.error('Missing credentials. Set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (--http mode).')
+      process.exit(1)
+    }
+  } else if (!ACCOUNT_ID || !ACCESS_KEY || !SECRET) {
     console.error('Missing R2 credentials. Set R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY.')
     console.error('(Use --dry-run to list files without credentials.)')
     process.exit(1)
