@@ -55,7 +55,7 @@ jobs:
             "$API/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets?per_page=100" -H "$AUTH")
           if [ "$HTTP" = "200" ]; then
             echo "r2_ok=true" >> "$GITHUB_OUTPUT"
-            if jq -e --arg b "$R2_BUCKET" '.result | any(.name == $b)' /tmp/r2buckets.json >/dev/null; then
+            if jq -e --arg b "$R2_BUCKET" '.result.buckets | any(.name == $b)' /tmp/r2buckets.json >/dev/null; then
               echo "bucket_exists=true" >> "$GITHUB_OUTPUT"
             else
               echo "bucket_exists=false" >> "$GITHUB_OUTPUT"
