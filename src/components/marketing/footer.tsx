@@ -30,9 +30,11 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
 
         {/* Solutions */}
         <FooterCol title={t('sup.footer.colSolutions')}>
-          <Link className="foot-link" to="/{-$locale}/custom-sup-manufacturing">{t('sup.footer.customSup')}</Link>
-          <Link className="foot-link" to="/{-$locale}/private-label-sup">{t('sup.footer.privateLabel')}</Link>
-          <Link className="foot-link" to="/{-$locale}/sup-for-resorts">{t('sup.footer.resortSolutions')}</Link>
+          <Link className="foot-link" to="/{-$locale}/solutions/custom-sup">{t('sup.footer.customSup')}</Link>
+          <Link className="foot-link" to="/{-$locale}/solutions/private-label-sup">{t('sup.footer.privateLabel')}</Link>
+          <Link className="foot-link" to="/{-$locale}/solutions/resort-sup">{t('sup.footer.resortSolutions')}</Link>
+          <Link className="foot-link" to="/{-$locale}/solutions/club-sup">{t('sup.footer.clubSup')}</Link>
+          <Link className="foot-link" to="/{-$locale}/solutions/school-sup">{t('sup.footer.schoolSup')}</Link>
           <Link className="foot-link" to="/{-$locale}/contact">{t('sup.footer.organizationProjects')}</Link>
         </FooterCol>
 

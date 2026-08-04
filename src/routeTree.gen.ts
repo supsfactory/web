@@ -83,8 +83,14 @@ import { Route as ApiSearchRouteImport } from './routes/api/search'
 import { Route as AdminWaitlistDotcsvRouteImport } from './routes/admin/waitlist[.]csv'
 import { Route as AdminInquiriesDotcsvRouteImport } from './routes/admin/inquiries[.]csv'
 import { Route as Char123LocaleChar125AdminRouteRouteImport } from './routes/{-$locale}/admin/route'
+import { Route as Char123LocaleChar125SolutionsIndexRouteImport } from './routes/{-$locale}/solutions/index'
 import { Route as Char123LocaleChar125AppIndexRouteImport } from './routes/{-$locale}/app/index'
 import { Route as Char123LocaleChar125AdminIndexRouteImport } from './routes/{-$locale}/admin/index'
+import { Route as Char123LocaleChar125SolutionsSchoolSupRouteImport } from './routes/{-$locale}/solutions/school-sup'
+import { Route as Char123LocaleChar125SolutionsResortSupRouteImport } from './routes/{-$locale}/solutions/resort-sup'
+import { Route as Char123LocaleChar125SolutionsPrivateLabelSupRouteImport } from './routes/{-$locale}/solutions/private-label-sup'
+import { Route as Char123LocaleChar125SolutionsCustomSupRouteImport } from './routes/{-$locale}/solutions/custom-sup'
+import { Route as Char123LocaleChar125SolutionsClubSupRouteImport } from './routes/{-$locale}/solutions/club-sup'
 import { Route as Char123LocaleChar125AppFeedbackRouteImport } from './routes/{-$locale}/app/feedback'
 import { Route as Char123LocaleChar125AppAccountRouteImport } from './routes/{-$locale}/app/account'
 import { Route as Char123LocaleChar125AdminWaitlistRouteImport } from './routes/{-$locale}/admin/waitlist'
@@ -492,6 +498,12 @@ const Char123LocaleChar125AdminRouteRoute =
     path: '/admin',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
+const Char123LocaleChar125SolutionsIndexRoute =
+  Char123LocaleChar125SolutionsIndexRouteImport.update({
+    id: '/',
+    path: '/',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
+  } as any)
 const Char123LocaleChar125AppIndexRoute =
   Char123LocaleChar125AppIndexRouteImport.update({
     id: '/app/',
@@ -503,6 +515,36 @@ const Char123LocaleChar125AdminIndexRoute =
     id: '/',
     path: '/',
     getParentRoute: () => Char123LocaleChar125AdminRouteRoute,
+  } as any)
+const Char123LocaleChar125SolutionsSchoolSupRoute =
+  Char123LocaleChar125SolutionsSchoolSupRouteImport.update({
+    id: '/school-sup',
+    path: '/school-sup',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
+  } as any)
+const Char123LocaleChar125SolutionsResortSupRoute =
+  Char123LocaleChar125SolutionsResortSupRouteImport.update({
+    id: '/resort-sup',
+    path: '/resort-sup',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
+  } as any)
+const Char123LocaleChar125SolutionsPrivateLabelSupRoute =
+  Char123LocaleChar125SolutionsPrivateLabelSupRouteImport.update({
+    id: '/private-label-sup',
+    path: '/private-label-sup',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
+  } as any)
+const Char123LocaleChar125SolutionsCustomSupRoute =
+  Char123LocaleChar125SolutionsCustomSupRouteImport.update({
+    id: '/custom-sup',
+    path: '/custom-sup',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
+  } as any)
+const Char123LocaleChar125SolutionsClubSupRoute =
+  Char123LocaleChar125SolutionsClubSupRouteImport.update({
+    id: '/club-sup',
+    path: '/club-sup',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
   } as any)
 const Char123LocaleChar125AppFeedbackRoute =
   Char123LocaleChar125AppFeedbackRouteImport.update({
@@ -653,7 +695,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/products': typeof Char123LocaleChar125ProductsRoute
-  '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRoute
+  '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRouteWithChildren
   '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
   '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
   '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
@@ -675,8 +717,14 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/admin/waitlist': typeof Char123LocaleChar125AdminWaitlistRoute
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
+  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
+  '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
+  '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
+  '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
+  '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
+  '/{-$locale}/solutions/': typeof Char123LocaleChar125SolutionsIndexRoute
 }
 export interface FileRoutesByTo {
   '/$': typeof SplatRoute
@@ -743,7 +791,6 @@ export interface FileRoutesByTo {
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/products': typeof Char123LocaleChar125ProductsRoute
-  '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRoute
   '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
   '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
   '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
@@ -765,8 +812,14 @@ export interface FileRoutesByTo {
   '/{-$locale}/admin/waitlist': typeof Char123LocaleChar125AdminWaitlistRoute
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
+  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
+  '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
+  '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
+  '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
+  '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app': typeof Char123LocaleChar125AppIndexRoute
+  '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -836,7 +889,7 @@ export interface FileRoutesById {
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/products': typeof Char123LocaleChar125ProductsRoute
-  '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRoute
+  '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRouteWithChildren
   '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
   '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
   '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
@@ -858,8 +911,14 @@ export interface FileRoutesById {
   '/{-$locale}/admin/waitlist': typeof Char123LocaleChar125AdminWaitlistRoute
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
+  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
+  '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
+  '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
+  '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
+  '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
+  '/{-$locale}/solutions/': typeof Char123LocaleChar125SolutionsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -952,8 +1011,14 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/waitlist'
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
+    | '/{-$locale}/solutions/club-sup'
+    | '/{-$locale}/solutions/custom-sup'
+    | '/{-$locale}/solutions/private-label-sup'
+    | '/{-$locale}/solutions/resort-sup'
+    | '/{-$locale}/solutions/school-sup'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
+    | '/{-$locale}/solutions/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/$'
@@ -1020,7 +1085,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/privacy'
     | '/{-$locale}/private-label-sup'
     | '/{-$locale}/products'
-    | '/{-$locale}/solutions'
     | '/{-$locale}/sup-for-clubs'
     | '/{-$locale}/sup-for-resorts'
     | '/{-$locale}/sup-startup-brands'
@@ -1042,8 +1106,14 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/waitlist'
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
+    | '/{-$locale}/solutions/club-sup'
+    | '/{-$locale}/solutions/custom-sup'
+    | '/{-$locale}/solutions/private-label-sup'
+    | '/{-$locale}/solutions/resort-sup'
+    | '/{-$locale}/solutions/school-sup'
     | '/{-$locale}/admin'
     | '/{-$locale}/app'
+    | '/{-$locale}/solutions'
   id:
     | '__root__'
     | '/{-$locale}'
@@ -1134,8 +1204,14 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/waitlist'
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
+    | '/{-$locale}/solutions/club-sup'
+    | '/{-$locale}/solutions/custom-sup'
+    | '/{-$locale}/solutions/private-label-sup'
+    | '/{-$locale}/solutions/resort-sup'
+    | '/{-$locale}/solutions/school-sup'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
+    | '/{-$locale}/solutions/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -1719,6 +1795,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125AdminRouteRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
+    '/{-$locale}/solutions/': {
+      id: '/{-$locale}/solutions/'
+      path: '/'
+      fullPath: '/{-$locale}/solutions/'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsIndexRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
+    }
     '/{-$locale}/app/': {
       id: '/{-$locale}/app/'
       path: '/app'
@@ -1732,6 +1815,41 @@ declare module '@tanstack/react-router' {
       fullPath: '/{-$locale}/admin/'
       preLoaderRoute: typeof Char123LocaleChar125AdminIndexRouteImport
       parentRoute: typeof Char123LocaleChar125AdminRouteRoute
+    }
+    '/{-$locale}/solutions/school-sup': {
+      id: '/{-$locale}/solutions/school-sup'
+      path: '/school-sup'
+      fullPath: '/{-$locale}/solutions/school-sup'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsSchoolSupRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
+    }
+    '/{-$locale}/solutions/resort-sup': {
+      id: '/{-$locale}/solutions/resort-sup'
+      path: '/resort-sup'
+      fullPath: '/{-$locale}/solutions/resort-sup'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsResortSupRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
+    }
+    '/{-$locale}/solutions/private-label-sup': {
+      id: '/{-$locale}/solutions/private-label-sup'
+      path: '/private-label-sup'
+      fullPath: '/{-$locale}/solutions/private-label-sup'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsPrivateLabelSupRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
+    }
+    '/{-$locale}/solutions/custom-sup': {
+      id: '/{-$locale}/solutions/custom-sup'
+      path: '/custom-sup'
+      fullPath: '/{-$locale}/solutions/custom-sup'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsCustomSupRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
+    }
+    '/{-$locale}/solutions/club-sup': {
+      id: '/{-$locale}/solutions/club-sup'
+      path: '/club-sup'
+      fullPath: '/{-$locale}/solutions/club-sup'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsClubSupRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
     }
     '/{-$locale}/app/feedback': {
       id: '/{-$locale}/app/feedback'
@@ -1859,6 +1977,36 @@ const Char123LocaleChar125AdminRouteRouteWithChildren =
     Char123LocaleChar125AdminRouteRouteChildren,
   )
 
+interface Char123LocaleChar125SolutionsRouteChildren {
+  Char123LocaleChar125SolutionsClubSupRoute: typeof Char123LocaleChar125SolutionsClubSupRoute
+  Char123LocaleChar125SolutionsCustomSupRoute: typeof Char123LocaleChar125SolutionsCustomSupRoute
+  Char123LocaleChar125SolutionsPrivateLabelSupRoute: typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
+  Char123LocaleChar125SolutionsResortSupRoute: typeof Char123LocaleChar125SolutionsResortSupRoute
+  Char123LocaleChar125SolutionsSchoolSupRoute: typeof Char123LocaleChar125SolutionsSchoolSupRoute
+  Char123LocaleChar125SolutionsIndexRoute: typeof Char123LocaleChar125SolutionsIndexRoute
+}
+
+const Char123LocaleChar125SolutionsRouteChildren: Char123LocaleChar125SolutionsRouteChildren =
+  {
+    Char123LocaleChar125SolutionsClubSupRoute:
+      Char123LocaleChar125SolutionsClubSupRoute,
+    Char123LocaleChar125SolutionsCustomSupRoute:
+      Char123LocaleChar125SolutionsCustomSupRoute,
+    Char123LocaleChar125SolutionsPrivateLabelSupRoute:
+      Char123LocaleChar125SolutionsPrivateLabelSupRoute,
+    Char123LocaleChar125SolutionsResortSupRoute:
+      Char123LocaleChar125SolutionsResortSupRoute,
+    Char123LocaleChar125SolutionsSchoolSupRoute:
+      Char123LocaleChar125SolutionsSchoolSupRoute,
+    Char123LocaleChar125SolutionsIndexRoute:
+      Char123LocaleChar125SolutionsIndexRoute,
+  }
+
+const Char123LocaleChar125SolutionsRouteWithChildren =
+  Char123LocaleChar125SolutionsRoute._addFileChildren(
+    Char123LocaleChar125SolutionsRouteChildren,
+  )
+
 interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125AdminRouteRoute: typeof Char123LocaleChar125AdminRouteRouteWithChildren
   Char123LocaleChar125AboutRoute: typeof Char123LocaleChar125AboutRoute
@@ -1871,7 +2019,7 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125PrivacyRoute: typeof Char123LocaleChar125PrivacyRoute
   Char123LocaleChar125PrivateLabelSupRoute: typeof Char123LocaleChar125PrivateLabelSupRoute
   Char123LocaleChar125ProductsRoute: typeof Char123LocaleChar125ProductsRoute
-  Char123LocaleChar125SolutionsRoute: typeof Char123LocaleChar125SolutionsRoute
+  Char123LocaleChar125SolutionsRoute: typeof Char123LocaleChar125SolutionsRouteWithChildren
   Char123LocaleChar125SupForClubsRoute: typeof Char123LocaleChar125SupForClubsRoute
   Char123LocaleChar125SupForResortsRoute: typeof Char123LocaleChar125SupForResortsRoute
   Char123LocaleChar125SupStartupBrandsRoute: typeof Char123LocaleChar125SupStartupBrandsRoute
@@ -1905,7 +2053,8 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
     Char123LocaleChar125PrivateLabelSupRoute:
       Char123LocaleChar125PrivateLabelSupRoute,
     Char123LocaleChar125ProductsRoute: Char123LocaleChar125ProductsRoute,
-    Char123LocaleChar125SolutionsRoute: Char123LocaleChar125SolutionsRoute,
+    Char123LocaleChar125SolutionsRoute:
+      Char123LocaleChar125SolutionsRouteWithChildren,
     Char123LocaleChar125SupForClubsRoute: Char123LocaleChar125SupForClubsRoute,
     Char123LocaleChar125SupForResortsRoute:
       Char123LocaleChar125SupForResortsRoute,

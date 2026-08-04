@@ -175,7 +175,7 @@ export const serve: Localized<ServeContent> = {
         body: 'Customize boards, graphics, specifications and accessories — from your idea to a manufacturable product.',
         points: ['Board customization', 'Graphics & branding', 'Specification support'],
         cta: 'Explore Custom SUP',
-        href: '/custom-sup-manufacturing',
+        href: '/solutions/custom-sup',
       },
       {
         slug: 'private-label-sup',
@@ -183,7 +183,7 @@ export const serve: Localized<ServeContent> = {
         body: 'Develop SUP products under your own brand identity, produced and delivered by our factory.',
         points: ['Branded boards', 'Product packaging', 'Bulk supply'],
         cta: 'Learn More',
-        href: '/private-label-sup',
+        href: '/solutions/private-label-sup',
       },
       {
         slug: 'resort-club-solutions',
@@ -191,7 +191,7 @@ export const serve: Localized<ServeContent> = {
         body: 'Create branded SUP equipment for guests, teams and activities — with fleet-friendly production.',
         points: ['Branded guest fleets', 'Team equipment', 'Fleet pricing'],
         cta: 'View Solutions',
-        href: '/sup-for-resorts',
+        href: '/solutions/resort-sup',
       },
       {
         slug: 'organization-projects',
@@ -214,7 +214,7 @@ export const serve: Localized<ServeContent> = {
         body: '定制板型、图案、规格与配件——从你的想法到可量产的产品。',
         points: ['板面定制', '图案与品牌', '规格支持'],
         cta: '了解定制 SUP',
-        href: '/custom-sup-manufacturing',
+        href: '/solutions/custom-sup',
       },
       {
         slug: 'private-label-sup',
@@ -222,7 +222,7 @@ export const serve: Localized<ServeContent> = {
         body: '以你自己的品牌开发 SUP 产品,由我们的工厂生产与交付。',
         points: ['品牌板面', '产品包装', '批量供应'],
         cta: '了解更多',
-        href: '/private-label-sup',
+        href: '/solutions/private-label-sup',
       },
       {
         slug: 'resort-club-solutions',
@@ -230,7 +230,7 @@ export const serve: Localized<ServeContent> = {
         body: '为客人、团队与活动打造品牌 SUP 装备——以适合舰队的生产方式。',
         points: ['品牌客用舰队', '团队装备', '舰队批量价'],
         cta: '查看方案',
-        href: '/sup-for-resorts',
+        href: '/solutions/resort-sup',
       },
       {
         slug: 'organization-projects',

@@ -17,6 +17,11 @@ const PUBLIC_PATHS = [
   '/sup-for-resorts',
   '/sup-for-clubs',
   '/sup-startup-brands',
+  '/solutions/custom-sup',
+  '/solutions/private-label-sup',
+  '/solutions/resort-sup',
+  '/solutions/club-sup',
+  '/solutions/school-sup',
   '/terms',
   '/privacy',
 ] as const

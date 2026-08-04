@@ -1,5 +1,6 @@
 import { products } from './content'
 import { landings } from './landings'
+import { solutionPages } from './solution-pages'
 import {
   getAfarerPages,
   getAfarerProducts,
@@ -73,6 +74,38 @@ export function llmLandingsFull(): string {
       '',
       '## FAQ',
       ...l.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return ['', ...blocks].join('\n\n')
+}
+
+/** Index entries for the Solutions system pages (in /llms.txt). */
+export function llmSolutionsIndex(): string {
+  const lines = solutionPages.en.map((p) => `- [${p.metaTitle}](/solutions/${p.slug}): ${flat(p.metaDescription)}`)
+  return ['', '## Solution Pages', ...lines, ''].join('\n')
+}
+
+/** Full text for the Solutions system pages incl. their FAQ Q&A (in /llms-full.txt). */
+export function llmSolutionsFull(): string {
+  const blocks = solutionPages.en.map((p) =>
+    [
+      `# ${p.h1}`,
+      '',
+      ...p.intro.map(flat),
+      '',
+      `Scenario: ${flat(p.scenario.body)}`,
+      '',
+      '## Problems & Solutions',
+      ...p.pairs.flatMap((pair) => [`- Problem: ${flat(pair.problem)}`, `- Solution: ${flat(pair.solution)}`]),
+      '',
+      '## Process',
+      ...p.steps.map((s) => `- ${s.title}: ${flat(s.body)}`),
+      '',
+      '## Case Study',
+      `- ${p.caseStudy.title}: ${flat(p.caseStudy.body)}`,
+      '',
+      '## FAQ',
+      ...p.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
     ].join('\n'),
   )
   return ['', ...blocks].join('\n\n')
