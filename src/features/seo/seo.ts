@@ -17,6 +17,8 @@ const PUBLIC_PATHS = [
   '/sup-for-resorts',
   '/sup-for-clubs',
   '/sup-startup-brands',
+  '/terms',
+  '/privacy',
 ] as const
 
 // Open Graph 要求 language_TERRITORY 形态（en_US），裸语言码会被严格解析器忽略。
@@ -35,9 +37,11 @@ export function buildRobots(origin: string): string {
     'Disallow: /admin',
     'Disallow: /api',
     `Sitemap: ${origin}/sitemap.xml`,
-    // LLM-friendly docs (no standard robots directive — comment for discovery).
+    // LLM/GEO-friendly endpoints (no standard robots directive — comment for discovery).
     `# llms.txt: ${origin}/llms.txt`,
     `# llms-full.txt: ${origin}/llms-full.txt`,
+    `# entity.json: ${origin}/entity.json`,
+    `# RSS: ${origin}/rss.xml`,
     '',
   ].join('\n')
 }
@@ -52,13 +56,24 @@ function alternates(origin: string, path: string): string {
   return links.join('')
 }
 
-export function buildSitemap(origin: string, singleLocalePaths: string[] = []): string {
+export interface SitemapEntry {
+  loc: string
+  lastmod?: string
+}
+
+type SingleLocalePath = string | SitemapEntry
+
+export function buildSitemap(origin: string, singleLocalePaths: SingleLocalePath[] = []): string {
   const bilingual = locales.flatMap((l) =>
     PUBLIC_PATHS.map(
       (p) => `<url><loc>${origin}${localizePath(l, p)}</loc>${alternates(origin, p)}</url>`,
     ),
   )
-  const single = singleLocalePaths.map((p) => `<url><loc>${origin}${p}</loc></url>`)
+  const single = singleLocalePaths.map((p) => {
+    const entry = typeof p === 'string' ? { loc: p } : p
+    const lastmod = entry.lastmod ? `<lastmod>${entry.lastmod}</lastmod>` : ''
+    return `<url><loc>${origin}${entry.loc}</loc>${lastmod}</url>`
+  })
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${[...bilingual, ...single].join('')}</urlset>`
 }
 
@@ -96,12 +111,16 @@ export function localeHead(input: {
   const meta: HeadMeta[] = [
     { title },
     { name: 'description', content: description },
+    { property: 'og:site_name', content: 'SUPsfactory' },
     { property: 'og:title', content: title },
     { property: 'og:description', content: description },
     { property: 'og:url', content: canonical },
     { property: 'og:locale', content: OG_LOCALE[locale] },
     { property: 'og:image', content: OG_IMAGE },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: title },
+    { name: 'twitter:description', content: description },
+    { name: 'twitter:image', content: OG_IMAGE },
   ]
   return { meta, links }
 }

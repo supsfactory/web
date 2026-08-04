@@ -27,15 +27,22 @@ export const Route = createFileRoute('/$')({
     if (!loaderData) return {}
     const { origin, path, title, description } = loaderData
     const canonical = `${origin}${path}`
+    const image = loaderData.kind === 'page' ? OG_IMAGE : ((loaderData as { image?: string }).image ?? OG_IMAGE)
     return {
       meta: [
         { title },
         { name: 'description', content: description },
+        { property: 'og:site_name', content: 'SUPsfactory' },
         { property: 'og:title', content: title },
         { property: 'og:description', content: description },
         { property: 'og:url', content: canonical },
-        { property: 'og:image', content: loaderData.kind === 'page' ? OG_IMAGE : ((loaderData as { image?: string }).image ?? OG_IMAGE) },
+        { property: 'og:locale', content: 'en_US' },
+        { property: 'og:type', content: loaderData.kind === 'post' ? 'article' : loaderData.kind === 'product' ? 'product' : 'website' },
+        { property: 'og:image', content: image },
         { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: title },
+        { name: 'twitter:description', content: description },
+        { name: 'twitter:image', content: image },
       ],
       links: [{ rel: 'canonical', href: canonical }],
     }

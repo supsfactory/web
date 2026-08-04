@@ -3,6 +3,7 @@ import { ArrowRight, Check, Plus } from 'lucide-react'
 import type { Landing } from '@/features/site/landings'
 import { PageHero } from './section-head'
 import { SectionHead } from './section-head'
+import { JsonLd, faqLd } from '@/features/seo/jsonld'
 
 /** Shared renderer for the SEO landing pages (see src/features/site/landings.ts). */
 export function LandingPage({ landing }: { landing: Landing }) {
@@ -52,6 +53,7 @@ export function LandingPage({ landing }: { landing: Landing }) {
           </div>
         </div>
       </section>
+      <JsonLd data={faqLd(landing.faqs)} />
 
       {/* related paths */}
       <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-2 gap-y-1 px-5 pb-16 pt-16 md:px-7">

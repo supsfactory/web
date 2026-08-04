@@ -6,6 +6,7 @@ import { getAnalyticsToken } from '@/features/analytics/analytics'
 import { getNonce } from '@/lib/csp'
 import { Toaster } from '@/components/ui/sonner'
 import { useResolvedTheme } from '@/features/theme/use-resolved-theme'
+import { JsonLd, siteLd } from '@/features/seo/jsonld'
 import appCss from '@/styles/app.css?url'
 
 export const Route = createRootRoute({
@@ -83,6 +84,10 @@ function RootComponent() {
         <HeadContent />
       </head>
       <body>
+        {/* Site-wide Organization/WebSite schema (SSR, CSP-nonce'd). */}
+        {siteLd().map((d) => (
+          <JsonLd key={d['@id'] as string} data={d} />
+        ))}
         <Outlet />
         <Scripts />
         <Toaster theme={resolvedTheme} />

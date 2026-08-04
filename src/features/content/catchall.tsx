@@ -16,11 +16,11 @@ import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
-import { getNonce } from '@/lib/csp'
 import { OG_IMAGE } from '@/features/seo/seo'
-import { getAfarerPage, getAfarerProduct, getNewsPost, getTechArticle, getCaseUse, brandify } from './loader'
+import { JsonLd, breadcrumbLd, faqLd, newsArticleLd } from '@/features/seo/jsonld'
+import { getAfarerPage, getAfarerProduct, getNewsPost, getTechArticle, getCaseUse, getSiteFaqs, brandify } from './loader'
 import { getGuide } from './guide-content'
-import { AfarerSections, CaseStudiesIndex, ResearchIndex } from './render/sections'
+import { AfarerSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
 import type { AfarerProduct, AfarerPost } from './types'
 
@@ -35,6 +35,7 @@ export type CatchAllData =
   | { kind: 'guide'; path: string; origin: string; slug: string; title: string; description: string }
   | { kind: 'cases-index'; path: string; origin: string; title: string; description: string }
   | { kind: 'research-index'; path: string; origin: string; title: string; description: string }
+  | { kind: 'faq'; path: string; origin: string; title: string; description: string }
 
 const slugOf = (path: string): string => path.split('/').filter(Boolean).pop() ?? ''
 
@@ -121,6 +122,20 @@ export function resolveCatchAll(path: string): CatchAllData | null {
       }
     }
   }
+  if (path === '/faq') {
+    // afarer's footer links to /faq; the nav target exists as a site-level
+    // faqs.yaml. Serve it as a real page (fixes the dead link + FAQPage schema).
+    if (getSiteFaqs().length > 0) {
+      return {
+        kind: 'faq',
+        path,
+        origin: '',
+        title: 'FAQ — SUPsfactory',
+        description:
+          'Frequently asked questions about afarer inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale logistics.',
+      }
+    }
+  }
   return null
 }
 
@@ -135,22 +150,6 @@ export const afarerServerLoader = createServerFn({ method: 'GET' })
   })
 
 /* ─────────────────────────── JSON-LD helpers ─────────────────────────── */
-
-export function JsonLd({ data }: { data: Record<string, unknown> }) {
-  const nonce = getNonce()
-  return <script type="application/ld+json" nonce={nonce} dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
-}
-
-function breadcrumbLd(origin: string, path: string, title: string): Record<string, unknown> {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: origin },
-      { '@type': 'ListItem', position: 2, name: title, item: `${origin}${path}` },
-    ],
-  }
-}
 
 function articleLd(origin: string, title: string, description: string): Record<string, unknown> {
   return {
@@ -190,13 +189,22 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
 
   const body = (() => {
     switch (data.kind) {
-      case 'page':
+      case 'page': {
+        const page = getAfarerPage(data.path)!
+        const faqs = collectPageFaqs(page)
         return (
           <>
-            <AfarerSections page={getAfarerPage(data.path)!} />
-            <JsonLd data={breadcrumbLd(data.origin, data.path, data.title)} />
+            <AfarerSections page={page} />
+            <JsonLd
+              data={breadcrumbLd(data.origin, [
+                { name: 'Home', path: '/' },
+                { name: data.title, path: data.path },
+              ])}
+            />
+            {faqs.length > 0 && <JsonLd data={faqLd(faqs)} />}
           </>
         )
+      }
       case 'product':
         return (
           <>
@@ -207,16 +215,18 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
       case 'post':
         return (
           <>
-            <PostView post={data.post} />
+            <PostView post={data.post} origin={data.origin} path={data.path} />
             <CtaBand />
           </>
         )
       case 'article':
-        return <ArticleView slug={data.slug} origin={data.origin} title={data.title} />
+        return <ArticleView slug={data.slug} origin={data.origin} title={data.title} path={data.path} />
       case 'case':
-        return <CaseView slug={data.slug} origin={data.origin} title={data.title} />
+        return <CaseView slug={data.slug} origin={data.origin} title={data.title} path={data.path} />
       case 'guide':
-        return <GuideView slug={data.slug} origin={data.origin} />
+        return <GuideView slug={data.slug} origin={data.origin} path={data.path} />
+      case 'faq':
+        return <FaqView origin={data.origin} path={data.path} />
       case 'cases-index':
         return (
           <>
@@ -290,6 +300,13 @@ function ProductView({ product, origin }: { product: AfarerProduct; origin: stri
                 </table>
               </div>
             )}
+            <JsonLd
+              data={breadcrumbLd(origin, [
+                { name: 'Home', path: '/' },
+                { name: 'Products', path: '/products' },
+                { name: product.title, path: `/products/${product.slug}` },
+              ])}
+            />
             <JsonLd data={productLd(origin, product)} />
           </div>
         </div>
@@ -301,7 +318,7 @@ function ProductView({ product, origin }: { product: AfarerProduct; origin: stri
   )
 }
 
-function PostView({ post }: { post: AfarerPost }) {
+function PostView({ post, origin, path }: { post: AfarerPost; origin: string; path: string }) {
   return (
     <>
       <PageHero kicker={post.category ?? 'News'} title={post.title} sub={post.excerpt ?? ''} />
@@ -319,12 +336,30 @@ function PostView({ post }: { post: AfarerPost }) {
         </div>
         {post.image && <img src={post.image} alt={post.title} loading="lazy" className="mt-6 w-full rounded-2xl border border-border-2 object-cover" />}
         <Markdown text={brandify(post.body)} className="mt-4" />
+        <JsonLd
+          data={breadcrumbLd(origin, [
+            { name: 'Home', path: '/' },
+            { name: 'News', path: '/news' },
+            { name: post.title, path },
+          ])}
+        />
+        <JsonLd
+          data={newsArticleLd({
+            origin,
+            title: post.title,
+            description: post.excerpt ?? '',
+            image: post.image,
+            url: `${origin}${path}`,
+            datePublished: post.date,
+            author: post.author,
+          })}
+        />
       </article>
     </>
   )
 }
 
-function ArticleView({ slug, origin, title }: { slug: string; origin: string; title: string }) {
+function ArticleView({ slug, origin, title, path }: { slug: string; origin: string; title: string; path: string }) {
   const article = getTechArticle(slug)
   if (!article) return null
   return (
@@ -333,13 +368,20 @@ function ArticleView({ slug, origin, title }: { slug: string; origin: string; ti
       <article className="mx-auto max-w-3xl px-5 py-14 md:px-7">
         {article.description && <p className="text-[15px] leading-relaxed text-fg-2">{brandify(article.description)}</p>}
         <Markdown text={brandify(article.body)} className="mt-4" />
+        <JsonLd
+          data={breadcrumbLd(origin, [
+            { name: 'Home', path: '/' },
+            { name: 'Technology', path: '/technology' },
+            { name: title, path },
+          ])}
+        />
         <JsonLd data={articleLd(origin, title, article.description ?? article.summary ?? '')} />
       </article>
     </>
   )
 }
 
-function CaseView({ slug, origin, title }: { slug: string; origin: string; title: string }) {
+function CaseView({ slug, origin, title, path }: { slug: string; origin: string; title: string; path: string }) {
   const c = getCaseUse(slug)
   if (!c) return null
   return (
@@ -359,13 +401,20 @@ function CaseView({ slug, origin, title }: { slug: string; origin: string; title
         </div>
         {c.description && <p className="mt-5 text-[15px] leading-relaxed text-fg-2">{brandify(c.description)}</p>}
         <Markdown text={brandify(c.body)} className="mt-4" />
+        <JsonLd
+          data={breadcrumbLd(origin, [
+            { name: 'Home', path: '/' },
+            { name: 'Case Studies', path: '/evidence/case-studies' },
+            { name: title, path },
+          ])}
+        />
         <JsonLd data={articleLd(origin, title, c.summary ?? '')} />
       </article>
     </>
   )
 }
 
-function GuideView({ slug, origin }: { slug: string; origin: string }) {
+function GuideView({ slug, origin, path }: { slug: string; origin: string; path: string }) {
   const guide = getGuide(`/guides/${slug}`)
   if (!guide) return null
   return (
@@ -400,8 +449,44 @@ function GuideView({ slug, origin }: { slug: string; origin: string }) {
             </div>
           </section>
         )}
+        <JsonLd
+          data={breadcrumbLd(origin, [
+            { name: 'Home', path: '/' },
+            { name: 'Guides', path: '/guides' },
+            { name: guide.title, path },
+          ])}
+        />
         <JsonLd data={articleLd(origin, guide.title, guide.intro[0] ?? '')} />
+        {guide.faqs.length > 0 && <JsonLd data={faqLd(guide.faqs)} />}
       </article>
+    </>
+  )
+}
+
+function FaqView({ origin, path }: { origin: string; path: string }) {
+  const faqs = getSiteFaqs().map((f) => ({ q: brandify(f.q), a: brandify(f.a) }))
+  return (
+    <>
+      <PageHero
+        kicker="FAQ"
+        title="Frequently Asked Questions"
+        sub="Questions we hear before every SUP OEM/ODM project — materials, certifications, MOQ and logistics."
+      />
+      <section className="mx-auto max-w-3xl px-5 py-14 md:px-7">
+        <div className="flex flex-col gap-3">
+          {faqs.map((f, i) => (
+            <details key={i} className="marine-card group px-5 py-4" open={i === 0}>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
+                <span>{f.q}</span>
+                <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
+              </summary>
+              <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+      <JsonLd data={breadcrumbLd(origin, [{ name: 'Home', path: '/' }, { name: 'FAQ', path }])} />
+      <JsonLd data={faqLd(faqs)} />
     </>
   )
 }

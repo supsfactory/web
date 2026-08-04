@@ -145,6 +145,19 @@ const EXTRA_PATHS: Record<string, string> = {
   '/randdcenter/pvc-fabric-lab': 'pvc-fabric-lab',
   '/randdcenter/quality-inspection-lab': 'quality-inspection-lab',
   '/randdcenter/rf-welding': 'rf-welding',
+  // ported afarer solution / OEM pages (path → yaml slug)
+  '/oem-odm': 'oem-odm-manufacturer',
+  '/oem-paddle': 'oem-paddle',
+  '/solutions/resorts-hotels': 'solutions-resorts-hotels',
+  '/solutions/paddle-clubs': 'solutions-paddle-clubs',
+  '/solutions/rental-operators': 'solutions-rental-operators',
+  '/solutions/retail-partners': 'solutions-retail-partners',
+  '/solutions/distributors': 'solutions-distributors',
+  '/solutions/build-your-own-brand': 'solutions-build-your-own-brand',
+  '/b2b-solutions-matrix': 'b2b-solutions-matrix',
+  '/fabricant-sup-gonflable': 'fabricant-sup-gonflable',
+  '/bateau-gonflable-fabricant': 'bateau-gonflable-fabricant',
+  '/fournisseur-nautique': 'fournisseur-nautique',
 }
 
 const EXTRA_PAGES: AfarerPage[] = Object.entries(EXTRA_PATHS).map(([path, slug]) => {
@@ -314,6 +327,27 @@ export function getResearchTopics(): AfarerResearchTopic[] {
 
 export function getGeoEntity(): Record<string, unknown> | undefined {
   return geoJson('entity')
+}
+
+/** Structured company / certification / manufacturing facts for GEO exposure. */
+export function getGeoFacts(): {
+  company?: Record<string, unknown>
+  certifications?: Record<string, unknown>
+  manufacturing?: Record<string, unknown>
+} {
+  return {
+    company: geoJson('company-facts'),
+    certifications: geoJson('certification-facts'),
+    manufacturing: geoJson('manufacturing-facts'),
+  }
+}
+
+/** Site-wide FAQ Q&A (src/content/afarer/site/faqs.yaml), for the /faq page. */
+export function getSiteFaqs(): { q: string; a: string }[] {
+  const raw = suffixMatch(siteGlob, 'faqs.yaml')
+  if (!raw) return []
+  const parsed = parse(stripBom(raw)) as { faqs?: { q: string; a: string }[] }
+  return Array.isArray(parsed.faqs) ? parsed.faqs : []
 }
 
 /** Replaces the afarer `{SITE}`/`{BRAND}`/`{count}` template placeholders with brand values. */

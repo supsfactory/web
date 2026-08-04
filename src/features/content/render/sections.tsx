@@ -57,7 +57,21 @@ interface StatItem {
 
 function statItems(c: Record<string, unknown>): StatItem[] {
   for (const key of ['stats', 'highlights', 'rd_numbers']) {
-    if (Array.isArray(c[key])) return c[key] as StatItem[]
+    const v = c[key]
+    if (Array.isArray(v)) return v as StatItem[]
+    if (isObj(v)) {
+      const inner = v[key]
+      if (Array.isArray(inner)) {
+        return inner.map((it) => {
+          const o = it as Record<string, unknown>
+          return {
+            value: o.amount ?? o.value ?? o.metric,
+            label: o.label ?? o.title,
+            detail: o.detail,
+          }
+        })
+      }
+    }
   }
   return arr(c.stats ?? c.highlights ?? c.rd_numbers).length ? (c.stats ?? c.highlights ?? c.rd_numbers) as StatItem[] : []
 }
@@ -470,7 +484,8 @@ function TestimonialsWidget({ c }: { c: Record<string, unknown> }) {
 }
 
 function BlogLatest({ c }: { c: Record<string, unknown> }) {
-  const posts = getNewsPosts().slice(0, 6)
+  const limit = typeof c.limit === 'number' && c.limit > 0 ? c.limit : 6
+  const posts = getNewsPosts().slice(0, limit)
   return (
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || 'Latest News')} sub={brandify(str(c.subtitle) || '')} />
@@ -682,6 +697,131 @@ function ProseWidget({ text }: { text: string }) {
 
 /* ─────────────────────────── dispatcher ─────────────────────────── */
 
+/**
+ * Adapters for the ported afarer solution / OEM pages. Those YAML files keep
+ * afarer's section shapes (packages, roi_section, benefits, ...), which differ
+ * from the supported widget schemas — these adapters normalise them onto the
+ * existing FeatureGrid / StatGrid / StepsWidget / TestimonialsWidget primitives.
+ */
+
+type R = Record<string, unknown>
+
+const itemsOf = (c: R): R[] => (Array.isArray(c.items) ? c.items : [])
+
+function portedFeatureCards(c: R): CardItem[] {
+  return itemsOf(c)
+    .filter((it): it is R => it !== null && typeof it === 'object')
+    .map((it) => {
+      const discount = str(it.discount) ? `${str(it.discount)} wholesale` : ''
+      const moq = str(it.moq) ? `MOQ ${str(it.moq)}` : ''
+      const rawHref = str(it.link) || str(it.href) || ''
+      const href = rawHref === '/resources/download-catalog' ? '/resources' : rawHref
+      return {
+        title: str(it.title) || str(it.name) || str(it.tier) || '',
+        desc: [
+          str(it.description) || str(it.desc) || '',
+          str(it.tagline) || '',
+          ...arr(it.features).map(str),
+          str(it.revenue) || '',
+          discount,
+          moq,
+          str(it.margin_note) || '',
+        ]
+          .filter(Boolean)
+          .join(' · '),
+        href,
+        link_label: href ? 'Learn more' : undefined,
+        icon: str(it.icon),
+      }
+    })
+}
+
+function PortedFeatureGrid({ c, grid }: { c: R; grid?: string }) {
+  return <FeatureGrid c={{ ...c, items: portedFeatureCards(c) }} grid={grid} />
+}
+
+function PortedRoiSection({ c }: { c: R }) {
+  return (
+    <StatGrid
+      items={(arr(c.metrics) as R[]).map((m) => ({ value: m.metric, label: m.label, detail: m.detail }))}
+      heading={c}
+    />
+  )
+}
+
+function PortedBenefits({ c }: { c: R }) {
+  const items = itemsOf(c)
+  if (items.length === 0 || typeof items[0] !== 'object') return <ContentWidget c={c} />
+  if (items.some((it) => it.metric !== undefined)) {
+    return <StatGrid items={items.map((m) => ({ value: m.metric, label: m.label, detail: m.detail }))} heading={c} />
+  }
+  return <PortedFeatureGrid c={c} />
+}
+
+function PortedCaseStudy({ c }: { c: R }) {
+  return (
+    <TestimonialsWidget
+      c={{
+        title: str(c.title) || 'Client Result',
+        subtitle: c.subtitle,
+        items: [{ quote: c.quote, author: c.author, role: c.location }],
+      }}
+    />
+  )
+}
+
+function PortedProcess({ c }: { c: R }) {
+  const steps = (Array.isArray(c.steps) ? c.steps : []).map((s) => ({
+    step: str((s as R).phase) || str((s as R).step),
+    title: str((s as R).title) || '',
+    desc: [str((s as R).period), ...arr((s as R).items).map(str)].filter(Boolean).join(' · '),
+  }))
+  return <StepsWidget c={{ title: c.title, subtitle: c.subtitle, steps }} />
+}
+
+function PortedFleetGuide({ c }: { c: R }) {
+  const steps = (Array.isArray(c.tiers) ? c.tiers : []).map((t) => ({
+    step: '',
+    title: str((t as R).label) || '',
+    desc: [str((t as R).boards) && `${str((t as R).boards)} boards`, str((t as R).revenue)].filter(Boolean).join(' · '),
+  }))
+  return <StepsWidget c={{ title: c.title, subtitle: c.subtitle, steps }} />
+}
+
+function PortedCoverage({ c }: { c: R }) {
+  const items = (Array.isArray(c.regions) ? c.regions : []).map((r) => ({
+    title: str((r as R).name) || '',
+    desc: str((r as R).countries) || '',
+  }))
+  return <FeatureGrid c={{ ...c, items }} />
+}
+
+function PortedSolutionsMatrix({ c }: { c: R }) {
+  const items = itemsOf(c).map((it) => ({
+    title: str(it.clientType) || '',
+    desc: [str(it.need), str(it.solutionPage)].filter(Boolean).join(' — '),
+  }))
+  return <FeatureGrid c={{ ...c, items }} />
+}
+
+function GeoWidget({ c }: { c: R }) {
+  const audiences = arr(c.audiences).map(str).filter(Boolean)
+  return (
+    <Container>
+      <SectionHead kicker={str(c.tagline)} title={str(c.title) || 'B2B Positioning'} sub={str(c.sentence) || str(c.subtitle) || ''} />
+      {audiences.length > 0 && (
+        <div className="mx-auto mt-8 flex max-w-3xl flex-wrap justify-center gap-2.5">
+          {audiences.map((a) => (
+            <span key={a} className="pill border-primary/25! bg-soft! text-primary!">
+              {a}
+            </span>
+          ))}
+        </div>
+      )}
+    </Container>
+  )
+}
+
 const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNode | null> = {
   intelligence_cards: (c) => <IntelligenceCards c={c} />,
   oem_section: (c) => <OemCases c={c} />,
@@ -693,6 +833,20 @@ const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNod
   features3_cases: (c) => <CaseCardsWidget c={c} />,
   categories: (c) => <AcademyCategories c={c} />,
   knowledge_sections: (c) => <AcademyKnowledge c={c} />,
+  // ported afarer solution / OEM page sections
+  roi_section: (c) => <PortedRoiSection c={c} />,
+  packages: (c) => <PortedFeatureGrid c={c} />,
+  case_study: (c) => <PortedCaseStudy c={c} />,
+  benefits: (c) => <PortedBenefits c={c} />,
+  training: (c) => <PortedFeatureGrid c={c} />,
+  fleet_guide: (c) => <PortedFleetGuide c={c} />,
+  margin_section: (c) => <PortedFeatureGrid c={c} />,
+  product_line: (c) => <PortedFeatureGrid c={c} />,
+  catalog: (c) => <PortedFeatureGrid c={c} />,
+  coverage: (c) => <PortedCoverage c={c} />,
+  process: (c) => <PortedProcess c={c} />,
+  solutions: (c) => <PortedSolutionsMatrix c={c} />,
+  geo: (c) => <GeoWidget c={c} />,
 }
 
 const TYPE_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNode | null> = {
@@ -753,8 +907,24 @@ function ContentWidget({ c }: { c: unknown }) {
     if (Array.isArray(c.steps) || Array.isArray(c.stages)) return <StepsWidget c={c} />
     if (Array.isArray(c.questions) || Array.isArray(c.faqs)) return <FaqWidget c={c} />
     if (Array.isArray(c.testimonials) || Array.isArray(c.stories)) return <TestimonialsWidget c={c} />
+    if (Array.isArray(c.testimonials) || Array.isArray(c.stories)) return <TestimonialsWidget c={c} />
     if (Array.isArray(c.stats) || Array.isArray(c.highlights) || Array.isArray(c.rd_numbers)) return <StatGrid items={statItems(c)} heading={c} />
     if (Array.isArray(c.topics)) return <TopicList c={c} />
+    if (Array.isArray(c.items) && c.items.every((it) => typeof it === 'string')) {
+      return (
+        <Container narrow>
+          {(str(c.tagline) || str(c.title)) && <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />}
+          <ul className="mx-auto mt-8 max-w-3xl space-y-3">
+            {c.items.map((s, i) => (
+              <li key={i} className="flex items-start gap-3 text-[14.5px] leading-relaxed text-fg-2">
+                <Check size={17} className="mt-0.5 shrink-0 text-primary" />
+                {brandify(String(s))}
+              </li>
+            ))}
+          </ul>
+        </Container>
+      )
+    }
     if (cardItems(c).length > 0) return <FeatureGrid c={c} />
     if (Array.isArray(c.cases)) return <OemCases c={c} />
     if (c.title || c.tagline || c.headline) {
@@ -795,6 +965,21 @@ export function AfarerSections({ page }: { page: AfarerPage }) {
       ))}
     </>
   )
+}
+
+/** Collect all FAQ entries across a page's `faqs` sections (for FAQPage JSON-LD). */
+export function collectPageFaqs(page: AfarerPage): { q: string; a: string }[] {
+  const out: { q: string; a: string }[] = []
+  for (const def of page.sections) {
+    if (def.type !== 'faqs') continue
+    const content = (page.content[def.key] ?? {}) as Record<string, unknown>
+    for (const f of faqItems(content)) {
+      if (typeof f.q === 'string' && f.q.trim() && typeof f.a === 'string' && f.a.trim()) {
+        out.push({ q: brandify(f.q), a: brandify(f.a) })
+      }
+    }
+  }
+  return out
 }
 
 /** Synthetic "case studies" index rendered by the catch-all route. */

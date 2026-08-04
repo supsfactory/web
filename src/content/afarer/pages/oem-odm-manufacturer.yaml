@@ -7,3 +7,35 @@ meta:
     - 'OEM paddle boards'
     - 'China SUP factory'
     - 'custom SUP wholesale'
+
+hero:
+  tagline: OEM / ODM
+  title: 'Inflatable SUP OEM / ODM<br />Manufacturer'
+  subtitle: 'Afarer — premier OEM/ODM manufacturer of inflatable SUP boards. CE-certified. Custom mold, private label, bulk wholesale. From idea to market in 16 weeks.'
+
+features:
+  title: OEM / ODM Capabilities
+  subtitle: 'Everything you need to build and launch your own inflatable SUP line.'
+  items:
+    - title: Custom Molds
+      description: 'Bespoke board shapes developed for your brand, riders, and performance goals.'
+      icon: 'tabler:shapes'
+    - title: Private Label
+      description: 'Your logo, colors, and packaging on proven commercial-grade boards.'
+      icon: 'tabler:tag'
+    - title: Bulk Wholesale
+      description: 'Container-scale production with competitive OEM pricing and 30-day lead times.'
+      icon: 'tabler:package'
+    - title: CE Certified
+      description: 'Full compliance and safety documentation for every market you ship to.'
+      icon: 'tabler:certificate'
+    - title: In-House Design
+      description: 'From concept sketches to final production artwork, handled in-house.'
+      icon: 'tabler:palette'
+    - title: Global Logistics
+      description: 'Sea and air freight with customs clearance support worldwide.'
+      icon: 'tabler:world'
+
+cta:
+  title: 'Ready to build your SUP brand?'
+  subtitle: 'Receive a detailed OEM quote within 24 hours.'

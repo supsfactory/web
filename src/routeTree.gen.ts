@@ -18,6 +18,7 @@ import { Route as SizeGuideRouteImport } from './routes/size-guide'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as SearchAndRescueRouteImport } from './routes/search-and-rescue'
 import { Route as SafetyRouteImport } from './routes/safety'
+import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
 import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
 import { Route as ResourcesRouteImport } from './routes/resources'
 import { Route as ResearchRouteImport } from './routes/research'
@@ -26,6 +27,8 @@ import { Route as RanddcenterRouteImport } from './routes/randdcenter'
 import { Route as QualityTestingRouteImport } from './routes/quality-testing'
 import { Route as QualityRouteImport } from './routes/quality'
 import { Route as PartnersRouteImport } from './routes/partners'
+import { Route as OemPaddleRouteImport } from './routes/oem-paddle'
+import { Route as OemOdmRouteImport } from './routes/oem-odm'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as MediaRouteImport } from './routes/media'
 import { Route as MaritimeSafetyDefenseRouteImport } from './routes/maritime-safety-defense'
@@ -37,8 +40,11 @@ import { Route as KnowledgeRouteImport } from './routes/knowledge'
 import { Route as JournalRouteImport } from './routes/journal'
 import { Route as InflatableVsHardboardRouteImport } from './routes/inflatable-vs-hardboard'
 import { Route as GuidesRouteImport } from './routes/guides'
+import { Route as FournisseurNautiqueRouteImport } from './routes/fournisseur-nautique'
 import { Route as FishingRouteImport } from './routes/fishing'
+import { Route as FaqRouteImport } from './routes/faq'
 import { Route as FactoryRouteImport } from './routes/factory'
+import { Route as FabricantSupGonflableRouteImport } from './routes/fabricant-sup-gonflable'
 import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as EntityDotjsonRouteImport } from './routes/entity[.]json'
 import { Route as DisasterReliefHumanitarianAidRouteImport } from './routes/disaster-relief-humanitarian-aid'
@@ -46,6 +52,8 @@ import { Route as CustomRouteImport } from './routes/custom'
 import { Route as CommunityRouteImport } from './routes/community'
 import { Route as CommercialWorkboatsRouteImport } from './routes/commercial-workboats'
 import { Route as BrandRouteImport } from './routes/brand'
+import { Route as BateauGonflableFabricantRouteImport } from './routes/bateau-gonflable-fabricant'
+import { Route as B2bSolutionsMatrixRouteImport } from './routes/b2b-solutions-matrix'
 import { Route as AfarerRouteImport } from './routes/afarer'
 import { Route as AcademyRouteImport } from './routes/academy'
 import { Route as SplatRouteImport } from './routes/$'
@@ -136,6 +144,11 @@ const SafetyRoute = SafetyRouteImport.update({
   path: '/safety',
   getParentRoute: () => rootRouteImport,
 } as any)
+const RssDotxmlRoute = RssDotxmlRouteImport.update({
+  id: '/rss.xml',
+  path: '/rss.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RobotsDottxtRoute = RobotsDottxtRouteImport.update({
   id: '/robots.txt',
   path: '/robots.txt',
@@ -174,6 +187,16 @@ const QualityRoute = QualityRouteImport.update({
 const PartnersRoute = PartnersRouteImport.update({
   id: '/partners',
   path: '/partners',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OemPaddleRoute = OemPaddleRouteImport.update({
+  id: '/oem-paddle',
+  path: '/oem-paddle',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OemOdmRoute = OemOdmRouteImport.update({
+  id: '/oem-odm',
+  path: '/oem-odm',
   getParentRoute: () => rootRouteImport,
 } as any)
 const NewsRoute = NewsRouteImport.update({
@@ -231,14 +254,29 @@ const GuidesRoute = GuidesRouteImport.update({
   path: '/guides',
   getParentRoute: () => rootRouteImport,
 } as any)
+const FournisseurNautiqueRoute = FournisseurNautiqueRouteImport.update({
+  id: '/fournisseur-nautique',
+  path: '/fournisseur-nautique',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const FishingRoute = FishingRouteImport.update({
   id: '/fishing',
   path: '/fishing',
   getParentRoute: () => rootRouteImport,
 } as any)
+const FaqRoute = FaqRouteImport.update({
+  id: '/faq',
+  path: '/faq',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const FactoryRoute = FactoryRouteImport.update({
   id: '/factory',
   path: '/factory',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FabricantSupGonflableRoute = FabricantSupGonflableRouteImport.update({
+  id: '/fabricant-sup-gonflable',
+  path: '/fabricant-sup-gonflable',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EvidenceRoute = EvidenceRouteImport.update({
@@ -275,6 +313,17 @@ const CommercialWorkboatsRoute = CommercialWorkboatsRouteImport.update({
 const BrandRoute = BrandRouteImport.update({
   id: '/brand',
   path: '/brand',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BateauGonflableFabricantRoute =
+  BateauGonflableFabricantRouteImport.update({
+    id: '/bateau-gonflable-fabricant',
+    path: '/bateau-gonflable-fabricant',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const B2bSolutionsMatrixRoute = B2bSolutionsMatrixRouteImport.update({
+  id: '/b2b-solutions-matrix',
+  path: '/b2b-solutions-matrix',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AfarerRoute = AfarerRouteImport.update({
@@ -536,6 +585,8 @@ export interface FileRoutesByFullPath {
   '/$': typeof SplatRoute
   '/academy': typeof AcademyRoute
   '/afarer': typeof AfarerRoute
+  '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
+  '/bateau-gonflable-fabricant': typeof BateauGonflableFabricantRoute
   '/brand': typeof BrandRoute
   '/commercial-workboats': typeof CommercialWorkboatsRoute
   '/community': typeof CommunityRoute
@@ -543,8 +594,11 @@ export interface FileRoutesByFullPath {
   '/disaster-relief-humanitarian-aid': typeof DisasterReliefHumanitarianAidRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/evidence': typeof EvidenceRoute
+  '/fabricant-sup-gonflable': typeof FabricantSupGonflableRoute
   '/factory': typeof FactoryRoute
+  '/faq': typeof FaqRoute
   '/fishing': typeof FishingRoute
+  '/fournisseur-nautique': typeof FournisseurNautiqueRoute
   '/guides': typeof GuidesRoute
   '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
   '/journal': typeof JournalRoute
@@ -556,6 +610,8 @@ export interface FileRoutesByFullPath {
   '/maritime-safety-defense': typeof MaritimeSafetyDefenseRoute
   '/media': typeof MediaRoute
   '/news': typeof NewsRoute
+  '/oem-odm': typeof OemOdmRoute
+  '/oem-paddle': typeof OemPaddleRoute
   '/partners': typeof PartnersRoute
   '/quality': typeof QualityRoute
   '/quality-testing': typeof QualityTestingRoute
@@ -564,6 +620,7 @@ export interface FileRoutesByFullPath {
   '/research': typeof ResearchRoute
   '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
+  '/rss.xml': typeof RssDotxmlRoute
   '/safety': typeof SafetyRoute
   '/search-and-rescue': typeof SearchAndRescueRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -618,6 +675,8 @@ export interface FileRoutesByTo {
   '/$': typeof SplatRoute
   '/academy': typeof AcademyRoute
   '/afarer': typeof AfarerRoute
+  '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
+  '/bateau-gonflable-fabricant': typeof BateauGonflableFabricantRoute
   '/brand': typeof BrandRoute
   '/commercial-workboats': typeof CommercialWorkboatsRoute
   '/community': typeof CommunityRoute
@@ -625,8 +684,11 @@ export interface FileRoutesByTo {
   '/disaster-relief-humanitarian-aid': typeof DisasterReliefHumanitarianAidRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/evidence': typeof EvidenceRoute
+  '/fabricant-sup-gonflable': typeof FabricantSupGonflableRoute
   '/factory': typeof FactoryRoute
+  '/faq': typeof FaqRoute
   '/fishing': typeof FishingRoute
+  '/fournisseur-nautique': typeof FournisseurNautiqueRoute
   '/guides': typeof GuidesRoute
   '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
   '/journal': typeof JournalRoute
@@ -638,6 +700,8 @@ export interface FileRoutesByTo {
   '/maritime-safety-defense': typeof MaritimeSafetyDefenseRoute
   '/media': typeof MediaRoute
   '/news': typeof NewsRoute
+  '/oem-odm': typeof OemOdmRoute
+  '/oem-paddle': typeof OemPaddleRoute
   '/partners': typeof PartnersRoute
   '/quality': typeof QualityRoute
   '/quality-testing': typeof QualityTestingRoute
@@ -646,6 +710,7 @@ export interface FileRoutesByTo {
   '/research': typeof ResearchRoute
   '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
+  '/rss.xml': typeof RssDotxmlRoute
   '/safety': typeof SafetyRoute
   '/search-and-rescue': typeof SearchAndRescueRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -701,6 +766,8 @@ export interface FileRoutesById {
   '/$': typeof SplatRoute
   '/academy': typeof AcademyRoute
   '/afarer': typeof AfarerRoute
+  '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
+  '/bateau-gonflable-fabricant': typeof BateauGonflableFabricantRoute
   '/brand': typeof BrandRoute
   '/commercial-workboats': typeof CommercialWorkboatsRoute
   '/community': typeof CommunityRoute
@@ -708,8 +775,11 @@ export interface FileRoutesById {
   '/disaster-relief-humanitarian-aid': typeof DisasterReliefHumanitarianAidRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/evidence': typeof EvidenceRoute
+  '/fabricant-sup-gonflable': typeof FabricantSupGonflableRoute
   '/factory': typeof FactoryRoute
+  '/faq': typeof FaqRoute
   '/fishing': typeof FishingRoute
+  '/fournisseur-nautique': typeof FournisseurNautiqueRoute
   '/guides': typeof GuidesRoute
   '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
   '/journal': typeof JournalRoute
@@ -721,6 +791,8 @@ export interface FileRoutesById {
   '/maritime-safety-defense': typeof MaritimeSafetyDefenseRoute
   '/media': typeof MediaRoute
   '/news': typeof NewsRoute
+  '/oem-odm': typeof OemOdmRoute
+  '/oem-paddle': typeof OemPaddleRoute
   '/partners': typeof PartnersRoute
   '/quality': typeof QualityRoute
   '/quality-testing': typeof QualityTestingRoute
@@ -729,6 +801,7 @@ export interface FileRoutesById {
   '/research': typeof ResearchRoute
   '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
+  '/rss.xml': typeof RssDotxmlRoute
   '/safety': typeof SafetyRoute
   '/search-and-rescue': typeof SearchAndRescueRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -786,6 +859,8 @@ export interface FileRouteTypes {
     | '/$'
     | '/academy'
     | '/afarer'
+    | '/b2b-solutions-matrix'
+    | '/bateau-gonflable-fabricant'
     | '/brand'
     | '/commercial-workboats'
     | '/community'
@@ -793,8 +868,11 @@ export interface FileRouteTypes {
     | '/disaster-relief-humanitarian-aid'
     | '/entity.json'
     | '/evidence'
+    | '/fabricant-sup-gonflable'
     | '/factory'
+    | '/faq'
     | '/fishing'
+    | '/fournisseur-nautique'
     | '/guides'
     | '/inflatable-vs-hardboard'
     | '/journal'
@@ -806,6 +884,8 @@ export interface FileRouteTypes {
     | '/maritime-safety-defense'
     | '/media'
     | '/news'
+    | '/oem-odm'
+    | '/oem-paddle'
     | '/partners'
     | '/quality'
     | '/quality-testing'
@@ -814,6 +894,7 @@ export interface FileRouteTypes {
     | '/research'
     | '/resources'
     | '/robots.txt'
+    | '/rss.xml'
     | '/safety'
     | '/search-and-rescue'
     | '/sitemap.xml'
@@ -868,6 +949,8 @@ export interface FileRouteTypes {
     | '/$'
     | '/academy'
     | '/afarer'
+    | '/b2b-solutions-matrix'
+    | '/bateau-gonflable-fabricant'
     | '/brand'
     | '/commercial-workboats'
     | '/community'
@@ -875,8 +958,11 @@ export interface FileRouteTypes {
     | '/disaster-relief-humanitarian-aid'
     | '/entity.json'
     | '/evidence'
+    | '/fabricant-sup-gonflable'
     | '/factory'
+    | '/faq'
     | '/fishing'
+    | '/fournisseur-nautique'
     | '/guides'
     | '/inflatable-vs-hardboard'
     | '/journal'
@@ -888,6 +974,8 @@ export interface FileRouteTypes {
     | '/maritime-safety-defense'
     | '/media'
     | '/news'
+    | '/oem-odm'
+    | '/oem-paddle'
     | '/partners'
     | '/quality'
     | '/quality-testing'
@@ -896,6 +984,7 @@ export interface FileRouteTypes {
     | '/research'
     | '/resources'
     | '/robots.txt'
+    | '/rss.xml'
     | '/safety'
     | '/search-and-rescue'
     | '/sitemap.xml'
@@ -950,6 +1039,8 @@ export interface FileRouteTypes {
     | '/$'
     | '/academy'
     | '/afarer'
+    | '/b2b-solutions-matrix'
+    | '/bateau-gonflable-fabricant'
     | '/brand'
     | '/commercial-workboats'
     | '/community'
@@ -957,8 +1048,11 @@ export interface FileRouteTypes {
     | '/disaster-relief-humanitarian-aid'
     | '/entity.json'
     | '/evidence'
+    | '/fabricant-sup-gonflable'
     | '/factory'
+    | '/faq'
     | '/fishing'
+    | '/fournisseur-nautique'
     | '/guides'
     | '/inflatable-vs-hardboard'
     | '/journal'
@@ -970,6 +1064,8 @@ export interface FileRouteTypes {
     | '/maritime-safety-defense'
     | '/media'
     | '/news'
+    | '/oem-odm'
+    | '/oem-paddle'
     | '/partners'
     | '/quality'
     | '/quality-testing'
@@ -978,6 +1074,7 @@ export interface FileRouteTypes {
     | '/research'
     | '/resources'
     | '/robots.txt'
+    | '/rss.xml'
     | '/safety'
     | '/search-and-rescue'
     | '/sitemap.xml'
@@ -1034,6 +1131,8 @@ export interface RootRouteChildren {
   SplatRoute: typeof SplatRoute
   AcademyRoute: typeof AcademyRoute
   AfarerRoute: typeof AfarerRoute
+  B2bSolutionsMatrixRoute: typeof B2bSolutionsMatrixRoute
+  BateauGonflableFabricantRoute: typeof BateauGonflableFabricantRoute
   BrandRoute: typeof BrandRoute
   CommercialWorkboatsRoute: typeof CommercialWorkboatsRoute
   CommunityRoute: typeof CommunityRoute
@@ -1041,8 +1140,11 @@ export interface RootRouteChildren {
   DisasterReliefHumanitarianAidRoute: typeof DisasterReliefHumanitarianAidRoute
   EntityDotjsonRoute: typeof EntityDotjsonRoute
   EvidenceRoute: typeof EvidenceRoute
+  FabricantSupGonflableRoute: typeof FabricantSupGonflableRoute
   FactoryRoute: typeof FactoryRoute
+  FaqRoute: typeof FaqRoute
   FishingRoute: typeof FishingRoute
+  FournisseurNautiqueRoute: typeof FournisseurNautiqueRoute
   GuidesRoute: typeof GuidesRoute
   InflatableVsHardboardRoute: typeof InflatableVsHardboardRoute
   JournalRoute: typeof JournalRoute
@@ -1054,6 +1156,8 @@ export interface RootRouteChildren {
   MaritimeSafetyDefenseRoute: typeof MaritimeSafetyDefenseRoute
   MediaRoute: typeof MediaRoute
   NewsRoute: typeof NewsRoute
+  OemOdmRoute: typeof OemOdmRoute
+  OemPaddleRoute: typeof OemPaddleRoute
   PartnersRoute: typeof PartnersRoute
   QualityRoute: typeof QualityRoute
   QualityTestingRoute: typeof QualityTestingRoute
@@ -1062,6 +1166,7 @@ export interface RootRouteChildren {
   ResearchRoute: typeof ResearchRoute
   ResourcesRoute: typeof ResourcesRoute
   RobotsDottxtRoute: typeof RobotsDottxtRoute
+  RssDotxmlRoute: typeof RssDotxmlRoute
   SafetyRoute: typeof SafetyRoute
   SearchAndRescueRoute: typeof SearchAndRescueRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
@@ -1146,6 +1251,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SafetyRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/rss.xml': {
+      id: '/rss.xml'
+      path: '/rss.xml'
+      fullPath: '/rss.xml'
+      preLoaderRoute: typeof RssDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/robots.txt': {
       id: '/robots.txt'
       path: '/robots.txt'
@@ -1200,6 +1312,20 @@ declare module '@tanstack/react-router' {
       path: '/partners'
       fullPath: '/partners'
       preLoaderRoute: typeof PartnersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oem-paddle': {
+      id: '/oem-paddle'
+      path: '/oem-paddle'
+      fullPath: '/oem-paddle'
+      preLoaderRoute: typeof OemPaddleRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oem-odm': {
+      id: '/oem-odm'
+      path: '/oem-odm'
+      fullPath: '/oem-odm'
+      preLoaderRoute: typeof OemOdmRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/news': {
@@ -1279,6 +1405,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GuidesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/fournisseur-nautique': {
+      id: '/fournisseur-nautique'
+      path: '/fournisseur-nautique'
+      fullPath: '/fournisseur-nautique'
+      preLoaderRoute: typeof FournisseurNautiqueRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/fishing': {
       id: '/fishing'
       path: '/fishing'
@@ -1286,11 +1419,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FishingRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/faq': {
+      id: '/faq'
+      path: '/faq'
+      fullPath: '/faq'
+      preLoaderRoute: typeof FaqRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/factory': {
       id: '/factory'
       path: '/factory'
       fullPath: '/factory'
       preLoaderRoute: typeof FactoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/fabricant-sup-gonflable': {
+      id: '/fabricant-sup-gonflable'
+      path: '/fabricant-sup-gonflable'
+      fullPath: '/fabricant-sup-gonflable'
+      preLoaderRoute: typeof FabricantSupGonflableRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/evidence': {
@@ -1340,6 +1487,20 @@ declare module '@tanstack/react-router' {
       path: '/brand'
       fullPath: '/brand'
       preLoaderRoute: typeof BrandRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bateau-gonflable-fabricant': {
+      id: '/bateau-gonflable-fabricant'
+      path: '/bateau-gonflable-fabricant'
+      fullPath: '/bateau-gonflable-fabricant'
+      preLoaderRoute: typeof BateauGonflableFabricantRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/b2b-solutions-matrix': {
+      id: '/b2b-solutions-matrix'
+      path: '/b2b-solutions-matrix'
+      fullPath: '/b2b-solutions-matrix'
+      preLoaderRoute: typeof B2bSolutionsMatrixRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/afarer': {
@@ -1758,6 +1919,8 @@ const rootRouteChildren: RootRouteChildren = {
   SplatRoute: SplatRoute,
   AcademyRoute: AcademyRoute,
   AfarerRoute: AfarerRoute,
+  B2bSolutionsMatrixRoute: B2bSolutionsMatrixRoute,
+  BateauGonflableFabricantRoute: BateauGonflableFabricantRoute,
   BrandRoute: BrandRoute,
   CommercialWorkboatsRoute: CommercialWorkboatsRoute,
   CommunityRoute: CommunityRoute,
@@ -1765,8 +1928,11 @@ const rootRouteChildren: RootRouteChildren = {
   DisasterReliefHumanitarianAidRoute: DisasterReliefHumanitarianAidRoute,
   EntityDotjsonRoute: EntityDotjsonRoute,
   EvidenceRoute: EvidenceRoute,
+  FabricantSupGonflableRoute: FabricantSupGonflableRoute,
   FactoryRoute: FactoryRoute,
+  FaqRoute: FaqRoute,
   FishingRoute: FishingRoute,
+  FournisseurNautiqueRoute: FournisseurNautiqueRoute,
   GuidesRoute: GuidesRoute,
   InflatableVsHardboardRoute: InflatableVsHardboardRoute,
   JournalRoute: JournalRoute,
@@ -1778,6 +1944,8 @@ const rootRouteChildren: RootRouteChildren = {
   MaritimeSafetyDefenseRoute: MaritimeSafetyDefenseRoute,
   MediaRoute: MediaRoute,
   NewsRoute: NewsRoute,
+  OemOdmRoute: OemOdmRoute,
+  OemPaddleRoute: OemPaddleRoute,
   PartnersRoute: PartnersRoute,
   QualityRoute: QualityRoute,
   QualityTestingRoute: QualityTestingRoute,
@@ -1786,6 +1954,7 @@ const rootRouteChildren: RootRouteChildren = {
   ResearchRoute: ResearchRoute,
   ResourcesRoute: ResourcesRoute,
   RobotsDottxtRoute: RobotsDottxtRoute,
+  RssDotxmlRoute: RssDotxmlRoute,
   SafetyRoute: SafetyRoute,
   SearchAndRescueRoute: SearchAndRescueRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,

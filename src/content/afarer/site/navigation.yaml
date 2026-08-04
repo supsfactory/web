@@ -2,21 +2,7 @@ header:
   topBar: []
   links:
     - text: Inflatable SUP
-      links:
-        - text: All-Around SUP
-          href: /all-around-sup
-        - text: Touring SUP
-          href: /touring-sup
-        - text: Yoga SUP
-          href: /yoga-sup
-        - text: Kids SUP
-          href: /kids-sup
-        - text: Fishing SUP
-          href: /fishing-sup
-        - text: Whitewater SUP
-          href: /whitewater-sup
-        - text: Ultra-Stable SUP
-          href: /ultra-stable-sup
+      href: /products
     - text: Technology
       href: /technology
     - text: OEM / ODM
@@ -58,13 +44,13 @@ header:
         - text: Quality Control
           href: /quality-testing
         - text: Certifications
-          href: /certifications
+          href: /quality
         - text: Safety
           href: /safety
         - text: Trust Center
           href: /trust
         - text: Download Catalog
-          href: /resources/download-catalog
+          href: /resources
         - text: News
           href: /news
         - text: Journal
@@ -81,20 +67,8 @@ footer:
   links:
     - title: Inflatable SUP
       links:
-        - text: All-Around SUP
-          href: /all-around-sup
-        - text: Touring SUP
-          href: /touring-sup
-        - text: Yoga SUP
-          href: /yoga-sup
-        - text: Kids SUP
-          href: /kids-sup
-        - text: Fishing SUP
-          href: /fishing-sup
-        - text: Whitewater SUP
-          href: /whitewater-sup
-        - text: Ultra-Stable SUP
-          href: /ultra-stable-sup
+        - text: All Inflatable SUPs
+          href: /products
     - title: Solutions
       links:
         - text: For Resorts & Hotels
@@ -122,13 +96,13 @@ footer:
         - text: Quality Control
           href: /quality-testing
         - text: Certifications
-          href: /certifications
+          href: /quality
         - text: Safety
           href: /safety
         - text: Trust Center
           href: /trust
         - text: Download Catalog
-          href: /resources/download-catalog
+          href: /resources
         - text: News
           href: /news
         - text: Journal
@@ -160,8 +134,6 @@ footer:
       href: /terms
     - text: Privacy Policy
       href: /privacy
-    - text: Medical Disclaimer
-      href: /disclaimer
   socialLinks:
     - text: YouTube
       href: https://www.youtube.com/@afarer

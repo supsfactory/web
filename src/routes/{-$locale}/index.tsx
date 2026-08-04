@@ -3,7 +3,8 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, strip } from '@/features/site/content'
+import { pick, strip, faq } from '@/features/site/content'
+import { JsonLd, faqLd } from '@/features/seo/jsonld'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { Hero } from '@/components/marketing/hero'
 import { WhyUs } from '@/components/marketing/why-us'
@@ -69,6 +70,7 @@ function Home() {
       <HowItWorks />
       <GallerySection />
       <FaqSection />
+      <JsonLd data={faqLd(faq[locale].items)} />
       <CtaBand />
       <Footer theme={theme} />
     </div>

@@ -16,12 +16,13 @@ const handler = () => {
   const afarerPaths = getAfarerPublicPaths()
   const articlePaths = [
     ...getAfarerProducts().map((p) => `/products/${p.slug}`),
-    ...getNewsPosts().map((p) => `/news/${p.slug}`),
+    ...getNewsPosts().map((p) => ({ loc: `/news/${p.slug}`, lastmod: p.date.slice(0, 10) })),
     ...getTechArticles().map((p) => `/technology/${p.slug}`),
     ...getCaseUses().map((p) => `/evidence/case-studies/${p.slug}`),
     ...GUIDES.map((g) => `/guides/${g.slug}`),
     '/evidence/case-studies',
     '/research',
+    '/faq',
   ]
   // afarer pages are English-only: single-locale entries (no hreflang alternates).
   return new Response(buildSitemap(new URL(env.BETTER_AUTH_URL).origin, [...docsPaths, ...afarerPaths, ...articlePaths]), {

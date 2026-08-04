@@ -1,0 +1,84 @@
+﻿meta:
+  title: 'Inflatable Boat Manufacturer & Pneumatic Boat OEM | {SITE}'
+  description: 'Professional inflatable boat and pneumatic boat manufacturer in China. CE-certified OEM/ODM factory producing custom PVC boats, tenders, and bulk wholesale for brands and distributors.'
+  keywords:
+    - 'inflatable boat manufacturer'
+    - 'pneumatic boat factory'
+    - 'custom inflatable boat supplier'
+    - 'boat OEM manufacturing'
+    - 'inflatable tender manufacturer'
+    - 'China inflatable boat factory'
+hero:
+  tagline: 'Inflatable Boat Manufacturer · China Factory'
+  title: 'Inflatable & Pneumatic<br />Boat OEM Manufacturer'
+  subtitle: 'Afarer manufactures professional inflatable and pneumatic boats in PVC: tenders, dinghies, workboats, and custom models. OEM/ODM, private label, and bulk production from our Qingdao factory.'
+  image:
+    src: https://assets.afarer.com/images/afarer/factory/afarer-factory-building.webp
+    alt: Afarer inflatable boat manufacturing factory in China
+  actions:
+    - text: 'Become a Partner'
+      href: /contact
+      variant: primary
+    - text: 'See the Production'
+      href: /factory
+      variant: secondary
+stats:
+  - value: '12,000 m²'
+    label: 'Integrated manufacturing workshop'
+  - value: '200+'
+    label: 'Skilled workers'
+  - value: '15,000+'
+    label: 'Vessels per year'
+  - value: 'ISO & BSCI'
+    label: 'Factory certifications'
+features:
+  title: 'Boat Manufacturing Capabilities'
+  subtitle: 'From PVC to finished vessel: every inflatable boat goes through our specialized workshops.'
+  columns: 3
+  items:
+    - title: 'Specialized Workshops'
+      description: 'PVC cutting, drop-stitch assembly, high-frequency welding, assembly, and dedicated testing.'
+      icon: 'tabler:scissors'
+    - title: 'PVC & Hypalon'
+      description: 'Inflatable boats in high-strength PVC or Hypalon to fit your needs and markets.'
+      icon: 'tabler:droplet'
+    - title: 'Quality Control'
+      description: 'Pressure tests, seam strength, buoyancy, and UV resistance checked on every vessel.'
+      icon: 'tabler:shield-check'
+    - title: 'Customization'
+      description: 'Logo, colors, bulkheads, compartments — a custom inflatable boat in your brand.'
+      icon: 'tabler:palette'
+    - title: 'OEM / ODM'
+      description: 'Custom model development for brands, distributors, and professional fleets.'
+      icon: 'tabler:building-factory'
+    - title: 'Global Shipping'
+      description: 'FOB Qingdao, full containers or consolidated cargo, customs clearance support.'
+      icon: 'tabler:world'
+faqs:
+  title: 'Inflatable Boat Manufacturing FAQ'
+  subtitle: 'Answers for launching your inflatable boat OEM project.'
+  items:
+    - title: 'What types of inflatable boats do you make?'
+      description: 'Inflatable tenders, pneumatic dinghies, fishing boats, workboats, and custom PVC models.'
+    - title: 'Can you customize an inflatable boat?'
+      description: 'Yes — logo, colors, bulkheads, reinforcements, and motor options per your specification.'
+    - title: 'What is the lead time for a boat OEM project?'
+      description: 'The sample ships in 3-4 weeks, bulk production in 35-50 days depending on the model.'
+geo:
+  tagline: 'B2B Positioning'
+  sentence: 'Afarer is a professional manufacturer of inflatable SUPs and inflatable boats (OEM/ODM), specialized in design, custom production, and nautical solutions for brands, distributors, clubs, and businesses.'
+  audiences:
+    - 'Brands'
+    - 'Distributors'
+    - 'Professional fleets'
+    - 'Nautical clubs'
+cta:
+  title: 'Working on an inflatable boat project?'
+  subtitle: "Let's discuss your OEM manufacturing needs."
+  actions:
+    - text: 'Request a Quote'
+      href: /contact
+      variant: primary
+    - text: 'See Nautical Solutions'
+      href: /solutions
+      variant: secondary
