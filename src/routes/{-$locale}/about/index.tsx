@@ -21,7 +21,7 @@ export const Route = createFileRoute('/{-$locale}/about/')({
       origin,
       locale,
       path: '/about',
-      title: locale === 'es' ? 'Sobre nosotros | El socio de fabricación de las marcas SUP — SUPsfactory' : 'About Us | The Manufacturing Partner Behind Paddle Brands — SUPsfactory',
+      title: locale === 'es' ? 'Sobre nosotros | El socio de fabricación de marcas SUP — SUPsfactory' : 'About Us | The Manufacturing Partner Behind Paddle Brands — SUPsfactory',
       description:
         locale === 'es'
           ? 'SUPsfactory es una empresa de fabricación de SUP personalizados para marcas emergentes: MOQ flexible desde 50 unidades, soporte de diseño completo y un equipo que trata tu primer pedido con la misma seriedad que el centésimo.'
