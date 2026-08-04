@@ -77,7 +77,6 @@ import { Route as Char123LocaleChar125CustomSupManufacturingRouteImport } from '
 import { Route as Char123LocaleChar125CustomSupDevelopmentRouteImport } from './routes/{-$locale}/custom-sup-development'
 import { Route as Char123LocaleChar125ContactRouteImport } from './routes/{-$locale}/contact'
 import { Route as Char123LocaleChar125ChangelogRouteImport } from './routes/{-$locale}/changelog'
-import { Route as Char123LocaleChar125AboutRouteImport } from './routes/{-$locale}/about'
 import { Route as DocsSplatRouteImport } from './routes/docs/$'
 import { Route as DocsMdSplatRouteImport } from './routes/docs-md/$'
 import { Route as ApiSearchRouteImport } from './routes/api/search'
@@ -89,6 +88,7 @@ import { Route as Char123LocaleChar125ProjectsIndexRouteImport } from './routes/
 import { Route as Char123LocaleChar125KnowledgeIndexRouteImport } from './routes/{-$locale}/knowledge/index'
 import { Route as Char123LocaleChar125AppIndexRouteImport } from './routes/{-$locale}/app/index'
 import { Route as Char123LocaleChar125AdminIndexRouteImport } from './routes/{-$locale}/admin/index'
+import { Route as Char123LocaleChar125AboutIndexRouteImport } from './routes/{-$locale}/about/index'
 import { Route as Char123LocaleChar125SolutionsSchoolSupRouteImport } from './routes/{-$locale}/solutions/school-sup'
 import { Route as Char123LocaleChar125SolutionsResortSupRouteImport } from './routes/{-$locale}/solutions/resort-sup'
 import { Route as Char123LocaleChar125SolutionsPrivateLabelSupRouteImport } from './routes/{-$locale}/solutions/private-label-sup'
@@ -473,12 +473,6 @@ const Char123LocaleChar125ChangelogRoute =
     path: '/changelog',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
-const Char123LocaleChar125AboutRoute =
-  Char123LocaleChar125AboutRouteImport.update({
-    id: '/about',
-    path: '/about',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
 const DocsSplatRoute = DocsSplatRouteImport.update({
   id: '/docs/$',
   path: '/docs/$',
@@ -539,6 +533,12 @@ const Char123LocaleChar125AdminIndexRoute =
     id: '/',
     path: '/',
     getParentRoute: () => Char123LocaleChar125AdminRouteRoute,
+  } as any)
+const Char123LocaleChar125AboutIndexRoute =
+  Char123LocaleChar125AboutIndexRouteImport.update({
+    id: '/about/',
+    path: '/about/',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
 const Char123LocaleChar125SolutionsSchoolSupRoute =
   Char123LocaleChar125SolutionsSchoolSupRouteImport.update({
@@ -620,9 +620,9 @@ const Char123LocaleChar125AdminFeedbackRoute =
   } as any)
 const Char123LocaleChar125AboutSupsfactoryEntityRoute =
   Char123LocaleChar125AboutSupsfactoryEntityRouteImport.update({
-    id: '/supsfactory-entity',
-    path: '/supsfactory-entity',
-    getParentRoute: () => Char123LocaleChar125AboutRoute,
+    id: '/about/supsfactory-entity',
+    path: '/about/supsfactory-entity',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
 const Char123LocaleChar125authVerifyEmailRoute =
   Char123LocaleChar125authVerifyEmailRouteImport.update({
@@ -727,7 +727,6 @@ export interface FileRoutesByFullPath {
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
-  '/{-$locale}/about': typeof Char123LocaleChar125AboutRouteWithChildren
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
@@ -768,6 +767,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
   '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
   '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
+  '/{-$locale}/about/': typeof Char123LocaleChar125AboutIndexRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
   '/{-$locale}/knowledge/': typeof Char123LocaleChar125KnowledgeIndexRoute
@@ -829,7 +829,6 @@ export interface FileRoutesByTo {
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
-  '/{-$locale}/about': typeof Char123LocaleChar125AboutRouteWithChildren
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
@@ -869,6 +868,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
   '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
   '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
+  '/{-$locale}/about': typeof Char123LocaleChar125AboutIndexRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app': typeof Char123LocaleChar125AppIndexRoute
   '/{-$locale}/knowledge': typeof Char123LocaleChar125KnowledgeIndexRoute
@@ -933,7 +933,6 @@ export interface FileRoutesById {
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
-  '/{-$locale}/about': typeof Char123LocaleChar125AboutRouteWithChildren
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
@@ -974,6 +973,7 @@ export interface FileRoutesById {
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
   '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
   '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
+  '/{-$locale}/about/': typeof Char123LocaleChar125AboutIndexRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
   '/{-$locale}/knowledge/': typeof Char123LocaleChar125KnowledgeIndexRoute
@@ -1039,7 +1039,6 @@ export interface FileRouteTypes {
     | '/api/search'
     | '/docs-md/$'
     | '/docs/$'
-    | '/{-$locale}/about'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
     | '/{-$locale}/custom-sup-development'
@@ -1080,6 +1079,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/solutions/private-label-sup'
     | '/{-$locale}/solutions/resort-sup'
     | '/{-$locale}/solutions/school-sup'
+    | '/{-$locale}/about/'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
     | '/{-$locale}/knowledge/'
@@ -1141,7 +1141,6 @@ export interface FileRouteTypes {
     | '/api/search'
     | '/docs-md/$'
     | '/docs/$'
-    | '/{-$locale}/about'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
     | '/{-$locale}/custom-sup-development'
@@ -1181,6 +1180,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/solutions/private-label-sup'
     | '/{-$locale}/solutions/resort-sup'
     | '/{-$locale}/solutions/school-sup'
+    | '/{-$locale}/about'
     | '/{-$locale}/admin'
     | '/{-$locale}/app'
     | '/{-$locale}/knowledge'
@@ -1244,7 +1244,6 @@ export interface FileRouteTypes {
     | '/api/search'
     | '/docs-md/$'
     | '/docs/$'
-    | '/{-$locale}/about'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
     | '/{-$locale}/custom-sup-development'
@@ -1285,6 +1284,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/solutions/private-label-sup'
     | '/{-$locale}/solutions/resort-sup'
     | '/{-$locale}/solutions/school-sup'
+    | '/{-$locale}/about/'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
     | '/{-$locale}/knowledge/'
@@ -1831,13 +1831,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125ChangelogRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
-    '/{-$locale}/about': {
-      id: '/{-$locale}/about'
-      path: '/about'
-      fullPath: '/{-$locale}/about'
-      preLoaderRoute: typeof Char123LocaleChar125AboutRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
     '/docs/$': {
       id: '/docs/$'
       path: '/docs/$'
@@ -1914,6 +1907,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/{-$locale}/admin/'
       preLoaderRoute: typeof Char123LocaleChar125AdminIndexRouteImport
       parentRoute: typeof Char123LocaleChar125AdminRouteRoute
+    }
+    '/{-$locale}/about/': {
+      id: '/{-$locale}/about/'
+      path: '/about'
+      fullPath: '/{-$locale}/about/'
+      preLoaderRoute: typeof Char123LocaleChar125AboutIndexRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
     }
     '/{-$locale}/solutions/school-sup': {
       id: '/{-$locale}/solutions/school-sup'
@@ -2008,10 +2008,10 @@ declare module '@tanstack/react-router' {
     }
     '/{-$locale}/about/supsfactory-entity': {
       id: '/{-$locale}/about/supsfactory-entity'
-      path: '/supsfactory-entity'
+      path: '/about/supsfactory-entity'
       fullPath: '/{-$locale}/about/supsfactory-entity'
       preLoaderRoute: typeof Char123LocaleChar125AboutSupsfactoryEntityRouteImport
-      parentRoute: typeof Char123LocaleChar125AboutRoute
+      parentRoute: typeof Char123LocaleChar125RouteRoute
     }
     '/{-$locale}/(auth)/verify-email': {
       id: '/{-$locale}/(auth)/verify-email'
@@ -2097,21 +2097,6 @@ const Char123LocaleChar125AdminRouteRouteWithChildren =
     Char123LocaleChar125AdminRouteRouteChildren,
   )
 
-interface Char123LocaleChar125AboutRouteChildren {
-  Char123LocaleChar125AboutSupsfactoryEntityRoute: typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
-}
-
-const Char123LocaleChar125AboutRouteChildren: Char123LocaleChar125AboutRouteChildren =
-  {
-    Char123LocaleChar125AboutSupsfactoryEntityRoute:
-      Char123LocaleChar125AboutSupsfactoryEntityRoute,
-  }
-
-const Char123LocaleChar125AboutRouteWithChildren =
-  Char123LocaleChar125AboutRoute._addFileChildren(
-    Char123LocaleChar125AboutRouteChildren,
-  )
-
 interface Char123LocaleChar125SolutionsRouteChildren {
   Char123LocaleChar125SolutionsClubSupRoute: typeof Char123LocaleChar125SolutionsClubSupRoute
   Char123LocaleChar125SolutionsCustomSupRoute: typeof Char123LocaleChar125SolutionsCustomSupRoute
@@ -2144,7 +2129,6 @@ const Char123LocaleChar125SolutionsRouteWithChildren =
 
 interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125AdminRouteRoute: typeof Char123LocaleChar125AdminRouteRouteWithChildren
-  Char123LocaleChar125AboutRoute: typeof Char123LocaleChar125AboutRouteWithChildren
   Char123LocaleChar125ChangelogRoute: typeof Char123LocaleChar125ChangelogRoute
   Char123LocaleChar125ContactRoute: typeof Char123LocaleChar125ContactRoute
   Char123LocaleChar125CustomSupDevelopmentRoute: typeof Char123LocaleChar125CustomSupDevelopmentRoute
@@ -2168,10 +2152,12 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125authRegisterRoute: typeof Char123LocaleChar125authRegisterRoute
   Char123LocaleChar125authResetPasswordRoute: typeof Char123LocaleChar125authResetPasswordRoute
   Char123LocaleChar125authVerifyEmailRoute: typeof Char123LocaleChar125authVerifyEmailRoute
+  Char123LocaleChar125AboutSupsfactoryEntityRoute: typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
   Char123LocaleChar125AppAccountRoute: typeof Char123LocaleChar125AppAccountRoute
   Char123LocaleChar125AppFeedbackRoute: typeof Char123LocaleChar125AppFeedbackRoute
   Char123LocaleChar125KnowledgeSlugRoute: typeof Char123LocaleChar125KnowledgeSlugRoute
   Char123LocaleChar125ProjectsSlugRoute: typeof Char123LocaleChar125ProjectsSlugRoute
+  Char123LocaleChar125AboutIndexRoute: typeof Char123LocaleChar125AboutIndexRoute
   Char123LocaleChar125AppIndexRoute: typeof Char123LocaleChar125AppIndexRoute
   Char123LocaleChar125KnowledgeIndexRoute: typeof Char123LocaleChar125KnowledgeIndexRoute
   Char123LocaleChar125ProjectsIndexRoute: typeof Char123LocaleChar125ProjectsIndexRoute
@@ -2181,7 +2167,6 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
   {
     Char123LocaleChar125AdminRouteRoute:
       Char123LocaleChar125AdminRouteRouteWithChildren,
-    Char123LocaleChar125AboutRoute: Char123LocaleChar125AboutRouteWithChildren,
     Char123LocaleChar125ChangelogRoute: Char123LocaleChar125ChangelogRoute,
     Char123LocaleChar125ContactRoute: Char123LocaleChar125ContactRoute,
     Char123LocaleChar125CustomSupDevelopmentRoute:
@@ -2215,12 +2200,15 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
       Char123LocaleChar125authResetPasswordRoute,
     Char123LocaleChar125authVerifyEmailRoute:
       Char123LocaleChar125authVerifyEmailRoute,
+    Char123LocaleChar125AboutSupsfactoryEntityRoute:
+      Char123LocaleChar125AboutSupsfactoryEntityRoute,
     Char123LocaleChar125AppAccountRoute: Char123LocaleChar125AppAccountRoute,
     Char123LocaleChar125AppFeedbackRoute: Char123LocaleChar125AppFeedbackRoute,
     Char123LocaleChar125KnowledgeSlugRoute:
       Char123LocaleChar125KnowledgeSlugRoute,
     Char123LocaleChar125ProjectsSlugRoute:
       Char123LocaleChar125ProjectsSlugRoute,
+    Char123LocaleChar125AboutIndexRoute: Char123LocaleChar125AboutIndexRoute,
     Char123LocaleChar125AppIndexRoute: Char123LocaleChar125AppIndexRoute,
     Char123LocaleChar125KnowledgeIndexRoute:
       Char123LocaleChar125KnowledgeIndexRoute,

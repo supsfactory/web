@@ -117,13 +117,17 @@ export const zh: Dict = {
   },
   sup: {
     nav: {
-      solutions: '定制解决方案', products: '产品', whoWeServe: '客户群体',
+      solutions: '定制 SUP 方案', products: '产品', whoWeServe: '服务对象',
       howItWorks: '合作流程', gallery: '项目案例', about: '关于我们',
       contact: '联系我们', cta: '开始你的项目', login: '登录', app: '应用',
       factory: '工厂', technology: '技术', academy: '学院', news: '新闻',
-      process: '合作流程', customization: '定制能力', projects: '项目案例',
-      aboutAfarer: '关于 Afarer', tagline: '定制 SUP 产品解决方案',
-      poweredBy: 'Powered by Afarer Manufacturing',
+      process: '流程', customization: '定制', projects: '项目案例',
+      aboutAfarer: '关于 Afarer', tagline: '定制 SUP 产品方案',
+      poweredBy: 'Afarer 制造支持',
+    },
+    breadcrumb: {
+      home: '首页', solutions: '方案', projects: '项目案例',
+      knowledge: '知识中心', company: '公司',
     },
     footer: {
       tagline: '定制 SUP 产品开发与制造伙伴——从产品想法到成品交付。',

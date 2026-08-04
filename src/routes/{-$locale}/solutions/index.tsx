@@ -10,6 +10,7 @@ import { solutionPages, solutionPath } from '@/features/site/solution-pages'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { SolutionsSection } from '@/components/marketing/solutions-section'
 import { CtaBand } from '@/components/marketing/cta'
+import { JsonLd, itemListLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 
 export const Route = createFileRoute('/{-$locale}/solutions/')({
   loader: async () => ({ origin: await getOrigin() }),
@@ -65,6 +66,17 @@ function SolutionsIndex() {
         </div>
       </section>
       <CtaBand />
+      <JsonLd
+        data={siteBreadcrumbLd([
+          { name: t('sup.breadcrumb.home'), path: '/' },
+          { name: t('sup.breadcrumb.solutions'), path: '/solutions' },
+        ])}
+      />
+      <JsonLd
+        data={itemListLd(
+          pages.map((p) => ({ name: p.h1, path: solutionPath(p.slug) })),
+        )}
+      />
     </>
   )
 }

@@ -5,17 +5,21 @@ import { getOrigin } from '@/features/seo/seo.fns'
 import { useTranslation } from '@/features/i18n/provider'
 import { knowledge, knowledgeMeta } from '@/features/site/knowledge'
 import { PageHero } from '@/components/marketing/section-head'
+import { JsonLd, itemListLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
+import { MarketingShell } from '@/components/marketing/shell'
+import type { Locale } from '@/features/i18n/locale'
 
 export const Route = createFileRoute('/{-$locale}/knowledge/')({
   loader: async () => ({ origin: await getOrigin() }),
-  head: ({ loaderData }) => {
+  head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
+    const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
     const { meta, links } = localeHead({
       origin,
-      locale: 'en',
+      locale,
       path: '/knowledge',
-      title: knowledgeMeta.en.metaTitle,
-      description: knowledgeMeta.en.metaDescription,
+      title: knowledgeMeta[locale].metaTitle,
+      description: knowledgeMeta[locale].metaDescription,
     })
     return { meta, links }
   },
@@ -28,7 +32,7 @@ function KnowledgeIndex() {
   const meta = knowledgeMeta[locale]
 
   return (
-    <>
+    <MarketingShell>
       <PageHero kicker={t('sup.knowledge.hubKicker')} title={meta.h1}>
         <div className="mt-7 flex max-w-2xl flex-col gap-4">
           <p className="fg-dim text-[15.5px] leading-relaxed">{t('sup.knowledge.hubIntro')}</p>
@@ -58,6 +62,16 @@ function KnowledgeIndex() {
           ))}
         </div>
       </section>
-    </>
+
+      <JsonLd
+        data={siteBreadcrumbLd([
+          { name: t('sup.breadcrumb.home'), path: '/' },
+          { name: t('sup.breadcrumb.knowledge'), path: '/knowledge' },
+        ])}
+      />
+      <JsonLd
+        data={itemListLd(articles.map((a) => ({ name: a.h1, path: `/knowledge/${a.slug}` })))}
+      />
+    </MarketingShell>
   )
 }

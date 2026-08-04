@@ -3,7 +3,8 @@ import { ArrowRight, Building2, CheckCircle2, ClipboardList, Package } from 'luc
 import type { ProjectData } from '@/features/site/projects'
 import { useTranslation } from '@/features/i18n/provider'
 import { PageHero, SectionHead } from './section-head'
-import { JsonLd, projectLd } from '@/features/seo/jsonld'
+import { JsonLd, projectLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
+import { MarketingShell } from './shell'
 
 /**
  * Case-study page renderer for /projects/{slug}: industry → requirement →
@@ -13,7 +14,7 @@ export function ProjectPage({ page }: { page: ProjectData }) {
   const { t } = useTranslation()
 
   return (
-    <>
+    <MarketingShell>
       <PageHero kicker={page.kicker} title={page.h1}>
         <div className="mt-7 flex max-w-2xl flex-col gap-4">
           {page.intro.map((p, i) => (
@@ -109,6 +110,13 @@ export function ProjectPage({ page }: { page: ProjectData }) {
           outcome: page.outcome,
         })}
       />
+      <JsonLd
+        data={siteBreadcrumbLd([
+          { name: t('sup.breadcrumb.home'), path: '/' },
+          { name: t('sup.breadcrumb.projects'), path: '/projects' },
+          { name: page.h1, path: `/projects/${page.slug}` },
+        ])}
+      />
 
       {/* CTA */}
       <section className="ocean-grad">
@@ -130,6 +138,6 @@ export function ProjectPage({ page }: { page: ProjectData }) {
         <span className="text-fg-3">·</span>
         <Link to="/{-$locale}/contact" className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.contact')}</Link>
       </nav>
-    </>
+    </MarketingShell>
   )
 }

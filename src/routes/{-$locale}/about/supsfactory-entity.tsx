@@ -8,6 +8,8 @@ import { getSolutionPage, solutionPath } from '@/features/site/solution-pages'
 import { projects } from '@/features/site/projects'
 import { knowledge } from '@/features/site/knowledge'
 import { PageHero } from '@/components/marketing/section-head'
+import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
+import { MarketingShell } from '@/components/marketing/shell'
 
 const FACTS: Record<Locale, { label: string; value: string }[]> = {
   en: [
@@ -77,7 +79,7 @@ function EntityPage() {
   const services = ['custom-sup', 'private-label', 'resort', 'club', 'school']
 
   return (
-    <>
+    <MarketingShell>
       <PageHero kicker={c.kicker} title={c.title}>
         <div className="mt-7 flex max-w-2xl flex-col gap-4">
           <p className="fg-dim text-[15.5px] leading-relaxed">{c.intro1}</p>
@@ -186,6 +188,13 @@ function EntityPage() {
           </Link>
         </div>
       </section>
-    </>
+
+      <JsonLd
+        data={siteBreadcrumbLd([
+          { name: t('sup.breadcrumb.home'), path: '/' },
+          { name: t('sup.breadcrumb.company'), path: '/about/supsfactory-entity' },
+        ])}
+      />
+    </MarketingShell>
   )
 }

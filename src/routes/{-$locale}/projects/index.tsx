@@ -5,17 +5,21 @@ import { getOrigin } from '@/features/seo/seo.fns'
 import { useTranslation } from '@/features/i18n/provider'
 import { projects, projectsMeta } from '@/features/site/projects'
 import { PageHero } from '@/components/marketing/section-head'
+import { JsonLd, itemListLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
+import { MarketingShell } from '@/components/marketing/shell'
+import type { Locale } from '@/features/i18n/locale'
 
 export const Route = createFileRoute('/{-$locale}/projects/')({
   loader: async () => ({ origin: await getOrigin() }),
-  head: ({ loaderData }) => {
+  head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
+    const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
     const { meta, links } = localeHead({
       origin,
-      locale: 'en',
+      locale,
       path: '/projects',
-      title: projectsMeta.en.metaTitle,
-      description: projectsMeta.en.metaDescription,
+      title: projectsMeta[locale].metaTitle,
+      description: projectsMeta[locale].metaDescription,
     })
     return { meta, links }
   },
@@ -28,7 +32,7 @@ function ProjectsIndex() {
   const meta = projectsMeta[locale]
 
   return (
-    <>
+    <MarketingShell>
       <PageHero kicker={t('sup.projects.hubKicker')} title={meta.h1}>
         <div className="mt-7 flex max-w-2xl flex-col gap-4">
           <p className="fg-dim text-[15.5px] leading-relaxed">{t('sup.projects.hubIntro')}</p>
@@ -69,6 +73,16 @@ function ProjectsIndex() {
           </Link>
         </div>
       </section>
-    </>
+
+      <JsonLd
+        data={siteBreadcrumbLd([
+          { name: t('sup.breadcrumb.home'), path: '/' },
+          { name: t('sup.breadcrumb.projects'), path: '/projects' },
+        ])}
+      />
+      <JsonLd
+        data={itemListLd(items.map((p) => ({ name: p.h1, path: `/projects/${p.slug}` })))}
+      />
+    </MarketingShell>
   )
 }

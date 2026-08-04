@@ -134,6 +134,10 @@ export const en = {
       aboutAfarer: 'About Afarer', tagline: 'Custom SUP Product Solutions',
       poweredBy: 'Powered by Afarer Manufacturing',
     },
+    breadcrumb: {
+      home: 'Home', solutions: 'Solutions', projects: 'Projects',
+      knowledge: 'Knowledge Center', company: 'Company',
+    },
     footer: {
       tagline: 'Custom SUP product development & manufacturing partner — from product idea to finished delivery.',
       colSolutions: 'Solutions', colServe: 'Who We Serve', colCompany: 'Company', colLegal: 'Legal',

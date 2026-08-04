@@ -12,7 +12,7 @@ import { Footer } from '@/components/marketing/footer'
 
 const rootRoute = getRouteApi('__root__')
 
-export const Route = createFileRoute('/{-$locale}/about')({
+export const Route = createFileRoute('/{-$locale}/about/')({
   loader: async () => ({ origin: await getOrigin() }),
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''

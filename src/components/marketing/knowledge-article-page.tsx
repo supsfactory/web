@@ -1,19 +1,24 @@
 import { Link } from '@tanstack/react-router'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, BookOpen } from 'lucide-react'
 import type { KnowledgeArticle } from '@/features/site/knowledge'
+import { knowledge } from '@/features/site/knowledge'
 import { useTranslation } from '@/features/i18n/provider'
 import { PageHero } from './section-head'
-import { JsonLd, articleLd } from '@/features/seo/jsonld'
+import { JsonLd, articleLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
+import { MarketingShell } from './shell'
 
 /**
- * Article renderer for /knowledge/{slug}: intro + numbered sections + CTA,
- * with Article JSON-LD for question-style informational queries.
+ * Article renderer for /knowledge/{slug}: intro + numbered sections + related
+ * guide + CTA, with Article JSON-LD for question-style informational queries.
  */
 export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle }) {
-  const { t } = useTranslation()
+  const { locale, t } = useTranslation()
+  const articles = knowledge[locale]
+  const index = articles.findIndex((a) => a.slug === article.slug)
+  const next = index >= 0 && index < articles.length - 1 ? articles[index + 1] : undefined
 
   return (
-    <>
+    <MarketingShell>
       <PageHero kicker={article.kicker} title={article.h1}>
         <p className="fg-dim mx-auto mt-6 max-w-2xl text-[15.5px] leading-relaxed">{article.intro}</p>
       </PageHero>
@@ -47,6 +52,31 @@ export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle })
         </div>
       </article>
 
+      {/* related guide */}
+      {next && (
+        <section className="border-t border-border">
+          <div className="mx-auto max-w-3xl px-5 py-12 md:px-7">
+            <p className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
+              <BookOpen size={14} className="text-primary" /> {t('sup.knowledge.nextKicker')}
+            </p>
+            <Link
+              to="/{-$locale}/knowledge/$slug"
+              params={{ slug: next.slug }}
+              className="group mt-3 block rounded-2xl border border-border bg-bg-alt p-6 transition-transform hover:-translate-y-0.5"
+            >
+              <h2 className="font-display text-lg font-bold leading-snug group-hover:text-primary">{next.h1}</h2>
+              <p className="mt-2 text-[14px] leading-relaxed text-fg-2">{next.intro}</p>
+              <span className="mt-3 inline-flex items-center gap-1.5 text-[14px] font-bold text-primary group-hover:underline">
+                {t('sup.knowledge.readArticle')} <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
+              </span>
+            </Link>
+            <Link to="/{-$locale}/knowledge" className="mt-4 inline-block text-[13.5px] font-medium text-primary hover:underline">
+              {t('sup.breadcrumb.knowledge')} →
+            </Link>
+          </div>
+        </section>
+      )}
+
       <JsonLd
         data={articleLd({
           title: article.h1,
@@ -54,6 +84,13 @@ export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle })
           path: `/knowledge/${article.slug}`,
         })}
       />
-    </>
+      <JsonLd
+        data={siteBreadcrumbLd([
+          { name: t('sup.breadcrumb.home'), path: '/' },
+          { name: t('sup.breadcrumb.knowledge'), path: '/knowledge' },
+          { name: article.h1, path: `/knowledge/${article.slug}` },
+        ])}
+      />
+    </MarketingShell>
   )
 }

@@ -46,6 +46,25 @@ export function breadcrumbLd(origin: string, crumbs: { name: string; path: strin
   }
 }
 
+/** Breadcrumbs for SUPsfactory's own pages (canonical origin). Home is prepended by callers. */
+export function siteBreadcrumbLd(crumbs: { name: string; path: string }[]): Record<string, unknown> {
+  return breadcrumbLd(SITE_ORIGIN, crumbs)
+}
+
+/** ItemList for collection hubs (solutions, projects, knowledge) — GEO shares lists well. */
+export function itemListLd(items: { name: string; path: string }[]): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: items.map((it, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: it.name,
+      url: `${SITE_ORIGIN}${it.path}`,
+    })),
+  }
+}
+
 /** Site-wide Organization + WebSite pair, emitted once on every page. */
 export function siteLd(): Record<string, unknown>[] {
   return [

@@ -3,7 +3,7 @@ import { ArrowRight, CheckCircle2, Target, AlertCircle } from 'lucide-react'
 import type { SolutionPageData } from '@/features/site/solution-pages'
 import { useTranslation } from '@/features/i18n/provider'
 import { PageHero, SectionHead } from './section-head'
-import { JsonLd, faqLd, serviceLd } from '@/features/seo/jsonld'
+import { JsonLd, faqLd, serviceLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { solutionPath } from '@/features/site/solution-pages'
 
 /**
@@ -131,6 +131,13 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
           description: page.metaDescription,
           path,
         })}
+      />
+      <JsonLd
+        data={siteBreadcrumbLd([
+          { name: t('sup.breadcrumb.home'), path: '/' },
+          { name: t('sup.breadcrumb.solutions'), path: '/solutions' },
+          { name: page.h1, path },
+        ])}
       />
 
       {/* CTA + related paths */}

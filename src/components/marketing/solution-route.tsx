@@ -4,6 +4,7 @@ import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { getSolutionPage, solutionPath } from '@/features/site/solution-pages'
 import { SolutionPage } from './solution-page'
+import { MarketingShell } from './shell'
 
 /**
  * Shared route factory for the Solutions system pages. The canonical URL of a
@@ -31,7 +32,11 @@ export function solutionRoute(slug: string) {
       const { locale } = useTranslation()
       const page = getSolutionPage(locale, slug)
       if (!page) return null
-      return <SolutionPage page={page} />
+      return (
+        <MarketingShell>
+          <SolutionPage page={page} />
+        </MarketingShell>
+      )
     },
   }
 }
