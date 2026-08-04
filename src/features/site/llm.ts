@@ -1,5 +1,4 @@
 import { products } from './content'
-import { landings } from './landings'
 import { solutionPages } from './solution-pages'
 import {
   getAfarerPages,
@@ -54,29 +53,6 @@ export function llmProductsFull(): string {
     ].join('\n'),
   )
   return ['', '# Products', '', blocks.join('\n\n'), ''].join('\n')
-}
-
-/** Index entries for the SEO landing pages (in /llms.txt). */
-export function llmLandingsIndex(): string {
-  const lines = landings.en.map((l) => `- [${l.metaTitle}](${l.slug}): ${flat(l.metaDescription)}`)
-  return ['', '## Solutions', ...lines, ''].join('\n')
-}
-
-/** Full text for the SEO landing pages incl. their FAQ Q&A (in /llms-full.txt). */
-export function llmLandingsFull(): string {
-  const blocks = landings.en.map((l) =>
-    [
-      `# ${l.h1}`,
-      '',
-      ...l.intro.map(flat),
-      '',
-      ...l.bullets.map((b) => `- ${b}`),
-      '',
-      '## FAQ',
-      ...l.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
-    ].join('\n'),
-  )
-  return ['', ...blocks].join('\n\n')
 }
 
 /** Index entries for the Solutions system pages (in /llms.txt). */

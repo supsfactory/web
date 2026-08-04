@@ -1,44 +1,15 @@
-import { createFileRoute, getRouteApi } from '@tanstack/react-router'
-import { localeHead } from '@/features/seo/seo'
-import { getOrigin } from '@/features/seo/seo.fns'
-import type { Locale } from '@/features/i18n/locale'
-import { useTranslation } from '@/features/i18n/provider'
-import { getLanding } from '@/features/site/landings'
-import { SiteNav } from '@/components/marketing/site-nav'
-import { LandingPage } from '@/components/marketing/landing-page'
-import { Footer } from '@/components/marketing/footer'
+import { createFileRoute, redirect } from '@tanstack/react-router'
+import { localizePath, type Locale } from '@/features/i18n/locale'
 
-const rootRoute = getRouteApi('__root__')
-
+/**
+ * Legacy landing page — superseded by the Solutions system
+ * (/solutions/custom-sup: custom manufacturing with low-MOQ first runs).
+ * Permanent 301 so indexed URLs and any inbound links consolidate.
+ */
 export const Route = createFileRoute('/{-$locale}/sup-startup-brands')({
-  loader: async () => ({ origin: await getOrigin() }),
-  head: ({ loaderData, params }) => {
-    const origin = loaderData?.origin ?? ''
+  loader: ({ params }) => {
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
-    const landing = getLanding(locale, 'sup-startup-brands')
-    const { meta, links } = localeHead({
-      origin,
-      locale,
-      path: '/sup-startup-brands',
-      title: landing?.metaTitle ?? 'Start a SUP Brand',
-      description: landing?.metaDescription ?? '',
-    })
-    return { meta, links }
+    throw redirect({ href: localizePath(locale, '/solutions/custom-sup'), statusCode: 301 })
   },
-  component: SupStartupBrands,
+  component: () => null,
 })
-
-function SupStartupBrands() {
-  const { theme, user } = rootRoute.useLoaderData()
-  const { locale } = useTranslation()
-  const landing = getLanding(locale, 'sup-startup-brands')
-  if (!landing) return null
-
-  return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={!!user} />
-      <LandingPage landing={landing} />
-      <Footer theme={theme} />
-    </div>
-  )
-}
