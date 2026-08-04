@@ -138,6 +138,9 @@ features2_other_ways:
     - title: Headquarters
       description: Economic Development Zone, Laixi, Qingdao, China, 266600
       icon: tabler:map-pin
+    - title: Company
+      description: 'Afarer —SUP brand of Qingdao Vatrad Group Co., Ltd. (OEM support team)'
+      icon: tabler:building
 map:
   title: Our Location
   subtitle: Visit us at our headquarters

@@ -147,6 +147,7 @@ const EXTRA_PATHS: Record<string, string> = {
   '/randdcenter/rf-welding': 'rf-welding',
   // ported afarer solution / OEM pages (path → yaml slug)
   '/oem-odm': 'oem-odm-manufacturer',
+  '/oem-odm-manufacturer': 'oem-odm-manufacturer',
   '/oem-paddle': 'oem-paddle',
   '/solutions/resorts-hotels': 'solutions-resorts-hotels',
   '/solutions/paddle-clubs': 'solutions-paddle-clubs',

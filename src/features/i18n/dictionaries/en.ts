@@ -144,6 +144,7 @@ export const en = {
       guides: 'Industry Guides', evidence: 'Case Studies',
       terms: 'Terms', privacy: 'Privacy',
       rights: 'Custom SUP manufacturing · Low MOQ from 50pcs.',
+      owner: 'Afarer — SUP brand of Qingdao Vatrad Group Co., Ltd.',
     },
     contact: {
       title: 'Start Your Custom Project',

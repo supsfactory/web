@@ -158,7 +158,7 @@ function articleLd(origin: string, title: string, description: string): Record<s
     headline: title,
     description,
     url: `${origin}/technology/${title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
-    publisher: { '@type': 'Organization', name: 'SUPsfactory' },
+    publisher: { '@type': 'Organization', name: 'Afarer' },
   }
 }
 

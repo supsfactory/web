@@ -28,6 +28,7 @@ import { Route as QualityTestingRouteImport } from './routes/quality-testing'
 import { Route as QualityRouteImport } from './routes/quality'
 import { Route as PartnersRouteImport } from './routes/partners'
 import { Route as OemPaddleRouteImport } from './routes/oem-paddle'
+import { Route as OemOdmManufacturerRouteImport } from './routes/oem-odm-manufacturer'
 import { Route as OemOdmRouteImport } from './routes/oem-odm'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as MediaRouteImport } from './routes/media'
@@ -192,6 +193,11 @@ const PartnersRoute = PartnersRouteImport.update({
 const OemPaddleRoute = OemPaddleRouteImport.update({
   id: '/oem-paddle',
   path: '/oem-paddle',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OemOdmManufacturerRoute = OemOdmManufacturerRouteImport.update({
+  id: '/oem-odm-manufacturer',
+  path: '/oem-odm-manufacturer',
   getParentRoute: () => rootRouteImport,
 } as any)
 const OemOdmRoute = OemOdmRouteImport.update({
@@ -611,6 +617,7 @@ export interface FileRoutesByFullPath {
   '/media': typeof MediaRoute
   '/news': typeof NewsRoute
   '/oem-odm': typeof OemOdmRoute
+  '/oem-odm-manufacturer': typeof OemOdmManufacturerRoute
   '/oem-paddle': typeof OemPaddleRoute
   '/partners': typeof PartnersRoute
   '/quality': typeof QualityRoute
@@ -701,6 +708,7 @@ export interface FileRoutesByTo {
   '/media': typeof MediaRoute
   '/news': typeof NewsRoute
   '/oem-odm': typeof OemOdmRoute
+  '/oem-odm-manufacturer': typeof OemOdmManufacturerRoute
   '/oem-paddle': typeof OemPaddleRoute
   '/partners': typeof PartnersRoute
   '/quality': typeof QualityRoute
@@ -792,6 +800,7 @@ export interface FileRoutesById {
   '/media': typeof MediaRoute
   '/news': typeof NewsRoute
   '/oem-odm': typeof OemOdmRoute
+  '/oem-odm-manufacturer': typeof OemOdmManufacturerRoute
   '/oem-paddle': typeof OemPaddleRoute
   '/partners': typeof PartnersRoute
   '/quality': typeof QualityRoute
@@ -885,6 +894,7 @@ export interface FileRouteTypes {
     | '/media'
     | '/news'
     | '/oem-odm'
+    | '/oem-odm-manufacturer'
     | '/oem-paddle'
     | '/partners'
     | '/quality'
@@ -975,6 +985,7 @@ export interface FileRouteTypes {
     | '/media'
     | '/news'
     | '/oem-odm'
+    | '/oem-odm-manufacturer'
     | '/oem-paddle'
     | '/partners'
     | '/quality'
@@ -1065,6 +1076,7 @@ export interface FileRouteTypes {
     | '/media'
     | '/news'
     | '/oem-odm'
+    | '/oem-odm-manufacturer'
     | '/oem-paddle'
     | '/partners'
     | '/quality'
@@ -1157,6 +1169,7 @@ export interface RootRouteChildren {
   MediaRoute: typeof MediaRoute
   NewsRoute: typeof NewsRoute
   OemOdmRoute: typeof OemOdmRoute
+  OemOdmManufacturerRoute: typeof OemOdmManufacturerRoute
   OemPaddleRoute: typeof OemPaddleRoute
   PartnersRoute: typeof PartnersRoute
   QualityRoute: typeof QualityRoute
@@ -1319,6 +1332,13 @@ declare module '@tanstack/react-router' {
       path: '/oem-paddle'
       fullPath: '/oem-paddle'
       preLoaderRoute: typeof OemPaddleRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oem-odm-manufacturer': {
+      id: '/oem-odm-manufacturer'
+      path: '/oem-odm-manufacturer'
+      fullPath: '/oem-odm-manufacturer'
+      preLoaderRoute: typeof OemOdmManufacturerRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/oem-odm': {
@@ -1945,6 +1965,7 @@ const rootRouteChildren: RootRouteChildren = {
   MediaRoute: MediaRoute,
   NewsRoute: NewsRoute,
   OemOdmRoute: OemOdmRoute,
+  OemOdmManufacturerRoute: OemOdmManufacturerRoute,
   OemPaddleRoute: OemPaddleRoute,
   PartnersRoute: PartnersRoute,
   QualityRoute: QualityRoute,

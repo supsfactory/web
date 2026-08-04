@@ -135,6 +135,7 @@ export const zh: Dict = {
       guides: '行业指南', evidence: '案例研究',
       terms: '服务条款', privacy: '隐私政策',
       rights: '定制 SUP 制造 · 最低起订量 50 片。',
+      owner: 'Afarer — Qingdao Vatrad Group Co., Ltd. 旗下 SUP 品牌',
     },
     contact: {
       title: '开始你的定制项目',

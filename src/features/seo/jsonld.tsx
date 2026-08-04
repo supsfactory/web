@@ -53,11 +53,40 @@ export function siteLd(): Record<string, unknown>[] {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       '@id': `${SITE_ORIGIN}/#organization`,
-      name: 'SUPsfactory',
+      name: 'Afarer',
+      alternateName: 'SUPsfactory',
+      legalName: 'Qingdao Vatrad Group Co., Ltd.',
       url: `${SITE_ORIGIN}/`,
       logo: `${SITE_ORIGIN}/logo192.png`,
-      description: 'Custom SUP manufacturing partner — OEM/ODM inflatable paddle boards, private label and low MOQ production for startups, clubs, resorts and businesses.',
+      description:
+        'Afarer is the OEM/ODM support team behind the SUPs brand of Qingdao Vatrad Group Co., Ltd. — custom inflatable SUP manufacturing, private label and low MOQ production for startups, clubs, resorts and businesses.',
       foundingLocation: { '@type': 'Place', name: 'Qingdao, China' },
+      foundingDate: '2012',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Economic Development Zone, Laixi',
+        addressLocality: 'Qingdao',
+        addressRegion: 'Shandong',
+        postalCode: '266600',
+        addressCountry: 'CN',
+      },
+      contactPoint: [
+        {
+          '@type': 'ContactPoint',
+          telephone: '+86-13305324192',
+          email: 'info@supsfactory.com',
+          contactType: 'sales',
+          availableLanguage: ['English', 'Chinese', 'French', 'Spanish', 'Arabic', 'German'],
+        },
+        {
+          '@type': 'ContactPoint',
+          telephone: '+86-13305324192',
+          email: 'info@supsfactory.com',
+          contactType: 'customer service',
+          availableLanguage: ['English', 'Chinese'],
+        },
+      ],
+      brand: { '@type': 'Brand', name: 'SUPsfactory' },
     },
     {
       '@context': 'https://schema.org',
@@ -93,7 +122,7 @@ export function newsArticleLd(input: {
       ? { dateModified: input.dateModified }
       : {}),
     ...(input.author ? { author: { '@type': 'Person', name: input.author } } : {}),
-    publisher: { '@type': 'Organization', name: 'SUPsfactory' },
+    publisher: { '@type': 'Organization', name: 'Afarer' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': input.url },
     inLanguage: 'en',
   }

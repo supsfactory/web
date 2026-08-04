@@ -70,9 +70,12 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
       </div>
 
       <div className="mx-auto mt-10 flex max-w-6xl flex-col items-start justify-between gap-4 border-t border-border pt-5 sm:flex-row sm:items-center">
-        <p className="text-[13px] text-fg-3">
-          &copy; {year} {t('common.appName')}. {t('sup.footer.rights')}
-        </p>
+        <div>
+          <p className="text-[13px] text-fg-3">
+            &copy; {year} {t('common.appName')}. {t('sup.footer.rights')}
+          </p>
+          <p className="mt-1 text-[12.5px] text-fg-3/80">{t('sup.footer.owner')}</p>
+        </div>
         <div className="flex items-center gap-1">
           <ThemeToggle theme={theme} />
           <LangSwitch />

@@ -32,18 +32,36 @@ function Container({ children, narrow = false, className = '' }: { children: Rea
 /* ─────────────────────────── hero ─────────────────────────── */
 
 function HeroWidget({ c }: { c: Record<string, unknown> }) {
+  const actions = ctaActions(c)
   return (
-    <PageHero kicker={str(c.tagline) || ''} title={brandify(str(c.title) || str(c.headline) || '')} sub={brandify(str(c.subtitle) || str(c.sub) || '')} />
+    <PageHero kicker={str(c.tagline) || ''} title={brandify(str(c.title) || str(c.headline) || '')} sub={brandify(str(c.subtitle) || str(c.sub) || '')}>
+      {actions.length > 0 && (
+        <div className="mt-8 flex flex-wrap items-center gap-3">
+          {actions.map((a, i) => (
+            <ActionButton key={i} action={a} />
+          ))}
+        </div>
+      )}
+    </PageHero>
   )
 }
 
 function HeroTextWidget({ c }: { c: Record<string, unknown> }) {
+  const actions = ctaActions(c)
   return (
     <PageHero
       kicker={str(c.tagline) || ''}
       title={brandify(str(c.title) || '')}
       sub={brandify(str(c.subtitle) || str(c.sub) || '')}
-    />
+    >
+      {actions.length > 0 && (
+        <div className="mt-8 flex flex-wrap items-center gap-3">
+          {actions.map((a, i) => (
+            <ActionButton key={i} action={a} />
+          ))}
+        </div>
+      )}
+    </PageHero>
   )
 }
 
@@ -132,21 +150,106 @@ function FaqWidget({ c }: { c: Record<string, unknown> }) {
 
 /* ─────────────────────────── CTA ─────────────────────────── */
 
+/** Normalise legacy/redirected content hrefs to live targets ('' = render as a plain card, no link). */
+const HREF_REMAP: Record<string, string> = {
+  '/resources/download-catalog': '/resources',
+  '/oem-odm-manufacturer': '/oem-odm',
+  '/compare': '/inflatable-vs-hardboard',
+  '/compare/inflatable-vs-hardboard': '/inflatable-vs-hardboard',
+  '/v2/intermediate-techniques': '/learn',
+  '/learn/sup': '/academy',
+  '/learn/drop-stitch-core': '/research/drop-stitch-technology',
+  '/learn/inflatable-technology': '/technology',
+  '/learn/materials': '/research/pvc-vs-hypalon',
+  '/learn/water-safety': '/safety',
+  '/inflatable-sup-maintenance': '/academy',
+  '/guides/paddling-techniques': '/academy',
+  '/guides/sup-for-touring': '/academy',
+  '/guides/sup-maintenance': '/academy',
+  '/guides/sup-size-guide': '/research/sup-thickness-guide',
+  '/use-cases/search-and-rescue': '/safety',
+  // academy skill-path topics without a ported page
+  '/sup-basics': '',
+  '/paddle-techniques': '',
+  '/safety-first': '',
+  '/touring-essentials': '',
+  '/weather-reading': '',
+  '/navigation-basics': '',
+  '/tidal-awareness': '',
+  '/multi-day-trip-planning': '',
+  '/rescue-techniques': '',
+  '/night-paddling': '',
+  '/cleaning-and-care': '',
+  '/storage-guide': '',
+  '/repair-basics': '',
+  '/valve-maintenance': '',
+}
+
+function remapHref(href: string): string {
+  const key = href.startsWith('/') ? href : `/${href}`
+  return key in HREF_REMAP ? HREF_REMAP[key] : href
+}
+
+interface CtaAction {
+  variant: string
+  text: string
+  href: string
+}
+
+function ctaActions(c: Record<string, unknown>): CtaAction[] {
+  return (Array.isArray(c.actions) ? c.actions : [])
+    .filter((a): a is R => a !== null && typeof a === 'object')
+    .map((a) => ({
+      variant: str(a.variant) || 'primary',
+      text: str(a.text) || str(a.label) || '',
+      href: remapHref(str(a.href) || str(a.link) || ''),
+    }))
+    .filter((a) => a.text)
+}
+
+function ActionButton({ action }: { action: CtaAction }) {
+  const primary = action.variant === 'primary'
+  const cls = `inline-flex h-[48px] items-center gap-2 rounded-full px-8 text-[15px] font-bold transition-transform hover:-translate-y-0.5 ${
+    primary ? 'sun-grad shadow-[0_14px_34px_-10px_rgba(255,138,61,0.8)]' : 'border border-white/30 bg-white/10 text-white'
+  }`
+  const inner = (
+    <>
+      {action.text} {primary && <ArrowRight size={17} />}
+    </>
+  )
+  if (!action.href) return <Link to="/{-$locale}/contact" className={cls}>{inner}</Link>
+  if (action.href.startsWith('http') || action.href.includes('?') || action.href.startsWith('#')) return <a href={action.href} className={cls}>{inner}</a>
+  return (
+    <Link to="/$" params={{ _splat: action.href.replace(/^\/+/, '') }} className={cls} style={{ color: 'inherit' }}>
+      {inner}
+    </Link>
+  )
+}
+
 function CtaWidget({ c }: { c: Record<string, unknown> }) {
   const title = brandify(str(c.title) || str(c.heading) || '')
   const body = brandify(str(c.desc) || str(c.description) || str(c.subtitle) || str(c.sub) || '')
   const label = str(c.label) || str(c.button_text) || str(c.button) || 'Contact us'
+  const actions = ctaActions(c)
   return (
     <Container className="pb-20">
       <div className="ocean-grad relative overflow-hidden rounded-[32px] px-6 py-14 text-center shadow-[var(--shadow-lg)] md:px-12">
         <h2 className="mx-auto max-w-2xl font-display text-2xl font-extrabold leading-[1.15] tracking-tight text-white md:text-3xl">{title}</h2>
         {body && <p className="fg-dim mx-auto mt-4 max-w-xl text-[15px] leading-relaxed">{body}</p>}
-        <Link
-          to="/{-$locale}/contact"
-          className="sun-grad mx-auto mt-8 inline-flex h-[48px] items-center gap-2 rounded-full px-8 text-[15px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.8)] transition-transform hover:-translate-y-0.5"
-        >
-          {label} <ArrowRight size={17} />
-        </Link>
+        {actions.length > 0 ? (
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+            {actions.map((a, i) => (
+              <ActionButton key={i} action={a} />
+            ))}
+          </div>
+        ) : (
+          <Link
+            to="/{-$locale}/contact"
+            className="sun-grad mx-auto mt-8 inline-flex h-[48px] items-center gap-2 rounded-full px-8 text-[15px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.8)] transition-transform hover:-translate-y-0.5"
+          >
+            {label} <ArrowRight size={17} />
+          </Link>
+        )}
       </div>
     </Container>
   )
@@ -193,7 +296,7 @@ function FeatureGrid({ c, grid = 'sm:grid-cols-2 lg:grid-cols-3' }: { c: Record<
       <div className={`mt-10 grid gap-5 ${grid}`}>
         {items.map((it, i) => {
           const body = brandify(str(it.desc) || str(it.description) || str(it.body) || str(it.subtitle) || '')
-          const href = str(it.href) || str(it.link) || ''
+          const href = remapHref(str(it.href) || str(it.link) || '')
           const image = assetUrl(str(it.image))
           const icon = str(it.icon)
           const card = (
@@ -629,12 +732,23 @@ function AcademyCategories({ c }: { c: Record<string, unknown> }) {
                 </div>
               </div>
               <div className="mt-4 space-y-2.5">
-                {guides.map((g, j) => (
-                  <Link key={j} to="/$" params={{ _splat: str(g.href || g.slug).replace(/^\/+/, '') }} className="group block rounded-xl border border-border px-4 py-3 transition-colors hover:border-primary/40">
-                    <div className="text-[14px] font-bold">{brandify(str(g.title))}</div>
-                    {str(g.desc) && <p className="mt-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
-                  </Link>
-                ))}
+                {guides.map((g, j) => {
+                  const href = remapHref(str(g.href || g.slug))
+                  const card = (
+                    <div className="rounded-xl border border-border px-4 py-3 transition-colors hover:border-primary/40">
+                      <div className="text-[14px] font-bold">{brandify(str(g.title))}</div>
+                      {str(g.desc) && <p className="mt-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
+                    </div>
+                  )
+                  return href ? (
+                    <Link key={j} to="/$" params={{ _splat: href.replace(/^\/+/, '') }} className="group block rounded-xl border border-border px-4 py-3 transition-colors hover:border-primary/40">
+                      <div className="text-[14px] font-bold">{brandify(str(g.title))}</div>
+                      {str(g.desc) && <p className="mt-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
+                    </Link>
+                  ) : (
+                    <div key={j}>{card}</div>
+                  )
+                })}
               </div>
             </div>
           )
@@ -658,15 +772,29 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
               <h3 className="font-display text-xl font-extrabold">{brandify(str(sec.title) || '')}</h3>
               {str(sec.desc) && <p className="mt-1.5 max-w-3xl text-[13.5px] leading-relaxed text-fg-3">{brandify(str(sec.desc))}</p>}
               <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                {guides.map((g, j) => (
-                  <Link key={j} to="/$" params={{ _splat: str(g.href).replace(/^\/+/, '') }} className="marine-card group flex h-full flex-col p-5">
-                    <h4 className="font-display text-[14px] font-bold">{brandify(str(g.title))}</h4>
-                    {str(g.desc) && <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
-                    <span className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-primary">
-                      Read guide <ArrowRight size={13} />
-                    </span>
-                  </Link>
-                ))}
+                {guides.map((g, j) => {
+                  const href = remapHref(str(g.href))
+                  const card = (
+                    <div className="marine-card flex h-full flex-col p-5">
+                      <h4 className="font-display text-[14px] font-bold">{brandify(str(g.title))}</h4>
+                      {str(g.desc) && <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
+                      <span className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-primary">
+                        Read guide <ArrowRight size={13} />
+                      </span>
+                    </div>
+                  )
+                  return href ? (
+                    <Link key={j} to="/$" params={{ _splat: href.replace(/^\/+/, '') }} className="marine-card group flex h-full flex-col p-5">
+                      <h4 className="font-display text-[14px] font-bold">{brandify(str(g.title))}</h4>
+                      {str(g.desc) && <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
+                      <span className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-primary">
+                        Read guide <ArrowRight size={13} />
+                      </span>
+                    </Link>
+                  ) : (
+                    <div key={j}>{card}</div>
+                  )
+                })}
               </div>
             </div>
           )
@@ -715,7 +843,7 @@ function portedFeatureCards(c: R): CardItem[] {
       const discount = str(it.discount) ? `${str(it.discount)} wholesale` : ''
       const moq = str(it.moq) ? `MOQ ${str(it.moq)}` : ''
       const rawHref = str(it.link) || str(it.href) || ''
-      const href = rawHref === '/resources/download-catalog' ? '/resources' : rawHref
+      const href = remapHref(rawHref)
       return {
         title: str(it.title) || str(it.name) || str(it.tier) || '',
         desc: [
