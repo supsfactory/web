@@ -21,7 +21,7 @@ export const Route = createFileRoute('/{-$locale}/solutions/')({
       origin,
       locale,
       path: '/solutions',
-      title: locale === 'es' ? 'Soluciones SUP personalizadas | Tabla, marca y paquetes completos — SUPsfactory' : 'Custom SUP Solutions | Board, Brand & Complete Packages — SUPsfactory',
+      title: locale === 'es' ? 'Soluciones SUP personalizadas | Tabla, marca y paquetes — SUPsfactory' : 'Custom SUP Solutions | Board, Brand & Complete Packages — SUPsfactory',
       description:
         locale === 'es'
           ? 'Personalización de la tabla, identidad de marca y paquetes de producto completos: cada capa de tu SUP es personalizable. SUPsfactory: formas, gráficos, pisos EVA, accesorios y embalaje a medida.'

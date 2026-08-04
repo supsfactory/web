@@ -21,8 +21,10 @@ test('410 for removed template pages (P0-2)', () => {
   expect(gatePath('/docs')).toEqual({ action: 'gone' })
   expect(gatePath('/docs/features/auth')).toEqual({ action: 'gone' })
   expect(gatePath('/waitlist')).toEqual({ action: 'gone' })
+  expect(gatePath('/es/waitlist')).toEqual({ action: 'gone' })
   expect(gatePath('/zh/waitlist')).toEqual({ action: 'gone' })
   expect(gatePath('/changelog')).toEqual({ action: 'gone' })
+  expect(gatePath('/es/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/zh/changelog')).toEqual({ action: 'gone' })
   // '/docs/' is normalised to '/docs' first (301), then 410 on the next hop
   expect(gatePath('/docs/')).toEqual({ action: 'slash', to: '/docs' })

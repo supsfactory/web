@@ -49,12 +49,11 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
     >
       <nav className="flex h-16 items-center gap-3 px-4 md:px-7">
         <Link to="/{-$locale}" aria-label="SUPsfactory" className="shrink-0">
-          <Logo />
+          <div className="flex flex-col leading-tight">
+            <Logo />
+            <span className="text-[10.5px] font-medium uppercase tracking-[0.12em] text-fg-3">{t('sup.nav.poweredBy')}</span>
+          </div>
         </Link>
-        <div className="hidden shrink-0 flex-col leading-tight xl:block">
-          <span className="text-[12px] font-semibold text-fg-2">{t('sup.nav.tagline')}</span>
-          <span className="text-[10.5px] font-medium uppercase tracking-[0.12em] text-fg-3">{t('sup.nav.poweredBy')}</span>
-        </div>
         <div className="flex-1" />
 
         {/* desktop */}

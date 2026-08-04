@@ -414,7 +414,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'custom-sup',
       navLabel: 'Fabricación de SUP personalizados',
-      metaTitle: 'Desarrollo de productos SUP personalizados | Soluciones de tablas a medida',
+      metaTitle: 'Desarrollo de productos SUP personalizados | Soluciones a medida',
       metaDescription:
         'Desarrolla productos SUP personalizados con Supsfactory. Ofrecemos apoyo de requisitos, personalización, muestras y fabricación para empresas y organizaciones.',
       kicker: 'Fabricante de SUP personalizados',
@@ -560,7 +560,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'resort-sup',
       navLabel: 'Tablas para resorts',
-      metaTitle: 'Equipamiento SUP personalizado para resorts | Tablas de resort con marca',
+      metaTitle: 'Equipamiento SUP para resorts | Tablas de resort con marca',
       metaDescription:
         'Crea equipamiento SUP personalizado para resorts y hoteles con Supsfactory: tablas con marca, accesorios y soporte de producción.',
       kicker: 'Tablas para resorts',
@@ -631,7 +631,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'club-sup',
       navLabel: 'Tablas de equipo personalizadas para clubes',
-      metaTitle: 'Equipamiento SUP personalizado para clubes y equipos | Soporte de fabricación SUP',
+      metaTitle: 'Equipamiento SUP para clubes y equipos | Soporte de fabricación',
       metaDescription:
         'Supsfactory ofrece soluciones de equipamiento SUP personalizado para clubes, equipos y eventos, incluidos arte, especificaciones y soporte de producción.',
       kicker: 'Tablas de equipo personalizadas para clubes',
@@ -702,7 +702,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'school-sup',
       navLabel: 'Programas de SUP escolares',
-      metaTitle: 'Soluciones de equipamiento SUP escolar | Tablas personalizadas para educación',
+      metaTitle: 'Equipamiento SUP escolar | Tablas personalizadas para educación',
       metaDescription:
         'Soluciones de equipamiento SUP seguras y fiables para escuelas, campamentos e instituciones, con soporte de producción personalizada de Supsfactory.',
       kicker: 'Programas de SUP escolares',

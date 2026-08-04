@@ -121,7 +121,7 @@ export const es = {
       contact: 'Contacto', cta: 'Inicia tu proyecto', login: 'Iniciar sesión', app: 'App',
       factory: 'Fábrica', technology: 'Tecnología', academy: 'Academia', news: 'Noticias',
       process: 'Proceso', customization: 'Personalización', projects: 'Proyectos',
-      aboutAfarer: 'Sobre Afarer', tagline: 'Soluciones personalizadas de productos SUP',
+      aboutAfarer: 'Sobre Afarer',
       poweredBy: 'Con la fabricación de Afarer',
     },
     breadcrumb: {

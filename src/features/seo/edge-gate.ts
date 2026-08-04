@@ -16,7 +16,7 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/zh/brand/story': '/about/afarer',
 }
 
-const GONE_PATHS = ['/waitlist', '/changelog', '/zh/waitlist', '/zh/changelog']
+const GONE_PATHS = ['/waitlist', '/changelog', '/es/waitlist', '/es/changelog', '/zh/waitlist', '/zh/changelog']
 
 export type EdgeGate =
   | { action: 'ok' }
