@@ -18,12 +18,10 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
     <>
       <Link to="/{-$locale}/solutions" className={linkCls}>{t('sup.nav.solutions')}</Link>
       <Link to="/{-$locale}/products" className={linkCls}>{t('sup.nav.products')}</Link>
-      <Link to="/$" params={{ _splat: 'factory' }} className={linkCls}>{t('sup.nav.factory')}</Link>
-      <Link to="/$" params={{ _splat: 'technology' }} className={linkCls}>{t('sup.nav.technology')}</Link>
-      <Link to="/$" params={{ _splat: 'academy' }} className={linkCls}>{t('sup.nav.academy')}</Link>
-      <Link to="/$" params={{ _splat: 'news' }} className={linkCls}>{t('sup.nav.news')}</Link>
-      <Link to="/{-$locale}/who-we-serve" className={linkCls}>{t('sup.nav.whoWeServe')}</Link>
-      <Link to="/{-$locale}/how-it-works" className={linkCls}>{t('sup.nav.howItWorks')}</Link>
+      <Link to="/{-$locale}/how-it-works" className={linkCls}>{t('sup.nav.process')}</Link>
+      <Link to="/{-$locale}/customizer" className={linkCls}>{t('sup.nav.customization')}</Link>
+      <Link to="/{-$locale}/gallery" className={linkCls}>{t('sup.nav.projects')}</Link>
+      <Link to="/{-$locale}/about" className={linkCls}>{t('sup.nav.aboutAfarer')}</Link>
       <Link to="/{-$locale}/contact" className={linkCls}>{t('sup.nav.contact')}</Link>
     </>
   )
@@ -53,6 +51,10 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         <Link to="/{-$locale}" aria-label="SUPsfactory" className="shrink-0">
           <Logo />
         </Link>
+        <div className="hidden shrink-0 flex-col leading-tight xl:block">
+          <span className="text-[12px] font-semibold text-fg-2">{t('sup.nav.tagline')}</span>
+          <span className="text-[10.5px] font-medium uppercase tracking-[0.12em] text-fg-3">{t('sup.nav.poweredBy')}</span>
+        </div>
         <div className="flex-1" />
 
         {/* desktop */}

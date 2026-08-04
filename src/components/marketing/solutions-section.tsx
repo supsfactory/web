@@ -3,11 +3,11 @@ import { useTranslation } from '@/features/i18n/provider'
 import { pick, solutions } from '@/features/site/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
-import { SlidersHorizontal, BadgeCheck, Package } from 'lucide-react'
+import { SlidersHorizontal, Palette, Package, Settings2 } from 'lucide-react'
 
-const ICONS = [SlidersHorizontal, BadgeCheck, Package]
+const ICONS = [SlidersHorizontal, Palette, Package, Settings2]
 
-/** Custom SUP Solutions: three customization pillars. Shared by home and /solutions. */
+/** Customization Capability: four modules. Shared by home and /solutions. */
 export function SolutionsSection({ heading }: { heading?: React.ReactNode }) {
   const { locale } = useTranslation()
   const c = pick(solutions, locale)
@@ -15,7 +15,7 @@ export function SolutionsSection({ heading }: { heading?: React.ReactNode }) {
   return (
     <section className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
       {heading !== undefined ? heading : <SectionHead kicker={c.kicker} title={c.title} sub={c.sub} />}
-      <div className="mt-12 grid gap-6 md:grid-cols-3">
+      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {c.pillars.map((p, i) => {
           const Icon = ICONS[i % ICONS.length]
           return (

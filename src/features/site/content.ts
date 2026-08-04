@@ -38,14 +38,14 @@ export interface HeroContent {
 
 export const hero: Localized<HeroContent> = {
   en: {
-    kicker: 'Custom SUP Manufacturing Partner',
-    titlePre: 'Create Your Own',
-    titleAccent: 'SUP Brand',
-    titlePost: 'Without Building Your Own Factory',
-    sub: 'We help startups, clubs, resorts and businesses bring their own custom SUP boards to life — with a low MOQ from 50pcs, professional design support and reliable manufacturing from first sketch to final delivery.',
-    ctaPrimary: 'Start Your Project',
-    ctaSecondary: 'Explore SUP Solutions',
-    chips: ['MOQ from 50pcs', 'Full customization', 'OEM & ODM support'],
+    kicker: 'Custom SUP Product Development & Manufacturing Partner',
+    titlePre: 'Turn Your',
+    titleAccent: 'SUP Ideas',
+    titlePost: 'Into Reality',
+    sub: 'From product concepts and customization requirements to prototypes and production, SUPsfactory helps businesses create SUP products with reliable manufacturing support.',
+    ctaPrimary: 'Discuss Your Project',
+    ctaSecondary: 'Explore Custom Solutions',
+    chips: ['Flexible MOQ', 'Custom Production', 'Powered by Afarer Manufacturing'],
     mockupLabel: 'Signature Platform',
     mockupBrand: "SUP Explorer 11'",
     mockupHint: 'Your graphics · your colors · your packaging',
@@ -53,14 +53,14 @@ export const hero: Localized<HeroContent> = {
     float2: { value: '4–6 wks', label: 'Production time' },
   },
   zh: {
-    kicker: '定制 SUP 制造伙伴',
-    titlePre: '创建你自己的',
-    titleAccent: 'SUP 品牌',
-    titlePost: '无需自建工厂',
-    sub: '我们帮助初创品牌、俱乐部、度假村与企业把定制 SUP 板从想法变成现实——最低 50 片起订、专业设计支持、从第一张草图到成品交付的可靠制造。',
-    ctaPrimary: '开始你的项目',
-    ctaSecondary: '了解定制方案',
-    chips: ['最低 50 片起订', '全面定制', 'OEM & ODM 支持'],
+    kicker: '定制 SUP 产品开发与制造伙伴',
+    titlePre: '把你的',
+    titleAccent: 'SUP 想法',
+    titlePost: '变成现实',
+    sub: '从产品需求、定制方案到样品和批量生产，SUPsfactory 以可靠的制造支持，帮助企业把 SUP 产品想法转化为真实产品。',
+    ctaPrimary: '讨论你的项目',
+    ctaSecondary: '探索定制方案',
+    chips: ['灵活起订量', '定制生产', 'Afarer 制造能力支持'],
     mockupLabel: '旗舰平台',
     mockupBrand: 'SUP 探索者 11\'',
     mockupHint: '你的图案 · 你的配色 · 你的包装',
@@ -69,11 +69,9 @@ export const hero: Localized<HeroContent> = {
   },
 }
 
-/* ─────────────────────────── home: why us ─────────────────────────── */
+/* ─────────────────────────── home: why us (Afarer advantage) ─────────────────────────── */
 
-export interface WhyCard {
-  value: string
-  valueLabel: string
+export interface WhyBullet {
   title: string
   body: string
 }
@@ -82,69 +80,59 @@ export interface WhyContent {
   kicker: string
   title: string
   sub: string
-  cards: WhyCard[]
+  image: string
+  imageCaption: string
+  bullets: WhyBullet[]
 }
 
 export const why: Localized<WhyContent> = {
   en: {
-    kicker: 'Why Brands Choose Us',
-    title: 'A Launch Partner, Not Just a Factory',
-    sub: 'Professional manufacturing capability, designed around helping you build a brand — not just ship boards.',
-    cards: [
+    kicker: 'Powered by Afarer Manufacturing',
+    title: 'Manufacturing Capability Behind Your Project',
+    sub: 'Every project is supported by Afarer’s SUP manufacturing expertise — engineering, production, quality and supply.',
+    image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
+    imageCaption: 'Afarer manufacturing facility, Qingdao, China',
+    bullets: [
       {
-        value: '50+',
-        valueLabel: 'MOQ starting point',
-        title: 'Low MOQ — Start from 50pcs',
-        body: 'Lower your risk and launch faster. Our flexible minimum order lets you test the market before scaling up.',
+        title: 'Engineering Support',
+        body: 'Professional SUP product development capability — specifications, materials and manufacturing feasibility evaluated before production.',
       },
       {
-        value: '100%',
-        valueLabel: 'Custom branding',
-        title: 'Full Customization',
-        body: 'Turn your ideas into real products. Shapes, graphics, colors, accessories and packaging are all yours to define.',
+        title: 'Manufacturing Experience',
+        body: 'Reliable production processes and quality control across every batch.',
       },
       {
-        value: '15+',
-        valueLabel: 'Years manufacturing',
-        title: 'Design Support',
-        body: 'No design team? No problem. We help transform rough ideas into production-ready artwork.',
+        title: 'Flexible Production',
+        body: 'Solutions for both customized and repeat projects, from small batches to volume.',
       },
       {
-        value: 'Global',
-        valueLabel: 'Business support',
-        title: 'Reliable Manufacturing',
-        body: 'Professional production support from prototype to delivery, with multi-point QC on every run.',
+        title: 'Global Supply',
+        body: 'Support from prototype to delivery, with worldwide shipping and professional export packing.',
       },
     ],
   },
   zh: {
-    kicker: '为什么选择 SUPsfactory',
-    title: '品牌伙伴，而不仅是工厂',
-    sub: '专业的制造能力，围绕帮你建立品牌而设计——而不只是出货。',
-    cards: [
+    kicker: 'Afarer 制造能力支持',
+    title: '项目背后的制造能力',
+    sub: '每一个项目都由 Afarer 的 SUP 制造专长支撑——工程、生产、品质与全球供应。',
+    image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
+    imageCaption: 'Afarer 制造工厂,中国青岛',
+    bullets: [
       {
-        value: '50+',
-        valueLabel: '最低起订起点',
-        title: '低起订量——50 片起',
-        body: '降低风险、更快启动。灵活的起订量让你先小批量试水市场，再逐步放量。',
+        title: '工程支持',
+        body: '专业的 SUP 产品开发能力——生产前评估规格、材料与制造可行性。',
       },
       {
-        value: '100%',
-        valueLabel: '品牌全面定制',
-        title: '全面定制',
-        body: '把想法变成真正的产品。板型、图案、配色、配件与包装都由你定义。',
+        title: '制造经验',
+        body: '可靠的生产流程与全批次质量控制。',
       },
       {
-        value: '15+',
-        valueLabel: '年制造经验',
-        title: '设计支持',
-        body: '没有设计团队？没问题。我们帮你把粗糙的想法变成可量产的设计稿。',
+        title: '灵活生产',
+        body: '同时支持定制项目与复购项目,从小批量到规模化生产。',
       },
       {
-        value: '全球',
-        valueLabel: '业务支持',
-        title: '可靠制造',
-        body: '从打样到交付的全流程专业制造支持，每批产品都经过多节点质检。',
+        title: '全球供应',
+        body: '从打样到交付的全链条支持,全球发货与专业出口包装。',
       },
     ],
   },
@@ -157,7 +145,7 @@ export const strip: Localized<string[]> = {
   zh: ['OEM & ODM', '贴牌生产', '打样服务', '设计与制版', '逐批质检', '全球出口'],
 }
 
-/* ─────────────────────────── who we serve ─────────────────────────── */
+/* ─────────────────────────── who we serve / customer needs ─────────────────────────── */
 
 export interface Segment {
   slug: string
@@ -166,7 +154,6 @@ export interface Segment {
   points: string[]
   cta: string
   href: string
-  image: string
 }
 
 export interface ServeContent {
@@ -178,88 +165,80 @@ export interface ServeContent {
 
 export const serve: Localized<ServeContent> = {
   en: {
-    kicker: 'Who We Serve',
-    title: 'Solutions Designed for Different Businesses',
-    sub: 'One manufacturing partner, four ways to build a SUP brand — pick the path that fits your business.',
+    kicker: 'Customer Needs',
+    title: 'What Can We Help You Create?',
+    sub: 'Every SUP project starts with a specific requirement.',
     segments: [
       {
-        slug: 'sup-startup-brands',
-        title: 'New SUP Brands',
-        body: 'Launch your own paddleboard brand with flexible MOQ and complete support — from first mockup to first container.',
-        points: ['Start from 50pcs', 'Full brand package: board, paddle, bag', 'Design support included', 'Scale up as you grow'],
-        cta: 'Launch a SUP brand',
-        href: '/sup-startup-brands',
-        image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-cheetah-surge-1.webp',
+        slug: 'custom-sup-products',
+        title: 'Custom SUP Products',
+        body: 'Customize boards, graphics, specifications and accessories — from your idea to a manufacturable product.',
+        points: ['Board customization', 'Graphics & branding', 'Specification support'],
+        cta: 'Explore Custom SUP',
+        href: '/custom-sup-manufacturing',
       },
       {
-        slug: 'sup-for-resorts',
-        title: 'Resorts & Hotels',
-        body: 'Create branded water experiences for your guests with custom SUP fleets in your resort’s colors.',
-        points: ['Branded guest fleets', 'Durable, guest-friendly builds', 'Storage-friendly inflatables', 'Full accessory packages'],
-        cta: 'Equip your resort',
+        slug: 'private-label-sup',
+        title: 'Private Label SUP',
+        body: 'Develop SUP products under your own brand identity, produced and delivered by our factory.',
+        points: ['Branded boards', 'Product packaging', 'Bulk supply'],
+        cta: 'Learn More',
+        href: '/private-label-sup',
+      },
+      {
+        slug: 'resort-club-solutions',
+        title: 'Resort & Club Solutions',
+        body: 'Create branded SUP equipment for guests, teams and activities — with fleet-friendly production.',
+        points: ['Branded guest fleets', 'Team equipment', 'Fleet pricing'],
+        cta: 'View Solutions',
         href: '/sup-for-resorts',
-        image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-tropical-breeze-1.webp',
       },
       {
-        slug: 'sup-for-clubs',
-        title: 'Clubs & Schools',
-        body: 'Durable SUP equipment designed for frequent professional use — lessons, rentals and training.',
-        points: ['Reinforced construction', 'Beginner & multi-person shapes', 'Fleet pricing', 'Replacement parts support'],
-        cta: 'Build your fleet',
-        href: '/sup-for-clubs',
-        image: 'https://assets.supsfactory.com/images/sups/products/afarer-sup-allround-board.webp',
-      },
-      {
-        slug: 'corporate-events',
-        title: 'Corporate & Events',
-        body: 'Customized SUP products for marketing campaigns, team building and brand events.',
-        points: ['Event-ready quantities', 'Promotional branding', 'Fast-track lead times', 'Global delivery'],
-        cta: 'Plan your event',
+        slug: 'organization-projects',
+        title: 'Organization Projects',
+        body: 'Customized SUP solutions for schools, programs and events — with bulk supply support.',
+        points: ['School programs', 'Event equipment', 'Bulk orders'],
+        cta: 'Discuss Requirements',
         href: '/contact',
-        image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp',
       },
     ],
   },
   zh: {
-    kicker: '客户群体',
-    title: '为不同业务设计的解决方案',
-    sub: '一个制造伙伴，四种建立 SUP 品牌的方式——选择适合你业务的路径。',
+    kicker: '客户需求',
+    title: '我们能帮你做什么?',
+    sub: '每一个 SUP 项目都从一个具体需求开始。',
     segments: [
       {
-        slug: 'sup-startup-brands',
-        title: '新 SUP 品牌',
-        body: '以灵活起订量与完整支持创立你自己的桨板品牌——从第一张效果图到第一个货柜。',
-        points: ['50 片起订', '完整品牌套装：板、桨、背包', '含设计支持', '随成长逐步放量'],
-        cta: '创立 SUP 品牌',
-        href: '/sup-startup-brands',
-        image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-cheetah-surge-1.webp',
+        slug: 'custom-sup-products',
+        title: '定制 SUP 产品',
+        body: '定制板型、图案、规格与配件——从你的想法到可量产的产品。',
+        points: ['板面定制', '图案与品牌', '规格支持'],
+        cta: '了解定制 SUP',
+        href: '/custom-sup-manufacturing',
       },
       {
-        slug: 'sup-for-resorts',
-        title: '度假村与酒店',
-        body: '用度假村专属配色的定制 SUP 舰队，为客人打造难忘的水上体验。',
-        points: ['品牌化客用舰队', '耐用、易上手的板型', '可收纳充气板', '完整配件套装'],
-        cta: '配置你的度假村',
+        slug: 'private-label-sup',
+        title: '贴牌 SUP',
+        body: '以你自己的品牌开发 SUP 产品,由我们的工厂生产与交付。',
+        points: ['品牌板面', '产品包装', '批量供应'],
+        cta: '了解更多',
+        href: '/private-label-sup',
+      },
+      {
+        slug: 'resort-club-solutions',
+        title: '度假村与俱乐部方案',
+        body: '为客人、团队与活动打造品牌 SUP 装备——以适合舰队的生产方式。',
+        points: ['品牌客用舰队', '团队装备', '舰队批量价'],
+        cta: '查看方案',
         href: '/sup-for-resorts',
-        image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-tropical-breeze-1.webp',
       },
       {
-        slug: 'sup-for-clubs',
-        title: '俱乐部与学校',
-        body: '为高频专业使用设计的耐用 SUP 装备——教学、租赁与训练。',
-        points: ['加强结构', '初学者与多人板型', '舰队批量价', '配件更换支持'],
-        cta: '建设你的舰队',
-        href: '/sup-for-clubs',
-        image: 'https://assets.supsfactory.com/images/sups/products/afarer-sup-allround-board.webp',
-      },
-      {
-        slug: 'corporate-events',
-        title: '企业与活动',
-        body: '面向营销活动、团队建设与品牌活动的定制 SUP 产品。',
-        points: ['活动级数量', '推广性品牌定制', '快速交期', '全球配送'],
-        cta: '规划你的活动',
+        slug: 'organization-projects',
+        title: '机构项目',
+        body: '面向学校、项目与活动的定制 SUP 方案——支持批量供应。',
+        points: ['学校项目', '活动装备', '批量订单'],
+        cta: '讨论需求',
         href: '/contact',
-        image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp',
       },
     ],
   },
@@ -282,46 +261,56 @@ export interface SolutionsContent {
 
 export const solutions: Localized<SolutionsContent> = {
   en: {
-    kicker: 'Custom SUP Solutions',
-    title: 'Every Layer of Your Product, Yours to Define',
-    sub: 'From the board itself to the box it ships in — customization is available at every layer.',
+    kicker: 'Customization Capability',
+    title: 'Customize Your SUP Product',
+    sub: 'Four areas you can customize — from the board itself to your production requirements.',
     pillars: [
       {
-        title: 'Board Customization',
-        body: 'Start from proven platform shapes and make them yours.',
-        points: ['Shape & size', 'Construction & materials', 'Colors & full-board graphics', 'Deck pad design'],
+        title: 'Board Design',
+        body: 'Define the board as your product requires.',
+        points: ['Shape', 'Size', 'Thickness', 'Construction'],
       },
       {
-        title: 'Brand Identity',
-        body: 'Put your mark on every board — and every touchpoint.',
-        points: ['Full board graphics', 'Logo printing', 'EVA pad branding', 'Custom packaging'],
+        title: 'Graphics & Branding',
+        body: 'Put your identity on every board.',
+        points: ['Logo', 'Colors', 'Artwork', 'Printing'],
       },
       {
-        title: 'Complete Product Package',
-        body: 'Launch a sellable product, not just a board.',
-        points: ['SUP board', 'Paddle & pump', 'Backpack', 'Accessories bundle'],
+        title: 'Accessories',
+        body: 'Complete the product with matched parts.',
+        points: ['Paddle', 'Bag', 'Fin', 'Packaging'],
+      },
+      {
+        title: 'Production Requirements',
+        body: 'Tailor how your project is produced.',
+        points: ['Quantity', 'Specification', 'Application'],
       },
     ],
   },
   zh: {
-    kicker: '定制 SUP 解决方案',
-    title: '产品的每一层，都由你定义',
-    sub: '从板身到出货包装——每一层都可以定制。',
+    kicker: '定制能力',
+    title: '定制你的 SUP 产品',
+    sub: '四个可定制方向——从板身本身到你的生产需求。',
     pillars: [
       {
-        title: '板面定制',
-        body: '从成熟板型出发，把它变成你的专属设计。',
-        points: ['板型与尺寸', '结构与材料', '配色与整板图案', '防滑垫设计'],
+        title: '板面设计',
+        body: '按你的产品需求定义板面。',
+        points: ['板型', '尺寸', '厚度', '结构'],
       },
       {
-        title: '品牌形象',
-        body: '让每一块板、每一个触点都带上你的品牌。',
-        points: ['整板图案', 'Logo 印刷', 'EVA 垫品牌定制', '定制包装'],
+        title: '图案与品牌',
+        body: '让每一块板都带上你的标识。',
+        points: ['Logo', '配色', '图案', '印刷'],
       },
       {
-        title: '完整产品套装',
-        body: '推出可销售的产品，而不只是一块板。',
-        points: ['SUP 板', '桨与气泵', '背包', '配件套装'],
+        title: '配件',
+        body: '用配套部件完善整个产品。',
+        points: ['桨', '背包', '尾鳍', '包装'],
+      },
+      {
+        title: '生产需求',
+        body: '按你的项目定制生产方式。',
+        points: ['数量', '规格', '应用场景'],
       },
     ],
   },
@@ -427,9 +416,9 @@ export interface ProductsContent {
 
 export const products: Localized<ProductsContent> = {
   en: {
-    kicker: 'Products',
-    title: 'Proven Platforms, Built Your Way',
-    sub: 'Every series below is a manufacturing platform — shapes, artwork and specs adapt to your brand.',
+    kicker: 'Product Platforms',
+    title: 'SUP Platforms Available For Customization',
+    sub: 'Each series is a manufacturing platform — choose a starting point and we adapt the shape, graphics and specs to your product.',
     items: [
       {
         slug: 'sup-explorer-11',
@@ -574,9 +563,9 @@ export const products: Localized<ProductsContent> = {
     ],
   },
   zh: {
-    kicker: '产品',
-    title: '成熟板型，按你的方式打造',
-    sub: '以下每个系列都是成熟的制造平台——板型、图案与规格都可按你的品牌调整。',
+    kicker: '产品平台',
+    title: '可定制的 SUP 平台',
+    sub: '以下每个系列都是制造平台——选择一个起点,我们将根据你的产品调整板型、图案与规格。',
     items: [
       {
         slug: 'sup-explorer-11',
@@ -739,60 +728,233 @@ export interface WorksContent {
 
 export const works: Localized<WorksContent> = {
   en: {
-    kicker: 'How It Works',
-    title: 'From Your First Idea to Finished Products',
-    sub: 'A clear, guided process — you always know what happens next.',
+    kicker: 'Product Development Process',
+    title: 'From Requirement To Finished Product',
+    sub: 'A clear process for turning your requirements into delivered products.',
     steps: [
       {
-        title: 'Share Your Idea',
-        body: 'Tell us your vision, target market and quantity. A project specialist replies within one business day.',
+        title: 'Project Discussion',
+        body: 'Understand your product requirements, market application and expectations.',
       },
       {
-        title: 'Choose Your SUP Model',
-        body: 'Pick from proven platform shapes and constructions — or brief us on a fully custom build.',
+        title: 'Specification Development',
+        body: 'Select suitable board type, materials and configurations.',
       },
       {
-        title: 'Approve Design & Sample',
-        body: 'We develop your artwork, produce a sample and refine it until you approve.',
+        title: 'Design Adjustment',
+        body: 'Prepare graphics, colors and customization details.',
       },
       {
-        title: 'Production & Delivery',
-        body: 'Once approved, we run production with strict QC, then pack and ship worldwide.',
+        title: 'Prototype & Sample',
+        body: 'Confirm product appearance and performance before production.',
       },
       {
-        title: 'Launch & Grow',
-        body: 'Your boards arrive under your brand. Restock easily with repeat-order pricing and new models as you scale.',
+        title: 'Production',
+        body: 'Manufacturing supported by Afarer’s factory and quality system.',
+      },
+      {
+        title: 'Delivery',
+        body: 'Reliable shipment and ongoing supply support.',
       },
     ],
-    note: 'Need help with design? Our team can support your artwork development — free with your first order.',
+    note: 'Samples are confirmed before production — you always know what your final product will look like.',
   },
   zh: {
-    kicker: '合作流程',
-    title: '从第一个想法到成品交付',
-    sub: '清晰、有指导的全流程——每一步你都知道接下来会发生什么。',
+    kicker: '产品开发流程',
+    title: '从需求到成品交付',
+    sub: '一个清晰的流程,把你的需求变成交付的产品。',
     steps: [
       {
-        title: '分享你的想法',
-        body: '告诉我们你的愿景、目标市场与数量。项目专员会在一个工作日内回复。',
+        title: '项目沟通',
+        body: '了解你的产品需求、应用场景与预期。',
       },
       {
-        title: '选择你的 SUP 板型',
-        body: '从成熟的板型与结构方案中选择——或告诉我们你的全定制需求。',
+        title: '规格开发',
+        body: '选择合适的板型、材料与配置。',
       },
       {
-        title: '确认设计与样品',
-        body: '我们完成设计稿、制作样品，并持续打磨直到你确认。',
+        title: '设计调整',
+        body: '准备图案、配色与定制细节。',
       },
       {
-        title: '生产与交付',
-        body: '确认后进入生产，全程严格质检，然后包装并运往全球。',
+        title: '打样与样品',
+        body: '量产前确认产品外观与性能。',
       },
       {
-        title: '首发与增长',
-        body: '成品板以你的品牌抵达。复购享老客价格，随规模增加新板型。',
+        title: '生产',
+        body: '由 Afarer 工厂与质量体系支持的生产制造。',
+      },
+      {
+        title: '交付',
+        body: '可靠的发货与持续的供应支持。',
       },
     ],
-    note: '需要设计支持？我们的团队可以帮你完成图案开发——首单免费。',
+    note: '样品会在量产前确认——你始终知道最终产品是什么样。',
+  },
+}
+
+/* ─────────────────────────── home: what we help you solve ─────────────────────────── */
+
+export interface SolveItem {
+  problem: string
+  solution: string
+  body: string
+}
+
+export interface SolveContent {
+  kicker: string
+  title: string
+  sub: string
+  cta: string
+  items: SolveItem[]
+}
+
+export const solve: Localized<SolveContent> = {
+  en: {
+    kicker: 'What We Help You Solve',
+    title: 'We Help Solve Your SUP Product Challenges',
+    sub: 'Your concerns first — here is how we address them.',
+    cta: 'Discuss Your Project',
+    items: [
+      {
+        problem: '“I have an idea, but I don’t know how to make it.”',
+        solution: 'Product Development Support',
+        body: 'We help evaluate specifications, materials and manufacturing feasibility.',
+      },
+      {
+        problem: '“I need customization, but my quantity is limited.”',
+        solution: 'Flexible Production',
+        body: 'Support customized projects with practical production quantities.',
+      },
+      {
+        problem: '“I need a reliable manufacturer.”',
+        solution: 'Manufacturing Expertise',
+        body: 'Benefit from Afarer’s SUP production experience and quality systems.',
+      },
+      {
+        problem: '“I need to know what my final product will look like.”',
+        solution: 'Prototype Development',
+        body: 'Validate designs before moving into production.',
+      },
+    ],
+  },
+  zh: {
+    kicker: '我们解决什么',
+    title: '帮你解决 SUP 产品落地中的难题',
+    sub: '先关注你的顾虑——这是我们给出的答案。',
+    cta: '讨论你的项目',
+    items: [
+      {
+        problem: '“我有一个想法,但不知道怎么做。”',
+        solution: '产品开发支持',
+        body: '我们帮你评估规格、材料与制造可行性。',
+      },
+      {
+        problem: '“我需要定制,但数量不大。”',
+        solution: '灵活生产',
+        body: '以实际可行的起订量支持定制项目。',
+      },
+      {
+        problem: '“我需要一个可靠的制造商。”',
+        solution: '制造专长',
+        body: '受益于 Afarer 的 SUP 生产经验与质量体系。',
+      },
+      {
+        problem: '“我想知道最终产品长什么样。”',
+        solution: '样品开发',
+        body: '在量产前先验证设计与性能。',
+      },
+    ],
+  },
+}
+
+/* ─────────────────────────── home: product platforms ─────────────────────────── */
+
+export interface PlatformItem {
+  title: string
+  body: string
+  uses: string[]
+  cta: string
+  href: string
+}
+
+export interface PlatformsContent {
+  kicker: string
+  title: string
+  sub: string
+  items: PlatformItem[]
+}
+
+export const platforms: Localized<PlatformsContent> = {
+  en: {
+    kicker: 'Product Platforms',
+    title: 'SUP Platforms Available For Customization',
+    sub: 'Not a product store — each platform below can be customized to your requirements.',
+    items: [
+      {
+        title: 'Inflatable SUP',
+        body: 'Classic all-around platforms for recreation, travel and outdoor programs.',
+        uses: ['Resorts', 'Travel', 'Outdoor programs'],
+        cta: 'Customize This Platform',
+        href: '/contact',
+      },
+      {
+        title: 'Touring SUP',
+        body: 'Longer boards built for distance, speed and adventure paddling.',
+        uses: ['Adventure', 'Recreation'],
+        cta: 'Customize This Platform',
+        href: '/contact',
+      },
+      {
+        title: 'Racing SUP',
+        body: 'Performance-oriented shapes for clubs, events and competition teams.',
+        uses: ['Clubs', 'Events'],
+        cta: 'Customize This Platform',
+        href: '/contact',
+      },
+      {
+        title: 'Multi-Purpose SUP',
+        body: 'Versatile boards for schools, rental operations and organizations.',
+        uses: ['Schools', 'Rental', 'Organizations'],
+        cta: 'Customize This Platform',
+        href: '/contact',
+      },
+    ],
+  },
+  zh: {
+    kicker: '产品平台',
+    title: '可定制的 SUP 平台',
+    sub: '不是产品商城——以下每个平台都可以按你的需求定制。',
+    items: [
+      {
+        title: '充气全能 SUP',
+        body: '适合休闲、旅行与户外项目的经典全能板型。',
+        uses: ['度假村', '旅行', '户外项目'],
+        cta: '定制此平台',
+        href: '/contact',
+      },
+      {
+        title: '巡航 SUP',
+        body: '为长距离、速度与探险划行打造的长板。',
+        uses: ['探险', '休闲'],
+        cta: '定制此平台',
+        href: '/contact',
+      },
+      {
+        title: '竞速 SUP',
+        body: '为俱乐部、赛事与竞技团队打造的性能板型。',
+        uses: ['俱乐部', '赛事'],
+        cta: '定制此平台',
+        href: '/contact',
+      },
+      {
+        title: '多功能 SUP',
+        body: '适合学校、租赁运营与机构的多用途板。',
+        uses: ['学校', '租赁', '机构'],
+        cta: '定制此平台',
+        href: '/contact',
+      },
+    ],
   },
 }
 
@@ -815,56 +977,56 @@ export interface GalleryContent {
 
 export const gallery: Localized<GalleryContent> = {
   en: {
-    kicker: 'Project Gallery',
-    title: 'Custom SUP Projects',
-    sub: 'A few of the brands, resorts and clubs we build for.',
+    kicker: 'Customized SUP Projects',
+    title: 'Customized SUP Projects',
+    sub: 'Real projects — from client requirements to finished products.',
     projects: [
       {
         tag: 'Resorts',
-        title: 'Resort Collection',
-        body: 'Custom SUP boards designed for a luxury guest experience — branded fleets in resort colors, delivered with full accessory packages.',
+        title: 'Resort SUP Equipment Project',
+        body: 'Hotel required branded SUP equipment — custom graphics, matching accessories and production delivery.',
         hue: 195,
         image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-tropical-breeze-1.webp',
       },
       {
-        tag: 'Startups',
-        title: 'Startup Brand Launch',
-        body: 'Helping new brands enter the paddle sports market — from logo development and board graphics to packaging and first containers.',
+        tag: 'Clubs',
+        title: 'Paddle Club Team Boards',
+        body: 'Club wanted customized boards — team graphics and specification adjustment, delivered for the season.',
         hue: 28,
         image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-cheetah-surge-1.webp',
       },
       {
-        tag: 'Clubs',
-        title: 'Club Fleet Program',
-        body: 'Durable, repeat-order fleets for surf and paddle clubs — reinforced construction, fleet pricing and replacement parts support.',
+        tag: 'Outdoor Brand',
+        title: 'Outdoor Brand Product Extension',
+        body: 'Existing brand needed SUP products — product customization and manufacturing support for a new line.',
         hue: 210,
         image: 'https://assets.supsfactory.com/images/sups/products/afarer-sup-allround-board.webp',
       },
     ],
   },
   zh: {
-    kicker: '项目案例',
+    kicker: '定制 SUP 项目',
     title: '定制 SUP 项目',
-    sub: '我们服务的部分品牌、度假村与俱乐部。',
+    sub: '真实案例——从客户需求到成品交付。',
     projects: [
       {
         tag: '度假村',
-        title: '度假村系列',
-        body: '为奢华客人体验设计的定制 SUP——度假村专属配色的品牌舰队，附带完整配件套装。',
+        title: '度假村 SUP 装备项目',
+        body: '酒店需要品牌化 SUP 装备——定制图案、配套配件与生产交付。',
         hue: 195,
         image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-tropical-breeze-1.webp',
       },
       {
-        tag: '初创品牌',
-        title: '品牌首发',
-        body: '帮助新品牌进入桨板运动市场——从 Logo 与板面图案，到包装与第一批货柜。',
+        tag: '俱乐部',
+        title: '桨板俱乐部团队板',
+        body: '俱乐部需要定制板面——团队图案与规格调整,当季交付。',
         hue: 28,
         image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-cheetah-surge-1.webp',
       },
       {
-        tag: '俱乐部',
-        title: '俱乐部舰队计划',
-        body: '为冲浪与桨板俱乐部提供耐用的复购舰队——加强结构、批量价格与配件更换支持。',
+        tag: '户外品牌',
+        title: '户外品牌产品线扩展',
+        body: '已有品牌需要新增 SUP 产品——产品定制与制造支持,推出新系列。',
         hue: 210,
         image: 'https://assets.supsfactory.com/images/sups/products/afarer-sup-allround-board.webp',
       },
@@ -889,63 +1051,55 @@ export interface FaqContent {
 export const faq: Localized<FaqContent> = {
   en: {
     kicker: 'FAQ',
-    title: 'Questions We Hear Before Every Project',
+    title: 'Questions Before You Start',
     sub: 'If yours isn’t here, ask us directly — we answer within one business day.',
     items: [
       {
         q: 'What is the minimum order quantity?',
-        a: 'Our standard custom production starts from 50pcs per design, which helps startups reduce initial investment while keeping pricing fair. Larger quantities unlock better unit prices.',
+        a: 'It depends on the product and customization requirements. Our team will evaluate your project and confirm a practical quantity for you.',
       },
       {
-        q: 'Can I create my own SUP brand?',
-        a: 'Yes — that is exactly what we specialize in. We produce boards under your brand name with your graphics, colors, packaging and accessories, and we support you with design and mockups along the way.',
+        q: 'Can you support small projects?',
+        a: 'Yes. We support projects of different scales — from small batches to volume production.',
       },
       {
-        q: 'Do you provide design support?',
-        a: 'Yes. If you don’t have a design team, our in-house team can turn your ideas into production-ready artwork — board graphics, EVA pad layouts, logo placement and packaging design.',
+        q: 'Can I customize colors and logos?',
+        a: 'Yes. Visual and specification customization — graphics, colors, logos and packaging — are all supported.',
       },
       {
-        q: 'Can I customize accessories?',
-        a: 'Absolutely. Paddles, pumps, backpacks, EVA pads, fins and packaging can all be customized and bundled into your complete product package.',
+        q: 'Do you provide samples?',
+        a: 'Yes. Samples are developed and confirmed before production, so you always know what your final product will look like.',
       },
       {
-        q: 'How long does production take?',
-        a: 'Typically 7–10 days for samples and 30–45 days for production once the design and sample are approved, depending on quantity and model.',
-      },
-      {
-        q: 'Do you ship worldwide?',
-        a: 'Yes, we ship globally with professional export packing. Your project specialist will confirm the best shipping option and timeline for your location.',
+        q: 'Who manufactures the products?',
+        a: 'Products are manufactured through Afarer’s SUP manufacturing capability — a 12,000 m² factory in Qingdao, China with CE-certified quality systems.',
       },
     ],
   },
   zh: {
     kicker: '常见问题',
-    title: '每个项目开始前，我们常被问到的问题',
+    title: '开始前的问题',
     sub: '这里没有你的问题？直接问我们——一个工作日内回复。',
     items: [
       {
-        q: '最低起订量是多少？',
-        a: '标准定制生产每个设计 50 片起订，帮助初创品牌降低初始投入，同时保持合理价格。数量越大，单价越优。',
+        q: '最低起订量是多少?',
+        a: '取决于产品与定制要求。我们的团队会评估你的项目,并确认一个实际可行的起订量。',
       },
       {
-        q: '我可以创建自己的 SUP 品牌吗？',
-        a: '可以——这正是我们的专长。我们用你的品牌名、图案、配色、包装与配件生产板子，并在过程中提供设计与效果图支持。',
+        q: '小项目也可以支持吗?',
+        a: '可以。我们支持不同规模的项目——从小批量到规模化生产。',
       },
       {
-        q: '你们提供设计支持吗？',
-        a: '提供。如果你没有设计团队，我们的自有团队可以把你的想法变成可量产的设计稿——板面图案、EVA 防滑垫排版、Logo 位置与包装设计。',
+        q: '可以定制颜色和 Logo 吗?',
+        a: '可以。视觉与规格定制——图案、配色、Logo 与包装——都支持。',
       },
       {
-        q: '配件可以定制吗？',
-        a: '当然可以。桨、气泵、背包、EVA 防滑垫、尾鳍与包装都可以定制，并打包进你的完整产品套装。',
+        q: '提供样品吗?',
+        a: '提供。样品会在量产前开发并确认,你始终知道最终产品是什么样。',
       },
       {
-        q: '生产需要多长时间？',
-        a: '通常打样 7–10 天；设计样品确认后，量产 30–45 天，具体视数量与板型而定。',
-      },
-      {
-        q: '你们能发往全球吗？',
-        a: '可以，我们提供全球发货与专业出口包装。项目专员会为你确认最适合的物流方案与时效。',
+        q: '产品由谁生产?',
+        a: '产品通过 Afarer 的 SUP 制造能力生产——位于中国青岛的 12,000 m² 工厂,具备 CE 认证质量体系。',
       },
     ],
   },
@@ -962,15 +1116,15 @@ export interface CtaContent {
 
 export const cta: Localized<CtaContent> = {
   en: {
-    title: 'Ready to Launch Your Own SUP Brand?',
-    body: 'Tell us about your project and get a tailored quote within one business day — no commitment required for the first conversation.',
-    button: 'Start Your Project',
+    title: 'Have A SUP Product Idea?',
+    body: 'Tell us your requirements and our team will help evaluate the right solution.',
+    button: 'Submit Your Project',
     note: 'Free consultation · Sample service · No minimum for the first talk',
   },
   zh: {
-    title: '准备好创建你自己的 SUP 品牌了吗？',
-    body: '告诉我们你的项目，一个工作日内拿到定制报价——第一次沟通无需任何承诺。',
-    button: '开始你的项目',
+    title: '有一个 SUP 产品想法?',
+    body: '告诉我们你的需求,我们的团队会帮你评估合适的方案。',
+    button: '提交你的项目',
     note: '免费咨询 · 打样服务 · 首次沟通无任何门槛',
   },
 }
@@ -1109,17 +1263,17 @@ export interface ProductsPageContent {
 
 export const productsPage: Localized<ProductsPageContent> = {
   en: {
-    kicker: 'Products',
-    title: 'SUP Boards, Customized to Your Brand',
-    sub: 'Every model below is a manufacturing platform. Choose one as your starting point and we’ll adapt the shape, graphics, colors and specs to your brand.',
+    kicker: 'Product Platforms',
+    title: 'SUP Platforms Available For Customization',
+    sub: 'Each model below is a manufacturing platform. Choose one as your starting point and we’ll adapt the shape, graphics, colors and specs to your product.',
     customTitle: 'Every Product Can Be Customized',
     customBody: 'Nothing ships off-the-shelf. Each board is built for you with your choices at every layer.',
     customPoints: ['Shape & size', 'Colors & full-board graphics', 'Logo & EVA pad design', 'Accessories & packaging'],
   },
   zh: {
-    kicker: '产品',
-    title: 'SUP 板，按你的品牌定制',
-    sub: '以下每一款都是制造平台。选择一个作为起点，我们将根据你的品牌调整板型、图案、配色与规格。',
+    kicker: '产品平台',
+    title: '可定制的 SUP 平台',
+    sub: '以下每一款都是制造平台。选择一个作为起点,我们将根据你的产品调整板型、图案、配色与规格。',
     customTitle: '每款产品都可以定制',
     customBody: '没有一件现货产品。每一块板都按照你在每个层面上的选择为你制造。',
     customPoints: ['板型与尺寸', '配色与整板图案', 'Logo 与 EVA 垫设计', '配件与包装'],
@@ -1137,16 +1291,16 @@ export interface GalleryPageContent {
 
 export const galleryPage: Localized<GalleryPageContent> = {
   en: {
-    kicker: 'Project Gallery',
-    title: 'Brands, Resorts and Clubs We Build For',
-    sub: 'A look at how custom SUP projects come to life — from board graphics to complete brand launches.',
+    kicker: 'Customized SUP Projects',
+    title: 'Customized SUP Projects',
+    sub: 'A look at how SUP products come to life — from client requirements to finished boards.',
     note: 'Want your project featured here? Start a conversation and let’s design it together.',
   },
   zh: {
-    kicker: '项目案例',
-    title: '我们服务的品牌、度假村与俱乐部',
-    sub: '看看定制 SUP 项目如何落地——从板面图案到完整的品牌首发。',
-    note: '想让你的项目也出现在这里？开始一次沟通，我们一起设计。',
+    kicker: '定制 SUP 项目',
+    title: '定制 SUP 项目',
+    sub: '看看 SUP 产品如何落地——从客户需求到成品交付。',
+    note: '想让你的项目也出现在这里?开始一次沟通,我们一起设计。',
   },
 }
 
@@ -1160,14 +1314,14 @@ export interface ServePageContent {
 
 export const servePage: Localized<ServePageContent> = {
   en: {
-    kicker: 'Who We Serve',
-    title: 'A Manufacturing Partner for Every Kind of Water Business',
-    sub: 'Whether you’re launching a brand or outfitting a fleet, we structure every project around your business model.',
+    kicker: 'Customer Needs',
+    title: 'Custom SUP Solutions For Your Business',
+    sub: 'Whether you need branded boards for your organization or customized SUP products for your business, we help turn requirements into finished products.',
   },
   zh: {
-    kicker: '客户群体',
-    title: '适合各类水上业务的制造伙伴',
-    sub: '无论你是创立品牌还是配置舰队，我们都会围绕你的业务模式来组织每一个项目。',
+    kicker: '客户需求',
+    title: '适合你的业务的定制 SUP 方案',
+    sub: '无论你需要机构品牌板还是企业定制产品,我们都帮你把需求变成成品。',
   },
 }
 
@@ -1183,17 +1337,17 @@ export interface WorksPageContent {
 
 export const worksPage: Localized<WorksPageContent> = {
   en: {
-    kicker: 'How It Works',
-    title: 'A Guided Process, From Idea to Delivery',
-    sub: 'No experience with manufacturing? You don’t need any — we guide you through every step.',
+    kicker: 'Product Development Process',
+    title: 'From Requirement To Finished Product',
+    sub: 'From project discussion to delivery — we guide you through every step of product development.',
     consultTitle: 'Start With a Free Consultation',
     consultBody: 'Tell us where you are and where you want to be. We’ll recommend the fastest path to your first finished boards.',
   },
   zh: {
-    kicker: '合作流程',
-    title: '从想法到交付的全程指导',
-    sub: '没有制造经验？你不需要有——我们带你走完每一步。',
+    kicker: '产品开发流程',
+    title: '从需求到成品交付',
+    sub: '从项目沟通到交付——我们带你走完产品开发的每一步。',
     consultTitle: '从免费咨询开始',
-    consultBody: '告诉我们你目前的状态与目标，我们会推荐最快拿到第一批成品板的路径。',
+    consultBody: '告诉我们你目前的状态与目标,我们会推荐最快拿到第一批成品板的路径。',
   },
 }

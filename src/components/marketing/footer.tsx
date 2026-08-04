@@ -12,60 +12,44 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
   return (
     <footer className="relative border-t border-border bg-bg-alt px-5 pb-12 pt-16 md:px-7">
       <span className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-primary/40 via-aqua/50 to-sun/40" aria-hidden="true" />
-      <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[1.3fr_1fr_1fr_1fr_1fr_1fr]">
+      <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
         {/* Brand */}
         <div className="md:col-span-1">
           <Logo />
           <p className="mt-3.5 max-w-[24em] text-[13.5px] leading-relaxed text-fg-3">{t('sup.footer.tagline')}</p>
+          <p className="mt-2 text-[12px] font-semibold uppercase tracking-[0.12em] text-fg-3">{t('sup.footer.poweredBy')}</p>
           <div className="mt-5 flex flex-col gap-2 text-[13.5px] text-fg-2">
             <a href="mailto:info@supsfactory.com" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
               <Mail size={15} className="text-primary" /> info@supsfactory.com
             </a>
             <Link to="/{-$locale}/contact" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
-              <MessageCircle size={15} className="text-primary" /> WhatsApp
+              <MessageCircle size={15} className="text-primary" /> {t('sup.footer.inquiryForm')}
             </Link>
           </div>
         </div>
 
         {/* Solutions */}
         <FooterCol title={t('sup.footer.colSolutions')}>
-          <Link className="foot-link" to="/{-$locale}/solutions">{t('sup.footer.solutionsAll')}</Link>
-          <Link className="foot-link" to="/{-$locale}/products">{t('sup.footer.products')}</Link>
-          <Link className="foot-link" to="/{-$locale}/customizer">{t('sup.footer.customizer')}</Link>
+          <Link className="foot-link" to="/{-$locale}/custom-sup-manufacturing">{t('sup.footer.customSup')}</Link>
           <Link className="foot-link" to="/{-$locale}/private-label-sup">{t('sup.footer.privateLabel')}</Link>
-          <Link className="foot-link" to="/{-$locale}/custom-sup-manufacturing">{t('sup.footer.manufacturing')}</Link>
+          <Link className="foot-link" to="/{-$locale}/sup-for-resorts">{t('sup.footer.resortSolutions')}</Link>
+          <Link className="foot-link" to="/{-$locale}/contact">{t('sup.footer.organizationProjects')}</Link>
         </FooterCol>
 
-        {/* Who we serve */}
-        <FooterCol title={t('sup.footer.colServe')}>
-          <Link className="foot-link" to="/{-$locale}/sup-startup-brands">{t('sup.footer.startups')}</Link>
-          <Link className="foot-link" to="/{-$locale}/sup-for-resorts">{t('sup.footer.resorts')}</Link>
-          <Link className="foot-link" to="/{-$locale}/sup-for-clubs">{t('sup.footer.clubs')}</Link>
-          <Link className="foot-link" to="/{-$locale}/contact">{t('sup.footer.corporate')}</Link>
+        {/* Resources */}
+        <FooterCol title={t('sup.footer.colResources')}>
+          <Link className="foot-link" to="/$" params={{ _splat: 'faq' }}>{t('sup.footer.faq')}</Link>
+          <Link className="foot-link" to="/{-$locale}/how-it-works">{t('sup.footer.process')}</Link>
+          <Link className="foot-link" to="/{-$locale}/gallery">{t('sup.footer.projects')}</Link>
+          <Link className="foot-link" to="/$" params={{ _splat: 'news' }}>{t('sup.footer.news')}</Link>
         </FooterCol>
 
         {/* Company */}
         <FooterCol title={t('sup.footer.colCompany')}>
           <Link className="foot-link" to="/{-$locale}/about">{t('sup.footer.about')}</Link>
-          <Link className="foot-link" to="/{-$locale}/how-it-works">{t('sup.footer.howItWorks')}</Link>
-          <Link className="foot-link" to="/{-$locale}/gallery">{t('sup.footer.gallery')}</Link>
-          <Link className="foot-link" to="/{-$locale}/contact">{t('sup.footer.contact')}</Link>
-        </FooterCol>
-
-        {/* Resources */}
-        <FooterCol title={t('sup.footer.colResources')}>
           <Link className="foot-link" to="/$" params={{ _splat: 'factory' }}>{t('sup.footer.factory')}</Link>
           <Link className="foot-link" to="/$" params={{ _splat: 'technology' }}>{t('sup.footer.technology')}</Link>
-          <Link className="foot-link" to="/$" params={{ _splat: 'academy' }}>{t('sup.footer.academy')}</Link>
-          <Link className="foot-link" to="/$" params={{ _splat: 'guides' }}>{t('sup.footer.guides')}</Link>
-          <Link className="foot-link" to="/$" params={{ _splat: 'evidence/case-studies' }}>{t('sup.footer.evidence')}</Link>
-          <Link className="foot-link" to="/$" params={{ _splat: 'news' }}>{t('sup.footer.news')}</Link>
-        </FooterCol>
-
-        {/* Legal */}
-        <FooterCol title={t('sup.footer.colLegal')}>
-          <Link className="foot-link" to="/{-$locale}/terms">{t('sup.footer.terms')}</Link>
-          <Link className="foot-link" to="/{-$locale}/privacy">{t('sup.footer.privacy')}</Link>
+          <Link className="foot-link" to="/{-$locale}/contact">{t('sup.footer.contact')}</Link>
         </FooterCol>
       </div>
 
@@ -75,6 +59,10 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
             &copy; {year} {t('common.appName')}. {t('sup.footer.rights')}
           </p>
           <p className="mt-1 text-[12.5px] text-fg-3/80">{t('sup.footer.owner')}</p>
+          <div className="mt-2 flex items-center gap-4 text-[12.5px]">
+            <Link className="foot-link text-fg-3 hover:text-foreground" to="/{-$locale}/terms">{t('sup.footer.terms')}</Link>
+            <Link className="foot-link text-fg-3 hover:text-foreground" to="/{-$locale}/privacy">{t('sup.footer.privacy')}</Link>
+          </div>
         </div>
         <div className="flex items-center gap-1">
           <ThemeToggle theme={theme} />

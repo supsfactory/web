@@ -14,7 +14,7 @@ export function HowItWorks() {
       <div className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
         <SectionHead kicker={c.kicker} title={c.title} sub={c.sub} />
 
-        <ol className="relative mt-16 grid gap-10 md:grid-cols-5 md:gap-5">
+        <ol className="relative mt-16 grid gap-10 md:grid-cols-3 md:gap-5 lg:grid-cols-6">
           {/* connector line (desktop) */}
           <span
             className="absolute left-0 top-[22px] hidden h-[3px] w-full rounded-full bg-gradient-to-r from-primary/15 via-aqua/40 to-sun/40 md:block"

@@ -7,12 +7,13 @@ import { pick, strip, faq } from '@/features/site/content'
 import { JsonLd, faqLd } from '@/features/seo/jsonld'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { Hero } from '@/components/marketing/hero'
-import { WhyUs } from '@/components/marketing/why-us'
 import { WhoWeServe } from '@/components/marketing/who-we-serve'
-import { StudioSection } from '@/components/marketing/studio-section'
-import { SolutionsSection } from '@/components/marketing/solutions-section'
-import { ProductsSection } from '@/components/marketing/products-section'
+import { SolveSection } from '@/components/marketing/solve-section'
 import { HowItWorks } from '@/components/marketing/how-it-works'
+import { SolutionsSection } from '@/components/marketing/solutions-section'
+import { WhyUs } from '@/components/marketing/why-us'
+import { PlatformsSection } from '@/components/marketing/platforms-section'
+import { StudioSection } from '@/components/marketing/studio-section'
 import { GallerySection } from '@/components/marketing/gallery-section'
 import { FaqSection } from '@/components/marketing/faq'
 import { CtaBand } from '@/components/marketing/cta'
@@ -29,11 +30,11 @@ export const Route = createFileRoute('/{-$locale}/')({
       origin,
       locale,
       path: '/',
-      title: 'SUPsfactory — Launch Your Own SUP Brand | Custom SUP Manufacturing',
+      title: 'SUPsfactory — Turn Your SUP Ideas Into Reality | Custom SUP Manufacturing',
       description:
         locale === 'zh'
-          ? 'SUPsfactory——定制 SUP 制造伙伴。创建你自己的 SUP 品牌，无需自建工厂。50 片起订、全面定制与专业设计支持，服务初创品牌、俱乐部、度假村与企业。'
-          : 'Create your own SUP brand without building your own factory. Custom SUP manufacturing for startups, clubs, resorts and businesses — low MOQ from 50pcs, full customization and design support.',
+          ? 'SUPsfactory——定制 SUP 产品开发与制造伙伴。帮助企业、组织和品牌客户将 SUP 产品需求从概念、设计、样品到批量生产实现落地。'
+          : 'Custom SUP product development and manufacturing partner. From product concepts and customization requirements to prototypes and production — SUPsfactory helps businesses turn SUP ideas into real products.',
     })
     return { meta, links }
   },
@@ -62,12 +63,13 @@ function Home() {
         </ul>
       </div>
 
-      <WhyUs />
       <WhoWeServe />
-      <StudioSection />
-      <SolutionsSection />
-      <ProductsSection limit={4} />
+      <SolveSection />
       <HowItWorks />
+      <SolutionsSection />
+      <WhyUs />
+      <PlatformsSection />
+      <StudioSection />
       <GallerySection />
       <FaqSection />
       <JsonLd data={faqLd(faq[locale].items)} />
