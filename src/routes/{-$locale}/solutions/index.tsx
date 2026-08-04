@@ -21,10 +21,10 @@ export const Route = createFileRoute('/{-$locale}/solutions/')({
       origin,
       locale,
       path: '/solutions',
-      title: locale === 'zh' ? '定制 SUP 解决方案 | 板面、品牌、完整套装 — SUPsfactory' : 'Custom SUP Solutions | Board, Brand & Complete Packages — SUPsfactory',
+      title: locale === 'es' ? 'Soluciones SUP personalizadas | Tabla, marca y paquetes completos — SUPsfactory' : 'Custom SUP Solutions | Board, Brand & Complete Packages — SUPsfactory',
       description:
-        locale === 'zh'
-          ? '从板身定制、品牌形象到完整产品套装——每一层都可以定制。SUPsfactory 提供板面、Logo、EVA 防滑垫、配件与包装的全面定制。'
+        locale === 'es'
+          ? 'Personalización de la tabla, identidad de marca y paquetes de producto completos: cada capa de tu SUP es personalizable. SUPsfactory: formas, gráficos, pisos EVA, accesorios y embalaje a medida.'
           : 'Board customization, brand identity and complete product packages — every layer of your SUP is customizable. SUPsfactory: custom shapes, graphics, EVA pads, accessories and packaging.',
     })
     return { meta, links }

@@ -1,57 +1,104 @@
 import { locales, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
 
-const PUBLIC_PATHS = [
-  '/',
-  '/solutions',
-  '/products',
-  '/who-we-serve',
-  '/how-it-works',
-  '/gallery',
-  '/about',
-  '/contact',
-  '/customizer',
-  '/waitlist',
-  '/changelog',
-  '/custom-sup-development',
-  '/solutions/private-label-sup',
-  '/solutions/resort-sup',
-  '/solutions/club-sup',
-  '/solutions/school-sup',
-  '/projects',
-  '/knowledge',
-  '/about/supsfactory-entity',
-  '/terms',
-  '/privacy',
-] as const
+interface PublicPathEntry {
+  path: string
+  lastmod: string
+}
+
+/** Marketing pages in the sitemap (bilingual, hreflang-linked). */
+export const PUBLIC_PATHS: PublicPathEntry[] = [
+  { path: '/', lastmod: '2026-06-15' },
+  { path: '/solutions', lastmod: '2026-05-20' },
+  { path: '/products', lastmod: '2026-05-20' },
+  { path: '/who-we-serve', lastmod: '2026-05-20' },
+  { path: '/how-it-works', lastmod: '2026-05-20' },
+  { path: '/gallery', lastmod: '2026-05-20' },
+  { path: '/about', lastmod: '2026-05-20' },
+  { path: '/contact', lastmod: '2026-05-20' },
+  { path: '/customizer', lastmod: '2026-05-20' },
+  { path: '/custom-sup-development', lastmod: '2026-06-01' },
+  { path: '/solutions/private-label-sup', lastmod: '2026-06-01' },
+  { path: '/solutions/resort-sup', lastmod: '2026-06-01' },
+  { path: '/solutions/club-sup', lastmod: '2026-06-01' },
+  { path: '/solutions/school-sup', lastmod: '2026-06-01' },
+  { path: '/projects', lastmod: '2026-06-20' },
+  { path: '/knowledge', lastmod: '2026-06-25' },
+  { path: '/about/supsfactory-entity', lastmod: '2026-06-30' },
+  { path: '/terms', lastmod: '2026-01-01' },
+  { path: '/privacy', lastmod: '2026-01-01' },
+]
 
 // Open Graph 要求 language_TERRITORY 形态（en_US），裸语言码会被严格解析器忽略。
-const OG_LOCALE: Record<Locale, string> = { en: 'en_US', zh: 'zh_CN' }
+const OG_LOCALE: Record<Locale, string> = { en: 'en_US', es: 'es_ES' }
+
+// RFC 5646 语言标签（hreflang / alternate link）——裸语言码对 Google 不够精确。
+const HREFLANG: Record<Locale, string> = { en: 'en-US', es: 'es-ES' }
 
 // 社交分享封面：真实产品图（assets.supsfactory.com，自有 R2 CDN）比 logo 更适合做 OG 图。
 export const OG_IMAGE = 'https://assets.supsfactory.com/images/sups/products/afarer-sup-allround-board.webp'
 
 export function buildRobots(origin: string): string {
+  const aiAgents = [
+    'GPTBot',
+    'OAI-SearchBot',
+    'ChatGPT-User',
+    'ClaudeBot',
+    'Claude-SearchBot',
+    'Claude-User',
+    'PerplexityBot',
+    'Perplexity-User',
+    'Google-Extended',
+    'Applebot',
+    'Applebot-Extended',
+    'Amazonbot',
+    'meta-externalagent',
+    'Bytespider',
+    'cohere-ai',
+    'CCBot',
+    'YouBot',
+  ]
+  const aiGroups = aiAgents.map((agent) => `User-agent: ${agent}\nAllow: /`).join('\n\n')
   return [
+    `# ${origin}/robots.txt`,
+    '# Last updated: 2026-08-04',
+    '',
+    '# ---------------------------------------------------------------',
+    '# Content signals',
+    '# search   = yes  (allow search indexing)',
+    '# ai-input = yes  (allow grounding / RAG for AI answers — required for GEO)',
+    '# ai-train = no   (do not use for model training)',
+    '# ---------------------------------------------------------------',
+    'Content-Signal: search=yes, ai-input=yes, ai-train=no, use=reference',
+    '',
+    // Single wildcard group — private app surfaces and removed template pages
+    // only; the whole marketing site is crawlable (incl. AI agents, each
+    // allowed explicitly below so no edge/anti-bot rule can blanket-block
+    // LLM crawlers).
     'User-agent: *',
     'Allow: /',
-    'Disallow: /*/app',
-    'Disallow: /app',
-    'Disallow: /*/admin',
-    'Disallow: /admin',
     'Disallow: /api',
+    'Disallow: /admin',
+    'Disallow: /*/admin',
+    'Disallow: /app',
+    'Disallow: /*/app',
+    'Disallow: /docs',
+    'Disallow: /docs/',
+    'Disallow: /waitlist',
+    'Disallow: /changelog',
+    'Disallow: /*?*sort=',
+    'Disallow: /*?*utm_',
+    '',
+    '# --- AI search & answer engines: explicitly allowed (GEO) ---',
+    aiGroups,
+    '',
     `Sitemap: ${origin}/sitemap.xml`,
-    // LLM/GEO-friendly endpoints (no standard robots directive — comment for discovery).
-    `# llms.txt: ${origin}/llms.txt`,
-    `# llms-full.txt: ${origin}/llms-full.txt`,
-    `# entity.json: ${origin}/entity.json`,
-    `# RSS: ${origin}/rss.xml`,
     '',
   ].join('\n')
 }
 
 function alternates(origin: string, path: string): string {
   const links = locales.map(
-    (l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${origin}${localizePath(l, path)}"/>`,
+    (l) => `<xhtml:link rel="alternate" hreflang="${HREFLANG[l]}" href="${origin}${localizePath(l, path)}"/>`,
   )
   links.push(
     `<xhtml:link rel="alternate" hreflang="x-default" href="${origin}${localizePath(defaultLocale, path)}"/>`,
@@ -69,7 +116,8 @@ type SingleLocalePath = string | SitemapEntry
 export function buildSitemap(origin: string, singleLocalePaths: SingleLocalePath[] = []): string {
   const bilingual = locales.flatMap((l) =>
     PUBLIC_PATHS.map(
-      (p) => `<url><loc>${origin}${localizePath(l, p)}</loc>${alternates(origin, p)}</url>`,
+      (e) =>
+        `<url><loc>${origin}${localizePath(l, e.path)}</loc><lastmod>${e.lastmod}</lastmod>${alternates(origin, e.path)}</url>`,
     ),
   )
   const single = singleLocalePaths.map((p) => {
@@ -78,6 +126,25 @@ export function buildSitemap(origin: string, singleLocalePaths: SingleLocalePath
     return `<url><loc>${origin}${entry.loc}</loc>${lastmod}</url>`
   })
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${[...bilingual, ...single].join('')}</urlset>`
+}
+
+/** One locale's marketing pages (hreflang alternates to the sibling locale files). */
+export function buildLocaleSitemap(
+  origin: string,
+  locale: Locale,
+  entries: { path: string; lastmod?: string }[],
+): string {
+  const urls = entries.map(
+    (e) =>
+      `<url><loc>${origin}${localizePath(locale, e.path)}</loc>${e.lastmod ? `<lastmod>${e.lastmod}</lastmod>` : ''}${alternates(origin, e.path)}</url>`,
+  )
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls.join('')}</urlset>`
+}
+
+/** sitemap index aggregating the per-section sitemap files. */
+export function buildSitemapIndex(origin: string, files: string[]): string {
+  const items = files.map((f) => `<sitemap><loc>${origin}/${f}</loc></sitemap>`)
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${items.join('')}</sitemapindex>`
 }
 
 export interface HeadLink {
@@ -105,7 +172,7 @@ export function localeHead(input: {
   const canonical = `${origin}${localizePath(locale, path)}`
   const links: HeadLink[] = [{ rel: 'canonical', href: canonical }]
   for (const l of locales) {
-    links.push({ rel: 'alternate', hrefLang: l, href: `${origin}${localizePath(l, path)}` })
+    links.push({ rel: 'alternate', hrefLang: HREFLANG[l], href: `${origin}${localizePath(l, path)}` })
   }
   links.push({
     rel: 'alternate',

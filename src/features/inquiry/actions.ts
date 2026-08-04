@@ -43,7 +43,7 @@ export const submitInquiry = createServerFn({ method: 'POST' })
       quantity: data.get('quantity'),
       requirements: data.get('requirements'),
     })
-    const locale = data.get('locale') === 'zh' ? 'zh' : 'en'
+    const locale = data.get('locale') === 'es' ? 'es' : 'en'
 
     // 字段校验先于 Turnstile：token 一经 siteverify 即作废（见 waitlist 注释）。
     if (!isValidInquiry(input)) return { ok: false, reason: 'invalid' }

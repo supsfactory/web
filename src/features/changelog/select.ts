@@ -15,11 +15,11 @@ export type ChangelogMeta = {
   version: string
 }
 
-/** Filter a fumadocs changelog collection by locale (.zh filename), drop unpublished, sort newest first. */
+/** Filter a fumadocs changelog collection by locale (.es filename), drop unpublished, sort newest first. */
 export function selectChangelog(entries: ChangelogRaw[], locale: string): ChangelogMeta[] {
-  const zh = locale === 'zh'
+  const es = locale === 'es'
   return entries
-    .filter((e) => (zh ? e.info.path.includes('.zh') : !e.info.path.includes('.zh')))
+    .filter((e) => (es ? e.info.path.includes('.es') : !e.info.path.includes('.es')))
     .filter((e) => e.published !== false)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .map((e) => ({ path: e.info.path, title: e.title, description: e.description, date: e.date, version: e.version }))

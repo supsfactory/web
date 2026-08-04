@@ -1,4 +1,4 @@
-import type { Locale } from '@/features/i18n/locale'
+﻿import type { Locale } from '@/features/i18n/locale'
 import type { Localized } from './content'
 
 /**
@@ -143,125 +143,125 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
-  zh: [
+  es: [
     {
       slug: 'how-custom-sup-boards-are-developed',
-      navLabel: '定制 SUP 板如何开发',
-      metaTitle: '定制 SUP 板如何开发:从想法到量产',
+      navLabel: 'Cómo se desarrollan las tablas de SUP personalizadas',
+      metaTitle: 'Cómo se desarrollan las tablas de SUP personalizadas: de la idea a la producción en serie',
       metaDescription:
-        '定制 SUP 产品如何从想法走向工厂:需求定义、规格、设计、打样、样品确认与量产——逐步拆解。',
-      kicker: '知识中心',
-      h1: '定制 SUP 板如何开发',
+        'Cómo pasa un producto SUP personalizado de la idea a la fábrica: definición de requisitos, especificaciones, diseño, muestras, aprobación y producción en serie — paso a paso.',
+      kicker: 'Centro de conocimiento',
+      h1: 'Cómo se desarrollan las tablas de SUP personalizadas',
       intro:
-        '在定制桨板送达你的客户之前,它要经历一条明确的开发路径。了解每个阶段,你就能正确地向工厂传达需求、设定合理时间表,并避开初次采购的常见误区。',
+        'Antes de que tu tabla personalizada llegue a tu cliente, recorre una ruta de desarrollo clara. Comprender cada fase te permite comunicar bien tus requisitos a la fábrica, fijar plazos realistas y evitar los errores más comunes de las primeras compras.',
       sections: [
         {
-          title: '第一步:定义需求',
+          title: 'Paso 1: Define el requisito',
           body: [
-            '每个开发项目都从使用场景开始:谁在使用板,在哪里用,频率如何。租赁舰队、品牌首发板与学校用板的要求不同——稳定性、耐用性与成本目标都会随之变化。',
-            '联系工厂之前,先写清楚数量、目标价格与必备功能。清晰的需求能换来更好的首轮报价与更短的沟通周期。',
+            'Todo proyecto de desarrollo empieza por el caso de uso: quién usa la tabla, dónde y con qué frecuencia. Las flotas de alquiler, las tablas de lanzamiento de marca y las tablas escolares tienen requisitos distintos: la estabilidad, la durabilidad y el objetivo de coste cambian con cada uno.',
+            'Antes de contactar con la fábrica, escribe la cantidad, el precio objetivo y las funciones imprescindibles. Un requisito claro consigue mejores cotizaciones en la primera ronda y ciclos de comunicación más cortos.',
           ],
         },
         {
-          title: '第二步:锁定规格',
+          title: 'Paso 2: Fija las especificaciones',
           body: [
-            '规格把需求变成可测量的数值:长度、宽度、厚度、体积、材料(织布密度、面料克重)、尾鳍设置、承重与包装。',
-            '双方都依据这份文档报价。越晚变更规格,越慢越贵——冻结规格是你最省钱的杠杆。',
+            'Las especificaciones convierten el requisito en números medibles: largo, ancho, grosor, volumen, materiales (densidad del tejido, gramaje de la lona), configuración de quillas, capacidad de peso y embalaje.',
+            'Ambas partes cotizan sobre este documento. Cuanto más tarde cambies las especificaciones, más lento y caro será: congelar las especificaciones es tu palanca de ahorro más potente.',
           ],
         },
         {
-          title: '第三步:设计与图案',
+          title: 'Paso 3: Diseño y arte',
           body: [
-            '规格确定后进入设计:板型调整、配色、Logo 位置、甲板垫图案与配件搭配(脚绳、桨、尾鳍、背包)。',
-            '工厂可以提供数字效果图,让你在制作实物样品之前就确认外观——比在硬件上反复迭代更便宜、更快。',
+            'Con las especificaciones fijadas, llega el diseño: ajuste de la forma, colores, posición del logo, arte del piso y accesorios a juego (leash, remo, quillas, bolsa).',
+            'La fábrica puede ofrecer renderizados digitales para confirmar el aspecto antes de fabricar la muestra física: más barato y rápido que iterar sobre el hardware.',
           ],
         },
         {
-          title: '第四步:打样与样品',
+          title: 'Paso 4: Prototipo y muestra',
           body: [
-            '样品是第一件实物证据。充气板的样品通常是手工或小批量试制,你可以实际下水测试并对照规格验证。',
-            '像最终用户那样测试样品:稳定性、硬度、直线滑行、重量与图案耐久性。充分的一轮样品确认通常能在量产前发现大部分问题。',
+            'La muestra es la primera prueba física. Las muestras de tablas hinchables suelen fabricarse a mano o en series pequeñas, así puedes probarlas en el agua y verificarlas contra las especificaciones.',
+            'Prueba la muestra como lo haría un usuario final: estabilidad, rigidez, planeo en línea recta, peso y durabilidad del arte. Una buena ronda de aprobación de muestras descubre la mayoría de los problemas antes de la producción.',
           ],
         },
         {
-          title: '第五步:量产与交付',
+          title: 'Paso 5: Producción y entrega',
           body: [
-            '样品确认后,按批次生产并设置质检节点。发货前的工厂检验——照片、视频或第三方验货——保障你收到的整批质量。',
-            '规划物流:大货走海运,小批紧急订单走空运。好的项目计划表从你的上市日期倒推,而不是从下单日期顺推。',
+            'Con la muestra aprobada, la producción avanza por lotes con puntos de control de calidad. La inspección previa al envío — fotos, vídeo o verificación por terceros — protege la calidad del lote completo que recibes.',
+            'Planifica la logística: la mayor parte del volumen viaja por mar; los pedidos urgentes y pequeños, por aire. Un buen plan de proyecto se calcula hacia atrás desde tu fecha de lanzamiento, no hacia delante desde la fecha del pedido.',
           ],
         },
       ],
     },
     {
       slug: 'inflatable-sup-construction-explained',
-      navLabel: '充气 SUP 结构解析',
-      metaTitle: '充气 SUP 结构解析:材料、层数与品质',
+      navLabel: 'La estructura de los SUP hinchables, explicada',
+      metaTitle: 'La estructura de los SUP hinchables: materiales, capas y calidad',
       metaDescription:
-        '充气 SUP 由什么构成——PVC 层、织布结构、板边与品质指标。了解结构,为你的项目指定更合理的板。',
-      kicker: '知识中心',
-      h1: '充气 SUP 结构解析',
+        'De qué está hecho un SUP hinchable: capas de PVC, estructura de tejido, rails e indicadores de calidad. Entiende la construcción para especificar mejores tablas en tu proyecto.',
+      kicker: 'Centro de conocimiento',
+      h1: 'La estructura de los SUP hinchables, explicada',
       intro:
-        '如今多数定制 SUP 项目都是充气板。它们更轻、更易储存与运输,对新手也更友好。本文解析其结构,让你能自信地指定品质。',
+        'La mayoría de los proyectos SUP personalizados actuales son hinchables. Son más ligeros, más fáciles de almacenar y transportar, y más amables con los principiantes. Este artículo desglosa su construcción para que especifiques calidad con confianza.',
       sections: [
         {
-          title: '核心:织布结构',
+          title: 'El núcleo: la estructura de tejido',
           body: [
-            '充气板围绕织布结构建造:数以千计的涤纶丝连接上下两层 PVC。充气时,这些丝线将板保持在固定厚度——这就是 iSUP 获得板型与刚性的原因。',
-            '丝线密度(每平方英寸针数)越高,相同气压下板身越硬越稳。入门板密度较低,高端板密度更高。',
+            'Los hinchables se construyen alrededor de una estructura de tejido: miles de hilos de poliéster unen las dos capas de PVC. Al inflar, esos hilos mantienen la tabla a un grosor fijo: así es como un iSUP gana su forma y su rigidez.',
+            'Cuanto mayor es la densidad de hilos (puntadas por pulgada cuadrada), más rígida y estable es la tabla a la misma presión. Las tablas de entrada usan densidades más bajas; las premium, más altas.',
           ],
         },
         {
-          title: 'PVC 层与板边',
+          title: 'Capas de PVC y rails',
           body: [
-            '织布被夹在 PVC 层之间,保护它免受磨损、紫外线与撞击。更厚的 PVC 抗刺穿能力更强,但会增加重量。',
-            '板边是日常使用中承受撞击最多的部位。双层或三层板边结构是耐用性与租赁适用性的强信号。',
+            'El tejido va intercalado entre capas de PVC que lo protegen de la abrasión, los rayos UV y los impactos. Un PVC más grueso resiste mejor los pinchazos, pero añade peso.',
+            'Los rails son la zona que más impactos recibe en el uso diario. Una construcción de doble o triple capa en los rails es una señal fuerte de durabilidad y aptitud para alquiler.',
           ],
         },
         {
-          title: '什么增加重量,什么增加强度',
+          title: 'Qué añade peso y qué añade resistencia',
           body: [
-            '重量是权衡:更厚的 PVC 增加耐用性也增加重量;轻量化组合适合需要长距离背负的用户。这正是定制规格贴合买家现实的最好体现。',
-            '值得追问的品质指标:额定气压、接缝工艺、气阀类型与织布密度。可靠的工厂会公开这些数据。',
+            'El peso es una compensación: un PVC más grueso aumenta la durabilidad y también el peso; las combinaciones ligeras sirven a quienes cargan la tabla durante largas distancias. Aquí es donde la especificación personalizada mejor se adapta a la realidad del comprador.',
+            'Indicadores de calidad que vale la pena preguntar: presión de inflado nominal, construcción de las costuras, tipo de válvula y densidad del tejido. Las fábricas serias publican estas cifras.',
           ],
         },
       ],
     },
     {
       slug: 'how-organizations-choose-sup-equipment',
-      navLabel: '机构如何选择 SUP 装备',
-      metaTitle: '度假村、俱乐部与学校如何选择 SUP 装备',
+      navLabel: 'Cómo eligen las organizaciones el equipamiento SUP',
+      metaTitle: 'Cómo eligen el equipamiento SUP los resorts, clubes y escuelas',
       metaDescription:
-        '为度假村、俱乐部与学校挑选 SUP 装备的实用框架:舰队规模、板型搭配、耐用性、储存与预算,让项目长期运转。',
-      kicker: '知识中心',
-      h1: '度假村、俱乐部与学校如何选择 SUP 装备',
+        'Un marco práctico para elegir equipamiento SUP en resorts, clubes y escuelas: tamaño de la flota, tipos de tabla, durabilidad, almacenamiento y presupuesto para un programa duradero.',
+      kicker: 'Centro de conocimiento',
+      h1: 'Cómo eligen las organizaciones el equipamiento SUP',
       intro:
-        '度假村、俱乐部与学校的采购逻辑不同于消费品牌:装备必须经受日常高频使用、服务不同水平的用户,并适配项目预算。本框架覆盖关键决策点。',
+        'Resorts, clubes y escuelas compran distinto a las marcas de consumo: el equipamiento debe aguantar el uso diario, servir a niveles mixtos y encajar en un presupuesto de programa. Este marco cubre las decisiones que importan.',
       sections: [
         {
-          title: '按使用量规划舰队规模',
+          title: 'Dimensiona la flota según el uso',
           body: [
-            '统计的是同时下水的人数,而不是总客量。轮换出租的度假村需要的板少于同时开课的学校——还要预留备板。',
-            '经验法则:每位同时使用者一块板,另加 10–15% 的备用量用于维护与增长。',
+            'Cuenta cuántos remadores estarán en el agua a la vez, no cuántos huéspedes tienes. Un resort que alquila en rotación necesita menos tablas que una escuela con clases simultáneas — y más de repuesto.',
+            'Una buena regla: una tabla por remador simultáneo, más un 10–15% de capacidad extra para mantenimiento y crecimiento.',
           ],
         },
         {
-          title: '按水平搭配板型',
+          title: 'Ajusta los tipos de tabla a los niveles',
           body: [
-            '初学者适合更宽、体积更大、感觉更稳的板;有经验者偏好更窄、滑行更快的板。多数项目适合混搭:以新手友好为主,配少量性能板。',
-            '多人板在课堂与团体体验中价值很高:便于教学,还能在轮换中替代多块单人板。',
+            'Los principiantes se benefician de tablas más anchas y voluminosas que resultan estables; los remadores experimentados prefieren tablas más estrechas que reman más rápido. Una flota mixta — sobre todo apta para principiantes, con unas pocas tablas de rendimiento — sirve a la mayoría de los programas.',
+            'Las tablas multiusuario valen su lugar en escuelas y experiencias grupales: permiten enseñar y pueden sustituir a varias tablas individuales en las rotaciones de clase.',
           ],
         },
         {
-          title: '耐用性是预算决策',
+          title: 'La durabilidad es una decisión de presupuesto',
           body: [
-            '租赁级构造前期投入更高,但两到三季下来更省钱。询单时问清楚板边加强、PVC 厚度与工厂对舰队订单的质保。',
-            '同时规划储存与充气:压缩机、货架与收纳流程决定了项目的日常工作量。舰队供应商通常把这类配套纳入方案。',
+            'La construcción de grado alquiler cuesta más por adelantado y ahorra dinero a lo largo de dos o tres temporadas. Pregunta por el refuerzo de los rails, el grosor del PVC y la garantía que ofrece la fábrica en los pedidos de flota.',
+            'También planifica almacenamiento e inflado: compresores, estanterías y rutinas de embalaje determinan el trabajo diario del programa. Los proveedores orientados a flotas incluyen esto en el paquete.',
           ],
         },
         {
-          title: '规划项目,而不只是一张订单',
+          title: 'Planifica el programa, no solo el pedido',
           body: [
-            '最好的装备订单是项目计划的一部分:教练培训、维护流程与旧板更新周期。规划了项目的机构会按计划更新装备;没规划的机构往往以全价紧急补货。',
+            'Los mejores pedidos de equipamiento forman parte de un plan de programa: formación de instructores, rutinas de mantenimiento y un ciclo de sustitución para las tablas desgastadas. Las organizaciones que planifican el programa renuevan el equipamiento según calendario; las que no, compran sustituciones de emergencia a precio completo.',
           ],
         },
       ],
@@ -286,10 +286,10 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
       'Practical guides on custom SUP product development, inflatable board construction, and choosing SUP equipment for resorts, clubs and schools.',
     h1: 'Knowledge Center — Product Development, Explained',
   },
-  zh: {
-    metaTitle: '知识中心:SUP 产品开发指南 | SUPsfactory',
+  es: {
+    metaTitle: 'Centro de conocimiento: guías de desarrollo de productos SUP | SUPsfactory',
     metaDescription:
-      '关于定制 SUP 产品开发、充气板结构与度假村、俱乐部、学校装备选型的实用指南。',
-    h1: '知识中心——产品开发,讲清楚',
+      'Guías prácticas sobre desarrollo de productos SUP personalizados, construcción de tablas hinchables y elección de equipamiento SUP para resorts, clubes y escuelas.',
+    h1: 'Centro de conocimiento — desarrollo de producto, explicado',
   },
 }

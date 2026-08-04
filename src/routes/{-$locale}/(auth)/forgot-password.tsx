@@ -25,7 +25,7 @@ function Forgot() {
 
   async function submit(e: React.FormEvent) {
     e.preventDefault()
-    // 带 locale 前缀：zh 用户从邮件点回来落 /zh/reset-password，而不是英文页
+    // 带 locale 前缀：es 用户从邮件点回来落 /es/reset-password，而不是英文页
     await requestPasswordReset({ email, redirectTo: localizePath(locale, '/reset-password') }, captchaHeaders(token))
     reset() // tokens are single-use
     setDone(true) // never reveal whether the email exists

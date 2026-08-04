@@ -22,10 +22,10 @@ export const Route = createFileRoute('/{-$locale}/how-it-works')({
       origin,
       locale,
       path: '/how-it-works',
-      title: locale === 'zh' ? '合作流程 | 从想法到交付的五个步骤 — SUPsfactory' : 'How It Works | Five Steps From Idea to Delivery — SUPsfactory',
+      title: locale === 'es' ? 'Cómo funciona | Cinco pasos de la idea a la entrega — SUPsfactory' : 'How It Works | Five Steps From Idea to Delivery — SUPsfactory',
       description:
-        locale === 'zh'
-          ? '分享想法、选择板型、确认设计与样品、生产与交付、发布与增长——SUPsfactory 带你走完定制 SUP 项目的每一步。'
+        locale === 'es'
+          ? 'Comparte tu idea, elige tu modelo, aprueba diseño y muestra, y después producción, entrega, lanzamiento y crecimiento: SUPsfactory te guía por cada paso de tu proyecto SUP personalizado.'
           : 'Share your idea, choose your model, approve design & sample, then production, delivery, launch & growth — SUPsfactory guides you through every step of your custom SUP project.',
     })
     return { meta, links }

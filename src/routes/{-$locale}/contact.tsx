@@ -24,10 +24,10 @@ export const Route = createFileRoute('/{-$locale}/contact')({
       origin,
       locale,
       path: '/contact',
-      title: locale === 'zh' ? '联系我们 | 开始你的定制 SUP 项目 — SUPsfactory' : 'Contact | Start Your Custom SUP Project — SUPsfactory',
+      title: locale === 'es' ? 'Contacto | Inicia tu proyecto SUP personalizado — SUPsfactory' : 'Contact | Start Your Custom SUP Project — SUPsfactory',
       description:
-        locale === 'zh'
-          ? '告诉我们你的 SUP 项目想法——最低 50 片起订、全面定制与设计支持。提交询盘，1 个工作日内回复。'
+        locale === 'es'
+          ? 'Cuéntanos tu idea de proyecto SUP: MOQ bajo desde 50 unidades, personalización completa y soporte de diseño. Envía una consulta y recibe respuesta en un día laborable.'
           : 'Tell us about your custom SUP project — low MOQ from 50pcs, full customization and design support. Submit an inquiry and get a reply within one business day.',
     })
     return { meta, links }
@@ -74,7 +74,7 @@ function ContactPage() {
               <Clock3 size={16} className="shrink-0 text-primary" /> {t('sup.contact.replyPromise')}
             </p>
             <p className="flex items-center gap-2.5">
-              <ShieldCheck size={16} className="shrink-0 text-primary" /> {locale === 'zh' ? '您的信息仅用于项目沟通，绝不会泄露给第三方。' : 'Your details are used for project communication only — never shared with third parties.'}
+              <ShieldCheck size={16} className="shrink-0 text-primary" /> {locale === 'es' ? 'Tus datos se usan solo para la comunicación del proyecto: nunca se comparten con terceros.' : 'Your details are used for project communication only — never shared with third parties.'}
             </p>
           </div>
         </div>

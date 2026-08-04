@@ -1,28 +1,11 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { llms } from 'fumadocs-core/source'
-import { source } from '@/features/docs/source'
-import {
-  llmProductsIndex,
-  llmSolutionsIndex,
-  llmProjectsIndex,
-  llmKnowledgeIndex,
-  llmAfarerIndex,
-} from '@/features/site/llm'
+import { LLMS_TXT } from '@/features/site/llms-content'
 
-// `/llms.txt` — an LLM-friendly index of the docs (title + description + link
-// per page, grouped by the sidebar tree). See https://llmstxt.org.
+// `/llms.txt` — LLM-friendly company facts card (see https://llmstxt.org).
 const handler = () =>
-  new Response(
-    llms(source).index() +
-      llmProductsIndex() +
-      llmSolutionsIndex() +
-      llmProjectsIndex() +
-      llmKnowledgeIndex() +
-      llmAfarerIndex(),
-    {
-      headers: { 'content-type': 'text/markdown; charset=utf-8' },
-    },
-  )
+  new Response(LLMS_TXT, {
+    headers: { 'content-type': 'text/plain; charset=utf-8' },
+  })
 
 export const Route = createFileRoute('/llms.txt')({
   server: { handlers: { GET: handler } },

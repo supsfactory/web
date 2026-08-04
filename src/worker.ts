@@ -13,6 +13,7 @@ import entry from '@tanstack/react-start/server-entry'
 import { withSecurityHeaders } from '@/lib/security-headers'
 import { runWithNonce, getNonce } from '@/lib/csp'
 import { assertEnvOnce } from '@/lib/env-validate'
+import { gatePath } from '@/features/seo/edge-gate'
 import { createDb } from '@/db/client'
 import { runCleanup } from '@/features/maintenance/cleanup'
 
@@ -42,6 +43,16 @@ function withMarketingCache(request: Request, response: Response): Response {
 const handler = {
   async fetch(request: Request, env: Cloudflare.Env, ctx: ExecutionContext): Promise<Response> {
     await assertEnvOnce()
+    // Edge URL policy first: 301 merges, 410 for removed template pages, and
+    // trailing-slash normalisation — before any route/API handler runs.
+    // Cache-Control: max-age=3600 (not longer) so redirects stay easy to amend.
+    const gate = gatePath(new URL(request.url).pathname)
+    if (gate.action === 'redirect' || gate.action === 'slash') {
+      return new Response(null, { status: 301, headers: { location: gate.to, 'cache-control': 'max-age=3600' } })
+    }
+    if (gate.action === 'gone') {
+      return new Response('Gone', { status: 410, headers: { 'cache-control': 'max-age=3600' } })
+    }
     // The nonce scope must wrap BOTH the SSR render (script tags read it) and
     // header construction (CSP references it) — ALS makes that request-scoped.
     return runWithNonce(async () => {

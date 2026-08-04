@@ -18,10 +18,10 @@ export const Route = createFileRoute('/{-$locale}/privacy')({
       origin,
       locale,
       path: '/privacy',
-      title: locale === 'zh' ? '隐私政策 — SUPsfactory' : 'Privacy Policy — SUPsfactory',
+      title: locale === 'es' ? 'Política de privacidad — SUPsfactory' : 'Privacy Policy — SUPsfactory',
       description:
-        locale === 'zh'
-          ? 'SUPsfactory 隐私政策。'
+        locale === 'es'
+          ? 'Política de privacidad de SUPsfactory.'
           : 'SUPsfactory’s privacy policy.',
     })
     return { meta: [...meta, { name: 'robots', content: 'noindex' }], links }

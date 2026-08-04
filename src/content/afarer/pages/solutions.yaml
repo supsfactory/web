@@ -8,7 +8,7 @@ meta:
     - 'inflatable sup manufacturer'
 hero:
   tagline: Business Solutions
-  title: 'SUP Solutions<br />For Every Business'
+  title: 'SUP Solutions For Every Business'
   subtitle: 'From resorts to retail, rental operators to global distributors — Afarer provides complete SUP solutions tailored to your business model.'
   image:
     src: https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp
@@ -26,7 +26,7 @@ stats:
       amount: 15,000+
 features3_solutions:
   tagline: Solutions By Business Type
-  title: 'Purpose-Built SUPs<br />For Your Business'
+  title: 'Purpose-Built SUPs For Your Business'
   isBeforeContent: false
   columns: 2
   items:

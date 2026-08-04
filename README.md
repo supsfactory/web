@@ -1,6 +1,6 @@
 <div align="center">
   <h1>SUPsfactory</h1>
-  <p>Your custom SUP product development & manufacturing partner — 10 manufacturing platforms, real OEM/ODM, bilingual marketing site + 5-page solutions system, shipped edge-native.</p>
+  <p>Your custom SUP product development & manufacturing partner — 10 manufacturing platforms, real OEM/ODM, bilingual (en/es) marketing site + 5-page solutions system, shipped edge-native.</p>
   <p>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
     <a href="https://developers.cloudflare.com/workers/"><img src="https://img.shields.io/badge/Cloudflare-Workers-F38020?logo=cloudflare&logoColor=white" alt="Cloudflare Workers"></a>
@@ -13,9 +13,9 @@
 
 ---
 
-**English** | [简体中文](README.zh.md)
+**English**
 
-SUPsfactory is the production-ready web presence for an SUP (stand-up paddleboard) OEM/ODM manufacturer — the marketing site is positioned as a **custom SUP product development & manufacturing partner**, not a "launch your own brand" tool. It pairs a fully designed bilingual (en / zh) marketing site with the complete SaaS backend from [Vectoflare](https://github.com/vectoflare/vectoflare): auth, email, an admin console, and more — every feature a real implementation, no mocks or stubs, running on the Cloudflare free-to-cheap stack (Workers + D1 + KV + R2). The full afarer brand content (factory, technology, research, news, product pages) is ported in and served from the same Worker, English-only, under `/`.
+SUPsfactory is the production-ready web presence for an SUP (stand-up paddleboard) OEM/ODM manufacturer — the marketing site is positioned as a **custom SUP product development & manufacturing partner**, not a "launch your own brand" tool. It pairs a fully designed bilingual (en / es) marketing site with the complete SaaS backend from [Vectoflare](https://github.com/vectoflare/vectoflare): auth, email, an admin console, and more — every feature a real implementation, no mocks or stubs, running on the Cloudflare free-to-cheap stack (Workers + D1 + KV + R2). The full afarer brand content (factory, technology, research, news, product pages) is ported in and served from the same Worker, English-only, under `/`.
 
 ## The marketing site
 
@@ -62,7 +62,7 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 | **Inquiry** | A public B2B inquiry form (name/company/country/email/WhatsApp/business type/quantity/requirements + optional logo upload to R2) with per-IP rate limiting + Turnstile, an HTML-escaped admin notification email, and an admin pipeline: status workflow, CSV export, and sandboxed logo serving. |
 | **Changelog** | An in-app `/changelog` page — MDX-driven, per-locale, with a `published` flag. |
 | **Feedback** | Signed-in users submit feedback + a "my feedback" list; an admin governance page drives status transitions and replies. Also the **reference for adding your own feature**: a vertical slice with ownership filtering, a pure function layer, both gate patterns, and dual-pool tests — see [feedback](src/content/docs/features/feedback.mdx). |
-| **i18n** | Path-based locale routing via TanStack's `{-$locale}` optional prefix — English at `/`, 中文 at `/zh`. All marketing copy, UI strings, and docs translated. |
+| **i18n** | Path-based locale routing via TanStack's `{-$locale}` optional prefix — English at `/`, Español at `/es`. All marketing copy and UI strings translated. |
 | **SEO** | Per-locale sitemap with `hreflang` + canonical for the bilingual pages, plus single-locale entries for the English-only afarer pages (factory, news, products, technology, case studies, guides); OpenGraph tags (featured image is a real product photo from the site's R2 CDN), `robots.txt`, `noindex` on authenticated pages, and the 5 solution pages as keyword targets (legacy landing URLs 301 to them). |
 | **AI-ready** | **Runtime:** [`llms.txt`](/llms.txt) index and [`llms-full.txt`](/llms-full.txt) full corpus — docs **plus the product catalog, the 5 solution pages (incl. FAQ) and the afarer brand corpus**; [`entity.json`](/entity.json) schema.org Organization; [`rss.xml`](/rss.xml) news feed; clean frontmatter-stripped Markdown via `/docs-md/*`; `robots.txt` pointing to all of them. **Codebase:** [`AGENTS.md`](AGENTS.md) is the single source of truth for coding agents (auto-imported into [`CLAUDE.md`](CLAUDE.md)). |
 | **Admin** | `ADMIN_EMAILS` is the **single source of truth**; the DB `role` column is a cache, two-way-synced on every gated access (promote on first use, demote the moment an email leaves the list). Every admin surface — pages, server fns, CSV exports, and better-auth's own `/api/auth/admin/*` — shares one `assertAdmin()` gate that returns **404** for non-admins (the admin surface stays invisible). Roles are least-privilege (`ban` / `impersonate` / `delete` / `list` only). Searchable/paginated user table, stats dashboard, ban/impersonate/delete actions — all on real data. |
@@ -141,7 +141,7 @@ src/
     audience/      # Resend contacts/audience sync (reused by waitlist)
     changelog/     # MDX-driven in-app changelog page (/changelog)
     feedback/      # example feedback box: submit/list/admin governance — the teach-by-example slice
-    i18n/          # dictionaries (en/zh) + provider + localizePath
+    i18n/          # dictionaries (en/es) + provider + localizePath
     seo/           # sitemap, robots, locale head tags (og:image, hreflang)
     docs/          # fumadocs source/layout config + llms.txt text generation
     admin/         # ADMIN_EMAILS-gated admin: assertAdmin gate, role two-way sync,
@@ -155,7 +155,7 @@ src/
                    # why-us, platforms-section, studio-section, gallery-section, faq, cta,
                    # reveal, board-art, site-nav, footer, solution-page, solution-route
   routes/
-    {-$locale}/    # locale-prefixed bilingual pages: /, /zh, /products, /solutions(+5 pages,
+    {-$locale}/    # locale-prefixed bilingual pages: /, /es, /products, /solutions(+5 pages,
                    # hub), /who-we-serve, /customizer, /waitlist, /changelog, /admin, /app, ...
                    # 5 legacy landing stubs that 301 to their solution pages
     *.tsx          # single-segment afarer stubs (factory, oem-odm, technology, ...)

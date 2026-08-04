@@ -32,8 +32,8 @@ export const Route = createFileRoute('/{-$locale}/')({
       path: '/',
       title: 'Supsfactory | Custom SUP Product Development & Manufacturing Partner',
       description:
-        locale === 'zh'
-          ? 'Supsfactory 帮助企业、品牌、度假村与组织,通过定制、产品开发、打样与可靠的制造支持,把 SUP 产品想法变成成品。'
+        locale === 'es'
+          ? 'Supsfactory ayuda a empresas, marcas, resorts y organizaciones a convertir ideas de productos SUP en productos terminados mediante personalización, desarrollo de producto, creación de prototipos y soporte de fabricación fiable.'
           : 'Supsfactory helps businesses, brands, resorts and organizations turn SUP product ideas into finished products through customization, product development, prototyping and reliable manufacturing support.',
       ogTitle: 'Turn Your SUP Product Ideas Into Reality | Supsfactory',
     })

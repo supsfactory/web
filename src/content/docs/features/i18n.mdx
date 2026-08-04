@@ -4,7 +4,7 @@ title: "国际化（i18n）与 SEO"
 
 ## 路由
 
-- 语言走路径前缀（TanStack `{-$locale}` 可选参数）：默认 `en` 无前缀（`/`、`/products`），`zh` 带前缀（`/zh`、`/zh/products`）。
+- 语言走路径前缀（TanStack `{-$locale}` 可选参数）：默认 `en` 无前缀（`/`、`/products`），`es` 带前缀（`/es`、`/es/products`）。
 - locale 来自路由 param（非 cookie）；主题仍 cookie。
 - `/en/...` 会 307 规范化到无前缀路径；未知语言 → 404。
 - 本地化页面在 `src/routes/{-$locale}/`；`api/`、`sitemap.xml`、`robots.txt` 在根、不本地化。
@@ -18,7 +18,7 @@ title: "国际化（i18n）与 SEO"
 
 ## SEO
 
-- `sitemap.xml`：列各语言公开页 + hreflang（en/zh/x-default）。
+- `sitemap.xml`：列各语言公开页 + hreflang（en/es/x-default）。
 - `robots.txt`：Disallow `/*/app`、`/*/admin`、`/api`；含 Sitemap 链接。
 - 公开页 head 由 `localeHead` 产出 canonical + hreflang + OG；app 页 `noindex`。
 - origin 取自 `BETTER_AUTH_URL`。

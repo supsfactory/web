@@ -1,11 +1,11 @@
 import { en, type Dict } from './dictionaries/en'
-import { zh } from './dictionaries/zh'
+import { es } from './dictionaries/es'
 
-export const locales = ['en', 'zh'] as const
+export const locales = ['en', 'es'] as const
 export type Locale = (typeof locales)[number]
 export const defaultLocale: Locale = 'en'
 
-export const dictionaries: Record<Locale, Dict> = { en, zh }
+export const dictionaries: Record<Locale, Dict> = { en, es }
 
 export function isLocale(value: unknown): value is Locale {
   return typeof value === 'string' && (locales as readonly string[]).includes(value)

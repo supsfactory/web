@@ -101,7 +101,7 @@ loader: async ({ params }) => {
 
 `requireUser` 显式传 `locale`——未登录时跳转登录页要带上当前语言前缀，否则中文用户会被弹回默认语言的登录页。`/admin/feedback`（`src/routes/{-$locale}/admin/feedback.tsx`）的 loader 更简单：直接调 `getFeedbackFn`，鉴权已经在 server fn 内部靠 `assertAdmin` 兜底，路由层不用重复判断。
 
-i18n 字典 `en.ts` / `zh.ts` 必须结构同一（`zh` 类型是 `typeof en`），`feedback.*` 这一组键——表单文案、列表、删除确认、`limitReached`——两个文件同增同删。**动态状态键**要小心：状态徽章文案是 `t(`feedback.status.${f.status}`)`，这种插值键在两个字典里都要把 `open`/`planned`/`shipped`/`closed` 四个子键补全，少一个不会在编译期报错，只会在运行时该状态下界面裸露 key 名。`admin.feedbackAdmin` / `admin.feedbackSub` / `admin.adminNotePlaceholder` 是治理页专属的补充键，挂在 `admin` 组而不是 `feedback` 组。
+i18n 字典 `en.ts` / `es.ts` 必须结构同一（`es` 类型是 `typeof en`），`feedback.*` 这一组键——表单文案、列表、删除确认、`limitReached`——两个文件同增同删。**动态状态键**要小心：状态徽章文案是 `t(`feedback.status.${f.status}`)`，这种插值键在两个字典里都要把 `open`/`planned`/`shipped`/`closed` 四个子键补全，少一个不会在编译期报错，只会在运行时该状态下界面裸露 key 名。`admin.feedbackAdmin` / `admin.feedbackSub` / `admin.adminNotePlaceholder` 是治理页专属的补充键，挂在 `admin` 组而不是 `feedback` 组。
 
 侧边栏两个入口：`AppShell` 里 Workspace 组的 `active === 'feedback'`（用户页）和 Admin 组的 `active === 'admin-feedback'`（治理页），都在 `src/components/app/app-shell.tsx`。
 
@@ -141,7 +141,7 @@ beforeAll(async () => {
 5. **workers 测试**：`posts.workers.test.ts`——`beforeAll` 手写建表 DDL，覆盖归属隔离 + 守卫 + 级联删除。
 6. **门控**：用户侧 `posts/actions.ts`（`readUser` 直调）或 admin 侧追加到 `admin/middleware.ts`（`assertAdmin`），按你的功能面向谁选一套。
 7. **路由页**：`loader` 里门控 + 数据预取；用户侧记得给 `requireUser` 传 `locale`。
-8. **i18n**：`en.ts` / `zh.ts` 同增 `posts.*` 键组，动态键（状态徽章一类）逐个子键补全。
+8. **i18n**：`en.ts` / `es.ts` 同增 `posts.*` 键组，动态键（状态徽章一类）逐个子键补全。
 9. **手工 DDL 同步**：如果别处的 workers 测试（比如账号删除的级联断言）依赖这张新表，记得同步改它们的 `beforeAll` 建表语句。
 
 ## 上线前如何整体删除本示例
@@ -151,7 +151,7 @@ beforeAll(async () => {
 1. 删 `src/features/feedback/` 整个目录。
 2. 删两个路由文件：`src/routes/{-$locale}/app/feedback.tsx`、`src/routes/{-$locale}/admin/feedback.tsx`。
 3. 删侧边栏两个入口：`src/components/app/app-shell.tsx` 里 `active === 'feedback'` 和 `active === 'admin-feedback'` 的两处 `<Link>`。
-4. 删 `en.ts` / `zh.ts` 里的 `feedback.*` 键组，以及 `admin` 组下 `feedbackAdmin`/`feedbackSub`/`adminNotePlaceholder` 等相关键。
+4. 删 `en.ts` / `es.ts` 里的 `feedback.*` 键组，以及 `admin` 组下 `feedbackAdmin`/`feedbackSub`/`adminNotePlaceholder` 等相关键。
 5. 从 `src/db/schema.ts` 移除 `feedback` 表的导出，生成一条 `DROP TABLE feedback` migration（**不要**改历史上已发布的建表 migration `0015_familiar_colonel_america.sql`——参考 `0016_bent_nova.sql` 就是 notes 表退役时新增的 `DROP TABLE notes`，同样的模式）。
 6. `scripts/seed.sql` 里去掉 `DELETE FROM feedback` / `INSERT INTO feedback` 那几行种子数据。
 7. 删本文档页 `src/content/docs/features/feedback.mdx` 自身。

@@ -23,13 +23,13 @@ export const Route = createFileRoute('/{-$locale}/waitlist')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
-    const dict = locale === 'zh' ? '加入候补名单' : 'Join the waitlist'
+    const dict = locale === 'es' ? 'Únete a la lista de espera' : 'Join the waitlist'
     const { meta, links } = localeHead({
       origin,
       locale,
       path: '/waitlist',
       title: `${dict} — SUPsfactory`,
-      description: locale === 'zh' ? '我们一上线就第一时间通知你。' : "We'll let you know the moment we launch.",
+      description: locale === 'es' ? 'Te avisaremos en cuanto lancemos.' : "We'll let you know the moment we launch.",
     })
     return { meta, links }
   },

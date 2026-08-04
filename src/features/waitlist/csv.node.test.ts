@@ -4,7 +4,7 @@ import { toCsv } from './csv'
 test('renders header + rows and escapes commas/quotes', () => {
   const csv = toCsv([
     { email: 'a@b.com', locale: 'en', source: 'waitlist', createdAt: new Date('2026-06-01T00:00:00Z') },
-    { email: 'c@d.com', locale: 'zh', source: 'a,b"c', createdAt: new Date('2026-06-02T00:00:00Z') },
+    { email: 'c@d.com', locale: 'es', source: 'a,b"c', createdAt: new Date('2026-06-02T00:00:00Z') },
   ])
   const lines = csv.trim().split('\n')
   expect(lines[0]).toBe('email,locale,source,created_at')

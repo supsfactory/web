@@ -9,8 +9,8 @@ test('verify-email 模板渲染 i18n 文案 + 注入链接', async () => {
   expect(out.text).toContain('https://app/verify?token=abc')
 })
 
-test('reset-password 模板支持中文', async () => {
-  const out = await renderEmail({ template: 'reset-password', locale: 'zh', data: { url: 'https://app/reset?token=xyz' } })
-  expect(out.subject).toBe('重置你的密码')
+test('reset-password 模板支持西班牙语', async () => {
+  const out = await renderEmail({ template: 'reset-password', locale: 'es', data: { url: 'https://app/reset?token=xyz' } })
+  expect(out.subject).toBe('Restablece tu contraseña')
   expect(out.html).toContain('https://app/reset?token=xyz')
 })

@@ -511,8 +511,8 @@
   permalink: /resources
   file: src/data/pages/resources.yaml
   sections:
-    - { key: hero_text, type: hero_text, label: 'Top HeroText' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: resources, type: features, label: 'Resources' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: safety

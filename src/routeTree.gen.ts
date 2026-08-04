@@ -16,6 +16,10 @@ import { Route as TourismRecreationRouteImport } from './routes/tourism-recreati
 import { Route as TechnologyRouteImport } from './routes/technology'
 import { Route as SizeGuideRouteImport } from './routes/size-guide'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as SitemapProductsDotxmlRouteImport } from './routes/sitemap-products[.]xml'
+import { Route as SitemapPagesDotxmlRouteImport } from './routes/sitemap-pages[.]xml'
+import { Route as SitemapNewsDotxmlRouteImport } from './routes/sitemap-news[.]xml'
+import { Route as SitemapEsDotxmlRouteImport } from './routes/sitemap-es[.]xml'
 import { Route as SearchAndRescueRouteImport } from './routes/search-and-rescue'
 import { Route as SafetyRouteImport } from './routes/safety'
 import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
@@ -145,6 +149,26 @@ const SizeGuideRoute = SizeGuideRouteImport.update({
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapProductsDotxmlRoute = SitemapProductsDotxmlRouteImport.update({
+  id: '/sitemap-products.xml',
+  path: '/sitemap-products.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapPagesDotxmlRoute = SitemapPagesDotxmlRouteImport.update({
+  id: '/sitemap-pages.xml',
+  path: '/sitemap-pages.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapNewsDotxmlRoute = SitemapNewsDotxmlRouteImport.update({
+  id: '/sitemap-news.xml',
+  path: '/sitemap-news.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapEsDotxmlRoute = SitemapEsDotxmlRouteImport.update({
+  id: '/sitemap-es.xml',
+  path: '/sitemap-es.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SearchAndRescueRoute = SearchAndRescueRouteImport.update({
@@ -714,6 +738,10 @@ export interface FileRoutesByFullPath {
   '/rss.xml': typeof RssDotxmlRoute
   '/safety': typeof SafetyRoute
   '/search-and-rescue': typeof SearchAndRescueRoute
+  '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
+  '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
+  '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
+  '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
   '/technology': typeof TechnologyRoute
@@ -817,6 +845,10 @@ export interface FileRoutesByTo {
   '/rss.xml': typeof RssDotxmlRoute
   '/safety': typeof SafetyRoute
   '/search-and-rescue': typeof SearchAndRescueRoute
+  '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
+  '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
+  '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
+  '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
   '/technology': typeof TechnologyRoute
@@ -920,6 +952,10 @@ export interface FileRoutesById {
   '/rss.xml': typeof RssDotxmlRoute
   '/safety': typeof SafetyRoute
   '/search-and-rescue': typeof SearchAndRescueRoute
+  '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
+  '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
+  '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
+  '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
   '/technology': typeof TechnologyRoute
@@ -1026,6 +1062,10 @@ export interface FileRouteTypes {
     | '/rss.xml'
     | '/safety'
     | '/search-and-rescue'
+    | '/sitemap-es.xml'
+    | '/sitemap-news.xml'
+    | '/sitemap-pages.xml'
+    | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/size-guide'
     | '/technology'
@@ -1129,6 +1169,10 @@ export interface FileRouteTypes {
     | '/rss.xml'
     | '/safety'
     | '/search-and-rescue'
+    | '/sitemap-es.xml'
+    | '/sitemap-news.xml'
+    | '/sitemap-pages.xml'
+    | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/size-guide'
     | '/technology'
@@ -1231,6 +1275,10 @@ export interface FileRouteTypes {
     | '/rss.xml'
     | '/safety'
     | '/search-and-rescue'
+    | '/sitemap-es.xml'
+    | '/sitemap-news.xml'
+    | '/sitemap-pages.xml'
+    | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/size-guide'
     | '/technology'
@@ -1336,6 +1384,10 @@ export interface RootRouteChildren {
   RssDotxmlRoute: typeof RssDotxmlRoute
   SafetyRoute: typeof SafetyRoute
   SearchAndRescueRoute: typeof SearchAndRescueRoute
+  SitemapEsDotxmlRoute: typeof SitemapEsDotxmlRoute
+  SitemapNewsDotxmlRoute: typeof SitemapNewsDotxmlRoute
+  SitemapPagesDotxmlRoute: typeof SitemapPagesDotxmlRoute
+  SitemapProductsDotxmlRoute: typeof SitemapProductsDotxmlRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   SizeGuideRoute: typeof SizeGuideRoute
   TechnologyRoute: typeof TechnologyRoute
@@ -1402,6 +1454,34 @@ declare module '@tanstack/react-router' {
       path: '/sitemap.xml'
       fullPath: '/sitemap.xml'
       preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-products.xml': {
+      id: '/sitemap-products.xml'
+      path: '/sitemap-products.xml'
+      fullPath: '/sitemap-products.xml'
+      preLoaderRoute: typeof SitemapProductsDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-pages.xml': {
+      id: '/sitemap-pages.xml'
+      path: '/sitemap-pages.xml'
+      fullPath: '/sitemap-pages.xml'
+      preLoaderRoute: typeof SitemapPagesDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-news.xml': {
+      id: '/sitemap-news.xml'
+      path: '/sitemap-news.xml'
+      fullPath: '/sitemap-news.xml'
+      preLoaderRoute: typeof SitemapNewsDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-es.xml': {
+      id: '/sitemap-es.xml'
+      path: '/sitemap-es.xml'
+      fullPath: '/sitemap-es.xml'
+      preLoaderRoute: typeof SitemapEsDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/search-and-rescue': {
@@ -2265,6 +2345,10 @@ const rootRouteChildren: RootRouteChildren = {
   RssDotxmlRoute: RssDotxmlRoute,
   SafetyRoute: SafetyRoute,
   SearchAndRescueRoute: SearchAndRescueRoute,
+  SitemapEsDotxmlRoute: SitemapEsDotxmlRoute,
+  SitemapNewsDotxmlRoute: SitemapNewsDotxmlRoute,
+  SitemapPagesDotxmlRoute: SitemapPagesDotxmlRoute,
+  SitemapProductsDotxmlRoute: SitemapProductsDotxmlRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   SizeGuideRoute: SizeGuideRoute,
   TechnologyRoute: TechnologyRoute,

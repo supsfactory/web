@@ -12,6 +12,7 @@ import {
   getGeoFacts,
   brandify,
 } from '@/features/content/loader'
+import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
 
@@ -32,6 +33,23 @@ function fmt(v: unknown, key: string, depth = 0): string[] {
 function factsSection(title: string, facts?: Record<string, unknown>): string[] {
   if (!facts || Object.keys(facts).length === 0) return []
   return ['', `## ${title}`, '', ...Object.entries(facts).flatMap(([k, v]) => fmt(v, k))]
+}
+
+/**
+ * `/llms-full.txt` opening card — concrete company facts instead of a generic
+ * template intro, so LLMs answer GEO questions with verifiable numbers.
+ */
+export function llmSiteHeader(): string {
+  const { company, certifications, manufacturing } = getGeoFacts()
+  return [
+    '# SUPsfactory',
+    '',
+    '> Custom inflatable SUP manufacturer: OEM/ODM/private-label production for brands, resorts and rental operators worldwide. MOQ from 50 pcs per design, sample 7–10 days, bulk 4–6 weeks after sample approval, 12,000 m² facility with 200+ workers and 15,000+ units annual capacity, CE / ISO 9001 / ISO 14001 / BSCI / REACH / USCG certified.',
+    ...factsSection('Company Facts', company),
+    ...factsSection('Certifications', certifications),
+    ...factsSection('Manufacturing', manufacturing),
+    '',
+  ].join('\n')
 }
 
 export function llmProductsIndex(): string {
@@ -168,7 +186,7 @@ export function llmAfarerIndex(): string {
     '/technology', '/safety', '/academy', '/learn', '/knowledge',
     '/guides', '/evidence', '/news', '/journal', '/solutions/build-your-own-brand',
     '/brand/why-afarer', '/trust', '/warranty', '/what-is-sup', '/inflatable-vs-hardboard',
-    '/size-guide', '/resources', '/custom', '/oem-odm', '/oem-paddle',
+    '/size-guide', '/resources', '/custom', '/oem-odm-manufacturer', '/oem-paddle',
     '/solutions/resorts-hotels', '/solutions/paddle-clubs', '/solutions/rental-operators',
     '/solutions/retail-partners', '/solutions/distributors', '/b2b-solutions-matrix',
     '/fabricant-sup-gonflable', '/bateau-gonflable-fabricant', '/fournisseur-nautique',
@@ -207,9 +225,13 @@ export function llmAfarerIndex(): string {
 
 /** Full text for the afarer factory/technology pages + products + articles. */
 export function llmsAfarerFull(): string {
-  const pageBlocks = getAfarerPages().map((p) =>
-    [`# ${brandify(p.label)}`, '', flat(brandify(p.meta?.description ?? '')), '', `URL: ${p.path}`].join('\n'),
-  )
+  // Edge-301'd source paths (/brand/afarer, /brand/story, /oem-odm, …) must
+  // not appear as canonical URLs in the LLM corpus — same rule as the sitemap.
+  const pageBlocks = getAfarerPages()
+    .filter((p) => !(p.path in EDGE_REDIRECTS))
+    .map((p) =>
+      [`# ${brandify(p.label)}`, '', flat(brandify(p.meta?.description ?? '')), '', `URL: ${p.path}`].join('\n'),
+    )
   const productBlocks = getAfarerProducts().map((p) =>
     [
       `## Product: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,

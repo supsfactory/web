@@ -20,13 +20,13 @@ const FACTS: Record<Locale, { label: string; value: string }[]> = {
     { label: 'Markets', value: 'Worldwide — Europe, Americas, Asia, Oceania' },
     { label: 'Business model', value: 'B2B development & manufacturing' },
   ],
-  zh: [
-    { label: '法律主体', value: '青岛威特瑞集团(Qingdao Vatrad Group)' },
-    { label: '产品方向', value: '定制 SUP 板、桨与配件' },
-    { label: '工厂', value: '自有工厂,位于中国' },
-    { label: '最小起订量', value: '50 片起' },
-    { label: '市场', value: '全球——欧洲、美洲、亚洲、大洋洲' },
-    { label: '业务模式', value: 'B2B 开发与制造' },
+  es: [
+    { label: 'Entidad legal', value: 'Qingdao Vatrad Group Co., Ltd.' },
+    { label: 'Enfoque de producto', value: 'Tablas, remos y accesorios SUP personalizados' },
+    { label: 'Fábricas', value: 'Producción propia en China' },
+    { label: 'Pedido mínimo', value: 'Desde 50 unidades' },
+    { label: 'Mercados', value: 'Mundial: Europa, América, Asia, Oceanía' },
+    { label: 'Modelo de negocio', value: 'Desarrollo y fabricación B2B' },
   ],
 }
 
@@ -46,12 +46,12 @@ export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
       locale,
       path: '/about/supsfactory-entity',
       title:
-        locale === 'zh'
-          ? 'SUPsfactory | 定制 SUP 制造公司与产品开发伙伴'
+        locale === 'es'
+          ? 'SUPsfactory | Empresa de fabricación de SUP personalizados y socio de desarrollo de producto'
           : 'SUPsfactory | Custom SUP Manufacturing Company & Product Development Partner',
       description:
-        locale === 'zh'
-          ? 'SUPsfactory 是定制 SUP 制造公司与产品开发伙伴:50 片起订、完整设计支持、自有工厂,由青岛威特瑞集团制造。'
+        locale === 'es'
+          ? 'SUPsfactory es una empresa de fabricación de SUP personalizados y socio de desarrollo de producto: desde mínimos de 50 unidades hasta soporte de diseño completo, fabricado por Qingdao Vatrad Group.'
           : 'SUPsfactory is a custom SUP manufacturing company and product development partner — from 50-piece minimums to full design support, manufactured by Qingdao Vatrad Group.',
     })
     return { meta, links }

@@ -22,10 +22,10 @@ export const Route = createFileRoute('/{-$locale}/products')({
       origin,
       locale,
       path: '/products',
-      title: locale === 'zh' ? 'SUP 产品 | 十大可定制系列 — SUPsfactory' : 'SUP Products | 10 Customizable Series — SUPsfactory',
+      title: locale === 'es' ? 'Productos SUP | 10 series personalizables — SUPsfactory' : 'SUP Products | 10 Customizable Series — SUPsfactory',
       description:
-        locale === 'zh'
-          ? '十款成熟 SUP 系列——从全能入门到设计师限定版，每一款都是可定制的制造平台，适合初创品牌、度假村、俱乐部与学校。'
+        locale === 'es'
+          ? 'Diez series de SUP probadas: de los clásicos polivalentes a las ediciones de diseñador. Cada modelo es una plataforma de fabricación personalizable para startups, resorts, clubes y escuelas.'
           : 'Ten proven SUP series — from all-around classics to designer editions. Every model is a customizable manufacturing platform for startups, resorts, clubs and schools.',
     })
     return { meta, links }

@@ -153,7 +153,8 @@ function FaqWidget({ c }: { c: Record<string, unknown> }) {
 /** Normalise legacy/redirected content hrefs to live targets ('' = render as a plain card, no link). */
 const HREF_REMAP: Record<string, string> = {
   '/resources/download-catalog': '/resources',
-  '/oem-odm-manufacturer': '/oem-odm',
+  '/oem-odm': '/oem-odm-manufacturer',
+  '/brand/afarer': '/about/afarer',
   '/compare': '/inflatable-vs-hardboard',
   '/compare/inflatable-vs-hardboard': '/inflatable-vs-hardboard',
   '/v2/intermediate-techniques': '/learn',
@@ -1085,10 +1086,27 @@ export function AfarerSection({ def, content }: { def: AfarerSectionDef; content
   return <ContentWidget c={c} />
 }
 
+/** Section keys rendered as the fallback hero — never output twice. */
+const HEADLINE_KEYS = new Set(['label', 'headline', 'subtitle', 'seo'])
+
 export function AfarerSections({ page }: { page: AfarerPage }) {
+  const hasHero = page.sections.some((def) => def.type === 'hero' || def.type === 'hero_text' || def.type === 'hero_carousel')
+  // Long-article template pages (label/headline/subtitle/seo/body) have no hero
+  // section, so their headline renders as plain content and the page ships no
+  // <h1>. Render the headline as a proper PageHero instead (template-level fix).
+  const sections = hasHero ? page.sections : page.sections.filter((def) => !HEADLINE_KEYS.has(def.key))
+  const hero = !hasHero
+    ? (() => {
+        const c = page.content
+        const headline = str(c.headline) || (isObj(c.seo) ? str((c.seo as Record<string, unknown>).headline) : '')
+        if (!headline) return null
+        return <PageHero kicker={str(c.label) || ''} title={brandify(headline)} sub={str(c.subtitle) || str(c.sub) || ''} />
+      })()
+    : null
   return (
     <>
-      {page.sections.map((def, i) => (
+      {hero}
+      {sections.map((def, i) => (
         <AfarerSection key={`${def.key}-${i}`} def={def} content={page.content[def.key]} />
       ))}
     </>

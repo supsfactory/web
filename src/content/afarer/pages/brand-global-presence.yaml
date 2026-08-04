@@ -8,7 +8,7 @@ meta:
     - 'professional sup supplier'
 hero:
   tagline: Global Presence
-  title: 'Serving 50+ Countries<br />Across Every Continent'
+  title: 'Serving 50+ Countries Across Every Continent'
   subtitle: 'From European coastal patrol operators to Australian water sports distributors to Middle East rescue teams —afarer boats are on the water worldwide.'
   image:
     src: https://assets.afarer.com/images/afarer/factory/afarer-factory-building.webp
@@ -26,7 +26,7 @@ stats:
       amount: Montclair, CA
 features3_markets:
   tagline: Key Markets
-  title: 'Regional Expertise<br />for Local Requirements'
+  title: 'Regional Expertise for Local Requirements'
   subtitle: 'We understand that different markets have different regulatory requirements, preferences, and use cases.'
   isBeforeContent: false
   columns: 4
@@ -45,7 +45,7 @@ features3_markets:
       icon: tabler:map-pin
 features3_distribution:
   tagline: Distribution Network
-  title: 'Partnering with Distributors<br />Worldwide'
+  title: 'Partnering with Distributors Worldwide'
   subtitle: 'We work with established marine equipment distributors, OEM brands, and government procurement agencies.'
   isBeforeContent: false
   columns: 3

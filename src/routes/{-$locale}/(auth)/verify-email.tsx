@@ -20,7 +20,7 @@ function Verify() {
 
   async function resend(e: React.FormEvent) {
     e.preventDefault()
-    // 带 locale 前缀：zh 用户验证完落 /zh/app（/app 会按 locale 组渲染对应语言）
+    // 带 locale 前缀：es 用户验证完落 /es/app（/app 会按 locale 组渲染对应语言）
     await sendVerificationEmail({ email, callbackURL: localizePath(locale, '/app') })
     setSent(true)
   }

@@ -8,14 +8,14 @@ meta:
     - 'paddle board manufacturing'
 hero:
   tagline: Marine Expertise
-  title: 'Decades of Marine Engineering<br />in Every Hull'
+  title: 'Decades of Marine Engineering in Every Hull'
   subtitle: 'afarer combines deep material science, precision manufacturing, and real-world testing to produce watercraft that perform when it matters.'
   image:
     src: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
     alt: afarer marine engineering and R&D team at work
 expertise_materials:
   tagline: Material Science
-  title: 'Choosing the Right Material<br />for Every Application'
+  title: 'Choosing the Right Material for Every Application'
   subtitle: 'We work with three core materials —each selected for specific use cases and performance requirements.'
   columns: 3
   items:
@@ -30,7 +30,7 @@ expertise_materials:
       icon: tabler:building-arch
 expertise_manufacturing:
   tagline: Manufacturing Capabilities
-  title: 'Precision Manufacturing<br />at Every Step'
+  title: 'Precision Manufacturing at Every Step'
   subtitle: 'Our 12,000 m² facility is equipped with specialized machinery for every stage of production.'
   columns: 2
   items:

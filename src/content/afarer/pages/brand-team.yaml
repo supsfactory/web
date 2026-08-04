@@ -8,14 +8,14 @@ meta:
     - 'sup factory team'
 hero:
   tagline: Our Team
-  title: 'The People Behind afarer<br />—Engineering Freedom on Water'
+  title: 'The People Behind afarer —Engineering Freedom on Water'
   subtitle: 'Founded in 2012 in Qingdao, China, afarer was built by marine engineers, material scientists, and water sports enthusiasts who believed in making professional-grade inflatable watercraft accessible worldwide.'
   image:
     src: /images/team-all.webp
     alt: afarer full team photo —engineering, production, and leadership
 founding:
   tagline: Our Founding
-  title: 'From a Coastal Workshop<br />to a 12,000 m² Facility'
+  title: 'From a Coastal Workshop to a 12,000 m² Facility'
   subtitle: 'afarer was founded by a team of marine engineers with decades of combined experience in inflatable boat design, PVC/Hypalon fabrication, and global marine equipment manufacturing.'
   items:
     - title: 'Founded: 2012'
@@ -68,7 +68,7 @@ leadership:
       image: https://assets.afarer.com/images/afarer/team/afarer-helen-contact-sales.webp
 philosophy:
   tagline: Design Philosophy
-  title: 'Engineering-Led Design<br />—Every Detail Matters'
+  title: 'Engineering-Led Design —Every Detail Matters'
   subtitle: 'Our engineering philosophy centers on three principles that guide every product we build.'
   list:
     - 'Reliability First: Every afarer product is tested to withstand real-world conditions —from cold-water rescue operations to tropical resort rentals. We over-engineer where it matters most.'

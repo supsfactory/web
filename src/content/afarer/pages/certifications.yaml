@@ -8,14 +8,14 @@ meta:
     - 'paddle board certification'
 hero:
   tagline: Certifications & Standards
-  title: 'Quality Certifications<br />& Compliance Standards'
+  title: 'Quality Certifications & Compliance Standards'
   subtitle: 'afarer SUP and inflatable boat manufacturing is certified to international marine safety standards, quality management systems, and environmental regulations —CE, ISO 9001, UKCA, BSCI, and REACH.'
   image:
     src: https://assets.afarer.com/images/afarer/certifications/certifications-hero.webp
     alt: afarer quality certifications and compliance documentation
 content_certifications:
   tagline: Our Certifications
-  title: 'Certified Quality,<br />Globally Recognized'
+  title: 'Certified Quality, Globally Recognized'
   subtitle: 'Every afarer product is backed by certifications that demonstrate our commitment to quality, safety, and environmental responsibility.'
   items:
     - title: 'CE Certified'
@@ -38,7 +38,7 @@ content_certifications:
       icon: tabler:test-pipe
 content_factory:
   tagline: Factory Standards
-  title: 'Manufacturing Excellence<br />—Built to Specification'
+  title: 'Manufacturing Excellence —Built to Specification'
   subtitle: 'Our 12,000 m² facility operates under strict quality control protocols at every stage of production.'
   list:
     - 'Incoming Material Inspection: All raw materials —PVC fabric, Hypalon, aluminum, plywood, adhesives —are tested against specifications before entering production.'
@@ -48,7 +48,7 @@ content_factory:
     - 'Batch Traceability: Every product carries a serial number linked to production batch records, enabling full traceability from raw material to finished goods.'
 content_safety:
   tagline: Marine Safety Standards
-  title: 'Safety First<br />—Designed for Reliable Operation'
+  title: 'Safety First —Designed for Reliable Operation'
   subtitle: 'afarer products are designed and tested to meet international marine safety standards for commercial and recreational use.'
   items:
     - title: 'ISO 6185'

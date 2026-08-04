@@ -18,7 +18,7 @@ test('returns rows newest-first with total', async () => {
   const db = createDb(env.DB)
   await db.insert(waitlist).values([
     { id: '1', email: 'old@x.com', locale: 'en', source: 'waitlist', createdAt: new Date(1000) },
-    { id: '2', email: 'new@x.com', locale: 'zh', source: 'waitlist', createdAt: new Date(2000) },
+    { id: '2', email: 'new@x.com', locale: 'es', source: 'waitlist', createdAt: new Date(2000) },
   ])
   const res = await getWaitlist(db, { page: 0, pageSize: 10 })
   expect(res.total).toBe(2)

@@ -21,10 +21,10 @@ test('translate 缺失 key 回退为 key 本身', () => {
   expect(translate(en, 'home.nope')).toBe('home.nope')
 })
 test('negotiateLocale：cookie 优先', () => {
-  expect(negotiateLocale('zh', 'en-US,en')).toBe('zh')
+  expect(negotiateLocale('es', 'en-US,en')).toBe('es')
 })
 test('negotiateLocale：无 cookie 时按 accept-language', () => {
-  expect(negotiateLocale(undefined, 'zh-CN,zh;q=0.9,en;q=0.8')).toBe('zh')
+  expect(negotiateLocale(undefined, 'es-ES,es;q=0.9,en;q=0.8')).toBe('es')
 })
 test('negotiateLocale：都不匹配回退默认', () => {
   expect(negotiateLocale('fr', 'fr-FR')).toBe(defaultLocale)

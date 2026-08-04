@@ -8,12 +8,12 @@ title: "落地页文案"
 
 ## 改文案
 
-落地页所有可见文字都在 i18n 字典里(`src/features/i18n/dictionaries/en.ts` 和 `zh.ts`),
+落地页所有可见文字都在 i18n 字典里(`src/features/i18n/dictionaries/en.ts` 和 `es.ts`),
 键名如 `heroTitlePre` / `heroTitleHl` / `heroSubtitle` / `feature1Title` / `feature1Body` /
 `heroCtaPrimary` 等。组件通过 `useTranslation` 读取,所以**只改字典就能改文案**。
 
 <Callout type="warn">
-`en.ts` 与 `zh.ts` 结构必须一致(`Dict` 类型会在编译期强制补全所有键)。加/改文案时**两个
+`en.ts` 与 `es.ts` 结构必须一致(`Dict` 类型会在编译期强制补全所有键)。加/改文案时**两个
 字典都要动**,否则 `pnpm typecheck` 会报错。
 </Callout>
 

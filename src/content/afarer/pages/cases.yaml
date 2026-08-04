@@ -8,14 +8,14 @@ meta:
     - 'nautical project examples'
 hero:
   tagline: Case Studies
-  title: 'Real Projects, Real Results<br />—afarer in Action'
+  title: 'Real Projects, Real Results —afarer in Action'
   subtitle: 'See how afarer partners with distributors, brands, and operators worldwide to deliver custom marine solutions for every application.'
   image:
     src: https://assets.afarer.com/images/afarer/factory/afarer-factory-building.webp
     alt: afarer case studies —custom marine manufacturing projects
 features3_cases:
   tagline: Featured Cases
-  title: 'Custom Solutions<br />For Real Challenges'
+  title: 'Custom Solutions For Real Challenges'
   isBeforeContent: false
   columns: 3
   items:

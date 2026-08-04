@@ -43,7 +43,7 @@ export const joinWaitlist = createServerFn({ method: 'POST' })
     const ok = await verifyTurnstile(data.turnstileToken, env.TURNSTILE_SECRET_KEY)
     if (!ok) return { status: 'captcha' }
 
-    const locale = data.locale === 'zh' ? 'zh' : 'en'
+    const locale = data.locale === 'es' ? 'es' : 'en'
     const status = await upsertWaitlist(createDb(env.DB), {
       id: crypto.randomUUID(),
       email,

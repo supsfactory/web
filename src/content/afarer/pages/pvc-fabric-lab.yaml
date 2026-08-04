@@ -49,23 +49,23 @@ content_html: |
     <div class="flex items-end gap-3 h-40">
       <div class="flex-1 flex flex-col items-center">
         <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
-        <span class="text-xs mt-1">0 h<br />100%</span>
+        <span class="text-xs mt-1">0 h 100%</span>
       </div>
       <div class="flex-1 flex flex-col items-center">
         <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
-        <span class="text-xs mt-1">500 h<br />95%</span>
+        <span class="text-xs mt-1">500 h 95%</span>
       </div>
       <div class="flex-1 flex flex-col items-center">
         <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
-        <span class="text-xs mt-1">1000 h<br />88%</span>
+        <span class="text-xs mt-1">1000 h 88%</span>
       </div>
       <div class="flex-1 flex flex-col items-center">
         <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
-        <span class="text-xs mt-1">2000 h<br />82%</span>
+        <span class="text-xs mt-1">2000 h 82%</span>
       </div>
       <div class="flex-1 flex flex-col items-center">
         <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
-        <span class="text-xs mt-1">Competitor<br />~65%</span>
+        <span class="text-xs mt-1">Competitor ~65%</span>
       </div>
     </div>
     <p class="text-xs text-gray-400 mt-2">Our PVC 1100 dtex fabric retains &gt; 80 % tensile strength after 2000 h xenon-arc exposure, compared to typical industry grades that drop below 70 %.</p>

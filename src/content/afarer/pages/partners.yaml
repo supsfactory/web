@@ -8,14 +8,14 @@ meta:
     - 'sup partnership'
 hero:
   tagline: Partners & Distribution
-  title: 'Become an afarer Partner<br />—Global Distribution Network'
+  title: 'Become an afarer Partner —Global Distribution Network'
   subtitle: "Join afarer's global partner network. We work with marine distributors, boat dealers, equipment retailers, and brand partners in 50+ countries."
   image:
     src: https://assets.afarer.com/images/afarer/partners/partners-hero.webp
     alt: afarer global partner and distributor network
 content_programs:
   tagline: Partner Programs
-  title: 'Partner Programs<br />Built for Growth'
+  title: 'Partner Programs Built for Growth'
   subtitle: 'Whether you are a distributor, dealer, or brand partner, afarer offers programs designed to support your business.'
   columns: 3
   items:

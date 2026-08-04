@@ -3,7 +3,7 @@
  *
  * A single root splat route (`src/routes/$.tsx`) serves the ported afarer
  * content site for both prefix-less and locale-prefixed URLs (`/factory`,
- * `/zh/factory`). It strips a leading locale segment before resolving the
+ * `/es/factory`). It strips a leading locale segment before resolving the
  * path against the afarer registry. All server loading + views live here so
  * the route file stays thin.
  */

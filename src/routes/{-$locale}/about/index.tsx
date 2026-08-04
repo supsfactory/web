@@ -21,10 +21,10 @@ export const Route = createFileRoute('/{-$locale}/about/')({
       origin,
       locale,
       path: '/about',
-      title: locale === 'zh' ? '关于我们 | 新兴桨板品牌背后的制造伙伴 — SUPsfactory' : 'About Us | The Manufacturing Partner Behind Paddle Brands — SUPsfactory',
+      title: locale === 'es' ? 'Sobre nosotros | El socio de fabricación detrás de las marcas de remo emergentes — SUPsfactory' : 'About Us | The Manufacturing Partner Behind Paddle Brands — SUPsfactory',
       description:
-        locale === 'zh'
-          ? 'SUPsfactory 是定制 SUP 制造公司：50 片起订、完整设计支持、把第一张订单看得和第一百张同样重要。'
+        locale === 'es'
+          ? 'SUPsfactory es una empresa de fabricación de SUP personalizados para marcas emergentes: MOQ flexible desde 50 unidades, soporte de diseño completo y un equipo que trata tu primer pedido con la misma seriedad que el centésimo.'
           : 'SUPsfactory is a custom SUP manufacturer built for emerging brands — flexible MOQ from 50pcs, complete design support and a team that treats your first order as seriously as your hundredth.',
     })
     return { meta, links }

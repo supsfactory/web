@@ -18,10 +18,10 @@ export const Route = createFileRoute('/{-$locale}/terms')({
       origin,
       locale,
       path: '/terms',
-      title: locale === 'zh' ? '服务条款 — SUPsfactory' : 'Terms of Service — SUPsfactory',
+      title: locale === 'es' ? 'Términos del servicio — SUPsfactory' : 'Terms of Service — SUPsfactory',
       description:
-        locale === 'zh'
-          ? 'SUPsfactory 服务条款。'
+        locale === 'es'
+          ? 'Términos del servicio de SUPsfactory.'
           : 'SUPsfactory’s terms of service.',
     })
     return { meta: [...meta, { name: 'robots', content: 'noindex' }], links }

@@ -23,7 +23,7 @@ Everything runs on the edge — the marketing site, the SaaS app, and all APIs a
 
 ### 1.2 Locale routing and the two content worlds
 
-Path-based bilingual routing via TanStack's `{-$locale}` optional prefix: English at `/`, 中文 at `/zh` (default locale has no prefix; `/en/...` is 301-stripped to the canonical no-prefix form in `route.tsx`). Locale is negotiated from cookie → Accept-Language.
+Path-based bilingual routing via TanStack's `{-$locale}` optional prefix: English at `/`, Español at `/es` (default locale has no prefix; `/en/...` is 301-stripped to the canonical no-prefix form in `route.tsx`). Locale is negotiated from cookie → Accept-Language.
 
 The site serves **two content worlds** from one route tree:
 
@@ -117,11 +117,11 @@ Product catalog lives in `src/features/site/content.ts`; the 5 solution pages (w
 
 ### 4.1 Solutions system and the legacy-landing 301s
 
-The five `/solutions/*` pages (custom-sup, private-label-sup, resort-sup, club-sup, school-sup) are data-driven: `solution-pages.ts` (en/zh) + the `solution-page.tsx` renderer + the `solution-route.tsx` route factory, mounted under the `solutions.tsx` layout with a hub at `solutions/index.tsx`. Every page shares one business logic — scenario → problems → solution → process → case study → FAQ — and ends in a **CTA temperature** (`cold` = Learn More, `warm` = Discuss Your Project, `hot` = Request Manufacturing Proposal): custom-sup is hot, private-label-sup and resort-sup warm, club-sup and school-sup cold.
+The five `/solutions/*` pages (custom-sup, private-label-sup, resort-sup, club-sup, school-sup) are data-driven: `solution-pages.ts` (en/es) + the `solution-page.tsx` renderer + the `solution-route.tsx` route factory, mounted under the `solutions.tsx` layout with a hub at `solutions/index.tsx`. Every page shares one business logic — scenario → problems → solution → process → case study → FAQ — and ends in a **CTA temperature** (`cold` = Learn More, `warm` = Discuss Your Project, `hot` = Request Manufacturing Proposal): custom-sup is hot, private-label-sup and resort-sup warm, club-sup and school-sup cold.
 
 The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`, `sup-for-resorts`, `sup-for-clubs`, `sup-startup-brands`) are now stubs whose loaders throw `redirect({ href: localizePath(locale, target), statusCode: 301 })` (TanStack's `redirect` with `statusCode`, validated against the router-core 1.171 `RedirectOptions`). Rationale and mechanics:
 
-- Old URLs keep their search equity: `sup-startup-brands` → `/solutions/custom-sup`, the other four map 1:1 to their new pages; zh requests redirect to the `/zh/...` equivalents via `localizePath`.
+- Old URLs keep their search equity: `sup-startup-brands` → `/solutions/custom-sup`, the other four map 1:1 to their new pages; es requests redirect to the `/es/...` equivalents via `localizePath`.
 - The old paths were removed from `PUBLIC_PATHS`/sitemap and their data (`landings.ts`, `landing-page.tsx`) deleted — the solution pages are the single source of truth; `SHADOWED_PATHS` covers all five new paths so the afarer registry can never shadow them.
 
 ---
