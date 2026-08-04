@@ -1,10 +1,11 @@
 # SUPsfactory — Technical Documentation
 
-> Last updated: 2026-08-03
+> Last updated: 2026-08-04
 > Project path: `E:\github\supsfactory`
 > Production: https://supsfactory.com (Cloudflare Workers, `supsfactory-production`)
 > Stack: TanStack Start (React 19) + Cloudflare Workers + D1 (Drizzle ORM) + KV + R2 + better-auth + Resend
 > Tests: Vitest (node + workers pools); `pnpm typecheck` / `pnpm build` green
+> Marketing positioning: custom SUP product development & manufacturing partner (not "launch your own brand") — 5-page /solutions system, legacy landings 301 to it; full afarer brand content ported under `/`
 
 ---
 
@@ -18,11 +19,18 @@ Everything runs on the edge — the marketing site, the SaaS app, and all APIs a
 |-------|--------------|
 | Server entry (`src/worker.ts`) | Wraps the TanStack server entry: fail-fast env validation once per isolate, per-request CSP nonce (AsyncLocalStorage), baseline security headers, Sentry wrapper (only when `SENTRY_DSN` set). |
 | Cron | `0 3 * * *` daily cleanup — deletes expired `session`/`verification` and stale `rateLimit` rows (`src/features/maintenance/cleanup.ts`). No outbound calls. |
-| Assets | Self-hosted fonts, `public/` statics. Product photos hot-linked from `assets.afarer.com` (the brand CDN). |
+| Assets | Self-hosted fonts, `public/` statics. Product photos served from `assets.supsfactory.com` (the site's own R2 CDN). All afarer content (`src/content/afarer/`) is bundled at build time via Vite glob + `?raw` — no filesystem at runtime. |
 
-### 1.2 Locale routing
+### 1.2 Locale routing and the two content worlds
 
-Path-based bilingual routing via TanStack's `{-$locale}` optional prefix: English at `/`, 中文 at `/zh` (default locale has no prefix). Marketing copy, UI strings, and docs are all translated. Locale is negotiated from cookie → Accept-Language.
+Path-based bilingual routing via TanStack's `{-$locale}` optional prefix: English at `/`, 中文 at `/zh` (default locale has no prefix; `/en/...` is 301-stripped to the canonical no-prefix form in `route.tsx`). Locale is negotiated from cookie → Accept-Language.
+
+The site serves **two content worlds** from one route tree:
+
+1. **Bilingual marketing site** (`{-$locale}/` routes) — copy/UI in `src/features/site/content.ts`, solution pages in `solution-pages.ts`.
+2. **Ported afarer brand site** (English-only) — the factory/technology/research/news/product content from `src/content/afarer/`. The root catch-all `src/routes/$.tsx` strips an optional leading locale segment and resolves the rest against the afarer registry; unknown paths throw `notFound()`. ~45 single-segment paths (e.g. `/factory`, `/oem-odm`, `/technology`) get their own static route stub via `afarerSingleRoute()` — they **must** be explicit routes because the optional `{-$locale}` group terminates on a bare segment before the splat is ever considered (a static route outranks the optional group).
+
+Registry ownership is explicit: `SHADOWED_PATHS` (`features/content/loader.ts`) lists every path owned by a static SUPsfactory route — registry entries under those are never rendered; `EXTRA_PATHS` maps registry-less pages (research articles, R&D subpages, ported solution/OEM pages) to their YAML slugs for dedicated routes.
 
 ### 1.3 Three data stores
 
@@ -97,13 +105,24 @@ All generated dynamically; content sources are the single point of truth — edi
 
 | Endpoint | Source | Output |
 |----------|--------|--------|
-| `/sitemap.xml` | `src/features/seo/seo.ts` (`PUBLIC_PATHS` × locales, hreflang alternates) + docs pages | XML, bilingual |
-| `/robots.txt` | `src/features/seo/seo.ts` | disallow `/app`, `/admin`, `/*/admin`, `/api`; points to sitemap + llms |
-| `/llms.txt` | `src/features/docs/llm.ts` (docs index) + `src/features/site/llm.ts` (products + landings) | Markdown index for LLMs |
-| `/llms-full.txt` | same, concatenated plain Markdown | full corpus |
+| `/sitemap.xml` | `src/features/seo/seo.ts` (`PUBLIC_PATHS` × locales, hreflang alternates) + docs pages + afarer public paths (registry + products/news/technology/case-studies/guides) | XML; bilingual entries with hreflang, single-locale entries (no alternates) for the English-only afarer pages |
+| `/robots.txt` | `src/features/seo/seo.ts` | disallow `/app`, `/admin`, `/*/admin`, `/api`; points to sitemap, llms, entity.json, rss.xml |
+| `/llms.txt` | `src/features/docs/llm.ts` (docs index) + `src/features/site/llm.ts` (products + **solution pages** + afarer index) | Markdown index for LLMs |
+| `/llms-full.txt` | same, concatenated plain Markdown | full corpus (catalog, solutions incl. FAQ, afarer pages/news/technology/case studies, geo facts) |
+| `/entity.json` | `src/features/content/loader.ts` (`getGeoEntity`) | schema.org Organization — `@id`/`url` rewritten to this site's origin |
+| `/rss.xml` | afarer news posts | RSS feed |
 | `/docs-md/*` | `src/routes/docs-md/$.ts` | frontmatter-stripped Markdown per page |
 
-Product catalog lives in `src/features/site/content.ts`; landing pages (with FAQ) in `src/features/site/landings.ts` (5 SEO landing pages). Keeping these in the LLM corpus means answer engines cite the actual offer — including prices and SKUs.
+Product catalog lives in `src/features/site/content.ts`; the 5 solution pages (with FAQ) in `src/features/site/solution-pages.ts`; the afarer corpus in `src/content/afarer/` (registry `site/pages.yaml` + 70 page YAMLs + 13 products + 19 news + 4 technology + 4 case studies + geo JSON). Keeping all of it in the LLM corpus means answer engines cite the actual offer — including prices and SKUs.
+
+### 4.1 Solutions system and the legacy-landing 301s
+
+The five `/solutions/*` pages (custom-sup, private-label-sup, resort-sup, club-sup, school-sup) are data-driven: `solution-pages.ts` (en/zh) + the `solution-page.tsx` renderer + the `solution-route.tsx` route factory, mounted under the `solutions.tsx` layout with a hub at `solutions/index.tsx`. Every page shares one business logic — scenario → problems → solution → process → case study → FAQ — and ends in a **CTA temperature** (`cold` = Learn More, `warm` = Discuss Your Project, `hot` = Request Manufacturing Proposal): custom-sup is hot, private-label-sup and resort-sup warm, club-sup and school-sup cold.
+
+The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`, `sup-for-resorts`, `sup-for-clubs`, `sup-startup-brands`) are now stubs whose loaders throw `redirect({ href: localizePath(locale, target), statusCode: 301 })` (TanStack's `redirect` with `statusCode`, validated against the router-core 1.171 `RedirectOptions`). Rationale and mechanics:
+
+- Old URLs keep their search equity: `sup-startup-brands` → `/solutions/custom-sup`, the other four map 1:1 to their new pages; zh requests redirect to the `/zh/...` equivalents via `localizePath`.
+- The old paths were removed from `PUBLIC_PATHS`/sitemap and their data (`landings.ts`, `landing-page.tsx`) deleted — the solution pages are the single source of truth; `SHADOWED_PATHS` covers all five new paths so the afarer registry can never shadow them.
 
 ---
 
