@@ -160,6 +160,8 @@ export const zh: Dict = {
       nextTitle: '与项目专员沟通',
       nextBody: '告诉我们你的 SUP 项目——我们通常在一个工作日内回复。',
       seeAll: '查看全部方案',
+      hubKicker: '方案页面',
+      hubTitle: '选择你的方案入口',
     },
     contact: {
       title: '开始你的定制项目',

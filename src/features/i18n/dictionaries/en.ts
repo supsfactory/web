@@ -169,6 +169,8 @@ export const en = {
       nextTitle: 'Talk to a Project Specialist',
       nextBody: 'Tell us about your SUP project — we typically reply within one business day.',
       seeAll: 'See all solutions',
+      hubKicker: 'Solution Pages',
+      hubTitle: 'Choose Your Solutions Path',
     },
     contact: {
       title: 'Start Your Custom Project',

@@ -1,6 +1,7 @@
 import { Link } from '@tanstack/react-router'
 import { ArrowRight, Package, BadgeCheck, Hotel, Users } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { pick, serve } from '@/features/site/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
@@ -23,7 +24,7 @@ export function WhoWeServe() {
               <Reveal key={seg.slug} delay={i * 80}>
                 <Link
                   to="/$"
-                  params={{ _splat: seg.href.replace(/^\/+/, '') }}
+                  params={{ _splat: localizePath(locale, seg.href).replace(/^\/+/, '') }}
                   className="marine-card group flex h-full flex-col p-7"
                   style={{ color: 'inherit' }}
                 >
