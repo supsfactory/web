@@ -6,7 +6,7 @@ import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
 import { pick, solutions } from '@/features/site/content'
-import { solutionPages } from '@/features/site/solution-pages'
+import { solutionPages, solutionPath } from '@/features/site/solution-pages'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { SolutionsSection } from '@/components/marketing/solutions-section'
 import { CtaBand } from '@/components/marketing/cta'
@@ -48,7 +48,7 @@ function SolutionsIndex() {
               <Link
                 key={page.slug}
                 to="/$"
-                params={{ _splat: localizePath(locale, `/solutions/${page.slug}`).replace(/^\/+/, '') }}
+                params={{ _splat: localizePath(locale, solutionPath(page.slug)).replace(/^\/+/, '') }}
                 className="marine-card group flex flex-col p-6 transition-transform hover:-translate-y-0.5"
                 style={{ color: 'inherit' }}
               >

@@ -20,6 +20,30 @@ const handler = () => {
   const out = JSON.parse(JSON.stringify(entity)) as Record<string, unknown>
   if (typeof out['@id'] === 'string') out['@id'] = `${origin}/#organization`
   if (typeof out.url === 'string') out.url = origin
+  out.name = 'SUPsfactory'
+  out.parentOrganization = {
+    '@type': 'Organization',
+    name: 'Afarer',
+    description:
+      'Afarer is the SUP manufacturing brand of Qingdao Vatrad Group Co., Ltd. — OEM/ODM inflatable SUP production in Qingdao, China.',
+  }
+  out.knowsAbout = [
+    'SUP manufacturing',
+    'custom paddle boards',
+    'SUP product development',
+    'SUP prototyping',
+    'private label SUP',
+    'custom SUP design',
+    'OEM manufacturing',
+    'resort SUP equipment',
+    'club SUP equipment',
+    'school SUP equipment',
+  ]
+  out.subjectOf = [
+    { '@type': 'WebPage', name: 'Company entity', url: `${origin}/about/supsfactory-entity` },
+    { '@type': 'CollectionPage', name: 'Projects', url: `${origin}/projects` },
+    { '@type': 'CollectionPage', name: 'Knowledge Center', url: `${origin}/knowledge` },
+  ]
   return new Response(JSON.stringify(out, null, 2), {
     headers: { 'content-type': 'application/json; charset=utf-8' },
   })

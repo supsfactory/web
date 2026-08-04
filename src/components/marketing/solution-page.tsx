@@ -3,7 +3,8 @@ import { ArrowRight, CheckCircle2, Target, AlertCircle } from 'lucide-react'
 import type { SolutionPageData } from '@/features/site/solution-pages'
 import { useTranslation } from '@/features/i18n/provider'
 import { PageHero, SectionHead } from './section-head'
-import { JsonLd, faqLd } from '@/features/seo/jsonld'
+import { JsonLd, faqLd, serviceLd } from '@/features/seo/jsonld'
+import { solutionPath } from '@/features/site/solution-pages'
 
 /**
  * Shared renderer for the Solutions system pages (src/features/site/solution-pages.ts).
@@ -12,12 +13,15 @@ import { JsonLd, faqLd } from '@/features/seo/jsonld'
  */
 export function SolutionPage({ page }: { page: SolutionPageData }) {
   const { t } = useTranslation()
-  const ctaLabel = {
-    cold: t('sup.solutions.ctaCold'),
-    warm: t('sup.solutions.ctaWarm'),
-    hot: t('sup.solutions.ctaHot'),
-  }[page.ctaLevel]
+  const ctaLabel =
+    page.ctaLabel ??
+    {
+      cold: t('sup.solutions.ctaCold'),
+      warm: t('sup.solutions.ctaWarm'),
+      hot: t('sup.solutions.ctaHot'),
+    }[page.ctaLevel]
   const ctaHref = page.ctaLevel === 'cold' ? '/solutions' : '/contact'
+  const path = solutionPath(page.slug)
 
   return (
     <>
@@ -121,6 +125,13 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
         </div>
       </section>
       <JsonLd data={faqLd(page.faqs)} />
+      <JsonLd
+        data={serviceLd({
+          serviceType: page.serviceType,
+          description: page.metaDescription,
+          path,
+        })}
+      />
 
       {/* CTA + related paths */}
       <section className="ocean-grad">

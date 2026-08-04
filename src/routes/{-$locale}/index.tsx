@@ -30,11 +30,12 @@ export const Route = createFileRoute('/{-$locale}/')({
       origin,
       locale,
       path: '/',
-      title: 'SUPsfactory — Turn Your SUP Ideas Into Reality | Custom SUP Manufacturing',
+      title: 'Supsfactory | Custom SUP Product Development & Manufacturing Partner',
       description:
         locale === 'zh'
-          ? 'SUPsfactory——定制 SUP 产品开发与制造伙伴。帮助企业、组织和品牌客户将 SUP 产品需求从概念、设计、样品到批量生产实现落地。'
-          : 'Custom SUP product development and manufacturing partner. From product concepts and customization requirements to prototypes and production — SUPsfactory helps businesses turn SUP ideas into real products.',
+          ? 'Supsfactory 帮助企业、品牌、度假村与组织,通过定制、产品开发、打样与可靠的制造支持,把 SUP 产品想法变成成品。'
+          : 'Supsfactory helps businesses, brands, resorts and organizations turn SUP product ideas into finished products through customization, product development, prototyping and reliable manufacturing support.',
+      ogTitle: 'Turn Your SUP Product Ideas Into Reality | Supsfactory',
     })
     return { meta, links }
   },

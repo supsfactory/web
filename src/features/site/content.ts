@@ -42,8 +42,8 @@ export const hero: Localized<HeroContent> = {
     titlePre: 'Turn Your',
     titleAccent: 'SUP Ideas',
     titlePost: 'Into Reality',
-    sub: 'From product concepts and customization requirements to prototypes and production, SUPsfactory helps businesses create SUP products with reliable manufacturing support.',
-    ctaPrimary: 'Discuss Your Project',
+    sub: 'From product concepts and customization requirements to prototypes and production, SUPsfactory helps businesses create SUP products through professional development and manufacturing support.',
+    ctaPrimary: 'Discuss Your SUP Project',
     ctaSecondary: 'Explore Custom Solutions',
     chips: ['Flexible MOQ', 'Custom Production', 'Powered by Afarer Manufacturing'],
     mockupLabel: 'Signature Platform',
@@ -57,8 +57,8 @@ export const hero: Localized<HeroContent> = {
     titlePre: '把你的',
     titleAccent: 'SUP 想法',
     titlePost: '变成现实',
-    sub: '从产品需求、定制方案到样品和批量生产，SUPsfactory 以可靠的制造支持，帮助企业把 SUP 产品想法转化为真实产品。',
-    ctaPrimary: '讨论你的项目',
+    sub: '从产品需求、定制要求到样品和批量生产,SUPsfactory 通过专业的开发与制造支持,帮助企业把 SUP 产品想法变成现实。',
+    ctaPrimary: '讨论你的 SUP 项目',
     ctaSecondary: '探索定制方案',
     chips: ['灵活起订量', '定制生产', 'Afarer 制造能力支持'],
     mockupLabel: '旗舰平台',
@@ -88,8 +88,8 @@ export interface WhyContent {
 export const why: Localized<WhyContent> = {
   en: {
     kicker: 'Powered by Afarer Manufacturing',
-    title: 'Manufacturing Capability Behind Your Project',
-    sub: 'Every project is supported by Afarer’s SUP manufacturing expertise — engineering, production, quality and supply.',
+    title: 'Powered By Afarer Manufacturing Expertise',
+    sub: 'Supsfactory works with Afarer’s SUP manufacturing capabilities to support product development, production and delivery.',
     image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
     imageCaption: 'Afarer manufacturing facility, Qingdao, China',
     bullets: [
@@ -113,8 +113,8 @@ export const why: Localized<WhyContent> = {
   },
   zh: {
     kicker: 'Afarer 制造能力支持',
-    title: '项目背后的制造能力',
-    sub: '每一个项目都由 Afarer 的 SUP 制造专长支撑——工程、生产、品质与全球供应。',
+    title: 'Afarer 制造专业能力支撑',
+    sub: 'Supsfactory 依托 Afarer 的 SUP 制造能力,支持产品开发、生产与交付。',
     image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
     imageCaption: 'Afarer 制造工厂,中国青岛',
     bullets: [
@@ -175,7 +175,7 @@ export const serve: Localized<ServeContent> = {
         body: 'Customize boards, graphics, specifications and accessories — from your idea to a manufacturable product.',
         points: ['Board customization', 'Graphics & branding', 'Specification support'],
         cta: 'Explore Custom SUP',
-        href: '/solutions/custom-sup',
+        href: '/custom-sup-development',
       },
       {
         slug: 'private-label-sup',
@@ -214,7 +214,7 @@ export const serve: Localized<ServeContent> = {
         body: '定制板型、图案、规格与配件——从你的想法到可量产的产品。',
         points: ['板面定制', '图案与品牌', '规格支持'],
         cta: '了解定制 SUP',
-        href: '/solutions/custom-sup',
+        href: '/custom-sup-development',
       },
       {
         slug: 'private-label-sup',
@@ -262,8 +262,8 @@ export interface SolutionsContent {
 export const solutions: Localized<SolutionsContent> = {
   en: {
     kicker: 'Customization Capability',
-    title: 'Customize Your SUP Product',
-    sub: 'Four areas you can customize — from the board itself to your production requirements.',
+    title: 'Custom SUP Product Solutions For Your Business',
+    sub: 'Whether you need customized SUP products, private label manufacturing support, resort equipment or organization solutions, we help transform requirements into finished products.',
     pillars: [
       {
         title: 'Board Design',
@@ -289,8 +289,8 @@ export const solutions: Localized<SolutionsContent> = {
   },
   zh: {
     kicker: '定制能力',
-    title: '定制你的 SUP 产品',
-    sub: '四个可定制方向——从板身本身到你的生产需求。',
+    title: '面向你的业务的定制 SUP 产品方案',
+    sub: '无论你需要定制 SUP 产品、贴牌制造支持、度假村装备还是机构解决方案,我们都帮你把需求转化为成品。',
     pillars: [
       {
         title: '板面设计',
@@ -729,15 +729,15 @@ export interface WorksContent {
 export const works: Localized<WorksContent> = {
   en: {
     kicker: 'Product Development Process',
-    title: 'From Requirement To Finished Product',
+    title: 'From SUP Concept To Finished Product',
     sub: 'A clear process for turning your requirements into delivered products.',
     steps: [
       {
-        title: 'Project Discussion',
+        title: 'Requirement Discussion',
         body: 'Understand your product requirements, market application and expectations.',
       },
       {
-        title: 'Specification Development',
+        title: 'Product Specification',
         body: 'Select suitable board type, materials and configurations.',
       },
       {
@@ -745,8 +745,12 @@ export const works: Localized<WorksContent> = {
         body: 'Prepare graphics, colors and customization details.',
       },
       {
-        title: 'Prototype & Sample',
-        body: 'Confirm product appearance and performance before production.',
+        title: 'Prototype Development',
+        body: 'Develop a prototype that confirms appearance and performance.',
+      },
+      {
+        title: 'Sample Approval',
+        body: 'Confirm the physical sample before production starts.',
       },
       {
         title: 'Production',
@@ -761,15 +765,15 @@ export const works: Localized<WorksContent> = {
   },
   zh: {
     kicker: '产品开发流程',
-    title: '从需求到成品交付',
+    title: '从 SUP 概念到成品交付',
     sub: '一个清晰的流程,把你的需求变成交付的产品。',
     steps: [
       {
-        title: '项目沟通',
+        title: '需求沟通',
         body: '了解你的产品需求、应用场景与预期。',
       },
       {
-        title: '规格开发',
+        title: '产品规格',
         body: '选择合适的板型、材料与配置。',
       },
       {
@@ -777,8 +781,12 @@ export const works: Localized<WorksContent> = {
         body: '准备图案、配色与定制细节。',
       },
       {
-        title: '打样与样品',
-        body: '量产前确认产品外观与性能。',
+        title: '样品开发',
+        body: '开发样品,确认外观与性能。',
+      },
+      {
+        title: '样品确认',
+        body: '量产前确认实物样品。',
       },
       {
         title: '生产',
@@ -812,57 +820,47 @@ export interface SolveContent {
 export const solve: Localized<SolveContent> = {
   en: {
     kicker: 'What We Help You Solve',
-    title: 'We Help Solve Your SUP Product Challenges',
+    title: 'Solve Your SUP Product Development Challenges',
     sub: 'Your concerns first — here is how we address them.',
     cta: 'Discuss Your Project',
     items: [
       {
-        problem: '“I have an idea, but I don’t know how to make it.”',
+        problem: '“Need A Custom SUP Product?”',
         solution: 'Product Development Support',
-        body: 'We help evaluate specifications, materials and manufacturing feasibility.',
+        body: 'We help evaluate product requirements, specifications and manufacturing feasibility.',
       },
       {
-        problem: '“I need customization, but my quantity is limited.”',
-        solution: 'Flexible Production',
-        body: 'Support customized projects with practical production quantities.',
+        problem: '“Need Customized Graphics Or Specifications?”',
+        solution: 'Customization Support',
+        body: 'From board design and graphics to accessories and packaging.',
       },
       {
-        problem: '“I need a reliable manufacturer.”',
-        solution: 'Manufacturing Expertise',
-        body: 'Benefit from Afarer’s SUP production experience and quality systems.',
-      },
-      {
-        problem: '“I need to know what my final product will look like.”',
-        solution: 'Prototype Development',
-        body: 'Validate designs before moving into production.',
+        problem: '“Need Production Without Your Own Factory?”',
+        solution: 'Manufacturing Support',
+        body: 'Access Afarer’s SUP manufacturing capability without building your own production system.',
       },
     ],
   },
   zh: {
     kicker: '我们解决什么',
-    title: '帮你解决 SUP 产品落地中的难题',
+    title: '解决你的 SUP 产品开发难题',
     sub: '先关注你的顾虑——这是我们给出的答案。',
     cta: '讨论你的项目',
     items: [
       {
-        problem: '“我有一个想法,但不知道怎么做。”',
+        problem: '「需要定制 SUP 产品?」',
         solution: '产品开发支持',
-        body: '我们帮你评估规格、材料与制造可行性。',
+        body: '我们帮你评估产品需求、规格与制造可行性。',
       },
       {
-        problem: '“我需要定制,但数量不大。”',
-        solution: '灵活生产',
-        body: '以实际可行的起订量支持定制项目。',
+        problem: '「需要定制图案或规格?」',
+        solution: '定制支持',
+        body: '从板面设计、图案到配件与包装。',
       },
       {
-        problem: '“我需要一个可靠的制造商。”',
-        solution: '制造专长',
-        body: '受益于 Afarer 的 SUP 生产经验与质量体系。',
-      },
-      {
-        problem: '“我想知道最终产品长什么样。”',
-        solution: '样品开发',
-        body: '在量产前先验证设计与性能。',
+        problem: '「没有自己的工厂也能生产?」',
+        solution: '制造支持',
+        body: '无需自建生产体系,直接获得 Afarer 的 SUP 制造能力。',
       },
     ],
   },
@@ -888,7 +886,7 @@ export interface PlatformsContent {
 export const platforms: Localized<PlatformsContent> = {
   en: {
     kicker: 'Product Platforms',
-    title: 'SUP Platforms Available For Customization',
+    title: 'SUP Products Available For Customization',
     sub: 'Not a product store — each platform below can be customized to your requirements.',
     items: [
       {
@@ -923,7 +921,7 @@ export const platforms: Localized<PlatformsContent> = {
   },
   zh: {
     kicker: '产品平台',
-    title: '可定制的 SUP 平台',
+    title: '可定制的 SUP 产品',
     sub: '不是产品商城——以下每个平台都可以按你的需求定制。',
     items: [
       {
@@ -1055,6 +1053,18 @@ export const faq: Localized<FaqContent> = {
     sub: 'If yours isn’t here, ask us directly — we answer within one business day.',
     items: [
       {
+        q: 'What does Supsfactory do?',
+        a: 'Supsfactory helps businesses and organizations develop customized SUP products from concept, design and prototype to production.',
+      },
+      {
+        q: 'Can Supsfactory support small quantity custom SUP projects?',
+        a: 'Yes. Project requirements are evaluated based on product specifications, customization needs and production requirements.',
+      },
+      {
+        q: 'Do you manufacture SUP products?',
+        a: 'Supsfactory provides product development and manufacturing support through Afarer’s SUP manufacturing capabilities.',
+      },
+      {
         q: 'What is the minimum order quantity?',
         a: 'It depends on the product and customization requirements. Our team will evaluate your project and confirm a practical quantity for you.',
       },
@@ -1081,6 +1091,18 @@ export const faq: Localized<FaqContent> = {
     title: '开始前的问题',
     sub: '这里没有你的问题？直接问我们——一个工作日内回复。',
     items: [
+      {
+        q: 'Supsfactory 是做什么的?',
+        a: 'Supsfactory 帮助企业、组织与品牌,从概念、设计、样品到量产,开发定制 SUP 产品。',
+      },
+      {
+        q: 'Supsfactory 支持小批量定制项目吗?',
+        a: '支持。项目会根据产品规格、定制需求与生产要求进行实际评估。',
+      },
+      {
+        q: '你们生产 SUP 产品吗?',
+        a: 'Supsfactory 通过 Afarer 的 SUP 制造能力提供产品开发与制造支持。',
+      },
       {
         q: '最低起订量是多少?',
         a: '取决于产品与定制要求。我们的团队会评估你的项目,并确认一个实际可行的起订量。',
@@ -1118,13 +1140,13 @@ export const cta: Localized<CtaContent> = {
   en: {
     title: 'Have A SUP Product Idea?',
     body: 'Tell us your requirements and our team will help evaluate the right solution.',
-    button: 'Submit Your Project',
+    button: 'Submit Your Project Requirements',
     note: 'Free consultation · Sample service · No minimum for the first talk',
   },
   zh: {
     title: '有一个 SUP 产品想法?',
     body: '告诉我们你的需求,我们的团队会帮你评估合适的方案。',
-    button: '提交你的项目',
+    button: '提交你的项目需求',
     note: '免费咨询 · 打样服务 · 首次沟通无任何门槛',
   },
 }

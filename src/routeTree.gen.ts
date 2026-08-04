@@ -74,6 +74,7 @@ import { Route as Char123LocaleChar125HowItWorksRouteImport } from './routes/{-$
 import { Route as Char123LocaleChar125GalleryRouteImport } from './routes/{-$locale}/gallery'
 import { Route as Char123LocaleChar125CustomizerRouteImport } from './routes/{-$locale}/customizer'
 import { Route as Char123LocaleChar125CustomSupManufacturingRouteImport } from './routes/{-$locale}/custom-sup-manufacturing'
+import { Route as Char123LocaleChar125CustomSupDevelopmentRouteImport } from './routes/{-$locale}/custom-sup-development'
 import { Route as Char123LocaleChar125ContactRouteImport } from './routes/{-$locale}/contact'
 import { Route as Char123LocaleChar125ChangelogRouteImport } from './routes/{-$locale}/changelog'
 import { Route as Char123LocaleChar125AboutRouteImport } from './routes/{-$locale}/about'
@@ -84,6 +85,8 @@ import { Route as AdminWaitlistDotcsvRouteImport } from './routes/admin/waitlist
 import { Route as AdminInquiriesDotcsvRouteImport } from './routes/admin/inquiries[.]csv'
 import { Route as Char123LocaleChar125AdminRouteRouteImport } from './routes/{-$locale}/admin/route'
 import { Route as Char123LocaleChar125SolutionsIndexRouteImport } from './routes/{-$locale}/solutions/index'
+import { Route as Char123LocaleChar125ProjectsIndexRouteImport } from './routes/{-$locale}/projects/index'
+import { Route as Char123LocaleChar125KnowledgeIndexRouteImport } from './routes/{-$locale}/knowledge/index'
 import { Route as Char123LocaleChar125AppIndexRouteImport } from './routes/{-$locale}/app/index'
 import { Route as Char123LocaleChar125AdminIndexRouteImport } from './routes/{-$locale}/admin/index'
 import { Route as Char123LocaleChar125SolutionsSchoolSupRouteImport } from './routes/{-$locale}/solutions/school-sup'
@@ -91,12 +94,15 @@ import { Route as Char123LocaleChar125SolutionsResortSupRouteImport } from './ro
 import { Route as Char123LocaleChar125SolutionsPrivateLabelSupRouteImport } from './routes/{-$locale}/solutions/private-label-sup'
 import { Route as Char123LocaleChar125SolutionsCustomSupRouteImport } from './routes/{-$locale}/solutions/custom-sup'
 import { Route as Char123LocaleChar125SolutionsClubSupRouteImport } from './routes/{-$locale}/solutions/club-sup'
+import { Route as Char123LocaleChar125ProjectsSlugRouteImport } from './routes/{-$locale}/projects/$slug'
+import { Route as Char123LocaleChar125KnowledgeSlugRouteImport } from './routes/{-$locale}/knowledge/$slug'
 import { Route as Char123LocaleChar125AppFeedbackRouteImport } from './routes/{-$locale}/app/feedback'
 import { Route as Char123LocaleChar125AppAccountRouteImport } from './routes/{-$locale}/app/account'
 import { Route as Char123LocaleChar125AdminWaitlistRouteImport } from './routes/{-$locale}/admin/waitlist'
 import { Route as Char123LocaleChar125AdminUsersRouteImport } from './routes/{-$locale}/admin/users'
 import { Route as Char123LocaleChar125AdminInquiriesRouteImport } from './routes/{-$locale}/admin/inquiries'
 import { Route as Char123LocaleChar125AdminFeedbackRouteImport } from './routes/{-$locale}/admin/feedback'
+import { Route as Char123LocaleChar125AboutSupsfactoryEntityRouteImport } from './routes/{-$locale}/about/supsfactory-entity'
 import { Route as Char123LocaleChar125authVerifyEmailRouteImport } from './routes/{-$locale}/(auth)/verify-email'
 import { Route as Char123LocaleChar125authResetPasswordRouteImport } from './routes/{-$locale}/(auth)/reset-password'
 import { Route as Char123LocaleChar125authRegisterRouteImport } from './routes/{-$locale}/(auth)/register'
@@ -449,6 +455,12 @@ const Char123LocaleChar125CustomSupManufacturingRoute =
     path: '/custom-sup-manufacturing',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
+const Char123LocaleChar125CustomSupDevelopmentRoute =
+  Char123LocaleChar125CustomSupDevelopmentRouteImport.update({
+    id: '/custom-sup-development',
+    path: '/custom-sup-development',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
 const Char123LocaleChar125ContactRoute =
   Char123LocaleChar125ContactRouteImport.update({
     id: '/contact',
@@ -504,6 +516,18 @@ const Char123LocaleChar125SolutionsIndexRoute =
     path: '/',
     getParentRoute: () => Char123LocaleChar125SolutionsRoute,
   } as any)
+const Char123LocaleChar125ProjectsIndexRoute =
+  Char123LocaleChar125ProjectsIndexRouteImport.update({
+    id: '/projects/',
+    path: '/projects/',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
+const Char123LocaleChar125KnowledgeIndexRoute =
+  Char123LocaleChar125KnowledgeIndexRouteImport.update({
+    id: '/knowledge/',
+    path: '/knowledge/',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
 const Char123LocaleChar125AppIndexRoute =
   Char123LocaleChar125AppIndexRouteImport.update({
     id: '/app/',
@@ -546,6 +570,18 @@ const Char123LocaleChar125SolutionsClubSupRoute =
     path: '/club-sup',
     getParentRoute: () => Char123LocaleChar125SolutionsRoute,
   } as any)
+const Char123LocaleChar125ProjectsSlugRoute =
+  Char123LocaleChar125ProjectsSlugRouteImport.update({
+    id: '/projects/$slug',
+    path: '/projects/$slug',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
+const Char123LocaleChar125KnowledgeSlugRoute =
+  Char123LocaleChar125KnowledgeSlugRouteImport.update({
+    id: '/knowledge/$slug',
+    path: '/knowledge/$slug',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
 const Char123LocaleChar125AppFeedbackRoute =
   Char123LocaleChar125AppFeedbackRouteImport.update({
     id: '/app/feedback',
@@ -581,6 +617,12 @@ const Char123LocaleChar125AdminFeedbackRoute =
     id: '/feedback',
     path: '/feedback',
     getParentRoute: () => Char123LocaleChar125AdminRouteRoute,
+  } as any)
+const Char123LocaleChar125AboutSupsfactoryEntityRoute =
+  Char123LocaleChar125AboutSupsfactoryEntityRouteImport.update({
+    id: '/supsfactory-entity',
+    path: '/supsfactory-entity',
+    getParentRoute: () => Char123LocaleChar125AboutRoute,
   } as any)
 const Char123LocaleChar125authVerifyEmailRoute =
   Char123LocaleChar125authVerifyEmailRouteImport.update({
@@ -685,9 +727,10 @@ export interface FileRoutesByFullPath {
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
-  '/{-$locale}/about': typeof Char123LocaleChar125AboutRoute
+  '/{-$locale}/about': typeof Char123LocaleChar125AboutRouteWithChildren
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
+  '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
   '/{-$locale}/custom-sup-manufacturing': typeof Char123LocaleChar125CustomSupManufacturingRoute
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
   '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
@@ -711,12 +754,15 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/register': typeof Char123LocaleChar125authRegisterRoute
   '/{-$locale}/reset-password': typeof Char123LocaleChar125authResetPasswordRoute
   '/{-$locale}/verify-email': typeof Char123LocaleChar125authVerifyEmailRoute
+  '/{-$locale}/about/supsfactory-entity': typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
   '/{-$locale}/admin/feedback': typeof Char123LocaleChar125AdminFeedbackRoute
   '/{-$locale}/admin/inquiries': typeof Char123LocaleChar125AdminInquiriesRoute
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
   '/{-$locale}/admin/waitlist': typeof Char123LocaleChar125AdminWaitlistRoute
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
+  '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
+  '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
   '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
@@ -724,6 +770,8 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
+  '/{-$locale}/knowledge/': typeof Char123LocaleChar125KnowledgeIndexRoute
+  '/{-$locale}/projects/': typeof Char123LocaleChar125ProjectsIndexRoute
   '/{-$locale}/solutions/': typeof Char123LocaleChar125SolutionsIndexRoute
 }
 export interface FileRoutesByTo {
@@ -781,9 +829,10 @@ export interface FileRoutesByTo {
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
-  '/{-$locale}/about': typeof Char123LocaleChar125AboutRoute
+  '/{-$locale}/about': typeof Char123LocaleChar125AboutRouteWithChildren
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
+  '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
   '/{-$locale}/custom-sup-manufacturing': typeof Char123LocaleChar125CustomSupManufacturingRoute
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
   '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
@@ -806,12 +855,15 @@ export interface FileRoutesByTo {
   '/{-$locale}/register': typeof Char123LocaleChar125authRegisterRoute
   '/{-$locale}/reset-password': typeof Char123LocaleChar125authResetPasswordRoute
   '/{-$locale}/verify-email': typeof Char123LocaleChar125authVerifyEmailRoute
+  '/{-$locale}/about/supsfactory-entity': typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
   '/{-$locale}/admin/feedback': typeof Char123LocaleChar125AdminFeedbackRoute
   '/{-$locale}/admin/inquiries': typeof Char123LocaleChar125AdminInquiriesRoute
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
   '/{-$locale}/admin/waitlist': typeof Char123LocaleChar125AdminWaitlistRoute
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
+  '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
+  '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
   '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
@@ -819,6 +871,8 @@ export interface FileRoutesByTo {
   '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app': typeof Char123LocaleChar125AppIndexRoute
+  '/{-$locale}/knowledge': typeof Char123LocaleChar125KnowledgeIndexRoute
+  '/{-$locale}/projects': typeof Char123LocaleChar125ProjectsIndexRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsIndexRoute
 }
 export interface FileRoutesById {
@@ -879,9 +933,10 @@ export interface FileRoutesById {
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
-  '/{-$locale}/about': typeof Char123LocaleChar125AboutRoute
+  '/{-$locale}/about': typeof Char123LocaleChar125AboutRouteWithChildren
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
+  '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
   '/{-$locale}/custom-sup-manufacturing': typeof Char123LocaleChar125CustomSupManufacturingRoute
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
   '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
@@ -905,12 +960,15 @@ export interface FileRoutesById {
   '/{-$locale}/(auth)/register': typeof Char123LocaleChar125authRegisterRoute
   '/{-$locale}/(auth)/reset-password': typeof Char123LocaleChar125authResetPasswordRoute
   '/{-$locale}/(auth)/verify-email': typeof Char123LocaleChar125authVerifyEmailRoute
+  '/{-$locale}/about/supsfactory-entity': typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
   '/{-$locale}/admin/feedback': typeof Char123LocaleChar125AdminFeedbackRoute
   '/{-$locale}/admin/inquiries': typeof Char123LocaleChar125AdminInquiriesRoute
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
   '/{-$locale}/admin/waitlist': typeof Char123LocaleChar125AdminWaitlistRoute
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
+  '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
+  '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
   '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
@@ -918,6 +976,8 @@ export interface FileRoutesById {
   '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
+  '/{-$locale}/knowledge/': typeof Char123LocaleChar125KnowledgeIndexRoute
+  '/{-$locale}/projects/': typeof Char123LocaleChar125ProjectsIndexRoute
   '/{-$locale}/solutions/': typeof Char123LocaleChar125SolutionsIndexRoute
 }
 export interface FileRouteTypes {
@@ -982,6 +1042,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/about'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
+    | '/{-$locale}/custom-sup-development'
     | '/{-$locale}/custom-sup-manufacturing'
     | '/{-$locale}/customizer'
     | '/{-$locale}/gallery'
@@ -1005,12 +1066,15 @@ export interface FileRouteTypes {
     | '/{-$locale}/register'
     | '/{-$locale}/reset-password'
     | '/{-$locale}/verify-email'
+    | '/{-$locale}/about/supsfactory-entity'
     | '/{-$locale}/admin/feedback'
     | '/{-$locale}/admin/inquiries'
     | '/{-$locale}/admin/users'
     | '/{-$locale}/admin/waitlist'
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
+    | '/{-$locale}/knowledge/$slug'
+    | '/{-$locale}/projects/$slug'
     | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-sup'
     | '/{-$locale}/solutions/private-label-sup'
@@ -1018,6 +1082,8 @@ export interface FileRouteTypes {
     | '/{-$locale}/solutions/school-sup'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
+    | '/{-$locale}/knowledge/'
+    | '/{-$locale}/projects/'
     | '/{-$locale}/solutions/'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -1078,6 +1144,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/about'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
+    | '/{-$locale}/custom-sup-development'
     | '/{-$locale}/custom-sup-manufacturing'
     | '/{-$locale}/customizer'
     | '/{-$locale}/gallery'
@@ -1100,12 +1167,15 @@ export interface FileRouteTypes {
     | '/{-$locale}/register'
     | '/{-$locale}/reset-password'
     | '/{-$locale}/verify-email'
+    | '/{-$locale}/about/supsfactory-entity'
     | '/{-$locale}/admin/feedback'
     | '/{-$locale}/admin/inquiries'
     | '/{-$locale}/admin/users'
     | '/{-$locale}/admin/waitlist'
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
+    | '/{-$locale}/knowledge/$slug'
+    | '/{-$locale}/projects/$slug'
     | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-sup'
     | '/{-$locale}/solutions/private-label-sup'
@@ -1113,6 +1183,8 @@ export interface FileRouteTypes {
     | '/{-$locale}/solutions/school-sup'
     | '/{-$locale}/admin'
     | '/{-$locale}/app'
+    | '/{-$locale}/knowledge'
+    | '/{-$locale}/projects'
     | '/{-$locale}/solutions'
   id:
     | '__root__'
@@ -1175,6 +1247,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/about'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
+    | '/{-$locale}/custom-sup-development'
     | '/{-$locale}/custom-sup-manufacturing'
     | '/{-$locale}/customizer'
     | '/{-$locale}/gallery'
@@ -1198,12 +1271,15 @@ export interface FileRouteTypes {
     | '/{-$locale}/(auth)/register'
     | '/{-$locale}/(auth)/reset-password'
     | '/{-$locale}/(auth)/verify-email'
+    | '/{-$locale}/about/supsfactory-entity'
     | '/{-$locale}/admin/feedback'
     | '/{-$locale}/admin/inquiries'
     | '/{-$locale}/admin/users'
     | '/{-$locale}/admin/waitlist'
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
+    | '/{-$locale}/knowledge/$slug'
+    | '/{-$locale}/projects/$slug'
     | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-sup'
     | '/{-$locale}/solutions/private-label-sup'
@@ -1211,6 +1287,8 @@ export interface FileRouteTypes {
     | '/{-$locale}/solutions/school-sup'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
+    | '/{-$locale}/knowledge/'
+    | '/{-$locale}/projects/'
     | '/{-$locale}/solutions/'
   fileRoutesById: FileRoutesById
 }
@@ -1732,6 +1810,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125CustomSupManufacturingRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
+    '/{-$locale}/custom-sup-development': {
+      id: '/{-$locale}/custom-sup-development'
+      path: '/custom-sup-development'
+      fullPath: '/{-$locale}/custom-sup-development'
+      preLoaderRoute: typeof Char123LocaleChar125CustomSupDevelopmentRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
     '/{-$locale}/contact': {
       id: '/{-$locale}/contact'
       path: '/contact'
@@ -1802,6 +1887,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125SolutionsIndexRouteImport
       parentRoute: typeof Char123LocaleChar125SolutionsRoute
     }
+    '/{-$locale}/projects/': {
+      id: '/{-$locale}/projects/'
+      path: '/projects'
+      fullPath: '/{-$locale}/projects/'
+      preLoaderRoute: typeof Char123LocaleChar125ProjectsIndexRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/knowledge/': {
+      id: '/{-$locale}/knowledge/'
+      path: '/knowledge'
+      fullPath: '/{-$locale}/knowledge/'
+      preLoaderRoute: typeof Char123LocaleChar125KnowledgeIndexRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
     '/{-$locale}/app/': {
       id: '/{-$locale}/app/'
       path: '/app'
@@ -1851,6 +1950,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125SolutionsClubSupRouteImport
       parentRoute: typeof Char123LocaleChar125SolutionsRoute
     }
+    '/{-$locale}/projects/$slug': {
+      id: '/{-$locale}/projects/$slug'
+      path: '/projects/$slug'
+      fullPath: '/{-$locale}/projects/$slug'
+      preLoaderRoute: typeof Char123LocaleChar125ProjectsSlugRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/knowledge/$slug': {
+      id: '/{-$locale}/knowledge/$slug'
+      path: '/knowledge/$slug'
+      fullPath: '/{-$locale}/knowledge/$slug'
+      preLoaderRoute: typeof Char123LocaleChar125KnowledgeSlugRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
     '/{-$locale}/app/feedback': {
       id: '/{-$locale}/app/feedback'
       path: '/app/feedback'
@@ -1892,6 +2005,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/{-$locale}/admin/feedback'
       preLoaderRoute: typeof Char123LocaleChar125AdminFeedbackRouteImport
       parentRoute: typeof Char123LocaleChar125AdminRouteRoute
+    }
+    '/{-$locale}/about/supsfactory-entity': {
+      id: '/{-$locale}/about/supsfactory-entity'
+      path: '/supsfactory-entity'
+      fullPath: '/{-$locale}/about/supsfactory-entity'
+      preLoaderRoute: typeof Char123LocaleChar125AboutSupsfactoryEntityRouteImport
+      parentRoute: typeof Char123LocaleChar125AboutRoute
     }
     '/{-$locale}/(auth)/verify-email': {
       id: '/{-$locale}/(auth)/verify-email'
@@ -1977,6 +2097,21 @@ const Char123LocaleChar125AdminRouteRouteWithChildren =
     Char123LocaleChar125AdminRouteRouteChildren,
   )
 
+interface Char123LocaleChar125AboutRouteChildren {
+  Char123LocaleChar125AboutSupsfactoryEntityRoute: typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
+}
+
+const Char123LocaleChar125AboutRouteChildren: Char123LocaleChar125AboutRouteChildren =
+  {
+    Char123LocaleChar125AboutSupsfactoryEntityRoute:
+      Char123LocaleChar125AboutSupsfactoryEntityRoute,
+  }
+
+const Char123LocaleChar125AboutRouteWithChildren =
+  Char123LocaleChar125AboutRoute._addFileChildren(
+    Char123LocaleChar125AboutRouteChildren,
+  )
+
 interface Char123LocaleChar125SolutionsRouteChildren {
   Char123LocaleChar125SolutionsClubSupRoute: typeof Char123LocaleChar125SolutionsClubSupRoute
   Char123LocaleChar125SolutionsCustomSupRoute: typeof Char123LocaleChar125SolutionsCustomSupRoute
@@ -2009,9 +2144,10 @@ const Char123LocaleChar125SolutionsRouteWithChildren =
 
 interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125AdminRouteRoute: typeof Char123LocaleChar125AdminRouteRouteWithChildren
-  Char123LocaleChar125AboutRoute: typeof Char123LocaleChar125AboutRoute
+  Char123LocaleChar125AboutRoute: typeof Char123LocaleChar125AboutRouteWithChildren
   Char123LocaleChar125ChangelogRoute: typeof Char123LocaleChar125ChangelogRoute
   Char123LocaleChar125ContactRoute: typeof Char123LocaleChar125ContactRoute
+  Char123LocaleChar125CustomSupDevelopmentRoute: typeof Char123LocaleChar125CustomSupDevelopmentRoute
   Char123LocaleChar125CustomSupManufacturingRoute: typeof Char123LocaleChar125CustomSupManufacturingRoute
   Char123LocaleChar125CustomizerRoute: typeof Char123LocaleChar125CustomizerRoute
   Char123LocaleChar125GalleryRoute: typeof Char123LocaleChar125GalleryRoute
@@ -2034,16 +2170,22 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125authVerifyEmailRoute: typeof Char123LocaleChar125authVerifyEmailRoute
   Char123LocaleChar125AppAccountRoute: typeof Char123LocaleChar125AppAccountRoute
   Char123LocaleChar125AppFeedbackRoute: typeof Char123LocaleChar125AppFeedbackRoute
+  Char123LocaleChar125KnowledgeSlugRoute: typeof Char123LocaleChar125KnowledgeSlugRoute
+  Char123LocaleChar125ProjectsSlugRoute: typeof Char123LocaleChar125ProjectsSlugRoute
   Char123LocaleChar125AppIndexRoute: typeof Char123LocaleChar125AppIndexRoute
+  Char123LocaleChar125KnowledgeIndexRoute: typeof Char123LocaleChar125KnowledgeIndexRoute
+  Char123LocaleChar125ProjectsIndexRoute: typeof Char123LocaleChar125ProjectsIndexRoute
 }
 
 const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChildren =
   {
     Char123LocaleChar125AdminRouteRoute:
       Char123LocaleChar125AdminRouteRouteWithChildren,
-    Char123LocaleChar125AboutRoute: Char123LocaleChar125AboutRoute,
+    Char123LocaleChar125AboutRoute: Char123LocaleChar125AboutRouteWithChildren,
     Char123LocaleChar125ChangelogRoute: Char123LocaleChar125ChangelogRoute,
     Char123LocaleChar125ContactRoute: Char123LocaleChar125ContactRoute,
+    Char123LocaleChar125CustomSupDevelopmentRoute:
+      Char123LocaleChar125CustomSupDevelopmentRoute,
     Char123LocaleChar125CustomSupManufacturingRoute:
       Char123LocaleChar125CustomSupManufacturingRoute,
     Char123LocaleChar125CustomizerRoute: Char123LocaleChar125CustomizerRoute,
@@ -2075,7 +2217,15 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
       Char123LocaleChar125authVerifyEmailRoute,
     Char123LocaleChar125AppAccountRoute: Char123LocaleChar125AppAccountRoute,
     Char123LocaleChar125AppFeedbackRoute: Char123LocaleChar125AppFeedbackRoute,
+    Char123LocaleChar125KnowledgeSlugRoute:
+      Char123LocaleChar125KnowledgeSlugRoute,
+    Char123LocaleChar125ProjectsSlugRoute:
+      Char123LocaleChar125ProjectsSlugRoute,
     Char123LocaleChar125AppIndexRoute: Char123LocaleChar125AppIndexRoute,
+    Char123LocaleChar125KnowledgeIndexRoute:
+      Char123LocaleChar125KnowledgeIndexRoute,
+    Char123LocaleChar125ProjectsIndexRoute:
+      Char123LocaleChar125ProjectsIndexRoute,
   }
 
 const Char123LocaleChar125RouteRouteWithChildren =

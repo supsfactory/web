@@ -12,11 +12,14 @@ const PUBLIC_PATHS = [
   '/customizer',
   '/waitlist',
   '/changelog',
-  '/solutions/custom-sup',
+  '/custom-sup-development',
   '/solutions/private-label-sup',
   '/solutions/resort-sup',
   '/solutions/club-sup',
   '/solutions/school-sup',
+  '/projects',
+  '/knowledge',
+  '/about/supsfactory-entity',
   '/terms',
   '/privacy',
 ] as const
@@ -96,8 +99,9 @@ export function localeHead(input: {
   path: string
   title: string
   description: string
+  ogTitle?: string
 }): { meta: HeadMeta[]; links: HeadLink[] } {
-  const { origin, locale, path, title, description } = input
+  const { origin, locale, path, title, description, ogTitle } = input
   const canonical = `${origin}${localizePath(locale, path)}`
   const links: HeadLink[] = [{ rel: 'canonical', href: canonical }]
   for (const l of locales) {
@@ -112,7 +116,7 @@ export function localeHead(input: {
     { title },
     { name: 'description', content: description },
     { property: 'og:site_name', content: 'SUPsfactory' },
-    { property: 'og:title', content: title },
+    { property: 'og:title', content: ogTitle ?? title },
     { property: 'og:description', content: description },
     { property: 'og:url', content: canonical },
     { property: 'og:locale', content: OG_LOCALE[locale] },

@@ -19,9 +19,9 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
       <Link to="/{-$locale}/solutions" className={linkCls}>{t('sup.nav.solutions')}</Link>
       <Link to="/{-$locale}/products" className={linkCls}>{t('sup.nav.products')}</Link>
       <Link to="/{-$locale}/how-it-works" className={linkCls}>{t('sup.nav.process')}</Link>
-      <Link to="/{-$locale}/customizer" className={linkCls}>{t('sup.nav.customization')}</Link>
-      <Link to="/{-$locale}/gallery" className={linkCls}>{t('sup.nav.projects')}</Link>
-      <Link to="/{-$locale}/about" className={linkCls}>{t('sup.nav.aboutAfarer')}</Link>
+      <Link to="/{-$locale}/projects" className={linkCls}>{t('sup.nav.projects')}</Link>
+      <Link to="/{-$locale}/knowledge" className={linkCls}>{t('sup.nav.guides')}</Link>
+      <Link to="/{-$locale}/about/supsfactory-entity" className={linkCls}>{t('sup.nav.aboutAfarer')}</Link>
       <Link to="/{-$locale}/contact" className={linkCls}>{t('sup.nav.contact')}</Link>
     </>
   )

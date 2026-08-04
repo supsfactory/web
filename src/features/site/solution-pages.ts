@@ -21,6 +21,8 @@ export interface SolutionPageData {
   metaDescription: string
   kicker: string
   h1: string
+  /** schema.org Service type (GEO entity). */
+  serviceType: string
   intro: string[]
   scenario: { title: string; body: string }
   pairs: { problem: string; solution: string }[]
@@ -28,6 +30,22 @@ export interface SolutionPageData {
   caseStudy: { title: string; body: string; tags: string[] }
   faqs: { q: string; a: string }[]
   ctaLevel: CtaLevel
+  /** Per-page CTA label override (falls back to the temperature label). */
+  ctaLabel?: string
+}
+
+/**
+ * Canonical public path per solution slug. The flagship custom-SUP page lives
+ * at the keyword-first URL `/custom-sup-development` (search users search
+ * "custom SUP development", not "solutions/custom-sup"); `/solutions/custom-sup`
+ * is a 301 stub. Everything else keeps its `/solutions/{slug}` path.
+ */
+export const SOLUTION_PATHS: Record<string, string> = {
+  'custom-sup': '/custom-sup-development',
+}
+
+export function solutionPath(slug: string): string {
+  return SOLUTION_PATHS[slug] ?? `/solutions/${slug}`
 }
 
 export const solutionPages: Localized<SolutionPageData[]> = {
@@ -35,11 +53,12 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'custom-sup',
       navLabel: 'Custom SUP Manufacturing',
-      metaTitle: 'Custom SUP Manufacturer | OEM & ODM Paddle Board Production — SUPsfactory',
+      metaTitle: 'Custom SUP Product Development | Customized Paddle Board Solutions',
       metaDescription:
-        'Custom SUP manufacturing for brands, clubs and organizations: your shapes, graphics and specs on proven platforms, from 50pcs per design, with samples, QC and worldwide delivery.',
+        'Develop custom SUP products with Supsfactory. We support product requirements, customization, prototypes and manufacturing for businesses and organizations.',
       kicker: 'Custom SUP Manufacturer',
-      h1: 'Custom SUP Manufacturing — From Your Idea to Finished Boards',
+      serviceType: 'Custom SUP Product Development',
+      h1: 'Custom SUP Products Built Around Your Requirements',
       intro: [
         'You need paddle boards built to your specification — shape, graphics, materials, packaging — without running a factory yourself. We are the manufacturing partner that takes your requirement and returns a deliverable product.',
         'Every project is handled by a dedicated specialist who manages design, samples, production and delivery, so you always know where your order stands.',
@@ -79,6 +98,14 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       },
       faqs: [
         {
+          q: 'Can you develop a SUP product from my idea?',
+          a: 'Yes. We help evaluate your requirements and develop a production-ready solution — from concept and drawings to a physical sample.',
+        },
+        {
+          q: 'Can I customize SUP graphics and colors?',
+          a: 'Yes. Custom graphics, colors and branding elements can be developed according to project requirements.',
+        },
+        {
           q: 'What is the minimum order for custom SUP manufacturing?',
           a: 'Custom production starts from 50pcs per design. Larger quantities unlock better unit pricing, and reorders keep your tooling and designs.',
         },
@@ -96,15 +123,17 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
       ],
       ctaLevel: 'hot',
+      ctaLabel: 'Discuss Your Custom SUP Project',
     },
     {
       slug: 'private-label-sup',
       navLabel: 'Private Label Paddle Boards',
-      metaTitle: 'Private Label Paddle Boards | White Label SUP Manufacturing — SUPsfactory',
+      metaTitle: 'Private Label SUP Manufacturing Support | Custom SUP Production',
       metaDescription:
-        'Launch a paddle board line under your own brand: your logo, colors and packaging on proven platforms, flexible MOQ from 50pcs, design and packaging support included.',
+        'Supsfactory provides private label SUP manufacturing support for existing brands, helping develop customized SUP products from specifications to production.',
       kicker: 'Private Label Paddle Boards',
-      h1: 'Private Label SUP — Your Brand on Proven Boards',
+      serviceType: 'Private Label SUP Manufacturing',
+      h1: 'Private Label SUP Manufacturing Support For Your Brand',
       intro: [
         'Private label production lets you launch a paddle board line under your own brand without investing in tooling or a factory. Your logo, colors and packaging go on quality-verified platforms, with quantities that grow with demand.',
         'We support the product side so you can focus on the brand side: design, packaging and reorder logistics are handled by us.',
@@ -144,6 +173,14 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       },
       faqs: [
         {
+          q: 'What is private label SUP manufacturing?',
+          a: 'Private label SUP manufacturing allows businesses to sell SUP products under their own brand with customized specifications and production support.',
+        },
+        {
+          q: 'Can existing brands develop new SUP products?',
+          a: 'Yes. Supsfactory supports brands looking to expand into SUP products — product selection, specification adjustment, custom graphics and manufacturing.',
+        },
+        {
           q: 'What is included in a private label SUP program?',
           a: 'Your brand on the board itself — graphics, logo, EVA pad — plus optional branded paddle, pump, backpack and packaging: a complete sellable product under your name.',
         },
@@ -157,15 +194,17 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
       ],
       ctaLevel: 'warm',
+      ctaLabel: 'Discuss Your Private Label Project',
     },
     {
       slug: 'resort-sup',
       navLabel: 'Resort Paddle Boards',
-      metaTitle: 'Resort Paddle Boards | Branded Guest SUP Fleets — SUPsfactory',
+      metaTitle: 'Custom SUP Equipment For Resorts | Branded Resort Paddle Boards',
       metaDescription:
-        'Branded paddle board fleets for resorts and hotels: durable, guest-friendly boards in your colors, storage-friendly inflatables, accessories and fleet reorder programs.',
+        'Create customized SUP equipment for resorts and hotels with branded boards, accessories and production support from Supsfactory.',
       kicker: 'Resort Paddle Boards',
-      h1: 'Resort SUP Fleets — Board Equipment Your Guests Remember',
+      serviceType: 'Resort & Hotel SUP Equipment',
+      h1: 'Custom SUP Equipment Solutions For Resorts & Hotels',
       intro: [
         'Resort paddle board fleets need to survive daily guest use, store easily between seasons and carry your brand. We build durable, guest-friendly boards in your colors and structure the fleet program around your operation.',
         'Quantities are recommended from usage patterns, not guesses — and reorder programs keep the fleet fresh season after season.',
@@ -205,6 +244,14 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       },
       faqs: [
         {
+          q: 'Can resorts customize SUP equipment with their logo?',
+          a: 'Yes. Resorts can customize graphics, colors and accessories according to project requirements — full-board branding in your property colors.',
+        },
+        {
+          q: 'Can you supply multiple SUP units for resort operations?',
+          a: 'Yes. Production solutions can be developed based on fleet requirements, from a starter fleet to seasonal refresh programs.',
+        },
+        {
           q: 'How many boards does a resort need?',
           a: 'Most resorts start with 20–50 boards and scale with demand. We recommend quantities based on your guest volume and shoreline, not guesses.',
         },
@@ -218,15 +265,17 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
       ],
       ctaLevel: 'warm',
+      ctaLabel: 'Request A Resort SUP Solution',
     },
     {
       slug: 'club-sup',
       navLabel: 'Custom SUP Team Boards',
-      metaTitle: 'Custom SUP Team Boards | Branded Club Fleets — SUPsfactory',
+      metaTitle: 'Custom SUP Equipment For Clubs & Teams | SUP Manufacturing Support',
       metaDescription:
-        'Custom team SUP boards for paddling clubs: your club name, colors and logo on durable boards, team pricing, reorder support and spare parts.',
+        'Supsfactory provides customized SUP equipment solutions for clubs, teams and events including graphics, specifications and production support.',
       kicker: 'Custom SUP Team Boards',
-      h1: 'Custom SUP Team Boards — Equipment Your Club Is Proud Of',
+      serviceType: 'Club & Team SUP Equipment',
+      h1: 'Custom SUP Equipment For Clubs And Teams',
       intro: [
         'Paddling clubs need boards that survive daily training, look like the team and stay consistent across reorders. We produce custom team boards with your club name and colors, at fleet-friendly pricing.',
         'Club programs also include the practical side: spare parts, repair guidance and reorder support at the same quality.',
@@ -266,6 +315,14 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       },
       faqs: [
         {
+          q: 'Can SUP clubs customize team boards?',
+          a: 'Yes. Clubs can customize graphics, colors and product configurations — club name, colors and logo on every board.',
+        },
+        {
+          q: 'Can you support event-based SUP production?',
+          a: 'Yes. Production planning can be developed according to event requirements, including event edition boards and accessories.',
+        },
+        {
           q: 'What boards are best for club training?',
           a: 'Stable, durable boards suited to your members’ level — wide beginner shapes for lessons, touring shapes for distance training.',
         },
@@ -279,15 +336,17 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
       ],
       ctaLevel: 'cold',
+      ctaLabel: 'Discuss Your Club SUP Project',
     },
     {
       slug: 'school-sup',
       navLabel: 'School Paddle Board Program',
-      metaTitle: 'School Paddle Board Program | SUP Equipment for Schools — SUPsfactory',
+      metaTitle: 'School SUP Equipment Solutions | Custom Paddle Boards For Education',
       metaDescription:
-        'SUP equipment programs for schools: safe, stable boards for instruction, curriculum-friendly package options, program guidance and bulk supply for class sizes.',
+        'Provide safe and reliable SUP equipment solutions for schools, camps and organizations with customized production support from Supsfactory.',
       kicker: 'School Paddle Board Program',
-      h1: 'School SUP Program — Equipment Built for Instruction',
+      serviceType: 'School & Program SUP Equipment',
+      h1: 'Safe And Reliable SUP Solutions For Schools And Programs',
       intro: [
         'Schools run paddle sports differently: large classes, mixed ability, strict safety needs and education budgets. Our school program provides stable, beginner-friendly boards, package options that fit class sizes, and guidance from an instructors’ perspective.',
         'Bulk supply and reorder support keep the equipment available year after year for new student cohorts.',
@@ -327,6 +386,14 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       },
       faqs: [
         {
+          q: 'What SUP equipment is suitable for schools?',
+          a: 'SUP equipment selection depends on user age, application environment and program requirements — wide, stable boards are the standard choice for instruction.',
+        },
+        {
+          q: 'Can schools customize SUP equipment?',
+          a: 'Yes. Schools can customize graphics, colors and equipment packages according to their program.',
+        },
+        {
           q: 'What boards are best for school SUP lessons?',
           a: 'Wide, stable beginner boards and multi-person boards are ideal — their volume makes them forgiving for first-timers and stable under several riders.',
         },
@@ -340,17 +407,19 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
       ],
       ctaLevel: 'cold',
+      ctaLabel: 'Discuss Your School SUP Program',
     },
   ],
   zh: [
     {
       slug: 'custom-sup',
       navLabel: '定制 SUP 制造',
-      metaTitle: '定制 SUP 制造商 | OEM & ODM 桨板生产 — SUPsfactory',
+      metaTitle: '定制 SUP 产品开发 | 定制桨板解决方案',
       metaDescription:
-        '面向品牌、俱乐部与机构的定制 SUP 制造:在成熟板型上实现你的板型、图案与规格,每个设计 50 片起订,含样品、质检与全球交付。',
+        '与 Supsfactory 一起开发定制 SUP 产品。我们为企业和组织提供产品需求、定制、打样与制造支持。',
       kicker: '定制 SUP 制造商',
-      h1: '定制 SUP 制造——从你的想法到成品交付',
+      serviceType: '定制 SUP 产品开发',
+      h1: '围绕你的需求定制的 SUP 产品',
       intro: [
         '你需要按自己的规格生产桨板——板型、图案、材料、包装——而不必自己经营工厂。我们就是那个制造伙伴:接收你的需求,交付成品。',
         '每个项目由专属专员负责设计、打样、生产与交付,让你随时清楚订单进度。',
@@ -390,6 +459,14 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       },
       faqs: [
         {
+          q: '能从我的想法出发开发 SUP 产品吗?',
+          a: '可以。我们帮你评估需求并开发可量产方案——从概念、图纸到实物样品。',
+        },
+        {
+          q: '可以定制 SUP 图案与配色吗?',
+          a: '可以。定制图案、配色与品牌元素都可以根据项目需求开发。',
+        },
+        {
           q: '定制 SUP 制造的最低起订量是多少?',
           a: '定制生产每个设计 50 片起订。数量越大单价越优,复购时模具与设计继续保留。',
         },
@@ -407,15 +484,17 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
       ],
       ctaLevel: 'hot',
+      ctaLabel: '讨论你的定制 SUP 项目',
     },
     {
       slug: 'private-label-sup',
       navLabel: '贴牌桨板',
-      metaTitle: '贴牌桨板 | SUP 白牌制造 — SUPsfactory',
+      metaTitle: '贴牌 SUP 制造支持 | 定制 SUP 生产',
       metaDescription:
-        '以你自己的品牌推出桨板产品线:Logo、配色与包装印在成熟板型上,50 片起订,含设计与包装支持。',
+        'Supsfactory 为已有品牌提供贴牌 SUP 制造支持,从规格到生产帮你开发定制 SUP 产品。',
       kicker: '贴牌桨板',
-      h1: '贴牌 SUP——成熟板型上的你的品牌',
+      serviceType: '贴牌 SUP 制造',
+      h1: '面向你的品牌的贴牌 SUP 制造支持',
       intro: [
         '贴牌生产让你无需投资模具或工厂,就能推出自有品牌的桨板产品线。你的 Logo、配色与包装印在经品质验证的平台上,数量随需求增长。',
         '我们负责产品一侧,让你专注于品牌一侧:设计、包装与复购物流都由我们处理。',
@@ -455,6 +534,14 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       },
       faqs: [
         {
+          q: '什么是贴牌 SUP 制造?',
+          a: '贴牌 SUP 制造让企业以自有品牌销售 SUP 产品,并享有定制规格与生产支持。',
+        },
+        {
+          q: '已有品牌可以开发新的 SUP 产品吗?',
+          a: '可以。Supsfactory 支持希望拓展 SUP 产品的品牌——产品选择、规格调整、定制图案与制造。',
+        },
+        {
           q: '贴牌 SUP 项目包含什么?',
           a: '品牌体现在板身本身——图案、Logo、EVA 防滑垫——以及可选品牌桨、气泵、背包与包装:一件以你的名字命名的完整可销售产品。',
         },
@@ -468,15 +555,17 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
       ],
       ctaLevel: 'warm',
+      ctaLabel: '讨论你的贴牌项目',
     },
     {
       slug: 'resort-sup',
       navLabel: '度假村桨板',
-      metaTitle: '度假村桨板 | 品牌化客用 SUP 舰队 — SUPsfactory',
+      metaTitle: '度假村定制 SUP 装备 | 品牌化度假村桨板',
       metaDescription:
-        '面向度假村与酒店的品牌化桨板舰队:耐用、易上手的板型,度假村配色,便于收纳的充气板、配件与舰队复购计划。',
+        '与 Supsfactory 一起为度假村与酒店打造定制 SUP 装备:品牌化板体、配件与生产支持。',
       kicker: '度假村桨板',
-      h1: '度假村 SUP 舰队——让客人记住的水上装备',
+      serviceType: '度假村与酒店 SUP 装备',
+      h1: '面向度假村与酒店的定制 SUP 装备方案',
       intro: [
         '度假村桨板舰队需要经受每日客用、淡季轻松收纳,并承载你的品牌。我们生产耐用、易上手、带度假村配色的板体,并围绕你的运营规划舰队方案。',
         '数量依据使用规律建议,而不是猜测——复购计划让舰队一季接一季保持常新。',
@@ -516,6 +605,14 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       },
       faqs: [
         {
+          q: '度假村可以定制带 Logo 的 SUP 装备吗?',
+          a: '可以。度假村可以根据项目需求定制图案、配色与配件——整板品牌定制,采用物业配色。',
+        },
+        {
+          q: '可以供应多块 SUP 板用于度假村运营吗?',
+          a: '可以。可以根据舰队需求开发生产方案,从起步舰队到季节更新计划。',
+        },
+        {
           q: '度假村需要多少块板?',
           a: '大多数度假村从 20–50 块起步,随需求增长。我们依据客流量与水域给出建议,而不是猜测。',
         },
@@ -529,15 +626,17 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
       ],
       ctaLevel: 'warm',
+      ctaLabel: '获取度假村 SUP 方案',
     },
     {
       slug: 'club-sup',
       navLabel: '俱乐部定制团队板',
-      metaTitle: '俱乐部定制团队板 | 品牌化俱乐部舰队 — SUPsfactory',
+      metaTitle: '俱乐部与团队定制 SUP 装备 | SUP 制造支持',
       metaDescription:
-        '面向桨板俱乐部的定制团队板:俱乐部名称、配色与 Logo 印在耐用的板体上,团队批量价、复购支持与配件供应。',
+        'Supsfactory 为俱乐部、团队与赛事提供定制 SUP 装备方案,包括图案、规格与生产支持。',
       kicker: '俱乐部定制团队板',
-      h1: '俱乐部定制团队板——让俱乐部引以为傲的装备',
+      serviceType: '俱乐部与团队 SUP 装备',
+      h1: '面向俱乐部与团队的定制 SUP 装备',
       intro: [
         '桨板俱乐部需要能承受每日训练、像团队一样整齐、复购保持一致性的板体。我们生产带有俱乐部名称与配色的定制团队板,享受舰队友好价格。',
         '俱乐部项目同样包含务实的一面:配件、维修指导与质量一致的复购支持。',
@@ -577,6 +676,14 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       },
       faqs: [
         {
+          q: 'SUP 俱乐部可以定制团队板吗?',
+          a: '可以。俱乐部可以定制图案、配色与产品配置——每块板都带上俱乐部名称、配色与 Logo。',
+        },
+        {
+          q: '可以支持基于赛事的 SUP 生产吗?',
+          a: '可以。可以根据赛事需求制定生产计划,包括赛事限定板与配件。',
+        },
+        {
           q: '俱乐部训练最适合什么板?',
           a: '适合成员水平、稳定耐用的板——课程用宽入门板,距离训练用旅行板。',
         },
@@ -590,15 +697,17 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
       ],
       ctaLevel: 'cold',
+      ctaLabel: '讨论你的俱乐部 SUP 项目',
     },
     {
       slug: 'school-sup',
       navLabel: '学校桨板项目',
-      metaTitle: '学校桨板项目 | 面向学校的 SUP 装备 — SUPsfactory',
+      metaTitle: '学校 SUP 装备方案 | 面向教育的定制桨板',
       metaDescription:
-        '面向学校的 SUP 装备项目:安全稳定的教学板型、匹配班级规模的套餐选项、项目指导与批量供应。',
+        '为学校、营地与机构提供安全可靠的 SUP 装备方案,并得到 Supsfactory 的定制生产支持。',
       kicker: '学校桨板项目',
-      h1: '学校 SUP 项目——为教学而生的装备',
+      serviceType: '学校与项目 SUP 装备',
+      h1: '面向学校与项目的安全可靠 SUP 方案',
       intro: [
         '学校开展桨板运动的方式不同:大班教学、水平参差、严格的安全要求与教育预算。我们的学校项目提供稳定、易上手的板型,匹配班级规模的套餐选项,以及站在教练视角的指导。',
         '批量供应与复购支持让装备一年又一年地服务新一届学生。',
@@ -638,6 +747,14 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       },
       faqs: [
         {
+          q: '什么样的 SUP 装备适合学校?',
+          a: 'SUP 装备的选择取决于学员年龄、应用环境与项目需求——宽而稳定的板型是教学的标准选择。',
+        },
+        {
+          q: '学校可以定制 SUP 装备吗?',
+          a: '可以。学校可以根据项目定制图案、配色与装备套餐。',
+        },
+        {
           q: '学校 SUP 课程最适合什么板?',
           a: '宽而稳定的入门板与多人板最理想——充足的排水量让初学者更容易上手,多人站立时也更稳定。',
         },
@@ -651,6 +768,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
       ],
       ctaLevel: 'cold',
+      ctaLabel: '讨论你的学校 SUP 项目',
     },
   ],
 }

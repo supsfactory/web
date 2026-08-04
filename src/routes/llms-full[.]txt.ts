@@ -1,13 +1,22 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { getLLMFullText } from '@/features/docs/llm'
-import { llmProductsFull, llmSolutionsFull, llmsAfarerFull } from '@/features/site/llm'
+import {
+  llmProductsFull,
+  llmSolutionsFull,
+  llmProjectsFull,
+  llmKnowledgeFull,
+  llmsAfarerFull,
+} from '@/features/site/llm'
 
 // `/llms-full.txt` — every docs page concatenated as plain Markdown, so an LLM
 // can ingest the whole documentation in one request.
 const handler = () =>
-  new Response(getLLMFullText() + llmProductsFull() + llmSolutionsFull() + llmsAfarerFull(), {
-    headers: { 'content-type': 'text/markdown; charset=utf-8' },
-  })
+  new Response(
+    getLLMFullText() + llmProductsFull() + llmSolutionsFull() + llmProjectsFull() + llmKnowledgeFull() + llmsAfarerFull(),
+    {
+      headers: { 'content-type': 'text/markdown; charset=utf-8' },
+    },
+  )
 
 export const Route = createFileRoute('/llms-full.txt')({
   server: { handlers: { GET: handler } },

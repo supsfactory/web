@@ -3,13 +3,13 @@ import { localizePath, type Locale } from '@/features/i18n/locale'
 
 /**
  * Legacy landing page — superseded by the Solutions system
- * (/solutions/custom-sup: custom manufacturing with low-MOQ first runs).
+ * (/custom-sup-development: custom product development with low-MOQ first runs).
  * Permanent 301 so indexed URLs and any inbound links consolidate.
  */
 export const Route = createFileRoute('/{-$locale}/sup-startup-brands')({
   loader: ({ params }) => {
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
-    throw redirect({ href: localizePath(locale, '/solutions/custom-sup'), statusCode: 301 })
+    throw redirect({ href: localizePath(locale, '/custom-sup-development'), statusCode: 301 })
   },
   component: () => null,
 })

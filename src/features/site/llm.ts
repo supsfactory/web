@@ -1,5 +1,7 @@
 import { products } from './content'
-import { solutionPages } from './solution-pages'
+import { solutionPages, solutionPath } from './solution-pages'
+import { projects } from './projects'
+import { knowledge } from './knowledge'
 import {
   getAfarerPages,
   getAfarerProducts,
@@ -57,8 +59,60 @@ export function llmProductsFull(): string {
 
 /** Index entries for the Solutions system pages (in /llms.txt). */
 export function llmSolutionsIndex(): string {
-  const lines = solutionPages.en.map((p) => `- [${p.metaTitle}](/solutions/${p.slug}): ${flat(p.metaDescription)}`)
+  const lines = solutionPages.en.map((p) => `- [${p.metaTitle}](${solutionPath(p.slug)}): ${flat(p.metaDescription)}`)
   return ['', '## Solution Pages', ...lines, ''].join('\n')
+}
+
+/** Index entries for the project case studies (in /llms.txt). */
+export function llmProjectsIndex(): string {
+  const lines = projects.en.map((p) => `- [${p.metaTitle}](/projects/${p.slug}): ${flat(p.metaDescription)}`)
+  return ['', '## Projects', ...lines, ''].join('\n')
+}
+
+/** Index entries for the Knowledge Center articles (in /llms.txt). */
+export function llmKnowledgeIndex(): string {
+  const lines = knowledge.en.map((a) => `- [${a.metaTitle}](/knowledge/${a.slug}): ${flat(a.metaDescription)}`)
+  return ['', '## Knowledge Center', ...lines, ''].join('\n')
+}
+
+/** Full text for the project case studies (in /llms-full.txt). */
+export function llmProjectsFull(): string {
+  const blocks = projects.en.map((p) =>
+    [
+      `# ${p.h1}`,
+      '',
+      ...p.intro.map(flat),
+      '',
+      `Industry: ${p.industry}`,
+      '',
+      `Requirement: ${flat(p.requirement)}`,
+      '',
+      `Challenge: ${flat(p.challenge)}`,
+      '',
+      `Solution: ${flat(p.solution)}`,
+      '',
+      `Product delivered: ${flat(p.product)}`,
+      '',
+      '## Process',
+      ...p.process.map((s) => `- ${s.title}: ${flat(s.body)}`),
+      '',
+      `## Result`,
+      flat(p.result),
+      '',
+      `Outcome: ${flat(p.outcome)}`,
+      '',
+      `Tags: ${p.tags.join(', ')}`,
+    ].join('\n'),
+  )
+  return ['', '# Projects', ...blocks].join('\n\n')
+}
+
+/** Full text for the Knowledge Center articles (in /llms-full.txt). */
+export function llmKnowledgeFull(): string {
+  const blocks = knowledge.en.map((a) =>
+    [`# ${a.h1}`, '', flat(a.intro), ...a.sections.flatMap((s) => ['', `## ${s.title}`, '', ...s.body.map(flat)])].join('\n'),
+  )
+  return ['', '# Knowledge Center', ...blocks].join('\n\n')
 }
 
 /** Full text for the Solutions system pages incl. their FAQ Q&A (in /llms-full.txt). */

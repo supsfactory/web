@@ -29,8 +29,8 @@ test('sitemap lists both locales of public pages with hreflang', () => {
   expect(xml).toContain(`<loc>${origin}/zh/solutions</loc>`)
   expect(xml).toContain(`<loc>${origin}/contact</loc>`)
   expect(xml).toContain(`<loc>${origin}/zh/contact</loc>`)
-  expect(xml).toContain(`<loc>${origin}/solutions/custom-sup</loc>`)
-  expect(xml).toContain(`<loc>${origin}/zh/solutions/custom-sup</loc>`)
+  expect(xml).toContain(`<loc>${origin}/custom-sup-development</loc>`)
+  expect(xml).toContain(`<loc>${origin}/zh/custom-sup-development</loc>`)
   expect(xml).toContain('hreflang="en"')
   expect(xml).toContain('hreflang="zh"')
   expect(xml).toContain('hreflang="x-default"')
@@ -40,6 +40,7 @@ test('sitemap lists both locales of public pages with hreflang', () => {
   expect(xml).toContain(`<loc>${origin}/zh/solutions/school-sup</loc>`)
   expect(xml).not.toContain(`<loc>${origin}/custom-sup-manufacturing</loc>`)
   expect(xml).not.toContain(`<loc>${origin}/sup-for-resorts</loc>`)
+  expect(xml).not.toContain(`<loc>${origin}/solutions/custom-sup</loc>`)
 })
 
 test('sitemap includes single-locale docs paths without hreflang alternates', () => {

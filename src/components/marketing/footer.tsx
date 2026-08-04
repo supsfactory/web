@@ -30,7 +30,7 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
 
         {/* Solutions */}
         <FooterCol title={t('sup.footer.colSolutions')}>
-          <Link className="foot-link" to="/{-$locale}/solutions/custom-sup">{t('sup.footer.customSup')}</Link>
+          <Link className="foot-link" to="/{-$locale}/custom-sup-development">{t('sup.footer.customSup')}</Link>
           <Link className="foot-link" to="/{-$locale}/solutions/private-label-sup">{t('sup.footer.privateLabel')}</Link>
           <Link className="foot-link" to="/{-$locale}/solutions/resort-sup">{t('sup.footer.resortSolutions')}</Link>
           <Link className="foot-link" to="/{-$locale}/solutions/club-sup">{t('sup.footer.clubSup')}</Link>
@@ -40,17 +40,18 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
 
         {/* Resources */}
         <FooterCol title={t('sup.footer.colResources')}>
+          <Link className="foot-link" to="/{-$locale}/knowledge">{t('sup.nav.guides')}</Link>
+          <Link className="foot-link" to="/{-$locale}/projects">{t('sup.nav.projects')}</Link>
           <Link className="foot-link" to="/$" params={{ _splat: 'faq' }}>{t('sup.footer.faq')}</Link>
           <Link className="foot-link" to="/{-$locale}/how-it-works">{t('sup.footer.process')}</Link>
-          <Link className="foot-link" to="/{-$locale}/gallery">{t('sup.footer.projects')}</Link>
           <Link className="foot-link" to="/$" params={{ _splat: 'news' }}>{t('sup.footer.news')}</Link>
         </FooterCol>
 
         {/* Company */}
         <FooterCol title={t('sup.footer.colCompany')}>
+          <Link className="foot-link" to="/{-$locale}/about/supsfactory-entity">{t('sup.nav.aboutAfarer')}</Link>
           <Link className="foot-link" to="/{-$locale}/about">{t('sup.footer.about')}</Link>
           <Link className="foot-link" to="/$" params={{ _splat: 'factory' }}>{t('sup.footer.factory')}</Link>
-          <Link className="foot-link" to="/$" params={{ _splat: 'technology' }}>{t('sup.footer.technology')}</Link>
           <Link className="foot-link" to="/{-$locale}/contact">{t('sup.footer.contact')}</Link>
         </FooterCol>
       </div>

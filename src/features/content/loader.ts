@@ -114,8 +114,14 @@ const SHADOWED_PATHS = new Set([
   '/contact', '/customizer', '/waitlist', '/changelog',
   '/custom-sup-manufacturing', '/private-label-sup', '/sup-for-resorts', '/sup-for-clubs',
   '/sup-startup-brands', '/terms', '/privacy',
-  '/solutions/custom-sup', '/solutions/private-label-sup', '/solutions/resort-sup',
-  '/solutions/club-sup', '/solutions/school-sup',
+  '/custom-sup-development', '/solutions/private-label-sup', '/solutions/resort-sup',
+  '/solutions/club-sup', '/solutions/school-sup', '/solutions/custom-sup',
+  '/projects', '/projects/resort-sup-fleet', '/projects/private-label-launch',
+  '/projects/club-team-boards', '/projects/school-program-fleet',
+  '/knowledge', '/knowledge/how-custom-sup-boards-are-developed',
+  '/knowledge/inflatable-sup-construction-explained',
+  '/knowledge/how-organizations-choose-sup-equipment',
+  '/about/supsfactory-entity',
 ])
 
 const REGISTERED_PAGES: AfarerPage[] = REGISTRY.flatMap((entry) => {

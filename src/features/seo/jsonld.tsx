@@ -53,13 +53,28 @@ export function siteLd(): Record<string, unknown>[] {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       '@id': `${SITE_ORIGIN}/#organization`,
-      name: 'Afarer',
-      alternateName: 'SUPsfactory',
+      name: 'SUPsfactory',
+      alternateName: 'Supsfactory',
       legalName: 'Qingdao Vatrad Group Co., Ltd.',
       url: `${SITE_ORIGIN}/`,
       logo: `${SITE_ORIGIN}/logo192.png`,
       description:
-        'Afarer is the OEM/ODM support team behind the SUPs brand of Qingdao Vatrad Group Co., Ltd. — custom inflatable SUP manufacturing, private label and low MOQ production for startups, clubs, resorts and businesses.',
+        'Supsfactory is a custom SUP product development and manufacturing partner. We help businesses, brands, resorts and organizations turn SUP product ideas into finished products through customization, product development, prototyping and reliable manufacturing support.',
+      parentOrganization: {
+        '@type': 'Organization',
+        name: 'Afarer',
+        description: 'Afarer is the SUP manufacturing brand of Qingdao Vatrad Group Co., Ltd. — OEM/ODM inflatable SUP production in Qingdao, China.',
+      },
+      knowsAbout: [
+        'SUP manufacturing',
+        'custom paddle boards',
+        'SUP product development',
+        'SUP prototyping',
+        'private label SUP',
+        'OEM manufacturing',
+        'custom SUP design',
+        'resort SUP equipment',
+      ],
       foundingLocation: { '@type': 'Place', name: 'Qingdao, China' },
       foundingDate: '2012',
       address: {
@@ -100,6 +115,51 @@ export function siteLd(): Record<string, unknown>[] {
   ]
 }
 
+/** Service entity for a solution page — what the business offers, provider-linked. */
+export function serviceLd(input: {
+  serviceType: string
+  description: string
+  path: string
+}): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: input.serviceType,
+    serviceType: input.serviceType,
+    description: input.description,
+    url: `${SITE_ORIGIN}${input.path}`,
+    provider: { '@id': `${SITE_ORIGIN}/#organization` },
+    areaServed: 'Worldwide',
+    audience: {
+      '@type': 'BusinessAudience',
+      name: 'Businesses, brands, resorts, clubs, schools and organizations',
+    },
+  }
+}
+
+/** CaseStudy entity for a project page. */
+export function projectLd(input: {
+  title: string
+  description: string
+  path: string
+  industry: string
+  outcome: string
+}): Record<string, unknown> {
+  const url = `${SITE_ORIGIN}${input.path}`
+  return {
+    '@context': 'https://schema.org',
+    '@type': ['Article', 'CaseStudy'],
+    headline: input.title,
+    description: input.description,
+    url,
+    about: { '@type': 'Thing', name: input.industry },
+    result: input.outcome,
+    author: { '@id': `${SITE_ORIGIN}/#organization` },
+    publisher: { '@type': 'Organization', name: 'SUPsfactory' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+  }
+}
+
 export function newsArticleLd(input: {
   origin: string
   title: string
@@ -125,5 +185,24 @@ export function newsArticleLd(input: {
     publisher: { '@type': 'Organization', name: 'Afarer' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': input.url },
     inLanguage: 'en',
+  }
+}
+
+/** Article entity for knowledge-center guides. */
+export function articleLd(input: {
+  title: string
+  description: string
+  path: string
+}): Record<string, unknown> {
+  const url = `${SITE_ORIGIN}${input.path}`
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: input.title,
+    description: input.description,
+    url,
+    author: { '@id': `${SITE_ORIGIN}/#organization` },
+    publisher: { '@type': 'Organization', name: 'SUPsfactory' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
   }
 }

@@ -20,6 +20,25 @@ const fetchHandler = (
   entry as { fetch: (request: Request, env: Cloudflare.Env, ctx: ExecutionContext) => Promise<Response> }
 ).fetch
 
+/**
+ * Edge/CDN caching for public marketing pages. HTML responses are immutable
+ * per deploy, so a short public cache (1h) lets Cloudflare edge cache absorb
+ * repeat crawls of the SEO surface (solutions, projects, knowledge, home).
+ * Authenticated areas (app/admin) and API responses stay uncached.
+ */
+function withMarketingCache(request: Request, response: Response): Response {
+  const isUpgrade = response.status === 101 || (response as { webSocket?: unknown }).webSocket != null
+  if (isUpgrade) return response
+  if (request.method !== 'GET' && request.method !== 'HEAD') return response
+  const path = new URL(request.url).pathname
+  if (path.startsWith('/app') || path.startsWith('/admin') || path.startsWith('/api')) return response
+  const contentType = response.headers.get('content-type') ?? ''
+  if (!contentType.includes('text/html')) return response
+  const headers = new Headers(response.headers)
+  if (!headers.has('Cache-Control')) headers.set('Cache-Control', 'public, max-age=3600')
+  return new Response(response.body, { status: response.status, statusText: response.statusText, headers })
+}
+
 const handler = {
   async fetch(request: Request, env: Cloudflare.Env, ctx: ExecutionContext): Promise<Response> {
     await assertEnvOnce()
@@ -27,7 +46,7 @@ const handler = {
     // header construction (CSP references it) — ALS makes that request-scoped.
     return runWithNonce(async () => {
       const response = await fetchHandler(request, env, ctx)
-      return withSecurityHeaders(response, getNonce())
+      return withSecurityHeaders(withMarketingCache(request, response), getNonce())
     })
   },
 

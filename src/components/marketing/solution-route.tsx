@@ -2,14 +2,16 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
-import { getSolutionPage } from '@/features/site/solution-pages'
+import { getSolutionPage, solutionPath } from '@/features/site/solution-pages'
 import { SolutionPage } from './solution-page'
 
 /**
- * Shared route factory for the Solutions system pages
- * (/solutions/custom-sup, /solutions/private-label-sup, …).
+ * Shared route factory for the Solutions system pages. The canonical URL of a
+ * page comes from solutionPath(slug) — the flagship custom-SUP page lives at
+ * /custom-sup-development (keyword-first URL), the rest under /solutions/*.
  */
 export function solutionRoute(slug: string) {
+  const path = solutionPath(slug)
   return {
     loader: async () => ({ origin: await getOrigin() }),
     head: ({ loaderData, params }: { loaderData?: { origin: string } | null; params?: unknown }) => {
@@ -19,7 +21,7 @@ export function solutionRoute(slug: string) {
       const { meta, links } = localeHead({
         origin,
         locale,
-        path: `/solutions/${slug}`,
+        path,
         title: page?.metaTitle ?? slug,
         description: page?.metaDescription ?? '',
       })
