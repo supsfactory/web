@@ -33,7 +33,7 @@ export const Route = createFileRoute('/{-$locale}/')({
       title:
         locale === 'es'
           ? 'Supsfactory | Fabricación y desarrollo de SUP personalizados'
-          : 'Supsfactory | Custom SUP Product Development & Manufacturing',
+          : 'Supsfactory | Custom SUP & Paddle Board Manufacturing',
       description:
         locale === 'es'
           ? 'Supsfactory convierte ideas de productos SUP en tablas terminadas: personalización, prototipos y fabricación OEM/ODM fiable.'

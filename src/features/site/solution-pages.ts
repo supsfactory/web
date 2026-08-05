@@ -53,7 +53,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'custom-sup',
       navLabel: 'Custom SUP Manufacturing',
-      metaTitle: 'Custom SUP Product Development | Customized Paddle Board Solutions',
+      metaTitle: 'Custom SUP Development | Customized Paddle Board Solutions',
       metaDescription:
         'Develop custom SUP products with Supsfactory. We support product requirements, customization, prototypes and manufacturing for businesses and organizations.',
       kicker: 'Custom SUP Manufacturer',
@@ -128,7 +128,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'private-label-sup',
       navLabel: 'Private Label Paddle Boards',
-      metaTitle: 'Private Label SUP Manufacturing Support | Custom SUP Production',
+      metaTitle: 'Private Label SUP Manufacturing | Custom SUP Production',
       metaDescription:
         'Supsfactory provides private label SUP manufacturing support for existing brands, helping develop customized SUP products from specifications to production.',
       kicker: 'Private Label Paddle Boards',
@@ -199,7 +199,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'resort-sup',
       navLabel: 'Resort Paddle Boards',
-      metaTitle: 'Custom SUP Equipment For Resorts | Branded Resort Paddle Boards',
+      metaTitle: 'Custom SUP Equipment for Resorts | Branded Boards',
       metaDescription:
         'Create customized SUP equipment for resorts and hotels with branded boards, accessories and production support from Supsfactory.',
       kicker: 'Resort Paddle Boards',
@@ -270,7 +270,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'club-sup',
       navLabel: 'Custom SUP Team Boards',
-      metaTitle: 'Custom SUP Equipment For Clubs & Teams | SUP Manufacturing Support',
+      metaTitle: 'Custom SUP Equipment for Clubs & Teams',
       metaDescription:
         'Supsfactory provides customized SUP equipment solutions for clubs, teams and events including graphics, specifications and production support.',
       kicker: 'Custom SUP Team Boards',
@@ -341,7 +341,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'school-sup',
       navLabel: 'School Paddle Board Program',
-      metaTitle: 'School SUP Equipment Solutions | Custom Paddle Boards For Education',
+      metaTitle: 'School SUP Equipment | Custom Paddle Boards for Education',
       metaDescription:
         'Provide safe and reliable SUP equipment solutions for schools, camps and organizations with customized production support from Supsfactory.',
       kicker: 'School Paddle Board Program',
@@ -414,7 +414,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'custom-sup',
       navLabel: 'Fabricación de SUP personalizados',
-      metaTitle: 'Desarrollo de productos SUP personalizados | Soluciones a medida',
+      metaTitle: 'Desarrollo de productos SUP | Soluciones a medida',
       metaDescription:
         'Desarrolla productos SUP personalizados con Supsfactory. Ofrecemos apoyo de requisitos, personalización, muestras y fabricación para empresas y organizaciones.',
       kicker: 'Fabricante de SUP personalizados',
@@ -489,7 +489,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'private-label-sup',
       navLabel: 'Tablas de marca privada',
-      metaTitle: 'Fabricación SUP de marca privada | Producción de SUP personalizados',
+      metaTitle: 'Fabricación SUP de marca privada | Producción',
       metaDescription:
         'Supsfactory ofrece soporte de fabricación SUP de marca privada para marcas existentes, del desarrollo a la producción de productos SUP personalizados.',
       kicker: 'Tablas de marca privada',
@@ -631,7 +631,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'club-sup',
       navLabel: 'Tablas de equipo personalizadas para clubes',
-      metaTitle: 'Equipamiento SUP para clubes y equipos | Soporte de fabricación',
+      metaTitle: 'Equipamiento SUP para clubes y equipos',
       metaDescription:
         'Supsfactory ofrece soluciones de equipamiento SUP personalizado para clubes, equipos y eventos, incluidos arte, especificaciones y soporte de producción.',
       kicker: 'Tablas de equipo personalizadas para clubes',
@@ -702,7 +702,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
     {
       slug: 'school-sup',
       navLabel: 'Programas de SUP escolares',
-      metaTitle: 'Equipamiento SUP escolar | Tablas personalizadas para educación',
+      metaTitle: 'Equipamiento SUP escolar | Tablas personalizadas',
       metaDescription:
         'Soluciones de equipamiento SUP seguras y fiables para escuelas, campamentos e instituciones, con soporte de producción personalizada de Supsfactory.',
       kicker: 'Programas de SUP escolares',

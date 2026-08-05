@@ -48,7 +48,7 @@ export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
       title:
         locale === 'es'
           ? 'Supsfactory | Fabricación y desarrollo de SUP personalizados'
-          : 'SUPsfactory | Custom SUP Manufacturing & Product Development',
+          : 'SUPsfactory | Custom SUP Manufacturing & Development',
       description:
         locale === 'es'
           ? 'SUPsfactory: fabricación de SUP personalizados con soporte de diseño completo, fabricado por Qingdao Vatrad Group.'

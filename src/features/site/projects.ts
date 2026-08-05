@@ -275,13 +275,13 @@ export interface ProjectsMeta {
 
 export const projectsMeta: Localized<ProjectsMeta> = {
   en: {
-    metaTitle: 'SUP Product Development Projects & Case Studies | SUPsfactory',
+    metaTitle: 'SUP Development Projects & Case Studies | SUPsfactory',
     metaDescription:
       'Real SUP manufacturing projects: how resorts, brands, clubs and schools turned product requirements into finished paddle boards with SUPsfactory.',
     h1: 'Projects — How We Develop SUP Products With Clients',
   },
   es: {
-    metaTitle: 'Proyectos y casos de desarrollo de productos SUP | SUPsfactory',
+    metaTitle: 'Proyectos y casos de desarrollo de producto SUP | SUPsfactory',
     metaDescription:
       'Proyectos reales de fabricación SUP: cómo resorts, marcas, clubes y escuelas convirtieron requisitos de producto en tablas de remo terminadas con SUPsfactory.',
     h1: 'Proyectos — cómo desarrollamos productos SUP con los clientes',

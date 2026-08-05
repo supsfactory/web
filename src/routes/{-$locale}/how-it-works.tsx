@@ -22,7 +22,7 @@ export const Route = createFileRoute('/{-$locale}/how-it-works')({
       origin,
       locale,
       path: '/how-it-works',
-      title: locale === 'es' ? 'Cómo funciona | Cinco pasos hasta la entrega | SUPsfactory' : 'How It Works | From Idea to Delivery in Five Steps | SUPsfactory',
+      title: locale === 'es' ? 'Cómo funciona | Cinco pasos hasta la entrega | SUPsfactory' : 'How It Works | From Idea to Delivery in 5 Steps',
       description:
         locale === 'es'
           ? 'Comparte tu idea, elige tu modelo, aprueba diseño y muestra, y después producción, entrega y lanzamiento: SUPsfactory te guía en cada paso.'
