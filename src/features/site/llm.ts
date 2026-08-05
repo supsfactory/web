@@ -178,23 +178,12 @@ const PAGE_TITLES: Record<string, string> = {
 }
 
 /** Index entries for the ported afarer brand pages (in /llms.txt). */
-export function llmAfarerIndex(): string {
-  const pagesByPath = new Map(getAfarerPages().map((p) => [p.path, p]))
-  const indexPaths = [
-    '/factory', '/factory/process', '/factory/quality-lab', '/factory/oem-capability',
-    '/factory/capacity', '/factory/equipment', '/quality-testing', '/quality',
-    '/randdcenter', '/randdcenter/rf-welding', '/randdcenter/pvc-fabric-lab',
-    '/technology', '/safety', '/academy', '/learn', '/knowledge',
-    '/guides', '/evidence', '/news', '/journal', '/solutions/build-your-own-brand',
-    '/brand/why-afarer', '/trust', '/warranty', '/what-is-sup', '/inflatable-vs-hardboard',
-    '/size-guide', '/resources', '/custom', '/oem-odm-manufacturer', '/oem-paddle',
-    '/solutions/resorts-hotels', '/solutions/paddle-clubs', '/solutions/rental-operators',
-    '/solutions/retail-partners', '/solutions/distributors', '/b2b-solutions-matrix',
-    '/fabricant-sup-gonflable', '/bateau-gonflable-fabricant', '/fournisseur-nautique',
-  ]
-  const pageLines = indexPaths
-    .map((p) => pagesByPath.get(p))
-    .filter((p): p is NonNullable<typeof p> => Boolean(p))
+export function llmAfarierIndex(): string {
+  // Derived from the loader (not a hand-maintained list) so revived pages and
+  // future registry additions are covered automatically. Edge/legacy-301'd
+  // source paths must not appear as canonical URLs — same rule as the sitemap.
+  const pageLines = getAfarerPages()
+    .filter((p) => !(p.path in EDGE_REDIRECTS) && !(p.path in LEGACY_REDIRECTS))
     .map((p) => `- [${PAGE_TITLES[p.path] ?? brandify(p.label)}](${p.path}): ${flat(brandify(p.meta?.description ?? ''))}`)
   const staticLines = [
     '- [FAQ](/faq): Answers to the most common questions about inflatable SUPs',
@@ -256,7 +245,7 @@ export function llmsAfarerFull(): string {
   return [
     '',
     '# afarer Brand Site',
-    ...pageBlocks.slice(0, 40),
+    ...pageBlocks,
     ...factsSection('Company Facts', company),
     ...factsSection('Certifications', certifications),
     ...factsSection('Manufacturing', manufacturing),

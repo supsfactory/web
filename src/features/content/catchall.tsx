@@ -11,14 +11,14 @@
 import { getRouteApi, notFound } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import { I18nProvider } from '@/features/i18n/provider'
-import { defaultLocale } from '@/features/i18n/locale'
+import { defaultLocale, type Locale } from '@/features/i18n/locale'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
 import { OG_IMAGE } from '@/features/seo/seo'
 import { JsonLd, breadcrumbLd, faqLd, newsArticleLd } from '@/features/seo/jsonld'
-import { getAfarerPage, getAfarerProduct, getNewsPost, getTechArticle, getCaseUse, getSiteFaqs, brandify } from './loader'
+import { getAfarerPage, getAfarerProduct, getNewsPost, getTechArticle, getCaseUse, getSiteFaqs, isAfarerPageTranslated, brandify } from './loader'
 import { getGuide } from './guide-content'
 import { AfarerSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
@@ -26,25 +26,37 @@ import type { AfarerProduct, AfarerPost } from './types'
 
 const rootRoute = getRouteApi('__root__')
 
-export type CatchAllData =
-  | { kind: 'page'; path: string; origin: string; slug: string; title: string; description: string }
-  | { kind: 'product'; path: string; origin: string; product: AfarerProduct; title: string; description: string; image: string }
-  | { kind: 'post'; path: string; origin: string; post: AfarerPost; title: string; description: string; image: string }
-  | { kind: 'article'; path: string; origin: string; slug: string; title: string; description: string }
-  | { kind: 'case'; path: string; origin: string; slug: string; title: string; description: string }
-  | { kind: 'guide'; path: string; origin: string; slug: string; title: string; description: string }
-  | { kind: 'cases-index'; path: string; origin: string; title: string; description: string }
-  | { kind: 'research-index'; path: string; origin: string; title: string; description: string }
-  | { kind: 'faq'; path: string; origin: string; title: string; description: string }
+export type CatchAllData = {
+  kind: string
+  path: string
+  origin: string
+  /** Locale the page is served as (from the URL prefix, defaults to en). */
+  locale: Locale
+  /** True when a real Spanish variant is rendered (vs an English duplicate). */
+  translated: boolean
+} & (
+  | { kind: 'page'; slug: string; title: string; description: string }
+  | { kind: 'product'; product: AfarerProduct; title: string; description: string; image: string }
+  | { kind: 'post'; post: AfarerPost; title: string; description: string; image: string }
+  | { kind: 'article'; slug: string; title: string; description: string }
+  | { kind: 'case'; slug: string; title: string; description: string }
+  | { kind: 'guide'; slug: string; title: string; description: string }
+  | { kind: 'cases-index'; title: string; description: string }
+  | { kind: 'research-index'; title: string; description: string }
+  | { kind: 'faq'; title: string; description: string }
+)
 
 const slugOf = (path: string): string => path.split('/').filter(Boolean).pop() ?? ''
 
-export function resolveCatchAll(path: string): CatchAllData | null {
-  const page = getAfarerPage(path)
+export function resolveCatchAll(path: string, locale: Locale = defaultLocale): CatchAllData | null {
+  const translated = isAfarerPageTranslated(path, locale)
+  const page = getAfarerPage(path, locale)
   if (page) {
     return {
       kind: 'page',
       path: page.path,
+      locale,
+      translated,
       slug: page.slug,
       title: brandify(page.meta?.title ?? `${page.label} — SUPsfactory`),
       description: brandify(page.meta?.description ?? ''),
@@ -57,6 +69,8 @@ export function resolveCatchAll(path: string): CatchAllData | null {
       return {
         kind: 'product',
         path,
+        locale,
+        translated,
         product,
         title: brandify(product.metadata?.title ?? `${product.title} — SUPsfactory`),
         description: brandify(product.metadata?.description ?? product.description ?? product.summary ?? ''),
@@ -71,6 +85,8 @@ export function resolveCatchAll(path: string): CatchAllData | null {
       return {
         kind: 'post',
         path,
+        locale,
+        translated,
         post,
         title: brandify(post.metadata?.title ?? `${post.title} — SUPsfactory`),
         description: brandify(post.metadata?.description ?? post.excerpt ?? ''),
@@ -85,6 +101,8 @@ export function resolveCatchAll(path: string): CatchAllData | null {
       return {
         kind: 'article',
         path,
+        locale,
+        translated,
         slug: article.slug,
         title: brandify(`${article.title} — SUPsfactory`),
         description: brandify(article.description ?? article.summary ?? ''),
@@ -98,6 +116,8 @@ export function resolveCatchAll(path: string): CatchAllData | null {
       return {
         kind: 'case',
         path,
+        locale,
+        translated,
         slug: c.slug,
         title: brandify(`${c.title} — SUPsfactory`),
         description: brandify(c.description ?? c.summary ?? ''),
@@ -106,15 +126,17 @@ export function resolveCatchAll(path: string): CatchAllData | null {
     }
   }
   if (path === '/evidence/case-studies')
-    return { kind: 'cases-index', path, origin: '', title: 'Case Studies — SUPsfactory', description: 'How brands, resorts and operators launch and scale with our factory.' }
+    return { kind: 'cases-index', path, locale, translated: false, origin: '', title: 'Case Studies — SUPsfactory', description: 'How brands, resorts and operators launch and scale with our factory.' }
   if (path === '/research')
-    return { kind: 'research-index', path, origin: '', title: 'Research & Technical Guides — SUPsfactory', description: 'In-depth technical research on SUP materials, construction, safety standards and manufacturing.' }
+    return { kind: 'research-index', path, locale, translated: false, origin: '', title: 'Research & Technical Guides — SUPsfactory', description: 'In-depth technical research on SUP materials, construction, safety standards and manufacturing.' }
   if (path.startsWith('/guides/')) {
     const guide = getGuide(path)
     if (guide) {
       return {
         kind: 'guide',
         path,
+        locale,
+        translated,
         slug: guide.slug,
         title: brandify(`${guide.title} — SUPsfactory`),
         description: brandify(guide.intro[0] ?? ''),
@@ -125,10 +147,12 @@ export function resolveCatchAll(path: string): CatchAllData | null {
   if (path === '/faq') {
     // afarer's footer links to /faq; the nav target exists as a site-level
     // faqs.yaml. Serve it as a real page (fixes the dead link + FAQPage schema).
-    if (getSiteFaqs().length > 0) {
+    if (getSiteFaqs(locale).length > 0) {
       return {
         kind: 'faq',
         path,
+        locale,
+        translated,
         origin: '',
         title: 'FAQ — SUPsfactory',
         description:
@@ -140,13 +164,13 @@ export function resolveCatchAll(path: string): CatchAllData | null {
 }
 
 export const afarerServerLoader = createServerFn({ method: 'GET' })
-  .validator((path: string) => path)
-  .handler(async ({ data: path }) => {
+  .validator((input: { path: string; locale: string }) => input)
+  .handler(async ({ data }) => {
     const { env } = await import('@/lib/env')
     const origin = new URL(env.BETTER_AUTH_URL).origin
-    const data = resolveCatchAll(path)
-    if (!data) throw notFound()
-    return { ...data, origin } as CatchAllData
+    const resolved = resolveCatchAll(data.path, data.locale as Locale)
+    if (!resolved) throw notFound()
+    return { ...resolved, origin } as CatchAllData
   })
 
 /* ─────────────────────────── JSON-LD helpers ─────────────────────────── */
@@ -190,7 +214,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
   const body = (() => {
     switch (data.kind) {
       case 'page': {
-        const page = getAfarerPage(data.path)!
+        const page = getAfarerPage(data.path, data.locale)!
         const faqs = collectPageFaqs(page)
         return (
           <>
@@ -226,18 +250,26 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
       case 'guide':
         return <GuideView slug={data.slug} origin={data.origin} path={data.path} />
       case 'faq':
-        return <FaqView origin={data.origin} path={data.path} />
+        return <FaqView origin={data.origin} path={data.path} locale={data.locale} translated={data.translated} />
       case 'cases-index':
         return (
           <>
-            <PageHero kicker="Case Studies" title="afarer Case Studies" sub="How brands, resorts and operators launch and scale with our factory." />
+            <PageHero
+              kicker={data.translated ? 'Casos de éxito' : 'Case Studies'}
+              title={data.translated ? 'Casos de éxito afarer' : 'afarer Case Studies'}
+              sub={data.translated ? 'Cómo lanzan y escalan su marca las marcas, resorts y operadores con nuestra fábrica.' : 'How brands, resorts and operators launch and scale with our factory.'}
+            />
             <CaseStudiesIndex />
           </>
         )
       case 'research-index':
         return (
           <>
-            <PageHero kicker="Knowledge Center" title="Research & Technical Guides" sub="In-depth technical research on SUP materials, construction, safety standards and manufacturing." />
+            <PageHero
+              kicker={data.translated ? 'Centro de conocimiento' : 'Knowledge Center'}
+              title={data.translated ? 'Investigación y guías técnicas' : 'Research & Technical Guides'}
+              sub={data.translated ? 'Investigación técnica en profundidad sobre materiales, construcción, estándares de seguridad y fabricación de SUP.' : 'In-depth technical research on SUP materials, construction, safety standards and manufacturing.'}
+            />
             <ResearchIndex />
           </>
         )
@@ -245,7 +277,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
   })()
 
   return (
-    <I18nProvider locale={defaultLocale}>
+    <I18nProvider locale={data.locale}>
       <div className="min-h-screen bg-background text-foreground">
         <SiteNav theme={theme} loggedIn={!!user} />
         {body}
@@ -463,14 +495,16 @@ function GuideView({ slug, origin, path }: { slug: string; origin: string; path:
   )
 }
 
-function FaqView({ origin, path }: { origin: string; path: string }) {
-  const faqs = getSiteFaqs().map((f) => ({ q: brandify(f.q), a: brandify(f.a) }))
+function FaqView({ origin, path, locale, translated }: { origin: string; path: string; locale: Locale; translated: boolean }) {
+  const faqs = getSiteFaqs(locale).map((f) => ({ q: brandify(f.q), a: brandify(f.a) }))
   return (
     <>
       <PageHero
         kicker="FAQ"
-        title="Frequently Asked Questions"
-        sub="Questions we hear before every SUP OEM/ODM project — materials, certifications, MOQ and logistics."
+        title={translated ? 'Preguntas frecuentes' : 'Frequently Asked Questions'}
+        sub={translated
+          ? 'Las preguntas que recibimos antes de cada proyecto SUP OEM/ODM: materiales, certificaciones, pedido mínimo y logística.'
+          : 'Questions we hear before every SUP OEM/ODM project — materials, certifications, MOQ and logistics.'}
       />
       <section className="mx-auto max-w-3xl px-5 py-14 md:px-7">
         <div className="flex flex-col gap-3">

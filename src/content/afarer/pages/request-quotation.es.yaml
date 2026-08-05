@@ -1,0 +1,97 @@
+meta:
+  title: 'Solicita un presupuesto — Fabricación OEM de SUP | {SITE}'
+  description: 'Solicita un presupuesto detallado para tu proyecto de SUP o embarcación hinchable. Fabricación OEM/ODM, etiqueta privada o flotas personalizadas: respondemos en 2 días laborables.'
+  keywords:
+    - 'solicitar presupuesto sup'
+    - 'presupuesto paddle board oem'
+    - 'cotización fábrica sup'
+    - 'precio sup hinchable'
+hero_text:
+  tagline: Obtén un presupuesto
+  title: 'Solicita un presupuesto para tu proyecto'
+  subtitle: 'Cuéntanos tus requisitos y nuestro equipo te responderá con un presupuesto detallado en un plazo de 2 días laborables.'
+steps2_process:
+  title: Cómo funciona
+  subtitle: 'Cuatro pasos sencillos desde la consulta hasta el presupuesto.'
+  items:
+    - title: 'Paso 1: Envía tus requisitos'
+      description: 'Rellena el formulario con el tipo de producto, la cantidad y las especificaciones. Cuanto más detalle aportes, más preciso será tu presupuesto.'
+      icon: tabler:file-text
+    - title: 'Paso 2: Revisamos y asesoramos'
+      description: 'Nuestro equipo de ingeniería revisa tus requisitos y puede ponerse en contacto contigo para aclararlos. Te ofrecemos recomendaciones sobre la configuración y las opciones del producto.'
+      icon: tabler:users
+    - title: 'Paso 3: Recibe tu presupuesto'
+      description: 'Recibes un presupuesto detallado con precio unitario, pedido mínimo, plazo de entrega, condiciones de pago y opciones de envío. Normalmente en 48 horas.'
+      icon: tabler:currency-dollar
+    - title: 'Paso 4: Muestra y producción'
+      description: 'Tras la aceptación del presupuesto, pasamos a la producción de muestras (si procede) o directamente a la producción en serie. Actualizaciones periódicas durante todo el proceso.'
+      icon: tabler:building-factory
+content_form:
+  tagline: Formulario de presupuesto
+  title: 'Cuéntanos tu proyecto'
+  subtitle: 'Todos los campos con * son obligatorios.'
+  fields:
+    - name: Categoría de producto
+      type: select
+      options:
+        - Tabla de SUP
+        - SUP hinchable
+        - Tabla de SUP hinchable
+        - Chaleco salvavidas
+        - Accesorio marino
+        - OEM/ODM personalizado
+    - name: Aplicación
+      type: select
+      options:
+        - Centro de buceo
+        - Pesca
+        - Turismo marino / Resort
+        - Búsqueda y rescate
+        - Tender de yate
+        - Embarcación de trabajo comercial
+        - Gobierno / Militar
+        - OEM / Etiqueta privada
+        - Personal / Recreativo
+        - Otro
+    - name: Cantidad
+      type: text
+      placeholder: p. ej. 50 unidades
+    - name: Mercado objetivo
+      type: text
+      placeholder: p. ej. Europa, Norteamérica, Oriente Medio
+    - name: País de entrega
+      type: text
+      placeholder: p. ej. Italia, EAU, EE. UU., Australia
+    - name: Preferencia de material
+      type: select
+      options:
+        - Sin preferencia
+        - PVC de grado marino (1100 dtex)
+        - Hypalon / CSM premium
+        - Casco de fibra de vidrio
+        - Casco de aluminio
+    - name: Requisito de motor
+      type: text
+      placeholder: p. ej. fueraborda 60 CV, sin motor, doble 115 CV
+    - name: Personalización necesaria
+      type: text
+      placeholder: p. ej. colores personalizados, marca/logo, embalaje, accesorios especiales
+    - name: Plazo
+      type: text
+      placeholder: p. ej. entrega en 90 días
+    - name: Requisitos adicionales
+      type: textarea
+      placeholder: Describe tu aplicación, especificaciones técnicas o cualquier requisito especial; incluye planos de referencia, especificaciones o enlaces si están disponibles
+    - name: Subir especificación
+      type: file
+      placeholder: Sube tu ficha técnica, plano o documento de referencia (PDF, DWG, DXF)
+    - name: Subir logo / arte
+      type: file
+      placeholder: Sube tu logo o arte para la marca personalizada (AI, EPS, PNG)
+cta:
+  title: '¿Prefieres hablar por correo?'
+  subtitle: 'Envía tu consulta directamente a nuestro equipo comercial y te responderemos en 24 horas.'
+  actions:
+    - variant: primary
+      text: Escríbenos directamente
+      href: /es/contact

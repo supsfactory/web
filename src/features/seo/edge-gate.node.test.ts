@@ -1,20 +1,25 @@
 import { test, expect } from 'vitest'
 import { gatePath, EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
+import { getAfarerPages } from '@/features/content/loader'
+import { GUIDES } from '@/features/content/guide-content'
+import { PUBLIC_PATHS } from '@/features/seo/seo'
+
+/** Dedicated/static routes not covered by getAfarerPages() or PUBLIC_PATHS. */
+const TEMPLATE_ROUTES = [
+  '/academy', '/community', '/evidence', '/evidence/case-studies', '/faq', '/journal', '/lifestyle',
+  '/media', '/news', '/partners', '/research',
+]
+
+/** Dynamic prefix routes ({-$locale}/knowledge/$slug.tsx etc.) — a legacy key under one of these shadows real pages. */
+const DYNAMIC_PREFIXES = ['/knowledge', '/projects', '/evidence/case-studies']
 
 /** Every legacy target must resolve to a live route (not another redirect). */
 const LIVE_ROUTES = new Set([
-  '/', '/about', '/academy', '/afarer', '/b2b-solutions-matrix', '/bateau-gonflable-fabricant',
-  '/brand', '/commercial-workboats', '/community', '/contact', '/custom', '/custom-sup-development',
-  '/customizer', '/disaster-relief-humanitarian-aid', '/evidence', '/fabricant-sup-gonflable',
-  '/factory', '/faq', '/fishing', '/fournisseur-nautique', '/gallery', '/guides',
-  '/inflatable-vs-hardboard', '/journal', '/knowledge', '/learn', '/lifestyle',
-  '/maritime-safety-defense', '/media', '/news', '/oem-odm-manufacturer', '/partners',
-  '/privacy', '/products', '/projects', '/quality', '/quality-testing', '/randdcenter',
-  '/request-quotation', '/research', '/resources', '/safety', '/search-and-rescue',
-  '/size-guide', '/solutions', '/solutions/club-sup', '/solutions/private-label-sup',
-  '/solutions/resort-sup', '/technology', '/terms', '/tourism-recreation', '/trust',
-  '/warranty', '/what-is-sup',
+  ...getAfarerPages().map((p) => p.path),
+  ...GUIDES.map((g) => `/guides/${g.slug}`),
+  ...PUBLIC_PATHS.map((e) => e.path),
+  ...TEMPLATE_ROUTES,
 ])
 
 test('301 merge of duplicate paths (P0-4)', () => {
@@ -30,12 +35,9 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
   expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
   expect(gatePath('/guides/sup-yoga')).toEqual({ action: 'redirect', to: '/knowledge' })
-  expect(gatePath('/guides/inflatable-vs-hard')).toEqual({ action: 'redirect', to: '/inflatable-vs-hardboard' })
   expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/research' })
-  expect(gatePath('/solutions/paddle-clubs')).toEqual({ action: 'redirect', to: '/solutions/club-sup' })
   expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/fishing' })
   expect(gatePath('/use-cases/disaster-relief')).toEqual({ action: 'redirect', to: '/disaster-relief-humanitarian-aid' })
-  expect(gatePath('/evidence/case-studies')).toEqual({ action: 'redirect', to: '/projects' })
   expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/request-quotation' })
   expect(gatePath('/touring-sup')).toEqual({ action: 'redirect', to: '/products' })
   expect(gatePath('/search')).toEqual({ action: 'redirect', to: '/' })
@@ -48,6 +50,30 @@ test('every legacy URL resolves to a live route', () => {
     expect(from, `legacy key must differ from its target`).not.toBe(to)
     expect(LIVE_ROUTES.has(to), `${from} → ${to} is not a live route`).toBe(true)
   }
+})
+
+test('no legacy key shadows a live page (P0-5)', () => {
+  for (const from of Object.keys(LEGACY_REDIRECTS)) {
+    expect(LIVE_ROUTES.has(from), `${from} shadows a live page and must be removed from LEGACY_REDIRECTS`).toBe(false)
+    for (const prefix of DYNAMIC_PREFIXES) {
+      expect(from.startsWith(`${prefix}/`), `${from} shadows dynamic ${prefix}/* routes`).toBe(false)
+    }
+  }
+})
+
+test('revived pages are served, not 301d (P0-5)', () => {
+  expect(gatePath('/about/afarer').action).toBe('ok')
+  expect(gatePath('/oem-paddle').action).toBe('ok')
+  expect(gatePath('/factory/oem-capability').action).toBe('ok')
+  expect(gatePath('/factory/capacity').action).toBe('ok')
+  expect(gatePath('/randdcenter/hull-engineering').action).toBe('ok')
+  expect(gatePath('/research/drop-stitch-technology').action).toBe('ok')
+  expect(gatePath('/solutions/paddle-clubs').action).toBe('ok')
+  expect(gatePath('/private-label-sup').action).toBe('ok')
+  expect(gatePath('/guides').action).toBe('ok')
+  expect(gatePath('/guides/beginner-guide').action).toBe('ok')
+  expect(gatePath('/guides/inflatable-vs-hard').action).toBe('ok')
+  expect(gatePath('/evidence/case-studies').action).toBe('ok')
 })
 
 test('retired zh locale: every /zh/* URL 301s to its /es mirror', () => {

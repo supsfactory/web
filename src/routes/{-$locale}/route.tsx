@@ -9,7 +9,7 @@ export const Route = createFileRoute('/{-$locale}')({
     if (loc === undefined) return                  // en (no prefix) — ok
     if (loc === defaultLocale) {                    // '/en/...' → strip to canonical no-prefix
       // href (not pathname) so query/hash survive — /en/contact?ref=x 带参回跳
-      throw redirect({ href: stripDefaultLocalePrefix(location.href) })
+      throw redirect({ href: stripDefaultLocalePrefix(location.href), statusCode: 301 })
     }
     if (!isLocale(loc)) throw notFound()            // unknown segment
   },

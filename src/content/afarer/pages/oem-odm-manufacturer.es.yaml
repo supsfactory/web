@@ -1,0 +1,41 @@
+meta:
+  title: 'Fabricante OEM/ODM de SUP hinchables | {SITE}'
+  description: 'Afarer: fabricante OEM/ODM líder de tablas SUP hinchables. Certificación CE. Molde a medida, etiqueta privada, venta al por mayor. De la idea al mercado en 16 semanas.'
+  keywords:
+    - 'fabricante sup oem'
+    - 'etiqueta privada sup hinchable'
+    - 'paddle boards oem'
+    - 'fábrica sup china'
+    - 'sup personalizado al por mayor'
+
+hero:
+  tagline: OEM / ODM
+  title: 'Fabricante de SUP hinchables OEM / ODM'
+  subtitle: 'Afarer: fabricante OEM/ODM líder de tablas SUP hinchables. Certificación CE. Molde a medida, etiqueta privada, venta al por mayor. De la idea al mercado en 16 semanas.'
+
+features:
+  title: Capacidades OEM / ODM
+  subtitle: 'Todo lo que necesitas para crear y lanzar tu propia línea de SUP hinchables.'
+  items:
+    - title: Moldes a medida
+      description: 'Formas de tablas exclusivas desarrolladas para tu marca, tus riders y tus objetivos de rendimiento.'
+      icon: 'tabler:shapes'
+    - title: Etiqueta privada
+      description: 'Tu logo, colores y embalaje en tablas probadas de grado comercial.'
+      icon: 'tabler:tag'
+    - title: Venta al por mayor
+      description: 'Producción a escala de contenedor con precios OEM competitivos y plazos de entrega de 30 días.'
+      icon: 'tabler:package'
+    - title: Certificación CE
+      description: 'Documentación completa de cumplimiento y seguridad para cada mercado al que entregas.'
+      icon: 'tabler:certificate'
+    - title: Diseño interno
+      description: 'Desde los bocetos conceptuales hasta el arte final de producción, todo se gestiona internamente.'
+      icon: 'tabler:palette'
+    - title: Logística global
+      description: 'Flete marítimo y aéreo con soporte de despacho de aduanas en todo el mundo.'
+      icon: 'tabler:world'
+
+cta:
+  title: '¿Listo para crear tu marca de SUP?'
+  subtitle: 'Recibe un presupuesto OEM detallado en 24 horas.'

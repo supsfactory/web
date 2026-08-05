@@ -4,10 +4,13 @@
  * Every key is a URL that existed on the old afarer marketing site but no longer
  * resolves on this codebase. They 301 to the closest current page. Targets must
  * be real routes (or entries in EDGE_REDIRECTS) — verified by edge-gate tests.
+ *
+ * Keys must NEVER shadow a live page: paths served by this codebase (registry /
+ * EXTRA_PATHS pages, /guides/{slug} guides, static template routes) are removed
+ * from this map when the new site revives them — enforced by edge-gate tests.
  */
 export const LEGACY_REDIRECTS: Record<string, string> = {
   // --- About / brand ---
-  '/about/afarer': '/afarer',
   '/about/afarer-brand': '/brand',
   '/afarer-story': '/afarer',
   '/brand-global-presence': '/brand',
@@ -40,22 +43,13 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   // --- OEM / ODM / manufacturing ---
   '/odm-sup-board': '/oem-odm-manufacturer',
   '/oem-sup-board': '/oem-odm-manufacturer',
-  '/oem-paddle': '/oem-odm-manufacturer',
   '/oem-process': '/oem-odm-manufacturer',
   '/sup-manufacturer': '/oem-odm-manufacturer',
-  '/factory/oem-capability': '/oem-odm-manufacturer',
-  '/private-label-sup': '/solutions/private-label-sup',
 
   // --- Solutions ---
-  '/solutions/build-your-own-brand': '/custom-sup-development',
   '/solutions/by-industry': '/solutions',
   '/solutions/by-use-case': '/solutions',
-  '/solutions/distributors': '/solutions',
   '/solutions/oem-brands': '/oem-odm-manufacturer',
-  '/solutions/paddle-clubs': '/solutions/club-sup',
-  '/solutions/rental-operators': '/solutions/resort-sup',
-  '/solutions/resorts-hotels': '/solutions/resort-sup',
-  '/solutions/retail-partners': '/solutions',
   '/solutions/diving-center-boats': '/solutions',
   '/solutions/fishing-boat-solutions': '/fishing',
   '/solutions/marine-tourism-equipment': '/tourism-recreation',
@@ -87,16 +81,6 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/compare/single-chamber-vs-multi-chamber': '/research',
 
   // --- Factory / R&D / engineering ---
-  '/factory/capacity': '/factory',
-  '/factory/equipment': '/factory',
-  '/factory/process': '/factory',
-  '/factory/quality-lab': '/factory',
-  '/randdcenter/hull-engineering': '/randdcenter',
-  '/randdcenter/hydrodynamic-test-tank': '/randdcenter',
-  '/randdcenter/prototype-workshop': '/randdcenter',
-  '/randdcenter/pvc-fabric-lab': '/randdcenter',
-  '/randdcenter/quality-inspection-lab': '/randdcenter',
-  '/randdcenter/rf-welding': '/randdcenter',
   '/design-powerhouse': '/technology',
   '/engineering-perfection': '/randdcenter',
   '/engineering-team': '/randdcenter',
@@ -108,16 +92,11 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/learn/materials': '/learn',
   '/learn/sup': '/learn',
   '/learn/water-safety': '/learn',
-  '/guides': '/knowledge',
-  '/guides/beginner-guide': '/knowledge',
   '/guides/choosing-paddle': '/knowledge',
-  '/guides/how-to-choose-your-sup': '/knowledge',
   '/guides/inflatable-repair': '/knowledge',
-  '/guides/inflatable-vs-hard': '/inflatable-vs-hardboard',
   '/guides/kayak-techniques': '/knowledge',
   '/guides/multi-day-trip': '/knowledge',
   '/guides/paddling-techniques': '/knowledge',
-  '/guides/safety-tips': '/knowledge',
   '/guides/sup-fishing': '/knowledge',
   '/guides/sup-fitness': '/knowledge',
   '/guides/sup-maintenance': '/knowledge',
@@ -126,21 +105,15 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/guides/understanding-specs': '/knowledge',
   '/guides/weather-conditions': '/knowledge',
   '/research/board-hull-design': '/research',
-  '/research/ce-certification-guide': '/research',
-  '/research/drop-stitch-technology': '/research',
   '/research/eva-foam-technology': '/research',
   '/research/fin-systems-guide': '/research',
   '/research/fusion-lamination-vs-glue': '/research',
   '/research/military-grade-pvc-specs': '/research',
-  '/research/oem-buyer-guide': '/research',
-  '/research/pvc-vs-hypalon': '/research',
   '/research/quality-testing-standards': '/research',
   '/research/sup-manufacturing-process': '/research',
   '/research/sup-paddle-technology': '/research',
-  '/research/sup-thickness-guide': '/research',
   '/research/sup-valve-types': '/research',
   '/research/uv-printing-vs-eva-block': '/research',
-  '/evidence/case-studies': '/projects',
   '/resources/download-catalog': '/request-quotation',
 
   // --- Misc ---

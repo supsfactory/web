@@ -1,0 +1,39 @@
+meta:
+  title: 'La marca afarer — Fabricante marino profesional | {SITE}'
+  description: 'afarer: un fabricante profesional de tablas SUP y embarcaciones hinchables que ofrece producción OEM/ODM para marcas, distribuidores, clubes náuticos y empresas.'
+  keywords:
+    - 'marca afarer'
+    - 'fabricante sup hinchable'
+    - 'fabricante embarcaciones hinchables'
+    - 'fábrica sup china'
+hero:
+  tagline: Marca
+  title: '{BRAND}'
+  subtitle: Rendimiento oceánico para cada surfista
+  cta: Explorar productos →
+  cta_link: /es/products
+  secondary_cta: Aprender a surfear
+  secondary_cta_link: /es/guides
+
+position:
+  tagline: Posición
+  subtitle: Rendimiento oceánico para cada surfista
+
+products_section:
+  tagline: Productos
+  cta: Todos los productos →
+  cta_link: /es/products
+
+global_section:
+  tagline: Global
+  title: Disponible en {count} regiones
+
+social_section:
+  tagline: Social
+  title: Lo que leen los surfistas
+  read_guide: Leer guía →
+cta_section:
+  title: Comienza tu travesía oceánica
+  subtitle: Cada producto certificado CE. Con garantía. Diseñado para el surf real.
+  cta_suffix: '→'
+  secondary_cta: Sobre {BRAND}

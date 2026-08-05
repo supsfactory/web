@@ -1,0 +1,71 @@
+meta:
+  title: 'Certificaciones — CE, ISO 9001 y cumplimiento | {SITE}'
+  description: 'Certificaciones de calidad de afarer: CE (Directiva 2013/53/UE), ISO 9001:2015, BSCI. Cumplimiento y seguridad de un fabricante de SUP y embarcaciones hinchables.'
+  keywords:
+    - 'certificación ce sup'
+    - 'iso 9001 sup'
+    - 'cumplimiento náutico'
+    - 'certificación paddle board'
+hero:
+  tagline: Certificaciones y estándares
+  title: 'Certificaciones de calidad y estándares de cumplimiento'
+  subtitle: 'La fabricación de SUP y embarcaciones hinchables de afarer está certificada según normas internacionales de seguridad marina, sistemas de gestión de calidad y normativa medioambiental: CE, ISO 9001, UKCA, BSCI y REACH.'
+  image:
+    src: https://assets.afarer.com/images/afarer/certifications/certifications-hero.webp
+    alt: certificaciones de calidad y documentación de cumplimiento de afarer
+content_certifications:
+  tagline: Nuestras certificaciones
+  title: 'Calidad certificada, reconocida mundialmente'
+  subtitle: 'Cada producto afarer está respaldado por certificaciones que demuestran nuestro compromiso con la calidad, la seguridad y la responsabilidad medioambiental.'
+  items:
+    - title: 'Certificado CE'
+      description: 'Todos los productos afarer cumplen los requisitos europeos de marcado CE para embarcaciones de recreo, garantizando el cumplimiento de las normas de seguridad, salud y protección medioambiental.'
+      icon: tabler:certificate
+    - title: 'ISO 9001:2015'
+      description: 'Nuestro sistema de gestión de calidad está certificado ISO 9001:2015 y cubre el diseño, la fabricación y la distribución de embarcaciones hinchables y equipo marino.'
+      icon: tabler:clipboard-check
+    - title: 'Marcado UKCA'
+      description: 'Los productos vendidos en el mercado del Reino Unido llevan el marcado UKCA, que confirma el cumplimiento de la normativa británica para equipo marino y embarcaciones personales.'
+      icon: tabler:shield
+    - title: 'Cumplimiento BSCI'
+      description: 'afarer está auditado según BSCI (Business Social Compliance Initiative), demostrando prácticas de fabricación éticas, condiciones laborales justas y responsabilidad en la cadena de suministro.'
+      icon: tabler:heart-handshake
+    - title: 'Cumplimiento REACH'
+      description: 'Todos los materiales utilizados en los productos afarer cumplen el reglamento europeo REACH de seguridad química, garantizando que nuestro PVC, Hypalon o componentes no contengan sustancias restringidas.'
+      icon: tabler:flask
+    - title: 'Ensayo de materiales'
+      description: 'Los tejidos se ensayan en cuanto a resistencia a la tracción, resistencia al desgarro, degradación UV y comportamiento ante grietas por frío. Cada lote de producción se muestrea y verifica.'
+      icon: tabler:test-pipe
+content_factory:
+  tagline: Estándares de fábrica
+  title: 'Excelencia en fabricación — construido según especificación'
+  subtitle: 'Nuestra planta de 12.000 m² opera bajo estrictos protocolos de control de calidad en cada etapa de la producción.'
+  list:
+    - 'Inspección de materiales entrantes: todas las materias primas (tejido PVC, Hypalon, aluminio, contrachapado, adhesivos) se ensayan contra las especificaciones antes de entrar en producción.'
+    - 'Control de calidad en proceso: cada etapa de producción tiene puntos de control documentados. La resistencia de soldaduras, la alineación de costuras, la instalación de válvulas y el par de apriete se verifican en línea.'
+    - 'Ensayo de presión: cada cámara hinchable se somete a prueba de presión a 1,5× la presión nominal durante 24 horas. La tasa de fugas debe ser cero para superar la prueba.'
+    - 'Inspección final: los productos terminados se inspeccionan en cuanto a precisión dimensional, acabado cosmético, integridad de accesorios e integridad del embalaje antes del envío.'
+    - 'Trazabilidad por lotes: cada producto lleva un número de serie vinculado a los registros del lote de producción, lo que permite una trazabilidad completa desde la materia prima hasta el producto terminado.'
+content_safety:
+  tagline: Normas de seguridad marina
+  title: 'Seguridad ante todo: diseñado para un funcionamiento fiable'
+  subtitle: 'Los productos afarer están diseñados y ensayados para cumplir las normas internacionales de seguridad marina de uso comercial y recreativo.'
+  items:
+    - title: 'ISO 6185'
+      description: 'Las embarcaciones hinchables cumplen la norma ISO 6185 de construcción, estabilidad, flotabilidad y capacidad de carga.'
+      icon: tabler:sailboat
+    - title: 'Normas ABYC'
+      description: 'Los sistemas eléctricos y de combustible siguen las normas ABYC (American Boat & Yacht Council) para una instalación y funcionamiento seguros.'
+      icon: tabler:bolt
+    - title: 'Cumplimiento SOLAS'
+      description: 'El equipo de seguridad y los dispositivos de salvamento cumplen los requisitos SOLAS (Seguridad de la vida humana en el mar) cuando procede.'
+      icon: tabler:lifebuoy
+cta:
+  title: '¿Necesitas productos certificados para tu proyecto?'
+  subtitle: 'Contacta con nuestro equipo para hablar de los requisitos de certificación, documentación y cumplimiento para tu mercado.'
+  actions:
+    - variant: primary
+      text: Solicitar documentación de certificación
+      href: /es/contact
+    - text: Ver nuestra página de calidad
+      href: /es/quality

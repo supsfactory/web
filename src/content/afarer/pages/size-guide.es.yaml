@@ -1,0 +1,35 @@
+meta:
+  title: 'Guía de tallas y especificaciones — SUP y embarcaciones hinchables | {SITE}'
+  description: 'Dimensiones, capacidades y usos recomendados para cada producto afarer. Encuentra el tamaño adecuado de SUP o embarcación hinchable.'
+  keywords:
+    - 'guía de tallas sup'
+    - 'dimensiones paddle board'
+    - 'especificaciones sup hinchable'
+    - 'tabla de tamaños embarcaciones'
+hero:
+  title: Guía de tallas y especificaciones
+  subtitle: Dimensiones, capacidades y usos recomendados para cada producto afarer.
+
+categories:
+  inflatable: SUP hinchables diseñados para la portabilidad sin sacrificar rendimiento. Ajusta la talla a tu peso y estilo de paleo.
+  sup: Tablas de paddle surf para travesías, yoga, fitness y paleo recreativo. Elige por longitud y peso del rider.
+  accessory: Accesorios y equipo de seguridad para complementar tu tabla SUP. Tallas universales con múltiples opciones.
+
+table:
+  headers:
+    product: Producto
+    length: Longitud
+    width: Ancho
+    weight: Peso
+    max_load: Carga máxima
+    best_for: Ideal para
+
+how_to_choose:
+  title: Cómo elegir la talla adecuada
+  cards:
+    - title: Tablas SUP
+      description: Elige el largo según tu peso y el uso previsto. Las tablas más anchas (32"+ ) ofrecen más estabilidad. Las más largas (11–12 pies) navegan mejor en travesía. Los paddlers más pesados necesitan tablas de mayor volumen.
+    - title: SUP de travesía
+      description: Las tablas más largas (11–12 pies) son las mejores para recorrer distancias y navegar. Las más anchas (32"+ ) ofrecen más estabilidad. Comprueba la capacidad de peso para la carga total, incluido el equipo.
+    - title: SUP polivalentes
+      description: Elige el largo según el peso del rider y el uso previsto. Las tablas polivalentes sirven para recreo, fitness y yoga. Las más pequeñas son más maniobrables.

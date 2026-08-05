@@ -1,4 +1,4 @@
-import { createRootRoute, HeadContent, Outlet, Scripts, useParams, useRouterState } from '@tanstack/react-router'
+import { createRootRoute, HeadContent, Outlet, Scripts, useRouterState } from '@tanstack/react-router'
 import { isLocale, defaultLocale } from '@/features/i18n/locale'
 import { getPreferences } from '@/server/preferences'
 import { getOptionalUser } from '@/features/auth/middleware'
@@ -66,13 +66,14 @@ const THEME_BOOT_SCRIPT = `(function(){try{if(!/(?:^|;\\s*)theme=/.test(document
 
 function RootComponent() {
   const { theme, analyticsToken } = Route.useLoaderData()
-  const params = useParams({ strict: false }) as { locale?: string }
   const pathname = useRouterState({ select: (s) => s.location.pathname })
-  // Validate before use: on 404s the optional {-$locale} param swallows the
-  // first path segment, so `/no-such-page` would otherwise become lang="no-such-page".
+  // Locale from the URL's first segment: this works for both the {-$locale}
+  // template routes and the /$ catch-all (whose params carry `_splat`, not
+  // `locale` — otherwise every /es/* afarer page would render lang="en").
   // /docs 在 locale 组外且内容目前只有中文——lang 跟内容走，别向搜索引擎/读屏标错语言
   // （docs 翻译成英文时同步改这里）。
-  const lang = isLocale(params.locale) ? params.locale : pathname.startsWith('/docs') ? 'zh' : defaultLocale
+  const firstSegment = pathname.split('/').filter(Boolean)[0]
+  const lang = isLocale(firstSegment) ? firstSegment : pathname.startsWith('/docs') ? 'zh' : defaultLocale
   const resolvedTheme = useResolvedTheme(theme)
   // CSP nonce for the two inline scripts (theme boot + hydration); undefined in
   // dev, where no CSP is enforced anyway (see src/lib/security-headers.ts).

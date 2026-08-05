@@ -1,5 +1,6 @@
 import { parse } from 'yaml'
 import { assetUrl } from './assets'
+import { defaultLocale, type Locale } from '@/features/i18n/locale'
 import type {
   AfarerArticle,
   AfarerCaseUse,
@@ -24,6 +25,11 @@ import type {
 
 const siteGlob = import.meta.glob('../../content/afarer/site/*.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const pageGlob = import.meta.glob('../../content/afarer/pages/*.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+// Spanish sidecar variants — `pages/{slug}.es.yaml` / `site/{name}.es.yaml` are
+// full-structure copies of their English twin (translated values, same keys).
+// When present, /es/* pages render them instead of the English source.
+const esSiteGlob = import.meta.glob('../../content/afarer/site/*.es.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const esPageGlob = import.meta.glob('../../content/afarer/pages/*.es.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const productGlob = import.meta.glob('../../content/afarer/products/*.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const newsGlob = import.meta.glob('../../content/afarer/news/*.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const techGlob = import.meta.glob('../../content/afarer/technology/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
@@ -41,10 +47,12 @@ function basename(path: string): string {
   return path.split(/[\\/]/).pop() ?? ''
 }
 
-function parseYamlMap(glob: Record<string, string>): Record<string, unknown> {
+function parseYamlMap(glob: Record<string, string>, stripEs = false): Record<string, unknown> {
   const out: Record<string, unknown> = {}
   for (const [key, raw] of Object.entries(glob)) {
-    out[basename(key).replace(/\.(yaml|yml)$/i, '')] = parse(stripBom(raw))
+    let name = basename(key).replace(/\.(yaml|yml)$/i, '')
+    if (stripEs) name = name.replace(/\.es$/i, '')
+    out[name] = parse(stripBom(raw))
   }
   return out
 }
@@ -72,6 +80,7 @@ interface RegistryEntry {
 const REGISTRY_RAW = suffixMatch(siteGlob, 'pages.yaml') ?? ''
 const REGISTRY = (parse(stripBom(REGISTRY_RAW)) as RegistryEntry[]) ?? []
 const PAGES_YAML = parseYamlMap(pageGlob)
+const PAGES_YAML_ES = parseYamlMap(esPageGlob, true)
 
 /** Global market regions afarer serves, sourced from the distributor coverage list. */
 const REGION_COUNT = (() => {
@@ -285,8 +294,30 @@ function geoJson(name: string): Record<string, unknown> | undefined {
 
 /* ───────────────────────── public API ───────────────────────── */
 
-export function getAfarerPage(path: string): AfarerPage | undefined {
-  return PAGE_BY_PATH.get(normalizePath(path))
+export function getAfarerPage(path: string, locale: Locale = defaultLocale): AfarerPage | undefined {
+  const page = PAGE_BY_PATH.get(normalizePath(path))
+  if (!page) return undefined
+  if (locale !== 'es') return page
+  const es = PAGES_YAML_ES[page.slug]
+  if (!es) return page
+  const esContent = es as Record<string, unknown>
+  return { ...page, content: esContent, meta: (esContent.meta as AfarerPage['meta']) ?? page.meta }
+}
+
+/** True when a Spanish variant exists for the page (or /faq) at `path`. */
+export function isAfarerPageTranslated(path: string, locale: Locale): boolean {
+  if (locale !== 'es') return false
+  const page = PAGE_BY_PATH.get(normalizePath(path))
+  if (page) return !!PAGES_YAML_ES[page.slug]
+  if (normalizePath(path) === '/faq') return !!suffixMatch(esSiteGlob, 'faqs.es.yaml')
+  return false
+}
+
+/** Live page paths that have a Spanish variant (for the /es sitemap). */
+export function getAfarerEsPaths(): string[] {
+  const pages = ALL_PAGES.filter((p) => PAGES_YAML_ES[p.slug]).map((p) => p.path)
+  if (suffixMatch(esSiteGlob, 'faqs.es.yaml')) pages.push('/faq')
+  return pages
 }
 
 export function getAfarerPages(): AfarerPage[] {
@@ -352,10 +383,12 @@ export function getGeoFacts(): {
 }
 
 /** Site-wide FAQ Q&A (src/content/afarer/site/faqs.yaml), for the /faq page. */
-export function getSiteFaqs(): { q: string; a: string }[] {
-  const raw = suffixMatch(siteGlob, 'faqs.yaml')
-  if (!raw) return []
-  const parsed = parse(stripBom(raw)) as { faqs?: { q: string; a: string }[] }
+export function getSiteFaqs(locale: Locale = defaultLocale): { q: string; a: string }[] {
+  const raw =
+    locale === 'es' ? (suffixMatch(esSiteGlob, 'faqs.es.yaml') ?? '') : ''
+  const source = raw || suffixMatch(siteGlob, 'faqs.yaml') || ''
+  if (!source) return []
+  const parsed = parse(stripBom(source)) as { faqs?: { q: string; a: string }[] }
   return Array.isArray(parsed.faqs) ? parsed.faqs : []
 }
 

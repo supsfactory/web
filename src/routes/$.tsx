@@ -1,6 +1,6 @@
-import { createFileRoute } from '@tanstack/react-router'
-import { OG_IMAGE } from '@/features/seo/seo'
-import { isLocale } from '@/features/i18n/locale'
+import { createFileRoute, redirect } from '@tanstack/react-router'
+import { OG_IMAGE, localeHead } from '@/features/seo/seo'
+import { isLocale, defaultLocale, type Locale } from '@/features/i18n/locale'
 import { AfarerCatchAll, afarerServerLoader } from '@/features/content/catchall'
 
 /**
@@ -8,8 +8,10 @@ import { AfarerCatchAll, afarerServerLoader } from '@/features/content/catchall'
  *
  * Serves every prefix-less and locale-prefixed URL (`/factory`, `/es/factory`,
  * `/news/...`) by stripping a leading valid locale segment and resolving the
- * rest against the afarer page registry. Content is English-only, so all
- * locales render the same pages. Unknown paths throw notFound().
+ * rest against the afarer page registry. Pages with a Spanish variant
+ * (`{slug}.es.yaml`) render translated content with a proper es head; pages
+ * without one keep the English content and are noindexed as duplicates.
+ * Unknown paths throw notFound().
  */
 const stripLocalePrefix = (path: string): string => {
   const segments = path.split('/').filter(Boolean)
@@ -23,14 +25,27 @@ export const Route = createFileRoute('/$')({
     const raw = `/${splat}`.replace(/\/+$/, '') || '/'
     const segments = raw.split('/').filter(Boolean)
     const localized = segments.length > 0 && isLocale(segments[0])
+    const locale = (localized ? segments[0] : defaultLocale) as Locale
     const path = stripLocalePrefix(raw)
-    return { ...(await afarerServerLoader({ data: path })), localized }
+    // '/en/...' → permanent redirect to the canonical no-prefix URL. The
+    // {-$locale} group enforces this only for its own template routes; afarer
+    // pages / products / news land here, so the catch-all must apply the same
+    // rule (otherwise /en/factory would 200-render a noindexed duplicate).
+    if (localized && locale === defaultLocale) {
+      throw redirect({ href: path, statusCode: 301 })
+    }
+    return { ...(await afarerServerLoader({ data: { path, locale } })), localized }
   },
   head: ({ loaderData }) => {
     if (!loaderData) return {}
-    const { origin, path, title, description } = loaderData
+    const { origin, path, title, description, locale, translated } = loaderData
     const canonical = `${origin}${path}`
     const image = loaderData.kind === 'page' ? OG_IMAGE : ((loaderData as { image?: string }).image ?? OG_IMAGE)
+    // Translated /es/* pages get a real Spanish head (canonical → /es, es_ES
+    // OG locale, hreflang alternates) and are indexable.
+    if (loaderData.localized && translated) {
+      return localeHead({ origin, locale, path, title, description })
+    }
     const meta: Record<string, string>[] = [
       { title },
       { name: 'description', content: description },
@@ -46,8 +61,9 @@ export const Route = createFileRoute('/$')({
       { name: 'twitter:description', content: description },
       { name: 'twitter:image', content: image },
     ]
-    // /es/* afarer pages render the same English content as their en twin
-    // (canonical → en). Noindex the duplicate so only the en page ranks.
+    // /es/* afarer pages without a translation render the same English content
+    // as their en twin (canonical → en). Noindex the duplicate so only the en
+    // page ranks.
     if (loaderData.localized) {
       meta.push({ name: 'robots', content: 'noindex, follow' })
     }
