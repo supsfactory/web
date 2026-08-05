@@ -1,0 +1,112 @@
+import * as React from 'react'
+import { Search as SearchIcon } from 'lucide-react'
+import type { SearchEntry } from '@/features/site/search'
+import { useTranslation } from '@/features/i18n/provider'
+
+const TYPE_CLASS: Record<SearchEntry['type'], string> = {
+  solution: 'bg-primary/10 text-primary',
+  guide: 'bg-emerald-500/10 text-emerald-700 dark:text-emerald-400',
+  project: 'bg-amber-500/10 text-amber-700 dark:text-amber-400',
+  page: 'bg-bg-alt text-fg-2',
+}
+
+/** Site-wide search dialog — lazily fetches `/search-index.json`, filters by
+ * the current locale, and navigates on selection. The `/` shortcut opens it. */
+export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen: () => void; onClose: () => void }) {
+  const { t, locale } = useTranslation()
+  const [query, setQuery] = React.useState('')
+  const [index, setIndex] = React.useState<SearchEntry[] | null>(null)
+  const inputRef = React.useRef<HTMLInputElement>(null)
+  const dialogRef = React.useRef<HTMLDivElement>(null)
+
+  React.useEffect(() => {
+    if (open) {
+      if (!index) {
+        fetch('/search-index.json')
+          .then((r) => (r.ok ? r.json() : []))
+          .then((data) => setIndex(data as SearchEntry[]))
+          .catch(() => setIndex([]))
+      }
+      setTimeout(() => inputRef.current?.focus(), 30)
+    } else {
+      setQuery('')
+    }
+  }, [open, index])
+
+  React.useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.key === '/' && document.activeElement?.tagName !== 'INPUT' && document.activeElement?.tagName !== 'TEXTAREA') {
+        e.preventDefault()
+        onOpen()
+      }
+      if (e.key === 'Escape') onClose()
+    }
+    document.addEventListener('keydown', onKey)
+    return () => document.removeEventListener('keydown', onKey)
+  }, [onOpen, onClose])
+
+  React.useEffect(() => {
+    function onClick(e: MouseEvent) {
+      if (dialogRef.current && !dialogRef.current.contains(e.target as Node)) onClose()
+    }
+    if (open) document.addEventListener('mousedown', onClick)
+    return () => document.removeEventListener('mousedown', onClick)
+  }, [open, onClose])
+
+  const q = query.trim().toLowerCase()
+  const matches = React.useMemo(() => {
+    if (!q || !index) return []
+    return index
+      .filter((it) => it.locale === locale && (it.title.toLowerCase().includes(q) || it.excerpt.toLowerCase().includes(q)))
+      .slice(0, 12)
+  }, [q, index, locale])
+
+  if (!open) return null
+
+  return (
+    <div className="fixed inset-0 z-[70] bg-black/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={t('common.search')}>
+      <div ref={dialogRef} className="mx-auto mt-20 w-[92vw] max-w-2xl">
+        <div className="overflow-hidden rounded-xl border border-border bg-card shadow-[var(--shadow-lg)]">
+          <div className="flex items-center gap-3 border-b border-border px-4 py-3">
+            <SearchIcon size={18} className="shrink-0 text-fg-3" />
+            <input
+              ref={inputRef}
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={t('common.searchPlaceholder')}
+              className="flex-1 bg-transparent text-[15px] text-foreground outline-none placeholder:text-fg-3"
+              autoComplete="off"
+            />
+            <kbd className="rounded border border-border px-1.5 py-0.5 text-[11px] text-fg-3">Esc</kbd>
+          </div>
+          <div className="max-h-[60vh] overflow-y-auto p-2">
+            {!q && <p className="px-3 py-6 text-center text-sm text-fg-3">{t('common.searchStart')}</p>}
+            {q && matches.length === 0 && <p className="px-3 py-6 text-center text-sm text-fg-3">{t('common.searchNone')}</p>}
+            {q && matches.length > 0 && (
+              <ul>
+                {matches.map((m) => (
+                  <li key={`${m.locale}${m.url}`}>
+                    <a
+                      href={m.url}
+                      onClick={() => onClose()}
+                      className="flex items-center gap-2.5 rounded-lg px-3 py-2 hover:bg-bg-alt"
+                    >
+                      <span className={`shrink-0 rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${TYPE_CLASS[m.type]}`}>
+                        {t(`common.type${m.type[0].toUpperCase()}${m.type.slice(1)}`)}
+                      </span>
+                      <span className="min-w-0 flex-1">
+                        <span className="block truncate text-sm font-medium text-foreground">{m.title}</span>
+                        {m.excerpt && <span className="block truncate text-xs text-fg-3">{m.excerpt}</span>}
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}

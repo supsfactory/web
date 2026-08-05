@@ -20,6 +20,7 @@ import { Route as SitemapProductsDotxmlRouteImport } from './routes/sitemap-prod
 import { Route as SitemapPagesDotxmlRouteImport } from './routes/sitemap-pages[.]xml'
 import { Route as SitemapNewsDotxmlRouteImport } from './routes/sitemap-news[.]xml'
 import { Route as SitemapEsDotxmlRouteImport } from './routes/sitemap-es[.]xml'
+import { Route as SearchIndexDotjsonRouteImport } from './routes/search-index[.]json'
 import { Route as SearchAndRescueRouteImport } from './routes/search-and-rescue'
 import { Route as SafetyRouteImport } from './routes/safety'
 import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
@@ -169,6 +170,11 @@ const SitemapNewsDotxmlRoute = SitemapNewsDotxmlRouteImport.update({
 const SitemapEsDotxmlRoute = SitemapEsDotxmlRouteImport.update({
   id: '/sitemap-es.xml',
   path: '/sitemap-es.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SearchIndexDotjsonRoute = SearchIndexDotjsonRouteImport.update({
+  id: '/search-index.json',
+  path: '/search-index.json',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SearchAndRescueRoute = SearchAndRescueRouteImport.update({
@@ -738,6 +744,7 @@ export interface FileRoutesByFullPath {
   '/rss.xml': typeof RssDotxmlRoute
   '/safety': typeof SafetyRoute
   '/search-and-rescue': typeof SearchAndRescueRoute
+  '/search-index.json': typeof SearchIndexDotjsonRoute
   '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
@@ -845,6 +852,7 @@ export interface FileRoutesByTo {
   '/rss.xml': typeof RssDotxmlRoute
   '/safety': typeof SafetyRoute
   '/search-and-rescue': typeof SearchAndRescueRoute
+  '/search-index.json': typeof SearchIndexDotjsonRoute
   '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
@@ -952,6 +960,7 @@ export interface FileRoutesById {
   '/rss.xml': typeof RssDotxmlRoute
   '/safety': typeof SafetyRoute
   '/search-and-rescue': typeof SearchAndRescueRoute
+  '/search-index.json': typeof SearchIndexDotjsonRoute
   '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
@@ -1062,6 +1071,7 @@ export interface FileRouteTypes {
     | '/rss.xml'
     | '/safety'
     | '/search-and-rescue'
+    | '/search-index.json'
     | '/sitemap-es.xml'
     | '/sitemap-news.xml'
     | '/sitemap-pages.xml'
@@ -1169,6 +1179,7 @@ export interface FileRouteTypes {
     | '/rss.xml'
     | '/safety'
     | '/search-and-rescue'
+    | '/search-index.json'
     | '/sitemap-es.xml'
     | '/sitemap-news.xml'
     | '/sitemap-pages.xml'
@@ -1275,6 +1286,7 @@ export interface FileRouteTypes {
     | '/rss.xml'
     | '/safety'
     | '/search-and-rescue'
+    | '/search-index.json'
     | '/sitemap-es.xml'
     | '/sitemap-news.xml'
     | '/sitemap-pages.xml'
@@ -1384,6 +1396,7 @@ export interface RootRouteChildren {
   RssDotxmlRoute: typeof RssDotxmlRoute
   SafetyRoute: typeof SafetyRoute
   SearchAndRescueRoute: typeof SearchAndRescueRoute
+  SearchIndexDotjsonRoute: typeof SearchIndexDotjsonRoute
   SitemapEsDotxmlRoute: typeof SitemapEsDotxmlRoute
   SitemapNewsDotxmlRoute: typeof SitemapNewsDotxmlRoute
   SitemapPagesDotxmlRoute: typeof SitemapPagesDotxmlRoute
@@ -1482,6 +1495,13 @@ declare module '@tanstack/react-router' {
       path: '/sitemap-es.xml'
       fullPath: '/sitemap-es.xml'
       preLoaderRoute: typeof SitemapEsDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/search-index.json': {
+      id: '/search-index.json'
+      path: '/search-index.json'
+      fullPath: '/search-index.json'
+      preLoaderRoute: typeof SearchIndexDotjsonRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/search-and-rescue': {
@@ -2345,6 +2365,7 @@ const rootRouteChildren: RootRouteChildren = {
   RssDotxmlRoute: RssDotxmlRoute,
   SafetyRoute: SafetyRoute,
   SearchAndRescueRoute: SearchAndRescueRoute,
+  SearchIndexDotjsonRoute: SearchIndexDotjsonRoute,
   SitemapEsDotxmlRoute: SitemapEsDotxmlRoute,
   SitemapNewsDotxmlRoute: SitemapNewsDotxmlRoute,
   SitemapPagesDotxmlRoute: SitemapPagesDotxmlRoute,

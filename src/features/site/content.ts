@@ -45,7 +45,7 @@ export const hero: Localized<HeroContent> = {
     sub: 'From product concepts and customization requirements to prototypes and production, SUPsfactory helps businesses create SUP products through professional development and manufacturing support.',
     ctaPrimary: 'Discuss Your SUP Project',
     ctaSecondary: 'Explore Custom Solutions',
-    chips: ['Flexible MOQ', 'Custom Production', 'Powered by Afarer Manufacturing'],
+    chips: ['Flexible MOQ', 'Custom Production', 'Powered by Afarer'],
     mockupLabel: 'Signature Platform',
     mockupBrand: "SUP Explorer 11'",
     mockupHint: 'Your graphics · your colors · your packaging',
@@ -87,8 +87,8 @@ export interface WhyContent {
 
 export const why: Localized<WhyContent> = {
   en: {
-    kicker: 'Powered by Afarer Manufacturing',
-    title: 'Powered By Afarer Manufacturing Expertise',
+    kicker: 'Powered by Afarer',
+    title: 'Powered by Afarer Expertise',
     sub: 'Supsfactory works with Afarer’s SUP manufacturing capabilities to support product development, production and delivery.',
     image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
     imageCaption: 'Afarer manufacturing facility, Qingdao, China',

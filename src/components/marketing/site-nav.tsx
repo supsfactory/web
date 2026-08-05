@@ -1,29 +1,76 @@
 import * as React from 'react'
 import { Link } from '@tanstack/react-router'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, ChevronDown, Search as SearchIcon } from 'lucide-react'
 import { Logo } from '@/components/brand/logo'
 import { buttonVariants } from '@/components/ui/button'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
+import { SearchDialog } from '@/components/marketing/search-dialog'
 import { useTranslation } from '@/features/i18n/provider'
 
-/** Sticky marketing header for the SUPsfactory site. Links + CTA collapse into a hamburger menu on mobile. */
+interface NavItem {
+  label: string
+  to?: string
+  /** Raw path for top-level (non-locale-group) routes — localized at render. */
+  href?: string
+  items?: { label: string; to?: string; href?: string }[]
+}
+
+/** Sticky marketing header: utility top bar (auth) + main bar with dropdown
+ * navigation (≤6 top-level items), search, theme and language controls. */
 export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn: boolean }) {
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
   const [open, setOpen] = React.useState(false)
+  const [searchOpen, setSearchOpen] = React.useState(false)
+  const [drop, setDrop] = React.useState<string | null>(null)
 
-  const linkCls = 'rounded-md px-2 py-3 text-sm font-medium text-fg-2 transition-colors hover:bg-bg-alt hover:text-foreground md:py-2'
+  const linkCls =
+    'rounded-md px-3 py-2 text-sm font-medium text-fg-2 transition-colors hover:bg-bg-alt hover:text-foreground'
 
-  const navLinks = (
-    <>
-      <Link to="/{-$locale}/solutions" className={linkCls}>{t('sup.nav.solutions')}</Link>
-      <Link to="/{-$locale}/products" className={linkCls}>{t('sup.nav.products')}</Link>
-      <Link to="/{-$locale}/how-it-works" className={linkCls}>{t('sup.nav.process')}</Link>
-      <Link to="/{-$locale}/projects" className={linkCls}>{t('sup.nav.projects')}</Link>
-      <Link to="/{-$locale}/knowledge" className={linkCls}>{t('sup.nav.guides')}</Link>
-      <Link to="/{-$locale}/about/supsfactory-entity" className={linkCls}>{t('sup.nav.aboutAfarer')}</Link>
-      <Link to="/{-$locale}/contact" className={linkCls}>{t('sup.nav.contact')}</Link>
-    </>
+  /** Localize a raw path (top-level afarer routes resolve via the catch-all). */
+  const l = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+
+  const navItems: NavItem[] = [
+    {
+      label: t('sup.nav.solutions'),
+      items: [
+        { label: t('sup.nav.solutionsDropdown.privateLabel'), to: '/{-$locale}/solutions/private-label-sup' },
+        { label: t('sup.nav.solutionsDropdown.resort'), to: '/{-$locale}/solutions/resort-sup' },
+        { label: t('sup.nav.solutionsDropdown.club'), to: '/{-$locale}/solutions/club-sup' },
+        { label: t('sup.nav.solutionsDropdown.oem'), href: '/oem-odm-manufacturer' },
+      ],
+    },
+    { label: t('sup.nav.products'), to: '/{-$locale}/products' },
+    {
+      label: t('sup.nav.resources'),
+      items: [
+        { label: t('sup.nav.resourcesDropdown.guides'), to: '/{-$locale}/knowledge' },
+        { label: t('sup.nav.resourcesDropdown.gallery'), to: '/{-$locale}/gallery' },
+        { label: t('sup.nav.resourcesDropdown.cases'), to: '/{-$locale}/projects' },
+        { label: t('sup.nav.resourcesDropdown.faq'), href: '/faq' },
+      ],
+    },
+    {
+      label: t('sup.nav.company'),
+      items: [
+        { label: t('sup.nav.companyDropdown.about'), to: '/{-$locale}/about/supsfactory-entity' },
+        { label: t('sup.nav.companyDropdown.factory'), href: '/factory' },
+        { label: t('sup.nav.companyDropdown.technology'), href: '/technology' },
+        { label: t('sup.nav.companyDropdown.whoWeServe'), to: '/{-$locale}/who-we-serve' },
+      ],
+    },
+    { label: t('sup.nav.customizer'), to: '/{-$locale}/customizer' },
+    { label: t('sup.nav.contact'), to: '/{-$locale}/contact' },
+  ]
+
+  const authLink = loggedIn ? (
+    <Link to="/{-$locale}/app" className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
+      {t('sup.nav.app')}
+    </Link>
+  ) : (
+    <Link to="/{-$locale}/login" className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
+      {t('common.signIn')}
+    </Link>
   )
 
   const cta = (
@@ -32,60 +79,127 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
     </Link>
   )
 
-  const authLink = loggedIn ? (
-    <Link to="/{-$locale}/app" className={buttonVariants({ variant: 'ghost', size: 'sm' })}>
-      {t('sup.nav.app')}
-    </Link>
-  ) : (
-    <Link to="/{-$locale}/login" className={buttonVariants({ variant: 'ghost', size: 'sm' })}>
-      {t('sup.nav.login')}
-    </Link>
-  )
+  const renderNavLink = (item: { label: string; to?: string; href?: string }, onNavigate?: () => void) => {
+    if (item.href) {
+      return (
+        <a href={l(item.href)} className={linkCls} onClick={onNavigate}>
+          {item.label}
+        </a>
+      )
+    }
+    return (
+      <Link to={item.to as string} className={linkCls} onClick={onNavigate}>
+        {item.label}
+      </Link>
+    )
+  }
 
-  return (
-    <header
-      className="sticky top-0 z-30 border-b border-border/80 shadow-[var(--shadow-sm)] backdrop-blur"
-      style={{ background: 'color-mix(in srgb, var(--background) 82%, transparent)' }}
-    >
-      <nav className="flex h-16 items-center gap-3 px-4 md:px-7">
-        <Link to="/{-$locale}" aria-label="SUPsfactory" className="shrink-0">
-          <div className="flex flex-col leading-tight">
-            <Logo />
-            <span className="text-[10.5px] font-medium uppercase tracking-[0.12em] text-fg-3">{t('sup.nav.poweredBy')}</span>
-          </div>
-        </Link>
-        <div className="flex-1" />
-
-        {/* desktop */}
-        <div className="hidden items-center gap-1 lg:flex">{navLinks}</div>
-        <div className="flex items-center gap-1">
-          <ThemeToggle theme={theme} />
-          <LangSwitch />
-        </div>
-        <div className="hidden lg:block">{authLink}</div>
-        <div className="hidden lg:block">{cta}</div>
-
-        {/* mobile hamburger */}
+  const renderDesktopItem = (item: NavItem) => {
+    if (!item.items) {
+      return renderNavLink(item)
+    }
+    const isOpen = drop === item.label
+    return (
+      <div
+        className="relative"
+        onMouseEnter={() => setDrop(item.label)}
+        onMouseLeave={() => setDrop(null)}
+      >
         <button
           type="button"
-          className="inline-flex h-[38px] w-[38px] items-center justify-center rounded-lg text-fg-2 hover:bg-bg-alt hover:text-foreground lg:hidden"
-          aria-label="Menu"
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
+          className={`${linkCls} inline-flex items-center gap-1`}
+          aria-haspopup="true"
+          aria-expanded={isOpen}
+          onClick={() => setDrop(isOpen ? null : item.label)}
         >
-          {open ? <X size={20} /> : <Menu size={20} />}
+          {item.label}
+          <ChevronDown size={14} className={`transition-transform ${isOpen ? 'rotate-180' : ''}`} />
         </button>
-      </nav>
+        {isOpen && (
+          <div className="absolute left-0 top-full pt-2">
+            <div className="min-w-[230px] rounded-xl border border-border bg-card p-1.5 shadow-[var(--shadow-lg)]">
+              {item.items.map((sub) => (
+                <div key={sub.label}>
+                  {renderNavLink(sub, () => setDrop(null))}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    )
+  }
 
-      {open && (
-        <div className="flex flex-col gap-1 border-t border-border px-4 py-3 lg:hidden" onClick={() => setOpen(false)}>
-          {navLinks}
-          <div className="mt-2 flex items-center gap-3">
-            {authLink}
-            {cta}
+  const renderMobileItems = (items: NavItem[]) =>
+    items.map((item) =>
+      item.items ? (
+        <div key={item.label} className="flex flex-col">
+          <span className="px-3 py-2 text-sm font-semibold text-foreground">{item.label}</span>
+          <div className="flex flex-col border-l border-border pl-3">
+            {item.items.map((sub) => (
+              <div key={sub.label}>{renderNavLink(sub, () => setOpen(false))}</div>
+            ))}
           </div>
         </div>
-      )}
-    </header>
+      ) : (
+        <div key={item.label}>{renderNavLink(item, () => setOpen(false))}</div>
+      ),
+    )
+
+  return (
+    <>
+      <header className="sticky top-0 z-30 border-b border-border/80 shadow-[var(--shadow-sm)] backdrop-blur">
+        {/* top bar — auth utilities above the main nav */}
+        <div className="flex h-9 items-center justify-end gap-4 border-b border-border/60 px-4 md:px-7">
+          {authLink}
+        </div>
+        <nav className="flex h-16 items-center gap-3 px-4 md:px-7">
+          <Link to="/{-$locale}" aria-label="SUPsfactory" className="shrink-0">
+            <div className="flex flex-col leading-tight">
+              <Logo />
+              <span className="text-[10.5px] font-medium uppercase tracking-[0.12em] text-fg-3">{t('sup.nav.poweredBy')}</span>
+            </div>
+          </Link>
+          <div className="flex-1" />
+
+          {/* desktop nav with dropdowns */}
+          <div className="hidden items-center gap-0.5 lg:flex">{navItems.map(renderDesktopItem)}</div>
+
+          {/* theme · search · language (search sits between the two) */}
+          <div className="flex items-center gap-1">
+            <ThemeToggle theme={theme} />
+            <button
+              type="button"
+              onClick={() => setSearchOpen(true)}
+              aria-label={t('common.search')}
+              className="inline-flex h-[38px] w-[38px] items-center justify-center rounded-lg text-fg-2 transition-colors hover:bg-bg-alt hover:text-foreground"
+            >
+              <SearchIcon />
+            </button>
+            <LangSwitch />
+          </div>
+          <div className="hidden lg:block">{cta}</div>
+
+          {/* mobile hamburger */}
+          <button
+            type="button"
+            className="inline-flex h-[38px] w-[38px] items-center justify-center rounded-lg text-fg-2 hover:bg-bg-alt hover:text-foreground lg:hidden"
+            aria-label="Menu"
+            aria-expanded={open}
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? <X size={20} /> : <Menu size={20} />}
+          </button>
+        </nav>
+
+        {open && (
+          <div className="flex flex-col gap-1 border-t border-border px-4 py-3 lg:hidden" onClick={() => setOpen(false)}>
+            {renderMobileItems(navItems)}
+            <div className="mt-2 flex items-center gap-3">{cta}</div>
+          </div>
+        )}
+      </header>
+      <SearchDialog open={searchOpen} onOpen={() => setSearchOpen(true)} onClose={() => setSearchOpen(false)} />
+    </>
   )
 }

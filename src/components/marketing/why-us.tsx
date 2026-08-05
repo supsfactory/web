@@ -5,7 +5,7 @@ import { Settings2, Factory, Layers, Globe } from 'lucide-react'
 
 const ICONS = [Settings2, Factory, Layers, Globe]
 
-/** Home: "Powered by Afarer Manufacturing" — factory photo with four capability bullets. */
+/** Home: "Powered by Afarer" — factory photo with four capability bullets. */
 export function WhyUs() {
   const { locale } = useTranslation()
   const c = pick(why, locale)

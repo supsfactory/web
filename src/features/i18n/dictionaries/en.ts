@@ -1,5 +1,11 @@
 export const en = {
-  common: { appName: 'SUPsfactory', toggleTheme: 'Toggle theme', language: 'Language' },
+  common: {
+    appName: 'SUPsfactory', toggleTheme: 'Toggle theme', language: 'Language',
+    search: 'Search', searchPlaceholder: 'Search products, guides, projects…',
+    searchStart: 'Type a keyword to start searching', searchNone: 'No matches found',
+    typeSolution: 'Solution', typeGuide: 'Guide', typeProject: 'Project', typePage: 'Page',
+    signIn: 'Sign in',
+  },
   home: {
     title: 'Ship your SaaS on the edge',
     greeting: 'Hello, {name}!',
@@ -126,13 +132,39 @@ export const en = {
   },
   sup: {
     nav: {
-      solutions: 'Custom SUP Solutions', products: 'Products', whoWeServe: 'Who We Serve',
-      howItWorks: 'How It Works', gallery: 'Project Gallery', about: 'About Us',
-      contact: 'Contact', cta: 'Start Your Project', login: 'Sign in', app: 'App',
-      factory: 'Factory', technology: 'Technology', academy: 'Academy', news: 'News',
-      process: 'Process', customization: 'Customization', projects: 'Projects',
-      aboutAfarer: 'About Afarer',
-      poweredBy: 'Powered by Afarer Manufacturing',
+      solutions: 'Solutions',
+      products: 'Products',
+      resources: 'Resources',
+      company: 'Company',
+      customizer: 'Design Your SUP',
+      contact: 'Contact',
+      cta: 'Start Your Project',
+      login: 'Sign in',
+      app: 'App',
+      poweredBy: 'Powered by Afarer',
+      process: 'Process', projects: 'Projects', aboutAfarer: 'About Afarer', guides: 'Knowledge Center',
+      solutionsDropdown: {
+        privateLabel: 'Private Label SUP',
+        resort: 'Resort & Hotel SUP',
+        club: 'Club & School SUP',
+        oem: 'OEM/ODM Manufacturing',
+      },
+      productsDropdown: {
+        all: 'All Products',
+        accessories: 'Accessories',
+      },
+      resourcesDropdown: {
+        guides: 'Knowledge Center',
+        gallery: 'Project Gallery',
+        cases: 'Project Cases',
+        faq: 'FAQ',
+      },
+      companyDropdown: {
+        about: 'About Afarer',
+        factory: 'Factory & Manufacturing',
+        technology: 'Technology',
+        whoWeServe: 'Who We Serve',
+      },
     },
     breadcrumb: {
       home: 'Home', solutions: 'Solutions', projects: 'Projects',
@@ -142,7 +174,7 @@ export const en = {
       tagline: 'Custom SUP product development & manufacturing partner — from product idea to finished delivery.',
       colSolutions: 'Solutions', colServe: 'Who We Serve', colCompany: 'Company', colLegal: 'Legal',
       colResources: 'Resources',
-      poweredBy: 'Powered by Afarer Manufacturing', inquiryForm: 'Inquiry form',
+      poweredBy: 'Powered by Afarer', inquiryForm: 'Inquiry form',
       customSup: 'Custom SUP Manufacturing', resortSolutions: 'Resort & Club Solutions',
       organizationProjects: 'Organization Projects', faq: 'FAQ', process: 'Process',
       clubSup: 'Club Team Boards', schoolSup: 'School Programs',

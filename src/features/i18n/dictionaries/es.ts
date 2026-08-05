@@ -1,5 +1,11 @@
 export const es = {
-  common: { appName: 'SUPsfactory', toggleTheme: 'Cambiar tema', language: 'Idioma' },
+  common: {
+    appName: 'SUPsfactory', toggleTheme: 'Cambiar tema', language: 'Idioma',
+    search: 'Buscar', searchPlaceholder: 'Buscar productos, guías, proyectos…',
+    searchStart: 'Escribe una palabra clave para empezar a buscar', searchNone: 'Sin resultados',
+    typeSolution: 'Solución', typeGuide: 'Guía', typeProject: 'Proyecto', typePage: 'Página',
+    signIn: 'Iniciar sesión',
+  },
   home: {
     title: 'Despliega tu SaaS en el edge',
     greeting: '¡Hola, {name}!',
@@ -116,13 +122,39 @@ export const es = {
   },
   sup: {
     nav: {
-      solutions: 'Soluciones SUP personalizadas', products: 'Productos', whoWeServe: 'A quién servimos',
-      howItWorks: 'Cómo funciona', gallery: 'Galería de proyectos', about: 'Sobre nosotros',
-      contact: 'Contacto', cta: 'Inicia tu proyecto', login: 'Iniciar sesión', app: 'App',
-      factory: 'Fábrica', technology: 'Tecnología', academy: 'Academia', news: 'Noticias',
-      process: 'Proceso', customization: 'Personalización', projects: 'Proyectos',
-      aboutAfarer: 'Sobre Afarer',
+      solutions: 'Soluciones',
+      products: 'Productos',
+      resources: 'Recursos',
+      company: 'Empresa',
+      customizer: 'Diseña tu SUP',
+      contact: 'Contacto',
+      cta: 'Inicia tu proyecto',
+      login: 'Iniciar sesión',
+      app: 'App',
       poweredBy: 'Con la fabricación de Afarer',
+      process: 'Proceso', projects: 'Proyectos', aboutAfarer: 'Sobre Afarer', guides: 'Centro de conocimiento',
+      solutionsDropdown: {
+        privateLabel: 'SUP de marca propia',
+        resort: 'SUP para resorts y hoteles',
+        club: 'SUP para clubes y escuelas',
+        oem: 'Fabricación OEM/ODM',
+      },
+      productsDropdown: {
+        all: 'Todos los productos',
+        accessories: 'Accesorios',
+      },
+      resourcesDropdown: {
+        guides: 'Centro de conocimiento',
+        gallery: 'Galería de proyectos',
+        cases: 'Casos de proyecto',
+        faq: 'Preguntas frecuentes',
+      },
+      companyDropdown: {
+        about: 'Sobre Afarer',
+        factory: 'Fábrica y fabricación',
+        technology: 'Tecnología',
+        whoWeServe: 'A quién servimos',
+      },
     },
     breadcrumb: {
       home: 'Inicio', solutions: 'Soluciones', projects: 'Proyectos',
