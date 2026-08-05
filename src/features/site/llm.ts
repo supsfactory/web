@@ -13,6 +13,7 @@ import {
   brandify,
 } from '@/features/content/loader'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
+import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
 
@@ -225,10 +226,11 @@ export function llmAfarerIndex(): string {
 
 /** Full text for the afarer factory/technology pages + products + articles. */
 export function llmsAfarerFull(): string {
-  // Edge-301'd source paths (/brand/afarer, /brand/story, /oem-odm, …) must
-  // not appear as canonical URLs in the LLM corpus — same rule as the sitemap.
+  // Edge-301'd source paths (/brand/afarer, /brand/story, /oem-odm, …) and
+  // legacy theafarer-era paths must not appear as canonical URLs in the LLM
+  // corpus — same rule as the sitemap.
   const pageBlocks = getAfarerPages()
-    .filter((p) => !(p.path in EDGE_REDIRECTS))
+    .filter((p) => !(p.path in EDGE_REDIRECTS) && !(p.path in LEGACY_REDIRECTS))
     .map((p) =>
       [`# ${brandify(p.label)}`, '', flat(brandify(p.meta?.description ?? '')), '', `URL: ${p.path}`].join('\n'),
     )
