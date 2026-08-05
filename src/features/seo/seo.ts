@@ -161,7 +161,7 @@ export function buildSitemapIndex(origin: string, files: string[]): string {
 export interface HeadLink {
   rel: string
   href: string
-  hrefLang?: string  // React/HTML camelCase prop name (renders to the `hreflang` attribute)
+  hreflang?: string // lowercase HTML attr — TanStack serializes head attrs verbatim
 }
 
 export interface HeadMeta {
@@ -183,11 +183,11 @@ export function localeHead(input: {
   const canonical = `${origin}${localizePath(locale, path)}`
   const links: HeadLink[] = [{ rel: 'canonical', href: canonical }]
   for (const l of locales) {
-    links.push({ rel: 'alternate', hrefLang: HREFLANG[l], href: `${origin}${localizePath(l, path)}` })
+    links.push({ rel: 'alternate', hreflang: HREFLANG[l], href: `${origin}${localizePath(l, path)}` })
   }
   links.push({
     rel: 'alternate',
-    hrefLang: 'x-default',
+    hreflang: 'x-default',
     href: `${origin}${localizePath(defaultLocale, path)}`,
   })
   const meta: HeadMeta[] = [

@@ -18,12 +18,12 @@ export function afarerSingleRoute(path: string) {
       if (!loaderData) return {}
       const { origin, title, description } = loaderData
       const canonical = `${origin}${path}`
-      const links: { rel: string; href: string; hrefLang?: string }[] = [{ rel: 'canonical', href: canonical }]
+      const links: { rel: string; href: string; hreflang?: string }[] = [{ rel: 'canonical', href: canonical }]
       // Link the Spanish twin (when it exists) so the es page feeds back the
       // en page's signals too.
       if (isAfarerPageTranslated(path, 'es')) {
-        links.push({ rel: 'alternate', hrefLang: 'es-ES', href: `${origin}/es${path}` })
-        links.push({ rel: 'alternate', hrefLang: 'x-default', href: canonical })
+        links.push({ rel: 'alternate', hreflang: 'es-ES', href: `${origin}/es${path}` })
+        links.push({ rel: 'alternate', hreflang: 'x-default', href: canonical })
       }
       return {
         meta: [
