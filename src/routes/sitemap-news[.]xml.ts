@@ -7,7 +7,7 @@ import { getNewsPosts } from '@/features/content/loader'
 const handler = () => {
   const origin = new URL(env.BETTER_AUTH_URL).origin
   const paths = getNewsPosts().map((p) => ({ loc: `/news/${p.slug}`, lastmod: p.date.slice(0, 10) }))
-  return new Response(buildSitemap(origin, paths), {
+  return new Response(buildSitemap(origin, paths, { locale: 'none' }), {
     headers: { 'content-type': 'application/xml; charset=utf-8' },
   })
 }

@@ -21,10 +21,10 @@ export const Route = createFileRoute('/{-$locale}/gallery')({
       origin,
       locale,
       path: '/gallery',
-      title: locale === 'es' ? 'Galería de proyectos | Proyectos SUP personalizados — SUPsfactory' : 'Project Gallery | Custom SUP Projects — SUPsfactory',
+      title: locale === 'es' ? 'Galería de proyectos SUP | SUPsfactory' : 'Project Gallery | Custom SUP Projects — SUPsfactory',
       description:
         locale === 'es'
-          ? 'Proyectos SUP personalizados construidos por SUPsfactory para resorts, marcas emergentes y clubes: de los gráficos de la tabla a los lanzamientos completos de marca.'
+          ? 'Proyectos SUP personalizados de SUPsfactory para resorts, marcas emergentes y clubes: de los gráficos a los lanzamientos de marca.'
           : 'Custom SUP projects built by SUPsfactory for resorts, startup brands and clubs — from board graphics to complete brand launches.',
     })
     return { meta, links }

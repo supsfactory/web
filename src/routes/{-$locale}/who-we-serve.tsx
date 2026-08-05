@@ -21,11 +21,11 @@ export const Route = createFileRoute('/{-$locale}/who-we-serve')({
       origin,
       locale,
       path: '/who-we-serve',
-      title: locale === 'es' ? 'A quién servimos | Startups, resorts, clubes y empresas — SUPsfactory' : 'Who We Serve | Startups, Resorts, Clubs & Businesses — SUPsfactory',
+      title: locale === 'es' ? 'A quién servimos | Startups, resorts y clubes | SUPsfactory' : 'Who We Serve | Startups, Resorts & Clubs | SUPsfactory',
       description:
         locale === 'es'
-          ? 'SUPsfactory sirve a nuevas marcas de SUP, resorts y hoteles, clubes y escuelas, y eventos corporativos: fabricación personalizada construida alrededor de cada modelo de negocio.'
-          : 'SUPsfactory serves new SUP brands, resorts & hotels, clubs & schools and corporate events — with custom manufacturing built around each business model.',
+          ? 'SUPsfactory sirve a nuevas marcas, resorts, clubes y escuelas con fabricación personalizada para cada modelo de negocio.'
+          : 'SUPsfactory serves new SUP brands, resorts, clubs and schools with custom manufacturing built around each business model.',
     })
     return { meta, links }
   },

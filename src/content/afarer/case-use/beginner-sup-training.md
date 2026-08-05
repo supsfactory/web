@@ -2,7 +2,7 @@
 publishDate: 2025-01-01
 title: Beginner SUP Training
 summary: Stable inflatable SUP platforms for first-time paddlers learning on lakes and calm coastal waters.
-description: Beginner SUP training requires stable, forgiving boards that inspire confidence. afarer Explorer 11 and similar boards provide the wide platform needed for successful first paddling experiences.
+description: Beginner SUP training needs stable, forgiving boards. The afarer Explorer 11 and similar models provide the wide platform for successful first paddles.
 category: training
 environment: lake
 skill: beginner

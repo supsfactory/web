@@ -21,11 +21,11 @@ export const Route = createFileRoute('/{-$locale}/about/')({
       origin,
       locale,
       path: '/about',
-      title: locale === 'es' ? 'Sobre nosotros | El socio de fabricación de marcas SUP — SUPsfactory' : 'About Us | The Manufacturing Partner Behind Paddle Brands — SUPsfactory',
+      title: locale === 'es' ? 'Sobre nosotros | Fabricación de marcas SUP | SUPsfactory' : 'About Us | Paddle Brand Manufacturing Partner | SUPsfactory',
       description:
         locale === 'es'
-          ? 'SUPsfactory es una empresa de fabricación de SUP personalizados para marcas emergentes: MOQ flexible desde 50 unidades, soporte de diseño completo y un equipo que trata tu primer pedido con la misma seriedad que el centésimo.'
-          : 'SUPsfactory is a custom SUP manufacturer built for emerging brands — flexible MOQ from 50pcs, complete design support and a team that treats your first order as seriously as your hundredth.',
+          ? 'SUPsfactory es un fabricante de SUP personalizados para marcas emergentes: MOQ flexible desde 50 unidades y soporte de diseño completo.'
+          : 'SUPsfactory is a custom SUP manufacturer for emerging brands — flexible MOQ from 50pcs and complete design support.',
     })
     return { meta, links }
   },

@@ -2,7 +2,7 @@
 publishDate: 2025-01-01
 title: Air Deck Floor System
 summary: High-pressure inflatable floor replacing traditional plywood or aluminum floors for reduced weight and setup time.
-description: The air deck floor is a high-pressure inflatable system that replaces wooden or aluminum slat floors in dinghies, reducing weight and setup time while providing adequate rigidity.
+description: The air deck floor is a high-pressure inflatable system replacing wood or aluminium slats in dinghies — less weight, faster setup, adequate rigidity.
 category: construction
 tags:
   - air-deck

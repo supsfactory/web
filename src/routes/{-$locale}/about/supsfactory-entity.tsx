@@ -47,12 +47,12 @@ export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
       path: '/about/supsfactory-entity',
       title:
         locale === 'es'
-          ? 'SUPsfactory | Empresa de fabricación de SUP personalizados y socio de desarrollo de producto'
-          : 'SUPsfactory | Custom SUP Manufacturing Company & Product Development Partner',
+          ? 'Supsfactory | Fabricación y desarrollo de SUP personalizados'
+          : 'SUPsfactory | Custom SUP Manufacturing & Product Development',
       description:
         locale === 'es'
-          ? 'SUPsfactory es una empresa de fabricación de SUP personalizados y socio de desarrollo de producto: desde mínimos de 50 unidades hasta soporte de diseño completo, fabricado por Qingdao Vatrad Group.'
-          : 'SUPsfactory is a custom SUP manufacturing company and product development partner — from 50-piece minimums to full design support, manufactured by Qingdao Vatrad Group.',
+          ? 'SUPsfactory: fabricación de SUP personalizados con soporte de diseño completo, fabricado por Qingdao Vatrad Group.'
+          : 'SUPsfactory is a custom SUP manufacturing company — from 50-piece minimums to full design support, built by Qingdao Vatrad Group.',
     })
     return { meta, links }
   },

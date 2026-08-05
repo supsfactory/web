@@ -154,7 +154,10 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         locale,
         translated,
         origin: '',
-        title: 'FAQ — SUPsfactory',
+        title:
+          locale === 'es'
+            ? 'Preguntas frecuentes — Fabricación OEM de SUP | SUPsfactory'
+            : 'FAQ — Inflatable SUP OEM, Materials & MOQ | SUPsfactory',
         description:
           'Frequently asked questions about afarer inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale logistics.',
       }

@@ -24,7 +24,7 @@ export const GUIDES: Guide[] = [
     slug: 'how-to-choose-your-sup',
     title: 'How to Choose Your SUP',
     intro: [
-      'Choosing your first (or next) inflatable SUP comes down to a few decisions: board size, width, construction and what is included in the package. Here is what matters, in plain language.',
+      'Choosing your first inflatable SUP comes down to board size, width, construction and what is in the box. Here is what matters, in plain language.',
     ],
     sections: [
       {

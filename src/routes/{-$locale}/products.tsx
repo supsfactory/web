@@ -25,8 +25,8 @@ export const Route = createFileRoute('/{-$locale}/products')({
       title: locale === 'es' ? 'Productos SUP | 10 series personalizables — SUPsfactory' : 'SUP Products | 10 Customizable Series — SUPsfactory',
       description:
         locale === 'es'
-          ? 'Diez series de SUP probadas: de los clásicos polivalentes a las ediciones de diseñador. Cada modelo es una plataforma de fabricación personalizable para startups, resorts, clubes y escuelas.'
-          : 'Ten proven SUP series — from all-around classics to designer editions. Every model is a customizable manufacturing platform for startups, resorts, clubs and schools.',
+          ? 'Diez series de SUP probadas, de clásicos polivalentes a ediciones de diseñador: cada modelo personalizable para startups, resorts, clubes y escuelas.'
+          : 'Ten proven SUP series — from all-around classics to designer editions. Every model is a customizable platform for startups, resorts, clubs and schools.',
     })
     return { meta, links }
   },

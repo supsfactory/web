@@ -5,9 +5,9 @@ import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { getAfarerPages } from '@/features/content/loader'
 import { GUIDES } from '@/features/content/guide-content'
 
-// Bilingual marketing pages (hreflang-linked to /es mirrors) + English-only
-// afarer/static pages (no hreflang — their /es prefix is an English duplicate,
-// not a translation).
+// English marketing pages (hreflang-linked to /es mirrors in sitemap-es) plus
+// English-only afarer/static pages (no hreflang — their /es prefix is an
+// English duplicate, not a translation).
 const handler = () => {
   const origin = new URL(env.BETTER_AUTH_URL).origin
   const afarer = getAfarerPages()
@@ -22,7 +22,7 @@ const handler = () => {
     { loc: '/research', lastmod: '2026-06-01' },
     { loc: '/faq', lastmod: '2026-06-01' },
   ]
-  return new Response(buildSitemap(origin, [...afarer, ...staticPages]), {
+  return new Response(buildSitemap(origin, [...afarer, ...staticPages], { locale: 'en' }), {
     headers: { 'content-type': 'application/xml; charset=utf-8' },
   })
 }

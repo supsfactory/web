@@ -21,11 +21,11 @@ export const Route = createFileRoute('/{-$locale}/solutions/')({
       origin,
       locale,
       path: '/solutions',
-      title: locale === 'es' ? 'Soluciones SUP personalizadas | Tabla, marca y paquetes — SUPsfactory' : 'Custom SUP Solutions | Board, Brand & Complete Packages — SUPsfactory',
+      title: locale === 'es' ? 'Soluciones SUP personalizadas | Tabla, marca y paquetes | SUPsfactory' : 'Custom SUP Solutions | Board, Brand & Packages | SUPsfactory',
       description:
         locale === 'es'
-          ? 'Personalización de la tabla, identidad de marca y paquetes de producto completos: cada capa de tu SUP es personalizable. SUPsfactory: formas, gráficos, pisos EVA, accesorios y embalaje a medida.'
-          : 'Board customization, brand identity and complete product packages — every layer of your SUP is customizable. SUPsfactory: custom shapes, graphics, EVA pads, accessories and packaging.',
+          ? 'Personalización de la tabla, identidad de marca y paquetes completos: formas, gráficos, pads EVA, accesorios y embalaje a medida.'
+          : 'Board customization, brand identity and complete packages — every layer of your SUP is customizable: shapes, graphics, EVA pads, accessories.',
     })
     return { meta, links }
   },

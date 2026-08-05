@@ -2,7 +2,7 @@
 publishDate: 2025-01-01
 title: Marine-Grade PVC Fabric
 summary: Multi-layer laminated PVC fabric rated for marine environments, fusion-welded to eliminate delamination.
-description: Marine-grade PVC is the primary material used across afarer inflatable products. Multi-layer lamination provides UV resistance, saltwater corrosion protection, and abrasion resistance.
+description: 'Marine-grade PVC is the primary material across afarer inflatable products: multi-layer lamination for UV, saltwater and abrasion resistance.'
 category: materials
 tags:
   - pvc

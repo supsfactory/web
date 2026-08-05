@@ -9,6 +9,8 @@ import { PUBLIC_PATHS } from '@/features/seo/seo'
 const TEMPLATE_ROUTES = [
   '/academy', '/community', '/evidence', '/evidence/case-studies', '/faq', '/journal', '/lifestyle',
   '/media', '/news', '/partners', '/research',
+  // legal pages are live routes but deliberately excluded from the sitemaps
+  '/terms', '/privacy',
 ]
 
 /** Dynamic prefix routes ({-$locale}/knowledge/$slug.tsx etc.) — a legacy key under one of these shadows real pages. */

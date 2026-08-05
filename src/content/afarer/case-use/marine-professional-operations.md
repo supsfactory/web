@@ -2,7 +2,7 @@
 publishDate: 2025-01-01
 title: Professional Marine Operations
 summary: RIBs and professional-grade equipment for law enforcement, rescue, and commercial marine use.
-description: Professional marine operations require rugged, high-performance vessels. afarer RIB 330 and RIB 450 Patrol serve law enforcement, search and rescue, and commercial transport.
+description: 'Professional marine operations need rugged, high-performance vessels: afarer RIB 330 and RIB 450 Patrol for enforcement, SAR and transport.'
 category: professional
 environment: sea
 skill: professional

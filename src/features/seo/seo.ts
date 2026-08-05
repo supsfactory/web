@@ -24,8 +24,6 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/projects', lastmod: '2026-06-20' },
   { path: '/knowledge', lastmod: '2026-06-25' },
   { path: '/about/supsfactory-entity', lastmod: '2026-06-30' },
-  { path: '/terms', lastmod: '2026-01-01' },
-  { path: '/privacy', lastmod: '2026-01-01' },
 ]
 
 // Open Graph 要求 language_TERRITORY 形态（en_US），裸语言码会被严格解析器忽略。
@@ -113,13 +111,26 @@ export interface SitemapEntry {
 
 type SingleLocalePath = string | SitemapEntry
 
-export function buildSitemap(origin: string, singleLocalePaths: SingleLocalePath[] = []): string {
-  const bilingual = locales.flatMap((l) =>
-    PUBLIC_PATHS.map(
-      (e) =>
-        `<url><loc>${origin}${localizePath(l, e.path)}</loc><lastmod>${e.lastmod}</lastmod>${alternates(origin, e.path)}</url>`,
-    ),
-  )
+/** Which locale variants of PUBLIC_PATHS a sitemap file should carry: every
+ *  bilingual pair (default), only the given locale, or none (detail-only files
+ *  like products/news — they must not repeat the template URLs). */
+export function buildSitemap(
+  origin: string,
+  singleLocalePaths: SingleLocalePath[] = [],
+  opts: { locale?: Locale | 'all' | 'none' } = {},
+): string {
+  const include = opts.locale ?? 'all'
+  const bilingual =
+    include === 'none'
+      ? []
+      : locales
+          .filter((l) => include === 'all' || l === include)
+          .flatMap((l) =>
+            PUBLIC_PATHS.map(
+              (e) =>
+                `<url><loc>${origin}${localizePath(l, e.path)}</loc><lastmod>${e.lastmod}</lastmod>${alternates(origin, e.path)}</url>`,
+            ),
+          )
   const single = singleLocalePaths.map((p) => {
     const entry = typeof p === 'string' ? { loc: p } : p
     const lastmod = entry.lastmod ? `<lastmod>${entry.lastmod}</lastmod>` : ''

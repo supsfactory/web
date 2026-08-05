@@ -287,9 +287,9 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     h1: 'Knowledge Center — Product Development, Explained',
   },
   es: {
-    metaTitle: 'Centro de conocimiento: guías de desarrollo de productos SUP | SUPsfactory',
+    metaTitle: 'Centro de conocimiento — guías de productos | SUPsfactory',
     metaDescription:
-      'Guías prácticas sobre desarrollo de productos SUP personalizados, construcción de tablas hinchables y elección de equipamiento SUP para resorts, clubes y escuelas.',
+      'Guías prácticas sobre desarrollo de productos SUP personalizados y construcción de tablas hinchables.',
     h1: 'Centro de conocimiento — desarrollo de producto, explicado',
   },
 }
