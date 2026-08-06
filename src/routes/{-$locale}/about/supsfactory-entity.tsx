@@ -47,7 +47,7 @@ export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
       path: '/about/supsfactory-entity',
       title:
         locale === 'es'
-          ? 'Supsfactory | Fabricación y desarrollo de SUP personalizados'
+          ? 'Supsfactory | Empresa de fabricación de SUP personalizados'
           : 'SUPsfactory | Custom SUP Manufacturing & Development',
       description:
         locale === 'es'

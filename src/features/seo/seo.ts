@@ -33,7 +33,9 @@ const OG_LOCALE: Record<Locale, string> = { en: 'en_US', es: 'es_ES' }
 const HREFLANG: Record<Locale, string> = { en: 'en-US', es: 'es-ES' }
 
 // 社交分享封面：真实产品图（assets.supsfactory.com，自有 R2 CDN）比 logo 更适合做 OG 图。
-export const OG_IMAGE = 'https://assets.supsfactory.com/images/sups/products/afarer-sup-allround-board.webp'
+// afarer-og-default.webp 为 1200x630 的专用 OG 规格图（源图 products/afarer-juno-sup-board.webp，
+// 由 scripts/afarer-images 上传工作流同步到 R2；本地重新生成后需重新跑上传）。
+export const OG_IMAGE = 'https://assets.supsfactory.com/images/sups/products/afarer-og-default.webp'
 
 export function buildRobots(origin: string): string {
   const aiAgents = [
@@ -199,6 +201,9 @@ export function localeHead(input: {
     { property: 'og:url', content: canonical },
     { property: 'og:locale', content: OG_LOCALE[locale] },
     { property: 'og:image', content: OG_IMAGE },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:type', content: 'image/webp' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: title },
     { name: 'twitter:description', content: description },
