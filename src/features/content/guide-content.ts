@@ -146,3 +146,44 @@ export function getGuide(path: string): Guide | undefined {
 export function getGuideBySlug(slug: string): Guide | undefined {
   return GUIDES.find((g) => g.slug === slug)
 }
+
+/** Localized card copy for the /knowledge hub (guide pages stay English). */
+export interface GuideCard {
+  slug: string
+  title: string
+  intro: string
+}
+
+export const GUIDE_CARDS: Record<'en' | 'es', GuideCard[]> = {
+  en: GUIDES.map((g) => ({ slug: g.slug, title: g.title, intro: g.intro[0] })),
+  es: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'Cómo elegir tu SUP',
+      intro:
+        'Elegir tu primer SUP hinchable se resume a tamaño, ancho, construcción y qué incluye la caja. Aquí está lo que importa, en lenguaje claro.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Guía para empezar a remar',
+      intro:
+        'Todo lo que necesitas para tus primeras sesiones en el agua: inflado, la primera vez de pie, la remada básica y cómo mantenerte seguro.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Hinchable vs tabla rígida',
+      intro:
+        'Las dos familias de construcción ganan en escenarios distintos. Aquí tienes la comparación honesta para remeros, clubes y operadores de alquiler.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Consejos de seguridad en el agua',
+      intro:
+        'Una sesión segura es una sesión divertida. Estos básicos valen para lagos, ríos y remo costero por igual.',
+    },
+  ],
+}
+
+export function guideCard(locale: 'en' | 'es', slug: string): GuideCard | undefined {
+  return GUIDE_CARDS[locale].find((c) => c.slug === slug)
+}

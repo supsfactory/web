@@ -249,7 +249,9 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
             ? 'Preguntas frecuentes — Fabricación OEM de SUP'
             : 'FAQ — Inflatable SUP OEM, Materials & MOQ | SUPsfactory',
         description:
-          'Frequently asked questions about afarer inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale logistics.',
+          locale === 'es'
+            ? 'Preguntas frecuentes sobre la fabricación OEM/ODM de SUP hinchables afarer — materiales, certificaciones, cantidades mínimas de pedido y logística mayorista.'
+            : 'Frequently asked questions about afarer inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale logistics.',
         faqs: getSiteFaqs(locale).map((f) => ({ q: brandify(f.q), a: brandify(f.a) })),
         index: indexFor(),
       }
