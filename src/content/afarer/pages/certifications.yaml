@@ -13,6 +13,40 @@ hero:
   image:
     src: https://assets.afarer.com/images/afarer/certifications/certifications-hero.webp
     alt: afarer quality certifications and compliance documentation
+stats:
+  - value: 100%
+    label: Units pressure-tested
+  - value: '8'
+    label: Testing protocols
+  - value: ISO 9001
+    label: Quality certified
+  - value: 3-Year
+    label: Limited warranty
+tests:
+  - title: Pressure Testing
+    description: Inflatable chambers are subjected to pressures exceeding their recommended operating limits for extended periods. This verifies the airtightness and structural integrity of the material and seams, ensuring the product can withstand intended use and potential over-inflation without failure or leaks.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-pressure-testing.webp
+  - title: Impact Testing
+    description: Products are subjected to controlled impacts from various weights and angles. This assesses the material's resistance to punctures, tears, and damage from collisions with obstacles in the water, demonstrating durability and longevity.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
+  - title: UV Resistance Testing
+    description: Material samples are exposed to accelerated UV radiation to verify they do not yellow, crack, or lose strength over time. Each PVC batch is checked against solar degradation before use in production.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-uv-resistance-testing.webp
+  - title: Abrasion Resistance Testing
+    description: Material samples are rubbed against abrasive surfaces for a specified number of cycles under controlled pressure. This measures the material's ability to withstand wear and tear from repeated use, contact with sand, rocks, or other surfaces, ensuring long-term durability.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-pvc-material-testing.webp
+  - title: Low-Temperature Performance Testing
+    description: Products are tested in cold environments to assess functionality and durability in various temperature conditions, preventing stiffness or cracking in colder waters. Essential for boats destined for winter or high-latitude use.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-factory-exterior.webp
+  - title: Buoyancy & Load Capacity Testing
+    description: Products are tested with various weights to determine their maximum load-bearing capacity and ensure they safely support users and gear. Every model's rated capacity is verified before release.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-stock-boat-inventory.webp
+  - title: Maneuverability Testing
+    description: Products are tested for their responsiveness to paddling or motor inputs, evaluating turning radius and ease of handling. On-water trials validate that real-world handling matches design specifications.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-sup-manufacturing.webp
+  - title: Watertightness Testing
+    description: Fully assembled products are submerged or subjected to water spray to check for any leaks through seams, valves, or materials. Every boat passes a mandatory watertightness check before shipping.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-production-department-2.webp
 content_certifications:
   tagline: Our Certifications
   title: 'Certified Quality, Globally Recognized'
@@ -67,5 +101,5 @@ cta:
     - variant: primary
       text: Request certification docs
       href: /contact
-    - text: View our quality page
-      href: /quality
+    - text: Visit our quality inspection lab
+      href: /randdcenter/quality-inspection-lab

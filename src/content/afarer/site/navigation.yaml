@@ -14,17 +14,17 @@ header:
     - text: Solutions
       links:
         - text: For Resorts & Hotels
-          href: /solutions/resorts-hotels
+          href: /solutions/resort-sup
         - text: For Paddle Clubs
-          href: /solutions/paddle-clubs
+          href: /solutions/club-sup
         - text: For Rental Operators
           href: /solutions/rental-operators
         - text: For Retail Partners
           href: /solutions/retail-partners
         - text: For Distributors
           href: /solutions/distributors
-        - text: Build Your Own Brand
-          href: /solutions/build-your-own-brand
+        - text: Private Label
+          href: /solutions/private-label-sup
         - text: B2B Solutions Matrix
           href: /b2b-solutions-matrix
     - text: Resources
@@ -35,14 +35,8 @@ header:
           href: /evidence/case-studies
         - text: Factory Tour
           href: /factory
-        - text: Quality Control
-          href: /quality-testing
-        - text: Certifications
+        - text: Certifications & Quality
           href: /quality
-        - text: Safety
-          href: /safety
-        - text: Trust Center
-          href: /trust
         - text: Download Catalog
           href: /resources
         - text: News
@@ -66,17 +60,17 @@ footer:
     - title: Solutions
       links:
         - text: For Resorts & Hotels
-          href: /solutions/resorts-hotels
+          href: /solutions/resort-sup
         - text: For Paddle Clubs
-          href: /solutions/paddle-clubs
+          href: /solutions/club-sup
         - text: For Rental Operators
           href: /solutions/rental-operators
         - text: For Retail Partners
           href: /solutions/retail-partners
         - text: For Distributors
           href: /solutions/distributors
-        - text: Build Your Own Brand
-          href: /solutions/build-your-own-brand
+        - text: Private Label
+          href: /solutions/private-label-sup
         - text: B2B Solutions Matrix
           href: /b2b-solutions-matrix
     - title: Resources
@@ -87,14 +81,8 @@ footer:
           href: /evidence/case-studies
         - text: Factory Tour
           href: /factory
-        - text: Quality Control
-          href: /quality-testing
-        - text: Certifications
+        - text: Certifications & Quality
           href: /quality
-        - text: Safety
-          href: /safety
-        - text: Trust Center
-          href: /trust
         - text: Download Catalog
           href: /resources
         - text: News

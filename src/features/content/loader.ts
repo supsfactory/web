@@ -166,12 +166,9 @@ const EXTRA_PATHS: Record<string, string> = {
   '/oem-odm': 'oem-odm-manufacturer',
   '/oem-odm-manufacturer': 'oem-odm-manufacturer',
   '/oem-paddle': 'oem-paddle',
-  '/solutions/resorts-hotels': 'solutions-resorts-hotels',
-  '/solutions/paddle-clubs': 'solutions-paddle-clubs',
   '/solutions/rental-operators': 'solutions-rental-operators',
   '/solutions/retail-partners': 'solutions-retail-partners',
   '/solutions/distributors': 'solutions-distributors',
-  '/solutions/build-your-own-brand': 'solutions-build-your-own-brand',
   '/b2b-solutions-matrix': 'b2b-solutions-matrix',
 }
 

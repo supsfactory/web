@@ -166,8 +166,6 @@ export function llmSolutionsFull(): string {
 const PAGE_TITLES: Record<string, string> = {
   '/oem-odm': 'OEM/ODM Manufacturing',
   '/oem-paddle': 'OEM Paddle Boards',
-  '/solutions/resorts-hotels': 'Solutions: Resorts & Hotels',
-  '/solutions/paddle-clubs': 'Solutions: Paddle Clubs',
   '/solutions/rental-operators': 'Solutions: Rental Operators',
   '/solutions/retail-partners': 'Solutions: Retail Partners',
   '/solutions/distributors': 'Solutions: Distributors',

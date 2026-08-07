@@ -30,7 +30,7 @@ featured:
     - title: 'Seguridad en el agua'
       description: 'Conocimientos de seguridad esenciales que todo paddler debe tener: clima, dispositivos de flotación, autorrescate y más.'
       icon: 'tabler:shield'
-      href: '/es/safety'
+      href: '/es/quality'
     - title: 'Guía de materiales'
       description: 'PVC frente a Hypalon, tecnología drop-stitch, clasificación denier: entiende de qué está hecho tu equipo.'
       icon: 'tabler:flask'

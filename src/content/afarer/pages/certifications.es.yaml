@@ -13,6 +13,40 @@ hero:
   image:
     src: https://assets.afarer.com/images/afarer/certifications/certifications-hero.webp
     alt: certificaciones de calidad y documentación de cumplimiento de afarer
+stats:
+  - value: 100%
+    label: Unidades con prueba de presión
+  - value: '8'
+    label: Protocolos de ensayo
+  - value: ISO 9001
+    label: Calidad certificada
+  - value: 3 años
+    label: Garantía limitada
+tests:
+  - title: Ensayo de presión
+    description: Las cámaras hinchables se someten a presiones superiores a sus límites operativos recomendados durante periodos prolongados. Esto verifica la estanqueidad y la integridad estructural del material y las costuras, garantizando que el producto resista el uso previsto y una posible sobrepresión sin fallos ni fugas.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-pressure-testing.webp
+  - title: Ensayo de impacto
+    description: Los productos se someten a impactos controlados desde distintos pesos y ángulos. Esto evalúa la resistencia del material a perforaciones, desgarros y daños por colisiones con obstáculos en el agua, demostrando durabilidad y longevidad.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
+  - title: Ensayo de resistencia UV
+    description: Las muestras de material se exponen a radiación UV acelerada para comprobar que no amarilleen, se agrieten ni pierdan resistencia con el tiempo. Cada lote de PVC se verifica contra la degradación solar antes de su uso en producción.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-uv-resistance-testing.webp
+  - title: Ensayo de resistencia a la abrasión
+    description: Las muestras de material se frotan contra superficies abrasivas durante un número determinado de ciclos bajo presión controlada. Esto mide la capacidad del material para soportar el desgaste por uso repetido, el contacto con arena, rocas u otras superficies, garantizando la durabilidad a largo plazo.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-pvc-material-testing.webp
+  - title: Ensayo de rendimiento a baja temperatura
+    description: Los productos se ensayan en entornos fríos para evaluar su funcionalidad y durabilidad en distintas condiciones de temperatura, evitando rigidez o grietas en aguas más frías. Esencial para embarcaciones destinadas a uso invernal o de alta latitud.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-factory-exterior.webp
+  - title: Ensayo de flotabilidad y capacidad de carga
+    description: Los productos se ensayan con distintos pesos para determinar su capacidad máxima de carga y garantizar que soporten con seguridad a usuarios y equipo. La capacidad nominal de cada modelo se verifica antes de su lanzamiento.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-stock-boat-inventory.webp
+  - title: Ensayo de maniobrabilidad
+    description: Los productos se ensayan en cuanto a su respuesta a los movimientos de paleo o motor, evaluando el radio de giro y la facilidad de manejo. Las pruebas sobre el agua verifican que el comportamiento real coincide con las especificaciones de diseño.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-sup-manufacturing.webp
+  - title: Ensayo de estanqueidad
+    description: Los productos totalmente ensamblados se sumergen o se someten a pulverización de agua para comprobar posibles fugas por costuras, válvulas o materiales. Cada embarcación supera una verificación obligatoria de estanqueidad antes del envío.
+    image: https://assets.afarer.com/images/afarer/factory/afarer-production-department-2.webp
 content_certifications:
   tagline: Nuestras certificaciones
   title: 'Calidad certificada, reconocida mundialmente'
@@ -67,5 +101,5 @@ cta:
     - variant: primary
       text: Solicitar documentación de certificación
       href: /es/contact
-    - text: Ver nuestra página de calidad
-      href: /es/quality
+    - text: Visitar nuestro laboratorio de inspección de calidad
+      href: /es/randdcenter/quality-inspection-lab

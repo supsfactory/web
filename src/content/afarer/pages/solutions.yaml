@@ -33,11 +33,11 @@ features3_solutions:
     - title: Resorts & Hotels
       description: 'Complete SUP fleet programs for hospitality properties — durable boards, custom branding, and staff training support.'
       icon: tabler:building
-      link: /solutions/resorts-hotels
+      link: /solutions/resort-sup
     - title: Paddle Clubs
       description: 'Reliable SUP fleets for paddle clubs, lesson programs, and membership operations — commercial-grade boards with club pricing.'
       icon: tabler:users
-      link: /solutions/paddle-clubs
+      link: /solutions/club-sup
     - title: Rental Operators
       description: 'High-rotation SUP boards engineered for daily rental use. UV-resistant, quick-dry, stackable — designed for the rental grind.'
       icon: tabler:currency-dollar
@@ -53,7 +53,7 @@ features3_solutions:
     - title: Build Your Own Brand
       description: 'End-to-end OEM/ODM SUP manufacturing — design, prototyping, mass production, and logistics. Launch your brand with Afarer.'
       icon: tabler:package
-      link: /solutions/build-your-own-brand
+      link: /solutions/private-label-sup
 cta:
   title: 'Not sure which solution fits your needs?'
   subtitle: 'Describe your application to our team and we will recommend the right configuration.'

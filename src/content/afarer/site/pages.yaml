@@ -186,6 +186,8 @@
   file: src/data/pages/certifications.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: stats, type: stats, label: 'Statistics' }
+    - { key: tests, type: features, label: 'Tests & Procedures' }
     - { key: content_certifications, type: content, label: 'Certifications Content' }
     - { key: content_factory, type: content, label: 'Factory Content' }
     - { key: content_safety, type: content, label: 'Safety Content' }
@@ -226,18 +228,6 @@
     - { key: hero_text, type: hero_text, label: 'Top HeroText' }
     - { key: contact_form, type: contact, label: 'Contact Form' }
     - { key: map, type: map, label: 'Google Maps Location' }
-
-- slug: custom
-  label: Custom Orders
-  path: /custom
-  permalink: /custom
-  file: src/data/pages/custom.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: steps_section, type: steps, label: 'Process Steps' }
-    - { key: services_section, type: features, label: 'Services' }
-    - { key: capabilities_section, type: features, label: 'Capabilities' }
-    - { key: why_section, type: features, label: 'Why Choose Us' }
 
 - slug: disaster-relief
   label: Disaster Relief
@@ -467,18 +457,6 @@
     - { key: content_process, type: content, label: 'Process Content' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: quality
-  label: Quality
-  path: /quality-testing
-  permalink: /quality-testing
-  file: src/data/pages/quality.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: stats, type: stats, label: 'Statistics' }
-    - { key: tests, type: features, label: 'Tests & Procedures' }
-    - { key: testing_section, type: content, label: 'Testing Section' }
-    - { key: commitment, type: content, label: 'Commitment' }
-
 - slug: randdcenter
   label: R&D Center
   path: /randdcenter
@@ -504,16 +482,6 @@
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: resources, type: features, label: 'Resources' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
-
-- slug: safety
-  label: Safety
-  path: /safety
-  permalink: /safety
-  file: src/data/pages/safety.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: certifications, type: features, label: 'Certifications' }
-    - { key: related, type: content, label: 'Related Content' }
 
 - slug: search-and-rescue
   label: Search & Rescue
@@ -571,18 +539,6 @@
     - { key: seo, type: content, label: 'SEO Metadata' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: body, type: content, label: 'Body Content' }
-
-- slug: trust
-  label: Trust
-  path: /trust
-  permalink: /trust
-  file: src/data/pages/trust.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: stats, type: stats, label: 'Statistics' }
-    - { key: testimonials, type: testimonials, label: 'Testimonials' }
-    - { key: faqs_sup, type: faqs, label: 'FAQs - SUP' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: warranty
   label: Warranty

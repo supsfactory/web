@@ -40,13 +40,13 @@ who_we_serve:
       description: Durable SUP fleets, club pricing, and replacement parts programs for paddle clubs and schools.
       icon: tabler:users
       cta: Explore Paddle Club Solutions
-      link: /solutions/paddle-clubs
+      link: /solutions/club-sup
     - title: Resorts & Hotels
       keywords: resort water activities, hotel beach equipment, guest experience
       description: Complete SUP fleet programs with custom branding, staff training, and ROI-optimized packages.
       icon: tabler:building
       cta: Create Your Resort Water Experience
-      link: /solutions/resorts-hotels
+      link: /solutions/resort-sup
     - title: Retail Partners
       keywords: SUP wholesale, outdoor retailers, sporting goods stores
       description: Full product line, marketing materials, dropshipping options, and competitive wholesale margins.

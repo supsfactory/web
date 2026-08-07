@@ -25,6 +25,21 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/fabricant-sup-gonflable': '/oem-odm-manufacturer',
   '/bateau-gonflable-fabricant': '/oem-odm-manufacturer',
   '/fournisseur-nautique': '/solutions/rental-operators',
+  // P1-#8: collapse duplicate pages onto their modern keepers (single canonical per topic)
+  '/custom': '/custom-sup-development',
+  '/es/custom': '/es/custom-sup-development',
+  '/quality-testing': '/quality',
+  '/es/quality-testing': '/es/quality',
+  '/safety': '/quality',
+  '/es/safety': '/es/quality',
+  '/trust': '/quality',
+  '/es/trust': '/es/quality',
+  '/solutions/resorts-hotels': '/solutions/resort-sup',
+  '/es/solutions/resorts-hotels': '/es/solutions/resort-sup',
+  '/solutions/paddle-clubs': '/solutions/club-sup',
+  '/es/solutions/paddle-clubs': '/es/solutions/club-sup',
+  '/solutions/build-your-own-brand': '/solutions/private-label-sup',
+  '/es/solutions/build-your-own-brand': '/es/solutions/private-label-sup',
 }
 
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'

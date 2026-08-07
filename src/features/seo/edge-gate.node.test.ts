@@ -39,6 +39,20 @@ test('French-slug doorways 301 to closest English page (P1-5)', () => {
   expect(gatePath('/fournisseur-nautique')).toEqual({ action: 'redirect', to: '/solutions/rental-operators' })
 })
 
+test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
+  expect(gatePath('/custom')).toEqual({ action: 'redirect', to: '/custom-sup-development' })
+  expect(gatePath('/es/custom')).toEqual({ action: 'redirect', to: '/es/custom-sup-development' })
+  expect(gatePath('/quality-testing')).toEqual({ action: 'redirect', to: '/quality' })
+  expect(gatePath('/es/quality-testing')).toEqual({ action: 'redirect', to: '/es/quality' })
+  expect(gatePath('/safety')).toEqual({ action: 'redirect', to: '/quality' })
+  expect(gatePath('/es/safety')).toEqual({ action: 'redirect', to: '/es/quality' })
+  expect(gatePath('/trust')).toEqual({ action: 'redirect', to: '/quality' })
+  expect(gatePath('/es/trust')).toEqual({ action: 'redirect', to: '/es/quality' })
+  expect(gatePath('/solutions/resorts-hotels')).toEqual({ action: 'redirect', to: '/solutions/resort-sup' })
+  expect(gatePath('/solutions/paddle-clubs')).toEqual({ action: 'redirect', to: '/solutions/club-sup' })
+  expect(gatePath('/solutions/build-your-own-brand')).toEqual({ action: 'redirect', to: '/solutions/private-label-sup' })
+})
+
 test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
   expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
@@ -78,7 +92,7 @@ test('revived pages are served, not 301d (P0-5)', () => {
   expect(gatePath('/factory/capacity').action).toBe('ok')
   expect(gatePath('/randdcenter/hull-engineering').action).toBe('ok')
   expect(gatePath('/research/drop-stitch-technology').action).toBe('ok')
-  expect(gatePath('/solutions/paddle-clubs').action).toBe('ok')
+  expect(gatePath('/solutions/club-sup').action).toBe('ok')
   expect(gatePath('/private-label-sup').action).toBe('ok')
   expect(gatePath('/guides').action).toBe('ok')
   expect(gatePath('/guides/beginner-guide').action).toBe('ok')
