@@ -1,14 +1,14 @@
 meta:
   title: 'SUP Rental Equipment Supplier & Fleet Solutions'
-  description: 'Commercial SUP boards engineered for daily rental use: UV-resistant PVC, reinforced seams and quick-dry materials to scale your rental business.'
+  description: 'Commercial SUP boards engineered for daily rental use: UV-resistant PVC, reinforced seams and quick-dry materials for high-rotation rental fleets.'
 
 hero:
   tagline: Rental Operators
-  title: 'Scale Your Rental Business With Confidence'
-  subtitle: 'SUP rental equipment supplier for rental operators. High-rotation SUP boards engineered for daily rental use, 365 days a year. Your revenue never takes a day off.'
+  title: 'SUP Boards Engineered For Rental Fleets'
+  subtitle: 'Specify a fleet that survives daily rental use: high-rotation boards with UV-resistant PVC, reinforced seams and quick-dry materials — engineered for 365 days of use a year.'
   image:
     src: https://assets.afarer.com/images/afarer/lifestyle/afarer-lifestyle-1.webp
-    alt: Busy rental kiosk with SUP boards ready for guests
+    alt: SUP boards staged and ready for daily rental use
 
 features:
   title: Built for the Rental Grind
@@ -60,12 +60,12 @@ fleet_guide:
       note: 'Full-service rental fleets across several beach stations'
 
 cta:
-  title: 'Ready to scale your rental business?'
-  subtitle: 'Get rental pricing or compare board models for your operation.'
+  title: 'Specify Your Rental Fleet'
+  subtitle: 'Send your fleet requirements or compare board platforms for your operation.'
   actions:
-    - text: 'Get Rental Pricing'
-      href: '/contact?package=rental'
+    - text: 'Send Fleet Requirements'
+      href: '/contact'
       variant: 'primary'
-    - text: 'Compare Board Models'
+    - text: 'Compare Board Platforms'
       href: '/compare'
       variant: 'secondary'

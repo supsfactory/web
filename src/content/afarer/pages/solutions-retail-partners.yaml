@@ -1,103 +1,93 @@
 meta:
-  title: 'SUP Wholesale & Retail Partner Program | {SITE}'
-  description: 'SUP wholesale partner program for retailers: full product line, dropshipping options, competitive margins and low MOQ to start.'
+  title: 'Custom & Private Label SUP Production For Retailers | {SITE}'
+  description: 'Custom and private label SUP production for retail brands: board specifications, branded graphics, low trial MOQ and factory QC — from sample to bulk.'
 
 hero:
-  tagline: Retail Partners
-  title: 'Sell Premium Inflatable SUPs With Margins That Work'
-  subtitle: 'Become an Afarer retail partner — carry the fastest-growing SUP brand in your market with full wholesale pricing, dropshipping, professional marketing materials, and dedicated support.'
+  tagline: Retail Brands
+  title: 'Custom SUP Production For Retail Brands'
+  subtitle: 'Retail brands launch their own paddle board line with our factory: board specifications developed from your requirements, your brand on the product, and production QC handled end to end.'
   image:
     src: https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp
-    alt: Afarer SUP boards displayed in a retail store
+    alt: Afarer SUP boards produced for a retail brand
 
 margin_section:
-  title: 'Retail Margins & MOQ'
-  subtitle: 'Wholesale pricing tiers designed for retail profitability.'
+  title: 'Production Tiers For Retail Brands'
+  subtitle: 'Start with a trial batch, scale to a standard OEM run, or invest in a custom mould — MOQ and lead times are set by the production path, not by guesswork.'
   items:
-    - tier: 'Basic Partner'
-      discount: '20%'
-      moq: '500 units/yr'
-      margin_note: '~$150–250 profit per board'
+    - tier: 'Trial Batch'
+      moq: '5–10 units'
+      margin_note: 'Sample lead time 15–20 days'
       features:
-        - 'Access to full product line'
-        - 'Marketing materials package'
-        - 'Email support'
-        - 'Product catalog access'
-    - tier: 'Premium Partner'
-      discount: '30%'
-      moq: '2,000+ units/yr'
-      margin_note: '~$250–400 profit per board'
+        - 'Artwork development from your brand assets'
+        - 'Physical sample for approval'
+        - 'Standard platform QC'
+    - tier: 'Standard OEM Batch'
+      moq: '50 units per design'
+      margin_note: 'Bulk production 30–45 days'
       features:
-        - 'Dedicated account manager'
-        - 'Exclusive territory protection'
-        - 'Custom marketing support'
-        - 'First access to new products'
-        - 'Staff training sessions'
-    - tier: 'Flagship Partner'
-      discount: '35%+'
-      moq: '5,000+ units/yr'
-      margin_note: '~$350–500+ profit per board'
+        - 'Full-board graphics, logo and EVA layout'
+        - 'Reorders on the same verified platforms'
+        - 'Export documentation included'
+    - tier: 'Custom Mould'
+      moq: '200 units'
+      margin_note: 'Tooling adds 15–20 days'
       features:
-        - 'Co-branded marketing campaigns'
-        - 'In-store display support'
-        - 'On-site staff training'
-        - 'Joint social media promotions'
+        - 'New board shape and mould development'
+        - 'Full specification control'
         - 'Priority production allocation'
 
 product_line:
   title: Complete Product Line
-  subtitle: 'A SUP board for every customer who walks through your door.'
+  subtitle: 'A production platform for every segment in your store.'
   items:
     - name: All-Round Series
-      description: 'Best seller — fits 80% of customers'
+      description: 'Versatile shape — the most common starting platform'
     - name: Touring Series
-      description: 'Performance paddlers — higher margin'
+      description: 'Displacement hull for distance paddling'
     - name: Yoga Series
-      description: 'Niche market — premium pricing'
+      description: 'Wide, stable platform for the wellness segment'
     - name: Kids Series
-      description: 'Family customers — repeat buyer'
+      description: 'Short, light boards for younger paddlers'
     - name: Racing Series
-      description: 'Enthusiast market — brand halo'
+      description: 'Fast hulls for the enthusiast segment'
     - name: Accessories
-      description: 'High margin add-ons (paddles, vests, pumps, bags)'
+      description: 'Paddles, vests, pumps and bags to complete the line'
 
 catalog:
   title: Retail Partner Resources
-  subtitle: 'Download our comprehensive retail partner kit.'
+  subtitle: 'Specifications, ordering details and product documentation.'
   items:
     - name: '2026 Product Catalog'
-      desc: 'Full lineup with specs, pricing, and ordering information'
+      desc: 'Full lineup with specs and ordering information'
       icon: 'tabler:file-text'
       link: '/resources/download-catalog'
     - name: 'Retail Partner Guide'
-      desc: 'Margin calculator, merchandising tips, and best practices'
+      desc: 'Specification guide, ordering process and QC standards'
       icon: 'tabler:book'
       link: '/resources/download-catalog'
-    - name: 'Marketing Asset Pack'
-      desc: 'Hi-res product photos, lifestyle images, and POS materials'
+    - name: 'Product & Technical Assets'
+      desc: 'Hi-res product photos, lifestyle images and technical documentation'
       icon: 'tabler:photo'
       link: '/media'
 
 support:
-  title: Retail Partner Support
-  subtitle: 'Everything you need to sell confidently.'
+  title: Manufacturing Support
+  subtitle: 'What your manufacturing partner provides around the order.'
   items:
-    - 'High-res product images (professional photography)'
-    - 'Lifestyle photos for social media, website, and catalog'
-    - 'Marketing materials — posters, shelf talkers, banners'
-    - 'Product training videos for staff education'
-    - 'Social media content pack (weekly posts)'
-    - 'SEO-optimized product descriptions'
-    - 'Dropshipping option available — no inventory risk'
-    - 'Net 30 payment terms'
+    - 'Physical sample before bulk production'
+    - 'Tolerance and QC: every board pressure-tested before shipping'
+    - 'Specification support — shapes, graphics, EVA layout, accessories'
+    - 'Bulk lead time 30–45 days after confirmed PO'
+    - 'Spare parts and repair guidance for your customers'
+    - 'Export and documentation: FOB/CIF/DDP from Qingdao'
 
 cta:
-  title: 'Ready to become an Afarer retail partner?'
-  subtitle: 'Apply for partnership or download our retail catalog to get started.'
+  title: 'Discuss Your Retail Product Line'
+  subtitle: 'Send your requirements — our team responds within 1 business day.'
   actions:
-    - text: 'Apply for Partnership'
-      href: '/contact?partner=retail'
+    - text: 'Send Your Requirements'
+      href: '/contact'
       variant: 'primary'
-    - text: 'Download Retail Catalog'
-      href: '/resources/download-catalog'
+    - text: 'View Product Platforms'
+      href: '/products'
       variant: 'secondary'

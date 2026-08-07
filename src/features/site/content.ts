@@ -531,7 +531,7 @@ export interface ServeContent {
 export const serve: Localized<ServeContent> = {
   en: {
     kicker: 'Customer Needs',
-    title: 'What Can We Help You Create?',
+    title: 'From Requirements To Manufacturable Products',
     sub: 'Every SUP project starts with a specific requirement.',
     segments: [
       {
@@ -570,7 +570,7 @@ export const serve: Localized<ServeContent> = {
   },
   es: {
     kicker: 'Necesidades del cliente',
-    title: '¿Qué podemos ayudarte a crear?',
+    title: 'De los requisitos al producto fabricable',
     sub: 'Cada proyecto SUP empieza con un requisito concreto.',
     segments: [
       {
