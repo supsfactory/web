@@ -24,8 +24,8 @@ export const Route = createFileRoute('/{-$locale}/about/')({
       title: locale === 'es' ? 'Sobre nosotros | Fabricante OEM de SUP | SUPsfactory' : 'About Us | Inflatable SUP OEM | SUPsfactory',
       description:
         locale === 'es'
-          ? 'SUPsfactory es la división de fabricación OEM/ODM de SUP hinchables de Afarer — ingeniería, moldes, muestras y producción, desde 5–10 unidades de prueba hasta series a escala de contenedor.'
-          : 'SUPsfactory is the inflatable SUP OEM/ODM manufacturing arm of Afarer — engineering, tooling, sampling and container-scale production, from 5–10 piece trial orders up.',
+          ? 'SUPsfactory es la división de fabricación OEM/ODM de SUP hinchables de Afarer — ingeniería, moldes, muestras y producción desde pedidos de prueba.'
+          : 'SUPsfactory is the inflatable SUP OEM/ODM manufacturing arm of Afarer — engineering, tooling, sampling and container-scale production from trial orders up.',
     })
     return { meta, links }
   },

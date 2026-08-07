@@ -32,7 +32,7 @@ export const projects: Localized<ProjectData[]> = {
     {
       slug: 'resort-sup-fleet',
       navLabel: 'Luxury Resort SUP Fleet',
-      metaTitle: 'Luxury Resort SUP Fleet Project | 100 Branded Paddle Boards — SUPsfactory',
+      metaTitle: 'Luxury Resort SUP Fleet | 100 Branded Boards — SUPsfactory',
       metaDescription:
         'How a luxury resort equipped its beach program with 100 branded SUP boards — custom graphics, rental-grade construction and seasonal fleet management.',
       kicker: 'Resort Project',
@@ -61,7 +61,7 @@ export const projects: Localized<ProjectData[]> = {
     {
       slug: 'private-label-launch',
       navLabel: 'Private Label Brand Launch',
-      metaTitle: 'Private Label SUP Launch Project | Existing Brand Product Extension — SUPsfactory',
+      metaTitle: 'Private Label SUP Launch | Brand Product Extension — SUPsfactory',
       metaDescription:
         'How an existing outdoor brand extended into SUP with a private label product line — from logo to first container, with scalable MOQ.',
       kicker: 'Private Label Project',
@@ -90,7 +90,7 @@ export const projects: Localized<ProjectData[]> = {
     {
       slug: 'club-team-boards',
       navLabel: 'Club Team Boards',
-      metaTitle: 'Club Team SUP Boards Project | Branded Club Fleet Refresh — SUPsfactory',
+      metaTitle: 'Club Team SUP Boards | Branded Club Fleet Refresh — SUPsfactory',
       metaDescription:
         'How a paddling club rebranded and refreshed its fleet with 25 branded training boards — team graphics, parts support and consistent reorders.',
       kicker: 'Club Project',
@@ -119,7 +119,7 @@ export const projects: Localized<ProjectData[]> = {
     {
       slug: 'school-program-fleet',
       navLabel: 'School Program Fleet',
-      metaTitle: 'School SUP Program Project | Beginner Fleet For Paddle Sports — SUPsfactory',
+      metaTitle: 'School SUP Program | Beginner Fleet For Paddle Sports — SUPsfactory',
       metaDescription:
         'How a school launched a paddle sports elective with a 15-board beginner fleet and multi-person boards — safety-first equipment for instruction.',
       kicker: 'School Project',
@@ -150,7 +150,7 @@ export const projects: Localized<ProjectData[]> = {
     {
       slug: 'resort-sup-fleet',
       navLabel: 'Flota SUP para resort de lujo',
-      metaTitle: 'Proyecto de flota SUP en resort de lujo | 100 tablas de marca — SUPsfactory',
+      metaTitle: 'Flota SUP en resort de lujo | 100 tablas de marca — SUPsfactory',
       metaDescription:
         'Cómo un resort de lujo equipó su programa de playa con 100 tablas SUP de marca: arte personalizado, construcción de grado alquiler y gestión de flota por temporada.',
       kicker: 'Proyecto de resort',
@@ -179,7 +179,7 @@ export const projects: Localized<ProjectData[]> = {
     {
       slug: 'private-label-launch',
       navLabel: 'Lanzamiento de marca privada',
-      metaTitle: 'Proyecto de lanzamiento SUP de marca privada | Extensión de línea para marca existente — SUPsfactory',
+      metaTitle: 'Lanzamiento SUP de marca privada | Extensión de línea — SUPsfactory',
       metaDescription:
         'Cómo una marca outdoor existente entró en el SUP con una línea de marca privada: del logo al primer contenedor, con pedidos mínimos escalables.',
       kicker: 'Proyecto de marca privada',
@@ -207,7 +207,7 @@ export const projects: Localized<ProjectData[]> = {
     {
       slug: 'club-team-boards',
       navLabel: 'Tablas de equipo para club',
-      metaTitle: 'Proyecto de tablas SUP de equipo para club | Renovación de flota de club con marca — SUPsfactory',
+      metaTitle: 'Tablas SUP de equipo para club | Flota de marca — SUPsfactory',
       metaDescription:
         'Cómo un club de remo renovó su flota con 25 tablas de entrenamiento de marca: arte de equipo, soporte de accesorios y reordenes consistentes.',
       kicker: 'Proyecto de club',
@@ -235,7 +235,7 @@ export const projects: Localized<ProjectData[]> = {
     {
       slug: 'school-program-fleet',
       navLabel: 'Flota para programa escolar',
-      metaTitle: 'Proyecto de SUP escolar | Flota de iniciación para optativa de remo — SUPsfactory',
+      metaTitle: 'Programa de SUP escolar | Flota de iniciación — SUPsfactory',
       metaDescription:
         'Cómo una escuela lanzó una optativa de remo con 15 tablas de iniciación y multiusuario: un equipamiento priorizado por la seguridad, pensado para la enseñanza.',
       kicker: 'Proyecto escolar',

@@ -25,7 +25,7 @@ export const Route = createFileRoute('/{-$locale}/how-it-works')({
       title: locale === 'es' ? 'Cómo funciona | De la especificación al contenedor' : 'How It Works | From Specification to Shipped Container',
       description:
         locale === 'es'
-          ? 'Comparte tus requisitos, confirma especificación y muestra, y después producción, control de calidad y entrega: SUPsfactory te guía en cada paso del proyecto de fabricación.'
+          ? 'Comparte requisitos, aprueba especificación y muestra, luego producción, control de calidad y entrega: te guiamos en cada paso.'
           : 'Share your requirements, approve spec and sample, then production, QC and delivery — we guide every step of your custom SUP manufacturing project.',
     })
     return { meta, links }

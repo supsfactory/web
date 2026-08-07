@@ -28,7 +28,7 @@ export const Route = createFileRoute('/{-$locale}/contact')({
       description:
         locale === 'es'
           ? 'Cuéntanos qué tablas quieres fabricar: MOQ por tramos desde 5–10 unidades de prueba, ingeniería y muestras, con respuesta en un día laborable.'
-          : 'Tell us about the SUP boards you want to manufacture — tiered MOQ from 5–10 trial units, in-house engineering and sampling, factory production. Get a reply within one business day.',
+          : 'Tell us about the SUP boards you want to manufacture — tiered MOQ from 5–10 trial units, in-house engineering and sampling. Reply within one business day.',
     })
     return { meta, links }
   },

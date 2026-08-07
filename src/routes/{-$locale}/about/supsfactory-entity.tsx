@@ -52,7 +52,7 @@ export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
       description:
         locale === 'es'
           ? 'SUPsfactory: fabricación de SUP hinchables OEM/ODM con ingeniería, moldes, muestras y producción a escala de contenedor, por Qingdao Vatrad Group.'
-          : 'SUPsfactory is the inflatable SUP OEM & ODM manufacturing company — engineering, tooling, sampling and container-scale production built by Qingdao Vatrad Group.',
+          : 'SUPsfactory is the inflatable SUP OEM & ODM manufacturing company — engineering, tooling, sampling and container-scale production by Qingdao Vatrad Group.',
     })
     return { meta, links }
   },

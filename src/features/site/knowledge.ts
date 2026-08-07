@@ -23,9 +23,9 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'how-custom-sup-boards-are-developed',
       navLabel: 'How Custom SUP Boards Are Developed',
-      metaTitle: 'How Custom SUP Boards Are Developed: From Idea to Production',
+      metaTitle: 'How Custom SUP Boards Are Developed | SUPsfactory',
       metaDescription:
-        'How a custom SUP product moves from idea to factory: requirement definition, specification, design, prototyping, sampling and production — explained step by step.',
+        'How a custom SUP moves from idea to factory: specification, design, prototyping, sampling and production — explained step by step.',
       kicker: 'Knowledge',
       h1: 'How Custom SUP Boards Are Developed',
       intro:
@@ -71,9 +71,9 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'inflatable-sup-construction-explained',
       navLabel: 'Inflatable SUP Construction Explained',
-      metaTitle: 'Inflatable SUP Construction Explained: Materials, Layers, Quality',
+      metaTitle: 'Inflatable SUP Construction: Materials & Layers | SUPsfactory',
       metaDescription:
-        'What an inflatable SUP is made of — PVC layers, drop-stitch fabric, rails, and quality indicators. Understand construction to specify better boards for your project.',
+        'What an inflatable SUP is made of — PVC layers, drop-stitch fabric, rails and quality indicators — to specify better boards for your project.',
       kicker: 'Knowledge',
       h1: 'Inflatable SUP Construction Explained',
       intro:
@@ -107,7 +107,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       navLabel: 'How Organizations Choose SUP Equipment',
       metaTitle: 'How Resorts, Clubs and Schools Choose SUP Equipment',
       metaDescription:
-        'A practical framework for choosing SUP equipment for resorts, clubs and schools: fleet sizing, board types, durability, storage, and budgeting for a program that lasts.',
+        'How resorts, clubs and schools choose SUP equipment: fleet sizing, board types, durability, storage and budgeting for a program that lasts.',
       kicker: 'Knowledge',
       h1: 'How Organizations Choose SUP Equipment',
       intro:
@@ -147,9 +147,9 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'how-custom-sup-boards-are-developed',
       navLabel: 'Cómo se desarrollan las tablas de SUP personalizadas',
-      metaTitle: 'Cómo se desarrollan las tablas de SUP personalizadas: de la idea a la producción en serie',
+      metaTitle: 'Cómo se desarrollan tablas de SUP personalizadas | SUPsfactory',
       metaDescription:
-        'Cómo pasa un producto SUP personalizado de la idea a la fábrica: definición de requisitos, especificaciones, diseño, muestras, aprobación y producción en serie — paso a paso.',
+        'Cómo pasa un producto SUP personalizado de la idea a la fábrica: requisitos, especificaciones, diseño, muestras y producción en serie — paso a paso.',
       kicker: 'Centro de conocimiento',
       h1: 'Cómo se desarrollan las tablas de SUP personalizadas',
       intro:
@@ -195,9 +195,9 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'inflatable-sup-construction-explained',
       navLabel: 'La estructura de los SUP hinchables, explicada',
-      metaTitle: 'La estructura de los SUP hinchables: materiales, capas y calidad',
+      metaTitle: 'La estructura de los SUP hinchables: materiales y capas',
       metaDescription:
-        'De qué está hecho un SUP hinchable: capas de PVC, estructura de tejido, rails e indicadores de calidad. Entiende la construcción para especificar mejores tablas en tu proyecto.',
+        'De qué está hecho un SUP hinchable: capas de PVC, tejido, rails e indicadores de calidad, para especificar mejores tablas en tu proyecto.',
       kicker: 'Centro de conocimiento',
       h1: 'La estructura de los SUP hinchables, explicada',
       intro:
@@ -229,9 +229,9 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'how-organizations-choose-sup-equipment',
       navLabel: 'Cómo eligen las organizaciones el equipamiento SUP',
-      metaTitle: 'Cómo eligen el equipamiento SUP los resorts, clubes y escuelas',
+      metaTitle: 'Cómo eligen el equipamiento SUP resorts, clubes y escuelas',
       metaDescription:
-        'Un marco práctico para elegir equipamiento SUP en resorts, clubes y escuelas: tamaño de la flota, tipos de tabla, durabilidad, almacenamiento y presupuesto para un programa duradero.',
+        'Cómo elegir equipamiento SUP para resorts, clubes y escuelas: tamaño de la flota, tipos de tabla, durabilidad, almacenamiento y presupuesto.',
       kicker: 'Centro de conocimiento',
       h1: 'Cómo eligen las organizaciones el equipamiento SUP',
       intro:
