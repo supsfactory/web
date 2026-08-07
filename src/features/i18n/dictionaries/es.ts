@@ -179,6 +179,7 @@ export const es = {
       terms: 'Términos', privacy: 'Privacidad',
       rights: 'Socio de desarrollo y fabricación de productos SUP personalizados.',
       owner: 'Afarer — marca de SUP de Qingdao Vatrad Group Co., Ltd.',
+      followUs: 'Síguenos', facebook: 'Facebook', linkedin: 'LinkedIn',
     },
     solutions: {
       ctaCold: 'Saber más',

@@ -1,6 +1,7 @@
 import { Link } from '@tanstack/react-router'
-import { Mail, MessageCircle } from 'lucide-react'
+import { Facebook, Linkedin, Mail, MessageCircle } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
+import { FACTS } from '@/features/site/facts'
 import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
@@ -25,6 +26,17 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
             <Link to="/{-$locale}/contact" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
               <MessageCircle size={15} className="text-primary" /> {t('sup.footer.inquiryForm')}
             </Link>
+          </div>
+          <div className="mt-5">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-fg-3">{t('sup.footer.followUs')}</p>
+            <div className="mt-2.5 flex flex-col gap-2 text-[13.5px] text-fg-2">
+              <a href={FACTS.social.facebook} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
+                <Facebook size={15} className="text-primary" /> {t('sup.footer.facebook')}
+              </a>
+              <a href={FACTS.social.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
+                <Linkedin size={15} className="text-primary" /> {t('sup.footer.linkedin')}
+              </a>
+            </div>
           </div>
         </div>
 
