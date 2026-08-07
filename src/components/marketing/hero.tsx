@@ -28,9 +28,11 @@ export function Hero() {
           <p className="kicker text-[#aee3f7]!">{c.kicker}</p>
           <h1 className="mt-4 font-display text-[2.6rem] font-extrabold leading-[1.06] tracking-tight text-white md:text-[4rem]">
             {c.titlePre} <span className="text-[#7fd6f0]">{c.titleAccent}</span>
-            <span className="mt-1 block text-[1.7rem] font-bold leading-[1.15] text-white/85 md:text-[2.35rem]">
-              {c.titlePost}
-            </span>
+            {c.titlePost ? (
+              <span className="mt-1 block text-[1.7rem] font-bold leading-[1.15] text-white/85 md:text-[2.35rem]">
+                {c.titlePost}
+              </span>
+            ) : null}
           </h1>
           <p className="fg-dim mt-6 max-w-xl text-[16.5px] leading-relaxed md:text-lg">{c.sub}</p>
 
@@ -41,7 +43,7 @@ export function Hero() {
             >
               {c.ctaPrimary} <ArrowRight size={17} />
             </Link>
-            <Link to="/{-$locale}/solutions" className="glass-btn h-[48px] px-8 text-[15px] font-semibold">
+            <Link to="/factory" className="glass-btn h-[48px] px-8 text-[15px] font-semibold">
               {c.ctaSecondary}
             </Link>
           </div>
@@ -57,6 +59,8 @@ export function Hero() {
               </li>
             ))}
           </ul>
+
+          <p className="mt-6 max-w-xl text-[12.5px] font-medium leading-snug text-white/70">{c.heroNote}</p>
         </div>
 
         {/* board mockup on a water stage */}

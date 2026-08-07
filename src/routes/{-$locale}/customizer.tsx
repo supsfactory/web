@@ -25,11 +25,11 @@ export const Route = createFileRoute('/{-$locale}/customizer')({
       origin,
       locale,
       path: '/customizer',
-      title: locale === 'es' ? 'SUP Design Studio | Diseña tu tabla a medida | SUPsfactory' : 'SUP Design Studio | Design Your Custom Board — SUPsfactory',
+      title: locale === 'es' ? 'Constructor de especificaciones SUP | Diseña tu tabla — SUPsfactory' : 'SUP Specification Builder | Design Your Custom Board — SUPsfactory',
       description:
         locale === 'es'
-          ? 'Visualiza tu concepto SUP antes de la producción: elige modelo, colores, sube tu logo y genera un mockup en el estudio de diseño.'
-          : 'Visualize your SUP concept before production: choose a model, colors and logo, and generate a mockup with our design studio.',
+          ? 'Visualiza tu concepto SUP antes de la producción: elige modelo, colores, sube tu logo y genera un mockup antes de pedir presupuesto de fabricación.'
+          : 'Visualize your SUP concept before production: choose a model, colors and logo, and generate a mockup before requesting a manufacturing quote.',
     })
     return { meta, links }
   },

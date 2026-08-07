@@ -171,7 +171,7 @@ export const en = {
       knowledge: 'Knowledge Center', company: 'Company',
     },
     footer: {
-      tagline: 'Custom SUP product development & manufacturing partner — from product idea to finished delivery.',
+      tagline: 'The SUP product development and manufacturing division of Afarer — engineering, tooling, sampling and container-scale production. You bring the brand, we build the boards.',
       colSolutions: 'Solutions', colServe: 'Who We Serve', colCompany: 'Company', colLegal: 'Legal',
       colResources: 'Resources',
       poweredBy: 'Powered by Afarer', inquiryForm: 'Inquiry form',
@@ -244,14 +244,14 @@ export const en = {
     },
     entity: {
       kicker: 'Company Entity',
-      title: 'SUPsfactory — the Custom SUP Manufacturing Company Behind Your Brand',
+      title: 'SUPsfactory — the Inflatable SUP OEM & ODM Manufacturer Behind Your Brand',
       intro1:
-        'SUPsfactory is a custom SUP (stand up paddle board) manufacturing company and product development partner. We help businesses, brands, resorts, clubs and schools turn SUP product ideas into finished, rideable boards.',
+        'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.). We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing.',
       intro2:
-        'We are the SUP brand and manufacturing arm of Qingdao Vatrad Group Co., Ltd. — our own factories handle every stage from specification and design to prototyping, sampling, mass production and delivery.',
+        'Our 12,000 m² plant in Qingdao, China handles every stage in-house — design, mould engineering, drop-stitch construction, RF welding, printing, assembly and quality testing. We do not sell to end consumers and we do not compete with our clients in any market.',
       factsTitle: 'Company Facts',
-      servicesTitle: 'What We Do',
-      servicesBody: 'Five solution areas cover most custom SUP projects:',
+      servicesTitle: 'What We Manufacture',
+      servicesBody: 'Five solution areas cover most custom SUP manufacturing projects:',
       knowledgeTitle: 'Learn the Craft',
       knowledgeBody: 'Guides written for buyers planning a custom SUP project.',
       projectsTitle: 'Proof of Work',
@@ -260,8 +260,8 @@ export const en = {
       ctaBody: 'Tell us what you want to build — we typically reply within one business day.',
     },
     contact: {
-      title: 'Start Your Custom Project',
-      subtitle: 'Tell us about your SUP idea — we typically reply within one business day.',      infoTitle: 'Talk to a project specialist',
+      title: 'Request A Manufacturing Quotation',
+      subtitle: 'Tell us about the boards you want to build — we typically reply within one business day.',      infoTitle: 'Talk to a project specialist',
       infoBody: 'Prefer email or WhatsApp? Reach out directly and mention your project.',
       emailLabel: 'Email us',
       whatsappLabel: 'WhatsApp',
@@ -294,7 +294,7 @@ export const en = {
       corporate: 'Corporate / event', other: 'Other',
     },
     quantityOptions: {
-      q50: '50 – 100 pcs', q100: '100 – 300 pcs', q300: '300 – 500 pcs', q500: '500+ pcs', unsure: 'Not sure yet',
+      q5: '5 – 50 pcs (trial)', q50: '50 – 100 pcs', q100: '100 – 300 pcs', q300: '300 – 500 pcs', q500: '500+ pcs', unsure: 'Not sure yet',
     },
     statuses: { new: 'New', contacted: 'Contacted', quoted: 'Quoted', closed: 'Closed' },
   },

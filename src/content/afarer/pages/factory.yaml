@@ -1,6 +1,6 @@
 meta:
   title: 'Factory & Manufacturing — Inflatable SUP OEM'
-  description: 'Tour the afarer factory: 12,000 m² plant with cutting, RF welding, printing, assembly, and quality lab for inflatable SUP and boat OEM/ODM manufacturing.'
+  description: 'Tour the afarer factory: 12,000 m² plant with cutting, RF welding, printing, assembly, and quality lab for inflatable SUP OEM/ODM manufacturing.'
   keywords:
     - 'sup factory china'
     - 'inflatable paddle board factory'
@@ -9,7 +9,7 @@ meta:
 hero:
   tagline: Factory
   title: Factory & Manufacturing
-  subtitle: 12,000 m2 SUP factory in Qingdao, China —custom SUP manufacturing from raw PVC material to finished inflatable paddle board
+  subtitle: 12,000 m2 SUP factory in Qingdao, China — custom SUP manufacturing from raw PVC material to finished inflatable paddle board
 
 intro:
   - As a SUP factory brand of **Qingdao Vatrad Group Co., Ltd.**, afarer controls every stage of inflatable SUP manufacturing —from the arrival of raw PVC materials to the final pre-delivery inspection of the finished paddle board. Our manufacturing facility in the Qingdao Economic Development Zone spans 12,000 square metres and houses dedicated workshops for PVC cutting, drop-stitch core bonding, SUP digital printing, final assembly, and quality testing.
@@ -43,7 +43,7 @@ intelligence_cards:
   - title: Quality Lab & Testing
     icon: Q
     icon_bg: green
-    desc: 'Independent QC lab with 4 testing stages: raw material inspection (tensile, tear, UV), 48h pressure hold at 1.25x rated pressure, seam peel testing, and load/balance verification on every boat.'
+    desc: 'Independent QC lab with 4 testing stages: raw material inspection (tensile, tear, UV), 48h pressure hold at 1.25x rated pressure, seam peel testing, and flexural rigidity verification on every board.'
     metrics:
       - label: Lab Equipment
         value: 'Tensile tester, temp chamber, leak tank'
@@ -83,7 +83,7 @@ workshops_section:
       description: Assembly line where valves, D-rings, handles, fin boxes, and deck pads are installed on each SUP board. Each board follows a 100-point assembly checklist signed off by the team lead.
       image: https://assets.afarer.com/images/afarer/hero/factory-gate.webp
     - title: Quality Testing & Inspection
-      description: Every completed boat undergoes mandatory air-retention testing, seam peel verification, and a full systems check before shipping. Our quality lab operates independently from production and reports directly to management.
+      description: Every completed board undergoes mandatory air-retention testing, seam peel verification, and a full systems check before shipping. Our quality lab operates independently from production and reports directly to management.
       image: https://assets.afarer.com/images/afarer/factory/afarer-pressure-testing.webp
 
 equipment_section:
@@ -108,7 +108,7 @@ equipment_section:
 qc_section:
   tagline: Quality Control
   title: Testing & Quality Assurance Process
-  subtitle: Every boat undergoes mandatory testing before shipping. Our quality lab operates independently from production and reports directly to management.
+  subtitle: Every board undergoes mandatory testing before shipping. Our quality lab operates independently from production and reports directly to management.
   steps:
     - step: '1'
       title: Raw Material Inspection
@@ -118,7 +118,7 @@ qc_section:
       desc: Every tube chamber is inflated to 125% of rated pressure and held for 48 hours. Pressure drop below 5% triggers automatic rejection and seam re-inspection.
     - step: '3'
       title: Load & Balance Testing
-      desc: Completed boats are loaded to maximum rated capacity and tested for stability, freeboard, and handling. Each vessel is water-tested before final inspection.
+      desc: Completed boards are inflated to rated pressure and checked for symmetric swell, rigidity at 15 PSI, and stability under load. Each board is wet-tested in our test pool before final inspection.
 
 oem_section:
   tagline: OEM Projects
@@ -152,8 +152,8 @@ b2b_moq: 'Standard MOQ: 5–10 units per model. Trial orders welcome for new par
 
 production_flow:
   tagline: Production Flow
-  title: From Material to Finished Boat
-  subtitle: Every boat passes through 6 production stages with QC checkpoints at every step. No shortcuts, no skipped inspections.
+  title: From Material to Finished Board
+  subtitle: Every board passes through 6 production stages with QC checkpoints at every step. No shortcuts, no skipped inspections.
   stages:
     - stage: '01'
       title: Material Receiving & Incoming QC
@@ -175,13 +175,13 @@ production_flow:
       responsibility: Welding QC (2 inspectors per shift)
     - stage: '04'
       title: Assembly & Rigging
-      description: 'Boats move to final assembly where all components are mated: hull + tubes, valves installed, D-rings, handles, fin boxes, and carry bag fitting. Each unit follows a 100-point assembly checklist.'
+      description: 'Boards move to final assembly where all components come together: deck and hull panels fused, valves installed, D-rings, handles, fin boxes, and carry bag fitting. Each unit follows a 100-point assembly checklist.'
       qc_check: '100-point checklist sign-off per unit, valve function test (10 open/close cycles), hardware torque verification, visual inspection'
       qc_threshold: 'Zero-defect policy on safety-critical items (valves, D-rings, handles). Minor cosmetic: AQL 2.5 (ISO 2859)'
       responsibility: Assembly team lead + line QC
     - stage: '05'
       title: Pressure Testing & Quality Hold
-      description: 'Every chamber is inflated to 1.25× rated pressure (typically 20–25 PSI) and held for 24–48 hours. Pressure sensors log continuously. Chambers exceeding 5% pressure drop are rejected and sent for seam re-inspection.'
+      description: 'Every chamber is inflated to 1.25× rated pressure (typically about 19 PSI for a 12–15 PSI rated SUP) and held for 24–48 hours. Pressure sensors log continuously. Chambers exceeding 5% pressure drop are rejected and sent for seam re-inspection.'
       qc_check: '24h pressure hold log, sensor calibration verified daily, temperature-compensated pressure reading, seam re-test after repair'
       qc_threshold: 'Max 5% pressure drop over 24h at stable temp. Any chamber exceeding this = 100% re-test of entire production batch'
       responsibility: Quality lab (independent of production, reports to management)
@@ -228,7 +228,7 @@ workforce:
 material_traceability:
   tagline: Traceability
   title: Material Tracking & Batch Control
-  description: Every batch of raw material is assigned a unique lot number in our ERP system. From arrival through production to the finished product, each boat's bill of materials links back to the original supplier batch. This enables full upstream traceability for any quality or compliance inquiry.
+  description: Every batch of raw material is assigned a unique lot number in our ERP system. From arrival through production to the finished product, each board's bill of materials links back to the original supplier batch. This enables full upstream traceability for any quality or compliance inquiry.
   system: Custom ERP (Qingdao Vatrad Group internal system) + physical batch tags on each work order
   coverage: 100% of production materials —PVC, Hypalon, drop-stitch fabric, adhesives, valves, hardware, packaging
   records_retained: 10 years (per CE 2013/53/EU requirement)
@@ -253,7 +253,7 @@ qc_dashboard:
   stats:
     - value: 100%
       label: Units pressure-tested
-      detail: Every boat, every chamber, every batch
+      detail: Every board, every chamber, every batch
     - value: '<5%'
       label: Max allowable pressure drop
       detail: Over 24h at 1.25× rated pressure

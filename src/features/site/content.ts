@@ -1,4 +1,5 @@
 ﻿import type { Locale } from '@/features/i18n/locale'
+import { FACTS } from './facts'
 
 /**
  * Marketing content for the SUPsfactory site, localized en/es.
@@ -32,40 +33,53 @@ export interface HeroContent {
   mockupLabel: string
   mockupBrand: string
   mockupHint: string
+  heroNote: string
   float1: { value: string; label: string }
   float2: { value: string; label: string }
 }
 
 export const hero: Localized<HeroContent> = {
   en: {
-    kicker: 'Custom SUP Product Development & Manufacturing Partner',
-    titlePre: 'Turn Your',
-    titleAccent: 'SUP Ideas',
-    titlePost: 'Into Reality',
-    sub: 'From product concepts and customization requirements to prototypes and production, SUPsfactory helps businesses create SUP products through professional development and manufacturing support.',
-    ctaPrimary: 'Discuss Your SUP Project',
-    ctaSecondary: 'Explore Custom Solutions',
-    chips: ['Flexible MOQ', 'Custom Production', 'Powered by Afarer'],
+    kicker: 'B2B Manufacturing — OEM / ODM / Private Label',
+    titlePre: 'Inflatable SUP Manufacturer',
+    titleAccent: '& OEM Factory',
+    titlePost: '',
+    sub: FACTS.tagline,
+    ctaPrimary: 'Request a Manufacturing Quote',
+    ctaSecondary: 'Download Factory Capability Profile (PDF)',
+    chips: [
+      'Engineering review within 1 business day',
+      'Quotation within 24 hours',
+      'NDA signed before any file exchange',
+    ],
     mockupLabel: 'Signature Platform',
     mockupBrand: "SUP Explorer 11'",
     mockupHint: 'Your graphics · your colors · your packaging',
-    float1: { value: '50pcs', label: 'Minimum order' },
-    float2: { value: '4–6 wks', label: 'Production time' },
+    heroNote:
+      'We manufacture under your brand only. We do not sell to end consumers and we do not compete with our clients in any market.',
+    float1: { value: '50 pcs', label: 'Standard OEM MOQ' },
+    float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
   es: {
-    kicker: 'Socio de desarrollo y fabricación de productos SUP personalizados',
-    titlePre: 'Convierte tus',
-    titleAccent: 'ideas SUP',
-    titlePost: 'en realidad',
-    sub: 'Desde conceptos de producto y requisitos de personalización hasta prototipos y producción, SUPsfactory ayuda a las empresas a crear productos SUP con apoyo profesional de desarrollo y fabricación.',
-    ctaPrimary: 'Comenta tu proyecto SUP',
-    ctaSecondary: 'Explora soluciones personalizadas',
-    chips: ['MOQ flexible', 'Producción personalizada', 'Con la fabricación de Afarer'],
+    kicker: 'Fabricación B2B — OEM / ODM / Marca privada',
+    titlePre: 'Fabricante de SUP hinchables',
+    titleAccent: 'y fábrica OEM',
+    titlePost: '',
+    sub: FACTS.taglineEs,
+    ctaPrimary: 'Solicita un presupuesto de fabricación',
+    ctaSecondary: 'Descargar perfil de capacidad de fábrica (PDF)',
+    chips: [
+      'Revisión de ingeniería en 1 día laborable',
+      'Presupuesto en 24 horas',
+      'NDA firmado antes de cualquier intercambio de archivos',
+    ],
     mockupLabel: 'Plataforma insignia',
     mockupBrand: 'SUP Explorer 11\'',
-    mockupHint: 'Tus gráficos · tus colores · tu packaging',
-    float1: { value: '50 uds.', label: 'Pedido mínimo' },
-    float2: { value: '4–6 sem.', label: 'Tiempo de producción' },
+    mockupHint: 'Tus gráficos · Tus colores · tu packaging',
+    heroNote:
+      'Fabricamos solo bajo tu marca. No vendemos a consumidores finales y no competimos con nuestros clientes en ningún mercado.',
+    float1: { value: '50 uds.', label: 'MOQ OEM estándar' },
+    float2: { value: '30–45 días', label: 'Plazo de producción (tras PO)' },
   },
 }
 
@@ -87,52 +101,52 @@ export interface WhyContent {
 
 export const why: Localized<WhyContent> = {
   en: {
-    kicker: 'Powered by Afarer',
-    title: 'Powered by Afarer Expertise',
-    sub: 'Supsfactory works with Afarer’s SUP manufacturing capabilities to support product development, production and delivery.',
+    kicker: 'The Manufacturing Brand',
+    title: 'Powered by Afarer',
+    sub: 'SUPsfactory is the SUP product development and manufacturing division of Afarer, the manufacturing brand of Qingdao Vatrad Group Co., Ltd. Our 12,000 m² plant in Laixi, Qingdao has produced inflatable products since 2012, with 25+ engineers across R&D, mold design, materials lab and production engineering averaging 7+ years in inflatable manufacturing, running two production shifts daily.',
     image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
     imageCaption: 'Afarer manufacturing facility, Qingdao, China',
     bullets: [
       {
-        title: 'Engineering Support',
-        body: 'Professional SUP product development capability — specifications, materials and manufacturing feasibility evaluated before production.',
+        title: '12,000 m² plant',
+        body: 'In-house from raw PVC to finished board, in Laixi, Qingdao.',
       },
       {
-        title: 'Manufacturing Experience',
-        body: 'Reliable production processes and quality control across every batch.',
+        title: 'Producing since 2012',
+        body: 'Two production shifts daily across SUP and inflatables.',
       },
       {
-        title: 'Flexible Production',
-        body: 'Solutions for both customized and repeat projects, from small batches to volume.',
+        title: '25+ engineers',
+        body: 'Across R&D, mold design, materials lab and production engineering.',
       },
       {
-        title: 'Global Supply',
-        body: 'Support from prototype to delivery, with worldwide shipping and professional export packing.',
+        title: '7+ years average',
+        body: 'Inflatable manufacturing experience per engineer.',
       },
     ],
   },
   es: {
-    kicker: 'Con la fabricación de Afarer',
-    title: 'Respaldo de la experiencia de fabricación de Afarer',
-    sub: 'Supsfactory trabaja con las capacidades de fabricación de SUP de Afarer para apoyar el desarrollo de producto, la producción y la entrega.',
+    kicker: 'La marca de fabricación',
+    title: 'Con el respaldo de Afarer',
+    sub: 'SUPsfactory es la división de desarrollo y fabricación de productos SUP de Afarer, la marca de fabricación de Qingdao Vatrad Group Co., Ltd. Nuestra planta de 12.000 m² en Laixi, Qingdao produce productos inflables desde 2012, con más de 25 ingenieros entre I+D, diseño de moldes, laboratorio de materiales e ingeniería de producción, con una media de más de 7 años en fabricación de inflables y dos turnos de producción diarios.',
     image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
     imageCaption: 'Instalaciones de fabricación de Afarer, Qingdao, China',
     bullets: [
       {
-        title: 'Soporte de ingeniería',
-        body: 'Capacidad profesional de desarrollo de productos SUP: especificaciones, materiales y viabilidad de fabricación evaluados antes de la producción.',
+        title: 'Planta de 12,000 m²',
+        body: 'Del PVC en bruto a la tabla terminada, en Laixi, Qingdao.',
       },
       {
-        title: 'Experiencia en fabricación',
-        body: 'Procesos de producción fiables y control de calidad en cada lote.',
+        title: 'Produciendo desde 2012',
+        body: 'Dos turnos de producción diarios entre SUP e inflables.',
       },
       {
-        title: 'Producción flexible',
-        body: 'Soluciones para proyectos personalizados y recurrentes, de pequeños lotes a volumen.',
+        title: '+25 ingenieros',
+        body: 'Entre I+D, diseño de moldes, laboratorio de materiales e ingeniería de producción.',
       },
       {
-        title: 'Suministro global',
-        body: 'Apoyo del prototipo a la entrega, con envío mundial y embalaje de exportación profesional.',
+        title: '+7 años de media',
+        body: 'De experiencia en fabricación de inflables por ingeniero.',
       },
     ],
   },
@@ -143,6 +157,357 @@ export const why: Localized<WhyContent> = {
 export const strip: Localized<string[]> = {
   en: ['OEM & ODM', 'Private Label', 'Sample Service', 'Design & Artwork', 'QC on every run', 'Worldwide export'],
   es: ['OEM & ODM', 'Marca privada', 'Servicio de muestras', 'Diseño y arte', 'QC en cada lote', 'Exportación mundial'],
+}
+
+/* ─────────────────────────── home: trust bar ─────────────────────────── */
+
+export interface TrustStat {
+  value: string
+  label: string
+}
+
+export interface TrustBarContent {
+  stats: TrustStat[]
+}
+
+export const trustBar: Localized<TrustBarContent> = {
+  en: {
+    stats: [
+      { value: '12,000 m²', label: 'Qingdao plant, in-house from raw PVC to finished board' },
+      { value: '2012', label: 'Manufacturing SUP and inflatables since' },
+      { value: '50+', label: 'Countries shipped to across EU, US, AU and Asia' },
+      { value: 'ISO 9001 · CE · BSCI · REACH/RoHS', label: 'Certified and audit-ready' },
+    ],
+  },
+  es: {
+    stats: [
+      { value: '12,000 m²', label: 'Planta en Qingdao, del PVC en bruto a la tabla terminada, todo en casa' },
+      { value: '2012', label: 'Fabricando SUP e inflables desde' },
+      { value: '50+', label: 'Países con envíos en la UE, EE. UU., Australia y Asia' },
+      { value: 'ISO 9001 · CE · BSCI · REACH/RoHS', label: 'Certificada y lista para auditorías' },
+    ],
+  },
+}
+
+/* ─────────────────────────── home: Manufacturing Scope (OEM/ODM/Private Label/Volume) ─────────────────────────── */
+
+export interface ScopeCard {
+  title: string
+  body: string
+}
+
+export interface SolveContent {
+  kicker: string
+  title: string
+  sub: string
+  cta: string
+  items: ScopeCard[]
+}
+
+export const solve: Localized<SolveContent> = {
+  en: {
+    kicker: 'Manufacturing Scope',
+    title: 'Four Ways Brands and Buyers Work With Our Plant',
+    sub: 'OEM, ODM, private label or volume supply — the same in-house engineering and quality system behind every program.',
+    cta: 'Request a Manufacturing Quote',
+    items: [
+      {
+        title: 'OEM — Build to Your Specification',
+        body: 'You supply drawings, specifications or a reference board. Our engineering team returns a manufacturability report covering materials, layup, tolerances, tooling requirements and cost drivers, then produces to that spec.',
+      },
+      {
+        title: 'ODM — Adapt a Proven Platform',
+        body: 'Start from one of our validated board platforms and adjust dimensions, layup, fin configuration, hardware and graphics. Faster to market than a ground-up mold, with the same construction standards.',
+      },
+      {
+        title: 'Private Label — Your Brand on Commercial-Grade Boards',
+        body: 'Standard construction, your artwork, your deck pad colors, your packaging and your barcode. Shipped ready for retail or rental deployment with no SUPsfactory or Afarer marking anywhere on the product.',
+      },
+      {
+        title: 'Volume Supply — Repeat and Fleet Orders',
+        body: 'Container-scale production for distributors, rental operators and resort groups, with locked specifications, batch traceability and consistent construction across reorders.',
+      },
+    ],
+  },
+  es: {
+    kicker: 'Alcance de fabricación',
+    title: 'Cuatro formas de trabajar con nuestra planta',
+    sub: 'OEM, ODM, marca privada o suministro por volumen — los mismos estándares de ingeniería y calidad en cada programa.',
+    cta: 'Solicita un presupuesto de fabricación',
+    items: [
+      {
+        title: 'OEM — fabrica según tu especificación',
+        body: 'Tú aportas planos, especificaciones o una tabla de referencia. Nuestro equipo de ingeniería entrega un informe de fabricabilidad con materiales, layup, tolerancias, utillaje y costes, y produce conforme a esa especificación.',
+      },
+      {
+        title: 'ODM — adapta una plataforma probada',
+        body: 'Parte de una de nuestras plataformas validadas y ajusta dimensiones, layup, configuración de quillas, herrajes y gráficos. Más rápido a mercado que un molde desde cero, con los mismos estándares de construcción.',
+      },
+      {
+        title: 'Marca privada — tu marca en tablas de grado comercial',
+        body: 'Construcción estándar, tu arte, tus colores de piso de cubierta, tu packaging y tu código de barras. Entregamos listas para retail o alquiler, sin ninguna marca SUPsfactory o Afarer visible en el producto.',
+      },
+      {
+        title: 'Suministro por volumen — pedidos repetidos y de flota',
+        body: 'Producción a escala de contenedor para distribuidores, operadores de alquiler y grupos hoteleros, con especificaciones fijadas, trazabilidad por lote y construcción homogénea entre reposiciones.',
+      },
+    ],
+  },
+}
+
+/* ─────────────────────────── home: Inside the Plant (manufacturing capability) ─────────────────────────── */
+
+export interface CapabilityBlock {
+  name: string
+  body: string
+}
+
+export interface CapabilityContent {
+  kicker: string
+  title: string
+  sub: string
+  items: CapabilityBlock[]
+}
+
+export const capability: Localized<CapabilityContent> = {
+  en: {
+    kicker: 'Manufacturing Capability',
+    title: 'Inside the Plant',
+    sub: 'Every process below runs in-house. Nothing critical is subcontracted.',
+    items: [
+      {
+        name: 'CNC Cutting',
+        body: 'Automatic CNC machines cut PVC, Hypalon and drop-stitch fabric to 0.1 mm positional accuracy, with computer-optimised nesting to control material waste.',
+      },
+      {
+        name: 'RF Dielectric Welding',
+        body: '15 kW welding presses produce airtight seams. Rail bands are triple-layer fusion bonded for edge strength and impact resistance.',
+      },
+      {
+        name: 'Drop-Stitch Core Lamination',
+        body: 'Thousands of internal polyester threads hold the top and bottom laminates parallel, producing a rigid platform at 12–15 PSI. Cores laminated up to 14 ft.',
+      },
+      {
+        name: 'Deck Graphics',
+        body: 'Full-colour digital printing and multi-colour screen printing, produced from your brand files. EVA deck pads in your colors with custom logos, cutouts and textures.',
+      },
+      {
+        name: 'Assembly and Rigging',
+        body: 'Each board follows a 100-point assembly checklist signed off by the line lead — hardware, D-rings, valves, leash points and accessory fitment.',
+      },
+      {
+        name: 'Export Packing',
+        body: 'Vacuum-packed, boxed and prepared for container loading, with printed retail cartons available.',
+      },
+    ],
+  },
+  es: {
+    kicker: 'Capacidad de fabricación',
+    title: 'Dentro de la planta',
+    sub: 'Todos los procesos siguientes se realizan en casa. Nada crítico se subcontrata.',
+    items: [
+      {
+        name: 'Corte CNC',
+        body: 'Las máquinas CNC automáticas cortan PVC, Hypalon y panel drop-stitch con una precisión posicional de 0,1 mm y anidado optimizado por ordenador para controlar el desperdicio de material.',
+      },
+      {
+        name: 'Soldadura dieléctrica RF',
+        body: 'Las prensas de soldadura de 15 kW producen juntas herméticas. Las cotas de los rails se fusionan en tres capas para máxima resistencia de borde y contra impactos.',
+      },
+      {
+        name: 'Laminación del núcleo drop-stitch',
+        body: 'Miles de hilos internos de poliéster mantienen paralelos el laminado inferior y superior, produciendo una plataforma rígida a 12–15 PSI. Núcleos laminados de hasta 14 pies.',
+      },
+      {
+        name: 'Gráficos de cubierta',
+        body: 'Impresión digital a todo color y serigrafía multicolor, producidas a partir de tus archivos de marca. Pavimentos EVA en tus colores con tu logo, recortes y texturas.',
+      },
+      {
+        name: 'Ensamblado y aprestado',
+        body: 'Cada tabla sigue un checklist de ensamblado de 100 puntos firmado por el responsable de línea: herrajes, puntos de fijación, válvulas, leash y accesorios.',
+      },
+      {
+        name: 'Embalaje de exportación',
+        body: 'Envasado al vacío, encajado y paletizado para el contenedor, con impresión de cartoncines minoristas disponible.',
+      },
+    ],
+  },
+}
+
+/* ─────────────────────────── home: quality control (How Every Board Is Verified) ─────────────────────────── */
+
+export interface QualityStep {
+  title: string
+  body: string
+}
+
+export interface QualityContent {
+  kicker: string
+  title: string
+  sub: string
+  steps: QualityStep[]
+}
+
+export const quality: Localized<QualityContent> = {
+  en: {
+    kicker: 'Quality Control',
+    title: 'How Every Board Is Verified',
+    sub: 'Quality is a documented process, not a promise. Here is what happens to your order before it ships.',
+    steps: [
+      {
+        title: 'Incoming Material QC',
+        body: 'PVC rolls, drop-stitch cores, valves, adhesives and hardware are quarantined until QC sign-off. Fabrics undergo tensile, tear-propagation and UV-resistance testing before any batch enters the line.',
+      },
+      {
+        title: 'In-Process Checkpoints',
+        body: 'QC checkpoints at every production stage, with weld samples pulled and peel-tested against the batch standard.',
+      },
+      {
+        title: 'Pressure Hold Test',
+        body: 'Every chamber is inflated to 125% of rated pressure and held for 24–48 hours with continuous sensor logging. Any chamber exceeding 5% pressure drop is rejected and returned for seam re-inspection.',
+      },
+      {
+        // TODO [待确认] D 环拉拔力具体数值（如 ≥150 kgf）待业务方确认后补充
+        title: 'Structural Verification',
+        body: 'Deflection under rated load, D-ring pull strength, deck pad adhesion peel and valve seating are verified against the specification before final inspection.',
+      },
+      {
+        title: 'Final Inspection',
+        body: '100-point checklist per board, plus dimensional and weight verification against the approved sample.',
+      },
+      {
+        title: 'Batch Traceability',
+        body: 'Every material lot receives a unique ERP number. Each board’s bill of materials links back to the original supplier batch. Records retained 10 years, per CE 2013/53/EU.',
+      },
+    ],
+  },
+  es: {
+    kicker: 'Control de calidad',
+    title: 'Cómo se verifica cada tabla',
+    sub: 'La calidad es un proceso documentado, no una promesa. Esto es lo que le ocurre a tu pedido antes de enviarlo.',
+    steps: [
+      {
+        title: 'Control de calidad de entrada',
+        body: 'Los rollos de PVC, núcleos drop-stitch, válvulas, adhesivos y herrerjes quedan en cuarentena hasta la validación. Los tejidos pasan ensayos de tracción, propagación del desgarro y resistencia UV antes de entrar en la línea.',
+      },
+      {
+        title: 'Puntos de control en proceso',
+        body: 'Puntos de control en cada etapa de producción, con muestras de soldadura retiradas y ensayadas en pelado contra el estándar del lote.',
+      },
+      {
+        title: 'Ensayo de retención de presión',
+        body: 'Cada cámara se infla al 125% de la presión nominal y se mantiene 24–48 horas con registro de sensores continuo. Cualquier cámara que supere una pérdida del 5% se rechaza y vuelve a revisar las costuras.',
+      },
+      {
+        title: 'Verificación estructural',
+        body: 'La flecha bajo carga nominal, la resistencia de los D-rings, la adherencia del pavlo de cubierta y el asiento de las válvulas se verifican contra la especificación antes de la inspección final.',
+      },
+      {
+        title: 'Inspección final',
+        body: 'Checklist de 100 puntos por tabla, además de verificación dimensional y de peso contra la muestra aprobada.',
+      },
+      {
+        title: 'Trazabilidad de lote',
+        body: 'Cada lote de material recibe un número ERP único. La lista de materiales de cada tabla enlaza con el lote del proveedor original. Registros conservados 10 años, según CE 2013/53/EU.',
+      },
+    ],
+  },
+}
+
+/* ─────────────────────────── home: commercial terms ─────────────────────────── */
+
+export interface CommercialCell {
+  label: string
+  lines: string[]
+}
+
+export interface CommercialContent {
+  kicker: string
+  title: string
+  sub: string
+  cells: CommercialCell[]
+  certs: string
+}
+
+export const commercial: Localized<CommercialContent> = {
+  en: {
+    kicker: 'Commercial Terms',
+    title: 'Commercial Terms, Stated Upfront',
+    sub: 'No “it depends.” These are our standard terms — variations are quoted case by case.',
+    cells: [
+      {
+        label: 'Minimum order',
+        lines: [
+          'Trial run on standard models: 5–10 pcs',
+          'Standard OEM production: 50 pcs per design',
+          'Custom mold / private label: 200 pcs',
+        ],
+      },
+      {
+        label: 'Lead time',
+        lines: [
+          '30–45 days from confirmed PO and deposit',
+          'Custom mold development: +15–20 days for tooling',
+          'Expedited production available for seasonal rush',
+        ],
+      },
+      {
+        label: 'Sampling',
+        lines: [
+          'Prototype samples ship in 15–20 days',
+          'Sample cost credited against bulk order',
+        ],
+      },
+      {
+        label: 'Trade terms',
+        lines: [
+          'FOB Qingdao · CIF to major global ports · DDP for qualified partners',
+          'Container booking, export documentation and customs clearance handled in-house',
+        ],
+      },
+    ],
+    certs:
+      'ISO 9001 quality management · CE certification · BSCI social compliance (audit report available on request) · REACH and RoHS documentation with every shipment.',
+  },
+  es: {
+    kicker: 'Condiciones comerciales',
+    title: 'Condiciones comerciales, expresadas por adelantado',
+    sub: 'Nada de «depende». Son nuestras condiciones estándar: las variaciones se presupuestan caso a caso.',
+    cells: [
+      {
+        label: 'Pedido mínimo',
+        lines: [
+          'Pedido de prueba en modelos estándar: 5–10 uds.',
+          'Producción OEM estándar: 50 uds. por diseño',
+          'Molde a medida / marca privada: 200 uds.',
+        ],
+      },
+      {
+        label: 'Plazo de entrega',
+        lines: [
+          '30–45 días desde el PO confirmado y el depósito',
+          'Desarrollo de molde a medida: +15–20 días para utillaje',
+          'Producción acelerada disponible para la temporada',
+        ],
+      },
+      {
+        label: 'Muestras',
+        lines: [
+          'Las muestras de prototipo salen en 15–20 días',
+          'El coste de la muestra se descuenta del pedido de volumen',
+        ],
+      },
+      {
+        label: 'Condiciones comerciales',
+        lines: [
+          'FOB Qingdao · CIF a puertos globales principales · DDP para partners cualificados',
+          'Reserva de contenedor, documentación de exportación y aduanas gestionadas en casa',
+        ],
+      },
+    ],
+    certs:
+      'ISO 9001 · Certificación CE · BSCI (informe de auditoría disponible) · Documentación REACH y RoHS con cada envío.',
+  },
 }
 
 /* ─────────────────────────── who we serve / customer needs ─────────────────────────── */
@@ -263,7 +628,7 @@ export const solutions: Localized<SolutionsContent> = {
   en: {
     kicker: 'Customization Capability',
     title: 'Custom SUP Product Solutions For Your Business',
-    sub: 'Whether you need customized SUP products, private label manufacturing support, resort equipment or organization solutions, we help transform requirements into finished products.',
+    sub: 'From OEM/ODM programs for brands to private-label lines for distributors and sourcing teams — every requirement turns into a manufacturable product.',
     pillars: [
       {
         title: 'Board Design',
@@ -290,7 +655,7 @@ export const solutions: Localized<SolutionsContent> = {
   es: {
     kicker: 'Capacidad de personalización',
     title: 'Soluciones de productos SUP personalizados para tu negocio',
-    sub: 'Ya sea que necesites productos SUP personalizados, soporte de fabricación de marca privada, equipamiento para resorts o soluciones para organizaciones, te ayudamos a convertir los requisitos en productos terminados.',
+    sub: 'De los programas OEM/ODM para marcas a las líneas de marca privada para distribuidores y equipos de compra — cada requisito se convierte en un producto fabricable.',
     pillars: [
       {
         title: 'Diseño de la tabla',
@@ -333,58 +698,58 @@ export interface StudioContent {
 
 export const studio: Localized<StudioContent> = {
   en: {
-    kicker: 'Custom SUP Studio',
-    title: 'Every Layer, Designed by You',
-    sub: 'Scroll through the build — from the board shape to the box it ships in, every layer is yours to define.',
+    kicker: 'Configurator',
+    title: 'Specification Builder',
+    sub: 'Scroll the build — from the board shape to the carton it ships in, every layer is specified by you.',
     scrollHint: 'Scroll to explore',
     steps: [
       {
-        title: 'Board Shape',
-        body: 'Choose a proven platform shape or spec a custom one — size, rails and construction are yours to define.',
+        title: 'Shape and Size',
+        body: 'Choose a proven platform or specify a custom outline — length, width, thickness, rail profile and rocker.',
       },
       {
-        title: 'Graphics',
-        body: 'Full-deck artwork in your colors. Our design team turns rough ideas into production-ready prints.',
+        title: 'Construction',
+        body: 'Single-layer, dual-layer or fusion layup. Rail band count and reinforcement zones specified per use case.',
+      },
+      {
+        title: 'Deck Graphics',
+        body: 'Full-deck artwork in your colors, printed from your brand files. Our prepress team converts rough concepts into production-ready data.',
       },
       {
         title: 'Deck Pad',
-        body: 'EVA pad in your brand colors, with custom logos, cutouts and textures.',
+        body: 'EVA in your brand colors, with custom logos, groove patterns, cutouts and textures.',
       },
       {
-        title: 'Accessories',
-        body: 'Paddles, pumps, bags and fins — all customizable and bundled with your boards.',
-      },
-      {
-        title: 'Packaging',
-        body: 'Branded cartons and printed sleeves that make every delivery feel like a launch.',
+        title: 'Accessories and Packaging',
+        body: 'Paddles, pumps, bags, fins and leashes — customised and bundled. Printed cartons and retail sleeves to your spec.',
       },
     ],
   },
   es: {
-    kicker: 'Estudio SUP personalizado',
-    title: 'Cada capa, diseñada por ti',
-    sub: 'Desliza por todo el proceso — de la forma de la tabla a la caja en la que se envía, cada capa es tuya para definir.',
+    kicker: 'Configurador',
+    title: 'Constructor de especificaciones',
+    sub: 'Desliza por todo el proceso — de la forma de la tabla a la caja en la que se envía, cada capa es especificada por ti.',
     scrollHint: 'Desliza para explorar',
     steps: [
       {
-        title: 'Forma de la tabla',
-        body: 'Elige una plataforma probada o especifica una propia: tamaño, rails y construcción son tuyos para definir.',
+        title: 'Forma y tamaño',
+        body: 'Elige una plataforma probada o especifica un contorno propio: eslora, manga, grosor, perfil de rails y rocker.',
       },
       {
-        title: 'Gráficos',
-        body: 'Arte a toda cubierta en tus colores. Nuestro equipo de diseño convierte ideas en bruto en impresiones listas para producción.',
+        title: 'Construcción',
+        body: 'Layupl de una capa, doble o de fusión. Número de cintas de rail y zonas de refuerzo según el uso.',
+      },
+      {
+        title: 'Gráficos de cubierta',
+        body: 'Arte a toda cubierta en tus colores, impreso desde tus archivos de marca. Nuestro equipo de preimpresión convierte ideas en bruto en datos listos para producción.',
       },
       {
         title: 'Piso de cubierta',
-        body: 'Piso EVA en los colores de tu marca, con logos personalizados, recortes y texturas.',
+        body: 'EVA en los colores de tu marca, con logos, muescas de agarre, recortes y texturas.',
       },
       {
-        title: 'Accesorios',
-        body: 'Remos, bombas, bolsas y quillas — todos personalizables e incluidos con tus tablas.',
-      },
-      {
-        title: 'Embalaje',
-        body: 'Cajas con marca y fundas impresas que hacen que cada entrega se sienta como un lanzamiento.',
+        title: 'Accesorios y embalaje',
+        body: 'Remos, bombas, bolsas, quillas y correas — personalizados y empaquetados. Cajas impresas y fundas de retail según tu especificación.',
       },
     ],
   },
@@ -728,141 +1093,76 @@ export interface WorksContent {
 
 export const works: Localized<WorksContent> = {
   en: {
-    kicker: 'Product Development Process',
-    title: 'From SUP Concept To Finished Product',
-    sub: 'A clear process for turning your requirements into delivered products.',
+    kicker: 'Development Process',
+    title: 'From Specification to Container',
+    sub: 'Requirement intake through container-loaded export — every step inside our own plant.',
     steps: [
       {
-        title: 'Requirement Discussion',
-        body: 'Understand your product requirements, market application and expectations.',
+        title: 'Requirement Intake',
+        body: 'We collect your specification, target market, compliance requirements and volume forecast. NDA signed before any file exchange.',
       },
       {
-        title: 'Product Specification',
-        body: 'Select suitable board type, materials and configurations.',
+        title: 'Engineering Review',
+        body: 'Board type, dimensions, layup, materials and hardware are assessed for manufacturability. You receive a written report with cost drivers identified.',
       },
       {
-        title: 'Design Adjustment',
-        body: 'Prepare graphics, colors and customization details.',
+        title: 'Artwork Prepress',
+        body: 'Your brand files are converted to production-ready print data. Colors are matched and proofed before printing.',
       },
       {
-        title: 'Prototype Development',
-        body: 'Develop a prototype that confirms appearance and performance.',
+        title: 'Prototype',
+        body: 'A physical prototype confirms shape, stiffness, weight and finish. Ships in 15–20 days.',
       },
       {
         title: 'Sample Approval',
-        body: 'Confirm the physical sample before production starts.',
+        body: 'You sign off on the physical sample. Nothing enters production until the golden sample is approved and archived as the batch reference.',
       },
       {
-        title: 'Production',
-        body: 'Manufacturing supported by Afarer’s factory and quality system.',
+        title: 'Batch Production',
+        body: 'Manufactured in our own plant under the QC process above, with batch traceability to material lot level.',
       },
       {
-        title: 'Delivery',
-        body: 'Reliable shipment and ongoing supply support.',
+        title: 'Export and Delivery',
+        body: 'Vacuum-packed, container-loaded, documented and shipped. FOB, CIF or DDP as agreed.',
       },
     ],
-    note: 'Samples are confirmed before production — you always know what your final product will look like.',
+    note: 'The approved sample is the contract. Every board in the batch is measured against it.',
   },
   es: {
-    kicker: 'Proceso de desarrollo de producto',
-    title: 'Del concepto SUP al producto terminado',
-    sub: 'Un proceso claro para convertir tus requisitos en productos entregados.',
+    kicker: 'Proceso de desarrollo',
+    title: 'De la especificación al contenedor',
+    sub: 'Desde la recepción de requisitos hasta la exportación en contenedor — cada paso dentro de nuestra propia planta.',
     steps: [
       {
-        title: 'Discusión de requisitos',
-        body: 'Entendemos tus requisitos de producto, aplicación de mercado y expectativas.',
+        title: 'Recepción de requisitos',
+        body: 'Recopilamos tu especificación, mercado objetivo, requisitos de cumplimiento y previsión de volumen. NDA firmado antes de cualquier intercambio de archivos.',
       },
       {
-        title: 'Especificación del producto',
-        body: 'Seleccionamos el tipo de tabla, materiales y configuraciones adecuados.',
+        title: 'Revisión de ingeniería',
+        body: 'El tipo de tabla, dimensiones, layup, materiales y herrajes se evalúan en cuanto a fabricabilidad. Recibes un informe escrito con los factores de coste identificados.',
       },
       {
-        title: 'Ajuste de diseño',
-        body: 'Preparamos gráficos, colores y detalles de personalización.',
+        title: 'Preimpresión de arte',
+        body: 'Tus archivos de marca se convierten en datos de impresión listos para producción. Los colores se gestionan y contratan antes de imprimir.',
       },
       {
-        title: 'Desarrollo de prototipo',
-        body: 'Desarrollamos un prototipo que confirma apariencia y rendimiento.',
+        title: 'Prototipo',
+        body: 'Un prototipo físico confirma forma, rigidez, peso y acabado. Se envía en 15–20 días.',
       },
       {
         title: 'Aprobación de la muestra',
-        body: 'Confirmamos la muestra física antes de que empiece la producción.',
+        body: 'Validas la muestra física. Nada entra en producción hasta que la muestra dorada esté aprobada y archivada como referencia del lote.',
       },
       {
-        title: 'Producción',
-        body: 'Fabricación respaldada por la fábrica y el sistema de calidad de Afarer.',
+        title: 'Producción en serie',
+        body: 'Fabricado en nuestra propia planta bajo el proceso de control de calidad descrito, con trazabilidad por lote hasta el nivel de material.',
       },
       {
-        title: 'Entrega',
-        body: 'Envío fiable y soporte de suministro continuo.',
+        title: 'Exportación y entrega',
+        body: 'Envasado al vacío, cargado en contenedor, documentado y enviado. FOB, CIF o DDP según lo acordado.',
       },
     ],
-    note: 'Las muestras se confirman antes de la producción: siempre sabes cómo será tu producto final.',
-  },
-}
-
-/* ─────────────────────────── home: what we help you solve ─────────────────────────── */
-
-export interface SolveItem {
-  problem: string
-  solution: string
-  body: string
-}
-
-export interface SolveContent {
-  kicker: string
-  title: string
-  sub: string
-  cta: string
-  items: SolveItem[]
-}
-
-export const solve: Localized<SolveContent> = {
-  en: {
-    kicker: 'What We Help You Solve',
-    title: 'Solve Your SUP Product Development Challenges',
-    sub: 'Your concerns first — here is how we address them.',
-    cta: 'Discuss Your Project',
-    items: [
-      {
-        problem: '“Need A Custom SUP Product?”',
-        solution: 'Product Development Support',
-        body: 'We help evaluate product requirements, specifications and manufacturing feasibility.',
-      },
-      {
-        problem: '“Need Customized Graphics Or Specifications?”',
-        solution: 'Customization Support',
-        body: 'From board design and graphics to accessories and packaging.',
-      },
-      {
-        problem: '“Need Production Without Your Own Factory?”',
-        solution: 'Manufacturing Support',
-        body: 'Access Afarer’s SUP manufacturing capability without building your own production system.',
-      },
-    ],
-  },
-  es: {
-    kicker: 'Qué te ayudamos a resolver',
-    title: 'Resuelve los retos de desarrollo de tu producto SUP',
-    sub: 'Tus inquietudes primero: así las abordamos.',
-    cta: 'Comenta tu proyecto',
-    items: [
-      {
-        problem: '«¿Necesitas un producto SUP personalizado?»',
-        solution: 'Soporte de desarrollo de producto',
-        body: 'Te ayudamos a evaluar requisitos de producto, especificaciones y viabilidad de fabricación.',
-      },
-      {
-        problem: '«¿Necesitas gráficos o especificaciones personalizados?»',
-        solution: 'Soporte de personalización',
-        body: 'Del diseño de la tabla y los gráficos a los accesorios y el embalaje.',
-      },
-      {
-        problem: '«¿Necesitas producción sin tener tu propia fábrica?»',
-        solution: 'Soporte de fabricación',
-        body: 'Accede a la capacidad de fabricación de SUP de Afarer sin construir tu propio sistema de producción.',
-      },
-    ],
+    note: 'La muestra aprobada es el punto de referencia. Cada tabla del lote se mide contra ella.',
   },
 }
 
@@ -886,70 +1186,70 @@ export interface PlatformsContent {
 export const platforms: Localized<PlatformsContent> = {
   en: {
     kicker: 'Product Platforms',
-    title: 'SUP Products Available For Customization',
-    sub: 'Not a product store — each platform below can be customized to your requirements.',
+    title: 'Base Platforms',
+    sub: 'Base platforms, not catalog products. Every dimension, layup and graphic is specified per project.',
     items: [
       {
-        title: 'Inflatable SUP',
-        body: 'Classic all-around platforms for recreation, travel and outdoor programs.',
-        uses: ['Resorts', 'Travel', 'Outdoor programs'],
-        cta: 'Customize This Platform',
+        title: 'All-Around',
+        body: 'Classic recreational platforms for retail lines, rental fleets and outdoor programs.',
+        uses: ['Retail lines', 'Rental fleets', 'Outdoor programs'],
+        cta: 'Request This Platform',
         href: '/contact',
       },
       {
-        title: 'Touring SUP',
-        body: 'Longer boards built for distance, speed and adventure paddling.',
-        uses: ['Adventure', 'Recreation'],
-        cta: 'Customize This Platform',
+        title: 'Touring',
+        body: 'Longer waterlines built for distance, tracking and expedition use.',
+        uses: ['Distance', 'Tracking', 'Expedition'],
+        cta: 'Request This Platform',
         href: '/contact',
       },
       {
-        title: 'Racing SUP',
-        body: 'Performance-oriented shapes for clubs, events and competition teams.',
-        uses: ['Clubs', 'Events'],
-        cta: 'Customize This Platform',
+        title: 'Race',
+        body: 'Performance shapes for clubs, events and competition teams.',
+        uses: ['Clubs', 'Events', 'Competition teams'],
+        cta: 'Request This Platform',
         href: '/contact',
       },
       {
-        title: 'Multi-Purpose SUP',
-        body: 'Versatile boards for schools, rental operations and organizations.',
-        uses: ['Schools', 'Rental', 'Organizations'],
-        cta: 'Customize This Platform',
+        title: 'Multi-Purpose',
+        body: 'Durable, high-cycle boards for schools, rental operations and institutional buyers.',
+        uses: ['Schools', 'Rental operations', 'Institutional buyers'],
+        cta: 'Request This Platform',
         href: '/contact',
       },
     ],
   },
   es: {
     kicker: 'Plataformas de producto',
-    title: 'Productos SUP disponibles para personalización',
-    sub: 'No es una tienda de productos: cada plataforma de abajo puede personalizarse según tus requisitos.',
+    title: 'Plataformas base',
+    sub: 'Plataformas base, no productos de catálogo. Cada dimensión, construcción y diseño se especifica por proyecto.',
     items: [
       {
-        title: 'SUP hinchable',
-        body: 'Plataformas polivalentes clásicas para recreación, viajes y programas al aire libre.',
-        uses: ['Resorts', 'Viajes', 'Programas outdoor'],
-        cta: 'Personaliza esta plataforma',
+        title: 'Polivalente',
+        body: 'Plataformas recreativas clásicas para líneas de retail, flotas de alquiler y programas al aire libre.',
+        uses: ['Líneas de retail', 'Flotas de alquiler', 'Programas outdoor'],
+        cta: 'Solicita esta plataforma',
         href: '/contact',
       },
       {
-        title: 'SUP de travesía',
-        body: 'Tablas más largas diseñadas para distancia, velocidad y remadas de aventura.',
-        uses: ['Aventura', 'Recreación'],
-        cta: 'Personaliza esta plataforma',
+        title: 'Travesía',
+        body: 'Líneas de agua más largas para distancia, derrota y expediciones.',
+        uses: ['Distancia', 'Derrota', 'Expediciones'],
+        cta: 'Solicita esta plataforma',
         href: '/contact',
       },
       {
-        title: 'SUP de competición',
-        body: 'Formas orientadas al rendimiento para clubes, eventos y equipos de competición.',
-        uses: ['Clubes', 'Eventos'],
-        cta: 'Personaliza esta plataforma',
+        title: 'Competición',
+        body: 'Formas de rendimiento para clubes, eventos y equipos de competición.',
+        uses: ['Clubes', 'Eventos', 'Equipos de competición'],
+        cta: 'Solicita esta plataforma',
         href: '/contact',
       },
       {
-        title: 'SUP multiusos',
-        body: 'Tablas versátiles para escuelas, operaciones de alquiler y organizaciones.',
-        uses: ['Escuelas', 'Alquiler', 'Organizaciones'],
-        cta: 'Personaliza esta plataforma',
+        title: 'Multiusos',
+        body: 'Tablas duraderas de alto ciclo para escuelas, operaciones de alquiler y compradores institucionales.',
+        uses: ['Escuelas', 'Operaciones de alquiler', 'Compradores institucionales'],
+        cta: 'Solicita esta plataforma',
         href: '/contact',
       },
     ],
@@ -975,56 +1275,58 @@ export interface GalleryContent {
 
 export const gallery: Localized<GalleryContent> = {
   en: {
-    kicker: 'Customized SUP Projects',
-    title: 'Customized SUP Projects',
-    sub: 'Real projects — from client requirements to finished products.',
+    kicker: 'Production Projects',
+    title: 'Recent Production',
+    sub: 'Manufacturing projects that shipped from our plant — with the numbers buyers actually ask about.',
     projects: [
       {
-        tag: 'Resorts',
-        title: 'Resort SUP Equipment Project',
-        body: 'Hotel required branded SUP equipment — custom graphics, matching accessories and production delivery.',
+        // TODO(待确认) 补数量与交付周期
+        tag: 'Resort Fleet',
+        title: 'Resort Fleet — Hotel Group Boards',
+        body: '[待确认: 数量] branded boards for a hotel group, custom deck graphics matched to property colors, accessories bundled, delivered in [待确认: 周期].',
         hue: 195,
         image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-tropical-breeze-1.webp',
       },
       {
-        tag: 'Clubs',
-        title: 'Paddle Club Team Boards',
-        body: 'Club wanted customized boards — team graphics and specification adjustment, delivered for the season.',
+        tag: 'Club Team',
+        title: 'Club Team Boards — Race Platform',
+        body: 'Race platform with specification adjustments and team graphics, tooling reused across two seasons for reorder consistency.',
         hue: 28,
         image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-cheetah-surge-1.webp',
       },
       {
-        tag: 'Outdoor Brand',
-        title: 'Outdoor Brand Product Extension',
-        body: 'Existing brand needed SUP products — product customization and manufacturing support for a new line.',
+        // TODO(待确认) 补首批数量
+        tag: 'Brand Line Extension',
+        title: 'Brand Line Extension — Inflatable SUP',
+        body: 'An established watersports brand added an inflatable SUP line: engineering review, custom mold, three sizes, [待确认: 数量] first production run.',
         hue: 210,
         image: 'https://assets.supsfactory.com/images/sups/products/afarer-sup-allround-board.webp',
       },
     ],
   },
   es: {
-    kicker: 'Proyectos SUP personalizados',
-    title: 'Proyectos SUP personalizados',
-    sub: 'Proyectos reales: de los requisitos del cliente a los productos terminados.',
+    kicker: 'Proyectos de producción',
+    title: 'Producción reciente',
+    sub: 'Proyectos de fabricación enviados desde la planta — con las cifras que de verdad pregunta un comprador.',
     projects: [
       {
-        tag: 'Resorts',
-        title: 'Proyecto de equipamiento SUP para resort',
-        body: 'Un hotel necesitaba equipamiento SUP con marca: gráficos personalizados, accesorios a juego y entrega de producción.',
+        tag: 'Flota de resort',
+        title: 'Flota de resort — tablas para grupo hotelero',
+        body: '[待确认: cantidad] tablas con marca para un grupo hotelero, gráficos personalizados según los colores del hotel, accesorios incluidos, entregadas en [待确认: plazo].',
         hue: 195,
         image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-tropical-breeze-1.webp',
       },
       {
-        tag: 'Clubes',
-        title: 'Tablas de equipo para club de remo',
-        body: 'Un club quería tablas personalizadas: gráficos de equipo y ajuste de especificaciones, entregadas para la temporada.',
+        tag: 'Equipo de club',
+        title: 'Tablas de equipo — plataforma de competición',
+        body: 'Plataforma de competición con ajustes de especificación y gráficos del equipo; el utillaje se reutilizó dos temporadas para la consistencia de los repedidos.',
         hue: 28,
         image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-cheetah-surge-1.webp',
       },
       {
-        tag: 'Marca outdoor',
-        title: 'Extensión de línea de producto de marca outdoor',
-        body: 'Una marca existente necesitaba productos SUP: personalización de producto y soporte de fabricación para una nueva línea.',
+        tag: 'Extensión de marca',
+        title: 'Extensión de línea — SUP hinchable',
+        body: 'Una marca de deportes acuáticos consolidada añadió una línea de SUP hinchable: revisión de ingeniería, molde a medida, tres tallas y [待确认: cantidad] unidades en la primera tirada.',
         hue: 210,
         image: 'https://assets.supsfactory.com/images/sups/products/afarer-sup-allround-board.webp',
       },
@@ -1049,79 +1351,79 @@ export interface FaqContent {
 export const faq: Localized<FaqContent> = {
   en: {
     kicker: 'FAQ',
-    title: 'Questions Before You Start',
-    sub: 'If yours isn’t here, ask us directly — we answer within one business day.',
+    title: 'Manufacturing FAQ',
+    sub: 'Questions buyers ask before placing an order — answered with our actual terms.',
     items: [
       {
-        q: 'What does Supsfactory do?',
-        a: 'Supsfactory helps businesses and organizations develop customized SUP products from concept, design and prototype to production.',
+        q: 'What is your minimum order quantity?',
+        a: `Trial runs on standard models start at 5–10 pcs. Standard OEM production starts at ${FACTS.moq.standardRun} per design. Custom mold and private label projects require 200 pcs minimum, depending on complexity.`,
       },
       {
-        q: 'Can Supsfactory support small quantity custom SUP projects?',
-        a: 'Yes. Project requirements are evaluated based on product specifications, customization needs and production requirements.',
+        q: 'How long does production take?',
+        a: '30–45 days from confirmed PO and deposit. Custom tooling adds 15–20 days for mold development. Expedited production is available for seasonal rush orders.',
       },
       {
-        q: 'Do you manufacture SUP products?',
-        a: 'Supsfactory provides product development and manufacturing support through Afarer’s SUP manufacturing capabilities.',
+        q: 'How fast can I get a sample?',
+        a: 'Prototype samples typically ship within 15–20 days of approved artwork and specification.',
       },
       {
-        q: 'What is the minimum order quantity?',
-        a: 'It depends on the product and customization requirements. Our team will evaluate your project and confirm a practical quantity for you.',
+        q: 'What certifications do you hold?',
+        a: 'ISO 9001 for quality management, CE certification on all products, and valid BSCI social compliance certification with the audit report available on request. REACH and RoHS documentation is provided with every shipment.',
       },
       {
-        q: 'Can you support small projects?',
-        a: 'Yes. We support projects of different scales — from small batches to volume production.',
+        q: 'Which trade terms do you offer?',
+        a: 'FOB Qingdao, CIF to major global ports, and DDP for qualified partners. Our logistics team handles container booking, export documentation and customs clearance. We ship to 50+ countries across the EU, US, AU and Asia.',
       },
       {
-        q: 'Can I customize colors and logos?',
-        a: 'Yes. Visual and specification customization — graphics, colors, logos and packaging — are all supported.',
+        q: 'Will my design be shown to other clients?',
+        a: 'No. Artwork, tooling and specification files remain your property. We sign an NDA before any file exchange and we never reuse or resell client tooling or designs.',
       },
       {
-        q: 'Do you provide samples?',
-        a: 'Yes. Samples are developed and confirmed before production, so you always know what your final product will look like.',
+        q: 'Do you sell your own SUP brand?',
+        a: 'No. We manufacture exclusively under our clients’ brands. We do not sell to end consumers and we do not compete with our clients in any market.',
       },
       {
-        q: 'Who manufactures the products?',
-        a: 'Products are manufactured through Afarer’s SUP manufacturing capability — a 12,000 m² factory in Qingdao, China with CE-certified quality systems.',
+        q: 'Can you match a board I already sell?',
+        a: 'Yes. Send a physical sample or full specification and our engineering team will return a manufacturability report with materials, layup, tolerances and cost drivers.',
       },
     ],
   },
   es: {
     kicker: 'Preguntas frecuentes',
-    title: 'Preguntas antes de empezar',
-    sub: '¿No encuentras la tuya? Pregúntanos directamente: respondemos en un día laborable.',
+    title: 'Preguntas sobre fabricación',
+    sub: 'Estas son las preguntas que un comprador plantea antes de encargar — respondidas con nuestras condiciones reales.',
     items: [
       {
-        q: '¿Qué hace Supsfactory?',
-        a: 'Supsfactory ayuda a empresas y organizaciones a desarrollar productos SUP personalizados desde el concepto, el diseño y el prototipo hasta la producción.',
-      },
-      {
-        q: '¿Supsfactory puede apoyar proyectos SUP personalizados de pequeñas cantidades?',
-        a: 'Sí. Los requisitos del proyecto se evalúan según las especificaciones del producto, las necesidades de personalización y los requisitos de producción.',
-      },
-      {
-        q: '¿Fabricáis productos SUP?',
-        a: 'Supsfactory proporciona desarrollo de producto y soporte de fabricación a través de las capacidades de fabricación de SUP de Afarer.',
-      },
-      {
         q: '¿Cuál es la cantidad mínima de pedido?',
-        a: 'Depende del producto y de los requisitos de personalización. Nuestro equipo evaluará tu proyecto y confirmará una cantidad práctica para ti.',
+        a: `La prueba de modelos estándar parte de 5–10 uds. La producción OEM estándar parte de ${FACTS.moq.standardRun} por diseño. Los proyectos de molde a medida y marca privada requieren un mínimo de 200 uds., según la complejidad.`,
       },
       {
-        q: '¿Podéis apoyar proyectos pequeños?',
-        a: 'Sí. Apoyamos proyectos de distintas escalas: de pequeños lotes a producción por volumen.',
+        q: '¿Cuánto tarda la producción?',
+        a: '30–45 días desde el PO confirmado y el depósito. El utillaje añade 15–20 días de desarrollo de molde. Se dispone de producción acelerada para los picos de temporada.',
       },
       {
-        q: '¿Puedo personalizar colores y logos?',
-        a: 'Sí. Se admite la personalización visual y de especificaciones: gráficos, colores, logos y embalaje.',
+        q: '¿Qué rapidez tengo para recibir una muestra?',
+        a: 'Las muestras de prototipo salen en 15–20 días tras la aprobación del arte y la especificación.',
       },
       {
-        q: '¿Proporcionáis muestras?',
-        a: 'Sí. Las muestras se desarrollan y confirman antes de la producción, para que siempre sepas cómo será tu producto final.',
+        q: '¿Qué certificaciones tenéis?',
+        a: 'ISO 9001 para la gestión de calidad, certificación CE en todos los productos y certificación BSCI válida con informe de auditoría disponible. La documentación REACH y RoHS se entrega con cada envío.',
       },
       {
-        q: '¿Quién fabrica los productos?',
-        a: 'Los productos se fabrican a través de la capacidad de fabricación de SUP de Afarer: una fábrica de 12.000 m² en Qingdao, China, con sistemas de calidad certificados CE.',
+        q: '¿Qué condiciones comerciales ofrecéis?',
+        a: 'FOB Qingdao, CIF a los principales puertos globales y DDP para partners cualificados. Nuestro equipo de logística gestiona la reserva de contenedor, la documentación de exportación y las aduanas. Enviamos a más de 50 países en la UE, Asia y más.',
+      },
+      {
+        q: '¿Mostraréis mi diseño a otros clientes?',
+        a: 'No. Los archivos de arte, utillaje y especificaciones siguen siendo de tu propiedad. Firmamos un NDA antes de cualquier intercambio y nunca reutilizamos ni vendemos moldes o diseños de clientes.',
+      },
+      {
+        q: '¿Vendéis vuestra propia marca de SUP?',
+        a: 'No. Fabricamos exclusivamente bajo las marcas de nuestros clientes. No vendemos a consumidores finales y no competimos con nuestros clientes en ningún mercado.',
+      },
+      {
+        q: '¿Podéis replicar una tabla que ya vendo?',
+        a: 'Sí. Envíanos una muestra física o una especificación completa y nuestro equipo de ingeniería te devolverá un informe de fabricabilidad con materiales, capas de construcción, tolerancias y factores de coste.',
       },
     ],
   },
@@ -1138,16 +1440,70 @@ export interface CtaContent {
 
 export const cta: Localized<CtaContent> = {
   en: {
-    title: 'Have A SUP Product Idea?',
-    body: 'Tell us your requirements and our team will help evaluate the right solution.',
-    button: 'Submit Your Project Requirements',
-    note: 'Free consultation · Sample service · No minimum for the first talk',
+    title: 'Send Us Your Specification',
+    body: 'Drawings, a reference board, or just a target spec and volume — we will come back with an engineering assessment and a quotation.',
+    button: 'Request Quotation',
+    note: 'Reply within 1 business day · NDA on request before file exchange · info@supsfactory.com · +86-13305324192',
   },
   es: {
-    title: '¿Tienes una idea de producto SUP?',
-    body: 'Cuéntanos tus requisitos y nuestro equipo te ayudará a evaluar la solución adecuada.',
-    button: 'Envía los requisitos de tu proyecto',
-    note: 'Consulta gratuita · Servicio de muestras · Sin mínimo en la primera conversación',
+    title: 'Envíanos tu especificación',
+    body: 'Planos, una tabla de referencia o simplemente una especificación objetivo y un volumen — volveremos con una evaluación de ingeniería y un presupuesto.',
+    button: 'Solicitar presupuesto',
+    note: 'Respuesta en 1 día laborable · NDA disponible antes del intercambio de archivos · info@supsfactory.com · +86-13305324192',
+  },
+}
+
+/* ─────────────────────────── home: role boundary (Where We Stop, You Start) ─────────────────────────── */
+
+export interface BoundaryRow {
+  ours: string
+  theirs: string
+}
+
+export interface BoundaryContent {
+  kicker: string
+  title: string
+  sub: string
+  oursTitle: string
+  theirsTitle: string
+  rows: BoundaryRow[]
+  footer: string
+}
+
+export const boundary: Localized<BoundaryContent> = {
+  en: {
+    kicker: 'Our Role as Your Manufacturing Partner',
+    title: 'Where We Stop, You Start',
+    sub: 'A manufacturing partner should make your product, not run your business. Here is exactly where the line sits.',
+    oursTitle: 'We handle',
+    theirsTitle: 'You keep',
+    rows: [
+      { ours: 'Specification review and manufacturability assessment', theirs: 'Brand name, identity and positioning' },
+      { ours: 'Structural engineering, materials selection, mold development', theirs: 'Pricing, channels and sales' },
+      { ours: 'Deck artwork prepress and print production from your brand files', theirs: 'Ownership of all brand and artwork files' },
+      { ours: 'Prototyping, sampling and sample approval documentation', theirs: 'Final approval on every sample' },
+      { ours: 'Batch production, in-process QC and final inspection', theirs: 'Your market, your customers, your data' },
+      { ours: 'Certification documentation, export packing, container loading', theirs: 'End-customer relationships and after-sales' },
+    ],
+    footer:
+      'Your artwork, tooling and specification files remain your property and are never reused, resold or shown to another client.',
+  },
+  es: {
+    kicker: 'Nuestro rol como tu socio de fabricación',
+    title: 'Aquí terminamos nosotros, empiezas tú',
+    sub: 'Un socio de fabricación debe fabricar tu producto, no dirigir tu negocio. Aquí está exactamente dónde se sitúa la línea.',
+    oursTitle: 'Nosotros nos encargamos',
+    theirsTitle: 'Tú conservas',
+    rows: [
+      { ours: 'Revisión de especificaciones y evaluación de fabricabilidad', theirs: 'Nombre, identidad y posicionamiento de marca' },
+      { ours: 'Ingeniería estructural, selección de materiales y desarrollo de moldes', theirs: 'Precios, canales y ventas' },
+      { ours: 'Preimpresión de arte de cubierta e impresión desde tus archivos de marca', theirs: 'Propiedad de todos los archivos de marca y arte' },
+      { ours: 'Prototipado, muestreo y documentación de aprobación de muestras', theirs: 'Aprobación final de cada muestra' },
+      { ours: 'Producción por lotes, QC en proceso e inspección final', theirs: 'Tu mercado, tus clientes, tus datos' },
+      { ours: 'Documentación de certificación, embalaje de exportación y carga de contenedor', theirs: 'Relaciones con el cliente final y posventa' },
+    ],
+    footer:
+      'Tus archivos de arte, utillaje y especificación siguen siendo de tu propiedad y nunca se reutilizan, revenden ni muestran a otro cliente.',
   },
 }
 
@@ -1167,61 +1523,61 @@ export const about: Localized<AboutContent> = {
   en: {
     kicker: 'About Us',
     title: 'The Manufacturing Partner Behind Emerging Paddle Brands',
-    sub: 'SUPsfactory exists for one reason: great SUP brands shouldn’t require a factory.',
+    sub: 'SUPsfactory exists for one reason: great brands shouldn’t have to run their own factory.',
     story: [
-      'We are a custom SUP manufacturing company that has spent years building boards for retailers, brands and rental operations around the world. Along the way, we kept meeting the same kind of customer — passionate founders, resorts, clubs and schools who had a clear vision for their own paddle brand but no way to produce it at a reasonable scale.',
-      'So we built SUPsfactory around them. Flexible minimums starting from 50pcs, complete design support, and a manufacturing team that treats your first order as seriously as your hundredth. You bring the brand; we handle the factory.',
+      'We are an inflatable SUP OEM/ODM factory that has spent years building boards for brands, distributors and sourcing teams around the world. Along the way, we kept meeting the same kind of customer — brands and buyers with a clear product vision but no in-house plant to build it.',
+      'So we built SUPsfactory around them. Tiered minimums from 5–10 trial units, complete engineering and design support, and a manufacturing team that treats your first order as seriously as your hundredth. You bring the brand; we run the factory.',
     ],
     values: [
       {
         title: 'Quality First',
-        body: 'Every board passes multi-point QC — materials, lamination, graphics and packaging are checked at every stage of production.',
+        body: 'Every board passes multi-point QC — materials, welding, printing, assembly and packaging are checked at every stage of production.',
       },
       {
-        title: 'Partner, Not Vendor',
-        body: 'We work alongside your team from the first sketch to the final delivery, sharing production expertise at every step.',
+        title: 'Manufacturer, Not Middleman',
+        body: 'Design, mould engineering, prototype, production and testing all happen under one roof — no trading-desk gap between you and the plant.',
       },
       {
         title: 'Flexible by Design',
-        body: 'Low MOQs, modular options and honest lead times let emerging brands grow at their own pace.',
+        body: 'Tiered MOQs, modular options and honest lead times let brands grow from trial orders to container-scale runs.',
       },
     ],
-    capabilities: ['OEM / ODM', 'Private label', 'Sample service', 'Design & artwork', 'Multi-point QC', 'Export logistics'],
+    capabilities: ['OEM / ODM / private label', 'Custom moulds', 'Sample service', 'Design & artwork', 'Multi-point QC', 'Export logistics'],
     stats: [
-      { value: '50pcs', label: 'Minimum order' },
-      { value: '7–10 days', label: 'Sample lead time' },
+      { value: '50 pcs', label: 'Standard OEM MOQ' },
+      { value: '15–20 days', label: 'Sample lead time' },
       { value: '30–45 days', label: 'Production lead time' },
-      { value: 'Worldwide', label: 'Shipping coverage' },
+      { value: '5–10 pcs', label: 'Trial order MOQ' },
     ],
   },
   es: {
     kicker: 'Sobre nosotros',
-    title: 'El socio de fabricación detrás de las marcas de remo emergentes',
-    sub: 'SUPsfactory existe por una razón: las grandes marcas de SUP no deberían necesitar una fábrica.',
+    title: 'El fabricante detrás de las marcas de remo emergentes',
+    sub: 'SUPsfactory existe por una razón: las grandes marcas no deberían gestionar una fábrica propia.',
     story: [
-      'Somos una empresa de fabricación de SUP personalizados que lleva años construyendo tablas para minoristas, marcas y operaciones de alquiler de todo el mundo. En el camino, no dejamos de encontrarnos con el mismo tipo de cliente: fundadores apasionados, resorts, clubes y escuelas con una visión clara para su propia marca de remo, pero sin forma de producirla a una escala razonable.',
-      'Así que construimos SUPsfactory a su alrededor. Mínimos flexibles desde 50 unidades, soporte de diseño completo y un equipo de fabricación que trata tu primer pedido con la misma seriedad que el centésimo. Tú traes la marca; nosotros nos ocupamos de la fábrica.',
+      'Somos una fábrica OEM/ODM de SUP hinchables que lleva años fabricando tablas para marcas, distribuidores y equipos de compra de todo el mundo. En el camino, nos encontrábamos una y otra vez con el mismo tipo de cliente: marcas y compradores con un plan de producto claro pero sin planta productiva propia.',
+      'Por eso construimos SUPsfactory a su alrededor. Pedidos mínimos por tramos desde 5–10 unidades de prueba, soporte de ingeniería y diseño completo, y un equipo de fabricación que trata tu primer pedido con la misma seriedad que el centésimo. Tú traes la marca; nosotros dirigimos la fábrica.',
     ],
     values: [
       {
         title: 'Calidad primero',
-        body: 'Cada tabla supera un control de calidad multipunto: materiales, laminación, gráficos y embalaje se revisan en cada etapa de la producción.',
+        body: 'Cada tabla supera un control de calidad multipunto: material, soldadura, impresión, montaje y embalaje se revisan en cada etapa de la producción.',
       },
       {
-        title: 'Socio, no proveedor',
-        body: 'Trabajamos junto a tu equipo del primer boceto a la entrega final, compartiendo experiencia de fabricación en cada paso.',
+        title: 'Fabricante, no intermediario',
+        body: 'Ingeniería, moldes, prototipos, producción y ensayos ocurren bajo el mismo techo: sin mesas de negociación entre tú y la planta.',
       },
       {
         title: 'Flexibles por diseño',
-        body: 'MOQ bajos, opciones modulares y plazos honestos permiten a las marcas emergentes crecer a su propio ritmo.',
+        body: 'MOQ por tramos, opciones modulares y plazos reales permiten crecer del pedido de prueba a la serie a escala de contenedor.',
       },
     ],
-    capabilities: ['OEM / ODM', 'Marca privada', 'Servicio de muestras', 'Diseño y arte', 'QC multipunto', 'Logística de exportación'],
+    capabilities: ['OEM / ODM y marca privada', 'Moldes a medida', 'Servicio de muestras', 'Diseño e ingeniería', 'QC multipunto', 'Logística de exportación'],
     stats: [
-      { value: '50 uds.', label: 'Pedido mínimo' },
-      { value: '7–10 días', label: 'Plazo de muestras' },
+      { value: '50 uds.', label: 'MOQ OEM estándar' },
+      { value: '15–20 días', label: 'Plazo de muestras' },
       { value: '30–45 días', label: 'Plazo de producción' },
-      { value: 'Mundial', label: 'Cobertura de envío' },
+      { value: '5–10 uds.', label: 'MOQ de pedido de prueba' },
     ],
   },
 }
@@ -1359,17 +1715,17 @@ export interface WorksPageContent {
 
 export const worksPage: Localized<WorksPageContent> = {
   en: {
-    kicker: 'Product Development Process',
-    title: 'From Requirement To Finished Product',
-    sub: 'From project discussion to delivery — we guide you through every step of product development.',
-    consultTitle: 'Start With a Free Consultation',
-    consultBody: 'Tell us where you are and where you want to be. We’ll recommend the fastest path to your first finished boards.',
+    kicker: 'Development Process',
+    title: 'From Specification to Shipped Container',
+    sub: 'Requirement intake, engineering review, sampling, production and export — every step inside our own plant.',
+    consultTitle: 'Start With a Specification Review',
+    consultBody: 'Send us your spec, reference board or drawings. We return a manufacturability assessment and a quotation — no obligation.',
   },
   es: {
-    kicker: 'Proceso de desarrollo de producto',
-    title: 'Del requisito al producto terminado',
-    sub: 'De la discusión del proyecto a la entrega: te guiamos por cada paso del desarrollo de producto.',
-    consultTitle: 'Empieza con una consulta gratuita',
-    consultBody: 'Cuéntanos dónde estás y dónde quieres llegar. Recomendaremos el camino más rápido hacia tus primeras tablas terminadas.',
+    kicker: 'Proceso de desarrollo',
+    title: 'De la especificación al contenedor enviado',
+    sub: 'Recepción de requisitos, revisión de ingeniería, muestras, producción en serie y exportación — cada paso dentro de nuestra propia planta.',
+    consultTitle: 'Empieza con una revisión de especificación',
+    consultBody: 'Envíanos tu especificación, una tabla de referencia o planos. Te devolvemos una evaluación de fabricabilidad y un presupuesto, sin compromiso.',
   },
 }

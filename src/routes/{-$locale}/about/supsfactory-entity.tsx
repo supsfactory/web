@@ -14,17 +14,17 @@ import { MarketingShell } from '@/components/marketing/shell'
 const FACTS: Record<Locale, { label: string; value: string }[]> = {
   en: [
     { label: 'Legal entity', value: 'Qingdao Vatrad Group Co., Ltd.' },
-    { label: 'Product focus', value: 'Custom SUP boards, paddles & accessories' },
-    { label: 'Factories', value: 'In-house production in China' },
-    { label: 'Minimum order', value: 'From 50 pieces' },
+    { label: 'Product focus', value: 'Inflatable SUP manufacturing — OEM, ODM & private label' },
+    { label: 'Factories', value: '12,000 m² in-house plant in Qingdao, China' },
+    { label: 'Minimum order', value: 'From 5 pieces (trial) / 50 standard' },
     { label: 'Markets', value: 'Worldwide — Europe, Americas, Asia, Oceania' },
     { label: 'Business model', value: 'B2B development & manufacturing' },
   ],
   es: [
     { label: 'Entidad legal', value: 'Qingdao Vatrad Group Co., Ltd.' },
-    { label: 'Enfoque de producto', value: 'Tablas, remos y accesorios SUP personalizados' },
-    { label: 'Fábricas', value: 'Producción propia en China' },
-    { label: 'Pedido mínimo', value: 'Desde 50 unidades' },
+    { label: 'Enfoque de producto', value: 'Fabricación de SUP hinchables: OEM, ODM y etiqueta privada' },
+    { label: 'Fábricas', value: 'Planta propia de 12.000 m² en Qingdao, China' },
+    { label: 'Pedido mínimo', value: 'Desde 5 unidades (prueba) / 50 estándar' },
     { label: 'Mercados', value: 'Mundial: Europa, América, Asia, Oceanía' },
     { label: 'Modelo de negocio', value: 'Desarrollo y fabricación B2B' },
   ],
@@ -47,12 +47,12 @@ export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
       path: '/about/supsfactory-entity',
       title:
         locale === 'es'
-          ? 'Supsfactory | Empresa de fabricación de SUP personalizados'
-          : 'SUPsfactory | Custom SUP Manufacturing & Development',
+          ? 'Supsfactory | Fabricante de SUP hinchables OEM/ODM'
+          : 'SUPsfactory | Inflatable SUP OEM & ODM Manufacturer',
       description:
         locale === 'es'
-          ? 'SUPsfactory: fabricación de SUP personalizados con soporte de diseño completo, fabricado por Qingdao Vatrad Group.'
-          : 'SUPsfactory is a custom SUP manufacturing company — from 50-piece minimums to full design support, built by Qingdao Vatrad Group.',
+          ? 'SUPsfactory: fabricación de SUP hinchables OEM/ODM con ingeniería, moldes, muestras y producción a escala de contenedor, por Qingdao Vatrad Group.'
+          : 'SUPsfactory is the inflatable SUP OEM & ODM manufacturing company — engineering, tooling, sampling and container-scale production built by Qingdao Vatrad Group.',
     })
     return { meta, links }
   },

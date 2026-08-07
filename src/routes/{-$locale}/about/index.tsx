@@ -21,11 +21,11 @@ export const Route = createFileRoute('/{-$locale}/about/')({
       origin,
       locale,
       path: '/about',
-      title: locale === 'es' ? 'Sobre nosotros | Fabricación de marcas SUP | SUPsfactory' : 'About Us | Paddle Brand Manufacturing Partner | SUPsfactory',
+      title: locale === 'es' ? 'Sobre nosotros | Fabricante OEM/ODM de SUP hinchables | SUPsfactory' : 'About Us | Inflatable SUP OEM & ODM Manufacturer | SUPsfactory',
       description:
         locale === 'es'
-          ? 'SUPsfactory es un fabricante de SUP personalizados para marcas emergentes: MOQ flexible desde 50 unidades y soporte de diseño completo.'
-          : 'SUPsfactory is a custom SUP manufacturer for emerging brands — flexible MOQ from 50pcs and complete design support.',
+          ? 'SUPsfactory es la división de fabricación OEM/ODM de SUP hinchables de Afarer — ingeniería, moldes, muestras y producción, desde 5–10 unidades de prueba hasta series a escala de contenedor.'
+          : 'SUPsfactory is the inflatable SUP OEM/ODM manufacturing arm of Afarer — engineering, tooling, sampling and container-scale production, from 5–10 piece trial orders up.',
     })
     return { meta, links }
   },

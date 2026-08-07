@@ -1,6 +1,6 @@
 meta:
   title: 'Fabricante OEM/ODM de SUP hinchables | {SITE}'
-  description: 'Fabricante OEM/ODM de tablas SUP hinchables con certificación CE: molde a medida, etiqueta privada y venta al por mayor. De la idea al mercado en 16 semanas.'
+  description: 'Fábrica OEM/ODM de tablas SUP hinchables en Qingdao, China: moldes a medida, diseño, muestras y producción a escala de contenedor. MOQ, plazos de entrega y certificados de una planta real, no de una oficina comercial.'
   keywords:
     - 'fabricante sup oem'
     - 'etiqueta privada sup hinchable'
@@ -9,33 +9,51 @@ meta:
     - 'sup personalizado al por mayor'
 
 hero:
-  tagline: OEM / ODM
+  tagline: Fabricación OEM / ODM
   title: 'Fabricante de SUP hinchables OEM / ODM'
-  subtitle: 'Afarer: fabricante OEM/ODM líder de tablas SUP hinchables. Certificación CE. Molde a medida, etiqueta privada, venta al por mayor. De la idea al mercado en 16 semanas.'
+  subtitle: 'Ingeniería, diseño de moldes y fabricación para tablas de SUP hinchables: según tu especificación y enviadas bajo tu marca.'
 
 features:
   title: Capacidades OEM / ODM
-  subtitle: 'Todo lo que necesitas para crear y lanzar tu propia línea de SUP hinchables.'
+  subtitle: 'Todo lo necesario para llevar una línea de SUP hinchables de la especificación al contenedor.'
   items:
     - title: Moldes a medida
-      description: 'Formas de tablas exclusivas desarrolladas para tu marca, tus riders y tus objetivos de rendimiento.'
+      description: 'Formas de tablas exclusivas desarrolladas para tu marca, tus riders y tus objetivos de rendimiento — diseño e ingeniería de moldes en casa. El diseño del molde añade 15–20 días al plazo del proyecto.'
       icon: 'tabler:shapes'
     - title: Etiqueta privada
-      description: 'Tu logo, colores y embalaje en tablas probadas de grado comercial.'
+      description: 'Tu logo, colores y embalaje en tablas probadas de grado comercial, producidas en nuestra propia planta y nunca revendidas bajo nuestro nombre.'
       icon: 'tabler:tag'
-    - title: Venta al por mayor
-      description: 'Producción a escala de contenedor con precios OEM competitivos y plazos de entrega de 30 días.'
+    - title: Muestras y prototipos
+      description: 'Muestras físicas fabricadas y aprobadas antes de la producción en serie, con un servicio de muestras de 15–20 días.'
+      icon: 'tabler:tools'
+    - title: Producción a escala de contenedor
+      description: 'Lotes OEM estándar desde 50 unidades por diseño, series a escala de contenedor y entrega en 30–45 días tras el pedido confirmado.'
       icon: 'tabler:package'
     - title: Certificación CE
-      description: 'Documentación completa de cumplimiento y seguridad para cada mercado al que entregas.'
+      description: 'CE, ISO 9001, BSCI, REACH y RoHS — documentación completa de cumplimiento y seguridad para cada mercado al que entregas.'
       icon: 'tabler:certificate'
-    - title: Diseño interno
-      description: 'Desde los bocetos conceptuales hasta el arte final de producción, todo se gestiona internamente.'
+    - title: Ingeniería interna
+      description: 'Del boceto conceptual al diseño del molde y al arte final de producción — el desarrollo se queda dentro de la fábrica, no se subcontrata.'
       icon: 'tabler:palette'
     - title: Logística global
-      description: 'Flete marítimo y aéreo con soporte de despacho de aduanas en todo el mundo.'
+      description: 'FOB Qingdao, CIF y DDP a más de 50 mercados, con embalaje de exportación y despacho de aduanas gestionado por nuestro equipo.'
       icon: 'tabler:world'
 
+faq_section:
+  tagline: FAQ
+  title: Preguntas frecuentes OEM y ODM
+  questions:
+    - q: ¿Cuál es el MOQ para SUP hinchable OEM?
+      a: 'El MOQ es por tramos: 5–10 unidades para un pedido de prueba, 50 unidades por diseño para un lote OEM estándar, y 200 unidades para proyectos con molde a medida o etiqueta privada.'
+    - q: ¿Cuál es el plazo de entrega de un pedido OEM?
+      a: 'La producción se entrega en 30–45 días desde el pedido confirmado y el depósito. El diseño del molde añade 15–20 días adicionales. Las muestras suelen enviarse en 15–20 días.'
+    - q: ¿Ofrecen muestras antes de la producción?
+      a: 'Sí. Se fabrica una muestra física y se aprueba antes de cualquier producción en serie, normalmente dentro de 15–20 días.'
+    - q: ¿Qué certificaciones tiene la fábrica?
+      a: 'CE, ISO 9001, BSCI, REACH y RoHS. Se entrega la documentación completa de cumplimiento con cada envío OEM.'
+    - q: ¿Cuáles son sus condiciones de envío?
+      a: 'FOB Qingdao, CIF a los principales puertos del mundo, o DDP para socios calificados. Enviamos a más de 50 mercados en la UE, EE. UU., Australia y Asia.'
+
 cta:
-  title: '¿Listo para crear tu marca de SUP?'
-  subtitle: 'Recibe un presupuesto OEM detallado en 24 horas.'
+  title: '¿Listo para lanzar tu línea de SUP?'
+  subtitle: 'Recibe una cotización OEM detallada en 24 horas.'

@@ -24,11 +24,11 @@ export const Route = createFileRoute('/{-$locale}/contact')({
       origin,
       locale,
       path: '/contact',
-      title: locale === 'es' ? 'Contacto | Inicia tu proyecto SUP personalizado | SUPsfactory' : 'Contact | Start Your Custom SUP Project — SUPsfactory',
+      title: locale === 'es' ? 'Contacto | Solicita un presupuesto de fabricación | SUPsfactory' : 'Contact | Request A Manufacturing Quotation — SUPsfactory',
       description:
         locale === 'es'
-          ? 'Cuéntanos tu idea de proyecto SUP: MOQ bajo desde 50 unidades, personalización completa y respuesta en un día laborable.'
-          : 'Tell us about your custom SUP project — low MOQ from 50pcs, full customization and design support. Submit an inquiry and get a reply within one business day.',
+          ? 'Cuéntanos qué tablas quieres fabricar: MOQ por tramos desde 5–10 unidades de prueba, ingeniería y muestras, con respuesta en un día laborable.'
+          : 'Tell us about the SUP boards you want to manufacture — tiered MOQ from 5–10 trial units, in-house engineering and sampling, factory production. Get a reply within one business day.',
     })
     return { meta, links }
   },

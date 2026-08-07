@@ -22,11 +22,11 @@ export const Route = createFileRoute('/{-$locale}/how-it-works')({
       origin,
       locale,
       path: '/how-it-works',
-      title: locale === 'es' ? 'Cómo funciona | Cinco pasos hasta la entrega | SUPsfactory' : 'How It Works | From Idea to Delivery in 5 Steps',
+      title: locale === 'es' ? 'Cómo funciona | De la especificación al contenedor | SUPsfactory' : 'How It Works | From Specification to Shipped Container',
       description:
         locale === 'es'
-          ? 'Comparte tu idea, elige tu modelo, aprueba diseño y muestra, y después producción, entrega y lanzamiento: SUPsfactory te guía en cada paso.'
-          : 'Share your idea, approve design & sample, then production, delivery and launch — we guide every step of your custom SUP project.',
+          ? 'Comparte tus requisitos, confirma especificación y muestra, y después producción, control de calidad y entrega: SUPsfactory te guía en cada paso del proyecto de fabricación.'
+          : 'Share your requirements, approve spec and sample, then production, QC and delivery — we guide every step of your custom SUP manufacturing project.',
     })
     return { meta, links }
   },
@@ -44,7 +44,7 @@ function WorksPage() {
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
       <HowItWorks />
 
-      {/* free consultation */}
+      {/* specification review CTA */}
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
         <div className="ocean-grad flex flex-col items-center gap-5 rounded-3xl px-6 py-12 text-center md:flex-row md:justify-between md:px-12 md:text-left">
           <div className="flex items-start gap-4">

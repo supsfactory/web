@@ -43,7 +43,7 @@ intelligence_cards:
   - title: Laboratorio de calidad y ensayos
     icon: Q
     icon_bg: green
-    desc: 'Laboratorio de control de calidad independiente con 4 fases de ensayo: inspección de materias primas (tracción, desgarro, UV), retención de presión 48 h a 1,25× la presión nominal, ensayo de pelado de costuras y verificación de carga/estabilidad en cada embarcación.'
+    desc: 'Laboratorio de control de calidad independiente con 4 fases de ensayo: inspección de materias primas (tracción, desgarro, UV), retención de presión 48 h a 1,25× la presión nominal, ensayo de pelado de costuras y verificación de rigidez en cada tabla.'
     metrics:
       - label: Equipo de laboratorio
         value: 'Máquina de tracción, cámara térmica, tanque de fugas'
@@ -83,7 +83,7 @@ workshops_section:
       description: Línea de montaje donde se instalan válvulas, anillas D, asas, cajas de quilla y pads de cubierta en cada tabla SUP. Cada tabla sigue una lista de verificación de montaje de 100 puntos firmada por el responsable del equipo.
       image: https://assets.afarer.com/images/afarer/hero/factory-gate.webp
     - title: Ensayos e inspección de calidad
-      description: Cada embarcación terminada se somete a ensayos obligatorios de retención de aire, verificación de pelado de costuras y una comprobación completa de sistemas antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
+      description: Cada tabla terminada se somete a ensayos obligatorios de retención de aire, verificación de pelado de costuras y una comprobación completa de sistemas antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
       image: https://assets.afarer.com/images/afarer/factory/afarer-pressure-testing.webp
 
 equipment_section:
@@ -108,7 +108,7 @@ equipment_section:
 qc_section:
   tagline: Control de calidad
   title: Proceso de ensayo y garantía de calidad
-  subtitle: Cada embarcación se somete a ensayos obligatorios antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
+  subtitle: Cada tabla se somete a ensayos obligatorios antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
   steps:
     - step: '1'
       title: Inspección de materias primas
@@ -118,7 +118,7 @@ qc_section:
       desc: Cada cámara del tubo se infla al 125% de la presión nominal y se mantiene durante 48 horas. Una caída de presión superior al 5% provoca el rechazo automático y la reinspección de las costuras.
     - step: '3'
       title: Ensayo de carga y estabilidad
-      desc: Las embarcaciones terminadas se cargan hasta la capacidad máxima nominal y se ensayan en cuanto a estabilidad, francobordo y manejo. Cada embarcación se prueba en el agua antes de la inspección final.
+      desc: Las tablas terminadas se inflan a la presión nominal y se comprueban en cuanto a hinchado simétrico, rigidez a 15 PSI y estabilidad bajo carga. Cada tabla se prueba en el agua en nuestra piscina de ensayos antes de la inspección final.
 
 oem_section:
   tagline: Proyectos OEM
@@ -152,8 +152,8 @@ b2b_moq: 'MOQ estándar: 5–10 unidades por modelo. Los pedidos de prueba son b
 
 production_flow:
   tagline: Flujo de producción
-  title: Del material a la embarcación terminada
-  subtitle: Cada embarcación pasa por 6 etapas de producción con puntos de control de calidad en cada paso. Sin atajos, sin inspecciones omitidas.
+  title: Del material a la tabla terminada
+  subtitle: Cada tabla pasa por 6 etapas de producción con puntos de control de calidad en cada paso. Sin atajos, sin inspecciones omitidas.
   stages:
     - stage: '01'
       title: Recepción de materiales y control de calidad de entrada
@@ -175,13 +175,13 @@ production_flow:
       responsibility: Control de calidad de soldadura (2 inspectores por turno)
     - stage: '04'
       title: Montaje y aparejo
-      description: 'Las embarcaciones pasan al montaje final, donde se ensamblan todos los componentes: casco + tubos, instalación de válvulas, anillas D, asas, cajas de quilla y colocación de la bolsa de transporte. Cada unidad sigue una lista de verificación de montaje de 100 puntos.'
+      description: 'Las tablas pasan al montaje final, donde se ensamblan todos los componentes: paneles de cubierta y fondo fusionados, instalación de válvulas, anillas D, asas, cajas de quilla y colocación de la bolsa de transporte. Cada unidad sigue una lista de verificación de montaje de 100 puntos.'
       qc_check: 'Firma de la lista de verificación de 100 puntos por unidad, prueba de funcionamiento de válvulas (10 ciclos de apertura/cierre), verificación del par de herrajes, inspección visual'
       qc_threshold: 'Política de cero defectos en los elementos críticos de seguridad (válvulas, anillas D, asas). Defectos menores estéticos: AQL 2.5 (ISO 2859)'
       responsibility: Responsable del equipo de montaje + control de calidad de línea
     - stage: '05'
       title: Ensayo de presión y retención de calidad
-      description: Cada cámara se infla a 1,25× la presión nominal (típicamente 20–25 PSI) y se mantiene durante 24–48 horas. Los sensores de presión registran de forma continua. Las cámaras que superan una caída de presión del 5% se rechazan y se envían para reinspección de costuras.
+      description: Cada cámara se infla a 1,25× la presión nominal (unos 19 PSI para un SUP de 12–15 PSI) y se mantiene durante 24–48 horas. Los sensores de presión registran de forma continua. Las cámaras que superan una caída de presión del 5% se rechazan y se envían para reinspección de costuras.
       qc_check: 'Registro de retención de presión de 24 h, verificación diaria de la calibración del sensor, lectura de presión compensada por temperatura, reensayo de costuras tras la reparación'
       qc_threshold: 'Máximo 5% de caída de presión en 24 h a temperatura estable. Cualquier cámara que lo supere = reensayo del 100% de todo el lote de producción'
       responsibility: Laboratorio de calidad (independiente de la producción, informa a la dirección)
@@ -228,7 +228,7 @@ workforce:
 material_traceability:
   tagline: Trazabilidad
   title: Seguimiento de materiales y control de lotes
-  description: A cada lote de materia prima se le asigna un número de lote único en nuestro sistema ERP. Desde la llegada hasta la producción y el producto terminado, la lista de materiales de cada embarcación se vincula al lote original del proveedor. Esto permite la trazabilidad ascendente completa ante cualquier consulta de calidad o cumplimiento.
+  description: A cada lote de materia prima se le asigna un número de lote único en nuestro sistema ERP. Desde la llegada hasta la producción y el producto terminado, la lista de materiales de cada tabla se vincula al lote original del proveedor. Esto permite la trazabilidad ascendente completa ante cualquier consulta de calidad o cumplimiento.
   system: ERP a medida (sistema interno de Qingdao Vatrad Group) + etiquetas físicas de lote en cada orden de trabajo
   coverage: 'El 100% de los materiales de producción: PVC, Hypalon, tejido drop-stitch, adhesivos, válvulas, herrajes, embalaje'
   records_retained: 10 años (según el requisito CE 2013/53/EU)
@@ -253,7 +253,7 @@ qc_dashboard:
   stats:
     - value: 100%
       label: Unidades sometidas a ensayo de presión
-      detail: Cada embarcación, cada cámara, cada lote
+      detail: Cada tabla, cada cámara, cada lote
     - value: '<5%'
       label: Caída de presión máxima permitida
       detail: En 24 h a 1,25× la presión nominal

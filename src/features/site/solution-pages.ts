@@ -87,13 +87,13 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ],
       steps: [
         { title: 'Submit your project', body: 'Tell us your requirements, or share sketches and reference images.' },
-        { title: 'Design & sample', body: 'We develop drawings and ship a physical sample within 7–10 days.' },
+        { title: 'Design & sample', body: 'We develop drawings and ship a physical sample within 15–20 days.' },
         { title: 'Approve & produce', body: 'After your approval, production runs 30–45 days with multi-point QC.' },
         { title: 'Deliver & reorder', body: 'Worldwide export with professional packing, plus reorder support at consistent quality.' },
       ],
       caseStudy: {
         title: 'Outdoor brand product extension',
-        body: 'An outdoor gear brand moved into paddle sports with a branded touring board. We developed the board from a rough sketch, reached sample approval in 10 days and shipped the first production run 40 days later.',
+        body: 'An outdoor gear brand moved into paddle sports with a branded touring board. We developed the board from a rough sketch, reached sample approval in 15 days and shipped the first production run 40 days later.',
         tags: ['Board development', 'Branded graphics', 'First production run'],
       },
       faqs: [
@@ -115,7 +115,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
         {
           q: 'Do you provide samples before production?',
-          a: 'Yes — a physical sample is produced and approved before any production run. Sample time is typically 7–10 days.',
+          a: 'Yes — a physical sample is produced and approved before any production run. Sample time is typically 15–20 days.',
         },
         {
           q: 'Can you handle my brand assets only, without a full design team?',
@@ -149,7 +149,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
         {
           problem: 'First orders force you to buy hundreds of units you may not sell.',
-          solution: 'Flexible MOQ from 50pcs lets you validate the market before scaling.',
+          solution: 'Start with 5–10 trial units on a standard platform, then scale to a standard OEM run from 50 pcs — validate the market before big batches.',
         },
         {
           problem: 'Design and packaging development feels out of reach.',
@@ -448,13 +448,13 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ],
       steps: [
         { title: 'Envía tu proyecto', body: 'Cuéntanos tu requisito o comparte bocetos e imágenes de referencia.' },
-        { title: 'Diseña y muestra', body: 'Desarrollamos los planos y enviamos una muestra física en 7–10 días.' },
+        { title: 'Diseña y muestra', body: 'Desarrollamos los planos y enviamos una muestra física en 15–20 días.' },
         { title: 'Confirma y produce', body: 'Tras aprobar la muestra, producción en 30–45 días con control de calidad multipunto.' },
         { title: 'Entrega y reordena', body: 'Envío mundial con embalaje profesional y soporte de reorden para mantener la calidad.' },
       ],
       caseStudy: {
         title: 'Extensión de línea de una marca outdoor',
-        body: 'Una marca de equipamiento outdoor entró en el remo con una tabla de viaje con marca. Desarrollamos la tabla desde un boceto bruto: aprobación de muestra en 10 días y primera producción entregada 40 días después.',
+        body: 'Una marca de equipamiento outdoor entró en el remo con una tabla de viaje con marca. Desarrollamos la tabla desde un boceto bruto: aprobación de muestra en 15 días y primera producción entregada 40 días después.',
         tags: ['Desarrollo de tabla', 'Arte de marca', 'Primera producción'],
       },
       faqs: [
@@ -476,7 +476,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
         {
           q: '¿Proporcionáis muestras antes de la producción?',
-          a: 'Sí: la muestra física se produce y aprueba antes de la producción en serie; el muestreo suele tardar 7–10 días.',
+          a: 'Sí: la muestra física se produce y aprueba antes de la producción en serie; el muestreo suele tardar 15–20 días.',
         },
         {
           q: 'No tenemos un equipo de diseño completo, solo material de marca. ¿Podemos trabajar juntos?',
@@ -510,7 +510,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
         {
           problem: 'El primer pedido te obliga a comprar cientos de tablas que quizá no vendas.',
-          solution: 'Pedido mínimo de 50 unidades para validar el mercado antes de escalar.',
+          solution: 'Empieza con 5–10 unidades de prueba sobre una plataforma estándar y escala al lote OEM estándar desde 50 unidades: valida el mercado antes de los lotes grandes.',
         },
         {
           problem: 'El desarrollo de diseño y embalaje parece inalcanzable.',

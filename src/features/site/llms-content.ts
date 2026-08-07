@@ -9,21 +9,23 @@
  */
 export const LLMS_TXT = `# SUPsfactory
 
-> SUPsfactory is a custom SUP (stand-up paddle board) product development and manufacturing partner for businesses, brands, resorts, clubs, schools and organizations. It is the B2B custom-development brand of Afarer, the marine manufacturing brand of Qingdao Vatrad Group Co., Ltd. (Laixi, Qingdao, Shandong, China), founded in 2012. SUPsfactory takes SUP projects from concept and specification through graphics, prototyping and sample approval to volume production and worldwide delivery.
+> SUPsfactory is the SUP product development and manufacturing division of Afarer, the manufacturing brand of Qingdao Vatrad Group Co., Ltd. — a 12,000 m² inflatable manufacturing plant in Qingdao, China (Laixi Economic Development Zone), producing since 2012. We manufacture exclusively under our clients' brands: engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. The plant runs two production shifts daily with 25+ engineers across R&D, mold design, materials lab and production engineering, averaging 7+ years in inflatable manufacturing.
 
 ## Key facts
 
-- Legal entity: Qingdao Vatrad Group Co., Ltd. — manufacturing brand: Afarer — B2B custom brand: SUPsfactory
+- Legal entity: Qingdao Vatrad Group Co., Ltd. — manufacturing brand: Afarer — B2B brand: SUPsfactory
 - Founded: 2012
 - Location: Economic Development Zone, Laixi, Qingdao, Shandong 266600, China
 - Contact: info@supsfactory.com | +86-13305324192
-- Minimum order quantity: 50 pcs per design (custom graphics on an existing platform); 200 pcs for full OEM/ODM with new tooling
-- Sample / prototype lead time: 7–10 days
-- Production lead time: 4–6 weeks after sample approval
-- Factory area: 12,000 m² | Workers: 200+ | Annual capacity: 15,000+ units
-- Certifications: CE, ISO 9001, ISO 14001, BSCI, REACH, USCG approval — certificate numbers supplied on request
-- Trade terms: FOB / CIF / DDP — worldwide shipping with export packing
-- Languages: English, Spanish
+- Minimum order quantity (tiered): 5–10 units standard trial order · 50 units per design for a standard OEM batch · 200 units for full custom tooling (mould) or private-label projects
+- Sample / prototype lead time: 15–20 days
+- Production lead time: 30–45 days from confirmed PO and deposit; custom mould development adds 15–20 days
+- Manufacturing floor: 12,000 m² | Workers: 200+ | Annual capacity: 15,000+ units
+- Plant operations: two production shifts daily · 25+ engineers · 7+ years average inflatable experience per engineer
+- Hard specs: 0.1 mm CNC cutting · 15 kW RF welding · 12–15 PSI drop-stitch · triple-layer rail band fusion · 100-point assembly checklist · 1.25× rated pressure 48h hold, >5% drop = reject · ERP batch traceability kept 10 years
+- Certifications: CE, ISO 9001, BSCI, REACH, RoHS — certificate numbers supplied on request
+- Trade terms: FOB Qingdao / CIF / DDP — worldwide shipping to 50+ countries with export packing
+- Languages: English, Spanish; customer service in EN/CN/FR/ES/AR/DE
 - Business model: B2B only (OEM, ODM, private label, fleet supply). Not a consumer retail store.
 
 ## Services

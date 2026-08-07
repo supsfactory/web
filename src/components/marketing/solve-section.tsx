@@ -7,7 +7,7 @@ import { Reveal } from './reveal'
 
 const ICONS = [Lightbulb, Layers, ShieldCheck, FlaskConical]
 
-/** Home: "What We Help You Solve" — customer concerns paired with our solutions. */
+/** Home: "Manufacturing Scope" — OEM / ODM / Private Label / Volume Supply cards. */
 export function SolveSection() {
   const { locale } = useTranslation()
   const c = pick(solve, locale)
@@ -19,18 +19,15 @@ export function SolveSection() {
         {c.items.map((item, i) => {
           const Icon = ICONS[i % ICONS.length]
           return (
-            <Reveal key={item.problem} delay={i * 80}>
+            <Reveal key={item.title} delay={i * 80}>
               <div className="marine-card flex h-full flex-col p-7">
                 <div className="flex items-start gap-4">
                   <span className="icon-tile shrink-0 bg-aqua/10! text-primary!">
                     <Icon size={20} />
                   </span>
-                  <div>
-                    <p className="text-[14.5px] font-semibold italic leading-relaxed text-fg-2">{item.problem}</p>
-                    <h3 className="mt-3 font-display text-[17px] font-bold text-primary">{item.solution}</h3>
-                    <p className="mt-1.5 text-[13.5px] leading-relaxed text-fg-2">{item.body}</p>
-                  </div>
+                  <h3 className="font-display text-[17px] font-bold leading-snug text-primary">{item.title}</h3>
                 </div>
+                <p className="mt-4 text-[13.5px] leading-relaxed text-fg-2">{item.body}</p>
               </div>
             </Reveal>
           )

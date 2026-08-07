@@ -1,15 +1,16 @@
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, gallery } from '@/features/site/content'
+import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 
-/** Brand Stories: case cards with hue-tinted stages. Shared by home and /gallery. */
+/** Production case cards with hue-tinted stages. Shared by home and /gallery. */
 export function GallerySection({ heading }: { heading?: React.ReactNode }) {
   const { locale } = useTranslation()
   const c = pick(gallery, locale)
 
   return (
     <section className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
-      {heading ?? null}
+      {heading ?? <SectionHead kicker={c.kicker} title={c.title} sub={c.sub} />}
       <div className="mt-12 grid gap-6 md:grid-cols-3">
         {c.projects.map((p, i) => (
           <Reveal key={p.title} delay={i * 90}>

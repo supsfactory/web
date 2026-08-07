@@ -161,7 +161,7 @@ export const es = {
       knowledge: 'Centro de conocimiento', company: 'Empresa',
     },
     footer: {
-      tagline: 'Socio de desarrollo y fabricación de productos SUP personalizados — de la idea al producto terminado.',
+      tagline: 'La división de desarrollo y fabricación de SUP de Afarer — ingeniería, moldes, muestras y producción a escala de contenedor. Tú traes la marca, nosotros fabricamos las tablas.',
       colSolutions: 'Soluciones', colServe: 'A quién servimos', colCompany: 'Empresa', colLegal: 'Legal',
       colResources: 'Recursos',
       poweredBy: 'Con la fabricación de Afarer', inquiryForm: 'Formulario de consulta',
@@ -234,14 +234,14 @@ export const es = {
     },
     entity: {
       kicker: 'Entidad de la empresa',
-      title: 'SUPsfactory — la empresa de fabricación de SUP personalizados detrás de tu marca',
+      title: 'SUPsfactory — el fabricante OEM/ODM de SUP hinchables detrás de tu marca',
       intro1:
-        'SUPsfactory es una empresa de fabricación de SUP (tablas de paddle surf) personalizados y socio de desarrollo de producto. Ayudamos a empresas, marcas, resorts, clubes y escuelas a convertir ideas de SUP en tablas terminadas y listas para usar.',
+        'SUPsfactory es la división de desarrollo de producto y fabricación de SUP de Afarer (Qingdao Vatrad Group Co., Ltd.). Fabricamos tablas SUP según tu especificación: ingeniería, moldes, muestras, producción y exportación. Tú tienes la marca, el mercado y el cliente; nosotros tenemos la fabricación.',
       intro2:
-        'Somos la marca de SUP y el brazo de fabricación de Qingdao Vatrad Group Co., Ltd. — nuestras propias fábricas cubren cada etapa: especificación y diseño, creación de prototipos, muestras, producción en serie y entrega.',
+        'Nuestra planta de 12.000 m² en Qingdao, China, cubre cada etapa en casa: diseño, ingeniería de moldes, construcción drop-stitch, soldadura RF, impresión, montaje y ensayos de calidad. No vendemos a consumidores finales y no competimos con nuestros clientes en ningún mercado.',
       factsTitle: 'Datos de la empresa',
-      servicesTitle: 'Qué hacemos',
-      servicesBody: 'Cinco áreas de soluciones cubren la mayoría de los proyectos SUP personalizados:',
+      servicesTitle: 'Qué fabricamos',
+      servicesBody: 'Cinco áreas de soluciones cubren la mayoría de los proyectos de fabricación SUP a medida:',
       knowledgeTitle: 'Aprende el oficio',
       knowledgeBody: 'Guías escritas para compradores que planifican un proyecto SUP personalizado.',
       projectsTitle: 'Prueba de trabajo',
@@ -250,8 +250,8 @@ export const es = {
       ctaBody: 'Cuéntanos qué quieres construir — normalmente respondemos en un día laborable.',
     },
     contact: {
-      title: 'Inicia tu proyecto personalizado',
-      subtitle: 'Cuéntanos tu idea de SUP — normalmente respondemos en un día laborable.',
+      title: 'Solicita un presupuesto de fabricación',
+      subtitle: 'Cuéntanos qué tablas quieres fabricar — normalmente respondemos en un día laborable.',
       infoTitle: 'Habla con un especialista de proyectos',
       infoBody: '¿Prefieres correo o WhatsApp? Escríbenos directamente y menciona tu proyecto.',
       emailLabel: 'Escríbenos',
@@ -285,7 +285,7 @@ export const es = {
       corporate: 'Empresa / evento', other: 'Otro',
     },
     quantityOptions: {
-      q50: '50 – 100 uds.', q100: '100 – 300 uds.', q300: '300 – 500 uds.', q500: 'Más de 500 uds.', unsure: 'Aún no lo sé',
+      q5: '5 – 50 uds. (prueba)', q50: '50 – 100 uds.', q100: '100 – 300 uds.', q300: '300 – 500 uds.', q500: 'Más de 500 uds.', unsure: 'Aún no lo sé',
     },
     statuses: { new: 'Nuevo', contacted: 'Contactado', quoted: 'Con presupuesto', closed: 'Cerrado' },
   },

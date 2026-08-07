@@ -3,14 +3,17 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, strip, faq } from '@/features/site/content'
+import { pick, faq } from '@/features/site/content'
 import { JsonLd, faqLd } from '@/features/seo/jsonld'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { Hero } from '@/components/marketing/hero'
-import { WhoWeServe } from '@/components/marketing/who-we-serve'
+import { TrustBar } from '@/components/marketing/trust-bar'
+import { RoleBoundary } from '@/components/marketing/role-boundary'
 import { SolveSection } from '@/components/marketing/solve-section'
+import { PlantCapability } from '@/components/marketing/plant-capability'
+import { QualitySteps } from '@/components/marketing/quality-steps'
+import { CommercialTerms } from '@/components/marketing/commercial-terms'
 import { HowItWorks } from '@/components/marketing/how-it-works'
-import { SolutionsSection } from '@/components/marketing/solutions-section'
 import { WhyUs } from '@/components/marketing/why-us'
 import { PlatformsSection } from '@/components/marketing/platforms-section'
 import { StudioSection } from '@/components/marketing/studio-section'
@@ -32,13 +35,16 @@ export const Route = createFileRoute('/{-$locale}/')({
       path: '/',
       title:
         locale === 'es'
-          ? 'Supsfactory | Fabricación y desarrollo de SUP personalizados'
-          : 'Supsfactory | Custom SUP & Paddle Board Manufacturing',
+          ? 'Fabricante de SUP hinchables y fábrica OEM | SUPsfactory'
+          : 'Inflatable SUP Manufacturer & OEM Factory | SUPsfactory',
       description:
         locale === 'es'
-          ? 'Supsfactory convierte ideas de productos SUP en tablas terminadas: personalización, prototipos y fabricación OEM/ODM fiable.'
-          : 'SUPsfactory turns SUP product ideas into finished boards — customization, prototyping and reliable OEM/ODM manufacturing support.',
-      ogTitle: 'Turn Your SUP Product Ideas Into Reality | Supsfactory',
+          ? 'Fabricante OEM/ODM de SUP hinchables en Qingdao, China. Planta de 12.000 m², certificada CE e ISO 9001, producción en 30–45 días y muestras en 15–20 días. Tu marca, nuestra fábrica.'
+          : 'Inflatable SUP OEM/ODM manufacturer in Qingdao, China. 12,000 m² plant, CE & ISO 9001 certified, 30–45 day production, samples in 15–20 days. Your brand, our factory.',
+      ogTitle:
+        locale === 'es'
+          ? 'SUPsfactory — Fabricante OEM y ODM de SUP hinchables en Qingdao, China'
+          : 'SUPsfactory — Inflatable SUP OEM & ODM Manufacturer in Qingdao, China',
     })
     return { meta, links }
   },
@@ -48,35 +54,24 @@ export const Route = createFileRoute('/{-$locale}/')({
 function Home() {
   const { theme, user } = rootRoute.useLoaderData()
   const { locale } = useTranslation()
-  const items = pick(strip, locale)
 
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={!!user} />
       <Hero />
-
-      {/* capability strip */}
-      <div className="border-b border-border bg-bg-alt">
-        <ul className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-7 gap-y-2 px-5 py-4 md:px-7">
-          {items.map((item, i) => (
-            <li key={item} className="flex items-center gap-7">
-              {i > 0 && <span className="hidden h-1.5 w-1.5 rounded-full bg-aqua/60 sm:block" aria-hidden="true" />}
-              <span className="text-[12.5px] font-bold uppercase tracking-[0.14em] text-fg-2">{item}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <WhoWeServe />
+      <TrustBar />
+      <RoleBoundary />
       <SolveSection />
+      <PlantCapability />
+      <QualitySteps />
+      <CommercialTerms />
       <HowItWorks />
-      <SolutionsSection />
-      <WhyUs />
       <PlatformsSection />
       <StudioSection />
+      <WhyUs />
       <GallerySection />
       <FaqSection />
-      <JsonLd data={faqLd(faq[locale].items)} />
+      <JsonLd data={faqLd(pick(faq, locale).items)} />
       <CtaBand />
       <Footer theme={theme} />
     </div>

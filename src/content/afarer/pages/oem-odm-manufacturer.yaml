@@ -1,41 +1,59 @@
 meta:
-  title: 'Inflatable SUP OEM/ODM Manufacturer | {SITE}'
-  description: 'Afarer — premier OEM/ODM manufacturer of inflatable SUP boards. CE-certified. Custom mold, private label, bulk wholesale. From idea to market in 16 weeks.'
+  title: 'Inflatable SUP OEM & ODM Manufacturer | Custom Paddle Board Factory'
+  description: 'Inflatable SUP OEM/ODM factory in Qingdao, China: custom moulds, tooling, prototyping and container-scale production. MOQ, lead times and quality aligned with a real manufacturing plant — not a trading desk.'
   keywords:
     - 'SUP OEM manufacturer'
     - 'inflatable SUP private label'
-    - 'OEM paddle boards'
-    - 'China SUP factory'
-    - 'custom SUP wholesale'
+    - 'custom SUP production'
+    - 'SUP factory in China'
+    - 'custom paddle board factory'
 
 hero:
-  tagline: OEM / ODM
-  title: 'Inflatable SUP OEM / ODM Manufacturer'
-  subtitle: 'Afarer — premier OEM/ODM manufacturer of inflatable SUP boards. CE-certified. Custom mold, private label, bulk wholesale. From idea to market in 16 weeks.'
+  tagline: OEM / ODM Manufacturing
+  title: 'Inflatable SUP OEM & ODM Manufacturer'
+  subtitle: 'Engineering, tooling and production for inflatable SUP lines — built to your specification and shipped under your brand.'
 
 features:
   title: OEM / ODM Capabilities
-  subtitle: 'Everything you need to build and launch your own inflatable SUP line.'
+  subtitle: 'Everything you need to take an inflatable SUP line from specification to a shipped container.'
   items:
-    - title: Custom Molds
-      description: 'Bespoke board shapes developed for your brand, riders, and performance goals.'
+    - title: Custom Moulds
+      description: 'Bespoke board shapes developed for your brand, riders and performance goals — design and mould engineering in-house. Tooling adds 15–20 days to your project lead time.'
       icon: 'tabler:shapes'
     - title: Private Label
-      description: 'Your logo, colors, and packaging on proven commercial-grade boards.'
+      description: 'Your logo, colors and packaging on proven commercial-grade boards, produced in our own plant and never resold under our name.'
       icon: 'tabler:tag'
-    - title: Bulk Wholesale
-      description: 'Container-scale production with competitive OEM pricing and 30-day lead times.'
+    - title: Prototype & Sampling
+      description: 'Physical samples usually produced and approved before bulk production, with a 15–20 day sample service.'
+      icon: 'tabler:tools'
+    - title: Container-Scale Production
+      description: 'Standard OEM batches from 50 pcs per design, container-scale runs, and 30–45 days production lead time after confirmed PO.'
       icon: 'tabler:package'
     - title: CE Certified
-      description: 'Full compliance and safety documentation for every market you ship to.'
+      description: 'CE, ISO 9001, BSCI, REACH and RoHS — full compliance and safety documentation for every market you ship to.'
       icon: 'tabler:certificate'
-    - title: In-House Design
-      description: 'From concept sketches to final production artwork, handled in-house.'
+    - title: In-House Engineering
+      description: 'From concept sketches to mould design to final production artwork — the development stays inside the factory, not outsourced.'
       icon: 'tabler:palette'
     - title: Global Logistics
-      description: 'Sea and air freight with customs clearance support worldwide.'
+      description: 'FOB Qingdao, CIF and DDP to more than 50 countries, with export packing and customs clearance handled by our logistics team.'
       icon: 'tabler:world'
 
+faq_section:
+  tagline: FAQ
+  title: OEM & ODM Frequently Asked Questions
+  questions:
+    - q: What is the MOQ for OEM inflatable SUP?
+      a: 'MOQ is tiered: 5–10 units for a standard trial order, 50 units per design for a standard OEM batch, and 200 units for full custom mould or private-label projects, depending on complexity.'
+    - q: What is the typical lead time for an OEM order?
+      a: 'Production runs 30–45 days from confirmed PO and deposit. Custom mould development adds 15–20 days for tooling. Prototype samples usually ship within 15–20 days.'
+    - q: Do you provide samples before production?
+      a: 'Yes. A physical sample is produced and approved before any production run, typically within 15–20 days.'
+    - q: Which certifications does the factory hold?
+      a: 'CE, ISO 9001, BSCI, REACH and RoHS. Full compliance documentation is provided with every OEM shipment.'
+    - q: What are your shipping terms?
+      a: 'FOB Qingdao, CIF major global ports, or DDP for qualified partners. We ship to 50+ countries across EU, US, AU and Asia markets.'
+
 cta:
-  title: 'Ready to build your SUP brand?'
-  subtitle: 'Receive a detailed OEM quote within 24 hours.'
+  title: 'Ready to run your SUP line?'
+  subtitle: 'Receive a detailed OEM quotation within 24 hours.'

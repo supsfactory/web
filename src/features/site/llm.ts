@@ -45,7 +45,7 @@ export function llmSiteHeader(): string {
   return [
     '# SUPsfactory',
     '',
-    '> Custom inflatable SUP manufacturer: OEM/ODM/private-label production for brands, resorts and rental operators worldwide. MOQ from 50 pcs per design, sample 7–10 days, bulk 4–6 weeks after sample approval, 12,000 m² facility with 200+ workers and 15,000+ units annual capacity, CE / ISO 9001 / ISO 14001 / BSCI / REACH / USCG certified.',
+    '> SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,000 m² inflatable manufacturing plant in Qingdao, China. We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. MOQ is tiered: 5–10 units standard trial, 50 units per design standard OEM batch, 200 units full custom-mould / private-label. Samples ship in 15–20 days; bulk production 30–45 days after confirmed PO and deposit (custom mould tooling adds 15–20 days).',
     ...factsSection('Company Facts', company),
     ...factsSection('Certifications', certifications),
     ...factsSection('Manufacturing', manufacturing),

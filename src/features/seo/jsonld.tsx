@@ -70,7 +70,7 @@ export function siteLd(): Record<string, unknown>[] {
   return [
     {
       '@context': 'https://schema.org',
-      '@type': 'Organization',
+      '@type': ['Organization', 'Manufacturer'],
       '@id': `${SITE_ORIGIN}/#organization`,
       name: 'SUPsfactory',
       alternateName: 'Supsfactory',
@@ -78,21 +78,34 @@ export function siteLd(): Record<string, unknown>[] {
       url: `${SITE_ORIGIN}/`,
       logo: `${SITE_ORIGIN}/logo192.png`,
       description:
-        'Supsfactory is a custom SUP product development and manufacturing partner. We help businesses, brands, resorts and organizations turn SUP product ideas into finished products through customization, product development, prototyping and reliable manufacturing support.',
+        'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,000 m² inflatable manufacturing plant in Qingdao, China. We build SUP boards to your specification — engineering, tooling, sampling, production and export. We do not sell to end consumers and we do not compete with our clients in any market.',
+      // 实体统一：SUPsfactory / Afarer / Qingdao Vatrad Group 是一家工厂，sameAs 连接
+      // 母公司官网（社媒与 B2B 平台主页就绪后在此追加，保持实体一致）。
+      sameAs: ['https://afarer.com'],
       parentOrganization: {
         '@type': 'Organization',
-        name: 'Afarer',
-        description: 'Afarer is the SUP manufacturing brand of Qingdao Vatrad Group Co., Ltd. — OEM/ODM inflatable SUP production in Qingdao, China.',
+        name: 'Qingdao Vatrad Group Co., Ltd.',
+        sameAs: 'https://afarer.com',
       },
+      brand: { '@type': 'Brand', name: 'Afarer' },
+      numberOfEmployees: { '@type': 'QuantitativeValue', value: '200+' },
+      hasCredential: [
+        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'ISO 9001' },
+        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'BSCI' },
+        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'CE' },
+        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'REACH / RoHS' },
+      ],
       knowsAbout: [
         'SUP manufacturing',
+        'inflatable paddle board factory',
+        'SUP OEM / ODM',
         'custom paddle boards',
         'SUP product development',
         'SUP prototyping',
         'private label SUP',
-        'OEM manufacturing',
-        'custom SUP design',
-        'resort SUP equipment',
+        'drop stitch construction',
+        'RF welding SUP',
+        'SUP quality control',
       ],
       foundingLocation: { '@type': 'Place', name: 'Qingdao, China' },
       foundingDate: '2012',
@@ -120,7 +133,6 @@ export function siteLd(): Record<string, unknown>[] {
           availableLanguage: ['English', 'Chinese'],
         },
       ],
-      brand: { '@type': 'Brand', name: 'SUPsfactory' },
     },
     {
       '@context': 'https://schema.org',
