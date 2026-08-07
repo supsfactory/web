@@ -53,24 +53,24 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/solutions/diving-center-boats': '/solutions',
   '/solutions/fishing-boat-solutions': '/fishing',
   '/solutions/marine-tourism-equipment': '/tourism-recreation',
-  '/solutions/rescue-watercraft': '/search-and-rescue',
+  '/solutions/rescue-watercraft': 'https://afarer.com/search-and-rescue',
   '/solutions/yacht-tender-solutions': '/tourism-recreation',
   '/solutions-diving-center-boats': '/solutions',
   '/solutions-fishing-boat-solutions': '/fishing',
   '/solutions-marine-tourism-equipment': '/tourism-recreation',
-  '/solutions-rescue-watercraft': '/search-and-rescue',
+  '/solutions-rescue-watercraft': 'https://afarer.com/search-and-rescue',
   '/solutions-yacht-tender-solutions': '/tourism-recreation',
   '/buyer-center': '/solutions',
   '/marine-industry': '/solutions',
   '/v2': '/products',
 
-  // --- Use cases ---
+  // --- Use cases (non-SUP boat/industrial pages now live on afarer.com) ---
   '/use-cases': '/solutions',
-  '/use-cases/commercial-workboats': '/commercial-workboats',
-  '/use-cases/disaster-relief': '/disaster-relief-humanitarian-aid',
+  '/use-cases/commercial-workboats': 'https://afarer.com/commercial-workboats',
+  '/use-cases/disaster-relief': 'https://afarer.com/disaster-relief-humanitarian-aid',
   '/use-cases/fishing': '/fishing',
-  '/use-cases/maritime-safety-defense': '/maritime-safety-defense',
-  '/use-cases/search-and-rescue': '/search-and-rescue',
+  '/use-cases/maritime-safety-defense': 'https://afarer.com/maritime-safety-defense',
+  '/use-cases/search-and-rescue': 'https://afarer.com/search-and-rescue',
   '/use-cases/tourism-recreation': '/tourism-recreation',
 
   // --- Compare ---

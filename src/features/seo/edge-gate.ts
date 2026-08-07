@@ -57,6 +57,29 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/es/brand/team': '/es/about',
   '/brand/why-afarer': '/about/afarer',
   '/es/brand/why-afarer': '/es/about/afarer',
+  // P1-7: non-SUP business lines migrate to afarer.com (supsfactory stays SUP-only).
+  // afarer.com already carries these pages/products (EN + /es); hand off with a single hop.
+  '/commercial-workboats': 'https://afarer.com/commercial-workboats',
+  '/es/commercial-workboats': 'https://afarer.com/es/commercial-workboats',
+  '/zh/commercial-workboats': 'https://afarer.com/es/commercial-workboats',
+  '/maritime-safety-defense': 'https://afarer.com/maritime-safety-defense',
+  '/es/maritime-safety-defense': 'https://afarer.com/es/maritime-safety-defense',
+  '/zh/maritime-safety-defense': 'https://afarer.com/es/maritime-safety-defense',
+  '/search-and-rescue': 'https://afarer.com/search-and-rescue',
+  '/es/search-and-rescue': 'https://afarer.com/es/search-and-rescue',
+  '/zh/search-and-rescue': 'https://afarer.com/es/search-and-rescue',
+  '/disaster-relief-humanitarian-aid': 'https://afarer.com/disaster-relief-humanitarian-aid',
+  '/es/disaster-relief-humanitarian-aid': 'https://afarer.com/es/disaster-relief-humanitarian-aid',
+  '/zh/disaster-relief-humanitarian-aid': 'https://afarer.com/es/disaster-relief-humanitarian-aid',
+  '/products/life-vest-classic': 'https://afarer.com/products/life-vest-classic',
+  '/es/products/life-vest-classic': 'https://afarer.com/es/products/life-vest-classic',
+  '/zh/products/life-vest-classic': 'https://afarer.com/es/products/life-vest-classic',
+  '/products/life-vest-pro': 'https://afarer.com/products/life-vest-pro',
+  '/es/products/life-vest-pro': 'https://afarer.com/es/products/life-vest-pro',
+  '/zh/products/life-vest-pro': 'https://afarer.com/es/products/life-vest-pro',
+  '/products/oars-pump-set': 'https://afarer.com/products/oars-pump-set',
+  '/es/products/oars-pump-set': 'https://afarer.com/es/products/oars-pump-set',
+  '/zh/products/oars-pump-set': 'https://afarer.com/es/products/oars-pump-set',
 }
 
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'

@@ -20,7 +20,6 @@ import { Route as SitemapPagesDotxmlRouteImport } from './routes/sitemap-pages[.
 import { Route as SitemapNewsDotxmlRouteImport } from './routes/sitemap-news[.]xml'
 import { Route as SitemapEsDotxmlRouteImport } from './routes/sitemap-es[.]xml'
 import { Route as SearchIndexDotjsonRouteImport } from './routes/search-index[.]json'
-import { Route as SearchAndRescueRouteImport } from './routes/search-and-rescue'
 import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
 import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
 import { Route as ResourcesRouteImport } from './routes/resources'
@@ -33,7 +32,6 @@ import { Route as OemOdmManufacturerRouteImport } from './routes/oem-odm-manufac
 import { Route as OemOdmRouteImport } from './routes/oem-odm'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as MediaRouteImport } from './routes/media'
-import { Route as MaritimeSafetyDefenseRouteImport } from './routes/maritime-safety-defense'
 import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as LlmsFullDottxtRouteImport } from './routes/llms-full[.]txt'
 import { Route as LifestyleRouteImport } from './routes/lifestyle'
@@ -47,9 +45,7 @@ import { Route as FaqRouteImport } from './routes/faq'
 import { Route as FactoryRouteImport } from './routes/factory'
 import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as EntityDotjsonRouteImport } from './routes/entity[.]json'
-import { Route as DisasterReliefHumanitarianAidRouteImport } from './routes/disaster-relief-humanitarian-aid'
 import { Route as CommunityRouteImport } from './routes/community'
-import { Route as CommercialWorkboatsRouteImport } from './routes/commercial-workboats'
 import { Route as B2bSolutionsMatrixRouteImport } from './routes/b2b-solutions-matrix'
 import { Route as AcademyRouteImport } from './routes/academy'
 import { Route as SplatRouteImport } from './routes/$'
@@ -163,11 +159,6 @@ const SearchIndexDotjsonRoute = SearchIndexDotjsonRouteImport.update({
   path: '/search-index.json',
   getParentRoute: () => rootRouteImport,
 } as any)
-const SearchAndRescueRoute = SearchAndRescueRouteImport.update({
-  id: '/search-and-rescue',
-  path: '/search-and-rescue',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const RssDotxmlRoute = RssDotxmlRouteImport.update({
   id: '/rss.xml',
   path: '/rss.xml',
@@ -226,11 +217,6 @@ const NewsRoute = NewsRouteImport.update({
 const MediaRoute = MediaRouteImport.update({
   id: '/media',
   path: '/media',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const MaritimeSafetyDefenseRoute = MaritimeSafetyDefenseRouteImport.update({
-  id: '/maritime-safety-defense',
-  path: '/maritime-safety-defense',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LlmsDottxtRoute = LlmsDottxtRouteImport.update({
@@ -298,20 +284,9 @@ const EntityDotjsonRoute = EntityDotjsonRouteImport.update({
   path: '/entity.json',
   getParentRoute: () => rootRouteImport,
 } as any)
-const DisasterReliefHumanitarianAidRoute =
-  DisasterReliefHumanitarianAidRouteImport.update({
-    id: '/disaster-relief-humanitarian-aid',
-    path: '/disaster-relief-humanitarian-aid',
-    getParentRoute: () => rootRouteImport,
-  } as any)
 const CommunityRoute = CommunityRouteImport.update({
   id: '/community',
   path: '/community',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const CommercialWorkboatsRoute = CommercialWorkboatsRouteImport.update({
-  id: '/commercial-workboats',
-  path: '/commercial-workboats',
   getParentRoute: () => rootRouteImport,
 } as any)
 const B2bSolutionsMatrixRoute = B2bSolutionsMatrixRouteImport.update({
@@ -651,9 +626,7 @@ export interface FileRoutesByFullPath {
   '/$': typeof SplatRoute
   '/academy': typeof AcademyRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
-  '/commercial-workboats': typeof CommercialWorkboatsRoute
   '/community': typeof CommunityRoute
-  '/disaster-relief-humanitarian-aid': typeof DisasterReliefHumanitarianAidRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/evidence': typeof EvidenceRoute
   '/factory': typeof FactoryRoute
@@ -667,7 +640,6 @@ export interface FileRoutesByFullPath {
   '/lifestyle': typeof LifestyleRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
-  '/maritime-safety-defense': typeof MaritimeSafetyDefenseRoute
   '/media': typeof MediaRoute
   '/news': typeof NewsRoute
   '/oem-odm': typeof OemOdmRoute
@@ -680,7 +652,6 @@ export interface FileRoutesByFullPath {
   '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
-  '/search-and-rescue': typeof SearchAndRescueRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
   '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
@@ -750,9 +721,7 @@ export interface FileRoutesByTo {
   '/$': typeof SplatRoute
   '/academy': typeof AcademyRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
-  '/commercial-workboats': typeof CommercialWorkboatsRoute
   '/community': typeof CommunityRoute
-  '/disaster-relief-humanitarian-aid': typeof DisasterReliefHumanitarianAidRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/evidence': typeof EvidenceRoute
   '/factory': typeof FactoryRoute
@@ -766,7 +735,6 @@ export interface FileRoutesByTo {
   '/lifestyle': typeof LifestyleRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
-  '/maritime-safety-defense': typeof MaritimeSafetyDefenseRoute
   '/media': typeof MediaRoute
   '/news': typeof NewsRoute
   '/oem-odm': typeof OemOdmRoute
@@ -779,7 +747,6 @@ export interface FileRoutesByTo {
   '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
-  '/search-and-rescue': typeof SearchAndRescueRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
   '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
@@ -849,9 +816,7 @@ export interface FileRoutesById {
   '/$': typeof SplatRoute
   '/academy': typeof AcademyRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
-  '/commercial-workboats': typeof CommercialWorkboatsRoute
   '/community': typeof CommunityRoute
-  '/disaster-relief-humanitarian-aid': typeof DisasterReliefHumanitarianAidRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/evidence': typeof EvidenceRoute
   '/factory': typeof FactoryRoute
@@ -865,7 +830,6 @@ export interface FileRoutesById {
   '/lifestyle': typeof LifestyleRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
-  '/maritime-safety-defense': typeof MaritimeSafetyDefenseRoute
   '/media': typeof MediaRoute
   '/news': typeof NewsRoute
   '/oem-odm': typeof OemOdmRoute
@@ -878,7 +842,6 @@ export interface FileRoutesById {
   '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
-  '/search-and-rescue': typeof SearchAndRescueRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
   '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
@@ -951,9 +914,7 @@ export interface FileRouteTypes {
     | '/$'
     | '/academy'
     | '/b2b-solutions-matrix'
-    | '/commercial-workboats'
     | '/community'
-    | '/disaster-relief-humanitarian-aid'
     | '/entity.json'
     | '/evidence'
     | '/factory'
@@ -967,7 +928,6 @@ export interface FileRouteTypes {
     | '/lifestyle'
     | '/llms-full.txt'
     | '/llms.txt'
-    | '/maritime-safety-defense'
     | '/media'
     | '/news'
     | '/oem-odm'
@@ -980,7 +940,6 @@ export interface FileRouteTypes {
     | '/resources'
     | '/robots.txt'
     | '/rss.xml'
-    | '/search-and-rescue'
     | '/search-index.json'
     | '/sitemap-es.xml'
     | '/sitemap-news.xml'
@@ -1050,9 +1009,7 @@ export interface FileRouteTypes {
     | '/$'
     | '/academy'
     | '/b2b-solutions-matrix'
-    | '/commercial-workboats'
     | '/community'
-    | '/disaster-relief-humanitarian-aid'
     | '/entity.json'
     | '/evidence'
     | '/factory'
@@ -1066,7 +1023,6 @@ export interface FileRouteTypes {
     | '/lifestyle'
     | '/llms-full.txt'
     | '/llms.txt'
-    | '/maritime-safety-defense'
     | '/media'
     | '/news'
     | '/oem-odm'
@@ -1079,7 +1035,6 @@ export interface FileRouteTypes {
     | '/resources'
     | '/robots.txt'
     | '/rss.xml'
-    | '/search-and-rescue'
     | '/search-index.json'
     | '/sitemap-es.xml'
     | '/sitemap-news.xml'
@@ -1148,9 +1103,7 @@ export interface FileRouteTypes {
     | '/$'
     | '/academy'
     | '/b2b-solutions-matrix'
-    | '/commercial-workboats'
     | '/community'
-    | '/disaster-relief-humanitarian-aid'
     | '/entity.json'
     | '/evidence'
     | '/factory'
@@ -1164,7 +1117,6 @@ export interface FileRouteTypes {
     | '/lifestyle'
     | '/llms-full.txt'
     | '/llms.txt'
-    | '/maritime-safety-defense'
     | '/media'
     | '/news'
     | '/oem-odm'
@@ -1177,7 +1129,6 @@ export interface FileRouteTypes {
     | '/resources'
     | '/robots.txt'
     | '/rss.xml'
-    | '/search-and-rescue'
     | '/search-index.json'
     | '/sitemap-es.xml'
     | '/sitemap-news.xml'
@@ -1249,9 +1200,7 @@ export interface RootRouteChildren {
   SplatRoute: typeof SplatRoute
   AcademyRoute: typeof AcademyRoute
   B2bSolutionsMatrixRoute: typeof B2bSolutionsMatrixRoute
-  CommercialWorkboatsRoute: typeof CommercialWorkboatsRoute
   CommunityRoute: typeof CommunityRoute
-  DisasterReliefHumanitarianAidRoute: typeof DisasterReliefHumanitarianAidRoute
   EntityDotjsonRoute: typeof EntityDotjsonRoute
   EvidenceRoute: typeof EvidenceRoute
   FactoryRoute: typeof FactoryRoute
@@ -1265,7 +1214,6 @@ export interface RootRouteChildren {
   LifestyleRoute: typeof LifestyleRoute
   LlmsFullDottxtRoute: typeof LlmsFullDottxtRoute
   LlmsDottxtRoute: typeof LlmsDottxtRoute
-  MaritimeSafetyDefenseRoute: typeof MaritimeSafetyDefenseRoute
   MediaRoute: typeof MediaRoute
   NewsRoute: typeof NewsRoute
   OemOdmRoute: typeof OemOdmRoute
@@ -1278,7 +1226,6 @@ export interface RootRouteChildren {
   ResourcesRoute: typeof ResourcesRoute
   RobotsDottxtRoute: typeof RobotsDottxtRoute
   RssDotxmlRoute: typeof RssDotxmlRoute
-  SearchAndRescueRoute: typeof SearchAndRescueRoute
   SearchIndexDotjsonRoute: typeof SearchIndexDotjsonRoute
   SitemapEsDotxmlRoute: typeof SitemapEsDotxmlRoute
   SitemapNewsDotxmlRoute: typeof SitemapNewsDotxmlRoute
@@ -1379,13 +1326,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SearchIndexDotjsonRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/search-and-rescue': {
-      id: '/search-and-rescue'
-      path: '/search-and-rescue'
-      fullPath: '/search-and-rescue'
-      preLoaderRoute: typeof SearchAndRescueRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/rss.xml': {
       id: '/rss.xml'
       path: '/rss.xml'
@@ -1468,13 +1408,6 @@ declare module '@tanstack/react-router' {
       path: '/media'
       fullPath: '/media'
       preLoaderRoute: typeof MediaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/maritime-safety-defense': {
-      id: '/maritime-safety-defense'
-      path: '/maritime-safety-defense'
-      fullPath: '/maritime-safety-defense'
-      preLoaderRoute: typeof MaritimeSafetyDefenseRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/llms.txt': {
@@ -1568,25 +1501,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EntityDotjsonRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/disaster-relief-humanitarian-aid': {
-      id: '/disaster-relief-humanitarian-aid'
-      path: '/disaster-relief-humanitarian-aid'
-      fullPath: '/disaster-relief-humanitarian-aid'
-      preLoaderRoute: typeof DisasterReliefHumanitarianAidRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/community': {
       id: '/community'
       path: '/community'
       fullPath: '/community'
       preLoaderRoute: typeof CommunityRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/commercial-workboats': {
-      id: '/commercial-workboats'
-      path: '/commercial-workboats'
-      fullPath: '/commercial-workboats'
-      preLoaderRoute: typeof CommercialWorkboatsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/b2b-solutions-matrix': {
@@ -2147,9 +2066,7 @@ const rootRouteChildren: RootRouteChildren = {
   SplatRoute: SplatRoute,
   AcademyRoute: AcademyRoute,
   B2bSolutionsMatrixRoute: B2bSolutionsMatrixRoute,
-  CommercialWorkboatsRoute: CommercialWorkboatsRoute,
   CommunityRoute: CommunityRoute,
-  DisasterReliefHumanitarianAidRoute: DisasterReliefHumanitarianAidRoute,
   EntityDotjsonRoute: EntityDotjsonRoute,
   EvidenceRoute: EvidenceRoute,
   FactoryRoute: FactoryRoute,
@@ -2163,7 +2080,6 @@ const rootRouteChildren: RootRouteChildren = {
   LifestyleRoute: LifestyleRoute,
   LlmsFullDottxtRoute: LlmsFullDottxtRoute,
   LlmsDottxtRoute: LlmsDottxtRoute,
-  MaritimeSafetyDefenseRoute: MaritimeSafetyDefenseRoute,
   MediaRoute: MediaRoute,
   NewsRoute: NewsRoute,
   OemOdmRoute: OemOdmRoute,
@@ -2176,7 +2092,6 @@ const rootRouteChildren: RootRouteChildren = {
   ResourcesRoute: ResourcesRoute,
   RobotsDottxtRoute: RobotsDottxtRoute,
   RssDotxmlRoute: RssDotxmlRoute,
-  SearchAndRescueRoute: SearchAndRescueRoute,
   SearchIndexDotjsonRoute: SearchIndexDotjsonRoute,
   SitemapEsDotxmlRoute: SitemapEsDotxmlRoute,
   SitemapNewsDotxmlRoute: SitemapNewsDotxmlRoute,

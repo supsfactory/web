@@ -72,13 +72,55 @@ test('brand pages collapse onto /about and /about/afarer (P1-3)', () => {
   expect(gatePath('/es/brand/why-afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
 })
 
+test('non-SUP business lines 301 to afarer.com (P1-7)', () => {
+  expect(gatePath('/commercial-workboats')).toEqual({
+    action: 'redirect',
+    to: 'https://afarer.com/commercial-workboats',
+  })
+  expect(gatePath('/es/commercial-workboats')).toEqual({
+    action: 'redirect',
+    to: 'https://afarer.com/es/commercial-workboats',
+  })
+  expect(gatePath('/zh/commercial-workboats')).toEqual({
+    action: 'redirect',
+    to: 'https://afarer.com/es/commercial-workboats',
+  })
+  expect(gatePath('/maritime-safety-defense')).toEqual({
+    action: 'redirect',
+    to: 'https://afarer.com/maritime-safety-defense',
+  })
+  expect(gatePath('/search-and-rescue')).toEqual({
+    action: 'redirect',
+    to: 'https://afarer.com/search-and-rescue',
+  })
+  expect(gatePath('/disaster-relief-humanitarian-aid')).toEqual({
+    action: 'redirect',
+    to: 'https://afarer.com/disaster-relief-humanitarian-aid',
+  })
+  expect(gatePath('/products/life-vest-classic')).toEqual({
+    action: 'redirect',
+    to: 'https://afarer.com/products/life-vest-classic',
+  })
+  expect(gatePath('/products/life-vest-pro')).toEqual({
+    action: 'redirect',
+    to: 'https://afarer.com/products/life-vest-pro',
+  })
+  expect(gatePath('/products/oars-pump-set')).toEqual({
+    action: 'redirect',
+    to: 'https://afarer.com/products/oars-pump-set',
+  })
+})
+
 test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
   expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
   expect(gatePath('/guides/sup-yoga')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/research' })
   expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/fishing' })
-  expect(gatePath('/use-cases/disaster-relief')).toEqual({ action: 'redirect', to: '/disaster-relief-humanitarian-aid' })
+  expect(gatePath('/use-cases/disaster-relief')).toEqual({
+    action: 'redirect',
+    to: 'https://afarer.com/disaster-relief-humanitarian-aid',
+  })
   expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/contact' })
   expect(gatePath('/touring-sup')).toEqual({ action: 'redirect', to: '/products' })
   // /search is now a live search results page (not a legacy redirect)
@@ -91,6 +133,7 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
 test('every legacy URL resolves to a live route', () => {
   for (const [from, to] of Object.entries(LEGACY_REDIRECTS)) {
     expect(from, `legacy key must differ from its target`).not.toBe(to)
+    if (to.startsWith('https://')) continue // cross-domain handoff to afarer.com (P1-7)
     expect(LIVE_ROUTES.has(to), `${from} → ${to} is not a live route`).toBe(true)
   }
 })

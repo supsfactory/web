@@ -169,7 +169,7 @@ const HREF_REMAP: Record<string, string> = {
   '/guides/sup-for-touring': '/academy',
   '/guides/sup-maintenance': '/academy',
   '/guides/sup-size-guide': '/research/sup-thickness-guide',
-  '/use-cases/search-and-rescue': '/quality',
+  '/use-cases/search-and-rescue': 'https://afarer.com/search-and-rescue',
   // academy skill-path topics without a ported page
   '/sup-basics': '',
   '/paddle-techniques': '',

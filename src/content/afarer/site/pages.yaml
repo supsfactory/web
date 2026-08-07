@@ -73,19 +73,6 @@
     - { key: content_safety, type: content, label: 'Safety Content' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: commercial-workboats
-  label: Commercial Workboats
-  path: /commercial-workboats
-  permalink: /commercial-workboats
-  file: src/data/pages/commercial-workboats.yaml
-  sections:
-    - { key: label, type: content, label: 'Page Label' }
-    - { key: headline, type: content, label: 'Headline' }
-    - { key: subtitle, type: content, label: 'Subtitle' }
-    - { key: seo, type: content, label: 'SEO Metadata' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: body, type: content, label: 'Body Content' }
-
 - slug: community
   label: Community
   path: /community
@@ -108,19 +95,6 @@
     - { key: hero_text, type: hero_text, label: 'Top HeroText' }
     - { key: contact_form, type: contact, label: 'Contact Form' }
     - { key: map, type: map, label: 'Google Maps Location' }
-
-- slug: disaster-relief
-  label: Disaster Relief
-  path: /disaster-relief-humanitarian-aid
-  permalink: /disaster-relief-humanitarian-aid
-  file: src/data/pages/disaster-relief.yaml
-  sections:
-    - { key: label, type: content, label: 'Page Label' }
-    - { key: headline, type: content, label: 'Headline' }
-    - { key: subtitle, type: content, label: 'Subtitle' }
-    - { key: seo, type: content, label: 'SEO Metadata' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: body, type: content, label: 'Body Content' }
 
 - slug: factory
   label: Factory
@@ -292,19 +266,6 @@
     - { key: community_section, type: content, label: 'Community Section' }
     - { key: cta_section, type: cta, label: 'Bottom CTA' }
 
-- slug: maritime-safety-defense
-  label: Maritime Safety & Defense
-  path: /maritime-safety-defense
-  permalink: /maritime-safety-defense
-  file: src/data/pages/maritime-safety-defense.yaml
-  sections:
-    - { key: label, type: content, label: 'Page Label' }
-    - { key: headline, type: content, label: 'Headline' }
-    - { key: subtitle, type: content, label: 'Subtitle' }
-    - { key: seo, type: content, label: 'SEO Metadata' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: body, type: content, label: 'Body Content' }
-
 - slug: media
   label: Media
   path: /media
@@ -362,19 +323,6 @@
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: resources, type: features, label: 'Resources' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
-
-- slug: search-and-rescue
-  label: Search & Rescue
-  path: /search-and-rescue
-  permalink: /search-and-rescue
-  file: src/data/pages/search-and-rescue.yaml
-  sections:
-    - { key: label, type: content, label: 'Page Label' }
-    - { key: headline, type: content, label: 'Headline' }
-    - { key: subtitle, type: content, label: 'Subtitle' }
-    - { key: seo, type: content, label: 'SEO Metadata' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: body, type: content, label: 'Body Content' }
 
 - slug: size-guide
   label: Size Guide
