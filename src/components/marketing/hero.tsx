@@ -86,9 +86,10 @@ export function Hero() {
               <img
                 src={OG_IMAGE}
                 alt={c.mockupBrand}
-                width={1024}
-                height={768}
+                width={1200}
+                height={630}
                 fetchPriority="high"
+                decoding="async"
                 className="relative h-[280px] w-full object-cover md:h-[320px]"
               />
             </div>

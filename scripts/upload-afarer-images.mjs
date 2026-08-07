@@ -39,7 +39,9 @@ const DRY_RUN = args.includes('--dry-run')
 const HTTP_MODE = args.includes('--http')
 const SRC_DIR = flagValue('src', 'E:/github/afarer/public/images/afarer')
 const KEY_PREFIX = flagValue('prefix', 'images/sups/')
-const CACHE_CONTROL = flagValue('cache', 'public, max-age=86400')
+// 图片是稳定路径的不可变资产，允许浏览器/CDN 长缓存。若日后原地替换同名图，
+// 记得 bump 版本号（文件名带上 hash），不要依赖短缓存覆盖。
+const CACHE_CONTROL = flagValue('cache', 'public, max-age=31536000, immutable')
 const CONCURRENCY = 8
 
 const BUCKET = process.env.R2_BUCKET ?? 'supsfactory-files-prod'
@@ -151,6 +153,7 @@ async function uploadHttp(key, body, localPath) {
     headers: {
       authorization: `Bearer ${API_TOKEN}`,
       'content-type': contentType(localPath),
+      'cache-control': CACHE_CONTROL,
     },
     body,
   })

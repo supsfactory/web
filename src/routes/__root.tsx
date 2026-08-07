@@ -30,6 +30,10 @@ export const Route = createRootRoute({
     ],
     links: [
       { rel: 'stylesheet', href: appCss },
+      // Hero LCP + 页内图片大多来自 assets.supsfactory.com（跨域 R2 CDN），
+      // 提前建连能省掉一次 TCP+TLS 往返，直接缩短 LCP。
+      { rel: 'preconnect', href: 'https://assets.supsfactory.com' },
+      { rel: 'dns-prefetch', href: 'https://assets.supsfactory.com' },
       { rel: 'preload', href: '/fonts/manrope-latin-700-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
       { rel: 'preload', href: '/fonts/manrope-latin-800-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
       { rel: 'preload', href: '/fonts/inter-latin-400-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
