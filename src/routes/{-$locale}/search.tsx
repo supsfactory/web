@@ -4,7 +4,7 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
-import { buildExtendedIndex, type SearchEntryType } from '@/features/site/search'
+import { searchIndexServer, type SearchEntry, type SearchEntryType } from '@/features/site/search'
 import { PageHero } from '@/components/marketing/section-head'
 import { MarketingShell } from '@/components/marketing/shell'
 
@@ -14,7 +14,11 @@ interface SearchParams {
 
 export const Route = createFileRoute('/{-$locale}/search')({
   validateSearch: (s: Record<string, unknown>): SearchParams => ({ q: typeof s.q === 'string' ? s.q : undefined }),
-  loader: async () => ({ origin: await getOrigin() }),
+  loader: async ({ params }) => {
+    const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const [origin, entries] = await Promise.all([getOrigin(), searchIndexServer({ data: { locale } })])
+    return { origin, entries }
+  },
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
@@ -43,12 +47,11 @@ const TYPE_CLASS: Record<SearchEntryType, string> = {
 
 function SearchPage() {
   const { locale, t } = useTranslation()
+  const { entries } = Route.useLoaderData()
   const { q } = Route.useSearch()
   const query = (q ?? '').trim().toLowerCase()
-  const results = query
-    ? buildExtendedIndex(locale)
-        .filter((it) => it.title.toLowerCase().includes(query) || it.excerpt.toLowerCase().includes(query))
-        .slice(0, 24)
+  const results: SearchEntry[] = query
+    ? entries.filter((it) => it.title.toLowerCase().includes(query) || it.excerpt.toLowerCase().includes(query)).slice(0, 24)
     : []
 
   return (

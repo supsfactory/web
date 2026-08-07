@@ -3,7 +3,8 @@ import { Link } from '@tanstack/react-router'
 import { ArrowRight, Check } from 'lucide-react'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
-import { getAfarerProducts, getNewsPosts, getCaseUses, getResearchTopics, getAfarerPage, brandify } from '../loader'
+import { brandify } from '../brand'
+import { useAferIndex } from '../index-data'
 import { assetUrl } from '../assets'
 import type { AfarerPage, AfarerSectionDef } from '../types'
 
@@ -600,7 +601,8 @@ function TestimonialsWidget({ c }: { c: Record<string, unknown> }) {
 
 function BlogLatest({ c }: { c: Record<string, unknown> }) {
   const limit = typeof c.limit === 'number' && c.limit > 0 ? c.limit : 6
-  const posts = getNewsPosts().slice(0, limit)
+  const { news = [] } = useAferIndex()
+  const posts = news.slice(0, limit)
   return (
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || 'Latest News')} sub={brandify(str(c.subtitle) || '')} />
@@ -626,12 +628,13 @@ function BlogLatest({ c }: { c: Record<string, unknown> }) {
 }
 
 function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
-  const products = getAfarerProducts().slice(0, 8)
+  const { products = [] } = useAferIndex()
+  const items = products.slice(0, 8)
   return (
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || 'Featured Products')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        {products.map((p) => (
+        {items.map((p) => (
           <Link key={p.slug} to="/$" params={{ _splat: `products/${p.slug}` }} className="marine-card group flex h-full flex-col overflow-hidden p-0">
             {p.image && (
               <img src={p.image} alt={p.title} loading="lazy" className="aspect-[4/3] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
@@ -655,7 +658,7 @@ function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
 }
 
 function TopicList({ c }: { c: Record<string, unknown> }) {
-  const topics = getResearchTopics().filter((t) => getAfarerPage(`/research/${t.slug}`))
+  const { topics = [] } = useAferIndex()
   const heading = c.heading || c.title
   return (
     <Container>
@@ -676,7 +679,7 @@ function TopicList({ c }: { c: Record<string, unknown> }) {
 }
 
 function CaseList() {
-  const cases = getCaseUses()
+  const { cases = [] } = useAferIndex()
   return (
     <Container>
       <div className="mt-4 grid gap-5 md:grid-cols-2">

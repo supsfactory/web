@@ -1,6 +1,5 @@
 import { OG_IMAGE } from '@/features/seo/seo'
 import { afarerServerLoader } from './catchall'
-import { isAfarerPageTranslated } from './loader'
 import type { CatchAllData } from './catchall'
 
 /**
@@ -22,7 +21,7 @@ export function afarerSingleRoute(path: string) {
       links.push({ rel: 'alternate', hreflang: 'en-US', href: canonical })
       // Link the Spanish twin (when it exists) so the es page feeds back the
       // en page's signals too.
-      if (isAfarerPageTranslated(path, 'es')) {
+      if (loaderData.esTranslated) {
         links.push({ rel: 'alternate', hreflang: 'es-ES', href: `${origin}/es${path}` })
         links.push({ rel: 'alternate', hreflang: 'x-default', href: canonical })
       }

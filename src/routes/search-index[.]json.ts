@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { buildFullIndex } from '@/features/site/search'
+import { buildFullIndex } from '@/features/site/search-index.server'
 
 // `/search-index.json` — full-site search index for the header search dialog.
 const handler = () => {

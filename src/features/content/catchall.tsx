@@ -4,171 +4,59 @@
  * A single root splat route (`src/routes/$.tsx`) serves the ported afarer
  * content site for both prefix-less and locale-prefixed URLs (`/factory`,
  * `/es/factory`). It strips a leading locale segment before resolving the
- * path against the afarer registry. All server loading + views live here so
- * the route file stays thin.
+ * path against the afarer registry.
+ *
+ * The heavy resolution (afarer corpus + YAML parsing) is server-only in
+ * catchall.server.ts; this module keeps only the createServerFn handler, the
+ * loader data shape and the client views, so the client bundle stays free of
+ * the 900 KB+ content corpus.
  */
 
 import { getRouteApi, notFound } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import { I18nProvider } from '@/features/i18n/provider'
-import { defaultLocale, type Locale } from '@/features/i18n/locale'
+import { type Locale } from '@/features/i18n/locale'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
-import { OG_IMAGE } from '@/features/seo/seo'
 import { JsonLd, breadcrumbLd, faqLd, newsArticleLd } from '@/features/seo/jsonld'
-import { getAfarerPage, getAfarerProduct, getNewsPost, getTechArticle, getCaseUse, getSiteFaqs, isAfarerPageTranslated, brandify } from './loader'
+import { brandify } from './brand'
+import { AferIndexProvider, type AferIndexData } from './index-data'
 import { getGuide } from './guide-content'
 import { AfarerSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
-import type { AfarerProduct, AfarerPost } from './types'
+import type { AfarerArticle, AfarerCaseUse, AfarerPage, AfarerPost, AfarerProduct } from './types'
 
 const rootRoute = getRouteApi('__root__')
 
 export type CatchAllData = {
-  kind: string
   path: string
   origin: string
   /** Locale the page is served as (from the URL prefix, defaults to en). */
   locale: Locale
   /** True when a real Spanish variant is rendered (vs an English duplicate). */
   translated: boolean
+  /** True when a real Spanish variant exists for this path. */
+  esTranslated: boolean
+  /** Server-resolved widget index payloads for the page's sections. */
+  index: AferIndexData
 } & (
-  | { kind: 'page'; slug: string; title: string; description: string }
+  | { kind: 'page'; page: AfarerPage; slug: string; title: string; description: string }
   | { kind: 'product'; product: AfarerProduct; title: string; description: string; image: string }
   | { kind: 'post'; post: AfarerPost; title: string; description: string; image: string }
-  | { kind: 'article'; slug: string; title: string; description: string }
-  | { kind: 'case'; slug: string; title: string; description: string }
+  | { kind: 'article'; article: AfarerArticle; slug: string; title: string; description: string }
+  | { kind: 'case'; case: AfarerCaseUse; slug: string; title: string; description: string }
   | { kind: 'guide'; slug: string; title: string; description: string }
   | { kind: 'cases-index'; title: string; description: string }
   | { kind: 'research-index'; title: string; description: string }
-  | { kind: 'faq'; title: string; description: string }
+  | { kind: 'faq'; faqs: { q: string; a: string }[]; title: string; description: string }
 )
-
-const slugOf = (path: string): string => path.split('/').filter(Boolean).pop() ?? ''
-
-export function resolveCatchAll(path: string, locale: Locale = defaultLocale): CatchAllData | null {
-  const translated = isAfarerPageTranslated(path, locale)
-  const page = getAfarerPage(path, locale)
-  if (page) {
-    return {
-      kind: 'page',
-      path: page.path,
-      locale,
-      translated,
-      slug: page.slug,
-      title: brandify(page.meta?.title ?? `${page.label} — SUPsfactory`),
-      description: brandify(page.meta?.description ?? ''),
-      origin: '',
-    }
-  }
-  if (path.startsWith('/products/')) {
-    const product = getAfarerProduct(slugOf(path))
-    if (product) {
-      return {
-        kind: 'product',
-        path,
-        locale,
-        translated,
-        product,
-        title: brandify(product.metadata?.title ?? `${product.title} — SUPsfactory`),
-        description: brandify(product.metadata?.description ?? product.description ?? product.summary ?? ''),
-        image: product.image ?? OG_IMAGE,
-        origin: '',
-      }
-    }
-  }
-  if (path.startsWith('/news/')) {
-    const post = getNewsPost(slugOf(path))
-    if (post) {
-      return {
-        kind: 'post',
-        path,
-        locale,
-        translated,
-        post,
-        title: brandify(post.metadata?.title ?? `${post.title} — SUPsfactory`),
-        description: brandify(post.metadata?.description ?? post.excerpt ?? ''),
-        image: post.image ?? OG_IMAGE,
-        origin: '',
-      }
-    }
-  }
-  if (path.startsWith('/technology/')) {
-    const article = getTechArticle(slugOf(path))
-    if (article) {
-      return {
-        kind: 'article',
-        path,
-        locale,
-        translated,
-        slug: article.slug,
-        title: brandify(`${article.title} — SUPsfactory`),
-        description: brandify(article.description ?? article.summary ?? ''),
-        origin: '',
-      }
-    }
-  }
-  if (path.startsWith('/evidence/case-studies/')) {
-    const c = getCaseUse(slugOf(path))
-    if (c) {
-      return {
-        kind: 'case',
-        path,
-        locale,
-        translated,
-        slug: c.slug,
-        title: brandify(`${c.title} — SUPsfactory`),
-        description: brandify(c.description ?? c.summary ?? ''),
-        origin: '',
-      }
-    }
-  }
-  if (path === '/evidence/case-studies')
-    return { kind: 'cases-index', path, locale, translated: false, origin: '', title: 'Case Studies — SUPsfactory', description: 'How brands, resorts and operators launch and scale with our factory.' }
-  if (path === '/research')
-    return { kind: 'research-index', path, locale, translated: false, origin: '', title: 'Research & Technical Guides — SUPsfactory', description: 'In-depth technical research on SUP materials, construction, safety standards and manufacturing.' }
-  if (path.startsWith('/guides/')) {
-    const guide = getGuide(path)
-    if (guide) {
-      return {
-        kind: 'guide',
-        path,
-        locale,
-        translated,
-        slug: guide.slug,
-        title: brandify(`${guide.title} — SUPsfactory`),
-        description: brandify(guide.intro[0] ?? ''),
-        origin: '',
-      }
-    }
-  }
-  if (path === '/faq') {
-    // afarer's footer links to /faq; the nav target exists as a site-level
-    // faqs.yaml. Serve it as a real page (fixes the dead link + FAQPage schema).
-    if (getSiteFaqs(locale).length > 0) {
-      return {
-        kind: 'faq',
-        path,
-        locale,
-        translated,
-        origin: '',
-        title:
-          locale === 'es'
-            ? 'Preguntas frecuentes — Fabricación OEM de SUP'
-            : 'FAQ — Inflatable SUP OEM, Materials & MOQ | SUPsfactory',
-        description:
-          'Frequently asked questions about afarer inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale logistics.',
-      }
-    }
-  }
-  return null
-}
 
 export const afarerServerLoader = createServerFn({ method: 'GET' })
   .validator((input: { path: string; locale: string }) => input)
   .handler(async ({ data }) => {
+    const { resolveCatchAll } = await import('./catchall.server')
     const { env } = await import('@/lib/env')
     const origin = new URL(env.BETTER_AUTH_URL).origin
     const resolved = resolveCatchAll(data.path, data.locale as Locale)
@@ -217,7 +105,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
   const body = (() => {
     switch (data.kind) {
       case 'page': {
-        const page = getAfarerPage(data.path, data.locale)!
+        const page = data.page
         const faqs = collectPageFaqs(page)
         return (
           <>
@@ -247,13 +135,13 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
           </>
         )
       case 'article':
-        return <ArticleView slug={data.slug} origin={data.origin} title={data.title} path={data.path} />
+        return <ArticleView article={data.article} origin={data.origin} title={data.title} path={data.path} />
       case 'case':
-        return <CaseView slug={data.slug} origin={data.origin} title={data.title} path={data.path} />
+        return <CaseView c={data.case} origin={data.origin} title={data.title} path={data.path} />
       case 'guide':
         return <GuideView slug={data.slug} origin={data.origin} path={data.path} />
       case 'faq':
-        return <FaqView origin={data.origin} path={data.path} locale={data.locale} translated={data.translated} />
+        return <FaqView faqs={data.faqs} origin={data.origin} path={data.path} translated={data.translated} />
       case 'cases-index':
         return (
           <>
@@ -281,11 +169,13 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
 
   return (
     <I18nProvider locale={data.locale}>
-      <div className="min-h-screen bg-background text-foreground">
-        <SiteNav theme={theme} loggedIn={!!user} />
-        {body}
-        <Footer theme={theme} />
-      </div>
+      <AferIndexProvider value={data.index}>
+        <div className="min-h-screen bg-background text-foreground">
+          <SiteNav theme={theme} loggedIn={!!user} />
+          {body}
+          <Footer theme={theme} />
+        </div>
+      </AferIndexProvider>
     </I18nProvider>
   )
 }
@@ -394,9 +284,7 @@ function PostView({ post, origin, path }: { post: AfarerPost; origin: string; pa
   )
 }
 
-function ArticleView({ slug, origin, title, path }: { slug: string; origin: string; title: string; path: string }) {
-  const article = getTechArticle(slug)
-  if (!article) return null
+function ArticleView({ article, origin, title, path }: { article: AfarerArticle; origin: string; title: string; path: string }) {
   return (
     <>
       <PageHero kicker="Technology" title={title} sub={brandify(article.summary ?? '')} />
@@ -416,9 +304,7 @@ function ArticleView({ slug, origin, title, path }: { slug: string; origin: stri
   )
 }
 
-function CaseView({ slug, origin, title, path }: { slug: string; origin: string; title: string; path: string }) {
-  const c = getCaseUse(slug)
-  if (!c) return null
+function CaseView({ c, origin, title, path }: { c: AfarerCaseUse; origin: string; title: string; path: string }) {
   return (
     <>
       <PageHero kicker={c.category ?? 'Case Study'} title={title} sub={brandify(c.summary ?? '')} />
@@ -498,8 +384,7 @@ function GuideView({ slug, origin, path }: { slug: string; origin: string; path:
   )
 }
 
-function FaqView({ origin, path, locale, translated }: { origin: string; path: string; locale: Locale; translated: boolean }) {
-  const faqs = getSiteFaqs(locale).map((f) => ({ q: brandify(f.q), a: brandify(f.a) }))
+function FaqView({ faqs, origin, path, translated }: { faqs: { q: string; a: string }[]; origin: string; path: string; translated: boolean }) {
   return (
     <>
       <PageHero

@@ -2,7 +2,6 @@ import { createFileRoute, redirect } from '@tanstack/react-router'
 import { OG_IMAGE, localeHead } from '@/features/seo/seo'
 import { isLocale, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
 import { AfarerCatchAll, afarerServerLoader } from '@/features/content/catchall'
-import { isAfarerPageTranslated } from '@/features/content/loader'
 
 /**
  * Catch-all route for the ported afarer content site.
@@ -76,7 +75,7 @@ export const Route = createFileRoute('/$')({
     // en twin of a page with a real /es translation: emit the es alternate so
     // hreflang is bidirectional (sitemap already cross-links; the page head
     // must mirror it — Google requires the return tag on both sides).
-    const hasEsTwin = !loaderData.localized && isAfarerPageTranslated(loaderData.path, 'es')
+    const hasEsTwin = !loaderData.localized && loaderData.esTranslated
     const links: Record<string, string>[] = [{ rel: 'canonical', href: canonical }]
     if (hasEsTwin) {
       links.push({ rel: 'alternate', hreflang: 'es-ES', href: `${origin}${localizePath('es', loaderData.path)}` })

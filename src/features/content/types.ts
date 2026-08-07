@@ -28,7 +28,7 @@ export interface AfarerPage {
   meta?: AfarerPageMeta
   sections: AfarerSectionDef[]
   /** Parsed page YAML: section key → section value (shape varies per widget). */
-  content: Record<string, unknown>
+  content: Record<string, any>
 }
 
 export interface AfarerGalleryImage {

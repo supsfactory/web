@@ -399,3 +399,8 @@ export function brandify(text: string): string {
     .replaceAll('{BRAND}', 'afarer')
     .replaceAll('{count}', String(REGION_COUNT))
 }
+
+/** Number of global market regions afarer serves (brand `{count}` value). */
+export function getRegionCount(): number {
+  return REGION_COUNT
+}
