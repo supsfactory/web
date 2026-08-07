@@ -27,10 +27,6 @@ const LIVE_ROUTES = new Set([
 test('301 merge of duplicate paths (P0-4)', () => {
   expect(gatePath('/oem-odm')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
   expect(gatePath('/zh/oem-odm')).toEqual({ action: 'redirect', to: '/es/oem-odm-manufacturer' })
-  expect(gatePath('/brand/afarer')).toEqual({ action: 'redirect', to: '/afarer' })
-  expect(gatePath('/zh/brand/afarer')).toEqual({ action: 'redirect', to: '/afarer' })
-  expect(gatePath('/brand/story')).toEqual({ action: 'redirect', to: '/afarer' })
-  expect(gatePath('/zh/brand/story')).toEqual({ action: 'redirect', to: '/afarer' })
 })
 
 test('French-slug doorways 301 to closest English page (P1-5)', () => {
@@ -51,6 +47,29 @@ test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
   expect(gatePath('/solutions/resorts-hotels')).toEqual({ action: 'redirect', to: '/solutions/resort-sup' })
   expect(gatePath('/solutions/paddle-clubs')).toEqual({ action: 'redirect', to: '/solutions/club-sup' })
   expect(gatePath('/solutions/build-your-own-brand')).toEqual({ action: 'redirect', to: '/solutions/private-label-sup' })
+})
+
+test('brand pages collapse onto /about and /about/afarer (P1-3)', () => {
+  expect(gatePath('/afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
+  expect(gatePath('/es/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
+  expect(gatePath('/zh/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
+  expect(gatePath('/brand')).toEqual({ action: 'redirect', to: '/about' })
+  expect(gatePath('/es/brand')).toEqual({ action: 'redirect', to: '/es/about' })
+  expect(gatePath('/zh/brand')).toEqual({ action: 'redirect', to: '/es/about' })
+  expect(gatePath('/brand/afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
+  expect(gatePath('/es/brand/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
+  expect(gatePath('/zh/brand/afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
+  expect(gatePath('/brand/story')).toEqual({ action: 'redirect', to: '/about/afarer' })
+  expect(gatePath('/es/brand/story')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
+  expect(gatePath('/zh/brand/story')).toEqual({ action: 'redirect', to: '/about/afarer' })
+  expect(gatePath('/brand/global-presence')).toEqual({ action: 'redirect', to: '/about' })
+  expect(gatePath('/es/brand/global-presence')).toEqual({ action: 'redirect', to: '/es/about' })
+  expect(gatePath('/brand/marine-expertise')).toEqual({ action: 'redirect', to: '/about' })
+  expect(gatePath('/es/brand/marine-expertise')).toEqual({ action: 'redirect', to: '/es/about' })
+  expect(gatePath('/brand/team')).toEqual({ action: 'redirect', to: '/about' })
+  expect(gatePath('/es/brand/team')).toEqual({ action: 'redirect', to: '/es/about' })
+  expect(gatePath('/brand/why-afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
+  expect(gatePath('/es/brand/why-afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
 })
 
 test('legacy theafarer URLs 301 to live pages (spot checks)', () => {

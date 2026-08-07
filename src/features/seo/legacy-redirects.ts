@@ -11,14 +11,14 @@
  */
 export const LEGACY_REDIRECTS: Record<string, string> = {
   // --- About / brand ---
-  '/about/afarer-brand': '/brand',
-  '/afarer-story': '/afarer',
-  '/brand-global-presence': '/brand',
-  '/brand-marine-expertise': '/brand',
-  '/brand-why-afarer': '/brand',
-  '/aquafarer': '/brand',
+  '/about/afarer-brand': '/about',
+  '/afarer-story': '/about/afarer',
+  '/brand-global-presence': '/about',
+  '/brand-marine-expertise': '/about',
+  '/brand-why-afarer': '/about/afarer',
+  '/aquafarer': '/about',
   '/people': '/about',
-  '/geo-report': '/afarer',
+  '/geo-report': '/about/afarer',
   '/disclaimer': '/terms',
 
   // --- Products (old product-era pages) ---
@@ -76,7 +76,7 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   // --- Compare ---
   '/compare': '/inflatable-vs-hardboard',
   '/compare/inflatable-vs-hardboard': '/inflatable-vs-hardboard',
-  '/compare/afarer-vs-traditional-manufacturers': '/brand',
+  '/compare/afarer-vs-traditional-manufacturers': '/about',
   '/compare/pvc-vs-hypalon': '/research',
   '/compare/single-chamber-vs-multi-chamber': '/research',
 

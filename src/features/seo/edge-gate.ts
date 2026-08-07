@@ -11,10 +11,6 @@
 export const EDGE_REDIRECTS: Record<string, string> = {
   '/oem-odm': '/oem-odm-manufacturer',
   '/zh/oem-odm': '/es/oem-odm-manufacturer',
-  '/brand/afarer': '/afarer',
-  '/zh/brand/afarer': '/afarer',
-  '/brand/story': '/afarer',
-  '/zh/brand/story': '/afarer',
   // P0-4: retire Hifond dealer-recruitment posts (third-party brand leakage) → news hub
   '/news/afarer-supply-chain-2025': '/news',
   '/news/seeking-dealers-for-afarer': '/news',
@@ -40,6 +36,27 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/es/solutions/paddle-clubs': '/es/solutions/club-sup',
   '/solutions/build-your-own-brand': '/solutions/private-label-sup',
   '/es/solutions/build-your-own-brand': '/es/solutions/private-label-sup',
+  // P1-3: collapse the 8 brand sub-pages onto /about (story + values + team) and /about/afarer (brand page)
+  '/afarer': '/about/afarer',
+  '/es/afarer': '/es/about/afarer',
+  '/zh/afarer': '/es/about/afarer',
+  '/brand': '/about',
+  '/es/brand': '/es/about',
+  '/zh/brand': '/es/about',
+  '/brand/afarer': '/about/afarer',
+  '/es/brand/afarer': '/es/about/afarer',
+  '/zh/brand/afarer': '/about/afarer',
+  '/brand/story': '/about/afarer',
+  '/es/brand/story': '/es/about/afarer',
+  '/zh/brand/story': '/about/afarer',
+  '/brand/global-presence': '/about',
+  '/es/brand/global-presence': '/es/about',
+  '/brand/marine-expertise': '/about',
+  '/es/brand/marine-expertise': '/es/about',
+  '/brand/team': '/about',
+  '/es/brand/team': '/es/about',
+  '/brand/why-afarer': '/about/afarer',
+  '/es/brand/why-afarer': '/es/about/afarer',
 }
 
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'

@@ -50,9 +50,7 @@ import { Route as EntityDotjsonRouteImport } from './routes/entity[.]json'
 import { Route as DisasterReliefHumanitarianAidRouteImport } from './routes/disaster-relief-humanitarian-aid'
 import { Route as CommunityRouteImport } from './routes/community'
 import { Route as CommercialWorkboatsRouteImport } from './routes/commercial-workboats'
-import { Route as BrandRouteImport } from './routes/brand'
 import { Route as B2bSolutionsMatrixRouteImport } from './routes/b2b-solutions-matrix'
-import { Route as AfarerRouteImport } from './routes/afarer'
 import { Route as AcademyRouteImport } from './routes/academy'
 import { Route as SplatRouteImport } from './routes/$'
 import { Route as Char123LocaleChar125RouteRouteImport } from './routes/{-$locale}/route'
@@ -316,19 +314,9 @@ const CommercialWorkboatsRoute = CommercialWorkboatsRouteImport.update({
   path: '/commercial-workboats',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BrandRoute = BrandRouteImport.update({
-  id: '/brand',
-  path: '/brand',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const B2bSolutionsMatrixRoute = B2bSolutionsMatrixRouteImport.update({
   id: '/b2b-solutions-matrix',
   path: '/b2b-solutions-matrix',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AfarerRoute = AfarerRouteImport.update({
-  id: '/afarer',
-  path: '/afarer',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AcademyRoute = AcademyRouteImport.update({
@@ -662,9 +650,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
   '/academy': typeof AcademyRoute
-  '/afarer': typeof AfarerRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
-  '/brand': typeof BrandRoute
   '/commercial-workboats': typeof CommercialWorkboatsRoute
   '/community': typeof CommunityRoute
   '/disaster-relief-humanitarian-aid': typeof DisasterReliefHumanitarianAidRoute
@@ -763,9 +749,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/$': typeof SplatRoute
   '/academy': typeof AcademyRoute
-  '/afarer': typeof AfarerRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
-  '/brand': typeof BrandRoute
   '/commercial-workboats': typeof CommercialWorkboatsRoute
   '/community': typeof CommunityRoute
   '/disaster-relief-humanitarian-aid': typeof DisasterReliefHumanitarianAidRoute
@@ -864,9 +848,7 @@ export interface FileRoutesById {
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
   '/academy': typeof AcademyRoute
-  '/afarer': typeof AfarerRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
-  '/brand': typeof BrandRoute
   '/commercial-workboats': typeof CommercialWorkboatsRoute
   '/community': typeof CommunityRoute
   '/disaster-relief-humanitarian-aid': typeof DisasterReliefHumanitarianAidRoute
@@ -968,9 +950,7 @@ export interface FileRouteTypes {
     | '/{-$locale}'
     | '/$'
     | '/academy'
-    | '/afarer'
     | '/b2b-solutions-matrix'
-    | '/brand'
     | '/commercial-workboats'
     | '/community'
     | '/disaster-relief-humanitarian-aid'
@@ -1069,9 +1049,7 @@ export interface FileRouteTypes {
   to:
     | '/$'
     | '/academy'
-    | '/afarer'
     | '/b2b-solutions-matrix'
-    | '/brand'
     | '/commercial-workboats'
     | '/community'
     | '/disaster-relief-humanitarian-aid'
@@ -1169,9 +1147,7 @@ export interface FileRouteTypes {
     | '/{-$locale}'
     | '/$'
     | '/academy'
-    | '/afarer'
     | '/b2b-solutions-matrix'
-    | '/brand'
     | '/commercial-workboats'
     | '/community'
     | '/disaster-relief-humanitarian-aid'
@@ -1272,9 +1248,7 @@ export interface RootRouteChildren {
   Char123LocaleChar125RouteRoute: typeof Char123LocaleChar125RouteRouteWithChildren
   SplatRoute: typeof SplatRoute
   AcademyRoute: typeof AcademyRoute
-  AfarerRoute: typeof AfarerRoute
   B2bSolutionsMatrixRoute: typeof B2bSolutionsMatrixRoute
-  BrandRoute: typeof BrandRoute
   CommercialWorkboatsRoute: typeof CommercialWorkboatsRoute
   CommunityRoute: typeof CommunityRoute
   DisasterReliefHumanitarianAidRoute: typeof DisasterReliefHumanitarianAidRoute
@@ -1615,25 +1589,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CommercialWorkboatsRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/brand': {
-      id: '/brand'
-      path: '/brand'
-      fullPath: '/brand'
-      preLoaderRoute: typeof BrandRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/b2b-solutions-matrix': {
       id: '/b2b-solutions-matrix'
       path: '/b2b-solutions-matrix'
       fullPath: '/b2b-solutions-matrix'
       preLoaderRoute: typeof B2bSolutionsMatrixRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/afarer': {
-      id: '/afarer'
-      path: '/afarer'
-      fullPath: '/afarer'
-      preLoaderRoute: typeof AfarerRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/academy': {
@@ -2186,9 +2146,7 @@ const rootRouteChildren: RootRouteChildren = {
   Char123LocaleChar125RouteRoute: Char123LocaleChar125RouteRouteWithChildren,
   SplatRoute: SplatRoute,
   AcademyRoute: AcademyRoute,
-  AfarerRoute: AfarerRoute,
   B2bSolutionsMatrixRoute: B2bSolutionsMatrixRoute,
-  BrandRoute: BrandRoute,
   CommercialWorkboatsRoute: CommercialWorkboatsRoute,
   CommunityRoute: CommunityRoute,
   DisasterReliefHumanitarianAidRoute: DisasterReliefHumanitarianAidRoute,
