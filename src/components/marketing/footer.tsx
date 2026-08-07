@@ -1,5 +1,5 @@
 import { Link } from '@tanstack/react-router'
-import { Facebook, Linkedin, Mail, MessageCircle } from 'lucide-react'
+import { Facebook, Linkedin, Mail, MessageCircle, Youtube } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { FACTS } from '@/features/site/facts'
 import { Logo } from '@/components/brand/logo'
@@ -35,6 +35,9 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
               </a>
               <a href={FACTS.social.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
                 <Linkedin size={15} className="text-primary" /> {t('sup.footer.linkedin')}
+              </a>
+              <a href={FACTS.social.youtube} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
+                <Youtube size={15} className="text-primary" /> {t('sup.footer.youtube')}
               </a>
             </div>
           </div>

@@ -36,6 +36,7 @@ export const FACTS = {
   social: {
     facebook: 'https://www.facebook.com/supsfactory',
     linkedin: 'https://www.linkedin.com/company/supsfactory',
+    youtube: 'https://www.youtube.com/@supsfactory',
   },
   // ── 全站拔萃内蒙古联：Company Boilerplate（逐字复用）──
   boilerplate:
