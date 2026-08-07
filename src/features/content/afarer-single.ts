@@ -19,6 +19,7 @@ export function afarerSingleRoute(path: string) {
       const { origin, title, description } = loaderData
       const canonical = `${origin}${path}`
       const links: { rel: string; href: string; hreflang?: string }[] = [{ rel: 'canonical', href: canonical }]
+      links.push({ rel: 'alternate', hreflang: 'en-US', href: canonical })
       // Link the Spanish twin (when it exists) so the es page feeds back the
       // en page's signals too.
       if (isAfarerPageTranslated(path, 'es')) {
@@ -35,10 +36,15 @@ export function afarerSingleRoute(path: string) {
           { property: 'og:url', content: canonical },
           { property: 'og:locale', content: 'en_US' },
           { property: 'og:image', content: loaderData.kind === 'page' ? OG_IMAGE : ((loaderData as { image?: string }).image ?? OG_IMAGE) },
+          { property: 'og:image:width', content: '1200' },
+          { property: 'og:image:height', content: '630' },
+          { property: 'og:image:type', content: 'image/webp' },
+          { property: 'og:image:alt', content: `SUPsfactory — ${title.replace(/\s+\|.*$/, '')}` },
           { name: 'twitter:card', content: 'summary_large_image' },
           { name: 'twitter:title', content: title },
           { name: 'twitter:description', content: description },
           { name: 'twitter:image', content: loaderData.kind === 'page' ? OG_IMAGE : ((loaderData as { image?: string }).image ?? OG_IMAGE) },
+          { name: 'twitter:image:alt', content: `SUPsfactory — ${title.replace(/\s+\|.*$/, '')}` },
         ],
         links,
       }

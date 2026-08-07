@@ -72,6 +72,7 @@ import { Route as Char123LocaleChar125SupStartupBrandsRouteImport } from './rout
 import { Route as Char123LocaleChar125SupForResortsRouteImport } from './routes/{-$locale}/sup-for-resorts'
 import { Route as Char123LocaleChar125SupForClubsRouteImport } from './routes/{-$locale}/sup-for-clubs'
 import { Route as Char123LocaleChar125SolutionsRouteImport } from './routes/{-$locale}/solutions'
+import { Route as Char123LocaleChar125SearchRouteImport } from './routes/{-$locale}/search'
 import { Route as Char123LocaleChar125ProductsRouteImport } from './routes/{-$locale}/products'
 import { Route as Char123LocaleChar125PrivateLabelSupRouteImport } from './routes/{-$locale}/private-label-sup'
 import { Route as Char123LocaleChar125PrivacyRouteImport } from './routes/{-$locale}/privacy'
@@ -443,6 +444,12 @@ const Char123LocaleChar125SolutionsRoute =
     path: '/solutions',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
+const Char123LocaleChar125SearchRoute =
+  Char123LocaleChar125SearchRouteImport.update({
+    id: '/search',
+    path: '/search',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
 const Char123LocaleChar125ProductsRoute =
   Char123LocaleChar125ProductsRouteImport.update({
     id: '/products',
@@ -772,6 +779,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/products': typeof Char123LocaleChar125ProductsRoute
+  '/{-$locale}/search': typeof Char123LocaleChar125SearchRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRouteWithChildren
   '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
   '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
@@ -879,6 +887,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/products': typeof Char123LocaleChar125ProductsRoute
+  '/{-$locale}/search': typeof Char123LocaleChar125SearchRoute
   '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
   '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
   '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
@@ -988,6 +997,7 @@ export interface FileRoutesById {
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/products': typeof Char123LocaleChar125ProductsRoute
+  '/{-$locale}/search': typeof Char123LocaleChar125SearchRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRouteWithChildren
   '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
   '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
@@ -1099,6 +1109,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/privacy'
     | '/{-$locale}/private-label-sup'
     | '/{-$locale}/products'
+    | '/{-$locale}/search'
     | '/{-$locale}/solutions'
     | '/{-$locale}/sup-for-clubs'
     | '/{-$locale}/sup-for-resorts'
@@ -1206,6 +1217,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/privacy'
     | '/{-$locale}/private-label-sup'
     | '/{-$locale}/products'
+    | '/{-$locale}/search'
     | '/{-$locale}/sup-for-clubs'
     | '/{-$locale}/sup-for-resorts'
     | '/{-$locale}/sup-startup-brands'
@@ -1314,6 +1326,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/privacy'
     | '/{-$locale}/private-label-sup'
     | '/{-$locale}/products'
+    | '/{-$locale}/search'
     | '/{-$locale}/solutions'
     | '/{-$locale}/sup-for-clubs'
     | '/{-$locale}/sup-for-resorts'
@@ -1861,6 +1874,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125SolutionsRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
+    '/{-$locale}/search': {
+      id: '/{-$locale}/search'
+      path: '/search'
+      fullPath: '/{-$locale}/search'
+      preLoaderRoute: typeof Char123LocaleChar125SearchRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
     '/{-$locale}/products': {
       id: '/{-$locale}/products'
       path: '/products'
@@ -2239,6 +2259,7 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125PrivacyRoute: typeof Char123LocaleChar125PrivacyRoute
   Char123LocaleChar125PrivateLabelSupRoute: typeof Char123LocaleChar125PrivateLabelSupRoute
   Char123LocaleChar125ProductsRoute: typeof Char123LocaleChar125ProductsRoute
+  Char123LocaleChar125SearchRoute: typeof Char123LocaleChar125SearchRoute
   Char123LocaleChar125SolutionsRoute: typeof Char123LocaleChar125SolutionsRouteWithChildren
   Char123LocaleChar125SupForClubsRoute: typeof Char123LocaleChar125SupForClubsRoute
   Char123LocaleChar125SupForResortsRoute: typeof Char123LocaleChar125SupForResortsRoute
@@ -2280,6 +2301,7 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
     Char123LocaleChar125PrivateLabelSupRoute:
       Char123LocaleChar125PrivateLabelSupRoute,
     Char123LocaleChar125ProductsRoute: Char123LocaleChar125ProductsRoute,
+    Char123LocaleChar125SearchRoute: Char123LocaleChar125SearchRoute,
     Char123LocaleChar125SolutionsRoute:
       Char123LocaleChar125SolutionsRouteWithChildren,
     Char123LocaleChar125SupForClubsRoute: Char123LocaleChar125SupForClubsRoute,

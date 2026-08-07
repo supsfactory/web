@@ -1,7 +1,8 @@
 import { createFileRoute, redirect } from '@tanstack/react-router'
 import { OG_IMAGE, localeHead } from '@/features/seo/seo'
-import { isLocale, defaultLocale, type Locale } from '@/features/i18n/locale'
+import { isLocale, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
 import { AfarerCatchAll, afarerServerLoader } from '@/features/content/catchall'
+import { isAfarerPageTranslated } from '@/features/content/loader'
 
 /**
  * Catch-all route for the ported afarer content site.
@@ -56,10 +57,15 @@ export const Route = createFileRoute('/$')({
       { property: 'og:locale', content: 'en_US' },
       { property: 'og:type', content: loaderData.kind === 'post' ? 'article' : loaderData.kind === 'product' ? 'product' : 'website' },
       { property: 'og:image', content: image },
+      { property: 'og:image:width', content: '1200' },
+      { property: 'og:image:height', content: '630' },
+      { property: 'og:image:type', content: 'image/webp' },
+      { property: 'og:image:alt', content: `SUPsfactory — ${title.replace(/\s+\|.*$/, '')}` },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: title },
       { name: 'twitter:description', content: description },
       { name: 'twitter:image', content: image },
+      { name: 'twitter:image:alt', content: `SUPsfactory — ${title.replace(/\s+\|.*$/, '')}` },
     ]
     // /es/* afarer pages without a translation render the same English content
     // as their en twin (canonical → en). Noindex the duplicate so only the en
@@ -67,7 +73,15 @@ export const Route = createFileRoute('/$')({
     if (loaderData.localized) {
       meta.push({ name: 'robots', content: 'noindex, follow' })
     }
-    return { meta, links: [{ rel: 'canonical', href: canonical }] }
+    // en twin of a page with a real /es translation: emit the es alternate so
+    // hreflang is bidirectional (sitemap already cross-links; the page head
+    // must mirror it — Google requires the return tag on both sides).
+    const hasEsTwin = !loaderData.localized && isAfarerPageTranslated(loaderData.path, 'es')
+    const links: Record<string, string>[] = [{ rel: 'canonical', href: canonical }]
+    if (hasEsTwin) {
+      links.push({ rel: 'alternate', hreflang: 'es-ES', href: `${origin}${localizePath('es', loaderData.path)}` })
+    }
+    return { meta, links }
   },
   component: CatchAll,
 })

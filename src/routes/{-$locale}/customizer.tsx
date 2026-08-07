@@ -25,7 +25,7 @@ export const Route = createFileRoute('/{-$locale}/customizer')({
       origin,
       locale,
       path: '/customizer',
-      title: locale === 'es' ? 'Constructor de especificaciones SUP | Diseña tu tabla — SUPsfactory' : 'SUP Specification Builder | Design Your Custom Board — SUPsfactory',
+      title: locale === 'es' ? 'Constructor de especificaciones SUP | Diseña tu tabla' : 'SUP Specification Builder | Design Your Custom Board',
       description:
         locale === 'es'
           ? 'Visualiza tu concepto SUP antes de la producción: elige modelo, colores, sube tu logo y genera un mockup antes de pedir presupuesto de fabricación.'

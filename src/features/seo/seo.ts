@@ -7,15 +7,15 @@ interface PublicPathEntry {
 
 /** Marketing pages in the sitemap (bilingual, hreflang-linked). */
 export const PUBLIC_PATHS: PublicPathEntry[] = [
-  { path: '/', lastmod: '2026-06-15' },
-  { path: '/solutions', lastmod: '2026-05-20' },
-  { path: '/products', lastmod: '2026-05-20' },
-  { path: '/who-we-serve', lastmod: '2026-05-20' },
-  { path: '/how-it-works', lastmod: '2026-05-20' },
-  { path: '/gallery', lastmod: '2026-05-20' },
-  { path: '/about', lastmod: '2026-05-20' },
-  { path: '/contact', lastmod: '2026-05-20' },
-  { path: '/customizer', lastmod: '2026-05-20' },
+  { path: '/', lastmod: '2026-08-07' },
+  { path: '/solutions', lastmod: '2026-06-20' },
+  { path: '/products', lastmod: '2026-06-20' },
+  { path: '/who-we-serve', lastmod: '2026-06-20' },
+  { path: '/how-it-works', lastmod: '2026-08-07' },
+  { path: '/gallery', lastmod: '2026-08-07' },
+  { path: '/about', lastmod: '2026-08-07' },
+  { path: '/contact', lastmod: '2026-08-07' },
+  { path: '/customizer', lastmod: '2026-08-07' },
   { path: '/custom-sup-development', lastmod: '2026-06-01' },
   { path: '/solutions/private-label-sup', lastmod: '2026-06-01' },
   { path: '/solutions/resort-sup', lastmod: '2026-06-01' },
@@ -60,7 +60,7 @@ export function buildRobots(origin: string): string {
   const aiGroups = aiAgents.map((agent) => `User-agent: ${agent}\nAllow: /`).join('\n\n')
   return [
     `# ${origin}/robots.txt`,
-    '# Last updated: 2026-08-04',
+    '# Last updated: 2026-08-07',
     '',
     '# ---------------------------------------------------------------',
     '# Content signals',
@@ -204,10 +204,12 @@ export function localeHead(input: {
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
     { property: 'og:image:type', content: 'image/webp' },
+    { property: 'og:image:alt', content: 'SUPsfactory — Inflatable SUP OEM factory floor' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: title },
     { name: 'twitter:description', content: description },
     { name: 'twitter:image', content: OG_IMAGE },
+    { name: 'twitter:image:alt', content: 'SUPsfactory — Inflatable SUP OEM factory floor' },
   ]
   return { meta, links }
 }

@@ -3,6 +3,7 @@ export const en = {
     appName: 'SUPsfactory', toggleTheme: 'Toggle theme', language: 'Language',
     search: 'Search', searchPlaceholder: 'Search products, guides, projects…',
     searchStart: 'Type a keyword to start searching', searchNone: 'No matches found',
+    searchResultsTitle: 'Search', searchResultsFor: 'Results for "{query}"', searchResultsEmpty: 'No results found. Try a different keyword.',
     typeSolution: 'Solution', typeGuide: 'Guide', typeProject: 'Project', typePage: 'Page',
     signIn: 'Sign in',
   },

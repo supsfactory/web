@@ -24,7 +24,7 @@ export const Route = createFileRoute('/{-$locale}/contact')({
       origin,
       locale,
       path: '/contact',
-      title: locale === 'es' ? 'Contacto | Solicita un presupuesto de fabricación | SUPsfactory' : 'Contact | Request A Manufacturing Quotation — SUPsfactory',
+      title: locale === 'es' ? 'Contacto | Presupuesto de fabricación | SUPsfactory' : 'Contact | Request A Manufacturing Quotation — SUPsfactory',
       description:
         locale === 'es'
           ? 'Cuéntanos qué tablas quieres fabricar: MOQ por tramos desde 5–10 unidades de prueba, ingeniería y muestras, con respuesta en un día laborable.'

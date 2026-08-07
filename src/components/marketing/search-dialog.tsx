@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Search as SearchIcon } from 'lucide-react'
+import { useNavigate } from '@tanstack/react-router'
 import type { SearchEntry } from '@/features/site/search'
 import { useTranslation } from '@/features/i18n/provider'
 
@@ -11,13 +12,23 @@ const TYPE_CLASS: Record<SearchEntry['type'], string> = {
 }
 
 /** Site-wide search dialog — lazily fetches `/search-index.json`, filters by
- * the current locale, and navigates on selection. The `/` shortcut opens it. */
+ * the current locale, and navigates on selection. The `/` shortcut opens it;
+ * Enter submits to the /search results page. */
 export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen: () => void; onClose: () => void }) {
   const { t, locale } = useTranslation()
+  const navigate = useNavigate()
   const [query, setQuery] = React.useState('')
   const [index, setIndex] = React.useState<SearchEntry[] | null>(null)
   const inputRef = React.useRef<HTMLInputElement>(null)
   const dialogRef = React.useRef<HTMLDivElement>(null)
+
+  const submit = (e?: { preventDefault: () => void }) => {
+    e?.preventDefault()
+    const q = query.trim()
+    if (!q) return
+    onClose()
+    navigate({ to: '/{-$locale}/search', search: { q } })
+  }
 
   React.useEffect(() => {
     if (open) {
@@ -69,15 +80,20 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
         <div className="overflow-hidden rounded-xl border border-border bg-card shadow-[var(--shadow-lg)]">
           <div className="flex items-center gap-3 border-b border-border px-4 py-3">
             <SearchIcon size={18} className="shrink-0 text-fg-3" />
-            <input
-              ref={inputRef}
-              type="text"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder={t('common.searchPlaceholder')}
-              className="flex-1 bg-transparent text-[15px] text-foreground outline-none placeholder:text-fg-3"
-              autoComplete="off"
-            />
+            <form onSubmit={submit} className="flex min-w-0 flex-1">
+              <input
+                ref={inputRef}
+                type="text"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder={t('common.searchPlaceholder')}
+                className="min-w-0 flex-1 bg-transparent text-[15px] text-foreground outline-none placeholder:text-fg-3"
+                autoComplete="off"
+              />
+            </form>
+            <button type="button" onClick={submit} aria-label={t('common.search')} className="shrink-0 rounded-md bg-primary px-3 py-1 text-[13px] font-bold text-white transition-opacity hover:opacity-90">
+              {t('common.search')}
+            </button>
             <kbd className="rounded border border-border px-1.5 py-0.5 text-[11px] text-fg-3">Esc</kbd>
           </div>
           <div className="max-h-[60vh] overflow-y-auto p-2">

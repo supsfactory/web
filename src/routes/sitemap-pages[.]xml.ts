@@ -4,6 +4,8 @@ import { buildSitemap } from '@/features/seo/seo'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { getAfarerPages } from '@/features/content/loader'
 import { GUIDES } from '@/features/content/guide-content'
+import { projects } from '@/features/site/projects'
+import { knowledge } from '@/features/site/knowledge'
 
 // English marketing pages (hreflang-linked to /es mirrors in sitemap-es) plus
 // English-only afarer/static pages (no hreflang — their /es prefix is an
@@ -18,6 +20,8 @@ const handler = () => {
     })
   const staticPages = [
     ...GUIDES.map((g) => ({ loc: `/guides/${g.slug}`, lastmod: '2026-06-01' })),
+    ...projects.en.map((p) => ({ loc: `/projects/${p.slug}`, lastmod: '2026-08-07' })),
+    ...knowledge.en.map((a) => ({ loc: `/knowledge/${a.slug}`, lastmod: '2026-08-07' })),
     { loc: '/evidence/case-studies', lastmod: '2026-06-01' },
     { loc: '/research', lastmod: '2026-06-01' },
     { loc: '/faq', lastmod: '2026-06-01' },

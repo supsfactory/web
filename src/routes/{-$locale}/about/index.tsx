@@ -21,7 +21,7 @@ export const Route = createFileRoute('/{-$locale}/about/')({
       origin,
       locale,
       path: '/about',
-      title: locale === 'es' ? 'Sobre nosotros | Fabricante OEM/ODM de SUP hinchables | SUPsfactory' : 'About Us | Inflatable SUP OEM & ODM Manufacturer | SUPsfactory',
+      title: locale === 'es' ? 'Sobre nosotros | Fabricante OEM de SUP | SUPsfactory' : 'About Us | Inflatable SUP OEM | SUPsfactory',
       description:
         locale === 'es'
           ? 'SUPsfactory es la división de fabricación OEM/ODM de SUP hinchables de Afarer — ingeniería, moldes, muestras y producción, desde 5–10 unidades de prueba hasta series a escala de contenedor.'
