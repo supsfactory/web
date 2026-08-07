@@ -77,6 +77,21 @@ function articleLd(origin: string, title: string, description: string): Record<s
   }
 }
 
+/** TechArticle JSON-LD for the /research/* long-form articles (P2-1). */
+function researchArticleLd(origin: string, path: string, title: string, description: string, page: AfarerPage): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'TechArticle',
+    headline: title,
+    description,
+    url: `${origin}${path}`,
+    author: { '@type': 'Organization', name: 'SUPsfactory' },
+    publisher: { '@type': 'Organization', name: 'SUPsfactory' },
+    datePublished: page.meta?.datePublished,
+    dateModified: page.meta?.dateModified,
+  }
+}
+
 function productLd(origin: string, product: AfarerProduct): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
@@ -116,6 +131,9 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
                 { name: data.title, path: data.path },
               ])}
             />
+            {data.path.startsWith('/research/') && (
+              <JsonLd data={researchArticleLd(data.origin, data.path, data.title, data.description, page)} />
+            )}
             {faqs.length > 0 && <JsonLd data={faqLd(faqs)} />}
           </>
         )

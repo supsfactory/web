@@ -19,6 +19,10 @@ export interface AfarerPageMeta {
   title?: string
   description?: string
   keywords?: string[]
+  /** TechArticle schema fields for long-form research articles. */
+  author?: string
+  datePublished?: string
+  dateModified?: string
 }
 
 export interface AfarerPage {
