@@ -22,8 +22,6 @@ import { Route as SitemapEsDotxmlRouteImport } from './routes/sitemap-es[.]xml'
 import { Route as SearchIndexDotjsonRouteImport } from './routes/search-index[.]json'
 import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
 import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
-import { Route as ResourcesRouteImport } from './routes/resources'
-import { Route as ResearchRouteImport } from './routes/research'
 import { Route as RanddcenterRouteImport } from './routes/randdcenter'
 import { Route as QualityRouteImport } from './routes/quality'
 import { Route as PartnersRouteImport } from './routes/partners'
@@ -31,23 +29,15 @@ import { Route as OemPaddleRouteImport } from './routes/oem-paddle'
 import { Route as OemOdmManufacturerRouteImport } from './routes/oem-odm-manufacturer'
 import { Route as OemOdmRouteImport } from './routes/oem-odm'
 import { Route as NewsRouteImport } from './routes/news'
-import { Route as MediaRouteImport } from './routes/media'
 import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as LlmsFullDottxtRouteImport } from './routes/llms-full[.]txt'
-import { Route as LifestyleRouteImport } from './routes/lifestyle'
-import { Route as LearnRouteImport } from './routes/learn'
 import { Route as KnowledgeRouteImport } from './routes/knowledge'
-import { Route as JournalRouteImport } from './routes/journal'
 import { Route as InflatableVsHardboardRouteImport } from './routes/inflatable-vs-hardboard'
-import { Route as GuidesRouteImport } from './routes/guides'
 import { Route as FishingRouteImport } from './routes/fishing'
 import { Route as FaqRouteImport } from './routes/faq'
 import { Route as FactoryRouteImport } from './routes/factory'
-import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as EntityDotjsonRouteImport } from './routes/entity[.]json'
-import { Route as CommunityRouteImport } from './routes/community'
 import { Route as B2bSolutionsMatrixRouteImport } from './routes/b2b-solutions-matrix'
-import { Route as AcademyRouteImport } from './routes/academy'
 import { Route as SplatRouteImport } from './routes/$'
 import { Route as Char123LocaleChar125RouteRouteImport } from './routes/{-$locale}/route'
 import { Route as Char123LocaleChar125IndexRouteImport } from './routes/{-$locale}/index'
@@ -169,16 +159,6 @@ const RobotsDottxtRoute = RobotsDottxtRouteImport.update({
   path: '/robots.txt',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ResourcesRoute = ResourcesRouteImport.update({
-  id: '/resources',
-  path: '/resources',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ResearchRoute = ResearchRouteImport.update({
-  id: '/research',
-  path: '/research',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const RanddcenterRoute = RanddcenterRouteImport.update({
   id: '/randdcenter',
   path: '/randdcenter',
@@ -214,11 +194,6 @@ const NewsRoute = NewsRouteImport.update({
   path: '/news',
   getParentRoute: () => rootRouteImport,
 } as any)
-const MediaRoute = MediaRouteImport.update({
-  id: '/media',
-  path: '/media',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const LlmsDottxtRoute = LlmsDottxtRouteImport.update({
   id: '/llms.txt',
   path: '/llms.txt',
@@ -229,34 +204,14 @@ const LlmsFullDottxtRoute = LlmsFullDottxtRouteImport.update({
   path: '/llms-full.txt',
   getParentRoute: () => rootRouteImport,
 } as any)
-const LifestyleRoute = LifestyleRouteImport.update({
-  id: '/lifestyle',
-  path: '/lifestyle',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const LearnRoute = LearnRouteImport.update({
-  id: '/learn',
-  path: '/learn',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const KnowledgeRoute = KnowledgeRouteImport.update({
   id: '/knowledge',
   path: '/knowledge',
   getParentRoute: () => rootRouteImport,
 } as any)
-const JournalRoute = JournalRouteImport.update({
-  id: '/journal',
-  path: '/journal',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const InflatableVsHardboardRoute = InflatableVsHardboardRouteImport.update({
   id: '/inflatable-vs-hardboard',
   path: '/inflatable-vs-hardboard',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const GuidesRoute = GuidesRouteImport.update({
-  id: '/guides',
-  path: '/guides',
   getParentRoute: () => rootRouteImport,
 } as any)
 const FishingRoute = FishingRouteImport.update({
@@ -274,29 +229,14 @@ const FactoryRoute = FactoryRouteImport.update({
   path: '/factory',
   getParentRoute: () => rootRouteImport,
 } as any)
-const EvidenceRoute = EvidenceRouteImport.update({
-  id: '/evidence',
-  path: '/evidence',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const EntityDotjsonRoute = EntityDotjsonRouteImport.update({
   id: '/entity.json',
   path: '/entity.json',
   getParentRoute: () => rootRouteImport,
 } as any)
-const CommunityRoute = CommunityRouteImport.update({
-  id: '/community',
-  path: '/community',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const B2bSolutionsMatrixRoute = B2bSolutionsMatrixRouteImport.update({
   id: '/b2b-solutions-matrix',
   path: '/b2b-solutions-matrix',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AcademyRoute = AcademyRouteImport.update({
-  id: '/academy',
-  path: '/academy',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SplatRoute = SplatRouteImport.update({
@@ -624,23 +564,15 @@ const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
 export interface FileRoutesByFullPath {
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
-  '/academy': typeof AcademyRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
-  '/community': typeof CommunityRoute
   '/entity.json': typeof EntityDotjsonRoute
-  '/evidence': typeof EvidenceRoute
   '/factory': typeof FactoryRoute
   '/faq': typeof FaqRoute
   '/fishing': typeof FishingRoute
-  '/guides': typeof GuidesRoute
   '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
-  '/journal': typeof JournalRoute
   '/knowledge': typeof KnowledgeRoute
-  '/learn': typeof LearnRoute
-  '/lifestyle': typeof LifestyleRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
-  '/media': typeof MediaRoute
   '/news': typeof NewsRoute
   '/oem-odm': typeof OemOdmRoute
   '/oem-odm-manufacturer': typeof OemOdmManufacturerRoute
@@ -648,8 +580,6 @@ export interface FileRoutesByFullPath {
   '/partners': typeof PartnersRoute
   '/quality': typeof QualityRoute
   '/randdcenter': typeof RanddcenterRoute
-  '/research': typeof ResearchRoute
-  '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
@@ -719,23 +649,15 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/$': typeof SplatRoute
-  '/academy': typeof AcademyRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
-  '/community': typeof CommunityRoute
   '/entity.json': typeof EntityDotjsonRoute
-  '/evidence': typeof EvidenceRoute
   '/factory': typeof FactoryRoute
   '/faq': typeof FaqRoute
   '/fishing': typeof FishingRoute
-  '/guides': typeof GuidesRoute
   '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
-  '/journal': typeof JournalRoute
   '/knowledge': typeof KnowledgeRoute
-  '/learn': typeof LearnRoute
-  '/lifestyle': typeof LifestyleRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
-  '/media': typeof MediaRoute
   '/news': typeof NewsRoute
   '/oem-odm': typeof OemOdmRoute
   '/oem-odm-manufacturer': typeof OemOdmManufacturerRoute
@@ -743,8 +665,6 @@ export interface FileRoutesByTo {
   '/partners': typeof PartnersRoute
   '/quality': typeof QualityRoute
   '/randdcenter': typeof RanddcenterRoute
-  '/research': typeof ResearchRoute
-  '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
@@ -814,23 +734,15 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
-  '/academy': typeof AcademyRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
-  '/community': typeof CommunityRoute
   '/entity.json': typeof EntityDotjsonRoute
-  '/evidence': typeof EvidenceRoute
   '/factory': typeof FactoryRoute
   '/faq': typeof FaqRoute
   '/fishing': typeof FishingRoute
-  '/guides': typeof GuidesRoute
   '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
-  '/journal': typeof JournalRoute
   '/knowledge': typeof KnowledgeRoute
-  '/learn': typeof LearnRoute
-  '/lifestyle': typeof LifestyleRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
-  '/media': typeof MediaRoute
   '/news': typeof NewsRoute
   '/oem-odm': typeof OemOdmRoute
   '/oem-odm-manufacturer': typeof OemOdmManufacturerRoute
@@ -838,8 +750,6 @@ export interface FileRoutesById {
   '/partners': typeof PartnersRoute
   '/quality': typeof QualityRoute
   '/randdcenter': typeof RanddcenterRoute
-  '/research': typeof ResearchRoute
-  '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
@@ -912,23 +822,15 @@ export interface FileRouteTypes {
   fullPaths:
     | '/{-$locale}'
     | '/$'
-    | '/academy'
     | '/b2b-solutions-matrix'
-    | '/community'
     | '/entity.json'
-    | '/evidence'
     | '/factory'
     | '/faq'
     | '/fishing'
-    | '/guides'
     | '/inflatable-vs-hardboard'
-    | '/journal'
     | '/knowledge'
-    | '/learn'
-    | '/lifestyle'
     | '/llms-full.txt'
     | '/llms.txt'
-    | '/media'
     | '/news'
     | '/oem-odm'
     | '/oem-odm-manufacturer'
@@ -936,8 +838,6 @@ export interface FileRouteTypes {
     | '/partners'
     | '/quality'
     | '/randdcenter'
-    | '/research'
-    | '/resources'
     | '/robots.txt'
     | '/rss.xml'
     | '/search-index.json'
@@ -1007,23 +907,15 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/$'
-    | '/academy'
     | '/b2b-solutions-matrix'
-    | '/community'
     | '/entity.json'
-    | '/evidence'
     | '/factory'
     | '/faq'
     | '/fishing'
-    | '/guides'
     | '/inflatable-vs-hardboard'
-    | '/journal'
     | '/knowledge'
-    | '/learn'
-    | '/lifestyle'
     | '/llms-full.txt'
     | '/llms.txt'
-    | '/media'
     | '/news'
     | '/oem-odm'
     | '/oem-odm-manufacturer'
@@ -1031,8 +923,6 @@ export interface FileRouteTypes {
     | '/partners'
     | '/quality'
     | '/randdcenter'
-    | '/research'
-    | '/resources'
     | '/robots.txt'
     | '/rss.xml'
     | '/search-index.json'
@@ -1101,23 +991,15 @@ export interface FileRouteTypes {
     | '__root__'
     | '/{-$locale}'
     | '/$'
-    | '/academy'
     | '/b2b-solutions-matrix'
-    | '/community'
     | '/entity.json'
-    | '/evidence'
     | '/factory'
     | '/faq'
     | '/fishing'
-    | '/guides'
     | '/inflatable-vs-hardboard'
-    | '/journal'
     | '/knowledge'
-    | '/learn'
-    | '/lifestyle'
     | '/llms-full.txt'
     | '/llms.txt'
-    | '/media'
     | '/news'
     | '/oem-odm'
     | '/oem-odm-manufacturer'
@@ -1125,8 +1007,6 @@ export interface FileRouteTypes {
     | '/partners'
     | '/quality'
     | '/randdcenter'
-    | '/research'
-    | '/resources'
     | '/robots.txt'
     | '/rss.xml'
     | '/search-index.json'
@@ -1198,23 +1078,15 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   Char123LocaleChar125RouteRoute: typeof Char123LocaleChar125RouteRouteWithChildren
   SplatRoute: typeof SplatRoute
-  AcademyRoute: typeof AcademyRoute
   B2bSolutionsMatrixRoute: typeof B2bSolutionsMatrixRoute
-  CommunityRoute: typeof CommunityRoute
   EntityDotjsonRoute: typeof EntityDotjsonRoute
-  EvidenceRoute: typeof EvidenceRoute
   FactoryRoute: typeof FactoryRoute
   FaqRoute: typeof FaqRoute
   FishingRoute: typeof FishingRoute
-  GuidesRoute: typeof GuidesRoute
   InflatableVsHardboardRoute: typeof InflatableVsHardboardRoute
-  JournalRoute: typeof JournalRoute
   KnowledgeRoute: typeof KnowledgeRoute
-  LearnRoute: typeof LearnRoute
-  LifestyleRoute: typeof LifestyleRoute
   LlmsFullDottxtRoute: typeof LlmsFullDottxtRoute
   LlmsDottxtRoute: typeof LlmsDottxtRoute
-  MediaRoute: typeof MediaRoute
   NewsRoute: typeof NewsRoute
   OemOdmRoute: typeof OemOdmRoute
   OemOdmManufacturerRoute: typeof OemOdmManufacturerRoute
@@ -1222,8 +1094,6 @@ export interface RootRouteChildren {
   PartnersRoute: typeof PartnersRoute
   QualityRoute: typeof QualityRoute
   RanddcenterRoute: typeof RanddcenterRoute
-  ResearchRoute: typeof ResearchRoute
-  ResourcesRoute: typeof ResourcesRoute
   RobotsDottxtRoute: typeof RobotsDottxtRoute
   RssDotxmlRoute: typeof RssDotxmlRoute
   SearchIndexDotjsonRoute: typeof SearchIndexDotjsonRoute
@@ -1340,20 +1210,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof RobotsDottxtRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/resources': {
-      id: '/resources'
-      path: '/resources'
-      fullPath: '/resources'
-      preLoaderRoute: typeof ResourcesRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/research': {
-      id: '/research'
-      path: '/research'
-      fullPath: '/research'
-      preLoaderRoute: typeof ResearchRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/randdcenter': {
       id: '/randdcenter'
       path: '/randdcenter'
@@ -1403,13 +1259,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NewsRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/media': {
-      id: '/media'
-      path: '/media'
-      fullPath: '/media'
-      preLoaderRoute: typeof MediaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/llms.txt': {
       id: '/llms.txt'
       path: '/llms.txt'
@@ -1424,20 +1273,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LlmsFullDottxtRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/lifestyle': {
-      id: '/lifestyle'
-      path: '/lifestyle'
-      fullPath: '/lifestyle'
-      preLoaderRoute: typeof LifestyleRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/learn': {
-      id: '/learn'
-      path: '/learn'
-      fullPath: '/learn'
-      preLoaderRoute: typeof LearnRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/knowledge': {
       id: '/knowledge'
       path: '/knowledge'
@@ -1445,25 +1280,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KnowledgeRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/journal': {
-      id: '/journal'
-      path: '/journal'
-      fullPath: '/journal'
-      preLoaderRoute: typeof JournalRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/inflatable-vs-hardboard': {
       id: '/inflatable-vs-hardboard'
       path: '/inflatable-vs-hardboard'
       fullPath: '/inflatable-vs-hardboard'
       preLoaderRoute: typeof InflatableVsHardboardRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/guides': {
-      id: '/guides'
-      path: '/guides'
-      fullPath: '/guides'
-      preLoaderRoute: typeof GuidesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/fishing': {
@@ -1487,13 +1308,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FactoryRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/evidence': {
-      id: '/evidence'
-      path: '/evidence'
-      fullPath: '/evidence'
-      preLoaderRoute: typeof EvidenceRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/entity.json': {
       id: '/entity.json'
       path: '/entity.json'
@@ -1501,25 +1315,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EntityDotjsonRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/community': {
-      id: '/community'
-      path: '/community'
-      fullPath: '/community'
-      preLoaderRoute: typeof CommunityRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/b2b-solutions-matrix': {
       id: '/b2b-solutions-matrix'
       path: '/b2b-solutions-matrix'
       fullPath: '/b2b-solutions-matrix'
       preLoaderRoute: typeof B2bSolutionsMatrixRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/academy': {
-      id: '/academy'
-      path: '/academy'
-      fullPath: '/academy'
-      preLoaderRoute: typeof AcademyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/$': {
@@ -2064,23 +1864,15 @@ const Char123LocaleChar125RouteRouteWithChildren =
 const rootRouteChildren: RootRouteChildren = {
   Char123LocaleChar125RouteRoute: Char123LocaleChar125RouteRouteWithChildren,
   SplatRoute: SplatRoute,
-  AcademyRoute: AcademyRoute,
   B2bSolutionsMatrixRoute: B2bSolutionsMatrixRoute,
-  CommunityRoute: CommunityRoute,
   EntityDotjsonRoute: EntityDotjsonRoute,
-  EvidenceRoute: EvidenceRoute,
   FactoryRoute: FactoryRoute,
   FaqRoute: FaqRoute,
   FishingRoute: FishingRoute,
-  GuidesRoute: GuidesRoute,
   InflatableVsHardboardRoute: InflatableVsHardboardRoute,
-  JournalRoute: JournalRoute,
   KnowledgeRoute: KnowledgeRoute,
-  LearnRoute: LearnRoute,
-  LifestyleRoute: LifestyleRoute,
   LlmsFullDottxtRoute: LlmsFullDottxtRoute,
   LlmsDottxtRoute: LlmsDottxtRoute,
-  MediaRoute: MediaRoute,
   NewsRoute: NewsRoute,
   OemOdmRoute: OemOdmRoute,
   OemOdmManufacturerRoute: OemOdmManufacturerRoute,
@@ -2088,8 +1880,6 @@ const rootRouteChildren: RootRouteChildren = {
   PartnersRoute: PartnersRoute,
   QualityRoute: QualityRoute,
   RanddcenterRoute: RanddcenterRoute,
-  ResearchRoute: ResearchRoute,
-  ResourcesRoute: ResourcesRoute,
   RobotsDottxtRoute: RobotsDottxtRoute,
   RssDotxmlRoute: RssDotxmlRoute,
   SearchIndexDotjsonRoute: SearchIndexDotjsonRoute,

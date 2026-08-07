@@ -246,6 +246,8 @@ export const en = {
       readArticle: 'Read the guide',
       sectionKicker: 'Knowledge',
       sectionTitle: 'Guides for Planning Your SUP Project',
+      guidesKicker: 'Beginner Guides',
+      guidesTitle: 'Get Started With Inflatable SUP',
       nextKicker: 'Related Guide',
       ctaKicker: 'Have a Project?',
       ctaTitle: 'Put These Insights to Work on Your Own Project',

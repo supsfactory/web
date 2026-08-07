@@ -185,7 +185,6 @@ export function llmAfarierIndex(origin: string): string {
     .map((p) => `- [${PAGE_TITLES[p.path] ?? brandify(p.label)}](${abs(origin, p.path)}): ${flat(brandify(p.meta?.description ?? ''))}`)
   const staticLines = [
     `- [FAQ](${abs(origin, '/faq')}): Answers to the most common questions about inflatable SUPs`,
-    `- [Research](${abs(origin, '/research')}): Research library — drop-stitch, PVC vs Hypalon, CE certification, thickness`,
   ]
   const resolvedResearch = new Set(getAfarerPages().map((p) => p.path))
   const researchLines = getResearchTopics()

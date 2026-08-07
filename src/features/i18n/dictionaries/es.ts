@@ -236,6 +236,8 @@ export const es = {
       readArticle: 'Leer la guía',
       sectionKicker: 'Conocimiento',
       sectionTitle: 'Guías para planificar tu proyecto SUP',
+      guidesKicker: 'Guías para empezar',
+      guidesTitle: 'Iníciate en el SUP hinchable',
       nextKicker: 'Guía relacionada',
       ctaKicker: '¿Tienes un proyecto?',
       ctaTitle: 'Aplica estos aprendizajes a tu propio proyecto',

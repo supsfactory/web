@@ -23,7 +23,6 @@ const handler = () => {
     ...projects.en.map((p) => ({ loc: `/projects/${p.slug}`, lastmod: '2026-08-07' })),
     ...knowledge.en.map((a) => ({ loc: `/knowledge/${a.slug}`, lastmod: '2026-08-07' })),
     { loc: '/evidence/case-studies', lastmod: '2026-06-01' },
-    { loc: '/research', lastmod: '2026-06-01' },
     { loc: '/faq', lastmod: '2026-06-01' },
   ]
   return new Response(buildSitemap(origin, [...afarer, ...staticPages], { locale: 'en' }), {

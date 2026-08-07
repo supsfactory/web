@@ -7,8 +7,7 @@ import { PUBLIC_PATHS } from '@/features/seo/seo'
 
 /** Dedicated/static routes not covered by getAfarerPages() or PUBLIC_PATHS. */
 const TEMPLATE_ROUTES = [
-  '/academy', '/community', '/evidence', '/evidence/case-studies', '/faq', '/journal', '/lifestyle',
-  '/media', '/news', '/partners', '/research',
+  '/evidence/case-studies', '/faq', '/news', '/partners',
   // legal pages are live routes but deliberately excluded from the sitemaps
   '/terms', '/privacy',
 ]
@@ -115,7 +114,7 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
   expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
   expect(gatePath('/guides/sup-yoga')).toEqual({ action: 'redirect', to: '/knowledge' })
-  expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/research' })
+  expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/fishing' })
   expect(gatePath('/use-cases/disaster-relief')).toEqual({
     action: 'redirect',
@@ -156,10 +155,31 @@ test('revived pages are served, not 301d (P0-5)', () => {
   expect(gatePath('/research/drop-stitch-technology').action).toBe('ok')
   expect(gatePath('/solutions/club-sup').action).toBe('ok')
   expect(gatePath('/private-label-sup').action).toBe('ok')
-  expect(gatePath('/guides').action).toBe('ok')
   expect(gatePath('/guides/beginner-guide').action).toBe('ok')
   expect(gatePath('/guides/inflatable-vs-hard').action).toBe('ok')
   expect(gatePath('/evidence/case-studies').action).toBe('ok')
+})
+
+test('content hubs 301 onto their keepers, sub-pages stay live (P1-2)', () => {
+  // 10 hub indexes collapse onto the 4 keepers (en + es).
+  const hubs: [string, string][] = [
+    ['/learn', '/knowledge'], ['/academy', '/knowledge'], ['/guides', '/knowledge'],
+    ['/research', '/knowledge'], ['/resources', '/knowledge'], ['/community', '/knowledge'],
+    ['/lifestyle', '/knowledge'], ['/journal', '/news'], ['/media', '/news'], ['/evidence', '/projects'],
+  ]
+  for (const [from, to] of hubs) {
+    expect(gatePath(from)).toEqual({ action: 'redirect', to })
+    expect(gatePath(`/es${from}`)).toEqual({ action: 'redirect', to: `/es${to}` })
+  }
+  // Real content under the merged hubs remains live.
+  expect(gatePath('/guides/how-to-choose-your-sup').action).toBe('ok')
+  expect(gatePath('/research/ce-certification-guide').action).toBe('ok')
+  expect(gatePath('/evidence/case-studies/beginner-sup-training').action).toBe('ok')
+  expect(gatePath('/knowledge').action).toBe('ok')
+  expect(gatePath('/projects').action).toBe('ok')
+  expect(gatePath('/news').action).toBe('ok')
+  expect(gatePath('/technology').action).toBe('ok')
+  expect(gatePath('/es/knowledge').action).toBe('ok')
 })
 
 test('retired zh locale: every /zh/* URL 301s to its /es mirror', () => {

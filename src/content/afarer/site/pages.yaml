@@ -34,31 +34,6 @@
     - { key: certifications, type: features, label: 'Certification List' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: academy
-  label: Academy
-  path: /academy
-  permalink: /academy
-  file: src/data/pages/academy.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Page Hero' }
-    - { key: categories, type: features, label: 'Learning Categories' }
-    - { key: knowledge_center_tagline, type: content, label: 'Knowledge Center Tagline' }
-    - { key: knowledge_center_title, type: content, label: 'Knowledge Center Title' }
-    - { key: knowledge_center_subtitle, type: content, label: 'Knowledge Center Subtitle' }
-    - { key: knowledge_sections, type: features, label: 'Knowledge Sections' }
-    - { key: read_guide, type: content, label: 'Read Guide Link Text' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
-- slug: cases
-  label: Cases
-  path: /evidence
-  permalink: /evidence
-  file: src/data/pages/cases.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: features3_cases, type: features3, label: 'Featured Cases' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
 - slug: certifications
   label: Certifications
   path: /quality
@@ -71,19 +46,6 @@
     - { key: content_certifications, type: content, label: 'Certifications Content' }
     - { key: content_factory, type: content, label: 'Factory Content' }
     - { key: content_safety, type: content, label: 'Safety Content' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
-- slug: community
-  label: Community
-  path: /community
-  permalink: /community
-  file: src/data/pages/community.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: stats, type: stats, label: 'Statistics' }
-    - { key: stories, type: testimonials, label: 'Stories' }
-    - { key: adventures_cta, type: cta, label: 'Adventures CTA' }
-    - { key: locations, type: features, label: 'Locations' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: contact
@@ -200,15 +162,6 @@
     - { key: albums, type: features, label: 'Photo Albums' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: guides
-  label: Guides
-  path: /guides
-  permalink: /guides
-  file: src/data/pages/guides.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Page Hero' }
-    - { key: size_guide, type: content, label: 'Size Guide Section' }
-
 - slug: inflatable-vs-hardboard
   label: Inflatable vs Hardboard
   path: /inflatable-vs-hardboard
@@ -222,16 +175,6 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: body, type: content, label: 'Body Content' }
 
-- slug: journal
-  label: Journal
-  path: /journal
-  permalink: /journal
-  file: src/data/pages/journal.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: latest, type: blog_latest, label: 'Latest Journal Posts' }
-    - { key: social_section, type: content, label: 'Social Section' }
-
 - slug: knowledge
   label: Knowledge
   path: /knowledge
@@ -241,40 +184,6 @@
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: clusters, type: features, label: 'Knowledge Clusters' }
     - { key: featured_guides, type: content, label: 'Featured Guides' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
-- slug: learn
-  label: Learn
-  path: /learn
-  permalink: /learn
-  file: src/data/pages/learn.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: featured, type: content, label: 'Featured Content' }
-    - { key: categories, type: features, label: 'Learning Categories' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
-- slug: lifestyle
-  label: Lifestyle
-  path: /lifestyle
-  permalink: /lifestyle
-  file: src/data/pages/lifestyle.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: values, type: features, label: 'Brand Values' }
-    - { key: ethos_section, type: content, label: 'Ethos Section' }
-    - { key: community_section, type: content, label: 'Community Section' }
-    - { key: cta_section, type: cta, label: 'Bottom CTA' }
-
-- slug: media
-  label: Media
-  path: /media
-  permalink: /media
-  file: src/data/pages/media.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: sections, type: features, label: 'Media Sections' }
-    - { key: request_access, type: content, label: 'Request Access' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: news
@@ -313,16 +222,6 @@
     - { key: rd_services, type: features, label: 'R&D Services' }
     - { key: vision, type: content, label: 'Vision' }
     - { key: labs_section, type: features, label: 'Labs Section' }
-
-- slug: resources
-  label: Resources
-  path: /resources
-  permalink: /resources
-  file: src/data/pages/resources.yaml
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: resources, type: features, label: 'Resources' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: size-guide
   label: Size Guide

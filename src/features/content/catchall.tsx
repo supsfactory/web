@@ -373,7 +373,7 @@ function GuideView({ slug, origin, path }: { slug: string; origin: string; path:
         <JsonLd
           data={breadcrumbLd(origin, [
             { name: 'Home', path: '/' },
-            { name: 'Guides', path: '/guides' },
+            { name: 'Guides', path: '/knowledge' },
             { name: guide.title, path },
           ])}
         />

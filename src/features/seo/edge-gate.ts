@@ -80,6 +80,32 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/products/oars-pump-set': 'https://afarer.com/products/oars-pump-set',
   '/es/products/oars-pump-set': 'https://afarer.com/es/products/oars-pump-set',
   '/zh/products/oars-pump-set': 'https://afarer.com/es/products/oars-pump-set',
+  // P1-2: consolidate the 10 template-driven content hubs onto the 4 keepers
+  // (/knowledge + /projects are the ESM hubs; /news + /technology are afarer
+  // registry pages). The real content under each hub stays live — /guides/*,
+  // /research/*, /evidence/case-studies/* sub-pages are served as before; only
+  // the duplicate hub indexes 301. /evidence/case-studies stays live (real
+  // case index with 4 ported case studies), only /evidence itself merges.
+  '/learn': '/knowledge',
+  '/es/learn': '/es/knowledge',
+  '/academy': '/knowledge',
+  '/es/academy': '/es/knowledge',
+  '/guides': '/knowledge',
+  '/es/guides': '/es/knowledge',
+  '/research': '/knowledge',
+  '/es/research': '/es/knowledge',
+  '/resources': '/knowledge',
+  '/es/resources': '/es/knowledge',
+  '/community': '/knowledge',
+  '/es/community': '/es/knowledge',
+  '/lifestyle': '/knowledge',
+  '/es/lifestyle': '/es/knowledge',
+  '/journal': '/news',
+  '/es/journal': '/es/news',
+  '/media': '/news',
+  '/es/media': '/es/news',
+  '/evidence': '/projects',
+  '/es/evidence': '/es/projects',
 }
 
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
