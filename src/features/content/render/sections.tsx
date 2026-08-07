@@ -740,6 +740,107 @@ function CaseCardsWidget({ c }: { c: Record<string, unknown> }) {
 
 /* ─────────────────────── academy categories + knowledge ─────────────────────── */
 
+/**
+ * Dispatches the `categories` section key by shape:
+ * - factory-equipment: array of { title, items: [{ name, spec, desc }] }
+ * - size-guide: object map of category → description (inflatable / sup / accessory)
+ * - academy/knowledge: array of { level, guides } (legacy AcademyCategories)
+ */
+function CategoriesWidget({ c }: { c: Record<string, unknown> }) {
+  const raw = (arr(c.__raw).length ? arr(c.__raw) : arr(c.categories ?? c.items)) as Record<string, unknown>[]
+  if (raw.length > 0) {
+    const first = raw[0]
+    if (first && typeof first === 'object' && Array.isArray(first.guides)) return <AcademyCategories c={c} />
+    if (first && typeof first === 'object' && Array.isArray(first.items)) return <EquipmentCategories c={{ categories: raw }} />
+  }
+  const map = Object.entries(c).filter(([, v]) => typeof v === 'string')
+  if (map.length > 0) return <CategoryBlurbs c={{ items: map.map(([title, description]) => ({ title, description })) }} />
+  return null
+}
+
+function EquipmentCategories({ c }: { c: Record<string, unknown> }) {
+  const cats = arr(c.categories) as Record<string, unknown>[]
+  if (cats.length === 0) return null
+  return (
+    <Container>
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || 'Equipment & Machinery')} />
+      <div className="mt-10 space-y-10">
+        {cats.map((cat, i) => {
+          const items = arr(cat.items) as Record<string, unknown>[]
+          return (
+            <div key={i}>
+              <h3 className="font-display text-lg font-extrabold">{brandify(str(cat.title) || '')}</h3>
+              <div className="mt-4 space-y-4">
+                {items.map((it, j) => (
+                  <div key={j} className="marine-card p-5">
+                    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                      <h4 className="font-display text-[15px] font-bold">{brandify(str(it.name) || '')}</h4>
+                      {str(it.spec) && <span className="text-[12px] font-semibold uppercase tracking-wide text-primary">{brandify(str(it.spec))}</span>}
+                    </div>
+                    {str(it.desc) && <p className="mt-1.5 text-[13.5px] leading-relaxed text-fg-2">{brandify(str(it.desc))}</p>}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )
+        })}
+      </div>
+    </Container>
+  )
+}
+
+function CategoryBlurbs({ c }: { c: Record<string, unknown> }) {
+  const items = arr(c.items) as Record<string, unknown>[]
+  if (items.length === 0) return null
+  return (
+    <Container>
+      <div className="grid gap-5 md:grid-cols-3">
+        {items.map((it, i) => (
+          <div key={i} className="marine-card p-6">
+            <h3 className="font-display text-[17px] font-bold capitalize">{brandify(str(it.title) || '')}</h3>
+            <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{brandify(str(it.description) || '')}</p>
+          </div>
+        ))}
+      </div>
+    </Container>
+  )
+}
+
+function SizeTableWidget({ c }: { c: Record<string, unknown> }) {
+  const headers = (isObj(c.headers) ? c.headers : {}) as Record<string, unknown>
+  const rows = arr(c.rows) as Record<string, unknown>[]
+  const keys = (isObj(c.headers) ? Object.keys(c.headers) : []) as string[]
+  if (keys.length === 0 || rows.length === 0) return null
+  return (
+    <Container>
+      <div className="overflow-x-auto rounded-2xl border border-border">
+        <table className="w-full min-w-[720px] text-left text-[13.5px]">
+          <thead>
+            <tr className="border-b border-border bg-soft/60">
+              {keys.map((k) => (
+                <th key={k} className="px-4 py-3 font-display text-[12.5px] font-extrabold uppercase tracking-wide text-fg-2">
+                  {brandify(str(headers[k]))}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-border">
+            {rows.map((row, i) => (
+              <tr key={i} className="align-top">
+                {keys.map((k) => (
+                  <td key={k} className="px-4 py-3.5 font-semibold text-fg-2">
+                    {brandify(str(row[k]))}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </Container>
+  )
+}
+
 function AcademyCategories({ c }: { c: Record<string, unknown> }) {
   const cats = (arr(c.__raw).length ? arr(c.__raw) : arr(c.categories ?? c.items)) as Record<string, unknown>[]
   if (cats.length === 0) return null
@@ -987,7 +1088,8 @@ const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNod
   qc_dashboard: (c) => <StatGrid items={statItems(c)} heading={c} />,
   equipment_section: (c) => <EquipmentWidget c={c} />,
   features3_cases: (c) => <CaseCardsWidget c={c} />,
-  categories: (c) => <AcademyCategories c={c} />,
+  categories: (c) => <CategoriesWidget c={c} />,
+  table: (c) => <SizeTableWidget c={c} />,
   knowledge_sections: (c) => <AcademyKnowledge c={c} />,
   // ported afarer solution / OEM page sections
   roi_section: (c) => <PortedRoiSection c={c} />,
