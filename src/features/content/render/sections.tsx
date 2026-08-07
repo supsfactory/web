@@ -5,6 +5,7 @@ import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
 import { brandify } from '../brand'
 import { useAferIndex } from '../index-data'
+import { useTranslation } from '@/features/i18n/provider'
 import { assetUrl } from '../assets'
 import type { AfarerPage, AfarerSectionDef } from '../types'
 
@@ -1259,7 +1260,47 @@ export function collectPageFaqs(page: AfarerPage): { q: string; a: string }[] {
 
 /** Synthetic "case studies" index rendered by the catch-all route. */
 export function CaseStudiesIndex() {
-  return <CaseList />
+  return (
+    <>
+      <StatsBand />
+      <CaseList />
+    </>
+  )
+}
+
+/** Intro + real-world stats for the case studies index. */
+function StatsBand() {
+  const { locale } = useTranslation()
+  const { regionCount = 6, cases = [] } = useAferIndex()
+  const es = locale === 'es'
+  const studyLabel = es ? 'Casos de éxito publicados' : 'Published case studies'
+  const regionLabel = es ? 'Regiones de mercado atendidas' : 'Market regions served'
+  const widthLabel = es ? 'Ancho estable de tabla all-around' : 'Stable all-around board width'
+  const testedLabel = es ? 'Probadas en fábrica antes del envío' : 'Factory-tested before dispatch'
+  const intro = es
+    ? 'Estos casos documentan cómo marcas, resorts, clubes y operadores reales compran SUP hinchables, kayaks y embarcaciones profesionales a afarer. Cada uno cubre el caso de uso, la familia de tablas que le corresponde y las consideraciones operativas que importan al construir — o comprar — una flota.'
+    : 'These case studies document how real brands, resorts, clubs and operators buy inflatable SUPs, kayaks and professional craft from afarer. Each one covers the use case, the board family that fits it, and the operational considerations that matter when you build — or buy — a fleet.'
+  const stats = [
+    { value: String(cases.length), label: studyLabel },
+    { value: String(regionCount), label: regionLabel },
+    { value: '32"', label: widthLabel },
+    { value: '100%', label: testedLabel },
+  ]
+  return (
+    <Container>
+      <div className="mx-auto max-w-3xl">
+        <p className="text-center text-[15px] leading-relaxed text-fg-2">{intro}</p>
+      </div>
+      <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4">
+        {stats.map((s) => (
+          <div key={s.label} className="marine-card flex flex-col items-center px-4 py-6 text-center">
+            <span className="font-display text-3xl font-extrabold tracking-tight text-primary md:text-4xl">{brandify(s.value)}</span>
+            <span className="mt-2 text-[13px] font-semibold text-fg-2">{s.label}</span>
+          </div>
+        ))}
+      </div>
+    </Container>
+  )
 }
 
 /** Synthetic "/research" index from the research.yaml topic registry. */
