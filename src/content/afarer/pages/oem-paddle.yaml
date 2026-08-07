@@ -23,8 +23,9 @@ hero:
       href: /oem-odm-manufacturer
       variant: secondary
 stats:
-  - value: '16'
-    label: 'Weeks from idea to market'
+  - value: '30–45'
+    label: 'Days production lead time'
+    detail: 'From confirmed PO and deposit'
   - value: '50'
     label: 'Minimum MOQ (units)'
   - value: '200+'

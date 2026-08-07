@@ -42,10 +42,6 @@ moq_table:
     standard_moq: 5–10 trial / 50 standard batch
     custom_moq: 200+ units
     lead_time: 30–45 days
-  - product: Life Vests & Safety
-    standard_moq: 100–200 units
-    custom_moq: 1,000+ units
-    lead_time: 20–30 days
 
 why_us:
   - title: Vertical Integration
