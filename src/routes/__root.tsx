@@ -4,8 +4,6 @@ import { getPreferences } from '@/server/preferences'
 import { getOptionalUser } from '@/features/auth/middleware'
 import { getAnalyticsToken } from '@/features/analytics/analytics'
 import { getNonce } from '@/lib/csp'
-import { Toaster } from '@/components/ui/sonner'
-import { useResolvedTheme } from '@/features/theme/use-resolved-theme'
 import { JsonLd, siteLd } from '@/features/seo/jsonld'
 import appCss from '@/styles/app.css?url'
 
@@ -78,7 +76,6 @@ function RootComponent() {
   // （docs 翻译成英文时同步改这里）。
   const firstSegment = pathname.split('/').filter(Boolean)[0]
   const lang = isLocale(firstSegment) ? firstSegment : pathname.startsWith('/docs') ? 'zh' : defaultLocale
-  const resolvedTheme = useResolvedTheme(theme)
   // CSP nonce for the two inline scripts (theme boot + hydration); undefined in
   // dev, where no CSP is enforced anyway (see src/lib/security-headers.ts).
   const nonce = getNonce()
@@ -95,7 +92,6 @@ function RootComponent() {
         ))}
         <Outlet />
         <Scripts />
-        <Toaster theme={resolvedTheme} />
         {/* Cloudflare Web Analytics — only when a beacon token is configured. */}
         {analyticsToken && (
           <script

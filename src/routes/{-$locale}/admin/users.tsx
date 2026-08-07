@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { AppShell } from '@/components/app/app-shell'
+import { AppToaster } from '@/components/ui/app-toaster'
 import { UserTable } from '@/features/admin/components/user-table'
 import { UserDetailDrawer } from '@/features/admin/components/user-detail-drawer'
 import { getAdminUsersFn, type AdminUserRow } from '@/features/admin/middleware'
@@ -148,6 +149,7 @@ function UsersPage() {
         currentUserId={currentUserId}
         onChanged={() => void router.invalidate()}
       />
+      <AppToaster />
     </AppShell>
   )
 }

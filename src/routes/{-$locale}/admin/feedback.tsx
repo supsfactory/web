@@ -4,6 +4,7 @@ import { ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react'
 import { toast } from 'sonner'
 import { authClient } from '@/features/auth/auth.client'
 import { AppShell } from '@/components/app/app-shell'
+import { AppToaster } from '@/components/ui/app-toaster'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -110,6 +111,7 @@ function FeedbackAdmin() {
         <Button variant="outline" size="sm" disabled={page === 0} onClick={() => setSearch({ page: page - 1, pageSize })}><ChevronLeft size={15} /></Button>
         <Button variant="outline" size="sm" disabled={page + 1 >= totalPages} onClick={() => setSearch({ page: page + 1, pageSize })}><ChevronRight size={15} /></Button>
       </div>
+      <AppToaster />
     </AppShell>
   )
 }

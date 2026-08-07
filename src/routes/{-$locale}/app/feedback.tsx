@@ -7,6 +7,7 @@ import { getMyFeedbackFn, submitFeedbackFn, deleteFeedbackFn } from '@/features/
 import { TITLE_MAX, BODY_MAX, OPEN_LIMIT, type FeedbackStatus } from '@/features/feedback/feedback.shared'
 import { useTranslation } from '@/features/i18n/provider'
 import { AppShell } from '@/components/app/app-shell'
+import { AppToaster } from '@/components/ui/app-toaster'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -123,6 +124,7 @@ function FeedbackPage() {
           ))}
         </div>
       </div>
+      <AppToaster />
     </AppShell>
   )
 }
