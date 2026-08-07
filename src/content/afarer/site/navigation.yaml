@@ -8,15 +8,9 @@ header:
     - text: OEM / ODM
       links:
         - text: OEM / ODM
-          href: /oem-odm
-        - text: SUP Manufacturer
-          href: /fabricant-sup-gonflable
+          href: /oem-odm-manufacturer
         - text: OEM Paddle (Private Label)
           href: /oem-paddle
-        - text: Inflatable Boat Manufacturer
-          href: /bateau-gonflable-fabricant
-        - text: Nautical Equipment Supplier
-          href: /fournisseur-nautique
     - text: Solutions
       links:
         - text: For Resorts & Hotels
@@ -114,15 +108,9 @@ footer:
         - text: Technology
           href: /technology
         - text: OEM / ODM
-          href: /oem-odm
-        - text: SUP Manufacturer
-          href: /fabricant-sup-gonflable
+          href: /oem-odm-manufacturer
         - text: OEM Paddle (Private Label)
           href: /oem-paddle
-        - text: Inflatable Boat Manufacturer
-          href: /bateau-gonflable-fabricant
-        - text: Nautical Equipment Supplier
-          href: /fournisseur-nautique
         - text: Contact
           href: /contact
         - text: Warranty

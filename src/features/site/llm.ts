@@ -172,9 +172,6 @@ const PAGE_TITLES: Record<string, string> = {
   '/solutions/retail-partners': 'Solutions: Retail Partners',
   '/solutions/distributors': 'Solutions: Distributors',
   '/b2b-solutions-matrix': 'B2B Solutions Matrix',
-  '/fabricant-sup-gonflable': 'Fabricant SUP Gonflable',
-  '/bateau-gonflable-fabricant': 'Fabricant de Bateaux Gonflables',
-  '/fournisseur-nautique': 'Fournisseur Nautique',
 }
 
 /** `/llms.txt` index sections link to absolute URLs (llmstxt.org) so LLMs can explore directly. */

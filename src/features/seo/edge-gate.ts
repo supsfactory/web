@@ -21,6 +21,10 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   // P0-2: /request-quotation merged into /contact (single inquiry entry point)
   '/request-quotation': '/contact',
   '/es/request-quotation': '/es/contact',
+  // P1-5: retire French-slug doorways (English content under fr-looking URLs) → closest English page
+  '/fabricant-sup-gonflable': '/oem-odm-manufacturer',
+  '/bateau-gonflable-fabricant': '/oem-odm-manufacturer',
+  '/fournisseur-nautique': '/solutions/rental-operators',
 }
 
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'

@@ -33,6 +33,12 @@ test('301 merge of duplicate paths (P0-4)', () => {
   expect(gatePath('/zh/brand/story')).toEqual({ action: 'redirect', to: '/afarer' })
 })
 
+test('French-slug doorways 301 to closest English page (P1-5)', () => {
+  expect(gatePath('/fabricant-sup-gonflable')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
+  expect(gatePath('/bateau-gonflable-fabricant')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
+  expect(gatePath('/fournisseur-nautique')).toEqual({ action: 'redirect', to: '/solutions/rental-operators' })
+})
+
 test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
   expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })

@@ -173,9 +173,6 @@ const EXTRA_PATHS: Record<string, string> = {
   '/solutions/distributors': 'solutions-distributors',
   '/solutions/build-your-own-brand': 'solutions-build-your-own-brand',
   '/b2b-solutions-matrix': 'b2b-solutions-matrix',
-  '/fabricant-sup-gonflable': 'fabricant-sup-gonflable',
-  '/bateau-gonflable-fabricant': 'bateau-gonflable-fabricant',
-  '/fournisseur-nautique': 'fournisseur-nautique',
 }
 
 const EXTRA_PAGES: AfarerPage[] = Object.entries(EXTRA_PATHS).map(([path, slug]) => {
