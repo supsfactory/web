@@ -1,6 +1,6 @@
 meta:
   title: 'Custom Lab — Custom Inflatable Paddle Boards | {SITE}'
-  description: 'Custom inflatable paddle boards: bespoke design, logo, custom mold, and production. OEM/ODM SUP manufacturer, MOQ 5–10 units, CE certified.'
+  description: 'Custom inflatable paddle boards: bespoke design, logo, custom mold, and production. OEM/ODM SUP manufacturer, tiered MOQ from 5–10 trial units, CE certified.'
   keywords:
     - 'custom paddle board manufacturer'
     - 'custom inflatable sup'
@@ -30,7 +30,7 @@ steps_section:
       desc: View a photorealistic AI-generated mockup of your custom board before production begins.
     - num: '04'
       title: Production & Delivery
-      desc: Once approved, your order enters our  production line. Lead times from 30 days.
+      desc: Once approved, your order enters our production line. Lead times from 30–45 days.
 
 services_section:
   tagline: Services
@@ -56,7 +56,7 @@ capabilities_section:
   subtitle: Everything you need to know before placing your order.
   capabilities:
     - label: Order volume
-      value: MOQ 5–10 units (SUP)
+      value: 'MOQ 5–10 trial / 50 standard / 200 custom (SUP)'
     - label: Lead time
       value: 30–45 days standard; 15–20 days for prototypes
     - label: Customisation
@@ -86,4 +86,4 @@ why_section:
   cta_link: /factory
   contact:
     title: Ready to discuss your project?
-    desc: Our team responds within 24 hours with a preliminary quote.
+    desc: Our team responds within one business day with a preliminary quote.

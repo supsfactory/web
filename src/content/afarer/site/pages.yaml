@@ -495,16 +495,6 @@
     - { key: vision, type: content, label: 'Vision' }
     - { key: labs_section, type: features, label: 'Labs Section' }
 
-- slug: request-quotation
-  label: Request Quotation
-  path: /request-quotation
-  permalink: /request-quotation
-  file: src/data/pages/request-quotation.yaml
-  sections:
-    - { key: hero_text, type: hero_text, label: 'Top HeroText' }
-    - { key: content_form, type: contact, label: 'Quotation Form' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
 - slug: resources
   label: Resources
   path: /resources

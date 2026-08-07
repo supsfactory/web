@@ -926,7 +926,7 @@ function PortedFleetGuide({ c }: { c: R }) {
   const steps = (Array.isArray(c.tiers) ? c.tiers : []).map((t) => ({
     step: '',
     title: str((t as R).label) || '',
-    desc: [str((t as R).boards) && `${str((t as R).boards)} boards`, str((t as R).revenue)].filter(Boolean).join(' · '),
+    desc: [str((t as R).boards) && `${str((t as R).boards)} boards`, str((t as R).note)].filter(Boolean).join(' · '),
   }))
   return <StepsWidget c={{ title: c.title, subtitle: c.subtitle, steps }} />
 }

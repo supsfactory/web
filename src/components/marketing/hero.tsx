@@ -43,9 +43,12 @@ export function Hero() {
             >
               {c.ctaPrimary} <ArrowRight size={17} />
             </Link>
-            <Link to="/factory" className="glass-btn h-[48px] px-8 text-[15px] font-semibold">
+            <a
+              href={locale === 'en' ? '/factory' : '/es/factory'}
+              className="glass-btn inline-flex h-[48px] items-center px-8 text-[15px] font-semibold"
+            >
               {c.ctaSecondary}
-            </Link>
+            </a>
           </div>
 
           <ul className="mt-10 flex flex-wrap gap-2">

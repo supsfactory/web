@@ -15,6 +15,12 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/zh/brand/afarer': '/afarer',
   '/brand/story': '/afarer',
   '/zh/brand/story': '/afarer',
+  // P0-4: retire Hifond dealer-recruitment posts (third-party brand leakage) → news hub
+  '/news/afarer-supply-chain-2025': '/news',
+  '/news/seeking-dealers-for-afarer': '/news',
+  // P0-2: /request-quotation merged into /contact (single inquiry entry point)
+  '/request-quotation': '/contact',
+  '/es/request-quotation': '/es/contact',
 }
 
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'

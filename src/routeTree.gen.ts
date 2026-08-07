@@ -27,7 +27,6 @@ import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
 import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
 import { Route as ResourcesRouteImport } from './routes/resources'
 import { Route as ResearchRouteImport } from './routes/research'
-import { Route as RequestQuotationRouteImport } from './routes/request-quotation'
 import { Route as RanddcenterRouteImport } from './routes/randdcenter'
 import { Route as QualityTestingRouteImport } from './routes/quality-testing'
 import { Route as QualityRouteImport } from './routes/quality'
@@ -206,11 +205,6 @@ const ResourcesRoute = ResourcesRouteImport.update({
 const ResearchRoute = ResearchRouteImport.update({
   id: '/research',
   path: '/research',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const RequestQuotationRoute = RequestQuotationRouteImport.update({
-  id: '/request-quotation',
-  path: '/request-quotation',
   getParentRoute: () => rootRouteImport,
 } as any)
 const RanddcenterRoute = RanddcenterRouteImport.update({
@@ -744,7 +738,6 @@ export interface FileRoutesByFullPath {
   '/quality': typeof QualityRoute
   '/quality-testing': typeof QualityTestingRoute
   '/randdcenter': typeof RanddcenterRoute
-  '/request-quotation': typeof RequestQuotationRoute
   '/research': typeof ResearchRoute
   '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
@@ -853,7 +846,6 @@ export interface FileRoutesByTo {
   '/quality': typeof QualityRoute
   '/quality-testing': typeof QualityTestingRoute
   '/randdcenter': typeof RanddcenterRoute
-  '/request-quotation': typeof RequestQuotationRoute
   '/research': typeof ResearchRoute
   '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
@@ -962,7 +954,6 @@ export interface FileRoutesById {
   '/quality': typeof QualityRoute
   '/quality-testing': typeof QualityTestingRoute
   '/randdcenter': typeof RanddcenterRoute
-  '/request-quotation': typeof RequestQuotationRoute
   '/research': typeof ResearchRoute
   '/resources': typeof ResourcesRoute
   '/robots.txt': typeof RobotsDottxtRoute
@@ -1074,7 +1065,6 @@ export interface FileRouteTypes {
     | '/quality'
     | '/quality-testing'
     | '/randdcenter'
-    | '/request-quotation'
     | '/research'
     | '/resources'
     | '/robots.txt'
@@ -1183,7 +1173,6 @@ export interface FileRouteTypes {
     | '/quality'
     | '/quality-testing'
     | '/randdcenter'
-    | '/request-quotation'
     | '/research'
     | '/resources'
     | '/robots.txt'
@@ -1291,7 +1280,6 @@ export interface FileRouteTypes {
     | '/quality'
     | '/quality-testing'
     | '/randdcenter'
-    | '/request-quotation'
     | '/research'
     | '/resources'
     | '/robots.txt'
@@ -1402,7 +1390,6 @@ export interface RootRouteChildren {
   QualityRoute: typeof QualityRoute
   QualityTestingRoute: typeof QualityTestingRoute
   RanddcenterRoute: typeof RanddcenterRoute
-  RequestQuotationRoute: typeof RequestQuotationRoute
   ResearchRoute: typeof ResearchRoute
   ResourcesRoute: typeof ResourcesRoute
   RobotsDottxtRoute: typeof RobotsDottxtRoute
@@ -1557,13 +1544,6 @@ declare module '@tanstack/react-router' {
       path: '/research'
       fullPath: '/research'
       preLoaderRoute: typeof ResearchRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/request-quotation': {
-      id: '/request-quotation'
-      path: '/request-quotation'
-      fullPath: '/request-quotation'
-      preLoaderRoute: typeof RequestQuotationRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/randdcenter': {
@@ -2380,7 +2360,6 @@ const rootRouteChildren: RootRouteChildren = {
   QualityRoute: QualityRoute,
   QualityTestingRoute: QualityTestingRoute,
   RanddcenterRoute: RanddcenterRoute,
-  RequestQuotationRoute: RequestQuotationRoute,
   ResearchRoute: ResearchRoute,
   ResourcesRoute: ResourcesRoute,
   RobotsDottxtRoute: RobotsDottxtRoute,

@@ -47,17 +47,17 @@ stats:
 
 fleet_guide:
   title: Fleet Sizing Guide
-  subtitle: 'Estimate the fleet size and revenue potential for your rental operation.'
+  subtitle: 'Estimate how many boards your operation needs by daily rental rotation.'
   tiers:
     - label: Small Kiosk
       boards: '15-20'
-      revenue: '$XX,XXX/yr'
+      note: 'Up to 2–3 board rotations per day at peak season'
     - label: Mid-Size Operation
       boards: '30-50'
-      revenue: '$XX,XXX/yr'
+      note: 'Multiple launch points or high weekend traffic'
     - label: Large Beach Rental
       boards: '50-100'
-      revenue: '$XXX,XXX/yr'
+      note: 'Full-service rental fleets across several beach stations'
 
 cta:
   title: 'Ready to scale your rental business?'

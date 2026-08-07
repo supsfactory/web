@@ -140,6 +140,7 @@ export const en = {
       customizer: 'Design Your SUP',
       contact: 'Contact',
       cta: 'Start Your Project',
+      oemOdm: 'OEM / ODM',
       login: 'Sign in',
       app: 'App',
       poweredBy: 'Powered by Afarer',
@@ -149,6 +150,8 @@ export const en = {
         resort: 'Resort & Hotel SUP',
         club: 'Club & School SUP',
         oem: 'OEM/ODM Manufacturing',
+        distributors: 'For Distributors',
+        rentalOperators: 'For Rental Operators',
       },
       productsDropdown: {
         all: 'All Products',
@@ -163,6 +166,8 @@ export const en = {
       companyDropdown: {
         about: 'About Afarer',
         factory: 'Factory & Manufacturing',
+        quality: 'Quality & Testing',
+        warranty: 'Warranty',
         technology: 'Technology',
         whoWeServe: 'Who We Serve',
       },
@@ -174,7 +179,8 @@ export const en = {
     footer: {
       tagline: 'The SUP product development and manufacturing division of Afarer — engineering, tooling, sampling and container-scale production. You bring the brand, we build the boards.',
       colSolutions: 'Solutions', colServe: 'Who We Serve', colCompany: 'Company', colLegal: 'Legal',
-      colResources: 'Resources',
+      colResources: 'Resources', colManufacturing: 'Manufacturing & Quality',
+      factoryCapacity: 'Factory Capacity',
       poweredBy: 'Powered by Afarer', inquiryForm: 'Inquiry form',
       customSup: 'Custom SUP Manufacturing', resortSolutions: 'Resort & Club Solutions',
       organizationProjects: 'Organization Projects', faq: 'FAQ', process: 'Process',

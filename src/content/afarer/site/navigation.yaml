@@ -61,7 +61,7 @@ header:
       href: /contact
   actions:
     - text: Get a Quote
-      href: /request-quotation
+      href: /contact
       variant: primary
 footer:
   links:

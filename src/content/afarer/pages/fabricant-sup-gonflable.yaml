@@ -33,7 +33,7 @@ stats:
     label: 'Countries exported'
 features:
   title: 'Why Brands Choose Us as Manufacturer'
-  subtitle: '10+ years of OEM/ODM experience, full certification, and the lowest MOQ in the industry.'
+  subtitle: '10+ years of OEM/ODM experience, full certification, and flexible tiered MOQs.'
   columns: 3
   items:
     - title: 'Vertically Integrated Factory'
@@ -43,13 +43,13 @@ features:
       description: 'CE / ISO 9001 / UKCA / BSCI / REACH / USCG — every board certified for global markets.'
       icon: 'tabler:certificate'
     - title: 'Low MOQ'
-      description: 'From 50 units on standard models. Custom mold from 200+ units.'
+      description: 'From 5–10 units for trial orders, 50 units on standard models. Custom mold from 200+ units.'
       icon: 'tabler:package'
     - title: 'In-House Design Studio'
       description: '3D modeling, graphic design, color matching, and packaging — your vision, professionally executed.'
       icon: 'tabler:palette'
     - title: 'Short Lead Times'
-      description: 'Prototype in 2-3 weeks, bulk production in 30-45 days. Transparent production flow.'
+      description: 'Prototype samples in 15–20 days, bulk production in 30–45 days. Transparent production flow.'
       icon: 'tabler:truck-delivery'
     - title: 'Global Logistics'
       description: 'FOB Qingdao, CIF major ports, door-to-door delivery to 50+ countries with customs support.'
@@ -59,11 +59,11 @@ faqs:
   subtitle: 'Everything you need to know before starting your SUP OEM project.'
   items:
     - title: 'What is the MOQ for an OEM inflatable SUP?'
-      description: 'The MOQ is 50 units for standard models and 200 units for a custom mold.'
+      description: 'MOQ is tiered: 5–10 units for trial orders, 50 units for standard models, and 200 units for a custom mold.'
     - title: 'Can you manufacture a SUP with our logo?'
       description: 'Yes. Logo printing, custom colors, packaging, and labels — full private label support.'
     - title: 'How do I start a paddle board manufacturing project?'
-      description: 'Share your specification via our contact form, receive a quote within 24 hours, approve the sample, then start bulk production.'
+      description: 'Share your specification via our contact form, receive a quote within one business day, approve the sample, then start bulk production.'
 geo:
   tagline: 'B2B Positioning'
   sentence: 'Afarer is a professional manufacturer of inflatable SUPs and inflatable boats (OEM/ODM), specialized in design, custom production, and nautical solutions for brands, distributors, clubs, and businesses.'

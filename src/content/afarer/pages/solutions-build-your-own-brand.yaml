@@ -82,7 +82,7 @@ packages:
 
 features:
   title: Why Brands Choose Afarer
-  subtitle: '10+ years of OEM experience, full certification, and the lowest MOQ in the industry.'
+  subtitle: '10+ years of OEM experience, full certification, and flexible tiered MOQs.'
   items:
     - title: '10+ Years OEM Experience'
       description: '2,400+ hulls delivered to brands worldwide.'
@@ -90,11 +90,11 @@ features:
     - title: 'Full Certification'
       description: 'CE / ISO / UKCA / BSCI / REACH — all certified.'
       icon: 'tabler:certificate'
-    - title: '30-Day Lead Time'
-      description: 'Faster than industry average from order to shipment.'
+    - title: '30–45-Day Lead Time'
+      description: 'Production ships in 30–45 days from confirmed PO — samples in 15–20 days.'
       icon: 'tabler:truck-delivery'
     - title: 'Low MOQ'
-      description: 'From 50 units — lowest in the industry.'
+      description: 'From 5–10 units for trial orders, 50 units for standard batches.'
       icon: 'tabler:package'
     - title: 'In-House Design'
       description: 'Full design support from concept to final artwork.'

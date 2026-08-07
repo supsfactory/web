@@ -36,7 +36,7 @@ export const LLMS_TXT = `# SUPsfactory
 - [Club & team SUP equipment](https://supsfactory.com/solutions/club-sup): team graphics and specification adjustments for paddle clubs, race teams and events.
 - [School & program SUP equipment](https://supsfactory.com/solutions/school-sup): stable, durable boards for schools, training programs and instruction fleets.
 - [OEM / ODM manufacturing](https://supsfactory.com/oem-odm-manufacturer): full OEM and ODM inflatable SUP manufacturing, from client drawings or co-developed designs.
-- [Request a quotation](https://supsfactory.com/request-quotation): submit board type, size, quantity, printing method, accessories, target market and required delivery date for a project quote.
+- [Request a quotation](https://supsfactory.com/contact): submit board type, size, quantity, printing method, accessories, target market and required delivery date for a project quote.
 
 ## Factory & quality
 

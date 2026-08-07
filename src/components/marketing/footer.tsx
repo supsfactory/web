@@ -7,8 +7,10 @@ import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
 
 export function Footer({ theme }: { theme: 'light' | 'dark' }) {
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
   const year = new Date().getFullYear()
+  /** Localize a raw afarer path (served by the `/$` catch-all, es mirrors under /es). */
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   return (
     <footer className="relative border-t border-border bg-bg-alt px-5 pb-12 pt-16 md:px-7">
@@ -43,6 +45,16 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           </div>
         </div>
 
+        {/* Manufacturing & Quality */}
+        <FooterCol title={t('sup.footer.colManufacturing')}>
+          <a className="foot-link" href={fl('/oem-odm-manufacturer')}>{t('sup.nav.oemOdm')}</a>
+          <a className="foot-link" href={fl('/factory')}>{t('sup.footer.factory')}</a>
+          <a className="foot-link" href={fl('/factory/capacity')}>{t('sup.footer.factoryCapacity')}</a>
+          <a className="foot-link" href={fl('/quality')}>{t('sup.nav.companyDropdown.quality')}</a>
+          <a className="foot-link" href={fl('/warranty')}>{t('sup.nav.companyDropdown.warranty')}</a>
+          <a className="foot-link" href={fl('/technology')}>{t('sup.nav.companyDropdown.technology')}</a>
+        </FooterCol>
+
         {/* Solutions */}
         <FooterCol title={t('sup.footer.colSolutions')}>
           <Link className="foot-link" to="/{-$locale}/custom-sup-development">{t('sup.footer.customSup')}</Link>
@@ -50,23 +62,17 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           <Link className="foot-link" to="/{-$locale}/solutions/resort-sup">{t('sup.footer.resortSolutions')}</Link>
           <Link className="foot-link" to="/{-$locale}/solutions/club-sup">{t('sup.footer.clubSup')}</Link>
           <Link className="foot-link" to="/{-$locale}/solutions/school-sup">{t('sup.footer.schoolSup')}</Link>
-          <Link className="foot-link" to="/{-$locale}/contact">{t('sup.footer.organizationProjects')}</Link>
+          <a className="foot-link" href={fl('/solutions/distributors')}>{t('sup.nav.solutionsDropdown.distributors')}</a>
+          <a className="foot-link" href={fl('/solutions/rental-operators')}>{t('sup.nav.solutionsDropdown.rentalOperators')}</a>
         </FooterCol>
 
-        {/* Resources */}
+        {/* Resources & Company */}
         <FooterCol title={t('sup.footer.colResources')}>
           <Link className="foot-link" to="/{-$locale}/knowledge">{t('sup.nav.guides')}</Link>
           <Link className="foot-link" to="/{-$locale}/projects">{t('sup.nav.projects')}</Link>
-          <Link className="foot-link" to="/$" params={{ _splat: 'faq' }}>{t('sup.footer.faq')}</Link>
-          <Link className="foot-link" to="/{-$locale}/how-it-works">{t('sup.footer.process')}</Link>
-          <Link className="foot-link" to="/$" params={{ _splat: 'news' }}>{t('sup.footer.news')}</Link>
-        </FooterCol>
-
-        {/* Company */}
-        <FooterCol title={t('sup.footer.colCompany')}>
+          <a className="foot-link" href={fl('/faq')}>{t('sup.footer.faq')}</a>
+          <a className="foot-link" href={fl('/news')}>{t('sup.footer.news')}</a>
           <Link className="foot-link" to="/{-$locale}/about/supsfactory-entity">{t('sup.nav.aboutAfarer')}</Link>
-          <Link className="foot-link" to="/{-$locale}/about">{t('sup.footer.about')}</Link>
-          <Link className="foot-link" to="/$" params={{ _splat: 'factory' }}>{t('sup.footer.factory')}</Link>
           <Link className="foot-link" to="/{-$locale}/contact">{t('sup.footer.contact')}</Link>
         </FooterCol>
       </div>

@@ -48,6 +48,6 @@ workshops:
     output: '50,000+ life vests/year'
 
 oem_capacity:
-  moq: 'SUP: 5–10 units | Custom mould: 200+ units'
-  lead_time: 'Standard 30–45 days. Sample 15–10 days. Rush available.'
+  moq: 'SUP: 5–10 trial | 50 standard batch | Custom mould: 200+ units'
+  lead_time: 'Standard 30–45 days. Sample 15–20 days. Rush available.'
   payment: 'T/T 30% deposit + 70% before shipment. L/C, Western Union accepted.'

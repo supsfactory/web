@@ -65,7 +65,7 @@ faqs:
     - title: 'Does the paddle carry our logo?'
       description: 'Yes — full private label: logo printing, custom colors, packaging, and labels in your brand.'
     - title: 'Can I buy in bulk from day one?'
-      description: 'The MOQ is 50 units for standard models, with wholesale pricing tiers as volume increases.'
+      description: 'The MOQ is tiered: 5–10 units for trial orders, 50 units for standard models, and 200 units for custom mould, with wholesale pricing tiers as volume increases.'
 geo:
   tagline: 'B2B Positioning'
   sentence: 'Afarer is a professional manufacturer of inflatable SUPs and inflatable boats (OEM/ODM), specialized in design, custom production, and nautical solutions for brands, distributors, clubs, and businesses.'
@@ -76,7 +76,7 @@ geo:
     - 'Nautical centers'
 cta:
   title: 'Bring your paddle brand to life'
-  subtitle: 'Receive a detailed OEM quote within 24 hours.'
+  subtitle: 'Receive a detailed OEM quote within one business day.'
   actions:
     - text: 'Request an OEM Quote'
       href: /contact

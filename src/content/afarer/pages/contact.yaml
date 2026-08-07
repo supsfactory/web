@@ -1,6 +1,6 @@
 meta:
   title: 'Contact — OEM Quotes & SUP Manufacturer | {SITE}'
-  description: 'Contact afarer for OEM/ODM quotes, private label projects, or professional fleets. Inflatable SUP and boat manufacturer, we respond within 2 business days.'
+  description: 'Contact afarer for OEM/ODM quotes, private label projects, or professional fleets. Inflatable SUP and boat manufacturer, we respond within one business day.'
   keywords:
     - 'contact afarer'
     - 'oem paddle board quote'
@@ -37,7 +37,9 @@ contact_form:
         - value: sample
           label: Samples / Prototypes only
         - value: '5-10'
-          label: 5–10 units (Standard MOQ)
+          label: 5–10 units (Trial)
+        - value: '50'
+          label: 50 units (Standard OEM batch)
         - value: '100-500'
           label: 100–500 units
         - value: '500-plus'

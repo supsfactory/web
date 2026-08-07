@@ -30,7 +30,7 @@ steps_section:
       desc: Visualiza una maqueta fotorrealista generada por IA de tu tabla personalizada antes de iniciar la producción.
     - num: '04'
       title: Producción y entrega
-      desc: Una vez aprobado, tu pedido entra en nuestra línea de producción. Plazos desde 30 días.
+      desc: Una vez aprobado, tu pedido entra en nuestra línea de producción. Plazos desde 30–45 días.
 
 services_section:
   tagline: Servicios
@@ -56,7 +56,7 @@ capabilities_section:
   subtitle: Todo lo que necesitas saber antes de hacer tu pedido.
   capabilities:
     - label: Volumen de pedido
-      value: Pedido mínimo 5–10 unidades (SUP)
+      value: 'Pedido mínimo 5–10 prueba / 50 estándar / 200 molde (SUP)'
     - label: Plazo de entrega
       value: 30–45 días estándar; 15–20 días para prototipos
     - label: Personalización
@@ -86,4 +86,4 @@ why_section:
   cta_link: /es/factory
   contact:
     title: ¿Listo para hablar de tu proyecto?
-    desc: Nuestro equipo responde en 24 horas con un presupuesto preliminar.
+    desc: Nuestro equipo responde en un día laborable con un presupuesto preliminar.

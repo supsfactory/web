@@ -40,7 +40,7 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/research' })
   expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/fishing' })
   expect(gatePath('/use-cases/disaster-relief')).toEqual({ action: 'redirect', to: '/disaster-relief-humanitarian-aid' })
-  expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/request-quotation' })
+  expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/contact' })
   expect(gatePath('/touring-sup')).toEqual({ action: 'redirect', to: '/products' })
   // /search is now a live search results page (not a legacy redirect)
   expect(gatePath('/search')).toEqual({ action: 'ok' })

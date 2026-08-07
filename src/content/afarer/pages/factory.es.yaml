@@ -35,7 +35,7 @@ intelligence_cards:
     desc: 'Instalación de 12.000 m² que produce más de 15.000 SUP/año en las líneas de tablas de SUP y equipos de seguridad. 200+ trabajadores, 2 turnos.'
     metrics:
       - label: MOQ
-        value: 'SUP: 5–10'
+        value: 'SUP: 5–10 prueba / 50 estándar / 200 molde'
       - label: Plazo de entrega
         value: '30–45 días'
     link: /es/randdcenter
@@ -140,7 +140,7 @@ faq_section:
   title: Preguntas frecuentes B2B y OEM
   questions:
     - q: ¿Cuál es la cantidad mínima de pedido (MOQ) para tablas SUP hinchables OEM?
-      a: El MOQ comienza en 5–10 unidades para modelos OEM estándar. Los moldes personalizados y los proyectos de etiqueta privada requieren un mínimo de 200 unidades según la complejidad. Hay pedidos de prueba y series de muestras disponibles para los lanzamientos de nuevas marcas.
+      a: 'El MOQ se estructura por tramos: 5–10 unidades para pedidos de prueba estándar, 50 unidades por diseño para un lote OEM estándar y 200 unidades para proyectos de molde personalizado o etiqueta privada según la complejidad. Hay pedidos de prueba y series de muestras disponibles para los lanzamientos de nuevas marcas.'
     - q: ¿Mantiene afarer la certificación BSCI?
       a: Sí. Nuestra fábrica mantiene una certificación válida de cumplimiento social BSCI (informe de auditoría disponible bajo petición). También tenemos ISO 9001 para gestión de calidad y todos los productos llevan certificación CE. La documentación de cumplimiento REACH y RoHS se entrega con cada envío OEM.
     - q: ¿Cuál es el plazo de entrega típico de un pedido OEM?
@@ -148,7 +148,7 @@ faq_section:
     - q: ¿Pueden enviar FOB Qingdao o CIF a nuestro puerto?
       a: Sí. Enviamos FOB Qingdao, CIF a los principales puertos mundiales y DDP para socios cualificados. Nuestro equipo de logística gestiona la reserva de contenedores, la documentación de exportación y el despacho de aduanas. Enviamos a más de 50 países en los mercados de la UE, EE. UU., Australia y Asia.
 
-b2b_moq: 'MOQ estándar: 5–10 unidades por modelo. Los pedidos de prueba son bienvenidos para nuevas asociaciones.'
+b2b_moq: 'MOQ por tramos: 5–10 unidades de prueba, 50 unidades por diseño en lote OEM estándar, 200 unidades para molde personalizado / etiqueta privada.'
 
 production_flow:
   tagline: Flujo de producción

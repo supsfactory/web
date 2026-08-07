@@ -31,16 +31,25 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
   const l = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   const navItems: NavItem[] = [
+    { label: t('sup.nav.oemOdm'), href: '/oem-odm-manufacturer' },
     {
       label: t('sup.nav.solutions'),
       items: [
+        { label: t('sup.nav.solutionsDropdown.oem'), href: '/oem-odm-manufacturer' },
         { label: t('sup.nav.solutionsDropdown.privateLabel'), to: '/{-$locale}/solutions/private-label-sup' },
         { label: t('sup.nav.solutionsDropdown.resort'), to: '/{-$locale}/solutions/resort-sup' },
         { label: t('sup.nav.solutionsDropdown.club'), to: '/{-$locale}/solutions/club-sup' },
-        { label: t('sup.nav.solutionsDropdown.oem'), href: '/oem-odm-manufacturer' },
+        { label: t('sup.nav.solutionsDropdown.distributors'), href: '/solutions/distributors' },
+        { label: t('sup.nav.solutionsDropdown.rentalOperators'), href: '/solutions/rental-operators' },
       ],
     },
-    { label: t('sup.nav.products'), to: '/{-$locale}/products' },
+    {
+      label: t('sup.nav.products'),
+      items: [
+        { label: t('sup.nav.productsDropdown.all'), to: '/{-$locale}/products' },
+        { label: t('sup.nav.customizer'), to: '/{-$locale}/customizer' },
+      ],
+    },
     {
       label: t('sup.nav.resources'),
       items: [
@@ -55,11 +64,12 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
       items: [
         { label: t('sup.nav.companyDropdown.about'), to: '/{-$locale}/about/supsfactory-entity' },
         { label: t('sup.nav.companyDropdown.factory'), href: '/factory' },
+        { label: t('sup.nav.companyDropdown.quality'), href: '/quality' },
+        { label: t('sup.nav.companyDropdown.warranty'), href: '/warranty' },
         { label: t('sup.nav.companyDropdown.technology'), href: '/technology' },
         { label: t('sup.nav.companyDropdown.whoWeServe'), to: '/{-$locale}/who-we-serve' },
       ],
     },
-    { label: t('sup.nav.customizer'), to: '/{-$locale}/customizer' },
     { label: t('sup.nav.contact'), to: '/{-$locale}/contact' },
   ]
 

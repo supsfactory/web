@@ -130,6 +130,7 @@ export const es = {
       customizer: 'Diseña tu SUP',
       contact: 'Contacto',
       cta: 'Inicia tu proyecto',
+      oemOdm: 'Fabricación OEM/ODM',
       login: 'Iniciar sesión',
       app: 'App',
       poweredBy: 'Con la fabricación de Afarer',
@@ -139,6 +140,8 @@ export const es = {
         resort: 'SUP para resorts y hoteles',
         club: 'SUP para clubes y escuelas',
         oem: 'Fabricación OEM/ODM',
+        distributors: 'Para distribuidores',
+        rentalOperators: 'Para operadores de alquiler',
       },
       productsDropdown: {
         all: 'Todos los productos',
@@ -153,6 +156,8 @@ export const es = {
       companyDropdown: {
         about: 'Sobre Afarer',
         factory: 'Fábrica y fabricación',
+        quality: 'Calidad y ensayos',
+        warranty: 'Garantía',
         technology: 'Tecnología',
         whoWeServe: 'A quién servimos',
       },
@@ -164,7 +169,8 @@ export const es = {
     footer: {
       tagline: 'La división de desarrollo y fabricación de SUP de Afarer — ingeniería, moldes, muestras y producción a escala de contenedor. Tú traes la marca, nosotros fabricamos las tablas.',
       colSolutions: 'Soluciones', colServe: 'A quién servimos', colCompany: 'Empresa', colLegal: 'Legal',
-      colResources: 'Recursos',
+      colResources: 'Recursos', colManufacturing: 'Fabricación y calidad',
+      factoryCapacity: 'Capacidad de fábrica',
       poweredBy: 'Con la fabricación de Afarer', inquiryForm: 'Formulario de consulta',
       customSup: 'Fabricación de SUP personalizados', resortSolutions: 'Soluciones para resorts y clubes',
       organizationProjects: 'Proyectos de organizaciones', faq: 'Preguntas frecuentes', process: 'Proceso',

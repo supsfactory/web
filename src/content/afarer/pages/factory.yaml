@@ -35,7 +35,7 @@ intelligence_cards:
     desc: '12,000 m² facility producing 15,000+ SUPs/yr across SUP board and safety equipment lines. 200+ workers, 2 shifts.'
     metrics:
       - label: MOQ
-        value: 'SUP: 5–10'
+        value: 'SUP: 5–10 trial / 50 std / 200 custom'
       - label: Lead Time
         value: '30–45 days'
     link: /factory/capacity
@@ -140,7 +140,7 @@ faq_section:
   title: B2B & OEM Frequently Asked Questions
   questions:
     - q: What is the minimum order quantity (MOQ) for OEM inflatable SUP boards?
-      a: MOQ starts at 5–10 units for standard OEM models. Custom moulds and private-label projects require a minimum of 200 units depending on complexity. Trial orders and sample runs are available for new brand launches.
+      a: 'MOQ is tiered: 5–10 units for standard trial orders, 50 units per design for a standard OEM batch, and 200 units for custom-mould or private-label projects depending on complexity. Trial orders and sample runs are available for new brand launches.'
     - q: Does afarer hold BSCI certification?
       a: Yes. Our factory maintains valid BSCI social compliance certification (audit report available on request). We also hold ISO 9001 for quality management and all products carry CE certification. REACH and RoHS compliance documentation provided with every OEM shipment.
     - q: What is the typical lead time for an OEM order?
@@ -148,7 +148,7 @@ faq_section:
     - q: Can you ship FOB Qingdao or CIF to our port?
       a: Yes. We ship FOB Qingdao, CIF major global ports, and DDP for qualified partners. Our logistics team manages container booking, export documentation, and customs clearance. We ship to 50+ countries across EU, US, AU, and Asia markets.
 
-b2b_moq: 'Standard MOQ: 5–10 units per model. Trial orders welcome for new partnerships.'
+b2b_moq: 'Tiered MOQ: 5–10 units trial, 50 units per design standard OEM batch, 200 units custom mould / private label.'
 
 production_flow:
   tagline: Production Flow
