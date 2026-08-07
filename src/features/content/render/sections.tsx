@@ -278,6 +278,7 @@ interface CardItem {
   body?: unknown
   subtitle?: unknown
   image?: unknown
+  alt?: unknown
   icon?: unknown
   href?: unknown
   link?: unknown
@@ -317,7 +318,7 @@ function FeatureGrid({ c, grid = 'sm:grid-cols-2 lg:grid-cols-3' }: { c: Record<
           const card = (
             <div className="marine-card flex h-full flex-col p-6">
               {image && (
-                <img src={image} alt="" loading="lazy" className="mb-4 aspect-[4/3] w-full rounded-xl border border-border-2 object-cover" />
+                <img src={image} alt={str(it.alt) || str(it.title)} loading="lazy" className="mb-4 aspect-[4/3] w-full rounded-xl border border-border-2 object-cover" />
               )}
               {icon && (
                 <span className={`mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl font-display text-lg font-extrabold ${icon.length === 1 ? (ICON_HUE[icon.toLowerCase()] ?? 'bg-soft text-primary') : 'bg-soft text-primary'}`}>
@@ -622,7 +623,7 @@ function BlogLatest({ c }: { c: Record<string, unknown> }) {
         {posts.map((p) => (
           <Link key={p.slug} to="/$" params={{ _splat: `news/${p.slug}` }} className="marine-card group flex h-full flex-col overflow-hidden p-0">
             {p.image && (
-              <img src={p.image} alt="" loading="lazy" className="aspect-[16/9] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
+              <img src={p.image} alt={p.title} loading="lazy" className="aspect-[16/9] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
             )}
             <div className="flex flex-1 flex-col p-5">
               <div className="flex items-center gap-2 text-[11.5px] font-bold uppercase tracking-wider text-fg-3">
@@ -721,7 +722,7 @@ function CaseCardsWidget({ c }: { c: Record<string, unknown> }) {
       <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {items.map((it, i) => (
           <div key={i} className="marine-card flex h-full flex-col p-6">
-            {str(it.image) && <img src={assetUrl(str(it.image))} alt="" loading="lazy" className="mb-4 aspect-[16/9] w-full rounded-xl border border-border-2 object-cover" />}
+            {str(it.image) && <img src={assetUrl(str(it.image))} alt={str(it.alt) || str(it.title)} loading="lazy" className="mb-4 aspect-[16/9] w-full rounded-xl border border-border-2 object-cover" />}
             <div className="flex flex-wrap items-center gap-2 text-[11.5px] font-bold uppercase tracking-wider text-fg-3">
               {str(it.industry) && <span className="pill border-primary/25! bg-soft! text-primary!">{str(it.industry)}</span>}
               {str(it.country) && <span>{str(it.country)}</span>}

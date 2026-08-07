@@ -70,21 +70,27 @@ workshops_section:
     - title: Corte de PVC y preparación de materiales
       description: Máquinas de corte CNC automáticas procesan tejidos de PVC, Hypalon y drop-stitch con precisión submilimétrica. El anidado optimizado por ordenador minimiza el desperdicio de material y garantiza que cada panel cumpla su especificación dimensional antes de la soldadura.
       image: https://assets.afarer.com/images/afarer/hero/production-dept.webp
+      alt: Máquina CNC de corte de PVC preparando paneles de tela SUP en la fábrica de Qingdao
     - title: Soldadura de tubos y termosellado
       description: Taller de soldadura dedicado con máquinas de termosellado y prensas dieléctricas RF. Los termoselladores de aire caliente unen y fusionan las cámaras de los tubos de PVC, mientras que las soldaduras RF producen costuras herméticas de alta resistencia que superan los requisitos exigidos.
       image: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
+      alt: Máquina de soldadura RF sellando cámaras de tubo de embarcación hinchable en la fábrica de Qingdao
     - title: Unión del núcleo drop-stitch
       description: Los núcleos drop-stitch de las tablas SUP se unen a los laminados exteriores de PVC mediante laminación térmica. Miles de hilos internos de poliéster conectan las capas superior e inferior, creando una estructura rígida a 12–15 PSI. Las bandas de refuerzo del borde se fusionan con unión de triple capa para la resistencia de los cantos.
       image: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+      alt: Núcleo drop-stitch de SUP unido al laminado de PVC en prensa de laminación térmica
     - title: Impresión y decoración de SUP
       description: Las tablas SUP se decoran con impresión digital para gráficos a todo color y serigrafía para logotipos y patrones repetidos. Las impresoras digitales producen diseños de cubierta con calidad fotográfica, mientras que la serigrafía ofrece marcas de marca duraderas y vívidas.
       image: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+      alt: Impresora digital aplicando gráficos a todo color en la cubierta de una tabla SUP hinchable
     - title: Montaje final y ajuste
       description: Línea de montaje donde se instalan válvulas, anillas D, asas, cajas de quilla y pads de cubierta en cada tabla SUP. Cada tabla sigue una lista de verificación de montaje de 100 puntos firmada por el responsable del equipo.
       image: https://assets.afarer.com/images/afarer/hero/factory-gate.webp
+      alt: Línea de montaje final de SUP hinchable instalando válvulas, anillas D y pads de cubierta en la fábrica de Qingdao
     - title: Ensayos e inspección de calidad
       description: Cada tabla terminada se somete a ensayos obligatorios de retención de aire, verificación de pelado de costuras y una comprobación completa de sistemas antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
       image: https://assets.afarer.com/images/afarer/factory/afarer-pressure-testing.webp
+      alt: Ensayo de presión para verificar la retención de aire de un SUP hinchable antes del envío en la fábrica de Qingdao
 
 equipment_section:
   tagline: Equipo
