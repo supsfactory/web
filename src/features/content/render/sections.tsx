@@ -298,6 +298,7 @@ function FeatureGrid({ c, grid = 'sm:grid-cols-2 lg:grid-cols-3' }: { c: Record<
         {items.map((it, i) => {
           const body = brandify(str(it.desc) || str(it.description) || str(it.body) || str(it.subtitle) || '')
           const href = remapHref(str(it.href) || str(it.link) || '')
+          const fragment = href.startsWith('#') || href.includes('?') || href.startsWith('http')
           const image = assetUrl(str(it.image))
           const icon = str(it.icon)
           const card = (
@@ -320,9 +321,15 @@ function FeatureGrid({ c, grid = 'sm:grid-cols-2 lg:grid-cols-3' }: { c: Record<
             </div>
           )
           return href ? (
-            <Link key={i} to="/$" params={{ _splat: href.replace(/^\/+/, '') }} className="group" style={{ color: 'inherit' }}>
-              {card}
-            </Link>
+            fragment ? (
+              <a key={i} href={href} className="group" style={{ color: 'inherit' }}>
+                {card}
+              </a>
+            ) : (
+              <Link key={i} to="/$" params={{ _splat: href.replace(/^\/+/, '') }} className="group" style={{ color: 'inherit' }}>
+                {card}
+              </Link>
+            )
           ) : (
             <div key={i}>{card}</div>
           )
@@ -553,9 +560,13 @@ function IntelligenceCards({ c }: { c: Record<string, unknown> }) {
               </div>
             )}
             {str(card.link) && (
-              <Link to="/$" params={{ _splat: str(card.link).replace(/^\/+/, '') }} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
-                {str(card.link_label) || 'Learn more'} <ArrowRight size={14} />
-              </Link>
+              (str(card.link).startsWith('#') || str(card.link).includes('?') || str(card.link).startsWith('http'))
+                ? <a href={str(card.link)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
+                    {str(card.link_label) || 'Learn more'} <ArrowRight size={14} />
+                  </a>
+                : <Link to="/$" params={{ _splat: str(card.link).replace(/^\/+/, '') }} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
+                    {str(card.link_label) || 'Learn more'} <ArrowRight size={14} />
+                  </Link>
             )}
           </div>
         ))}

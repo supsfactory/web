@@ -53,10 +53,10 @@ export function llmSiteHeader(): string {
   ].join('\n')
 }
 
-export function llmProductsIndex(): string {
+export function llmProductsIndex(origin: string): string {
   // Real product detail pages exist for the ported afarer products — link each
   // entry to its page instead of the /products index.
-  const lines = getAfarerProducts().map((p) => `- [${p.title}](/products/${p.slug}): ${flat(p.summary ?? '')}`)
+  const lines = getAfarerProducts().map((p) => `- [${p.title}](${abs(origin, `/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
   return ['', '## Products', ...lines, ''].join('\n')
 }
 
@@ -77,20 +77,20 @@ export function llmProductsFull(): string {
 }
 
 /** Index entries for the Solutions system pages (in /llms.txt). */
-export function llmSolutionsIndex(): string {
-  const lines = solutionPages.en.map((p) => `- [${p.metaTitle}](${solutionPath(p.slug)}): ${flat(p.metaDescription)}`)
+export function llmSolutionsIndex(origin: string): string {
+  const lines = solutionPages.en.map((p) => `- [${p.metaTitle}](${abs(origin, solutionPath(p.slug))}): ${flat(p.metaDescription)}`)
   return ['', '## Solution Pages', ...lines, ''].join('\n')
 }
 
 /** Index entries for the project case studies (in /llms.txt). */
-export function llmProjectsIndex(): string {
-  const lines = projects.en.map((p) => `- [${p.metaTitle}](/projects/${p.slug}): ${flat(p.metaDescription)}`)
+export function llmProjectsIndex(origin: string): string {
+  const lines = projects.en.map((p) => `- [${p.metaTitle}](${abs(origin, `/projects/${p.slug}`)}): ${flat(p.metaDescription)}`)
   return ['', '## Projects', ...lines, ''].join('\n')
 }
 
 /** Index entries for the Knowledge Center articles (in /llms.txt). */
-export function llmKnowledgeIndex(): string {
-  const lines = knowledge.en.map((a) => `- [${a.metaTitle}](/knowledge/${a.slug}): ${flat(a.metaDescription)}`)
+export function llmKnowledgeIndex(origin: string): string {
+  const lines = knowledge.en.map((a) => `- [${a.metaTitle}](${abs(origin, `/knowledge/${a.slug}`)}): ${flat(a.metaDescription)}`)
   return ['', '## Knowledge Center', ...lines, ''].join('\n')
 }
 
@@ -177,25 +177,28 @@ const PAGE_TITLES: Record<string, string> = {
   '/fournisseur-nautique': 'Fournisseur Nautique',
 }
 
+/** `/llms.txt` index sections link to absolute URLs (llmstxt.org) so LLMs can explore directly. */
+const abs = (origin: string, path: string) => `${origin}${path}`
+
 /** Index entries for the ported afarer brand pages (in /llms.txt). */
-export function llmAfarierIndex(): string {
+export function llmAfarierIndex(origin: string): string {
   // Derived from the loader (not a hand-maintained list) so revived pages and
   // future registry additions are covered automatically. Edge/legacy-301'd
   // source paths must not appear as canonical URLs — same rule as the sitemap.
   const pageLines = getAfarerPages()
     .filter((p) => !(p.path in EDGE_REDIRECTS) && !(p.path in LEGACY_REDIRECTS))
-    .map((p) => `- [${PAGE_TITLES[p.path] ?? brandify(p.label)}](${p.path}): ${flat(brandify(p.meta?.description ?? ''))}`)
+    .map((p) => `- [${PAGE_TITLES[p.path] ?? brandify(p.label)}](${abs(origin, p.path)}): ${flat(brandify(p.meta?.description ?? ''))}`)
   const staticLines = [
-    '- [FAQ](/faq): Answers to the most common questions about inflatable SUPs',
-    '- [Research](/research): Research library — drop-stitch, PVC vs Hypalon, CE certification, thickness',
+    `- [FAQ](${abs(origin, '/faq')}): Answers to the most common questions about inflatable SUPs`,
+    `- [Research](${abs(origin, '/research')}): Research library — drop-stitch, PVC vs Hypalon, CE certification, thickness`,
   ]
   const resolvedResearch = new Set(getAfarerPages().map((p) => p.path))
   const researchLines = getResearchTopics()
     .filter((t) => resolvedResearch.has(`/research/${t.slug}`))
-    .map((t) => `- [Research: ${t.slug.replace(/-/g, ' ')}](/research/${t.slug}): ${t.category}, ${t.readTime}`)
+    .map((t) => `- [Research: ${t.slug.replace(/-/g, ' ')}](${abs(origin, `/research/${t.slug}`)}): ${t.category}, ${t.readTime}`)
   const newsLines = getNewsPosts()
     .slice(0, 10)
-    .map((p) => `- [${p.title}](/news/${p.slug}): ${flat(p.excerpt ?? '')}`)
+    .map((p) => `- [${p.title}](${abs(origin, `/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
   return [
     '',
     '## Factory, Technology & Resources',

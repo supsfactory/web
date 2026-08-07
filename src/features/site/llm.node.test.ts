@@ -38,14 +38,17 @@ test('llms-full.txt never advertises edge-301 or legacy-shadowed paths', () => {
 })
 
 test('llms.txt afarer index covers every live page and no shadowed paths', () => {
-  const index = llmAfarierIndex()
+  const index = llmAfarierIndex('https://supsfactory.com')
   const listed = indexPaths(index)
-  const live = getAfarerPages().map((p) => p.path)
-  for (const path of live) {
+  const live = getAfarerPages().map((p) => `${index.includes('https://supsfactory.com') ? 'https://supsfactory.com' : ''}${p.path}`)
+
+  // Coverage via the path portion (index links are now absolute URLs).
+  const listedPaths = new Set([...listed].map((u) => (u.startsWith('https://') ? new URL(u).pathname : u)))
+  for (const path of live.map((p) => (p.startsWith('https://') ? new URL(p).pathname : p))) {
     if (SHADOWED.has(path)) {
-      expect(listed, `llms.txt index must not list shadowed path ${path}`).not.toContain(path)
+      expect(listedPaths, `llms.txt index must not list shadowed path ${path}`).not.toContain(path)
     } else {
-      expect(listed, `llms.txt index missing live page ${path}`).toContain(path)
+      expect(listedPaths, `llms.txt index missing live page ${path}`).toContain(path)
     }
   }
 })

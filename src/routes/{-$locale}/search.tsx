@@ -28,6 +28,7 @@ export const Route = createFileRoute('/{-$locale}/search')({
           ? 'Resultados de búsqueda en el sitio: soluciones, guías, proyectos y páginas de fabricación de SUP inflable.'
           : 'Site search results — SUP OEM solutions, guides, projects and manufacturing pages.',
     })
+    meta.push({ name: 'robots', content: 'noindex, follow' })
     return { meta, links }
   },
   component: SearchPage,

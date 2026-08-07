@@ -164,6 +164,9 @@ export interface HeadLink {
   rel: string
   href: string
   hreflang?: string // lowercase HTML attr — TanStack serializes head attrs verbatim
+  as?: string
+  type?: string
+  fetchpriority?: string
 }
 
 export interface HeadMeta {
@@ -184,6 +187,11 @@ export function localeHead(input: {
   const { origin, locale, path, title, description, ogTitle } = input
   const canonical = `${origin}${localizePath(locale, path)}`
   const links: HeadLink[] = [{ rel: 'canonical', href: canonical }]
+  // The home hero LCP image is the OG art — preload it on `/` so the first
+  // paint doesn't wait on a late-discovered <img> (R2/edge latency).
+  if (path === '/') {
+    links.push({ rel: 'preload', href: OG_IMAGE, as: 'image', type: 'image/webp', fetchpriority: 'high' })
+  }
   for (const l of locales) {
     links.push({ rel: 'alternate', hreflang: HREFLANG[l], href: `${origin}${localizePath(l, path)}` })
   }

@@ -36,3 +36,7 @@ playwright-report/
 
 # Claude Code session config (local)
 .claude/
+
+# dev server logs
+dev-server*.log
+dev-server*.err
