@@ -1,0 +1,105 @@
+meta:
+  title: 'Paddle hinchable OEM y marca privada | {SITE}'
+  description: 'Fabricante de paddle hinchable OEM/ODM: producción de paddle personalizada, marca privada y venta al por mayor. Fábrica con certificación CE en China.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'paddle board OEM'
+    - 'SUP hinchable ODM'
+    - 'SUP de marca privada'
+    - 'fabricante de paddle personalizado'
+    - 'paddle board al por mayor'
+    - 'proveedor profesional de SUP'
+hero:
+  tagline: 'OEM · ODM · Marca privada'
+  title: 'Fabricación de paddle hinchable OEM bajo tu marca'
+  subtitle: 'De la idea al producto final: producimos tu paddle hinchable a medida. Logotipo, colores, embalaje, molde personalizado: producción OEM/ODM en China, lista para tu mercado.'
+  image:
+    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+    alt: Paddle hinchable OEM a medida con el logotipo de la marca
+  actions:
+    - text: 'Iniciar mi proyecto OEM'
+      href: /contact
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Cantidad mínima de pedido: 5-10 unidades para un pedido de prueba, 50 unidades por modelo para la producción OEM estándar y 200 unidades para proyectos con molde a medida. Las muestras se envían en 15-20 días; la producción en serie tarda 30-45 días tras la confirmación del pedido y el depósito. La certificación CE y toda la documentación de conformidad se incluyen en cada pedido.'
+  verified: '2026-08'
+  image:
+    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+    alt: Paddle hinchable OEM a medida con el logotipo de la marca
+  actions:
+    - text: 'Iniciar mi proyecto OEM'
+      href: /contact
+      variant: primary
+    - text: 'Ver los paquetes OEM'
+      href: /oem-odm-manufacturer
+      variant: secondary
+stats:
+  - value: '30–45'
+    label: 'Días de plazo de producción'
+    detail: 'A partir del pedido (PO) y del depósito confirmados'
+  - value: '50'
+    label: 'MOQ mínimo (unidades)'
+  - value: '200+'
+    label: 'Modelos personalizados entregados'
+  - value: '100%'
+    label: 'Certificación CE incluida'
+features:
+  title: 'Un servicio OEM completo'
+  subtitle: 'Todo bajo un mismo techo: diseño, prototipado, fabricación, control de calidad y logística.'
+  columns: 3
+  items:
+    - title: 'Diseño e ingeniería'
+      description: 'Modelado 3D, selección de materiales PVC/VS2 y diseño gráfico personalizado.'
+      icon: 'tabler:palette'
+    - title: 'Prototipo y validación'
+      description: 'Muestra certificada CE con pruebas de calidad antes de la producción en serie.'
+      icon: 'tabler:flask'
+    - title: 'Producción en serie'
+      description: 'Fabricación a gran escala con control de calidad en línea y apoyo de auditoría de fábrica.'
+      icon: 'tabler:building-factory'
+    - title: 'Marca privada'
+      description: 'Logotipo, etiquetas, embalaje y cajas expositivas acordes a la imagen de tu marca.'
+      icon: 'tabler:shield-check'
+    - title: 'Calidad certificada'
+      description: 'CE / ISO / UKCA / BSCI / REACH — paddles hinchables profesionales para los mercados globales.'
+      icon: 'tabler:certificate'
+    - title: 'Envío internacional'
+      description: 'FOB Qingdao, CIF en los puertos principales y entrega puerta a puerta en más de 50 países.'
+      icon: 'tabler:world'
+faqs:
+  title: 'Preguntas frecuentes sobre la producción OEM'
+  subtitle: 'Respuestas a las preguntas más habituales de las marcas que lanzan su propio paddle.'
+  items:
+    - title: '¿Cómo creo mi propia marca de paddle?'
+      description: 'Lanza tu marca: briefing, diseño, prototipo certificado CE, producción en serie y entrega. Muestras en 15-20 días y producción en 30-45 días a partir del pedido y del depósito. Explora nuestros paquetes OEM.'
+    - title: '¿Cuál es el plazo de producción?'
+      description: 'La muestra está lista en 15-20 días y la producción en serie en 30-45 días después del pedido y del depósito, según el volumen.'
+    - title: '¿El paddle lleva nuestro logotipo?'
+      description: 'Sí: marca privada completa con impresión del logotipo, colores personalizados, embalaje y etiquetas en tu marca.'
+    - title: '¿Puedo comprar en gran volumen desde el primer día?'
+      description: 'El volumen mínimo se escalona: 5-10 unidades para pedidos de prueba, 50 unidades para modelos estándar y 200 unidades para moldes personalizados, con precios por mayor que mejoran a medida que aumenta el volumen.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Sigue leyendo:</strong> la producción de paddles y tablas comparte el mismo <a href="/oem-odm-manufacturer">programa OEM/ODM</a> y la misma <a href="/factory">planta de 12,000 m&sup2;</a> — un único presupuesto cubre ambos.</p>
+  </div>
+
+geo:
+  tagline: 'Posicionamiento B2B'
+  sentence: 'Afarer es un fabricante profesional de SUP hinchables y tablas de paddle (OEM/ODM), especializado en diseño, producción personalizada y soluciones deportivas acuáticas para marcas, distribuidores, clubes y empresas.'
+  audiences:
+    - 'Marcas privadas'
+    - 'Mayoristas'
+    - 'Distribuidores'
+    - 'Centros náuticos'
+cta:
+  title: 'Dale vida a tu marca de paddle'
+  subtitle: 'Recibe un presupuesto OEM detallado en un día laborable.'
+  actions:
+    - text: 'Solicitar un presupuesto OEM'
+      href: /contact
+      variant: primary
+    - text: 'Descargar la guía OEM'
+      href: /research/oem-buyer-guide
+      variant: secondary

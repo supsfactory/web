@@ -1,0 +1,59 @@
+meta:
+  title: 'Capacidad de producción — Fábrica de 12.000 m² | {SITE}'
+  description: 'La capacidad de la fábrica de afarer: instalación de 12.000 m² que produce más de 15.000 tablas de SUP al año, con margen para escalar. Fabricación OEM/ODM de SUP hinchables a gran escala.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'capacidad de producción de sup'
+    - 'fábrica de SUP hinchables'
+    - 'producción de paddle boards'
+    - 'fábrica de sup china'
+hero:
+  tagline: Capacidad de producción
+  title: Capacidad de fabricación y producción anual
+  subtitle: 'Instalación de 12.000 m² que produce más de 15.000 tablas de SUP al año, con margen para escalar'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Capacidad de la fábrica: 12.000 m² repartidos en seis talleres, más de 15.000 tablas de SUP al año, más de 200 trabajadores en dos turnos y exportación a más de 50 países. El MOQ se estructura por tramos: pedido de prueba de 5–10 unidades, 50 unidades por diseño en lote OEM estándar y más de 200 unidades para molde personalizado. Plazo de entrega de 30–45 días y muestras en 15–20 días.'
+  verified: '2026-08'
+
+intro: afarer opera una de las instalaciones dedicadas más grandes de fabricación de SUP hinchables en Qingdao, China. Nuestra fábrica de 12.000 m² está organizada en seis talleres especializados que trabajan en paralelo, lo que nos da la capacidad de producir más de 15.000 tablas al año en las líneas de SUP y equipo de seguridad.
+
+highlights:
+  - value: 12,000 m2
+    label: Superficie total de fabricación
+    detail: En 6 talleres especializados
+  - value: 15,000+
+    label: Tablas producidas al año
+    detail: SUP y equipo de seguridad
+  - value: 200+
+    label: Plantilla cualificada
+    detail: Más de 25 ingenieros, 2 turnos al día
+  - value: 50+
+    label: Países de exportación
+    detail: UE, EE. UU., AU, Oriente Medio, Asia
+  - value: 30–45
+    label: Plazo de entrega estándar (días)
+    detail: Desde la confirmación del PO hasta FOB
+  - value: 10+
+    label: Años de experiencia en exportación
+    detail: Desde 2012
+
+workshops:
+  - title: Producción de tablas de SUP
+    description: '4 líneas de ensamblaje en paralelo para tablas de SUP hinchables. Cada línea puede producir 50–80 tablas por turno. Las estaciones de impresión digital y serigrafía funcionan simultáneamente. Capacidad anual de SUP: más de 8.000 tablas.'
+    output: 'Más de 8.000 SUP al año'
+  - title: Producción de tablas de SUP
+    description: 'Capacidad de producción ampliada para tablas de SUP con líneas de ensamblaje adicionales. La unión de núcleos drop-stitch, la impresión digital y las estaciones de ensamblaje funcionan en paralelo.'
+    output: 'Capacidad de SUP ampliada'
+  - title: Tablas y accesorios SUP
+    description: 'Líneas de producción polivalentes para tablas de SUP y accesorios. Las estaciones de soldadura de aire caliente, las prensas dieléctricas RF y los puestos de ensamblaje se reconfiguran según la mezcla de pedidos. Capacidad anual: más de 5.000 unidades.'
+    output: 'Más de 5.000 unidades al año'
+  - title: Equipo de seguridad
+    description: 'Área de producción de sala limpia independiente para chalecos salvavidas y equipo de seguridad. Estaciones dedicadas de costura, inserción de espuma y ensayos. Capacidad anual de chalecos salvavidas: más de 50.000 unidades.'
+    output: 'Más de 50.000 chalecos salvavidas al año'
+
+oem_capacity:
+  moq: 'SUP: 5–10 de prueba | 50 lote estándar | Molde personalizado: más de 200 unidades'
+  lead_time: 'Estándar de 30–45 días. Muestras en 15–20 días. Acelerado disponible.'
+  payment: 'T/T 30% de depósito + 70% antes del envío. Se aceptan L/C y Western Union.'

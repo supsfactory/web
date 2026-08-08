@@ -1,0 +1,79 @@
+meta:
+  title: 'Cómo funciona el drop-stitch — Núcleos rígidos para SUP hinchables'
+  description: 'Cómo el drop-stitch convierte el PVC flexible en un núcleo rígido de alta presión para SUP (15-20 PSI): construcción, materiales, indicadores de calidad y aplicaciones.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Volver a Investigación'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'El drop-stitch es un tejido cuyos pilares de hilo de poliéster mantienen las capas superior e inferior de PVC a una distancia fija, de modo que la presión del aire vuelve rígida la tabla. Núcleos Afarer: 1,680 DTEX, 2 hilos por pulgada cuadrada, laminado exterior de PVC de 1.2 mm, homologados a 20 PSI y validados mediante una prueba de retención de 24 horas a 1.5&times; la presión nominal.'
+  verified: '2026-08'
+
+hero:
+  tagline: 'Tecnología'
+  title: 'Cómo funciona el drop-stitch — La ingeniería detrás de los núcleos rígidos hinchables'
+  subtitle: '8 min de lectura'
+
+content_html: |
+  <h2>¿Qué es el drop-stitch?</h2>
+  <p>El drop-stitch (también llamado "tejido drop-stitch" o "núcleo drop-stitch") es un método de construcción en el que miles de hilos individuales de poliéster conectan las capas superior e inferior de una carcasa de tejido. Cuando la carcasa se infla, estos hilos actúan como elementos de tensión internos: evitan que los paneles superior e inferior se abomben hacia fuera adoptando una forma redondeada, obligando al panel a permanecer plano y rígido.</p>
+  <p>El resultado es una estructura ligera y portátil que puede soportar 15 – 20 PSI de presión interna, comparable a la rigidez de una tabla de casco rígido, pero totalmente desinflable para su almacenamiento y transporte.</p>
+
+  <h2>Cómo funciona: la física</h2>
+  <p>En una estructura hinchable convencional (como un globo o un colchón de aire), la presión interna del aire empuja por igual en todas las direcciones. Sin sujeción interna, la estructura adopta una forma cilíndrica o esférica. El drop-stitch resuelve este problema introduciendo refuerzo de tracción:</p>
+  <ul>
+    <li>Miles de hilos conectan las capas superior e inferior del tejido</li>
+    <li>Al inflarse, la presión del aire tiende a separar la parte superior y la inferior</li>
+    <li>Los hilos resisten esta separación, transfiriendo la carga a tensión a lo largo del eje del hilo</li>
+    <li>El resultado es un panel plano y rígido que resiste la flexión</li>
+  </ul>
+
+  <h2>Proceso de construcción</h2>
+  <ol>
+    <li><strong>Tejido:</strong> Los hilos de poliéster se tejen simultáneamente en dos capas separadas de tejido base (normalmente poliéster recubierto de PVC de 1,100 DTEX o 1,680 DTEX). Los hilos se tejen en bucle entre las capas en un ángulo de 90&deg;.</li>
+    <li><strong>Recubrimiento:</strong> El tejido base se recubre con PVC (u ocasionalmente TPU) mediante un proceso de recubrimiento con cuchilla o calandra. Esto sella los hilos y crea la membrana hermética al aire.</li>
+    <li><strong>Unión de capas:</strong> El núcleo drop-stitch se une a las capas exteriores laminadas (normalmente PVC de 0.9 mm o 1.2 mm) mediante laminado por calor o adhesivo.</li>
+    <li><strong>Soldadura:</strong> Las bandas de canto se sueldan a lo largo de los bordes mediante soldadura por aire caliente, soldadura RF o soldadura de alta frecuencia para crear las paredes laterales de la tabla.</li>
+    <li><strong>Instalación de la válvula:</strong> Se instalan válvulas Boston o válvulas Halkey-Roberts, normalmente con un mecanismo de alivio de presión para evitar el sobreinflado.</li>
+  </ol>
+
+  <h2>Indicadores clave de calidad</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parámetro</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Nivel de entrada</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Densidad de hilo</td><td class="p-3 border">1 hilo / pulgada cuadrada</td><td class="p-3 border">2 hilos / pulgada cuadrada</td></tr>
+      <tr><td class="p-3 border">Tejido base</td><td class="p-3 border">1,100 DTEX</td><td class="p-3 border">1,680 DTEX</td></tr>
+      <tr><td class="p-3 border">Presión máxima</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">Grosor de PVC</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Construcción del rail</td><td class="p-3 border">Plegado y encolado</td><td class="p-3 border">Soldado y fusionado</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Aplicaciones</h2>
+  <ul>
+    <li><strong>Tablas de SUP:</strong> grosor de 4" – 6", 15 – 20 PSI, 1 – 2 hilos/pulgada cuadrada</li>
+    <li><strong>Kayaks:</strong> suelo de drop-stitch + cámaras laterales hinchables, suelo de 10 – 15 PSI</li>
+    <li><strong>Suelos de RIB:</strong> suelos de drop-stitch para auxiliares RIB ligeras y plegables, 12 – 18 PSI</li>
+    <li><strong>Defensas de barco:</strong> drop-stitch de baja presión para defensas conformadas con caras planas</li>
+  </ul>
+
+  <h2>Drop-stitch vs. cubierta de aire (núcleo de fibra de vidrio o madera)</h2>
+  <p>Las tablas de casco rígido utilizan núcleos de espuma EPS con refuerzo de largueros de fibra de vidrio o madera. Son más ligeras, más rígidas y más reactivas, pero no pueden desinflarse. El drop-stitch intercambia parte de la rigidez por una portabilidad total. Para la mayoría de los usuarios recreativos, los SUP drop-stitch modernos a 20 PSI son indistinguibles de las tablas rígidas de nivel de entrada en cuanto a rigidez.</p>
+
+  <h2>Cómo utiliza Afarer el drop-stitch</h2>
+  <p>Afarer utiliza un núcleo drop-stitch de 1,680 DTEX en toda su gama de SUP, con 2 hilos por pulgada cuadrada y un laminado exterior de PVC de 1.2 mm. Las tablas están homologadas a 20 PSI y se someten a una prueba de retención de presión de 24 horas a 1.5x la presión nominal antes del envío. Las bandas de canto se sueldan con aire caliente con fusión de triple capa, y las válvulas de alivio de presión son estándar en todos los modelos.</p>
+  <p>El drop-stitch es la columna vertebral de nuestra producción de SUP: consulta la <a href="/technology/drop-stitch-core">página de tecnología del núcleo drop-stitch</a> y cómo se une el núcleo en la <a href="/factory">línea de producción de la fábrica</a>.</p>
+
+cta:
+  title: '¿Quieres saber más sobre el drop-stitch?'
+  subtitle: 'Contacta con nosotros para especificaciones técnicas y consultas OEM.'
+  button_text: 'Contactar con ventas'
+  button_link: /contact

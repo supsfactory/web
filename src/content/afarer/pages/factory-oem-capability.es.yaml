@@ -1,0 +1,60 @@
+meta:
+  title: 'Fabricación OEM y con marca propia | {SITE}'
+  description: 'Del concepto al contenedor: personalice cada detalle de su línea de SUP hinchables. Servicio OEM/ODM completo para marcas de paddle boards con marca propia.'
+  dateModified: '2026-08'
+  keywords:
+    - 'fabricación sup oem'
+    - 'paddle board marca propia'
+    - 'sup oem hinchable'
+    - 'fábrica de sup personalizado'
+hero:
+  tagline: Fabricación OEM/ODM
+  title: Fabricación OEM y con marca propia
+  subtitle: 'Del concepto al contenedor: personalice cada detalle de su línea de SUP hinchables'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Puede iniciar un pedido OEM con un lote de prueba de 5–10 unidades (muestras en 15–20 días), escalar a 50 unidades por diseño para un lote estándar y pasar a molde personalizado completo o marca propia a partir de 200 unidades. La producción estándar se realiza en 30–45 días FOB Qingdao tras la confirmación del PO y el depósito.'
+  verified: '2026-08'
+
+intro: afarer ofrece servicios OEM y ODM integrales para marcas, distribuidores y agencias gubernamentales de todo el mundo. Con más de 10 años de experiencia en exportación y una fábrica de 12.000 m² certificada ISO 9001 y BSCI, nos encargamos de todo, desde el diseño del producto y el desarrollo de moldes hasta la producción a escala de contenedor, el embalaje y la logística.
+
+highlight:
+  - value: 10+
+    label: Años de experiencia OEM
+    detail: Desde 2012
+  - value: 50+
+    label: Países de exportación
+    detail: Alcance global
+  - value: 200+
+    label: Proyectos personalizados entregados
+    detail: En todas las líneas de producto
+  - value: 30–45
+    label: Plazo de entrega estándar (días)
+    detail: Desde el PO hasta FOB
+
+services:
+  - title: Diseño de producto e ingeniería
+    description: Nuestro equipo interno de I+D trabaja con su concepto o especificación para desarrollar planos CAD, modelos 3D y prototipos. Ofrecemos diseño de moldes, optimización de la forma del casco y asesoramiento en la selección de materiales.
+  - title: Marca y gráficos personalizados
+    description: Impresión digital a todo color, serigrafía, grabado y opciones de etiquetado. Desarrollamos gráficos de cubierta específicos de la marca, branding en el tubo y embalaje listo para el comercio minorista.
+  - title: Personalización de materiales y especificaciones
+    description: Elija entre PVC (estándar, ecológico, ignífugo), Hypalon/CSM, drop-stitch y construcciones híbridas. Colores de tubo personalizados, pesos de tejido y opciones de refuerzo.
+  - title: Embalaje y logística
+    description: Embalaje minorista personalizado, cajas con marca propia, envasado al vacío, paletizado y carga de contenedores. Condiciones de envío FOB Qingdao, CIF o DDP.
+
+moq_table:
+  - product: Tablas de SUP hinchables
+    standard_moq: '5–10 de prueba / 50 lote estándar'
+    custom_moq: '200+ unidades'
+    lead_time: 30–45 días
+
+why_us:
+  - title: Integración vertical
+    description: 'Somos propietarios de nuestra fábrica, moldes y cadena de suministro: sin intermediarios ni subcontratistas. Esto nos da control sobre la calidad, el coste y la entrega.'
+  - title: Doble certificación
+    description: Gestión de calidad ISO 9001 y certificación de cumplimiento social BSCI. Informes de auditoría de fábrica disponibles bajo petición.
+  - title: Cumplimiento CE
+    description: Todos los modelos estándar cuentan con certificación CE 2013/53/EU. Los modelos personalizados pueden obtener la certificación CE mediante nuestro proceso establecido.
+  - title: MOQ bajo
+    description: Empiece con tan solo 5 unidades en los modelos estándar. Ayudamos a las marcas emergentes a lanzarse sin comprometer inventario en exceso.
