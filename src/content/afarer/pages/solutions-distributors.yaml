@@ -1,6 +1,7 @@
 meta:
   title: 'SUP Wholesale Distribution Partner Program | {SITE}'
   description: "Join Afarer's global SUP wholesale distribution network: exclusive territories, complete product portfolio and dedicated account management in 50+ countries."
+  dateModified: '2026-08'
 
 hero:
   tagline: Distributors
@@ -9,6 +10,11 @@ hero:
   image:
     src: https://assets.afarer.com/images/afarer/factory/afarer-factory-building.webp
     alt: Afarer global distribution and shipping operations
+
+answer:
+  label: 'Straight answer'
+  text: 'Wholesale distribution terms: exclusive territory, 3–8 SKUs per program, 45–60 day payment terms, and 100% factory pressure-tested stock before dispatch. Distributors buy at factory-direct wholesale pricing with a dedicated account manager; minimum opening order and freight terms are agreed per territory, shipped FOB Qingdao or CIF.'
+  verified: '2026-08'
 
 intro:
   tagline: About the program
@@ -108,6 +114,11 @@ faqs:
       a: 'Orders leave our factory on scheduled sailings, with forward ordering available to stabilize freight costs. Your dedicated account manager plans production and dispatch around your forecast and the season calendar.'
     - q: 'How do I apply?'
       a: 'Use the application form on this page or contact us directly. Applications are reviewed by the distribution team, and we respond with next steps, including territory mapping and a draft agreement, within a few working days.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Keep reading:</strong> distribution partners sell the same boards we make for <a href="/oem-odm-manufacturer">OEM/private-label brands</a> — review the manufacturing program and the <a href="/factory">factory quality process</a> so you can position the product with confidence.</p>
+  </div>
 
 cta:
   title: 'Ready to become a distributor?'

@@ -189,6 +189,7 @@ export const en = {
       privateLabel: 'Private Label SUP', manufacturing: 'Custom SUP Manufacturing',
       startups: 'Startup Brands', resorts: 'Resorts & Hotels', clubs: 'Clubs & Schools',
       corporate: 'Corporate & Events',
+      b2bMatrix: 'B2B Solutions Matrix', whatIsSup: 'What is an Inflatable SUP?', partners: 'Partnerships',
       about: 'About Us', howItWorks: 'How It Works', gallery: 'Project Gallery', contact: 'Contact',
       factory: 'Factory & Manufacturing', technology: 'Technology', academy: 'Academy', news: 'News',
       guides: 'Industry Guides', evidence: 'Case Studies',
@@ -259,6 +260,8 @@ export const en = {
         'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.). We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing.',
       intro2:
         'Our 12,000 m² plant in Qingdao, China handles every stage in-house — design, mould engineering, drop-stitch construction, RF welding, printing, assembly and quality testing. We do not sell to end consumers and we do not compete with our clients in any market.',
+      intro3:
+        'One factory, three names. Qingdao Vatrad Group Co., Ltd. is the legal entity; Afarer is its manufacturing brand and operates the full-category inflatable product lines on afarer.com; SUPsfactory is the SUP-focused OEM/ODM division you are reading now. Whatever your sourcing team calls us, you reach the same factory floor in Qingdao.',
       factsTitle: 'Company Facts',
       servicesTitle: 'What We Manufacture',
       servicesBody: 'Five solution areas cover most custom SUP manufacturing projects:',

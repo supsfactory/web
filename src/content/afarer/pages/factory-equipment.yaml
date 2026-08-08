@@ -1,6 +1,7 @@
 meta:
   title: 'Factory Equipment — Cutting, Welding & Printing'
-  description: 'Industrial-grade afarer manufacturing equipment: PVC cutting, RF welding, digital printing, assembly, and testing for inflatable SUPs and boats.'
+  description: 'Industrial-grade afarer manufacturing equipment: PVC cutting, RF welding, digital printing, assembly, and testing for inflatable SUP boards.'
+  dateModified: '2026-08'
   keywords:
     - 'sup manufacturing equipment'
     - 'inflatable sup factory'
@@ -12,6 +13,11 @@ hero:
   subtitle: Industrial-grade equipment across cutting, welding, printing, and assembly
   back_label: Back to Factory
   back_link: /factory
+
+answer:
+  label: 'Straight answer'
+  text: 'Our 12,000 m² factory runs CNC-controlled automatic cutting (0.1 mm accuracy, sub-5% waste), hot-air sealing at 200–600 °C plus 15 kW RF dielectric welding for main seams, drop-stitch core lamination presses up to 14 ft, and a QC lab that pressure-tests every chamber, ASTM D751 tensile checks, and ISO 6185 seam peel verification.'
+  verified: '2026-08'
 
 categories:
   - title: Cutting & Material Preparation

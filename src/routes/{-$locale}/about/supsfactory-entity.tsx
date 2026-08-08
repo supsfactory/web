@@ -66,6 +66,7 @@ function EntityPage() {
     title: t('sup.entity.title'),
     intro1: t('sup.entity.intro1'),
     intro2: t('sup.entity.intro2'),
+    intro3: t('sup.entity.intro3'),
     factsTitle: t('sup.entity.factsTitle'),
     servicesTitle: t('sup.entity.servicesTitle'),
     servicesBody: t('sup.entity.servicesBody'),
@@ -84,6 +85,7 @@ function EntityPage() {
         <div className="mt-7 flex max-w-2xl flex-col gap-4">
           <p className="fg-dim text-[15.5px] leading-relaxed">{c.intro1}</p>
           <p className="fg-dim text-[15.5px] leading-relaxed">{c.intro2}</p>
+          <p className="fg-dim text-[15.5px] leading-relaxed">{c.intro3}</p>
         </div>
       </PageHero>
 

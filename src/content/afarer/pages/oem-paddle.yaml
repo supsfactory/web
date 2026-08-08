@@ -1,6 +1,7 @@
 meta:
   title: 'OEM Inflatable Paddle & Private Label | {SITE}'
   description: 'OEM/ODM inflatable paddle manufacturer: custom paddle production, private label, and wholesale. CE-certified factory in China.'
+  dateModified: '2026-08-07'
   keywords:
     - 'OEM paddle board'
     - 'ODM inflatable SUP'
@@ -12,6 +13,17 @@ hero:
   tagline: 'OEM · ODM · Private Label'
   title: 'OEM Inflatable Paddle Manufacturing Under Your Brand'
   subtitle: 'From idea to finished product: we manufacture your custom inflatable paddle. Logo, colors, packaging, custom mold — OEM/ODM production in China, ready for your market.'
+  image:
+    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+    alt: Custom OEM inflatable paddle with brand logo
+  actions:
+    - text: 'Start My OEM Project'
+      href: /contact
+
+answer:
+  label: 'Straight answer'
+  text: 'Minimum order quantity: 5–10 units for a trial order, 50 units per model for standard OEM production, and 200 units for custom-mould projects. Samples ship in 15–20 days; bulk production runs 30–45 days after PO and deposit. CE certification and full compliance documentation included with every order.'
+  verified: '2026-08'
   image:
     src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
     alt: Custom OEM inflatable paddle with brand logo
@@ -67,9 +79,15 @@ faqs:
       description: 'Yes — full private label: logo printing, custom colors, packaging, and labels in your brand.'
     - title: 'Can I buy in bulk from day one?'
       description: 'The MOQ is tiered: 5–10 units for trial orders, 50 units for standard models, and 200 units for custom mould, with wholesale pricing tiers as volume increases.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Keep reading:</strong> paddle and board production share the same <a href="/oem-odm-manufacturer">OEM/ODM program</a> and the same <a href="/factory">12,000 m&sup2; factory floor</a> — one quote covers both.</p>
+  </div>
+
 geo:
   tagline: 'B2B Positioning'
-  sentence: 'Afarer is a professional manufacturer of inflatable SUPs and inflatable boats (OEM/ODM), specialized in design, custom production, and nautical solutions for brands, distributors, clubs, and businesses.'
+  sentence: 'Afarer is a professional manufacturer of inflatable SUPs and paddle boards (OEM/ODM), specialized in design, custom production, and water-sports solutions for brands, distributors, clubs, and businesses.'
   audiences:
     - 'Private labels'
     - 'Wholesalers'

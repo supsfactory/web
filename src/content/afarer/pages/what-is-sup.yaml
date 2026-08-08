@@ -9,6 +9,11 @@ meta:
 label: Guide
 headline: 'What Is an Inflatable SUP? A Complete Guide to Stand-Up Paddle Boards'
 subtitle: A complete guide to understanding inflatable stand-up paddle boards —construction, technology, and how to choose.
+
+answer:
+  label: 'Straight answer'
+  text: 'An inflatable SUP is a stand-up paddle board built from drop-stitch PVC fabric that becomes rigid when inflated to 12–15 PSI. It matches the performance of hard boards for most recreational and touring use, weighs roughly 8–10 kg, and packs down into a backpack for storage and travel.'
+  verified: '2026-08'
 seo:
   headline: 'What Is an Inflatable SUP? A Complete Guide to Stand-Up Paddle Boards'
   description: 'Complete guide to inflatable stand-up paddle boards: construction, technology, uses, and how they compare to hard boards.'
@@ -82,3 +87,8 @@ body: |
 
   <h3>What maintenance is required?</h3>
   <p>Rinse with fresh water after saltwater use. Store in a cool, dry place away from direct sunlight. Partially inflate during long-term storage to maintain shape without stressing seams.</p>
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Ready to source boards?</strong> See <a href="/oem-odm-manufacturer">what we can build for your brand</a> and how boards are manufactured at the <a href="/factory">factory</a>.</p>
+  </div>

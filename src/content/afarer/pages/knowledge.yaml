@@ -1,17 +1,18 @@
 meta:
-  title: 'Knowledge — SUP & Boat Guides | {SITE}'
-  description: 'afarer knowledge base: guides on inflatable SUPs, paddle board materials, boat selection, and industry insights for brands and professionals.'
+  title: 'Knowledge — Inflatable SUP & OEM Guides | {SITE}'
+  description: 'afarer knowledge base: guides on inflatable SUPs, paddle board materials, board selection, and industry insights for brands and professionals.'
+  dateModified: '2026-08'
   keywords:
     - 'sup knowledge'
     - 'inflatable sup guide'
     - 'paddle board materials'
     - 'sup industry insights'
 hero:
-  tagline: 'Knowledge Graph'
-  title: 'Water Exploration Knowledge'
+  tagline: 'Knowledge Center'
+  title: 'SUP Knowledge Center'
   subtitle: |
     A structured knowledge base covering inflatable SUP technology, 
-    water safety, boat engineering, and adventure planning.
+    water safety, board engineering, and adventure planning.
   taglineSection: 'Explore. Learn. Go with confidence.'
 
 clusters:

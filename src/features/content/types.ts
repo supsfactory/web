@@ -96,6 +96,7 @@ export interface AfarerArticle {
   category?: string
   tags?: string[]
   body: string
+  dateModified?: string
 }
 
 export interface AfarerCaseUse extends AfarerArticle {

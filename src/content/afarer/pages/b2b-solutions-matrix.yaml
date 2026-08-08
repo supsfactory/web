@@ -1,6 +1,7 @@
 meta:
   title: 'B2B Client Solutions Matrix | {SITE}'
   description: 'Complete Afarer B2B client solutions matrix covering 24 customer types — from outdoor startups to marine conservation institutions.'
+  dateModified: '2026-08'
 
 hero:
   tagline: B2B Client Solutions
@@ -9,6 +10,11 @@ hero:
   image:
     src: https://assets.afarer.com/images/afarer/factory/afarer-factory-aerial-1.webp
     alt: Afarer factory and manufacturing facility
+
+answer:
+  label: 'Straight answer'
+  text: 'One factory serves every B2B route: OEM/ODM manufacturing (5–10 unit trials, 50-unit standard batches, 200-unit custom moulds), private label on proven platforms, wholesale distribution and fleet programs for resorts, clubs and schools. Every customer type maps to a specific solution set — samples in 15–20 days, production 30–45 days after PO and deposit.'
+  verified: '2026-08'
 
 solutions:
   title: Client Solutions Matrix
@@ -121,3 +127,8 @@ cta:
     - variant: secondary
       text: Download Catalog
       href: /resources/download-catalog
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Every route on this matrix starts with the same two things: our <a href="/oem-odm-manufacturer">OEM/ODM manufacturing program</a> and the <a href="/factory">factory behind it</a> — one 12,000 m&sup2; plant, one set of quality standards, every channel served.</p>
+  </div>

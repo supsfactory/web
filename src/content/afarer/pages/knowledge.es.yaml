@@ -48,7 +48,7 @@ clusters:
         - 'Técnicas de reparación de hinchables'
     - title: 'Habilidades y técnicas de SUP'
       description: 'Técnicas de paleo, habilidades de travesía y entrenamiento físico para todos los niveles.'
-      icon: 'tabler:sailboat'
+      icon: 'tabler:waves'
       topics:
         - 'Técnicas de paleo para principiantes'
         - 'Dominio de la brazada intermedia'

@@ -64,11 +64,14 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           <Link className="foot-link" to="/{-$locale}/solutions/school-sup">{t('sup.footer.schoolSup')}</Link>
           <a className="foot-link" href={fl('/solutions/distributors')}>{t('sup.nav.solutionsDropdown.distributors')}</a>
           <a className="foot-link" href={fl('/solutions/rental-operators')}>{t('sup.nav.solutionsDropdown.rentalOperators')}</a>
+          <a className="foot-link" href={fl('/b2b-solutions-matrix')}>{t('sup.footer.b2bMatrix')}</a>
+          <a className="foot-link" href={fl('/partners')}>{t('sup.footer.partners')}</a>
         </FooterCol>
 
         {/* Resources & Company */}
         <FooterCol title={t('sup.footer.colResources')}>
           <Link className="foot-link" to="/{-$locale}/knowledge">{t('sup.nav.guides')}</Link>
+          <a className="foot-link" href={fl('/what-is-sup')}>{t('sup.footer.whatIsSup')}</a>
           <Link className="foot-link" to="/{-$locale}/projects">{t('sup.nav.projects')}</Link>
           <a className="foot-link" href={fl('/faq')}>{t('sup.footer.faq')}</a>
           <a className="foot-link" href={fl('/news')}>{t('sup.footer.news')}</a>

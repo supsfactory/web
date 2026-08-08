@@ -1,6 +1,6 @@
 meta:
-  title: 'OEM Buyer Guide — Sourcing Boats from Asia | {SITE}'
-  description: 'Sourcing inflatable boats, SUPs and RIBs from Asia: factory audit checklist, QC protocols, compliance, MOQ negotiation, shipping terms and pitfalls.'
+  title: 'OEM Buyer Guide — Sourcing Inflatable SUP Boards from Asia | {SITE}'
+  description: 'Sourcing inflatable SUP boards from Asia: factory audit checklist, QC protocols, compliance, MOQ negotiation, shipping terms and pitfalls.'
   author: 'SUPsfactory'
   datePublished: '2026-08-04'
   dateModified: '2026-08-07'
@@ -8,8 +8,13 @@ back_text: 'Back to Research'
 
 hero:
   tagline: 'Sourcing'
-  title: 'OEM Buyer Guide — Sourcing Inflatable Watercraft from Asia'
+  title: 'OEM Buyer Guide — Sourcing Inflatable SUP Boards from Asia'
   subtitle: '12 min read'
+
+answer:
+  label: 'Straight answer'
+  text: 'Minimum order quantity: 5–10 units for a standard trial order, 50 units per design for a standard OEM batch, and 200 units for full custom-mould or private-label projects. Samples ship in 15–20 days; bulk production runs 30–45 days after confirmed PO and deposit, plus 15–20 days when new tooling is required.'
+  verified: '2026-08'
 
 content_html: |
   <h2>1. Pre-Qualification: What to Look for in a Factory</h2>
@@ -56,26 +61,26 @@ content_html: |
   </ul>
 
   <h2>4. MOQ Negotiation</h2>
+  <p>Inflatable SUP board MOQs are set by the production path, not by guesswork. All afarer OEM/ODM projects follow one tiered structure, and the same numbers appear on our factory page and in our commercial terms:</p>
   <table class="w-full text-sm border-collapse">
     <thead>
       <tr class="bg-gray-100">
-        <th class="p-3 text-left font-semibold text-gray-900 border">Product Type</th>
-        <th class="p-3 text-left font-semibold text-gray-900 border">Standard MOQ</th>
-        <th class="p-3 text-left font-semibold text-gray-900 border">Negotiable Range</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Production Path</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">MOQ</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Timeline</th>
       </tr>
     </thead>
     <tbody>
-      <tr><td class="p-3 border">SUP Boards</td><td class="p-3 border">50 – 100 units</td><td class="p-3 border">5 – 10 units (trial)</td></tr>
-      <tr><td class="p-3 border">Kayaks</td><td class="p-3 border">50 – 100 units</td><td class="p-3 border">5 – 10 units (trial)</td></tr>
-      <tr><td class="p-3 border">Inflatable Boats</td><td class="p-3 border">50 – 100 units</td><td class="p-3 border">2 – 5 units (trial)</td></tr>
-      <tr><td class="p-3 border">RIB Boats</td><td class="p-3 border">20 – 50 units</td><td class="p-3 border">2 – 5 units (trial)</td></tr>
-      <tr><td class="p-3 border">Safety / Accessories</td><td class="p-3 border">200 – 500 units</td><td class="p-3 border">50 – 100 units (trial)</td></tr>
+      <tr><td class="p-3 border font-medium">Trial batch (standard model)</td><td class="p-3 border">5 – 10 units</td><td class="p-3 border">Samples in 15 – 20 days</td></tr>
+      <tr><td class="p-3 border font-medium">Standard OEM batch (per design)</td><td class="p-3 border">50 units</td><td class="p-3 border">30 – 45 days after PO and deposit</td></tr>
+      <tr><td class="p-3 border font-medium">Full custom mould / private label</td><td class="p-3 border">200 units</td><td class="p-3 border">Adds 15 – 20 days for tooling</td></tr>
     </tbody>
   </table>
+  <p>Trial orders and sample runs are available for new brand launches, and volume pricing tiers apply as order size increases. Get the MOQ tier, lead time, and payment terms for your specific board in writing before you commit to a supplier.</p>
 
   <h2>5. Logistics and Shipping</h2>
   <p>Common Incoterms: <strong>FOB</strong> (Factory delivers to departure port – most common), <strong>EXW</strong> (Buyer arranges all shipping from factory door), <strong>CIF</strong> (Factory pays freight and insurance to destination port).</p>
-  <p>Inflatable products are low-weight, high-volume – volumetric weight (DIM) often determines shipping cost. Request vacuum-packed packaging to reduce volume by 50–60%. Sea freight from China to EU: 25–35 days; to US West Coast: 15–20 days.</p>
+  <p>Inflatable products are low-weight, high-volume – volumetric weight (DIM) often determines shipping cost. Request vacuum-packed packaging to reduce volume by 50–60%. Sea freight transit from China to the EU typically takes 25–35 days, and 15–20 days to the US West Coast — on top of the 30–45 day production lead time.</p>
 
   <h2>6. Common Pitfalls</h2>
   <ul>
@@ -87,7 +92,8 @@ content_html: |
   </ul>
 
   <h2>7. Why Afarer</h2>
-  <p>Afarer has been manufacturing OEM/ODM inflatable watercraft since 2012. With a 12,000 m&sup2; ISO 9001 certified facility, 25+ engineers, and CE certification across all product lines, we meet every criterion in this guide. We offer trial MOQs for new partners and full compliance documentation packages.</p>
+  <p>Afarer has been manufacturing OEM/ODM inflatable SUP boards since 2012. With a 12,000 m&sup2; ISO 9001 certified facility, 25+ engineers, and CE certification across all product lines, we meet every criterion in this guide. We offer trial MOQs for new partners and full compliance documentation packages.</p>
+  <p>Review our <a href="/oem-odm-manufacturer">inflatable SUP OEM/ODM manufacturing services</a> or tour the <a href="/factory">12,000 m&sup2; factory floor</a> to see the equipment and QC processes behind each step above.</p>
 
 cta:
   title: 'Ready to start sourcing?'

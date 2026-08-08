@@ -98,6 +98,7 @@ function inferSectionType(value: unknown, key: string): string {
   if (key === 'cta' || key.includes('cta')) return 'cta'
   if (key.includes('faq')) return 'faqs'
   if (key === 'content_html' || key.includes('html')) return 'html'
+  if (key === 'answer' || key === 'direct_answer') return 'answer'
   if (Array.isArray(value)) {
     const first = value[0]
     if (first && typeof first === 'object' && 'value' in first) return 'stats'
@@ -108,7 +109,7 @@ function inferSectionType(value: unknown, key: string): string {
 }
 
 function deriveSections(content: Record<string, unknown>): AfarerSectionDef[] {
-  const keys = Object.keys(content).filter((k) => !['meta', 'back_text', 'backText'].includes(k))
+  const keys = Object.keys(content).filter((k) => !['meta', 'back_text', 'backText', 'home_label', 'homeLabel'].includes(k))
   // hero first, cta last, everything else in source order
   const ordered = [...keys].sort((a, b) => {
     const rank = (k: string) => (k === 'hero' || k.includes('hero') ? 0 : k.includes('cta') ? 2 : 1)
@@ -250,6 +251,7 @@ const TECH: AfarerArticle[] = Object.entries(TECH_DATA).map(([slug, d]) => {
     description: rec.description ? String(rec.description) : undefined,
     category: rec.category ? String(rec.category) : undefined,
     tags: Array.isArray(rec.tags) ? rec.tags.map(String) : [],
+    dateModified: rec.dateModified ? String(rec.dateModified) : rec.publishDate ? String(rec.publishDate) : undefined,
     body: mdxBodyOf(techGlob, slug),
   }
 })

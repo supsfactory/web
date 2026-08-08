@@ -6,6 +6,11 @@ meta:
   dateModified: '2026-08-07'
 back_text: 'Back to Research'
 
+answer:
+  label: 'Straight answer'
+  text: 'Drop-stitch is a fabric whose pillars of polyester thread hold the top and bottom PVC layers a fixed distance apart, so air pressure turns the board rigid. Afarer cores: 1,680 DTEX, 2 threads per square inch, 1.2 mm PVC outer laminate, rated to 20 PSI, validated by a 24-hour hold test at 1.5&times; rated pressure.'
+  verified: '2026-08'
+
 hero:
   tagline: 'Technology'
   title: 'How Drop Stitch Works — The Engineering Behind Inflatable Rigid Cores'
@@ -65,6 +70,7 @@ content_html: |
 
   <h2>How Afarer Uses Drop Stitch</h2>
   <p>Afarer uses a 1,680 DTEX drop-stitch core across its SUP lineup, with 2 threads per square inch and a 1.2 mm PVC outer laminate. Boards are rated to 20 PSI and undergo a 24-hour pressure hold test at 1.5x rated pressure before shipment. Rail bands are hot-air welded with triple-layer fusion, and pressure relief valves are standard across all models.</p>
+  <p>Drop-stitch is the backbone of our SUP production — see the <a href="/technology/drop-stitch-core">drop-stitch core technology page</a> and how the core is bonded on the <a href="/factory">factory production line</a>.</p>
 
 cta:
   title: 'Want to learn more about drop stitch?'

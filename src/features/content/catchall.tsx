@@ -66,13 +66,14 @@ export const afarerServerLoader = createServerFn({ method: 'GET' })
 
 /* ─────────────────────────── JSON-LD helpers ─────────────────────────── */
 
-function articleLd(origin: string, title: string, description: string): Record<string, unknown> {
+function articleLd(origin: string, title: string, description: string, dateModified?: string): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
     '@type': 'TechArticle',
     headline: title,
     description,
     url: `${origin}/technology/${title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+    dateModified,
     publisher: { '@type': 'Organization', name: 'Afarer' },
   }
 }
@@ -100,6 +101,13 @@ function productLd(origin: string, product: AfarerProduct): Record<string, unkno
     sku: product.sku,
     description: brandify(product.description ?? product.summary ?? ''),
     image: product.image ? [product.image] : undefined,
+    brand: { '@type': 'Brand', name: 'Afarer' },
+    manufacturer: { '@type': 'Organization', name: 'Qingdao Vatrad Group Co., Ltd.' },
+    additionalProperty: (product.specs ?? []).map((s) => ({
+      '@type': 'PropertyValue',
+      name: s.label,
+      value: s.value,
+    })),
     offers: product.price
       ? {
           '@type': 'Offer',
@@ -133,6 +141,16 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
             />
             {data.path.startsWith('/research/') && (
               <JsonLd data={researchArticleLd(data.origin, data.path, data.title, data.description, page)} />
+            )}
+            {page.meta?.dateModified && (
+              <JsonLd
+                data={{
+                  '@context': 'https://schema.org',
+                  '@type': 'WebPage',
+                  url: `${data.origin}${data.path}`,
+                  dateModified: page.meta.dateModified,
+                }}
+              />
             )}
             {faqs.length > 0 && <JsonLd data={faqLd(faqs)} />}
           </>
@@ -308,6 +326,9 @@ function ArticleView({ article, origin, title, path }: { article: AfarerArticle;
       <PageHero kicker="Technology" title={title} sub={brandify(article.summary ?? '')} />
       <article className="mx-auto max-w-3xl px-5 py-14 md:px-7">
         {article.description && <p className="text-[15px] leading-relaxed text-fg-2">{brandify(article.description)}</p>}
+        {article.dateModified && (
+          <p className="mt-4 text-[12.5px] font-medium tracking-wide text-fg-3">Specifications verified: {article.dateModified}</p>
+        )}
         <Markdown text={brandify(article.body)} className="mt-4" />
         <JsonLd
           data={breadcrumbLd(origin, [
@@ -316,7 +337,7 @@ function ArticleView({ article, origin, title, path }: { article: AfarerArticle;
             { name: title, path },
           ])}
         />
-        <JsonLd data={articleLd(origin, title, article.description ?? article.summary ?? '')} />
+        <JsonLd data={articleLd(origin, title, article.description ?? article.summary ?? '', article.dateModified)} />
       </article>
     </>
   )

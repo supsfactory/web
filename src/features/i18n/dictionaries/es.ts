@@ -179,6 +179,7 @@ export const es = {
       privateLabel: 'SUP de marca propia', manufacturing: 'Fabricación de SUP personalizados',
       startups: 'Marcas emergentes', resorts: 'Resorts y hoteles', clubs: 'Clubes y escuelas',
       corporate: 'Empresas y eventos',
+      b2bMatrix: 'Matriz de soluciones B2B', whatIsSup: '¿Qué es un SUP hinchable?', partners: 'Alianzas',
       about: 'Sobre nosotros', howItWorks: 'Cómo funciona', gallery: 'Galería de proyectos', contact: 'Contacto',
       factory: 'Fábrica y fabricación', technology: 'Tecnología', academy: 'Academia', news: 'Noticias',
       guides: 'Guías del sector', evidence: 'Casos de estudio',
@@ -249,6 +250,8 @@ export const es = {
         'SUPsfactory es la división de desarrollo de producto y fabricación de SUP de Afarer (Qingdao Vatrad Group Co., Ltd.). Fabricamos tablas SUP según tu especificación: ingeniería, moldes, muestras, producción y exportación. Tú tienes la marca, el mercado y el cliente; nosotros tenemos la fabricación.',
       intro2:
         'Nuestra planta de 12.000 m² en Qingdao, China, cubre cada etapa en casa: diseño, ingeniería de moldes, construcción drop-stitch, soldadura RF, impresión, montaje y ensayos de calidad. No vendemos a consumidores finales y no competimos con nuestros clientes en ningún mercado.',
+      intro3:
+        'Una fábrica, tres nombres. Qingdao Vatrad Group Co., Ltd. es la entidad legal; Afarer es su marca de fabricación y opera las líneas de productos inflables de todas las categorías en afarer.com; SUPsfactory es la división OEM/ODM centrada en SUP que estás leyendo ahora. Seas cual sea el nombre que use tu equipo de compras, llegas a la misma planta de Qingdao.',
       factsTitle: 'Datos de la empresa',
       servicesTitle: 'Qué fabricamos',
       servicesBody: 'Cinco áreas de soluciones cubren la mayoría de los proyectos de fabricación SUP a medida:',

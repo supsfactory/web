@@ -1,6 +1,7 @@
 meta:
   title: 'Manufacturing Process — From Raw Material to SUP'
   description: 'From raw material to sea-ready SUP: every step of the afarer manufacturing process under our control, from cutting and welding to testing.'
+  dateModified: '2026-08'
   keywords:
     - 'sup manufacturing process'
     - 'inflatable sup factory'
@@ -13,6 +14,11 @@ hero:
   back_label: Back to Factory
   back_link: /factory
 
+answer:
+  label: 'Straight answer'
+  text: 'Boards go through five controlled stages: material inspection (1–2 days), CNC automatic cutting (<5% waste, 2–4 hours per kit), tube heat sealing with RF-reinforced seams (1–2 days per board), drop-stitch core bonding, and final assembly with 100% air-retention and load testing before packaging.'
+  verified: '2026-08'
+
 intro: Unlike brands that outsource production to third-party factories, afarer owns and operates its entire manufacturing chain. This vertical integration allows us to maintain strict quality control at every stage, respond quickly to custom requirements, and deliver consistent product quality batch after batch. Here is how a SUP board is built in our facility.
 
 steps:
@@ -22,12 +28,12 @@ steps:
     duration: 1–2 days
   - step: '02'
     title: Automatic PVC Cutting
-    description: Approved fabrics are laid on the automatic CNC cutting machine and cut with sub-millimetre accuracy. Computer-optimised nesting arranges panels to minimise waste —typically below 5%. Cut panels are labelled by boat model and chamber, then bundled for transfer to the welding workshop.
-    duration: 2–4 hours per boat kit
+    description: <p>Approved fabrics are laid on the automatic CNC cutting machine and cut with sub-millimetre accuracy. Computer-optimised nesting arranges panels to minimise waste —typically below 5%. Cut panels are labelled by SUP model and chamber, then bundled for transfer to the welding workshop.</p>
+    duration: 2–4 hours per board kit
   - step: '03'
     title: Tube Heat Sealing & Welding
     description: Panels are tacked and bonded using heat sealing machines  with hot-air welding at controlled temperatures of 200–300 °C. Main seams are reinforced with RF dielectric welding for airtight, high-strength joints. Completed chambers are inflated to 1.5× working pressure for 30-minute air-retention validation.
-    duration: 1–2 days per boat
+    duration: 1–2 days per SUP board
   - step: '04'
     title: Drop-Stitch Core Bonding
     description: SUP board drop-stitch cores are bonded to outer PVC laminates using heat lamination. Thousands of internal polyester threads connect top and bottom layers, creating a rigid structure at 12-15 PSI. Rail bands are triple-layer fusion bonded for edge strength.

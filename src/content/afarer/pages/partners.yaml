@@ -6,6 +6,7 @@ meta:
     - 'paddle board wholesale'
     - 'inflatable sup distributor'
     - 'sup partnership'
+  dateModified: '2026-08'
 hero:
   tagline: Partners & Distribution
   title: 'Manufacturing Partnerships & Distribution'
@@ -13,6 +14,11 @@ hero:
   image:
     src: https://assets.afarer.com/images/afarer/partners/partners-hero.webp
     alt: afarer global partner and distributor network
+
+answer:
+  label: 'Straight answer'
+  text: 'Partnership terms start at a 5–10 unit trial batch (samples in 15–20 days) and scale to 50-unit standard OEM runs (30–45 days) or 200-unit custom moulds for private label products. Distribution programs carry exclusive territories, factory-direct wholesale pricing and 45–60 day payment terms, shipped FOB Qingdao or CIF.'
+  verified: '2026-08'
 content_programs:
   tagline: Partner Programs
   title: 'Partnership Models Built On Manufacturing'
@@ -70,3 +76,8 @@ cta:
       href: /contact
     - text: View our products
       href: /products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Keep reading:</strong> partner programs share one <a href="/oem-odm-manufacturer">OEM/ODM manufacturing engine</a> — terms, trial MOQs and customization are defined there — and all production runs through the <a href="/factory">12,000 m&sup2; factory</a>.</p>
+  </div>

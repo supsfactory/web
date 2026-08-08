@@ -1124,6 +1124,7 @@ const TYPE_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNo
   blog_latest: (c) => <BlogLatest c={c} />,
   featured_products: (c) => <FeaturedProducts c={c} />,
   html: (c) => <HtmlWidget html={str(c)} />,
+  answer: (c) => <DirectAnswerWidget c={c} />,
   content: (c) => <ContentWidget c={c} />,
 }
 
@@ -1200,6 +1201,30 @@ function ContentWidget({ c }: { c: unknown }) {
     return null
   }
   return null
+}
+
+/* ─────────────────────────── direct answer (AEO) ─────────────────────────── */
+
+/** Compact, quotable "straight answer" block for AI/GEO visibility (audit §6-2).
+ * Question → numbers → units → conditions in one short paragraph, rendered as a
+ * highlighted callout with a visible verification timestamp. */
+function DirectAnswerWidget({ c }: { c: Record<string, unknown> }) {
+  const text = str(c.text) || str(c.body) || ''
+  const verified = str(c.verified) || ''
+  if (!text) return null
+  return (
+    <Container narrow>
+      <div className="relative overflow-hidden rounded-xl border border-primary/30 bg-primary/5 px-6 py-5">
+        <span className="mb-1.5 block text-[11px] font-bold uppercase tracking-[0.14em] text-primary">
+          {str(c.label) || 'Straight answer'}
+        </span>
+        <p className="text-[15px] leading-relaxed text-foreground">{brandify(text)}</p>
+        {verified && (
+          <span className="mt-2.5 block text-[11.5px] text-fg-3">Specifications last verified: {verified}</span>
+        )}
+      </div>
+    </Container>
+  )
 }
 
 export function AfarerSection({ def, content }: { def: AfarerSectionDef; content: unknown }) {

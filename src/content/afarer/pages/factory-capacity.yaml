@@ -1,6 +1,7 @@
 meta:
   title: 'Production Capacity — 12,000 m² Factory | {SITE}'
-  description: 'afarer factory capacity: 12,000 m² facility producing 15,000+ boats per year with room to scale. Large-scale OEM/ODM inflatable SUP and boat manufacturing.'
+  description: 'afarer factory capacity: 12,000 m² facility producing 15,000+ SUP boards per year with room to scale. Large-scale OEM/ODM inflatable SUP manufacturing.'
+  dateModified: '2026-08-07'
   keywords:
     - 'sup production capacity'
     - 'inflatable sup factory'
@@ -9,7 +10,12 @@ meta:
 hero:
   tagline: Production Capacity
   title: Manufacturing Capacity & Annual Output
-  subtitle: 12,000 m² facility producing 15,000+ boats per year with room to scale
+  subtitle: 12,000 m² facility producing 15,000+ SUP boards per year with room to scale
+
+answer:
+  label: 'Straight answer'
+  text: 'Factory capacity: 12,000 m² across six workshops, 15,000+ SUP boards per year, 200+ workers on two shifts, exporting to 50+ countries. MOQ tiers are 5–10 units trial, 50 units per design standard OEM batch, 200+ units custom mould; lead time 30–45 days, samples 15–20 days.'
+  verified: '2026-08'
 
 intro: afarer operates one of the largest dedicated inflatable SUP manufacturing facilities in Qingdao, China. Our 12,000 m² factory is organized into six specialized workshops operating in parallel, giving us the capacity to produce over 15,000 boards annually across SUP and safety equipment lines.
 

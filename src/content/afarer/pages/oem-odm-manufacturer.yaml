@@ -1,6 +1,7 @@
 meta:
   title: 'Inflatable SUP OEM & ODM Manufacturer | Custom Paddle Boards'
   description: 'Inflatable SUP OEM/ODM factory in Qingdao: custom moulds, tooling, prototyping and container-scale production, with real plant quality.'
+  dateModified: '2026-08-07'
   keywords:
     - 'SUP OEM manufacturer'
     - 'inflatable SUP private label'
@@ -12,6 +13,11 @@ hero:
   tagline: OEM / ODM Manufacturing
   title: 'Inflatable SUP OEM & ODM Manufacturer'
   subtitle: 'Engineering, tooling and production for inflatable SUP lines — built to your specification and shipped under your brand.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Minimum order quantity: 5–10 units for a standard trial order, 50 units per design for a standard OEM batch, and 200 units for full custom-mould or private-label projects. Samples ship in 15–20 days; production runs 30–45 days after confirmed PO and deposit, plus 15–20 days when new tooling is required.'
+  verified: '2026-08'
 
 features:
   title: OEM / ODM Capabilities

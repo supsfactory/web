@@ -1,6 +1,7 @@
 meta:
   title: 'OEM & Private Label Manufacturing | {SITE}'
   description: 'From concept to container: customize every detail of your inflatable SUP line. Full OEM/ODM service for private label paddle board brands.'
+  dateModified: '2026-08'
   keywords:
     - 'oem sup manufacturing'
     - 'private label paddle board'
@@ -10,6 +11,11 @@ hero:
   tagline: OEM/ODM Manufacturing
   title: OEM & Private Label Manufacturing
   subtitle: From concept to container —customize every detail of your inflatable SUP line
+
+answer:
+  label: 'Straight answer'
+  text: 'You can start an OEM order with a 5–10 unit trial batch (samples in 15–20 days), scale to 50 units per design for a standard batch, and go full custom-mould or private label from 200 units. Standard production runs 30–45 days FOB Qingdao after confirmed PO and deposit.'
+  verified: '2026-08'
 
 intro: afarer offers comprehensive OEM and ODM services for brands, distributors, and government agencies worldwide. With 10+ years of export experience and a 12,000 m² ISO 9001 & BSCI certified factory, we handle everything from product design and mold development to full-scale production, packaging, and logistics.
 

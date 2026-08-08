@@ -11,6 +11,11 @@ hero:
   title: 'How to Choose SUP Thickness — Engineering Analysis'
   subtitle: '6 min read'
 
+answer:
+  label: 'Straight answer'
+  text: 'Thickness trades rigidity against stability: 4\" (10 cm) is stiffest, lightest, and fastest — best for touring and racing; 5\" (12.7 cm) is the all-around choice for most paddlers; 6\" (15.2 cm) maximizes primary stability for yoga and heavier paddlers (100+ kg). A thinner cross-section is structurally stiffer, so a 4\" board at 15 PSI flexes less than a 6\" board at 25 PSI.'
+  verified: '2026-08'
+
 content_html: |
   <h2>The Three Standard Thicknesses</h2>
 
@@ -68,6 +73,7 @@ content_html: |
     <li><strong>6" boards:</strong> Cheetah Ultra-Stable series – 10' x 34" x 6" for yoga, large paddlers, and photography platforms</li>
   </ul>
   <p>All boards utilize 1,680 DTEX drop-stitch cores with 20 PSI rated pressure and 1.2 mm PVC laminates.</p>
+  <p>Thickness, PSI, and fabric spec are all configurable for custom lines — see how we <a href="/oem-odm-manufacturer">engineer boards for OEM and private-label brands</a> and walk through our board construction at the <a href="/factory">factory floor</a>.</p>
 
 cta:
   title: 'Not sure which thickness is right for you?'
