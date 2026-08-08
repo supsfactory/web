@@ -138,13 +138,124 @@ export const GUIDES: Guide[] = [
   },
 ]
 
-export function getGuide(path: string): Guide | undefined {
+/** Spanish variants of the four beginner guides (same slugs, translated copy). */
+export const GUIDES_ES: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'Cómo elegir tu SUP',
+    intro: [
+      'Elegir tu primer SUP hinchable se resume a tamaño, ancho, construcción y qué incluye la caja. Aquí está lo que importa, en lenguaje claro.',
+    ],
+    sections: [
+      {
+        title: 'Longitud y volumen',
+        body: 'Las tablas más largas (11–12 pies) planean más por remada y mantienen mejor la línea — ideales para travesía y distancia. Las más cortas giran con más facilidad. Para la mayoría, una tabla polivalente de 10\'6"–11\'0" es el punto óptimo.',
+      },
+      {
+        title: 'Ancho y estabilidad',
+        body: 'El ancho manda en la estabilidad por encima de todo. Una cubierta de 32 pulgadas es indulgente con los principiantes y estable para yoga; las de 30 pulgadas convienen a remeros más ligeros o con más experiencia que buscan velocidad y agilidad.',
+      },
+      {
+        title: 'Calidad de construcción',
+        body: 'Busca un núcleo de PVC drop-stitch de grado militar con presión nominal de al menos 15 PSI, laminado de PVC de doble capa y cintas de canto reforzadas. Eso determina cómo de rígida se siente la tabla y cuánto dura con uso diario.',
+      },
+      {
+        title: 'Qué debe incluir la caja',
+        body: 'Un paquete completo ahorra dinero y molestias: tabla, pala regulable de 3 piezas, bomba de doble acción con manómetro, leash espiral, quilla(s), mochila de viaje y kit de reparación.',
+      },
+    ],
+    faqs: [
+      { q: '¿Qué tamaño de tabla SUP necesito?', a: 'La mayoría de los principiantes elige una tabla polivalente de unos 11\'0" × 32" × 6" — estable, versátil y fácil de transportar. Los remeros más pesados o que quieren distancia deben subir de tamaño.' },
+      { q: '¿Un SUP hinchable es tan rígido como uno rígido?', a: 'Un hinchable drop-stitch moderno a 15–20 PSI se acerca a una tabla rígida de entrada en rigidez, con la ventaja de que se guarda en una mochila.' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Guía para empezar a remar',
+    intro: [
+      'Todo lo que necesitas para tus primeras sesiones en el agua: inflado, la primera vez de pie, la remada básica y cómo mantenerte seguro mientras ganas confianza.',
+    ],
+    sections: [
+      {
+        title: 'Infla según la especificación, no según la sensación',
+        body: 'Infla hasta la presión nominal (normalmente 15 PSI) usando el manómetro de tu bomba. Una tabla a 10 PSI se siente bien en el césped, pero se flexiona mal en el agua. Comprueba la presión en días calurosos — el sol calienta el aire interior y sube la presión.',
+      },
+      {
+        title: 'Primeros pasos a bordo',
+        body: 'Entra desde la orilla o por aguas poco profundas, arrodíllate primero y luego ponte de pie un pie a la vez sobre la línea central. Mantén los pies a la anchura de los hombros, las rodillas suaves y la mirada en el horizonte — tu tabla sigue a tus ojos.',
+      },
+      {
+        title: 'La remada básica',
+        body: 'Alcanza hacia delante con la pala, hunde la pala por completo y tira de ella junto a la tabla girando el torso. Cambia de lado cada pocas remadas para ir recto; usa algunas barridas de un lado para girar.',
+      },
+    ],
+    faqs: [
+      { q: '¿Cuánto se tarda en aprender SUP?', a: 'La mayoría puede remar con comodidad en aguas tranquilas dentro de su primera sesión de una hora. La confianza con giros, viento y distancia se construye en unas pocas sesiones.' },
+      { q: '¿Necesito estar en forma?', a: 'No — el SUP es muy accesible. Desarrollarás equilibrio, fuerza de core y resistencia de forma natural con la práctica regular.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Hinchable vs tabla rígida',
+    intro: [
+      'Las dos familias de construcción ganan en escenarios distintos. Aquí tienes la comparación honesta para remeros, clubes y operadores de alquiler.',
+    ],
+    sections: [
+      {
+        title: 'Rendimiento',
+        body: 'Las tablas rígidas premium son más firmes y responden mejor a altas prestaciones. A velocidades recreativas, un hinchable drop-stitch bien construido a 15–20 PSI rinde de forma comparable por una fracción del coste de almacenamiento.',
+      },
+      {
+        title: 'Durabilidad',
+        body: 'Las tablas de PVC hinchable soportan roces contra embarcaderos e impactos en la orilla que agrietarían una carcasa rígida — una razón clave por la que las flotas de alquiler y los resorts eligen hinchables para el uso diario.',
+      },
+      {
+        title: 'Coste y almacenamiento',
+        body: 'Las hinchables cuestan menos de enviar, almacenar y mantener, y aguantan un trato más brusco. Para la mayoría de usuarios y flotas, una hinchable es la mejor relación calidad-precio global.',
+      },
+    ],
+    faqs: [
+      { q: '¿Cuál es mejor para principiantes?', a: 'Las hinchables — estables, indulgentes, fáciles de guardar y duraderas para los roces que generan los principiantes.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Consejos de seguridad en el agua',
+    intro: [
+      'Una sesión segura es una sesión divertida. Estos básicos valen para lagos, ríos y remo costero por igual.',
+    ],
+    sections: [
+      {
+        title: 'Viento y corrientes',
+        body: 'El viento de tierra es la trampa clásica del SUP: te aleja de la costa más rápido de lo que puedes remar de vuelta. Revisa el pronóstico y, si hay dudas, quédate en aguas resguardadas.',
+      },
+      {
+        title: 'Lleva siempre el leash',
+        body: 'Un leash espiral mantiene tu tabla a mano si te caes — la tabla es tu dispositivo de flotación. Elige un leash según las condiciones: espiral para aguas tranquilas, recto para surf.',
+      },
+      {
+        title: 'PFD y seguridad personal',
+        body: 'Usa un dispositivo de flotación cuando las condiciones lo aconsejen o las normas lo exijan. Lleva un silbato, avisa de tu ruta y hora de vuelta, y considera un teléfono en bolsa impermeable.',
+      },
+      {
+        title: 'Conoce tus límites',
+        body: 'Gana experiencia en aguas tranquilas antes de viento o corriente. Respeta el agua fría — debilita rápido. Y nunca remes solo en zonas remotas o aguas abiertas sin un plan.',
+      },
+    ],
+    faqs: [
+      { q: '¿Necesito un chaleco salvavidas en un SUP?', a: 'Los requisitos varían por país y vía navegable. Aunque sea opcional, un leash más un dispositivo de flotación es la base responsable, y los niños siempre deben llevar un PFD bien ajustado.' },
+      { q: '¿Es seguro remar en un lago?', a: 'Sí — los lagos tranquilos son ideales para aprender. Revisa la dirección del viento, mantente visible para el tráfico náutico y evita los canales de navegación concurridos.' },
+    ],
+  },
+]
+
+export function getGuide(path: string, locale?: string): Guide | undefined {
   const slug = path.split('/').filter(Boolean).pop()
-  return GUIDES.find((g) => g.slug === slug)
+  return (locale === 'es' ? GUIDES_ES.find((g) => g.slug === slug) : undefined) ?? GUIDES.find((g) => g.slug === slug)
 }
 
-export function getGuideBySlug(slug: string): Guide | undefined {
-  return GUIDES.find((g) => g.slug === slug)
+export function getGuideBySlug(slug: string, locale?: string): Guide | undefined {
+  return (locale === 'es' ? GUIDES_ES.find((g) => g.slug === slug) : undefined) ?? GUIDES.find((g) => g.slug === slug)
 }
 
 /** Localized card copy for the /knowledge hub (guide pages stay English). */

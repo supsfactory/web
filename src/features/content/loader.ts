@@ -38,6 +38,12 @@ const newsGlob = import.meta.glob('../../content/afarer/news/*.mdx', { query: '?
 const newsEsGlob = import.meta.glob('../../content/afarer/news/*.es.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const techGlob = import.meta.glob('../../content/afarer/technology/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const caseGlob = import.meta.glob('../../content/afarer/case-use/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+// Spanish sidecar variants for products / technology / case-use: same naming as
+// news/`*.es.mdx`; locale-aware getters overlay them when present and keep the
+// English (canonical) slug value.
+const productEsGlob = import.meta.glob('../../content/afarer/products/*.es.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const techEsGlob = import.meta.glob('../../content/afarer/technology/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const caseEsGlob = import.meta.glob('../../content/afarer/case-use/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const geoGlob = import.meta.glob('../../content/afarer/geo/*.json', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 
 const stripBom = (s: string) => s.replace(/^\uFEFF/, '')
@@ -230,18 +236,21 @@ function mdxBodyOf(glob: Record<string, string>, slug: string): string {
   return key ? parseFrontmatter(glob[key]).body : ''
 }
 
+function productOf(slug: string, d: Record<string, unknown>, body: string): AfarerProduct {
+  const rec = { ...(d as object) } as Record<string, unknown>
+  if (typeof rec.image === 'string') rec.image = assetUrl(rec.image)
+  if (Array.isArray(rec.gallery)) {
+    rec.gallery = (rec.gallery as { url?: unknown; alt?: unknown }[]).map((g) => ({
+      ...g,
+      url: typeof g.url === 'string' ? assetUrl(g.url) : g.url,
+    }))
+  }
+  return { slug, body, ...rec } as unknown as AfarerProduct
+}
+
 const PRODUCTS: AfarerProduct[] = Object.entries(PRODUCT_DATA)
-  .map(([slug, d]) => {
-    const rec = { ...(d as object) } as Record<string, unknown>
-    if (typeof rec.image === 'string') rec.image = assetUrl(rec.image)
-    if (Array.isArray(rec.gallery)) {
-      rec.gallery = (rec.gallery as { url?: unknown; alt?: unknown }[]).map((g) => ({
-        ...g,
-        url: typeof g.url === 'string' ? assetUrl(g.url) : g.url,
-      }))
-    }
-    return { slug, body: mdxBodyOf(productGlob, slug), ...rec } as unknown as AfarerProduct
-  })
+  .filter(([slug]) => !slug.endsWith('.es'))
+  .map(([slug, d]) => productOf(slug, d as Record<string, unknown>, mdxBodyOf(productGlob, slug)))
   .sort((a, b) => a.title.localeCompare(b.title))
 
 const NEWS: AfarerPost[] = Object.entries(NEWS_DATA)
@@ -258,7 +267,14 @@ for (const [slug, d] of Object.entries(NEWS_DATA)) {
   if (en) NEWS_ES[base] = postFrom(base, d as Record<string, unknown>, en, mdxBodyOf(newsEsGlob, slug))
 }
 
-const TECH: AfarerArticle[] = Object.entries(TECH_DATA).map(([slug, d]) => {
+const PRODUCTS_ES: Record<string, AfarerProduct> = {}
+for (const [slug, d] of Object.entries(PRODUCT_DATA)) {
+  if (!slug.endsWith('.es')) continue
+  const base = slug.replace(/\.es$/, '')
+  if (PRODUCTS.some((p) => p.slug === base)) PRODUCTS_ES[base] = productOf(base, d as Record<string, unknown>, mdxBodyOf(productEsGlob, slug))
+}
+
+function articleOf(slug: string, d: Record<string, unknown>, body: string): AfarerArticle {
   const rec = d as Record<string, unknown>
   return {
     slug,
@@ -268,11 +284,22 @@ const TECH: AfarerArticle[] = Object.entries(TECH_DATA).map(([slug, d]) => {
     category: rec.category ? String(rec.category) : undefined,
     tags: Array.isArray(rec.tags) ? rec.tags.map(String) : [],
     dateModified: rec.dateModified ? String(rec.dateModified) : rec.publishDate ? String(rec.publishDate) : undefined,
-    body: mdxBodyOf(techGlob, slug),
+    body,
   }
-})
+}
 
-const CASE_USES: AfarerCaseUse[] = Object.entries(CASE_DATA).map(([slug, d]) => {
+const TECH: AfarerArticle[] = Object.entries(TECH_DATA)
+  .filter(([slug]) => !slug.endsWith('.es'))
+  .map(([slug, d]) => articleOf(slug, d as Record<string, unknown>, mdxBodyOf(techGlob, slug)))
+
+const TECH_ES: Record<string, AfarerArticle> = {}
+for (const [slug, d] of Object.entries(TECH_DATA)) {
+  if (!slug.endsWith('.es')) continue
+  const base = slug.replace(/\.es$/, '')
+  if (TECH.some((t) => t.slug === base)) TECH_ES[base] = articleOf(base, d as Record<string, unknown>, mdxBodyOf(techEsGlob, slug))
+}
+
+function caseOf(slug: string, d: Record<string, unknown>, body: string): AfarerCaseUse {
   const rec = d as Record<string, unknown>
   return {
     slug,
@@ -284,9 +311,20 @@ const CASE_USES: AfarerCaseUse[] = Object.entries(CASE_DATA).map(([slug, d]) => 
     skill: rec.skill ? String(rec.skill) : undefined,
     products: Array.isArray(rec.products) ? rec.products.map(String) : [],
     tags: Array.isArray(rec.tags) ? rec.tags.map(String) : [],
-    body: mdxBodyOf(caseGlob, slug),
+    body,
   }
-})
+}
+
+const CASE_USES: AfarerCaseUse[] = Object.entries(CASE_DATA)
+  .filter(([slug]) => !slug.endsWith('.es'))
+  .map(([slug, d]) => caseOf(slug, d as Record<string, unknown>, mdxBodyOf(caseGlob, slug)))
+
+const CASE_ES: Record<string, AfarerCaseUse> = {}
+for (const [slug, d] of Object.entries(CASE_DATA)) {
+  if (!slug.endsWith('.es')) continue
+  const base = slug.replace(/\.es$/, '')
+  if (CASE_USES.some((c) => c.slug === base)) CASE_ES[base] = caseOf(base, d as Record<string, unknown>, mdxBodyOf(caseEsGlob, slug))
+}
 
 /* ───────────────────────── research topics ───────────────────────── */
 
@@ -341,12 +379,15 @@ export function getAfarerPublicPaths(): string[] {
   return ALL_PAGES.map((p) => p.path)
 }
 
-export function getAfarerProducts(): AfarerProduct[] {
-  return PRODUCTS
+export function getAfarerProducts(locale?: string): AfarerProduct[] {
+  return locale === 'es' ? PRODUCTS.map((p) => PRODUCTS_ES[p.slug] ?? p) : PRODUCTS
 }
 
-export function getAfarerProduct(slug: string): AfarerProduct | undefined {
-  return PRODUCTS.find((p) => p.slug === slug)
+export function getAfarerProduct(slug: string, locale?: string): AfarerProduct | undefined {
+  const base = slug.endsWith('.es') ? slug.replace(/\.es$/, '') : slug
+  const p = PRODUCTS.find((x) => x.slug === base)
+  if (!p) return undefined
+  return locale === 'es' ? (PRODUCTS_ES[base] ?? p) : p
 }
 
 export function getNewsPosts(locale?: string): AfarerPost[] {
@@ -361,20 +402,26 @@ export function getNewsPost(slug: string, locale?: string): AfarerPost | undefin
   return locale === 'es' ? (NEWS_ES[base] ?? p) : p
 }
 
-export function getTechArticles(): AfarerArticle[] {
-  return TECH
+export function getTechArticles(locale?: string): AfarerArticle[] {
+  return locale === 'es' ? TECH.map((t) => TECH_ES[t.slug] ?? t) : TECH
 }
 
-export function getTechArticle(slug: string): AfarerArticle | undefined {
-  return TECH.find((t) => t.slug === slug)
+export function getTechArticle(slug: string, locale?: string): AfarerArticle | undefined {
+  const base = slug.endsWith('.es') ? slug.replace(/\.es$/, '') : slug
+  const t = TECH.find((x) => x.slug === base)
+  if (!t) return undefined
+  return locale === 'es' ? (TECH_ES[base] ?? t) : t
 }
 
-export function getCaseUses(): AfarerCaseUse[] {
-  return CASE_USES
+export function getCaseUses(locale?: string): AfarerCaseUse[] {
+  return locale === 'es' ? CASE_USES.map((c) => CASE_ES[c.slug] ?? c) : CASE_USES
 }
 
-export function getCaseUse(slug: string): AfarerCaseUse | undefined {
-  return CASE_USES.find((c) => c.slug === slug)
+export function getCaseUse(slug: string, locale?: string): AfarerCaseUse | undefined {
+  const base = slug.endsWith('.es') ? slug.replace(/\.es$/, '') : slug
+  const c = CASE_USES.find((x) => x.slug === base)
+  if (!c) return undefined
+  return locale === 'es' ? (CASE_ES[base] ?? c) : c
 }
 
 export function getResearchTopics(): AfarerResearchTopic[] {

@@ -49,8 +49,8 @@ function indexNews(locale?: Locale): AferIndexNews[] {
   }))
 }
 
-function indexProducts(): AferIndexProduct[] {
-  return getAfarerProducts().map((p) => ({
+function indexProducts(locale?: Locale): AferIndexProduct[] {
+  return getAfarerProducts(locale).map((p) => ({
     slug: p.slug,
     title: p.title,
     image: p.image,
@@ -66,8 +66,8 @@ function indexTopics(): AferIndexTopic[] {
     .map((t) => ({ slug: t.slug, category: t.category, readTime: t.readTime }))
 }
 
-function indexCases(): AferIndexCase[] {
-  return getCaseUses().map((c) => ({
+function indexCases(locale: Locale): AferIndexCase[] {
+  return getCaseUses(locale).map((c) => ({
     slug: c.slug,
     title: c.title,
     summary: c.summary,
@@ -94,7 +94,7 @@ function indexFor(page?: AfarerPage, locale?: Locale): AferIndexData {
   return {
     regionCount: getRegionCount(),
     ...(need.news ? { news: indexNews(locale) } : {}),
-    ...(need.products ? { products: indexProducts() } : {}),
+    ...(need.products ? { products: indexProducts(locale) } : {}),
     ...(need.topics ? { topics: indexTopics() } : {}),
   }
 }
@@ -119,7 +119,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
     }
   }
   if (path.startsWith('/products/')) {
-    const product = getAfarerProduct(slugOf(path))
+    const product = getAfarerProduct(slugOf(path), locale)
     if (product) {
       return {
         kind: 'product',
@@ -155,7 +155,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
     }
   }
   if (path.startsWith('/technology/')) {
-    const article = getTechArticle(slugOf(path))
+    const article = getTechArticle(slugOf(path), locale)
     if (article) {
       return {
         kind: 'article',
@@ -173,7 +173,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
     }
   }
   if (path.startsWith('/evidence/case-studies/')) {
-    const c = getCaseUse(slugOf(path))
+    const c = getCaseUse(slugOf(path), locale)
     if (c) {
       return {
         kind: 'case',
@@ -198,9 +198,12 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       translated,
       esTranslated,
       origin: '',
-      title: 'Case Studies — SUPsfactory',
-      description: 'How brands, resorts and operators launch and scale with our factory.',
-      index: { regionCount: getRegionCount(), cases: indexCases() },
+      title: locale === 'es' ? 'Casos de estudio — SUPsfactory' : 'Case Studies — SUPsfactory',
+      description:
+        locale === 'es'
+          ? 'Cómo marcas, resorts y operadores lanzan y escalan con nuestra fábrica.'
+          : 'How brands, resorts and operators launch and scale with our factory.',
+      index: { regionCount: getRegionCount(), cases: indexCases(locale) },
     }
   }
   if (path === '/research') {
@@ -211,13 +214,16 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       translated,
       esTranslated,
       origin: '',
-      title: 'Research & Technical Guides — SUPsfactory',
-      description: 'In-depth technical research on SUP materials, construction, safety standards and manufacturing.',
+      title: locale === 'es' ? 'Investigación y guías técnicas — SUPsfactory' : 'Research & Technical Guides — SUPsfactory',
+      description:
+        locale === 'es'
+          ? 'Investigación técnica en profundidad sobre materiales, construcción, estándares de seguridad y fabricación de SUP.'
+          : 'In-depth technical research on SUP materials, construction, safety standards and manufacturing.',
       index: { regionCount: getRegionCount(), topics: indexTopics() },
     }
   }
   if (path.startsWith('/guides/')) {
-    const guide = getGuide(path)
+    const guide = getGuide(path, locale)
     if (guide) {
       return {
         kind: 'guide',
