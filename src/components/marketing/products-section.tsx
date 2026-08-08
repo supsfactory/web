@@ -1,14 +1,14 @@
-import { Link } from '@tanstack/react-router'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, products, type Product } from '@/features/site/content'
 import { Reveal } from './reveal'
 
 /** Single catalog card: real product photo with sku/price chips, then brand-book details. */
 export function ProductCard({ product }: { product: Product }) {
+  const { locale } = useTranslation()
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
   return (
-    <Link
-      to="/$"
-      params={{ _splat: `products/${product.slug}` }}
+    <a
+      href={fl(`/products/${product.slug}`)}
       className="group block h-full"
       style={{ color: 'inherit' }}
     >
@@ -50,7 +50,7 @@ export function ProductCard({ product }: { product: Product }) {
         </div>
       </div>
       </div>
-    </Link>
+    </a>
   )
 }
 

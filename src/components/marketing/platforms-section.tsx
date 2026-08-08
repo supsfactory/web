@@ -1,4 +1,3 @@
-import { Link } from '@tanstack/react-router'
 import { ArrowRight } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, platforms } from '@/features/site/content'
@@ -9,6 +8,7 @@ import { Reveal } from './reveal'
 export function PlatformsSection() {
   const { locale } = useTranslation()
   const c = pick(platforms, locale)
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   return (
     <section className="border-y border-border bg-bg-alt">
@@ -25,12 +25,12 @@ export function PlatformsSection() {
                     <span key={u} className="pill">{u}</span>
                   ))}
                 </div>
-                <Link
-                  to="/{-$locale}/contact"
+                <a
+                  href={fl('/contact')}
                   className="mt-6 inline-flex h-[42px] items-center justify-center gap-2 rounded-full border border-primary/30 bg-card px-6 text-[13.5px] font-bold text-primary transition-colors hover:border-primary/60"
                 >
                   {item.cta} <ArrowRight size={15} />
-                </Link>
+                </a>
               </div>
             </Reveal>
           ))}

@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { Link } from '@tanstack/react-router'
 import { ArrowRight, Check } from 'lucide-react'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
@@ -205,6 +204,10 @@ function remapHref(href: string): string {
   return key in HREF_REMAP ? HREF_REMAP[key] : href
 }
 
+/** Prefix an internal path with the active locale (client/SSR-safe plain anchors). */
+const localize = (path: string, locale: string): string =>
+  !path || locale === 'en' || path.startsWith('/es') ? path : `/es${path}`
+
 interface CtaAction {
   variant: string
   text: string
@@ -223,6 +226,7 @@ function ctaActions(c: Record<string, unknown>): CtaAction[] {
 }
 
 function ActionButton({ action }: { action: CtaAction }) {
+  const { locale } = useTranslation()
   const primary = action.variant === 'primary'
   const cls = `inline-flex h-[48px] items-center gap-2 rounded-full px-8 text-[15px] font-bold transition-transform hover:-translate-y-0.5 ${
     primary ? 'sun-grad shadow-[0_14px_34px_-10px_rgba(255,138,61,0.8)]' : 'border border-white/30 bg-white/10 text-white'
@@ -232,16 +236,17 @@ function ActionButton({ action }: { action: CtaAction }) {
       {action.text} {primary && <ArrowRight size={17} />}
     </>
   )
-  if (!action.href) return <Link to="/{-$locale}/contact" className={cls}>{inner}</Link>
+  if (!action.href) return <a href={localize('/contact', locale)} className={cls}>{inner}</a>
   if (action.href.startsWith('http') || action.href.includes('?') || action.href.startsWith('#')) return <a href={action.href} className={cls}>{inner}</a>
   return (
-    <Link to="/$" params={{ _splat: action.href.replace(/^\/+/, '') }} className={cls} style={{ color: 'inherit' }}>
+    <a href={localize(action.href, locale)} className={cls} style={{ color: 'inherit' }}>
       {inner}
-    </Link>
+    </a>
   )
 }
 
 function CtaWidget({ c }: { c: Record<string, unknown> }) {
+  const { locale } = useTranslation()
   const title = brandify(str(c.title) || str(c.heading) || '')
   const body = brandify(str(c.desc) || str(c.description) || str(c.subtitle) || str(c.sub) || '')
   const label = str(c.label) || str(c.button_text) || str(c.button) || 'Contact us'
@@ -258,12 +263,12 @@ function CtaWidget({ c }: { c: Record<string, unknown> }) {
             ))}
           </div>
         ) : (
-          <Link
-            to="/{-$locale}/contact"
+          <a
+            href={localize('/contact', locale)}
             className="sun-grad mx-auto mt-8 inline-flex h-[48px] items-center gap-2 rounded-full px-8 text-[15px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.8)] transition-transform hover:-translate-y-0.5"
           >
             {label} <ArrowRight size={17} />
-          </Link>
+          </a>
         )}
       </div>
     </Container>
@@ -304,6 +309,7 @@ const ICON_HUE: Record<string, string> = {
 }
 
 function FeatureGrid({ c, grid = 'sm:grid-cols-2 lg:grid-cols-3' }: { c: Record<string, unknown>; grid?: string }) {
+  const { locale } = useTranslation()
   const items = cardItems(c)
   if (items.length === 0) return null
   return (
@@ -341,9 +347,9 @@ function FeatureGrid({ c, grid = 'sm:grid-cols-2 lg:grid-cols-3' }: { c: Record<
                 {card}
               </a>
             ) : (
-              <Link key={i} to="/$" params={{ _splat: href.replace(/^\/+/, '') }} className="group" style={{ color: 'inherit' }}>
+              <a key={i} href={localize(href, locale)} className="group" style={{ color: 'inherit' }}>
                 {card}
-              </Link>
+              </a>
             )
           ) : (
             <div key={i}>{card}</div>
@@ -552,6 +558,7 @@ function EquipmentWidget({ c }: { c: Record<string, unknown> }) {
 }
 
 function IntelligenceCards({ c }: { c: Record<string, unknown> }) {
+  const { locale } = useTranslation()
   const cards = arr(c.cards) as Record<string, unknown>[]
   if (cards.length === 0) return null
   return (
@@ -579,9 +586,9 @@ function IntelligenceCards({ c }: { c: Record<string, unknown> }) {
                 ? <a href={str(card.link)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
                     {str(card.link_label) || 'Learn more'} <ArrowRight size={14} />
                   </a>
-                : <Link to="/$" params={{ _splat: str(card.link).replace(/^\/+/, '') }} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
+                : <a href={localize(str(card.link), locale)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
                     {str(card.link_label) || 'Learn more'} <ArrowRight size={14} />
-                  </Link>
+                  </a>
             )}
           </div>
         ))}
@@ -615,6 +622,7 @@ function TestimonialsWidget({ c }: { c: Record<string, unknown> }) {
 
 function BlogLatest({ c }: { c: Record<string, unknown> }) {
   const limit = typeof c.limit === 'number' && c.limit > 0 ? c.limit : 6
+  const { locale } = useTranslation()
   const { news = [] } = useAferIndex()
   const posts = news.slice(0, limit)
   return (
@@ -622,7 +630,7 @@ function BlogLatest({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || 'Latest News')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {posts.map((p) => (
-          <Link key={p.slug} to="/$" params={{ _splat: `news/${p.slug}` }} className="marine-card group flex h-full flex-col overflow-hidden p-0">
+          <a key={p.slug} href={localize(`/news/${p.slug}`, locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
             {p.image && (
               <img src={p.image} alt={p.title} loading="lazy" className="aspect-[16/9] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
             )}
@@ -634,7 +642,7 @@ function BlogLatest({ c }: { c: Record<string, unknown> }) {
               <h3 className="mt-2.5 font-display text-[16px] font-bold leading-snug">{p.title}</h3>
               {p.excerpt && <p className="mt-2 flex-1 text-[13px] leading-relaxed text-fg-2">{p.excerpt}</p>}
             </div>
-          </Link>
+          </a>
         ))}
       </div>
     </Container>
@@ -642,6 +650,7 @@ function BlogLatest({ c }: { c: Record<string, unknown> }) {
 }
 
 function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
+  const { locale } = useTranslation()
   const { products = [] } = useAferIndex()
   const items = products.slice(0, 8)
   return (
@@ -649,7 +658,7 @@ function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || 'Featured Products')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((p) => (
-          <Link key={p.slug} to="/$" params={{ _splat: `products/${p.slug}` }} className="marine-card group flex h-full flex-col overflow-hidden p-0">
+          <a key={p.slug} href={localize(`/products/${p.slug}`, locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
             {p.image && (
               <img src={p.image} alt={p.title} loading="lazy" className="aspect-[4/3] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
             )}
@@ -664,7 +673,7 @@ function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
                 </p>
               )}
             </div>
-          </Link>
+          </a>
         ))}
       </div>
     </Container>
@@ -672,6 +681,7 @@ function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
 }
 
 function TopicList({ c }: { c: Record<string, unknown> }) {
+  const { locale } = useTranslation()
   const { topics = [] } = useAferIndex()
   const heading = c.heading || c.title
   return (
@@ -679,13 +689,13 @@ function TopicList({ c }: { c: Record<string, unknown> }) {
       {str(c.badge) && <SectionHead kicker={str(c.badge)} title={brandify(str(heading) || '')} sub={brandify(str(c.description) || '')} />}
       <div className="mt-10 grid gap-4 md:grid-cols-2">
         {topics.map((t) => (
-          <Link key={t.slug} to="/$" params={{ _splat: `research/${t.slug}` }} className="marine-card flex items-center justify-between gap-3 px-5 py-4">
+          <a key={t.slug} href={localize(`/research/${t.slug}`, locale)} className="marine-card flex items-center justify-between gap-3 px-5 py-4">
             <div>
               <h3 className="font-display text-[15px] font-bold">{t.slug.replace(/-/g, ' ')}</h3>
               <p className="mt-1 text-[12px] font-semibold text-fg-3">{t.category} · {t.readTime}</p>
             </div>
             <ArrowRight size={16} className="shrink-0 text-primary" />
-          </Link>
+          </a>
         ))}
       </div>
     </Container>
@@ -693,19 +703,20 @@ function TopicList({ c }: { c: Record<string, unknown> }) {
 }
 
 function CaseList() {
+  const { locale } = useTranslation()
   const { cases = [] } = useAferIndex()
   return (
     <Container>
       <div className="mt-4 grid gap-5 md:grid-cols-2">
         {cases.map((c) => (
-          <Link key={c.slug} to="/$" params={{ _splat: `evidence/case-studies/${c.slug}` }} className="marine-card group flex h-full flex-col p-6">
+          <a key={c.slug} href={localize(`/evidence/case-studies/${c.slug}`, locale)} className="marine-card group flex h-full flex-col p-6">
             <span className="pill self-start border-primary/25! bg-soft! text-primary!">{c.category}</span>
             <h3 className="mt-3 font-display text-[17px] font-bold">{c.title}</h3>
             {c.summary && <p className="mt-2 flex-1 text-[13.5px] leading-relaxed text-fg-2">{c.summary}</p>}
             <span className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
               Read case study <ArrowRight size={14} />
             </span>
-          </Link>
+          </a>
         ))}
       </div>
     </Container>
@@ -843,6 +854,7 @@ function SizeTableWidget({ c }: { c: Record<string, unknown> }) {
 }
 
 function AcademyCategories({ c }: { c: Record<string, unknown> }) {
+  const { locale } = useTranslation()
   const cats = (arr(c.__raw).length ? arr(c.__raw) : arr(c.categories ?? c.items)) as Record<string, unknown>[]
   if (cats.length === 0) return null
   return (
@@ -871,10 +883,10 @@ function AcademyCategories({ c }: { c: Record<string, unknown> }) {
                     </div>
                   )
                   return href ? (
-                    <Link key={j} to="/$" params={{ _splat: href.replace(/^\/+/, '') }} className="group block rounded-xl border border-border px-4 py-3 transition-colors hover:border-primary/40">
+                    <a key={j} href={localize(href, locale)} className="group block rounded-xl border border-border px-4 py-3 transition-colors hover:border-primary/40">
                       <div className="text-[14px] font-bold">{brandify(str(g.title))}</div>
                       {str(g.desc) && <p className="mt-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
-                    </Link>
+                    </a>
                   ) : (
                     <div key={j}>{card}</div>
                   )
@@ -889,6 +901,7 @@ function AcademyCategories({ c }: { c: Record<string, unknown> }) {
 }
 
 function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
+  const { locale } = useTranslation()
   const sections = (arr(c.__raw).length ? arr(c.__raw) : arr(c.sections ?? c.items)) as Record<string, unknown>[]
   if (sections.length === 0) return null
   return (
@@ -914,13 +927,13 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
                     </div>
                   )
                   return href ? (
-                    <Link key={j} to="/$" params={{ _splat: href.replace(/^\/+/, '') }} className="marine-card group flex h-full flex-col p-5">
+                    <a key={j} href={localize(href, locale)} className="marine-card group flex h-full flex-col p-5">
                       <h4 className="font-display text-[14px] font-bold">{brandify(str(g.title))}</h4>
                       {str(g.desc) && <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
                       <span className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-primary">
                         Read guide <ArrowRight size={13} />
                       </span>
-                    </Link>
+                    </a>
                   ) : (
                     <div key={j}>{card}</div>
                   )

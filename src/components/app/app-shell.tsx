@@ -1,5 +1,5 @@
 import { useEffect, useState, type ReactNode } from 'react'
-import { Link, getRouteApi } from '@tanstack/react-router'
+import { getRouteApi } from '@tanstack/react-router'
 import { Home, Settings, Gauge, Users, Menu, ClipboardList, PanelLeftClose, PanelLeftOpen, MessageSquare, Inbox } from 'lucide-react'
 import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
@@ -39,7 +39,8 @@ export function AppShell({
   children: ReactNode
 }) {
   const { theme } = rootRoute.useLoaderData()
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
   const [open, setOpen] = useState(false)
   const [collapsed, setCollapsed] = useState(false)
   useEffect(() => setCollapsed(localStorage.getItem(COLLAPSE_KEY) === '1'), [])
@@ -64,42 +65,42 @@ export function AppShell({
           <Logo compact={rail} />
         </div>
         {grp(t('app.navWorkspace'))}
-        <Link to="/{-$locale}/app" activeProps={{}} className={item(active === 'dashboard')} title={t('app.dashboard')}>
+        <a href={fl('/app')} className={item(active === 'dashboard')} title={t('app.dashboard')}>
           <Home size={18} className="shrink-0" />
           {label(t('app.dashboard'))}
-        </Link>
-        <Link to="/{-$locale}/app/feedback" activeProps={{}} className={item(active === 'feedback')} title={t('feedback.nav')}>
+        </a>
+        <a href={fl('/app/feedback')} className={item(active === 'feedback')} title={t('feedback.nav')}>
           <MessageSquare size={18} className="shrink-0" />
           {label(t('feedback.nav'))}
-        </Link>
+        </a>
         {grp(t('app.navAccount'))}
-        <Link to="/{-$locale}/app/account" activeProps={{}} className={item(active === 'account')} title={t('app.account')}>
+        <a href={fl('/app/account')} className={item(active === 'account')} title={t('app.account')}>
           <Settings size={18} className="shrink-0" />
           {label(t('app.account'))}
-        </Link>
+        </a>
         {user.role === 'admin' && (
           <>
             {grp(t('admin.navAdmin'))}
-            <Link to="/{-$locale}/admin" activeProps={{}} className={item(active === 'admin-dashboard')} title={t('admin.dashboard')}>
+            <a href={fl('/admin')} className={item(active === 'admin-dashboard')} title={t('admin.dashboard')}>
               <Gauge size={18} className="shrink-0" />
               {label(t('admin.dashboard'))}
-            </Link>
-            <Link to="/{-$locale}/admin/users" activeProps={{}} className={item(active === 'admin-users')} title={t('admin.users')}>
+            </a>
+            <a href={fl('/admin/users')} className={item(active === 'admin-users')} title={t('admin.users')}>
               <Users size={18} className="shrink-0" />
               {label(t('admin.users'))}
-            </Link>
-            <Link to="/{-$locale}/admin/waitlist" activeProps={{}} className={item(active === 'admin-waitlist')} title={t('admin.waitlist')}>
+            </a>
+            <a href={fl('/admin/waitlist')} className={item(active === 'admin-waitlist')} title={t('admin.waitlist')}>
               <ClipboardList size={18} className="shrink-0" />
               {label(t('admin.waitlist'))}
-            </Link>
-            <Link to="/{-$locale}/admin/inquiries" activeProps={{}} className={item(active === 'admin-inquiries')} title={t('admin.inquiries')}>
+            </a>
+            <a href={fl('/admin/inquiries')} className={item(active === 'admin-inquiries')} title={t('admin.inquiries')}>
               <Inbox size={18} className="shrink-0" />
               {label(t('admin.inquiries'))}
-            </Link>
-            <Link to="/{-$locale}/admin/feedback" activeProps={{}} className={item(active === 'admin-feedback')} title={t('admin.feedbackAdmin')}>
+            </a>
+            <a href={fl('/admin/feedback')} className={item(active === 'admin-feedback')} title={t('admin.feedbackAdmin')}>
               <MessageSquare size={18} className="shrink-0" />
               {label(t('admin.feedbackAdmin'))}
-            </Link>
+            </a>
           </>
         )}
         <div className="flex-1" />

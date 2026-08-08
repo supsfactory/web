@@ -1,4 +1,3 @@
-import { Link } from '@tanstack/react-router'
 import { ArrowRight, BookOpen } from 'lucide-react'
 import type { KnowledgeArticle } from '@/features/site/knowledge'
 import { knowledge } from '@/features/site/knowledge'
@@ -13,6 +12,7 @@ import { MarketingShell } from './shell'
  */
 export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle }) {
   const { locale, t } = useTranslation()
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
   const articles = knowledge[locale]
   const index = articles.findIndex((a) => a.slug === article.slug)
   const next = index >= 0 && index < articles.length - 1 ? articles[index + 1] : undefined
@@ -43,12 +43,12 @@ export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle })
         <div className="mt-14 rounded-3xl border border-border bg-bg-alt p-8 text-center md:p-10">
           <p className="kicker">{t('sup.knowledge.ctaKicker')}</p>
           <h2 className="mt-3 font-display text-2xl font-extrabold">{t('sup.knowledge.ctaTitle')}</h2>
-          <Link
-            to="/{-$locale}/contact"
+          <a
+            href={fl('/contact')}
             className="sun-grad mt-7 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
           >
             {t('sup.projects.discuss')} <ArrowRight size={17} />
-          </Link>
+          </a>
         </div>
       </article>
 
@@ -59,9 +59,8 @@ export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle })
             <p className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
               <BookOpen size={14} className="text-primary" /> {t('sup.knowledge.nextKicker')}
             </p>
-            <Link
-              to="/{-$locale}/knowledge/$slug"
-              params={{ slug: next.slug }}
+            <a
+              href={fl(`/knowledge/${next.slug}`)}
               className="group mt-3 block rounded-2xl border border-border bg-bg-alt p-6 transition-transform hover:-translate-y-0.5"
             >
               <h2 className="font-display text-lg font-bold leading-snug group-hover:text-primary">{next.h1}</h2>
@@ -69,10 +68,10 @@ export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle })
               <span className="mt-3 inline-flex items-center gap-1.5 text-[14px] font-bold text-primary group-hover:underline">
                 {t('sup.knowledge.readArticle')} <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
               </span>
-            </Link>
-            <Link to="/{-$locale}/knowledge" className="mt-4 inline-block text-[13.5px] font-medium text-primary hover:underline">
+            </a>
+            <a href={fl('/knowledge')} className="mt-4 inline-block text-[13.5px] font-medium text-primary hover:underline">
               {t('sup.breadcrumb.knowledge')} →
-            </Link>
+            </a>
           </div>
         </section>
       )}

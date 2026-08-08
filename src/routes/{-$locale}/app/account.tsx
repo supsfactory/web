@@ -1,4 +1,4 @@
-import { createFileRoute, useRouter, Link } from '@tanstack/react-router'
+import { createFileRoute, useRouter } from '@tanstack/react-router'
 import { useState, type ReactNode } from 'react'
 import { requireUser } from '@/features/auth/middleware'
 import { signOut, changePassword, deleteUser } from '@/features/auth/auth.client'
@@ -47,8 +47,9 @@ function Section({
 
 function AccountPage() {
   const { user } = Route.useLoaderData()
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
   const router = useRouter()
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   const [currentPassword, setCurrentPassword] = useState('')
   const [newPassword, setNewPassword] = useState('')
@@ -129,9 +130,9 @@ function AccountPage() {
 
         {user.role === 'admin' && (
           <Section title={t('admin.title')}>
-            <Link to="/{-$locale}/admin" className={buttonVariants({ variant: 'outline' })}>
+            <a href={fl('/admin')} className={buttonVariants({ variant: 'outline' })}>
               {t('admin.title')}
-            </Link>
+            </a>
           </Section>
         )}
 

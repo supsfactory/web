@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { ArrowRight, BookOpen, Compass } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -32,6 +32,7 @@ function KnowledgeIndex() {
   const articles = knowledge[locale]
   const meta = knowledgeMeta[locale]
   const guides = GUIDE_CARDS[locale]
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   return (
     <MarketingShell>
@@ -44,10 +45,9 @@ function KnowledgeIndex() {
       <section className="mx-auto max-w-6xl px-5 py-14 md:px-7 md:py-16">
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {articles.map((a) => (
-            <Link
+            <a
               key={a.slug}
-              to="/{-$locale}/knowledge/$slug"
-              params={{ slug: a.slug }}
+              href={fl(`/knowledge/${a.slug}`)}
               className="marine-card group flex flex-col justify-between gap-5 p-6 transition-transform hover:-translate-y-0.5"
             >
               <div>
@@ -60,7 +60,7 @@ function KnowledgeIndex() {
               <p className="flex items-center gap-1.5 text-[14px] font-bold text-primary group-hover:underline">
                 {t('sup.knowledge.readArticle')} <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
               </p>
-            </Link>
+            </a>
           ))}
         </div>
       </section>

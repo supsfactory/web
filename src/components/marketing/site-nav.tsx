@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { Link } from '@tanstack/react-router'
 import { Menu, X, ChevronDown, Search as SearchIcon } from 'lucide-react'
 import { Logo } from '@/components/brand/logo'
 import { buttonVariants } from '@/components/ui/button'
@@ -36,9 +35,9 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
       label: t('sup.nav.solutions'),
       items: [
         { label: t('sup.nav.solutionsDropdown.oem'), href: '/oem-odm-manufacturer' },
-        { label: t('sup.nav.solutionsDropdown.privateLabel'), to: '/{-$locale}/solutions/private-label-sup' },
-        { label: t('sup.nav.solutionsDropdown.resort'), to: '/{-$locale}/solutions/resort-sup' },
-        { label: t('sup.nav.solutionsDropdown.club'), to: '/{-$locale}/solutions/club-sup' },
+        { label: t('sup.nav.solutionsDropdown.privateLabel'), href: '/solutions/private-label-sup' },
+        { label: t('sup.nav.solutionsDropdown.resort'), href: '/solutions/resort-sup' },
+        { label: t('sup.nav.solutionsDropdown.club'), href: '/solutions/club-sup' },
         { label: t('sup.nav.solutionsDropdown.distributors'), href: '/solutions/distributors' },
         { label: t('sup.nav.solutionsDropdown.rentalOperators'), href: '/solutions/rental-operators' },
       ],
@@ -46,63 +45,54 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
     {
       label: t('sup.nav.products'),
       items: [
-        { label: t('sup.nav.productsDropdown.all'), to: '/{-$locale}/products' },
-        { label: t('sup.nav.customizer'), to: '/{-$locale}/customizer' },
+        { label: t('sup.nav.productsDropdown.all'), href: '/products' },
+        { label: t('sup.nav.customizer'), href: '/customizer' },
       ],
     },
     {
       label: t('sup.nav.resources'),
       items: [
-        { label: t('sup.nav.resourcesDropdown.guides'), to: '/{-$locale}/knowledge' },
-        { label: t('sup.nav.resourcesDropdown.gallery'), to: '/{-$locale}/gallery' },
-        { label: t('sup.nav.resourcesDropdown.cases'), to: '/{-$locale}/projects' },
+        { label: t('sup.nav.resourcesDropdown.guides'), href: '/knowledge' },
+        { label: t('sup.nav.resourcesDropdown.gallery'), href: '/gallery' },
+        { label: t('sup.nav.resourcesDropdown.cases'), href: '/projects' },
         { label: t('sup.nav.resourcesDropdown.faq'), href: '/faq' },
       ],
     },
     {
       label: t('sup.nav.company'),
       items: [
-        { label: t('sup.nav.companyDropdown.about'), to: '/{-$locale}/about/supsfactory-entity' },
+        { label: t('sup.nav.companyDropdown.about'), href: '/about/supsfactory-entity' },
         { label: t('sup.nav.companyDropdown.factory'), href: '/factory' },
         { label: t('sup.nav.companyDropdown.quality'), href: '/quality' },
         { label: t('sup.nav.companyDropdown.warranty'), href: '/warranty' },
         { label: t('sup.nav.companyDropdown.technology'), href: '/technology' },
-        { label: t('sup.nav.companyDropdown.whoWeServe'), to: '/{-$locale}/who-we-serve' },
+        { label: t('sup.nav.companyDropdown.whoWeServe'), href: '/who-we-serve' },
       ],
     },
-    { label: t('sup.nav.contact'), to: '/{-$locale}/contact' },
+    { label: t('sup.nav.contact'), href: '/contact' },
   ]
 
   const authLink = loggedIn ? (
-    <Link to="/{-$locale}/app" className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
+    <a href={l('/app')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
       {t('sup.nav.app')}
-    </Link>
+    </a>
   ) : (
-    <Link to="/{-$locale}/login" className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
+    <a href={l('/login')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
       {t('common.signIn')}
-    </Link>
+    </a>
   )
 
   const cta = (
-    <Link to="/{-$locale}/contact" className={buttonVariants({ size: 'sm' })}>
+    <a href={l('/contact')} className={buttonVariants({ size: 'sm' })}>
       {t('sup.nav.cta')}
-    </Link>
+    </a>
   )
 
-  const renderNavLink = (item: { label: string; to?: string; href?: string }, onNavigate?: () => void) => {
-    if (item.href) {
-      return (
-        <a href={l(item.href)} className={linkCls} onClick={onNavigate}>
-          {item.label}
-        </a>
-      )
-    }
-    return (
-      <Link to={item.to as string} className={linkCls} onClick={onNavigate}>
-        {item.label}
-      </Link>
-    )
-  }
+  const renderNavLink = (item: { label: string; href?: string }, onNavigate?: () => void) => (
+    <a href={l(item.href as string)} className={linkCls} onClick={onNavigate}>
+      {item.label}
+    </a>
+  )
 
   const renderDesktopItem = (item: NavItem) => {
     if (!item.items) {
@@ -164,12 +154,12 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
           {authLink}
         </div>
         <nav className="flex h-16 items-center gap-3 px-4 md:px-7">
-          <Link to="/{-$locale}" aria-label="SUPsfactory" className="shrink-0">
+          <a href={l('/')} aria-label="SUPsfactory" className="shrink-0">
             <div className="flex flex-col leading-tight">
               <Logo />
               <span className="text-[10.5px] font-medium uppercase tracking-[0.12em] text-fg-3">{t('sup.nav.poweredBy')}</span>
             </div>
-          </Link>
+          </a>
           <div className="flex-1" />
 
           {/* desktop nav with dropdowns */}

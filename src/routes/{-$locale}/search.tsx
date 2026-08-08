@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { Search as SearchIcon, ArrowRight } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -88,8 +88,8 @@ function SearchPage() {
           <ul className="flex flex-col gap-3">
             {results.map((m) => (
               <li key={m.url}>
-                <Link
-                  to={m.url}
+                <a
+                  href={m.url}
                   className="flex items-start gap-3 rounded-xl border border-border bg-card p-4 shadow-[var(--shadow-sm)] transition-colors hover:border-primary/40 hover:bg-bg-alt"
                 >
                   <span className={`mt-1 shrink-0 rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${TYPE_CLASS[m.type]}`}>
@@ -100,7 +100,7 @@ function SearchPage() {
                     {m.excerpt && <span className="mt-0.5 block truncate text-[13px] text-fg-3">{m.excerpt}</span>}
                   </span>
                   <ArrowRight size={16} className="mt-1 shrink-0 text-fg-3" />
-                </Link>
+                </a>
               </li>
             ))}
           </ul>

@@ -1,4 +1,3 @@
-import { Link } from '@tanstack/react-router'
 import { ArrowRight, BadgeCheck } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, hero } from '@/features/site/content'
@@ -8,6 +7,7 @@ import { OG_IMAGE } from '@/features/seo/seo'
 export function Hero() {
   const { locale } = useTranslation()
   const c = pick(hero, locale)
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   return (
     <section className="ocean-grad relative flex min-h-[100svh] items-center overflow-hidden">
@@ -37,14 +37,14 @@ export function Hero() {
           <p className="fg-dim mt-6 max-w-xl text-[16.5px] leading-relaxed md:text-lg">{c.sub}</p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">
-            <Link
-              to="/{-$locale}/contact"
+            <a
+              href={fl('/contact')}
               className="sun-grad inline-flex h-[48px] items-center gap-2 rounded-full px-8 text-[15px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.75)] transition-transform hover:-translate-y-0.5"
             >
               {c.ctaPrimary} <ArrowRight size={17} />
-            </Link>
+            </a>
             <a
-              href={locale === 'en' ? '/factory' : '/es/factory'}
+              href={fl('/factory')}
               className="glass-btn inline-flex h-[48px] items-center px-8 text-[15px] font-semibold"
             >
               {c.ctaSecondary}

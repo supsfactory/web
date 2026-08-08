@@ -1,5 +1,4 @@
 import { Lightbulb, Layers, ShieldCheck, FlaskConical } from 'lucide-react'
-import { Link } from '@tanstack/react-router'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, solve } from '@/features/site/content'
 import { SectionHead } from './section-head'
@@ -11,6 +10,7 @@ const ICONS = [Lightbulb, Layers, ShieldCheck, FlaskConical]
 export function SolveSection() {
   const { locale } = useTranslation()
   const c = pick(solve, locale)
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   return (
     <section className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
@@ -34,12 +34,12 @@ export function SolveSection() {
         })}
       </div>
       <div className="mt-10 text-center">
-        <Link
-          to="/{-$locale}/contact"
+        <a
+          href={fl('/contact')}
           className="sun-grad inline-flex h-[48px] items-center gap-2 rounded-full px-8 text-[15px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.75)] transition-transform hover:-translate-y-0.5"
         >
           {c.cta}
-        </Link>
+        </a>
       </div>
     </section>
   )

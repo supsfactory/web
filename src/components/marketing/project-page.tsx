@@ -1,4 +1,3 @@
-import { Link } from '@tanstack/react-router'
 import { ArrowRight, Building2, CheckCircle2, ClipboardList, Package } from 'lucide-react'
 import type { ProjectData } from '@/features/site/projects'
 import { useTranslation } from '@/features/i18n/provider'
@@ -11,7 +10,8 @@ import { MarketingShell } from './shell'
  * challenge → solution → product → process → result, plus CaseStudy JSON-LD.
  */
 export function ProjectPage({ page }: { page: ProjectData }) {
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   return (
     <MarketingShell>
@@ -21,12 +21,12 @@ export function ProjectPage({ page }: { page: ProjectData }) {
             <p key={i} className="fg-dim text-[15.5px] leading-relaxed">{p}</p>
           ))}
         </div>
-        <Link
-          to="/{-$locale}/contact"
+        <a
+          href={fl('/contact')}
           className="sun-grad mt-8 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
         >
           {t('sup.projects.discuss')} <ArrowRight size={17} />
-        </Link>
+        </a>
       </PageHero>
 
       {/* at-a-glance facts */}
@@ -123,20 +123,20 @@ export function ProjectPage({ page }: { page: ProjectData }) {
         <div className="mx-auto flex max-w-4xl flex-col items-center px-5 py-16 text-center md:px-7 md:py-20">
           <p className="font-display text-xs font-bold uppercase tracking-[0.16em] text-[#aee3f7]">{t('sup.projects.ctaKicker')}</p>
           <h2 className="mt-3 font-display text-3xl font-extrabold leading-[1.12] text-white md:text-4xl">{t('sup.projects.ctaTitle')}</h2>
-          <Link
-            to="/{-$locale}/contact"
+          <a
+            href={fl('/contact')}
             className="sun-grad mt-8 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
           >
             {t('sup.projects.discuss')} <ArrowRight size={17} />
-          </Link>
+          </a>
         </div>
       </section>
       <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-2 gap-y-1 px-5 py-12 md:px-7">
-        <Link to="/{-$locale}/projects" className="text-[13px] font-medium text-primary hover:underline">{t('sup.projects.seeAll')}</Link>
+        <a href={fl('/projects')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.projects.seeAll')}</a>
         <span className="text-fg-3">·</span>
-        <Link to="/{-$locale}/solutions" className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.solutions')}</Link>
+        <a href={fl('/solutions')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.solutions')}</a>
         <span className="text-fg-3">·</span>
-        <Link to="/{-$locale}/contact" className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.contact')}</Link>
+        <a href={fl('/contact')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.contact')}</a>
       </nav>
     </MarketingShell>
   )

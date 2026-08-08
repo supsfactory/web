@@ -1,4 +1,4 @@
-import { createFileRoute, useRouter, Link } from '@tanstack/react-router'
+import { createFileRoute, useRouter } from '@tanstack/react-router'
 import { useState } from 'react'
 import { Mail, Lock } from 'lucide-react'
 import { signIn } from '@/features/auth/auth.client'
@@ -25,8 +25,9 @@ export const Route = createFileRoute('/{-$locale}/(auth)/login')({
 
 function Login() {
   const { providers, turnstileSiteKey } = Route.useLoaderData()
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
   const router = useRouter()
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
   const { token, enabled, widget, reset } = useTurnstile(turnstileSiteKey)
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -56,9 +57,9 @@ function Login() {
           <Field id="password" label={t('auth.password')} icon={Lock} canToggle value={password}
             onChange={(e) => setPassword(e.target.value)} required autoComplete="current-password" />
           <div className="mt-1.5 text-right">
-            <Link to="/{-$locale}/forgot-password" className="text-[13px] font-semibold text-primary">
+            <a href={fl('/forgot-password')} className="text-[13px] font-semibold text-primary">
               {t('auth.forgotPassword')}
-            </Link>
+            </a>
           </div>
         </div>
         {widget}
@@ -70,9 +71,9 @@ function Login() {
       <SocialButtons providers={providers} />
       <p className="mt-5 text-center text-sm text-fg-2">
         {t('auth.noAccount')}{' '}
-        <Link to="/{-$locale}/register" className="font-semibold text-primary">
+        <a href={fl('/register')} className="font-semibold text-primary">
           {t('auth.register')}
-        </Link>
+        </a>
       </p>
     </AuthCard>
   )

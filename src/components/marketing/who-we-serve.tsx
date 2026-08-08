@@ -1,4 +1,3 @@
-import { Link } from '@tanstack/react-router'
 import { ArrowRight, Package, BadgeCheck, Hotel, Users } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
@@ -22,9 +21,8 @@ export function WhoWeServe() {
             const Icon = ICONS[i % ICONS.length]
             return (
               <Reveal key={seg.slug} delay={i * 80}>
-                <Link
-                  to="/$"
-                  params={{ _splat: localizePath(locale, seg.href).replace(/^\/+/, '') }}
+                <a
+                  href={localizePath(locale, seg.href)}
                   className="marine-card group flex h-full flex-col p-7"
                   style={{ color: 'inherit' }}
                 >
@@ -47,7 +45,7 @@ export function WhoWeServe() {
                     {seg.cta}
                     <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
                   </span>
-                </Link>
+                </a>
               </Reveal>
             )
           })}

@@ -1,5 +1,5 @@
 import { useState, type ReactNode, type ComponentType } from 'react'
-import { Link, getRouteApi } from '@tanstack/react-router'
+import { getRouteApi } from '@tanstack/react-router'
 import { ChevronLeft, Eye, EyeOff } from 'lucide-react'
 import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
@@ -22,15 +22,17 @@ export function AuthCard({
   children: ReactNode
 }) {
   const { theme } = rootRoute.useLoaderData()
+  const { locale } = useTranslation()
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
   return (
     <div className="auth-wrap grid-bg">
       <div className="flex h-16 items-center gap-3 border-b border-border px-4 md:px-7">
-        <Link to="/{-$locale}" className="auth-home" aria-label="SUPsfactory">
+        <a href={fl('/')} className="auth-home" aria-label="SUPsfactory">
           <span className="auth-back" aria-hidden="true">
             <ChevronLeft size={16} />
           </span>
           <Logo />
-        </Link>
+        </a>
         <div className="flex-1" />
         <div className="flex items-center gap-1">
           <ThemeToggle theme={theme} />

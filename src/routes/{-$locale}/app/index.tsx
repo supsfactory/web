@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { Settings, ArrowRight } from 'lucide-react'
 import { requireUser } from '@/features/auth/middleware'
 import { useTranslation } from '@/features/i18n/provider'
@@ -15,7 +15,8 @@ export const Route = createFileRoute('/{-$locale}/app/')({
 
 function AppHome() {
   const { user } = Route.useLoaderData()
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   return (
     <AppShell user={user} active="dashboard" crumb={t('app.dashboard')}>
@@ -30,7 +31,7 @@ function AppHome() {
 
       <h2 className="mb-3.5 font-mono text-sm uppercase tracking-wide text-fg-3">{t('app.quickActions')}</h2>
       <div className="grid gap-3.5 sm:grid-cols-2">
-        <Link to="/{-$locale}/app/account" className="bg-card border border-border rounded-[14px] block p-[18px] transition-colors hover:border-border-strong">
+        <a href={fl('/app/account')} className="bg-card border border-border rounded-[14px] block p-[18px] transition-colors hover:border-border-strong">
           <span className="icon-tile">
             <Settings size={20} />
           </span>
@@ -39,8 +40,8 @@ function AppHome() {
             <ArrowRight size={15} className="text-fg-3" />
           </div>
           <p className="m-0 text-[13px] leading-snug text-fg-3">{t('app.openAccountSub')}</p>
-        </Link>
-        <Link to="/{-$locale}/app/feedback" className="bg-card border border-border rounded-[14px] block p-[18px] transition-colors hover:border-border-strong">
+        </a>
+        <a href={fl('/app/feedback')} className="bg-card border border-border rounded-[14px] block p-[18px] transition-colors hover:border-border-strong">
           <span className="icon-tile">
             <ArrowRight size={20} />
           </span>
@@ -48,7 +49,7 @@ function AppHome() {
             <h3 className="m-0 text-[15px] font-semibold text-foreground">{t('feedback.nav')}</h3>
             <ArrowRight size={15} className="text-fg-3" />
           </div>
-        </Link>
+        </a>
       </div>
     </AppShell>
   )

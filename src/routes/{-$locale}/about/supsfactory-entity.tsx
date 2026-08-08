@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { ArrowRight, BookOpen, Building2, Hammer, PackageCheck } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -61,6 +61,7 @@ export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
 
 function EntityPage() {
   const { locale, t } = useTranslation()
+  const fl = (path: string): string => localizePath(locale, path)
   const c = {
     kicker: t('sup.entity.kicker'),
     title: t('sup.entity.title'),
@@ -115,16 +116,15 @@ function EntityPage() {
             const en = getSolutionPage('en', slug)
             if (!en) return null
             return (
-              <Link
+              <a
                 key={slug}
-                to="/$"
-                params={{ _splat: localizePath(locale, solutionPath(slug)).replace(/^\/+/, '') }}
+                href={localizePath(locale, solutionPath(slug))}
                 className="marine-card group p-5 transition-transform hover:-translate-y-0.5"
               >
                 <h3 className="font-display text-[15.5px] font-bold leading-snug group-hover:text-primary">
                   {getSolutionPage(locale, slug)?.h1 ?? en.h1}
                 </h3>
-              </Link>
+              </a>
             )
           })}
         </div>
@@ -141,13 +141,12 @@ function EntityPage() {
             <ul className="mt-5 space-y-2.5">
               {projects[locale].map((p) => (
                 <li key={p.slug}>
-                  <Link
-                    to="/{-$locale}/projects/$slug"
-                    params={{ slug: p.slug }}
+                  <a
+                    href={fl(`/projects/${p.slug}`)}
                     className="group flex items-center gap-2 text-[14.5px] font-semibold text-primary hover:underline"
                   >
                     <span className="text-fg-3 group-hover:text-primary">›</span> {p.navLabel}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -160,13 +159,12 @@ function EntityPage() {
             <ul className="mt-5 space-y-2.5">
               {knowledge[locale].map((a) => (
                 <li key={a.slug}>
-                  <Link
-                    to="/{-$locale}/knowledge/$slug"
-                    params={{ slug: a.slug }}
+                  <a
+                    href={fl(`/knowledge/${a.slug}`)}
                     className="group flex items-center gap-2 text-[14.5px] font-semibold text-primary hover:underline"
                   >
                     <span className="text-fg-3 group-hover:text-primary">›</span> {a.navLabel}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -182,12 +180,12 @@ function EntityPage() {
           </p>
           <h2 className="mt-3 font-display text-3xl font-extrabold leading-[1.12] text-white md:text-4xl">{c.ctaTitle}</h2>
           <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-[#d6eefb]">{c.ctaBody}</p>
-          <Link
-            to="/{-$locale}/contact"
+          <a
+            href={fl('/contact')}
             className="sun-grad mt-8 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
           >
             {t('sup.projects.discuss')} <ArrowRight size={17} />
-          </Link>
+          </a>
         </div>
       </section>
 

@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { ArrowRight } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -46,10 +46,9 @@ function SolutionsIndex() {
           <SectionHead kicker={t('sup.solutions.hubKicker')} title={t('sup.solutions.hubTitle')} />
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {pages.map((page) => (
-              <Link
+              <a
                 key={page.slug}
-                to="/$"
-                params={{ _splat: localizePath(locale, solutionPath(page.slug)).replace(/^\/+/, '') }}
+                href={localizePath(locale, solutionPath(page.slug))}
                 className="marine-card group flex flex-col p-6 transition-transform hover:-translate-y-0.5"
                 style={{ color: 'inherit' }}
               >
@@ -60,7 +59,7 @@ function SolutionsIndex() {
                   {t('sup.solutions.seeAll')}
                   <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
                 </span>
-              </Link>
+              </a>
             ))}
           </div>
         </div>

@@ -1,4 +1,3 @@
-import { Link } from '@tanstack/react-router'
 import { Facebook, Linkedin, Mail, MessageCircle, Youtube } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { FACTS } from '@/features/site/facts'
@@ -25,9 +24,9 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
             <a href="mailto:info@supsfactory.com" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
               <Mail size={15} className="text-primary" /> info@supsfactory.com
             </a>
-            <Link to="/{-$locale}/contact" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
+            <a href={fl('/contact')} className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
               <MessageCircle size={15} className="text-primary" /> {t('sup.footer.inquiryForm')}
-            </Link>
+            </a>
           </div>
           <div className="mt-5">
             <p className="text-xs font-semibold uppercase tracking-[0.12em] text-fg-3">{t('sup.footer.followUs')}</p>
@@ -57,11 +56,11 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
 
         {/* Solutions */}
         <FooterCol title={t('sup.footer.colSolutions')}>
-          <Link className="foot-link" to="/{-$locale}/custom-sup-development">{t('sup.footer.customSup')}</Link>
-          <Link className="foot-link" to="/{-$locale}/solutions/private-label-sup">{t('sup.footer.privateLabel')}</Link>
-          <Link className="foot-link" to="/{-$locale}/solutions/resort-sup">{t('sup.footer.resortSolutions')}</Link>
-          <Link className="foot-link" to="/{-$locale}/solutions/club-sup">{t('sup.footer.clubSup')}</Link>
-          <Link className="foot-link" to="/{-$locale}/solutions/school-sup">{t('sup.footer.schoolSup')}</Link>
+          <a className="foot-link" href={fl('/custom-sup-development')}>{t('sup.footer.customSup')}</a>
+          <a className="foot-link" href={fl('/solutions/private-label-sup')}>{t('sup.footer.privateLabel')}</a>
+          <a className="foot-link" href={fl('/solutions/resort-sup')}>{t('sup.footer.resortSolutions')}</a>
+          <a className="foot-link" href={fl('/solutions/club-sup')}>{t('sup.footer.clubSup')}</a>
+          <a className="foot-link" href={fl('/solutions/school-sup')}>{t('sup.footer.schoolSup')}</a>
           <a className="foot-link" href={fl('/solutions/distributors')}>{t('sup.nav.solutionsDropdown.distributors')}</a>
           <a className="foot-link" href={fl('/solutions/rental-operators')}>{t('sup.nav.solutionsDropdown.rentalOperators')}</a>
           <a className="foot-link" href={fl('/b2b-solutions-matrix')}>{t('sup.footer.b2bMatrix')}</a>
@@ -70,13 +69,13 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
 
         {/* Resources & Company */}
         <FooterCol title={t('sup.footer.colResources')}>
-          <Link className="foot-link" to="/{-$locale}/knowledge">{t('sup.nav.guides')}</Link>
+          <a className="foot-link" href={fl('/knowledge')}>{t('sup.nav.guides')}</a>
           <a className="foot-link" href={fl('/what-is-sup')}>{t('sup.footer.whatIsSup')}</a>
-          <Link className="foot-link" to="/{-$locale}/projects">{t('sup.nav.projects')}</Link>
+          <a className="foot-link" href={fl('/projects')}>{t('sup.nav.projects')}</a>
           <a className="foot-link" href={fl('/faq')}>{t('sup.footer.faq')}</a>
           <a className="foot-link" href={fl('/news')}>{t('sup.footer.news')}</a>
-          <Link className="foot-link" to="/{-$locale}/about/supsfactory-entity">{t('sup.nav.aboutAfarer')}</Link>
-          <Link className="foot-link" to="/{-$locale}/contact">{t('sup.footer.contact')}</Link>
+          <a className="foot-link" href={fl('/about/supsfactory-entity')}>{t('sup.nav.aboutAfarer')}</a>
+          <a className="foot-link" href={fl('/contact')}>{t('sup.footer.contact')}</a>
         </FooterCol>
       </div>
 
@@ -87,8 +86,8 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           </p>
           <p className="mt-1 text-[12.5px] text-fg-3/80">{t('sup.footer.owner')}</p>
           <div className="mt-2 flex items-center gap-4 text-[12.5px]">
-            <Link className="foot-link text-fg-3 hover:text-foreground" to="/{-$locale}/terms">{t('sup.footer.terms')}</Link>
-            <Link className="foot-link text-fg-3 hover:text-foreground" to="/{-$locale}/privacy">{t('sup.footer.privacy')}</Link>
+            <a className="foot-link text-fg-3 hover:text-foreground" href={fl('/terms')}>{t('sup.footer.terms')}</a>
+            <a className="foot-link text-fg-3 hover:text-foreground" href={fl('/privacy')}>{t('sup.footer.privacy')}</a>
           </div>
         </div>
         <div className="flex items-center gap-1">

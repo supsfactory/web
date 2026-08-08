@@ -1,4 +1,3 @@
-import { Link } from '@tanstack/react-router'
 import { ArrowRight } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, cta } from '@/features/site/content'
@@ -7,6 +6,7 @@ import { pick, cta } from '@/features/site/content'
 export function CtaBand() {
   const { locale } = useTranslation()
   const c = pick(cta, locale)
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   return (
     <section className="mx-auto max-w-6xl px-5 pb-20 md:px-7 md:pb-24">
@@ -34,12 +34,12 @@ export function CtaBand() {
             {c.title}
           </h2>
           <p className="fg-dim mx-auto mt-4 max-w-xl text-[15.5px] leading-relaxed">{c.body}</p>
-          <Link
-            to="/{-$locale}/contact"
+          <a
+            href={fl('/contact')}
             className="sun-grad mx-auto mt-8 inline-flex h-[50px] items-center gap-2 rounded-full px-9 text-[15.5px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.8)] transition-transform hover:-translate-y-0.5"
           >
             {c.button} <ArrowRight size={17} />
-          </Link>
+          </a>
           <p className="mt-5 text-[12.5px] font-medium text-white/70">{c.note}</p>
         </div>
       </div>

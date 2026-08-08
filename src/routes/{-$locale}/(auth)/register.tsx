@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
 import { User, Mail, Lock } from 'lucide-react'
 import { signUp } from '@/features/auth/auth.client'
@@ -25,7 +25,8 @@ export const Route = createFileRoute('/{-$locale}/(auth)/register')({
 
 function Register() {
   const { providers, turnstileSiteKey } = Route.useLoaderData()
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
   const { token, enabled, widget, reset } = useTurnstile(turnstileSiteKey)
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -51,9 +52,9 @@ function Register() {
   if (sent) {
     return (
       <AuthCard title={t('auth.verifyTitle')} subtitle={t('auth.verifySent')}>
-        <Link to="/{-$locale}/verify-email" className="font-semibold text-primary">
+        <a href={fl('/verify-email')} className="font-semibold text-primary">
           {t('auth.resendVerification')}
-        </Link>
+        </a>
       </AuthCard>
     )
   }
@@ -77,9 +78,9 @@ function Register() {
       <SocialButtons providers={providers} />
       <p className="mt-5 text-center text-sm text-fg-2">
         {t('auth.haveAccount')}{' '}
-        <Link to="/{-$locale}/login" className="font-semibold text-primary">
+        <a href={fl('/login')} className="font-semibold text-primary">
           {t('auth.login')}
-        </Link>
+        </a>
       </p>
     </AuthCard>
   )

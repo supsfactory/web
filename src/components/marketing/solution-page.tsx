@@ -1,4 +1,3 @@
-import { Link } from '@tanstack/react-router'
 import { ArrowRight, CheckCircle2, Target, AlertCircle } from 'lucide-react'
 import type { SolutionPageData } from '@/features/site/solution-pages'
 import { useTranslation } from '@/features/i18n/provider'
@@ -12,7 +11,8 @@ import { solutionPath } from '@/features/site/solution-pages'
  * CTA temperature: cold → Learn More, warm → Discuss Your Project, hot → Request Manufacturing Proposal.
  */
 export function SolutionPage({ page }: { page: SolutionPageData }) {
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
   const ctaLabel =
     page.ctaLabel ??
     {
@@ -31,12 +31,12 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
             <p key={i} className="fg-dim text-[15.5px] leading-relaxed">{p}</p>
           ))}
         </div>
-        <Link
-          to="/{-$locale}/contact"
+        <a
+          href={fl('/contact')}
           className="sun-grad mt-8 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
         >
           {ctaLabel} <ArrowRight size={17} />
-        </Link>
+        </a>
       </PageHero>
 
       {/* scenario */}
@@ -146,23 +146,23 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
           <p className="font-display text-xs font-bold uppercase tracking-[0.16em] text-[#aee3f7]">{t('sup.solutions.nextKicker')}</p>
           <h2 className="mt-3 font-display text-3xl font-extrabold leading-[1.12] text-white md:text-4xl">{t('sup.solutions.nextTitle')}</h2>
           <p className="fg-dim mt-4 max-w-xl text-[15.5px] leading-relaxed">{t('sup.solutions.nextBody')}</p>
-          <Link
-            to={ctaHref === '/solutions' ? '/{-$locale}/solutions' : '/{-$locale}/contact'}
+          <a
+            href={fl(ctaHref)}
             className="sun-grad mt-8 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
           >
             {ctaLabel} <ArrowRight size={17} />
-          </Link>
+          </a>
         </div>
       </section>
       <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-2 gap-y-1 px-5 py-12 md:px-7">
         <span className="mr-2 text-[13px] font-semibold text-fg-3">{t('sup.nav.solutions')} ·</span>
-        <Link to="/{-$locale}/solutions" className="text-[13px] font-medium text-primary hover:underline">{t('sup.solutions.seeAll')}</Link>
+        <a href={fl('/solutions')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.solutions.seeAll')}</a>
         <span className="text-fg-3">·</span>
-        <Link to="/{-$locale}/products" className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.products')}</Link>
+        <a href={fl('/products')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.products')}</a>
         <span className="text-fg-3">·</span>
-        <Link to="/{-$locale}/how-it-works" className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.process')}</Link>
+        <a href={fl('/how-it-works')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.process')}</a>
         <span className="text-fg-3">·</span>
-        <Link to="/{-$locale}/contact" className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.contact')}</Link>
+        <a href={fl('/contact')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.contact')}</a>
       </nav>
     </>
   )

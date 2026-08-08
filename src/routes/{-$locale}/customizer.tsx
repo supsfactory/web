@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { createFileRoute, getRouteApi, Link } from '@tanstack/react-router'
+import { createFileRoute, getRouteApi } from '@tanstack/react-router'
 import { ArrowRight, PaintBucket, Upload, ImageIcon, Sparkles } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -40,6 +40,7 @@ export const Route = createFileRoute('/{-$locale}/customizer')({
 function CustomizerPage() {
   const { theme, user } = rootRoute.useLoaderData()
   const { locale } = useTranslation()
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
   const c = pick(customizer, locale)
   const [hue, setHue] = React.useState(195)
 
@@ -111,12 +112,12 @@ function CustomizerPage() {
                 </div>
               )
             })}
-            <Link
-              to="/{-$locale}/contact"
+            <a
+              href={fl('/contact')}
               className="sun-grad mt-2 inline-flex h-[50px] items-center justify-center gap-2 rounded-full px-8 text-[15px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.7)] transition-transform hover:-translate-y-0.5"
             >
               {c.cta} <ArrowRight size={17} />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

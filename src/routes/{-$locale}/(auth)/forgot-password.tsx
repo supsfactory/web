@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
 import { Mail } from 'lucide-react'
 import { requestPasswordReset } from '@/features/auth/auth.client'
@@ -34,9 +34,9 @@ function Forgot() {
   if (done) {
     return (
       <AuthCard title={t('auth.forgotTitle')} subtitle={t('auth.checkEmailReset')}>
-        <Link to="/{-$locale}/login" className="font-semibold text-primary">
+        <a href={localizePath(locale, '/login')} className="font-semibold text-primary">
           {t('auth.login')}
-        </Link>
+        </a>
       </AuthCard>
     )
   }
@@ -52,9 +52,9 @@ function Forgot() {
         </Button>
       </form>
       <p className="mt-5 text-center text-sm text-fg-2">
-        <Link to="/{-$locale}/login" className="font-semibold text-primary">
+        <a href={localizePath(locale, '/login')} className="font-semibold text-primary">
           {t('auth.login')}
-        </Link>
+        </a>
       </p>
     </AuthCard>
   )

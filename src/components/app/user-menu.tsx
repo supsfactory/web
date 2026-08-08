@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, useRouter } from '@tanstack/react-router'
+import { useRouter } from '@tanstack/react-router'
 import { ChevronsUpDown, LogOut, Settings } from 'lucide-react'
 import { signOut } from '@/features/auth/auth.client'
 import { useTranslation } from '@/features/i18n/provider'
@@ -20,10 +20,11 @@ function initials(primary: string): string {
  * (signOut → /login) so both paths stay behaviorally identical.
  */
 export function UserMenu({ user, rail }: { user: ShellUser; rail: boolean }) {
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
   const router = useRouter()
   const [open, setOpen] = useState(false)
   const [busy, setBusy] = useState(false)
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   const primary = user.name || user.email
 
@@ -67,13 +68,13 @@ export function UserMenu({ user, rail }: { user: ShellUser; rail: boolean }) {
             <div className="truncate text-xs text-fg-3">{user.email}</div>
           </div>
           <div className="border-t border-border pt-1">
-            <Link
-              to="/{-$locale}/app/account"
+            <a
+              href={fl('/app/account')}
               onClick={() => setOpen(false)}
               className="flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-[13px] font-medium text-fg-2 hover:bg-bg-alt hover:text-foreground"
             >
               <Settings size={14} className="shrink-0" /> {t('app.account')}
-            </Link>
+            </a>
             <button
               type="button"
               disabled={busy}
