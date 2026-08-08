@@ -175,7 +175,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
       case 'case':
         return <CaseView c={data.case} origin={data.origin} title={data.title} path={data.path} />
       case 'guide':
-        return <GuideView slug={data.slug} origin={data.origin} path={data.path} />
+        return <GuideView slug={data.slug} origin={data.origin} path={data.path} locale={data.locale} />
       case 'faq':
         return <FaqView faqs={data.faqs} origin={data.origin} path={data.path} translated={data.translated} />
       case 'cases-index':
@@ -374,8 +374,8 @@ function CaseView({ c, origin, title, path }: { c: AfarerCaseUse; origin: string
   )
 }
 
-function GuideView({ slug, origin, path }: { slug: string; origin: string; path: string }) {
-  const guide = getGuide(`/guides/${slug}`)
+function GuideView({ slug, origin, path, locale }: { slug: string; origin: string; path: string; locale?: string }) {
+  const guide = getGuide(`/guides/${slug}`, locale)
   if (!guide) return null
   return (
     <>

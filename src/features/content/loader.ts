@@ -357,9 +357,24 @@ export function getAfarerPage(path: string, locale: Locale = defaultLocale): Afa
 /** True when a Spanish variant exists for the page (or /faq) at `path`. */
 export function isAfarerPageTranslated(path: string, locale: Locale): boolean {
   if (locale !== 'es') return false
-  const page = PAGE_BY_PATH.get(normalizePath(path))
+  return hasSpanishVariant(path)
+}
+
+/**
+ * True when a Spanish variant exists for any afarer content at `path` —
+ * registry pages, /faq, or the sidecar overlays (news, products, technology,
+ * case-use). Guides live in guide-content.ts and are checked by the caller.
+ */
+export function hasSpanishVariant(path: string): boolean {
+  const p = normalizePath(path)
+  const page = PAGE_BY_PATH.get(p)
   if (page) return !!PAGES_YAML_ES[page.slug]
-  if (normalizePath(path) === '/faq') return !!suffixMatch(esSiteGlob, 'faqs.es.yaml')
+  if (p === '/faq') return !!suffixMatch(esSiteGlob, 'faqs.es.yaml')
+  const slug = p.split('/').filter(Boolean).pop() ?? ''
+  if (p.startsWith('/products/')) return !!PRODUCTS_ES[slug]
+  if (p.startsWith('/news/')) return !!NEWS_ES[slug]
+  if (p.startsWith('/technology/')) return !!TECH_ES[slug]
+  if (p.startsWith('/evidence/case-studies/')) return !!CASE_ES[slug]
   return false
 }
 
@@ -368,6 +383,16 @@ export function getAfarerEsPaths(): string[] {
   const pages = ALL_PAGES.filter((p) => PAGES_YAML_ES[p.slug]).map((p) => p.path)
   if (suffixMatch(esSiteGlob, 'faqs.es.yaml')) pages.push('/faq')
   return pages
+}
+
+/** Detail paths (news/products/technology/case-use) that have a Spanish sidecar. */
+export function getEsContentPaths(): string[] {
+  const paths: string[] = []
+  for (const slug of Object.keys(NEWS_ES)) paths.push(`/news/${slug}`)
+  for (const slug of Object.keys(PRODUCTS_ES)) paths.push(`/products/${slug}`)
+  for (const slug of Object.keys(TECH_ES)) paths.push(`/technology/${slug}`)
+  for (const slug of Object.keys(CASE_ES)) paths.push(`/evidence/case-studies/${slug}`)
+  return paths
 }
 
 export function getAfarerPages(): AfarerPage[] {
@@ -424,7 +449,14 @@ export function getCaseUse(slug: string, locale?: string): AfarerCaseUse | undef
   return locale === 'es' ? (CASE_ES[base] ?? c) : c
 }
 
-export function getResearchTopics(): AfarerResearchTopic[] {
+export function getResearchTopics(locale?: string): AfarerResearchTopic[] {
+  if (locale === 'es') {
+    const raw = suffixMatch(esSiteGlob, 'research.es.yaml')
+    if (raw) {
+      const es = (parse(stripBom(raw)) as { topics?: AfarerResearchTopic[] }).topics ?? []
+      if (es.length > 0) return es.map((t) => ({ ...t, slug: String(t.slug) }))
+    }
+  }
   return RESEARCH_TOPICS
 }
 

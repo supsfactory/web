@@ -1,27 +1,35 @@
 /**
  * 默认 404 页（router 的 defaultNotFoundComponent）。
- * 可能渲染在 I18nProvider / locale 布局之外，故用 locale 无关的纯文案 + 普通 <a> 回首页
- * （`/` 始终解析到默认语言；用普通 anchor 避免 typed-route 约束，404 整页跳转可接受）。 */
+ * 可能渲染在 I18nProvider / locale 布局之外，故用 useLocation 推断 /es 前缀，
+ * 渲染西语文案 + 普通 <a> 回首页（`/` 始终解析到默认语言；用普通 anchor
+ * 避免 typed-route 约束，404 整页跳转可接受）。 */
 import { useEffect } from 'react'
+import { useLocation } from '@tanstack/react-router'
+import { isEsPath } from '@/features/i18n/locale'
+
 export function NotFound() {
-  // document.title, not a rendered <title>: the root head() already emits one,
-  // and React 19 hoisting would append a second (invalid, and browsers keep the first).
+  const { pathname } = useLocation()
+  const es = isEsPath(pathname)
   useEffect(() => {
-    document.title = 'Page not found — SUPsfactory'
-  }, [])
+    document.title = (es ? 'Página no encontrada' : 'Page not found') + ' — SUPsfactory'
+  }, [es])
   return (
     <main className="grid-bg flex min-h-screen flex-col items-center justify-center gap-[18px] p-8 text-center">
-      <span className="kicker">// route not found</span>
+      <span className="kicker">// {es ? 'ruta no encontrada' : 'route not found'}</span>
       <div className="font-display text-[120px] font-bold leading-none tracking-[-4px] text-primary">404</div>
-      <h1 className="font-display text-[28px] font-semibold tracking-[-0.6px]">Page not found</h1>
+      <h1 className="font-display text-[28px] font-semibold tracking-[-0.6px]">
+        {es ? 'Página no encontrada' : 'Page not found'}
+      </h1>
       <p className="m-0 max-w-[30em] text-base leading-relaxed text-fg-2">
-        This route never shipped. Check the URL or head back to safe harbor.
+        {es
+          ? 'Esta ruta nunca se publicó. Revisa la URL o vuelve a puerto seguro.'
+          : 'This route never shipped. Check the URL or head back to safe harbor.'}
       </p>
       <a
-        href="/"
+        href={es ? '/es' : '/'}
         className="inline-flex h-13 items-center gap-2 rounded-[6px] bg-primary px-6 text-base font-semibold text-primary-foreground transition-colors hover:bg-primary-hover"
       >
-        Back to home
+        {es ? 'Volver al inicio' : 'Back to home'}
       </a>
     </main>
   )

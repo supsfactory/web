@@ -11,6 +11,11 @@ export function isLocale(value: unknown): value is Locale {
   return typeof value === 'string' && (locales as readonly string[]).includes(value)
 }
 
+/** True for paths under the /es prefixed locale (used outside the locale layout). */
+export function isEsPath(path: string): boolean {
+  return path === '/es' || path.startsWith('/es/')
+}
+
 type Params = Record<string, string | number>
 
 /** 按点路径取文案；缺失回退 key；支持 {var} 插值。 */

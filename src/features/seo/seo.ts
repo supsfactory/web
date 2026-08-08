@@ -109,6 +109,8 @@ function alternates(origin: string, path: string): string {
 export interface SitemapEntry {
   loc: string
   lastmod?: string
+  /** Emit the Spanish sibling as an hreflang alternate (must have a real es variant). */
+  es?: boolean
 }
 
 type SingleLocalePath = string | SitemapEntry
@@ -136,7 +138,10 @@ export function buildSitemap(
   const single = singleLocalePaths.map((p) => {
     const entry = typeof p === 'string' ? { loc: p } : p
     const lastmod = entry.lastmod ? `<lastmod>${entry.lastmod}</lastmod>` : ''
-    return `<url><loc>${origin}${entry.loc}</loc>${lastmod}</url>`
+    const links = entry.es
+      ? `<xhtml:link rel="alternate" hreflang="${HREFLANG.en}" href="${origin}${entry.loc}"/><xhtml:link rel="alternate" hreflang="${HREFLANG.es}" href="${origin}${localizePath('es', entry.loc)}"/><xhtml:link rel="alternate" hreflang="x-default" href="${origin}${entry.loc}"/>`
+      : ''
+    return `<url><loc>${origin}${entry.loc}</loc>${lastmod}${links}</url>`
   })
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${[...bilingual, ...single].join('')}</urlset>`
 }

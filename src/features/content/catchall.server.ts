@@ -17,7 +17,7 @@ import {
   getTechArticle,
   getCaseUse,
   getSiteFaqs,
-  isAfarerPageTranslated,
+  hasSpanishVariant,
   getNewsPosts,
   getAfarerProducts,
   getResearchTopics,
@@ -60,8 +60,8 @@ function indexProducts(locale?: Locale): AferIndexProduct[] {
   }))
 }
 
-function indexTopics(): AferIndexTopic[] {
-  return getResearchTopics()
+function indexTopics(locale?: Locale): AferIndexTopic[] {
+  return getResearchTopics(locale)
     .filter((t) => getAfarerPage(`/research/${t.slug}`))
     .map((t) => ({ slug: t.slug, category: t.category, readTime: t.readTime }))
 }
@@ -95,13 +95,18 @@ function indexFor(page?: AfarerPage, locale?: Locale): AferIndexData {
     regionCount: getRegionCount(),
     ...(need.news ? { news: indexNews(locale) } : {}),
     ...(need.products ? { products: indexProducts(locale) } : {}),
-    ...(need.topics ? { topics: indexTopics() } : {}),
+    ...(need.topics ? { topics: indexTopics(locale) } : {}),
   }
 }
 
 export function resolveCatchAll(path: string, locale: Locale = defaultLocale): CatchAllData | null {
-  const translated = isAfarerPageTranslated(path, locale)
-  const esTranslated = isAfarerPageTranslated(path, 'es')
+  const hasEs =
+    hasSpanishVariant(path) ||
+    (path.startsWith('/guides/') && !!getGuide(path, 'es')) ||
+    path === '/research' ||
+    path === '/evidence/case-studies'
+  const translated = locale === 'es' && hasEs
+  const esTranslated = hasEs
   const page = getAfarerPage(path, locale)
   if (page) {
     return {

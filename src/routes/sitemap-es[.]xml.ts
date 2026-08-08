@@ -3,18 +3,24 @@ import { env } from '@/lib/env'
 import { buildLocaleSitemap, PUBLIC_PATHS } from '@/features/seo/seo'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
-import { getAfarerEsPaths } from '@/features/content/loader'
+import { getAfarerEsPaths, getEsContentPaths } from '@/features/content/loader'
+import { GUIDES_ES } from '@/features/content/guide-content'
 import { projects } from '@/features/site/projects'
 import { knowledge } from '@/features/site/knowledge'
 
 // Spanish marketing pages (hreflang-linked to the English pages file) plus the
-// afarer pages that ship a real Spanish variant.
+// afarer pages and detail content (news/products/technology/case-use/guides)
+// that ship a real Spanish variant.
 const handler = () => {
   const origin = new URL(env.BETTER_AUTH_URL).origin
   const afarerEs = getAfarerEsPaths()
     .filter((p) => !(p in EDGE_REDIRECTS) && !(p in LEGACY_REDIRECTS))
     .map((p) => ({ path: p }))
   const detailEs = [
+    { path: '/research' },
+    { path: '/evidence/case-studies' },
+    ...getEsContentPaths().map((p) => ({ path: p })),
+    ...GUIDES_ES.map((g) => ({ path: `/guides/${g.slug}` })),
     ...projects.es.map((p) => ({ path: `/projects/${p.slug}` })),
     ...knowledge.es.map((a) => ({ path: `/knowledge/${a.slug}` })),
   ]

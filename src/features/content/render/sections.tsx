@@ -1344,5 +1344,14 @@ function StatsBand() {
 
 /** Synthetic "/research" index from the research.yaml topic registry. */
 export function ResearchIndex() {
-  return <TopicList c={{ badge: 'Knowledge Center', heading: 'Research & Technical Guides' }} />
+  const { locale } = useTranslation()
+  const es = locale === 'es'
+  return (
+    <TopicList
+      c={{
+        badge: es ? 'Centro de Conocimiento' : 'Knowledge Center',
+        heading: es ? 'Investigación y guías técnicas' : 'Research & Technical Guides',
+      }}
+    />
+  )
 }
