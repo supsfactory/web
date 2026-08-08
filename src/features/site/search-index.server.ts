@@ -17,6 +17,10 @@ import type { SearchEntry } from './search'
 
 const squeeze = (s: string): string => s.replace(/\s+/g, ' ').trim()
 
+/** Slug → readable label fallback for pages without an explicit SEO title. */
+const humanize = (s: string): string =>
+  squeeze(s.replace(/^\/+/, '').replace(/[-_]+/g, ' ').replace(/\b\w/g, (ch) => ch.toUpperCase()))
+
 export function buildContentIndex(locale: Locale): SearchEntry[] {
   const entries: SearchEntry[] = []
   for (const p of pick(solutionPages, locale)) {
@@ -57,7 +61,7 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
     const seo = p.content.seo as { title?: string; description?: string } | undefined
     entries.push({
       url: p.path,
-      title: (seo?.title ?? '').replace(/[|–—-].*$/, '').trim() || p.label,
+      title: (seo?.title ?? '').replace(/[|–—-].*$/, '').trim() || humanize(p.label),
       excerpt: seo?.description ?? '',
       type: 'page',
       locale: 'en',
@@ -66,7 +70,7 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
       const es = getAfarerPage(p.path, 'es')!
       const esMeta = es.content.meta as { title?: string; description?: string } | undefined
       const esSeo = es.content.seo as { headline?: string; description?: string } | undefined
-      const esTitle = (esMeta?.title ?? esSeo?.headline ?? '').replace(/[|–—-].*$/, '').trim() || p.label
+      const esTitle = (esMeta?.title ?? esSeo?.headline ?? '').replace(/[|–—-].*$/, '').trim() || humanize(p.label)
       entries.push({
         url: `/es${p.path}`,
         title: esTitle,

@@ -133,7 +133,7 @@ export function InquiryForm({ turnstileSiteKey }: { turnstileSiteKey: string | n
             className="inline-flex h-[42px] cursor-pointer items-center gap-2 rounded-[7px] border border-dashed border-input px-4 text-sm font-medium text-fg-2 transition-colors hover:border-primary hover:text-foreground"
           >
             <UploadCloud size={16} />
-            {fileName ?? 'Upload'}
+            {fileName ?? t('inquiry.filePlaceholder')}
             <input
               id="inq-logo"
               name="logo"

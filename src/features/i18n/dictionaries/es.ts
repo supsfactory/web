@@ -282,6 +282,7 @@ export const es = {
     requirements: 'Requisitos de personalización',
     requirementsPlaceholder: 'Describe el diseño de tu tabla, colores, branding, accesorios…',
     logo: 'Subir logo (opcional)',
+    filePlaceholder: 'Subir archivo',
     logoHint: 'PNG / JPG / SVG, hasta 5 MB.',
     submit: 'Enviar consulta',
     submitting: 'Enviando…',
@@ -301,6 +302,11 @@ export const es = {
       q5: '5 – 50 uds. (prueba)', q50: '50 – 100 uds.', q100: '100 – 300 uds.', q300: '300 – 500 uds.', q500: 'Más de 500 uds.', unsure: 'Aún no lo sé',
     },
     statuses: { new: 'Nuevo', contacted: 'Contactado', quoted: 'Con presupuesto', closed: 'Cerrado' },
+  },
+  afarer: {
+    ctaDefault: 'Contáctanos',
+    straightAnswer: 'Respuesta directa',
+    verifiedOn: 'Especificaciones verificadas por última vez:',
   },
   marketing: {
     navFeatures: 'Funciones', navDocs: 'Docs', navChangelog: 'Registro de cambios',

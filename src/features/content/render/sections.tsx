@@ -246,10 +246,10 @@ function ActionButton({ action }: { action: CtaAction }) {
 }
 
 function CtaWidget({ c }: { c: Record<string, unknown> }) {
-  const { locale } = useTranslation()
+  const { t, locale } = useTranslation()
   const title = brandify(str(c.title) || str(c.heading) || '')
   const body = brandify(str(c.desc) || str(c.description) || str(c.subtitle) || str(c.sub) || '')
-  const label = str(c.label) || str(c.button_text) || str(c.button) || 'Contact us'
+  const label = str(c.label) || str(c.button_text) || str(c.button) || t('afarer.ctaDefault')
   const actions = ctaActions(c)
   return (
     <Container className="pb-20">
@@ -1222,6 +1222,7 @@ function ContentWidget({ c }: { c: unknown }) {
  * Question → numbers → units → conditions in one short paragraph, rendered as a
  * highlighted callout with a visible verification timestamp. */
 function DirectAnswerWidget({ c }: { c: Record<string, unknown> }) {
+  const { t } = useTranslation()
   const text = str(c.text) || str(c.body) || ''
   const verified = str(c.verified) || ''
   if (!text) return null
@@ -1229,11 +1230,11 @@ function DirectAnswerWidget({ c }: { c: Record<string, unknown> }) {
     <Container narrow>
       <div className="relative overflow-hidden rounded-xl border border-primary/30 bg-primary/5 px-6 py-5">
         <span className="mb-1.5 block text-[11px] font-bold uppercase tracking-[0.14em] text-primary">
-          {str(c.label) || 'Straight answer'}
+          {str(c.label) || t('afarer.straightAnswer')}
         </span>
         <p className="text-[15px] leading-relaxed text-foreground">{brandify(text)}</p>
         {verified && (
-          <span className="mt-2.5 block text-[11.5px] text-fg-3">Specifications last verified: {verified}</span>
+          <span className="mt-2.5 block text-[11.5px] text-fg-3">{t('afarer.verifiedOn')} {verified}</span>
         )}
       </div>
     </Container>

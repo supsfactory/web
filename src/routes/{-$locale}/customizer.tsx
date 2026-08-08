@@ -72,7 +72,7 @@ function CustomizerPage() {
                 style={{ background: `radial-gradient(circle, hsl(${hue} 72% 55% / 0.5) 0%, transparent 70%)` }}
                 aria-hidden="true"
               />
-              <BoardArt className="relative w-full" hue={hue} label="YOUR BRAND" />
+              <BoardArt className="relative w-full" hue={hue} label={c.boardLabel} />
             </div>
 
             {/* palette */}
@@ -104,7 +104,7 @@ function CustomizerPage() {
                   </span>
                   <div>
                     <p className="font-display text-[11px] font-extrabold uppercase tracking-[0.16em] text-fg-3">
-                      Step {String(i + 1).padStart(2, '0')}
+                      {c.stepLabel} {String(i + 1).padStart(2, '0')}
                     </p>
                     <h3 className="mt-1 font-display text-[15.5px] font-bold">{step.title}</h3>
                     <p className="mt-1.5 text-[13px] leading-relaxed text-fg-2">{step.body}</p>

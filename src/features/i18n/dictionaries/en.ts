@@ -291,6 +291,7 @@ export const en = {
     requirements: 'Customization requirements',
     requirementsPlaceholder: 'Describe your board design, colors, branding, accessories…',
     logo: 'Upload logo (optional)',
+    filePlaceholder: 'Upload',
     logoHint: 'PNG / JPG / SVG, up to 5 MB.',
     submit: 'Send Inquiry',
     submitting: 'Sending…',
@@ -310,6 +311,11 @@ export const en = {
       q5: '5 – 50 pcs (trial)', q50: '50 – 100 pcs', q100: '100 – 300 pcs', q300: '300 – 500 pcs', q500: '500+ pcs', unsure: 'Not sure yet',
     },
     statuses: { new: 'New', contacted: 'Contacted', quoted: 'Quoted', closed: 'Closed' },
+  },
+  afarer: {
+    ctaDefault: 'Contact us',
+    straightAnswer: 'Straight answer',
+    verifiedOn: 'Specifications last verified:',
   },
   marketing: {
     navFeatures: 'Features', navDocs: 'Docs', navChangelog: 'Changelog',
