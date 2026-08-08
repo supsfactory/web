@@ -32,6 +32,10 @@ const esSiteGlob = import.meta.glob('../../content/afarer/site/*.es.yaml', { que
 const esPageGlob = import.meta.glob('../../content/afarer/pages/*.es.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const productGlob = import.meta.glob('../../content/afarer/products/*.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const newsGlob = import.meta.glob('../../content/afarer/news/*.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+// Spanish sidecar variants — `news/{slug}.es.mdx` mirrors the English article
+// (translated frontmatter + body). getNewsPosts(locale) / getNewsPost(slug, locale)
+// overlay them when present; slugs keep the English (canonical) value.
+const newsEsGlob = import.meta.glob('../../content/afarer/news/*.es.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const techGlob = import.meta.glob('../../content/afarer/technology/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const caseGlob = import.meta.glob('../../content/afarer/case-use/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const geoGlob = import.meta.glob('../../content/afarer/geo/*.json', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
@@ -200,6 +204,22 @@ function parseMdxFiles<T>(glob: Record<string, string>): Record<string, T> {
   return out
 }
 
+function postFrom(slug: string, d: Record<string, unknown>, en?: AfarerPost, body = mdxBodyOf(newsGlob, slug)): AfarerPost {
+  const rec = d as Record<string, unknown>
+  return {
+    slug,
+    title: rec.title ? String(rec.title) : (en?.title ?? slug),
+    date: rec.publishDate ? String(rec.publishDate) : (en?.date ?? ''),
+    excerpt: rec.excerpt ? String(rec.excerpt) : en?.excerpt,
+    image: en?.image ?? (rec.image ? assetUrl(String(rec.image)) : undefined),
+    category: rec.category ? String(rec.category) : en?.category,
+    author: rec.author ? String(rec.author) : en?.author,
+    tags: Array.isArray(rec.tags) ? rec.tags.map(String) : (en?.tags ?? []),
+    metadata: (rec.metadata as AfarerPost['metadata']) ?? en?.metadata,
+    body,
+  }
+}
+
 const PRODUCT_DATA = parseMdxFiles<Record<string, unknown>>(productGlob)
 const NEWS_DATA = parseMdxFiles<Record<string, unknown>>(newsGlob)
 const TECH_DATA = parseMdxFiles<Record<string, unknown>>(techGlob)
@@ -225,22 +245,18 @@ const PRODUCTS: AfarerProduct[] = Object.entries(PRODUCT_DATA)
   .sort((a, b) => a.title.localeCompare(b.title))
 
 const NEWS: AfarerPost[] = Object.entries(NEWS_DATA)
-  .map(([slug, d]) => {
-    const rec = d as Record<string, unknown>
-    return {
-      slug,
-      title: String(rec.title ?? slug),
-      date: String(rec.publishDate ?? ''),
-      excerpt: rec.excerpt ? String(rec.excerpt) : undefined,
-      image: rec.image ? assetUrl(String(rec.image)) : undefined,
-      category: rec.category ? String(rec.category) : undefined,
-      author: rec.author ? String(rec.author) : undefined,
-      tags: Array.isArray(rec.tags) ? rec.tags.map(String) : [],
-      metadata: rec.metadata as AfarerPost['metadata'],
-      body: mdxBodyOf(newsGlob, slug),
-    }
-  })
+  .filter(([slug]) => !slug.endsWith('.es'))
+  .map(([slug, d]) => postFrom(slug, d as Record<string, unknown>))
   .sort((a, b) => (a.date < b.date ? 1 : -1))
+
+/** Spanish overlays keyed by the canonical (English) slug. */
+const NEWS_ES: Record<string, AfarerPost> = {}
+for (const [slug, d] of Object.entries(NEWS_DATA)) {
+  if (!slug.endsWith('.es')) continue
+  const base = slug.replace(/\.es$/, '')
+  const en = NEWS.find((p) => p.slug === base)
+  if (en) NEWS_ES[base] = postFrom(base, d as Record<string, unknown>, en, mdxBodyOf(newsEsGlob, slug))
+}
 
 const TECH: AfarerArticle[] = Object.entries(TECH_DATA).map(([slug, d]) => {
   const rec = d as Record<string, unknown>
@@ -333,12 +349,16 @@ export function getAfarerProduct(slug: string): AfarerProduct | undefined {
   return PRODUCTS.find((p) => p.slug === slug)
 }
 
-export function getNewsPosts(): AfarerPost[] {
+export function getNewsPosts(locale?: string): AfarerPost[] {
+  if (locale === 'es') return NEWS.map((p) => NEWS_ES[p.slug] ?? p)
   return NEWS
 }
 
-export function getNewsPost(slug: string): AfarerPost | undefined {
-  return NEWS.find((p) => p.slug === slug)
+export function getNewsPost(slug: string, locale?: string): AfarerPost | undefined {
+  const base = slug.endsWith('.es') ? slug.replace(/\.es$/, '') : slug
+  const p = NEWS.find((x) => x.slug === base)
+  if (!p) return undefined
+  return locale === 'es' ? (NEWS_ES[base] ?? p) : p
 }
 
 export function getTechArticles(): AfarerArticle[] {

@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Server-only afarer catch-all resolver.
  *
  * The `/$` route handler (catchall.tsx) imports this module dynamically from
@@ -38,8 +38,8 @@ import type {
 
 const slugOf = (path: string): string => path.split('/').filter(Boolean).pop() ?? ''
 
-function indexNews(): AferIndexNews[] {
-  return getNewsPosts().map((p) => ({
+function indexNews(locale?: Locale): AferIndexNews[] {
+  return getNewsPosts(locale).map((p) => ({
     slug: p.slug,
     title: p.title,
     date: p.date,
@@ -89,11 +89,11 @@ function indexNeeds(page?: AfarerPage): { news?: boolean; products?: boolean; to
   return need
 }
 
-function indexFor(page?: AfarerPage): AferIndexData {
+function indexFor(page?: AfarerPage, locale?: Locale): AferIndexData {
   const need = indexNeeds(page)
   return {
     regionCount: getRegionCount(),
-    ...(need.news ? { news: indexNews() } : {}),
+    ...(need.news ? { news: indexNews(locale) } : {}),
     ...(need.products ? { products: indexProducts() } : {}),
     ...(need.topics ? { topics: indexTopics() } : {}),
   }
@@ -115,7 +115,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       description: brandify(page.meta?.description ?? ''),
       origin: '',
       page,
-      index: indexFor(page),
+      index: indexFor(page, locale),
     }
   }
   if (path.startsWith('/products/')) {
@@ -132,12 +132,12 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         description: brandify(product.metadata?.description ?? product.description ?? product.summary ?? ''),
         image: product.image ?? OG_IMAGE,
         origin: '',
-        index: indexFor(),
+        index: indexFor(undefined, locale),
       }
     }
   }
   if (path.startsWith('/news/')) {
-    const post = getNewsPost(slugOf(path))
+    const post = getNewsPost(slugOf(path), locale)
     if (post) {
       return {
         kind: 'post',
@@ -150,7 +150,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         description: brandify(post.metadata?.description ?? post.excerpt ?? ''),
         image: post.image ?? OG_IMAGE,
         origin: '',
-        index: indexFor(),
+        index: indexFor(undefined, locale),
       }
     }
   }
@@ -168,7 +168,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         description: brandify(article.description ?? article.summary ?? ''),
         article,
         origin: '',
-        index: indexFor(),
+        index: indexFor(undefined, locale),
       }
     }
   }
@@ -186,7 +186,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         description: brandify(c.description ?? c.summary ?? ''),
         case: c,
         origin: '',
-        index: indexFor(),
+        index: indexFor(undefined, locale),
       }
     }
   }
@@ -229,7 +229,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         title: brandify(`${guide.title} — SUPsfactory`),
         description: brandify(guide.intro[0] ?? ''),
         origin: '',
-        index: indexFor(),
+        index: indexFor(undefined, locale),
       }
     }
   }
@@ -253,7 +253,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
             ? 'Preguntas frecuentes sobre la fabricación OEM/ODM de SUP hinchables afarer — materiales, certificaciones, cantidades mínimas de pedido y logística mayorista.'
             : 'Frequently asked questions about afarer inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale logistics.',
         faqs: getSiteFaqs(locale).map((f) => ({ q: brandify(f.q), a: brandify(f.a) })),
-        index: indexFor(),
+        index: indexFor(undefined, locale),
       }
     }
   }
