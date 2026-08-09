@@ -204,6 +204,7 @@ export const en = {
       ctaWarm: 'Discuss Your Project',
       ctaHot: 'Request Manufacturing Proposal',
       scenario: 'The Scenario',
+      straightAnswer: 'Straight answer — what we deliver',
       pairsKicker: 'Problems → Solutions',
       pairsTitle: 'The Challenges You Face — and How We Solve Them',
       stepsKicker: 'Process',
@@ -289,6 +290,9 @@ export const en = {
     email: 'Business email', whatsapp: 'WhatsApp (optional)',
     businessType: 'Business type', businessTypePlaceholder: 'Select your business type',
     quantity: 'Estimated quantity', quantityPlaceholder: 'Select estimated quantity',
+    productType: 'Product type', model: 'Engagement model',
+    targetMarket: 'Target market',
+    targetMarketPlaceholder: 'e.g. EU retailers, US rental fleets',
     requirements: 'Customization requirements',
     requirementsPlaceholder: 'Describe your board design, colors, branding, accessories…',
     logo: 'Upload logo (optional)',
@@ -305,8 +309,17 @@ export const en = {
     fileType: 'Unsupported file type.',
     fileSize: 'File is too large (max 5 MB).',
     businessOptions: {
-      brand: 'New SUP brand', resort: 'Resort / hotel', club: 'Club / school',
+      brand: 'New SUP brand', retailer: 'Retailer / e-commerce', distributor: 'Distributor',
+      resort: 'Resort / hotel', club: 'Club / school', rental: 'Rental fleet operator',
       corporate: 'Corporate / event', other: 'Other',
+    },
+    modelOptions: {
+      oem: 'OEM — manufacture to my spec', odm: 'ODM — develop from concept',
+      privateLabel: 'Private label — rebrand existing model', unsure: 'Not sure — advise me',
+    },
+    productOptions: {
+      inflatableSup: 'Inflatable SUP', hardSup: 'Hard paddle board',
+      accessories: 'Accessories', multiple: 'Multiple product lines', unsure: 'Not sure yet',
     },
     quantityOptions: {
       q5: '5 – 50 pcs (trial)', q50: '50 – 100 pcs', q100: '100 – 300 pcs', q300: '300 – 500 pcs', q500: '500+ pcs', unsure: 'Not sure yet',

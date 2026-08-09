@@ -141,6 +141,13 @@
       "when": 1785734615129,
       "tag": "0019_outgoing_centennial",
       "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "6",
+      "when": 1786241615355,
+      "tag": "0020_chunky_barracuda",
+      "breakpoints": true
     }
   ]
 }

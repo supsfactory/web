@@ -24,6 +24,8 @@ import { JsonLd, breadcrumbLd, faqLd, newsArticleLd } from '@/features/seo/jsonl
 import { brandify } from './brand'
 import { AferIndexProvider, type AferIndexData } from './index-data'
 import { getGuide } from './guide-content'
+import { FACTS } from '@/features/site/facts'
+import { ArrowRight } from 'lucide-react'
 import { AfarerSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
 import type { AfarerArticle, AfarerCaseUse, AfarerPage, AfarerPost, AfarerProduct } from './types'
@@ -221,6 +223,8 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
 function ProductView({ product, origin, locale }: { product: AfarerProduct; origin: string; locale: Locale }) {
   const specs = product.specs ?? []
   const gallery = product.gallery?.length ? product.gallery : product.image ? [{ url: product.image, alt: product.title }] : []
+  const fl = (p: string): string => (locale === 'en' ? p : `/es${p}`)
+  const es = locale === 'es'
   return (
     <>
       <PageHero kicker={product.category ?? (locale === 'es' ? 'Producto' : 'Product')} title={product.title} sub={brandify(product.summary ?? '')} />
@@ -271,6 +275,53 @@ function ProductView({ product, origin, locale }: { product: AfarerProduct; orig
               ])}
             />
             <JsonLd data={productLd(origin, product, locale)} />
+
+            <div className="mt-6 grid gap-3 sm:grid-cols-3">
+              <div className="marine-card p-4">
+                <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">
+                  {es ? 'Cantidad mínima' : 'Minimum order'}
+                </p>
+                <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
+                  {es
+                    ? `${FACTS.moq.standardRun} lote OEM estándar · ${FACTS.moq.trialStandard} prueba · ${FACTS.moq.customMould} molde a medida`
+                    : `${FACTS.moq.standardRun} standard OEM batch · ${FACTS.moq.trialStandard} trial · ${FACTS.moq.customMould} custom mould`}
+                </p>
+              </div>
+              <div className="marine-card p-4">
+                <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">
+                  {es ? 'Plazos' : 'Timeline'}
+                </p>
+                <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
+                  {es
+                    ? `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras PO y depósito`
+                    : `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after PO and deposit`}
+                </p>
+              </div>
+              <div className="marine-card p-4">
+                <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">
+                  {es ? 'Control de calidad' : 'Quality control'}
+                </p>
+                <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
+                  {es
+                    ? `Lista de ${FACTS.assemblyChecklist} · prueba de presión ${FACTS.pressureTest}`
+                    : `${FACTS.assemblyChecklist} checklist · ${FACTS.pressureTest} pressure test`}
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-5 flex flex-wrap items-center gap-3 rounded-2xl border border-border-2 bg-bg-alt/60 px-5 py-4">
+              <p className="flex-1 text-[13.5px] leading-snug text-fg-2">
+                {es
+                  ? '¿Listo para fabricar esta plataforma bajo tu marca?'
+                  : 'Ready to manufacture this platform under your own brand?'}
+              </p>
+              <a
+                href={fl('/contact')}
+                className="sun-grad inline-flex h-[40px] items-center gap-1.5 rounded-full px-6 text-[13.5px] font-bold transition-transform hover:-translate-y-0.5"
+              >
+                {es ? 'Inicia tu proyecto' : 'Start a Custom SUP Project'} <ArrowRight size={15} />
+              </a>
+            </div>
           </div>
         </div>
         <div className="mx-auto mt-12 max-w-3xl">

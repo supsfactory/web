@@ -103,11 +103,37 @@ export function InquiryForm({ turnstileSiteKey }: { turnstileSiteKey: string | n
           <Label htmlFor="inq-type">{t('inquiry.businessType')} <span className="req">*</span></Label>
           <Select name="businessType" defaultValue="brand" required>
             <option value="brand">{t('inquiry.businessOptions.brand')}</option>
+            <option value="retailer">{t('inquiry.businessOptions.retailer')}</option>
+            <option value="distributor">{t('inquiry.businessOptions.distributor')}</option>
             <option value="resort">{t('inquiry.businessOptions.resort')}</option>
             <option value="club">{t('inquiry.businessOptions.club')}</option>
+            <option value="rental">{t('inquiry.businessOptions.rental')}</option>
             <option value="corporate">{t('inquiry.businessOptions.corporate')}</option>
             <option value="other">{t('inquiry.businessOptions.other')}</option>
           </Select>
+        </div>
+        <div className="field">
+          <Label htmlFor="inq-model">{t('inquiry.model')} <span className="req">*</span></Label>
+          <Select name="model" defaultValue="unsure" required>
+            <option value="oem">{t('inquiry.modelOptions.oem')}</option>
+            <option value="odm">{t('inquiry.modelOptions.odm')}</option>
+            <option value="private-label">{t('inquiry.modelOptions.privateLabel')}</option>
+            <option value="unsure">{t('inquiry.modelOptions.unsure')}</option>
+          </Select>
+        </div>
+        <div className="field">
+          <Label htmlFor="inq-product">{t('inquiry.productType')} <span className="req">*</span></Label>
+          <Select name="productType" defaultValue="unsure" required>
+            <option value="inflatable-sup">{t('inquiry.productOptions.inflatableSup')}</option>
+            <option value="hard-sup">{t('inquiry.productOptions.hardSup')}</option>
+            <option value="accessories">{t('inquiry.productOptions.accessories')}</option>
+            <option value="multiple">{t('inquiry.productOptions.multiple')}</option>
+            <option value="unsure">{t('inquiry.productOptions.unsure')}</option>
+          </Select>
+        </div>
+        <div className="field">
+          <Label htmlFor="inq-market">{t('inquiry.targetMarket')}</Label>
+          <Input id="inq-market" name="targetMarket" maxLength={120} placeholder={t('inquiry.targetMarketPlaceholder')} />
         </div>
         <div className="field sm:col-span-2">
           <Label htmlFor="inq-qty">{t('inquiry.quantity')} <span className="req">*</span></Label>

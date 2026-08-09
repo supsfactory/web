@@ -41,6 +41,9 @@ export const submitInquiry = createServerFn({ method: 'POST' })
       whatsapp: data.get('whatsapp'),
       businessType: data.get('businessType'),
       quantity: data.get('quantity'),
+      productType: data.get('productType'),
+      model: data.get('model'),
+      targetMarket: data.get('targetMarket'),
       requirements: data.get('requirements'),
     })
     const locale = data.get('locale') === 'es' ? 'es' : 'en'

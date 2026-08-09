@@ -35,6 +35,28 @@ export function faqLd(faqs: FaqQa[], locale?: string): Record<string, unknown> {
   }
 }
 
+/** ContactPage schema for /contact (entity signal for the inquiry route). */
+export function contactPageLd(origin: string, path: string): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: 'Contact SUPsfactory',
+    url: `${origin}${path}`,
+    about: 'SUP OEM/ODM manufacturing inquiry — project quotation, samples and production',
+  }
+}
+
+/** AboutPage schema for /about (entity signal for the company page). */
+export function aboutPageLd(origin: string, path: string, description: string): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    name: 'About SUPsfactory',
+    url: `${origin}${path}`,
+    description,
+  }
+}
+
 export function breadcrumbLd(origin: string, crumbs: { name: string; path: string }[]): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',

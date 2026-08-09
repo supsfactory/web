@@ -23,6 +23,8 @@ export interface SolutionPageData {
   h1: string
   /** schema.org Service type (GEO entity). */
   serviceType: string
+  /** 40–70 word direct answer to the page's core buying question (AEO). */
+  answer: string
   intro: string[]
   scenario: { title: string; body: string }
   pairs: { problem: string; solution: string }[]
@@ -58,6 +60,8 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         'Develop custom SUP products with Supsfactory. We support product requirements, customization, prototypes and manufacturing for businesses and organizations.',
       kicker: 'Custom SUP Manufacturer',
       serviceType: 'Custom SUP Product Development',
+      answer:
+        'We develop custom inflatable SUPs, hard boards and accessories from your requirement — shape, graphics, materials and packaging — through engineering, sampling and production. Custom projects start at 50 pcs per design, samples ship in 15–20 days, and production runs 30–45 days after confirmed PO and deposit.',
       h1: 'Custom SUP Products Built Around Your Requirements',
       intro: [
         'You need paddle boards built to your specification — shape, graphics, materials, packaging — without running a factory yourself. We are the manufacturing partner that takes your requirement and returns a deliverable product.',
@@ -133,6 +137,8 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         'Supsfactory provides private label SUP manufacturing support for existing brands, helping develop customized SUP products from specifications to production.',
       kicker: 'Private Label Paddle Boards',
       serviceType: 'Private Label SUP Manufacturing',
+      answer:
+        'Private label puts your brand on proven, ready-to-produce SUP platforms without new tooling. Pick a base model, apply your logo, colors, packaging and accessories, and order from 50 pcs per design. It is the fastest, lowest-risk way to launch; samples take 15–20 days and production 30–45 days after PO.',
       h1: 'Private Label SUP Manufacturing Support For Your Brand',
       intro: [
         'Private label production lets you launch a paddle board line under your own brand without investing in tooling or a factory. Your logo, colors and packaging go on quality-verified platforms, with quantities that grow with demand.',
@@ -204,6 +210,8 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         'Create customized SUP equipment for resorts and hotels with branded boards, accessories and production support from Supsfactory.',
       kicker: 'Resort Paddle Boards',
       serviceType: 'Resort & Hotel SUP Equipment',
+      answer:
+        'We supply branded inflatable SUPs for resorts and hotels, built for daily guest use: high-pressure drop-stitch construction, reinforced seams and tiered MOQs from 5–10 trial units up to 200+ for fleet rollouts. Boards carry your logo and colors, and we advise on storage, maintenance and reorder schedules.',
       h1: 'Custom SUP Equipment Solutions For Resorts & Hotels',
       intro: [
         'Resort paddle board fleets need to survive daily guest use, store easily between seasons and carry your brand. We build durable, guest-friendly boards in your colors and structure the fleet program around your operation.',
@@ -275,6 +283,8 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         'Supsfactory provides customized SUP equipment solutions for clubs, teams and events including graphics, specifications and production support.',
       kicker: 'Custom SUP Team Boards',
       serviceType: 'Club & Team SUP Equipment',
+      answer:
+        'Clubs and teams get durable, consistent fleets in their colors: logo placement, custom paddle lengths and accessory bundles on one standardized board spec, so repairs and spares stay simple across reorders. MOQ starts at 50 pcs per design; trial runs from 5–10 units are available to validate the spec first.',
       h1: 'Custom SUP Equipment For Clubs And Teams',
       intro: [
         'Paddling clubs need boards that survive daily training, look like the team and stay consistent across reorders. We produce custom team boards with your club name and colors, at fleet-friendly pricing.',
@@ -346,6 +356,8 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         'Provide safe and reliable SUP equipment solutions for schools, camps and organizations with customized production support from Supsfactory.',
       kicker: 'School Paddle Board Program',
       serviceType: 'School & Program SUP Equipment',
+      answer:
+        'For schools and education programs we supply stable, beginner-friendly boards with printed safety guidance, padded paddles and protective accessories, sized to your class count and storage setup. Standard OEM batch is 50 pcs per design with trial runs from 5–10 units; delivery supports the school procurement cycle.',
       h1: 'Safe And Reliable SUP Solutions For Schools And Programs',
       intro: [
         'Schools run paddle sports differently: large classes, mixed ability, strict safety needs and education budgets. Our school program provides stable, beginner-friendly boards, package options that fit class sizes, and guidance from an instructors’ perspective.',
@@ -419,6 +431,8 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         'Desarrolla productos SUP personalizados con Supsfactory. Ofrecemos apoyo de requisitos, personalización, muestras y fabricación para empresas y organizaciones.',
       kicker: 'Fabricante de SUP personalizados',
       serviceType: 'Desarrollo de productos SUP personalizados',
+      answer:
+        'Desarrollamos SUP hinchables, tablas rígidas y accesorios personalizados a partir de tu requisito — forma, arte, materiales y embalaje — con ingeniería, muestras y producción. Los proyectos personalizados parten de 50 uds. por diseño, las muestras llegan en 15–20 días y la producción tarda 30–45 días tras el PO y el depósito.',
       h1: 'Productos SUP personalizados según tus requisitos',
       intro: [
         'Necesitas tablas producidas según tus propias especificaciones — forma, arte, materiales, embalaje — sin gestionar tu propia fábrica. Somos ese socio de fabricación: recibimos tus requisitos y entregamos el producto terminado.',
@@ -494,6 +508,8 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         'Supsfactory ofrece soporte de fabricación SUP de marca privada para marcas existentes, del desarrollo a la producción de productos SUP personalizados.',
       kicker: 'Tablas de marca privada',
       serviceType: 'Fabricación SUP de marca privada',
+      answer:
+        'La marca privada pone tu marca sobre plataformas de SUP probadas y listas para producir, sin utillaje nuevo. Elige un modelo base, aplica tu logo, colores, embalaje y accesorios, y pide desde 50 uds. por diseño. Es la vía más rápida y de menor riesgo para lanzar; las muestras tardan 15–20 días y la producción 30–45 días tras el PO.',
       h1: 'Fabricación SUP de marca privada para tu marca',
       intro: [
         'La marca privada te permite lanzar una línea de tablas con tu propia marca sin invertir en moldes ni fábrica. Tu logo, colores y embalaje se aplican sobre plataformas verificadas por calidad, y las cantidades crecen según la demanda.',
@@ -565,6 +581,8 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         'Crea equipamiento SUP personalizado para resorts y hoteles con Supsfactory: tablas con marca, accesorios y soporte de producción.',
       kicker: 'Tablas para resorts',
       serviceType: 'Equipamiento SUP para resorts y hoteles',
+      answer:
+        'Suministramos SUP hinchables con marca para resorts y hoteles, pensados para el uso diario de los huéspedes: construcción drop-stitch de alta presión, costuras reforzadas y MOQ escalonado desde 5–10 uds. de prueba hasta 200+ para despliegues de flota. Las tablas llevan tu logo y colores, y asesoramos sobre almacenamiento, mantenimiento y reorden.',
       h1: 'Equipamiento SUP personalizado para resorts y hoteles',
       intro: [
         'Las flotas de tablas de resort deben soportar el uso diario de los huéspedes, guardarse con facilidad fuera de temporada y representar tu marca. Producimos tablas duraderas, fáciles de usar y con los colores del resort, y planificamos la flota alrededor de tu operación.',
@@ -636,6 +654,8 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         'Supsfactory ofrece soluciones de equipamiento SUP personalizado para clubes, equipos y eventos, incluidos arte, especificaciones y soporte de producción.',
       kicker: 'Tablas de equipo personalizadas para clubes',
       serviceType: 'Equipamiento SUP para clubes y equipos',
+      answer:
+        'Los clubes y equipos obtienen flotas duraderas y consistentes con sus colores: logo, longitudes de pala a medida y paquetes de accesorios sobre una única especificación de tabla estandarizada, de modo que las reparaciones y recambios sigan siendo simples en los reordenes. El MOQ parte de 50 uds. por diseño; hay lotes de prueba desde 5–10 uds. para validar primero.',
       h1: 'Equipamiento SUP personalizado para clubes y equipos',
       intro: [
         'Los clubes de remo necesitan tablas que aguanten el entrenamiento diario, luzcan uniformes como un equipo y se mantengan consistentes en los reordenes. Producimos tablas de equipo personalizadas con el nombre y los colores del club, con precios favorables para flotas.',
@@ -707,6 +727,8 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         'Soluciones de equipamiento SUP seguras y fiables para escuelas, campamentos e instituciones, con soporte de producción personalizada de Supsfactory.',
       kicker: 'Programas de SUP escolares',
       serviceType: 'Equipamiento SUP para escuelas y programas',
+      answer:
+        'Para escuelas y programas educativos suministramos tablas estables y fáciles de usar para principiantes, con guía de seguridad impresa, palas acolchadas y accesorios de protección, ajustadas a tu número de alumnos y espacio de almacenamiento. El lote OEM estándar es de 50 uds. por diseño, con pruebas desde 5–10 uds.; la entrega se adapta al ciclo de compra escolar.',
       h1: 'Soluciones SUP seguras y fiables para escuelas y programas',
       intro: [
         'Las escuelas abordan el remo de otra manera: clases grandes, niveles mixtos, requisitos de seguridad estrictos y presupuestos educativos. Nuestro programa escolar ofrece tablas estables y fáciles de usar, opciones de paquete que encajan con el tamaño de las clases y orientación desde la perspectiva del instructor.',

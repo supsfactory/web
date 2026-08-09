@@ -10,6 +10,9 @@ export const inquiry = sqliteTable('inquiry', {
   whatsapp: text('whatsapp').notNull().default(''),
   businessType: text('business_type').notNull().default('other'), // InquiryBusinessType
   quantity: text('quantity').notNull().default('unsure'),         // InquiryQuantity
+  productType: text('product_type').notNull().default('unsure'),  // InquiryProductType
+  model: text('model').notNull().default('unsure'),               // InquiryModel
+  targetMarket: text('target_market').notNull().default(''),      // InquiryModel
   requirements: text('requirements').notNull().default(''),
   logoKey: text('logo_key'),                                       // R2 object key (inquiry-logos/...)
   status: text('status').notNull().default('new'),                 // InquiryStatus

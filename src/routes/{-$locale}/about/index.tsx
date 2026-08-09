@@ -7,6 +7,7 @@ import { useTranslation } from '@/features/i18n/provider'
 import { pick, about } from '@/features/site/content'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero } from '@/components/marketing/section-head'
+import { JsonLd, aboutPageLd } from '@/features/seo/jsonld'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
 
@@ -88,6 +89,16 @@ function AboutPage() {
           </ul>
         </div>
       </section>
+
+      <JsonLd
+        data={aboutPageLd(
+          'https://supsfactory.com',
+          locale === 'es' ? '/es/about' : '/about',
+          locale === 'es'
+            ? 'SUPsfactory es la división de desarrollo y fabricación de SUP de Afarer (Qingdao Vatrad Group Co., Ltd.), planta de hinchables de 12.000 m² en Qingdao, China.'
+            : 'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,000 m² inflatable manufacturing plant in Qingdao, China.',
+        )}
+      />
 
       <CtaBand />
       <Footer theme={theme} />

@@ -194,6 +194,7 @@ export const es = {
       ctaWarm: 'Comenta tu proyecto',
       ctaHot: 'Solicitar propuesta de fabricación',
       scenario: 'El escenario',
+      straightAnswer: 'Respuesta directa — qué ofrecemos',
       pairsKicker: 'Problemas → Soluciones',
       pairsTitle: 'Los retos a los que te enfrentas — y cómo los resolvemos',
       stepsKicker: 'Proceso',
@@ -280,6 +281,9 @@ export const es = {
     email: 'Correo profesional', whatsapp: 'WhatsApp (opcional)',
     businessType: 'Tipo de negocio', businessTypePlaceholder: 'Selecciona tu tipo de negocio',
     quantity: 'Cantidad estimada', quantityPlaceholder: 'Selecciona la cantidad estimada',
+    productType: 'Tipo de producto', model: 'Modelo de colaboración',
+    targetMarket: 'Mercado objetivo',
+    targetMarketPlaceholder: 'p. ej. minoristas UE, flotas de alquiler EE. UU.',
     requirements: 'Requisitos de personalización',
     requirementsPlaceholder: 'Describe el diseño de tu tabla, colores, branding, accesorios…',
     logo: 'Subir logo (opcional)',
@@ -296,8 +300,17 @@ export const es = {
     fileType: 'Tipo de archivo no compatible.',
     fileSize: 'El archivo es demasiado grande (máx. 5 MB).',
     businessOptions: {
-      brand: 'Nueva marca de SUP', resort: 'Resort / hotel', club: 'Club / escuela',
+      brand: 'Nueva marca de SUP', retailer: 'Minorista / e-commerce', distributor: 'Distribuidor',
+      resort: 'Resort / hotel', club: 'Club / escuela', rental: 'Operador de flota de alquiler',
       corporate: 'Empresa / evento', other: 'Otro',
+    },
+    modelOptions: {
+      oem: 'OEM — fabricación según mi especificación', odm: 'ODM — desarrollo desde concepto',
+      privateLabel: 'Marca privada — personalizar modelo existente', unsure: 'No lo sé — necesito asesoramiento',
+    },
+    productOptions: {
+      inflatableSup: 'SUP hinchable', hardSup: 'Tabla rígida',
+      accessories: 'Accesorios', multiple: 'Varias líneas de producto', unsure: 'Aún no lo sé',
     },
     quantityOptions: {
       q5: '5 – 50 uds. (prueba)', q50: '50 – 100 uds.', q100: '100 – 300 uds.', q300: '300 – 500 uds.', q500: 'Más de 500 uds.', unsure: 'Aún no lo sé',

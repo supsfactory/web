@@ -1,11 +1,15 @@
 /** Shared inquiry types + validation limits (pure, node-testable). */
 
-export type InquiryBusinessType = 'brand' | 'resort' | 'club' | 'corporate' | 'other'
+export type InquiryBusinessType = 'brand' | 'retailer' | 'distributor' | 'resort' | 'club' | 'rental' | 'corporate' | 'other'
 export type InquiryQuantity = 'q50' | 'q100' | 'q300' | 'q500' | 'unsure'
+export type InquiryProductType = 'inflatable-sup' | 'hard-sup' | 'accessories' | 'multiple' | 'unsure'
+export type InquiryModel = 'oem' | 'odm' | 'private-label' | 'unsure'
 export type InquiryStatus = 'new' | 'contacted' | 'quoted' | 'closed'
 
-export const BUSINESS_TYPES: InquiryBusinessType[] = ['brand', 'resort', 'club', 'corporate', 'other']
+export const BUSINESS_TYPES: InquiryBusinessType[] = ['brand', 'retailer', 'distributor', 'resort', 'club', 'rental', 'corporate', 'other']
 export const QUANTITIES: InquiryQuantity[] = ['q50', 'q100', 'q300', 'q500', 'unsure']
+export const PRODUCT_TYPES: InquiryProductType[] = ['inflatable-sup', 'hard-sup', 'accessories', 'multiple', 'unsure']
+export const MODELS: InquiryModel[] = ['oem', 'odm', 'private-label', 'unsure']
 export const STATUSES: InquiryStatus[] = ['new', 'contacted', 'quoted', 'closed']
 
 export const INQUIRY_LIMITS = {
@@ -14,6 +18,7 @@ export const INQUIRY_LIMITS = {
   countryMax: 80,
   emailMax: 200,
   whatsappMax: 60,
+  targetMarketMax: 120,
   requirementsMax: 2000,
   logoMaxBytes: 5 * 1024 * 1024,
 } as const
@@ -28,6 +33,9 @@ export type InquiryInput = {
   whatsapp: string
   businessType: string
   quantity: string
+  productType: string
+  model: string
+  targetMarket: string
   requirements: string
 }
 
@@ -43,6 +51,9 @@ export function clampInquiryInput(d: unknown): InquiryInput {
     whatsapp: s(o.whatsapp, INQUIRY_LIMITS.whatsappMax).trim(),
     businessType: BUSINESS_TYPES.includes(o.businessType as InquiryBusinessType) ? (o.businessType as InquiryBusinessType) : 'other',
     quantity: QUANTITIES.includes(o.quantity as InquiryQuantity) ? (o.quantity as InquiryQuantity) : 'unsure',
+    productType: PRODUCT_TYPES.includes(o.productType as InquiryProductType) ? (o.productType as InquiryProductType) : 'unsure',
+    model: MODELS.includes(o.model as InquiryModel) ? (o.model as InquiryModel) : 'unsure',
+    targetMarket: s(o.targetMarket, INQUIRY_LIMITS.targetMarketMax).trim(),
     requirements: s(o.requirements, INQUIRY_LIMITS.requirementsMax).trim(),
   }
 }

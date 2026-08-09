@@ -8,6 +8,7 @@ import { useTranslation } from '@/features/i18n/provider'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero } from '@/components/marketing/section-head'
 import { InquiryForm } from '@/features/inquiry/components/inquiry-form'
+import { JsonLd, contactPageLd } from '@/features/seo/jsonld'
 import { Footer } from '@/components/marketing/footer'
 
 const rootRoute = getRouteApi('__root__')
@@ -88,6 +89,8 @@ function ContactPage() {
           </div>
         </div>
       </section>
+
+      <JsonLd data={contactPageLd('https://supsfactory.com', locale === 'es' ? '/es/contact' : '/contact')} />
 
       <Footer theme={theme} />
     </div>

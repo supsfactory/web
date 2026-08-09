@@ -39,6 +39,14 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
         </a>
       </PageHero>
 
+      {/* straight answer (AEO — first 40–70 words a crawler/AI can quote) */}
+      <div className="mx-auto max-w-6xl px-5 md:px-7">
+        <p className="kicker" lang={locale}>{t('sup.solutions.straightAnswer')}</p>
+        <p className="mt-2 max-w-3xl rounded-2xl border border-primary/25 bg-soft px-6 py-5 text-[15px] font-medium leading-relaxed text-foreground">
+          {page.answer}
+        </p>
+      </div>
+
       {/* scenario */}
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
         <div className="marine-card mx-auto max-w-3xl px-6 py-7 md:px-8">
