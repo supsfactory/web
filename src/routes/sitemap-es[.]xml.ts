@@ -17,7 +17,6 @@ const handler = () => {
     .filter((p) => !(p in EDGE_REDIRECTS) && !(p in LEGACY_REDIRECTS))
     .map((p) => ({ path: p }))
   const detailEs = [
-    { path: '/research' },
     { path: '/evidence/case-studies' },
     ...getEsContentPaths().map((p) => ({ path: p })),
     ...GUIDES_ES.map((g) => ({ path: `/guides/${g.slug}` })),

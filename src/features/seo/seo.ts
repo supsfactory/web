@@ -188,8 +188,10 @@ export function localeHead(input: {
   title: string
   description: string
   ogTitle?: string
+  image?: string
 }): { meta: HeadMeta[]; links: HeadLink[] } {
   const { origin, locale, path, title, description, ogTitle } = input
+  const image = input.image ?? OG_IMAGE
   const canonical = `${origin}${localizePath(locale, path)}`
   const links: HeadLink[] = [{ rel: 'canonical', href: canonical }]
   for (const l of locales) {
@@ -208,7 +210,7 @@ export function localeHead(input: {
     { property: 'og:description', content: description },
     { property: 'og:url', content: canonical },
     { property: 'og:locale', content: OG_LOCALE[locale] },
-    { property: 'og:image', content: OG_IMAGE },
+    { property: 'og:image', content: image },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
     { property: 'og:image:type', content: 'image/webp' },
@@ -222,7 +224,7 @@ export function localeHead(input: {
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: title },
     { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: OG_IMAGE },
+    { name: 'twitter:image', content: image },
     {
       name: 'twitter:image:alt',
       content:

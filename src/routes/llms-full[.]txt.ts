@@ -6,6 +6,7 @@ import {
   llmProjectsFull,
   llmKnowledgeFull,
   llmsAfarerFull,
+  llmsAfarerSpanishFull,
 } from '@/features/site/llm'
 
 // `/llms-full.txt` — the whole marketing site as plain Markdown (company facts
@@ -17,7 +18,8 @@ const handler = () =>
       llmSolutionsFull() +
       llmProjectsFull() +
       llmKnowledgeFull() +
-      llmsAfarerFull(),
+      llmsAfarerFull() +
+      llmsAfarerSpanishFull(),
     {
       headers: { 'content-type': 'text/markdown; charset=utf-8' },
     },

@@ -7,6 +7,7 @@ import {
   llmSolutionsIndex,
   llmProjectsIndex,
   llmKnowledgeIndex,
+  llmSpanishIndex,
 } from '@/features/site/llm'
 
 // `/llms.txt` — LLM-friendly company facts card plus a full navigation index
@@ -21,7 +22,8 @@ const handler = () => {
       llmProductsIndex(origin) +
       llmSolutionsIndex(origin) +
       llmProjectsIndex(origin) +
-      llmKnowledgeIndex(origin),
+      llmKnowledgeIndex(origin) +
+      llmSpanishIndex(origin),
     { headers: { 'content-type': 'text/plain; charset=utf-8' } },
   )
 }

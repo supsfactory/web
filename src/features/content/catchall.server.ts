@@ -224,7 +224,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         locale === 'es'
           ? 'Investigación técnica en profundidad sobre materiales, construcción, estándares de seguridad y fabricación de SUP.'
           : 'In-depth technical research on SUP materials, construction, safety standards and manufacturing.',
-      index: { regionCount: getRegionCount(), topics: indexTopics() },
+      index: { regionCount: getRegionCount(), topics: indexTopics(locale) },
     }
   }
   if (path.startsWith('/guides/')) {

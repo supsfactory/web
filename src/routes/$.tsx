@@ -44,7 +44,7 @@ export const Route = createFileRoute('/$')({
     // Translated /es/* pages get a real Spanish head (canonical → /es, es_ES
     // OG locale, hreflang alternates) and are indexable.
     if (loaderData.localized && translated) {
-      return localeHead({ origin, locale, path, title, description })
+      return localeHead({ origin, locale, path, title, description, image })
     }
     const meta: Record<string, string>[] = [
       { title },

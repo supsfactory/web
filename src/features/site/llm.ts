@@ -10,8 +10,10 @@ import {
   getCaseUses,
   getResearchTopics,
   getGeoFacts,
+  getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
+import { GUIDES_ES } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -258,6 +260,97 @@ export function llmsAfarerFull(): string {
     '',
     '# Case Studies',
     ...caseBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` Spanish section — absolute /es URLs so LLMs can ingest the mirror directly. */
+export function llmSpanishIndex(origin: string): string {
+  const es = (path: string) => abs(origin, `/es${path}`)
+  const productLines = getAfarerProducts('es').map((p) => `- [${p.title}](${es(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('es').map((a) => `- [${a.title}](${es(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('es').map((c) => `- [${c.title}](${es(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_ES.map((g) => `- [${g.title}](${es(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('es')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${es(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('es')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## Español',
+    '',
+    `- [SUPsfactory — inicio](${es('/')}): Fabricante OEM de tablas de SUP hinchables y SUP inflables personalizadas, con envío mundial desde China`,
+    '',
+    '### Español: Productos',
+    ...productLines,
+    '',
+    '### Español: Tecnología',
+    ...techLines,
+    '',
+    '### Español: Casos de estudio',
+    ...caseLines,
+    '',
+    '### Español: Guías',
+    ...guideLines,
+    '',
+    '### Español: Noticias',
+    ...newsLines,
+    '',
+    '### Español: Preguntas frecuentes',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full Spanish text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsAfarerSpanishFull(): string {
+  const productBlocks = getAfarerProducts('es').map((p) =>
+    [
+      `## Producto: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      ...(p.price ? [`- Precio: ${p.price.amount} ${p.price.currency}`] : []),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('es').map((p) =>
+    [`## Noticia: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('es').map((a) =>
+    [`## Tecnología: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('es').map((c) => [`## Caso de estudio: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_ES.map((g) =>
+    [
+      `# Guía: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## FAQ',
+      ...g.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# Español',
+    ...productBlocks,
+    '',
+    '# Español: Noticias',
+    ...newsBlocks,
+    '',
+    '# Español: Tecnología',
+    ...techBlocks,
+    '',
+    '# Español: Casos de estudio',
+    ...caseBlocks,
+    '',
+    '# Español: Guías',
+    ...guideBlocks,
     '',
   ].join('\n\n')
 }
