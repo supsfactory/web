@@ -223,7 +223,7 @@ function ProductView({ product, origin, locale }: { product: AfarerProduct; orig
   const gallery = product.gallery?.length ? product.gallery : product.image ? [{ url: product.image, alt: product.title }] : []
   return (
     <>
-      <PageHero kicker={product.category ?? 'Product'} title={product.title} sub={brandify(product.summary ?? '')} />
+      <PageHero kicker={product.category ?? (locale === 'es' ? 'Producto' : 'Product')} title={product.title} sub={brandify(product.summary ?? '')} />
       <section className="mx-auto max-w-6xl px-5 py-14 md:px-7 md:py-16">
         <div className="grid gap-8 lg:grid-cols-[1.1fr_1fr]">
           <div className="grid gap-3">
@@ -284,7 +284,7 @@ function ProductView({ product, origin, locale }: { product: AfarerProduct; orig
 function PostView({ post, origin, path, locale }: { post: AfarerPost; origin: string; path: string; locale: Locale }) {
   return (
     <>
-      <PageHero kicker={post.category ?? 'News'} title={post.title} sub={post.excerpt ?? ''} />
+      <PageHero kicker={post.category ?? (locale === 'es' ? 'Noticias' : 'News')} title={post.title} sub={post.excerpt ?? ''} />
       <article className="mx-auto max-w-3xl px-5 py-14 md:px-7">
         <div className="flex flex-wrap items-center gap-3 text-[12.5px] font-semibold text-fg-3">
           <span>{post.date.slice(0, 10)}</span>
@@ -326,11 +326,11 @@ function PostView({ post, origin, path, locale }: { post: AfarerPost; origin: st
 function ArticleView({ article, origin, title, path, locale }: { article: AfarerArticle; origin: string; title: string; path: string; locale: Locale }) {
   return (
     <>
-      <PageHero kicker="Technology" title={title} sub={brandify(article.summary ?? '')} />
+      <PageHero kicker={locale === 'es' ? 'Tecnología' : 'Technology'} title={title} sub={brandify(article.summary ?? '')} />
       <article className="mx-auto max-w-3xl px-5 py-14 md:px-7">
         {article.description && <p className="text-[15px] leading-relaxed text-fg-2">{brandify(article.description)}</p>}
         {article.dateModified && (
-          <p className="mt-4 text-[12.5px] font-medium tracking-wide text-fg-3">Specifications verified: {article.dateModified}</p>
+          <p className="mt-4 text-[12.5px] font-medium tracking-wide text-fg-3">{locale === 'es' ? 'Especificaciones verificadas:' : 'Specifications verified:'} {article.dateModified}</p>
         )}
         <Markdown text={brandify(article.body)} className="mt-4" />
         <JsonLd
@@ -349,7 +349,7 @@ function ArticleView({ article, origin, title, path, locale }: { article: Afarer
 function CaseView({ c, origin, title, path, locale }: { c: AfarerCaseUse; origin: string; title: string; path: string; locale: Locale }) {
   return (
     <>
-      <PageHero kicker={c.category ?? 'Case Study'} title={title} sub={brandify(c.summary ?? '')} />
+      <PageHero kicker={c.category ?? (locale === 'es' ? 'Caso de estudio' : 'Case Study')} title={title} sub={brandify(c.summary ?? '')} />
       <article className="mx-auto max-w-3xl px-5 py-14 md:px-7">
         <div className="flex flex-wrap items-center gap-2 text-[12.5px] font-semibold text-fg-3">
           {c.environment && <span className="pill">{c.environment}</span>}
@@ -382,7 +382,7 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
   if (!guide) return null
   return (
     <>
-      <PageHero kicker="Guide" title={guide.title} />
+      <PageHero kicker={locale === 'es' ? 'Guía' : 'Guide'} title={guide.title} />
       <article className="mx-auto max-w-3xl px-5 py-14 md:px-7">
         {guide.intro.map((p, i) => (
           <p key={i} className="mt-4 text-[15px] leading-relaxed text-fg-2">{brandify(p)}</p>
@@ -398,7 +398,7 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
         ))}
         {guide.faqs.length > 0 && (
           <section className="mt-12">
-            <SectionHead kicker="FAQ" title="Quick Answers" />
+            <SectionHead kicker="FAQ" title={locale === 'es' ? 'Respuestas rápidas' : 'Quick Answers'} />
             <div className="mt-6 space-y-3">
               {guide.faqs.map((f, i) => (
                 <details key={i} className="marine-card group px-5 py-4">

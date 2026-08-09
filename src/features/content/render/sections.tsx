@@ -584,10 +584,10 @@ function IntelligenceCards({ c }: { c: Record<string, unknown> }) {
             {str(card.link) && (
               (str(card.link).startsWith('#') || str(card.link).includes('?') || str(card.link).startsWith('http'))
                 ? <a href={str(card.link)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
-                    {str(card.link_label) || 'Learn more'} <ArrowRight size={14} />
+                    {str(card.link_label) || (locale === 'es' ? 'Saber más' : 'Learn more')} <ArrowRight size={14} />
                   </a>
                 : <a href={localize(str(card.link), locale)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
-                    {str(card.link_label) || 'Learn more'} <ArrowRight size={14} />
+                    {str(card.link_label) || (locale === 'es' ? 'Saber más' : 'Learn more')} <ArrowRight size={14} />
                   </a>
             )}
           </div>
@@ -714,7 +714,7 @@ function CaseList() {
             <h3 className="mt-3 font-display text-[17px] font-bold">{c.title}</h3>
             {c.summary && <p className="mt-2 flex-1 text-[13.5px] leading-relaxed text-fg-2">{c.summary}</p>}
             <span className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
-              Read case study <ArrowRight size={14} />
+              {locale === 'es' ? 'Leer caso de éxito' : 'Read case study'} <ArrowRight size={14} />
             </span>
           </a>
         ))}
@@ -859,7 +859,15 @@ function AcademyCategories({ c }: { c: Record<string, unknown> }) {
   if (cats.length === 0) return null
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline) || 'Learning Paths'} title="Skill Paths" sub="Step-by-step guides and tutorials organized by skill level —from SUP basics to advanced rescue techniques." />
+      <SectionHead
+        kicker={str(c.tagline) || (locale === 'es' ? 'Rutas de aprendizaje' : 'Learning Paths')}
+        title={locale === 'es' ? 'Rutas de habilidad' : 'Skill Paths'}
+        sub={
+          locale === 'es'
+            ? 'Guías y tutoriales paso a paso organizados por nivel de habilidad — desde los conceptos básicos del SUP hasta técnicas avanzadas de rescate.'
+            : 'Step-by-step guides and tutorials organized by skill level —from SUP basics to advanced rescue techniques.'
+        }
+      />
       <div className="mt-10 grid gap-5 md:grid-cols-2">
         {cats.map((cat, i) => {
           const guides = arr(cat.guides) as Record<string, unknown>[]
@@ -870,7 +878,7 @@ function AcademyCategories({ c }: { c: Record<string, unknown> }) {
                   {String(str(cat.level).charAt(0)) || '?'}
                 </span>
                 <div>
-                  <h3 className="font-display text-[17px] font-bold">{brandify(str(cat.level) || '')} Guides</h3>
+                  <h3 className="font-display text-[17px] font-bold">{brandify(str(cat.level) || '')} {locale === 'es' ? 'Guías' : 'Guides'}</h3>
                 </div>
               </div>
               <div className="mt-4 space-y-2.5">
@@ -906,7 +914,15 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
   if (sections.length === 0) return null
   return (
     <Container>
-      <SectionHead kicker="Knowledge Center" title="Knowledge Center" sub="Expert knowledge and buying guides for marine professionals, fleet operators, and water sports enthusiasts." />
+      <SectionHead
+        kicker={locale === 'es' ? 'Centro de Conocimiento' : 'Knowledge Center'}
+        title={locale === 'es' ? 'Centro de Conocimiento' : 'Knowledge Center'}
+        sub={
+          locale === 'es'
+            ? 'Conocimiento experto y guías de compra para profesionales del mar, operadores de flotas y entusiastas de los deportes acuáticos.'
+            : 'Expert knowledge and buying guides for marine professionals, fleet operators, and water sports enthusiasts.'
+        }
+      />
       <div className="mt-10 space-y-10">
         {sections.map((sec, i) => {
           const guides = arr(sec.guides) as Record<string, unknown>[]
@@ -922,7 +938,7 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
                       <h4 className="font-display text-[14px] font-bold">{brandify(str(g.title))}</h4>
                       {str(g.desc) && <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
                       <span className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-primary">
-                        Read guide <ArrowRight size={13} />
+                        {locale === 'es' ? 'Leer guía' : 'Read guide'} <ArrowRight size={13} />
                       </span>
                     </div>
                   )
@@ -931,7 +947,7 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
                       <h4 className="font-display text-[14px] font-bold">{brandify(str(g.title))}</h4>
                       {str(g.desc) && <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
                       <span className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-primary">
-                        Read guide <ArrowRight size={13} />
+                        {locale === 'es' ? 'Leer guía' : 'Read guide'} <ArrowRight size={13} />
                       </span>
                     </a>
                   ) : (
@@ -1001,7 +1017,6 @@ function portedFeatureCards(c: R): CardItem[] {
           .filter(Boolean)
           .join(' · '),
         href,
-        link_label: href ? 'Learn more' : undefined,
         icon: str(it.icon),
       }
     })
