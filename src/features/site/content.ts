@@ -41,12 +41,12 @@ export interface HeroContent {
 export const hero: Localized<HeroContent> = {
   en: {
     kicker: 'B2B Manufacturing — OEM / ODM / Private Label',
-    titlePre: 'Inflatable SUP Manufacturer',
-    titleAccent: '& OEM Factory',
-    titlePost: '',
-    sub: FACTS.tagline,
-    ctaPrimary: 'Request a Manufacturing Quote',
-    ctaSecondary: 'Explore the Factory',
+    titlePre: 'Custom SUP Manufacturer',
+    titleAccent: 'for OEM & ODM Brands',
+    titlePost: 'From Sample Development to Scalable Production',
+    sub: 'We help watersports brands, retailers, clubs and corporate buyers develop custom inflatable SUPs, hard paddle boards and accessories — from concept, artwork and prototyping to QC-controlled mass production.',
+    ctaPrimary: 'Start a Custom SUP Project',
+    ctaSecondary: 'View Products & MOQ',
     chips: [
       'Engineering review within 1 business day',
       'Quotation within one business day',
@@ -62,12 +62,12 @@ export const hero: Localized<HeroContent> = {
   },
   es: {
     kicker: 'Fabricación B2B — OEM / ODM / Marca privada',
-    titlePre: 'Fabricante de SUP hinchables',
-    titleAccent: 'y fábrica OEM',
-    titlePost: '',
-    sub: FACTS.taglineEs,
-    ctaPrimary: 'Solicita un presupuesto de fabricación',
-    ctaSecondary: 'Explorar la fábrica',
+    titlePre: 'Fabricante de SUP personalizados',
+    titleAccent: 'para marcas OEM y ODM',
+    titlePost: 'Del desarrollo de muestras a la producción a escala',
+    sub: 'Ayudamos a marcas de deportes acuáticos, minoristas, clubes y compradores corporativos a desarrollar tablas de SUP hinchables personalizadas, tablas rígidas y accesorios — desde el concepto y el arte hasta el prototipado y la producción masiva con control de calidad.',
+    ctaPrimary: 'Inicia tu proyecto de SUP personalizado',
+    ctaSecondary: 'Ver productos y MOQ',
     chips: [
       'Revisión de ingeniería en 1 día laborable',
       'Presupuesto en un día laborable',
