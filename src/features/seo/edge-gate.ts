@@ -134,7 +134,15 @@ export function gatePath(pathname: string): EdgeGate {
   if (redirect) return { action: 'redirect', to: redirect }
   const legacy = LEGACY_REDIRECTS[path]
   if (legacy) return { action: 'redirect', to: legacy }
-  if (path === '/docs' || path.startsWith('/docs/') || GONE_PATHS.includes(path)) return { action: 'gone' }
+  const gone =
+    path === '/docs' ||
+    path.startsWith('/docs/') ||
+    path === '/es/docs' ||
+    path.startsWith('/es/docs/') ||
+    path === '/zh/docs' ||
+    path.startsWith('/zh/docs/') ||
+    GONE_PATHS.includes(path)
+  if (gone) return { action: 'gone' }
   // Legacy Chinese URLs — the zh locale is gone, so /zh/* 301s to its /es mirror.
   if (path === '/zh' || path.startsWith('/zh/')) {
     return { action: 'redirect', to: path === '/zh' ? '/es' : `/es${path.slice(3)}` }

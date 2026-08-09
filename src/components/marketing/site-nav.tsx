@@ -184,7 +184,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
           <button
             type="button"
             className="inline-flex h-[38px] w-[38px] items-center justify-center rounded-lg text-fg-2 hover:bg-bg-alt hover:text-foreground lg:hidden"
-            aria-label="Menu"
+            aria-label={t('common.menu')}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
           >

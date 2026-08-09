@@ -115,6 +115,12 @@ test('search index: es detail content indexed under /es urls with Spanish copy',
   expect(es.filter((e) => e.locale === 'es').length).toBeGreaterThan(10)
 })
 
+test('search index: es index never links bare en urls', () => {
+  const es = buildExtendedIndex('es')
+  expect(es.every((e) => !e.url.startsWith('/es') || e.locale === 'es')).toBe(true)
+  expect(es.some((e) => e.locale === 'en')).toBe(false)
+})
+
 test('search index: en and es twins both present in the full index', () => {
   const urls = new Set(buildFullIndex().map((e) => e.url))
   expect(urls.has('/products/sup-cheetah-surge')).toBe(true)

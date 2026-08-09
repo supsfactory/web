@@ -192,6 +192,9 @@ test('retired zh locale: every /zh/* URL 301s to its /es mirror', () => {
 test('410 for removed template pages (P0-2)', () => {
   expect(gatePath('/docs')).toEqual({ action: 'gone' })
   expect(gatePath('/docs/features/auth')).toEqual({ action: 'gone' })
+  expect(gatePath('/es/docs')).toEqual({ action: 'gone' })
+  expect(gatePath('/es/docs/features/auth')).toEqual({ action: 'gone' })
+  expect(gatePath('/zh/docs')).toEqual({ action: 'gone' })
   expect(gatePath('/waitlist')).toEqual({ action: 'gone' })
   expect(gatePath('/es/waitlist')).toEqual({ action: 'gone' })
   expect(gatePath('/zh/waitlist')).toEqual({ action: 'gone' })

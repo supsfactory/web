@@ -22,10 +22,11 @@ export function JsonLd({ data }: { data: Record<string, unknown> }) {
   return <script type="application/ld+json" nonce={nonce} dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
 }
 
-export function faqLd(faqs: FaqQa[]): Record<string, unknown> {
+export function faqLd(faqs: FaqQa[], locale?: string): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    inLanguage: locale ?? 'en',
     mainEntity: faqs.map((f) => ({
       '@type': 'Question',
       name: f.q,

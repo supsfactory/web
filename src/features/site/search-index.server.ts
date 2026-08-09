@@ -91,13 +91,15 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
   for (const p of getAfarerPages()) {
     if (p.path in EDGE_REDIRECTS) continue
     const seo = p.content.seo as { title?: string; description?: string } | undefined
-    entries.push({
-      url: p.path,
-      title: (seo?.title ?? '').replace(/[|–—-].*$/, '').trim() || humanize(p.label),
-      excerpt: seo?.description ?? '',
-      type: 'page',
-      locale: 'en',
-    })
+    if (locale === 'en') {
+      entries.push({
+        url: p.path,
+        title: (seo?.title ?? '').replace(/[|–—-].*$/, '').trim() || humanize(p.label),
+        excerpt: seo?.description ?? '',
+        type: 'page',
+        locale: 'en',
+      })
+    }
     if (locale === 'es' && isAfarerPageTranslated(p.path, 'es')) {
       const es = getAfarerPage(p.path, 'es')!
       const esMeta = es.content.meta as { title?: string; description?: string } | undefined
@@ -112,14 +114,15 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
       })
     }
   }
-  entries.push({
-    url: '/faq',
-    title: 'FAQ',
-    excerpt: 'Frequently asked questions about inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale logistics.',
-    type: 'page',
-    locale: 'en',
-  })
-  if (locale === 'es' && isAfarerPageTranslated('/faq', 'es') && getSiteFaqs('es').length > 0) {
+  if (locale === 'en') {
+    entries.push({
+      url: '/faq',
+      title: 'FAQ',
+      excerpt: 'Frequently asked questions about inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale logistics.',
+      type: 'page',
+      locale: 'en',
+    })
+  } else if (isAfarerPageTranslated('/faq', 'es') && getSiteFaqs('es').length > 0) {
     entries.push({
       url: '/es/faq',
       title: 'Preguntas frecuentes',

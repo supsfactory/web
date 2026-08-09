@@ -124,7 +124,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
           ))}
         </div>
       </section>
-      <JsonLd data={faqLd(page.faqs)} />
+      <JsonLd data={faqLd(page.faqs, locale)} />
       <JsonLd
         data={serviceLd({
           serviceType: page.serviceType,

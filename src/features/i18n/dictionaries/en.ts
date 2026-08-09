@@ -6,6 +6,7 @@ export const en = {
     searchResultsTitle: 'Search', searchResultsFor: 'Results for "{query}"', searchResultsEmpty: 'No results found. Try a different keyword.',
     typeSolution: 'Solution', typeGuide: 'Guide', typeProject: 'Project', typePage: 'Page',
     signIn: 'Sign in',
+    menu: 'Menu',
   },
   home: {
     title: 'Ship your SaaS on the edge',

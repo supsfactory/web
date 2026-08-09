@@ -71,7 +71,7 @@ function Home() {
       <WhyUs />
       <GallerySection />
       <FaqSection />
-      <JsonLd data={faqLd(pick(faq, locale).items)} />
+      <JsonLd data={faqLd(pick(faq, locale).items, locale)} />
       <CtaBand />
       <Footer theme={theme} />
     </div>

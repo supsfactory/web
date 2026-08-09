@@ -6,6 +6,7 @@ export const es = {
     searchResultsTitle: 'Buscar', searchResultsFor: 'Resultados para "{query}"', searchResultsEmpty: 'No se han encontrado resultados. Prueba con otra palabra clave.',
     typeSolution: 'Solución', typeGuide: 'Guía', typeProject: 'Proyecto', typePage: 'Página',
     signIn: 'Iniciar sesión',
+    menu: 'Menú',
   },
   home: {
     title: 'Despliega tu SaaS en el edge',

@@ -78,7 +78,9 @@ export const Route = createFileRoute('/$')({
     const hasEsTwin = !loaderData.localized && loaderData.esTranslated
     const links: Record<string, string>[] = [{ rel: 'canonical', href: canonical }]
     if (hasEsTwin) {
+      links.push({ rel: 'alternate', hreflang: 'en-US', href: canonical })
       links.push({ rel: 'alternate', hreflang: 'es-ES', href: `${origin}${localizePath('es', loaderData.path)}` })
+      links.push({ rel: 'alternate', hreflang: 'x-default', href: canonical })
     }
     return { meta, links }
   },

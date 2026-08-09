@@ -9,6 +9,10 @@ import type { CatchAllData } from './catchall'
  * group terminates on a bare segment before the splat is ever considered, so a
  * dedicated static route (which outranks the optional group) is required.
  * Each generated route file is a 5-line wrapper around this factory.
+ *
+ * The factory serves the EN page only (locale hardcoded below); the `/es/*`
+ * twins of these paths are served by the `/$` catch-all, which is fully
+ * locale-aware.
  */
 export function afarerSingleRoute(path: string) {
   return {

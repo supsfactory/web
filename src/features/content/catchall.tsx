@@ -137,7 +137,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
             <AfarerSections page={page} />
             <JsonLd
               data={breadcrumbLd(data.origin, [
-                { name: 'Home', path: '/' },
+                { name: data.locale === 'es' ? 'Inicio' : 'Home', path: '/' },
                 { name: data.title, path: data.path },
               ])}
             />
@@ -154,7 +154,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
                 }}
               />
             )}
-            {faqs.length > 0 && <JsonLd data={faqLd(faqs)} />}
+            {faqs.length > 0 && <JsonLd data={faqLd(faqs, data.locale)} />}
           </>
         )
       }
@@ -179,7 +179,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
       case 'guide':
         return <GuideView slug={data.slug} origin={data.origin} path={data.path} locale={data.locale} />
       case 'faq':
-        return <FaqView faqs={data.faqs} origin={data.origin} path={data.path} translated={data.translated} />
+        return <FaqView faqs={data.faqs} origin={data.origin} path={data.path} translated={data.translated} locale={data.locale} />
       case 'cases-index':
         return (
           <>
@@ -420,13 +420,13 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
           ])}
         />
         <JsonLd data={articleLd(`${origin}/guides/${guide.slug}`, guide.title, guide.intro[0] ?? '', locale)} />
-        {guide.faqs.length > 0 && <JsonLd data={faqLd(guide.faqs)} />}
+        {guide.faqs.length > 0 && <JsonLd data={faqLd(guide.faqs, locale)} />}
       </article>
     </>
   )
 }
 
-function FaqView({ faqs, origin, path, translated }: { faqs: { q: string; a: string }[]; origin: string; path: string; translated: boolean }) {
+function FaqView({ faqs, origin, path, translated, locale }: { faqs: { q: string; a: string }[]; origin: string; path: string; translated: boolean; locale: Locale }) {
   return (
     <>
       <PageHero
@@ -449,8 +449,8 @@ function FaqView({ faqs, origin, path, translated }: { faqs: { q: string; a: str
           ))}
         </div>
       </section>
-      <JsonLd data={breadcrumbLd(origin, [{ name: 'Home', path: '/' }, { name: 'FAQ', path }])} />
-      <JsonLd data={faqLd(faqs)} />
+      <JsonLd data={breadcrumbLd(origin, [{ name: locale === 'es' ? 'Inicio' : 'Home', path: '/' }, { name: 'FAQ', path }])} />
+      <JsonLd data={faqLd(faqs, locale)} />
     </>
   )
 }
