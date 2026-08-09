@@ -11,7 +11,17 @@ import { pick } from './content'
 import { solutionPages, solutionPath } from './solution-pages'
 import { knowledge } from './knowledge'
 import { projects } from './projects'
-import { getAfarerPage, getAfarerPages, isAfarerPageTranslated, getSiteFaqs } from '@/features/content/loader'
+import {
+  getAfarerPage,
+  getAfarerPages,
+  isAfarerPageTranslated,
+  getSiteFaqs,
+  getAfarerProducts,
+  getNewsPosts,
+  getTechArticles,
+  getCaseUses,
+} from '@/features/content/loader'
+import { GUIDES, GUIDES_ES } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import type { SearchEntry } from './search'
 
@@ -53,9 +63,31 @@ export function buildContentIndex(locale: Locale): SearchEntry[] {
   return entries
 }
 
+/** Afarer detail content (products/news/technology/case-use/guides) for one locale. */
+function contentEntries(locale: Locale): SearchEntry[] {
+  const out: SearchEntry[] = []
+  const url = (p: string) => localizePath(locale, p)
+  for (const p of getAfarerProducts(locale)) {
+    out.push({ url: url(`/products/${p.slug}`), title: squeeze(p.title), excerpt: squeeze(p.summary ?? ''), type: 'page', locale })
+  }
+  for (const n of getNewsPosts(locale)) {
+    out.push({ url: url(`/news/${n.slug}`), title: squeeze(n.title), excerpt: squeeze(n.excerpt ?? ''), type: 'page', locale })
+  }
+  for (const t of getTechArticles(locale)) {
+    out.push({ url: url(`/technology/${t.slug}`), title: squeeze(t.title), excerpt: squeeze(t.summary ?? ''), type: 'page', locale })
+  }
+  for (const c of getCaseUses(locale)) {
+    out.push({ url: url(`/evidence/case-studies/${c.slug}`), title: squeeze(c.title), excerpt: squeeze(c.summary ?? ''), type: 'page', locale })
+  }
+  for (const g of (locale === 'es' ? GUIDES_ES : GUIDES)) {
+    out.push({ url: url(`/guides/${g.slug}`), title: squeeze(g.title), excerpt: squeeze(g.intro[0] ?? ''), type: 'page', locale })
+  }
+  return out
+}
+
 /** Afarer + site-FAQ entries for one locale (the `/search` server filter). */
 export function buildExtendedIndex(locale: Locale): SearchEntry[] {
-  const entries: SearchEntry[] = [...buildContentIndex(locale)]
+  const entries: SearchEntry[] = [...buildContentIndex(locale), ...contentEntries(locale)]
   for (const p of getAfarerPages()) {
     if (p.path in EDGE_REDIRECTS) continue
     const seo = p.content.seo as { title?: string; description?: string } | undefined

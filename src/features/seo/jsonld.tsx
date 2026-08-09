@@ -201,6 +201,7 @@ export function newsArticleLd(input: {
   datePublished: string
   dateModified?: string
   author?: string
+  inLanguage?: string
 }): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
@@ -216,7 +217,7 @@ export function newsArticleLd(input: {
     ...(input.author ? { author: { '@type': 'Person', name: input.author } } : {}),
     publisher: { '@type': 'Organization', name: 'Afarer' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': input.url },
-    inLanguage: 'en',
+    inLanguage: input.inLanguage ?? 'en',
   }
 }
 

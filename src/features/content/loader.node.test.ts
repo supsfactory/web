@@ -13,6 +13,7 @@ import {
   getEsContentPaths,
 } from '@/features/content/loader'
 import { getGuide } from '@/features/content/guide-content'
+import { buildExtendedIndex, buildFullIndex } from '@/features/site/search-index.server'
 
 test('products: es overlay swaps title and keeps canonical slug', () => {
   const en = getAfarerProduct('sup-cheetah-surge')
@@ -103,4 +104,21 @@ test('getEsContentPaths lists every es sidecar detail path', () => {
   expect(paths).toContain('/technology/drop-stitch-core')
   expect(paths).toContain('/evidence/case-studies/coastal-touring')
   expect(paths.every((p) => /^\/[a-z-]+\//.test(p))).toBe(true)
+})
+
+test('search index: es detail content indexed under /es urls with Spanish copy', () => {
+  const es = buildExtendedIndex('es')
+  expect(es.some((e) => e.url === '/es/products/sup-cheetah-surge' && e.title.length > 0)).toBe(true)
+  expect(es.some((e) => e.url === '/es/guides/how-to-choose-your-sup')).toBe(true)
+  expect(es.some((e) => e.url === '/es/news/drop-stitch-2-0')).toBe(true)
+  expect(es.some((e) => e.url === '/es/evidence/case-studies/coastal-touring')).toBe(true)
+  expect(es.filter((e) => e.locale === 'es').length).toBeGreaterThan(10)
+})
+
+test('search index: en and es twins both present in the full index', () => {
+  const urls = new Set(buildFullIndex().map((e) => e.url))
+  expect(urls.has('/products/sup-cheetah-surge')).toBe(true)
+  expect(urls.has('/es/products/sup-cheetah-surge')).toBe(true)
+  expect(urls.has('/faq')).toBe(true)
+  expect(urls.has('/es/faq')).toBe(true)
 })

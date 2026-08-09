@@ -66,14 +66,15 @@ export const afarerServerLoader = createServerFn({ method: 'GET' })
 
 /* ─────────────────────────── JSON-LD helpers ─────────────────────────── */
 
-function articleLd(origin: string, title: string, description: string, dateModified?: string): Record<string, unknown> {
+function articleLd(url: string, title: string, description: string, locale: Locale, dateModified?: string): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
     '@type': 'TechArticle',
     headline: title,
     description,
-    url: `${origin}/technology/${title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+    url,
     dateModified,
+    ...(locale === 'es' ? { inLanguage: 'es' } : {}),
     publisher: { '@type': 'Organization', name: 'Afarer' },
   }
 }
@@ -93,7 +94,7 @@ function researchArticleLd(origin: string, path: string, title: string, descript
   }
 }
 
-function productLd(origin: string, product: AfarerProduct): Record<string, unknown> {
+function productLd(origin: string, product: AfarerProduct, locale: Locale): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -103,6 +104,7 @@ function productLd(origin: string, product: AfarerProduct): Record<string, unkno
     image: product.image ? [product.image] : undefined,
     brand: { '@type': 'Brand', name: 'Afarer' },
     manufacturer: { '@type': 'Organization', name: 'Qingdao Vatrad Group Co., Ltd.' },
+    ...(locale === 'es' ? { inLanguage: 'es' } : {}),
     additionalProperty: (product.specs ?? []).map((s) => ({
       '@type': 'PropertyValue',
       name: s.label,
@@ -159,21 +161,21 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
       case 'product':
         return (
           <>
-            <ProductView product={data.product} origin={data.origin} />
+            <ProductView product={data.product} origin={data.origin} locale={data.locale} />
             <CtaBand />
           </>
         )
       case 'post':
         return (
           <>
-            <PostView post={data.post} origin={data.origin} path={data.path} />
+            <PostView post={data.post} origin={data.origin} path={data.path} locale={data.locale} />
             <CtaBand />
           </>
         )
       case 'article':
-        return <ArticleView article={data.article} origin={data.origin} title={data.title} path={data.path} />
+        return <ArticleView article={data.article} origin={data.origin} title={data.title} path={data.path} locale={data.locale} />
       case 'case':
-        return <CaseView c={data.case} origin={data.origin} title={data.title} path={data.path} />
+        return <CaseView c={data.case} origin={data.origin} title={data.title} path={data.path} locale={data.locale} />
       case 'guide':
         return <GuideView slug={data.slug} origin={data.origin} path={data.path} locale={data.locale} />
       case 'faq':
@@ -216,7 +218,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
   )
 }
 
-function ProductView({ product, origin }: { product: AfarerProduct; origin: string }) {
+function ProductView({ product, origin, locale }: { product: AfarerProduct; origin: string; locale: Locale }) {
   const specs = product.specs ?? []
   const gallery = product.gallery?.length ? product.gallery : product.image ? [{ url: product.image, alt: product.title }] : []
   return (
@@ -263,12 +265,12 @@ function ProductView({ product, origin }: { product: AfarerProduct; origin: stri
             )}
             <JsonLd
               data={breadcrumbLd(origin, [
-                { name: 'Home', path: '/' },
-                { name: 'Products', path: '/products' },
+                { name: locale === 'es' ? 'Inicio' : 'Home', path: '/' },
+                { name: locale === 'es' ? 'Productos' : 'Products', path: '/products' },
                 { name: product.title, path: `/products/${product.slug}` },
               ])}
             />
-            <JsonLd data={productLd(origin, product)} />
+            <JsonLd data={productLd(origin, product, locale)} />
           </div>
         </div>
         <div className="mx-auto mt-12 max-w-3xl">
@@ -279,7 +281,7 @@ function ProductView({ product, origin }: { product: AfarerProduct; origin: stri
   )
 }
 
-function PostView({ post, origin, path }: { post: AfarerPost; origin: string; path: string }) {
+function PostView({ post, origin, path, locale }: { post: AfarerPost; origin: string; path: string; locale: Locale }) {
   return (
     <>
       <PageHero kicker={post.category ?? 'News'} title={post.title} sub={post.excerpt ?? ''} />
@@ -299,8 +301,8 @@ function PostView({ post, origin, path }: { post: AfarerPost; origin: string; pa
         <Markdown text={brandify(post.body)} className="mt-4" />
         <JsonLd
           data={breadcrumbLd(origin, [
-            { name: 'Home', path: '/' },
-            { name: 'News', path: '/news' },
+            { name: locale === 'es' ? 'Inicio' : 'Home', path: '/' },
+            { name: locale === 'es' ? 'Noticias' : 'News', path: '/news' },
             { name: post.title, path },
           ])}
         />
@@ -313,6 +315,7 @@ function PostView({ post, origin, path }: { post: AfarerPost; origin: string; pa
             url: `${origin}${path}`,
             datePublished: post.date,
             author: post.author,
+            inLanguage: locale === 'es' ? 'es' : 'en',
           })}
         />
       </article>
@@ -320,7 +323,7 @@ function PostView({ post, origin, path }: { post: AfarerPost; origin: string; pa
   )
 }
 
-function ArticleView({ article, origin, title, path }: { article: AfarerArticle; origin: string; title: string; path: string }) {
+function ArticleView({ article, origin, title, path, locale }: { article: AfarerArticle; origin: string; title: string; path: string; locale: Locale }) {
   return (
     <>
       <PageHero kicker="Technology" title={title} sub={brandify(article.summary ?? '')} />
@@ -332,18 +335,18 @@ function ArticleView({ article, origin, title, path }: { article: AfarerArticle;
         <Markdown text={brandify(article.body)} className="mt-4" />
         <JsonLd
           data={breadcrumbLd(origin, [
-            { name: 'Home', path: '/' },
-            { name: 'Technology', path: '/technology' },
+            { name: locale === 'es' ? 'Inicio' : 'Home', path: '/' },
+            { name: locale === 'es' ? 'Tecnología' : 'Technology', path: '/technology' },
             { name: title, path },
           ])}
         />
-        <JsonLd data={articleLd(origin, title, article.description ?? article.summary ?? '', article.dateModified)} />
+        <JsonLd data={articleLd(`${origin}/technology/${article.slug}`, title, article.description ?? article.summary ?? '', locale, article.dateModified)} />
       </article>
     </>
   )
 }
 
-function CaseView({ c, origin, title, path }: { c: AfarerCaseUse; origin: string; title: string; path: string }) {
+function CaseView({ c, origin, title, path, locale }: { c: AfarerCaseUse; origin: string; title: string; path: string; locale: Locale }) {
   return (
     <>
       <PageHero kicker={c.category ?? 'Case Study'} title={title} sub={brandify(c.summary ?? '')} />
@@ -363,18 +366,18 @@ function CaseView({ c, origin, title, path }: { c: AfarerCaseUse; origin: string
         <Markdown text={brandify(c.body)} className="mt-4" />
         <JsonLd
           data={breadcrumbLd(origin, [
-            { name: 'Home', path: '/' },
-            { name: 'Case Studies', path: '/evidence/case-studies' },
+            { name: locale === 'es' ? 'Inicio' : 'Home', path: '/' },
+            { name: locale === 'es' ? 'Casos de estudio' : 'Case Studies', path: '/evidence/case-studies' },
             { name: title, path },
           ])}
         />
-        <JsonLd data={articleLd(origin, title, c.summary ?? '')} />
+        <JsonLd data={articleLd(`${origin}${path}`, title, c.summary ?? '', locale)} />
       </article>
     </>
   )
 }
 
-function GuideView({ slug, origin, path, locale }: { slug: string; origin: string; path: string; locale?: string }) {
+function GuideView({ slug, origin, path, locale }: { slug: string; origin: string; path: string; locale: Locale }) {
   const guide = getGuide(`/guides/${slug}`, locale)
   if (!guide) return null
   return (
@@ -411,12 +414,12 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
         )}
         <JsonLd
           data={breadcrumbLd(origin, [
-            { name: 'Home', path: '/' },
-            { name: 'Guides', path: '/knowledge' },
+            { name: locale === 'es' ? 'Inicio' : 'Home', path: '/' },
+            { name: locale === 'es' ? 'Guías' : 'Guides', path: '/knowledge' },
             { name: guide.title, path },
           ])}
         />
-        <JsonLd data={articleLd(origin, guide.title, guide.intro[0] ?? '')} />
+        <JsonLd data={articleLd(`${origin}/guides/${guide.slug}`, guide.title, guide.intro[0] ?? '', locale)} />
         {guide.faqs.length > 0 && <JsonLd data={faqLd(guide.faqs)} />}
       </article>
     </>

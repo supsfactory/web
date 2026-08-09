@@ -212,12 +212,24 @@ export function localeHead(input: {
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
     { property: 'og:image:type', content: 'image/webp' },
-    { property: 'og:image:alt', content: 'SUPsfactory — Inflatable SUP OEM factory floor' },
+    {
+      property: 'og:image:alt',
+      content:
+        locale === 'es'
+          ? 'SUPsfactory — Fabricante OEM de tablas de SUP hinchables'
+          : 'SUPsfactory — Inflatable SUP OEM factory floor',
+    },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: title },
     { name: 'twitter:description', content: description },
     { name: 'twitter:image', content: OG_IMAGE },
-    { name: 'twitter:image:alt', content: 'SUPsfactory — Inflatable SUP OEM factory floor' },
+    {
+      name: 'twitter:image:alt',
+      content:
+        locale === 'es'
+          ? 'SUPsfactory — Fabricante OEM de tablas de SUP hinchables'
+          : 'SUPsfactory — Inflatable SUP OEM factory floor',
+    },
   ]
   return { meta, links }
 }
