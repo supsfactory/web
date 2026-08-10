@@ -176,6 +176,7 @@ const EXTRA_PATHS: Record<string, string> = {
   // ported afarer solution / OEM pages (path → yaml slug)
   '/oem-odm': 'oem-odm-manufacturer',
   '/oem-odm-manufacturer': 'oem-odm-manufacturer',
+  '/product-development': 'product-development',
   '/oem-paddle': 'oem-paddle',
   '/solutions/rental-operators': 'solutions-rental-operators',
   '/solutions/retail-partners': 'solutions-retail-partners',

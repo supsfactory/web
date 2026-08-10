@@ -2,6 +2,7 @@ import { test, expect } from 'vitest'
 import {
   getAfarerProducts,
   getAfarerProduct,
+  getAfarerPage,
   getNewsPosts,
   getNewsPost,
   getTechArticles,
@@ -11,6 +12,8 @@ import {
   getResearchTopics,
   hasSpanishVariant,
   getEsContentPaths,
+  getAfarerPublicPaths,
+  getAfarerEsPaths,
 } from '@/features/content/loader'
 import { getGuide } from '@/features/content/guide-content'
 import { buildExtendedIndex, buildFullIndex } from '@/features/site/search-index.server'
@@ -94,6 +97,21 @@ test('hasSpanishVariant covers registry, faq and sidecar content', () => {
   expect(hasSpanishVariant('/technology/military-grade-pvc')).toBe(true)
   expect(hasSpanishVariant('/evidence/case-studies/beginner-sup-training')).toBe(true)
   expect(hasSpanishVariant('/products/does-not-exist')).toBe(false)
+})
+
+test('product-development page: registered EN+ES with structured sections', () => {
+  const en = getAfarerPage('/product-development')
+  expect(en).toBeDefined()
+  expect(en!.meta?.title).toContain('SUP Product Development')
+  const types = en!.sections.map((s) => s.type)
+  expect(types).toContain('hero')
+  expect(types).toContain('faqs')
+  expect(types).toContain('cta')
+  const esPage = getAfarerPage('/product-development', 'es')
+  expect(esPage?.meta?.title).not.toBe(en?.meta?.title)
+  expect(hasSpanishVariant('/product-development')).toBe(true)
+  expect(getAfarerPublicPaths()).toContain('/product-development')
+  expect(getAfarerEsPaths()).toContain('/product-development')
 })
 
 test('getEsContentPaths lists every es sidecar detail path', () => {
