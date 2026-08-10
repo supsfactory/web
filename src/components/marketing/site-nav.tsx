@@ -30,7 +30,13 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
   const l = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   const navItems: NavItem[] = [
-    { label: t('sup.nav.oemOdm'), href: '/oem-odm-manufacturer' },
+    {
+      label: t('sup.nav.oemOdm'),
+      items: [
+        { label: t('sup.nav.oemDropdown.productDevelopment'), href: '/product-development' },
+        { label: t('sup.nav.oemDropdown.manufacturer'), href: '/oem-odm-manufacturer' },
+      ],
+    },
     {
       label: t('sup.nav.solutions'),
       items: [
