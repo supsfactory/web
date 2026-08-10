@@ -68,6 +68,8 @@ export interface AfarerProduct {
   tags?: string[]
   specs?: AfarerSpec[]
   price?: AfarerPrice
+  /** Product-specific FAQ entries (rendered with a shared fallback pool). */
+  faqs?: { q: string; a: string }[]
   inStock?: boolean
   featured?: boolean
   metadata?: AfarerProductMeta

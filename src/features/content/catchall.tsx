@@ -327,9 +327,98 @@ function ProductView({ product, origin, locale }: { product: AfarerProduct; orig
         <div className="mx-auto mt-12 max-w-3xl">
           <Markdown text={brandify(product.body)} />
         </div>
+        {productFaqs(product, es).length > 0 && (
+          <div className="mx-auto mt-12 max-w-3xl">
+            <h2 className="font-display text-2xl font-extrabold tracking-tight">
+              {es ? 'Preguntas frecuentes' : 'Frequently Asked Questions'}
+            </h2>
+            <div className="mt-6 flex flex-col gap-3">
+              {productFaqs(product, es).map((f, i) => (
+                <details key={i} className="marine-card group px-5 py-4" open={i === 0}>
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
+                    <span>{f.q}</span>
+                    <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
+                  </summary>
+                  <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{f.a}</p>
+                </details>
+              ))}
+            </div>
+            <JsonLd data={faqLd(productFaqs(product, es), locale)} />
+          </div>
+        )}
+
+        {/* related services — product pages must link into the OEM/ODM funnel */}
+        <div className="mx-auto mt-12 max-w-3xl">
+          <h2 className="font-display text-2xl font-extrabold tracking-tight">
+            {es ? 'Producción bajo tu marca' : 'Produce This Board Under Your Brand'}
+          </h2>
+          <div className="mt-6 grid gap-3 sm:grid-cols-3">
+            <a href={fl('/oem-odm-manufacturer')} className="marine-card p-5 transition-colors hover:border-primary/40">
+              <p className="text-[14px] font-bold">{es ? 'OEM / ODM' : 'OEM / ODM Manufacturing'}</p>
+              <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
+                {es ? 'Fabricación según tu especificación y muestras' : 'Manufacture to your spec, from sample to batch'}
+              </p>
+            </a>
+            <a href={fl('/custom-sup-development')} className="marine-card p-5 transition-colors hover:border-primary/40">
+              <p className="text-[14px] font-bold">{es ? 'Desarrollo a medida' : 'Custom SUP Development'}</p>
+              <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
+                {es ? 'Del concepto al producto — ingeniería y prototipos' : 'From concept to product — engineering and prototyping'}
+              </p>
+            </a>
+            <a href={fl('/solutions/private-label-sup')} className="marine-card p-5 transition-colors hover:border-primary/40">
+              <p className="text-[14px] font-bold">{es ? 'Marca privada' : 'Private Label'}</p>
+              <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
+                {es ? 'Tu logo en plataformas probadas, desde 50 uds.' : 'Your brand on proven platforms, from 50 pcs'}
+              </p>
+            </a>
+          </div>
+        </div>
       </section>
     </>
   )
+}
+
+/** Product FAQ pool: product-specific entries + shared fallbacks (≥5 total). */
+function productFaqs(product: AfarerProduct, es: boolean): { q: string; a: string }[] {
+  const specific = product.faqs ?? []
+  const pool: { q: string; a: string }[] = es
+    ? [
+        {
+          q: '¿Cuál es el pedido mínimo para personalizar esta tabla?',
+          a: `El MOQ por diseño es de ${FACTS.moq.standardRun} para el lote OEM estándar, con pruebas desde ${FACTS.moq.trialStandard} y ${FACTS.moq.customMould} para un molde a medida.`,
+        },
+        {
+          q: '¿Cuánto tardan las muestras y la producción?',
+          a: `Las muestras tardan ${FACTS.sampleTime}; la producción en serie se completa en ${FACTS.leadTime} tras confirmar el pedido y el depósito.`,
+        },
+        {
+          q: '¿Puedo cambiar los colores, el arte y el logo?',
+          a: 'Sí — gráficos, colores, EVA, logotipo, embalaje y accesorios se personalizan en cada plataforma. Comparte tu logo y te haremos una prueba visual antes de la producción.',
+        },
+        {
+          q: '¿Cómo se controla la calidad antes del envío?',
+          a: `Cada tabla pasa por una lista de verificación de ${FACTS.assemblyChecklist} y una prueba de presión de ${FACTS.pressureTest} antes de empaquetar; las piezas que superen una caída de presión mayor al 5% se rechazan automáticamente.`,
+        },
+      ]
+    : [
+        {
+          q: 'What is the minimum order to customize this board?',
+          a: `MOQ is ${FACTS.moq.standardRun} per design for the standard OEM batch, with trial runs from ${FACTS.moq.trialStandard} and ${FACTS.moq.customMould} for a custom mould.`,
+        },
+        {
+          q: 'How long do samples and production take?',
+          a: `Samples ship in ${FACTS.sampleTime}; batch production completes in ${FACTS.leadTime} after confirmed PO and deposit.`,
+        },
+        {
+          q: 'Can I change colors, artwork and the logo?',
+          a: 'Yes — graphics, colors, EVA traction, logo, packaging and accessories are all customizable on every platform. Share your logo and we produce a visual proof before production.',
+        },
+        {
+          q: 'How is quality controlled before shipment?',
+          a: `Every board passes a ${FACTS.assemblyChecklist} assembly checklist and a ${FACTS.pressureTest} pressure test before packing; units exceeding a 5% pressure drop are auto-rejected.`,
+        },
+      ]
+  return [...specific, ...pool]
 }
 
 function PostView({ post, origin, path, locale }: { post: AfarerPost; origin: string; path: string; locale: Locale }) {
@@ -369,6 +458,7 @@ function PostView({ post, origin, path, locale }: { post: AfarerPost; origin: st
             inLanguage: locale === 'es' ? 'es' : 'en',
           })}
         />
+        <ContentCta locale={locale} />
       </article>
     </>
   )
@@ -392,6 +482,7 @@ function ArticleView({ article, origin, title, path, locale }: { article: Afarer
           ])}
         />
         <JsonLd data={articleLd(`${origin}/technology/${article.slug}`, title, article.description ?? article.summary ?? '', locale, article.dateModified)} />
+        <ContentCta locale={locale} />
       </article>
     </>
   )
@@ -423,6 +514,7 @@ function CaseView({ c, origin, title, path, locale }: { c: AfarerCaseUse; origin
           ])}
         />
         <JsonLd data={articleLd(`${origin}${path}`, title, c.summary ?? '', locale)} />
+        <ContentCta locale={locale} />
       </article>
     </>
   )
@@ -472,8 +564,41 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
         />
         <JsonLd data={articleLd(`${origin}/guides/${guide.slug}`, guide.title, guide.intro[0] ?? '', locale)} />
         {guide.faqs.length > 0 && <JsonLd data={faqLd(guide.faqs, locale)} />}
+        <ContentCta locale={locale} />
       </article>
     </>
+  )
+}
+
+/** Content → inquiry conversion block appended to news, tech articles, case studies and guides. */
+function ContentCta({ locale }: { locale: Locale }) {
+  const es = locale === 'es'
+  const fl = (p: string): string => (es ? `/es${p}` : p)
+  return (
+    <div className="mt-12 rounded-2xl border border-border-2 bg-bg-alt p-7 text-center">
+      <p className="font-display text-xl font-extrabold">
+        {es ? '¿Lo fabricamos con tu propia marca?' : 'Need this built under your own brand?'}
+      </p>
+      <p className="mx-auto mt-2 max-w-md text-[13.5px] leading-relaxed text-fg-2">
+        {es
+          ? 'Cuéntanos tu proyecto y te responderemos con MOQ, tiempos de muestra y plazos para tu mercado — sin compromiso.'
+          : 'Tell us your project and we reply with MOQ, sample timing and lead times for your market — no commitment.'}
+      </p>
+      <div className="mt-5 flex flex-wrap justify-center gap-3">
+        <a
+          href={fl('/contact')}
+          className="sun-grad inline-flex h-[40px] items-center gap-1.5 rounded-full px-6 text-[13.5px] font-bold transition-transform hover:-translate-y-0.5"
+        >
+          {es ? 'Inicia tu proyecto' : 'Start a Custom SUP Project'} <ArrowRight size={15} />
+        </a>
+        <a
+          href={fl('/products')}
+          className="inline-flex h-[40px] items-center rounded-full border border-border-2 px-6 text-[13.5px] font-bold transition-colors hover:border-primary/40 hover:text-primary"
+        >
+          {es ? 'Ver plataformas' : 'Browse Platforms'}
+        </a>
+      </div>
+    </div>
   )
 }
 
