@@ -2,19 +2,24 @@ import { createFileRoute, getRouteApi } from '@tanstack/react-router'
 import { Check } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
+import { getTurnstileSiteKey } from '@/features/auth/middleware'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, productsPage } from '@/features/site/content'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero } from '@/components/marketing/section-head'
 import { ProductsSection } from '@/components/marketing/products-section'
+import { CatalogDownload } from '@/components/marketing/catalog-download'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
 
 const rootRoute = getRouteApi('__root__')
 
 export const Route = createFileRoute('/{-$locale}/products')({
-  loader: async () => ({ origin: await getOrigin() }),
+  loader: async () => {
+    const [origin, turnstileSiteKey] = await Promise.all([getOrigin(), getTurnstileSiteKey()])
+    return { origin, turnstileSiteKey }
+  },
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
@@ -37,6 +42,7 @@ function ProductsPage() {
   const { theme, user } = rootRoute.useLoaderData()
   const { locale } = useTranslation()
   const c = pick(productsPage, locale)
+  const { turnstileSiteKey } = Route.useLoaderData()
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -60,6 +66,8 @@ function ProductsPage() {
           </ul>
         </div>
       </section>
+
+      <CatalogDownload turnstileSiteKey={turnstileSiteKey} />
 
       <CtaBand />
       <Footer theme={theme} />

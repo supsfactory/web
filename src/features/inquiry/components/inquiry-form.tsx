@@ -6,6 +6,7 @@ import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 import { Button } from '@/components/ui/button'
 import { useTurnstile } from '@/features/auth/components/turnstile'
+import { trackLead } from '@/features/analytics/events'
 import { submitInquiry, type SubmitResult } from '../actions'
 
 /** B2B project inquiry form (name → company → country → email → WhatsApp →
@@ -47,6 +48,7 @@ export function InquiryForm({ turnstileSiteKey }: { turnstileSiteKey: string | n
       const r = await submitInquiry({ data: fd })
       setMsg(mapResult(r))
       if (r.ok) {
+        trackLead(`inquiry:${String(fd.get('model') ?? 'unsure')}`)
         form.reset()
         setFileName(null)
       } else if (r.reason !== 'invalid') {

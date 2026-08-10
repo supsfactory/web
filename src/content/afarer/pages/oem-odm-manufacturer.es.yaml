@@ -49,6 +49,10 @@ faq_section:
   tagline: FAQ
   title: Preguntas frecuentes OEM y ODM
   questions:
+    - q: ¿Cuál es la diferencia entre OEM y ODM?
+      a: 'OEM (fabricación con equipo original) fabrica una tabla según tu especificación: tu forma, arte, materiales y empaque, sobre plataformas existentes o un molde nuevo a medida. ODM (fabricación con diseño original) parte de una plataforma probada que ya diseñamos e ingeniamos, y tú la adaptas con tu marca, colores, arte y accesorios. En la práctica ambas rutas comparten la misma planta, el mismo sistema de QC y el mismo equipo de exportación: OEM cuando tú eres dueño del diseño; ODM cuando quieres la vía más rápida y de menor riesgo hacia una tabla con tu marca, sin desarrollar diseño propio.'
+    - q: '¿Qué enfoque encaja con mi proyecto: OEM u ODM?'
+      a: 'Elige OEM cuando tengas tu propia especificación, planos o una idea de producto diferenciada y quieras fabricarla tal cual. Elige ODM cuando quieras una línea con tu marca partiendo de una plataforma existente y probada en mercado, con cambios solo de logo, color y empaque: ODM evita el desarrollo de molde, parte de 50 uds. y envía muestras en 15–20 días.'
     - q: ¿Cuál es el MOQ para SUP hinchable OEM?
       a: 'El MOQ es por tramos: 5–10 unidades para un pedido de prueba, 50 unidades por diseño para un lote OEM estándar, y 200 unidades para proyectos con molde a medida o etiqueta privada.'
     - q: ¿Cuál es el plazo de entrega de un pedido OEM?

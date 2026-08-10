@@ -29,3 +29,14 @@ token 是公开值,放 `wrangler.jsonc` 的 `vars` 即可(不必当 secret)。
 - `withSentry` 自动捕获的是**真正未处理**的异常与 rejection。
 
 > 部署小坑:首次 `pnpm install` 后第一次 `pnpm dev`,Vite 因 lockfile 变化会重新优化依赖,可能出现一次性内存峰值导致进程被 kill——重启 `pnpm dev` 即正常。
+
+## Google Analytics 4(`GA4_MEASUREMENT_ID`)
+
+完全可选:设了才加载 gtag,不设则站点行为完全不变(转换事件自动静默)。适合需要**转化归因**(询盘、目录请求)的商业站点。
+
+- **怎么开**:Google Analytics 建 GA4 资源,拿 `G-XXXXXXXXXX`,设进 `GA4_MEASUREMENT_ID`。measurement ID 是公开值,放 `wrangler.jsonc` 的 `vars` 即可(不必当 secret)。
+- **原理**:`getGa4MeasurementId` server fn 把 ID 交给根布局,`__root.tsx` 仅在 ID 存在时注入 gtag 脚本(`src/features/analytics/`)。SPA 路由变化的 `page_view` 由 `Ga4PageView`(pathname effect)触发;`generate_lead` 在询盘表单(`inquiry-form.tsx`)与目录下载表单(`catalog-download.tsx`)成功提交时触发,事件工具见 `src/features/analytics/events.ts`。
+- **CSP**:`script-src` 已放行 `www.googletagmanager.com`,`connect-src` 放行 `www.google-analytics.com` / `analytics.google.com`(上报)。
+- **未配**:不注入 gtag,`trackLead`/`trackPageView` 均为 no-op,零改动。
+
+> 隐私说明:与 CF Web Analytics 不同,GA4 会使用 cookies 与广告标识;仅当你确实需要转化归因时再配置。

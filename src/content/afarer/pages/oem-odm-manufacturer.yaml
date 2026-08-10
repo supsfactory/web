@@ -49,6 +49,10 @@ faq_section:
   tagline: FAQ
   title: OEM & ODM Frequently Asked Questions
   questions:
+    - q: What is the difference between OEM and ODM?
+      a: 'OEM (Original Equipment Manufacturing) builds a board to your specification — your shape, artwork, materials and packaging — from existing platforms or a new custom mould. ODM (Original Design Manufacturing) uses a proven platform we already designed and engineers, and you adapt it with your brand, colors, artwork and accessories. In practice both routes share the same plant, QC system and export team: OEM when you own the product design, ODM when you want the fastest, lowest-risk path to a branded board without design ownership.'
+    - q: Which approach fits my project — OEM or ODM?
+      a: 'Choose OEM when you have your own spec, drawings or a distinct product idea and want it manufactured as-is. Choose ODM when you want a branded line out of an existing, market-tested platform with only logo, color and packaging changes — ODM skips mould development, starts at 50 pcs, and ships samples in 15–20 days.'
     - q: What is the MOQ for OEM inflatable SUP?
       a: 'MOQ is tiered: 5–10 units for a standard trial order, 50 units per design for a standard OEM batch, and 200 units for full custom mould or private-label projects, depending on complexity.'
     - q: What is the typical lead time for an OEM order?

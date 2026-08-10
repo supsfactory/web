@@ -173,18 +173,26 @@ export interface TrustBarContent {
 export const trustBar: Localized<TrustBarContent> = {
   en: {
     stats: [
-      { value: '12,000 m²', label: 'Qingdao plant, in-house from raw PVC to finished board' },
-      { value: '2012', label: 'Manufacturing SUP and inflatables since' },
-      { value: '50+', label: 'Countries shipped to across EU, US, AU and Asia' },
-      { value: 'ISO 9001 · CE · BSCI · REACH/RoHS', label: 'Certified and audit-ready' },
+      { value: `MOQ ${FACTS.moq.standardRun}`, label: 'per design for OEM batch; trial runs from 5–10 pcs' },
+      { value: FACTS.sampleTime, label: 'samples to your desk after artwork confirmation' },
+      { value: FACTS.leadTime, label: 'batch production after confirmed PO and deposit' },
+      { value: FACTS.annualCapacity, label: 'annual in-house capacity at the Qingdao plant' },
+      { value: FACTS.warehouseM2, label: 'owned plant, from raw PVC to finished board' },
+      { value: FACTS.workers, label: 'factory workers and engineers on site' },
+      { value: 'ISO 9001 · CE · BSCI', label: 'certified; REACH/RoHS compliant materials' },
+      { value: FACTS.exportCountries, label: 'countries shipped to across EU, US, AU and Asia' },
     ],
   },
   es: {
     stats: [
-      { value: '12,000 m²', label: 'Planta en Qingdao, del PVC en bruto a la tabla terminada, todo en casa' },
-      { value: '2012', label: 'Fabricando SUP e inflables desde' },
-      { value: '50+', label: 'Países con envíos en la UE, EE. UU., Australia y Asia' },
-      { value: 'ISO 9001 · CE · BSCI · REACH/RoHS', label: 'Certificada y lista para auditorías' },
+      { value: `MOQ ${FACTS.moq.standardRun}`, label: 'por diseño en lote OEM; prueba desde 5–10 uds.' },
+      { value: FACTS.sampleTime, label: 'muestras en tu escritorio tras confirmar el arte' },
+      { value: FACTS.leadTime, label: 'producción en serie tras PO y depósito confirmados' },
+      { value: FACTS.annualCapacity, label: 'capacidad anual interna en la planta de Qingdao' },
+      { value: FACTS.warehouseM2, label: 'planta propia, del PVC en bruto a la tabla terminada' },
+      { value: FACTS.workers, label: 'operarios e ingenieros de planta' },
+      { value: 'ISO 9001 · CE · BSCI', label: 'certificada; materiales conformes a REACH/RoHS' },
+      { value: FACTS.exportCountries, label: 'países con envíos en la UE, EE. UU., Australia y Asia' },
     ],
   },
 }
@@ -1355,6 +1363,10 @@ export const faq: Localized<FaqContent> = {
     sub: 'Questions buyers ask before placing an order — answered with our actual terms.',
     items: [
       {
+        q: 'What is the difference between OEM and ODM?',
+        a: `OEM builds your board to your specification — shape, artwork, materials and packaging — from an existing platform or a new custom mould you own. ODM adapts a proven platform we already engineer: you add your brand, colors and artwork without owning the design. Both routes run through the same plant, QC system and export team: OEM suits product owners with their own spec, ODM is the fastest route to a branded board, starting at ${FACTS.moq.standardRun} with samples in ${FACTS.sampleTime}.`,
+      },
+      {
         q: 'What is your minimum order quantity?',
         a: `Trial runs on standard models start at 5–10 pcs. Standard OEM production starts at ${FACTS.moq.standardRun} per design. Custom mold and private label projects require 200 pcs minimum, depending on complexity.`,
       },
@@ -1393,6 +1405,10 @@ export const faq: Localized<FaqContent> = {
     title: 'Preguntas sobre fabricación',
     sub: 'Estas son las preguntas que un comprador plantea antes de encargar — respondidas con nuestras condiciones reales.',
     items: [
+      {
+        q: '¿Cuál es la diferencia entre OEM y ODM?',
+        a: `OEM fabrica tu tabla según tu especificación — forma, arte, materiales y empaque — sobre una plataforma existente o un molde nuevo a medida de tu propiedad. ODM adapta una plataforma probada que ya ingeniamos: tú añades tu marca, colores y arte sin ser dueño del diseño. Ambas rutas pasan por la misma planta, el mismo sistema de QC y el mismo equipo de exportación: OEM es para quien tiene especificación propia; ODM es la vía más rápida hacia una tabla con tu marca, desde ${FACTS.moq.standardRun} y con muestras en ${FACTS.sampleTime}.`,
+      },
       {
         q: '¿Cuál es la cantidad mínima de pedido?',
         a: `La prueba de modelos estándar parte de 5–10 uds. La producción OEM estándar parte de ${FACTS.moq.standardRun} por diseño. Los proyectos de molde a medida y marca privada requieren un mínimo de 200 uds., según la complejidad.`,
@@ -1661,6 +1677,45 @@ export const productsPage: Localized<ProductsPageContent> = {
     customTitle: 'Cada producto se puede personalizar',
     customBody: 'Nada sale de fábrica en serie. Cada tabla se construye para ti con tus elecciones en cada capa.',
     customPoints: ['Forma y tamaño', 'Colores y gráficos a toda cubierta', 'Diseño de logo y piso EVA', 'Accesorios y embalaje'],
+  },
+}
+
+/* ─────────────────────────── catalog download (email capture) ─────────────────────────── */
+
+export interface CatalogContent {
+  kicker: string
+  title: string
+  body: string
+  emailLabel: string
+  emailPlaceholder: string
+  submit: string
+  secure: string
+  successTitle: string
+  successBody: string
+}
+
+export const catalogDownload: Localized<CatalogContent> = {
+  en: {
+    kicker: 'Product Catalog',
+    title: 'Get the full catalog and MOQ sheet',
+    body: 'All ten platforms with specs, artwork options, MOQ tiers, sample timing and packaging — sent to your inbox by our sales team within one business day.',
+    emailLabel: 'Work email',
+    emailPlaceholder: 'you@yourcompany.com',
+    submit: 'Request the Catalog',
+    secure: 'No spam. Only the catalog and answers to your project.',
+    successTitle: 'Request received',
+    successBody: 'Our sales team will send the full product catalog and MOQ sheet to {email} within one business day.',
+  },
+  es: {
+    kicker: 'Catálogo de productos',
+    title: 'Recibe el catálogo completo y la ficha de MOQ',
+    body: 'Las diez plataformas con especificaciones, opciones de arte, MOQ escalonados, tiempos de muestreo y embalaje — enviados a tu correo por nuestro equipo comercial en un día laborable.',
+    emailLabel: 'Correo de trabajo',
+    emailPlaceholder: 'tu@tuempresa.com',
+    submit: 'Solicitar el catálogo',
+    secure: 'Sin spam. Solo el catálogo y respuestas sobre tu proyecto.',
+    successTitle: 'Solicitud recibida',
+    successBody: 'Nuestro equipo comercial enviará el catálogo completo y la ficha de MOQ a {email} en un día laborable.',
   },
 }
 

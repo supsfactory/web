@@ -1,8 +1,10 @@
 import { createRootRoute, HeadContent, Outlet, Scripts, useRouterState } from '@tanstack/react-router'
+import { useEffect } from 'react'
 import { isLocale, defaultLocale } from '@/features/i18n/locale'
 import { getPreferences } from '@/server/preferences'
 import { getOptionalUser } from '@/features/auth/middleware'
-import { getAnalyticsToken } from '@/features/analytics/analytics'
+import { getAnalyticsToken, getGa4MeasurementId } from '@/features/analytics/analytics'
+import { trackPageView } from '@/features/analytics/events'
 import { getNonce } from '@/lib/csp'
 import { JsonLd, siteLd } from '@/features/seo/jsonld'
 import appCss from '@/styles/app.css?url'
@@ -51,10 +53,10 @@ export const Route = createRootRoute({
     try {
       const { theme, themeFromCookie } = await getPreferences()
       const user = await getOptionalUser()
-      const analyticsToken = await getAnalyticsToken()
-      return { theme, themeFromCookie, user, analyticsToken }
+      const [analyticsToken, ga4Id] = await Promise.all([getAnalyticsToken(), getGa4MeasurementId()])
+      return { theme, themeFromCookie, user, analyticsToken, ga4Id }
     } catch {
-      return { theme: 'light' as const, themeFromCookie: false, user: null, analyticsToken: null }
+      return { theme: 'light' as const, themeFromCookie: false, user: null, analyticsToken: null, ga4Id: null }
     }
   },
   component: RootComponent,
@@ -67,7 +69,7 @@ export const Route = createRootRoute({
 const THEME_BOOT_SCRIPT = `(function(){try{if(!/(?:^|;\\s*)theme=/.test(document.cookie)&&matchMedia('(prefers-color-scheme: dark)').matches){document.documentElement.classList.replace('light','dark')}}catch(e){}})()`
 
 function RootComponent() {
-  const { theme, analyticsToken } = Route.useLoaderData()
+  const { theme, analyticsToken, ga4Id } = Route.useLoaderData()
   const pathname = useRouterState({ select: (s) => s.location.pathname })
   // Locale from the URL's first segment: this works for both the {-$locale}
   // template routes and the /$ catch-all (whose params carry `_splat`, not
@@ -100,7 +102,30 @@ function RootComponent() {
             data-cf-beacon={JSON.stringify({ token: analyticsToken })}
           />
         )}
+        {/* GA4 — only when a measurement ID is configured; SPA page_view is
+            tracked by pathname change (send_page_view disabled to avoid double counts). */}
+        {ga4Id && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`} nonce={nonce} />
+            <script
+              nonce={nonce}
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${ga4Id}',{send_page_view:false});`,
+              }}
+            />
+            <Ga4PageView />
+          </>
+        )}
       </body>
     </html>
   )
+}
+
+/** Fires a GA4 page_view on every client-side route change (SSR'd pages go through hydration). */
+function Ga4PageView() {
+  const pathname = useRouterState({ select: (s) => s.location.pathname })
+  useEffect(() => {
+    trackPageView(pathname)
+  }, [pathname])
+  return null
 }

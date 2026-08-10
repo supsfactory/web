@@ -22,11 +22,11 @@ const BASE_HEADERS: Record<string, string> = {
 function buildCsp(nonce: string): string {
   return [
     "default-src 'self'",
-    `script-src 'self' 'nonce-${nonce}' https://challenges.cloudflare.com https://static.cloudflareinsights.com`, // Turnstile + Web Analytics beacon
+    `script-src 'self' 'nonce-${nonce}' https://challenges.cloudflare.com https://static.cloudflareinsights.com https://www.googletagmanager.com`, // Turnstile + Web Analytics beacon + GA4 gtag
     "style-src 'self' 'unsafe-inline'",
     "img-src 'self' data: blob: https:", // blob: for client-side avatar preview
     "font-src 'self' data:", // fonts are self-hosted under /fonts
-    "connect-src 'self' https://cloudflareinsights.com", // Web Analytics beacon POSTs
+    "connect-src 'self' https://cloudflareinsights.com https://www.google-analytics.com https://analytics.google.com", // Web Analytics beacon + GA4 POSTs
     "frame-src https://challenges.cloudflare.com", // Turnstile widget iframe
     "frame-ancestors 'none'",
     "base-uri 'self'",

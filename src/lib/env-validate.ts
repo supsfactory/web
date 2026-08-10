@@ -38,6 +38,7 @@ const envSchema = z
     TURNSTILE_SITE_KEY: optional,
     TURNSTILE_SECRET_KEY: optional,
     CF_ANALYTICS_TOKEN: optional,
+    GA4_MEASUREMENT_ID: optional,
     SENTRY_DSN: optional,
   })
   .superRefine((env, ctx) => {
