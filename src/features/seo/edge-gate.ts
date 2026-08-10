@@ -102,10 +102,13 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/es/lifestyle': '/es/knowledge',
   '/journal': '/news',
   '/es/journal': '/es/news',
-  '/media': '/news',
-  '/es/media': '/es/news',
+  '/media': '/products',
+  '/es/media': '/es/products',
   '/evidence': '/projects',
   '/es/evidence': '/es/projects',
+  // P1-9: dead whitepaper PDF links in news articles fold into the OEM landing page
+  '/whitepaper/oem-sup-manufacturing-guide': '/oem-odm-manufacturer',
+  '/es/whitepaper/oem-sup-manufacturing-guide': '/es/oem-odm-manufacturer',
 }
 
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'

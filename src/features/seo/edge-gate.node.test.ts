@@ -120,7 +120,9 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
     action: 'redirect',
     to: 'https://afarer.com/disaster-relief-humanitarian-aid',
   })
-  expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/contact' })
+  expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/products' })
+  expect(gatePath('/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
+  expect(gatePath('/es/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/es/oem-odm-manufacturer' })
   expect(gatePath('/touring-sup')).toEqual({ action: 'redirect', to: '/products' })
   // /search is now a live search results page (not a legacy redirect)
   expect(gatePath('/search')).toEqual({ action: 'ok' })
@@ -165,7 +167,7 @@ test('content hubs 301 onto their keepers, sub-pages stay live (P1-2)', () => {
   const hubs: [string, string][] = [
     ['/learn', '/knowledge'], ['/academy', '/knowledge'], ['/guides', '/knowledge'],
     ['/research', '/knowledge'], ['/resources', '/knowledge'], ['/community', '/knowledge'],
-    ['/lifestyle', '/knowledge'], ['/journal', '/news'], ['/media', '/news'], ['/evidence', '/projects'],
+    ['/lifestyle', '/knowledge'], ['/journal', '/news'], ['/media', '/products'], ['/evidence', '/projects'],
   ]
   for (const [from, to] of hubs) {
     expect(gatePath(from)).toEqual({ action: 'redirect', to })

@@ -115,5 +115,5 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/research/sup-paddle-technology': '/knowledge',
   '/research/sup-valve-types': '/knowledge',
   '/research/uv-printing-vs-eva-block': '/knowledge',
-  '/resources/download-catalog': '/contact',
+  '/resources/download-catalog': '/products',
 }
