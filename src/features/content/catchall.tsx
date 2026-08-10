@@ -32,6 +32,12 @@ import type { AfarerArticle, AfarerCaseUse, AfarerPage, AfarerPost, AfarerProduc
 
 const rootRoute = getRouteApi('__root__')
 
+/** Minimal product card for the "related platforms" strip on product pages. */
+export type RelatedProduct = { slug: string; title: string; image: string; amount?: string }
+
+/** Minimal post card for the "related news" strip on article pages. */
+export type RelatedPost = { slug: string; title: string; excerpt: string; date: string }
+
 export type CatchAllData = {
   path: string
   origin: string
@@ -45,8 +51,8 @@ export type CatchAllData = {
   index: AferIndexData
 } & (
   | { kind: 'page'; page: AfarerPage; slug: string; title: string; description: string }
-  | { kind: 'product'; product: AfarerProduct; title: string; description: string; image: string }
-  | { kind: 'post'; post: AfarerPost; title: string; description: string; image: string }
+  | { kind: 'product'; product: AfarerProduct; title: string; description: string; image: string; related: RelatedProduct[] }
+  | { kind: 'post'; post: AfarerPost; title: string; description: string; image: string; relatedPosts: RelatedPost[] }
   | { kind: 'article'; article: AfarerArticle; slug: string; title: string; description: string }
   | { kind: 'case'; case: AfarerCaseUse; slug: string; title: string; description: string }
   | { kind: 'guide'; slug: string; title: string; description: string }
@@ -163,14 +169,14 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
       case 'product':
         return (
           <>
-            <ProductView product={data.product} origin={data.origin} locale={data.locale} />
+            <ProductView product={data.product} related={data.related} origin={data.origin} locale={data.locale} />
             <CtaBand />
           </>
         )
       case 'post':
         return (
           <>
-            <PostView post={data.post} origin={data.origin} path={data.path} locale={data.locale} />
+            <PostView post={data.post} relatedPosts={data.relatedPosts} origin={data.origin} path={data.path} locale={data.locale} />
             <CtaBand />
           </>
         )
@@ -220,7 +226,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
   )
 }
 
-function ProductView({ product, origin, locale }: { product: AfarerProduct; origin: string; locale: Locale }) {
+function ProductView({ product, related, origin, locale }: { product: AfarerProduct; related: RelatedProduct[]; origin: string; locale: Locale }) {
   const specs = product.specs ?? []
   const gallery = product.gallery?.length ? product.gallery : product.image ? [{ url: product.image, alt: product.title }] : []
   const fl = (p: string): string => (locale === 'en' ? p : `/es${p}`)
@@ -327,6 +333,30 @@ function ProductView({ product, origin, locale }: { product: AfarerProduct; orig
         <div className="mx-auto mt-12 max-w-3xl">
           <Markdown text={brandify(product.body)} />
         </div>
+        {related.length > 0 && (
+          <div className="mx-auto mt-12 max-w-3xl">
+            <h2 className="font-display text-2xl font-extrabold tracking-tight">
+              {es ? 'Plataformas relacionadas' : 'Related Platforms'}
+            </h2>
+            <div className="mt-6 grid gap-3 sm:grid-cols-3">
+              {related.map((r) => (
+                <a
+                  key={r.slug}
+                  href={fl(`/products/${r.slug}`)}
+                  className="marine-card group flex flex-col overflow-hidden p-0 transition-colors hover:border-primary/40"
+                >
+                  {r.image && (
+                    <img src={r.image} alt={r.title} loading="lazy" className="aspect-[4/3] w-full object-cover" />
+                  )}
+                  <div className="flex flex-1 flex-col gap-1 p-4">
+                    <p className="text-[13.5px] font-bold leading-snug">{r.title}</p>
+                    {r.amount && <p className="text-[12.5px] font-semibold text-primary">${r.amount}</p>}
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
         {productFaqs(product, es).length > 0 && (
           <div className="mx-auto mt-12 max-w-3xl">
             <h2 className="font-display text-2xl font-extrabold tracking-tight">
@@ -421,7 +451,7 @@ function productFaqs(product: AfarerProduct, es: boolean): { q: string; a: strin
   return [...specific, ...pool]
 }
 
-function PostView({ post, origin, path, locale }: { post: AfarerPost; origin: string; path: string; locale: Locale }) {
+function PostView({ post, relatedPosts, origin, path, locale }: { post: AfarerPost; relatedPosts: RelatedPost[]; origin: string; path: string; locale: Locale }) {
   return (
     <>
       <PageHero kicker={post.category ?? (locale === 'es' ? 'Noticias' : 'News')} title={post.title} sub={post.excerpt ?? ''} />
@@ -458,6 +488,26 @@ function PostView({ post, origin, path, locale }: { post: AfarerPost; origin: st
             inLanguage: locale === 'es' ? 'es' : 'en',
           })}
         />
+        {relatedPosts.length > 0 && (
+          <div className="mt-12">
+            <h2 className="font-display text-xl font-extrabold tracking-tight">
+              {locale === 'es' ? 'Lecturas relacionadas' : 'Related Reading'}
+            </h2>
+            <div className="mt-5 flex flex-col gap-3">
+              {relatedPosts.map((r) => (
+                <a
+                  key={r.slug}
+                  href={`${locale === 'es' ? '/es' : ''}/news/${r.slug}`}
+                  className="marine-card p-5 transition-colors hover:border-primary/40"
+                >
+                  <p className="text-[12px] font-semibold uppercase tracking-wide text-fg-3">{r.date}</p>
+                  <p className="mt-1 text-[15px] font-bold leading-snug">{r.title}</p>
+                  {r.excerpt && <p className="mt-1.5 line-clamp-2 text-[13px] leading-snug text-fg-2">{r.excerpt}</p>}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
         <ContentCta locale={locale} />
       </article>
     </>

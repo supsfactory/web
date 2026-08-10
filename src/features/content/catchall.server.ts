@@ -38,6 +38,39 @@ import type {
 
 const slugOf = (path: string): string => path.split('/').filter(Boolean).pop() ?? ''
 
+/** Top-3 related products by shared tags (fallback: any other product), locale-aware. */
+function relatedProducts(
+  slug: string,
+  selfTags: string[],
+  locale: Locale,
+): { slug: string; title: string; image: string; amount?: string }[] {
+  const all = getAfarerProducts(locale).filter((p) => p.slug !== slug)
+  const tags = new Set(selfTags)
+  const scored = all
+    .map((p) => ({ p, score: (p.tags ?? []).filter((t) => tags.has(t)).length }))
+    .sort((a, b) => b.score - a.score || a.p.title.localeCompare(b.p.title))
+  const top = scored.slice(0, 3)
+  for (const rest of all.filter((p) => !top.some((t) => t.p.slug === p.slug)).slice(0, Math.max(0, 3 - top.length))) {
+    top.push({ p: rest, score: 0 })
+  }
+  return top.map(({ p }) => ({ slug: p.slug, title: p.title, image: p.image ?? '', amount: p.price?.amount }))
+}
+
+/** Top-3 related posts by shared category (fallback: newest posts), locale-aware. */
+function relatedPosts(
+  slug: string,
+  selfCategory: string,
+  locale: Locale,
+): { slug: string; title: string; excerpt: string; date: string }[] {
+  const all = getNewsPosts(locale).filter((p) => p.slug !== slug)
+  const same = all.filter((p) => p.category === selfCategory)
+  const rest = all.filter((p) => p.category !== selfCategory)
+  const picked = [...same, ...rest]
+    .sort((a, b) => (a.date < b.date ? 1 : -1))
+    .slice(0, 3)
+  return picked.map((p) => ({ slug: p.slug, title: p.title, excerpt: p.excerpt ?? '', date: p.date.slice(0, 10) }))
+}
+
 function indexNews(locale?: Locale): AferIndexNews[] {
   return getNewsPosts(locale).map((p) => ({
     slug: p.slug,
@@ -138,6 +171,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         image: product.image ?? OG_IMAGE,
         origin: '',
         index: indexFor(undefined, locale),
+        related: relatedProducts(product.slug, product.tags ?? [], locale),
       }
     }
   }
@@ -156,6 +190,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         image: post.image ?? OG_IMAGE,
         origin: '',
         index: indexFor(undefined, locale),
+        relatedPosts: relatedPosts(post.slug, post.category ?? '', locale),
       }
     }
   }
