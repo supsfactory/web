@@ -40,11 +40,11 @@ export interface HeroContent {
 
 export const hero: Localized<HeroContent> = {
   en: {
-    kicker: 'B2B Manufacturing — OEM / ODM / Private Label',
-    titlePre: 'Custom SUP Manufacturer',
-    titleAccent: 'for OEM & ODM Brands',
-    titlePost: 'From Sample Development to Scalable Production',
-    sub: 'We help watersports brands, retailers, clubs and corporate buyers develop custom inflatable SUPs, hard paddle boards and accessories — from concept, artwork and prototyping to QC-controlled mass production.',
+    kicker: 'SUP Manufacturing Factory — OEM / ODM / Private Label',
+    titlePre: 'Custom SUP Manufacturing Factory',
+    titleAccent: 'for Global Brands',
+    titlePost: 'From Prototype Development to Mass Production',
+    sub: 'Supsfactory helps global brands, retailers and water businesses turn SUP product concepts into production-ready boards — through prototyping, engineering support and reliable OEM & ODM manufacturing services.',
     ctaPrimary: 'Start a Custom SUP Project',
     ctaSecondary: 'View Products & MOQ',
     chips: [
@@ -61,11 +61,11 @@ export const hero: Localized<HeroContent> = {
     float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
   es: {
-    kicker: 'Fabricación B2B — OEM / ODM / Marca privada',
-    titlePre: 'Fabricante de SUP personalizados',
-    titleAccent: 'para marcas OEM y ODM',
-    titlePost: 'Del desarrollo de muestras a la producción a escala',
-    sub: 'Ayudamos a marcas de deportes acuáticos, minoristas, clubes y compradores corporativos a desarrollar tablas de SUP hinchables personalizadas, tablas rígidas y accesorios — desde el concepto y el arte hasta el prototipado y la producción masiva con control de calidad.',
+    kicker: 'Fábrica de fabricación de SUP — OEM / ODM / Marca privada',
+    titlePre: 'Fábrica de fabricación de SUP personalizados',
+    titleAccent: 'para marcas globales',
+    titlePost: 'Del desarrollo de prototipos a la producción en masa',
+    sub: 'Supsfactory ayuda a marcas globales, minoristas y empresas de deportes acuáticos a convertir conceptos de tablas SUP en productos listos para producir — mediante desarrollo de prototipos, soporte de ingeniería y servicios fiables de fabricación OEM y ODM.',
     ctaPrimary: 'Inicia tu proyecto de SUP personalizado',
     ctaSecondary: 'Ver productos y MOQ',
     chips: [
@@ -1363,6 +1363,10 @@ export const faq: Localized<FaqContent> = {
     sub: 'Questions buyers ask before placing an order — answered with our actual terms.',
     items: [
       {
+        q: 'What does Supsfactory manufacture?',
+        a: 'Supsfactory is a professional SUP manufacturing factory specializing in customized inflatable SUP boards and related water sports products for global brands and businesses — engineered, sampled and produced in our own 12,000 m² plant in Qingdao, China.',
+      },
+      {
         q: 'What is the difference between OEM and ODM?',
         a: `OEM builds your board to your specification — shape, artwork, materials and packaging — from an existing platform or a new custom mould you own. ODM adapts a proven platform we already engineer: you add your brand, colors and artwork without owning the design. Both routes run through the same plant, QC system and export team: OEM suits product owners with their own spec, ODM is the fastest route to a branded board, starting at ${FACTS.moq.standardRun} with samples in ${FACTS.sampleTime}.`,
       },
@@ -1405,6 +1409,10 @@ export const faq: Localized<FaqContent> = {
     title: 'Preguntas sobre fabricación',
     sub: 'Estas son las preguntas que un comprador plantea antes de encargar — respondidas con nuestras condiciones reales.',
     items: [
+      {
+        q: '¿Qué fabrica Supsfactory?',
+        a: 'Supsfactory es una fábrica profesional de fabricación de SUP especializada en tablas hinchables personalizadas y productos acuáticos relacionados para marcas y empresas globales — diseñadas, muestreadas y producidas en nuestra propia planta de 12,000 m² en Qingdao, China.',
+      },
       {
         q: '¿Cuál es la diferencia entre OEM y ODM?',
         a: `OEM fabrica tu tabla según tu especificación — forma, arte, materiales y empaque — sobre una plataforma existente o un molde nuevo a medida de tu propiedad. ODM adapta una plataforma probada que ya ingeniamos: tú añades tu marca, colores y arte sin ser dueño del diseño. Ambas rutas pasan por la misma planta, el mismo sistema de QC y el mismo equipo de exportación: OEM es para quien tiene especificación propia; ODM es la vía más rápida hacia una tabla con tu marca, desde ${FACTS.moq.standardRun} y con muestras en ${FACTS.sampleTime}.`,
@@ -1488,9 +1496,9 @@ export interface BoundaryContent {
 
 export const boundary: Localized<BoundaryContent> = {
   en: {
-    kicker: 'Our Role as Your Manufacturing Partner',
-    title: 'Where We Stop, You Start',
-    sub: 'A manufacturing partner should make your product, not run your business. Here is exactly where the line sits.',
+    kicker: 'Who We Are',
+    title: 'Built by a SUP Factory, Not a Trading Platform',
+    sub: 'We are a manufacturing partner, not a marketplace. Our role is to help customers turn ideas, designs and product requirements into manufacturable SUP products. You own your brand. You control your market. We support production execution.',
     oursTitle: 'We handle',
     theirsTitle: 'You keep',
     rows: [
@@ -1505,9 +1513,9 @@ export const boundary: Localized<BoundaryContent> = {
       'Your artwork, tooling and specification files remain your property and are never reused, resold or shown to another client.',
   },
   es: {
-    kicker: 'Nuestro rol como tu socio de fabricación',
-    title: 'Aquí terminamos nosotros, empiezas tú',
-    sub: 'Un socio de fabricación debe fabricar tu producto, no dirigir tu negocio. Aquí está exactamente dónde se sitúa la línea.',
+    kicker: 'Quiénes somos',
+    title: 'Construido por una fábrica de SUP, no por una plataforma comercial',
+    sub: 'Somos un socio de fabricación, no un marketplace. Nuestro papel es ayudar a los clientes a convertir ideas, diseños y requisitos de producto en productos SUP fabricables. Tú eres dueño de tu marca. Tú controlas tu mercado. Nosotros ejecutamos la producción.',
     oursTitle: 'Nosotros nos encargamos',
     theirsTitle: 'Tú conservas',
     rows: [

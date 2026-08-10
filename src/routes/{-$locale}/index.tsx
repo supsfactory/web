@@ -35,16 +35,16 @@ export const Route = createFileRoute('/{-$locale}/')({
       path: '/',
       title:
         locale === 'es'
-          ? 'Fabricante de SUP personalizados | SUP OEM, ODM y de marca privada'
-          : 'Custom SUP Manufacturer | OEM, ODM & Private Label SUPs',
+          ? 'Fábrica de fabricación de SUP personalizados | Fabricante OEM ODM de SUP'
+          : 'Custom SUP Manufacturing Factory | OEM ODM SUP Manufacturer',
       description:
         locale === 'es'
-          ? 'Fabricante OEM/ODM de SUP hinchables en Qingdao, China. Planta de 12.000 m², certificada CE e ISO 9001, producción en 30–45 días y muestras en 15–20 días.'
-          : 'Inflatable SUP OEM/ODM manufacturer in Qingdao, China. 12,000 m² plant, CE & ISO 9001 certified, 30–45 day production, samples in 15–20 days.',
+          ? 'Supsfactory es una fábrica profesional de fabricación de SUP a medida que ayuda a marcas globales a desarrollar y producir tablas hinchables mediante soluciones OEM y ODM, desde el prototipo hasta la producción en masa.'
+          : 'Supsfactory is a professional custom SUP manufacturing factory helping global brands develop and produce inflatable SUP products through OEM and ODM solutions, from prototype to mass production.',
       ogTitle:
         locale === 'es'
-          ? 'SUPsfactory — Fabricante de SUP personalizados para marcas OEM y ODM'
-          : 'SUPsfactory — Custom SUP Manufacturer for OEM, ODM & Private Label Brands',
+          ? 'SUPsfactory — Fábrica de fabricación de SUP personalizados para marcas globales'
+          : 'SUPsfactory — Custom SUP Manufacturing Factory for Global Brands',
     })
     return { meta, links }
   },
