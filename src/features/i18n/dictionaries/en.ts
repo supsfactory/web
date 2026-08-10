@@ -42,6 +42,12 @@ export const en = {
       body: 'Click the button below to choose a new password.',
       button: 'Reset password',
     },
+    catalog: {
+      subject: 'We received your catalog request — SUPsfactory',
+      heading: 'Catalog request received',
+      body: 'Our sales team will send the full product catalog and MOQ sheet to this inbox within one business day. Meanwhile, you can browse every platform specification on the products page.',
+      button: 'Browse product platforms',
+    },
   },
   app: {
     dashboard: 'Dashboard',

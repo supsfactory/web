@@ -14,3 +14,14 @@ test('reset-password 模板支持西班牙语', async () => {
   expect(out.subject).toBe('Restablece tu contraseña')
   expect(out.html).toContain('https://app/reset?token=xyz')
 })
+
+test('catalog-request 模板渲染线索文案 EN/ES', async () => {
+  const en = await renderEmail({ template: 'catalog-request', locale: 'en', data: { url: 'https://example.org/products' } })
+  expect(en.subject).toBe('We received your catalog request — SUPsfactory')
+  expect(en.html).toContain('https://example.org/products')
+  expect(en.html).toContain('within one business day')
+
+  const es = await renderEmail({ template: 'catalog-request', locale: 'es', data: { url: 'https://example.org/es/products' } })
+  expect(es.subject).toBe('Hemos recibido tu solicitud de catálogo — SUPsfactory')
+  expect(es.html).toContain('https://example.org/es/products')
+})

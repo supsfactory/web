@@ -58,5 +58,16 @@ export const joinWaitlist = createServerFn({ method: 'POST' })
       console.error('[waitlist] audience sync failed', err)
     }
 
+    // Catalog requests get an instant e-mail receipt (configurable integration:
+    // without RESEND_API_KEY it drops to the dev transport and never fails the form).
+    if (data.source === 'catalog' && status !== 'already') {
+      try {
+        const { sendEmail } = await import('@/features/email/email.server')
+        await sendEmail({ to: email, locale, template: 'catalog-request', data: { url: `${new URL(env.BETTER_AUTH_URL).origin}/products` } })
+      } catch (err) {
+        console.error('[waitlist] catalog receipt failed', err)
+      }
+    }
+
     return { status }
   })

@@ -32,6 +32,12 @@ export const es = {
   email: {
     verify: { subject: 'Verifica tu correo electrónico', heading: 'Confirma tu correo electrónico', body: 'Haz clic en el botón para verificar tu dirección de correo.', button: 'Verificar correo' },
     reset: { subject: 'Restablece tu contraseña', heading: 'Restablece tu contraseña', body: 'Haz clic en el botón para elegir una nueva contraseña.', button: 'Restablecer contraseña' },
+    catalog: {
+      subject: 'Hemos recibido tu solicitud de catálogo — SUPsfactory',
+      heading: 'Solicitud de catálogo recibida',
+      body: 'Nuestro equipo comercial enviará el catálogo completo y la ficha de MOQ a esta bandeja en un día laborable. Mientras tanto, puedes consultar las especificaciones de cada plataforma en la página de productos.',
+      button: 'Ver plataformas de productos',
+    },
   },
   app: {
     dashboard: 'Panel',
