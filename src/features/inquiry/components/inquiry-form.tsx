@@ -12,9 +12,20 @@ import { submitInquiry, type SubmitResult } from '../actions'
 /** B2B project inquiry form (name → company → country → email → WhatsApp →
  *  business type → quantity → requirements → logo upload). Modeled on the
  *  waitlist form: Turnstile + status-union result mapping to i18n strings. */
-export function InquiryForm({ turnstileSiteKey }: { turnstileSiteKey: string | null }) {
+export function InquiryForm({
+  turnstileSiteKey,
+  prefill,
+}: {
+  turnstileSiteKey: string | null
+  prefill?: { name: string; sku: string }
+}) {
   const { t, locale } = useTranslation()
   const { token, widget, reset } = useTurnstile(turnstileSiteKey)
+  const prefillText = prefill
+    ? locale === 'es'
+      ? `Me interesa la plataforma ${prefill.name} (${prefill.sku}) — por favor, envíame los precios OEM/ODM y la disponibilidad.`
+      : `I am interested in the ${prefill.name} (${prefill.sku}) platform — please send OEM/ODM pricing and availability.`
+    : null
 
   const [busy, setBusy] = useState(false)
   const [msg, setMsg] = useState<{ kind: 'ok' | 'err'; text: string } | null>(null)
@@ -77,6 +88,11 @@ export function InquiryForm({ turnstileSiteKey }: { turnstileSiteKey: string | n
 
   return (
     <form onSubmit={submit} className="flex flex-col gap-4">
+      {prefill && (
+        <p className="rounded-lg border border-primary/25 bg-soft/60 px-3 py-2 text-[12.5px] font-medium text-primary">
+          {locale === 'es' ? `Consulta iniciada desde: ${prefill.name} (${prefill.sku})` : `Inquiry started from: ${prefill.name} (${prefill.sku})`}
+        </p>
+      )}
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="field">
           <Label htmlFor="inq-name">{t('inquiry.name')} <span className="req">*</span></Label>
@@ -151,7 +167,7 @@ export function InquiryForm({ turnstileSiteKey }: { turnstileSiteKey: string | n
 
       <div className="field">
         <Label htmlFor="inq-req">{t('inquiry.requirements')}</Label>
-        <Textarea id="inq-req" name="requirements" rows={4} maxLength={2000} placeholder={t('inquiry.requirementsPlaceholder')} />
+        <Textarea id="inq-req" name="requirements" rows={4} maxLength={2000} defaultValue={prefillText ?? undefined} placeholder={t('inquiry.requirementsPlaceholder')} />
       </div>
 
       <div className="field">

@@ -322,7 +322,7 @@ function ProductView({ product, related, origin, locale }: { product: AfarerProd
                   : 'Ready to manufacture this platform under your own brand?'}
               </p>
               <a
-                href={fl('/contact')}
+                href={fl(`/contact?product=${encodeURIComponent(product.slug)}`)}
                 className="sun-grad inline-flex h-[40px] items-center gap-1.5 rounded-full px-6 text-[13.5px] font-bold transition-transform hover:-translate-y-0.5"
               >
                 {es ? 'Inicia tu proyecto' : 'Start a Custom SUP Project'} <ArrowRight size={15} />

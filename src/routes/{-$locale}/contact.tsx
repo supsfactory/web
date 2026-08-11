@@ -8,12 +8,16 @@ import { useTranslation } from '@/features/i18n/provider'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero } from '@/components/marketing/section-head'
 import { InquiryForm } from '@/features/inquiry/components/inquiry-form'
+import { pick, products } from '@/features/site/content'
 import { JsonLd, contactPageLd } from '@/features/seo/jsonld'
 import { Footer } from '@/components/marketing/footer'
 
 const rootRoute = getRouteApi('__root__')
 
 export const Route = createFileRoute('/{-$locale}/contact')({
+  validateSearch: (s: Record<string, unknown>) => ({
+    product: typeof s.product === 'string' && s.product ? s.product : undefined,
+  }),
   loader: async () => {
     const [origin, turnstileSiteKey] = await Promise.all([getOrigin(), getTurnstileSiteKey()])
     return { origin, turnstileSiteKey }
@@ -40,6 +44,8 @@ function ContactPage() {
   const { theme, user } = rootRoute.useLoaderData()
   const { t, locale } = useTranslation()
   const { turnstileSiteKey } = Route.useLoaderData()
+  const { product } = Route.useSearch()
+  const matched = product ? pick(products, locale).items.find((p) => p.slug === product) : undefined
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -85,7 +91,7 @@ function ContactPage() {
           <h2 className="font-display text-xl font-extrabold tracking-tight">{t('sup.contact.formTitle')}</h2>
           <p className="mt-1.5 text-[13px] text-fg-3">{t('sup.contact.formSubtitle')}</p>
           <div className="mt-6">
-            <InquiryForm turnstileSiteKey={turnstileSiteKey} />
+            <InquiryForm turnstileSiteKey={turnstileSiteKey} prefill={matched ? { name: matched.name, sku: matched.sku } : undefined} />
           </div>
         </div>
       </section>
