@@ -7,7 +7,7 @@ interface PublicPathEntry {
 
 /** Marketing pages in the sitemap (bilingual, hreflang-linked). */
 export const PUBLIC_PATHS: PublicPathEntry[] = [
-  { path: '/', lastmod: '2026-08-07' },
+  { path: '/', lastmod: '2026-08-11' },
   { path: '/solutions', lastmod: '2026-06-20' },
   { path: '/products', lastmod: '2026-06-20' },
   { path: '/who-we-serve', lastmod: '2026-06-20' },
