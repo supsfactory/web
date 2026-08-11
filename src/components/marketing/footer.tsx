@@ -56,7 +56,6 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
 
         {/* Solutions */}
         <FooterCol title={t('sup.footer.colSolutions')}>
-          <a className="foot-link" href={fl('/custom-sup-development')}>{t('sup.footer.customSup')}</a>
           <a className="foot-link" href={fl('/product-development')}>{t('sup.footer.productDevelopment')}</a>
           <a className="foot-link" href={fl('/solutions/private-label-sup')}>{t('sup.footer.privateLabel')}</a>
           <a className="foot-link" href={fl('/solutions/resort-sup')}>{t('sup.footer.resortSolutions')}</a>

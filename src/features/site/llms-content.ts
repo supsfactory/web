@@ -30,7 +30,7 @@ export const LLMS_TXT = `# SUPsfactory
 
 ## Services
 
-- [Custom SUP product development](https://supsfactory.com/custom-sup-development): requirement evaluation, specification, materials, graphics, prototyping, sample approval and production for custom SUP products.
+- [Custom SUP product development](https://supsfactory.com/product-development): the six-step development pipeline — specification, engineering and 3D, prototyping, testing, moulds and mass production — for custom SUP products.
 - [Private label SUP manufacturing](https://supsfactory.com/solutions/private-label-sup): produce SUP boards under your own brand — board, deck pad, accessories and packaging all carry your identity, no factory branding.
 - [Resort & hotel SUP equipment](https://supsfactory.com/solutions/resort-sup): branded SUP fleets for waterfront hotels and resorts, with matching accessories and fleet-friendly production runs.
 - [Club & team SUP equipment](https://supsfactory.com/solutions/club-sup): team graphics and specification adjustments for paddle clubs, race teams and events.

@@ -548,7 +548,7 @@ export const serve: Localized<ServeContent> = {
         body: 'Customize boards, graphics, specifications and accessories — from your idea to a manufacturable product.',
         points: ['Board customization', 'Graphics & branding', 'Specification support'],
         cta: 'Explore Custom SUP',
-        href: '/custom-sup-development',
+        href: '/product-development',
       },
       {
         slug: 'private-label-sup',
@@ -587,7 +587,7 @@ export const serve: Localized<ServeContent> = {
         body: 'Personaliza tablas, gráficos, especificaciones y accesorios — de tu idea a un producto fabricable.',
         points: ['Personalización de tablas', 'Gráficos y branding', 'Apoyo en especificaciones'],
         cta: 'Explorar SUP personalizado',
-        href: '/custom-sup-development',
+        href: '/product-development',
       },
       {
         slug: 'private-label-sup',

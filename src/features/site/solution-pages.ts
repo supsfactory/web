@@ -37,13 +37,13 @@ export interface SolutionPageData {
 }
 
 /**
- * Canonical public path per solution slug. The flagship custom-SUP page lives
- * at the keyword-first URL `/custom-sup-development` (search users search
- * "custom SUP development", not "solutions/custom-sup"); `/solutions/custom-sup`
- * is a 301 stub. Everything else keeps its `/solutions/{slug}` path.
+ * Canonical public path per solution slug. The flagship custom-SUP topic is
+ * served by the product-development content pillar page (pipeline, FAQs and
+ * schema in one place); `/solutions/custom-sup` and the legacy pages are
+ * 301 stubs onto it. Everything else keeps its `/solutions/{slug}` path.
  */
 export const SOLUTION_PATHS: Record<string, string> = {
-  'custom-sup': '/custom-sup-development',
+  'custom-sup': '/product-development',
 }
 
 export function solutionPath(slug: string): string {

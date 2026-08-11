@@ -22,8 +22,8 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/bateau-gonflable-fabricant': '/oem-odm-manufacturer',
   '/fournisseur-nautique': '/solutions/rental-operators',
   // P1-#8: collapse duplicate pages onto their modern keepers (single canonical per topic)
-  '/custom': '/custom-sup-development',
-  '/es/custom': '/es/custom-sup-development',
+  '/custom': '/product-development',
+  '/es/custom': '/es/product-development',
   '/quality-testing': '/quality',
   '/es/quality-testing': '/es/quality',
   '/safety': '/quality',

@@ -35,8 +35,8 @@ test('French-slug doorways 301 to closest English page (P1-5)', () => {
 })
 
 test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
-  expect(gatePath('/custom')).toEqual({ action: 'redirect', to: '/custom-sup-development' })
-  expect(gatePath('/es/custom')).toEqual({ action: 'redirect', to: '/es/custom-sup-development' })
+  expect(gatePath('/custom')).toEqual({ action: 'redirect', to: '/product-development' })
+  expect(gatePath('/es/custom')).toEqual({ action: 'redirect', to: '/es/product-development' })
   expect(gatePath('/quality-testing')).toEqual({ action: 'redirect', to: '/quality' })
   expect(gatePath('/es/quality-testing')).toEqual({ action: 'redirect', to: '/es/quality' })
   expect(gatePath('/safety')).toEqual({ action: 'redirect', to: '/quality' })

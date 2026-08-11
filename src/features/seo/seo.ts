@@ -16,7 +16,7 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/about', lastmod: '2026-08-07' },
   { path: '/contact', lastmod: '2026-08-07' },
   { path: '/customizer', lastmod: '2026-08-07' },
-  { path: '/custom-sup-development', lastmod: '2026-06-01' },
+  { path: '/product-development', lastmod: '2026-08-11' },
   { path: '/solutions/private-label-sup', lastmod: '2026-06-01' },
   { path: '/solutions/resort-sup', lastmod: '2026-06-01' },
   { path: '/solutions/club-sup', lastmod: '2026-06-01' },
