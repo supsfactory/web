@@ -1224,6 +1224,76 @@ export const products: Localized<ProductsContent> = {
   },
 }
 
+/* ─────────────────────────── video showcases ─────────────────────────── */
+
+export interface VideoStep {
+  t: string
+  d?: string
+}
+
+export interface VideoShowcaseContent {
+  badge: string
+  title: string
+  sub: string
+  points: VideoStep[]
+}
+
+export const videoShowcase: Localized<{
+  launch: VideoShowcaseContent
+  process: VideoShowcaseContent
+}> = {
+  en: {
+    launch: {
+      badge: 'Brand Launch',
+      title: 'Dreaming of launching your own SUP brand?',
+      sub: "You don't need to invest millions in your own factory to build a world-class outdoor brand. What you need is a reliable supply chain partner who handles everything behind the scenes so you can focus on brand building and sales.",
+      points: [
+        { t: 'Full OEM/ODM Concept-to-Production', d: 'Custom board graphics, logo integration, deck pads, and custom packaging.' },
+        { t: 'Low MOQ Flexible Launch', d: 'Small-batch support so you can test the market without tying up massive capital.' },
+        { t: 'Complete Accessory Bundles', d: 'High-performance paddles, pumps, leashes, and travel bags ready to go.' },
+        { t: 'Enterprise-Grade Quality & Certification', d: 'Strict QA/QC protocols, pressure testing, and global export compliance.' },
+      ],
+    },
+    process: {
+      badge: 'Inside the Factory',
+      title: 'How an inflatable SUP is born',
+      sub: 'Ever wondered how a soft board turns rock hard? Five steps inside our plant.',
+      points: [
+        { t: 'Precision Cutting & UV Printing' },
+        { t: '100% Air-Tight Heat Welding' },
+        { t: 'Non-Slip Deck Pad' },
+        { t: 'Hardware & Bungee Cords' },
+        { t: 'Deflate, Fold & Pack' },
+      ],
+    },
+  },
+  es: {
+    launch: {
+      badge: 'Lanzamiento de marca',
+      title: '¿Sueñas con lanzar tu propia marca de SUP?',
+      sub: 'No necesitas invertir millones en tu propia fábrica para construir una marca outdoor de clase mundial. Lo que necesitas es un socio de suministro fiable que gestione todo entre bastidores para que tú te centres en construir tu marca y vender.',
+      points: [
+        { t: 'OEM/ODM completo del concepto a la producción', d: 'Gráficos personalizados, integración de logotipo, pads de cubierta y embalaje a medida.' },
+        { t: 'Lanzamiento flexible con MOQ bajo', d: 'Producción de pequeños lotes para testear el mercado sin inmovilizar capital.' },
+        { t: 'Paquetes de accesorios completos', d: 'Palas, bombas, correas y bolsas de viaje de alto rendimiento listas para enviar.' },
+        { t: 'Calidad y certificación de nivel empresarial', d: 'Protocolos estrictos de QA/QC, pruebas de presión y cumplimiento de exportación global.' },
+      ],
+    },
+    process: {
+      badge: 'Dentro de la fábrica',
+      title: 'Cómo nace un SUP hinchable',
+      sub: '¿Alguna vez te preguntaste cómo una tabla blanda se vuelve rígida? Cinco pasos en nuestra planta.',
+      points: [
+        { t: 'Corte de precisión e impresión UV' },
+        { t: 'Soldadura térmica 100% hermética' },
+        { t: 'Pad de cubierta antideslizante' },
+        { t: 'Hardware y cuerdas elásticas' },
+        { t: 'Desinflar, plegar y empacar' },
+      ],
+    },
+  },
+}
+
 /* ─────────────────────────── how it works ─────────────────────────── */
 
 export interface Step {

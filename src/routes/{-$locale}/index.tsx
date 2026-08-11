@@ -3,7 +3,7 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, faq } from '@/features/site/content'
+import { pick, faq, videoShowcase } from '@/features/site/content'
 import { JsonLd, faqLd } from '@/features/seo/jsonld'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { Hero } from '@/components/marketing/hero'
@@ -14,6 +14,7 @@ import { PlantCapability } from '@/components/marketing/plant-capability'
 import { QualitySteps } from '@/components/marketing/quality-steps'
 import { CommercialTerms } from '@/components/marketing/commercial-terms'
 import { HowItWorks } from '@/components/marketing/how-it-works'
+import { VideoShowcase } from '@/components/marketing/video-showcase'
 import { WhyUs } from '@/components/marketing/why-us'
 import { PlatformsSection } from '@/components/marketing/platforms-section'
 import { StudioSection } from '@/components/marketing/studio-section'
@@ -63,6 +64,11 @@ function Home() {
       <TrustBar />
       <RoleBoundary />
       <SolveSection />
+      <VideoShowcase
+        video="/assets/videos/2026/oem-brand-launch.mp4"
+        poster="/assets/videos/2026/oem-brand-launch.jpg"
+        {...pick(videoShowcase, locale).launch}
+      />
       <PlantCapability />
       <QualitySteps />
       <CommercialTerms />

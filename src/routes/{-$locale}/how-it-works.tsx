@@ -4,10 +4,11 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, worksPage } from '@/features/site/content'
+import { pick, worksPage, videoShowcase } from '@/features/site/content'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero } from '@/components/marketing/section-head'
 import { HowItWorks } from '@/components/marketing/how-it-works'
+import { VideoShowcase } from '@/components/marketing/video-showcase'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
 
@@ -42,6 +43,12 @@ function WorksPage() {
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={!!user} />
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
+      <VideoShowcase
+        video="/assets/videos/2026/sup-manufacturing.mp4"
+        poster="/assets/videos/2026/sup-manufacturing.jpg"
+        flip
+        {...pick(videoShowcase, locale).process}
+      />
       <HowItWorks />
 
       {/* specification review CTA */}
