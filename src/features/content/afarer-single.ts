@@ -41,7 +41,7 @@ export function afarerSingleRoute(path: string) {
           { property: 'og:image', content: loaderData.kind === 'page' ? OG_IMAGE : ((loaderData as { image?: string }).image ?? OG_IMAGE) },
           { property: 'og:image:width', content: '1200' },
           { property: 'og:image:height', content: '630' },
-          { property: 'og:image:type', content: 'image/webp' },
+          { property: 'og:image:type', content: ((loaderData as { image?: string }).image ?? OG_IMAGE).endsWith('.webp') ? 'image/webp' : 'image/jpeg' },
           { property: 'og:image:alt', content: `SUPsfactory — ${title.replace(/\s+\|.*$/, '')}` },
           { name: 'twitter:card', content: 'summary_large_image' },
           { name: 'twitter:title', content: title },

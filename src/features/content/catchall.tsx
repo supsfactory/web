@@ -69,7 +69,11 @@ export const afarerServerLoader = createServerFn({ method: 'GET' })
     const origin = new URL(env.BETTER_AUTH_URL).origin
     const resolved = resolveCatchAll(data.path, data.locale as Locale)
     if (!resolved) throw notFound()
-    return { ...resolved, origin } as CatchAllData
+    const d = { ...resolved, origin } as CatchAllData
+    if (d.kind === 'product' || d.kind === 'post') {
+      d.image = d.image.startsWith('http') ? d.image : `${origin}${d.image}`
+    }
+    return d
   })
 
 /* ─────────────────────────── JSON-LD helpers ─────────────────────────── */
@@ -103,13 +107,14 @@ function researchArticleLd(origin: string, path: string, title: string, descript
 }
 
 function productLd(origin: string, product: AfarerProduct, locale: Locale): Record<string, unknown> {
+  const abs = (u?: string) => (u ? (u.startsWith('http') ? u : `${origin}${u}`) : undefined)
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: product.title,
     sku: product.sku,
     description: brandify(product.description ?? product.summary ?? ''),
-    image: product.image ? [product.image] : undefined,
+    image: abs(product.image) ? [abs(product.image)!] : undefined,
     brand: { '@type': 'Brand', name: 'Afarer' },
     manufacturer: { '@type': 'Organization', name: 'Qingdao Vatrad Group Co., Ltd.' },
     ...(locale === 'es' ? { inLanguage: 'es' } : {}),
