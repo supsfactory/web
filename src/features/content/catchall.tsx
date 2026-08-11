@@ -389,10 +389,10 @@ function ProductView({ product, related, origin, locale }: { product: AfarerProd
                 {es ? 'Fabricación según tu especificación y muestras' : 'Manufacture to your spec, from sample to batch'}
               </p>
             </a>
-            <a href={fl('/custom-sup-development')} className="marine-card p-5 transition-colors hover:border-primary/40">
-              <p className="text-[14px] font-bold">{es ? 'Desarrollo a medida' : 'Custom SUP Development'}</p>
+            <a href={fl('/product-development')} className="marine-card p-5 transition-colors hover:border-primary/40">
+              <p className="text-[14px] font-bold">{es ? 'Desarrollo de producto SUP' : 'SUP Product Development'}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
-                {es ? 'Del concepto al producto — ingeniería y prototipos' : 'From concept to product — engineering and prototyping'}
+                {es ? 'Proceso de desarrollo en 6 pasos — ingeniería, prototipos, moldes y producción' : '6-step development pipeline — engineering, prototyping, moulds and mass production'}
               </p>
             </a>
             <a href={fl('/solutions/private-label-sup')} className="marine-card p-5 transition-colors hover:border-primary/40">
