@@ -56,14 +56,31 @@ export function ProductCard({ product, priority = false }: { product: Product; p
   )
 }
 
-/** Products grid (catalog style) shared by home and /products (the page passes its own header). */
-export function ProductsSection({ heading, limit }: { heading?: React.ReactNode; limit?: number }) {
+/** Products grid (catalog style) shared by home and /products (the page passes its own header).
+ *  Pass `active`/`onActiveChange` to mirror the filter into the URL (e.g. ?platform=race). */
+export function ProductsSection({
+  heading,
+  limit,
+  active,
+  onActiveChange,
+}: {
+  heading?: React.ReactNode
+  limit?: number
+  active?: string
+  onActiveChange?: (key: string) => void
+}) {
   const { locale } = useTranslation()
   const c = pick(products, locale)
   const filters = pick(productFilters, locale)
-  const [active, setActive] = useState('all')
+  const [internalActive, setInternalActive] = useState('all')
+  const current = onActiveChange
+    ? active !== undefined && filters.groups.some((g) => g.key === active)
+      ? active
+      : 'all'
+    : internalActive
+  const change = onActiveChange ?? setInternalActive
   const allItems = limit ? c.items.slice(0, limit) : c.items
-  const items = active === 'all' ? allItems : allItems.filter((p) => p.series === active)
+  const items = current === 'all' ? allItems : allItems.filter((p) => p.series === current)
 
   return (
     <section className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
@@ -72,9 +89,9 @@ export function ProductsSection({ heading, limit }: { heading?: React.ReactNode;
         <div className="mb-10 flex flex-wrap items-center justify-center gap-2">
           <button
             type="button"
-            onClick={() => setActive('all')}
+            onClick={() => change('all')}
             className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-colors ${
-              active === 'all' ? 'bg-primary text-primary-foreground' : 'border border-border-2 text-fg-2 hover:border-primary/40 hover:text-foreground'
+              current === 'all' ? 'bg-primary text-primary-foreground' : 'border border-border-2 text-fg-2 hover:border-primary/40 hover:text-foreground'
             }`}
           >
             {filters.all}
@@ -83,9 +100,9 @@ export function ProductsSection({ heading, limit }: { heading?: React.ReactNode;
             <button
               key={g.key}
               type="button"
-              onClick={() => setActive(active === g.key ? 'all' : g.key)}
+              onClick={() => change(current === g.key ? 'all' : g.key)}
               className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-colors ${
-                active === g.key ? 'bg-primary text-primary-foreground' : 'border border-border-2 text-fg-2 hover:border-primary/40 hover:text-foreground'
+                current === g.key ? 'bg-primary text-primary-foreground' : 'border border-border-2 text-fg-2 hover:border-primary/40 hover:text-foreground'
               }`}
             >
               {g.label}

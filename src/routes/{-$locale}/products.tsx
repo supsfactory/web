@@ -16,6 +16,9 @@ import { Footer } from '@/components/marketing/footer'
 const rootRoute = getRouteApi('__root__')
 
 export const Route = createFileRoute('/{-$locale}/products')({
+  validateSearch: (s: Record<string, unknown>): { platform?: string } => ({
+    platform: typeof s.platform === 'string' ? s.platform : undefined,
+  }),
   loader: async () => {
     const [origin, turnstileSiteKey] = await Promise.all([getOrigin(), getTurnstileSiteKey()])
     return { origin, turnstileSiteKey }
@@ -43,13 +46,24 @@ function ProductsPage() {
   const { locale } = useTranslation()
   const c = pick(productsPage, locale)
   const { turnstileSiteKey } = Route.useLoaderData()
+  const { platform } = Route.useSearch()
+  const navigate = Route.useNavigate()
 
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={!!user} />
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
 
-      <ProductsSection heading={null} />
+      <ProductsSection
+        heading={null}
+        active={platform}
+        onActiveChange={(key) =>
+          navigate({
+            search: (prev) => ({ ...prev, platform: key === 'all' ? undefined : key }),
+            replace: true,
+          })
+        }
+      />
 
       {/* everything is customizable */}
       <section className="border-t border-border bg-bg-alt">
