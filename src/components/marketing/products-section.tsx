@@ -3,7 +3,7 @@ import { pick, products, type Product } from '@/features/site/content'
 import { Reveal } from './reveal'
 
 /** Single catalog card: real product photo with sku/price chips, then brand-book details. */
-export function ProductCard({ product }: { product: Product }) {
+export function ProductCard({ product, priority = false }: { product: Product; priority?: boolean }) {
   const { locale } = useTranslation()
   const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
   return (
@@ -17,7 +17,8 @@ export function ProductCard({ product }: { product: Product }) {
         <img
           src={product.image}
           alt={product.name}
-          loading="lazy"
+          loading={priority ? 'eager' : 'lazy'}
+          fetchPriority={priority ? 'high' : 'auto'}
           className="h-full w-full object-cover"
         />
         <div className="absolute left-3 top-3 flex items-center gap-2">
@@ -66,7 +67,7 @@ export function ProductsSection({ heading, limit }: { heading?: React.ReactNode;
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((p, i) => (
           <Reveal key={p.slug} delay={i * 80}>
-            <ProductCard product={p} />
+            <ProductCard product={p} priority={i === 0} />
           </Reveal>
         ))}
       </div>

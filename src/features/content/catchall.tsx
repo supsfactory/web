@@ -238,7 +238,7 @@ function ProductView({ product, related, origin, locale }: { product: AfarerProd
         <div className="grid gap-8 lg:grid-cols-[1.1fr_1fr]">
           <div className="grid gap-3">
             {gallery.map((img, i) => (
-              <img key={i} src={img.url} alt={img.alt ?? product.title} loading={i === 0 ? 'eager' : 'lazy'} className="w-full rounded-2xl border border-border-2 object-cover" />
+              <img key={i} src={img.url} alt={img.alt ?? product.title} loading={i === 0 ? 'eager' : 'lazy'} fetchPriority={i === 0 ? 'high' : 'auto'} className="w-full rounded-2xl border border-border-2 object-cover" />
             ))}
           </div>
           <div>
