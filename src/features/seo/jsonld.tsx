@@ -210,7 +210,7 @@ export function projectLd(input: {
     about: { '@type': 'Thing', name: input.industry },
     result: input.outcome,
     author: { '@id': `${SITE_ORIGIN}/#organization` },
-    publisher: { '@type': 'Organization', name: 'SUPsfactory' },
+    publisher: { '@type': 'Organization', '@id': `${SITE_ORIGIN}/#organization`, name: 'SUPsfactory' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
   }
 }
@@ -238,7 +238,7 @@ export function newsArticleLd(input: {
       ? { dateModified: input.dateModified }
       : {}),
     ...(input.author ? { author: { '@type': 'Person', name: input.author } } : {}),
-    publisher: { '@type': 'Organization', name: 'Afarer' },
+    publisher: { '@type': 'Organization', '@id': `${SITE_ORIGIN}/#organization`, name: 'SUPsfactory' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': input.url },
     inLanguage: input.inLanguage ?? 'en',
   }
