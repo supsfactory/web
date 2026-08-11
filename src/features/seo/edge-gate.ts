@@ -96,6 +96,7 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/es/research': '/es/knowledge',
   '/resources': '/knowledge',
   '/es/resources': '/es/knowledge',
+  '/es/resources/download-catalog': '/es/products',
   '/community': '/knowledge',
   '/es/community': '/es/knowledge',
   '/lifestyle': '/knowledge',

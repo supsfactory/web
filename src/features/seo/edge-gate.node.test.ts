@@ -121,6 +121,7 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
     to: 'https://afarer.com/disaster-relief-humanitarian-aid',
   })
   expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/products' })
+  expect(gatePath('/es/resources/download-catalog')).toEqual({ action: 'redirect', to: '/es/products' })
   expect(gatePath('/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
   expect(gatePath('/es/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/es/oem-odm-manufacturer' })
   expect(gatePath('/touring-sup')).toEqual({ action: 'redirect', to: '/products' })
