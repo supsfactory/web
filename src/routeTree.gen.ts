@@ -24,6 +24,7 @@ import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
 import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
 import { Route as RanddcenterRouteImport } from './routes/randdcenter'
 import { Route as QualityRouteImport } from './routes/quality'
+import { Route as ProductDevelopmentRouteImport } from './routes/product-development'
 import { Route as PartnersRouteImport } from './routes/partners'
 import { Route as OemPaddleRouteImport } from './routes/oem-paddle'
 import { Route as OemOdmManufacturerRouteImport } from './routes/oem-odm-manufacturer'
@@ -167,6 +168,11 @@ const RanddcenterRoute = RanddcenterRouteImport.update({
 const QualityRoute = QualityRouteImport.update({
   id: '/quality',
   path: '/quality',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProductDevelopmentRoute = ProductDevelopmentRouteImport.update({
+  id: '/product-development',
+  path: '/product-development',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PartnersRoute = PartnersRouteImport.update({
@@ -578,6 +584,7 @@ export interface FileRoutesByFullPath {
   '/oem-odm-manufacturer': typeof OemOdmManufacturerRoute
   '/oem-paddle': typeof OemPaddleRoute
   '/partners': typeof PartnersRoute
+  '/product-development': typeof ProductDevelopmentRoute
   '/quality': typeof QualityRoute
   '/randdcenter': typeof RanddcenterRoute
   '/robots.txt': typeof RobotsDottxtRoute
@@ -663,6 +670,7 @@ export interface FileRoutesByTo {
   '/oem-odm-manufacturer': typeof OemOdmManufacturerRoute
   '/oem-paddle': typeof OemPaddleRoute
   '/partners': typeof PartnersRoute
+  '/product-development': typeof ProductDevelopmentRoute
   '/quality': typeof QualityRoute
   '/randdcenter': typeof RanddcenterRoute
   '/robots.txt': typeof RobotsDottxtRoute
@@ -748,6 +756,7 @@ export interface FileRoutesById {
   '/oem-odm-manufacturer': typeof OemOdmManufacturerRoute
   '/oem-paddle': typeof OemPaddleRoute
   '/partners': typeof PartnersRoute
+  '/product-development': typeof ProductDevelopmentRoute
   '/quality': typeof QualityRoute
   '/randdcenter': typeof RanddcenterRoute
   '/robots.txt': typeof RobotsDottxtRoute
@@ -836,6 +845,7 @@ export interface FileRouteTypes {
     | '/oem-odm-manufacturer'
     | '/oem-paddle'
     | '/partners'
+    | '/product-development'
     | '/quality'
     | '/randdcenter'
     | '/robots.txt'
@@ -921,6 +931,7 @@ export interface FileRouteTypes {
     | '/oem-odm-manufacturer'
     | '/oem-paddle'
     | '/partners'
+    | '/product-development'
     | '/quality'
     | '/randdcenter'
     | '/robots.txt'
@@ -1005,6 +1016,7 @@ export interface FileRouteTypes {
     | '/oem-odm-manufacturer'
     | '/oem-paddle'
     | '/partners'
+    | '/product-development'
     | '/quality'
     | '/randdcenter'
     | '/robots.txt'
@@ -1092,6 +1104,7 @@ export interface RootRouteChildren {
   OemOdmManufacturerRoute: typeof OemOdmManufacturerRoute
   OemPaddleRoute: typeof OemPaddleRoute
   PartnersRoute: typeof PartnersRoute
+  ProductDevelopmentRoute: typeof ProductDevelopmentRoute
   QualityRoute: typeof QualityRoute
   RanddcenterRoute: typeof RanddcenterRoute
   RobotsDottxtRoute: typeof RobotsDottxtRoute
@@ -1222,6 +1235,13 @@ declare module '@tanstack/react-router' {
       path: '/quality'
       fullPath: '/quality'
       preLoaderRoute: typeof QualityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/product-development': {
+      id: '/product-development'
+      path: '/product-development'
+      fullPath: '/product-development'
+      preLoaderRoute: typeof ProductDevelopmentRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/partners': {
@@ -1878,6 +1898,7 @@ const rootRouteChildren: RootRouteChildren = {
   OemOdmManufacturerRoute: OemOdmManufacturerRoute,
   OemPaddleRoute: OemPaddleRoute,
   PartnersRoute: PartnersRoute,
+  ProductDevelopmentRoute: ProductDevelopmentRoute,
   QualityRoute: QualityRoute,
   RanddcenterRoute: RanddcenterRoute,
   RobotsDottxtRoute: RobotsDottxtRoute,
