@@ -177,6 +177,7 @@ const EXTRA_PATHS: Record<string, string> = {
   '/oem-odm': 'oem-odm-manufacturer',
   '/oem-odm-manufacturer': 'oem-odm-manufacturer',
   '/product-development': 'product-development',
+  '/oem/sup-oem-north-america': 'sup-oem-north-america',
   '/oem-paddle': 'oem-paddle',
   '/solutions/rental-operators': 'solutions-rental-operators',
   '/solutions/retail-partners': 'solutions-retail-partners',
