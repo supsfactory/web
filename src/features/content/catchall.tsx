@@ -124,7 +124,7 @@ function productLd(origin: string, product: AfarerProduct, locale: Locale): Reco
           price: product.price.amount,
           priceCurrency: product.price.currency,
           availability: product.inStock === false ? 'https://schema.org/OutOfStock' : 'https://schema.org/InStock',
-          url: `${origin}/products/${product.slug}`,
+          url: `${origin}${locale === 'es' ? '/es' : ''}/products/${product.slug}`,
         }
       : undefined,
   }
@@ -251,6 +251,11 @@ function ProductView({ product, related, origin, locale }: { product: AfarerProd
               )}
             </div>
             {product.price?.note && <p className="mt-2 text-[13px] text-fg-3">{brandify(product.price.note)}</p>}
+            {product.price && (
+              <p className="mt-1 text-[12px] font-semibold text-fg-3">
+                {locale === 'es' ? 'Precio de referencia de venta al público — precio de fábrica OEM según tu especificación' : 'Retail reference price — factory OEM pricing from your specification'}
+              </p>
+            )}
             {product.description && <p className="mt-4 text-[15px] leading-relaxed text-fg-2">{brandify(product.description)}</p>}
             {product.tags && product.tags.length > 0 && (
               <div className="mt-4 flex flex-wrap gap-1.5">

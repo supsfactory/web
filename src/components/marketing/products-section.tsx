@@ -27,7 +27,7 @@ export function ProductCard({ product, priority = false }: { product: Product; p
           </span>
         </div>
         <span className="absolute bottom-3 right-3 rounded-full bg-primary px-3 py-1 text-[12px] font-extrabold text-primary-foreground shadow-[var(--shadow-md)]">
-          {product.price}
+          {locale === 'es' ? 'OEM/ODM' : 'OEM/ODM'}
         </span>
       </div>
       <div className="flex flex-1 flex-col p-6">
