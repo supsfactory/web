@@ -1108,6 +1108,41 @@ function GeoWidget({ c }: { c: R }) {
   )
 }
 
+function BuyerGuidesWidget({ c }: { c: Record<string, unknown> }) {
+  const { locale } = useTranslation()
+  const items = arr(c.items)
+  if (items.length === 0) return null
+  const fl = (href: string): string => (locale === 'en' ? href : href === '/' ? '/es' : `/es${href}`)
+  return (
+    <Container>
+      <SectionHead kicker={str(c.tagline)} title={str(c.title) || 'Buyer\'s Guides'} sub={str(c.subtitle)} />
+      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {items.map((it) => {
+          const o = it as Record<string, unknown>
+          const href = str(o.href)
+          if (!href) return null
+          return (
+            <a
+              key={href}
+              href={fl(href)}
+              className="marine-card group flex h-full flex-col justify-between gap-6 p-6 transition-colors hover:border-primary/40"
+            >
+              <div>
+                <h3 className="font-display text-[17px] font-bold leading-snug">{str(o.title)}</h3>
+                <p className="mt-2 text-[13px] leading-snug text-fg-2">{str(o.body)}</p>
+              </div>
+              <span className="inline-flex items-center gap-1.5 text-[13px] font-bold text-primary">
+                {locale === 'es' ? 'Leer la guía' : 'Read the guide'}
+                <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+              </span>
+            </a>
+          )
+        })}
+      </div>
+    </Container>
+  )
+}
+
 const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNode | null> = {
   intelligence_cards: (c) => <IntelligenceCards c={c} />,
   oem_section: (c) => <OemCases c={c} />,
@@ -1120,6 +1155,7 @@ const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNod
   categories: (c) => <CategoriesWidget c={c} />,
   table: (c) => <SizeTableWidget c={c} />,
   knowledge_sections: (c) => <AcademyKnowledge c={c} />,
+  buyer_guides: (c) => <BuyerGuidesWidget c={c} />,
   // ported afarer solution / OEM page sections
   roi_section: (c) => <PortedRoiSection c={c} />,
   packages: (c) => <PortedFeatureGrid c={c} />,

@@ -59,6 +59,33 @@ why_inhouse:
       description: 'An NDA is signed before any file exchange, and your artwork, tooling and specification files remain your property — never reused, resold or shown to another client.'
       icon: 'tabler:lock'
 
+buyer_guides:
+  tagline: "Buyer's Guides"
+  title: 'The Full Sourcing Library'
+  subtitle: 'Every stage of a custom SUP project, explained with our real lead times, terms and documentation.'
+  items:
+    - title: 'Private Label: The Complete Step-by-Step Guide'
+      body: 'From choosing a factory to a delivered container — the full six-step journey for new brands.'
+      href: '/news/private-label-sup-guide'
+    - title: 'How to Choose a SUP OEM Manufacturer'
+      body: 'The audit questions that separate a real factory from a trader: certifications, QC, samples and ownership.'
+      href: '/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'SUP Product Development Timeline'
+      body: 'Sample in 15–20 days, production in 30–45 days, tooling plus 15–20 — the full calendar, stage by stage.'
+      href: '/news/custom-sup-development-timeline'
+    - title: 'Information to Prepare Before Ordering'
+      body: 'The five details that let a factory quote accurately on the first pass — and avoid spec rework.'
+      href: '/news/info-needed-before-sup-production'
+    - title: 'SUP OEM MOQ and Pricing'
+      body: 'MOQ tiers of 5–10, 50 and 200 units, the six cost drivers, and five ways to cut cost without cutting quality.'
+      href: '/news/sup-oem-moq-pricing'
+    - title: 'CE Certification for Inflatable SUP'
+      body: 'What CE really covers, the five documents to demand, and how to verify a certificate names your model.'
+      href: '/news/ce-certification-inflatable-sup'
+    - title: 'Shipping: FOB vs CIF vs DDP'
+      body: 'What each incoterm covers and costs, the 4–6 week sea-freight timeline, and which term fits your business.'
+      href: '/news/sup-oem-shipping-logistics'
+
 faq_section:
   tagline: FAQ
   title: 'SUP Development Frequently Asked Questions'

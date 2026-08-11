@@ -59,6 +59,33 @@ why_inhouse:
       description: 'Se firma un NDA antes de cualquier intercambio de archivos, y tus archivos de arte, utillaje y especificaciones siguen siendo de tu propiedad — nunca reutilizados, revendidos ni mostrados a otro cliente.'
       icon: 'tabler:lock'
 
+buyer_guides:
+  tagline: 'Guías del comprador'
+  title: 'La biblioteca completa de abastecimiento'
+  subtitle: 'Cada etapa de un proyecto SUP a medida, explicada con nuestros plazos, condiciones y documentación reales.'
+  items:
+    - title: 'SUP de marca privada: la guía completa paso a paso'
+      body: 'De elegir fábrica a un contenedor entregado — el recorrido completo en seis pasos para nuevas marcas.'
+      href: '/news/private-label-sup-guide'
+    - title: 'Cómo elegir un fabricante OEM de SUP'
+      body: 'Las preguntas de auditoría que separan una fábrica real de un intermediario: certificaciones, control de calidad, muestras y propiedad.'
+      href: '/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'Calendario de desarrollo de producto SUP'
+      body: 'Muestra en 15–20 días, producción en 30–45 días, utillaje más 15–20 — el calendario completo, etapa por etapa.'
+      href: '/news/custom-sup-development-timeline'
+    - title: 'Información para preparar antes de pedir'
+      body: 'Los cinco detalles que permiten a una fábrica cotizar con precisión a la primera — y evitar rehacer la especificación.'
+      href: '/news/info-needed-before-sup-production'
+    - title: 'MOQ y precios OEM de SUP'
+      body: 'Niveles de MOQ de 5–10, 50 y 200 unidades, los seis factores de coste y cinco formas de reducir coste sin bajar calidad.'
+      href: '/news/sup-oem-moq-pricing'
+    - title: 'Certificación CE para SUP hinchables'
+      body: 'Qué cubre realmente el CE, los cinco documentos que debes exigir y cómo verificar que un certificado nombra tu modelo.'
+      href: '/news/ce-certification-inflatable-sup'
+    - title: 'Envío: FOB vs CIF vs DDP'
+      body: 'Qué cubre y cuesta cada incoterm, el calendario de 4–6 semanas de flete marítimo y qué término encaja con tu negocio.'
+      href: '/news/sup-oem-shipping-logistics'
+
 faq_section:
   tagline: FAQ
   title: 'Preguntas frecuentes sobre desarrollo de SUP'
