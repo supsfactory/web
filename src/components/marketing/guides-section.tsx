@@ -33,6 +33,15 @@ export function GuidesSection() {
           </Reveal>
         ))}
       </div>
+      <p className="mt-10 text-center text-[14px] text-fg-2">
+        <a
+          href={fl('/product-development')}
+          className="inline-flex items-center gap-1.5 font-bold text-primary hover:underline"
+        >
+          {locale === 'es' ? 'Ver toda la biblioteca de fabricación' : 'Browse the full sourcing library'}
+          <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+        </a>
+      </p>
     </section>
   )
 }
