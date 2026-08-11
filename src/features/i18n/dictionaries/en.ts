@@ -209,6 +209,8 @@ export const en = {
       rights: 'Custom SUP product development & manufacturing partner.',
       owner: 'Afarer — SUP brand of Qingdao Vatrad Group Co., Ltd.',
       followUs: 'Follow us', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
+      contactWhatsApp: 'Chat on WhatsApp', contactWeChat: 'Chat on WeChat',
+      contactWeChatHint: 'Scan the QR code or add the WeChat ID:', contactCopy: 'Copy', contactCopied: 'Copied',
     },
     solutions: {
       ctaCold: 'Learn More',

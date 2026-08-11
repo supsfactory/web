@@ -4,6 +4,7 @@ import { FACTS } from '@/features/site/facts'
 import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
+import { ContactFloats } from '@/components/marketing/contact-floats'
 
 export function Footer({ theme }: { theme: 'light' | 'dark' }) {
   const { t, locale } = useTranslation()
@@ -98,6 +99,7 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           <LangSwitch />
         </div>
       </div>
+      <ContactFloats />
     </footer>
   )
 }
