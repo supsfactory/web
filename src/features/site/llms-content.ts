@@ -52,6 +52,14 @@ export const LLMS_TXT = `# SUPsfactory
 
 ## Knowledge base for buyers
 
+- [SUP Product Development — from concept to container](https://supsfactory.com/product-development): the six-step development pipeline — specification, engineering and 3D, prototyping, testing, moulds and mass production — for custom SUP products.
+- [How to choose a reliable SUP OEM manufacturer](https://supsfactory.com/news/how-to-choose-sup-oem-manufacturer): the factory verification checklist — plant, quality system, certifications and company structure.
+- [How long does it take to develop a custom SUP product?](https://supsfactory.com/news/custom-sup-development-timeline): engineering review in one business day, samples in 15–20 days, production in 30–45 days, plus tooling when new moulds are needed.
+- [What information a brand needs before starting production](https://supsfactory.com/news/info-needed-before-sup-production): the eight specification items a SUP factory needs before quotation and sampling.
+- [How SUP OEM MOQ and pricing work](https://supsfactory.com/news/sup-oem-moq-pricing): MOQ tiers of 5–10, 50 and 200 units, the six cost drivers, and five ways to reduce cost.
+- [CE certification for inflatable SUP — what buyers must check](https://supsfactory.com/news/ce-certification-inflatable-sup): product classification, the five required documents, and how to verify certificate coverage.
+- [SUP shipping from China — FOB vs CIF vs DDP](https://supsfactory.com/news/sup-oem-shipping-logistics): what each incoterm covers and costs, and the 4–6 week sea-freight timeline.
+- [Private label SUP — the complete step-by-step guide](https://supsfactory.com/news/private-label-sup-guide): the full six-step journey from factory choice to a delivered container.
 - [OEM buyer guide — sourcing inflatable watercraft from Asia](https://supsfactory.com/research/oem-buyer-guide)
 - [Private label vs OEM SUP manufacturing — cost, MOQ and lead time](https://supsfactory.com/news/private-label-vs-oem-sup)
 - [SUP manufacturing process explained](https://supsfactory.com/news/sup-manufacturing-process)
