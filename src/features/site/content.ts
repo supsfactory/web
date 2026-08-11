@@ -1406,6 +1406,95 @@ export const guides: Localized<GuidesContent> = {
         href: '/news/ce-certification-inflatable-sup',
       },
       {
+        title: 'Shipping: FOB vs CIF vs DDP',
+        body: 'What each incoterm covers and costs, the 4–6 week sea-freight timeline, and which term fits your business.',
+        href: '/news/sup-oem-shipping-logistics',
+      },
+    ],
+  },
+}
+
+/* ─────────────────────── manufacturing guides (knowledge) ─────────────────────── */
+
+export const manufacturingGuides: Localized<GuidesContent> = {
+  en: {
+    kicker: 'Manufacturing Guides',
+    title: 'From Factory to Container',
+    sub: 'The complete sourcing library — every stage of a custom SUP project with our real lead times, terms and documentation.',
+    guides: [
+      {
+        title: 'How to Choose a SUP OEM Manufacturer',
+        body: 'The audit questions that separate a real factory from a trader: certifications, QC, samples and ownership.',
+        href: '/news/how-to-choose-sup-oem-manufacturer',
+      },
+      {
+        title: 'SUP Product Development Timeline',
+        body: 'Sample in 15–20 days, production in 30–45 days, tooling plus 15–20 — the full calendar, stage by stage.',
+        href: '/news/custom-sup-development-timeline',
+      },
+      {
+        title: 'Information to Prepare Before Ordering',
+        body: 'The five details that let a factory quote accurately on the first pass — and avoid spec rework.',
+        href: '/news/info-needed-before-sup-production',
+      },
+      {
+        title: 'Private Label: The Complete Step-by-Step Guide',
+        body: 'From choosing a factory to a delivered container — the full six-step journey for new brands.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'SUP OEM MOQ and Pricing',
+        body: 'MOQ tiers of 5–10, 50 and 200 units, the six cost drivers, and five ways to cut cost without cutting quality.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'CE Certification for Inflatable SUP',
+        body: 'What CE really covers, the five documents to demand, and how to verify a certificate names your model.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+      {
+        title: 'Shipping: FOB vs CIF vs DDP',
+        body: 'What each incoterm covers and costs, the 4–6 week sea-freight timeline, and which term fits your business.',
+        href: '/news/sup-oem-shipping-logistics',
+      },
+    ],
+  },
+  es: {
+    kicker: 'Guías de fabricación',
+    title: 'De la fábrica al contenedor',
+    sub: 'La biblioteca completa de abastecimiento — cada etapa de un proyecto SUP a medida con nuestros plazos, condiciones y documentación reales.',
+    guides: [
+      {
+        title: 'Cómo elegir un fabricante OEM de SUP',
+        body: 'Las preguntas de auditoría que separan una fábrica real de un intermediario: certificaciones, control de calidad, muestras y propiedad.',
+        href: '/news/how-to-choose-sup-oem-manufacturer',
+      },
+      {
+        title: 'Calendario de desarrollo de producto SUP',
+        body: 'Muestra en 15–20 días, producción en 30–45 días, utillaje más 15–20 — el calendario completo, etapa por etapa.',
+        href: '/news/custom-sup-development-timeline',
+      },
+      {
+        title: 'Información para preparar antes de pedir',
+        body: 'Los cinco detalles que permiten a una fábrica cotizar con precisión a la primera — y evitar rehacer la especificación.',
+        href: '/news/info-needed-before-sup-production',
+      },
+      {
+        title: 'SUP de marca privada: la guía completa paso a paso',
+        body: 'De elegir fábrica a un contenedor entregado — el recorrido completo en seis pasos para nuevas marcas.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'MOQ y precios OEM de SUP',
+        body: 'Niveles de MOQ de 5–10, 50 y 200 unidades, los seis factores de coste y cinco formas de reducir coste sin bajar calidad.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'Certificación CE para SUP hinchables',
+        body: 'Qué cubre realmente el CE, los cinco documentos que debes exigir y cómo verificar que un certificado nombra tu modelo.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+      {
         title: 'Envío: FOB vs CIF vs DDP',
         body: 'Qué cubre y cuesta cada incoterm, el calendario de 4–6 semanas de flete marítimo y qué término encaja con tu negocio.',
         href: '/news/sup-oem-shipping-logistics',
