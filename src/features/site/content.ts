@@ -768,6 +768,7 @@ export const studio: Localized<StudioContent> = {
 export interface Product {
   slug: string
   sku: string
+  series: string
   name: string
   tagline: string
   desc: string
@@ -787,6 +788,42 @@ export interface ProductsContent {
   items: Product[]
 }
 
+export interface ProductFilterGroup {
+  key: string
+  label: string
+}
+
+export const productFilters: Localized<{ all: string; groups: ProductFilterGroup[] }> = {
+  en: {
+    all: 'All Platforms',
+    groups: [
+      { key: 'all-around', label: 'All-Around' },
+      { key: 'race', label: 'Race' },
+      { key: 'surf', label: 'Surf' },
+      { key: 'touring', label: 'Touring' },
+      { key: 'yoga', label: 'Yoga' },
+      { key: 'whitewater', label: 'Whitewater' },
+      { key: 'fishing', label: 'Fishing' },
+      { key: 'kids', label: 'Kids' },
+      { key: 'multi', label: 'Multi-Person' },
+    ],
+  },
+  es: {
+    all: 'Todas las plataformas',
+    groups: [
+      { key: 'all-around', label: 'Polivalente' },
+      { key: 'race', label: 'Competición' },
+      { key: 'surf', label: 'Surf' },
+      { key: 'touring', label: 'Travesía' },
+      { key: 'yoga', label: 'Yoga' },
+      { key: 'whitewater', label: 'Aguas bravas' },
+      { key: 'fishing', label: 'Pesca' },
+      { key: 'kids', label: 'Infantil' },
+      { key: 'multi', label: 'Multipersona' },
+    ],
+  },
+}
+
 export const products: Localized<ProductsContent> = {
   en: {
     kicker: 'Product Platforms',
@@ -795,6 +832,7 @@ export const products: Localized<ProductsContent> = {
     items: [
       {
         slug: 'sup-explorer-11',
+        series: 'all-around',
         sku: 'SUP-EX11',
         name: "SUP Explorer 11'",
         tagline: 'The all-around classic',
@@ -809,6 +847,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-ocean-pulse',
+        series: 'whitewater',
         sku: 'SUP-OP11',
         name: 'Ocean Pulse Series',
         tagline: 'Topographic wave designer edition',
@@ -823,6 +862,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-cheetah-surge',
+        series: 'surf',
         sku: 'SUP-CS11',
         name: 'Cheetah Surge Edition',
         tagline: 'Wild-inspired premium edition',
@@ -837,6 +877,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-medusa-glow',
+        series: 'yoga',
         sku: 'SUP-MG11',
         name: 'Medusa Glow Series',
         tagline: 'The jellyfish edition',
@@ -851,6 +892,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-dolphin-wave',
+        series: 'touring',
         sku: 'SUP-DW11',
         name: 'Dolphin Wave Series',
         tagline: 'Marine 360° edition',
@@ -865,6 +907,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-flowing-lotus',
+        series: 'yoga',
         sku: 'SUP-FL11',
         name: 'Flowing Lotus Series',
         tagline: 'Eastern art wellness edition',
@@ -879,6 +922,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-jungle-mandala',
+        series: 'all-around',
         sku: 'SUP-JM11',
         name: 'Jungle Mandala Series',
         tagline: 'Tropical sacred geometry',
@@ -893,6 +937,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-leviathan-wake',
+        series: 'race',
         sku: 'SUP-LW11',
         name: 'Leviathan Wake Series',
         tagline: 'The whale edition',
@@ -907,6 +952,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-ocean-voyager',
+        series: 'all-around',
         sku: 'SUP-OV11',
         name: 'Ocean Voyager Series',
         tagline: 'The sea turtle edition',
@@ -921,6 +967,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-tropical-breeze',
+        series: 'all-around',
         sku: 'SUP-TB11',
         name: 'Tropical Breeze Series',
         tagline: 'Island escape edition',
@@ -935,6 +982,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-rheo-race',
+        series: 'race',
         sku: 'SUP-RHEO01',
         name: 'RHEO Race Series',
         tagline: 'Carbon hybrid race edition',
@@ -949,6 +997,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-fishing',
+        series: 'fishing',
         sku: 'SUP-FSH01',
         name: 'Inflatable Fishing SUP',
         tagline: 'Catamaran-stability fishing edition',
@@ -963,6 +1012,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-mini',
+        series: 'kids',
         sku: 'SUP-MINI01',
         name: 'Mini SUP Series',
         tagline: '3-in-1 kids / surf / bodyboard',
@@ -977,6 +1027,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-giant',
+        series: 'multi',
         sku: 'SUP-GNT01',
         name: 'Giant SUP — Multi-Person Team Board',
         tagline: '6–8 rider team platform',
@@ -991,6 +1042,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-lure-skiff',
+        series: 'fishing',
         sku: 'SUP-LSK01',
         name: 'Utility SUP — Lure Skiff',
         tagline: 'Ultra-wide 120 cm lure fishing',
@@ -1012,6 +1064,7 @@ export const products: Localized<ProductsContent> = {
     items: [
       {
         slug: 'sup-explorer-11',
+        series: 'all-around',
         sku: 'SUP-EX11',
         name: 'SUP Explorer 11\'',
         tagline: 'El clásico polivalente',
@@ -1026,6 +1079,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-ocean-pulse',
+        series: 'whitewater',
         sku: 'SUP-OP11',
         name: 'Serie Ocean Pulse',
         tagline: 'Edición de diseñador de olas topográficas',
@@ -1040,6 +1094,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-cheetah-surge',
+        series: 'surf',
         sku: 'SUP-CS11',
         name: 'Edición Cheetah Surge',
         tagline: 'Edición premium de inspiración salvaje',
@@ -1054,6 +1109,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-medusa-glow',
+        series: 'yoga',
         sku: 'SUP-MG11',
         name: 'Serie Medusa Glow',
         tagline: 'La edición medusa',
@@ -1068,6 +1124,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-dolphin-wave',
+        series: 'touring',
         sku: 'SUP-DW11',
         name: 'Serie Dolphin Wave',
         tagline: 'Edición marina 360°',
@@ -1082,6 +1139,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-flowing-lotus',
+        series: 'yoga',
         sku: 'SUP-FL11',
         name: 'Serie Flowing Lotus',
         tagline: 'Edición de bienestar artístico oriental',
@@ -1096,6 +1154,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-jungle-mandala',
+        series: 'all-around',
         sku: 'SUP-JM11',
         name: 'Serie Jungle Mandala',
         tagline: 'Geometría sagrada tropical',
@@ -1110,6 +1169,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-leviathan-wake',
+        series: 'race',
         sku: 'SUP-LW11',
         name: 'Serie Leviathan Wake',
         tagline: 'La edición ballena',
@@ -1124,6 +1184,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-ocean-voyager',
+        series: 'all-around',
         sku: 'SUP-OV11',
         name: 'Serie Ocean Voyager',
         tagline: 'La edición tortuga marina',
@@ -1138,6 +1199,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-tropical-breeze',
+        series: 'all-around',
         sku: 'SUP-TB11',
         name: 'Serie Tropical Breeze',
         tagline: 'Edición escapada isleña',
@@ -1152,6 +1214,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-rheo-race',
+        series: 'race',
         sku: 'SUP-RHEO01',
         name: 'Serie RHEO Race',
         tagline: 'Edición de competición híbrida de carbono',
@@ -1166,6 +1229,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-fishing',
+        series: 'fishing',
         sku: 'SUP-FSH01',
         name: 'SUP de Pesca Hinchable',
         tagline: 'Edición de pesca con estabilidad de catamarán',
@@ -1180,6 +1244,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-mini',
+        series: 'kids',
         sku: 'SUP-MINI01',
         name: 'Serie Mini SUP',
         tagline: '3 en 1: infantil / surf / bodyboard',
@@ -1194,6 +1259,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-giant',
+        series: 'multi',
         sku: 'SUP-GNT01',
         name: 'Giant SUP — Tabla de equipo multipersona',
         tagline: 'Plataforma de equipo para 6–8 remeros',
@@ -1208,6 +1274,7 @@ export const products: Localized<ProductsContent> = {
       },
       {
         slug: 'sup-lure-skiff',
+        series: 'fishing',
         sku: 'SUP-LSK01',
         name: 'Utility SUP — Lure Skiff',
         tagline: 'Pesca a señuelo ultrancha de 120 cm',

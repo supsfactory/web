@@ -21,9 +21,10 @@ function WeChatIcon() {
 }
 
 export function ContactFloats() {
-  const { t } = useTranslation()
+  const { t, locale } = useTranslation()
   const [open, setOpen] = useState(false)
   const [copied, setCopied] = useState(false)
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
 
   const copyWeChat = async () => {
     try {
@@ -35,45 +36,80 @@ export function ContactFloats() {
     setTimeout(() => setCopied(false), 2000)
   }
 
-  return (
-    <div className="fixed bottom-5 right-5 z-50 flex flex-col items-end gap-3">
-      {open && (
-        <div className="rounded-xl border border-border bg-bg px-4 py-3 shadow-lg">
-          <p className="text-[13px] font-medium text-foreground">{t('sup.contactWeChatHint')}</p>
-          <div className="mt-2 flex items-center gap-2">
-            <span className="text-[13.5px] text-fg-2">{WECHAT_ID}</span>
-            <button
-              type="button"
-              onClick={copyWeChat}
-              className="rounded-md bg-primary px-2 py-1 text-[12px] font-medium text-primary-foreground transition-colors hover:bg-primary-hover"
-            >
-              {copied ? t('sup.contactCopied') : t('sup.contactCopy')}
-            </button>
-          </div>
-        </div>
-      )}
-      <div className="flex items-center gap-2">
-        <a
-          href={WA_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={t('sup.contactWhatsApp')}
-          title={t('sup.contactWhatsApp')}
-          className="flex h-11 w-11 items-center justify-center rounded-full bg-[#25D366] text-white shadow-md transition-transform hover:scale-105"
-        >
-          <WhatsAppIcon />
-        </a>
+  const wechatPanel = open ? (
+    <div className="rounded-xl border border-border bg-bg px-4 py-3 shadow-lg">
+      <p className="text-[13px] font-medium text-foreground">{t('sup.contactWeChatHint')}</p>
+      <div className="mt-2 flex items-center gap-2">
+        <span className="text-[13.5px] text-fg-2">{WECHAT_ID}</span>
         <button
           type="button"
-          onClick={() => setOpen((o) => !o)}
-          aria-label={t('sup.contactWeChat')}
-          aria-expanded={open}
-          title={t('sup.contactWeChat')}
-          className="flex h-11 w-11 items-center justify-center rounded-full bg-[#07C160] text-white shadow-md transition-transform hover:scale-105"
+          onClick={copyWeChat}
+          className="rounded-md bg-primary px-2 py-1 text-[12px] font-medium text-primary-foreground transition-colors hover:bg-primary-hover"
         >
-          <WeChatIcon />
+          {copied ? t('sup.contactCopied') : t('sup.contactCopy')}
         </button>
       </div>
     </div>
+  ) : null
+
+  return (
+    <>
+      <div className="fixed bottom-5 right-5 z-50 hidden flex-col items-end gap-3 md:flex">
+        {wechatPanel}
+        <div className="flex items-center gap-2">
+          <a
+            href={WA_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={t('sup.contactWhatsApp')}
+            title={t('sup.contactWhatsApp')}
+            className="flex h-11 w-11 items-center justify-center rounded-full bg-[#25D366] text-white shadow-md transition-transform hover:scale-105"
+          >
+            <WhatsAppIcon />
+          </a>
+          <button
+            type="button"
+            onClick={() => setOpen((o) => !o)}
+            aria-label={t('sup.contactWeChat')}
+            aria-expanded={open}
+            title={t('sup.contactWeChat')}
+            className="flex h-11 w-11 items-center justify-center rounded-full bg-[#07C160] text-white shadow-md transition-transform hover:scale-105"
+          >
+            <WeChatIcon />
+          </button>
+        </div>
+      </div>
+
+      {/* mobile sticky contact bar */}
+      <div className="fixed inset-x-0 bottom-0 z-50 border-t border-border bg-background/95 px-4 pb-[max(12px,env(safe-area-inset-bottom))] pt-3 backdrop-blur md:hidden">
+        {open && (
+          <div className="absolute bottom-full left-4 right-4 mb-3 flex justify-center">{wechatPanel}</div>
+        )}
+        <div className="flex items-center gap-2.5">
+          <a
+            href={WA_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex h-11 flex-1 items-center justify-center gap-2 rounded-full bg-[#25D366] text-[14px] font-bold text-white"
+          >
+            <WhatsAppIcon />
+          </a>
+          <button
+            type="button"
+            onClick={() => setOpen((o) => !o)}
+            aria-expanded={open}
+            className="flex h-11 flex-1 items-center justify-center gap-2 rounded-full bg-[#07C160] text-[14px] font-bold text-white"
+          >
+            <WeChatIcon />
+          </button>
+          <a
+            href={fl('/contact')}
+            className="sun-grad flex h-11 flex-1 items-center justify-center rounded-full text-[14px] font-bold text-white"
+          >
+            {t('sup.contactQuote')}
+          </a>
+        </div>
+      </div>
+    </>
   )
 }

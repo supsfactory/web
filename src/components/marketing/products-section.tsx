@@ -1,5 +1,6 @@
+import { useState } from 'react'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, products, type Product } from '@/features/site/content'
+import { pick, products, productFilters, type Product } from '@/features/site/content'
 import { Reveal } from './reveal'
 
 /** Single catalog card: real product photo with sku/price chips, then brand-book details. */
@@ -59,11 +60,39 @@ export function ProductCard({ product, priority = false }: { product: Product; p
 export function ProductsSection({ heading, limit }: { heading?: React.ReactNode; limit?: number }) {
   const { locale } = useTranslation()
   const c = pick(products, locale)
-  const items = limit ? c.items.slice(0, limit) : c.items
+  const filters = pick(productFilters, locale)
+  const [active, setActive] = useState('all')
+  const allItems = limit ? c.items.slice(0, limit) : c.items
+  const items = active === 'all' ? allItems : allItems.filter((p) => p.series === active)
 
   return (
     <section className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
       {heading ?? null}
+      {!limit && (
+        <div className="mb-10 flex flex-wrap items-center justify-center gap-2">
+          <button
+            type="button"
+            onClick={() => setActive('all')}
+            className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-colors ${
+              active === 'all' ? 'bg-primary text-primary-foreground' : 'border border-border-2 text-fg-2 hover:border-primary/40 hover:text-foreground'
+            }`}
+          >
+            {filters.all}
+          </button>
+          {filters.groups.map((g) => (
+            <button
+              key={g.key}
+              type="button"
+              onClick={() => setActive(active === g.key ? 'all' : g.key)}
+              className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-colors ${
+                active === g.key ? 'bg-primary text-primary-foreground' : 'border border-border-2 text-fg-2 hover:border-primary/40 hover:text-foreground'
+              }`}
+            >
+              {g.label}
+            </button>
+          ))}
+        </div>
+      )}
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((p, i) => (
           <Reveal key={p.slug} delay={i * 80}>
