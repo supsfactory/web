@@ -194,6 +194,7 @@ export const es = {
       about: 'Sobre nosotros', howItWorks: 'Cómo funciona', gallery: 'Galería de proyectos', contact: 'Contacto',
       factory: 'Fábrica y fabricación', technology: 'Tecnología', academy: 'Academia', news: 'Noticias',
       guides: 'Guías del sector', evidence: 'Casos de estudio',
+      marketsNorthAmerica: 'OEM de SUP — Norteamérica', marketsEurope: 'OEM de SUP — Europa', marketsAustralia: 'OEM de SUP — Australia',
       terms: 'Términos', privacy: 'Privacidad',
       rights: 'Socio de desarrollo y fabricación de productos SUP personalizados.',
       owner: 'Afarer — marca de SUP de Qingdao Vatrad Group Co., Ltd.',

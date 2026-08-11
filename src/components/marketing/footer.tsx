@@ -64,6 +64,9 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           <a className="foot-link" href={fl('/solutions/distributors')}>{t('sup.nav.solutionsDropdown.distributors')}</a>
           <a className="foot-link" href={fl('/solutions/rental-operators')}>{t('sup.nav.solutionsDropdown.rentalOperators')}</a>
           <a className="foot-link" href={fl('/b2b-solutions-matrix')}>{t('sup.footer.b2bMatrix')}</a>
+          <a className="foot-link" href={fl('/oem/sup-oem-north-america')}>{t('sup.footer.marketsNorthAmerica')}</a>
+          <a className="foot-link" href={fl('/oem/sup-oem-europe')}>{t('sup.footer.marketsEurope')}</a>
+          <a className="foot-link" href={fl('/oem/sup-oem-australia')}>{t('sup.footer.marketsAustralia')}</a>
           <a className="foot-link" href={fl('/partners')}>{t('sup.footer.partners')}</a>
         </FooterCol>
 
