@@ -18,6 +18,7 @@ import { WhyUs } from '@/components/marketing/why-us'
 import { PlatformsSection } from '@/components/marketing/platforms-section'
 import { StudioSection } from '@/components/marketing/studio-section'
 import { GallerySection } from '@/components/marketing/gallery-section'
+import { GuidesSection } from '@/components/marketing/guides-section'
 import { FaqSection } from '@/components/marketing/faq'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
@@ -70,6 +71,7 @@ function Home() {
       <StudioSection />
       <WhyUs />
       <GallerySection />
+      <GuidesSection />
       <FaqSection />
       <JsonLd data={faqLd(pick(faq, locale).items, locale)} />
       <CtaBand />
