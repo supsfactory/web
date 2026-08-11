@@ -1,6 +1,13 @@
+import { useState } from 'react'
+import { Play } from 'lucide-react'
+
 /**
  * Video showcase block — a factory/brand video paired with a step or point
  * list. Used on the home page (brand launch) and /how-it-works (production).
+ *
+ * The video is lazy: only the poster image loads initially; the media file is
+ * fetched after the visitor clicks play (keeps multi-MB videos off the wire
+ * for browsers that never press play).
  */
 export function VideoShowcase({
   video,
@@ -19,20 +26,41 @@ export function VideoShowcase({
   points: { t: string; d?: string }[]
   flip?: boolean
 }) {
+  const [playing, setPlaying] = useState(false)
+
   return (
     <section className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
       <div className={`grid items-center gap-10 lg:grid-cols-2 ${flip ? 'lg:[&>*:first-child]:order-2' : ''}`}>
-        <div className="group relative overflow-hidden rounded-3xl border border-border-2 bg-bg-alt">
+        {playing ? (
           <video
             controls
-            preload="metadata"
+            autoPlay
             playsInline
             poster={poster}
-            className="aspect-video w-full object-cover"
+            className="aspect-video w-full rounded-3xl border border-border-2 bg-bg-alt object-cover"
           >
             <source src={video} type="video/mp4" />
           </video>
-        </div>
+        ) : (
+          <button
+            type="button"
+            onClick={() => setPlaying(true)}
+            aria-label={`Play video: ${title}`}
+            className="group relative block aspect-video w-full overflow-hidden rounded-3xl border border-border-2 bg-bg-alt"
+          >
+            <img
+              src={poster}
+              alt={title}
+              loading="lazy"
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+            />
+            <span className="absolute inset-0 grid place-items-center">
+              <span className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/90 text-white shadow-[var(--shadow-lg)] transition-transform duration-300 group-hover:scale-110">
+                <Play fill="currentColor" size={26} />
+              </span>
+            </span>
+          </button>
+        )}
         <div>
           <span className="pill self-start border-primary/25! bg-soft! text-primary!">{badge}</span>
           <h2 className="mt-4 font-display text-3xl font-extrabold leading-tight tracking-tight">{title}</h2>

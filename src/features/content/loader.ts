@@ -180,6 +180,7 @@ const EXTRA_PATHS: Record<string, string> = {
   '/oem/sup-oem-north-america': 'sup-oem-north-america',
   '/oem/sup-oem-europe': 'sup-oem-europe',
   '/oem/sup-oem-australia': 'sup-oem-australia',
+  '/oem/sup-oem-canada': 'sup-oem-canada',
   '/oem-paddle': 'oem-paddle',
   '/solutions/rental-operators': 'solutions-rental-operators',
   '/solutions/retail-partners': 'solutions-retail-partners',
