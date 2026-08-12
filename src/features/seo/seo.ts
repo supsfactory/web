@@ -37,6 +37,11 @@ const HREFLANG: Record<Locale, string> = { en: 'en-US', es: 'es-ES' }
 // 由 scripts/afarer-images 上传工作流同步到 R2；本地重新生成后需重新跑上传）。
 export const OG_IMAGE = 'https://assets.supsfactory.com/images/sups/products/afarer-og-default.webp'
 
+// 首页 hero 显示图：同一个 1200x630 OG 图的 AVIF 编码（scripts/afarer-images/products/
+// afarer-og-default.avif，q50，70KB → 38KB）。显示用 AVIF 减 LCP 传输；og:image 留 webp
+// 是因为部分社交爬虫对 AVIF 支持不全。
+export const HERO_IMAGE = 'https://assets.supsfactory.com/images/sups/products/afarer-og-default.avif'
+
 export function buildRobots(origin: string): string {
   const aiAgents = [
     'GPTBot',

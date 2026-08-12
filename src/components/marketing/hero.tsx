@@ -1,7 +1,7 @@
 import { ArrowRight, BadgeCheck } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, hero } from '@/features/site/content'
-import { OG_IMAGE } from '@/features/seo/seo'
+import { HERO_IMAGE } from '@/features/seo/seo'
 
 /** Home hero: 100svh ocean scene — headline left, brand mockup card on a water stage right, drifting waves below. */
 export function Hero() {
@@ -87,7 +87,7 @@ export function Hero() {
                 aria-hidden="true"
               />
               <img
-                src={OG_IMAGE}
+                src={HERO_IMAGE}
                 alt={c.mockupBrand}
                 width={1200}
                 height={630}
