@@ -3,7 +3,7 @@ import { Eye, LogOut } from 'lucide-react'
 import { authClient, useSession } from '@/features/auth/auth.client'
 import { useTranslation } from '@/features/i18n/provider'
 
-export function ImpersonationBanner() {
+export default function ImpersonationBanner() {
   const { data } = useSession()
   const { t } = useTranslation()
   const router = useRouter()
