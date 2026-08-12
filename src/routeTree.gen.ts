@@ -369,12 +369,14 @@ const Char123LocaleChar125ChangelogRoute =
     id: '/changelog',
     path: '/changelog',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/changelog.lazy').then((d) => d.Route),
+  )
 const DocsSplatRoute = DocsSplatRouteImport.update({
   id: '/docs/$',
   path: '/docs/$',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/docs/$.lazy').then((d) => d.Route))
 const DocsMdSplatRoute = DocsMdSplatRouteImport.update({
   id: '/docs-md/$',
   path: '/docs-md/$',

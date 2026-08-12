@@ -1,11 +1,11 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { source } from '@/features/docs/source'
 import { getLLMText } from '@/features/docs/llm'
 
 /**
  * Serves a docs page as LLM-friendly Markdown (`# title (url)` + body, no
  * frontmatter) — the target of the "Copy Markdown" button and handy for LLMs.
  * Slug is the path after `/docs-md/` (empty = the docs index).
+ * source (fumadocs) 动态加载：纯 server 路由，避免文档栈进入 client bundle。
  */
 const handler = async ({ request }: { request: Request }) => {
   const path = new URL(request.url).pathname
@@ -19,6 +19,7 @@ const handler = async ({ request }: { request: Request }) => {
     return new Response('Not found', { status: 404 })
   }
   const slugs = decoded.split('/').filter(Boolean)
+  const { source } = await import('@/features/docs/source')
   const page = source.getPage(slugs)
   if (!page) return new Response('Not found', { status: 404 })
   const text = getLLMText(page)
