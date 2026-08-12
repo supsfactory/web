@@ -60,8 +60,16 @@ export function ContactFloats() {
   }
 
   const wechatPanel = open ? (
-    <div className="rounded-xl border border-border bg-bg px-4 py-3 shadow-lg">
-      <p className="text-[13px] font-medium text-foreground">{t('sup.contactWeChatHint')}</p>
+    <div className="flex w-[300px] flex-col items-center rounded-xl border border-border bg-bg p-4 shadow-lg">
+      <img
+        src="/assets/wechat-qr.png"
+        alt="WeChat QR code"
+        width="160"
+        height="160"
+        loading="lazy"
+        className="h-40 w-40 rounded-lg border border-border-2 bg-white p-1.5"
+      />
+      <p className="mt-3 text-center text-[13px] font-medium text-foreground">{t('sup.contactWeChatHint')}</p>
       <div className="mt-2 flex items-center gap-2">
         <span className="text-[13.5px] text-fg-2">{WECHAT_ID}</span>
         <button
