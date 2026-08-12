@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useTranslation } from '@/features/i18n/provider'
 
 const WA_URL = 'https://wa.me/8613305324192'
@@ -24,7 +24,30 @@ export function ContactFloats() {
   const { t, locale } = useTranslation()
   const [open, setOpen] = useState(false)
   const [copied, setCopied] = useState(false)
+  const [hidden, setHidden] = useState(false)
   const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+
+  // Hide while scrolling down (and when reading the page footer), reappear on scroll up.
+  useEffect(() => {
+    let lastY = window.scrollY
+    let raf = 0
+    const onScroll = () => {
+      if (raf) return
+      raf = requestAnimationFrame(() => {
+        raf = 0
+        const y = window.scrollY
+        const delta = y - lastY
+        if (delta > 4 && y > 140) setHidden(true)
+        else if (delta < -4) setHidden(false)
+        lastY = y
+      })
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      if (raf) cancelAnimationFrame(raf)
+    }
+  }, [])
 
   const copyWeChat = async () => {
     try {
@@ -54,7 +77,11 @@ export function ContactFloats() {
 
   return (
     <>
-      <div className="fixed bottom-5 right-5 z-50 hidden flex-col items-end gap-3 md:flex">
+      <div
+        className={`fixed bottom-5 right-5 z-50 hidden flex-col items-end gap-3 transition-all duration-300 md:flex ${
+          hidden ? 'translate-y-24 opacity-0' : 'translate-y-0 opacity-100'
+        }`}
+      >
         {wechatPanel}
         <div className="flex items-center gap-2">
           <a
@@ -81,7 +108,11 @@ export function ContactFloats() {
       </div>
 
       {/* mobile sticky contact bar */}
-      <div className="fixed inset-x-0 bottom-0 z-50 border-t border-border bg-background/95 px-4 pb-[max(12px,env(safe-area-inset-bottom))] pt-3 backdrop-blur md:hidden">
+      <div
+        className={`fixed inset-x-0 bottom-0 z-50 border-t border-border bg-background/95 px-4 pb-[max(12px,env(safe-area-inset-bottom))] pt-3 backdrop-blur transition-transform duration-300 md:hidden ${
+          hidden ? 'translate-y-full' : 'translate-y-0'
+        }`}
+      >
         {open && (
           <div className="absolute bottom-full left-4 right-4 mb-3 flex justify-center">{wechatPanel}</div>
         )}
@@ -90,6 +121,7 @@ export function ContactFloats() {
             href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={t('sup.contactWhatsApp')}
             className="flex h-11 flex-1 items-center justify-center gap-2 rounded-full bg-[#25D366] text-[14px] font-bold text-white"
           >
             <WhatsAppIcon />
@@ -97,6 +129,7 @@ export function ContactFloats() {
           <button
             type="button"
             onClick={() => setOpen((o) => !o)}
+            aria-label={t('sup.contactWeChat')}
             aria-expanded={open}
             className="flex h-11 flex-1 items-center justify-center gap-2 rounded-full bg-[#07C160] text-[14px] font-bold text-white"
           >
