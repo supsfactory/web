@@ -175,7 +175,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
         return (
           <>
             <ProductView product={data.product} related={data.related} origin={data.origin} locale={data.locale} />
-            <CtaBand />
+            <CtaBand productSlug={data.product.slug} />
           </>
         )
       case 'post':
@@ -685,6 +685,9 @@ function FaqView({ faqs, origin, path, translated, locale }: { faqs: { q: string
           ))}
         </div>
       </section>
+      <div className="mx-auto max-w-3xl px-5 pb-4">
+        <ContentCta locale={locale} />
+      </div>
       <JsonLd data={breadcrumbLd(origin, [{ name: locale === 'es' ? 'Inicio' : 'Home', path: '/' }, { name: 'FAQ', path }])} />
       <JsonLd data={faqLd(faqs, locale)} />
     </>

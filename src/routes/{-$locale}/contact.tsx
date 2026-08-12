@@ -68,13 +68,18 @@ function ContactPage() {
                 <p className="mt-0.5 text-[15px] font-semibold">info@supsfactory.com</p>
               </div>
             </a>
-            <div className="marine-card flex items-center gap-4 p-5">
+            <a
+              href="https://wa.me/8613305324192"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="marine-card flex items-center gap-4 p-5 transition-colors hover:border-primary/40"
+            >
               <span className="icon-tile"><MessageCircle size={19} /></span>
               <div>
                 <p className="text-[12px] font-bold uppercase tracking-wide text-fg-3">{t('sup.contact.whatsappLabel')}</p>
                 <p className="mt-0.5 text-[15px] font-semibold">+86 13305324192</p>
               </div>
-            </div>
+            </a>
           </div>
           <div className="mt-7 flex flex-col gap-3 rounded-xl border border-border bg-bg-alt p-5 text-[13.5px] text-fg-2">
             <p className="flex items-center gap-2.5">
