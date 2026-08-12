@@ -20,7 +20,7 @@ import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
-import { JsonLd, breadcrumbLd, faqLd, newsArticleLd } from '@/features/seo/jsonld'
+import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd } from '@/features/seo/jsonld'
 import { brandify } from './brand'
 import { AferIndexProvider, type AferIndexData } from './index-data'
 import { getGuide } from './guide-content'
@@ -202,6 +202,11 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
               sub={data.translated ? 'Cómo lanzan y escalan su marca las marcas, resorts y operadores con nuestra fábrica.' : 'How brands, resorts and operators launch and scale with our factory.'}
             />
             <CaseStudiesIndex />
+            {data.index.cases && data.index.cases.length > 0 && (
+              <JsonLd
+                data={itemListLd(data.index.cases.map((c) => ({ name: c.title, path: `/evidence/case-studies/${c.slug}` })))}
+              />
+            )}
           </>
         )
       case 'research-index':
@@ -213,6 +218,11 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
               sub={data.translated ? 'Investigación técnica en profundidad sobre materiales, construcción, estándares de seguridad y fabricación de SUP.' : 'In-depth technical research on SUP materials, construction, safety standards and manufacturing.'}
             />
             <ResearchIndex />
+            {data.index.topics && data.index.topics.length > 0 && (
+              <JsonLd
+                data={itemListLd(data.index.topics.map((t) => ({ name: t.slug.replace(/-/g, ' '), path: `/research/${t.slug}` })))}
+              />
+            )}
           </>
         )
     }

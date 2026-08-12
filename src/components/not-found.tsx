@@ -31,6 +31,14 @@ export function NotFound() {
       >
         {es ? 'Volver al inicio' : 'Back to home'}
       </a>
+      <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+        <a href={es ? '/es/products' : '/products'} className="rounded-[6px] border border-border-2 px-5 py-2.5 text-sm font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary">
+          {es ? 'Explorar plataformas' : 'Browse platforms'}
+        </a>
+        <a href={es ? '/es/contact' : '/contact'} className="rounded-[6px] border border-border-2 px-5 py-2.5 text-sm font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary">
+          {es ? 'Contactar' : 'Contact us'}
+        </a>
+      </div>
     </main>
   )
 }
