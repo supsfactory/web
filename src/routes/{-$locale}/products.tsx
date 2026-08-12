@@ -5,7 +5,8 @@ import { getOrigin } from '@/features/seo/seo.fns'
 import { getTurnstileSiteKey } from '@/features/auth/middleware'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, productsPage } from '@/features/site/content'
+import { pick, products, productsPage } from '@/features/site/content'
+import { JsonLd, itemListLd } from '@/features/seo/jsonld'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero } from '@/components/marketing/section-head'
 import { ProductsSection } from '@/components/marketing/products-section'
@@ -63,6 +64,9 @@ function ProductsPage() {
             replace: true,
           })
         }
+      />
+      <JsonLd
+        data={itemListLd(pick(products, locale).items.map((p) => ({ name: p.name, path: `/products/${p.slug}` })))}
       />
 
       {/* everything is customizable */}

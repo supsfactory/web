@@ -41,10 +41,13 @@ export const Route = createFileRoute('/$')({
     const { origin, path, title, description, locale, translated } = loaderData
     const canonical = `${origin}${path}`
     const image = loaderData.kind === 'page' ? OG_IMAGE : ((loaderData as { image?: string }).image ?? OG_IMAGE)
+    // og:image must be absolute; local /assets/* refs are resolved against the
+    // site origin, and the 1200x630 pair only applies to the shared OG_IMAGE.
+    const absImage = image.startsWith('http') ? image : `${origin}${image}`
     // Translated /es/* pages get a real Spanish head (canonical → /es, es_ES
     // OG locale, hreflang alternates) and are indexable.
     if (loaderData.localized && translated) {
-      return localeHead({ origin, locale, path, title, description, image })
+      return localeHead({ origin, locale, path, title, description, image: absImage })
     }
     const meta: Record<string, string>[] = [
       { title },
@@ -55,15 +58,19 @@ export const Route = createFileRoute('/$')({
       { property: 'og:url', content: canonical },
       { property: 'og:locale', content: 'en_US' },
       { property: 'og:type', content: loaderData.kind === 'post' ? 'article' : loaderData.kind === 'product' ? 'product' : 'website' },
-      { property: 'og:image', content: image },
-      { property: 'og:image:width', content: '1200' },
-      { property: 'og:image:height', content: '630' },
-      { property: 'og:image:type', content: image.endsWith('.webp') ? 'image/webp' : 'image/jpeg' },
+      { property: 'og:image', content: absImage },
+      ...(image === OG_IMAGE
+        ? [
+            { property: 'og:image:width', content: '1200' },
+            { property: 'og:image:height', content: '630' },
+          ]
+        : []),
+      { property: 'og:image:type', content: absImage.endsWith('.webp') ? 'image/webp' : 'image/jpeg' },
       { property: 'og:image:alt', content: `SUPsfactory — ${title.replace(/\s+\|.*$/, '')}` },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: title },
       { name: 'twitter:description', content: description },
-      { name: 'twitter:image', content: image },
+      { name: 'twitter:image', content: absImage },
       { name: 'twitter:image:alt', content: `SUPsfactory — ${title.replace(/\s+\|.*$/, '')}` },
     ]
     // /es/* afarer pages without a translation render the same English content
