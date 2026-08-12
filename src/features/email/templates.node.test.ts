@@ -25,3 +25,15 @@ test('catalog-request 模板渲染线索文案 EN/ES', async () => {
   expect(es.subject).toBe('Hemos recibido tu solicitud de catálogo — SUPsfactory')
   expect(es.html).toContain('https://example.org/es/products')
 })
+
+test('inquiry-ack 模板无链接、双语渲染回复承诺', async () => {
+  const en = await renderEmail({ template: 'inquiry-ack', locale: 'en', data: {} })
+  expect(en.subject).toBe('We received your project inquiry — SUPsfactory')
+  expect(en.html).toContain('MOQ, sample timing and lead times')
+  expect(en.html).not.toContain('<a href=')
+  expect(en.text).toContain('Inquiry received')
+
+  const es = await renderEmail({ template: 'inquiry-ack', locale: 'es', data: {} })
+  expect(es.subject).toBe('Hemos recibido tu consulta de proyecto — SUPsfactory')
+  expect(es.html).toContain('MOQ, los tiempos de muestra')
+})

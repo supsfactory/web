@@ -38,6 +38,11 @@ export const es = {
       body: 'Nuestro equipo comercial enviará el catálogo completo y la ficha de MOQ a esta bandeja en un día laborable. Mientras tanto, puedes consultar las especificaciones de cada plataforma en la página de productos.',
       button: 'Ver plataformas de productos',
     },
+    ack: {
+      subject: 'Hemos recibido tu consulta de proyecto — SUPsfactory',
+      heading: 'Consulta recibida',
+      body: 'Gracias por tu consulta. Nuestro equipo comercial responderá a esta bandeja en un día laborable con el MOQ, los tiempos de muestra y los plazos para tu mercado. Si compartiste un logo, incluiremos una prueba visual junto con el presupuesto.',
+    },
   },
   app: {
     dashboard: 'Panel',

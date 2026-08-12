@@ -48,6 +48,11 @@ export const en = {
       body: 'Our sales team will send the full product catalog and MOQ sheet to this inbox within one business day. Meanwhile, you can browse every platform specification on the products page.',
       button: 'Browse product platforms',
     },
+    ack: {
+      subject: 'We received your project inquiry — SUPsfactory',
+      heading: 'Inquiry received',
+      body: 'Thank you for your inquiry. Our sales team will reply to this inbox within one business day with MOQ, sample timing and lead times for your market. If you shared a logo, we will include a visual proof with the quotation.',
+    },
   },
   app: {
     dashboard: 'Dashboard',

@@ -104,5 +104,14 @@ export const submitInquiry = createServerFn({ method: 'POST' })
       console.error('[inquiry] admin notification failed', err)
     }
 
+    // Best-effort ack to the submitter — reassurance cuts lead drop-off; a mail
+    // outage must not block the submission (dev transport captures locally).
+    try {
+      const { sendEmail } = await import('@/features/email/email.server')
+      await sendEmail({ to: input.email, locale: row.locale === 'es' ? 'es' : 'en', template: 'inquiry-ack', data: {} })
+    } catch (err) {
+      console.error('[inquiry] ack email failed', err)
+    }
+
     return { ok: true }
   })

@@ -1,9 +1,9 @@
 import { dictionaries, type Locale } from '@/features/i18n/locale'
 
 interface RenderInput {
-  template: 'verify-email' | 'reset-password' | 'catalog-request'
+  template: 'verify-email' | 'reset-password' | 'catalog-request' | 'inquiry-ack'
   locale: Locale
-  data: { url: string }
+  data: { url?: string }
 }
 
 function esc(s: string): string {
@@ -12,13 +12,21 @@ function esc(s: string): string {
 
 export async function renderEmail(input: RenderInput): Promise<{ subject: string; html: string; text: string }> {
   const dict = dictionaries[input.locale]
+  const url = input.data.url ?? ''
+  if (input.template === 'inquiry-ack') {
+    const k = dict.email.ack
+    const html = `<!doctype html><html><body style="font-family:sans-serif;background:#f6f6f6">
+<div style="max-width:480px;margin:24px auto;padding:24px;background:#fff;border-radius:8px">
+<h1 style="color:#0b2540">${esc(k.heading)}</h1><p>${esc(k.body)}</p>
+<p style="color:#888;font-size:12px">SUPsfactory · info@supsfactory.com · +86-13305324192</p></div></body></html>`
+    return { subject: k.subject, html, text: `${k.heading}\n\n${k.body}` }
+  }
   const k =
     input.template === 'verify-email'
       ? dict.email.verify
       : input.template === 'reset-password'
         ? dict.email.reset
         : dict.email.catalog
-  const url = input.data.url
   const html = `<!doctype html><html><body style="font-family:sans-serif;background:#f6f6f6">
 <div style="max-width:480px;margin:24px auto;padding:24px;background:#fff;border-radius:8px">
 <h1>${esc(k.heading)}</h1><p>${esc(k.body)}</p>
