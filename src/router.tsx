@@ -9,7 +9,9 @@ export function getRouter() {
     routeTree,
     scrollRestoration: true,
     defaultPreload: 'intent',
-    defaultPreloadStaleTime: 0,
+    // One-minute stale window so repeated hovers on the same link don't refetch
+    // the preloaded route (marketing pages change rarely).
+    defaultPreloadStaleTime: 60_000,
     defaultNotFoundComponent: NotFound,
     defaultErrorComponent: ErrorPage,
     // <Scripts /> (and inline route scripts) pick up the request-scoped CSP
