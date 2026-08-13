@@ -210,6 +210,84 @@ export const GUIDES: Guide[] = [
       { q: 'Is a deposit normal when ordering from a SUP factory?', a: 'Yes — 30% deposit with production start, 70% against shipping documents is the industry standard and protects both importer and factory.' },
     ],
   },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'Private Label SUP: What You Actually Get From a Factory',
+    intro: [
+      'Private label is the fastest way to launch a SUP brand: your logo on a proven platform, without the cost and risk of designing a board from scratch. Here is what working with a custom SUP manufacturer actually includes.',
+    ],
+    sections: [
+      {
+        title: 'Private Label Means Proven Platforms',
+        body: 'You start from platforms the factory already builds and tests — all-around, touring, yoga, race and more. The factory customizes branding, graphics and trim, which keeps costs low and lead times short. Minimums are tiered: 50 units per design for a standard private-label batch, with trial runs from 5–10 units to validate the market first.',
+      },
+      {
+        title: 'Branding Goes Beyond the Logo',
+        body: 'Private label covers your logo printing (digital or screen), custom color schemes, cut-to-shape EVA traction pads with your logo, accessory branding (paddle, pump, leash), retail box design and even point-of-sale displays. Send your artwork and the factory produces a visual proof before production.',
+      },
+      {
+        title: 'What the Factory Handles for You',
+        body: 'A full-service SUP factory manages artwork setup, material sourcing, sample production, a 100-point assembly QC checklist, pressure testing and export documentation (invoice, packing list, bill of lading, certificate of origin). You review proofs and approve the sample — the factory runs everything else.',
+      },
+      {
+        title: 'What You Own: Brand, Market, Customer',
+        body: 'In a private-label arrangement the factory builds the boards and you own the brand. Reputable manufacturers do not retail their own boards in your market or sell your custom design to others. Ask about market exclusivity in your quote.',
+      },
+      {
+        title: 'Costs: Sample, Mould, Artwork Setup',
+        body: 'Expect three types of charges: sample fees (15–20 days to produce), tooling costs when a new mould is required (200-unit minimum), and artwork setup for printing. Most factories credit sample and mould costs toward your first production order.',
+      },
+      {
+        title: 'From PO to Container',
+        body: 'A typical private-label run: 30% deposit starts production, batch production completes in 30–45 days after confirmed PO and deposit, and the 70% balance settles against shipping documents. Plan 8–12 weeks total from order to your port in the first run.',
+      },
+    ],
+    faqs: [
+      { q: 'What is the minimum order for private label SUP boards?', a: '50 units per design for a standard private-label batch, with trial runs from 5–10 units and 200 units for fully custom-mould projects.' },
+      { q: 'Can I send my own logo and artwork?', a: 'Yes — send your logo and artwork; the factory produces a visual proof before production so you approve colors, placement and finishing.' },
+      { q: 'Is my custom SUP design exclusive to my brand?', a: 'Yes with standard private-label terms. Ask for an exclusivity clause in your purchase agreement; factories like ours do not resell your branded design.' },
+      { q: 'How long does a private label SUP order take?', a: 'Samples ship in 15–20 days; batch production completes in 30–45 days after confirmed PO and deposit. Budget 8–12 weeks for the first full run.' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'Buying SUP Fleets for Rentals, Resorts & Clubs',
+    intro: [
+      'Fleet buyers need different answers than end users: durability per session, standardized spares, container-level quantities and a supplier that delivers season after season. Here is what to plan before ordering your first fleet.',
+    ],
+    sections: [
+      {
+        title: 'Standardize on One or Two Specifications',
+        body: 'Fleet operations run on standardization: one board size (usually 10\'6"–11\'0" × 32") for most guests, one hard-wearing package, one spares kit. It simplifies repairs, staff training, storage and reordering. Resist the temptation to buy ten different models.',
+      },
+      {
+        title: 'High-Duty Boards Are a Different Product',
+        body: 'A rental board takes dozens of sessions per season. Specify thicker PVC layers, reinforced rail bands and heavier-duty accessories compared with retail boards. Ask the factory how the fleet spec differs from the consumer version — real plants have both.',
+      },
+      {
+        title: 'Plan Quantities by Container',
+        body: 'A 40-foot high-cube holds roughly 1,000–1,200 complete SUP packages. Compute your fleet size against daily rotation and season length: 20–30 boards serve a small stand, 100+ a busy resort or club. Consolidation options exist for sub-container orders.',
+      },
+      {
+        title: 'Buy Spares With the Fleet',
+        body: 'Order spare valves, repair kits, pumps, leashes and paddles in the same PO — they cost little per unit now and are painful to source mid-season. Ask the factory for a recommended spares ratio (typically 5–10% of fleet size for consumables).',
+      },
+      {
+        title: 'Order Against the Season, Not During It',
+        body: 'Production runs 30–45 days after PO plus sea freight to your port. To have boards on the beach by spring, confirm orders in late autumn and bank the deposit price before peak-season rate hikes on freight.',
+      },
+      {
+        title: 'Brand the Fleet for Resale Value',
+        body: 'Fleet boards can carry your logo, a rental numbering system and color coding by size. Screen-printed logos on 200+ unit runs are cost-effective, and a branded fleet doubles as marketing on the water.',
+      },
+    ],
+    faqs: [
+      { q: 'What is the best SUP for a rental fleet?', a: 'A 10\'6"–11\'0" × 32" all-around board with reinforced construction is the industry standard — stable for beginners, durable for daily use and easy to service.' },
+      { q: 'How many boards does a rental operation need?', a: 'Plan for 20–30 boards for a small stand, scaling with rotation: 100+ units for busy resorts and clubs. Spares should be 5–10% of fleet size.' },
+      { q: 'Can fleet boards be branded with our logo?', a: 'Yes — screen-printed logos, rental numbering and color-coded decks are standard customizations, particularly cost-effective from 200 units.' },
+      { q: 'How long does a fleet order take?', a: 'Samples in 15–20 days, production in 30–45 days after confirmed PO and deposit, plus sea freight. Order 8–12 weeks before your season starts.' },
+    ],
+  },
 ]
 
 /** Spanish variants of the four beginner guides (same slugs, translated copy). */
@@ -395,6 +473,84 @@ export const GUIDES_ES: Guide[] = [
       { q: '¿Es normal pagar un depósito a una fábrica de SUP?', a: 'Sí — 30% de depósito al inicio de la producción y 70% contra documentos de embarque es el estándar del sector y protege tanto al importador como a la fábrica.' },
     ],
   },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'SUP de marca privada: qué incluye de verdad una fábrica',
+    intro: [
+      'La marca privada es la vía más rápida para lanzar una marca de SUP: tu logotipo sobre una plataforma probada, sin el coste ni el riesgo de diseñar una tabla desde cero. Esto es lo que incluye trabajar con un fabricante de SUP personalizados.',
+    ],
+    sections: [
+      {
+        title: 'Marca privada significa plataformas probadas',
+        body: 'Partes de plataformas que la fábrica ya construye y prueba — all-around, touring, yoga, race y más. La fábrica personaliza marca, gráficos y acabados, lo que mantiene costes bajos y plazos cortos. Los mínimos son por tramos: 50 unidades por diseño para un lote estándar, con pruebas desde 5–10 unidades para validar el mercado primero.',
+      },
+      {
+        title: 'La marca va más allá del logotipo',
+        body: 'La marca privada incluye tu impresión de logotipo (digital o serigrafía), esquemas de color personalizados, alfombrillas EVA troqueladas con tu logotipo, accesorios con marca (pala, bomba, leash), diseño de caja retail e incluso expositores para punto de venta. Envía tu arte y la fábrica produce una prueba visual antes de la producción.',
+      },
+      {
+        title: 'Qué gestiona la fábrica por ti',
+        body: 'Una fábrica de servicio completo gestiona la preparación de arte, el abastecimiento de materiales, la producción de muestras, la lista de verificación de montaje de 100 puntos, las pruebas de presión y la documentación de exportación (factura, packing list, conocimiento de embarque, certificado de origen). Tú revisas las pruebas y apruebas la muestra — la fábrica se encarga del resto.',
+      },
+      {
+        title: 'Lo que tú posees: marca, mercado y cliente',
+        body: 'En un acuerdo de marca privada, la fábrica construye las tablas y tú posees la marca. Los fabricantes de reputación no venden tablas con su propio nombre en tu mercado ni venden tu diseño a otros. Pregunta por la exclusividad de mercado en tu cotización.',
+      },
+      {
+        title: 'Costes: muestra, molde y preparación de arte',
+        body: 'Espera tres tipos de cargos: tarifas de muestra (15–20 días), costes de utillaje cuando se requiere un molde nuevo (mínimo de 200 unidades) y preparación de arte para la impresión. La mayoría de fábricas descuenta la muestra y el molde del primer pedido de producción.',
+      },
+      {
+        title: 'Del PO al contenedor',
+        body: 'Una tirada típica de marca privada: el 30% de depósito inicia la producción, la producción en serie se completa en 30–45 días tras PO confirmado y depósito, y el 70% restante se liquida contra los documentos de embarque. Calcula de 8 a 12 semanas desde el pedido hasta tu puerto en la primera tirada.',
+      },
+    ],
+    faqs: [
+      { q: '¿Cuál es el pedido mínimo para tablas SUP de marca privada?', a: '50 unidades por diseño para un lote estándar de marca privada, con pruebas desde 5–10 unidades y 200 unidades para proyectos de molde totalmente a medida.' },
+      { q: '¿Puedo enviar mi propio logotipo y arte?', a: 'Sí — envía tu logotipo y arte; la fábrica produce una prueba visual antes de la producción para que apruebes colores, colocación y acabado.' },
+      { q: '¿Mi diseño de SUP personalizado es exclusivo de mi marca?', a: 'Sí, con condiciones estándar de marca privada. Pide una cláusula de exclusividad en tu contrato; fábricas como la nuestra no revenden diseños con tu marca.' },
+      { q: '¿Cuánto tarda un pedido de SUP de marca privada?', a: 'Las muestras se envían en 15–20 días; la producción en serie se completa en 30–45 días tras PO confirmado y depósito. Calcula de 8 a 12 semanas para la primera tirada completa.' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'Comprar flotas de SUP para alquiler, resorts y clubes',
+    intro: [
+      'Los compradores de flotas necesitan respuestas distintas a las de los usuarios finales: durabilidad por sesión, repuestos estandarizados, cantidades a nivel de contenedor y un proveedor que entregue temporada tras temporada. Esto es lo que hay que planificar antes de pedir tu primera flota.',
+    ],
+    sections: [
+      {
+        title: 'Estandariza una o dos especificaciones',
+        body: 'Las operaciones de flota viven de la estandarización: un tamaño de tabla (normalmente 10\'6"–11\'0" × 32") para la mayoría de los huéspedes, un paquete resistente y un kit de repuestos. Simplifica reparaciones, formación del personal, almacenamiento y reposición. Resiste la tentación de comprar diez modelos distintos.',
+      },
+      {
+        title: 'Las tablas de alto uso son un producto distinto',
+        body: 'Una tabla de alquiler soporta decenas de sesiones por temporada. Especifica capas de PVC más gruesas, refuerzos de canto y accesorios de mayor resistencia que la versión retail. Pregunta a la fábrica cómo difiere la especificación de flota de la de consumo — las plantas reales tienen ambas.',
+      },
+      {
+        title: 'Planifica cantidades por contenedor',
+        body: 'Un contenedor de 40 pies high-cube alberga entre 1.000 y 1.200 paquetes completos de SUP. Calcula el tamaño de tu flota contra la rotación diaria y la duración de la temporada: 20–30 tablas sirven a un pequeño negocio, 100+ a un resort o club con actividad. Hay opciones de consolidación para pedidos inferiores al contenedor.',
+      },
+      {
+        title: 'Compra repuestos con la flota',
+        body: 'Pide válvulas de repuesto, kits de reparación, bombas, leashes y palas en el mismo PO — cuestan poco por unidad ahora y son difíciles de conseguir a mitad de temporada. Pide a la fábrica una proporción de repuestos recomendada (normalmente 5–10% de la flota en consumibles).',
+      },
+      {
+        title: 'Pide contra la temporada, no durante ella',
+        body: 'La producción tarda 30–45 días tras el PO más el flete marítimo hasta tu puerto. Para tener tablas en la playa en primavera, confirma los pedidos a finales de otoño y asegura el precio del depósito antes de las subidas de tarifas de flete en temporada alta.',
+      },
+      {
+        title: 'Marca la flota para valor de reventa',
+        body: 'Las tablas de flota pueden llevar tu logotipo, un sistema de numeración de alquiler y códigos de color por talla. La serigrafía en tiradas de 200+ unidades es rentable, y una flota con marca funciona como publicidad en el agua.',
+      },
+    ],
+    faqs: [
+      { q: '¿Cuál es el mejor SUP para una flota de alquiler?', a: 'Una tabla polivalente de 10\'6"–11\'0" × 32" con construcción reforzada es el estándar del sector: estable para principiantes, duradera para uso diario y fácil de mantener.' },
+      { q: '¿Cuántas tablas necesita una operación de alquiler?', a: 'Calcula 20–30 tablas para un negocio pequeño, escalando con la rotación: 100+ unidades para resorts y clubes con mucha actividad. Los repuestos deben ser el 5–10% del tamaño de la flota.' },
+      { q: '¿Pueden las tablas de flota llevar nuestro logotipo?', a: 'Sí — serigrafía, numeración de alquiler y cubiertas con códigos de color son personalizaciones estándar, especialmente rentables desde 200 unidades.' },
+      { q: '¿Cuánto tarda un pedido de flota?', a: 'Muestras en 15–20 días, producción en 30–45 días tras PO confirmado y depósito, más flete marítimo. Pide de 8 a 12 semanas antes de que empiece tu temporada.' },
+    ],
+  },
 ]
 
 export function getGuide(path: string, locale?: string): Guide | undefined {
@@ -451,6 +607,18 @@ export const GUIDE_CARDS: Record<'en' | 'es', GuideCard[]> = {
       title: 'Importar SUP hinchables desde China',
       intro:
         'FOB, CIF o DDP, flete y consolidación, embalaje marítimo, HS code y el modelo de pago antes de tu primer contenedor.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'SUP de marca privada',
+      intro:
+        'Qué incluye de verdad un acuerdo de marca privada: plataformas probadas, branding completo, costes, exclusividad y plazos.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'Comprar flotas de SUP',
+      intro:
+        'Planificación de flotas para alquiler, resorts y clubes: especificación resistente, cantidades por contenedor, repuestos y estacionalidad.',
     },
   ],
 }
