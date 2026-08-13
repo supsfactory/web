@@ -17,6 +17,9 @@ const FONT = /^\/fonts\/[^/]+\.woff2$/
 // Un-hashed public images (e.g. /assets/products/2026/...). No fingerprint in
 // the URL, so keep it short: cache 7 days, refresh sooner on release.
 const STATIC_PUBLIC = /^\/assets\//
+// Crawler files (robots.txt, sitemap*.xml, llms.txt): content changes only on
+// release, so 1h at the edge stops every crawl from re-rendering the worker.
+const SEO_TEXT = /^\/(?:robots\.txt|llms\.txt|sitemap(?:-[a-z]+)?\.xml)$/
 
 export function withMarketingCache(request: Request, response: Response): Response {
   const isUpgrade = response.status === 101 || (response as { webSocket?: unknown }).webSocket != null
@@ -24,6 +27,11 @@ export function withMarketingCache(request: Request, response: Response): Respon
   if (request.method !== 'GET' && request.method !== 'HEAD') return response
   const path = new URL(request.url).pathname
   if (path.startsWith('/app') || path.startsWith('/admin') || path.startsWith('/api')) return response
+  if (SEO_TEXT.test(path)) {
+    const headers = new Headers(response.headers)
+    headers.set('Cache-Control', 'public, max-age=3600')
+    return new Response(response.body, { status: response.status, statusText: response.statusText, headers })
+  }
   const contentType = response.headers.get('content-type') ?? ''
   if (!contentType.includes('text/html')) return response
   const headers = new Headers(response.headers)

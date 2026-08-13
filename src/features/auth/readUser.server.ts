@@ -24,6 +24,9 @@ export async function readUser(opts?: {
   role?: string | null
 } | null> {
   const cookie = getRequestHeader('cookie') ?? ''
+  // Marketing visits carry no session: short-circuit before better-auth
+  // (which would otherwise parse cookies and run its getSession pipeline).
+  if (!cookie.includes('better-auth.session_token')) return null
   const headers = new Headers({ cookie })
   const auth = createAuth(env, createDb(env.DB))
   const session = await auth.api.getSession(
