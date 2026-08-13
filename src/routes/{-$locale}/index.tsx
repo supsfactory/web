@@ -18,6 +18,7 @@ import { VideoShowcase } from '@/components/marketing/video-showcase'
 import { WhyUs } from '@/components/marketing/why-us'
 import { PlatformsSection } from '@/components/marketing/platforms-section'
 import { StudioSection } from '@/components/marketing/studio-section'
+import { SeriesSection } from '@/components/marketing/series-section'
 import { GallerySection } from '@/components/marketing/gallery-section'
 import { GuidesSection } from '@/components/marketing/guides-section'
 import { FaqSection } from '@/components/marketing/faq'
@@ -75,6 +76,7 @@ function Home() {
       <HowItWorks />
       <PlatformsSection />
       <StudioSection />
+      <SeriesSection />
       <WhyUs />
       <GallerySection />
       <GuidesSection />

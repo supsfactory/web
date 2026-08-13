@@ -2236,3 +2236,65 @@ export const worksPage: Localized<WorksPageContent> = {
     consultBody: 'Envíanos tu especificación, una tabla de referencia o planos. Te devolvemos una evaluación de fabricabilidad y un presupuesto, sin compromiso.',
   },
 }
+
+/* ─────────────────────────── signature series (home) ─────────────────────────── */
+
+export interface SeriesItem {
+  title: string
+  sku: string
+  body: string
+  image: string
+  href: string
+}
+
+export interface SeriesContent {
+  kicker: string
+  title: string
+  sub: string
+  items: SeriesItem[]
+}
+
+export const series: Localized<SeriesContent> = {
+  en: {
+    kicker: 'Signature Series',
+    title: 'Themed Edition Boards',
+    sub: 'Ocean-inspired themed editions ready for your private label — drop-in designs with UV digital printing and mechanical embossing.',
+    items: [
+      {
+        title: 'Leviathan Wake Series (The Whale Edition)',
+        sku: 'SUP-LW11',
+        body: 'A majestic blue whale totem with geometric and tribal patterns, paired with minimalist black-white swell lines. All-around 11 ft hull for lakes, rivers and coastal waters.',
+        image: '/assets/products/2026/editions/leviathan-whale-edition.avif',
+        href: '/products/sup-leviathan-wake',
+      },
+      {
+        title: 'Medusa Glow Series (The Jellyfish Edition)',
+        sku: 'SUP-MG11',
+        body: 'Vibrant jellyfish, sea stars and coral reefs with zero-fade EVA block piecing in refreshing mint green. All-around 11 ft hull for tropical and coastal adventures.',
+        image: '/assets/products/2026/editions/medusa-jellyfish-edition.avif',
+        href: '/products/sup-medusa-glow',
+      },
+    ],
+  },
+  es: {
+    kicker: 'Serie insignia',
+    title: 'Tablas de ediciones temáticas',
+    sub: 'Ediciones temáticas inspiradas en el océano listas para tu marca propia: diseños llave en mano con impresión digital UV y termograbado mecánico.',
+    items: [
+      {
+        title: 'Serie Leviathan Wake (La Edición de la Ballena)',
+        sku: 'SUP-LW11',
+        body: 'Un majestuoso tótem de ballena azul con patrones geométricos y tribales, junto a líneas minimalistas de oleaje en blanco y negro. Casco polivalente de 11 ft para lagos, ríos y aguas costeras.',
+        image: '/assets/products/2026/editions/leviathan-whale-edition.avif',
+        href: '/products/sup-leviathan-wake',
+      },
+      {
+        title: 'Serie Medusa Glow (La Edición de las Medusas)',
+        sku: 'SUP-MG11',
+        body: 'Medusas vibrantes, estrellas de mar y arrecifes de coral con bloques de EVA que no se decoloran, en un refrescante verde menta. Casco polivalente de 11 ft para aventuras tropicales y costeras.',
+        image: '/assets/products/2026/editions/medusa-jellyfish-edition.avif',
+        href: '/products/sup-medusa-glow',
+      },
+    ],
+  },
+}
