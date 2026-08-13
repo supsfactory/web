@@ -1,7 +1,6 @@
 import { createFileRoute, redirect } from '@tanstack/react-router'
 import { OG_IMAGE, localeHead } from '@/features/seo/seo'
 import { isLocale, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
-import { AfarerCatchAll, afarerServerLoader } from '@/features/content/catchall'
 
 /**
  * Catch-all route for the ported afarer content site.
@@ -34,6 +33,7 @@ export const Route = createFileRoute('/$')({
     if (localized && locale === defaultLocale) {
       throw redirect({ href: path, statusCode: 301 })
     }
+    const { afarerServerLoader } = await import('@/features/content/catchall')
     return { ...(await afarerServerLoader({ data: { path, locale } })), localized }
   },
   head: ({ loaderData }) => {
@@ -93,11 +93,4 @@ export const Route = createFileRoute('/$')({
     }
     return { meta, links }
   },
-  component: CatchAll,
 })
-
-function CatchAll() {
-  const data = Route.useLoaderData()
-  if (!data) return null
-  return <AfarerCatchAll data={data} />
-}

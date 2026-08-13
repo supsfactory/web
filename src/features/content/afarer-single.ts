@@ -1,5 +1,4 @@
 import { OG_IMAGE } from '@/features/seo/seo'
-import { afarerServerLoader } from './catchall'
 import type { CatchAllData } from './catchall'
 
 /**
@@ -16,7 +15,10 @@ import type { CatchAllData } from './catchall'
  */
 export function afarerSingleRoute(path: string) {
   return {
-    loader: async (): Promise<CatchAllData> => afarerServerLoader({ data: { path, locale: 'en' } }),
+    loader: async (): Promise<CatchAllData> => {
+      const { afarerServerLoader } = await import('./catchall')
+      return afarerServerLoader({ data: { path, locale: 'en' } })
+    },
     head: ({ loaderData }: { loaderData?: CatchAllData }) => {
       if (!loaderData) return {}
       const { origin, title, description } = loaderData

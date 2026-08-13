@@ -100,27 +100,29 @@ const WhatIsSupRoute = WhatIsSupRouteImport.update({
   id: '/what-is-sup',
   path: '/what-is-sup',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/what-is-sup.lazy').then((d) => d.Route))
 const WarrantyRoute = WarrantyRouteImport.update({
   id: '/warranty',
   path: '/warranty',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/warranty.lazy').then((d) => d.Route))
 const TourismRecreationRoute = TourismRecreationRouteImport.update({
   id: '/tourism-recreation',
   path: '/tourism-recreation',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() =>
+  import('./routes/tourism-recreation.lazy').then((d) => d.Route),
+)
 const TechnologyRoute = TechnologyRouteImport.update({
   id: '/technology',
   path: '/technology',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/technology.lazy').then((d) => d.Route))
 const SizeGuideRoute = SizeGuideRouteImport.update({
   id: '/size-guide',
   path: '/size-guide',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/size-guide.lazy').then((d) => d.Route))
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
@@ -165,42 +167,46 @@ const RanddcenterRoute = RanddcenterRouteImport.update({
   id: '/randdcenter',
   path: '/randdcenter',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/randdcenter.lazy').then((d) => d.Route))
 const QualityRoute = QualityRouteImport.update({
   id: '/quality',
   path: '/quality',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/quality.lazy').then((d) => d.Route))
 const ProductDevelopmentRoute = ProductDevelopmentRouteImport.update({
   id: '/product-development',
   path: '/product-development',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() =>
+  import('./routes/product-development.lazy').then((d) => d.Route),
+)
 const PartnersRoute = PartnersRouteImport.update({
   id: '/partners',
   path: '/partners',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/partners.lazy').then((d) => d.Route))
 const OemPaddleRoute = OemPaddleRouteImport.update({
   id: '/oem-paddle',
   path: '/oem-paddle',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/oem-paddle.lazy').then((d) => d.Route))
 const OemOdmManufacturerRoute = OemOdmManufacturerRouteImport.update({
   id: '/oem-odm-manufacturer',
   path: '/oem-odm-manufacturer',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() =>
+  import('./routes/oem-odm-manufacturer.lazy').then((d) => d.Route),
+)
 const OemOdmRoute = OemOdmRouteImport.update({
   id: '/oem-odm',
   path: '/oem-odm',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/oem-odm.lazy').then((d) => d.Route))
 const NewsRoute = NewsRouteImport.update({
   id: '/news',
   path: '/news',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/news.lazy').then((d) => d.Route))
 const LlmsDottxtRoute = LlmsDottxtRouteImport.update({
   id: '/llms.txt',
   path: '/llms.txt',
@@ -215,27 +221,29 @@ const KnowledgeRoute = KnowledgeRouteImport.update({
   id: '/knowledge',
   path: '/knowledge',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/knowledge.lazy').then((d) => d.Route))
 const InflatableVsHardboardRoute = InflatableVsHardboardRouteImport.update({
   id: '/inflatable-vs-hardboard',
   path: '/inflatable-vs-hardboard',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() =>
+  import('./routes/inflatable-vs-hardboard.lazy').then((d) => d.Route),
+)
 const FishingRoute = FishingRouteImport.update({
   id: '/fishing',
   path: '/fishing',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/fishing.lazy').then((d) => d.Route))
 const FaqRoute = FaqRouteImport.update({
   id: '/faq',
   path: '/faq',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/faq.lazy').then((d) => d.Route))
 const FactoryRoute = FactoryRouteImport.update({
   id: '/factory',
   path: '/factory',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/factory.lazy').then((d) => d.Route))
 const EntityDotjsonRoute = EntityDotjsonRouteImport.update({
   id: '/entity.json',
   path: '/entity.json',
@@ -245,12 +253,14 @@ const B2bSolutionsMatrixRoute = B2bSolutionsMatrixRouteImport.update({
   id: '/b2b-solutions-matrix',
   path: '/b2b-solutions-matrix',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() =>
+  import('./routes/b2b-solutions-matrix.lazy').then((d) => d.Route),
+)
 const SplatRoute = SplatRouteImport.update({
   id: '/$',
   path: '/$',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/$.lazy').then((d) => d.Route))
 const Char123LocaleChar125RouteRoute =
   Char123LocaleChar125RouteRouteImport.update({
     id: '/{-$locale}',
@@ -481,7 +491,9 @@ const Char123LocaleChar125ProductsSeriesRoute =
     id: '/products/$series',
     path: '/products/$series',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/products/$series.lazy').then((d) => d.Route),
+  )
 const Char123LocaleChar125KnowledgeSlugRoute =
   Char123LocaleChar125KnowledgeSlugRouteImport.update({
     id: '/knowledge/$slug',
