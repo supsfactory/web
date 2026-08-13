@@ -67,6 +67,6 @@ export function isEdgeCacheable(request: Request, response: Response): boolean {
   if (request.method !== 'GET' && request.method !== 'HEAD') return false
   if (isPrivatePath(new URL(request.url).pathname)) return false
   if (response.status !== 200 && response.status !== 301 && response.status !== 410) return false
-  const cc = response.headers.get('Cache-Control') ?? ''
-  return /max-age=(\d+)/.test(cc)
+  const m = /max-age=(\d+)/.exec(response.headers.get('Cache-Control') ?? '')
+  return m != null && Number(m[1]) > 0
 }
