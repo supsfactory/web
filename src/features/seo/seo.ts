@@ -41,6 +41,8 @@ export const OG_IMAGE = 'https://assets.supsfactory.com/images/sups/products/afa
 // afarer-og-default.avif，q50，70KB → 38KB）。显示用 AVIF 减 LCP 传输；og:image 留 webp
 // 是因为部分社交爬虫对 AVIF 支持不全。
 export const HERO_IMAGE = 'https://assets.supsfactory.com/images/sups/products/afarer-og-default.avif'
+export const HERO_IMAGE_768 = 'https://assets.supsfactory.com/images/sups/products/afarer-og-default-768.avif'
+export const HERO_IMAGE_480 = 'https://assets.supsfactory.com/images/sups/products/afarer-og-default-480.avif'
 
 export function buildRobots(origin: string): string {
   const aiAgents = [

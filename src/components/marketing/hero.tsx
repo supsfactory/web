@@ -1,7 +1,7 @@
 import { ArrowRight, BadgeCheck } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, hero } from '@/features/site/content'
-import { HERO_IMAGE } from '@/features/seo/seo'
+import { HERO_IMAGE, HERO_IMAGE_480, HERO_IMAGE_768 } from '@/features/seo/seo'
 
 /** Home hero: 100svh ocean scene — headline left, brand mockup card on a water stage right, drifting waves below. */
 export function Hero() {
@@ -88,6 +88,8 @@ export function Hero() {
               />
               <img
                 src={HERO_IMAGE}
+                srcSet={`${HERO_IMAGE} 1200w, ${HERO_IMAGE_768} 768w, ${HERO_IMAGE_480} 480w`}
+                sizes="(min-width: 768px) 512px, calc(100vw - 2.5rem)"
                 alt={c.mockupBrand}
                 width={1200}
                 height={630}
