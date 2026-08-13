@@ -307,6 +307,22 @@ export function ProductView({ product, related, origin, locale }: { product: Afa
                         <td className="px-4 py-3 text-fg-2">{brandify(s.value)}</td>
                       </tr>
                     ))}
+                    <tr className="odd:bg-bg-alt/60">
+                      <th className="w-2/5 px-4 py-3 font-semibold">{es ? 'Presión de prueba (fábrica)' : 'Factory test pressure'}</th>
+                      <td className="px-4 py-3 text-fg-2">{FACTS.pressureTest} · {FACTS.pressureReject}</td>
+                    </tr>
+                    <tr className="odd:bg-bg-alt/60">
+                      <th className="w-2/5 px-4 py-3 font-semibold">{es ? 'Pedido mínimo (MOQ)' : 'Minimum order (MOQ)'}</th>
+                      <td className="px-4 py-3 text-fg-2">{es ? `MOQ ${FACTS.moq.standardRun} por diseño en lote OEM; prueba desde ${FACTS.moq.trialStandard}` : `MOQ ${FACTS.moq.standardRun} per design for OEM batch; trial runs from ${FACTS.moq.trialStandard}`}</td>
+                    </tr>
+                    <tr className="odd:bg-bg-alt/60">
+                      <th className="w-2/5 px-4 py-3 font-semibold">{es ? 'Plazo de producción' : 'Production lead time'}</th>
+                      <td className="px-4 py-3 text-fg-2">{es ? `${FACTS.leadTime} tras PO confirmado; muestras en ${FACTS.sampleTime}` : `${FACTS.leadTime} after confirmed PO; samples in ${FACTS.sampleTime}`}</td>
+                    </tr>
+                    <tr className="odd:bg-bg-alt/60">
+                      <th className="w-2/5 px-4 py-3 font-semibold">{es ? 'Certificaciones' : 'Certifications'}</th>
+                      <td className="px-4 py-3 text-fg-2">{FACTS.certifications.join(' · ')}</td>
+                    </tr>
                   </tbody>
                 </table>
               </div>

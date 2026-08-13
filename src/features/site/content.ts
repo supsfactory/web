@@ -41,12 +41,12 @@ export interface HeroContent {
 export const hero: Localized<HeroContent> = {
   en: {
     kicker: 'SUP Manufacturer — OEM / ODM / Private Label',
-    titlePre: 'Custom SUP Board Manufacturer',
-    titleAccent: '& OEM/ODM Partner',
-    titlePost: 'for Global Brands',
-    sub: 'A China-based custom SUP board manufacturer — from product concept and prototype development to mass production, we help SUP brands, distributors, outdoor companies and water sports organizations bring customized paddle board products to market.',
-    ctaPrimary: 'Start Your SUP Project',
-    ctaSecondary: 'Explore Our OEM & ODM Process',
+    titlePre: 'Premier Custom Stand-Up Paddleboard Manufacturer',
+    titleAccent: '(OEM / ODM)',
+    titlePost: '',
+    sub: 'Empowering global water sports brands with precision drop-stitch engineering, low MOQs and factory-direct pricing. A China-based custom SUP board manufacturer — we bring precision engineering and container-scale production; you bring the brand.',
+    ctaPrimary: 'Get Custom Quote',
+    ctaSecondary: 'Download 2026 SUP Catalog',
     chips: [
       'Custom product development · OEM & ODM manufacturing',
       'Prototype to mass production',
@@ -62,12 +62,12 @@ export const hero: Localized<HeroContent> = {
   },
   es: {
     kicker: 'Fabricante de SUP — OEM / ODM / Marca privada',
-    titlePre: 'Fabricante de tablas SUP personalizadas',
-    titleAccent: 'y socio OEM/ODM',
-    titlePost: 'para marcas globales',
-    sub: 'Fabricante de tablas SUP personalizadas con base en China — desde el concepto de producto y el desarrollo de prototipos hasta la producción en masa, ayudamos a marcas de SUP, distribuidores, empresas de actividades al aire libre y organizaciones de deportes acuáticos a llevar productos de tablas de pádel personalizadas al mercado.',
-    ctaPrimary: 'Inicia tu proyecto de SUP',
-    ctaSecondary: 'Conoce nuestro proceso OEM y ODM',
+    titlePre: 'Fabricante líder de tablas SUP personalizadas',
+    titleAccent: '(OEM / ODM)',
+    titlePost: '',
+    sub: 'Damos poder a las marcas globales de deportes acuáticos con ingeniería de precisión en drop-stitch, MOQ bajos y precios directos de fábrica. Somos un fabricante de tablas SUP personalizadas con base en China — nosotros aportamos ingeniería de precisión y producción a escala de contenedor; tú aportas la marca.',
+    ctaPrimary: 'Solicita tu cotización',
+    ctaSecondary: 'Descargar catálogo 2026',
     chips: [
       'Desarrollo de productos personalizados · Fabricación OEM y ODM',
       'Del prototipo a la producción en masa',
@@ -181,6 +181,8 @@ export const trustBar: Localized<TrustBarContent> = {
       { value: FACTS.workers, label: 'factory workers and engineers on site' },
       { value: 'ISO 9001 · CE · BSCI', label: 'certified; REACH/RoHS compliant materials' },
       { value: FACTS.exportCountries, label: 'countries shipped to across EU, US, AU and Asia' },
+      { value: '1.25× / 48 h', label: '100% inflation & leakage test on every board before packing' },
+      { value: 'MSL Fusion', label: 'multi-layer fusion welding with woven drop-stitch constructions' },
     ],
   },
   es: {
@@ -193,6 +195,8 @@ export const trustBar: Localized<TrustBarContent> = {
       { value: FACTS.workers, label: 'operarios e ingenieros de planta' },
       { value: 'ISO 9001 · CE · BSCI', label: 'certificada; materiales conformes a REACH/RoHS' },
       { value: FACTS.exportCountries, label: 'países con envíos en la UE, EE. UU., Australia y Asia' },
+      { value: '1,25× / 48 h', label: 'prueba de inflado y estanqueidad al 100% en cada tabla antes del embalaje' },
+      { value: 'MSL Fusion', label: 'soldadura de fusión multicapa con construcciones de drop-stitch tejido' },
     ],
   },
 }

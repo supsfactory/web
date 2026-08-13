@@ -232,6 +232,7 @@ export const en = {
       terms: 'Terms', privacy: 'Privacy',
       rights: 'Custom SUP product development & manufacturing partner.',
       owner: 'Afarer — SUP brand of Qingdao Vatrad Group Co., Ltd.',
+      compliance: 'All materials comply with CE, REACH and ISO 9001 quality management standards. 100% factory-direct export from our Qingdao, China plant.',
       followUs: 'Follow us', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },
     contactWhatsApp: 'Chat on WhatsApp', contactWeChat: 'Chat on WeChat',

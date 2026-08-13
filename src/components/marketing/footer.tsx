@@ -90,6 +90,7 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
             &copy; {year} {t('common.appName')}. {t('sup.footer.rights')}
           </p>
           <p className="mt-1 text-[12.5px] text-fg-3/80">{t('sup.footer.owner')}</p>
+          <p className="mt-1 max-w-xl text-[12.5px] text-fg-3/80">{t('sup.footer.compliance')}</p>
           <div className="mt-2 flex items-center gap-4 text-[12.5px]">
             <a className="foot-link text-fg-3 hover:text-foreground" href={fl('/terms')}>{t('sup.footer.terms')}</a>
             <a className="foot-link text-fg-3 hover:text-foreground" href={fl('/privacy')}>{t('sup.footer.privacy')}</a>
