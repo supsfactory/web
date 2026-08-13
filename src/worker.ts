@@ -79,9 +79,20 @@ const handler = {
  * replaying a normal GET through this same handler. After the first warm run
  * every visitor gets an edge hit (~tens of ms) instead of a cold worker
  * render. Non-production domains (staging/local) fail DNS and are skipped.
+ *
+ * The product list is derived from the content loader (dynamically imported so
+ * the 1.6MB corpus stays out of the worker's startup dependency graph — it is
+ * only loaded inside scheduled events, and module-level parse results are
+ * cached per isolate).
  */
 async function warmEdgeCache(env: Cloudflare.Env, ctx: ExecutionContext): Promise<void> {
-  const paths = ['/', '/products/sup-leviathan-wake', '/products/sup-medusa-glow']
+  const paths = ['/', '/es']
+  try {
+    const { getAfarerPublicPaths } = await import('@/features/content/loader')
+    paths.push(...getAfarerPublicPaths().filter((p) => p.startsWith('/products/')))
+  } catch (err) {
+    console.log('[cron] warm fallback list', err instanceof Error ? err.message : String(err))
+  }
   for (const path of paths) {
     const request = new Request(`https://supsfactory.com${path}`, { headers: { 'accept': 'text/html' } })
     try {
