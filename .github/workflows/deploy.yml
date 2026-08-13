@@ -45,6 +45,15 @@ jobs:
         run: pnpm build
         env:
           CLOUDFLARE_ENV: production
+      # D1 结构变更随部署自动应用：用同一生产凭据跑迁移（先于 deploy，
+      # 避免新代码写入不存在的列导致线上回归）。幂等，无新迁移时无操作。
+      - name: Apply D1 migrations
+        if: steps.guard.outputs.enabled == 'true'
+        uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4.0.4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: d1 migrations apply supsfactory-db-prod --env production --remote
       - name: Deploy to Cloudflare
         if: steps.guard.outputs.enabled == 'true'
         uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4.0.4
