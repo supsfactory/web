@@ -16,7 +16,7 @@ interface NavItem {
 }
 
 /** Sticky marketing header: utility top bar (auth) + main bar with dropdown
- * navigation (8 top-level items — desktop from xl to fit), search, theme and
+ * navigation (6 top-level items — desktop from xl to fit), search, theme and
  * language controls. */
 export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn: boolean }) {
   const { t, locale } = useTranslation()
@@ -37,11 +37,6 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         { label: t('sup.nav.productsDropdown.all'), href: '/products' },
         { label: t('sup.nav.productsDropdown.customizer'), href: '/customizer' },
         { label: t('sup.nav.productsDropdown.oemPaddle'), href: '/oem-paddle' },
-      ],
-    },
-    {
-      label: t('sup.nav.oemOdm'),
-      items: [
         { label: t('sup.nav.oemDropdown.productDevelopment'), href: '/product-development' },
         { label: t('sup.nav.oemDropdown.manufacturer'), href: '/oem-odm-manufacturer' },
         { label: t('sup.nav.oemDropdown.privateLabel'), href: '/solutions/private-label-sup' },
@@ -93,9 +88,9 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         { label: t('sup.nav.aboutDropdown.entity'), href: '/about/supsfactory-entity' },
         { label: t('sup.nav.aboutDropdown.partners'), href: '/partners' },
         { label: t('sup.nav.aboutDropdown.howItWorks'), href: '/how-it-works' },
+        { label: t('sup.nav.contact'), href: '/contact' },
       ],
     },
-    { label: t('sup.nav.contact'), href: '/contact' },
   ]
 
   const authLink = loggedIn ? (
