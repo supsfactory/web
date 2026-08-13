@@ -64,6 +64,63 @@ faq_section:
     - q: ¿Cuáles son sus condiciones de envío?
       a: 'FOB Qingdao, CIF a los principales puertos del mundo, o DDP para socios calificados. Enviamos a más de 50 mercados en la UE, EE. UU., Australia y Asia.'
 
+process:
+  title: El proceso OEM — del brief al contenedor
+  subtitle: 'Siete etapas controladas dirigidas por un solo equipo de fábrica, para que cada paso desde tu primer brief hasta el contenedor quede documentado y a tiempo.'
+  steps:
+    - phase: '01'
+      title: Consulta y brief
+      period: Día 1–3
+      items:
+        - 'Comparte tu mercado objetivo, tipos de tabla, volúmenes y presupuesto — o solo una idea aproximada.'
+        - 'Respondemos con una revisión de capacidades y una primera evaluación de viabilidad en un día laborable.'
+    - phase: '02'
+      title: Diseño e ingeniería
+      period: Semana 1–2
+      items:
+        - 'La forma del casco, el grado del drop-stitch, las especificaciones de PVC y la construcción del rail se diseñan en casa.'
+        - 'Tu marca, arte y embalaje se desarrollan alrededor de la tabla — el utillaje del molde a medida empieza aquí.'
+    - phase: '03'
+      title: Prototipo y muestra
+      period: 15–20 días
+      items:
+        - 'Se fabrica una muestra física y se envía para tu revisión — con pruebas de navegación para formas nuevas.'
+        - 'Los pedidos de prueba estándar empiezan desde 5–10 unidades, para validar antes de comprometer volumen.'
+    - phase: '04'
+      title: Pruebas y validación
+      period: En paralelo
+      items:
+        - 'Retención de aire, presión, resistencia de costuras, carga y UV, verificadas por línea de producción.'
+        - 'Documentación CE, ISO 9001, BSCI, REACH y RoHS preparada para tus mercados de exportación.'
+    - phase: '05'
+      title: Aprobación y confirmación
+      period: Tras aprobar la muestra
+      items:
+        - 'Apruebas la muestra y el arte; el PO y el depósito fijan la fecha de producción.'
+        - 'Un plan de preproducción confirma fechas, cantidades, embalaje y puerto de carga.'
+    - phase: '06'
+      title: Producción
+      period: 30–45 días
+      items:
+        - 'La producción corre bajo control de calidad multipunto — material entrante, proceso e inspección final.'
+        - 'Desde 50 unidades por diseño en lotes OEM estándar hasta series a escala de contenedor.'
+    - phase: '07'
+      title: Embalaje y envío
+      period: 1 día + tránsito
+      items:
+        - 'Embalaje de exportación con etiquetas de número de serie, luego FOB Qingdao, CIF o DDP a más de 50 países.'
+        - 'Documentación aduanera, seguimiento y soporte de reorden incluidos en cada etapa.'
+
+geo:
+  tagline: Con quién trabajamos
+  title: Socios OEM en toda la industria del SUP
+  sentence: 'Cada proyecto OEM de SUPsfactory se empareja con un equipo que ya ha fabricado tablas para tu mismo tipo de negocio — estos son los clientes a los que servimos.'
+  audiences:
+    - 'Marcas de SUP'
+    - 'Empresas outdoor y de deportes acuáticos'
+    - 'Distribuidores y minoristas'
+    - 'Resorts, clubes y organizaciones'
+
 cta:
   title: '¿Listo para lanzar tu línea de SUP?'
   subtitle: 'Recibe una cotización OEM detallada en un día laborable.'

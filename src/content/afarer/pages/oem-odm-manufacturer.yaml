@@ -64,6 +64,63 @@ faq_section:
     - q: What are your shipping terms?
       a: 'FOB Qingdao, CIF major global ports, or DDP for qualified partners. We ship to 50+ countries across EU, US, AU and Asia markets.'
 
+process:
+  title: The OEM Process — From Brief to Shipped Container
+  subtitle: 'Seven controlled stages run by one factory team, so every step from your first brief to the packed container stays documented and on schedule.' 
+  steps:
+    - phase: '01'
+      title: Consultation & Brief
+      period: Day 1–3
+      items:
+        - 'Share your target market, board types, volumes and budget — or just a rough idea.'
+        - 'We respond with a capability review and a first feasibility assessment within one business day.'
+    - phase: '02'
+      title: Design & Engineering
+      period: Week 1–2
+      items:
+        - 'Hull shape, drop-stitch grade, PVC specs and rail construction are engineered in-house.'
+        - 'Your brand, graphics and packaging are developed around the board — custom mould tooling starts here.'
+    - phase: '03'
+      title: Prototype & Sample
+      period: 15–20 days
+      items:
+        - 'A physical sample is produced and sent for your review — runway trials included for new shapes.'
+        - 'Standard trial orders start from 5–10 units, so you validate before committing to volume.'
+    - phase: '04'
+      title: Testing & Validation
+      period: In parallel
+      items:
+        - 'Air-retention, pressure-hold, seam-strength, load and UV checks per production line.'
+        - 'CE, ISO 9001, BSCI, REACH and RoHS documentation prepared for your export markets.'
+    - phase: '05'
+      title: Approval & Confirmation
+      period: After sample sign-off
+      items:
+        - 'You approve the sample and artwork; the PO and deposit lock the production slot.'
+        - 'A pre-production plan confirms dates, quantities, packaging and port of loading.'
+    - phase: '06'
+      title: Production
+      period: 30–45 days
+      items:
+        - 'Production runs under multi-point QC — incoming material, in-process and final inspection.'
+        - 'From 50 units per design for standard OEM batches up to container-scale runs.'
+    - phase: '07'
+      title: Packing & Shipment
+      period: 1 day + transit
+      items:
+        - 'Export packing with model serial labels, then FOB Qingdao, CIF or DDP to 50+ countries.'
+        - 'Customs documentation, tracking and reorder support included at every stage.'
+
+geo:
+  tagline: Who We Work With
+  title: OEM Partners Across the SUP Industry
+  sentence: 'Every OEM project at SUPsfactory is paired with a team that has built boards for the same business type before — here is who we serve.'
+  audiences:
+    - 'SUP Brands'
+    - 'Outdoor & Water Sports Companies'
+    - 'Distributors & Retailers'
+    - 'Resorts, Clubs & Organizations'
+
 cta:
   title: 'Ready to run your SUP line?'
   subtitle: 'Receive a detailed OEM quotation within one business day.'
