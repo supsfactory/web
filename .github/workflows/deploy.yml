@@ -95,6 +95,21 @@ jobs:
           else
             echo "::notice::Cache purge skipped (HTTP $PHTTP) — token needs Zone › Cache Purge permission"
           fi
+      # purge 后缓存为空，而 cron 每小时才 warm 一次 → 冷窗口期用户直击
+      # 冷 worker（TTFB 2-6s）。这里部署完立刻回源一次，把首页/es 写入
+      # 边缘缓存（第一次渲染 + waitUntil 写缓存，sleep 后第二次确认命中）。
+      - name: Warm edge cache
+        if: steps.guard.outputs.enabled == 'true'
+        env:
+          CDN_ORIGIN: https://supsfactory.com
+        run: |
+          for p in / /es; do
+            code=$(curl -sS -o /dev/null -w '%{http_code}' "$CDN_ORIGIN$p")
+            echo "warm $p first pass -> HTTP $code"
+            sleep 2
+            code2=$(curl -sS -o /dev/null -w '%{http_code}' "$CDN_ORIGIN$p")
+            echo "warm $p second pass -> HTTP $code2"
+          done
       - name: Sync Worker secrets
         if: steps.guard.outputs.enabled == 'true'
         env:
