@@ -38,6 +38,10 @@ export const Route = createRootRoute({
       { rel: 'preload', href: '/fonts/manrope-latin-800-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
       { rel: 'preload', href: '/fonts/inter-latin-400-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
       { rel: 'preload', href: '/fonts/inter-latin-500-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
+      { rel: 'preload', href: '/fonts/inter-latin-600-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
+      { rel: 'preload', href: '/fonts/inter-latin-700-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
+      // CTA 按钮(font-bold=Inter 700)与 chips/次按钮(font-semibold=Inter 600)
+      // 是首屏文本：预载避免它们在 CSS 解析后才被发现(弱网多一个 RTT/FOUIT 闪变)。
       { rel: 'icon', href: '/favicon.ico', sizes: '48x48' },
       { rel: 'icon', type: 'image/png', href: '/logo192.png', sizes: '192x192' },
       { rel: 'apple-touch-icon', href: '/logo192.png' },

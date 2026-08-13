@@ -46,3 +46,27 @@ export function withStaticCache(request: Request, response: Response): Response 
   }
   return new Response(response.body, { status: response.status, statusText: response.statusText, headers })
 }
+
+/** Paths that must never be served from a shared edge cache. */
+export function isPrivatePath(path: string): boolean {
+  return (
+    path.startsWith('/app') ||
+    path.startsWith('/admin') ||
+    path.startsWith('/api') ||
+    path.startsWith('/docs')
+  )
+}
+
+/**
+ * Whether a response qualifies for the Cloudflare Cache API (used by
+ * src/worker.ts). Marketing HTML, redirects and static assets all carry a
+ * max-age, so the edge can absorb repeat requests without hitting the worker.
+ * Cache-Control is also the TTL hint for the cache layer.
+ */
+export function isEdgeCacheable(request: Request, response: Response): boolean {
+  if (request.method !== 'GET' && request.method !== 'HEAD') return false
+  if (isPrivatePath(new URL(request.url).pathname)) return false
+  if (response.status !== 200 && response.status !== 301 && response.status !== 410) return false
+  const cc = response.headers.get('Cache-Control') ?? ''
+  return /max-age=(\d+)/.test(cc)
+}

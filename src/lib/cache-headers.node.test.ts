@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { withMarketingCache, withStaticCache } from './cache-headers'
+import { isEdgeCacheable, withMarketingCache, withStaticCache } from './cache-headers'
 
 const GET = (_path: string, type = 'text/html; charset=utf-8') =>
   new Response('<html></html>', { headers: { 'content-type': type } })
@@ -60,5 +60,29 @@ describe('withStaticCache', () => {
     expect(html.headers.has('cache-control')).toBe(false)
     const post = withStaticCache(new Request('https://x.test/assets/x-yyyyyyyy.js', { method: 'POST' }), GET('/x'))
     expect(post.headers.has('cache-control')).toBe(false)
+  })
+})
+
+describe('isEdgeCacheable', () => {
+  it('accepts marketing HTML, redirects and static assets', () => {
+    const home = withMarketingCache(new Request('https://x.test/'), GET('/'))
+    expect(isEdgeCacheable(new Request('https://x.test/'), home)).toBe(true)
+    const redirect = new Response(null, { status: 301, headers: { location: '/new', 'cache-control': 'max-age=3600' } })
+    expect(isEdgeCacheable(new Request('https://x.test/legacy'), redirect)).toBe(true)
+    const img = withStaticCache(
+      new Request('https://x.test/assets/products/2026/mini/mini-01.avif'),
+      GET('/assets/products/2026/mini/mini-01.avif', 'image/avif'),
+    )
+    expect(isEdgeCacheable(new Request('https://x.test/assets/products/2026/mini/mini-01.avif'), img)).toBe(true)
+  })
+
+  it('rejects private paths, POST, error statuses and no-store responses', () => {
+    const noCc = new Response('<html></html>', { status: 200 })
+    for (const path of ['/app', '/app/dashboard', '/admin', '/api/me', '/docs/quickstart']) {
+      expect(isEdgeCacheable(new Request(`https://x.test${path}`), noCc)).toBe(false)
+    }
+    expect(isEdgeCacheable(new Request('https://x.test/', { method: 'POST' }), GET('/'))).toBe(false)
+    expect(isEdgeCacheable(new Request('https://x.test/'), new Response('nope', { status: 500, headers: { 'cache-control': 'max-age=3600' } }))).toBe(false)
+    expect(isEdgeCacheable(new Request('https://x.test/'), new Response(null, { status: 302, headers: { 'cache-control': 'max-age=60' } }))).toBe(false)
   })
 })

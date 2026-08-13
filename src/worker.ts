@@ -2,8 +2,10 @@
  * Cloudflare Worker entry (wrangler `main`). Wraps the framework's default
  * server entry so every deployed response goes through cross-cutting steps:
  *   1. validate required env once per isolate (fail fast on misconfig),
- *   2. add baseline security headers, and
- *   3. report unhandled exceptions to Sentry (when SENTRY_DSN is set).
+ *   2. serve repeat marketing content / static assets from the edge cache
+ *      (Cloudflare does not cache Worker responses on its own),
+ *   3. add baseline security headers, and
+ *   4. report unhandled exceptions to Sentry (when SENTRY_DSN is set).
  *
  * Importing `@tanstack/react-start/server-entry` reuses the exact handler the
  * framework would otherwise run, so SSR/streaming behaviour is unchanged.
@@ -13,7 +15,7 @@ import entry from '@tanstack/react-start/server-entry'
 import { withSecurityHeaders } from '@/lib/security-headers'
 import { runWithNonce, getNonce } from '@/lib/csp'
 import { assertEnvOnce } from '@/lib/env-validate'
-import { withMarketingCache, withStaticCache } from '@/lib/cache-headers'
+import { withMarketingCache, withStaticCache, isEdgeCacheable } from '@/lib/cache-headers'
 import { gatePath } from '@/features/seo/edge-gate'
 import { createDb } from '@/db/client'
 import { runCleanup } from '@/features/maintenance/cleanup'
@@ -25,6 +27,16 @@ const fetchHandler = (
 const handler = {
   async fetch(request: Request, env: Cloudflare.Env, ctx: ExecutionContext): Promise<Response> {
     await assertEnvOnce()
+    // Edge cache first: Cloudflare does not cache Worker responses by itself,
+    // so every request would otherwise hit the worker (cold TTFB 2-6s). The
+    // Cache API keyed on URL absorbs repeat marketing content and static
+    // assets; TTL follows the Cache-Control max-age set below.
+    const cache = (caches as unknown as { default: Cache }).default
+    const cached = await cache.match(request)
+    // Cached responses already carry their own security headers (incl. the
+    // CSP nonce used by their inline scripts) — return them verbatim.
+    if (cached) return cached
+
     // Edge URL policy first: 301 merges, 410 for removed template pages, and
     // trailing-slash normalisation — before any route/API handler runs.
     // Cache-Control: max-age=3600 (not longer) so redirects stay easy to amend.
@@ -39,7 +51,11 @@ const handler = {
     // header construction (CSP references it) — ALS makes that request-scoped.
     return runWithNonce(async () => {
       const response = await fetchHandler(request, env, ctx)
-      return withSecurityHeaders(withStaticCache(request, withMarketingCache(request, response)), getNonce())
+      const final = withSecurityHeaders(withStaticCache(request, withMarketingCache(request, response)), getNonce())
+      if (isEdgeCacheable(request, final)) {
+        ctx.waitUntil(cache.put(request, final.clone()))
+      }
+      return final
     })
   },
 
