@@ -24,7 +24,9 @@ export function afarerSingleRoute(path: string) {
       const image = loaderData.kind === 'page' ? OG_IMAGE : ((loaderData as { image?: string }).image ?? OG_IMAGE)
       // Product detail images are AVIF for the <img>; social crawlers lag on
       // AVIF support, so point og:image at the sibling JPG (kept alongside).
-      const absImage = image.startsWith('http') ? image : `${origin}${image.replace(/\.avif$/, '.jpg')}`
+      // The loader resolves images to absolute URLs already, so the swap must
+      // happen after that resolution (not only on relative paths).
+      const absImage = (image.startsWith('http') ? image : `${origin}${image}`).replace(/\.avif$/, '.jpg')
       const links: { rel: string; href: string; hreflang?: string }[] = [{ rel: 'canonical', href: canonical }]
       links.push({ rel: 'alternate', hreflang: 'en-US', href: canonical })
       // Link the Spanish twin (when it exists) so the es page feeds back the

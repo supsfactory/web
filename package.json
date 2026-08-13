@@ -14,6 +14,8 @@
     "postinstall": "fumadocs-mdx",
     "deploy:staging": "CLOUDFLARE_ENV=staging pnpm build && wrangler deploy",
     "deploy:prod": "CLOUDFLARE_ENV=production pnpm build && wrangler deploy",
+    "deploy:purge": "node scripts/purge-cache.mjs",
+    "deploy:prod:all": "pnpm deploy:prod && pnpm deploy:purge",
     "cf-typegen": "wrangler types",
     "lint": "eslint .",
     "db:generate": "drizzle-kit generate",

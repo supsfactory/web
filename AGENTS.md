@@ -32,4 +32,5 @@ pnpm test                  # vitest run
 pnpm build             # vite build
 pnpm db:migrate:local  # apply D1 migrations locally
 pnpm deploy:prod       # CLOUDFLARE_ENV=production build + wrangler deploy (staging: deploy:staging)
+pnpm deploy:prod:all   # deploy + purge CDN cache (needs CLOUDFLARE_ZONE_ID + CLOUDFLARE_API_TOKEN w/ zone:cache:purge)
 ```
