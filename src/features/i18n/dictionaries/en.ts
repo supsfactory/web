@@ -313,8 +313,8 @@ export const en = {
       ctaBody: 'Tell us what you want to build — we typically reply within one business day.',
     },
     contact: {
-      title: 'Request A Manufacturing Quotation',
-      subtitle: 'Tell us about the boards you want to build — we typically reply within one business day.',      infoTitle: 'Talk to a project specialist',
+      title: 'Start Your Custom SUP Project',
+      subtitle: 'Share your product idea or spec sheet — we reply with MOQ, sample timing and lead times for your market, typically within one business day.',      infoTitle: 'Talk to a project specialist',
       infoBody: 'Prefer email or WhatsApp? Reach out directly and mention your project.',
       emailLabel: 'Email us',
       whatsappLabel: 'WhatsApp',

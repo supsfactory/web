@@ -136,6 +136,80 @@ export const GUIDES: Guide[] = [
       { q: 'Is it safe to SUP in a lake?', a: 'Yes — flat lakes are ideal for learning. Check wind direction, stay visible to boat traffic, and avoid busy boating lanes.' },
     ],
   },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'How to Choose a Custom SUP OEM Factory',
+    intro: [
+      'Buying inflatable paddle boards under your own brand comes down to one decision: which factory you trust with your first batch. Here is how to evaluate a custom SUP manufacturer before you send a PO.',
+    ],
+    sections: [
+      {
+        title: 'Start With a Trial Order, Not a MOQ Discussion',
+        body: 'A factory that only talks minimums is a sign of a trading desk, not a plant. Real manufacturers offer tiered minimums — trial runs from 5–10 units, standard OEM batches from 50 per design, and full custom-mould projects from 200. Order a small batch first: it tests communication, spec discipline and sample quality without betting your whole launch.',
+      },
+      {
+        title: 'Check What Is Actually In-House',
+        body: 'Drop-stitch SUP production has four core stages: material lamination, welding, printing and assembly. A true factory does all of them under one roof and lets you audit the floor. If the salesperson cannot show you a production line, you are likely buying through a middleman with no control over quality or lead time.',
+      },
+      {
+        title: 'Samples Must Match Mass Production',
+        body: 'A hand-finished sample is easy; consistent mass production is hard. Ask how the factory controls repeatability: material batch records, welding parameters, and a QC checklist that runs on every single board — not just the one you approve.',
+      },
+      {
+        title: 'Know Your Costs Before the PO',
+        body: 'Get the full cost picture in writing: unit price by container, tooling or mould costs if you want a new shape, artwork and printing setup, packaging, and freight to your port. Clarify whether pricing is FOB, CIF or DDP — the difference can be 10–15% of landed cost.',
+      },
+      {
+        title: 'Ask for Third-Party Inspection',
+        body: 'Reputable OEM SUP factories welcome pre-shipment inspections — many brands book a third-party QC visit per container. Confirm the factory can arrange inspections on sample and production runs, and that rejected units (for example, boards that lose more than 5% pressure) are excluded from the batch.',
+      },
+      {
+        title: 'Lead Times That Hold',
+        body: 'For inflatable SUPs, expect samples in 15–20 days and batch production in 30–45 days after confirmed PO and deposit, plus tooling time when you order a new mould. A factory that quotes dramatically shorter times than everyone else is quoting from a brochure, not a schedule.',
+      },
+    ],
+    faqs: [
+      { q: 'What is the minimum order for custom SUP boards?', a: 'Tiered minimums are standard: 5–10 units for a trial run, 50 units per design for a standard OEM batch, and 200 units for a fully custom-mould or private-label project.' },
+      { q: 'Can I see a sample before mass production?', a: 'Yes — samples ship in 15–20 days. Most factories credit sample and mould costs toward your first production order once it is confirmed.' },
+      { q: 'How do I verify a SUP factory is real?', a: 'Ask for a live video walkthrough of the production floor, check for an operating plant address in Qingdao or another manufacturing hub, and request documentation of prior export orders. Trial orders are the ultimate proof.' },
+      { q: 'What should a SUP factory quote include?', a: 'Unit price per board, tooling or mould costs, artwork setup, packaging, QC and inspection terms, and the freight term (FOB, CIF or DDP) with an estimated landed cost.' },
+    ],
+  },
+  {
+    slug: 'sup-import-guide',
+    title: 'Importing Inflatable SUPs from China: Shipping & Incoterms',
+    intro: [
+      'The boards are ready, the factory is confirmed — now comes the part importers underestimate: freight, Incoterms and paperwork. Here is what to settle before your first container.',
+    ],
+    sections: [
+      {
+        title: 'FOB, CIF or DDP — Who Pays for What',
+        body: 'FOB Qingdao means you take ownership at the port: the factory covers inland transport and loading, you arrange the ship. CIF adds insurance and freight to your port. DDP delivers the boards to your door, duties included — the most convenient option and the one where you pay the most per unit. Choose based on your freight experience; factories like ours quote all three.',
+      },
+      {
+        title: 'Sea Freight and Consolidation',
+        body: 'A 40-foot high-cube container holds roughly 1,000–1,200 inflatable SUP packages depending on box size. For smaller orders, share a container: consolidators pack your cartons with other cargo, and you pay only for the space you use. Book early — freight rates move with the season.',
+      },
+      {
+        title: 'Packaging That Survives the Voyage',
+        body: 'Seaworthy export packaging matters: 5-layer cartons, palletized or loose-loaded with proper blocking, and container desiccant in humid seasons. Insist the factory specs the packaging before you confirm the PO — damaged cartons are the most common import complaint.',
+      },
+      {
+        title: 'HS Code, Duties and Documents',
+        body: 'Inflatable paddle boards typically fall under HS 9506.29 (fitness and sporting equipment), with duty rates that vary by destination. Your customs broker needs the commercial invoice, packing list, bill of lading and certificate of origin — ask the factory for all four before sailing.',
+      },
+      {
+        title: 'Payment: Deposit, Balance, Documents',
+        body: 'The standard model is a 30% deposit to start production and 70% against shipping documents (usually a copy of the bill of lading). It protects both sides: the factory builds nothing without a deposit, and you see the shipment before the balance clears.',
+      },
+    ],
+    faqs: [
+      { q: 'How many inflatable SUPs fit in a 40HQ container?', a: 'Around 1,000–1,200 complete SUP packages (board, paddle, pump, leash, backpack) in a 40-foot high-cube, depending on carton dimensions and whether the boxes are palletized.' },
+      { q: 'What are the main Incoterms for SUP imports?', a: 'FOB (ownership transfers at the port of departure), CIF (insurance and freight added to your port) and DDP (delivered to your door with duties paid).' },
+      { q: 'What documents do I need to import SUPs?', a: 'Commercial invoice, packing list, bill of lading and a certificate of origin — most destinations also need an HS code classification (inflatable paddle boards usually sit under 9506.29).' },
+      { q: 'Is a deposit normal when ordering from a SUP factory?', a: 'Yes — 30% deposit with production start, 70% against shipping documents is the industry standard and protects both importer and factory.' },
+    ],
+  },
 ]
 
 /** Spanish variants of the four beginner guides (same slugs, translated copy). */
@@ -247,6 +321,80 @@ export const GUIDES_ES: Guide[] = [
       { q: '¿Es seguro remar en un lago?', a: 'Sí — los lagos tranquilos son ideales para aprender. Revisa la dirección del viento, mantente visible para el tráfico náutico y evita los canales de navegación concurridos.' },
     ],
   },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Cómo elegir una fábrica OEM de SUP a medida',
+    intro: [
+      'Comprar tablas de paddle surf hinchables bajo tu propia marca se resume a una decisión: en qué fábrica confías tu primer lote. Así se evalúa a un fabricante de SUP personalizados antes de enviar tu PO.',
+    ],
+    sections: [
+      {
+        title: 'Empieza con un pedido de prueba, no con una conversación de MOQ',
+        body: 'Una fábrica que solo habla de mínimos es señal de mesa comercial, no de planta. Los fabricantes reales ofrecen mínimos por tramos — pruebas desde 5–10 unidades, lotes OEM estándar desde 50 por diseño y proyectos de molde a medida desde 200. Pide primero un lote pequeño: prueba la comunicación, la disciplina de especificación y la calidad de la muestra sin arriesgar todo tu lanzamiento.',
+      },
+      {
+        title: 'Comprueba qué hay realmente en casa',
+        body: 'La producción de SUP drop-stitch tiene cuatro etapas centrales: laminado de material, soldadura, impresión y montaje. Una fábrica real las hace todas bajo el mismo techo y te deja auditar la planta. Si el vendedor no puede enseñarte una línea de producción, probablemente estás comprando a través de un intermediario sin control sobre la calidad ni los plazos.',
+      },
+      {
+        title: 'Las muestras deben coincidir con la producción en serie',
+        body: 'Una muestra acabada a mano es fácil; la producción en serie consistente es difícil. Pregunta cómo controla la fábrica la repetibilidad: registros de lotes de material, parámetros de soldadura y una lista de control de calidad que se aplique a cada tabla — no solo a la que apruebas.',
+      },
+      {
+        title: 'Conoce tus costes antes del PO',
+        body: 'Consigue el panorama completo de costes por escrito: precio unitario por contenedor, costes de utillaje o molde si quieres una forma nueva, prepresión de arte e impresión, embalaje y flete hasta tu puerto. Aclara si el precio es FOB, CIF o DDP — la diferencia puede ser del 10–15% del coste a destino.',
+      },
+      {
+        title: 'Pide inspección de terceros',
+        body: 'Las fábricas OEM de SUP de reputación aceptan inspecciones previas al envío — muchas marcas contratan la visita de un inspector por contenedor. Confirma que la fábrica puede organizar inspecciones sobre muestras y sobre producción, y que las unidades rechazadas (por ejemplo, tablas que pierden más del 5% de presión) se excluyen del lote.',
+      },
+      {
+        title: 'Plazos que se cumplen',
+        body: 'Para SUP hinchables, espera muestras en 15–20 días y producción en serie en 30–45 días tras PO confirmado y depósito, más el tiempo de utillaje cuando pides un molde nuevo. Una fábrica que cotiza plazos mucho más cortos que el resto está cotizando desde un folleto, no desde un calendario.',
+      },
+    ],
+    faqs: [
+      { q: '¿Cuál es el pedido mínimo para tablas SUP personalizadas?', a: 'Los mínimos por tramos son el estándar: 5–10 unidades para una prueba, 50 unidades por diseño para un lote OEM estándar y 200 unidades para un proyecto de molde a medida o marca privada.' },
+      { q: '¿Puedo ver una muestra antes de la producción?', a: 'Sí — las muestras se envían en 15–20 días. La mayoría de fábricas descuenta el coste de la muestra y del molde del primer pedido de producción una vez confirmado.' },
+      { q: '¿Cómo verifico que una fábrica de SUP es real?', a: 'Pide una visita por vídeo en directo a la planta, comprueba una dirección de fábrica operativa en Qingdao u otro polo de fabricación y solicita documentación de pedidos de exportación anteriores. El pedido de prueba es la prueba definitiva.' },
+      { q: '¿Qué debe incluir una cotización de fábrica de SUP?', a: 'Precio unitario por tabla, costes de utillaje o molde, preparación de arte, embalaje, condiciones de QC e inspección y el término de flete (FOB, CIF o DDP) con un coste estimado a destino.' },
+    ],
+  },
+  {
+    slug: 'sup-import-guide',
+    title: 'Importar SUP hinchables desde China: flete e Incoterms',
+    intro: [
+      'Las tablas están listas y la fábrica confirmada — ahora llega la parte que los importadores subestiman: flete, Incoterms y papeleo. Esto es lo que hay que cerrar antes del primer contenedor.',
+    ],
+    sections: [
+      {
+        title: 'FOB, CIF o DDP — quién paga qué',
+        body: 'FOB Qingdao significa que la propiedad pasa a ti en el puerto: la fábrica cubre el transporte interior y la carga, y tú contratas el barco. CIF añade seguro y flete hasta tu puerto. DDP entrega las tablas en tu puerta, con aranceles incluidos — la opción más cómoda y la que más pagas por unidad. Elige según tu experiencia en flete; fábricas como la nuestra cotizan las tres modalidades.',
+      },
+      {
+        title: 'Flete marítimo y consolidación',
+        body: 'Un contenedor de 40 pies high-cube alberga entre 1.000 y 1.200 paquetes de SUP hinchable según el tamaño de caja. Para pedidos menores, comparte contenedor: los consolidadores empaquetan tus cartones con otra carga y pagas solo el espacio que usas. Reserva pronto — las tarifas se mueven con la temporada.',
+      },
+      {
+        title: 'Un embalaje que sobreviva a la travesía',
+        body: 'El embalaje de exportación marítimo importa: cartones de 5 capas, paletizados o a granel con bloqueo adecuado y desecante en temporada húmeda. Exige que la fábrica especifique el embalaje antes de confirmar el PO — los cartones dañados son la queja de importación más común.',
+      },
+      {
+        title: 'Código HS, aranceles y documentos',
+        body: 'Las tablas de paddle sur hinchables suelen clasificarse en el código HS 9506.29 (equipamiento deportivo), con aranceles que varían según destino. Tu agente de aduanas necesita la factura comercial, el packing list, el conocimiento de embarque y el certificado de origen — pide los cuatro a la fábrica antes de zarpar.',
+      },
+      {
+        title: 'Pago: depósito, saldo y documentos',
+        body: 'El modelo estándar es un 30% de depósito para iniciar la producción y un 70% contra documentos de embarque (normalmente copia del conocimiento de embarque). Protege a ambas partes: la fábrica no fabrica nada sin depósito y tú ves el barco antes de que el saldo se liquide.',
+      },
+    ],
+    faqs: [
+      { q: '¿Cuántos SUP hinchables caben en un contenedor 40HQ?', a: 'Entre 1.000 y 1.200 paquetes completos (tabla, pala, bomba, leash y mochila) en un high-cube de 40 pies, según las dimensiones del cartón y si las cajas van paletizadas.' },
+      { q: '¿Cuáles son los Incoterms principales para importar SUP?', a: 'FOB (la propiedad se transfiere en el puerto de salida), CIF (seguro y flete añadidos hasta tu puerto) y DDP (entrega en tu puerta con aranceles pagados).' },
+      { q: '¿Qué documentos necesito para importar SUP?', a: 'Factura comercial, packing list, conocimiento de embarque y certificado de origen — la mayoría de destinos también piden clasificación HS (las tablas hinchables suelen ubicarse en 9506.29).' },
+      { q: '¿Es normal pagar un depósito a una fábrica de SUP?', a: 'Sí — 30% de depósito al inicio de la producción y 70% contra documentos de embarque es el estándar del sector y protege tanto al importador como a la fábrica.' },
+    ],
+  },
 ]
 
 export function getGuide(path: string, locale?: string): Guide | undefined {
@@ -291,6 +439,18 @@ export const GUIDE_CARDS: Record<'en' | 'es', GuideCard[]> = {
       title: 'Consejos de seguridad en el agua',
       intro:
         'Una sesión segura es una sesión divertida. Estos básicos valen para lagos, ríos y remo costero por igual.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Cómo elegir una fábrica OEM de SUP a medida',
+      intro:
+        'Cómo evaluar a un fabricante de SUP personalizados antes de enviar tu PO: pruebas, planta propia, muestras, costes e inspección.',
+    },
+    {
+      slug: 'sup-import-guide',
+      title: 'Importar SUP hinchables desde China',
+      intro:
+        'FOB, CIF o DDP, flete y consolidación, embalaje marítimo, HS code y el modelo de pago antes de tu primer contenedor.',
     },
   ],
 }

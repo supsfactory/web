@@ -29,11 +29,11 @@ export const Route = createFileRoute('/{-$locale}/contact')({
       origin,
       locale,
       path: '/contact',
-      title: locale === 'es' ? 'Contacto | Presupuesto de fabricación | SUPsfactory' : 'Contact | Request A Manufacturing Quotation — SUPsfactory',
+      title: locale === 'es' ? 'Contacto | Inicia tu proyecto SUP a medida | SUPsfactory' : 'Contact | Start Your Custom SUP Project — SUPsfactory',
       description:
         locale === 'es'
-          ? 'Cuéntanos qué tablas quieres fabricar: MOQ por tramos desde 5–10 unidades de prueba, ingeniería y muestras, con respuesta en un día laborable.'
-          : 'Tell us about the SUP boards you want to manufacture — tiered MOQ from 5–10 trial units, in-house engineering and sampling. Reply within one business day.',
+          ? 'Comienza tu proyecto de tablas SUP a medida: desarrollamos, fabricamos y exportamos tablas hinchables bajo tu marca, desde 5–10 unidades de prueba hasta contenedores.'
+          : 'Start your custom SUP board project — we develop, manufacture and ship inflatable paddle boards under your brand, from 5–10 trial units to container-scale production.',
     })
     return { meta, links }
   },

@@ -303,8 +303,8 @@ export const es = {
       ctaBody: 'Cuéntanos qué quieres construir — normalmente respondemos en un día laborable.',
     },
     contact: {
-      title: 'Solicita un presupuesto de fabricación',
-      subtitle: 'Cuéntanos qué tablas quieres fabricar — normalmente respondemos en un día laborable.',
+      title: 'Inicia tu proyecto SUP a medida',
+      subtitle: 'Cuéntanos tu idea de producto o tu ficha de especificaciones — respondemos con MOQ, tiempos de muestra y plazos para tu mercado, normalmente en un día laborable.',
       infoTitle: 'Habla con un especialista de proyectos',
       infoBody: '¿Prefieres correo o WhatsApp? Escríbenos directamente y menciona tu proyecto.',
       emailLabel: 'Escríbenos',
