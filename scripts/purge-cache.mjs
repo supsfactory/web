@@ -23,7 +23,7 @@ const res = await fetch(`https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/p
   body: JSON.stringify({ purge_everything: true }),
 })
 
-const body = (await res.json()) as { success?: boolean; errors?: { message?: string }[] }
+const body = await res.json()
 if (res.ok && body.success) {
   console.log('[purge] cache purged — visitors now hit the freshly deployed version')
 } else {
