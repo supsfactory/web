@@ -38,6 +38,12 @@ export const FACTS = {
     linkedin: 'https://www.linkedin.com/company/supsfactory',
     youtube: 'https://www.youtube.com/@supsfactory',
   },
+  // ── 公开联系信息（footer 唯一来源）──
+  contact: {
+    whatsapp: '+86 13305324192',
+    whatsappLink: 'https://wa.me/8613305324192',
+    address: 'Economic Development Zone, Laixi, Qingdao, China, 266600',
+  },
   // ── 全站拔萃内蒙古联：Company Boilerplate（逐字复用）──
   boilerplate:
     'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,000 m² inflatable manufacturing plant in Qingdao, China.',

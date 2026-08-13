@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Mail, MessageCircle, Youtube } from 'lucide-react'
+import { Facebook, Linkedin, Mail, MapPin, MessageCircle, Phone, Youtube } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { FACTS } from '@/features/site/facts'
 import { Logo } from '@/components/brand/logo'
@@ -25,6 +25,12 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
             <a href="mailto:info@supsfactory.com" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
               <Mail size={15} className="text-primary" /> info@supsfactory.com
             </a>
+            <a href={FACTS.contact.whatsappLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
+              <Phone size={15} className="text-primary" /> {FACTS.contact.whatsapp}
+            </a>
+            <p className="inline-flex items-start gap-2">
+              <MapPin size={15} className="mt-0.5 shrink-0 text-primary" /> {FACTS.contact.address}
+            </p>
             <a href={fl('/contact')} className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
               <MessageCircle size={15} className="text-primary" /> {t('sup.footer.inquiryForm')}
             </a>
