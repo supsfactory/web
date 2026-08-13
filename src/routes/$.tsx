@@ -43,7 +43,9 @@ export const Route = createFileRoute('/$')({
     const image = loaderData.kind === 'page' ? OG_IMAGE : ((loaderData as { image?: string }).image ?? OG_IMAGE)
     // og:image must be absolute; local /assets/* refs are resolved against the
     // site origin, and the 1200x630 pair only applies to the shared OG_IMAGE.
-    const absImage = image.startsWith('http') ? image : `${origin}${image}`
+    // Product images are AVIF for the <img> but crawlers lag on AVIF — point
+    // og:image at the sibling JPG (kept alongside), after URL resolution.
+    const absImage = (image.startsWith('http') ? image : `${origin}${image}`).replace(/\.avif$/, '.jpg')
     // Translated /es/* pages get a real Spanish head (canonical → /es, es_ES
     // OG locale, hreflang alternates) and are indexable.
     if (loaderData.localized && translated) {
