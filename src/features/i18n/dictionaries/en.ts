@@ -140,7 +140,7 @@ export const en = {
     noInquiries: 'No inquiries yet', inquiryExport: 'Export CSV',
     inquiryName: 'Name', inquiryCompany: 'Company', inquiryCountry: 'Country',
     inquiryEmail: 'Email', inquiryWhatsapp: 'WhatsApp', inquiryQty: 'Qty',
-    inquiryType: 'Type', inquiryReq: 'Requirements', inquiryLogo: 'Logo',
+    inquiryType: 'Type', inquiryTimeline: 'Timeline', inquiryReq: 'Requirements', inquiryLogo: 'Logo',
     inquiryStatus: 'Status', inquiryLocale: 'Language', inquirySubmitted: 'Submitted',
   },
   sup: {
@@ -328,6 +328,10 @@ export const en = {
     email: 'Business email', whatsapp: 'WhatsApp (optional)',
     businessType: 'Business type', businessTypePlaceholder: 'Select your business type',
     quantity: 'Estimated quantity', quantityPlaceholder: 'Select estimated quantity',
+    timeline: 'Required timeline', timelineHint: 'When do you need to start production?',
+    timelineOptions: {
+      now: 'Ready now — ASAP', 't1-3mo': 'Within 1 – 3 months', 't3-6mo': 'Within 3 – 6 months', 't6mo+': '6+ months out',
+    },
     productType: 'Product type', model: 'Engagement model',
     targetMarket: 'Target market',
     targetMarketPlaceholder: 'e.g. EU retailers, US rental fleets',

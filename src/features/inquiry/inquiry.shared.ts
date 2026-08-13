@@ -4,12 +4,14 @@ export type InquiryBusinessType = 'brand' | 'retailer' | 'distributor' | 'resort
 export type InquiryQuantity = 'q50' | 'q100' | 'q300' | 'q500' | 'unsure'
 export type InquiryProductType = 'inflatable-sup' | 'hard-sup' | 'accessories' | 'multiple' | 'unsure'
 export type InquiryModel = 'oem' | 'odm' | 'private-label' | 'unsure'
+export type InquiryTimeline = 'now' | 't1-3mo' | 't3-6mo' | 't6mo+'
 export type InquiryStatus = 'new' | 'contacted' | 'quoted' | 'closed'
 
 export const BUSINESS_TYPES: InquiryBusinessType[] = ['brand', 'retailer', 'distributor', 'resort', 'club', 'rental', 'corporate', 'other']
 export const QUANTITIES: InquiryQuantity[] = ['q50', 'q100', 'q300', 'q500', 'unsure']
 export const PRODUCT_TYPES: InquiryProductType[] = ['inflatable-sup', 'hard-sup', 'accessories', 'multiple', 'unsure']
 export const MODELS: InquiryModel[] = ['oem', 'odm', 'private-label', 'unsure']
+export const TIMELINES: InquiryTimeline[] = ['now', 't1-3mo', 't3-6mo', 't6mo+']
 export const STATUSES: InquiryStatus[] = ['new', 'contacted', 'quoted', 'closed']
 
 export const INQUIRY_LIMITS = {
@@ -35,6 +37,7 @@ export type InquiryInput = {
   quantity: string
   productType: string
   model: string
+  timeline: string
   targetMarket: string
   requirements: string
 }
@@ -53,6 +56,7 @@ export function clampInquiryInput(d: unknown): InquiryInput {
     quantity: QUANTITIES.includes(o.quantity as InquiryQuantity) ? (o.quantity as InquiryQuantity) : 'unsure',
     productType: PRODUCT_TYPES.includes(o.productType as InquiryProductType) ? (o.productType as InquiryProductType) : 'unsure',
     model: MODELS.includes(o.model as InquiryModel) ? (o.model as InquiryModel) : 'unsure',
+    timeline: TIMELINES.includes(o.timeline as InquiryTimeline) ? (o.timeline as InquiryTimeline) : 'now',
     targetMarket: s(o.targetMarket, INQUIRY_LIMITS.targetMarketMax).trim(),
     requirements: s(o.requirements, INQUIRY_LIMITS.requirementsMax).trim(),
   }

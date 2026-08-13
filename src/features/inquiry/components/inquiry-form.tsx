@@ -153,7 +153,7 @@ export function InquiryForm({
           <Label htmlFor="inq-market">{t('inquiry.targetMarket')}</Label>
           <Input id="inq-market" name="targetMarket" maxLength={120} placeholder={t('inquiry.targetMarketPlaceholder')} />
         </div>
-        <div className="field sm:col-span-2">
+        <div className="field">
           <Label htmlFor="inq-qty">{t('inquiry.quantity')} <span className="req">*</span></Label>
           <Select name="quantity" defaultValue="unsure" required>
             <option value="q50">{t('inquiry.quantityOptions.q50')}</option>
@@ -163,6 +163,17 @@ export function InquiryForm({
             <option value="unsure">{t('inquiry.quantityOptions.unsure')}</option>
           </Select>
         </div>
+      </div>
+
+      <div className="field sm:col-span-2">
+        <Label htmlFor="inq-timeline">{t('inquiry.timeline')} <span className="req">*</span></Label>
+        <Select name="timeline" defaultValue="now" required>
+          <option value="now">{t('inquiry.timelineOptions.now')}</option>
+          <option value="t1-3mo">{t('inquiry.timelineOptions.t1-3mo')}</option>
+          <option value="t3-6mo">{t('inquiry.timelineOptions.t3-6mo')}</option>
+          <option value="t6mo+">{t('inquiry.timelineOptions.t6mo+')}</option>
+        </Select>
+        <span className="field-hint">{t('inquiry.timelineHint')}</span>
       </div>
 
       <div className="field">

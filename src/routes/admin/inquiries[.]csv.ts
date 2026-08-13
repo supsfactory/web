@@ -11,12 +11,12 @@ function cell(v: string): string {
 }
 
 export function inquiriesToCsv(rows: InquiryRow[]): string {
-  const header = 'name,company,country,email,whatsapp,business_type,quantity,requirements,logo,status,locale,created_at'
+  const header = 'name,company,country,email,whatsapp,business_type,quantity,timeline,requirements,logo,status,locale,created_at'
   const body = rows.map((r) => {
     const created = r.createdAt instanceof Date ? r.createdAt.toISOString() : String(r.createdAt)
     return [
       cell(r.name), cell(r.company), cell(r.country), cell(r.email), cell(r.whatsapp),
-      cell(r.businessType), cell(r.quantity), cell(r.requirements), cell(r.logoKey ?? ''),
+      cell(r.businessType), cell(r.quantity), cell(r.timeline), cell(r.requirements), cell(r.logoKey ?? ''),
       cell(r.status), cell(r.locale), cell(created),
     ].join(',')
   })

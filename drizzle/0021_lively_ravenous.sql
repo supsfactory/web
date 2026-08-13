@@ -1,0 +1,1 @@
+ALTER TABLE `inquiry` ADD `timeline` text DEFAULT 'now' NOT NULL;

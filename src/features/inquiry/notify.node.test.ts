@@ -33,6 +33,7 @@ function inquiry(overrides: Partial<Inquiry> = {}): Inquiry {
     quantity: 'unsure',
     productType: 'unsure',
     model: 'unsure',
+    timeline: 'now',
     targetMarket: '',
     requirements: '',
     logoKey: null,

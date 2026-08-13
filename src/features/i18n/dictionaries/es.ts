@@ -130,7 +130,7 @@ export const es = {
     noInquiries: 'Aún no hay consultas', inquiryExport: 'Exportar CSV',
     inquiryName: 'Nombre', inquiryCompany: 'Empresa', inquiryCountry: 'País',
     inquiryEmail: 'Correo', inquiryWhatsapp: 'WhatsApp', inquiryQty: 'Cant.',
-    inquiryType: 'Tipo', inquiryReq: 'Requisitos', inquiryLogo: 'Logo',
+    inquiryType: 'Tipo', inquiryTimeline: 'Cronograma', inquiryReq: 'Requisitos', inquiryLogo: 'Logo',
     inquiryStatus: 'Estado', inquiryLocale: 'Idioma', inquirySubmitted: 'Enviado',
   },
   sup: {
@@ -319,6 +319,10 @@ export const es = {
     email: 'Correo profesional', whatsapp: 'WhatsApp (opcional)',
     businessType: 'Tipo de negocio', businessTypePlaceholder: 'Selecciona tu tipo de negocio',
     quantity: 'Cantidad estimada', quantityPlaceholder: 'Selecciona la cantidad estimada',
+    timeline: 'Cronograma requerido', timelineHint: '¿Cuándo necesitas iniciar la producción?',
+    timelineOptions: {
+      now: 'Listo ahora — lo antes posible', 't1-3mo': 'En 1 – 3 meses', 't3-6mo': 'En 3 – 6 meses', 't6mo+': 'En más de 6 meses',
+    },
     productType: 'Tipo de producto', model: 'Modelo de colaboración',
     targetMarket: 'Mercado objetivo',
     targetMarketPlaceholder: 'p. ej. minoristas UE, flotas de alquiler EE. UU.',

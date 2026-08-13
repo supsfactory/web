@@ -12,6 +12,7 @@ export const inquiry = sqliteTable('inquiry', {
   quantity: text('quantity').notNull().default('unsure'),         // InquiryQuantity
   productType: text('product_type').notNull().default('unsure'),  // InquiryProductType
   model: text('model').notNull().default('unsure'),               // InquiryModel
+  timeline: text('timeline').notNull().default('now'),            // InquiryTimeline
   targetMarket: text('target_market').notNull().default(''),      // InquiryModel
   requirements: text('requirements').notNull().default(''),
   logoKey: text('logo_key'),                                       // R2 object key (inquiry-logos/...)

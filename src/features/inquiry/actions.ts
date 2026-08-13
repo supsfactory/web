@@ -43,6 +43,7 @@ export const submitInquiry = createServerFn({ method: 'POST' })
       quantity: data.get('quantity'),
       productType: data.get('productType'),
       model: data.get('model'),
+      timeline: data.get('timeline'),
       targetMarket: data.get('targetMarket'),
       requirements: data.get('requirements'),
     })

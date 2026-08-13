@@ -44,7 +44,7 @@ export const hero: Localized<HeroContent> = {
     titlePre: 'Custom SUP Board Manufacturer',
     titleAccent: '& OEM/ODM Partner',
     titlePost: 'for Global Brands',
-    sub: 'From product concept and prototype development to mass production, we help SUP brands, distributors, outdoor companies and water sports organizations bring customized paddle board products to market.',
+    sub: 'A China-based custom SUP board manufacturer — from product concept and prototype development to mass production, we help SUP brands, distributors, outdoor companies and water sports organizations bring customized paddle board products to market.',
     ctaPrimary: 'Start Your SUP Project',
     ctaSecondary: 'Explore Our OEM & ODM Process',
     chips: [
@@ -65,7 +65,7 @@ export const hero: Localized<HeroContent> = {
     titlePre: 'Fabricante de tablas SUP personalizadas',
     titleAccent: 'y socio OEM/ODM',
     titlePost: 'para marcas globales',
-    sub: 'Desde el concepto de producto y el desarrollo de prototipos hasta la producción en masa, ayudamos a marcas de SUP, distribuidores, empresas de actividades al aire libre y organizaciones de deportes acuáticos a llevar productos de tablas de pádel personalizadas al mercado.',
+    sub: 'Fabricante de tablas SUP personalizadas con base en China — desde el concepto de producto y el desarrollo de prototipos hasta la producción en masa, ayudamos a marcas de SUP, distribuidores, empresas de actividades al aire libre y organizaciones de deportes acuáticos a llevar productos de tablas de pádel personalizadas al mercado.',
     ctaPrimary: 'Inicia tu proyecto de SUP',
     ctaSecondary: 'Conoce nuestro proceso OEM y ODM',
     chips: [

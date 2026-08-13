@@ -78,6 +78,7 @@ function InquiriesAdmin() {
               <th className="px-4 py-2">{t('admin.inquiryCountry')}</th>
               <th className="px-4 py-2">{t('admin.inquiryEmail')}</th>
               <th className="px-4 py-2">{t('admin.inquiryType')}</th>
+              <th className="px-4 py-2">{t('admin.inquiryTimeline')}</th>
               <th className="px-4 py-2">{t('admin.inquiryQty')}</th>
               <th className="px-4 py-2">{t('admin.inquiryReq')}</th>
               <th className="px-4 py-2">{t('admin.inquiryLogo')}</th>
@@ -96,6 +97,7 @@ function InquiriesAdmin() {
                   {r.whatsapp && <p className="text-xs text-fg-3">{r.whatsapp}</p>}
                 </td>
                 <td className="px-4 py-3 text-xs">{r.businessType}</td>
+                <td className="px-4 py-3 text-xs">{r.timeline}</td>
                 <td className="px-4 py-3 text-xs">{r.quantity}</td>
                 <td className="max-w-[240px] px-4 py-3 text-xs leading-relaxed text-fg-2">{r.requirements || '—'}</td>
                 <td className="px-4 py-3">
