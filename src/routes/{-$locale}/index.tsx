@@ -1,5 +1,5 @@
 import { createFileRoute, getRouteApi } from '@tanstack/react-router'
-import { localeHead, HERO_IMAGE, HERO_IMAGE_480, HERO_IMAGE_768 } from '@/features/seo/seo'
+import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
@@ -51,23 +51,7 @@ export const Route = createFileRoute('/{-$locale}/')({
           ? 'SUPsfactory — Fabricante de tablas SUP personalizadas y socio OEM/ODM'
           : 'SUPsfactory — Custom SUP Board Manufacturer & OEM/ODM Partner',
     })
-    return {
-      meta,
-      links: [
-        ...links,
-        // LCP 是 hero 的板图：preload + imagesrcset 让浏览器在文档解析前就
-        // 按最终 srcset 选中最接近的尺寸发起请求（assets 在跨域 CDN 上，
-        // preconnect 已在根 head 建连），缩短 LCP 一个 RTT。
-        {
-          rel: 'preload',
-          as: 'image',
-          href: HERO_IMAGE_768,
-          imagesrcset: `${HERO_IMAGE} 1200w, ${HERO_IMAGE_768} 768w, ${HERO_IMAGE_480} 480w`,
-          imagesizes: '(min-width: 768px) 512px, calc(100vw - 2.5rem)',
-          fetchPriority: 'high',
-        },
-      ],
-    }
+    return { meta, links }
   },
   component: Home,
 })
