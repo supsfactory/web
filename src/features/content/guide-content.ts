@@ -17,6 +17,7 @@ export interface Guide {
   intro: string[]
   sections: GuideSection[]
   faqs: { q: string; a: string }[]
+  related?: { label: string; href: string }[]
 }
 
 export const GUIDES: Guide[] = [
@@ -47,6 +48,11 @@ export const GUIDES: Guide[] = [
     faqs: [
       { q: 'What size SUP board do I need?', a: 'Most beginners choose an all-around board around 11\'0" × 32" × 6" — stable, versatile and easy to transport. Heavier riders or paddlers who want distance should size up.' },
       { q: 'Is an inflatable SUP as rigid as a hard board?', a: 'A modern drop-stitch inflatable at 15–20 PSI is close to an entry-level hard board in rigidity, with the advantage of packing into a backpack.' },
+    ],
+    related: [
+      { label: 'Browse our SUP platforms', href: '/products' },
+      { label: 'Inflatable vs hardboard', href: '/inflatable-vs-hardboard' },
+      { label: 'OEM manufacturing', href: '/oem-odm-manufacturer' },
     ],
   },
   {
@@ -135,6 +141,11 @@ export const GUIDES: Guide[] = [
       { q: 'Do I need a life jacket on a SUP?', a: 'Requirements vary by country and waterway. Even where it is optional, a leash plus a buoyancy aid is the responsible baseline, and children should always wear a properly fitted PFD.' },
       { q: 'Is it safe to SUP in a lake?', a: 'Yes — flat lakes are ideal for learning. Check wind direction, stay visible to boat traffic, and avoid busy boating lanes.' },
     ],
+    related: [
+      { label: 'Safety equipment on our platforms', href: '/products' },
+      { label: 'Factory quality control', href: '/quality' },
+      { label: 'Choose your first board', href: '/guides/how-to-choose-your-sup' },
+    ],
   },
   {
     slug: 'choosing-a-sup-oem-factory',
@@ -174,6 +185,12 @@ export const GUIDES: Guide[] = [
       { q: 'How do I verify a SUP factory is real?', a: 'Ask for a live video walkthrough of the production floor, check for an operating plant address in Qingdao or another manufacturing hub, and request documentation of prior export orders. Trial orders are the ultimate proof.' },
       { q: 'What should a SUP factory quote include?', a: 'Unit price per board, tooling or mould costs, artwork setup, packaging, QC and inspection terms, and the freight term (FOB, CIF or DDP) with an estimated landed cost.' },
     ],
+    related: [
+      { label: 'Our OEM / ODM manufacturing', href: '/oem-odm-manufacturer' },
+      { label: 'SUP product development process', href: '/product-development' },
+      { label: 'Factory capacity and plant', href: '/factory' },
+      { label: 'Start a custom SUP project', href: '/contact' },
+    ],
   },
   {
     slug: 'sup-import-guide',
@@ -208,6 +225,11 @@ export const GUIDES: Guide[] = [
       { q: 'What are the main Incoterms for SUP imports?', a: 'FOB (ownership transfers at the port of departure), CIF (insurance and freight added to your port) and DDP (delivered to your door with duties paid).' },
       { q: 'What documents do I need to import SUPs?', a: 'Commercial invoice, packing list, bill of lading and a certificate of origin — most destinations also need an HS code classification (inflatable paddle boards usually sit under 9506.29).' },
       { q: 'Is a deposit normal when ordering from a SUP factory?', a: 'Yes — 30% deposit with production start, 70% against shipping documents is the industry standard and protects both importer and factory.' },
+    ],
+    related: [
+      { label: 'Factory logistics and capacity', href: '/factory/capacity' },
+      { label: 'OEM shipping FAQ', href: '/faq' },
+      { label: 'Talk to a project specialist', href: '/contact' },
     ],
   },
   {
@@ -248,6 +270,12 @@ export const GUIDES: Guide[] = [
       { q: 'Is my custom SUP design exclusive to my brand?', a: 'Yes with standard private-label terms. Ask for an exclusivity clause in your purchase agreement; factories like ours do not resell your branded design.' },
       { q: 'How long does a private label SUP order take?', a: 'Samples ship in 15–20 days; batch production completes in 30–45 days after confirmed PO and deposit. Budget 8–12 weeks for the first full run.' },
     ],
+    related: [
+      { label: 'Private label SUP solutions', href: '/solutions/private-label-sup' },
+      { label: 'Browse proven platforms', href: '/products/all-around' },
+      { label: 'OEM / ODM manufacturing', href: '/oem-odm-manufacturer' },
+      { label: 'Start a custom SUP project', href: '/contact' },
+    ],
   },
   {
     slug: 'sup-fleet-guide',
@@ -287,6 +315,12 @@ export const GUIDES: Guide[] = [
       { q: 'Can fleet boards be branded with our logo?', a: 'Yes — screen-printed logos, rental numbering and color-coded decks are standard customizations, particularly cost-effective from 200 units.' },
       { q: 'How long does a fleet order take?', a: 'Samples in 15–20 days, production in 30–45 days after confirmed PO and deposit, plus sea freight. Order 8–12 weeks before your season starts.' },
     ],
+    related: [
+      { label: 'Resort and club solutions', href: '/solutions/resort-sup' },
+      { label: 'Rental fleet case study', href: '/projects/rental-fleet-multi-site' },
+      { label: 'Fleet-grade platforms', href: '/products/all-around' },
+      { label: 'Talk to a project specialist', href: '/contact' },
+    ],
   },
 ]
 
@@ -319,6 +353,11 @@ export const GUIDES_ES: Guide[] = [
     faqs: [
       { q: '¿Qué tamaño de tabla SUP necesito?', a: 'La mayoría de los principiantes elige una tabla polivalente de unos 11\'0" × 32" × 6" — estable, versátil y fácil de transportar. Los remeros más pesados o que quieren distancia deben subir de tamaño.' },
       { q: '¿Un SUP hinchable es tan rígido como uno rígido?', a: 'Un hinchable drop-stitch moderno a 15–20 PSI se acerca a una tabla rígida de entrada en rigidez, con la ventaja de que se guarda en una mochila.' },
+    ],
+    related: [
+      { label: 'Nuestras plataformas de SUP', href: '/products' },
+      { label: 'Hinchable vs tabla rígida', href: '/inflatable-vs-hardboard' },
+      { label: 'Fabricación OEM', href: '/oem-odm-manufacturer' },
     ],
   },
   {
@@ -398,6 +437,11 @@ export const GUIDES_ES: Guide[] = [
       { q: '¿Necesito un chaleco salvavidas en un SUP?', a: 'Los requisitos varían por país y vía navegable. Aunque sea opcional, un leash más un dispositivo de flotación es la base responsable, y los niños siempre deben llevar un PFD bien ajustado.' },
       { q: '¿Es seguro remar en un lago?', a: 'Sí — los lagos tranquilos son ideales para aprender. Revisa la dirección del viento, mantente visible para el tráfico náutico y evita los canales de navegación concurridos.' },
     ],
+    related: [
+      { label: 'Equipo de seguridad en nuestras plataformas', href: '/products' },
+      { label: 'Control de calidad de fábrica', href: '/quality' },
+      { label: 'Elige tu primera tabla', href: '/guides/how-to-choose-your-sup' },
+    ],
   },
   {
     slug: 'choosing-a-sup-oem-factory',
@@ -437,6 +481,12 @@ export const GUIDES_ES: Guide[] = [
       { q: '¿Cómo verifico que una fábrica de SUP es real?', a: 'Pide una visita por vídeo en directo a la planta, comprueba una dirección de fábrica operativa en Qingdao u otro polo de fabricación y solicita documentación de pedidos de exportación anteriores. El pedido de prueba es la prueba definitiva.' },
       { q: '¿Qué debe incluir una cotización de fábrica de SUP?', a: 'Precio unitario por tabla, costes de utillaje o molde, preparación de arte, embalaje, condiciones de QC e inspección y el término de flete (FOB, CIF o DDP) con un coste estimado a destino.' },
     ],
+    related: [
+      { label: 'Nuestra fabricación OEM / ODM', href: '/oem-odm-manufacturer' },
+      { label: 'Proceso de desarrollo de producto SUP', href: '/product-development' },
+      { label: 'Capacidad de fábrica y planta', href: '/factory' },
+      { label: 'Inicia tu proyecto SUP a medida', href: '/contact' },
+    ],
   },
   {
     slug: 'sup-import-guide',
@@ -471,6 +521,11 @@ export const GUIDES_ES: Guide[] = [
       { q: '¿Cuáles son los Incoterms principales para importar SUP?', a: 'FOB (la propiedad se transfiere en el puerto de salida), CIF (seguro y flete añadidos hasta tu puerto) y DDP (entrega en tu puerta con aranceles pagados).' },
       { q: '¿Qué documentos necesito para importar SUP?', a: 'Factura comercial, packing list, conocimiento de embarque y certificado de origen — la mayoría de destinos también piden clasificación HS (las tablas hinchables suelen ubicarse en 9506.29).' },
       { q: '¿Es normal pagar un depósito a una fábrica de SUP?', a: 'Sí — 30% de depósito al inicio de la producción y 70% contra documentos de embarque es el estándar del sector y protege tanto al importador como a la fábrica.' },
+    ],
+    related: [
+      { label: 'Logística y capacidad de fábrica', href: '/factory/capacity' },
+      { label: 'Preguntas frecuentes de envío OEM', href: '/faq' },
+      { label: 'Habla con un especialista de proyectos', href: '/contact' },
     ],
   },
   {
@@ -511,6 +566,12 @@ export const GUIDES_ES: Guide[] = [
       { q: '¿Mi diseño de SUP personalizado es exclusivo de mi marca?', a: 'Sí, con condiciones estándar de marca privada. Pide una cláusula de exclusividad en tu contrato; fábricas como la nuestra no revenden diseños con tu marca.' },
       { q: '¿Cuánto tarda un pedido de SUP de marca privada?', a: 'Las muestras se envían en 15–20 días; la producción en serie se completa en 30–45 días tras PO confirmado y depósito. Calcula de 8 a 12 semanas para la primera tirada completa.' },
     ],
+    related: [
+      { label: 'Soluciones de marca privada', href: '/solutions/private-label-sup' },
+      { label: 'Plataformas probadas', href: '/products/all-around' },
+      { label: 'Fabricación OEM / ODM', href: '/oem-odm-manufacturer' },
+      { label: 'Inicia tu proyecto SUP a medida', href: '/contact' },
+    ],
   },
   {
     slug: 'sup-fleet-guide',
@@ -549,6 +610,12 @@ export const GUIDES_ES: Guide[] = [
       { q: '¿Cuántas tablas necesita una operación de alquiler?', a: 'Calcula 20–30 tablas para un negocio pequeño, escalando con la rotación: 100+ unidades para resorts y clubes con mucha actividad. Los repuestos deben ser el 5–10% del tamaño de la flota.' },
       { q: '¿Pueden las tablas de flota llevar nuestro logotipo?', a: 'Sí — serigrafía, numeración de alquiler y cubiertas con códigos de color son personalizaciones estándar, especialmente rentables desde 200 unidades.' },
       { q: '¿Cuánto tarda un pedido de flota?', a: 'Muestras en 15–20 días, producción en 30–45 días tras PO confirmado y depósito, más flete marítimo. Pide de 8 a 12 semanas antes de que empiece tu temporada.' },
+    ],
+    related: [
+      { label: 'Soluciones para resorts y clubes', href: '/solutions/resort-sup' },
+      { label: 'Caso de éxito de flota de alquiler', href: '/projects/rental-fleet-multi-site' },
+      { label: 'Plataformas para flotas', href: '/products/all-around' },
+      { label: 'Habla con un especialista de proyectos', href: '/contact' },
     ],
   },
 ]

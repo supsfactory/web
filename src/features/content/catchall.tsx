@@ -694,6 +694,7 @@ function CaseView({ c, origin, title, path, locale }: { c: AfarerCaseUse; origin
 function GuideView({ slug, origin, path, locale }: { slug: string; origin: string; path: string; locale: Locale }) {
   const guide = getGuide(`/guides/${slug}`, locale)
   if (!guide) return null
+  const fl = (p: string): string => (locale === 'es' ? `/es${p}` : p)
   return (
     <>
       <PageHero kicker={locale === 'es' ? 'Guía' : 'Guide'} title={guide.title} />
@@ -722,6 +723,25 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
                   </summary>
                   <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{brandify(f.a)}</p>
                 </details>
+              ))}
+            </div>
+          </section>
+        )}
+        {guide.related && guide.related.length > 0 && (
+          <section className="mt-12">
+            <h2 className="font-display text-xl font-extrabold tracking-tight">
+              {locale === 'es' ? 'Sigue explorando' : 'Next Steps'}
+            </h2>
+            <div className="mt-5 grid gap-3 sm:grid-cols-2">
+              {guide.related.map((r) => (
+                <a
+                  key={r.href}
+                  href={fl(r.href)}
+                  className="marine-card flex items-center justify-between gap-3 p-5 transition-colors hover:border-primary/40"
+                >
+                  <span className="text-[14px] font-semibold leading-snug">{brandify(r.label)}</span>
+                  <ArrowRight size={15} className="shrink-0 text-primary" />
+                </a>
               ))}
             </div>
           </section>
