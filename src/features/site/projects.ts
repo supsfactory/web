@@ -145,6 +145,93 @@ export const projects: Localized<ProjectData[]> = {
       outcome: 'Faster learning curve, renewed equipment next year.',
       tags: ['Beginner fleet', 'Program launch', 'Renewal orders'],
     },
+    {
+      slug: 'distributor-line-expansion',
+      navLabel: 'Distributor Line Expansion',
+      metaTitle: 'Distributor SUP Line Expansion | 6-SKU Program — SUPsfactory',
+      metaDescription:
+        'How a water-sports distributor added a full mid-market SUP range across six SKUs — one factory, one program, FOB and DDP shipments to multiple markets.',
+      kicker: 'Distributor Project',
+      h1: 'Distributor Line Expansion — Six SKUs, One Factory, Multiple Markets',
+      intro: [
+        'A water-sports distributor carrying kayaks and accessories wanted its own inflatable SUP range — without fragmenting supply across several factories for boards, paddles and pumps.',
+      ],
+      industry: 'Distributors & Wholesalers',
+      requirement: 'A six-SKU mid-market SUP range (10′6″ to 12′6″ plus accessory kits), shipped FOB Qingdao and DDP to two regions.',
+      challenge:
+        'Separate factories for boards, paddles and pumps meant inconsistent branding, three freight consolidations and no single quality owner for warranty claims.',
+      solution:
+        'One program covering boards, accessories and retail packaging; shared accessory kits to cut per-SKU inventory; and mixed FOB/DDP incoterms matched to each market\'s logistics setup.',
+      product: 'Six branded retail SKUs — inflatable SUP platforms with divider-packed complete kits in printed cartons.',
+      process: [
+        { title: 'Range planning', body: 'Market gaps and price points defined the six SKUs and bundle contents.' },
+        { title: 'Unified branding', body: 'One design system applied across boards, paddles, pumps and cartons.' },
+        { title: 'Program pricing', body: 'Volume pricing across the full program, not per SKU.' },
+        { title: 'Split-market shipping', body: 'FOB containers for the home region, DDP delivery for the second market.' },
+      ],
+      result:
+        'The range launched across both markets in one season; shared accessory kits cut landed inventory, and warranty issues were resolved through a single factory contact.',
+      outcome: 'One-season multi-market launch, lower landed inventory, single point of warranty.',
+      tags: ['Multi-SKU program', 'Mixed incoterms', 'Complete retail kits'],
+    },
+    {
+      slug: 'startup-brand-zero-to-one',
+      navLabel: 'Startup Brand 0→1 Launch',
+      metaTitle: 'Startup SUP Brand Launch | Concept to First Batch — SUPsfactory',
+      metaDescription:
+        'How a SUP startup went from concept to a sold-out first batch — ODM development, a 10-piece trial run, then a 200-piece branded launch order.',
+      kicker: 'Startup Project',
+      h1: 'Startup Brand Launch — From Concept To A Sold-Out First Batch',
+      intro: [
+        'Two founders with an audience but no factory wanted to sell their own SUP — an ODM board developed to their spec, with a launch-size order that would not sink them.',
+      ],
+      industry: 'Startup SUP Brands',
+      requirement: 'ODM development at low MOQ: a 10 pcs trial run to validate, then 200 pcs for launch.',
+      challenge:
+        'No design team, no import experience and a first order too small for most factories — plus a launch date tied to the northern-hemisphere season.',
+      solution:
+        'ODM development from their concept on a proven platform, a 10 pcs trial run covering samples and logistics verification, then a 200 pcs branded launch order with tooling kept for the brand.',
+      product: 'Branded ODM inflatable SUP — custom deck graphics, packaging, and drop-ship-ready carton sizing.',
+      process: [
+        { title: 'Concept call', body: 'Target rider, price point and launch date set the base platform.' },
+        { title: 'Trial run', body: '10 pcs proved the product, packaging and freight process end to end.' },
+        { title: 'Launch order', body: '200 pcs produced with the verified artwork and carton spec.' },
+        { title: 'Scale path', body: 'Tooling retained for the brand; reorders at improved pricing.' },
+      ],
+      result:
+        'The first batch sold out within weeks of season start; feedback from the trial run fixed a packaging issue before the big order shipped.',
+      outcome: 'Sold-out launch batch, packaging fixed pre-scale, reorder path in place.',
+      tags: ['ODM development', 'Low-MOQ trial run', 'Season-date planning'],
+    },
+    {
+      slug: 'rental-fleet-multi-site',
+      navLabel: 'Multi-Site Rental Fleet',
+      metaTitle: 'Rental Fleet Expansion | 200 Boards, 3 Sites — SUPsfactory',
+      metaDescription:
+        'How a multi-site rental operator replaced mixed stock with 200 uniform boards across three locations — fleet pricing, seasonal refresh and parts logistics.',
+      kicker: 'Rental Project',
+      h1: 'Rental Fleet Expansion — 200 Uniform Boards Across Three Sites',
+      intro: [
+        'A rental operator running three waterfront locations needed one uniform fleet instead of mixed stock — same board on every site, priced for fleet volume.',
+      ],
+      industry: 'Rental Fleet Operators',
+      requirement: '200 rental-grade boards across three sites, with seasonal refresh and field-repairable parts.',
+      challenge:
+        'Mixed aging stock complicated repairs and pricing; rental abuse demands reinforced construction, and off-season storage is split across three sites.',
+      solution:
+        'One rental-grade platform across all sites with reinforced rails and UV-stable materials, fleet-level pricing on the 200-board volume, and a parts pack with repair guidance per site.',
+      product: 'Rental-grade inflatable SUP — 11′ all-around platform with reinforced construction and repair kits.',
+      process: [
+        { title: 'Fleet audit', body: 'Site volume and utilization charts set the allocation across locations.' },
+        { title: 'Uniform spec', body: 'One board everywhere — simpler repairs, pricing and training.' },
+        { title: 'Fleet pricing', body: 'Volume discount across the combined 200-board order.' },
+        { title: 'Parts & refresh', body: 'Per-site parts packs, plus a defined seasonal replacement cycle.' },
+      ],
+      result:
+        'The uniform fleet cut per-site repair confusion, combined ordering unlocked fleet pricing, and the 200-board program became the baseline for seasonal renewal.',
+      outcome: 'Uniform operations, lower per-unit cost, repeatable seasonal cycle.',
+      tags: ['Multi-site fleet', 'Rental-grade construction', 'Seasonal renewal'],
+    },
   ],
   es: [
     {
@@ -259,6 +346,93 @@ export const projects: Localized<ProjectData[]> = {
       result: 'Los instructores reportaron un progreso más rápido en la primera sesión sobre las plataformas estables, y el programa renovó el equipamiento con un reorden idéntico al año siguiente.',
       outcome: 'Curva de aprendizaje más rápida, equipamiento renovado al año siguiente.',
       tags: ['Flota de iniciación', 'Lanzamiento del programa', 'Pedidos de renovación'],
+    },
+    {
+      slug: 'distributor-line-expansion',
+      navLabel: 'Ampliación de línea para distribuidor',
+      metaTitle: 'Ampliación de línea SUP para distribuidor | 6 SKU — SUPsfactory',
+      metaDescription:
+        'Cómo un distribuidor de deportes acuáticos añadió una gama completa de SUP de gama media con seis SKU: una sola fábrica, un programa, envíos FOB y DDP a varios mercados.',
+      kicker: 'Proyecto de distribuidor',
+      h1: 'Ampliación de línea para distribuidor — seis SKU, una fábrica, varios mercados',
+      intro: [
+        'Un distribuidor de deportes acuáticos que vendía kayaks y accesorios quiso lanzar su propia gama de SUP hinchables, sin fragmentar el suministro entre varias fábricas de tablas, remos y bombas.',
+      ],
+      industry: 'Distribuidores y mayoristas',
+      requirement: 'Una gama de seis SKU de gama media (10\'6" a 12\'6" más kits de accesorios), enviada FOB Qingdao y DDP a dos regiones.',
+      challenge:
+        'Fábricas separadas para tablas, remos y bombas implicaban branding inconsistente, tres consolidaciones de flete y ningún responsable único de calidad para las reclamaciones de garantía.',
+      solution:
+        'Un solo programa que cubre tablas, accesorios y embalaje de retail; kits de accesorios compartidos para reducir el inventario por SKU; e incoterms mixtos FOB/DDP ajustados a la logística de cada mercado.',
+      product: 'Seis SKU de retail de marca: plataformas SUP hinchables con kits completos en cajas impresas.',
+      process: [
+        { title: 'Planificación de la gama', body: 'Huecos de mercado y puntos de precio definieron los seis SKU y el contenido de los kits.' },
+        { title: 'Marca unificada', body: 'Un sistema de diseño aplicado a tablas, remos, bombas y cajas.' },
+        { title: 'Precio de programa', body: 'Precio por volumen sobre todo el programa, no por SKU.' },
+        { title: 'Envío a dos mercados', body: 'Contenedores FOB para la región principal y entrega DDP para el segundo mercado.' },
+      ],
+      result:
+        'La gama se lanzó en ambos mercados en una temporada; los kits compartidos redujeron el inventario final y la garantía se gestionó a través de un único contacto de fábrica.',
+      outcome: 'Lanzamiento multi-mercado en una temporada, menos inventario, garantía unificada.',
+      tags: ['Programa multi-SKU', 'Incoterms mixtos', 'Kits de retail completos'],
+    },
+    {
+      slug: 'startup-brand-zero-to-one',
+      navLabel: 'Lanzamiento 0→1 de marca startup',
+      metaTitle: 'Lanzamiento de marca SUP startup | Del concepto al primer lote — SUPsfactory',
+      metaDescription:
+        'Cómo una startup de SUP pasó del concepto a un primer lote agotado: desarrollo ODM, pedido de prueba de 10 unidades y lote de lanzamiento de 200 unidades de marca.',
+      kicker: 'Proyecto de startup',
+      h1: 'Lanzamiento de marca startup — del concepto a un primer lote agotado',
+      intro: [
+        'Dos fundadores con audiencia pero sin fábrica querían vender su propio SUP: una tabla ODM desarrollada según su especificación, con un pedido de lanzamiento que no les hundiera.',
+      ],
+      industry: 'Marcas SUP emergentes',
+      requirement: 'Desarrollo ODM con MOQ bajo: pedido de prueba de 10 unidades para validar y 200 unidades para el lanzamiento.',
+      challenge:
+        'Sin equipo de diseño, sin experiencia de importación y con un primer pedido demasiado pequeño para la mayoría de las fábricas, además de una fecha de lanzamiento ligada a la temporada del hemisferio norte.',
+      solution:
+        'Desarrollo ODM desde su concepto sobre una plataforma probada, pedido de prueba de 10 unidades que validó producto, embalaje y flete de punta a punta, y pedido de lanzamiento de 200 unidades con moldes en propiedad de la marca.',
+      product: 'SUP hinchable ODM de marca: arte de cubierta personalizado, embalaje y caja preparada para envío directo.',
+      process: [
+        { title: 'Llamada de concepto', body: 'Rider objetivo, punto de precio y fecha de lanzamiento fijaron la plataforma base.' },
+        { title: 'Pedido de prueba', body: '10 unidades validaron producto, embalaje y proceso de flete.' },
+        { title: 'Pedido de lanzamiento', body: '200 unidades producidas con el arte y la caja verificados.' },
+        { title: 'Camino de escalado', body: 'Moldes en propiedad de la marca; reordenes con mejor precio.' },
+      ],
+      result:
+        'El primer lote se agotó a las pocas semanas de empezar la temporada; los comentarios del pedido de prueba corrigieron un problema de embalaje antes del gran envío.',
+      outcome: 'Lote de lanzamiento agotado, embalaje corregido antes del escalado, reorden previsto.',
+      tags: ['Desarrollo ODM', 'Prueba con MOQ bajo', 'Planificación de temporada'],
+    },
+    {
+      slug: 'rental-fleet-multi-site',
+      navLabel: 'Flota de alquiler multi-ubicación',
+      metaTitle: 'Expansión de flota de alquiler | 200 tablas, 3 sedes — SUPsfactory',
+      metaDescription:
+        'Cómo un operador de alquiler multi-ubicación sustituyó stock mixto por 200 tablas uniformes en tres sedes: precio de flota, renovación por temporada y logística de recambios.',
+      kicker: 'Proyecto de alquiler',
+      h1: 'Expansión de flota de alquiler — 200 tablas uniformes en tres sedes',
+      intro: [
+        'Un operador de alquiler con tres puntos junto al agua necesitaba una flota uniforme en lugar de stock mixto: la misma tabla en cada sede, con precio por volumen de flota.',
+      ],
+      industry: 'Operadores de flotas de alquiler',
+      requirement: '200 tablas de grado alquiler repartidas en tres sedes, con renovación por temporada y recambios reparables en campo.',
+      challenge:
+        'El stock mixto y envejecido complicaba reparaciones y precios; el uso intensivo exige construcción reforzada y el almacenamiento fuera de temporada está dividido en tres sedes.',
+      solution:
+        'Una única plataforma de grado alquiler en todas las sedes con rails reforzados y materiales anti-UV, precio de flota sobre las 200 unidades y kit de recambios con guía de reparación por sede.',
+      product: 'SUP hinchable de grado alquiler: plataforma polivalente de 11\' con construcción reforzada y kits de reparación.',
+      process: [
+        { title: 'Auditoría de flota', body: 'Volumen por sede y curvas de uso definieron el reparto entre ubicaciones.' },
+        { title: 'Especificación uniforme', body: 'Una misma tabla en todas partes: reparaciones, precios y formación más simples.' },
+        { title: 'Precio de flota', body: 'Descuento por volumen sobre el pedido combinado de 200 tablas.' },
+        { title: 'Recambios y renovación', body: 'Kits de recambios por sede y un ciclo de renovación estacional definido.' },
+      ],
+      result:
+        'La flota uniforme eliminó la confusión de reparaciones por sede, el pedido combinado desbloqueó el precio de flota y el programa de 200 tablas se convirtió en la base de la renovación estacional.',
+      outcome: 'Operaciones uniformes, menor coste unitario, ciclo estacional repetible.',
+      tags: ['Flota multi-sede', 'Construcción de grado alquiler', 'Renovación estacional'],
     },
   ],
 }
