@@ -58,7 +58,7 @@ describe('withStaticCache', () => {
   it('caches non-hashed public images for 7 days', () => {
     const r = withStaticCache(new Request('https://x.test/assets/products/2026/mini/mini-01.avif'), GET('/assets/products/2026/mini/mini-01.avif', 'image/avif'))
     expect(r.headers.get('cache-control')).toBe('public, max-age=604800')
-    const qr = withStaticCache(new Request('https://x.test/assets/wechat-qr.png'), GET('/assets/wechat-qr.png', 'image/png'))
+    const qr = withStaticCache(new Request('https://x.test/assets/wechat-qr.jpg'), GET('/assets/wechat-qr.jpg', 'image/jpeg'))
     expect(qr.headers.get('cache-control')).toBe('public, max-age=604800')
   })
 
