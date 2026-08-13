@@ -64,6 +64,37 @@ jobs:
       # 每次部署后把 GitHub Secrets 同步为 Worker secrets（单一数据源，无需手动
       # wrangler secret put）。GitHub 里未设置/为空的 key 自动跳过（不覆盖 Cloudflare
       # 已有值）；要"删除"某个密钥请先在 GitHub 清空它，再手动清理 Cloudflare 侧。
+      # 部署后清除 CDN 缓存：marketing HTML 在边缘缓存 1 小时(max-age=3600)，
+      # 不清理的话部署后窗口期内旧 HTML 会引用已被替换的旧 hash assets(404)。
+      # token 需 Zone › Cache Purge 权限；缺 zone/权限时跳过，不留红叉。
+      - name: Purge CDN cache
+        if: steps.guard.outputs.enabled == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CDN_ZONE: supsfactory.com
+        run: |
+          API="https://api.cloudflare.com/client/v4"
+          AUTH="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          ZHTTP=$(curl -sS -o /tmp/zones.json -w '%{http_code}' \
+            "$API/zones?name=$CDN_ZONE&per_page=1" -H "$AUTH")
+          if [ "$ZHTTP" != "200" ]; then
+            echo "::notice::Zone lookup failed (HTTP $ZHTTP) — skip cache purge"
+            exit 0
+          fi
+          ZID=$(jq -r '.result[0].id // ""' /tmp/zones.json)
+          if [ -z "$ZID" ]; then
+            echo "::notice::Zone $CDN_ZONE not in this account — skip cache purge"
+            exit 0
+          fi
+          PHTTP=$(curl -sS -o /tmp/purge.json -w '%{http_code}' -X POST \
+            "$API/zones/$ZID/purge_cache" \
+            -H "$AUTH" -H "Content-Type: application/json" \
+            -d '{"purge_everything":true}')
+          if [ "$PHTTP" = "200" ] && jq -e '.success == true' /tmp/purge.json >/dev/null 2>&1; then
+            echo "::notice::CDN cache purged — visitors hit the freshly deployed version"
+          else
+            echo "::notice::Cache purge skipped (HTTP $PHTTP) — token needs Zone › Cache Purge permission"
+          fi
       - name: Sync Worker secrets
         if: steps.guard.outputs.enabled == 'true'
         env:
