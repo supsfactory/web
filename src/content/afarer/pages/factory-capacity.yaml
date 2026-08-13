@@ -57,3 +57,23 @@ oem_capacity:
   moq: 'SUP: 5–10 trial | 50 standard batch | Custom mould: 200+ units'
   lead_time: 'Standard 30–45 days. Sample 15–20 days. Rush available.'
   payment: 'T/T 30% deposit + 70% before shipment. L/C, Western Union accepted.'
+
+lead_time_explainer:
+  tagline: 'Planning & Scheduling'
+  title: 'How Capacity Translates Into Your Delivery'
+  subtitle: 'Capacity is not a single number — here is how lead times are actually allocated.'
+  items:
+    - title: 'Capacity varies with your specification'
+      body: 'Available slots shift with board type, construction complexity, packaging and seasonal demand. During the spring/summer build-up, lines run near full and sample slots book out first.'
+    - title: 'Plan ahead of your launch season'
+      body: 'Lock your sample confirmation and artwork freeze early. Repeat orders are scheduled into your agreed recurring slot once the golden sample is archived.'
+    - title: 'Three scheduling lanes'
+      body: 'Samples enter the prototype line first, initial orders slot into the nearest open assembly window, and repeat orders run in their recurring slot.'
+    - title: 'Firm lead times after review'
+      body: 'We confirm a firm lead time only after specification, artwork, packaging and quantity are reviewed — never as a fixed promise beforehand.'
+
+cta:
+  title: 'Check production availability for your launch date'
+  subtitle: 'Send your board type, quantity and target ship date — we reply with the next open production window and a firm lead-time estimate.'
+  button_text: 'Check availability'
+  button_link: /contact

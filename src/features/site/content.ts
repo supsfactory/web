@@ -29,7 +29,8 @@ export interface HeroContent {
   sub: string
   ctaPrimary: string
   ctaSecondary: string
-  chips: string[]
+  ctaMicro: string
+  stats: { value: string; label: string }[]
   mockupLabel: string
   mockupBrand: string
   mockupHint: string
@@ -41,43 +42,47 @@ export interface HeroContent {
 export const hero: Localized<HeroContent> = {
   en: {
     kicker: 'SUP Manufacturer — OEM / ODM / Private Label',
-    titlePre: 'Premier Custom Stand-Up Paddleboard Manufacturer',
-    titleAccent: '(OEM / ODM)',
+    titlePre: 'Custom Inflatable SUP Manufacturing for',
+    titleAccent: 'Brands, Distributors & Commercial Programs',
     titlePost: '',
-    sub: 'Empowering global water sports brands with precision drop-stitch engineering, low MOQs and factory-direct pricing. A China-based custom SUP board manufacturer — we bring precision engineering and container-scale production; you bring the brand.',
-    ctaPrimary: 'Get Custom Quote',
-    ctaSecondary: 'Download 2026 SUP Catalog',
-    chips: [
-      'Custom product development · OEM & ODM manufacturing',
-      'Prototype to mass production',
-      'Global B2B supply',
+    sub: 'Develop your private-label paddle board range with a manufacturing partner that supports product specification, custom graphics, samples, quality control, packaging and export-ready production.',
+    ctaPrimary: 'Get a Custom Project Quote',
+    ctaSecondary: 'Explore Construction & Quality',
+    ctaMicro: 'Reply within 1 business day · NDA available · MOQ confirmed after specification review',
+    stats: [
+      { value: '15,000+', label: 'Boards produced annually' },
+      { value: '12,000 m²', label: 'Factory floor — 6 workshops' },
+      { value: '6', label: 'Specialized production workshops' },
+      { value: '50+', label: 'Export countries served' },
     ],
     mockupLabel: 'Signature Platform',
     mockupBrand: "SUP Explorer 11'",
     mockupHint: 'Your graphics · your colors · your packaging',
     heroNote:
-      'We manufacture under your brand only. We do not sell to end consumers and we do not compete with our clients in any market.',
+      'From first concept to repeat orders — built for retail brands, water-sports distributors, resorts, schools and rental operators.',
     float1: { value: '50 pcs', label: 'Standard OEM MOQ' },
     float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
   es: {
     kicker: 'Fabricante de SUP — OEM / ODM / Marca privada',
-    titlePre: 'Fabricante líder de tablas SUP personalizadas',
-    titleAccent: '(OEM / ODM)',
+    titlePre: 'Fabricación de tablas SUP hinchables a medida para',
+    titleAccent: 'marcas, distribuidores y programas comerciales',
     titlePost: '',
-    sub: 'Damos poder a las marcas globales de deportes acuáticos con ingeniería de precisión en drop-stitch, MOQ bajos y precios directos de fábrica. Somos un fabricante de tablas SUP personalizadas con base en China — nosotros aportamos ingeniería de precisión y producción a escala de contenedor; tú aportas la marca.',
-    ctaPrimary: 'Solicita tu cotización',
-    ctaSecondary: 'Descargar catálogo 2026',
-    chips: [
-      'Desarrollo de productos personalizados · Fabricación OEM y ODM',
-      'Del prototipo a la producción en masa',
-      'Suministro B2B global',
+    sub: 'Desarrolla tu gama de tablas de paddle board de marca propia con un socio de fabricación que cubre especificación de producto, gráficos personalizados, muestras, control de calidad, packaging y producción lista para exportar.',
+    ctaPrimary: 'Solicita un presupuesto de proyecto',
+    ctaSecondary: 'Explora construcción y calidad',
+    ctaMicro: 'Respuesta en 1 día hábil · NDA disponible · MOQ confirmado tras revisar la especificación',
+    stats: [
+      { value: '15.000+', label: 'Tablas producidas al año' },
+      { value: '12.000 m²', label: 'Superficie de fábrica — 6 talleres' },
+      { value: '6', label: 'Talleres de producción especializados' },
+      { value: '50+', label: 'Países de exportación' },
     ],
     mockupLabel: 'Plataforma insignia',
     mockupBrand: 'SUP Explorer 11\'',
     mockupHint: 'Tus gráficos · Tus colores · tu packaging',
     heroNote:
-      'Fabricamos solo bajo tu marca. No vendemos a consumidores finales y no competimos con nuestros clientes en ningún mercado.',
+      'Del primer concepto a pedidos repetidos — pensado para marcas minoristas, distribuidores de deportes acuáticos, resorts, escuelas y operadores de alquiler.',
     float1: { value: '50 uds.', label: 'MOQ OEM estándar' },
     float2: { value: '30–45 días', label: 'Plazo de producción (tras PO)' },
   },

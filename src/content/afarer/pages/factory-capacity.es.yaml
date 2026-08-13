@@ -57,3 +57,23 @@ oem_capacity:
   moq: 'SUP: 5–10 de prueba | 50 lote estándar | Molde personalizado: más de 200 unidades'
   lead_time: 'Estándar de 30–45 días. Muestras en 15–20 días. Acelerado disponible.'
   payment: 'T/T 30% de depósito + 70% antes del envío. Se aceptan L/C y Western Union.'
+
+lead_time_explainer:
+  tagline: 'Planificación y programación'
+  title: 'Cómo se traduce la capacidad en tu entrega'
+  subtitle: 'La capacidad no es un número único: así se asignan realmente los plazos.'
+  items:
+    - title: 'La capacidad varía según tu especificación'
+      body: 'Los huecos disponibles cambian según el tipo de tabla, la complejidad de construcción, el packaging y la demanda estacional. Durante el pico de primavera/verano, las líneas están al máximo y los huecos de muestras se reservan primero.'
+    - title: 'Planifica antes de tu temporada de lanzamiento'
+      body: 'Fija pronto la confirmación de muestras y el cierre de arte. Los pedidos repetidos se programan en tu hueco recurrente acordado una vez archivada la muestra dorada.'
+    - title: 'Tres vías de programación'
+      body: 'Las muestras entran primero en la línea de prototipos, los pedidos iniciales se colocan en la ventana de ensamblaje abierta más próxima y los pedidos repetidos se ejecutan en su hueco recurrente.'
+    - title: 'Plazos firmes tras la revisión'
+      body: 'Confirmamos un plazo firme solo después de revisar especificación, arte, packaging y cantidad — nunca como una promesa fija a priori.'
+
+cta:
+  title: 'Comprueba la disponibilidad de producción para tu fecha de lanzamiento'
+  subtitle: 'Envía tu tipo de tabla, cantidad y fecha de envío objetivo — respondemos con la próxima ventana de producción abierta y una estimación de plazo firme.'
+  button_text: 'Comprobar disponibilidad'
+  button_link: /contact

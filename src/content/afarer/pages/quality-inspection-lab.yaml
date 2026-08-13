@@ -118,8 +118,20 @@ content_html: |
   <p>When you receive a {SITE.name} board, you also receive its quality dossier — a compiled record of the test results that apply to your specific board. Fabric batch certificate, weld peel tests, chamber air-test logs, and pre-delivery inspection checklist. Every number is traceable. Every inspector is identified. This is not just paperwork — it is our promise that what we delivered is what we specified.</p>
   <p>If you ever have a quality concern, you can contact the lab directly — the contact details are printed on your certificate of conformance. We take every query seriously and commit to a formal investigation within 48 hours.</p>
 
+  <h2>What happens if a board fails inspection?</h2>
+  <p>A failed board never quietly disappears. The lab follows a fixed non-conformance workflow so the problem is contained, corrected and prevented from recurring:</p>
+  <ul>
+    <li><strong>Isolation</strong> — the board is tagged, moved off the line and logged in the non-conformance register with the inspector's name and the failed criteria.</li>
+    <li><strong>Rework or scrap</strong> — repairable defects (e.g. a valve, a rail weld or a deck-pad corner) are reworked by a certified operator and the repaired area is re-tested to the same standard. Boards that cannot meet specification are scrapped, not downgraded.</li>
+    <li><strong>Re-inspection</strong> — every reworked board passes the full affected gate again before it can re-enter the packing line.</li>
+    <li><strong>Release</strong> — only boards with all gates signed off leave the plant. The rejection rate, root cause and corrective action are summarised in your batch quality report.</li>
+  </ul>
+
+  <h2>Quality documentation you receive</h2>
+  <p>Every batch ships with a document pack your QC team can audit against: the batch certificate (fabric, adhesive, hardware lot numbers), weld peel-test records, chamber air-test logs per serial number, the signed 100-point pre-delivery checklist, packing list and photographed record of your boards before loading.</p>
+
 cta:
-  title: 'Need independent testing or quality verification?'
-  subtitle: 'Our lab accepts third-party testing work — contact us with your requirements.'
-  button_text: 'Contact the quality lab'
+  title: 'Request a sample QC checklist'
+  subtitle: 'See the exact inspection gates, test methods and documents your batch would be checked against — send your board type and quantity.'
+  button_text: 'Request the QC checklist'
   button_link: /contact

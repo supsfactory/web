@@ -118,8 +118,20 @@ content_html: |
   <p>Cuando recibes una tabla de {SITE.name}, también recibes su expediente de calidad — un registro recopilado de los resultados de ensayo que se aplican a tu tabla concreta. Certificado del lote de tejido, ensayos de pelado de soldaduras, registros de prueba de aire de la cámara y lista de comprobación de la inspección previa a la entrega. Cada cifra es trazable. Cada inspector está identificado. No es solo papeleo: es nuestra promesa de que lo que entregamos es exactamente lo que especificamos.</p>
   <p>Si alguna vez tienes una duda de calidad, puedes contactar directamente con el laboratorio — los datos de contacto figuran impresos en tu certificado de conformidad. Nos tomamos cada consulta en serio y nos comprometemos a abrir una investigación formal en un plazo de 48 horas.</p>
 
+  <h2>¿Qué ocurre si una tabla no supera la inspección?</h2>
+  <p>Una tabla no conforme nunca desaparece en silencio. El laboratorio sigue un flujo de no conformidad fijo para contener, corregir y evitar que el problema se repita:</p>
+  <ul>
+    <li><strong>Aislamiento</strong> — la tabla se etiqueta, se retira de la línea y se registra en el registro de no conformidades con el nombre del inspector y los criterios no superados.</li>
+    <li><strong>Reparación o desecho</strong> — los defectos reparables (por ejemplo, una válvula, una soldadura del rail o una esquina del pavimento) los corrige un operario certificado y la zona reparada se vuelve a ensayar con el mismo estándar. Las tablas que no pueden cumplir la especificación se desechan, no se degradan.</li>
+    <li><strong>Reinspección</strong> — cada tabla reparada vuelve a pasar el control afectado completo antes de reincorporarse a la línea de embalaje.</li>
+    <li><strong>Liberación</strong> — solo salen de la planta las tablas con todos los controles firmados. La tasa de rechazo, la causa raíz y la acción correctiva se resumen en tu informe de calidad del lote.</li>
+  </ul>
+
+  <h2>Documentación de calidad que recibes</h2>
+  <p>Cada lote se envía con un paquete documental que tu equipo de control de calidad puede auditar: certificado de lote (números de lote de tejido, adhesivo y herrajes), registros de ensayo de pelado de soldaduras, registros de prueba de aire por número de serie, la lista firmada de 100 puntos de la inspección previa a la entrega, lista de embalaje y registro fotográfico de tus tablas antes de la carga.</p>
+
 cta:
-  title: '¿Necesitas ensayos independientes o verificación de calidad?'
-  subtitle: 'Nuestro laboratorio acepta trabajos de ensayo para terceros: contacta con nosotros con tus requisitos.'
-  button_text: 'Contacta con el laboratorio de calidad'
+  title: 'Solicita una lista de comprobación de control de calidad de muestra'
+  subtitle: 'Consulta los controles exactos, métodos de ensayo y documentos que se aplicarían a tu lote — envía tu tipo de tabla y cantidad.'
+  button_text: 'Solicitar la lista de QC'
   button_link: /contact

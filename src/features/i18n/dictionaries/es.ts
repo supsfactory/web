@@ -203,7 +203,7 @@ export const es = {
       colSolutions: 'Soluciones', colServe: 'A quién servimos', colCompany: 'Empresa', colLegal: 'Legal',
       colResources: 'Recursos', colManufacturing: 'Fabricación y calidad',
       factoryCapacity: 'Capacidad de fábrica',
-      poweredBy: 'Con la fabricación de Afarer', inquiryForm: 'Formulario de consulta',
+      poweredBy: 'SUPsfactory es la división de fabricación de SUP a medida de Afarer — tu socio en desarrollo de producto, control de calidad y entrega de exportación.', inquiryForm: 'Formulario de consulta',
       customSup: 'Fabricación de SUP personalizados', productDevelopment: 'Desarrollo de producto SUP', resortSolutions: 'Soluciones para resorts y clubes',
       organizationProjects: 'Proyectos de organizaciones', faq: 'Preguntas frecuentes', process: 'Proceso',
       clubSup: 'Tablas para equipos de clubes', schoolSup: 'Programas escolares',
@@ -266,10 +266,10 @@ export const es = {
       result: 'El resultado',
       seeAll: 'Ver todos los proyectos',
       ctaKicker: 'Tu proyecto',
-      ctaTitle: '¿Listo para convertir tu idea de producto SUP en realidad?',
+      ctaTitle: '¿Tienes un proyecto similar? Solicita una revisión de viabilidad',
       yourCaseTitle: 'Tu proyecto podría ser el próximo',
       yourCaseBody:
-        'Cada proyecto empieza con una conversación sobre tu requisito: cantidad, caso de uso, personalización. Cuéntanos el tuyo.',
+        'Envía tu mercado objetivo, la cantidad estimada y la fecha de lanzamiento — nuestro equipo revisa la viabilidad y responde con especificaciones recomendadas, orientación de MOQ y próximos pasos.',
     },
     knowledge: {
       hubKicker: 'Centro de conocimiento',
@@ -304,8 +304,8 @@ export const es = {
       ctaBody: 'Cuéntanos qué quieres construir — normalmente respondemos en un día laborable.',
     },
     contact: {
-      title: 'Inicia tu proyecto SUP a medida',
-      subtitle: 'Cuéntanos tu idea de producto o tu ficha de especificaciones — respondemos con MOQ, tiempos de muestra y plazos para tu mercado, normalmente en un día laborable.',
+      title: 'Cuéntanos qué quieres construir',
+      subtitle: 'Comparte el tipo de tabla, el mercado objetivo, la cantidad estimada y la fecha prevista de lanzamiento. Nuestro equipo revisará la viabilidad y responderá con especificaciones recomendadas, orientación de MOQ y próximos pasos — normalmente en un día laborable.',
       infoTitle: 'Habla con un especialista de proyectos',
       infoBody: '¿Prefieres correo o WhatsApp? Escríbenos directamente y menciona tu proyecto.',
       emailLabel: 'Escríbenos',
@@ -313,6 +313,14 @@ export const es = {
       replyPromise: 'Respondemos a cada consulta en 1 día laborable.',
       formTitle: 'Consulta de proyecto',
       formSubtitle: 'Los campos marcados con * son obligatorios.',
+      afterSubmit: 'Qué recibirás tras enviar tu consulta',
+      afterSubmitLines: [
+        'Especificaciones de tabla recomendadas para tu mercado objetivo',
+        'Niveles de MOQ según cantidad y nivel de personalización',
+        'Estimación de tiempos de muestra y de producción',
+        'Un rango de precio inicial — precio exacto tras revisar la especificación',
+      ],
+      ndaNote: 'NDA disponible antes de compartir cualquier archivo confidencial.',
     },
   },
   inquiry: {

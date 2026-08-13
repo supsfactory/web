@@ -1,4 +1,4 @@
-import { ArrowRight, BadgeCheck } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, hero } from '@/features/site/content'
 import { HERO_IMAGE, HERO_IMAGE_480, HERO_IMAGE_768 } from '@/features/seo/seo'
@@ -44,24 +44,22 @@ export function Hero() {
               {c.ctaPrimary} <ArrowRight size={17} />
             </a>
             <a
-              href={fl('/products')}
+              href={fl('/quality')}
               className="glass-btn inline-flex h-[48px] items-center px-8 text-[15px] font-semibold"
             >
               {c.ctaSecondary}
             </a>
           </div>
+          <p className="mt-3 text-[12px] font-medium tracking-wide text-white/75">{c.ctaMicro}</p>
 
-          <ul className="mt-10 flex flex-wrap gap-2">
-            {c.chips.map((chip) => (
-              <li
-                key={chip}
-                className="glass-card inline-flex items-center gap-1.5 rounded-full px-4 py-1.5 text-[12.5px] font-semibold text-white"
-              >
-                <BadgeCheck size={14} className="text-[#7fd6f0]" />
-                {chip}
-              </li>
+          <dl className="mt-10 grid max-w-xl grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/15 bg-white/10 backdrop-blur-sm sm:grid-cols-4">
+            {c.stats.map((s) => (
+              <div key={s.label} className="bg-black/20 px-4 py-3.5">
+                <dt className="font-display text-[1.35rem] font-extrabold leading-none text-white">{s.value}</dt>
+                <dd className="mt-1.5 text-[11.5px] font-semibold leading-snug text-white/75">{s.label}</dd>
+              </div>
             ))}
-          </ul>
+          </dl>
 
           <p className="mt-6 max-w-xl text-[12.5px] font-medium leading-snug text-white/70">{c.heroNote}</p>
         </div>

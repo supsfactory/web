@@ -40,16 +40,16 @@ export const Route = createFileRoute('/{-$locale}/')({
       path: '/',
       title:
         locale === 'es'
-          ? 'Fabricante de tablas SUP personalizadas | Socio OEM ODM para marcas globales'
-          : 'Custom SUP Board Manufacturer | OEM/ODM Partner for Global Brands',
+          ? 'Fabricante de tablas SUP hinchables a medida | OEM/ODM para marcas'
+          : 'Custom Inflatable SUP Manufacturing | OEM/ODM for Brands & Distributors',
       description:
         locale === 'es'
-          ? 'Supsfactory es un fabricante de tablas SUP a medida y socio OEM/ODM para marcas, distribuidores y organizaciones. Del desarrollo de prototipos a la producción en masa y la entrega global.'
-          : 'Supsfactory is a custom SUP board manufacturer and OEM/ODM manufacturing partner for global brands, distributors and water sports organizations. From prototype development to mass production and global delivery.',
+          ? 'Supsfactory fabrica tablas SUP hinchables de marca propia para marcas, distribuidores y programas comerciales: especificación, muestras, control de calidad, packaging y producción lista para exportar.'
+          : 'SUPsfactory builds custom inflatable SUP boards for brands, distributors and commercial programs: specification, samples, quality control, packaging and export-ready production.',
       ogTitle:
         locale === 'es'
-          ? 'SUPsfactory — Fabricante de tablas SUP personalizadas y socio OEM/ODM'
-          : 'SUPsfactory — Custom SUP Board Manufacturer & OEM/ODM Partner',
+          ? 'SUPsfactory — Fabricante de tablas SUP hinchables a medida'
+          : 'SUPsfactory — Custom Inflatable SUP Manufacturing',
     })
     return { meta, links }
   },

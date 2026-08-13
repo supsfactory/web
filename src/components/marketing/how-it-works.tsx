@@ -1,4 +1,4 @@
-import { PenTool } from 'lucide-react'
+import { ArrowRight, PenTool } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, works } from '@/features/site/content'
 import { SectionHead } from './section-head'
@@ -6,8 +6,15 @@ import { Reveal } from './reveal'
 
 /** How It Works: numbered timeline (01–05) with a design-support note. Shared by home and /how-it-works. */
 export function HowItWorks() {
-  const { locale } = useTranslation()
+  const { t, locale } = useTranslation()
   const c = pick(works, locale)
+  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+
+  const deepLinks = [
+    { label: t('sup.nav.manufacturingDropdown.quality'), href: '/quality' },
+    { label: t('sup.footer.factoryCapacity'), href: '/factory/capacity' },
+    { label: t('sup.nav.caseStudiesDropdown.projects'), href: '/projects' },
+  ]
 
   return (
     <section className="border-y border-border bg-bg-alt">
@@ -42,6 +49,20 @@ export function HowItWorks() {
               <PenTool size={18} />
             </span>
             <p className="text-[14px] leading-relaxed text-fg-2">{c.note}</p>
+          </div>
+        </Reveal>
+
+        <Reveal className="mt-8">
+          <div className="mx-auto flex max-w-2xl flex-wrap items-center justify-center gap-3">
+            {deepLinks.map((l) => (
+              <a
+                key={l.href}
+                href={fl(l.href)}
+                className="marine-card inline-flex items-center gap-1.5 px-4 py-2.5 text-[13px] font-bold text-primary transition-colors hover:border-primary/40"
+              >
+                {l.label} <ArrowRight size={14} />
+              </a>
+            ))}
           </div>
         </Reveal>
       </div>

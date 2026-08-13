@@ -9,6 +9,7 @@ import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero } from '@/components/marketing/section-head'
 import { InquiryForm } from '@/features/inquiry/components/inquiry-form'
 import { pick, products } from '@/features/site/content'
+import { dictionaries } from '@/features/i18n/locale'
 import { JsonLd, contactPageLd } from '@/features/seo/jsonld'
 import { Footer } from '@/components/marketing/footer'
 
@@ -86,8 +87,18 @@ function ContactPage() {
               <Clock3 size={16} className="shrink-0 text-primary" /> {t('sup.contact.replyPromise')}
             </p>
             <p className="flex items-center gap-2.5">
-              <ShieldCheck size={16} className="shrink-0 text-primary" /> {locale === 'es' ? 'Tus datos se usan solo para la comunicación del proyecto: nunca se comparten con terceros.' : 'Your details are used for project communication only — never shared with third parties.'}
+              <ShieldCheck size={16} className="shrink-0 text-primary" /> {t('sup.contact.ndaNote')}
             </p>
+          </div>
+          <div className="mt-4 rounded-xl border border-border bg-card p-5">
+            <p className="text-[13px] font-bold uppercase tracking-wide text-fg-3">{t('sup.contact.afterSubmit')}</p>
+            <ul className="mt-3 space-y-2">
+              {dictionaries[locale].sup.contact.afterSubmitLines.map((line) => (
+                <li key={line} className="flex items-start gap-2.5 text-[13.5px] leading-relaxed text-fg-2">
+                  <span className="mt-0.5">✓</span> {line}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 

@@ -91,7 +91,9 @@
     - { key: intro, type: content, label: 'Introduction' }
     - { key: highlights, type: stats, label: 'Capacity Highlights' }
     - { key: workshops, type: features, label: 'Workshops' }
+    - { key: lead_time_explainer, type: features, label: 'Lead Time Explainer' }
     - { key: oem_capacity, type: content, label: 'OEM Capacity Details' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: factory-equipment
   label: Factory Equipment
