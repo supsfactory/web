@@ -92,3 +92,13 @@ jobs:
             RESEND_AUDIENCE_ID: env.RESEND_AUDIENCE_ID
           } | with_entries(select(.value != null and .value != ""))' > /tmp/secrets.json
           npx wrangler secret bulk /tmp/secrets.json --env production
+      # 图片新增后不再依赖手动触发上传 workflow：每次部署自动补传 R2 缺失的
+      # afarer 图片（--missing 只 PUT 缺失对象，已存在的跳过）。R2 权限缺失
+      # 时跳过，不留红叉。
+      - name: Backfill missing afarer images to R2
+        if: steps.guard.outputs.enabled == 'true'
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: node scripts/upload-afarer-images.mjs --http --missing --src scripts/afarer-images

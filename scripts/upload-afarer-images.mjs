@@ -37,6 +37,10 @@ const flagValue = (name, fallback) => {
 }
 const DRY_RUN = args.includes('--dry-run')
 const HTTP_MODE = args.includes('--http')
+// --missing: only upload objects that don't exist in R2 yet (HEAD probe per
+// key). Prevents "added images but forgot to re-run the upload" — the deploy
+// workflow runs this mode automatically. HTTP mode only.
+const MISSING_ONLY = args.includes('--missing')
 const SRC_DIR = flagValue('src', 'E:/github/afarer/public/images/afarer')
 const KEY_PREFIX = flagValue('prefix', 'images/sups/')
 // 图片是稳定路径的不可变资产，允许浏览器/CDN 长缓存。若日后原地替换同名图，
@@ -168,6 +172,20 @@ async function upload(key, localPath) {
   return HTTP_MODE ? uploadHttp(key, body, localPath) : uploadS3(key, body, localPath)
 }
 
+/** HEAD-probe a key via the HTTP API; true when the object is missing (404). */
+async function isMissingHttp(key) {
+  const url = `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/r2/buckets/${BUCKET}/objects/${encodeURIComponent(key)}`
+  const res = await fetch(url, {
+    method: 'HEAD',
+    headers: { authorization: `Bearer ${API_TOKEN}` },
+  })
+  if (res.status === 404) return true
+  if (res.ok) return false
+  // Any other status (403 permission, 5xx) — unknown; upload anyway and let the
+  // PUT surface the real error rather than silently skipping.
+  return true
+}
+
 async function run() {
   if (DRY_RUN) {
     /* fall through, no credentials needed */
@@ -195,6 +213,39 @@ async function run() {
     console.log(`[dry-run] ${files.length} files, ${(totalBytes / 1024 / 1024).toFixed(1)} MiB -> ${BUCKET} (${KEY_PREFIX}*)`)
     for (const k of keys) console.log(`  ${k}`)
     return
+  }
+
+  if (MISSING_ONLY && !HTTP_MODE) {
+    console.error('--missing requires --http (the S3 API has no cheap per-object HEAD via an API token).')
+    process.exit(1)
+  }
+  if (MISSING_ONLY && !DRY_RUN) {
+    console.log(`Checking ${keys.length} keys for existing objects (--missing)...`)
+    const present = new Set()
+    const probeQueue = [...keys]
+    let checked = 0
+    async function probeWorker() {
+      while (probeQueue.length > 0) {
+        const key = probeQueue.shift()
+        if (!(await isMissingHttp(key))) present.add(key)
+        checked++
+        if (checked % 50 === 0) console.log(`  probed ${checked}/${keys.length}`)
+      }
+    }
+    await Promise.all(Array.from({ length: Math.min(CONCURRENCY, keys.length) }, probeWorker))
+    const missing = keys.filter((k) => !present.has(k))
+    console.log(`  ${missing.length} missing (${keys.length - missing.length} already present, skipped)`)
+    if (missing.length === 0) {
+      console.log('Nothing to upload.')
+      return
+    }
+    const missingSet = new Set(missing)
+    keys.splice(0, keys.length, ...missing)
+    // Keep localPath aligned with the trimmed key list (upload loop maps by index).
+    for (let i = files.length - 1; i >= 0; i--) {
+      const k = `${KEY_PREFIX}${relative(SRC_DIR, files[i]).split(sep).join('/')}`
+      if (!missingSet.has(k)) files.splice(i, 1)
+    }
   }
 
   console.log(`Uploading ${files.length} files (${(totalBytes / 1024 / 1024).toFixed(1)} MiB) to ${BUCKET} under ${KEY_PREFIX}*`)

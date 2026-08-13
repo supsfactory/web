@@ -94,12 +94,14 @@ jobs:
             -d "{\"name\":\"$R2_BUCKET\"}" | jq .
 
       # 图片源已提交在本仓库 scripts/afarer-images/（从 afarer 仓库同步）。
-      - name: Upload afarer images to R2
+      # --missing：只上传 R2 缺失的对象，已存在的跳过（PUT 幂等但白费 12.9MiB
+      # 流量；也让"新增图忘传"在 deploy 里被自动补上）。
+      - name: Upload missing afarer images to R2
         if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: node scripts/upload-afarer-images.mjs --http --src scripts/afarer-images
+        run: node scripts/upload-afarer-images.mjs --http --missing --src scripts/afarer-images
 
       - name: Attach custom domain to R2 bucket
         id: cdn
@@ -126,12 +128,11 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/&per_page=100" \
+          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/products/afarer-og-default&per_page=20" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-            | jq '{success, listed: (.result | length), sample: [.result[].key]}'
-          if [ "${{ steps.cdn.outputs.ok }}" = "true" ]; then
-            echo "--- CDN HEAD test: https://$CDN_DOMAIN/... ---"
-            curl -sSI --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/sups/products/afarer-sup-allround-board.webp" | head -1
-          else
-            echo "自定义域尚未就绪，跳过 CDN 可达性检查。"
-          fi
+            | jq '{success, keys: [.result[].key]}'
+          echo "--- CDN reachability (the 3 hero AVIFs that silently 404'd before) ---"
+          for f in afarer-og-default.avif afarer-og-default-768.avif afarer-og-default-480.avif afarer-og-default.webp; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/sups/products/$f?v=$(date +%s)")
+            echo "$code https://$CDN_DOMAIN/images/sups/products/$f"
+          done
