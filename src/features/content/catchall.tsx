@@ -353,6 +353,47 @@ function ProductView({ product, related, origin, locale }: { product: AfarerProd
         <div className="mx-auto mt-12 max-w-3xl">
           <Markdown text={brandify(product.body)} />
         </div>
+
+        {/* customization options — every platform is customizable under your brand */}
+        <div className="mx-auto mt-14 max-w-3xl">
+          <h2 className="font-display text-2xl font-extrabold tracking-tight">
+            {es ? 'Opciones de personalización' : 'Customization Options'}
+          </h2>
+          <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">
+            {es
+              ? 'Esta plataforma se fabrica a medida para tu marca. Personaliza cualquier punto de la especificación:'
+              : 'This platform is manufactured to order for your brand. Customize any point of the specification:'}
+          </p>
+          <div className="mt-6 grid gap-3 sm:grid-cols-2">
+            {customizationOptions(es).map((o) => (
+              <div key={o.title} className="marine-card p-5">
+                <p className="text-[14px] font-bold">{o.title}</p>
+                <p className="mt-1.5 text-[12.5px] leading-snug text-fg-2">{o.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* OEM applications — who manufactures this platform with us */}
+        <div className="mx-auto mt-14 max-w-3xl">
+          <h2 className="font-display text-2xl font-extrabold tracking-tight">
+            {es ? 'Aplicaciones OEM' : 'OEM Applications'}
+          </h2>
+          <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">
+            {es
+              ? 'Empresas de todo el mundo fabrican esta tabla con SUPsfactory:'
+              : 'Businesses around the world manufacture this board with SUPsfactory:'}
+          </p>
+          <div className="mt-6 grid gap-3 sm:grid-cols-2">
+            {oemApplications(es).map((a) => (
+              <div key={a.title} className="marine-card p-5">
+                <p className="text-[14px] font-bold">{a.title}</p>
+                <p className="mt-1.5 text-[12.5px] leading-snug text-fg-2">{a.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {related.length > 0 && (
           <div className="mx-auto mt-12 max-w-3xl">
             <h2 className="font-display text-2xl font-extrabold tracking-tight">
@@ -469,6 +510,48 @@ function productFaqs(product: AfarerProduct, es: boolean): { q: string; a: strin
         },
       ]
   return [...specific, ...pool]
+}
+
+/** Customization points available on every OEM platform (product detail pages). */
+function customizationOptions(es: boolean): { title: string; body: string }[] {
+  return es
+    ? [
+        { title: 'Tamaño y forma de la tabla', body: 'Longitud, anchura, grosor y rocker ajustados a tu rendimiento objetivo y a tu mercado.' },
+        { title: 'Materiales y construcción', body: 'Capas de PVC, densidad drop-stitch, rigidizadores y refuerzos según tu presupuesto.' },
+        { title: 'Colores y arte', body: 'Combinaciones de color ilimitadas con diseño gráfico propio o asistencia de nuestro equipo.' },
+        { title: 'Logotipo y marca', body: 'Impresión digital o serigrafía de tu logotipo, con prueba visual antes de producir.' },
+        { title: 'EVA y cubierta', body: 'Diseños cortados a medida de la alfombrilla antideslizante, logotipos y colores del deck.' },
+        { title: 'Aletas y accesorios', body: 'Configuraciones de aleta, palas, bombas, correas y bolsas adaptados a tu paquete.' },
+        { title: 'Embalaje y exhibición', body: 'Cajas retail, embalaje marítimo y displays para punto de venta con tu marca.' },
+      ]
+    : [
+        { title: 'Board size and shape', body: 'Length, width, thickness and rocker tuned to your target performance and market.' },
+        { title: 'Materials and construction', body: 'PVC layers, drop-stitch density, stiffeners and reinforcements to fit your price point.' },
+        { title: 'Colors and artwork', body: 'Unlimited color combinations with your own artwork or support from our design team.' },
+        { title: 'Logo and branding', body: 'Digital or screen-printed logo application, with a visual proof before production.' },
+        { title: 'EVA and deck', body: 'Custom-cut traction pad designs, logos and deck colors on every board.' },
+        { title: 'Fins and accessories', body: 'Fin configurations, paddles, pumps, leashes and bags matched to your package.' },
+        { title: 'Packaging and display', body: 'Retail boxes, seaworthy shipping packaging and point-of-sale displays under your brand.' },
+      ]
+}
+
+/** Who manufactures this platform with us (product detail pages). */
+function oemApplications(es: boolean): { title: string; body: string }[] {
+  return es
+    ? [
+        { title: 'Marcas de SUP', body: 'Lanza tu propia línea con mínimos por tramos desde 5–10 unidades de prueba.' },
+        { title: 'Distribuidores y revendedores', body: 'Catálogos de volumen con embalaje marítimo y logística FOB/CIF/DDP.' },
+        { title: 'Retail y outdoor', body: 'Programas de reposición estacional con especificaciones estables de temporada en temporada.' },
+        { title: 'Resorts y operadores de alquiler', body: 'Flotas de uso intensivo con refuerzos, repuestos y mantenimiento estandarizado.' },
+        { title: 'Clubes, escuelas y eventos', body: 'Tablas con tu logotipo para programas, competiciones y flotas corporativas.' },
+      ]
+    : [
+        { title: 'SUP brands', body: 'Launch your own line with tiered minimums from 5–10 trial units.' },
+        { title: 'Distributors and resellers', body: 'Volume catalogs with seaworthy packaging and FOB/CIF/DDP logistics.' },
+        { title: 'Retail and outdoor companies', body: 'Seasonal replenishment programs with stable specs run after run.' },
+        { title: 'Resorts and rental operators', body: 'High-duty fleets with reinforcements, spares and standardized maintenance.' },
+        { title: 'Clubs, schools and events', body: 'Branded boards for programs, competitions and corporate fleets.' },
+      ]
 }
 
 function PostView({ post, relatedPosts, origin, path, locale }: { post: AfarerPost; relatedPosts: RelatedPost[]; origin: string; path: string; locale: Locale }) {

@@ -2098,13 +2098,15 @@ export interface AboutContent {
   values: { title: string; body: string }[]
   capabilities: string[]
   stats: { value: string; label: string }[]
+  strength: { title: string; body: string }[]
+  partnering: { title: string; body: string[] }
 }
 
 export const about: Localized<AboutContent> = {
   en: {
     kicker: 'About Us',
-    title: 'The Manufacturing Partner Behind Emerging Paddle Brands',
-    sub: 'SUPsfactory exists for one reason: great brands shouldn’t have to run their own factory.',
+    title: 'About SUPsfactory',
+    sub: 'Your Custom SUP Manufacturing Partner',
     story: [
       'We are an inflatable SUP OEM/ODM factory that has spent years building boards for brands, distributors and sourcing teams around the world. Along the way, we kept meeting the same kind of customer — brands and buyers with a clear product vision but no in-house plant to build it.',
       'So we built SUPsfactory around them. Tiered minimums from 5–10 trial units, complete engineering and design support, and a manufacturing team that treats your first order as seriously as your hundredth. You bring the brand; we run the factory.',
@@ -2130,11 +2132,44 @@ export const about: Localized<AboutContent> = {
       { value: '30–45 days', label: 'Production lead time' },
       { value: '5–10 pcs', label: 'Trial order MOQ' },
     ],
+    strength: [
+      {
+        title: 'Product Development',
+        body: 'From concept sketches to production drawings — our engineers refine shape, rocker, thickness and drop-stitch construction to hit your target performance and price.',
+      },
+      {
+        title: 'OEM Manufacturing',
+        body: 'Build your exact specification: materials, colors, logo placement, accessories and packaging, in standard OEM batches from 50 pcs per design.',
+      },
+      {
+        title: 'ODM Solutions',
+        body: 'Start from our proven in-house platforms — all-around, touring, race, yoga and more — and customize branding, graphics and trim for a fast, low-risk launch.',
+      },
+      {
+        title: 'Engineering Support',
+        body: 'Mould engineering, prototyping and sample iteration under one roof, with visual proofs and artwork approvals at every milestone before mass production.',
+      },
+      {
+        title: 'Quality Management',
+        body: 'Multi-point QC across materials, welding, printing, assembly and packaging, plus on-sample and pre-shipment inspections you can book as a third party.',
+      },
+      {
+        title: 'Global Delivery',
+        body: 'Export logistics to 40+ markets — FOB Qingdao, CIF or DDP — with consolidated container loading, seaworthy packaging and documentation handled in-house.',
+      },
+    ],
+    partnering: {
+      title: 'Partnering With Global Businesses',
+      body: [
+        'SUPsfactory works with SUP brands, distributors, resorts, schools and outdoor companies that need a reliable inflatable paddle board factory — from a first trial order to container-scale programs.',
+        'Tell us your market and target price, and we respond with a spec sheet, MOQ and lead times for your specific business model.',
+      ],
+    },
   },
   es: {
     kicker: 'Sobre nosotros',
-    title: 'El fabricante detrás de las marcas de remo emergentes',
-    sub: 'SUPsfactory existe por una razón: las grandes marcas no deberían gestionar una fábrica propia.',
+    title: 'Sobre SUPsfactory',
+    sub: 'Tu socio de fabricación de SUP a medida',
     story: [
       'Somos una fábrica OEM/ODM de SUP hinchables que lleva años fabricando tablas para marcas, distribuidores y equipos de compra de todo el mundo. En el camino, nos encontrábamos una y otra vez con el mismo tipo de cliente: marcas y compradores con un plan de producto claro pero sin planta productiva propia.',
       'Por eso construimos SUPsfactory a su alrededor. Pedidos mínimos por tramos desde 5–10 unidades de prueba, soporte de ingeniería y diseño completo, y un equipo de fabricación que trata tu primer pedido con la misma seriedad que el centésimo. Tú traes la marca; nosotros dirigimos la fábrica.',
@@ -2160,6 +2195,39 @@ export const about: Localized<AboutContent> = {
       { value: '30–45 días', label: 'Plazo de producción' },
       { value: '5–10 uds.', label: 'MOQ de pedido de prueba' },
     ],
+    strength: [
+      {
+        title: 'Desarrollo de producto',
+        body: 'Del boceto al plano de producción — nuestros ingenieros afinan forma, rocker, grosor y construcción drop-stitch para alcanzar tu rendimiento y precio objetivo.',
+      },
+      {
+        title: 'Fabricación OEM',
+        body: 'Construimos tu especificación exacta: materiales, colores, colocación del logotipo, accesorios y embalaje, en lotes OEM estándar a partir de 50 uds. por diseño.',
+      },
+      {
+        title: 'Soluciones ODM',
+        body: 'Parte de nuestras plataformas probadas — all-around, touring, race, yoga y más — y personaliza marca, gráficos y acabados para un lanzamiento rápido y de bajo riesgo.',
+      },
+      {
+        title: 'Soporte de ingeniería',
+        body: 'Ingeniería de moldes, prototipos e iteración de muestras bajo el mismo techo, con pruebas visuales y aprobaciones de arte en cada hito antes de la producción en serie.',
+      },
+      {
+        title: 'Gestión de calidad',
+        body: 'QC multipunto en materiales, soldadura, impresión, montaje y embalaje, más inspecciones sobre muestra y previas al envío que puedes contratar como tercero.',
+      },
+      {
+        title: 'Entrega global',
+        body: 'Logística de exportación a más de 40 mercados — FOB Qingdao, CIF o DDP — con carga consolidada de contenedores, embalaje marítimo y documentación gestionada internamente.',
+      },
+    ],
+    partnering: {
+      title: 'Colaboramos con empresas de todo el mundo',
+      body: [
+        'SUPsfactory trabaja con marcas de SUP, distribuidores, resorts, escuelas y empresas de actividades al aire libre que necesitan una fábrica de tablas hinchables fiable — desde el primer pedido de prueba hasta programas a escala de contenedor.',
+        'Cuéntanos tu mercado y tu precio objetivo, y te responderemos con una ficha de especificaciones, MOQ y plazos para tu modelo de negocio.',
+      ],
+    },
   },
 }
 

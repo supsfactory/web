@@ -10,6 +10,7 @@ import { PageHero } from '@/components/marketing/section-head'
 import { JsonLd, aboutPageLd } from '@/features/seo/jsonld'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
+import { SectionHead } from '@/components/marketing/section-head'
 
 const rootRoute = getRouteApi('__root__')
 
@@ -22,11 +23,11 @@ export const Route = createFileRoute('/{-$locale}/about/')({
       origin,
       locale,
       path: '/about',
-      title: locale === 'es' ? 'Sobre nosotros | Fabricante OEM de SUP | SUPsfactory' : 'About Us | Inflatable SUP OEM | SUPsfactory',
+      title: locale === 'es' ? 'Sobre SUPsfactory | Fabricante de tablas SUP a medida | OEM/ODM' : 'About SUPsfactory | Custom SUP Board Manufacturer | OEM/ODM',
       description:
         locale === 'es'
-          ? 'SUPsfactory es la división de fabricación OEM/ODM de SUP hinchables de Afarer — ingeniería, moldes, muestras y producción desde pedidos de prueba.'
-          : 'SUPsfactory is the inflatable SUP OEM/ODM manufacturing arm of Afarer — engineering, tooling, sampling and container-scale production from trial orders up.',
+          ? 'SUPsfactory es un fabricante de tablas de paddle surf a medida — OEM y ODM de SUP hinchables, desde el diseño del prototipo hasta la producción en serie, con ingeniería, moldes, muestras y logística global.'
+          : 'SUPsfactory is a custom SUP board manufacturer — inflatable paddle board OEM/ODM from prototype design to mass production, with engineering, tooling, sampling, QC and global logistics under one roof.',
     })
     return { meta, links }
   },
@@ -49,6 +50,55 @@ function AboutPage() {
           {c.story.map((p, i) => (
             <p key={i} className="text-[15.5px] leading-[1.85] text-fg-2">{p}</p>
           ))}
+        </div>
+      </section>
+
+      {/* partnering */}
+      <section className="border-y border-border bg-bg-alt">
+        <div className="mx-auto max-w-6xl px-5 py-14 md:px-7">
+          <h2 className="text-center font-display text-2xl font-extrabold tracking-tight">{c.partnering.title}</h2>
+          <div className="mx-auto mt-5 flex max-w-3xl flex-col gap-4">
+            {c.partnering.body.map((p, i) => (
+              <p key={i} className="text-[14.5px] leading-[1.85] text-fg-2">{p}</p>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* factory imagery */}
+      <section className="mx-auto max-w-6xl px-5 py-14 md:px-7">
+        <div className="grid gap-5 md:grid-cols-2">
+          <img
+            src="/assets/videos/2026/sup-manufacturing.jpg"
+            alt={locale === 'es'
+              ? 'Línea de producción de una fábrica de tablas SUP hinchables a medida en Qingdao'
+              : 'Custom SUP board manufacturing factory production line — inflatable paddle board plant in Qingdao'}
+            loading="lazy"
+            className="aspect-[16/10] w-full rounded-2xl border border-border-2 object-cover"
+          />
+          <img
+            src="/assets/videos/2026/oem-brand-launch.jpg"
+            alt={locale === 'es'
+              ? 'Marca de SUP OEM personalizada — estampado y embalaje de tablas con marca privada'
+              : 'OEM SUP brand launch — custom paddle board branding, printing and packaging for private label'}
+            loading="lazy"
+            className="aspect-[16/10] w-full rounded-2xl border border-border-2 object-cover"
+          />
+        </div>
+      </section>
+
+      {/* manufacturing strength */}
+      <section className="border-t border-border">
+        <div className="mx-auto max-w-6xl px-5 py-16 md:px-7">
+          <SectionHead kicker={locale === 'es' ? 'Fabricación' : 'Manufacturing'} title={locale === 'es' ? 'Nuestra fortaleza de fabricación' : 'Our Manufacturing Strength'} />
+          <div className="mt-8 grid gap-5 md:grid-cols-3">
+            {c.strength.map((s) => (
+              <div key={s.title} className="marine-card p-7">
+                <h3 className="font-display text-[17px] font-bold">{s.title}</h3>
+                <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{s.body}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

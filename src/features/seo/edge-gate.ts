@@ -107,6 +107,9 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/es/media': '/es/products',
   '/evidence': '/projects',
   '/es/evidence': '/es/projects',
+  // SEO alias for the project gallery (supsfactory case studies live on /projects)
+  '/case-studies': '/projects',
+  '/es/case-studies': '/es/projects',
   // P1-9: dead whitepaper PDF links in news articles fold into the OEM landing page
   '/whitepaper/oem-sup-manufacturing-guide': '/oem-odm-manufacturer',
   '/es/whitepaper/oem-sup-manufacturing-guide': '/es/oem-odm-manufacturer',

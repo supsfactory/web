@@ -199,7 +199,7 @@ export const es = {
       knowledge: 'Centro de conocimiento', company: 'Empresa',
     },
     footer: {
-      tagline: 'La división de desarrollo y fabricación de SUP de Afarer — ingeniería, moldes, muestras y producción a escala de contenedor. Tú traes la marca, nosotros fabricamos las tablas.',
+      tagline: 'SUPsfactory es un fabricante de tablas de paddle surf a medida especializado en fabricación OEM y ODM de SUP hinchables. Ayudamos a marcas de SUP, distribuidores y empresas de actividades al aire libre a desarrollar tablas personalizadas, desde el diseño del prototipo hasta la producción en serie.',
       colSolutions: 'Soluciones', colServe: 'A quién servimos', colCompany: 'Empresa', colLegal: 'Legal',
       colResources: 'Recursos', colManufacturing: 'Fabricación y calidad',
       factoryCapacity: 'Capacidad de fábrica',

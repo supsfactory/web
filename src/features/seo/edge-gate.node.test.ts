@@ -169,6 +169,7 @@ test('content hubs 301 onto their keepers, sub-pages stay live (P1-2)', () => {
     ['/learn', '/knowledge'], ['/academy', '/knowledge'], ['/guides', '/knowledge'],
     ['/research', '/knowledge'], ['/resources', '/knowledge'], ['/community', '/knowledge'],
     ['/lifestyle', '/knowledge'], ['/journal', '/news'], ['/media', '/products'], ['/evidence', '/projects'],
+    ['/case-studies', '/projects'],
   ]
   for (const [from, to] of hubs) {
     expect(gatePath(from)).toEqual({ action: 'redirect', to })

@@ -209,7 +209,7 @@ export const en = {
       knowledge: 'Knowledge Center', company: 'Company',
     },
     footer: {
-      tagline: 'The SUP product development and manufacturing division of Afarer — engineering, tooling, sampling and container-scale production. You bring the brand, we build the boards.',
+      tagline: 'SUPsfactory is a custom SUP board manufacturer specializing in OEM and ODM paddle board manufacturing. We help SUP brands, distributors and outdoor companies develop customized paddle board products from prototype design to mass production.',
       colSolutions: 'Solutions', colServe: 'Who We Serve', colCompany: 'Company', colLegal: 'Legal',
       colResources: 'Resources', colManufacturing: 'Manufacturing & Quality',
       factoryCapacity: 'Factory Capacity',
