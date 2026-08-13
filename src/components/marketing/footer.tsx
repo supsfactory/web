@@ -50,9 +50,9 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           <a className="foot-link" href={fl('/oem-odm-manufacturer')}>{t('sup.nav.oemOdm')}</a>
           <a className="foot-link" href={fl('/factory')}>{t('sup.footer.factory')}</a>
           <a className="foot-link" href={fl('/factory/capacity')}>{t('sup.footer.factoryCapacity')}</a>
-          <a className="foot-link" href={fl('/quality')}>{t('sup.nav.companyDropdown.quality')}</a>
-          <a className="foot-link" href={fl('/warranty')}>{t('sup.nav.companyDropdown.warranty')}</a>
-          <a className="foot-link" href={fl('/technology')}>{t('sup.nav.companyDropdown.technology')}</a>
+          <a className="foot-link" href={fl('/quality')}>{t('sup.nav.manufacturingDropdown.quality')}</a>
+          <a className="foot-link" href={fl('/warranty')}>{t('sup.nav.manufacturingDropdown.warranty')}</a>
+          <a className="foot-link" href={fl('/technology')}>{t('sup.nav.manufacturingDropdown.technology')}</a>
         </FooterCol>
 
         {/* Solutions */}
@@ -62,8 +62,8 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           <a className="foot-link" href={fl('/solutions/resort-sup')}>{t('sup.footer.resortSolutions')}</a>
           <a className="foot-link" href={fl('/solutions/club-sup')}>{t('sup.footer.clubSup')}</a>
           <a className="foot-link" href={fl('/solutions/school-sup')}>{t('sup.footer.schoolSup')}</a>
-          <a className="foot-link" href={fl('/solutions/distributors')}>{t('sup.nav.solutionsDropdown.distributors')}</a>
-          <a className="foot-link" href={fl('/solutions/rental-operators')}>{t('sup.nav.solutionsDropdown.rentalOperators')}</a>
+          <a className="foot-link" href={fl('/solutions/distributors')}>{t('sup.nav.industriesDropdown.distributors')}</a>
+          <a className="foot-link" href={fl('/solutions/rental-operators')}>{t('sup.nav.industriesDropdown.rental')}</a>
           <a className="foot-link" href={fl('/b2b-solutions-matrix')}>{t('sup.footer.b2bMatrix')}</a>
           <a className="foot-link" href={fl('/oem/sup-oem-north-america')}>{t('sup.footer.marketsNorthAmerica')}</a>
           <a className="foot-link" href={fl('/oem/sup-oem-canada')}>{t('sup.footer.marketsCanada')}</a>

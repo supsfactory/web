@@ -16,7 +16,8 @@ interface NavItem {
 }
 
 /** Sticky marketing header: utility top bar (auth) + main bar with dropdown
- * navigation (≤6 top-level items), search, theme and language controls. */
+ * navigation (8 top-level items — desktop from xl to fit), search, theme and
+ * language controls. */
 export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn: boolean }) {
   const { t, locale } = useTranslation()
   const [open, setOpen] = React.useState(false)
@@ -31,48 +32,67 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
 
   const navItems: NavItem[] = [
     {
+      label: t('sup.nav.products'),
+      items: [
+        { label: t('sup.nav.productsDropdown.all'), href: '/products' },
+        { label: t('sup.nav.productsDropdown.customizer'), href: '/customizer' },
+        { label: t('sup.nav.productsDropdown.oemPaddle'), href: '/oem-paddle' },
+      ],
+    },
+    {
       label: t('sup.nav.oemOdm'),
       items: [
         { label: t('sup.nav.oemDropdown.productDevelopment'), href: '/product-development' },
         { label: t('sup.nav.oemDropdown.manufacturer'), href: '/oem-odm-manufacturer' },
+        { label: t('sup.nav.oemDropdown.privateLabel'), href: '/solutions/private-label-sup' },
       ],
     },
     {
-      label: t('sup.nav.solutions'),
+      label: t('sup.nav.industries'),
       items: [
-        { label: t('sup.nav.solutionsDropdown.oem'), href: '/oem-odm-manufacturer' },
-        { label: t('sup.nav.solutionsDropdown.privateLabel'), href: '/solutions/private-label-sup' },
-        { label: t('sup.nav.solutionsDropdown.resort'), href: '/solutions/resort-sup' },
-        { label: t('sup.nav.solutionsDropdown.club'), href: '/solutions/club-sup' },
-        { label: t('sup.nav.solutionsDropdown.distributors'), href: '/solutions/distributors' },
-        { label: t('sup.nav.solutionsDropdown.rentalOperators'), href: '/solutions/rental-operators' },
+        { label: t('sup.nav.industriesDropdown.overview'), href: '/who-we-serve' },
+        { label: t('sup.nav.industriesDropdown.resorts'), href: '/solutions/resort-sup' },
+        { label: t('sup.nav.industriesDropdown.clubs'), href: '/solutions/club-sup' },
+        { label: t('sup.nav.industriesDropdown.rental'), href: '/solutions/rental-operators' },
+        { label: t('sup.nav.industriesDropdown.distributors'), href: '/solutions/distributors' },
+        { label: t('sup.nav.industriesDropdown.retail'), href: '/solutions/retail-partners' },
       ],
     },
     {
-      label: t('sup.nav.products'),
+      label: t('sup.nav.manufacturing'),
       items: [
-        { label: t('sup.nav.productsDropdown.all'), href: '/products' },
-        { label: t('sup.nav.customizer'), href: '/customizer' },
+        { label: t('sup.nav.manufacturingDropdown.factory'), href: '/factory' },
+        { label: t('sup.nav.manufacturingDropdown.quality'), href: '/quality' },
+        { label: t('sup.nav.manufacturingDropdown.technology'), href: '/technology' },
+        { label: t('sup.nav.manufacturingDropdown.warranty'), href: '/warranty' },
+      ],
+    },
+    {
+      label: t('sup.nav.caseStudies'),
+      items: [
+        { label: t('sup.nav.caseStudiesDropdown.projects'), href: '/projects' },
+        { label: t('sup.nav.caseStudiesDropdown.gallery'), href: '/gallery' },
+        { label: t('sup.nav.caseStudiesDropdown.evidence'), href: '/evidence/case-studies' },
       ],
     },
     {
       label: t('sup.nav.resources'),
       items: [
-        { label: t('sup.nav.resourcesDropdown.guides'), href: '/knowledge' },
-        { label: t('sup.nav.resourcesDropdown.gallery'), href: '/gallery' },
-        { label: t('sup.nav.resourcesDropdown.cases'), href: '/projects' },
+        { label: t('sup.nav.resourcesDropdown.knowledge'), href: '/knowledge' },
         { label: t('sup.nav.resourcesDropdown.faq'), href: '/faq' },
+        { label: t('sup.nav.resourcesDropdown.sizeGuide'), href: '/size-guide' },
+        { label: t('sup.nav.resourcesDropdown.whatIsSup'), href: '/what-is-sup' },
+        { label: t('sup.nav.resourcesDropdown.b2bMatrix'), href: '/b2b-solutions-matrix' },
+        { label: t('sup.nav.resourcesDropdown.news'), href: '/news' },
       ],
     },
     {
-      label: t('sup.nav.company'),
+      label: t('sup.nav.about'),
       items: [
-        { label: t('sup.nav.companyDropdown.about'), href: '/about/supsfactory-entity' },
-        { label: t('sup.nav.companyDropdown.factory'), href: '/factory' },
-        { label: t('sup.nav.companyDropdown.quality'), href: '/quality' },
-        { label: t('sup.nav.companyDropdown.warranty'), href: '/warranty' },
-        { label: t('sup.nav.companyDropdown.technology'), href: '/technology' },
-        { label: t('sup.nav.companyDropdown.whoWeServe'), href: '/who-we-serve' },
+        { label: t('sup.nav.aboutDropdown.about'), href: '/about' },
+        { label: t('sup.nav.aboutDropdown.entity'), href: '/about/supsfactory-entity' },
+        { label: t('sup.nav.aboutDropdown.partners'), href: '/partners' },
+        { label: t('sup.nav.aboutDropdown.howItWorks'), href: '/how-it-works' },
       ],
     },
     { label: t('sup.nav.contact'), href: '/contact' },
@@ -169,7 +189,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
           <div className="flex-1" />
 
           {/* desktop nav with dropdowns */}
-          <div className="hidden items-center gap-0.5 lg:flex">{navItems.map(renderDesktopItem)}</div>
+          <div className="hidden items-center gap-0.5 xl:flex">{navItems.map(renderDesktopItem)}</div>
 
           {/* theme · search · language (search sits between the two) */}
           <div className="flex items-center gap-1">
@@ -184,12 +204,12 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
             </button>
             <LangSwitch />
           </div>
-          <div className="hidden lg:block">{cta}</div>
+          <div className="hidden xl:block">{cta}</div>
 
           {/* mobile hamburger */}
           <button
             type="button"
-            className="inline-flex h-[38px] w-[38px] items-center justify-center rounded-lg text-fg-2 hover:bg-bg-alt hover:text-foreground lg:hidden"
+            className="inline-flex h-[38px] w-[38px] items-center justify-center rounded-lg text-fg-2 hover:bg-bg-alt hover:text-foreground xl:hidden"
             aria-label={t('common.menu')}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
@@ -199,7 +219,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         </nav>
 
         {open && (
-          <div className="flex flex-col gap-1 border-t border-border px-4 py-3 lg:hidden" onClick={() => setOpen(false)}>
+          <div className="flex flex-col gap-1 border-t border-border px-4 py-3 xl:hidden" onClick={() => setOpen(false)}>
             {renderMobileItems(navItems)}
             <div className="mt-2 flex items-center gap-3">{cta}</div>
           </div>
