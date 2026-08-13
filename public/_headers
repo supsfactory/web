@@ -1,0 +1,11 @@
+# Cache headers for Cloudflare Static Assets (served before the Worker).
+# Hashed build outputs (/assets/index-*.js, app-*.css) never change per URL —
+# immutable for a year. Fonts carry no hash, so keep a shorter 7-day window.
+/assets/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*.woff2
+  Cache-Control: public, max-age=604800
