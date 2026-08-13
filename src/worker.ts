@@ -93,12 +93,22 @@ async function warmEdgeCache(env: Cloudflare.Env, ctx: ExecutionContext): Promis
   } catch (err) {
     console.log('[cron] warm fallback list', err instanceof Error ? err.message : String(err))
   }
+  const cache = (caches as unknown as { default: Cache }).default
   for (const path of paths) {
-    const request = new Request(`https://supsfactory.com${path}`, { headers: { 'accept': 'text/html' } })
+    // Warm requests use a fresh cache-busting query so the replay misses the
+    // Cache API, renders the latest SSR output and then overwrites the clean
+    // URL entry — otherwise a stale cached page would keep refreshing itself
+    // (e.g. after every deploy) until its TTL expires.
+    const cleanUrl = `https://supsfactory.com${path}`
+    const warmUrl = `${cleanUrl}?warm=${Date.now()}`
     try {
-      const res = await handler.fetch(request, env, ctx)
+      const res = await handler.fetch(new Request(warmUrl, { headers: { 'accept': 'text/html' } }), env, ctx)
+      if (res.status === 200) {
+        ctx.waitUntil(cache.put(new Request(cleanUrl), res.clone()))
+      } else {
+        console.log('[cron] warm', path, res.status)
+      }
       res.body?.cancel()
-      if (res.status !== 200) console.log('[cron] warm', path, res.status)
     } catch (err) {
       console.log('[cron] warm skipped', path, err instanceof Error ? err.message : String(err))
     }
