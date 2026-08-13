@@ -76,6 +76,24 @@ export const afarerServerLoader = createServerFn({ method: 'GET' })
     return d
   })
 
+/**
+ * Product-detail resolver for the /products/$series route: when the segment is
+ * an afarer product slug (not a series), resolve it here — the same layering
+ * as the root catch-all, so the 900 KB+ corpus stays server-only.
+ */
+export const afarerProductLoader = createServerFn({ method: 'GET' })
+  .validator((input: { slug: string; locale: string }) => input)
+  .handler(async ({ data }) => {
+    const { resolveCatchAll } = await import('./catchall.server')
+    const { env } = await import('@/lib/env')
+    const origin = new URL(env.BETTER_AUTH_URL).origin
+    const resolved = resolveCatchAll(`/products/${data.slug}`, data.locale as Locale)
+    if (!resolved || resolved.kind !== 'product') throw notFound()
+    resolved.origin = origin
+    resolved.image = resolved.image.startsWith('http') ? resolved.image : `${origin}${resolved.image}`
+    return resolved
+  })
+
 /* ─────────────────────────── JSON-LD helpers ─────────────────────────── */
 
 function articleLd(url: string, title: string, description: string, locale: Locale, dateModified?: string): Record<string, unknown> {
@@ -241,7 +259,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
   )
 }
 
-function ProductView({ product, related, origin, locale }: { product: AfarerProduct; related: RelatedProduct[]; origin: string; locale: Locale }) {
+export function ProductView({ product, related, origin, locale }: { product: AfarerProduct; related: RelatedProduct[]; origin: string; locale: Locale }) {
   const specs = product.specs ?? []
   const gallery = product.gallery?.length ? product.gallery : product.image ? [{ url: product.image, alt: product.title }] : []
   const fl = (p: string): string => (locale === 'en' ? p : `/es${p}`)

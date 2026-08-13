@@ -1,4 +1,4 @@
-import { createFileRoute, notFound } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { ArrowRight, CheckCircle2, Package } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -6,14 +6,19 @@ import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, products, productsPage } from '@/features/site/content'
 import { seriesPages, getSeriesPage } from '@/features/site/series-pages'
+import type { SeriesPageData } from '@/features/site/series-pages'
 import { FACTS } from '@/features/site/facts'
 import { JsonLd, breadcrumbLd, faqLd, itemListLd } from '@/features/seo/jsonld'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero } from '@/components/marketing/section-head'
 import { Footer } from '@/components/marketing/footer'
+import { CtaBand } from '@/components/marketing/cta'
+import { ProductView, afarerProductLoader, type CatchAllData } from '@/features/content/catchall'
 import { getRouteApi } from '@tanstack/react-router'
 
 const rootRoute = getRouteApi('__root__')
+
+type ProductCatchAll = Extract<CatchAllData, { kind: 'product' }>
 
 export const Route = createFileRoute('/{-$locale}/products/$series')({
   validateSearch: (s: Record<string, unknown>): { platform?: string } => ({
@@ -21,22 +26,25 @@ export const Route = createFileRoute('/{-$locale}/products/$series')({
   }),
   loader: async ({ params }) => {
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
-    const page = getSeriesPage(locale, (params as { series: string }).series)
-    if (!page) throw notFound()
+    const slug = (params as { series: string }).series
+    const page = getSeriesPage(locale, slug)
     const origin = await getOrigin()
-    return { origin, page }
+    if (page) return { origin, page, product: null as ProductCatchAll | null }
+    const product = await afarerProductLoader({ data: { slug, locale } })
+    return { origin, page: null as SeriesPageData | null, product }
   },
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
     const page = loaderData?.page
-    if (!page) return {}
+    const product = loaderData?.product
+    if (!page && !product) return {}
     const { meta, links } = localeHead({
       origin,
       locale,
-      path: `/products/${page.slug}`,
-      title: page.metaTitle,
-      description: page.metaDescription,
+      path: `/products/${page?.slug ?? product?.product.slug ?? ''}`,
+      title: page ? page.metaTitle : product ? product.title : '',
+      description: page ? page.metaDescription : product ? product.description : '',
     })
     return { meta, links }
   },
@@ -46,8 +54,21 @@ export const Route = createFileRoute('/{-$locale}/products/$series')({
 function SeriesPage() {
   const { theme, user } = rootRoute.useLoaderData()
   const { locale } = useTranslation()
-  const { origin, page } = Route.useLoaderData()
+  const { origin, page, product } = Route.useLoaderData()
   const es = locale === 'es'
+
+  if (product) {
+    return (
+      <div className="min-h-screen bg-background text-foreground">
+        <SiteNav theme={theme} loggedIn={!!user} />
+        <ProductView product={product.product} related={product.related} origin={origin} locale={locale} />
+        <CtaBand productSlug={product.product.slug} />
+        <Footer theme={theme} />
+      </div>
+    )
+  }
+
+  if (!page) return null
   const fl = (p: string): string => (es ? `/es${p}` : p)
   const items = pick(products, locale).items.filter((p) => p.series === page.slug)
   const c = pick(productsPage, locale)
