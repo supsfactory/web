@@ -9,6 +9,7 @@ import { SiteNav } from '@/components/marketing/site-nav'
 import { Hero } from '@/components/marketing/hero'
 import { TrustBar } from '@/components/marketing/trust-bar'
 import { RoleBoundary } from '@/components/marketing/role-boundary'
+import { WhoWeServe } from '@/components/marketing/who-we-serve'
 import { ValueProp } from '@/components/marketing/value-prop'
 import { SolveSection } from '@/components/marketing/solve-section'
 import { PlantCapability } from '@/components/marketing/plant-capability'
@@ -65,6 +66,7 @@ function Home() {
       <Hero />
       <TrustBar />
       <RoleBoundary />
+      <WhoWeServe />
       <ValueProp />
       <SolveSection />
       <VideoShowcase
