@@ -44,7 +44,7 @@ export function Hero() {
               {c.ctaPrimary} <ArrowRight size={17} />
             </a>
             <a
-              href={fl('/products')}
+              href={fl('/how-it-works')}
               className="glass-btn inline-flex h-[48px] items-center px-8 text-[15px] font-semibold"
             >
               {c.ctaSecondary}

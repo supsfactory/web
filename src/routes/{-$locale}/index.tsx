@@ -9,6 +9,7 @@ import { SiteNav } from '@/components/marketing/site-nav'
 import { Hero } from '@/components/marketing/hero'
 import { TrustBar } from '@/components/marketing/trust-bar'
 import { RoleBoundary } from '@/components/marketing/role-boundary'
+import { ValueProp } from '@/components/marketing/value-prop'
 import { SolveSection } from '@/components/marketing/solve-section'
 import { PlantCapability } from '@/components/marketing/plant-capability'
 import { QualitySteps } from '@/components/marketing/quality-steps'
@@ -38,16 +39,16 @@ export const Route = createFileRoute('/{-$locale}/')({
       path: '/',
       title:
         locale === 'es'
-          ? 'Fábrica de fabricación de SUP personalizados | Fabricante OEM ODM de SUP'
-          : 'Custom SUP Manufacturing Factory | OEM ODM SUP Manufacturer',
+          ? 'Fabricante de tablas SUP personalizadas | Socio OEM ODM para marcas globales'
+          : 'Custom SUP Board Manufacturer | OEM/ODM Partner for Global Brands',
       description:
         locale === 'es'
-          ? 'Supsfactory es una fábrica profesional de fabricación de SUP a medida que ayuda a marcas globales a desarrollar y producir tablas hinchables mediante soluciones OEM y ODM, desde el prototipo hasta la producción en masa.'
-          : 'Supsfactory is a professional custom SUP manufacturing factory helping global brands develop and produce inflatable SUP products through OEM and ODM solutions, from prototype to mass production.',
+          ? 'Supsfactory es un fabricante de tablas SUP a medida y socio OEM/ODM para marcas, distribuidores y organizaciones. Del desarrollo de prototipos a la producción en masa y la entrega global.'
+          : 'Supsfactory is a custom SUP board manufacturer and OEM/ODM manufacturing partner for global brands, distributors and water sports organizations. From prototype development to mass production and global delivery.',
       ogTitle:
         locale === 'es'
-          ? 'SUPsfactory — Fábrica de fabricación de SUP personalizados para marcas globales'
-          : 'SUPsfactory — Custom SUP Manufacturing Factory for Global Brands',
+          ? 'SUPsfactory — Fabricante de tablas SUP personalizadas y socio OEM/ODM'
+          : 'SUPsfactory — Custom SUP Board Manufacturer & OEM/ODM Partner',
     })
     return { meta, links }
   },
@@ -64,6 +65,7 @@ function Home() {
       <Hero />
       <TrustBar />
       <RoleBoundary />
+      <ValueProp />
       <SolveSection />
       <VideoShowcase
         video="/assets/videos/2026/oem-brand-launch.mp4"

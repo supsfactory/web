@@ -102,7 +102,7 @@ export function siteLd(): Record<string, unknown>[] {
       url: `${SITE_ORIGIN}/`,
       logo: `${SITE_ORIGIN}/logo192.png`,
       description:
-        'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,000 m² inflatable manufacturing plant in Qingdao, China. We build SUP boards to your specification — engineering, tooling, sampling, production and export. We do not sell to end consumers and we do not compete with our clients in any market.',
+        'SUPS Factory is a professional custom SUP board manufacturer and OEM/ODM manufacturing partner serving brands, distributors, outdoor companies and water sports organizations. As the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.) — a 12,000 m² inflatable manufacturing plant in Qingdao, China — we build customized paddle board products from product development and prototype sampling to mass production and global delivery. We do not sell to end consumers and we do not compete with our clients in any market.',
       // 实体统一：SUPsfactory / Afarer / Qingdao Vatrad Group 是一家工厂，sameAs 连接
       // 母公司官网 + 社媒主页（与 footer 链接共用 FACTS.social，保持实体一致）。
       sameAs: ['https://afarer.com', FACTS.social.facebook, FACTS.social.linkedin, FACTS.social.youtube],

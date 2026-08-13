@@ -40,17 +40,17 @@ export interface HeroContent {
 
 export const hero: Localized<HeroContent> = {
   en: {
-    kicker: 'SUP Manufacturing Factory — OEM / ODM / Private Label',
-    titlePre: 'Custom SUP Manufacturing Factory',
-    titleAccent: 'for Global Brands',
-    titlePost: 'From Prototype Development to Mass Production',
-    sub: 'Supsfactory helps global brands, retailers and water businesses turn SUP product concepts into production-ready boards — through prototyping, engineering support and reliable OEM & ODM manufacturing services.',
-    ctaPrimary: 'Start a Custom SUP Project',
-    ctaSecondary: 'View Products & MOQ',
+    kicker: 'SUP Manufacturer — OEM / ODM / Private Label',
+    titlePre: 'Custom SUP Board Manufacturer',
+    titleAccent: '& OEM/ODM Partner',
+    titlePost: 'for Global Brands',
+    sub: 'From product concept and prototype development to mass production, we help SUP brands, distributors, outdoor companies and water sports organizations bring customized paddle board products to market.',
+    ctaPrimary: 'Start Your SUP Project',
+    ctaSecondary: 'Explore Our OEM & ODM Process',
     chips: [
-      'Engineering review within 1 business day',
-      'Quotation within one business day',
-      'NDA signed before any file exchange',
+      'Custom product development · OEM & ODM manufacturing',
+      'Prototype to mass production',
+      'Global B2B supply',
     ],
     mockupLabel: 'Signature Platform',
     mockupBrand: "SUP Explorer 11'",
@@ -61,17 +61,17 @@ export const hero: Localized<HeroContent> = {
     float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
   es: {
-    kicker: 'Fábrica de fabricación de SUP — OEM / ODM / Marca privada',
-    titlePre: 'Fábrica de fabricación de SUP personalizados',
-    titleAccent: 'para marcas globales',
-    titlePost: 'Del desarrollo de prototipos a la producción en masa',
-    sub: 'Supsfactory ayuda a marcas globales, minoristas y empresas de deportes acuáticos a convertir conceptos de tablas SUP en productos listos para producir — mediante desarrollo de prototipos, soporte de ingeniería y servicios fiables de fabricación OEM y ODM.',
-    ctaPrimary: 'Inicia tu proyecto de SUP personalizado',
-    ctaSecondary: 'Ver productos y MOQ',
+    kicker: 'Fabricante de SUP — OEM / ODM / Marca privada',
+    titlePre: 'Fabricante de tablas SUP personalizadas',
+    titleAccent: 'y socio OEM/ODM',
+    titlePost: 'para marcas globales',
+    sub: 'Desde el concepto de producto y el desarrollo de prototipos hasta la producción en masa, ayudamos a marcas de SUP, distribuidores, empresas de actividades al aire libre y organizaciones de deportes acuáticos a llevar productos de tablas de pádel personalizadas al mercado.',
+    ctaPrimary: 'Inicia tu proyecto de SUP',
+    ctaSecondary: 'Conoce nuestro proceso OEM y ODM',
     chips: [
-      'Revisión de ingeniería en 1 día laborable',
-      'Presupuesto en un día laborable',
-      'NDA firmado antes de cualquier intercambio de archivos',
+      'Desarrollo de productos personalizados · Fabricación OEM y ODM',
+      'Del prototipo a la producción en masa',
+      'Suministro B2B global',
     ],
     mockupLabel: 'Plataforma insignia',
     mockupBrand: 'SUP Explorer 11\'',
@@ -538,80 +538,80 @@ export interface ServeContent {
 
 export const serve: Localized<ServeContent> = {
   en: {
-    kicker: 'Customer Needs',
-    title: 'From Requirements To Manufacturable Products',
-    sub: 'Every SUP project starts with a specific requirement.',
+    kicker: 'Who We Serve',
+    title: 'Built for Businesses Creating Their Own SUP Products',
+    sub: 'Whether you are launching a new paddle board brand or expanding an existing outdoor product line, our manufacturing solutions can be adapted to your business.',
     segments: [
       {
-        slug: 'custom-sup-products',
-        title: 'Custom SUP Products',
-        body: 'Customize boards, graphics, specifications and accessories — from your idea to a manufacturable product.',
-        points: ['Board customization', 'Graphics & branding', 'Specification support'],
+        slug: 'sup-brands',
+        title: 'SUP Brands',
+        body: 'Develop custom paddle boards that match your brand positioning, target market and product strategy.',
+        points: ['Custom designs', 'Brand graphics', 'Product development', 'Private label'],
         cta: 'Explore Custom SUP',
         href: '/product-development',
       },
       {
-        slug: 'private-label-sup',
-        title: 'Private Label SUP',
-        body: 'Develop SUP products under your own brand identity, produced and delivered by our factory.',
-        points: ['Branded boards', 'Product packaging', 'Bulk supply'],
+        slug: 'outdoor-companies',
+        title: 'Outdoor & Water Sports Companies',
+        body: 'Expand your product portfolio with customized SUP products designed for your market.',
+        points: ['Product customization', 'Multiple models', 'OEM production'],
+        cta: 'View Custom SUP',
+        href: '/solutions/custom-sup',
+      },
+      {
+        slug: 'distributors-retailers',
+        title: 'Distributors & Retailers',
+        body: 'Create differentiated paddle board collections instead of competing on the same standard products.',
+        points: ['Private label', 'Custom packaging', 'Retail-ready products'],
         cta: 'Learn More',
         href: '/solutions/private-label-sup',
       },
       {
-        slug: 'resort-club-solutions',
-        title: 'Resort & Club Solutions',
-        body: 'Create branded SUP equipment for guests, teams and activities — with fleet-friendly production.',
-        points: ['Branded guest fleets', 'Team equipment', 'Fleet pricing'],
+        slug: 'resorts-clubs',
+        title: 'Resorts, Clubs & Organizations',
+        body: 'Develop SUP products and equipment tailored to your operating environment and users.',
+        points: ['Custom specifications', 'Branding', 'Bulk production'],
         cta: 'View Solutions',
         href: '/solutions/resort-sup',
-      },
-      {
-        slug: 'organization-projects',
-        title: 'Organization Projects',
-        body: 'Customized SUP solutions for schools, programs and events — with bulk supply support.',
-        points: ['School programs', 'Event equipment', 'Bulk orders'],
-        cta: 'Discuss Requirements',
-        href: '/contact',
       },
     ],
   },
   es: {
-    kicker: 'Necesidades del cliente',
-    title: 'De los requisitos al producto fabricable',
-    sub: 'Cada proyecto SUP empieza con un requisito concreto.',
+    kicker: 'A quién servimos',
+    title: 'Hecho para empresas que crean sus propios productos SUP',
+    sub: 'Ya sea que estés lanzando una nueva marca de tablas de pádel o ampliando una línea de productos outdoor existente, nuestras soluciones de fabricación se adaptan a tu negocio.',
     segments: [
       {
-        slug: 'custom-sup-products',
-        title: 'Productos SUP personalizados',
-        body: 'Personaliza tablas, gráficos, especificaciones y accesorios — de tu idea a un producto fabricable.',
-        points: ['Personalización de tablas', 'Gráficos y branding', 'Apoyo en especificaciones'],
+        slug: 'sup-brands',
+        title: 'Marcas de SUP',
+        body: 'Desarrolla tablas de pádel personalizadas que coincidan con el posicionamiento de tu marca, tu mercado objetivo y tu estrategia de producto.',
+        points: ['Diseños personalizados', 'Gráficos de marca', 'Desarrollo de producto', 'Marca privada'],
         cta: 'Explorar SUP personalizado',
         href: '/product-development',
       },
       {
-        slug: 'private-label-sup',
-        title: 'SUP de marca privada',
-        body: 'Desarrolla productos SUP bajo tu propia identidad de marca, producidos y entregados por nuestra fábrica.',
-        points: ['Tablas con marca', 'Embalaje del producto', 'Suministro por volumen'],
+        slug: 'outdoor-companies',
+        title: 'Empresas outdoor y de deportes acuáticos',
+        body: 'Amplía tu cartera de productos con SUP personalizados diseñados para tu mercado.',
+        points: ['Personalización de producto', 'Varios modelos', 'Producción OEM'],
+        cta: 'Ver SUP personalizado',
+        href: '/solutions/custom-sup',
+      },
+      {
+        slug: 'distributors-retailers',
+        title: 'Distribuidores y minoristas',
+        body: 'Crea colecciones de tablas de pádel diferenciadas en lugar de competir con los mismos productos estándar.',
+        points: ['Marca privada', 'Embalaje personalizado', 'Productos listos para retail'],
         cta: 'Saber más',
         href: '/solutions/private-label-sup',
       },
       {
-        slug: 'resort-club-solutions',
-        title: 'Soluciones para resorts y clubes',
-        body: 'Crea equipamiento SUP con marca para huéspedes, equipos y actividades — con producción adaptada a flotas.',
-        points: ['Flotas con marca para huéspedes', 'Equipamiento de equipo', 'Precios por flota'],
+        slug: 'resorts-clubs',
+        title: 'Resorts, clubes y organizaciones',
+        body: 'Desarrolla productos y equipamiento SUP adaptados a tu entorno operativo y a tus usuarios.',
+        points: ['Especificaciones personalizadas', 'Marca', 'Producción por volumen'],
         cta: 'Ver soluciones',
         href: '/solutions/resort-sup',
-      },
-      {
-        slug: 'organization-projects',
-        title: 'Proyectos de organizaciones',
-        body: 'Soluciones SUP personalizadas para escuelas, programas y eventos — con apoyo de suministro por volumen.',
-        points: ['Programas escolares', 'Equipamiento para eventos', 'Pedidos por volumen'],
-        cta: 'Comenta tus requisitos',
-        href: '/contact',
       },
     ],
   },
@@ -1840,6 +1840,26 @@ export const faq: Localized<FaqContent> = {
         q: 'Can you match a board I already sell?',
         a: 'Yes. Send a physical sample or full specification and our engineering team will return a manufacturability report with materials, layup, tolerances and cost drivers.',
       },
+      {
+        q: 'Can you manufacture SUP boards with our logo?',
+        a: 'Yes. Custom branding — logos, colors, graphics and surface artwork — is incorporated into the product design and production according to the agreed specifications. You own all brand and artwork files.',
+      },
+      {
+        q: 'Can you develop a completely new SUP product?',
+        a: 'Yes. Custom product development starts from your concept, sketches, specifications or market requirements. We work through specification review, structural engineering, prototype sampling and approval before mass production.',
+      },
+      {
+        q: 'What materials do you use for inflatable SUP boards?',
+        a: `Inflatable SUPs are built with drop-stitch construction and a choice of PVC layers and densities to match weight, stiffness and price targets, with REACH/RoHS-compliant materials and quality certification (ISO 9001, CE, BSCI).`,
+      },
+      {
+        q: 'Do you work with new or startup SUP brands?',
+        a: `Yes. OEM/ODM projects are developed according to your product requirements, target market and volume — trial runs start at 5–10 pcs, standard OEM production at ${FACTS.moq.standardRun} per design.`,
+      },
+      {
+        q: 'What information should I provide for an OEM SUP inquiry?',
+        a: 'The most useful information: product type, target market, board size or specifications, desired construction, branding requirements, estimated quantity, packaging requirements and target delivery schedule. Our team returns an engineering assessment and quotation within one business day.',
+      },
     ],
   },
   es: {
@@ -1887,6 +1907,26 @@ export const faq: Localized<FaqContent> = {
         q: '¿Podéis replicar una tabla que ya vendo?',
         a: 'Sí. Envíanos una muestra física o una especificación completa y nuestro equipo de ingeniería te devolverá un informe de fabricabilidad con materiales, capas de construcción, tolerancias y factores de coste.',
       },
+      {
+        q: '¿Podéis fabricar tablas SUP con nuestro logotipo?',
+        a: 'Sí. La personalización de marca — logotipos, colores, gráficos y arte de superficie — se incorpora al diseño y a la producción según las especificaciones acordadas. Todos los archivos de marca y arte son de tu propiedad.',
+      },
+      {
+        q: '¿Podéis desarrollar un producto SUP completamente nuevo?',
+        a: 'Sí. El desarrollo de productos personalizados parte de tu concepto, bocetos, especificaciones o requisitos de mercado. Trabajamos en revisión de especificaciones, ingeniería estructural, muestras de prototipo y aprobación antes de la producción en masa.',
+      },
+      {
+        q: '¿Qué materiales usáis para las tablas SUP hinchables?',
+        a: 'Los SUP hinchables se fabrican con construcción drop-stitch y una selección de capas y densidades de PVC para ajustar peso, rigidez y precio, con materiales conformes a REACH/RoHS y certificación de calidad (ISO 9001, CE, BSCI).',
+      },
+      {
+        q: '¿Trabajáis con marcas de SUP nuevas o emergentes?',
+        a: `Sí. Los proyectos OEM/ODM se desarrollan según tus requisitos de producto, mercado objetivo y volumen — las pruebas parten de 5–10 uds. y la producción OEM estándar de ${FACTS.moq.standardRun} por diseño.`,
+      },
+      {
+        q: '¿Qué información debo dar en una consulta OEM de SUP?',
+        a: 'La información más útil: tipo de producto, mercado objetivo, tamaño o especificaciones de la tabla, construcción deseada, requisitos de marca, cantidad estimada, requisitos de embalaje y fecha de entrega prevista. Nuestro equipo responde con una evaluación de ingeniería y un presupuesto en un día laborable.',
+      },
     ],
   },
 }
@@ -1902,16 +1942,95 @@ export interface CtaContent {
 
 export const cta: Localized<CtaContent> = {
   en: {
-    title: 'Send Us Your Specification',
-    body: 'Drawings, a reference board, or just a target spec and volume — we will come back with an engineering assessment and a quotation.',
-    button: 'Request Quotation',
+    title: 'Have a SUP Product Idea?',
+    body: "Whether you already have a complete product specification or are still developing your concept, our team can help you evaluate the next step. Tell us what you want to build — we'll review your requirements and discuss the most practical path from concept to production.",
+    button: 'Start Your SUP Project',
     note: 'Reply within 1 business day · NDA on request before file exchange · info@supsfactory.com · +86-13305324192',
   },
   es: {
-    title: 'Envíanos tu especificación',
-    body: 'Planos, una tabla de referencia o simplemente una especificación objetivo y un volumen — volveremos con una evaluación de ingeniería y un presupuesto.',
-    button: 'Solicitar presupuesto',
+    title: '¿Tienes una idea de producto SUP?',
+    body: 'Ya sea que tengas una especificación de producto completa o estés todavía desarrollando tu concepto, nuestro equipo puede ayudarte a evaluar el siguiente paso. Cuéntanos qué quieres construir — revisaremos tus requisitos y plantearemos la vía más práctica del concepto a la producción.',
+    button: 'Inicia tu proyecto de SUP',
     note: 'Respuesta en 1 día laborable · NDA disponible antes del intercambio de archivos · info@supsfactory.com · +86-13305324192',
+  },
+}
+
+/* ─────────────────────────── home: value proposition (More Than a SUP Factory) ─────────────────────────── */
+
+export interface ValuePropCard {
+  title: string
+  body: string
+}
+
+export interface ValuePropContent {
+  kicker: string
+  title: string
+  sub: string
+  cards: ValuePropCard[]
+}
+
+export const valueProp: Localized<ValuePropContent> = {
+  en: {
+    kicker: 'Our Role',
+    title: 'More Than a SUP Factory',
+    sub: 'Many manufacturers can produce a standard paddle board. Our role is different. SUPS Factory is a custom SUP product development and manufacturing partner, helping businesses move from an initial idea to a production-ready product.',
+    cards: [
+      {
+        title: 'Product Development',
+        body: 'Turn your concept, sketches, specifications or market requirements into a manufacturable SUP product.',
+      },
+      {
+        title: 'Custom Manufacturing',
+        body: 'Customize product construction, dimensions, graphics, colors, accessories and packaging according to your requirements.',
+      },
+      {
+        title: 'Prototype Development',
+        body: 'Evaluate the product before committing to mass production through sample development and testing.',
+      },
+      {
+        title: 'Production Support',
+        body: 'Once the design is approved, we manage the transition from prototype to repeatable mass production.',
+      },
+      {
+        title: 'Quality Control',
+        body: 'Quality checks throughout production help ensure that finished products meet the agreed specifications.',
+      },
+      {
+        title: 'Global Supply',
+        body: 'Support for packaging, documentation and international shipment helps simplify the sourcing process.',
+      },
+    ],
+  },
+  es: {
+    kicker: 'Nuestro papel',
+    title: 'Más que una fábrica de SUP',
+    sub: 'Muchos fabricantes pueden producir una tabla de pádel estándar. Nuestro papel es distinto. SUPS Factory es un socio de desarrollo de productos y fabricación de SUP personalizados que ayuda a las empresas a pasar de la idea inicial a un producto listo para producir.',
+    cards: [
+      {
+        title: 'Desarrollo de producto',
+        body: 'Convierte tu concepto, bocetos, especificaciones o requisitos de mercado en un producto SUP fabricable.',
+      },
+      {
+        title: 'Fabricación personalizada',
+        body: 'Personaliza construcción, dimensiones, gráficos, colores, accesorios y embalaje según tus requisitos.',
+      },
+      {
+        title: 'Desarrollo de prototipos',
+        body: 'Evalúa el producto antes de comprometerte con la producción en masa mediante muestras y pruebas.',
+      },
+      {
+        title: 'Soporte de producción',
+        body: 'Una vez aprobado el diseño, gestionamos la transición del prototipo a la producción en serie repetible.',
+      },
+      {
+        title: 'Control de calidad',
+        body: 'Los controles de calidad a lo largo de la producción aseguran que el producto final cumpla las especificaciones acordadas.',
+      },
+      {
+        title: 'Suministro global',
+        body: 'Apoyo con embalaje, documentación y envío internacional para simplificar el proceso de abastecimiento.',
+      },
+    ],
   },
 }
 
