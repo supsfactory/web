@@ -30,6 +30,7 @@ export async function sendInquiryNotification(apiKey: string | null, from: strin
   const text = [
     `New inquiry from ${i.name}`,
     `Company: ${i.company || '—'}`,
+    `Website: ${i.website || '—'}`,
     `Country: ${i.country || '—'}`,
     `Email: ${i.email}`,
     `WhatsApp: ${i.whatsapp || '—'}`,
@@ -49,6 +50,7 @@ export async function sendInquiryNotification(apiKey: string | null, from: strin
     `<h2 style="color:#0b2540">New project inquiry — ${e(i.name)}</h2>`,
     '<table style="border-collapse:collapse;width:100%;font-size:14px">',
     row('Company', e(i.company)),
+    row('Website', e(i.website)),
     row('Country', e(i.country)),
     row('Email', `<a href="mailto:${e(i.email)}">${e(i.email)}</a>`),
     row('WhatsApp', e(i.whatsapp)),

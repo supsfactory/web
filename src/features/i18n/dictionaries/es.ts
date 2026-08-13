@@ -316,7 +316,8 @@ export const es = {
     },
   },
   inquiry: {
-    name: 'Nombre completo', company: 'Empresa / marca', country: 'País',
+    name: 'Nombre completo', company: 'Empresa / marca', website: 'Sitio web de la empresa (opcional)',
+    websitePlaceholder: 'p. ej. tubmarca.com',
     email: 'Correo profesional', whatsapp: 'WhatsApp (opcional)',
     businessType: 'Tipo de negocio', businessTypePlaceholder: 'Selecciona tu tipo de negocio',
     quantity: 'Cantidad estimada', quantityPlaceholder: 'Selecciona la cantidad estimada',

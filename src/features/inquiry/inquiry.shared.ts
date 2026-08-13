@@ -17,6 +17,7 @@ export const STATUSES: InquiryStatus[] = ['new', 'contacted', 'quoted', 'closed'
 export const INQUIRY_LIMITS = {
   nameMax: 120,
   companyMax: 120,
+  websiteMax: 200,
   countryMax: 80,
   emailMax: 200,
   whatsappMax: 60,
@@ -30,6 +31,7 @@ export const LOGO_CONTENT_TYPES = ['image/png', 'image/jpeg', 'image/svg+xml', '
 export type InquiryInput = {
   name: string
   company: string
+  website: string
   country: string
   email: string
   whatsapp: string
@@ -49,6 +51,7 @@ export function clampInquiryInput(d: unknown): InquiryInput {
   return {
     name: s(o.name, INQUIRY_LIMITS.nameMax).trim(),
     company: s(o.company, INQUIRY_LIMITS.companyMax).trim(),
+    website: s(o.website, INQUIRY_LIMITS.websiteMax).trim().replace(/^https?:\/\//, ''),
     country: s(o.country, INQUIRY_LIMITS.countryMax).trim(),
     email: s(o.email, INQUIRY_LIMITS.emailMax).trim().toLowerCase(),
     whatsapp: s(o.whatsapp, INQUIRY_LIMITS.whatsappMax).trim(),

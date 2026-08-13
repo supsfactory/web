@@ -103,6 +103,10 @@ export function InquiryForm({
           <Input id="inq-company" name="company" maxLength={120} autoComplete="organization" />
         </div>
         <div className="field">
+          <Label htmlFor="inq-website">{t('inquiry.website')}</Label>
+          <Input id="inq-website" name="website" maxLength={200} placeholder={t('inquiry.websitePlaceholder')} inputMode="url" autoComplete="url" />
+        </div>
+        <div className="field">
           <Label htmlFor="inq-country">{t('inquiry.country')}</Label>
           <Input id="inq-country" name="country" maxLength={80} autoComplete="country-name" />
         </div>

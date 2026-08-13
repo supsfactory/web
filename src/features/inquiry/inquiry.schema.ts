@@ -5,6 +5,7 @@ export const inquiry = sqliteTable('inquiry', {
   id: text('id').primaryKey(),
   name: text('name').notNull(),
   company: text('company').notNull().default(''),
+  website: text('website').notNull().default(''),
   country: text('country').notNull().default(''),
   email: text('email').notNull(),
   whatsapp: text('whatsapp').notNull().default(''),

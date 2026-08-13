@@ -325,7 +325,8 @@ export const en = {
     },
   },
   inquiry: {
-    name: 'Full name', company: 'Company / brand', country: 'Country',
+    name: 'Full name', company: 'Company / brand', website: 'Company website (optional)',
+    websitePlaceholder: 'e.g. yourbrand.com',
     email: 'Business email', whatsapp: 'WhatsApp (optional)',
     businessType: 'Business type', businessTypePlaceholder: 'Select your business type',
     quantity: 'Estimated quantity', quantityPlaceholder: 'Select estimated quantity',

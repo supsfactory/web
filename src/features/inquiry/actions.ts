@@ -36,6 +36,7 @@ export const submitInquiry = createServerFn({ method: 'POST' })
     const input = clampInquiryInput({
       name: data.get('name'),
       company: data.get('company'),
+      website: data.get('website'),
       country: data.get('country'),
       email: data.get('email'),
       whatsapp: data.get('whatsapp'),

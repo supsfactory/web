@@ -26,6 +26,7 @@ function inquiry(overrides: Partial<Inquiry> = {}): Inquiry {
     id: 'inq-test',
     name: 'Test',
     company: '',
+    website: '',
     country: '',
     email: 'a@b.com',
     whatsapp: '',
