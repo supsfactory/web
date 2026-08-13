@@ -60,11 +60,38 @@ const handler = {
   },
 
   // Cron Triggers entry (schedule in wrangler.jsonc → triggers.crons). Runs the
-  // maintenance cleanup; extend with your own periodic tasks (digests, etc.).
+  // maintenance cleanup (03:00 UTC) and warms the edge cache for the hottest
+  // marketing URLs, so real users hit the edge instead of a cold worker.
   async scheduled(_controller: ScheduledController, env: Cloudflare.Env, _ctx: ExecutionContext): Promise<void> {
-    const result = await runCleanup(createDb(env.DB), Date.now())
-    console.log('[cron] cleanup', result)
+    const now = Date.now()
+    // Daily maintenance cleanup — the "0 3 * * *" cron fires at exactly 03:00
+    // UTC; the hourly window keeps it idempotent across the two crons.
+    if (new Date(now).getUTCHours() === 3) {
+      const result = await runCleanup(createDb(env.DB), now)
+      console.log('[cron] cleanup', result)
+    }
+    await warmEdgeCache(env, _ctx)
   },
+}
+
+/**
+ * Prime the Cloudflare edge cache (Cache API) for the hottest public URLs by
+ * replaying a normal GET through this same handler. After the first warm run
+ * every visitor gets an edge hit (~tens of ms) instead of a cold worker
+ * render. Non-production domains (staging/local) fail DNS and are skipped.
+ */
+async function warmEdgeCache(env: Cloudflare.Env, ctx: ExecutionContext): Promise<void> {
+  const paths = ['/', '/products/sup-leviathan-wake', '/products/sup-medusa-glow']
+  for (const path of paths) {
+    const request = new Request(`https://supsfactory.com${path}`, { headers: { 'accept': 'text/html' } })
+    try {
+      const res = await handler.fetch(request, env, ctx)
+      res.body?.cancel()
+      if (res.status !== 200) console.log('[cron] warm', path, res.status)
+    } catch (err) {
+      console.log('[cron] warm skipped', path, err instanceof Error ? err.message : String(err))
+    }
+  }
 }
 
 // withSentry catches unhandled exceptions / promise rejections in the worker.
