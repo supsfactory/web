@@ -14,6 +14,9 @@
 
 const HASHED_ASSET = /^\/assets\/[^/]+-[0-9A-Za-z_-]{8}\.(?:js|mjs|css)$/
 const FONT = /^\/fonts\/[^/]+\.woff2$/
+// Un-hashed public images (e.g. /assets/products/2026/...). No fingerprint in
+// the URL, so keep it short: cache 7 days, refresh sooner on release.
+const STATIC_PUBLIC = /^\/assets\//
 
 export function withMarketingCache(request: Request, response: Response): Response {
   const isUpgrade = response.status === 101 || (response as { webSocket?: unknown }).webSocket != null
@@ -35,6 +38,8 @@ export function withStaticCache(request: Request, response: Response): Response 
   if (HASHED_ASSET.test(path)) {
     headers.set('Cache-Control', 'public, max-age=31536000, immutable')
   } else if (FONT.test(path)) {
+    headers.set('Cache-Control', 'public, max-age=604800')
+  } else if (STATIC_PUBLIC.test(path)) {
     headers.set('Cache-Control', 'public, max-age=604800')
   } else {
     return response

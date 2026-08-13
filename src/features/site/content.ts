@@ -1,4 +1,4 @@
-﻿import type { Locale } from '@/features/i18n/locale'
+import type { Locale } from '@/features/i18n/locale'
 import { FACTS } from './facts'
 
 /**
@@ -842,7 +842,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
         artwork: 'Military-grade drop-stitch core · reinforced rails · 2+1 fins · complete package',
         price: '$399',
-        image: '/assets/products/2026/all-around/all-around-03.jpg',
+        image: '/assets/products/2026/all-around/all-around-03.avif',
         hue: 195,
       },
       {
@@ -857,7 +857,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'UV digital printing + mechanical heat-embossing · coordinated accessories',
         price: '$449',
-        image: '/assets/products/2026/whitewater/whitewater-01.jpg',
+        image: '/assets/products/2026/whitewater/whitewater-01.avif',
         hue: 210,
       },
       {
@@ -872,7 +872,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Multi-color EVA block piecing + UV printing · anti-delamination build',
         price: '$449',
-        image: '/assets/products/2026/surf/surf-01.jpg',
+        image: '/assets/products/2026/surf/surf-01.avif',
         hue: 28,
       },
       {
@@ -887,7 +887,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Multi-color EVA block piecing + UV printing · handle anchored to PVC hull',
         price: '$449',
-        image: '/assets/products/2026/kids-teens/kids-teens-05.jpg',
+        image: '/assets/products/2026/kids-teens/kids-teens-05.avif',
         hue: 260,
       },
       {
@@ -902,7 +902,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'CNC-cut EVA color-block splicing + screen-printed rails · PANTONE TPG color matching',
         price: '$449',
-        image: '/assets/products/2026/touring/touring-02.jpg',
+        image: '/assets/products/2026/touring/touring-02.avif',
         hue: 210,
       },
       {
@@ -917,7 +917,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Dual-layer laser-engraved EVA + gradient UV printing · dynamic color-blocked fins',
         price: '$449',
-        image: '/assets/products/2026/yoga/yoga-01.jpg',
+        image: '/assets/products/2026/yoga/yoga-01.avif',
         hue: 150,
       },
       {
@@ -932,7 +932,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Dual-layer laser-engraved EVA + UV printing + screen-printed rails · anti-distortion geometry',
         price: '$449',
-        image: '/assets/products/2026/all-around/all-around-10.jpg',
+        image: '/assets/products/2026/all-around/all-around-10.avif',
         hue: 28,
       },
       {
@@ -947,7 +947,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'UV digital printing + mechanical embossing · stretchable PVC inks on bottom logo',
         price: '$449',
-        image: '/assets/products/2026/race/race-01.jpg',
+        image: '/assets/products/2026/race/race-01.avif',
         hue: 195,
       },
       {
@@ -962,7 +962,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Multi-color EVA block piecing + UV printing · color-matched backpack, pump & leash',
         price: '$449',
-        image: '/assets/products/2026/all-around/all-around-12.jpg',
+        image: '/assets/products/2026/all-around/all-around-12.avif',
         hue: 170,
       },
       {
@@ -977,7 +977,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'UV digital printing + die-cut EVA patchwork · illustrated nose landscape',
         price: '$449',
-        image: '/assets/products/2026/all-around/all-around-17.jpg',
+        image: '/assets/products/2026/all-around/all-around-17.avif',
         hue: 330,
       },
       {
@@ -992,7 +992,7 @@ export const products: Localized<ProductsContent> = {
         specs: 'Carbon hybrid matrix · glide rocker · streamlined high-speed profile',
         artwork: 'Carbon hybrid inflatable construction · performance glide rocker',
         price: '',
-        image: '/assets/products/2026/race/race-11.jpg',
+        image: '/assets/products/2026/race/race-11.avif',
         hue: 195,
       },
       {
@@ -1007,7 +1007,7 @@ export const products: Localized<ProductsContent> = {
         specs: 'Double-sided air chamber · 10–80 cm fish ruler · rod holder mounts',
         artwork: 'Reinforced utility hull · multi-point metal D-rings',
         price: '',
-        image: '/assets/products/2026/fishing/fishing-01.jpg',
+        image: '/assets/products/2026/fishing/fishing-01.avif',
         hue: 210,
       },
       {
@@ -1022,7 +1022,7 @@ export const products: Localized<ProductsContent> = {
         specs: 'Hybrid SUP / surf / bodyboard geometry · short wide hull · puncture-resistant deck',
         artwork: 'Multi-purpose hybrid geometry · heavy-duty deck material',
         price: '',
-        image: '/assets/products/2026/mini/mini-01.jpg',
+        image: '/assets/products/2026/mini/mini-01.avif',
         hue: 28,
       },
       {
@@ -1037,7 +1037,7 @@ export const products: Localized<ProductsContent> = {
         specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · 4+1 fins",
         artwork: 'Dual-valve inflation · 8–12 neoprene grab handles · 4+1 fin system',
         price: '',
-        image: '/assets/products/2026/giant/giant-03.jpg',
+        image: '/assets/products/2026/giant/giant-03.avif',
         hue: 195,
       },
       {
@@ -1052,7 +1052,7 @@ export const products: Localized<ProductsContent> = {
         specs: '350 × 120 × 15 cm · 400 kg load · tri-fin · viewing window',
         artwork: 'Central cutout compartment · transparent underwater viewing window · pontoon hull',
         price: '',
-        image: '/assets/products/2026/utility-lure/utility-lure-01.jpg',
+        image: '/assets/products/2026/utility-lure/utility-lure-01.avif',
         hue: 170,
       },
     ],
@@ -1074,7 +1074,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 19 lb (8.6 kg)",
         artwork: 'Núcleo drop-stitch de grado militar · rails reforzados · quillas 2+1 · paquete completo',
         price: '$399',
-        image: '/assets/products/2026/all-around/all-around-03.jpg',
+        image: '/assets/products/2026/all-around/all-around-03.avif',
         hue: 195,
       },
       {
@@ -1089,7 +1089,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Impresión UV digital + gofrado térmico mecánico · accesorios coordinados',
         price: '$449',
-        image: '/assets/products/2026/whitewater/whitewater-01.jpg',
+        image: '/assets/products/2026/whitewater/whitewater-01.avif',
         hue: 210,
       },
       {
@@ -1104,7 +1104,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Mosaicos EVA multicolor + impresión UV · construcción antidelaminación',
         price: '$449',
-        image: '/assets/products/2026/surf/surf-01.jpg',
+        image: '/assets/products/2026/surf/surf-01.avif',
         hue: 28,
       },
       {
@@ -1119,7 +1119,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Mosaicos EVA multicolor + impresión UV · asa anclada al casco de PVC',
         price: '$449',
-        image: '/assets/products/2026/kids-teens/kids-teens-05.jpg',
+        image: '/assets/products/2026/kids-teens/kids-teens-05.avif',
         hue: 260,
       },
       {
@@ -1134,7 +1134,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Splicado de bloques de color EVA por CNC + rails serigrafiados · ajuste de color PANTONE TPG',
         price: '$449',
-        image: '/assets/products/2026/touring/touring-02.jpg',
+        image: '/assets/products/2026/touring/touring-02.avif',
         hue: 210,
       },
       {
@@ -1149,7 +1149,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'EVA grabada con láser de doble capa + impresión UV degradada · quillas dinámicas en bloques de color',
         price: '$449',
-        image: '/assets/products/2026/yoga/yoga-01.jpg',
+        image: '/assets/products/2026/yoga/yoga-01.avif',
         hue: 150,
       },
       {
@@ -1164,7 +1164,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'EVA grabada con láser de doble capa + impresión UV + rails serigrafiados · geometría antideformación',
         price: '$449',
-        image: '/assets/products/2026/all-around/all-around-10.jpg',
+        image: '/assets/products/2026/all-around/all-around-10.avif',
         hue: 28,
       },
       {
@@ -1179,7 +1179,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Impresión UV digital + gofrado mecánico · tintas PVC estirables en el logo inferior',
         price: '$449',
-        image: '/assets/products/2026/race/race-01.jpg',
+        image: '/assets/products/2026/race/race-01.avif',
         hue: 195,
       },
       {
@@ -1194,7 +1194,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Mosaicos EVA multicolor + impresión UV · mochila, bomba y leash a juego',
         price: '$449',
-        image: '/assets/products/2026/all-around/all-around-12.jpg',
+        image: '/assets/products/2026/all-around/all-around-12.avif',
         hue: 170,
       },
       {
@@ -1209,7 +1209,7 @@ export const products: Localized<ProductsContent> = {
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Impresión UV digital + patchwork EVA troquelado · paisaje ilustrado en la proa',
         price: '$449',
-        image: '/assets/products/2026/all-around/all-around-17.jpg',
+        image: '/assets/products/2026/all-around/all-around-17.avif',
         hue: 330,
       },
       {
@@ -1224,7 +1224,7 @@ export const products: Localized<ProductsContent> = {
         specs: 'Matriz híbrida de carbono · rocker de deslizamiento · perfil aerodinámico de alta velocidad',
         artwork: 'Construcción hinchable híbrida de carbono · rocker de deslizamiento de alto rendimiento',
         price: '',
-        image: '/assets/products/2026/race/race-11.jpg',
+        image: '/assets/products/2026/race/race-11.avif',
         hue: 195,
       },
       {
@@ -1239,7 +1239,7 @@ export const products: Localized<ProductsContent> = {
         specs: 'Cámara de aire doble · regla de peces de 10–80 cm · soportes para cañeros',
         artwork: 'Casco utilitario reforzado · anillos en D metálicos multipunto',
         price: '',
-        image: '/assets/products/2026/fishing/fishing-01.jpg',
+        image: '/assets/products/2026/fishing/fishing-01.avif',
         hue: 210,
       },
       {
@@ -1254,7 +1254,7 @@ export const products: Localized<ProductsContent> = {
         specs: 'Geometría híbrida SUP / surf / bodyboard · casco corto y ancho · cubierta resistente a la perforación',
         artwork: 'Geometría híbrida multipropósito · material de cubierta de alta resistencia',
         price: '',
-        image: '/assets/products/2026/mini/mini-01.jpg',
+        image: '/assets/products/2026/mini/mini-01.avif',
         hue: 28,
       },
       {
@@ -1269,7 +1269,7 @@ export const products: Localized<ProductsContent> = {
         specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · quillas 4+1",
         artwork: 'Inflado de doble válvula · 8–12 asas de neopreno · sistema de quillas 4+1',
         price: '',
-        image: '/assets/products/2026/giant/giant-03.jpg',
+        image: '/assets/products/2026/giant/giant-03.avif',
         hue: 195,
       },
       {
@@ -1284,7 +1284,7 @@ export const products: Localized<ProductsContent> = {
         specs: '350 × 120 × 15 cm · carga de 400 kg · tri-quilla · ventana de observación',
         artwork: 'Compartimento central recortado · ventana transparente de observación subacuática · casco tipo pontón',
         price: '',
-        image: '/assets/products/2026/utility-lure/utility-lure-01.jpg',
+        image: '/assets/products/2026/utility-lure/utility-lure-01.avif',
         hue: 170,
       },
     ],
@@ -1570,14 +1570,14 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Resort Fleet — Hotel Group Boards',
         body: '[待确认: 数量] branded boards for a hotel group, custom deck graphics matched to property colors, accessories bundled, delivered in [待确认: 周期].',
         hue: 195,
-        image: '/assets/products/2026/all-around/all-around-17.jpg',
+        image: '/assets/products/2026/all-around/all-around-17.avif',
       },
       {
         tag: 'Club Team',
         title: 'Club Team Boards — Race Platform',
         body: 'Race platform with specification adjustments and team graphics, tooling reused across two seasons for reorder consistency.',
         hue: 28,
-        image: '/assets/products/2026/surf/surf-01.jpg',
+        image: '/assets/products/2026/surf/surf-01.avif',
       },
       {
         // TODO(待确认) 补首批数量
@@ -1585,7 +1585,7 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Brand Line Extension — Inflatable SUP',
         body: 'An established watersports brand added an inflatable SUP line: engineering review, custom mold, three sizes, [待确认: 数量] first production run.',
         hue: 210,
-        image: '/assets/products/2026/all-around/all-around-03.jpg',
+        image: '/assets/products/2026/all-around/all-around-03.avif',
       },
     ],
   },
@@ -1599,21 +1599,21 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Flota de resort — tablas para grupo hotelero',
         body: '[待确认: cantidad] tablas con marca para un grupo hotelero, gráficos personalizados según los colores del hotel, accesorios incluidos, entregadas en [待确认: plazo].',
         hue: 195,
-        image: '/assets/products/2026/all-around/all-around-17.jpg',
+        image: '/assets/products/2026/all-around/all-around-17.avif',
       },
       {
         tag: 'Equipo de club',
         title: 'Tablas de equipo — plataforma de competición',
         body: 'Plataforma de competición con ajustes de especificación y gráficos del equipo; el utillaje se reutilizó dos temporadas para la consistencia de los repedidos.',
         hue: 28,
-        image: '/assets/products/2026/surf/surf-01.jpg',
+        image: '/assets/products/2026/surf/surf-01.avif',
       },
       {
         tag: 'Extensión de marca',
         title: 'Extensión de línea — SUP hinchable',
         body: 'Una marca de deportes acuáticos consolidada añadió una línea de SUP hinchable: revisión de ingeniería, molde a medida, tres tallas y [待确认: cantidad] unidades en la primera tirada.',
         hue: 210,
-        image: '/assets/products/2026/all-around/all-around-03.jpg',
+        image: '/assets/products/2026/all-around/all-around-03.avif',
       },
     ],
   },

@@ -48,9 +48,14 @@ describe('withStaticCache', () => {
     expect(r.headers.get('cache-control')).toBe('public, max-age=604800')
   })
 
-  it('leaves non-hashed assets, HTML and non-GET untouched', () => {
-    const plain = withStaticCache(new Request('https://x.test/assets/wechat-qr.png'), GET('/assets/wechat-qr.png', 'image/png'))
-    expect(plain.headers.has('cache-control')).toBe(false)
+  it('caches non-hashed public images for 7 days', () => {
+    const r = withStaticCache(new Request('https://x.test/assets/products/2026/mini/mini-01.avif'), GET('/assets/products/2026/mini/mini-01.avif', 'image/avif'))
+    expect(r.headers.get('cache-control')).toBe('public, max-age=604800')
+    const qr = withStaticCache(new Request('https://x.test/assets/wechat-qr.png'), GET('/assets/wechat-qr.png', 'image/png'))
+    expect(qr.headers.get('cache-control')).toBe('public, max-age=604800')
+  })
+
+  it('leaves HTML and non-GET untouched', () => {
     const html = withStaticCache(new Request('https://x.test/'), GET('/'))
     expect(html.headers.has('cache-control')).toBe(false)
     const post = withStaticCache(new Request('https://x.test/assets/x-yyyyyyyy.js', { method: 'POST' }), GET('/x'))
