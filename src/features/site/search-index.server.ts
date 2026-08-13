@@ -11,6 +11,7 @@ import { pick } from './content'
 import { solutionPages, solutionPath } from './solution-pages'
 import { knowledge } from './knowledge'
 import { projects } from './projects'
+import { seriesPages } from './series-pages'
 import {
   getAfarerPage,
   getAfarerPages,
@@ -57,6 +58,15 @@ export function buildContentIndex(locale: Locale): SearchEntry[] {
       title: squeeze(pr.navLabel),
       excerpt: squeeze(pr.metaDescription),
       type: 'project',
+      locale,
+    })
+  }
+  for (const s of pick(seriesPages, locale)) {
+    entries.push({
+      url: localizePath(locale, `/products/${s.slug}`),
+      title: squeeze(s.navLabel),
+      excerpt: squeeze(s.metaDescription),
+      type: 'page',
       locale,
     })
   }

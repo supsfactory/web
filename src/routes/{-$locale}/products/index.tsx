@@ -6,6 +6,7 @@ import { getTurnstileSiteKey } from '@/features/auth/middleware'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, products, productsPage } from '@/features/site/content'
+import { seriesPages } from '@/features/site/series-pages'
 import { JsonLd, itemListLd } from '@/features/seo/jsonld'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero } from '@/components/marketing/section-head'
@@ -16,7 +17,7 @@ import { Footer } from '@/components/marketing/footer'
 
 const rootRoute = getRouteApi('__root__')
 
-export const Route = createFileRoute('/{-$locale}/products')({
+export const Route = createFileRoute('/{-$locale}/products/')({
   validateSearch: (s: Record<string, unknown>): { platform?: string } => ({
     platform: typeof s.platform === 'string' ? s.platform : undefined,
   }),
@@ -54,6 +55,24 @@ function ProductsPage() {
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={!!user} />
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
+
+      {/* series hub: one SEO page per platform category */}
+      <nav className="border-b border-border bg-bg-alt/40">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-2 px-5 py-4 md:px-7">
+          <span className="text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
+            {locale === 'es' ? 'Series:' : 'Series:'}
+          </span>
+          {seriesPages[locale].map((s) => (
+            <a
+              key={s.slug}
+              href={locale === 'en' ? `/products/${s.slug}` : `/es/products/${s.slug}`}
+              className="rounded-full border border-border bg-background px-3.5 py-1.5 text-[13px] font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary"
+            >
+              {s.navLabel.replace(locale === 'es' ? 'Plataformas ' : 'Platforms', '').trim()}
+            </a>
+          ))}
+        </div>
+      </nav>
 
       <ProductsSection
         heading={null}

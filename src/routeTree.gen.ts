@@ -50,7 +50,6 @@ import { Route as Char123LocaleChar125SupForResortsRouteImport } from './routes/
 import { Route as Char123LocaleChar125SupForClubsRouteImport } from './routes/{-$locale}/sup-for-clubs'
 import { Route as Char123LocaleChar125SolutionsRouteImport } from './routes/{-$locale}/solutions'
 import { Route as Char123LocaleChar125SearchRouteImport } from './routes/{-$locale}/search'
-import { Route as Char123LocaleChar125ProductsRouteImport } from './routes/{-$locale}/products'
 import { Route as Char123LocaleChar125PrivateLabelSupRouteImport } from './routes/{-$locale}/private-label-sup'
 import { Route as Char123LocaleChar125PrivacyRouteImport } from './routes/{-$locale}/privacy'
 import { Route as Char123LocaleChar125HowItWorksRouteImport } from './routes/{-$locale}/how-it-works'
@@ -68,6 +67,7 @@ import { Route as AdminInquiriesDotcsvRouteImport } from './routes/admin/inquiri
 import { Route as Char123LocaleChar125AdminRouteRouteImport } from './routes/{-$locale}/admin/route'
 import { Route as Char123LocaleChar125SolutionsIndexRouteImport } from './routes/{-$locale}/solutions/index'
 import { Route as Char123LocaleChar125ProjectsIndexRouteImport } from './routes/{-$locale}/projects/index'
+import { Route as Char123LocaleChar125ProductsIndexRouteImport } from './routes/{-$locale}/products/index'
 import { Route as Char123LocaleChar125KnowledgeIndexRouteImport } from './routes/{-$locale}/knowledge/index'
 import { Route as Char123LocaleChar125AppIndexRouteImport } from './routes/{-$locale}/app/index'
 import { Route as Char123LocaleChar125AdminIndexRouteImport } from './routes/{-$locale}/admin/index'
@@ -78,6 +78,7 @@ import { Route as Char123LocaleChar125SolutionsPrivateLabelSupRouteImport } from
 import { Route as Char123LocaleChar125SolutionsCustomSupRouteImport } from './routes/{-$locale}/solutions/custom-sup'
 import { Route as Char123LocaleChar125SolutionsClubSupRouteImport } from './routes/{-$locale}/solutions/club-sup'
 import { Route as Char123LocaleChar125ProjectsSlugRouteImport } from './routes/{-$locale}/projects/$slug'
+import { Route as Char123LocaleChar125ProductsSeriesRouteImport } from './routes/{-$locale}/products/$series'
 import { Route as Char123LocaleChar125KnowledgeSlugRouteImport } from './routes/{-$locale}/knowledge/$slug'
 import { Route as Char123LocaleChar125AppFeedbackRouteImport } from './routes/{-$locale}/app/feedback'
 import { Route as Char123LocaleChar125AppAccountRouteImport } from './routes/{-$locale}/app/account'
@@ -310,12 +311,6 @@ const Char123LocaleChar125SearchRoute =
     path: '/search',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
-const Char123LocaleChar125ProductsRoute =
-  Char123LocaleChar125ProductsRouteImport.update({
-    id: '/products',
-    path: '/products',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
 const Char123LocaleChar125PrivateLabelSupRoute =
   Char123LocaleChar125PrivateLabelSupRouteImport.update({
     id: '/private-label-sup',
@@ -415,6 +410,12 @@ const Char123LocaleChar125ProjectsIndexRoute =
     path: '/projects/',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
+const Char123LocaleChar125ProductsIndexRoute =
+  Char123LocaleChar125ProductsIndexRouteImport.update({
+    id: '/products/',
+    path: '/products/',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
 const Char123LocaleChar125KnowledgeIndexRoute =
   Char123LocaleChar125KnowledgeIndexRouteImport.update({
     id: '/knowledge/',
@@ -473,6 +474,12 @@ const Char123LocaleChar125ProjectsSlugRoute =
   Char123LocaleChar125ProjectsSlugRouteImport.update({
     id: '/projects/$slug',
     path: '/projects/$slug',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any)
+const Char123LocaleChar125ProductsSeriesRoute =
+  Char123LocaleChar125ProductsSeriesRouteImport.update({
+    id: '/products/$series',
+    path: '/products/$series',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
 const Char123LocaleChar125KnowledgeSlugRoute =
@@ -617,7 +624,6 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/how-it-works': typeof Char123LocaleChar125HowItWorksRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
-  '/{-$locale}/products': typeof Char123LocaleChar125ProductsRoute
   '/{-$locale}/search': typeof Char123LocaleChar125SearchRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRouteWithChildren
   '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
@@ -643,6 +649,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
+  '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
   '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
@@ -653,6 +660,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
   '/{-$locale}/knowledge/': typeof Char123LocaleChar125KnowledgeIndexRoute
+  '/{-$locale}/products/': typeof Char123LocaleChar125ProductsIndexRoute
   '/{-$locale}/projects/': typeof Char123LocaleChar125ProjectsIndexRoute
   '/{-$locale}/solutions/': typeof Char123LocaleChar125SolutionsIndexRoute
 }
@@ -702,7 +710,6 @@ export interface FileRoutesByTo {
   '/{-$locale}/how-it-works': typeof Char123LocaleChar125HowItWorksRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
-  '/{-$locale}/products': typeof Char123LocaleChar125ProductsRoute
   '/{-$locale}/search': typeof Char123LocaleChar125SearchRoute
   '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
   '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
@@ -727,6 +734,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
+  '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
   '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
@@ -737,6 +745,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app': typeof Char123LocaleChar125AppIndexRoute
   '/{-$locale}/knowledge': typeof Char123LocaleChar125KnowledgeIndexRoute
+  '/{-$locale}/products': typeof Char123LocaleChar125ProductsIndexRoute
   '/{-$locale}/projects': typeof Char123LocaleChar125ProjectsIndexRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsIndexRoute
 }
@@ -789,7 +798,6 @@ export interface FileRoutesById {
   '/{-$locale}/how-it-works': typeof Char123LocaleChar125HowItWorksRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
-  '/{-$locale}/products': typeof Char123LocaleChar125ProductsRoute
   '/{-$locale}/search': typeof Char123LocaleChar125SearchRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRouteWithChildren
   '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
@@ -815,6 +823,7 @@ export interface FileRoutesById {
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
+  '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
   '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
@@ -825,6 +834,7 @@ export interface FileRoutesById {
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
   '/{-$locale}/knowledge/': typeof Char123LocaleChar125KnowledgeIndexRoute
+  '/{-$locale}/products/': typeof Char123LocaleChar125ProductsIndexRoute
   '/{-$locale}/projects/': typeof Char123LocaleChar125ProjectsIndexRoute
   '/{-$locale}/solutions/': typeof Char123LocaleChar125SolutionsIndexRoute
 }
@@ -878,7 +888,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/how-it-works'
     | '/{-$locale}/privacy'
     | '/{-$locale}/private-label-sup'
-    | '/{-$locale}/products'
     | '/{-$locale}/search'
     | '/{-$locale}/solutions'
     | '/{-$locale}/sup-for-clubs'
@@ -904,6 +913,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
     | '/{-$locale}/knowledge/$slug'
+    | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
     | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-sup'
@@ -914,6 +924,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
     | '/{-$locale}/knowledge/'
+    | '/{-$locale}/products/'
     | '/{-$locale}/projects/'
     | '/{-$locale}/solutions/'
   fileRoutesByTo: FileRoutesByTo
@@ -963,7 +974,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/how-it-works'
     | '/{-$locale}/privacy'
     | '/{-$locale}/private-label-sup'
-    | '/{-$locale}/products'
     | '/{-$locale}/search'
     | '/{-$locale}/sup-for-clubs'
     | '/{-$locale}/sup-for-resorts'
@@ -988,6 +998,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
     | '/{-$locale}/knowledge/$slug'
+    | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
     | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-sup'
@@ -998,6 +1009,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin'
     | '/{-$locale}/app'
     | '/{-$locale}/knowledge'
+    | '/{-$locale}/products'
     | '/{-$locale}/projects'
     | '/{-$locale}/solutions'
   id:
@@ -1049,7 +1061,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/how-it-works'
     | '/{-$locale}/privacy'
     | '/{-$locale}/private-label-sup'
-    | '/{-$locale}/products'
     | '/{-$locale}/search'
     | '/{-$locale}/solutions'
     | '/{-$locale}/sup-for-clubs'
@@ -1075,6 +1086,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
     | '/{-$locale}/knowledge/$slug'
+    | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
     | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-sup'
@@ -1085,6 +1097,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
     | '/{-$locale}/knowledge/'
+    | '/{-$locale}/products/'
     | '/{-$locale}/projects/'
     | '/{-$locale}/solutions/'
   fileRoutesById: FileRoutesById
@@ -1421,13 +1434,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125SearchRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
-    '/{-$locale}/products': {
-      id: '/{-$locale}/products'
-      path: '/products'
-      fullPath: '/{-$locale}/products'
-      preLoaderRoute: typeof Char123LocaleChar125ProductsRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
     '/{-$locale}/private-label-sup': {
       id: '/{-$locale}/private-label-sup'
       path: '/private-label-sup'
@@ -1547,6 +1553,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125ProjectsIndexRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
+    '/{-$locale}/products/': {
+      id: '/{-$locale}/products/'
+      path: '/products'
+      fullPath: '/{-$locale}/products/'
+      preLoaderRoute: typeof Char123LocaleChar125ProductsIndexRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
     '/{-$locale}/knowledge/': {
       id: '/{-$locale}/knowledge/'
       path: '/knowledge'
@@ -1615,6 +1628,13 @@ declare module '@tanstack/react-router' {
       path: '/projects/$slug'
       fullPath: '/{-$locale}/projects/$slug'
       preLoaderRoute: typeof Char123LocaleChar125ProjectsSlugRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/products/$series': {
+      id: '/{-$locale}/products/$series'
+      path: '/products/$series'
+      fullPath: '/{-$locale}/products/$series'
+      preLoaderRoute: typeof Char123LocaleChar125ProductsSeriesRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
     '/{-$locale}/knowledge/$slug': {
@@ -1798,7 +1818,6 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125HowItWorksRoute: typeof Char123LocaleChar125HowItWorksRoute
   Char123LocaleChar125PrivacyRoute: typeof Char123LocaleChar125PrivacyRoute
   Char123LocaleChar125PrivateLabelSupRoute: typeof Char123LocaleChar125PrivateLabelSupRoute
-  Char123LocaleChar125ProductsRoute: typeof Char123LocaleChar125ProductsRoute
   Char123LocaleChar125SearchRoute: typeof Char123LocaleChar125SearchRoute
   Char123LocaleChar125SolutionsRoute: typeof Char123LocaleChar125SolutionsRouteWithChildren
   Char123LocaleChar125SupForClubsRoute: typeof Char123LocaleChar125SupForClubsRoute
@@ -1817,10 +1836,12 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125AppAccountRoute: typeof Char123LocaleChar125AppAccountRoute
   Char123LocaleChar125AppFeedbackRoute: typeof Char123LocaleChar125AppFeedbackRoute
   Char123LocaleChar125KnowledgeSlugRoute: typeof Char123LocaleChar125KnowledgeSlugRoute
+  Char123LocaleChar125ProductsSeriesRoute: typeof Char123LocaleChar125ProductsSeriesRoute
   Char123LocaleChar125ProjectsSlugRoute: typeof Char123LocaleChar125ProjectsSlugRoute
   Char123LocaleChar125AboutIndexRoute: typeof Char123LocaleChar125AboutIndexRoute
   Char123LocaleChar125AppIndexRoute: typeof Char123LocaleChar125AppIndexRoute
   Char123LocaleChar125KnowledgeIndexRoute: typeof Char123LocaleChar125KnowledgeIndexRoute
+  Char123LocaleChar125ProductsIndexRoute: typeof Char123LocaleChar125ProductsIndexRoute
   Char123LocaleChar125ProjectsIndexRoute: typeof Char123LocaleChar125ProjectsIndexRoute
 }
 
@@ -1840,7 +1861,6 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
     Char123LocaleChar125PrivacyRoute: Char123LocaleChar125PrivacyRoute,
     Char123LocaleChar125PrivateLabelSupRoute:
       Char123LocaleChar125PrivateLabelSupRoute,
-    Char123LocaleChar125ProductsRoute: Char123LocaleChar125ProductsRoute,
     Char123LocaleChar125SearchRoute: Char123LocaleChar125SearchRoute,
     Char123LocaleChar125SolutionsRoute:
       Char123LocaleChar125SolutionsRouteWithChildren,
@@ -1868,12 +1888,16 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
     Char123LocaleChar125AppFeedbackRoute: Char123LocaleChar125AppFeedbackRoute,
     Char123LocaleChar125KnowledgeSlugRoute:
       Char123LocaleChar125KnowledgeSlugRoute,
+    Char123LocaleChar125ProductsSeriesRoute:
+      Char123LocaleChar125ProductsSeriesRoute,
     Char123LocaleChar125ProjectsSlugRoute:
       Char123LocaleChar125ProjectsSlugRoute,
     Char123LocaleChar125AboutIndexRoute: Char123LocaleChar125AboutIndexRoute,
     Char123LocaleChar125AppIndexRoute: Char123LocaleChar125AppIndexRoute,
     Char123LocaleChar125KnowledgeIndexRoute:
       Char123LocaleChar125KnowledgeIndexRoute,
+    Char123LocaleChar125ProductsIndexRoute:
+      Char123LocaleChar125ProductsIndexRoute,
     Char123LocaleChar125ProjectsIndexRoute:
       Char123LocaleChar125ProjectsIndexRoute,
   }

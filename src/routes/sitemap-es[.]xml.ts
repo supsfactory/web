@@ -7,6 +7,7 @@ import { getAfarerEsPaths, getEsContentPaths } from '@/features/content/loader'
 import { GUIDES_ES } from '@/features/content/guide-content'
 import { projects } from '@/features/site/projects'
 import { knowledge } from '@/features/site/knowledge'
+import { seriesPages } from '@/features/site/series-pages'
 
 // Spanish marketing pages (hreflang-linked to the English pages file) plus the
 // afarer pages and detail content (news/products/technology/case-use/guides)
@@ -22,6 +23,7 @@ const handler = () => {
     ...GUIDES_ES.map((g) => ({ path: `/guides/${g.slug}` })),
     ...projects.es.map((p) => ({ path: `/projects/${p.slug}` })),
     ...knowledge.es.map((a) => ({ path: `/knowledge/${a.slug}` })),
+    ...seriesPages.es.map((s) => ({ path: `/products/${s.slug}` })),
   ]
   return new Response(buildLocaleSitemap(origin, 'es', [...PUBLIC_PATHS, ...detailEs, ...afarerEs]), {
     headers: { 'content-type': 'application/xml; charset=utf-8' },

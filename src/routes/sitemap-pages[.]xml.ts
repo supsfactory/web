@@ -6,6 +6,7 @@ import { getAfarerPages, getAfarerEsPaths } from '@/features/content/loader'
 import { GUIDES } from '@/features/content/guide-content'
 import { projects } from '@/features/site/projects'
 import { knowledge } from '@/features/site/knowledge'
+import { seriesPages } from '@/features/site/series-pages'
 
 // English marketing pages (hreflang-linked to /es mirrors in sitemap-es) plus
 // afarer/static pages; every entry whose /es twin renders a real translation
@@ -23,6 +24,7 @@ const handler = () => {
     ...GUIDES.map((g) => ({ loc: `/guides/${g.slug}`, lastmod: '2026-06-01', es: true })),
     ...projects.en.map((p) => ({ loc: `/projects/${p.slug}`, lastmod: '2026-08-07' })),
     ...knowledge.en.map((a) => ({ loc: `/knowledge/${a.slug}`, lastmod: '2026-08-07' })),
+    ...seriesPages.en.map((s) => ({ loc: `/products/${s.slug}`, lastmod: '2026-08-13', es: true })),
     { loc: '/evidence/case-studies', lastmod: '2026-06-01', es: true },
     { loc: '/faq', lastmod: '2026-06-01', es: true },
   ]
