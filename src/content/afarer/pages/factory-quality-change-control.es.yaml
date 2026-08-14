@@ -310,6 +310,12 @@ cc_downloads:
       desc: 'Página complementaria del sistema de retrabajo de estanqueidad: clasificación de defectos A–G, tarjetas de método aprobadas MC-RW-01 a MC-RW-06 y el flujo de retrabajo controlado de 7 pasos.'
       link: '/factory/quality-inspection'
       link_label: Ver página
+    - icon: N
+      icon_bg: orange
+      title: Control de productos no conformes (página)
+      desc: 'Control de salidas no conformes según la ISO 9001:2015 Cláusula 8.7: registro NCR, cuarentena, autoridad de disposición por gravedad, retrabajo controlado bajo instrucciones SRI, reinspección independiente y el protocolo de destrucción presenciada.'
+      link: '/factory/non-conforming-control'
+      link_label: Ver página
 
 faqs:
   tagline: FAQ

@@ -310,6 +310,12 @@ cc_downloads:
       desc: 'Companion page for the air-tightness rework system: defect classification A–G, approved method cards MC-RW-01 to MC-RW-06, and the 7-step controlled rework workflow.'
       link: '/factory/quality-inspection'
       link_label: View page
+    - icon: N
+      icon_bg: orange
+      title: Non-Conforming Product Control (Page)
+      desc: 'ISO 9001:2015 Clause 8.7 control of non-conforming outputs: NCR registration, quarantine, severity-based disposition authority, controlled rework under SRI instructions, independent re-inspection and the witnessed destruction protocol.'
+      link: '/factory/non-conforming-control'
+      link_label: View page
 
 faqs:
   tagline: FAQ

@@ -1,6 +1,6 @@
 meta:
-  title: 'Non-Conforming Product Control, Rework & Re-Inspection | OEM Factory | {SITE}'
-  description: 'QINGDAO VATRAD GROUP.,LTD. controls non-conforming inflatable SUP outputs under ISO 9001:2015 Clause 8.7: identify, label and segregate, scope assessment, controlled disposition, rework under SRI instructions, independent re-inspection, authorized release or witnessed scrap — with bilingual SOP, defect disposition matrix and buyer-facing traceability.'
+  title: 'SUP Non-Conforming Product Control, Rework & Re-Inspection | OEM Factory | {SITE}'
+  description: 'Non-conforming product control (ISO 9001:2015 Clause 8.7): NCR quarantine, controlled rework under SRI, independent re-inspection and witnessed destruction.'
   dateModified: '2026-08-14'
   keywords:
     - 'non conforming product control'
@@ -38,7 +38,7 @@ stats:
       label: Re-inspection of every reworked board by independent QA
     - value: '24–48h'
       label: Complete pressure re-test for air-tightness repairs
-    - value: '≥ 5y'
+    - value: '≥ 5 yr'
       label: Witnessed destruction evidence retention (SHA-256 vault)
 
 nc_intro:

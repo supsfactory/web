@@ -1,6 +1,6 @@
 meta:
-  title: 'Control de productos no conformes, retrabajo y reinspección | Fábrica OEM | {SITE}'
-  description: 'QINGDAO VATRAD GROUP.,LTD. controla los productos SUP hinchables no conformes según la ISO 9001:2015 Cláusula 8.7: identificar, etiquetar y segregar, evaluación del alcance, disposición controlada, retrabajo bajo instrucciones SRI, reinspección independiente, liberación autorizada o destrucción presenciada — con SOP bilingüe, matriz de disposición de defectos y trazabilidad orientada al comprador.'
+  title: 'Control de productos no conformes, retrabajo y reinspección SUP | Fábrica OEM | {SITE}'
+  description: 'Control de productos no conformes (ISO 9001 Cláusula 8.7): cuarentena NCR, retrabajo controlado bajo SRI, reinspección independiente, destrucción presenciada.'
   dateModified: '2026-08-14'
   keywords:
     - 'control de productos no conformes'
@@ -38,7 +38,7 @@ stats:
       label: Reinspección de cada tabla retrabajada por QA independiente
     - value: '24–48h'
       label: Re-ensayo completo de presión para reparaciones de estanqueidad
-    - value: '≥ 5a'
+    - value: '≥ 5 años'
       label: Retención de evidencia de destrucción (bóveda SHA-256)
 
 nc_intro:
