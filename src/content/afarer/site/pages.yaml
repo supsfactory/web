@@ -181,6 +181,24 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
+- slug: factory-non-conforming-control
+  label: Non-Conforming Product Control
+  path: /factory/non-conforming-control
+  permalink: /factory/non-conforming-control
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: stats, type: stats, label: 'NCP Stats' }
+    - { key: nc_intro, type: content, label: 'Control of Non-Conforming Outputs' }
+    - { key: nc_flow, type: steps, label: '7-Step Closed-Loop' }
+    - { key: nc_pillars, type: features, label: 'Buyer Trust Pillars' }
+    - { key: nc_severity, type: table, label: 'Severity & Disposition Authority' }
+    - { key: nc_matrix, type: table, label: 'SUP Defect Disposition Matrix' }
+    - { key: nc_scrap, type: content, label: 'Witnessed Destruction Protocol' }
+    - { key: nc_downloads, type: features, label: 'QMS Document Downloads' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
 - slug: fishing
   label: Fishing
   path: /fishing

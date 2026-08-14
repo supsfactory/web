@@ -124,25 +124,29 @@ function researchArticleLd(origin: string, path: string, title: string, descript
   }
 }
 
-/** TechArticle JSON-LD for the factory change-control standard page. */
-function changeControlLd(origin: string, path: string, title: string, description: string, page: AfarerPage, locale: Locale): Record<string, unknown> {
+/** TechArticle JSON-LD for factory standard pages (QMS procedures). */
+function vatradTechArticleLd(
+  origin: string,
+  path: string,
+  title: string,
+  description: string,
+  page: AfarerPage,
+  locale: Locale,
+  about: string[],
+  alternativeHeadline?: string,
+): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
     '@type': 'TechArticle',
     headline: title,
-    alternativeHeadline: 'Stand-Up Paddleboard (SUP) Rework Process Parameter Change Control & Validation Standard',
+    alternativeHeadline,
     description,
     url: `${origin}${path}`,
     author: { '@type': 'Organization', name: 'QINGDAO VATRAD GROUP.,LTD.' },
     publisher: { '@type': 'Organization', name: 'QINGDAO VATRAD GROUP.,LTD.' },
     dateModified: page.meta?.dateModified,
     inLanguage: locale,
-    about: [
-      'SUP Manufacturing',
-      'Quality Management System',
-      'ISO 9001 Change Control',
-      'Airtightness Testing and Validation',
-    ],
+    about,
   }
 }
 
@@ -198,7 +202,24 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
               <JsonLd data={researchArticleLd(data.origin, data.path, data.title, data.description, page)} />
             )}
             {data.path.startsWith('/factory/quality-change-control') && (
-              <JsonLd data={changeControlLd(data.origin, data.path, data.title, data.description, page, data.locale)} />
+              <JsonLd
+                data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, [
+                  'SUP Manufacturing',
+                  'Quality Management System',
+                  'ISO 9001 Change Control',
+                  'Airtightness Testing and Validation',
+                ], 'Stand-Up Paddleboard (SUP) Rework Process Parameter Change Control & Validation Standard')}
+              />
+            )}
+            {data.path.startsWith('/factory/non-conforming-control') && (
+              <JsonLd
+                data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, [
+                  'SUP Manufacturing',
+                  'Quality Management System',
+                  'ISO 9001 Non-Conforming Output Control',
+                  'Rework Re-Inspection and Scrap Disposition',
+                ])}
+              />
             )}
             {page.meta?.dateModified && (
               <JsonLd

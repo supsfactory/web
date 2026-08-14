@@ -90,6 +90,17 @@ intelligence_cards:
         value: 'Change control SOP & execution annex (PDF)'
     link: /factory/quality-change-control
     link_label: 'Change control standard & downloads →'
+  - title: Non-Conforming Product Control
+    icon: N
+    icon_bg: purple
+    desc: 'ISO 9001:2015 Clause 8.7 control of non-conforming outputs: NCR registration, quarantine and hold, disposition by severity (line sign-off / QC Manager + Technical Engineer / MRB), controlled rework under SRI instructions, independent 100% re-inspection and witnessed destruction — scrap video vaulted under SHA-256.'
+    metrics:
+      - label: Standard
+        value: 'ISO 9001:2015 Clause 8.7'
+      - label: Scrap certificate
+        value: 'VAT-QA-SCRAP-CERT-2026'
+    link: /factory/non-conforming-control
+    link_label: 'Non-conforming control & downloads →'
 
 workshops_section:
   tagline: Workshops

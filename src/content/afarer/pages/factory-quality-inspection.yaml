@@ -430,6 +430,12 @@ document_pack:
       desc: 'Formal ISO 9001 change control for rework parameters: ECR, risk classification, cross-department approval matrix, 9-step closed-loop, quantified engineering validation and Poka-Yoke safeguards — with bilingual SOP QMS-SOP-QC-CC-001 Rev 2.0.'
       link: '/factory/quality-change-control'
       link_label: View page
+    - icon: N
+      icon_bg: blue
+      title: Non-Conforming Product Control (Page)
+      desc: 'ISO 9001:2015 Clause 8.7 control of non-conforming outputs: NCR registration, quarantine, severity-based disposition authority, controlled rework under SRI, independent re-inspection and witnessed destruction vaulted under SHA-256 — with bilingual SOP and scrap certificate downloads.'
+      link: '/factory/non-conforming-control'
+      link_label: View page
 
 faqs:
   tagline: FAQ

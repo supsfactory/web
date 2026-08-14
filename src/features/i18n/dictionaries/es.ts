@@ -173,6 +173,7 @@ export const es = {
         quality: 'Calidad y ensayos',
         qualityInspection: 'Estándares de inspección de calidad',
         changeControl: 'Control de cambios y validación de retrabajo',
+        nonConformingControl: 'Control de productos no conformes',
         technology: 'Tecnología',
         warranty: 'Garantía',
       },

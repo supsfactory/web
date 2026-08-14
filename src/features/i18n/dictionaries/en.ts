@@ -183,6 +183,7 @@ export const en = {
         quality: 'Quality & Testing',
         qualityInspection: 'Quality Inspection Standards',
         changeControl: 'Rework Change Control & Validation',
+        nonConformingControl: 'Non-Conforming Product Control',
         technology: 'Technology',
         warranty: 'Warranty',
       },

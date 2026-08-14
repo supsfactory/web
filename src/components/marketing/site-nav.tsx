@@ -60,6 +60,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         { label: t('sup.nav.manufacturingDropdown.quality'), href: '/quality' },
         { label: t('sup.nav.manufacturingDropdown.qualityInspection'), href: '/factory/quality-inspection' },
         { label: t('sup.nav.manufacturingDropdown.changeControl'), href: '/factory/quality-change-control' },
+        { label: t('sup.nav.manufacturingDropdown.nonConformingControl'), href: '/factory/non-conforming-control' },
         { label: t('sup.nav.manufacturingDropdown.technology'), href: '/technology' },
         { label: t('sup.nav.manufacturingDropdown.warranty'), href: '/warranty' },
       ],

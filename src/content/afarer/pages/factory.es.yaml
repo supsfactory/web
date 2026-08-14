@@ -90,6 +90,17 @@ intelligence_cards:
         value: 'SOP de control de cambios y anexo de ejecución (PDF)'
     link: /es/factory/quality-change-control
     link_label: Estándar de control de cambios y descargas →
+  - title: Control de productos no conformes
+    icon: N
+    icon_bg: purple
+    desc: 'Control de salidas no conformes según la ISO 9001:2015 Cláusula 8.7: registro NCR, retención y cuarentena, disposición por gravedad (firma de línea / Gerente de Calidad + Ingeniero Técnico / MRB), retrabajo controlado bajo instrucciones SRI, reinspección independiente al 100% y destrucción presenciada — bóveda de video con hash SHA-256.'
+    metrics:
+      - label: Estándar
+        value: 'ISO 9001:2015 Cláusula 8.7'
+      - label: Certificado de desguace
+        value: 'VAT-QA-SCRAP-CERT-2026'
+    link: /es/factory/non-conforming-control
+    link_label: 'Control de no conformes y descargas →'
 
 workshops_section:
   tagline: Talleres
