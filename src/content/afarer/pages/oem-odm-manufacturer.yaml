@@ -45,6 +45,21 @@ features:
       description: 'FOB Qingdao, CIF and DDP to more than 50 countries, with export packing and customs clearance handled by our logistics team.'
       icon: 'tabler:world'
 
+customization:
+  tagline: Built to Your Spec
+  title: What You Can Customize
+  subtitle: 'Every platform ships as your product — from hull geometry to the retail box. These are the specification points you control on an OEM project:'
+  items:
+    - 'Board shape — length, width, thickness, rocker and volume tuned to your target riders and markets'
+    - 'Material structure — PVC layer count and grade, drop-stitch density, stiffeners and rail reinforcements'
+    - 'Graphics and colors — unlimited palettes with your own artwork or support from our in-house design team'
+    - 'EVA traction pad — custom-cut deck pads, logos and deck colors on every board'
+    - 'Handles and D-rings — placement, count and hardware spec for your use case'
+    - 'Fin systems — single, twin or tri-fin configurations and fin boxes to your spec'
+    - 'Paddles, pumps, leashes and accessories — your package, your branding'
+    - 'Packaging and retail presentation — retail boxes, seaworthy shipping packing and point-of-sale displays under your brand'
+    - 'Labels and compliance marks — serial labels, logos and per-market documentation prepared for your export region'
+
 faq_section:
   tagline: FAQ
   title: OEM & ODM Frequently Asked Questions

@@ -45,6 +45,21 @@ features:
       description: 'FOB Qingdao, CIF y DDP a más de 50 mercados, con embalaje de exportación y despacho de aduanas gestionado por nuestro equipo.'
       icon: 'tabler:world'
 
+customization:
+  tagline: Construido a tu especificación
+  title: Qué puedes personalizar
+  subtitle: 'Cada plataforma sale de fábrica como tu producto — de la geometría del casco a la caja retail. Estos son los puntos de la especificación que controlas en un proyecto OEM:'
+  items:
+    - 'Forma de la tabla — longitud, anchura, grosor, rocker y volumen ajustados a tus riders y mercados objetivo'
+    - 'Estructura de materiales — número y calidad de las capas de PVC, densidad drop-stitch, rigidizadores y refuerzos del rail'
+    - 'Gráficos y colores — paletas ilimitadas con tu propio arte o con el apoyo de nuestro equipo de diseño interno'
+    - 'Alfombrilla EVA — diseños cortados a medida de la cubierta antideslizante, logotipos y colores del deck'
+    - 'Asas y anillas D — posición, número y especificación del herraje según tu caso de uso'
+    - 'Sistemas de aleta — configuraciones de una, dos o tres aletas y cajas de aleta a tu especificación'
+    - 'Palas, bombas, correas y accesorios — tu paquete, tu marca'
+    - 'Embalaje y presentación retail — cajas retail, embalaje marítimo y displays para punto de venta con tu marca'
+    - 'Etiquetas y marcas de cumplimiento — etiquetas de serie, logotipos y documentación por mercado preparada para tu región de exportación'
+
 faq_section:
   tagline: FAQ
   title: Preguntas frecuentes OEM y ODM
