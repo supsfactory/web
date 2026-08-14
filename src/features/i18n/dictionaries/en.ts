@@ -277,7 +277,7 @@ export const en = {
       seeAll: 'See all projects',
       ctaKicker: 'Your Project',
       ctaTitle: 'Have a Similar Project? Get a Feasibility Review',
-      yourCaseTitle: 'Your Project Could Be Next',
+      yourCaseTitle: 'Have a Similar Project? Get a Feasibility Review',
       yourCaseBody:
         'Send your target market, estimated quantity and launch date — our team reviews feasibility and comes back with recommended specifications, MOQ guidance and next steps.',
     },

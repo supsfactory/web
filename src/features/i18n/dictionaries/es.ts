@@ -267,7 +267,7 @@ export const es = {
       seeAll: 'Ver todos los proyectos',
       ctaKicker: 'Tu proyecto',
       ctaTitle: '¿Tienes un proyecto similar? Solicita una revisión de viabilidad',
-      yourCaseTitle: 'Tu proyecto podría ser el próximo',
+      yourCaseTitle: '¿Tienes un proyecto similar? Solicita una revisión de viabilidad',
       yourCaseBody:
         'Envía tu mercado objetivo, la cantidad estimada y la fecha de lanzamiento — nuestro equipo revisa la viabilidad y responde con especificaciones recomendadas, orientación de MOQ y próximos pasos.',
     },
