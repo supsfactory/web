@@ -27,13 +27,13 @@ features:
       description: 'Sin decoloración ni degradación tras 1 año de almacenamiento al aire libre.'
       icon: 'tabler:sun'
     - title: 'Costuras Reforzadas'
-      description: '3 veces más resistentes que la construcción estándar de tablas hinchables.'
+      description: 'Costuras reforzadas construidas para la rotación diaria de alquiler y ciclos repetidos de inflado.'
       icon: 'tabler:layers-intersect'
     - title: 'Materiales de Secado Rápido'
-      description: 'Tablas listas para el siguiente alquiler en menos de 30 minutos.'
+      description: 'Materiales de secado rápido que mantienen las tablas listas para el siguiente alquiler entre sesiones.'
       icon: 'tabler:droplet'
     - title: 'Almacenamiento Apilable'
-      description: 'Diseño que ahorra espacio: guarda un 40% más de tablas en la misma área.'
+      description: 'Diseño apilable que ahorra espacio: almacena más tablas en la misma área.'
       icon: 'tabler:stack'
     - title: 'Tallas Codificadas por Colores'
       description: 'El equipo coge la tabla correcta al instante con tallas codificadas por colores.'
@@ -42,14 +42,14 @@ features:
 stats:
   title: Métricas de Operación
   stats:
-    - title: Rotación de Tablas
-      amount: '< 5 min'
-    - title: Mantenimiento Anual
-      amount: '~15 min/tabla'
+    - title: Superficie de Fábrica
+      amount: '12.000 m²'
+    - title: Prueba de Presión
+      amount: '1,25× / 48h'
+    - title: Checklist de Montaje
+      amount: '100 puntos'
     - title: Envío de Piezas
       amount: '48h'
-    - title: Tasa de Defectos
-      amount: '< 0.5%'
 
 fleet_guide:
   title: Guía de Dimensionado de Flota

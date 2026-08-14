@@ -34,7 +34,7 @@ El RIB 450 Patrol está diseñado para aguas abiertas y estados de mar duros. Su
 
 ## Equipos de seguridad profesionales
 
-Todas las operaciones profesionales exigen equipos de seguridad conformes a SOLAS, incluido el Life Vest Pro con inflado hidrostático automático. Para la tripulación que pueda estar inconsciente en el agua, elige un chaleco hinchable con collar de elevación integrado; para el trabajo rutinario por VHF, combínalo con la clase de PFD adecuada. Los equipos de bomberos y rescate configuran además su RIB con paquetes de lanza de agua, bomba y primera respuesta.
+Todas las operaciones profesionales exigen equipos de seguridad conformes a la normativa de su zona de operación — los viajes internacionales se rigen por SOLAS, las embarcaciones con bandera de la UE por MED y las operaciones en EE. UU. por las reglas USCG. El inflado hidrostático automático del Life Vest Pro encaja en operaciones donde la tripulación puede quedar inconsciente en el agua; para el trabajo rutinario por VHF, combínalo con la clase de PFD adecuada. Los documentos de certificación — certificados e informes de ensayo — se comparten con compradores profesionales bajo NDA previa solicitud, para que cada operador pueda verificar el cumplimiento para la ruta y el pabellón concretos en los que navega. Los equipos de bomberos y rescate configuran además su RIB con paquetes de lanza de agua, bomba y primera respuesta.
 
 ## Adquisición de equipos profesionales
 

@@ -82,15 +82,15 @@ content_html: |
     </div>
   </div>
 
-  <h2>Key quality metrics (2025 rolling average)</h2>
+  <h2>Standard checks on every batch</h2>
   <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
-      <span class="block text-2xl font-bold text-blue-600">99.7 %</span>
-      <span class="text-xs text-gray-500">First-pass yield (fabric batch)</span>
+      <span class="block text-2xl font-bold text-blue-600">1.25 ×</span>
+      <span class="text-xs text-gray-500">Rated pressure in chamber air test, held 48 h</span>
     </div>
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
-      <span class="block text-2xl font-bold text-blue-600">&lt; 0.2 %</span>
-      <span class="text-xs text-gray-500">Weld reject rate (linear metre)</span>
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">Pressure drop triggers automatic rejection</span>
     </div>
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
       <span class="block text-2xl font-bold text-blue-600">100 %</span>

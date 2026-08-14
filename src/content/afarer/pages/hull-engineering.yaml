@@ -61,8 +61,8 @@ content_html: |
         <span class="text-gray-500">Max deck flex under 120 kg rider</span>
       </div>
       <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
-        <span class="block text-2xl font-bold text-blue-600">18 000 h</span>
-        <span class="text-gray-500">Cumulative FEA runtime in 2025</span>
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Analysis pressure — working rating of the platform</span>
       </div>
     </div>
   </div>

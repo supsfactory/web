@@ -27,13 +27,13 @@ features:
       description: 'No fading or degradation after 1 year of outdoor storage.'
       icon: 'tabler:sun'
     - title: 'Reinforced Seams'
-      description: '3x stronger than standard inflatable board construction.'
+      description: 'Reinforced seam construction built for daily rental rotation and repeated inflation cycles.'
       icon: 'tabler:layers-intersect'
     - title: 'Quick-Dry Materials'
-      description: 'Boards ready for next rental in under 30 minutes.'
+      description: 'Quick-dry materials keep boards ready for the next rental between sessions.'
       icon: 'tabler:droplet'
     - title: 'Stackable Storage'
-      description: 'Space-saving design — store 40% more boards in the same area.'
+      description: 'Space-saving stackable design — pack more boards in the same storage area.'
       icon: 'tabler:stack'
     - title: 'Color-Coded Sizes'
       description: 'Staff grabs the right board instantly with color-coded sizing.'
@@ -42,14 +42,14 @@ features:
 stats:
   title: Operations Metrics
   stats:
-    - title: Board Turnover
-      amount: '< 5 min'
-    - title: Annual Maintenance
-      amount: '~15 min/board'
+    - title: Factory Floor
+      amount: '12,000 m²'
+    - title: Pressure Test
+      amount: '1.25× / 48h'
+    - title: Assembly Checklist
+      amount: '100 points'
     - title: Parts Dispatch
       amount: '48h'
-    - title: Defect Rate
-      amount: '< 0.5%'
 
 fleet_guide:
   title: Fleet Sizing Guide

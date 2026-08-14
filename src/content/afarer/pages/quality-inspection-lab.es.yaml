@@ -82,15 +82,15 @@ content_html: |
     </div>
   </div>
 
-  <h2>Métricas clave de calidad (media móvil 2025)</h2>
+  <h2>Controles estándar en cada lote</h2>
   <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
-      <span class="block text-2xl font-bold text-blue-600">99.7 %</span>
-      <span class="text-xs text-gray-500">Rendimiento de primera pasada (lote de tejido)</span>
+      <span class="block text-2xl font-bold text-blue-600">1,25 ×</span>
+      <span class="text-xs text-gray-500">Presión nominal en la prueba de cámara de aire, mantenida 48 h</span>
     </div>
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
-      <span class="block text-2xl font-bold text-blue-600">&lt; 0.2 %</span>
-      <span class="text-xs text-gray-500">Tasa de rechazo de soldaduras (metro lineal)</span>
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">La caída de presión dispara el rechazo automático</span>
     </div>
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
       <span class="block text-2xl font-bold text-blue-600">100 %</span>

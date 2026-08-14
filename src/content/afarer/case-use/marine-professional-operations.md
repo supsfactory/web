@@ -34,7 +34,7 @@ The RIB 450 Patrol is engineered for open water and harsh sea states. Its self-b
 
 ## Professional safety equipment
 
-All professional operations require SOLAS-compliant safety equipment including the Life Vest Pro with automatic hydrostatic inflation. For crew who may be unconscious in the water, choose an inflatable vest with an integrated lifting collar; for routine VHF work, pair with the appropriate PFD class. Fire and rescue teams additionally configure their RIB with water-jet, pump and first-response packages.
+All professional operations require safety equipment that complies with the regulations governing their operating area — international voyages are covered by SOLAS, EU-flagged vessels by MED, and US operations by USCG rules. The Life Vest Pro's automatic hydrostatic inflation suits operations where crew may end up unconscious in the water; for routine VHF work, pair it with the appropriate PFD class. Certification documents — certificates and test reports — are shared with professional buyers under NDA on request, so each operator can verify compliance for the specific route and flag state they run under. Fire and rescue teams additionally configure their RIB with water-jet, pump and first-response packages.
 
 ## Acquiring professional equipment
 
