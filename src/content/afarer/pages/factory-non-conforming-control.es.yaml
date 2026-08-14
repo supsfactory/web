@@ -94,6 +94,24 @@ nc_pillars:
       title: Firma autorizada y trazabilidad
       desc: 'La liberación del envío solo se permite tras la documentación NCR completa y la firma autorizada de QC, pasando el estado del lote de HOLD a RELEASED. Las desviaciones sistémicas o repetidas activan automáticamente flujos de trabajo CAPA de causa raíz.'
 
+nc_photos:
+  tagline: En el piso de fábrica
+  title: Cuarentena, retrabajo y reinspección en la práctica
+  subtitle: Fotos de nuestro taller en Qingdao muestran cómo las tablas no conformes se segregan físicamente, se retrabajan bajo instrucciones controladas y se vuelven a verificar antes de cualquier decisión de liberación.
+  features:
+    - image: /assets/quality/qc-air-tightness-test-area.jpg
+      alt: Tablas de SUP hinchables infladas en el área de pruebas de estanqueidad de la fábrica, monitorizadas con manómetros digitales
+      title: Puerta de reinspección
+      desc: 'Tras el retrabajo, toda tabla vuelve al área de pruebas de QC para una verificación independiente: se infla y se monitoriza con manómetros digitales contra los criterios de aceptación aprobados por proyecto — nunca una comprobación parcial.'
+    - image: /assets/quality/qc-hold-quarantine-station.jpg
+      alt: Hojas de control de calidad y etiquetas controladas de estado HOLD en la estación de inspección de la fábrica
+      title: Estación de retención y cuarentena
+      desc: 'Estación de inspección con hojas de control de QC y etiquetado de estado. Todo artículo que falle los criterios de aceptación se etiqueta HOLD / QUARANTINE, se registra contra un NCR y se segrega físicamente — no puede pasar al embalaje hasta completar una disposición autorizada y la reinspección obligatoria.'
+    - image: /assets/quality/qc-air-tightness-rework.jpg
+      alt: Técnico de QC realizando retrabajo controlado de estanqueidad al aire en un SUP hinchable en la estación de retrabajo
+      title: Estación de retrabajo controlado
+      desc: 'El retrabajo se realiza en una estación dedicada bajo una instrucción SRI aprobada: el defecto se marca, la tabla permanece en HOLD y, tras el período de curado requerido, vuelve al área de pruebas para reinspección contra los criterios de aceptación originales.'
+
 nc_severity:
   tagline: Gravedad del defecto y autoridad
   title: Clasificación de gravedad y autoridad de disposición

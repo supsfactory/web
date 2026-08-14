@@ -192,6 +192,7 @@
     - { key: nc_intro, type: content, label: 'Control of Non-Conforming Outputs' }
     - { key: nc_flow, type: steps, label: '7-Step Closed-Loop' }
     - { key: nc_pillars, type: features, label: 'Buyer Trust Pillars' }
+    - { key: nc_photos, type: features, label: 'Factory Floor Photos' }
     - { key: nc_severity, type: table, label: 'Severity & Disposition Authority' }
     - { key: nc_matrix, type: table, label: 'SUP Defect Disposition Matrix' }
     - { key: nc_scrap, type: content, label: 'Witnessed Destruction Protocol' }
