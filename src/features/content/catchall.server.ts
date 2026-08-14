@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Server-only afarer catch-all resolver.
  *
  * The `/$` route handler (catchall.tsx) imports this module dynamically from

@@ -1,4 +1,4 @@
-﻿import type { Locale } from '@/features/i18n/locale'
+import type { Locale } from '@/features/i18n/locale'
 import type { Localized } from './content'
 import { pick } from './content'
 
