@@ -103,7 +103,7 @@ function ContactPage() {
         </div>
 
         {/* form */}
-        <div className="marine-card h-fit p-6 md:p-8">
+        <div id="quality-inquiry" className="marine-card h-fit p-6 md:p-8">
           <h2 className="font-display text-xl font-extrabold tracking-tight">{t('sup.contact.formTitle')}</h2>
           <p className="mt-1.5 text-[13px] text-fg-3">{t('sup.contact.formSubtitle')}</p>
           <div className="mt-6">

@@ -1,7 +1,7 @@
 meta:
   title: 'Certifications — CE, ISO 9001 & Compliance | {SITE}'
-  description: 'afarer quality certifications: CE (Directive 2013/53/EU), ISO 9001:2015, BSCI. Compliance and safety for an inflatable SUP and boat manufacturer.'
-  dateModified: '2026-08'
+  description: 'Quality certifications — CE, ISO 9001:2015, BSCI — plus anonymized inspection record samples from our controlled SUP quality system.'
+  dateModified: '2026-08-14'
   keywords:
     - 'ce certification sup'
     - 'iso 9001 sup'
@@ -172,6 +172,18 @@ qs_notice:
     These documents are illustrative samples only. They do not represent a live customer order, final product specification, complete inspection report or product certification. Actual inspection scope, acceptance criteria and records are defined for each approved project.
 
     > Full project dossiers — quality inspection plan, incoming, in-process, air-tightness, final and packing inspection reports, plus shipment release authorization — are shared under NDA with qualified buyers. Tell us your product category, target market and inspection requirements: we can walk you through the applicable documentation, inspection scope and confidentiality process for your project.
+faqs:
+  tagline: FAQ
+  title: Frequently Asked Questions About Quality Records
+  items:
+    - q: 'Are these inspection record samples real?'
+      a: 'Yes. The samples follow our actual controlled record structure — document header, inspection checklist, acceptance criteria, method, results, inspector role and release disposition. All identifying values are replaced with demonstration values (DEMO-* codes), so no customer, artwork, order or pricing data is exposed.'
+    - q: 'Why are the samples anonymized?'
+      a: 'Buyer confidentiality comes first. Customer names, artwork, order details, supplier information and pricing are protected by design. Anonymization lets any prospective buyer verify our record structure and traceability without exposing another client\u2019s business.'
+    - q: 'Can we receive full inspection reports for our project?'
+      a: 'Yes. For approved projects we share the quality documentation applicable to your order — quality inspection plan, incoming, in-process, air-tightness, final and packing inspection reports, and shipment release authorization — linked to your batch traceability. Sensitive commercial data stays under NDA as agreed.'
+    - q: 'What does a batch-level inspection record contain?'
+      a: 'Each record links the production batch to the applicable specification or drawing revision, records every inspection item against its acceptance criteria with the method and tool used, and closes with the inspector role, result status and the release disposition signed off by quality.'
 cta:
   title: 'Need certified products for your project?'
   subtitle: 'Contact our team to discuss certification requirements, documentation, and compliance for your market. Certificate numbers, audit reports, and test documentation are provided under NDA for qualified projects.'
@@ -183,3 +195,5 @@ cta:
       href: /randdcenter/quality-inspection-lab
     - text: Non-conforming product control standard
       href: /factory/non-conforming-control
+    - text: Inspection standards & QMS downloads
+      href: /factory/quality-inspection

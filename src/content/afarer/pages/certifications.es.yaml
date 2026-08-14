@@ -1,7 +1,7 @@
 meta:
   title: 'Certificaciones — CE, ISO 9001 y cumplimiento | {SITE}'
-  description: 'Certificaciones de calidad de afarer: CE (Directiva 2013/53/UE), ISO 9001:2015, BSCI. Cumplimiento y seguridad de un fabricante de SUP y embarcaciones hinchables.'
-  dateModified: '2026-08'
+  description: 'Certificaciones de calidad — CE, ISO 9001:2015, BSCI — más muestras anonimizadas de registros de inspección de nuestro sistema de calidad controlado para SUP.'
+  dateModified: '2026-08-14'
   keywords:
     - 'certificación ce sup'
     - 'iso 9001 sup'
@@ -172,6 +172,18 @@ qs_notice:
     Estos documentos son solo muestras ilustrativas. No representan un pedido real de cliente, una especificación final de producto, un informe de inspección completo ni una certificación de producto. El alcance de inspección, los criterios de aceptación y los registros reales se definen para cada proyecto aprobado.
 
     > Los dosieres completos de proyecto — plan de inspección de calidad, informes de inspección de materiales entrantes, en proceso, estanqueidad, final y embalaje, más la autorización de liberación de envío — se comparten bajo NDA con compradores cualificados. Cuéntenos su categoría de producto, mercado objetivo y requisitos de inspección: podemos revisar la documentación aplicable, el alcance de inspección y el proceso de confidencialidad para su proyecto.
+faqs:
+  tagline: FAQ
+  title: Preguntas frecuentes sobre los registros de calidad
+  items:
+    - q: '¿Son reales estas muestras de registros de inspección?'
+      a: 'Sí. Las muestras siguen nuestra estructura real de registros controlados — cabecera de documento, lista de comprobación de inspección, criterios de aceptación, método, resultados, rol del inspector y disposición de liberación. Todos los valores identificativos se sustituyen por valores de demostración (códigos DEMO-*), por lo que no se expone ningún dato de cliente, arte, pedido o precio.'
+    - q: '¿Por qué están anonimizadas las muestras?'
+      a: 'La confidencialidad del comprador es lo primero. Los nombres de clientes, el arte, los detalles de pedido, la información de proveedores y los precios están protegidos por diseño. La anonimización permite a cualquier comprador potencial verificar nuestra estructura de registros y trazabilidad sin exponer el negocio de otro cliente.'
+    - q: '¿Podemos recibir los informes de inspección completos de nuestro proyecto?'
+      a: 'Sí. Para proyectos aprobados compartimos la documentación de calidad aplicable a su pedido — plan de inspección de calidad, informes de materiales entrantes, en proceso, estanqueidad, final y embalaje, y autorización de liberación de envío — vinculada a su trazabilidad de lote. Los datos comerciales sensibles permanecen bajo NDA según lo acordado.'
+    - q: '¿Qué contiene un registro de inspección a nivel de lote?'
+      a: 'Cada registro vincula el lote de producción con la revisión de especificación o plano aplicable, documenta cada ítem de inspección contra sus criterios de aceptación con el método y la herramienta utilizados, y se cierra con el rol del inspector, el estado del resultado y la disposición de liberación firmada por calidad.'
 cta:
   title: '¿Necesitas productos certificados para tu proyecto?'
   subtitle: 'Contacta con nuestro equipo para hablar de los requisitos de certificación, documentación y cumplimiento para tu mercado. Los números de certificado, informes de auditoría y documentación de ensayos se facilitan bajo NDA para proyectos cualificados.'
@@ -183,3 +195,5 @@ cta:
       href: /es/randdcenter/quality-inspection-lab
     - text: Estándar de control de productos no conformes
       href: /es/factory/non-conforming-control
+    - text: Estándares de inspección y descargas QMS
+      href: /es/factory/quality-inspection

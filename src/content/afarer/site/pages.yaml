@@ -46,6 +46,7 @@
     - { key: qs_intro, type: content, label: 'Anonymized Samples Intro' }
     - { key: intelligence_cards, type: content, label: 'Anonymized Quality Record Samples' }
     - { key: qs_notice, type: content, label: 'Confidentiality Notice' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: contact
