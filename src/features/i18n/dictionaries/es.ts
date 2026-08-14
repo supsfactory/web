@@ -172,6 +172,7 @@ export const es = {
         factory: 'Fábrica y producción',
         quality: 'Calidad y ensayos',
         qualityInspection: 'Estándares de inspección de calidad',
+        changeControl: 'Control de cambios y validación de retrabajo',
         technology: 'Tecnología',
         warranty: 'Garantía',
       },

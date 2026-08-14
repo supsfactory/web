@@ -13,6 +13,7 @@ export function HowItWorks() {
   const deepLinks = [
     { label: t('sup.nav.manufacturingDropdown.quality'), href: '/quality' },
     { label: t('sup.nav.manufacturingDropdown.qualityInspection'), href: '/factory/quality-inspection' },
+    { label: t('sup.nav.manufacturingDropdown.changeControl'), href: '/factory/quality-change-control' },
     { label: t('sup.footer.factoryCapacity'), href: '/factory/capacity' },
     { label: t('sup.nav.caseStudiesDropdown.projects'), href: '/projects' },
   ]

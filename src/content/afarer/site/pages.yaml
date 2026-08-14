@@ -160,6 +160,26 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Quality Review CTA' }
 
+- slug: factory-quality-change-control
+  label: Rework Change Control Standard
+  path: /factory/quality-change-control
+  permalink: /factory/quality-change-control
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: cc_intro, type: content, label: 'Governance Principles' }
+    - { key: cc_scope, type: table, label: 'Change Scope & Risk Classification' }
+    - { key: cc_containment, type: content, label: 'Containment Rule' }
+    - { key: cc_flow, type: steps, label: '9-Step Change Control Loop' }
+    - { key: cc_approval, type: table, label: 'Cross-Department Approval Matrix' }
+    - { key: cc_validation, type: content, label: 'Validation & Acceptance Protocol' }
+    - { key: cc_engineering, type: table, label: 'Engineering Execution Matrix' }
+    - { key: cc_photos, type: features, label: 'Factory Floor Photos' }
+    - { key: cc_pokayoke, type: features, label: 'Poka-Yoke Safeguards' }
+    - { key: cc_downloads, type: features, label: 'QMS Document Downloads' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
 - slug: fishing
   label: Fishing
   path: /fishing

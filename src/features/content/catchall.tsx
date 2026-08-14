@@ -124,6 +124,28 @@ function researchArticleLd(origin: string, path: string, title: string, descript
   }
 }
 
+/** TechArticle JSON-LD for the factory change-control standard page. */
+function changeControlLd(origin: string, path: string, title: string, description: string, page: AfarerPage, locale: Locale): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'TechArticle',
+    headline: title,
+    alternativeHeadline: 'Stand-Up Paddleboard (SUP) Rework Process Parameter Change Control & Validation Standard',
+    description,
+    url: `${origin}${path}`,
+    author: { '@type': 'Organization', name: 'QINGDAO VATRAD GROUP.,LTD.' },
+    publisher: { '@type': 'Organization', name: 'QINGDAO VATRAD GROUP.,LTD.' },
+    dateModified: page.meta?.dateModified,
+    inLanguage: locale,
+    about: [
+      'SUP Manufacturing',
+      'Quality Management System',
+      'ISO 9001 Change Control',
+      'Airtightness Testing and Validation',
+    ],
+  }
+}
+
 function productLd(origin: string, product: AfarerProduct, locale: Locale): Record<string, unknown> {
   const abs = (u?: string) => (u ? (u.startsWith('http') ? u : `${origin}${u}`) : undefined)
   return {
@@ -174,6 +196,9 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
             />
             {data.path.startsWith('/research/') && (
               <JsonLd data={researchArticleLd(data.origin, data.path, data.title, data.description, page)} />
+            )}
+            {data.path.startsWith('/factory/quality-change-control') && (
+              <JsonLd data={changeControlLd(data.origin, data.path, data.title, data.description, page, data.locale)} />
             )}
             {page.meta?.dateModified && (
               <JsonLd

@@ -424,6 +424,12 @@ document_pack:
       desc: 'Controlled document SOP-QC-AT-IDX-001 Rev A: the numbered method card system MC-RW-01 to MC-RW-06, plus MC-RW-00 for scrap and reject, linked to the air-tightness rework instruction.'
       link: '/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
       link_label: Download PDF
+    - icon: V
+      icon_bg: orange
+      title: Rework Change Control Standard (Page)
+      desc: 'Formal ISO 9001 change control for rework parameters: ECR, risk classification, cross-department approval matrix, 9-step closed-loop, quantified engineering validation and Poka-Yoke safeguards — with bilingual SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/factory/quality-change-control'
+      link_label: View page
 
 faqs:
   tagline: FAQ

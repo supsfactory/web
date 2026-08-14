@@ -182,6 +182,7 @@ export const en = {
         factory: 'Factory & Production',
         quality: 'Quality & Testing',
         qualityInspection: 'Quality Inspection Standards',
+        changeControl: 'Rework Change Control & Validation',
         technology: 'Technology',
         warranty: 'Warranty',
       },

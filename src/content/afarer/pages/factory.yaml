@@ -79,6 +79,17 @@ intelligence_cards:
         value: 'QC protocol, PSI report & rework docs (PDF)'
     link: /factory/quality-inspection
     link_label: 'Inspection standards & downloads →'
+  - title: Rework Change Control Standard
+    icon: C
+    icon_bg: blue
+    desc: 'Formal ISO 9001 change control for rework parameters: ECR, risk classification, cross-department approval matrix, 9-step closed-loop, quantified engineering validation (15–18 PSI, 24–48 h hold, ΔP ≤ 0.2 PSI) and Poka-Yoke safeguards — with bilingual SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+    metrics:
+      - label: Document
+        value: 'QMS-SOP-QC-CC-001 Rev 2.0'
+      - label: Downloads
+        value: 'Change control SOP & execution annex (PDF)'
+    link: /factory/quality-change-control
+    link_label: 'Change control standard & downloads →'
 
 workshops_section:
   tagline: Workshops

@@ -79,6 +79,17 @@ intelligence_cards:
         value: 'Protocolo QC, informe PSI y docs de retrabajo (PDF)'
     link: /es/factory/quality-inspection
     link_label: Estándares de inspección y descargas →
+  - title: Estándar de control de cambios de retrabajo
+    icon: C
+    icon_bg: blue
+    desc: 'Control de cambios formal según ISO 9001 para parámetros de retrabajo: ECR, clasificación de riesgos, matriz de aprobación interdepartamental, bucle cerrado de 9 pasos, validación de ingeniería cuantificada (15–18 PSI, retención 24–48 h, ΔP ≤ 0,2 PSI) y salvaguardas Poka-Yoke — con el SOP bilingüe QMS-SOP-QC-CC-001 Rev 2.0.'
+    metrics:
+      - label: Documento
+        value: 'QMS-SOP-QC-CC-001 Rev 2.0'
+      - label: Descargas
+        value: 'SOP de control de cambios y anexo de ejecución (PDF)'
+    link: /es/factory/quality-change-control
+    link_label: Estándar de control de cambios y descargas →
 
 workshops_section:
   tagline: Talleres

@@ -424,6 +424,12 @@ document_pack:
       desc: 'Documento controlado SOP-QC-AT-IDX-001 Rev A: el sistema de tarjetas de método numeradas MC-RW-01 a MC-RW-06, más MC-RW-00 para desecho y rechazo, vinculado a la instrucción de retrabajo de estanqueidad al aire.'
       link: '/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
       link_label: Descargar PDF
+    - icon: V
+      icon_bg: orange
+      title: Estándar de control de cambios de retrabajo (página)
+      desc: 'Control de cambios formal según ISO 9001 para parámetros de retrabajo: ECR, clasificación de riesgos, matriz de aprobación interdepartamental, bucle cerrado de 9 pasos, validación de ingeniería cuantificada y salvaguardas Poka-Yoke — con el SOP bilingüe QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/factory/quality-change-control'
+      link_label: Ver página
 
 faqs:
   tagline: FAQ
