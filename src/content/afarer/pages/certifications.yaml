@@ -86,7 +86,7 @@ content_factory:
   list:
     - 'Incoming Material Inspection: All raw materials —PVC fabric, Hypalon, aluminum, plywood, adhesives —are tested against specifications before entering production.'
     - 'In-Process Quality Control: Every production stage has documented QC checkpoints. Weld strength, seam alignment, valve installation, and fitting torque are verified inline.'
-    - 'Pressure Testing: Every inflatable chamber is pressure-tested at 1.25× rated pressure for 48 hours (auto-reject above 5% pressure drop on a 24-hour hold). 100% of units are tested before packing.'
+    - 'Pressure Testing: Every inflatable chamber is pressure-tested at 1.25× rated pressure for 48 hours, with auto-reject above a 5% pressure drop. 100% of units are tested before packing.'
     - 'Final Inspection: Completed products are inspected for dimensional accuracy, cosmetic finish, accessory completeness, and packaging integrity before shipping.'
     - 'Batch Traceability: Every product carries a serial number linked to production batch records, enabling full traceability from raw material to finished goods.'
 content_safety:

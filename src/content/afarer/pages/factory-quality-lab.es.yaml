@@ -14,7 +14,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'El 100% de las unidades se prueban a presión a 1,25× de la presión nominal durante 48 horas (rechazo automático al superar un 5% de caída de presión en un mantenimiento de 24 horas). Los lotes de tejido crudo se verifican según ASTM D751 e ISO 4674, y las pruebas de pelado de soldaduras se realizan cada 50 unidades con un muestreo final AQL 2.5 según ISO 2859.'
+  text: 'El 100% de las unidades se prueban a presión a 1,25× de la presión nominal durante 48 horas, con rechazo automático al superar un 5% de caída de presión. Los lotes de tejido crudo se verifican según ASTM D751 e ISO 4674, y las pruebas de pelado de soldaduras se realizan cada 50 unidades con un muestreo final AQL 2.5 según ISO 2859.'
   verified: '2026-08'
 
 intro: afarer opera un laboratorio de control de calidad dedicado que trabaja de forma independiente de la producción. Cada lote de materia prima y cada tabla de SUP terminada pasa por protocolos de inspección documentados antes de su liberación. Nuestro equipo de control de calidad informa directamente a la dirección, lo que garantiza decisiones de calidad imparciales.
@@ -28,7 +28,7 @@ highlights:
     detail: A 1,25× de la presión nominal
   - value: '&lt;5%'
     label: Caída de presión máxima permitida
-    detail: En un periodo de mantenimiento de 24 horas
+    detail: En un periodo de mantenimiento de 48 horas
   - value: AQL 2.5
     label: Umbral de defectos graves
     detail: Según el muestreo ISO 2859

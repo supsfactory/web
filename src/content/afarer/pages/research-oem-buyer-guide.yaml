@@ -47,7 +47,7 @@ content_html: |
   <h2>2. Quality Control Protocols</h2>
   <p>Material incoming QC: tensile strength (ASTM D751 or ISO 1421), tear resistance (ASTM D2261 or ISO 4674), adhesion strength, UV aging spot checks.</p>
   <p>In-process QC: seam strength monitoring every 50 units, valve torque verification, drop-stitch thread density checks, dimensional checks against CAD drawings.</p>
-  <p>Final inspection: 100% inflation hold test (24 hours, max 5% drop), visual inspection, valve function test, random sample testing (AQL 2.5 or 4.0 per ISO 2859).</p>
+  <p>Final inspection: 100% inflation hold test (48 hours, max 5% drop), visual inspection, valve function test, random sample testing (AQL 2.5 or 4.0 per ISO 2859).</p>
 
   <h2>3. Compliance Documentation Checklist</h2>
   <ul>

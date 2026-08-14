@@ -395,13 +395,13 @@ test_results:
     detail: Every boat, every chamber, every batch
   - metric: Max Pressure Drop
     value: '<5%'
-    detail: Over 24h at 1.25x rated pressure
+    detail: Over 48h at 1.25x rated pressure
   - metric: Major Defect Threshold
     value: AQL 2.5
     detail: Per ISO 2859 sampling standard
   - metric: Pressure Hold Duration
-    value: 24-48h
-    detail: Depending on product category
+    value: 48h
+    detail: Every chamber, every batch
   - metric: Test Pressure Margin
     value: 1.25x
     detail: Safety margin on every chamber

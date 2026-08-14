@@ -193,9 +193,9 @@ production_flow:
       responsibility: Responsable del equipo de montaje + control de calidad de línea
     - stage: '05'
       title: Ensayo de presión y retención de calidad
-      description: Cada cámara se infla a 1,25× la presión nominal (unos 19 PSI para un SUP de 12–15 PSI) y se mantiene durante 24–48 horas. Los sensores de presión registran de forma continua. Las cámaras que superan una caída de presión del 5% se rechazan y se envían para reinspección de costuras.
-      qc_check: 'Registro de retención de presión de 24 h, verificación diaria de la calibración del sensor, lectura de presión compensada por temperatura, reensayo de costuras tras la reparación'
-      qc_threshold: 'Máximo 5% de caída de presión en 24 h a temperatura estable. Cualquier cámara que lo supere = reensayo del 100% de todo el lote de producción'
+      description: Cada cámara se infla a 1,25× la presión nominal (unos 19 PSI para un SUP de 12–15 PSI) y se mantiene durante 48 horas. Los sensores de presión registran de forma continua. Las cámaras que superan una caída de presión del 5% se rechazan y se envían para reinspección de costuras.
+      qc_check: 'Registro de retención de presión de 48 h, verificación diaria de la calibración del sensor, lectura de presión compensada por temperatura, reensayo de costuras tras la reparación'
+      qc_threshold: 'Máximo 5% de caída de presión en 48 h a temperatura estable. Cualquier cámara que lo supere = reensayo del 100% de todo el lote de producción'
       responsibility: Laboratorio de calidad (independiente de la producción, informa a la dirección)
     - stage: '06'
       title: Inspección final y embalaje
@@ -268,13 +268,13 @@ qc_dashboard:
       detail: Cada tabla, cada cámara, cada lote
     - value: '<5%'
       label: Caída de presión máxima permitida
-      detail: En 24 h a 1,25× la presión nominal
+      detail: En 48 h a 1,25× la presión nominal
     - value: AQL 2.5
       label: Umbral de defectos mayores
       detail: Según la norma de muestreo ISO 2859
-    - value: 24–48h
+    - value: 48h
       label: Duración de la retención de presión
-      detail: Según la categoría de producto
+      detail: Cada tabla, cada cámara
     - value: 1.25×
       label: Presión de ensayo frente a nominal
       detail: Margen de seguridad en cada cámara

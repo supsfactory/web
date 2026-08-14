@@ -19,7 +19,7 @@ This technology enables afarer boards to be packed into a backpack while providi
 
 ## Specs you can quote
 
-Afarer cores use 1,680 DTEX drop-stitch fabric with 2 threads per square inch and a 1.2 mm PVC outer laminate, rated to 20 PSI. Every board is validated with a 24-hour air-retention hold at 1.5&times; rated pressure before shipment.
+Afarer cores use 1,680 DTEX drop-stitch fabric with 2 threads per square inch and a 1.2 mm PVC outer laminate, rated to 15 PSI. Every board is validated with a 48-hour air-retention hold at 1.25&times; rated pressure before shipment.
 
 Need a drop-stitch spec tuned for your line? See our <a href="/oem-odm-manufacturer">OEM/ODM program</a> or walk the <a href="/factory">production line</a> where cores are laminated.
 

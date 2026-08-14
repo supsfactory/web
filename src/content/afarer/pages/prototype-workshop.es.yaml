@@ -39,7 +39,7 @@ content_html: |
   <ol>
     <li><strong>Cesión desde ingeniería</strong> — El paquete de diseño (modelo 3D, informe FEA, lista de materiales, plan de paneles) se revisa formalmente por el responsable del taller y el ingeniero de proyecto. Cualquier preocupación de fabricación se señala y resuelve antes de comenzar el corte.</li>
     <li><strong>Fabricación de paneles</strong> — La tabla se construye siguiendo la especificación de ingeniería. Los paneles se cortan con CNC, el núcleo drop-stitch se lamina entre las láminas de PVC y la cubierta y el casco se ensamblan con la combinación de materiales aprobada.</li>
-    <li><strong>Soldadura</strong> — Los paneles se sueldan por RF hasta la forma completa de la tabla. La cámara se infla a la presión de prueba y se deja 24 h para la estabilización inicial.</li>
+    <li><strong>Soldadura</strong> — Los paneles se sueldan por RF hasta la forma completa de la tabla. La cámara se infla a la presión de prueba y se deja 48 h para la estabilización inicial.</li>
     <li><strong>Ensamblaje y acabado</strong> — Se instalan el pavimento de cubierta, los gráficos, el asa, el tapón de anilla y las cajas de quilla. Todos los accesorios se montan y se verifican según la especificación.</li>
     <li><strong>Ensayos estáticos</strong> — Antes de que la tabla toque el agua se somete a: ciclos de inflado, comprobación de retención de aire, medición de la flecha de la cubierta a la presión de trabajo y comprobación del par de torsión de los herrajes.</li>
     <li><strong>Ensayos en el agua</strong> — 10 horas de pruebas en el agua, detalladas a continuación.</li>

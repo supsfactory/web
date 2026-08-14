@@ -193,9 +193,9 @@ production_flow:
       responsibility: Assembly team lead + line QC
     - stage: '05'
       title: Pressure Testing & Quality Hold
-      description: 'Every chamber is inflated to 1.25× rated pressure (typically about 19 PSI for a 12–15 PSI rated SUP) and held for 24–48 hours. Pressure sensors log continuously. Chambers exceeding 5% pressure drop are rejected and sent for seam re-inspection.'
-      qc_check: '24h pressure hold log, sensor calibration verified daily, temperature-compensated pressure reading, seam re-test after repair'
-      qc_threshold: 'Max 5% pressure drop over 24h at stable temp. Any chamber exceeding this = 100% re-test of entire production batch'
+      description: 'Every chamber is inflated to 1.25× rated pressure (typically about 19 PSI for a 12–15 PSI rated SUP) and held for 48 hours. Pressure sensors log continuously. Chambers exceeding 5% pressure drop are rejected and sent for seam re-inspection.'
+      qc_check: '48h pressure hold log, sensor calibration verified daily, temperature-compensated pressure reading, seam re-test after repair'
+      qc_threshold: 'Max 5% pressure drop over 48h at stable temp. Any chamber exceeding this = 100% re-test of entire production batch'
       responsibility: Quality lab (independent of production, reports to management)
     - stage: '06'
       title: Final Inspection & Packing
@@ -268,13 +268,13 @@ qc_dashboard:
       detail: Every board, every chamber, every batch
     - value: '<5%'
       label: Max allowable pressure drop
-      detail: Over 24h at 1.25× rated pressure
+      detail: Over 48h at 1.25× rated pressure
     - value: AQL 2.5
       label: Major defect threshold
       detail: Per ISO 2859 sampling standard
-    - value: 24–48h
+    - value: 48h
       label: Pressure hold duration
-      detail: Depending on product category
+      detail: Every board, every chamber
     - value: 1.25×
       label: Test pressure vs rated
       detail: Safety margin on every chamber

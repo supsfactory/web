@@ -39,7 +39,7 @@ content_html: |
   <ol>
     <li><strong>Engineering handover</strong> — The design package (3D model, FEA report, bill of materials, panel lay plan) is formally reviewed by the workshop lead and the project engineer. Any manufacturing concerns are flagged and resolved before cutting begins.</li>
     <li><strong>Panel production</strong> — The board is built according to the engineering specification. Panels are CNC-cut, the drop-stitch core is laminated between PVC skins, and the deck and hull are assembled with the approved material stack.</li>
-    <li><strong>Welding</strong> — Panels are RF-welded into the full board shape. The chamber is inflated to test pressure and left for 24 h for initial stabilisation.</li>
+    <li><strong>Welding</strong> — Panels are RF-welded into the full board shape. The chamber is inflated to test pressure and left for 48 h for initial stabilisation.</li>
     <li><strong>Assembly &amp; finishing</strong> — Deck pad, graphics, handle, leash plug and fin boxes are fitted. All fittings are installed and verified against the specification.</li>
     <li><strong>Static tests</strong> — Before the board touches water, it undergoes: inflation cycling, air-retention hold test, deck deflection measurement at rated pressure, and hardware torque checks.</li>
     <li><strong>On-water test programme</strong> — 10 hours of in-water testing, detailed below.</li>

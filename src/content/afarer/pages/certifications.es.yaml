@@ -86,7 +86,7 @@ content_factory:
   list:
     - 'Inspección de materiales entrantes: todas las materias primas (tejido PVC, Hypalon, aluminio, contrachapado, adhesivos) se ensayan contra las especificaciones antes de entrar en producción.'
     - 'Control de calidad en proceso: cada etapa de producción tiene puntos de control documentados. La resistencia de soldaduras, la alineación de costuras, la instalación de válvulas y el par de apriete se verifican en línea.'
-    - 'Ensayo de presión: cada cámara hinchable se somete a prueba de presión a 1,25× la presión nominal durante 48 horas (rechazo automático al superar el 5% de caída de presión en un mantenimiento de 24 horas). El 100% de las unidades se prueba antes del embalaje.'
+    - 'Ensayo de presión: cada cámara hinchable se somete a prueba de presión a 1,25× la presión nominal durante 48 horas, con rechazo automático al superar el 5% de caída de presión. El 100% de las unidades se prueba antes del embalaje.'
     - 'Inspección final: los productos terminados se inspeccionan en cuanto a precisión dimensional, acabado cosmético, integridad de accesorios e integridad del embalaje antes del envío.'
     - 'Trazabilidad por lotes: cada producto lleva un número de serie vinculado a los registros del lote de producción, lo que permite una trazabilidad completa desde la materia prima hasta el producto terminado.'
 content_safety:
