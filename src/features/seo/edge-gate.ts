@@ -30,6 +30,9 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/es/safety': '/es/quality',
   '/trust': '/quality',
   '/es/trust': '/es/quality',
+  // P1-#8: QC page canonical moves to the factory cluster (/quality stays certifications)
+  '/quality-control': '/factory/quality-inspection',
+  '/es/quality-control': '/es/factory/quality-inspection',
   '/solutions/resorts-hotels': '/solutions/resort-sup',
   '/es/solutions/resorts-hotels': '/es/solutions/resort-sup',
   '/solutions/paddle-clubs': '/solutions/club-sup',

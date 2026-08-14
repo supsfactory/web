@@ -39,6 +39,8 @@ test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
   expect(gatePath('/es/custom')).toEqual({ action: 'redirect', to: '/es/product-development' })
   expect(gatePath('/quality-testing')).toEqual({ action: 'redirect', to: '/quality' })
   expect(gatePath('/es/quality-testing')).toEqual({ action: 'redirect', to: '/es/quality' })
+  expect(gatePath('/quality-control')).toEqual({ action: 'redirect', to: '/factory/quality-inspection' })
+  expect(gatePath('/es/quality-control')).toEqual({ action: 'redirect', to: '/es/factory/quality-inspection' })
   expect(gatePath('/safety')).toEqual({ action: 'redirect', to: '/quality' })
   expect(gatePath('/es/safety')).toEqual({ action: 'redirect', to: '/es/quality' })
   expect(gatePath('/trust')).toEqual({ action: 'redirect', to: '/quality' })

@@ -68,6 +68,17 @@ intelligence_cards:
         value: 'FOB, CIF, DDP a más de 50 países'
     link: /es/oem-odm-manufacturer
     link_label: Servicios OEM completos →
+  - title: Estándares de inspección de calidad
+    icon: I
+    icon_bg: orange
+    desc: 'Criterios de inspección de calidad específicos por proyecto en IQC, IPQC, FQC y OQC: verificación de estanqueidad al aire, controles visuales y dimensionales, confirmación de accesorios, trazabilidad de lotes y firma de liberación de pre-embarque — además de gobernanza controlada de no conformidades de estanqueidad y retrabajo.'
+    metrics:
+      - label: Cobertura
+        value: 'Materiales → embalaje final'
+      - label: Descargas
+        value: 'Protocolo QC, informe PSI y docs de retrabajo (PDF)'
+    link: /es/factory/quality-inspection
+    link_label: Estándares de inspección y descargas →
 
 workshops_section:
   tagline: Talleres

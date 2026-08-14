@@ -171,6 +171,7 @@ export const es = {
       manufacturingDropdown: {
         factory: 'Fábrica y producción',
         quality: 'Calidad y ensayos',
+        qualityInspection: 'Estándares de inspección de calidad',
         technology: 'Tecnología',
         warranty: 'Garantía',
       },

@@ -181,6 +181,7 @@ export const en = {
       manufacturingDropdown: {
         factory: 'Factory & Production',
         quality: 'Quality & Testing',
+        qualityInspection: 'Quality Inspection Standards',
         technology: 'Technology',
         warranty: 'Warranty',
       },

@@ -1,4 +1,4 @@
-﻿- slug: home
+- slug: home
   label: Home
   path: /
   permalink: /
@@ -130,6 +130,35 @@
     - { key: highlights, type: stats, label: 'Quality Highlights' }
     - { key: test_procedures, type: steps, label: 'Test Procedures' }
     - { key: equipment, type: features, label: 'Lab Equipment' }
+
+- slug: factory-quality-inspection
+  label: Quality Inspection Standards
+  path: /factory/quality-inspection
+  permalink: /factory/quality-inspection
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: scope_note, type: content, label: 'Scope Note' }
+    - { key: stages, type: steps, label: '4-Stage QC Framework' }
+    - { key: inspection_points, type: features, label: 'Inspection Control Points' }
+    - { key: traceability_intro, type: content, label: 'Traceability Intro' }
+    - { key: traceability_chain, type: steps, label: 'Traceability Chain' }
+    - { key: traceability_sample, type: content, label: 'Traceability Sample' }
+    - { key: quarantine_intro, type: content, label: 'Quarantine Intro' }
+    - { key: quarantine_flow, type: steps, label: '7-Step Quarantine Flow' }
+    - { key: quarantine_evidence, type: features, label: 'Quarantine Evidence Photos' }
+    - { key: rework_intro, type: content, label: 'Rework Governance Intro' }
+    - { key: rework_decision, type: steps, label: 'Interactive Rework Decision Flow' }
+    - { key: defect_matrix, type: table, label: 'Defect Classification Matrix' }
+    - { key: rework_flow, type: steps, label: '7-Step Controlled Rework Workflow' }
+    - { key: quality_safeguards, type: features, label: 'Quality Safeguards' }
+    - { key: rework_boundaries, type: content, label: 'Rework Scope & Boundaries' }
+    - { key: method_cards, type: table, label: 'Method Card Index' }
+    - { key: inspector_friendly, type: content, label: 'Inspector-Friendly Protocol' }
+    - { key: document_pack, type: features, label: 'Quality Documentation Pack Downloads' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Quality Review CTA' }
 
 - slug: fishing
   label: Fishing

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { ArrowRight, Check } from 'lucide-react'
+import { ArrowRight, Check, ChevronDown } from 'lucide-react'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
 import { brandify } from '../brand'
@@ -853,6 +853,100 @@ function SizeTableWidget({ c }: { c: Record<string, unknown> }) {
   )
 }
 
+/* ─────────────────────── rework decision flow ─────────────────────── */
+
+const FLOW_STYLES: Record<string, string> = {
+  start: 'bg-sky-500/15 text-sky-600',
+  step: 'bg-primary/12 text-primary',
+  decision: 'bg-amber-500/15 text-amber-600',
+  release: 'bg-emerald-500/15 text-emerald-600',
+  escalate: 'bg-rose-500/15 text-rose-600',
+}
+
+const FLOW_TAG: Record<string, string> = {
+  start: 'Start',
+  step: 'Controlled step',
+  decision: 'Decision',
+  release: 'Release',
+  escalate: 'Escalate',
+}
+
+const FLOW_BADGE: Record<string, string> = {
+  start: '!',
+  decision: '?',
+  release: '\u2713',
+  escalate: '\u2715',
+}
+
+/**
+ * Interactive rework decision flowchart: each node expands its control
+ * requirements on click; decision nodes show the yes/no routing against the
+ * following steps. Backed by `nodes: [{ id, type, label, detail, yes?, no? }]`.
+ */
+function ReworkDecisionWidget({ c }: { c: Record<string, unknown> }) {
+  const [open, setOpen] = React.useState(0)
+  const raw = arr(c.nodes) as Record<string, unknown>[]
+  if (raw.length === 0) return null
+  const labels = new Map(raw.map((n, i) => [str(n.id) || String(i), str(n.label)]))
+  return (
+    <Container>
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
+      <div className="mx-auto mt-10 max-w-3xl">
+        {raw.map((n, i) => {
+          const type = FLOW_STYLES[str(n.type)] ? str(n.type) : 'step'
+          const expanded = open === i
+          const decision = type === 'decision'
+          const yesLabel = labels.get(str(n.yes))
+          const noLabel = labels.get(str(n.no))
+          return (
+            <div key={i}>
+              {i > 0 && (
+                <div className="flex justify-center py-1.5">
+                  <ChevronDown size={16} className="text-fg-3" />
+                </div>
+              )}
+              <div className="marine-card overflow-hidden p-0">
+                <button
+                  type="button"
+                  onClick={() => setOpen(expanded ? -1 : i)}
+                  aria-expanded={expanded}
+                  className="flex w-full items-center gap-4 px-5 py-4 text-left"
+                >
+                  <span className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full font-display text-[15px] font-extrabold ${FLOW_STYLES[type] ?? FLOW_STYLES.step}`}>
+                    {type === 'step' ? String(i + 1) : (FLOW_BADGE[type] ?? '•')}
+                  </span>
+                  <span className="flex-1">
+                    <span className="block font-display text-[15.5px] font-bold">{brandify(str(n.label) || '')}</span>
+                    <span className={`mt-0.5 block text-[11px] font-bold uppercase tracking-[0.12em] ${type === 'step' ? 'text-fg-3' : 'text-inherit'}`}>
+                      {FLOW_TAG[type] ?? 'Step'}
+                    </span>
+                  </span>
+                  <ChevronDown size={17} className={`shrink-0 text-fg-3 transition-transform ${expanded ? 'rotate-180' : ''}`} />
+                </button>
+                {expanded && (
+                  <div className="border-t border-border px-5 py-4">
+                    <p className="text-[13.5px] leading-relaxed text-fg-2">{brandify(str(n.detail) || '')}</p>
+                    {decision && (
+                      <div className="mt-3 flex flex-wrap gap-2">
+                        <span className="rounded-md bg-emerald-500/15 px-2.5 py-1 text-[12px] font-bold text-emerald-600">
+                          Yes → {brandify(yesLabel ?? '')}
+                        </span>
+                        <span className="rounded-md bg-rose-500/15 px-2.5 py-1 text-[12px] font-bold text-rose-600">
+                          No → {brandify(noLabel ?? '')}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            </div>
+          )
+        })}
+      </div>
+    </Container>
+  )
+}
+
 function AcademyCategories({ c }: { c: Record<string, unknown> }) {
   const { locale } = useTranslation()
   const cats = (arr(c.__raw).length ? arr(c.__raw) : arr(c.categories ?? c.items)) as Record<string, unknown>[]
@@ -1154,6 +1248,9 @@ const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNod
   features3_cases: (c) => <CaseCardsWidget c={c} />,
   categories: (c) => <CategoriesWidget c={c} />,
   table: (c) => <SizeTableWidget c={c} />,
+  defect_matrix: (c) => <SizeTableWidget c={c} />,
+  method_cards: (c) => <SizeTableWidget c={c} />,
+  rework_decision: (c) => <ReworkDecisionWidget c={c} />,
   knowledge_sections: (c) => <AcademyKnowledge c={c} />,
   buyer_guides: (c) => <BuyerGuidesWidget c={c} />,
   // ported afarer solution / OEM page sections

@@ -68,6 +68,17 @@ intelligence_cards:
         value: 'FOB, CIF, DDP to 50+ countries'
     link: /factory/oem-capability
     link_label: 'Full OEM services →'
+  - title: Quality Inspection Standards
+    icon: I
+    icon_bg: orange
+    desc: 'Project-specific quality inspection criteria across IQC, IPQC, FQC, and OQC: air-tightness verification, visual and dimensional checks, accessory confirmation, batch traceability, and pre-shipment release sign-off — plus controlled air-tightness non-conformance and rework governance.'
+    metrics:
+      - label: Coverage
+        value: 'Materials → final packing'
+      - label: Downloads
+        value: 'QC protocol, PSI report & rework docs (PDF)'
+    link: /factory/quality-inspection
+    link_label: 'Inspection standards & downloads →'
 
 workshops_section:
   tagline: Workshops
