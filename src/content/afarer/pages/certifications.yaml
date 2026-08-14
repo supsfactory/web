@@ -103,6 +103,75 @@ content_safety:
     - title: 'AS 1799'
       description: 'Inflatable watercraft compliance per Australian Standard AS 1799, coordinated with third-party testing for AU/NZ projects.'
       icon: tabler:lifebuoy
+qs_intro:
+  tagline: Verifiable & Traceable System
+  title: Anonymized Quality Record Samples
+  body: |
+    The samples below show the structure of selected quality records used during custom SUP projects. Customer names, artwork, order details, supplier information and other confidential data have been removed or replaced with demonstration values.
+
+    Each record keeps the four chains a buyer verifies during an audit: **production batch → specification revision → inspection results → sign-off & release status**. The fields shown are demonstration values — they prove the record structure is executable and traceable, not an empty template.
+intelligence_cards:
+  tagline: STAGE 02 – 06 · CONTROLLED QMS RECORDS
+  title: Five Controlled Records, Shown Without Confidential Data
+  subtitle: 'Open any sample to review the anonymized record inside the public PDF. Batch references, specification revisions, inspection results and release dispositions are shown; customer names, artwork, order details and pricing are removed.'
+  cards:
+    - icon: 1
+      icon_bg: blue
+      title: Incoming Material Inspection Record
+      desc: 'Proves raw materials, drop-stitch fabrics, PVC rolls, and components are verified prior to production release.'
+      metrics:
+        - { label: Stage, value: '02 · IQC' }
+        - { label: Batch Ref, value: 'LOT-DEMO-DS-0814' }
+        - { label: Status, value: 'Approved for Production' }
+      link: '/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link_label: 'View Anonymized Sample (PDF)'
+    - icon: 2
+      icon_bg: green
+      title: First Article Inspection (FAI) Record
+      desc: 'Demonstrates version-locking (artwork, dimensions, BOM specs) before entering full mass production.'
+      metrics:
+        - { label: Stage, value: '03 · IPQC' }
+        - { label: Sample Code, value: 'SN-DEMO-FAI-001' }
+        - { label: Status, value: 'FAI Approved' }
+      link: '/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link_label: 'View Anonymized Sample (PDF)'
+    - icon: 3
+      icon_bg: purple
+      title: Inflation & Air-Tightness Test Record
+      desc: 'Verifies 100% full-seam leak detection, valve integrity, and 24-hour pressure-drop retention standards.'
+      metrics:
+        - { label: Stage, value: '04 · Air-Tightness' }
+        - { label: Pressure, value: 'Per Project Plan (18.0 PSI)' }
+        - { label: Status, value: 'Approved for Final Inspection' }
+      link: '/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link_label: 'View Anonymized Sample (PDF)'
+    - icon: 4
+      icon_bg: orange
+      title: Final Product Inspection Report
+      desc: 'Validates finished board against approved sample for dimensions, rocker, cosmetics (D65 light), and fin-box fitment.'
+      metrics:
+        - { label: Stage, value: '05 · FQC' }
+        - { label: Dimension, value: '3508 × 814 × 150.3 mm' }
+        - { label: Status, value: 'Approved for Packing' }
+      link: '/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link_label: 'View Anonymized Sample (PDF)'
+    - icon: 5
+      icon_bg: green
+      title: Packing & Pre-Shipment Checklist
+      desc: 'Ensures 100% kit completeness, barcode readability (Grade ≥ B), carton marking accuracy, and ISTA-1A drop safety.'
+      metrics:
+        - { label: Stage, value: '06 · PSI' }
+        - { label: Kit, value: '100% Match BOM' }
+        - { label: Status, value: 'Approved for Shipment' }
+      link: '/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link_label: 'View Anonymized Sample (PDF)'
+qs_notice:
+  tagline: Confidentiality
+  title: Confidentiality Notice
+  body: |
+    These documents are illustrative samples only. They do not represent a live customer order, final product specification, complete inspection report or product certification. Actual inspection scope, acceptance criteria and records are defined for each approved project.
+
+    > Full project dossiers — quality inspection plan, incoming, in-process, air-tightness, final and packing inspection reports, plus shipment release authorization — are shared under NDA with qualified buyers. Tell us your product category, target market and inspection requirements: we can walk you through the applicable documentation, inspection scope and confidentiality process for your project.
 cta:
   title: 'Need certified products for your project?'
   subtitle: 'Contact our team to discuss certification requirements, documentation, and compliance for your market. Certificate numbers, audit reports, and test documentation are provided under NDA for qualified projects.'

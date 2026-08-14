@@ -103,6 +103,75 @@ content_safety:
     - title: 'AS 1799'
       description: 'Cumplimiento de embarcaciones hinchables según la norma australiana AS 1799, coordinado con ensayos de terceros para proyectos de Australia y Nueva Zelanda.'
       icon: tabler:lifebuoy
+qs_intro:
+  tagline: Sistema verificable y trazable
+  title: Muestras anonimizadas de registros de calidad
+  body: |
+    Las muestras que se muestran a continuación presentan la estructura de registros de calidad seleccionados utilizados en proyectos SUP personalizados. Los nombres de clientes, el arte, los detalles de pedido, la información de proveedores y otros datos confidenciales se han eliminado o sustituido por valores de demostración.
+
+    Cada registro conserva las cuatro cadenas que un comprador verifica durante una auditoría: **lote de producción → revisión de especificación → resultados de inspección → firma y estado de liberación**. Los campos mostrados son valores de demostración: demuestran que la estructura del registro es ejecutable y trazable, no una plantilla vacía.
+intelligence_cards:
+  tagline: ETAPA 02 – 06 · REGISTROS QMS CONTROLADOS
+  title: Cinco registros controlados, mostrados sin datos confidenciales
+  subtitle: 'Abra cualquier muestra para revisar el registro anonimizado dentro del PDF público. Se muestran referencias de lote, revisiones de especificación, resultados de inspección y disposiciones de liberación; los nombres de clientes, el arte, los detalles de pedido y los precios se han eliminado.'
+  cards:
+    - icon: 1
+      icon_bg: blue
+      title: Registro de inspección de materiales entrantes
+      desc: 'Demuestra que las materias primas, los tejidos drop-stitch, los rollos de PVC y los componentes se verifican antes de la liberación a producción.'
+      metrics:
+        - { label: Etapa, value: '02 · IQC' }
+        - { label: Lote, value: 'LOT-DEMO-DS-0814' }
+        - { label: Estado, value: 'Aprobado para producción' }
+      link: '/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link_label: 'Ver muestra anonimizada (PDF)'
+    - icon: 2
+      icon_bg: green
+      title: Registro de primera pieza (FAI)
+      desc: 'Demuestra el bloqueo de versiones (arte, dimensiones, especificaciones BOM) antes de iniciar la producción en masa.'
+      metrics:
+        - { label: Etapa, value: '03 · IPQC' }
+        - { label: Código de pieza, value: 'SN-DEMO-FAI-001' }
+        - { label: Estado, value: 'FAI aprobado' }
+      link: '/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link_label: 'Ver muestra anonimizada (PDF)'
+    - icon: 3
+      icon_bg: purple
+      title: Registro de ensayo de inflado y estanqueidad al aire
+      desc: 'Verifica la detección de fugas al 100% en todas las costuras, la integridad de las válvulas y los estándares de retención de caída de presión de 24 horas.'
+      metrics:
+        - { label: Etapa, value: '04 · Estanqueidad' }
+        - { label: Presión, value: 'Según plan del proyecto (18,0 PSI)' }
+        - { label: Estado, value: 'Aprobado para inspección final' }
+      link: '/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link_label: 'Ver muestra anonimizada (PDF)'
+    - icon: 4
+      icon_bg: orange
+      title: Informe de inspección final del producto
+      desc: 'Valida la tabla terminada contra la muestra aprobada: dimensiones, rocker, cosmética (luz D65) y ajuste de la caja de aleta.'
+      metrics:
+        - { label: Etapa, value: '05 · FQC' }
+        - { label: Dimensiones, value: '3508 × 814 × 150,3 mm' }
+        - { label: Estado, value: 'Aprobado para embalaje' }
+      link: '/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link_label: 'Ver muestra anonimizada (PDF)'
+    - icon: 5
+      icon_bg: green
+      title: Lista de comprobación de embalaje y pre-embarque
+      desc: 'Garantiza la integridad del kit al 100%, la legibilidad de códigos de barras (grado ≥ B), la precisión del marcado del cartón y la seguridad del ensayo de caída ISTA-1A.'
+      metrics:
+        - { label: Etapa, value: '06 · PSI' }
+        - { label: Kit, value: '100% según BOM' }
+        - { label: Estado, value: 'Aprobado para envío' }
+      link: '/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link_label: 'Ver muestra anonimizada (PDF)'
+qs_notice:
+  tagline: Confidencialidad
+  title: Aviso de confidencialidad
+  body: |
+    Estos documentos son solo muestras ilustrativas. No representan un pedido real de cliente, una especificación final de producto, un informe de inspección completo ni una certificación de producto. El alcance de inspección, los criterios de aceptación y los registros reales se definen para cada proyecto aprobado.
+
+    > Los dosieres completos de proyecto — plan de inspección de calidad, informes de inspección de materiales entrantes, en proceso, estanqueidad, final y embalaje, más la autorización de liberación de envío — se comparten bajo NDA con compradores cualificados. Cuéntenos su categoría de producto, mercado objetivo y requisitos de inspección: podemos revisar la documentación aplicable, el alcance de inspección y el proceso de confidencialidad para su proyecto.
 cta:
   title: '¿Necesitas productos certificados para tu proyecto?'
   subtitle: 'Contacta con nuestro equipo para hablar de los requisitos de certificación, documentación y cumplimiento para tu mercado. Los números de certificado, informes de auditoría y documentación de ensayos se facilitan bajo NDA para proyectos cualificados.'

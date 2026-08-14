@@ -43,6 +43,9 @@
     - { key: content_certifications, type: content, label: 'Certifications Content' }
     - { key: content_factory, type: content, label: 'Factory Content' }
     - { key: content_safety, type: content, label: 'Safety Content' }
+    - { key: qs_intro, type: content, label: 'Anonymized Samples Intro' }
+    - { key: intelligence_cards, type: content, label: 'Anonymized Quality Record Samples' }
+    - { key: qs_notice, type: content, label: 'Confidentiality Notice' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: contact
