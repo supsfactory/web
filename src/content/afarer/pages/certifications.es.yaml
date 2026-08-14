@@ -10,7 +10,7 @@ meta:
 hero:
   tagline: Certificaciones y estándares
   title: 'Certificaciones de calidad y estándares de cumplimiento'
-  subtitle: 'La fabricación de SUP y embarcaciones hinchables de afarer está certificada según normas internacionales de seguridad marina, sistemas de gestión de calidad y normativa medioambiental: CE, ISO 9001, UKCA, BSCI y REACH.'
+  subtitle: 'La fabricación de SUP y embarcaciones hinchables de afarer opera según normas internacionales de seguridad marina, sistemas de gestión de calidad y normativa medioambiental: CE, ISO 9001, BSCI y REACH.'
   image:
     src: https://assets.afarer.com/images/afarer/certifications/certifications-hero.webp
     alt: certificaciones de calidad y documentación de cumplimiento de afarer
@@ -21,7 +21,7 @@ stats:
     label: Protocolos de ensayo
   - value: ISO 9001
     label: Calidad certificada
-  - value: 3 años
+  - value: 5 años
     label: Garantía limitada
 tests:
   - title: Ensayo de presión
@@ -59,25 +59,25 @@ tests:
 content_certifications:
   tagline: Nuestras certificaciones
   title: 'Calidad certificada, reconocida mundialmente'
-  subtitle: 'Cada producto afarer está respaldado por certificaciones que demuestran nuestro compromiso con la calidad, la seguridad y la responsabilidad medioambiental.'
+  subtitle: 'Una certificación solo vale por lo que cubre. A continuación, el alcance de cada certificación, el titular del certificado y cómo verificar o solicitar los documentos para tu proyecto.'
   items:
-    - title: 'Certificado CE'
-      description: 'Todos los productos afarer cumplen los requisitos europeos de marcado CE para embarcaciones de recreo, garantizando el cumplimiento de las normas de seguridad, salud y protección medioambiental.'
+    - title: 'Marcado CE'
+      description: 'Los modelos estándar de SUP y embarcaciones llevan el marcado CE según la Directiva 2013/53/UE para embarcaciones de recreo. Los modelos personalizados se certifican CE mediante nuestro proceso establecido para tu configuración. Números de certificado e informes de ensayo disponibles bajo petición.'
       icon: tabler:certificate
     - title: 'ISO 9001:2015'
-      description: 'Nuestro sistema de gestión de calidad está certificado ISO 9001:2015 y cubre el diseño, la fabricación y la distribución de embarcaciones hinchables y equipo marino.'
+      description: 'Sistema de gestión de calidad certificado según ISO 9001:2015, que cubre el diseño, la fabricación y la distribución de embarcaciones hinchables y equipo marino. Alcance de la certificación e informe de auditoría disponibles bajo petición.'
       icon: tabler:clipboard-check
-    - title: 'Marcado UKCA'
-      description: 'Los productos vendidos en el mercado del Reino Unido llevan el marcado UKCA, que confirma el cumplimiento de la normativa británica para equipo marino y embarcaciones personales.'
-      icon: tabler:shield
     - title: 'Cumplimiento BSCI'
-      description: 'afarer está auditado según BSCI (Business Social Compliance Initiative), demostrando prácticas de fabricación éticas, condiciones laborales justas y responsabilidad en la cadena de suministro.'
+      description: 'Auditado según BSCI (Business Social Compliance Initiative), cubriendo las condiciones de trabajo y el cumplimiento de la fábrica. Informe de auditoría disponible bajo petición.'
       icon: tabler:heart-handshake
     - title: 'Cumplimiento REACH'
-      description: 'Todos los materiales utilizados en los productos afarer cumplen el reglamento europeo REACH de seguridad química, garantizando que nuestro PVC, Hypalon o componentes no contengan sustancias restringidas.'
+      description: 'Los materiales cumplen el reglamento europeo REACH de seguridad química. Las declaraciones de materiales se entregan con la documentación de producción de cada envío.'
       icon: tabler:flask
+    - title: 'Cumplimiento RoHS'
+      description: 'Cumplimiento de sustancias peligrosas restringidas documentado según RoHS para los componentes y materiales aplicables.'
+      icon: tabler:flame
     - title: 'Ensayo de materiales'
-      description: 'Los tejidos se ensayan en cuanto a resistencia a la tracción, resistencia al desgarro, degradación UV y comportamiento ante grietas por frío. Cada lote de producción se muestrea y verifica.'
+      description: 'Los tejidos se ensayan en cuanto a resistencia a la tracción, resistencia al desgarro, degradación UV y comportamiento ante grietas por frío. Cada lote de producción se muestrea y verifica según el protocolo de ensayo publicado.'
       icon: tabler:test-pipe
 content_factory:
   tagline: Estándares de fábrica
@@ -86,26 +86,26 @@ content_factory:
   list:
     - 'Inspección de materiales entrantes: todas las materias primas (tejido PVC, Hypalon, aluminio, contrachapado, adhesivos) se ensayan contra las especificaciones antes de entrar en producción.'
     - 'Control de calidad en proceso: cada etapa de producción tiene puntos de control documentados. La resistencia de soldaduras, la alineación de costuras, la instalación de válvulas y el par de apriete se verifican en línea.'
-    - 'Ensayo de presión: cada cámara hinchable se somete a prueba de presión a 1,5× la presión nominal durante 24 horas. La tasa de fugas debe ser cero para superar la prueba.'
+    - 'Ensayo de presión: cada cámara hinchable se somete a prueba de presión a 1,25× la presión nominal durante 48 horas (rechazo automático al superar el 5% de caída de presión en un mantenimiento de 24 horas). El 100% de las unidades se prueba antes del embalaje.'
     - 'Inspección final: los productos terminados se inspeccionan en cuanto a precisión dimensional, acabado cosmético, integridad de accesorios e integridad del embalaje antes del envío.'
     - 'Trazabilidad por lotes: cada producto lleva un número de serie vinculado a los registros del lote de producción, lo que permite una trazabilidad completa desde la materia prima hasta el producto terminado.'
 content_safety:
   tagline: Normas de seguridad marina
-  title: 'Seguridad ante todo: diseñado para un funcionamiento fiable'
-  subtitle: 'Los productos afarer están diseñados y ensayados para cumplir las normas internacionales de seguridad marina de uso comercial y recreativo.'
+  title: 'Ensayado según normas marinas internacionales'
+  subtitle: 'Los productos se diseñan y ensayan según normas internacionales de seguridad marina para uso comercial y recreativo. Los métodos y resultados de verificación se documentan por proyecto.'
   items:
     - title: 'ISO 6185'
-      description: 'Las embarcaciones hinchables cumplen la norma ISO 6185 de construcción, estabilidad, flotabilidad y capacidad de carga.'
+      description: 'Construcción, estabilidad, flotabilidad y capacidad de carga verificadas según ISO 6185 para embarcaciones hinchables. Los ensayos de pelado de costuras y de mantenimiento de presión siguen los métodos ISO 6185.'
       icon: tabler:sailboat
-    - title: 'Normas ABYC'
-      description: 'Los sistemas eléctricos y de combustible siguen las normas ABYC (American Boat & Yacht Council) para una instalación y funcionamiento seguros.'
-      icon: tabler:bolt
-    - title: 'Cumplimiento SOLAS'
-      description: 'El equipo de seguridad y los dispositivos de salvamento cumplen los requisitos SOLAS (Seguridad de la vida humana en el mar) cuando procede.'
+    - title: 'Aprobación USCG'
+      description: 'Documentación de cumplimiento aprobada por la USCG para productos exportados al mercado estadounidense. Documentación disponible bajo petición por envío.'
+      icon: tabler:shield
+    - title: 'AS 1799'
+      description: 'Cumplimiento de embarcaciones hinchables según la norma australiana AS 1799, coordinado con ensayos de terceros para proyectos de Australia y Nueva Zelanda.'
       icon: tabler:lifebuoy
 cta:
   title: '¿Necesitas productos certificados para tu proyecto?'
-  subtitle: 'Contacta con nuestro equipo para hablar de los requisitos de certificación, documentación y cumplimiento para tu mercado.'
+  subtitle: 'Contacta con nuestro equipo para hablar de los requisitos de certificación, documentación y cumplimiento para tu mercado. Los números de certificado, informes de auditoría y documentación de ensayos se facilitan bajo NDA para proyectos cualificados.'
   actions:
     - variant: primary
       text: Solicitar documentación de certificación

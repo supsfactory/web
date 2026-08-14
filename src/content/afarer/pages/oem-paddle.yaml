@@ -62,7 +62,7 @@ features:
       description: 'Logo, labels, packaging, and display boxes in your brand image.'
       icon: 'tabler:shield-check'
     - title: 'Certified Quality'
-      description: 'CE / ISO / UKCA / BSCI / REACH — professional inflatable paddles for global markets.'
+      description: 'CE / ISO / BSCI / REACH — professional inflatable paddles for global markets.'
       icon: 'tabler:certificate'
     - title: 'Global Shipping'
       description: 'FOB Qingdao, CIF major ports, and door-to-door delivery to 50+ countries.'

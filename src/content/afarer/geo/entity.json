@@ -74,16 +74,11 @@
   "hasCertification": [
     {
       "@type": "Certification",
-      "name": "CE Certification",
+      "name": "CE Marking (Directive 2013/53/EU)",
       "authority": { "@type": "Organization", "name": "European Union" }
     },
-    { "@type": "Certification", "name": "ISO 9001:2015", "authority": { "@type": "Organization", "name": "SGS" } },
-    { "@type": "Certification", "name": "BSCI Compliance", "authority": { "@type": "Organization", "name": "amfori" } },
-    {
-      "@type": "Certification",
-      "name": "UKCA Marking",
-      "authority": { "@type": "Organization", "name": "UK Government" }
-    }
+    { "@type": "Certification", "name": "ISO 9001:2015" },
+    { "@type": "Certification", "name": "BSCI Compliance", "authority": { "@type": "Organization", "name": "amfori" } }
   ],
   "knowsAbout": [
     "Marine Engineering",

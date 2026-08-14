@@ -10,7 +10,7 @@ meta:
 hero:
   tagline: Certifications & Standards
   title: 'Quality Certifications & Compliance Standards'
-  subtitle: 'afarer SUP and inflatable boat manufacturing is certified to international marine safety standards, quality management systems, and environmental regulations —CE, ISO 9001, UKCA, BSCI, and REACH.'
+  subtitle: 'afarer SUP and inflatable boat manufacturing operates to international marine safety standards, quality management systems, and environmental regulations —CE, ISO 9001, BSCI, and REACH.'
   image:
     src: https://assets.afarer.com/images/afarer/certifications/certifications-hero.webp
     alt: afarer quality certifications and compliance documentation
@@ -21,7 +21,7 @@ stats:
     label: Testing protocols
   - value: ISO 9001
     label: Quality certified
-  - value: 3-Year
+  - value: 5-Year
     label: Limited warranty
 tests:
   - title: Pressure Testing
@@ -59,25 +59,25 @@ tests:
 content_certifications:
   tagline: Our Certifications
   title: 'Certified Quality, Globally Recognized'
-  subtitle: 'Every afarer product is backed by certifications that demonstrate our commitment to quality, safety, and environmental responsibility.'
+  subtitle: 'Certifications are only as valuable as what they cover. Below is the certification scope, the certificate holder, and how to verify or request the documents for your project.'
   items:
-    - title: 'CE Certified'
-      description: 'All afarer products comply with European CE marking requirements for recreational watercraft, ensuring safety, health, and environmental protection standards are met.'
+    - title: 'CE Marking'
+      description: 'Standard SUP and boat models carry CE marking per Directive 2013/53/EU for recreational craft. Custom models are CE certified through our established process for your configuration. Certificate numbers and test reports available on request.'
       icon: tabler:certificate
     - title: 'ISO 9001:2015'
-      description: 'Our quality management system is ISO 9001:2015 certified, covering design, manufacturing, and distribution of inflatable watercraft and marine equipment.'
+      description: 'Quality management system certified to ISO 9001:2015, covering design, manufacturing, and distribution of inflatable watercraft and marine equipment. Certification scope and audit report available on request.'
       icon: tabler:clipboard-check
-    - title: 'UKCA Marked'
-      description: 'Products sold in the UK market carry UKCA marking, confirming compliance with UK regulations for marine equipment and personal watercraft.'
-      icon: tabler:shield
-    - title: 'BSCI Compliant'
-      description: 'afarer is BSCI (Business Social Compliance Initiative) audited, demonstrating ethical manufacturing practices, fair labor conditions, and supply chain responsibility.'
+    - title: 'BSCI Social Compliance'
+      description: 'BSCI (Business Social Compliance Initiative) audited, covering working conditions and factory compliance. Audit report available on request.'
       icon: tabler:heart-handshake
-    - title: 'REACH Compliant'
-      description: 'All materials used in afarer products comply with EU REACH regulations for chemical safety, ensuring no restricted substances in our PVC, Hypalon, or components.'
+    - title: 'REACH Material Compliance'
+      description: 'Materials comply with EU REACH regulation for chemical safety. Material declarations are provided with production documentation for each shipment.'
       icon: tabler:flask
+    - title: 'RoHS Compliance'
+      description: 'Restricted-hazardous-substance compliance documented per RoHS for applicable components and materials.'
+      icon: tabler:flame
     - title: 'Material Testing'
-      description: 'Fabrics are tested for tensile strength, tear resistance, UV degradation, and cold-crack performance. Every production batch is sampled and verified.'
+      description: 'Fabrics are tested for tensile strength, tear resistance, UV degradation, and cold-crack performance. Every production batch is sampled and verified to the published test protocol.'
       icon: tabler:test-pipe
 content_factory:
   tagline: Factory Standards
@@ -86,26 +86,26 @@ content_factory:
   list:
     - 'Incoming Material Inspection: All raw materials —PVC fabric, Hypalon, aluminum, plywood, adhesives —are tested against specifications before entering production.'
     - 'In-Process Quality Control: Every production stage has documented QC checkpoints. Weld strength, seam alignment, valve installation, and fitting torque are verified inline.'
-    - 'Pressure Testing: Every inflatable chamber is pressure-tested at 1.5× rated pressure for 24 hours. Leak rate must be zero for passing grade.'
+    - 'Pressure Testing: Every inflatable chamber is pressure-tested at 1.25× rated pressure for 48 hours (auto-reject above 5% pressure drop on a 24-hour hold). 100% of units are tested before packing.'
     - 'Final Inspection: Completed products are inspected for dimensional accuracy, cosmetic finish, accessory completeness, and packaging integrity before shipping.'
     - 'Batch Traceability: Every product carries a serial number linked to production batch records, enabling full traceability from raw material to finished goods.'
 content_safety:
   tagline: Marine Safety Standards
-  title: 'Safety First —Designed for Reliable Operation'
-  subtitle: 'afarer products are designed and tested to meet international marine safety standards for commercial and recreational use.'
+  title: 'Tested to International Marine Standards'
+  subtitle: 'Products are designed and tested against international marine safety standards for commercial and recreational use. Verification methods and results are documented per project.'
   items:
     - title: 'ISO 6185'
-      description: 'Inflatable boats comply with ISO 6185 standards for construction, stability, buoyancy, and load capacity.'
+      description: 'Construction, stability, buoyancy, and load capacity verified per ISO 6185 for inflatable craft. Seam peel and pressure-hold tests follow ISO 6185 methods.'
       icon: tabler:sailboat
-    - title: 'ABYC Standards'
-      description: 'Electrical systems and fuel systems follow ABYC (American Boat & Yacht Council) standards for safe installation and operation.'
-      icon: tabler:bolt
-    - title: 'SOLAS Compliance'
-      description: 'Safety equipment and life-saving appliances meet SOLAS (Safety of Life at Sea) requirements where applicable.'
+    - title: 'USCG Approval'
+      description: 'USCG-approved compliance documentation for exported products entering the US market. Documentation available on request per shipment.'
+      icon: tabler:shield
+    - title: 'AS 1799'
+      description: 'Inflatable watercraft compliance per Australian Standard AS 1799, coordinated with third-party testing for AU/NZ projects.'
       icon: tabler:lifebuoy
 cta:
   title: 'Need certified products for your project?'
-  subtitle: 'Contact our team to discuss certification requirements, documentation, and compliance for your market.'
+  subtitle: 'Contact our team to discuss certification requirements, documentation, and compliance for your market. Certificate numbers, audit reports, and test documentation are provided under NDA for qualified projects.'
   actions:
     - variant: primary
       text: Request certification docs

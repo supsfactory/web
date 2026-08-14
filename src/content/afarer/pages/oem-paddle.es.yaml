@@ -62,7 +62,7 @@ features:
       description: 'Logotipo, etiquetas, embalaje y cajas expositivas acordes a la imagen de tu marca.'
       icon: 'tabler:shield-check'
     - title: 'Calidad certificada'
-      description: 'CE / ISO / UKCA / BSCI / REACH — paddles hinchables profesionales para los mercados globales.'
+      description: 'CE / ISO / BSCI / REACH — paddles hinchables profesionales para los mercados globales.'
       icon: 'tabler:certificate'
     - title: 'Envío internacional'
       description: 'FOB Qingdao, CIF en los puertos principales y entrega puerta a puerta en más de 50 países.'
