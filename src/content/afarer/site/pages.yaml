@@ -2,7 +2,6 @@
   label: Home
   path: /
   permalink: /
-  file: src/data/pages/home.yaml
   sections:
     - { key: hero, type: hero, label: 'Hero Section (static, only used when no carousel)' }
     - { key: hero_carousel, type: hero_carousel, label: 'Hero Carousel (3 switchable slides)' }
@@ -19,7 +18,6 @@
   label: About afarer
   path: /about/afarer
   permalink: /about/afarer
-  file: src/data/pages/about-afarer.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
@@ -38,7 +36,6 @@
   label: Certifications
   path: /quality
   permalink: /quality
-  file: src/data/pages/certifications.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: stats, type: stats, label: 'Statistics' }
@@ -52,7 +49,6 @@
   label: Contact
   path: /contact
   permalink: /contact
-  file: src/data/pages/contact.yaml
   sections:
     - { key: hero_text, type: hero_text, label: 'Top HeroText' }
     - { key: contact_form, type: contact, label: 'Contact Form' }
@@ -62,7 +58,6 @@
   label: Factory
   path: /factory
   permalink: /factory
-  file: src/data/pages/factory.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
@@ -85,7 +80,6 @@
   label: Factory Capacity
   path: /factory/capacity
   permalink: /factory/capacity
-  file: src/data/pages/factory-capacity.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
@@ -99,7 +93,6 @@
   label: Factory Equipment
   path: /factory/equipment
   permalink: /factory/equipment
-  file: src/data/pages/factory-equipment.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: categories, type: features, label: 'Equipment Categories' }
@@ -109,7 +102,6 @@
   label: Factory OEM Capability
   path: /factory/oem-capability
   permalink: /factory/oem-capability
-  file: src/data/pages/factory-oem-capability.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
@@ -122,7 +114,6 @@
   label: Factory Process
   path: /factory/process
   permalink: /factory/process
-  file: src/data/pages/factory-process.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
@@ -133,7 +124,6 @@
   label: Factory Quality Lab
   path: /factory/quality-lab
   permalink: /factory/quality-lab
-  file: src/data/pages/factory-quality-lab.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
@@ -145,7 +135,6 @@
   label: Fishing
   path: /fishing
   permalink: /fishing
-  file: src/data/pages/fishing.yaml
   sections:
     - { key: label, type: content, label: 'Page Label' }
     - { key: headline, type: content, label: 'Headline' }
@@ -158,7 +147,6 @@
   label: Gallery
   path: /gallery
   permalink: /gallery
-  file: src/data/pages/gallery.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: albums, type: features, label: 'Photo Albums' }
@@ -168,7 +156,6 @@
   label: Inflatable vs Hardboard
   path: /inflatable-vs-hardboard
   permalink: /inflatable-vs-hardboard
-  file: src/data/pages/inflatable-vs-hardboard.yaml
   sections:
     - { key: label, type: content, label: 'Page Label' }
     - { key: headline, type: content, label: 'Headline' }
@@ -181,7 +168,6 @@
   label: Knowledge
   path: /knowledge
   permalink: /knowledge
-  file: src/data/pages/knowledge.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: clusters, type: features, label: 'Knowledge Clusters' }
@@ -192,7 +178,6 @@
   label: News
   path: /news
   permalink: /news
-  file: src/data/pages/news.yaml
   sections:
     - { key: hero_text, type: hero_text, label: 'Page Header (title, subtitle, tagline)' }
     - { key: news_list, type: blog_latest, label: 'News List' }
@@ -201,7 +186,6 @@
   label: Partners
   path: /partners
   permalink: /partners
-  file: src/data/pages/partners.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: content_programs, type: content, label: 'Programs Content' }
@@ -213,7 +197,6 @@
   label: R&D Center
   path: /randdcenter
   permalink: /randdcenter
-  file: src/data/pages/randdcenter.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
@@ -229,7 +212,6 @@
   label: Size Guide
   path: /size-guide
   permalink: /size-guide
-  file: src/data/pages/size-guide.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: categories, type: features, label: 'Categories' }
@@ -240,7 +222,6 @@
   label: Solutions
   path: /solutions
   permalink: /solutions
-  file: src/data/pages/solutions.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: stats, type: stats, label: 'Statistics' }
@@ -250,7 +231,6 @@
   label: Technology
   path: /technology
   permalink: /technology
-  file: src/data/pages/technology.yaml
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: sections, type: features, label: 'Technology Sections' }
@@ -260,7 +240,6 @@
   label: Tourism & Recreation
   path: /tourism-recreation
   permalink: /tourism-recreation
-  file: src/data/pages/tourism-recreation.yaml
   sections:
     - { key: label, type: content, label: 'Page Label' }
     - { key: headline, type: content, label: 'Headline' }
@@ -273,7 +252,6 @@
   label: Warranty
   path: /warranty
   permalink: /warranty
-  file: src/data/pages/warranty.yaml
   sections:
     - { key: label, type: content, label: 'Page Label' }
     - { key: headline, type: content, label: 'Headline' }
@@ -285,7 +263,6 @@
   label: What is SUP
   path: /what-is-sup
   permalink: /what-is-sup
-  file: src/data/pages/what-is-sup.yaml
   sections:
     - { key: label, type: content, label: 'Page Label' }
     - { key: headline, type: content, label: 'Headline' }
