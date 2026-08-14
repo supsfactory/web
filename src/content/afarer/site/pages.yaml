@@ -167,6 +167,7 @@
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: stats, type: stats, label: 'Change Control Stats' }
     - { key: cc_intro, type: content, label: 'Governance Principles' }
     - { key: cc_scope, type: table, label: 'Change Scope & Risk Classification' }
     - { key: cc_containment, type: content, label: 'Containment Rule' }

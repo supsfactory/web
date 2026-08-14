@@ -28,6 +28,20 @@ answer:
   text: 'Los cambios de parámetros de retrabajo nunca se deciden verbalmente ni de forma retroactiva en QINGDAO VATRAD GROUP.,LTD. Todo cambio propuesto en materiales de retrabajo aprobados, condiciones de proceso, equipos, métodos de ensayo, criterios de inspección o personal autorizado debe pasar un control de cambios formal antes de su implementación: una solicitud de cambio de ingeniería (ECR) documentada, evaluación de impacto y riesgos, revisión interdepartamental por Ingeniería, Calidad, Producción, Compras y Proyecto, aprobación al nivel fijado por nuestra matriz de autorización, un plan de validación aprobado para cambios de alto riesgo, implementación piloto controlada, reinspección y revisión de eficacia, y cierre solo tras la revisión de documentos y la formación. Cualquier cambio que afecte a especificaciones, muestras, BOM, arte o criterios de aceptación aprobados por el cliente requiere además su aprobación escrita.'
   verified: '2026-08'
 
+stats:
+  tagline: De un vistazo
+  title: El control de cambios en cifras
+  stats:
+    - value: '9'
+      label: Pasos del bucle cerrado de control de cambios
+    - value: '6'
+      label: Categorías de cambio que requieren control de cambios formal
+    - value: '4'
+      label: Procesos básicos de retrabajo con parámetros cuantificados
+    - value: '≥ 5'
+      label: Tablas de muestra + 2 inspectores de Calidad para validación de alto riesgo
+
+
 cc_intro:
   tagline: Alcance y política
   title: Principios básicos de gobernanza

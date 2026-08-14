@@ -28,6 +28,20 @@ answer:
   text: 'Rework parameter changes are never decided verbally or retroactively at QINGDAO VATRAD GROUP.,LTD. Every proposed change to approved rework materials, process conditions, equipment, test methods, inspection criteria or authorized personnel must pass formal change control before implementation: a documented Engineering Change Request (ECR), impact and risk assessment, cross-functional review by Engineering, Quality, Production, Procurement and Project, approval at the level fixed by our authorization matrix, an approved validation plan for high-risk changes, controlled pilot implementation, re-inspection and effectiveness review, and closure only after document revision and training. Any change affecting customer-approved specifications, samples, BOMs, artwork or acceptance criteria additionally requires written customer approval.'
   verified: '2026-08'
 
+stats:
+  tagline: At a Glance
+  title: Change Control in Numbers
+  stats:
+    - value: '9'
+      label: Steps in the change control closed-loop
+    - value: '6'
+      label: Change categories requiring formal change control
+    - value: '4'
+      label: Core rework processes with quantified parameters
+    - value: '≥ 5'
+      label: Sample boards + 2 independent QC for high-risk validation
+
+
 cc_intro:
   tagline: Scope & Policy
   title: Core Governance Principles
