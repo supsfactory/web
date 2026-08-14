@@ -308,9 +308,10 @@ const ICON_HUE: Record<string, string> = {
   orange: 'bg-orange-500/15 text-orange-600',
 }
 
-function FeatureGrid({ c, grid = 'sm:grid-cols-2 lg:grid-cols-3' }: { c: Record<string, unknown>; grid?: string }) {
+function FeatureGrid({ c, grid: gridProp = 'sm:grid-cols-2 lg:grid-cols-3' }: { c: Record<string, unknown>; grid?: string }) {
   const { locale } = useTranslation()
   const items = cardItems(c)
+  const grid = str(c.grid) || gridProp
   if (items.length === 0) return null
   return (
     <Container>

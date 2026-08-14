@@ -18,7 +18,7 @@ const handler = () => {
     .filter((p) => !(p.path in EDGE_REDIRECTS))
     .map((p) => {
       const seo = p.content.seo as { dateModified?: string } | undefined
-      return { loc: p.path, lastmod: seo?.dateModified ?? '2026-06-01', es: esPaths.has(p.path) }
+      return { loc: p.path, lastmod: p.meta?.dateModified ?? seo?.dateModified ?? '2026-06-01', es: esPaths.has(p.path) }
     })
   const staticPages = [
     ...GUIDES.map((g) => ({ loc: `/guides/${g.slug}`, lastmod: '2026-06-01', es: true })),

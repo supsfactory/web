@@ -246,6 +246,7 @@ cc_photos:
   tagline: On the Factory Floor
   title: Rebuild, Re-Test, Release — Documented at Every Step
   subtitle: Photos from our Qingdao workshop show each controlled rework process with its calibrated gauges, defined parameters and on-site records — the same evidence inspectors can request at any time.
+  grid: 'sm:grid-cols-2'
   features:
     - image: /assets/quality/cc-pinhole-repair.jpg
       alt: Technician repairing a pinhole micro-leak on an inflatable SUP with a hot-air gun and pressure roller

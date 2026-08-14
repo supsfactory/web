@@ -10,5 +10,8 @@
 /fonts/*.woff2
   Cache-Control: public, max-age=604800
 
+/assets/quality/*.jpg
+  Cache-Control: public, max-age=604800
+
 /downloads/*.pdf
   Cache-Control: public, max-age=3600

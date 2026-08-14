@@ -246,6 +246,7 @@ cc_photos:
   tagline: En la planta
   title: Reparar, re-ensayar, liberar — documentado en cada paso
   subtitle: Fotografías de nuestro taller en Qingdao muestran cada proceso de retrabajo controlado con sus instrumentos calibrados, parámetros definidos y registros en planta — la misma evidencia que los inspectores pueden solicitar en cualquier momento.
+  grid: 'sm:grid-cols-2'
   features:
     - image: /assets/quality/cc-pinhole-repair.jpg
       alt: Técnico reparando una micro-fuga tipo poro en un SUP hinchable con pistola de aire caliente y rodillo de presión
