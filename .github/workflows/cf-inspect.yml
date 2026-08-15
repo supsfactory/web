@@ -28,6 +28,16 @@ jobs:
             curl -sS "$API/zones/$ZID/rulesets/phases/http_request_cache_settings/entrypoint" -H "$AUTH" | jq '.'
             echo "== http_cache_settings (edge ttl) =="
             curl -sS "$API/zones/$ZID/rulesets/phases/http_cache_settings/entrypoint" -H "$AUTH" | jq '.'
+            echo "== settings cache_level =="
+            curl -sS "$API/zones/$ZID/settings/cache_level" -H "$AUTH" | jq '.'
+            echo "== settings browser_cache_ttl =="
+            curl -sS "$API/zones/$ZID/settings/browser_cache_ttl" -H "$AUTH" | jq '.result.value // .errors'
+            echo "== settings always_online =="
+            curl -sS "$API/zones/$ZID/settings/always_online" -H "$AUTH" | jq '.result.value // .errors'
+            echo "== settings sort_query_string_for_cache =="
+            curl -sS "$API/zones/$ZID/settings/sort_query_string_for_cache" -H "$AUTH" | jq '.result.value // .errors'
+            echo "== settings development_mode =="
+            curl -sS "$API/zones/$ZID/settings/development_mode" -H "$AUTH" | jq '.result.value // .errors'
             echo "== page rules =="
             curl -sS "$API/zones/$ZID/pagerules?status=active" -H "$AUTH" | jq '.'
           } 2>&1 | tee cf-inspect.log
