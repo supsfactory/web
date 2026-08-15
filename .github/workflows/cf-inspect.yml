@@ -30,8 +30,6 @@ jobs:
             curl -sS "$API/zones/$ZID/rulesets/phases/http_cache_settings/entrypoint" -H "$AUTH" | jq '.'
             echo "== settings cache_level =="
             curl -sS "$API/zones/$ZID/settings/cache_level" -H "$AUTH" | jq '.'
-            echo "== FIX: set cache_level to standard (zone settings edit) =="
-            curl -sS -X PATCH "$API/zones/$ZID/settings/cache_level" -H "$AUTH" -H "Content-Type: application/json" -d '{"value":"standard"}' | jq '.'
             echo "== FIX: purge everything (zone cache purge) =="
             curl -sS -X POST "$API/zones/$ZID/purge_cache" -H "$AUTH" -H "Content-Type: application/json" -d '{"purge_everything":true}' | jq '.'
             echo "== settings browser_cache_ttl =="
