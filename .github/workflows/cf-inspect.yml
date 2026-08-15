@@ -1,0 +1,38 @@
+name: CF Inspect
+on:
+  workflow_dispatch:
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect Cloudflare cache config
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          set -e
+          API="https://api.cloudflare.com/client/v4"
+          AUTH="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          echo "== zone lookup =="
+          ZHTTP=$(curl -sS -o /tmp/zone.json -w '%{http_code}' \
+            "$API/zones?name=supsfactory.com&per_page=1" -H "$AUTH")
+          echo "zone lookup HTTP $ZHTTP"
+          ZID=$(jq -r '.result[0].id // ""' /tmp/zone.json)
+          echo "zone id: $ZID"
+          [ -n "$ZID" ] || { echo "zone not found; token may lack Zone Read"; cat /tmp/zone.json | jq '.errors'; exit 0; }
+          echo "== cache_rules =="
+          curl -sS "$API/zones/$ZID/cache/cache_rules" -H "$AUTH" | jq .
+          echo "== page_rules =="
+          curl -sS "$API/zones/$ZID/pagerules?status=active" -H "$AUTH" | jq '.result | map({id, targets, action})'
+          echo "== cache_level settings =="
+          curl -sS "$API/zones/$ZID/settings/cache_level" -H "$AUTH" | jq .
+          echo "== image_resizing settings =="
+          curl -sS "$API/zones/$ZID/settings/image_resizing" -H "$AUTH" | jq .
+
+      - name: Show recent deploy runs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -sS -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/runs?per_page=3" \
+            | jq '[.workflow_runs[] | {name, status, conclusion, head_sha, run_number, created_at, updated_at}]'
