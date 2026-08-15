@@ -1,4 +1,5 @@
 import { createFileRoute, getRouteApi } from '@tanstack/react-router'
+import { useEffect, useState } from 'react'
 import { Mail, MessageCircle, Clock3, ShieldCheck, FileText, Plus } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -42,12 +43,28 @@ export const Route = createFileRoute('/{-$locale}/contact')({
   component: ContactPage,
 })
 
+/** Semantic CTAs across the site deep-link to the contact form via #anchor. */
+const INTENT_ANCHORS = ['custom-oem', 'cobranding', 'moq-guide', 'production-availability', 'project-brief'] as const
+
 function ContactPage() {
   const { theme, user } = rootRoute.useLoaderData()
   const { t, locale } = useTranslation()
   const { turnstileSiteKey } = Route.useLoaderData()
   const { product, category } = Route.useSearch()
   const matched = product ? pick(products, locale).items.find((p) => p.slug === product) : undefined
+  const [intent, setIntent] = useState<string | null>(null)
+
+  useEffect(() => {
+    const raw = window.location.hash.replace(/^#/, '')
+    const labels = (dictionaries[locale].sup.contact.intentLabels ?? {}) as Record<string, string>
+    const anchor = INTENT_ANCHORS.find((a) => a === raw)
+    if (anchor && labels[anchor]) {
+      setIntent(labels[anchor])
+      document.getElementById('quality-inquiry')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    } else if (raw === 'quality-inquiry' || raw === 'trust-verification') {
+      document.getElementById(raw)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }, [locale])
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -110,11 +127,10 @@ function ContactPage() {
           <div className="mt-6">
             <InquiryForm
               turnstileSiteKey={turnstileSiteKey}
-              prefill={
-                matched || category
-                  ? { name: matched?.name, sku: matched?.sku, category: category ?? matched?.series }
-                  : undefined
-              }
+              prefill={{
+                ...(matched || category ? { name: matched?.name, sku: matched?.sku, category: category ?? matched?.series } : {}),
+                ...(intent ? { intent } : {}),
+              }}
             />
           </div>
         </div>

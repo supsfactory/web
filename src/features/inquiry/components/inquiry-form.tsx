@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Check, ChevronDown, FileText, ShieldCheck, UploadCloud, X } from 'lucide-react'
+import { ArrowRight, Check, ChevronDown, FileText, ShieldCheck, UploadCloud, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { dictionaries } from '@/features/i18n/locale'
 import { Input } from '@/components/ui/input'
@@ -17,6 +17,8 @@ export interface InquiryPrefill {
   sku?: string
   /** SUP product category key, preselected in the category field. */
   category?: string
+  /** Project intent label from a CTA deep link (e.g. custom OEM, MOQ planning). */
+  intent?: string
 }
 
 /**
@@ -135,6 +137,13 @@ export function InquiryForm({
 
   return (
     <form onSubmit={submit} className="flex flex-col gap-4">
+      {prefill?.intent && (
+        <p className="flex items-center gap-2 rounded-lg border border-primary/25 bg-soft/60 px-3 py-2 text-[12.5px] font-medium text-primary">
+          <ArrowRight size={14} className="shrink-0" />
+          {locale === 'es' ? 'Proyecto iniciado desde: ' : 'Project started from: '}
+          {prefill.intent}
+        </p>
+      )}
       {prefill?.name && (
         <p className="rounded-lg border border-primary/25 bg-soft/60 px-3 py-2 text-[12.5px] font-medium text-primary">
           {locale === 'es'
