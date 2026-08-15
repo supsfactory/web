@@ -2,33 +2,43 @@ name: CF Inspect
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   inspect:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.0.0
+
       - name: Inspect Cloudflare cache config
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
-          set -e
+          set +e
           API="https://api.cloudflare.com/client/v4"
           AUTH="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
-          echo "== token verify =="
-          curl -sS "$API/user/tokens/verify" -H "$AUTH" | jq '{success, result}'
-          ZID="4a6adf44067bd05a752eae9d3b6cbb80"
-          echo "== rulesets phases =="
-          curl -sS "$API/zones/$ZID/rulesets" -H "$AUTH" | jq '{success, count: (.result | length), phases: [.result[]? | {phase, id}]}'
-          echo "== http_request_cache_settings (cache rules) =="
-          curl -sS "$API/zones/$ZID/rulesets/phases/http_request_cache_settings/entrypoint" -H "$AUTH" | jq '.result.rules // {success, errors}'
-          echo "== http_cache_settings (edge ttl) =="
-          curl -sS "$API/zones/$ZID/rulesets/phases/http_cache_settings/entrypoint" -H "$AUTH" | jq '.result.rules // {success, errors}'
-          echo "== page rules =="
-          curl -sS "$API/zones/$ZID/pagerules?status=active" -H "$AUTH" | jq '.result // .errors'
+          {
+            echo "== token verify =="
+            curl -sS "$API/user/tokens/verify" -H "$AUTH" | jq '{success, result}'
+            ZID="4a6adf44067bd05a752eae9d3b6cbb80"
+            echo "== rulesets phases =="
+            curl -sS "$API/zones/$ZID/rulesets" -H "$AUTH" | jq '{success, count: (.result | length), phases: [.result[]? | {phase, id}]}'
+            echo "== http_request_cache_settings (cache rules) =="
+            curl -sS "$API/zones/$ZID/rulesets/phases/http_request_cache_settings/entrypoint" -H "$AUTH" | jq '.'
+            echo "== http_cache_settings (edge ttl) =="
+            curl -sS "$API/zones/$ZID/rulesets/phases/http_cache_settings/entrypoint" -H "$AUTH" | jq '.'
+            echo "== page rules =="
+            curl -sS "$API/zones/$ZID/pagerules?status=active" -H "$AUTH" | jq '.'
+          } 2>&1 | tee cf-inspect.log
+          exit 0
 
-      - name: Show recent deploy runs
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push results
         run: |
-          curl -sS -H "Authorization: Bearer $GH_TOKEN" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/runs?per_page=3" \
-            | jq '[.workflow_runs[] | {name, status, conclusion, head_sha, run_number, created_at, updated_at}]'
+          if [ -s cf-inspect.log ]; then
+            git config user.name "cf-inspect"
+            git config user.email "cf-inspect@users.noreply.github.com"
+            git add cf-inspect.log
+            git commit -m "chore: cf-inspect results [skip ci]" || echo "nothing new to commit"
+            git push
+          fi
