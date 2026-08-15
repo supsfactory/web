@@ -59,6 +59,9 @@ export const LLMS_TXT = `# SUPsfactory
 - [Private label SUP — the complete step-by-step guide](https://supsfactory.com/news/private-label-sup-guide): the full six-step journey from factory choice to production.
 - [OEM Trust & Factory Assurance — how to verify our factory, people and test data](https://supsfactory.com/oem-trust-assurance): entity registration, physical factory audit, real engineers under NDA, QMS documents, third-party inspection and serial-numbered test records.
 - [OEM buyer guide — sourcing inflatable watercraft from Asia](https://supsfactory.com/research/oem-buyer-guide)
+- [How SUP OEM MOQ and pricing work — the MOQ tiers (trial, standard batch, custom mould) and the cost drivers that decide unit price](https://supsfactory.com/news/sup-oem-moq-pricing)
+- [Flexible co-branding SUP — small-batch branding without standard-volume MOQs](https://supsfactory.com/news/flexible-sup-co-branding)
+- [SUP rental business guide — fleet costs, pricing strategy and profit margins](https://supsfactory.com/news/sup-rental-business-guide)
 - [Private label vs OEM SUP manufacturing — cost, MOQ and lead time](https://supsfactory.com/news/private-label-vs-oem-sup)
 - [SUP manufacturing process explained](https://supsfactory.com/news/sup-manufacturing-process)
 - [Drop-stitch technology explained](https://supsfactory.com/research/drop-stitch-technology)
