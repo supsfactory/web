@@ -28,8 +28,10 @@ Custom-built "Bright Ocean Studio" design language: Ocean White / Ocean Blue / A
 | **SUP Design Studio** | Interactive configurator: pick colors and preview a live board mockup — the "place your logo" pitch for prospects |
 | **Solutions system** | A 5-page system under `/solutions` — `/solutions/custom-sup`, `/solutions/private-label-sup`, `/solutions/resort-sup`, `/solutions/club-sup`, `/solutions/school-sup`. Every page follows one business logic (scenario → problems → solution → process → case study → FAQ) and ends in a **CTA temperature** — cold (Learn More), warm (Discuss Your Project), hot (Request Manufacturing Proposal) — so each audience gets a pitch matched to how ready they are |
 | **Who we serve** | Landing-oriented scene pages that funnel into the matching solution page |
+| **Site search** | Two surfaces: a header search dialog fed by `/search-index.json` (the full public index, edge-cached 1h) and a `/search` page with a full-text (Orama) index built from the same data — solutions, knowledge hub, projects, product series, afarer pages, news, technology, case studies, guides, FAQs and the six hub/landing pages (home, /products, /solutions, /projects, /knowledge, /gallery) in en+es |
 | **Legacy SEO landings** | The old keyword pages (`/sup-startup-brands`, `/sup-for-resorts`, `/sup-for-clubs`, `/private-label-sup`, `/custom-sup-manufacturing`) now **301-redirect** to their new solution-page equivalents — search equity preserved, one source of truth |
-| **afarer brand content** | The full ported manufacturer site (English): `/factory/*`, `/technology/*`, `/research/*`, `/news/*`, `/products/*`, `/oem-odm`, `/guides`, `/faq` and more — served by a catch-all route from the bundled afarer content |
+| **Edge URL policy** | `src/features/seo/edge-gate.ts` applies at the worker before any route runs: 301 merges of duplicate/legacy pages, 410 for removed template pages (`/docs`, `/waitlist`, `/changelog`), trailing-slash normalisation, and retired-locale `/zh/*` → `/es` redirects — all served with a short `max-age` so changes stay easy to amend |
+| **afarer brand content** | The full ported manufacturer site (English): `/factory/*`, `/technology/*`, `/research/*`, `/news/*`, `/products/*`, `/oem-odm-manufacturer`, `/guides`, `/faq` and more — served by a catch-all route from the bundled afarer content |
 | **Gallery / How it works / About / Contact** | Brand stories with real project photos, manufacturing timeline, company story, inquiry form |
 
 **The 10 platform series** (data in `src/features/site/content.ts`, photos served from `assets.supsfactory.com`, the site's own R2 CDN):
@@ -49,36 +51,39 @@ Custom-built "Bright Ocean Studio" design language: Ocean White / Ocean Blue / A
 
 Every series is a manufacturing platform — shape, artwork, EVA deck pads, and packaging all adapt to your client's brand (50pcs MOQ per design).
 
-**AI-ready content**: `/llms.txt` and `/llms-full.txt` index the docs, the full product catalog (names, SKUs, specs, prices, recommended use), the 5 solution pages with their FAQ, and the whole ported afarer brand corpus (factory, technology, research, news) — so answer engines can cite the actual offering. `/entity.json` exposes the schema.org Organization entity behind the factory, and `/rss.xml` the news feed.
+**AI-ready content**: `/llms.txt` and `/llms-full.txt` index the docs, the full product catalog (names, SKUs, specs, prices, recommended use), the 5 solution pages with their FAQ, and the whole ported afarer brand corpus (factory, technology, research, news) — so answer engines can cite the actual offering. `/entity.json` exposes the schema.org Organization entity behind the factory, and `/rss.xml` the news feed. Every entry carries a **page-level meta spec** enforced at build time: `title ≤ 70` chars, `description 80–170` chars (bilingual, en/es).
 
 ## The platform under the hood
 
 | Area | What you get |
 |------|--------------|
-| **Auth** | Email/password with mandatory verification, password reset, and account deletion via [better-auth](https://better-auth.com). Google & GitHub OAuth that gracefully hide themselves when their env vars are unset. Sessions use D1 as source of truth with a cookie cache. |
-| **Storage** | [R2](https://developers.cloudflare.com/r2/) object storage with a working avatar upload (validated, streamed back through a serving route since R2 isn't public). Zero-config locally via miniflare — see [storage](src/content/docs/features/storage.mdx). |
+| **Auth** | Email/password with mandatory verification, password reset, and account deletion via [better-auth](https://better-auth.com). Google & GitHub OAuth that gracefully hide themselves when their env vars are unset. Sessions use D1 as source of truth with a 5-minute cookie cache. |
+| **Storage** | [R2](https://developers.cloudflare.com/r2/) object storage with a working avatar upload (validated by MIME allow-list, byte-size limit **and magic-number sniffing**; streamed back through a serving route since R2 isn't public). Zero-config locally via miniflare — see [storage](src/content/docs/features/storage.mdx). |
 | **Email** | [Resend](https://resend.com) with string templates (React Email isn't usable on workerd). Missing API key? Emails are captured to the console so local dev never blocks. The admin notification email HTML-escapes every field before sending. |
 | **Waitlist** | A complete pre-launch signup loop: a public signup page, Turnstile bot protection, an admin management page + CSV export, and automatic subscriber sync into a [Resend](https://resend.com) audience (gracefully skipped when unconfigured). |
-| **Inquiry** | A public B2B inquiry form (name/company/country/email/WhatsApp/business type/quantity/requirements + optional logo upload to R2) with per-IP rate limiting + Turnstile, an HTML-escaped admin notification email, and an admin pipeline: status workflow, CSV export, and sandboxed logo serving. |
+| **Inquiry** | A public B2B inquiry form (name/company/country/email/WhatsApp/business type/quantity/requirements + optional logo upload to R2 — magic-number-sniffed) with per-IP rate limiting + Turnstile, an HTML-escaped admin notification email, and an admin pipeline: status workflow, CSV export, and sandboxed logo serving. |
+| **Search** | Header dialog → `/search-index.json` (public, edge-cached 1h); `/search` page → Orama full-text over the same corpus; `/api/search` → in-docs search with a lazy-loaded single Orama instance and per-IP rate limiting (60/min). |
 | **Changelog** | An in-app `/changelog` page — MDX-driven, per-locale, with a `published` flag. |
 | **Feedback** | Signed-in users submit feedback + a "my feedback" list; an admin governance page drives status transitions and replies. Also the **reference for adding your own feature**: a vertical slice with ownership filtering, a pure function layer, both gate patterns, and dual-pool tests — see [feedback](src/content/docs/features/feedback.mdx). |
 | **i18n** | Path-based locale routing via TanStack's `{-$locale}` optional prefix — English at `/`, Español at `/es`. All marketing copy and UI strings translated. |
-| **SEO** | Per-locale sitemap with `hreflang` + canonical for the bilingual pages, plus single-locale entries for the English-only afarer pages (factory, news, products, technology, case studies, guides); OpenGraph tags (featured image is a real product photo from the site's R2 CDN), `robots.txt`, `noindex` on authenticated pages, and the 5 solution pages as keyword targets (legacy landing URLs 301 to them). |
+| **SEO** | Per-locale sitemap with `hreflang` + canonical for the bilingual pages, plus single-locale entries for the English-only afarer pages (factory, news, products, technology, case studies, guides); OpenGraph tags (featured image is a real product photo from the site's R2 CDN), `robots.txt`, `noindex` on authenticated pages, and the 5 solution pages as keyword targets (legacy landing URLs 301 to them). Page meta is length-validated (`title ≤ 70`, `description 80–170`). |
 | **AI-ready** | **Runtime:** [`llms.txt`](/llms.txt) index and [`llms-full.txt`](/llms-full.txt) full corpus — docs **plus the product catalog, the 5 solution pages (incl. FAQ) and the afarer brand corpus**; [`entity.json`](/entity.json) schema.org Organization; [`rss.xml`](/rss.xml) news feed; clean frontmatter-stripped Markdown via `/docs-md/*`; `robots.txt` pointing to all of them. **Codebase:** [`AGENTS.md`](AGENTS.md) is the single source of truth for coding agents (auto-imported into [`CLAUDE.md`](CLAUDE.md)). |
 | **Admin** | `ADMIN_EMAILS` is the **single source of truth**; the DB `role` column is a cache, two-way-synced on every gated access (promote on first use, demote the moment an email leaves the list). Every admin surface — pages, server fns, CSV exports, and better-auth's own `/api/auth/admin/*` — shares one `assertAdmin()` gate that returns **404** for non-admins (the admin surface stays invisible). Roles are least-privilege (`ban` / `impersonate` / `delete` / `list` only). Searchable/paginated user table, stats dashboard, ban/impersonate/delete actions — all on real data. |
 | **Theme** | Dark-first design with a light/dark toggle persisted via cookie. |
-| **Security & observability** | Nonce-based production CSP (no `unsafe-inline` for scripts), baseline security headers, Turnstile bot protection, per-IP rate limiting (D1-backed), startup env validation (fail-fast); admin endpoints gated to `ADMIN_EMAILS` (404 for non-admins), admin notification emails HTML-escaped, uploaded logos served sandboxed (`default-src 'none'; sandbox`); CF Web Analytics (cookieless) and Sentry error reporting — all optional, off when keys are blank. |
-| **Dev/Ops** | Cron Triggers reference (daily cleanup of expired sessions/tokens/rate-limit rows), local/staging/prod environment separation, GitHub Actions CI (lint + typecheck + build). |
+| **Security & observability** | Nonce-based production CSP (no `unsafe-inline` for scripts), baseline security headers, Turnstile bot protection, per-IP rate limiting (KV/D1-backed), startup env validation (fail-fast); admin endpoints gated to `ADMIN_EMAILS` (404 for non-admins), admin notification emails HTML-escaped, uploaded logos served sandboxed (`default-src 'none'; sandbox`), uploads magic-number-verified, private surfaces (`/app`, `/admin`, `/api`, auth pages) forced `private, no-store` + `Vary: Cookie` so a CDN misconfiguration can never cache one user's session page for another; CF Web Analytics (cookieless) and Sentry error reporting — all optional, off when keys are blank. |
+| **Caching** | Three layers: the Worker's own Cache API for marketing HTML/static assets (1h / 1y immutable / 7d), `max-age`-driven CDN caching (zone Caching Level must be able to cache HTML), and the deploy pipeline's purge → warm sequence so every release lands on a warm edge. |
+| **Dev/Ops** | Cron Triggers (daily maintenance cleanup at 03:00 UTC + edge-cache warming every 5 min), local/staging/prod environment separation, GitHub Actions CI (lint + typecheck + test + build) and a full deploy pipeline (migrate → deploy → purge CDN → warm edge → sync secrets → backfill R2 images). |
 
 ## Tech stack
 
 - **[TanStack Start](https://tanstack.com/start)** (React 19, file-based routing, server functions)
 - **[Cloudflare Workers](https://workers.cloudflare.com)** runtime, deployed via the `@cloudflare/vite-plugin`
 - **[D1](https://developers.cloudflare.com/d1/)** (SQLite) with **[Drizzle ORM](https://orm.drizzle.team)** + migrations
-- **[KV](https://developers.cloudflare.com/kv/)** for caching, **[R2](https://developers.cloudflare.com/r2/)** for object storage
+- **[KV](https://developers.cloudflare.com/kv/)** for rate limiting, **[R2](https://developers.cloudflare.com/r2/)** for object storage
 - **[better-auth](https://better-auth.com)**, **[Resend](https://resend.com)**
+- **[Orama](https://orama.com)** full-text search (stopwords + tokenizers), **[Fumadocs](https://fumadocs.dev)** docs
 - **[Tailwind CSS v4](https://tailwindcss.com)**
-- **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`)
+- **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`) — **202 tests green**
 
 ## Prerequisites
 
@@ -112,15 +117,21 @@ pnpm dev          # http://localhost:3000
 ### Useful scripts
 
 ```bash
-pnpm dev               # dev server on :3000
-pnpm build             # production build
-pnpm test              # full test suite (Vitest)
-pnpm typecheck         # tsc --noEmit
-pnpm lint              # eslint
-pnpm db:generate       # generate a Drizzle migration from schema changes
-pnpm db:migrate:local  # apply migrations to local D1
-pnpm db:reset:local    # wipe + re-migrate + re-seed local D1
-pnpm cf-typegen        # regenerate worker-configuration.d.ts from wrangler.jsonc
+pnpm dev                    # dev server on :3000
+pnpm build                  # production build
+pnpm test                   # full test suite (Vitest)
+pnpm typecheck              # fumadocs-mdx && tsc --noEmit
+pnpm lint                   # eslint
+pnpm db:generate            # generate a Drizzle migration from schema changes
+pnpm db:migrate:local       # apply migrations to local D1
+pnpm db:migrate:prod        # apply migrations to production D1 (remote)
+pnpm db:reset:local         # wipe + re-migrate + re-seed local D1
+pnpm deploy:staging         # CLOUDFLARE_ENV=staging build + wrangler deploy
+pnpm deploy:prod            # CLOUDFLARE_ENV=production build + wrangler deploy
+pnpm deploy:purge           # purge the CDN cache (scripts/purge-cache.mjs)
+pnpm deploy:prod:all        # deploy + purge
+pnpm upload:afarer-images   # backfill missing afarer images to R2
+pnpm cf-typegen             # regenerate worker-configuration.d.ts from wrangler.jsonc
 ```
 
 ## Project structure
@@ -130,10 +141,11 @@ src/
   features/        # vertical slices, each self-contained
     site/          # marketing content (content.ts: products, sections, FAQ)
                    # + solution-pages.ts (5 solution pages) + llm.ts (LLM corpus builders)
+                   # + search-index.server.ts (full-site search index) + search.ts (Orama)
     content/       # afarer content loader: registry (pages.yaml), EXTRA_PATHS, SHADOWED_PATHS,
                    # catch-all (& static-stub) route helpers; bundles src/content/afarer at build time
     auth/          # better-auth setup, middleware, social buttons, admin-roles (least-privilege)
-    storage/       # R2 object storage: validated upload + serving route (avatar)
+    storage/       # R2 object storage: validated upload (MIME + size + magic-number) + serving route
     email/         # Resend client + string templates
     waitlist/      # signup page + Turnstile + admin mgmt + CSV export + Resend audience sync
     inquiry/       # B2B inquiry form: validation, rate limiting, Turnstile, logo upload,
@@ -142,7 +154,7 @@ src/
     changelog/     # MDX-driven in-app changelog page (/changelog)
     feedback/      # example feedback box: submit/list/admin governance — the teach-by-example slice
     i18n/          # dictionaries (en/es) + provider + localizePath
-    seo/           # sitemap, robots, locale head tags (og:image, hreflang)
+    seo/           # sitemap, robots, locale head tags (og:image, hreflang), edge-gate (301/410 policy)
     docs/          # fumadocs source/layout config + llms.txt text generation
     admin/         # ADMIN_EMAILS-gated admin: assertAdmin gate, role two-way sync,
                    # user list/stats/ban/impersonate/delete + CSV exports
@@ -156,15 +168,20 @@ src/
                    # reveal, board-art, site-nav, footer, solution-page, solution-route
   routes/
     {-$locale}/    # locale-prefixed bilingual pages: /, /es, /products, /solutions(+5 pages,
-                   # hub), /who-we-serve, /customizer, /waitlist, /changelog, /admin, /app, ...
-                   # 5 legacy landing stubs that 301 to their solution pages
-    *.tsx          # single-segment afarer stubs (factory, oem-odm, technology, ...)
+                   # hub), /who-we-serve, /customizer, /waitlist, /changelog, /admin, /app,
+                   # /search, ... — 5 legacy landing stubs that 301 to their solution pages
+    *.tsx          # single-segment afarer stubs (factory, oem-odm-manufacturer, technology, ...)
     $              # root catch-all that resolves any remaining path against the afarer registry
-    api/, docs/, docs-md/, llms.txt, llms-full.txt, robots.txt, sitemap.xml, entity.json, rss.xml
+    api/, docs/, docs-md/, llms.txt, llms-full.txt, robots.txt, sitemap.xml,
+    entity.json, rss.xml, search-index.json
   content/afarer/  # ported brand content: site/ (registry), pages/ (yaml), products/ (mdx),
                    # news/ (mdx), technology/ + case-use/ (md) , geo/ (json)
   content/docs/    # in-app docs content (MDX sources)
-  db/              # Drizzle schema barrel + client + migrations
+  lib/             # cross-cutting: cache-headers.ts (edge cache policy), csp.ts,
+                   # security-headers.ts, env.ts, env-validate.ts
+  worker.ts        # worker entry: env validation, edge cache (Cache API), URL gate,
+                   # security headers, Sentry, cron (cleanup + cache warming)
+db/                # Drizzle schema barrel + client + migrations
 drizzle/           # generated SQL migrations (repo root, sibling of src/)
 ```
 
@@ -200,9 +217,19 @@ The **full first-time walkthrough** — creating D1/KV, setting secrets, and run
 
 > R2 (object storage) is enabled by default in `wrangler.jsonc` and wired into the code (avatar upload reference). Before deploying, create the bucket: `wrangler r2 bucket create supsfactory-files` (see [storage](src/content/docs/features/storage.mdx)).
 
-## GitHub Actions configuration
+## GitHub Actions
 
-The repo ships two workflows: `ci.yml` (lint + typecheck + test + build, no secrets needed) and `deploy.yml` (builds with `CLOUDFLARE_ENV=production` and deploys on every push to `main`). Configure them under **Settings → Secrets and variables → Actions**:
+The repo ships five workflows:
+
+| Workflow | Triggers | What it does |
+|----------|----------|--------------|
+| `ci.yml` | every push | lint + typecheck + test + build (no secrets needed) |
+| `deploy.yml` | push to `main` | generates `wrangler.jsonc` from repo variables, builds with `CLOUDFLARE_ENV=production`, applies D1 migrations, deploys the Worker, **purges the CDN cache**, **warms the edge cache** (`/`, `/es`, product pages), bulk-syncs GitHub secrets → Worker secrets, and backfills missing afarer images to R2 |
+| `upload-afarer-images.yml` | manual | uploads the bundled afarer images to R2 (used for one-off backfills) |
+| `website-performance.yml` | manual | Lighthouse-style performance audit |
+| `cf-inspect.yml` | manual | Cloudflare diagnostics helper — dumps cache rules, zone settings and purge results to `cf-inspect.log` in the repo (keep the token's `Zone → Cache Purge` permission for the deploy pipeline's purge step) |
+
+Configure them under **Settings → Secrets and variables → Actions**:
 
 **Variables** (non-sensitive identifiers, used by `.github/scripts/gen-wrangler.mjs`):
 
@@ -216,7 +243,7 @@ The repo ships two workflows: `ci.yml` (lint + typecheck + test + build, no secr
 
 | Secret | How to get it |
 |--------|---------------|
-| `CLOUDFLARE_API_TOKEN` | Dashboard → My Profile → API Tokens → Create Token — scope `Workers Scripts:Edit`, `D1`, `KV`, `R2`. If unset, the deploy job skips gracefully (no red ✗) |
+| `CLOUDFLARE_API_TOKEN` | Dashboard → My Profile → API Tokens → Create Token — scope `Workers Scripts:Edit`, `D1`, `KV`, `R2`, **and `Zone → Cache Purge`** (the deploy pipeline purges the CDN after every release; without it the purge step skips and stale HTML can linger for an hour). If unset entirely, the deploy job skips gracefully (no red ✗) |
 | `CLOUDFLARE_ACCOUNT_ID` | 32-hex account id — Dashboard sidebar / Workers overview |
 
 **Secrets** (app secrets, bulk-synced to the Worker on every deploy via `wrangler secret bulk`):
