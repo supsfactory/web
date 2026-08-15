@@ -22,9 +22,9 @@ const handler = () => {
     })
   const staticPages = [
     ...GUIDES.map((g) => ({ loc: `/guides/${g.slug}`, lastmod: '2026-06-01', es: true })),
-    ...projects.en.map((p) => ({ loc: `/projects/${p.slug}`, lastmod: '2026-08-07' })),
+    ...projects.en.map((p) => ({ loc: `/projects/${p.slug}`, lastmod: '2026-08-15' })),
     ...knowledge.en.map((a) => ({ loc: `/knowledge/${a.slug}`, lastmod: '2026-08-07' })),
-    ...seriesPages.en.map((s) => ({ loc: `/products/${s.slug}`, lastmod: '2026-08-13', es: true })),
+    ...seriesPages.en.map((s) => ({ loc: `/products/${s.slug}`, lastmod: '2026-08-15', es: true })),
     { loc: '/evidence/case-studies', lastmod: '2026-06-01', es: true },
     { loc: '/faq', lastmod: '2026-06-01', es: true },
     { loc: '/terms', lastmod: '2026-08-15', es: true },

@@ -12,7 +12,7 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/products', lastmod: '2026-06-20' },
   { path: '/who-we-serve', lastmod: '2026-06-20' },
   { path: '/how-it-works', lastmod: '2026-08-07' },
-  { path: '/gallery', lastmod: '2026-08-07' },
+  { path: '/gallery', lastmod: '2026-08-15' },
   { path: '/about', lastmod: '2026-08-07' },
   { path: '/contact', lastmod: '2026-08-07' },
   { path: '/customizer', lastmod: '2026-08-07' },
@@ -21,7 +21,7 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/solutions/resort-sup', lastmod: '2026-06-01' },
   { path: '/solutions/club-sup', lastmod: '2026-06-01' },
   { path: '/solutions/school-sup', lastmod: '2026-06-01' },
-  { path: '/projects', lastmod: '2026-06-20' },
+  { path: '/projects', lastmod: '2026-08-15' },
   { path: '/knowledge', lastmod: '2026-06-25' },
   { path: '/about/supsfactory-entity', lastmod: '2026-06-30' },
 ]
