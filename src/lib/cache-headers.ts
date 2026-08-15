@@ -24,9 +24,18 @@ const SEO_TEXT = /^\/(?:robots\.txt|llms\.txt|sitemap(?:-[a-z]+)?\.xml)$/
 export function withMarketingCache(request: Request, response: Response): Response {
   const isUpgrade = response.status === 101 || (response as { webSocket?: unknown }).webSocket != null
   if (isUpgrade) return response
-  if (request.method !== 'GET' && request.method !== 'HEAD') return response
   const path = new URL(request.url).pathname
-  if (path.startsWith('/app') || path.startsWith('/admin') || path.startsWith('/api')) return response
+  // Private surfaces must never be cached — even the framework may stamp a
+  // `Cache-Control: public` on its SSR responses, which would let browsers/CDN
+  // serve one user's account page to another (or replay a stale session page
+  // within the hour). Force no-store so this layer is immune to that, for
+  // every method (auth POSTs carry Set-Cookie and must not be cacheable).
+  if (path.startsWith('/app') || path.startsWith('/admin') || path.startsWith('/api')) {
+    const headers = new Headers(response.headers)
+    headers.set('Cache-Control', 'private, no-store')
+    return new Response(response.body, { status: response.status, statusText: response.statusText, headers })
+  }
+  if (request.method !== 'GET' && request.method !== 'HEAD') return response
   if (SEO_TEXT.test(path)) {
     const headers = new Headers(response.headers)
     headers.set('Cache-Control', 'public, max-age=3600')

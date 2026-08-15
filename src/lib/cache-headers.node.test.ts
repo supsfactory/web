@@ -18,11 +18,15 @@ describe('withMarketingCache', () => {
     expect(r.headers.get('cache-control')).toBe('max-age=3600')
   })
 
-  it('does not cache app/admin/api or non-GET', () => {
+  it('forces no-store on app/admin/api and leaves non-GET public paths alone', () => {
     for (const path of ['/app', '/admin', '/api/x', '/app/dashboard']) {
-      expect(withMarketingCache(new Request(`https://x.test${path}`), GET(path)).headers.has('cache-control')).toBe(false)
+      const r = withMarketingCache(new Request(`https://x.test${path}`), GET(path))
+      expect(r.headers.get('cache-control')).toBe('private, no-store')
     }
-    expect(withMarketingCache(new Request('https://x.test/', { method: 'POST' }), GET('/')).headers.has('cache-control')).toBe(false)
+    const apiPost = withMarketingCache(new Request('https://x.test/api/auth/sign-in', { method: 'POST' }), GET('/api/auth/sign-in'))
+    expect(apiPost.headers.get('cache-control')).toBe('private, no-store')
+    const post = withMarketingCache(new Request('https://x.test/', { method: 'POST' }), GET('/'))
+    expect(post.headers.has('cache-control')).toBe(false)
   })
 
   it('does not cache non-HTML responses', () => {
