@@ -71,9 +71,9 @@ content_html: |
       </tr>
     </thead>
     <tbody>
-      <tr><td class="p-3 border font-medium">Sample development (per design)</td><td class="p-3 border">1 – 2 units</td><td class="p-3 border">Samples in 15 – 20 days</td></tr>
+      <tr><td class="p-3 border font-medium">Sample development (per design)</td><td class="p-3 border">1 – 2 units</td><td class="p-3 border">Samples in 7 – 12 days</td></tr>
       <tr><td class="p-3 border font-medium">Pilot order (existing platforms)</td><td class="p-3 border">20 – 50 units</td><td class="p-3 border">Market validation with stock materials</td></tr>
-      <tr><td class="p-3 border font-medium">Standard volume batch (per design)</td><td class="p-3 border">90 – 100+ units</td><td class="p-3 border">30 – 45 days after PO and deposit</td></tr>
+      <tr><td class="p-3 border font-medium">Standard volume batch (per design)</td><td class="p-3 border">90 – 100+ units</td><td class="p-3 border">25 – 35 days after PO and deposit</td></tr>
       <tr><td class="p-3 border font-medium">Full custom mould / private label</td><td class="p-3 border">Confirmed by project config</td><td class="p-3 border">Adds 15 – 20 days for tooling</td></tr>
     </tbody>
   </table>

@@ -36,7 +36,7 @@ stages:
       description: 'Retención de presión, resistencia de costuras y comprobaciones dimensionales contra la muestra aprobada, con documentación CE y REACH preparada para tus mercados objetivo.'
       icon: 'tabler:test-pipe'
     - title: '5. Utillaje y producción en masa'
-      description: 'Desarrollo de molde a medida en 7–12 días cuando se necesita; la producción transcurre en 25–35 días con puntos de control de QC en proceso y trazabilidad de lote.'
+      description: 'Desarrollo de molde a medida en 15–20 días cuando se necesita; la producción transcurre en 25–35 días con puntos de control de QC en proceso y trazabilidad de lote.'
       icon: 'tabler:settings'
     - title: '6. Entrega y escalado'
       description: 'Logística FOB, CIF o DDP a más de 50 países — y después pedidos repetidos de tu línea consolidada con plazos estables y arte aprobado en archivo.'

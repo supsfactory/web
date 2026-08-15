@@ -97,7 +97,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ],
       caseStudy: {
         title: 'Outdoor brand product extension',
-        body: 'An outdoor gear brand moved into paddle sports with a branded touring board. We developed the board from a rough sketch, reached sample approval in 15 days and produced the first production run 40 days later.',
+        body: 'An outdoor gear brand moved into paddle sports with a branded touring board. We developed the board from a rough sketch, reached sample approval in 15 days and produced the first production run in 25–35 days.',
         tags: ['Board development', 'Branded graphics', 'First production run'],
       },
       faqs: [
@@ -468,7 +468,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ],
       caseStudy: {
         title: 'Extensión de línea de una marca outdoor',
-        body: 'Una marca de equipamiento outdoor entró en el remo con una tabla de viaje con marca. Desarrollamos la tabla desde un boceto bruto: aprobación de muestra en 15 días y primera producción entregada 40 días después.',
+        body: 'Una marca de equipamiento outdoor entró en el remo con una tabla de viaje con marca. Desarrollamos la tabla desde un boceto bruto: aprobación de muestra en 15 días y primera producción entregada en 25–35 días.',
         tags: ['Desarrollo de tabla', 'Arte de marca', 'Primera producción'],
       },
       faqs: [
