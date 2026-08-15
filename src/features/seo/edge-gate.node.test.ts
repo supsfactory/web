@@ -8,7 +8,6 @@ import { PUBLIC_PATHS } from '@/features/seo/seo'
 /** Dedicated/static routes not covered by getAfarerPages() or PUBLIC_PATHS. */
 const TEMPLATE_ROUTES = [
   '/evidence/case-studies', '/faq', '/news', '/partners',
-  // legal pages are live routes but deliberately excluded from the sitemaps
   '/terms', '/privacy',
 ]
 

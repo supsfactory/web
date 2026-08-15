@@ -97,8 +97,88 @@ export const en = {
   legal: {
     termsTitle: 'Terms of Service',
     privacyTitle: 'Privacy Policy',
-    placeholder:
-      'This is a placeholder page shipped with the SUPsfactory template. Replace it with your own legal content before you launch.',
+    lastUpdated: 'Last updated: August 2026',
+    backHome: 'Back to home',
+    termsSections: [
+      {
+        heading: 'Who We Are',
+        body: 'SUPsfactory is the SUP-focused OEM/ODM division of Qingdao Vatrad Group Co., Ltd., a 12,500 m² inflatable manufacturing plant in Qingdao, China (Economic Development Zone, Laixi, Qingdao, China 266600). These Terms govern your use of supsfactory.com and any quotation, sample or production agreement entered with us. By using the site or submitting an inquiry, you accept these Terms.',
+      },
+      {
+        heading: 'Quotations & Orders',
+        body: 'Quotations are prepared per project and are not binding until confirmed by a written purchase order or signed agreement. The purchase order locks the specification, quantity, price, delivery terms and lead time; any change after order confirmation is handled through our documented change control and may affect price or schedule.',
+      },
+      {
+        heading: 'Samples',
+        body: 'Sample development is quoted per project, considering model, structure, graphics, accessories and packaging scope. Sample fees and any credit toward production are stated in the quotation. The approved physical sample, together with the technical specification, artwork proof and bill of materials, serves as the acceptance baseline for production.',
+      },
+      {
+        heading: 'Production & Quality',
+        body: 'Minimum order quantities are confirmed per project and depend on model, graphics, accessories and packaging. Production is inspected against the approved sample, technical specification and customer-approved BOM under our documented quality system. Third-party inspection (e.g. SGS, TÜV, BV, Intertek) is available on request. Non-conforming items are quarantined, reworked only under approved instructions and re-inspected before release.',
+      },
+      {
+        heading: 'Payment',
+        body: 'Payment terms are stated in the quotation and typically follow T/T: a deposit with the purchase order and the balance before shipment or against shipping documents. Payment methods and schedules are confirmed in writing per agreement.',
+      },
+      {
+        heading: 'Delivery & Shipping',
+        body: 'Standard delivery is FOB Qingdao; CIF or DDP may be agreed per order. Lead time is confirmed per purchase order (bulk production typically 25–35 days from confirmed PO and deposit, samples 7–12 days). Freight, insurance and import formalities follow the agreed Incoterms.',
+      },
+      {
+        heading: 'Intellectual Property',
+        body: 'Your artwork, designs and product concepts remain your property. We keep them confidential under NDA and use them solely to manufacture your order. Tooling produced for your project is retained for your program and is not reused for other clients. We do not sell to end consumers and do not compete with our clients in any market.',
+      },
+      {
+        heading: 'Warranty',
+        body: 'Products are covered by our warranty policy for manufacturing defects as described on our Warranty page. The warranty covers structural and workmanship defects under normal, intended use; it does not cover misuse, unauthorised modification or damage in transport arranged by the buyer. Warranty claims are assessed against the production batch and inspection records of the affected order.',
+      },
+      {
+        heading: 'Limitation of Liability',
+        body: 'To the extent permitted by law, our liability for any order is limited to the value of the affected goods. We are not liable for indirect or consequential losses, including loss of profit or business interruption, arising from delays, packaging discrepancies or any other cause outside our documented commitments.',
+      },
+      {
+        heading: 'Governing Law',
+        body: 'These Terms and any agreement between you and Qingdao Vatrad Group Co., Ltd. are governed by the laws of the People\'s Republic of China. Disputes that cannot be resolved amicably are submitted to the courts of the location of our registered entity in China.',
+      },
+    ],
+    privacySections: [
+      {
+        heading: 'Data Controller',
+        body: 'Qingdao Vatrad Group Co., Ltd. (Economic Development Zone, Laixi, Qingdao, China 266600) is the controller of personal data collected through supsfactory.com. You can reach us at info@supsfactory.com or +86 13305324192.',
+      },
+      {
+        heading: 'Data We Collect',
+        body: 'When you submit an inquiry or RFQ form we collect: your name, company, email address, phone or WhatsApp number, country, product interest, estimated quantity, timeline and any details you provide in your message. We also collect technical data automatically: browser type, device, IP address and pages visited, via cookies and server logs, to operate and improve the site.',
+      },
+      {
+        heading: 'How We Use Your Data',
+        body: 'We use your data to respond to inquiries, prepare quotations, develop samples and perform production agreements, to send information you requested (e.g. downloads or follow-up materials), and to maintain security and improve our site. Marketing communications are sent only with your consent and you can opt out at any time.',
+      },
+      {
+        heading: 'Legal Bases',
+        body: 'We process inquiry data on the basis of legitimate interest (responding to a business inquiry and preparing a quotation) and, once an order is placed, for the performance of a contract. Marketing data is processed on the basis of consent. Technical data is processed on the basis of our legitimate interest in site security and improvement.',
+      },
+      {
+        heading: 'Sharing',
+        body: 'We do not sell your personal data. We share data only with service providers who process it on our behalf (hosting, email and analytics services) and with authorities where required by law. Any provider handling your data is bound by appropriate confidentiality and data protection obligations.',
+      },
+      {
+        heading: 'Retention',
+        body: 'Inquiry data is retained for the duration of the active sales cycle and thereafter as required for contract documentation, warranty and accounting obligations under applicable law. Technical logs are retained for a limited security period.',
+      },
+      {
+        heading: 'Your Rights',
+        body: 'Where applicable law gives you rights (including GDPR and CCPA), you may request access to, correction of, or deletion of your personal data, object to processing, withdraw consent, and request data portability. Write to info@supsfactory.com — we respond within 30 days and will verify your identity before acting on your request.',
+      },
+      {
+        heading: 'Security & Cookies',
+        body: 'Data transmitted to our site is protected by HTTPS. We use strictly necessary cookies to run the site and, with your consent, analytics cookies to understand usage. You can manage cookie preferences in your browser. For questions about this policy, contact info@supsfactory.com.',
+      },
+      {
+        heading: 'Changes to This Policy',
+        body: 'We may update this policy to reflect operational or legal changes. The latest version is always published on this page with its date. Material changes are communicated through the site.',
+      },
+    ],
   },
   auth: {
     login: 'Log in', register: 'Sign up', logout: 'Log out',

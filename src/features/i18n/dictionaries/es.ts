@@ -87,8 +87,88 @@ export const es = {
   legal: {
     termsTitle: 'Términos del servicio',
     privacyTitle: 'Política de privacidad',
-    placeholder:
-      'Esta es una página de marcador de posición incluida en la plantilla SUPsfactory. Sustitúyela por tu propio contenido legal antes del lanzamiento.',
+    lastUpdated: 'Última actualización: agosto de 2026',
+    backHome: 'Volver al inicio',
+    termsSections: [
+      {
+        heading: 'Quiénes somos',
+        body: 'SUPsfactory es la división OEM/ODM especializada en SUP de Qingdao Vatrad Group Co., Ltd., una planta de fabricación inflable de 12.500 m² en Qingdao, China (Zona de Desarrollo Económico, Laixi, Qingdao, China 266600). Estos Términos rigen tu uso de supsfactory.com y de cualquier presupuesto, muestra o acuerdo de producción con nosotros. Al usar el sitio o enviar una consulta, aceptas estos Términos.',
+      },
+      {
+        heading: 'Presupuestos y pedidos',
+        body: 'Los presupuestos se preparan por proyecto y no son vinculantes hasta que se confirman mediante una orden de compra escrita o un acuerdo firmado. La orden de compra fija la especificación, la cantidad, el precio, las condiciones de entrega y el plazo; cualquier cambio posterior a la confirmación se gestiona mediante nuestro control de cambios documentado y puede afectar al precio o al calendario.',
+      },
+      {
+        heading: 'Muestras',
+        body: 'El desarrollo de muestras se presupuesta por proyecto, considerando modelo, estructura, gráficos, accesorios y alcance del embalaje. Las tasas de muestra y cualquier crédito hacia la producción se indican en el presupuesto. La muestra física aprobada, junto con la especificación técnica, la prueba de arte y la lista de materiales, sirve como referencia de aceptación para la producción.',
+      },
+      {
+        heading: 'Producción y calidad',
+        body: 'Las cantidades mínimas de pedido se confirman por proyecto y dependen del modelo, los gráficos, los accesorios y el embalaje. La producción se inspecciona según la muestra aprobada, la especificación técnica y la BOM aprobada por el cliente bajo nuestro sistema de calidad documentado. La inspección por terceros (p. ej. SGS, TÜV, BV, Intertek) está disponible a petición. Los artículos no conformes se ponen en cuarentena, se retrabajan solo bajo instrucciones aprobadas y se reinspeccionan antes de la liberación.',
+      },
+      {
+        heading: 'Pago',
+        body: 'Las condiciones de pago se indican en el presupuesto y suelen ser por T/T: un depósito con la orden de compra y el saldo antes del envío o contra documentos de embarque. Los métodos y calendarios de pago se confirman por escrito en cada acuerdo.',
+      },
+      {
+        heading: 'Entrega y envío',
+        body: 'La entrega estándar es FOB Qingdao; CIF o DDP pueden acordarse por pedido. El plazo se confirma por orden de compra (producción en volumen normalmente 25–35 días desde el PO y depósito confirmados; muestras, 7–12 días). El flete, el seguro y los trámites de importación siguen los Incoterms acordados.',
+      },
+      {
+        heading: 'Propiedad intelectual',
+        body: 'Tu arte, tus diseños y tus conceptos de producto siguen siendo tuyos. Los mantenemos confidenciales bajo NDA y los usamos únicamente para fabricar tu pedido. El utillaje producido para tu proyecto se conserva para tu programa y no se reutiliza para otros clientes. No vendemos a consumidores finales y no competimos con nuestros clientes en ningún mercado.',
+      },
+      {
+        heading: 'Garantía',
+        body: 'Los productos están cubiertos por nuestra política de garantía para defectos de fabricación, descrita en nuestra página de Garantía. La garantía cubre defectos estructurales y de mano de obra bajo uso normal e intencionado; no cubre uso indebido, modificaciones no autorizadas ni daños en el transporte organizado por el comprador. Las reclamaciones de garantía se evalúan contra el lote de producción y los registros de inspección del pedido afectado.',
+      },
+      {
+        heading: 'Limitación de responsabilidad',
+        body: 'En la medida permitida por la ley, nuestra responsabilidad por cualquier pedido se limita al valor de las mercancías afectadas. No somos responsables de pérdidas indirectas o consecuentes, incluidas la pérdida de beneficios o la interrupción del negocio, derivadas de retrasos, discrepancias de embalaje o cualquier otra causa ajena a nuestros compromisos documentados.',
+      },
+      {
+        heading: 'Legislación aplicable',
+        body: 'Estos Términos y cualquier acuerdo entre tú y Qingdao Vatrad Group Co., Ltd. se rigen por las leyes de la República Popular China. Las disputas que no puedan resolverse amistosamente se someten a los tribunales de la ubicación de nuestra entidad registrada en China.',
+      },
+    ],
+    privacySections: [
+      {
+        heading: 'Responsable del tratamiento',
+        body: 'Qingdao Vatrad Group Co., Ltd. (Zona de Desarrollo Económico, Laixi, Qingdao, China 266600) es el responsable del tratamiento de los datos personales recogidos a través de supsfactory.com. Puedes contactarnos en info@supsfactory.com o en el +86 13305324192.',
+      },
+      {
+        heading: 'Datos que recogemos',
+        body: 'Cuando envías un formulario de consulta o RFQ recogemos: tu nombre, empresa, correo electrónico, teléfono o WhatsApp, país, producto de interés, cantidad estimada, plazo y cualquier detalle que incluyas en tu mensaje. También recogemos datos técnicos automáticamente: tipo de navegador, dispositivo, dirección IP y páginas visitadas, mediante cookies y registros del servidor, para operar y mejorar el sitio.',
+      },
+      {
+        heading: 'Cómo usamos tus datos',
+        body: 'Usamos tus datos para responder consultas, preparar presupuestos, desarrollar muestras y ejecutar acuerdos de producción; para enviarte información que hayas solicitado (p. ej. descargas o materiales de seguimiento); y para mantener la seguridad y mejorar nuestro sitio. Las comunicaciones de marketing solo se envían con tu consentimiento y puedes darte de baja en cualquier momento.',
+      },
+      {
+        heading: 'Bases legales',
+        body: 'Tratamos los datos de consulta sobre la base del interés legítimo (responder a una consulta comercial y preparar un presupuesto) y, una vez realizado el pedido, para la ejecución de un contrato. Los datos de marketing se tratan sobre la base del consentimiento. Los datos técnicos se tratan sobre la base de nuestro interés legítimo en la seguridad y mejora del sitio.',
+      },
+      {
+        heading: 'Compartición',
+        body: 'No vendemos tus datos personales. Solo los compartimos con proveedores de servicios que los tratan en nuestro nombre (servicios de hosting, correo y analítica) y con las autoridades cuando la ley lo exige. Cualquier proveedor que trate tus datos está sujeto a obligaciones adecuadas de confidencialidad y protección de datos.',
+      },
+      {
+        heading: 'Conservación',
+        body: 'Los datos de consulta se conservan durante el ciclo de ventas activo y, después, el tiempo requerido para la documentación contractual, la garantía y las obligaciones contables conforme a la ley aplicable. Los registros técnicos se conservan durante un periodo limitado de seguridad.',
+      },
+      {
+        heading: 'Tus derechos',
+        body: 'Cuando la ley aplicable te otorga derechos (incluidos GDPR y CCPA), puedes solicitar el acceso, la corrección o la eliminación de tus datos personales, oponerte al tratamiento, retirar el consentimiento y solicitar la portabilidad de los datos. Escribe a info@supsfactory.com — respondemos en un plazo de 30 días y verificaremos tu identidad antes de actuar sobre tu solicitud.',
+      },
+      {
+        heading: 'Seguridad y cookies',
+        body: 'Los datos enviados a nuestro sitio están protegidos por HTTPS. Usamos cookies estrictamente necesarias para el funcionamiento del sitio y, con tu consentimiento, cookies de analítica para entender el uso. Puedes gestionar las preferencias de cookies en tu navegador. Para preguntas sobre esta política, contacta con info@supsfactory.com.',
+      },
+      {
+        heading: 'Cambios en esta política',
+        body: 'Podemos actualizar esta política para reflejar cambios operativos o legales. La última versión se publica siempre en esta página con su fecha. Los cambios importantes se comunican a través del sitio.',
+      },
+    ],
   },
   auth: {
     login: 'Iniciar sesión', register: 'Registrarse', logout: 'Cerrar sesión',

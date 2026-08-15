@@ -19,6 +19,8 @@ const handler = () => {
     .map((p) => ({ path: p }))
   const detailEs = [
     { path: '/evidence/case-studies' },
+    { path: '/terms' },
+    { path: '/privacy' },
     ...getEsContentPaths().map((p) => ({ path: p })),
     ...GUIDES_ES.map((g) => ({ path: `/guides/${g.slug}` })),
     ...projects.es.map((p) => ({ path: `/projects/${p.slug}` })),

@@ -4,12 +4,12 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
+import { dictionaries } from '@/features/i18n/locale'
 import { LegalPage } from '@/components/marketing/legal-page'
 
 const rootRoute = getRouteApi('__root__')
 
 export const Route = createFileRoute('/{-$locale}/terms')({
-  // Placeholder content — keep it out of search until you write real terms.
   loader: async () => ({ origin: await getOrigin(), loggedIn: !!(await getOptionalUser()) }),
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
@@ -21,10 +21,10 @@ export const Route = createFileRoute('/{-$locale}/terms')({
       title: locale === 'es' ? 'Términos del servicio — SUPsfactory' : 'Terms of Service — SUPsfactory',
       description:
         locale === 'es'
-          ? 'Términos del servicio de SUPsfactory.'
-          : 'SUPsfactory’s terms of service.',
+          ? 'Términos que rigen presupuestos, muestras y pedidos OEM/ODM con SUPsfactory (Qingdao Vatrad Group Co., Ltd.).'
+          : 'Terms governing quotations, samples and OEM/ODM orders with SUPsfactory (Qingdao Vatrad Group Co., Ltd.).',
     })
-    return { meta: [...meta, { name: 'robots', content: 'noindex' }], links }
+    return { meta, links }
   },
   component: Terms,
 })
@@ -32,6 +32,13 @@ export const Route = createFileRoute('/{-$locale}/terms')({
 function Terms() {
   const { loggedIn } = Route.useLoaderData()
   const { theme } = rootRoute.useLoaderData()
-  const { t } = useTranslation()
-  return <LegalPage theme={theme} loggedIn={loggedIn} title={t('legal.termsTitle')} />
+  const { t, locale } = useTranslation()
+  return (
+    <LegalPage
+      theme={theme}
+      loggedIn={loggedIn}
+      title={t('legal.termsTitle')}
+      sections={dictionaries[locale].legal.termsSections}
+    />
+  )
 }

@@ -27,6 +27,8 @@ const handler = () => {
     ...seriesPages.en.map((s) => ({ loc: `/products/${s.slug}`, lastmod: '2026-08-13', es: true })),
     { loc: '/evidence/case-studies', lastmod: '2026-06-01', es: true },
     { loc: '/faq', lastmod: '2026-06-01', es: true },
+    { loc: '/terms', lastmod: '2026-08-15', es: true },
+    { loc: '/privacy', lastmod: '2026-08-15', es: true },
   ]
   return new Response(buildSitemap(origin, [...afarer, ...staticPages], { locale: 'en' }), {
     headers: { 'content-type': 'application/xml; charset=utf-8' },
