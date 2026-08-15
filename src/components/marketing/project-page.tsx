@@ -111,7 +111,13 @@ export function ProjectPage({ page }: { page: ProjectData }) {
             <p className="mt-4 text-[14.5px] font-bold">{t('sup.projects.qualityBasisLabel')}</p>
             <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{t('sup.projects.qualityBasis')}</p>
             <p className="mt-4 text-[14.5px] font-bold">{t('sup.projects.inspectionFocusLabel')}</p>
-            <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{t('sup.projects.inspectionFocus')}</p>
+            <ul className="mt-1.5 flex flex-col gap-1.5">
+              {page.inspectionFocus.map((item) => (
+                <li key={item} className="flex items-start gap-2 text-[14px] leading-relaxed text-fg-2">
+                  <CheckCircle2 size={15} className="mt-0.5 shrink-0 text-primary" /> {item}
+                </li>
+              ))}
+            </ul>
             <p className="mt-4 text-[14.5px] font-bold">{t('sup.projects.issueControlLabel')}</p>
             <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{t('sup.projects.issueControl')}</p>
             <p className="mt-4 text-[14.5px] font-bold">{t('sup.projects.evidenceLabel')}</p>
@@ -131,6 +137,19 @@ export function ProjectPage({ page }: { page: ProjectData }) {
             <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{page.outcome}</p>
           </div>
         </div>
+      </section>
+
+      {/* customized configuration — buyer-verifiable scope of what changed */}
+      <section className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
+        <SectionHead kicker={t('sup.projects.customKicker')} title={t('sup.projects.customTitle')} />
+        <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-fg-2">{t('sup.projects.customNote')}</p>
+        <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {page.customizations.map((item) => (
+            <li key={item} className="marine-card flex items-start gap-2.5 p-4 text-[14px] font-medium leading-snug">
+              <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-primary" /> {item}
+            </li>
+          ))}
+        </ul>
       </section>
 
       {/* process */}
@@ -159,6 +178,16 @@ export function ProjectPage({ page }: { page: ProjectData }) {
               <span key={tag} className="pill">{tag}</span>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* customer feedback & confidentiality */}
+      <section className="border-y border-border bg-bg-alt">
+        <div className="mx-auto max-w-3xl px-5 py-14 md:px-7">
+          <SectionHead kicker={t('sup.projects.quoteKicker')} title={t('sup.projects.quoteTitle')} />
+          <blockquote className="mt-8 border-l-2 border-primary pl-5 text-[15px] italic leading-relaxed text-fg-2">
+            {page.confidentiality}
+          </blockquote>
         </div>
       </section>
 

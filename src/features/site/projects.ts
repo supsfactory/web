@@ -32,6 +32,12 @@ export interface ProjectData {
   process: { title: string; body: string }[]
   result: string
   outcome: string
+  /** 5–8 concrete customization items — buyer-verifiable scope of what changed. */
+  customizations: string[]
+  /** Project-specific inspection focus — 4–6 checks matched to the project type. */
+  inspectionFocus: string[]
+  /** Anonymized testimonial / confidentiality statement for the quote block. */
+  confidentiality: string
   tags: string[]
 }
 
@@ -51,7 +57,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'How a luxury resort equipped its beach program with 100 branded SUP boards — custom graphics, rental-grade construction and seasonal fleet management.',
       kicker: 'Resort Project',
-      h1: 'Luxury Resort SUP Fleet — 100 Branded Boards For Guest Experiences',
+      h1: 'How a Luxury Resort Standardized a 100-Board Branded SUP Fleet',
       intro: [
         'A luxury resort wanted its beach program to feel like part of the property — branded boards in the resort palette, durable enough for daily guest use and easy to store between seasons.',
       ],
@@ -71,6 +77,23 @@ export const projects: Localized<ProjectData[]> = {
       result:
         'The fleet launched on time for the season, boards store in a single room off-season, and guest feedback on the branded equipment drove a fleet expansion the following year.',
       outcome: 'On-time season launch, 100% branded fleet, expansion the next season.',
+      customizations: [
+        'Board platform, size and construction selected for daily rental use',
+        'Full-board deck graphics in the property palette',
+        'Rail branding and logo placement approved on a physical sample',
+        'Branded paddle, pump and accessory set for every board',
+        'Fleet numbering and color-coding across the run',
+        'Compact storage configuration and seasonal refresh scope',
+      ],
+      inspectionFocus: [
+        'Inflation and air-tightness on every board',
+        'Valve and reinforced-rail condition',
+        'Artwork accuracy and color match to the approved sample',
+        'Accessory and kit completeness per board',
+        'Carton marking and fleet labels before shipment release',
+      ],
+      confidentiality:
+        'By agreement, the resort\'s name and brand assets are not disclosed. This project is presented anonymously to protect commercial confidentiality.',
       tags: ['Branded guest fleet', 'Rental-grade construction', 'Seasonal refresh'],
     },
     {
@@ -87,7 +110,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'How an existing outdoor brand extended into SUP with a private label product line — from logo to first container, with scalable MOQ.',
       kicker: 'Private Label Project',
-      h1: 'Private Label Launch — An Existing Brand Enters SUP',
+      h1: 'How an Outdoor Brand Launched a Private-Label SUP Line from Logo to First Container',
       intro: [
         'A sports retailer with an established brand wanted to extend into paddle sports without building factory relationships — a sellable SUP line under its own name.',
       ],
@@ -107,6 +130,23 @@ export const projects: Localized<ProjectData[]> = {
       result:
         'The line sold through its validation run within one season and scaled to a container order — with the brand owning all designs and tooling.',
       outcome: 'Validated in one season, scaled to container orders.',
+      customizations: [
+        'Board platforms, sizes and colors mapped to the brand line',
+        'Deck, bottom and packaging artwork built from brand assets',
+        'Branded paddle, pump, backpack and accessory kit',
+        'Printed retail cartons and label layout',
+        'Barcode and user-manual version for the target market',
+        'Tooling and artwork ownership retained for the brand',
+      ],
+      inspectionFocus: [
+        'Artwork version match to the approved files',
+        'Color and finish accuracy on the physical sample',
+        'Packaging, barcode and manual verification',
+        'Kit completeness across the validation run',
+        'Air-tightness spot checks during production',
+      ],
+      confidentiality:
+        'By agreement, the brand name and commercial details are not disclosed. This project is presented anonymously to protect commercial confidentiality.',
       tags: ['Brand extension', 'Packaging design', 'Scalable MOQ'],
     },
     {
@@ -123,7 +163,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'How a paddling club rebranded and refreshed its fleet with 25 branded training boards — team graphics, parts support and consistent reorders.',
       kicker: 'Club Project',
-      h1: 'Club Fleet Refresh — One Look Across The Team',
+      h1: 'How a Paddling Club Rebranded a 25-Board Training Fleet',
       intro: [
         'A paddling club rebranded and needed its equipment to match — a unified team fleet for training and regattas, without mismatched stock.',
       ],
@@ -143,6 +183,21 @@ export const projects: Localized<ProjectData[]> = {
       result:
         'Members train on matching branded equipment, and the club extended the fleet the following season with an identical reorder at the same quality.',
       outcome: 'Unified fleet, identical expansion reorder.',
+      customizations: [
+        'Training and beginner platforms matched to the club program',
+        'Club name, colors and logo printed across the fleet',
+        'Board numbering and size grouping per training group',
+        'Replacement fins and repair kits as fleet accessories',
+        'Reorder specification locked for identical future expansion',
+      ],
+      inspectionFocus: [
+        'Artwork accuracy of club name, colors and logo',
+        'Inflation and air-tightness verification',
+        'Accessory and repair-kit completeness',
+        'Color consistency across the 25-board run',
+      ],
+      confidentiality:
+        'By agreement, the club name and location are not disclosed. This project is presented anonymously to protect commercial confidentiality.',
       tags: ['Club branding', 'Fleet pricing', 'Parts support'],
     },
     {
@@ -159,7 +214,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'How a school launched a paddle sports elective with a 15-board beginner fleet and multi-person boards — safety-first equipment for instruction.',
       kicker: 'School Project',
-      h1: 'School Program Launch — A Fleet Built For Instruction',
+      h1: 'How a School Launched a 15-Board Beginner Fleet for Paddle Sports Instruction',
       intro: [
         'A school launching a paddle sports elective needed equipment that is stable and safe for first-timers, sized to classes, and easy to manage with limited staff.',
       ],
@@ -179,6 +234,23 @@ export const projects: Localized<ProjectData[]> = {
       result:
         'Instructors reported faster first-session progress on the stable platforms, and the program renewed equipment with a matching reorder the next year.',
       outcome: 'Faster learning curve, renewed equipment next year.',
+      customizations: [
+        'Wide, high-volume beginner platforms for first sessions',
+        'Multi-person boards included for group lessons',
+        'Board size and quantity matched to class sizes',
+        'Clear user guidance and instruction labels',
+        'Reinforced construction for long program life',
+        'Bulk supply and renewal reorder specification',
+      ],
+      inspectionFocus: [
+        'Stability and deck configuration verification',
+        'Inflation and air-tightness on every board',
+        'Accessory completeness per board and class kit',
+        'User guidance and labeling accuracy',
+        'Carton marking and class-kit packing checks',
+      ],
+      confidentiality:
+        'By agreement, the school name and region are not disclosed. This project is presented anonymously to protect commercial confidentiality.',
       tags: ['Beginner fleet', 'Program launch', 'Renewal orders'],
     },
     {
@@ -195,7 +267,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'How a water-sports distributor added a full mid-market SUP range across six SKUs — one factory, one program, exported to multiple markets.',
       kicker: 'Distributor Project',
-      h1: 'Distributor Line Expansion — Six SKUs, One Factory, Multiple Markets',
+      h1: 'How a Distributor Launched a 6-SKU SUP Range Across Two Markets',
       intro: [
         'A water-sports distributor carrying kayaks and accessories wanted its own inflatable SUP range — without fragmenting supply across several factories for boards, paddles and pumps.',
       ],
@@ -215,6 +287,23 @@ export const projects: Localized<ProjectData[]> = {
       result:
         'The range launched across both markets in one season; shared accessory kits cut landed inventory, and warranty issues were resolved through a single factory contact.',
       outcome: 'One-season multi-market launch, lower landed inventory, single point of warranty.',
+      customizations: [
+        'Six SKUs from 10′6″ to 12′6″ plus accessory kit bundles',
+        'One design system applied to boards, paddles, pumps and cartons',
+        'Shared accessory kits to reduce per-SKU inventory',
+        'Divider-packed complete kits in printed retail cartons',
+        'Barcode, label and manual versions per target market',
+        'Supply terms and packaging setup matched to each market',
+      ],
+      inspectionFocus: [
+        'BOM match per SKU configuration',
+        'Artwork and branding accuracy across the six SKUs',
+        'Barcode and label accuracy per market',
+        'Accessory kit completeness and divider packing',
+        'Air-tightness verification across the run',
+      ],
+      confidentiality:
+        'By agreement, the distributor name and customer list are not disclosed. This project is presented anonymously to protect commercial confidentiality.',
       tags: ['Multi-SKU program', 'Complete retail kits'],
     },
     {
@@ -231,7 +320,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'How a SUP startup went from concept to a sold-out first batch — ODM development, a 10-piece trial run, then a 200-piece branded launch order.',
       kicker: 'Startup Project',
-      h1: 'Startup Brand Launch — From Concept To A Sold-Out First Batch',
+      h1: 'From Concept to a Sold-Out 200-Board Launch for a Startup SUP Brand',
       intro: [
         'Two founders with an audience but no factory wanted to sell their own SUP — an ODM board developed to their spec, with a launch-size order that would not sink them.',
       ],
@@ -251,6 +340,22 @@ export const projects: Localized<ProjectData[]> = {
       result:
         'The first batch sold out within weeks of season start; feedback from the trial run fixed a packaging issue before the big order went into production.',
       outcome: 'Sold-out launch batch, packaging fixed pre-scale, reorder path in place.',
+      customizations: [
+        'ODM board developed from the brand concept on a proven platform',
+        'Custom deck graphics and brand packaging',
+        'Retail-ready carton sizing for the launch order',
+        'Accessory set and kit configuration matched to the target rider',
+        'Tooling and artwork retained for the brand',
+        'Launch-date-aligned production scheduling',
+      ],
+      inspectionFocus: [
+        'Artwork accuracy against the approved files',
+        'Air-tightness verification on the trial run and launch order',
+        'Packaging and carton verification — including the trial-run fix',
+        'Accessory and kit completeness',
+      ],
+      confidentiality:
+        'By agreement, the brand name and launch details are not disclosed. This project is presented anonymously to protect commercial confidentiality.',
       tags: ['ODM development', 'Low-MOQ trial run', 'Season-date planning'],
     },
     {
@@ -267,7 +372,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'How a multi-site rental operator replaced mixed stock with 200 uniform boards across three locations — fleet pricing, seasonal refresh and parts supply.',
       kicker: 'Rental Project',
-      h1: 'Rental Fleet Expansion — 200 Uniform Boards Across Three Sites',
+      h1: 'Standardizing a 200-Board Rental Fleet Across Three Sites for a Fleet Operator',
       intro: [
         'A rental operator running three waterfront locations needed one uniform fleet instead of mixed stock — same board on every site, priced for fleet volume.',
       ],
@@ -287,7 +392,183 @@ export const projects: Localized<ProjectData[]> = {
       result:
         'The uniform fleet cut per-site repair confusion, combined ordering unlocked fleet pricing, and the 200-board program became the baseline for seasonal renewal.',
       outcome: 'Uniform operations, lower per-unit cost, repeatable seasonal cycle.',
+      customizations: [
+        'One rental-grade platform across all three sites',
+        'Reinforced rails and UV-stable materials for rental abuse',
+        'Site allocation and fleet numbering per location',
+        'Per-site parts packs with repair guidance',
+        'Defined seasonal replacement cycle',
+      ],
+      inspectionFocus: [
+        'Reinforced construction verification per board',
+        'Inflation and air-tightness on every board',
+        'Accessory and repair-kit completeness per site',
+        'Fleet numbering and site labeling accuracy',
+        'Packing checks for split-site delivery',
+      ],
+      confidentiality:
+        'By agreement, the operator name and site locations are not disclosed. This project is presented anonymously to protect commercial confidentiality.',
       tags: ['Multi-site fleet', 'Rental-grade construction', 'Seasonal renewal'],
+    },
+    {
+      slug: 'touring-sup-range',
+      customerType: 'Outdoor & Water-Sports Distributors',
+      region: 'Europe',
+      productCategory: 'Touring Inflatable SUP',
+      projectStage: 'Product brief → Sample approval → Volume production',
+      manufacturingScope: 'Platform review, graphics, accessory configuration, retail packaging and production',
+      keyRequirements: 'Touring performance, project-specific graphics, complete retail kit',
+      qualityFocus: 'Air-tightness, artwork accuracy, accessory completeness, carton marking',
+      navLabel: 'Touring SUP Range',
+      metaTitle: 'Touring SUP Range Development | Outdoor Distributor — SUPsfactory',
+      metaDescription:
+        'How SUPsfactory supported a touring SUP range for a European outdoor distributor — platform review, project-specific graphics, accessory configuration and retail packaging.',
+      kicker: 'Touring Project',
+      h1: 'Developing a Touring SUP Range for a European Outdoor Distributor',
+      intro: [
+        'A custom inflatable SUP project covering platform review, project-specific graphics, accessory configuration, retail packaging and quality planning — from sample approval to shipment preparation.',
+      ],
+      industry: 'Distributors & Wholesalers',
+      requirement: 'A touring SUP range with project-specific graphics, accessory configuration and retail packaging, controlled from sample approval to shipment.',
+      challenge:
+        'Touring paddlers expect stability at speed and predictable glide, so the platform, dimensions and volume had to be reviewed before production. Artwork had to work around rails, EVA and valve positions, and every retail kit had to arrive complete across the range.',
+      solution:
+        'Platform and dimension review for touring performance, project-specific graphics aligned to board features, an accessory configuration covering paddle, leash and bag, retail packaging planning and controlled volume production with defined quality checkpoints.',
+      product: 'Touring inflatable SUP range — performance platform with custom graphics, a complete accessory kit and retail-ready packaging.',
+      process: [
+        { title: 'Platform review', body: 'Touring dimensions, volume and rail profile matched to the target rider and market.' },
+        { title: 'Specification & artwork', body: 'Technical spec, artwork alignment and customer approval BOM prepared.' },
+        { title: 'Sample approval', body: 'Construction, graphics and kit confirmed on a physical board.' },
+        { title: 'Production & inspection', body: 'Volume production with quality checkpoints, packing verification and shipment release.' },
+      ],
+      result:
+        'The range progressed from sample approval to shipment preparation under controlled product, artwork, BOM and packing documentation — the approved sample served as the reference for production and final inspection.',
+      outcome: 'Controlled sample-to-production path; graphics and packing locked before production.',
+      customizations: [
+        'Touring platform, dimensions and volume configuration',
+        'Project-specific top, bottom and rail graphics',
+        'EVA pad layout and color configuration',
+        'Fin system, bungee layout and accessory set',
+        'Branded bag, user-manual version and retail packaging',
+        'Carton marking and barcode requirements for the target market',
+      ],
+      inspectionFocus: [
+        'Inflation and air-tightness verification',
+        'Valve, rail and seam inspection',
+        'Artwork accuracy to the approved files',
+        'Accessory and kit completeness',
+        'Retail packaging, barcode and carton-marking verification',
+      ],
+      confidentiality:
+        'By agreement, the distributor name and customer list are not disclosed. This project is presented anonymously to protect commercial confidentiality.',
+      tags: ['Touring SUP range', 'Custom graphics', 'Retail packaging'],
+    },
+    {
+      slug: 'fishing-sup-program',
+      customerType: 'Outdoor Retailers',
+      region: 'North America',
+      productCategory: 'Fishing Inflatable SUP',
+      projectStage: 'Concept review → Sample approval → Program production',
+      manufacturingScope: 'Platform configuration, accessory layout, packaging and production',
+      keyRequirements: 'Fishing accessory integration, stable platform, organized pack',
+      qualityFocus: 'Air-tightness, accessory anchoring, artwork accuracy, pack completeness',
+      navLabel: 'Fishing SUP Program',
+      metaTitle: 'Fishing SUP Development | Accessory Layout & Pack — SUPsfactory',
+      metaDescription:
+        'How SUPsfactory developed a fishing SUP configuration for an outdoor retailer — accessory layout, organized pack and retail-ready packing under one controlled program.',
+      kicker: 'Fishing Project',
+      h1: 'Fishing SUP Development for an Outdoor Retailer — Accessory Layout and Pack Configuration',
+      intro: [
+        'A fishing-specific SUP project: a stable platform configured with fishing accessory zones, an organized pack and retail-ready packing — from concept review to program production.',
+      ],
+      industry: 'Outdoor Retailers',
+      requirement: 'A fishing SUP configuration with accessory anchoring, organized pack and retail packaging, from concept review to program production.',
+      challenge:
+        'Fishing boards need accessory anchoring — rod holders, D-rings and crate zones — without compromising stability. The pack had to stay organized on board, and the packaging had to present the category clearly at retail.',
+      solution:
+        'A wide, stable platform with defined accessory zones, D-ring and bungee positioning for fishing gear, an organized pack with repair kit, and retail packaging developed under a single controlled program.',
+      product: 'Fishing inflatable SUP — stable platform with fishing accessory zones, organized pack and retail-ready packaging.',
+      process: [
+        { title: 'Concept review', body: 'Target use, gear carried and pack structure defined the configuration.' },
+        { title: 'Accessory layout', body: 'D-rings, bungees and storage zones positioned on the deck.' },
+        { title: 'Sample approval', body: 'Stability and accessory anchoring verified on a physical board.' },
+        { title: 'Program production', body: 'Defined quality checkpoints, pack verification and shipment release.' },
+      ],
+      result:
+        'The configuration was confirmed on the approved sample — accessory anchoring, pack structure and packaging all aligned before production — and the program shipped with verified kits.',
+      outcome: 'Accessory layout and pack locked at sample stage; verified kits shipped.',
+      customizations: [
+        'Stable wide platform with fishing accessory zones',
+        'Rod holder, D-ring and bungee positioning',
+        'Deck layout for crate and tackle placement',
+        'Paddle, fin and leash selection for fishing use',
+        'Organized accessory pack and repair kit',
+        'Retail packaging for the fishing SUP category',
+        'Barcode and carton marking for the target market',
+      ],
+      inspectionFocus: [
+        'Accessory anchoring and D-ring placement verification',
+        'Inflation and air-tightness verification',
+        'Artwork and deck layout accuracy',
+        'Pack completeness and accessory configuration',
+        'Retail packaging and carton-marking verification',
+      ],
+      confidentiality:
+        'By agreement, the retailer name and channel details are not disclosed. This project is presented anonymously to protect commercial confidentiality.',
+      tags: ['Fishing configuration', 'Accessory layout', 'Pack organization'],
+    },
+    {
+      slug: 'yoga-sup-program',
+      customerType: 'Water-Sports Schools & Programs',
+      region: 'Europe',
+      productCategory: 'Yoga Inflatable SUP',
+      projectStage: 'Program review → Sample approval → Fleet delivery',
+      manufacturingScope: 'Stable platform configuration, deck coverage, production and program packaging',
+      keyRequirements: 'Stability for group practice, full EVA deck coverage, consistent fleet',
+      qualityFocus: 'Deck coverage, air-tightness, artwork accuracy, kit completeness',
+      navLabel: 'Yoga SUP Program',
+      metaTitle: 'Yoga SUP Development | Training Program — SUPsfactory',
+      metaDescription:
+        'How SUPsfactory developed a stable yoga SUP configuration for a water-sports training program — full deck coverage and a consistent program fleet.',
+      kicker: 'Yoga Project',
+      h1: 'Developing a Stable Yoga SUP Configuration for a Water-Sports Training Program',
+      intro: [
+        'A yoga SUP configuration for a training program: a wide, high-volume platform with full EVA deck coverage, produced as a consistent fleet for group practice.',
+      ],
+      industry: 'Water-Sports Schools',
+      requirement: 'A stable yoga SUP configuration with full deck coverage for group practice, in program quantities.',
+      challenge:
+        'Yoga practice demands a wide, high-volume platform that stays rock-solid in the water. Groups need consistent boards, and instructors need clear guidance plus manageable storage between sessions.',
+      solution:
+        'A wide, high-volume platform with full EVA deck coverage, a consistent fleet configuration across the program, and instructor guidance and program labels included.',
+      product: 'Yoga inflatable SUP — stable platform with full deck pad coverage and a consistent program fleet.',
+      process: [
+        { title: 'Program review', body: 'Practice style, group size and storage defined the configuration.' },
+        { title: 'Configuration', body: 'Platform, deck coverage and finish set across the fleet.' },
+        { title: 'Sample approval', body: 'Stability and deck coverage verified on a physical board.' },
+        { title: 'Fleet delivery', body: 'Program quantities produced with kit and packaging verification.' },
+      ],
+      result:
+        'The fleet shipped as one consistent configuration — every board matching the approved sample in stability, deck coverage and finish — with guidance included for instructors.',
+      outcome: 'Consistent fleet matched to the approved sample; program packaging verified.',
+      customizations: [
+        'Wide, high-volume platform for standing stability',
+        'Full EVA deck coverage across the usable area',
+        'Deck layout and strap positioning for practice',
+        'Consistent color and finish across the fleet',
+        'Instructor guidance and program labels',
+        'Storage and program packaging configuration',
+      ],
+      inspectionFocus: [
+        'Deck coverage and EVA adhesion inspection',
+        'Inflation and air-tightness verification',
+        'Stability verification on the approved sample',
+        'Artwork and finish consistency across the run',
+        'Kit completeness and program packaging checks',
+      ],
+      confidentiality:
+        'By agreement, the program name and location are not disclosed. This project is presented anonymously to protect commercial confidentiality.',
+      tags: ['Yoga configuration', 'Full deck coverage', 'Program fleet'],
     },
   ],
   es: [
@@ -305,7 +586,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'Cómo un resort de lujo equipó su programa de playa con 100 tablas SUP de marca: arte personalizado, construcción de grado alquiler y gestión de flota por temporada.',
       kicker: 'Proyecto de resort',
-      h1: 'Flota SUP de resort de lujo — 100 tablas de marca para elevar la experiencia del huésped',
+      h1: 'Cómo un resort de lujo estandarizó una flota de 100 tablas SUP de marca',
       intro: [
         'Un resort de lujo quería que su programa de playa formara parte de la imagen de la propiedad: tablas de marca en los colores del resort, capaces de soportar el uso diario de los huéspedes y fáciles de guardar fuera de temporada.',
       ],
@@ -325,6 +606,23 @@ export const projects: Localized<ProjectData[]> = {
       result:
         'La flota se entregó a tiempo para el inicio de la temporada y se guardó entera en un cuarto de almacenamiento fuera de temporada; los comentarios positivos de los huéspedes sobre el equipamiento de marca impulsaron la ampliación de la flota al año siguiente.',
       outcome: 'Temporada iniciada a tiempo, flota 100% de marca, ampliada al año siguiente.',
+      customizations: [
+        'Plataforma, tamaño y construcción seleccionados para uso diario de alquiler',
+        'Arte de cubierta a toda tabla en los colores de la propiedad',
+        'Marca en los rails y colocación del logo aprobados en una muestra física',
+        'Remo, bomba y accesorios de marca para cada tabla',
+        'Numeración y codificación por colores de la flota',
+        'Configuración de almacenaje compacto y alcance de renovación estacional',
+      ],
+      inspectionFocus: [
+        'Inflado y estanqueidad al aire en cada tabla',
+        'Estado de válvulas y rails reforzados',
+        'Precisión del arte y fidelidad de color frente a la muestra aprobada',
+        'Integridad de accesorios y kit por tabla',
+        'Marcado de cajas y etiquetas de flota antes del embarque',
+      ],
+      confidentiality:
+        'Por acuerdo, no se revelan el nombre ni los activos de marca del resort. Este proyecto se presenta de forma anónima para proteger la confidencialidad comercial.',
       tags: ['Flota con marca para huéspedes', 'Construcción de grado alquiler', 'Renovación por temporada'],
     },
     {
@@ -341,7 +639,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'Cómo una marca outdoor existente entró en el SUP con una línea de marca privada: del logo al primer pedido, con pedidos mínimos escalables.',
       kicker: 'Proyecto de marca privada',
-      h1: 'Lanzamiento de marca privada — una marca existente entra en el SUP',
+      h1: 'Cómo una marca outdoor lanzó una línea SUP de marca privada, del logo al primer contenedor',
       intro: [
         'Un minorista deportivo con una marca consolidada quiso ampliarse al remo sin gestionar él mismo la relación con la fábrica: lanzar una línea de SUP vendible con su propia marca.',
       ],
@@ -360,6 +658,23 @@ export const projects: Localized<ProjectData[]> = {
       ],
       result: 'La línea agotó el lote de validación en un trimestre y escaló a pedidos de mayor volumen: la marca posee todos los diseños y moldes.',
       outcome: 'Validación en un trimestre, escalado a pedidos de mayor volumen.',
+      customizations: [
+        'Plataformas, tamaños y colores alineados con la línea de la marca',
+        'Arte de cubierta, fondo y embalaje creados a partir de los activos de la marca',
+        'Remo, bomba, bolsa y kit de accesorios de marca',
+        'Cajas de retail impresas y maquetación de etiquetas',
+        'Código de barras y versión del manual para el mercado objetivo',
+        'Moldes y arte en propiedad de la marca',
+      ],
+      inspectionFocus: [
+        'Coincidencia de la versión del arte con los archivos aprobados',
+        'Precisión de color y acabado en la muestra física',
+        'Verificación de embalaje, código de barras y manual',
+        'Integridad del kit en el lote de validación',
+        'Controles puntuales de estanqueidad durante la producción',
+      ],
+      confidentiality:
+        'Por acuerdo, no se revelan el nombre de la marca ni los datos comerciales. Este proyecto se presenta de forma anónima para proteger la confidencialidad comercial.',
       tags: ['Extensión de marca', 'Diseño de embalaje', 'Pedidos mínimos escalables'],
     },
     {
@@ -376,7 +691,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'Cómo un club de remo renovó su flota con 25 tablas de entrenamiento de marca: arte de equipo, soporte de accesorios y reordenes consistentes.',
       kicker: 'Proyecto de club',
-      h1: 'Renovación de la flota de un club — una imagen unificada para todo el equipo',
+      h1: 'Cómo un club de remo renovó su flota de 25 tablas con una imagen unificada',
       intro: [
         'Un club de remo renovó su imagen y quiso actualizar el equipamiento a la vez: una flota de equipo unificada para entrenamiento y competición, sin piezas sueltas de existencias que no coinciden.',
       ],
@@ -395,6 +710,21 @@ export const projects: Localized<ProjectData[]> = {
       ],
       result: 'Los miembros entrenaron con equipamiento de marca uniforme y el club amplió la flota al año siguiente con un reorden de calidad idéntica.',
       outcome: 'Flota unificada, expansión coherente con reordenes.',
+      customizations: [
+        'Plataformas de entrenamiento e iniciación ajustadas al programa del club',
+        'Nombre, colores y logo del club en toda la flota',
+        'Numeración de tablas y agrupación por tamaño para cada grupo',
+        'Quillas de repuesto y kits de reparación como accesorios de flota',
+        'Especificación de reorden bloqueada para una ampliación idéntica',
+      ],
+      inspectionFocus: [
+        'Precisión del arte del nombre, colores y logo del club',
+        'Verificación de inflado y estanqueidad',
+        'Integridad de accesorios y kits de reparación',
+        'Coherencia de color en la tirada de 25 tablas',
+      ],
+      confidentiality:
+        'Por acuerdo, no se revelan el nombre ni la ubicación del club. Este proyecto se presenta de forma anónima para proteger la confidencialidad comercial.',
       tags: ['Marca del club', 'Precio por volumen de flota', 'Soporte de accesorios'],
     },
     {
@@ -411,7 +741,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'Cómo una escuela lanzó una optativa de remo con 15 tablas de iniciación y multiusuario: un equipamiento priorizado por la seguridad, pensado para la enseñanza.',
       kicker: 'Proyecto escolar',
-      h1: 'Lanzamiento de programa escolar — una flota hecha para enseñar',
+      h1: 'Cómo una escuela lanzó una flota de iniciación de 15 tablas para la enseñanza del remo',
       intro: [
         'Una escuela abrió una optativa de remo y necesitaba equipamiento estable y seguro para principiantes, cantidades que encajaran con el tamaño de las clases y una gestión sencilla con poco personal.',
       ],
@@ -430,6 +760,23 @@ export const projects: Localized<ProjectData[]> = {
       ],
       result: 'Los instructores reportaron un progreso más rápido en la primera sesión sobre las plataformas estables, y el programa renovó el equipamiento con un reorden idéntico al año siguiente.',
       outcome: 'Curva de aprendizaje más rápida, equipamiento renovado al año siguiente.',
+      customizations: [
+        'Plataformas de iniciación anchas y de alto volumen para las primeras sesiones',
+        'Tablas multiusuario para clases en grupo',
+        'Tamaño y cantidad de tablas ajustados al tamaño de las clases',
+        'Orientación de uso clara y etiquetas de instrucción',
+        'Construcción reforzada para una larga vida de programa',
+        'Especificación de entrega por volumen y reorden de renovación',
+      ],
+      inspectionFocus: [
+        'Verificación de estabilidad y configuración de cubierta',
+        'Inflado y estanqueidad en cada tabla',
+        'Integridad de accesorios por tabla y kit de clase',
+        'Precisión de la orientación de uso y las etiquetas',
+        'Marcado de cajas y controles del kit de clase',
+      ],
+      confidentiality:
+        'Por acuerdo, no se revelan el nombre ni la región de la escuela. Este proyecto se presenta de forma anónima para proteger la confidencialidad comercial.',
       tags: ['Flota de iniciación', 'Lanzamiento del programa', 'Pedidos de renovación'],
     },
     {
@@ -446,7 +793,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'Cómo un distribuidor de deportes acuáticos añadió una gama completa de SUP de gama media con seis SKU: una sola fábrica, un programa, exportado a varios mercados.',
       kicker: 'Proyecto de distribuidor',
-      h1: 'Ampliación de línea para distribuidor — seis SKU, una fábrica, varios mercados',
+      h1: 'Cómo un distribuidor lanzó una gama SUP de 6 SKU en dos mercados',
       intro: [
         'Un distribuidor de deportes acuáticos que vendía kayaks y accesorios quiso lanzar su propia gama de SUP hinchables, sin fragmentar el suministro entre varias fábricas de tablas, remos y bombas.',
       ],
@@ -466,6 +813,23 @@ export const projects: Localized<ProjectData[]> = {
       result:
         'La gama se lanzó en ambos mercados en una temporada; los kits compartidos redujeron el inventario final y la garantía se gestionó a través de un único contacto de fábrica.',
       outcome: 'Lanzamiento multi-mercado en una temporada, menos inventario, garantía unificada.',
+      customizations: [
+        'Seis SKU de 10\'6" a 12\'6" más kits de accesorios',
+        'Un sistema de diseño aplicado a tablas, remos, bombas y cajas',
+        'Kits de accesorios compartidos para reducir el inventario por SKU',
+        'Kits completos con separadores en cajas de retail impresas',
+        'Versiones de código de barras, etiqueta y manual por mercado',
+        'Condiciones de suministro y embalaje ajustados a cada mercado',
+      ],
+      inspectionFocus: [
+        'Coincidencia con el BOM por configuración de SKU',
+        'Precisión del arte y la marca en los seis SKU',
+        'Precisión de códigos de barras y etiquetas por mercado',
+        'Integridad del kit de accesorios y los separadores',
+        'Verificación de estanqueidad en la tirada',
+      ],
+      confidentiality:
+        'Por acuerdo, no se revelan el nombre del distribuidor ni su cartera de clientes. Este proyecto se presenta de forma anónima para proteger la confidencialidad comercial.',
       tags: ['Programa multi-SKU', 'Kits de retail completos'],
     },
     {
@@ -482,7 +846,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'Cómo una startup de SUP pasó del concepto a un primer lote agotado: desarrollo ODM, pedido de prueba de 10 unidades y lote de lanzamiento de 200 unidades de marca.',
       kicker: 'Proyecto de startup',
-      h1: 'Lanzamiento de marca startup — del concepto a un primer lote agotado',
+      h1: 'Del concepto a un lanzamiento de 200 tablas agotado para una marca SUP emergente',
       intro: [
         'Dos fundadores con audiencia pero sin fábrica querían vender su propio SUP: una tabla ODM desarrollada según su especificación, con un pedido de lanzamiento que no les hundiera.',
       ],
@@ -502,6 +866,22 @@ export const projects: Localized<ProjectData[]> = {
       result:
         'El primer lote se agotó a las pocas semanas de empezar la temporada; los comentarios del pedido de prueba corrigieron un problema de embalaje antes de la gran producción.',
       outcome: 'Lote de lanzamiento agotado, embalaje corregido antes del escalado, reorden previsto.',
+      customizations: [
+        'Tabla ODM desarrollada desde el concepto de la marca sobre una plataforma probada',
+        'Arte de cubierta personalizado y embalaje de marca',
+        'Caja lista para retail ajustada al pedido de lanzamiento',
+        'Kit y configuración de accesorios ajustados al rider objetivo',
+        'Moldes y arte en propiedad de la marca',
+        'Planificación de producción alineada con la fecha de lanzamiento',
+      ],
+      inspectionFocus: [
+        'Precisión del arte frente a los archivos aprobados',
+        'Verificación de estanqueidad en el pedido de prueba y el de lanzamiento',
+        'Verificación de embalaje y caja, incluida la corrección del pedido de prueba',
+        'Integridad de accesorios y kit',
+      ],
+      confidentiality:
+        'Por acuerdo, no se revelan el nombre de la marca ni los detalles de lanzamiento. Este proyecto se presenta de forma anónima para proteger la confidencialidad comercial.',
       tags: ['Desarrollo ODM', 'Prueba con MOQ bajo', 'Planificación de temporada'],
     },
     {
@@ -518,7 +898,7 @@ export const projects: Localized<ProjectData[]> = {
       metaDescription:
         'Cómo un operador de alquiler multi-ubicación sustituyó stock mixto por 200 tablas uniformes en tres sedes: precio de flota, renovación por temporada y suministro de recambios.',
       kicker: 'Proyecto de alquiler',
-      h1: 'Expansión de flota de alquiler — 200 tablas uniformes en tres sedes',
+      h1: 'Estandarización de una flota de alquiler de 200 tablas en tres sedes para un operador',
       intro: [
         'Un operador de alquiler con tres puntos junto al agua necesitaba una flota uniforme en lugar de stock mixto: la misma tabla en cada sede, con precio por volumen de flota.',
       ],
@@ -538,7 +918,183 @@ export const projects: Localized<ProjectData[]> = {
       result:
         'La flota uniforme eliminó la confusión de reparaciones por sede, el pedido combinado desbloqueó el precio de flota y el programa de 200 tablas se convirtió en la base de la renovación estacional.',
       outcome: 'Operaciones uniformes, menor coste unitario, ciclo estacional repetible.',
+      customizations: [
+        'Una única plataforma de grado alquiler en las tres sedes',
+        'Rails reforzados y materiales anti-UV para el uso intensivo de alquiler',
+        'Reparto por sede y numeración de flota por ubicación',
+        'Kits de recambios por sede con guía de reparación',
+        'Ciclo de renovación estacional definido',
+      ],
+      inspectionFocus: [
+        'Verificación de construcción reforzada por tabla',
+        'Inflado y estanqueidad en cada tabla',
+        'Integridad de accesorios y kits de reparación por sede',
+        'Precisión de numeración y etiquetas de sede',
+        'Controles de embalaje para entrega en varias sedes',
+      ],
+      confidentiality:
+        'Por acuerdo, no se revelan el nombre del operador ni las ubicaciones de las sedes. Este proyecto se presenta de forma anónima para proteger la confidencialidad comercial.',
       tags: ['Flota multi-sede', 'Construcción de grado alquiler', 'Renovación estacional'],
+    },
+    {
+      slug: 'touring-sup-range',
+      customerType: 'Distribuidores outdoor y de deportes acuáticos',
+      region: 'Europa',
+      productCategory: 'SUP hinchable de travesía (touring)',
+      projectStage: 'Brief de producto → Aprobación de muestra → Producción en volumen',
+      manufacturingScope: 'Revisión de plataforma, arte, configuración de accesorios, embalaje de retail y producción',
+      keyRequirements: 'Rendimiento touring, arte específico del proyecto, kit de retail completo',
+      qualityFocus: 'Estanqueidad, precisión del arte, integridad de accesorios, marcado de cajas',
+      navLabel: 'Gama de SUP touring',
+      metaTitle: 'Desarrollo de gama SUP touring | Distribuidor outdoor — SUPsfactory',
+      metaDescription:
+        'Cómo SUPsfactory respaldó una gama de SUP touring para un distribuidor outdoor europeo: revisión de plataforma, arte específico, configuración de accesorios y embalaje de retail.',
+      kicker: 'Proyecto touring',
+      h1: 'Desarrollo de una gama de SUP touring para un distribuidor outdoor europeo',
+      intro: [
+        'Un proyecto personalizado de SUP hinchable que cubre revisión de plataforma, arte específico del proyecto, configuración de accesorios, embalaje de retail y planificación de calidad: desde la aprobación de la muestra hasta la preparación del envío.',
+      ],
+      industry: 'Distribuidores y mayoristas',
+      requirement: 'Una gama de SUP touring con arte específico del proyecto, configuración de accesorios y embalaje de retail, controlada desde la aprobación de la muestra hasta el envío.',
+      challenge:
+        'Los palistas de travesía esperan estabilidad a velocidad y un deslizamiento predecible, por lo que la plataforma, las dimensiones y el volumen debían revisarse antes de la producción. El arte debía adaptarse a los rails, la EVA y las posiciones de las válvulas, y cada kit de retail debía llegar completo en toda la gama.',
+      solution:
+        'Revisión de plataforma y dimensiones para rendimiento touring, arte específico alineado con los elementos de la tabla, configuración de accesorios con remo, leash y bolsa, planificación del embalaje de retail y producción en volumen controlada con puntos de control de calidad definidos.',
+      product: 'Gama de SUP hinchables de travesía: plataforma de rendimiento con arte personalizado, kit de accesorios completo y embalaje listo para retail.',
+      process: [
+        { title: 'Revisión de plataforma', body: 'Dimensiones touring, volumen y perfil de rails ajustados al rider objetivo y al mercado.' },
+        { title: 'Especificación y arte', body: 'Se prepararon especificación técnica, alineación del arte y BOM aprobado por el cliente.' },
+        { title: 'Aprobación de muestra', body: 'Construcción, arte y kit confirmados en una tabla física.' },
+        { title: 'Producción e inspección', body: 'Producción en volumen con puntos de control de calidad, verificación de embalaje y liberación de envío.' },
+      ],
+      result:
+        'La gama avanzó de la aprobación de muestra a la preparación de envío bajo documentación controlada de producto, arte, BOM y embalaje: la muestra aprobada sirvió de referencia para la producción y la inspección final.',
+      outcome: 'Recorrido controlado de muestra a producción; arte y embalaje bloqueados antes de producir.',
+      customizations: [
+        'Plataforma touring, dimensiones y configuración de volumen',
+        'Arte específico del proyecto en cubierta, fondo y rails',
+        'Diseño y color de la EVA',
+        'Sistema de quillas, disposición de bungees y set de accesorios',
+        'Bolsa de marca, versión del manual y embalaje de retail',
+        'Marcado de cajas y códigos de barras para el mercado objetivo',
+      ],
+      inspectionFocus: [
+        'Verificación de inflado y estanqueidad',
+        'Inspección de válvulas, rails y costuras',
+        'Precisión del arte frente a los archivos aprobados',
+        'Integridad de accesorios y kit',
+        'Verificación de embalaje de retail, código de barras y marcado de cajas',
+      ],
+      confidentiality:
+        'Por acuerdo, no se revelan el nombre del distribuidor ni su cartera de clientes. Este proyecto se presenta de forma anónima para proteger la confidencialidad comercial.',
+      tags: ['Gama touring', 'Arte personalizado', 'Embalaje de retail'],
+    },
+    {
+      slug: 'fishing-sup-program',
+      customerType: 'Minoristas outdoor',
+      region: 'Norteamérica',
+      productCategory: 'SUP hinchable de pesca',
+      projectStage: 'Revisión de concepto → Aprobación de muestra → Producción del programa',
+      manufacturingScope: 'Configuración de plataforma, disposición de accesorios, embalaje y producción',
+      keyRequirements: 'Integración de accesorios de pesca, plataforma estable, pack organizado',
+      qualityFocus: 'Estanqueidad, anclaje de accesorios, precisión del arte, integridad del pack',
+      navLabel: 'Programa de SUP de pesca',
+      metaTitle: 'Desarrollo de SUP de pesca | Disposición de accesorios — SUPsfactory',
+      metaDescription:
+        'Cómo SUPsfactory desarrolló una configuración de SUP de pesca para un minorista outdoor: disposición de accesorios, pack organizado y embalaje listo para retail bajo un programa controlado.',
+      kicker: 'Proyecto de pesca',
+      h1: 'Desarrollo de SUP de pesca para un minorista outdoor — disposición de accesorios y configuración del pack',
+      intro: [
+        'Un proyecto de SUP específico para pesca: una plataforma estable con zonas para accesorios de pesca, un pack organizado y embalaje listo para retail, desde la revisión de concepto hasta la producción del programa.',
+      ],
+      industry: 'Minoristas outdoor',
+      requirement: 'Una configuración de SUP de pesca con anclaje de accesorios, pack organizado y embalaje de retail, desde la revisión de concepto hasta la producción del programa.',
+      challenge:
+        'Las tablas de pesca necesitan anclaje de accesorios — porta cañas, D-rings y zonas para cajas — sin comprometer la estabilidad. El pack debía mantenerse organizado a bordo y el embalaje presentar la categoría con claridad en el punto de venta.',
+      solution:
+        'Una plataforma ancha y estable con zonas de accesorios definidas, D-rings y bungees colocados para el equipo de pesca, un pack organizado con kit de reparación y embalaje de retail desarrollado bajo un único programa controlado.',
+      product: 'SUP hinchable de pesca: plataforma estable con zonas para accesorios de pesca, pack organizado y embalaje listo para retail.',
+      process: [
+        { title: 'Revisión de concepto', body: 'Uso objetivo, equipo transportado y estructura del pack definieron la configuración.' },
+        { title: 'Disposición de accesorios', body: 'D-rings, bungees y zonas de almacenaje colocados en la cubierta.' },
+        { title: 'Aprobación de muestra', body: 'Estabilidad y anclaje de accesorios verificados en una tabla física.' },
+        { title: 'Producción del programa', body: 'Puntos de control de calidad definidos, verificación del pack y liberación de envío.' },
+      ],
+      result:
+        'La configuración se confirmó en la muestra aprobada — anclaje de accesorios, estructura del pack y embalaje alineados antes de la producción — y el programa se envió con kits verificados.',
+      outcome: 'Disposición de accesorios y pack bloqueados en la fase de muestra; kits verificados enviados.',
+      customizations: [
+        'Plataforma ancha y estable con zonas para accesorios de pesca',
+        'Posición de porta cañas, D-rings y bungees',
+        'Diseño de cubierta para cajas y equipo de pesca',
+        'Selección de remo, quilla y leash para uso de pesca',
+        'Pack de accesorios organizado y kit de reparación',
+        'Embalaje de retail para la categoría de SUP de pesca',
+        'Código de barras y marcado de cajas para el mercado objetivo',
+      ],
+      inspectionFocus: [
+        'Verificación del anclaje de accesorios y la posición de D-rings',
+        'Verificación de inflado y estanqueidad',
+        'Precisión del arte y del diseño de cubierta',
+        'Integridad del pack y configuración de accesorios',
+        'Verificación del embalaje de retail y del marcado de cajas',
+      ],
+      confidentiality:
+        'Por acuerdo, no se revelan el nombre del minorista ni los detalles de canal. Este proyecto se presenta de forma anónima para proteger la confidencialidad comercial.',
+      tags: ['Configuración de pesca', 'Disposición de accesorios', 'Organización del pack'],
+    },
+    {
+      slug: 'yoga-sup-program',
+      customerType: 'Escuelas y programas de deportes acuáticos',
+      region: 'Europa',
+      productCategory: 'SUP hinchable de yoga',
+      projectStage: 'Revisión del programa → Aprobación de muestra → Entrega de flota',
+      manufacturingScope: 'Configuración de plataforma estable, cobertura de cubierta, producción y embalaje de programa',
+      keyRequirements: 'Estabilidad para práctica en grupo, cobertura total de EVA, flota coherente',
+      qualityFocus: 'Cobertura de cubierta, estanqueidad, precisión del arte, integridad del kit',
+      navLabel: 'Programa de SUP de yoga',
+      metaTitle: 'Desarrollo de SUP de yoga | Programa de entrenamiento — SUPsfactory',
+      metaDescription:
+        'Cómo SUPsfactory desarrolló una configuración estable de SUP de yoga para un programa de entrenamiento de deportes acuáticos: cobertura total de cubierta y una flota de programa coherente.',
+      kicker: 'Proyecto de yoga',
+      h1: 'Desarrollo de una configuración estable de SUP de yoga para un programa de entrenamiento de deportes acuáticos',
+      intro: [
+        'Una configuración de SUP de yoga para un programa de entrenamiento: una plataforma ancha y de alto volumen con cobertura total de EVA, producida como una flota coherente para la práctica en grupo.',
+      ],
+      industry: 'Escuelas de deportes acuáticos',
+      requirement: 'Una configuración estable de SUP de yoga con cobertura total de cubierta para la práctica en grupo, en cantidades de programa.',
+      challenge:
+        'La práctica de yoga exige una plataforma ancha y de alto volumen que permanezca sólida en el agua. Los grupos necesitan tablas coherentes y los instructores, una guía clara además de un almacenaje manejable entre sesiones.',
+      solution:
+        'Una plataforma ancha y de alto volumen con cobertura total de EVA, una configuración de flota coherente en todo el programa e instrucciones para instructores y etiquetas de programa incluidas.',
+      product: 'SUP hinchable de yoga: plataforma estable con cobertura total de cubierta y una flota de programa coherente.',
+      process: [
+        { title: 'Revisión del programa', body: 'Estilo de práctica, tamaño del grupo y almacenaje definieron la configuración.' },
+        { title: 'Configuración', body: 'Plataforma, cobertura de cubierta y acabado fijados en toda la flota.' },
+        { title: 'Aprobación de muestra', body: 'Estabilidad y cobertura de cubierta verificadas en una tabla física.' },
+        { title: 'Entrega de flota', body: 'Cantidades de programa producidas con verificación de kit y embalaje.' },
+      ],
+      result:
+        'La flota se envió como una única configuración coherente — cada tabla idéntica a la muestra aprobada en estabilidad, cobertura de cubierta y acabado — con guía incluida para los instructores.',
+      outcome: 'Flota coherente acorde a la muestra aprobada; embalaje de programa verificado.',
+      customizations: [
+        'Plataforma ancha y de alto volumen para estabilidad de pie',
+        'Cobertura total de EVA en toda la zona útil',
+        'Diseño de cubierta y posición de correas para la práctica',
+        'Color y acabado coherentes en toda la flota',
+        'Guía para instructores y etiquetas de programa',
+        'Configuración de almacenaje y embalaje de programa',
+      ],
+      inspectionFocus: [
+        'Inspección de cobertura de cubierta y adhesión de la EVA',
+        'Verificación de inflado y estanqueidad',
+        'Verificación de estabilidad en la muestra aprobada',
+        'Coherencia de arte y acabado en toda la tirada',
+        'Integridad del kit y controles del embalaje de programa',
+      ],
+      confidentiality:
+        'Por acuerdo, no se revelan el nombre del programa ni su ubicación. Este proyecto se presenta de forma anónima para proteger la confidencialidad comercial.',
+      tags: ['Configuración de yoga', 'Cobertura total de cubierta', 'Flota de programa'],
     },
   ],
 }
