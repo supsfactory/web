@@ -63,7 +63,7 @@ export const hero: Localized<HeroContent> = {
     mockupBrand: "SUP Explorer 11'",
     mockupHint: 'Your graphics · your colors · your packaging',
     heroNote:
-      'From first concept to repeat orders — built for retail brands, water-sports distributors, resorts, schools and rental operators.',
+      'SUPSfactory is a custom inflatable SUP manufacturer in Qingdao (Laixi), China — the inflatable-SUP division of Afarer (Qingdao Vatrad Group). We run OEM, ODM and private-label programs from a 12,500 m² plant with 120,000+ boards of annual capacity. Trial runs start at 1–2 boards, pilots at 20–50, and standard volume MOQ from 90–100 boards per design.',
     float1: { value: '90–100 pcs', label: 'Standard volume MOQ (per 150 m roll)' },
     float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
@@ -88,7 +88,7 @@ export const hero: Localized<HeroContent> = {
     mockupBrand: 'SUP Explorer 11\'',
     mockupHint: 'Tus gráficos · Tus colores · tu packaging',
     heroNote:
-      'Del primer concepto a pedidos repetidos — pensado para marcas minoristas, distribuidores de deportes acuáticos, resorts, escuelas y operadores de alquiler.',
+      'SUPsfactory es un fabricante de tablas SUP hinchables a medida en Qingdao (Laixi), China — la división de SUP hinchables de Afarer (Qingdao Vatrad Group). Realizamos programas OEM, ODM y de marca privada en una planta de 12.500 m² con capacidad anual de 120.000+ tablas. Los pedidos de prueba parten de 1–2 tablas, los pilotos de 20–50 y el MOQ de volumen estándar desde 90–100 tablas por diseño.',
     float1: { value: '90–100 uds.', label: 'MOQ de volumen estándar (por rollo de 150 m)' },
     float2: { value: FACTS.leadTime, label: 'Plazo de producción (tras PO)' },
   },

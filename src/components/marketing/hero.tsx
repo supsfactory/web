@@ -69,7 +69,7 @@ export function Hero() {
             ))}
           </dl>
 
-          <p className="mt-6 max-w-xl text-[12.5px] font-medium leading-snug text-white/70">{c.heroNote}</p>
+          <p className="mt-6 max-w-xl text-[13px] font-medium leading-relaxed text-white/85">{c.heroNote}</p>
         </div>
 
         {/* board mockup on a water stage */}
