@@ -248,19 +248,19 @@ cc_photos:
   subtitle: Fotografías de nuestro taller en Qingdao muestran cada proceso de retrabajo controlado con sus instrumentos calibrados, parámetros definidos y registros en planta — la misma evidencia que los inspectores pueden solicitar en cualquier momento.
   grid: 'sm:grid-cols-2'
   features:
-    - image: /assets/quality/cc-pinhole-repair.jpg
+    - image: /assets/quality/cc-pinhole-repair.avif
       alt: Técnico reparando una micro-fuga tipo poro en un SUP hinchable con pistola de aire caliente y rodillo de presión
       title: Reparación de poro
       desc: 'Un técnico trata una micro-fuga marcada con una pistola de aire caliente ajustada a la especificación de 60°C y un rodillo de presión; el agua jabonosa confirma la ubicación de la fuga, y la ECR firmada por Calidad en el banco muestra el control de cambios (Poka-Yoke nº 1).'
-    - image: /assets/quality/cc-rail-seam-bonding.jpg
+    - image: /assets/quality/cc-rail-seam-bonding.avif
       alt: Técnico aplicando adhesivo PU de dos componentes a una costura de raíl con brocha de precisión en clima controlado
       title: Unión de costura de raíl
       desc: 'Se aplica adhesivo PU de dos componentes a la costura del raíl con una brocha de precisión mientras la tabla se mantiene en una fijación; el termohigrómetro de planta muestra la ventana controlada de 24°C / 55% HR.'
-    - image: /assets/quality/cc-valve-base-integrity.jpg
+    - image: /assets/quality/cc-valve-base-integrity.avif
       alt: Llave dinamométrica digital ajustada a 19 N·m asegurando el núcleo de válvula contra el material drop-stitch
       title: Integridad del asiento de válvula
       desc: 'Una llave dinamométrica digital ajustada a la especificación de 19 N·m realiza el apriete final del núcleo de válvula, sellando la base contra el material drop-stitch — el instrumento lleva la etiqueta verde CALIBRADO.'
-    - image: /assets/quality/cc-pressure-hold-testing.jpg
+    - image: /assets/quality/cc-pressure-hold-testing.avif
       alt: Tablas de SUP hinchables terminadas conectadas a registradores digitales de presión en la zona de prueba final de retención
       title: Prueba final de retención de presión
       desc: 'Las tablas terminadas se conectan a registradores digitales de alta precisión; el manómetro maestro indica la referencia de 18,00 PSI, y todos los datos de ensayo se cargan automáticamente y se vinculan al sistema de trazabilidad del contrato.'

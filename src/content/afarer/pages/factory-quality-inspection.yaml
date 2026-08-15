@@ -154,19 +154,19 @@ quarantine_evidence:
   title: Controlled Testing & Quarantine in Practice
   subtitle: Photos from our workshop in Qingdao show how status control and inspection records are applied on site.
   features:
-    - image: /assets/quality/qc-air-tightness-test-area.jpg
+    - image: /assets/quality/qc-air-tightness-test-area.avif
       alt: Inflated inflatable SUP boards in the factory air-tightness test area monitored by a digital pressure gauge
       title: Air-Tightness Test Area
       desc: 'Inflated boards held in the QC testing area under industrial lighting, with digital pressure gauges monitoring the approved air-hold test at the valve base, rail seams, nose and tail, and high-stress locations. Records are kept per batch and linked to final inspection.'
-    - image: /assets/quality/qc-hold-quarantine-station.jpg
+    - image: /assets/quality/qc-hold-quarantine-station.avif
       alt: Quality control checksheets and controlled hold status labels at the factory inspection station
       title: Hold & Quarantine Station
       desc: 'Inspection station with QC checksheets and status labelling. Any item failing acceptance criteria is tagged, logged, and moved to quarantine —it cannot proceed to packing until an authorized disposition and mandatory re-inspection are completed.'
-    - image: /assets/quality/qc-air-tightness-rework.jpg
+    - image: /assets/quality/qc-air-tightness-rework.avif
       alt: QC technician performing controlled air-tightness rework on an inflatable SUP at the factory rework station
       title: Controlled Rework Station
       desc: 'Air-tightness rework is performed at a dedicated station under an approved method card: the defect is marked, the board remains on HOLD, and after the required cure period it returns to the test area for re-inspection against the original acceptance criteria.'
-    - image: /assets/quality/qc-workshop-quarantine-demo.jpg
+    - image: /assets/quality/qc-workshop-quarantine-demo.avif
       alt: Workshop demonstration of controlled quarantine segregation in the Qingdao factory
       title: Quarantine Area Demonstration
       desc: 'Demonstration photo from the workshop showing how controlled quarantine segregation works on site: segregated units are kept under status control until an authorized disposition is completed.'

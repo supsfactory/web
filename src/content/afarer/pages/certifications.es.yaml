@@ -97,7 +97,7 @@ qc_flow:
       method: 'Reunión previa a la producción con ventas, ingeniería y calidad; aprobación de la muestra dorada; emisión del Plan de Inspección de Calidad (QIP) para el pedido.'
       criteria: 'Las cinco líneas base aprobadas y congeladas antes de iniciar la producción en masa. Los puntos sin resolver bloquean la liberación de producción.'
       record: 'QIP + actas de la reunión previa, registros de muestra aprobada.'
-      image: /assets/quality/node01-ppm.jpg
+      image: /assets/quality/node01-ppm.avif
       alt: Reunión previa a la producción revisando la muestra dorada y el plan de inspección de calidad de un pedido OEM de SUP
       link: /downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
       link_label: 'Descargar QIP (PDF)'
@@ -114,7 +114,7 @@ qc_flow:
       method: 'Controles visuales, dimensionales y de peso; muestreo de lote según AQL; revisión de certificados de materiales; lista de proveedores aprobados.'
       criteria: 'Cumple la especificación y los certificados aprobados. Los lotes no conformes se cuarentenan y rechazan antes de su liberación a la línea.'
       record: 'Informes de ensayo IQC con referencias de lote y disposiciones.'
-      image: /assets/quality/node02-iqc.jpg
+      image: /assets/quality/node02-iqc.avif
       alt: Inspección de materiales entrantes de tejido de PVC y componentes de SUP en la fábrica
       link: /downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Descargar informes IQC (PDF)'
@@ -131,7 +131,7 @@ qc_flow:
       method: 'Inspección de primera pieza (FAI) en la primera unidad; controles de ronda por turno; resistencia de soldadura y alineación de costuras verificadas en línea.'
       criteria: 'La aprobación FAI bloquea por versión el arte, las dimensiones y la BOM. Las desviaciones se derivan al flujo de decisión de retrabajo — nunca parches en línea.'
       record: 'Registro FAI, registros de ronda por turno, notas de retrabajo y disposición.'
-      image: /assets/quality/node03-ipqc-fai.jpg
+      image: /assets/quality/node03-ipqc-fai.avif
       alt: Inspección en proceso y comprobación de primera pieza durante la producción de SUP
       link: /downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Descargar informes IPQC (PDF)'
@@ -148,7 +148,7 @@ qc_flow:
       method: 'Detección de fugas en todas las costuras seguida de retención de presión durante 24 horas a 18,0 PSI; rechazo automático por encima de una caída de 0,50 PSI.'
       criteria: 'Cero puntos de fuga y caída de presión dentro de 0,50 PSI por cámara; las unidades fallidas se cuarentenan y retrabajan o se desechan.'
       record: 'Informes de ensayo de estanqueidad, uno por cámara, vinculados al lote.'
-      image: /assets/quality/node04-airtightness.jpg
+      image: /assets/quality/node04-airtightness.avif
       alt: Ensayo de inflado y estanqueidad de una cámara de SUP hinchable
       link: /downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Descargar informes de estanqueidad (PDF)'
@@ -165,7 +165,7 @@ qc_flow:
       method: 'Verificación dimensional contra tolerancias de plano; cosmética evaluada bajo lámparas de luz diurna D65; ensayos de ajuste de caja de aleta y herrajes.'
       criteria: 'Dimensiones dentro de tolerancia (p. ej. 3508 × 814 × 150,3 mm), grado cosmético según muestra aprobada, todos los accesorios presentes.'
       record: 'Informes FQC con firma del inspector y disposición.'
-      image: /assets/quality/node05-fqc.jpg
+      image: /assets/quality/node05-fqc.avif
       alt: Inspección final de tablas SUP terminadas antes del embalaje
       link: /downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Descargar informes FQC (PDF)'
@@ -182,7 +182,7 @@ qc_flow:
       method: 'Integridad del kit al 100% frente a la BOM; escaneo de código de barras (grado ≥ B); precisión del marcado del cartón; ensayo de caída ISTA-1A sobre cartones embalados.'
       criteria: 'Kit al 100% según BOM, códigos de barras legibles, marcados correctos y embalaje seguro contra caídas antes de la carga.'
       record: 'Listas de comprobación PSI y registros de embalaje por cartón.'
-      image: /assets/quality/node06-psi.jpg
+      image: /assets/quality/node06-psi.avif
       alt: Inspección pre-embarque comprobando el kit de SUP embalado contra la BOM
       link: /downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Descargar informes PSI (PDF)'
@@ -199,7 +199,7 @@ qc_flow:
       method: 'Revisión de las seis puertas anteriores por calidad; ensamblado del dosier de trazabilidad del lote; entrega de registros con el envío.'
       criteria: 'Todas las puertas aprobadas por calidad; registros de lote y dosier de trazabilidad entregados al comprador o custodiados bajo NDA a petición.'
       record: 'Autorización de liberación de envío y dosier de trazabilidad del lote.'
-      image: /assets/quality/node07-shipment-release.jpg
+      image: /assets/quality/node07-shipment-release.avif
       alt: Firma de liberación de envío y entrega de registros de trazabilidad de lote
       link: /downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Descargar informes de liberación (PDF)'

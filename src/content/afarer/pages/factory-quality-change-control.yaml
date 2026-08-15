@@ -248,19 +248,19 @@ cc_photos:
   subtitle: Photos from our Qingdao workshop show each controlled rework process with its calibrated gauges, defined parameters and on-site records — the same evidence inspectors can request at any time.
   grid: 'sm:grid-cols-2'
   features:
-    - image: /assets/quality/cc-pinhole-repair.jpg
+    - image: /assets/quality/cc-pinhole-repair.avif
       alt: Technician repairing a pinhole micro-leak on an inflatable SUP with a hot-air gun and pressure roller
       title: Pinhole Repair
       desc: 'A technician treats a marked micro-leak with a hot-air gun set to the 60°C specification and a pressure roller; soapy water confirms the leak location, and the QC-signed ECR ticket on the bench shows the change control gate (Poka-Yoke #1).'
-    - image: /assets/quality/cc-rail-seam-bonding.jpg
+    - image: /assets/quality/cc-rail-seam-bonding.avif
       alt: Technician applying two-component PU adhesive to a rail seam with a precision brush under controlled climate
       title: Rail Seam Bonding
       desc: 'Two-component PU adhesive is applied to the rail seam with a precision brush while the board is held in a fixture clamp; the on-site thermometer/hygrometer shows the controlled 24°C / 55% RH window.'
-    - image: /assets/quality/cc-valve-base-integrity.jpg
+    - image: /assets/quality/cc-valve-base-integrity.avif
       alt: Digital torque wrench set to 19 N·m securing the valve core against the drop-stitch material
       title: Valve Base Integrity
       desc: 'A digital torque wrench set to the 19 N·m specification makes the final tighten of the valve core, sealing the base against the drop-stitch material — the gauge carries the green CALIBRATED label.'
-    - image: /assets/quality/cc-pressure-hold-testing.jpg
+    - image: /assets/quality/cc-pressure-hold-testing.avif
       alt: Finished inflatable SUP boards connected to digital pressure recorders in the final pressure-hold test area
       title: Final Pressure-Hold Testing
       desc: 'Finished boards are connected to high-precision digital pressure recorders; the master gauge reads the 18.00 PSI reference, and all test data is automatically uploaded and linked to the contract traceability system.'
