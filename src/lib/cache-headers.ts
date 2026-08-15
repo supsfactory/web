@@ -21,6 +21,28 @@ const STATIC_PUBLIC = /^\/assets\//
 // release, so 1h at the edge stops every crawl from re-rendering the worker.
 const SEO_TEXT = /^\/(?:robots\.txt|llms\.txt|sitemap(?:-[a-z]+)?\.xml)$/
 
+/** Path segments whose responses must never be cached (any method). */
+const PRIVATE_SEGMENTS = new Set([
+  'app',
+  'admin',
+  'api',
+  'login',
+  'register',
+  'sign-in',
+  'sign-up',
+  'signout',
+  'forgot-password',
+  'reset-password',
+  'auth',
+  'oauth',
+  'verify',
+])
+
+function isPrivatePathname(path: string): boolean {
+  const segment = path.split('/')[1] ?? ''
+  return PRIVATE_SEGMENTS.has(segment)
+}
+
 export function withMarketingCache(request: Request, response: Response): Response {
   const isUpgrade = response.status === 101 || (response as { webSocket?: unknown }).webSocket != null
   if (isUpgrade) return response
@@ -30,9 +52,12 @@ export function withMarketingCache(request: Request, response: Response): Respon
   // serve one user's account page to another (or replay a stale session page
   // within the hour). Force no-store so this layer is immune to that, for
   // every method (auth POSTs carry Set-Cookie and must not be cacheable).
-  if (path.startsWith('/app') || path.startsWith('/admin') || path.startsWith('/api')) {
+  // `Vary: Cookie` further splits any shared cache key by session so a CDN
+  // rule that ignores origin Cache-Control cannot mix users' responses.
+  if (isPrivatePathname(path)) {
     const headers = new Headers(response.headers)
     headers.set('Cache-Control', 'private, no-store')
+    headers.set('Vary', headers.get('Vary') ? `${headers.get('Vary')}, Cookie` : 'Cookie')
     return new Response(response.body, { status: response.status, statusText: response.statusText, headers })
   }
   if (request.method !== 'GET' && request.method !== 'HEAD') return response
@@ -66,12 +91,7 @@ export function withStaticCache(request: Request, response: Response): Response 
 
 /** Paths that must never be served from a shared edge cache. */
 export function isPrivatePath(path: string): boolean {
-  return (
-    path.startsWith('/app') ||
-    path.startsWith('/admin') ||
-    path.startsWith('/api') ||
-    path.startsWith('/docs')
-  )
+  return isPrivatePathname(path) || path.startsWith('/docs')
 }
 
 /**

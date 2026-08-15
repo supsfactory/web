@@ -18,10 +18,11 @@ describe('withMarketingCache', () => {
     expect(r.headers.get('cache-control')).toBe('max-age=3600')
   })
 
-  it('forces no-store on app/admin/api and leaves non-GET public paths alone', () => {
-    for (const path of ['/app', '/admin', '/api/x', '/app/dashboard']) {
+  it('forces no-store on app/admin/api/auth paths and leaves non-GET public paths alone', () => {
+    for (const path of ['/app', '/admin', '/api/x', '/app/dashboard', '/login', '/register', '/sign-in', '/forgot-password', '/auth/x', '/oauth/callback', '/verify/x']) {
       const r = withMarketingCache(new Request(`https://x.test${path}`), GET(path))
       expect(r.headers.get('cache-control')).toBe('private, no-store')
+      expect(r.headers.get('vary')).toBe('Cookie')
     }
     const apiPost = withMarketingCache(new Request('https://x.test/api/auth/sign-in', { method: 'POST' }), GET('/api/auth/sign-in'))
     expect(apiPost.headers.get('cache-control')).toBe('private, no-store')
