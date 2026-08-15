@@ -364,6 +364,13 @@ export const en = {
         'Production timing after specifications, artwork and approvals are confirmed',
         'The exact information needed for an accurate quotation',
       ],
+      intentLabels: {
+        'custom-oem': 'Custom OEM / ODM project',
+        'cobranding': 'Co-branding project',
+        'moq-guide': 'MOQ & production planning',
+        'production-availability': 'Production capacity & lead time',
+        'project-brief': 'Engineering & prototyping brief',
+      },
       ndaNote: 'NDA support is available before you share confidential files.',
       trustTitle: 'Factory Trust & Verification',
       trustSubtitle:

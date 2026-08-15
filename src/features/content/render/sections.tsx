@@ -490,6 +490,16 @@ function QcFlowWidget({ c }: { c: Record<string, unknown> }) {
                     <h3 className="font-display text-[17px] font-bold">{brandify(str(s.title) || '')}</h3>
                   </div>
                   {str(s.summary) && <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{brandify(str(s.summary))}</p>}
+                  {arr(s.checks).length > 0 && (
+                    <ul className="mt-3 space-y-1.5 text-[12.5px] leading-relaxed text-fg-2">
+                      {arr(s.checks).map((chk, ci) => (
+                        <li key={ci} className="flex items-start gap-2">
+                          <Check size={14} className="mt-0.5 shrink-0 text-primary" />
+                          <span>{brandify(str(chk))}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                   <dl className="mt-4 grid gap-2.5 text-[12.5px] leading-relaxed sm:grid-cols-2">
                     {[
                       [objLabel, str(s.object)],

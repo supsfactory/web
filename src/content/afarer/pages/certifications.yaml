@@ -87,6 +87,12 @@ qc_flow:
     - stage: STAGE 01
       title: 'Project Quality Planning (PPM)'
       summary: 'The pre-production meeting locks scope, baselines and inspection plan before the line starts.'
+      checks:
+        - 'Product name, internal code, customer SKU, order number and batch definition are recorded.'
+        - 'Board type, drop-stitch core, materials, rail bands, EVA, valves and fin system are specified.'
+        - 'Artwork file name, version, colors, logo position and printing area are locked and approved.'
+        - 'BOM — every item per set with quantity, color, part number and substitution rules — is customer-approved.'
+        - 'Packaging, labeling, barcodes, language of manuals and third-party inspection arrangements are fixed in writing.'
       object: 'Project scope vs. customer requirements — materials, dimensions, artwork, packaging, target market and applicable standards.'
       method: 'Pre-production meeting with sales, engineering and QC; Golden Sample sign-off; Quality Inspection Plan (QIP) issued for the order.'
       criteria: 'All five baselines approved and frozen before mass production starts. Unresolved items block production release.'
@@ -98,6 +104,12 @@ qc_flow:
     - stage: STAGE 02
       title: 'Incoming Material Inspection (IQC)'
       summary: 'Raw materials are verified against the approved supplier specification before they enter production.'
+      checks:
+        - 'Drop-stitch fabric, PVC rolls, rail material and EVA deck pads checked against the approved sample — color, thickness, weight and surface defects.'
+        - 'Valves, fin boxes, D-rings, handles and hardware checked for type, size, finish, rust and correct function.'
+        - 'Pumps, paddles, leashes, bags and repair kits verified for model, color and project configuration.'
+        - 'Supplier certificates (COA), material declarations and REACH/RoHS compliance documents reviewed per batch.'
+        - 'Non-conforming lots are quarantined and returned before any material reaches the line.'
       object: 'Drop-stitch fabric, PVC rolls, valves, fins, accessories and packaging materials against the approved spec and supplier test certificates.'
       method: 'Visual, dimensional and weight checks; batch sampling per AQL; material certificates reviewed; approved supplier list enforced.'
       criteria: 'Meets approved specification and certificates. Non-conforming lots are quarantined and rejected before release to the line.'
@@ -109,6 +121,12 @@ qc_flow:
     - stage: STAGE 03
       title: 'In-Process Control & First Article (IPQC / FAI)'
       summary: 'Construction methods and checkpoints are selected according to the approved board platform and project configuration. The first article is checked against the locked baselines; every shift keeps patrol checks on the line.'
+      checks:
+        - 'First article verified against approved sample, technical drawing, BOM, artwork and packaging files before mass production starts.'
+        - 'Board dimensions, outline and symmetry measured; ink and logo direction, position, colors and revision confirmed.'
+        - 'Seams and rail continuity checked for gaps, delamination, wrinkles, contamination or misalignment on the line.'
+        - 'Valve, D-ring, handle and fin-box installation checked for position, quantity and fit against the customer-approved BOM.'
+        - 'FAI approval version-locks artwork, dimensions and BOM; deviations route to the rework decision flow — never inline patching.'
       object: 'First article and in-process assemblies — seams, rails, fin box, valve base, artwork position, hardware torque.'
       method: 'First Article Inspection on the first unit; patrol checks per shift; weld strength and seam alignment verified inline.'
       criteria: 'FAI approval version-locks artwork, dimensions and BOM. Deviations route to the rework decision flow — never inline patching.'
@@ -120,6 +138,12 @@ qc_flow:
     - stage: STAGE 04
       title: 'Inflation & Air-Tightness Testing'
       summary: 'Every completed board undergoes inflation and air-tightness verification before packing — 100% of units, not a sample.'
+      checks:
+        - 'Board surface, rails and valve area checked for pinholes, cracks, abnormal folds or delamination before inflation.'
+        - 'Chambers inflated with a calibrated digital gauge to the project test pressure and initial reading locked.'
+        - 'Valve core, valve base and rail seams checked around the full circumference — nose, tail and curved areas.'
+        - '24-hour pressure hold with continuous logging; automatic reject above the allowed pressure drop.'
+        - 'Failed boards are quarantined, reworked under instruction and fully re-tested — not just re-checked at the repair point.'
       object: '100% of inflated chambers — full-seam leak detection, valve integrity and pressure-drop retention.'
       method: 'Full-seam leak detection followed by a 24-hour pressure hold at 18.0 PSI; automatic reject above a 0.50 PSI drop.'
       criteria: 'Zero leak points and pressure drop within 0.50 PSI per chamber; failed units are quarantined and reworked or scrapped.'
@@ -131,6 +155,12 @@ qc_flow:
     - stage: STAGE 05
       title: 'Final Product Inspection (FQC)'
       summary: 'Finished boards are measured and cosmetically graded against the approved golden sample.'
+      checks:
+        - 'Key dimensions — length, width and thickness — measured at working pressure against drawing tolerances.'
+        - 'Board outline, rocker and symmetry verified; no abnormal distortion, twist or warping after inflation.'
+        - 'Cosmetics graded under D65 daylight lamps: scratches, stains, glue marks, bubbles, wrinkles, color deviation.'
+        - 'Functional checks: valve open/close and cap fit, fin insertion and locking, D-rings, handles and paddle function.'
+        - 'Configuration verified against the customer-approved BOM and SKU — accessories, labels, barcodes and serial numbers.'
       object: 'Finished board vs. golden sample — dimensions, rocker, profile, cosmetics, fin-box fitment and accessory completeness.'
       method: 'Dimensional verification against drawing tolerances; cosmetics graded under D65 daylight lamps; fin box and hardware fit tests.'
       criteria: 'Dimensions within tolerance (e.g. 3508 × 814 × 150.3 mm), cosmetic grade per approved sample, all accessories present.'
@@ -142,6 +172,12 @@ qc_flow:
     - stage: STAGE 06
       title: 'Packaging & Pre-Shipment Inspection (PSI)'
       summary: 'The packed kit is checked for completeness, marking accuracy and shipment readiness.'
+      checks:
+        - '100% kit completeness vs. BOM: board, paddle, pump, leash, bag, repair kit and manual — one set at a time.'
+        - 'Fragile parts protected (pump and blade bags), board folded per packing SOP, accessories match model and color.'
+        - 'Carton graphics, brand, warnings and language versions verified against the approved artwork revision.'
+        - 'Barcode type, number, position and scannability verified; shipping marks, SKU, PO, carton number and quantity correct.'
+        - 'Carton size, gross/net weight and inner packing match the packing specification; drop-test result recorded when required.'
       object: 'Packed kit — board, paddle, pump, leash, bag, manual — against the customer-approved BOM and packaging spec.'
       method: '100% kit completeness vs. BOM; barcode scan (Grade ≥ B); carton marking accuracy; ISTA-1A drop test on packed cartons.'
       criteria: '100% kit match to BOM, readable barcodes, correct markings and drop-safe packing before loading.'
@@ -153,6 +189,12 @@ qc_flow:
     - stage: STAGE 07
       title: 'Shipment Release & Traceability'
       summary: 'Quality signs off the batch only when all six previous gates are closed and every record is complete.'
+      checks:
+        - 'Production batch, order number, SKU, quantity and carton count match the packing list and commercial invoice.'
+        - 'Specification, BOM, artwork and packaging files are all at the current approved revision.'
+        - 'IQC, FAI, in-process, air-tightness, FQC and PSI records are complete for the batch being released.'
+        - 'All non-conformances are resolved, reworked, re-inspected and closed — no open items on the release.'
+        - 'Traceability fields recorded per batch: project code, PO, SKU, artwork/BOM/packaging revisions, production date, inspector and record numbers.'
       object: 'Release authorization for the batch — all gates closed, records complete, serial numbers mapped to the batch.'
       method: 'Gate review of all six preceding records by quality; batch traceability dossier assembled; records handed over with the shipment.'
       criteria: 'All gates approved by QA; batch records and traceability dossier delivered to the buyer or kept under NDA on request.'

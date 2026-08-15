@@ -55,6 +55,53 @@ steps:
     description: Boards are deflated, folded per procedure, packed in heavy-duty woven bags or retail boxes, and loaded for shipment. Each package is labelled with model, serial number, and destination. We coordinate with freight forwarders for FCL and LCL container shipments worldwide.
     duration: 1 day
 
+evidence_gates:
+  tagline: Inspection Evidence
+  title: 'Every Stage Leaves a Record — Photos & Reports'
+  subtitle: 'Below are the actual inspection photos and test-report dossiers from our seven controlled quality gates. Each PDF is a real bilingual record you can download and audit — the same records that back every batch in the 10-year ERP traceability archive. See the full 7-stage flow on /quality.'
+  items:
+    - title: 'PPM — Project Quality Planning'
+      description: 'The pre-production meeting locks scope, the golden sample and the Quality Inspection Plan before the line starts. Unresolved items block production release.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Download QIP (PDF)'
+      image: /assets/quality/node01-ppm.jpg
+      alt: Pre-production meeting reviewing the golden sample and quality inspection plan for an OEM SUP order
+    - title: 'IQC — Incoming Material Inspection'
+      description: 'Every incoming batch of PVC, fabric and hardware is checked against the approved spec. Non-conforming lots are quarantined and rejected before release to the line.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Download IQC reports (PDF)'
+      image: /assets/quality/node02-iqc.jpg
+      alt: Incoming material inspection of PVC fabric and SUP components at the factory
+    - title: 'IPQC / FAI — In-Process Control'
+      description: 'The first article is verified against the locked baselines and every shift keeps patrol checks on the line. FAI approval version-locks artwork, dimensions and BOM.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Download IPQC reports (PDF)'
+      image: /assets/quality/node03-ipqc-fai.jpg
+      alt: In-process inspection and first article check during SUP production
+    - title: 'Inflation & Air-Tightness Testing'
+      description: '100% of completed boards — not a sample — get a 24-hour pressure hold at 18.0 PSI with automatic reject above a 0.50 PSI drop. One record per chamber.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Download air-tightness reports (PDF)'
+      image: /assets/quality/node04-airtightness.jpg
+      alt: Inflation and air-tightness testing of an inflatable SUP chamber
+    - title: 'FQC — Final Product Inspection'
+      description: 'Finished boards are measured against drawing tolerances and cosmetically graded under D65 daylight lamps against the approved golden sample.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Download FQC reports (PDF)'
+      image: /assets/quality/node05-fqc.jpg
+      alt: Final product inspection of finished SUP boards before packing
+    - title: 'PSI — Packaging & Pre-Shipment Inspection'
+      description: 'The packed kit is checked 100% against the customer-approved BOM — barcode scan (Grade ≥ B), carton markings and ISTA-1A drop test before loading.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Download PSI reports (PDF)'
+      image: /assets/quality/node06-psi.jpg
+      alt: Pre-shipment inspection checking the packed SUP kit against the BOM
+    - title: 'Shipment Release & Traceability'
+      description: 'Quality signs off the batch only when all six previous gates are closed. Serial numbers are mapped to the batch and the dossier is handed over with the shipment.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Download release reports (PDF)'
+      image: /assets/quality/node07-shipment-release.jpg
+      alt: Shipment release sign-off and batch traceability record handover
 cta:
   title: See our equipment and machinery
   desc: Explore the industrial-grade equipment behind every afarer SUP board.

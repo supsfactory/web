@@ -87,6 +87,12 @@ qc_flow:
     - stage: ETAPA 01
       title: 'Planificación de calidad del proyecto (PPM)'
       summary: 'La reunión previa a la producción fija el alcance, las líneas base y el plan de inspección antes de arrancar la línea.'
+      checks:
+        - 'Se registran el nombre del producto, el código interno, el SKU del cliente, el número de pedido y la definición de lote.'
+        - 'Se especifican el tipo de tabla, el núcleo drop-stitch, los materiales, las bandas de refuerzo, el EVA, las válvulas y el sistema de aletas.'
+        - 'El archivo de arte, su versión, los colores, la posición del logo y la zona de impresión quedan bloqueados y aprobados.'
+        - 'La BOM — cada artículo por set con cantidad, color, número de pieza y reglas de sustitución — es aprobada por el cliente.'
+        - 'El embalaje, el etiquetado, los códigos de barras, el idioma de los manuales y la inspección de terceros quedan fijados por escrito.'
       object: 'Alcance del proyecto frente a requisitos del cliente — materiales, dimensiones, arte, embalaje, mercado objetivo y estándares aplicables.'
       method: 'Reunión previa a la producción con ventas, ingeniería y calidad; aprobación de la muestra dorada; emisión del Plan de Inspección de Calidad (QIP) para el pedido.'
       criteria: 'Las cinco líneas base aprobadas y congeladas antes de iniciar la producción en masa. Los puntos sin resolver bloquean la liberación de producción.'
@@ -98,6 +104,12 @@ qc_flow:
     - stage: ETAPA 02
       title: 'Inspección de materiales entrantes (IQC)'
       summary: 'Las materias primas se verifican contra la especificación aprobada del proveedor antes de entrar en producción.'
+      checks:
+        - 'Tejido drop-stitch, rollos de PVC, material de raíl y cubiertas EVA comprobados contra la muestra aprobada — color, grosor, peso y defectos superficiales.'
+        - 'Válvulas, cajas de aleta, anillos D, asas y herrajes comprobados en tipo, tamaño, acabado, óxido y funcionamiento.'
+        - 'Bombas, palas, correas, bolsas y kits de reparación verificados en modelo, color y configuración de proyecto.'
+        - 'Certificados del proveedor (COA), declaraciones de materiales y documentos de cumplimiento REACH/RoHS revisados por lote.'
+        - 'Los lotes no conformes se cuarentenan y devuelven antes de que ningún material llegue a la línea.'
       object: 'Tejido drop-stitch, rollos de PVC, válvulas, aletas, accesorios y materiales de embalaje contra la especificación aprobada y los certificados de ensayo del proveedor.'
       method: 'Controles visuales, dimensionales y de peso; muestreo de lote según AQL; revisión de certificados de materiales; lista de proveedores aprobados.'
       criteria: 'Cumple la especificación y los certificados aprobados. Los lotes no conformes se cuarentenan y rechazan antes de su liberación a la línea.'
@@ -109,6 +121,12 @@ qc_flow:
     - stage: ETAPA 03
       title: 'Control en proceso y primera pieza (IPQC / FAI)'
       summary: 'Los métodos de construcción y los puntos de control se seleccionan según la plataforma de tabla aprobada y la configuración del proyecto. La primera pieza se comprueba contra las líneas base bloqueadas; cada turno mantiene controles de ronda en la línea.'
+      checks:
+        - 'La primera pieza se verifica contra la muestra aprobada, el plano técnico, la BOM, el arte y los archivos de embalaje antes de iniciar la producción en masa.'
+        - 'Se miden las dimensiones, el contorno y la simetría de la tabla; se confirman la dirección del logo y la tinta, la posición, los colores y la revisión.'
+        - 'Las costuras y la continuidad del raíl se comprueban en línea por separaciones, delaminación, arrugas, contaminación o desalineación.'
+        - 'La instalación de válvula, anillos D, asa y caja de aleta se comprueba en posición, cantidad y ajuste contra la BOM aprobada por el cliente.'
+        - 'La aprobación FAI bloquea por versión arte, dimensiones y BOM; las desviaciones van al flujo de decisión de retrabajo — nunca parches en línea.'
       object: 'Primera pieza y conjuntos en proceso — costuras, raíles, caja de aleta, base de válvula, posición del arte, par de herrajes.'
       method: 'Inspección de primera pieza (FAI) en la primera unidad; controles de ronda por turno; resistencia de soldadura y alineación de costuras verificadas en línea.'
       criteria: 'La aprobación FAI bloquea por versión el arte, las dimensiones y la BOM. Las desviaciones se derivan al flujo de decisión de retrabajo — nunca parches en línea.'
@@ -120,6 +138,12 @@ qc_flow:
     - stage: ETAPA 04
       title: 'Ensayo de inflado y estanqueidad'
       summary: 'Cada tabla terminada se somete a verificación de inflado y estanqueidad antes del embalaje — el 100% de las unidades, no una muestra.'
+      checks:
+        - 'La superficie de la tabla, los raíles y la zona de la válvula se comprueban en busca de agujeros, grietas, pliegues anómalos o delaminación antes del inflado.'
+        - 'Las cámaras se inflan con un manómetro digital calibrado a la presión de ensayo del proyecto y se fija la lectura inicial.'
+        - 'El núcleo de la válvula, la base de la válvula y las costuras del raíl se revisan en todo el perímetro — nariz, cola y zonas curvas.'
+        - 'Retención de presión de 24 horas con registro continuo; rechazo automático por encima de la caída de presión permitida.'
+        - 'Las tablas fallidas se cuarentenan, se retrabajan bajo instrucción y se vuelven a ensayar por completo — no solo en el punto de reparación.'
       object: 'El 100% de las cámaras infladas — detección de fugas en costuras, integridad de válvula y retención de presión.'
       method: 'Detección de fugas en todas las costuras seguida de retención de presión durante 24 horas a 18,0 PSI; rechazo automático por encima de una caída de 0,50 PSI.'
       criteria: 'Cero puntos de fuga y caída de presión dentro de 0,50 PSI por cámara; las unidades fallidas se cuarentenan y retrabajan o se desechan.'
@@ -131,6 +155,12 @@ qc_flow:
     - stage: ETAPA 05
       title: 'Inspección final de producto (FQC)'
       summary: 'Las tablas terminadas se miden y se califican cosméticamente contra la muestra dorada aprobada.'
+      checks:
+        - 'Las dimensiones clave — largo, ancho y grosor — se miden a presión de trabajo contra las tolerancias del plano.'
+        - 'Se verifican el contorno, el rocker y la simetría de la tabla; sin distorsión, torsión o alabeo anómalo tras el inflado.'
+        - 'Cosmética evaluada bajo lámparas de luz diurna D65: rayones, manchas, marcas de pegamento, burbujas, arrugas, desviación de color.'
+        - 'Comprobaciones funcionales: apertura/cierre de la válvula y ajuste del tapón, inserción y bloqueo de la aleta, anillos D, asas y función de la pala.'
+        - 'Configuración verificada contra la BOM y el SKU aprobados — accesorios, etiquetas, códigos de barras y números de serie.'
       object: 'Tabla terminada frente a la muestra dorada — dimensiones, rocker, perfil, cosmética, ajuste de la caja de aleta e integridad de accesorios.'
       method: 'Verificación dimensional contra tolerancias de plano; cosmética evaluada bajo lámparas de luz diurna D65; ensayos de ajuste de caja de aleta y herrajes.'
       criteria: 'Dimensiones dentro de tolerancia (p. ej. 3508 × 814 × 150,3 mm), grado cosmético según muestra aprobada, todos los accesorios presentes.'
@@ -142,6 +172,12 @@ qc_flow:
     - stage: ETAPA 06
       title: 'Embalaje e inspección pre-embarque (PSI)'
       summary: 'El kit embalado se comprueba en integridad, precisión del marcado y preparación para el envío.'
+      checks:
+        - 'Integridad del kit al 100% frente a la BOM: tabla, pala, bomba, correa, bolsa, kit de reparación y manual — un set a la vez.'
+        - 'Las piezas frágiles van protegidas (bolsas de bomba y pala), la tabla se pliega según el SOP de embalaje y los accesorios coinciden en modelo y color.'
+        - 'Los gráficos del cartón, la marca, las advertencias y las versiones de idioma se verifican contra la revisión de arte aprobada.'
+        - 'Tipo, número, posición y legibilidad del código de barras verificados; marcas de envío, SKU, PO, número de cartón y cantidad correctos.'
+        - 'El tamaño del cartón, el peso bruto/neto y el embalaje interior coinciden con la especificación; el ensayo de caída se registra cuando se requiere.'
       object: 'Kit embalado — tabla, pala, bomba, correa, bolsa, manual — contra la BOM aprobada por el cliente y la especificación de embalaje.'
       method: 'Integridad del kit al 100% frente a la BOM; escaneo de código de barras (grado ≥ B); precisión del marcado del cartón; ensayo de caída ISTA-1A sobre cartones embalados.'
       criteria: 'Kit al 100% según BOM, códigos de barras legibles, marcados correctos y embalaje seguro contra caídas antes de la carga.'
@@ -153,6 +189,12 @@ qc_flow:
     - stage: ETAPA 07
       title: 'Liberación de envío y trazabilidad'
       summary: 'Calidad firma la liberación del lote solo cuando las seis puertas anteriores están cerradas y todos los registros están completos.'
+      checks:
+        - 'El lote de producción, el número de pedido, el SKU, la cantidad y el recuento de cartones coinciden con la lista de embalaje y la factura comercial.'
+        - 'La especificación, la BOM, el arte y los archivos de embalaje están todos en la revisión aprobada vigente.'
+        - 'Los registros IQC, FAI, en proceso, de estanqueidad, FQC y PSI están completos para el lote que se libera.'
+        - 'Todas las no conformidades están resueltas, retrabajadas, reinspeccionadas y cerradas — sin elementos abiertos en la liberación.'
+        - 'Campos de trazabilidad registrados por lote: código de proyecto, PO, SKU, revisiones de arte/BOM/embalaje, fecha de producción, inspector y números de registro.'
       object: 'Autorización de liberación del lote — puertas cerradas, registros completos, números de serie mapeados al lote.'
       method: 'Revisión de las seis puertas anteriores por calidad; ensamblado del dosier de trazabilidad del lote; entrega de registros con el envío.'
       criteria: 'Todas las puertas aprobadas por calidad; registros de lote y dosier de trazabilidad entregados al comprador o custodiados bajo NDA a petición.'

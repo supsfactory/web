@@ -55,6 +55,53 @@ steps:
     description: Las tablas se desinflan, se pliegan según el procedimiento estándar, se embalan en bolsas de tejido resistente o cajas de retail y se cargan para su envío. Cada paquete se etiqueta con el modelo, el número de serie y el destino. Coordinamos con transitarios los envíos en contenedor FCL y LCL a todo el mundo.
     duration: 1 día
 
+evidence_gates:
+  tagline: Evidencias de inspección
+  title: 'Cada etapa deja un registro: fotos e informes'
+  subtitle: 'A continuación tienes las fotos de inspección reales y los dosieres de informes de ensayo de nuestras siete puertas de control de calidad. Cada PDF es un registro bilingüe real que puedes descargar y auditar — los mismos registros que respaldan cada lote en el archivo de trazabilidad ERP de 10 años. Consulta el flujo completo de 7 etapas en /quality.'
+  items:
+    - title: 'PPM — Planificación de calidad del proyecto'
+      description: 'La reunión previa a la producción fija el alcance, la muestra patrón y el Plan de Inspección de Calidad antes de arrancar la línea. Los puntos sin resolver bloquean la liberación a producción.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Descargar QIP (PDF)'
+      image: /assets/quality/node01-ppm.jpg
+      alt: Reunión previa a la producción revisando la muestra patrón y el plan de inspección de calidad de un pedido OEM de SUP
+    - title: 'IQC — Inspección de materiales entrantes'
+      description: 'Cada lote entrante de PVC, tejido y herrajes se comprueba contra la especificación aprobada. Los lotes no conformes se ponen en cuarentena y se rechazan antes de liberarlos a la línea.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Descargar informes IQC (PDF)'
+      image: /assets/quality/node02-iqc.jpg
+      alt: Inspección de materiales entrantes de tejido de PVC y componentes de SUP en la fábrica
+    - title: 'IPQC / FAI — Control en proceso'
+      description: 'La primera pieza se verifica contra las líneas base bloqueadas y cada turno mantiene controles de patrulla en la línea. La aprobación FAI bloquea la versión de arte, dimensiones y BOM.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Descargar informes IPQC (PDF)'
+      image: /assets/quality/node03-ipqc-fai.jpg
+      alt: Inspección en proceso y control de la primera pieza durante la producción de SUP
+    - title: 'Prueba de inflado y estanqueidad'
+      description: 'El 100% de las tablas terminadas — no solo una muestra — pasa una retención de presión de 24 horas a 18,0 PSI con rechazo automático por encima de una caída de 0,50 PSI. Un registro por cámara.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Descargar informes de estanqueidad (PDF)'
+      image: /assets/quality/node04-airtightness.jpg
+      alt: Prueba de inflado y estanqueidad de la cámara de un SUP hinchable
+    - title: 'FQC — Inspección final del producto'
+      description: 'Las tablas terminadas se miden contra las tolerancias del plano y se clasifican cosméticamente bajo lámparas de luz diurna D65 contra la muestra patrón aprobada.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Descargar informes FQC (PDF)'
+      image: /assets/quality/node05-fqc.jpg
+      alt: Inspección final del producto de tablas de SUP terminadas antes del embalaje
+    - title: 'PSI — Inspección de embalaje y previa al envío'
+      description: 'El kit embalado se comprueba al 100% contra el BOM aprobado por el cliente — escaneo de código de barras (grado ≥ B), marcado de cajas y prueba de caída ISTA-1A antes de la carga.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Descargar informes PSI (PDF)'
+      image: /assets/quality/node06-psi.jpg
+      alt: Inspección previa al envío comprobando el kit de SUP embalado contra el BOM
+    - title: 'Liberación de envío y trazabilidad'
+      description: 'Calidad firma la liberación del lote solo cuando las seis puertas anteriores están cerradas. Los números de serie se asignan al lote y el dosier se entrega con el envío.'
+      link: /downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Descargar informes de liberación (PDF)'
+      image: /assets/quality/node07-shipment-release.jpg
+      alt: Firma de liberación de envío y entrega del registro de trazabilidad del lote
 cta:
   title: Vea nuestros equipos y maquinaria
   desc: Explore el equipamiento de grado industrial que hay detrás de cada tabla de SUP de afarer.

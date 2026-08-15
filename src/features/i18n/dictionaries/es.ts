@@ -354,6 +354,13 @@ export const es = {
         'Tiempos de producción tras confirmar especificaciones, arte y aprobaciones',
         'La información exacta necesaria para un presupuesto preciso',
       ],
+      intentLabels: {
+        'custom-oem': 'Proyecto OEM/ODM personalizado',
+        'cobranding': 'Proyecto de co-branding',
+        'moq-guide': 'Planificación de MOQ y producción',
+        'production-availability': 'Capacidad de producción y plazos',
+        'project-brief': 'Briefing de ingeniería y prototipado',
+      },
       ndaNote: 'Disponemos de soporte de NDA antes de compartir archivos confidenciales.',
       trustTitle: 'Confianza y Verificación de Fábrica',
       trustSubtitle:

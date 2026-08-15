@@ -126,6 +126,7 @@
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
     - { key: steps, type: steps, label: 'Process Steps' }
+    - { key: evidence_gates, type: features, label: 'Inspection Evidence Photos & Reports' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: factory-quality-lab
