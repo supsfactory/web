@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { useState } from 'react'
 import { ArrowRight, Package } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -31,6 +32,17 @@ function ProjectsIndex() {
   const items = projects[locale]
   const meta = projectsMeta[locale]
   const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const [customer, setCustomer] = useState('')
+  const [category, setCategory] = useState('')
+  const customers = Array.from(new Set(items.map((p) => p.industry)))
+  const categories = Array.from(new Set(items.map((p) => p.productCategory)))
+  const filtered = items.filter(
+    (p) => (!customer || p.industry === customer) && (!category || p.productCategory === category),
+  )
+  const chip = (active: boolean): string =>
+    `rounded-full px-3.5 py-1.5 text-[12.5px] font-bold transition-colors ${
+      active ? 'bg-primary text-white' : 'border border-border bg-bg-alt text-fg-2 hover:border-primary/40'
+    }`
 
   return (
     <MarketingShell>
@@ -41,8 +53,37 @@ function ProjectsIndex() {
       </PageHero>
 
       <section className="mx-auto max-w-6xl px-5 py-14 md:px-7 md:py-16">
-        <div className="grid gap-6 md:grid-cols-2">
-          {items.map((p) => (
+        <div className="flex flex-col gap-3">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="mr-1 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
+              {t('sup.projects.filterCustomerType')}
+            </span>
+            <button type="button" onClick={() => setCustomer('')} className={chip(!customer)}>
+              {t('sup.projects.filterAll')}
+            </button>
+            {customers.map((c) => (
+              <button key={c} type="button" onClick={() => setCustomer(customer === c ? '' : c)} className={chip(customer === c)}>
+                {c}
+              </button>
+            ))}
+          </div>
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="mr-1 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
+              {t('sup.projects.filterProductCategory')}
+            </span>
+            <button type="button" onClick={() => setCategory('')} className={chip(!category)}>
+              {t('sup.projects.filterAll')}
+            </button>
+            {categories.map((c) => (
+              <button key={c} type="button" onClick={() => setCategory(category === c ? '' : c)} className={chip(category === c)}>
+                {c}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-8 grid gap-6 md:grid-cols-2">
+          {filtered.map((p) => (
             <a
               key={p.slug}
               href={fl(`/projects/${p.slug}`)}
@@ -61,6 +102,10 @@ function ProjectsIndex() {
             </a>
           ))}
         </div>
+
+        {filtered.length === 0 && (
+          <p className="mt-8 text-center text-[14px] text-fg-2">{t('sup.projects.filterEmpty')}</p>
+        )}
 
         <div className="mt-14 rounded-3xl border border-border bg-bg-alt p-8 text-center md:p-12">
           <h2 className="font-display text-2xl font-extrabold">{t('sup.projects.yourCaseTitle')}</h2>

@@ -481,7 +481,7 @@ export const projects: Localized<ProjectData[]> = {
       intro: [
         'A fishing-specific SUP project: a stable platform configured with fishing accessory zones, an organized pack and retail-ready packing — from concept review to program production.',
       ],
-      industry: 'Outdoor Retailers',
+      industry: 'Retail & Outdoor Brands',
       requirement: 'A fishing SUP configuration with accessory anchoring, organized pack and retail packaging, from concept review to program production.',
       challenge:
         'Fishing boards need accessory anchoring — rod holders, D-rings and crate zones — without compromising stability. The pack had to stay organized on board, and the packaging had to present the category clearly at retail.',
@@ -535,7 +535,7 @@ export const projects: Localized<ProjectData[]> = {
       intro: [
         'A yoga SUP configuration for a training program: a wide, high-volume platform with full EVA deck coverage, produced as a consistent fleet for group practice.',
       ],
-      industry: 'Water-Sports Schools',
+      industry: 'Education & Youth Programs',
       requirement: 'A stable yoga SUP configuration with full deck coverage for group practice, in program quantities.',
       challenge:
         'Yoga practice demands a wide, high-volume platform that stays rock-solid in the water. Groups need consistent boards, and instructors need clear guidance plus manageable storage between sessions.',
@@ -1007,7 +1007,7 @@ export const projects: Localized<ProjectData[]> = {
       intro: [
         'Un proyecto de SUP específico para pesca: una plataforma estable con zonas para accesorios de pesca, un pack organizado y embalaje listo para retail, desde la revisión de concepto hasta la producción del programa.',
       ],
-      industry: 'Minoristas outdoor',
+      industry: 'Retail y marcas outdoor',
       requirement: 'Una configuración de SUP de pesca con anclaje de accesorios, pack organizado y embalaje de retail, desde la revisión de concepto hasta la producción del programa.',
       challenge:
         'Las tablas de pesca necesitan anclaje de accesorios — porta cañas, D-rings y zonas para cajas — sin comprometer la estabilidad. El pack debía mantenerse organizado a bordo y el embalaje presentar la categoría con claridad en el punto de venta.',
@@ -1061,7 +1061,7 @@ export const projects: Localized<ProjectData[]> = {
       intro: [
         'Una configuración de SUP de yoga para un programa de entrenamiento: una plataforma ancha y de alto volumen con cobertura total de EVA, producida como una flota coherente para la práctica en grupo.',
       ],
-      industry: 'Escuelas de deportes acuáticos',
+      industry: 'Educación y programas juveniles',
       requirement: 'Una configuración estable de SUP de yoga con cobertura total de cubierta para la práctica en grupo, en cantidades de programa.',
       challenge:
         'La práctica de yoga exige una plataforma ancha y de alto volumen que permanezca sólida en el agua. Los grupos necesitan tablas coherentes y los instructores, una guía clara además de un almacenaje manejable entre sesiones.',

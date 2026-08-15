@@ -23,6 +23,7 @@ import { StudioSection } from '@/components/marketing/studio-section'
 import { SeriesSection } from '@/components/marketing/series-section'
 import { GallerySection } from '@/components/marketing/gallery-section'
 import { GuidesSection } from '@/components/marketing/guides-section'
+import { ProjectsShowcase } from '@/components/marketing/projects-showcase'
 import { FaqSection } from '@/components/marketing/faq'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
@@ -84,6 +85,7 @@ function Home() {
       <WhyUs />
       <GallerySection />
       <GuidesSection />
+      <ProjectsShowcase />
       <FaqSection />
       <JsonLd data={faqLd(pick(faq, locale).items, locale)} />
       <CtaBand />
