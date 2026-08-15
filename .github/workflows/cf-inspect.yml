@@ -13,21 +13,17 @@ jobs:
           set -e
           API="https://api.cloudflare.com/client/v4"
           AUTH="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
-          echo "== zone lookup =="
-          ZHTTP=$(curl -sS -o /tmp/zone.json -w '%{http_code}' \
-            "$API/zones?name=supsfactory.com&per_page=1" -H "$AUTH")
-          echo "zone lookup HTTP $ZHTTP"
-          ZID=$(jq -r '.result[0].id // ""' /tmp/zone.json)
-          echo "zone id: $ZID"
-          [ -n "$ZID" ] || { echo "zone not found; token may lack Zone Read"; cat /tmp/zone.json | jq '.errors'; exit 0; }
-          echo "== cache_rules =="
-          curl -sS "$API/zones/$ZID/cache/cache_rules" -H "$AUTH" | jq .
-          echo "== page_rules =="
-          curl -sS "$API/zones/$ZID/pagerules?status=active" -H "$AUTH" | jq '.result | map({id, targets, action})'
-          echo "== cache_level settings =="
-          curl -sS "$API/zones/$ZID/settings/cache_level" -H "$AUTH" | jq .
-          echo "== image_resizing settings =="
-          curl -sS "$API/zones/$ZID/settings/image_resizing" -H "$AUTH" | jq .
+          echo "== token permissions =="
+          curl -sS "$API/user/tokens/verify" -H "$AUTH" | jq '{success, status: .result.status, id: .result.id, name: .result.name, policies: [.result.policies[] | {effect, resources, permission_groups: [.permission_groups[].name]}]}'
+          ZID="4a6adf44067bd05a752eae9d3b6cbb80"
+          echo "== rulesets phases =="
+          curl -sS "$API/zones/$ZID/rulesets" -H "$AUTH" | jq '{success, count: (.result | length), phases: [.result[]? | {phase, id}]}'
+          echo "== http_request_cache_settings (cache rules) =="
+          curl -sS "$API/zones/$ZID/rulesets/phases/http_request_cache_settings/entrypoint" -H "$AUTH" | jq '.result.rules // {success, errors}'
+          echo "== http_cache_settings (edge ttl) =="
+          curl -sS "$API/zones/$ZID/rulesets/phases/http_cache_settings/entrypoint" -H "$AUTH" | jq '.result.rules // {success, errors}'
+          echo "== page rules =="
+          curl -sS "$API/zones/$ZID/pagerules?status=active" -H "$AUTH" | jq '.result // .errors'
 
       - name: Show recent deploy runs
         env:
