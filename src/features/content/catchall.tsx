@@ -241,6 +241,16 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
                 ], 'OEM Buyer Trust & Factory Assurance Guide for Inflatable SUP Manufacturing')}
               />
             )}
+            {data.path.startsWith('/proof-center') && (
+              <JsonLd
+                data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, [
+                  'SUP Manufacturing',
+                  'Factory Evidence and Certificate Scope',
+                  'Entity Relationship (SUPsfactory, afarer, Vatrad)',
+                  'Batch Traceability and Record Keeping',
+                ], 'SUP Factory Proof Center: Evidence Behind Manufacturing Claims')}
+              />
+            )}
             {page.meta?.dateModified && (
               <JsonLd
                 data={{

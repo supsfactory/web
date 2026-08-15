@@ -279,6 +279,7 @@ export const es = {
       },
       manufacturingDropdown: {
         factory: 'Fábrica y producción',
+        proofCenter: 'Centro de Evidencia — Datos de Fábrica',
         quality: 'Calidad y ensayos',
         qualityInspection: 'Estándares de inspección de calidad',
         changeControl: 'Control de cambios y validación de retrabajo',

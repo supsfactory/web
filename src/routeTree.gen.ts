@@ -24,6 +24,7 @@ import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
 import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
 import { Route as RanddcenterRouteImport } from './routes/randdcenter'
 import { Route as QualityRouteImport } from './routes/quality'
+import { Route as ProofCenterRouteImport } from './routes/proof-center'
 import { Route as ProductDevelopmentRouteImport } from './routes/product-development'
 import { Route as PartnersRouteImport } from './routes/partners'
 import { Route as OemTrustAssuranceRouteImport } from './routes/oem-trust-assurance'
@@ -175,6 +176,11 @@ const QualityRoute = QualityRouteImport.update({
   path: '/quality',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/quality.lazy').then((d) => d.Route))
+const ProofCenterRoute = ProofCenterRouteImport.update({
+  id: '/proof-center',
+  path: '/proof-center',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/proof-center.lazy').then((d) => d.Route))
 const ProductDevelopmentRoute = ProductDevelopmentRouteImport.update({
   id: '/product-development',
   path: '/product-development',
@@ -622,6 +628,7 @@ export interface FileRoutesByFullPath {
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/partners': typeof PartnersRoute
   '/product-development': typeof ProductDevelopmentRoute
+  '/proof-center': typeof ProofCenterRoute
   '/quality': typeof QualityRoute
   '/randdcenter': typeof RanddcenterRoute
   '/robots.txt': typeof RobotsDottxtRoute
@@ -711,6 +718,7 @@ export interface FileRoutesByTo {
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/partners': typeof PartnersRoute
   '/product-development': typeof ProductDevelopmentRoute
+  '/proof-center': typeof ProofCenterRoute
   '/quality': typeof QualityRoute
   '/randdcenter': typeof RanddcenterRoute
   '/robots.txt': typeof RobotsDottxtRoute
@@ -800,6 +808,7 @@ export interface FileRoutesById {
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/partners': typeof PartnersRoute
   '/product-development': typeof ProductDevelopmentRoute
+  '/proof-center': typeof ProofCenterRoute
   '/quality': typeof QualityRoute
   '/randdcenter': typeof RanddcenterRoute
   '/robots.txt': typeof RobotsDottxtRoute
@@ -892,6 +901,7 @@ export interface FileRouteTypes {
     | '/oem-trust-assurance'
     | '/partners'
     | '/product-development'
+    | '/proof-center'
     | '/quality'
     | '/randdcenter'
     | '/robots.txt'
@@ -981,6 +991,7 @@ export interface FileRouteTypes {
     | '/oem-trust-assurance'
     | '/partners'
     | '/product-development'
+    | '/proof-center'
     | '/quality'
     | '/randdcenter'
     | '/robots.txt'
@@ -1069,6 +1080,7 @@ export interface FileRouteTypes {
     | '/oem-trust-assurance'
     | '/partners'
     | '/product-development'
+    | '/proof-center'
     | '/quality'
     | '/randdcenter'
     | '/robots.txt'
@@ -1160,6 +1172,7 @@ export interface RootRouteChildren {
   OemTrustAssuranceRoute: typeof OemTrustAssuranceRoute
   PartnersRoute: typeof PartnersRoute
   ProductDevelopmentRoute: typeof ProductDevelopmentRoute
+  ProofCenterRoute: typeof ProofCenterRoute
   QualityRoute: typeof QualityRoute
   RanddcenterRoute: typeof RanddcenterRoute
   RobotsDottxtRoute: typeof RobotsDottxtRoute
@@ -1290,6 +1303,13 @@ declare module '@tanstack/react-router' {
       path: '/quality'
       fullPath: '/quality'
       preLoaderRoute: typeof QualityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/proof-center': {
+      id: '/proof-center'
+      path: '/proof-center'
+      fullPath: '/proof-center'
+      preLoaderRoute: typeof ProofCenterRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/product-development': {
@@ -1981,6 +2001,7 @@ const rootRouteChildren: RootRouteChildren = {
   OemTrustAssuranceRoute: OemTrustAssuranceRoute,
   PartnersRoute: PartnersRoute,
   ProductDevelopmentRoute: ProductDevelopmentRoute,
+  ProofCenterRoute: ProofCenterRoute,
   QualityRoute: QualityRoute,
   RanddcenterRoute: RanddcenterRoute,
   RobotsDottxtRoute: RobotsDottxtRoute,

@@ -44,6 +44,7 @@ export const LLMS_TXT = `# SUPsfactory
 - [Quality, testing and certifications](https://supsfactory.com/quality): CE and ISO compliance, in-line inspection, air-retention and pressure testing, batch quality control.
 - [R&D center](https://supsfactory.com/randdcenter): hull engineering, hydrodynamic test tank, prototype workshop, PVC fabric lab, RF welding, quality inspection lab.
 - [Technology](https://supsfactory.com/technology): drop-stitch core construction, military-grade PVC, Hypalon tubes, air-deck floor.
+- [Proof Center — factory evidence](https://supsfactory.com/proof-center): entity relationships (SUPsfactory / afarer / Qingdao Vatrad Group), certificates with scope, equipment list, batch traceability sample and inspection documentation.
 
 ## Products available for customization
 

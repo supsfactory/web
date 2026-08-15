@@ -57,6 +57,7 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           <a className="foot-link" href={fl('/oem-moq-guide')}>{t('sup.nav.oemDropdown.moqGuide')}</a>
           <a className="foot-link" href={fl('/oem-trust-assurance')}>{t('sup.nav.oemDropdown.trust')}</a>
           <a className="foot-link" href={fl('/factory')}>{t('sup.footer.factory')}</a>
+          <a className="foot-link" href={fl('/proof-center')}>{t('sup.nav.manufacturingDropdown.proofCenter')}</a>
           <a className="foot-link" href={fl('/factory/capacity')}>{t('sup.footer.factoryCapacity')}</a>
           <a className="foot-link" href={fl('/quality')}>{t('sup.nav.manufacturingDropdown.quality')}</a>
           <a className="foot-link" href={fl('/factory/quality-inspection')}>{t('sup.nav.manufacturingDropdown.qualityInspection')}</a>

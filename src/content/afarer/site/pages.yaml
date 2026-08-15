@@ -304,6 +304,21 @@
     - { key: content_process, type: content, label: 'Process Content' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
+- slug: proof-center
+  label: Proof Center
+  path: /proof-center
+  permalink: /proof-center
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: entities, type: features, label: 'Entity Chain — Three Names, One Legal Chain' }
+    - { key: proof_stats, type: stats, label: 'Verifiable Factory Stats' }
+    - { key: certifications, type: table, label: 'Certificates & Scope Table' }
+    - { key: evidence_gates, type: features, label: 'Evidence Folders — Equipment, Gates, Lab, Traceability' }
+    - { key: traceability, type: content, label: 'Batch Traceability Chain Sample' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
 - slug: randdcenter
   label: R&D Center
   path: /randdcenter

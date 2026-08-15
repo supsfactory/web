@@ -59,6 +59,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
       label: t('sup.nav.manufacturing'),
       items: [
         { label: t('sup.nav.manufacturingDropdown.factory'), href: '/factory' },
+        { label: t('sup.nav.manufacturingDropdown.proofCenter'), href: '/proof-center' },
         { label: t('sup.nav.manufacturingDropdown.quality'), href: '/quality' },
         { label: t('sup.nav.manufacturingDropdown.qualityInspection'), href: '/factory/quality-inspection' },
         { label: t('sup.nav.manufacturingDropdown.changeControl'), href: '/factory/quality-change-control' },
