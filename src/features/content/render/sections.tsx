@@ -135,11 +135,12 @@ function faqItems(c: Record<string, unknown>): FaqItem[] {
 }
 
 function FaqWidget({ c }: { c: Record<string, unknown> }) {
+  const { t } = useTranslation()
   const items = faqItems(c)
   if (items.length === 0) return null
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || 'FAQ')} sub={brandify(str(c.subtitle) || str(c.sub) || '')} />
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('afarer.fallbackFaq'))} sub={brandify(str(c.subtitle) || str(c.sub) || '')} />
       <div className="mx-auto mt-10 max-w-3xl space-y-3">
         {items.map((f, i) => (
           <details key={i} className="marine-card group px-5 py-4" open={i === 0}>
@@ -730,12 +731,12 @@ function TestimonialsWidget({ c }: { c: Record<string, unknown> }) {
 
 function BlogLatest({ c }: { c: Record<string, unknown> }) {
   const limit = typeof c.limit === 'number' && c.limit > 0 ? c.limit : 6
-  const { locale } = useTranslation()
+  const { t, locale } = useTranslation()
   const { news = [] } = useAferIndex()
   const posts = news.slice(0, limit)
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || 'Latest News')} sub={brandify(str(c.subtitle) || '')} />
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('afarer.fallbackLatestNews'))} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {posts.map((p) => (
           <a key={p.slug} href={localize(`/news/${p.slug}`, locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
@@ -758,12 +759,12 @@ function BlogLatest({ c }: { c: Record<string, unknown> }) {
 }
 
 function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
-  const { locale } = useTranslation()
+  const { t, locale } = useTranslation()
   const { products = [] } = useAferIndex()
   const items = products.slice(0, 8)
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || 'Featured Products')} sub={brandify(str(c.subtitle) || '')} />
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('afarer.fallbackFeaturedProducts'))} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((p) => (
           <a key={p.slug} href={localize(`/products/${p.slug}`, locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
@@ -879,11 +880,12 @@ function CategoriesWidget({ c }: { c: Record<string, unknown> }) {
 }
 
 function EquipmentCategories({ c }: { c: Record<string, unknown> }) {
+  const { t } = useTranslation()
   const cats = arr(c.categories) as Record<string, unknown>[]
   if (cats.length === 0) return null
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || 'Equipment & Machinery')} />
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('afarer.fallbackEquipment'))} />
       <div className="mt-10 space-y-10">
         {cats.map((cat, i) => {
           const items = arr(cat.items) as Record<string, unknown>[]
@@ -1247,10 +1249,11 @@ function PortedBenefits({ c }: { c: R }) {
 }
 
 function PortedCaseStudy({ c }: { c: R }) {
+  const { t } = useTranslation()
   return (
     <TestimonialsWidget
       c={{
-        title: str(c.title) || 'Client Result',
+        title: str(c.title) || t('afarer.fallbackClientResult'),
         subtitle: c.subtitle,
         items: [{ quote: c.quote, author: c.author, role: c.location }],
       }}
@@ -1293,10 +1296,11 @@ function PortedSolutionsMatrix({ c }: { c: R }) {
 }
 
 function GeoWidget({ c }: { c: R }) {
+  const { t } = useTranslation()
   const audiences = arr(c.audiences).map(str).filter(Boolean)
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={str(c.title) || 'B2B Positioning'} sub={str(c.sentence) || str(c.subtitle) || ''} />
+      <SectionHead kicker={str(c.tagline)} title={str(c.title) || t('afarer.fallbackB2bPositioning')} sub={str(c.sentence) || str(c.subtitle) || ''} />
       {audiences.length > 0 && (
         <div className="mx-auto mt-8 flex max-w-3xl flex-wrap justify-center gap-2.5">
           {audiences.map((a) => (
@@ -1311,13 +1315,13 @@ function GeoWidget({ c }: { c: R }) {
 }
 
 function BuyerGuidesWidget({ c }: { c: Record<string, unknown> }) {
-  const { locale } = useTranslation()
+  const { t, locale } = useTranslation()
   const items = arr(c.items)
   if (items.length === 0) return null
   const fl = (href: string): string => (locale === 'en' ? href : href === '/' ? '/es' : `/es${href}`)
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={str(c.title) || 'Buyer\'s Guides'} sub={str(c.subtitle)} />
+      <SectionHead kicker={str(c.tagline)} title={str(c.title) || t('afarer.fallbackBuyersGuides')} sub={str(c.subtitle)} />
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((it) => {
           const o = it as Record<string, unknown>

@@ -209,7 +209,7 @@ system_map:
   subtitle: 'The seven gates above run on four documented standards, each published as a controlled procedure you can download and audit. Together they form the QMS behind every OEM/ODM order — inspection criteria, change control, non-conformance and laboratory testing.'
   items:
     - title: 'Inspection & Release Standards'
-      description: 'The project QIP drives every gate: inspection object, method, acceptance criteria and record output per order. Includes the 4-stage QC framework, traceability chain, quarantine flow, defect matrix and the 00-12 documentation register.'
+      description: 'The project QIP drives every gate: inspection object, method, acceptance criteria and record output per order. Includes the 4-stage QC framework, traceability chain, quarantine flow, defect matrix and the 00–15 documentation register.'
       icon: tabler:clipboard-check
       link: /factory/quality-inspection
       link_label: 'Inspection standards & QMS downloads'
@@ -291,7 +291,7 @@ intelligence_cards:
 doc_register:
   tagline: Controlled Document Register
   title: 'Every Document Behind a Shipment, Listed'
-  subtitle: 'Each order generates a structured 00-12 documentation register — project index, approved spec, BOM, artwork and packing references, QIP, inspection records, NCR, change control, third-party brief and release summary. Download the public documents to see the exact structure and criteria we control against.'
+  subtitle: 'Each order generates a structured 00–15 documentation register — project index, approved spec, BOM, artwork and packing references, QIP, inspection records, NCR, change control, third-party brief and release summary. Download the public documents to see the exact structure and criteria we control against.'
   items:
     - title: '00 · Project Quality Inspection Plan (QIP)'
       description: 'The per-order contract for quality: gates, inspection scope, methods, acceptance criteria and records you will receive.'

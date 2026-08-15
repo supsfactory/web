@@ -78,7 +78,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
         {
           problem: 'Big minimums lock you into inventory before the market is validated.',
-          solution: 'Custom production starts from 50pcs per design, so first runs stay small while unit pricing stays fair.',
+          solution: 'Custom volume production starts from 90–100+ pcs per design, while pilot runs on existing platforms start from 20–50 pcs — so first runs stay small while unit pricing stays fair.',
         },
         {
           problem: 'You have no design or engineering team on your side.',
@@ -111,7 +111,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
         {
           q: 'What is the minimum order for custom SUP manufacturing?',
-          a: 'Custom production starts from 50pcs per design. Larger quantities unlock better unit pricing, and reorders keep your tooling and designs.',
+          a: 'Custom volume production starts from 90–100+ pcs per design, with pilot runs from 20–50 pcs on existing platforms. Larger quantities unlock better unit pricing, and reorders keep your tooling and designs.',
         },
         {
           q: 'What can be customized on a board?',

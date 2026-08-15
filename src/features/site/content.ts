@@ -75,7 +75,7 @@ export const hero: Localized<HeroContent> = {
     stats: [
       { value: '120.000+', label: 'Tablas producidas al año' },
       { value: '12.500 m²', label: 'Superficie de fábrica — 4 talleres' },
-      { value: '6', label: 'Talleres de producción especializados' },
+      { value: '4', label: 'Talleres de producción especializados' },
       { value: '50+', label: 'Países de exportación' },
     ],
     mockupLabel: 'Plataforma insignia',
@@ -2142,7 +2142,7 @@ export const about: Localized<AboutContent> = {
       },
       {
         title: 'Global Delivery',
-        body: 'Export documentation, export-grade packing and in-house documentation support for brands in 40+ markets.',
+        body: 'Export documentation, export-grade packing and in-house documentation support for brands in 50+ markets.',
       },
     ],
     partnering: {
@@ -2205,7 +2205,7 @@ export const about: Localized<AboutContent> = {
       },
       {
         title: 'Entrega global',
-        body: 'Documentación de exportación, embalaje de exportación y soporte documental interno para marcas en más de 40 mercados.',
+        body: 'Documentación de exportación, embalaje de exportación y soporte documental interno para marcas en más de 50 mercados.',
       },
     ],
     partnering: {

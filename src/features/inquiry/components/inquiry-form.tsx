@@ -217,7 +217,7 @@ export function InquiryForm({
           <div className="field sm:col-span-2">
             <Label htmlFor="inq-qty">{t('inquiry.quantity')} <span className="req">*</span></Label>
             <Select id="inq-qty" name="quantity" defaultValue="" required>
-              <option value="" disabled>Select…</option>
+              <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="q1-9">{t('inquiry.quantityOptions.q1-9')}</option>
               <option value="q10-49">{t('inquiry.quantityOptions.q10-49')}</option>
               <option value="q50-99">{t('inquiry.quantityOptions.q50-99')}</option>
@@ -231,7 +231,7 @@ export function InquiryForm({
           <div className="field">
             <Label htmlFor="inq-timeline">{t('inquiry.timeline')} <span className="req">*</span></Label>
             <Select id="inq-timeline" name="timeline" defaultValue="" required>
-              <option value="" disabled>Select…</option>
+              <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="now">{t('inquiry.timelineOptions.now')}</option>
               <option value="t1-3mo">{t('inquiry.timelineOptions.t1-3mo')}</option>
               <option value="t3-6mo">{t('inquiry.timelineOptions.t3-6mo')}</option>
@@ -244,7 +244,7 @@ export function InquiryForm({
           <div className="field">
             <Label htmlFor="inq-stage">{t('inquiry.projectStage')} <span className="req">*</span></Label>
             <Select id="inq-stage" name="projectStage" defaultValue="" required>
-              <option value="" disabled>Select…</option>
+              <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="ready">{t('inquiry.projectStageOptions.ready')}</option>
               <option value="reviewing">{t('inquiry.projectStageOptions.reviewing')}</option>
               <option value="developing">{t('inquiry.projectStageOptions.developing')}</option>
@@ -272,7 +272,7 @@ export function InquiryForm({
           <div className="field">
             <Label htmlFor="inq-role">{t('inquiry.role')} <span className="req">*</span></Label>
             <Select id="inq-role" name="role" defaultValue="" required>
-              <option value="" disabled>Select…</option>
+              <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="owner">{t('inquiry.roleOptions.owner')}</option>
               <option value="purchasing">{t('inquiry.roleOptions.purchasing')}</option>
               <option value="product">{t('inquiry.roleOptions.product')}</option>
@@ -297,7 +297,7 @@ export function InquiryForm({
           <div className="field">
             <Label htmlFor="inq-construction">{t('inquiry.construction')} <span className="req">*</span></Label>
             <Select id="inq-construction" name="construction" defaultValue="" required>
-              <option value="" disabled>Select…</option>
+              <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="standard">{t('inquiry.constructionOptions.standard')}</option>
               <option value="premium">{t('inquiry.constructionOptions.premium')}</option>
               <option value="rental">{t('inquiry.constructionOptions.rental')}</option>
@@ -308,7 +308,7 @@ export function InquiryForm({
           <div className="field">
             <Label htmlFor="inq-packaging">{t('inquiry.packaging')} <span className="req">*</span></Label>
             <Select id="inq-packaging" name="packaging" defaultValue="" required>
-              <option value="" disabled>Select…</option>
+              <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="export">{t('inquiry.packagingOptions.export')}</option>
               <option value="branded">{t('inquiry.packagingOptions.branded')}</option>
               <option value="custom">{t('inquiry.packagingOptions.custom')}</option>
@@ -336,7 +336,7 @@ export function InquiryForm({
           <div className="field sm:col-span-2">
             <Label htmlFor="inq-compliance">{t('inquiry.compliance')} <span className="req">*</span></Label>
             <Select id="inq-compliance" name="compliance" defaultValue="" required>
-              <option value="" disabled>Select…</option>
+              <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="eu">{t('inquiry.complianceOptions.eu')}</option>
               <option value="uk">{t('inquiry.complianceOptions.uk')}</option>
               <option value="us-ca">{t('inquiry.complianceOptions.us-ca')}</option>

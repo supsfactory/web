@@ -209,7 +209,7 @@ system_map:
   subtitle: 'Las siete puertas anteriores funcionan sobre cuatro estándares documentados, cada uno publicado como procedimiento controlado que puedes descargar y auditar. Juntos forman el SGC (QMS) detrás de cada pedido OEM/ODM — criterios de inspección, control de cambios, no conformidades y ensayos de laboratorio.'
   items:
     - title: 'Estándares de inspección y liberación'
-      description: 'El QIP del proyecto impulsa cada puerta: objeto de inspección, método, criterios de aceptación y registro de salida por pedido. Incluye el marco QC de 4 etapas, la cadena de trazabilidad, el flujo de cuarentena, la matriz de defectos y el registro documental 00-12.'
+      description: 'El QIP del proyecto impulsa cada puerta: objeto de inspección, método, criterios de aceptación y registro de salida por pedido. Incluye el marco QC de 4 etapas, la cadena de trazabilidad, el flujo de cuarentena, la matriz de defectos y el registro documental 00–15.'
       icon: tabler:clipboard-check
       link: /es/factory/quality-inspection
       link_label: 'Estándares de inspección y descargas QMS'
@@ -291,7 +291,7 @@ intelligence_cards:
 doc_register:
   tagline: Registro documental controlado
   title: 'Cada documento detrás de un envío, listado'
-  subtitle: 'Cada pedido genera un registro documental estructurado 00-12 — índice de proyecto, especificación aprobada, BOM, referencias de arte y embalaje, QIP, registros de inspección, NCR, control de cambios, brief de terceros y resumen de liberación. Descarga los documentos públicos para ver la estructura exacta y los criterios contra los que controlamos.'
+  subtitle: 'Cada pedido genera un registro documental estructurado 00–15 — índice de proyecto, especificación aprobada, BOM, referencias de arte y embalaje, QIP, registros de inspección, NCR, control de cambios, brief de terceros y resumen de liberación. Descarga los documentos públicos para ver la estructura exacta y los criterios contra los que controlamos.'
   items:
     - title: '00 · Plan de Inspección de Calidad del proyecto (QIP)'
       description: 'El contrato de calidad por pedido: puertas, alcance de inspección, métodos, criterios de aceptación y registros que recibirás.'

@@ -390,12 +390,12 @@ inspector_friendly:
 document_pack:
   tagline: Quality Documentation Pack
   title: Download Sample Quality Pack & Protocol Templates
-  subtitle: Standard controlled templates used for OEM/ODM projects —structured as the 00—2 documentation register (project index, approved spec, BOM, artwork & packing references, QIP, inspection records, NCR, change control, third-party brief, release summary).
+  subtitle: 'Standard controlled templates used for OEM/ODM projects — structured as the 00–15 documentation register (project index, approved spec, BOM, artwork & packing references, QIP, inspection records, NCR, change control, third-party brief, release summary).'
   features:
     - icon: P
       icon_bg: blue
       title: Quality Documentation Pack (PDF)
-      desc: 'Full 00—2 controlled document structure: project index, specification, BOM, artwork and packing references, Quality Inspection Plan (QIP), inspection records, NCR, change control, third-party briefing, and pre-shipment release summary.'
+      desc: 'Full 00–15 controlled document structure: project index, specification, BOM, artwork and packing references, Quality Inspection Plan (QIP), inspection records, NCR, change control, third-party briefing, and pre-shipment release summary.'
       link: '/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
       link_label: Download PDF
     - icon: T

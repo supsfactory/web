@@ -390,12 +390,12 @@ inspector_friendly:
 document_pack:
   tagline: Paquete de documentación de calidad
   title: Descarga el paquete de calidad de muestra y las plantillas de protocolo
-  subtitle: Plantillas controladas estándar utilizadas en proyectos OEM/ODM — estructuradas como el registro documental 00–12 (índice de proyecto, especificación aprobada, BOM, arte y referencias de embalaje, QIP, registros de inspección, NCR, control de cambios, brief de terceros, resumen de liberación).
+  subtitle: Plantillas controladas estándar utilizadas en proyectos OEM/ODM — estructuradas como el registro documental 00–15 (índice de proyecto, especificación aprobada, BOM, arte y referencias de embalaje, QIP, registros de inspección, NCR, control de cambios, brief de terceros, resumen de liberación).
   features:
     - icon: P
       icon_bg: blue
       title: Paquete de documentación de calidad (PDF)
-      desc: 'Estructura documental controlada completa 00–12: índice de proyecto, especificación, BOM, referencias de arte y embalaje, Plan de Inspección de Calidad (QIP), registros de inspección, NCR, control de cambios, brief de inspección de terceros y resumen de liberación de pre-embarque.'
+      desc: 'Estructura documental controlada completa 00–15: índice de proyecto, especificación, BOM, referencias de arte y embalaje, Plan de Inspección de Calidad (QIP), registros de inspección, NCR, control de cambios, brief de inspección de terceros y resumen de liberación de pre-embarque.'
       link: '/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
       link_label: Descargar PDF
     - icon: T

@@ -1,4 +1,5 @@
 import { createFileRoute, getRouteApi } from '@tanstack/react-router'
+import { lazy, Suspense } from 'react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
@@ -11,22 +12,23 @@ import { TrustBar } from '@/components/marketing/trust-bar'
 import { RoleBoundary } from '@/components/marketing/role-boundary'
 import { WhoWeServe } from '@/components/marketing/who-we-serve'
 import { ValueProp } from '@/components/marketing/value-prop'
-import { SolveSection } from '@/components/marketing/solve-section'
-import { PlantCapability } from '@/components/marketing/plant-capability'
-import { QualitySteps } from '@/components/marketing/quality-steps'
-import { CommercialTerms } from '@/components/marketing/commercial-terms'
-import { HowItWorks } from '@/components/marketing/how-it-works'
-import { VideoShowcase } from '@/components/marketing/video-showcase'
-import { WhyUs } from '@/components/marketing/why-us'
-import { PlatformsSection } from '@/components/marketing/platforms-section'
-import { StudioSection } from '@/components/marketing/studio-section'
-import { SeriesSection } from '@/components/marketing/series-section'
-import { GallerySection } from '@/components/marketing/gallery-section'
-import { GuidesSection } from '@/components/marketing/guides-section'
-import { ProjectsShowcase } from '@/components/marketing/projects-showcase'
-import { FaqSection } from '@/components/marketing/faq'
-import { CtaBand } from '@/components/marketing/cta'
-import { Footer } from '@/components/marketing/footer'
+
+const SolveSection = lazy(() => import('@/components/marketing/solve-section').then((m) => ({ default: m.SolveSection })))
+const VideoShowcase = lazy(() => import('@/components/marketing/video-showcase').then((m) => ({ default: m.VideoShowcase })))
+const PlantCapability = lazy(() => import('@/components/marketing/plant-capability').then((m) => ({ default: m.PlantCapability })))
+const QualitySteps = lazy(() => import('@/components/marketing/quality-steps').then((m) => ({ default: m.QualitySteps })))
+const CommercialTerms = lazy(() => import('@/components/marketing/commercial-terms').then((m) => ({ default: m.CommercialTerms })))
+const HowItWorks = lazy(() => import('@/components/marketing/how-it-works').then((m) => ({ default: m.HowItWorks })))
+const PlatformsSection = lazy(() => import('@/components/marketing/platforms-section').then((m) => ({ default: m.PlatformsSection })))
+const StudioSection = lazy(() => import('@/components/marketing/studio-section').then((m) => ({ default: m.StudioSection })))
+const SeriesSection = lazy(() => import('@/components/marketing/series-section').then((m) => ({ default: m.SeriesSection })))
+const WhyUs = lazy(() => import('@/components/marketing/why-us').then((m) => ({ default: m.WhyUs })))
+const GallerySection = lazy(() => import('@/components/marketing/gallery-section').then((m) => ({ default: m.GallerySection })))
+const GuidesSection = lazy(() => import('@/components/marketing/guides-section').then((m) => ({ default: m.GuidesSection })))
+const ProjectsShowcase = lazy(() => import('@/components/marketing/projects-showcase').then((m) => ({ default: m.ProjectsShowcase })))
+const FaqSection = lazy(() => import('@/components/marketing/faq').then((m) => ({ default: m.FaqSection })))
+const CtaBand = lazy(() => import('@/components/marketing/cta').then((m) => ({ default: m.CtaBand })))
+const Footer = lazy(() => import('@/components/marketing/footer').then((m) => ({ default: m.Footer })))
 
 const rootRoute = getRouteApi('__root__')
 
@@ -69,27 +71,29 @@ function Home() {
       <RoleBoundary />
       <WhoWeServe />
       <ValueProp />
-      <SolveSection />
-      <VideoShowcase
-        video="/assets/videos/2026/oem-brand-launch.mp4"
-        poster="/assets/videos/2026/oem-brand-launch.jpg"
-        {...pick(videoShowcase, locale).launch}
-      />
-      <PlantCapability />
-      <QualitySteps />
-      <CommercialTerms />
-      <HowItWorks />
-      <PlatformsSection />
-      <StudioSection />
-      <SeriesSection />
-      <WhyUs />
-      <GallerySection />
-      <GuidesSection />
-      <ProjectsShowcase />
-      <FaqSection />
+      <Suspense fallback={null}>
+        <SolveSection />
+        <VideoShowcase
+          video="/assets/videos/2026/oem-brand-launch.mp4"
+          poster="/assets/videos/2026/oem-brand-launch.jpg"
+          {...pick(videoShowcase, locale).launch}
+        />
+        <PlantCapability />
+        <QualitySteps />
+        <CommercialTerms />
+        <HowItWorks />
+        <PlatformsSection />
+        <StudioSection />
+        <SeriesSection />
+        <WhyUs />
+        <GallerySection />
+        <GuidesSection />
+        <ProjectsShowcase />
+        <FaqSection />
+        <CtaBand />
+        <Footer theme={theme} />
+      </Suspense>
       <JsonLd data={faqLd(pick(faq, locale).items, locale)} />
-      <CtaBand />
-      <Footer theme={theme} />
     </div>
   )
 }

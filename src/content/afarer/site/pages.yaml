@@ -44,7 +44,7 @@
     - { key: qc_flow, type: content, label: '7-Stage Inspection Flow' }
     - { key: system_map, type: features, label: 'Quality System Map (4 Standards)' }
     - { key: intelligence_cards, type: content, label: 'Documentation & Traceability — Anonymized Record Samples' }
-    - { key: doc_register, type: features, label: 'Controlled Document Register (00-12)' }
+    - { key: doc_register, type: features, label: 'Controlled Document Register (00–15)' }
     - { key: traceability, type: features, label: 'Traceability Matrix' }
     - { key: non_conformance, type: features, label: 'Non-Conformance Control' }
     - { key: third_party, type: features, label: 'Third-Party & Buyer Inspection' }

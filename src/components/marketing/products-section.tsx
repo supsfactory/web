@@ -5,7 +5,7 @@ import { Reveal } from './reveal'
 
 /** Single catalog card: real product photo with sku/price chips, then brand-book details. */
 export function ProductCard({ product, priority = false }: { product: Product; priority?: boolean }) {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
   return (
     <a
@@ -43,7 +43,7 @@ export function ProductCard({ product, priority = false }: { product: Product; p
         <p className="mt-4 border-t border-border pt-3.5 text-[12.5px] font-semibold text-fg-2">{product.specs}</p>
         <p className="mt-1.5 text-[12px] leading-relaxed text-fg-3">{product.artwork}</p>
         <div className="mt-3 flex flex-wrap items-center gap-1.5">
-          <span className="text-[11.5px] font-bold uppercase tracking-wider text-fg-3">Recommended for:</span>
+          <span className="text-[11.5px] font-bold uppercase tracking-wider text-fg-3">{t('marketing.recommendedFor')}</span>
           {product.for.map((f) => (
             <span key={f} className="rounded-md bg-soft px-2 py-0.5 text-[12px] font-bold text-primary">
               {f}

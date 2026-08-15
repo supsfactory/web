@@ -36,7 +36,7 @@ stages:
       description: 'Pressure hold, seam strength and dimensional checks against the approved sample, with CE and REACH documentation prepared for your target markets.'
       icon: 'tabler:test-pipe'
     - title: '5. Tooling & Mass Production'
-      description: 'Custom mould development in 7–12 days when needed; production runs 25–35 days with in-process QC checkpoints and batch traceability.'
+      description: 'Custom mould development in 15–20 days when needed; production runs 25–35 days with in-process QC checkpoints and batch traceability.'
       icon: 'tabler:settings'
     - title: '6. Delivery & Scale'
       description: 'FOB, CIF or DDP logistics to 50+ countries — then repeat orders on your established line with stable lead times and approved artwork on file.'
