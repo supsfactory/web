@@ -450,7 +450,7 @@ export const commercial: Localized<CommercialContent> = {
   en: {
     kicker: 'Commercial Terms',
     title: 'Commercial Terms, Stated Upfront',
-    sub: 'No “it depends.” These are our standard terms — variations are quoted case by case.',
+    sub: 'Standard MOQ, sampling, production and delivery terms are listed below. Projects involving new tooling, specialized materials, compliance testing or custom packaging are quoted separately.',
     cells: [
       {
         label: 'Minimum order',
@@ -489,7 +489,7 @@ export const commercial: Localized<CommercialContent> = {
   es: {
     kicker: 'Condiciones comerciales',
     title: 'Condiciones comerciales, expresadas por adelantado',
-    sub: 'Nada de «depende». Son nuestras condiciones estándar: las variaciones se presupuestan caso a caso.',
+    sub: 'Los términos estándar de MOQ, muestreo, producción y entrega se indican a continuación. Los proyectos con utillaje nuevo, materiales especiales, ensayos de cumplimiento o packaging a medida se presupuestan por separado.',
     cells: [
       {
         label: 'Pedido mínimo',
@@ -1322,7 +1322,7 @@ export const videoShowcase: Localized<{
     launch: {
       badge: 'Brand Launch',
       title: 'Dreaming of launching your own SUP brand?',
-      sub: "You don't need to invest millions in your own factory to build a world-class outdoor brand. What you need is a reliable supply chain partner who handles everything behind the scenes so you can focus on brand building and sales.",
+      sub: 'You don\'t need your own factory to launch a SUP brand. We are the manufacturing partner behind your line: specification, engineering, sampling, QC, packaging and export-ready production — all under one contract with one accountable team.',
       points: [
         { t: 'Full OEM/ODM Concept-to-Production', d: 'Custom board graphics, logo integration, deck pads, and custom packaging.' },
         { t: 'Low MOQ Flexible Launch', d: 'Small-batch support so you can test the market without tying up massive capital.' },
@@ -1347,7 +1347,7 @@ export const videoShowcase: Localized<{
     launch: {
       badge: 'Lanzamiento de marca',
       title: '¿Sueñas con lanzar tu propia marca de SUP?',
-      sub: 'No necesitas invertir millones en tu propia fábrica para construir una marca outdoor de clase mundial. Lo que necesitas es un socio de suministro fiable que gestione todo entre bastidores para que tú te centres en construir tu marca y vender.',
+      sub: 'No necesitas tu propia fábrica para lanzar una marca de SUP. Somos el socio de fabricación detrás de tu línea: especificación, ingeniería, muestras, control de calidad, packaging y producción lista para exportar — todo bajo un solo contrato y un solo equipo responsable.',
       points: [
         { t: 'OEM/ODM completo del concepto a la producción', d: 'Gráficos personalizados, integración de logotipo, pads de cubierta y embalaje a medida.' },
         { t: 'Lanzamiento flexible con MOQ bajo', d: 'Producción de pequeños lotes para testear el mercado sin inmovilizar capital.' },
@@ -1576,21 +1576,21 @@ export const gallery: Localized<GalleryContent> = {
       {
         tag: 'Resort Fleet',
         title: 'Resort Fleet — Hotel Group Boards',
-        body: '100 branded boards for a hotel group, custom deck graphics matched to property colors, accessories bundled, produced in time for the season launch.',
+        body: '100 branded boards for a hotel group: colors and logo approved on a physical sample first, then full production with per-board air-tightness tests, artwork-match checks and kit completeness by board — shipped in time for the season launch.',
         hue: 195,
         image: '/assets/products/2026/all-around/all-around-17.avif',
       },
       {
         tag: 'Club Team',
         title: 'Club Team Boards — Race Platform',
-        body: 'Race platform with specification adjustments and team graphics, tooling reused across two seasons for reorder consistency.',
+        body: 'Race platform with specification adjustments and club graphics locked at the sample stage, tooling reused across two seasons so the expansion reorder matched the original fleet exactly.',
         hue: 28,
         image: '/assets/products/2026/surf/surf-01.avif',
       },
       {
         tag: 'Brand Line Extension',
         title: 'Brand Line Extension — Inflatable SUP',
-        body: 'An established watersports brand added an inflatable SUP line: engineering review, custom mold, three sizes, 50 pcs first production run.',
+        body: 'An established watersports brand added an inflatable SUP line: engineering review, custom mold, three sizes, and a 50 pcs first production run with artwork-match and air-tightness verification before scale-up — designs and tooling owned by the brand.',
         hue: 210,
         image: '/assets/products/2026/all-around/all-around-03.avif',
       },
@@ -1604,21 +1604,21 @@ export const gallery: Localized<GalleryContent> = {
       {
         tag: 'Flota de resort',
         title: 'Flota de resort — tablas para grupo hotelero',
-        body: '100 tablas con marca para un grupo hotelero, gráficos personalizados según los colores del hotel, accesorios incluidos, producidas a tiempo para el inicio de la temporada.',
+        body: '100 tablas con marca para un grupo hotelero: colores y logo aprobados primero en una muestra física, luego producción completa con pruebas de estanqueidad unidad por unidad, verificación del arte y kits completos por tabla — enviadas a tiempo para el inicio de la temporada.',
         hue: 195,
         image: '/assets/products/2026/all-around/all-around-17.avif',
       },
       {
         tag: 'Equipo de club',
         title: 'Tablas de equipo — plataforma de competición',
-        body: 'Plataforma de competición con ajustes de especificación y gráficos del equipo; el utillaje se reutilizó dos temporadas para la consistencia de los repedidos.',
+        body: 'Plataforma de competición con ajustes de especificación y gráficos del club fijados en la fase de muestra; el utillaje se reutilizó dos temporadas para que la ampliación coincidiera exactamente con la flota original.',
         hue: 28,
         image: '/assets/products/2026/surf/surf-01.avif',
       },
       {
         tag: 'Extensión de marca',
         title: 'Extensión de línea — SUP hinchable',
-        body: 'Una marca de deportes acuáticos consolidada añadió una línea de SUP hinchable: revisión de ingeniería, molde a medida, tres tallas y 50 unidades en la primera tirada.',
+        body: 'Una marca de deportes acuáticos consolidada añadió una línea de SUP hinchable: revisión de ingeniería, molde a medida, tres tallas y una primera tirada de 50 unidades verificada en arte y estanqueidad antes del escalado — con diseños y utillaje en propiedad de la marca.',
         hue: 210,
         image: '/assets/products/2026/all-around/all-around-03.avif',
       },
