@@ -49,6 +49,14 @@ export function Hero() {
             >
               {c.ctaSecondary}
             </a>
+            <div className="flex w-full flex-wrap items-center gap-x-5 gap-y-1.5 sm:w-auto">
+              <a href={fl('/oem-moq-guide')} className="inline-flex items-center gap-1.5 text-[13.5px] font-bold text-[#aee3f7] transition-colors hover:text-white">
+                {c.ctaTertiary} <ArrowRight size={14} />
+              </a>
+              <a href={fl('/proof-center')} className="inline-flex items-center gap-1.5 text-[13.5px] font-bold text-[#aee3f7] transition-colors hover:text-white">
+                {c.ctaQuartiary} <ArrowRight size={14} />
+              </a>
+            </div>
           </div>
           <p className="mt-3 text-[12px] font-medium tracking-wide text-white/75">{c.ctaMicro}</p>
 

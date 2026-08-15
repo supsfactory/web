@@ -28,6 +28,34 @@ export function CommercialTerms() {
         ))}
       </div>
       <Reveal className="mt-8">
+        <div className="overflow-x-auto rounded-2xl border border-border">
+          <table className="w-full min-w-[720px] text-left text-[13.5px]">
+            <thead>
+              <tr className="border-b border-border bg-soft/60">
+                {(locale === 'es'
+                  ? ['Etapa del pedido', 'Cantidad', 'Para qué sirve', 'Notas']
+                  : ['Order stage', 'Quantity', 'What it is for', 'Notes']
+                ).map((h) => (
+                  <th key={h} className="px-4 py-3 font-display text-[12.5px] font-extrabold uppercase tracking-wide text-fg-2">
+                    {h}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-border">
+              {c.moqTiers.map((t) => (
+                <tr key={t.stage} className="align-top">
+                  <td className="px-4 py-3.5 font-semibold text-fg-1">{t.stage}</td>
+                  <td className="px-4 py-3.5 font-bold text-primary">{t.quantity}</td>
+                  <td className="px-4 py-3.5 text-fg-2">{t.purpose}</td>
+                  <td className="px-4 py-3.5 text-fg-3">{t.note}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </Reveal>
+      <Reveal className="mt-8">
         <p className="rounded-2xl border border-primary/25 bg-bg-alt px-5 py-4 text-center text-[13.5px] font-semibold leading-relaxed text-fg-2">
           {c.certs}
         </p>

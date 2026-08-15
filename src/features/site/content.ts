@@ -29,6 +29,8 @@ export interface HeroContent {
   sub: string
   ctaPrimary: string
   ctaSecondary: string
+  ctaTertiary: string
+  ctaQuartiary: string
   ctaMicro: string
   stats: { value: string; label: string }[]
   mockupLabel: string
@@ -48,6 +50,8 @@ export const hero: Localized<HeroContent> = {
     sub: 'Develop your private-label paddle board range with a manufacturing partner that supports product specification, custom graphics, samples, quality control, packaging and export-ready production.',
     ctaPrimary: 'Get a Custom Project Quote',
     ctaSecondary: 'Explore Construction & Quality',
+    ctaTertiary: 'MOQ & Lead-Time Guide',
+    ctaQuartiary: 'Proof Center — Factory Evidence',
     ctaMicro: 'Reply within 1 business day · NDA available · MOQ confirmed after specification review',
     stats: [
       { value: '120,000+', label: 'Boards produced annually' },
@@ -71,6 +75,8 @@ export const hero: Localized<HeroContent> = {
     sub: 'Desarrolla tu gama de tablas de paddle board de marca propia con un socio de fabricación que cubre especificación de producto, gráficos personalizados, muestras, control de calidad, packaging y producción lista para exportar.',
     ctaPrimary: 'Solicita un presupuesto de proyecto',
     ctaSecondary: 'Explora construcción y calidad',
+    ctaTertiary: 'Guía de MOQ y plazos',
+    ctaQuartiary: 'Centro de Evidencia — Datos de Fábrica',
     ctaMicro: 'Respuesta en 1 día hábil · NDA disponible · MOQ confirmado tras revisar la especificación',
     stats: [
       { value: '120.000+', label: 'Tablas producidas al año' },
@@ -84,7 +90,7 @@ export const hero: Localized<HeroContent> = {
     heroNote:
       'Del primer concepto a pedidos repetidos — pensado para marcas minoristas, distribuidores de deportes acuáticos, resorts, escuelas y operadores de alquiler.',
     float1: { value: '90–100 uds.', label: 'MOQ de volumen estándar (por rollo de 150 m)' },
-    float2: { value: '25–35 días', label: 'Plazo de producción (tras PO)' },
+    float2: { value: FACTS.leadTime, label: 'Plazo de producción (tras PO)' },
   },
 }
 
@@ -438,11 +444,24 @@ export interface CommercialCell {
   lines: string[]
 }
 
+export interface CommercialCell {
+  label: string
+  lines: string[]
+}
+
+export interface MoqTier {
+  stage: string
+  quantity: string
+  purpose: string
+  note: string
+}
+
 export interface CommercialContent {
   kicker: string
   title: string
   sub: string
   cells: CommercialCell[]
+  moqTiers: MoqTier[]
   certs: string
 }
 
@@ -485,6 +504,32 @@ export const commercial: Localized<CommercialContent> = {
     ],
     certs:
       'ISO 9001 quality management · CE certification · BSCI social compliance (audit report available on request) · REACH and RoHS documentation with every order.',
+    moqTiers: [
+      {
+        stage: 'Sample & approval',
+        quantity: '1–2 pcs per design',
+        purpose: 'Confirm shape, colors, printing and packaging before any production run',
+        note: '7–12 days; physical board, not a rendering',
+      },
+      {
+        stage: 'Co-branding small bulk',
+        quantity: '5–10 pcs',
+        purpose: 'Test a design on a proven platform with logo over-printing',
+        note: 'Fastest way to validate a new graphic',
+      },
+      {
+        stage: 'Pilot batch / initial stock',
+        quantity: '20–50 pcs per design',
+        purpose: 'Validate the market or open your store with real inventory',
+        note: 'Lowest volume on existing platforms',
+      },
+      {
+        stage: 'Standard volume production',
+        quantity: '90–100+ pcs per 150 m roll (~180–220 boards)',
+        purpose: 'Regular production runs at the best unit price',
+        note: 'Custom-mould projects run at this tier (+15–20 days tooling)',
+      },
+    ],
   },
   es: {
     kicker: 'Condiciones comerciales',
@@ -524,6 +569,32 @@ export const commercial: Localized<CommercialContent> = {
     ],
     certs:
       'ISO 9001 · Certificación CE · BSCI (informe de auditoría disponible) · Documentación REACH y RoHS con cada pedido.',
+    moqTiers: [
+      {
+        stage: 'Muestra y aprobación',
+        quantity: '1–2 uds. por diseño',
+        purpose: 'Confirmar forma, colores, impresión y packaging antes de cualquier producción',
+        note: '7–12 días; tabla física, no un render',
+      },
+      {
+        stage: 'Co-branding en pequeño lote',
+        quantity: '5–10 uds.',
+        purpose: 'Probar un diseño sobre una plataforma probada con impresión de logo',
+        note: 'La vía más rápida para validar un gráfico',
+      },
+      {
+        stage: 'Lote piloto / stock inicial',
+        quantity: '20–50 uds. por diseño',
+        purpose: 'Validar el mercado o abrir tu tienda con inventario real',
+        note: 'El volumen más bajo sobre plataformas existentes',
+      },
+      {
+        stage: 'Producción de volumen estándar',
+        quantity: '90–100+ uds. por rollo de 150 m (~180–220 tablas)',
+        purpose: 'Producción regular al mejor precio unitario',
+        note: 'Los proyectos con molde a medida usan esta capa (+15–20 días utillaje)',
+      },
+    ],
   },
 }
 
