@@ -26,8 +26,8 @@ export const Route = createFileRoute('/{-$locale}/about/')({
       title: locale === 'es' ? 'Sobre SUPsfactory | Fabricante de tablas SUP a medida | OEM/ODM' : 'About SUPsfactory | Custom SUP Board Manufacturer | OEM/ODM',
       description:
         locale === 'es'
-          ? 'SUPsfactory es un fabricante de tablas de paddle surf a medida — OEM y ODM de SUP hinchables, desde el diseño del prototipo hasta la producción en serie, con ingeniería, moldes, muestras y logística global.'
-          : 'SUPsfactory is a custom SUP board manufacturer — inflatable paddle board OEM/ODM from prototype design to mass production, with engineering, tooling, sampling, QC and global logistics under one roof.',
+          ? 'SUPsfactory es un fabricante de tablas de paddle surf a medida — OEM y ODM de SUP hinchables, desde el diseño del prototipo hasta la producción en serie, con ingeniería, moldes, muestras y soporte global.'
+          : 'SUPsfactory is a custom SUP board manufacturer — inflatable paddle board OEM/ODM from prototype design to mass production, with engineering, tooling, sampling, QC and global export support under one roof.',
     })
     return { meta, links }
   },
@@ -145,8 +145,8 @@ function AboutPage() {
           'https://supsfactory.com',
           locale === 'es' ? '/es/about' : '/about',
           locale === 'es'
-            ? 'SUPsfactory es la división de desarrollo y fabricación de SUP de Afarer (Qingdao Vatrad Group Co., Ltd.), planta de hinchables de 12.000 m² en Qingdao, China.'
-            : 'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,000 m² inflatable manufacturing plant in Qingdao, China.',
+            ? 'SUPsfactory es la división de desarrollo y fabricación de SUP de Afarer (Qingdao Vatrad Group Co., Ltd.), planta de hinchables de 12.500 m² en Qingdao, China.'
+            : 'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,500 m² inflatable manufacturing plant in Qingdao, China.',
         )}
       />
 

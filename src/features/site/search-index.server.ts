@@ -128,7 +128,7 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
     entries.push({
       url: '/faq',
       title: 'FAQ',
-      excerpt: 'Frequently asked questions about inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale logistics.',
+      excerpt: 'Frequently asked questions about inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale supply.',
       type: 'page',
       locale: 'en',
     })
@@ -136,7 +136,7 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
     entries.push({
       url: '/es/faq',
       title: 'Preguntas frecuentes',
-      excerpt: 'Preguntas frecuentes sobre fabricación OEM/ODM de SUP hinchables — materiales, certificaciones, cantidades mínimas de pedido y logística al por mayor.',
+      excerpt: 'Preguntas frecuentes sobre fabricación OEM/ODM de SUP hinchables — materiales, certificaciones, cantidades mínimas de pedido y suministro al por mayor.',
       type: 'page',
       locale: 'es',
     })

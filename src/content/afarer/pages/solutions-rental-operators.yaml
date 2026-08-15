@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Rental fleet boards are built with UV-resistant marine PVC, seams 3× stronger than standard construction, and drop-stitch cores rated to 15 PSI — tested for 500+ rental cycles. Standard OEM MOQ is 50 units per design (5–10 unit trial available, samples in 15–20 days); production runs 30–45 days after PO and deposit, with FOB, CIF or DDP terms.'
+  text: 'Rental fleet boards are built with UV-resistant marine PVC, seams 3× stronger than standard construction, and drop-stitch cores rated to 15 PSI — tested for 500+ rental cycles. MOQ is confirmed by project configuration: sample (1–2 units), pilot (20–50 units) and standard volume (90–100+ units per batch from a 150 m roll); production runs 25–35 days after PO and deposit, with FOB, CIF or DDP terms.'
   verified: '2026-08'
 
 features:
@@ -43,9 +43,9 @@ stats:
   title: Operations Metrics
   stats:
     - title: Factory Floor
-      amount: '12,000 m²'
+      amount: '12,500 m²'
     - title: Pressure Test
-      amount: '1.25× / 48h'
+      amount: '18 PSI / 24h'
     - title: Assembly Checklist
       amount: '100 points'
     - title: Parts Dispatch
@@ -67,7 +67,7 @@ fleet_guide:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> rental boards start from your spec — see our <a href="/oem-odm-manufacturer">OEM/ODM program</a> for customization, low trial MOQs and fleet pricing. Every board runs the 12,000 m&sup2; <a href="/factory">production line</a> and is 100% pressure-tested before it ships.</p>
+    <p><strong>Keep reading:</strong> rental boards start from your spec — see our <a href="/oem-odm-manufacturer">OEM/ODM program</a> for customization, low trial MOQs and fleet pricing. Every board runs the 12,500 m&sup2; <a href="/factory">production line</a> and is 100% pressure-tested before it ships.</p>
   </div>
 
 cta:
@@ -78,5 +78,5 @@ cta:
       href: '/contact'
       variant: 'primary'
     - text: 'Compare Board Platforms'
-      href: '/compare'
+      href: '/inflatable-vs-hardboard'
       variant: 'secondary'

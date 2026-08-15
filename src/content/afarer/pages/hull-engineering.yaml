@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Custom SUP boards are designed in-house with SolidWorks 3D surfacing, ANSYS FEA and CFD — every board is simulated for stress distribution and deck stiffness with a mandatory safety factor ≥ 2.5 before prototyping. A custom shape takes 15–20 days to prototype; full custom mould tooling adds 15–20 days to the 30–45 day production lead time at 200-unit MOQ.'
+  text: 'Custom SUP boards are designed in-house with SolidWorks 3D surfacing, ANSYS FEA and CFD — every board is simulated for stress distribution and deck stiffness with a mandatory safety factor ≥ 2.5 before prototyping. A custom shape takes 7–12 days to prototype; full custom mould tooling adds 15–20 days to the 25–35 day production lead time, with MOQ confirmed by project configuration (see our MOQ guide).'
   verified: '2026-08'
 
 intro: 'The shape of a SUP board — its rocker, rail profile, nose and tail volume — determines how it paddles, turns and tracks. At {SITE.name}, our Board Engineering Studio combines CAD surfacing, finite element analysis (FEA) of drop-stitch structures, and production experience to deliver boards optimised for their intended use: all-around stability, touring glide or surf performance. Every custom board starts from your specification, not a generic shape from a catalogue.'
@@ -86,5 +86,9 @@ content_html: |
 cta:
   title: 'Start your board design consultation'
   subtitle: 'Tell us about your target riders and use case and we will propose an engineering path.'
-  button_text: 'Contact our engineering team'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Contact our engineering team
+      href: /contact#project-brief
+    - text: Back to the R&D Center
+      href: /randdcenter

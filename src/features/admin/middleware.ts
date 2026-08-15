@@ -9,7 +9,7 @@ import { getWaitlist, type WaitlistRow } from '@/features/waitlist/getWaitlist'
 import { listFeedbackForAdmin, setFeedbackStatus, type AdminFeedbackRow } from '@/features/feedback/feedback.server'
 import type { FeedbackStatus } from '@/features/feedback/feedback.shared'
 import { listInquiries, setInquiryStatus, type InquiryRow } from '@/features/inquiry/inquiry.server'
-import { STATUSES, type InquiryStatus } from '@/features/inquiry/inquiry.shared'
+import { STATUSES, TIERS, type InquiryStatus, type InquiryTier } from '@/features/inquiry/inquiry.shared'
 
 export type { AdminStats }
 export type { AdminUserRow }
@@ -56,9 +56,17 @@ export const getFeedbackFn = createServerFn({ method: 'GET' })
     return listFeedbackForAdmin(createDb(env.DB), data)
   })
 
-/** server fn: assertAdmin → 项目询盘列表（分页）。 */
+/** server fn: assertAdmin → 项目询盘列表（分页，可按 tier 过滤 + 关键词搜索）。 */
 export const getInquiriesFn = createServerFn({ method: 'GET' })
-  .validator((d: { page?: number; pageSize?: number }) => ({ page: clampPage(d?.page), pageSize: clampPageSize(d?.pageSize) }))
+  .validator((d: { page?: number; pageSize?: number; tier?: string; q?: string }): { page: number; pageSize: number; tier: InquiryTier | ''; q?: string } => {
+    const tierIn = typeof d?.tier === 'string' ? d.tier : ''
+    return {
+      page: clampPage(d?.page),
+      pageSize: clampPageSize(d?.pageSize),
+      tier: TIERS.includes(tierIn as InquiryTier) ? (tierIn as InquiryTier) : '',
+      q: typeof d?.q === 'string' && d.q.trim() ? d.q.trim().slice(0, 200) : undefined,
+    }
+  })
   .handler(async ({ data }): Promise<{ rows: InquiryRow[]; total: number }> => {
     await assertAdmin()
     return listInquiries(createDb(env.DB), data)

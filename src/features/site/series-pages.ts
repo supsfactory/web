@@ -33,21 +33,21 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'All-Around Platforms',
       metaTitle: 'Custom All-Around SUP Boards — Inflatable OEM Manufacturer | SUPsfactory',
       metaDescription:
-        'Custom all-around inflatable SUP boards manufactured under your brand — wide-body stability, OEM/ODM from 50 pcs, samples in 15–20 days. Factory direct from Qingdao, China.',
+        'Custom all-around inflatable SUP boards manufactured under your brand — wide-body stability, OEM/ODM volume from 90–100+ pcs, samples in 7–12 days. Factory direct from Qingdao, China.',
       kicker: 'Series · All-Around',
       h1: 'Custom All-Around SUP Boards — The Default Starting Platform For New Brands',
       intro: [
         'The all-around board is the workhorse of the SUP category: wide enough to feel stable for beginners, agile enough to keep intermediates interested, and light enough to carry anywhere. Most new brands and most rental fleets start here.',
-        'We manufacture all-around platforms under your brand from 50 pcs per design, with trial runs from 5–10 pcs. Shape, rails, layup, colors, full-board graphics and packaging are specified per project.',
+        'We manufacture all-around platforms under your brand from 90–100+ pcs per 150 m roll (volume), with pilot runs from 20–50 pcs. Shape, rails, layup, colors, full-board graphics and packaging are specified per project.',
       ],
       faqs: [
         {
           q: 'Can I customize an all-around SUP board for my brand?',
-          a: 'Yes. Every all-around platform is a manufacturing base — you specify dimensions (commonly 10′6″ to 11′6″), width, thickness, layup (single/dual-layer or fusion), rail configuration, EVA pad, full-board graphics and packaging. Custom-mould projects start at 200 pcs; standard OEM production from 50 pcs per design.',
+          a: 'Yes. Every all-around platform is a manufacturing base — you specify dimensions (commonly 10′6″ to 11′6″), width, thickness, layup (single/dual-layer or fusion), rail configuration, EVA pad, full-board graphics and packaging. Custom-mould shapes start at 90–100+ pcs per shape; standard volume production from 90–100+ pcs per 150 m roll.',
         },
         {
           q: 'What is the MOQ for all-around SUP boards?',
-          a: 'Standard OEM batches start at 50 pcs per design; trial runs on standard platforms start at 5–10 pcs; full custom-moulding requires 200 pcs minimum. Samples ship in 15–20 days and bulk production runs 30–45 days after confirmed PO and deposit.',
+          a: 'Standard volume batches start at 90–100+ pcs per 150 m roll; pilot runs on standard platforms start at 20–50 pcs; full custom-moulding runs from 90–100+ pcs per shape. Samples ship in 7–12 days and bulk production runs 25–35 days after confirmed PO and deposit.',
         },
         {
           q: 'What does the retail-ready package include?',
@@ -60,7 +60,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Race Platforms',
       metaTitle: 'Custom Race SUP Boards — Inflatable Racing Platforms OEM | SUPsfactory',
       metaDescription:
-        'Custom inflatable race SUP boards for clubs, events and brands — drop-stitch racing hulls, OEM from 50 pcs, CE-certified production. Factory direct.',
+        'Custom inflatable race SUP boards for clubs, events and brands — drop-stitch racing hulls, OEM volume from 90–100+ pcs, CE-certified production. Factory direct.',
       kicker: 'Series · Race',
       h1: 'Custom Race SUP Boards — Racing Hulls Manufactured For Your Brand',
       intro: [
@@ -78,7 +78,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         },
         {
           q: 'Can clubs order race boards for their team?',
-          a: 'Yes. Club and team programs order from 50 pcs with club graphics, and can mix race and training platforms in one container. Fleet pricing applies to combined volumes.',
+          a: 'Yes. Club and team programs order from 90–100+ pcs (volume) with club graphics, and can mix race and training platforms in one order. Fleet pricing applies to combined volumes.',
         },
       ],
     },
@@ -87,7 +87,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Surf Platforms',
       metaTitle: 'Custom Surf SUP Boards — Inflatable Hybrid Surf Platforms OEM | SUPsfactory',
       metaDescription:
-        'Custom inflatable surf SUP boards — hybrid surf profiles with rounded rails and raised rocker, manufactured under your brand from 50 pcs in Qingdao, China.',
+        'Custom inflatable surf SUP boards — hybrid surf profiles with rounded rails and raised rocker, manufactured under your brand from 90–100+ pcs in Qingdao, China.',
       kicker: 'Series · Surf',
       h1: 'Custom Surf SUP Boards — Hybrid Surf Platforms For Wave Riding',
       intro: [
@@ -114,7 +114,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Touring Platforms',
       metaTitle: 'Custom Touring SUP Boards — Long-Distance Platforms OEM | SUPsfactory',
       metaDescription:
-        'Custom inflatable touring SUP boards for long-distance paddling — 12′6″+ displacement hulls, multi-day trip capability, OEM from 50 pcs, factory direct.',
+        'Custom inflatable touring SUP boards for long-distance paddling — 12′6″+ displacement hulls, multi-day trip capability, OEM volume from 90–100+ pcs, factory direct.',
       kicker: 'Series · Touring',
       h1: 'Custom Touring SUP Boards — Built For Distance, Carrying Loads, Covering Ground',
       intro: [
@@ -132,7 +132,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         },
         {
           q: 'Do you supply touring boards for outfitters and rental operators?',
-          a: 'Yes. Outfitters and operators can run dedicated touring fleets from 50 pcs with fleet pricing, replacement parts and a defined seasonal refresh cycle.',
+          a: 'Yes. Outfitters and operators can run dedicated touring fleets from 20–50 pcs (pilot) with fleet pricing, replacement parts and a defined seasonal refresh cycle.',
         },
       ],
     },
@@ -141,7 +141,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Yoga Platforms',
       metaTitle: 'Custom Yoga SUP Boards — Wide Stable Platforms OEM | SUPsfactory',
       metaDescription:
-        'Custom inflatable yoga SUP boards — extra-wide stable platforms with soft decks for studios, resorts and instructors. OEM from 50 pcs, factory direct.',
+        'Custom inflatable yoga SUP boards — extra-wide stable platforms with soft decks for studios, resorts and instructors. OEM volume from 90–100+ pcs, factory direct.',
       kicker: 'Series · Yoga',
       h1: 'Custom Yoga SUP Boards — Extra-Wide Platforms For Practice On Water',
       intro: [
@@ -168,7 +168,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Whitewater Platforms',
       metaTitle: 'Custom Whitewater SUP Boards — River & Rapid Platforms OEM | SUPsfactory',
       metaDescription:
-        'Custom inflatable whitewater SUP boards for rivers and rapids — short maneuverable hulls with reinforced impact construction. OEM from 50 pcs in Qingdao, China.',
+        'Custom inflatable whitewater SUP boards for rivers and rapids — short maneuverable hulls with reinforced impact construction. OEM volume from 90–100+ pcs in Qingdao, China.',
       kicker: 'Series · Whitewater',
       h1: 'Custom Whitewater SUP Boards — River Hulls Built To Take Hits',
       intro: [
@@ -182,7 +182,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         },
         {
           q: 'Do you supply river outfitters and guide schools?',
-          a: 'Yes. Outfitters and guide schools run whitewater fleets from 50 pcs with fleet pricing, heavy-duty repair kits and spare fin/valve components — typical for high-utilization river programs.',
+          a: 'Yes. Outfitters and guide schools run whitewater fleets from 20–50 pcs (pilot) with fleet pricing, heavy-duty repair kits and spare fin/valve components — typical for high-utilization river programs.',
         },
         {
           q: 'Can whitewater boards carry brand graphics?',
@@ -195,7 +195,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Fishing Platforms',
       metaTitle: 'Custom Fishing SUP Boards — OEM & Private Label | SUPsfactory',
       metaDescription:
-        'Custom inflatable fishing SUP boards with stability, weight capacity and accessory mounts — OEM/private label from 50 pcs, factory-direct from Qingdao, China.',
+        'Custom inflatable fishing SUP boards with stability, weight capacity and accessory mounts — OEM/private label volume from 90–100+ pcs, factory-direct from Qingdao, China.',
       kicker: 'Series · Fishing',
       h1: 'Custom Fishing SUP Boards — Built With Anglers In Mind',
       intro: [
@@ -209,7 +209,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         },
         {
           q: 'What is the MOQ for fishing SUP OEM orders?',
-          a: 'Standard OEM batches start at 50 pcs per design; trial runs from 5–10 pcs on standard platforms; custom tooling requires 200 pcs minimum. Samples ship in 15–20 days; production runs 30–45 days after confirmed PO and deposit.',
+          a: 'Standard volume batches start at 90–100+ pcs per 150 m roll; pilot runs from 20–50 pcs on standard platforms; custom tooling runs from 90–100+ pcs per shape. Samples ship in 7–12 days; production runs 25–35 days after confirmed PO and deposit.',
         },
         {
           q: 'Do you produce fishing boards for rental and guide operations?',
@@ -222,7 +222,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Kids Platforms',
       metaTitle: 'Custom Kids SUP Boards — Small Light Platforms OEM | SUPsfactory',
       metaDescription:
-        'Custom kids inflatable SUP boards — shorter, lighter platforms with child-friendly decks designed for safety and fun. OEM from 50 pcs, factory direct.',
+        'Custom kids inflatable SUP boards — shorter, lighter platforms with child-friendly decks designed for safety and fun. OEM volume from 90–100+ pcs, factory direct.',
       kicker: 'Series · Kids',
       h1: 'Custom Kids SUP Boards — Small, Light And Built For First Paddles',
       intro: [
@@ -249,7 +249,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Multi-Person Platforms',
       metaTitle: 'Custom Multi-Person SUP Boards — Tandem & Family OEM | SUPsfactory',
       metaDescription:
-        'Custom multi-person inflatable SUP boards for family recreation and group lessons — tandem, yard and party platforms. OEM from 50 pcs, factory direct.',
+        'Custom multi-person inflatable SUP boards for family recreation and group lessons — tandem, yard and party platforms. OEM volume from 90–100+ pcs, factory direct.',
       kicker: 'Series · Multi-Person',
       h1: 'Custom Multi-Person SUP Boards — Tandems, Yards And Party Platforms',
       intro: [
@@ -278,21 +278,21 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Plataformas polivalentes',
       metaTitle: 'Tablas SUP polivalentes personalizadas — Fabricante OEM inflable | SUPsfactory',
       metaDescription:
-        'Tablas SUP hinchables polivalentes personalizadas bajo tu marca: estabilidad de tabla ancha, OEM/ODM desde 50 uds., muestras en 15–20 días. Directo de fábrica en Qingdao, China.',
+        'Tablas SUP hinchables polivalentes personalizadas bajo tu marca: estabilidad de tabla ancha, OEM/ODM en volumen desde 90–100+ uds., muestras en 7–12 días. Directo de fábrica en Qingdao, China.',
       kicker: 'Serie · Polivalente',
       h1: 'Tablas SUP polivalentes personalizadas — la plataforma de partida para nuevas marcas',
       intro: [
         'La tabla polivalente es la base de la categoría SUP: ancha para dar estabilidad a principiantes, ágil para mantener el interés de nivel intermedio y ligera para llevarla donde sea. La mayoría de las marcas nuevas y de las flotas de alquiler empiezan aquí.',
-        'Fabricamos plataformas polivalentes bajo tu marca desde 50 uds. por diseño, con pedidos de prueba desde 5–10 uds. Forma, rails, capas, colores, gráficos a toda cubierta y embalaje se especifican por proyecto.',
+        'Fabricamos plataformas polivalentes bajo tu marca desde 90–100+ uds. por rollo de 150 m (volumen), con pedidos piloto desde 20–50 uds. Forma, rails, capas, colores, gráficos a toda cubierta y embalaje se especifican por proyecto.',
       ],
       faqs: [
         {
           q: '¿Puedo personalizar una tabla SUP polivalente para mi marca?',
-          a: 'Sí. Cada plataforma polivalente es una base de fabricación: especificas dimensiones (habitualmente 10\'6" a 11\'6"), ancho, grosor, capas (una/doble o fusión), configuración de rails, piso EVA, gráficos a toda cubierta y embalaje. Los proyectos con molde a medida parten de 200 uds.; la producción OEM estándar, de 50 uds. por diseño.',
+          a: 'Sí. Cada plataforma polivalente es una base de fabricación: especificas dimensiones (habitualmente 10\'6" a 11\'6"), ancho, grosor, capas (una/doble o fusión), configuración de rails, piso EVA, gráficos a toda cubierta y embalaje. Los diseños con molde a medida parten de 90–100+ uds. por diseño; la producción de volumen estándar, de 90–100+ uds. por rollo de 150 m.',
         },
         {
           q: '¿Cuál es el pedido mínimo para tablas SUP polivalentes?',
-          a: 'Los lotes OEM estándar parten de 50 uds. por diseño; los pedidos de prueba sobre plataformas estándar, de 5–10 uds.; el moldeo a medida requiere un mínimo de 200 uds. Las muestras salen en 15–20 días y la producción, en 30–45 días tras PO y depósito confirmados.',
+          a: 'Los lotes de volumen estándar parten de 90–100+ uds. por rollo de 150 m; los pedidos piloto sobre plataformas estándar, de 20–50 uds.; el moldeo a medida se produce desde 90–100+ uds. por diseño. Las muestras salen en 7–12 días y la producción, en 25–35 días tras PO y depósito confirmados.',
         },
         {
           q: '¿Qué incluye el paquete completo listo para retail?',
@@ -305,7 +305,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Plataformas de competición',
       metaTitle: 'Tablas SUP de competición personalizadas — Plataformas de carrera OEM | SUPsfactory',
       metaDescription:
-        'Tablas SUP hinchables de competición personalizadas para clubs, eventos y marcas — cascos de carrera drop-stitch, OEM desde 50 uds., producción certificada CE. Directo de fábrica.',
+        'Tablas SUP hinchables de competición personalizadas para clubs, eventos y marcas — cascos de carrera drop-stitch, OEM en volumen desde 90–100+ uds., producción certificada CE. Directo de fábrica.',
       kicker: 'Serie · Competición',
       h1: 'Tablas SUP de competición personalizadas — cascos de carrera fabricados para tu marca',
       intro: [
@@ -323,7 +323,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         },
         {
           q: '¿Pueden los clubs pedir tablas de competición para su equipo?',
-          a: 'Sí. Los programas de clubs y equipos piden desde 50 uds. con gráficos del club y pueden mezclar tablas de competición y entrenamiento en un mismo contenedor. El precio de flota se aplica al volumen combinado.',
+          a: 'Sí. Los programas de clubs y equipos piden desde 90–100+ uds. (volumen) con gráficos del club y pueden mezclar tablas de competición y entrenamiento en un mismo pedido. El precio de flota se aplica al volumen combinado.',
         },
       ],
     },
@@ -332,7 +332,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Plataformas de surf',
       metaTitle: 'Tablas SUP de surf personalizadas — Plataformas híbridas inflables OEM | SUPsfactory',
       metaDescription:
-        'Tablas SUP hinchables de surf personalizadas — perfiles de surf híbridos con rails redondeados y rocker elevado, fabricadas bajo tu marca desde 50 uds. en Qingdao, China.',
+        'Tablas SUP hinchables de surf personalizadas — perfiles de surf híbridos con rails redondeados y rocker elevado, fabricadas bajo tu marca desde 90–100+ uds. en Qingdao, China.',
       kicker: 'Serie · Surf',
       h1: 'Tablas SUP de surf personalizadas — plataformas híbridas para cabalgar olas',
       intro: [
@@ -359,7 +359,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Plataformas de travesía',
       metaTitle: 'Tablas SUP de travesía personalizadas — Plataformas de larga distancia OEM | SUPsfactory',
       metaDescription:
-        'Tablas SUP hinchables de travesía personalizadas para pagayadas de larga distancia — cascos de desplazamiento de 12\'6"+, capacidad para equipo, OEM desde 50 uds.',
+        'Tablas SUP hinchables de travesía personalizadas para pagayadas de larga distancia — cascos de desplazamiento de 12\'6"+, capacidad para equipo, OEM en volumen desde 90–100+ uds.',
       kicker: 'Serie · Travesía',
       h1: 'Tablas SUP de travesía personalizadas — hechas para distancia, carga y terreno',
       intro: [
@@ -377,7 +377,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         },
         {
           q: '¿Suministráis tablas de travesía a outfitters y operadores de alquiler?',
-          a: 'Sí. Outfitters y operadores pueden gestionar flotas de travesía desde 50 uds. con precio de flota, recambios y un ciclo definido de renovación estacional.',
+          a: 'Sí. Outfitters y operadores pueden gestionar flotas de travesía desde 20–50 uds. (piloto) con precio de flota, recambios y un ciclo definido de renovación estacional.',
         },
       ],
     },
@@ -386,7 +386,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Plataformas de yoga',
       metaTitle: 'Tablas SUP de yoga personalizadas — Plataformas anchas y estables OEM | SUPsfactory',
       metaDescription:
-        'Tablas SUP hinchables de yoga personalizadas — plataformas extra anchas con cubiertas blandas para estudios, resorts e instructores. OEM desde 50 uds.',
+        'Tablas SUP hinchables de yoga personalizadas — plataformas extra anchas con cubiertas blandas para estudios, resorts e instructores. OEM en volumen desde 90–100+ uds.',
       kicker: 'Serie · Yoga',
       h1: 'Tablas SUP de yoga personalizadas — plataformas extra anchas para practicar sobre el agua',
       intro: [
@@ -413,7 +413,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Plataformas de aguas bravas',
       metaTitle: 'Tablas SUP de aguas bravas personalizadas — Plataformas de río OEM | SUPsfactory',
       metaDescription:
-        'Tablas SUP hinchables de aguas bravas personalizadas para ríos y rápidos — cascos cortos y maniobrables con construcción de impacto reforzada. OEM desde 50 uds.',
+        'Tablas SUP hinchables de aguas bravas personalizadas para ríos y rápidos — cascos cortos y maniobrables con construcción de impacto reforzada. OEM en volumen desde 90–100+ uds.',
       kicker: 'Serie · Aguas bravas',
       h1: 'Tablas SUP de aguas bravas personalizadas — cascos de río hechos para golpes',
       intro: [
@@ -427,7 +427,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         },
         {
           q: '¿Suministráis a outfitters de río y escuelas de guías?',
-          a: 'Sí. Outfitters y escuelas gestionan flotas de aguas bravas desde 50 uds. con precio de flota, kits de reparación reforzados y componentes de repuesto (quillas, válvulas), habituales en programas de río de alto uso.',
+          a: 'Sí. Outfitters y escuelas gestionan flotas de aguas bravas desde 20–50 uds. (piloto) con precio de flota, kits de reparación reforzados y componentes de repuesto (quillas, válvulas), habituales en programas de río de alto uso.',
         },
         {
           q: '¿Las tablas de aguas bravas pueden llevar gráficos de marca?',
@@ -440,7 +440,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Plataformas de pesca',
       metaTitle: 'Tablas SUP de pesca personalizadas — OEM y marca privada | SUPsfactory',
       metaDescription:
-        'Tablas SUP hinchables de pesca personalizadas con estabilidad, capacidad de carga y soportes — OEM/marca privada desde 50 uds., directo de fábrica en Qingdao, China.',
+        'Tablas SUP hinchables de pesca personalizadas con estabilidad, capacidad de carga y soportes — OEM/marca privada en volumen desde 90–100+ uds., directo de fábrica en Qingdao, China.',
       kicker: 'Serie · Pesca',
       h1: 'Tablas SUP de pesca personalizadas — pensadas para pescadores',
       intro: [
@@ -454,7 +454,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         },
         {
           q: '¿Cuál es el pedido mínimo para OEM de tablas de pesca?',
-          a: 'Los lotes OEM estándar parten de 50 uds. por diseño; los pedidos de prueba, de 5–10 uds. sobre plataformas estándar; el utillaje a medida requiere 200 uds. mínimo. Las muestras salen en 15–20 días y la producción en 30–45 días tras PO y depósito.',
+          a: 'Los lotes de volumen estándar parten de 90–100+ uds. por rollo de 150 m; los pedidos piloto, de 20–50 uds. sobre plataformas estándar; el utillaje a medida se produce desde 90–100+ uds. por diseño. Las muestras salen en 7–12 días y la producción en 25–35 días tras PO y depósito.',
         },
         {
           q: '¿Producís tablas de pesca para alquiler y operaciones de guía?',
@@ -467,7 +467,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Plataformas infantiles',
       metaTitle: 'Tablas SUP infantiles personalizadas — Plataformas pequeñas y ligeras OEM | SUPsfactory',
       metaDescription:
-        'Tablas SUP hinchables infantiles personalizadas — cascos más cortos y ligeros con cubiertas pensadas para niños, seguridad y diversión. OEM desde 50 uds.',
+        'Tablas SUP hinchables infantiles personalizadas — cascos más cortos y ligeros con cubiertas pensadas para niños, seguridad y diversión. OEM en volumen desde 90–100+ uds.',
       kicker: 'Serie · Infantil',
       h1: 'Tablas SUP infantiles personalizadas — pequeñas, ligeras y hechas para las primeras pagayadas',
       intro: [
@@ -494,7 +494,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Plataformas multipersona',
       metaTitle: 'Tablas SUP multipersona personalizadas — Tándem y familia OEM | SUPsfactory',
       metaDescription:
-        'Tablas SUP hinchables multipersona personalizadas para recreo familiar y clases en grupo — plataformas tándem, yard y party. OEM desde 50 uds.',
+        'Tablas SUP hinchables multipersona personalizadas para recreo familiar y clases en grupo — plataformas tándem, yard y party. OEM en volumen desde 90–100+ uds.',
       kicker: 'Serie · Multipersona',
       h1: 'Tablas SUP multipersona personalizadas — tándems, yard y plataformas party',
       intro: [

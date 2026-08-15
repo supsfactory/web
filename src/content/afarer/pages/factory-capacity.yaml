@@ -1,6 +1,6 @@
 meta:
-  title: 'Production Capacity — 12,000 m² Factory | {SITE}'
-  description: 'afarer factory capacity: 12,000 m² facility producing 15,000+ SUP boards per year with room to scale. Large-scale OEM/ODM inflatable SUP manufacturing.'
+  title: 'Production Capacity — 12,500 m² Factory | {SITE}'
+  description: 'afarer factory capacity: 12,500 m² facility producing 120,000+ SUP boards per year with room to scale. Large-scale OEM/ODM inflatable SUP manufacturing.'
   dateModified: '2026-08-07'
   keywords:
     - 'sup production capacity'
@@ -10,39 +10,39 @@ meta:
 hero:
   tagline: Production Capacity
   title: Manufacturing Capacity & Annual Output
-  subtitle: 12,000 m² facility producing 15,000+ SUP boards per year with room to scale
+  subtitle: 12,500 m² facility producing 120,000+ SUP boards per year with room to scale
 
 answer:
   label: 'Straight answer'
-  text: 'Factory capacity: 12,000 m² across six workshops, 15,000+ SUP boards per year, 200+ workers on two shifts, exporting to 50+ countries. MOQ tiers are 5–10 units trial, 50 units per design standard OEM batch, 200+ units custom mould; lead time 30–45 days, samples 15–20 days.'
+  text: 'Factory capacity: 12,500 m² across four specialized workshops, 120,000+ SUP boards per year, 350+ workers on two shifts, exporting to 50+ countries. MOQ is confirmed by project configuration — sample (1–2 units), pilot (20–50 units) and standard volume (90–100+ units per 150 m roll); see our MOQ & Flexible Branding Guide for the full logic. Lead time 25–35 days, samples 7–12 days.'
   verified: '2026-08'
 
-intro: afarer operates one of the largest dedicated inflatable SUP manufacturing facilities in Qingdao, China. Our 12,000 m² factory is organized into six specialized workshops operating in parallel, giving us the capacity to produce over 15,000 boards annually across SUP and safety equipment lines.
+intro: afarer operates one of the largest dedicated inflatable SUP manufacturing facilities in Qingdao, China. Our 12,500 m² factory is organized into four specialized workshops operating in parallel, giving us the capacity to produce over 120,000 boards annually across SUP and safety equipment lines.
 
 highlights:
-  - value: 12,000 m²
+  - value: 12,500 m²
     label: Total manufacturing floor
-    detail: Across 6 specialized workshops
-  - value: 15,000+
+    detail: Across 4 specialized workshops
+  - value: 120,000+
     label: Boards produced annually
     detail: SUPs and safety gear
-  - value: 200+
+  - value: 350+
     label: Skilled workforce
     detail: 25+ engineers, 2 shifts/day
   - value: 50+
     label: Export countries
     detail: EU, US, AU, Middle East, Asia
-  - value: 30–45
+  - value: 25–35
     label: Standard lead time (days)
-    detail: From PO confirmation to FOB
+    detail: After confirmed PO and deposit
   - value: 10+
     label: Years of export experience
     detail: Since 2012
 
 workshops:
   - title: SUP Board Production
-    description: '4 parallel assembly lines for inflatable SUP boards. Each line can produce 50–80 boards per shift. Digital printing and screen printing stations run concurrently. Annual SUP capacity: 8,000+ boards.'
-    output: '8,000+ SUPs/year'
+    description: '4 automated assembly lines for inflatable SUP boards with a combined output of about 10,000 boards per month. Digital printing and screen printing stations run concurrently. Annual SUP capacity: 120,000+ boards.'
+    output: '120,000+ SUPs/year'
   - title: SUP Board Production
     description: 'Expanded production capacity for SUP boards utilizing additional assembly lines. Drop-stitch core bonding, digital printing, and assembly stations run concurrently.'
     output: 'Expanded SUP capacity'
@@ -54,9 +54,9 @@ workshops:
     output: '50,000+ life vests/year'
 
 oem_capacity:
-  moq: 'SUP: 5–10 trial | 50 standard batch | Custom mould: 200+ units'
-  lead_time: 'Standard 30–45 days. Sample 15–20 days. Rush available.'
-  payment: 'T/T 30% deposit + 70% before shipment. L/C, Western Union accepted.'
+  moq: 'SUP: sample 1–2 | pilot 20–50 | volume 90–100+ (per 150 m roll)'
+  lead_time: 'Standard 25–35 days. Sample 7–12 days. Rush available.'
+  payment: 'T/T 30% deposit + 70% balance. L/C, Western Union accepted.'
 
 lead_time_explainer:
   tagline: 'Planning & Scheduling'
@@ -75,5 +75,11 @@ lead_time_explainer:
 cta:
   title: 'Check production availability for your launch date'
   subtitle: 'Send your board type, quantity and target ship date — we reply with the next open production window and a firm lead-time estimate.'
-  button_text: 'Check availability'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Check availability
+      href: /contact#production-availability
+    - text: See the full factory overview
+      href: /factory
+    - text: How boards are built
+      href: /factory/process

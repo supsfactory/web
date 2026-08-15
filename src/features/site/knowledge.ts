@@ -63,7 +63,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Step 5: Production and Delivery',
           body: [
             'After sample approval, production runs in batches with QC checkpoints. Factory inspection before shipment — photos, videos or third-party inspection — protects the batch you receive.',
-            'Plan delivery: sea freight for volume, air for small urgent runs. A good project schedule works backward from your launch date, not forward from the order.',
+            'A good project schedule works backward from your launch date, not forward from the order.',
           ],
         },
       ],

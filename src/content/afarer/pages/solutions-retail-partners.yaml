@@ -13,29 +13,29 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Retail brands start with a 5–10 unit trial batch (samples in 15–20 days), scale to a 50-unit standard OEM batch per design (30–45 days after PO and deposit), or invest 200 units in a custom mould (tooling adds 15–20 days). Every board is pressure-tested before shipping, with FOB, CIF or DDP terms from Qingdao.'
+  text: 'MOQ is confirmed by project configuration: retail brands start with a sample (1–2 units) or pilot batch (20–50 units, samples in 7–12 days), scale to a standard volume OEM run of 90–100+ units per design (25–35 days after PO and deposit), or invest in a custom mould for full bespoke lines (tooling adds 15–20 days). Every board is pressure-tested before shipping, with FOB, CIF or DDP terms from Qingdao.'
   verified: '2026-08'
 
 margin_section:
-  title: 'Production Tiers For Retail Brands'
-  subtitle: 'Start with a trial batch, scale to a standard OEM run, or invest in a custom mould — MOQ and lead times are set by the production path, not by guesswork.'
+  title: 'Production Stages For Retail Brands'
+  subtitle: 'Start with a sample, pilot to validate, scale to a standard volume run, or invest in a custom mould — MOQ and lead times are set by the production path, not by guesswork.'
   items:
-    - tier: 'Trial Batch'
-      moq: '5–10 units'
-      margin_note: 'Sample lead time 15–20 days'
+    - tier: 'Sample Stage'
+      moq: '1–2 units'
+      margin_note: 'Sample lead time 7–12 days'
       features:
         - 'Artwork development from your brand assets'
         - 'Physical sample for approval'
         - 'Standard platform QC'
-    - tier: 'Standard OEM Batch'
-      moq: '50 units per design'
-      margin_note: 'Bulk production 30–45 days'
+    - tier: 'Pilot Stage'
+      moq: '20–50 units'
+      margin_note: 'Market validation on stock platforms'
       features:
         - 'Full-board graphics, logo and EVA layout'
         - 'Reorders on the same verified platforms'
         - 'Export documentation included'
     - tier: 'Custom Mould'
-      moq: '200 units'
+      moq: 'Confirmed by project config'
       margin_note: 'Tooling adds 15–20 days'
       features:
         - 'New board shape and mould development'
@@ -66,15 +66,15 @@ catalog:
     - name: '2026 Product Catalog'
       desc: 'Full lineup with specs and ordering information'
       icon: 'tabler:file-text'
-      link: '/resources/download-catalog'
+      link: '/products'
     - name: 'Retail Partner Guide'
       desc: 'Specification guide, ordering process and QC standards'
       icon: 'tabler:book'
-      link: '/resources/download-catalog'
+      link: '/products'
     - name: 'Product & Technical Assets'
       desc: 'Hi-res product photos, lifestyle images and technical documentation'
       icon: 'tabler:photo'
-      link: '/media'
+      link: '/products'
 
 support:
   title: Manufacturing Support
@@ -83,13 +83,13 @@ support:
     - 'Physical sample before bulk production'
     - 'Tolerance and QC: every board pressure-tested before shipping'
     - 'Specification support — shapes, graphics, EVA layout, accessories'
-    - 'Bulk lead time 30–45 days after confirmed PO'
+    - 'Bulk lead time 25–35 days after confirmed PO'
     - 'Spare parts and repair guidance for your customers'
     - 'Export and documentation: FOB/CIF/DDP from Qingdao'
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> see the full <a href="/oem-odm-manufacturer">OEM/ODM manufacturing program</a> — trial MOQs from 5–10 units, private-label branding and CE compliance — or tour the <a href="/factory">factory</a> to see how retail-ready QC is run.</p>
+    <p><strong>Keep reading:</strong> see the full <a href="/oem-odm-manufacturer">OEM/ODM manufacturing program</a> — project-confirmed MOQs across sample, pilot and volume stages, private-label branding and CE compliance — or read the <a href="/oem-moq-guide">MOQ &amp; Flexible Branding Guide</a>, or tour the <a href="/factory">factory</a> to see how retail-ready QC is run.</p>
   </div>
 
 cta:

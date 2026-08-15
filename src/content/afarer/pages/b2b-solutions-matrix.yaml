@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'One factory serves every B2B route: OEM/ODM manufacturing (5–10 unit trials, 50-unit standard batches, 200-unit custom moulds), private label on proven platforms, wholesale distribution and fleet programs for resorts, clubs and schools. Every customer type maps to a specific solution set — samples in 15–20 days, production 30–45 days after PO and deposit.'
+  text: 'One factory serves every B2B route: OEM/ODM manufacturing with project-confirmed MOQ (sample 1–2 units, pilot 20–50, standard volume 90–100+ per 150 m roll; co-branding from under 20 units), private label on proven platforms, wholesale distribution and fleet programs for resorts, clubs and schools. Every customer type maps to a specific solution set — samples in 7–12 days, production 25–35 days after PO and deposit.'
   verified: '2026-08'
 
 solutions:
@@ -23,99 +23,99 @@ solutions:
     - clientType: Outdoor Startup Founder
       need: Brand Creation
       solutionPage: Build Your SUP Brand
-      link: /solutions/sup-brand-startup
+      link: /solutions/private-label-sup
     - clientType: Outdoor Brand Manager
       need: Outdoor Brand Expansion Into Water Sports
       solutionPage: Expand Outdoor Brand Into Water Sports
-      link: /solutions/expand-outdoor-brand-water-sports
+      link: /solutions/private-label-sup
     - clientType: Surf Shop Owner
       need: Surf Business Upgrade
       solutionPage: Bring Inflatable Technology Into Surf Business
-      link: /solutions/inflatable-technology-for-surf-business
+      link: /products/surf
     - clientType: Amazon Seller
       need: E-commerce Growth
       solutionPage: Product Differentiation & Fast Supply
-      link: /solutions/ecommerce-sup-brand-development
+      link: /solutions/private-label-sup
     - clientType: Fishing Gear Brand
       need: Fishing SUP
       solutionPage: Create Your Fishing SUP Brand
-      link: /solutions/create-fishing-sup-brand
+      link: /products/fishing
     - clientType: Yoga & Wellness Brand
       need: Wellness Water Products
       solutionPage: SUP Yoga Equipment Solutions
-      link: /solutions/sup-yoga-wellness-equipment
+      link: /products/yoga
     - clientType: Creator Brand
       need: Influencer Brand
       solutionPage: Creator Edition SUP Startup
-      link: /solutions/creator-influencer-sup-brand
+      link: /solutions/private-label-sup
     - clientType: Paddle Club Founder
       need: Club Fleet
       solutionPage: Commercial SUP Fleet
-      link: /solutions/commercial-sup-fleet
+      link: /solutions/club-sup
     - clientType: Rental Business Owner
       need: Rental Operations
       solutionPage: Durable Rental Fleet Solution
-      link: /solutions/durable-sup-rental-fleet
+      link: /solutions/rental-operators
     - clientType: Resort Activity Manager
       need: Hotel Experience
       solutionPage: Resort Water Activity Package
-      link: /solutions/resort-water-activity-package
+      link: /solutions/resort-sup
     - clientType: Water Sports Academy
       need: Training & Education
       solutionPage: SUP Academy Equipment Program
-      link: /solutions/sup-academy-equipment-program
+      link: /solutions/school-sup
     - clientType: Cruise & Yacht Company
       need: Yacht Experience
       solutionPage: Luxury Portable SUP Package
-      link: /solutions/luxury-portable-sup-package
+      link: /product-development
     - clientType: Outdoor Retail Buyer
       need: Retail Channel
       solutionPage: Retail Private Label Program
-      link: /solutions/retail-private-label-program
+      link: /solutions/retail-partners
     - clientType: Distributor & Importer
       need: Regional Distribution
       solutionPage: Regional OEM & Supply Chain Partner
-      link: /solutions/regional-oem-supply-chain-partner
+      link: /solutions/distributors
     - clientType: Corporate Project Buyer
       need: Corporate Events
       solutionPage: Corporate SUP Event Package
-      link: /solutions/corporate-sup-event-package
+      link: /contact
     - clientType: Water Sports Brand Manager
       need: Water Sports Brand Expansion
       solutionPage: Expand Your Water Sports Portfolio
-      link: /solutions/expand-your-water-sports-portfolio
+      link: /solutions/private-label-sup
     - clientType: Pet Adventure Brand Owner
       need: Pet Outdoor
       solutionPage: Pet-Friendly Paddle Board Program
-      link: /solutions/pet-friendly-paddle-board-program
+      link: /product-development
     - clientType: Beach Recreation Operator
       need: Beach Entertainment
       solutionPage: Complete Beach Activity Equipment Solutions
-      link: /solutions/complete-beach-activity-equipment-solutions
+      link: /solutions/rental-operators
     - clientType: Water Park Developer
       need: Theme Entertainment
       solutionPage: Commercial Water Park SUP Fleet
-      link: /solutions/commercial-water-park-sup-fleet
+      link: /solutions/resort-sup
     - clientType: Private Island & Luxury Club Owner
       need: High-End Lifestyle
       solutionPage: Premium Custom SUP Collection
-      link: /solutions/premium-custom-sup-collection
+      link: /product-development
     - clientType: Tourism Board & Public Park Operator
       need: Public Tourism Projects
       solutionPage: Destination Water Sports Package
-      link: /solutions/destination-water-sports-package
+      link: /solutions/rental-operators
     - clientType: Kids Adventure & Summer Camp Operator
       need: Youth Education
       solutionPage: Kids Exploration SUP Program
-      link: /solutions/kids-exploration-sup-program
+      link: /solutions/school-sup
     - clientType: Water Rescue & Safety Organization
       need: Professional Rescue
       solutionPage: Professional Water Rescue SUP System
-      link: /solutions/professional-water-rescue-sup-system
+      link: /product-development
     - clientType: Marine Conservation & Research Institution
       need: Environmental Research
       solutionPage: Eco Research & Monitoring SUP Platform
-      link: /solutions/eco-research-monitoring-sup-platform
+      link: /product-development
 
 cta:
   title: 'Not sure which solution fits your business?'
@@ -126,9 +126,9 @@ cta:
       href: /contact?subject=b2b-solutions
     - variant: secondary
       text: Download Catalog
-      href: /resources/download-catalog
+      href: /products
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p>Every route on this matrix starts with the same two things: our <a href="/oem-odm-manufacturer">OEM/ODM manufacturing program</a> and the <a href="/factory">factory behind it</a> — one 12,000 m&sup2; plant, one set of quality standards, every channel served.</p>
+    <p>Every route on this matrix starts with the same two things: our <a href="/oem-odm-manufacturer">OEM/ODM manufacturing program</a> and the <a href="/factory">factory behind it</a> — one 12,500 m&sup2; plant, one set of quality standards, every channel served.</p>
   </div>

@@ -11,7 +11,7 @@ headline: 'Engineering Perfection in Inflatable SUP Manufacturing for Tourism & 
 subtitle: 'From guided fishing excursions to coastal cruising, afarer sets the benchmark for durability, safety, and performance in inflatable SUPs.'
 seo:
   headline: 'Inflatable SUPs for Tourism & Recreation —afarer OEM Manufacturing'
-  description: 'afarer designs and manufactures premium inflatable SUPs for tourism and recreation: touring boards, fishing boards, and yoga boards. OEM/ODM manufacturing with CE certification. MOQ from 50 units.'
+  description: 'afarer designs and manufactures premium inflatable SUPs for tourism and recreation: touring boards, fishing boards, and yoga boards. OEM/ODM manufacturing with CE certification. MOQ tiers: pilot from 20–50 units; standard volume from 90–100+ units per 150 m roll.'
   datePublished: '2024-06-01'
   dateModified: '2026-06-01'
 faqs:
@@ -65,5 +65,17 @@ body: |
   </ul>
 
   <h2>Why Choose afarer for Your Tourism & Recreation Fleet</h2>
-  <p>With our 12,000 m² ISO & CE-certified factory in Qingdao, China, afarer offers tour operators, rental fleets, and recreation brands a reliable manufacturing partner. Our OEM/ODM services include custom branding, private label, packaging, and logistics support. Standard MOQ from 50 units with lead times of 30–45 days.</p>
+  <p>With our 12,500 m² ISO & CE-certified factory in Qingdao, China, afarer offers tour operators, rental fleets, and recreation brands a reliable manufacturing partner. Our OEM/ODM services include custom branding, private label, packaging, and logistics support. Standard volume MOQ from 90–100+ units per 150 m roll (pilot runs from 20–50 units) with lead times of 25–35 days.</p>
   <p>Every afarer SUP is an investment in unparalleled quality, durability, and performance —ensuring your guests enjoy safe, memorable experiences on the water.</p>
+
+  <div class="not-prose my-10">
+    <div class="rounded-2xl border border-sky-200 bg-sky-50 p-6 text-center dark:border-sky-900 dark:bg-sky-950">
+      <h3 class="font-display text-lg font-bold">Outfit your fleet with a documented quality system</h3>
+      <p class="mt-2 text-sm text-fg-2">Rental-grade durability comes from the 7-stage inspection system behind every board — audit it, or talk to engineering about your fleet.</p>
+      <p class="mt-4 flex flex-wrap justify-center gap-3">
+        <a href="/factory/quality-inspection" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">The 7-stage inspection system</a>
+        <a href="/oem-moq-guide" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">MOQ & fleet guide</a>
+        <a href="/oem-odm-manufacturer" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">OEM & ODM services</a>
+      </p>
+    </div>
+  </div>

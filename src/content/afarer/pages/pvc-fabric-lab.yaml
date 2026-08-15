@@ -103,5 +103,9 @@ content_html: |
 cta:
   title: 'Need a custom fabric specification?'
   subtitle: 'Contact our material engineering team to discuss your requirements.'
-  button_text: 'Contact our lab team'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Contact our lab team
+      href: /contact#project-brief
+    - text: Back to the R&D Center
+      href: /randdcenter

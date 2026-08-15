@@ -116,11 +116,21 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   // P1-9: dead whitepaper PDF links in news articles fold into the OEM landing page
   '/whitepaper/oem-sup-manufacturing-guide': '/oem-odm-manufacturer',
   '/es/whitepaper/oem-sup-manufacturing-guide': '/es/oem-odm-manufacturer',
+  // consolidated news articles fold into their successor guides
+  '/news/sup-oem-shipping-logistics': '/news/private-label-sup-oem-guide',
+  '/es/news/sup-oem-shipping-logistics': '/es/news/private-label-sup-oem-guide',
+  '/news/importing-sup-from-china-guide': '/news/private-label-sup-guide',
+  '/es/news/importing-sup-from-china-guide': '/es/news/private-label-sup-guide',
 }
 
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
-const GONE_PATHS = ['/waitlist', '/changelog', '/es/waitlist', '/es/changelog', '/zh/waitlist', '/zh/changelog']
+const GONE_PATHS = [
+  '/waitlist', '/changelog', '/es/waitlist', '/es/changelog', '/zh/waitlist', '/zh/changelog',
+  // RIB case study removed — SUPsfactory is SUP-only, RIBs are sold through afarer.com
+  '/evidence/case-studies/marine-professional-operations',
+  '/es/evidence/case-studies/marine-professional-operations',
+]
 
 export type EdgeGate =
   | { action: 'ok' }

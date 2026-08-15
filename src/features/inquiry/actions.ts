@@ -1,15 +1,16 @@
 import { createServerFn } from '@tanstack/react-start'
 import type { Inquiry } from './inquiry.schema'
+import type { InquiryTier } from './inquiry.shared'
 
 export type SubmitResult =
-  | { ok: true }
+  | { ok: true; tier: InquiryTier }
   | { ok: false; reason: 'invalid' | 'captcha' | 'rate-limited' | 'file' | 'failed' }
 
 /**
  * Public, unauthenticated endpoint: accepts the inquiry form as FormData
  * (fields + optional logo file). Validator hardens the fields; the handler
- * rate-limits per IP, verifies Turnstile, stores the logo in R2, persists the
- * inquiry to D1 and notifies the admin email list.
+ * rate-limits per IP, verifies Turnstile, stores the logo in R2, scores the
+ * lead (tier A/B/C), persists the inquiry to D1 and notifies the admin list.
  */
 export const submitInquiry = createServerFn({ method: 'POST' })
   .validator((d: FormData) => d)
@@ -19,7 +20,7 @@ export const submitInquiry = createServerFn({ method: 'POST' })
     const { getRequestHeader } = await import('@tanstack/react-start/server')
     const { fixedWindowLimit } = await import('@/features/waitlist/rate-limit')
     const { verifyTurnstile } = await import('@/features/waitlist/turnstile')
-    const { clampInquiryInput, isValidInquiry, checkLogoFile } = await import('./inquiry.shared')
+    const { clampInquiryInput, isValidInquiry, checkLogoFile, scoreInquiry } = await import('./inquiry.shared')
     const { putInquiryLogo } = await import('./inquiry.server')
     const { inquiry } = await import('./inquiry.schema')
     const { sendInquiryNotification } = await import('./notify')
@@ -34,7 +35,6 @@ export const submitInquiry = createServerFn({ method: 'POST' })
     }
 
     const input = clampInquiryInput({
-      name: data.get('name'),
       company: data.get('company'),
       website: data.get('website'),
       country: data.get('country'),
@@ -42,10 +42,21 @@ export const submitInquiry = createServerFn({ method: 'POST' })
       whatsapp: data.get('whatsapp'),
       businessType: data.get('businessType'),
       quantity: data.get('quantity'),
-      productType: data.get('productType'),
-      model: data.get('model'),
+      category: data.get('category'),
       timeline: data.get('timeline'),
       targetMarket: data.get('targetMarket'),
+      projectStage: data.get('projectStage'),
+      role: data.get('role'),
+      boardPlatform: data.get('boardPlatform'),
+      construction: data.get('construction'),
+      customization: data.get('customization'),
+      packaging: data.get('packaging'),
+      compliance: data.get('compliance'),
+      docs: data.get('docs'),
+      annualVolume: data.get('annualVolume'),
+      budget: data.get('budget'),
+      nda: data.get('nda'),
+      consent: data.get('consent'),
       requirements: data.get('requirements'),
     })
     const locale = data.get('locale') === 'es' ? 'es' : 'en'
@@ -65,6 +76,8 @@ export const submitInquiry = createServerFn({ method: 'POST' })
       if (!check.ok) return { ok: false, reason: 'file' }
     }
 
+    const { score, tier } = scoreInquiry(input, { hasFile: file instanceof File && file.size > 0 })
+
     const id = crypto.randomUUID()
     const now = new Date()
 
@@ -81,8 +94,12 @@ export const submitInquiry = createServerFn({ method: 'POST' })
 
     const row: Inquiry = {
       id,
+      name: input.company || 'inquiry',
+      model: 'unsure', // legacy column — kept for historical rows
       ...input,
       logoKey,
+      score,
+      tier,
       status: 'new',
       locale,
       createdAt: now,
@@ -110,10 +127,10 @@ export const submitInquiry = createServerFn({ method: 'POST' })
     // outage must not block the submission (dev transport captures locally).
     try {
       const { sendEmail } = await import('@/features/email/email.server')
-      await sendEmail({ to: input.email, locale: row.locale === 'es' ? 'es' : 'en', template: 'inquiry-ack', data: {} })
+      await sendEmail({ to: input.email, locale: row.locale === 'es' ? 'es' : 'en', template: 'inquiry-ack', data: { tier } })
     } catch (err) {
       console.error('[inquiry] ack email failed', err)
     }
 
-    return { ok: true }
+    return { ok: true, tier }
   })

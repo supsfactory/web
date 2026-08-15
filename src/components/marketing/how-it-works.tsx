@@ -1,4 +1,4 @@
-import { ArrowRight, PenTool } from 'lucide-react'
+import { ArrowRight, PenTool, FileText } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, works } from '@/features/site/content'
 import { SectionHead } from './section-head'
@@ -16,7 +16,13 @@ export function HowItWorks() {
     { label: t('sup.nav.manufacturingDropdown.changeControl'), href: '/factory/quality-change-control' },
     { label: t('sup.nav.manufacturingDropdown.nonConformingControl'), href: '/factory/non-conforming-control' },
     { label: t('sup.footer.factoryCapacity'), href: '/factory/capacity' },
+    { label: t('sup.nav.oemDropdown.trust'), href: '/oem-trust-assurance' },
     { label: t('sup.nav.caseStudiesDropdown.projects'), href: '/projects' },
+  ]
+
+  const pdfLinks = [
+    { label: t('sup.nav.oemDropdown.trustPdf'), href: '/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf' },
+    { label: t('sup.nav.oemDropdown.moqPdf'), href: '/downloads/flexible-branding-and-moq-guide.pdf' },
   ]
 
   return (
@@ -64,6 +70,22 @@ export function HowItWorks() {
                 className="marine-card inline-flex items-center gap-1.5 px-4 py-2.5 text-[13px] font-bold text-primary transition-colors hover:border-primary/40"
               >
                 {l.label} <ArrowRight size={14} />
+              </a>
+            ))}
+          </div>
+        </Reveal>
+
+        <Reveal className="mt-6">
+          <div className="mx-auto flex max-w-2xl flex-col items-center gap-2">
+            {pdfLinks.map((l) => (
+              <a
+                key={l.href}
+                href={l.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-[13px] font-bold text-fg-2 transition-colors hover:text-primary"
+              >
+                {l.label} <FileText size={14} />
               </a>
             ))}
           </div>

@@ -71,3 +71,15 @@ how_to_choose:
       description: Las tablas más largas (11–12 pies) son las mejores para recorrer distancias y navegar. Las más anchas (32"+ ) ofrecen más estabilidad. Comprueba la capacidad de peso para la carga total, incluido el equipo.
     - title: SUP polivalentes
       description: Elige el largo según el peso del rider y el uso previsto. Las tablas polivalentes sirven para recreo, fitness y yoga. Las más pequeñas son más maniobrables.
+
+cta:
+  title: 'Explora tablas por talla, o habla con un ingeniero'
+  subtitle: 'Compara modelos de travesía, polivalentes y de yoga en nuestra gama de productos — o envía tu mix de riders y te recomendaremos las tallas adecuadas para tu proyecto.'
+  actions:
+    - variant: primary
+      text: Ver productos SUP
+      href: /es/products
+    - text: Más conocimiento del paddling
+      href: /es/knowledge
+    - text: Cómo se fabrican las tablas
+      href: /es/factory/process

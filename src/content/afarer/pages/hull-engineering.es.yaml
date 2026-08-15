@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Las tablas SUP a medida se diseñan en nuestras instalaciones con modelado de superficies 3D en SolidWorks, análisis FEA con ANSYS y CFD: cada tabla se simula para la distribución de tensiones y la rigidez de la cubierta, con un factor de seguridad obligatorio ≥ 2.5 antes del prototipado. Una forma a medida tarda 15–20 días en llegar al prototipo; el utillaje completo de un molde personalizado añade 15–20 días al plazo de producción estándar de 30–45 días con un MOQ de 200 unidades.'
+  text: 'Las tablas SUP a medida se diseñan en nuestras instalaciones con modelado de superficies 3D en SolidWorks, análisis FEA con ANSYS y CFD: cada tabla se simula para la distribución de tensiones y la rigidez de la cubierta, con un factor de seguridad obligatorio ≥ 2.5 antes del prototipado. Una forma a medida tarda 7–12 días en llegar al prototipo; el utillaje completo de un molde personalizado añade 15–20 días al plazo de producción estándar de 25–35 días, con el MOQ confirmado por configuración del proyecto (consulta nuestra Guía de MOQ).'
   verified: '2026-08'
 
 intro: 'La forma de una tabla SUP — su rocker, el perfil del borde y el volumen de proa y de cola — determina cómo se rema, cómo gira y cómo mantiene la línea. En {SITE.name}, nuestro Estudio de Ingeniería de Tablas combina el modelado CAD de superficies, el análisis por elementos finitos (FEA) de estructuras drop-stitch y la experiencia de producción para entregar tablas optimizadas para cada tipo de uso: estabilidad versátil, deslizamiento de travesía o rendimiento de surf. Cada tabla a medida nace de tu especificación, no de una forma genérica de catálogo.'
@@ -86,5 +86,9 @@ content_html: |
 cta:
   title: 'Empieza tu consultoría de diseño de tabla'
   subtitle: 'Cuéntanos los riders a los que te diriges y los usos que tendrá tu tabla, y te propondremos la ruta de ingeniería.'
-  button_text: 'Contacta con nuestro equipo de ingeniería'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Contacta con nuestro equipo de ingeniería
+      href: /es/contact#project-brief
+    - text: Volver al centro de I+D
+      href: /es/randdcenter

@@ -74,3 +74,15 @@ body: |
 
   <h3>How much gear can I bring on an inflatable SUP?</h3>
   <p>Most inflatable SUPs support 220-300 lbs total capacity (rider plus gear). A typical fishing setup with tackle, cooler, and safety gear adds 20-40 lbs. Check the board's volume rating to ensure adequate capacity.</p>
+
+  <div class="not-prose my-10">
+    <div class="rounded-2xl border border-sky-200 bg-sky-50 p-6 text-center dark:border-sky-900 dark:bg-sky-950">
+      <h3 class="font-display text-lg font-bold">A fishing board built to your spec</h3>
+      <p class="mt-2 text-sm text-fg-2">Inspect how our boards are built, browse the fishing range, or send your requirements to engineering.</p>
+      <p class="mt-4 flex flex-wrap justify-center gap-3">
+        <a href="/products/fishing" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">Browse fishing boards</a>
+        <a href="/factory/process" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">How boards are built</a>
+        <a href="/knowledge" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">More paddling guides</a>
+      </p>
+    </div>
+  </div>

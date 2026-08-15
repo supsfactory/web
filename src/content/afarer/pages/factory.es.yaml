@@ -1,6 +1,6 @@
 meta:
   title: 'Fábrica y fabricación — OEM de SUP hinchables'
-  description: 'La fábrica de afarer: planta de 12.000 m² con corte, soldadura RF, impresión y laboratorio de calidad para fabricación OEM/ODM.'
+  description: 'La fábrica de afarer: planta de 12.500 m² con corte, soldadura RF, impresión y laboratorio de calidad para fabricación OEM/ODM.'
   dateModified: '2026-08-07'
   keywords:
     - 'fábrica sup china'
@@ -10,23 +10,23 @@ meta:
 hero:
   tagline: Fábrica
   title: Fábrica y fabricación
-  subtitle: 'Fábrica de SUP de 12.000 m² en Qingdao, China: fabricación personalizada de SUP desde la materia prima de PVC hasta el paddle board hinchable terminado.'
+  subtitle: 'Fábrica de SUP de 12.500 m² en Qingdao, China: fabricación personalizada de SUP desde la materia prima de PVC hasta el paddle board hinchable terminado.'
 
 answer:
   label: 'Respuesta directa'
-  text: 'Fábrica certificada de SUP hinchables en Qingdao, China: ISO 9001, BSCI, CE, REACH y RoHS. Planta de 12.000 m², más de 200 trabajadores y más de 15.000 tablas producidas al año. Cada tabla se prueba a presión al 1,25× de la presión nominal durante 48 horas, supera una lista de control de montaje de 100 puntos y conserva una trazabilidad de materiales de 10 años.'
+  text: 'Fábrica certificada de SUP hinchables en Qingdao, China: ISO 9001, ISO 25649, BSCI, CE, REACH y RoHS. Planta de 12.500 m² con 4 talleres especializados, más de 350 trabajadores y más de 120.000 tablas producidas al año (10.000 tablas/mes en 4 líneas automatizadas). Cada tabla se prueba a presión a 18,0 PSI durante 24 horas, supera una lista de control de montaje de 100 puntos y conserva una trazabilidad de materiales de 10 años.'
   verified: '2026-08'
 
 intro:
-  - Como marca fabril de **Qingdao Vatrad Group Co., Ltd.**, afarer controla cada etapa de la fabricación de SUP hinchables, desde la llegada de las materias primas de PVC hasta la inspección final previa a la entrega del paddle board terminado. Nuestra planta de fabricación en la Zona de Desarrollo Económico de Qingdao ocupa 12.000 metros cuadrados y alberga talleres dedicados al corte de PVC, la unión del núcleo drop-stitch, la impresión digital de SUP, el montaje final y los ensayos de calidad.
+  - Como marca fabril de **Qingdao Vatrad Group Co., Ltd.**, afarer controla cada etapa de la fabricación de SUP hinchables, desde la llegada de las materias primas de PVC hasta la inspección final previa a la entrega del paddle board terminado. Nuestra planta de fabricación en la Zona de Desarrollo Económico de Qingdao ocupa 12.500 metros cuadrados y alberga talleres dedicados al corte de PVC, la unión del núcleo drop-stitch, la impresión digital de SUP, el montaje final y los ensayos de calidad.
   - Al integrar diseño, ingeniería, creación de prototipos, fabricación y ensayos bajo un mismo techo, eliminamos las ineficiencias de la fabricación por contrato y mantenemos el control directo de la calidad de construcción, la selección de materiales y los plazos de entrega. Cada SUP que sale de nuestro taller está construido por nuestra gente, con nuestro equipo y según nuestros estándares.
 
 stats:
-  - value: 12,000 m2
+  - value: 12,500 m2
     label: Superficie de fabricación
-  - value: 200+
+  - value: 350+
     label: Trabajadores cualificados
-  - value: 15,000+
+  - value: 120,000+
     label: SUP producidos al año
   - value: ISO 9001
     label: Calidad certificada
@@ -38,34 +38,34 @@ intelligence_cards:
   - title: Capacidad de producción
     icon: C
     icon_bg: blue
-    desc: 'Instalación de 12.000 m² que produce más de 15.000 SUP/año en las líneas de tablas de SUP y equipos de seguridad. 200+ trabajadores, 2 turnos.'
+    desc: 'Instalación de 12.500 m² que produce más de 120.000 SUP/año en las líneas de tablas de SUP y equipos de seguridad. 350+ trabajadores, 2 turnos.'
     metrics:
       - label: MOQ
-        value: 'SUP: 5–10 prueba / 50 estándar / 200 molde'
+        value: 'SUP: muestra 1–2 / piloto 20–50 / volumen 90–100+'
       - label: Plazo de entrega
-        value: '30–45 días'
+        value: '25–35 días'
     link: /es/randdcenter
     link_label: Detalles completos de capacidad →
   - title: Laboratorio de calidad y ensayos
     icon: Q
     icon_bg: green
-    desc: 'Laboratorio de control de calidad independiente con 4 fases de ensayo: inspección de materias primas (tracción, desgarro, UV), retención de presión 48 h a 1,25× la presión nominal, ensayo de pelado de costuras y verificación de rigidez en cada tabla.'
+    desc: 'Laboratorio de control de calidad independiente con 4 fases de ensayo: inspección de materias primas (tracción, desgarro, UV), retención de presión 24 h a 18,0 PSI, ensayo de pelado de costuras y verificación de rigidez en cada tabla.'
     metrics:
       - label: Equipo de laboratorio
         value: 'Máquina de tracción, cámara térmica, tanque de fugas'
       - label: Estándares
         value: 'ISO 9001, CE, AS 1799'
-    link: /es/quality
+    link: /es/factory/quality-lab
     link_label: Procedimientos y equipo del laboratorio →
   - title: Capacidad OEM/ODM
     icon: O
     icon_bg: purple
-    desc: 'Servicios OEM/ODM integrales: diseño de moldes a medida, embalaje con etiqueta privada, colores personalizados, gráficos de cubierta (impresión digital y serigrafía) y logística de envío directo.'
+    desc: 'Servicios OEM/ODM integrales: diseño de moldes a medida, embalaje con etiqueta privada, colores personalizados, gráficos de cubierta (impresión digital y serigrafía) y embalaje listo para exportación.'
     metrics:
       - label: Certificaciones
         value: 'ISO 9001, BSCI, CE, REACH'
-      - label: Envíos
-        value: 'FOB, CIF, DDP a más de 50 países'
+      - label: Mercados de exportación
+        value: 'Más de 50 países'
     link: /es/oem-odm-manufacturer
     link_label: Servicios OEM completos →
   - title: Estándares de inspección de calidad
@@ -82,7 +82,7 @@ intelligence_cards:
   - title: Estándar de control de cambios de retrabajo
     icon: C
     icon_bg: blue
-    desc: 'Control de cambios formal según ISO 9001 para parámetros de retrabajo: ECR, clasificación de riesgos, matriz de aprobación interdepartamental, bucle cerrado de 9 pasos, validación de ingeniería cuantificada (15–18 PSI, retención 24–48 h, ΔP ≤ 0,2 PSI) y salvaguardas Poka-Yoke — con el SOP bilingüe QMS-SOP-QC-CC-001 Rev 2.0.'
+    desc: 'Control de cambios formal según ISO 9001 para parámetros de retrabajo: ECR, clasificación de riesgos, matriz de aprobación interdepartamental, bucle cerrado de 9 pasos, validación de ingeniería cuantificada (18,0 PSI, retención 24 h, ΔP ≤ 0,2 PSI) y salvaguardas Poka-Yoke — con el SOP bilingüe QMS-SOP-QC-CC-001 Rev 2.0.'
     metrics:
       - label: Documento
         value: 'QMS-SOP-QC-CC-001 Rev 2.0'
@@ -101,6 +101,17 @@ intelligence_cards:
         value: 'VAT-QA-SCRAP-CERT-2026'
     link: /es/factory/non-conforming-control
     link_label: 'Control de no conformes y descargas →'
+  - title: Flujo de control de calidad en 7 etapas
+    icon: Q
+    icon_bg: green
+    desc: 'El flujo completo de control de calidad del proyecto, puerta a puerta: planificación de calidad (PPM) → inspección de materiales entrantes → control en proceso y primera pieza → inflado y estanqueidad → inspección final → embalaje y PSI → liberación de envío y trazabilidad. Cada puerta muestra qué se comprueba, cómo se juzga y qué informe bilingüe se produce.'
+    metrics:
+      - label: Puertas
+        value: '01 → 07'
+      - label: Descargas
+        value: 'Dosieres de informes por puerta (PDF)'
+    link: /es/quality
+    link_label: 'Ver el flujo de 7 etapas →'
 
 workshops_section:
   tagline: Talleres
@@ -159,8 +170,8 @@ qc_section:
       title: Inspección de materias primas
       desc: Los tejidos de PVC, Hypalon y drop-stitch se someten a ensayos de tracción, propagación del desgarro y verificación de resistencia UV antes de que cualquier lote entre en producción.
     - step: '2'
-      title: Ensayo de retención de aire de 48 horas
-      desc: Cada cámara del tubo se infla al 125% de la presión nominal y se mantiene durante 48 horas. Una caída de presión superior al 5% provoca el rechazo automático y la reinspección de las costuras.
+      title: Ensayo de retención de aire de 24 horas
+      desc: Cada cámara del tubo se infla a 18,0 PSI y se mantiene durante 24 horas. Una caída de presión superior a 0,50 PSI provoca el rechazo automático y la reinspección de las costuras.
     - step: '3'
       title: Ensayo de carga y estabilidad
       desc: Las tablas terminadas se inflan a la presión nominal y se comprueban en cuanto a hinchado simétrico, rigidez a 15 PSI y estabilidad bajo carga. Cada tabla se prueba en el agua en nuestra piscina de ensayos antes de la inspección final.
@@ -168,11 +179,11 @@ qc_section:
 oem_section:
   tagline: Proyectos OEM
   title: Casos de éxito de marcas y asociaciones OEM
-  subtitle: 'Del concepto al contenedor: cómo ayudamos a marcas globales a lanzar y escalar sus líneas de SUP hinchables.'
+  subtitle: 'Del concepto a la producción: cómo ayudamos a marcas globales a lanzar y escalar sus líneas de SUP hinchables.'
   cases:
     - challenge: Un minorista europeo de outdoor necesitaba una línea de SUP de etiqueta privada con gráficos de cubierta únicos, PVC ecológico y embalaje listo para el comercio minorista, todo entregado en 60 días.
       solution: Desarrollamos archivos de impresión digital personalizados, conseguimos PVC conforme a REACH y redujimos las muestras de 3 rondas a 1 al ubicar al equipo de diseño en nuestra fábrica de Qingdao.
-      result: 55 días desde la orden de compra firmada hasta FOB. 2.400 unidades en 4 SKU. Pedido repetido antes de que llegara el primer contenedor.
+      result: 55 días desde la orden de compra firmada hasta la primera entrega. 2.400 unidades en 4 SKU. Pedido repetido antes de completarse la primera tirada.
     - challenge: Una startup estadounidense de deportes acuáticos necesitaba un SUP drop-stitch de alto rendimiento con forma personalizada, embalaje co-marcado y certificación BSCI para su colocación en el comercio minorista.
       solution: Adaptamos el molde SUP existente con un contorno modificado, desarrollamos el arte del embalaje co-marcado y proporcionamos documentación completa de la auditoría BSCI.
       result: Listado con éxito en 3 grandes cadenas estadounidenses de outdoor. Más de 5.000 unidades en el primer año con una tasa de ventas del 98%.
@@ -185,15 +196,15 @@ faq_section:
   title: Preguntas frecuentes B2B y OEM
   questions:
     - q: ¿Cuál es la cantidad mínima de pedido (MOQ) para tablas SUP hinchables OEM?
-      a: 'El MOQ se estructura por tramos: 5–10 unidades para pedidos de prueba estándar, 50 unidades por diseño para un lote OEM estándar y 200 unidades para proyectos de molde personalizado o etiqueta privada según la complejidad. Hay pedidos de prueba y series de muestras disponibles para los lanzamientos de nuevas marcas.'
+      a: 'El MOQ se confirma según la configuración del proyecto, no con un número fijo — casco y utillaje, colores y PVC, arte, empaque y accesorios. La producción de volumen estándar corre en lotes de 90–100+ unidades por rollo completo de drop-stitch de 150 m, el co-branding de lotes pequeños parte de menos de 20 unidades, y cada proyecto pasa por las etapas de muestra (1–2 unidades) y piloto (20–50 unidades). Consulta nuestra Guía de MOQ y Branding Flexible para la lógica de cálculo completa.'
     - q: ¿Mantiene afarer la certificación BSCI?
-      a: Sí. Nuestra fábrica mantiene una certificación válida de cumplimiento social BSCI (informe de auditoría disponible bajo petición). También tenemos ISO 9001 para gestión de calidad. Los modelos estándar llevan el marcado CE según la Directiva 2013/53/UE, y los modelos personalizados pueden certificarse CE mediante nuestro proceso establecido. La documentación de cumplimiento REACH y RoHS se entrega con cada envío OEM.
+      a: Sí. Nuestra fábrica mantiene una certificación válida de cumplimiento social BSCI (informe de auditoría disponible bajo petición). También tenemos ISO 9001 para gestión de calidad. Los modelos estándar llevan el marcado CE según la Directiva 2013/53/UE, y los modelos personalizados pueden certificarse CE mediante nuestro proceso establecido. La documentación de cumplimiento REACH y RoHS se entrega con cada pedido OEM.
     - q: ¿Cuál es el plazo de entrega típico de un pedido OEM?
-      a: El plazo estándar es de 30–45 días desde la confirmación del pedido y el depósito para la producción OEM en volumen. El desarrollo de moldes personalizados añade 15–20 días para el utillaje. Hay producción acelerada disponible para pedidos urgentes y picos de temporada. Las muestras de prototipo suelen enviarse en 15–20 días.
-    - q: ¿Pueden enviar FOB Qingdao o CIF a nuestro puerto?
-      a: Sí. Enviamos FOB Qingdao, CIF a los principales puertos mundiales y DDP para socios cualificados. Nuestro equipo de logística gestiona la reserva de contenedores, la documentación de exportación y el despacho de aduanas. Enviamos a más de 50 países en los mercados de la UE, EE. UU., Australia y Asia.
+      a: El plazo estándar es de 25–35 días desde la confirmación del pedido y el depósito para la producción OEM en volumen. El desarrollo de moldes personalizados añade 15–20 días para el utillaje. Hay producción acelerada disponible para pedidos urgentes y picos de temporada. Las muestras de prototipo suelen estar listas en 7–12 días.
+    - q: ¿Gestionáis la documentación de exportación?
+      a: Sí. Nuestro equipo gestiona internamente la documentación de exportación y el despacho de aduanas, y suministramos a más de 50 países en los mercados de la UE, EE. UU., Australia y Asia.
 
-b2b_moq: 'MOQ por tramos: 5–10 unidades de prueba, 50 unidades por diseño en lote OEM estándar, 200 unidades para molde personalizado / etiqueta privada.'
+b2b_moq: 'MOQ confirmado por configuración del proyecto: muestra 1–2, piloto 20–50, volumen 90–100+ (por rollo de 150 m); co-branding de lotes pequeños desde menos de 20 unidades.'
 
 production_flow:
   tagline: Flujo de producción
@@ -226,9 +237,9 @@ production_flow:
       responsibility: Responsable del equipo de montaje + control de calidad de línea
     - stage: '05'
       title: Ensayo de presión y retención de calidad
-      description: Cada cámara se infla a 1,25× la presión nominal (unos 19 PSI para un SUP de 12–15 PSI) y se mantiene durante 48 horas. Los sensores de presión registran de forma continua. Las cámaras que superan una caída de presión del 5% se rechazan y se envían para reinspección de costuras.
-      qc_check: 'Registro de retención de presión de 48 h, verificación diaria de la calibración del sensor, lectura de presión compensada por temperatura, reensayo de costuras tras la reparación'
-      qc_threshold: 'Máximo 5% de caída de presión en 48 h a temperatura estable. Cualquier cámara que lo supere = reensayo del 100% de todo el lote de producción'
+      description: Cada cámara se infla a 18,0 PSI (para un SUP de 12–15 PSI) y se mantiene durante 24 horas. Los sensores de presión registran de forma continua. Las cámaras que superan una caída de presión de 0,50 PSI se rechazan y se envían para reinspección de costuras.
+      qc_check: 'Registro de retención de presión de 24 h, verificación diaria de la calibración del sensor, lectura de presión compensada por temperatura, reensayo de costuras tras la reparación'
+      qc_threshold: 'Máximo 0,50 PSI de caída de presión en 24 h a temperatura estable. Cualquier cámara que lo supere = reensayo del 100% de todo el lote de producción'
       responsibility: Laboratorio de calidad (independiente de la producción, informa a la dirección)
     - stage: '06'
       title: Inspección final y embalaje
@@ -301,14 +312,14 @@ qc_dashboard:
       detail: Cada tabla, cada cámara, cada lote
     - value: '<5%'
       label: Caída de presión máxima permitida
-      detail: En 48 h a 1,25× la presión nominal
+      detail: En 24 h a 18,0 PSI
     - value: AQL 2.5
       label: Umbral de defectos mayores
       detail: Según la norma de muestreo ISO 2859
-    - value: 48h
+    - value: 24h
       label: Duración de la retención de presión
       detail: Cada tabla, cada cámara
-    - value: 1.25×
+    - value: 18 PSI
       label: Presión de ensayo frente a nominal
       detail: Margen de seguridad en cada cámara
     - value: 0%

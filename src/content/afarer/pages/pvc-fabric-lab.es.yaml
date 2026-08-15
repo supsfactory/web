@@ -103,5 +103,9 @@ content_html: |
 cta:
   title: '¿Necesitas una especificación de tejido a medida?'
   subtitle: 'Contacta con nuestro equipo de ingeniería de materiales para hablar de tus requisitos.'
-  button_text: 'Contacta con nuestro equipo de laboratorio'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Contacta con nuestro equipo de laboratorio
+      href: /es/contact#project-brief
+    - text: Volver al centro de I+D
+      href: /es/randdcenter

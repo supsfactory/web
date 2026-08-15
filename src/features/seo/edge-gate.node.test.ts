@@ -126,6 +126,23 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/es/resources/download-catalog')).toEqual({ action: 'redirect', to: '/es/products' })
   expect(gatePath('/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
   expect(gatePath('/es/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/es/oem-odm-manufacturer' })
+  // consolidated news articles 301 to their successor guides
+  expect(gatePath('/news/sup-oem-shipping-logistics')).toEqual({
+    action: 'redirect',
+    to: '/news/private-label-sup-oem-guide',
+  })
+  expect(gatePath('/es/news/sup-oem-shipping-logistics')).toEqual({
+    action: 'redirect',
+    to: '/es/news/private-label-sup-oem-guide',
+  })
+  expect(gatePath('/news/importing-sup-from-china-guide')).toEqual({
+    action: 'redirect',
+    to: '/news/private-label-sup-guide',
+  })
+  expect(gatePath('/es/news/importing-sup-from-china-guide')).toEqual({
+    action: 'redirect',
+    to: '/es/news/private-label-sup-guide',
+  })
   expect(gatePath('/touring-sup')).toEqual({ action: 'redirect', to: '/products' })
   // /search is now a live search results page (not a legacy redirect)
   expect(gatePath('/search')).toEqual({ action: 'ok' })
@@ -207,6 +224,9 @@ test('410 for removed template pages (P0-2)', () => {
   expect(gatePath('/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/es/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/zh/changelog')).toEqual({ action: 'gone' })
+  // RIB case study removed (SUPsfactory is SUP-only)
+  expect(gatePath('/evidence/case-studies/marine-professional-operations')).toEqual({ action: 'gone' })
+  expect(gatePath('/es/evidence/case-studies/marine-professional-operations')).toEqual({ action: 'gone' })
   // '/docs/' is normalised to '/docs' first (301), then 410 on the next hop
   expect(gatePath('/docs/')).toEqual({ action: 'slash', to: '/docs' })
 })

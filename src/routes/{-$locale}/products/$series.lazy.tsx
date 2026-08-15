@@ -3,12 +3,14 @@ import { ArrowRight, CheckCircle2, Package } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, products, productsPage } from '@/features/site/content'
 import { seriesPages } from '@/features/site/series-pages'
+import { procurementProfiles, commercialRows } from '@/features/site/procurement'
 import { FACTS } from '@/features/site/facts'
 import { JsonLd, breadcrumbLd, faqLd, itemListLd } from '@/features/seo/jsonld'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero } from '@/components/marketing/section-head'
 import { Footer } from '@/components/marketing/footer'
 import { CtaBand } from '@/components/marketing/cta'
+import { InquiryForm } from '@/features/inquiry/components/inquiry-form'
 import { ProductView } from '@/features/content/catchall'
 
 const rootRoute = getRouteApi('__root__')
@@ -17,8 +19,8 @@ export const Route = createLazyFileRoute('/{-$locale}/products/$series')({ compo
 
 function SeriesPage() {
   const { theme, user } = rootRoute.useLoaderData()
-  const { locale } = useTranslation()
-  const { origin, page, product } = Route.useLoaderData()
+  const { locale, t } = useTranslation()
+  const { origin, turnstileSiteKey, page, product } = Route.useLoaderData()
   const es = locale === 'es'
 
   if (product) {
@@ -37,6 +39,18 @@ function SeriesPage() {
   const items = pick(products, locale).items.filter((p) => p.series === page.slug)
   const c = pick(productsPage, locale)
   const others = seriesPages[locale].filter((s) => s.slug !== page.slug)
+  const profile = procurementProfiles[locale][page.slug]
+  const snap = profile
+    ? [
+        { label: t('sup.procurement.bestFor'), value: profile.bestFor },
+        { label: t('sup.procurement.sizes'), value: profile.sizes },
+        { label: t('sup.procurement.construction'), value: profile.construction },
+        { label: t('sup.procurement.customization'), value: profile.customization },
+        { label: t('sup.procurement.moq'), value: profile.moq },
+        { label: t('sup.procurement.leadTime'), value: profile.leadTime },
+      ]
+    : []
+  const first = items[0]
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -48,13 +62,27 @@ function SeriesPage() {
           <p className="text-[15px] leading-relaxed text-fg-2">{page.intro[1]}</p>
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-3">
+        {profile && (
+          <div>
+            <h2 className="text-[11.5px] font-bold uppercase tracking-[0.14em] text-primary">{t('sup.procurement.snapshotTitle')}</h2>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {snap.map((s) => (
+                <div key={s.label} className="marine-card p-4">
+                  <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{s.label}</p>
+                  <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">{s.value}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div className="mt-10 grid gap-4 sm:grid-cols-3">
           <div className="marine-card p-4">
             <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{es ? 'Pedido mínimo' : 'Minimum order'}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
               {es
-                ? `${FACTS.moq.standardRun} lote OEM estándar · ${FACTS.moq.trialStandard} prueba · ${FACTS.moq.customMould} molde a medida`
-                : `${FACTS.moq.standardRun} standard OEM batch · ${FACTS.moq.trialStandard} trial · ${FACTS.moq.customMould} custom mould`}
+                ? `${FACTS.moq.standardRun} volumen estándar · ${FACTS.moq.trialStandard} piloto · ${FACTS.moq.customMould} molde a medida`
+                : `${FACTS.moq.standardRun} standard volume · ${FACTS.moq.trialStandard} pilot · ${FACTS.moq.customMould} custom mould`}
             </p>
           </div>
           <div className="marine-card p-4">
@@ -73,6 +101,61 @@ function SeriesPage() {
           </div>
         </div>
 
+        {profile && (
+          <div className="mt-16">
+            <h2 className="font-display text-2xl font-extrabold tracking-tight">{t('sup.procurement.title')}</h2>
+            <div className="mt-6 grid gap-6 lg:grid-cols-2">
+              <div className="rounded-3xl border border-border bg-bg-alt/50 p-7">
+                <h3 className="font-display text-lg font-bold tracking-tight">{t('sup.procurement.baseSpecsTitle')}</h3>
+                <table className="mt-4 w-full border-collapse text-[13.5px]">
+                  <tbody>
+                    {profile.specRows.map((row) => (
+                      <tr key={row.label} className="border-b border-border/60 last:border-0">
+                        <td className="py-2 pr-4 align-top font-bold text-fg-3">{row.label}</td>
+                        <td className="py-2 align-top text-fg-2">{row.value}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                <p className="mt-4 text-[13px] leading-relaxed text-fg-2">
+                  {t('sup.procurement.constructionBody')}
+                </p>
+              </div>
+              <div className="flex flex-col gap-6">
+                <div className="rounded-3xl border border-border bg-bg-alt/50 p-7">
+                  <h3 className="font-display text-lg font-bold tracking-tight">{t('sup.procurement.commercialTitle')}</h3>
+                  <table className="mt-4 w-full border-collapse text-[13.5px]">
+                    <tbody>
+                      {commercialRows[locale].map((row) => (
+                        <tr key={row.label} className="border-b border-border/60 last:border-0">
+                          <td className="py-2 pr-4 align-top font-bold text-fg-3">{row.label}</td>
+                          <td className="py-2 align-top text-fg-2">{row.value}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                {profile.keyQuestions.length > 0 && (
+                  <div className="rounded-3xl border border-border bg-bg-alt/50 p-7">
+                    <h3 className="font-display text-lg font-bold tracking-tight">{t('sup.procurement.keyQuestionsTitle')}</h3>
+                    <ul className="mt-3 flex flex-col gap-2">
+                      {profile.keyQuestions.map((q) => (
+                        <li key={q} className="flex items-center gap-2.5 text-[13.5px] font-medium text-fg-2">
+                          <CheckCircle2 size={15} className="shrink-0 text-primary" /> {q}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            </div>
+            <div className="mt-6 rounded-3xl border border-border bg-bg-alt/50 p-7">
+              <h3 className="font-display text-lg font-bold tracking-tight">{t('sup.procurement.docsTitle')}</h3>
+              <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{t('sup.procurement.docsBody')}</p>
+            </div>
+          </div>
+        )}
+
         <div className="mt-12">
           <h2 className="font-display text-2xl font-extrabold tracking-tight">
             {es ? `${page.navLabel} — modelos` : `${page.navLabel} — Models`}
@@ -88,6 +171,11 @@ function SeriesPage() {
                   </div>
                   <p className="mt-1.5 text-[13px] leading-relaxed text-fg-2">{p.tagline}</p>
                   <p className="mt-2 text-[12.5px] font-medium text-fg-3">{p.specs}</p>
+                  <p className="mt-1.5 text-[12px] font-semibold text-primary">
+                    {es
+                      ? `MOQ ${FACTS.moq.standardRun} · piloto desde ${FACTS.moq.trialStandard}`
+                      : `MOQ ${FACTS.moq.standardRun} · pilot from ${FACTS.moq.trialStandard}`}
+                  </p>
                 </div>
                 <p className="mt-auto flex items-center gap-1.5 text-[13.5px] font-bold text-primary group-hover:underline">
                   {es ? 'Ver plataforma' : 'View platform'} <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
@@ -127,15 +215,29 @@ function SeriesPage() {
             {es ? '¿Listo para fabricar esta serie bajo tu marca?' : 'Ready to manufacture this series under your brand?'}
           </p>
           <h2 className="mt-3 font-display text-2xl font-extrabold tracking-tight md:text-3xl">
-            {es ? 'Empieza con tu plataforma de partida' : 'Start With Your Platform Of Choice'}
+            {t('sup.procurement.cta')}
           </h2>
+          <p className="mx-auto mt-3 max-w-xl text-[13.5px] leading-relaxed text-fg-2">{t('sup.procurement.ctaSub')}</p>
           <a
-            href={fl(`/contact?product=${encodeURIComponent(items[0]?.slug ?? page.slug)}`)}
+            href={fl(`/contact?product=${encodeURIComponent(items[0]?.slug ?? page.slug)}&category=${page.slug}`)}
             className="sun-grad mt-7 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
           >
-            {es ? 'Inicia tu proyecto' : 'Start a Custom SUP Project'} <ArrowRight size={17} />
+            {t('sup.procurement.cta')} <ArrowRight size={17} />
           </a>
         </div>
+
+        {profile && turnstileSiteKey && (
+          <div id="rfq" className="mx-auto mt-16 max-w-3xl">
+            <h2 className="text-center font-display text-2xl font-extrabold tracking-tight">{t('sup.contact.formTitle')}</h2>
+            <p className="mx-auto mt-3 max-w-xl text-center text-[13.5px] leading-relaxed text-fg-2">{t('sup.contact.formSubtitle')}</p>
+            <div className="marine-card mt-6 p-6 md:p-8">
+              <InquiryForm
+                turnstileSiteKey={turnstileSiteKey}
+                prefill={{ name: first?.name, sku: first?.sku, category: page.slug }}
+              />
+            </div>
+          </div>
+        )}
 
         {others.length > 0 && (
           <div className="mt-10 flex flex-wrap items-center gap-2">

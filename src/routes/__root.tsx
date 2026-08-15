@@ -18,13 +18,13 @@ export const Route = createRootRoute({
       {
         name: 'description',
         content:
-          'Create your own SUP brand without building your own factory. Custom SUP manufacturing for startups, clubs, resorts and businesses — low MOQ from 50pcs, full customization and design support.',
+          'Create your own SUP brand without building your own factory. Custom SUP manufacturing for startups, clubs, resorts and businesses — low MOQ — pilot runs from 20–50pcs — plus full customization and design support.',
       },
       { property: 'og:title', content: 'SUPsfactory — Launch Your Own SUP Brand' },
       {
         property: 'og:description',
         content:
-          'Custom SUP manufacturing with low MOQ from 50pcs, full customization and professional design support. For startups, clubs, resorts and businesses.',
+          'Custom SUP manufacturing with low MOQ (pilot runs from 20–50pcs), full customization and professional design support. For startups, clubs, resorts and businesses.',
       },
       { property: 'og:type', content: 'website' },
     ],

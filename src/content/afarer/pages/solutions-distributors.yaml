@@ -128,5 +128,5 @@ cta:
       href: '/contact?partner=distributor'
       variant: 'primary'
     - text: 'Download Distributor Kit'
-      href: '/resources/download-catalog'
+      href: '/products'
       variant: 'secondary'

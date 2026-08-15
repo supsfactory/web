@@ -36,7 +36,7 @@ stats:
       label: Steps from identify to corrective action
     - value: '100%'
       label: Re-inspection of every reworked board by independent QA
-    - value: '24–48h'
+    - value: '24h'
       label: Complete pressure re-test for air-tightness repairs
     - value: '≥ 5 yr'
       label: Witnessed destruction evidence retention (SHA-256 vault)
@@ -68,7 +68,7 @@ nc_flow:
       desc: 'Permitted rework follows approved instructions that identify the affected item, method, materials, inspection points and re-inspection requirements. Unapproved changes to the product specification, artwork, accessory configuration or packaging are never allowed. Replacement items re-enter the applicable inspection gates.'
     - step: '05'
       title: Re-Inspection
-      desc: 'Reworked or corrected items are re-inspected against the applicable acceptance criteria. The original failed characteristic and any related characteristics potentially affected by rework are verified before release — by independent QC, and with a complete new 24–48h pressure test cycle for air-tightness repairs.'
+      desc: 'Reworked or corrected items are re-inspected against the applicable acceptance criteria. The original failed characteristic and any related characteristics potentially affected by rework are verified before release — by independent QC, and with a complete new 24h pressure test cycle for air-tightness repairs.'
     - step: '06'
       title: Release or Reject
       desc: 'Product is released only after the required re-inspection is completed and authorized quality personnel confirm conformity with the applicable project requirements. Items that cannot be brought into conformity are rejected, replaced, returned or dispositioned under controlled procedures — including witnessed physical destruction.'
@@ -88,7 +88,7 @@ nc_pillars:
     - icon: 2
       icon_bg: green
       title: Independent Re-Inspection
-      desc: 'Reworked boards undergo 100% re-inspection by QA inspectors against the original acceptance criteria. Air-tightness repairs require a brand-new, complete 24–48h pressure test cycle — never a partial re-check.'
+      desc: 'Reworked boards undergo 100% re-inspection by QA inspectors against the original acceptance criteria. Air-tightness repairs require a brand-new, complete 24h pressure test cycle — never a partial re-check.'
     - icon: 3
       icon_bg: purple
       title: Authorized Sign-off & Traceability
@@ -149,7 +149,7 @@ nc_matrix:
       validation: 'Submerge in bubble solution; re-inflate to 18 PSI for a full 24h pressure-drop re-test (ΔP ≤ 0.05 PSI).'
     - defect: 'Rail Seam Air Bubbles'
       protocol: 'Quarantine the shift lot. Delaminate the bubble zone with a heat-assist nozzle, solvent-clean the surface, apply two-component PU adhesive under 5 bar pressure.'
-      validation: '100% seam visual and tactile inspection; structural proof pressure test (1.25x working PSI) plus 48h air-tightness hold.'
+      validation: '100% seam visual and tactile inspection; structural proof pressure test (18.0 PSI) plus 24h air-tightness hold.'
     - defect: 'EVA Pad Misalignment'
       protocol: 'Heat-assist peel with a temperature-regulated tool (80°C). Re-align using a precision acrylic positioning jig.'
       validation: 'Clearance tolerance verification (≤ ±1.5 mm), diamond pattern symmetry check, 100% edge bonding adhesion test.'
@@ -211,7 +211,7 @@ faqs:
   title: Quality & Defect Control FAQ for Global Buyers
   items:
     - q: 'How do you guarantee reworked boards meet full safety standards?'
-      a: 'Any reworked board is treated as a new unit and must complete the exact same full test cycle from zero — for air-tightness repairs, a complete 24–48h pressure test. Independent QC inspectors, not the rework operators, perform the release validation.'
+      a: 'Any reworked board is treated as a new unit and must complete the exact same full test cycle from zero — for air-tightness repairs, a complete 24h pressure test. Independent QC inspectors, not the rework operators, perform the release validation.'
     - q: 'Will the factory ship boards with minor cosmetic deviations without telling us?'
       a: 'Never. Any deviation affecting customer-approved golden samples, logo artwork, colorways or packaging requires a formal written Concession Agreement signed by the client before shipment release.'
     - q: 'What happens if a reworked board fails re-inspection?'

@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Cantidad mínima de pedido: 5–10 unidades para un pedido de prueba estándar, 50 unidades por diseño para un lote OEM estándar y 200 unidades para proyectos de molde a medida o etiqueta privada. Las muestras se envían en 15–20 días; la producción tarda 30–45 días tras el PO y el depósito, más 15–20 días si se requiere utillaje nuevo.'
+  text: 'Las cantidades mínimas de pedido se confirman según la configuración del proyecto, no con un número fijo: la producción de volumen estándar corre en lotes de 90–100 unidades por rollo de tela drop-stitch de 150 m, el co-branding de lotes pequeños parte de menos de 20 unidades, y cada proyecto pasa por las etapas de muestra (1–2 unidades) y piloto (20–50 unidades) antes del volumen. Consulta nuestra Guía de MOQ y Branding Flexible para la lógica de cálculo completa. Las muestras se envían en 7–12 días; la producción tarda 25–35 días tras el PO y el depósito, más 15–20 días si se requiere utillaje nuevo.'
   verified: '2026-08'
 
 features:
@@ -30,10 +30,10 @@ features:
       description: 'Tu logo, colores y embalaje en tablas probadas de grado comercial, producidas en nuestra propia planta y nunca revendidas bajo nuestro nombre.'
       icon: 'tabler:tag'
     - title: Muestras y prototipos
-      description: 'Muestras físicas fabricadas y aprobadas antes de la producción en serie, con un servicio de muestras de 15–20 días.'
+      description: 'Muestras físicas fabricadas y aprobadas antes de la producción en serie, con un servicio de muestras de 7–12 días.'
       icon: 'tabler:tools'
     - title: Producción a escala de contenedor
-      description: 'Lotes OEM estándar desde 50 unidades por diseño, series a escala de contenedor y entrega en 30–45 días tras el pedido confirmado.'
+      description: 'Lotes de volumen estándar de 90–100 unidades por diseño (un rollo completo de tela de 150 m), pedidos piloto desde 20–50 uds. sobre plataformas existentes, envíos a escala de contenedor y entrega en 25–35 días tras el pedido confirmado.'
       icon: 'tabler:package'
     - title: Certificación CE
       description: 'CE, ISO 9001, BSCI, REACH y RoHS — documentación completa de cumplimiento y seguridad para cada mercado al que entregas.'
@@ -67,13 +67,13 @@ faq_section:
     - q: ¿Cuál es la diferencia entre OEM y ODM?
       a: 'OEM (fabricación con equipo original) fabrica una tabla según tu especificación: tu forma, arte, materiales y empaque, sobre plataformas existentes o un molde nuevo a medida. ODM (fabricación con diseño original) parte de una plataforma probada que ya diseñamos e ingeniamos, y tú la adaptas con tu marca, colores, arte y accesorios. En la práctica ambas rutas comparten la misma planta, el mismo sistema de QC y el mismo equipo de exportación: OEM cuando tú eres dueño del diseño; ODM cuando quieres la vía más rápida y de menor riesgo hacia una tabla con tu marca, sin desarrollar diseño propio.'
     - q: '¿Qué enfoque encaja con mi proyecto: OEM u ODM?'
-      a: 'Elige OEM cuando tengas tu propia especificación, planos o una idea de producto diferenciada y quieras fabricarla tal cual. Elige ODM cuando quieras una línea con tu marca partiendo de una plataforma existente y probada en mercado, con cambios solo de logo, color y empaque: ODM evita el desarrollo de molde, parte de 50 uds. y envía muestras en 15–20 días.'
+      a: 'Elige OEM cuando tengas tu propia especificación, planos o una idea de producto diferenciada y quieras fabricarla tal cual. Elige ODM cuando quieras una línea con tu marca partiendo de una plataforma existente y probada en mercado, con cambios solo de logo, color y empaque: ODM evita el desarrollo de molde, puede partir de un piloto de 20–50 uds. y envía muestras en 7–12 días.'
     - q: ¿Cuál es el MOQ para SUP hinchable OEM?
-      a: 'El MOQ es por tramos: 5–10 unidades para un pedido de prueba, 50 unidades por diseño para un lote OEM estándar, y 200 unidades para proyectos con molde a medida o etiqueta privada.'
+      a: 'El MOQ se confirma según la configuración del proyecto: casco y utillaje, colores y PVC, arte, empaque y accesorios. La producción de volumen estándar corre en lotes de 90–100 unidades (un rollo de drop-stitch de 150 m), mientras que el co-branding de lotes pequeños parte de menos de 20 unidades con tarifas de serigrafía transparentes. Lee la lógica de cálculo completa en nuestra Guía de MOQ y Branding Flexible.'
     - q: ¿Cuál es el plazo de entrega de un pedido OEM?
-      a: 'La producción se entrega en 30–45 días desde el pedido confirmado y el depósito. El diseño del molde añade 15–20 días adicionales. Las muestras suelen enviarse en 15–20 días.'
+      a: 'La producción se entrega en 25–35 días desde el pedido confirmado y el depósito. El diseño del molde añade 15–20 días adicionales. Las muestras suelen enviarse en 7–12 días.'
     - q: ¿Ofrecen muestras antes de la producción?
-      a: 'Sí. Se fabrica una muestra física y se aprueba antes de cualquier producción en serie, normalmente dentro de 15–20 días.'
+      a: 'Sí. Se fabrica una muestra física y se aprueba antes de cualquier producción en serie, normalmente dentro de 7–12 días.'
     - q: ¿Qué certificaciones tiene la fábrica?
       a: 'CE, ISO 9001, BSCI, REACH y RoHS. Se entrega la documentación completa de cumplimiento con cada envío OEM.'
     - q: ¿Cuáles son sus condiciones de envío?
@@ -97,10 +97,10 @@ process:
         - 'Tu marca, arte y embalaje se desarrollan alrededor de la tabla — el utillaje del molde a medida empieza aquí.'
     - phase: '03'
       title: Prototipo y muestra
-      period: 15–20 días
+      period: 7–12 días
       items:
         - 'Se fabrica una muestra física y se envía para tu revisión — con pruebas de navegación para formas nuevas.'
-        - 'Los pedidos de prueba estándar empiezan desde 5–10 unidades, para validar antes de comprometer volumen.'
+        - 'El desarrollo de muestras (1–2 unidades) valida forma y branding antes de comprometer cualquier volumen.'
     - phase: '04'
       title: Pruebas y validación
       period: En paralelo
@@ -115,10 +115,10 @@ process:
         - 'Un plan de preproducción confirma fechas, cantidades, embalaje y puerto de carga.'
     - phase: '06'
       title: Producción
-      period: 30–45 días
+      period: 25–35 días
       items:
         - 'La producción corre bajo control de calidad multipunto — material entrante, proceso e inspección final.'
-        - 'Desde 50 unidades por diseño en lotes OEM estándar hasta series a escala de contenedor.'
+        - 'Desde pedidos piloto (20–50 unidades) sobre plataformas existentes hasta lotes completos de rollo de 150 m (90–100+ unidades) para producción de volumen estándar.'
     - phase: '07'
       title: Embalaje y envío
       period: 1 día + tránsito
@@ -139,3 +139,13 @@ geo:
 cta:
   title: '¿Listo para lanzar tu línea de SUP?'
   subtitle: 'Recibe una cotización OEM detallada en un día laborable.'
+  actions:
+    - variant: primary
+      text: Solicitar una cotización OEM
+      href: /es/contact#custom-oem
+    - text: Verifica la fábrica y el sistema de calidad
+      href: /es/oem-trust-assurance
+    - text: El sistema de inspección de 7 etapas
+      href: /es/quality
+    - text: Guía de MOQ y branding flexible
+      href: /es/oem-moq-guide

@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'SUP product development at SUPsfactory runs six stages — product specification, structural engineering, prototype sampling, testing and validation, custom tooling, and mass production. The first physical sample ships 15–20 days after specification approval; production runs 30–45 days after confirmed PO and deposit; new mould development adds 15–20 days.'
+  text: 'SUP product development at SUPsfactory runs six stages — product specification, structural engineering, prototype sampling, testing and validation, custom tooling, and mass production. The first physical sample ships 7–12 days after specification approval; production runs 25–35 days after confirmed PO and deposit; new mould development adds 15–20 days.'
   verified: '2026-08'
 
 stages:
@@ -30,13 +30,13 @@ stages:
       description: 'Structural engineering, drop-stitch thickness and PVC grade selection, plus a manufacturability review and quotation — returned within one business day.'
       icon: 'tabler:blueprint'
     - title: '3. Prototype Sampling'
-      description: 'Your first physical sample ships in 15–20 days, documented with an approval sheet covering construction, print colors and pressure-test results.'
+      description: 'Your first physical sample ships in 7–12 days, documented with an approval sheet covering construction, print colors and pressure-test results.'
       icon: 'tabler:tools'
     - title: '4. Testing & Validation'
       description: 'Pressure hold, seam strength and dimensional checks against the approved sample, with CE and REACH documentation prepared for your target markets.'
       icon: 'tabler:test-pipe'
     - title: '5. Tooling & Mass Production'
-      description: 'Custom mould development in 15–20 days when needed; production runs 30–45 days with in-process QC checkpoints and batch traceability.'
+      description: 'Custom mould development in 7–12 days when needed; production runs 25–35 days with in-process QC checkpoints and batch traceability.'
       icon: 'tabler:settings'
     - title: '6. Delivery & Scale'
       description: 'FOB, CIF or DDP logistics to 50+ countries — then repeat orders on your established line with stable lead times and approved artwork on file.'
@@ -71,20 +71,20 @@ buyer_guides:
       body: 'The audit questions that separate a real factory from a trader: certifications, QC, samples and ownership.'
       href: '/news/how-to-choose-sup-oem-manufacturer'
     - title: 'SUP Product Development Timeline'
-      body: 'Sample in 15–20 days, production in 30–45 days, tooling plus 15–20 — the full calendar, stage by stage.'
+      body: 'Sample in 7–12 days, production in 25–35 days, tooling plus 15–20 — the full calendar, stage by stage.'
       href: '/news/custom-sup-development-timeline'
     - title: 'Information to Prepare Before Ordering'
       body: 'The five details that let a factory quote accurately on the first pass — and avoid spec rework.'
       href: '/news/info-needed-before-sup-production'
     - title: 'SUP OEM MOQ and Pricing'
-      body: 'MOQ tiers of 5–10, 50 and 200 units, the six cost drivers, and five ways to cut cost without cutting quality.'
+      body: 'MOQ levels across sample (1–2), pilot (20–50) and volume (90–100+ per 150 m roll) stages, the six cost drivers and five ways to cut cost without cutting quality.'
       href: '/news/sup-oem-moq-pricing'
     - title: 'CE Certification for Inflatable SUP'
       body: 'What CE really covers, the five documents to demand, and how to verify a certificate names your model.'
       href: '/news/ce-certification-inflatable-sup'
     - title: 'Shipping: FOB vs CIF vs DDP'
       body: 'What each incoterm covers and costs, the 4–6 week sea-freight timeline, and which term fits your business.'
-      href: '/news/sup-oem-shipping-logistics'
+      href: '/news/private-label-sup-oem-guide'
 
 faq_section:
   tagline: FAQ
@@ -95,7 +95,7 @@ faq_section:
     - q: What does SUP product development cost?
       a: 'The specification review and engineering assessment are free and returned within one business day. Prototype sampling is quoted per project after the spec is fixed; production pricing depends on materials, volume and whether custom tooling is required.'
     - q: How long does SUP product development take?
-      a: 'The first sample ships 15–20 days after specification approval, with 3–7 days per revision round. Production runs 30–45 days after PO and deposit. Custom mould development adds 15–20 days up front, and sea freight adds 4–6 weeks to most destinations.'
+      a: 'The first sample ships 7–12 days after specification approval, with 3–7 days per revision round. Production runs 25–35 days after PO and deposit. Custom mould development adds 15–20 days up front, and sea freight adds 4–6 weeks to most destinations.'
     - q: What comes first — sample or production?
       a: 'Always the sample. A physical prototype is produced, measured and approved against the specification before any production run starts. We do not run bulk production on unapproved designs.'
     - q: Do you sign an NDA for product development?

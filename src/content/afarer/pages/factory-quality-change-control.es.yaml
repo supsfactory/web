@@ -79,7 +79,7 @@ cc_scope:
       risk: 'Alto'
       requirements: 'Superficies estructurales portantes: parada obligatoria y re-evaluación'
     - category: 'Métodos de inspección'
-      examples: 'Método de detección de fugas, presión de ensayo (15–18 PSI), duración de retención (24h/48h)'
+      examples: 'Método de detección de fugas, presión de ensayo (18,0 PSI), duración de retención (24h)'
       risk: 'Alto'
       requirements: 'Aprobación de Calidad + confirmación del acuerdo técnico del cliente'
     - category: 'Documentación y autorización'
@@ -210,7 +210,7 @@ cc_validation:
 
     La evidencia de validación es cuantitativa, y la base de ingeniería para el retrabajo de estanqueidad incluye:
 
-    - **Eliminación de fugas y retención de presión.** La fuga original se elimina sin burbujas sostenidas en la detección con agua jabonosa; la tabla mantiene la presión de ensayo estándar de 15–18 PSI durante 24–48 horas, con caída neta de presión ΔP ≤ 0,2 PSI tras compensación de temperatura/humedad.
+    - **Eliminación de fugas y retención de presión.** La fuga original se elimina sin burbujas sostenidas en la detección con agua jabonosa; la tabla mantiene la presión de ensayo estándar de 18,0 PSI durante 24 horas, con caída neta de presión ΔP ≤ 0,2 PSI tras compensación de temperatura/humedad.
     - **Función de la válvula.** El par del núcleo de válvula cumple la especificación de 15–20 N·m, sin micro-fugas en el sello bajo inflado a alta presión y presión dinámica.
     - **Unión de costuras y durabilidad.** Los bordes de la unión no presentan levantamientos, blanqueamiento ni delaminación; tras ciclos de envejecimiento por calor-humedad, la capa adhesiva no muestra ablandamiento ni grietas frágiles.
     - **Apariencia y mano de obra.** Sin marcas de exudación de adhesivo, sin daños en EVA, sin deformación de la tabla y sin desplazamiento del logo ni rayones en la superficie impresa.
@@ -237,9 +237,9 @@ cc_engineering:
       parameters: 'Par con llave dedicada 18–20 N·m; junta de sellado plana sin distorsión; limpieza de rosca confirmada'
       methodology: 'Inflar a 15 PSI; 20 ciclos de inflado/desinflado; observación por inmersión bajo agua'
       acceptance: 'Cero burbujas en el núcleo y la periferia de la base; par tras ciclos ≥ 16 N·m'
-    - process: 'Ensayo final de retención de presión 24h/48h'
-      parameters: 'Inflado de referencia 15,0 PSI; manómetro digital Clase 1,0 / ±0,5%; temperatura y humedad ambiente registradas y compensadas'
-      methodology: 'Registrador digital de presión; curvas continuas de presión de 24 h y 48 h'
+    - process: 'Ensayo final de retención de presión 24h'
+      parameters: 'Inflado de referencia 18,0 PSI; manómetro digital Clase 1,0 / ±0,5%; temperatura y humedad ambiente registradas y compensadas'
+      methodology: 'Registrador digital de presión; curva continua de presión de 24 h'
       acceptance: 'Caída neta de presión ΔP ≤ 0,20 PSI / 24 h tras compensación; sin abombamiento ni deformación de la tabla'
 
 cc_photos:
@@ -263,7 +263,7 @@ cc_photos:
     - image: /assets/quality/cc-pressure-hold-testing.jpg
       alt: Tablas de SUP hinchables terminadas conectadas a registradores digitales de presión en la zona de prueba final de retención
       title: Prueba final de retención de presión
-      desc: 'Las tablas terminadas se conectan a registradores digitales de alta precisión; el manómetro maestro indica la referencia de 15,00 PSI, y todos los datos de ensayo se cargan automáticamente y se vinculan al sistema de trazabilidad del contrato.'
+      desc: 'Las tablas terminadas se conectan a registradores digitales de alta precisión; el manómetro maestro indica la referencia de 18,00 PSI, y todos los datos de ensayo se cargan automáticamente y se vinculan al sistema de trazabilidad del contrato.'
 
 cc_pokayoke:
   tagline: Salvaguardas anti-error

@@ -76,3 +76,15 @@ body: |
 
   <h3>Can inflatable SUPs perform as well as hard boards?</h3>
   <p>For recreational paddling and touring, inflatable SUPs match hard board performance. Hard boards still excel in racing and advanced surfing due to their lighter weight and refined flex.</p>
+
+  <div class="not-prose my-10">
+    <div class="rounded-2xl border border-sky-200 bg-sky-50 p-6 text-center dark:border-sky-900 dark:bg-sky-950">
+      <h3 class="font-display text-lg font-bold">See how an inflatable board is actually built</h3>
+      <p class="mt-2 text-sm text-fg-2">From drop-stitch core to 24-hour pressure test — walk through the factory process behind every inflatable board.</p>
+      <p class="mt-4 flex flex-wrap justify-center gap-3">
+        <a href="/factory/process" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">How boards are built</a>
+        <a href="/technology/drop-stitch-core" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Drop-stitch technology</a>
+        <a href="/size-guide" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Find your size</a>
+      </p>
+    </div>
+  </div>

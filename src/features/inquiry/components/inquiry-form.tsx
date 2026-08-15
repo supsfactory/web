@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import { ChevronDown, UploadCloud, X } from 'lucide-react'
+import { Check, ChevronDown, FileText, ShieldCheck, UploadCloud, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
+import { dictionaries } from '@/features/i18n/locale'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
@@ -8,32 +9,54 @@ import { Button } from '@/components/ui/button'
 import { useTurnstile } from '@/features/auth/components/turnstile'
 import { trackLead } from '@/features/analytics/events'
 import { submitInquiry, type SubmitResult } from '../actions'
+import type { InquiryTier } from '../inquiry.shared'
 
-/** B2B project inquiry form (name → company → country → email → WhatsApp →
- *  business type → quantity → requirements → logo upload). Modeled on the
- *  waitlist form: Turnstile + status-union result mapping to i18n strings. */
+export interface InquiryPrefill {
+  /** Product platform name (shown in the notice + board-platform field). */
+  name?: string
+  sku?: string
+  /** SUP product category key, preselected in the category field. */
+  category?: string
+}
+
+/**
+ * B2B OEM project RFQ form (two steps):
+ *   Step 1 — project fit: business type, company, work email, country/market,
+ *            product category (pre-filled per landing page), order quantity
+ *            range, launch window, project stage.
+ *   Step 2 — product brief: role, board platform, construction, customization,
+ *            packaging, compliance, documents, annual volume, budget, files, NDA.
+ * The server scores the lead (A/B/C); each tier gets a different reply page.
+ */
 export function InquiryForm({
   turnstileSiteKey,
   prefill,
 }: {
   turnstileSiteKey: string | null
-  prefill?: { name: string; sku: string }
+  prefill?: InquiryPrefill
 }) {
   const { t, locale } = useTranslation()
   const { token, widget, reset } = useTurnstile(turnstileSiteKey)
-  const prefillText = prefill
-    ? locale === 'es'
-      ? `Me interesa la plataforma ${prefill.name} (${prefill.sku}) — por favor, envíame los precios OEM/ODM y la disponibilidad.`
-      : `I am interested in the ${prefill.name} (${prefill.sku}) platform — please send OEM/ODM pricing and availability.`
-    : null
 
+  const [step, setStep] = useState<1 | 2>(1)
   const [busy, setBusy] = useState(false)
-  const [msg, setMsg] = useState<{ kind: 'ok' | 'err'; text: string } | null>(null)
+  const [doneTier, setDoneTier] = useState<InquiryTier | null>(null)
+  const [msg, setMsg] = useState<{ kind: 'err'; text: string } | null>(null)
   const [fileName, setFileName] = useState<string | null>(null)
   const [fileError, setFileError] = useState(false)
+  const [customization, setCustomization] = useState<Set<string>>(new Set())
+  const [docs, setDocs] = useState<Set<string>>(new Set())
+  const [consent, setConsent] = useState(false)
+
+  function toggle(set: Set<string>, setter: (v: Set<string>) => void, value: string) {
+    const next = new Set(set)
+    if (next.has(value)) next.delete(value)
+    else next.add(value)
+    setter(next)
+  }
 
   function mapResult(r: SubmitResult) {
-    if (r.ok) return { kind: 'ok' as const, text: t('inquiry.ok') }
+    if (r.ok) return null
     switch (r.reason) {
       case 'invalid':
         return { kind: 'err' as const, text: t('inquiry.invalid') }
@@ -48,22 +71,44 @@ export function InquiryForm({
 
   async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
+    const form = e.currentTarget
+    if (step === 1) {
+      if (!form.checkValidity()) {
+        form.reportValidity()
+        return
+      }
+      setStep(2)
+      return
+    }
+    // The file input is optional, so native validation won't catch a bad file —
+    // block the POST here so the server never sees an invalid logo.
+    if (fileError) {
+      setMsg({ kind: 'err', text: t('inquiry.fileType') })
+      return
+    }
     setBusy(true)
     setMsg(null)
     setFileError(false)
     try {
-      const form = e.currentTarget
       const fd = new FormData(form)
       fd.set('turnstileToken', token ?? '')
       fd.set('locale', locale)
+      fd.set('customization', [...customization].join(','))
+      fd.set('docs', [...docs].join(','))
+      fd.set('consent', consent ? 'yes' : '')
       const r = await submitInquiry({ data: fd })
-      setMsg(mapResult(r))
       if (r.ok) {
-        trackLead(`inquiry:${String(fd.get('model') ?? 'unsure')}`)
+        trackLead(`inquiry:${String(fd.get('category') ?? 'unsure')}`)
+        setDoneTier(r.tier)
         form.reset()
+        setStep(1)
         setFileName(null)
-      } else if (r.reason !== 'invalid') {
-        reset()
+        setCustomization(new Set())
+        setDocs(new Set())
+        setConsent(false)
+      } else {
+        setMsg(mapResult(r))
+        if (r.reason !== 'invalid') reset()
       }
     } catch {
       setMsg({ kind: 'err', text: t('inquiry.failed') })
@@ -86,147 +131,394 @@ export function InquiryForm({
     setFileName(f.name)
   }
 
+  if (doneTier) return <SuccessPanel tier={doneTier} />
+
   return (
     <form onSubmit={submit} className="flex flex-col gap-4">
-      {prefill && (
+      {prefill?.name && (
         <p className="rounded-lg border border-primary/25 bg-soft/60 px-3 py-2 text-[12.5px] font-medium text-primary">
-          {locale === 'es' ? `Consulta iniciada desde: ${prefill.name} (${prefill.sku})` : `Inquiry started from: ${prefill.name} (${prefill.sku})`}
+          {locale === 'es'
+            ? `Proyecto iniciado desde: ${prefill.name}${prefill.sku ? ` (${prefill.sku})` : ''}`
+            : `Project started from: ${prefill.name}${prefill.sku ? ` (${prefill.sku})` : ''}`}
         </p>
       )}
-      <div className="grid gap-4 sm:grid-cols-2">
-        <div className="field">
-          <Label htmlFor="inq-name">{t('inquiry.name')} <span className="req">*</span></Label>
-          <Input id="inq-name" name="name" required minLength={2} maxLength={120} autoComplete="name" />
-        </div>
-        <div className="field">
-          <Label htmlFor="inq-company">{t('inquiry.company')}</Label>
-          <Input id="inq-company" name="company" maxLength={120} autoComplete="organization" />
-        </div>
-        <div className="field">
-          <Label htmlFor="inq-website">{t('inquiry.website')}</Label>
-          <Input id="inq-website" name="website" maxLength={200} placeholder={t('inquiry.websitePlaceholder')} inputMode="url" autoComplete="url" />
-        </div>
-        <div className="field">
-          <Label htmlFor="inq-country">{t('inquiry.country')}</Label>
-          <Input id="inq-country" name="country" maxLength={80} autoComplete="country-name" />
-        </div>
-        <div className="field">
-          <Label htmlFor="inq-email">{t('inquiry.email')} <span className="req">*</span></Label>
-          <Input id="inq-email" name="email" type="email" required maxLength={200} autoComplete="email" />
-        </div>
+
+      <div className="rounded-xl border border-border bg-bg-alt px-4 py-3">
+        <p className="text-[13px] font-bold">{step === 1 ? t('inquiry.step1Title') : t('inquiry.step2Title')}</p>
+        <p className="mt-0.5 text-[12.5px] leading-relaxed text-fg-2">
+          {step === 1 ? t('inquiry.step1Hint') : t('inquiry.step2Hint')}
+        </p>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2">
-        <div className="field">
-          <Label htmlFor="inq-whatsapp">{t('inquiry.whatsapp')}</Label>
-          <Input id="inq-whatsapp" name="whatsapp" maxLength={60} autoComplete="tel" placeholder="+86 13305324192" />
+      {/* ── Step 1: project fit ── */}
+      <div className={step === 2 ? 'hidden' : ''}>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <div className="field">
+            <Label htmlFor="inq-type">{t('inquiry.businessType')} <span className="req">*</span></Label>
+            <Select id="inq-type" name="businessType" defaultValue="" required>
+              <option value="" disabled>{t('inquiry.businessTypeHint')}</option>
+              <option value="brand">{t('inquiry.businessOptions.brand')}</option>
+              <option value="retailer">{t('inquiry.businessOptions.retailer')}</option>
+              <option value="distributor">{t('inquiry.businessOptions.distributor')}</option>
+              <option value="resort">{t('inquiry.businessOptions.resort')}</option>
+              <option value="club">{t('inquiry.businessOptions.club')}</option>
+              <option value="rental">{t('inquiry.businessOptions.rental')}</option>
+              <option value="corporate">{t('inquiry.businessOptions.corporate')}</option>
+              <option value="other">{t('inquiry.businessOptions.other')}</option>
+            </Select>
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-company">{t('inquiry.company')} <span className="req">*</span></Label>
+            <Input id="inq-company" name="company" required minLength={2} maxLength={120} autoComplete="organization" />
+            <span className="field-hint">{t('inquiry.companyHint')}</span>
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-email">{t('inquiry.email')} <span className="req">*</span></Label>
+            <Input id="inq-email" name="email" type="email" required maxLength={200} autoComplete="email" />
+            <span className="field-hint">{t('inquiry.emailHint')}</span>
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-country">{t('inquiry.country')} <span className="req">*</span></Label>
+            <Input id="inq-country" name="country" required maxLength={80} autoComplete="country-name" />
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-market">{t('inquiry.targetMarket')}</Label>
+            <Input id="inq-market" name="targetMarket" maxLength={120} placeholder={t('inquiry.targetMarketPlaceholder')} />
+            <span className="field-hint">{t('inquiry.targetMarketHint')}</span>
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-category">{t('inquiry.category')} <span className="req">*</span></Label>
+            <Select id="inq-category" name="category" defaultValue={prefill?.category ?? 'unsure'} required>
+              <option value="all-around">{t('inquiry.categoryOptions.all-around')}</option>
+              <option value="race">{t('inquiry.categoryOptions.race')}</option>
+              <option value="surf">{t('inquiry.categoryOptions.surf')}</option>
+              <option value="touring">{t('inquiry.categoryOptions.touring')}</option>
+              <option value="yoga">{t('inquiry.categoryOptions.yoga')}</option>
+              <option value="whitewater">{t('inquiry.categoryOptions.whitewater')}</option>
+              <option value="fishing">{t('inquiry.categoryOptions.fishing')}</option>
+              <option value="kids">{t('inquiry.categoryOptions.kids')}</option>
+              <option value="multi">{t('inquiry.categoryOptions.multi')}</option>
+              <option value="hard">{t('inquiry.categoryOptions.hard')}</option>
+              <option value="accessories">{t('inquiry.categoryOptions.accessories')}</option>
+              <option value="multiple">{t('inquiry.categoryOptions.multiple')}</option>
+              <option value="unsure">{t('inquiry.categoryOptions.unsure')}</option>
+            </Select>
+            <span className="field-hint">{t('inquiry.categoryHint')}</span>
+          </div>
+          <div className="field sm:col-span-2">
+            <Label htmlFor="inq-qty">{t('inquiry.quantity')} <span className="req">*</span></Label>
+            <Select id="inq-qty" name="quantity" defaultValue="" required>
+              <option value="" disabled>Select…</option>
+              <option value="q1-9">{t('inquiry.quantityOptions.q1-9')}</option>
+              <option value="q10-49">{t('inquiry.quantityOptions.q10-49')}</option>
+              <option value="q50-99">{t('inquiry.quantityOptions.q50-99')}</option>
+              <option value="q100-299">{t('inquiry.quantityOptions.q100-299')}</option>
+              <option value="q300-499">{t('inquiry.quantityOptions.q300-499')}</option>
+              <option value="q500">{t('inquiry.quantityOptions.q500')}</option>
+              <option value="unsure">{t('inquiry.quantityOptions.unsure')}</option>
+            </Select>
+            <span className="field-hint">{t('inquiry.quantityHint')}</span>
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-timeline">{t('inquiry.timeline')} <span className="req">*</span></Label>
+            <Select id="inq-timeline" name="timeline" defaultValue="" required>
+              <option value="" disabled>Select…</option>
+              <option value="now">{t('inquiry.timelineOptions.now')}</option>
+              <option value="t1-3mo">{t('inquiry.timelineOptions.t1-3mo')}</option>
+              <option value="t3-6mo">{t('inquiry.timelineOptions.t3-6mo')}</option>
+              <option value="t6-12mo">{t('inquiry.timelineOptions.t6-12mo')}</option>
+              <option value="t12mo+">{t('inquiry.timelineOptions.t12mo+')}</option>
+              <option value="unsure">{t('inquiry.timelineOptions.unsure')}</option>
+            </Select>
+            <span className="field-hint">{t('inquiry.timelineHint')}</span>
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-stage">{t('inquiry.projectStage')} <span className="req">*</span></Label>
+            <Select id="inq-stage" name="projectStage" defaultValue="" required>
+              <option value="" disabled>Select…</option>
+              <option value="ready">{t('inquiry.projectStageOptions.ready')}</option>
+              <option value="reviewing">{t('inquiry.projectStageOptions.reviewing')}</option>
+              <option value="developing">{t('inquiry.projectStageOptions.developing')}</option>
+              <option value="sampling">{t('inquiry.projectStageOptions.sampling')}</option>
+              <option value="future">{t('inquiry.projectStageOptions.future')}</option>
+            </Select>
+            <span className="field-hint">{t('inquiry.projectStageHint')}</span>
+          </div>
+          <div className="field sm:col-span-2">
+            <Label htmlFor="inq-whatsapp">{t('inquiry.whatsapp')}</Label>
+            <Input id="inq-whatsapp" name="whatsapp" maxLength={60} autoComplete="tel" placeholder="+86 13305324192" />
+          </div>
         </div>
-        <div className="field">
-          <Label htmlFor="inq-type">{t('inquiry.businessType')} <span className="req">*</span></Label>
-          <Select name="businessType" defaultValue="brand" required>
-            <option value="brand">{t('inquiry.businessOptions.brand')}</option>
-            <option value="retailer">{t('inquiry.businessOptions.retailer')}</option>
-            <option value="distributor">{t('inquiry.businessOptions.distributor')}</option>
-            <option value="resort">{t('inquiry.businessOptions.resort')}</option>
-            <option value="club">{t('inquiry.businessOptions.club')}</option>
-            <option value="rental">{t('inquiry.businessOptions.rental')}</option>
-            <option value="corporate">{t('inquiry.businessOptions.corporate')}</option>
-            <option value="other">{t('inquiry.businessOptions.other')}</option>
-          </Select>
-        </div>
-        <div className="field">
-          <Label htmlFor="inq-model">{t('inquiry.model')} <span className="req">*</span></Label>
-          <Select name="model" defaultValue="unsure" required>
-            <option value="oem">{t('inquiry.modelOptions.oem')}</option>
-            <option value="odm">{t('inquiry.modelOptions.odm')}</option>
-            <option value="private-label">{t('inquiry.modelOptions.privateLabel')}</option>
-            <option value="unsure">{t('inquiry.modelOptions.unsure')}</option>
-          </Select>
-        </div>
-        <div className="field">
-          <Label htmlFor="inq-product">{t('inquiry.productType')} <span className="req">*</span></Label>
-          <Select name="productType" defaultValue="unsure" required>
-            <option value="inflatable-sup">{t('inquiry.productOptions.inflatableSup')}</option>
-            <option value="hard-sup">{t('inquiry.productOptions.hardSup')}</option>
-            <option value="accessories">{t('inquiry.productOptions.accessories')}</option>
-            <option value="multiple">{t('inquiry.productOptions.multiple')}</option>
-            <option value="unsure">{t('inquiry.productOptions.unsure')}</option>
-          </Select>
-        </div>
-        <div className="field">
-          <Label htmlFor="inq-market">{t('inquiry.targetMarket')}</Label>
-          <Input id="inq-market" name="targetMarket" maxLength={120} placeholder={t('inquiry.targetMarketPlaceholder')} />
-        </div>
-        <div className="field">
-          <Label htmlFor="inq-qty">{t('inquiry.quantity')} <span className="req">*</span></Label>
-          <Select name="quantity" defaultValue="unsure" required>
-            <option value="q50">{t('inquiry.quantityOptions.q50')}</option>
-            <option value="q100">{t('inquiry.quantityOptions.q100')}</option>
-            <option value="q300">{t('inquiry.quantityOptions.q300')}</option>
-            <option value="q500">{t('inquiry.quantityOptions.q500')}</option>
-            <option value="unsure">{t('inquiry.quantityOptions.unsure')}</option>
-          </Select>
-        </div>
+        <p className="mt-4 rounded-lg border border-border bg-bg-alt px-3 py-2.5 text-[12.5px] leading-relaxed text-fg-2">
+          {t('inquiry.moqNote')}
+        </p>
+        <Button type="submit" className="mt-4 h-12 w-full rounded-[7px] text-[15px] font-bold">
+          {t('inquiry.continue')}
+        </Button>
       </div>
 
-      <div className="field sm:col-span-2">
-        <Label htmlFor="inq-timeline">{t('inquiry.timeline')} <span className="req">*</span></Label>
-        <Select name="timeline" defaultValue="now" required>
-          <option value="now">{t('inquiry.timelineOptions.now')}</option>
-          <option value="t1-3mo">{t('inquiry.timelineOptions.t1-3mo')}</option>
-          <option value="t3-6mo">{t('inquiry.timelineOptions.t3-6mo')}</option>
-          <option value="t6mo+">{t('inquiry.timelineOptions.t6mo+')}</option>
-        </Select>
-        <span className="field-hint">{t('inquiry.timelineHint')}</span>
-      </div>
-
-      <div className="field">
-        <Label htmlFor="inq-req">{t('inquiry.requirements')}</Label>
-        <Textarea id="inq-req" name="requirements" rows={4} maxLength={2000} defaultValue={prefillText ?? undefined} placeholder={t('inquiry.requirementsPlaceholder')} />
-      </div>
-
-      <div className="field">
-        <Label htmlFor="inq-logo">{t('inquiry.logo')}</Label>
-        <div className="flex items-center gap-3">
-          <label
-            className="inline-flex h-[42px] cursor-pointer items-center gap-2 rounded-[7px] border border-dashed border-input px-4 text-sm font-medium text-fg-2 transition-colors hover:border-primary hover:text-foreground"
-          >
-            <UploadCloud size={16} />
-            {fileName ?? t('inquiry.filePlaceholder')}
-            <input
-              id="inq-logo"
-              name="logo"
-              type="file"
-              accept="image/png,image/jpeg,image/svg+xml,image/webp"
-              className="sr-only"
-              onChange={(e) => onFileChange(e.target.files)}
+      {/* ── Step 2: product brief ── */}
+      <fieldset disabled={step === 1} className={step === 1 ? 'hidden' : 'flex flex-col gap-4'}>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <div className="field">
+            <Label htmlFor="inq-role">{t('inquiry.role')} <span className="req">*</span></Label>
+            <Select id="inq-role" name="role" defaultValue="" required>
+              <option value="" disabled>Select…</option>
+              <option value="owner">{t('inquiry.roleOptions.owner')}</option>
+              <option value="purchasing">{t('inquiry.roleOptions.purchasing')}</option>
+              <option value="product">{t('inquiry.roleOptions.product')}</option>
+              <option value="designer">{t('inquiry.roleOptions.designer')}</option>
+              <option value="operations">{t('inquiry.roleOptions.operations')}</option>
+              <option value="other">{t('inquiry.roleOptions.other')}</option>
+            </Select>
+            <span className="field-hint">{t('inquiry.roleHint')}</span>
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-platform">{t('inquiry.boardPlatform')} <span className="req">*</span></Label>
+            <Input
+              id="inq-platform"
+              name="boardPlatform"
+              required
+              maxLength={120}
+              defaultValue={prefill?.name ?? undefined}
+              placeholder={t('inquiry.boardPlatformPlaceholder')}
             />
-          </label>
-          {fileName && (
-            <button
-              type="button"
-              className="inline-flex items-center gap-1 text-[13px] font-medium text-fg-3 hover:text-destructive"
-              onClick={() => {
-                setFileName(null)
-                setFileError(false)
-                const input = document.getElementById('inq-logo') as HTMLInputElement | null
-                if (input) input.value = ''
-              }}
-            >
-              <X size={14} /> {fileName}
-            </button>
-          )}
+            <span className="field-hint">{t('inquiry.boardPlatformHint')}</span>
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-construction">{t('inquiry.construction')} <span className="req">*</span></Label>
+            <Select id="inq-construction" name="construction" defaultValue="" required>
+              <option value="" disabled>Select…</option>
+              <option value="standard">{t('inquiry.constructionOptions.standard')}</option>
+              <option value="premium">{t('inquiry.constructionOptions.premium')}</option>
+              <option value="rental">{t('inquiry.constructionOptions.rental')}</option>
+              <option value="need-rec">{t('inquiry.constructionOptions.need-rec')}</option>
+            </Select>
+            <span className="field-hint">{t('inquiry.constructionHint')}</span>
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-packaging">{t('inquiry.packaging')} <span className="req">*</span></Label>
+            <Select id="inq-packaging" name="packaging" defaultValue="" required>
+              <option value="" disabled>Select…</option>
+              <option value="export">{t('inquiry.packagingOptions.export')}</option>
+              <option value="branded">{t('inquiry.packagingOptions.branded')}</option>
+              <option value="custom">{t('inquiry.packagingOptions.custom')}</option>
+              <option value="mixed">{t('inquiry.packagingOptions.mixed')}</option>
+              <option value="not-decided">{t('inquiry.packagingOptions.not-decided')}</option>
+            </Select>
+            <span className="field-hint">{t('inquiry.packagingHint')}</span>
+          </div>
+          <div className="field sm:col-span-2">
+            <Label>{t('inquiry.customization')} <span className="req">*</span></Label>
+            <div className="mt-2 grid gap-2 sm:grid-cols-2">
+              {(['logo', 'graphics', 'eva', 'accessories', 'packaging', 'tooling', 'not-sure'] as const).map((v) => (
+                <CheckOption
+                  key={v}
+                  checked={customization.has(v)}
+                  onChange={() => toggle(customization, setCustomization, v)}
+                  label={t(`inquiry.customizationOptions.${v}`)}
+                  name="customization"
+                  required={customization.size === 0}
+                />
+              ))}
+            </div>
+            <span className="field-hint">{t('inquiry.customizationHint')}</span>
+          </div>
+          <div className="field sm:col-span-2">
+            <Label htmlFor="inq-compliance">{t('inquiry.compliance')} <span className="req">*</span></Label>
+            <Select id="inq-compliance" name="compliance" defaultValue="" required>
+              <option value="" disabled>Select…</option>
+              <option value="eu">{t('inquiry.complianceOptions.eu')}</option>
+              <option value="uk">{t('inquiry.complianceOptions.uk')}</option>
+              <option value="us-ca">{t('inquiry.complianceOptions.us-ca')}</option>
+              <option value="au-nz">{t('inquiry.complianceOptions.au-nz')}</option>
+              <option value="other">{t('inquiry.complianceOptions.other')}</option>
+              <option value="guidance">{t('inquiry.complianceOptions.guidance')}</option>
+            </Select>
+            <span className="field-hint">{t('inquiry.complianceHint')}</span>
+          </div>
+          <div className="field sm:col-span-2">
+            <Label>{t('inquiry.docs')}</Label>
+            <div className="mt-2 grid gap-2 sm:grid-cols-2">
+              {(['audit', 'declaration', 'test-report', 'labeling', 'inspection', 'not-decided'] as const).map((v) => (
+                <CheckOption
+                  key={v}
+                  checked={docs.has(v)}
+                  onChange={() => toggle(docs, setDocs, v)}
+                  label={t(`inquiry.docsOptions.${v}`)}
+                  name="docs"
+                />
+              ))}
+            </div>
+            <span className="field-hint">{t('inquiry.docsHint')}</span>
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-annual">{t('inquiry.annualVolume')}</Label>
+            <Select id="inq-annual" name="annualVolume" defaultValue="not-decided">
+              <option value="v50-99">{t('inquiry.annualVolumeOptions.v50-99')}</option>
+              <option value="v100-299">{t('inquiry.annualVolumeOptions.v100-299')}</option>
+              <option value="v300-999">{t('inquiry.annualVolumeOptions.v300-999')}</option>
+              <option value="v1000">{t('inquiry.annualVolumeOptions.v1000')}</option>
+              <option value="not-decided">{t('inquiry.annualVolumeOptions.not-decided')}</option>
+            </Select>
+            <span className="field-hint">{t('inquiry.annualVolumeHint')}</span>
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-budget">{t('inquiry.budget')}</Label>
+            <Input id="inq-budget" name="budget" maxLength={160} placeholder={t('inquiry.budgetPlaceholder')} />
+            <span className="field-hint">{t('inquiry.budgetHint')}</span>
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-website">{t('inquiry.website')}</Label>
+            <Input id="inq-website" name="website" maxLength={200} placeholder={t('inquiry.websitePlaceholder')} inputMode="url" autoComplete="url" />
+          </div>
+          <div className="field">
+            <Label htmlFor="inq-logo">{t('inquiry.upload')}</Label>
+            <div className="flex items-center gap-3">
+              <label className="inline-flex h-[42px] cursor-pointer items-center gap-2 rounded-[7px] border border-dashed border-input px-4 text-sm font-medium text-fg-2 transition-colors hover:border-primary hover:text-foreground">
+                <UploadCloud size={16} />
+                {fileName ?? (locale === 'es' ? 'Subir archivo' : 'Upload')}
+                <input
+                  id="inq-logo"
+                  name="logo"
+                  type="file"
+                  accept="image/png,image/jpeg,image/svg+xml,image/webp"
+                  className="sr-only"
+                  onChange={(e) => onFileChange(e.target.files)}
+                />
+              </label>
+              {fileName && (
+                <button
+                  type="button"
+                  className="inline-flex items-center gap-1 text-[13px] font-medium text-fg-3 hover:text-destructive"
+                  onClick={() => {
+                    setFileName(null)
+                    setFileError(false)
+                    const input = document.getElementById('inq-logo') as HTMLInputElement | null
+                    if (input) input.value = ''
+                  }}
+                >
+                  <X size={14} /> {fileName}
+                </button>
+              )}
+            </div>
+            <span className={`field-hint ${fileError ? 'err' : ''}`}>
+              {fileError ? t('inquiry.fileType') : t('inquiry.uploadHint')}
+            </span>
+          </div>
+          <div className="field sm:col-span-2">
+            <Label htmlFor="inq-req">{t('inquiry.requirements')}</Label>
+            <Textarea id="inq-req" name="requirements" rows={4} maxLength={2000} placeholder={t('inquiry.requirementsPlaceholder')} />
+          </div>
+          <div className="field sm:col-span-2">
+            <Label htmlFor="inq-nda">{t('inquiry.nda')} <span className="req">*</span></Label>
+            <Select id="inq-nda" name="nda" defaultValue="no" required>
+              <option value="yes">{t('inquiry.ndaOptions.yes')}</option>
+              <option value="no">{t('inquiry.ndaOptions.no')}</option>
+            </Select>
+            <span className="field-hint">{t('inquiry.ndaNote')}</span>
+          </div>
         </div>
-        <span className={`field-hint ${fileError ? 'err' : ''}`}>{t('inquiry.logoHint')}</span>
-      </div>
 
-      {widget}
-      {msg && <p className={msg.kind === 'ok' ? 'text-sm font-medium text-success' : 'text-sm font-medium text-destructive'}>{msg.text}</p>}
+        <label className="flex cursor-pointer items-start gap-2.5 rounded-lg border border-border bg-bg-alt px-3 py-3">
+          <input
+            type="checkbox"
+            name="consent"
+            required
+            checked={consent}
+            onChange={(e) => setConsent(e.target.checked)}
+            className="mt-0.5 h-4 w-4 shrink-0 accent-primary"
+          />
+          <span className="text-[12.5px] leading-relaxed text-fg-2">
+            {t('inquiry.consent')}{' '}
+            <a href={locale === 'es' ? '/es/privacy' : '/privacy'} className="font-medium text-primary hover:underline" target="_blank" rel="noreferrer">
+              {t('inquiry.consentPrivacy')}
+            </a>
+          </span>
+        </label>
 
-      <Button type="submit" disabled={busy} className="mt-1 h-12 rounded-[7px] text-[15px] font-bold">
-        {busy ? t('inquiry.submitting') : t('inquiry.submit')}
-      </Button>
+        <div className="rounded-xl border border-border bg-bg-alt p-4">
+          <p className="flex items-center gap-2 text-[13px] font-bold"><ShieldCheck size={15} className="text-primary" /> {t('inquiry.whatNext')}</p>
+          <p className="mt-1.5 text-[12.5px] leading-relaxed text-fg-2">{t('inquiry.whatNextBody')}</p>
+          <p className="mt-2 border-t border-border pt-2 text-[12px] leading-relaxed text-fg-3">{t('inquiry.privacyNote')}</p>
+        </div>
+
+        {widget}
+        {msg && <p className="text-sm font-medium text-destructive">{msg.text}</p>}
+
+        <div className="flex flex-col gap-2 sm:flex-row">
+          <Button type="button" variant="outline" onClick={() => setStep(1)} className="h-12 flex-1 rounded-[7px] text-[15px] font-bold">
+            {t('inquiry.back')}
+          </Button>
+          <Button type="submit" disabled={busy} className="h-12 flex-[2] rounded-[7px] text-[15px] font-bold">
+            {busy ? t('inquiry.submitting') : t('inquiry.submit')}
+          </Button>
+        </div>
+        <p className="text-center text-[12px] text-fg-3">{t('inquiry.noObligation')}</p>
+      </fieldset>
     </form>
+  )
+}
+
+/** Tiered post-submit panel (hard-split pricing/SLA messaging per lead grade). */
+function SuccessPanel({ tier }: { tier: InquiryTier }) {
+  const { t, locale } = useTranslation()
+  if (tier === 'A') {
+    return (
+      <div className="rounded-2xl border border-success/30 bg-success/5 p-6">
+        <p className="flex items-center gap-2 text-[15px] font-bold text-success"><Check size={17} /> {t('inquiry.okA.title')}</p>
+        <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{t('inquiry.okA.body')}</p>
+      </div>
+    )
+  }
+  if (tier === 'B') {
+    return (
+      <div className="rounded-2xl border border-border bg-bg-alt p-6">
+        <p className="text-[15px] font-bold"><FileText size={16} className="mr-1.5 inline text-primary" /> {t('inquiry.okB.title')}</p>
+        <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{t('inquiry.okB.body')}</p>
+        <p className="mt-4 text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">
+          {locale === 'es' ? 'Brief del proyecto OEM' : 'OEM brief checklist'}
+        </p>
+        <ul className="mt-2 flex flex-col gap-1.5">
+          {dictionaries[locale].inquiry.okB.checklist.map((line) => (
+            <li key={line} className="flex items-start gap-2 text-[13px] leading-relaxed text-fg-2">
+              <Check size={14} className="mt-0.5 shrink-0 text-primary" /> {line}
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+  return (
+    <div className="rounded-2xl border border-border bg-bg-alt p-6">
+      <p className="text-[15px] font-bold">{t('inquiry.okC.title')}</p>
+      <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{t('inquiry.okC.body')}</p>
+      <a href="/oem-moq-guide" className="mt-4 inline-flex h-10 items-center gap-1.5 rounded-full border border-primary/30 bg-primary/5 px-5 text-[13px] font-bold text-primary transition-colors hover:bg-primary/10">
+        {t('inquiry.okC.guideLink')}
+      </a>
+    </div>
+  )
+}
+
+/** Radio-style checkbox row shared by the multi-select groups. */
+function CheckOption({
+  checked,
+  onChange,
+  label,
+  name,
+  required,
+}: {
+  checked: boolean
+  onChange: () => void
+  label: string
+  name: string
+  required?: boolean
+}) {
+  return (
+    <label className={`flex cursor-pointer items-center gap-2.5 rounded-lg border px-3 py-2.5 transition-colors ${checked ? 'border-primary/50 bg-primary/5' : 'border-border bg-background hover:border-primary/30'}`}>
+      <input type="checkbox" name={name} checked={checked} required={required} onChange={onChange} className="h-4 w-4 accent-primary" />
+      <span className="text-[13px] font-medium text-fg-2">{label}</span>
+    </label>
   )
 }
 

@@ -221,6 +221,26 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
                 ])}
               />
             )}
+            {data.path.startsWith('/oem-moq-guide') && (
+              <JsonLd
+                data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, [
+                  'SUP Manufacturing',
+                  'Minimum Order Quantity',
+                  'Drop-Stitch Fabric Roll Yields',
+                  'Co-Branding and Flexible Branding',
+                ], 'Flexible Branding & Co-Branding MOQ Guide for Inflatable SUP Manufacturing')}
+              />
+            )}
+            {data.path.startsWith('/oem-trust-assurance') && (
+              <JsonLd
+                data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, [
+                  'SUP Manufacturing',
+                  'Factory Audit',
+                  'OEM Trust and Supplier Verification',
+                  'Third-Party Inspection (SGS, TUV, BV, Intertek)',
+                ], 'OEM Buyer Trust & Factory Assurance Guide for Inflatable SUP Manufacturing')}
+              />
+            )}
             {page.meta?.dateModified && (
               <JsonLd
                 data={{
@@ -359,7 +379,7 @@ export function ProductView({ product, related, origin, locale }: { product: Afa
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th className="w-2/5 px-4 py-3 font-semibold">{es ? 'Pedido mínimo (MOQ)' : 'Minimum order (MOQ)'}</th>
-                      <td className="px-4 py-3 text-fg-2">{es ? `MOQ ${FACTS.moq.standardRun} por diseño en lote OEM; prueba desde ${FACTS.moq.trialStandard}` : `MOQ ${FACTS.moq.standardRun} per design for OEM batch; trial runs from ${FACTS.moq.trialStandard}`}</td>
+                      <td className="px-4 py-3 text-fg-2">{es ? `MOQ ${FACTS.moq.standardRun} por rollo de 150 m en volumen; piloto desde ${FACTS.moq.trialStandard}` : `MOQ ${FACTS.moq.standardRun} per 150 m roll for volume production; pilot runs from ${FACTS.moq.trialStandard}`}</td>
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th className="w-2/5 px-4 py-3 font-semibold">{es ? 'Plazo de producción' : 'Production lead time'}</th>
@@ -389,8 +409,8 @@ export function ProductView({ product, related, origin, locale }: { product: Afa
                 </p>
                 <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
                   {es
-                    ? `${FACTS.moq.standardRun} lote OEM estándar · ${FACTS.moq.trialStandard} prueba · ${FACTS.moq.customMould} molde a medida`
-                    : `${FACTS.moq.standardRun} standard OEM batch · ${FACTS.moq.trialStandard} trial · ${FACTS.moq.customMould} custom mould`}
+                    ? `${FACTS.moq.standardRun} volumen estándar · ${FACTS.moq.trialStandard} piloto · ${FACTS.moq.customMould} molde a medida`
+                    : `${FACTS.moq.standardRun} standard volume · ${FACTS.moq.trialStandard} pilot · ${FACTS.moq.customMould} custom mould`}
                 </p>
               </div>
               <div className="marine-card p-4">
@@ -539,7 +559,7 @@ export function ProductView({ product, related, origin, locale }: { product: Afa
             <a href={fl('/solutions/private-label-sup')} className="marine-card p-5 transition-colors hover:border-primary/40">
               <p className="text-[14px] font-bold">{es ? 'Marca privada' : 'Private Label'}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
-                {es ? 'Tu logo en plataformas probadas, desde 50 uds.' : 'Your brand on proven platforms, from 50 pcs'}
+                {es ? 'Tu logo en plataformas probadas — volumen desde 90–100+ uds. (piloto desde 20–50)' : 'Your brand on proven platforms — volume from 90–100+ pcs (pilot from 20–50)'}
               </p>
             </a>
           </div>
@@ -556,7 +576,7 @@ function productFaqs(product: AfarerProduct, es: boolean): { q: string; a: strin
     ? [
         {
           q: '¿Cuál es el pedido mínimo para personalizar esta tabla?',
-          a: `El MOQ por diseño es de ${FACTS.moq.standardRun} para el lote OEM estándar, con pruebas desde ${FACTS.moq.trialStandard} y ${FACTS.moq.customMould} para un molde a medida.`,
+          a: `El MOQ de volumen es de ${FACTS.moq.standardRun} por rollo de 150 m para la producción estándar, con pilotos desde ${FACTS.moq.trialStandard} y ${FACTS.moq.customMould} para un molde a medida.`,
         },
         {
           q: '¿Cuánto tardan las muestras y la producción?',
@@ -574,11 +594,11 @@ function productFaqs(product: AfarerProduct, es: boolean): { q: string; a: strin
     : [
         {
           q: 'What is the minimum order to customize this board?',
-          a: `MOQ is ${FACTS.moq.standardRun} per design for the standard OEM batch, with trial runs from ${FACTS.moq.trialStandard} and ${FACTS.moq.customMould} for a custom mould.`,
+          a: `MOQ is ${FACTS.moq.standardRun} per 150 m roll for standard volume production, with pilot runs from ${FACTS.moq.trialStandard} and ${FACTS.moq.customMould} for a custom mould.`,
         },
         {
           q: 'How long do samples and production take?',
-          a: `Samples ship in ${FACTS.sampleTime}; batch production completes in ${FACTS.leadTime} after confirmed PO and deposit.`,
+          a: `Samples are ready in ${FACTS.sampleTime}; batch production completes in ${FACTS.leadTime} after confirmed PO and deposit.`,
         },
         {
           q: 'Can I change colors, artwork and the logo?',
@@ -619,15 +639,15 @@ function customizationOptions(es: boolean): { title: string; body: string }[] {
 function oemApplications(es: boolean): { title: string; body: string }[] {
   return es
     ? [
-        { title: 'Marcas de SUP', body: 'Lanza tu propia línea con mínimos por tramos desde 5–10 unidades de prueba.' },
-        { title: 'Distribuidores y revendedores', body: 'Catálogos de volumen con embalaje marítimo y logística FOB/CIF/DDP.' },
+        { title: 'Marcas de SUP', body: 'Lanza tu propia línea con mínimos por tramos desde 5–10 unidades de co-branding.' },
+        { title: 'Distribuidores y revendedores', body: 'Catálogos de volumen con embalaje marítimo y gestión de exportación.' },
         { title: 'Retail y outdoor', body: 'Programas de reposición estacional con especificaciones estables de temporada en temporada.' },
         { title: 'Resorts y operadores de alquiler', body: 'Flotas de uso intensivo con refuerzos, repuestos y mantenimiento estandarizado.' },
         { title: 'Clubes, escuelas y eventos', body: 'Tablas con tu logotipo para programas, competiciones y flotas corporativas.' },
       ]
     : [
-        { title: 'SUP brands', body: 'Launch your own line with tiered minimums from 5–10 trial units.' },
-        { title: 'Distributors and resellers', body: 'Volume catalogs with seaworthy packaging and FOB/CIF/DDP logistics.' },
+        { title: 'SUP brands', body: 'Launch your own line with tiered minimums from 5–10-unit co-branding runs.' },
+        { title: 'Distributors and resellers', body: 'Volume catalogs with seaworthy packaging and export management.' },
         { title: 'Retail and outdoor companies', body: 'Seasonal replenishment programs with stable specs run after run.' },
         { title: 'Resorts and rental operators', body: 'High-duty fleets with reinforcements, spares and standardized maintenance.' },
         { title: 'Clubs, schools and events', body: 'Branded boards for programs, competitions and corporate fleets.' },
@@ -862,8 +882,8 @@ function FaqView({ faqs, origin, path, translated, locale }: { faqs: { q: string
         kicker="FAQ"
         title={translated ? 'Preguntas frecuentes' : 'Frequently Asked Questions'}
         sub={translated
-          ? 'Las preguntas que recibimos antes de cada proyecto SUP OEM/ODM: materiales, certificaciones, pedido mínimo y logística.'
-          : 'Questions we hear before every SUP OEM/ODM project — materials, certifications, MOQ and logistics.'}
+          ? 'Las preguntas que recibimos antes de cada proyecto SUP OEM/ODM: materiales, certificaciones, pedido mínimo y suministro al por mayor.'
+          : 'Questions we hear before every SUP OEM/ODM project — materials, certifications, MOQ and wholesale supply.'}
       />
       <section className="mx-auto max-w-3xl px-5 py-14 md:px-7">
         <div className="flex flex-col gap-3">

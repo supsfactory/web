@@ -297,7 +297,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         description:
           locale === 'es'
             ? 'Preguntas frecuentes sobre la fabricación OEM/ODM de SUP hinchables afarer — materiales, certificaciones, cantidades mínimas de pedido y logística mayorista.'
-            : 'Frequently asked questions about afarer inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale logistics.',
+            : 'Frequently asked questions about afarer inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale supply.',
         faqs: getSiteFaqs(locale).map((f) => ({ q: brandify(f.q), a: brandify(f.a) })),
         index: indexFor(undefined, locale),
       }

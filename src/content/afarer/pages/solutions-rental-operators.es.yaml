@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Las tablas para flotas de alquiler se construyen con PVC marino resistente a los rayos UV, costuras 3 veces más resistentes que la construcción estándar y núcleos drop-stitch clasificados a 15 PSI, probadas en más de 500 ciclos de alquiler. El MOQ estándar OEM es de 50 unidades por diseño (prueba de 5–10 unidades disponible, muestras en 15–20 días); la producción tarda 30–45 días tras el PO y el depósito, con condiciones FOB, CIF o DDP.'
+  text: 'Las tablas para flotas de alquiler se construyen con PVC marino resistente a los rayos UV, costuras 3 veces más resistentes que la construcción estándar y núcleos drop-stitch clasificados a 15 PSI, probadas en más de 500 ciclos de alquiler. El MOQ se confirma según la configuración del proyecto: muestra (1–2 unidades), piloto (20–50 unidades) y volumen estándar (90–100+ unidades por lote a partir de un rollo de 150 m); la producción tarda 25–35 días tras el PO y el depósito, con condiciones FOB, CIF o DDP.'
   verified: '2026-08'
 
 features:
@@ -43,9 +43,9 @@ stats:
   title: Métricas de Operación
   stats:
     - title: Superficie de Fábrica
-      amount: '12.000 m²'
+      amount: '12.500 m²'
     - title: Prueba de Presión
-      amount: '1,25× / 48h'
+      amount: '18 PSI / 24h'
     - title: Checklist de Montaje
       amount: '100 puntos'
     - title: Envío de Piezas
@@ -78,5 +78,5 @@ cta:
       href: '/contact'
       variant: 'primary'
     - text: 'Comparar Plataformas de Tablas'
-      href: '/compare'
+      href: '/es/inflatable-vs-hardboard'
       variant: 'secondary'

@@ -11,7 +11,7 @@ headline: 'Excelencia en la ingeniería de los SUP hinchables para el turismo y 
 subtitle: 'De las excursiones de pesca guiadas al crucero costero, afarer marca la referencia de durabilidad, seguridad y rendimiento en los SUP hinchables.'
 seo:
   headline: 'SUP hinchables para el turismo y la recreación —fabricación OEM de afarer'
-  description: 'afarer diseña y fabrica SUP hinchables premium para el turismo y la recreación: tablas de travesía, tablas de pesca y tablas de yoga. Fabricación OEM/ODM con certificación CE. MOQ desde 50 unidades.'
+  description: 'afarer diseña y fabrica SUP hinchables premium para el turismo y la recreación: tablas de travesía, tablas de pesca y tablas de yoga. Fabricación OEM/ODM con certificación CE. MOQ por tramos: piloto desde 20–50 unidades; volumen estándar desde 90–100+ unidades por rollo de 150 m.'
   datePublished: '2024-06-01'
   dateModified: '2026-06-01'
 faqs:
@@ -65,5 +65,17 @@ body: |
   </ul>
 
   <h2>Por qué elegir a afarer para tu flota de turismo y recreación</h2>
-  <p>Gracias a nuestra fábrica de 12,000 m² certificada ISO y CE en Qingdao (China), afarer ofrece un socio de fabricación de confianza a los operadores turísticos, a las flotas de alquiler y a las marcas de recreo. Nuestros servicios de OEM/ODM incluyen la personalización de la marca, la marca privada, el embalaje y el soporte logístico, con un MOQ estándar de 50 unidades y plazos de entrega de 30 a 45 días.</p>
+  <p>Gracias a nuestra fábrica de 12,500 m² certificada ISO y CE en Qingdao (China), afarer ofrece un socio de fabricación de confianza a los operadores turísticos, a las flotas de alquiler y a las marcas de recreo. Nuestros servicios de OEM/ODM incluyen la personalización de la marca, la marca privada, el embalaje y el soporte logístico, con un MOQ estándar de 90–100+ unidades por rollo de 150 m (lotes piloto desde 20–50 unidades) y plazos de entrega de 25–35 días.</p>
   <p>Cada SUP de afarer es una inversión en calidad, durabilidad y rendimiento —para que tus clientes disfruten de experiencias seguras e inolvidables en el agua.</p>
+
+  <div class="not-prose my-10">
+    <div class="rounded-2xl border border-sky-200 bg-sky-50 p-6 text-center dark:border-sky-900 dark:bg-sky-950">
+      <h3 class="font-display text-lg font-bold">Equipa tu flota con un sistema de calidad documentado</h3>
+      <p class="mt-2 text-sm text-fg-2">La durabilidad de grado alquiler nace del sistema de inspección de 7 puertas detrás de cada tabla — audítalo, o habla con ingeniería sobre tu flota.</p>
+      <p class="mt-4 flex flex-wrap justify-center gap-3">
+        <a href="/es/factory/quality-inspection" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">El sistema de inspección de 7 puertas</a>
+        <a href="/es/oem-moq-guide" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Guía de MOQ y flotas</a>
+        <a href="/es/oem-odm-manufacturer" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Servicios OEM y ODM</a>
+      </p>
+    </div>
+  </div>

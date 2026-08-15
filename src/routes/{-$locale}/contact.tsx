@@ -1,5 +1,5 @@
 import { createFileRoute, getRouteApi } from '@tanstack/react-router'
-import { Mail, MessageCircle, Clock3, ShieldCheck } from 'lucide-react'
+import { Mail, MessageCircle, Clock3, ShieldCheck, FileText, Plus } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import { getTurnstileSiteKey } from '@/features/auth/middleware'
@@ -10,7 +10,7 @@ import { PageHero } from '@/components/marketing/section-head'
 import { InquiryForm } from '@/features/inquiry/components/inquiry-form'
 import { pick, products } from '@/features/site/content'
 import { dictionaries } from '@/features/i18n/locale'
-import { JsonLd, contactPageLd } from '@/features/seo/jsonld'
+import { JsonLd, contactPageLd, faqLd } from '@/features/seo/jsonld'
 import { Footer } from '@/components/marketing/footer'
 
 const rootRoute = getRouteApi('__root__')
@@ -18,6 +18,7 @@ const rootRoute = getRouteApi('__root__')
 export const Route = createFileRoute('/{-$locale}/contact')({
   validateSearch: (s: Record<string, unknown>) => ({
     product: typeof s.product === 'string' && s.product ? s.product : undefined,
+    category: typeof s.category === 'string' && s.category ? s.category : undefined,
   }),
   loader: async () => {
     const [origin, turnstileSiteKey] = await Promise.all([getOrigin(), getTurnstileSiteKey()])
@@ -33,8 +34,8 @@ export const Route = createFileRoute('/{-$locale}/contact')({
       title: locale === 'es' ? 'Contacto | Inicia tu proyecto SUP a medida | SUPsfactory' : 'Contact | Start Your Custom SUP Project — SUPsfactory',
       description:
         locale === 'es'
-          ? 'Comienza tu proyecto de tablas SUP a medida: desarrollamos, fabricamos y exportamos tablas hinchables bajo tu marca, desde 5–10 unidades de prueba hasta contenedores.'
-          : 'Start your custom SUP board project — we develop, manufacture and ship inflatable paddle boards under your brand, from 5–10 trial units to container-scale production.',
+          ? 'Comienza tu proyecto de tablas SUP a medida: desarrollamos y fabricamos tablas hinchables bajo tu marca, desde lotes piloto de 20–50 unidades hasta producción a gran escala.'
+          : 'Start your custom SUP board project — we develop and manufacture inflatable paddle boards under your brand, from 20–50 unit pilot batches to full-scale production.',
     })
     return { meta, links }
   },
@@ -45,7 +46,7 @@ function ContactPage() {
   const { theme, user } = rootRoute.useLoaderData()
   const { t, locale } = useTranslation()
   const { turnstileSiteKey } = Route.useLoaderData()
-  const { product } = Route.useSearch()
+  const { product, category } = Route.useSearch()
   const matched = product ? pick(products, locale).items.find((p) => p.slug === product) : undefined
 
   return (
@@ -107,12 +108,58 @@ function ContactPage() {
           <h2 className="font-display text-xl font-extrabold tracking-tight">{t('sup.contact.formTitle')}</h2>
           <p className="mt-1.5 text-[13px] text-fg-3">{t('sup.contact.formSubtitle')}</p>
           <div className="mt-6">
-            <InquiryForm turnstileSiteKey={turnstileSiteKey} prefill={matched ? { name: matched.name, sku: matched.sku } : undefined} />
+            <InquiryForm
+              turnstileSiteKey={turnstileSiteKey}
+              prefill={
+                matched || category
+                  ? { name: matched?.name, sku: matched?.sku, category: category ?? matched?.series }
+                  : undefined
+              }
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="trust-verification" className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
+        <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+          <div>
+            <h2 className="font-display text-2xl font-extrabold tracking-tight">{t('sup.contact.trustTitle')}</h2>
+            <p className="mt-3 text-[14.5px] leading-relaxed text-fg-2">{t('sup.contact.trustSubtitle')}</p>
+            <div className="mt-7">
+              <a
+                href="/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="marine-card flex items-center gap-4 p-5 transition-colors hover:border-primary/40"
+              >
+                <span className="icon-tile"><FileText size={19} /></span>
+                <div>
+                  <p className="text-[12px] font-bold uppercase tracking-wide text-fg-3">{t('sup.contact.trustPdfLink')}</p>
+                  <p className="mt-0.5 text-[15px] font-semibold">{t('sup.contact.trustPdfTitle')}</p>
+                  <p className="mt-1 text-[13px] leading-relaxed text-fg-2">{t('sup.contact.trustPdfDesc')}</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 className="font-display text-xl font-extrabold tracking-tight">{t('sup.contact.trustFaqTitle')}</h3>
+            <div className="mt-6 flex flex-col gap-3">
+              {dictionaries[locale].sup.contact.trustFaqs.map((item) => (
+                <details key={item.q} className="faq-row">
+                  <summary>
+                    {item.q}
+                    <Plus size={17} className="faq-icon" />
+                  </summary>
+                  <div className="faq-body">{item.a}</div>
+                </details>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
       <JsonLd data={contactPageLd('https://supsfactory.com', locale === 'es' ? '/es/contact' : '/contact')} />
+      <JsonLd data={faqLd([...dictionaries[locale].sup.contact.trustFaqs], locale)} />
 
       <Footer theme={theme} />
     </div>

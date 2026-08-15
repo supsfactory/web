@@ -50,9 +50,9 @@ export const hero: Localized<HeroContent> = {
     ctaSecondary: 'Explore Construction & Quality',
     ctaMicro: 'Reply within 1 business day · NDA available · MOQ confirmed after specification review',
     stats: [
-      { value: '15,000+', label: 'Boards produced annually' },
-      { value: '12,000 m²', label: 'Factory floor — 6 workshops' },
-      { value: '6', label: 'Specialized production workshops' },
+      { value: '120,000+', label: 'Boards produced annually' },
+      { value: '12,500 m²', label: 'Factory floor — 4 workshops' },
+      { value: '4', label: 'Specialized production workshops' },
       { value: '50+', label: 'Export countries served' },
     ],
     mockupLabel: 'Signature Platform',
@@ -60,7 +60,7 @@ export const hero: Localized<HeroContent> = {
     mockupHint: 'Your graphics · your colors · your packaging',
     heroNote:
       'From first concept to repeat orders — built for retail brands, water-sports distributors, resorts, schools and rental operators.',
-    float1: { value: '50 pcs', label: 'Standard OEM MOQ' },
+    float1: { value: '90–100 pcs', label: 'Standard volume MOQ (per 150 m roll)' },
     float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
   es: {
@@ -73,8 +73,8 @@ export const hero: Localized<HeroContent> = {
     ctaSecondary: 'Explora construcción y calidad',
     ctaMicro: 'Respuesta en 1 día hábil · NDA disponible · MOQ confirmado tras revisar la especificación',
     stats: [
-      { value: '15.000+', label: 'Tablas producidas al año' },
-      { value: '12.000 m²', label: 'Superficie de fábrica — 6 talleres' },
+      { value: '120.000+', label: 'Tablas producidas al año' },
+      { value: '12.500 m²', label: 'Superficie de fábrica — 4 talleres' },
       { value: '6', label: 'Talleres de producción especializados' },
       { value: '50+', label: 'Países de exportación' },
     ],
@@ -83,8 +83,8 @@ export const hero: Localized<HeroContent> = {
     mockupHint: 'Tus gráficos · Tus colores · tu packaging',
     heroNote:
       'Del primer concepto a pedidos repetidos — pensado para marcas minoristas, distribuidores de deportes acuáticos, resorts, escuelas y operadores de alquiler.',
-    float1: { value: '50 uds.', label: 'MOQ OEM estándar' },
-    float2: { value: '30–45 días', label: 'Plazo de producción (tras PO)' },
+    float1: { value: '90–100 uds.', label: 'MOQ de volumen estándar (por rollo de 150 m)' },
+    float2: { value: '25–35 días', label: 'Plazo de producción (tras PO)' },
   },
 }
 
@@ -108,12 +108,12 @@ export const why: Localized<WhyContent> = {
   en: {
     kicker: 'The Manufacturing Brand',
     title: 'Powered by Afarer',
-    sub: 'SUPsfactory is the SUP product development and manufacturing division of Afarer, the manufacturing brand of Qingdao Vatrad Group Co., Ltd. Our 12,000 m² plant in Laixi, Qingdao has produced inflatable products since 2012, with 25+ engineers across R&D, mold design, materials lab and production engineering averaging 7+ years in inflatable manufacturing, running two production shifts daily.',
+    sub: 'SUPsfactory is the SUP product development and manufacturing division of Afarer, the manufacturing brand of Qingdao Vatrad Group Co., Ltd. Our 12,500 m² plant in Laixi, Qingdao has produced inflatable products since 2012, with 25+ engineers across R&D, mold design, materials lab and production engineering averaging 7+ years in inflatable manufacturing, running two production shifts daily.',
     image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
     imageCaption: 'Afarer manufacturing facility, Qingdao, China',
     bullets: [
       {
-        title: '12,000 m² plant',
+        title: '12,500 m² plant',
         body: 'In-house from raw PVC to finished board, in Laixi, Qingdao.',
       },
       {
@@ -133,12 +133,12 @@ export const why: Localized<WhyContent> = {
   es: {
     kicker: 'La marca de fabricación',
     title: 'Con el respaldo de Afarer',
-    sub: 'SUPsfactory es la división de desarrollo y fabricación de productos SUP de Afarer, la marca de fabricación de Qingdao Vatrad Group Co., Ltd. Nuestra planta de 12.000 m² en Laixi, Qingdao produce productos inflables desde 2012, con más de 25 ingenieros entre I+D, diseño de moldes, laboratorio de materiales e ingeniería de producción, con una media de más de 7 años en fabricación de inflables y dos turnos de producción diarios.',
+    sub: 'SUPsfactory es la división de desarrollo y fabricación de productos SUP de Afarer, la marca de fabricación de Qingdao Vatrad Group Co., Ltd. Nuestra planta de 12.500 m² en Laixi, Qingdao produce productos inflables desde 2012, con más de 25 ingenieros entre I+D, diseño de moldes, laboratorio de materiales e ingeniería de producción, con una media de más de 7 años en fabricación de inflables y dos turnos de producción diarios.',
     image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
     imageCaption: 'Instalaciones de fabricación de Afarer, Qingdao, China',
     bullets: [
       {
-        title: 'Planta de 12,000 m²',
+        title: 'Planta de 12,500 m²',
         body: 'Del PVC en bruto a la tabla terminada, en Laixi, Qingdao.',
       },
       {
@@ -178,29 +178,29 @@ export interface TrustBarContent {
 export const trustBar: Localized<TrustBarContent> = {
   en: {
     stats: [
-      { value: `MOQ ${FACTS.moq.standardRun}`, label: 'per design for OEM batch; trial runs from 5–10 pcs' },
+      { value: `MOQ ${FACTS.moq.standardRun}`, label: 'per 150 m roll for volume production; pilot runs from 20–50 pcs' },
       { value: FACTS.sampleTime, label: 'samples to your desk after artwork confirmation' },
       { value: FACTS.leadTime, label: 'batch production after confirmed PO and deposit' },
       { value: FACTS.annualCapacity, label: 'annual in-house capacity at the Qingdao plant' },
       { value: FACTS.warehouseM2, label: 'owned plant, from raw PVC to finished board' },
       { value: FACTS.workers, label: 'factory workers and engineers on site' },
       { value: 'ISO 9001 · CE · BSCI', label: 'certified; REACH/RoHS compliant materials' },
-      { value: FACTS.exportCountries, label: 'countries shipped to across EU, US, AU and Asia' },
-      { value: '1.25× / 48 h', label: '100% inflation & leakage test on every board before packing' },
+      { value: FACTS.exportCountries, label: 'export markets across the EU, US, AU and Asia' },
+      { value: '18 PSI / 24 h', label: '100% inflation & leakage test on every board before packing' },
       { value: 'MSL Fusion', label: 'multi-layer fusion welding with woven drop-stitch constructions' },
     ],
   },
   es: {
     stats: [
-      { value: `MOQ ${FACTS.moq.standardRun}`, label: 'por diseño en lote OEM; prueba desde 5–10 uds.' },
+      { value: `MOQ ${FACTS.moq.standardRun}`, label: 'por rollo de 150 m para volumen; piloto desde 20–50 uds.' },
       { value: FACTS.sampleTime, label: 'muestras en tu escritorio tras confirmar el arte' },
       { value: FACTS.leadTime, label: 'producción en serie tras PO y depósito confirmados' },
       { value: FACTS.annualCapacity, label: 'capacidad anual interna en la planta de Qingdao' },
       { value: FACTS.warehouseM2, label: 'planta propia, del PVC en bruto a la tabla terminada' },
       { value: FACTS.workers, label: 'operarios e ingenieros de planta' },
       { value: 'ISO 9001 · CE · BSCI', label: 'certificada; materiales conformes a REACH/RoHS' },
-      { value: FACTS.exportCountries, label: 'países con envíos en la UE, EE. UU., Australia y Asia' },
-      { value: '1,25× / 48 h', label: 'prueba de inflado y estanqueidad al 100% en cada tabla antes del embalaje' },
+      { value: FACTS.exportCountries, label: 'mercados de exportación en la UE, EE. UU., Australia y Asia' },
+      { value: '18 PSI / 24 h', label: 'prueba de inflado y estanqueidad al 100% en cada tabla antes del embalaje' },
       { value: 'MSL Fusion', label: 'soldadura de fusión multicapa con construcciones de drop-stitch tejido' },
     ],
   },
@@ -238,11 +238,11 @@ export const solve: Localized<SolveContent> = {
       },
       {
         title: 'Private Label — Your Brand on Commercial-Grade Boards',
-        body: 'Standard construction, your artwork, your deck pad colors, your packaging and your barcode. Shipped ready for retail or rental deployment with no SUPsfactory or Afarer marking anywhere on the product.',
+        body: 'Standard construction, your artwork, your deck pad colors, your packaging and your barcode. Delivered ready for retail or rental deployment with no SUPsfactory or Afarer marking anywhere on the product.',
       },
       {
         title: 'Volume Supply — Repeat and Fleet Orders',
-        body: 'Container-scale production for distributors, rental operators and resort groups, with locked specifications, batch traceability and consistent construction across reorders.',
+        body: 'Large-run production for distributors, rental operators and resort groups, with locked specifications, batch traceability and consistent construction across reorders.',
       },
     ],
   },
@@ -266,7 +266,7 @@ export const solve: Localized<SolveContent> = {
       },
       {
         title: 'Suministro por volumen — pedidos repetidos y de flota',
-        body: 'Producción a escala de contenedor para distribuidores, operadores de alquiler y grupos hoteleros, con especificaciones fijadas, trazabilidad por lote y construcción homogénea entre reposiciones.',
+        body: 'Producción en volumen para distribuidores, operadores de alquiler y grupos hoteleros, con especificaciones fijadas, trazabilidad por lote y construcción homogénea entre reposiciones.',
       },
     ],
   },
@@ -314,7 +314,7 @@ export const capability: Localized<CapabilityContent> = {
       },
       {
         name: 'Export Packing',
-        body: 'Vacuum-packed, boxed and prepared for container loading, with printed retail cartons available.',
+        body: 'Vacuum-packed, boxed and export-grade packed, with printed retail cartons available.',
       },
     ],
   },
@@ -345,7 +345,7 @@ export const capability: Localized<CapabilityContent> = {
       },
       {
         name: 'Embalaje de exportación',
-        body: 'Envasado al vacío, encajado y paletizado para el contenedor, con impresión de cartoncines minoristas disponible.',
+        body: 'Envasado al vacío, encajado y embalado para exportación, con impresión de cartoncines minoristas disponible.',
       },
     ],
   },
@@ -381,7 +381,7 @@ export const quality: Localized<QualityContent> = {
       },
       {
         title: 'Pressure Hold Test',
-        body: 'Every chamber is inflated to 125% of rated pressure and held for 24–48 hours with continuous sensor logging. Any chamber exceeding 5% pressure drop is rejected and returned for seam re-inspection.',
+        body: 'Every chamber is inflated to 18.0 PSI and held for 24 hours with continuous sensor logging. Any chamber exceeding 0.50 PSI of pressure drop over 24 hours is rejected and returned for seam re-inspection.',
       },
       {
         // TODO [待确认] D 环拉拔力具体数值（如 ≥150 kgf）待业务方确认后补充
@@ -413,7 +413,7 @@ export const quality: Localized<QualityContent> = {
       },
       {
         title: 'Ensayo de retención de presión',
-        body: 'Cada cámara se infla al 125% de la presión nominal y se mantiene 24–48 horas con registro de sensores continuo. Cualquier cámara que supere una pérdida del 5% se rechaza y vuelve a revisar las costuras.',
+        body: 'Cada cámara se infla a 18,0 PSI y se mantiene durante 24 horas con registro de sensores continuo. Cualquier cámara que supere una caída de presión de 0,50 PSI en 24 horas se rechaza y vuelve a revisar las costuras.',
       },
       {
         title: 'Verificación estructural',
@@ -455,15 +455,15 @@ export const commercial: Localized<CommercialContent> = {
       {
         label: 'Minimum order',
         lines: [
-          'Trial run on standard models: 5–10 pcs',
-          'Standard OEM production: 50 pcs per design',
-          'Custom mold / private label: 200 pcs',
+          'Co-branding small bulk: 5–10 pcs',
+          'Pilot batch / initial stock: 20–50 pcs',
+          'Standard volume production: 90–100+ pcs (per 150 m roll)',
         ],
       },
       {
         label: 'Lead time',
         lines: [
-          '30–45 days from confirmed PO and deposit',
+          '25–35 days from confirmed PO and deposit',
           'Custom mold development: +15–20 days for tooling',
           'Expedited production available for seasonal rush',
         ],
@@ -471,20 +471,20 @@ export const commercial: Localized<CommercialContent> = {
       {
         label: 'Sampling',
         lines: [
-          'Prototype samples ship in 15–20 days',
+          'Prototype samples ship in 7–12 days',
           'Sample cost credited against bulk order',
         ],
       },
       {
-        label: 'Trade terms',
+        label: 'Export & documentation',
         lines: [
-          'FOB Qingdao · CIF to major global ports · DDP for qualified partners',
-          'Container booking, export documentation and customs clearance handled in-house',
+          'Export documentation handled in-house',
+          'Export-grade packing; printed retail cartons available',
         ],
       },
     ],
     certs:
-      'ISO 9001 quality management · CE certification · BSCI social compliance (audit report available on request) · REACH and RoHS documentation with every shipment.',
+      'ISO 9001 quality management · CE certification · BSCI social compliance (audit report available on request) · REACH and RoHS documentation with every order.',
   },
   es: {
     kicker: 'Condiciones comerciales',
@@ -494,15 +494,15 @@ export const commercial: Localized<CommercialContent> = {
       {
         label: 'Pedido mínimo',
         lines: [
-          'Pedido de prueba en modelos estándar: 5–10 uds.',
-          'Producción OEM estándar: 50 uds. por diseño',
-          'Molde a medida / marca privada: 200 uds.',
+          'Pequeño lote de co-branding: 5–10 uds.',
+          'Lote piloto / stock inicial: 20–50 uds.',
+          'Producción de volumen estándar: 90–100+ uds. (por rollo de 150 m)',
         ],
       },
       {
         label: 'Plazo de entrega',
         lines: [
-          '30–45 días desde el PO confirmado y el depósito',
+          '25–35 días desde el PO confirmado y el depósito',
           'Desarrollo de molde a medida: +15–20 días para utillaje',
           'Producción acelerada disponible para la temporada',
         ],
@@ -510,20 +510,20 @@ export const commercial: Localized<CommercialContent> = {
       {
         label: 'Muestras',
         lines: [
-          'Las muestras de prototipo salen en 15–20 días',
+          'Las muestras de prototipo salen en 7–12 días',
           'El coste de la muestra se descuenta del pedido de volumen',
         ],
       },
       {
-        label: 'Condiciones comerciales',
+        label: 'Exportación y documentación',
         lines: [
-          'FOB Qingdao · CIF a puertos globales principales · DDP para partners cualificados',
-          'Reserva de contenedor, documentación de exportación y aduanas gestionadas en casa',
+          'Documentación de exportación gestionada en casa',
+          'Embalaje de exportación; cartoncines minoristas impresos disponibles',
         ],
       },
     ],
     certs:
-      'ISO 9001 · Certificación CE · BSCI (informe de auditoría disponible) · Documentación REACH y RoHS con cada envío.',
+      'ISO 9001 · Certificación CE · BSCI (informe de auditoría disponible) · Documentación REACH y RoHS con cada pedido.',
   },
 }
 
@@ -1388,8 +1388,8 @@ export interface WorksContent {
 export const works: Localized<WorksContent> = {
   en: {
     kicker: 'Development Process',
-    title: 'From Specification to Container',
-    sub: 'Requirement intake through container-loaded export — every step inside our own plant.',
+    title: 'From Specification to Finished Product',
+    sub: 'Requirement intake through finished goods — every step inside our own plant.',
     steps: [
       {
         title: 'Requirement Intake',
@@ -1405,7 +1405,7 @@ export const works: Localized<WorksContent> = {
       },
       {
         title: 'Prototype',
-        body: 'A physical prototype confirms shape, stiffness, weight and finish. Ships in 15–20 days.',
+        body: 'A physical prototype confirms shape, stiffness, weight and finish. Ships in 7–12 days.',
       },
       {
         title: 'Sample Approval',
@@ -1416,16 +1416,16 @@ export const works: Localized<WorksContent> = {
         body: 'Manufactured in our own plant under the QC process above, with batch traceability to material lot level.',
       },
       {
-        title: 'Export and Delivery',
-        body: 'Vacuum-packed, container-loaded, documented and shipped. FOB, CIF or DDP as agreed.',
+        title: 'Export-Ready Delivery',
+        body: 'Vacuum-packed, boxed, documented and handed over ready for export.',
       },
     ],
     note: 'The approved sample is the contract. Every board in the batch is measured against it.',
   },
   es: {
     kicker: 'Proceso de desarrollo',
-    title: 'De la especificación al contenedor',
-    sub: 'Desde la recepción de requisitos hasta la exportación en contenedor — cada paso dentro de nuestra propia planta.',
+    title: 'De la especificación al producto terminado',
+    sub: 'Desde la recepción de requisitos hasta el producto terminado — cada paso dentro de nuestra propia planta.',
     steps: [
       {
         title: 'Recepción de requisitos',
@@ -1441,7 +1441,7 @@ export const works: Localized<WorksContent> = {
       },
       {
         title: 'Prototipo',
-        body: 'Un prototipo físico confirma forma, rigidez, peso y acabado. Se envía en 15–20 días.',
+        body: 'Un prototipo físico confirma forma, rigidez, peso y acabado. Se envía en 7–12 días.',
       },
       {
         title: 'Aprobación de la muestra',
@@ -1452,8 +1452,8 @@ export const works: Localized<WorksContent> = {
         body: 'Fabricado en nuestra propia planta bajo el proceso de control de calidad descrito, con trazabilidad por lote hasta el nivel de material.',
       },
       {
-        title: 'Exportación y entrega',
-        body: 'Envasado al vacío, cargado en contenedor, documentado y enviado. FOB, CIF o DDP según lo acordado.',
+        title: 'Entrega lista para exportación',
+        body: 'Envasado al vacío, encajado, documentado y entregado listo para la exportación.',
       },
     ],
     note: 'La muestra aprobada es el punto de referencia. Cada tabla del lote se mide contra ella.',
@@ -1571,13 +1571,13 @@ export const gallery: Localized<GalleryContent> = {
   en: {
     kicker: 'Production Projects',
     title: 'Recent Production',
-    sub: 'Manufacturing projects that shipped from our plant — with the numbers buyers actually ask about.',
+    sub: 'Manufacturing projects delivered from our plant — with the numbers buyers actually ask about.',
     projects: [
       {
         // TODO(待确认) 补数量与交付周期
         tag: 'Resort Fleet',
         title: 'Resort Fleet — Hotel Group Boards',
-        body: '[待确认: 数量] branded boards for a hotel group, custom deck graphics matched to property colors, accessories bundled, delivered in [待确认: 周期].',
+        body: '[待确认: 数量] branded boards for a hotel group, custom deck graphics matched to property colors, accessories bundled, produced in [待确认: 周期].',
         hue: 195,
         image: '/assets/products/2026/all-around/all-around-17.avif',
       },
@@ -1601,12 +1601,12 @@ export const gallery: Localized<GalleryContent> = {
   es: {
     kicker: 'Proyectos de producción',
     title: 'Producción reciente',
-    sub: 'Proyectos de fabricación enviados desde la planta — con las cifras que de verdad pregunta un comprador.',
+    sub: 'Proyectos de fabricación entregados desde la planta — con las cifras que de verdad pregunta un comprador.',
     projects: [
       {
         tag: 'Flota de resort',
         title: 'Flota de resort — tablas para grupo hotelero',
-        body: '[待确认: cantidad] tablas con marca para un grupo hotelero, gráficos personalizados según los colores del hotel, accesorios incluidos, entregadas en [待确认: plazo].',
+        body: '[待确认: cantidad] tablas con marca para un grupo hotelero, gráficos personalizados según los colores del hotel, accesorios incluidos, producidas en [待确认: plazo].',
         hue: 195,
         image: '/assets/products/2026/all-around/all-around-17.avif',
       },
@@ -1651,23 +1651,18 @@ export const guides: Localized<GuidesContent> = {
     guides: [
       {
         title: 'Private Label: The Complete Step-by-Step Guide',
-        body: 'From choosing a factory to a delivered container — the full six-step journey for new brands.',
+        body: 'From choosing a factory to production — the full six-step journey for new brands.',
         href: '/news/private-label-sup-guide',
       },
       {
         title: 'SUP OEM MOQ and Pricing',
-        body: 'MOQ tiers of 5–10, 50 and 200 units, the six cost drivers, and five ways to cut cost without cutting quality.',
+        body: 'MOQ tiers from 1–2 samples to 90–100+ unit volume runs, the six cost drivers, and five ways to cut cost without cutting quality.',
         href: '/news/sup-oem-moq-pricing',
       },
       {
         title: 'CE Certification for Inflatable SUP',
         body: 'What CE really covers, the five documents to demand, and how to verify a certificate names your model.',
         href: '/news/ce-certification-inflatable-sup',
-      },
-      {
-        title: 'Shipping: FOB vs CIF vs DDP',
-        body: 'What each incoterm covers and costs, the 4–6 week sea-freight timeline, and which term fits your business.',
-        href: '/news/sup-oem-shipping-logistics',
       },
     ],
   },
@@ -1678,23 +1673,18 @@ export const guides: Localized<GuidesContent> = {
     guides: [
       {
         title: 'SUP de marca privada: la guía completa paso a paso',
-        body: 'De elegir fábrica a un contenedor entregado — el recorrido completo en seis pasos para nuevas marcas.',
+        body: 'De elegir fábrica a producción — el recorrido completo en seis pasos para nuevas marcas.',
         href: '/news/private-label-sup-guide',
       },
       {
         title: 'MOQ y precios OEM de SUP',
-        body: 'Niveles de MOQ de 5–10, 50 y 200 unidades, los seis factores de coste y cinco formas de reducir coste sin bajar calidad.',
+        body: 'Niveles de MOQ desde 1–2 muestras hasta 90–100+ unidades de volumen, los seis factores de coste y cinco formas de reducir coste sin bajar calidad.',
         href: '/news/sup-oem-moq-pricing',
       },
       {
         title: 'Certificación CE para SUP hinchables',
         body: 'Qué cubre realmente el CE, los cinco documentos que debes exigir y cómo verificar que un certificado nombra tu modelo.',
         href: '/news/ce-certification-inflatable-sup',
-      },
-      {
-        title: 'Shipping: FOB vs CIF vs DDP',
-        body: 'What each incoterm covers and costs, the 4–6 week sea-freight timeline, and which term fits your business.',
-        href: '/news/sup-oem-shipping-logistics',
       },
     ],
   },
@@ -1705,7 +1695,7 @@ export const guides: Localized<GuidesContent> = {
 export const manufacturingGuides: Localized<GuidesContent> = {
   en: {
     kicker: 'Manufacturing Guides',
-    title: 'From Factory to Container',
+    title: 'From Factory to Finished Product',
     sub: 'The complete sourcing library — every stage of a custom SUP project with our real lead times, terms and documentation.',
     guides: [
       {
@@ -1715,7 +1705,7 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       },
       {
         title: 'SUP Product Development Timeline',
-        body: 'Sample in 15–20 days, production in 30–45 days, tooling plus 15–20 — the full calendar, stage by stage.',
+        body: 'Sample in 7–12 days, production in 25–35 days, tooling plus 15–20 — the full calendar, stage by stage.',
         href: '/news/custom-sup-development-timeline',
       },
       {
@@ -1725,12 +1715,12 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       },
       {
         title: 'Private Label: The Complete Step-by-Step Guide',
-        body: 'From choosing a factory to a delivered container — the full six-step journey for new brands.',
+        body: 'From choosing a factory to production — the full six-step journey for new brands.',
         href: '/news/private-label-sup-guide',
       },
       {
         title: 'SUP OEM MOQ and Pricing',
-        body: 'MOQ tiers of 5–10, 50 and 200 units, the six cost drivers, and five ways to cut cost without cutting quality.',
+        body: 'MOQ tiers from 1–2 samples to 90–100+ unit volume runs, the six cost drivers, and five ways to cut cost without cutting quality.',
         href: '/news/sup-oem-moq-pricing',
       },
       {
@@ -1738,16 +1728,11 @@ export const manufacturingGuides: Localized<GuidesContent> = {
         body: 'What CE really covers, the five documents to demand, and how to verify a certificate names your model.',
         href: '/news/ce-certification-inflatable-sup',
       },
-      {
-        title: 'Shipping: FOB vs CIF vs DDP',
-        body: 'What each incoterm covers and costs, the 4–6 week sea-freight timeline, and which term fits your business.',
-        href: '/news/sup-oem-shipping-logistics',
-      },
     ],
   },
   es: {
     kicker: 'Guías de fabricación',
-    title: 'De la fábrica al contenedor',
+    title: 'De la fábrica al producto terminado',
     sub: 'La biblioteca completa de abastecimiento — cada etapa de un proyecto SUP a medida con nuestros plazos, condiciones y documentación reales.',
     guides: [
       {
@@ -1757,7 +1742,7 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       },
       {
         title: 'Calendario de desarrollo de producto SUP',
-        body: 'Muestra en 15–20 días, producción en 30–45 días, utillaje más 15–20 — el calendario completo, etapa por etapa.',
+        body: 'Muestra en 7–12 días, producción en 25–35 días, utillaje más 15–20 — el calendario completo, etapa por etapa.',
         href: '/news/custom-sup-development-timeline',
       },
       {
@@ -1767,23 +1752,18 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       },
       {
         title: 'SUP de marca privada: la guía completa paso a paso',
-        body: 'De elegir fábrica a un contenedor entregado — el recorrido completo en seis pasos para nuevas marcas.',
+        body: 'De elegir fábrica a producción — el recorrido completo en seis pasos para nuevas marcas.',
         href: '/news/private-label-sup-guide',
       },
       {
         title: 'MOQ y precios OEM de SUP',
-        body: 'Niveles de MOQ de 5–10, 50 y 200 unidades, los seis factores de coste y cinco formas de reducir coste sin bajar calidad.',
+        body: 'Niveles de MOQ desde 1–2 muestras hasta 90–100+ unidades de volumen, los seis factores de coste y cinco formas de reducir coste sin bajar calidad.',
         href: '/news/sup-oem-moq-pricing',
       },
       {
         title: 'Certificación CE para SUP hinchables',
         body: 'Qué cubre realmente el CE, los cinco documentos que debes exigir y cómo verificar que un certificado nombra tu modelo.',
         href: '/news/ce-certification-inflatable-sup',
-      },
-      {
-        title: 'Envío: FOB vs CIF vs DDP',
-        body: 'Qué cubre y cuesta cada incoterm, el calendario de 4–6 semanas de flete marítimo y qué término encaja con tu negocio.',
-        href: '/news/sup-oem-shipping-logistics',
       },
     ],
   },
@@ -1811,7 +1791,7 @@ export const faq: Localized<FaqContent> = {
     items: [
       {
         q: 'What does Supsfactory manufacture?',
-        a: 'Supsfactory is a professional SUP manufacturing factory specializing in customized inflatable SUP boards and related water sports products for global brands and businesses — engineered, sampled and produced in our own 12,000 m² plant in Qingdao, China.',
+        a: 'Supsfactory is a professional SUP manufacturing factory specializing in customized inflatable SUP boards and related water sports products for global brands and businesses — engineered, sampled and produced in our own 12,500 m² plant in Qingdao, China.',
       },
       {
         q: 'What is the difference between OEM and ODM?',
@@ -1819,23 +1799,23 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'What is your minimum order quantity?',
-        a: `Trial runs on standard models start at 5–10 pcs. Standard OEM production starts at ${FACTS.moq.standardRun} per design. Custom mold and private label projects require 200 pcs minimum, depending on complexity.`,
+        a: `Co-branding small bulk starts at 5–10 pcs; pilot batches from 20–50 pcs. Standard volume production starts at ${FACTS.moq.standardRun} per 150 m roll. Custom-mould shapes run at the volume tier, depending on complexity.`,
       },
       {
         q: 'How long does production take?',
-        a: '30–45 days from confirmed PO and deposit. Custom tooling adds 15–20 days for mold development. Expedited production is available for seasonal rush orders.',
+        a: '25–35 days from confirmed PO and deposit. Custom tooling adds 15–20 days for mold development. Expedited production is available for seasonal rush orders.',
       },
       {
         q: 'How fast can I get a sample?',
-        a: 'Prototype samples typically ship within 15–20 days of approved artwork and specification.',
+        a: 'Prototype samples typically ship within 7–12 days of approved artwork and specification.',
       },
       {
         q: 'What certifications do you hold?',
-        a: 'ISO 9001 for quality management, CE certification on all products, and valid BSCI social compliance certification with the audit report available on request. REACH and RoHS documentation is provided with every shipment.',
+        a: 'ISO 9001 for quality management, CE certification on all products, and valid BSCI social compliance certification with the audit report available on request. REACH and RoHS documentation is provided with every order.',
       },
       {
-        q: 'Which trade terms do you offer?',
-        a: 'FOB Qingdao, CIF to major global ports, and DDP for qualified partners. Our logistics team handles container booking, export documentation and customs clearance. We ship to 50+ countries across the EU, US, AU and Asia.',
+        q: 'Do you handle export documentation?',
+        a: 'Yes. Export documentation and export-grade packing are handled in-house, and we supply brands in 50+ countries across the EU, US, AU and Asia.',
       },
       {
         q: 'Will my design be shown to other clients?',
@@ -1863,11 +1843,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Do you work with new or startup SUP brands?',
-        a: `Yes. OEM/ODM projects are developed according to your product requirements, target market and volume — trial runs start at 5–10 pcs, standard OEM production at ${FACTS.moq.standardRun} per design.`,
+        a: `Yes. OEM/ODM projects are developed according to your product requirements, target market and volume — pilot runs start at 20–50 pcs and standard volume production at ${FACTS.moq.standardRun} per 150 m roll.`,
       },
       {
         q: 'What information should I provide for an OEM SUP inquiry?',
-        a: 'The most useful information: product type, target market, board size or specifications, desired construction, branding requirements, estimated quantity, packaging requirements and target delivery schedule. Our team returns an engineering assessment and quotation within one business day.',
+        a: 'The most useful information: product type, target market, board size or specifications, desired construction, branding requirements, estimated quantity, packaging requirements and target launch schedule. Our team returns an engineering assessment and quotation within one business day.',
       },
     ],
   },
@@ -1878,7 +1858,7 @@ export const faq: Localized<FaqContent> = {
     items: [
       {
         q: '¿Qué fabrica Supsfactory?',
-        a: 'Supsfactory es una fábrica profesional de fabricación de SUP especializada en tablas hinchables personalizadas y productos acuáticos relacionados para marcas y empresas globales — diseñadas, muestreadas y producidas en nuestra propia planta de 12,000 m² en Qingdao, China.',
+        a: 'Supsfactory es una fábrica profesional de fabricación de SUP especializada en tablas hinchables personalizadas y productos acuáticos relacionados para marcas y empresas globales — diseñadas, muestreadas y producidas en nuestra propia planta de 12,500 m² en Qingdao, China.',
       },
       {
         q: '¿Cuál es la diferencia entre OEM y ODM?',
@@ -1886,23 +1866,23 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: '¿Cuál es la cantidad mínima de pedido?',
-        a: `La prueba de modelos estándar parte de 5–10 uds. La producción OEM estándar parte de ${FACTS.moq.standardRun} por diseño. Los proyectos de molde a medida y marca privada requieren un mínimo de 200 uds., según la complejidad.`,
+        a: `El pequeño lote de co-branding parte de 5–10 uds.; los lotes piloto, de 20–50 uds. La producción de volumen estándar parte de ${FACTS.moq.standardRun} por rollo de 150 m. Los diseños con molde a medida se producen en el tramo de volumen, según la complejidad.`,
       },
       {
         q: '¿Cuánto tarda la producción?',
-        a: '30–45 días desde el PO confirmado y el depósito. El utillaje añade 15–20 días de desarrollo de molde. Se dispone de producción acelerada para los picos de temporada.',
+        a: '25–35 días desde el PO confirmado y el depósito. El utillaje añade 15–20 días de desarrollo de molde. Se dispone de producción acelerada para los picos de temporada.',
       },
       {
         q: '¿Qué rapidez tengo para recibir una muestra?',
-        a: 'Las muestras de prototipo salen en 15–20 días tras la aprobación del arte y la especificación.',
+        a: 'Las muestras de prototipo salen en 7–12 días tras la aprobación del arte y la especificación.',
       },
       {
         q: '¿Qué certificaciones tenéis?',
-        a: 'ISO 9001 para la gestión de calidad, certificación CE en todos los productos y certificación BSCI válida con informe de auditoría disponible. La documentación REACH y RoHS se entrega con cada envío.',
+        a: 'ISO 9001 para la gestión de calidad, certificación CE en todos los productos y certificación BSCI válida con informe de auditoría disponible. La documentación REACH y RoHS se entrega con cada pedido.',
       },
       {
-        q: '¿Qué condiciones comerciales ofrecéis?',
-        a: 'FOB Qingdao, CIF a los principales puertos globales y DDP para partners cualificados. Nuestro equipo de logística gestiona la reserva de contenedor, la documentación de exportación y las aduanas. Enviamos a más de 50 países en la UE, Asia y más.',
+        q: '¿Gestionáis la documentación de exportación?',
+        a: 'Sí. La documentación de exportación y el embalaje de exportación se gestionan en casa, y suministramos a marcas en más de 50 países de la UE, EE. UU., Australia y Asia.',
       },
       {
         q: '¿Mostraréis mi diseño a otros clientes?',
@@ -1930,11 +1910,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: '¿Trabajáis con marcas de SUP nuevas o emergentes?',
-        a: `Sí. Los proyectos OEM/ODM se desarrollan según tus requisitos de producto, mercado objetivo y volumen — las pruebas parten de 5–10 uds. y la producción OEM estándar de ${FACTS.moq.standardRun} por diseño.`,
+        a: `Sí. Los proyectos OEM/ODM se desarrollan según tus requisitos de producto, mercado objetivo y volumen — los pilotos parten de 20–50 uds. y la producción de volumen estándar, de ${FACTS.moq.standardRun} por rollo de 150 m.`,
       },
       {
         q: '¿Qué información debo dar en una consulta OEM de SUP?',
-        a: 'La información más útil: tipo de producto, mercado objetivo, tamaño o especificaciones de la tabla, construcción deseada, requisitos de marca, cantidad estimada, requisitos de embalaje y fecha de entrega prevista. Nuestro equipo responde con una evaluación de ingeniería y un presupuesto en un día laborable.',
+        a: 'La información más útil: tipo de producto, mercado objetivo, tamaño o especificaciones de la tabla, construcción deseada, requisitos de marca, cantidad estimada, requisitos de embalaje y fecha de lanzamiento prevista. Nuestro equipo responde con una evaluación de ingeniería y un presupuesto en un día laborable.',
       },
     ],
   },
@@ -2006,7 +1986,7 @@ export const valueProp: Localized<ValuePropContent> = {
       },
       {
         title: 'Global Supply',
-        body: 'Support for packaging, documentation and international shipment helps simplify the sourcing process.',
+        body: 'Support with packaging and export documentation helps simplify the sourcing process.',
       },
     ],
   },
@@ -2037,7 +2017,7 @@ export const valueProp: Localized<ValuePropContent> = {
       },
       {
         title: 'Suministro global',
-        body: 'Apoyo con embalaje, documentación y envío internacional para simplificar el proceso de abastecimiento.',
+        body: 'Apoyo con embalaje y documentación de exportación para simplificar el proceso de abastecimiento.',
       },
     ],
   },
@@ -2073,7 +2053,7 @@ export const boundary: Localized<BoundaryContent> = {
       { ours: 'Deck artwork prepress and print production from your brand files', theirs: 'Ownership of all brand and artwork files' },
       { ours: 'Prototyping, sampling and sample approval documentation', theirs: 'Final approval on every sample' },
       { ours: 'Batch production, in-process QC and final inspection', theirs: 'Your market, your customers, your data' },
-      { ours: 'Certification documentation, export packing, container loading', theirs: 'End-customer relationships and after-sales' },
+      { ours: 'Certification documentation and export-grade packing', theirs: 'End-customer relationships and after-sales' },
     ],
     footer:
       'Your artwork, tooling and specification files remain your property and are never reused, resold or shown to another client.',
@@ -2090,7 +2070,7 @@ export const boundary: Localized<BoundaryContent> = {
       { ours: 'Preimpresión de arte de cubierta e impresión desde tus archivos de marca', theirs: 'Propiedad de todos los archivos de marca y arte' },
       { ours: 'Prototipado, muestreo y documentación de aprobación de muestras', theirs: 'Aprobación final de cada muestra' },
       { ours: 'Producción por lotes, QC en proceso e inspección final', theirs: 'Tu mercado, tus clientes, tus datos' },
-      { ours: 'Documentación de certificación, embalaje de exportación y carga de contenedor', theirs: 'Relaciones con el cliente final y posventa' },
+      { ours: 'Documentación de certificación y embalaje de exportación', theirs: 'Relaciones con el cliente final y posventa' },
     ],
     footer:
       'Tus archivos de arte, utillaje y especificación siguen siendo de tu propiedad y nunca se reutilizan, revenden ni muestran a otro cliente.',
@@ -2118,7 +2098,7 @@ export const about: Localized<AboutContent> = {
     sub: 'Your Custom SUP Manufacturing Partner',
     story: [
       'We are an inflatable SUP OEM/ODM factory that has spent years building boards for brands, distributors and sourcing teams around the world. Along the way, we kept meeting the same kind of customer — brands and buyers with a clear product vision but no in-house plant to build it.',
-      'So we built SUPsfactory around them. Tiered minimums from 5–10 trial units, complete engineering and design support, and a manufacturing team that treats your first order as seriously as your hundredth. You bring the brand; we run the factory.',
+      'So we built SUPsfactory around them. Tiered minimums from 5–10-unit co-branding runs, complete engineering and design support, and a manufacturing team that treats your first order as seriously as your hundredth. You bring the brand; we run the factory.',
     ],
     values: [
       {
@@ -2131,15 +2111,15 @@ export const about: Localized<AboutContent> = {
       },
       {
         title: 'Flexible by Design',
-        body: 'Tiered MOQs, modular options and honest lead times let brands grow from trial orders to container-scale runs.',
+        body: 'Tiered MOQs, modular options and honest lead times let brands grow from trial orders to volume runs.',
       },
     ],
-    capabilities: ['OEM / ODM / private label', 'Custom moulds', 'Sample service', 'Design & artwork', 'Multi-point QC', 'Export logistics'],
+    capabilities: ['OEM / ODM / private label', 'Custom moulds', 'Sample service', 'Design & artwork', 'Multi-point QC', 'Export documentation'],
     stats: [
-      { value: '50 pcs', label: 'Standard OEM MOQ' },
-      { value: '15–20 days', label: 'Sample lead time' },
-      { value: '30–45 days', label: 'Production lead time' },
-      { value: '5–10 pcs', label: 'Trial order MOQ' },
+      { value: '90–100 pcs', label: 'Standard volume MOQ (per 150 m roll)' },
+      { value: '7–12 days', label: 'Sample lead time' },
+      { value: '25–35 days', label: 'Production lead time' },
+      { value: '20–50 pcs', label: 'Pilot order MOQ' },
     ],
     strength: [
       {
@@ -2148,7 +2128,7 @@ export const about: Localized<AboutContent> = {
       },
       {
         title: 'OEM Manufacturing',
-        body: 'Build your exact specification: materials, colors, logo placement, accessories and packaging, in standard OEM batches from 50 pcs per design.',
+        body: 'Build your exact specification: materials, colors, logo placement, accessories and packaging, in standard volume batches from 90–100+ pcs per 150 m roll.',
       },
       {
         title: 'ODM Solutions',
@@ -2164,7 +2144,7 @@ export const about: Localized<AboutContent> = {
       },
       {
         title: 'Global Delivery',
-        body: 'Export logistics to 40+ markets — FOB Qingdao, CIF or DDP — with consolidated container loading, seaworthy packaging and documentation handled in-house.',
+        body: 'Export documentation, export-grade packing and in-house documentation support for brands in 40+ markets.',
       },
     ],
     partnering: {
@@ -2181,7 +2161,7 @@ export const about: Localized<AboutContent> = {
     sub: 'Tu socio de fabricación de SUP a medida',
     story: [
       'Somos una fábrica OEM/ODM de SUP hinchables que lleva años fabricando tablas para marcas, distribuidores y equipos de compra de todo el mundo. En el camino, nos encontrábamos una y otra vez con el mismo tipo de cliente: marcas y compradores con un plan de producto claro pero sin planta productiva propia.',
-      'Por eso construimos SUPsfactory a su alrededor. Pedidos mínimos por tramos desde 5–10 unidades de prueba, soporte de ingeniería y diseño completo, y un equipo de fabricación que trata tu primer pedido con la misma seriedad que el centésimo. Tú traes la marca; nosotros dirigimos la fábrica.',
+      'Por eso construimos SUPsfactory a su alrededor. Pedidos mínimos por tramos desde 5–10 unidades de co-branding, soporte de ingeniería y diseño completo, y un equipo de fabricación que trata tu primer pedido con la misma seriedad que el centésimo. Tú traes la marca; nosotros dirigimos la fábrica.',
     ],
     values: [
       {
@@ -2194,15 +2174,15 @@ export const about: Localized<AboutContent> = {
       },
       {
         title: 'Flexibles por diseño',
-        body: 'MOQ por tramos, opciones modulares y plazos reales permiten crecer del pedido de prueba a la serie a escala de contenedor.',
+        body: 'MOQ por tramos, opciones modulares y plazos reales permiten crecer del pedido de prueba a la serie por volumen.',
       },
     ],
-    capabilities: ['OEM / ODM y marca privada', 'Moldes a medida', 'Servicio de muestras', 'Diseño e ingeniería', 'QC multipunto', 'Logística de exportación'],
+    capabilities: ['OEM / ODM y marca privada', 'Moldes a medida', 'Servicio de muestras', 'Diseño e ingeniería', 'QC multipunto', 'Documentación de exportación'],
     stats: [
-      { value: '50 uds.', label: 'MOQ OEM estándar' },
-      { value: '15–20 días', label: 'Plazo de muestras' },
-      { value: '30–45 días', label: 'Plazo de producción' },
-      { value: '5–10 uds.', label: 'MOQ de pedido de prueba' },
+      { value: '90–100 uds.', label: 'MOQ de volumen estándar (por rollo de 150 m)' },
+      { value: '7–12 días', label: 'Plazo de muestras' },
+      { value: '25–35 días', label: 'Plazo de producción' },
+      { value: '20–50 uds.', label: 'MOQ de pedido piloto' },
     ],
     strength: [
       {
@@ -2211,7 +2191,7 @@ export const about: Localized<AboutContent> = {
       },
       {
         title: 'Fabricación OEM',
-        body: 'Construimos tu especificación exacta: materiales, colores, colocación del logotipo, accesorios y embalaje, en lotes OEM estándar a partir de 50 uds. por diseño.',
+        body: 'Construimos tu especificación exacta: materiales, colores, colocación del logotipo, accesorios y embalaje, en lotes de volumen estándar a partir de 90–100+ uds. por rollo de 150 m.',
       },
       {
         title: 'Soluciones ODM',
@@ -2227,13 +2207,13 @@ export const about: Localized<AboutContent> = {
       },
       {
         title: 'Entrega global',
-        body: 'Logística de exportación a más de 40 mercados — FOB Qingdao, CIF o DDP — con carga consolidada de contenedores, embalaje marítimo y documentación gestionada internamente.',
+        body: 'Documentación de exportación, embalaje de exportación y soporte documental interno para marcas en más de 40 mercados.',
       },
     ],
     partnering: {
       title: 'Colaboramos con empresas de todo el mundo',
       body: [
-        'SUPsfactory trabaja con marcas de SUP, distribuidores, resorts, escuelas y empresas de actividades al aire libre que necesitan una fábrica de tablas hinchables fiable — desde el primer pedido de prueba hasta programas a escala de contenedor.',
+        'SUPsfactory trabaja con marcas de SUP, distribuidores, resorts, escuelas y empresas de actividades al aire libre que necesitan una fábrica de tablas hinchables fiable — desde el primer pedido de prueba hasta programas de producción por volumen.',
         'Cuéntanos tu mercado y tu precio objetivo, y te responderemos con una ficha de especificaciones, MOQ y plazos para tu modelo de negocio.',
       ],
     },
@@ -2419,14 +2399,14 @@ export interface WorksPageContent {
 export const worksPage: Localized<WorksPageContent> = {
   en: {
     kicker: 'Development Process',
-    title: 'From Specification to Shipped Container',
+    title: 'From Specification to Finished Product',
     sub: 'Requirement intake, engineering review, sampling, production and export — every step inside our own plant.',
     consultTitle: 'Start With a Specification Review',
     consultBody: 'Send us your spec, reference board or drawings. We return a manufacturability assessment and a quotation — no obligation.',
   },
   es: {
     kicker: 'Proceso de desarrollo',
-    title: 'De la especificación al contenedor enviado',
+    title: 'De la especificación al producto terminado',
     sub: 'Recepción de requisitos, revisión de ingeniería, muestras, producción en serie y exportación — cada paso dentro de nuestra propia planta.',
     consultTitle: 'Empieza con una revisión de especificación',
     consultBody: 'Envíanos tu especificación, una tabla de referencia o planos. Te devolvemos una evaluación de fabricabilidad y un presupuesto, sin compromiso.',

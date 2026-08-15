@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Every board is inspected against published specifications before shipment: 100% inflation hold test at 1.25× rated pressure for 48 hours (auto-reject above 5% pressure drop), tensile and seam-peel testing per ISO 1421, and a 100-point assembly checklist. The lab reports to the managing director, not production, and can halt any shipment.'
+  text: 'Every board is inspected against published specifications before shipment: 100% inflation hold test at 18.0 PSI for 24 hours (auto-reject above 0.50 PSI pressure drop), tensile and seam-peel testing per ISO 1421, and a 100-point assembly checklist. The lab reports to the managing director, not production, and can halt any shipment.'
   verified: '2026-08'
 
 intro: 'Every board that leaves our workshop carries the certification that it has passed a defined set of quality inspections and material tests. Our Quality & Inspection Lab is an independent function within the organisation — it reports directly to the managing director, not to production — ensuring that no commercial pressure can compromise the inspection gate. If a material batch or a completed board does not meet the published specification, the lab has the authority to halt shipment until the non-conformance is resolved.'
@@ -61,7 +61,7 @@ content_html: |
           <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 3</div>
           <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
             <p class="text-sm font-semibold">Chamber air test</p>
-            <p class="text-xs text-gray-500 mt-1">Board pressurised to 1.25 × rated pressure (15 PSI working), held 48 h. Pressure drop &gt; 5 % auto-rejects. Data logged per serial number.</p>
+            <p class="text-xs text-gray-500 mt-1">Board pressurised to 18.0 PSI (12–15 PSI working), held 24 h. Pressure drop &gt; 0.50 PSI auto-rejects. Data logged per serial number.</p>
           </div>
         </div>
         <div class="flex gap-4">
@@ -85,8 +85,8 @@ content_html: |
   <h2>Standard checks on every batch</h2>
   <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
-      <span class="block text-2xl font-bold text-blue-600">1.25 ×</span>
-      <span class="text-xs text-gray-500">Rated pressure in chamber air test, held 48 h</span>
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18.0 PSI in chamber air test, held 24 h</span>
     </div>
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
       <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
@@ -133,5 +133,13 @@ content_html: |
 cta:
   title: 'Request a sample QC checklist'
   subtitle: 'See the exact inspection gates, test methods and documents your batch would be checked against — send your board type and quantity.'
-  button_text: 'Request the QC checklist'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Request the QC checklist
+      href: /contact#quality-inquiry
+    - text: The 7-stage inspection system
+      href: /quality
+    - text: Factory quality lab & test report downloads
+      href: /factory/quality-lab
+    - text: Non-conforming control standard
+      href: /factory/non-conforming-control

@@ -22,7 +22,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Minimum order quantity: 5–10 units for a trial order, 50 units per model for standard OEM production, and 200 units for custom-mould projects. Samples ship in 15–20 days; bulk production runs 30–45 days after PO and deposit. CE certification and full compliance documentation included with every order.'
+  text: 'Minimum order quantity is confirmed by project configuration: sample (1–2 units), pilot (20–50 units) and standard volume (90–100+ units per batch from a 150 m drop-stitch roll), with small-batch co-branding from under 20 units. Samples ship in 7–12 days; bulk production runs 25–35 days after PO and deposit. CE certification and full compliance documentation included with every order.'
   verified: '2026-08'
   image:
     src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
@@ -35,7 +35,7 @@ answer:
       href: /oem-odm-manufacturer
       variant: secondary
 stats:
-  - value: '30–45'
+  - value: '25–35'
     label: 'Days production lead time'
     detail: 'From confirmed PO and deposit'
   - value: '50'
@@ -72,17 +72,17 @@ faqs:
   subtitle: 'Answers to the most common questions from brands launching their own paddle.'
   items:
     - title: 'How do I create my own paddle brand?'
-      description: 'Launch your brand: brief, design, CE-certified prototype, mass production, and delivery. Samples in 15–20 days, production in 30–45 days from PO and deposit. Explore our OEM packages.'
+      description: 'Launch your brand: brief, design, CE-certified prototype, mass production, and delivery. Samples in 7–12 days, production in 25–35 days from PO and deposit. Explore our OEM packages.'
     - title: 'What is the production lead time?'
-      description: 'The sample is ready in 15–20 days, bulk production in 30–45 days after PO and deposit depending on volume.'
+      description: 'The sample is ready in 7–12 days, bulk production in 25–35 days after PO and deposit depending on volume.'
     - title: 'Does the paddle carry our logo?'
       description: 'Yes — full private label: logo printing, custom colors, packaging, and labels in your brand.'
     - title: 'Can I buy in bulk from day one?'
-      description: 'The MOQ is tiered: 5–10 units for trial orders, 50 units for standard models, and 200 units for custom mould, with wholesale pricing tiers as volume increases.'
+      description: 'MOQ is confirmed by project configuration — sample (1–2 units), pilot (20–50 units) and standard volume (90–100+ units per batch), with wholesale pricing tiers as volume increases.'
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> paddle and board production share the same <a href="/oem-odm-manufacturer">OEM/ODM program</a> and the same <a href="/factory">12,000 m&sup2; factory floor</a> — one quote covers both.</p>
+    <p><strong>Keep reading:</strong> paddle and board production share the same <a href="/oem-odm-manufacturer">OEM/ODM program</a> and the same <a href="/factory">12,500 m&sup2; factory floor</a> — one quote covers both.</p>
   </div>
 
 geo:

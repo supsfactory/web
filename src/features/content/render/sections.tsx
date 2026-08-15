@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { ArrowRight, Check, ChevronDown } from 'lucide-react'
+import { ArrowRight, Check, ChevronDown, FileText } from 'lucide-react'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
 import { brandify } from '../brand'
@@ -124,7 +124,13 @@ interface FaqItem {
 function faqItems(c: Record<string, unknown>): FaqItem[] {
   if (Array.isArray(c.questions)) return c.questions as FaqItem[]
   if (Array.isArray(c.faqs)) return c.faqs as FaqItem[]
+  if (Array.isArray(c.__raw) && (c.__raw as Record<string, unknown>[]).every((it) => isObj(it) && ('q' in it || 'question' in it))) {
+    return (c.__raw as Record<string, unknown>[]).map((it) => ({ q: it.q ?? it.question, a: it.a ?? it.answer }))
+  }
   if (Array.isArray(c.items) && c.items.every((it) => isObj(it) && 'q' in it)) return c.items as FaqItem[]
+  if (Array.isArray(c.items) && c.items.every((it) => isObj(it) && ('title' in it || 'question' in it))) {
+    return (c.items as Record<string, unknown>[]).map((it) => ({ q: it.title ?? it.question, a: it.description ?? it.answer }))
+  }
   return []
 }
 
@@ -286,6 +292,7 @@ interface CardItem {
   image?: unknown
   alt?: unknown
   icon?: unknown
+  icon_bg?: unknown
   href?: unknown
   link?: unknown
   link_label?: unknown
@@ -298,6 +305,8 @@ function cardItems(c: Record<string, unknown>): CardItem[] {
   if (Array.isArray(c.workshops)) return c.workshops as CardItem[]
   if (Array.isArray(c.values)) return c.values as CardItem[]
   if (Array.isArray(c.projects)) return c.projects as CardItem[]
+  if (Array.isArray(c.services)) return c.services as CardItem[]
+  if (Array.isArray(c.labs)) return c.labs as CardItem[]
   return []
 }
 
@@ -320,7 +329,8 @@ function FeatureGrid({ c, grid: gridProp = 'sm:grid-cols-2 lg:grid-cols-3' }: { 
         {items.map((it, i) => {
           const body = brandify(str(it.desc) || str(it.description) || str(it.body) || str(it.subtitle) || '')
           const href = remapHref(str(it.href) || str(it.link) || '')
-          const fragment = href.startsWith('#') || href.includes('?') || href.startsWith('http')
+          const fragment =
+            href.startsWith('#') || href.includes('?') || href.startsWith('http') || href.startsWith('/downloads/') || href.startsWith('/assets/')
           const image = assetUrl(str(it.image))
           const icon = str(it.icon)
           const card = (
@@ -329,7 +339,7 @@ function FeatureGrid({ c, grid: gridProp = 'sm:grid-cols-2 lg:grid-cols-3' }: { 
                 <img src={image} alt={str(it.alt) || str(it.title)} loading="lazy" className="mb-4 aspect-[4/3] w-full rounded-xl border border-border-2 object-cover" />
               )}
               {icon && (
-                <span className={`mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl font-display text-lg font-extrabold ${icon.length === 1 ? (ICON_HUE[icon.toLowerCase()] ?? 'bg-soft text-primary') : 'bg-soft text-primary'}`}>
+                <span className={`mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl font-display text-lg font-extrabold ${ICON_HUE[str(it.icon_bg)] ?? (icon.length === 1 ? (ICON_HUE[icon.toLowerCase()] ?? 'bg-soft text-primary') : 'bg-soft text-primary')}`}>
                   {icon.length === 1 ? icon : <Check size={18} />}
                 </span>
               )}
@@ -429,6 +439,89 @@ function ProductionFlow({ c }: { c: Record<string, unknown> }) {
             </dl>
           </div>
         ))}
+      </div>
+    </Container>
+  )
+}
+
+/* ─────────────────────── 7-stage QC flow ─────────────────────── */
+
+/**
+ * Seven-stage quality control flow (per-project inspection plan). Each stage
+ * card pairs a factory photo with the four blocks a buyer audits — inspection
+ * object, method, acceptance criteria and record output — plus a download
+ * link to the bilingual report dossier. `/downloads/*` and `/assets/*` hrefs
+ * are static files and must not be locale-prefixed.
+ */
+function QcFlowWidget({ c }: { c: Record<string, unknown> }) {
+  const { locale } = useTranslation()
+  const stages = arr(c.stages) as Record<string, unknown>[]
+  if (stages.length === 0) return null
+  const objLabel = str(c.obj_label) || 'Inspection object'
+  const methodLabel = str(c.method_label) || 'Inspection method'
+  const criteriaLabel = str(c.criteria_label) || 'Acceptance criteria'
+  const recordLabel = str(c.record_label) || 'Record output'
+  const linkHref = (href: string): string =>
+    href.startsWith('http') || href.startsWith('#') || href.includes('?') || href.startsWith('/downloads/') || href.startsWith('/assets/')
+      ? href
+      : localize(href, locale)
+  return (
+    <Container>
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
+      <div className="mx-auto mt-10 max-w-4xl space-y-6">
+        {stages.map((s, i) => {
+          const image = assetUrl(str(s.image))
+          const href = str(s.link)
+          const external = href.startsWith('http')
+          return (
+            <div key={i} className="marine-card overflow-hidden p-0">
+              <div className="grid md:grid-cols-[260px_1fr]">
+                {image && (
+                  <img
+                    src={image}
+                    alt={str(s.alt) || str(s.title) || ''}
+                    loading="lazy"
+                    className="h-52 w-full border-b border-border-2 object-cover md:h-full md:border-b-0 md:border-r"
+                  />
+                )}
+                <div className="flex flex-col p-6">
+                  <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+                    <span className="pill border-primary/25! bg-soft! text-primary!">{str(s.stage)}</span>
+                    <h3 className="font-display text-[17px] font-bold">{brandify(str(s.title) || '')}</h3>
+                  </div>
+                  {str(s.summary) && <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{brandify(str(s.summary))}</p>}
+                  <dl className="mt-4 grid gap-2.5 text-[12.5px] leading-relaxed sm:grid-cols-2">
+                    {[
+                      [objLabel, str(s.object)],
+                      [methodLabel, str(s.method)],
+                      [criteriaLabel, str(s.criteria)],
+                      [recordLabel, str(s.record)],
+                    ].map(
+                      ([label, value]) =>
+                        value && (
+                          <div key={label} className="rounded-lg bg-bg-alt p-3">
+                            <dt className="font-bold uppercase tracking-wide text-fg-3">{label}</dt>
+                            <dd className="mt-1 text-fg-2">{brandify(value)}</dd>
+                          </div>
+                        ),
+                    )}
+                  </dl>
+                  {href && (
+                    <a
+                      href={linkHref(href)}
+                      target={external ? '_blank' : undefined}
+                      rel={external ? 'noreferrer' : undefined}
+                      className="mt-4 inline-flex items-center gap-1.5 self-start rounded-lg border border-primary/30 bg-primary/5 px-3.5 py-2 text-[13px] font-bold text-primary transition-colors hover:bg-primary/10"
+                    >
+                      <FileText size={15} />
+                      {str(s.link_label) || (locale === 'es' ? 'Descargar informe (PDF)' : 'Download report (PDF)')}
+                    </a>
+                  )}
+                </div>
+              </div>
+            </div>
+          )
+        })}
       </div>
     </Container>
   )
@@ -537,7 +630,7 @@ function TraceabilityWidget({ c }: { c: Record<string, unknown> }) {
 }
 
 function EquipmentWidget({ c }: { c: Record<string, unknown> }) {
-  const items = arr(c.items) as Record<string, unknown>[]
+  const items = Array.isArray(c.__raw) ? (c.__raw as Record<string, unknown>[]) : (arr(c.items) as Record<string, unknown>[])
   if (items.length === 0) return null
   return (
     <Container>
@@ -560,12 +653,16 @@ function EquipmentWidget({ c }: { c: Record<string, unknown> }) {
 
 function IntelligenceCards({ c }: { c: Record<string, unknown> }) {
   const { locale } = useTranslation()
-  const cards = arr(c.cards) as Record<string, unknown>[]
+  // Accept both shapes: an object with a `cards` array (e.g. the /quality
+  // documentation section) and a bare card array (factory page), which the
+  // dispatcher wraps as `{ __raw: [...] }`.
+  const cards = (Array.isArray(c.__raw) ? (c.__raw as Record<string, unknown>[]) : arr(c.cards)) as Record<string, unknown>[]
   if (cards.length === 0) return null
+  const title = str(c.title)
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} />
-      <div className="mt-10 grid gap-5 md:grid-cols-3">
+      {title && <SectionHead kicker={str(c.tagline)} title={brandify(title)} sub={brandify(str(c.subtitle) || '')} />}
+      <div className={`grid gap-5 md:grid-cols-3 ${title ? 'mt-10' : ''}`}>
         {cards.map((card, i) => (
           <div key={i} className="marine-card flex flex-col p-6">
             <span className={`mb-3 inline-flex h-11 w-11 items-center justify-center rounded-2xl font-display text-lg font-extrabold ${ICON_HUE[str(card.icon_bg)] ?? 'bg-soft text-primary'}`}>
@@ -583,7 +680,7 @@ function IntelligenceCards({ c }: { c: Record<string, unknown> }) {
               </div>
             )}
             {str(card.link) && (
-              (str(card.link).startsWith('#') || str(card.link).includes('?') || str(card.link).startsWith('http'))
+              (str(card.link).startsWith('#') || str(card.link).includes('?') || str(card.link).startsWith('http') || str(card.link).startsWith('/downloads/') || str(card.link).startsWith('/assets/'))
                 ? <a href={str(card.link)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
                     {str(card.link_label) || (locale === 'es' ? 'Saber más' : 'Learn more')} <ArrowRight size={14} />
                   </a>
@@ -1238,14 +1335,108 @@ function BuyerGuidesWidget({ c }: { c: Record<string, unknown> }) {
   )
 }
 
+/* ─────────────────────── facts (key-value pairs) ─────────────────────── */
+
+function FactsWidget({ c }: { c: Record<string, unknown> }) {
+  const { locale } = useTranslation()
+  const LABELS: Record<string, Record<string, string>> = {
+    moq: { en: 'MOQ', es: 'Cantidad mínima de pedido' },
+    lead_time: { en: 'Lead time', es: 'Plazo de entrega' },
+    payment: { en: 'Payment terms', es: 'Condiciones de pago' },
+    capacity: { en: 'Annual capacity', es: 'Capacidad anual' },
+    shipping: { en: 'Shipping', es: 'Envío' },
+  }
+  const entries = Object.entries(c).filter(([k]) => LABELS[k] && c[k])
+  if (entries.length === 0) return null
+  return (
+    <Container>
+      {(str(c.tagline) || str(c.title)) && <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />}
+      <dl className="mx-auto mt-8 grid max-w-3xl gap-3 sm:grid-cols-3">
+        {entries.map(([k, v]) => (
+          <div key={k} className="marine-card p-4">
+            <dt className="text-[11px] font-bold uppercase tracking-[0.14em] text-fg-3">{LABELS[k][locale] ?? LABELS[k].en}</dt>
+            <dd className="mt-1 text-[13.5px] font-semibold leading-snug text-foreground">{brandify(str(v))}</dd>
+          </div>
+        ))}
+      </dl>
+    </Container>
+  )
+}
+
+/* ─────────────────────── grouped bullet lists ─────────────────────── */
+
+function CapabilityGroups({ c }: { c: Record<string, unknown> }) {
+  const groups = arr(c.groups) as Record<string, unknown>[]
+  if (groups.length === 0) return null
+  return (
+    <Container>
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
+      <div className="mt-10 grid gap-5 md:grid-cols-2">
+        {groups.map((g, i) => (
+          <div key={i} className="marine-card p-6">
+            <h3 className="font-display text-[16px] font-bold">{brandify(str(g.title) || '')}</h3>
+            <ul className="mt-3 space-y-2.5">
+              {(arr(g.items) as unknown[]).map((it, j) => (
+                <li key={j} className="flex items-start gap-2.5 text-[13.5px] leading-relaxed text-fg-2">
+                  <Check size={15} className="mt-0.5 shrink-0 text-primary" />
+                  {brandify(String(it))}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </Container>
+  )
+}
+
+/* ─────────────────────── services + CTA ─────────────────────── */
+
+function ServicesWidget({ c }: { c: Record<string, unknown> }) {
+  const { locale } = useTranslation()
+  const services = arr(c.services) as Record<string, unknown>[]
+  if (services.length === 0) return null
+  const href = str(c.cta_link) || ''
+  return (
+    <Container>
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
+      <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {services.map((s, i) => (
+          <div key={i} className="marine-card flex flex-col p-6">
+            <h3 className="font-display text-[16px] font-bold">{brandify(str(s.title) || '')}</h3>
+            <p className="mt-2 flex-1 text-[13.5px] leading-relaxed text-fg-2">{brandify(str(s.desc) || str(s.description) || '')}</p>
+          </div>
+        ))}
+      </div>
+      {str(c.cta) && (
+        <p className="mt-8 text-center">
+          {href ? (
+            <a href={href.startsWith('http') ? href : localize(href, locale)} className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-5 py-2.5 text-[14px] font-bold text-primary-foreground transition-opacity hover:opacity-90">
+              {brandify(str(c.cta))} <ArrowRight size={16} />
+            </a>
+          ) : (
+            <span className="font-semibold text-foreground">{brandify(str(c.cta))}</span>
+          )}
+        </p>
+      )}
+    </Container>
+  )
+}
+
 const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNode | null> = {
   intelligence_cards: (c) => <IntelligenceCards c={c} />,
   oem_section: (c) => <OemCases c={c} />,
   production_flow: (c) => <ProductionFlow c={c} />,
+  qc_stages: (c) => <QcFlowWidget c={c} />,
+  qc_flow: (c) => <QcFlowWidget c={c} />,
   workforce: (c) => <WorkforceWidget c={c} />,
   material_traceability: (c) => <TraceabilityWidget c={c} />,
   qc_dashboard: (c) => <StatGrid items={statItems(c)} heading={c} />,
   equipment_section: (c) => <EquipmentWidget c={c} />,
+  equipment: (c) => <EquipmentWidget c={c} />,
+  oem_capacity: (c) => <FactsWidget c={c} />,
+  capabilities: (c) => <CapabilityGroups c={c} />,
+  rd_services: (c) => <ServicesWidget c={c} />,
   features3_cases: (c) => <CaseCardsWidget c={c} />,
   categories: (c) => <CategoriesWidget c={c} />,
   table: (c) => <SizeTableWidget c={c} />,
@@ -1290,6 +1481,40 @@ const TYPE_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNo
   content: (c) => <ContentWidget c={c} />,
 }
 
+/* ─────────────────────── generic object-array table ─────────────────────── */
+
+function ObjectTable({ rows }: { rows: Record<string, unknown>[] }) {
+  if (rows.length === 0) return null
+  const keys = Object.keys(rows[0])
+  if (keys.length === 0) return null
+  return (
+    <div className="overflow-x-auto rounded-2xl border border-border">
+      <table className="w-full min-w-[640px] text-left text-[13.5px]">
+        <thead>
+          <tr className="border-b border-border bg-soft/60">
+            {keys.map((k) => (
+              <th key={k} className="px-4 py-3 font-display text-[12.5px] font-extrabold uppercase tracking-wide text-fg-2">
+                {brandify(k.replace(/_/g, ' '))}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody className="divide-y divide-border">
+          {rows.map((row, i) => (
+            <tr key={i} className="align-top">
+              {keys.map((k) => (
+                <td key={k} className="px-4 py-3.5 font-semibold text-fg-2">
+                  {brandify(str(row[k]))}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
 function ContentWidget({ c }: { c: unknown }) {
   if (c == null) return null
   if (typeof c === 'string') {
@@ -1314,6 +1539,7 @@ function ContentWidget({ c }: { c: unknown }) {
       )
     }
     if (c.every((it) => isObj(it) && 'title' in it)) return <FeatureGrid c={{ items: c }} />
+    if (c.every((it) => isObj(it) && Object.keys(it).length > 0)) return <ObjectTable rows={c as Record<string, unknown>[]} />
     return null
   }
   if (isObj(c)) {

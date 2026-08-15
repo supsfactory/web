@@ -76,3 +76,15 @@ body: |
 
   <h3>¿Pueden rendir los SUP hinchables igual que las tablas rígidas?</h3>
   <p>Para el paleo recreativo y la travesía, los SUP hinchables igualan el rendimiento de las tablas rígidas. Las rígidas siguen destacando en competición y surf avanzado por su menor peso y una flexión más refinada.</p>
+
+  <div class="not-prose my-10">
+    <div class="rounded-2xl border border-sky-200 bg-sky-50 p-6 text-center dark:border-sky-900 dark:bg-sky-950">
+      <h3 class="font-display text-lg font-bold">Mira cómo se fabrica realmente una tabla hinchable</h3>
+      <p class="mt-2 text-sm text-fg-2">Del núcleo drop-stitch a la prueba de presión de 24 horas: recorre el proceso de fábrica detrás de cada tabla hinchable.</p>
+      <p class="mt-4 flex flex-wrap justify-center gap-3">
+        <a href="/es/factory/process" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">Cómo se fabrican las tablas</a>
+        <a href="/es/technology/drop-stitch-core" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Tecnología drop-stitch</a>
+        <a href="/es/size-guide" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Encuentra tu talla</a>
+      </p>
+    </div>
+  </div>

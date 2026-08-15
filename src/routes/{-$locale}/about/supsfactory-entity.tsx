@@ -15,7 +15,7 @@ const FACTS: Record<Locale, { label: string; value: string }[]> = {
   en: [
     { label: 'Legal entity', value: 'Qingdao Vatrad Group Co., Ltd.' },
     { label: 'Product focus', value: 'Inflatable SUP manufacturing — OEM, ODM & private label' },
-    { label: 'Factories', value: '12,000 m² in-house plant in Qingdao, China' },
+    { label: 'Factories', value: '12,500 m² in-house plant in Qingdao, China' },
     { label: 'Minimum order', value: 'From 5 pieces (trial) / 50 standard' },
     { label: 'Markets', value: 'Worldwide — Europe, Americas, Asia, Oceania' },
     { label: 'Business model', value: 'B2B development & manufacturing' },
@@ -23,7 +23,7 @@ const FACTS: Record<Locale, { label: string; value: string }[]> = {
   es: [
     { label: 'Entidad legal', value: 'Qingdao Vatrad Group Co., Ltd.' },
     { label: 'Enfoque de producto', value: 'Fabricación de SUP hinchables: OEM, ODM y etiqueta privada' },
-    { label: 'Fábricas', value: 'Planta propia de 12.000 m² en Qingdao, China' },
+    { label: 'Fábricas', value: 'Planta propia de 12.500 m² en Qingdao, China' },
     { label: 'Pedido mínimo', value: 'Desde 5 unidades (prueba) / 50 estándar' },
     { label: 'Mercados', value: 'Mundial: Europa, América, Asia, Oceanía' },
     { label: 'Modelo de negocio', value: 'Desarrollo y fabricación B2B' },
@@ -51,8 +51,8 @@ export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
           : 'SUPsfactory | Inflatable SUP OEM & ODM Manufacturer',
       description:
         locale === 'es'
-          ? 'SUPsfactory: fabricación de SUP hinchables OEM/ODM con ingeniería, moldes, muestras y producción a escala de contenedor, por Qingdao Vatrad Group.'
-          : 'SUPsfactory is the inflatable SUP OEM & ODM manufacturing company — engineering, tooling, sampling and container-scale production by Qingdao Vatrad Group.',
+          ? 'SUPsfactory: fabricación de SUP hinchables OEM/ODM con ingeniería, moldes, muestras y producción a gran escala, por Qingdao Vatrad Group.'
+          : 'SUPsfactory is the inflatable SUP OEM & ODM manufacturing company — engineering, tooling, sampling and full-scale production by Qingdao Vatrad Group.',
     })
     return { meta, links }
   },

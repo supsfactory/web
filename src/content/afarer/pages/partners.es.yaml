@@ -17,7 +17,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Las condiciones de colaboración parten de un lote de prueba de 5–10 unidades (muestras en 15–20 días) y llegan a series OEM estándar de 50 unidades (30–45 días) o a moldes personalizados de 200 unidades para productos de marca privada. Los programas de distribución incluyen territorios exclusivos, precios mayoristas directos de fábrica y condiciones de pago de 45–60 días, con envío FOB Qingdao o CIF.'
+  text: 'Las condiciones de colaboración parten de muestras (1–2 unidades) y lotes piloto (20–50 unidades, muestras en 7–12 días), escalan a series de volumen OEM estándar de 90–100+ unidades por lote a partir de un rollo completo de drop-stitch de 150 m, o invierten en moldes a medida para productos de marca privada. El MOQ se confirma según la configuración del proyecto. Los programas de distribución incluyen territorios exclusivos, precios mayoristas directos de fábrica y condiciones de pago de 45–60 días, con envío FOB Qingdao o CIF.'
   verified: '2026-08'
 content_programs:
   tagline: Programas para socios
@@ -49,7 +49,7 @@ content_benefits:
   subtitle: 'Nuestros socios trabajan con una capacidad de fabricación real, una calidad constante y una ingeniería receptiva.'
   list:
     - 'Acceso directo a la fábrica: trabaja directamente con nuestro equipo de fabricación — sin intermediarios. Respuestas más rápidas, visibilidad completa de la producción y respuestas de ingeniería procedentes de quienes construyen las tablas.'
-    - 'Personalización lista: marca tus productos con colores personalizados, logotipos, embalajes y especificaciones. Los niveles de pedido mínimo empiezan con un lote de prueba de 5–10 unidades.'
+    - 'Personalización lista: marca tus productos con colores personalizados, logotipos, embalajes y especificaciones. El MOQ se confirma según la configuración del proyecto — etapas de muestra, piloto y volumen.'
     - 'Calidad garantizada: producción certificada ISO 9001, conforme a CE, BSCI y REACH. Todos los productos se prueban a presión antes de la expedición.'
     - 'Logística mundial: envíos desde Qingdao (China) con opciones FOB, CIF y DDP. Almacén estadounidense en Montclair (CA) para la distribución en Norteamérica.'
     - 'Documentación técnica: catálogos de producto, fotografías y documentación técnica para apoyar las decisiones de reiteración de pedidos.'
@@ -79,5 +79,5 @@ cta:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Sigue leyendo:</strong> los programas de colaboración comparten un <a href="/oem-odm-manufacturer">motor de fabricación OEM/ODM</a> —las condiciones, los pedidos mínimos de prueba y la personalización quedan definidos allí— y toda la producción pasa por la <a href="/factory">fábrica de 12,000 m&sup2;</a>.</p>
+    <p><strong>Sigue leyendo:</strong> los programas de colaboración comparten un <a href="/oem-odm-manufacturer">motor de fabricación OEM/ODM</a> —las condiciones, los pedidos mínimos de prueba y la personalización quedan definidos allí— y toda la producción pasa por la <a href="/factory">fábrica de 12,500 m&sup2;</a>.</p>
   </div>

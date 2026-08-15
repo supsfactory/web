@@ -17,7 +17,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Partnership terms start at a 5–10 unit trial batch (samples in 15–20 days) and scale to 50-unit standard OEM runs (30–45 days) or 200-unit custom moulds for private label products. Distribution programs carry exclusive territories, factory-direct wholesale pricing and 45–60 day payment terms, shipped FOB Qingdao or CIF.'
+  text: 'Partnership terms start with sample (1–2 units) and pilot batches (20–50 units, samples in 7–12 days), then scale to standard volume OEM runs of 90–100+ units per batch from a full 150 m drop-stitch roll, or invest in custom moulds for private label products. MOQ is confirmed by project configuration. Distribution programs carry exclusive territories, factory-direct wholesale pricing and 45–60 day payment terms, shipped FOB Qingdao or CIF.'
   verified: '2026-08'
 content_programs:
   tagline: Partner Programs
@@ -49,7 +49,7 @@ content_benefits:
   subtitle: 'Our partners work with real manufacturing capability, consistent quality, and responsive engineering support.'
   list:
     - 'Direct Factory Access: Work directly with our manufacturing team — no middlemen. Faster responses, full visibility into production, and engineering answers from the people who build the boards.'
-    - 'Customization Ready: Brand your products with custom colors, logos, packaging, and specifications. MOQ tiers start with a 5–10 unit trial batch.'
+    - 'Customization Ready: Brand your products with custom colors, logos, packaging, and specifications. MOQ is confirmed by project configuration — sample, pilot and volume stages.'
     - 'Quality Guaranteed: ISO 9001 certified production with CE, BSCI, and REACH compliance. Every product pressure-tested before shipping.'
     - 'Global Logistics: Shipping from Qingdao, China with FOB, CIF, and DDP options. US warehouse in Montclair, CA for North American distribution.'
     - 'Technical Documentation: Product catalogs, photography, and technical documentation to support specification and reorder decisions.'
@@ -79,5 +79,5 @@ cta:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> partner programs share one <a href="/oem-odm-manufacturer">OEM/ODM manufacturing engine</a> — terms, trial MOQs and customization are defined there — and all production runs through the <a href="/factory">12,000 m&sup2; factory</a>.</p>
+    <p><strong>Keep reading:</strong> partner programs share one <a href="/oem-odm-manufacturer">OEM/ODM manufacturing engine</a> — terms, trial MOQs and customization are defined there — and all production runs through the <a href="/factory">12,500 m&sup2; factory</a>.</p>
   </div>

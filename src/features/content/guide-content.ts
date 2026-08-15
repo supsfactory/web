@@ -156,7 +156,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         title: 'Start With a Trial Order, Not a MOQ Discussion',
-        body: 'A factory that only talks minimums is a sign of a trading desk, not a plant. Real manufacturers offer tiered minimums — trial runs from 5–10 units, standard OEM batches from 50 per design, and full custom-mould projects from 200. Order a small batch first: it tests communication, spec discipline and sample quality without betting your whole launch.',
+        body: 'A factory that only talks minimums is a sign of a trading desk, not a plant. Real manufacturers offer tiered minimums — co-branding runs from 5–10 units, pilot batches from 20–50 units, standard volume runs from 90–100+ per 150 m roll, and full custom-mould projects at the volume tier. Order a small batch first: it tests communication, spec discipline and sample quality without betting your whole launch.',
       },
       {
         title: 'Check What Is Actually In-House',
@@ -168,7 +168,7 @@ export const GUIDES: Guide[] = [
       },
       {
         title: 'Know Your Costs Before the PO',
-        body: 'Get the full cost picture in writing: unit price by container, tooling or mould costs if you want a new shape, artwork and printing setup, packaging, and freight to your port. Clarify whether pricing is FOB, CIF or DDP — the difference can be 10–15% of landed cost.',
+        body: 'Get the full cost picture in writing: unit price by quantity, tooling or mould costs if you want a new shape, artwork and printing setup, and packaging.',
       },
       {
         title: 'Ask for Third-Party Inspection',
@@ -176,60 +176,23 @@ export const GUIDES: Guide[] = [
       },
       {
         title: 'Lead Times That Hold',
-        body: 'For inflatable SUPs, expect samples in 15–20 days and batch production in 30–45 days after confirmed PO and deposit, plus tooling time when you order a new mould. A factory that quotes dramatically shorter times than everyone else is quoting from a brochure, not a schedule.',
+        body: 'For inflatable SUPs, expect samples in 7–12 days and batch production in 25–35 days after confirmed PO and deposit, plus tooling time when you order a new mould. A factory that quotes dramatically shorter times than everyone else is quoting from a brochure, not a schedule.',
       },
     ],
     faqs: [
-      { q: 'What is the minimum order for custom SUP boards?', a: 'Tiered minimums are standard: 5–10 units for a trial run, 50 units per design for a standard OEM batch, and 200 units for a fully custom-mould or private-label project.' },
-      { q: 'Can I see a sample before mass production?', a: 'Yes — samples ship in 15–20 days. Most factories credit sample and mould costs toward your first production order once it is confirmed.' },
+      { q: 'What is the minimum order for custom SUP boards?', a: 'Tiered minimums are standard: 1–2 units for samples, 5–10 units for co-branding, 20–50 units for a pilot batch, and 90–100+ units per 150 m roll for standard volume; fully custom-mould projects run at the volume tier.' },
+      { q: 'Can I see a sample before mass production?', a: 'Yes — samples are ready in 7–12 days. Most factories credit sample and mould costs toward your first production order once it is confirmed.' },
       { q: 'How do I verify a SUP factory is real?', a: 'Ask for a live video walkthrough of the production floor, check for an operating plant address in Qingdao or another manufacturing hub, and request documentation of prior export orders. Trial orders are the ultimate proof.' },
-      { q: 'What should a SUP factory quote include?', a: 'Unit price per board, tooling or mould costs, artwork setup, packaging, QC and inspection terms, and the freight term (FOB, CIF or DDP) with an estimated landed cost.' },
+      { q: 'What should a SUP factory quote include?', a: 'Unit price per board, tooling or mould costs, artwork setup, packaging, QC and inspection terms, and payment terms.' },
     ],
     related: [
       { label: 'Our OEM / ODM manufacturing', href: '/oem-odm-manufacturer' },
       { label: 'SUP product development process', href: '/product-development' },
       { label: 'Factory capacity and plant', href: '/factory' },
+      { label: 'How we control quality — 7 inspection gates', href: '/quality' },
+      { label: 'MOQ & flexible branding guide (PDF)', href: '/oem-moq-guide' },
+      { label: 'Verify us: trust & factory assurance', href: '/oem-trust-assurance' },
       { label: 'Start a custom SUP project', href: '/contact' },
-    ],
-  },
-  {
-    slug: 'sup-import-guide',
-    title: 'Importing Inflatable SUPs from China: Shipping & Incoterms',
-    intro: [
-      'The boards are ready, the factory is confirmed — now comes the part importers underestimate: freight, Incoterms and paperwork. Here is what to settle before your first container.',
-    ],
-    sections: [
-      {
-        title: 'FOB, CIF or DDP — Who Pays for What',
-        body: 'FOB Qingdao means you take ownership at the port: the factory covers inland transport and loading, you arrange the ship. CIF adds insurance and freight to your port. DDP delivers the boards to your door, duties included — the most convenient option and the one where you pay the most per unit. Choose based on your freight experience; factories like ours quote all three.',
-      },
-      {
-        title: 'Sea Freight and Consolidation',
-        body: 'A 40-foot high-cube container holds roughly 1,000–1,200 inflatable SUP packages depending on box size. For smaller orders, share a container: consolidators pack your cartons with other cargo, and you pay only for the space you use. Book early — freight rates move with the season.',
-      },
-      {
-        title: 'Packaging That Survives the Voyage',
-        body: 'Seaworthy export packaging matters: 5-layer cartons, palletized or loose-loaded with proper blocking, and container desiccant in humid seasons. Insist the factory specs the packaging before you confirm the PO — damaged cartons are the most common import complaint.',
-      },
-      {
-        title: 'HS Code, Duties and Documents',
-        body: 'Inflatable paddle boards typically fall under HS 9506.29 (fitness and sporting equipment), with duty rates that vary by destination. Your customs broker needs the commercial invoice, packing list, bill of lading and certificate of origin — ask the factory for all four before sailing.',
-      },
-      {
-        title: 'Payment: Deposit, Balance, Documents',
-        body: 'The standard model is a 30% deposit to start production and 70% against shipping documents (usually a copy of the bill of lading). It protects both sides: the factory builds nothing without a deposit, and you see the shipment before the balance clears.',
-      },
-    ],
-    faqs: [
-      { q: 'How many inflatable SUPs fit in a 40HQ container?', a: 'Around 1,000–1,200 complete SUP packages (board, paddle, pump, leash, backpack) in a 40-foot high-cube, depending on carton dimensions and whether the boxes are palletized.' },
-      { q: 'What are the main Incoterms for SUP imports?', a: 'FOB (ownership transfers at the port of departure), CIF (insurance and freight added to your port) and DDP (delivered to your door with duties paid).' },
-      { q: 'What documents do I need to import SUPs?', a: 'Commercial invoice, packing list, bill of lading and a certificate of origin — most destinations also need an HS code classification (inflatable paddle boards usually sit under 9506.29).' },
-      { q: 'Is a deposit normal when ordering from a SUP factory?', a: 'Yes — 30% deposit with production start, 70% against shipping documents is the industry standard and protects both importer and factory.' },
-    ],
-    related: [
-      { label: 'Factory logistics and capacity', href: '/factory/capacity' },
-      { label: 'OEM shipping FAQ', href: '/faq' },
-      { label: 'Talk to a project specialist', href: '/contact' },
     ],
   },
   {
@@ -241,7 +204,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         title: 'Private Label Means Proven Platforms',
-        body: 'You start from platforms the factory already builds and tests — all-around, touring, yoga, race and more. The factory customizes branding, graphics and trim, which keeps costs low and lead times short. Minimums are tiered: 50 units per design for a standard private-label batch, with trial runs from 5–10 units to validate the market first.',
+        body: 'You start from platforms the factory already builds and tests — all-around, touring, yoga, race and more. The factory customizes branding, graphics and trim, which keeps costs low and lead times short. Minimums are tiered: co-branding from 5–10 units, pilot batches from 20–50 units, and 90–100+ units per 150 m roll for standard private-label volume.',
       },
       {
         title: 'Branding Goes Beyond the Logo',
@@ -249,7 +212,7 @@ export const GUIDES: Guide[] = [
       },
       {
         title: 'What the Factory Handles for You',
-        body: 'A full-service SUP factory manages artwork setup, material sourcing, sample production, a 100-point assembly QC checklist, pressure testing and export documentation (invoice, packing list, bill of lading, certificate of origin). You review proofs and approve the sample — the factory runs everything else.',
+        body: 'A full-service SUP factory manages artwork setup, material sourcing, sample production, a 100-point assembly QC checklist, pressure testing and export documentation (invoice, packing list, certificate of origin). You review proofs and approve the sample — the factory runs everything else.',
       },
       {
         title: 'What You Own: Brand, Market, Customer',
@@ -257,18 +220,18 @@ export const GUIDES: Guide[] = [
       },
       {
         title: 'Costs: Sample, Mould, Artwork Setup',
-        body: 'Expect three types of charges: sample fees (15–20 days to produce), tooling costs when a new mould is required (200-unit minimum), and artwork setup for printing. Most factories credit sample and mould costs toward your first production order.',
+        body: 'Expect three types of charges: sample fees (7–12 days to produce), tooling costs when a new mould is required (volume-tier minimum), and artwork setup for printing. Most factories credit sample and mould costs toward your first production order.',
       },
       {
-        title: 'From PO to Container',
-        body: 'A typical private-label run: 30% deposit starts production, batch production completes in 30–45 days after confirmed PO and deposit, and the 70% balance settles against shipping documents. Plan 8–12 weeks total from order to your port in the first run.',
+        title: 'From PO to Finished Batch',
+        body: 'A typical private-label run: 30% deposit starts production, batch production completes in 25–35 days after confirmed PO and deposit, with the balance settled against the approved batch. Budget for the full run in your first order.',
       },
     ],
     faqs: [
-      { q: 'What is the minimum order for private label SUP boards?', a: '50 units per design for a standard private-label batch, with trial runs from 5–10 units and 200 units for fully custom-mould projects.' },
+      { q: 'What is the minimum order for private label SUP boards?', a: 'Co-branding runs from 5–10 units, pilot batches from 20–50 units, and standard private-label volume from 90–100+ units per 150 m roll; fully custom-mould projects run at the volume tier.' },
       { q: 'Can I send my own logo and artwork?', a: 'Yes — send your logo and artwork; the factory produces a visual proof before production so you approve colors, placement and finishing.' },
       { q: 'Is my custom SUP design exclusive to my brand?', a: 'Yes with standard private-label terms. Ask for an exclusivity clause in your purchase agreement; factories like ours do not resell your branded design.' },
-      { q: 'How long does a private label SUP order take?', a: 'Samples ship in 15–20 days; batch production completes in 30–45 days after confirmed PO and deposit. Budget 8–12 weeks for the first full run.' },
+      { q: 'How long does a private label SUP order take?', a: 'Samples ship in 7–12 days; batch production completes in 25–35 days after confirmed PO and deposit. Budget 8–12 weeks for the first full run.' },
     ],
     related: [
       { label: 'Private label SUP solutions', href: '/solutions/private-label-sup' },
@@ -281,7 +244,7 @@ export const GUIDES: Guide[] = [
     slug: 'sup-fleet-guide',
     title: 'Buying SUP Fleets for Rentals, Resorts & Clubs',
     intro: [
-      'Fleet buyers need different answers than end users: durability per session, standardized spares, container-level quantities and a supplier that delivers season after season. Here is what to plan before ordering your first fleet.',
+      'Fleet buyers need different answers than end users: durability per session, standardized spares, volume-level quantities and a supplier that delivers season after season. Here is what to plan before ordering your first fleet.',
     ],
     sections: [
       {
@@ -293,8 +256,8 @@ export const GUIDES: Guide[] = [
         body: 'A rental board takes dozens of sessions per season. Specify thicker PVC layers, reinforced rail bands and heavier-duty accessories compared with retail boards. Ask the factory how the fleet spec differs from the consumer version — real plants have both.',
       },
       {
-        title: 'Plan Quantities by Container',
-        body: 'A 40-foot high-cube holds roughly 1,000–1,200 complete SUP packages. Compute your fleet size against daily rotation and season length: 20–30 boards serve a small stand, 100+ a busy resort or club. Consolidation options exist for sub-container orders.',
+        title: 'Size Quantities to Demand',
+        body: 'Compute your fleet size against daily rotation and season length: 20–30 boards serve a small stand, 100+ a busy resort or club. Ask the factory for quantity guidance matched to your demand pattern.',
       },
       {
         title: 'Buy Spares With the Fleet',
@@ -302,7 +265,7 @@ export const GUIDES: Guide[] = [
       },
       {
         title: 'Order Against the Season, Not During It',
-        body: 'Production runs 30–45 days after PO plus sea freight to your port. To have boards on the beach by spring, confirm orders in late autumn and bank the deposit price before peak-season rate hikes on freight.',
+        body: 'Production runs 25–35 days after confirmed PO and deposit. To have boards on the beach by spring, confirm orders in late autumn so production lands ahead of the season.',
       },
       {
         title: 'Brand the Fleet for Resale Value',
@@ -313,7 +276,7 @@ export const GUIDES: Guide[] = [
       { q: 'What is the best SUP for a rental fleet?', a: 'A 10\'6"–11\'0" × 32" all-around board with reinforced construction is the industry standard — stable for beginners, durable for daily use and easy to service.' },
       { q: 'How many boards does a rental operation need?', a: 'Plan for 20–30 boards for a small stand, scaling with rotation: 100+ units for busy resorts and clubs. Spares should be 5–10% of fleet size.' },
       { q: 'Can fleet boards be branded with our logo?', a: 'Yes — screen-printed logos, rental numbering and color-coded decks are standard customizations, particularly cost-effective from 200 units.' },
-      { q: 'How long does a fleet order take?', a: 'Samples in 15–20 days, production in 30–45 days after confirmed PO and deposit, plus sea freight. Order 8–12 weeks before your season starts.' },
+      { q: 'How long does a fleet order take?', a: 'Samples in 7–12 days, production in 25–35 days after confirmed PO and deposit — so place fleet orders well before your season starts.' },
     ],
     related: [
       { label: 'Resort and club solutions', href: '/solutions/resort-sup' },
@@ -452,7 +415,7 @@ export const GUIDES_ES: Guide[] = [
     sections: [
       {
         title: 'Empieza con un pedido de prueba, no con una conversación de MOQ',
-        body: 'Una fábrica que solo habla de mínimos es señal de mesa comercial, no de planta. Los fabricantes reales ofrecen mínimos por tramos — pruebas desde 5–10 unidades, lotes OEM estándar desde 50 por diseño y proyectos de molde a medida desde 200. Pide primero un lote pequeño: prueba la comunicación, la disciplina de especificación y la calidad de la muestra sin arriesgar todo tu lanzamiento.',
+        body: 'Una fábrica que solo habla de mínimos es señal de mesa comercial, no de planta. Los fabricantes reales ofrecen mínimos por tramos — co-branding desde 5–10 unidades, lotes piloto desde 20–50 unidades, producción de volumen estándar desde 90–100+ por rollo de 150 m y proyectos de molde a medida en el tramo de volumen. Pide primero un lote pequeño: prueba la comunicación, la disciplina de especificación y la calidad de la muestra sin arriesgar todo tu lanzamiento.',
       },
       {
         title: 'Comprueba qué hay realmente en casa',
@@ -464,7 +427,7 @@ export const GUIDES_ES: Guide[] = [
       },
       {
         title: 'Conoce tus costes antes del PO',
-        body: 'Consigue el panorama completo de costes por escrito: precio unitario por contenedor, costes de utillaje o molde si quieres una forma nueva, prepresión de arte e impresión, embalaje y flete hasta tu puerto. Aclara si el precio es FOB, CIF o DDP — la diferencia puede ser del 10–15% del coste a destino.',
+        body: 'Consigue el panorama completo de costes por escrito: precio unitario por cantidad, costes de utillaje o molde si quieres una forma nueva, preparación de arte e impresión y embalaje.',
       },
       {
         title: 'Pide inspección de terceros',
@@ -472,60 +435,23 @@ export const GUIDES_ES: Guide[] = [
       },
       {
         title: 'Plazos que se cumplen',
-        body: 'Para SUP hinchables, espera muestras en 15–20 días y producción en serie en 30–45 días tras PO confirmado y depósito, más el tiempo de utillaje cuando pides un molde nuevo. Una fábrica que cotiza plazos mucho más cortos que el resto está cotizando desde un folleto, no desde un calendario.',
+        body: 'Para SUP hinchables, espera muestras en 7–12 días y producción en serie en 25–35 días tras PO confirmado y depósito, más el tiempo de utillaje cuando pides un molde nuevo. Una fábrica que cotiza plazos mucho más cortos que el resto está cotizando desde un folleto, no desde un calendario.',
       },
     ],
     faqs: [
-      { q: '¿Cuál es el pedido mínimo para tablas SUP personalizadas?', a: 'Los mínimos por tramos son el estándar: 5–10 unidades para una prueba, 50 unidades por diseño para un lote OEM estándar y 200 unidades para un proyecto de molde a medida o marca privada.' },
-      { q: '¿Puedo ver una muestra antes de la producción?', a: 'Sí — las muestras se envían en 15–20 días. La mayoría de fábricas descuenta el coste de la muestra y del molde del primer pedido de producción una vez confirmado.' },
+      { q: '¿Cuál es el pedido mínimo para tablas SUP personalizadas?', a: 'Los mínimos por tramos son el estándar: 1–2 unidades para muestras, 5–10 unidades para co-branding, 20–50 unidades para un lote piloto y 90–100+ unidades por rollo de 150 m para volumen estándar; los moldes a medida se producen en el tramo de volumen.' },
+      { q: '¿Puedo ver una muestra antes de la producción?', a: 'Sí — las muestras están listas en 7–12 días. La mayoría de fábricas descuenta el coste de la muestra y del molde del primer pedido de producción una vez confirmado.' },
       { q: '¿Cómo verifico que una fábrica de SUP es real?', a: 'Pide una visita por vídeo en directo a la planta, comprueba una dirección de fábrica operativa en Qingdao u otro polo de fabricación y solicita documentación de pedidos de exportación anteriores. El pedido de prueba es la prueba definitiva.' },
-      { q: '¿Qué debe incluir una cotización de fábrica de SUP?', a: 'Precio unitario por tabla, costes de utillaje o molde, preparación de arte, embalaje, condiciones de QC e inspección y el término de flete (FOB, CIF o DDP) con un coste estimado a destino.' },
+      { q: '¿Qué debe incluir una cotización de fábrica de SUP?', a: 'Precio unitario por tabla, costes de utillaje o molde, preparación de arte, embalaje, condiciones de QC e inspección y condiciones de pago.' },
     ],
     related: [
       { label: 'Nuestra fabricación OEM / ODM', href: '/oem-odm-manufacturer' },
       { label: 'Proceso de desarrollo de producto SUP', href: '/product-development' },
       { label: 'Capacidad de fábrica y planta', href: '/factory' },
+      { label: 'Cómo controlamos la calidad — 7 puertas de inspección', href: '/quality' },
+      { label: 'Guía de MOQ y marca flexible (PDF)', href: '/oem-moq-guide' },
+      { label: 'Verifícanos: confianza y garantía de fábrica', href: '/oem-trust-assurance' },
       { label: 'Inicia tu proyecto SUP a medida', href: '/contact' },
-    ],
-  },
-  {
-    slug: 'sup-import-guide',
-    title: 'Importar SUP hinchables desde China: flete e Incoterms',
-    intro: [
-      'Las tablas están listas y la fábrica confirmada — ahora llega la parte que los importadores subestiman: flete, Incoterms y papeleo. Esto es lo que hay que cerrar antes del primer contenedor.',
-    ],
-    sections: [
-      {
-        title: 'FOB, CIF o DDP — quién paga qué',
-        body: 'FOB Qingdao significa que la propiedad pasa a ti en el puerto: la fábrica cubre el transporte interior y la carga, y tú contratas el barco. CIF añade seguro y flete hasta tu puerto. DDP entrega las tablas en tu puerta, con aranceles incluidos — la opción más cómoda y la que más pagas por unidad. Elige según tu experiencia en flete; fábricas como la nuestra cotizan las tres modalidades.',
-      },
-      {
-        title: 'Flete marítimo y consolidación',
-        body: 'Un contenedor de 40 pies high-cube alberga entre 1.000 y 1.200 paquetes de SUP hinchable según el tamaño de caja. Para pedidos menores, comparte contenedor: los consolidadores empaquetan tus cartones con otra carga y pagas solo el espacio que usas. Reserva pronto — las tarifas se mueven con la temporada.',
-      },
-      {
-        title: 'Un embalaje que sobreviva a la travesía',
-        body: 'El embalaje de exportación marítimo importa: cartones de 5 capas, paletizados o a granel con bloqueo adecuado y desecante en temporada húmeda. Exige que la fábrica especifique el embalaje antes de confirmar el PO — los cartones dañados son la queja de importación más común.',
-      },
-      {
-        title: 'Código HS, aranceles y documentos',
-        body: 'Las tablas de paddle sur hinchables suelen clasificarse en el código HS 9506.29 (equipamiento deportivo), con aranceles que varían según destino. Tu agente de aduanas necesita la factura comercial, el packing list, el conocimiento de embarque y el certificado de origen — pide los cuatro a la fábrica antes de zarpar.',
-      },
-      {
-        title: 'Pago: depósito, saldo y documentos',
-        body: 'El modelo estándar es un 30% de depósito para iniciar la producción y un 70% contra documentos de embarque (normalmente copia del conocimiento de embarque). Protege a ambas partes: la fábrica no fabrica nada sin depósito y tú ves el barco antes de que el saldo se liquide.',
-      },
-    ],
-    faqs: [
-      { q: '¿Cuántos SUP hinchables caben en un contenedor 40HQ?', a: 'Entre 1.000 y 1.200 paquetes completos (tabla, pala, bomba, leash y mochila) en un high-cube de 40 pies, según las dimensiones del cartón y si las cajas van paletizadas.' },
-      { q: '¿Cuáles son los Incoterms principales para importar SUP?', a: 'FOB (la propiedad se transfiere en el puerto de salida), CIF (seguro y flete añadidos hasta tu puerto) y DDP (entrega en tu puerta con aranceles pagados).' },
-      { q: '¿Qué documentos necesito para importar SUP?', a: 'Factura comercial, packing list, conocimiento de embarque y certificado de origen — la mayoría de destinos también piden clasificación HS (las tablas hinchables suelen ubicarse en 9506.29).' },
-      { q: '¿Es normal pagar un depósito a una fábrica de SUP?', a: 'Sí — 30% de depósito al inicio de la producción y 70% contra documentos de embarque es el estándar del sector y protege tanto al importador como a la fábrica.' },
-    ],
-    related: [
-      { label: 'Logística y capacidad de fábrica', href: '/factory/capacity' },
-      { label: 'Preguntas frecuentes de envío OEM', href: '/faq' },
-      { label: 'Habla con un especialista de proyectos', href: '/contact' },
     ],
   },
   {
@@ -537,7 +463,7 @@ export const GUIDES_ES: Guide[] = [
     sections: [
       {
         title: 'Marca privada significa plataformas probadas',
-        body: 'Partes de plataformas que la fábrica ya construye y prueba — all-around, touring, yoga, race y más. La fábrica personaliza marca, gráficos y acabados, lo que mantiene costes bajos y plazos cortos. Los mínimos son por tramos: 50 unidades por diseño para un lote estándar, con pruebas desde 5–10 unidades para validar el mercado primero.',
+        body: 'Partes de plataformas que la fábrica ya construye y prueba — all-around, touring, yoga, race y más. La fábrica personaliza marca, gráficos y acabados, lo que mantiene costes bajos y plazos cortos. Los mínimos son por tramos: co-branding desde 5–10 unidades, lotes piloto desde 20–50 unidades y 90–100+ unidades por rollo de 150 m para el volumen estándar de marca privada.',
       },
       {
         title: 'La marca va más allá del logotipo',
@@ -545,7 +471,7 @@ export const GUIDES_ES: Guide[] = [
       },
       {
         title: 'Qué gestiona la fábrica por ti',
-        body: 'Una fábrica de servicio completo gestiona la preparación de arte, el abastecimiento de materiales, la producción de muestras, la lista de verificación de montaje de 100 puntos, las pruebas de presión y la documentación de exportación (factura, packing list, conocimiento de embarque, certificado de origen). Tú revisas las pruebas y apruebas la muestra — la fábrica se encarga del resto.',
+        body: 'Una fábrica de servicio completo gestiona la preparación de arte, el abastecimiento de materiales, la producción de muestras, la lista de verificación de montaje de 100 puntos, las pruebas de presión y la documentación de exportación (factura, packing list, certificado de origen). Tú revisas las pruebas y apruebas la muestra — la fábrica se encarga del resto.',
       },
       {
         title: 'Lo que tú posees: marca, mercado y cliente',
@@ -553,18 +479,18 @@ export const GUIDES_ES: Guide[] = [
       },
       {
         title: 'Costes: muestra, molde y preparación de arte',
-        body: 'Espera tres tipos de cargos: tarifas de muestra (15–20 días), costes de utillaje cuando se requiere un molde nuevo (mínimo de 200 unidades) y preparación de arte para la impresión. La mayoría de fábricas descuenta la muestra y el molde del primer pedido de producción.',
+        body: 'Espera tres tipos de cargos: tarifas de muestra (7–12 días), costes de utillaje cuando se requiere un molde nuevo (mínimo del tramo de volumen) y preparación de arte para la impresión. La mayoría de fábricas descuenta la muestra y el molde del primer pedido de producción.',
       },
       {
-        title: 'Del PO al contenedor',
-        body: 'Una tirada típica de marca privada: el 30% de depósito inicia la producción, la producción en serie se completa en 30–45 días tras PO confirmado y depósito, y el 70% restante se liquida contra los documentos de embarque. Calcula de 8 a 12 semanas desde el pedido hasta tu puerto en la primera tirada.',
+        title: 'Del PO a la tirada terminada',
+        body: 'Una tirada típica de marca privada: el 30% de depósito inicia la producción, la producción en serie se completa en 25–35 días tras PO confirmado y depósito, y el saldo se liquida contra el lote aprobado. Ten en cuenta el ciclo completo en tu primer pedido.',
       },
     ],
     faqs: [
-      { q: '¿Cuál es el pedido mínimo para tablas SUP de marca privada?', a: '50 unidades por diseño para un lote estándar de marca privada, con pruebas desde 5–10 unidades y 200 unidades para proyectos de molde totalmente a medida.' },
+      { q: '¿Cuál es el pedido mínimo para tablas SUP de marca privada?', a: 'El co-branding va de 5–10 unidades, los lotes piloto de 20–50 unidades y el volumen estándar de marca privada de 90–100+ unidades por rollo de 150 m; los proyectos de molde totalmente a medida se producen en el tramo de volumen.' },
       { q: '¿Puedo enviar mi propio logotipo y arte?', a: 'Sí — envía tu logotipo y arte; la fábrica produce una prueba visual antes de la producción para que apruebes colores, colocación y acabado.' },
       { q: '¿Mi diseño de SUP personalizado es exclusivo de mi marca?', a: 'Sí, con condiciones estándar de marca privada. Pide una cláusula de exclusividad en tu contrato; fábricas como la nuestra no revenden diseños con tu marca.' },
-      { q: '¿Cuánto tarda un pedido de SUP de marca privada?', a: 'Las muestras se envían en 15–20 días; la producción en serie se completa en 30–45 días tras PO confirmado y depósito. Calcula de 8 a 12 semanas para la primera tirada completa.' },
+      { q: '¿Cuánto tarda un pedido de SUP de marca privada?', a: 'Las muestras se envían en 7–12 días; la producción en serie se completa en 25–35 días tras PO confirmado y depósito. Calcula de 8 a 12 semanas para la primera tirada completa.' },
     ],
     related: [
       { label: 'Soluciones de marca privada', href: '/solutions/private-label-sup' },
@@ -577,7 +503,7 @@ export const GUIDES_ES: Guide[] = [
     slug: 'sup-fleet-guide',
     title: 'Comprar flotas de SUP para alquiler, resorts y clubes',
     intro: [
-      'Los compradores de flotas necesitan respuestas distintas a las de los usuarios finales: durabilidad por sesión, repuestos estandarizados, cantidades a nivel de contenedor y un proveedor que entregue temporada tras temporada. Esto es lo que hay que planificar antes de pedir tu primera flota.',
+      'Los compradores de flotas necesitan respuestas distintas a las de los usuarios finales: durabilidad por sesión, repuestos estandarizados, cantidades a gran escala y un proveedor que entregue temporada tras temporada. Esto es lo que hay que planificar antes de pedir tu primera flota.',
     ],
     sections: [
       {
@@ -589,8 +515,8 @@ export const GUIDES_ES: Guide[] = [
         body: 'Una tabla de alquiler soporta decenas de sesiones por temporada. Especifica capas de PVC más gruesas, refuerzos de canto y accesorios de mayor resistencia que la versión retail. Pregunta a la fábrica cómo difiere la especificación de flota de la de consumo — las plantas reales tienen ambas.',
       },
       {
-        title: 'Planifica cantidades por contenedor',
-        body: 'Un contenedor de 40 pies high-cube alberga entre 1.000 y 1.200 paquetes completos de SUP. Calcula el tamaño de tu flota contra la rotación diaria y la duración de la temporada: 20–30 tablas sirven a un pequeño negocio, 100+ a un resort o club con actividad. Hay opciones de consolidación para pedidos inferiores al contenedor.',
+        title: 'Planifica cantidades según la demanda',
+        body: 'Calcula el tamaño de tu flota contra la rotación diaria y la duración de la temporada: 20–30 tablas sirven a un pequeño negocio, 100+ a un resort o club con actividad. Pide a la fábrica orientación de cantidades ajustada a tu patrón de demanda.',
       },
       {
         title: 'Compra repuestos con la flota',
@@ -598,7 +524,7 @@ export const GUIDES_ES: Guide[] = [
       },
       {
         title: 'Pide contra la temporada, no durante ella',
-        body: 'La producción tarda 30–45 días tras el PO más el flete marítimo hasta tu puerto. Para tener tablas en la playa en primavera, confirma los pedidos a finales de otoño y asegura el precio del depósito antes de las subidas de tarifas de flete en temporada alta.',
+        body: 'La producción tarda 25–35 días tras PO confirmado y depósito. Para tener tablas en la playa en primavera, confirma los pedidos a finales de otoño para que la producción llegue antes de la temporada.',
       },
       {
         title: 'Marca la flota para valor de reventa',
@@ -609,7 +535,7 @@ export const GUIDES_ES: Guide[] = [
       { q: '¿Cuál es el mejor SUP para una flota de alquiler?', a: 'Una tabla polivalente de 10\'6"–11\'0" × 32" con construcción reforzada es el estándar del sector: estable para principiantes, duradera para uso diario y fácil de mantener.' },
       { q: '¿Cuántas tablas necesita una operación de alquiler?', a: 'Calcula 20–30 tablas para un negocio pequeño, escalando con la rotación: 100+ unidades para resorts y clubes con mucha actividad. Los repuestos deben ser el 5–10% del tamaño de la flota.' },
       { q: '¿Pueden las tablas de flota llevar nuestro logotipo?', a: 'Sí — serigrafía, numeración de alquiler y cubiertas con códigos de color son personalizaciones estándar, especialmente rentables desde 200 unidades.' },
-      { q: '¿Cuánto tarda un pedido de flota?', a: 'Muestras en 15–20 días, producción en 30–45 días tras PO confirmado y depósito, más flete marítimo. Pide de 8 a 12 semanas antes de que empiece tu temporada.' },
+      { q: '¿Cuánto tarda un pedido de flota?', a: 'Muestras en 7–12 días, producción en 25–35 días tras PO confirmado y depósito — por eso conviene pedir las flotas con mucha antelación a la temporada.' },
     ],
     related: [
       { label: 'Soluciones para resorts y clubes', href: '/solutions/resort-sup' },
@@ -668,12 +594,6 @@ export const GUIDE_CARDS: Record<'en' | 'es', GuideCard[]> = {
       title: 'Cómo elegir una fábrica OEM de SUP a medida',
       intro:
         'Cómo evaluar a un fabricante de SUP personalizados antes de enviar tu PO: pruebas, planta propia, muestras, costes e inspección.',
-    },
-    {
-      slug: 'sup-import-guide',
-      title: 'Importar SUP hinchables desde China',
-      intro:
-        'FOB, CIF o DDP, flete y consolidación, embalaje marítimo, HS code y el modelo de pago antes de tu primer contenedor.',
     },
     {
       slug: 'private-label-sup-guide',

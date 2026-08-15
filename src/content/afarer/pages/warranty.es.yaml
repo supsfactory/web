@@ -98,6 +98,11 @@ body: |
   <p>Contacta con afarer o con tu distribuidor autorizado con el comprobante de compra y una descripción detallada del problema. afarer revisará la reclamación y te indicará los pasos para la inspección y el servicio.</p>
   <p>Para consultas sobre el servicio de garantía, contacta con nosotros a través de nuestra <a href="/es/contact" class="text-sky-600 underline">página de contacto</a> con tu número de pedido y los datos del producto.</p>
 
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
+    <h2 class="text-xl font-bold mb-3">Respaldado por un sistema de calidad documentado</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Cada tabla se prueba antes del embalaje — <a href="/es/factory/quality-inspection" class="text-sky-600 underline">7 puertas de inspección</a> registran resultados por número de serie y los lotes mantienen trazabilidad ERP de 10 años. Las reclamaciones de garantía se resuelven con estos registros de lote, no con suposiciones. Consulta el <a href="/es/quality" class="text-sky-600 underline">sistema de calidad completo</a> y descarga los <a href="/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">informes de inspección final</a>.</p>
+  </div>
+
   <h2>Artículos de terceros</h2>
   <p>El equipo, los componentes o los sistemas fabricados por terceros (aunque los instale afarer) están cubiertos exclusivamente por la garantía que ofrezca su respectivo fabricante. afarer renuncia expresamente a cualquier responsabilidad de garantía sobre dichos artículos de terceros.</p>
 

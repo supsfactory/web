@@ -19,7 +19,7 @@ Esta tecnología permite que las tablas de afarer se guarden en una mochila y, a
 
 ## Especificaciones que puedes citar
 
-Los núcleos de afarer utilizan tejido de drop-stitch de 1,680 DTEX con 2 hilos por pulgada cuadrada y un laminado exterior de PVC de 1,2 mm, clasificado para 15 PSI. Cada tabla se valida con una prueba de retención de aire de 48 horas a 1,25&times; la presión nominal antes del envío.
+Los núcleos de afarer utilizan tejido de drop-stitch de 1,680 DTEX con 2 hilos por pulgada cuadrada y un laminado exterior de PVC de 1,2 mm, clasificado para 15 PSI. Cada tabla se valida con una prueba de retención de aire de 24 horas a 18,0 PSI antes del envío.
 
 ¿Necesitas una especificación de drop-stitch ajustada a tu línea? Consulta nuestro <a href="/oem-odm-manufacturer">programa OEM/ODM</a> o recorre la <a href="/factory">línea de producción</a> donde se laminan los núcleos.
 

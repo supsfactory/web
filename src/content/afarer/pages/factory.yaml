@@ -1,6 +1,6 @@
 meta:
   title: 'Factory & Manufacturing — Inflatable SUP OEM'
-  description: 'Tour the afarer factory: 12,000 m² plant with cutting, RF welding, printing, assembly, and quality lab for inflatable SUP OEM/ODM manufacturing.'
+  description: 'Tour the afarer factory: 12,500 m² plant with cutting, RF welding, printing, assembly, and quality lab for inflatable SUP OEM/ODM manufacturing.'
   dateModified: '2026-08-07'
   keywords:
     - 'sup factory china'
@@ -10,23 +10,23 @@ meta:
 hero:
   tagline: Factory
   title: Factory & Manufacturing
-  subtitle: 12,000 m2 SUP factory in Qingdao, China — custom SUP manufacturing from raw PVC material to finished inflatable paddle board
+  subtitle: 12,500 m2 SUP factory in Qingdao, China — custom SUP manufacturing from raw PVC material to finished inflatable paddle board
 
 answer:
   label: 'Straight answer'
-  text: 'Certified inflatable SUP factory in Qingdao, China: ISO 9001, BSCI, CE, REACH and RoHS. 12,000 m² plant, 200+ workers, 15,000+ boards produced annually. Every board is pressure-tested at 1.25× rated pressure for 48 hours, passes a 100-point assembly checklist, and carries 10-year material traceability.'
+  text: 'Certified inflatable SUP factory in Qingdao, China: ISO 9001, ISO 25649, BSCI, CE, REACH and RoHS. 12,500 m² plant across 4 specialized workshops, 350+ workers, 120,000+ boards produced annually (10,000 boards/month on 4 automated lines). Every board is pressure-tested at 18.0 PSI for 24 hours, passes a 100-point assembly checklist, and carries 10-year material traceability.'
   verified: '2026-08'
 
 intro:
-  - As a SUP factory brand of **Qingdao Vatrad Group Co., Ltd.**, afarer controls every stage of inflatable SUP manufacturing —from the arrival of raw PVC materials to the final pre-delivery inspection of the finished paddle board. Our manufacturing facility in the Qingdao Economic Development Zone spans 12,000 square metres and houses dedicated workshops for PVC cutting, drop-stitch core bonding, SUP digital printing, final assembly, and quality testing.
+  - As a SUP factory brand of **Qingdao Vatrad Group Co., Ltd.**, afarer controls every stage of inflatable SUP manufacturing —from the arrival of raw PVC materials to the final pre-delivery inspection of the finished paddle board. Our manufacturing facility in the Qingdao Economic Development Zone spans 12,500 square metres and houses dedicated workshops for PVC cutting, drop-stitch core bonding, SUP digital printing, final assembly, and quality testing.
   - By integrating design, engineering, prototyping, manufacturing, and testing under one roof, we eliminate the inefficiencies of contract manufacturing and maintain direct control over build quality, material selection, and delivery timelines. Every SUP that leaves our workshop is built by our people, on our equipment, to our standards.
 
 stats:
-  - value: 12,000 m2
+  - value: 12,500 m2
     label: Manufacturing floor
-  - value: 200+
+  - value: 350+
     label: Skilled workers
-  - value: 15,000+
+  - value: 120,000+
     label: SUPs produced annually
   - value:
     label: Quality certified
@@ -38,18 +38,18 @@ intelligence_cards:
   - title: Production Capacity
     icon: C
     icon_bg: blue
-    desc: '12,000 m² facility producing 15,000+ SUPs/yr across SUP board and safety equipment lines. 200+ workers, 2 shifts.'
+    desc: '12,500 m² facility producing 120,000+ SUPs/yr across SUP board and safety equipment lines. 350+ workers, 2 shifts.'
     metrics:
       - label: MOQ
-        value: 'SUP: 5–10 trial / 50 std / 200 custom'
+        value: 'SUP: sample 1–2 / pilot 20–50 / volume 90–100+'
       - label: Lead Time
-        value: '30–45 days'
+        value: '25–35 days'
     link: /factory/capacity
     link_label: Full capacity details →
   - title: Quality Lab & Testing
     icon: Q
     icon_bg: green
-    desc: 'Independent QC lab with 4 testing stages: raw material inspection (tensile, tear, UV), 48h pressure hold at 1.25x rated pressure, seam peel testing, and flexural rigidity verification on every board.'
+    desc: 'Independent QC lab with 4 testing stages: raw material inspection (tensile, tear, UV), 24h pressure hold at 18.0 PSI, seam peel testing, and flexural rigidity verification on every board.'
     metrics:
       - label: Lab Equipment
         value: 'Tensile tester, temp chamber, leak tank'
@@ -60,12 +60,12 @@ intelligence_cards:
   - title: OEM/ODM Capability
     icon: O
     icon_bg: purple
-    desc: 'End-to-end OEM/ODM services: custom mould design, private-label packaging, custom board colors, deck graphics (digital & screen printing), and drop-ship logistics.'
+    desc: 'End-to-end OEM/ODM services: custom mould design, private-label packaging, custom board colors, deck graphics (digital & screen printing), and export-ready packing.'
     metrics:
       - label: Certifications
         value: 'ISO 9001, BSCI, CE, REACH'
-      - label: Shipping
-        value: 'FOB, CIF, DDP to 50+ countries'
+      - label: Export markets
+        value: '50+ countries'
     link: /factory/oem-capability
     link_label: 'Full OEM services →'
   - title: Quality Inspection Standards
@@ -82,7 +82,7 @@ intelligence_cards:
   - title: Rework Change Control Standard
     icon: C
     icon_bg: blue
-    desc: 'Formal ISO 9001 change control for rework parameters: ECR, risk classification, cross-department approval matrix, 9-step closed-loop, quantified engineering validation (15–18 PSI, 24–48 h hold, ΔP ≤ 0.2 PSI) and Poka-Yoke safeguards — with bilingual SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+    desc: 'Formal ISO 9001 change control for rework parameters: ECR, risk classification, cross-department approval matrix, 9-step closed-loop, quantified engineering validation (18.0 PSI, 24 h hold, ΔP ≤ 0.2 PSI) and Poka-Yoke safeguards — with bilingual SOP QMS-SOP-QC-CC-001 Rev 2.0.'
     metrics:
       - label: Document
         value: 'QMS-SOP-QC-CC-001 Rev 2.0'
@@ -101,6 +101,17 @@ intelligence_cards:
         value: 'VAT-QA-SCRAP-CERT-2026'
     link: /factory/non-conforming-control
     link_label: 'Non-conforming control & downloads →'
+  - title: 7-Stage Quality Control Flow
+    icon: Q
+    icon_bg: green
+    desc: 'The complete project quality control flow, gate by gate: Quality Planning (PPM) → Incoming Material Inspection → In-Process Control & First Article → Inflation & Air-Tightness → Final Inspection → Packaging & PSI → Shipment Release & Traceability. Each gate shows what is checked, how it is judged and which bilingual report is produced.'
+    metrics:
+      - label: Gates
+        value: '01 → 07'
+      - label: Downloads
+        value: 'Report dossiers per gate (PDF)'
+    link: /quality
+    link_label: 'Inspect the 7-stage flow →'
 
 workshops_section:
   tagline: Workshops
@@ -159,8 +170,8 @@ qc_section:
       title: Raw Material Inspection
       desc: PVC, Hypalon, and drop-stitch fabrics undergo tensile testing (), tear propagation, and UV resistance verification before any batch enters production.
     - step: '2'
-      title: 48-Hour Air Retention Test
-      desc: Every tube chamber is inflated to 125% of rated pressure and held for 48 hours. Pressure drop below 5% triggers automatic rejection and seam re-inspection.
+      title: 24-Hour Air Retention Test
+      desc: Every tube chamber is inflated to 18.0 PSI and held for 24 hours. Pressure drop above 0.50 PSI triggers automatic rejection and seam re-inspection.
     - step: '3'
       title: Load & Balance Testing
       desc: Completed boards are inflated to rated pressure and checked for symmetric swell, rigidity at 15 PSI, and stability under load. Each board is wet-tested in our test pool before final inspection.
@@ -168,11 +179,11 @@ qc_section:
 oem_section:
   tagline: OEM Projects
   title: Brand & OEM Partnership Case Studies
-  subtitle: From concept to container —how we help global brands launch and scale their inflatable SUP lines.
+  subtitle: From concept to production —how we help global brands launch and scale their inflatable SUP lines.
   cases:
     - challenge: European outdoor retailer needed a private-label SUP line with unique deck graphics, eco-friendly PVC, and retail-ready packaging —all delivered in 60 days.
       solution: Developed custom digital print files, sourced REACH-compliant PVC, and compressed sampling from 3 rounds to 1 by co-locating the design team at our Qingdao factory.
-      result: 55 days from signed PO to FOB. 2,400 units across 4 SKUs. Repeat order placed before first container arrived.
+      result: 55 days from signed PO to first delivery. 2,400 units across 4 SKUs. Repeat order placed before the first batch was fully delivered.
     - challenge: US watersports startup needed a high-performance drop-stitch SUP with custom shape, co-branded packaging, and BSCI certification for retail placement.
       solution: Adapted existing SUP mould with modified outline, developed co-branded packaging artwork, and provided full BSCI audit documentation.
       result: Successfully listed in 3 major US outdoor chains. 5,000+ units in first year with 98% sell-through rate.
@@ -185,15 +196,15 @@ faq_section:
   title: B2B & OEM Frequently Asked Questions
   questions:
     - q: What is the minimum order quantity (MOQ) for OEM inflatable SUP boards?
-      a: 'MOQ is tiered: 5–10 units for standard trial orders, 50 units per design for a standard OEM batch, and 200 units for custom-mould or private-label projects depending on complexity. Trial orders and sample runs are available for new brand launches.'
+      a: 'MOQ is confirmed by project configuration rather than a fixed number — hull and tooling, colorways and PVC, artwork, packaging and accessories. Standard volume production runs 90–100+ units per batch from a full 150 m drop-stitch roll, small-batch co-branding starts under 20 units, and every project moves through sample (1–2 units) and pilot (20–50 units) stages. See our MOQ & Flexible Branding Guide for the full calculation logic.'
     - q: Does afarer hold BSCI certification?
-      a: Yes. Our factory maintains valid BSCI social compliance certification (audit report available on request). We also hold ISO 9001 for quality management. Standard models carry CE marking per Directive 2013/53/EU, and custom models can be CE certified through our established process. REACH and RoHS compliance documentation is provided with every OEM shipment.
+      a: Yes. Our factory maintains valid BSCI social compliance certification (audit report available on request). We also hold ISO 9001 for quality management. Standard models carry CE marking per Directive 2013/53/EU, and custom models can be CE certified through our established process. REACH and RoHS compliance documentation is provided with every OEM order.
     - q: What is the typical lead time for an OEM order?
-      a: Standard lead time is 30–45 days from confirmed PO and deposit for bulk OEM production. Custom mould development adds 15–20 days for tooling. Expedited production is available for urgent orders and seasonal rushes. Prototype samples typically ship within 15–20 days.
-    - q: Can you ship FOB Qingdao or CIF to our port?
-      a: Yes. We ship FOB Qingdao, CIF major global ports, and DDP for qualified partners. Our logistics team manages container booking, export documentation, and customs clearance. We ship to 50+ countries across EU, US, AU, and Asia markets.
+      a: Standard lead time is 25–35 days from confirmed PO and deposit for bulk OEM production. Custom mould development adds 15–20 days for tooling. Expedited production is available for urgent orders and seasonal rushes. Prototype samples are typically ready within 7–12 days.
+    - q: Do you handle export documentation?
+      a: Yes. Our team manages export documentation and customs clearance in-house, and we supply to 50+ countries across EU, US, AU, and Asia markets.
 
-b2b_moq: 'Tiered MOQ: 5–10 units trial, 50 units per design standard OEM batch, 200 units custom mould / private label.'
+b2b_moq: 'MOQ confirmed by project configuration: sample 1–2, pilot 20–50, volume 90–100+ (per 150 m roll); small-batch co-branding from under 20 units.'
 
 production_flow:
   tagline: Production Flow
@@ -226,9 +237,9 @@ production_flow:
       responsibility: Assembly team lead + line QC
     - stage: '05'
       title: Pressure Testing & Quality Hold
-      description: 'Every chamber is inflated to 1.25× rated pressure (typically about 19 PSI for a 12–15 PSI rated SUP) and held for 48 hours. Pressure sensors log continuously. Chambers exceeding 5% pressure drop are rejected and sent for seam re-inspection.'
-      qc_check: '48h pressure hold log, sensor calibration verified daily, temperature-compensated pressure reading, seam re-test after repair'
-      qc_threshold: 'Max 5% pressure drop over 48h at stable temp. Any chamber exceeding this = 100% re-test of entire production batch'
+      description: 'Every chamber is inflated to 18.0 PSI (for a 12–15 PSI rated SUP) and held for 24 hours. Pressure sensors log continuously. Chambers exceeding 0.50 PSI pressure drop are rejected and sent for seam re-inspection.'
+      qc_check: '24h pressure hold log, sensor calibration verified daily, temperature-compensated pressure reading, seam re-test after repair'
+      qc_threshold: 'Max 0.50 PSI pressure drop over 24h at stable temp. Any chamber exceeding this = 100% re-test of entire production batch'
       responsibility: Quality lab (independent of production, reports to management)
     - stage: '06'
       title: Final Inspection & Packing
@@ -301,14 +312,14 @@ qc_dashboard:
       detail: Every board, every chamber, every batch
     - value: '<5%'
       label: Max allowable pressure drop
-      detail: Over 48h at 1.25× rated pressure
+      detail: Over 24h at 18.0 PSI
     - value: AQL 2.5
       label: Major defect threshold
       detail: Per ISO 2859 sampling standard
-    - value: 48h
+    - value: 24h
       label: Pressure hold duration
       detail: Every board, every chamber
-    - value: 1.25×
+    - value: 18 PSI
       label: Test pressure vs rated
       detail: Safety margin on every chamber
     - value: 0%

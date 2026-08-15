@@ -14,7 +14,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'El 100% de las unidades se prueban a presión a 1,25× de la presión nominal durante 48 horas, con rechazo automático al superar un 5% de caída de presión. Los lotes de tejido crudo se verifican según ASTM D751 e ISO 4674, y las pruebas de pelado de soldaduras se realizan cada 50 unidades con un muestreo final AQL 2.5 según ISO 2859.'
+  text: 'El 100% de las unidades se prueban a presión a 18,0 PSI durante 24 horas, con rechazo automático al superar 0,50 PSI de caída de presión. Los lotes de tejido crudo se verifican según ASTM D751 e ISO 4674, y las pruebas de pelado de soldaduras se realizan cada 50 unidades con un muestreo final AQL 2.5 según ISO 2859.'
   verified: '2026-08'
 
 intro: afarer opera un laboratorio de control de calidad dedicado que trabaja de forma independiente de la producción. Cada lote de materia prima y cada tabla de SUP terminada pasa por protocolos de inspección documentados antes de su liberación. Nuestro equipo de control de calidad informa directamente a la dirección, lo que garantiza decisiones de calidad imparciales.
@@ -23,12 +23,12 @@ highlights:
   - value: 100%
     label: Unidades probadas a presión
     detail: Cada cámara, cada tabla
-  - value: 48 h
+  - value: 24 h
     label: Duración de la prueba de retención de aire
-    detail: A 1,25× de la presión nominal
+    detail: A 18,0 PSI de presión nominal
   - value: '&lt;5%'
     label: Caída de presión máxima permitida
-    detail: En un periodo de mantenimiento de 48 horas
+    detail: En un periodo de mantenimiento de 24 horas
   - value: AQL 2.5
     label: Umbral de defectos graves
     detail: Según el muestreo ISO 2859
@@ -46,8 +46,8 @@ test_procedures:
       - ASTM D751 (pelado)
       - Lista de control interna de 100 puntos
       - Muestreo ISO 2859
-  - title: Prueba de retención de aire de 48 horas
-    description: Cada cámara del tubo se infla al 125% de la presión nominal y se mantiene durante 48 horas. Los sensores de presión registran de forma continua con compensación de temperatura. Cualquier cámara que supere una caída de presión del 5% activa una reinspección automática del lote.
+  - title: Prueba de retención de aire de 24 horas
+    description: Cada cámara del tubo se infla a 18,0 PSI y se mantiene durante 24 horas. Los sensores de presión registran de forma continua con compensación de temperatura. Cualquier cámara que supere una caída de presión de 0,50 PSI activa una reinspección automática del lote.
     standards:
       - ISO 6185
       - CE 2013/53/EU
@@ -72,3 +72,58 @@ equipment:
     spec: '-40 °C a +100 °C'
   - name: Tanque de detección de fugas
     spec: '6 m × 2 m, iluminado'
+
+lab_evidence:
+  tagline: Dosieres de informes de ensayo
+  title: 'Descarga los informes de ensayo de laboratorio reales'
+  subtitle: 'Los mismos registros controlados bilingües contra los que cierra nuestro equipo de calidad — estructura, métodos, criterios y resultados, con los campos confidenciales eliminados. Cada dosier corresponde a una de las siete puertas de inspección.'
+  items:
+    - title: 'IQC — Informes de materiales entrantes'
+      description: 'Verificación de tejido, rollos de PVC, válvulas y componentes contra la especificación aprobada.'
+      icon: tabler:file-certificate
+      link: /downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Descargar informes IQC (PDF)'
+    - title: 'IPQC — Informes en proceso y de primera pieza'
+      description: 'Registros de primera pieza e inspección en proceso contra la revisión bloqueada.'
+      icon: tabler:file-check
+      link: /downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Descargar informes IPQC (PDF)'
+    - title: 'Estanqueidad — Registros de presión y fugas'
+      description: 'Detección de fugas al 100% de las costuras, integridad de válvulas y retención de presión de 24 h.'
+      icon: tabler:waves
+      link: /downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Descargar informes de estanqueidad (PDF)'
+    - title: 'FQC — Informes de prueba final de la tabla'
+      description: 'Inspección final contra la muestra aprobada — dimensiones, cosmética y caja de quillas.'
+      icon: tabler:shield-check
+      link: /downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Descargar informes FQC (PDF)'
+    - title: 'PSI — Informes de embalaje y pre-embarque'
+      description: 'Registros de integridad del kit, grado de código de barras, marcas de caja y resistencia a caídas.'
+      icon: tabler:package
+      link: /downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Descargar informes PSI (PDF)'
+    - title: 'Liberación de envío y dosier de trazabilidad'
+      description: 'Autorización de liberación y trazabilidad de lote vinculada a especificación, arte y BOM.'
+      icon: tabler:history
+      link: /downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Descargar informes de liberación (PDF)'
+    - title: 'Dosier de calidad completo'
+      description: 'Un pack que cubre todo el sistema documental — QIP, registros de puertas, trazabilidad y control de NCR.'
+      icon: tabler:books
+      link: /downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Descargar pack de documentación (PDF)'
+
+cta:
+  title: 'Audita el laboratorio detrás de tu pedido'
+  subtitle: 'El laboratorio opera independiente de la producción y reporta directamente a la dirección. Revisa los informes de ensayo, consulta los estándares de inspección o solicita una visita virtual al laboratorio durante la planificación de tu proyecto.'
+  actions:
+    - variant: primary
+      text: Solicitar una revisión de calidad de proyecto
+      href: /es/contact#quality-inquiry
+    - text: El sistema de inspección de 7 etapas
+      href: /es/quality
+    - text: Estándares de inspección y descargas QMS
+      href: /es/factory/quality-inspection
+    - text: Visita el laboratorio de ensayos de materiales de I+D
+      href: /es/randdcenter/quality-inspection-lab

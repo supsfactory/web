@@ -32,10 +32,24 @@ function inquiry(overrides: Partial<Inquiry> = {}): Inquiry {
     whatsapp: '',
     businessType: 'other',
     quantity: 'unsure',
-    productType: 'unsure',
+    category: 'unsure',
     model: 'unsure',
     timeline: 'now',
     targetMarket: '',
+    projectStage: '',
+    role: '',
+    boardPlatform: '',
+    construction: '',
+    customization: '',
+    packaging: '',
+    compliance: '',
+    docs: '',
+    annualVolume: '',
+    budget: '',
+    nda: 'no',
+    consent: '',
+    score: 0,
+    tier: 'C',
     requirements: '',
     logoKey: null,
     status: 'new',
@@ -74,7 +88,7 @@ test('HTML 部分转义所有用户输入，标签/属性边界无法形成', as
 
 test('干净输入原样保留', async () => {
   await sendInquiryNotification(null, 'from@supsfactory.com', ['admin@supsfactory.com'], {
-    inquiry: inquiry({ name: 'Acme GmbH', email: 'sales@acme.com', requirements: 'Need 500 units' }),
+    inquiry: inquiry({ company: 'Acme GmbH', email: 'sales@acme.com', requirements: 'Need 500 units' }),
     logoUrl: null,
     origin: 'https://supsfactory.com',
   })
@@ -88,8 +102,8 @@ test('干净输入原样保留', async () => {
 async function sendInjectionEmail() {
   await sendInquiryNotification(null, 'from@supsfactory.com', ['admin@supsfactory.com'], {
     inquiry: inquiry({
-      name: '<img src=x onerror=alert(1)>',
-      company: '"><a href="javascript:alert(1)">x</a>',
+      company: '<img src=x onerror=alert(1)>',
+      website: '"><a href="javascript:alert(1)">x</a>',
       email: `x" onmouseover="alert(1)@b.com`,
       requirements: `</td></tr></table><script>alert(1)</script>`,
     }),

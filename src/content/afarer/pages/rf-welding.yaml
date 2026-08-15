@@ -7,7 +7,7 @@ home_label: 'Home'
 
 answer:
   label: 'Straight answer'
-  text: 'We run 15 kW dielectric RF presses that molecularly bond PVC seams at 200–600 °C hot-air equivalents, then validate every weld: peel tests per ASTM D751, air-retention holds at 1.25× rated pressure, with seams documented and traceable per unit.'
+  text: 'We run 15 kW dielectric RF presses that molecularly bond PVC seams at 200–600 °C hot-air equivalents, then validate every weld: peel tests per ASTM D751, air-retention holds at 18.0 PSI, with seams documented and traceable per unit.'
   verified: '2026-08'
 
 hero:
@@ -41,7 +41,7 @@ content_html: |
   <ol>
     <li><strong>Visual inspection</strong> — 100 % of seams are visually inspected for burn-through, misalignment, contamination, or incomplete fusion. Reject rate threshold: 0.5 % of linear metres.</li>
     <li><strong>Peel test</strong> — A 25 mm wide strip is cut from a test coupon welded with each production batch. Minimum peel force: 120 N/25 mm for PVC 1100 dtex.</li>
-    <li><strong>Air-retention test</strong> — Every completed board is pressurised to 1.25 × working pressure and held for 48 hours. Pressure drop must not exceed 5 %.</li>
+    <li><strong>Air-retention test</strong> — Every completed board is pressurised to 18.0 PSI and held for 24 hours. Pressure drop must not exceed 0.50 PSI.</li>
     <li><strong>Thermal cycling test</strong> — Sample coupons are cycled from -20 °C to +60 °C for 50 cycles, then peel-tested again. Acceptable strength loss: &lt; 10 %.</li>
   </ol>
 
@@ -91,5 +91,9 @@ content_html: |
 cta:
   title: 'Discuss your welding requirements'
   subtitle: 'Custom seam specifications, material compatibility, or process validation.'
-  button_text: 'Contact our welding team'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Contact our welding team
+      href: /contact#project-brief
+    - text: Back to the R&D Center
+      href: /randdcenter

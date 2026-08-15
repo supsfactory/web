@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Cantidad mínima de pedido: 5–10 unidades para un pedido de prueba estándar, 50 unidades por diseño para un lote OEM estándar y 200 unidades para proyectos de molde totalmente personalizado o marca blanca. Las muestras se envían en 15–20 días; la producción en serie tarda 30–45 días tras la confirmación de la orden de compra y el depósito, más 15–20 días cuando se requiere utillaje nuevo.'
+  text: 'La cantidad mínima de pedido se confirma según la configuración del proyecto, no con un número fijo: el desarrollo de muestra (1–2 unidades) valida el producto, los pedidos piloto (20–50 unidades) prueban el mercado sobre plataformas existentes, la producción de volumen estándar corre en lotes de 90–100+ unidades por rollo completo de drop-stitch de 150 m, y el co-branding de lotes pequeños parte de menos de 20 unidades. Las muestras se envían en 7–12 días; la producción en serie tarda 25–35 días tras la confirmación de la orden de compra y el depósito, más 15–20 días cuando se requiere utillaje nuevo.'
   verified: '2026-08'
 
 content_html: |
@@ -47,7 +47,7 @@ content_html: |
   <h2>2. Protocolos de control de calidad</h2>
   <p>Control de calidad de entrada de materiales: resistencia a la tracción (ASTM D751 o ISO 1421), resistencia al desgarro (ASTM D2261 o ISO 4674), resistencia de adhesión y controles puntuales de envejecimiento UV.</p>
   <p>Control de calidad en proceso: supervisión de la resistencia de costuras cada 50 unidades, verificación del par de la válvula, comprobaciones de la densidad de hilos del drop-stitch y comprobaciones dimensionales frente a los planos CAD.</p>
-  <p>Inspección final: prueba de retención de inflado al 100% (48 horas, pérdida máxima del 5%), inspección visual, prueba de funcionamiento de la válvula y ensayos con muestras aleatorias (AQL 2.5 o 4.0 según ISO 2859).</p>
+  <p>Inspección final: prueba de retención de inflado al 100% (24 horas, caída máxima de 0,50 PSI), inspección visual, prueba de funcionamiento de la válvula y ensayos con muestras aleatorias (AQL 2.5 o 4.0 según ISO 2859).</p>
 
   <h2>3. Lista de verificación de documentación de cumplimiento</h2>
   <ul>
@@ -61,7 +61,7 @@ content_html: |
   </ul>
 
   <h2>4. Negociación del MOQ</h2>
-  <p>Los MOQ de las tablas de SUP hinchables los determina la ruta de producción, no las conjeturas. Todos los proyectos OEM/ODM de afarer siguen una única estructura escalonada, y las mismas cifras aparecen en nuestra página de fábrica y en nuestras condiciones comerciales:</p>
+  <p>Los MOQ de las tablas de SUP hinchables los determinan la ruta de producción y la configuración del proyecto, no las conjeturas. Todos los proyectos OEM/ODM de afarer siguen tres etapas de cantidad distintas — muestra, piloto y volumen — y la lógica de cálculo completa se explica en nuestra <a href="/oem-moq-guide">Guía de MOQ y Branding Flexible</a>:</p>
   <table class="w-full text-sm border-collapse">
     <thead>
       <tr class="bg-gray-100">
@@ -71,16 +71,17 @@ content_html: |
       </tr>
     </thead>
     <tbody>
-      <tr><td class="p-3 border font-medium">Lote de prueba (modelo estándar)</td><td class="p-3 border">5 – 10 unidades</td><td class="p-3 border">Muestras en 15 – 20 días</td></tr>
-      <tr><td class="p-3 border font-medium">Lote OEM estándar (por diseño)</td><td class="p-3 border">50 unidades</td><td class="p-3 border">30 – 45 días tras la orden de compra y el depósito</td></tr>
-      <tr><td class="p-3 border font-medium">Molde totalmente personalizado / marca blanca</td><td class="p-3 border">200 unidades</td><td class="p-3 border">Añade 15 – 20 días para el utillaje</td></tr>
+      <tr><td class="p-3 border font-medium">Desarrollo de muestra (por diseño)</td><td class="p-3 border">1 – 2 unidades</td><td class="p-3 border">Muestras en 15 – 20 días</td></tr>
+      <tr><td class="p-3 border font-medium">Pedido piloto (plataformas existentes)</td><td class="p-3 border">20 – 50 unidades</td><td class="p-3 border">Validación de mercado con materiales de stock</td></tr>
+      <tr><td class="p-3 border font-medium">Lote de volumen estándar (por diseño)</td><td class="p-3 border">90 – 100+ unidades</td><td class="p-3 border">30 – 45 días tras la orden de compra y el depósito</td></tr>
+      <tr><td class="p-3 border font-medium">Molde totalmente personalizado / marca blanca</td><td class="p-3 border">Confirmado por configuración</td><td class="p-3 border">Añade 15 – 20 días para el utillaje</td></tr>
     </tbody>
   </table>
-  <p>Hay pedidos de prueba y tiradas de muestras disponibles para lanzamientos de nuevas marcas, y se aplican tramos de precios por volumen a medida que aumenta el tamaño del pedido. Consigue por escrito el tramo de MOQ, el plazo de entrega y las condiciones de pago para tu tabla concreta antes de comprometerte con un proveedor.</p>
+  <p>Las cantidades de muestra, piloto y producción de volumen son diferentes: el desarrollo de muestra (1–2 unidades) valida el producto, los pedidos piloto (20–50 unidades) prueban el mercado sobre plataformas existentes, y la producción de volumen estándar corre en lotes de 90–100+ unidades por rollo completo de drop-stitch de 150 m — con tramos de precios por volumen a medida que aumenta el tamaño del pedido. Consigue por escrito el cálculo de MOQ, el plazo de entrega y las condiciones de pago para tu tabla concreta antes de comprometerte con un proveedor.</p>
 
   <h2>5. Logística y envío</h2>
   <p>Incoterms habituales: <strong>FOB</strong> (la fábrica entrega en el puerto de salida: el más común), <strong>EXW</strong> (el comprador gestiona todo el envío desde la puerta de la fábrica), <strong>CIF</strong> (la fábrica paga el flete y el seguro hasta el puerto de destino).</p>
-  <p>Los productos hinchables son de bajo peso y gran volumen: el peso volumétrico (DIM) suele determinar el coste de envío. Solicita embalaje al vacío para reducir el volumen entre un 50 y un 60%. El tránsito marítimo de China a la UE suele tardar 25–35 días, y 15–20 días a la costa oeste de EE. UU., además del plazo de producción de 30–45 días.</p>
+  <p>Los productos hinchables son de bajo peso y gran volumen: el peso volumétrico (DIM) suele determinar el coste de envío. Solicita embalaje al vacío para reducir el volumen entre un 50 y un 60%. El tránsito marítimo de China a la UE suele tardar 25–35 días, y 7–12 días a la costa oeste de EE. UU., además del plazo de producción de 25–35 días.</p>
 
   <h2>6. Errores habituales</h2>
   <ul>
@@ -92,8 +93,8 @@ content_html: |
   </ul>
 
   <h2>7. Por qué Afarer</h2>
-  <p>Afarer fabrica tablas de SUP hinchables OEM/ODM desde 2012. Con unas instalaciones certificadas ISO 9001 de 12,000 m&sup2;, más de 25 ingenieros y certificación CE en todas las líneas de productos, cumplimos todos los criterios de esta guía. Ofrecemos MOQ de prueba para nuevos socios y paquetes completos de documentación de cumplimiento.</p>
-  <p>Revisa nuestros <a href="/oem-odm-manufacturer">servicios de fabricación OEM/ODM de SUP hinchables</a> o visita la <a href="/factory">planta de 12,000 m&sup2;</a> para ver los equipos y los procesos de control de calidad que hay detrás de cada paso anterior.</p>
+  <p>Afarer fabrica tablas de SUP hinchables OEM/ODM desde 2012. Con unas instalaciones certificadas ISO 9001 de 12,500 m&sup2;, más de 25 ingenieros y certificación CE en todas las líneas de productos, cumplimos todos los criterios de esta guía. Ofrecemos MOQ de prueba para nuevos socios y paquetes completos de documentación de cumplimiento.</p>
+  <p>Revisa nuestros <a href="/oem-odm-manufacturer">servicios de fabricación OEM/ODM de SUP hinchables</a> o visita la <a href="/factory">planta de 12,500 m&sup2;</a> para ver los equipos y los procesos de control de calidad que hay detrás de cada paso anterior.</p>
 
 cta:
   title: '¿Listo para empezar a abastecerte?'

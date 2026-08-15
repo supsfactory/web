@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Cada tabla se inspecciona contra las especificaciones publicadas antes del envío: ensayo de retención de inflado al 100 % a 1.25× de la presión nominal durante 48 horas (rechazo automático con una caída de presión superior al 5 %), ensayos de tracción y pelado de costuras según ISO 1421, y una lista de comprobación de 100 puntos. El laboratorio informa al director general, no a producción, y puede detener cualquier envío.'
+  text: 'Cada tabla se inspecciona contra las especificaciones publicadas antes del envío: ensayo de retención de inflado al 100 % a 18,0 PSI durante 24 horas (rechazo automático con una caída de presión superior a 0,50 PSI), ensayos de tracción y pelado de costuras según ISO 1421, y una lista de comprobación de 100 puntos. El laboratorio informa al director general, no a producción, y puede detener cualquier envío.'
   verified: '2026-08'
 
 intro: 'Toda tabla que sale de nuestro taller lleva la certificación de haber superado un conjunto definido de inspecciones de calidad y ensayos de materiales. Nuestro Laboratorio de Calidad e Inspección es una función independiente dentro de la organización — informa directamente al director general, no a producción — de modo que ninguna presión comercial pueda comprometer el punto de inspección. Si un lote de material o una tabla terminada no cumple la especificación publicada, el laboratorio tiene autoridad para detener el envío hasta que la no conformidad quede resuelta.'
@@ -61,7 +61,7 @@ content_html: |
           <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Control 3</div>
           <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
             <p class="text-sm font-semibold">Ensayo de aire de la cámara</p>
-            <p class="text-xs text-gray-500 mt-1">El tabla se presuriza a 1.25 × la presión nominal (15 PSI de trabajo) y se mantiene 48 h. Una caída de presión &gt; 5 % se rechaza automáticamente. Los datos se registran por número de serie.</p>
+            <p class="text-xs text-gray-500 mt-1">La tabla se presuriza a 18.0 PSI (12–15 PSI de trabajo) y se mantiene 24 h. Una caída de presión &gt; 0,50 PSI se rechaza automáticamente. Los datos se registran por número de serie.</p>
           </div>
         </div>
         <div class="flex gap-4">
@@ -85,8 +85,8 @@ content_html: |
   <h2>Controles estándar en cada lote</h2>
   <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
-      <span class="block text-2xl font-bold text-blue-600">1,25 ×</span>
-      <span class="text-xs text-gray-500">Presión nominal en la prueba de cámara de aire, mantenida 48 h</span>
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18,0 PSI en la prueba de cámara de aire, mantenida 24 h</span>
     </div>
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
       <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
@@ -133,5 +133,13 @@ content_html: |
 cta:
   title: 'Solicita una lista de comprobación de control de calidad de muestra'
   subtitle: 'Consulta los controles exactos, métodos de ensayo y documentos que se aplicarían a tu lote — envía tu tipo de tabla y cantidad.'
-  button_text: 'Solicitar la lista de QC'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Solicitar la lista de QC
+      href: /es/contact#quality-inquiry
+    - text: El sistema de inspección de 7 etapas
+      href: /es/quality
+    - text: Laboratorio de calidad de fábrica y descargas
+      href: /es/factory/quality-lab
+    - text: Estándar de control de producto no conforme
+      href: /es/factory/non-conforming-control

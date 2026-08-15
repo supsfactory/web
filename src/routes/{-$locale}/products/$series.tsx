@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
+import { getTurnstileSiteKey } from '@/features/auth/middleware'
 import type { Locale } from '@/features/i18n/locale'
 import { getSeriesPage } from '@/features/site/series-pages'
 import type { SeriesPageData } from '@/features/site/series-pages'
@@ -16,11 +17,11 @@ export const Route = createFileRoute('/{-$locale}/products/$series')({
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
     const slug = (params as { series: string }).series
     const page = getSeriesPage(locale, slug)
-    const origin = await getOrigin()
-    if (page) return { origin, page, product: null as ProductCatchAll | null }
+    const [origin, turnstileSiteKey] = await Promise.all([getOrigin(), getTurnstileSiteKey()])
+    if (page) return { origin, turnstileSiteKey, page, product: null as ProductCatchAll | null }
     const { afarerProductLoader } = await import('@/features/content/catchall')
     const product = await afarerProductLoader({ data: { slug, locale } })
-    return { origin, page: null as SeriesPageData | null, product }
+    return { origin, turnstileSiteKey, page: null as SeriesPageData | null, product }
   },
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''

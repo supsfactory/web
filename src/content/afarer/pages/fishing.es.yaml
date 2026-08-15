@@ -74,3 +74,15 @@ body: |
 
   <h3>¿Cuánto equipo puedo llevar en un SUP hinchable?</h3>
   <p>La mayoría de los SUP hinchables soportan una capacidad total de 220 a 300 libras (palista más equipo). Una configuración de pesca típica, con aparejos, nevera y equipo de seguridad, añade de 20 a 40 libras. Comprueba el índice de volumen de la tabla para asegurar una capacidad adecuada.</p>
+
+  <div class="not-prose my-10">
+    <div class="rounded-2xl border border-sky-200 bg-sky-50 p-6 text-center dark:border-sky-900 dark:bg-sky-950">
+      <h3 class="font-display text-lg font-bold">Una tabla de pesca fabricada a tu especificación</h3>
+      <p class="mt-2 text-sm text-fg-2">Comprueba cómo se fabrican nuestras tablas, explora la gama de pesca o envía tus requisitos a ingeniería.</p>
+      <p class="mt-4 flex flex-wrap justify-center gap-3">
+        <a href="/es/products/fishing" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">Ver tablas de pesca</a>
+        <a href="/es/factory/process" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Cómo se fabrican las tablas</a>
+        <a href="/es/knowledge" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Más guías de paddling</a>
+      </p>
+    </div>
+  </div>

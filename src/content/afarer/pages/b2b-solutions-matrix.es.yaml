@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Una sola fábrica sirve todas las vías B2B: fabricación OEM/ODM (pruebas de 5–10 unidades, lotes estándar de 50 unidades, moldes a medida de 200 unidades), marca privada sobre plataformas probadas, distribución mayorista y programas de flotas para resorts, clubes y escuelas. Muestras en 15–20 días; producción en 30–45 días tras el PO y el depósito.'
+  text: 'Una sola fábrica sirve todas las vías B2B: fabricación OEM/ODM con MOQ confirmado por proyecto (muestra 1–2 unidades, piloto 20–50, volumen estándar 90–100+ por rollo de 150 m; co-branding desde menos de 20 unidades), marca privada sobre plataformas probadas, distribución mayorista y programas de flotas para resorts, clubes y escuelas. Muestras en 7–12 días; producción en 25–35 días tras el PO y el depósito.'
   verified: '2026-08'
 
 solutions:
@@ -31,7 +31,7 @@ solutions:
     - clientType: Propietario de tienda de surf
       need: Mejora del negocio de surf
       solutionPage: Lleva la tecnología hinchable a tu negocio de surf
-      link: /es/solutions/custom-sup
+      link: /es/products/surf
     - clientType: Vendedor de Amazon
       need: Crecimiento del e-commerce
       solutionPage: Diferenciación de producto y suministro rápido
@@ -39,11 +39,11 @@ solutions:
     - clientType: Marca de equipo de pesca
       need: SUP de pesca
       solutionPage: Crea tu marca de SUP de pesca
-      link: /es/solutions/custom-sup
+      link: /es/products/fishing
     - clientType: Marca de yoga y bienestar
       need: Productos acuáticos de bienestar
       solutionPage: Equipamiento de yoga SUP
-      link: /es/solutions/custom-sup
+      link: /es/products/yoga
     - clientType: Marca de creadores
       need: Marca de influencers
       solutionPage: SUP de edición creador
@@ -87,7 +87,7 @@ solutions:
     - clientType: Propietario de marca de aventuras para mascotas
       need: Outdoor con mascotas
       solutionPage: Programa de paddle board para mascotas
-      link: /es/solutions/custom-sup
+      link: /es/product-development
     - clientType: Operador de recreo de playa
       need: Entretenimiento de playa
       solutionPage: Soluciones completas de equipamiento para actividades de playa
@@ -99,7 +99,7 @@ solutions:
     - clientType: Propietario de isla privada y club de lujo
       need: Estilo de vida de alta gama
       solutionPage: Colección SUP premium a medida
-      link: /es/solutions/custom-sup
+      link: /es/product-development
     - clientType: Oficina de turismo y operador de parque público
       need: Proyectos de turismo público
       solutionPage: Paquete de deportes acuáticos de destino
@@ -130,5 +130,5 @@ cta:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p>Todas las rutas de esta matriz parten de lo mismo: nuestro <a href="/es/oem-odm-manufacturer">programa de fabricación OEM/ODM</a> y la <a href="/es/factory">fábrica</a> — una planta de 12.000 m&sup2;, un mismo estándar de calidad para cada canal.</p>
+    <p>Todas las rutas de esta matriz parten de lo mismo: nuestro <a href="/es/oem-odm-manufacturer">programa de fabricación OEM/ODM</a> y la <a href="/es/factory">fábrica</a> — una planta de 12.500 m&sup2;, un mismo estándar de calidad para cada canal.</p>
   </div>

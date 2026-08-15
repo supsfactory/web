@@ -32,7 +32,7 @@ steps:
     duration: 2–4 horas por kit de tabla
   - step: '03'
     title: Termosellado y soldadura de tubos
-    description: Los paneles se hilvanan y unen con máquinas de termosellado con soldadura de aire caliente a temperaturas controladas de 200–300 °C. Las costuras principales se refuerzan con soldadura dieléctrica RF para lograr uniones herméticas y de alta resistencia. Las cámaras terminadas se inflan al 1,25× de la presión de trabajo como comprobación inicial de estanqueidad antes de la retención de 48 horas.
+    description: Los paneles se hilvanan y unen con máquinas de termosellado con soldadura de aire caliente a temperaturas controladas de 200–300 °C. Las costuras principales se refuerzan con soldadura dieléctrica RF para lograr uniones herméticas y de alta resistencia. Las cámaras terminadas se inflan a 18,0 PSI como comprobación inicial de estanqueidad antes de la retención de 24 horas.
     duration: 1–2 días por tabla de SUP
   - step: '04'
     title: Unión del núcleo drop-stitch

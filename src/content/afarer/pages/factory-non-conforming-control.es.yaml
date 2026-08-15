@@ -36,7 +36,7 @@ stats:
       label: Pasos desde la identificación hasta la acción correctiva
     - value: '100%'
       label: Reinspección de cada tabla retrabajada por QA independiente
-    - value: '24–48h'
+    - value: '24h'
       label: Re-ensayo completo de presión para reparaciones de estanqueidad
     - value: '≥ 5 años'
       label: Retención de evidencia de destrucción (bóveda SHA-256)
@@ -68,7 +68,7 @@ nc_flow:
       desc: 'El retrabajo permitido sigue instrucciones aprobadas que identifican el artículo afectado, el método, los materiales, los puntos de inspección y los requisitos de reinspección. Nunca se permiten cambios no aprobados en la especificación del producto, el arte, la configuración de accesorios o el embalaje. Los artículos de reemplazo vuelven a pasar por las compuertas de inspección aplicables.'
     - step: '05'
       title: Reinspección
-      desc: 'Los artículos retrabajados o corregidos se reinspeccionan contra los criterios de aceptación aplicables. La característica fallada original y cualquier característica relacionada potencialmente afectada por el retrabajo se verifican antes de la liberación — por QC independiente, y con un ciclo completo nuevo de prueba de presión de 24–48h para las reparaciones de estanqueidad.'
+      desc: 'Los artículos retrabajados o corregidos se reinspeccionan contra los criterios de aceptación aplicables. La característica fallada original y cualquier característica relacionada potencialmente afectada por el retrabajo se verifican antes de la liberación — por QC independiente, y con un ciclo completo nuevo de prueba de presión de 24h para las reparaciones de estanqueidad.'
     - step: '06'
       title: Liberar o rechazar
       desc: 'El producto se libera solo tras completar la reinspección requerida y que personal de calidad autorizado confirme la conformidad con los requisitos del proyecto aplicables. Los artículos que no pueden alcanzar la conformidad se rechazan, reemplazan, devuelven o reciben una disposición bajo procedimientos controlados — incluida la destrucción física presenciada.'
@@ -88,7 +88,7 @@ nc_pillars:
     - icon: 2
       icon_bg: green
       title: Reinspección independiente
-      desc: 'Las tablas retrabajadas reciben reinspección al 100% por inspectores de QA contra los criterios de aceptación originales. Las reparaciones de estanqueidad requieren un ciclo completo nuevo de prueba de presión de 24–48h — nunca una verificación parcial.'
+      desc: 'Las tablas retrabajadas reciben reinspección al 100% por inspectores de QA contra los criterios de aceptación originales. Las reparaciones de estanqueidad requieren un ciclo completo nuevo de prueba de presión de 24h — nunca una verificación parcial.'
     - icon: 3
       icon_bg: purple
       title: Firma autorizada y trazabilidad
@@ -149,7 +149,7 @@ nc_matrix:
       validation: 'Sumergir en solución de burbujas; re-inflar a 18 PSI para un re-ensayo completo de caída de presión de 24h (ΔP ≤ 0,05 PSI).'
     - defect: 'Burbujas de aire en la costura del raíl'
       protocol: 'Poner en cuarentena el lote de turno. Delaminar la zona de burbujas con boquilla de asistencia térmica, limpiar la superficie con solvente, aplicar adhesivo PU de dos componentes a 5 bar de presión.'
-      validation: 'Inspección visual y táctil al 100% de la costura; prueba de presión estructural de comprobación (1,25x PSI de trabajo) más retención de estanqueidad de 48h.'
+      validation: 'Inspección visual y táctil al 100% de la costura; prueba de presión estructural de comprobación (18,0 PSI) más retención de estanqueidad de 24h.'
     - defect: 'Desalineación de la almohadilla EVA'
       protocol: 'Pelado con asistencia térmica con herramienta regulada en temperatura (80°C). Re-alineación con plantilla acrílica de precisión.'
       validation: 'Verificación de tolerancia de holgura (≤ ±1,5 mm), comprobación de simetría del patrón de rombos y ensayo de adhesión del borde al 100%.'
@@ -211,7 +211,7 @@ faqs:
   title: FAQ sobre calidad y control de defectos para compradores globales
   items:
     - q: '¿Cómo garantizan que las tablas retrabajadas cumplen todos los estándares de seguridad?'
-      a: 'Toda tabla retrabajada se trata como una unidad nueva y debe completar el mismo ciclo completo de ensayos desde cero — para reparaciones de estanqueidad, una prueba de presión completa de 24–48h. Los inspectores de QC independientes, no los operadores del retrabajo, realizan la validación de liberación.'
+      a: 'Toda tabla retrabajada se trata como una unidad nueva y debe completar el mismo ciclo completo de ensayos desde cero — para reparaciones de estanqueidad, una prueba de presión completa de 24h. Los inspectores de QC independientes, no los operadores del retrabajo, realizan la validación de liberación.'
     - q: '¿Enviará la fábrica tablas con desviaciones cosméticas menores sin avisarnos?'
       a: 'Nunca. Cualquier desviación que afecte a las muestras doradas aprobadas por el cliente, el arte del logo, las gamas de color o el embalaje requiere un acuerdo de concesión formal por escrito firmado por el cliente antes de la liberación del envío.'
     - q: '¿Qué ocurre si una tabla retrabajada falla la reinspección?'

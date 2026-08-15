@@ -1,13 +1,13 @@
 meta:
   title: 'Taller de Prototipos SUP — Construcción de tablas de muestra'
-  description: 'Del CAD a la tabla de muestra probada en 15–20 días. Nuestro Taller de Prototipos construye, ensaya y valida muestras de SUP personalizadas. Empieza hoy tu proyecto de prototipos.'
+  description: 'Del CAD a la tabla de muestra probada en 7–12 días. Nuestro Taller de Prototipos construye, ensaya y valida muestras de SUP personalizadas. Empieza hoy tu proyecto de prototipos.'
   dateModified: '2026-08'
 back_text: 'Volver al Centro de I+D'
 home_label: 'Inicio'
 
 answer:
   label: 'Respuesta directa'
-  text: 'Convertimos un modelo CAD en una tabla de muestra navegable y comprobada en 15–20 días: prototipado hinchable, pruebas en aguas agitadas, iteraciones de proa y canto, y el paso posterior al utillaje de producción. Un molde a medida completo requiere 15–20 días de utillaje además del plazo estándar de 30–45 días de producción en serie.'
+  text: 'Convertimos un modelo CAD en una tabla de muestra navegable y comprobada en 7–12 días: prototipado hinchable, pruebas en aguas agitadas, iteraciones de proa y canto, y el paso posterior al utillaje de producción. Un molde a medida completo requiere 7–12 días de utillaje además del plazo estándar de 25–35 días de producción en serie.'
   verified: '2026-08'
 
 hero:
@@ -21,7 +21,7 @@ intro: 'Un modelo CAD, por muy detallado que sea, no puede revelar cómo se sien
 
 content_html: |
   <h2>Donde el diseño se convierte en realidad</h2>
-  <p>El taller está equipado para la fabricación en paralelo de paneles, núcleos drop-stitch y railes. Este enfoque de trabajo concurrente reduce el plazo de entrega del prototipo a 15–20 días desde la liberación de ingeniería. Cuando tu aplicación exige una solución especializada, podemos pasar del concepto a la validación en el agua en menos de tres semanas.</p>
+  <p>El taller está equipado para la fabricación en paralelo de paneles, núcleos drop-stitch y railes. Este enfoque de trabajo concurrente reduce el plazo de entrega del prototipo a 7–12 días desde la liberación de ingeniería. Cuando tu aplicación exige una solución especializada, podemos pasar del concepto a la validación en el agua en menos de tres semanas.</p>
 
   <h2>Capacidades del taller</h2>
   <table>
@@ -39,7 +39,7 @@ content_html: |
   <ol>
     <li><strong>Cesión desde ingeniería</strong> — El paquete de diseño (modelo 3D, informe FEA, lista de materiales, plan de paneles) se revisa formalmente por el responsable del taller y el ingeniero de proyecto. Cualquier preocupación de fabricación se señala y resuelve antes de comenzar el corte.</li>
     <li><strong>Fabricación de paneles</strong> — La tabla se construye siguiendo la especificación de ingeniería. Los paneles se cortan con CNC, el núcleo drop-stitch se lamina entre las láminas de PVC y la cubierta y el casco se ensamblan con la combinación de materiales aprobada.</li>
-    <li><strong>Soldadura</strong> — Los paneles se sueldan por RF hasta la forma completa de la tabla. La cámara se infla a la presión de prueba y se deja 48 h para la estabilización inicial.</li>
+    <li><strong>Soldadura</strong> — Los paneles se sueldan por RF hasta la forma completa de la tabla. La cámara se infla a la presión de prueba y se deja 24 h para la estabilización inicial.</li>
     <li><strong>Ensamblaje y acabado</strong> — Se instalan el pavimento de cubierta, los gráficos, el asa, el tapón de anilla y las cajas de quilla. Todos los accesorios se montan y se verifican según la especificación.</li>
     <li><strong>Ensayos estáticos</strong> — Antes de que la tabla toque el agua se somete a: ciclos de inflado, comprobación de retención de aire, medición de la flecha de la cubierta a la presión de trabajo y comprobación del par de torsión de los herrajes.</li>
     <li><strong>Ensayos en el agua</strong> — 10 horas de pruebas en el agua, detalladas a continuación.</li>
@@ -94,5 +94,9 @@ content_html: |
 cta:
   title: 'Empieza tu proyecto de prototipo'
   subtitle: 'Cuéntanos la tabla que necesitas y te propondremos un plan de desarrollo del prototipo.'
-  button_text: 'Contacta con nuestro equipo de prototipos'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Contacta con nuestro equipo de prototipos
+      href: /es/contact#project-brief
+    - text: Volver al centro de I+D
+      href: /es/randdcenter

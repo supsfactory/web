@@ -114,6 +114,32 @@ test('product-development page: registered EN+ES with structured sections', () =
   expect(getAfarerEsPaths()).toContain('/product-development')
 })
 
+test('oem-trust-assurance page: registered EN+ES with structured sections', () => {
+  const en = getAfarerPage('/oem-trust-assurance')
+  expect(en).toBeDefined()
+  expect(en!.meta?.title).toContain('OEM Trust')
+  const types = en!.sections.map((s) => s.type)
+  expect(types).toContain('hero')
+  expect(types).toContain('stats')
+  expect(types).toContain('features')
+  expect(types).toContain('steps')
+  expect(types).toContain('faqs')
+  expect(types).toContain('content')
+  expect(types).toContain('cta')
+  const faqItems = (en!.content.trust_faqs?.items ?? []) as { q?: string; a?: string }[]
+  expect(faqItems).toHaveLength(12)
+  expect(faqItems.every((f) => f.q && f.a)).toBe(true)
+  const stats = en!.content.trust_stats as { value?: string }[]
+  expect(stats.some((s) => s.value === '18,0 PSI' || s.value === '18.0 PSI')).toBe(true)
+  const esPage = getAfarerPage('/oem-trust-assurance', 'es')
+  expect(esPage).toBeDefined()
+  expect(esPage!.meta?.title).toContain('Confianza')
+  expect(esPage!.meta?.title).not.toBe(en!.meta?.title)
+  expect(hasSpanishVariant('/oem-trust-assurance')).toBe(true)
+  expect(getAfarerPublicPaths()).toContain('/oem-trust-assurance')
+  expect(getAfarerEsPaths()).toContain('/oem-trust-assurance')
+})
+
 test('getEsContentPaths lists every es sidecar detail path', () => {
   const paths = getEsContentPaths()
   expect(paths.length).toBeGreaterThanOrEqual(18)

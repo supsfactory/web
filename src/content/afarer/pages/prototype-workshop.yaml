@@ -1,13 +1,13 @@
 meta:
   title: 'SUP Prototype Workshop — Sample Board Building'
-  description: 'From CAD to tested sample board in 15–20 days. Our Prototype Workshop builds, tests and validates custom SUP samples. Start your prototype project today.'
+  description: 'From CAD to tested sample board in 7–12 days. Our Prototype Workshop builds, tests and validates custom SUP samples. Start your prototype project today.'
   dateModified: '2026-08'
 back_text: 'Back to R&D Center'
 home_label: 'Home'
 
 answer:
   label: 'Straight answer'
-  text: 'We turn a CAD model into a rideable, tested sample board in 15–20 days: inflatable prototyping, on-water chop runs, rail and nose iterations, then production tooling commitment. Full custom moulds take 15–20 days of tooling on top of the standard 30–45 day bulk lead time.'
+  text: 'We turn a CAD model into a rideable, tested sample board in 7–12 days: inflatable prototyping, on-water chop runs, rail and nose iterations, then production tooling commitment. Full custom moulds take 7–12 days of tooling on top of the standard 25–35 day bulk lead time.'
   verified: '2026-08'
 
 hero:
@@ -21,7 +21,7 @@ intro: 'A CAD model, no matter how detailed, cannot reveal how a board will actu
 
 content_html: |
   <h2>Where design becomes reality</h2>
-  <p>The workshop is equipped for simultaneous fabrication of panels, drop-stitch cores, and rails. This parallel-workflow approach cuts prototype lead time to 15–20 days from engineering release. When your application demands a specialised solution, we can move from concept to on-water validation in under three weeks.</p>
+  <p>The workshop is equipped for simultaneous fabrication of panels, drop-stitch cores, and rails. This parallel-workflow approach cuts prototype lead time to 7–12 days from engineering release. When your application demands a specialised solution, we can move from concept to on-water validation in under three weeks.</p>
 
   <h2>Workshop capabilities</h2>
   <table>
@@ -39,7 +39,7 @@ content_html: |
   <ol>
     <li><strong>Engineering handover</strong> — The design package (3D model, FEA report, bill of materials, panel lay plan) is formally reviewed by the workshop lead and the project engineer. Any manufacturing concerns are flagged and resolved before cutting begins.</li>
     <li><strong>Panel production</strong> — The board is built according to the engineering specification. Panels are CNC-cut, the drop-stitch core is laminated between PVC skins, and the deck and hull are assembled with the approved material stack.</li>
-    <li><strong>Welding</strong> — Panels are RF-welded into the full board shape. The chamber is inflated to test pressure and left for 48 h for initial stabilisation.</li>
+    <li><strong>Welding</strong> — Panels are RF-welded into the full board shape. The chamber is inflated to test pressure and left for 24 h for initial stabilisation.</li>
     <li><strong>Assembly &amp; finishing</strong> — Deck pad, graphics, handle, leash plug and fin boxes are fitted. All fittings are installed and verified against the specification.</li>
     <li><strong>Static tests</strong> — Before the board touches water, it undergoes: inflation cycling, air-retention hold test, deck deflection measurement at rated pressure, and hardware torque checks.</li>
     <li><strong>On-water test programme</strong> — 10 hours of in-water testing, detailed below.</li>
@@ -94,5 +94,9 @@ content_html: |
 cta:
   title: 'Start your prototype project'
   subtitle: 'Tell us about the board you need and we will propose a prototype development plan.'
-  button_text: 'Contact our prototyping team'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Contact our prototyping team
+      href: /contact#project-brief
+    - text: Back to the R&D Center
+      href: /randdcenter

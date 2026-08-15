@@ -1,6 +1,6 @@
 meta:
   title: 'OEM & Private Label Manufacturing | {SITE}'
-  description: 'From concept to container: customize every detail of your inflatable SUP line. Full OEM/ODM service for private label paddle board brands.'
+  description: 'From concept to production: customize every detail of your inflatable SUP line. Full OEM/ODM service for private label paddle board brands.'
   dateModified: '2026-08'
   keywords:
     - 'oem sup manufacturing'
@@ -10,14 +10,14 @@ meta:
 hero:
   tagline: OEM/ODM Manufacturing
   title: OEM & Private Label Manufacturing
-  subtitle: From concept to container —customize every detail of your inflatable SUP line
+  subtitle: From concept to production —customize every detail of your inflatable SUP line
 
 answer:
   label: 'Straight answer'
-  text: 'You can start an OEM order with a 5–10 unit trial batch (samples in 15–20 days), scale to 50 units per design for a standard batch, and go full custom-mould or private label from 200 units. Standard production runs 30–45 days FOB Qingdao after confirmed PO and deposit.'
+  text: 'MOQ is confirmed by project configuration rather than a fixed number: every project moves through sample (1–2 units) and pilot (20–50 units) stages, with standard volume production running 90–100+ units per batch from a full 150 m drop-stitch roll. Samples are ready in 7–12 days; standard production runs 25–35 days after confirmed PO and deposit.'
   verified: '2026-08'
 
-intro: afarer offers comprehensive OEM and ODM services for brands, distributors, and government agencies worldwide. With 10+ years of export experience and a 12,000 m² ISO 9001 & BSCI certified factory, we handle everything from product design and mold development to full-scale production, packaging, and logistics.
+intro: afarer offers comprehensive OEM and ODM services for brands, distributors, and government agencies worldwide. With 10+ years of export experience and a 12,500 m² ISO 9001 & BSCI certified factory, we handle everything from product design and mold development to full-scale production, packaging, and export management.
 
 highlight:
   - value: 10+
@@ -29,9 +29,9 @@ highlight:
   - value: 200+
     label: Custom projects delivered
     detail: Across all product lines
-  - value: 30–45
+  - value: 25–35
     label: Standard lead time (days)
-    detail: From PO to FOB
+    detail: After confirmed PO and deposit
 
 services:
   - title: Product Design & Engineering
@@ -41,13 +41,13 @@ services:
   - title: Material & Specification Customization
     description: Choose from PVC (standard, eco-friendly, fire-retardant), Hypalon/CSM, drop-stitch, and hybrid constructions. Custom tube colors, fabric weights, and reinforcement options.
   - title: Packaging & Logistics
-    description: Custom retail packaging, private-label boxes, vacuum packing, palletizing, and container loading. FOB Qingdao, CIF, or DDP shipping terms available.
+    description: Custom retail packaging, private-label boxes, vacuum packing, palletizing, and export-grade packing prepared in-house.
 
 moq_table:
   - product: Inflatable SUP Boards
-    standard_moq: 5–10 trial / 50 standard batch
-    custom_moq: 200+ units
-    lead_time: 30–45 days
+    standard_moq: 'Sample 1–2 | Pilot 20–50'
+    custom_moq: 'Volume 90–100+ (per 150 m roll)'
+    lead_time: 25–35 days
 
 why_us:
   - title: Vertical Integration
@@ -56,5 +56,19 @@ why_us:
     description: ISO 9001 quality management and BSCI social compliance certification. Factory audit reports available upon request.
   - title: CE Compliance
     description: All standard models carry CE 2013/53/EU certification. Custom models can be CE certified through our established process.
-  - title: Low MOQ
-    description: Start with as few as 5 units for standard models. We help emerging brands launch without overcommitting inventory.
+  - title: Project-Specific MOQ
+    description: 'MOQ is confirmed by your project configuration — small-batch co-branding starts under 20 units, standard volume runs 90–100+ units per batch. We help emerging brands launch without overcommitting inventory.'
+
+cta:
+  title: 'Put Your Own Brand on a Proven Board'
+  subtitle: 'From spec review to shipped container — send your brief today and receive a detailed OEM quotation within one business day. Verify the factory and its quality system before you commit.'
+  actions:
+    - variant: primary
+      text: Request an OEM Quotation
+      href: /contact#custom-oem
+    - text: Verify the factory & quality system
+      href: /oem-trust-assurance
+    - text: The 7-stage inspection system
+      href: /quality
+    - text: See the production line
+      href: /factory/process

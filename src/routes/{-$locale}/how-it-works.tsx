@@ -23,7 +23,7 @@ export const Route = createFileRoute('/{-$locale}/how-it-works')({
       origin,
       locale,
       path: '/how-it-works',
-      title: locale === 'es' ? 'Cómo funciona | De la especificación al contenedor' : 'How It Works | From Specification to Shipped Container',
+      title: locale === 'es' ? 'Cómo funciona | De la especificación al producto terminado' : 'How It Works | From Specification to Finished Product',
       description:
         locale === 'es'
           ? 'Comparte requisitos, aprueba especificación y muestra, luego producción, control de calidad y entrega: te guiamos en cada paso.'

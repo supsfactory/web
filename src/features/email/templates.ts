@@ -3,7 +3,7 @@ import { dictionaries, type Locale } from '@/features/i18n/locale'
 interface RenderInput {
   template: 'verify-email' | 'reset-password' | 'catalog-request' | 'inquiry-ack'
   locale: Locale
-  data: { url?: string }
+  data: { url?: string; tier?: 'A' | 'B' | 'C' }
 }
 
 function esc(s: string): string {
@@ -14,7 +14,7 @@ export async function renderEmail(input: RenderInput): Promise<{ subject: string
   const dict = dictionaries[input.locale]
   const url = input.data.url ?? ''
   if (input.template === 'inquiry-ack') {
-    const k = dict.email.ack
+    const k = input.data.tier ? dict.email[`ack${input.data.tier}` as 'ackA' | 'ackB' | 'ackC'] : dict.email.ack
     const html = `<!doctype html><html><body style="font-family:sans-serif;background:#f6f6f6">
 <div style="max-width:480px;margin:24px auto;padding:24px;background:#fff;border-radius:8px">
 <h1 style="color:#0b2540">${esc(k.heading)}</h1><p>${esc(k.body)}</p>

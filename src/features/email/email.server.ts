@@ -7,7 +7,7 @@ export interface SendEmailInput {
   to: string
   locale: Locale
   template: 'verify-email' | 'reset-password' | 'catalog-request' | 'inquiry-ack'
-  data: { url?: string }
+  data: { url?: string; tier?: 'A' | 'B' | 'C' }
 }
 
 interface Transport {

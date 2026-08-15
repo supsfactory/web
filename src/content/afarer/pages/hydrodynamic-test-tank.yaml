@@ -107,5 +107,9 @@ content_html: |
 cta:
   title: 'Book a tank test session'
   subtitle: 'Whether you need a full development programme or a single comparative test, we can accommodate your schedule.'
-  button_text: 'Contact our hydrodynamics team'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Contact our hydrodynamics team
+      href: /contact#project-brief
+    - text: Back to the R&D Center
+      href: /randdcenter

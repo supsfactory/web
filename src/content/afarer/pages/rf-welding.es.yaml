@@ -7,7 +7,7 @@ home_label: 'Inicio'
 
 answer:
   label: 'Respuesta directa'
-  text: 'Operamos prensas RF dieléctricas de 15 kW que unen molecularmente las costuras de PVC (equivalente a 200–600 °C de aire caliente) y después validamos cada soldadura: ensayos de pelado según ASTM D751 y retención de aire a 1.25× de la presión nominal, con costuras documentadas y trazables por unidad.'
+  text: 'Operamos prensas RF dieléctricas de 15 kW que unen molecularmente las costuras de PVC (equivalente a 200–600 °C de aire caliente) y después validamos cada soldadura: ensayos de pelado según ASTM D751 y retención de aire a 18,0 PSI, con costuras documentadas y trazables por unidad.'
   verified: '2026-08'
 
 hero:
@@ -41,7 +41,7 @@ content_html: |
   <ol>
     <li><strong>Inspección visual</strong> — Se inspecciona visualmente el 100 % de las costuras para detectar perforaciones, desalineaciones, contaminación o fusión incompleta. Umbral de rechazo: 0.5 % de metros lineales.</li>
     <li><strong>Ensayo de pelado</strong> — Se corta una tira de 25 mm de una probeta soldada con cada lote de producción. Fuerza mínima de pelado: 120 N/25 mm para PVC de 1100 dtex.</li>
-    <li><strong>Ensayo de retención de aire</strong> — Cada tabla terminada se presuriza a 1.25× de la presión de trabajo y se mantiene durante 48 horas. La caída de presión no debe superar el 5 %.</li>
+    <li><strong>Ensayo de retención de aire</strong> — Cada tabla terminada se presuriza a 18,0 PSI y se mantiene durante 24 horas. La caída de presión no debe superar 0,50 PSI.</li>
     <li><strong>Ensayo de ciclado térmico</strong> — Las probetas se ciclan de -20 °C a +60 °C durante 50 ciclos y se vuelven a ensayar al pelado. Pérdida de resistencia admisible: &lt; 10 %.</li>
   </ol>
 
@@ -91,5 +91,9 @@ content_html: |
 cta:
   title: 'Analiza tus necesidades de soldadura'
   subtitle: 'Especificaciones de costura a medida, compatibilidad de materiales o validación de procesos.'
-  button_text: 'Contacta con nuestro equipo de soldadura'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Contacta con nuestro equipo de soldadura
+      href: /es/contact#project-brief
+    - text: Volver al centro de I+D
+      href: /es/randdcenter

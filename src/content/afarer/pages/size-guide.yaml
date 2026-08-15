@@ -71,3 +71,15 @@ how_to_choose:
       description: Longer boards (11–12 ft) are best for covering distance and touring. Wider boards (32"+) offer more stability. Check weight capacity for total load including gear.
     - title: All-Around SUPs
       description: Choose length by rider weight and intended use. All-around boards work for recreation, fitness, and yoga. Smaller boards are more maneuverable.
+
+cta:
+  title: 'Browse boards by size, or talk to an engineer'
+  subtitle: 'Compare touring, all-around and yoga models across our product range — or send your rider mix and we will recommend the right sizes for your project.'
+  actions:
+    - variant: primary
+      text: Browse SUP products
+      href: /products
+    - text: More paddling knowledge
+      href: /knowledge
+    - text: How boards are built
+      href: /factory/process

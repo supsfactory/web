@@ -107,5 +107,9 @@ content_html: |
 cta:
   title: 'Reserva una sesión de ensayos en el canal'
   subtitle: 'Tanto si necesitas un programa completo de desarrollo como una única prueba comparativa, podemos acomodarnos a tu calendario.'
-  button_text: 'Contacta con nuestro equipo de hidrodinámica'
-  button_link: /contact
+  actions:
+    - variant: primary
+      text: Contacta con nuestro equipo de hidrodinámica
+      href: /es/contact#project-brief
+    - text: Volver al centro de I+D
+      href: /es/randdcenter

@@ -79,7 +79,7 @@ cc_scope:
       risk: 'High'
       requirements: 'Structural load-bearing surfaces: mandatory stop and re-assessment'
     - category: 'Inspection Methods'
-      examples: 'Leak-detection method, test pressure (15–18 PSI), hold duration (24h/48h)'
+      examples: 'Leak-detection method, test pressure (18.0 PSI), hold duration (24h)'
       risk: 'High'
       requirements: 'Quality approval + customer technical agreement confirmation'
     - category: 'Documentation & Authorization'
@@ -210,7 +210,7 @@ cc_validation:
 
     Validation evidence is quantitative, and the engineering baseline for air-tightness rework includes:
 
-    - **Leak elimination & pressure hold.** The original leak is removed with no sustained bubbles in soap-water leak detection; the board holds at the standard test pressure of 15–18 PSI for 24–48 hours, with net pressure drop ΔP ≤ 0.2 PSI after temperature/humidity compensation.
+    - **Leak elimination & pressure hold.** The original leak is removed with no sustained bubbles in soap-water leak detection; the board holds at the standard test pressure of 18.0 PSI for 24 hours, with net pressure drop ΔP ≤ 0.2 PSI after temperature/humidity compensation.
     - **Valve function.** Valve core torque meets the 15–20 N·m specification, with no micro-leak at the seal under high-pressure inflation and dynamic pressing.
     - **Seam bonding & durability.** Bond edges show no lifting, whitening or delamination; after heat-humidity aging cycles the adhesive layer shows no softening or brittle cracking.
     - **Appearance & workmanship.** No adhesive run-off marks, no EVA damage, no board distortion, and no logo shift or printed-surface scratches.
@@ -237,9 +237,9 @@ cc_engineering:
       parameters: 'Dedicated wrench torque 18–20 N·m; seal gasket flat without distortion; thread cleanliness confirmed'
       methodology: 'Inflate to 15 PSI; 20 inflation/deflation cycles; underwater immersion observation'
       acceptance: 'Zero bubbles at valve core and base periphery; torque after cycling ≥ 16 N·m'
-    - process: 'Final 24h/48h Pressure-Hold Test'
-      parameters: 'Reference inflation 15.0 PSI; digital gauge Class 1.0 / ±0.5%; ambient temperature & humidity recorded and compensated'
-      methodology: 'Digital pressure recorder; continuous 24 h and 48 h pressure curves'
+    - process: 'Final 24h Pressure-Hold Test'
+      parameters: 'Reference inflation 18.0 PSI; digital gauge Class 1.0 / ±0.5%; ambient temperature & humidity recorded and compensated'
+      methodology: 'Digital pressure recorder; continuous 24 h pressure curve'
       acceptance: 'Net pressure drop ΔP ≤ 0.20 PSI / 24 h after compensation; no board bulging or deformation'
 
 cc_photos:
@@ -263,7 +263,7 @@ cc_photos:
     - image: /assets/quality/cc-pressure-hold-testing.jpg
       alt: Finished inflatable SUP boards connected to digital pressure recorders in the final pressure-hold test area
       title: Final Pressure-Hold Testing
-      desc: 'Finished boards are connected to high-precision digital pressure recorders; the master gauge reads the 15.00 PSI reference, and all test data is automatically uploaded and linked to the contract traceability system.'
+      desc: 'Finished boards are connected to high-precision digital pressure recorders; the master gauge reads the 18.00 PSI reference, and all test data is automatically uploaded and linked to the contract traceability system.'
 
 cc_pokayoke:
   tagline: Anti-Error Safeguards

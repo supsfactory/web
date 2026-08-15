@@ -39,13 +39,16 @@
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: stats, type: stats, label: 'Statistics' }
+    - { key: quality_basis, type: features, label: 'Quality Basis (5 Locked Baselines)' }
     - { key: tests, type: features, label: 'Tests & Procedures' }
+    - { key: qc_flow, type: content, label: '7-Stage Inspection Flow' }
+    - { key: system_map, type: features, label: 'Quality System Map (4 Standards)' }
+    - { key: intelligence_cards, type: content, label: 'Documentation & Traceability — Anonymized Record Samples' }
+    - { key: doc_register, type: features, label: 'Controlled Document Register (00-12)' }
+    - { key: traceability, type: features, label: 'Traceability Matrix' }
+    - { key: non_conformance, type: features, label: 'Non-Conformance Control' }
+    - { key: third_party, type: features, label: 'Third-Party & Buyer Inspection' }
     - { key: content_certifications, type: content, label: 'Certifications Content' }
-    - { key: content_factory, type: content, label: 'Factory Content' }
-    - { key: content_safety, type: content, label: 'Safety Content' }
-    - { key: qs_intro, type: content, label: 'Anonymized Samples Intro' }
-    - { key: intelligence_cards, type: content, label: 'Anonymized Quality Record Samples' }
-    - { key: qs_notice, type: content, label: 'Confidentiality Notice' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
@@ -113,6 +116,7 @@
     - { key: services, type: features, label: 'OEM Services' }
     - { key: moq_table, type: content, label: 'MOQ Table' }
     - { key: why_us, type: features, label: 'Why Choose Us' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: factory-process
   label: Factory Process
@@ -134,6 +138,8 @@
     - { key: highlights, type: stats, label: 'Quality Highlights' }
     - { key: test_procedures, type: steps, label: 'Test Procedures' }
     - { key: equipment, type: features, label: 'Lab Equipment' }
+    - { key: lab_evidence, type: features, label: 'Lab Test Report Downloads' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: factory-quality-inspection
   label: Quality Inspection Standards
@@ -255,6 +261,37 @@
     - { key: hero_text, type: hero_text, label: 'Page Header (title, subtitle, tagline)' }
     - { key: news_list, type: blog_latest, label: 'News List' }
 
+- slug: oem-moq-guide
+  label: MOQ & Flexible Branding Guide
+  path: /oem-moq-guide
+  permalink: /oem-moq-guide
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: moq_principle, type: content, label: 'Engineering Logic: 150m Roll' }
+    - { key: moq_tiers, type: features, label: 'Volume OEM vs Co-Branding Cards' }
+    - { key: moq_fees, type: table, label: 'Transparent Screen-Printing Fees' }
+    - { key: moq_stages, type: steps, label: 'Sample / Pilot / Volume Stages' }
+    - { key: moq_factors, type: table, label: 'MOQ Drivers Table' }
+    - { key: moq_downloads, type: features, label: 'Official PDF Downloads' }
+    - { key: moq_faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: oem-trust-assurance
+  label: OEM Trust & Factory Assurance
+  path: /oem-trust-assurance
+  permalink: /oem-trust-assurance
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: trust_stats, type: stats, label: 'Verifiable Factory Stats' }
+    - { key: role_boundary, type: features, label: 'Role Boundary A/B Cards' }
+    - { key: trust_steps, type: steps, label: 'Verification Case Study Steps' }
+    - { key: trust_faqs, type: faqs, label: '12 Buyer FAQs' }
+    - { key: governance, type: content, label: 'Governance & Signatures' }
+    - { key: trust_downloads, type: features, label: 'Official PDF Downloads' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
 - slug: partners
   label: Partners
   path: /partners
@@ -290,6 +327,7 @@
     - { key: categories, type: features, label: 'Categories' }
     - { key: table, type: content, label: 'Size Table' }
     - { key: how_to_choose, type: content, label: 'How to Choose' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: solutions
   label: Solutions
@@ -342,3 +380,4 @@
     - { key: subtitle, type: content, label: 'Subtitle' }
     - { key: seo, type: content, label: 'SEO Metadata' }
     - { key: body, type: content, label: 'Body Content' }
+    - { key: content_html, type: html, label: 'CTA Block' }

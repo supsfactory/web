@@ -22,7 +22,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Cantidad mínima de pedido: 5-10 unidades para un pedido de prueba, 50 unidades por modelo para la producción OEM estándar y 200 unidades para proyectos con molde a medida. Las muestras se envían en 15-20 días; la producción en serie tarda 30-45 días tras la confirmación del pedido y el depósito. La certificación CE y toda la documentación de conformidad se incluyen en cada pedido.'
+  text: 'La cantidad mínima de pedido se confirma según la configuración del proyecto: muestra (1–2 unidades), piloto (20–50 unidades) y volumen estándar (90–100+ unidades por lote a partir de un rollo de drop-stitch de 150 m), con co-branding de lotes pequeños desde menos de 20 unidades. Las muestras se envían en 7–12 días; la producción en serie tarda 25–35 días tras la confirmación del pedido y el depósito. La certificación CE y toda la documentación de conformidad se incluyen en cada pedido.'
   verified: '2026-08'
   image:
     src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
@@ -35,7 +35,7 @@ answer:
       href: /oem-odm-manufacturer
       variant: secondary
 stats:
-  - value: '30–45'
+  - value: '25–35'
     label: 'Días de plazo de producción'
     detail: 'A partir del pedido (PO) y del depósito confirmados'
   - value: '50'
@@ -72,17 +72,17 @@ faqs:
   subtitle: 'Respuestas a las preguntas más habituales de las marcas que lanzan su propio paddle.'
   items:
     - title: '¿Cómo creo mi propia marca de paddle?'
-      description: 'Lanza tu marca: briefing, diseño, prototipo certificado CE, producción en serie y entrega. Muestras en 15-20 días y producción en 30-45 días a partir del pedido y del depósito. Explora nuestros paquetes OEM.'
+      description: 'Lanza tu marca: briefing, diseño, prototipo certificado CE, producción en serie y entrega. Muestras en 7–12 días y producción en 25–35 días a partir del pedido y del depósito. Explora nuestros paquetes OEM.'
     - title: '¿Cuál es el plazo de producción?'
-      description: 'La muestra está lista en 15-20 días y la producción en serie en 30-45 días después del pedido y del depósito, según el volumen.'
+      description: 'La muestra está lista en 7–12 días y la producción en serie en 25–35 días después del pedido y del depósito, según el volumen.'
     - title: '¿El paddle lleva nuestro logotipo?'
       description: 'Sí: marca privada completa con impresión del logotipo, colores personalizados, embalaje y etiquetas en tu marca.'
     - title: '¿Puedo comprar en gran volumen desde el primer día?'
-      description: 'El volumen mínimo se escalona: 5-10 unidades para pedidos de prueba, 50 unidades para modelos estándar y 200 unidades para moldes personalizados, con precios por mayor que mejoran a medida que aumenta el volumen.'
+      description: 'El MOQ se confirma según la configuración del proyecto — muestra (1–2 unidades), piloto (20–50 unidades) y volumen estándar (90–100+ unidades por lote), con precios al por mayor que mejoran a medida que aumenta el volumen.'
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Sigue leyendo:</strong> la producción de paddles y tablas comparte el mismo <a href="/oem-odm-manufacturer">programa OEM/ODM</a> y la misma <a href="/factory">planta de 12,000 m&sup2;</a> — un único presupuesto cubre ambos.</p>
+    <p><strong>Sigue leyendo:</strong> la producción de paddles y tablas comparte el mismo <a href="/oem-odm-manufacturer">programa OEM/ODM</a> y la misma <a href="/factory">planta de 12,500 m&sup2;</a> — un único presupuesto cubre ambos.</p>
   </div>
 
 geo:

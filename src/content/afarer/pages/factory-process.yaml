@@ -32,7 +32,7 @@ steps:
     duration: 2–4 hours per board kit
   - step: '03'
     title: Tube Heat Sealing & Welding
-    description: Panels are tacked and bonded using heat sealing machines  with hot-air welding at controlled temperatures of 200–300 °C. Main seams are reinforced with RF dielectric welding for airtight, high-strength joints. Completed chambers are inflated to 1.25× working pressure for an initial airtightness check ahead of the 48-hour retention hold.
+    description: Panels are tacked and bonded using heat sealing machines  with hot-air welding at controlled temperatures of 200–300 °C. Main seams are reinforced with RF dielectric welding for airtight, high-strength joints. Completed chambers are inflated to 18.0 PSI for an initial airtightness check ahead of the 24-hour retention hold.
     duration: 1–2 days per SUP board
   - step: '04'
     title: Drop-Stitch Core Bonding

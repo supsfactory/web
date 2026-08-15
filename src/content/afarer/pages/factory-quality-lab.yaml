@@ -14,7 +14,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: '100% of units are pressure-tested at 1.25× rated pressure for 48 hours, with auto-reject above a 5% pressure drop. Raw fabric batches are verified to ASTM D751 and ISO 4674, and weld peel tests run every 50 units with AQL 2.5 final sampling per ISO 2859.'
+  text: '100% of units are pressure-tested at 18.0 PSI for 24 hours, with auto-reject above a 0.50 PSI pressure drop. Raw fabric batches are verified to ASTM D751 and ISO 4674, and weld peel tests run every 50 units with AQL 2.5 final sampling per ISO 2859.'
   verified: '2026-08'
 
 intro: afarer operates a dedicated quality control laboratory that operates independently from production. Every batch of raw material and every finished SUP board passes through documented inspection protocols before release. Our QC team reports directly to management, ensuring impartial quality decisions.
@@ -23,12 +23,12 @@ highlights:
   - value: 100%
     label: Units pressure-tested
     detail: Every chamber, every board
-  - value: 48 h
+  - value: 24 h
     label: Air retention test duration
-    detail: At 1.25× rated pressure
+    detail: At 18.0 PSI rated pressure
   - value: '&lt;5%'
     label: Max allowed pressure drop
-    detail: Over 48-hour hold period
+    detail: Over 24-hour hold period
   - value: AQL 2.5
     label: Major defect threshold
     detail: Per ISO 2859 sampling
@@ -47,7 +47,7 @@ test_procedures:
       - Internal 100-point checklist
       - ISO 2859 sampling
   - title: 48-Hour Air Retention Test
-    description: Every tube chamber is inflated to 125% of rated pressure and held for 48 hours. Pressure sensors log continuously with temperature compensation. Any chamber exceeding 5% pressure drop triggers automatic batch re-inspection.
+    description: Every tube chamber is inflated to 18.0 PSI and held for 24 hours. Pressure sensors log continuously with temperature compensation. Any chamber exceeding 0.50 PSI pressure drop triggers automatic batch re-inspection.
     standards:
       - ISO 6185
       - CE 2013/53/EU
@@ -72,3 +72,58 @@ equipment:
     spec: -40 °C to +100 °C
   - name: Leak Detection Tank
     spec: 6 m × 2 m, illuminated
+
+lab_evidence:
+  tagline: Test Report Dossiers
+  title: 'Download the Actual Laboratory Test Reports'
+  subtitle: 'The same bilingual controlled records our quality team closes against — structure, methods, criteria and results, with confidential fields removed. Each dossier maps to one of the seven inspection gates.'
+  items:
+    - title: 'IQC — Incoming Material Reports'
+      description: 'Fabric, PVC roll, valve and component verification against the approved specification.'
+      icon: tabler:file-certificate
+      link: /downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Download IQC reports (PDF)'
+    - title: 'IPQC — In-Process & First Article Reports'
+      description: 'First article and in-process inspection records against the locked revision.'
+      icon: tabler:file-check
+      link: /downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Download IPQC reports (PDF)'
+    - title: 'Air-Tightness — Pressure & Leak Records'
+      description: '100% seam leak detection, valve integrity and 24 h pressure-hold verification.'
+      icon: tabler:waves
+      link: /downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Download air-tightness reports (PDF)'
+    - title: 'FQC — Final Board Test Reports'
+      description: 'Final inspection against the approved sample — dimensions, cosmetics and fin-box.'
+      icon: tabler:shield-check
+      link: /downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Download FQC reports (PDF)'
+    - title: 'PSI — Packing & Pre-Shipment Reports'
+      description: 'Kit completeness, barcode grade, carton markings and drop-safety records.'
+      icon: tabler:package
+      link: /downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Download PSI reports (PDF)'
+    - title: 'Shipment Release & Traceability Dossier'
+      description: 'Release authorization and batch traceability mapped to spec, artwork and BOM.'
+      icon: tabler:history
+      link: /downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Download release reports (PDF)'
+    - title: 'Complete Quality Dossier'
+      description: 'One pack covering the whole documentation system — QIP, gate records, traceability and NCR control.'
+      icon: tabler:books
+      link: /downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Download documentation pack (PDF)'
+
+cta:
+  title: 'Audit the Lab Behind Your Order'
+  subtitle: 'The lab operates independently from production and reports directly to management. Review the test reports, visit the inspection standards, or request a live lab walkthrough during production planning.'
+  actions:
+    - variant: primary
+      text: Request a Project Quality Review
+      href: /contact#quality-inquiry
+    - text: The 7-stage inspection system
+      href: /quality
+    - text: Inspection standards & QMS downloads
+      href: /factory/quality-inspection
+    - text: Visit the R&D material testing lab
+      href: /randdcenter/quality-inspection-lab

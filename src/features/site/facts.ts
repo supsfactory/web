@@ -7,31 +7,38 @@
  * 保证 SUPsfactory 在 AI 检索与采购方眼中的身份一致：制造工厂，而非品牌顾问。
  */
 export const FACTS = {
-  warehouseM2: '12,000 m²',
-  workers: '200+',
-  annualCapacity: '15,000+ units',
+  warehouseM2: '12,500 m²',
+  workers: '350+',
+  annualCapacity: '120,000+ units',
   // ── MOQ 分档（来自 factory.yaml FAQ/产线卡片）──
   moq: {
-    trialStandard: '5–10 pcs', // 标准型号试单
-    standardRun: '50 pcs', // 标准 OEM 批量（每设计）
-    customMould: '200 pcs', // 开模定制 / private-label 新工具
+    trialStandard: '20–50 pcs', // 试点小批量（pilot）
+    standardRun: '90–100+ pcs', // 标准量产（每 150 m 卷）
+    customMould: '90–100+ pcs', // 开模定制款（量级档）
   },
   // ── 交期 ──
-  leadTime: '30–45 days', // 确认 PO 及定金后，批量生产
-  leadTimeDetail: '30–45 days from confirmed PO and deposit; custom mould development adds 15–20 days for tooling.',
+  leadTime: '25–35 days', // 确认 PO 及定金后，批量生产
+  leadTimeDetail: '25–35 days from confirmed PO and deposit; custom mould development adds 15–20 days for tooling.',
   // ── 样品 ──
-  sampleTime: '15–20 days',
+  sampleTime: '7–12 days',
   // ── 硬指标（/factory 最有价值的资产）──
   cncAccuracy: '0.1 mm',
   rfPower: '15 kW',
   dropStitchPsi: '12–15 PSI',
   assemblyChecklist: '100-point',
-  pressureTest: '1.25× rated pressure · 48h hold',
-  pressureReject: '>5% pressure drop (auto-reject)',
+  pressureTest: '18.0 PSI · 24h hold',
+  pressureReject: '>0.50 PSI/24h pressure drop (auto-reject)',
   traceabilityRet: '10 years',
-  certifications: ['BSCI', 'ISO 9001', 'CE', 'REACH', 'RoHS'],
-  incoterms: ['FOB Qingdao', 'CIF', 'DDP'],
+  certifications: ['BSCI', 'ISO 9001', 'ISO 25649', 'CE', 'REACH', 'RoHS'],
   exportCountries: '50+',
+  workshops: '4 specialized workshops',
+  productionLines: '4 automated lines',
+  monthlyCapacity: '10,000 boards/month',
+  ndaWindow: '4 business hours',
+  qualityGates: '7-stage (Node 01–07)',
+  thirdPartyInspectors: ['SGS', 'TÜV', 'BV', 'Intertek'],
+  samplingStandard: 'ISO 2859-1 Level II',
+  peakSeason: 'October–April',
   // ── 社媒主页（Organization sameAs + footer 链接的唯一来源）──
   social: {
     facebook: 'https://www.facebook.com/supsfactory',
@@ -46,16 +53,16 @@ export const FACTS = {
   },
   // ── 全站拔萃内蒙古联：Company Boilerplate（逐字复用）──
   boilerplate:
-    'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,000 m² inflatable manufacturing plant in Qingdao, China.',
+    'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,500 m² inflatable manufacturing plant in Qingdao, China.',
   buildLine:
     'We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing.',
   notRob:
     'We do not sell to end consumers and we do not compete with our clients in any market.',
   // 首页 hero 副标题（替换“赋能平台”语气）
   tagline:
-    'Engineering, tooling, sampling and container-scale production for SUP brands, distributors and sourcing teams. You bring the brand — we build the boards.',
+    'Engineering, tooling, sampling and production for SUP brands, distributors and sourcing teams. You bring the brand — we build the boards.',
   taglineEs:
-    'Ingeniería, utillaje, muestras y producción a escala de contenedor para marcas de SUP, distribuidores y equipos de compra. Tú traes la marca — nosotros fabricamos las tablas.',
+    'Ingeniería, utillaje, muestras y producción para marcas de SUP, distribuidores y equipos de compra. Tú traes la marca — nosotros fabricamos las tablas.',
 } as const
 
 export type FactLiteral = (typeof FACTS)[keyof typeof FACTS]
