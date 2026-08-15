@@ -36,6 +36,35 @@
   "messages": [],
   "result": null
 }
+== settings cache_level ==
+{
+  "result": {
+    "id": "cache_level",
+    "value": "aggressive",
+    "editable": true
+  },
+  "success": true,
+  "errors": [],
+  "messages": [],
+  "result_info": {}
+}
+== FIX: purge everything (zone cache purge) ==
+{
+  "success": true,
+  "errors": [],
+  "messages": [],
+  "result": {
+    "id": "4a6adf44067bd05a752eae9d3b6cbb80"
+  }
+}
+== settings browser_cache_ttl ==
+300
+== settings always_online ==
+"off"
+== settings sort_query_string_for_cache ==
+"off"
+== settings development_mode ==
+"off"
 == page rules ==
 {
   "success": false,
