@@ -17,7 +17,7 @@ export const uploadAvatar = createServerFn({ method: 'POST' })
     const { env } = await import('@/lib/env')
     const { createDb } = await import('@/db/client')
     const { readUser } = await import('@/features/auth/readUser.server')
-    const { validateAvatar } = await import('./storage')
+    const { validateAvatar, sniffImage } = await import('./storage')
     const { putAvatar } = await import('./storage.server')
     const { user: userTable } = await import('@/features/auth/auth.schema')
     const { eq } = await import('drizzle-orm')
@@ -32,6 +32,9 @@ export const uploadAvatar = createServerFn({ method: 'POST' })
     if (!check.ok) return { ok: false, reason: check.reason }
 
     const bytes = await file.arrayBuffer()
+    // MIME sniff: the client-declared type is trivially spoofable, so verify
+    // the bytes match before anything is written to R2.
+    if (!sniffImage(new Uint8Array(bytes), file.type)) return { ok: false, reason: 'mismatch' }
     await putAvatar(env.BUCKET, user.id, bytes, file.type)
 
     // Cache-bust so the <img> refetches immediately after re-upload.

@@ -91,6 +91,7 @@ export const en = {
     empty: 'That file is empty.',
     type: 'Unsupported image type.',
     size: 'Image is too large.',
+    mismatch: 'The file contents do not match its declared type.',
     noFile: 'No file selected.',
     failed: 'Upload failed — please try again.',
   },

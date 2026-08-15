@@ -81,6 +81,7 @@ export const es = {
     empty: 'El archivo está vacío.',
     type: 'Tipo de imagen no compatible.',
     size: 'La imagen es demasiado grande.',
+    mismatch: 'El contenido del archivo no coincide con su tipo declarado.',
     noFile: 'No se ha seleccionado ningún archivo.',
     failed: 'Error al subir — inténtalo de nuevo.',
   },

@@ -85,6 +85,10 @@ export const submitInquiry = createServerFn({ method: 'POST' })
     try {
       if (file instanceof File && file.size > 0) {
         const bytes = await file.arrayBuffer()
+        // MIME sniff before R2 write: logo content is later served back to
+        // admins, so a spoofed `type` must not smuggle non-image bytes in.
+        const { sniffImage } = await import('@/features/storage/storage')
+        if (!sniffImage(new Uint8Array(bytes), file.type)) return { ok: false, reason: 'file' }
         logoKey = await putInquiryLogo(env.BUCKET, id, bytes, file.type)
       }
     } catch (err) {
