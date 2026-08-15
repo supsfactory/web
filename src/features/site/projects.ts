@@ -16,6 +16,14 @@ export interface ProjectData {
   kicker: string
   h1: string
   intro: string[]
+  /** Project snapshot fields — standardized across all cases so buyers can compare. */
+  customerType: string
+  region: string
+  productCategory: string
+  projectStage: string
+  manufacturingScope: string
+  keyRequirements: string
+  qualityFocus: string
   industry: string
   requirement: string
   challenge: string
@@ -31,6 +39,13 @@ export const projects: Localized<ProjectData[]> = {
   en: [
     {
       slug: 'resort-sup-fleet',
+      customerType: 'Resort & Hospitality',
+      region: 'Europe / North America',
+      productCategory: 'All-Around Inflatable SUP',
+      projectStage: 'Sample approval → Volume production → Fleet refresh',
+      manufacturingScope: 'Graphics, accessories, packing and fleet production',
+      keyRequirements: 'Rental durability, compact storage, full property branding',
+      qualityFocus: 'Air-tightness, artwork accuracy, accessory completeness, carton marking',
       navLabel: 'Luxury Resort SUP Fleet',
       metaTitle: 'Luxury Resort SUP Fleet | 100 Branded Boards — SUPsfactory',
       metaDescription:
@@ -60,6 +75,13 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'private-label-launch',
+      customerType: 'Retail & Outdoor Brands',
+      region: 'Europe',
+      productCategory: 'All-Around Inflatable SUP (private label)',
+      projectStage: 'Sample approval → Validation run → Scale',
+      manufacturingScope: 'Product and packaging artwork, sampling, production, tooling retention',
+      keyRequirements: 'Sellable line without in-house SUP design or manufacturing',
+      qualityFocus: 'Artwork version control, packaging accuracy, kit completeness',
       navLabel: 'Private Label Brand Launch',
       metaTitle: 'Private Label SUP Launch | Brand Extension — SUPsfactory',
       metaDescription:
@@ -89,6 +111,13 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'club-team-boards',
+      customerType: 'Paddle Clubs & Teams',
+      region: 'North America',
+      productCategory: 'Training Inflatable SUP',
+      projectStage: 'Sample approval → Fleet production → Expansion reorder',
+      manufacturingScope: 'Club branding, fleet production, spare parts support',
+      keyRequirements: 'Uniform team look, tight budget, identical future expansion',
+      qualityFocus: 'Artwork accuracy, air-tightness, kit completeness, reorder consistency',
       navLabel: 'Club Team Boards',
       metaTitle: 'Club Team SUP Boards | Branded Fleet Refresh — SUPsfactory',
       metaDescription:
@@ -118,6 +147,13 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'school-program-fleet',
+      customerType: 'Education & Youth Programs',
+      region: 'Europe',
+      productCategory: 'Beginner & Multi-Person Inflatable SUP',
+      projectStage: 'Program review → Sample approval → Fleet delivery',
+      manufacturingScope: 'Package design, production, spare parts and renewal support',
+      keyRequirements: 'Safety-first equipment, class-size quantities, limited staff management',
+      qualityFocus: 'Stability, air-tightness, accessory completeness, user guidance',
       navLabel: 'School Program Fleet',
       metaTitle: 'School SUP Program | Beginner Fleet — SUPsfactory',
       metaDescription:
@@ -147,6 +183,13 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'distributor-line-expansion',
+      customerType: 'Distributors & Wholesalers',
+      region: 'Two export regions',
+      productCategory: 'Mid-range Inflatable SUP (6 SKUs)',
+      projectStage: 'Range planning → Sample approval → Multi-market supply',
+      manufacturingScope: 'Boards, accessories and retail packaging under one program',
+      keyRequirements: 'One quality owner, consistent branding, reduced per-SKU inventory',
+      qualityFocus: 'Air-tightness, artwork accuracy, barcode and label accuracy, BOM match',
       navLabel: 'Distributor Line Expansion',
       metaTitle: 'Distributor SUP Line Expansion | 6-SKU Program — SUPsfactory',
       metaDescription:
@@ -176,6 +219,13 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'startup-brand-zero-to-one',
+      customerType: 'Startup SUP Brands',
+      region: 'North America',
+      productCategory: 'ODM All-Around Inflatable SUP',
+      projectStage: 'Concept → Trial run → Launch order',
+      manufacturingScope: 'ODM development, graphics, packaging, production',
+      keyRequirements: 'Low-MOQ first run, launch-date alignment, tooling retained for the brand',
+      qualityFocus: 'Air-tightness, artwork accuracy, packaging verification',
       navLabel: 'Startup Brand 0→1 Launch',
       metaTitle: 'Startup SUP Brand Launch | Concept to First Batch — SUPsfactory',
       metaDescription:
@@ -205,6 +255,13 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'rental-fleet-multi-site',
+      customerType: 'Rental Fleet Operators',
+      region: 'North America',
+      productCategory: 'Rental-grade All-Around Inflatable SUP',
+      projectStage: 'Fleet audit → Uniform production → Seasonal refresh',
+      manufacturingScope: 'Fleet specification, production, parts packs, refresh program',
+      keyRequirements: 'One uniform board across sites, rental-abuse durability',
+      qualityFocus: 'Reinforced construction verification, air-tightness, kit completeness',
       navLabel: 'Multi-Site Rental Fleet',
       metaTitle: 'Rental Fleet Expansion | 200 Boards, 3 Sites — SUPsfactory',
       metaDescription:
@@ -236,6 +293,13 @@ export const projects: Localized<ProjectData[]> = {
   es: [
     {
       slug: 'resort-sup-fleet',
+      customerType: 'Resorts y hotelería',
+      region: 'Europa / Norteamérica',
+      productCategory: 'SUP hinchable polivalente',
+      projectStage: 'Aprobación de muestra → Producción en volumen → Renovación de flota',
+      manufacturingScope: 'Arte, accesorios, embalaje y producción de flota',
+      keyRequirements: 'Durabilidad de alquiler, almacenaje compacto, marca completa de la propiedad',
+      qualityFocus: 'Estanqueidad al aire, precisión del arte, integridad de accesorios, marcado de cajas',
       navLabel: 'Flota SUP para resort de lujo',
       metaTitle: 'Flota SUP en resort de lujo | 100 tablas — SUPsfactory',
       metaDescription:
@@ -265,6 +329,13 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'private-label-launch',
+      customerType: 'Retail y marcas outdoor',
+      region: 'Europa',
+      productCategory: 'SUP hinchable polivalente (marca privada)',
+      projectStage: 'Aprobación de muestra → Lote de validación → Escalado',
+      manufacturingScope: 'Planos de cubierta y embalaje, muestras, producción y moldes en propiedad',
+      keyRequirements: 'Línea vendible sin diseño ni fabricación SUP propios',
+      qualityFocus: 'Control de versión del arte, precisión del embalaje, integridad del kit',
       navLabel: 'Lanzamiento de marca privada',
       metaTitle: 'Lanzamiento SUP de marca privada | SUPsfactory',
       metaDescription:
@@ -293,6 +364,13 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'club-team-boards',
+      customerType: 'Clubes y equipos de remo',
+      region: 'Norteamérica',
+      productCategory: 'SUP hinchable de entrenamiento',
+      projectStage: 'Aprobación de muestra → Producción de flota → Reorden de ampliación',
+      manufacturingScope: 'Marca del club, producción de flota y soporte de recambios',
+      keyRequirements: 'Imagen de equipo uniforme, presupuesto ajustado, ampliación idéntica',
+      qualityFocus: 'Precisión del arte, estanqueidad, integridad del kit, coherencia en reordenes',
       navLabel: 'Tablas de equipo para club',
       metaTitle: 'Tablas SUP de equipo de club | SUPsfactory',
       metaDescription:
@@ -321,6 +399,13 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'school-program-fleet',
+      customerType: 'Educación y programas juveniles',
+      region: 'Europa',
+      productCategory: 'SUP hinchable de iniciación y multiusuario',
+      projectStage: 'Revisión del programa → Aprobación de muestra → Entrega de flota',
+      manufacturingScope: 'Diseño del paquete, producción, recambios y soporte de renovación',
+      keyRequirements: 'Equipamiento con prioridad en seguridad, cantidades para clase, gestión con poco personal',
+      qualityFocus: 'Estabilidad, estanqueidad, integridad de accesorios, orientación de uso',
       navLabel: 'Flota para programa escolar',
       metaTitle: 'Programa de SUP escolar | Flota de iniciación — SUPsfactory',
       metaDescription:
@@ -349,6 +434,13 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'distributor-line-expansion',
+      customerType: 'Distribuidores y mayoristas',
+      region: 'Dos regiones de exportación',
+      productCategory: 'SUP hinchable de gama media (6 SKU)',
+      projectStage: 'Planificación de gama → Aprobación de muestra → Suministro multimercado',
+      manufacturingScope: 'Tablas, accesorios y embalaje de retail bajo un solo programa',
+      keyRequirements: 'Un único responsable de calidad, branding consistente, menor inventario por SKU',
+      qualityFocus: 'Estanqueidad, precisión del arte, precisión de códigos de barras y etiquetas, coincidencia con BOM',
       navLabel: 'Ampliación de línea para distribuidor',
       metaTitle: 'Ampliación de línea SUP para distribuidor | 6 SKU — SUPsfactory',
       metaDescription:
@@ -378,6 +470,13 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'startup-brand-zero-to-one',
+      customerType: 'Startup de SUP',
+      region: 'Norteamérica',
+      productCategory: 'SUP hinchable ODM polivalente',
+      projectStage: 'Concepto → Pedido de prueba → Pedido de lanzamiento',
+      manufacturingScope: 'Desarrollo ODM, gráficos, embalaje y producción',
+      keyRequirements: 'Primera tirada con MOQ bajo, alineación con la fecha de lanzamiento, moldes en propiedad',
+      qualityFocus: 'Estanqueidad, precisión del arte, verificación del embalaje',
       navLabel: 'Lanzamiento 0→1 de marca startup',
       metaTitle: 'Lanzamiento de marca SUP startup | Del concepto al primer lote — SUPsfactory',
       metaDescription:
@@ -407,6 +506,13 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'rental-fleet-multi-site',
+      customerType: 'Operadores de flotas de alquiler',
+      region: 'Norteamérica',
+      productCategory: 'SUP hinchable polivalente de grado alquiler',
+      projectStage: 'Auditoría de flota → Producción uniforme → Renovación por temporada',
+      manufacturingScope: 'Especificación de flota, producción, kits de recambios y renovación',
+      keyRequirements: 'Una misma tabla en todos los sitios, durabilidad ante uso de alquiler',
+      qualityFocus: 'Verificación de construcción reforzada, estanqueidad, integridad del kit',
       navLabel: 'Flota de alquiler multi-ubicación',
       metaTitle: 'Expansión de flota de alquiler | 200 tablas, 3 sedes — SUPsfactory',
       metaDescription:

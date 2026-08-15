@@ -1,4 +1,4 @@
-import { ArrowRight, Building2, CheckCircle2, ClipboardList, Package } from 'lucide-react'
+import { ArrowRight, Building2, CheckCircle2, ClipboardList, Globe2, Layers, Package, ShieldCheck, Truck } from 'lucide-react'
 import type { ProjectData } from '@/features/site/projects'
 import { useTranslation } from '@/features/i18n/provider'
 import { PageHero, SectionHead } from './section-head'
@@ -12,6 +12,17 @@ import { MarketingShell } from './shell'
 export function ProjectPage({ page }: { page: ProjectData }) {
   const { t, locale } = useTranslation()
   const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+
+  const snapshot = [
+    { icon: Building2, label: t('sup.projects.snapshot.customerType'), value: page.customerType },
+    { icon: Globe2, label: t('sup.projects.snapshot.region'), value: page.region },
+    { icon: Package, label: t('sup.projects.snapshot.productCategory'), value: page.productCategory },
+    { icon: Layers, label: t('sup.projects.snapshot.projectStage'), value: page.projectStage },
+    { icon: ClipboardList, label: t('sup.projects.snapshot.manufacturingScope'), value: page.manufacturingScope },
+    { icon: CheckCircle2, label: t('sup.projects.snapshot.keyRequirements'), value: page.keyRequirements },
+    { icon: ShieldCheck, label: t('sup.projects.snapshot.qualityFocus'), value: page.qualityFocus },
+    { icon: Truck, label: t('sup.projects.snapshot.outcome'), value: page.outcome },
+  ]
 
   return (
     <MarketingShell>
@@ -29,28 +40,45 @@ export function ProjectPage({ page }: { page: ProjectData }) {
         </a>
       </PageHero>
 
-      {/* at-a-glance facts */}
+      {/* project snapshot — standardized fields for side-by-side comparison */}
       <section className="mx-auto max-w-6xl px-5 py-14 md:px-7">
-        <dl className="grid gap-5 md:grid-cols-3">
-          <div className="marine-card p-6">
-            <dt className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
-              <Building2 size={15} className="text-primary" /> {t('sup.projects.industry')}
-            </dt>
-            <dd className="mt-2 text-[15px] font-semibold">{page.industry}</dd>
-          </div>
-          <div className="marine-card p-6">
-            <dt className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
-              <ClipboardList size={15} className="text-primary" /> {t('sup.projects.requirement')}
-            </dt>
-            <dd className="mt-2 text-[15px] font-semibold">{page.requirement}</dd>
-          </div>
-          <div className="marine-card p-6">
-            <dt className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
-              <Package size={15} className="text-primary" /> {t('sup.projects.product')}
-            </dt>
-            <dd className="mt-2 text-[15px] font-semibold">{page.product}</dd>
-          </div>
+        <SectionHead kicker={t('sup.projects.snapshot.kicker')} title={t('sup.projects.snapshot.title')} />
+        <dl className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {snapshot.map((s) => (
+            <div key={s.label} className="marine-card p-5">
+              <dt className="flex items-center gap-2 text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">
+                <s.icon size={14} className="text-primary" /> {s.label}
+              </dt>
+              <dd className="mt-2 text-[14px] font-semibold leading-snug">{s.value}</dd>
+            </div>
+          ))}
         </dl>
+      </section>
+
+      {/* at-a-glance facts */}
+      <section className="border-y border-border bg-bg-alt">
+        <div className="mx-auto max-w-6xl px-5 py-14 md:px-7">
+          <dl className="grid gap-5 md:grid-cols-3">
+            <div className="marine-card p-6">
+              <dt className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
+                <Building2 size={15} className="text-primary" /> {t('sup.projects.industry')}
+              </dt>
+              <dd className="mt-2 text-[15px] font-semibold">{page.industry}</dd>
+            </div>
+            <div className="marine-card p-6">
+              <dt className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
+                <ClipboardList size={15} className="text-primary" /> {t('sup.projects.requirement')}
+              </dt>
+              <dd className="mt-2 text-[15px] font-semibold">{page.requirement}</dd>
+            </div>
+            <div className="marine-card p-6">
+              <dt className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
+                <Package size={15} className="text-primary" /> {t('sup.projects.product')}
+              </dt>
+              <dd className="mt-2 text-[15px] font-semibold">{page.product}</dd>
+            </div>
+          </dl>
+        </div>
       </section>
 
       {/* challenge → solution */}
@@ -68,6 +96,39 @@ export function ProjectPage({ page }: { page: ProjectData }) {
               </p>
               <p className="mt-2.5 text-[14.5px] leading-relaxed text-fg-2">{page.solution}</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* quality & delivery control lines */}
+      <section className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
+        <SectionHead kicker={t('sup.projects.controlsKicker')} title={t('sup.projects.controlsTitle')} />
+        <div className="mt-10 grid gap-6 lg:grid-cols-2">
+          <div className="marine-card p-7">
+            <p className="flex items-center gap-2 text-[13px] font-bold uppercase tracking-[0.1em] text-primary">
+              <ShieldCheck size={16} /> {t('sup.projects.qualityLineTitle')}
+            </p>
+            <p className="mt-4 text-[14.5px] font-bold">{t('sup.projects.qualityBasisLabel')}</p>
+            <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{t('sup.projects.qualityBasis')}</p>
+            <p className="mt-4 text-[14.5px] font-bold">{t('sup.projects.inspectionFocusLabel')}</p>
+            <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{t('sup.projects.inspectionFocus')}</p>
+            <p className="mt-4 text-[14.5px] font-bold">{t('sup.projects.issueControlLabel')}</p>
+            <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{t('sup.projects.issueControl')}</p>
+            <p className="mt-4 text-[14.5px] font-bold">{t('sup.projects.evidenceLabel')}</p>
+            <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{t('sup.projects.evidence')}</p>
+          </div>
+          <div className="marine-card p-7">
+            <p className="flex items-center gap-2 text-[13px] font-bold uppercase tracking-[0.1em] text-aqua">
+              <Truck size={16} /> {t('sup.projects.deliveryLineTitle')}
+            </p>
+            <p className="mt-4 text-[14.5px] font-bold">{t('sup.projects.planningInputsLabel')}</p>
+            <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{t('sup.projects.planningInputs')}</p>
+            <p className="mt-4 text-[14.5px] font-bold">{t('sup.projects.milestonesLabel')}</p>
+            <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{t('sup.projects.milestones')}</p>
+            <p className="mt-4 text-[14.5px] font-bold">{t('sup.projects.deliveryReadinessLabel')}</p>
+            <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{t('sup.projects.deliveryReadiness')}</p>
+            <p className="mt-4 text-[14.5px] font-bold">{t('sup.projects.outcomeLabel')}</p>
+            <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{page.outcome}</p>
           </div>
         </div>
       </section>
