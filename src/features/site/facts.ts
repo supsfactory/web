@@ -25,6 +25,7 @@ export const FACTS = {
   cncAccuracy: '0.1 mm',
   rfPower: '15 kW',
   dropStitchPsi: '12–15 PSI',
+  evaHardness: '45–55 Shore C', // EVA 甲板垫硬度（技术规格引用）
   assemblyChecklist: '100-point',
   pressureTest: '18.0 PSI · 24h hold',
   pressureReject: '>0.50 PSI/24h pressure drop (auto-reject)',

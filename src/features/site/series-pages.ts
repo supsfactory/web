@@ -53,6 +53,10 @@ export const seriesPages: Localized<SeriesPageData[]> = {
           q: 'What does the retail-ready package include?',
           a: 'The complete package: inflatable board with drop-stitch core, adjustable paddle, hand pump (or electric dual-stage), repair kit, carry backpack and printed carton. Accessories can be swapped or upgraded per your target market.',
         },
+        {
+          q: 'What EVA deck hardness do you manufacture?',
+          a: 'Deck traction pads run 45–55 Shore C — medium-soft, grip-friendly underfoot without hardening in the sun. Thickness, grooves, cutouts and logo placement are specified per project.',
+        },
       ],
     },
     {
@@ -297,6 +301,10 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         {
           q: '¿Qué incluye el paquete completo listo para retail?',
           a: 'El paquete completo: tabla hinchable con núcleo drop-stitch, remo ajustable, bomba manual (o doble etapa eléctrica), kit de reparación, bolsa de transporte y caja impresa. Los accesorios se cambian o mejoran según tu mercado objetivo.',
+        },
+        {
+          q: '¿Qué dureza de piso EVA fabricáis?',
+          a: 'Las alfombrillas van de 45–55 Shore C: dureza media-blanda, con buen agarre sin endurecerse con el sol. Grosor, ranuras, recortes y colocación del logo se especifican por proyecto.',
         },
       ],
     },

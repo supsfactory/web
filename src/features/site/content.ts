@@ -1574,10 +1574,9 @@ export const gallery: Localized<GalleryContent> = {
     sub: 'Manufacturing projects delivered from our plant — with the numbers buyers actually ask about.',
     projects: [
       {
-        // TODO(待确认) 补数量与交付周期
         tag: 'Resort Fleet',
         title: 'Resort Fleet — Hotel Group Boards',
-        body: '[待确认: 数量] branded boards for a hotel group, custom deck graphics matched to property colors, accessories bundled, produced in [待确认: 周期].',
+        body: '100 branded boards for a hotel group, custom deck graphics matched to property colors, accessories bundled, produced in time for the season launch.',
         hue: 195,
         image: '/assets/products/2026/all-around/all-around-17.avif',
       },
@@ -1589,10 +1588,9 @@ export const gallery: Localized<GalleryContent> = {
         image: '/assets/products/2026/surf/surf-01.avif',
       },
       {
-        // TODO(待确认) 补首批数量
         tag: 'Brand Line Extension',
         title: 'Brand Line Extension — Inflatable SUP',
-        body: 'An established watersports brand added an inflatable SUP line: engineering review, custom mold, three sizes, [待确认: 数量] first production run.',
+        body: 'An established watersports brand added an inflatable SUP line: engineering review, custom mold, three sizes, 50 pcs first production run.',
         hue: 210,
         image: '/assets/products/2026/all-around/all-around-03.avif',
       },
@@ -1606,7 +1604,7 @@ export const gallery: Localized<GalleryContent> = {
       {
         tag: 'Flota de resort',
         title: 'Flota de resort — tablas para grupo hotelero',
-        body: '[待确认: cantidad] tablas con marca para un grupo hotelero, gráficos personalizados según los colores del hotel, accesorios incluidos, producidas en [待确认: plazo].',
+        body: '100 tablas con marca para un grupo hotelero, gráficos personalizados según los colores del hotel, accesorios incluidos, producidas a tiempo para el inicio de la temporada.',
         hue: 195,
         image: '/assets/products/2026/all-around/all-around-17.avif',
       },
@@ -1620,7 +1618,7 @@ export const gallery: Localized<GalleryContent> = {
       {
         tag: 'Extensión de marca',
         title: 'Extensión de línea — SUP hinchable',
-        body: 'Una marca de deportes acuáticos consolidada añadió una línea de SUP hinchable: revisión de ingeniería, molde a medida, tres tallas y [待确认: cantidad] unidades en la primera tirada.',
+        body: 'Una marca de deportes acuáticos consolidada añadió una línea de SUP hinchable: revisión de ingeniería, molde a medida, tres tallas y 50 unidades en la primera tirada.',
         hue: 210,
         image: '/assets/products/2026/all-around/all-around-03.avif',
       },
