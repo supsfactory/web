@@ -95,9 +95,33 @@ function contentEntries(locale: Locale): SearchEntry[] {
   return out
 }
 
+/** Live hub/landing pages that ship no yaml registry entry (static routes or
+ *  framework templates) yet are first-class public pages — the header search
+ *  dialog and /search must surface them like any other page. */
+function hubEntries(locale: Locale): SearchEntry[] {
+  if (locale === 'es') {
+    return [
+      { url: '/es', title: 'SUPsfactory — Fabricación OEM y ODM de SUP hinchables', excerpt: 'Fábrica OEM/ODM de SUP hinchables en Qingdao: desarrollo de producto, producción a medida, marca privada y control de calidad.', type: 'page', locale },
+      { url: '/es/products', title: 'Productos de SUP hinchables', excerpt: 'Tablas de SUP hinchables premium: series de 11 ft, SUP de pesca, mini SUP, tablas gigantes para equipo y más — fabricación OEM/ODM a medida.', type: 'page', locale },
+      { url: '/es/solutions', title: 'Soluciones', excerpt: 'Programas de fabricación OEM/ODM de SUP: desarrollo de SUP a medida, marca privada, flotas de resorts y clubes, alquiler y minoristas.', type: 'page', locale },
+      { url: '/es/projects', title: 'Proyectos y casos prácticos', excerpt: 'Proyectos reales de fabricación de SUP: flotas de alquiler, lanzamientos de marca privada, tablas para clubes y programas escolares.', type: 'page', locale },
+      { url: '/es/knowledge', title: 'Centro de conocimiento', excerpt: 'Cómo se fabrican las tablas de SUP: tecnología de construcción, drop-stitch, PVC vs Hypalon, grosor y guías de compra OEM.', type: 'page', locale },
+      { url: '/es/gallery', title: 'Galería', excerpt: 'Fábrica y galería de productos SUPsfactory: talleres, laboratorios de calidad, ensayos de tejido y tablas de SUP en producción.', type: 'page', locale },
+    ]
+  }
+  return [
+    { url: '/', title: 'SUPsfactory — Inflatable SUP OEM & ODM Manufacturing', excerpt: 'Qingdao SUP OEM/ODM factory: product development, custom manufacturing, private label and quality control for paddle board brands.', type: 'page', locale },
+    { url: '/products', title: 'Inflatable SUP Products', excerpt: 'Premium inflatable SUP boards: 11 ft series boards, fishing SUP, mini SUP, giant team boards and more — built for OEM/ODM customization.', type: 'page', locale },
+    { url: '/solutions', title: 'Solutions', excerpt: 'OEM/ODM SUP manufacturing programs: custom SUP development, private label, resort and club fleets, rental operators and retail partners.', type: 'page', locale },
+    { url: '/projects', title: 'Projects & Case Studies', excerpt: 'Real SUP manufacturing projects: rental fleets, private-label launches, club team boards and school programs.', type: 'page', locale },
+    { url: '/knowledge', title: 'Knowledge Hub', excerpt: 'How SUP boards are made: construction technology, drop-stitch, PVC vs Hypalon, thickness and OEM buying guides.', type: 'page', locale },
+    { url: '/gallery', title: 'Gallery', excerpt: 'SUPsfactory factory and product gallery: workshops, quality labs, fabric testing and SUP boards in production.', type: 'page', locale },
+  ]
+}
+
 /** Afarer + site-FAQ entries for one locale (the `/search` server filter). */
 export function buildExtendedIndex(locale: Locale): SearchEntry[] {
-  const entries: SearchEntry[] = [...buildContentIndex(locale), ...contentEntries(locale)]
+  const entries: SearchEntry[] = [...buildContentIndex(locale), ...contentEntries(locale), ...hubEntries(locale)]
   for (const p of getAfarerPages()) {
     if (p.path in EDGE_REDIRECTS) continue
     const seo = p.content.seo as { title?: string; description?: string } | undefined

@@ -21,6 +21,11 @@ const handler = async ({ request }: { request: Request }) => {
   if (object.httpMetadata?.contentType) headers.set('Content-Type', object.httpMetadata.contentType)
   headers.set('ETag', object.httpEtag)
   headers.set('Cache-Control', 'public, max-age=60') // short: url is cache-busted on re-upload
+  // 头像也是用户上传内容（R2 对象 MIME 由上传者声明）：对响应强制沙箱，
+  // 防止未来 MIME 白名单扩展引入可执行格式（如 SVG）时以顶层文档打开执行脚本。
+  // 与 /api/inquiry-logo 同一套纵深防御。
+  headers.set('Content-Security-Policy', "default-src 'none'; sandbox")
+  headers.set('X-Content-Type-Options', 'nosniff')
   return new Response(object.body, { headers })
 }
 
