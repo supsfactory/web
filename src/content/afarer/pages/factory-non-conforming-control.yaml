@@ -111,6 +111,10 @@ nc_photos:
       alt: QC technician performing controlled air-tightness rework on an inflatable SUP at the factory rework station
       title: Controlled Rework Station
       desc: 'Rework is performed at a dedicated station under an approved SRI instruction: the defect is marked, the board remains on HOLD, and after the required cure period it returns to the test area for re-inspection against the original acceptance criteria.'
+    - image: /assets/quality/qc-workshop-inspection-demo.jpg
+      alt: Workshop demonstration of quality control checks in the Qingdao factory
+      title: Workshop QC Demonstration
+      desc: 'Demonstration photo from the workshop showing quality control checks applied in practice, supporting the inspection and status-control records referenced throughout this page.'
 
 nc_severity:
   tagline: Defect Severity & Authority

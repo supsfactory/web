@@ -111,6 +111,10 @@ nc_photos:
       alt: Técnico de QC realizando retrabajo controlado de estanqueidad al aire en un SUP hinchable en la estación de retrabajo
       title: Estación de retrabajo controlado
       desc: 'El retrabajo se realiza en una estación dedicada bajo una instrucción SRI aprobada: el defecto se marca, la tabla permanece en HOLD y, tras el período de curado requerido, vuelve al área de pruebas para reinspección contra los criterios de aceptación originales.'
+    - image: /assets/quality/qc-workshop-inspection-demo.jpg
+      alt: Demostración en el taller de los controles de calidad en la fábrica de Qingdao
+      title: Demostración de control de calidad en el taller
+      desc: 'Fotografía de demostración del taller que muestra los controles de calidad aplicados en la práctica, respaldando los registros de inspección y control de estado referenciados a lo largo de esta página.'
 
 nc_severity:
   tagline: Gravedad del defecto y autoridad

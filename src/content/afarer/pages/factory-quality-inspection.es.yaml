@@ -166,6 +166,10 @@ quarantine_evidence:
       alt: Técnico de control de calidad realizando un retrabajo controlado de estanqueidad al aire en un SUP hinchable en la estación de retrabajo de la fábrica
       title: Estación de retrabajo controlado
       desc: 'El retrabajo de estanqueidad al aire se realiza en una estación dedicada según una tarjeta de método aprobada: el defecto se marca, la tabla permanece en HOLD y, tras el periodo de curado requerido, vuelve a la zona de ensayos para su reinspección contra los criterios de aceptación originales.'
+    - image: /assets/quality/qc-workshop-quarantine-demo.jpg
+      alt: Demostración en el taller de la segregación controlada en cuarentena en la fábrica de Qingdao
+      title: Demostración de la zona de cuarentena
+      desc: 'Fotografía de demostración del taller que muestra cómo funciona la segregación controlada en cuarentena en planta: las unidades segregadas se mantienen bajo control de estado hasta que se completa una disposición autorizada.'
 
 rework_intro:
   tagline: Gobernanza del retrabajo

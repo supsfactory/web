@@ -166,6 +166,10 @@ quarantine_evidence:
       alt: QC technician performing controlled air-tightness rework on an inflatable SUP at the factory rework station
       title: Controlled Rework Station
       desc: 'Air-tightness rework is performed at a dedicated station under an approved method card: the defect is marked, the board remains on HOLD, and after the required cure period it returns to the test area for re-inspection against the original acceptance criteria.'
+    - image: /assets/quality/qc-workshop-quarantine-demo.jpg
+      alt: Workshop demonstration of controlled quarantine segregation in the Qingdao factory
+      title: Quarantine Area Demonstration
+      desc: 'Demonstration photo from the workshop showing how controlled quarantine segregation works on site: segregated units are kept under status control until an authorized disposition is completed.'
 
 rework_intro:
   tagline: Rework Governance
