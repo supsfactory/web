@@ -39,10 +39,144 @@ export interface ProjectData {
   /** Anonymized testimonial / confidentiality statement for the quote block. */
   confidentiality: string
   tags: string[]
+  /** Headline numbers rendered as a metrics strip — flagship cases only. */
+  metrics?: { value: string; label: string }[]
+  /** Key takeaways rendered before the final CTA — flagship cases only. */
+  takeaways?: string[]
 }
 
 export const projects: Localized<ProjectData[]> = {
   en: [
+    {
+      slug: 'coastal-rental-fleet',
+      customerType: 'Rental Fleet Operators',
+      region: 'Mediterranean — Spain, Italy, Greece',
+      productCategory: 'Rental-grade Inflatable SUP (10′6″ + 11′0″)',
+      projectStage: 'Fleet evaluation → Sample approval → 3-batch phased delivery',
+      manufacturingScope: 'Fleet specification, reinforced construction, phased production, parts supply',
+      keyRequirements: 'Durable rental boards, phased delivery across stations, lower early-replacement rate',
+      qualityFocus: 'Reinforced construction, air-tightness, fleet artwork, kit completeness',
+      navLabel: 'Coastal Rental Fleet',
+      metaTitle: 'Coastal Rental Fleet | 320 Boards in 120 Days — SUPsfactory',
+      metaDescription:
+        'How a Mediterranean rental operator built a 320-board coastal fleet across Spain, Italy and Greece — three phased batches in 120 days, with an estimated 20–25% cut in early replacements.',
+      kicker: 'Coastal Rental Project',
+      h1: 'How a Mediterranean Rental Operator Built a 320-Board Coastal Fleet in 120 Days',
+      intro: [
+        'A coastal rental operator running stations across Spain, Italy and Greece needed a durable fleet for the high-rotation summer season — delivered in three batches, in time for each station\'s opening.',
+      ],
+      industry: 'Rental Fleet Operators',
+      requirement: '320 rental boards in two sizes — 10′6″ and 11′0″ — across coastal stations in three countries, delivered in three phased batches within 120 days.',
+      challenge:
+        'Daily rental rotation wears boards fast, and the operator\'s early-replacement rate was running at 20–25%. Stations opened on different dates across three countries, so a single delivery would not work — and neither would a one-size fleet.',
+      solution:
+        'Two durable rental platforms in the sizes that cover most renters, reinforced construction for high-rotation abuse, and three production batches scheduled to land at each station\'s opening — with per-station parts packs and repair guidance.',
+      product: 'Rental-grade inflatable SUP — 10′6″ and 11′0″ platforms with reinforced rails and UV-stable materials, per-station kits.',
+      process: [
+        { title: 'Fleet evaluation', body: 'Station openings and rotation volumes set the two sizes and batch allocation.' },
+        { title: 'Board selection', body: '10′6″ and 11′0″ rental platforms chosen for renter coverage and durability.' },
+        { title: 'Phased production', body: 'Three batches scheduled against each station\'s opening date.' },
+        { title: 'Delivery & support', body: 'Fleet shipped per batch with parts packs and repair guidance per station.' },
+      ],
+      result:
+        'All three batches landed within 120 days, timed to each station\'s opening. The reinforced platforms are expected to cut the early-replacement rate by an estimated 20–25%, with parts packs covering field repairs between seasons.',
+      outcome: '320 boards · 120 days · 3 batches · est. −20–25% early replacements.',
+      metrics: [
+        { value: '320', label: 'boards in two sizes' },
+        { value: '120', label: 'days from order to final batch' },
+        { value: '3', label: 'phased deliveries, one per station opening' },
+        { value: '−20–25%', label: 'estimated early-replacement rate' },
+      ],
+      takeaways: [
+        'Phased batches let a fleet land exactly when each station opens — no idle inventory, no late start.',
+        'Two sizes (10′6″ and 11′0″) covered most renters without fragmenting the fleet.',
+        'Reinforced construction is what moves the early-replacement number, not price alone.',
+        'Per-station parts packs kept boards in service between full seasons.',
+      ],
+      customizations: [
+        '10′6″ and 11′0″ rental platforms matched to renter profiles',
+        'Reinforced rails and UV-stable materials for high-rotation use',
+        'Fleet artwork and numbering per station',
+        'Three-batch production schedule aligned to station openings',
+        'Per-station parts packs and repair guidance',
+        'Split-site packing and delivery verification per batch',
+      ],
+      inspectionFocus: [
+        'Reinforced construction verification per board',
+        'Inflation and air-tightness on every board',
+        'Fleet artwork and station numbering accuracy',
+        'Accessory and parts-pack completeness per station',
+        'Packing checks for split-site, multi-batch delivery',
+      ],
+      confidentiality:
+        'By agreement, the operator\'s name and station locations are not disclosed. This project is presented anonymously to protect commercial confidentiality.',
+      tags: ['Phased fleet delivery', 'Rental-grade construction', 'Lower replacement rate'],
+    },
+    {
+      slug: 'eu-distributor-private-label',
+      customerType: 'Distributors & Wholesalers',
+      region: 'Europe',
+      productCategory: 'Private Label Inflatable SUP (2 SKUs)',
+      projectStage: 'Range planning → Sample approval → 90-day volume delivery',
+      manufacturingScope: 'Private-label branding, retail packaging, volume production, reorder support',
+      keyRequirements: 'Two market-proven SKUs under the distributor\'s own brand, EU retail packaging, season-date alignment',
+      qualityFocus: 'Artwork accuracy, barcode and label per market, kit completeness, air-tightness',
+      navLabel: 'Distributor Private Label',
+      metaTitle: 'EU Distributor Private Label | 1,200 Boards in 90 Days — SUPsfactory',
+      metaDescription:
+        'How a European distributor launched a 1,200-board private-label SUP line in 90 days — two SKUs, EU retail packaging, and a Q4 repeat order on the same locked specification.',
+      kicker: 'Private Label Project',
+      h1: 'How a European Distributor Launched a 1,200-Board Private-Label SUP Line in 90 Days',
+      intro: [
+        'A European distributor wanted its own branded SUP line on the shelf for the summer season — two market-proven SKUs, complete retail packaging, and no factory relationships of its own.',
+      ],
+      industry: 'Distributors & Wholesalers',
+      requirement: '1,200 branded boards across two SKUs — 10′6″ all-around and 12′6″ touring — with EU retail packaging, delivered in 90 days.',
+      challenge:
+        'The summer shelf window is fixed, so all 1,200 boards and their packaging had to land together on time. Private-label packaging — barcodes, labels, manuals — had to match EU retail requirements, and the distributor had no SUP factory experience to draw on.',
+      solution:
+        'Two market-proven platforms chosen for the retail range, full private-label artwork and EU retail packaging handled in one program, and production scheduled so both SKUs shipped together inside the 90-day window — with the specification locked for a clean repeat order.',
+      product: 'Private label inflatable SUP — 10′6″ all-around and 12′6″ touring, with branded paddle, pump, backpack and printed retail cartons.',
+      process: [
+        { title: 'Range planning', body: 'Two SKUs selected — 10′6″ all-around and 12′6″ touring — for retail coverage.' },
+        { title: 'Sample approval', body: 'Artwork, packaging and finish confirmed on physical boards.' },
+        { title: '90-day production', body: 'Volume scheduled so both SKUs ship together for the season window.' },
+        { title: 'Q4 reorder', body: 'Repeat order placed on the same locked specification.' },
+      ],
+      result:
+        'All 1,200 boards with complete retail packaging shipped within 90 days, in time for the summer shelf window. The line sold through and the distributor returned in Q4 with a repeat order on the same locked specification.',
+      outcome: '1,200 boards · 90 days · 2 SKUs · Q4 repeat order.',
+      metrics: [
+        { value: '1,200', label: 'boards in one launch' },
+        { value: '90', label: 'days to full delivery' },
+        { value: '2', label: 'retail SKUs, both in time for the window' },
+        { value: 'Q4', label: 'repeat order on the same spec' },
+      ],
+      takeaways: [
+        'Starting with two proven SKUs keeps inventory risk low while still filling a retail range.',
+        'One program covering boards, accessories and packaging removes a common launch failure point.',
+        'A fixed season date forces the schedule — production planning must treat it as non-negotiable.',
+        'Locking the specification at launch makes repeat orders clean and consistent.',
+      ],
+      customizations: [
+        '10′6″ all-around and 12′6″ touring platforms for the retail range',
+        'Private-label deck, bottom and packaging artwork',
+        'Branded paddle, pump and backpack per SKU',
+        'Printed retail cartons, barcodes, labels and user manual for EU retail',
+        'BOM and specification locked for repeat-order consistency',
+        'Batched delivery aligned to the retail launch window',
+      ],
+      inspectionFocus: [
+        'Artwork accuracy against approved private-label files',
+        'Barcode, label and manual verification per market',
+        'Kit completeness per SKU across the 1,200-board run',
+        'Air-tightness spot checks during production',
+        'Carton and packing verification per SKU',
+      ],
+      confidentiality:
+        'By agreement, the distributor\'s name and retail customers are not disclosed. This project is presented anonymously to protect commercial confidentiality.',
+      tags: ['Private label', '2-SKU retail range', 'Season-window delivery'],
+    },
     {
       slug: 'resort-sup-fleet',
       customerType: 'Resort & Hospitality',
@@ -572,6 +706,136 @@ export const projects: Localized<ProjectData[]> = {
     },
   ],
   es: [
+    {
+      slug: 'coastal-rental-fleet',
+      customerType: 'Operadores de flotas de alquiler',
+      region: 'Mediterráneo — España, Italia, Grecia',
+      productCategory: 'SUP hinchable de grado alquiler (10′6″ + 11′0″)',
+      projectStage: 'Evaluación de flota → Aprobación de muestra → Entrega en 3 fases',
+      manufacturingScope: 'Especificación de flota, construcción reforzada, producción por fases, suministro de repuestos',
+      keyRequirements: 'Tablas duraderas para alquiler, entrega por fases, menor tasa de reemplazo temprano',
+      qualityFocus: 'Construcción reforzada, estanqueidad, arte de flota, integridad del kit',
+      navLabel: 'Flota de alquiler costera',
+      metaTitle: 'Flota de alquiler costera | 320 tablas en 120 días — SUPsfactory',
+      metaDescription:
+        'Cómo un operador de alquiler del Mediterráneo construyó una flota costera de 320 tablas en España, Italia y Grecia — tres fases en 120 días, con una reducción estimada del 20–25 % en reemplazos tempranos.',
+      kicker: 'Proyecto de alquiler costero',
+      h1: 'Cómo un operador de alquiler del Mediterráneo construyó una flota costera de 320 tablas en 120 días',
+      intro: [
+        'Un operador con estaciones costeras en España, Italia y Grecia necesitaba una flota duradera para la temporada alta — entregada en tres fases, a tiempo para la apertura de cada estación.',
+      ],
+      industry: 'Operadores de flotas de alquiler',
+      requirement: '320 tablas de alquiler en dos tamaños — 10′6″ y 11′0″ — para estaciones costeras en tres países, entregadas en tres fases dentro de 120 días.',
+      challenge:
+        'La rotación diaria desgasta rápido las tablas, y la tasa de reemplazo temprano del operador rondaba el 20–25 %. Las estaciones abrían en fechas distintas en tres países: una entrega única no funcionaba, ni tampoco una flota de un solo tamaño.',
+      solution:
+        'Dos plataformas de alquiler duraderas en los tamaños que cubren a la mayoría de los usuarios, construcción reforzada para el uso intensivo y tres lotes de producción programados para llegar a la apertura de cada estación — con paquetes de repuestos y guía de reparación por estación.',
+      product: 'SUP hinchable de grado alquiler — plataformas de 10′6″ y 11′0″ con raíles reforzados y materiales estables a los rayos UV, kits por estación.',
+      process: [
+        { title: 'Evaluación de flota', body: 'Aperturas de estación y volumen de rotación definieron los dos tamaños y la asignación por lote.' },
+        { title: 'Selección de tablas', body: 'Plataformas de alquiler 10′6″ y 11′0″ elegidas por cobertura de usuarios y durabilidad.' },
+        { title: 'Producción por fases', body: 'Tres lotes programados contra la fecha de apertura de cada estación.' },
+        { title: 'Entrega y soporte', body: 'Flota enviada por fases con paquetes de repuestos y guía por estación.' },
+      ],
+      result:
+        'Las tres fases llegaron dentro de 120 días, sincronizadas con la apertura de cada estación. Se estima que las plataformas reforzadas reducirán la tasa de reemplazo temprano entre un 20–25 %, con repuestos para reparaciones de campo entre temporadas.',
+      outcome: '320 tablas · 120 días · 3 fases · −20–25 % de reemplazos tempranos (est.).',
+      metrics: [
+        { value: '320', label: 'tablas en dos tamaños' },
+        { value: '120', label: 'días del pedido a la última fase' },
+        { value: '3', label: 'entregas por fases, una por apertura' },
+        { value: '−20–25 %', label: 'reemplazos tempranos estimados' },
+      ],
+      takeaways: [
+        'Las fases permiten que la flota llegue justo cuando abre cada estación — sin inventario ocioso ni arranques tardíos.',
+        'Dos tamaños (10′6″ y 11′0″) cubrieron a la mayoría de los usuarios sin fragmentar la flota.',
+        'La construcción reforzada es lo que mueve la cifra de reemplazos, no solo el precio.',
+        'Los paquetes de repuestos por estación mantuvieron las tablas en servicio entre temporadas.',
+      ],
+      customizations: [
+        'Plataformas de alquiler 10′6″ y 11′0″ ajustadas a los perfiles de usuario',
+        'Raíles reforzados y materiales estables a los rayos UV para uso intensivo',
+        'Arte de flota y numeración por estación',
+        'Programa de producción en tres fases alineado a las aperturas',
+        'Paquetes de repuestos y guía de reparación por estación',
+        'Embalaje y verificación de entrega por fases y ubicaciones',
+      ],
+      inspectionFocus: [
+        'Verificación de construcción reforzada por tabla',
+        'Inflado y estanqueidad en cada tabla',
+        'Precisión del arte de flota y numeración de estación',
+        'Integridad de accesorios y repuestos por estación',
+        'Controles de embalaje para entrega multi-ubicación por fases',
+      ],
+      confidentiality:
+        'Por acuerdo, no se revelan el nombre del operador ni las ubicaciones de las estaciones. Este proyecto se presenta de forma anónima para proteger la confidencialidad comercial.',
+      tags: ['Entrega por fases', 'Construcción de grado alquiler', 'Menor tasa de reemplazo'],
+    },
+    {
+      slug: 'eu-distributor-private-label',
+      customerType: 'Distribuidores y mayoristas',
+      region: 'Europa',
+      productCategory: 'SUP hinchable de marca privada (2 SKU)',
+      projectStage: 'Planificación de gama → Aprobación de muestra → Entrega en 90 días',
+      manufacturingScope: 'Marca privada, embalaje retail, producción en volumen, soporte de reorders',
+      keyRequirements: 'Dos SKU probados en el mercado bajo la marca propia, embalaje retail UE, alineación con la temporada',
+      qualityFocus: 'Precisión del arte, código de barras y etiquetas por mercado, integridad del kit, estanqueidad',
+      navLabel: 'Marca privada para distribuidor',
+      metaTitle: 'Marca privada para distribuidor UE | 1.200 tablas en 90 días — SUPsfactory',
+      metaDescription:
+        'Cómo un distribuidor europeo lanzó una línea de SUP de marca privada de 1.200 tablas en 90 días — dos SKU, embalaje retail UE y un reorder en el Q4 con la misma especificación bloqueada.',
+      kicker: 'Proyecto de marca privada',
+      h1: 'Cómo un distribuidor europeo lanzó una línea de SUP de marca privada de 1.200 tablas en 90 días',
+      intro: [
+        'Un distribuidor europeo quería su propia línea de SUP de marca en el lineal para la temporada de verano — dos SKU probados, embalaje retail completo y ninguna relación directa con fábricas.',
+      ],
+      industry: 'Distribuidores y mayoristas',
+      requirement: '1.200 tablas de marca en dos SKU — 10′6″ polivalente y 12′6″ touring — con embalaje retail UE, entregadas en 90 días.',
+      challenge:
+        'La ventana de temporada es fija: las 1.200 tablas y su embalaje tenían que llegar juntas y a tiempo. El embalaje de marca privada — códigos de barras, etiquetas, manuales — debía cumplir los requisitos retail de la UE, y el distribuidor no tenía experiencia con fábricas de SUP.',
+      solution:
+        'Dos plataformas probadas para la gama retail, todo el arte de marca privada y el embalaje retail UE gestionados en un único programa, y producción programada para que ambos SKU se embarcaran juntos dentro de la ventana de 90 días — con la especificación bloqueada para un reorder limpio.',
+      product: 'SUP hinchable de marca privada — 10′6″ polivalente y 12′6″ touring, con pala, bomba, mochila y cajas retail impresas.',
+      process: [
+        { title: 'Planificación de gama', body: 'Dos SKU seleccionados — 10′6″ polivalente y 12′6″ touring — para cobertura retail.' },
+        { title: 'Aprobación de muestra', body: 'Arte, embalaje y acabado confirmados en tablas físicas.' },
+        { title: 'Producción en 90 días', body: 'Volumen programado para que ambos SKU se embarquen juntos en la ventana de temporada.' },
+        { title: 'Reorder Q4', body: 'Pedido repetido sobre la misma especificación bloqueada.' },
+      ],
+      result:
+        'Las 1.200 tablas con embalaje retail completo se embarcaron dentro de 90 días, a tiempo para el lineal de verano. La línea se vendió y el distribuidor volvió en el Q4 con un reorder sobre la misma especificación bloqueada.',
+      outcome: '1.200 tablas · 90 días · 2 SKU · reorder en Q4.',
+      metrics: [
+        { value: '1.200', label: 'tablas en un solo lanzamiento' },
+        { value: '90', label: 'días hasta la entrega completa' },
+        { value: '2', label: 'SKU retail, ambos a tiempo para la ventana' },
+        { value: 'Q4', label: 'reorder con la misma especificación' },
+      ],
+      takeaways: [
+        'Empezar con dos SKU probados mantiene bajo el riesgo de inventario y completa una gama retail.',
+        'Un único programa que cubre tablas, accesorios y embalaje elimina un punto habitual de fallo en lanzamientos.',
+        'Una fecha de temporada fija condiciona el calendario — la planificación debe tratarla como innegociable.',
+        'Bloquear la especificación en el lanzamiento hace que los reorders sean limpios y coherentes.',
+      ],
+      customizations: [
+        'Plataformas 10′6″ polivalente y 12′6″ touring para la gama retail',
+        'Arte de cubierta, fondo y embalaje de marca privada',
+        'Pala, bomba y mochila de marca por SKU',
+        'Cajas retail impresas, códigos de barras, etiquetas y manual para retail UE',
+        'BOM y especificación bloqueados para la coherencia del reorder',
+        'Entrega por lotes alineada a la ventana de lanzamiento',
+      ],
+      inspectionFocus: [
+        'Precisión del arte frente a los archivos de marca privada aprobados',
+        'Verificación de código de barras, etiqueta y manual por mercado',
+        'Integridad del kit por SKU en la tirada de 1.200 tablas',
+        'Controles puntuales de estanqueidad durante la producción',
+        'Verificación de cajas y embalaje por SKU',
+      ],
+      confidentiality:
+        'Por acuerdo, no se revelan el nombre del distribuidor ni sus clientes retail. Este proyecto se presenta de forma anónima para proteger la confidencialidad comercial.',
+      tags: ['Marca privada', 'Gama retail de 2 SKU', 'Entrega en ventana de temporada'],
+    },
     {
       slug: 'resort-sup-fleet',
       customerType: 'Resorts y hotelería',

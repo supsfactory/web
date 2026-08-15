@@ -1,5 +1,6 @@
-import { ArrowRight, Building2, CheckCircle2, ClipboardList, Globe2, Layers, Package, ShieldCheck, Truck } from 'lucide-react'
+import { ArrowRight, Building2, CheckCircle2, ClipboardList, Globe2, Layers, Package, ShieldCheck, TrendingUp, Truck } from 'lucide-react'
 import type { ProjectData } from '@/features/site/projects'
+import { projects } from '@/features/site/projects'
 import { useTranslation } from '@/features/i18n/provider'
 import { PageHero, SectionHead } from './section-head'
 import { JsonLd, projectLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
@@ -8,10 +9,26 @@ import { MarketingShell } from './shell'
 /**
  * Case-study page renderer for /projects/{slug}: industry → requirement →
  * challenge → solution → product → process → result, plus CaseStudy JSON-LD.
+ * Flagship cases (with `metrics` / `takeaways`) additionally get a numbers
+ * strip, a mid-page CTA, key takeaways and related-case links.
  */
 export function ProjectPage({ page }: { page: ProjectData }) {
   const { t, locale } = useTranslation()
   const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+
+  const related = projects[locale]
+    .filter((p) => p.slug !== page.slug)
+    .map((p) => ({
+      p,
+      score:
+        (p.industry === page.industry ? 2 : 0) +
+        (p.productCategory === page.productCategory ? 1 : 0) +
+        (p.tags.some((tag) => page.tags.includes(tag)) ? 1 : 0),
+    }))
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3)
+    .map((x) => x.p)
 
   const snapshot = [
     { icon: Building2, label: t('sup.projects.snapshot.customerType'), value: page.customerType },
@@ -55,6 +72,22 @@ export function ProjectPage({ page }: { page: ProjectData }) {
         </dl>
       </section>
 
+      {/* headline numbers — flagship cases only */}
+      {page.metrics && (
+        <section className="border-y border-border bg-bg-alt">
+          <div className="mx-auto max-w-6xl px-5 py-12 md:px-7">
+            <dl className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+              {page.metrics.map((m) => (
+                <div key={m.label} className="text-center">
+                  <dd className="font-display text-[34px] font-extrabold leading-none text-primary">{m.value}</dd>
+                  <dt className="mx-auto mt-2 max-w-[230px] text-[12.5px] font-semibold leading-snug text-fg-2">{m.label}</dt>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </section>
+      )}
+
       {/* at-a-glance facts */}
       <section className="border-y border-border bg-bg-alt">
         <div className="mx-auto max-w-6xl px-5 py-14 md:px-7">
@@ -97,6 +130,15 @@ export function ProjectPage({ page }: { page: ProjectData }) {
               <p className="mt-2.5 text-[14.5px] leading-relaxed text-fg-2">{page.solution}</p>
             </div>
           </div>
+          {(page.metrics || page.takeaways) && (
+            <p className="mt-8 text-center text-[14px] text-fg-2">
+              {t('sup.projects.midCtaText')}{' '}
+              <a href={fl('/contact')} className="font-bold text-primary hover:underline">
+                {t('sup.projects.midCtaLink')}
+              </a>
+              <ArrowRight size={14} className="ml-1 inline -translate-y-px text-primary" />
+            </p>
+          )}
         </div>
       </section>
 
@@ -191,6 +233,71 @@ export function ProjectPage({ page }: { page: ProjectData }) {
         </div>
       </section>
 
+      {/* strong CTA right after the result */}
+      <section className="ocean-grad">
+        <div className="mx-auto flex max-w-4xl flex-col items-center px-5 py-16 text-center md:px-7 md:py-20">
+          <p className="font-display text-xs font-bold uppercase tracking-[0.16em] text-[#aee3f7]">{t('sup.projects.ctaKicker')}</p>
+          <h2 className="mt-3 font-display text-3xl font-extrabold leading-[1.12] text-white md:text-4xl">{t('sup.projects.ctaTitle')}</h2>
+          <a
+            href={fl('/contact')}
+            className="sun-grad mt-8 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
+          >
+            {t('sup.projects.discuss')} <ArrowRight size={17} />
+          </a>
+        </div>
+      </section>
+
+      {/* key takeaways + scenario CTA — flagship cases only */}
+      {page.takeaways && (
+        <section className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
+          <SectionHead kicker={t('sup.projects.takeawaysKicker')} title={t('sup.projects.takeawaysTitle')} />
+          <ul className="mt-10 grid gap-4 sm:grid-cols-2">
+            {page.takeaways.map((item) => (
+              <li key={item} className="marine-card flex items-start gap-3 p-5">
+                <TrendingUp size={18} className="mt-0.5 shrink-0 text-primary" />
+                <p className="text-[14px] font-medium leading-relaxed">{item}</p>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-10 rounded-3xl border border-primary/30 bg-primary/5 p-8 text-center md:p-10">
+            <h3 className="font-display text-xl font-extrabold">{t('sup.projects.scenarioCtaTitle')}</h3>
+            <p className="mx-auto mt-2 max-w-xl text-[14px] leading-relaxed text-fg-2">{t('sup.projects.scenarioCtaBody')}</p>
+            <a
+              href={fl('/contact')}
+              className="sun-grad mt-6 inline-flex h-[44px] items-center gap-2 rounded-full px-6 text-[14.5px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
+            >
+              {t('sup.projects.discuss')} <ArrowRight size={16} />
+            </a>
+          </div>
+        </section>
+      )}
+
+      {/* related cases */}
+      {related.length > 0 && (
+        <section className="border-y border-border bg-bg-alt">
+          <div className="mx-auto max-w-6xl px-5 py-16 md:px-7">
+            <SectionHead kicker={t('sup.projects.similarKicker')} title={t('sup.projects.similarTitle')} />
+            <div className="mt-10 flex flex-wrap justify-center gap-5">
+              {related.map((p) => (
+                <a
+                  key={p.slug}
+                  href={fl(`/projects/${p.slug}`)}
+                  className="marine-card group flex w-full flex-col justify-between gap-4 p-5 transition-colors hover:border-primary/40 sm:w-[46%] lg:w-[31%]"
+                >
+                  <div>
+                    <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-primary">{p.industry}</p>
+                    <h3 className="mt-2 font-display text-[16px] font-bold leading-snug">{p.h1}</h3>
+                  </div>
+                  <span className="inline-flex items-center gap-1.5 text-[13px] font-bold text-primary group-hover:underline">
+                    {t('sup.projects.viewCase')} <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+                  </span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       <JsonLd
         data={projectLd({
           title: page.h1,
@@ -208,19 +315,6 @@ export function ProjectPage({ page }: { page: ProjectData }) {
         ])}
       />
 
-      {/* CTA */}
-      <section className="ocean-grad">
-        <div className="mx-auto flex max-w-4xl flex-col items-center px-5 py-16 text-center md:px-7 md:py-20">
-          <p className="font-display text-xs font-bold uppercase tracking-[0.16em] text-[#aee3f7]">{t('sup.projects.ctaKicker')}</p>
-          <h2 className="mt-3 font-display text-3xl font-extrabold leading-[1.12] text-white md:text-4xl">{t('sup.projects.ctaTitle')}</h2>
-          <a
-            href={fl('/contact')}
-            className="sun-grad mt-8 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
-          >
-            {t('sup.projects.discuss')} <ArrowRight size={17} />
-          </a>
-        </div>
-      </section>
       <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-2 gap-y-1 px-5 py-12 md:px-7">
         <a href={fl('/projects')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.projects.seeAll')}</a>
         <span className="text-fg-3">·</span>

@@ -437,6 +437,15 @@ export const en = {
       deliveryReadinessLabel: 'Delivery Readiness:',
       deliveryReadiness: 'SKU configuration, labeling, manuals, barcodes, carton marking and packing quantity verified before shipment release.',
       outcomeLabel: 'Outcome:',
+      midCtaText: 'Facing a similar challenge?',
+      midCtaLink: 'Talk to us about your project',
+      takeawaysKicker: 'Key Takeaways',
+      takeawaysTitle: 'What This Project Shows',
+      scenarioCtaTitle: 'Your Project Could Follow the Same Path',
+      scenarioCtaBody:
+        'Tell us your target market, quantity and launch date — we reply with recommended specifications, MOQ guidance and a realistic timeline.',
+      similarKicker: 'Related Cases',
+      similarTitle: 'Similar Projects We Delivered',
     },
     knowledge: {
       hubKicker: 'Knowledge Center',

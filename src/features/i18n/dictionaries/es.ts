@@ -427,6 +427,15 @@ export const es = {
       deliveryReadinessLabel: 'Preparación de la entrega:',
       deliveryReadiness: 'Configuración de SKU, etiquetado, manuales, códigos de barras, marcado de cajas y cantidad de embalaje verificados antes de la liberación del envío.',
       outcomeLabel: 'Resultado:',
+      midCtaText: '¿Te enfrentas a un reto similar?',
+      midCtaLink: 'Hablemos de tu proyecto',
+      takeawaysKicker: 'Conclusiones clave',
+      takeawaysTitle: 'Lo que muestra este proyecto',
+      scenarioCtaTitle: 'Tu proyecto puede seguir el mismo camino',
+      scenarioCtaBody:
+        'Cuéntanos tu mercado objetivo, cantidad y fecha de lanzamiento — respondemos con especificaciones recomendadas, orientación de MOQ y un calendario realista.',
+      similarKicker: 'Casos relacionados',
+      similarTitle: 'Proyectos similares que hemos entregado',
     },
     knowledge: {
       hubKicker: 'Centro de conocimiento',
