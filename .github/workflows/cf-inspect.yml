@@ -13,8 +13,8 @@ jobs:
           set -e
           API="https://api.cloudflare.com/client/v4"
           AUTH="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
-          echo "== token permissions =="
-          curl -sS "$API/user/tokens/verify" -H "$AUTH" | jq '{success, status: .result.status, id: .result.id, name: .result.name, policies: [.result.policies[] | {effect, resources, permission_groups: [.permission_groups[].name]}]}'
+          echo "== token verify =="
+          curl -sS "$API/user/tokens/verify" -H "$AUTH" | jq '{success, result}'
           ZID="4a6adf44067bd05a752eae9d3b6cbb80"
           echo "== rulesets phases =="
           curl -sS "$API/zones/$ZID/rulesets" -H "$AUTH" | jq '{success, count: (.result | length), phases: [.result[]? | {phase, id}]}'
