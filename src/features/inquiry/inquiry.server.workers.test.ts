@@ -1,13 +1,16 @@
 /**
- * D1 coverage for the admin inquiry list: pagination, tier filter and the
- * free-text LIKE search (with %/_-escape) against a hand-created table —
- * the workers pool does not auto-apply drizzle migrations (repo convention).
+ * D1 + R2 coverage for the inquiry server module.
+ *  - D1: pagination, tier filter and the free-text LIKE search (with %/_-
+ *    escape) against a hand-created table — the workers pool does not
+ *    auto-apply drizzle migrations (repo convention).
+ *  - R2: putInquiryFile → getInquiryFile round-trip (bytes + contentType),
+ *    legacy inquiry-logos/ key resolution and unknown-id nulls.
  */
-import { test, expect, beforeAll } from 'vitest'
+import { test, expect, beforeAll, describe } from 'vitest'
 import { env } from 'cloudflare:test'
 import { createDb } from '@/db/client'
 import { inquiry } from '@/features/inquiry/inquiry.schema'
-import { listInquiries } from '@/features/inquiry/inquiry.server'
+import { fileObjectKey, getInquiryFile, listInquiries, mimeForExt, putInquiryFile } from '@/features/inquiry/inquiry.server'
 
 beforeAll(async () => {
   await env.DB.prepare(
@@ -74,4 +77,46 @@ test('tier + search combine with AND', async () => {
   expect(rows.map((r) => r.id)).toEqual(['i1'])
   const { total } = await listInquiries(createDb(env.DB), { page: 1, pageSize: 20, tier: 'C', q: 'acme' })
   expect(total).toBe(1)
+})
+
+describe('R2 project file', () => {
+  const PDF = new Uint8Array([0x25, 0x50, 0x44, 0x46, 0x2d, 0x31, 0x2e, 0x34, 0x0a])
+
+  test('putInquiryFile stores under inquiry-files/<id>.<ext> and round-trips', async () => {
+    const key = await putInquiryFile(env.BUCKET, 'f-1', PDF.buffer, 'pdf')
+    expect(key).toBe(fileObjectKey('f-1', 'pdf'))
+
+    const got = await getInquiryFile(env.BUCKET, 'f-1')
+    expect(got).not.toBeNull()
+    expect(got!.key).toBe(key)
+    expect(got!.httpMetadata?.contentType).toBe(mimeForExt('pdf'))
+    expect(new Uint8Array(await got!.arrayBuffer())).toEqual(PDF)
+  })
+
+  test('re-upload overwrites the same key (no parallel objects)', async () => {
+    const a = new Uint8Array([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a])
+    await putInquiryFile(env.BUCKET, 'f-2', a.buffer, 'png')
+    const b = new Uint8Array([0x37, 0x5a, 0xbc, 0xaf]) // 7z magic — just bytes here
+    await putInquiryFile(env.BUCKET, 'f-2', b.buffer, 'zip')
+
+    const got = await getInquiryFile(env.BUCKET, 'f-2')
+    expect(got).not.toBeNull()
+    expect(new Uint8Array(await got!.arrayBuffer())).toEqual(b)
+    expect((await env.BUCKET.list({ prefix: 'inquiry-files/f-2' })).objects).toHaveLength(1)
+  })
+
+  test('legacy inquiry-logos/<id>.png keys still resolve', async () => {
+    await env.BUCKET.put('inquiry-logos/f-3.png', new Uint8Array([0x89, 0x50, 0x4e, 0x47]).buffer, {
+      httpMetadata: { contentType: 'image/png' },
+    })
+
+    const got = await getInquiryFile(env.BUCKET, 'f-3')
+    expect(got).not.toBeNull()
+    expect(got!.key).toBe('inquiry-logos/f-3.png')
+    expect(got!.httpMetadata?.contentType).toBe('image/png')
+  })
+
+  test('unknown id returns null', async () => {
+    expect(await getInquiryFile(env.BUCKET, 'nobody')).toBeNull()
+  })
 })

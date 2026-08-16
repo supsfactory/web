@@ -1,6 +1,6 @@
 import { createServerFn } from '@tanstack/react-start'
 import type { Inquiry } from './inquiry.schema'
-import type { InquiryTier } from './inquiry.shared'
+import type { InquiryTier, ProjectFileExtension } from './inquiry.shared'
 
 export type SubmitResult =
   | { ok: true; tier: InquiryTier }
@@ -8,8 +8,8 @@ export type SubmitResult =
 
 /**
  * Public, unauthenticated endpoint: accepts the inquiry form as FormData
- * (fields + optional logo file). Validator hardens the fields; the handler
- * rate-limits per IP, verifies Turnstile, stores the logo in R2, scores the
+ * (fields + optional project file). Validator hardens the fields; the handler
+ * rate-limits per IP, verifies Turnstile, stores the file in R2, scores the
  * lead (tier A/B/C), persists the inquiry to D1 and notifies the admin list.
  */
 export const submitInquiry = createServerFn({ method: 'POST' })
@@ -20,8 +20,8 @@ export const submitInquiry = createServerFn({ method: 'POST' })
     const { getRequestHeader } = await import('@tanstack/react-start/server')
     const { fixedWindowLimit } = await import('@/features/waitlist/rate-limit')
     const { verifyTurnstile } = await import('@/features/waitlist/turnstile')
-    const { clampInquiryInput, isValidInquiry, checkLogoFile, scoreInquiry } = await import('./inquiry.shared')
-    const { putInquiryLogo } = await import('./inquiry.server')
+    const { clampInquiryInput, isValidInquiry, checkProjectFile, fileExtension, sniffProjectFile, scoreInquiry } = await import('./inquiry.shared')
+    const { putInquiryFile } = await import('./inquiry.server')
     const { inquiry } = await import('./inquiry.schema')
     const { sendInquiryNotification } = await import('./notify')
 
@@ -70,9 +70,9 @@ export const submitInquiry = createServerFn({ method: 'POST' })
     )
     if (!ok) return { ok: false, reason: 'captcha' }
 
-    const file = data.get('logo')
+    const file = data.get('projectFile')
     if (file instanceof File && file.size > 0) {
-      const check = checkLogoFile(file)
+      const check = checkProjectFile(file)
       if (!check.ok) return { ok: false, reason: 'file' }
     }
 
@@ -85,11 +85,11 @@ export const submitInquiry = createServerFn({ method: 'POST' })
     try {
       if (file instanceof File && file.size > 0) {
         const bytes = await file.arrayBuffer()
-        // MIME sniff before R2 write: logo content is later served back to
-        // admins, so a spoofed `type` must not smuggle non-image bytes in.
-        const { sniffImage } = await import('@/features/storage/storage')
-        if (!sniffImage(new Uint8Array(bytes), file.type)) return { ok: false, reason: 'file' }
-        logoKey = await putInquiryLogo(env.BUCKET, id, bytes, file.type)
+        // Magic-number sniff before the R2 write: the file is later served back
+        // to admins, so a spoofed name/type must not smuggle arbitrary bytes in.
+        const ext = fileExtension(file.name) as ProjectFileExtension
+        if (!sniffProjectFile(new Uint8Array(bytes), ext)) return { ok: false, reason: 'file' }
+        logoKey = await putInquiryFile(env.BUCKET, id, bytes, ext)
       }
     } catch (err) {
       console.error('[inquiry] logo upload failed', err)

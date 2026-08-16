@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button'
 import { useTurnstile } from '@/features/auth/components/turnstile'
 import { trackLead } from '@/features/analytics/events'
 import { submitInquiry, type SubmitResult } from '../actions'
-import type { InquiryTier } from '../inquiry.shared'
+import { INQUIRY_LIMITS, PROJECT_FILE_ACCEPT, PROJECT_FILE_EXTENSIONS, type InquiryTier } from '../inquiry.shared'
 
 export interface InquiryPrefill {
   /** Product platform name (shown in the notice + board-platform field). */
@@ -127,8 +127,9 @@ export function InquiryForm({
       setFileError(false)
       return
     }
-    const okType = ['image/png', 'image/jpeg', 'image/svg+xml', 'image/webp'].includes(f.type)
-    const okSize = f.size <= 5 * 1024 * 1024
+    const ext = f.name.includes('.') ? f.name.slice(f.name.lastIndexOf('.') + 1).toLowerCase() : ''
+    const okType = (PROJECT_FILE_EXTENSIONS as readonly string[]).includes(ext)
+    const okSize = f.size <= INQUIRY_LIMITS.fileMaxBytes
     setFileError(!okType || !okSize)
     setFileName(f.name)
   }
@@ -389,9 +390,9 @@ export function InquiryForm({
                 {fileName ?? (locale === 'es' ? 'Subir archivo' : 'Upload')}
                 <input
                   id="inq-logo"
-                  name="logo"
+                  name="projectFile"
                   type="file"
-                  accept="image/png,image/jpeg,image/svg+xml,image/webp"
+                  accept={PROJECT_FILE_ACCEPT}
                   className="sr-only"
                   onChange={(e) => onFileChange(e.target.files)}
                 />

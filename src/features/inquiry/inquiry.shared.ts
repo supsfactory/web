@@ -59,10 +59,84 @@ export const INQUIRY_LIMITS = {
   customizationMax: 200,
   docsMax: 200,
   requirementsMax: 2000,
-  logoMaxBytes: 5 * 1024 * 1024,
+  fileMaxBytes: 10 * 1024 * 1024,
 } as const
 
-export const LOGO_CONTENT_TYPES = ['image/png', 'image/jpeg', 'image/svg+xml', 'image/webp'] as const
+/**
+ * Accepted project-file formats for the RFQ attachment (single file):
+ * reference images, artwork (SVG/AI/PSD), specs (PDF) and CAD (DWG/DXF),
+ * plus ZIP bundles. Validation is extension-based because browsers report
+ * unreliable MIME types for CAD files — content is then magic-number sniffed.
+ */
+export const PROJECT_FILE_EXTENSIONS = [
+  'png',
+  'jpg',
+  'jpeg',
+  'svg',
+  'webp',
+  'pdf',
+  'ai',
+  'psd',
+  'dwg',
+  'dxf',
+  'zip',
+] as const
+
+export type ProjectFileExtension = (typeof PROJECT_FILE_EXTENSIONS)[number]
+
+/** Subset renderable inline by the admin detail view (<img>). */
+export const PROJECT_IMAGE_EXTENSIONS = ['png', 'jpg', 'jpeg', 'svg', 'webp'] as const
+
+/** `accept` value for the file input — built from the single source of truth. */
+export const PROJECT_FILE_ACCEPT = `.${PROJECT_FILE_EXTENSIONS.join(',.')}`
+
+/** Lowercased extension of a submitted file name, or '' when none. */
+export function fileExtension(name: string): string {
+  const dot = name.lastIndexOf('.')
+  return dot >= 0 ? name.slice(dot + 1).toLowerCase() : ''
+}
+
+const TEXT_DECODER = new TextDecoder('utf-8')
+
+/** Byte-prefix check per extension — the server-side file gate. */
+export function sniffProjectFile(bytes: Uint8Array, ext: string): boolean {
+  const head = bytes.subarray(0, 1024)
+  const ascii = (): string => {
+    try {
+      return TEXT_DECODER.decode(head).replace(/^\uFEFF/, '')
+    } catch {
+      return ''
+    }
+  }
+  const isAscii = (start: number, end: number, expected: string) =>
+    end <= head.length && ascii().slice(start, end) === expected
+  switch (ext) {
+    case 'png':
+      return head.length >= 8 && head[0] === 0x89 && head[1] === 0x50 && head[2] === 0x4e && head[3] === 0x47
+    case 'jpg':
+    case 'jpeg':
+      return head.length >= 3 && head[0] === 0xff && head[1] === 0xd8 && head[2] === 0xff
+    case 'webp':
+      return head.length >= 12 && isAscii(0, 4, 'RIFF') && isAscii(8, 12, 'WEBP')
+    case 'svg':
+      return /<svg[\s>]/i.test(ascii())
+    case 'pdf':
+      return isAscii(0, 5, '%PDF-')
+    case 'ai':
+      // Illustrator "Save As" files are PDFs; classic EPS-compatible files start with %!PS
+      return isAscii(0, 5, '%PDF-') || isAscii(0, 4, '%!PS')
+    case 'psd':
+      return head.length >= 4 && head[0] === 0x38 && head[1] === 0x42 && head[2] === 0x50 && head[3] === 0x53 // 8BPS
+    case 'dwg':
+      return /^AC10/.test(ascii()) // DWG versions AC1015 … AC1032
+    case 'dxf':
+      return /^\s*0\s*SECTION/i.test(ascii()) || ascii().startsWith('AutoCAD Binary DXF')
+    case 'zip':
+      return head.length >= 4 && head[0] === 0x50 && head[1] === 0x4b && (head[2] === 0x03 || head[2] === 0x05 || head[2] === 0x07)
+    default:
+      return false
+  }
+}
 
 /** Common consumer mailbox providers — free mail drags the lead score down. */
 export const FREE_MAIL_DOMAINS = [
@@ -148,10 +222,11 @@ export interface FileCheck {
   reason?: 'empty' | 'type' | 'size'
 }
 
-export function checkLogoFile(file: File): FileCheck {
+export function checkProjectFile(file: File): FileCheck {
   if (file.size === 0) return { ok: false, reason: 'empty' }
-  if (!(LOGO_CONTENT_TYPES as readonly string[]).includes(file.type)) return { ok: false, reason: 'type' }
-  if (file.size > INQUIRY_LIMITS.logoMaxBytes) return { ok: false, reason: 'size' }
+  const ext = fileExtension(file.name)
+  if (!(PROJECT_FILE_EXTENSIONS as readonly string[]).includes(ext)) return { ok: false, reason: 'type' }
+  if (file.size > INQUIRY_LIMITS.fileMaxBytes) return { ok: false, reason: 'size' }
   return { ok: true }
 }
 
@@ -212,7 +287,7 @@ export function inquiryScoreSignals(input: InquiryInput, opts: { hasFile: boolea
   if (input.annualVolume !== '' && input.annualVolume !== 'not-decided') push('annualVolume', 10)
   if (input.timeline !== 'unsure') push('timeline', 10)
   if (input.projectStage === 'ready' || input.projectStage === 'sampling') push('stageReady', 15)
-  if (opts.hasFile) push('logoUploaded', 15)
+  if (opts.hasFile) push('fileUploaded', 15)
   if (input.targetMarket.length > 0) push('targetMarket', 10)
   if (input.packaging === 'branded' || input.packaging === 'custom') push('packaging', 10)
 

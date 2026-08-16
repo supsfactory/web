@@ -129,7 +129,7 @@ function InquiriesAdmin() {
               <th className="px-4 py-2">{t('admin.inquiryStage')}</th>
               <th className="px-4 py-2">{t('admin.inquiryQty')}</th>
               <th className="px-4 py-2">{t('admin.inquiryReq')}</th>
-              <th className="px-4 py-2">{t('admin.inquiryLogo')}</th>
+              <th className="px-4 py-2">{t('admin.inquiryFile')}</th>
               <th className="px-4 py-2">{t('admin.inquiryStatus')}</th>
               <th className="px-4 py-2">{t('admin.inquirySubmitted')}</th>
             </tr>
@@ -172,7 +172,7 @@ function InquiriesAdmin() {
                 <td className="px-4 py-3">
                   {r.logoKey ? (
                     <a className="text-primary hover:underline" href={`/api/inquiry-logo/${r.id}`} target="_blank" rel="noreferrer">
-                      {t('admin.inquiryLogo')}
+                      {t('admin.inquiryFile')}
                     </a>
                   ) : (
                     <span className="text-fg-3">—</span>

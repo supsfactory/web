@@ -1,10 +1,10 @@
 # SUPsfactory — Technical Documentation
 
-> Last updated: 2026-08-15
+> Last updated: 2026-08-16
 > Project path: `E:\github\supsfactory`
 > Production: https://supsfactory.com (Cloudflare Workers, `supsfactory-production`)
 > Stack: TanStack Start (React 19) + Cloudflare Workers + D1 (Drizzle ORM) + KV + R2 + better-auth + Resend + Orama (search) + Fumadocs (docs)
-> Tests: 202 (Vitest node + workers pools); `pnpm typecheck` / `pnpm build` green
+> Tests: 236 (Vitest node + workers pools); `pnpm typecheck` / `pnpm build` green
 > Marketing positioning: custom SUP product development & manufacturing partner (not "launch your own brand") — 5-page /solutions system, legacy landings 301 to it; full afarer brand content ported under `/`
 
 ---
@@ -41,7 +41,7 @@ Registry ownership is explicit: `SHADOWED_PATHS` (`features/content/loader.ts`) 
 |-------|-----|
 | **D1** (SQLite, Drizzle ORM) | Single source of truth for auth (`user/account/session/verification/rateLimit`) plus app tables (`waitlist`, `inquiry`, `feedback`). |
 | **KV** | Per-IP rate-limit counters for the public waitlist form, the inquiry form (5 / 10 min) and `/api/search` (60 / min) — `src/features/waitlist/rate-limit.ts`. |
-| **R2** | Blobs: user avatars (`avatars/{userId}`, overwrite-on-upload, ≤2 MB), inquiry logos (`inquiry-logos/{id}.{ext}`, ≤5 MB). Served back through Worker routes because R2 isn't public. |
+| **R2** | Blobs: user avatars (`avatars/{userId}`, overwrite-on-upload, ≤2 MB), inquiry project files (`inquiry-files/{id}.{ext}`, ≤10 MB; PNG/JPG/JPEG/SVG/WebP/PDF/AI/PSD/DWG/DXF/ZIP — extension whitelist + per-format magic-number sniffing; one object per inquiry, legacy `inquiry-logos/` keys still readable). Served back through Worker routes because R2 isn't public. |
 
 ---
 
@@ -105,12 +105,12 @@ promoted ⇒ re-read session fresh so the refreshed cookie carries role=admin
 |--------|-----------|----------|
 | SQL injection | Drizzle ORM parameterization everywhere; the only raw `sql` is admin `LIKE` search with DB-bound pattern + `ESCAPE '!'` + whitelisted sort column | `admin/getAdminUsers.ts`, `inquiry/inquiry.server.ts` |
 | XSS | React escapes by default; admin notification email **HTML-escapes all fields**; CSP has no `unsafe-inline` for scripts (nonce-based) | `inquiry/notify.ts`, `lib/security-headers.ts` |
-| Stored file XSS | Uploaded avatar/logo responses enforced `Content-Security-Policy: default-src 'none'; sandbox` + `nosniff` | `routes/api/avatars/$.ts`, `routes/api/inquiry-logo/$.ts` |
-| Spoofed uploads | MIME allow-list + byte-size limit **and magic-number sniffing** (PNG/JPEG/WebP/GIF byte magic; SVG text header with BOM/whitespace/`<?xml` tolerance) before anything reaches R2 | `features/storage/storage.ts` (`sniffImage`), `features/storage/actions.ts`, `features/inquiry/actions.ts` |
+| Stored file XSS | Uploaded avatar/project-file responses enforced `Content-Security-Policy: default-src 'none'; sandbox` + `nosniff` | `routes/api/avatars/$.ts`, `routes/api/inquiry-logo/$.ts` |
+| Spoofed uploads | Extension allow-list + byte-size limit **and per-format magic-number sniffing** before anything reaches R2 — images/PDF/AI/PSD/DWG/DXF/ZIP byte magic + SVG/DXF text headers (SVG must contain a real `<svg` element; `<?xml`/BOM/whitespace tolerated) | `features/storage/storage.ts` (`sniffImage`), `features/inquiry/inquiry.shared.ts` (`sniffProjectFile`), `features/storage/actions.ts`, `features/inquiry/actions.ts` |
 | CSV injection | Cells starting with `= + - @` prefixed with a quote in admin exports; `no-store` on all exports | `routes/admin/*.csv.ts`, `waitlist/csv.ts` |
 | Session-page caching | Private paths (`/app /admin /api /login /register /auth ...`) force `private, no-store` + `Vary: Cookie` on every method | `lib/cache-headers.ts` |
 | SSRF | Only outbound `fetch` is Turnstile `siteverify` to a hardcoded URL | `features/waitlist/turnstile.ts` |
-| Path traversal | R2 keys are flat strings (no directory hierarchy); avatar/logo keys use the UUID id | `features/storage/storage.ts`, `inquiry/inquiry.server.ts` |
+| Path traversal | R2 keys are flat strings (no directory hierarchy); avatar/inquiry-file keys use the UUID id | `features/storage/storage.ts`, `inquiry/inquiry.server.ts` |
 | Admin abuse | Single `assertAdmin` gate + least-privilege roles + 404 for non-admins | `admin/assert-admin.server.ts` |
 | Brute force | Turnstile + better-auth rate limits (D1-backed) + per-IP KV limits on public forms & search API | `auth/auth.server.ts`, `waitlist/rate-limit.ts` |
 | Search DoS | Lazy Orama singleton (never rebuilt per request) + per-IP rate limit (fail-open) | `routes/api/search.ts` |
@@ -157,7 +157,7 @@ The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`,
 | Task | Command |
 |------|---------|
 | Dev server | `pnpm dev` |
-| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 202 tests |
+| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 236 tests |
 | Typecheck / lint / build | `pnpm typecheck` (fumadocs-mdx + tsc) / `pnpm lint` / `pnpm build` |
 | D1 migrations | `pnpm db:generate` → `pnpm db:migrate:local` (local); `db:migrate:staging` / `db:migrate:prod` (remote) |
 | Deploy | `pnpm deploy:staging` / `pnpm deploy:prod` (builds with `CLOUDFLARE_ENV` + `wrangler deploy`); `pnpm deploy:purge` purges the CDN (needs `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ZONE_ID` w/ cache-purge scope); `deploy:prod:all` = deploy + purge |

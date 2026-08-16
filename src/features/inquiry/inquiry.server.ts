@@ -2,53 +2,80 @@
 import { and, desc, eq, or, sql } from 'drizzle-orm'
 import type { DB } from '@/db/client'
 import { inquiry, type Inquiry } from './inquiry.schema'
-import type { InquiryStatus, InquiryTier } from './inquiry.shared'
+import type { InquiryStatus, InquiryTier, ProjectFileExtension } from './inquiry.shared'
 
 export type InquiryRow = Inquiry
 
-const LOGO_PREFIX = 'inquiry-logos/'
+const FILE_PREFIX = 'inquiry-files/'
+// Legacy key namespace of the former logo upload (kept readable for admins)
+const LEGACY_LOGO_PREFIX = 'inquiry-logos/'
+const KNOWN_EXTS: readonly string[] = ['png', 'jpg', 'jpeg', 'svg', 'webp', 'pdf', 'ai', 'psd', 'dwg', 'dxf', 'zip']
 
-export function logoObjectKey(id: string, ext: string): string {
-  return `${LOGO_PREFIX}${id}.${ext}`
+export function fileObjectKey(id: string, ext: ProjectFileExtension): string {
+  return `${FILE_PREFIX}${id}.${ext}`
 }
 
-export function logoExt(contentType: string): string {
-  switch (contentType) {
-    case 'image/png':
-      return 'png'
-    case 'image/jpeg':
-      return 'jpg'
-    case 'image/svg+xml':
-      return 'svg'
-    default:
-      return 'webp'
-  }
-}
-
-/** Store a submitted logo. Returns the R2 object key. */
-export async function putInquiryLogo(
+/** Store a submitted project file. Returns the R2 object key. */
+export async function putInquiryFile(
   bucket: R2Bucket,
   id: string,
   body: ArrayBuffer,
-  contentType: string,
+  ext: ProjectFileExtension,
 ): Promise<string> {
-  const key = logoObjectKey(id, logoExt(contentType))
-  await bucket.put(key, body, { httpMetadata: { contentType } })
+  // One object per inquiry: a re-submission with a different extension must
+  // not leave the previous file behind (getInquiryFile would hit it first).
+  await removeInquiryFile(bucket, id)
+  const key = fileObjectKey(id, ext)
+  await bucket.put(key, body, { httpMetadata: { contentType: mimeForExt(ext) } })
   return key
 }
 
-export async function getInquiryLogo(
+/** Delete every stored object for an inquiry id. */
+export async function removeInquiryFile(bucket: R2Bucket, id: string): Promise<void> {
+  const listed = await bucket.list({ prefix: `${FILE_PREFIX}${id}` })
+  if (listed.objects.length === 0) return
+  await bucket.delete(listed.objects.map((o) => o.key))
+}
+
+export function mimeForExt(ext: ProjectFileExtension): string {
+  switch (ext) {
+    case 'png':
+      return 'image/png'
+    case 'jpg':
+    case 'jpeg':
+      return 'image/jpeg'
+    case 'svg':
+      return 'image/svg+xml'
+    case 'webp':
+      return 'image/webp'
+    case 'pdf':
+      return 'application/pdf'
+    case 'ai':
+      return 'application/postscript'
+    case 'psd':
+      return 'image/vnd.adobe.photoshop'
+    case 'dwg':
+      return 'application/acad'
+    case 'dxf':
+      return 'application/dxf'
+    case 'zip':
+      return 'application/zip'
+  }
+}
+
+export async function getInquiryFile(
   bucket: R2Bucket,
   id: string,
 ): Promise<R2ObjectBody | null> {
-  const base = `${LOGO_PREFIX}${id}`
-  const direct = await bucket.get(base)
-  if (direct) return direct
-  // putInquiryLogo stores `{id}.{ext}` — try every known extension so legacy
-  // bare-key objects and current keys both resolve.
-  for (const ext of ['png', 'jpg', 'svg', 'webp']) {
-    const obj = await bucket.get(`${base}.${ext}`)
-    if (obj) return obj
+  // New keys live under inquiry-files/, legacy logo uploads under inquiry-logos/
+  for (const prefix of [FILE_PREFIX, LEGACY_LOGO_PREFIX]) {
+    const base = `${prefix}${id}`
+    const direct = await bucket.get(base)
+    if (direct) return direct
+    for (const ext of KNOWN_EXTS) {
+      const obj = await bucket.get(`${base}.${ext}`)
+      if (obj) return obj
+    }
   }
   return null
 }

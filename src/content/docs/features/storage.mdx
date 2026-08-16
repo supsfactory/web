@@ -46,6 +46,12 @@ wrangler r2 bucket create supsfactory-files-prod       # production 环境
 
 ## 扩展
 
+- **第二个真实案例** —— 询价表单(`features/inquiry`)把同样的链路上升到**工程文件**:
+  10 种格式(PNG/JPG/SVG/WebP/PDF/AI/PSD/DWG/DXF/ZIP)、上限 10 MB,表单与
+  服务端共用扩展名白名单(`PROJECT_FILE_EXTENSIONS`),写入 R2 前再按格式做
+  **魔数嗅探**(`sniffProjectFile` —— SVG 必须包含真正的 `<svg` 元素)。
+  键带扩展名(`inquiry-files/{id}.{ext}`,重传先清旧键),读取时兼容旧
+  `inquiry-logos/` 前缀。需要多格式支持时照抄这条链路即可。
 - **其他文件类型** —— 复制 `uploadAvatar`,替换 `storage.ts` 里的白名单即可。
 - **按用户/按组织配额** —— 在写入时按字节计量。商业版的 `usage` 计量分支已备好可接入的表。
 - **更大的文件** —— 多 GB 上传改用

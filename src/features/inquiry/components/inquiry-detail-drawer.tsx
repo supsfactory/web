@@ -9,7 +9,7 @@ import { useTranslation } from '@/features/i18n/provider'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle, DrawerClose } from '@/components/ui/drawer'
 import { Badge } from '@/components/ui/badge'
 import { fmtDateTime } from '@/lib/format-date'
-import { inquiryScoreSignals } from '@/features/inquiry/inquiry.shared'
+import { inquiryScoreSignals, PROJECT_IMAGE_EXTENSIONS } from '@/features/inquiry/inquiry.shared'
 import type { InquiryRow } from '@/features/inquiry/inquiry.server'
 
 interface Props {
@@ -112,18 +112,29 @@ export function InquiryDetailDrawer({ row, open, onOpenChange }: Props) {
             </div>
           )}
 
-          {row.logoKey && (
-            <div>
-              <p className="text-[11px] font-bold uppercase tracking-wide text-fg-3">{t('admin.inquiryLogo')}</p>
-              <a href={`/api/inquiry-logo/${row.id}`} target="_blank" rel="noreferrer" className="mt-1.5 inline-block">
-                <img
-                  src={`/api/inquiry-logo/${row.id}`}
-                  alt={row.company || 'upload'}
-                  className="max-h-44 rounded-lg border border-border bg-bg-alt object-contain"
-                />
-              </a>
-            </div>
-          )}
+          {row.logoKey &&
+            (() => {
+              const ext = row.logoKey.split('.').pop()?.toLowerCase() ?? ''
+              const isImage = (PROJECT_IMAGE_EXTENSIONS as readonly string[]).includes(ext)
+              return (
+                <div>
+                  <p className="text-[11px] font-bold uppercase tracking-wide text-fg-3">{t('admin.inquiryFile')}</p>
+                  {isImage ? (
+                    <a href={`/api/inquiry-logo/${row.id}`} target="_blank" rel="noreferrer" className="mt-1.5 inline-block">
+                      <img
+                        src={`/api/inquiry-logo/${row.id}`}
+                        alt={row.company || 'upload'}
+                        className="max-h-44 rounded-lg border border-border bg-bg-alt object-contain"
+                      />
+                    </a>
+                  ) : (
+                    <a href={`/api/inquiry-logo/${row.id}`} target="_blank" rel="noreferrer" className="mt-1.5 inline-block text-primary hover:underline">
+                      {ext.toUpperCase()} · {t('admin.inquiryFile')}
+                    </a>
+                  )}
+                </div>
+              )
+            })()}
         </div>
       </DrawerContent>
     </Drawer>

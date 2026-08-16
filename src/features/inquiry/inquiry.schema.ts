@@ -30,7 +30,7 @@ export const inquiry = sqliteTable('inquiry', {
   score: integer('score').notNull().default(0),                   // lead score
   tier: text('tier').notNull().default('C'),                      // InquiryTier
   requirements: text('requirements').notNull().default(''),
-  logoKey: text('logo_key'),                                       // R2 object key (inquiry-logos/...)
+  logoKey: text('logo_key'),                                       // R2 object key (inquiry-files/... or legacy inquiry-logos/...)
   status: text('status').notNull().default('new'),                 // InquiryStatus
   locale: text('locale').notNull(),
   createdAt: integer('created_at', { mode: 'timestamp_ms' }).notNull(),

@@ -4,10 +4,13 @@
  */
 import { describe, expect, test } from 'vitest'
 import {
+  checkProjectFile,
   clampInquiryInput,
+  fileExtension,
   inquiryScoreSignals,
   isValidInquiry,
   scoreInquiry,
+  sniffProjectFile,
   type InquiryInput,
 } from './inquiry.shared'
 
@@ -209,6 +212,99 @@ describe('scoreInquiry', () => {
     const { score } = scoreInquiry(input, { hasFile: true })
     const sum = inquiryScoreSignals(input, { hasFile: true }).reduce((acc, s) => acc + s.delta, 0)
     expect(score).toBe(Math.max(0, sum))
-    expect(inquiryScoreSignals(input, { hasFile: true }).some((s) => s.id === 'logoUploaded')).toBe(true)
+    expect(inquiryScoreSignals(input, { hasFile: true }).some((s) => s.id === 'fileUploaded')).toBe(true)
+  })
+})
+
+describe('fileExtension', () => {
+  test('extracts a lowercased extension and tolerates missing/empty names', () => {
+    expect(fileExtension('logo.PNG')).toBe('png')
+    expect(fileExtension('drawing.v2.dwg')).toBe('dwg')
+    expect(fileExtension('no-extension')).toBe('')
+    expect(fileExtension('')).toBe('')
+    expect(fileExtension('.hidden')).toBe('hidden')
+  })
+})
+
+function fileBytes(...values: unknown[]): Uint8Array<ArrayBuffer> {
+  const parts = values.map((v) => (typeof v === 'string' ? Uint8Array.from([...v].map((c) => c.charCodeAt(0))) : Uint8Array.from(v as number[])))
+  const total = parts.reduce((n, p) => n + p.length, 0)
+  const out = new Uint8Array(total)
+  let offset = 0
+  for (const p of parts) {
+    out.set(p, offset)
+    offset += p.length
+  }
+  return out
+}
+
+describe('checkProjectFile', () => {
+  test('accepts allowed extensions up to 10 MB', () => {
+    const file = new File([fileBytes('hello')], 'brief.pdf', { type: 'application/pdf' })
+    expect(checkProjectFile(file)).toEqual({ ok: true })
+  })
+
+  test('extension check is case-insensitive', () => {
+    const file = new File([fileBytes('x')], 'ARTWORK.SVG')
+    expect(checkProjectFile(file)).toEqual({ ok: true })
+  })
+
+  test('rejects unknown extensions even with a crowd-pleasing MIME type', () => {
+    const file = new File([fileBytes('x')], 'notes.txt', { type: 'image/png' })
+    expect(checkProjectFile(file).reason).toBe('type')
+    const exe = new File([fileBytes('MZ')], 'setup.exe')
+    expect(checkProjectFile(exe).reason).toBe('type')
+  })
+
+  test('rejects empty files and files over 10 MB', () => {
+    const empty = new File([], 'empty.png', { type: 'image/png' })
+    expect(checkProjectFile(empty).reason).toBe('empty')
+    const big = new File([new ArrayBuffer(10 * 1024 * 1024 + 1)], 'big.zip')
+    expect(checkProjectFile(big).reason).toBe('size')
+  })
+})
+
+describe('sniffProjectFile', () => {
+  test.each([
+    ['png', 'png', fileBytes([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a], 'rest')],
+    ['jpg', 'jpg', fileBytes([0xff, 0xd8, 0xff, 0xe0])],
+    ['jpeg', 'jpeg', fileBytes([0xff, 0xd8, 0xff, 0xdb])],
+    ['webp', 'webp', fileBytes('RIFF', [0, 0, 0, 0], 'WEBP')],
+    ['svg', 'svg', fileBytes('<svg xmlns="http://www.w3.org/2000/svg"></svg>')],
+    ['svg with xml prolog', 'svg', fileBytes('<?xml version="1.0"?><svg viewBox="0 0 10 10"></svg>')],
+    ['pdf', 'pdf', fileBytes('%PDF-1.7\n')],
+    ['ai (PDF-based)', 'ai', fileBytes('%PDF-1.5\n%âãÏÓ')],
+    ['ai (EPS-based)', 'ai', fileBytes('%!PS-Adobe-3.0\n')],
+    ['psd', 'psd', fileBytes([0x38, 0x42, 0x50, 0x53], 'bogus')],
+    ['dwg', 'dwg', fileBytes('AC1015\r\n')],
+    ['dxf text', 'dxf', fileBytes('\r\n0\nSECTION\n2\nHEADER')],
+    ['dxf binary', 'dxf', fileBytes('AutoCAD Binary DXF')],
+    ['zip', 'zip', fileBytes([0x50, 0x4b, 0x03, 0x04], 'bogus')],
+    ['zip empty archive', 'zip', fileBytes([0x50, 0x4b, 0x05, 0x06], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])],
+  ] as const)('accepts genuine %s bytes', (_label, ext, bytes) => {
+    expect(sniffProjectFile(bytes, ext)).toBe(true)
+  })
+
+  test('rejects mismatched magic numbers', () => {
+    expect(sniffProjectFile(fileBytes([0xff, 0xd8, 0xff]), 'png')).toBe(false)
+    expect(sniffProjectFile(fileBytes('<svg></svg>'), 'pdf')).toBe(false)
+    expect(sniffProjectFile(fileBytes('%PDF-1.7'), 'dwg')).toBe(false)
+    expect(sniffProjectFile(fileBytes([0x89, 0x50]), 'png')).toBe(false)
+  })
+
+  test('rejects script-first masquerades as svg', () => {
+    expect(sniffProjectFile(fileBytes('<script>alert(1)</script>'), 'svg')).toBe(false)
+  })
+
+  test('rejects HTML taller than the svg form', () => {
+    expect(sniffProjectFile(fileBytes('<!DOCTYPE html><html><body>0</body></html>'), 'svg')).toBe(false)
+  })
+
+  test('empty payload never sniffs true', () => {
+    expect(sniffProjectFile(new Uint8Array(0), 'pdf')).toBe(false)
+  })
+
+  test('unknown extension never sniffs true', () => {
+    expect(sniffProjectFile(fileBytes('%PDF-1.7'), 'txt')).toBe(false)
   })
 })
