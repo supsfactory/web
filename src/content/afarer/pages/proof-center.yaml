@@ -19,13 +19,13 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'The claim-to-evidence chain is: every statement on this site is backed by a registration, a certificate, a machine, a document or a test record — and each of those can be reviewed. SUPsfactory is the SUP product development and manufacturing division of afarer, the manufacturing brand of Qingdao Vatrad Group Co., Ltd. (registered in Qingdao since 2012). The 12,500 m² plant holds ISO 9001:2015 quality management, ISO 25649 compliance, CE conformity documentation, BSCI social compliance (audit report on request) and REACH/RoHS material documentation per order. Every inflatable chamber is tested at 18.0 PSI for 24 hours with auto-reject above 0.50 PSI drop, and batch records are kept under 10-year ERP traceability. The paper trail is published or shareable, and the factory itself is audit-open.'
+  text: 'The claim-to-evidence chain is: every statement on this site is backed by a registration, a certificate, a machine, a document or a test record — and each of those can be reviewed. SUPsfactory is the SUP product development and manufacturing division of afarer, the manufacturing division of Qingdao Vatrad Group Co., Ltd. (registered in Qingdao since 2012). The 12,500 m² plant holds ISO 9001:2015 quality management, ISO 25649 compliance, CE conformity documentation, BSCI social compliance (audit report on request) and REACH/RoHS material documentation per order. Every inflatable chamber is tested at 18.0 PSI for 24 hours with auto-reject above 0.50 PSI drop, and batch records are kept under 10-year ERP traceability. The paper trail is published or shareable, and the factory itself is audit-open.'
   verified: '2026-08'
 
 entities:
   tagline: 'Who Is Behind The Factory'
   title: 'Three Names, One Legal Chain —Nothing Hidden'
-  subtitle: 'The sales side, the manufacturing brand and the legal entity are one chain you can follow from the website to the company register.'
+  subtitle: 'The sales side, the manufacturing division and the legal entity are one chain you can follow from the website to the company register.'
   features:
     - icon: S
       icon_bg: blue
@@ -35,8 +35,8 @@ entities:
       link_label: 'Site entity page'
     - icon: A
       icon_bg: green
-      title: 'afarer — the manufacturing brand'
-      desc: 'The marine manufacturing brand behind the plant: SUP boards, inflatable boats and RIBs produced in the same Qingdao facility. Product and quality documentation is issued under this brand.'
+      title: 'afarer — the manufacturing division'
+      desc: 'The marine manufacturing division behind the plant: SUP boards, inflatable boats and RIBs produced in the same Qingdao facility. Product and quality documentation is issued under this name.'
       link: '/factory'
       link_label: 'Explore the factory'
     - icon: V
@@ -147,7 +147,7 @@ faqs:
     - q: 'Is this page for verification only, and not replacing due diligence?'
       a: 'Correct — this page shows where every claim can be verified: entity registration, certificates, machines, records and an audit-open plant. Your usual due-diligence steps (registration check, audit, third-party inspection) still apply and are welcome.'
     - q: 'Which entity should appear on my order documentation?'
-      a: 'Orders are placed with Qingdao Vatrad Group Co., Ltd., operating as afarer (manufacturing brand), with SUPsfactory as the SUP product line. Contract documents are signed by the Sales VP, the Chief Engineer and the QA Director.'
+      a: 'Orders are placed with Qingdao Vatrad Group Co., Ltd., operating as afarer (manufacturing division), with SUPsfactory as the SUP product line. Contract documents are signed by the Sales VP, the Chief Engineer and the QA Director.'
     - q: 'Can I get copies of the certificates before ordering?'
       a: 'Yes — certificate numbers and audit records are supplied on request or during an audit. The list is published, never "available on request only".'
     - q: 'How do I verify batch test records myself?'

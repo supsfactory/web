@@ -344,7 +344,7 @@ export const en = {
       marketsAustralia: 'SUP OEM — Australia',
       terms: 'Terms', privacy: 'Privacy',
       rights: 'Custom SUP product development & manufacturing partner.',
-      owner: 'Afarer — SUP brand of Qingdao Vatrad Group Co., Ltd.',
+      owner: 'Afarer — SUP manufacturing division of Qingdao Vatrad Group Co., Ltd.',
       compliance: 'All materials comply with CE, REACH and ISO 9001 quality management standards. 100% factory-direct export from our Qingdao, China plant.',
       followUs: 'Follow us', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },
@@ -468,7 +468,7 @@ export const en = {
       intro2:
         'Our 12,500 m² plant in Qingdao, China handles every stage in-house — design, mould engineering, drop-stitch construction, RF welding, printing, assembly and quality testing. We do not sell to end consumers and we do not compete with our clients in any market.',
       intro3:
-        'One factory, three names. Qingdao Vatrad Group Co., Ltd. is the legal entity; Afarer is its manufacturing brand and operates the full-category inflatable product lines on afarer.com; SUPsfactory is the SUP-focused OEM/ODM division you are reading now. Whatever your sourcing team calls us, you reach the same factory floor in Qingdao.',
+        'One factory, three names. Qingdao Vatrad Group Co., Ltd. is the legal entity; Afarer is its manufacturing division and operates the full-category inflatable product lines on afarer.com; SUPsfactory is the SUP-focused OEM/ODM division you are reading now. Whatever your sourcing team calls us, you reach the same factory floor in Qingdao.',
       factsTitle: 'Company Facts',
       servicesTitle: 'What We Manufacture',
       servicesBody: 'Five solution areas cover most custom SUP manufacturing projects:',
@@ -517,7 +517,7 @@ export const en = {
       trustFaqs: [
         {
           q: 'Is SUPsfactory really a factory, or a trading company?',
-          a: 'SUPsfactory is the product development and SUP manufacturing division of Afarer, the manufacturing brand of Qingdao Vatrad Group Co., Ltd. We operate the 12,500 m² plant in Qingdao ourselves — design, cutting, welding, assembly and testing all happen in one facility. There are no intermediaries: the people answering your questions are the people building your boards.',
+          a: 'SUPsfactory is the product development and SUP manufacturing division of Afarer, the manufacturing division of Qingdao Vatrad Group Co., Ltd. We operate the 12,500 m² plant in Qingdao ourselves — design, cutting, welding, assembly and testing all happen in one facility. There are no intermediaries: the people answering your questions are the people building your boards.',
         },
         {
           q: 'Who exactly will I deal with during my project?',

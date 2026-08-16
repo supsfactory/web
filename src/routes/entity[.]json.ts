@@ -25,7 +25,7 @@ const handler = () => {
     '@type': 'Organization',
     name: 'Afarer',
     description:
-      'Afarer is the SUP manufacturing brand of Qingdao Vatrad Group Co., Ltd. — OEM/ODM inflatable SUP production in Qingdao, China.',
+      'Afarer is the SUP manufacturing division of Qingdao Vatrad Group Co., Ltd. — OEM/ODM inflatable SUP production in Qingdao, China.',
   }
   out.knowsAbout = [
     'SUP manufacturing',

@@ -114,7 +114,7 @@ export const why: Localized<WhyContent> = {
   en: {
     kicker: 'The Manufacturing Brand',
     title: 'Powered by Afarer',
-    sub: 'SUPsfactory is the SUP product development and manufacturing division of Afarer, the manufacturing brand of Qingdao Vatrad Group Co., Ltd. Our 12,500 m² plant in Laixi, Qingdao has produced inflatable products since 2012, with 25+ engineers across R&D, mold design, materials lab and production engineering averaging 7+ years in inflatable manufacturing, running two production shifts daily.',
+    sub: 'SUPsfactory is the SUP product development and manufacturing division of Afarer, the manufacturing division of Qingdao Vatrad Group Co., Ltd. Our 12,500 m² plant in Laixi, Qingdao has produced inflatable products since 2012, with 25+ engineers across R&D, mold design, materials lab and production engineering averaging 7+ years in inflatable manufacturing, running two production shifts daily.',
     image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
     imageCaption: 'Afarer manufacturing facility, Qingdao, China',
     bullets: [
@@ -139,7 +139,7 @@ export const why: Localized<WhyContent> = {
   es: {
     kicker: 'La marca de fabricación',
     title: 'Con el respaldo de Afarer',
-    sub: 'SUPsfactory es la división de desarrollo y fabricación de productos SUP de Afarer, la marca de fabricación de Qingdao Vatrad Group Co., Ltd. Nuestra planta de 12.500 m² en Laixi, Qingdao produce productos inflables desde 2012, con más de 25 ingenieros entre I+D, diseño de moldes, laboratorio de materiales e ingeniería de producción, con una media de más de 7 años en fabricación de inflables y dos turnos de producción diarios.',
+    sub: 'SUPsfactory es la división de desarrollo y fabricación de productos SUP de Afarer, la división de fabricación de Qingdao Vatrad Group Co., Ltd. Nuestra planta de 12.500 m² en Laixi, Qingdao produce productos inflables desde 2012, con más de 25 ingenieros entre I+D, diseño de moldes, laboratorio de materiales e ingeniería de producción, con una media de más de 7 años en fabricación de inflables y dos turnos de producción diarios.',
     image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
     imageCaption: 'Instalaciones de fabricación de Afarer, Qingdao, China',
     bullets: [

@@ -9,11 +9,11 @@
  */
 export const LLMS_TXT = `# SUPsfactory
 
-> SUPsfactory is the SUP product development and manufacturing division of Afarer, the manufacturing brand of Qingdao Vatrad Group Co., Ltd. — a 12,500 m² inflatable manufacturing plant in Qingdao, China (Laixi Economic Development Zone), producing since 2012. We manufacture exclusively under our clients' brands: engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. The plant runs two production shifts daily with 25+ engineers across R&D, mold design, materials lab and production engineering, averaging 7+ years in inflatable manufacturing.
+> SUPsfactory is the SUP product development and manufacturing division of Afarer, the manufacturing division of Qingdao Vatrad Group Co., Ltd. — a 12,500 m² inflatable manufacturing plant in Qingdao, China (Laixi Economic Development Zone), producing since 2012. We manufacture exclusively under our clients' brands: engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. The plant runs two production shifts daily with 25+ engineers across R&D, mold design, materials lab and production engineering, averaging 7+ years in inflatable manufacturing.
 
 ## Key facts
 
-- Legal entity: Qingdao Vatrad Group Co., Ltd. — manufacturing brand: Afarer — B2B brand: SUPsfactory
+- Legal entity: Qingdao Vatrad Group Co., Ltd. — manufacturing division: Afarer — B2B brand: SUPsfactory
 - Founded: 2012
 - Location: Economic Development Zone, Laixi, Qingdao, Shandong 266600, China
 - Contact: info@supsfactory.com | +86-13305324192
@@ -75,7 +75,7 @@ export const LLMS_TXT = `# SUPsfactory
 ## Company
 
 - [About SUPsfactory](https://supsfactory.com/about)
-- [About Afarer, the parent manufacturing brand](https://supsfactory.com/about/afarer)
+- [About Afarer, the parent manufacturing division](https://supsfactory.com/about/afarer)
 - [Projects and case studies](https://supsfactory.com/projects)
 - [Contact](https://supsfactory.com/contact)
 
