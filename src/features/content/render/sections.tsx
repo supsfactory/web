@@ -775,12 +775,6 @@ function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
               <span className="pill self-start border-primary/25! bg-soft! text-primary!">{p.sku}</span>
               <h3 className="mt-2.5 font-display text-[16px] font-bold">{p.title}</h3>
               {p.summary && <p className="mt-2 flex-1 text-[13px] leading-relaxed text-fg-2">{p.summary}</p>}
-              {p.price && (
-                <p className="mt-3 text-[15px] font-extrabold text-primary">
-                  ${str(p.price.amount)}
-                  {p.price.note && <span className="ml-2 text-[11.5px] font-medium text-fg-3">{p.price.note}</span>}
-                </p>
-              )}
             </div>
           </a>
         ))}

@@ -25,7 +25,6 @@ export interface AferIndexProduct {
   image?: string
   sku?: string
   summary?: string
-  price?: { amount: string; currency: string; note?: string }
 }
 
 export interface AferIndexTopic {

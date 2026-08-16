@@ -45,12 +45,6 @@ export interface AfarerSpec {
   value: string
 }
 
-export interface AfarerPrice {
-  amount: string
-  currency: string
-  note?: string
-}
-
 export interface AfarerProductMeta {
   title?: string
   description?: string
@@ -67,7 +61,6 @@ export interface AfarerProduct {
   category?: string
   tags?: string[]
   specs?: AfarerSpec[]
-  price?: AfarerPrice
   /** Product-specific FAQ entries (rendered with a shared fallback pool). */
   faqs?: { q: string; a: string }[]
   inStock?: boolean

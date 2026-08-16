@@ -43,7 +43,7 @@ function relatedProducts(
   slug: string,
   selfTags: string[],
   locale: Locale,
-): { slug: string; title: string; image: string; amount?: string }[] {
+): { slug: string; title: string; image: string; }[] {
   const all = getAfarerProducts(locale).filter((p) => p.slug !== slug)
   const tags = new Set(selfTags)
   const scored = all
@@ -53,7 +53,7 @@ function relatedProducts(
   for (const rest of all.filter((p) => !top.some((t) => t.p.slug === p.slug)).slice(0, Math.max(0, 3 - top.length))) {
     top.push({ p: rest, score: 0 })
   }
-  return top.map(({ p }) => ({ slug: p.slug, title: p.title, image: p.image ?? '', amount: p.price?.amount }))
+  return top.map(({ p }) => ({ slug: p.slug, title: p.title, image: p.image ?? '' }))
 }
 
 /** Top-3 related posts by shared category (fallback: newest posts), locale-aware. */
@@ -89,7 +89,6 @@ function indexProducts(locale?: Locale): AferIndexProduct[] {
     image: p.image,
     sku: p.sku,
     summary: p.summary,
-    price: p.price,
   }))
 }
 
