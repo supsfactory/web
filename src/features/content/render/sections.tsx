@@ -173,7 +173,7 @@ const HREF_REMAP: Record<string, string> = {
   '/lifestyle': '/knowledge',
   '/evidence': '/projects',
   '/resources/download-catalog': '/products',
-  '/oem-odm': '/oem-odm-manufacturer',
+  '/oem-odm': '/oem-manufacturing',
   '/brand/afarer': '/about/afarer',
   '/compare': '/inflatable-vs-hardboard',
   '/compare/inflatable-vs-hardboard': '/inflatable-vs-hardboard',

@@ -32,7 +32,7 @@ answer:
       href: /contact
       variant: primary
     - text: 'See OEM Packages'
-      href: /oem-odm-manufacturer
+      href: /oem-manufacturing
       variant: secondary
 stats:
   - value: '25–35'
@@ -82,7 +82,7 @@ faqs:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> paddle and board production share the same <a href="/oem-odm-manufacturer">OEM/ODM program</a> and the same <a href="/factory">12,500 m&sup2; factory floor</a> — one quote covers both.</p>
+    <p><strong>Keep reading:</strong> paddle and board production share the same <a href="/oem-manufacturing">OEM/ODM program</a> and the same <a href="/factory">12,500 m&sup2; factory floor</a> — one quote covers both.</p>
   </div>
 
 geo:

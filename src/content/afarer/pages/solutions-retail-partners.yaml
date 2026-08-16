@@ -89,7 +89,7 @@ support:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> see the full <a href="/oem-odm-manufacturer">OEM/ODM manufacturing program</a> — project-confirmed MOQs across sample, pilot and volume stages, private-label branding and CE compliance — or read the <a href="/oem-moq-guide">MOQ &amp; Flexible Branding Guide</a>, or tour the <a href="/factory">factory</a> to see how retail-ready QC is run.</p>
+    <p><strong>Keep reading:</strong> see the full <a href="/oem-manufacturing">OEM/ODM manufacturing program</a> — project-confirmed MOQs across sample, pilot and volume stages, private-label branding and CE compliance — or read the <a href="/oem-moq-guide">MOQ &amp; Flexible Branding Guide</a>, or tour the <a href="/factory">factory</a> to see how retail-ready QC is run.</p>
   </div>
 
 cta:

@@ -29,9 +29,10 @@ import { Route as ProductDevelopmentRouteImport } from './routes/product-develop
 import { Route as PartnersRouteImport } from './routes/partners'
 import { Route as OemTrustAssuranceRouteImport } from './routes/oem-trust-assurance'
 import { Route as OemPaddleRouteImport } from './routes/oem-paddle'
-import { Route as OemOdmManufacturerRouteImport } from './routes/oem-odm-manufacturer'
 import { Route as OemOdmRouteImport } from './routes/oem-odm'
 import { Route as OemMoqGuideRouteImport } from './routes/oem-moq-guide'
+import { Route as OemManufacturingRouteImport } from './routes/oem-manufacturing'
+import { Route as OdmDevelopmentRouteImport } from './routes/odm-development'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as LlmsFullDottxtRouteImport } from './routes/llms-full[.]txt'
@@ -205,13 +206,6 @@ const OemPaddleRoute = OemPaddleRouteImport.update({
   path: '/oem-paddle',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/oem-paddle.lazy').then((d) => d.Route))
-const OemOdmManufacturerRoute = OemOdmManufacturerRouteImport.update({
-  id: '/oem-odm-manufacturer',
-  path: '/oem-odm-manufacturer',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/oem-odm-manufacturer.lazy').then((d) => d.Route),
-)
 const OemOdmRoute = OemOdmRouteImport.update({
   id: '/oem-odm',
   path: '/oem-odm',
@@ -222,6 +216,20 @@ const OemMoqGuideRoute = OemMoqGuideRouteImport.update({
   path: '/oem-moq-guide',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/oem-moq-guide.lazy').then((d) => d.Route))
+const OemManufacturingRoute = OemManufacturingRouteImport.update({
+  id: '/oem-manufacturing',
+  path: '/oem-manufacturing',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/oem-manufacturing.lazy').then((d) => d.Route),
+)
+const OdmDevelopmentRoute = OdmDevelopmentRouteImport.update({
+  id: '/odm-development',
+  path: '/odm-development',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/odm-development.lazy').then((d) => d.Route),
+)
 const NewsRoute = NewsRouteImport.update({
   id: '/news',
   path: '/news',
@@ -621,9 +629,10 @@ export interface FileRoutesByFullPath {
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
   '/news': typeof NewsRoute
+  '/odm-development': typeof OdmDevelopmentRoute
+  '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
-  '/oem-odm-manufacturer': typeof OemOdmManufacturerRoute
   '/oem-paddle': typeof OemPaddleRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/partners': typeof PartnersRoute
@@ -711,9 +720,10 @@ export interface FileRoutesByTo {
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
   '/news': typeof NewsRoute
+  '/odm-development': typeof OdmDevelopmentRoute
+  '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
-  '/oem-odm-manufacturer': typeof OemOdmManufacturerRoute
   '/oem-paddle': typeof OemPaddleRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/partners': typeof PartnersRoute
@@ -801,9 +811,10 @@ export interface FileRoutesById {
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
   '/news': typeof NewsRoute
+  '/odm-development': typeof OdmDevelopmentRoute
+  '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
-  '/oem-odm-manufacturer': typeof OemOdmManufacturerRoute
   '/oem-paddle': typeof OemPaddleRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/partners': typeof PartnersRoute
@@ -894,9 +905,10 @@ export interface FileRouteTypes {
     | '/llms-full.txt'
     | '/llms.txt'
     | '/news'
+    | '/odm-development'
+    | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
-    | '/oem-odm-manufacturer'
     | '/oem-paddle'
     | '/oem-trust-assurance'
     | '/partners'
@@ -984,9 +996,10 @@ export interface FileRouteTypes {
     | '/llms-full.txt'
     | '/llms.txt'
     | '/news'
+    | '/odm-development'
+    | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
-    | '/oem-odm-manufacturer'
     | '/oem-paddle'
     | '/oem-trust-assurance'
     | '/partners'
@@ -1073,9 +1086,10 @@ export interface FileRouteTypes {
     | '/llms-full.txt'
     | '/llms.txt'
     | '/news'
+    | '/odm-development'
+    | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
-    | '/oem-odm-manufacturer'
     | '/oem-paddle'
     | '/oem-trust-assurance'
     | '/partners'
@@ -1165,9 +1179,10 @@ export interface RootRouteChildren {
   LlmsFullDottxtRoute: typeof LlmsFullDottxtRoute
   LlmsDottxtRoute: typeof LlmsDottxtRoute
   NewsRoute: typeof NewsRoute
+  OdmDevelopmentRoute: typeof OdmDevelopmentRoute
+  OemManufacturingRoute: typeof OemManufacturingRoute
   OemMoqGuideRoute: typeof OemMoqGuideRoute
   OemOdmRoute: typeof OemOdmRoute
-  OemOdmManufacturerRoute: typeof OemOdmManufacturerRoute
   OemPaddleRoute: typeof OemPaddleRoute
   OemTrustAssuranceRoute: typeof OemTrustAssuranceRoute
   PartnersRoute: typeof PartnersRoute
@@ -1340,13 +1355,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OemPaddleRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/oem-odm-manufacturer': {
-      id: '/oem-odm-manufacturer'
-      path: '/oem-odm-manufacturer'
-      fullPath: '/oem-odm-manufacturer'
-      preLoaderRoute: typeof OemOdmManufacturerRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/oem-odm': {
       id: '/oem-odm'
       path: '/oem-odm'
@@ -1359,6 +1367,20 @@ declare module '@tanstack/react-router' {
       path: '/oem-moq-guide'
       fullPath: '/oem-moq-guide'
       preLoaderRoute: typeof OemMoqGuideRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oem-manufacturing': {
+      id: '/oem-manufacturing'
+      path: '/oem-manufacturing'
+      fullPath: '/oem-manufacturing'
+      preLoaderRoute: typeof OemManufacturingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/odm-development': {
+      id: '/odm-development'
+      path: '/odm-development'
+      fullPath: '/odm-development'
+      preLoaderRoute: typeof OdmDevelopmentRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/news': {
@@ -1994,9 +2016,10 @@ const rootRouteChildren: RootRouteChildren = {
   LlmsFullDottxtRoute: LlmsFullDottxtRoute,
   LlmsDottxtRoute: LlmsDottxtRoute,
   NewsRoute: NewsRoute,
+  OdmDevelopmentRoute: OdmDevelopmentRoute,
+  OemManufacturingRoute: OemManufacturingRoute,
   OemMoqGuideRoute: OemMoqGuideRoute,
   OemOdmRoute: OemOdmRoute,
-  OemOdmManufacturerRoute: OemOdmManufacturerRoute,
   OemPaddleRoute: OemPaddleRoute,
   OemTrustAssuranceRoute: OemTrustAssuranceRoute,
   PartnersRoute: PartnersRoute,

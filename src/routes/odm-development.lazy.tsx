@@ -1,7 +1,7 @@
 import { createLazyFileRoute } from '@tanstack/react-router'
 import { AfarerCatchAll } from '@/features/content/catchall'
 
-export const Route = createLazyFileRoute('/oem-odm-manufacturer')({ component: Page })
+export const Route = createLazyFileRoute('/odm-development')({ component: Page })
 
 function Page() {
   const data = Route.useLoaderData()

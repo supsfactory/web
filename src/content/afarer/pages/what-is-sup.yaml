@@ -90,5 +90,5 @@ body: |
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Ready to source boards?</strong> See <a href="/oem-odm-manufacturer">what we can build for your brand</a> and how boards are manufactured at the <a href="/factory">factory</a>.</p>
+    <p><strong>Ready to source boards?</strong> See <a href="/oem-manufacturing">what we can build for your brand</a> and how boards are manufactured at the <a href="/factory">factory</a>.</p>
   </div>

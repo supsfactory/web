@@ -33,4 +33,4 @@ Material selection is validated in-house, not taken from supplier data sheets. P
 
 ## Choosing material for your spec
 
-Whether you know or not, the material choice is a spec decision at the start of the project. Walk the <a href="/factory">factory</a> to see both production lines, compare the two fabrics in our <a href="/research/pvc-vs-hypalon">full research guide</a>, or open an <a href="/oem-odm-manufacturer">OEM/ODM project</a> and let our engineers spec the fabric to your market.
+Whether you know or not, the material choice is a spec decision at the start of the project. Walk the <a href="/factory">factory</a> to see both production lines, compare the two fabrics in our <a href="/research/pvc-vs-hypalon">full research guide</a>, or open an <a href="/oem-manufacturing">OEM/ODM project</a> and let our engineers spec the fabric to your market.

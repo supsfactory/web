@@ -90,5 +90,5 @@ body: |
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>¿Listo para abastecerte de tablas?</strong> Descubre <a href="/oem-odm-manufacturer">lo que podemos fabricar para tu marca</a> y cómo se producen las tablas en la <a href="/factory">fábrica</a>.</p>
+    <p><strong>¿Listo para abastecerte de tablas?</strong> Descubre <a href="/oem-manufacturing">lo que podemos fabricar para tu marca</a> y cómo se producen las tablas en la <a href="/factory">fábrica</a>.</p>
   </div>

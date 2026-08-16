@@ -66,7 +66,7 @@ intelligence_cards:
         value: 'ISO 9001, BSCI, CE, REACH'
       - label: Mercados de exportación
         value: 'Más de 50 países'
-    link: /es/oem-odm-manufacturer
+    link: /es/oem-manufacturing
     link_label: Servicios OEM completos →
   - title: Estándares de inspección de calidad
     icon: I

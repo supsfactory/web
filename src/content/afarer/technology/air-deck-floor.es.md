@@ -17,4 +17,4 @@ El suelo Air Deck es un sistema hinchable de alta presión utilizado en los casc
 
 El air deck se flexiona más que un suelo de madera maciza, pero ofrece la rigidez suficiente para ponerse de pie, pescar y caminar por él, al tiempo que permite que todo el casco se desinfle y se convierta en un paquete de transporte compacto.
 
-La construcción del air deck comparte el mismo proceso de fabricación probado a presión que nuestras tablas: consulta la <a href="/factory">línea de producción</a> y cómo los <a href="/oem-odm-manufacturer">proyectos OEM/ODM</a> pueden especificar sistemas de suelo.
+La construcción del air deck comparte el mismo proceso de fabricación probado a presión que nuestras tablas: consulta la <a href="/factory">línea de producción</a> y cómo los <a href="/oem-manufacturing">proyectos OEM/ODM</a> pueden especificar sistemas de suelo.

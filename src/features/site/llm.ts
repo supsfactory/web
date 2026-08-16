@@ -165,7 +165,8 @@ export function llmSolutionsFull(): string {
 
 /** Display titles for ported pages whose slug labels are not user-facing. */
 const PAGE_TITLES: Record<string, string> = {
-  '/oem-odm': 'OEM/ODM Manufacturing',
+  '/oem-manufacturing': 'OEM Manufacturing',
+  '/odm-development': 'ODM Product Development',
   '/oem-paddle': 'OEM Paddle Boards',
   '/solutions/rental-operators': 'Solutions: Rental Operators',
   '/solutions/retail-partners': 'Solutions: Retail Partners',

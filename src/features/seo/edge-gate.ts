@@ -9,8 +9,12 @@
  * retired (its afarer pages were English duplicates of the en twins).
  */
 export const EDGE_REDIRECTS: Record<string, string> = {
-  '/oem-odm': '/oem-odm-manufacturer',
-  '/zh/oem-odm': '/es/oem-odm-manufacturer',
+  '/oem-odm': '/oem-manufacturing',
+  '/zh/oem-odm': '/es/oem-manufacturing',
+  // P0-4: OEM/ODM split into two focused pages — merged page 301s to OEM keeper
+  '/oem-odm-manufacturer': '/oem-manufacturing',
+  '/es/oem-odm-manufacturer': '/es/oem-manufacturing',
+  '/zh/oem-odm-manufacturer': '/es/oem-manufacturing',
   // P0-4: retire Hifond dealer-recruitment posts (third-party brand leakage) → news hub
   '/news/afarer-supply-chain-2025': '/news',
   '/news/seeking-dealers-for-afarer': '/news',
@@ -18,8 +22,8 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/request-quotation': '/contact',
   '/es/request-quotation': '/es/contact',
   // P1-5: retire French-slug doorways (English content under fr-looking URLs) → closest English page
-  '/fabricant-sup-gonflable': '/oem-odm-manufacturer',
-  '/bateau-gonflable-fabricant': '/oem-odm-manufacturer',
+  '/fabricant-sup-gonflable': '/oem-manufacturing',
+  '/bateau-gonflable-fabricant': '/oem-manufacturing',
   '/fournisseur-nautique': '/solutions/rental-operators',
   // P1-#8: collapse duplicate pages onto their modern keepers (single canonical per topic)
   '/custom': '/product-development',
@@ -114,8 +118,8 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/case-studies': '/projects',
   '/es/case-studies': '/es/projects',
   // P1-9: dead whitepaper PDF links in news articles fold into the OEM landing page
-  '/whitepaper/oem-sup-manufacturing-guide': '/oem-odm-manufacturer',
-  '/es/whitepaper/oem-sup-manufacturing-guide': '/es/oem-odm-manufacturer',
+  '/whitepaper/oem-sup-manufacturing-guide': '/oem-manufacturing',
+  '/es/whitepaper/oem-sup-manufacturing-guide': '/es/oem-manufacturing',
   // consolidated news articles fold into their successor guides
   '/news/sup-oem-shipping-logistics': '/news/private-label-sup-oem-guide',
   '/es/news/sup-oem-shipping-logistics': '/es/news/private-label-sup-oem-guide',
@@ -145,7 +149,7 @@ export function gatePath(pathname: string): EdgeGate {
   const path = pathname.length > 1 && pathname.endsWith('/') ? pathname.replace(/\/+$/, '') : pathname
   if (path !== pathname) {
     // Single-hop: a trailing-slash URL that has a 301 target jumps straight to
-    // the final destination instead of 301 → 301 (e.g. /oem-odm/ → /oem-odm-manufacturer).
+    // the final destination instead of 301 → 301 (e.g. /oem-odm/ → /oem-manufacturing).
     const direct = EDGE_REDIRECTS[path] ?? LEGACY_REDIRECTS[path]
     if (direct) return { action: 'redirect', to: direct }
     return { action: 'slash', to: path }

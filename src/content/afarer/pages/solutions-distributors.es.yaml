@@ -117,7 +117,7 @@ faqs:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Sigue leyendo:</strong> los socios de distribución venden las mismas tablas que fabricamos para <a href="/oem-odm-manufacturer">marcas OEM/etiqueta privada</a> — revisa el programa de fabricación y el proceso de <a href="/factory">calidad de fábrica</a> para que puedas situar el producto con confianza.</p>
+    <p><strong>Sigue leyendo:</strong> los socios de distribución venden las mismas tablas que fabricamos para <a href="/oem-manufacturing">marcas OEM/etiqueta privada</a> — revisa el programa de fabricación y el proceso de <a href="/factory">calidad de fábrica</a> para que puedas situar el producto con confianza.</p>
   </div>
 
 cta:

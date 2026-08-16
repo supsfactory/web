@@ -79,5 +79,5 @@ cta:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Sigue leyendo:</strong> los programas de colaboración comparten un <a href="/oem-odm-manufacturer">motor de fabricación OEM/ODM</a> —las condiciones, los pedidos mínimos de prueba y la personalización quedan definidos allí— y toda la producción pasa por la <a href="/factory">fábrica de 12,500 m&sup2;</a>.</p>
+    <p><strong>Sigue leyendo:</strong> los programas de colaboración comparten un <a href="/oem-manufacturing">motor de fabricación OEM/ODM</a> —las condiciones, los pedidos mínimos de prueba y la personalización quedan definidos allí— y toda la producción pasa por la <a href="/factory">fábrica de 12,500 m&sup2;</a>.</p>
   </div>

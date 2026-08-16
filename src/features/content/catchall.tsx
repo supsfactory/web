@@ -152,6 +152,21 @@ function vatradTechArticleLd(
 
 function productLd(origin: string, product: AfarerProduct, locale: Locale): Record<string, unknown> {
   const abs = (u?: string) => (u ? (u.startsWith('http') ? u : `${origin}${u}`) : undefined)
+  const es = locale === 'es'
+  const b2bProps = [
+    {
+      '@type': 'PropertyValue',
+      name: es ? 'Cantidad mínima de pedido (MOQ)' : 'Minimum order quantity (MOQ)',
+      value: `${FACTS.moq.trialStandard} pilot · ${FACTS.moq.standardRun} standard volume · ${FACTS.moq.customMould} custom mould`,
+    },
+    { '@type': 'PropertyValue', name: es ? 'Plazo de muestra' : 'Sample lead time', value: FACTS.sampleTime },
+    {
+      '@type': 'PropertyValue',
+      name: es ? 'Plazo de producción' : 'Production lead time',
+      value: `${FACTS.leadTime} after confirmed PO and deposit`,
+    },
+    { '@type': 'PropertyValue', name: es ? 'Certificaciones' : 'Certifications', value: FACTS.certifications.join(', ') },
+  ]
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -160,13 +175,24 @@ function productLd(origin: string, product: AfarerProduct, locale: Locale): Reco
     description: brandify(product.description ?? product.summary ?? ''),
     image: abs(product.image) ? [abs(product.image)!] : undefined,
     brand: { '@type': 'Brand', name: 'Afarer' },
-    manufacturer: { '@type': 'Organization', name: 'Qingdao Vatrad Group Co., Ltd.' },
-    ...(locale === 'es' ? { inLanguage: 'es' } : {}),
-    additionalProperty: (product.specs ?? []).map((s) => ({
-      '@type': 'PropertyValue',
-      name: s.label,
-      value: s.value,
-    })),
+    manufacturer: {
+      '@type': 'Organization',
+      '@id': `${origin}/#organization`,
+      name: 'Qingdao Vatrad Group Co., Ltd.',
+    },
+    audience: {
+      '@type': 'BusinessAudience',
+      audienceType: es ? 'Marcas B2B, distribuidores, resorts, clubes y escuelas' : 'B2B brands, distributors, resorts, clubs and schools',
+    },
+    ...(es ? { inLanguage: 'es' } : {}),
+    additionalProperty: [
+      ...b2bProps,
+      ...(product.specs ?? []).map((s) => ({
+        '@type': 'PropertyValue',
+        name: s.label,
+        value: s.value,
+      })),
+    ],
   }
 }
 
@@ -534,7 +560,7 @@ export function ProductView({ product, related, origin, locale }: { product: Afa
             {es ? 'Producción bajo tu marca' : 'Produce This Board Under Your Brand'}
           </h2>
           <div className="mt-6 grid gap-3 sm:grid-cols-3">
-            <a href={fl('/oem-odm-manufacturer')} className="marine-card p-5 transition-colors hover:border-primary/40">
+            <a href={fl('/oem-manufacturing')} className="marine-card p-5 transition-colors hover:border-primary/40">
               <p className="text-[14px] font-bold">{es ? 'OEM / ODM' : 'OEM / ODM Manufacturing'}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {es ? 'Fabricación según tu especificación y muestras' : 'Manufacture to your spec, from sample to batch'}

@@ -21,4 +21,4 @@ El material se somete a pruebas de resistencia a los rayos UV, a la corrosión p
 
 Nuestro tejido de SUP es de 1,680 DTEX con un recubrimiento de tres capas; cada lote se verifica según las normas ISO 1421 (tracción) e ISO 4892 (2 000 horas de clave UV con arco de xenón) en nuestro Laboratorio de Tejido de PVC antes de la producción.
 
-La selección del material comienza con tu especificación: <a href="/oem-odm-manufacturer">personaliza el tejido en la producción OEM</a> o visita el <a href="/quality">laboratorio de ensayo de materiales</a> que respalda estas cifras.
+La selección del material comienza con tu especificación: <a href="/oem-manufacturing">personaliza el tejido en la producción OEM</a> o visita el <a href="/quality">laboratorio de ensayo de materiales</a> que respalda estas cifras.

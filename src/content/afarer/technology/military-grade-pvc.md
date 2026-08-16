@@ -21,4 +21,4 @@ The material is tested for UV resistance, saltwater corrosion, and abrasion —e
 
 Our SUP fabric is 1,680 DTEX with a three-layer coating; every batch is verified to ISO 1421 (tensile) and ISO 4892 (2000-hour xenon-arc UV) in our PVC Fabric Lab before production.
 
-Material selection starts with your spec: <a href="/oem-odm-manufacturer">customize fabric in OEM production</a>, or see the <a href="/quality">material testing lab</a> behind the claims.
+Material selection starts with your spec: <a href="/oem-manufacturing">customize fabric in OEM production</a>, or see the <a href="/quality">material testing lab</a> behind the claims.

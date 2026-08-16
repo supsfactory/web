@@ -32,7 +32,7 @@ answer:
       href: /contact
       variant: primary
     - text: 'Ver los paquetes OEM'
-      href: /oem-odm-manufacturer
+      href: /oem-manufacturing
       variant: secondary
 stats:
   - value: '25–35'
@@ -82,7 +82,7 @@ faqs:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Sigue leyendo:</strong> la producción de paddles y tablas comparte el mismo <a href="/oem-odm-manufacturer">programa OEM/ODM</a> y la misma <a href="/factory">planta de 12,500 m&sup2;</a> — un único presupuesto cubre ambos.</p>
+    <p><strong>Sigue leyendo:</strong> la producción de paddles y tablas comparte el mismo <a href="/oem-manufacturing">programa OEM/ODM</a> y la misma <a href="/factory">planta de 12,500 m&sup2;</a> — un único presupuesto cubre ambos.</p>
   </div>
 
 geo:

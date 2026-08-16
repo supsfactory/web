@@ -67,7 +67,7 @@ fleet_guide:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> rental boards start from your spec — see our <a href="/oem-odm-manufacturer">OEM/ODM program</a> for customization, low trial MOQs and fleet pricing. Every board runs the 12,500 m&sup2; <a href="/factory">production line</a> and is 100% pressure-tested before it ships.</p>
+    <p><strong>Keep reading:</strong> rental boards start from your spec — see our <a href="/oem-manufacturing">OEM/ODM program</a> for customization, low trial MOQs and fleet pricing. Every board runs the 12,500 m&sup2; <a href="/factory">production line</a> and is 100% pressure-tested before it ships.</p>
   </div>
 
 cta:

@@ -23,13 +23,13 @@ const LIVE_ROUTES = new Set([
 ])
 
 test('301 merge of duplicate paths (P0-4)', () => {
-  expect(gatePath('/oem-odm')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
-  expect(gatePath('/zh/oem-odm')).toEqual({ action: 'redirect', to: '/es/oem-odm-manufacturer' })
+  expect(gatePath('/oem-odm')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
+  expect(gatePath('/zh/oem-odm')).toEqual({ action: 'redirect', to: '/es/oem-manufacturing' })
 })
 
 test('French-slug doorways 301 to closest English page (P1-5)', () => {
-  expect(gatePath('/fabricant-sup-gonflable')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
-  expect(gatePath('/bateau-gonflable-fabricant')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
+  expect(gatePath('/fabricant-sup-gonflable')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
+  expect(gatePath('/bateau-gonflable-fabricant')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
   expect(gatePath('/fournisseur-nautique')).toEqual({ action: 'redirect', to: '/solutions/rental-operators' })
 })
 
@@ -112,8 +112,8 @@ test('non-SUP business lines 301 to afarer.com (P1-7)', () => {
 })
 
 test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
-  expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
-  expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
+  expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/odm-development' })
+  expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
   expect(gatePath('/guides/sup-yoga')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/fishing' })
@@ -123,8 +123,8 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   })
   expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/products' })
   expect(gatePath('/es/resources/download-catalog')).toEqual({ action: 'redirect', to: '/es/products' })
-  expect(gatePath('/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/oem-odm-manufacturer' })
-  expect(gatePath('/es/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/es/oem-odm-manufacturer' })
+  expect(gatePath('/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
+  expect(gatePath('/es/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/es/oem-manufacturing' })
   // consolidated news articles 301 to their successor guides
   expect(gatePath('/news/sup-oem-shipping-logistics')).toEqual({
     action: 'redirect',
@@ -237,7 +237,9 @@ test('trailing slash normalised (P0-6)', () => {
 
 test('api/app/admin and plain paths untouched', () => {
   expect(gatePath('/factory').action).toBe('ok')
-  expect(gatePath('/oem-odm-manufacturer').action).toBe('ok')
+  expect(gatePath('/oem-manufacturing').action).toBe('ok')
+  expect(gatePath('/odm-development').action).toBe('ok')
+  expect(gatePath('/oem-odm-manufacturer').action).toBe('redirect')
   expect(gatePath('/api/v1/waitlist').action).toBe('ok')
   expect(gatePath('/app/dashboard').action).toBe('ok')
   expect(gatePath('/admin/users').action).toBe('ok')

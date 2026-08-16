@@ -117,7 +117,7 @@ faqs:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> distribution partners sell the same boards we make for <a href="/oem-odm-manufacturer">OEM/private-label brands</a> — review the manufacturing program and the <a href="/factory">factory quality process</a> so you can position the product with confidence.</p>
+    <p><strong>Keep reading:</strong> distribution partners sell the same boards we make for <a href="/oem-manufacturing">OEM/private-label brands</a> — review the manufacturing program and the <a href="/factory">factory quality process</a> so you can position the product with confidence.</p>
   </div>
 
 cta:

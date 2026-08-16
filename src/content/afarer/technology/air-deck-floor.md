@@ -17,4 +17,4 @@ The Air Deck floor is a high-pressure inflatable system used in Afarer inflatabl
 
 While the air deck flexes more than a solid wood floor, it provides adequate rigidity for standing, fishing, and walking while enabling the entire hull to deflate into a compact transport package.
 
-Air-deck construction shares the same pressure-tested build process as our boards — see the <a href="/factory">production line</a> and how <a href="/oem-odm-manufacturer">OEM/ODM projects</a> can specify floor systems.
+Air-deck construction shares the same pressure-tested build process as our boards — see the <a href="/factory">production line</a> and how <a href="/oem-manufacturing">OEM/ODM projects</a> can specify floor systems.

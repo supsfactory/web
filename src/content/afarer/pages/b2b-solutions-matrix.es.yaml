@@ -75,7 +75,7 @@ solutions:
     - clientType: Distribuidor e importador
       need: Distribución regional
       solutionPage: Socio OEM regional y de cadena de suministro
-      link: /es/oem-odm-manufacturer
+      link: /es/oem-manufacturing
     - clientType: Comprador de proyectos corporativos
       need: Eventos corporativos
       solutionPage: Paquete de eventos SUP corporativos
@@ -130,5 +130,5 @@ cta:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p>Todas las rutas de esta matriz parten de lo mismo: nuestro <a href="/es/oem-odm-manufacturer">programa de fabricación OEM/ODM</a> y la <a href="/es/factory">fábrica</a> — una planta de 12.500 m&sup2;, un mismo estándar de calidad para cada canal.</p>
+    <p>Todas las rutas de esta matriz parten de lo mismo: nuestro <a href="/es/oem-manufacturing">programa de fabricación OEM/ODM</a> y la <a href="/es/factory">fábrica</a> — una planta de 12.500 m&sup2;, un mismo estándar de calidad para cada canal.</p>
   </div>

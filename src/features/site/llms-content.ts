@@ -35,7 +35,8 @@ export const LLMS_TXT = `# SUPsfactory
 - [Resort & hotel SUP equipment](https://supsfactory.com/solutions/resort-sup): branded SUP fleets for waterfront hotels and resorts, with matching accessories and fleet-friendly production runs.
 - [Club & team SUP equipment](https://supsfactory.com/solutions/club-sup): team graphics and specification adjustments for paddle clubs, race teams and events.
 - [School & program SUP equipment](https://supsfactory.com/solutions/school-sup): stable, durable boards for schools, training programs and instruction fleets.
-- [OEM / ODM manufacturing](https://supsfactory.com/oem-odm-manufacturer): full OEM and ODM inflatable SUP manufacturing, from client drawings or co-developed designs.
+- [OEM manufacturing](https://supsfactory.com/oem-manufacturing): manufacture your existing design or spec — engineering review, samples, container-scale runs with compliance documentation.
+- [ODM SUP product development](https://supsfactory.com/odm-development): your brief becomes an engineered hull, graphics and prototype, designed and built in-house.
 - [Request a quotation](https://supsfactory.com/contact): submit board type, size, quantity, printing method, accessories, target market and required launch timing for a project quote.
 
 ## Factory & quality

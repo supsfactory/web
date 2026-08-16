@@ -75,7 +75,7 @@ body: |
       <p class="mt-4 flex flex-wrap justify-center gap-3">
         <a href="/es/factory/quality-inspection" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">El sistema de inspección de 7 puertas</a>
         <a href="/es/oem-moq-guide" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Guía de MOQ y flotas</a>
-        <a href="/es/oem-odm-manufacturer" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Servicios OEM y ODM</a>
+        <a href="/es/oem-manufacturing" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Servicios OEM y ODM</a>
       </p>
     </div>
   </div>

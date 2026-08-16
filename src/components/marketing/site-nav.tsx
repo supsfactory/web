@@ -38,7 +38,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         { label: t('sup.nav.productsDropdown.customizer'), href: '/customizer' },
         { label: t('sup.nav.productsDropdown.oemPaddle'), href: '/oem-paddle' },
         { label: t('sup.nav.oemDropdown.productDevelopment'), href: '/product-development' },
-        { label: t('sup.nav.oemDropdown.manufacturer'), href: '/oem-odm-manufacturer' },
+        { label: t('sup.nav.oemDropdown.manufacturer'), href: '/oem-manufacturing' },
         { label: t('sup.nav.oemDropdown.moqGuide'), href: '/oem-moq-guide' },
         { label: t('sup.nav.oemDropdown.trust'), href: '/oem-trust-assurance' },
         { label: t('sup.nav.oemDropdown.privateLabel'), href: '/solutions/private-label-sup' },

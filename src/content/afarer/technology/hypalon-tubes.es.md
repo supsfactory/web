@@ -33,4 +33,4 @@ La selección de materiales se valida internamente, no se toma de las fichas té
 
 ## Cómo elegir el material para tu especificación
 
-Lo sepas o no, la elección del material es una decisión de especificación al inicio del proyecto. Recorre la <a href="/factory">fábrica</a> para ver ambas líneas de producción, compara los dos tejidos en nuestra <a href="/research/pvc-vs-hypalon">guía de investigación completa</a> o abre un <a href="/oem-odm-manufacturer">proyecto de OEM/ODM</a> y deja que nuestros ingenieros especifiquen el tejido para tu mercado.
+Lo sepas o no, la elección del material es una decisión de especificación al inicio del proyecto. Recorre la <a href="/factory">fábrica</a> para ver ambas líneas de producción, compara los dos tejidos en nuestra <a href="/research/pvc-vs-hypalon">guía de investigación completa</a> o abre un <a href="/oem-manufacturing">proyecto de OEM/ODM</a> y deja que nuestros ingenieros especifiquen el tejido para tu mercado.

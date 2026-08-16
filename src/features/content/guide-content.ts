@@ -52,7 +52,7 @@ export const GUIDES: Guide[] = [
     related: [
       { label: 'Browse our SUP platforms', href: '/products' },
       { label: 'Inflatable vs hardboard', href: '/inflatable-vs-hardboard' },
-      { label: 'OEM manufacturing', href: '/oem-odm-manufacturer' },
+      { label: 'OEM manufacturing', href: '/oem-manufacturing' },
     ],
   },
   {
@@ -186,7 +186,7 @@ export const GUIDES: Guide[] = [
       { q: 'What should a SUP factory quote include?', a: 'Unit price per board, tooling or mould costs, artwork setup, packaging, QC and inspection terms, and payment terms.' },
     ],
     related: [
-      { label: 'Our OEM / ODM manufacturing', href: '/oem-odm-manufacturer' },
+      { label: 'Our OEM / ODM manufacturing', href: '/oem-manufacturing' },
       { label: 'SUP product development process', href: '/product-development' },
       { label: 'Factory capacity and plant', href: '/factory' },
       { label: 'How we control quality — 7 inspection gates', href: '/quality' },
@@ -236,7 +236,7 @@ export const GUIDES: Guide[] = [
     related: [
       { label: 'Private label SUP solutions', href: '/solutions/private-label-sup' },
       { label: 'Browse proven platforms', href: '/products/all-around' },
-      { label: 'OEM / ODM manufacturing', href: '/oem-odm-manufacturer' },
+      { label: 'OEM / ODM manufacturing', href: '/oem-manufacturing' },
       { label: 'Start a custom SUP project', href: '/contact' },
     ],
   },
@@ -320,7 +320,7 @@ export const GUIDES_ES: Guide[] = [
     related: [
       { label: 'Nuestras plataformas de SUP', href: '/products' },
       { label: 'Hinchable vs tabla rígida', href: '/inflatable-vs-hardboard' },
-      { label: 'Fabricación OEM', href: '/oem-odm-manufacturer' },
+      { label: 'Fabricación OEM', href: '/oem-manufacturing' },
     ],
   },
   {
@@ -445,7 +445,7 @@ export const GUIDES_ES: Guide[] = [
       { q: '¿Qué debe incluir una cotización de fábrica de SUP?', a: 'Precio unitario por tabla, costes de utillaje o molde, preparación de arte, embalaje, condiciones de QC e inspección y condiciones de pago.' },
     ],
     related: [
-      { label: 'Nuestra fabricación OEM / ODM', href: '/oem-odm-manufacturer' },
+      { label: 'Nuestra fabricación OEM / ODM', href: '/oem-manufacturing' },
       { label: 'Proceso de desarrollo de producto SUP', href: '/product-development' },
       { label: 'Capacidad de fábrica y planta', href: '/factory' },
       { label: 'Cómo controlamos la calidad — 7 puertas de inspección', href: '/quality' },
@@ -495,7 +495,7 @@ export const GUIDES_ES: Guide[] = [
     related: [
       { label: 'Soluciones de marca privada', href: '/solutions/private-label-sup' },
       { label: 'Plataformas probadas', href: '/products/all-around' },
-      { label: 'Fabricación OEM / ODM', href: '/oem-odm-manufacturer' },
+      { label: 'Fabricación OEM / ODM', href: '/oem-manufacturing' },
       { label: 'Inicia tu proyecto SUP a medida', href: '/contact' },
     ],
   },

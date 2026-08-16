@@ -41,15 +41,15 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/tech-specs': '/technology',
 
   // --- OEM / ODM / manufacturing ---
-  '/odm-sup-board': '/oem-odm-manufacturer',
-  '/oem-sup-board': '/oem-odm-manufacturer',
-  '/oem-process': '/oem-odm-manufacturer',
-  '/sup-manufacturer': '/oem-odm-manufacturer',
+  '/odm-sup-board': '/odm-development',
+  '/oem-sup-board': '/oem-manufacturing',
+  '/oem-process': '/oem-manufacturing',
+  '/sup-manufacturer': '/oem-manufacturing',
 
   // --- Solutions ---
   '/solutions/by-industry': '/solutions',
   '/solutions/by-use-case': '/solutions',
-  '/solutions/oem-brands': '/oem-odm-manufacturer',
+  '/solutions/oem-brands': '/oem-manufacturing',
   '/solutions/diving-center-boats': '/solutions',
   '/solutions/fishing-boat-solutions': '/fishing',
   '/solutions/marine-tourism-equipment': '/tourism-recreation',
