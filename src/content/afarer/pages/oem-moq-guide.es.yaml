@@ -151,6 +151,10 @@ cta:
     - variant: primary
       text: Solicitar Orientación de MOQ
       href: /es/contact#moq-guide
+    - text: Desglose de MOQ y plazos para SUP personalizados
+      href: /es/sup-oem-moq-lead-time
+    - text: Lanza una nueva marca con un pedido de prueba
+      href: /es/new-brand-trial-order
     - text: Verifica la fábrica y el sistema de calidad
       href: /es/oem-trust-assurance
     - text: El sistema de inspección de 7 etapas

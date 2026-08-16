@@ -1,0 +1,214 @@
+meta:
+  title: 'MOQ y Plazos de Entrega para SUP Personalizados: De 1 Muestra a Series de Contenedor'
+  description: 'MOQ y plazos de entrega de SUP personalizados por niveles: muestras en 7–12 días, pedidos piloto de 20–50 tablas, volumen estándar de 90–100+ tablas por rollo de 150 m y producción en 25–35 días. Qingdao Vatrad Group Co., Ltd.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'MOQ SUP personalizado'
+    - 'plazo de entrega producción SUP'
+    - 'cantidad mínima de pedido SUP hinchable'
+    - 'pedido piloto SUP'
+    - 'plazo de entrega tablas de paddle personalizadas'
+    - 'plazo de entrega fábrica OEM SUP'
+    - 'pedido de muestra SUP'
+
+hero:
+  tagline: 'MOQ y Plazos de Entrega para SUP Personalizados'
+  title: 'De 1 Muestra a Series de Contenedor: MOQ y Plazos, Explicados'
+  subtitle: 'Un desglose en lenguaje claro de los niveles de cantidad de pedido y los plazos de producción de SUP hinchables personalizados: qué puedes pedir en cada etapa, cuánto tarda realmente cada etapa y cómo encajan una muestra, un pedido piloto y un pedido de volumen en un mismo proyecto. Diseñado y operado por Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Solicita tu desglose de MOQ y plazos
+      href: /contact#moq-guide
+    - text: La guía de MOQ y branding flexible
+      href: /oem-moq-guide
+
+answer:
+  label: 'Respuesta directa'
+  text: 'El MOQ y los plazos dependen de cada proyecto, pero el marco es fijo. Todo proyecto de SUP personalizado pasa por las mismas etapas escalonadas: desarrollo de muestras (1–2 tablas, listas en 7–12 días), pedidos de prueba y piloto (20–50 tablas) y series de volumen estándar (90–100+ tablas por rollo de tela drop-stitch de 150 m). El plazo de producción es de 25–35 días desde la confirmación del PO y el depósito; si el proyecto necesita un casco a medida, el desarrollo del molde añade 15–20 días antes de iniciar la producción. Así se ve un primer proyecto típico: muestras en unas 1–2 semanas, tablas piloto en 4–6 semanas y la primera serie completa enviándose unas 6–8 semanas después de la confirmación del pedido.'
+  verified: '2026-08'
+
+moq_lead_table:
+  tagline: El Marco
+  title: 'Niveles de MOQ y Plazos de Entrega para SUP Personalizados'
+  subtitle: 'Cada etapa valida la siguiente. Nunca pasas de un dibujo a un contenedor: confirmas el casco, los gráficos y el empaque en cada nivel antes de comprometerte con más tablas.'
+  headers:
+    stage: Etapa del Pedido
+    quantity: Cantidad Típica
+    lead_time: Plazo de Entrega
+    best_for: Ideal Para
+  rows:
+    - stage: 'Desarrollo de muestras'
+      quantity: '1–2 tablas'
+      lead_time: '7–12 días'
+      best_for: 'Validar rigidez del casco, textura de la almohadilla EVA, precisión de los gráficos y ajuste de accesorios. Se aplican tarifas de muestra que se acreditan a tu pedido de producción al firmar el contrato.'
+    - stage: 'Pedido de prueba / piloto'
+      quantity: '20–50 tablas'
+      lead_time: '25–35 días'
+      best_for: 'Pruebas comerciales de pretemporada, validación de mercado y primera rotación de stock usando plataformas de casco existentes, materiales estándar y empaque simplificado.'
+    - stage: 'Serie de volumen estándar'
+      quantity: '90–100+ tablas por rollo de 150 m'
+      lead_time: '25–35 días'
+      best_for: 'Máxima eficiencia de producción con rollos completos de tela de 150 m — cero empalmes de tela, tensión uniforme de fibras y preparación de línea amortizada. Las formas con molde a medida corren en este nivel.'
+    - stage: 'Programa de gran escala'
+      quantity: '300+ tablas'
+      lead_time: '25–35 días por lote, con envíos escalonados'
+      best_for: 'Programas de volumen de contenedor y flotas de temporada, programados en varios lotes de producción para que tu almacén y tu flujo de caja se mantengan manejables.'
+
+moq_drivers:
+  tagline: Qué Determina Tu MOQ
+  title: 'Los Seis Factores Que Deciden Tu Cantidad Mínima'
+  subtitle: 'El MOQ no es un número arbitrario que elige el equipo comercial. Se calcula a partir de la arquitectura completa del producto — estos componentes se evalúan juntos antes de cotizar.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Forma del Casco y Moldes'
+      desc: 'Los moldes de rocker existentes en fábrica permiten pedidos piloto desde 20 tablas. Un casco a medida necesita troqueles de corte CAD y utillaje de termoprensado propios, y el desarrollo del utillaje añade 15–20 días al calendario.'
+    - icon: C
+      icon_bg: green
+      title: 'Colores y PVC'
+      desc: 'Los colores estándar corren en cantidades piloto, mientras que las láminas de PVC teñidas en Pantone propietario requieren tiradas de teñido químico dedicadas con sus propios mínimos de materia prima.'
+    - icon: A
+      icon_bg: purple
+      title: 'Arte y Cobertura de Impresión'
+      desc: 'Un logo en la proa se puede serigrafiar en tiradas pequeñas, mientras que la cobertura total de superficie o el arte multipanel requieren preparación de planchas de impresión digital y pruebas de cobertura, lo que eleva el tamaño práctico del lote.'
+    - icon: B
+      icon_bg: orange
+      title: 'Empaque con Marca'
+      desc: 'Las cajas retail de 5 capas personalizadas tienen un mínimo independiente de impresión offset. Pide menos cajas y almacenamos el sobrante para liberarlo en tus envíos programados.'
+    - icon: G
+      icon_bg: blue
+      title: 'Paquetes de Accesorios'
+      desc: 'Los remos estándar de aluminio o nailon, las bombas y las bolsas siguen lotes de proveedores de nivel inferior. Los remos de carbono y las bombas personalizadas tienen sus propios mínimos de producción.'
+    - icon: S
+      icon_bg: green
+      title: 'Calendario de Temporada y Pagos'
+      desc: 'Los pedidos realizados en la ventana de pretemporada obtienen cupos de producción confirmados. Los calendarios de envío escalonado para programas de 300+ tablas se confirman en el contrato, no después de la producción.'
+
+moq_timeline:
+  tagline: Cronología de Principio a Fin
+  title: 'Del Brief de Producto a Tablas Enviadas: Día a Día'
+  subtitle: 'El calendario completo de un programa típico de SUP personalizado. Las plataformas de casco existentes comprimen el lado izquierdo de esta cronología; un casco a medida añade la etapa de desarrollo del molde.'
+  steps:
+    - step: 'Día 0'
+      title: 'Envía tu Brief de Producto'
+      desc: 'Modelo de tabla, cantidad objetivo, colores, arte y requisitos de empaque. La revisión de ingeniería se completa en un día hábil.'
+    - step: 'Días 1–2'
+      title: 'Revisión de Ingeniería y Viabilidad'
+      desc: 'Nuestro equipo de ingeniería revisa la geometría del casco, los materiales y la ruta de cumplimiento, y confirma si el proyecto usa plataformas existentes o necesita utillaje nuevo.'
+    - step: 'Días 3–7'
+      title: 'Especificación y Cotización Detallada'
+      desc: 'Recibes la especificación completa con el cálculo de MOQ, los segmentos de plazo y los costos desglosados — incluidos los cargos de molde — antes de cualquier compromiso.'
+    - step: 'Días 7–12'
+      title: 'Desarrollo de Muestras (1–2 tablas)'
+      desc: 'Se construye y prueba la muestra física: rigidez del casco, textura de la almohadilla EVA, precisión de gráficos y ajuste de accesorios. Las tarifas de muestra se acreditan al pedido de producción al firmar.'
+    - step: '+15–20 días'
+      title: 'Desarrollo de Molde a Medida (solo cascos a medida)'
+      desc: 'Solo para proyectos con una forma de casco nueva: troqueles de corte CNC, utillaje de termoprensado EVA y pruebas de molde se completan antes de iniciar la producción de volumen.'
+    - step: '25–35 días'
+      title: 'Producción Tras PO y Depósito Confirmados'
+      desc: 'Rollos de tela de 150 m, materiales Pantone, empaque con marca y ensamblaje de 100 puntos. Cada tabla pasa pruebas de presión y hermeticidad durante 24 horas.'
+    - step: '300+ tablas'
+      title: 'Programación de Envíos Escalonados'
+      desc: 'Los programas grandes se envían en lotes programados para ajustarse a la rotación de temporada, la capacidad de almacén y los hitos de pago.'
+    - step: 'Día 0–90'
+      title: 'Horizonte Típico del Primer Pedido'
+      desc: 'Del brief a la primera serie entregada: unas 6–8 semanas con plataformas existentes y 8–12 semanas con molde a medida. Los programas de varios rollos y de contenedor se extienden más allá por diseño.'
+
+expedite:
+  tagline: Mantén el Calendario Corto
+  title: 'Qué Mantiene el Plazo Ajustado'
+  subtitle: 'Tres palancas te permiten comprimir el calendario sin cambiar los fundamentos de la física del rollo.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Muestras Rápidas por Defecto'
+      desc: 'El desarrollo de muestras toma 7–12 días en todos los proyectos. Usa la ronda de muestras para congelar tu especificación y que la producción nunca espere decisiones de arte tardías.'
+    - icon: P
+      icon_bg: green
+      title: 'Cupos de Producción Confirmados por Adelantado'
+      desc: 'Los pedidos de pretemporada bloquean cupos de producción confirmados. Que varios clientes reserven el mismo cupo es exactamente por lo que los depósitos más tempranos obtienen líneas más tempranas.'
+    - icon: T
+      icon_bg: purple
+      title: 'Puertas de Etapa Transparentes'
+      desc: 'Cada puerta — aprobación de muestra, congelación de BOM, congelación de arte, PO y depósito — se acuerda en el contrato con una fecha. Siempre sabes qué día se reinicia el reloj.'
+
+scenarios:
+  tagline: Tres Puntos de Entrada Realistas
+  title: '¿Qué Ruta Encaja con Tu Proyecto?'
+  subtitle: 'La misma fábrica, tres formas distintas de entrar. Elige el escenario más cercano a tu situación y úsalo al contactarnos.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Marca Nueva: Valida Antes de Comprometerte'
+      desc: 'Pide primero 1–2 muestras (7–12 días), prueba la calidad de remada y la fotografía, y luego haz un pedido de prueba de 20–50 tablas para validar la rotación antes de cualquier serie completa. La exposición total de la primera temporada se mantiene por debajo de 50 tablas.'
+    - icon: B
+      icon_bg: blue
+      title: 'Resort u Operador de Alquiler: Piloto y Luego Escala'
+      desc: 'Un pedido piloto de 20–50 tablas con empaque simplificado te sostiene durante la pretemporada. Cuando llegan los datos de utilización, escala a series estándar de 90–100+ tablas con empaque de marca.'
+    - icon: C
+      icon_bg: green
+      title: 'Marca Establecida: Programas de Contenedor Totalmente Personalizados'
+      desc: 'Las marcas consolidadas piden 90–100+ tablas por rollo de 150 m con cascos a medida y branding de superficie completa. El utillaje de molde a medida añade 15–20 días; los programas de 300+ tablas se envían con calendarios escalonados.'
+
+moq_quality:
+  tagline: Control de Calidad y Cumplimiento
+  title: 'El Mismo Sistema de Calidad en Cualquier Tamaño de Pedido'
+  subtitle: 'Una muestra de 1 tabla y un programa de 300+ tablas pasan por las mismas puertas de calidad y la misma documentación de cumplimiento. "MOQ bajo" nunca significa "estándar bajo".'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Documentos de Cumplimiento, a Cualquier Escala'
+      desc: 'La documentación de certificación CE, ISO 9001, BSCI, REACH y RoHS se entrega con cada pedido — incluidas las muestras individuales — con los números de certificado disponibles a petición.'
+    - icon: A
+      icon_bg: green
+      title: 'Lista de Ensamblaje de 100 Puntos'
+      desc: 'Cada tabla pasa la misma lista de ensamblaje de 100 puntos independientemente del tamaño del lote: materiales, soldaduras, válvulas, raíles, aletas y ajuste de accesorios verificados línea por línea.'
+    - icon: P
+      icon_bg: purple
+      title: 'Prueba de Presión y Hermeticidad de 24 Horas'
+      desc: 'Cada tabla se infla a 18.0 PSI y se mantiene 24 horas. Una caída de presión superior a 0.50 PSI provoca el rechazo automático — la misma puerta para una muestra y para un contenedor.'
+    - icon: R
+      icon_bg: orange
+      title: 'Verificación de Soldadura RF y Fusión de Raíles'
+      desc: 'La fusión de cinta de triple capa y las costuras de soldadura RF se verifican visual y dimensionalmente contra la muestra aprobada antes de iniciar cualquier serie de producción.'
+    - icon: B
+      icon_bg: blue
+      title: 'Trazabilidad por Lotes ERP (10 Años)'
+      desc: 'Cada tabla lleva registros de producción numerados en serie — materiales, operadores, pruebas y resultados de inspección — conservados durante 10 años y disponibles para auditoría.'
+    - icon: I
+      icon_bg: green
+      title: 'Listo para Inspección de Terceros'
+      desc: 'La producción por lotes está lista para inspección de terceros en cualquier etapa. La mayoría de los clientes también ejecutan nuestro sistema de inspección de 7 etapas o una inspección previa al envío en programas de volumen.'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Preguntas Frecuentes Sobre MOQ y Plazos de Entrega'
+  items:
+    - q: '¿Cuál es la cantidad mínima de pedido para un SUP personalizado?'
+      a: 'Depende de la etapa de tu proyecto: las muestras son de 1–2 tablas, el co-branding de lotes pequeños parte de 5–10 unidades, los pedidos de prueba y piloto corren de 20–50 tablas, y la producción de volumen estándar corre de 90–100+ tablas por rollo de tela drop-stitch de 150 m. Las formas con molde a medida corren en el nivel de volumen. Confirmamos el cálculo exacto para tu configuración antes de cotizar.'
+    - q: '¿Cuánto tarda una muestra de SUP hinchable?'
+      a: 'El desarrollo de muestras toma 7–12 días. La muestra verifica la rigidez del casco, la textura de la almohadilla EVA, la precisión de los gráficos y el ajuste de accesorios. Se aplican tarifas de muestra que se acreditan a tu pedido de producción al firmar el contrato.'
+    - q: '¿Cuánto tarda la producción después de confirmar el pedido?'
+      a: 'El plazo de producción es de 25–35 días desde el PO confirmado y el depósito. Si tu proyecto incluye un casco a medida, el desarrollo del molde añade 15–20 días de utillaje antes de iniciar la producción.'
+    - q: '¿El MOQ se calcula por pedido, por modelo o por color?'
+      a: 'El MOQ puede aplicarse por modelo, color, versión de arte, configuración de empaque o total del pedido. Como los espesores de drop-stitch y los colores de PVC provienen de rollos de materia prima distintos, pedir 50 tablas repartidas en 5 colores crea 5 requisitos de rollo independientes. Confirmamos el cálculo con tu matriz de SKU.'
+    - q: '¿Puedo empezar con solo 1–2 tablas para probar el mercado?'
+      a: 'Sí. Un pedido de muestra de 1–2 tablas es la validación más barata posible: la rigidez del casco, los gráficos y el ajuste de accesorios se confirman antes de cualquier compromiso financiero con una serie. Desde ahí subes a un pedido de prueba de 20–50 tablas para la validación comercial.'
+    - q: '¿Un programa de 300+ tablas puede enviarse en varios lotes?'
+      a: 'Sí. Los programas de gran escala se pueden programar como envíos escalonados en varios lotes de producción, de modo que las flotas de temporada lleguen cuando se necesitan y el flujo de caja y el espacio de almacén sigan siendo manejables. Los calendarios se confirman en el contrato, no después de la producción.'
+
+cta:
+  title: '¿Quieres Tu MOQ y Tu Plazo Específicos para el Proyecto?'
+  subtitle: 'Envíanos tu modelo de tabla, la cantidad objetivo de la primera temporada y tus requisitos de branding. Nuestro equipo de ingeniería confirmará si encaja una ruta de muestra, prueba o volumen — con el cálculo exacto de MOQ y un calendario día a día. Enviar una consulta no te compromete a un pedido.'
+  actions:
+    - variant: primary
+      text: Solicita tu desglose de MOQ y plazos
+      href: /contact#moq-guide
+    - text: Compáralo con la guía de branding flexible
+      href: /oem-moq-guide
+    - text: Lanza una nueva marca con un pedido de prueba de bajo MOQ
+      href: /new-brand-trial-order
+    - text: Verifica la fábrica y el sistema de calidad
+      href: /oem-trust-assurance

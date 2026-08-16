@@ -55,6 +55,8 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
         <FooterCol title={t('sup.footer.colManufacturing')}>
           <a className="foot-link" href={fl('/oem-manufacturing')}>{t('sup.nav.oemOdm')}</a>
           <a className="foot-link" href={fl('/oem-moq-guide')}>{t('sup.nav.oemDropdown.moqGuide')}</a>
+          <a className="foot-link" href={fl('/sup-oem-moq-lead-time')}>{t('sup.nav.oemDropdown.moqLeadTime')}</a>
+          <a className="foot-link" href={fl('/new-brand-trial-order')}>{t('sup.nav.oemDropdown.newBrandTrial')}</a>
           <a className="foot-link" href={fl('/oem-trust-assurance')}>{t('sup.nav.oemDropdown.trust')}</a>
           <a className="foot-link" href={fl('/factory')}>{t('sup.footer.factory')}</a>
           <a className="foot-link" href={fl('/proof-center')}>{t('sup.nav.manufacturingDropdown.proofCenter')}</a>

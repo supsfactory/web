@@ -1,0 +1,214 @@
+meta:
+  title: 'Custom SUP MOQ & Lead Time: From 1 Sample to Container-Scale Runs'
+  description: 'Custom SUP MOQ and lead time tiers: samples in 7–12 days, pilot orders of 20–50 boards, standard volume of 90–100+ boards per 150 m roll and production in 25–35 days. Qingdao Vatrad Group Co., Ltd.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'custom SUP MOQ'
+    - 'SUP production lead time'
+    - 'inflatable SUP minimum order quantity'
+    - 'SUP pilot order'
+    - 'custom paddle board lead time'
+    - 'OEM SUP factory lead time'
+    - 'SUP sample order'
+
+hero:
+  tagline: 'Custom SUP MOQ & Lead Time'
+  title: 'From 1 Sample to Container-Scale Runs — MOQ and Lead Time, Explained'
+  subtitle: 'A plain-language breakdown of the order quantity tiers and production lead times for custom inflatable SUPs: what you can order at each stage, how long every stage actually takes, and how a sample, pilot and volume order fit into a single project. Engineered and operated by Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Get a Project MOQ & Lead Time Breakdown
+      href: /contact#moq-guide
+    - text: The MOQ & flexible branding guide
+      href: /oem-moq-guide
+
+answer:
+  label: 'Straight answer'
+  text: 'MOQ and lead time are project-specific, but the framework is fixed. Every custom SUP project moves through the same tiered stages: sample development (1–2 boards, ready in 7–12 days), trial and pilot orders (20–50 boards), and standard volume runs (90–100+ boards per 150 m drop-stitch fabric roll). Production lead time is 25–35 days from confirmed PO and deposit; if your project needs a bespoke hull, mould development adds 15–20 days before production begins. So a typical first project looks like this: samples in about 1–2 weeks, pilot boards in 4–6 weeks, and the first full run shipping roughly 6–8 weeks after order confirmation.'
+  verified: '2026-08'
+
+moq_lead_table:
+  tagline: The Framework
+  title: 'Custom SUP MOQ & Lead Time Tiers at a Glance'
+  subtitle: 'Every stage validates the next. You never jump straight from a drawing to a container — you confirm the hull, the graphics and the packaging at each tier before committing to more boards.'
+  headers:
+    stage: Order Stage
+    quantity: Typical Quantity
+    lead_time: Lead Time
+    best_for: Best For
+  rows:
+    - stage: 'Sample development'
+      quantity: '1–2 boards'
+      lead_time: '7–12 days'
+      best_for: 'Validating hull rigidity, EVA traction pad texture, graphic accuracy and accessory fitment. Sample fees apply and are credited toward your production order upon contract sign-off.'
+    - stage: 'Trial / pilot order'
+      quantity: '20–50 boards'
+      lead_time: '25–35 days'
+      best_for: 'Pre-season commercial testing, market validation and first sell-through using existing hull platforms, stock materials and simplified packaging.'
+    - stage: 'Standard volume run'
+      quantity: '90–100+ boards per 150 m roll'
+      lead_time: '25–35 days'
+      best_for: 'Full production efficiency on complete 150 m fabric rolls — zero fabric splicing, uniform fiber tension and amortized line setup. Custom-mould shapes run at this tier.'
+    - stage: 'Large-scale program'
+      quantity: '300+ boards'
+      lead_time: '25–35 days per batch, staggered shipments'
+      best_for: 'Container-scale programs and seasonal fleets, scheduled across multiple production batches so your warehouse and cash flow stay manageable.'
+
+moq_drivers:
+  tagline: What Drives Your MOQ
+  title: 'The Six Factors That Decide Your Minimum Quantity'
+  subtitle: 'MOQ is not a random number a sales team picks. It is calculated from the full product architecture — these components are evaluated together before quotation.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Hull Shape & Tooling'
+      desc: 'Existing factory rocker moulds allow pilot orders from 20 boards. A bespoke hull needs dedicated CAD cutting dies and EVA hot-press tooling, and tooling development adds 15–20 days to the schedule.'
+    - icon: C
+      icon_bg: green
+      title: 'Colorways & PVC'
+      desc: 'Standard stock colors run in pilot quantities, while proprietary Pantone-dyed PVC sheets require dedicated chemical dyeing runs with their own raw material minimums.'
+    - icon: A
+      icon_bg: purple
+      title: 'Artwork & Print Coverage'
+      desc: 'A nose logo can be screen-printed in small runs, while full-surface or multi-panel artwork needs digital printing plate-up and coverage testing, which raises the practical batch size.'
+    - icon: B
+      icon_bg: orange
+      title: 'Branded Packaging'
+      desc: 'Custom 5-ply retail gift boxes carry an independent offset printing press minimum. Order fewer boxes and we store the surplus and release it across your scheduled shipments.'
+    - icon: G
+      icon_bg: blue
+      title: 'Accessory Packages'
+      desc: 'Standard aluminum or nylon paddles, pumps and bags follow sub-tier supplier batches. Fully branded carbon paddles and custom pumps follow their own production minimums.'
+    - icon: S
+      icon_bg: green
+      title: 'Season & Payment Scheduling'
+      desc: 'Orders placed in the pre-season window get confirmed production slots. Staggered shipment schedules for 300+ board programs are confirmed at contract, not after production.'
+
+moq_timeline:
+  tagline: End-to-End Timeline
+  title: 'From Product Brief to Shipped Boards: Day by Day'
+  subtitle: 'The full schedule for a typical custom SUP program. Existing hull platforms compress into the left side of this timeline; a bespoke hull adds the mould development stage.'
+  steps:
+    - step: 'Day 0'
+      title: 'Submit Your Product Brief'
+      desc: 'Board model, target quantity, colorways, artwork and packaging requirements. Engineering review is completed within one business day.'
+    - step: 'Days 1–2'
+      title: 'Engineering Review & Feasibility'
+      desc: 'Our engineering team checks hull geometry, materials and compliance path, and confirms whether the project fits existing platforms or needs new tooling.'
+    - step: 'Days 3–7'
+      title: 'Specification & Itemized Quotation'
+      desc: 'You receive the full specification with MOQ calculation, lead time segments and itemized costs — including any mould fees — before any commitment.'
+    - step: 'Days 7–12'
+      title: 'Sample Development (1–2 boards)'
+      desc: 'Physical sample built and tested: hull rigidity, EVA traction pad texture, graphic accuracy and accessory fitment. Sample fees are credited toward the production order on sign-off.'
+    - step: '+15–20 days'
+      title: 'Custom Mould Development (bespoke hulls only)'
+      desc: 'Only for projects with a new hull shape: CNC cutting dies, EVA hot-press tooling and mould trials are completed before volume production can start.'
+    - step: '25–35 days'
+      title: 'Production After Confirmed PO & Deposit'
+      desc: 'Full 150 m fabric rolls, Pantone materials, branded packaging and 100-point assembly. Every board runs through 24-hour pressure and airtightness testing.'
+    - step: '300+ boards'
+      title: 'Staggered Shipment Scheduling'
+      desc: 'Large programs ship across scheduled batches to match seasonal sell-through, warehouse capacity and payment milestones.'
+    - step: 'Day 0–90'
+      title: 'Typical First-Order Horizon'
+      desc: 'From brief to delivered first run: roughly 6–8 weeks using existing platforms, 8–12 weeks including a custom mould. Multi-roll and container programs extend beyond that by design.'
+
+expedite:
+  tagline: Keep the Schedule Short
+  title: 'What Keeps Lead Time Tight'
+  subtitle: 'Three levers let you compress the timeline without changing the fundamentals of roll physics.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Samples Are Fast by Default'
+      desc: 'Sample development takes 7–12 days on every project. Use the sample round to freeze your spec so production never waits on late artwork decisions.'
+    - icon: P
+      icon_bg: green
+      title: 'Production Slots Are Confirmed Upfront'
+      desc: 'Pre-season orders lock confirmed production slots. Multiple clients booking the same slot is exactly why earlier deposits get earlier lines.'
+    - icon: T
+      icon_bg: purple
+      title: 'Transparent Stage Gates'
+      desc: 'Every gate — sample approval, BOM freeze, artwork freeze, PO and deposit — is agreed at contract with a date. You always know which day the clock restarts.'
+
+scenarios:
+  tagline: Three Realistic Entry Points
+  title: 'Which Route Fits Your Project?'
+  subtitle: 'The same factory, three different ways in. Pick the scenario closest to your situation and use it when you contact us.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Startup Brand: Validate Before You Commit'
+      desc: 'Order 1–2 samples first (7–12 days), test ride quality and photography, then place a trial order of 20–50 boards to test sell-through before any full run. Total first-season exposure stays under 50 boards.'
+    - icon: B
+      icon_bg: blue
+      title: 'Resort or Rental Operator: Pilot, Then Scale'
+      desc: 'A pilot order of 20–50 boards with simplified packaging carries you through the pre-season. After utilization data comes back, scale into standard 90–100+ board runs with branded packaging.'
+    - icon: C
+      icon_bg: green
+      title: 'Established Brand: Full-Custom Container Programs'
+      desc: 'Existing brands order 90–100+ boards per 150 m roll with bespoke hulls and full-surface branding. Custom mould tooling adds 15–20 days; 300+ board programs ship on staggered schedules.'
+
+moq_quality:
+  tagline: QC & Compliance
+  title: 'The Same Quality System at Every Order Size'
+  subtitle: 'A 1-board sample and a 300+ board program run through the same quality gates and the same compliance documentation. "Low MOQ" never means "low standard".'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Compliance Documents, Any Scale'
+      desc: 'CE, ISO 9001, BSCI, REACH and RoHS certification documentation is provided with every order — including single samples — with certificate numbers supplied on request.'
+    - icon: A
+      icon_bg: green
+      title: '100-Point Assembly Checklist'
+      desc: 'Every board passes the same 100-point assembly checklist regardless of batch size: materials, welding, valves, rails, fins and accessory fitment checked line by line.'
+    - icon: P
+      icon_bg: purple
+      title: '24-Hour Pressure & Airtightness Testing'
+      desc: 'Every board is inflated to 18.0 PSI and held for 24 hours. A pressure drop above 0.50 PSI triggers automatic rejection — the same gate for a sample and a container.'
+    - icon: R
+      icon_bg: orange
+      title: 'RF Welding & Rail Fusion Verification'
+      desc: 'Triple-layer rail band fusion and RF welding seams are visually and dimensionally verified against the approved sample before any production run starts.'
+    - icon: B
+      icon_bg: blue
+      title: 'ERP Batch Traceability (10 Years)'
+      desc: 'Every board carries serial-numbered production records — materials, operators, tests and inspection results — retained for 10 years and available for audit.'
+    - icon: I
+      icon_bg: green
+      title: 'Third-Party Inspection Ready'
+      desc: 'Batch production is ready for third-party inspection at any stage. Most clients also run our 7-stage inspection system or a pre-shipment inspection on volume programs.'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Frequently Asked Questions About MOQ & Lead Time'
+  items:
+    - q: 'What is the minimum order quantity for a custom SUP?'
+      a: 'It depends on the stage of your project: samples are 1–2 boards, co-branding small bulk starts at 5–10 units, trial and pilot orders run 20–50 boards, and standard volume production runs 90–100+ boards per 150 m drop-stitch fabric roll. Custom-mould shapes run at the volume tier. We confirm the exact calculation for your configuration before quotation.'
+    - q: 'How long does an inflatable SUP sample take?'
+      a: 'Sample development takes 7–12 days. The sample verifies hull rigidity, EVA traction pad texture, graphic accuracy and accessory fitment. Sample fees apply and are credited toward your production order upon contract sign-off.'
+    - q: 'How long does production take after I confirm the order?'
+      a: 'Production lead time is 25–35 days from confirmed PO and deposit. If your project includes a bespoke hull, custom mould development adds 15–20 days of tooling before production begins.'
+    - q: 'Is MOQ calculated per order, per model or per colorway?'
+      a: 'MOQ may apply per model, colorway, artwork version, packaging configuration or total order. Because different drop-stitch thicknesses and PVC colors come from distinct raw material rolls, ordering 50 boards split across 5 colors creates 5 separate fabric roll requirements. We confirm the calculation against your SKU matrix.'
+    - q: 'Can I start with just 1–2 boards to test the market?'
+      a: 'Yes. A 1–2 board sample order is the cheapest possible validation: hull rigidity, graphics and accessory fitment are confirmed before any financial commitment to a run. From there you step up to a 20–50 board trial order for commercial validation.'
+    - q: 'Can a 300+ board program ship in multiple batches?'
+      a: 'Yes. Large-scale programs can be scheduled as staggered shipments across production batches, so seasonal fleets arrive when needed and cash flow and warehouse space stay manageable. Schedules are confirmed at contract, not after production.'
+
+cta:
+  title: 'Get Your Project-Specific MOQ & Lead Time?'
+  subtitle: 'Send us your board model, target first-season quantity and branding requirements. Our engineering team will confirm whether a sample, trial or volume route fits — with the exact MOQ calculation and a day-by-day schedule. Submitting an inquiry does not commit you to an order.'
+  actions:
+    - variant: primary
+      text: Request a MOQ & Lead Time Breakdown
+      href: /contact#moq-guide
+    - text: Measure against the flexible branding guide
+      href: /oem-moq-guide
+    - text: Launch a new brand with a low-MOQ trial order
+      href: /new-brand-trial-order
+    - text: Verify the factory & quality system
+      href: /oem-trust-assurance

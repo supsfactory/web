@@ -36,6 +36,8 @@ export const LLMS_TXT = `# SUPsfactory
 - [Club & team SUP equipment](https://supsfactory.com/solutions/club-sup): team graphics and specification adjustments for paddle clubs, race teams and events.
 - [School & program SUP equipment](https://supsfactory.com/solutions/school-sup): stable, durable boards for schools, training programs and instruction fleets.
 - [OEM manufacturing](https://supsfactory.com/oem-manufacturing): manufacture your existing design or spec — engineering review, samples, container-scale runs with compliance documentation.
+- [Custom SUP MOQ & lead time](https://supsfactory.com/sup-oem-moq-lead-time): the MOQ and lead-time framework — samples (1–2 boards, 7–12 days), trial/pilot orders (20–50 boards), standard volume (90–100+ boards per 150 m roll) and production in 25–35 days.
+- [Launch a SUP brand with a low-MOQ trial order](https://supsfactory.com/new-brand-trial-order): launch path for new brands — samples, a 20–50 board trial order, indicative price ranges and the guaranteed route to volume runs.
 - [ODM SUP product development](https://supsfactory.com/odm-development): your brief becomes an engineered hull, graphics and prototype, designed and built in-house.
 - [Request a quotation](https://supsfactory.com/contact): submit board type, size, quantity, printing method, accessories, target market and required launch timing for a project quote.
 
@@ -63,6 +65,8 @@ export const LLMS_TXT = `# SUPsfactory
 - [OEM buyer guide — sourcing inflatable watercraft from Asia](https://supsfactory.com/research/oem-buyer-guide)
 - [How SUP OEM MOQ and pricing work — the MOQ tiers (trial, standard batch, custom mould) and the cost drivers that decide unit price](https://supsfactory.com/news/sup-oem-moq-pricing)
 - [Flexible co-branding SUP — small-batch branding without standard-volume MOQs](https://supsfactory.com/news/flexible-sup-co-branding)
+- [Sample vs trial vs mass production SUP orders — when to use each order stage](https://supsfactory.com/news/sample-vs-trial-vs-mass-production-sup)
+- [Quality records to audit at an SUP OEM factory — the 14 checkpoints](https://supsfactory.com/news/quality-records-audit-sup-oem)
 - [SUP rental business guide — fleet costs, pricing strategy and profit margins](https://supsfactory.com/news/sup-rental-business-guide)
 - [Private label vs OEM SUP manufacturing — cost, MOQ and lead time](https://supsfactory.com/news/private-label-vs-oem-sup)
 - [SUP manufacturing process explained](https://supsfactory.com/news/sup-manufacturing-process)

@@ -278,6 +278,37 @@
     - { key: moq_faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
+- slug: sup-oem-moq-lead-time
+  label: Custom SUP MOQ & Lead Time
+  path: /sup-oem-moq-lead-time
+  permalink: /sup-oem-moq-lead-time
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: moq_lead_table, type: table, label: 'MOQ & Lead Time Tiers Table' }
+    - { key: moq_drivers, type: features, label: 'Six MOQ Drivers' }
+    - { key: moq_timeline, type: steps, label: 'End-to-End Timeline' }
+    - { key: expedite, type: features, label: 'Lead-Time Levers' }
+    - { key: scenarios, type: features, label: 'Three Entry-Point Scenarios' }
+    - { key: moq_quality, type: features, label: 'QC & Compliance Cards' }
+    - { key: moq_faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: new-brand-trial-order
+  label: New-Brand Trial Order
+  path: /new-brand-trial-order
+  permalink: /new-brand-trial-order
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: trial_included, type: features, label: 'What the Trial Order Includes' }
+    - { key: trial_steps, type: steps, label: 'Six-Gate Launch Roadmap' }
+    - { key: trial_budget, type: table, label: 'Indicative Price Ranges' }
+    - { key: derisk, type: features, label: 'De-Risking Cards' }
+    - { key: scale_path, type: steps, label: 'After the Trial Path' }
+    - { key: trial_faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
 - slug: oem-trust-assurance
   label: OEM Trust & Factory Assurance
   path: /oem-trust-assurance

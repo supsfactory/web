@@ -151,6 +151,10 @@ cta:
     - variant: primary
       text: Request Project MOQ Guidance
       href: /contact#moq-guide
+    - text: Custom SUP MOQ & lead time breakdown
+      href: /sup-oem-moq-lead-time
+    - text: Launch a new brand with a trial order
+      href: /new-brand-trial-order
     - text: Verify the factory & quality system
       href: /oem-trust-assurance
     - text: The 7-stage inspection system

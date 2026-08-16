@@ -40,6 +40,8 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         { label: t('sup.nav.oemDropdown.productDevelopment'), href: '/product-development' },
         { label: t('sup.nav.oemDropdown.manufacturer'), href: '/oem-manufacturing' },
         { label: t('sup.nav.oemDropdown.moqGuide'), href: '/oem-moq-guide' },
+        { label: t('sup.nav.oemDropdown.moqLeadTime'), href: '/sup-oem-moq-lead-time' },
+        { label: t('sup.nav.oemDropdown.newBrandTrial'), href: '/new-brand-trial-order' },
         { label: t('sup.nav.oemDropdown.trust'), href: '/oem-trust-assurance' },
         { label: t('sup.nav.oemDropdown.privateLabel'), href: '/solutions/private-label-sup' },
       ],

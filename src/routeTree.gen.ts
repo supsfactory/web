@@ -13,6 +13,7 @@ import { Route as WhatIsSupRouteImport } from './routes/what-is-sup'
 import { Route as WarrantyRouteImport } from './routes/warranty'
 import { Route as TourismRecreationRouteImport } from './routes/tourism-recreation'
 import { Route as TechnologyRouteImport } from './routes/technology'
+import { Route as SupOemMoqLeadTimeRouteImport } from './routes/sup-oem-moq-lead-time'
 import { Route as SizeGuideRouteImport } from './routes/size-guide'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as SitemapProductsDotxmlRouteImport } from './routes/sitemap-products[.]xml'
@@ -34,6 +35,7 @@ import { Route as OemMoqGuideRouteImport } from './routes/oem-moq-guide'
 import { Route as OemManufacturingRouteImport } from './routes/oem-manufacturing'
 import { Route as OdmDevelopmentRouteImport } from './routes/odm-development'
 import { Route as NewsRouteImport } from './routes/news'
+import { Route as NewBrandTrialOrderRouteImport } from './routes/new-brand-trial-order'
 import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as LlmsFullDottxtRouteImport } from './routes/llms-full[.]txt'
 import { Route as KnowledgeRouteImport } from './routes/knowledge'
@@ -122,6 +124,11 @@ const TechnologyRoute = TechnologyRouteImport.update({
   path: '/technology',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/technology.lazy').then((d) => d.Route))
+const SupOemMoqLeadTimeRoute = SupOemMoqLeadTimeRouteImport.update({
+  id: '/sup-oem-moq-lead-time',
+  path: '/sup-oem-moq-lead-time',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SizeGuideRoute = SizeGuideRouteImport.update({
   id: '/size-guide',
   path: '/size-guide',
@@ -235,6 +242,11 @@ const NewsRoute = NewsRouteImport.update({
   path: '/news',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/news.lazy').then((d) => d.Route))
+const NewBrandTrialOrderRoute = NewBrandTrialOrderRouteImport.update({
+  id: '/new-brand-trial-order',
+  path: '/new-brand-trial-order',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LlmsDottxtRoute = LlmsDottxtRouteImport.update({
   id: '/llms.txt',
   path: '/llms.txt',
@@ -628,6 +640,7 @@ export interface FileRoutesByFullPath {
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
+  '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
   '/odm-development': typeof OdmDevelopmentRoute
   '/oem-manufacturing': typeof OemManufacturingRoute
@@ -649,6 +662,7 @@ export interface FileRoutesByFullPath {
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
+  '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
   '/tourism-recreation': typeof TourismRecreationRoute
   '/warranty': typeof WarrantyRoute
@@ -719,6 +733,7 @@ export interface FileRoutesByTo {
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
+  '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
   '/odm-development': typeof OdmDevelopmentRoute
   '/oem-manufacturing': typeof OemManufacturingRoute
@@ -740,6 +755,7 @@ export interface FileRoutesByTo {
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
+  '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
   '/tourism-recreation': typeof TourismRecreationRoute
   '/warranty': typeof WarrantyRoute
@@ -810,6 +826,7 @@ export interface FileRoutesById {
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
+  '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
   '/odm-development': typeof OdmDevelopmentRoute
   '/oem-manufacturing': typeof OemManufacturingRoute
@@ -831,6 +848,7 @@ export interface FileRoutesById {
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
+  '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
   '/tourism-recreation': typeof TourismRecreationRoute
   '/warranty': typeof WarrantyRoute
@@ -904,6 +922,7 @@ export interface FileRouteTypes {
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
+    | '/new-brand-trial-order'
     | '/news'
     | '/odm-development'
     | '/oem-manufacturing'
@@ -925,6 +944,7 @@ export interface FileRouteTypes {
     | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/size-guide'
+    | '/sup-oem-moq-lead-time'
     | '/technology'
     | '/tourism-recreation'
     | '/warranty'
@@ -995,6 +1015,7 @@ export interface FileRouteTypes {
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
+    | '/new-brand-trial-order'
     | '/news'
     | '/odm-development'
     | '/oem-manufacturing'
@@ -1016,6 +1037,7 @@ export interface FileRouteTypes {
     | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/size-guide'
+    | '/sup-oem-moq-lead-time'
     | '/technology'
     | '/tourism-recreation'
     | '/warranty'
@@ -1085,6 +1107,7 @@ export interface FileRouteTypes {
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
+    | '/new-brand-trial-order'
     | '/news'
     | '/odm-development'
     | '/oem-manufacturing'
@@ -1106,6 +1129,7 @@ export interface FileRouteTypes {
     | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/size-guide'
+    | '/sup-oem-moq-lead-time'
     | '/technology'
     | '/tourism-recreation'
     | '/warranty'
@@ -1178,6 +1202,7 @@ export interface RootRouteChildren {
   KnowledgeRoute: typeof KnowledgeRoute
   LlmsFullDottxtRoute: typeof LlmsFullDottxtRoute
   LlmsDottxtRoute: typeof LlmsDottxtRoute
+  NewBrandTrialOrderRoute: typeof NewBrandTrialOrderRoute
   NewsRoute: typeof NewsRoute
   OdmDevelopmentRoute: typeof OdmDevelopmentRoute
   OemManufacturingRoute: typeof OemManufacturingRoute
@@ -1199,6 +1224,7 @@ export interface RootRouteChildren {
   SitemapProductsDotxmlRoute: typeof SitemapProductsDotxmlRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   SizeGuideRoute: typeof SizeGuideRoute
+  SupOemMoqLeadTimeRoute: typeof SupOemMoqLeadTimeRoute
   TechnologyRoute: typeof TechnologyRoute
   TourismRecreationRoute: typeof TourismRecreationRoute
   WarrantyRoute: typeof WarrantyRoute
@@ -1241,6 +1267,13 @@ declare module '@tanstack/react-router' {
       path: '/technology'
       fullPath: '/technology'
       preLoaderRoute: typeof TechnologyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sup-oem-moq-lead-time': {
+      id: '/sup-oem-moq-lead-time'
+      path: '/sup-oem-moq-lead-time'
+      fullPath: '/sup-oem-moq-lead-time'
+      preLoaderRoute: typeof SupOemMoqLeadTimeRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/size-guide': {
@@ -1388,6 +1421,13 @@ declare module '@tanstack/react-router' {
       path: '/news'
       fullPath: '/news'
       preLoaderRoute: typeof NewsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/new-brand-trial-order': {
+      id: '/new-brand-trial-order'
+      path: '/new-brand-trial-order'
+      fullPath: '/new-brand-trial-order'
+      preLoaderRoute: typeof NewBrandTrialOrderRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/llms.txt': {
@@ -2015,6 +2055,7 @@ const rootRouteChildren: RootRouteChildren = {
   KnowledgeRoute: KnowledgeRoute,
   LlmsFullDottxtRoute: LlmsFullDottxtRoute,
   LlmsDottxtRoute: LlmsDottxtRoute,
+  NewBrandTrialOrderRoute: NewBrandTrialOrderRoute,
   NewsRoute: NewsRoute,
   OdmDevelopmentRoute: OdmDevelopmentRoute,
   OemManufacturingRoute: OemManufacturingRoute,
@@ -2036,6 +2077,7 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapProductsDotxmlRoute: SitemapProductsDotxmlRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   SizeGuideRoute: SizeGuideRoute,
+  SupOemMoqLeadTimeRoute: SupOemMoqLeadTimeRoute,
   TechnologyRoute: TechnologyRoute,
   TourismRecreationRoute: TourismRecreationRoute,
   WarrantyRoute: WarrantyRoute,
