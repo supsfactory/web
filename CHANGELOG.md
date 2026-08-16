@@ -39,9 +39,21 @@ and this project aims to follow [Semantic Versioning](https://semver.org/spec/v2
   PNG/JPG/SVG/WebP/PDF/AI/PSD/DWG/DXF/ZIP up to 10 MB, gated by an extension
   whitelist shared between form and server plus per-format magic-number
   sniffing (SVG must contain a real `<svg>` element). R2 keys moved to
-  `inquiry-files/{id}.{ext}` (one object per inquiry, old uploads cleared on
-  re-submit); legacy `inquiry-logos/` keys stay readable for admins. The admin
-  detail view renders images inline and offers a download link for the rest.
+  `inquiry-files/{id}.{ext}` (one object per inquiry, old uploads — including
+  legacy `inquiry-logos/` keys — cleared on re-submit); form errors now name
+  the exact problem (empty / unsupported type / too large), admin mail and
+  tables show the file type, downloads carry real filenames
+  (`Content-Disposition`: images inline, the rest force-downloaded), and the
+  CSV export column is `file`. Legacy `inquiry-logos/` keys stay readable for
+  admins. The admin detail view renders images inline and offers a download
+  link for the rest.
+- **AEO/GEO surfaces brought current** — `entity.json` now serves a
+  SUPsfactory-specific `description` (plant scale, MOQ tiers, lead times) and a
+  `subjectOf` graph covering the factory evidence, factory, quality, MOQ/lead-time
+  and trial-order pages; page titles added for the new registry pages in
+  `/llms.txt`; `llms.txt` company card links the entity hub and documents the
+  inquiry form's project-file upload; the entity hub's fact card shows the
+  current tiered MOQ (1–2 samples / 20–50 trial / 90–100+ volume) en+es.
 - **SEO meta spec enforced** — news titles/excerpts, product meta (26 files) and
   YAML page meta (34 files) trimmed to `title ≤ 70` / `description 80–170` chars,
   bilingual; sitemap `lastmod` derived from page meta.

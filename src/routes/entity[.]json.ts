@@ -21,6 +21,8 @@ const handler = () => {
   if (typeof out['@id'] === 'string') out['@id'] = `${origin}/#organization`
   if (typeof out.url === 'string') out.url = origin
   out.name = 'SUPsfactory'
+  out.description =
+    'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.) — a 12,500 m² inflatable SUP plant in Qingdao, China, producing since 2012. OEM, ODM and private-label manufacturing: engineering, tooling, sampling, production and export; tiered MOQ from 1–2 sample boards to 90–100+ boards per 150 m roll, samples in 7–12 days and bulk production in 25–35 days.'
   out.parentOrganization = {
     '@type': 'Organization',
     name: 'Afarer',
@@ -38,9 +40,18 @@ const handler = () => {
     'resort SUP equipment',
     'club SUP equipment',
     'school SUP equipment',
+    'SUP MOQ tiers',
+    'SUP production lead time',
+    'SUP quality control',
+    'factory audit',
   ]
   out.subjectOf = [
     { '@type': 'WebPage', name: 'Company entity', url: `${origin}/about/supsfactory-entity` },
+    { '@type': 'WebPage', name: 'Proof Center — factory evidence', url: `${origin}/proof-center` },
+    { '@type': 'WebPage', name: 'Factory & manufacturing capability', url: `${origin}/factory` },
+    { '@type': 'WebPage', name: 'Quality, testing & certifications', url: `${origin}/quality` },
+    { '@type': 'WebPage', name: 'Custom SUP MOQ & lead time', url: `${origin}/sup-oem-moq-lead-time` },
+    { '@type': 'WebPage', name: 'New-brand trial order', url: `${origin}/new-brand-trial-order` },
     { '@type': 'CollectionPage', name: 'Projects', url: `${origin}/projects` },
     { '@type': 'CollectionPage', name: 'Knowledge Center', url: `${origin}/knowledge` },
   ]

@@ -172,6 +172,11 @@ const PAGE_TITLES: Record<string, string> = {
   '/solutions/retail-partners': 'Solutions: Retail Partners',
   '/solutions/distributors': 'Solutions: Distributors',
   '/b2b-solutions-matrix': 'B2B Solutions Matrix',
+  '/sup-oem-moq-lead-time': 'Custom SUP MOQ & Lead Time',
+  '/new-brand-trial-order': 'New-Brand Trial Order',
+  '/oem-moq-guide': 'MOQ & Flexible Branding Guide',
+  '/oem-trust-assurance': 'OEM Trust & Factory Assurance',
+  '/what-is-sup': 'What is SUP',
 }
 
 /** `/llms.txt` index sections link to absolute URLs (llmstxt.org) so LLMs can explore directly. */

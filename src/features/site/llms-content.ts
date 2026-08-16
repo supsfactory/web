@@ -39,7 +39,7 @@ export const LLMS_TXT = `# SUPsfactory
 - [Custom SUP MOQ & lead time](https://supsfactory.com/sup-oem-moq-lead-time): the MOQ and lead-time framework — samples (1–2 boards, 7–12 days), trial/pilot orders (20–50 boards), standard volume (90–100+ boards per 150 m roll) and production in 25–35 days.
 - [Launch a SUP brand with a low-MOQ trial order](https://supsfactory.com/new-brand-trial-order): launch path for new brands — samples, a 20–50 board trial order, indicative price ranges and the guaranteed route to volume runs.
 - [ODM SUP product development](https://supsfactory.com/odm-development): your brief becomes an engineered hull, graphics and prototype, designed and built in-house.
-- [Request a quotation](https://supsfactory.com/contact): submit board type, size, quantity, printing method, accessories, target market and required launch timing for a project quote.
+- [Request a quotation](https://supsfactory.com/contact): submit board type, size, quantity, printing method, accessories, target market and required launch timing for a project quote. The form accepts attached project files (spec sheets, sketches, briefs — engineering drawings, PDFs and image/vector formats) so a quote can be built from your actual specs.
 
 ## Factory & quality
 
@@ -81,6 +81,7 @@ export const LLMS_TXT = `# SUPsfactory
 
 - [About SUPsfactory](https://supsfactory.com/about)
 - [About Afarer, the parent manufacturing division](https://supsfactory.com/about/afarer)
+- [Company entity — the structured overview](https://supsfactory.com/about/supsfactory-entity): the GEO-facing page that links organization facts, services, factory evidence and knowledge together.
 - [Projects and case studies](https://supsfactory.com/projects)
 - [Contact](https://supsfactory.com/contact)
 

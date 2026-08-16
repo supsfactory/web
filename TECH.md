@@ -4,7 +4,7 @@
 > Project path: `E:\github\supsfactory`
 > Production: https://supsfactory.com (Cloudflare Workers, `supsfactory-production`)
 > Stack: TanStack Start (React 19) + Cloudflare Workers + D1 (Drizzle ORM) + KV + R2 + better-auth + Resend + Orama (search) + Fumadocs (docs)
-> Tests: 236 (Vitest node + workers pools); `pnpm typecheck` / `pnpm build` green
+> Tests: 239 (Vitest node + workers pools); `pnpm typecheck` / `pnpm build` green
 > Marketing positioning: custom SUP product development & manufacturing partner (not "launch your own brand") — 5-page /solutions system, legacy landings 301 to it; full afarer brand content ported under `/`
 
 ---
@@ -41,7 +41,7 @@ Registry ownership is explicit: `SHADOWED_PATHS` (`features/content/loader.ts`) 
 |-------|-----|
 | **D1** (SQLite, Drizzle ORM) | Single source of truth for auth (`user/account/session/verification/rateLimit`) plus app tables (`waitlist`, `inquiry`, `feedback`). |
 | **KV** | Per-IP rate-limit counters for the public waitlist form, the inquiry form (5 / 10 min) and `/api/search` (60 / min) — `src/features/waitlist/rate-limit.ts`. |
-| **R2** | Blobs: user avatars (`avatars/{userId}`, overwrite-on-upload, ≤2 MB), inquiry project files (`inquiry-files/{id}.{ext}`, ≤10 MB; PNG/JPG/JPEG/SVG/WebP/PDF/AI/PSD/DWG/DXF/ZIP — extension whitelist + per-format magic-number sniffing; one object per inquiry, legacy `inquiry-logos/` keys still readable). Served back through Worker routes because R2 isn't public. |
+| **R2** | Blobs: user avatars (`avatars/{userId}`, overwrite-on-upload, ≤2 MB), inquiry project files (`inquiry-files/{id}.{ext}`, ≤10 MB; PNG/JPG/JPEG/SVG/WebP/PDF/AI/PSD/DWG/DXF/ZIP — extension whitelist + per-format magic-number sniffing; one object per inquiry — re-submits purge stale keys incl. the legacy `inquiry-logos/` namespace, prefix-scoped so id-prefix neighbours are never touched). Served back through Worker routes because R2 isn't public; downloads carry real filenames (`Content-Disposition` — images inline, everything else forced `attachment`, ext derived from the R2 key). |
 
 ---
 
@@ -105,7 +105,7 @@ promoted ⇒ re-read session fresh so the refreshed cookie carries role=admin
 |--------|-----------|----------|
 | SQL injection | Drizzle ORM parameterization everywhere; the only raw `sql` is admin `LIKE` search with DB-bound pattern + `ESCAPE '!'` + whitelisted sort column | `admin/getAdminUsers.ts`, `inquiry/inquiry.server.ts` |
 | XSS | React escapes by default; admin notification email **HTML-escapes all fields**; CSP has no `unsafe-inline` for scripts (nonce-based) | `inquiry/notify.ts`, `lib/security-headers.ts` |
-| Stored file XSS | Uploaded avatar/project-file responses enforced `Content-Security-Policy: default-src 'none'; sandbox` + `nosniff` | `routes/api/avatars/$.ts`, `routes/api/inquiry-logo/$.ts` |
+| Stored file XSS | Uploaded avatar/project-file responses enforced `Content-Security-Policy: default-src 'none'; sandbox` + `nosniff` (+ `Content-Disposition: attachment` for non-image types) | `routes/api/avatars/$.ts`, `routes/api/inquiry-logo/$.ts` |
 | Spoofed uploads | Extension allow-list + byte-size limit **and per-format magic-number sniffing** before anything reaches R2 — images/PDF/AI/PSD/DWG/DXF/ZIP byte magic + SVG/DXF text headers (SVG must contain a real `<svg` element; `<?xml`/BOM/whitespace tolerated) | `features/storage/storage.ts` (`sniffImage`), `features/inquiry/inquiry.shared.ts` (`sniffProjectFile`), `features/storage/actions.ts`, `features/inquiry/actions.ts` |
 | CSV injection | Cells starting with `= + - @` prefixed with a quote in admin exports; `no-store` on all exports | `routes/admin/*.csv.ts`, `waitlist/csv.ts` |
 | Session-page caching | Private paths (`/app /admin /api /login /register /auth ...`) force `private, no-store` + `Vary: Cookie` on every method | `lib/cache-headers.ts` |
@@ -132,7 +132,7 @@ All generated dynamically; content sources are the single point of truth — edi
 | `/robots.txt` | `src/features/seo/seo.ts` | disallow `/app`, `/admin`, `/*/admin`, `/api`, `/docs`, `/waitlist`, `/changelog`; points to sitemap, llms, entity.json, rss.xml |
 | `/llms.txt` | `src/features/docs/llm.ts` (docs index) + `src/features/site/llm.ts` (products + **solution pages** + afarer index) | Markdown index for LLMs |
 | `/llms-full.txt` | same, concatenated plain Markdown | full corpus (catalog, solutions incl. FAQ, afarer pages/news/technology/case studies, geo facts) |
-| `/entity.json` | `src/features/content/loader.ts` (`getGeoEntity`) | schema.org Organization — `@id`/`url` rewritten to this site's origin |
+| `/entity.json` | `src/features/content/loader.ts` (`getGeoEntity`) | schema.org Organization — `@id`/`url`/`name`/`description` rewritten to this site's origin; `subjectOf`/`knowsAbout` rebuilt from the live page set |
 | `/rss.xml` | afarer news posts | RSS feed |
 | `/docs-md/*` | `src/routes/docs-md/$.ts` | frontmatter-stripped Markdown per page (malformed percent-encoding → 404, not 500) |
 | `/search-index.json` | `src/features/site/search-index.server.ts` | full public search index (see §2), cached at the edge |
@@ -157,7 +157,7 @@ The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`,
 | Task | Command |
 |------|---------|
 | Dev server | `pnpm dev` |
-| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 236 tests |
+| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 239 tests |
 | Typecheck / lint / build | `pnpm typecheck` (fumadocs-mdx + tsc) / `pnpm lint` / `pnpm build` |
 | D1 migrations | `pnpm db:generate` → `pnpm db:migrate:local` (local); `db:migrate:staging` / `db:migrate:prod` (remote) |
 | Deploy | `pnpm deploy:staging` / `pnpm deploy:prod` (builds with `CLOUDFLARE_ENV` + `wrangler deploy`); `pnpm deploy:purge` purges the CDN (needs `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ZONE_ID` w/ cache-purge scope); `deploy:prod:all` = deploy + purge |
