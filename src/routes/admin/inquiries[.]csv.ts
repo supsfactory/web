@@ -13,7 +13,7 @@ function cell(v: string): string {
 
 export function inquiriesToCsv(rows: InquiryRow[]): string {
   const header =
-    'tier,score,category,business_type,project_stage,timeline,quantity,annual_volume,role,board_platform,construction,customization,packaging,compliance,docs,budget,nda,company,website,country,target_market,email,whatsapp,requirements,logo,status,locale,created_at'
+    'tier,score,category,business_type,project_stage,timeline,quantity,annual_volume,role,board_platform,construction,customization,packaging,compliance,docs,budget,nda,company,website,country,target_market,email,whatsapp,requirements,file,status,locale,created_at'
   const body = rows.map((r) => {
     const created = r.createdAt instanceof Date ? r.createdAt.toISOString() : String(r.createdAt)
     return [

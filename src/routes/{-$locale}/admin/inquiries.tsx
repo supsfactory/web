@@ -170,11 +170,14 @@ function InquiriesAdmin() {
                 <td className="px-4 py-3 text-xs">{r.quantity}</td>
                 <td className="max-w-[240px] px-4 py-3 text-xs leading-relaxed text-fg-2">{r.requirements || '—'}</td>
                 <td className="px-4 py-3">
-                  {r.logoKey ? (
-                    <a className="text-primary hover:underline" href={`/api/inquiry-logo/${r.id}`} target="_blank" rel="noreferrer">
-                      {t('admin.inquiryFile')}
-                    </a>
-                  ) : (
+                  {r.logoKey ? (() => {
+                    const ext = r.logoKey.split('.').pop()?.toUpperCase() ?? ''
+                    return (
+                      <a className="text-primary hover:underline" href={`/api/inquiry-logo/${r.id}`} target="_blank" rel="noreferrer">
+                        {ext} · {t('admin.inquiryFile')}
+                      </a>
+                    )
+                  })() : (
                     <span className="text-fg-3">—</span>
                   )}
                 </td>

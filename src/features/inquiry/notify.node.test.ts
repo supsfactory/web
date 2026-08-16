@@ -89,7 +89,7 @@ test('HTML 部分转义所有用户输入，标签/属性边界无法形成', as
 test('干净输入原样保留', async () => {
   await sendInquiryNotification(null, 'from@supsfactory.com', ['admin@supsfactory.com'], {
     inquiry: inquiry({ company: 'Acme GmbH', email: 'sales@acme.com', requirements: 'Need 500 units' }),
-    logoUrl: null,
+    fileUrl: null,
     origin: 'https://supsfactory.com',
   })
   expect(captured).toHaveLength(1)
@@ -106,8 +106,20 @@ async function sendInjectionEmail() {
       website: '"><a href="javascript:alert(1)">x</a>',
       email: `x" onmouseover="alert(1)@b.com`,
       requirements: `</td></tr></table><script>alert(1)</script>`,
+      logoKey: 'inquiry-files/inq-test.pdf',
     }),
-    logoUrl: `https://example.com/logo.svg" onload="alert(1)`,
+    fileUrl: `https://example.com/logo.svg" onload="alert(1)`,
     origin: 'https://supsfactory.com',
   })
 }
+
+test('邮件 Files 行带文件扩展名徽章（从 R2 key 派生，转义后输出）', async () => {
+  await sendInquiryNotification(null, 'from@supsfactory.com', ['admin@supsfactory.com'], {
+    inquiry: inquiry({ logoKey: 'inquiry-files/inq-7.dwg' }),
+    fileUrl: 'https://supsfactory.com/api/inquiry-logo/inq-7',
+    origin: 'https://supsfactory.com',
+  })
+  expect(captured).toHaveLength(1)
+  expect(captured[0].text).toContain('DWG — https://supsfactory.com/api/inquiry-logo/inq-7')
+  expect(captured[0].html).toContain('View upload (DWG)')
+})

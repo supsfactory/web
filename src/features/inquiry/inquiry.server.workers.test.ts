@@ -105,6 +105,16 @@ describe('R2 project file', () => {
     expect((await env.BUCKET.list({ prefix: 'inquiry-files/f-2' })).objects).toHaveLength(1)
   })
 
+  test('prefix-scoped cleanup never touches a neighbour id', async () => {
+    await putInquiryFile(env.BUCKET, 'f-id', new Uint8Array([0x89, 0x50]).buffer, 'png')
+    await putInquiryFile(env.BUCKET, 'f-id-longer', new Uint8Array([1, 2]).buffer, 'pdf')
+
+    await putInquiryFile(env.BUCKET, 'f-id', new Uint8Array([3, 4]).buffer, 'zip')
+
+    expect((await env.BUCKET.list({ prefix: 'inquiry-files/f-id-longer' })).objects).toHaveLength(1)
+    expect((await env.BUCKET.get('inquiry-files/f-id-longer.pdf'))).not.toBeNull()
+  })
+
   test('legacy inquiry-logos/<id>.png keys still resolve', async () => {
     await env.BUCKET.put('inquiry-logos/f-3.png', new Uint8Array([0x89, 0x50, 0x4e, 0x47]).buffer, {
       httpMetadata: { contentType: 'image/png' },
@@ -114,6 +124,16 @@ describe('R2 project file', () => {
     expect(got).not.toBeNull()
     expect(got!.key).toBe('inquiry-logos/f-3.png')
     expect(got!.httpMetadata?.contentType).toBe('image/png')
+  })
+
+  test('re-upload also clears the legacy logo object for the same id', async () => {
+    await env.BUCKET.put('inquiry-logos/f-4.png', new Uint8Array([0x89, 0x50]).buffer, {
+      httpMetadata: { contentType: 'image/png' },
+    })
+    await putInquiryFile(env.BUCKET, 'f-4', PDF.buffer, 'pdf')
+
+    expect(await getInquiryFile(env.BUCKET, 'f-4')).not.toBeNull()
+    expect(await env.BUCKET.get('inquiry-logos/f-4.png')).toBeNull()
   })
 
   test('unknown id returns null', async () => {

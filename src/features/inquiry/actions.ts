@@ -4,7 +4,10 @@ import type { InquiryTier, ProjectFileExtension } from './inquiry.shared'
 
 export type SubmitResult =
   | { ok: true; tier: InquiryTier }
-  | { ok: false; reason: 'invalid' | 'captcha' | 'rate-limited' | 'file' | 'failed' }
+  | {
+      ok: false
+      reason: 'invalid' | 'captcha' | 'rate-limited' | 'file-empty' | 'file-type' | 'file-size' | 'failed'
+    }
 
 /**
  * Public, unauthenticated endpoint: accepts the inquiry form as FormData
@@ -73,7 +76,9 @@ export const submitInquiry = createServerFn({ method: 'POST' })
     const file = data.get('projectFile')
     if (file instanceof File && file.size > 0) {
       const check = checkProjectFile(file)
-      if (!check.ok) return { ok: false, reason: 'file' }
+      if (!check.ok) {
+        return { ok: false, reason: check.reason === 'size' ? 'file-size' : check.reason === 'empty' ? 'file-empty' : 'file-type' }
+      }
     }
 
     const { score, tier } = scoreInquiry(input, { hasFile: file instanceof File && file.size > 0 })
@@ -88,7 +93,7 @@ export const submitInquiry = createServerFn({ method: 'POST' })
         // Magic-number sniff before the R2 write: the file is later served back
         // to admins, so a spoofed name/type must not smuggle arbitrary bytes in.
         const ext = fileExtension(file.name) as ProjectFileExtension
-        if (!sniffProjectFile(new Uint8Array(bytes), ext)) return { ok: false, reason: 'file' }
+        if (!sniffProjectFile(new Uint8Array(bytes), ext)) return { ok: false, reason: 'file-type' }
         logoKey = await putInquiryFile(env.BUCKET, id, bytes, ext)
       }
     } catch (err) {
@@ -120,7 +125,7 @@ export const submitInquiry = createServerFn({ method: 'POST' })
       const admins = (env.ADMIN_EMAILS || '').split(',').map((e) => e.trim()).filter(Boolean)
       await sendInquiryNotification(env.RESEND_API_KEY || null, env.EMAIL_FROM || 'SUPsfactory <info@supsfactory.com>', admins, {
         inquiry: row,
-        logoUrl: logoKey ? `${new URL(env.BETTER_AUTH_URL).origin}/api/inquiry-logo/${id}` : null,
+        fileUrl: logoKey ? `${new URL(env.BETTER_AUTH_URL).origin}/api/inquiry-logo/${id}` : null,
         origin: new URL(env.BETTER_AUTH_URL).origin,
       })
     } catch (err) {

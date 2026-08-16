@@ -45,7 +45,7 @@ export function InquiryForm({
   const [doneTier, setDoneTier] = useState<InquiryTier | null>(null)
   const [msg, setMsg] = useState<{ kind: 'err'; text: string } | null>(null)
   const [fileName, setFileName] = useState<string | null>(null)
-  const [fileError, setFileError] = useState(false)
+  const [fileError, setFileError] = useState<'empty' | 'type' | 'size' | null>(null)
   const [customization, setCustomization] = useState<Set<string>>(new Set())
   const [docs, setDocs] = useState<Set<string>>(new Set())
   const [consent, setConsent] = useState(false)
@@ -57,6 +57,12 @@ export function InquiryForm({
     setter(next)
   }
 
+  function fileErrorText(reason: 'empty' | 'type' | 'size' | null): string {
+    if (reason === 'size') return t('inquiry.fileSize')
+    if (reason === 'empty') return t('inquiry.fileEmpty')
+    return t('inquiry.fileType')
+  }
+
   function mapResult(r: SubmitResult) {
     if (r.ok) return null
     switch (r.reason) {
@@ -64,8 +70,12 @@ export function InquiryForm({
         return { kind: 'err' as const, text: t('inquiry.invalid') }
       case 'rate-limited':
         return { kind: 'err' as const, text: t('inquiry.rateLimited') }
-      case 'file':
+      case 'file-empty':
+        return { kind: 'err' as const, text: t('inquiry.fileEmpty') }
+      case 'file-type':
         return { kind: 'err' as const, text: t('inquiry.fileType') }
+      case 'file-size':
+        return { kind: 'err' as const, text: t('inquiry.fileSize') }
       default:
         return { kind: 'err' as const, text: t('inquiry.captcha') }
     }
@@ -85,12 +95,12 @@ export function InquiryForm({
     // The file input is optional, so native validation won't catch a bad file —
     // block the POST here so the server never sees an invalid logo.
     if (fileError) {
-      setMsg({ kind: 'err', text: t('inquiry.fileType') })
+      setMsg({ kind: 'err', text: fileErrorText(fileError) })
       return
     }
     setBusy(true)
     setMsg(null)
-    setFileError(false)
+    setFileError(null)
     try {
       const fd = new FormData(form)
       fd.set('turnstileToken', token ?? '')
@@ -124,13 +134,13 @@ export function InquiryForm({
     const f = files?.[0]
     if (!f) {
       setFileName(null)
-      setFileError(false)
+      setFileError(null)
       return
     }
     const ext = f.name.includes('.') ? f.name.slice(f.name.lastIndexOf('.') + 1).toLowerCase() : ''
     const okType = (PROJECT_FILE_EXTENSIONS as readonly string[]).includes(ext)
     const okSize = f.size <= INQUIRY_LIMITS.fileMaxBytes
-    setFileError(!okType || !okSize)
+    setFileError(f.size === 0 ? 'empty' : !okType ? 'type' : !okSize ? 'size' : null)
     setFileName(f.name)
   }
 
@@ -403,7 +413,7 @@ export function InquiryForm({
                   className="inline-flex items-center gap-1 text-[13px] font-medium text-fg-3 hover:text-destructive"
                   onClick={() => {
                     setFileName(null)
-                    setFileError(false)
+                    setFileError(null)
                     const input = document.getElementById('inq-logo') as HTMLInputElement | null
                     if (input) input.value = ''
                   }}
@@ -413,7 +423,7 @@ export function InquiryForm({
               )}
             </div>
             <span className={`field-hint ${fileError ? 'err' : ''}`}>
-              {fileError ? t('inquiry.fileType') : t('inquiry.uploadHint')}
+              {fileError ? fileErrorText(fileError) : t('inquiry.uploadHint')}
             </span>
           </div>
           <div className="field sm:col-span-2">

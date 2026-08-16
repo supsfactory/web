@@ -8,7 +8,7 @@ import type { Inquiry } from './inquiry.schema'
 
 export interface InquiryNotifyData {
   inquiry: Inquiry
-  logoUrl: string | null
+  fileUrl: string | null
   origin: string
 }
 
@@ -26,6 +26,8 @@ export async function sendInquiryNotification(apiKey: string | null, from: strin
     : createDevTransport({ redactBody: import.meta.env.PROD })
 
   const i = data.inquiry
+  // Attachment type for the admin mail — derived from the R2 object key.
+  const fileExt = i.logoKey ? (i.logoKey.split('.').pop() ?? '').toUpperCase() : ''
   const subject = `[SUPsfactory] [${i.tier}] ${i.businessType} inquiry: ${i.company || i.email} (${i.category}, score ${i.score})`
   const text = [
     `Lead tier: ${i.tier} (score ${i.score})`,
@@ -43,7 +45,7 @@ export async function sendInquiryNotification(apiKey: string | null, from: strin
     `Customization: ${i.customization || '—'} | Compliance: ${i.compliance || '—'}`,
     `Docs/testing: ${i.docs || '—'} | Budget: ${i.budget || '—'} | NDA: ${i.nda}`,
     `Requirements: ${i.requirements || '—'}`,
-    `Files: ${data.logoUrl ?? 'none'}`,
+    `Files: ${data.fileUrl ? `${fileExt} — ${data.fileUrl}` : 'none'}`,
     `Submitted: ${i.createdAt.toISOString()}`,
   ].join('\n')
   const e = esc
@@ -68,7 +70,7 @@ export async function sendInquiryNotification(apiKey: string | null, from: strin
     row('Budget', e(i.budget)),
     row('NDA', e(i.nda)),
     row('Requirements', e(i.requirements)),
-    row('Files', data.logoUrl ? `<a href="${e(data.logoUrl)}">View upload</a>` : '—'),
+    row('Files', data.fileUrl ? `<a href="${e(data.fileUrl)}">View upload${fileExt ? ` (${e(fileExt)})` : ''}</a>` : '—'),
     '</table>',
     `<p style="color:#7c8b9c;font-size:12px">Submitted at ${i.createdAt.toISOString()} · locale ${e(i.locale)}</p>`,
     '</div>',

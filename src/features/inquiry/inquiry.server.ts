@@ -30,11 +30,19 @@ export async function putInquiryFile(
   return key
 }
 
-/** Delete every stored object for an inquiry id. */
+/** Delete every stored object for an inquiry id (both key namespaces). */
 export async function removeInquiryFile(bucket: R2Bucket, id: string): Promise<void> {
-  const listed = await bucket.list({ prefix: `${FILE_PREFIX}${id}` })
-  if (listed.objects.length === 0) return
-  await bucket.delete(listed.objects.map((o) => o.key))
+  const keys: string[] = []
+  for (const prefix of [FILE_PREFIX, LEGACY_LOGO_PREFIX]) {
+    // Scope the prefix to the id itself (bare key + `.ext` keys), so a UUID
+    // that is a strict prefix of another can never delete its neighbour's object.
+    const listed = await bucket.list({ prefix: `${prefix}${id}` })
+    for (const o of listed.objects) {
+      if (o.key === `${prefix}${id}` || o.key.startsWith(`${prefix}${id}.`)) keys.push(o.key)
+    }
+  }
+  if (keys.length === 0) return
+  await bucket.delete(keys)
 }
 
 export function mimeForExt(ext: ProjectFileExtension): string {
