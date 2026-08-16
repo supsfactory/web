@@ -3,7 +3,7 @@ publishDate: 2025-01-01
 dateModified: 2026-08-01
 title: Tejido de PVC de grado marino
 summary: Tejido de PVC multicapa laminado, clasificado para entornos marinos y soldado por fusión para eliminar la delaminación.
-description: 'El PVC de grado marino es el material principal de todos los productos hinchables de afarer: laminación multicapa para resistir los rayos UV, el agua salada y la abrasión.'
+description: 'El PVC de grado marino es el material principal de todos los productos hinchables de Afarer: laminación multicapa para resistir los rayos UV, el agua salada y la abrasión.'
 category: materials
 tags:
   - pvc
@@ -13,7 +13,7 @@ tags:
 entityType: technology
 ---
 
-afarer utiliza un tejido de PVC multicapa laminado, clasificado para los exigentes entornos marinos. Cada capa se une mediante soldadura por fusión en lugar de pegamento, lo que elimina el riesgo de delaminación que presentan los hinchables de menor calidad.
+Afarer utiliza un tejido de PVC multicapa laminado, clasificado para los exigentes entornos marinos. Cada capa se une mediante soldadura por fusión en lugar de pegamento, lo que elimina el riesgo de delaminación que presentan los hinchables de menor calidad.
 
 El material se somete a pruebas de resistencia a los rayos UV, a la corrosión por agua salada y a la abrasión —lo que garantiza una durabilidad a largo plazo en entornos costeros, lacustres y fluviales.
 

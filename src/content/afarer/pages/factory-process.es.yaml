@@ -1,6 +1,6 @@
 meta:
   title: 'Proceso de fabricación: de la materia prima al SUP'
-  description: 'De la materia prima al SUP listo para el agua: cada paso del proceso de fabricación de afarer bajo nuestro control, desde el corte y la soldadura hasta los ensayos.'
+  description: 'De la materia prima al SUP listo para el agua: cada paso del proceso de fabricación de Afarer bajo nuestro control, desde el corte y la soldadura hasta los ensayos.'
   dateModified: '2026-08'
   keywords:
     - 'proceso de fabricación sup'
@@ -19,7 +19,7 @@ answer:
   text: 'Las tablas pasan por cinco etapas controladas: inspección de materiales (1–2 días), corte CNC automático (desperdicio inferior al 5%, 2–4 horas por kit), termosellado de tubos con costuras reforzadas por RF (1–2 días por tabla), unión del núcleo drop-stitch y ensamblaje final con retención de aire al 100% y pruebas de carga antes del embalaje.'
   verified: '2026-08'
 
-intro: A diferencia de las marcas que subcontratan la producción a fábricas de terceros, afarer es dueño y operador de toda su cadena de fabricación. Esta integración vertical nos permite mantener un estricto control de calidad en cada etapa, responder rápidamente a los requisitos personalizados y entregar una calidad de producto constante tanda tras tanda. Así se fabrica una tabla de SUP en nuestras instalaciones.
+intro: A diferencia de las marcas que subcontratan la producción a fábricas de terceros, Afarer es dueño y operador de toda su cadena de fabricación. Esta integración vertical nos permite mantener un estricto control de calidad en cada etapa, responder rápidamente a los requisitos personalizados y entregar una calidad de producto constante tanda tras tanda. Así se fabrica una tabla de SUP en nuestras instalaciones.
 
 steps:
   - step: '01'

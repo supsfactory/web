@@ -18,7 +18,7 @@ tags:
 entityType: case-use
 ---
 
-Family water recreation is a core use case for afarer's larger inflatables. The Kayak Tandem seats two and the AirDeck 360 carries up to five people, making them ideal for family outings on lakes, calm rivers and sheltered coastal waters.
+Family water recreation is a core use case for Afarer's larger inflatables. The Kayak Tandem seats two and the AirDeck 360 carries up to five people, making them ideal for family outings on lakes, calm rivers and sheltered coastal waters.
 
 ## The family boat problem
 

@@ -2,7 +2,7 @@
 publishDate: 2025-01-01
 title: Coastal Touring & Exploration
 summary: Longer touring boards for covering distance on open water with efficiency and tracking. Displacement-hull designs like the Tour 12' glide through chop and hold a heading, with sizes from 11'6" to 14' matched to the paddler's weight and fitness.
-description: Coastal touring requires boards with good tracking, glide efficiency, and the ability to handle moderate chop. afarer Tour 12 is designed for this use case.
+description: Coastal touring requires boards with good tracking, glide efficiency, and the ability to handle moderate chop. Afarer Tour 12 is designed for this use case.
 category: recreation
 environment: coastal
 skill: intermediate

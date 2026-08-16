@@ -13,5 +13,5 @@ export function setBrandCount(n: number): void {
 
 /** Replaces the afarer `{SITE}`/`{BRAND}`/`{count}` template placeholders with brand values. */
 export function brandify(text: string): string {
-  return text.replaceAll('{SITE}', 'SUPsfactory').replaceAll('{BRAND}', 'afarer').replaceAll('{count}', String(regionCount))
+  return text.replaceAll('{SITE}', 'SUPsfactory').replaceAll('{BRAND}', 'Afarer').replaceAll('{count}', String(regionCount))
 }

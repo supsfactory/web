@@ -13,7 +13,7 @@ hero:
   subtitle: "We manufacture for marine distributors, dealers, retail brands and organizations in 50+ countries. You specify the product — we engineer, sample and produce it under your brand."
   image:
     src: https://assets.afarer.com/images/afarer/partners/partners-hero.webp
-    alt: afarer global partner and distributor network
+    alt: Afarer global partner and distributor network
 
 answer:
   label: 'Straight answer'
@@ -45,7 +45,7 @@ content_programs:
       icon: tabler:sun
 content_benefits:
   tagline: Why Partner With Us
-  title: 'Why Partners Choose afarer'
+  title: 'Why Partners Choose Afarer'
   subtitle: 'Our partners work with real manufacturing capability, consistent quality, and responsive engineering support.'
   list:
     - 'Direct Factory Access: Work directly with our manufacturing team — no middlemen. Faster responses, full visibility into production, and engineering answers from the people who build the boards.'

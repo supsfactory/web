@@ -1,6 +1,6 @@
 meta:
   title: 'Laboratorio de calidad: ensayos y garantía de calidad | {SITE}'
-  description: 'Laboratorio de calidad independiente con procesos ISO 9001 en afarer: cada unidad se prueba antes del envío para garantizar la calidad de las tablas de SUP hinchables.'
+  description: 'Laboratorio de calidad independiente con procesos ISO 9001 en Afarer: cada unidad se prueba antes del envío para garantizar la calidad de las tablas de SUP hinchables.'
   dateModified: '2026-08-07'
   keywords:
     - 'control de calidad sup'
@@ -17,7 +17,7 @@ answer:
   text: 'El 100% de las unidades se prueban a presión a 18,0 PSI durante 24 horas, con rechazo automático al superar 0,50 PSI de caída de presión. Los lotes de tejido crudo se verifican según ASTM D751 e ISO 4674, y las pruebas de pelado de soldaduras se realizan cada 50 unidades con un muestreo final AQL 2.5 según ISO 2859.'
   verified: '2026-08'
 
-intro: afarer opera un laboratorio de control de calidad dedicado que trabaja de forma independiente de la producción. Cada lote de materia prima y cada tabla de SUP terminada pasa por protocolos de inspección documentados antes de su liberación. Nuestro equipo de control de calidad informa directamente a la dirección, lo que garantiza decisiones de calidad imparciales.
+intro: Afarer opera un laboratorio de control de calidad dedicado que trabaja de forma independiente de la producción. Cada lote de materia prima y cada tabla de SUP terminada pasa por protocolos de inspección documentados antes de su liberación. Nuestro equipo de control de calidad informa directamente a la dirección, lo que garantiza decisiones de calidad imparciales.
 
 highlights:
   - value: 100%

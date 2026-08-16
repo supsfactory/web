@@ -1,6 +1,6 @@
 meta:
   title: 'Knowledge — Inflatable SUP & OEM Guides | {SITE}'
-  description: 'afarer knowledge base: guides on inflatable SUPs, paddle board materials, board selection, and industry insights for brands and professionals.'
+  description: 'Afarer knowledge base: guides on inflatable SUPs, paddle board materials, board selection, and industry insights for brands and professionals.'
   dateModified: '2026-08'
   keywords:
     - 'sup knowledge'
@@ -18,7 +18,7 @@ hero:
 clusters:
   tagline: 'Knowledge Clusters'
   title: 'Explore by topic'
-  subtitle: 'Deep dives into the technology, safety, and skills behind every afarer product.'
+  subtitle: 'Deep dives into the technology, safety, and skills behind every Afarer product.'
   items:
     - title: 'SUP Buying Guides'
       description: 'From choosing your first board to advanced touring techniques —everything about stand-up paddle boarding.'

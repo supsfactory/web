@@ -13,7 +13,7 @@ tags:
 entityType: technology
 ---
 
-The Air Deck floor is a high-pressure inflatable system used in afarer inflatable hulls. It replaces traditional plywood or aluminum slat floors, reducing overall weight and cutting setup time.
+The Air Deck floor is a high-pressure inflatable system used in Afarer inflatable hulls. It replaces traditional plywood or aluminum slat floors, reducing overall weight and cutting setup time.
 
 While the air deck flexes more than a solid wood floor, it provides adequate rigidity for standing, fishing, and walking while enabling the entire hull to deflate into a compact transport package.
 

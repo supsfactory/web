@@ -13,7 +13,7 @@ hero:
   subtitle: "Fabricamos para distribuidores marinos, concesionarios, marcas detallistas y organizaciones de más de 50 países. Tú especificas el producto — nosotros lo ingeniamos, desarrollamos la muestra y lo producimos bajo tu marca."
   image:
     src: https://assets.afarer.com/images/afarer/partners/partners-hero.webp
-    alt: red mundial de socios y distribuidores de afarer
+    alt: red mundial de socios y distribuidores de Afarer
 
 answer:
   label: 'Respuesta directa'
@@ -45,7 +45,7 @@ content_programs:
       icon: tabler:sun
 content_benefits:
   tagline: Por qué colaborar con nosotros
-  title: 'Por qué los socios eligen afarer'
+  title: 'Por qué los socios eligen Afarer'
   subtitle: 'Nuestros socios trabajan con una capacidad de fabricación real, una calidad constante y una ingeniería receptiva.'
   list:
     - 'Acceso directo a la fábrica: trabaja directamente con nuestro equipo de fabricación — sin intermediarios. Respuestas más rápidas, visibilidad completa de la producción y respuestas de ingeniería procedentes de quienes construyen las tablas.'

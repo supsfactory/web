@@ -283,7 +283,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
           <>
             <PageHero
               kicker={data.translated ? 'Casos de éxito' : 'Case Studies'}
-              title={data.translated ? 'Casos de éxito afarer' : 'afarer Case Studies'}
+              title={data.translated ? 'Casos de éxito Afarer' : 'Afarer Case Studies'}
               sub={data.translated ? 'Cómo lanzan y escalan su marca las marcas, resorts y operadores con nuestra fábrica.' : 'How brands, resorts and operators launch and scale with our factory.'}
             />
             <CaseStudiesIndex />

@@ -1,6 +1,6 @@
 meta:
   title: 'Manufacturing Process — From Raw Material to SUP'
-  description: 'From raw material to sea-ready SUP: every step of the afarer manufacturing process under our control, from cutting and welding to testing.'
+  description: 'From raw material to sea-ready SUP: every step of the Afarer manufacturing process under our control, from cutting and welding to testing.'
   dateModified: '2026-08'
   keywords:
     - 'sup manufacturing process'
@@ -19,7 +19,7 @@ answer:
   text: 'Boards go through five controlled stages: material inspection (1–2 days), CNC automatic cutting (<5% waste, 2–4 hours per kit), tube heat sealing with RF-reinforced seams (1–2 days per board), drop-stitch core bonding, and final assembly with 100% air-retention and load testing before packaging.'
   verified: '2026-08'
 
-intro: Unlike brands that outsource production to third-party factories, afarer owns and operates its entire manufacturing chain. This vertical integration allows us to maintain strict quality control at every stage, respond quickly to custom requirements, and deliver consistent product quality batch after batch. Here is how a SUP board is built in our facility.
+intro: Unlike brands that outsource production to third-party factories, Afarer owns and operates its entire manufacturing chain. This vertical integration allows us to maintain strict quality control at every stage, respond quickly to custom requirements, and deliver consistent product quality batch after batch. Here is how a SUP board is built in our facility.
 
 steps:
   - step: '01'
@@ -104,6 +104,6 @@ evidence_gates:
       alt: Shipment release sign-off and batch traceability record handover
 cta:
   title: See our equipment and machinery
-  desc: Explore the industrial-grade equipment behind every afarer SUP board.
+  desc: Explore the industrial-grade equipment behind every Afarer SUP board.
   label: View equipment →
   link: /factory/equipment

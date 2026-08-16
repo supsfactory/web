@@ -15,11 +15,11 @@ entityType: technology
 
 La construcción con núcleo de drop-stitch utiliza miles de hilos de poliéster que conectan las capas superior e inferior de PVC. Al inflar la tabla hasta 12-15 PSI, estos hilos crean una estructura rígida y plana que se comporta como una tabla de casco duro.
 
-Esta tecnología permite que las tablas de afarer se guarden en una mochila y, a la vez, aporta la rigidez necesaria para remar con estabilidad, ponerse de pie y maniobrar.
+Esta tecnología permite que las tablas de Afarer se guarden en una mochila y, a la vez, aporta la rigidez necesaria para remar con estabilidad, ponerse de pie y maniobrar.
 
 ## Especificaciones que puedes citar
 
-Los núcleos de afarer utilizan tejido de drop-stitch de 1,680 DTEX con 2 hilos por pulgada cuadrada y un laminado exterior de PVC de 1,2 mm, clasificado para 15 PSI. Cada tabla se valida con una prueba de retención de aire de 24 horas a 18,0 PSI antes del envío.
+Los núcleos de Afarer utilizan tejido de drop-stitch de 1,680 DTEX con 2 hilos por pulgada cuadrada y un laminado exterior de PVC de 1,2 mm, clasificado para 15 PSI. Cada tabla se valida con una prueba de retención de aire de 24 horas a 18,0 PSI antes del envío.
 
 ¿Necesitas una especificación de drop-stitch ajustada a tu línea? Consulta nuestro <a href="/oem-odm-manufacturer">programa OEM/ODM</a> o recorre la <a href="/factory">línea de producción</a> donde se laminan los núcleos.
 

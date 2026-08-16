@@ -13,7 +13,7 @@ tags:
 entityType: technology
 ---
 
-Si has investigado sobre las embarcaciones hinchables, habrás visto el Hypalon (polietileno clorosulfonado, CSM) presentado como un material premium. En las tablas de SUP hinchables la situación es distinta: las tablas de afarer se fabrican con PVC marino multicapa laminado, y este artículo explica por qué.
+Si has investigado sobre las embarcaciones hinchables, habrás visto el Hypalon (polietileno clorosulfonado, CSM) presentado como un material premium. En las tablas de SUP hinchables la situación es distinta: las tablas de Afarer se fabrican con PVC marino multicapa laminado, y este artículo explica por qué.
 
 ## Por qué las tablas de SUP utilizan PVC y no Hypalon
 
@@ -23,9 +23,9 @@ Los laminados de PVC multicapa con núcleo de drop-stitch satisfacen todos estos
 
 Las ventajas del Hypalon —una resistencia excepcional a los productos químicos y a los rayos UV— son más importantes donde los tejidos están expuestos constantemente a combustible, aceite y disolventes industriales, motivo por el que se utiliza en los tubos de las embarcaciones hinchables profesionales y comerciales en lugar de en las tablas de pádel.
 
-## Dónde aparece el Hypalon en la gama afarer
+## Dónde aparece el Hypalon en la gama Afarer
 
-El Hypalon sigue siendo el material especificado en los modelos RIB de afarer (RIB 330, RIB 450 Patrol), diseñados para el uso marino profesional y vendidos a través de afarer.com. Las tablas de SUP y los kayaks de la línea SUPsfactory utilizan exclusivamente PVC marino, y cada lote de PVC se somete a pruebas independientes en nuestro Laboratorio de Tejido de PVC antes de la producción.
+El Hypalon sigue siendo el material especificado en los modelos RIB de Afarer (RIB 330, RIB 450 Patrol), diseñados para el uso marino profesional y vendidos a través de afarer.com. Las tablas de SUP y los kayaks de la línea SUPsfactory utilizan exclusivamente PVC marino, y cada lote de PVC se somete a pruebas independientes en nuestro Laboratorio de Tejido de PVC antes de la producción.
 
 ## Los datos de las pruebas
 

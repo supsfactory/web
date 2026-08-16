@@ -2,7 +2,7 @@
 publishDate: 2025-01-01
 title: Travesía costera y exploración
 summary: Tablas de travesía más largas para cubrir distancias en aguas abiertas con eficiencia y mantenimiento del rumbo. Los diseños de casco de desplazamiento como el Tour 12' se deslizan entre la marejada y mantienen la dirección, con tallas de 11'6" a 14' adaptadas al peso y la forma física del remador.
-description: 'La travesía costera requiere tablas con buena estabilidad de rumbo, deslizamiento eficiente y capacidad para afrontar una marejada moderada. La afarer Tour 12 está diseñada para este caso de uso.'
+description: 'La travesía costera requiere tablas con buena estabilidad de rumbo, deslizamiento eficiente y capacidad para afrontar una marejada moderada. La Afarer Tour 12 está diseñada para este caso de uso.'
 category: recreation
 environment: coastal
 skill: intermediate

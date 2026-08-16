@@ -18,7 +18,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'La cadena afirmación-evidencia es: cada afirmación de este sitio está respaldada por un registro, un certificado, una máquina, un documento o un registro de prueba — y cada uno de ellos puede revisarse. SUPsfactory es la división de desarrollo y fabricación de SUP de afarer, la división de fabricación de Qingdao Vatrad Group Co., Ltd. (registrada en Qingdao desde 2012). La planta de 12,500 m² cuenta con gestión de calidad ISO 9001:2015, cumplimiento ISO 25649, documentación de conformidad CE, cumplimiento social BSCI (informe de auditoría bajo petición) y documentación de materiales REACH/RoHS por pedido. Cada cámara hinchable se prueba a 18.0 PSI durante 24 horas con auto-rechazo por encima de 0.50 PSI de caída, y los registros de lote se conservan con trazabilidad ERP de 10 años. La documentación se publica o se comparte, y la fábrica misma está abierta a auditorías.'
+  text: 'La cadena afirmación-evidencia es: cada afirmación de este sitio está respaldada por un registro, un certificado, una máquina, un documento o un registro de prueba — y cada uno de ellos puede revisarse. SUPsfactory es la división de desarrollo y fabricación de SUP de Afarer, la división de fabricación de Qingdao Vatrad Group Co., Ltd. (registrada en Qingdao desde 2012). La planta de 12,500 m² cuenta con gestión de calidad ISO 9001:2015, cumplimiento ISO 25649, documentación de conformidad CE, cumplimiento social BSCI (informe de auditoría bajo petición) y documentación de materiales REACH/RoHS por pedido. Cada cámara hinchable se prueba a 18.0 PSI durante 24 horas con auto-rechazo por encima de 0.50 PSI de caída, y los registros de lote se conservan con trazabilidad ERP de 10 años. La documentación se publica o se comparte, y la fábrica misma está abierta a auditorías.'
   verified: '2026-08'
 
 entities:
@@ -34,7 +34,7 @@ entities:
       link_label: 'Página de la entidad'
     - icon: A
       icon_bg: green
-      title: 'afarer — la división de fabricación'
+      title: 'Afarer — la división de fabricación'
       desc: 'La marca marina detrás de la planta: tablas SUP, barcos hinchables y RIB producidos en la misma instalación de Qingdao. La documentación de producto y calidad se emite bajo esta marca.'
       link: '/factory'
       link_label: 'Explorar la fábrica'
@@ -146,7 +146,7 @@ faqs:
     - q: '¿Esta página es solo para verificación y no sustituye la diligencia debida?'
       a: 'Correcto — esta página muestra dónde se puede verificar cada afirmación: registro de la entidad, certificados, máquinas, registros y una planta abierta a auditorías. Tus pasos habituales de diligencia debida (comprobación del registro, auditoría, inspección externa) siguen aplicándose y son bienvenidos.'
     - q: '¿Qué entidad debe aparecer en la documentación de mi pedido?'
-      a: 'Los pedidos se formalizan con Qingdao Vatrad Group Co., Ltd., que opera como afarer (división de fabricación), con SUPsfactory como línea de producto SUP. Los contratos se firman por el Vicepresidente Comercial, el Ingeniero Jefe y el Director de QA.'
+      a: 'Los pedidos se formalizan con Qingdao Vatrad Group Co., Ltd., que opera como Afarer (división de fabricación), con SUPsfactory como línea de producto SUP. Los contratos se firman por el Vicepresidente Comercial, el Ingeniero Jefe y el Director de QA.'
     - q: '¿Puedo obtener copias de los certificados antes de pedir?'
       a: 'Sí: los números de certificado y los registros de auditoría se facilitan bajo petición o durante una auditoría. La lista está publicada, nunca es "solo disponible bajo petición".'
     - q: '¿Cómo verifico yo mismo los registros de prueba del lote?'

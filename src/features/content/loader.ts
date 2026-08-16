@@ -496,7 +496,7 @@ export function getSiteFaqs(locale: Locale = defaultLocale): { q: string; a: str
 export function brandify(text: string): string {
   return text
     .replaceAll('{SITE}', 'SUPsfactory')
-    .replaceAll('{BRAND}', 'afarer')
+    .replaceAll('{BRAND}', 'Afarer')
     .replaceAll('{count}', String(REGION_COUNT))
 }
 

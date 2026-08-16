@@ -1,8 +1,8 @@
 ---
 publishDate: 2025-01-01
 title: Beginner SUP Training
-summary: Stable inflatable SUP platforms for first-time paddlers learning on lakes and calm coastal waters. Wide 32-inch boards let students stand up in their first session, and soft inflatable rails make falls safer — the reasons training fleets choose afarer all-around boards over rigid craft.
-description: Beginner SUP training needs stable, forgiving boards. The afarer Explorer 11 and similar models provide the wide platform for successful first paddles.
+summary: Stable inflatable SUP platforms for first-time paddlers learning on lakes and calm coastal waters. Wide 32-inch boards let students stand up in their first session, and soft inflatable rails make falls safer — the reasons training fleets choose Afarer all-around boards over rigid craft.
+description: Beginner SUP training needs stable, forgiving boards. The Afarer Explorer 11 and similar models provide the wide platform for successful first paddles.
 category: training
 environment: lake
 skill: beginner
@@ -16,7 +16,7 @@ tags:
 entityType: case-use
 ---
 
-Beginner SUP training is afarer's primary use case. The stable, wide-body design of boards like the SUP Explorer 11' allows first-time paddlers to stand up within minutes, and the 32" width gives the generous beam that compensates for an unsteady stance during the first sessions.
+Beginner SUP training is Afarer's primary use case. The stable, wide-body design of boards like the SUP Explorer 11' allows first-time paddlers to stand up within minutes, and the 32" width gives the generous beam that compensates for an unsteady stance during the first sessions.
 
 ## Why wide boards win for training
 
