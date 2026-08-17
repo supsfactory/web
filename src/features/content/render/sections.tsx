@@ -1700,8 +1700,8 @@ function StatsBand() {
   const widthLabel = es ? 'Ancho estable de tabla all-around' : 'Stable all-around board width'
   const testedLabel = es ? 'Probadas en fábrica antes del envío' : 'Factory-tested before dispatch'
   const intro = es
-    ? 'Estos casos documentan cómo marcas, resorts, clubes y operadores reales compran SUP hinchables, kayaks y embarcaciones profesionales a afarer. Cada uno cubre el caso de uso, la familia de tablas que le corresponde y las consideraciones operativas que importan al construir — o comprar — una flota.'
-    : 'These case studies document how real brands, resorts, clubs and operators buy inflatable SUPs, kayaks and professional craft from afarer. Each one covers the use case, the board family that fits it, and the operational considerations that matter when you build — or buy — a fleet.'
+    ? 'Estos casos documentan cómo marcas, resorts, clubes y operadores reales compran SUP hinchables, kayaks y embarcaciones profesionales a la planta de SUPsfactory en Qingdao. Cada uno cubre el caso de uso, la familia de tablas que le corresponde y las consideraciones operativas que importan al construir — o comprar — una flota.'
+    : 'These case studies document how real brands, resorts, clubs and operators buy inflatable SUPs, kayaks and professional craft from the SUPsfactory plant in Qingdao. Each one covers the use case, the board family that fits it, and the operational considerations that matter when you build — or buy — a fleet.'
   const stats = [
     { value: String(cases.length), label: studyLabel },
     { value: String(regionCount), label: regionLabel },

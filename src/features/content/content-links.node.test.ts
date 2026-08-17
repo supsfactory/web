@@ -73,6 +73,7 @@ function normalize(u: string): string | null {
 }
 
 const downloadsDir = resolve(process.cwd(), 'public/downloads')
+const assetsDir = resolve(process.cwd(), 'public/assets')
 
 interface BrokenLink {
   file: string
@@ -89,7 +90,11 @@ for (const file of walk(contentRoot)) {
     const path = normalize(link)
     if (!path) continue
     if (path.startsWith('/api') || path.startsWith('/app') || path.startsWith('/admin')) continue
-    if (path.startsWith('/assets/')) continue
+    if (path.startsWith('/assets/')) {
+      const target = join(assetsDir, path.slice('/assets/'.length))
+      if (!existsSync(target)) broken.push({ file, link, reason: 'missing asset file' })
+      continue
+    }
     if (path.startsWith('/downloads/')) {
       const target = join(downloadsDir, path.slice('/downloads/'.length))
       if (!existsSync(target)) broken.push({ file, link, reason: `missing download file` })
@@ -123,9 +128,17 @@ test('every internal link in afarer content resolves to a live route', () => {
 })
 
 test('no content link points at an edge-gate redirect or 410 (link directly to the target)', () => {
-  const redirects = broken.filter((b) => !b.reason.startsWith('no live route'))
+  const redirects = broken.filter((b) => !b.reason.startsWith('no live route') && !b.reason.startsWith('missing asset'))
   expect(
     redirects.map((b) => `${b.file}: ${b.link} (${b.reason})`),
     `content links that should point at their final target instead of a redirect/410:\n${redirects.map((b) => `${b.file}: ${b.link} → ${b.reason}`).join('\n')}`,
+  ).toEqual([])
+})
+
+test('every /assets/ link in afarer content resolves to a real file', () => {
+  const missing = broken.filter((b) => b.reason.startsWith('missing asset'))
+  expect(
+    missing.map((b) => `${b.file}: ${b.link} (${b.reason})`),
+    `content links pointing at missing asset files:\n${missing.map((b) => `${b.file}: ${b.link}`).join('\n')}`,
   ).toEqual([])
 })

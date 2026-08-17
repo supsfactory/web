@@ -22,5 +22,7 @@ TURNSTILE_SECRET_KEY=
 # Cloudflare Web Analytics (privacy-friendly, free). Blank = no beacon injected.
 # Token lives in Dashboard -> Analytics & Logs -> Web Analytics.
 CF_ANALYTICS_TOKEN=
+# Optional: GA4 measurement id (client-side conversion events). Blank = no gtag loaded.
+# GA4_MEASUREMENT_ID=G-XXXXXXXXXX
 # Sentry server-side error reporting. Blank = off. DSN is in the Sentry project settings.
 SENTRY_DSN=

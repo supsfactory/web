@@ -112,7 +112,7 @@ export function siteLd(): Record<string, unknown>[] {
         sameAs: 'https://afarer.com',
       },
       brand: { '@type': 'Brand', name: 'Afarer' },
-      numberOfEmployees: { '@type': 'QuantitativeValue', value: '200+' },
+      numberOfEmployees: { '@type': 'QuantitativeValue', value: '350+' },
       hasCredential: [
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'ISO 9001' },
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'BSCI' },

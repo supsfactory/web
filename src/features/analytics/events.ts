@@ -22,12 +22,6 @@ export function trackLead(source: string) {
   window.gtag('event', 'generate_lead', { currency: 'USD', value: 0, lead_source: source, event_category: 'lead' })
 }
 
-/** `view_item_list`-style engagement for product page interactions (no-op without gtag). */
-export function trackEngage(action: string, label?: string) {
-  if (!window.gtag) return
-  window.gtag('event', 'engagement', { action, label })
-}
-
 /** SPA page_view — called on route changes; gtag('config') already fired the first view. */
 export function trackPageView(pagePath: string) {
   if (!window.gtag) return

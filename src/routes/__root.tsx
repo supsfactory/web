@@ -80,7 +80,7 @@ function RootComponent() {
   // template routes and the /$ catch-all (whose params carry `_splat`, not
   // `locale` — otherwise every /es/* afarer page would render lang="en").
   // /docs 在 locale 组外且内容目前只有中文——lang 跟内容走，别向搜索引擎/读屏标错语言
-  // （docs 翻译成英文时同步改这里）。
+  // （docs 翻译成英文时同步改这里；生产 /docs 被 edge-gate 410，此分支仅 dev 生效）。
   const firstSegment = pathname.split('/').filter(Boolean)[0]
   const lang = isLocale(firstSegment) ? firstSegment : pathname.startsWith('/docs') ? 'zh' : defaultLocale
   // CSP nonce for the two inline scripts (theme boot + hydration); undefined in

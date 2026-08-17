@@ -60,14 +60,14 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 | **Auth** | Email/password with mandatory verification, password reset, and account deletion via [better-auth](https://better-auth.com). Google & GitHub OAuth that gracefully hide themselves when their env vars are unset. Sessions use D1 as source of truth with a 5-minute cookie cache. |
 | **Storage** | [R2](https://developers.cloudflare.com/r2/) object storage with a working avatar upload (validated by MIME allow-list, byte-size limit **and magic-number sniffing**; streamed back through a serving route since R2 isn't public). Zero-config locally via miniflare — see [storage](src/content/docs/features/storage.mdx). |
 | **Email** | [Resend](https://resend.com) with string templates (React Email isn't usable on workerd). Missing API key? Emails are captured to the console so local dev never blocks. The admin notification email HTML-escapes every field before sending. |
-| **Waitlist** | A complete pre-launch signup loop: a public signup page, Turnstile bot protection, an admin management page + CSV export, and automatic subscriber sync into a [Resend](https://resend.com) audience (gracefully skipped when unconfigured). |
+| **Waitlist** | A complete pre-launch signup loop: a public signup page, Turnstile bot protection, an admin management page + CSV export, and automatic subscriber sync into a [Resend](https://resend.com) audience (gracefully skipped when unconfigured). Routes are 410'd in production (edge URL gate) — kept as template reference. |
 | **Inquiry** | A public B2B inquiry form (name/company/country/email/WhatsApp/business type/quantity/requirements + optional project-file upload to R2 — PNG/JPG/SVG/WebP/PDF/AI/PSD/DWG/DXF/ZIP, ≤10 MB, extension whitelist + per-format magic-number sniffing) with per-IP rate limiting + Turnstile, an HTML-escaped admin notification email, and an admin pipeline: status workflow, CSV export, and sandboxed file serving. |
 | **Search** | Header dialog → `/search-index.json` (public, edge-cached 1h); `/search` page → Orama full-text over the same corpus; `/api/search` → in-docs search with a lazy-loaded single Orama instance and per-IP rate limiting (60/min). |
-| **Changelog** | An in-app `/changelog` page — MDX-driven, per-locale, with a `published` flag. |
+| **Changelog** | An in-app `/changelog` page — MDX-driven, per-locale, with a `published` flag (410'd in production, template reference). |
 | **Feedback** | Signed-in users submit feedback + a "my feedback" list; an admin governance page drives status transitions and replies. Also the **reference for adding your own feature**: a vertical slice with ownership filtering, a pure function layer, both gate patterns, and dual-pool tests — see [feedback](src/content/docs/features/feedback.mdx). |
 | **i18n** | Path-based locale routing via TanStack's `{-$locale}` optional prefix — English at `/`, Español at `/es`. All marketing copy and UI strings translated. |
 | **SEO** | Per-locale sitemap with `hreflang` + canonical for the bilingual pages, plus single-locale entries for the English-only afarer pages (factory, news, products, technology, case studies, guides); OpenGraph tags (featured image is a real product photo from the site's R2 CDN), `robots.txt`, `noindex` on authenticated pages, and the 5 solution pages as keyword targets (legacy landing URLs 301 to them). Page meta is length-validated (`title ≤ 70`, `description 80–170`). |
-| **AI-ready** | **Runtime:** [`llms.txt`](/llms.txt) index and [`llms-full.txt`](/llms-full.txt) full corpus — docs **plus the product catalog, the 5 solution pages (incl. FAQ) and the afarer brand corpus**; [`entity.json`](/entity.json) schema.org Organization; [`rss.xml`](/rss.xml) news feed; clean frontmatter-stripped Markdown via `/docs-md/*`; `robots.txt` pointing to all of them. **Codebase:** [`AGENTS.md`](AGENTS.md) is the single source of truth for coding agents (auto-imported into [`CLAUDE.md`](CLAUDE.md)). |
+| **AI-ready** | **Runtime:** [`llms.txt`](/llms.txt) index and [`llms-full.txt`](/llms-full.txt) full corpus — docs **plus the product catalog, the 5 solution pages (incl. FAQ) and the afarer brand corpus**; [`entity.json`](/entity.json) schema.org Organization; [`rss.xml`](/rss.xml) news feed; `robots.txt` pointing to all of them. **Codebase:** [`AGENTS.md`](AGENTS.md) is the single source of truth for coding agents (auto-imported into [`CLAUDE.md`](CLAUDE.md)). |
 | **Admin** | `ADMIN_EMAILS` is the **single source of truth**; the DB `role` column is a cache, two-way-synced on every gated access (promote on first use, demote the moment an email leaves the list). Every admin surface — pages, server fns, CSV exports, and better-auth's own `/api/auth/admin/*` — shares one `assertAdmin()` gate that returns **404** for non-admins (the admin surface stays invisible). Roles are least-privilege (`ban` / `impersonate` / `delete` / `list` only). Searchable/paginated user table, stats dashboard, ban/impersonate/delete actions — all on real data. |
 | **Theme** | Dark-first design with a light/dark toggle persisted via cookie. |
 | **Security & observability** | Nonce-based production CSP (no `unsafe-inline` for scripts), baseline security headers, Turnstile bot protection, per-IP rate limiting (KV/D1-backed), startup env validation (fail-fast); admin endpoints gated to `ADMIN_EMAILS` (404 for non-admins), admin notification emails HTML-escaped, uploaded files served sandboxed (`default-src 'none'; sandbox`), uploads extension- + magic-number-verified, private surfaces (`/app`, `/admin`, `/api`, auth pages) forced `private, no-store` + `Vary: Cookie` so a CDN misconfiguration can never cache one user's session page for another; CF Web Analytics (cookieless) and Sentry error reporting — all optional, off when keys are blank. |
@@ -83,7 +83,7 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 - **[better-auth](https://better-auth.com)**, **[Resend](https://resend.com)**
 - **[Orama](https://orama.com)** full-text search (stopwords + tokenizers), **[Fumadocs](https://fumadocs.dev)** docs
 - **[Tailwind CSS v4](https://tailwindcss.com)**
-- **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`) — **202 tests green**
+- **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`) — **239 tests green**
 
 ## Prerequisites
 
@@ -267,9 +267,9 @@ Notes: keys left blank in GitHub are skipped during sync (they never overwrite e
 
 ## Documentation
 
-Docs are built into the main app — visit `/docs` to read them (powered by
-[Fumadocs](https://fumadocs.dev), deployed with the app, no separate Worker).
-Content lives in [`src/content/docs/`](src/content/docs/):
+Docs are built into the app, but `/docs` is 410'd in production (edge URL
+gate) — read the sources directly in [`src/content/docs/`](src/content/docs/):
+(powered by [Fumadocs](https://fumadocs.dev), deployed with the app, no separate Worker).
 
 - [`install.mdx`](src/content/docs/getting-started/install.mdx) — local setup
 - [`deploy.mdx`](src/content/docs/getting-started/deploy.mdx) — production deployment

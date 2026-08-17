@@ -773,7 +773,7 @@ export const en = {
     f3Title: 'Admin console', f3Body: 'Roles, ban, impersonation, and a dashboard built on real data.',
     f4Title: 'Storage', f4Body: 'Cloudflare R2 with validated uploads and a private serving route.',
     f5Title: 'Email', f5Body: 'Resend with string templates; degrades to the console locally.',
-    f6Title: 'i18n', f6Body: 'Path-based English/Chinese routing with per-locale SEO.',
+    f6Title: 'i18n', f6Body: 'Path-based English/Spanish routing with per-locale SEO.',
     f7Title: 'SEO', f7Body: 'Sitemap, hreflang, canonical, OpenGraph and robots — per locale.',
     f8Title: 'Security', f8Body: 'Turnstile, security headers, CSP, rate limiting and fail-fast env validation.',
   },

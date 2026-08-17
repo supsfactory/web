@@ -14,7 +14,7 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA Section' }
 
-- slug: about-Afarer
+- slug: about-afarer
   label: About Afarer
   path: /about/afarer
   permalink: /about/afarer

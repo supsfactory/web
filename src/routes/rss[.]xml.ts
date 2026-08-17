@@ -37,7 +37,7 @@ const handler = () => {
     '  <channel>',
     '    <title>SUPsfactory News</title>',
     `    <link>${origin}/news</link>`,
-    '    <description>Latest news from SUPsfactory & afarer — factory updates, new inflatable SUP models, certifications and nautical industry announcements.</description>',
+    '    <description>Latest news from SUPsfactory — the inflatable SUP brand of afarer (Qingdao Vatrad Group): factory updates, new inflatable SUP models, certifications and nautical industry announcements.</description>',
     `    <atom:link href="${origin}/rss.xml" rel="self" type="application/rss+xml"/>`,
     posts.length > 0 ? `    <lastBuildDate>${rfc822(posts[0].date)}</lastBuildDate>` : '',
     ...items,

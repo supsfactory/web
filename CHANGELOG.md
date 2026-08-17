@@ -65,6 +65,24 @@ and this project aims to follow [Semantic Versioning](https://semver.org/spec/v2
 
 ### Fixed
 
+- **Whole-site audit fixes** —
+  - `/about/afarer` (en+es) was rendering empty: registry slug `about-Afarer`
+    never matched the `about-afarer.yaml` files on disk — slug corrected.
+  - Two broken product gallery images (`sup-medusa-glow`, `sup-leviathan-wake`,
+    en/es) pointed at non-existent asset paths — corrected, and the
+    content-link guard test now also verifies every `/assets/` reference
+    (previously skipped).
+  - Stale standalone claims: `numberOfEmployees` 200+ → 350+ in brand JSON-LD
+    (matches entity.json), `en.ts` i18n blurb still said "English/Chinese",
+    RSS channel description and `/llms-full.txt` section header still used the
+    old "afarer" brand-only framing, case-study hub intro (en/es) named afarer
+    as the seller — all brought to the current SUPsfactory/afarer division
+    framing; removed dead `trackEngage` and the committed `cf-inspect.log`.
+  - Docs consistent again: README test count (202 → 239), README now notes
+    `/docs`, `/waitlist` and `/changelog` are 410'd in production, wrangler
+    config header rewritten from template leftovers, `GA4_MEASUREMENT_ID`
+    documented in `.dev.vars.example`, AGENTS.md slice list fixed.
+
 - **Private-page caching** — `/app`, `/admin`, `/api` and auth pages forced
   `Cache-Control: private, no-store` + `Vary: Cookie` on every method, so a CDN
   misconfiguration can never serve one user's session page to another (root cause

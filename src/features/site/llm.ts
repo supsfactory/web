@@ -247,7 +247,7 @@ export function llmsAfarerFull(): string {
   const { company, certifications, manufacturing } = getGeoFacts()
   return [
     '',
-    '# Afarer Brand Site',
+    '# SUPsfactory Brand Site',
     ...pageBlocks,
     ...factsSection('Company Facts', company),
     ...factsSection('Certifications', certifications),
