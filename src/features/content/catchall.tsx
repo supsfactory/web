@@ -25,6 +25,7 @@ import { brandify } from './brand'
 import { AferIndexProvider, type AferIndexData } from './index-data'
 import { getGuide } from './guide-content'
 import { FACTS } from '@/features/site/facts'
+import { SITE_NAME } from '@/config/site'
 import { ArrowRight } from 'lucide-react'
 import { AfarerSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
@@ -117,8 +118,8 @@ function researchArticleLd(origin: string, path: string, title: string, descript
     headline: title,
     description,
     url: `${origin}${path}`,
-    author: { '@type': 'Organization', name: 'SUPsfactory' },
-    publisher: { '@type': 'Organization', name: 'SUPsfactory' },
+    author: { '@type': 'Organization', name: SITE_NAME },
+    publisher: { '@type': 'Organization', name: SITE_NAME },
     datePublished: page.meta?.datePublished,
     dateModified: page.meta?.dateModified,
   }
@@ -263,7 +264,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
                 data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, [
                   'SUP Manufacturing',
                   'Factory Evidence and Certificate Scope',
-                  'Entity Relationship (SUPsfactory, afarer, Vatrad)',
+                  `Entity Relationship (${SITE_NAME}, afarer, Vatrad)`,
                   'Batch Traceability and Record Keeping',
                 ], 'SUP Factory Proof Center: Evidence Behind Manufacturing Claims')}
               />
@@ -497,8 +498,8 @@ export function ProductView({ product, related, origin, locale }: { product: Afa
           </h2>
           <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">
             {es
-              ? 'Empresas de todo el mundo fabrican esta tabla con SUPsfactory:'
-              : 'Businesses around the world manufacture this board with SUPsfactory:'}
+              ? `Empresas de todo el mundo fabrican esta tabla con ${SITE_NAME}:`
+              : `Businesses around the world manufacture this board with ${SITE_NAME}:`}
           </p>
           <div className="mt-6 grid gap-3 sm:grid-cols-2">
             {oemApplications(es).map((a) => (

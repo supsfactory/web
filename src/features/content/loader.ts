@@ -1,5 +1,6 @@
 import { parse } from 'yaml'
 import { assetUrl } from './assets'
+import { brandify as configBrandify } from './brand'
 import { defaultLocale, type Locale } from '@/features/i18n/locale'
 import type {
   AfarerArticle,
@@ -12,39 +13,30 @@ import type {
 } from './types'
 
 /**
- * afarer content loader.
+ * Content loader.
  *
- * All sources live in src/content/afarer/ and are bundled at build time as
+ * All sources live in src/content/site/ and are bundled at build time as
  * raw strings (Vite glob + `?raw`), so this works on Cloudflare Workers where
  * there is no filesystem at runtime. Parsing is cached at module level.
  *
- * The registry (site/pages.yaml) is the source of truth for page routes.
- * Additional pages that afarer serves via dedicated routes (research articles,
- * R&D subpages) are added through EXTRA_PATHS.
+ * NOTE: Vite requires import.meta.glob() paths to be static string literals.
+ * The content directory path cannot be parameterized at runtime; changing
+ * the content directory requires updating all glob paths below.
  */
 
-const siteGlob = import.meta.glob('../../content/afarer/site/*.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const pageGlob = import.meta.glob('../../content/afarer/pages/*.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-// Spanish sidecar variants — `pages/{slug}.es.yaml` / `site/{name}.es.yaml` are
-// full-structure copies of their English twin (translated values, same keys).
-// When present, /es/* pages render them instead of the English source.
-const esSiteGlob = import.meta.glob('../../content/afarer/site/*.es.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const esPageGlob = import.meta.glob('../../content/afarer/pages/*.es.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const productGlob = import.meta.glob('../../content/afarer/products/*.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const newsGlob = import.meta.glob('../../content/afarer/news/*.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-// Spanish sidecar variants — `news/{slug}.es.mdx` mirrors the English article
-// (translated frontmatter + body). getNewsPosts(locale) / getNewsPost(slug, locale)
-// overlay them when present; slugs keep the English (canonical) value.
-const newsEsGlob = import.meta.glob('../../content/afarer/news/*.es.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const techGlob = import.meta.glob('../../content/afarer/technology/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const caseGlob = import.meta.glob('../../content/afarer/case-use/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-// Spanish sidecar variants for products / technology / case-use: same naming as
-// news/`*.es.mdx`; locale-aware getters overlay them when present and keep the
-// English (canonical) slug value.
-const productEsGlob = import.meta.glob('../../content/afarer/products/*.es.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const techEsGlob = import.meta.glob('../../content/afarer/technology/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const caseEsGlob = import.meta.glob('../../content/afarer/case-use/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const geoGlob = import.meta.glob('../../content/afarer/geo/*.json', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const siteGlob = import.meta.glob('../../content/site/site/*.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const pageGlob = import.meta.glob('../../content/site/pages/*.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const esSiteGlob = import.meta.glob('../../content/site/site/*.es.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const esPageGlob = import.meta.glob('../../content/site/pages/*.es.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const productGlob = import.meta.glob('../../content/site/products/*.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const newsGlob = import.meta.glob('../../content/site/news/*.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const newsEsGlob = import.meta.glob('../../content/site/news/*.es.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const techGlob = import.meta.glob('../../content/site/technology/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const caseGlob = import.meta.glob('../../content/site/case-use/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const productEsGlob = import.meta.glob('../../content/site/products/*.es.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const techEsGlob = import.meta.glob('../../content/site/technology/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const caseEsGlob = import.meta.glob('../../content/site/case-use/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const geoGlob = import.meta.glob('../../content/site/geo/*.json', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 
 const stripBom = (s: string) => s.replace(/^\uFEFF/, '')
 
@@ -493,12 +485,8 @@ export function getSiteFaqs(locale: Locale = defaultLocale): { q: string; a: str
   return Array.isArray(parsed.faqs) ? parsed.faqs : []
 }
 
-/** Replaces the afarer `{SITE}`/`{BRAND}`/`{count}` template placeholders with brand values. */
 export function brandify(text: string): string {
-  return text
-    .replaceAll('{SITE}', 'SUPsfactory')
-    .replaceAll('{BRAND}', 'Afarer')
-    .replaceAll('{count}', String(REGION_COUNT))
+  return configBrandify(text)
 }
 
 /** Number of global market regions afarer serves (brand `{count}` value). */

@@ -1,5 +1,7 @@
 import { getNonce } from '@/lib/csp'
 import { FACTS } from '@/features/site/facts'
+import { SITE_NAME, SITE_URL } from '@/config/site'
+import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config/branding'
 
 /**
  * Shared JSON-LD (schema.org) builders.
@@ -15,7 +17,7 @@ export interface FaqQa {
 }
 
 /** Production origin for schema.org URLs (crawlers only hit prod). */
-export const SITE_ORIGIN = 'https://supsfactory.com'
+export const SITE_ORIGIN = SITE_URL
 
 export function JsonLd({ data }: { data: Record<string, unknown> }) {
   const nonce = getNonce()
@@ -40,7 +42,7 @@ export function contactPageLd(origin: string, path: string): Record<string, unkn
   return {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
-    name: 'Contact SUPsfactory',
+    name: 'Contact ' + SITE_NAME,
     url: `${origin}${path}`,
     about: 'SUP OEM/ODM manufacturing inquiry — project quotation, samples and production',
   }
@@ -51,7 +53,7 @@ export function aboutPageLd(origin: string, path: string, description: string): 
   return {
     '@context': 'https://schema.org',
     '@type': 'AboutPage',
-    name: 'About SUPsfactory',
+    name: 'About ' + SITE_NAME,
     url: `${origin}${path}`,
     description,
   }
@@ -96,9 +98,9 @@ export function siteLd(): Record<string, unknown>[] {
       '@context': 'https://schema.org',
       '@type': ['Organization', 'Manufacturer'],
       '@id': `${SITE_ORIGIN}/#organization`,
-      name: 'SUPsfactory',
+      name: SITE_NAME,
       alternateName: 'Supsfactory',
-      legalName: 'Qingdao Vatrad Group Co., Ltd.',
+      legalName: BRAND_COMPANY_NAME,
       url: `${SITE_ORIGIN}/`,
       logo: `${SITE_ORIGIN}/logo192.png`,
       description:
@@ -108,10 +110,10 @@ export function siteLd(): Record<string, unknown>[] {
       sameAs: ['https://afarer.com', FACTS.social.facebook, FACTS.social.linkedin, FACTS.social.youtube],
       parentOrganization: {
         '@type': 'Organization',
-        name: 'Qingdao Vatrad Group Co., Ltd.',
+        name: BRAND_COMPANY_NAME,
         sameAs: 'https://afarer.com',
       },
-      brand: { '@type': 'Brand', name: 'Afarer' },
+      brand: { '@type': 'Brand', name: BRAND_PARENT_BRAND },
       numberOfEmployees: { '@type': 'QuantitativeValue', value: '350+' },
       hasCredential: [
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'ISO 9001' },
@@ -163,7 +165,7 @@ export function siteLd(): Record<string, unknown>[] {
       '@type': 'WebSite',
       '@id': `${SITE_ORIGIN}/#website`,
       url: `${SITE_ORIGIN}/`,
-      name: 'SUPsfactory',
+      name: SITE_NAME,
       inLanguage: 'en',
       publisher: { '@id': `${SITE_ORIGIN}/#organization` },
     },
@@ -210,7 +212,7 @@ export function projectLd(input: {
     about: { '@type': 'Thing', name: input.industry },
     result: input.outcome,
     author: { '@id': `${SITE_ORIGIN}/#organization` },
-    publisher: { '@type': 'Organization', '@id': `${SITE_ORIGIN}/#organization`, name: 'SUPsfactory' },
+    publisher: { '@type': 'Organization', '@id': `${SITE_ORIGIN}/#organization`, name: SITE_NAME },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
   }
 }
@@ -238,7 +240,7 @@ export function newsArticleLd(input: {
       ? { dateModified: input.dateModified }
       : {}),
     ...(input.author ? { author: { '@type': 'Person', name: input.author } } : {}),
-    publisher: { '@type': 'Organization', '@id': `${SITE_ORIGIN}/#organization`, name: 'SUPsfactory' },
+    publisher: { '@type': 'Organization', '@id': `${SITE_ORIGIN}/#organization`, name: SITE_NAME },
     mainEntityOfPage: { '@type': 'WebPage', '@id': input.url },
     inLanguage: input.inLanguage ?? 'en',
   }
@@ -258,7 +260,7 @@ export function articleLd(input: {
     description: input.description,
     url,
     author: { '@id': `${SITE_ORIGIN}/#organization` },
-    publisher: { '@type': 'Organization', name: 'SUPsfactory' },
+    publisher: { '@type': 'Organization', name: SITE_NAME },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
   }
 }
@@ -271,7 +273,7 @@ export function articleLd(input: {
 export function factoryCapabilitiesLd(): Record<string, unknown> {
   return {
     '@type': 'ManufacturingFacility',
-    name: 'SUPsfactory Inflatable SUP Plant',
+    name: `${SITE_NAME} Inflatable SUP Plant`,
     description:
       '12,500 m² inflatable SUP manufacturing plant in Qingdao, China — the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.).',
     address: {
@@ -324,7 +326,7 @@ export function factoryCapabilitiesLd(): Record<string, unknown> {
     // 质量体系
     qualityControl: {
       '@type': 'Thing',
-      name: 'SUPsfactory quality system',
+      name: `${SITE_NAME} quality system`,
       description: `${FACTS.qualityGates} inspection gates · ${FACTS.assemblyChecklist} assembly checklist · ${FACTS.pressureTest} pressure hold · ${FACTS.traceabilityRet} ERP traceability per batch`,
     },
     foundingDate: '2012',
@@ -339,8 +341,8 @@ export function factoryCapabilitiesLd(): Record<string, unknown> {
 export function brandHeritageLd(): Record<string, unknown> {
   return {
     '@type': 'Brand',
-    name: 'SUPsfactory',
-    alternateName: 'Afarer',
+    name: SITE_NAME,
+    alternateName: BRAND_PARENT_BRAND,
     description: FACTS.boilerplate,
     foundingDate: '2012',
     founder: 'Qingdao Vatrad Group Co., Ltd.',
@@ -381,11 +383,11 @@ export function enhancedFaqLd(): Record<string, unknown> {
     keywords: string[]
   }[] = [
     {
-      q: 'What is SUPsfactory?',
+      q: `What is ${SITE_NAME}?`,
       a: FACTS.boilerplate,
       category: 'General',
       priority: 5,
-      keywords: ['SUPsfactory', 'SUP manufacturer', 'inflatable SUP factory', 'Qingdao'],
+      keywords: [SITE_NAME, 'SUP manufacturer', 'inflatable SUP factory', 'Qingdao'],
     },
     {
       q: 'What is the MOQ for custom SUP orders?',
@@ -482,7 +484,7 @@ export function warrantyReturnsLd(): Record<string, unknown> {
       '@type': 'HowTo',
       name: 'Warranty claim',
       description:
-        'Contact SUPsfactory through the contact page with your order number and product details; claims are adjudicated against the batch inspection records (10-year ERP traceability), not guesswork.',
+        `Contact ${SITE_NAME} through the contact page with your order number and product details; claims are adjudicated against the batch inspection records (10-year ERP traceability), not guesswork.`,
       step: [
         { '@type': 'HowToStep', position: 1, name: 'Contact sales', text: 'Reach us via the contact page with your order number and product details.' },
         { '@type': 'HowToStep', position: 2, name: 'Review against batch records', text: 'Claims are checked against the board serial number and 7-stage inspection records.' },

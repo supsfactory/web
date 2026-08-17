@@ -1,6 +1,8 @@
+import { SITE_NAME } from '@/config/site'
+
 export const es = {
   common: {
-    appName: 'SUPsfactory', toggleTheme: 'Cambiar tema', language: 'Idioma',
+    appName: SITE_NAME, toggleTheme: 'Cambiar tema', language: 'Idioma',
     search: 'Buscar', searchPlaceholder: 'Buscar productos, guías, proyectos…',
     searchStart: 'Escribe una palabra clave para empezar a buscar', searchNone: 'Sin resultados',
     searchResultsTitle: 'Buscar', searchResultsFor: 'Resultados para "{query}"', searchResultsEmpty: 'No se han encontrado resultados. Prueba con otra palabra clave.',

@@ -1,6 +1,7 @@
 import { createFileRoute, redirect } from '@tanstack/react-router'
 import { OG_IMAGE, localeHead } from '@/features/seo/seo'
 import { isLocale, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
+import { SITE_NAME } from '@/config/site'
 
 /**
  * Catch-all route for the ported afarer content site.
@@ -26,7 +27,7 @@ export const Route = createFileRoute('/$')({
     const localized = segments.length > 0 && isLocale(segments[0])
     const locale = (localized ? segments[0] : defaultLocale) as Locale
     const path = stripLocalePrefix(raw)
-    // '/en/...' → permanent redirect to the canonical no-prefix URL. The
+    // '/en/...' �?permanent redirect to the canonical no-prefix URL. The
     // {-$locale} group enforces this only for its own template routes; afarer
     // pages / products / news land here, so the catch-all must apply the same
     // rule (otherwise /en/factory would 200-render a noindexed duplicate).
@@ -43,10 +44,10 @@ export const Route = createFileRoute('/$')({
     const image = loaderData.kind === 'page' ? OG_IMAGE : ((loaderData as { image?: string }).image ?? OG_IMAGE)
     // og:image must be absolute; local /assets/* refs are resolved against the
     // site origin, and the 1200x630 pair only applies to the shared OG_IMAGE.
-    // Product images are AVIF for the <img> but crawlers lag on AVIF — point
+    // Product images are AVIF for the <img> but crawlers lag on AVIF �?point
     // og:image at the sibling JPG (kept alongside), after URL resolution.
     const absImage = (image.startsWith('http') ? image : `${origin}${image}`).replace(/\.avif$/, '.jpg')
-    // Translated /es/* pages get a real Spanish head (canonical → /es, es_ES
+    // Translated /es/* pages get a real Spanish head (canonical �?/es, es_ES
     // OG locale, hreflang alternates) and are indexable.
     if (loaderData.localized && translated) {
       return localeHead({ origin, locale, path, title, description, image: absImage })
@@ -54,7 +55,7 @@ export const Route = createFileRoute('/$')({
     const meta: Record<string, string>[] = [
       { title },
       { name: 'description', content: description },
-      { property: 'og:site_name', content: 'SUPsfactory' },
+      { property: 'og:site_name', content: SITE_NAME },
       { property: 'og:title', content: title },
       { property: 'og:description', content: description },
       { property: 'og:url', content: canonical },
@@ -68,22 +69,22 @@ export const Route = createFileRoute('/$')({
           ]
         : []),
       { property: 'og:image:type', content: absImage.endsWith('.webp') ? 'image/webp' : 'image/jpeg' },
-      { property: 'og:image:alt', content: `SUPsfactory — ${title.replace(/\s+\|.*$/, '')}` },
+      { property: 'og:image:alt', content: `${SITE_NAME} �?${title.replace(/\s+\|.*$/, '')}` },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: title },
       { name: 'twitter:description', content: description },
       { name: 'twitter:image', content: absImage },
-      { name: 'twitter:image:alt', content: `SUPsfactory — ${title.replace(/\s+\|.*$/, '')}` },
+      { name: 'twitter:image:alt', content: `${SITE_NAME} �?${title.replace(/\s+\|.*$/, '')}` },
     ]
     // /es/* afarer pages without a translation render the same English content
-    // as their en twin (canonical → en). Noindex the duplicate so only the en
+    // as their en twin (canonical �?en). Noindex the duplicate so only the en
     // page ranks.
     if (loaderData.localized) {
       meta.push({ name: 'robots', content: 'noindex, follow' })
     }
     // en twin of a page with a real /es translation: emit the es alternate so
     // hreflang is bidirectional (sitemap already cross-links; the page head
-    // must mirror it — Google requires the return tag on both sides).
+    // must mirror it �?Google requires the return tag on both sides).
     const hasEsTwin = !loaderData.localized && loaderData.esTranslated
     const links: Record<string, string>[] = [{ rel: 'canonical', href: canonical }]
     if (hasEsTwin) {

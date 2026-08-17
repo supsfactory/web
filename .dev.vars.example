@@ -1,28 +1,44 @@
+# ── Required ──────────────────────────────────────────────────────────────────
 # Better-Auth
 BETTER_AUTH_SECRET=replace-with-32+char-random-string
 BETTER_AUTH_URL=http://localhost:3000
-# Email (Resend) — blank keeps mail local: captured to the console, never sent
+
+# ── Email (Resend) ───────────────────────────────────────────────────────────
+# Blank keeps mail local: captured to the console, never sent
 RESEND_API_KEY=
-EMAIL_FROM=SUPsfactory <onboarding@resend.dev>
+EMAIL_FROM={{SITE_NAME}} <onboarding@resend.dev>
 # Optional: Resend audience id for the waitlist (and future newsletter).
 # Leave blank to disable audience sync — signups still save to D1.
 RESEND_AUDIENCE_ID=
-# Social OAuth — blank hides that provider's button
+
+# ── Social OAuth ─────────────────────────────────────────────────────────────
+# Blank hides that provider's button
 GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
 GITHUB_CLIENT_ID=
 GITHUB_CLIENT_SECRET=
-# Admin — comma-separated emails; these get the admin role on signup/login
+
+# ── Admin ────────────────────────────────────────────────────────────────────
+# Comma-separated emails; these get the admin role on signup/login
 ADMIN_EMAILS=
+
+# ── Optional ─────────────────────────────────────────────────────────────────
 # Cloudflare Turnstile bot protection (signup/login/password reset).
 # Both blank = off, and the forms keep working. Create a widget at
 # https://dash.cloudflare.com/?to=/:account/turnstile to get the keys.
 TURNSTILE_SITE_KEY=
 TURNSTILE_SECRET_KEY=
+
 # Cloudflare Web Analytics (privacy-friendly, free). Blank = no beacon injected.
 # Token lives in Dashboard -> Analytics & Logs -> Web Analytics.
 CF_ANALYTICS_TOKEN=
-# Optional: GA4 measurement id (client-side conversion events). Blank = no gtag loaded.
+
+# GA4 measurement id (client-side conversion events). Blank = no gtag loaded.
 # GA4_MEASUREMENT_ID=G-XXXXXXXXXX
+
 # Sentry server-side error reporting. Blank = off. DSN is in the Sentry project settings.
 SENTRY_DSN=
+
+# CI bearer token for /api/reindex (see .github/workflows/ai-index.yml).
+# Blank = reindex endpoint disabled.
+REINDEX_TOKEN=

@@ -128,13 +128,9 @@ export const EDGE_REDIRECTS: Record<string, string> = {
 }
 
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
+import { GONE_PATHS as CONFIG_GONE_PATHS } from '@/config/navigation'
 
-const GONE_PATHS = [
-  '/waitlist', '/changelog', '/es/waitlist', '/es/changelog', '/zh/waitlist', '/zh/changelog',
-  // RIB case study removed — SUPsfactory is SUP-only, RIBs are sold through afarer.com
-  '/evidence/case-studies/marine-professional-operations',
-  '/es/evidence/case-studies/marine-professional-operations',
-]
+const GONE_PATHS = CONFIG_GONE_PATHS
 
 export type EdgeGate =
   | { action: 'ok' }

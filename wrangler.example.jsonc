@@ -6,62 +6,52 @@
  *   cp wrangler.example.jsonc wrangler.jsonc
  *
  * Placeholders to replace in `wrangler.jsonc` after creating your resources:
- *   - env.{staging,production}.d1_databases[].database_id  (wrangler d1 create ...)
- *   - env.{staging,production}.kv_namespaces[].id          (wrangler kv namespace create CACHE --env ...)
+ *   - name                                 (your worker name, e.g. "myproduct")
+ *   - env.{staging,production}.name         (e.g. "myproduct-staging", "myproduct-production")
+ *   - d1_databases[].database_name          (e.g. "myproduct-db")
+ *   - d1_databases[].database_id            (wrangler d1 create ...)
+ *   - r2_buckets[].bucket_name              (e.g. "myproduct-files")
+ *   - kv_namespaces[].id                    (wrangler kv namespace create CACHE --env ...)
+ *   - vectorize[].index_name                (e.g. "myproduct-knowledge")
  *   - optionally add env.production.routes for a custom domain
- * Keep this example file in sync when you add new bindings/vars.
+ *
+ * All resource names follow the convention: {siteId}-{resource}-{env}
+ * where siteId comes from src/config/site.ts SITE_ID.
+ * gen-wrangler.mjs patches the production block during CI.
  *
  * For more details on how to configure Wrangler, refer to:
  * https://developers.cloudflare.com/workers/wrangler/configuration/
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "supsfactory",
+	"name": "{{SITE_ID}}",
 	"compatibility_date": "2026-05-30",
 	"compatibility_flags": [
 		"nodejs_compat"
 	],
-	// Custom worker entry wraps the framework's server-entry to add env
-	// validation + security headers (see src/worker.ts).
 	"main": "./src/worker.ts",
 	"observability": {
 		"enabled": true
 	},
 	"upload_source_maps": true,
-	// Cron Triggers：每日 03:00 UTC 跑维护清理（过期 session/verification + 陈旧限流）。
-	// scheduled handler 见 src/worker.ts；清理逻辑见 src/features/maintenance/cleanup.ts。
-	// 这是 CF 定时任务的参考实现——按需添加你自己的周期任务（如发送摘要邮件）。
 	"triggers": {
 		"crons": [
 			"0 3 * * *",
 			"*/5 * * * *"
 		]
 	},
-	/**
-	 * Smart Placement
-	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
-	 */
-	// "placement": {  "mode": "smart" }
-	/**
-	 * Bindings
-	 * Bindings allow your Worker to interact with resources on the Cloudflare Developer Platform, including
-	 * databases, object storage, AI inference, real-time communication and more.
-	 * https://developers.cloudflare.com/workers/runtime-apis/bindings/
-	 */
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "supsfactory-db",
+			"database_name": "{{SITE_ID}}-db",
 			"database_id": "00000000-0000-0000-0000-000000000000",
 			"migrations_dir": "drizzle"
 		}
 	],
-	// 对象存储（头像/文件上传）。本地 dev/test 用 miniflare 自动模拟，零配置即用。
-	// 部署前先建桶：`wrangler r2 bucket create supsfactory-files`（见 docs/storage.md）。
 	"r2_buckets": [
 		{
 			"binding": "BUCKET",
-			"bucket_name": "supsfactory-files"
+			"bucket_name": "{{SITE_ID}}-files"
 		}
 	],
 	"kv_namespaces": [
@@ -70,27 +60,15 @@
 			"id": "00000000000000000000000000000000"
 		}
 	],
-	// Workers AI + Vectorize — AI sales assistant (POST /api/ask, see src/features/ai/).
-	// 部署前先建索引：`wrangler vectorize create sups-knowledge --dimensions=1024 --metric=cosine`
-	// （staging/prod 同名加后缀）。索引绑定固定指向 index_name，代码里直接 env.VECTORIZE 调用。
 	"ai": {
 		"binding": "AI"
 	},
 	"vectorize": [
 		{
 			"binding": "VECTORIZE",
-			"index_name": "sups-knowledge"
+			"index_name": "{{SITE_ID}}-knowledge"
 		}
 	],
-	/**
-	 * Environment Variables
-	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
-	 * Note: Use secrets to store sensitive data.
-	 * https://developers.cloudflare.com/workers/configuration/secrets/
-	 */
-	// Declaring var keys here gives `wrangler types` enough info to type env.BETTER_AUTH_SECRET etc.
-	// Real values are supplied via .dev.vars (local) or `wrangler secret put` (production).
-	// Empty strings are fine — they are never deployed; secrets override them.
 	"vars": {
 		"BETTER_AUTH_SECRET": "",
 		"BETTER_AUTH_URL": "",
@@ -107,27 +85,11 @@
 		"SENTRY_DSN": "",
 		"RESEND_AUDIENCE_ID": "",
 		"GA4_MEASUREMENT_ID": "",
-		// CI 触发 /api/reindex 用的 bearer token（见 .github/workflows/ai-index.yml）
 		"REINDEX_TOKEN": ""
 	},
-	/**
-	 * Static Assets
-	 * https://developers.cloudflare.com/workers/static-assets/binding/
-	 */
-	// "assets": {  "directory": "./public/",  "binding": "ASSETS" }
-	/**
-	 * Service Bindings (communicate between multiple Workers)
-	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
-	 */
-	// "services": [  {   "binding": "MY_SERVICE",   "service": "my-service"  } ]
-	/**
-	 * Named Environments (staging / production)
-	 * Note: Named environments do NOT inherit top-level bindings in wrangler,
-	 * so each env repeats its own binding declarations.
-	 */
 	"env": {
 		"staging": {
-			"name": "supsfactory-staging",
+			"name": "{{SITE_ID}}-staging",
 			"triggers": {
 				"crons": [
 					"0 3 * * *",
@@ -137,16 +99,15 @@
 			"d1_databases": [
 				{
 					"binding": "DB",
-					"database_name": "supsfactory-db-staging",
+					"database_name": "{{SITE_ID}}-db-staging",
 					"database_id": "00000000-0000-0000-0000-000000000000",
 					"migrations_dir": "drizzle"
 				}
 			],
-			// 部署前先建桶：`wrangler r2 bucket create supsfactory-files-staging`。
 			"r2_buckets": [
 				{
 					"binding": "BUCKET",
-					"bucket_name": "supsfactory-files-staging"
+					"bucket_name": "{{SITE_ID}}-files-staging"
 				}
 			],
 			"kv_namespaces": [
@@ -161,12 +122,12 @@
 			"vectorize": [
 				{
 					"binding": "VECTORIZE",
-					"index_name": "sups-knowledge-staging"
+					"index_name": "{{SITE_ID}}-knowledge-staging"
 				}
 			]
 		},
 		"production": {
-			"name": "supsfactory-production",
+			"name": "{{SITE_ID}}-production",
 			"triggers": {
 				"crons": [
 					"0 3 * * *",
@@ -176,16 +137,15 @@
 			"d1_databases": [
 				{
 					"binding": "DB",
-					"database_name": "supsfactory-db-prod",
+					"database_name": "{{SITE_ID}}-db-prod",
 					"database_id": "00000000-0000-0000-0000-000000000000",
 					"migrations_dir": "drizzle"
 				}
 			],
-			// 部署前先建桶：`wrangler r2 bucket create supsfactory-files-prod`。
 			"r2_buckets": [
 				{
 					"binding": "BUCKET",
-					"bucket_name": "supsfactory-files-prod"
+					"bucket_name": "{{SITE_ID}}-files-prod"
 				}
 			],
 			"kv_namespaces": [
@@ -200,7 +160,7 @@
 			"vectorize": [
 				{
 					"binding": "VECTORIZE",
-					"index_name": "sups-knowledge-prod"
+					"index_name": "{{SITE_ID}}-knowledge-prod"
 				}
 			]
 		}

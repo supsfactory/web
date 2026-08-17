@@ -16,7 +16,7 @@ const routeName = (f: string): string | null => {
   return name
 }
 
-/** Dedicated root routes (`factory.tsx` â†’ `/factory`) that outrank the `{- $locale}` group. */
+/** Dedicated root routes (`factory.tsx` â†?`/factory`) that outrank the `{- $locale}` group. */
 const rootRoutes = readdirSync(routesRoot)
   .map(routeName)
   .filter((n): n is string => n != null)
@@ -37,10 +37,10 @@ test('every single-segment afarer page has a serving route (P0 regression guard)
   for (const p of singleSegmentPages) {
     // The optional `{- $locale}` group terminates on a bare segment BEFORE the
     // root `/$` catch-all is considered, so single-segment registry pages must
-    // be covered by a dedicated root route (afarerSingleRoute), a `{- $locale}`
+    // be covered by a dedicated root route (contentSingleRoute), a `{- $locale}`
     // child (locale=undefined), or an edge-gate redirect/410.
     const covered = rootRoutes.includes(p) || localeGroupChildren.includes(p) || gatePath(p).action !== 'ok'
-    expect(covered, `${p} would 404 through the {- $locale} group â€” add a dedicated route via afarerSingleRoute`).toBe(true)
+    expect(covered, `${p} would 404 through the {- $locale} group â€?add a dedicated route via contentSingleRoute`).toBe(true)
   }
 })
 

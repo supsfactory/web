@@ -11,7 +11,9 @@
  * `images/afarer/` tree into R2 at `images/sups/`, so every path below exists.
  */
 
-const CDN_BASE = 'https://assets.supsfactory.com'
+import { BRAND_ASSETS_CDN } from '@/config/branding'
+
+const CDN_BASE = BRAND_ASSETS_CDN
 const CDN_PREFIX = 'images/sups/'
 const LEGACY_PREFIX = 'https://assets.afarer.com/images/afarer/'
 

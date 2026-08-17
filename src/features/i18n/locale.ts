@@ -1,24 +1,23 @@
 import { en, type Dict } from './dictionaries/en'
 import { es } from './dictionaries/es'
+import { SUPPORTED_LOCALES as CONFIG_LOCALES, DEFAULT_LOCALE as CONFIG_DEFAULT_LOCALE, isLocale as configIsLocale, localizePath as configLocalizePath, stripDefaultLocalePrefix as configStripDefaultLocalePrefix, negotiateLocale as configNegotiateLocale, type Locale as ConfigLocale } from '@/config/locales'
 
-export const locales = ['en', 'es'] as const
-export type Locale = (typeof locales)[number]
-export const defaultLocale: Locale = 'en'
+export const locales = CONFIG_LOCALES
+export type Locale = ConfigLocale
+export const defaultLocale: Locale = CONFIG_DEFAULT_LOCALE
 
 export const dictionaries: Record<Locale, Dict> = { en, es }
 
 export function isLocale(value: unknown): value is Locale {
-  return typeof value === 'string' && (locales as readonly string[]).includes(value)
+  return configIsLocale(value)
 }
 
-/** True for paths under the /es prefixed locale (used outside the locale layout). */
 export function isEsPath(path: string): boolean {
   return path === '/es' || path.startsWith('/es/')
 }
 
 type Params = Record<string, string | number>
 
-/** 按点路径取文案；缺失回退 key；支持 {var} 插值。 */
 export function translate(dict: Dict, key: string, params?: Params): string {
   const value = key.split('.').reduce<unknown>((acc, part) => {
     if (acc && typeof acc === 'object' && part in acc) return (acc as Record<string, unknown>)[part]
@@ -31,34 +30,17 @@ export function translate(dict: Dict, key: string, params?: Params): string {
   )
 }
 
-/** 从完整 href 上剥掉冗余的 /en 前缀，保留 query 和 hash——
- *  规范化重定向用（`/en/contact?ref=x` → `/contact?ref=x`）。 */
 export function stripDefaultLocalePrefix(href: string): string {
-  const stripped = href.replace(/^\/en(?=[/?#]|$)/, '')
-  if (stripped === '') return '/'
-  if (stripped.startsWith('?') || stripped.startsWith('#')) return `/${stripped}`
-  return stripped
+  return configStripDefaultLocalePrefix(href)
 }
 
-/** en 无前缀；其余 locale 加 /{locale} 前缀。 */
 export function localizePath(locale: Locale, path: string): string {
-  const clean = path === '/' ? '' : path
-  if (locale === defaultLocale) return clean || '/'
-  return `/${locale}${clean}` || `/${locale}`
+  return configLocalizePath(locale, path)
 }
 
-/** SSR 语言协商：cookie 优先，其次 Accept-Language，最后默认。 */
 export function negotiateLocale(
   cookieLocale: string | undefined,
   acceptLanguage: string | null,
 ): Locale {
-  if (isLocale(cookieLocale)) return cookieLocale
-  if (acceptLanguage) {
-    for (const part of acceptLanguage.split(',')) {
-      const tag = part.split(';')[0].trim().toLowerCase()
-      const base = tag.split('-')[0]
-      if (isLocale(base)) return base
-    }
-  }
-  return defaultLocale
+  return configNegotiateLocale(cookieLocale, acceptLanguage)
 }

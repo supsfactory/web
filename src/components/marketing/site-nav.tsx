@@ -6,6 +6,7 @@ import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
 import { SearchDialog } from '@/components/marketing/search-dialog'
 import { useTranslation } from '@/features/i18n/provider'
+import { SITE_NAME } from '@/config/site'
 
 interface NavItem {
   label: string
@@ -183,7 +184,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
           {authLink}
         </div>
         <nav className="flex h-16 items-center gap-3 px-4 md:px-7">
-          <a href={l('/')} aria-label="SUPsfactory" className="shrink-0">
+          <a href={l('/')} aria-label={SITE_NAME} className="shrink-0">
             <div className="flex flex-col leading-tight">
               <Logo />
               <span className="text-[10.5px] font-medium uppercase tracking-[0.12em] text-fg-3">{t('sup.nav.poweredBy')}</span>

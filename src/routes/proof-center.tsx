@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { afarerSingleRoute } from '@/features/content/afarer-single'
+import { contentSingleRoute } from '@/features/content/content-single-route'
 
 export const Route = createFileRoute('/proof-center')({
-  ...afarerSingleRoute('/proof-center'),
+  ...contentSingleRoute('/proof-center'),
 })

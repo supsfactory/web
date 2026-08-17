@@ -1,6 +1,8 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { env } from '@/lib/env'
 import { getGeoEntity } from '@/features/content/loader'
+import { SITE_NAME } from '@/config/site'
+import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_BOILERPLATE } from '@/config/branding'
 import {
   brandHeritageLd,
   enhancedFaqLd,
@@ -27,14 +29,13 @@ const handler = () => {
   const out = JSON.parse(JSON.stringify(entity)) as Record<string, unknown>
   if (typeof out['@id'] === 'string') out['@id'] = `${origin}/#organization`
   if (typeof out.url === 'string') out.url = origin
-  out.name = 'SUPsfactory'
-  out.description =
-    'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.) — a 12,500 m² inflatable SUP plant in Qingdao, China, producing since 2012. OEM, ODM and private-label manufacturing: engineering, tooling, sampling, production and export; tiered MOQ from 1–2 sample boards to 90–100+ boards per 150 m roll, samples in 7–12 days and bulk production in 25–35 days.'
+  out.name = SITE_NAME
+  out.description = BRAND_BOILERPLATE
   out.parentOrganization = {
     '@type': 'Organization',
-    name: 'Afarer',
+    name: BRAND_PARENT_BRAND,
     description:
-      'Afarer is the SUP manufacturing division of Qingdao Vatrad Group Co., Ltd. — OEM/ODM inflatable SUP production in Qingdao, China.',
+      `${BRAND_PARENT_BRAND} is the SUP manufacturing division of ${BRAND_COMPANY_NAME} — OEM/ODM inflatable SUP production in Qingdao, China.`,
   }
   out.knowsAbout = [
     'SUP manufacturing',

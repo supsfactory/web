@@ -19,7 +19,7 @@ import { solutionPath, solutionPages } from '@/features/site/solution-pages'
 
 /* ───────────────────────── live route set ───────────────────────── */
 
-const contentRoot = resolve(process.cwd(), 'src/content/afarer')
+const contentRoot = resolve(process.cwd(), 'src/content/site')
 const routesRoot = resolve(process.cwd(), 'src/routes')
 
 /** Dedicated root routes (`factory.tsx` → `/factory`). */

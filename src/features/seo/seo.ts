@@ -1,4 +1,7 @@
 import { locales, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
+import { SITE_NAME } from '@/config/site'
+import { BRAND_OG_IMAGE, BRAND_HERO_IMAGE, BRAND_HERO_IMAGE_768, BRAND_HERO_IMAGE_480 } from '@/config/branding'
+import { OG_LOCALE, HREFLANG } from '@/config/locales'
 
 interface PublicPathEntry {
   path: string
@@ -26,23 +29,11 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/about/supsfactory-entity', lastmod: '2026-06-30' },
 ]
 
-// Open Graph 要求 language_TERRITORY 形态（en_US），裸语言码会被严格解析器忽略。
-const OG_LOCALE: Record<Locale, string> = { en: 'en_US', es: 'es_ES' }
+export const OG_IMAGE = BRAND_OG_IMAGE
 
-// RFC 5646 语言标签（hreflang / alternate link）——裸语言码对 Google 不够精确。
-const HREFLANG: Record<Locale, string> = { en: 'en-US', es: 'es-ES' }
-
-// 社交分享封面：真实产品图（assets.supsfactory.com，自有 R2 CDN）比 logo 更适合做 OG 图。
-// afarer-og-default.webp 为 1200x630 的专用 OG 规格图（源图 products/afarer-juno-sup-board.webp，
-// 由 scripts/afarer-images 上传工作流同步到 R2；本地重新生成后需重新跑上传）。
-export const OG_IMAGE = 'https://assets.supsfactory.com/images/sups/products/afarer-og-default.webp'
-
-// 首页 hero 显示图：同一个 1200x630 OG 图的 AVIF 编码（scripts/afarer-images/products/
-// afarer-og-default.avif，q50，70KB → 38KB）。显示用 AVIF 减 LCP 传输；og:image 留 webp
-// 是因为部分社交爬虫对 AVIF 支持不全。
-export const HERO_IMAGE = 'https://assets.supsfactory.com/images/sups/products/afarer-og-default.avif'
-export const HERO_IMAGE_768 = 'https://assets.supsfactory.com/images/sups/products/afarer-og-default-768.avif'
-export const HERO_IMAGE_480 = 'https://assets.supsfactory.com/images/sups/products/afarer-og-default-480.avif'
+export const HERO_IMAGE = BRAND_HERO_IMAGE
+export const HERO_IMAGE_768 = BRAND_HERO_IMAGE_768
+export const HERO_IMAGE_480 = BRAND_HERO_IMAGE_480
 
 export function buildRobots(origin: string): string {
   const aiAgents = [
@@ -212,7 +203,7 @@ export function localeHead(input: {
   const meta: HeadMeta[] = [
     { title },
     { name: 'description', content: description },
-    { property: 'og:site_name', content: 'SUPsfactory' },
+    { property: 'og:site_name', content: SITE_NAME },
     { property: 'og:title', content: ogTitle ?? title },
     { property: 'og:description', content: description },
     { property: 'og:url', content: canonical },
@@ -225,8 +216,8 @@ export function localeHead(input: {
       property: 'og:image:alt',
       content:
         locale === 'es'
-          ? 'SUPsfactory — Fabricante OEM de tablas de SUP hinchables'
-          : 'SUPsfactory — Inflatable SUP OEM factory floor',
+          ? `${SITE_NAME} — Fabricante OEM de tablas de SUP hinchables`
+          : `${SITE_NAME} — Inflatable SUP OEM factory floor`,
     },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: title },
@@ -236,8 +227,8 @@ export function localeHead(input: {
       name: 'twitter:image:alt',
       content:
         locale === 'es'
-          ? 'SUPsfactory — Fabricante OEM de tablas de SUP hinchables'
-          : 'SUPsfactory — Inflatable SUP OEM factory floor',
+          ? `${SITE_NAME} — Fabricante OEM de tablas de SUP hinchables`
+          : `${SITE_NAME} — Inflatable SUP OEM factory floor`,
     },
   ]
   return { meta, links }
