@@ -101,4 +101,20 @@ describe('buildChunks', () => {
     const chunks = buildChunks('en')
     expect(chunks.some((c) => c.url === '/faq' && c.text.startsWith('Q: '))).toBe(true)
   })
+  test('mdx article bodies are chunked (excerpt + multiple body parts)', () => {
+    const chunks = buildChunks('en')
+    const byUrl = new Map<string, number>()
+    for (const c of chunks.filter((c) => c.url.startsWith('/news/'))) {
+      byUrl.set(c.url, (byUrl.get(c.url) ?? 0) + 1)
+    }
+    expect([...byUrl.values()].some((n) => n > 1)).toBe(true)
+  })
+  test('yaml page section text is chunked (e.g. factory capacity numbers)', () => {
+    const chunks = buildChunks('en')
+    expect(chunks.some((c) => c.text.includes('12,500'))).toBe(true)
+  })
+  test('full-body corpus is substantially larger than the summary-only one', () => {
+    expect(buildChunks('en').length).toBeGreaterThan(300)
+    expect(buildChunks('es').length).toBeGreaterThan(100)
+  })
 })

@@ -14,6 +14,7 @@ import { projects } from '@/features/site/projects'
 import { seriesPages } from '@/features/site/series-pages'
 import { GUIDES, GUIDES_ES } from '@/features/content/guide-content'
 import {
+  brandify,
   getAfarerPage,
   getAfarerPages,
   getAfarerProducts,
@@ -27,6 +28,69 @@ import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { stableHash, makeChunk, type AiChunk } from './rag'
 
 const FAQ_PATH = '/faq'
+/** Body chunks are capped around this many chars — big enough for an answer,
+ *  small enough to keep bge-m3 embeddings focused. */
+const CHUNK_CHARS = 1800
+
+/** Strip markdown to plain text (headings, links, lists, emphasis, tables…). */
+function mdToText(md: string): string {
+  return md
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/`([^`]*)`/g, '$1')
+    .replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(/^#{1,6}\s+/gm, '')
+    .replace(/^\s*[-*+]\s+/gm, '')
+    .replace(/^\s*\d+[.)]\s+/gm, '')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/(^|\s)\*([^*]+)\*(?=\s|$)/g, '$1$2')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\|/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+/** Split a body into ~CHUNK_CHARS paragraph-grouped pieces (stable part ids). */
+function chunkBody(body: string): string[] {
+  const paragraphs = body
+    .split(/\n{2,}/)
+    .map((p) => mdToText(p))
+    .map((p) => p.trim())
+    .filter((p) => p.length > 20)
+  const out: string[] = []
+  let buf = ''
+  for (const p of paragraphs) {
+    if (buf && buf.length + p.length + 1 > CHUNK_CHARS) {
+      out.push(buf)
+      buf = ''
+    }
+    buf = buf ? `${buf} ${p}` : p
+  }
+  if (buf) out.push(buf)
+  return out
+}
+
+/** Deep-walk a YAML page's `content` record into one text blob (all sections). */
+function pageText(content: Record<string, unknown>): string {
+  const parts: string[] = []
+  const walk = (v: unknown): void => {
+    if (typeof v === 'string') {
+      const s = v.trim()
+      if (s.length > 2 && !/^(https?:\/\/|\/)/.test(s) && !/\.(jpe?g|png|webp|svg|avif|pdf)$/i.test(s)) {
+        parts.push(s)
+      }
+    } else if (Array.isArray(v)) {
+      for (const item of v) walk(item)
+    } else if (v && typeof v === 'object') {
+      for (const val of Object.values(v)) walk(val)
+    }
+  }
+  for (const [key, value] of Object.entries(content)) {
+    if (key === 'meta' || key === 'cta') continue
+    walk(value)
+  }
+  return parts.join('\n')
+}
 
 /** Stable chunk id per (locale, url, part) — text changes overwrite the same vector. */
 const chunkId = (locale: Locale, url: string, part = ''): string =>
@@ -92,23 +156,32 @@ export function buildChunks(locale: Locale): AiChunk[] {
   }
 
   for (const p of getAfarerProducts(locale)) {
-    push(url(`/products/${p.slug}`), p.title, [p.summary, p.description].filter(Boolean).join('\n'))
+    const u = url(`/products/${p.slug}`)
+    push(u, p.title, [p.summary, p.description].filter(Boolean).join('\n'))
+    for (const [i, t] of chunkBody(brandify(p.body)).entries()) push(u, p.title, t, `body${i}`)
   }
 
   for (const n of getNewsPosts(locale)) {
-    push(url(`/news/${n.slug}`), n.title, n.excerpt ?? '')
+    const u = url(`/news/${n.slug}`)
+    push(u, n.title, n.excerpt ?? '')
+    for (const [i, t] of chunkBody(brandify(n.body)).entries()) push(u, n.title, t, `body${i}`)
   }
 
   for (const t of getTechArticles(locale)) {
-    push(url(`/technology/${t.slug}`), t.title, [t.summary, t.description].filter(Boolean).join('\n'))
+    const u = url(`/technology/${t.slug}`)
+    push(u, t.title, [t.summary, t.description].filter(Boolean).join('\n'))
+    for (const [i, b] of chunkBody(brandify(t.body)).entries()) push(u, t.title, b, `body${i}`)
   }
 
   for (const c of getCaseUses(locale)) {
-    push(url(`/evidence/case-studies/${c.slug}`), c.title, [c.summary, c.description].filter(Boolean).join('\n'))
+    const u = url(`/evidence/case-studies/${c.slug}`)
+    push(u, c.title, [c.summary, c.description].filter(Boolean).join('\n'))
+    for (const [i, b] of chunkBody(brandify(c.body)).entries()) push(u, c.title, b, `body${i}`)
   }
 
   // Afarer pages carry their own SEO description — good one-chunk answers
-  // (product-development, private-label, customizer, trust pages etc.).
+  // (product-development, private-label, customizer, trust pages etc.). Full
+  // page text is added per-section so deep details are searchable too.
   for (const p of getAfarerPages()) {
     if (p.path in EDGE_REDIRECTS || p.path === FAQ_PATH) continue
     if (locale === 'es' && !isAfarerPageTranslated(p.path, 'es')) continue
@@ -116,6 +189,9 @@ export function buildChunks(locale: Locale): AiChunk[] {
     const seo = page.content.seo as { title?: string; description?: string } | undefined
     const title = (seo?.title ?? '').replace(/[|–—-].*$/, '').trim() || page.label
     push(url(p.path), title, seo?.description ?? '')
+    for (const [i, t] of chunkBody(brandify(pageText(page.content))).entries()) {
+      push(url(p.path), title, t, `body${i}`)
+    }
   }
 
   const faqUrl = url(FAQ_PATH)
