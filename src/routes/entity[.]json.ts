@@ -1,6 +1,13 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { env } from '@/lib/env'
 import { getGeoEntity } from '@/features/content/loader'
+import {
+  brandHeritageLd,
+  enhancedFaqLd,
+  factoryCapabilitiesLd,
+  shippingLogisticsLd,
+  warrantyReturnsLd,
+} from '@/features/seo/jsonld'
 
 /**
  * `/entity.json` — schema.org Organization entity that describes the factory
@@ -55,6 +62,12 @@ const handler = () => {
     { '@type': 'CollectionPage', name: 'Projects', url: `${origin}/projects` },
     { '@type': 'CollectionPage', name: 'Knowledge Center', url: `${origin}/knowledge` },
   ]
+  // GEO 扩展实体（与 jsonld.tsx 的每页 JSON-LD 同源，口径与 /factory、/quality、/warranty 页面一致）
+  out.brandHeritage = brandHeritageLd()
+  out.factoryCapabilities = factoryCapabilitiesLd()
+  out.enhancedFaq = enhancedFaqLd()
+  out.warranty = warrantyReturnsLd()
+  out.shippingLogistics = shippingLogisticsLd()
   return new Response(JSON.stringify(out, null, 2), {
     headers: { 'content-type': 'application/json; charset=utf-8' },
   })

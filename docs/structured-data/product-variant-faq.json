@@ -1,0 +1,69 @@
+{
+  "description": "Product FAQ structure for inflatable SUP product variants",
+  "type": "object",
+  "properties": {
+    "productVariant": {
+      "type": "object",
+      "properties": {
+        "variantName": {
+          "type": "string",
+          "description": "Specific variant name (e.g., 'Cheetah Surge Edition')"
+        },
+        "baseProduct": {
+          "type": "string",
+          "description": "Base product this variant relates to (e.g., 'SUP Explorer 11')"
+        },
+        "sku": {
+          "type": "string",
+          "description": "SKU for this specific variant"
+        },
+        "priceModifier": {
+          "type": "string",
+          "description": "Price difference from base product (e.g., '+$50 for custom graphics')"
+        }
+      },
+      "required": ["variantName", "baseProduct"]
+    },
+    "variantFaqs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string",
+            "description": "FAQ question specific to this variant"
+          },
+          "answer": {
+            "type": "string",
+            "description": "FAQ answer specific to this variant"
+          },
+          "category": {
+            "type": "string",
+            "enum": ["Customization", "Pricing", "Production", "Shipping", "Warranty"],
+            "description": "Category of the FAQ"
+          }
+        },
+        "required": ["question", "answer", "category"]
+      },
+      "description": "Array of variant-specific FAQ entries"
+    },
+    "productionConstraints": {
+      "type": "object",
+      "properties": {
+        "maxCustomizations": {
+          "type": "integer",
+          "description": "Maximum number of customization options allowed"
+        },
+        "leadTimeImpact": {
+          "type": "string",
+          "description": "Additional lead time for customizations (e.g., '+2 weeks')"
+        },
+        "minimumOrder": {
+          "type": "integer",
+          "description": "Minimum order quantity for this variant"
+        }
+      },
+      "description": "Production constraints for this product variant"
+    }
+  }
+}

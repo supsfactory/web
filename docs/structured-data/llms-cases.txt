@@ -1,0 +1,90 @@
+SUPsfactory Case Studies
+=========================
+
+Case Study 1: European SUP Brand Launch
+---------------------------------------
+Client: European SUP Brand
+Challenge: Need custom inflatable boards with specific graphics and packaging
+Solution: OEM development from design to mass production
+Factory Process:
+  - Design phase: 4 weeks
+  - Prototype development: 3 weeks
+  - Testing and validation: 2 weeks
+  - Mass production: 6 weeks
+  - Quality control: 1 week
+Result: 5000 units delivered in 120 days
+Key Takeaway: End-to-end OEM process reduces time-to-market by 40%
+
+Case Study 2: Resort SUP Fleet
+-----------------------------------
+Client: Resort Management Company
+Challenge: Need 320 rental boards in two sizes (10'6" and 11'0") across coastal stations in three countries, delivered in three phased batches within 120 days.
+Challenge: Need custom inflatable boards with specific graphics and packaging
+Solution: OEM development from design to mass production
+Factory Process:
+  - Design phase: 4 weeks
+  - Prototype development: 3 weeks
+  - Testing and validation: 2 weeks
+  - Mass production: 6 weeks
+  - Quality control: 1 week
+Result: 5000 units delivered in 120 days
+Key Takeaway: End-to-end OEM process reduces time-to-market by 40%
+
+Case Study 3: European Distributor Private Label
+-----------------------------------
+Client: European Distributor
+Challenge: Need 1,200 branded boards across two SKUs (10'6" all-around and 12'6" touring) with EU retail packaging, delivered in 90 days.
+Challenge: Need custom inflatable boards with specific graphics and packaging
+Solution: OEM development from design to mass production
+Factory Process:
+  - Design phase: 4 weeks
+  - Prototype development: 3 weeks
+  - Testing and validation: 2 weeks
+  - Mass production: 6 weeks
+  - Quality control: 1 week
+Result: 5000 units delivered in 120 days
+Key Takeaway: End-to-end OEM process reduces time-to-market by 40%
+
+Case Study 4: School SUP Program
+-----------------------------------
+Client: School District
+Challenge: Need custom inflatable boards for physical education programs with safety focus and durability
+Solution: OEM development with safety-focused design and durable construction
+Factory Process:
+  - Design phase: 3 weeks
+  - Prototype development: 2 weeks
+  - Testing and validation: 2 weeks
+  - Mass production: 5 weeks
+  - Quality control: 1 week
+Result: 200 units delivered in 90 days with safety certifications
+Key Takeaway: Safety-focused design reduces liability and enhances program credibility
+
+Case Study 5: School SUP Program (2)
+-----------------------------------
+Client: International School
+Challenge: Need custom inflatable boards for physical education programs with safety focus and durability
+Solution: OEM development with safety-focused design and durable construction
+Factory Process:
+  - Design phase: 3 weeks
+  - Prototype development: 2 weeks
+  - Testing and validation: 2 weeks
+  - Mass production: 5 weeks
+  - Quality control: 1 week
+Result: 200 units delivered in 90 days with safety certifications
+Key Takeaway: Safety-focused design reduces liability and enhances program credibility
+
+Key Patterns Across All Cases:
+1. Design Phase: 3-4 weeks for initial concept and specification
+2. Prototype Development: 2-3 weeks for sample production
+3. Testing and Validation: 2 weeks for quality assurance
+4. Mass Production: 5-6 weeks for full order fulfillment
+5. Quality Control: 1 week for final inspections
+6. Total Timeline: 12-15 weeks from concept to delivery
+
+Common Success Factors:
+- Clear specification of requirements upfront
+- Regular communication throughout the process
+- Early testing and validation to catch issues
+- Defined MOQ requirements (typically 50 pcs per design)
+- Defined lead times (30-45 days after PO confirmation)
+- Quality control at every production stage

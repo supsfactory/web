@@ -1,0 +1,74 @@
+{
+  "description": "Enhanced FAQ structure with categorization and priority scoring",
+  "type": "object",
+  "properties": {
+    "faqs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique FAQ identifier"
+          },
+          "question": {
+            "type": "string",
+            "description": "FAQ question text"
+          },
+          "answer": {
+            "type": "string",
+            "description": "FAQ answer text"
+          },
+          "category": {
+            "type": "string",
+            "enum": ["General", "Pricing", "Production", "Shipping", "Warranty", "Customization", "Technical", "Legal"],
+            "description": "FAQ category for better organization and search"
+          },
+          "priority": {
+            "type": "integer",
+            "description": "Priority score (1-5, where 5 is most frequently asked or important)",
+            "description": "Helps AI prioritize answering important questions first"
+          },
+          "searchKeywords": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "Keywords for search relevance"
+            },
+            "description": "Keywords related to this FAQ for better searchability"
+          },
+          "lastUpdated": {
+            "type": "string",
+            "format": "date",
+            "description": "When this FAQ was last updated"
+          }
+        },
+        "required": ["question", "answer", "category", "priority"]
+      }
+    },
+    "faqsMetadata": {
+      "type": "object",
+      "properties": {
+        "totalFaqs": {
+          "type": "integer",
+            "description": "Total number of FAQs"
+        },
+        "faqsByCategory": {
+          "type": "object",
+          "description": "Count of FAQs per category",
+          "type": "object"
+        },
+        "averagePriority": {
+          "type": "number",
+          "description": "Average priority score across all FAQs"
+        },
+        "lastUpdated": {
+          "type": "string",
+          "format": "date",
+          "description": "When the FAQ database was last updated"
+        }
+      },
+      "required": ["totalFaqs", "faqsByCategory", "averagePriority"]
+    }
+  }
+}

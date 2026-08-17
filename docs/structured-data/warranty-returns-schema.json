@@ -1,0 +1,101 @@
+{
+  "description": "Warranty and returns schema for SUP manufacturing products",
+  "type": "object",
+  "properties": {
+    "product": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Product name"
+        },
+        "sku": {
+          "type": "string",
+          "description": "Stock Keeping Unit"
+        },
+        "warrantyPeriod": {
+          "type": "string",
+          "description": "Warranty duration (e.g., '2 years', '36 months')"
+        }
+      },
+      "required": ["name"]
+    },
+    "warrantyCoverage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "coverageType": {
+            "type": "string",
+            "description": "Type of coverage (e.g., 'defects', 'materials', 'workmanship')"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of what's covered"
+          },
+          "duration": {
+            "type": "string",
+            "description": "Duration of this specific coverage"
+          }
+        }
+      },
+      "description": "Array of warranty coverage types"
+    },
+    "returnPolicy": {
+      "type": "object",
+      "properties": {
+        "returnWindow": {
+          "type": "string",
+          "description": "Window for returns (e.g., '30 days', '90 days')"
+        },
+        "returnCondition": {
+            "type": "string",
+            "description": "Condition requirements for returns (e.g., 'unused', 'original packaging')"
+        },
+        "returnProcess": {
+          "type": "string",
+          "description": "Description of the return process"
+        },
+        "restockingFee": {
+          "type": "string",
+          "description": "Any restocking fee percentage (e.g., '15%')"
+        }
+      },
+      "description": "Return policy details"
+    },
+    "claimProcess": {
+      "type": "object",
+      "properties": {
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "stepNumber": {
+                "type": "integer",
+                "description": "Step number in the process"
+              },
+              "description": {
+                "type": "string",
+                "description": "Description of the step"
+              }
+            }
+          },
+          "description": "Step-by-step claim process"
+        },
+        "requiredDocuments": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Required documents for filing a claim (e.g., 'photos', 'order number', 'serial number')"
+          }
+        },
+        "turnaroundTime": {
+          "type": "string",
+          "description": "Expected timeframe for claim resolution"
+        }
+      },
+      "description": "Claim process details"
+    }
+  }
+}

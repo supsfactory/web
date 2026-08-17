@@ -1,0 +1,82 @@
+{
+  "description": "Product FAQ schema structure for SUPsfactory product pages",
+  "type": "object",
+  "properties": {
+    "product": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Product name (e.g., 'SUP Explorer 11')"
+        },
+        "sku": {
+          "type": "string",
+          "description": "Stock Keeping Unit (e.g., 'SUP-EX11')"
+        },
+        "gtin": {
+          "type": "string",
+          "description": "Global Trade Item Number"
+        },
+        "mpn": {
+          "type": "string",
+          "description": "Manufacturer Part Number"
+        }
+      },
+      "required": ["name", "sku"]
+    },
+    "faqs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string",
+            "description": "FAQ question text"
+          },
+          "answer": {
+            "type": "string",
+            "description": "FAQ answer text"
+          },
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "properties": {
+              "text": {
+                "type": "string",
+                "description": "The answer text"
+              }
+            }
+          }
+        },
+        "required": ["question", "answer"]
+      },
+      "description": "Array of FAQ entries specific to the product"
+    },
+    "manufacturingSpecs": {
+      "type": "object",
+      "properties": {
+        "moq": {
+          "type": "string",
+          "description": "Minimum Order Quantity (e.g., '50 pcs per design')"
+        },
+        "leadTime": {
+          "type": "string",
+          "description": "Production lead time (e.g., '30-45 days')"
+        },
+        "customizationOptions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Customization options (e.g., 'private graphics', 'deck pad customization')"
+          },
+          "description": "Available customization options for the product"
+        },
+        "warranty": {
+          "type": "string",
+          "description": "Product warranty information"
+        }
+      },
+      "description": "Manufacturing specifications for the product"
+    }
+  },
+  "required": ["product", "faqs"]
+}

@@ -1,0 +1,91 @@
+{
+  "description": "Proposed llms.txt split structure for better AI crawler efficiency",
+  "currentStructure": {
+    "llms.txt": "Full concatenated Markdown index (~15KB)",
+    "llms-full.txt": "Full corpus Markdown"
+  },
+  "proposedStructure": {
+    "llms-company.txt": {
+      "description": "Company profile and organizational information",
+      "includes": [
+        "Company name and description",
+        "Founding date and history",
+        "Key leadership team",
+        "Company location and facilities",
+        "Certifications and credentials",
+        "Mission and values statement"
+      ]
+    },
+    "llms-products.txt": {
+      "description": "Product catalog and series information",
+      "includes": [
+        "All product names and SKUs",
+        "Product descriptions and specifications",
+        "Pricing information",
+        "Series overviews (Explorer, Ocean Pulse, etc.)",
+        "Product photos and imagery references"
+      ]
+    },
+    "llms-manufacturing.txt": {
+      "description": "Manufacturing capabilities and processes",
+      "includes": [
+        "Manufacturing capacity and output",
+        "Production methods and techniques",
+        "Quality control processes",
+        "MOQ requirements",
+        "Lead times",
+        "Materials used (PVC, drop-stitch, etc.)",
+        "Customization options"
+      ]
+    },
+    "llms-manufacturing-faq.txt": {
+      "description": "Manufacturing frequently asked questions",
+      "includes": [
+        "MOQ questions and answers",
+        "Lead time explanations",
+        "Customization FAQs",
+        "Quality assurance questions"
+      ]
+    },
+    "llms-technology.txt": {
+      "description": "Technology and construction information",
+      "includes": [
+        "Drop-stitch construction details",
+        "PVC vs Hypalon comparison",
+        "Manufacturing processes",
+        "Quality testing methods"
+      ]
+    },
+    "llms-cases.txt": {
+      "description": "Case studies and project examples",
+      "includes": [
+        "Client case studies",
+        "Project outcomes",
+        "Results and metrics",
+        "Client testimonials"
+      ]
+    },
+    "llms-faq.txt": {
+      "description": "General frequently asked questions",
+      "includes": [
+        "Company information FAQs",
+        "Product FAQs",
+        "Manufacturing process FAQs",
+        "Shipping and delivery FAQs"
+      ]
+    }
+  },
+  "benefits": [
+    "Smaller file sizes for faster AI crawler loading",
+    "More targeted context for specific AI queries",
+    "Easier content maintenance and updates",
+    "Better relevance matching for specific AI use cases",
+    "Backward compatibility with existing llms.txt"
+  ],
+  "migrationPath": {
+    "step1": "Create individual split files alongside existing llms.txt",
+    "step2": "Update AI systems to support split files",
+    "step3": "Gradually phase out monolithic llms.txt",
+    "step4": "Maintain redirects from old llms.txt to new structure"
+  }
+}
