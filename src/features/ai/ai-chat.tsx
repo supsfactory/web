@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Loader2, MessageCircle, Send, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
+import { dictionaries } from '@/features/i18n/locale'
 
 interface ChatSource {
   title: string
@@ -83,7 +84,7 @@ export function AiChat() {
           <div ref={listRef} className="flex-1 overflow-y-auto px-4 py-3">
             {messages.length === 0 && (
               <div className="flex flex-col gap-2 pt-1">
-                {(t('sup.aiChat.chips') as unknown as readonly string[]).map((chip) => (
+                {(dictionaries[locale].sup.aiChat.chips as readonly string[]).map((chip) => (
                   <button
                     key={chip}
                     type="button"
