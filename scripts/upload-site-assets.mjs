@@ -7,6 +7,7 @@
  *   public/assets/videos/*  -> site/videos/*
  *   public/downloads/*      -> site/downloads/*
  *   public/assets/quality/* -> site/quality/*
+ *   public/assets/products/* -> site/products/*
  *
  * The files are intentionally NOT committed to Git anymore (see .gitignore);
  * this script is the only way they reach production. Content that references
@@ -61,11 +62,12 @@ function resolveSrc(src) {
   return src.startsWith('.') || src.startsWith('/') ? src : join(process.cwd(), src)
 }
 
-/** (source dir, R2 key prefix) pairs — keep in sync with .gitignore + content links. */
+/** (source dir, R2 key prefix) pairs — keep in sync with content links. */
 const TARGETS = [
   [join(SRC_DIR, 'assets/videos'), 'site/videos/'],
   [join(SRC_DIR, 'downloads'), 'site/downloads/'],
   [join(SRC_DIR, 'assets/quality'), 'site/quality/'],
+  [join(SRC_DIR, 'assets/products'), 'site/products/'],
 ]
 
 const CONTENT_TYPES = {
