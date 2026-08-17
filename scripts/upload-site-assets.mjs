@@ -32,6 +32,7 @@
  *   node scripts/upload-site-assets.mjs --http                # HTTP API mode
  *   node scripts/upload-site-assets.mjs --dry-run             # list without upload
  *   node scripts/upload-site-assets.mjs --http --missing      # upload only missing keys
+ *   node scripts/upload-site-assets.mjs --prefix <prefix>     # 自定义 R2 key 前缀（叠加在 TARGETS 的前缀之上）
  */
 
 import { createHash, createHmac } from 'node:crypto'
@@ -46,6 +47,7 @@ const flagValue = (name, fallback) => {
 const DRY_RUN = args.includes('--dry-run')
 const HTTP_MODE = args.includes('--http')
 const MISSING_ONLY = args.includes('--missing')
+const PREFIX = flagValue('prefix', '') // 自定义 R2 key 前缀，如 'site/videos'；与 TARGETS 中 prefix 连用，形成 'site/videos' -> 'my-prefix/site/videos'
 const CACHE_CONTROL = flagValue('cache', 'public, max-age=31536000, immutable')
 const CONCURRENCY = 8
 
@@ -202,13 +204,15 @@ async function isMissingHttp(key) {
   return true
 }
 
-async function collect() {
+async function collect(prefix = '') {
   const jobs = []
-  for (const [dir, prefix] of TARGETS) {
+  for (const [dir, tprefix] of TARGETS) {
     try {
       const files = await walk(dir)
       for (const f of files) {
-        jobs.push({ localPath: f, key: `${prefix}${relative(dir, f).split(sep).join('/')}` })
+        // 若提供了 --prefix，则在 TARGETS 自带的 prefix 前额外加一层
+        const fullPrefix = prefix ? `${prefix}/${tprefix}` : tprefix
+        jobs.push({ localPath: f, key: `${fullPrefix}${relative(dir, f).split(sep).join('/')}` })
       }
     } catch {
       /* source dir absent (e.g. files already removed locally) — skip */
@@ -231,7 +235,7 @@ async function run() {
     process.exit(1)
   }
 
-  const jobs = await collect()
+  const jobs = await collect(PREFIX)
   if (jobs.length === 0) {
     console.error('No files found under public/assets/videos, public/downloads, public/assets/quality')
     process.exit(1)

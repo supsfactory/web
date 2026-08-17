@@ -37,6 +37,9 @@ playwright-report/
 # Claude Code session config (local)
 .claude/
 
-# dev server logs
-dev-server*.log
-dev-server*.err
+# 大型业务媒体文件——由 Cloudflare R2 + CDN 提供，不应提交进 Git
+# 由 scripts/upload-site-assets.mjs 统一上传；本地仍保留副本以供开发调试
+public/assets/videos/
+public/assets/quality/
+public/assets/products/
+public/downloads/
