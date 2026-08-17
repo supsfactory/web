@@ -66,7 +66,7 @@ jobs:
           create_index() {
             local name="$1"; shift
             if npx wrangler vectorize create "$name" --dimensions=1024 --metric=cosine \
-              --config wrangler.example.jsonc "$@" > /tmp/vz.log 2>&1; then
+              "$@" > /tmp/vz.log 2>&1; then
               echo "created $name"
             elif grep -qiE 'already exists|duplicate_name' /tmp/vz.log; then
               echo "exists (skip) $name"
@@ -75,9 +75,9 @@ jobs:
               exit 1
             fi
           }
-          create_index sups-knowledge
-          create_index sups-knowledge-staging --env staging
-          create_index sups-knowledge-prod --env production
+          create_index supsfactory-knowledge
+          create_index supsfactory-knowledge-staging
+          create_index supsfactory-knowledge-prod
       # site 媒体（视频/PDF/质量照片）源文件随仓库提交（public/downloads/ 等），
       # 引用已改为 CDN 链接（https://assets.supsfactory.com/site/*）。必须先于 deploy
       # 上传：新代码上线瞬间 CDN 链接就要可访问，--missing 幂等，只 PUT 缺失对象。
