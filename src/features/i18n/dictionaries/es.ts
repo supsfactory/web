@@ -8,9 +8,6 @@ export const es = {
     signIn: 'Iniciar sesión',
     menu: 'Menú',
   },
-  home: {
-    greeting: '¡Hola, {name}!',
-  },
   changelog: {
     title: 'Registro de cambios',
     subtitle: 'Actualizaciones y mejoras del producto.',
@@ -756,21 +753,6 @@ export const es = {
   },
   marketing: {
     recommendedFor: 'Recomendado para:',
-  },
-  features: {
-    kicker: '// con todo incluido',
-    f1Title: 'Autenticación', f1Body: 'Inicio de sesión por correo y redes sociales, verificación de correo y sesiones en D1 — mediante better-auth.',
-    f3Title: 'Consola de administración', f3Body: 'Roles, bloqueo, impersonación y un panel basado en datos reales.',
-    f4Title: 'Almacenamiento', f4Body: 'Cloudflare R2 con subidas validadas y una ruta de servicio privada.',
-    f5Title: 'Correo', f5Body: 'Resend con plantillas de texto; degrada a la consola en local.',
-    f6Title: 'i18n', f6Body: 'Enrutado inglés/español por ruta con SEO por idioma.',
-    f7Title: 'SEO', f7Body: 'Sitemap, hreflang, canonical, OpenGraph y robots — por idioma.',
-    f8Title: 'Seguridad', f8Body: 'Turnstile, cabeceras de seguridad, CSP, limitación de velocidad y validación de entorno al arrancar.',
-  },
-  agent: {
-    kicker: '// compatible con agentes de IA',
-    title: 'Clónalo y sigue construyendo con tu agente.',
-    body: 'TypeScript de extremo a extremo, slices de funcionalidad verticales, pruebas reales y documentación integrada dan a tu agente de código el contexto para ampliar la app con seguridad. Incluye un AGENTS.md para que conozca las convenciones desde el primer prompt.',
   },
   feedback: {
     nav: 'Comentarios',

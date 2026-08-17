@@ -34,6 +34,10 @@ and this project aims to follow [Semantic Versioning](https://semver.org/spec/v2
 
 ### Changed
 
+- **Dead i18n blocks removed** — the unused template-era `home` / `features` /
+  `agent` dictionary sections (and their Spanish mirrors) deleted from
+  `en.ts`/`es.ts`; the bilingual dictionaries now hold only live copy.
+
 - **Inquiry uploads broadened** — the form's single attachment is now a general
   project file (references, artwork, specs, CAD or ZIP) instead of images only:
   PNG/JPG/SVG/WebP/PDF/AI/PSD/DWG/DXF/ZIP up to 10 MB, gated by an extension

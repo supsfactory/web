@@ -12,10 +12,10 @@ test('stripDefaultLocalePrefix：去掉 /en 前缀且保留 query 和 hash', () 
 })
 
 test('translate 解析嵌套 key', () => {
-  expect(translate(en, 'home.greeting')).toBe('Hello, {name}!')
+  expect(translate(en, 'feedback.status.open')).toBe('Open')
 })
-test('translate 插值 {name}', () => {
-  expect(translate(en, 'home.greeting', { name: 'Yang' })).toBe('Hello, Yang!')
+test('translate 插值 {n}', () => {
+  expect(translate(en, 'feedback.limitReached', { n: '2' })).toBe('You have 2 open items — let us catch up before filing more.')
 })
 test('translate 缺失 key 回退为 key 本身', () => {
   expect(translate(en, 'home.nope')).toBe('home.nope')

@@ -4,7 +4,7 @@
 > Project path: `E:\github\supsfactory`
 > Production: https://supsfactory.com (Cloudflare Workers, `supsfactory-production`)
 > Stack: TanStack Start (React 19) + Cloudflare Workers + D1 (Drizzle ORM) + KV + R2 + better-auth + Resend + Orama (search) + Fumadocs (docs)
-> Tests: 239 (Vitest node + workers pools); `pnpm typecheck` / `pnpm build` green
+> Tests: 240 (Vitest node + workers pools); `pnpm typecheck` / `pnpm build` green
 > Marketing positioning: custom SUP product development & manufacturing partner (not "launch your own brand") — 5-page /solutions system, legacy landings 301 to it; full afarer brand content ported under `/`
 
 ---

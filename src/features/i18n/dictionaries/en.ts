@@ -8,9 +8,6 @@ export const en = {
     signIn: 'Sign in',
     menu: 'Menu',
   },
-  home: {
-    greeting: 'Hello, {name}!',
-  },
   changelog: {
     title: 'Changelog',
     subtitle: 'Product updates and improvements.',
@@ -766,21 +763,6 @@ export const en = {
   },
   marketing: {
     recommendedFor: 'Recommended for:',
-  },
-  features: {
-    kicker: '// batteries included',
-    f1Title: 'Authentication', f1Body: 'Email + social login, email verification, and sessions on D1 — via better-auth.',
-    f3Title: 'Admin console', f3Body: 'Roles, ban, impersonation, and a dashboard built on real data.',
-    f4Title: 'Storage', f4Body: 'Cloudflare R2 with validated uploads and a private serving route.',
-    f5Title: 'Email', f5Body: 'Resend with string templates; degrades to the console locally.',
-    f6Title: 'i18n', f6Body: 'Path-based English/Spanish routing with per-locale SEO.',
-    f7Title: 'SEO', f7Body: 'Sitemap, hreflang, canonical, OpenGraph and robots — per locale.',
-    f8Title: 'Security', f8Body: 'Turnstile, security headers, CSP, rate limiting and fail-fast env validation.',
-  },
-  agent: {
-    kicker: '// ai-agent friendly',
-    title: 'Clone it, then build with your agent.',
-    body: 'End-to-end TypeScript, vertical feature slices, real tests and in-app docs give your coding agent the context to extend the app safely. Ships with an AGENTS.md so it knows the conventions from the first prompt.',
   },
   feedback: {
     nav: 'Feedback',
