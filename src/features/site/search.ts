@@ -16,6 +16,8 @@ export interface SearchEntry {
   excerpt: string
   type: SearchEntryType
   locale: Locale
+  /** Full-text body for substring matching (never rendered). */
+  content?: string
 }
 
 /** Server-resolved search index for one locale, consumed by the `/search` page loader. */

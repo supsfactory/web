@@ -51,7 +51,14 @@ function SearchPage() {
   const { q } = Route.useSearch()
   const query = (q ?? '').trim().toLowerCase()
   const results: SearchEntry[] = query
-    ? entries.filter((it) => it.title.toLowerCase().includes(query) || it.excerpt.toLowerCase().includes(query)).slice(0, 24)
+    ? entries
+        .filter(
+          (it) =>
+            it.title.toLowerCase().includes(query) ||
+            it.excerpt.toLowerCase().includes(query) ||
+            (it.content ?? '').toLowerCase().includes(query),
+        )
+        .slice(0, 24)
     : []
 
   return (

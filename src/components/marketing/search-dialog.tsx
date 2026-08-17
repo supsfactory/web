@@ -68,7 +68,7 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
   const matches = React.useMemo(() => {
     if (!q || !index) return []
     return index
-      .filter((it) => it.locale === locale && (it.title.toLowerCase().includes(q) || it.excerpt.toLowerCase().includes(q)))
+      .filter((it) => it.locale === locale && (it.title.toLowerCase().includes(q) || it.excerpt.toLowerCase().includes(q) || (it.content ?? '').toLowerCase().includes(q)))
       .slice(0, 12)
   }, [q, index, locale])
 

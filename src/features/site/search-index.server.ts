@@ -13,6 +13,7 @@ import { knowledge } from './knowledge'
 import { projects } from './projects'
 import { seriesPages } from './series-pages'
 import {
+  brandify,
   getAfarerPage,
   getAfarerPages,
   isAfarerPageTranslated,
@@ -22,6 +23,7 @@ import {
   getTechArticles,
   getCaseUses,
 } from '@/features/content/loader'
+import { mdToText, pageText } from '@/features/content/text'
 import { GUIDES, GUIDES_ES } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import type { SearchEntry } from './search'
@@ -78,19 +80,20 @@ function contentEntries(locale: Locale): SearchEntry[] {
   const out: SearchEntry[] = []
   const url = (p: string) => localizePath(locale, p)
   for (const p of getAfarerProducts(locale)) {
-    out.push({ url: url(`/products/${p.slug}`), title: squeeze(p.title), excerpt: squeeze(p.summary ?? ''), type: 'page', locale })
+    out.push({ url: url(`/products/${p.slug}`), title: squeeze(p.title), excerpt: squeeze(p.summary ?? ''), content: squeeze(mdToText(brandify(p.body))), type: 'page', locale })
   }
   for (const n of getNewsPosts(locale)) {
-    out.push({ url: url(`/news/${n.slug}`), title: squeeze(n.title), excerpt: squeeze(n.excerpt ?? ''), type: 'page', locale })
+    out.push({ url: url(`/news/${n.slug}`), title: squeeze(n.title), excerpt: squeeze(n.excerpt ?? ''), content: squeeze(mdToText(brandify(n.body))), type: 'page', locale })
   }
   for (const t of getTechArticles(locale)) {
-    out.push({ url: url(`/technology/${t.slug}`), title: squeeze(t.title), excerpt: squeeze(t.summary ?? ''), type: 'page', locale })
+    out.push({ url: url(`/technology/${t.slug}`), title: squeeze(t.title), excerpt: squeeze(t.summary ?? ''), content: squeeze(mdToText(brandify(t.body))), type: 'page', locale })
   }
   for (const c of getCaseUses(locale)) {
-    out.push({ url: url(`/evidence/case-studies/${c.slug}`), title: squeeze(c.title), excerpt: squeeze(c.summary ?? ''), type: 'page', locale })
+    out.push({ url: url(`/evidence/case-studies/${c.slug}`), title: squeeze(c.title), excerpt: squeeze(c.summary ?? ''), content: squeeze(mdToText(brandify(c.body))), type: 'page', locale })
   }
   for (const g of (locale === 'es' ? GUIDES_ES : GUIDES)) {
-    out.push({ url: url(`/guides/${g.slug}`), title: squeeze(g.title), excerpt: squeeze(g.intro[0] ?? ''), type: 'page', locale })
+    const body = squeeze([g.intro.join(' '), ...g.sections.map((s) => `${s.title}: ${s.body}`)].join(' '))
+    out.push({ url: url(`/guides/${g.slug}`), title: squeeze(g.title), excerpt: squeeze(g.intro[0] ?? ''), content: body, type: 'page', locale })
   }
   return out
 }
@@ -130,6 +133,7 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
         url: p.path,
         title: (seo?.title ?? '').replace(/[|–—-].*$/, '').trim() || humanize(p.label),
         excerpt: seo?.description ?? '',
+        content: squeeze(brandify(pageText(p.content))),
         type: 'page',
         locale: 'en',
       })
@@ -143,6 +147,7 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
         url: `/es${p.path}`,
         title: esTitle,
         excerpt: esMeta?.description ?? esSeo?.description ?? '',
+        content: squeeze(brandify(pageText(es.content))),
         type: 'page',
         locale: 'es',
       })
@@ -153,6 +158,7 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
       url: '/faq',
       title: 'FAQ',
       excerpt: 'Frequently asked questions about inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale supply.',
+      content: squeeze(brandify(getSiteFaqs('en').map((f) => `Q: ${f.q} A: ${f.a}`).join(' '))),
       type: 'page',
       locale: 'en',
     })
@@ -161,6 +167,7 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
       url: '/es/faq',
       title: 'Preguntas frecuentes',
       excerpt: 'Preguntas frecuentes sobre fabricación OEM/ODM de SUP hinchables — materiales, certificaciones, cantidades mínimas de pedido y suministro al por mayor.',
+      content: squeeze(brandify(getSiteFaqs('es').map((f) => `Q: ${f.q} A: ${f.a}`).join(' '))),
       type: 'page',
       locale: 'es',
     })
