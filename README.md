@@ -13,6 +13,23 @@
 
 ---
 
+## 📖 Quick Site Structure Guide (AI & Humans)
+
+This guide maps the **major architectural layers** of SUPsfactory to their source files, so you can jump straight to the code that matters.
+
+| Architectural Layer | Core Concern | Primary File(s) | What It Controls |
+|---------------------|--------------|-----------------|------------------|
+| **Media & CDN** | Videos, PDFs, product/quality images | `public/assets/*` (git-ignored), `scripts/upload-site-assets.mjs` → R2 `supsfactory-files-prod`, CDN `assets.supsfactory.com/site/*` | All large binary assets; `.gitignore` prevents Git bloat; R2 key prefix controllable via `--prefix` |
+| **Site Config (Framework Abstract)** | Business facts & hero content as config | `src/features/site/site-config.ts` → reads `SITE_FACTS` from `facts.ts`, `HERO_CONTENT` from `content.ts`; `siteConfig.facts / siteConfig.hero` only-read | Framework派生站点的可配置常量层；原有 `FACTS` / `hero` 导出完全不变 |
+| **Routing & i18n** | Path-based bilingual routing (`{-$locale}`) | `src/routes/{-$locale}/` (file-based), `src/features/i18n/dictionaries/{en,es}.ts`, `src/features/seo/seo.ts` (`PUBLIC_PATHS`/`HREFLANG`/`OG_LOCALE`) | `/` = en, `/es` = es; dictionary must be structurally identical across languages |
+| **SEO & LLM Discovery** | Sitemap, robots, llms.txt, entity.json, RSS | `src/features/seo/seo.ts` (PUBLIC_PATHS, hreflang), `src/features/site/llm.ts`, `src/features/content/loader.ts` (`getGeoEntity`) | All LLM/SSEO endpoints generated from single source of truth |
+| **Auth & Admin** | better-auth, admin-only gates, roles | `src/features/auth/`, `src/features/admin/assert-admin.server.ts`, `ADMIN_EMAILS` env | Email/password auth, verification, password reset, OAuth; single source of admin truth |
+| **Data Stores** | D1, KV, R2, Vectorize | `src/db/`, `src/lib/cache-headers.ts`, `features/storage/`, `src/features/ai/` | SQLite auth + app tables; per-IP rate limits; blob storage; RAG index |
+| **AI Sales Assistant** | RAG Q&A chat widget | `src/features/ai/corpus.ts`, `src/features/ai/ai-chat.tsx`, Vectorize `sups-knowledge` | Answers from site content with 6-citation minimum; degrades to keyword-FAQ fallback |
+| **Testing & CI** | 267 tests, typecheck, build | `pnpm test`, `pnpm typecheck`, `pnpm build`; CI: `ci.yml`, `deploy.yml` | Full regression test suite; type-safe build; deploy pipeline with CDN purge + edge warm |
+
+--- 
+
 **English**
 
 SUPsfactory is the production-ready web presence for an SUP (stand-up paddleboard) OEM/ODM manufacturer — the marketing site is positioned as a **custom SUP product development & manufacturing partner**, not a "launch your own brand" tool. It pairs a fully designed bilingual (en / es) marketing site with the complete SaaS backend from [Vectoflare](https://github.com/vectoflare/vectoflare): auth, email, an admin console, and more — every feature a real implementation, no mocks or stubs, running on the Cloudflare free-to-cheap stack (Workers + D1 + KV + R2). The full afarer brand content (factory, technology, research, news, product pages) is ported in and served from the same Worker, English-only, under `/`.
