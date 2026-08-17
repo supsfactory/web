@@ -24,7 +24,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "{{SITE_ID}}",
+	"name": "supsfactory",
 	"compatibility_date": "2026-05-30",
 	"compatibility_flags": [
 		"nodejs_compat"
@@ -43,7 +43,7 @@
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "{{SITE_ID}}-db",
+			"database_name": "supsfactory-db",
 			"database_id": "00000000-0000-0000-0000-000000000000",
 			"migrations_dir": "drizzle"
 		}
@@ -51,7 +51,7 @@
 	"r2_buckets": [
 		{
 			"binding": "BUCKET",
-			"bucket_name": "{{SITE_ID}}-files"
+			"bucket_name": "supsfactory-files"
 		}
 	],
 	"kv_namespaces": [
@@ -66,7 +66,7 @@
 	"vectorize": [
 		{
 			"binding": "VECTORIZE",
-			"index_name": "{{SITE_ID}}-knowledge"
+			"index_name": "supsfactory-knowledge"
 		}
 	],
 	"vars": {
@@ -89,7 +89,7 @@
 	},
 	"env": {
 		"staging": {
-			"name": "{{SITE_ID}}-staging",
+			"name": "supsfactory-staging",
 			"triggers": {
 				"crons": [
 					"0 3 * * *",
@@ -99,7 +99,7 @@
 			"d1_databases": [
 				{
 					"binding": "DB",
-					"database_name": "{{SITE_ID}}-db-staging",
+					"database_name": "supsfactory-db-staging",
 					"database_id": "00000000-0000-0000-0000-000000000000",
 					"migrations_dir": "drizzle"
 				}
@@ -107,7 +107,7 @@
 			"r2_buckets": [
 				{
 					"binding": "BUCKET",
-					"bucket_name": "{{SITE_ID}}-files-staging"
+					"bucket_name": "supsfactory-files-staging"
 				}
 			],
 			"kv_namespaces": [
@@ -122,12 +122,12 @@
 			"vectorize": [
 				{
 					"binding": "VECTORIZE",
-					"index_name": "{{SITE_ID}}-knowledge-staging"
+					"index_name": "supsfactory-knowledge-staging"
 				}
 			]
 		},
 		"production": {
-			"name": "{{SITE_ID}}-production",
+			"name": "supsfactory-production",
 			"triggers": {
 				"crons": [
 					"0 3 * * *",
@@ -137,7 +137,7 @@
 			"d1_databases": [
 				{
 					"binding": "DB",
-					"database_name": "{{SITE_ID}}-db-prod",
+					"database_name": "supsfactory-db-prod",
 					"database_id": "00000000-0000-0000-0000-000000000000",
 					"migrations_dir": "drizzle"
 				}
@@ -145,7 +145,7 @@
 			"r2_buckets": [
 				{
 					"binding": "BUCKET",
-					"bucket_name": "{{SITE_ID}}-files-prod"
+					"bucket_name": "supsfactory-files-prod"
 				}
 			],
 			"kv_namespaces": [
@@ -160,7 +160,7 @@
 			"vectorize": [
 				{
 					"binding": "VECTORIZE",
-					"index_name": "{{SITE_ID}}-knowledge-prod"
+					"index_name": "supsfactory-knowledge-prod"
 				}
 			]
 		}

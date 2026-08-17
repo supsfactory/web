@@ -1,14 +1,18 @@
 /**
  * CI helper: generate `wrangler.jsonc` (git-ignored) from the committed
  * `wrangler.example.jsonc` template by:
- *   1. Replacing {{SITE_ID}} placeholders with the actual site ID
+ *   1. Replacing "supsfactory" resource names with the actual SITE_ID
  *   2. Injecting the real production resource ids
  *
  * Run in the Deploy workflow before `pnpm build`.
  *
+ * wrangler.example.jsonc uses "supsfactory" as the default site ID (it must
+ * be a valid Wrangler config at all times). When SITE_ID differs from the
+ * default, all resource names are swapped in one pass.
+ *
  * Values come from repo Variables (Settings → Secrets and variables → Actions →
  * Variables) — these are identifiers, not secrets:
- *   - SITE_ID           (required)  site identifier, e.g. "supsfactory"
+ *   - SITE_ID           (optional)  site identifier, defaults to "supsfactory"
  *   - CF_PROD_D1_ID     (required)  production D1 database_id
  *   - CF_PROD_KV_ID     (required)  production KV namespace id
  *   - CF_PROD_R2_BUCKET (optional)  production R2 bucket name (if different from convention)
@@ -19,8 +23,10 @@
  */
 import { readFileSync, writeFileSync } from 'node:fs'
 
+const DEFAULT_SITE_ID = 'supsfactory'
+
 const {
-  SITE_ID,
+  SITE_ID = DEFAULT_SITE_ID,
   CF_PROD_D1_ID,
   CF_PROD_KV_ID,
   CF_PROD_R2_BUCKET,
@@ -28,14 +34,16 @@ const {
   CF_PROD_DOMAIN,
 } = process.env
 
-if (!SITE_ID || !CF_PROD_D1_ID || !CF_PROD_KV_ID) {
-  console.error('::error::Set repo Variables SITE_ID, CF_PROD_D1_ID and CF_PROD_KV_ID to enable deploy')
+if (!CF_PROD_D1_ID || !CF_PROD_KV_ID) {
+  console.error('::error::Set repo Variables CF_PROD_D1_ID and CF_PROD_KV_ID to enable deploy')
   process.exit(1)
 }
 
 let text = readFileSync('wrangler.example.jsonc', 'utf8')
 
-text = text.replaceAll('{{SITE_ID}}', SITE_ID)
+if (SITE_ID !== DEFAULT_SITE_ID) {
+  text = text.replaceAll(DEFAULT_SITE_ID, SITE_ID)
+}
 
 const at = text.indexOf('"production"')
 if (at === -1) {
