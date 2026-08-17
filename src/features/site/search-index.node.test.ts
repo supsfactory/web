@@ -3,7 +3,13 @@
  * Guards against regressions where content lives in bodies but not excerpts.
  */
 import { describe, expect, test } from 'vitest'
+import type { SearchEntry } from './search'
 import { buildExtendedIndex, buildFullIndex } from './search-index.server'
+import { solutionPages, solutionPath } from './solution-pages'
+import { knowledge } from './knowledge'
+import { projects } from './projects'
+import { seriesPages } from './series-pages'
+import { pick } from './content'
 
 describe('buildExtendedIndex', () => {
   test('every entry carries a non-empty searchable surface', () => {
@@ -30,6 +36,29 @@ describe('buildExtendedIndex', () => {
   test('mdx article bodies are indexed', () => {
     const hits = buildExtendedIndex('en').filter((it) => (it.content ?? '').includes('pressure-hold'))
     expect(hits.length).toBeGreaterThan(0)
+  })
+
+  test('structured page bodies are indexed (solutions/knowledge/projects/series)', () => {
+    const entries = buildExtendedIndex('en')
+    const byUrl = new Map<string, SearchEntry>()
+    for (const it of entries) if (!byUrl.has(it.url)) byUrl.set(it.url, it)
+    const needle = (s: string | undefined) => s?.replace(/\s+/g, ' ').trim().slice(0, 60)
+    for (const p of pick(solutionPages, 'en')) {
+      const it = byUrl.get(solutionPath(p.slug))
+      expect(it?.content?.includes(needle(p.answer) ?? '')).toBe(true)
+    }
+    for (const a of pick(knowledge, 'en')) {
+      const it = byUrl.get(`/knowledge/${a.slug}`)
+      expect(it?.content?.includes(needle(a.intro) ?? '')).toBe(true)
+    }
+    for (const pr of pick(projects, 'en')) {
+      const it = byUrl.get(`/projects/${pr.slug}`)
+      expect(it?.content?.includes(needle(pr.requirement) ?? '')).toBe(true)
+    }
+    for (const s of pick(seriesPages, 'en')) {
+      const it = byUrl.get(`/products/${s.slug}`)
+      expect(it?.content?.includes(needle(s.intro[0]) ?? '')).toBe(true)
+    }
   })
 })
 

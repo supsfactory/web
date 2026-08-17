@@ -37,37 +37,49 @@ const humanize = (s: string): string =>
 export function buildContentIndex(locale: Locale): SearchEntry[] {
   const entries: SearchEntry[] = []
   for (const p of pick(solutionPages, locale)) {
+    const content = squeeze(
+      [p.h1, p.answer, ...p.intro, p.scenario.title, p.scenario.body, ...p.pairs.flatMap((x) => [x.problem, x.solution]), ...p.faqs.flatMap((f) => [`Q: ${f.q}`, `A: ${f.a}`])].join(' '),
+    )
     entries.push({
       url: localizePath(locale, solutionPath(p.slug)),
       title: squeeze(p.navLabel),
       excerpt: squeeze(p.metaDescription),
+      content,
       type: 'solution',
       locale,
     })
   }
   for (const a of pick(knowledge, locale)) {
+    const content = squeeze([a.h1, a.intro, ...a.sections.flatMap((s) => [s.title, ...s.body])].join(' '))
     entries.push({
       url: localizePath(locale, `/knowledge/${a.slug}`),
       title: squeeze(a.navLabel),
       excerpt: squeeze(a.metaDescription),
+      content,
       type: 'guide',
       locale,
     })
   }
   for (const pr of pick(projects, locale)) {
+    const content = squeeze(
+      [pr.h1, pr.metaDescription, pr.requirement, pr.challenge, pr.solution, pr.result, pr.outcome, ...pr.process.flatMap((s) => [s.title, s.body])].join(' '),
+    )
     entries.push({
       url: localizePath(locale, `/projects/${pr.slug}`),
       title: squeeze(pr.navLabel),
       excerpt: squeeze(pr.metaDescription),
+      content,
       type: 'project',
       locale,
     })
   }
   for (const s of pick(seriesPages, locale)) {
+    const content = squeeze([s.h1, s.metaDescription, ...s.intro, ...s.faqs.flatMap((f) => [`Q: ${f.q}`, `A: ${f.a}`])].join(' '))
     entries.push({
       url: localizePath(locale, `/products/${s.slug}`),
       title: squeeze(s.navLabel),
       excerpt: squeeze(s.metaDescription),
+      content,
       type: 'page',
       locale,
     })
