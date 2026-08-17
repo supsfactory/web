@@ -14,6 +14,10 @@ import { buildAskPrompt, matchFaq, stableHash, type AiChunk, type AskMessage, ty
 const EMBED_MODEL = '@cf/baai/bge-m3'
 const LLM_MODEL = '@cf/meta/llama-3.2-3b-instruct'
 const TOP_K = 6
+/** Cosine floor below which chunks are treated as noise — keeps the LLM from
+ *  confabulating an answer from unrelated retrieval (e.g. "where is the
+ *  company?" matching drop-stitch material). Tune against live queries. */
+const REL_SCORE_MIN = 0.4
 const MAX_QUESTION = 500
 const CACHE_TTL = 6 * 60 * 60
 const CACHE_PREFIX = 'aiask:'
@@ -78,7 +82,11 @@ async function askWithRag(env: AskEnv, question: string, locale: Locale, history
       returnValues: false,
       returnMetadata: 'all',
     })
+    // FAQ chunks are the highest-value matches for buyer questions — surface
+    // them first (stable sort keeps score order within each group).
+    const faqPath = locale === 'es' ? '/es/faq' : '/faq'
     const chunks: AiChunk[] = matches
+      .filter((m) => typeof m.score === 'number' && m.score >= REL_SCORE_MIN)
       .map((m) => ({
         id: String(m.id),
         text: String(m.metadata?.text ?? ''),
@@ -86,6 +94,7 @@ async function askWithRag(env: AskEnv, question: string, locale: Locale, history
         title: String(m.metadata?.title ?? ''),
       }))
       .filter((c) => c.text && c.url)
+      .sort((a, b) => Number(b.url === faqPath) - Number(a.url === faqPath))
     if (chunks.length === 0) return await askFromFaq(question, locale)
 
     const { system, user } = buildAskPrompt({ question, history, chunks })

@@ -186,6 +186,8 @@
 /* ── Tailwind token bridge (shadcn-compatible utilities) ──────────────────── */
 @theme inline {
   --color-background: var(--background);
+  --color-bg: var(--background);
+  --color-bg-2: var(--bg-inset);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
   --color-card-2: var(--card-2);
