@@ -221,7 +221,7 @@ The **full first-time walkthrough** — creating D1/KV, setting secrets, and run
 
 > R2 (object storage) is enabled by default in `wrangler.jsonc` and wired into the code (avatar upload reference). Before deploying, create the bucket: `wrangler r2 bucket create supsfactory-files` (see [storage](src/content/docs/features/storage.mdx)).
 
-## GitHub Actions
+## GitHub Actions & deployment configuration
 
 The repo ships five workflows:
 
@@ -233,40 +233,75 @@ The repo ships five workflows:
 | `website-performance.yml` | manual | Lighthouse-style performance audit |
 | `cf-inspect.yml` | manual | Cloudflare diagnostics helper — dumps cache rules, zone settings and purge results to `cf-inspect.log` in the repo (keep the token's `Zone → Cache Purge` permission for the deploy pipeline's purge step) |
 
-Configure them under **Settings → Secrets and variables → Actions**:
+### GitHub repository settings (Settings → Secrets and variables → Actions)
 
-**Variables** (non-sensitive identifiers, used by `.github/scripts/gen-wrangler.mjs`):
+**Variables** (non-sensitive identifiers — read by `.github/scripts/gen-wrangler.mjs` to fill in the production resource ids before deploy):
 
 | Variable | Required | How to get it |
 |----------|----------|---------------|
-| `CF_PROD_D1_ID` | Yes | Production D1 database id — Cloudflare Dashboard → D1, or `wrangler d1 list` (deploy fails without it) |
-| `CF_PROD_KV_ID` | Yes | Production KV namespace id — Dashboard → Workers & Pages → KV, or `wrangler kv namespace list` |
-| `CF_PROD_DOMAIN` | No | Custom domain, e.g. `supsfactory.com` (bound as a custom domain route) |
+| `CF_PROD_D1_ID` | Yes | Production D1 database id — Cloudflare Dashboard → Workers & Pages → D1 → open database `supsfactory-db-prod` → copy `Database ID`; or `wrangler d1 list` (needs the token's D1 read permission). The deploy **fails** without it |
+| `CF_PROD_KV_ID` | Yes | Production KV namespace id — Dashboard → Workers & Pages → KV → open the namespace → copy the id (right side); or `wrangler kv namespace list` |
+| `CF_PROD_DOMAIN` | No | Custom domain, e.g. `supsfactory.com`. When set, the deploy binds it as a custom-domain route on the production Worker (also makes the CDN purge + warm steps meaningful) |
 
-**Secrets** (deployment credentials):
-
-| Secret | How to get it |
-|--------|---------------|
-| `CLOUDFLARE_API_TOKEN` | Dashboard → My Profile → API Tokens → Create Token — scope `Workers Scripts:Edit`, `D1`, `KV`, `R2`, **and `Zone → Cache Purge`** (the deploy pipeline purges the CDN after every release; without it the purge step skips and stale HTML can linger for an hour). If unset entirely, the deploy job skips gracefully (no red ✗) |
-| `CLOUDFLARE_ACCOUNT_ID` | 32-hex account id — Dashboard sidebar / Workers overview |
-
-**Secrets** (app secrets, bulk-synced to the Worker on every deploy via `wrangler secret bulk`):
+**Secrets** (all 17 — set under Settings → Secrets and variables → Actions → New repository secret):
 
 | Secret | How to get it | Blank = |
 |--------|---------------|---------|
+| `CLOUDFLARE_API_TOKEN` | See the **Cloudflare API token permissions** section below | The whole deploy job skips gracefully (no red ✗) |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare Dashboard → right sidebar of the Workers overview → `Account ID` (32-hex). Also shown at the bottom of the API Tokens page | Deploy skipped |
 | `BETTER_AUTH_SECRET` | `openssl rand -base64 32` | **Required** — startup fails fast |
 | `BETTER_AUTH_URL` | Production URL, e.g. `https://supsfactory.com` (also drives canonical/sitemap origin) | **Required** |
-| `RESEND_API_KEY` | Resend → API Keys | Emails captured to console |
-| `EMAIL_FROM` | e.g. `SUPsfactory <onboarding@yourdomain.com>` (verify the domain in Resend first) | No sender |
-| `RESEND_AUDIENCE_ID` | Resend → Audiences → id | No waitlist audience sync |
-| `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | Google Cloud Console → OAuth client, callback `https://api.<domain>/api/auth/callback/google` | Login button hidden |
-| `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET` | GitHub → Settings → Developer settings → OAuth Apps | Login button hidden |
-| `ADMIN_EMAILS` | Comma-separated admin emails | No admins |
-| `TURNSTILE_SITE_KEY` / `TURNSTILE_SECRET_KEY` | Dashboard → Turnstile → create a widget | Forms work without captcha |
-| `CF_ANALYTICS_TOKEN` | Dashboard → Analytics & Logs → Web Analytics | No beacon |
-| `SENTRY_DSN` | Sentry project → Client Keys (DSN) | No error reporting |
+| `RESEND_API_KEY` | [resend.com](https://resend.com) → API Keys → create a key | Emails captured to console |
+| `EMAIL_FROM` | e.g. `SUPsfactory <noreply@supsfactory.com>` — **verify your domain in Resend first** (Settings → Domains) | No sender |
+| `RESEND_AUDIENCE_ID` | Resend → Audiences → select the audience → copy the id from the URL/API | Waitlist audience sync off (signups still saved to D1) |
+| `GOOGLE_CLIENT_ID` | [Google Cloud Console](https://console.cloud.google.com/apis/credentials) → OAuth 2.0 Client ID, callback `https://api.<domain>/api/auth/callback/google` | Google login button hidden |
+| `GOOGLE_CLIENT_SECRET` | Same OAuth client → Client secret | Google login hidden |
+| `GITHUB_CLIENT_ID` | GitHub → Settings → Developer settings → OAuth Apps → New OAuth App, callback `https://api.<domain>/api/auth/callback/github` | GitHub login button hidden |
+| `GITHUB_CLIENT_SECRET` | Same OAuth app → Client secret | GitHub login hidden |
+| `ADMIN_EMAILS` | Comma-separated admin emails (single source of truth for admin roles) | No admins |
+| `TURNSTILE_SITE_KEY` | Cloudflare Dashboard → Turnstile → Add site → copy `Site Key` | Forms work without captcha |
+| `TURNSTILE_SECRET_KEY` | Same Turnstile widget → `Secret Key` | No captcha |
+| `CF_ANALYTICS_TOKEN` | Dashboard → Analytics & Logs → Web Analytics → your site → Manage → copy the beacon token (this is **not** an API token) | No beacon injected |
+| `SENTRY_DSN` | Sentry → project → Settings → Client Keys (DSN) | No error reporting |
+| `REINDEX_TOKEN` | Any strong random string, e.g. `openssl rand -hex 24` — bearer token for `POST /api/reindex` (the AI-index workflow rebuilds the Vectorize index after every deploy) | Index rebuilt only by the daily 03:00 UTC cron |
 
-Notes: keys left blank in GitHub are skipped during sync (they never overwrite existing Cloudflare values); to remove a secret, clear it in GitHub first, then clean up the Cloudflare side manually.
+Notes:
+
+- Keys left blank in GitHub are **skipped during the secret sync** (they never overwrite existing Cloudflare values); to remove a secret, clear it in GitHub first, then clean up the Cloudflare side manually (`wrangler secret delete <KEY> --env production`).
+- `GA4_MEASUREMENT_ID` (optional, client-side GA4) is **not** in the deploy sync list — if you want it in production, set it manually once: `wrangler secret put GA4_MEASUREMENT_ID --env production`.
+- Workflow permissions: the defaults are fine. `cf-inspect.yml` declares `contents: write` in the workflow file itself (it commits the inspect log); no repo-level "Workflow permissions" change is needed.
+- GitHub OAuth apps must be registered with the **same account that hosts the repo** only if you want "GitHub login" for your users; for CI you only need the secrets above.
+
+### Cloudflare API token permissions (`CLOUDFLARE_API_TOKEN`)
+
+Create it at [dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens) → **Create Token** → **Create Custom Token**. Give it a name (e.g. `supsfactory-ci`), set the lifetime (≤ 1 year recommended), and tick **both** the Account resources and the Zone resources below. Then create the token **once** and copy it into the `CLOUDFLARE_API_TOKEN` GitHub secret — it is shown only a single time.
+
+**Account resources:**
+
+| Resource | Permission | Why the pipeline needs it | Required |
+|----------|-----------|---------------------------|----------|
+| Workers Scripts | Edit | `wrangler deploy` (the worker itself) | Yes |
+| Workers KV Storage | Edit | deploy binds the KV namespace; `wrangler kv namespace list` (variable lookup) | Yes |
+| D1 | Edit | `d1 migrations apply supsfactory-db-prod --env production --remote` before every deploy; `wrangler d1 list` | Yes |
+| R2 Storage | Edit | creates buckets + uploads afarer images (`scripts/upload-afarer-images.mjs`, used by deploy backfill and the manual upload workflow) | Yes |
+| Vectorize | Edit | idempotently creates the 3 knowledge indexes (`sups-knowledge`, `-staging`, `-prod`) before deploy — deploy fails with code 10159 if the bound index is missing | Yes |
+| Account Settings | Read | wrangler account/plan diagnostics | Recommended |
+
+**Zone resources** (scope to the zone `supsfactory.com`):
+
+| Resource | Permission | Why the pipeline needs it | Required |
+|----------|-----------|---------------------------|----------|
+| Zone | Read | `GET /zones?name=supsfactory.com` — resolves the zone id that the purge and R2-custom-domain steps target | Yes (with a custom domain) |
+| Cache Purge | Edit | `POST /zones/{id}/purge_cache` — the deploy pipeline purges the CDN after every release; without it stale HTML can linger up to an hour | Yes (with a custom domain) |
+| Workers Routes | Edit | binds `CF_PROD_DOMAIN` as a custom-domain route (only when `CF_PROD_DOMAIN` is set) | Only when using `CF_PROD_DOMAIN` |
+| DNS | Edit | only if you manage DNS via the API/wrangler | Optional |
+
+Notes:
+
+- **Workers AI** (bge-m3 embeddings + llama-3.2-3b used by the RAG assistant) is a runtime feature gated by your account's plan — it needs **no API-token permission**; same for the AI binding. Only Vectorize creation needs the Vectorize permission above.
+- No custom domain? (default `*.workers.dev`): you can omit all Zone resources — the purge/warm steps detect the missing zone and skip cleanly.
+- `CF_ANALYTICS_TOKEN` is **not** an API token — it is the per-site Web Analytics beacon token from the dashboard; do not confuse the two.
+- To verify a token afterwards: `curl https://api.cloudflare.com/client/v4/user/tokens/verify -H "Authorization: Bearer <token>"` (or run the `cf-inspect.yml` workflow).
 
 ## Documentation
 

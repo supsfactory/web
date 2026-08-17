@@ -1614,11 +1614,11 @@ export const gallery: Localized<GalleryContent> = {
     sub: 'Manufacturing projects delivered from our plant — with the numbers buyers actually ask about.',
     projects: [
       {
-        tag: 'Resort Fleet',
-        title: 'Resort Fleet — Hotel Group Boards',
-        body: '100 branded boards for a hotel group: colors and logo approved on a physical sample first, then full production with per-board air-tightness tests, artwork-match checks and kit completeness by board — shipped in time for the season launch.',
+        tag: 'Batch Traceability',
+        title: 'Shipment Release & Traceability Handover',
+        body: 'Every batch ships with its quality handover — inspection records, per-board serial numbers and the signed release transfer, filed under 10-year ERP traceability. The photo shows the actual release & traceability handover record at the plant.',
         hue: 195,
-        image: '/assets/products/2026/all-around/all-around-17.avif',
+        image: '/出货放行与批次追溯记录交接.jpg',
       },
       {
         tag: 'Club Team',
@@ -1642,11 +1642,11 @@ export const gallery: Localized<GalleryContent> = {
     sub: 'Proyectos de fabricación entregados desde la planta — con las cifras que de verdad pregunta un comprador.',
     projects: [
       {
-        tag: 'Flota de resort',
-        title: 'Flota de resort — tablas para grupo hotelero',
-        body: '100 tablas con marca para un grupo hotelero: colores y logo aprobados primero en una muestra física, luego producción completa con pruebas de estanqueidad unidad por unidad, verificación del arte y kits completos por tabla — enviadas a tiempo para el inicio de la temporada.',
+        tag: 'Trazabilidad de lotes',
+        title: 'Liberación de embarque y traspaso de trazabilidad',
+        body: 'Cada lote sale con su traspaso de calidad: registros de inspección, número de serie por tabla y el acta de liberación firmada, archivados con trazabilidad ERP de 10 años. La foto muestra el acta real de liberación y trazabilidad en planta.',
         hue: 195,
-        image: '/assets/products/2026/all-around/all-around-17.avif',
+        image: '/出货放行与批次追溯记录交接.jpg',
       },
       {
         tag: 'Equipo de club',
