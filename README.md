@@ -134,6 +134,7 @@ pnpm deploy:prod            # CLOUDFLARE_ENV=production build + wrangler deploy
 pnpm deploy:purge           # purge the CDN cache (scripts/purge-cache.mjs)
 pnpm deploy:prod:all        # deploy + purge
 pnpm upload:afarer-images   # backfill missing afarer images to R2
+pnpm upload:site-assets     # upload videos / PDFs / quality photos to R2 (site/*)
 pnpm cf-typegen             # regenerate worker-configuration.d.ts from wrangler.jsonc
 ```
 
@@ -190,6 +191,8 @@ drizzle/           # generated SQL migrations (repo root, sibling of src/)
 ```
 
 > **Product photos** are self-hosted on `assets.supsfactory.com` (the site's R2 CDN). To swap assets, replace the URLs in `src/features/site/content.ts` (and `OG_IMAGE` in `src/features/seo/seo.ts`).
+>
+> **Site media (videos, PDFs, quality photos)** are referenced via the R2 CDN (`assets.supsfactory.com/site/...`), with source files kept in Git (`public/downloads/`, `public/assets/quality/`, `public/assets/videos/`) so the deploy workflow can keep R2 in sync: the "Upload site assets to R2" step runs `scripts/upload-site-assets.mjs --http --missing` (Cloudflare API token) before every deploy — idempotent, only missing objects are PUT. For manual backfills: `pnpm upload:site-assets` (needs `CLOUDFLARE_API_TOKEN`/`CLOUDFLARE_ACCOUNT_ID`, or R2 S3 credentials for the default S3 mode).
 
 ## Environment variables
 

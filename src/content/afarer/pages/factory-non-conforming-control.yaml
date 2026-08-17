@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Download NCP Control SOP (PDF)
       variant: primary
-      href: '/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
     - text: Download Scrap & Destruction Certificate (PDF)
-      href: '/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
     - text: Request Quality Review
       href: /contact
 
@@ -99,19 +99,19 @@ nc_photos:
   title: Quarantine, Rework & Re-Inspection in Practice
   subtitle: Photos from our workshop in Qingdao show how non-conforming boards are physically segregated, reworked under controlled instructions and re-verified before any release decision.
   features:
-    - image: /assets/quality/qc-air-tightness-test-area.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
       alt: Inflated inflatable SUP boards in the factory air-tightness test area monitored by digital pressure gauges
       title: Re-Inspection Gate
       desc: 'After rework, every board returns to the QC test area for independent re-verification: inflated and monitored with digital pressure gauges against the project-approved acceptance criteria — never a partial check.'
-    - image: /assets/quality/qc-hold-quarantine-station.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
       alt: Quality control checksheets and controlled hold status labels at the factory inspection station
       title: Hold & Quarantine Station
       desc: 'Inspection station with QC checksheets and status labelling. Any item failing acceptance criteria is tagged HOLD / QUARANTINE, logged against an NCR and physically segregated — it cannot proceed to packing until an authorized disposition and mandatory re-inspection are completed.'
-    - image: /assets/quality/qc-air-tightness-rework.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
       alt: QC technician performing controlled air-tightness rework on an inflatable SUP at the factory rework station
       title: Controlled Rework Station
       desc: 'Rework is performed at a dedicated station under an approved SRI instruction: the defect is marked, the board remains on HOLD, and after the required cure period it returns to the test area for re-inspection against the original acceptance criteria.'
-    - image: /assets/quality/qc-workshop-inspection-demo.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-workshop-inspection-demo.avif
       alt: Workshop demonstration of quality control checks in the Qingdao factory
       title: Workshop QC Demonstration
       desc: 'Demonstration photo from the workshop showing quality control checks applied in practice, supporting the inspection and status-control records referenced throughout this page.'
@@ -189,13 +189,13 @@ nc_downloads:
       icon_bg: blue
       title: Non-Conforming Product Control SOP (PDF)
       desc: 'ISO 9001:2015 Clause 8.7 based bilingual SOP: 8-stage closed-loop control, the SUP defect disposition matrix, NCR data structure and customer quality commitment.'
-      link: '/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
       link_label: Download PDF
     - icon: S
       icon_bg: orange
       title: Scrap & Destruction Certificate (PDF)
       desc: 'VAT-QA-SCRAP-CERT-2026: product and batch traceability, MRB conclusion, the 4-step physical destruction protocol, witness photo fields and dual sign-off block.'
-      link: '/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
       link_label: Download PDF
     - icon: R
       icon_bg: green
@@ -237,6 +237,6 @@ cta:
       variant: primary
       href: /contact
     - text: Download NCP Control SOP (PDF)
-      href: '/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
     - text: Download Scrap Certificate (PDF)
-      href: '/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

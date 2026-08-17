@@ -116,13 +116,13 @@ moq_downloads:
       icon_bg: blue
       title: 'Guía de Branding Flexible y MOQ (PDF)'
       desc: 'Guía B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN, publicada el 14 ago 2026): la lógica de ingeniería detrás del rendimiento de los rollos drop-stitch de 150 m (90–100 tablas), el programa de co-branding de menos de 20 unidades, las tarifas de serigrafía transparentes y las tres etapas de producción.'
-      link: '/downloads/flexible-branding-and-moq-guide.pdf'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Descargar Guía (PDF)'
     - icon: P
       icon_bg: green
       title: 'Política de Branding Flexible y Co-Branding (PDF)'
       desc: 'Expediente de política oficial (Parte 1, POL-MOQ-2026-V1): reglas de co-branding de lotes pequeños, el marco de MOQ específico por proyecto, los cuatro factores que definen los mínimos y la firma conjunta de Vicepresidente de Ventas, Ingeniero Jefe y Director de QA.'
-      link: '/downloads/flexible-branding-and-moq-policy.pdf'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
       link_label: 'Descargar Política (PDF)'
 
 moq_faqs:

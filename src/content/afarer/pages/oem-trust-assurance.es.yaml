@@ -134,13 +134,13 @@ trust_downloads:
       icon_bg: blue
       title: 'Guía de Confianza y Garantía de Fábrica para Compradores OEM (PDF)'
       desc: 'Guía B2B oficial (Parte II, DOC-ENG-2026-EN): verificación de la fábrica paso a paso — registro de la entidad, auditoría física, ingenieros reales, documentos QMS, inspección de terceros, protección contractual y firmas de gobernanza.'
-      link: '/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link: 'https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
       link_label: 'Descargar guía (PDF)'
     - icon: P
       icon_bg: green
       title: 'Guía de Branding Flexible y MOQ (PDF)'
       desc: 'Guía B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN): la lógica de ingeniería detrás de los rendimientos del rollo de 150 m (90–100 tablas), co-branding desde 5–10 unidades, lotes piloto de 20–50 unidades y las tres etapas de producción.'
-      link: '/downloads/flexible-branding-and-moq-guide.pdf'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Descargar guía de MOQ (PDF)'
     - icon: Q
       icon_bg: orange

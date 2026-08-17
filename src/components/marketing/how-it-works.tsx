@@ -21,8 +21,8 @@ export function HowItWorks() {
   ]
 
   const pdfLinks = [
-    { label: t('sup.nav.oemDropdown.trustPdf'), href: '/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf' },
-    { label: t('sup.nav.oemDropdown.moqPdf'), href: '/downloads/flexible-branding-and-moq-guide.pdf' },
+    { label: t('sup.nav.oemDropdown.trustPdf'), href: 'https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf' },
+    { label: t('sup.nav.oemDropdown.moqPdf'), href: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf' },
   ]
 
   return (

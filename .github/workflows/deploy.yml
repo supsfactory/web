@@ -79,6 +79,17 @@ jobs:
           create_index sups-knowledge
           create_index sups-knowledge-staging --env staging
           create_index sups-knowledge-prod --env production
+      # site 媒体（视频/PDF/质量照片）源文件随仓库提交（public/downloads/ 等），
+      # 引用已改为 CDN 链接（https://assets.supsfactory.com/site/*）。必须先于 deploy
+      # 上传：新代码上线瞬间 CDN 链接就要可访问，--missing 幂等，只 PUT 缺失对象。
+      # R2 权限缺失时跳过，不留红叉。
+      - name: Upload site assets to R2 (before deploy)
+        if: steps.guard.outputs.enabled == 'true'
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: node scripts/upload-site-assets.mjs --http --missing
       - name: Deploy to Cloudflare
         if: steps.guard.outputs.enabled == 'true'
         uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4.0.4

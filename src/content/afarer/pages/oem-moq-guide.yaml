@@ -116,13 +116,13 @@ moq_downloads:
       icon_bg: blue
       title: 'Flexible Branding & MOQ Guide (PDF)'
       desc: 'Official B2B guide (Part I, DOC-MOQ-EXP-2026-EN, released 14 Aug 2026): the engineering logic behind 150 m drop-stitch roll yields (90–100 boards), the co-branding program under 20 units, transparent screen-printing fees and the three production stages.'
-      link: '/downloads/flexible-branding-and-moq-guide.pdf'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Download Guide (PDF)'
     - icon: P
       icon_bg: green
       title: 'Flexible Branding & Co-Branding Policy (PDF)'
       desc: 'Official policy dossier (Part 1, POL-MOQ-2026-V1): small-batch co-branding rules, the project-specific MOQ framework, the four factors that drive minimums, and joint sign-off by Sales VP, Chief Engineer and QA Director.'
-      link: '/downloads/flexible-branding-and-moq-policy.pdf'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
       link_label: 'Download Policy (PDF)'
 
 moq_faqs:

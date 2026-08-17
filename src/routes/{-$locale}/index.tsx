@@ -74,8 +74,8 @@ function Home() {
       <Suspense fallback={null}>
         <SolveSection />
         <VideoShowcase
-          video="/assets/videos/2026/oem-brand-launch.mp4"
-          poster="/assets/videos/2026/oem-brand-launch.jpg"
+          video="https://assets.supsfactory.com/site/videos/2026/oem-brand-launch.mp4"
+          poster="https://assets.supsfactory.com/site/videos/2026/oem-brand-launch.jpg"
           {...pick(videoShowcase, locale).launch}
         />
         <PlantCapability />

@@ -100,7 +100,7 @@ body: |
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
     <h2 class="text-xl font-bold mb-3">Backed by a Documented Quality System</h2>
-    <p class="text-sm text-gray-600 dark:text-gray-400">Every board is tested before packing — <a href="/factory/quality-inspection" class="text-sky-600 underline">7-stage inspection gates</a> record results per serial number, and batches keep 10-year ERP traceability. Warranty claims are adjudicated against these batch records, not guesswork. See the <a href="/quality" class="text-sky-600 underline">full quality system</a> and download the actual <a href="/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">final inspection reports</a>.</p>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Every board is tested before packing — <a href="/factory/quality-inspection" class="text-sky-600 underline">7-stage inspection gates</a> record results per serial number, and batches keep 10-year ERP traceability. Warranty claims are adjudicated against these batch records, not guesswork. See the <a href="/quality" class="text-sky-600 underline">full quality system</a> and download the actual <a href="https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">final inspection reports</a>.</p>
   </div>
 
   <h2>Third-Party Items</h2>

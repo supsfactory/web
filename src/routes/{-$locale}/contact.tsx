@@ -143,7 +143,7 @@ function ContactPage() {
             <p className="mt-3 text-[14.5px] leading-relaxed text-fg-2">{t('sup.contact.trustSubtitle')}</p>
             <div className="mt-7">
               <a
-                href="/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf"
+                href="https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="marine-card flex items-center gap-4 p-5 transition-colors hover:border-primary/40"

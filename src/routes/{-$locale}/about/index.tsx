@@ -69,7 +69,7 @@ function AboutPage() {
       <section className="mx-auto max-w-6xl px-5 py-14 md:px-7">
         <div className="grid gap-5 md:grid-cols-2">
           <img
-            src="/assets/videos/2026/sup-manufacturing.jpg"
+            src="https://assets.supsfactory.com/site/videos/2026/sup-manufacturing.jpg"
             alt={locale === 'es'
               ? 'Línea de producción de una fábrica de tablas SUP hinchables a medida en Qingdao'
               : 'Custom SUP board manufacturing factory production line — inflatable paddle board plant in Qingdao'}
@@ -77,7 +77,7 @@ function AboutPage() {
             className="aspect-[16/10] w-full rounded-2xl border border-border-2 object-cover"
           />
           <img
-            src="/assets/videos/2026/oem-brand-launch.jpg"
+            src="https://assets.supsfactory.com/site/videos/2026/oem-brand-launch.jpg"
             alt={locale === 'es'
               ? 'Marca de SUP OEM personalizada — estampado y embalaje de tablas con marca privada'
               : 'OEM SUP brand launch — custom paddle board branding, printing and packaging for private label'}

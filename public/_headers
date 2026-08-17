@@ -9,6 +9,8 @@
 /fonts/*.woff2
   Cache-Control: public, max-age=604800
 
+# 质量照片/视频/PDF：源文件仍随仓库提交，供工作流上传到 R2
+# （CDN: assets.supsfactory.com/site/*）；旧路径保持可访问，缓存头不变。
 /assets/quality/*.jpg
   Cache-Control: public, max-age=604800
 

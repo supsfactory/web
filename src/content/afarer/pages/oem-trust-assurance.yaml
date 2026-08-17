@@ -134,13 +134,13 @@ trust_downloads:
       icon_bg: blue
       title: 'OEM Buyer Trust & Factory Assurance Guide (PDF)'
       desc: 'Official B2B guide (Part II, DOC-ENG-2026-EN): factory verification step by step —entity registration, physical audit, real engineers, QMS papers, third-party inspection, contract protection and governance sign-offs.'
-      link: '/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link: 'https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
       link_label: 'Download Guide (PDF)'
     - icon: P
       icon_bg: green
       title: 'Flexible Branding & MOQ Guide (PDF)'
       desc: 'Official B2B guide (Part I, DOC-MOQ-EXP-2026-EN): the engineering logic behind 150 m drop-stitch roll yields (90–100 boards), co-branding from 5–10 units, pilot batches 20–50 units, and the three production stages.'
-      link: '/downloads/flexible-branding-and-moq-guide.pdf'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Download MOQ Guide (PDF)'
     - icon: Q
       icon_bg: orange

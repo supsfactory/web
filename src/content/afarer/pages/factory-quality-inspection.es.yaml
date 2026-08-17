@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Descargar el paquete de garantía de calidad
       variant: primary
-      href: '/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
     - text: Descargar el paquete de calidad de muestra (PDF)
-      href: '/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
     - text: Solicitar información de calidad OEM
       href: /contact
 
@@ -154,19 +154,19 @@ quarantine_evidence:
   title: Ensayos controlados y cuarentena en la práctica
   subtitle: Fotografías de nuestro taller en Qingdao que muestran cómo se aplican el control de estado y los registros de inspección en planta.
   features:
-    - image: /assets/quality/qc-air-tightness-test-area.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
       alt: Tablas de SUP hinchables infladas en la zona de pruebas de estanqueidad de la fábrica, monitorizadas con un manómetro digital
       title: Zona de pruebas de estanqueidad al aire
       desc: 'Tablas infladas mantenidas en la zona de control de calidad bajo iluminación industrial, con manómetros digitales que monitorizan la prueba de retención de aire aprobada en la base de la válvula, las costuras del raíl, la proa, la popa y las zonas de alta tensión. Los registros se conservan por lote y se vinculan a la inspección final.'
-    - image: /assets/quality/qc-hold-quarantine-station.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
       alt: Hojas de control de calidad y etiquetas de estado de retención controlada en la estación de inspección de la fábrica
       title: Estación de retención y cuarentena
       desc: 'Estación de inspección con hojas de control de calidad y etiquetado de estado. Cualquier artículo que no cumpla los criterios de aceptación se etiqueta, se registra y se traslada a cuarentena: no puede pasar al embalaje hasta completar una disposición autorizada y una reinspección obligatoria.'
-    - image: /assets/quality/qc-air-tightness-rework.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
       alt: Técnico de control de calidad realizando un retrabajo controlado de estanqueidad al aire en un SUP hinchable en la estación de retrabajo de la fábrica
       title: Estación de retrabajo controlado
       desc: 'El retrabajo de estanqueidad al aire se realiza en una estación dedicada según una tarjeta de método aprobada: el defecto se marca, la tabla permanece en HOLD y, tras el periodo de curado requerido, vuelve a la zona de ensayos para su reinspección contra los criterios de aceptación originales.'
-    - image: /assets/quality/qc-workshop-quarantine-demo.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-workshop-quarantine-demo.avif
       alt: Demostración en el taller de la segregación controlada en cuarentena en la fábrica de Qingdao
       title: Demostración de la zona de cuarentena
       desc: 'Fotografía de demostración del taller que muestra cómo funciona la segregación controlada en cuarentena en planta: las unidades segregadas se mantienen bajo control de estado hasta que se completa una disposición autorizada.'
@@ -396,37 +396,37 @@ document_pack:
       icon_bg: blue
       title: Paquete de documentación de calidad (PDF)
       desc: 'Estructura documental controlada completa 00–15: índice de proyecto, especificación, BOM, referencias de arte y embalaje, Plan de Inspección de Calidad (QIP), registros de inspección, NCR, control de cambios, brief de inspección de terceros y resumen de liberación de pre-embarque.'
-      link: '/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
       link_label: Descargar PDF
     - icon: T
       icon_bg: green
       title: Brief de inspección de terceros (PDF)
       desc: 'Brief de una página para inspectores de SGS / BV / Intertek / QIMA: cantidad del pedido, nivel de muestreo AQL, revisiones aplicables y controles críticos de calidad, incluida la verificación del registro de estanqueidad al aire, el ensayo de retención de presión, la integridad del kit, el escaneo de código de barras y la prueba de caída del cartón.'
-      link: '/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
       link_label: Descargar PDF
     - icon: C
       icon_bg: purple
       title: Protocolo de control de cambios (PDF)
       desc: 'Registro de control de cambios que cubre el arte, la BOM aprobada por el cliente y las revisiones de marcado del cartón — con resumen del cambio, motivo, evaluación de impacto, estado de aprobación del cliente, lote efectivo y retirada de documentos obsoletos.'
-      link: '/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
       link_label: Descargar PDF
     - icon: R
       icon_bg: orange
       title: Resumen de liberación de pre-embarque (PDF)
       desc: 'Firma de liberación de una página: verificación de puertas de calidad (IQC, IPQC, estanqueidad al aire, inspección final, embalaje), estado de NCR abiertas y la decisión de liberación autorizada firmada por calidad y operaciones.'
-      link: '/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
       link_label: Descargar PDF
     - icon: W
       icon_bg: blue
       title: Instrucción de retrabajo de estanqueidad al aire (PDF)
       desc: 'Instrucción de trabajo controlada WI-QC-AT-001 Rev A: alcance y límites, clasificación de defectos, NCR y autorización de retrabajo, ejecución controlada, curado, reinspección y liberación para tablas de SUP hinchables.'
-      link: '/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
       link_label: Descargar PDF
     - icon: M
       icon_bg: green
       title: Índice de tarjetas de método (PDF)
       desc: 'Documento controlado SOP-QC-AT-IDX-001 Rev A: el sistema de tarjetas de método numeradas MC-RW-01 a MC-RW-06, más MC-RW-00 para desecho y rechazo, vinculado a la instrucción de retrabajo de estanqueidad al aire.'
-      link: '/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
       link_label: Descargar PDF
     - icon: V
       icon_bg: orange
@@ -472,6 +472,6 @@ cta:
       variant: primary
       href: /contact
     - text: Descargar el paquete de calidad de muestra (PDF)
-      href: '/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
     - text: Descargar el protocolo de QC y la lista PSI
-      href: '/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

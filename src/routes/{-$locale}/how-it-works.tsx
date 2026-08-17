@@ -44,8 +44,8 @@ function WorksPage() {
       <SiteNav theme={theme} loggedIn={!!user} />
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
       <VideoShowcase
-        video="/assets/videos/2026/sup-manufacturing.mp4"
-        poster="/assets/videos/2026/sup-manufacturing.jpg"
+        video="https://assets.supsfactory.com/site/videos/2026/sup-manufacturing.mp4"
+        poster="https://assets.supsfactory.com/site/videos/2026/sup-manufacturing.jpg"
         flip
         {...pick(videoShowcase, locale).process}
       />

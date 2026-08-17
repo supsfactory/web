@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Descargar SOP de control de productos no conformes (PDF)
       variant: primary
-      href: '/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
     - text: Descargar certificado de destrucción (PDF)
-      href: '/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
     - text: Solicitar revisión de calidad
       href: /contact
 
@@ -99,19 +99,19 @@ nc_photos:
   title: Cuarentena, retrabajo y reinspección en la práctica
   subtitle: Fotos de nuestro taller en Qingdao muestran cómo las tablas no conformes se segregan físicamente, se retrabajan bajo instrucciones controladas y se vuelven a verificar antes de cualquier decisión de liberación.
   features:
-    - image: /assets/quality/qc-air-tightness-test-area.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
       alt: Tablas de SUP hinchables infladas en el área de pruebas de estanqueidad de la fábrica, monitorizadas con manómetros digitales
       title: Puerta de reinspección
       desc: 'Tras el retrabajo, toda tabla vuelve al área de pruebas de QC para una verificación independiente: se infla y se monitoriza con manómetros digitales contra los criterios de aceptación aprobados por proyecto — nunca una comprobación parcial.'
-    - image: /assets/quality/qc-hold-quarantine-station.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
       alt: Hojas de control de calidad y etiquetas controladas de estado HOLD en la estación de inspección de la fábrica
       title: Estación de retención y cuarentena
       desc: 'Estación de inspección con hojas de control de QC y etiquetado de estado. Todo artículo que falle los criterios de aceptación se etiqueta HOLD / QUARANTINE, se registra contra un NCR y se segrega físicamente — no puede pasar al embalaje hasta completar una disposición autorizada y la reinspección obligatoria.'
-    - image: /assets/quality/qc-air-tightness-rework.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
       alt: Técnico de QC realizando retrabajo controlado de estanqueidad al aire en un SUP hinchable en la estación de retrabajo
       title: Estación de retrabajo controlado
       desc: 'El retrabajo se realiza en una estación dedicada bajo una instrucción SRI aprobada: el defecto se marca, la tabla permanece en HOLD y, tras el período de curado requerido, vuelve al área de pruebas para reinspección contra los criterios de aceptación originales.'
-    - image: /assets/quality/qc-workshop-inspection-demo.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-workshop-inspection-demo.avif
       alt: Demostración en el taller de los controles de calidad en la fábrica de Qingdao
       title: Demostración de control de calidad en el taller
       desc: 'Fotografía de demostración del taller que muestra los controles de calidad aplicados en la práctica, respaldando los registros de inspección y control de estado referenciados a lo largo de esta página.'
@@ -189,13 +189,13 @@ nc_downloads:
       icon_bg: blue
       title: SOP de control de productos no conformes (PDF)
       desc: 'SOP bilingüe basado en la ISO 9001:2015 Cláusula 8.7: control de bucle cerrado en 8 etapas, matriz de disposición de defectos de SUP, estructura de datos NCR y compromiso de calidad con el cliente.'
-      link: '/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
       link_label: Descargar PDF
     - icon: S
       icon_bg: orange
       title: Certificado de destrucción y desguace (PDF)
       desc: 'VAT-QA-SCRAP-CERT-2026: trazabilidad de producto y lote, conclusión del MRB, protocolo de destrucción física en 4 pasos, campos de fotos de testigo y bloque de doble firma.'
-      link: '/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
       link_label: Descargar PDF
     - icon: R
       icon_bg: green
@@ -237,6 +237,6 @@ cta:
       variant: primary
       href: /contact
     - text: Descargar SOP de control de no conformes (PDF)
-      href: '/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
     - text: Descargar certificado de destrucción (PDF)
-      href: '/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

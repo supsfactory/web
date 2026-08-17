@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Download Quality Assurance Package
       variant: primary
-      href: '/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
     - text: Download Sample Quality Pack (PDF)
-      href: '/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
     - text: Request OEM Quality Information
       href: /contact
 
@@ -154,19 +154,19 @@ quarantine_evidence:
   title: Controlled Testing & Quarantine in Practice
   subtitle: Photos from our workshop in Qingdao show how status control and inspection records are applied on site.
   features:
-    - image: /assets/quality/qc-air-tightness-test-area.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
       alt: Inflated inflatable SUP boards in the factory air-tightness test area monitored by a digital pressure gauge
       title: Air-Tightness Test Area
       desc: 'Inflated boards held in the QC testing area under industrial lighting, with digital pressure gauges monitoring the approved air-hold test at the valve base, rail seams, nose and tail, and high-stress locations. Records are kept per batch and linked to final inspection.'
-    - image: /assets/quality/qc-hold-quarantine-station.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
       alt: Quality control checksheets and controlled hold status labels at the factory inspection station
       title: Hold & Quarantine Station
       desc: 'Inspection station with QC checksheets and status labelling. Any item failing acceptance criteria is tagged, logged, and moved to quarantine —it cannot proceed to packing until an authorized disposition and mandatory re-inspection are completed.'
-    - image: /assets/quality/qc-air-tightness-rework.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
       alt: QC technician performing controlled air-tightness rework on an inflatable SUP at the factory rework station
       title: Controlled Rework Station
       desc: 'Air-tightness rework is performed at a dedicated station under an approved method card: the defect is marked, the board remains on HOLD, and after the required cure period it returns to the test area for re-inspection against the original acceptance criteria.'
-    - image: /assets/quality/qc-workshop-quarantine-demo.avif
+    - image: https://assets.supsfactory.com/site/quality/qc-workshop-quarantine-demo.avif
       alt: Workshop demonstration of controlled quarantine segregation in the Qingdao factory
       title: Quarantine Area Demonstration
       desc: 'Demonstration photo from the workshop showing how controlled quarantine segregation works on site: segregated units are kept under status control until an authorized disposition is completed.'
@@ -396,37 +396,37 @@ document_pack:
       icon_bg: blue
       title: Quality Documentation Pack (PDF)
       desc: 'Full 00–15 controlled document structure: project index, specification, BOM, artwork and packing references, Quality Inspection Plan (QIP), inspection records, NCR, change control, third-party briefing, and pre-shipment release summary.'
-      link: '/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
       link_label: Download PDF
     - icon: T
       icon_bg: green
       title: Third-Party Inspection Brief (PDF)
       desc: 'One-page brief for SGS / BV / Intertek / QIMA inspectors: order quantity, AQL sampling level, applicable revisions, and critical-to-quality checks including air-tightness record verification, pressure-hold testing, kit completeness, barcode scan, and carton drop test.'
-      link: '/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
       link_label: Download PDF
     - icon: C
       icon_bg: purple
       title: Change Control Protocol (PDF)
       desc: 'Change Control Log covering artwork, customer-approved BOM, and carton-marking revisions —with change summary, reason, impact assessment, customer approval status, effective batch, and obsolete document withdrawal.'
-      link: '/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
       link_label: Download PDF
     - icon: R
       icon_bg: orange
       title: Pre-Shipment Release Summary (PDF)
       desc: 'One-page release sign-off: quality gate verification (IQC, IPQC, air-tightness, final inspection, packing), open NCR status, and the authorized release decision signed by quality and operations.'
-      link: '/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
       link_label: Download PDF
     - icon: W
       icon_bg: blue
       title: Air-Tightness Rework Instruction (PDF)
       desc: 'Controlled work instruction WI-QC-AT-001 Rev A: scope and boundaries, defect classification, NCR and rework authorization, controlled execution, cure, re-inspection and release for inflatable SUP boards.'
-      link: '/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
       link_label: Download PDF
     - icon: M
       icon_bg: green
       title: Method Card Index (PDF)
       desc: 'Controlled document SOP-QC-AT-IDX-001 Rev A: the numbered method card system MC-RW-01 to MC-RW-06, plus MC-RW-00 for scrap and reject, linked to the air-tightness rework instruction.'
-      link: '/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link: 'https://assets.supsfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
       link_label: Download PDF
     - icon: V
       icon_bg: orange
@@ -472,6 +472,6 @@ cta:
       variant: primary
       href: /contact
     - text: Download Sample Quality Pack (PDF)
-      href: '/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
     - text: Download QC Protocol & PSI Checklist
-      href: '/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
