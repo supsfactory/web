@@ -30,8 +30,14 @@ export const Route = createFileRoute('/api/reindex')({
           return Response.json({ ok: false, error: 'AI/Vectorize bindings unavailable' }, { status: 503 })
         }
         const { rebuildAiIndex } = await import('@/features/ai/ingest')
-        const stats = await rebuildAiIndex(env)
-        return Response.json({ ok: true, stats })
+        try {
+          const stats = await rebuildAiIndex(env)
+          return Response.json({ ok: true, stats })
+        } catch (err) {
+          const msg = err instanceof Error ? err.message : String(err)
+          console.error('[reindex] failed', err instanceof Error ? err.stack ?? err.message : err)
+          return Response.json({ ok: false, error: msg }, { status: 500 })
+        }
       },
     },
   },
