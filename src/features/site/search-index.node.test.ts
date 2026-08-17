@@ -10,6 +10,7 @@ import { knowledge } from './knowledge'
 import { projects } from './projects'
 import { seriesPages } from './series-pages'
 import { pick } from './content'
+import { hero, galleryPage, products, solutions } from './content'
 
 describe('buildExtendedIndex', () => {
   test('every entry carries a non-empty searchable surface', () => {
@@ -63,6 +64,28 @@ describe('buildExtendedIndex', () => {
 })
 
 describe('buildFullIndex', () => {
+  test('hub landing pages carry real composed body content', () => {
+    const entries = buildExtendedIndex('en')
+    const norm = (s: string) => s.replace(/\s+/g, ' ').trim()
+    interface Probe {
+      url: string
+      needle: string
+    }
+    const probes: Probe[] = [
+      { url: '/', needle: norm(pick(hero, 'en').sub) },
+      { url: '/products', needle: pick(products, 'en').items[0].name },
+      { url: '/solutions', needle: norm(pick(solutions, 'en').pillars[0].title) },
+      { url: '/projects', needle: norm(projects.en[0].h1) },
+      { url: '/knowledge', needle: norm(knowledge.en[0].h1) },
+      { url: '/gallery', needle: norm(pick(galleryPage, 'en').note) },
+    ]
+    for (const { url, needle } of probes) {
+      expect(entries.some((it) => it.url === url && (it.content ?? '').includes(needle))).toBe(true)
+    }
+    const esHits = buildExtendedIndex('es')
+    expect(esHits.some((it) => it.url === '/es/products' && (it.content ?? '').includes(pick(products, 'es').items[0].name))).toBe(true)
+  })
+
   test('deduplicates urls across locales and keeps content', () => {
     const entries = buildFullIndex()
     const urls = new Set(entries.map((it) => it.url))
