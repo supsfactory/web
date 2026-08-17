@@ -157,7 +157,7 @@ The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`,
 | Task | Command |
 |------|---------|
 | Dev server | `pnpm dev` |
-| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 239 tests |
+| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 258 tests |
 | Typecheck / lint / build | `pnpm typecheck` (fumadocs-mdx + tsc) / `pnpm lint` / `pnpm build` |
 | D1 migrations | `pnpm db:generate` → `pnpm db:migrate:local` (local); `db:migrate:staging` / `db:migrate:prod` (remote) |
 | Deploy | `pnpm deploy:staging` / `pnpm deploy:prod` (builds with `CLOUDFLARE_ENV` + `wrangler deploy`); `pnpm deploy:purge` purges the CDN (needs `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ZONE_ID` w/ cache-purge scope); `deploy:prod:all` = deploy + purge |
@@ -168,3 +168,22 @@ The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`,
 **Testing note:** the workers pool does NOT auto-apply migrations — create tables in `beforeAll` (see `features/auth/test-helpers.ts`).
 
 **Dependencies**: `pnpm.overrides` pins `undici ^7.29.0`, `brace-expansion ^5.0.9`, `js-yaml@^4 ^4.3.1`, `js-yaml@^5 ^5.2.2` for advisory fixes. Remaining `pnpm audit` findings are dev-only (miniflare→sharp; upstream fix pending, never in the production bundle).
+
+---
+
+## 7. AI sales assistant (RAG Q&A, `src/features/ai/`)
+
+A floating chat widget (bottom-right, above the WhatsApp/WeChat floats and the mobile contact bar) answering buyer questions from the site's own content — the same corpus the SEO/LLM layer exposes. No persistent storage; sessions live in the browser, multi-turn context is sent with each request (last 6 turns).
+
+| Layer | Piece |
+|-------|-------|
+| Corpus | `corpus.ts` `buildChunks(locale)` — one atomic chunk per piece of info: solution pages (+ their FAQ blocks individually), knowledge hub per-section, projects, product series, guides, afarer products/news/technology/case-studies, afarer pages (SEO description), and every site FAQ as its own Q/A chunk; en + es, URLs localized via `localizePath` |
+| Embeddings | Workers AI `@cf/baai/bge-m3` (1024-dim, multilingual) in batches of 64 |
+| Index | Vectorize `sups-knowledge` / `-staging` / `-prod` (per env); chunk ids are stable FNV-1a hashes of `(locale, url, part)` so daily re-runs upsert in place |
+| Retrieval | top-K=6 cosine, `returnMetadata: 'all'`; metadata carries `text/url/title` so sources render as links |
+| Generation | `@cf/meta/llama-3.2-3b-instruct` via `buildAskPrompt` (pure, in `rag.ts`): system prompt forbids inventing prices/MOQ/lead-times/certifications, demands `[n]` citations, and redirects unknown topics to `/contact`; answers in the buyer's language |
+| Degradation | No AI/Vectorize bindings, empty retrieval, or any failure → `matchFaq` keyword-overlap fallback (≥3 significant words, ≥55% overlap) against `getSiteFaqs(locale)` → last resort empty answer. The widget works from day one, before the index ever exists |
+| Cache | KV `aiask:{locale}:{hash}` TTL 6h (hit answers served without AI calls); per-IP rate limit 10/10 min + daily global cap 1500, both fail-open; `/api/ask` is a POST JSON endpoint (route pattern mirrors `/api/search`, everything AI-related is dynamically imported) |
+| Rebuild | `ingest.ts` `rebuildAiIndex` runs in the daily 03:00 UTC cron (same block as maintenance cleanup, idempotent; skipped when bindings are absent). After every production deploy, `.github/workflows/ai-index.yml` re-creates the indexes if missing (idempotent) and triggers a rebuild via the token-guarded `POST /api/reindex` (`REINDEX_TOKEN` secret, 404 when unset / 401 on mismatch), then smoke-tests `/api/ask` |
+
+Frontend: `src/features/ai/ai-chat.tsx` (mounted in `Footer`), i18n under `sup.aiChat.*`. Tests: `ai.node.test.ts` (chunker/prompt/FAQ-match/id stability, node pool) + `ask.workers.test.ts` (FAQ fallback against the miniflare KV, workers pool).

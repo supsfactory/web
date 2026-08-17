@@ -5,6 +5,7 @@ import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
 import { ContactFloats } from '@/components/marketing/contact-floats'
+import { AiChat } from '@/features/ai/ai-chat'
 
 export function Footer({ theme }: { theme: 'light' | 'dark' }) {
   const { t, locale } = useTranslation()
@@ -116,6 +117,7 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
         </div>
       </div>
       <ContactFloats />
+      <AiChat />
     </footer>
   )
 }

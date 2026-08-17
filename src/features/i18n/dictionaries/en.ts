@@ -350,6 +350,23 @@ export const en = {
     contactWhatsApp: 'Chat on WhatsApp', contactWeChat: 'Chat on WeChat',
     contactWeChatHint: 'Scan the QR code or add the WeChat ID:', contactCopy: 'Copy', contactCopied: 'Copied',
     contactQuote: 'Get a Quote',
+    aiChat: {
+      open: 'AI Assistant',
+      title: 'SUPsfactory Assistant',
+      subtitle: 'Ask about products, MOQ, lead times and manufacturing.',
+      placeholder: 'Ask about custom SUP manufacturing…',
+      send: 'Send',
+      thinking: 'Thinking…',
+      error: 'Sorry, something went wrong. Please try again.',
+      retry: 'Retry',
+      sources: 'Sources',
+      chips: [
+        'What is your MOQ for custom SUP boards?',
+        'How long does a sample take?',
+        'What certifications do your boards have?',
+        'Can you make a custom design under my brand?',
+      ],
+    },
     solutions: {
       ctaCold: 'Learn More',
       ctaWarm: 'Discuss Your Project',

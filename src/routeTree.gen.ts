@@ -68,6 +68,8 @@ import { Route as Char123LocaleChar125ChangelogRouteImport } from './routes/{-$l
 import { Route as DocsSplatRouteImport } from './routes/docs/$'
 import { Route as DocsMdSplatRouteImport } from './routes/docs-md/$'
 import { Route as ApiSearchRouteImport } from './routes/api/search'
+import { Route as ApiReindexRouteImport } from './routes/api/reindex'
+import { Route as ApiAskRouteImport } from './routes/api/ask'
 import { Route as AdminWaitlistDotcsvRouteImport } from './routes/admin/waitlist[.]csv'
 import { Route as AdminInquiriesDotcsvRouteImport } from './routes/admin/inquiries[.]csv'
 import { Route as Char123LocaleChar125AdminRouteRouteImport } from './routes/{-$locale}/admin/route'
@@ -432,6 +434,16 @@ const ApiSearchRoute = ApiSearchRouteImport.update({
   path: '/api/search',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiReindexRoute = ApiReindexRouteImport.update({
+  id: '/api/reindex',
+  path: '/api/reindex',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiAskRoute = ApiAskRouteImport.update({
+  id: '/api/ask',
+  path: '/api/ask',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AdminWaitlistDotcsvRoute = AdminWaitlistDotcsvRouteImport.update({
   id: '/admin/waitlist.csv',
   path: '/admin/waitlist.csv',
@@ -670,6 +682,8 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
+  '/api/ask': typeof ApiAskRoute
+  '/api/reindex': typeof ApiReindexRoute
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
@@ -762,6 +776,8 @@ export interface FileRoutesByTo {
   '/what-is-sup': typeof WhatIsSupRoute
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
+  '/api/ask': typeof ApiAskRoute
+  '/api/reindex': typeof ApiReindexRoute
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
@@ -856,6 +872,8 @@ export interface FileRoutesById {
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
+  '/api/ask': typeof ApiAskRoute
+  '/api/reindex': typeof ApiReindexRoute
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
@@ -952,6 +970,8 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin'
     | '/admin/inquiries.csv'
     | '/admin/waitlist.csv'
+    | '/api/ask'
+    | '/api/reindex'
     | '/api/search'
     | '/docs-md/$'
     | '/docs/$'
@@ -1044,6 +1064,8 @@ export interface FileRouteTypes {
     | '/what-is-sup'
     | '/admin/inquiries.csv'
     | '/admin/waitlist.csv'
+    | '/api/ask'
+    | '/api/reindex'
     | '/api/search'
     | '/docs-md/$'
     | '/docs/$'
@@ -1137,6 +1159,8 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin'
     | '/admin/inquiries.csv'
     | '/admin/waitlist.csv'
+    | '/api/ask'
+    | '/api/reindex'
     | '/api/search'
     | '/docs-md/$'
     | '/docs/$'
@@ -1231,6 +1255,8 @@ export interface RootRouteChildren {
   WhatIsSupRoute: typeof WhatIsSupRoute
   AdminInquiriesDotcsvRoute: typeof AdminInquiriesDotcsvRoute
   AdminWaitlistDotcsvRoute: typeof AdminWaitlistDotcsvRoute
+  ApiAskRoute: typeof ApiAskRoute
+  ApiReindexRoute: typeof ApiReindexRoute
   ApiSearchRoute: typeof ApiSearchRoute
   DocsMdSplatRoute: typeof DocsMdSplatRoute
   DocsSplatRoute: typeof DocsSplatRoute
@@ -1652,6 +1678,20 @@ declare module '@tanstack/react-router' {
       path: '/api/search'
       fullPath: '/api/search'
       preLoaderRoute: typeof ApiSearchRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/reindex': {
+      id: '/api/reindex'
+      path: '/api/reindex'
+      fullPath: '/api/reindex'
+      preLoaderRoute: typeof ApiReindexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/ask': {
+      id: '/api/ask'
+      path: '/api/ask'
+      fullPath: '/api/ask'
+      preLoaderRoute: typeof ApiAskRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/admin/waitlist.csv': {
@@ -2084,6 +2124,8 @@ const rootRouteChildren: RootRouteChildren = {
   WhatIsSupRoute: WhatIsSupRoute,
   AdminInquiriesDotcsvRoute: AdminInquiriesDotcsvRoute,
   AdminWaitlistDotcsvRoute: AdminWaitlistDotcsvRoute,
+  ApiAskRoute: ApiAskRoute,
+  ApiReindexRoute: ApiReindexRoute,
   ApiSearchRoute: ApiSearchRoute,
   DocsMdSplatRoute: DocsMdSplatRoute,
   DocsSplatRoute: DocsSplatRoute,

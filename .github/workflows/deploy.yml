@@ -129,6 +129,7 @@ jobs:
           CF_ANALYTICS_TOKEN: ${{ secrets.CF_ANALYTICS_TOKEN }}
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
           RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
+          REINDEX_TOKEN: ${{ secrets.REINDEX_TOKEN }}
         run: |
           jq -n '{
             BETTER_AUTH_SECRET: env.BETTER_AUTH_SECRET,
@@ -144,7 +145,8 @@ jobs:
             ADMIN_EMAILS: env.ADMIN_EMAILS,
             CF_ANALYTICS_TOKEN: env.CF_ANALYTICS_TOKEN,
             SENTRY_DSN: env.SENTRY_DSN,
-            RESEND_AUDIENCE_ID: env.RESEND_AUDIENCE_ID
+            RESEND_AUDIENCE_ID: env.RESEND_AUDIENCE_ID,
+            REINDEX_TOKEN: env.REINDEX_TOKEN
           } | with_entries(select(.value != null and .value != ""))' > /tmp/secrets.json
           npx wrangler secret bulk /tmp/secrets.json --env production
       # 图片新增后不再依赖手动触发上传 workflow：每次部署自动补传 R2 缺失的

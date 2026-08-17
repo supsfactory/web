@@ -340,6 +340,23 @@ export const es = {
     contactWhatsApp: 'Chatea por WhatsApp', contactWeChat: 'Chatea por WeChat',
     contactWeChatHint: 'Escanea el código QR o añade el ID de WeChat:', contactCopy: 'Copiar', contactCopied: 'Copiado',
     contactQuote: 'Solicitar presupuesto',
+    aiChat: {
+      open: 'Asistente IA',
+      title: 'Asistente SUPsfactory',
+      subtitle: 'Pregunta por productos, MOQ, plazos y fabricación.',
+      placeholder: 'Pregunta por la fabricación de SUP a medida…',
+      send: 'Enviar',
+      thinking: 'Pensando…',
+      error: 'Lo sentimos, algo salió mal. Inténtalo de nuevo.',
+      retry: 'Reintentar',
+      sources: 'Fuentes',
+      chips: [
+        '¿Cuál es vuestro MOQ para tablas de SUP personalizadas?',
+        '¿Cuánto tarda una muestra?',
+        '¿Qué certificaciones tienen vuestras tablas?',
+        '¿Podéis fabricar un diseño personalizado con mi marca?',
+      ],
+    },
     solutions: {
       ctaCold: 'Saber más',
       ctaWarm: 'Comenta tu proyecto',

@@ -9,6 +9,23 @@ and this project aims to follow [Semantic Versioning](https://semver.org/spec/v2
 
 ### Added
 
+- **AI index deploy pipeline** (`.github/workflows/ai-index.yml`) — after every
+  successful production deploy (or on manual dispatch): idempotently creates
+  the three Vectorize indexes (`sups-knowledge`, `-staging`, `-prod`,
+  1024-dim cosine), triggers a rebuild through the new token-guarded
+  `POST /api/reindex` endpoint (`REINDEX_TOKEN` bearer, 404 when unset), and
+  smoke-tests `/api/ask` end-to-end. The daily 03:00 cron stays as the safety
+  net; missing credentials/`REINDEX_TOKEN` skip gracefully.
+- **AI sales assistant** (`src/features/ai/`) — a floating RAG chat widget on the
+  marketing site (`POST /api/ask`): bge-m3 embeddings + Vectorize top-K retrieval
+  over the full en/es corpus (solutions, knowledge hub, projects, series, guides,
+  afarer products/news/technology/case-studies/pages, and every site FAQ as its
+  own chunk) + llama-3.2-3b answers with clickable `[n]`-cited sources and
+  multi-turn history. KV-cached answers (6h), per-IP rate limit (10/10 min) and a
+  daily global cap, both fail-open. Degrades gracefully: no AI/Vectorize
+  bindings or any failure → keyword-matched site FAQ fallback → empty answer, so
+  the widget works before the index exists. Index rebuilt nightly in the 03:00
+  cron via stable-hash upserts. i18n under `sup.aiChat.*` (en/es).
 - **Site search** — three surfaces over one index: a header search dialog fed by
   `/search-index.json` (full public index, edge-cached 1h), a `/search` page with
   Orama full-text search, and `/api/search` for the docs area. Covers solution

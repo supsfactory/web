@@ -70,6 +70,18 @@
 			"id": "00000000000000000000000000000000"
 		}
 	],
+	// Workers AI + Vectorize — AI sales assistant (POST /api/ask, see src/features/ai/).
+	// 部署前先建索引：`wrangler vectorize create sups-knowledge --dimensions=1024 --metric=cosine`
+	// （staging/prod 同名加后缀）。索引绑定固定指向 index_name，代码里直接 env.VECTORIZE 调用。
+	"ai": {
+		"binding": "AI"
+	},
+	"vectorize": [
+		{
+			"binding": "VECTORIZE",
+			"index_name": "sups-knowledge"
+		}
+	],
 	/**
 	 * Environment Variables
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
@@ -93,7 +105,10 @@
 		"TURNSTILE_SECRET_KEY": "",
 		"CF_ANALYTICS_TOKEN": "",
 		"SENTRY_DSN": "",
-		"RESEND_AUDIENCE_ID": ""
+		"RESEND_AUDIENCE_ID": "",
+		"GA4_MEASUREMENT_ID": "",
+		// CI 触发 /api/reindex 用的 bearer token（见 .github/workflows/ai-index.yml）
+		"REINDEX_TOKEN": ""
 	},
 	/**
 	 * Static Assets
@@ -139,6 +154,15 @@
 					"binding": "CACHE",
 					"id": "00000000000000000000000000000000"
 				}
+			],
+			"ai": {
+				"binding": "AI"
+			},
+			"vectorize": [
+				{
+					"binding": "VECTORIZE",
+					"index_name": "sups-knowledge-staging"
+				}
 			]
 		},
 		"production": {
@@ -168,6 +192,15 @@
 				{
 					"binding": "CACHE",
 					"id": "00000000000000000000000000000000"
+				}
+			],
+			"ai": {
+				"binding": "AI"
+			},
+			"vectorize": [
+				{
+					"binding": "VECTORIZE",
+					"index_name": "sups-knowledge-prod"
 				}
 			]
 		}

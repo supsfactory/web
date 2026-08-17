@@ -60,8 +60,9 @@ const handler = {
   },
 
   // Cron Triggers entry (schedule in wrangler.jsonc → triggers.crons). Runs the
-  // maintenance cleanup (03:00 UTC) and warms the edge cache for the hottest
-  // marketing URLs, so real users hit the edge instead of a cold worker.
+  // maintenance cleanup (03:00 UTC), rebuilds the AI knowledge index (03:00 UTC,
+  // idempotent — safe to run from both crons) and warms the edge cache for the
+  // hottest marketing URLs, so real users hit the edge instead of a cold worker.
   async scheduled(_controller: ScheduledController, env: Cloudflare.Env, _ctx: ExecutionContext): Promise<void> {
     const now = Date.now()
     // Daily maintenance cleanup — the "0 3 * * *" cron fires at exactly 03:00
@@ -69,6 +70,19 @@ const handler = {
     if (new Date(now).getUTCHours() === 3) {
       const result = await runCleanup(createDb(env.DB), now)
       console.log('[cron] cleanup', result)
+      // AI knowledge index rebuild (bge-m3 embeddings → Vectorize). Graceful:
+      // without AI/Vectorize bindings the assistant simply serves FAQ answers.
+      if (env.AI && env.VECTORIZE) {
+        try {
+          const { rebuildAiIndex } = await import('@/features/ai/ingest')
+          const stats = await rebuildAiIndex(env)
+          console.log('[cron] ai index rebuilt', stats)
+        } catch (err) {
+          console.error('[cron] ai index rebuild failed', err instanceof Error ? err.message : err)
+        }
+      } else {
+        console.log('[cron] ai index rebuild skipped (no AI/Vectorize bindings)')
+      }
     }
     await warmEdgeCache(env, _ctx)
   },
