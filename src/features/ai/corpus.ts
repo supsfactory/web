@@ -12,6 +12,7 @@ import { solutionPages, solutionPath } from '@/features/site/solution-pages'
 import { knowledge } from '@/features/site/knowledge'
 import { projects } from '@/features/site/projects'
 import { seriesPages } from '@/features/site/series-pages'
+import { buildHubEntries } from '@/features/site/hub-pages'
 import { GUIDES, GUIDES_ES } from '@/features/content/guide-content'
 import {
   brandify,
@@ -132,9 +133,29 @@ export function buildChunks(locale: Locale): AiChunk[] {
     }
   }
 
+  // Hub pages – structured content compiled in hub-pages.ts
+  for (const entry of buildHubEntries(locale)) {
+    const u = url(entry.url)
+    push(u, 'Hub Page', entry.content ?? '')
+  }
+
   const faqUrl = url(FAQ_PATH)
   for (const [i, f] of getSiteFaqs(locale).entries()) {
     push(faqUrl, f.q, `Q: ${f.q}\nA: ${f.a}`, `faq${i}`)
+  }
+
+  // Add a few static pages that may not have structured corpus entries
+  // (these will be added for both locales via the rebuildAiIndex loop)
+  const staticPages = [
+    { path: '/about', title: 'About SUPsfactory' },
+    { path: '/contact', title: 'Contact' },
+    { path: '/terms', title: 'Terms of Service' },
+    { path: '/privacy', title: 'Privacy Policy' },
+  ]
+  for (const sp of staticPages) {
+    const u = url(sp.path)
+    const txt = ` ${sp.title} page. SUPsfactory provides custom inflatable SUP manufacturing solutions.`
+    push(u, sp.title, txt)
   }
 
   return out

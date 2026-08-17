@@ -16,6 +16,8 @@ interface ChatMessage {
 
 const MAX_HISTORY = 6
 
+const DISCLAIMER = 'Information provided by our AI assistant is for reference only and may not always be 100% accurate. If you have any doubts or specific inquiries, please contact our support team directly.'
+
 /**
  * Floating AI sales assistant (POST /api/ask). Positioned above the WhatsApp /
  * WeChat floats and above the mobile sticky contact bar, so the two never
@@ -38,6 +40,7 @@ export function AiChat() {
     const question = raw.trim()
     if (!question || busy) return
     const history = messages.slice(-MAX_HISTORY).map((m) => ({ role: m.role, content: m.content }))
+    const firstQuestion = messages.length === 0
     setMessages((m) => [...m, { role: 'user', content: question }])
     setInput('')
     setBusy(true)
@@ -53,6 +56,10 @@ export function AiChat() {
       const answer = data.answer
       const sources = data.sources
       setMessages((m) => [...m, { role: 'assistant', content: answer, sources }])
+      // after adding the real answer, if this was the first user question also inject the disclaimer
+      if (firstQuestion) {
+        setMessages((m) => [...m, { role: 'assistant', content: DISCLAIMER }])
+      }
     } catch {
       setError(true)
     } finally {
