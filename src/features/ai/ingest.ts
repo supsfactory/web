@@ -43,7 +43,10 @@ export async function rebuildAiIndex(env: IngestEnv): Promise<{ locale: Locale; 
             await env.VECTORIZE.upsert(payload.slice(k, k + UPSERT_BATCH))
             break
           } catch (err) {
-            if (attempt >= EMBED_ATTEMPTS) throw err
+            if (attempt >= EMBED_ATTEMPTS) {
+              const msg = err instanceof Error ? err.message : String(err)
+              throw new Error(`vectorize upsert failed: ${msg}`)
+            }
             console.error(`[ingest] upsert failed (attempt ${attempt}), retrying`, err instanceof Error ? err.message : err)
             await sleep(500 * 2 ** attempt)
           }
@@ -56,25 +59,35 @@ export async function rebuildAiIndex(env: IngestEnv): Promise<{ locale: Locale; 
 }
 
 async function embedBatch(env: IngestEnv, batch: AiChunk[]): Promise<number[][]> {
-  let vectors: number[][] | undefined
+  const texts = batch.map((c) => c.text)
+  let lastErr: unknown
   for (let attempt = 1; attempt <= EMBED_ATTEMPTS; attempt++) {
     try {
-      // Generated bge-m3 output is a union across input variants — the
-      // embedding variant is what we requested with `{ text: [...] }`.
-      const embedded = (await env.AI.run(EMBED_MODEL, { text: batch.map((c) => c.text) })) as unknown as {
-        data?: { embedding: number[] }[]
+      const embedded = (await env.AI.run(EMBED_MODEL, { text: texts })) as unknown
+      // bge-m3 output is a union across input variants — accept both
+      // `{ data: { embedding: number[] }[] }` and a bare array of vectors,
+      // so a shape drift fails loudly instead of leaking undefined values.
+      const rows = Array.isArray(embedded) ? embedded : (embedded as { data?: unknown } | undefined)?.data
+      const vectors = (Array.isArray(rows) ? rows : []).map((d) =>
+        Array.isArray(d) ? d : (d as { embedding?: number[] } | undefined)?.embedding,
+      )
+      if (vectors.length !== batch.length) {
+        throw new Error(`embedding count mismatch (expected ${batch.length}, got ${vectors.length})`)
       }
-      vectors = (embedded.data ?? []).map((d) => d.embedding)
-      if (vectors.length !== batch.length) throw new Error('embedding count mismatch')
-      return vectors
+      for (let j = 0; j < vectors.length; j++) {
+        if (!Array.isArray(vectors[j]) || vectors[j]!.length === 0 || !vectors[j]!.every((n) => Number.isFinite(n))) {
+          throw new Error(`embedding vector ${j} malformed or non-finite`)
+        }
+      }
+      return vectors as number[][]
     } catch (err) {
+      lastErr = err
+      if (attempt === EMBED_ATTEMPTS) break
       const msg = err instanceof Error ? err.message : String(err)
-      if (attempt === EMBED_ATTEMPTS) {
-        throw new Error(`embedding batch failed after ${EMBED_ATTEMPTS} attempts: ${msg}`)
-      }
       console.error(`[ingest] embed failed (attempt ${attempt}): ${msg}, retrying`)
       await sleep(800 * 2 ** (attempt - 1))
     }
   }
-  throw new Error('unreachable')
+  const msg = lastErr instanceof Error ? lastErr.message : String(lastErr)
+  throw new Error(`embedding batch failed after ${EMBED_ATTEMPTS} attempts: ${msg}`)
 }
