@@ -41,7 +41,7 @@ jobs:
         run: pnpm install --frozen-lockfile
       # 索引是账号级资源，--env 只影响绑定的 index_name 命名（wrangler.example.jsonc
       # 里三个环境已声明）；用模板配置即可，placeholders 不影响 vectorize 命令。
-      # create 幂等：已存在时报 "already exists"，识别后跳过。
+      # create 幂等：已存在时报 "already exists"/duplicate_name，识别后跳过。
       - if: steps.guard.outputs.enabled == 'true'
         name: Ensure Vectorize indexes exist (idempotent)
         env:
@@ -54,7 +54,7 @@ jobs:
             if npx wrangler vectorize create "$name" --dimensions=1024 --metric=cosine \
               --config wrangler.example.jsonc "$@" > /tmp/vz.log 2>&1; then
               echo "created $name"
-            elif grep -qiE 'already exists' /tmp/vz.log; then
+            elif grep -qiE 'already exists|duplicate_name' /tmp/vz.log; then
               echo "exists (skip) $name"
             else
               cat /tmp/vz.log

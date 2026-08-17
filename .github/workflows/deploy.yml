@@ -56,7 +56,7 @@ jobs:
           command: d1 migrations apply supsfactory-db-prod --env production --remote
       # Vectorize 索引缺失会让 deploy 直接失败（code 10159）——必须在部署前
       # 幂等建好三个索引（top-level/staging/production 绑定各自引用）。已存在时
-      # wrangler 报 "already exists"，识别后跳过。
+      # wrangler 报 "already exists"/duplicate_name，识别后跳过。
       - name: Ensure Vectorize indexes exist (idempotent)
         if: steps.guard.outputs.enabled == 'true'
         env:
@@ -69,7 +69,7 @@ jobs:
             if npx wrangler vectorize create "$name" --dimensions=1024 --metric=cosine \
               --config wrangler.example.jsonc "$@" > /tmp/vz.log 2>&1; then
               echo "created $name"
-            elif grep -qiE 'already exists' /tmp/vz.log; then
+            elif grep -qiE 'already exists|duplicate_name' /tmp/vz.log; then
               echo "exists (skip) $name"
             else
               cat /tmp/vz.log
