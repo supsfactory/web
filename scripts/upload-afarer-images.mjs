@@ -17,7 +17,7 @@
  *            R2 API Tokens, Object Read & Write for the bucket):
  *            $env:R2_ACCOUNT_ID / R2_ACCESS_KEY_ID / R2_SECRET_ACCESS_KEY.
  *
- * Bucket name defaults to supsfactory-files-prod (override via R2_BUCKET).
+ * Bucket name defaults to ${SITE_ID}-files-prod (override via R2_BUCKET).
  *
  * Usage:
  *   node scripts/upload-afarer-images.mjs                              # S3 mode
@@ -48,7 +48,7 @@ const KEY_PREFIX = flagValue('prefix', 'images/sups/')
 const CACHE_CONTROL = flagValue('cache', 'public, max-age=31536000, immutable')
 const CONCURRENCY = 8
 
-const BUCKET = process.env.R2_BUCKET ?? 'supsfactory-files-prod'
+const BUCKET = process.env.R2_BUCKET ?? `${process.env.SITE_ID ?? 'supsfactory'}-files-prod`
 const ACCOUNT_ID = process.env[HTTP_MODE ? 'CLOUDFLARE_ACCOUNT_ID' : 'R2_ACCOUNT_ID'] ?? ''
 const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN ?? ''
 const ACCESS_KEY = process.env.R2_ACCESS_KEY_ID ?? ''

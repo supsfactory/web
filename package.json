@@ -19,12 +19,12 @@
     "cf-typegen": "wrangler types",
     "lint": "eslint .",
     "db:generate": "drizzle-kit generate",
-    "db:migrate:local": "wrangler d1 migrations apply supsfactory-db --local",
-    "db:migrate:staging": "wrangler d1 migrations apply supsfactory-db-staging --env staging --remote",
-    "db:migrate:prod": "wrangler d1 migrations apply supsfactory-db-prod --env production --remote",
-    "db:seed:local": "wrangler d1 execute supsfactory-db --local --file=./scripts/seed.sql",
+    "db:migrate:local": "wrangler d1 migrations apply ${npm_config_site_id:-supsfactory}-db --local",
+    "db:migrate:staging": "wrangler d1 migrations apply ${npm_config_site_id:-supsfactory}-db-staging --env staging --remote",
+    "db:migrate:prod": "wrangler d1 migrations apply ${npm_config_site_id:-supsfactory}-db-prod --env production --remote",
+    "db:seed:local": "wrangler d1 execute ${npm_config_site_id:-supsfactory}-db --local --file=./scripts/seed.sql",
     "db:reset:local": "rm -rf .wrangler/state/v3/d1 && pnpm db:migrate:local && pnpm db:seed:local",
-    "upload:afarer-images": "node scripts/upload-afarer-images.mjs",
+    "upload:images": "node scripts/upload-afarer-images.mjs",
     "upload:site-assets": "node scripts/upload-site-assets.mjs"
   },
   "dependencies": {
