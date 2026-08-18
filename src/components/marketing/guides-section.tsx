@@ -8,7 +8,7 @@ import { Reveal } from './reveal'
 /** Home: buyer-education cards linking into the news guides, pitched at the
  *  sourcing questions every SUP brand asks before ordering. */
 export function GuidesSection() {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const c = pick(guides, locale)
   const fl = (path: string): string => localizePath(locale, path)
 
@@ -27,7 +27,7 @@ export function GuidesSection() {
                 <p className="mt-2 text-[13px] leading-snug text-fg-2">{g.body}</p>
               </div>
               <span className="inline-flex items-center gap-1.5 text-[13px] font-bold text-primary">
-                {locale === 'es' ? 'Leer la guía' : 'Read the guide'}
+                {t('content.readTheGuide')}
                 <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
               </span>
             </a>
@@ -39,7 +39,7 @@ export function GuidesSection() {
           href={fl('/product-development')}
           className="inline-flex items-center gap-1.5 font-bold text-primary hover:underline"
         >
-          {locale === 'es' ? 'Ver toda la biblioteca de fabricación' : 'Browse the full sourcing library'}
+          {t('content.browseSourcingLibrary')}
           <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
         </a>
       </p>

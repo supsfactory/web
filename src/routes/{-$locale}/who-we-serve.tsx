@@ -2,6 +2,7 @@ import { createFileRoute, getRouteApi } from '@tanstack/react-router'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
+import { getDictionary, translate } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, servePage } from '@/features/site/content'
 import { SiteNav } from '@/components/marketing/site-nav'
@@ -18,15 +19,13 @@ export const Route = createFileRoute('/{-$locale}/who-we-serve')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const d = getDictionary(locale)
     const { meta, links } = localeHead({
       origin,
       locale,
       path: '/who-we-serve',
-      title: locale === 'es' ? `¿A quién servimos? | Marcas y distribuidores | ${SITE_NAME}` : `Who We Serve | SUP Brands, Distributors & Sourcing Teams`,
-      description:
-        locale === 'es'
-          ? `${SITE_NAME} fabrica para marcas de SUP, distribuidores, minoristas y equipos de compra, además de resorts, clubes, escuelas y flotas.`
-          : `${SITE_NAME} manufactures for SUP brands, distributors, retailers and sourcing teams \u2014 as well as resorts, clubs, schools and fleet operators.`,
+      title: translate(d, 'content.seo.whoWeServeTitle', { siteName: SITE_NAME }),
+      description: translate(d, 'content.seo.whoWeServeDesc', { siteName: SITE_NAME }),
     })
     return { meta, links }
   },

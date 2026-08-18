@@ -3,6 +3,7 @@ import { BadgeCheck } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
+import { getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, about } from '@/features/site/content'
 import { SiteNav } from '@/components/marketing/site-nav'
@@ -20,15 +21,13 @@ export const Route = createFileRoute('/{-$locale}/about/')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const d = getDictionary(locale)
     const { meta, links } = localeHead({
       origin,
       locale,
       path: '/about',
-      title: locale === 'es' ? `Sobre ${SITE_NAME} | Fabricante de tablas SUP a medida | OEM/ODM` : `About ${SITE_NAME} | Custom SUP Board Manufacturer | OEM/ODM`,
-      description:
-        locale === 'es'
-          ? `${SITE_NAME} es un fabricante de tablas de paddle surf a medida — OEM y ODM de SUP hinchables, desde el diseño del prototipo hasta la producción en serie, con ingeniería, moldes, muestras y soporte global.`
-          : `${SITE_NAME} is a custom SUP board manufacturer — inflatable paddle board OEM/ODM from prototype design to mass production, with engineering, tooling, sampling, QC and global export support under one roof.`,
+      title: translate(d, 'content.seo.aboutTitle', { siteName: SITE_NAME }),
+      description: translate(d, 'content.seo.aboutDesc', { siteName: SITE_NAME }),
     })
     return { meta, links }
   },
@@ -37,7 +36,7 @@ export const Route = createFileRoute('/{-$locale}/about/')({
 
 function AboutPage() {
   const { theme, user } = rootRoute.useLoaderData()
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const c = pick(about, locale)
 
   return (
@@ -71,17 +70,13 @@ function AboutPage() {
         <div className="grid gap-5 md:grid-cols-2">
           <img
             src={`${BRAND_ASSETS_CDN}/site/videos/2026/sup-manufacturing.jpg`}
-            alt={locale === 'es'
-              ? 'Línea de producción de una fábrica de tablas SUP hinchables a medida en Qingdao'
-              : 'Custom SUP board manufacturing factory production line — inflatable paddle board plant in Qingdao'}
+            alt={t('content.seo.aboutFactoryAlt')}
             loading="lazy"
             className="aspect-[16/10] w-full rounded-2xl border border-border-2 object-cover"
           />
           <img
             src={`${BRAND_ASSETS_CDN}/site/videos/2026/oem-brand-launch.jpg`}
-            alt={locale === 'es'
-              ? 'Marca de SUP OEM personalizada — estampado y embalaje de tablas con marca privada'
-              : 'OEM SUP brand launch — custom paddle board branding, printing and packaging for private label'}
+            alt={t('content.seo.aboutOemAlt')}
             loading="lazy"
             className="aspect-[16/10] w-full rounded-2xl border border-border-2 object-cover"
           />
@@ -91,7 +86,7 @@ function AboutPage() {
       {/* manufacturing strength */}
       <section className="border-t border-border">
         <div className="mx-auto max-w-6xl px-5 py-16 md:px-7">
-          <SectionHead kicker={locale === 'es' ? 'Fabricación' : 'Manufacturing'} title={locale === 'es' ? 'Nuestra fortaleza de fabricación' : 'Our Manufacturing Strength'} />
+          <SectionHead kicker={t('content.kickers.manufacturing')} title={t('content.seo.aboutManufacturing')} />
           <div className="mt-8 grid gap-5 md:grid-cols-3">
             {c.strength.map((s) => (
               <div key={s.title} className="marine-card p-7">
@@ -142,9 +137,9 @@ function AboutPage() {
       </section>
 
       <JsonLd
-        data={aboutPageLd(
-          SITE_URL,
-          locale === 'es' ? '/es/about' : '/about',
+         data={aboutPageLd(
+           SITE_URL,
+           localizePath(locale, '/about'),
           BRAND_BOILERPLATE,
         )}
       />

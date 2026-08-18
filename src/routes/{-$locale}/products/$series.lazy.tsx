@@ -22,7 +22,6 @@ function SeriesPage() {
   const { theme, user } = rootRoute.useLoaderData()
   const { locale, t } = useTranslation()
   const { origin, turnstileSiteKey, page, product } = Route.useLoaderData()
-  const es = locale === 'es'
 
   if (product) {
     return (
@@ -79,25 +78,25 @@ function SeriesPage() {
 
         <div className="mt-10 grid gap-4 sm:grid-cols-3">
           <div className="marine-card p-4">
-            <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{es ? 'Pedido mínimo' : 'Minimum order'}</p>
+            <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.minimumOrderShort')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-              {es
+              {locale === 'es'
                 ? `${FACTS.moq.standardRun} volumen estándar · ${FACTS.moq.trialStandard} piloto · ${FACTS.moq.customMould} molde a medida`
                 : `${FACTS.moq.standardRun} standard volume · ${FACTS.moq.trialStandard} pilot · ${FACTS.moq.customMould} custom mould`}
             </p>
           </div>
           <div className="marine-card p-4">
-            <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{es ? 'Plazos' : 'Timeline'}</p>
+            <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.timeline')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-              {es
+              {locale === 'es'
                 ? `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras PO y depósito`
                 : `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after PO and deposit`}
             </p>
           </div>
           <div className="marine-card p-4">
-            <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{es ? 'Control de calidad' : 'Quality control'}</p>
+            <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.qualityControl')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-              {es ? `Checklist de ${FACTS.assemblyChecklist} puntos · prueba ${FACTS.pressureTest}` : `${FACTS.assemblyChecklist}-point checklist · ${FACTS.pressureTest} pressure test`}
+              {locale === 'es' ? `Checklist de ${FACTS.assemblyChecklist} puntos · prueba ${FACTS.pressureTest}` : `${FACTS.assemblyChecklist}-point checklist · ${FACTS.pressureTest} pressure test`}
             </p>
           </div>
         </div>
@@ -159,7 +158,7 @@ function SeriesPage() {
 
         <div className="mt-12">
           <h2 className="font-display text-2xl font-extrabold tracking-tight">
-            {es ? `${page.navLabel} — modelos` : `${page.navLabel} — Models`}
+            {locale === 'es' ? `${page.navLabel} — modelos` : `${page.navLabel} — Models`}
           </h2>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {items.map((p) => (
@@ -173,13 +172,13 @@ function SeriesPage() {
                   <p className="mt-1.5 text-[13px] leading-relaxed text-fg-2">{p.tagline}</p>
                   <p className="mt-2 text-[12.5px] font-medium text-fg-3">{p.specs}</p>
                   <p className="mt-1.5 text-[12px] font-semibold text-primary">
-                    {es
+                    {locale === 'es'
                       ? `MOQ ${FACTS.moq.standardRun} · piloto desde ${FACTS.moq.trialStandard}`
                       : `MOQ ${FACTS.moq.standardRun} · pilot from ${FACTS.moq.trialStandard}`}
                   </p>
                 </div>
                 <p className="mt-auto flex items-center gap-1.5 text-[13.5px] font-bold text-primary group-hover:underline">
-                  {es ? 'Ver plataforma' : 'View platform'} <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
+                  {t('content.product.viewPlatform')} <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
                 </p>
               </a>
             ))}
@@ -188,7 +187,7 @@ function SeriesPage() {
 
         <div className="mt-14 grid gap-3 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-bg-alt/50 p-7">
-            <h2 className="font-display text-xl font-extrabold tracking-tight">{es ? '¿Qué puedes personalizar?' : 'What You Can Customize'}</h2>
+            <h2 className="font-display text-xl font-extrabold tracking-tight">{t('content.product.whatCustomize')}</h2>
             <ul className="mt-4 flex flex-col gap-2.5">
               {c.customPoints.map((p) => (
                 <li key={p} className="flex items-center gap-2.5 text-[14px] font-medium text-fg-2">
@@ -199,7 +198,7 @@ function SeriesPage() {
             <p className="mt-4 text-[14px] leading-relaxed text-fg-2">{c.customBody}</p>
           </div>
           <div className="rounded-3xl border border-border bg-bg-alt/50 p-7">
-            <h2 className="font-display text-xl font-extrabold tracking-tight">{es ? 'Preguntas frecuentes de la serie' : 'Series FAQ'}</h2>
+            <h2 className="font-display text-xl font-extrabold tracking-tight">{t('content.product.seriesFaq')}</h2>
             <div className="mt-4 flex flex-col gap-3">
               {page.faqs.map((f) => (
                 <details key={f.q} className="group rounded-xl border border-border bg-background px-4 py-3">
@@ -213,7 +212,7 @@ function SeriesPage() {
 
         <div className="mt-14 rounded-3xl border border-border bg-bg-alt p-8 text-center md:p-12">
           <p className="text-[12px] font-bold uppercase tracking-[0.14em] text-primary">
-            {es ? '¿Listo para fabricar esta serie bajo tu marca?' : 'Ready to manufacture this series under your brand?'}
+            {t('content.product.readySeries')}
           </p>
           <h2 className="mt-3 font-display text-2xl font-extrabold tracking-tight md:text-3xl">
             {t('sup.procurement.cta')}
@@ -243,7 +242,7 @@ function SeriesPage() {
         {others.length > 0 && (
           <div className="mt-10 flex flex-wrap items-center gap-2">
             <span className="text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
-              {es ? 'Otras series:' : 'Other series:'}
+              {t('content.product.otherSeries')}
             </span>
             {others.map((s) => (
               <a key={s.slug} href={fl(`/products/${s.slug}`)} className="rounded-full border border-border bg-background px-3.5 py-1.5 text-[13px] font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary">
@@ -255,8 +254,8 @@ function SeriesPage() {
 
         <JsonLd
           data={breadcrumbLd(origin, [
-            { name: es ? 'Inicio' : 'Home', path: '/' },
-            { name: es ? 'Productos' : 'Products', path: '/products' },
+            { name: t('content.nav.home'), path: '/' },
+            { name: t('content.nav.products'), path: '/products' },
             { name: page.h1, path: `/products/${page.slug}` },
           ])}
         />

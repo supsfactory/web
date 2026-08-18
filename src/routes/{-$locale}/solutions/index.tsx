@@ -3,6 +3,7 @@ import { ArrowRight } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
+import { getDictionary, translate } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
 import { pick, solutions } from '@/features/site/content'
@@ -21,15 +22,13 @@ export const Route = createFileRoute('/{-$locale}/solutions/')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const d = getDictionary(locale)
     const { meta, links } = localeHead({
       origin,
       locale,
       path: '/solutions',
-      title: locale === 'es' ? 'Soluciones SUP personalizadas | Tabla, marca y paquetes' : 'Custom SUP Solutions | Boards, Brands & Packages',
-      description:
-        locale === 'es'
-          ? 'Personalización de la tabla, identidad de marca y paquetes completos: formas, gráficos, pads EVA, accesorios y embalaje a medida.'
-          : 'Board customization, brand identity and complete packages — every layer of your SUP is customizable: shapes, graphics, EVA pads, accessories.',
+      title: translate(d, 'content.seo.solutionsTitle'),
+      description: translate(d, 'content.seo.solutionsDesc'),
     })
     return { meta, links }
   },
@@ -50,7 +49,7 @@ function SolutionsIndex() {
         path,
         navLabel: brandify(String(meta.title)).split('|')[0].trim(),
         metaDescription: brandify(meta.description ?? ''),
-        kicker: locale === 'es' ? 'Programa' : 'Program',
+        kicker: t('content.kickers.program'),
       }
     })
     .filter((p): p is NonNullable<typeof p> => p !== null)

@@ -3,6 +3,7 @@ import { Search as SearchIcon, ArrowRight } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
+import { getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { searchIndexServer, type SearchEntry, type SearchEntryType } from '@/features/site/search'
 import { PageHero } from '@/components/marketing/section-head'
@@ -23,15 +24,13 @@ export const Route = createFileRoute('/{-$locale}/search')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const d = getDictionary(locale)
     const { meta, links } = localeHead({
       origin,
       locale,
       path: '/search',
-      title: locale === 'es' ? `Buscar | ${SITE_NAME}` : `Search | ${SITE_NAME}`,
-      description:
-        locale === 'es'
-          ? 'Resultados de búsqueda en el sitio: soluciones, guías, proyectos y páginas de fabricación de SUP inflable.'
-          : 'Site search results — SUP OEM solutions, guides, projects and manufacturing pages.',
+      title: translate(d, 'content.seo.searchTitle', { siteName: SITE_NAME }),
+      description: translate(d, 'content.seo.searchDesc'),
     })
     meta.push({ name: 'robots', content: 'noindex, follow' })
     return { meta, links }
@@ -66,7 +65,7 @@ function SearchPage() {
     <MarketingShell>
       <PageHero kicker={t('common.searchResultsTitle')} title={query ? t('common.searchResultsFor', { query }) : t('common.searchResultsTitle')}>
         <div className="mt-7 flex max-w-2xl flex-col gap-4">
-          <form action={locale === 'es' ? '/es/search' : '/search'} method="get" className="flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2.5 shadow-[var(--shadow-sm)]">
+          <form action={localizePath(locale, '/search')} method="get" className="flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2.5 shadow-[var(--shadow-sm)]">
             <SearchIcon size={18} className="shrink-0 text-fg-3" />
             <input
               type="text"

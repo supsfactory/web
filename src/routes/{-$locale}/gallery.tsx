@@ -2,6 +2,7 @@ import { createFileRoute, getRouteApi } from '@tanstack/react-router'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
+import { getDictionary, translate } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, galleryPage } from '@/features/site/content'
 import { SiteNav } from '@/components/marketing/site-nav'
@@ -18,15 +19,13 @@ export const Route = createFileRoute('/{-$locale}/gallery')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const d = getDictionary(locale)
     const { meta, links } = localeHead({
       origin,
       locale,
       path: '/gallery',
-      title: locale === 'es' ? `Galería de proyectos SUP | ${SITE_NAME}` : `Project Gallery | Custom SUP Projects \u2014 ${SITE_NAME}`,
-      description:
-        locale === 'es'
-          ? `Proyectos de fabricación de SUP de ${SITE_NAME} para marcas, distribuidores, resorts y clubes: de los gráficos a las líneas de producción completas.`
-          : `Custom SUP manufacturing projects built by ${SITE_NAME} for brands, distributors, resorts and clubs \u2014 from board graphics to full production lines.`,
+      title: translate(d, 'content.seo.galleryTitle', { siteName: SITE_NAME }),
+      description: translate(d, 'content.seo.galleryDesc', { siteName: SITE_NAME }),
     })
     return { meta, links }
   },

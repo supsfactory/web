@@ -1,7 +1,7 @@
 ﻿import { test, expect } from 'vitest'
 import { renderToString } from 'react-dom/server'
 import * as React from 'react'
-import { getContentPage, getContentPages, getEsPaths } from '@/features/content/loader'
+import { getContentPage, getContentPages, getLocalePaths } from '@/features/content/loader'
 import { ContentSections } from '@/features/content/render/sections'
 import { I18nProvider } from '@/features/i18n/provider'
 
@@ -24,7 +24,7 @@ test('every registry page renders its sections without error (en)', () => {
 
 test('every Spanish twin renders without error (es)', () => {
   // /faq is served by the catchall route from site/faqs.yaml, not the registry.
-  for (const p of getEsPaths().filter((x) => x !== '/faq')) {
+  for (const p of getLocalePaths('es').filter((x) => x !== '/faq')) {
     expect(() => html(p, 'es'), `${p} (es) throws during render`).not.toThrow()
   }
 })

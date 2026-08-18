@@ -3,6 +3,7 @@ import { getOptionalUser } from '@/features/auth/middleware'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
+import { getDictionary, translate } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { dictionaries } from '@/features/i18n/locale'
 import { LegalPage } from '@/components/marketing/legal-page'
@@ -15,15 +16,13 @@ export const Route = createFileRoute('/{-$locale}/privacy')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const d = getDictionary(locale)
     const { meta, links } = localeHead({
       origin,
       locale,
       path: '/privacy',
-      title: locale === 'es' ? `Política de privacidad \u2014 ${SITE_NAME}` : `Privacy Policy \u2014 ${SITE_NAME}`,
-      description:
-        locale === 'es'
-          ? `Cómo ${SITE_NAME} (${BRAND_COMPANY_NAME}) recoge, usa y protege tus datos en los formularios de consulta y RFQ.`
-          : `How ${SITE_NAME} (${BRAND_COMPANY_NAME}) collects, uses and protects your data from inquiry and RFQ forms.`,
+      title: translate(d, 'content.seo.privacyTitle', { siteName: SITE_NAME }),
+      description: translate(d, 'content.seo.privacyDesc', { siteName: SITE_NAME, companyName: BRAND_COMPANY_NAME }),
     })
     return { meta, links }
   },

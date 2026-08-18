@@ -26,16 +26,28 @@ import type {
 
 const siteGlob = import.meta.glob('../../content/site/site/*.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const pageGlob = import.meta.glob('../../content/site/pages/*.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const esSiteGlob = import.meta.glob('../../content/site/site/*.es.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const esPageGlob = import.meta.glob('../../content/site/pages/*.es.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const siteLocaleGlobs: Record<string, Record<string, string>> = {
+  es: import.meta.glob('../../content/site/site/*.es.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
+}
+const pageLocaleGlobs: Record<string, Record<string, string>> = {
+  es: import.meta.glob('../../content/site/pages/*.es.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
+}
 const productGlob = import.meta.glob('../../content/site/products/*.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const newsGlob = import.meta.glob('../../content/site/news/*.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const newsEsGlob = import.meta.glob('../../content/site/news/*.es.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const newsLocaleGlobs: Record<string, Record<string, string>> = {
+  es: import.meta.glob('../../content/site/news/*.es.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
+}
 const techGlob = import.meta.glob('../../content/site/technology/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const caseGlob = import.meta.glob('../../content/site/case-use/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const productEsGlob = import.meta.glob('../../content/site/products/*.es.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const techEsGlob = import.meta.glob('../../content/site/technology/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const caseEsGlob = import.meta.glob('../../content/site/case-use/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const productLocaleGlobs: Record<string, Record<string, string>> = {
+  es: import.meta.glob('../../content/site/products/*.es.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
+}
+const techLocaleGlobs: Record<string, Record<string, string>> = {
+  es: import.meta.glob('../../content/site/technology/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
+}
+const caseLocaleGlobs: Record<string, Record<string, string>> = {
+  es: import.meta.glob('../../content/site/case-use/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
+}
 const geoGlob = import.meta.glob('../../product/geo/*.json', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 
 const stripBom = (s: string) => s.replace(/^\uFEFF/, '')
@@ -82,7 +94,10 @@ interface RegistryEntry {
 const REGISTRY_RAW = suffixMatch(siteGlob, 'pages.yaml') ?? ''
 const REGISTRY = (parse(stripBom(REGISTRY_RAW)) as RegistryEntry[]) ?? []
 const PAGES_YAML = parseYamlMap(pageGlob)
-const PAGES_YAML_ES = parseYamlMap(esPageGlob, true)
+const PAGE_LOCALE_MAP: Record<string, Record<string, unknown>> = {}
+for (const [loc, glob] of Object.entries(pageLocaleGlobs)) {
+  PAGE_LOCALE_MAP[loc] = parseYamlMap(glob, true)
+}
 
 /** Global market regions the product serves, sourced from the distributor coverage list. */
 const REGION_COUNT = (() => {
@@ -256,20 +271,28 @@ const NEWS: ContentPost[] = Object.entries(NEWS_DATA)
   .map(([slug, d]) => postFrom(slug, d as Record<string, unknown>))
   .sort((a, b) => (a.date < b.date ? 1 : -1))
 
-/** Spanish overlays keyed by the canonical (English) slug. */
-const NEWS_ES: Record<string, ContentPost> = {}
-for (const [slug, d] of Object.entries(NEWS_DATA)) {
-  if (!slug.endsWith('.es')) continue
-  const base = slug.replace(/\.es$/, '')
-  const en = NEWS.find((p) => p.slug === base)
-  if (en) NEWS_ES[base] = postFrom(base, d as Record<string, unknown>, en, mdxBodyOf(newsEsGlob, slug))
+/** Locale overlays keyed by locale code, then canonical slug. */
+const NEWS_LOCALE: Record<string, Record<string, ContentPost>> = {}
+for (const [loc, glob] of Object.entries(newsLocaleGlobs)) {
+  const data = parseMdxFiles<Record<string, unknown>>(glob)
+  const map: Record<string, ContentPost> = {}
+  for (const [slug, d] of Object.entries(data)) {
+    const base = slug.replace(/\.es$/, '')
+    const en = NEWS.find((p) => p.slug === base)
+    if (en) map[base] = postFrom(base, d as Record<string, unknown>, en, mdxBodyOf(glob, slug))
+  }
+  NEWS_LOCALE[loc] = map
 }
 
-const PRODUCTS_ES: Record<string, ContentProduct> = {}
-for (const [slug, d] of Object.entries(PRODUCT_DATA)) {
-  if (!slug.endsWith('.es')) continue
-  const base = slug.replace(/\.es$/, '')
-  if (PRODUCTS.some((p) => p.slug === base)) PRODUCTS_ES[base] = productOf(base, d as Record<string, unknown>, mdxBodyOf(productEsGlob, slug))
+const PRODUCTS_LOCALE: Record<string, Record<string, ContentProduct>> = {}
+for (const [loc, glob] of Object.entries(productLocaleGlobs)) {
+  const data = parseMdxFiles<Record<string, unknown>>(glob)
+  const map: Record<string, ContentProduct> = {}
+  for (const [slug, d] of Object.entries(data)) {
+    const base = slug.replace(/\.es$/, '')
+    if (PRODUCTS.some((p) => p.slug === base)) map[base] = productOf(base, d as Record<string, unknown>, mdxBodyOf(glob, slug))
+  }
+  PRODUCTS_LOCALE[loc] = map
 }
 
 function articleOf(slug: string, d: Record<string, unknown>, body: string): ContentArticle {
@@ -290,11 +313,15 @@ const TECH: ContentArticle[] = Object.entries(TECH_DATA)
   .filter(([slug]) => !slug.endsWith('.es'))
   .map(([slug, d]) => articleOf(slug, d as Record<string, unknown>, mdxBodyOf(techGlob, slug)))
 
-const TECH_ES: Record<string, ContentArticle> = {}
-for (const [slug, d] of Object.entries(TECH_DATA)) {
-  if (!slug.endsWith('.es')) continue
-  const base = slug.replace(/\.es$/, '')
-  if (TECH.some((t) => t.slug === base)) TECH_ES[base] = articleOf(base, d as Record<string, unknown>, mdxBodyOf(techEsGlob, slug))
+const TECH_LOCALE: Record<string, Record<string, ContentArticle>> = {}
+for (const [loc, glob] of Object.entries(techLocaleGlobs)) {
+  const data = parseMdxFiles<Record<string, unknown>>(glob)
+  const map: Record<string, ContentArticle> = {}
+  for (const [slug, d] of Object.entries(data)) {
+    const base = slug.replace(/\.es$/, '')
+    if (TECH.some((t) => t.slug === base)) map[base] = articleOf(base, d as Record<string, unknown>, mdxBodyOf(glob, slug))
+  }
+  TECH_LOCALE[loc] = map
 }
 
 function caseOf(slug: string, d: Record<string, unknown>, body: string): ContentCaseUse {
@@ -317,11 +344,15 @@ const CASE_USES: ContentCaseUse[] = Object.entries(CASE_DATA)
   .filter(([slug]) => !slug.endsWith('.es'))
   .map(([slug, d]) => caseOf(slug, d as Record<string, unknown>, mdxBodyOf(caseGlob, slug)))
 
-const CASE_ES: Record<string, ContentCaseUse> = {}
-for (const [slug, d] of Object.entries(CASE_DATA)) {
-  if (!slug.endsWith('.es')) continue
-  const base = slug.replace(/\.es$/, '')
-  if (CASE_USES.some((c) => c.slug === base)) CASE_ES[base] = caseOf(base, d as Record<string, unknown>, mdxBodyOf(caseEsGlob, slug))
+const CASE_LOCALE: Record<string, Record<string, ContentCaseUse>> = {}
+for (const [loc, glob] of Object.entries(caseLocaleGlobs)) {
+  const data = parseMdxFiles<Record<string, unknown>>(glob)
+  const map: Record<string, ContentCaseUse> = {}
+  for (const [slug, d] of Object.entries(data)) {
+    const base = slug.replace(/\.es$/, '')
+    if (CASE_USES.some((c) => c.slug === base)) map[base] = caseOf(base, d as Record<string, unknown>, mdxBodyOf(glob, slug))
+  }
+  CASE_LOCALE[loc] = map
 }
 
 /* ───────────────────────── research topics ───────────────────────── */
@@ -340,58 +371,82 @@ function geoJson(name: string): Record<string, unknown> | undefined {
   return raw ? (parse(stripBom(raw), { uniqueKeys: false }) as Record<string, unknown>) : undefined
 }
 
+/* ───────────────────────── locale overlay helper ───────────────────────── */
+
+function localeOverlay<T>(map: Record<string, Record<string, T>>, locale: string, slug: string): T | undefined {
+  return map[locale]?.[slug]
+}
+
+function localeOverlayList<T extends { slug: string }>(map: Record<string, Record<string, T>>, locale: string, base: T[]): T[] {
+  const overlays = map[locale]
+  if (!overlays) return base
+  return base.map((item) => overlays[item.slug] ?? item)
+}
+
 /* ───────────────────────── public API ───────────────────────── */
 
 export function getContentPage(path: string, locale: Locale = defaultLocale): ContentPage | undefined {
   const page = PAGE_BY_PATH.get(normalizePath(path))
   if (!page) return undefined
-  if (locale !== 'es') return page
-  const es = PAGES_YAML_ES[page.slug]
-  if (!es) return page
-  const esContent = es as Record<string, unknown>
-  return { ...page, content: esContent, meta: (esContent.meta as ContentPage['meta']) ?? page.meta }
+  if (locale === defaultLocale) return page
+  const overlay = PAGE_LOCALE_MAP[locale]
+  if (!overlay) return page
+  const localized = overlay[page.slug]
+  if (!localized) return page
+  const localizedContent = localized as Record<string, unknown>
+  return { ...page, content: localizedContent, meta: (localizedContent.meta as ContentPage['meta']) ?? page.meta }
 }
 
-/** True when a Spanish variant exists for the page (or /faq) at `path`. */
+/** True when a locale variant exists for the page at `path`. */
 export function isContentPageTranslated(path: string, locale: Locale): boolean {
-  if (locale !== 'es') return false
-  return hasSpanishVariant(path)
+  if (locale === defaultLocale) return false
+  return hasLocaleVariant(path, locale)
 }
 
 /**
- * True when a Spanish variant exists for any content at `path` —
+ * True when a locale variant exists for any content at `path` —
  * registry pages, /faq, or the sidecar overlays (news, products, technology,
  * case-use). Guides live in guide-content.ts and are checked by the caller.
  */
-export function hasSpanishVariant(path: string): boolean {
+export function hasLocaleVariant(path: string, locale: string): boolean {
   const p = normalizePath(path)
   const page = PAGE_BY_PATH.get(p)
-  if (page) return !!PAGES_YAML_ES[page.slug]
-  if (p === '/faq') return !!suffixMatch(esSiteGlob, 'faqs.es.yaml')
+  if (page) return !!PAGE_LOCALE_MAP[locale]?.[page.slug]
+  if (p === '/faq') return !!suffixMatch(siteLocaleGlobs[locale] ?? {}, `faqs.${locale}.yaml`)
   const slug = p.split('/').filter(Boolean).pop() ?? ''
-  if (p.startsWith('/products/')) return !!PRODUCTS_ES[slug]
-  if (p.startsWith('/news/')) return !!NEWS_ES[slug]
-  if (p.startsWith('/technology/')) return !!TECH_ES[slug]
-  if (p.startsWith('/evidence/case-studies/')) return !!CASE_ES[slug]
+  if (p.startsWith('/products/')) return !!localeOverlay(PRODUCTS_LOCALE, locale, slug)
+  if (p.startsWith('/news/')) return !!localeOverlay(NEWS_LOCALE, locale, slug)
+  if (p.startsWith('/technology/')) return !!localeOverlay(TECH_LOCALE, locale, slug)
+  if (p.startsWith('/evidence/case-studies/')) return !!localeOverlay(CASE_LOCALE, locale, slug)
   return false
 }
 
-/** Live page paths that have a Spanish variant (for the /es sitemap). */
-export function getEsPaths(): string[] {
-  const pages = ALL_PAGES.filter((p) => PAGES_YAML_ES[p.slug]).map((p) => p.path)
-  if (suffixMatch(esSiteGlob, 'faqs.es.yaml')) pages.push('/faq')
+/** @deprecated Use hasLocaleVariant instead. */
+export const hasSpanishVariant = hasLocaleVariant
+
+/** Live page paths that have a locale variant (for sitemap generation). */
+export function getLocalePaths(locale: string): string[] {
+  const overlay = PAGE_LOCALE_MAP[locale]
+  const pages = overlay ? ALL_PAGES.filter((p) => overlay[p.slug]).map((p) => p.path) : []
+  if (suffixMatch(siteLocaleGlobs[locale] ?? {}, `faqs.${locale}.yaml`)) pages.push('/faq')
   return pages
 }
 
-/** Detail paths (news/products/technology/case-use) that have a Spanish sidecar. */
-export function getEsContentPaths(): string[] {
+/** @deprecated Use getLocalePaths instead. */
+export const getEsPaths = () => getLocalePaths('es')
+
+/** Detail paths (news/products/technology/case-use) that have a locale sidecar. */
+export function getLocaleContentPaths(locale: string): string[] {
   const paths: string[] = []
-  for (const slug of Object.keys(NEWS_ES)) paths.push(`/news/${slug}`)
-  for (const slug of Object.keys(PRODUCTS_ES)) paths.push(`/products/${slug}`)
-  for (const slug of Object.keys(TECH_ES)) paths.push(`/technology/${slug}`)
-  for (const slug of Object.keys(CASE_ES)) paths.push(`/evidence/case-studies/${slug}`)
+  for (const slug of Object.keys(NEWS_LOCALE[locale] ?? {})) paths.push(`/news/${slug}`)
+  for (const slug of Object.keys(PRODUCTS_LOCALE[locale] ?? {})) paths.push(`/products/${slug}`)
+  for (const slug of Object.keys(TECH_LOCALE[locale] ?? {})) paths.push(`/technology/${slug}`)
+  for (const slug of Object.keys(CASE_LOCALE[locale] ?? {})) paths.push(`/evidence/case-studies/${slug}`)
   return paths
 }
+
+/** @deprecated Use getLocaleContentPaths instead. */
+export const getEsContentPaths = () => getLocaleContentPaths('es')
 
 export function getContentPages(): ContentPage[] {
   return ALL_PAGES
@@ -403,56 +458,55 @@ export function getPublicPaths(): string[] {
 }
 
 export function getContentProducts(locale?: string): ContentProduct[] {
-  return locale === 'es' ? PRODUCTS.map((p) => PRODUCTS_ES[p.slug] ?? p) : PRODUCTS
+  return locale && locale !== defaultLocale ? localeOverlayList(PRODUCTS_LOCALE, locale, PRODUCTS) : PRODUCTS
 }
 
 export function getContentProduct(slug: string, locale?: string): ContentProduct | undefined {
   const base = slug.endsWith('.es') ? slug.replace(/\.es$/, '') : slug
   const p = PRODUCTS.find((x) => x.slug === base)
   if (!p) return undefined
-  return locale === 'es' ? (PRODUCTS_ES[base] ?? p) : p
+  return locale && locale !== defaultLocale ? (localeOverlay(PRODUCTS_LOCALE, locale, base) ?? p) : p
 }
 
 export function getNewsPosts(locale?: string): ContentPost[] {
-  if (locale === 'es') return NEWS.map((p) => NEWS_ES[p.slug] ?? p)
-  return NEWS
+  return locale && locale !== defaultLocale ? localeOverlayList(NEWS_LOCALE, locale, NEWS) : NEWS
 }
 
 export function getNewsPost(slug: string, locale?: string): ContentPost | undefined {
   const base = slug.endsWith('.es') ? slug.replace(/\.es$/, '') : slug
   const p = NEWS.find((x) => x.slug === base)
   if (!p) return undefined
-  return locale === 'es' ? (NEWS_ES[base] ?? p) : p
+  return locale && locale !== defaultLocale ? (localeOverlay(NEWS_LOCALE, locale, base) ?? p) : p
 }
 
 export function getTechArticles(locale?: string): ContentArticle[] {
-  return locale === 'es' ? TECH.map((t) => TECH_ES[t.slug] ?? t) : TECH
+  return locale && locale !== defaultLocale ? localeOverlayList(TECH_LOCALE, locale, TECH) : TECH
 }
 
 export function getTechArticle(slug: string, locale?: string): ContentArticle | undefined {
   const base = slug.endsWith('.es') ? slug.replace(/\.es$/, '') : slug
   const t = TECH.find((x) => x.slug === base)
   if (!t) return undefined
-  return locale === 'es' ? (TECH_ES[base] ?? t) : t
+  return locale && locale !== defaultLocale ? (localeOverlay(TECH_LOCALE, locale, base) ?? t) : t
 }
 
 export function getCaseUses(locale?: string): ContentCaseUse[] {
-  return locale === 'es' ? CASE_USES.map((c) => CASE_ES[c.slug] ?? c) : CASE_USES
+  return locale && locale !== defaultLocale ? localeOverlayList(CASE_LOCALE, locale, CASE_USES) : CASE_USES
 }
 
 export function getCaseUse(slug: string, locale?: string): ContentCaseUse | undefined {
   const base = slug.endsWith('.es') ? slug.replace(/\.es$/, '') : slug
   const c = CASE_USES.find((x) => x.slug === base)
   if (!c) return undefined
-  return locale === 'es' ? (CASE_ES[base] ?? c) : c
+  return locale && locale !== defaultLocale ? (localeOverlay(CASE_LOCALE, locale, base) ?? c) : c
 }
 
 export function getResearchTopics(locale?: string): ContentResearchTopic[] {
-  if (locale === 'es') {
-    const raw = suffixMatch(esSiteGlob, 'research.es.yaml')
+  if (locale && locale !== defaultLocale) {
+    const raw = suffixMatch(siteLocaleGlobs[locale] ?? {}, `research.${locale}.yaml`)
     if (raw) {
-      const es = (parse(stripBom(raw)) as { topics?: ContentResearchTopic[] }).topics ?? []
-      if (es.length > 0) return es.map((t) => ({ ...t, slug: String(t.slug) }))
+      const localized = (parse(stripBom(raw)) as { topics?: ContentResearchTopic[] }).topics ?? []
+      if (localized.length > 0) return localized.map((t) => ({ ...t, slug: String(t.slug) }))
     }
   }
   return RESEARCH_TOPICS
@@ -477,9 +531,11 @@ export function getGeoFacts(): {
 
 /** Site-wide FAQ Q&A (src/content/site/site/faqs.yaml), for the /faq page. */
 export function getSiteFaqs(locale: Locale = defaultLocale): { q: string; a: string }[] {
-  const raw =
-    locale === 'es' ? (suffixMatch(esSiteGlob, 'faqs.es.yaml') ?? '') : ''
-  const source = raw || suffixMatch(siteGlob, 'faqs.yaml') || ''
+  let source = ''
+  if (locale !== defaultLocale) {
+    source = suffixMatch(siteLocaleGlobs[locale] ?? {}, `faqs.${locale}.yaml`) ?? ''
+  }
+  source = source || suffixMatch(siteGlob, 'faqs.yaml') || ''
   if (!source) return []
   const parsed = parse(stripBom(source)) as { faqs?: { q: string; a: string }[] }
   return Array.isArray(parsed.faqs) ? parsed.faqs : []

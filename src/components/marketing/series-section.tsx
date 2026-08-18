@@ -6,7 +6,7 @@ import { Reveal } from './reveal'
 
 /** Signature themed editions: two product cards linking to their detail pages. */
 export function SeriesSection() {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const c = pick(series, locale)
 
   return (
@@ -26,7 +26,7 @@ export function SeriesSection() {
                 <h3 className="font-display text-[19px] font-bold transition-colors group-hover:text-primary">{s.title}</h3>
                 <p className="mt-2 flex-1 text-[13.5px] leading-relaxed text-fg-2">{s.body}</p>
                 <span className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-bold text-primary">
-                  {locale === 'es' ? 'Ver serie' : 'View series'}
+                  {t('content.viewSeries')}
                   <MoveRight size={15} className="transition-transform group-hover:translate-x-1" />
                 </span>
               </div>

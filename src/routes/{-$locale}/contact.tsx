@@ -5,6 +5,7 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import { getTurnstileSiteKey } from '@/features/auth/middleware'
 import type { Locale } from '@/features/i18n/locale'
+import { getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero } from '@/components/marketing/section-head'
@@ -29,15 +30,13 @@ export const Route = createFileRoute('/{-$locale}/contact')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const d = getDictionary(locale)
     const { meta, links } = localeHead({
       origin,
       locale,
       path: '/contact',
-      title: locale === 'es' ? `Contacto | Inicia tu proyecto SUP a medida | ${SITE_NAME}` : `Contact | Start Your Custom SUP Project \u2014 ${SITE_NAME}`,
-      description:
-        locale === 'es'
-          ? 'Comienza tu proyecto de tablas SUP a medida: desarrollamos y fabricamos tablas hinchables bajo tu marca, desde lotes piloto de 20–50 unidades hasta producción a gran escala.'
-          : 'Start your custom SUP board project — we develop and manufacture inflatable paddle boards under your brand, from 20–50 unit pilot batches to full-scale production.',
+      title: translate(d, 'content.seo.contactTitle', { siteName: SITE_NAME }),
+      description: translate(d, 'content.seo.contactDesc'),
     })
     return { meta, links }
   },
@@ -175,7 +174,7 @@ function ContactPage() {
         </div>
       </section>
 
-      <JsonLd data={contactPageLd(SITE_URL, locale === 'es' ? '/es/contact' : '/contact')} />
+      <JsonLd data={contactPageLd(SITE_URL, localizePath(locale, '/contact'))} />
       <JsonLd data={faqLd([...dictionaries[locale].sup.contact.trustFaqs], locale)} />
 
       <Footer theme={theme} />

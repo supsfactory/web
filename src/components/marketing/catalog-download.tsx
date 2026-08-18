@@ -14,9 +14,8 @@ import { joinWaitlist } from '@/features/waitlist/waitlist.actions'
  * with source='catalog'; the catalog itself is delivered by the sales team.
  */
 export function CatalogDownload({ turnstileSiteKey }: { turnstileSiteKey: string | null }) {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const c = pick(catalogDownload, locale)
-  const es = locale === 'es'
   const { token, widget, reset } = useTurnstile(turnstileSiteKey)
   const [email, setEmail] = useState('')
   const [busy, setBusy] = useState(false)
@@ -32,15 +31,15 @@ export function CatalogDownload({ turnstileSiteKey }: { turnstileSiteKey: string
         setMsg({ kind: 'ok', text: `${c.successTitle}. ${c.successBody.replace('{email}', email)}` })
         trackLead('catalog')
       } else if (status === 'invalid-email') {
-        setMsg({ kind: 'err', text: es ? 'Introduce un correo válido.' : 'Please enter a valid email address.' })
+        setMsg({ kind: 'err', text: t('content.catalog.invalidEmail') })
       } else if (status === 'rate-limited') {
-        setMsg({ kind: 'err', text: es ? 'Demasiados intentos — inténtalo en unos minutos.' : 'Too many attempts — please try again in a few minutes.' })
+        setMsg({ kind: 'err', text: t('content.catalog.rateLimited') })
       } else {
-        setMsg({ kind: 'err', text: es ? 'Verificación fallida. Inténtalo de nuevo.' : 'Verification failed. Please try again.' })
+        setMsg({ kind: 'err', text: t('content.catalog.captchaFailed') })
       }
       if (status !== 'added' && status !== 'already') reset()
     } catch {
-      setMsg({ kind: 'err', text: es ? 'Verificación fallida. Inténtalo de nuevo.' : 'Verification failed. Please try again.' })
+      setMsg({ kind: 'err', text: t('content.catalog.captchaFailed') })
       reset()
     } finally {
       setBusy(false)

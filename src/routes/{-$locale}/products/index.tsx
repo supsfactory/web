@@ -4,6 +4,7 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import { getTurnstileSiteKey } from '@/features/auth/middleware'
 import type { Locale } from '@/features/i18n/locale'
+import { getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, products, productsPage } from '@/features/site/content'
 import { seriesPages } from '@/features/site/series-pages'
@@ -29,15 +30,13 @@ export const Route = createFileRoute('/{-$locale}/products/')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const d = getDictionary(locale)
     const { meta, links } = localeHead({
       origin,
       locale,
       path: '/products',
-      title: locale === 'es' ? `Productos SUP | 10 series personalizables \u2014 ${SITE_NAME}` : `SUP Products | 10 Customizable Series \u2014 ${SITE_NAME}`,
-      description:
-        locale === 'es'
-          ? 'Diez series de SUP probadas, de clásicos polivalentes a ediciones de diseño, cada una como plataforma de fabricación personalizable para marcas, resorts y clubes.'
-          : 'Ten proven SUP series — from all-around classics to designer editions, each a customization-ready manufacturing platform for brands, resorts and clubs.',
+      title: translate(d, 'content.seo.productsTitle', { siteName: SITE_NAME }),
+      description: translate(d, 'content.seo.productsDesc'),
     })
     return { meta, links }
   },
@@ -46,7 +45,7 @@ export const Route = createFileRoute('/{-$locale}/products/')({
 
 function ProductsPage() {
   const { theme, user } = rootRoute.useLoaderData()
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const c = pick(productsPage, locale)
   const { turnstileSiteKey } = Route.useLoaderData()
   const { platform } = Route.useSearch()
@@ -61,15 +60,15 @@ function ProductsPage() {
       <nav className="border-b border-border bg-bg-alt/40">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-2 px-5 py-4 md:px-7">
           <span className="text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
-            {locale === 'es' ? 'Series:' : 'Series:'}
+            {t('content.series')}
           </span>
           {seriesPages[locale].map((s) => (
             <a
               key={s.slug}
-              href={locale === 'en' ? `/products/${s.slug}` : `/es/products/${s.slug}`}
+              href={localizePath(locale, `/products/${s.slug}`)}
               className="rounded-full border border-border bg-background px-3.5 py-1.5 text-[13px] font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary"
             >
-              {s.navLabel.replace(locale === 'es' ? 'Plataformas ' : 'Platforms', '').trim()}
+              {s.navLabel.replace(t('content.platforms'), '').trim()}
             </a>
           ))}
         </div>

@@ -1,4 +1,5 @@
 import { createServerFn } from '@tanstack/react-start'
+import type { Locale } from '@/features/i18n/locale'
 
 export type JoinStatus = 'added' | 'already' | 'invalid-email' | 'captcha' | 'rate-limited'
 
@@ -43,7 +44,7 @@ export const joinWaitlist = createServerFn({ method: 'POST' })
     const ok = await verifyTurnstile(data.turnstileToken, env.TURNSTILE_SECRET_KEY)
     if (!ok) return { status: 'captcha' }
 
-    const locale = data.locale === 'es' ? 'es' : 'en'
+    const locale = (data.locale && data.locale !== 'en' ? data.locale : 'en') as Locale
     const status = await upsertWaitlist(createDb(env.DB), {
       id: crypto.randomUUID(),
       email,

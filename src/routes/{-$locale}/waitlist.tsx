@@ -8,6 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { useTranslation } from '@/features/i18n/provider'
 import { WaitlistForm } from '@/features/waitlist/components/waitlist-form'
 import type { Locale } from '@/features/i18n/locale'
+import { getDictionary, translate } from '@/features/i18n/locale'
 import { SITE_NAME } from '@/config'
 
 const rootRoute = getRouteApi('__root__')
@@ -24,13 +25,13 @@ export const Route = createFileRoute('/{-$locale}/waitlist')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
-    const dict = locale === 'es' ? 'Únete a la lista de espera' : 'Join the waitlist'
+    const d = getDictionary(locale)
     const { meta, links } = localeHead({
       origin,
       locale,
       path: '/waitlist',
-      title: `${dict} \u2014 ${SITE_NAME}`,
-      description: locale === 'es' ? 'Te avisaremos en cuanto lancemos.' : "We'll let you know the moment we launch.",
+      title: translate(d, 'content.seo.waitlistTitle') + ` \u2014 ${SITE_NAME}`,
+      description: translate(d, 'content.seo.waitlistDesc'),
     })
     return { meta, links }
   },

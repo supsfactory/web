@@ -8,42 +8,41 @@
  * 404 页已 noindex，标题仅供浏览器标签）。 */
 import { useEffect } from 'react'
 import { useLocation } from '@tanstack/react-router'
-import { getLocaleFromPath } from '@/features/i18n/locale'
+import { getLocaleFromPath, getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { SITE_NAME } from '@/config'
 
 export function NotFound() {
   const { pathname } = useLocation()
   const locale = getLocaleFromPath(pathname)
-  const es = locale === 'es'
+  const d = getDictionary(locale)
+  const t = (key: string) => translate(d, key)
   useEffect(() => {
-    document.title = (es ? 'Página no encontrada' : 'Page not found') + ` \u2014 ${SITE_NAME}`
-  }, [es])
+    document.title = t('content.page.notFound') + ` \u2014 ${SITE_NAME}`
+  }, [t])
   return (
     <>
       <meta name="robots" content="noindex" />
       <main className="grid-bg flex min-h-screen flex-col items-center justify-center gap-[18px] p-8 text-center">
-      <span className="kicker">// {es ? 'ruta no encontrada' : 'route not found'}</span>
+      <span className="kicker">// {t('content.page.notFoundSub')}</span>
       <div className="font-display text-[120px] font-bold leading-none tracking-[-4px] text-primary">404</div>
       <h1 className="font-display text-[28px] font-semibold tracking-[-0.6px]">
-        {es ? 'Página no encontrada' : 'Page not found'}
+        {t('content.page.notFound')}
       </h1>
       <p className="m-0 max-w-[30em] text-base leading-relaxed text-fg-2">
-        {es
-          ? 'Esta ruta nunca se publicó. Revisa la URL o vuelve a puerto seguro.'
-          : 'This route never shipped. Check the URL or head back to safe harbor.'}
+        {t('content.page.notFoundBody')}
       </p>
       <a
-        href={es ? '/es' : '/'}
+        href={localizePath(locale, '/')}
         className="inline-flex h-13 items-center gap-2 rounded-[6px] bg-primary px-6 text-base font-semibold text-primary-foreground transition-colors hover:bg-primary-hover"
       >
-        {es ? 'Volver al inicio' : 'Back to home'}
+        {t('content.page.backToHome')}
       </a>
       <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-        <a href={es ? '/es/products' : '/products'} className="rounded-[6px] border border-border-2 px-5 py-2.5 text-sm font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary">
-          {es ? 'Explorar plataformas' : 'Browse platforms'}
+        <a href={localizePath(locale, '/products')} className="rounded-[6px] border border-border-2 px-5 py-2.5 text-sm font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary">
+          {t('content.page.browsePlatforms')}
         </a>
-        <a href={es ? '/es/contact' : '/contact'} className="rounded-[6px] border border-border-2 px-5 py-2.5 text-sm font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary">
-          {es ? 'Contactar' : 'Contact us'}
+        <a href={localizePath(locale, '/contact')} className="rounded-[6px] border border-border-2 px-5 py-2.5 text-sm font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary">
+          {t('content.page.contactUs')}
         </a>
       </div>
       </main>

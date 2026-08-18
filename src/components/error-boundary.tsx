@@ -12,29 +12,26 @@
  */
 import { useEffect } from 'react'
 import { useLocation } from '@tanstack/react-router'
-import { getLocaleFromPath } from '@/features/i18n/locale'
+import { getLocaleFromPath, getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { SITE_NAME } from '@/config'
 
 export function ErrorPage({ error, reset }: { error: Error; reset: () => void }) {
   const { pathname } = useLocation()
   const locale = getLocaleFromPath(pathname)
-  const es = locale === 'es'
-  // document.title, not a rendered <title>: the root head() already emits one,
-  // and React 19 hoisting would append a second (invalid, and browsers keep the first).
+  const d = getDictionary(locale)
+  const t = (key: string) => translate(d, key)
   useEffect(() => {
-    document.title = (es ? 'Algo salió mal' : 'Something went wrong') + ` \u2014 ${SITE_NAME}`
-  }, [es])
+    document.title = t('content.page.unexpectedError') + ` \u2014 ${SITE_NAME}`
+  }, [t])
   return (
     <main className="grid-bg flex min-h-screen flex-col items-center justify-center gap-[18px] p-8 text-center">
-      <span className="kicker">// {es ? 'error inesperado' : 'unexpected error'}</span>
+      <span className="kicker">// {t('content.page.unexpectedErrorSub')}</span>
       <div className="font-display text-[120px] font-bold leading-none tracking-[-4px] text-primary">500</div>
       <h1 className="font-display text-[28px] font-semibold tracking-[-0.6px]">
-        {es ? 'Algo salió mal' : 'Something went wrong'}
+        {t('content.page.unexpectedError')}
       </h1>
       <p className="m-0 max-w-[30em] text-base leading-relaxed text-fg-2">
-        {es
-          ? 'Se produjo un error inesperado. Inténtalo de nuevo o vuelve a puerto seguro.'
-          : 'An unexpected error occurred. Try again, or head back to safe harbor.'}
+        {t('content.page.unexpectedErrorBody')}
       </p>
       {import.meta.env.DEV && (
         <pre className="max-w-[40em] overflow-auto rounded-[6px] bg-bg-2 p-4 text-left text-[13px] text-fg-2">
@@ -46,13 +43,13 @@ export function ErrorPage({ error, reset }: { error: Error; reset: () => void })
           onClick={reset}
           className="inline-flex h-13 items-center gap-2 rounded-[6px] border border-border px-6 text-base font-semibold transition-colors hover:bg-bg-2"
         >
-          {es ? 'Intentar de nuevo' : 'Try again'}
+          {t('content.page.tryAgain')}
         </button>
         <a
-          href={es ? '/es' : '/'}
+          href={localizePath(locale, '/')}
           className="inline-flex h-13 items-center gap-2 rounded-[6px] bg-primary px-6 text-base font-semibold text-primary-foreground transition-colors hover:bg-primary-hover"
         >
-          {es ? 'Volver al inicio' : 'Back to home'}
+          {t('content.page.backToHome')}
         </a>
       </div>
     </main>

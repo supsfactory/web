@@ -3,6 +3,7 @@ import { lazy, Suspense } from 'react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
+import { getDictionary, translate } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, faq, videoShowcase } from '@/features/site/content'
 import { JsonLd, faqLd } from '@/features/seo/jsonld'
@@ -38,22 +39,14 @@ export const Route = createFileRoute('/{-$locale}/')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const d = getDictionary(locale)
     const { meta, links } = localeHead({
       origin,
       locale,
       path: '/',
-      title:
-        locale === 'es'
-          ? 'Fabricante de tablas SUP hinchables a medida | OEM/ODM para marcas'
-          : 'Custom Inflatable SUP Manufacturing | OEM/ODM for Brands & Distributors',
-      description:
-        locale === 'es'
-          ? `${SITE_NAME} fabrica tablas SUP hinchables de marca propia para marcas, distribuidores y programas comerciales: especificación, muestras, control de calidad, packaging y producción lista para exportar.`
-          : `${SITE_NAME} builds custom inflatable SUP boards for brands, distributors and commercial programs: specification, samples, quality control, packaging and export-ready production.`,
-      ogTitle:
-        locale === 'es'
-          ? `${SITE_NAME} \u2014 Fabricante de tablas SUP hinchables a medida`
-          : `${SITE_NAME} \u2014 Custom Inflatable SUP Manufacturing`,
+      title: translate(d, 'content.seo.homeTitle'),
+      description: translate(d, 'content.seo.homeDesc', { siteName: SITE_NAME }),
+      ogTitle: translate(d, 'content.seo.homeOgTitle', { siteName: SITE_NAME }),
     })
     return { meta, links }
   },

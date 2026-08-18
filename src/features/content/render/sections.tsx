@@ -215,7 +215,7 @@ function remapHref(href: string): string {
 
 /** Prefix an internal path with the active locale (client/SSR-safe plain anchors). */
 const localize = (path: string, locale: string): string =>
-  !path || locale === 'en' || path.startsWith('/es') ? path : `/es${path}`
+  !path || locale === 'en' || path.startsWith(`/${locale}`) ? path : `/${locale}${path}`
 
 interface CtaAction {
   variant: string
@@ -457,7 +457,7 @@ function ProductionFlow({ c }: { c: Record<string, unknown> }) {
  * are static files and must not be locale-prefixed.
  */
 function QcFlowWidget({ c }: { c: Record<string, unknown> }) {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const stages = arr(c.stages) as Record<string, unknown>[]
   if (stages.length === 0) return null
   const objLabel = str(c.obj_label) || 'Inspection object'
@@ -527,7 +527,7 @@ function QcFlowWidget({ c }: { c: Record<string, unknown> }) {
                       className="mt-4 inline-flex items-center gap-1.5 self-start rounded-lg border border-primary/30 bg-primary/5 px-3.5 py-2 text-[13px] font-bold text-primary transition-colors hover:bg-primary/10"
                     >
                       <FileText size={15} />
-                      {str(s.link_label) || (locale === 'es' ? 'Descargar informe (PDF)' : 'Download report (PDF)')}
+                      {str(s.link_label) || t('content.downloadReport')}
                     </a>
                   )}
                 </div>
@@ -665,7 +665,7 @@ function EquipmentWidget({ c }: { c: Record<string, unknown> }) {
 }
 
 function IntelligenceCards({ c }: { c: Record<string, unknown> }) {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   // Accept both shapes: an object with a `cards` array (e.g. the /quality
   // documentation section) and a bare card array (factory page), which the
   // dispatcher wraps as `{ __raw: [...] }`.
@@ -695,10 +695,10 @@ function IntelligenceCards({ c }: { c: Record<string, unknown> }) {
             {str(card.link) && (
               (str(card.link).startsWith('#') || str(card.link).includes('?') || str(card.link).startsWith('http') || str(card.link).startsWith('/downloads/') || str(card.link).startsWith('/assets/'))
                 ? <a href={str(card.link)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
-                    {str(card.link_label) || (locale === 'es' ? 'Saber más' : 'Learn more')} <ArrowRight size={14} />
-                  </a>
-                : <a href={localize(str(card.link), locale)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
-                    {str(card.link_label) || (locale === 'es' ? 'Saber más' : 'Learn more')} <ArrowRight size={14} />
+                    {str(card.link_label) || t('content.learnMore')} <ArrowRight size={14} />
+                   </a>
+                 : <a href={localize(str(card.link), locale)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
+                    {str(card.link_label) || t('content.learnMore')} <ArrowRight size={14} />
                   </a>
             )}
           </div>
@@ -808,7 +808,7 @@ function TopicList({ c }: { c: Record<string, unknown> }) {
 }
 
 function CaseList() {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const { cases = [] } = useAferIndex()
   return (
     <Container>
@@ -819,7 +819,7 @@ function CaseList() {
             <h3 className="mt-3 font-display text-[17px] font-bold">{c.title}</h3>
             {c.summary && <p className="mt-2 flex-1 text-[13.5px] leading-relaxed text-fg-2">{c.summary}</p>}
             <span className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
-              {locale === 'es' ? 'Leer caso de éxito' : 'Read case study'} <ArrowRight size={14} />
+              {t('content.readCaseStudy')} <ArrowRight size={14} />
             </span>
           </a>
         ))}
@@ -1054,14 +1054,14 @@ function ReworkDecisionWidget({ c }: { c: Record<string, unknown> }) {
 }
 
 function AcademyCategories({ c }: { c: Record<string, unknown> }) {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const cats = (arr(c.__raw).length ? arr(c.__raw) : arr(c.categories ?? c.items)) as Record<string, unknown>[]
   if (cats.length === 0) return null
   return (
     <Container>
       <SectionHead
-        kicker={str(c.tagline) || (locale === 'es' ? 'Rutas de aprendizaje' : 'Learning Paths')}
-        title={locale === 'es' ? 'Rutas de habilidad' : 'Skill Paths'}
+        kicker={str(c.tagline) || t('content.learningPaths')}
+        title={t('content.skillPaths')}
         sub={
           locale === 'es'
             ? 'Guías y tutoriales paso a paso organizados por nivel de habilidad — desde los conceptos básicos del SUP hasta técnicas avanzadas de rescate.'
@@ -1078,7 +1078,7 @@ function AcademyCategories({ c }: { c: Record<string, unknown> }) {
                   {String(str(cat.level).charAt(0)) || '?'}
                 </span>
                 <div>
-                  <h3 className="font-display text-[17px] font-bold">{brandify(str(cat.level) || '')} {locale === 'es' ? 'Guías' : 'Guides'}</h3>
+                  <h3 className="font-display text-[17px] font-bold">{brandify(str(cat.level) || '')} {t('content.nav.guides')}</h3>
                 </div>
               </div>
               <div className="mt-4 space-y-2.5">
@@ -1109,14 +1109,14 @@ function AcademyCategories({ c }: { c: Record<string, unknown> }) {
 }
 
 function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const sections = (arr(c.__raw).length ? arr(c.__raw) : arr(c.sections ?? c.items)) as Record<string, unknown>[]
   if (sections.length === 0) return null
   return (
     <Container>
       <SectionHead
-        kicker={locale === 'es' ? 'Centro de Conocimiento' : 'Knowledge Center'}
-        title={locale === 'es' ? 'Centro de Conocimiento' : 'Knowledge Center'}
+        kicker={t('content.knowledgeCenter')}
+        title={t('content.knowledgeCenter')}
         sub={
           locale === 'es'
             ? 'Conocimiento experto y guías de compra para profesionales del mar, operadores de flotas y entusiastas de los deportes acuáticos.'
@@ -1138,7 +1138,7 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
                       <h4 className="font-display text-[14px] font-bold">{brandify(str(g.title))}</h4>
                       {str(g.desc) && <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
                       <span className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-primary">
-                        {locale === 'es' ? 'Leer guía' : 'Read guide'} <ArrowRight size={13} />
+                        {t('content.readGuide')} <ArrowRight size={13} />
                       </span>
                     </div>
                   )
@@ -1147,7 +1147,7 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
                       <h4 className="font-display text-[14px] font-bold">{brandify(str(g.title))}</h4>
                       {str(g.desc) && <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
                       <span className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-primary">
-                        {locale === 'es' ? 'Leer guía' : 'Read guide'} <ArrowRight size={13} />
+                        {t('content.readGuide')} <ArrowRight size={13} />
                       </span>
                     </a>
                   ) : (
@@ -1334,7 +1334,7 @@ function BuyerGuidesWidget({ c }: { c: Record<string, unknown> }) {
                 <p className="mt-2 text-[13px] leading-snug text-fg-2">{str(o.body)}</p>
               </div>
               <span className="inline-flex items-center gap-1.5 text-[13px] font-bold text-primary">
-                {locale === 'es' ? 'Leer la guía' : 'Read the guide'}
+                {t('content.readTheGuide')}
                 <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
               </span>
             </a>
@@ -1694,16 +1694,16 @@ export function CaseStudiesIndex() {
 
 /** Intro + real-world stats for the case studies index. */
 function StatsBand() {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const { regionCount = 6, cases = [] } = useAferIndex()
-  const es = locale === 'es'
-  const studyLabel = es ? 'Casos de éxito publicados' : 'Published case studies'
-  const regionLabel = es ? 'Regiones de mercado atendidas' : 'Market regions served'
-  const widthLabel = es ? 'Ancho estable de tabla all-around' : 'Stable all-around board width'
-  const testedLabel = es ? 'Probadas en fábrica antes del envío' : 'Factory-tested before dispatch'
-  const intro = es
-    ? `Estos casos documentan cómo marcas, resorts, clubes y operadores reales compran SUP hinchables, kayaks y embarcaciones profesionales a la planta de ${SITE_NAME} en Qingdao. Cada uno cubre el caso de uso, la familia de tablas que le corresponde y las consideraciones operativas que importan al construir — o comprar — una flota.`
-    : `These case studies document how real brands, resorts, clubs and operators buy inflatable SUPs, kayaks and professional craft from the ${SITE_NAME} plant in Qingdao. Each one covers the use case, the board family that fits it, and the operational considerations that matter when you build — or buy — a fleet.`
+  const isDefault = locale === 'en'
+  const studyLabel = t('content.cases.published')
+  const regionLabel = t('content.cases.regionsServed')
+  const widthLabel = t('content.cases.boardWidth')
+  const testedLabel = t('content.cases.factoryTested')
+  const intro = isDefault
+    ? `These case studies document how real brands, resorts, clubs and operators buy inflatable SUPs, kayaks and professional craft from the ${SITE_NAME} plant in Qingdao. Each one covers the use case, the board family that fits it, and the operational considerations that matter when you build — or buy — a fleet.`
+    : t('content.cases.intro', { siteName: SITE_NAME })
   const stats = [
     { value: String(cases.length), label: studyLabel },
     { value: String(regionCount), label: regionLabel },
@@ -1729,13 +1729,12 @@ function StatsBand() {
 
 /** Synthetic "/research" index from the research.yaml topic registry. */
 export function ResearchIndex() {
-  const { locale } = useTranslation()
-  const es = locale === 'es'
+  const { locale: _locale, t } = useTranslation()
   return (
     <TopicList
       c={{
-        badge: es ? 'Centro de Conocimiento' : 'Knowledge Center',
-        heading: es ? 'Investigación y guías técnicas' : 'Research & Technical Guides',
+        badge: t('content.research.kicker'),
+        heading: t('content.research.title'),
       }}
     />
   )

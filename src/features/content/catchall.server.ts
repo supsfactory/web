@@ -10,7 +10,7 @@
 
 import { OG_IMAGE } from '@/features/seo/seo'
 import { SITE_NAME } from '@/config/site'
-import { defaultLocale, type Locale } from '@/features/i18n/locale'
+import { defaultLocale, getDictionary, translate, type Locale } from '@/features/i18n/locale'
 import {
   getContentPage,
   getContentProduct,
@@ -18,7 +18,7 @@ import {
   getTechArticle,
   getCaseUse,
   getSiteFaqs,
-  hasSpanishVariant,
+  hasLocaleVariant,
   getNewsPosts,
   getContentProducts,
   getResearchTopics,
@@ -133,13 +133,13 @@ function indexFor(page?: ContentPage, locale?: Locale): AferIndexData {
 }
 
 export function resolveCatchAll(path: string, locale: Locale = defaultLocale): CatchAllData | null {
-  const hasEs =
-    hasSpanishVariant(path) ||
+  const hasLocaleContent =
+    hasLocaleVariant(path, 'es') ||
     (path.startsWith('/guides/') && !!getGuide(path, 'es')) ||
     path === '/research' ||
     path === '/evidence/case-studies'
-  const translated = locale === 'es' && hasEs
-  const esTranslated = hasEs
+  const translated = locale !== 'en' && hasLocaleContent
+  const esTranslated = hasLocaleContent
   const page = getContentPage(path, locale)
   if (page) {
     return {
@@ -231,6 +231,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
     }
   }
   if (path === '/evidence/case-studies') {
+    const d = getDictionary(locale)
     return {
       kind: 'cases-index',
       path,
@@ -238,15 +239,13 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       translated,
       esTranslated,
       origin: '',
-      title: locale === 'es' ? `Casos de estudio — ${SITE_NAME}` : `Case Studies — ${SITE_NAME}`,
-      description:
-        locale === 'es'
-          ? 'Cómo marcas, resorts y operadores lanzan y escalan con nuestra fábrica.'
-          : 'How brands, resorts and operators launch and scale with our factory.',
+      title: translate(d, 'content.seo.casesTitle', { siteName: SITE_NAME }),
+      description: translate(d, 'content.seo.casesDesc'),
       index: { regionCount: getRegionCount(), cases: indexCases(locale) },
     }
   }
   if (path === '/research') {
+    const d = getDictionary(locale)
     return {
       kind: 'research-index',
       path,
@@ -254,11 +253,8 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       translated,
       esTranslated,
       origin: '',
-      title: locale === 'es' ? `Investigación y guías técnicas — ${SITE_NAME}` : `Research & Technical Guides — ${SITE_NAME}`,
-      description:
-        locale === 'es'
-          ? 'Investigación técnica en profundidad sobre materiales, construcción, estándares de seguridad y fabricación de SUP.'
-          : 'In-depth technical research on SUP materials, construction, safety standards and manufacturing.',
+      title: translate(d, 'content.seo.researchTitle', { siteName: SITE_NAME }),
+      description: translate(d, 'content.seo.researchDesc'),
       index: { regionCount: getRegionCount(), topics: indexTopics(locale) },
     }
   }
@@ -280,9 +276,8 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
     }
   }
   if (path === '/faq') {
-    // the footer links to /faq; the nav target exists as a site-level
-    // faqs.yaml. Serve it as a real page (fixes the dead link + FAQPage schema).
     if (getSiteFaqs(locale).length > 0) {
+      const d = getDictionary(locale)
       return {
         kind: 'faq',
         path,
@@ -290,14 +285,8 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         translated,
         esTranslated,
         origin: '',
-        title:
-          locale === 'es'
-            ? 'Preguntas frecuentes — Fabricación OEM de SUP'
-            : `FAQ — Inflatable SUP OEM, Materials & MOQ | ${SITE_NAME}`,
-        description:
-          locale === 'es'
-            ? 'Preguntas frecuentes sobre la fabricación OEM/ODM de SUP hinchables afarer — materiales, certificaciones, cantidades mínimas de pedido y logística mayorista.'
-            : 'Frequently asked questions about afarer inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale supply.',
+        title: translate(d, 'content.seo.faqTitle', { siteName: SITE_NAME }),
+        description: translate(d, 'content.seo.faqDesc'),
         faqs: getSiteFaqs(locale).map((f) => ({ q: brandify(f.q), a: brandify(f.a) })),
         index: indexFor(undefined, locale),
       }

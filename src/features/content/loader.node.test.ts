@@ -10,10 +10,10 @@ import {
   getCaseUses,
   getCaseUse,
   getResearchTopics,
-  hasSpanishVariant,
-  getEsContentPaths,
+  hasLocaleVariant,
+  getLocaleContentPaths,
   getPublicPaths,
-  getEsPaths,
+  getLocalePaths,
 } from '@/features/content/loader'
 import { getGuide } from '@/features/content/guide-content'
 import { buildExtendedIndex, buildFullIndex } from '@/features/site/search-index.server'
@@ -90,13 +90,13 @@ test('research topics: es localization swaps category/readTime labels', () => {
   expect(es[0]?.readTime).toMatch(/min de lectura/)
 })
 
-test('hasSpanishVariant covers registry, faq and sidecar content', () => {
-  expect(hasSpanishVariant('/faq')).toBe(true)
-  expect(hasSpanishVariant('/products/sup-cheetah-surge')).toBe(true)
-  expect(hasSpanishVariant('/news/drop-stitch-2-0')).toBe(true)
-  expect(hasSpanishVariant('/technology/military-grade-pvc')).toBe(true)
-  expect(hasSpanishVariant('/evidence/case-studies/beginner-sup-training')).toBe(true)
-  expect(hasSpanishVariant('/products/does-not-exist')).toBe(false)
+test('hasLocaleVariant covers registry, faq and sidecar content', () => {
+  expect(hasLocaleVariant('/faq', 'es')).toBe(true)
+  expect(hasLocaleVariant('/products/sup-cheetah-surge', 'es')).toBe(true)
+  expect(hasLocaleVariant('/news/drop-stitch-2-0', 'es')).toBe(true)
+  expect(hasLocaleVariant('/technology/military-grade-pvc', 'es')).toBe(true)
+  expect(hasLocaleVariant('/evidence/case-studies/beginner-sup-training', 'es')).toBe(true)
+  expect(hasLocaleVariant('/products/does-not-exist', 'es')).toBe(false)
 })
 
 test('product-development page: registered EN+ES with structured sections', () => {
@@ -109,9 +109,9 @@ test('product-development page: registered EN+ES with structured sections', () =
   expect(types).toContain('cta')
   const esPage = getContentPage('/product-development', 'es')
   expect(esPage?.meta?.title).not.toBe(en?.meta?.title)
-  expect(hasSpanishVariant('/product-development')).toBe(true)
+  expect(hasLocaleVariant('/product-development', 'es')).toBe(true)
   expect(getPublicPaths()).toContain('/product-development')
-  expect(getEsPaths()).toContain('/product-development')
+  expect(getLocalePaths('es')).toContain('/product-development')
 })
 
 test('oem-trust-assurance page: registered EN+ES with structured sections', () => {
@@ -135,13 +135,13 @@ test('oem-trust-assurance page: registered EN+ES with structured sections', () =
   expect(esPage).toBeDefined()
   expect(esPage!.meta?.title).toContain('Confianza')
   expect(esPage!.meta?.title).not.toBe(en!.meta?.title)
-  expect(hasSpanishVariant('/oem-trust-assurance')).toBe(true)
+  expect(hasLocaleVariant('/oem-trust-assurance', 'es')).toBe(true)
   expect(getPublicPaths()).toContain('/oem-trust-assurance')
-  expect(getEsPaths()).toContain('/oem-trust-assurance')
+  expect(getLocalePaths('es')).toContain('/oem-trust-assurance')
 })
 
-test('getEsContentPaths lists every es sidecar detail path', () => {
-  const paths = getEsContentPaths()
+test('getLocaleContentPaths lists every es sidecar detail path', () => {
+  const paths = getLocaleContentPaths('es')
   expect(paths.length).toBeGreaterThanOrEqual(18)
   expect(paths).toContain('/products/sup-cheetah-surge')
   expect(paths).toContain('/news/drop-stitch-2-0')

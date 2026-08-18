@@ -1,13 +1,12 @@
-import { dictionaries, type Locale } from '@/features/i18n/locale'
+import { dictionaries, isLocale, defaultLocale, type Locale } from '@/features/i18n/locale'
 import { SITE_NAME } from '@/config/site'
 
-/** auth 工具页共用 head：per-page title（不再回落全站默认标题）+ noindex
- *  （/login 与/es/login 互为无标注的重复内容，工具页无搜索价值，直接不进索引）。 */
 export function authPageHead(
   params: unknown,
   key: 'loginTitle' | 'registerTitle' | 'forgotTitle' | 'resetTitle' | 'verifyTitle',
 ) {
-  const locale: Locale = (params as { locale?: string })?.locale === 'es' ? 'es' : 'en'
+  const rawLocale = (params as { locale?: string })?.locale
+  const locale: Locale = rawLocale && isLocale(rawLocale) ? rawLocale : defaultLocale
   return {
     meta: [
       { title: `${dictionaries[locale].auth[key]} — ${SITE_NAME}` },

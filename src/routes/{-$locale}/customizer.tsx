@@ -4,6 +4,7 @@ import { ArrowRight, PaintBucket, Upload, ImageIcon, Sparkles } from 'lucide-rea
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
+import { getDictionary, translate } from '@/features/i18n/locale'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
 import { pick, customizer } from '@/features/site/content'
@@ -22,12 +23,13 @@ export const Route = createFileRoute('/{-$locale}/customizer')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const d = getDictionary(locale)
     const { meta, links } = localeHead({
       origin,
       locale,
       path: '/customizer',
-      title: locale === 'es' ? 'Constructor de especificaciones SUP | Diseña tu tabla' : 'SUP Specification Builder | Design Your Custom Board',
-      description: locale === 'es' ? 'Diseña tu tabla SUP personalizada: colores, gráficos y especificaciones.' : 'Design your custom SUP board: colors, graphics and specifications.',
+      title: translate(d, 'content.seo.customizerTitle'),
+      description: translate(d, 'content.seo.customizerDesc'),
     })
     return { meta, links }
   },

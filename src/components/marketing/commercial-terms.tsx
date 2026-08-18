@@ -5,7 +5,7 @@ import { Reveal } from './reveal'
 
 /** Home: "Commercial Terms, Stated Upfront" — MOQ / lead time / sampling / trade terms + certifications line. */
 export function CommercialTerms() {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const c = pick(commercial, locale)
 
   return (
@@ -32,10 +32,7 @@ export function CommercialTerms() {
           <table className="w-full min-w-[720px] text-left text-[13.5px]">
             <thead>
               <tr className="border-b border-border bg-soft/60">
-                {(locale === 'es'
-                  ? ['Etapa del pedido', 'Cantidad', 'Para qué sirve', 'Notas']
-                  : ['Order stage', 'Quantity', 'What it is for', 'Notes']
-                ).map((h) => (
+                {[t('content.commercialTerms.orderStage'), t('content.commercialTerms.quantity'), t('content.commercialTerms.whatFor'), t('content.commercialTerms.notes')].map((h) => (
                   <th key={h} className="px-4 py-3 font-display text-[12.5px] font-extrabold uppercase tracking-wide text-fg-2">
                     {h}
                   </th>
