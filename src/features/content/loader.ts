@@ -36,7 +36,7 @@ const caseGlob = import.meta.glob('../../content/site/case-use/*.md', { query: '
 const productEsGlob = import.meta.glob('../../content/site/products/*.es.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const techEsGlob = import.meta.glob('../../content/site/technology/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const caseEsGlob = import.meta.glob('../../content/site/case-use/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
-const geoGlob = import.meta.glob('../../content/site/geo/*.json', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const geoGlob = import.meta.glob('../../product/geo/*.json', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 
 const stripBom = (s: string) => s.replace(/^\uFEFF/, '')
 
