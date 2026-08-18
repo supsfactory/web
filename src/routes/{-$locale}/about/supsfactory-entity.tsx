@@ -12,7 +12,7 @@ import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from '@/components/marketing/shell'
 import { SITE_NAME, BRAND_COMPANY_NAME } from '@/config'
 
-const FACTS: Record<Locale, { label: string; value: string }[]> = {
+const FACTS: Record<string, { label: string; value: string }[]> = {
   en: [
     { label: 'Legal entity', value: BRAND_COMPANY_NAME },
     { label: 'Product focus', value: 'Inflatable SUP manufacturing — OEM, ODM & private label' },

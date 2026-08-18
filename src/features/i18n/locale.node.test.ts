@@ -27,6 +27,6 @@ test('negotiateLocale：无 cookie 时按 accept-language', () => {
   expect(negotiateLocale(undefined, 'es-ES,es;q=0.9,en;q=0.8')).toBe('es')
 })
 test('negotiateLocale：都不匹配回退默认', () => {
-  expect(negotiateLocale('fr', 'fr-FR')).toBe(defaultLocale)
+  expect(negotiateLocale('xx', 'xx-XX')).toBe(defaultLocale)
   expect(locales).toContain(defaultLocale)
 })

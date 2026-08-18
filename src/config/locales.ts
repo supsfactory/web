@@ -21,34 +21,60 @@
 export const SUPPORTED_LOCALES = [
   'en',
   'es',
-  // Template-ready locales (uncomment and add dictionaries to activate):
-  // 'de',
-  // 'fr',
-  // 'it',
-  // 'pt',
-  // 'nl',
-  // 'pl',
-  // 'cs',
-  // 'sv',
-  // 'da',
-  // 'fi',
-  // 'no',
-  // 'ja',
-  // 'ko',
-  // 'zh-CN',
-  // 'zh-TW',
-  // 'vi',
-  // 'th',
-  // 'id',
-  // 'tr',
-  // 'ar',
+  'de',
+  'fr',
+  'it',
+  'pt',
+  'nl',
+  'pl',
+  'cs',
+  'sv',
+  'da',
+  'fi',
+  'no',
+  'ja',
+  'ko',
+  'zh-CN',
+  'zh-TW',
+  'vi',
+  'th',
+  'id',
+  'tr',
+  'ar',
 ] as const
+
+export const ACTIVE_LOCALES: readonly Locale[] = ['en', 'es']
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number]
 
+export type ActiveLocale = typeof ACTIVE_LOCALES[number]
+
 export const DEFAULT_LOCALE: Locale = 'en'
 
-export const ACTIVE_LOCALES: readonly Locale[] = SUPPORTED_LOCALES
+export const LOCALE_LABELS: Record<string, { native: string; short: string }> = {
+  en: { native: 'English', short: 'EN' },
+  es: { native: 'Español', short: 'ES' },
+  de: { native: 'Deutsch', short: 'DE' },
+  fr: { native: 'Français', short: 'FR' },
+  it: { native: 'Italiano', short: 'IT' },
+  pt: { native: 'Português', short: 'PT' },
+  nl: { native: 'Nederlands', short: 'NL' },
+  pl: { native: 'Polski', short: 'PL' },
+  cs: { native: 'Čeština', short: 'CS' },
+  sv: { native: 'Svenska', short: 'SV' },
+  da: { native: 'Dansk', short: 'DA' },
+  fi: { native: 'Suomi', short: 'FI' },
+  no: { native: 'Norsk', short: 'NO' },
+  ja: { native: '日本語', short: 'JA' },
+  ko: { native: '한국어', short: 'KO' },
+  'zh-CN': { native: '简体中文', short: '中' },
+  'zh-TW': { native: '繁體中文', short: '繁' },
+  vi: { native: 'Tiếng Việt', short: 'VI' },
+  th: { native: 'ไทย', short: 'TH' },
+  id: { native: 'Bahasa Indonesia', short: 'ID' },
+  tr: { native: 'Türkçe', short: 'TR' },
+  ar: { native: 'العربية', short: 'AR' },
+}
 
 export function isLocale(value: unknown): value is Locale {
   return typeof value === 'string' && (SUPPORTED_LOCALES as readonly string[]).includes(value)

@@ -10,13 +10,14 @@ import { FACTS } from './facts'
  * render the same structure.
  */
 
-export interface Localized<T> {
+export interface Localized<T> extends Record<string, T> {
   en: T
   es: T
 }
 
 export function pick<T>(d: Localized<T>, locale: Locale): T {
-  return locale === 'es' ? d.es : d.en
+  if (locale in d) return d[locale as keyof Localized<T>]
+  return d.en
 }
 
 /* ─────────────────────────── home: hero ─────────────────────────── */

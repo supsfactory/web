@@ -562,7 +562,7 @@ export interface GuideCard {
   intro: string
 }
 
-export const GUIDE_CARDS: Record<'en' | 'es', GuideCard[]> = {
+export const GUIDE_CARDS: Record<string, GuideCard[]> = {
   en: GUIDES.map((g) => ({ slug: g.slug, title: g.title, intro: g.intro[0] })),
   es: [
     {

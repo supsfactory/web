@@ -1,5 +1,5 @@
 import { locales, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
-import { SITE_NAME } from '@/config/site'
+import { SITE_NAME, SITE_TAGLINE } from '@/config/site'
 import { BRAND_OG_IMAGE, BRAND_HERO_IMAGE, BRAND_HERO_IMAGE_768, BRAND_HERO_IMAGE_480 } from '@/config/branding'
 import { OG_LOCALE, HREFLANG } from '@/config/locales'
 
@@ -214,10 +214,7 @@ export function localeHead(input: {
     { property: 'og:image:type', content: image.endsWith('.webp') ? 'image/webp' : 'image/jpeg' },
     {
       property: 'og:image:alt',
-      content:
-        locale === 'es'
-          ? `${SITE_NAME} — Fabricante OEM de tablas de SUP hinchables`
-          : `${SITE_NAME} — Inflatable SUP OEM factory floor`,
+      content: `${SITE_NAME} — ${SITE_TAGLINE}`,
     },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: title },
@@ -225,10 +222,7 @@ export function localeHead(input: {
     { name: 'twitter:image', content: image },
     {
       name: 'twitter:image:alt',
-      content:
-        locale === 'es'
-          ? `${SITE_NAME} — Fabricante OEM de tablas de SUP hinchables`
-          : `${SITE_NAME} — Inflatable SUP OEM factory floor`,
+      content: `${SITE_NAME} — ${SITE_TAGLINE}`,
     },
   ]
   return { meta, links }
