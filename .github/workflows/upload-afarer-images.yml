@@ -1,9 +1,8 @@
 name: Upload afarer images to R2
 
 # 手动触发：把本仓库 scripts/afarer-images/* 的图片上传到
-# supsfactory-files-prod 桶的 images/sups/ 前缀，并尝试把自定义域
-# assets.supsfactory.com 绑定到该桶（与 src/features/content/assets.ts
-# 的 URL 重写保持一致）。
+# R2 桶的 images/sups/ 前缀，并尝试把自定义域绑定到该桶。
+# 桶名和域名从 GitHub Variables 读取，或使用 SITE_ID 派生的默认值。
 #
 # 依赖仓库 secrets：CLOUDFLARE_API_TOKEN（需 Account › R2 Storage › Edit
 # 权限）、CLOUDFLARE_ACCOUNT_ID。
@@ -14,15 +13,23 @@ on:
 permissions:
   contents: read
 
-env:
-  R2_BUCKET: supsfactory-files-prod
-  CDN_DOMAIN: assets.supsfactory.com
-  CDN_ZONE: supsfactory.com
-
 jobs:
   upload:
     runs-on: ubuntu-latest
     steps:
+      - name: Set resource names from variables
+        id: config
+        env:
+          CF_PROD_R2_BUCKET: ${{ vars.CF_PROD_R2_BUCKET }}
+          CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
+          SITE_ID: ${{ vars.SITE_ID }}
+        run: |
+          R2_BUCKET="${CF_PROD_R2_BUCKET:-${SITE_ID:-supsfactory}-files-prod}"
+          CDN_DOMAIN="assets.${CF_PROD_DOMAIN:-${SITE_ID:-supsfactory}.com}"
+          CDN_ZONE="${CF_PROD_DOMAIN:-${SITE_ID:-supsfactory}.com}"
+          echo "r2_bucket=$R2_BUCKET" >> "$GITHUB_OUTPUT"
+          echo "cdn_domain=$CDN_DOMAIN" >> "$GITHUB_OUTPUT"
+          echo "cdn_zone=$CDN_ZONE" >> "$GITHUB_OUTPUT"
       # 未配置凭据时优雅跳过，避免留下红叉。
       - name: Check for Cloudflare credentials
         id: guard
@@ -47,6 +54,8 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
+          CDN_ZONE: ${{ steps.config.outputs.cdn_zone }}
         run: |
           API="https://api.cloudflare.com/client/v4"
           AUTH="Authorization: Bearer ${CLOUDFLARE_API_TOKEN}"
@@ -88,6 +97,7 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
         run: |
           curl -sS -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
@@ -111,6 +121,8 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           ZONE_ID: ${{ steps.preflight.outputs.zone_id }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
+          CDN_DOMAIN: ${{ steps.config.outputs.cdn_domain }}
         run: |
           RESP=$(curl -sS -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/domains/custom" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
@@ -127,6 +139,8 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
+          CDN_DOMAIN: ${{ steps.config.outputs.cdn_domain }}
         run: |
           curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/products/afarer-og-default&per_page=20" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \

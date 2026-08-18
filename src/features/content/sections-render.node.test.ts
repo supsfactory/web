@@ -1,30 +1,30 @@
-import { test, expect } from 'vitest'
+﻿import { test, expect } from 'vitest'
 import { renderToString } from 'react-dom/server'
 import * as React from 'react'
-import { getAfarerPage, getAfarerPages, getAfarerEsPaths } from '@/features/content/loader'
-import { AfarerSections } from '@/features/content/render/sections'
+import { getContentPage, getContentPages, getEsPaths } from '@/features/content/loader'
+import { ContentSections } from '@/features/content/render/sections'
 import { I18nProvider } from '@/features/i18n/provider'
 
 const html = (path: string, locale: 'en' | 'es' = 'en'): string => {
-  const page = getAfarerPage(path, locale)
+  const page = getContentPage(path, locale)
   expect(page, `${path} not found in registry`).toBeTruthy()
   return renderToString(
     React.createElement(
       I18nProvider,
-      { locale, children: React.createElement(AfarerSections, { page: page! }) },
+      { locale, children: React.createElement(ContentSections, { page: page! }) },
     ),
   )
 }
 
 test('every registry page renders its sections without error (en)', () => {
-  for (const p of getAfarerPages()) {
+  for (const p of getContentPages()) {
     expect(() => html(p.path), `${p.path} throws during render`).not.toThrow()
   }
 })
 
 test('every Spanish twin renders without error (es)', () => {
   // /faq is served by the catchall route from site/faqs.yaml, not the registry.
-  for (const p of getAfarerEsPaths().filter((x) => x !== '/faq')) {
+  for (const p of getEsPaths().filter((x) => x !== '/faq')) {
     expect(() => html(p, 'es'), `${p} (es) throws during render`).not.toThrow()
   }
 })

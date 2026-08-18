@@ -6,6 +6,7 @@ import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, faq, videoShowcase } from '@/features/site/content'
 import { JsonLd, faqLd } from '@/features/seo/jsonld'
+import { SITE_NAME, BRAND_ASSETS_CDN } from '@/config'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { Hero } from '@/components/marketing/hero'
 import { TrustBar } from '@/components/marketing/trust-bar'
@@ -47,12 +48,12 @@ export const Route = createFileRoute('/{-$locale}/')({
           : 'Custom Inflatable SUP Manufacturing | OEM/ODM for Brands & Distributors',
       description:
         locale === 'es'
-          ? 'Supsfactory fabrica tablas SUP hinchables de marca propia para marcas, distribuidores y programas comerciales: especificación, muestras, control de calidad, packaging y producción lista para exportar.'
-          : 'SUPsfactory builds custom inflatable SUP boards for brands, distributors and commercial programs: specification, samples, quality control, packaging and export-ready production.',
+          ? `${SITE_NAME} fabrica tablas SUP hinchables de marca propia para marcas, distribuidores y programas comerciales: especificación, muestras, control de calidad, packaging y producción lista para exportar.`
+          : `${SITE_NAME} builds custom inflatable SUP boards for brands, distributors and commercial programs: specification, samples, quality control, packaging and export-ready production.`,
       ogTitle:
         locale === 'es'
-          ? 'SUPsfactory — Fabricante de tablas SUP hinchables a medida'
-          : 'SUPsfactory — Custom Inflatable SUP Manufacturing',
+          ? `${SITE_NAME} \u2014 Fabricante de tablas SUP hinchables a medida`
+          : `${SITE_NAME} \u2014 Custom Inflatable SUP Manufacturing`,
     })
     return { meta, links }
   },
@@ -74,8 +75,8 @@ function Home() {
       <Suspense fallback={null}>
         <SolveSection />
         <VideoShowcase
-          video="https://assets.supsfactory.com/site/videos/2026/oem-brand-launch.mp4"
-          poster="https://assets.supsfactory.com/site/videos/2026/oem-brand-launch.jpg"
+          video={`${BRAND_ASSETS_CDN}/site/videos/2026/oem-brand-launch.mp4`}
+          poster={`${BRAND_ASSETS_CDN}/site/videos/2026/oem-brand-launch.jpg`}
           {...pick(videoShowcase, locale).launch}
         />
         <PlantCapability />

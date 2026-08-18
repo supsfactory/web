@@ -1,6 +1,7 @@
-import { ArrowRight, CheckCircle2, Target, AlertCircle } from 'lucide-react'
+﻿import { ArrowRight, CheckCircle2, Target, AlertCircle } from 'lucide-react'
 import type { SolutionPageData } from '@/features/site/solution-pages'
-import { useTranslation } from '@/features/i18n/provider'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { PageHero, SectionHead } from './section-head'
 import { JsonLd, faqLd, serviceLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { solutionPath } from '@/features/site/solution-pages'
@@ -12,7 +13,7 @@ import { solutionPath } from '@/features/site/solution-pages'
  */
 export function SolutionPage({ page }: { page: SolutionPageData }) {
   const { t, locale } = useTranslation()
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
   const ctaLabel =
     page.ctaLabel ??
     {

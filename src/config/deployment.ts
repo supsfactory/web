@@ -69,11 +69,25 @@ export const deploymentConfig: DeploymentConfig = {
 } as const
 
 /**
- * GitHub repository variable names used by gen-wrangler.mjs.
+ * GitHub repository variable names used by gen-wrangler.mjs and deploy.yml.
  * These are identifiers (not secrets) stored in Settings → Variables.
+ *
+ * Required variables:
+ * - CF_PROD_D1_ID: Cloudflare D1 database ID for production
+ * - CF_PROD_KV_ID: Cloudflare KV namespace ID for production
+ * - CF_PROD_DOMAIN: Production domain (e.g., supsfactory.com)
+ *
+ * Optional variables (defaults derived from SITE_ID if not set):
+ * - CF_PROD_D1_NAME: D1 database name for migrations (default: ${SITE_ID}-db-prod)
+ * - CF_PROD_R2_BUCKET: R2 bucket name for files
+ * - CF_PROD_VECTORIZE_INDEX: Vectorize index base name (default: ${SITE_ID}-knowledge)
+ * - CF_STAGING_D1_ID: D1 database ID for staging
+ * - CF_STAGING_KV_ID: KV namespace ID for staging
+ * - CF_STAGING_DOMAIN: Staging domain
  */
 export const CF_REPO_VARS = {
   prodD1Id: 'CF_PROD_D1_ID',
+  prodD1Name: 'CF_PROD_D1_NAME',
   prodKVId: 'CF_PROD_KV_ID',
   prodDomain: 'CF_PROD_DOMAIN',
   prodR2Bucket: 'CF_PROD_R2_BUCKET',

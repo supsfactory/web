@@ -1,11 +1,12 @@
-import { createFileRoute } from '@tanstack/react-router'
+﻿import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
 import { User, Mail, Lock } from 'lucide-react'
 import { signUp } from '@/features/auth/auth.client'
 import { getEnabledSocialProviders, getTurnstileSiteKey } from '@/features/auth/middleware'
 import { mapAuthError } from '@/features/auth/errors'
 import { useTurnstile, captchaHeaders } from '@/features/auth/components/turnstile'
-import { useTranslation } from '@/features/i18n/provider'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { authPageHead } from '@/features/auth/head'
 import { AuthCard, Field } from '@/features/auth/components/auth-card'
 import { SocialButtons } from '@/features/auth/components/social-buttons'
@@ -26,7 +27,7 @@ export const Route = createFileRoute('/{-$locale}/(auth)/register')({
 function Register() {
   const { providers, turnstileSiteKey } = Route.useLoaderData()
   const { t, locale } = useTranslation()
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
   const { token, enabled, widget, reset } = useTurnstile(turnstileSiteKey)
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')

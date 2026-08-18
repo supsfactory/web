@@ -1,8 +1,8 @@
-import { test, expect } from 'vitest'
+﻿import { test, expect } from 'vitest'
 import {
-  getAfarerProducts,
-  getAfarerProduct,
-  getAfarerPage,
+  getContentProducts,
+  getContentProduct,
+  getContentPage,
   getNewsPosts,
   getNewsPost,
   getTechArticles,
@@ -12,15 +12,15 @@ import {
   getResearchTopics,
   hasSpanishVariant,
   getEsContentPaths,
-  getAfarerPublicPaths,
-  getAfarerEsPaths,
+  getPublicPaths,
+  getEsPaths,
 } from '@/features/content/loader'
 import { getGuide } from '@/features/content/guide-content'
 import { buildExtendedIndex, buildFullIndex } from '@/features/site/search-index.server'
 
 test('products: es overlay swaps title and keeps canonical slug', () => {
-  const en = getAfarerProduct('sup-cheetah-surge')
-  const es = getAfarerProduct('sup-cheetah-surge', 'es')
+  const en = getContentProduct('sup-cheetah-surge')
+  const es = getContentProduct('sup-cheetah-surge', 'es')
   expect(en).toBeDefined()
   expect(es).toBeDefined()
   expect(es?.slug).toBe(en?.slug)
@@ -31,8 +31,8 @@ test('products: es overlay swaps title and keeps canonical slug', () => {
 })
 
 test('products: es collection mirrors en slugs 1:1', () => {
-  const en = getAfarerProducts()
-  const es = getAfarerProducts('es')
+  const en = getContentProducts()
+  const es = getContentProducts('es')
   expect(es).toHaveLength(en.length)
   expect(es.map((p) => p.slug)).toEqual(en.map((p) => p.slug))
   const translated = es.filter((p, i) => p.body !== en[i].body)
@@ -40,8 +40,8 @@ test('products: es collection mirrors en slugs 1:1', () => {
 })
 
 test('products: en locale and unknown slugs fall back to English content', () => {
-  expect(getAfarerProduct('sup-cheetah-surge', 'en')?.title).toBe(getAfarerProduct('sup-cheetah-surge')?.title)
-  expect(getAfarerProduct('no-such-board', 'es')).toBeUndefined()
+  expect(getContentProduct('sup-cheetah-surge', 'en')?.title).toBe(getContentProduct('sup-cheetah-surge')?.title)
+  expect(getContentProduct('no-such-board', 'es')).toBeUndefined()
 })
 
 test('news: es overlay translates posts, canonical slug preserved', () => {
@@ -100,22 +100,22 @@ test('hasSpanishVariant covers registry, faq and sidecar content', () => {
 })
 
 test('product-development page: registered EN+ES with structured sections', () => {
-  const en = getAfarerPage('/product-development')
+  const en = getContentPage('/product-development')
   expect(en).toBeDefined()
   expect(en!.meta?.title).toContain('SUP Product Development')
   const types = en!.sections.map((s) => s.type)
   expect(types).toContain('hero')
   expect(types).toContain('faqs')
   expect(types).toContain('cta')
-  const esPage = getAfarerPage('/product-development', 'es')
+  const esPage = getContentPage('/product-development', 'es')
   expect(esPage?.meta?.title).not.toBe(en?.meta?.title)
   expect(hasSpanishVariant('/product-development')).toBe(true)
-  expect(getAfarerPublicPaths()).toContain('/product-development')
-  expect(getAfarerEsPaths()).toContain('/product-development')
+  expect(getPublicPaths()).toContain('/product-development')
+  expect(getEsPaths()).toContain('/product-development')
 })
 
 test('oem-trust-assurance page: registered EN+ES with structured sections', () => {
-  const en = getAfarerPage('/oem-trust-assurance')
+  const en = getContentPage('/oem-trust-assurance')
   expect(en).toBeDefined()
   expect(en!.meta?.title).toContain('OEM Trust')
   const types = en!.sections.map((s) => s.type)
@@ -131,13 +131,13 @@ test('oem-trust-assurance page: registered EN+ES with structured sections', () =
   expect(faqItems.every((f) => f.q && f.a)).toBe(true)
   const stats = en!.content.trust_stats as { value?: string }[]
   expect(stats.some((s) => s.value === '18,0 PSI' || s.value === '18.0 PSI')).toBe(true)
-  const esPage = getAfarerPage('/oem-trust-assurance', 'es')
+  const esPage = getContentPage('/oem-trust-assurance', 'es')
   expect(esPage).toBeDefined()
   expect(esPage!.meta?.title).toContain('Confianza')
   expect(esPage!.meta?.title).not.toBe(en!.meta?.title)
   expect(hasSpanishVariant('/oem-trust-assurance')).toBe(true)
-  expect(getAfarerPublicPaths()).toContain('/oem-trust-assurance')
-  expect(getAfarerEsPaths()).toContain('/oem-trust-assurance')
+  expect(getPublicPaths()).toContain('/oem-trust-assurance')
+  expect(getEsPaths()).toContain('/oem-trust-assurance')
 })
 
 test('getEsContentPaths lists every es sidecar detail path', () => {

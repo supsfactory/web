@@ -1,5 +1,6 @@
-import { ArrowRight } from 'lucide-react'
-import { useTranslation } from '@/features/i18n/provider'
+﻿import { ArrowRight } from 'lucide-react'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { projects } from '@/features/site/projects'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
@@ -11,7 +12,7 @@ const FEATURED = ['coastal-rental-fleet', 'eu-distributor-private-label', 'resor
 
 export function ProjectsShowcase() {
   const { locale, t } = useTranslation()
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
   const items = FEATURED.map((slug) => projects[locale].find((p) => p.slug === slug)).filter(
     (p): p is NonNullable<typeof p> => Boolean(p),
   )

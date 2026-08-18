@@ -1,17 +1,18 @@
-import * as React from 'react'
+﻿import * as React from 'react'
 import { ArrowRight, Check, ChevronDown, FileText } from 'lucide-react'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
 import { brandify } from '../brand'
 import { useAferIndex } from '../index-data'
-import { useTranslation } from '@/features/i18n/provider'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { assetUrl } from '../assets'
-import type { AfarerPage, AfarerSectionDef } from '../types'
+import type { ContentPage, ContentSectionDef } from '../types'
 
 /**
- * Generic afarer section renderer.
+ * Generic content section renderer.
  *
- * afarer pages are assembled from a registry of sections (key + type), each
+ * Content pages are assembled from a registry of sections (key + type), each
  * backed by a value of arbitrary shape in the page YAML. Rendering resolves
  * in three passes: an exact key widget (for bespoke shapes like production
  * flow), the registered section type, then a shape-based fallback — so the
@@ -140,7 +141,7 @@ function FaqWidget({ c }: { c: Record<string, unknown> }) {
   if (items.length === 0) return null
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('afarer.fallbackFaq'))} sub={brandify(str(c.subtitle) || str(c.sub) || '')} />
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('content.fallbackFaq'))} sub={brandify(str(c.subtitle) || str(c.sub) || '')} />
       <div className="mx-auto mt-10 max-w-3xl space-y-3">
         {items.map((f, i) => (
           <details key={i} className="marine-card group px-5 py-4" open={i === 0}>
@@ -256,7 +257,7 @@ function CtaWidget({ c }: { c: Record<string, unknown> }) {
   const { t, locale } = useTranslation()
   const title = brandify(str(c.title) || str(c.heading) || '')
   const body = brandify(str(c.desc) || str(c.description) || str(c.subtitle) || str(c.sub) || '')
-  const label = str(c.label) || str(c.button_text) || str(c.button) || t('afarer.ctaDefault')
+  const label = str(c.label) || str(c.button_text) || str(c.button) || t('content.ctaDefault')
   const actions = ctaActions(c)
   return (
     <Container className="pb-20">
@@ -736,7 +737,7 @@ function BlogLatest({ c }: { c: Record<string, unknown> }) {
   const posts = news.slice(0, limit)
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('afarer.fallbackLatestNews'))} sub={brandify(str(c.subtitle) || '')} />
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('content.fallbackLatestNews'))} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {posts.map((p) => (
           <a key={p.slug} href={localize(`/news/${p.slug}`, locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
@@ -764,7 +765,7 @@ function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
   const items = products.slice(0, 8)
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('afarer.fallbackFeaturedProducts'))} sub={brandify(str(c.subtitle) || '')} />
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('content.fallbackFeaturedProducts'))} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((p) => (
           <a key={p.slug} href={localize(`/products/${p.slug}`, locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
@@ -879,7 +880,7 @@ function EquipmentCategories({ c }: { c: Record<string, unknown> }) {
   if (cats.length === 0) return null
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('afarer.fallbackEquipment'))} />
+      <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('content.fallbackEquipment'))} />
       <div className="mt-10 space-y-10">
         {cats.map((cat, i) => {
           const items = arr(cat.items) as Record<string, unknown>[]
@@ -1183,8 +1184,8 @@ function ProseWidget({ text }: { text: string }) {
 /* ─────────────────────────── dispatcher ─────────────────────────── */
 
 /**
- * Adapters for the ported afarer solution / OEM pages. Those YAML files keep
- * afarer's section shapes (packages, roi_section, benefits, ...), which differ
+ * Adapters for the ported content solution / OEM pages. Those YAML files keep
+ * content's section shapes (packages, roi_section, benefits, ...), which differ
  * from the supported widget schemas — these adapters normalise them onto the
  * existing FeatureGrid / StatGrid / StepsWidget / TestimonialsWidget primitives.
  */
@@ -1247,7 +1248,7 @@ function PortedCaseStudy({ c }: { c: R }) {
   return (
     <TestimonialsWidget
       c={{
-        title: str(c.title) || t('afarer.fallbackClientResult'),
+        title: str(c.title) || t('content.fallbackClientResult'),
         subtitle: c.subtitle,
         items: [{ quote: c.quote, author: c.author, role: c.location }],
       }}
@@ -1294,7 +1295,7 @@ function GeoWidget({ c }: { c: R }) {
   const audiences = arr(c.audiences).map(str).filter(Boolean)
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={str(c.title) || t('afarer.fallbackB2bPositioning')} sub={str(c.sentence) || str(c.subtitle) || ''} />
+      <SectionHead kicker={str(c.tagline)} title={str(c.title) || t('content.fallbackB2bPositioning')} sub={str(c.sentence) || str(c.subtitle) || ''} />
       {audiences.length > 0 && (
         <div className="mx-auto mt-8 flex max-w-3xl flex-wrap justify-center gap-2.5">
           {audiences.map((a) => (
@@ -1312,10 +1313,10 @@ function BuyerGuidesWidget({ c }: { c: Record<string, unknown> }) {
   const { t, locale } = useTranslation()
   const items = arr(c.items)
   if (items.length === 0) return null
-  const fl = (href: string): string => (locale === 'en' ? href : href === '/' ? '/es' : `/es${href}`)
+  const fl = (path: string): string => localizePath(locale, path)
   return (
     <Container>
-      <SectionHead kicker={str(c.tagline)} title={str(c.title) || t('afarer.fallbackBuyersGuides')} sub={str(c.subtitle)} />
+      <SectionHead kicker={str(c.tagline)} title={str(c.title) || t('content.fallbackBuyersGuides')} sub={str(c.subtitle)} />
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((it) => {
           const o = it as Record<string, unknown>
@@ -1453,7 +1454,7 @@ const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNod
   rework_decision: (c) => <ReworkDecisionWidget c={c} />,
   knowledge_sections: (c) => <AcademyKnowledge c={c} />,
   buyer_guides: (c) => <BuyerGuidesWidget c={c} />,
-  // ported afarer solution / OEM page sections
+  // ported content solution / OEM page sections
   roi_section: (c) => <PortedRoiSection c={c} />,
   packages: (c) => <PortedFeatureGrid c={c} />,
   case_study: (c) => <PortedCaseStudy c={c} />,
@@ -1613,18 +1614,18 @@ function DirectAnswerWidget({ c }: { c: Record<string, unknown> }) {
     <Container narrow>
       <div className="relative overflow-hidden rounded-xl border border-primary/30 bg-primary/5 px-6 py-5">
         <span className="mb-1.5 block text-[11px] font-bold uppercase tracking-[0.14em] text-primary">
-          {str(c.label) || t('afarer.straightAnswer')}
+          {str(c.label) || t('content.straightAnswer')}
         </span>
         <p className="text-[15px] leading-relaxed text-foreground">{brandify(text)}</p>
         {verified && (
-          <span className="mt-2.5 block text-[11.5px] text-fg-3">{t('afarer.verifiedOn')} {verified}</span>
+          <span className="mt-2.5 block text-[11.5px] text-fg-3">{t('content.verifiedOn')} {verified}</span>
         )}
       </div>
     </Container>
   )
 }
 
-export function AfarerSection({ def, content }: { def: AfarerSectionDef; content: unknown }) {
+export function ContentSection({ def, content }: { def: ContentSectionDef; content: unknown }) {
   const c = content
   if (def.type === 'blog_latest' && c == null) return <BlogLatest c={{} as Record<string, unknown>} />
   if (c == null) return null
@@ -1641,7 +1642,7 @@ export function AfarerSection({ def, content }: { def: AfarerSectionDef; content
 /** Section keys rendered as the fallback hero — never output twice. */
 const HEADLINE_KEYS = new Set(['label', 'headline', 'subtitle', 'seo'])
 
-export function AfarerSections({ page }: { page: AfarerPage }) {
+export function ContentSections({ page }: { page: ContentPage }) {
   const hasHero = page.sections.some((def) => def.type === 'hero' || def.type === 'hero_text' || def.type === 'hero_carousel')
   // Long-article template pages (label/headline/subtitle/seo/body) have no hero
   // section, so their headline renders as plain content and the page ships no
@@ -1659,14 +1660,14 @@ export function AfarerSections({ page }: { page: AfarerPage }) {
     <>
       {hero}
       {sections.map((def, i) => (
-        <AfarerSection key={`${def.key}-${i}`} def={def} content={page.content[def.key]} />
+        <ContentSection key={`${def.key}-${i}`} def={def} content={page.content[def.key]} />
       ))}
     </>
   )
 }
 
 /** Collect all FAQ entries across a page's `faqs` sections (for FAQPage JSON-LD). */
-export function collectPageFaqs(page: AfarerPage): { q: string; a: string }[] {
+export function collectPageFaqs(page: ContentPage): { q: string; a: string }[] {
   const out: { q: string; a: string }[] = []
   for (const def of page.sections) {
     if (def.type !== 'faqs') continue

@@ -8,6 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { useTranslation } from '@/features/i18n/provider'
 import { WaitlistForm } from '@/features/waitlist/components/waitlist-form'
 import type { Locale } from '@/features/i18n/locale'
+import { SITE_NAME } from '@/config'
 
 const rootRoute = getRouteApi('__root__')
 
@@ -28,7 +29,7 @@ export const Route = createFileRoute('/{-$locale}/waitlist')({
       origin,
       locale,
       path: '/waitlist',
-      title: `${dict} — SUPsfactory`,
+      title: `${dict} \u2014 ${SITE_NAME}`,
       description: locale === 'es' ? 'Te avisaremos en cuanto lancemos.' : "We'll let you know the moment we launch.",
     })
     return { meta, links }

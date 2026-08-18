@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Corpus builder for the AI knowledge index (server-only).
  *
  * Statically imports the full afarer corpus, so it must never enter the client
@@ -16,14 +16,14 @@ import { buildHubEntries } from '@/features/site/hub-pages'
 import { GUIDES, GUIDES_ES } from '@/features/content/guide-content'
 import {
   brandify,
-  getAfarerPage,
-  getAfarerPages,
-  getAfarerProducts,
+  getContentPage,
+  getContentPages,
+  getContentProducts,
   getCaseUses,
   getNewsPosts,
   getSiteFaqs,
   getTechArticles,
-  isAfarerPageTranslated,
+  isContentPageTranslated,
 } from '@/features/content/loader'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { chunkBody, pageText } from '@/features/content/text'
@@ -94,7 +94,7 @@ export function buildChunks(locale: Locale): AiChunk[] {
     }
   }
 
-  for (const p of getAfarerProducts(locale)) {
+  for (const p of getContentProducts(locale)) {
     const u = url(`/products/${p.slug}`)
     push(u, p.title, [p.summary, p.description].filter(Boolean).join('\n'))
     for (const [i, t] of chunkBody(brandify(p.body)).entries()) push(u, p.title, t, `body${i}`)
@@ -121,10 +121,10 @@ export function buildChunks(locale: Locale): AiChunk[] {
   // Afarer pages carry their own SEO description — good one-chunk answers
   // (product-development, private-label, customizer, trust pages etc.). Full
   // page text is added per-section so deep details are searchable too.
-  for (const p of getAfarerPages()) {
+  for (const p of getContentPages()) {
     if (p.path in EDGE_REDIRECTS || p.path === FAQ_PATH) continue
-    if (locale === 'es' && !isAfarerPageTranslated(p.path, 'es')) continue
-    const page = locale === 'es' ? getAfarerPage(p.path, 'es')! : p
+    if (locale === 'es' && !isContentPageTranslated(p.path, 'es')) continue
+    const page = locale === 'es' ? getContentPage(p.path, 'es')! : p
     const seo = page.content.seo as { title?: string; description?: string } | undefined
     const title = (seo?.title ?? '').replace(/[|–—-].*$/, '').trim() || page.label
     push(url(p.path), title, seo?.description ?? '')

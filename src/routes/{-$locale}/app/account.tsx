@@ -1,9 +1,10 @@
-import { createFileRoute, useRouter } from '@tanstack/react-router'
+﻿import { createFileRoute, useRouter } from '@tanstack/react-router'
 import { useState, type ReactNode } from 'react'
 import { requireUser } from '@/features/auth/middleware'
 import { signOut, changePassword, deleteUser } from '@/features/auth/auth.client'
 import { mapAuthError } from '@/features/auth/errors'
-import { useTranslation } from '@/features/i18n/provider'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { AppShell } from '@/components/app/app-shell'
 import { Button, buttonVariants } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -49,7 +50,7 @@ function AccountPage() {
   const { user } = Route.useLoaderData()
   const { t, locale } = useTranslation()
   const router = useRouter()
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
 
   const [currentPassword, setCurrentPassword] = useState('')
   const [newPassword, setNewPassword] = useState('')

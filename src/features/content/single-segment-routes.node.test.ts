@@ -1,7 +1,7 @@
-import { test, expect } from 'vitest'
+ï»¿import { test, expect } from 'vitest'
 import { readdirSync } from 'node:fs'
 import { join, resolve } from 'node:path'
-import { getAfarerPages } from '@/features/content/loader'
+import { getContentPages } from '@/features/content/loader'
 import { gatePath } from '@/features/seo/edge-gate'
 
 const routesRoot = resolve(process.cwd(), 'src/routes')
@@ -16,7 +16,7 @@ const routeName = (f: string): string | null => {
   return name
 }
 
-/** Dedicated root routes (`factory.tsx` â†?`/factory`) that outrank the `{- $locale}` group. */
+/** Dedicated root routes (`factory.tsx` ï¿½?`/factory`) that outrank the `{- $locale}` group. */
 const rootRoutes = readdirSync(routesRoot)
   .map(routeName)
   .filter((n): n is string => n != null)
@@ -28,7 +28,7 @@ const localeGroupChildren = readdirSync(groupRoot)
   .filter((n): n is string => n != null)
   .map((n) => `/${n}`)
 
-const singleSegmentPages = getAfarerPages()
+const singleSegmentPages = getContentPages()
   .map((p) => p.path)
   .filter((p) => p !== '/' && !p.slice(1).includes('/'))
 
@@ -40,7 +40,7 @@ test('every single-segment afarer page has a serving route (P0 regression guard)
     // be covered by a dedicated root route (contentSingleRoute), a `{- $locale}`
     // child (locale=undefined), or an edge-gate redirect/410.
     const covered = rootRoutes.includes(p) || localeGroupChildren.includes(p) || gatePath(p).action !== 'ok'
-    expect(covered, `${p} would 404 through the {- $locale} group â€?add a dedicated route via contentSingleRoute`).toBe(true)
+    expect(covered, `${p} would 404 through the {- $locale} group ï¿½?add a dedicated route via contentSingleRoute`).toBe(true)
   }
 })
 

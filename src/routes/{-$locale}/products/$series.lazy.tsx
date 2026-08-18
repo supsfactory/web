@@ -1,6 +1,7 @@
-import { createLazyFileRoute, getRouteApi } from '@tanstack/react-router'
+﻿import { createLazyFileRoute, getRouteApi } from '@tanstack/react-router'
 import { ArrowRight, CheckCircle2, Package } from 'lucide-react'
-import { useTranslation } from '@/features/i18n/provider'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { pick, products, productsPage } from '@/features/site/content'
 import { seriesPages } from '@/features/site/series-pages'
 import { procurementProfiles, commercialRows } from '@/features/site/procurement'
@@ -35,7 +36,7 @@ function SeriesPage() {
   }
 
   if (!page) return null
-  const fl = (p: string): string => (es ? `/es${p}` : p)
+  const fl = (path: string): string => localizePath(locale, path)
   const items = pick(products, locale).items.filter((p) => p.series === page.slug)
   const c = pick(productsPage, locale)
   const others = seriesPages[locale].filter((s) => s.slug !== page.slug)

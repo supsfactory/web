@@ -1,10 +1,11 @@
-import * as React from 'react'
+﻿import * as React from 'react'
 import { createFileRoute, getRouteApi } from '@tanstack/react-router'
 import { ArrowRight, PaintBucket, Upload, ImageIcon, Sparkles } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
-import { useTranslation } from '@/features/i18n/provider'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { pick, customizer } from '@/features/site/content'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero } from '@/components/marketing/section-head'
@@ -26,10 +27,7 @@ export const Route = createFileRoute('/{-$locale}/customizer')({
       locale,
       path: '/customizer',
       title: locale === 'es' ? 'Constructor de especificaciones SUP | Diseña tu tabla' : 'SUP Specification Builder | Design Your Custom Board',
-      description:
-        locale === 'es'
-          ? 'Visualiza tu concepto SUP antes de la producción: elige modelo, colores, sube tu logo y genera un mockup antes de pedir presupuesto de fabricación.'
-          : 'Visualize your SUP concept before production: choose a model, colors and logo, and generate a mockup before requesting a manufacturing quote.',
+      description: locale === 'es' ? 'Diseña tu tabla SUP personalizada: colores, gráficos y especificaciones.' : 'Design your custom SUP board: colors, graphics and specifications.',
     })
     return { meta, links }
   },
@@ -40,7 +38,7 @@ export const Route = createFileRoute('/{-$locale}/customizer')({
 function CustomizerPage() {
   const { theme, user } = rootRoute.useLoaderData()
   const { locale } = useTranslation()
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
   const c = pick(customizer, locale)
   const [hue, setHue] = React.useState(195)
 

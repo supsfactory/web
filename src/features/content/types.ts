@@ -1,21 +1,21 @@
 /**
- * afarer content model — data ported verbatim from the afarer marketing site
- * (YAML page sources + MDX article sources in src/content/afarer/) and parsed
- * at build time via Vite `?raw` glob imports. afarer stays the canonical
- * source: content updates = file copies, no re-transcription.
+ * Content model — data ported from the product marketing site
+ * (YAML page sources + MDX article sources in src/content/site/) and parsed
+ * at build time via Vite `?raw` glob imports. The product content stays the
+ * canonical source: content updates = file copies, no re-transcription.
  *
  * Pages are rendered generically: the pages.yaml registry declares which
  * sections (key + type) a page has, and the section renderer maps each to a
  * widget by key/type/shape.
  */
 
-export interface AfarerSectionDef {
+export interface ContentSectionDef {
   key: string
   type: string
   label?: string
 }
 
-export interface AfarerPageMeta {
+export interface ContentPageMeta {
   title?: string
   description?: string
   keywords?: string[]
@@ -25,52 +25,52 @@ export interface AfarerPageMeta {
   dateModified?: string
 }
 
-export interface AfarerPage {
+export interface ContentPage {
   slug: string
   label: string
   path: string
-  meta?: AfarerPageMeta
-  sections: AfarerSectionDef[]
+  meta?: ContentPageMeta
+  sections: ContentSectionDef[]
   /** Parsed page YAML: section key → section value (shape varies per widget). */
   content: Record<string, any>
 }
 
-export interface AfarerGalleryImage {
+export interface ContentGalleryImage {
   url: string
   alt?: string
 }
 
-export interface AfarerSpec {
+export interface ContentSpec {
   label: string
   value: string
 }
 
-export interface AfarerProductMeta {
+export interface ContentProductMeta {
   title?: string
   description?: string
 }
 
-export interface AfarerProduct {
+export interface ContentProduct {
   slug: string
   title: string
   sku?: string
   summary?: string
   description?: string
   image?: string
-  gallery?: AfarerGalleryImage[]
+  gallery?: ContentGalleryImage[]
   category?: string
   tags?: string[]
-  specs?: AfarerSpec[]
+  specs?: ContentSpec[]
   /** Product-specific FAQ entries (rendered with a shared fallback pool). */
   faqs?: { q: string; a: string }[]
   inStock?: boolean
   featured?: boolean
-  metadata?: AfarerProductMeta
+  metadata?: ContentProductMeta
   /** Markdown body (ported from the source MDX). */
   body: string
 }
 
-export interface AfarerPost {
+export interface ContentPost {
   slug: string
   title: string
   date: string
@@ -79,11 +79,11 @@ export interface AfarerPost {
   category?: string
   author?: string
   tags?: string[]
-  metadata?: AfarerProductMeta
+  metadata?: ContentProductMeta
   body: string
 }
 
-export interface AfarerArticle {
+export interface ContentArticle {
   slug: string
   title: string
   summary?: string
@@ -94,13 +94,13 @@ export interface AfarerArticle {
   dateModified?: string
 }
 
-export interface AfarerCaseUse extends AfarerArticle {
+export interface ContentCaseUse extends ContentArticle {
   environment?: string
   skill?: string
   products?: string[]
 }
 
-export interface AfarerResearchTopic {
+export interface ContentResearchTopic {
   slug: string
   category: string
   readTime: string

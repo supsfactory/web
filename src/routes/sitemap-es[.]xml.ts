@@ -1,9 +1,9 @@
-import { createFileRoute } from '@tanstack/react-router'
+﻿import { createFileRoute } from '@tanstack/react-router'
 import { env } from '@/lib/env'
 import { buildLocaleSitemap, PUBLIC_PATHS } from '@/features/seo/seo'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
-import { getAfarerEsPaths, getEsContentPaths } from '@/features/content/loader'
+import { getEsPaths, getEsContentPaths } from '@/features/content/loader'
 import { GUIDES_ES } from '@/features/content/guide-content'
 import { projects } from '@/features/site/projects'
 import { knowledge } from '@/features/site/knowledge'
@@ -14,7 +14,7 @@ import { seriesPages } from '@/features/site/series-pages'
 // that ship a real Spanish variant.
 const handler = () => {
   const origin = new URL(env.BETTER_AUTH_URL).origin
-  const afarerEs = getAfarerEsPaths()
+  const afarerEs = getEsPaths()
     .filter((p) => !(p in EDGE_REDIRECTS) && !(p in LEGACY_REDIRECTS))
     .map((p) => ({ path: p }))
   const detailEs = [

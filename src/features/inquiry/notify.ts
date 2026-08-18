@@ -5,6 +5,7 @@
  */
 import { createDevTransport, type SentEmail } from '@/features/email/dev-transport'
 import type { Inquiry } from './inquiry.schema'
+import { SITE_NAME } from '@/config'
 
 export interface InquiryNotifyData {
   inquiry: Inquiry
@@ -28,7 +29,7 @@ export async function sendInquiryNotification(apiKey: string | null, from: strin
   const i = data.inquiry
   // Attachment type for the admin mail — derived from the R2 object key.
   const fileExt = i.logoKey ? (i.logoKey.split('.').pop() ?? '').toUpperCase() : ''
-  const subject = `[SUPsfactory] [${i.tier}] ${i.businessType} inquiry: ${i.company || i.email} (${i.category}, score ${i.score})`
+  const subject = `[${SITE_NAME}] [${i.tier}] ${i.businessType} inquiry: ${i.company || i.email} (${i.category}, score ${i.score})`
   const text = [
     `Lead tier: ${i.tier} (score ${i.score})`,
     `Company: ${i.company || '—'}`,

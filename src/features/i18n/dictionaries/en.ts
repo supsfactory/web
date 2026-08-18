@@ -1,4 +1,5 @@
-import { SITE_NAME } from '@/config/site'
+import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
+import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT } from '@/config/branding'
 
 export const en = {
   common: {
@@ -41,30 +42,30 @@ export const en = {
       button: 'Reset password',
     },
     catalog: {
-      subject: 'We received your catalog request — SUPsfactory',
+      subject: `We received your catalog request — ${SITE_NAME}`,
       heading: 'Catalog request received',
       body: 'Our sales team will send the full product catalog and MOQ sheet to this inbox within one business day. Meanwhile, you can browse every platform specification on the products page.',
       button: 'Browse product platforms',
     },
     ack: {
-      subject: 'We received your project inquiry — SUPsfactory',
+      subject: `We received your project inquiry — ${SITE_NAME}`,
       heading: 'Inquiry received',
       body: 'Thank you for your inquiry. Our sales team will reply to this inbox within one business day with MOQ, sample timing and lead times for your market. If you shared a logo, we will include a visual proof with the quotation.',
     },
     ackA: {
-      subject: 'Your OEM project brief is being reviewed — SUPsfactory',
+      subject: `Your OEM project brief is being reviewed — ${SITE_NAME}`,
       heading: 'Your OEM project brief has been received',
       body: 'Your submission includes the information needed for an initial feasibility review. A project specialist will review your requirements and contact you within 1 business day. A formal quotation is typically prepared within 2 business days after the required product specifications, customization scope, packaging requirements and commercial details are confirmed.',
     },
     ackB: {
-      subject: 'We received your project — SUPsfactory',
+      subject: `We received your project — ${SITE_NAME}`,
       heading: 'Your project is in early planning',
       body: 'To provide a useful MOQ and quotation direction, please prepare your target size, quantity range, sales market, packaging preference and target launch date. An engineering specialist will contact you within 1 business day to guide your specification development.',
     },
     ackC: {
-      subject: 'SUPsfactory — sample and MOQ guidance',
+      subject: `${SITE_NAME} — sample and MOQ guidance`,
       heading: 'Looking for a small quantity or a sample?',
-      body: 'Custom OEM pricing and production conditions depend on project scope and quantity. Please review our sample and MOQ guidance on supsfactory.com, then submit a project brief when you have your expected quantity, market and customization requirements.',
+        body: `Custom OEM pricing and production conditions depend on project scope and quantity. Please review our sample and MOQ guidance on ${SITE_DOMAIN}, then submit a project brief when you have your expected quantity, market and customization requirements.`,
     },
   },
   app: {
@@ -76,7 +77,7 @@ export const en = {
     collapseSidebar: 'Collapse sidebar', expandSidebar: 'Expand sidebar',
     navAccount: 'Account',
     userMenuLabel: 'User menu',
-    welcomeSub: "Here's your SUPsfactory workspace.",
+    welcomeSub: `Here's your ${SITE_NAME} workspace.`,
     quickActions: 'Quick actions',
     openAccount: 'Account settings',
     openAccountSub: 'Profile, password, danger zone',
@@ -101,7 +102,7 @@ export const en = {
     termsSections: [
       {
         heading: 'Who We Are',
-        body: 'SUPsfactory is the SUP-focused OEM/ODM division of Qingdao Vatrad Group Co., Ltd., a 12,500 m² inflatable manufacturing plant in Qingdao, China (Economic Development Zone, Laixi, Qingdao, China 266600). These Terms govern your use of supsfactory.com and any quotation, sample or production agreement entered with us. By using the site or submitting an inquiry, you accept these Terms.',
+        body: `${SITE_NAME} is the SUP-focused OEM/ODM division of ${BRAND_COMPANY_NAME}, a 12,500 m² inflatable manufacturing plant in Qingdao, China (Economic Development Zone, Laixi, Qingdao, China 266600). These Terms govern your use of ${SITE_DOMAIN} and any quotation, sample or production agreement entered with us. By using the site or submitting an inquiry, you accept these Terms.`,
       },
       {
         heading: 'Quotations & Orders',
@@ -137,13 +138,13 @@ export const en = {
       },
       {
         heading: 'Governing Law',
-        body: 'These Terms and any agreement between you and Qingdao Vatrad Group Co., Ltd. are governed by the laws of the People\'s Republic of China. Disputes that cannot be resolved amicably are submitted to the courts of the location of our registered entity in China.',
+        body: `These Terms and any agreement between you and ${BRAND_COMPANY_NAME} are governed by the laws of the People's Republic of China. Disputes that cannot be resolved amicably are submitted to the courts of the location of our registered entity in China.`,
       },
     ],
     privacySections: [
       {
         heading: 'Data Controller',
-        body: 'Qingdao Vatrad Group Co., Ltd. (Economic Development Zone, Laixi, Qingdao, China 266600) is the controller of personal data collected through supsfactory.com. You can reach us at info@supsfactory.com or +86 13305324192.',
+        body: `${BRAND_COMPANY_NAME} (Economic Development Zone, Laixi, Qingdao, China 266600) is the controller of personal data collected through ${SITE_DOMAIN}. You can reach us at ${BRAND_CONTACT.email} or +86 13305324192.`,
       },
       {
         heading: 'Data We Collect',
@@ -167,11 +168,11 @@ export const en = {
       },
       {
         heading: 'Your Rights',
-        body: 'Where applicable law gives you rights (including GDPR and CCPA), you may request access to, correction of, or deletion of your personal data, object to processing, withdraw consent, and request data portability. Write to info@supsfactory.com — we respond within 30 days and will verify your identity before acting on your request.',
+        body: `Where applicable law gives you rights (including GDPR and CCPA), you may request access to, correction of, or deletion of your personal data, object to processing, withdraw consent, and request data portability. Write to ${BRAND_CONTACT.email} — we respond within 30 days and will verify your identity before acting on your request.`,
       },
       {
         heading: 'Security & Cookies',
-        body: 'Data transmitted to our site is protected by HTTPS. We use strictly necessary cookies to run the site and, with your consent, analytics cookies to understand usage. You can manage cookie preferences in your browser. For questions about this policy, contact info@supsfactory.com.',
+        body: `Data transmitted to our site is protected by HTTPS. We use strictly necessary cookies to run the site and, with your consent, analytics cookies to understand usage. You can manage cookie preferences in your browser. For questions about this policy, contact ${BRAND_CONTACT.email}.`,
       },
       {
         heading: 'Changes to This Policy',
@@ -190,7 +191,7 @@ export const en = {
     checkEmailReset: 'If that email exists, a reset link has been sent.',
     deleteAccount: 'Delete account', deleteConfirm: 'This permanently deletes your account and data. Continue?',
     changePassword: 'Change password',
-    loginTitle: 'Welcome back', loginSub: 'Sign in to your SUPsfactory workspace.',
+    loginTitle: 'Welcome back',     loginSub: `Sign in to your ${SITE_NAME} workspace.`,
     registerTitle: 'Create your account', registerSub: 'Start shipping in minutes — no credit card.',
     orContinue: 'or continue with',
     forgotTitle: 'Reset your password', forgotSub: "Enter your email and we'll send a reset link.",
@@ -211,7 +212,7 @@ export const en = {
   admin: {
     title: 'Admin', dashboard: 'Overview', users: 'Users',
     navAdmin: 'Admin',
-    overviewSub: 'Signups and activity across SUPsfactory.',
+    overviewSub: `Signups and activity across ${SITE_NAME}.`,
     usersSub: 'Search, inspect and manage every account.',
     totalUsers: 'Users', activeUsers: 'Active users',
     active: 'Active',
@@ -261,8 +262,8 @@ export const en = {
       customizer: 'Design Your SUP',
       login: 'Sign in',
       app: 'App',
-      poweredBy: 'Powered by Afarer',
-      process: 'Process', projects: 'Projects', aboutAfarer: 'About SUPsfactory', guides: 'Knowledge Center',
+      poweredBy: `Powered by ${BRAND_PARENT_BRAND}`,
+      process: 'Process', projects: 'Projects',       aboutAfarer: `About ${SITE_NAME}`, guides: 'Knowledge Center',
       solutions: 'Solutions', company: 'Company',
       productsDropdown: {
         all: 'All Products',
@@ -323,11 +324,11 @@ export const en = {
       knowledge: 'Knowledge Center', company: 'Company',
     },
     footer: {
-      tagline: 'SUPsfactory is a custom SUP board manufacturer specializing in OEM and ODM paddle board manufacturing. We help SUP brands, distributors and outdoor companies develop customized paddle board products from prototype design to mass production.',
+      tagline: `${SITE_NAME} is a custom SUP board manufacturer specializing in OEM and ODM paddle board manufacturing. We help SUP brands, distributors and outdoor companies develop customized paddle board products from prototype design to mass production.`,
       colSolutions: 'Solutions', colServe: 'Who We Serve', colCompany: 'Company', colLegal: 'Legal',
       colResources: 'Resources', colManufacturing: 'Manufacturing & Quality',
       factoryCapacity: 'Factory Capacity',
-      poweredBy: 'SUPsfactory is the custom SUP manufacturing division of Afarer — your product development, quality control and export delivery partner.', inquiryForm: 'Inquiry form',
+      poweredBy: `${SITE_NAME} is the custom SUP manufacturing division of ${BRAND_PARENT_BRAND} — your product development, quality control and export delivery partner.`, inquiryForm: 'Inquiry form',
       customSup: 'Custom SUP Manufacturing', productDevelopment: 'SUP Product Development', resortSolutions: 'Resort & Club Solutions',
       organizationProjects: 'Organization Projects', faq: 'FAQ', process: 'Process',
       clubSup: 'Club Team Boards', schoolSup: 'School Programs',
@@ -345,7 +346,7 @@ export const en = {
       marketsAustralia: 'SUP OEM — Australia',
       terms: 'Terms', privacy: 'Privacy',
       rights: 'Custom SUP product development & manufacturing partner.',
-      owner: 'Afarer — SUP manufacturing division of Qingdao Vatrad Group Co., Ltd.',
+      owner: `${BRAND_PARENT_BRAND} — SUP manufacturing division of ${BRAND_COMPANY_NAME}.`,
       compliance: 'All materials comply with CE, REACH and ISO 9001 quality management standards. 100% factory-direct export from our Qingdao, China plant.',
       followUs: 'Follow us', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },
@@ -354,7 +355,7 @@ export const en = {
     contactQuote: 'Get a Quote',
     aiChat: {
       open: 'AI Assistant',
-      title: 'SUPsfactory Assistant',
+      title: `${SITE_NAME} Assistant`,
       subtitle: 'Ask about products, MOQ, lead times and manufacturing.',
       placeholder: 'Ask about custom SUP manufacturing…',
       send: 'Send',
@@ -480,13 +481,13 @@ export const en = {
     },
     entity: {
       kicker: 'Company Entity',
-      title: 'SUPsfactory — the Inflatable SUP OEM & ODM Manufacturer Behind Your Brand',
+      title: `${SITE_NAME} — the Inflatable SUP OEM & ODM Manufacturer Behind Your Brand`,
       intro1:
-        'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.). We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing.',
+        `${SITE_NAME} is the SUP product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}). We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing.`,
       intro2:
         'Our 12,500 m² plant in Qingdao, China handles every stage in-house — design, mould engineering, drop-stitch construction, RF welding, printing, assembly and quality testing. We do not sell to end consumers and we do not compete with our clients in any market.',
       intro3:
-        'One factory, three names. Qingdao Vatrad Group Co., Ltd. is the legal entity; Afarer is its manufacturing division and operates the full-category inflatable product lines on afarer.com; SUPsfactory is the SUP-focused OEM/ODM division you are reading now. Whatever your sourcing team calls us, you reach the same factory floor in Qingdao.',
+        `One factory, three names. ${BRAND_COMPANY_NAME} is the legal entity; ${BRAND_PARENT_BRAND} is its manufacturing division and operates the full-category inflatable product lines on afarer.com; ${SITE_NAME} is the SUP-focused OEM/ODM division you are reading now. Whatever your sourcing team calls us, you reach the same factory floor in Qingdao.`,
       factsTitle: 'Company Facts',
       servicesTitle: 'What We Manufacture',
       servicesBody: 'Five solution areas cover most custom SUP manufacturing projects:',
@@ -494,7 +495,7 @@ export const en = {
       knowledgeBody: 'Guides written for buyers planning a custom SUP project.',
       projectsTitle: 'Proof of Work',
       projectsBody: 'Projects that show how requirement becomes delivered product.',
-      ctaTitle: 'Start Your Custom SUP Project',
+      ctaTitle: `Start Your Custom SUP Project`,
       ctaBody: 'Tell us what you want to build — we typically reply within one business day.',
     },
     contact: {
@@ -526,7 +527,7 @@ export const en = {
       ndaNote: 'NDA support is available before you share confidential files.',
       trustTitle: 'Factory Trust & Verification',
       trustSubtitle:
-        'Every claim on this site is documented: legal entity registration (Qingdao Vatrad Group Co., Ltd.), a physical 12,500 m² factory in Qingdao you can visit or audit, real engineers under NDA, downloadable QMS documents, serial-numbered test records and contractual signatures. Download the official verification guide and review the 12 questions buyers ask before ordering.',
+        `Every claim on this site is documented: legal entity registration (${BRAND_COMPANY_NAME}), a physical 12,500 m² factory in Qingdao you can visit or audit, real engineers under NDA, downloadable QMS documents, serial-numbered test records and contractual signatures. Download the official verification guide and review the 12 questions buyers ask before ordering.`,
       trustPdfTitle: 'OEM Buyer Trust & Factory Assurance Guide (PDF)',
       trustPdfDesc:
         'Official B2B guide (Part II, DOC-ENG-2026-EN): entity registration, physical factory audit, real engineers, QMS documents, third-party inspection, contractual protection and governance signatures.',
@@ -534,8 +535,8 @@ export const en = {
       trustFaqTitle: 'The 12 questions buyers ask before ordering',
       trustFaqs: [
         {
-          q: 'Is SUPsfactory really a factory, or a trading company?',
-          a: 'SUPsfactory is the product development and SUP manufacturing division of Afarer, the manufacturing division of Qingdao Vatrad Group Co., Ltd. We operate the 12,500 m² plant in Qingdao ourselves — design, cutting, welding, assembly and testing all happen in one facility. There are no intermediaries: the people answering your questions are the people building your boards.',
+          q: `Is ${SITE_NAME} really a factory, or a trading company?`,
+          a: `${SITE_NAME} is the product development and SUP manufacturing division of ${BRAND_PARENT_BRAND}, the manufacturing division of ${BRAND_COMPANY_NAME}. We operate the 12,500 m² plant in Qingdao ourselves — design, cutting, welding, assembly and testing all happen in one facility. There are no intermediaries: the people answering your questions are the people building your boards.`,
         },
         {
           q: 'Who exactly will I deal with during my project?',
@@ -768,7 +769,7 @@ export const en = {
     ndaOptions: { yes: 'Yes — discuss an NDA first', no: 'No — share when requested' },
     statuses: { new: 'New', contacted: 'Contacted', quoted: 'Quoted', closed: 'Closed' },
   },
-  afarer: {
+  content: {
     ctaDefault: 'Contact us',
     straightAnswer: 'Straight answer',
     verifiedOn: 'Specifications last verified:',

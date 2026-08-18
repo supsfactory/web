@@ -1,10 +1,10 @@
-import { test, expect } from 'vitest'
+﻿import { test, expect } from 'vitest'
 import { readdirSync, readFileSync, existsSync, statSync } from 'node:fs'
 import { join, resolve } from 'node:path'
 import {
-  getAfarerPublicPaths,
+  getPublicPaths,
   getNewsPosts,
-  getAfarerProducts,
+  getContentProducts,
   getTechArticles,
   getCaseUses,
   getResearchTopics,
@@ -30,12 +30,12 @@ const rootRoutes = readdirSync(routesRoot)
 const LIVE = new Set([
   ...rootRoutes,
   ...PUBLIC_PATHS.map((p) => p.path),
-  ...getAfarerPublicPaths(),
+  ...getPublicPaths(),
   '/', '/about', '/contact', '/how-it-works', '/news', '/products', '/projects', '/knowledge',
   '/solutions', '/faq', '/partners', '/terms', '/privacy', '/search', '/evidence/case-studies',
   ...GUIDES.map((g) => `/guides/${g.slug}`),
   ...getNewsPosts().map((p) => `/news/${p.slug}`),
-  ...getAfarerProducts().map((p) => `/products/${p.slug}`),
+  ...getContentProducts().map((p) => `/products/${p.slug}`),
   ...getTechArticles().map((a) => `/technology/${a.slug}`),
   ...getCaseUses().map((c) => `/evidence/case-studies/${c.slug}`),
   ...getResearchTopics().map((t) => `/research/${t.slug}`),

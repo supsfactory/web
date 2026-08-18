@@ -7,6 +7,7 @@ import { useTranslation } from '@/features/i18n/provider'
 import { searchIndexServer, type SearchEntry, type SearchEntryType } from '@/features/site/search'
 import { PageHero } from '@/components/marketing/section-head'
 import { MarketingShell } from '@/components/marketing/shell'
+import { SITE_NAME } from '@/config'
 
 interface SearchParams {
   q?: string
@@ -26,7 +27,7 @@ export const Route = createFileRoute('/{-$locale}/search')({
       origin,
       locale,
       path: '/search',
-      title: locale === 'es' ? 'Buscar | SUPsfactory' : 'Search | SUPsfactory',
+      title: locale === 'es' ? `Buscar | ${SITE_NAME}` : `Search | ${SITE_NAME}`,
       description:
         locale === 'es'
           ? 'Resultados de búsqueda en el sitio: soluciones, guías, proyectos y páginas de fabricación de SUP inflable.'

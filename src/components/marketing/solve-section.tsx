@@ -1,5 +1,6 @@
-import { Lightbulb, Layers, ShieldCheck, FlaskConical } from 'lucide-react'
-import { useTranslation } from '@/features/i18n/provider'
+﻿import { Lightbulb, Layers, ShieldCheck, FlaskConical } from 'lucide-react'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { pick, solve } from '@/features/site/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
@@ -10,7 +11,7 @@ const ICONS = [Lightbulb, Layers, ShieldCheck, FlaskConical]
 export function SolveSection() {
   const { locale } = useTranslation()
   const c = pick(solve, locale)
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
 
   return (
     <section className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">

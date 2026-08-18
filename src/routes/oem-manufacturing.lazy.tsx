@@ -1,10 +1,10 @@
-import { createLazyFileRoute } from '@tanstack/react-router'
-import { AfarerCatchAll } from '@/features/content/catchall'
+﻿import { createLazyFileRoute } from '@tanstack/react-router'
+import { ContentCatchAll } from '@/features/content/catchall'
 
 export const Route = createLazyFileRoute('/oem-manufacturing')({ component: Page })
 
 function Page() {
   const data = Route.useLoaderData()
   if (!data) return null
-  return <AfarerCatchAll data={data} />
+  return <ContentCatchAll data={data} />
 }

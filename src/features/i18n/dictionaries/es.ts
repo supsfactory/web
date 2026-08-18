@@ -1,4 +1,5 @@
-import { SITE_NAME } from '@/config/site'
+import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
+import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT } from '@/config/branding'
 
 export const es = {
   common: {
@@ -31,30 +32,30 @@ export const es = {
     verify: { subject: 'Verifica tu correo electrónico', heading: 'Confirma tu correo electrónico', body: 'Haz clic en el botón para verificar tu dirección de correo.', button: 'Verificar correo' },
     reset: { subject: 'Restablece tu contraseña', heading: 'Restablece tu contraseña', body: 'Haz clic en el botón para elegir una nueva contraseña.', button: 'Restablecer contraseña' },
     catalog: {
-      subject: 'Hemos recibido tu solicitud de catálogo — SUPsfactory',
+      subject: `Hemos recibido tu solicitud de catálogo — ${SITE_NAME}`,
       heading: 'Solicitud de catálogo recibida',
       body: 'Nuestro equipo comercial enviará el catálogo completo y la ficha de MOQ a esta bandeja en un día laborable. Mientras tanto, puedes consultar las especificaciones de cada plataforma en la página de productos.',
       button: 'Ver plataformas de productos',
     },
     ack: {
-      subject: 'Hemos recibido tu consulta de proyecto — SUPsfactory',
+      subject: `Hemos recibido tu consulta de proyecto — ${SITE_NAME}`,
       heading: 'Consulta recibida',
       body: 'Gracias por tu consulta. Nuestro equipo comercial responderá a esta bandeja en un día laborable con el MOQ, los tiempos de muestra y los plazos para tu mercado. Si compartiste un logo, incluiremos una prueba visual junto con el presupuesto.',
     },
     ackA: {
-      subject: 'Tu brief de proyecto OEM está en revisión — SUPsfactory',
+      subject: `Tu brief de proyecto OEM está en revisión — ${SITE_NAME}`,
       heading: 'Hemos recibido tu brief de proyecto OEM',
       body: 'Tu envío incluye la información necesaria para una revisión inicial de viabilidad. Un especialista de proyecto revisará tus requisitos y te contactará en 1 día laborable. Un presupuesto formal suele prepararse en 2 días laborables tras confirmar las especificaciones del producto, el alcance de personalización, los requisitos de embalaje y los detalles comerciales.',
     },
     ackB: {
-      subject: 'Hemos recibido tu proyecto — SUPsfactory',
+      subject: `Hemos recibido tu proyecto — ${SITE_NAME}`,
       heading: 'Tu proyecto está en planificación inicial',
       body: 'Para ofrecerte una orientación útil de MOQ y presupuesto, prepara tu tamaño objetivo, rango de cantidad, mercado de venta, preferencia de embalaje y fecha de lanzamiento. Un especialista en ingeniería te contactará en 1 día laborable para guiar el desarrollo de tu especificación.',
     },
     ackC: {
-      subject: 'SUPsfactory — guía de muestras y MOQ',
+      subject: `${SITE_NAME} — guía de muestras y MOQ`,
       heading: '¿Buscas una pequeña cantidad o una muestra?',
-      body: 'El precio OEM y las condiciones de producción dependen del alcance y la cantidad del proyecto. Revisa nuestra guía de muestras y MOQ en supsfactory.com y envía un brief de proyecto cuando tengas tu cantidad esperada, mercado y requisitos de personalización.',
+        body: `El precio OEM y las condiciones de producción dependen del alcance y la cantidad del proyecto. Revisa nuestra guía de muestras y MOQ en ${SITE_DOMAIN} y envía un brief de proyecto cuando tengas tu cantidad esperada, mercado y requisitos de personalización.`,
     },
   },
   app: {
@@ -66,7 +67,7 @@ export const es = {
     collapseSidebar: 'Contraer barra lateral', expandSidebar: 'Expandir barra lateral',
     navAccount: 'Cuenta',
     userMenuLabel: 'Menú de usuario',
-    welcomeSub: 'Este es tu espacio de trabajo de SUPsfactory.',
+    welcomeSub: `Este es tu espacio de trabajo de ${SITE_NAME}.`,
     quickActions: 'Acciones rápidas',
     openAccount: 'Ajustes de la cuenta',
     openAccountSub: 'Perfil, contraseña, zona de peligro',
@@ -91,7 +92,7 @@ export const es = {
     termsSections: [
       {
         heading: 'Quiénes somos',
-        body: 'SUPsfactory es la división OEM/ODM especializada en SUP de Qingdao Vatrad Group Co., Ltd., una planta de fabricación inflable de 12.500 m² en Qingdao, China (Zona de Desarrollo Económico, Laixi, Qingdao, China 266600). Estos Términos rigen tu uso de supsfactory.com y de cualquier presupuesto, muestra o acuerdo de producción con nosotros. Al usar el sitio o enviar una consulta, aceptas estos Términos.',
+        body: `${SITE_NAME} es la división OEM/ODM especializada en SUP de ${BRAND_COMPANY_NAME}, una planta de fabricación inflable de 12.500 m² en Qingdao, China (Zona de Desarrollo Económico, Laixi, Qingdao, China 266600). Estos Términos rigen tu uso de ${SITE_DOMAIN} y de cualquier presupuesto, muestra o acuerdo de producción con nosotros. Al usar el sitio o enviar una consulta, aceptas estos Términos.`,
       },
       {
         heading: 'Presupuestos y pedidos',
@@ -127,13 +128,13 @@ export const es = {
       },
       {
         heading: 'Legislación aplicable',
-        body: 'Estos Términos y cualquier acuerdo entre tú y Qingdao Vatrad Group Co., Ltd. se rigen por las leyes de la República Popular China. Las disputas que no puedan resolverse amistosamente se someten a los tribunales de la ubicación de nuestra entidad registrada en China.',
+        body: `Estos Términos y cualquier acuerdo entre tú y ${BRAND_COMPANY_NAME} se rigen por las leyes de la República Popular China. Las disputas que no puedan resolverse amistosamente se someten a los tribunales de la ubicación de nuestra entidad registrada en China.`,
       },
     ],
     privacySections: [
       {
         heading: 'Responsable del tratamiento',
-        body: 'Qingdao Vatrad Group Co., Ltd. (Zona de Desarrollo Económico, Laixi, Qingdao, China 266600) es el responsable del tratamiento de los datos personales recogidos a través de supsfactory.com. Puedes contactarnos en info@supsfactory.com o en el +86 13305324192.',
+        body: `${BRAND_COMPANY_NAME} (Zona de Desarrollo Económico, Laixi, Qingdao, China 266600) es el responsable del tratamiento de los datos personales recogidos a través de ${SITE_DOMAIN}. Puedes contactarnos en ${BRAND_CONTACT.email} o en el +86 13305324192.`,
       },
       {
         heading: 'Datos que recogemos',
@@ -157,11 +158,11 @@ export const es = {
       },
       {
         heading: 'Tus derechos',
-        body: 'Cuando la ley aplicable te otorga derechos (incluidos GDPR y CCPA), puedes solicitar el acceso, la corrección o la eliminación de tus datos personales, oponerte al tratamiento, retirar el consentimiento y solicitar la portabilidad de los datos. Escribe a info@supsfactory.com — respondemos en un plazo de 30 días y verificaremos tu identidad antes de actuar sobre tu solicitud.',
+        body: `Cuando la ley aplicable te otorga derechos (incluidos GDPR y CCPA), puedes solicitar el acceso, la corrección o la eliminación de tus datos personales, oponerte al tratamiento, retirar el consentimiento y solicitar la portabilidad de los datos. Escribe a ${BRAND_CONTACT.email} — respondemos en un plazo de 30 días y verificaremos tu identidad antes de actuar sobre tu solicitud.`,
       },
       {
         heading: 'Seguridad y cookies',
-        body: 'Los datos enviados a nuestro sitio están protegidos por HTTPS. Usamos cookies estrictamente necesarias para el funcionamiento del sitio y, con tu consentimiento, cookies de analítica para entender el uso. Puedes gestionar las preferencias de cookies en tu navegador. Para preguntas sobre esta política, contacta con info@supsfactory.com.',
+        body: `Los datos enviados a nuestro sitio están protegidos por HTTPS. Usamos cookies estrictamente necesarias para el funcionamiento del sitio y, con tu consentimiento, cookies de analítica para entender el uso. Puedes gestionar las preferencias de cookies en tu navegador. Para preguntas sobre esta política, contacta con ${BRAND_CONTACT.email}.`,
       },
       {
         heading: 'Cambios en esta política',
@@ -180,7 +181,7 @@ export const es = {
     checkEmailReset: 'Si ese correo existe, se ha enviado un enlace de restablecimiento.',
     deleteAccount: 'Eliminar cuenta', deleteConfirm: 'Esto elimina permanentemente tu cuenta y tus datos. ¿Continuar?',
     changePassword: 'Cambiar contraseña',
-    loginTitle: 'Bienvenido de nuevo', loginSub: 'Inicia sesión en tu espacio de trabajo de SUPsfactory.',
+    loginTitle: 'Bienvenido de nuevo',     loginSub: `Inicia sesión en tu espacio de trabajo de ${SITE_NAME}.`,
     registerTitle: 'Crea tu cuenta', registerSub: 'Empieza en minutos — sin tarjeta de crédito.',
     orContinue: 'o continúa con',
     forgotTitle: 'Restablece tu contraseña', forgotSub: 'Introduce tu correo y te enviaremos un enlace.',
@@ -201,7 +202,7 @@ export const es = {
   admin: {
     title: 'Administración', dashboard: 'Resumen', users: 'Usuarios',
     navAdmin: 'Administración',
-    overviewSub: 'Registros y actividad en SUPsfactory.',
+    overviewSub: `Registros y actividad en ${SITE_NAME}.`,
     usersSub: 'Busca, revisa y gestiona cada cuenta.',
     totalUsers: 'Usuarios', activeUsers: 'Usuarios activos',
     active: 'Activo',
@@ -251,8 +252,8 @@ export const es = {
       customizer: 'Diseña tu SUP',
       login: 'Iniciar sesión',
       app: 'App',
-      poweredBy: 'Con la fabricación de Afarer',
-      process: 'Proceso', projects: 'Proyectos', aboutAfarer: 'Sobre SUPsfactory', guides: 'Centro de conocimiento',
+      poweredBy: `Con la fabricación de ${BRAND_PARENT_BRAND}`,
+      process: 'Proceso', projects: 'Proyectos',       aboutAfarer: `Sobre ${SITE_NAME}`, guides: 'Centro de conocimiento',
       solutions: 'Soluciones', company: 'Empresa',
       productsDropdown: {
         all: 'Todos los productos',
@@ -313,11 +314,11 @@ export const es = {
       knowledge: 'Centro de conocimiento', company: 'Empresa',
     },
     footer: {
-      tagline: 'SUPsfactory es un fabricante de tablas de paddle surf a medida especializado en fabricación OEM y ODM de SUP hinchables. Ayudamos a marcas de SUP, distribuidores y empresas de actividades al aire libre a desarrollar tablas personalizadas, desde el diseño del prototipo hasta la producción en serie.',
+      tagline: `${SITE_NAME} es un fabricante de tablas de paddle surf a medida especializado en fabricación OEM y ODM de SUP hinchables. Ayudamos a marcas de SUP, distribuidores y empresas de actividades al aire libre a desarrollar tablas personalizadas, desde el diseño del prototipo hasta la producción en serie.`,
       colSolutions: 'Soluciones', colServe: 'A quién servimos', colCompany: 'Empresa', colLegal: 'Legal',
       colResources: 'Recursos', colManufacturing: 'Fabricación y calidad',
       factoryCapacity: 'Capacidad de fábrica',
-      poweredBy: 'SUPsfactory es la división de fabricación de SUP a medida de Afarer — tu socio en desarrollo de producto, control de calidad y entrega de exportación.', inquiryForm: 'Formulario de consulta',
+      poweredBy: `${SITE_NAME} es la división de fabricación de SUP a medida de ${BRAND_PARENT_BRAND} — tu socio en desarrollo de producto, control de calidad y entrega de exportación.`, inquiryForm: 'Formulario de consulta',
       customSup: 'Fabricación de SUP personalizados', productDevelopment: 'Desarrollo de producto SUP', resortSolutions: 'Soluciones para resorts y clubes',
       organizationProjects: 'Proyectos de organizaciones', faq: 'Preguntas frecuentes', process: 'Proceso',
       clubSup: 'Tablas para equipos de clubes', schoolSup: 'Programas escolares',
@@ -335,7 +336,7 @@ export const es = {
       marketsAustralia: 'OEM de SUP — Australia',
       terms: 'Términos', privacy: 'Privacidad',
       rights: 'Socio de desarrollo y fabricación de productos SUP personalizados.',
-      owner: 'Afarer — división de fabricación de SUP de Qingdao Vatrad Group Co., Ltd.',
+      owner: `${BRAND_PARENT_BRAND} — división de fabricación de SUP de ${BRAND_COMPANY_NAME}.`,
       compliance: 'Todos los materiales cumplen con las normas de gestión de calidad CE, REACH e ISO 9001. 100% de exportación directa de fábrica desde nuestra planta en Qingdao, China.',
       followUs: 'Síguenos', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },
@@ -344,7 +345,7 @@ export const es = {
     contactQuote: 'Solicitar presupuesto',
     aiChat: {
       open: 'Asistente IA',
-      title: 'Asistente SUPsfactory',
+      title: `Asistente ${SITE_NAME}`,
       subtitle: 'Pregunta por productos, MOQ, plazos y fabricación.',
       placeholder: 'Pregunta por la fabricación de SUP a medida…',
       send: 'Enviar',
@@ -470,13 +471,13 @@ export const es = {
     },
     entity: {
       kicker: 'Entidad de la empresa',
-      title: 'SUPsfactory — el fabricante OEM/ODM de SUP hinchables detrás de tu marca',
+      title: `${SITE_NAME} — el fabricante OEM/ODM de SUP hinchables detrás de tu marca`,
       intro1:
-        'SUPsfactory es la división de desarrollo de producto y fabricación de SUP de Afarer (Qingdao Vatrad Group Co., Ltd.). Fabricamos tablas SUP según tu especificación: ingeniería, moldes, muestras, producción y exportación. Tú tienes la marca, el mercado y el cliente; nosotros tenemos la fabricación.',
+        `${SITE_NAME} es la división de desarrollo de producto y fabricación de SUP de ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}). Fabricamos tablas SUP según tu especificación: ingeniería, moldes, muestras, producción y exportación. Tú tienes la marca, el mercado y el cliente; nosotros tenemos la fabricación.`,
       intro2:
         'Nuestra planta de 12.500 m² en Qingdao, China, cubre cada etapa en casa: diseño, ingeniería de moldes, construcción drop-stitch, soldadura RF, impresión, montaje y ensayos de calidad. No vendemos a consumidores finales y no competimos con nuestros clientes en ningún mercado.',
       intro3:
-        'Una fábrica, tres nombres. Qingdao Vatrad Group Co., Ltd. es la entidad legal; Afarer es su división de fabricación y opera las líneas de productos inflables de todas las categorías en afarer.com; SUPsfactory es la división OEM/ODM centrada en SUP que estás leyendo ahora. Seas cual sea el nombre que use tu equipo de compras, llegas a la misma planta de Qingdao.',
+        `Una fábrica, tres nombres. ${BRAND_COMPANY_NAME} es la entidad legal; ${BRAND_PARENT_BRAND} es su división de fabricación y opera las líneas de productos inflables de todas las categorías en afarer.com; ${SITE_NAME} es la división OEM/ODM centrada en SUP que estás leyendo ahora. Seas cual sea el nombre que use tu equipo de compras, llegas a la misma planta de Qingdao.`,
       factsTitle: 'Datos de la empresa',
       servicesTitle: 'Qué fabricamos',
       servicesBody: 'Cinco áreas de soluciones cubren la mayoría de los proyectos de fabricación SUP a medida:',
@@ -516,7 +517,7 @@ export const es = {
       ndaNote: 'Disponemos de soporte de NDA antes de compartir archivos confidenciales.',
       trustTitle: 'Confianza y Verificación de Fábrica',
       trustSubtitle:
-        'Cada afirmación de este sitio está documentada: registro de entidad legal (Qingdao Vatrad Group Co., Ltd.), una fábrica física de 12.500 m² en Qingdao que puedes visitar o auditar, ingenieros reales bajo NDA, documentos QMS descargables, registros de ensayo por número de serie y firmas contractuales. Descarga la guía oficial de verificación y revisa las 12 preguntas que hacen los compradores antes de pedir.',
+        `Cada afirmación de este sitio está documentada: registro de entidad legal (${BRAND_COMPANY_NAME}), una fábrica física de 12.500 m² en Qingdao que puedes visitar o auditar, ingenieros reales bajo NDA, documentos QMS descargables, registros de ensayo por número de serie y firmas contractuales. Descarga la guía oficial de verificación y revisa las 12 preguntas que hacen los compradores antes de pedir.`,
       trustPdfTitle: 'Guía de Confianza y Garantía de Fábrica para Compradores OEM (PDF)',
       trustPdfDesc:
         'Guía B2B oficial (Parte II, DOC-ENG-2026-EN): registro de la entidad, auditoría física de fábrica, ingenieros reales, documentos QMS, inspección de terceros, protección contractual y firmas de gobernanza.',
@@ -524,8 +525,8 @@ export const es = {
       trustFaqTitle: 'Las 12 preguntas que hacen los compradores antes de pedir',
       trustFaqs: [
         {
-          q: '¿SUPsfactory es realmente una fábrica o una empresa comercial?',
-          a: 'SUPsfactory es la división de desarrollo de producto y fabricación de SUP de Afarer, la división de fabricación de Qingdao Vatrad Group Co., Ltd. Operamos nosotros mismos la planta de 12.500 m² en Qingdao — diseño, corte, soldadura, montaje y ensayos ocurren en una sola instalación. No hay intermediarios: las personas que responden tus preguntas son las que construyen tus tablas.',
+          q: `¿${SITE_NAME} es realmente una fábrica o una empresa comercial?`,
+          a: `${SITE_NAME} es la división de desarrollo de producto y fabricación de SUP de ${BRAND_PARENT_BRAND}, la división de fabricación de ${BRAND_COMPANY_NAME}. Operamos nosotros mismos la planta de 12.500 m² en Qingdao — diseño, corte, soldadura, montaje y ensayos ocurren en una sola instalación. No hay intermediarios: las personas que responden tus preguntas son las que construyen tus tablas.`,
         },
         {
           q: '¿Con quién exactamente trataré durante mi proyecto?',
@@ -758,7 +759,7 @@ export const es = {
     ndaOptions: { yes: 'Sí — analizar un NDA primero', no: 'No — compartir cuando se solicite' },
     statuses: { new: 'Nuevo', contacted: 'Contactado', quoted: 'Con presupuesto', closed: 'Cerrado' },
   },
-  afarer: {
+  content: {
     ctaDefault: 'Contáctanos',
     straightAnswer: 'Respuesta directa',
     verifiedOn: 'Especificaciones verificadas por última vez:',

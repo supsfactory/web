@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Cloudflare Worker entry (wrangler `main`). Wraps the framework's default
  * server entry so every deployed response goes through cross-cutting steps:
  *   1. validate required env once per isolate (fail fast on misconfig),
@@ -102,8 +102,8 @@ const handler = {
 async function warmEdgeCache(env: Cloudflare.Env, ctx: ExecutionContext): Promise<void> {
   const paths = ['/', '/es']
   try {
-    const { getAfarerPublicPaths } = await import('@/features/content/loader')
-    paths.push(...getAfarerPublicPaths().filter((p) => p.startsWith('/products/')))
+    const { getPublicPaths } = await import('@/features/content/loader')
+    paths.push(...getPublicPaths().filter((p) => p.startsWith('/products/')))
   } catch (err) {
     console.log('[cron] warm fallback list', err instanceof Error ? err.message : String(err))
   }

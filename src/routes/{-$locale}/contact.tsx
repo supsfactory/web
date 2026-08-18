@@ -13,6 +13,7 @@ import { pick, products } from '@/features/site/content'
 import { dictionaries } from '@/features/i18n/locale'
 import { JsonLd, contactPageLd, faqLd } from '@/features/seo/jsonld'
 import { Footer } from '@/components/marketing/footer'
+import { SITE_NAME, BRAND_CONTACT, BRAND_ASSETS_CDN, SITE_URL } from '@/config'
 
 const rootRoute = getRouteApi('__root__')
 
@@ -32,7 +33,7 @@ export const Route = createFileRoute('/{-$locale}/contact')({
       origin,
       locale,
       path: '/contact',
-      title: locale === 'es' ? 'Contacto | Inicia tu proyecto SUP a medida | SUPsfactory' : 'Contact | Start Your Custom SUP Project — SUPsfactory',
+      title: locale === 'es' ? `Contacto | Inicia tu proyecto SUP a medida | ${SITE_NAME}` : `Contact | Start Your Custom SUP Project \u2014 ${SITE_NAME}`,
       description:
         locale === 'es'
           ? 'Comienza tu proyecto de tablas SUP a medida: desarrollamos y fabricamos tablas hinchables bajo tu marca, desde lotes piloto de 20–50 unidades hasta producción a gran escala.'
@@ -78,17 +79,17 @@ function ContactPage() {
           <p className="mt-2 text-[14.5px] leading-relaxed text-fg-2">{t('sup.contact.infoBody')}</p>
           <div className="mt-7 flex flex-col gap-4">
             <a
-              href="mailto:info@supsfactory.com"
+              href={`mailto:${BRAND_CONTACT.email}`}
               className="marine-card flex items-center gap-4 p-5 transition-colors hover:border-primary/40"
             >
               <span className="icon-tile"><Mail size={19} /></span>
               <div>
                 <p className="text-[12px] font-bold uppercase tracking-wide text-fg-3">{t('sup.contact.emailLabel')}</p>
-                <p className="mt-0.5 text-[15px] font-semibold">info@supsfactory.com</p>
+                <p className="mt-0.5 text-[15px] font-semibold">{BRAND_CONTACT.email}</p>
               </div>
             </a>
             <a
-              href="https://wa.me/8613305324192"
+              href={BRAND_CONTACT.whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
               className="marine-card flex items-center gap-4 p-5 transition-colors hover:border-primary/40"
@@ -96,7 +97,7 @@ function ContactPage() {
               <span className="icon-tile"><MessageCircle size={19} /></span>
               <div>
                 <p className="text-[12px] font-bold uppercase tracking-wide text-fg-3">{t('sup.contact.whatsappLabel')}</p>
-                <p className="mt-0.5 text-[15px] font-semibold">+86 13305324192</p>
+                <p className="mt-0.5 text-[15px] font-semibold">{BRAND_CONTACT.whatsapp}</p>
               </div>
             </a>
           </div>
@@ -143,7 +144,7 @@ function ContactPage() {
             <p className="mt-3 text-[14.5px] leading-relaxed text-fg-2">{t('sup.contact.trustSubtitle')}</p>
             <div className="mt-7">
               <a
-                href="https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf"
+                href={`${BRAND_ASSETS_CDN}/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="marine-card flex items-center gap-4 p-5 transition-colors hover:border-primary/40"
@@ -174,7 +175,7 @@ function ContactPage() {
         </div>
       </section>
 
-      <JsonLd data={contactPageLd('https://supsfactory.com', locale === 'es' ? '/es/contact' : '/contact')} />
+      <JsonLd data={contactPageLd(SITE_URL, locale === 'es' ? '/es/contact' : '/contact')} />
       <JsonLd data={faqLd([...dictionaries[locale].sup.contact.trustFaqs], locale)} />
 
       <Footer theme={theme} />

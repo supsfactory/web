@@ -1,5 +1,5 @@
-/**
- * Server-only afarer catch-all resolver.
+﻿/**
+ * Server-only content catch-all resolver.
  *
  * The `/$` route handler (catchall.tsx) imports this module dynamically from
  * inside the createServerFn handler, so the 900 KB+ YAML/MDX corpus and the
@@ -11,15 +11,15 @@
 import { OG_IMAGE } from '@/features/seo/seo'
 import { defaultLocale, type Locale } from '@/features/i18n/locale'
 import {
-  getAfarerPage,
-  getAfarerProduct,
+  getContentPage,
+  getContentProduct,
   getNewsPost,
   getTechArticle,
   getCaseUse,
   getSiteFaqs,
   hasSpanishVariant,
   getNewsPosts,
-  getAfarerProducts,
+  getContentProducts,
   getResearchTopics,
   getCaseUses,
   getRegionCount,
@@ -27,7 +27,7 @@ import {
 } from './loader'
 import { getGuide } from './guide-content'
 import type { CatchAllData } from './catchall'
-import type { AfarerPage } from './types'
+import type { ContentPage } from './types'
 import type {
   AferIndexCase,
   AferIndexData,
@@ -44,7 +44,7 @@ function relatedProducts(
   selfTags: string[],
   locale: Locale,
 ): { slug: string; title: string; image: string; }[] {
-  const all = getAfarerProducts(locale).filter((p) => p.slug !== slug)
+  const all = getContentProducts(locale).filter((p) => p.slug !== slug)
   const tags = new Set(selfTags)
   const scored = all
     .map((p) => ({ p, score: (p.tags ?? []).filter((t) => tags.has(t)).length }))
@@ -83,7 +83,7 @@ function indexNews(locale?: Locale): AferIndexNews[] {
 }
 
 function indexProducts(locale?: Locale): AferIndexProduct[] {
-  return getAfarerProducts(locale).map((p) => ({
+  return getContentProducts(locale).map((p) => ({
     slug: p.slug,
     title: p.title,
     image: p.image,
@@ -94,7 +94,7 @@ function indexProducts(locale?: Locale): AferIndexProduct[] {
 
 function indexTopics(locale?: Locale): AferIndexTopic[] {
   return getResearchTopics(locale)
-    .filter((t) => getAfarerPage(`/research/${t.slug}`))
+    .filter((t) => getContentPage(`/research/${t.slug}`))
     .map((t) => ({ slug: t.slug, category: t.category, readTime: t.readTime }))
 }
 
@@ -108,7 +108,7 @@ function indexCases(locale: Locale): AferIndexCase[] {
 }
 
 /** Which widget index payloads a page's sections need. */
-function indexNeeds(page?: AfarerPage): { news?: boolean; products?: boolean; topics?: boolean } {
+function indexNeeds(page?: ContentPage): { news?: boolean; products?: boolean; topics?: boolean } {
   if (!page) return {}
   const need: { news?: boolean; products?: boolean; topics?: boolean } = {}
   for (const def of page.sections) {
@@ -121,7 +121,7 @@ function indexNeeds(page?: AfarerPage): { news?: boolean; products?: boolean; to
   return need
 }
 
-function indexFor(page?: AfarerPage, locale?: Locale): AferIndexData {
+function indexFor(page?: ContentPage, locale?: Locale): AferIndexData {
   const need = indexNeeds(page)
   return {
     regionCount: getRegionCount(),
@@ -139,7 +139,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
     path === '/evidence/case-studies'
   const translated = locale === 'es' && hasEs
   const esTranslated = hasEs
-  const page = getAfarerPage(path, locale)
+  const page = getContentPage(path, locale)
   if (page) {
     return {
       kind: 'page',
@@ -156,7 +156,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
     }
   }
   if (path.startsWith('/products/')) {
-    const product = getAfarerProduct(slugOf(path), locale)
+    const product = getContentProduct(slugOf(path), locale)
     if (product) {
       return {
         kind: 'product',
@@ -279,7 +279,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
     }
   }
   if (path === '/faq') {
-    // afarer's footer links to /faq; the nav target exists as a site-level
+    // the footer links to /faq; the nav target exists as a site-level
     // faqs.yaml. Serve it as a real page (fixes the dead link + FAQPage schema).
     if (getSiteFaqs(locale).length > 0) {
       return {

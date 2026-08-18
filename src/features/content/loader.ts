@@ -3,13 +3,13 @@ import { assetUrl } from './assets'
 import { brandify as configBrandify } from './brand'
 import { defaultLocale, type Locale } from '@/features/i18n/locale'
 import type {
-  AfarerArticle,
-  AfarerCaseUse,
-  AfarerPage,
-  AfarerPost,
-  AfarerProduct,
-  AfarerResearchTopic,
-  AfarerSectionDef,
+  ContentArticle,
+  ContentCaseUse,
+  ContentPage,
+  ContentPost,
+  ContentProduct,
+  ContentResearchTopic,
+  ContentSectionDef,
 } from './types'
 
 /**
@@ -84,7 +84,7 @@ const REGISTRY = (parse(stripBom(REGISTRY_RAW)) as RegistryEntry[]) ?? []
 const PAGES_YAML = parseYamlMap(pageGlob)
 const PAGES_YAML_ES = parseYamlMap(esPageGlob, true)
 
-/** Global market regions afarer serves, sourced from the distributor coverage list. */
+/** Global market regions the product serves, sourced from the distributor coverage list. */
 const REGION_COUNT = (() => {
   const dist = (PAGES_YAML['solutions-distributors'] ?? {}) as { coverage?: { regions?: unknown[] } }
   const regions = dist.coverage?.regions
@@ -110,7 +110,7 @@ function inferSectionType(value: unknown, key: string): string {
   return 'content'
 }
 
-function deriveSections(content: Record<string, unknown>): AfarerSectionDef[] {
+function deriveSections(content: Record<string, unknown>): ContentSectionDef[] {
   const keys = Object.keys(content).filter((k) => !['meta', 'back_text', 'backText', 'home_label', 'homeLabel'].includes(k))
   // hero first, cta last, everything else in source order
   const ordered = [...keys].sort((a, b) => {
@@ -136,7 +136,7 @@ const SHADOWED_PATHS = new Set([
   '/about/supsfactory-entity',
 ])
 
-const REGISTERED_PAGES: AfarerPage[] = REGISTRY.flatMap((entry) => {
+const REGISTERED_PAGES: ContentPage[] = REGISTRY.flatMap((entry) => {
   const path = normalizePath(entry.permalink || entry.path || `/${entry.slug}`)
   if (SHADOWED_PATHS.has(path)) return []
   const content = (PAGES_YAML[entry.slug] ?? {}) as Record<string, unknown>
@@ -145,14 +145,14 @@ const REGISTERED_PAGES: AfarerPage[] = REGISTRY.flatMap((entry) => {
       slug: entry.slug,
       label: entry.label ?? entry.slug,
       path,
-      meta: content.meta as AfarerPage['meta'],
+      meta: content.meta as ContentPage['meta'],
       sections: entry.sections ?? deriveSections(content),
       content,
     },
   ]
 })
 
-/** Dedicated-route pages served by afarer outside the registry (path → yaml slug). */
+/** Dedicated-route pages served outside the registry (path → yaml slug). */
 const EXTRA_PATHS: Record<string, string> = {
   '/research/drop-stitch-technology': 'research-drop-stitch',
   '/research/pvc-vs-hypalon': 'research-pvc-vs-hypalon',
@@ -165,7 +165,7 @@ const EXTRA_PATHS: Record<string, string> = {
   '/randdcenter/pvc-fabric-lab': 'pvc-fabric-lab',
   '/randdcenter/quality-inspection-lab': 'quality-inspection-lab',
   '/randdcenter/rf-welding': 'rf-welding',
-  // ported afarer solution / OEM pages (path → yaml slug)
+  // ported solution / OEM pages (path → yaml slug)
   '/oem-odm': 'oem-manufacturing',
   '/oem-manufacturing': 'oem-manufacturing',
   '/odm-development': 'odm-development',
@@ -181,13 +181,13 @@ const EXTRA_PATHS: Record<string, string> = {
   '/b2b-solutions-matrix': 'b2b-solutions-matrix',
 }
 
-const EXTRA_PAGES: AfarerPage[] = Object.entries(EXTRA_PATHS).map(([path, slug]) => {
+const EXTRA_PAGES: ContentPage[] = Object.entries(EXTRA_PATHS).map(([path, slug]) => {
   const content = (PAGES_YAML[slug] ?? {}) as Record<string, unknown>
   return {
     slug,
     label: slug,
     path: normalizePath(path),
-    meta: content.meta as AfarerPage['meta'],
+    meta: content.meta as ContentPage['meta'],
     sections: deriveSections(content),
     content,
   }
@@ -208,7 +208,7 @@ function parseMdxFiles<T>(glob: Record<string, string>): Record<string, T> {
   return out
 }
 
-function postFrom(slug: string, d: Record<string, unknown>, en?: AfarerPost, body = mdxBodyOf(newsGlob, slug)): AfarerPost {
+function postFrom(slug: string, d: Record<string, unknown>, en?: ContentPost, body = mdxBodyOf(newsGlob, slug)): ContentPost {
   const rec = d as Record<string, unknown>
   return {
     slug,
@@ -219,7 +219,7 @@ function postFrom(slug: string, d: Record<string, unknown>, en?: AfarerPost, bod
     category: rec.category ? String(rec.category) : en?.category,
     author: rec.author ? String(rec.author) : en?.author,
     tags: Array.isArray(rec.tags) ? rec.tags.map(String) : (en?.tags ?? []),
-    metadata: (rec.metadata as AfarerPost['metadata']) ?? en?.metadata,
+    metadata: (rec.metadata as ContentPost['metadata']) ?? en?.metadata,
     body,
   }
 }
@@ -234,7 +234,7 @@ function mdxBodyOf(glob: Record<string, string>, slug: string): string {
   return key ? parseFrontmatter(glob[key]).body : ''
 }
 
-function productOf(slug: string, d: Record<string, unknown>, body: string): AfarerProduct {
+function productOf(slug: string, d: Record<string, unknown>, body: string): ContentProduct {
   const rec = { ...(d as object) } as Record<string, unknown>
   if (typeof rec.image === 'string') rec.image = assetUrl(rec.image)
   if (Array.isArray(rec.gallery)) {
@@ -243,21 +243,21 @@ function productOf(slug: string, d: Record<string, unknown>, body: string): Afar
       url: typeof g.url === 'string' ? assetUrl(g.url) : g.url,
     }))
   }
-  return { slug, body, ...rec } as unknown as AfarerProduct
+  return { slug, body, ...rec } as unknown as ContentProduct
 }
 
-const PRODUCTS: AfarerProduct[] = Object.entries(PRODUCT_DATA)
+const PRODUCTS: ContentProduct[] = Object.entries(PRODUCT_DATA)
   .filter(([slug]) => !slug.endsWith('.es'))
   .map(([slug, d]) => productOf(slug, d as Record<string, unknown>, mdxBodyOf(productGlob, slug)))
   .sort((a, b) => a.title.localeCompare(b.title))
 
-const NEWS: AfarerPost[] = Object.entries(NEWS_DATA)
+const NEWS: ContentPost[] = Object.entries(NEWS_DATA)
   .filter(([slug]) => !slug.endsWith('.es'))
   .map(([slug, d]) => postFrom(slug, d as Record<string, unknown>))
   .sort((a, b) => (a.date < b.date ? 1 : -1))
 
 /** Spanish overlays keyed by the canonical (English) slug. */
-const NEWS_ES: Record<string, AfarerPost> = {}
+const NEWS_ES: Record<string, ContentPost> = {}
 for (const [slug, d] of Object.entries(NEWS_DATA)) {
   if (!slug.endsWith('.es')) continue
   const base = slug.replace(/\.es$/, '')
@@ -265,14 +265,14 @@ for (const [slug, d] of Object.entries(NEWS_DATA)) {
   if (en) NEWS_ES[base] = postFrom(base, d as Record<string, unknown>, en, mdxBodyOf(newsEsGlob, slug))
 }
 
-const PRODUCTS_ES: Record<string, AfarerProduct> = {}
+const PRODUCTS_ES: Record<string, ContentProduct> = {}
 for (const [slug, d] of Object.entries(PRODUCT_DATA)) {
   if (!slug.endsWith('.es')) continue
   const base = slug.replace(/\.es$/, '')
   if (PRODUCTS.some((p) => p.slug === base)) PRODUCTS_ES[base] = productOf(base, d as Record<string, unknown>, mdxBodyOf(productEsGlob, slug))
 }
 
-function articleOf(slug: string, d: Record<string, unknown>, body: string): AfarerArticle {
+function articleOf(slug: string, d: Record<string, unknown>, body: string): ContentArticle {
   const rec = d as Record<string, unknown>
   return {
     slug,
@@ -286,18 +286,18 @@ function articleOf(slug: string, d: Record<string, unknown>, body: string): Afar
   }
 }
 
-const TECH: AfarerArticle[] = Object.entries(TECH_DATA)
+const TECH: ContentArticle[] = Object.entries(TECH_DATA)
   .filter(([slug]) => !slug.endsWith('.es'))
   .map(([slug, d]) => articleOf(slug, d as Record<string, unknown>, mdxBodyOf(techGlob, slug)))
 
-const TECH_ES: Record<string, AfarerArticle> = {}
+const TECH_ES: Record<string, ContentArticle> = {}
 for (const [slug, d] of Object.entries(TECH_DATA)) {
   if (!slug.endsWith('.es')) continue
   const base = slug.replace(/\.es$/, '')
   if (TECH.some((t) => t.slug === base)) TECH_ES[base] = articleOf(base, d as Record<string, unknown>, mdxBodyOf(techEsGlob, slug))
 }
 
-function caseOf(slug: string, d: Record<string, unknown>, body: string): AfarerCaseUse {
+function caseOf(slug: string, d: Record<string, unknown>, body: string): ContentCaseUse {
   const rec = d as Record<string, unknown>
   return {
     slug,
@@ -313,11 +313,11 @@ function caseOf(slug: string, d: Record<string, unknown>, body: string): AfarerC
   }
 }
 
-const CASE_USES: AfarerCaseUse[] = Object.entries(CASE_DATA)
+const CASE_USES: ContentCaseUse[] = Object.entries(CASE_DATA)
   .filter(([slug]) => !slug.endsWith('.es'))
   .map(([slug, d]) => caseOf(slug, d as Record<string, unknown>, mdxBodyOf(caseGlob, slug)))
 
-const CASE_ES: Record<string, AfarerCaseUse> = {}
+const CASE_ES: Record<string, ContentCaseUse> = {}
 for (const [slug, d] of Object.entries(CASE_DATA)) {
   if (!slug.endsWith('.es')) continue
   const base = slug.replace(/\.es$/, '')
@@ -327,7 +327,7 @@ for (const [slug, d] of Object.entries(CASE_DATA)) {
 /* ───────────────────────── research topics ───────────────────────── */
 
 const RESEARCH_RAW = suffixMatch(siteGlob, 'research.yaml') ?? ''
-const RESEARCH_TOPICS = ((parse(stripBom(RESEARCH_RAW)) as { topics?: AfarerResearchTopic[] }).topics ?? []).map((t) => ({
+const RESEARCH_TOPICS = ((parse(stripBom(RESEARCH_RAW)) as { topics?: ContentResearchTopic[] }).topics ?? []).map((t) => ({
   ...t,
   slug: String(t.slug),
 }))
@@ -336,30 +336,30 @@ const RESEARCH_TOPICS = ((parse(stripBom(RESEARCH_RAW)) as { topics?: AfarerRese
 
 function geoJson(name: string): Record<string, unknown> | undefined {
   const raw = suffixMatch(geoGlob, `${name}.json`)
-  // afarer 源数据允许重复键(如 entity.json 里的 sameAs),yaml 默认严格报错 → 关闭唯一键检查
+  // source data allows duplicate keys (e.g., sameAs in entity.json), yaml strict mode rejects → disable unique-key check
   return raw ? (parse(stripBom(raw), { uniqueKeys: false }) as Record<string, unknown>) : undefined
 }
 
 /* ───────────────────────── public API ───────────────────────── */
 
-export function getAfarerPage(path: string, locale: Locale = defaultLocale): AfarerPage | undefined {
+export function getContentPage(path: string, locale: Locale = defaultLocale): ContentPage | undefined {
   const page = PAGE_BY_PATH.get(normalizePath(path))
   if (!page) return undefined
   if (locale !== 'es') return page
   const es = PAGES_YAML_ES[page.slug]
   if (!es) return page
   const esContent = es as Record<string, unknown>
-  return { ...page, content: esContent, meta: (esContent.meta as AfarerPage['meta']) ?? page.meta }
+  return { ...page, content: esContent, meta: (esContent.meta as ContentPage['meta']) ?? page.meta }
 }
 
 /** True when a Spanish variant exists for the page (or /faq) at `path`. */
-export function isAfarerPageTranslated(path: string, locale: Locale): boolean {
+export function isContentPageTranslated(path: string, locale: Locale): boolean {
   if (locale !== 'es') return false
   return hasSpanishVariant(path)
 }
 
 /**
- * True when a Spanish variant exists for any afarer content at `path` —
+ * True when a Spanish variant exists for any content at `path` —
  * registry pages, /faq, or the sidecar overlays (news, products, technology,
  * case-use). Guides live in guide-content.ts and are checked by the caller.
  */
@@ -377,7 +377,7 @@ export function hasSpanishVariant(path: string): boolean {
 }
 
 /** Live page paths that have a Spanish variant (for the /es sitemap). */
-export function getAfarerEsPaths(): string[] {
+export function getEsPaths(): string[] {
   const pages = ALL_PAGES.filter((p) => PAGES_YAML_ES[p.slug]).map((p) => p.path)
   if (suffixMatch(esSiteGlob, 'faqs.es.yaml')) pages.push('/faq')
   return pages
@@ -393,65 +393,65 @@ export function getEsContentPaths(): string[] {
   return paths
 }
 
-export function getAfarerPages(): AfarerPage[] {
+export function getContentPages(): ContentPage[] {
   return ALL_PAGES
 }
 
 /** Pages that are actually renderable (registry + extra), for sitemap/llms. */
-export function getAfarerPublicPaths(): string[] {
+export function getPublicPaths(): string[] {
   return ALL_PAGES.map((p) => p.path)
 }
 
-export function getAfarerProducts(locale?: string): AfarerProduct[] {
+export function getContentProducts(locale?: string): ContentProduct[] {
   return locale === 'es' ? PRODUCTS.map((p) => PRODUCTS_ES[p.slug] ?? p) : PRODUCTS
 }
 
-export function getAfarerProduct(slug: string, locale?: string): AfarerProduct | undefined {
+export function getContentProduct(slug: string, locale?: string): ContentProduct | undefined {
   const base = slug.endsWith('.es') ? slug.replace(/\.es$/, '') : slug
   const p = PRODUCTS.find((x) => x.slug === base)
   if (!p) return undefined
   return locale === 'es' ? (PRODUCTS_ES[base] ?? p) : p
 }
 
-export function getNewsPosts(locale?: string): AfarerPost[] {
+export function getNewsPosts(locale?: string): ContentPost[] {
   if (locale === 'es') return NEWS.map((p) => NEWS_ES[p.slug] ?? p)
   return NEWS
 }
 
-export function getNewsPost(slug: string, locale?: string): AfarerPost | undefined {
+export function getNewsPost(slug: string, locale?: string): ContentPost | undefined {
   const base = slug.endsWith('.es') ? slug.replace(/\.es$/, '') : slug
   const p = NEWS.find((x) => x.slug === base)
   if (!p) return undefined
   return locale === 'es' ? (NEWS_ES[base] ?? p) : p
 }
 
-export function getTechArticles(locale?: string): AfarerArticle[] {
+export function getTechArticles(locale?: string): ContentArticle[] {
   return locale === 'es' ? TECH.map((t) => TECH_ES[t.slug] ?? t) : TECH
 }
 
-export function getTechArticle(slug: string, locale?: string): AfarerArticle | undefined {
+export function getTechArticle(slug: string, locale?: string): ContentArticle | undefined {
   const base = slug.endsWith('.es') ? slug.replace(/\.es$/, '') : slug
   const t = TECH.find((x) => x.slug === base)
   if (!t) return undefined
   return locale === 'es' ? (TECH_ES[base] ?? t) : t
 }
 
-export function getCaseUses(locale?: string): AfarerCaseUse[] {
+export function getCaseUses(locale?: string): ContentCaseUse[] {
   return locale === 'es' ? CASE_USES.map((c) => CASE_ES[c.slug] ?? c) : CASE_USES
 }
 
-export function getCaseUse(slug: string, locale?: string): AfarerCaseUse | undefined {
+export function getCaseUse(slug: string, locale?: string): ContentCaseUse | undefined {
   const base = slug.endsWith('.es') ? slug.replace(/\.es$/, '') : slug
   const c = CASE_USES.find((x) => x.slug === base)
   if (!c) return undefined
   return locale === 'es' ? (CASE_ES[base] ?? c) : c
 }
 
-export function getResearchTopics(locale?: string): AfarerResearchTopic[] {
+export function getResearchTopics(locale?: string): ContentResearchTopic[] {
   if (locale === 'es') {
     const raw = suffixMatch(esSiteGlob, 'research.es.yaml')
     if (raw) {
-      const es = (parse(stripBom(raw)) as { topics?: AfarerResearchTopic[] }).topics ?? []
+      const es = (parse(stripBom(raw)) as { topics?: ContentResearchTopic[] }).topics ?? []
       if (es.length > 0) return es.map((t) => ({ ...t, slug: String(t.slug) }))
     }
   }
@@ -475,7 +475,7 @@ export function getGeoFacts(): {
   }
 }
 
-/** Site-wide FAQ Q&A (src/content/afarer/site/faqs.yaml), for the /faq page. */
+/** Site-wide FAQ Q&A (src/content/site/site/faqs.yaml), for the /faq page. */
 export function getSiteFaqs(locale: Locale = defaultLocale): { q: string; a: string }[] {
   const raw =
     locale === 'es' ? (suffixMatch(esSiteGlob, 'faqs.es.yaml') ?? '') : ''
@@ -489,7 +489,7 @@ export function brandify(text: string): string {
   return configBrandify(text)
 }
 
-/** Number of global market regions afarer serves (brand `{count}` value). */
+/** Number of global market regions served (brand `{count}` value). */
 export function getRegionCount(): number {
   return REGION_COUNT
 }

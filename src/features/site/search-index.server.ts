@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Server-only site search index builder.
  *
  * Statically imported by server routes (`/search-index.json`) and dynamically
@@ -15,11 +15,11 @@ import { projects } from './projects'
 import { seriesPages } from './series-pages'
 import {
   brandify,
-  getAfarerPage,
-  getAfarerPages,
-  isAfarerPageTranslated,
+  getContentPage,
+  getContentPages,
+  isContentPageTranslated,
   getSiteFaqs,
-  getAfarerProducts,
+  getContentProducts,
   getNewsPosts,
   getTechArticles,
   getCaseUses,
@@ -92,7 +92,7 @@ export function buildContentIndex(locale: Locale): SearchEntry[] {
 function contentEntries(locale: Locale): SearchEntry[] {
   const out: SearchEntry[] = []
   const url = (p: string) => localizePath(locale, p)
-  for (const p of getAfarerProducts(locale)) {
+  for (const p of getContentProducts(locale)) {
     out.push({ url: url(`/products/${p.slug}`), title: squeeze(p.title), excerpt: squeeze(p.summary ?? ''), content: squeeze(mdToText(brandify(p.body))), type: 'page', locale })
   }
   for (const n of getNewsPosts(locale)) {
@@ -114,7 +114,7 @@ function contentEntries(locale: Locale): SearchEntry[] {
 /** Afarer + site-FAQ entries for one locale (the `/search` server filter). */
 export function buildExtendedIndex(locale: Locale): SearchEntry[] {
   const entries: SearchEntry[] = [...buildContentIndex(locale), ...contentEntries(locale), ...buildHubEntries(locale)]
-  for (const p of getAfarerPages()) {
+  for (const p of getContentPages()) {
     if (p.path in EDGE_REDIRECTS) continue
     const seo = p.content.seo as { title?: string; description?: string } | undefined
     if (locale === 'en') {
@@ -127,8 +127,8 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
         locale: 'en',
       })
     }
-    if (locale === 'es' && isAfarerPageTranslated(p.path, 'es')) {
-      const es = getAfarerPage(p.path, 'es')!
+    if (locale === 'es' && isContentPageTranslated(p.path, 'es')) {
+      const es = getContentPage(p.path, 'es')!
       const esMeta = es.content.meta as { title?: string; description?: string } | undefined
       const esSeo = es.content.seo as { headline?: string; description?: string } | undefined
       const esTitle = (esMeta?.title ?? esSeo?.headline ?? '').replace(/[|–—-].*$/, '').trim() || humanize(p.label)
@@ -151,7 +151,7 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
       type: 'page',
       locale: 'en',
     })
-  } else if (isAfarerPageTranslated('/faq', 'es') && getSiteFaqs('es').length > 0) {
+  } else if (isContentPageTranslated('/faq', 'es') && getSiteFaqs('es').length > 0) {
     entries.push({
       url: '/es/faq',
       title: 'Preguntas frecuentes',

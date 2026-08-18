@@ -7,7 +7,7 @@ on:
         required: false
         default: '0'
 
-# Audits the deployed production site (https://supsfactory.com) with Lighthouse.
+# Audits the deployed production site with Lighthouse.
 # Failures do not block merges — run it after a deploy to catch regressions the
 # bundle-size gate can't (image weight, render-blocking chains, CLS, ...).
 jobs:
@@ -27,8 +27,10 @@ jobs:
         env:
           LIGHTHOUSE_CHROMIUM_PATH: ${{ steps.chrome.outputs.path }}
           MIN_PERF: ${{ inputs.min_performance }}
+          CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
         run: |
-          npx --yes lighthouse https://supsfactory.com \
+          DOMAIN="${CF_PROD_DOMAIN:-supsfactory.com}"
+          npx --yes lighthouse "https://$DOMAIN" \
             --only-categories=performance --output=json --output-path=./lh.json \
             --chrome-flags="--headless --no-sandbox --disable-dev-shm-usage"
           node -e '

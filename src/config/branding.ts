@@ -30,6 +30,7 @@ export const BRAND_SOCIAL = {
 } as const
 
 export const BRAND_CONTACT = {
+  email: `info@${SITE_DOMAIN}`,
   whatsapp: '+86 13305324192',
   whatsappLink: 'https://wa.me/8613305324192',
   address: 'Economic Development Zone, Laixi, Qingdao, China, 266600',

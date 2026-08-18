@@ -1,5 +1,6 @@
-import { ArrowRight } from 'lucide-react'
-import { useTranslation } from '@/features/i18n/provider'
+﻿import { ArrowRight } from 'lucide-react'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { pick, hero } from '@/features/site/content'
 import { HERO_IMAGE, HERO_IMAGE_480, HERO_IMAGE_768 } from '@/features/seo/seo'
 
@@ -7,7 +8,7 @@ import { HERO_IMAGE, HERO_IMAGE_480, HERO_IMAGE_768 } from '@/features/seo/seo'
 export function Hero() {
   const { locale } = useTranslation()
   const c = pick(hero, locale)
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
 
   return (
     <section className="ocean-grad relative flex min-h-[100svh] items-center overflow-hidden">

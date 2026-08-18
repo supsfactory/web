@@ -1,6 +1,6 @@
-import { test, expect } from 'vitest'
-import { getAfarerPages, getAfarerPage } from '@/features/content/loader'
-import { AfarerSections } from '@/features/content/render/sections'
+﻿import { test, expect } from 'vitest'
+import { getContentPages, getContentPage } from '@/features/content/loader'
+import { ContentSections } from '@/features/content/render/sections'
 import { I18nProvider } from '@/features/i18n/provider'
 import * as React from 'react'
 import { renderToString } from 'react-dom/server'
@@ -14,16 +14,16 @@ import { renderToString } from 'react-dom/server'
 
 test('every registry section with content renders non-empty markup', () => {
   const problems: string[] = []
-  for (const page of getAfarerPages()) {
+  for (const page of getContentPages()) {
     for (const def of page.sections) {
       const c = (page.content as Record<string, unknown>)[def.key]
       if (c == null || c === '') continue
       for (const locale of ['en', 'es'] as const) {
-        const es = getAfarerPage(page.path, locale)
+        const es = getContentPage(page.path, locale)
         if (!es) continue
         const single = { ...es, sections: [def] }
         const out = renderToString(
-          React.createElement(I18nProvider, { locale, children: React.createElement(AfarerSections, { page: single }) }),
+          React.createElement(I18nProvider, { locale, children: React.createElement(ContentSections, { page: single }) }),
         )
         if (out.trim().length === 0) {
           problems.push(`${page.path} → ${def.key} (type=${def.type}, ${locale}) renders empty`)
@@ -36,9 +36,9 @@ test('every registry section with content renders non-empty markup', () => {
 
 test('every es twin keeps every section that its en twin renders', () => {
   const problems: string[] = []
-  for (const page of getAfarerPages()) {
-    const en = getAfarerPage(page.path, 'en')
-    const es = getAfarerPage(page.path, 'es')
+  for (const page of getContentPages()) {
+    const en = getContentPage(page.path, 'en')
+    const es = getContentPage(page.path, 'es')
     if (!en || !es) continue
     for (const def of page.sections) {
       const enC = (en.content as Record<string, unknown>)[def.key]

@@ -1,5 +1,6 @@
-import { ArrowRight } from 'lucide-react'
-import { useTranslation } from '@/features/i18n/provider'
+﻿import { ArrowRight } from 'lucide-react'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { pick, platforms } from '@/features/site/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
@@ -8,7 +9,7 @@ import { Reveal } from './reveal'
 export function PlatformsSection() {
   const { locale } = useTranslation()
   const c = pick(platforms, locale)
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
 
   return (
     <section className="border-y border-border bg-bg-alt">

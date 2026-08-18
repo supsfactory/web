@@ -9,6 +9,7 @@ import { PageHero } from '@/components/marketing/section-head'
 import { GallerySection } from '@/components/marketing/gallery-section'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
+import { SITE_NAME } from '@/config'
 
 const rootRoute = getRouteApi('__root__')
 
@@ -21,11 +22,11 @@ export const Route = createFileRoute('/{-$locale}/gallery')({
       origin,
       locale,
       path: '/gallery',
-      title: locale === 'es' ? 'Galería de proyectos SUP | SUPsfactory' : 'Project Gallery | Custom SUP Projects — SUPsfactory',
+      title: locale === 'es' ? `Galería de proyectos SUP | ${SITE_NAME}` : `Project Gallery | Custom SUP Projects \u2014 ${SITE_NAME}`,
       description:
         locale === 'es'
-          ? 'Proyectos de fabricación de SUP de SUPsfactory para marcas, distribuidores, resorts y clubes: de los gráficos a las líneas de producción completas.'
-          : 'Custom SUP manufacturing projects built by SUPsfactory for brands, distributors, resorts and clubs — from board graphics to full production lines.',
+          ? `Proyectos de fabricación de SUP de ${SITE_NAME} para marcas, distribuidores, resorts y clubes: de los gráficos a las líneas de producción completas.`
+          : `Custom SUP manufacturing projects built by ${SITE_NAME} for brands, distributors, resorts and clubs \u2014 from board graphics to full production lines.`,
     })
     return { meta, links }
   },

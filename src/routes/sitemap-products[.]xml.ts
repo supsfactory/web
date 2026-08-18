@@ -1,7 +1,7 @@
-import { createFileRoute } from '@tanstack/react-router'
+﻿import { createFileRoute } from '@tanstack/react-router'
 import { env } from '@/lib/env'
 import { buildSitemap } from '@/features/seo/seo'
-import { getAfarerProducts, getTechArticles, getCaseUses, getEsContentPaths } from '@/features/content/loader'
+import { getContentProducts, getTechArticles, getCaseUses, getEsContentPaths } from '@/features/content/loader'
 
 // Product / technology / case-study detail pages. Entries with a real Spanish
 // sidecar ({slug}.es.*) emit the /es twin as an hreflang alternate.
@@ -9,7 +9,7 @@ const handler = () => {
   const origin = new URL(env.BETTER_AUTH_URL).origin
   const es = new Set(getEsContentPaths())
   const paths = [
-    ...getAfarerProducts().map((p) => ({ loc: `/products/${p.slug}`, lastmod: '2026-06-01', es: es.has(`/products/${p.slug}`) })),
+    ...getContentProducts().map((p) => ({ loc: `/products/${p.slug}`, lastmod: '2026-06-01', es: es.has(`/products/${p.slug}`) })),
     ...getTechArticles().map((p) => ({ loc: `/technology/${p.slug}`, lastmod: '2026-06-01', es: es.has(`/technology/${p.slug}`) })),
     ...getCaseUses().map((p) => ({ loc: `/evidence/case-studies/${p.slug}`, lastmod: '2026-06-01', es: es.has(`/evidence/case-studies/${p.slug}`) })),
   ]

@@ -1,10 +1,11 @@
-import { useState, type ReactNode, type ComponentType } from 'react'
+﻿import { useState, type ReactNode, type ComponentType } from 'react'
 import { getRouteApi } from '@tanstack/react-router'
 import { ChevronLeft, Eye, EyeOff } from 'lucide-react'
 import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
-import { useTranslation } from '@/features/i18n/provider'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { SITE_NAME } from '@/config/site'
@@ -24,7 +25,7 @@ export function AuthCard({
 }) {
   const { theme } = rootRoute.useLoaderData()
   const { locale } = useTranslation()
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
   return (
     <div className="auth-wrap grid-bg">
       <div className="flex h-16 items-center gap-3 border-b border-border px-4 md:px-7">

@@ -12,8 +12,15 @@ export function isLocale(value: unknown): value is Locale {
   return configIsLocale(value)
 }
 
-export function isEsPath(path: string): boolean {
-  return path === '/es' || path.startsWith('/es/')
+export function isLocalePrefixedPath(path: string): boolean {
+  const segment = path.split('/')[1]
+  return segment !== undefined && isLocale(segment)
+}
+
+export function getLocaleFromPath(path: string): Locale {
+  const segment = path.split('/')[1]
+  if (segment && isLocale(segment)) return segment as Locale
+  return defaultLocale
 }
 
 type Params = Record<string, string | number>

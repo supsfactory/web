@@ -1,10 +1,11 @@
-import { useEffect, useState, type ReactNode } from 'react'
+﻿import { useEffect, useState, type ReactNode } from 'react'
 import { getRouteApi } from '@tanstack/react-router'
 import { Home, Settings, Gauge, Users, Menu, ClipboardList, PanelLeftClose, PanelLeftOpen, MessageSquare, Inbox } from 'lucide-react'
 import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
-import { useTranslation } from '@/features/i18n/provider'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { UserMenu } from '@/components/app/user-menu'
 
 const rootRoute = getRouteApi('__root__')
@@ -40,7 +41,7 @@ export function AppShell({
 }) {
   const { theme } = rootRoute.useLoaderData()
   const { t, locale } = useTranslation()
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
   const [open, setOpen] = useState(false)
   const [collapsed, setCollapsed] = useState(false)
   useEffect(() => setCollapsed(localStorage.getItem(COLLAPSE_KEY) === '1'), [])

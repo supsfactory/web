@@ -8,13 +8,15 @@
  * 404 页已 noindex，标题仅供浏览器标签）。 */
 import { useEffect } from 'react'
 import { useLocation } from '@tanstack/react-router'
-import { isEsPath } from '@/features/i18n/locale'
+import { getLocaleFromPath } from '@/features/i18n/locale'
+import { SITE_NAME } from '@/config'
 
 export function NotFound() {
   const { pathname } = useLocation()
-  const es = isEsPath(pathname)
+  const locale = getLocaleFromPath(pathname)
+  const es = locale === 'es'
   useEffect(() => {
-    document.title = (es ? 'Página no encontrada' : 'Page not found') + ' — SUPsfactory'
+    document.title = (es ? 'Página no encontrada' : 'Page not found') + ` \u2014 ${SITE_NAME}`
   }, [es])
   return (
     <>

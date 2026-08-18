@@ -6,6 +6,7 @@ import { getOptionalUser } from '@/features/auth/middleware'
 import { selectChangelog, type ChangelogRaw } from '@/features/changelog/select'
 import { dictionaries } from '@/features/i18n/locale'
 import type { Locale } from '@/features/i18n/locale'
+import { SITE_NAME } from '@/config'
 
 const getEntries = createServerFn({ method: 'GET' })
   .validator((locale: string) => locale)
@@ -37,7 +38,7 @@ export const Route = createFileRoute('/{-$locale}/changelog')({
       origin,
       locale,
       path: '/changelog',
-      title: `${dict.changelog.title} — SUPsfactory`,
+      title: `${dict.changelog.title} \u2014 ${SITE_NAME}`,
       description: dict.changelog.subtitle,
     })
     return { meta, links }

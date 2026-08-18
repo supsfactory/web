@@ -14,6 +14,7 @@ import { ProductsSection } from '@/components/marketing/products-section'
 import { CatalogDownload } from '@/components/marketing/catalog-download'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
+import { SITE_NAME } from '@/config'
 
 const rootRoute = getRouteApi('__root__')
 
@@ -32,7 +33,7 @@ export const Route = createFileRoute('/{-$locale}/products/')({
       origin,
       locale,
       path: '/products',
-      title: locale === 'es' ? 'Productos SUP | 10 series personalizables — SUPsfactory' : 'SUP Products | 10 Customizable Series — SUPsfactory',
+      title: locale === 'es' ? `Productos SUP | 10 series personalizables \u2014 ${SITE_NAME}` : `SUP Products | 10 Customizable Series \u2014 ${SITE_NAME}`,
       description:
         locale === 'es'
           ? 'Diez series de SUP probadas, de clásicos polivalentes a ediciones de diseño, cada una como plataforma de fabricación personalizable para marcas, resorts y clubes.'

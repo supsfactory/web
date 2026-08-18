@@ -1,4 +1,5 @@
 import { dictionaries, type Locale } from '@/features/i18n/locale'
+import { SITE_NAME, BRAND_CONTACT } from '@/config'
 
 interface RenderInput {
   template: 'verify-email' | 'reset-password' | 'catalog-request' | 'inquiry-ack'
@@ -18,7 +19,7 @@ export async function renderEmail(input: RenderInput): Promise<{ subject: string
     const html = `<!doctype html><html><body style="font-family:sans-serif;background:#f6f6f6">
 <div style="max-width:480px;margin:24px auto;padding:24px;background:#fff;border-radius:8px">
 <h1 style="color:#0b2540">${esc(k.heading)}</h1><p>${esc(k.body)}</p>
-<p style="color:#888;font-size:12px">SUPsfactory · info@supsfactory.com · +86-13305324192</p></div></body></html>`
+<p style="color:#888;font-size:12px">${esc(SITE_NAME)} \u00b7 ${esc(BRAND_CONTACT.email)} \u00b7 ${esc(BRAND_CONTACT.whatsapp)}</p></div></body></html>`
     return { subject: k.subject, html, text: `${k.heading}\n\n${k.body}` }
   }
   const k =

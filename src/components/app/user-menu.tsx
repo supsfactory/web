@@ -1,8 +1,9 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { useRouter } from '@tanstack/react-router'
 import { ChevronsUpDown, LogOut, Settings } from 'lucide-react'
 import { signOut } from '@/features/auth/auth.client'
-import { useTranslation } from '@/features/i18n/provider'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { Popover, PopoverTrigger, PopoverContent } from '@/components/ui/popover'
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
 import type { ShellUser } from '@/components/app/app-shell'
@@ -24,7 +25,7 @@ export function UserMenu({ user, rail }: { user: ShellUser; rail: boolean }) {
   const router = useRouter()
   const [open, setOpen] = useState(false)
   const [busy, setBusy] = useState(false)
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
 
   const primary = user.name || user.email
 

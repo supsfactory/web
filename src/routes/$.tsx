@@ -4,11 +4,11 @@ import { isLocale, defaultLocale, localizePath, type Locale } from '@/features/i
 import { SITE_NAME } from '@/config/site'
 
 /**
- * Catch-all route for the ported afarer content site.
+ * Catch-all route for the content site.
  *
  * Serves every prefix-less and locale-prefixed URL (`/factory`, `/es/factory`,
  * `/news/...`) by stripping a leading valid locale segment and resolving the
- * rest against the afarer page registry. Pages with a Spanish variant
+ * rest against the content page registry. Pages with a Spanish variant
  * (`{slug}.es.yaml`) render translated content with a proper es head; pages
  * without one keep the English content and are noindexed as duplicates.
  * Unknown paths throw notFound().
@@ -28,14 +28,14 @@ export const Route = createFileRoute('/$')({
     const locale = (localized ? segments[0] : defaultLocale) as Locale
     const path = stripLocalePrefix(raw)
     // '/en/...' �?permanent redirect to the canonical no-prefix URL. The
-    // {-$locale} group enforces this only for its own template routes; afarer
+    // {-$locale} group enforces this only for its own template routes; content
     // pages / products / news land here, so the catch-all must apply the same
     // rule (otherwise /en/factory would 200-render a noindexed duplicate).
     if (localized && locale === defaultLocale) {
       throw redirect({ href: path, statusCode: 301 })
     }
-    const { afarerServerLoader } = await import('@/features/content/catchall')
-    return { ...(await afarerServerLoader({ data: { path, locale } })), localized }
+    const { contentServerLoader } = await import('@/features/content/catchall')
+    return { ...(await contentServerLoader({ data: { path, locale } })), localized }
   },
   head: ({ loaderData }) => {
     if (!loaderData) return {}
@@ -76,7 +76,7 @@ export const Route = createFileRoute('/$')({
       { name: 'twitter:image', content: absImage },
       { name: 'twitter:image:alt', content: `${SITE_NAME} �?${title.replace(/\s+\|.*$/, '')}` },
     ]
-    // /es/* afarer pages without a translation render the same English content
+    // /es/* content pages without a translation render the same English content
     // as their en twin (canonical �?en). Noindex the duplicate so only the en
     // page ranks.
     if (loaderData.localized) {

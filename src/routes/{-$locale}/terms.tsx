@@ -6,6 +6,7 @@ import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { dictionaries } from '@/features/i18n/locale'
 import { LegalPage } from '@/components/marketing/legal-page'
+import { SITE_NAME, BRAND_COMPANY_NAME } from '@/config'
 
 const rootRoute = getRouteApi('__root__')
 
@@ -18,11 +19,11 @@ export const Route = createFileRoute('/{-$locale}/terms')({
       origin,
       locale,
       path: '/terms',
-      title: locale === 'es' ? 'Términos del servicio — SUPsfactory' : 'Terms of Service — SUPsfactory',
+      title: locale === 'es' ? `Términos del servicio \u2014 ${SITE_NAME}` : `Terms of Service \u2014 ${SITE_NAME}`,
       description:
         locale === 'es'
-          ? 'Términos que rigen presupuestos, muestras y pedidos OEM/ODM con SUPsfactory (Qingdao Vatrad Group Co., Ltd.).'
-          : 'Terms governing quotations, samples and OEM/ODM orders with SUPsfactory (Qingdao Vatrad Group Co., Ltd.).',
+          ? `Términos que rigen presupuestos, muestras y pedidos OEM/ODM con ${SITE_NAME} (${BRAND_COMPANY_NAME}).`
+          : `Terms governing quotations, samples and OEM/ODM orders with ${SITE_NAME} (${BRAND_COMPANY_NAME}).`,
     })
     return { meta, links }
   },

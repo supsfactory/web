@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router'
+﻿import { createFileRoute } from '@tanstack/react-router'
 import { ArrowRight } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -7,7 +7,7 @@ import { useTranslation } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
 import { pick, solutions } from '@/features/site/content'
 import { solutionPages, solutionPath } from '@/features/site/solution-pages'
-import { getAfarerPage, brandify } from '@/features/content/loader'
+import { getContentPage, brandify } from '@/features/content/loader'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { SolutionsSection } from '@/components/marketing/solutions-section'
 import { CtaBand } from '@/components/marketing/cta'
@@ -42,7 +42,7 @@ function SolutionsIndex() {
   const pages = pick(solutionPages, locale)
   const programPages = PROGRAM_PATHS
     .map((path) => {
-      const page = getAfarerPage(path, locale)
+      const page = getContentPage(path, locale)
       if (!page) return null
       const meta = page.content.meta as { title?: string; description?: string } | undefined
       if (!meta?.title) return null

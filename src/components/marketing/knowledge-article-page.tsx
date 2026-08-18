@@ -1,7 +1,8 @@
-import { ArrowRight, BookOpen } from 'lucide-react'
+﻿import { ArrowRight, BookOpen } from 'lucide-react'
 import type { KnowledgeArticle } from '@/features/site/knowledge'
 import { knowledge } from '@/features/site/knowledge'
-import { useTranslation } from '@/features/i18n/provider'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { PageHero } from './section-head'
 import { JsonLd, articleLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from './shell'
@@ -12,7 +13,7 @@ import { MarketingShell } from './shell'
  */
 export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle }) {
   const { locale, t } = useTranslation()
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
   const articles = knowledge[locale]
   const index = articles.findIndex((a) => a.slug === article.slug)
   const next = index >= 0 && index < articles.length - 1 ? articles[index + 1] : undefined

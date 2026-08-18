@@ -9,6 +9,7 @@ import { PageHero } from '@/components/marketing/section-head'
 import { WhoWeServe } from '@/components/marketing/who-we-serve'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
+import { SITE_NAME } from '@/config'
 
 const rootRoute = getRouteApi('__root__')
 
@@ -21,11 +22,11 @@ export const Route = createFileRoute('/{-$locale}/who-we-serve')({
       origin,
       locale,
       path: '/who-we-serve',
-      title: locale === 'es' ? '¿A quién servimos? | Marcas y distribuidores | SUPsfactory' : 'Who We Serve | SUP Brands, Distributors & Sourcing Teams',
+      title: locale === 'es' ? `¿A quién servimos? | Marcas y distribuidores | ${SITE_NAME}` : `Who We Serve | SUP Brands, Distributors & Sourcing Teams`,
       description:
         locale === 'es'
-          ? 'SUPsfactory fabrica para marcas de SUP, distribuidores, minoristas y equipos de compra, además de resorts, clubes, escuelas y flotas.'
-          : 'SUPsfactory manufactures for SUP brands, distributors, retailers and sourcing teams — as well as resorts, clubs, schools and fleet operators.',
+          ? `${SITE_NAME} fabrica para marcas de SUP, distribuidores, minoristas y equipos de compra, además de resorts, clubes, escuelas y flotas.`
+          : `${SITE_NAME} manufactures for SUP brands, distributors, retailers and sourcing teams \u2014 as well as resorts, clubs, schools and fleet operators.`,
     })
     return { meta, links }
   },

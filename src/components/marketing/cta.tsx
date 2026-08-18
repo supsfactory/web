@@ -1,12 +1,13 @@
-import { ArrowRight } from 'lucide-react'
-import { useTranslation } from '@/features/i18n/provider'
+﻿import { ArrowRight } from 'lucide-react'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { pick, cta } from '@/features/site/content'
 
 /** Shared conversion band (ocean gradient, drifting waves + sunset CTA). */
 export function CtaBand({ productSlug }: { productSlug?: string }) {
   const { locale } = useTranslation()
   const c = pick(cta, locale)
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
 
   return (
     <section className="mx-auto max-w-6xl px-5 pb-20 md:px-7 md:pb-24">

@@ -11,6 +11,7 @@ import { HowItWorks } from '@/components/marketing/how-it-works'
 import { VideoShowcase } from '@/components/marketing/video-showcase'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
+import { BRAND_ASSETS_CDN } from '@/config'
 
 const rootRoute = getRouteApi('__root__')
 
@@ -44,8 +45,8 @@ function WorksPage() {
       <SiteNav theme={theme} loggedIn={!!user} />
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
       <VideoShowcase
-        video="https://assets.supsfactory.com/site/videos/2026/sup-manufacturing.mp4"
-        poster="https://assets.supsfactory.com/site/videos/2026/sup-manufacturing.jpg"
+        video={`${BRAND_ASSETS_CDN}/site/videos/2026/sup-manufacturing.mp4`}
+        poster={`${BRAND_ASSETS_CDN}/site/videos/2026/sup-manufacturing.jpg`}
         flip
         {...pick(videoShowcase, locale).process}
       />

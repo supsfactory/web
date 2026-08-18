@@ -1,5 +1,6 @@
-import { Facebook, Linkedin, Mail, MapPin, MessageCircle, Phone, Youtube } from 'lucide-react'
-import { useTranslation } from '@/features/i18n/provider'
+﻿import { Facebook, Linkedin, Mail, MapPin, MessageCircle, Phone, Youtube } from 'lucide-react'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { FACTS } from '@/features/site/facts'
 import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
@@ -11,7 +12,7 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
   const { t, locale } = useTranslation()
   const year = new Date().getFullYear()
   /** Localize a raw afarer path (served by the `/$` catch-all, es mirrors under /es). */
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
 
   return (
     <footer className="relative border-t border-border bg-bg-alt px-5 pb-12 pt-16 md:px-7">

@@ -1,7 +1,8 @@
-import { ArrowRight, Building2, CheckCircle2, ClipboardList, Globe2, Layers, Package, ShieldCheck, TrendingUp, Truck } from 'lucide-react'
+﻿import { ArrowRight, Building2, CheckCircle2, ClipboardList, Globe2, Layers, Package, ShieldCheck, TrendingUp, Truck } from 'lucide-react'
 import type { ProjectData } from '@/features/site/projects'
 import { projects } from '@/features/site/projects'
-import { useTranslation } from '@/features/i18n/provider'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { PageHero, SectionHead } from './section-head'
 import { JsonLd, projectLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from './shell'
@@ -14,7 +15,7 @@ import { MarketingShell } from './shell'
  */
 export function ProjectPage({ page }: { page: ProjectData }) {
   const { t, locale } = useTranslation()
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
 
   const related = projects[locale]
     .filter((p) => p.slug !== page.slug)

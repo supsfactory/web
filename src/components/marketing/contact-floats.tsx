@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react'
-import { useTranslation } from '@/features/i18n/provider'
+﻿import { useEffect, useState } from 'react'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 
 const WA_URL = 'https://wa.me/8613305324192'
 const WECHAT_ID = '+86 133 0532 4192'
@@ -25,7 +26,7 @@ export function ContactFloats() {
   const [open, setOpen] = useState(false)
   const [copied, setCopied] = useState(false)
   const [hidden, setHidden] = useState(false)
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
 
   // Hide while scrolling down (and when reading the page footer), reappear on scroll up.
   useEffect(() => {

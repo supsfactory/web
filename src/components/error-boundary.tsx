@@ -12,15 +12,17 @@
  */
 import { useEffect } from 'react'
 import { useLocation } from '@tanstack/react-router'
-import { isEsPath } from '@/features/i18n/locale'
+import { getLocaleFromPath } from '@/features/i18n/locale'
+import { SITE_NAME } from '@/config'
 
 export function ErrorPage({ error, reset }: { error: Error; reset: () => void }) {
   const { pathname } = useLocation()
-  const es = isEsPath(pathname)
+  const locale = getLocaleFromPath(pathname)
+  const es = locale === 'es'
   // document.title, not a rendered <title>: the root head() already emits one,
   // and React 19 hoisting would append a second (invalid, and browsers keep the first).
   useEffect(() => {
-    document.title = (es ? 'Algo salió mal' : 'Something went wrong') + ' — SUPsfactory'
+    document.title = (es ? 'Algo salió mal' : 'Something went wrong') + ` \u2014 ${SITE_NAME}`
   }, [es])
   return (
     <main className="grid-bg flex min-h-screen flex-col items-center justify-center gap-[18px] p-8 text-center">

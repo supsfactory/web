@@ -1,8 +1,8 @@
-import { createFileRoute } from '@tanstack/react-router'
+﻿import { createFileRoute } from '@tanstack/react-router'
 import { env } from '@/lib/env'
 import { buildSitemap } from '@/features/seo/seo'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
-import { getAfarerPages, getAfarerEsPaths } from '@/features/content/loader'
+import { getContentPages, getEsPaths } from '@/features/content/loader'
 import { GUIDES } from '@/features/content/guide-content'
 import { projects } from '@/features/site/projects'
 import { knowledge } from '@/features/site/knowledge'
@@ -13,8 +13,8 @@ import { seriesPages } from '@/features/site/series-pages'
 // carries the Spanish hreflang alternate.
 const handler = () => {
   const origin = new URL(env.BETTER_AUTH_URL).origin
-  const esPaths = new Set(getAfarerEsPaths())
-  const afarer = getAfarerPages()
+  const esPaths = new Set(getEsPaths())
+  const afarer = getContentPages()
     .filter((p) => !(p.path in EDGE_REDIRECTS))
     .map((p) => {
       const seo = p.content.seo as { dateModified?: string } | undefined

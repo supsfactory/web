@@ -1,6 +1,7 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import docsCss from '@/styles/docs.css?url'
+import { SITE_NAME } from '@/config'
 
 /**
  * Docs 路由：route 定义(loader/head)留在静态文件，整套 fumadocs/collections
@@ -34,7 +35,7 @@ export const Route = createFileRoute('/docs/$')({
   // must not fall back to the site-wide default title (duplicate-title farm).
   // og:title/og:description 同步覆盖（否则分享卡片仍显示 __root 的全站默认值，与 <title> 脱节）。
   head: ({ loaderData }) => {
-    const title = loaderData?.title ? `${loaderData.title} · SUPsfactory Docs` : 'SUPsfactory Docs'
+    const title = loaderData?.title ? `${loaderData.title} \u00b7 ${SITE_NAME} Docs` : `${SITE_NAME} Docs`
     const canonical = loaderData?.origin ? `${loaderData.origin}${loaderData.docsPath}` : null
     return {
       meta: [

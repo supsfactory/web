@@ -1,12 +1,12 @@
-/**
- * Shared afarer catch-all logic.
+﻿/**
+ * Shared content catch-all logic.
  *
- * A single root splat route (`src/routes/$.tsx`) serves the ported afarer
+ * A single root splat route (`src/routes/$.tsx`) serves the ported content
  * content site for both prefix-less and locale-prefixed URLs (`/factory`,
  * `/es/factory`). It strips a leading locale segment before resolving the
- * path against the afarer registry.
+ * path against the content registry.
  *
- * The heavy resolution (afarer corpus + YAML parsing) is server-only in
+ * The heavy resolution (content corpus + YAML parsing) is server-only in
  * catchall.server.ts; this module keeps only the createServerFn handler, the
  * loader data shape and the client views, so the client bundle stays free of
  * the 900 KB+ content corpus.
@@ -14,7 +14,8 @@
 
 import { getRouteApi, notFound } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
-import { I18nProvider } from '@/features/i18n/provider'
+import {  I18nProvider  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { type Locale } from '@/features/i18n/locale'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
@@ -27,9 +28,9 @@ import { getGuide } from './guide-content'
 import { FACTS } from '@/features/site/facts'
 import { SITE_NAME } from '@/config/site'
 import { ArrowRight } from 'lucide-react'
-import { AfarerSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
+import { ContentSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
-import type { AfarerArticle, AfarerCaseUse, AfarerPage, AfarerPost, AfarerProduct } from './types'
+import type { ContentArticle, ContentCaseUse, ContentPage, ContentPost, ContentProduct } from './types'
 
 const rootRoute = getRouteApi('__root__')
 
@@ -51,18 +52,18 @@ export type CatchAllData = {
   /** Server-resolved widget index payloads for the page's sections. */
   index: AferIndexData
 } & (
-  | { kind: 'page'; page: AfarerPage; slug: string; title: string; description: string }
-  | { kind: 'product'; product: AfarerProduct; title: string; description: string; image: string; related: RelatedProduct[] }
-  | { kind: 'post'; post: AfarerPost; title: string; description: string; image: string; relatedPosts: RelatedPost[] }
-  | { kind: 'article'; article: AfarerArticle; slug: string; title: string; description: string }
-  | { kind: 'case'; case: AfarerCaseUse; slug: string; title: string; description: string }
+  | { kind: 'page'; page: ContentPage; slug: string; title: string; description: string }
+  | { kind: 'product'; product: ContentProduct; title: string; description: string; image: string; related: RelatedProduct[] }
+  | { kind: 'post'; post: ContentPost; title: string; description: string; image: string; relatedPosts: RelatedPost[] }
+  | { kind: 'article'; article: ContentArticle; slug: string; title: string; description: string }
+  | { kind: 'case'; case: ContentCaseUse; slug: string; title: string; description: string }
   | { kind: 'guide'; slug: string; title: string; description: string }
   | { kind: 'cases-index'; title: string; description: string }
   | { kind: 'research-index'; title: string; description: string }
   | { kind: 'faq'; faqs: { q: string; a: string }[]; title: string; description: string }
 )
 
-export const afarerServerLoader = createServerFn({ method: 'GET' })
+export const contentServerLoader = createServerFn({ method: 'GET' })
   .validator((input: { path: string; locale: string }) => input)
   .handler(async ({ data }) => {
     const { resolveCatchAll } = await import('./catchall.server')
@@ -79,10 +80,10 @@ export const afarerServerLoader = createServerFn({ method: 'GET' })
 
 /**
  * Product-detail resolver for the /products/$series route: when the segment is
- * an afarer product slug (not a series), resolve it here — the same layering
+ * a content product slug (not a series), resolve it here — the same layering
  * as the root catch-all, so the 900 KB+ corpus stays server-only.
  */
-export const afarerProductLoader = createServerFn({ method: 'GET' })
+export const contentProductLoader = createServerFn({ method: 'GET' })
   .validator((input: { slug: string; locale: string }) => input)
   .handler(async ({ data }) => {
     const { resolveCatchAll } = await import('./catchall.server')
@@ -111,7 +112,7 @@ function articleLd(url: string, title: string, description: string, locale: Loca
 }
 
 /** TechArticle JSON-LD for the /research/* long-form articles (P2-1). */
-function researchArticleLd(origin: string, path: string, title: string, description: string, page: AfarerPage): Record<string, unknown> {
+function researchArticleLd(origin: string, path: string, title: string, description: string, page: ContentPage): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
     '@type': 'TechArticle',
@@ -131,7 +132,7 @@ function vatradTechArticleLd(
   path: string,
   title: string,
   description: string,
-  page: AfarerPage,
+  page: ContentPage,
   locale: Locale,
   about: string[],
   alternativeHeadline?: string,
@@ -151,7 +152,7 @@ function vatradTechArticleLd(
   }
 }
 
-function productLd(origin: string, product: AfarerProduct, locale: Locale): Record<string, unknown> {
+function productLd(origin: string, product: ContentProduct, locale: Locale): Record<string, unknown> {
   const abs = (u?: string) => (u ? (u.startsWith('http') ? u : `${origin}${u}`) : undefined)
   const es = locale === 'es'
   const b2bProps = [
@@ -199,7 +200,7 @@ function productLd(origin: string, product: AfarerProduct, locale: Locale): Reco
 
 /* ─────────────────────────── shell + views ─────────────────────────── */
 
-export function AfarerCatchAll({ data }: { data: CatchAllData }) {
+export function ContentCatchAll({ data }: { data: CatchAllData }) {
   const { theme, user } = rootRoute.useLoaderData()
 
   const body = (() => {
@@ -209,7 +210,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
         const faqs = collectPageFaqs(page)
         return (
           <>
-            <AfarerSections page={page} />
+            <ContentSections page={page} />
             <JsonLd
               data={breadcrumbLd(data.origin, [
                 { name: data.locale === 'es' ? 'Inicio' : 'Home', path: '/' },
@@ -264,7 +265,7 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
                 data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, [
                   'SUP Manufacturing',
                   'Factory Evidence and Certificate Scope',
-                  `Entity Relationship (${SITE_NAME}, afarer, Vatrad)`,
+                  `Entity Relationship (${SITE_NAME}, content, Vatrad)`,
                   'Batch Traceability and Record Keeping',
                 ], 'SUP Factory Proof Center: Evidence Behind Manufacturing Claims')}
               />
@@ -353,10 +354,10 @@ export function AfarerCatchAll({ data }: { data: CatchAllData }) {
   )
 }
 
-export function ProductView({ product, related, origin, locale }: { product: AfarerProduct; related: RelatedProduct[]; origin: string; locale: Locale }) {
+export function ProductView({ product, related, origin, locale }: { product: ContentProduct; related: RelatedProduct[]; origin: string; locale: Locale }) {
   const specs = product.specs ?? []
   const gallery = product.gallery?.length ? product.gallery : product.image ? [{ url: product.image, alt: product.title }] : []
-  const fl = (p: string): string => (locale === 'en' ? p : `/es${p}`)
+  const fl = (path: string): string => localizePath(locale, path)
   const es = locale === 'es'
   return (
     <>
@@ -587,7 +588,7 @@ export function ProductView({ product, related, origin, locale }: { product: Afa
 }
 
 /** Product FAQ pool: product-specific entries + shared fallbacks (≥5 total). */
-function productFaqs(product: AfarerProduct, es: boolean): { q: string; a: string }[] {
+function productFaqs(product: ContentProduct, es: boolean): { q: string; a: string }[] {
   const specific = product.faqs ?? []
   const pool: { q: string; a: string }[] = es
     ? [
@@ -671,7 +672,7 @@ function oemApplications(es: boolean): { title: string; body: string }[] {
       ]
 }
 
-function PostView({ post, relatedPosts, origin, path, locale }: { post: AfarerPost; relatedPosts: RelatedPost[]; origin: string; path: string; locale: Locale }) {
+function PostView({ post, relatedPosts, origin, path, locale }: { post: ContentPost; relatedPosts: RelatedPost[]; origin: string; path: string; locale: Locale }) {
   return (
     <>
       <PageHero kicker={post.category ?? (locale === 'es' ? 'Noticias' : 'News')} title={post.title} sub={post.excerpt ?? ''} />
@@ -734,7 +735,7 @@ function PostView({ post, relatedPosts, origin, path, locale }: { post: AfarerPo
   )
 }
 
-function ArticleView({ article, origin, title, path, locale }: { article: AfarerArticle; origin: string; title: string; path: string; locale: Locale }) {
+function ArticleView({ article, origin, title, path, locale }: { article: ContentArticle; origin: string; title: string; path: string; locale: Locale }) {
   return (
     <>
       <PageHero kicker={locale === 'es' ? 'Tecnología' : 'Technology'} title={title} sub={brandify(article.summary ?? '')} />
@@ -758,7 +759,7 @@ function ArticleView({ article, origin, title, path, locale }: { article: Afarer
   )
 }
 
-function CaseView({ c, origin, title, path, locale }: { c: AfarerCaseUse; origin: string; title: string; path: string; locale: Locale }) {
+function CaseView({ c, origin, title, path, locale }: { c: ContentCaseUse; origin: string; title: string; path: string; locale: Locale }) {
   return (
     <>
       <PageHero kicker={c.category ?? (locale === 'es' ? 'Caso de estudio' : 'Case Study')} title={title} sub={brandify(c.summary ?? '')} />
@@ -793,7 +794,7 @@ function CaseView({ c, origin, title, path, locale }: { c: AfarerCaseUse; origin
 function GuideView({ slug, origin, path, locale }: { slug: string; origin: string; path: string; locale: Locale }) {
   const guide = getGuide(`/guides/${slug}`, locale)
   if (!guide) return null
-  const fl = (p: string): string => (locale === 'es' ? `/es${p}` : p)
+  const fl = (path: string): string => localizePath(locale, path)
   return (
     <>
       <PageHero kicker={locale === 'es' ? 'Guía' : 'Guide'} title={guide.title} />
@@ -863,7 +864,7 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
 /** Content → inquiry conversion block appended to news, tech articles, case studies and guides. */
 function ContentCta({ locale }: { locale: Locale }) {
   const es = locale === 'es'
-  const fl = (p: string): string => (es ? `/es${p}` : p)
+  const fl = (path: string): string => localizePath(locale, path)
   return (
     <div className="mt-12 rounded-2xl border border-border-2 bg-bg-alt p-7 text-center">
       <p className="font-display text-xl font-extrabold">

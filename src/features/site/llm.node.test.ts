@@ -1,6 +1,6 @@
-import { test, expect } from 'vitest'
+﻿import { test, expect } from 'vitest'
 import { llmsAfarerFull, llmAfarierIndex } from '@/features/site/llm'
-import { getAfarerPages } from '@/features/content/loader'
+import { getContentPages } from '@/features/content/loader'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -21,7 +21,7 @@ const SHADOWED = new Set([...Object.keys(EDGE_REDIRECTS), ...Object.keys(LEGACY_
 test('llms-full.txt contains every live afarer page (no truncation regression)', () => {
   const full = llmsAfarerFull()
   const urls = urlLines(full)
-  const expected = getAfarerPages()
+  const expected = getContentPages()
     .filter((p) => !SHADOWED.has(p.path))
     .map((p) => p.path)
   for (const path of expected) {
@@ -40,7 +40,7 @@ test('llms-full.txt never advertises edge-301 or legacy-shadowed paths', () => {
 test('llms.txt afarer index covers every live page and no shadowed paths', () => {
   const index = llmAfarierIndex('https://supsfactory.com')
   const listed = indexPaths(index)
-  const live = getAfarerPages().map((p) => `${index.includes('https://supsfactory.com') ? 'https://supsfactory.com' : ''}${p.path}`)
+  const live = getContentPages().map((p) => `${index.includes('https://supsfactory.com') ? 'https://supsfactory.com' : ''}${p.path}`)
 
   // Coverage via the path portion (index links are now absolute URLs).
   const listedPaths = new Set([...listed].map((u) => (u.startsWith('https://') ? new URL(u).pathname : u)))

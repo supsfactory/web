@@ -1,4 +1,5 @@
-import { useTranslation } from '@/features/i18n/provider'
+﻿import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { SiteNav } from '@/components/marketing/site-nav'
 import { Footer } from '@/components/marketing/footer'
 
@@ -20,7 +21,7 @@ export function LegalPage({
   sections: readonly LegalSection[]
 }) {
   const { t, locale } = useTranslation()
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={loggedIn} />

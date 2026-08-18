@@ -47,6 +47,7 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CF_VECTORIZE_INDEX: ${{ vars.CF_VECTORIZE_INDEX }}
         run: |
           set -e
           create_index() {
@@ -61,9 +62,10 @@ jobs:
               exit 1
             fi
           }
-          create_index sups-knowledge
-          create_index sups-knowledge-staging --env staging
-          create_index sups-knowledge-prod --env production
+          IDX="${CF_VECTORIZE_INDEX:-supsfactory-knowledge}"
+          create_index "$IDX"
+          create_index "$IDX-staging" --env staging
+          create_index "$IDX-prod" --env production
       # 部署后立刻重建索引（/api/reindex 由 worker 内的 REINDEX_TOKEN 门禁；
       # deploy.yml 的 secret sync 步骤已把该 token 同步到 Worker）。
       # 未配置 token 时优雅跳过 —— 每日 03:00 cron 仍会兜底重建。
@@ -71,13 +73,15 @@ jobs:
         name: Rebuild AI index on production
         env:
           REINDEX_TOKEN: ${{ secrets.REINDEX_TOKEN }}
+          CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
         run: |
           if [ -z "$REINDEX_TOKEN" ]; then
             echo "::notice::REINDEX_TOKEN 未配置，跳过索引重建（每日 03:00 cron 会自动重建）。"
             exit 0
           fi
+          DOMAIN="${CF_PROD_DOMAIN:-supsfactory.com}"
           HTTP=$(curl -sS -o /tmp/reindex.json -w '%{http_code}' -X POST \
-            https://supsfactory.com/api/reindex \
+            "https://$DOMAIN/api/reindex" \
             -H "Authorization: Bearer $REINDEX_TOKEN")
           if [ "$HTTP" != "200" ]; then
             echo "::error::reindex failed (HTTP $HTTP): $(cat /tmp/reindex.json)"
@@ -88,9 +92,12 @@ jobs:
       # 端到端冒烟：公开端点无论走 AI 还是 FAQ 降级都应返回 ok=true。
       - if: steps.guard.outputs.enabled == 'true'
         name: Smoke-test the assistant endpoint
+        env:
+          CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
         run: |
+          DOMAIN="${CF_PROD_DOMAIN:-supsfactory.com}"
           HTTP=$(curl -sS -o /tmp/ask.json -w '%{http_code}' -X POST \
-            https://supsfactory.com/api/ask \
+            "https://$DOMAIN/api/ask" \
             -H 'content-type: application/json' \
             -d '{"question":"What is your MOQ?","locale":"en"}')
           if [ "$HTTP" != "200" ] || ! jq -e '.ok == true' /tmp/ask.json >/dev/null; then

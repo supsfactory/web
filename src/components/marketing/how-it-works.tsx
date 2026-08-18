@@ -1,5 +1,6 @@
-import { ArrowRight, PenTool, FileText } from 'lucide-react'
-import { useTranslation } from '@/features/i18n/provider'
+﻿import { ArrowRight, PenTool, FileText } from 'lucide-react'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { pick, works } from '@/features/site/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
@@ -8,7 +9,7 @@ import { Reveal } from './reveal'
 export function HowItWorks() {
   const { t, locale } = useTranslation()
   const c = pick(works, locale)
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
 
   const deepLinks = [
     { label: t('sup.nav.manufacturingDropdown.quality'), href: '/quality' },

@@ -1,8 +1,9 @@
-import { createFileRoute } from '@tanstack/react-router'
+﻿import { createFileRoute } from '@tanstack/react-router'
 import { ArrowRight, BookOpen, Compass } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
-import { useTranslation } from '@/features/i18n/provider'
+import {  useTranslation  } from '@/features/i18n/provider'
+import { localizePath } from '@/features/i18n/locale'
 import { knowledge, knowledgeMeta } from '@/features/site/knowledge'
 import { pick, manufacturingGuides } from '@/features/site/content'
 import { GUIDE_CARDS } from '@/features/content/guide-content'
@@ -34,7 +35,7 @@ function KnowledgeIndex() {
   const meta = knowledgeMeta[locale]
   const guides = GUIDE_CARDS[locale]
   const mfg = pick(manufacturingGuides, locale)
-  const fl = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
+  const fl = (path: string): string => localizePath(locale, path)
 
   return (
     <MarketingShell>

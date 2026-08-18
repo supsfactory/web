@@ -1,10 +1,10 @@
-import { products } from './content'
+﻿import { products } from './content'
 import { solutionPages, solutionPath } from './solution-pages'
 import { projects } from './projects'
 import { knowledge } from './knowledge'
 import {
-  getAfarerPages,
-  getAfarerProducts,
+  getContentPages,
+  getContentProducts,
   getNewsPosts,
   getTechArticles,
   getCaseUses,
@@ -58,7 +58,7 @@ export function llmSiteHeader(): string {
 export function llmProductsIndex(origin: string): string {
   // Real product detail pages exist for the ported afarer products — link each
   // entry to its page instead of the /products index.
-  const lines = getAfarerProducts().map((p) => `- [${p.title}](${abs(origin, `/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const lines = getContentProducts().map((p) => `- [${p.title}](${abs(origin, `/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
   return ['', '## Products', ...lines, ''].join('\n')
 }
 
@@ -187,13 +187,13 @@ export function llmAfarierIndex(origin: string): string {
   // Derived from the loader (not a hand-maintained list) so revived pages and
   // future registry additions are covered automatically. Edge/legacy-301'd
   // source paths must not appear as canonical URLs — same rule as the sitemap.
-  const pageLines = getAfarerPages()
+  const pageLines = getContentPages()
     .filter((p) => !(p.path in EDGE_REDIRECTS) && !(p.path in LEGACY_REDIRECTS))
     .map((p) => `- [${PAGE_TITLES[p.path] ?? brandify(p.label)}](${abs(origin, p.path)}): ${flat(brandify(p.meta?.description ?? ''))}`)
   const staticLines = [
     `- [FAQ](${abs(origin, '/faq')}): Answers to the most common questions about inflatable SUPs`,
   ]
-  const resolvedResearch = new Set(getAfarerPages().map((p) => p.path))
+  const resolvedResearch = new Set(getContentPages().map((p) => p.path))
   const researchLines = getResearchTopics()
     .filter((t) => resolvedResearch.has(`/research/${t.slug}`))
     .map((t) => `- [Research: ${t.slug.replace(/-/g, ' ')}](${abs(origin, `/research/${t.slug}`)}): ${t.category}, ${t.readTime}`)
@@ -222,12 +222,12 @@ export function llmsAfarerFull(): string {
   // Edge-301'd source paths (/brand/afarer, /brand/story, /oem-odm, …) and
   // legacy theafarer-era paths must not appear as canonical URLs in the LLM
   // corpus — same rule as the sitemap.
-  const pageBlocks = getAfarerPages()
+  const pageBlocks = getContentPages()
     .filter((p) => !(p.path in EDGE_REDIRECTS) && !(p.path in LEGACY_REDIRECTS))
     .map((p) =>
       [`# ${brandify(p.label)}`, '', flat(brandify(p.meta?.description ?? '')), '', `URL: ${p.path}`].join('\n'),
     )
-  const productBlocks = getAfarerProducts().map((p) =>
+  const productBlocks = getContentProducts().map((p) =>
     [
       `## Product: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
       '',
@@ -271,7 +271,7 @@ export function llmsAfarerFull(): string {
 /** `/llms.txt` Spanish section — absolute /es URLs so LLMs can ingest the mirror directly. */
 export function llmSpanishIndex(origin: string): string {
   const es = (path: string) => abs(origin, `/es${path}`)
-  const productLines = getAfarerProducts('es').map((p) => `- [${p.title}](${es(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const productLines = getContentProducts('es').map((p) => `- [${p.title}](${es(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
   const techLines = getTechArticles('es').map((a) => `- [${a.title}](${es(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
   const caseLines = getCaseUses('es').map((c) => `- [${c.title}](${es(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
   const guideLines = GUIDES_ES.map((g) => `- [${g.title}](${es(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
@@ -310,7 +310,7 @@ export function llmSpanishIndex(origin: string): string {
 
 /** Full Spanish text for products, news, tech, cases and guides (in /llms-full.txt). */
 export function llmsAfarerSpanishFull(): string {
-  const productBlocks = getAfarerProducts('es').map((p) =>
+  const productBlocks = getContentProducts('es').map((p) =>
     [
       `## Producto: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
       '',

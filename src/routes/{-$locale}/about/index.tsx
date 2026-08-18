@@ -11,6 +11,7 @@ import { JsonLd, aboutPageLd } from '@/features/seo/jsonld'
 import { CtaBand } from '@/components/marketing/cta'
 import { Footer } from '@/components/marketing/footer'
 import { SectionHead } from '@/components/marketing/section-head'
+import { SITE_NAME, BRAND_ASSETS_CDN, BRAND_BOILERPLATE, SITE_URL } from '@/config'
 
 const rootRoute = getRouteApi('__root__')
 
@@ -23,11 +24,11 @@ export const Route = createFileRoute('/{-$locale}/about/')({
       origin,
       locale,
       path: '/about',
-      title: locale === 'es' ? 'Sobre SUPsfactory | Fabricante de tablas SUP a medida | OEM/ODM' : 'About SUPsfactory | Custom SUP Board Manufacturer | OEM/ODM',
+      title: locale === 'es' ? `Sobre ${SITE_NAME} | Fabricante de tablas SUP a medida | OEM/ODM` : `About ${SITE_NAME} | Custom SUP Board Manufacturer | OEM/ODM`,
       description:
         locale === 'es'
-          ? 'SUPsfactory es un fabricante de tablas de paddle surf a medida — OEM y ODM de SUP hinchables, desde el diseño del prototipo hasta la producción en serie, con ingeniería, moldes, muestras y soporte global.'
-          : 'SUPsfactory is a custom SUP board manufacturer — inflatable paddle board OEM/ODM from prototype design to mass production, with engineering, tooling, sampling, QC and global export support under one roof.',
+          ? `${SITE_NAME} es un fabricante de tablas de paddle surf a medida — OEM y ODM de SUP hinchables, desde el diseño del prototipo hasta la producción en serie, con ingeniería, moldes, muestras y soporte global.`
+          : `${SITE_NAME} is a custom SUP board manufacturer — inflatable paddle board OEM/ODM from prototype design to mass production, with engineering, tooling, sampling, QC and global export support under one roof.`,
     })
     return { meta, links }
   },
@@ -69,7 +70,7 @@ function AboutPage() {
       <section className="mx-auto max-w-6xl px-5 py-14 md:px-7">
         <div className="grid gap-5 md:grid-cols-2">
           <img
-            src="https://assets.supsfactory.com/site/videos/2026/sup-manufacturing.jpg"
+            src={`${BRAND_ASSETS_CDN}/site/videos/2026/sup-manufacturing.jpg`}
             alt={locale === 'es'
               ? 'Línea de producción de una fábrica de tablas SUP hinchables a medida en Qingdao'
               : 'Custom SUP board manufacturing factory production line — inflatable paddle board plant in Qingdao'}
@@ -77,7 +78,7 @@ function AboutPage() {
             className="aspect-[16/10] w-full rounded-2xl border border-border-2 object-cover"
           />
           <img
-            src="https://assets.supsfactory.com/site/videos/2026/oem-brand-launch.jpg"
+            src={`${BRAND_ASSETS_CDN}/site/videos/2026/oem-brand-launch.jpg`}
             alt={locale === 'es'
               ? 'Marca de SUP OEM personalizada — estampado y embalaje de tablas con marca privada'
               : 'OEM SUP brand launch — custom paddle board branding, printing and packaging for private label'}
@@ -142,11 +143,9 @@ function AboutPage() {
 
       <JsonLd
         data={aboutPageLd(
-          'https://supsfactory.com',
+          SITE_URL,
           locale === 'es' ? '/es/about' : '/about',
-          locale === 'es'
-            ? 'SUPsfactory es la división de desarrollo y fabricación de SUP de Afarer (Qingdao Vatrad Group Co., Ltd.), planta de hinchables de 12.500 m² en Qingdao, China.'
-            : 'SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,500 m² inflatable manufacturing plant in Qingdao, China.',
+          BRAND_BOILERPLATE,
         )}
       />
 

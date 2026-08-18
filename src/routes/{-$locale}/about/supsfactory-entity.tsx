@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router'
+﻿import { createFileRoute } from '@tanstack/react-router'
 import { ArrowRight, BookOpen, Building2, Hammer, PackageCheck } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -10,10 +10,11 @@ import { knowledge } from '@/features/site/knowledge'
 import { PageHero } from '@/components/marketing/section-head'
 import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from '@/components/marketing/shell'
+import { SITE_NAME, BRAND_COMPANY_NAME } from '@/config'
 
 const FACTS: Record<Locale, { label: string; value: string }[]> = {
   en: [
-    { label: 'Legal entity', value: 'Qingdao Vatrad Group Co., Ltd.' },
+    { label: 'Legal entity', value: BRAND_COMPANY_NAME },
     { label: 'Product focus', value: 'Inflatable SUP manufacturing — OEM, ODM & private label' },
     { label: 'Factories', value: '12,500 m² in-house plant in Qingdao, China' },
     { label: 'Minimum order', value: 'Tiered: 1–2 samples · 20–50 trial · 90–100+ volume' },
@@ -21,7 +22,7 @@ const FACTS: Record<Locale, { label: string; value: string }[]> = {
     { label: 'Business model', value: 'B2B development & manufacturing' },
   ],
   es: [
-    { label: 'Entidad legal', value: 'Qingdao Vatrad Group Co., Ltd.' },
+    { label: 'Entidad legal', value: BRAND_COMPANY_NAME },
     { label: 'Enfoque de producto', value: 'Fabricación de SUP hinchables: OEM, ODM y etiqueta privada' },
     { label: 'Fábricas', value: 'Planta propia de 12.500 m² en Qingdao, China' },
     { label: 'Pedido mínimo', value: 'Escalonado: 1–2 muestras · 20–50 prueba · 90–100+ volumen' },
@@ -47,12 +48,12 @@ export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
       path: '/about/supsfactory-entity',
       title:
         locale === 'es'
-          ? 'Supsfactory | Fabricante de SUP hinchables OEM/ODM'
-          : 'SUPsfactory | Inflatable SUP OEM & ODM Manufacturer',
+          ? `${SITE_NAME} | Fabricante de SUP hinchables OEM/ODM`
+          : `${SITE_NAME} | Inflatable SUP OEM & ODM Manufacturer`,
       description:
         locale === 'es'
-          ? 'SUPsfactory: fabricación de SUP hinchables OEM/ODM con ingeniería, moldes, muestras y producción a gran escala, por Qingdao Vatrad Group.'
-          : 'SUPsfactory is the inflatable SUP OEM & ODM manufacturing company — engineering, tooling, sampling and full-scale production by Qingdao Vatrad Group.',
+          ? `${SITE_NAME}: fabricación de SUP hinchables OEM/ODM con ingeniería, moldes, muestras y producción a gran escala, por ${BRAND_COMPANY_NAME}.`
+          : `${SITE_NAME} is the inflatable SUP OEM & ODM manufacturing company — engineering, tooling, sampling and full-scale production by ${BRAND_COMPANY_NAME}.`,
     })
     return { meta, links }
   },
@@ -176,7 +177,7 @@ function EntityPage() {
       <section className="ocean-grad">
         <div className="mx-auto flex max-w-4xl flex-col items-center px-5 py-16 text-center md:px-7 md:py-20">
           <p className="flex items-center gap-2 font-display text-xs font-bold uppercase tracking-[0.16em] text-[#aee3f7]">
-            <Building2 size={15} /> SUPsfactory
+            <Building2 size={15} /> {SITE_NAME}
           </p>
           <h2 className="mt-3 font-display text-3xl font-extrabold leading-[1.12] text-white md:text-4xl">{c.ctaTitle}</h2>
           <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-[#d6eefb]">{c.ctaBody}</p>

@@ -1,12 +1,12 @@
-import { OG_IMAGE } from '@/features/seo/seo'
+﻿import { OG_IMAGE } from '@/features/seo/seo'
 import { SITE_NAME } from '@/config/site'
 import type { CatchAllData } from './catchall'
 
 export function contentSingleRoute(path: string) {
   return {
     loader: async (): Promise<CatchAllData> => {
-      const { afarerServerLoader } = await import('./catchall')
-      return afarerServerLoader({ data: { path, locale: 'en' } })
+      const { contentServerLoader } = await import('./catchall')
+      return contentServerLoader({ data: { path, locale: 'en' } })
     },
     head: ({ loaderData }: { loaderData?: CatchAllData }) => {
       if (!loaderData) return {}
@@ -49,5 +49,3 @@ export function contentSingleRoute(path: string) {
     },
   }
 }
-
-export { contentSingleRoute as afarerSingleRoute }
