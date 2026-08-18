@@ -2,6 +2,7 @@
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
 import { pick, works } from '@/features/site/content'
+import { BRAND_ASSETS_CDN } from '@/config/branding'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 
@@ -22,8 +23,8 @@ export function HowItWorks() {
   ]
 
   const pdfLinks = [
-    { label: t('sup.nav.oemDropdown.trustPdf'), href: 'https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf' },
-    { label: t('sup.nav.oemDropdown.moqPdf'), href: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf' },
+    { label: t('sup.nav.oemDropdown.trustPdf'), href: `${BRAND_ASSETS_CDN}/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf` },
+    { label: t('sup.nav.oemDropdown.moqPdf'), href: `${BRAND_ASSETS_CDN}/site/downloads/flexible-branding-and-moq-guide.pdf` },
   ]
 
   return (

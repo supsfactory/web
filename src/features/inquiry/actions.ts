@@ -1,6 +1,8 @@
 import { createServerFn } from '@tanstack/react-start'
 import type { Inquiry } from './inquiry.schema'
 import type { InquiryTier, ProjectFileExtension } from './inquiry.shared'
+import { SITE_NAME } from '@/config/site'
+import { BRAND_CONTACT } from '@/config/branding'
 
 export type SubmitResult =
   | { ok: true; tier: InquiryTier }
@@ -123,7 +125,7 @@ export const submitInquiry = createServerFn({ method: 'POST' })
     // Notification is best-effort — a mail outage must not block the submission.
     try {
       const admins = (env.ADMIN_EMAILS || '').split(',').map((e) => e.trim()).filter(Boolean)
-      await sendInquiryNotification(env.RESEND_API_KEY || null, env.EMAIL_FROM || 'SUPsfactory <info@supsfactory.com>', admins, {
+      await sendInquiryNotification(env.RESEND_API_KEY || null, env.EMAIL_FROM || `${SITE_NAME} <${BRAND_CONTACT.email}>`, admins, {
         inquiry: row,
         fileUrl: logoKey ? `${new URL(env.BETTER_AUTH_URL).origin}/api/inquiry-logo/${id}` : null,
         origin: new URL(env.BETTER_AUTH_URL).origin,

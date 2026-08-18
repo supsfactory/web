@@ -27,6 +27,7 @@ import { AferIndexProvider, type AferIndexData } from './index-data'
 import { getGuide } from './guide-content'
 import { FACTS } from '@/features/site/facts'
 import { SITE_NAME } from '@/config/site'
+import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config/branding'
 import { ArrowRight } from 'lucide-react'
 import { ContentSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
@@ -107,7 +108,7 @@ function articleLd(url: string, title: string, description: string, locale: Loca
     url,
     dateModified,
     ...(locale === 'es' ? { inLanguage: 'es' } : {}),
-    publisher: { '@type': 'Organization', name: 'Afarer' },
+    publisher: { '@type': 'Organization', name: BRAND_PARENT_BRAND },
   }
 }
 
@@ -144,8 +145,8 @@ function vatradTechArticleLd(
     alternativeHeadline,
     description,
     url: `${origin}${path}`,
-    author: { '@type': 'Organization', name: 'QINGDAO VATRAD GROUP.,LTD.' },
-    publisher: { '@type': 'Organization', name: 'QINGDAO VATRAD GROUP.,LTD.' },
+    author: { '@type': 'Organization', name: BRAND_COMPANY_NAME.toUpperCase() },
+    publisher: { '@type': 'Organization', name: BRAND_COMPANY_NAME.toUpperCase() },
     dateModified: page.meta?.dateModified,
     inLanguage: locale,
     about,
@@ -176,11 +177,11 @@ function productLd(origin: string, product: ContentProduct, locale: Locale): Rec
     sku: product.sku,
     description: brandify(product.description ?? product.summary ?? ''),
     image: abs(product.image) ? [abs(product.image)!] : undefined,
-    brand: { '@type': 'Brand', name: 'Afarer' },
+    brand: { '@type': 'Brand', name: BRAND_PARENT_BRAND },
     manufacturer: {
       '@type': 'Organization',
       '@id': `${origin}/#organization`,
-      name: 'Qingdao Vatrad Group Co., Ltd.',
+      name: BRAND_COMPANY_NAME,
     },
     audience: {
       '@type': 'BusinessAudience',
@@ -311,7 +312,7 @@ export function ContentCatchAll({ data }: { data: CatchAllData }) {
           <>
             <PageHero
               kicker={data.translated ? 'Casos de éxito' : 'Case Studies'}
-              title={data.translated ? 'Casos de éxito Afarer' : 'Afarer Case Studies'}
+              title={data.translated ? `Casos de éxito ${BRAND_PARENT_BRAND}` : `${BRAND_PARENT_BRAND} Case Studies`}
               sub={data.translated ? 'Cómo lanzan y escalan su marca las marcas, resorts y operadores con nuestra fábrica.' : 'How brands, resorts and operators launch and scale with our factory.'}
             />
             <CaseStudiesIndex />

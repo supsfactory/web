@@ -1,5 +1,5 @@
 import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
-import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT } from '@/config/branding'
+import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT, BRAND_PARENT_DOMAIN } from '@/config/branding'
 
 export const es = {
   common: {
@@ -477,7 +477,7 @@ export const es = {
       intro2:
         'Nuestra planta de 12.500 m² en Qingdao, China, cubre cada etapa en casa: diseño, ingeniería de moldes, construcción drop-stitch, soldadura RF, impresión, montaje y ensayos de calidad. No vendemos a consumidores finales y no competimos con nuestros clientes en ningún mercado.',
       intro3:
-        `Una fábrica, tres nombres. ${BRAND_COMPANY_NAME} es la entidad legal; ${BRAND_PARENT_BRAND} es su división de fabricación y opera las líneas de productos inflables de todas las categorías en afarer.com; ${SITE_NAME} es la división OEM/ODM centrada en SUP que estás leyendo ahora. Seas cual sea el nombre que use tu equipo de compras, llegas a la misma planta de Qingdao.`,
+        `Una fábrica, tres nombres. ${BRAND_COMPANY_NAME} es la entidad legal; ${BRAND_PARENT_BRAND} es su división de fabricación y opera las líneas de productos inflables de todas las categorías en ${BRAND_PARENT_DOMAIN}; ${SITE_NAME} es la división OEM/ODM centrada en SUP que estás leyendo ahora. Seas cual sea el nombre que use tu equipo de compras, llegas a la misma planta de Qingdao.`,
       factsTitle: 'Datos de la empresa',
       servicesTitle: 'Qué fabricamos',
       servicesBody: 'Cinco áreas de soluciones cubren la mayoría de los proyectos de fabricación SUP a medida:',

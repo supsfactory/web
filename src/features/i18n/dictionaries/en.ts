@@ -1,5 +1,5 @@
 import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
-import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT } from '@/config/branding'
+import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT, BRAND_PARENT_DOMAIN } from '@/config/branding'
 
 export const en = {
   common: {
@@ -487,7 +487,7 @@ export const en = {
       intro2:
         'Our 12,500 m² plant in Qingdao, China handles every stage in-house — design, mould engineering, drop-stitch construction, RF welding, printing, assembly and quality testing. We do not sell to end consumers and we do not compete with our clients in any market.',
       intro3:
-        `One factory, three names. ${BRAND_COMPANY_NAME} is the legal entity; ${BRAND_PARENT_BRAND} is its manufacturing division and operates the full-category inflatable product lines on afarer.com; ${SITE_NAME} is the SUP-focused OEM/ODM division you are reading now. Whatever your sourcing team calls us, you reach the same factory floor in Qingdao.`,
+        `One factory, three names. ${BRAND_COMPANY_NAME} is the legal entity; ${BRAND_PARENT_BRAND} is its manufacturing division and operates the full-category inflatable product lines on ${BRAND_PARENT_DOMAIN}; ${SITE_NAME} is the SUP-focused OEM/ODM division you are reading now. Whatever your sourcing team calls us, you reach the same factory floor in Qingdao.`,
       factsTitle: 'Company Facts',
       servicesTitle: 'What We Manufacture',
       servicesBody: 'Five solution areas cover most custom SUP manufacturing projects:',

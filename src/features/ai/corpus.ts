@@ -28,6 +28,7 @@ import {
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { chunkBody, pageText } from '@/features/content/text'
 import { stableHash, makeChunk, type AiChunk } from './rag'
+import { SITE_NAME } from '@/config/site'
 
 const FAQ_PATH = '/faq'
 
@@ -147,14 +148,14 @@ export function buildChunks(locale: Locale): AiChunk[] {
   // Add a few static pages that may not have structured corpus entries
   // (these will be added for both locales via the rebuildAiIndex loop)
   const staticPages = [
-    { path: '/about', title: 'About SUPsfactory' },
+    { path: '/about', title: `About ${SITE_NAME}` },
     { path: '/contact', title: 'Contact' },
     { path: '/terms', title: 'Terms of Service' },
     { path: '/privacy', title: 'Privacy Policy' },
   ]
   for (const sp of staticPages) {
     const u = url(sp.path)
-    const txt = ` ${sp.title} page. SUPsfactory provides custom inflatable SUP manufacturing solutions.`
+    const txt = ` ${sp.title} page. ${SITE_NAME} provides custom inflatable SUP manufacturing solutions.`
     push(u, sp.title, txt)
   }
 

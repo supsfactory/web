@@ -7,6 +7,7 @@ import { LangSwitch } from '@/features/i18n/lang-switch'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
 import { UserMenu } from '@/components/app/user-menu'
+import { SITE_NAME } from '@/config/site'
 
 const rootRoute = getRouteApi('__root__')
 
@@ -152,7 +153,7 @@ export function AppShell({
           </button>
           <span className="app-crumb">
             <span className="hidden md:inline">
-              SUPsfactory <span className="mx-1.5 text-fg-3">/</span>
+              {SITE_NAME} <span className="mx-1.5 text-fg-3">/</span>
             </span>
             <b>{crumb}</b>
           </span>

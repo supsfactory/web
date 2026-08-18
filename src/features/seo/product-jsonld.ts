@@ -1,6 +1,6 @@
 import { FACTS } from '@/features/site/facts'
 import { SITE_NAME, SITE_URL } from '@/config/site'
-import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_CONTACT } from '@/config/branding'
+import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_CONTACT, BRAND_PARENT_URL } from '@/config/branding'
 
 const SITE_ORIGIN = SITE_URL
 
@@ -11,17 +11,17 @@ export function siteLd(): Record<string, unknown>[] {
       '@type': ['Organization', 'Manufacturer'],
       '@id': `${SITE_ORIGIN}/#organization`,
       name: SITE_NAME,
-      alternateName: 'Supsfactory',
+      alternateName: SITE_NAME,
       legalName: BRAND_COMPANY_NAME,
       url: `${SITE_ORIGIN}/`,
       logo: `${SITE_ORIGIN}/logo192.png`,
       description:
-        'SUPS Factory is a professional custom SUP board manufacturer and OEM/ODM manufacturing partner serving brands, distributors, outdoor companies and water sports organizations. As the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.) \u2014 a 12,500 m\u00b2 inflatable manufacturing plant in Qingdao, China \u2014 we build customized paddle board products from product development and prototype sampling to mass production and global delivery. We do not sell to end consumers and we do not compete with our clients in any market.',
-      sameAs: ['https://afarer.com', FACTS.social.facebook, FACTS.social.linkedin, FACTS.social.youtube],
+        `${SITE_NAME} is a professional custom SUP board manufacturer and OEM/ODM manufacturing partner serving brands, distributors, outdoor companies and water sports organizations. As the SUP product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}) \u2014 a 12,500 m\u00b2 inflatable manufacturing plant in Qingdao, China \u2014 we build customized paddle board products from product development and prototype sampling to mass production and global delivery. We do not sell to end consumers and we do not compete with our clients in any market.`,
+      sameAs: [BRAND_PARENT_URL, FACTS.social.facebook, FACTS.social.linkedin, FACTS.social.youtube],
       parentOrganization: {
         '@type': 'Organization',
         name: BRAND_COMPANY_NAME,
-        sameAs: 'https://afarer.com',
+        sameAs: BRAND_PARENT_URL,
       },
       brand: { '@type': 'Brand', name: BRAND_PARENT_BRAND },
       numberOfEmployees: { '@type': 'QuantitativeValue', value: '350+' },
@@ -130,7 +130,7 @@ export function factoryCapabilitiesLd(): Record<string, unknown> {
     '@type': 'ManufacturingFacility',
     name: `${SITE_NAME} Inflatable SUP Plant`,
     description:
-      '12,500 m\u00b2 inflatable SUP manufacturing plant in Qingdao, China \u2014 the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.).',
+      `12,500 m\u00b2 inflatable SUP manufacturing plant in Qingdao, China \u2014 the SUP product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}).`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Economic Development Zone, Laixi',

@@ -16,6 +16,8 @@ import {
 import { GUIDES_ES } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
+import { SITE_NAME } from '@/config/site'
+import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config/branding'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
 
@@ -45,9 +47,9 @@ function factsSection(title: string, facts?: Record<string, unknown>): string[] 
 export function llmSiteHeader(): string {
   const { company, certifications, manufacturing } = getGeoFacts()
   return [
-    '# SUPsfactory',
+    `# ${SITE_NAME}`,
     '',
-    '> SUPsfactory is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,500 m² inflatable manufacturing plant in Qingdao, China. We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. MOQ is tiered: 1–2 boards for samples, 5–10 units for co-branding small bulk, 20–50 units for pilot batches, and 90–100+ units per 150 m roll (≈180–220 boards) for standard volume production; custom-mould shapes run at the volume tier. Samples are ready in 7–12 days; bulk production 25–35 days after confirmed PO and deposit (custom mould tooling adds 15–20 days).',
+    `> ${SITE_NAME} is the SUP product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}), a 12,500 m² inflatable manufacturing plant in Qingdao, China. We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. MOQ is tiered: 1–2 boards for samples, 5–10 units for co-branding small bulk, 20–50 units for pilot batches, and 90–100+ units per 150 m roll (≈180–220 boards) for standard volume production; custom-mould shapes run at the volume tier. Samples are ready in 7–12 days; bulk production 25–35 days after confirmed PO and deposit (custom mould tooling adds 15–20 days).`,
     ...factsSection('Company Facts', company),
     ...factsSection('Certifications', certifications),
     ...factsSection('Manufacturing', manufacturing),
@@ -247,7 +249,7 @@ export function llmsAfarerFull(): string {
   const { company, certifications, manufacturing } = getGeoFacts()
   return [
     '',
-    '# SUPsfactory Brand Site',
+    `# ${SITE_NAME} Brand Site`,
     ...pageBlocks,
     ...factsSection('Company Facts', company),
     ...factsSection('Certifications', certifications),
@@ -285,7 +287,7 @@ export function llmSpanishIndex(origin: string): string {
     '',
     '## Español',
     '',
-    `- [SUPsfactory — inicio](${es('/')}): Fabricante OEM de tablas de SUP hinchables y SUP inflables personalizadas, con exportación mundial desde China`,
+    `- [${SITE_NAME} — inicio](${es('/')}): Fabricante OEM de tablas de SUP hinchables y SUP inflables personalizadas, con exportación mundial desde China`,
     '',
     '### Español: Productos',
     ...productLines,

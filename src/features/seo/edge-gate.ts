@@ -66,27 +66,27 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/es/brand/why-afarer': '/es/about/afarer',
   // P1-7: non-SUP business lines migrate to afarer.com (supsfactory stays SUP-only).
   // afarer.com already carries these pages/products (EN + /es); hand off with a single hop.
-  '/commercial-workboats': 'https://afarer.com/commercial-workboats',
-  '/es/commercial-workboats': 'https://afarer.com/es/commercial-workboats',
-  '/zh/commercial-workboats': 'https://afarer.com/es/commercial-workboats',
-  '/maritime-safety-defense': 'https://afarer.com/maritime-safety-defense',
-  '/es/maritime-safety-defense': 'https://afarer.com/es/maritime-safety-defense',
-  '/zh/maritime-safety-defense': 'https://afarer.com/es/maritime-safety-defense',
-  '/search-and-rescue': 'https://afarer.com/search-and-rescue',
-  '/es/search-and-rescue': 'https://afarer.com/es/search-and-rescue',
-  '/zh/search-and-rescue': 'https://afarer.com/es/search-and-rescue',
-  '/disaster-relief-humanitarian-aid': 'https://afarer.com/disaster-relief-humanitarian-aid',
-  '/es/disaster-relief-humanitarian-aid': 'https://afarer.com/es/disaster-relief-humanitarian-aid',
-  '/zh/disaster-relief-humanitarian-aid': 'https://afarer.com/es/disaster-relief-humanitarian-aid',
-  '/products/life-vest-classic': 'https://afarer.com/products/life-vest-classic',
-  '/es/products/life-vest-classic': 'https://afarer.com/es/products/life-vest-classic',
-  '/zh/products/life-vest-classic': 'https://afarer.com/es/products/life-vest-classic',
-  '/products/life-vest-pro': 'https://afarer.com/products/life-vest-pro',
-  '/es/products/life-vest-pro': 'https://afarer.com/es/products/life-vest-pro',
-  '/zh/products/life-vest-pro': 'https://afarer.com/es/products/life-vest-pro',
-  '/products/oars-pump-set': 'https://afarer.com/products/oars-pump-set',
-  '/es/products/oars-pump-set': 'https://afarer.com/es/products/oars-pump-set',
-  '/zh/products/oars-pump-set': 'https://afarer.com/es/products/oars-pump-set',
+  '/commercial-workboats': `${BRAND_PARENT_URL}/commercial-workboats`,
+  '/es/commercial-workboats': `${BRAND_PARENT_URL}/es/commercial-workboats`,
+  '/zh/commercial-workboats': `${BRAND_PARENT_URL}/es/commercial-workboats`,
+  '/maritime-safety-defense': `${BRAND_PARENT_URL}/maritime-safety-defense`,
+  '/es/maritime-safety-defense': `${BRAND_PARENT_URL}/es/maritime-safety-defense`,
+  '/zh/maritime-safety-defense': `${BRAND_PARENT_URL}/es/maritime-safety-defense`,
+  '/search-and-rescue': `${BRAND_PARENT_URL}/search-and-rescue`,
+  '/es/search-and-rescue': `${BRAND_PARENT_URL}/es/search-and-rescue`,
+  '/zh/search-and-rescue': `${BRAND_PARENT_URL}/es/search-and-rescue`,
+  '/disaster-relief-humanitarian-aid': `${BRAND_PARENT_URL}/disaster-relief-humanitarian-aid`,
+  '/es/disaster-relief-humanitarian-aid': `${BRAND_PARENT_URL}/es/disaster-relief-humanitarian-aid`,
+  '/zh/disaster-relief-humanitarian-aid': `${BRAND_PARENT_URL}/es/disaster-relief-humanitarian-aid`,
+  '/products/life-vest-classic': `${BRAND_PARENT_URL}/products/life-vest-classic`,
+  '/es/products/life-vest-classic': `${BRAND_PARENT_URL}/es/products/life-vest-classic`,
+  '/zh/products/life-vest-classic': `${BRAND_PARENT_URL}/es/products/life-vest-classic`,
+  '/products/life-vest-pro': `${BRAND_PARENT_URL}/products/life-vest-pro`,
+  '/es/products/life-vest-pro': `${BRAND_PARENT_URL}/es/products/life-vest-pro`,
+  '/zh/products/life-vest-pro': `${BRAND_PARENT_URL}/es/products/life-vest-pro`,
+  '/products/oars-pump-set': `${BRAND_PARENT_URL}/products/oars-pump-set`,
+  '/es/products/oars-pump-set': `${BRAND_PARENT_URL}/es/products/oars-pump-set`,
+  '/zh/products/oars-pump-set': `${BRAND_PARENT_URL}/es/products/oars-pump-set`,
   // P1-2: consolidate the 10 template-driven content hubs onto the 4 keepers
   // (/knowledge + /projects are the ESM hubs; /news + /technology are afarer
   // registry pages). The real content under each hub stays live — /guides/*,
@@ -129,6 +129,7 @@ export const EDGE_REDIRECTS: Record<string, string> = {
 
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { GONE_PATHS as CONFIG_GONE_PATHS } from '@/config/navigation'
+import { BRAND_PARENT_URL } from '@/config/branding'
 
 const GONE_PATHS = CONFIG_GONE_PATHS
 

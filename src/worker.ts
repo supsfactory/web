@@ -17,6 +17,7 @@ import { runWithNonce, getNonce } from '@/lib/csp'
 import { assertEnvOnce } from '@/lib/env-validate'
 import { withMarketingCache, withStaticCache, isEdgeCacheable } from '@/lib/cache-headers'
 import { gatePath } from '@/features/seo/edge-gate'
+import { SITE_URL } from '@/config/site'
 import { createDb } from '@/db/client'
 import { runCleanup } from '@/features/maintenance/cleanup'
 
@@ -113,7 +114,7 @@ async function warmEdgeCache(env: Cloudflare.Env, ctx: ExecutionContext): Promis
     // Cache API, renders the latest SSR output and then overwrites the clean
     // URL entry — otherwise a stale cached page would keep refreshing itself
     // (e.g. after every deploy) until its TTL expires.
-    const cleanUrl = `https://supsfactory.com${path}`
+    const cleanUrl = `${SITE_URL}${path}`
     const warmUrl = `${cleanUrl}?warm=${Date.now()}`
     try {
       const res = await handler.fetch(new Request(warmUrl, { headers: { 'accept': 'text/html' } }), env, ctx)

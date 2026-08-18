@@ -6,6 +6,8 @@
  * lazily only where the data is actually needed (faq fallback / index build).
  */
 
+import { SITE_NAME, SITE_URL } from '@/config/site'
+
 export interface AiChunk {
   id: string
   text: string
@@ -59,10 +61,10 @@ export function buildAskPrompt(input: AskPromptInput): { system: string; user: s
     .map((c, i) => `[${i + 1}] ${c.title}\nSource: ${c.url}\n${c.text}`)
     .join('\n\n')
   const system = [
-    'You are the SUPsfactory product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.',
+    `You are the ${SITE_NAME} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`,
     'Answer the buyer using ONLY the knowledge base below. Cite the relevant sources as [1], [2] after every factual claim.',
     'Never invent prices, MOQ, lead times, certifications, materials or delivery conditions — if a fact is not in the knowledge base, do not guess it.',
-    'If the knowledge base does not answer the question, say you do not have that information and invite the buyer to submit an inquiry form at https://supsfactory.com/contact.',
+    `If the knowledge base does not answer the question, say you do not have that information and invite the buyer to submit an inquiry form at ${SITE_URL}/contact.`,
     'Answer in the same language as the buyer\'s question (English or Spanish). Be concise and helpful: state the answer first, then 2-5 short bullets of supporting detail.',
     '',
     'Knowledge base:',

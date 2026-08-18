@@ -9,6 +9,7 @@
  */
 
 import { OG_IMAGE } from '@/features/seo/seo'
+import { SITE_NAME } from '@/config/site'
 import { defaultLocale, type Locale } from '@/features/i18n/locale'
 import {
   getContentPage,
@@ -148,7 +149,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       translated,
       esTranslated,
       slug: page.slug,
-      title: brandify(page.meta?.title ?? `${page.label} — SUPsfactory`),
+      title: brandify(page.meta?.title ?? `${page.label} — ${SITE_NAME}`),
       description: brandify(page.meta?.description ?? ''),
       origin: '',
       page,
@@ -165,7 +166,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         translated,
         esTranslated,
         product,
-        title: brandify(product.metadata?.title ?? `${product.title} — SUPsfactory`),
+        title: brandify(product.metadata?.title ?? `${product.title} — ${SITE_NAME}`),
         description: brandify(product.metadata?.description ?? product.description ?? product.summary ?? ''),
         image: product.image ?? OG_IMAGE,
         origin: '',
@@ -184,7 +185,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         translated,
         esTranslated,
         post,
-        title: brandify(post.metadata?.title ?? `${post.title} — SUPsfactory`),
+        title: brandify(post.metadata?.title ?? `${post.title} — ${SITE_NAME}`),
         description: brandify(post.metadata?.description ?? post.excerpt ?? ''),
         image: post.image ?? OG_IMAGE,
         origin: '',
@@ -203,7 +204,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         translated,
         esTranslated,
         slug: article.slug,
-        title: brandify(`${article.title} — SUPsfactory`),
+        title: brandify(`${article.title} — ${SITE_NAME}`),
         description: brandify(article.description ?? article.summary ?? ''),
         article,
         origin: '',
@@ -221,7 +222,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         translated,
         esTranslated,
         slug: c.slug,
-        title: brandify(`${c.title} — SUPsfactory`),
+        title: brandify(`${c.title} — ${SITE_NAME}`),
         description: brandify(c.description ?? c.summary ?? ''),
         case: c,
         origin: '',
@@ -237,7 +238,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       translated,
       esTranslated,
       origin: '',
-      title: locale === 'es' ? 'Casos de estudio — SUPsfactory' : 'Case Studies — SUPsfactory',
+      title: locale === 'es' ? `Casos de estudio — ${SITE_NAME}` : `Case Studies — ${SITE_NAME}`,
       description:
         locale === 'es'
           ? 'Cómo marcas, resorts y operadores lanzan y escalan con nuestra fábrica.'
@@ -253,7 +254,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       translated,
       esTranslated,
       origin: '',
-      title: locale === 'es' ? 'Investigación y guías técnicas — SUPsfactory' : 'Research & Technical Guides — SUPsfactory',
+      title: locale === 'es' ? `Investigación y guías técnicas — ${SITE_NAME}` : `Research & Technical Guides — ${SITE_NAME}`,
       description:
         locale === 'es'
           ? 'Investigación técnica en profundidad sobre materiales, construcción, estándares de seguridad y fabricación de SUP.'
@@ -271,7 +272,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         translated,
         esTranslated,
         slug: guide.slug,
-        title: brandify(`${guide.title} — SUPsfactory`),
+        title: brandify(`${guide.title} — ${SITE_NAME}`),
         description: brandify(guide.intro[0] ?? ''),
         origin: '',
         index: indexFor(undefined, locale),
@@ -292,7 +293,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         title:
           locale === 'es'
             ? 'Preguntas frecuentes — Fabricación OEM de SUP'
-            : 'FAQ — Inflatable SUP OEM, Materials & MOQ | SUPsfactory',
+            : `FAQ — Inflatable SUP OEM, Materials & MOQ | ${SITE_NAME}`,
         description:
           locale === 'es'
             ? 'Preguntas frecuentes sobre la fabricación OEM/ODM de SUP hinchables afarer — materiales, certificaciones, cantidades mínimas de pedido y logística mayorista.'

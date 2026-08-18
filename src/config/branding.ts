@@ -47,3 +47,5 @@ export const BRAND_NOT_ROB =
 
 export const BRAND_COMPANY_NAME = 'Qingdao Vatrad Group Co., Ltd.' as const
 export const BRAND_PARENT_BRAND = 'Afarer' as const
+export const BRAND_PARENT_DOMAIN = 'afarer.com' as const
+export const BRAND_PARENT_URL = `https://${BRAND_PARENT_DOMAIN}` as const

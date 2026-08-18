@@ -3,6 +3,7 @@ import { ArrowRight, Check, ChevronDown, FileText } from 'lucide-react'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
 import { brandify } from '../brand'
+import { SITE_NAME } from '@/config/site'
 import { useAferIndex } from '../index-data'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
@@ -1701,8 +1702,8 @@ function StatsBand() {
   const widthLabel = es ? 'Ancho estable de tabla all-around' : 'Stable all-around board width'
   const testedLabel = es ? 'Probadas en fábrica antes del envío' : 'Factory-tested before dispatch'
   const intro = es
-    ? 'Estos casos documentan cómo marcas, resorts, clubes y operadores reales compran SUP hinchables, kayaks y embarcaciones profesionales a la planta de SUPsfactory en Qingdao. Cada uno cubre el caso de uso, la familia de tablas que le corresponde y las consideraciones operativas que importan al construir — o comprar — una flota.'
-    : 'These case studies document how real brands, resorts, clubs and operators buy inflatable SUPs, kayaks and professional craft from the SUPsfactory plant in Qingdao. Each one covers the use case, the board family that fits it, and the operational considerations that matter when you build — or buy — a fleet.'
+    ? `Estos casos documentan cómo marcas, resorts, clubes y operadores reales compran SUP hinchables, kayaks y embarcaciones profesionales a la planta de ${SITE_NAME} en Qingdao. Cada uno cubre el caso de uso, la familia de tablas que le corresponde y las consideraciones operativas que importan al construir — o comprar — una flota.`
+    : `These case studies document how real brands, resorts, clubs and operators buy inflatable SUPs, kayaks and professional craft from the ${SITE_NAME} plant in Qingdao. Each one covers the use case, the board family that fits it, and the operational considerations that matter when you build — or buy — a fleet.`
   const stats = [
     { value: String(cases.length), label: studyLabel },
     { value: String(regionCount), label: regionLabel },

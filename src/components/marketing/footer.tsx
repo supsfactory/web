@@ -2,6 +2,7 @@
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
 import { FACTS } from '@/features/site/facts'
+import { BRAND_CONTACT } from '@/config/branding'
 import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
@@ -24,8 +25,8 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           <p className="mt-3.5 max-w-[24em] text-[13.5px] leading-relaxed text-fg-3">{t('sup.footer.tagline')}</p>
           <p className="mt-2 text-[12px] font-semibold uppercase tracking-[0.12em] text-fg-3">{t('sup.footer.poweredBy')}</p>
           <div className="mt-5 flex flex-col gap-2 text-[13.5px] text-fg-2">
-            <a href="mailto:info@supsfactory.com" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
-              <Mail size={15} className="text-primary" /> info@supsfactory.com
+            <a href={`mailto:${BRAND_CONTACT.email}`} className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
+              <Mail size={15} className="text-primary" /> {BRAND_CONTACT.email}
             </a>
             <a href={FACTS.contact.whatsappLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
               <Phone size={15} className="text-primary" /> {FACTS.contact.whatsapp}
