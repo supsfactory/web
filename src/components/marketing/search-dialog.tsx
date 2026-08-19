@@ -3,6 +3,7 @@ import { Search as SearchIcon } from 'lucide-react'
 import { useNavigate } from '@tanstack/react-router'
 import type { SearchEntry } from '@/features/site/search'
 import { useTranslation } from '@/features/i18n/provider'
+import { useFocusTrap } from '@/lib/use-focus-trap'
 
 const TYPE_CLASS: Record<SearchEntry['type'], string> = {
   solution: 'bg-primary/10 text-primary',
@@ -20,7 +21,7 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
   const [query, setQuery] = React.useState('')
   const [index, setIndex] = React.useState<SearchEntry[] | null>(null)
   const inputRef = React.useRef<HTMLInputElement>(null)
-  const dialogRef = React.useRef<HTMLDivElement>(null)
+  const searchTrap = useFocusTrap(open)
 
   const submit = (e?: { preventDefault: () => void }) => {
     e?.preventDefault()
@@ -58,7 +59,7 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
 
   React.useEffect(() => {
     function onClick(e: MouseEvent) {
-      if (dialogRef.current && !dialogRef.current.contains(e.target as Node)) onClose()
+      if (searchTrap.current && !searchTrap.current.contains(e.target as Node)) onClose()
     }
     if (open) document.addEventListener('mousedown', onClick)
     return () => document.removeEventListener('mousedown', onClick)
@@ -75,8 +76,8 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
   if (!open) return null
 
   return (
-    <div className="fixed inset-0 z-[70] bg-black/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={t('common.search')}>
-      <div ref={dialogRef} className="mx-auto mt-20 w-[92vw] max-w-2xl">
+    <div ref={searchTrap} className="fixed inset-0 z-[70] bg-black/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={t('common.search')}>
+      <div className="mx-auto mt-20 w-[92vw] max-w-2xl">
         <div className="overflow-hidden rounded-xl border border-border bg-card shadow-[var(--shadow-lg)]">
           <div className="flex items-center gap-3 border-b border-border px-4 py-3">
             <SearchIcon size={18} className="shrink-0 text-fg-3" />

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Loader2, MessageCircle, Send, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { dictionaries } from '@/features/i18n/locale'
+import { useFocusTrap } from '@/lib/use-focus-trap'
 
 interface ChatSource {
   title: string
@@ -26,6 +27,7 @@ const DISCLAIMER = 'Information provided by our AI assistant is for reference on
 export function AiChat() {
   const { t, locale } = useTranslation()
   const [open, setOpen] = useState(false)
+  const chatTrap = useFocusTrap(open)
   const [messages, setMessages] = useState<ChatMessage[]>([])
   const [input, setInput] = useState('')
   const [busy, setBusy] = useState(false)
@@ -88,6 +90,7 @@ export function AiChat() {
 
       {open && (
         <div
+          ref={chatTrap}
           className="fixed bottom-[8.5rem] right-4 z-[60] flex h-[480px] w-[min(92vw,380px)] max-h-[62vh] flex-col overflow-hidden rounded-2xl border border-border bg-bg shadow-2xl md:right-5"
           role="dialog"
           aria-modal="true"

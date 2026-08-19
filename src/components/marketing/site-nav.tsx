@@ -7,6 +7,7 @@ import { LangSwitch } from '@/features/i18n/lang-switch'
 import { SearchDialog } from '@/components/marketing/search-dialog'
 import { useTranslation } from '@/features/i18n/provider'
 import { SITE_NAME } from '@/config/site'
+import { useFocusTrap } from '@/lib/use-focus-trap'
 import { ENTITY_PAGE_PATH } from '@/config/navigation'
 
 interface NavItem {
@@ -23,6 +24,7 @@ interface NavItem {
 export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn: boolean }) {
   const { t, locale } = useTranslation()
   const [open, setOpen] = React.useState(false)
+  const mobileTrap = useFocusTrap(open)
   const [searchOpen, setSearchOpen] = React.useState(false)
   const [drop, setDrop] = React.useState<string | null>(null)
   const [mobileDrop, setMobileDrop] = React.useState<string | null>(null)
@@ -241,6 +243,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
 
         {open && (
           <div
+            ref={mobileTrap}
             className="flex flex-col gap-1 border-t border-border px-4 py-3 lg:hidden"
             onClick={() => setOpen(false)}
             onKeyDown={(e) => { if (e.key === 'Escape') setOpen(false) }}

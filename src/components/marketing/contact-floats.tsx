@@ -1,6 +1,7 @@
 ﻿import { useEffect, useState } from 'react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
+import { useFocusTrap } from '@/lib/use-focus-trap'
 
 const WA_URL = 'https://wa.me/8613305324192'
 const WECHAT_ID = '+86 133 0532 4192'
@@ -24,6 +25,7 @@ function WeChatIcon() {
 export function ContactFloats() {
   const { t, locale } = useTranslation()
   const [open, setOpen] = useState(false)
+  const wechatTrap = useFocusTrap(open)
   const [copied, setCopied] = useState(false)
   const [hidden, setHidden] = useState(false)
   const fl = (path: string): string => localizePath(locale, path)
@@ -62,6 +64,7 @@ export function ContactFloats() {
 
   const wechatPanel = open ? (
     <div
+      ref={wechatTrap}
       className="flex w-[300px] flex-col items-center rounded-xl border border-border bg-bg p-4 shadow-lg"
       role="dialog"
       aria-label={t('sup.contactWeChat')}
