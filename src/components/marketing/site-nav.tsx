@@ -194,7 +194,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
           <div className="flex-1" />
 
           {/* desktop nav with dropdowns */}
-          <div className="hidden items-center gap-0.5 xl:flex">{navItems.map(renderDesktopItem)}</div>
+          <div className="hidden items-center gap-0.5 lg:flex">{navItems.map(renderDesktopItem)}</div>
 
           {/* theme · search · language (search sits between the two) */}
           <div className="flex items-center gap-1">
@@ -209,12 +209,12 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
             </button>
             <LangSwitch />
           </div>
-          <div className="hidden xl:block">{cta}</div>
+          <div className="hidden lg:block">{cta}</div>
 
           {/* mobile hamburger */}
           <button
             type="button"
-            className="inline-flex h-[38px] w-[38px] items-center justify-center rounded-lg text-fg-2 hover:bg-bg-alt hover:text-foreground xl:hidden"
+            className="inline-flex h-[38px] w-[38px] items-center justify-center rounded-lg text-fg-2 hover:bg-bg-alt hover:text-foreground lg:hidden"
             aria-label={t('common.menu')}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
@@ -224,7 +224,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         </nav>
 
         {open && (
-          <div className="flex flex-col gap-1 border-t border-border px-4 py-3 xl:hidden" onClick={() => setOpen(false)}>
+          <div className="flex flex-col gap-1 border-t border-border px-4 py-3 lg:hidden" onClick={() => setOpen(false)}>
             {renderMobileItems(navItems)}
             <div className="mt-2 flex items-center gap-3">{cta}</div>
           </div>
