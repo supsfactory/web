@@ -1,5 +1,5 @@
 import type { Locale } from '@/features/i18n/locale'
-import type { SearchEntry } from '@/features/site/search'
+import type { SearchEntry } from '@/features/content/types'
 import {
   boundary,
   capability,
@@ -33,7 +33,7 @@ import { seriesPages } from './series-pages'
 import { knowledge, knowledgeMeta } from './knowledge'
 import { projects, projectsMeta } from './projects'
 import { GUIDE_CARDS } from './guide-content'
-import { brandify } from '@/features/content/loader'
+import { brandify } from '@/features/content/brand'
 import { HUB_PAGE_ENTRIES } from './ai-content'
 
 /**

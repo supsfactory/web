@@ -105,3 +105,14 @@ export interface ContentResearchTopic {
   category: string
   readTime: string
 }
+
+export type SearchEntryType = 'solution' | 'guide' | 'project' | 'page'
+
+export interface SearchEntry {
+  url: string
+  title: string
+  excerpt: string
+  type: SearchEntryType
+  locale: import('@/features/i18n/locale').Locale
+  content?: string
+}
