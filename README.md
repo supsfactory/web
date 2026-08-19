@@ -13,6 +13,211 @@
 
 ---
 
+## 🏗️ Deploy This Repo as a New Website
+
+This repo is a **Website Foundation** — a full-stack Cloudflare Workers SaaS platform with product-specific data extracted into a swap layer. To launch a new product site, you change **only** the Product layer and Config layer; no framework code needs to know what product you're selling.
+
+### Architecture (5 layers)
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  Product Layer          src/product/                     │
+│  Brand strings, product data, AI prompts, dictionaries  │
+├─────────────────────────────────────────────────────────┤
+│  Site Configuration     src/config/                      │
+│  SITE_ID, domain, locales, feature flags, nav redirects │
+├─────────────────────────────────────────────────────────┤
+│  Website Foundation     src/features/ + src/routes/      │
+│  Auth, search, AI chat, SEO, inquiry, admin, storage    │
+├─────────────────────────────────────────────────────────┤
+│  Cloudflare Platform    D1 + KV + R2 + Vectorize + AI   │
+├─────────────────────────────────────────────────────────┤
+│  Infrastructure         GitHub Actions CI/CD + CDN       │
+└─────────────────────────────────────────────────────────┘
+```
+
+### Step-by-step: launch a new product
+
+#### 1. Fork or use as template
+
+Click **"Use this template"** on GitHub (recommended — keeps a clean history), or fork the repo.
+
+#### 2. Replace Product Layer data (`src/product/`)
+
+These files contain **all brand-specific content**. Replace their contents with your new product's data:
+
+| File | What to replace | Example |
+|------|----------------|---------|
+| `brand-constants.ts` | Tagline, description, boilerplate, build line, OG image filename | `PRODUCT_TAGLINE = 'Turn your kayak ideas into reality'` |
+| `ai-content.ts` | LLM descriptions, AI system role, FAQ excerpts, customization options, OEM applications, hub page entries, case study stats, corpus text, JSON-LD keywords | All 14 exports |
+| `content.ts` | Hero, why, solve, capability, quality, commercial, serve, solutions, studio, products, platforms, gallery, guides, FAQ, CTA, customizer mockup brand — all section content | Full page content per locale |
+| `asset-map.ts` | Missing image map (27 entries), CDN prefix, legacy subdir | Your product's image paths |
+| `route-registry.ts` | SHADOWED_PATHS, EXTRA_PATHS | Your page paths |
+| `edge-redirects.ts` | Legacy URL → new URL redirects | Your old URL mapping |
+| `entity-data.ts` | Schema.org entity facts, services, knowsAbout, subjectOf, page titles | Your org's structured data |
+| `product-jsonld.ts` | 9 structured data generators for products, org, FAQ | Your product JSON-LD |
+| `guide-content.ts` | GUIDES_BY_LOCALE map, guide data | Your guides per locale |
+| `hub-pages.ts` | Hub/landing page entries | Your hub pages |
+| `facts.ts` | Site facts (numbers, stats) | Your product stats |
+| `site-config.ts` | SITE_FACTS, HERO_CONTENT | Your site config data |
+| `knowledge.ts` | Knowledge articles list + metadata | Your knowledge base |
+| `projects.ts` | Project gallery data | Your projects |
+| `series-pages.ts` | Product series pages | Your product series |
+| `solution-pages.ts` | Solution page content + paths | Your solutions |
+| `procurement.ts` | Procurement profiles + commercial rows | Your B2B data |
+| `llms-content.ts` | LLMS.TXT full text | Your LLM discovery text |
+| `dictionary/en-ui.ts` | UI strings (buttons, labels, headings) | Translated UI text |
+| `dictionary/en-product.ts` | Product-specific strings (legal, inquiry, sup-specific) | Your product text |
+| `dictionary/es-ui.ts` | Spanish UI strings | Spanish translations |
+| `dictionary/es-product.ts` | Spanish product strings | Spanish product text |
+| `geo/*.json` | Entity, services, factory, shipping geo data | Your geo data |
+
+#### 3. Replace content files (`src/content/site/`)
+
+These directories hold the **page content** (YAML, MDX, Markdown) loaded by the content registry:
+
+| Directory | Contents |
+|-----------|----------|
+| `content/site/pages/` | Page YAML data (about, factory, technology, solutions, etc.) — en + es variants |
+| `content/site/products/` | Product page MDX (one per product) — en + es variants |
+| `content/site/news/` | News/blog MDX — en + es variants |
+| `content/site/case-use/` | Case study MD — en + es variants |
+| `content/site/technology/` | Technology MD — en + es variants |
+| `content/site/site/` | Site-wide YAML (faqs, pages registry, research) |
+| `content/docs/` | In-app documentation (Fumadocs MDX) |
+
+#### 4. Update Config Layer (`src/config/`)
+
+| File | What to change |
+|------|---------------|
+| `site.ts` | `SITE_ID`, `SITE_NAME`, `SITE_DOMAIN` (SITE_TAGLINE/SITE_DESCRIPTION are re-exported from product layer) |
+| `branding.ts` | `BRAND_CONTACT`, `BRAND_COMPANY_NAME`, `BRAND_PARENT_BRAND`, `BRAND_PARENT_DOMAIN` (logo URLs, social URLs are derived from SITE_DOMAIN) |
+| `locales.ts` | `ACTIVE_LOCALES` (locales with deployed dictionaries); `SUPPORTED_LOCALES` already has 22 entries |
+| `navigation.ts` | `LEGACY_REDIRECTS` (old URL → new URL map), `GONE_PATHS` (410 pages), `ENTITY_PAGE_PATH`, `ABOUT_BRAND_PATH` |
+| `features.ts` | Toggle features on/off for this product deployment |
+| `deployment.ts` | No changes needed — all resource names derive from `SITE_ID` automatically |
+
+#### 5. Create Cloudflare resources
+
+All resource names follow `{SITE_ID}-{resource}-{env}`. For a new `SITE_ID` of `myproduct`:
+
+```bash
+# D1 databases
+wrangler d1 create myproduct-db          # local
+wrangler d1 create myproduct-db-staging  # staging
+wrangler d1 create myproduct-db-prod     # production
+
+# R2 buckets
+wrangler r2 bucket create myproduct-files
+wrangler r2 bucket create myproduct-files-staging
+wrangler r2 bucket create myproduct-files-prod
+
+# KV namespace
+wrangler kv namespace create CACHE
+
+# Vectorize indexes
+wrangler vectorize create myproduct-knowledge --dimensions 1024 --metric cosine
+wrangler vectorize create myproduct-knowledge-staging --dimensions 1024 --metric cosine
+wrangler vectorize create myproduct-knowledge-prod --dimensions 1024 --metric cosine
+```
+
+#### 6. Update `wrangler.example.jsonc`
+
+Replace all `supsfactory` prefixes with your `SITE_ID`:
+- `name`: `myproduct`
+- `d1_databases[].database_name`: `myproduct-db` / `-staging` / `-prod`
+- `d1_databases[].database_id`: paste the IDs from step 5
+- `r2_buckets[].bucket_name`: `myproduct-files` / `-staging` / `-prod`
+- `kv_namespaces[].id`: paste the ID from step 5
+- `vectorize[].index_name`: `myproduct-knowledge` / `-staging` / `-prod`
+- `env.staging.name`: `myproduct-staging`
+- `env.production.name`: `myproduct-production`
+
+Then copy to `wrangler.jsonc`:
+```bash
+cp wrangler.example.jsonc wrangler.jsonc
+```
+
+#### 7. Set GitHub repository variables and secrets
+
+**Variables** (Settings → Secrets and variables → Actions → Variables):
+
+| Variable | Value |
+|----------|-------|
+| `CF_PROD_D1_ID` | Production D1 database ID |
+| `CF_PROD_KV_ID` | Production KV namespace ID |
+| `CF_PROD_DOMAIN` | `myproduct.com` (optional) |
+
+**Secrets** (Settings → Secrets and variables → Actions → New repository secret):
+
+See the full list in the [Environment variables](#environment-variables) section below. At minimum: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL`.
+
+#### 8. Seed the database
+
+```bash
+# Framework tables (required)
+pnpm db:seed:framework:local
+
+# Demo/sample data (optional)
+pnpm db:seed:local
+
+# Or with a custom SITE_ID:
+pnpm db:seed:framework:local --site_id=myproduct
+```
+
+The seed is split:
+- `scripts/framework.sql` — system bootstrap (default admin user, schema)
+- `scripts/demo.sql` — sample data (demo users + feedback)
+
+#### 9. Local dev & deploy
+
+```bash
+pnpm install
+pnpm dev                    # http://localhost:3000
+
+# Deploy
+CLOUDFLARE_ENV=production pnpm build
+wrangler deploy
+```
+
+### Product layer quick reference
+
+```
+src/product/
+  brand-constants.ts    ← 7 exports: tagline, description, boilerplate, build line, not-rob, OG image filename
+  ai-content.ts         ← 14 exports: LLM descriptions, AI prompts, customization, OEM, hub entries, stats, FAQ, corpus, JSON-LD keywords
+  content.ts            ← All section content (hero, products, FAQ, CTA, etc.) with Localized<T> type
+  asset-map.ts          ← Image path map, CDN prefix, legacy subdir
+  route-registry.ts     ← SHADOWED_PATHS, EXTRA_PATHS
+  edge-redirects.ts     ← 100+ legacy redirect rules
+  entity-data.ts        ← Schema.org entity data + page titles
+  product-jsonld.ts     ← 9 structured data generators
+  guide-content.ts      ← GUIDES_BY_LOCALE map + guide data
+  hub-pages.ts          ← Hub/landing page entries
+  facts.ts              ← Site statistics
+  site-config.ts        ← SITE_FACTS, HERO_CONTENT
+  knowledge.ts          ← Knowledge articles
+  projects.ts           ← Project gallery data
+  series-pages.ts       ← Product series pages
+  solution-pages.ts     ← Solution pages + paths
+  procurement.ts        ← B2B procurement data
+  llms-content.ts       ← LLMS.TXT text
+  dictionary/
+    en-ui.ts            ← UI strings (framework-reusable)
+    en-product.ts       ← Product strings (brand-specific)
+    es-ui.ts            ← Spanish UI strings
+    es-product.ts       ← Spanish product strings
+    merge.ts            ← mergeDict() utility
+    index.ts            ← Barrel re-exports
+  geo/
+    entity.json         ← Entity geo data
+    services.json       ← Services geo data
+    factory.json        ← Factory geo data
+    shipping.json       ← Shipping geo data
+```
+
+---
+
 ## 📖 Quick Site Structure Guide (AI & Humans)
 
 This guide maps the **major architectural layers** of SUPsfactory to their source files, so you can jump straight to the code that matters.
@@ -159,57 +364,82 @@ pnpm cf-typegen             # regenerate worker-configuration.d.ts from wrangler
 
 ```
 src/
-  features/        # vertical slices, each self-contained
-    site/          # marketing content (content.ts: products, sections, FAQ)
-                   # + solution-pages.ts (5 solution pages) + llm.ts (LLM corpus builders)
-                   # + search-index.server.ts (full-site search index) + search.ts (Orama)
-    content/       # afarer content loader: registry (pages.yaml), EXTRA_PATHS, SHADOWED_PATHS,
-                   # catch-all (& static-stub) route helpers; bundles src/content/afarer at build time
-    auth/          # better-auth setup, middleware, social buttons, admin-roles (least-privilege)
-    storage/       # R2 object storage: validated upload (MIME + size + magic-number) + serving route
-    email/         # Resend client + string templates
-    waitlist/      # signup page + Turnstile + admin mgmt + CSV export + Resend audience sync
-    inquiry/       # B2B inquiry form: validation, rate limiting, Turnstile, project-file upload
-                   # (10 formats ≤10 MB, extension whitelist + magic-number sniffing),
-                   # HTML-escaped admin notification, admin pipeline (status workflow + CSV)
-    audience/      # Resend contacts/audience sync (reused by waitlist)
-    changelog/     # MDX-driven in-app changelog page (/changelog)
-    feedback/      # example feedback box: submit/list/admin governance — the teach-by-example slice
-    i18n/          # dictionaries (en/es) + provider + localizePath
-    seo/           # sitemap, robots, locale head tags (og:image, hreflang), edge-gate (301/410 policy)
-    docs/          # fumadocs source/layout config + llms.txt text generation
-    admin/         # ADMIN_EMAILS-gated admin: assertAdmin gate, role two-way sync,
-                   # user list/stats/ban/impersonate/delete + CSV exports
-    analytics/     # CF Web Analytics beacon (optional)
-    maintenance/   # Cron cleanup task (expired sessions/tokens/rate-limit rows)
-    theme/         # dark-first theme toggle
+  product/           # ★ PRODUCT LAYER — swap this per deployment
+    brand-constants.ts  7 brand string exports (tagline, description, boilerplate, etc.)
+    ai-content.ts       14 AI/LLM content exports (prompts, corpus text, FAQ, stats)
+    content.ts          All section content (hero, products, FAQ, CTA, customizer, etc.)
+    asset-map.ts        Image path map, CDN prefix
+    route-registry.ts   SHADOWED_PATHS, EXTRA_PATHS
+    edge-redirects.ts   Legacy URL redirect rules (100+)
+    entity-data.ts      Schema.org entity + page titles
+    product-jsonld.ts   9 structured data generators
+    guide-content.ts    GUIDES_BY_LOCALE + guide data
+    hub-pages.ts        Hub/landing page entries
+    facts.ts            Site statistics
+    site-config.ts      SITE_FACTS, HERO_CONTENT
+    knowledge.ts        Knowledge articles
+    projects.ts         Project gallery
+    series-pages.ts     Product series
+    solution-pages.ts   Solutions + paths
+    procurement.ts      B2B procurement data
+    llms-content.ts     LLMS.TXT text
+    dictionary/         en-ui, en-product, es-ui, es-product + merge utility
+    geo/                Entity, services, factory, shipping JSON
+  config/            # ★ SITE CONFIGURATION — adjust per deployment
+    site.ts             SITE_ID, SITE_NAME, SITE_DOMAIN, SITE_URL
+    branding.ts         Logo, social, contact, parent brand (most derived from site.ts + product/)
+    locales.ts          SUPPORTED_LOCALES (22), ACTIVE_LOCALES, LOCALE_LABELS, negotiateLocale
+    navigation.ts       LEGACY_REDIRECTS, GONE_PATHS, ENTITY_PAGE_PATH
+    features.ts         Feature flags (auth, search, ai, inquiry, etc.)
+    deployment.ts       CF resource naming (all derived from SITE_ID)
+    index.ts            Barrel re-exports
+  features/          # ★ WEBSITE FOUNDATION — framework code, no product knowledge
+    site/            Re-export stubs → @/product/ (backward compat)
+    content/         Content registry + catch-all route (bundles src/content/site/)
+    auth/            better-auth setup, middleware, social login, admin roles
+    storage/         R2 upload (MIME + magic-number validation) + serving
+    email/           Resend client + string templates
+    waitlist/        Signup + Turnstile + admin + CSV + Resend audience sync
+    inquiry/         B2B inquiry form: rate limiting, file upload, admin pipeline
+    audience/        Resend contacts/audience sync
+    changelog/       MDX changelog page
+    feedback/        Feedback submit/list/admin governance
+    i18n/            Dictionaries + provider + localizePath
+    seo/             Sitemap, robots, hreflang, edge-gate (301/410)
+    docs/            Fumadocs source + llms.txt generation
+    admin/           ADMIN_EMAILS-gated admin surface
+    analytics/       CF Web Analytics beacon
+    maintenance/     Cron cleanup (sessions, tokens, rate limits)
+    theme/           Dark-first theme toggle
+    ai/              RAG chat: Vectorize + Workers AI + FAQ fallback
   components/
-    ui/            # primitives
-    marketing/     # hero, who-we-serve, solve-section, how-it-works, solutions-section,
-                   # why-us, platforms-section, studio-section, gallery-section, faq, cta,
-                   # reveal, board-art, site-nav, footer, solution-page, solution-route
+    ui/              Primitives
+    marketing/       Hero, sections, board-art, site-nav, footer, etc.
   routes/
-    {-$locale}/    # locale-prefixed bilingual pages: /, /es, /products, /solutions(+5 pages,
-                   # hub), /who-we-serve, /customizer, /waitlist, /changelog, /admin, /app,
-                   # /search, ... — 5 legacy landing stubs that 301 to their solution pages
-    *.tsx          # single-segment afarer stubs (factory, oem-odm-manufacturer, technology, ...)
-    $              # root catch-all that resolves any remaining path against the afarer registry
-    api/, docs/, docs-md/, llms.txt, llms-full.txt, robots.txt, sitemap.xml,
-    entity.json, rss.xml, search-index.json
-  content/afarer/  # ported brand content: site/ (registry), pages/ (yaml), products/ (mdx),
-                   # news/ (mdx), technology/ + case-use/ (md) , geo/ (json)
-  content/docs/    # in-app docs content (MDX sources)
-  lib/             # cross-cutting: cache-headers.ts (edge cache policy), csp.ts,
-                   # security-headers.ts, env.ts, env-validate.ts
-  worker.ts        # worker entry: env validation, edge cache (Cache API), URL gate,
-                   # security headers, Sentry, cron (cleanup + cache warming)
-db/                # Drizzle schema barrel + client + migrations
-drizzle/           # generated SQL migrations (repo root, sibling of src/)
+    {-$locale}/      Locale-prefixed pages (/, /es, /products, /solutions, etc.)
+    *.tsx            Single-segment content stubs (factory, technology, etc.)
+    $                Root catch-all → content registry
+    api/             Server API routes
+  content/site/     # ★ PRODUCT CONTENT — swap per deployment
+    pages/           Page YAML (about, factory, solutions, etc.) — en + es
+    products/        Product MDX — en + es
+    news/            News MDX — en + es
+    case-use/        Case study MD — en + es
+    technology/      Technology MD — en + es
+    site/            Site-wide YAML (faqs, registry, research)
+  content/docs/      In-app documentation (MDX)
+  lib/               Cross-cutting: cache-headers, CSP, security headers, env validation
+  worker.ts          Worker entry: env validation, edge cache, URL gate, Sentry, cron
+db/                  Drizzle schema + client + migrations
+drizzle/             Generated SQL migrations
+scripts/
+  framework.sql      System bootstrap seed (admin user)
+  demo.sql           Sample data seed (demo users + feedback)
 ```
 
-> **Product photos** are self-hosted on `assets.supsfactory.com` (the site's R2 CDN). To swap assets, replace the URLs in `src/features/site/content.ts` (and `OG_IMAGE` in `src/features/seo/seo.ts`).
+> **Product photos** are self-hosted on the site's R2 CDN (`assets.{SITE_DOMAIN}`). To swap assets, update the image URLs in `src/product/content.ts` and `src/product/asset-map.ts` (plus `PRODUCT_OG_IMAGE_FILENAME` in `brand-constants.ts`).
 >
-> **Site media (product photos, videos, PDFs, quality photos)** are referenced via the R2 CDN (`assets.supsfactory.com/site/...`), with source files kept in Git (`public/assets/products/`, `public/assets/videos/`, `public/downloads/`, `public/assets/quality/`) so the deploy workflow can keep R2 in sync: the "Upload site assets to R2" step runs `scripts/upload-site-assets.mjs --http --missing` (Cloudflare API token) before every deploy — idempotent, only missing objects are PUT. For manual backfills: `pnpm upload:site-assets` (needs `CLOUDFLARE_API_TOKEN`/`CLOUDFLARE_ACCOUNT_ID`, or R2 S3 credentials for the default S3 mode).
+> **Site media** are referenced via the R2 CDN, with source files in `public/assets/`. The deploy workflow keeps R2 in sync via `scripts/upload-site-assets.mjs --http --missing`.
 
 ## Environment variables
 
