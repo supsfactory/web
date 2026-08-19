@@ -24,7 +24,8 @@ npx wrangler login
 
 ## 2. 创建线上资源
 
-应用要用到三种存储资源,逐条创建:
+应用要用到三种存储资源,逐条创建(所有资源名从 `SITE_ID` 派生,详见
+`src/config/deployment.ts`;下面以默认 SITE_ID `supsfactory` 为例):
 
 ```bash
 npx wrangler d1 create supsfactory-db-prod          # D1 数据库
@@ -52,7 +53,7 @@ Secrets and variables → Actions → Secrets），`deploy.yml` 每次部署后�
 | GitHub Secret | 必填 | 说明 |
 | --- | --- | --- |
 | `BETTER_AUTH_SECRET` | ✅ | 会话加密密钥（`openssl rand -base64 32` 生成） |
-| `BETTER_AUTH_URL` | ✅ | 线上域名，如 `https://supsfactory.example.com`；首次只有 workers.dev 时可填 `https://supsfactory-production.<你的子域>.workers.dev` |
+| `BETTER_AUTH_URL` | ✅ | 线上域名，如 `https://your-domain.com`；首次只有 workers.dev 时可填 `https://{SITE_ID}-production.<你的子域>.workers.dev` |
 | `RESEND_API_KEY` | 强烈建议 | 邮件发送（原因见下方 Callout） |
 | `EMAIL_FROM` | 可选 | 发信地址，如 `noreply@your-domain.com` |
 | `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | 可选 | Google 登录（留空则按钮不显示） |
@@ -76,7 +77,7 @@ GitHub Secret 再 push，或手动重跑 Deploy workflow。不想走 GitHub 的�
 
 ```bash
 pnpm db:migrate:prod
-# 等价于:npx wrangler d1 migrations apply supsfactory-db-prod --env production --remote
+# 等价于:npx wrangler d1 migrations apply {SITE_ID}-db-prod --env production --remote
 ```
 
 这会在线上库建好所有表(含 auth 表)。
@@ -84,7 +85,7 @@ pnpm db:migrate:prod
 <Callout type="warn">
 **必须先迁移、再部署**(第 6 步)。worker 有启动期环境校验,且业务代码一上线就会查表——
 表没建好会直接报错。注意别用 `pnpm db:migrate:remote`(旧脚本已移除),它指向的是默认库
-`supsfactory-db` 而非生产库。
+而非生产库。
 </Callout>
 
 ## 6. 构建并部署
@@ -102,7 +103,7 @@ pnpm deploy:prod
 
 <Callout type="warn">
 别直接 `npx wrangler deploy`(不先 `CLOUDFLARE_ENV=production` build):那样发出去的是**顶层
-默认环境**(worker 名 `supsfactory`、全 0 占位绑定),不是生产。环境是在 build 时烘进
+默认环境**(worker 名为 `{SITE_ID}`、全 0 占位绑定),不是生产。环境是在 build 时烘进
 `dist` 的,deploy 只是把 build 产物推上去。用 `pnpm deploy:prod` / `pnpm deploy:staging` 即可。
 </Callout>
 

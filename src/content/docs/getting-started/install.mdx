@@ -2,7 +2,7 @@
 title: "本地安装与启动"
 ---
 
-这一页带你从零把 SUPsfactory 在本机跑起来。**本地开发不需要任何付费账号、也不需要
+这一页带你从零把本项目在本机跑起来。**本地开发不需要任何付费账号、也不需要
 Cloudflare 账号** —— 所有外部服务(邮件、支付、验证码……)留空即自动关闭,应用照常运行。
 
 ## 前置准备
@@ -85,10 +85,10 @@ openssl rand -base64 32
 
 ## 4. 初始化本地数据库
 
-创建本地 D1 库并写入种子数据:
+创建本地 D1 库并写入种子数据(框架表 + 示例数据):
 
 ```bash
-pnpm db:migrate:local && pnpm db:seed:local
+pnpm db:migrate:local && pnpm db:seed:framework:local && pnpm db:seed:local
 ```
 
 (数据库工作流详见 [迁移与种子](/docs/getting-started/migrations)。)

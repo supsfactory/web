@@ -1,10 +1,13 @@
 ---
-title: SUPsfactory 文档
-description: SUPsfactory —— TanStack Start + Cloudflare Workers 边缘原生 SaaS 起手模板的文档。
+title: 文档
+description: 基于 TanStack Start + Cloudflare Workers 的边缘原生 SaaS 网站基础平台文档。
 ---
 
-欢迎来到 **SUPsfactory** 文档 —— 基于 **TanStack Start + Cloudflare Workers** 的
-全栈、边缘原生 SaaS 起手模板。Clone 下来,在它之上构建你自己的产品。
+欢迎来到文档 —— 基于 **TanStack Start + Cloudflare Workers** 的
+全栈、边缘原生 SaaS **网站基础平台**。Clone 下来,替换 Product 层,在上面构建你自己的产品。
+
+本平台采用 **5 层架构**: Product Layer → Site Configuration → Website Foundation → Cloudflare Platform → Infrastructure。
+框架代码从不直接引用品牌数据——要部署新产品,只需替换 `src/product/` 和 `src/config/`。
 
 这套文档本身也是模板的一部分:它内嵌在同一个 app 里,是 `/docs` 路由下的一个
 [Fumadocs](https://fumadocs.dev) 站点,内容源文件在 `src/content/docs/`,随主站
