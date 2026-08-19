@@ -51,7 +51,10 @@ export function VideoShowcase({
             <img
               src={poster}
               alt={title}
+              width={1600}
+              height={900}
               loading="lazy"
+              decoding="async"
               className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
             />
             <span className="absolute inset-0 grid place-items-center">

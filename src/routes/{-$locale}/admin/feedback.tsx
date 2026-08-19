@@ -108,8 +108,8 @@ function FeedbackAdmin() {
       </div>
       <div className="mt-4 flex max-w-3xl items-center justify-end gap-2">
         <span className="text-sm text-fg-3">{t('admin.pageOf', { page: page + 1, total: totalPages })}</span>
-        <Button variant="outline" size="sm" disabled={page === 0} onClick={() => setSearch({ page: page - 1, pageSize })}><ChevronLeft size={15} /></Button>
-        <Button variant="outline" size="sm" disabled={page + 1 >= totalPages} onClick={() => setSearch({ page: page + 1, pageSize })}><ChevronRight size={15} /></Button>
+        <Button variant="outline" size="sm" aria-label="Previous page" disabled={page === 0} onClick={() => setSearch({ page: page - 1, pageSize })}><ChevronLeft size={15} /></Button>
+        <Button variant="outline" size="sm" aria-label="Next page" disabled={page + 1 >= totalPages} onClick={() => setSearch({ page: page + 1, pageSize })}><ChevronRight size={15} /></Button>
       </div>
       <AppToaster />
     </AppShell>

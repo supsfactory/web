@@ -342,7 +342,7 @@ function FeatureGrid({ c, grid: gridProp = 'sm:grid-cols-2 lg:grid-cols-3' }: { 
           const card = (
             <div className="marine-card flex h-full flex-col p-6">
               {image && (
-                <img src={image} alt={str(it.alt) || str(it.title)} loading="lazy" className="mb-4 aspect-[4/3] w-full rounded-xl border border-border-2 object-cover" />
+                <img src={image} alt={str(it.alt) || str(it.title)} width={800} height={600} loading="lazy" decoding="async" className="mb-4 aspect-[4/3] w-full rounded-xl border border-border-2 object-cover" />
               )}
               {icon && (
                 <span className={`mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl font-display text-lg font-extrabold ${ICON_HUE[str(it.icon_bg)] ?? (icon.length === 1 ? (ICON_HUE[icon.toLowerCase()] ?? 'bg-soft text-primary') : 'bg-soft text-primary')}`}>
@@ -486,7 +486,10 @@ function QcFlowWidget({ c }: { c: Record<string, unknown> }) {
                   <img
                     src={image}
                     alt={str(s.alt) || str(s.title) || ''}
+                    width={800}
+                    height={600}
                     loading="lazy"
+                    decoding="async"
                     className="h-52 w-full border-b border-border-2 object-cover md:h-full md:border-b-0 md:border-r"
                   />
                 )}
@@ -746,7 +749,7 @@ function BlogLatest({ c }: { c: Record<string, unknown> }) {
         {posts.map((p) => (
           <a key={p.slug} href={localize(`/news/${p.slug}`, locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
             {p.image && (
-              <img src={p.image} alt={p.title} loading="lazy" className="aspect-[16/9] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
+              <img src={p.image} alt={p.title} width={1600} height={900} loading="lazy" decoding="async" className="aspect-[16/9] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
             )}
             <div className="flex flex-1 flex-col p-5">
               <div className="flex items-center gap-2 text-[11.5px] font-bold uppercase tracking-wider text-fg-3">
@@ -774,7 +777,7 @@ function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
         {items.map((p) => (
           <a key={p.slug} href={localize(`/products/${p.slug}`, locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
             {p.image && (
-              <img src={p.image} alt={p.title} loading="lazy" className="aspect-[4/3] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
+              <img src={p.image} alt={p.title} width={800} height={600} loading="lazy" decoding="async" className="aspect-[4/3] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
             )}
             <div className="flex flex-1 flex-col p-5">
               <span className="pill self-start border-primary/25! bg-soft! text-primary!">{p.sku}</span>
@@ -842,7 +845,7 @@ function CaseCardsWidget({ c }: { c: Record<string, unknown> }) {
       <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {items.map((it, i) => (
           <div key={i} className="marine-card flex h-full flex-col p-6">
-            {str(it.image) && <img src={assetUrl(str(it.image))} alt={str(it.alt) || str(it.title)} loading="lazy" className="mb-4 aspect-[16/9] w-full rounded-xl border border-border-2 object-cover" />}
+            {str(it.image) && <img src={assetUrl(str(it.image))} alt={str(it.alt) || str(it.title)} width={1600} height={900} loading="lazy" decoding="async" className="mb-4 aspect-[16/9] w-full rounded-xl border border-border-2 object-cover" />}
             <div className="flex flex-wrap items-center gap-2 text-[11.5px] font-bold uppercase tracking-wider text-fg-3">
               {str(it.industry) && <span className="pill border-primary/25! bg-soft! text-primary!">{str(it.industry)}</span>}
               {str(it.country) && <span>{str(it.country)}</span>}

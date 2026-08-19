@@ -59,11 +59,11 @@ function ProjectsIndex() {
             <span className="mr-1 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
               {t('sup.projects.filterCustomerType')}
             </span>
-            <button type="button" onClick={() => setCustomer('')} className={chip(!customer)}>
+            <button type="button" aria-label="Filter: show all customer types" onClick={() => setCustomer('')} className={chip(!customer)}>
               {t('sup.projects.filterAll')}
             </button>
             {customers.map((c) => (
-              <button key={c} type="button" onClick={() => setCustomer(customer === c ? '' : c)} className={chip(customer === c)}>
+              <button key={c} type="button" aria-label={`Filter customer type: ${c}`} onClick={() => setCustomer(customer === c ? '' : c)} className={chip(customer === c)}>
                 {c}
               </button>
             ))}
@@ -72,11 +72,11 @@ function ProjectsIndex() {
             <span className="mr-1 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
               {t('sup.projects.filterProductCategory')}
             </span>
-            <button type="button" onClick={() => setCategory('')} className={chip(!category)}>
+            <button type="button" aria-label="Filter: show all product categories" onClick={() => setCategory('')} className={chip(!category)}>
               {t('sup.projects.filterAll')}
             </button>
             {categories.map((c) => (
-              <button key={c} type="button" onClick={() => setCategory(category === c ? '' : c)} className={chip(category === c)}>
+              <button key={c} type="button" aria-label={`Filter product category: ${c}`} onClick={() => setCategory(category === c ? '' : c)} className={chip(category === c)}>
                 {c}
               </button>
             ))}

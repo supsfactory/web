@@ -58,7 +58,7 @@ export function AvatarUploader({ image, name }: { image?: string | null; name: s
   return (
     <div className="flex items-center gap-4">
       <div className="grid size-16 place-items-center overflow-hidden rounded-full bg-bg-2 text-xl font-semibold text-fg-2">
-        {src ? <img src={src} alt={name} className="size-full object-cover" /> : initial}
+        {src ? <img src={src} alt={name} width={48} height={48} decoding="async" className="size-full object-cover" /> : initial}
       </div>
       <div className="grid gap-1.5">
         <input

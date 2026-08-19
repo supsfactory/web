@@ -16,7 +16,7 @@ export function GallerySection({ heading }: { heading?: React.ReactNode }) {
           <Reveal key={p.title} delay={i * 90}>
             <div className="marine-card flex h-full flex-col overflow-hidden p-0">
               <div className="zoom-img relative aspect-[4/3] overflow-hidden border-b border-border-2 bg-bg-alt">
-                <img src={p.image} alt={p.title} loading="lazy" className="h-full w-full object-cover" />
+                <img src={p.image} alt={p.title} width={800} height={600} loading="lazy" decoding="async" className="h-full w-full object-cover" />
               </div>
               <div className="flex flex-1 flex-col p-7">
                 <span className="pill self-start border-primary/25! bg-soft! text-primary!">{p.tag}</span>

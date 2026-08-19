@@ -15,7 +15,7 @@ export function WhyUs() {
       <div className="grid items-center gap-12 lg:grid-cols-2">
         <Reveal>
           <div className="relative overflow-hidden rounded-[28px] border border-border-2 shadow-[var(--shadow-lg)]">
-            <img src={c.image} alt={c.imageCaption} loading="lazy" className="aspect-[4/3] w-full object-cover" />
+            <img src={c.image} alt={c.imageCaption} width={800} height={600} loading="lazy" decoding="async" className="aspect-[4/3] w-full object-cover" />
             <span className="absolute inset-x-0 bottom-0 flex items-center gap-2 bg-gradient-to-t from-[#063a5c]/85 to-transparent px-6 pb-5 pt-12 text-[13px] font-bold uppercase tracking-[0.14em] text-white">
               {c.imageCaption}
             </span>

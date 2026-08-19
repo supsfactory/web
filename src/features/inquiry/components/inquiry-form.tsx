@@ -409,6 +409,7 @@ export function InquiryForm({
               {fileName && (
                 <button
                   type="button"
+                  aria-label="Remove uploaded file"
                   className="inline-flex items-center gap-1 text-[13px] font-medium text-fg-3 hover:text-destructive"
                   onClick={() => {
                     setFileName(null)

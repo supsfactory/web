@@ -71,13 +71,19 @@ function AboutPage() {
           <img
             src={`${BRAND_ASSETS_CDN}/site/videos/2026/sup-manufacturing.jpg`}
             alt={t('content.seo.aboutFactoryAlt')}
+            width={1600}
+            height={1000}
             loading="lazy"
+            decoding="async"
             className="aspect-[16/10] w-full rounded-2xl border border-border-2 object-cover"
           />
           <img
             src={`${BRAND_ASSETS_CDN}/site/videos/2026/oem-brand-launch.jpg`}
             alt={t('content.seo.aboutOemAlt')}
+            width={1600}
+            height={1000}
             loading="lazy"
+            decoding="async"
             className="aspect-[16/10] w-full rounded-2xl border border-border-2 object-cover"
           />
         </div>

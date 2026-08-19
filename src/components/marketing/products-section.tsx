@@ -19,8 +19,11 @@ export function ProductCard({ product, priority = false }: { product: Product; p
         <img
           src={product.image}
           alt={product.name}
+          width={800}
+          height={600}
           loading={priority ? 'eager' : 'lazy'}
           fetchPriority={priority ? 'high' : 'auto'}
+          decoding={priority ? 'auto' : 'async'}
           className="h-full w-full object-cover"
         />
         <div className="absolute left-3 top-3 flex items-center gap-2">
@@ -90,6 +93,7 @@ export function ProductsSection({
         <div className="mb-10 flex flex-wrap items-center justify-center gap-2">
           <button
             type="button"
+            aria-label={`Filter: ${filters.all}`}
             onClick={() => change('all')}
             className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-colors ${
               current === 'all' ? 'bg-primary text-primary-foreground' : 'border border-border-2 text-fg-2 hover:border-primary/40 hover:text-foreground'
@@ -101,6 +105,7 @@ export function ProductsSection({
             <button
               key={g.key}
               type="button"
+              aria-label={`Filter: ${g.label}`}
               onClick={() => change(current === g.key ? 'all' : g.key)}
               className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-colors ${
                 current === g.key ? 'bg-primary text-primary-foreground' : 'border border-border-2 text-fg-2 hover:border-primary/40 hover:text-foreground'

@@ -23,8 +23,11 @@ export function BoardCategories() {
                 <img
                   src={item.image}
                   alt={item.label}
+                  width={800}
+                  height={600}
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="p-5">

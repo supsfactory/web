@@ -62,12 +62,8 @@ export const Route = createFileRoute('/$')({
       { property: 'og:locale', content: 'en_US' },
       { property: 'og:type', content: loaderData.kind === 'post' ? 'article' : loaderData.kind === 'product' ? 'product' : 'website' },
       { property: 'og:image', content: absImage },
-      ...(image === OG_IMAGE
-        ? [
-            { property: 'og:image:width', content: '1200' },
-            { property: 'og:image:height', content: '630' },
-          ]
-        : []),
+      { property: 'og:image:width', content: '1200' },
+      { property: 'og:image:height', content: '630' },
       { property: 'og:image:type', content: absImage.endsWith('.webp') ? 'image/webp' : 'image/jpeg' },
       { property: 'og:image:alt', content: `${SITE_NAME} �?${title.replace(/\s+\|.*$/, '')}` },
       { name: 'twitter:card', content: 'summary_large_image' },

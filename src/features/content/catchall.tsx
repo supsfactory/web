@@ -325,7 +325,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
         <div className="grid gap-8 lg:grid-cols-[1.1fr_1fr]">
           <div className="grid gap-3">
             {gallery.map((img, i) => (
-              <img key={i} src={img.url} alt={img.alt ?? product.title} loading={i === 0 ? 'eager' : 'lazy'} fetchPriority={i === 0 ? 'high' : 'auto'} className="w-full rounded-2xl border border-border-2 object-cover" />
+              <img key={i} src={img.url} alt={img.alt ?? product.title} width={1200} height={630} loading={i === 0 ? 'eager' : 'lazy'} fetchPriority={i === 0 ? 'high' : 'auto'} decoding={i === 0 ? 'auto' : 'async'} className="w-full rounded-2xl border border-border-2 object-cover" />
             ))}
           </div>
           <div>
@@ -472,7 +472,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   className="marine-card group flex flex-col overflow-hidden p-0 transition-colors hover:border-primary/40"
                 >
                   {r.image && (
-                    <img src={r.image} alt={r.title} loading="lazy" className="aspect-[4/3] w-full object-cover" />
+                    <img src={r.image} alt={r.title} width={800} height={600} loading="lazy" decoding="async" className="aspect-[4/3] w-full object-cover" />
                   )}
                   <div className="flex flex-1 flex-col gap-1 p-4">
                     <p className="text-[13.5px] font-bold leading-snug">{r.title}</p>
@@ -604,7 +604,7 @@ function PostView({ post, relatedPosts, origin, path, locale }: { post: ContentP
             </span>
           )}
         </div>
-        {post.image && <img src={post.image} alt={post.title} loading="lazy" className="mt-6 w-full rounded-2xl border border-border-2 object-cover" />}
+        {post.image && <img src={post.image} alt={post.title} width={1200} height={630} loading="lazy" decoding="async" className="mt-6 w-full rounded-2xl border border-border-2 object-cover" />}
         <Markdown text={brandify(post.body)} className="mt-4" />
         <JsonLd
           data={breadcrumbLd(origin, [

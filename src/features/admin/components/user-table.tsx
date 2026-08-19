@@ -64,7 +64,7 @@ export function UserTable({ rows, sortBy, sortDir, onSort, onRowClick }: Props) 
             <TableCell>
               <div className="flex items-center gap-2.5">
                 <Avatar>
-                  <AvatarImage src={u.image ?? undefined} alt="" />
+                  <AvatarImage src={u.image ?? undefined} alt={u.name ?? 'User avatar'} />
                   <AvatarFallback>{initials(u.name, u.email)}</AvatarFallback>
                 </Avatar>
                 <span className="font-semibold text-foreground">{u.name}</span>

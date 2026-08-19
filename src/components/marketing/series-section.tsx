@@ -17,7 +17,7 @@ export function SeriesSection() {
           <Reveal key={s.sku} delay={i * 90}>
             <a href={s.href} className="marine-card group block h-full overflow-hidden p-0">
               <div className="zoom-img relative aspect-[4/3] overflow-hidden border-b border-border-2 bg-bg-alt">
-                <img src={s.image} alt={s.title} loading="lazy" className="h-full w-full object-cover" />
+                <img src={s.image} alt={s.title} width={800} height={600} loading="lazy" decoding="async" className="h-full w-full object-cover" />
                 <span className="absolute left-3 top-3 rounded-full bg-card/90 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wider text-fg-3 backdrop-blur">
                   {s.sku}
                 </span>
