@@ -5,9 +5,9 @@ const GET = (_path: string, type = 'text/html; charset=utf-8') =>
   new Response('<html></html>', { headers: { 'content-type': type } })
 
 describe('withMarketingCache', () => {
-  it('caches public marketing HTML for 1h', () => {
+  it('caches public marketing HTML for 1h with stale-while-revalidate', () => {
     const r = withMarketingCache(new Request('https://x.test/'), GET('/'))
-    expect(r.headers.get('cache-control')).toBe('public, max-age=3600')
+    expect(r.headers.get('cache-control')).toBe('public, max-age=3600, stale-while-revalidate=86400')
   })
 
   it('respects an upstream Cache-Control (redirects)', () => {
@@ -35,10 +35,10 @@ describe('withMarketingCache', () => {
     expect(r.headers.has('cache-control')).toBe(false)
   })
 
-  it('caches crawler files (robots/sitemap/llms) for 1h', () => {
+  it('caches crawler files (robots/sitemap/llms) for 1h with stale-while-revalidate', () => {
     for (const path of ['/robots.txt', '/llms.txt', '/sitemap.xml', '/sitemap-pages.xml', '/sitemap-products.xml']) {
       const r = withMarketingCache(new Request(`https://x.test${path}`), GET(path, 'application/xml'))
-      expect(r.headers.get('cache-control')).toBe('public, max-age=3600')
+      expect(r.headers.get('cache-control')).toBe('public, max-age=3600, stale-while-revalidate=86400')
     }
   })
 })

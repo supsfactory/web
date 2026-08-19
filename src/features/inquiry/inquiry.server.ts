@@ -1,5 +1,5 @@
 /** R2 + D1 persistence for project inquiries. Thin wrappers — validation lives in inquiry.shared.ts. */
-import { and, desc, eq, or, sql } from 'drizzle-orm'
+import { and, count, desc, eq, or, sql } from 'drizzle-orm'
 import type { DB } from '@/db/client'
 import { inquiry, type Inquiry } from './inquiry.schema'
 import type { InquiryStatus, InquiryTier, ProjectFileExtension } from './inquiry.shared'
@@ -105,9 +105,9 @@ export async function listInquiries(
   const where = tier && searchWhere ? and(eq(inquiry.tier, tier), searchWhere) : tier ? eq(inquiry.tier, tier) : searchWhere
   const [rows, countRows] = await Promise.all([
     db.select().from(inquiry).where(where).orderBy(desc(inquiry.createdAt)).limit(pageSize).offset((page - 1) * pageSize),
-    db.select({ n: inquiry.id }).from(inquiry).where(where),
+    db.select({ n: count() }).from(inquiry).where(where),
   ])
-  return { rows, total: countRows.length }
+  return { rows, total: countRows[0]?.n ?? 0 }
 }
 
 export async function setInquiryStatus(

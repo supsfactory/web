@@ -36,6 +36,13 @@ export function AiChat() {
     listRef.current?.scrollTo({ top: listRef.current.scrollHeight })
   }, [messages, busy, error, open])
 
+  useEffect(() => {
+    if (!open) return
+    function onKey(e: KeyboardEvent) { if (e.key === 'Escape') setOpen(false) }
+    document.addEventListener('keydown', onKey)
+    return () => document.removeEventListener('keydown', onKey)
+  }, [open])
+
   const send = async (raw: string) => {
     const question = raw.trim()
     if (!question || busy) return
@@ -80,7 +87,12 @@ export function AiChat() {
       </button>
 
       {open && (
-        <div className="fixed bottom-[8.5rem] right-4 z-[60] flex h-[480px] w-[min(92vw,380px)] max-h-[62vh] flex-col overflow-hidden rounded-2xl border border-border bg-bg shadow-2xl md:right-5">
+        <div
+          className="fixed bottom-[8.5rem] right-4 z-[60] flex h-[480px] w-[min(92vw,380px)] max-h-[62vh] flex-col overflow-hidden rounded-2xl border border-border bg-bg shadow-2xl md:right-5"
+          role="dialog"
+          aria-modal="true"
+          aria-label={t('sup.aiChat.title')}
+        >
           <div className="flex items-center justify-between gap-2 border-b border-border px-4 py-3">
             <div>
               <p className="text-[14px] font-semibold text-foreground">{t('sup.aiChat.title')}</p>
@@ -88,7 +100,7 @@ export function AiChat() {
             </div>
           </div>
 
-          <div ref={listRef} className="flex-1 overflow-y-auto px-4 py-3">
+          <div ref={listRef} className="flex-1 overflow-y-auto px-4 py-3" aria-live="polite" aria-atomic="false">
             {messages.length === 0 && (
               <div className="flex flex-col gap-2 pt-1">
                 {(dictionaries[locale].sup.aiChat.chips as readonly string[]).map((chip) => (
@@ -138,8 +150,8 @@ export function AiChat() {
             ))}
 
             {busy && (
-              <div className="flex items-center gap-2 text-[13px] text-fg-3">
-                <Loader2 size={14} className="animate-spin" />
+              <div className="flex items-center gap-2 text-[13px] text-fg-3" role="status">
+                <Loader2 size={14} className="animate-spin" aria-hidden="true" />
                 {t('sup.aiChat.thinking')}
               </div>
             )}

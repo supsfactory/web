@@ -63,13 +63,13 @@ export function withMarketingCache(request: Request, response: Response): Respon
   if (request.method !== 'GET' && request.method !== 'HEAD') return response
   if (SEO_TEXT.test(path)) {
     const headers = new Headers(response.headers)
-    headers.set('Cache-Control', 'public, max-age=3600')
+    headers.set('Cache-Control', 'public, max-age=3600, stale-while-revalidate=86400')
     return new Response(response.body, { status: response.status, statusText: response.statusText, headers })
   }
   const contentType = response.headers.get('content-type') ?? ''
   if (!contentType.includes('text/html')) return response
   const headers = new Headers(response.headers)
-  if (!headers.has('Cache-Control')) headers.set('Cache-Control', 'public, max-age=3600')
+  if (!headers.has('Cache-Control')) headers.set('Cache-Control', 'public, max-age=3600, stale-while-revalidate=86400')
   return new Response(response.body, { status: response.status, statusText: response.statusText, headers })
 }
 

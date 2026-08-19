@@ -39,6 +39,7 @@ const handler = () => {
     `    <title>${SITE_NAME} News</title>`,
     `    <link>${origin}/news</link>`,
     `    <description>Latest news from ${SITE_NAME} \u2014 ${BRAND_BOILERPLATE}</description>`,
+    `    <language>en</language>`,
     `    <atom:link href="${origin}/rss.xml" rel="self" type="application/rss+xml"/>`,
     posts.length > 0 ? `    <lastBuildDate>${rfc822(posts[0].date)}</lastBuildDate>` : '',
     ...items,
@@ -49,7 +50,7 @@ const handler = () => {
     .filter(Boolean)
     .join('\n')
   return new Response(xml, {
-    headers: { 'content-type': 'application/rss+xml; charset=utf-8' },
+    headers: { 'content-type': 'application/rss+xml; charset=utf-8', 'cache-control': 'public, max-age=3600' },
   })
 }
 

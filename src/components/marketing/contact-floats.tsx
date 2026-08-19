@@ -61,7 +61,12 @@ export function ContactFloats() {
   }
 
   const wechatPanel = open ? (
-    <div className="flex w-[300px] flex-col items-center rounded-xl border border-border bg-bg p-4 shadow-lg">
+    <div
+      className="flex w-[300px] flex-col items-center rounded-xl border border-border bg-bg p-4 shadow-lg"
+      role="dialog"
+      aria-label={t('sup.contactWeChat')}
+      onKeyDown={(e) => { if (e.key === 'Escape') setOpen(false) }}
+    >
       <img
         src="/assets/wechat-qr.jpg"
         alt="WeChat QR code"
@@ -69,16 +74,16 @@ export function ContactFloats() {
         className="h-48 w-auto rounded-lg border border-border-2 bg-white p-1.5"
       />
       <p className="mt-3 text-center text-[13px] font-medium text-foreground">{t('sup.contactWeChatHint')}</p>
-      <div className="mt-2 flex items-center gap-2">
-        <span className="text-[13.5px] text-fg-2">{WECHAT_ID}</span>
-        <button
-          type="button"
-          onClick={copyWeChat}
-          className="rounded-md bg-primary px-2 py-1 text-[12px] font-medium text-primary-foreground transition-colors hover:bg-primary-hover"
-        >
-          {copied ? t('sup.contactCopied') : t('sup.contactCopy')}
-        </button>
-      </div>
+        <div className="mt-2 flex items-center gap-2">
+          <span className="text-[13.5px] text-fg-2">{WECHAT_ID}</span>
+          <button
+            type="button"
+            onClick={copyWeChat}
+            className="rounded-md bg-primary px-2 py-1 text-[12px] font-medium text-primary-foreground transition-colors hover:bg-primary-hover"
+          >
+            <span role="status" aria-live="polite">{copied ? t('sup.contactCopied') : t('sup.contactCopy')}</span>
+          </button>
+        </div>
     </div>
   ) : null
 

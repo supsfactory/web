@@ -445,11 +445,6 @@ export interface CommercialCell {
   lines: string[]
 }
 
-export interface CommercialCell {
-  label: string
-  lines: string[]
-}
-
 export interface MoqTier {
   stage: string
   quantity: string

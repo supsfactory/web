@@ -205,111 +205,119 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
 
 export function ContentCatchAll({ data }: { data: CatchAllData }) {
   const { theme, user } = rootRoute.useLoaderData()
-  const { t } = useTranslation()
-
-  const body = (() => {
-    switch (data.kind) {
-      case 'page': {
-        const page = data.page
-        const faqs = collectPageFaqs(page)
-        return (
-          <>
-            <ContentSections page={page} />
-            <JsonLd
-              data={breadcrumbLd(data.origin, [
-                { name: t('content.nav.home'), path: '/' },
-                { name: data.title, path: data.path },
-              ])}
-            />
-            {data.path.startsWith('/research/') && (
-              <JsonLd data={researchArticleLd(data.origin, data.path, data.title, data.description, page)} />
-            )}
-            {JSONLD_KEYWORDS[data.path] && (
-              <JsonLd
-                data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, JSONLD_KEYWORDS[data.path].keywords, JSONLD_KEYWORDS[data.path].articleTitle)}
-              />
-            )}
-            {page.meta?.dateModified && (
-              <JsonLd
-                data={{
-                  '@context': 'https://schema.org',
-                  '@type': 'WebPage',
-                  url: `${data.origin}${data.path}`,
-                  dateModified: page.meta.dateModified,
-                }}
-              />
-            )}
-            {faqs.length > 0 && <JsonLd data={faqLd(faqs, data.locale)} />}
-          </>
-        )
-      }
-      case 'product':
-        return (
-          <>
-            <ProductView product={data.product} related={data.related} origin={data.origin} locale={data.locale} />
-            <CtaBand productSlug={data.product.slug} />
-          </>
-        )
-      case 'post':
-        return (
-          <>
-            <PostView post={data.post} relatedPosts={data.relatedPosts} origin={data.origin} path={data.path} locale={data.locale} />
-            <CtaBand />
-          </>
-        )
-      case 'article':
-        return <ArticleView article={data.article} origin={data.origin} title={data.title} path={data.path} locale={data.locale} />
-      case 'case':
-        return <CaseView c={data.case} origin={data.origin} title={data.title} path={data.path} locale={data.locale} />
-      case 'guide':
-        return <GuideView slug={data.slug} origin={data.origin} path={data.path} locale={data.locale} />
-      case 'faq':
-        return <FaqView faqs={data.faqs} origin={data.origin} path={data.path} translated={data.translated} locale={data.locale} />
-      case 'cases-index':
-        return (
-          <>
-            <PageHero
-              kicker={t('content.cases.kicker')}
-              title={t('content.cases.title', { brand: BRAND_PARENT_BRAND })}
-              sub={t('content.cases.sub')}
-            />
-            <CaseStudiesIndex />
-            {data.index.cases && data.index.cases.length > 0 && (
-              <JsonLd
-                data={itemListLd(data.index.cases.map((c) => ({ name: c.title, path: `/evidence/case-studies/${c.slug}` })))}
-              />
-            )}
-          </>
-        )
-      case 'research-index':
-        return (
-          <>
-            <PageHero
-              kicker={t('content.research.kicker')}
-              title={t('content.research.title')}
-              sub={t('content.research.sub')}
-            />
-            <ResearchIndex />
-            {data.index.topics && data.index.topics.length > 0 && (
-              <JsonLd
-                data={itemListLd(data.index.topics.map((t) => ({ name: t.slug.replace(/-/g, ' '), path: `/research/${t.slug}` })))}
-              />
-            )}
-          </>
-        )
-    }
-  })()
-
   return (
     <I18nProvider locale={data.locale}>
       <AferIndexProvider value={data.index}>
-        <div className="min-h-screen bg-background text-foreground">
-          <SiteNav theme={theme} loggedIn={!!user} />
-          {body}
-          <Footer theme={theme} />
-        </div>
+        <CatchAllShell data={data} theme={theme} loggedIn={!!user} />
       </AferIndexProvider>
     </I18nProvider>
+  )
+}
+
+function CatchAllShell({ data, theme, loggedIn }: { data: CatchAllData; theme: 'light' | 'dark'; loggedIn: boolean }) {
+  const { t } = useTranslation()
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground focus:shadow-lg">
+        Skip to content
+      </a>
+      <SiteNav theme={theme} loggedIn={loggedIn} />
+      <main id="main-content">
+      {(() => {
+        switch (data.kind) {
+          case 'page': {
+            const page = data.page
+            const faqs = collectPageFaqs(page)
+            return (
+              <>
+                <ContentSections page={page} />
+                <JsonLd
+                  data={breadcrumbLd(data.origin, [
+                    { name: t('content.nav.home'), path: '/' },
+                    { name: data.title, path: data.path },
+                  ])}
+                />
+                {data.path.startsWith('/research/') && (
+                  <JsonLd data={researchArticleLd(data.origin, data.path, data.title, data.description, page)} />
+                )}
+                {JSONLD_KEYWORDS[data.path] && (
+                  <JsonLd
+                    data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, JSONLD_KEYWORDS[data.path].keywords, JSONLD_KEYWORDS[data.path].articleTitle)}
+                  />
+                )}
+                {page.meta?.dateModified && (
+                  <JsonLd
+                    data={{
+                      '@context': 'https://schema.org',
+                      '@type': 'WebPage',
+                      url: `${data.origin}${data.path}`,
+                      dateModified: page.meta.dateModified,
+                    }}
+                  />
+                )}
+                {faqs.length > 0 && <JsonLd data={faqLd(faqs, data.locale)} />}
+              </>
+            )
+          }
+          case 'product':
+            return (
+              <>
+                <ProductView product={data.product} related={data.related} origin={data.origin} locale={data.locale} />
+                <CtaBand productSlug={data.product.slug} />
+              </>
+            )
+          case 'post':
+            return (
+              <>
+                <PostView post={data.post} relatedPosts={data.relatedPosts} origin={data.origin} path={data.path} locale={data.locale} />
+                <CtaBand />
+              </>
+            )
+          case 'article':
+            return <ArticleView article={data.article} origin={data.origin} title={data.title} path={data.path} locale={data.locale} />
+          case 'case':
+            return <CaseView c={data.case} origin={data.origin} title={data.title} path={data.path} locale={data.locale} />
+          case 'guide':
+            return <GuideView slug={data.slug} origin={data.origin} path={data.path} locale={data.locale} />
+          case 'faq':
+            return <FaqView faqs={data.faqs} origin={data.origin} path={data.path} translated={data.translated} locale={data.locale} />
+          case 'cases-index':
+            return (
+              <>
+                <PageHero
+                  kicker={t('content.cases.kicker')}
+                  title={t('content.cases.title', { brand: BRAND_PARENT_BRAND })}
+                  sub={t('content.cases.sub')}
+                />
+                <CaseStudiesIndex />
+                {data.index.cases && data.index.cases.length > 0 && (
+                  <JsonLd
+                    data={itemListLd(data.index.cases.map((c) => ({ name: c.title, path: `/evidence/case-studies/${c.slug}` })))}
+                  />
+                )}
+              </>
+            )
+          case 'research-index':
+            return (
+              <>
+                <PageHero
+                  kicker={t('content.research.kicker')}
+                  title={t('content.research.title')}
+                  sub={t('content.research.sub')}
+                />
+                <ResearchIndex />
+                {data.index.topics && data.index.topics.length > 0 && (
+                  <JsonLd
+                    data={itemListLd(data.index.topics.map((t) => ({ name: t.slug.replace(/-/g, ' '), path: `/research/${t.slug}` })))}
+                  />
+                )}
+              </>
+            )
+        }
+      })()}
+      </main>
+      <Footer theme={theme} />
+    </div>
   )
 }
 

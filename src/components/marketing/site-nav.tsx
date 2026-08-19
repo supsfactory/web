@@ -140,7 +140,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         <button
           type="button"
           className={`${linkCls} inline-flex items-center gap-1`}
-          aria-haspopup="true"
+          aria-haspopup="menu"
           aria-expanded={isOpen}
           onClick={() => setDrop(isOpen ? null : item.label)}
         >
@@ -197,7 +197,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         <div className="flex h-9 items-center justify-end gap-4 border-b border-border/60 px-4 md:px-7">
           {authLink}
         </div>
-        <nav className="flex h-16 items-center gap-3 px-4 md:px-7">
+        <nav aria-label="Main navigation" className="flex h-16 items-center gap-3 px-4 md:px-7">
           <a href={l('/')} aria-label={SITE_NAME} className="shrink-0">
             <div className="flex flex-col leading-tight">
               <Logo />
@@ -237,7 +237,14 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         </nav>
 
         {open && (
-          <div className="flex flex-col gap-1 border-t border-border px-4 py-3 lg:hidden" onClick={() => setOpen(false)}>
+          <div
+            className="flex flex-col gap-1 border-t border-border px-4 py-3 lg:hidden"
+            onClick={() => setOpen(false)}
+            onKeyDown={(e) => { if (e.key === 'Escape') setOpen(false) }}
+            role="dialog"
+            aria-modal="true"
+            aria-label={t('common.menu')}
+          >
             {renderMobileItems(navItems)}
             <div className="mt-2 flex items-center gap-3">{cta}</div>
           </div>

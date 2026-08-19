@@ -40,6 +40,7 @@ export function ErrorPage({ error, reset }: { error: Error; reset: () => void })
       )}
       <div className="flex gap-3">
         <button
+          type="button"
           onClick={reset}
           className="inline-flex h-13 items-center gap-2 rounded-[6px] border border-border px-6 text-base font-semibold transition-colors hover:bg-bg-2"
         >

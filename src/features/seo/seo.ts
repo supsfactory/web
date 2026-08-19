@@ -187,6 +187,7 @@ export function localeHead(input: {
   title: string
   description: string
   ogTitle?: string
+  ogType?: string
   image?: string
 }): { meta: HeadMeta[]; links: HeadLink[] } {
   const { origin, locale, path, title, description, ogTitle } = input
@@ -205,6 +206,7 @@ export function localeHead(input: {
     { title },
     { name: 'description', content: description },
     { property: 'og:site_name', content: SITE_NAME },
+    { property: 'og:type', content: input.ogType ?? 'website' },
     { property: 'og:title', content: ogTitle ?? title },
     { property: 'og:description', content: description },
     { property: 'og:url', content: canonical },
@@ -218,6 +220,7 @@ export function localeHead(input: {
       content: `${SITE_NAME} — ${SITE_TAGLINE}`,
     },
     { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:site', content: '@SUPsfactory' },
     { name: 'twitter:title', content: title },
     { name: 'twitter:description', content: description },
     { name: 'twitter:image', content: image },
