@@ -28,7 +28,7 @@ stats:
     label: Skilled workers
   - value: 120,000+
     label: SUPs produced annually
-  - value:
+  - value: ISO 9001
     label: Quality certified
 
 intelligence_tagline: Factory Intelligence

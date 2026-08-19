@@ -1,4 +1,4 @@
-import { createFileRoute, redirect } from '@tanstack/react-router'
+import { createFileRoute, redirect, ErrorComponent } from '@tanstack/react-router'
 import { OG_IMAGE, localeHead } from '@/features/seo/seo'
 import { isLocale, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
 import { SITE_NAME } from '@/config/site'
@@ -20,6 +20,7 @@ const stripLocalePrefix = (path: string): string => {
 }
 
 export const Route = createFileRoute('/$')({
+  errorComponent: ErrorComponent,
   loader: async ({ params }) => {
     const splat = params._splat ?? ''
     const raw = `/${splat}`.replace(/\/+$/, '') || '/'

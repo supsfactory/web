@@ -1,9 +1,11 @@
-﻿import { OG_IMAGE } from '@/features/seo/seo'
+﻿import { ErrorComponent } from '@tanstack/react-router'
+import { OG_IMAGE } from '@/features/seo/seo'
 import { SITE_NAME } from '@/config/site'
 import type { CatchAllData } from './catchall'
 
 export function contentSingleRoute(path: string) {
   return {
+    errorComponent: ErrorComponent,
     loader: async (): Promise<CatchAllData> => {
       const { contentServerLoader } = await import('./catchall')
       return contentServerLoader({ data: { path, locale: 'en' } })

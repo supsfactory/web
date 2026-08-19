@@ -1,4 +1,4 @@
-import { createRootRoute, HeadContent, Outlet, Scripts, useRouterState } from '@tanstack/react-router'
+import { createRootRoute, ErrorComponent, HeadContent, Outlet, Scripts, useRouterState } from '@tanstack/react-router'
 import { useEffect } from 'react'
 import { isLocale, defaultLocale } from '@/features/i18n/locale'
 import { getPreferences } from '@/server/preferences'
@@ -54,6 +54,7 @@ export const Route = createRootRoute({
       return { theme: 'light' as const, themeFromCookie: false, user: null, analyticsToken: null, ga4Id: null }
     }
   },
+  errorComponent: ErrorComponent,
   component: RootComponent,
 })
 
