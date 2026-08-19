@@ -22,6 +22,7 @@ const QualitySteps = lazy(() => import('@/components/marketing/quality-steps').t
 const CommercialTerms = lazy(() => import('@/components/marketing/commercial-terms').then((m) => ({ default: m.CommercialTerms })))
 const HowItWorks = lazy(() => import('@/components/marketing/how-it-works').then((m) => ({ default: m.HowItWorks })))
 const PlatformsSection = lazy(() => import('@/components/marketing/platforms-section').then((m) => ({ default: m.PlatformsSection })))
+const BoardCategories = lazy(() => import('@/components/marketing/board-categories').then((m) => ({ default: m.BoardCategories })))
 const StudioSection = lazy(() => import('@/components/marketing/studio-section').then((m) => ({ default: m.StudioSection })))
 const SeriesSection = lazy(() => import('@/components/marketing/series-section').then((m) => ({ default: m.SeriesSection })))
 const WhyUs = lazy(() => import('@/components/marketing/why-us').then((m) => ({ default: m.WhyUs })))
@@ -77,6 +78,7 @@ function Home() {
         <CommercialTerms />
         <HowItWorks />
         <PlatformsSection />
+        <BoardCategories />
         <StudioSection />
         <SeriesSection />
         <WhyUs />

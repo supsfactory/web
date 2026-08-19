@@ -1501,6 +1501,61 @@ export const works: Localized<WorksContent> = {
   },
 }
 
+/* ─────────────────────────── home: board categories ─────────────────────────── */
+
+export interface BoardCategory {
+  id: string
+  label: string
+  desc: string
+  image: string
+  href: string
+}
+
+export interface BoardCategoriesContent {
+  kicker: string
+  title: string
+  sub: string
+  viewLabel: string
+  items: BoardCategory[]
+}
+
+export const boardCategories: Localized<BoardCategoriesContent> = {
+  en: {
+    kicker: 'Our Boards',
+    title: 'Performance Meets Freedom',
+    sub: 'Every board category is a manufacturing platform — choose your starting point and we customize the shape, graphics and specs to your product.',
+    viewLabel: 'View',
+    items: [
+      { id: 'all-around', label: 'All-Around', desc: 'Versatile SUP boards for paddlers of all skill levels.', image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring SUP', desc: 'Long-distance boards for exploration and adventure.', image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Race', desc: 'Performance boards for racing and athletic paddling.', image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Whitewater', desc: 'Rugged boards engineered for river rapids and lifestyle.', image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Spacious decks designed for yoga and fitness.', image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Agile boards for catching waves and surf riding.', image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Fishing', desc: 'Stable platforms with rod holders and utility hulls for angling.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'Kids SUPs', desc: 'Smaller, lighter boards designed for children.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Multi-Person', desc: 'Large-format team boards for 6–8 riders.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+    ],
+  },
+  es: {
+    kicker: 'Nuestras Tablas',
+    title: 'Rendimiento y Libertad',
+    sub: 'Cada categoría es una plataforma de fabricación: elige tu punto de partida y adaptamos la forma, los gráficos y las especificaciones a tu producto.',
+    viewLabel: 'Ver',
+    items: [
+      { id: 'all-around', label: 'Polivalente', desc: 'Tablas SUP versátiles para remeros de todos los niveles.', image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'SUP de Travesía', desc: 'Tablas de larga distancia para exploración y aventura.', image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Competición', desc: 'Tablas de rendimiento para carreras y remo deportivo.', image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Aguas Bravas', desc: 'Tablas resistentes diseñadas para rápidos de río y estilo de vida.', image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Cubiertas amplias diseñadas para yoga y fitness.', image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Tablas ágiles para cazar olas y surfear.', image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Pesca', desc: 'Plataformas estables con portacañas y casco utilitario para la pesca.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'SUP Infantil', desc: 'Tablas más pequeñas y ligeras diseñadas para niños.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Multipersona', desc: 'Tablas de equipo de gran formato para 6–8 remeros.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+    ],
+  },
+}
+
 /* ─────────────────────────── home: product platforms ─────────────────────────── */
 
 export interface PlatformItem {
