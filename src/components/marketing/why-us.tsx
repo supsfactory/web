@@ -1,5 +1,5 @@
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, why } from '@/features/site/content'
+import { pick, why } from '@/product/content'
 import { Reveal } from './reveal'
 import { Settings2, Factory, Layers, Globe } from 'lucide-react'
 

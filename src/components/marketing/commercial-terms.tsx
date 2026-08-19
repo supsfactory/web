@@ -1,5 +1,5 @@
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, commercial } from '@/features/site/content'
+import { pick, commercial } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 

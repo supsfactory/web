@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Server-only site search index builder.
  *
  * Statically imported by server routes (`/search-index.json`) and dynamically
@@ -7,12 +7,12 @@
  */
 
 import { locales, localizePath, type Locale } from '@/features/i18n/locale'
-import { buildHubEntries } from './hub-pages'
-import { pick } from './content'
-import { solutionPages, solutionPath } from './solution-pages'
-import { knowledge } from './knowledge'
-import { projects } from './projects'
-import { seriesPages } from './series-pages'
+import { buildHubEntries } from '@/product/hub-pages'
+import { pick } from '@/product/content'
+import { solutionPages, solutionPath } from '@/product/solution-pages'
+import { knowledge } from '@/product/knowledge'
+import { projects } from '@/product/projects'
+import { seriesPages } from '@/product/series-pages'
 import {
   brandify,
   getContentPage,

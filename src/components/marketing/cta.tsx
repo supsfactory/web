@@ -1,7 +1,7 @@
-﻿import { ArrowRight } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
-import { pick, cta } from '@/features/site/content'
+import { pick, cta } from '@/product/content'
 
 /** Shared conversion band (ocean gradient, drifting waves + sunset CTA). */
 export function CtaBand({ productSlug }: { productSlug?: string }) {

@@ -1,10 +1,10 @@
-﻿import { ArrowRight, CheckCircle2, Target, AlertCircle } from 'lucide-react'
-import type { SolutionPageData } from '@/features/site/solution-pages'
+import { ArrowRight, CheckCircle2, Target, AlertCircle } from 'lucide-react'
+import type { SolutionPageData } from '@/product/solution-pages'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
 import { PageHero, SectionHead } from './section-head'
 import { JsonLd, faqLd, serviceLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
-import { solutionPath } from '@/features/site/solution-pages'
+import { solutionPath } from '@/product/solution-pages'
 
 /**
  * Shared renderer for the Solutions system pages (src/features/site/solution-pages.ts).

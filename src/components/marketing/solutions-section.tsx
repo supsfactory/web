@@ -1,6 +1,6 @@
 import { Check } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, solutions } from '@/features/site/content'
+import { pick, solutions } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 import { SlidersHorizontal, Palette, Package, Settings2 } from 'lucide-react'

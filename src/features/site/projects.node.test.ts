@@ -1,7 +1,7 @@
 import { test, expect, vi } from 'vitest'
 import { renderToString } from 'react-dom/server'
 import * as React from 'react'
-import { projects } from './projects'
+import { projects } from '@/product/projects'
 
 // ProjectPage itself uses no router hooks — only MarketingShell reads the root
 // loader data (theme/user). Mock getRouteApi so the case page can be SSR'd in

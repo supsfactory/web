@@ -5,12 +5,12 @@
 import { describe, expect, test } from 'vitest'
 import type { SearchEntry } from './search'
 import { buildExtendedIndex, buildFullIndex } from './search-index.server'
-import { solutionPages, solutionPath } from './solution-pages'
-import { knowledge } from './knowledge'
-import { projects } from './projects'
-import { seriesPages } from './series-pages'
-import { pick } from './content'
-import { hero, galleryPage, products, solutions } from './content'
+import { solutionPages, solutionPath } from '@/product/solution-pages'
+import { knowledge } from '@/product/knowledge'
+import { projects } from '@/product/projects'
+import { seriesPages } from '@/product/series-pages'
+import { pick } from '@/product/content'
+import { hero, galleryPage, products, solutions } from '@/product/content'
 
 describe('buildExtendedIndex', () => {
   test('every entry carries a non-empty searchable surface', () => {

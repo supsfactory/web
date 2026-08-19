@@ -1,7 +1,7 @@
-﻿import { products } from './content'
-import { solutionPages, solutionPath } from './solution-pages'
-import { projects } from './projects'
-import { knowledge } from './knowledge'
+import { products } from '@/product/content'
+import { solutionPages, solutionPath } from '@/product/solution-pages'
+import { projects } from '@/product/projects'
+import { knowledge } from '@/product/knowledge'
 import {
   getContentPages,
   getContentProducts,

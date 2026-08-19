@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Shared content catch-all logic.
  *
  * A single root splat route (`src/routes/$.tsx`) serves the ported content
@@ -25,7 +25,7 @@ import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd } from '@/featur
 import { brandify } from './brand'
 import { AferIndexProvider, type AferIndexData } from './index-data'
 import { getGuide } from './guide-content'
-import { FACTS } from '@/features/site/facts'
+import { FACTS } from '@/product/facts'
 import { SITE_NAME } from '@/config/site'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config/branding'
 import { CUSTOMIZATION_OPTIONS, OEM_APPLICATIONS } from '@/product/ai-content'

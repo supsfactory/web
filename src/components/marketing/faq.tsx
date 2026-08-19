@@ -1,6 +1,6 @@
 import { Plus } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, faq } from '@/features/site/content'
+import { pick, faq } from '@/product/content'
 import { SectionHead } from './section-head'
 
 /** SEO-friendly FAQ accordion (native <details>, no JS needed). */

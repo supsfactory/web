@@ -1,13 +1,13 @@
-﻿import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { env } from '@/lib/env'
 import { buildLocaleSitemap, PUBLIC_PATHS } from '@/features/seo/seo'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { getLocalePaths, getLocaleContentPaths } from '@/features/content/loader'
 import { GUIDES_ES } from '@/features/content/guide-content'
-import { projects } from '@/features/site/projects'
-import { knowledge } from '@/features/site/knowledge'
-import { seriesPages } from '@/features/site/series-pages'
+import { projects } from '@/product/projects'
+import { knowledge } from '@/product/knowledge'
+import { seriesPages } from '@/product/series-pages'
 
 // Spanish marketing pages (hreflang-linked to the English pages file) plus the
 // afarer pages and detail content (news/products/technology/case-use/guides)

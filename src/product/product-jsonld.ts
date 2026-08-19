@@ -1,4 +1,4 @@
-import { FACTS } from '@/features/site/facts'
+import { FACTS } from '@/product/facts'
 import { SITE_NAME, SITE_URL } from '@/config/site'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_CONTACT, BRAND_PARENT_URL } from '@/config/branding'
 import { LLM_SITE_DESCRIPTION } from './ai-content'

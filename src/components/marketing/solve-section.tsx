@@ -1,7 +1,7 @@
-﻿import { Lightbulb, Layers, ShieldCheck, FlaskConical } from 'lucide-react'
+import { Lightbulb, Layers, ShieldCheck, FlaskConical } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
-import { pick, solve } from '@/features/site/content'
+import { pick, solve } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 

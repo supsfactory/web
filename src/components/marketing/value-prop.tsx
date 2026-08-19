@@ -1,6 +1,6 @@
 import { Sparkles, Layers, DraftingCompass, Factory, BadgeCheck, Globe } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, valueProp } from '@/features/site/content'
+import { pick, valueProp } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 

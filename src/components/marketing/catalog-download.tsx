@@ -4,7 +4,7 @@ import { Field } from '@/features/auth/components/auth-card'
 import { Button } from '@/components/ui/button'
 import { useTurnstile } from '@/features/auth/components/turnstile'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, catalogDownload } from '@/features/site/content'
+import { pick, catalogDownload } from '@/product/content'
 import { trackLead } from '@/features/analytics/events'
 import { joinWaitlist } from '@/features/waitlist/waitlist.actions'
 

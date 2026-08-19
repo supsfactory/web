@@ -1,7 +1,7 @@
-﻿import { ArrowRight } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
-import { pick, guides } from '@/features/site/content'
+import { pick, guides } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 

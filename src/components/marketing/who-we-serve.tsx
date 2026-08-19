@@ -1,7 +1,7 @@
 import { ArrowRight, Package, BadgeCheck, Hotel, Users } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
-import { pick, serve } from '@/features/site/content'
+import { pick, serve } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 

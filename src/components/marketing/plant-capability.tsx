@@ -1,5 +1,5 @@
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, capability } from '@/features/site/content'
+import { pick, capability } from '@/product/content'
 import { Scissors, Zap, Layers, Palette, Wrench, Package } from 'lucide-react'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'

@@ -1,6 +1,6 @@
 import { MoveRight, Ruler, Palette, Layers, Wrench, Package } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, studio } from '@/features/site/content'
+import { pick, studio } from '@/product/content'
 import { SectionHead } from './section-head'
 
 const ICONS = [Ruler, Palette, Layers, Wrench, Package]

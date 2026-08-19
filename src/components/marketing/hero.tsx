@@ -1,7 +1,7 @@
-﻿import { ArrowRight } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
-import { pick, hero } from '@/features/site/content'
+import { pick, hero } from '@/product/content'
 import { HERO_IMAGE, HERO_IMAGE_480, HERO_IMAGE_768 } from '@/features/seo/seo'
 
 /** Home hero: 100svh ocean scene — headline left, brand mockup card on a water stage right, drifting waves below. */

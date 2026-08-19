@@ -1,4 +1,4 @@
-﻿import { test, expect } from 'vitest'
+import { test, expect } from 'vitest'
 import { readdirSync, readFileSync, existsSync, statSync } from 'node:fs'
 import { join, resolve } from 'node:path'
 import {
@@ -12,10 +12,10 @@ import {
 import { GUIDES } from '@/features/content/guide-content'
 import { PUBLIC_PATHS } from '@/features/seo/seo'
 import { gatePath } from '@/features/seo/edge-gate'
-import { knowledge } from '@/features/site/knowledge'
-import { projects } from '@/features/site/projects'
-import { seriesPages } from '@/features/site/series-pages'
-import { solutionPath, solutionPages } from '@/features/site/solution-pages'
+import { knowledge } from '@/product/knowledge'
+import { projects } from '@/product/projects'
+import { seriesPages } from '@/product/series-pages'
+import { solutionPath, solutionPages } from '@/product/solution-pages'
 
 /* ───────────────────────── live route set ───────────────────────── */
 

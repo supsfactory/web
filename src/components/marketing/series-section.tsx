@@ -1,6 +1,6 @@
 import { MoveRight } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, series } from '@/features/site/content'
+import { pick, series } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 

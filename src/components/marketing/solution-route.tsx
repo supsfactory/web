@@ -2,7 +2,7 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
-import { getSolutionPage, solutionPath } from '@/features/site/solution-pages'
+import { getSolutionPage, solutionPath } from '@/product/solution-pages'
 import { SolutionPage } from './solution-page'
 import { MarketingShell } from './shell'
 

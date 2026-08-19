@@ -1,10 +1,10 @@
-﻿import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import { getTurnstileSiteKey } from '@/features/auth/middleware'
 import type { Locale } from '@/features/i18n/locale'
-import { getSeriesPage } from '@/features/site/series-pages'
-import type { SeriesPageData } from '@/features/site/series-pages'
+import { getSeriesPage } from '@/product/series-pages'
+import type { SeriesPageData } from '@/product/series-pages'
 import type { CatchAllData } from '@/features/content/catchall'
 
 type ProductCatchAll = Extract<CatchAllData, { kind: 'product' }>

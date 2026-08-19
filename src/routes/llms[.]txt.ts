@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { env } from '@/lib/env'
-import { LLMS_TXT } from '@/features/site/llms-content'
+import { LLMS_TXT } from '@/product/llms-content'
 import {
   llmAfarierIndex,
   llmProductsIndex,

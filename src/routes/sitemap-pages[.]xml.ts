@@ -1,12 +1,12 @@
-﻿import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { env } from '@/lib/env'
 import { buildSitemap } from '@/features/seo/seo'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { getContentPages, getLocalePaths } from '@/features/content/loader'
 import { GUIDES } from '@/features/content/guide-content'
-import { projects } from '@/features/site/projects'
-import { knowledge } from '@/features/site/knowledge'
-import { seriesPages } from '@/features/site/series-pages'
+import { projects } from '@/product/projects'
+import { knowledge } from '@/product/knowledge'
+import { seriesPages } from '@/product/series-pages'
 
 // English marketing pages (hreflang-linked to /es mirrors in sitemap-es) plus
 // afarer/static pages; every entry whose /es twin renders a real translation

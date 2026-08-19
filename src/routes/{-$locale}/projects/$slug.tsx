@@ -3,7 +3,7 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
-import { getProject } from '@/features/site/projects'
+import { getProject } from '@/product/projects'
 import { ProjectPage } from '@/components/marketing/project-page'
 
 export const Route = createFileRoute('/{-$locale}/projects/$slug')({

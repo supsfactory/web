@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Corpus builder for the AI knowledge index (server-only).
  *
  * Statically imports the full afarer corpus, so it must never enter the client
@@ -7,12 +7,12 @@
  */
 
 import { localizePath, type Locale } from '@/features/i18n/locale'
-import { pick } from '@/features/site/content'
-import { solutionPages, solutionPath } from '@/features/site/solution-pages'
-import { knowledge } from '@/features/site/knowledge'
-import { projects } from '@/features/site/projects'
-import { seriesPages } from '@/features/site/series-pages'
-import { buildHubEntries } from '@/features/site/hub-pages'
+import { pick } from '@/product/content'
+import { solutionPages, solutionPath } from '@/product/solution-pages'
+import { knowledge } from '@/product/knowledge'
+import { projects } from '@/product/projects'
+import { seriesPages } from '@/product/series-pages'
+import { buildHubEntries } from '@/product/hub-pages'
 import { localizedGuides } from '@/features/content/guide-content'
 import { STATIC_PAGE_CORPUS_TEXT } from '@/product/ai-content'
 import {

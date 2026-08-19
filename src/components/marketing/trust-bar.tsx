@@ -1,5 +1,5 @@
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, trustBar } from '@/features/site/content'
+import { pick, trustBar } from '@/product/content'
 
 /** Home: proof bar right under the hero — verifiable ordering facts (MOQ, samples, lead time, capacity, plant, certs), all sourced from FACTS. */
 export function TrustBar() {
