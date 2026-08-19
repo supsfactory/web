@@ -25,6 +25,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
   const [open, setOpen] = React.useState(false)
   const [searchOpen, setSearchOpen] = React.useState(false)
   const [drop, setDrop] = React.useState<string | null>(null)
+  const [mobileDrop, setMobileDrop] = React.useState<string | null>(null)
 
   const linkCls =
     'rounded-md px-3 py-2 text-sm font-medium text-fg-2 transition-colors hover:bg-bg-alt hover:text-foreground'
@@ -162,20 +163,32 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
   }
 
   const renderMobileItems = (items: NavItem[]) =>
-    items.map((item) =>
-      item.items ? (
+    items.map((item) => {
+      if (!item.items) {
+        return <div key={item.label}>{renderNavLink(item, () => setOpen(false))}</div>
+      }
+      const isOpen = mobileDrop === item.label
+      return (
         <div key={item.label} className="flex flex-col">
-          <span className="px-3 py-2 text-sm font-semibold text-foreground">{item.label}</span>
-          <div className="flex flex-col border-l border-border pl-3">
-            {item.items.map((sub) => (
-              <div key={sub.label}>{renderNavLink(sub, () => setOpen(false))}</div>
-            ))}
-          </div>
+          <button
+            type="button"
+            className="flex items-center justify-between px-3 py-2 text-sm font-semibold text-foreground"
+            onClick={(e) => { e.stopPropagation(); setMobileDrop(isOpen ? null : item.label) }}
+            aria-expanded={isOpen}
+          >
+            {item.label}
+            <ChevronDown size={14} className={`transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+          </button>
+          {isOpen && (
+            <div className="flex flex-col border-l border-border pl-3">
+              {item.items.map((sub) => (
+                <div key={sub.label}>{renderNavLink(sub, () => setOpen(false))}</div>
+              ))}
+            </div>
+          )}
         </div>
-      ) : (
-        <div key={item.label}>{renderNavLink(item, () => setOpen(false))}</div>
-      ),
-    )
+      )
+    })
 
   return (
     <>
