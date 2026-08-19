@@ -2,7 +2,8 @@ import { ArrowRight } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
 import { pick, hero } from '@/product/content'
-import { HERO_IMAGE, HERO_IMAGE_480, HERO_IMAGE_768 } from '@/features/seo/seo'
+import { HERO_IMAGE, HERO_IMAGE_480, HERO_IMAGE_768, HERO_IMAGE_WEBP } from '@/features/seo/seo'
+import { PictureImg } from '@/components/ui/picture-img'
 
 /** Home hero: 100svh ocean scene — headline left, brand mockup card on a water stage right, drifting waves below. */
 export function Hero() {
@@ -93,9 +94,9 @@ export function Hero() {
                 style={{ background: 'radial-gradient(circle, rgba(0,119,182,0.35) 0%, transparent 70%)' }}
                 aria-hidden="true"
               />
-              <img
-                src={HERO_IMAGE}
-                srcSet={`${HERO_IMAGE} 1200w, ${HERO_IMAGE_768} 768w, ${HERO_IMAGE_480} 480w`}
+              <PictureImg
+                avifSrcSet={`${HERO_IMAGE} 1200w, ${HERO_IMAGE_768} 768w, ${HERO_IMAGE_480} 480w`}
+                webp={HERO_IMAGE_WEBP}
                 sizes="(min-width: 768px) 512px, calc(100vw - 2.5rem)"
                 alt={c.mockupBrand}
                 width={1200}
