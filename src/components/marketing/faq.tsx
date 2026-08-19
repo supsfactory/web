@@ -22,7 +22,7 @@ export function FaqSection({ heading }: { heading?: React.ReactNode }) {
           <details key={item.q} className="faq-row">
             <summary>
               {item.q}
-              <Plus size={17} className="faq-icon" />
+              <Plus size={17} className="faq-icon" aria-hidden="true" />
             </summary>
             <div className="faq-body">{item.a}</div>
           </details>

@@ -943,6 +943,13 @@ input {
   -webkit-backdrop-filter: blur(14px);
 }
 
+.sun-grad:focus-visible,
+[class*="hover:scale-10"]:focus-visible,
+[class*="hover:-translate-y"]:focus-visible {
+  outline: 2px solid var(--ring, hsl(217 91% 60%));
+  outline-offset: 2px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .auth-back,
   .price-pop,
@@ -950,7 +957,9 @@ input {
   .wave-layer,
   .float-y,
   .reveal,
-  .zoom-img > * {
+  .zoom-img > *,
+  [class*="hover:scale-"],
+  [class*="hover:-translate-y"] {
     transition: none;
     animation: none;
   }

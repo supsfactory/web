@@ -1,20 +1,18 @@
-import { useRouter } from '@tanstack/react-router'
 import { Globe } from 'lucide-react'
 import { defaultLocale, type Locale } from './locale'
 import { LOCALE_LABELS, ACTIVE_LOCALES } from '@/config/locales'
 import { useTranslation } from './provider'
 
 function switchLocaleTo(target: Locale) {
-  const router = useRouter()
   const { pathname, search, hash } = window.location
   const currentPrefix = pathname.match(/^\/([a-z]{2}(-[A-Z]{2})?)(?=\/|$)/)?.[1]
   const stripped = currentPrefix ? pathname.slice(currentPrefix.length + 1) : pathname
   const clean = stripped || '/'
   const newPath =
     target === defaultLocale ? clean : `/${target}${clean === '/' ? '' : clean}`
-  const href = newPath + search + hash
+  const url = newPath + search + hash
   document.cookie = `locale=${target}; path=/; max-age=31536000; samesite=lax`
-  router.navigate({ href, replace: true } as never)
+  window.location.href = url
 }
 
 export function LangSwitch() {

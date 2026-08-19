@@ -37,6 +37,7 @@ export function VideoShowcase({
             autoPlay
             playsInline
             poster={poster}
+            aria-label={title}
             className="aspect-video w-full rounded-3xl border border-border-2 bg-bg-alt object-cover"
           >
             <source src={video} type="video/mp4" />
@@ -59,7 +60,7 @@ export function VideoShowcase({
             />
             <span className="absolute inset-0 grid place-items-center">
               <span className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/90 text-white shadow-[var(--shadow-lg)] transition-transform duration-300 group-hover:scale-110">
-                <Play fill="currentColor" size={26} />
+                <Play fill="currentColor" size={26} aria-hidden="true" />
               </span>
             </span>
           </button>

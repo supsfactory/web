@@ -106,7 +106,7 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
                     <a
                       href={m.url}
                       onClick={() => onClose()}
-                      className="flex items-center gap-2.5 rounded-lg px-3 py-2 hover:bg-bg-alt"
+                      className="flex items-center gap-2.5 rounded-lg px-3 py-2 hover:bg-bg-alt focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--ring,hsl(217_91%_60%))]"
                     >
                       <span className={`shrink-0 rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${TYPE_CLASS[m.type]}`}>
                         {t(`common.type${m.type[0].toUpperCase()}${m.type.slice(1)}`)}
