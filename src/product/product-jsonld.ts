@@ -76,8 +76,13 @@ export function siteLd(): Record<string, unknown>[] {
       '@id': `${SITE_ORIGIN}/#website`,
       url: `${SITE_ORIGIN}/`,
       name: SITE_NAME,
-      inLanguage: 'en',
+      inLanguage: ['en', 'es'],
       publisher: { '@id': `${SITE_ORIGIN}/#organization` },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: `${SITE_ORIGIN}/search?q={search_term_string}`,
+        'query-input': 'required name=search_term_string',
+      },
     },
   ]
 }

@@ -27,8 +27,10 @@ function SeriesPage() {
     return (
       <div className="min-h-screen bg-background text-foreground">
         <SiteNav theme={theme} loggedIn={!!user} />
+        <main id="main-content">
         <ProductView product={product.product} related={product.related} origin={origin} locale={locale} />
         <CtaBand productSlug={product.product.slug} />
+        </main>
         <Footer theme={theme} />
       </div>
     )
@@ -55,6 +57,7 @@ function SeriesPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={!!user} />
+      <main id="main-content">
       <PageHero kicker={page.kicker} title={page.h1} sub={page.intro[0]} />
 
       <section className="mx-auto max-w-6xl px-5 py-14 md:px-7 md:py-16">
@@ -257,6 +260,7 @@ function SeriesPage() {
         <JsonLd data={faqLd(page.faqs, locale)} />
       </section>
 
+      </main>
       <Footer theme={theme} />
     </div>
   )

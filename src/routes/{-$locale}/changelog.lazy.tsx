@@ -29,7 +29,7 @@ function Changelog() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={loggedIn} />
-      <main className="mx-auto max-w-3xl px-4 py-16">
+      <main id="main-content" className="mx-auto max-w-3xl px-4 py-16">
         <header className="mb-10 text-center">
           <h1 className="text-3xl font-bold tracking-tight">{t('changelog.title')}</h1>
           <p className="mt-2 text-fg-2">{t('changelog.subtitle')}</p>

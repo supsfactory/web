@@ -61,34 +61,36 @@ function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={!!user} />
+      <main id="main-content">
       <Hero />
       <TrustBar />
       <RoleBoundary />
       <WhoWeServe />
       <ValueProp />
+      <Suspense fallback={null}><SolveSection /></Suspense>
       <Suspense fallback={null}>
-        <SolveSection />
         <VideoShowcase
           video={`${BRAND_ASSETS_CDN}/site/videos/2026/oem-brand-launch.mp4`}
           poster={`${BRAND_ASSETS_CDN}/site/videos/2026/oem-brand-launch.jpg`}
           {...pick(videoShowcase, locale).launch}
         />
-        <PlantCapability />
-        <QualitySteps />
-        <CommercialTerms />
-        <HowItWorks />
-        <PlatformsSection />
-        <BoardCategories />
-        <StudioSection />
-        <SeriesSection />
-        <WhyUs />
-        <GallerySection />
-        <GuidesSection />
-        <ProjectsShowcase />
-        <FaqSection />
-        <CtaBand />
-        <Footer theme={theme} />
       </Suspense>
+      <Suspense fallback={null}><PlantCapability /></Suspense>
+      <Suspense fallback={null}><QualitySteps /></Suspense>
+      <Suspense fallback={null}><CommercialTerms /></Suspense>
+      <Suspense fallback={null}><HowItWorks /></Suspense>
+      <Suspense fallback={null}><PlatformsSection /></Suspense>
+      <Suspense fallback={null}><BoardCategories /></Suspense>
+      <Suspense fallback={null}><StudioSection /></Suspense>
+      <Suspense fallback={null}><SeriesSection /></Suspense>
+      <Suspense fallback={null}><WhyUs /></Suspense>
+      <Suspense fallback={null}><GallerySection /></Suspense>
+      <Suspense fallback={null}><GuidesSection /></Suspense>
+      <Suspense fallback={null}><ProjectsShowcase /></Suspense>
+      <Suspense fallback={null}><FaqSection /></Suspense>
+      <Suspense fallback={null}><CtaBand /></Suspense>
+      </main>
+      <Footer theme={theme} />
       <JsonLd data={faqLd(pick(faq, locale).items, locale)} />
     </div>
   )

@@ -40,6 +40,7 @@ function GalleryPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={!!user} />
+      <main id="main-content">
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
       <GallerySection heading={null} />
 
@@ -48,6 +49,7 @@ function GalleryPage() {
       </section>
 
       <CtaBand />
+      </main>
       <Footer theme={theme} />
     </div>
   )

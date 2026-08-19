@@ -13,7 +13,9 @@ function SolutionsLayout() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={!!user} />
-      <Outlet />
+      <main id="main-content">
+        <Outlet />
+      </main>
       <Footer theme={theme} />
     </div>
   )

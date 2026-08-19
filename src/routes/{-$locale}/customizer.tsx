@@ -47,6 +47,7 @@ function CustomizerPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={!!user} />
+      <main id="main-content">
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub}>
         <span className="mt-7 inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-[13px] font-semibold text-white">
           <Sparkles size={14} className="text-[#7fd6f0]" />
@@ -122,6 +123,7 @@ function CustomizerPage() {
         </div>
       </section>
 
+      </main>
       <Footer theme={theme} />
     </div>
   )

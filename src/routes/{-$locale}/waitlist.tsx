@@ -45,7 +45,7 @@ function WaitlistPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={loggedIn} />
-      <main className="mx-auto flex max-w-md flex-col px-4 py-20">
+      <main id="main-content" className="mx-auto flex max-w-md flex-col px-4 py-20">
         <Card>
           <CardHeader>
             <CardTitle className="text-2xl">{t('waitlist.title')}</CardTitle>

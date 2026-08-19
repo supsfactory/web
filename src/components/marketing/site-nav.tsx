@@ -192,6 +192,9 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
 
   return (
     <>
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground focus:shadow-lg">
+        Skip to content
+      </a>
       <header className="sticky top-0 z-30 border-b border-border/80 shadow-[var(--shadow-sm)] backdrop-blur">
         {/* top bar — auth utilities above the main nav */}
         <div className="flex h-9 items-center justify-end gap-4 border-b border-border/60 px-4 md:px-7">

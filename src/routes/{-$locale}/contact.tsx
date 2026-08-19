@@ -69,6 +69,7 @@ function ContactPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={!!user} />
+      <main id="main-content">
       <PageHero kicker={t('sup.nav.contact')} title={t('sup.contact.title')} sub={t('sup.contact.subtitle')} />
 
       <section className="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:px-7 md:py-20 lg:grid-cols-[0.9fr_1.1fr]">
@@ -177,6 +178,7 @@ function ContactPage() {
       <JsonLd data={contactPageLd(SITE_URL, localizePath(locale, '/contact'))} />
       <JsonLd data={faqLd([...dictionaries[locale].sup.contact.trustFaqs], locale)} />
 
+      </main>
       <Footer theme={theme} />
     </div>
   )

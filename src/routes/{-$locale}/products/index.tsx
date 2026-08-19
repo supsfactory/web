@@ -54,6 +54,7 @@ function ProductsPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={!!user} />
+      <main id="main-content">
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
 
       {/* series hub: one SEO page per platform category */}
@@ -107,6 +108,7 @@ function ProductsPage() {
       <CatalogDownload turnstileSiteKey={turnstileSiteKey} />
 
       <CtaBand />
+      </main>
       <Footer theme={theme} />
     </div>
   )

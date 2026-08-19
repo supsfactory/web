@@ -42,6 +42,7 @@ function AboutPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteNav theme={theme} loggedIn={!!user} />
+      <main id="main-content">
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
 
       {/* story */}
@@ -151,6 +152,7 @@ function AboutPage() {
       />
 
       <CtaBand />
+      </main>
       <Footer theme={theme} />
     </div>
   )
