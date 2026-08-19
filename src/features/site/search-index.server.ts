@@ -25,7 +25,8 @@ import {
   getCaseUses,
 } from '@/features/content/loader'
 import { mdToText, pageText } from '@/features/content/text'
-import { GUIDES, GUIDES_ES } from '@/features/content/guide-content'
+import { localizedGuides } from '@/features/content/guide-content'
+import { FAQ_EXCERPTS } from '@/product/ai-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import type { SearchEntry } from './search'
 
@@ -104,8 +105,8 @@ function contentEntries(locale: Locale): SearchEntry[] {
   for (const c of getCaseUses(locale)) {
     out.push({ url: url(`/evidence/case-studies/${c.slug}`), title: squeeze(c.title), excerpt: squeeze(c.summary ?? ''), content: squeeze(mdToText(brandify(c.body))), type: 'page', locale })
   }
-  for (const g of (locale === 'es' ? GUIDES_ES : GUIDES)) {
-    const body = squeeze([g.intro.join(' '), ...g.sections.map((s) => `${s.title}: ${s.body}`)].join(' '))
+  for (const g of localizedGuides(locale)) {
+    const body = squeeze([g.intro.join(' '), ...g.sections.map((s: { title: string; body: string }) => `${s.title}: ${s.body}`)].join(' '))
     out.push({ url: url(`/guides/${g.slug}`), title: squeeze(g.title), excerpt: squeeze(g.intro[0] ?? ''), content: body, type: 'page', locale })
   }
   return out
@@ -146,7 +147,7 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
     entries.push({
       url: '/faq',
       title: 'FAQ',
-      excerpt: 'Frequently asked questions about inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale supply.',
+      excerpt: FAQ_EXCERPTS[locale] ?? FAQ_EXCERPTS.en,
       content: squeeze(brandify(getSiteFaqs('en').map((f) => `Q: ${f.q} A: ${f.a}`).join(' '))),
       type: 'page',
       locale: 'en',
@@ -155,7 +156,7 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
     entries.push({
       url: '/es/faq',
       title: 'Preguntas frecuentes',
-      excerpt: 'Preguntas frecuentes sobre fabricación OEM/ODM de SUP hinchables — materiales, certificaciones, cantidades mínimas de pedido y suministro al por mayor.',
+      excerpt: FAQ_EXCERPTS.es,
       content: squeeze(brandify(getSiteFaqs('es').map((f) => `Q: ${f.q} A: ${f.a}`).join(' '))),
       type: 'page',
       locale: 'es',

@@ -1,7 +1,8 @@
 import { SITE_NAME } from '@/config/site'
 import { BRAND_PARENT_BRAND } from '@/config/branding'
+import { REGION_COUNT_DEFAULT } from '@/product/ai-content'
 
-let regionCount = 6
+let regionCount = REGION_COUNT_DEFAULT
 
 export function setBrandCount(n: number): void {
   regionCount = n

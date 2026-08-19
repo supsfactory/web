@@ -546,13 +546,19 @@ export const GUIDES_ES: Guide[] = [
   },
 ]
 
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES }
+
+export function localizedGuides(locale: string): Guide[] {
+  return GUIDES_BY_LOCALE[locale] ?? GUIDES
+}
+
 export function getGuide(path: string, locale?: string): Guide | undefined {
   const slug = path.split('/').filter(Boolean).pop()
-  return (locale === 'es' ? GUIDES_ES.find((g) => g.slug === slug) : undefined) ?? GUIDES.find((g) => g.slug === slug)
+  return localizedGuides(locale ?? 'en').find((g) => g.slug === slug) ?? GUIDES.find((g) => g.slug === slug)
 }
 
 export function getGuideBySlug(slug: string, locale?: string): Guide | undefined {
-  return (locale === 'es' ? GUIDES_ES.find((g) => g.slug === slug) : undefined) ?? GUIDES.find((g) => g.slug === slug)
+  return localizedGuides(locale ?? 'en').find((g) => g.slug === slug) ?? GUIDES.find((g) => g.slug === slug)
 }
 
 /** Localized card copy for the /knowledge hub (guide pages stay English). */

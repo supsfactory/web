@@ -61,7 +61,7 @@ function CustomizerPage() {
           <div className="marine-card flex flex-col p-6 md:p-8">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <span className="text-xs font-bold uppercase tracking-[0.12em] text-fg-3">{c.mockupLabel}</span>
-              <span className="pill bg-aqua/10! border-aqua/30! text-aqua!">SUP Explorer 11' · 11’0"</span>
+              <span className="pill bg-aqua/10! border-aqua/30! text-aqua!">{c.mockupBrand}</span>
             </div>
             <div
               className="relative mt-6 flex flex-1 items-center overflow-hidden rounded-[24px] border border-border-2 bg-bg-alt px-4 py-10"

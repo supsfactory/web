@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { env } from '@/lib/env'
 import { getNewsPosts } from '@/features/content/loader'
-import { SITE_NAME, BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config'
+import { SITE_NAME, BRAND_BOILERPLATE } from '@/config'
 
 // `/rss.xml` — RSS 2.0 feed of the ported afarer news posts (see /news).
 const escape = (s: string) =>
@@ -38,7 +38,7 @@ const handler = () => {
     '  <channel>',
     `    <title>${SITE_NAME} News</title>`,
     `    <link>${origin}/news</link>`,
-    `    <description>Latest news from ${SITE_NAME} \u2014 the inflatable SUP brand of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}): factory updates, new inflatable SUP models, certifications and nautical industry announcements.</description>`,
+    `    <description>Latest news from ${SITE_NAME} \u2014 ${BRAND_BOILERPLATE}</description>`,
     `    <atom:link href="${origin}/rss.xml" rel="self" type="application/rss+xml"/>`,
     posts.length > 0 ? `    <lastBuildDate>${rfc822(posts[0].date)}</lastBuildDate>` : '',
     ...items,

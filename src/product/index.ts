@@ -147,6 +147,7 @@ export {
   type Guide,
   GUIDES,
   GUIDES_ES,
+  localizedGuides,
   getGuide,
   getGuideBySlug,
   type GuideCard,
@@ -156,3 +157,31 @@ export {
 
 // Hub pages
 export { buildHubEntries } from './hub-pages'
+
+// AI content
+export {
+  LLM_SITE_DESCRIPTION,
+  LLM_FAQ_DESCRIPTION,
+  LLM_SPANISH_HOMEPAGE_DESCRIPTION,
+  AI_SYSTEM_ROLE,
+  AI_INQUIRY_PROMPT,
+  PARENT_ORG_DESCRIPTION,
+  REGION_COUNT_DEFAULT,
+  CUSTOMIZATION_OPTIONS,
+  OEM_APPLICATIONS,
+  HUB_PAGE_ENTRIES,
+  CASE_STUDY_STATS,
+  FAQ_EXCERPTS,
+  STATIC_PAGE_CORPUS_TEXT,
+  JSONLD_KEYWORDS,
+} from './ai-content'
+
+// Brand constants
+export {
+  PRODUCT_TAGLINE,
+  PRODUCT_DESCRIPTION,
+  PRODUCT_BOILERPLATE,
+  PRODUCT_BUILD_LINE,
+  PRODUCT_NOT_ROB,
+  PRODUCT_OG_IMAGE_FILENAME,
+} from './brand-constants'

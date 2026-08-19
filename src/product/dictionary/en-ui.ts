@@ -176,6 +176,17 @@ export const enUi = {
       faq: 'Frequently Asked Questions',
       produceUnderBrand: 'Produce This Board Under Your Brand',
       readyToManufacture: 'Ready to manufacture this platform under your own brand?',
+      oemOdmTitle: 'OEM / ODM Manufacturing',
+      oemOdmDesc: 'Manufacture to your spec, from sample to batch',
+      supDevTitle: 'SUP Product Development',
+      supDevDesc: '6-step development pipeline — engineering, prototyping, moulds and mass production',
+      privateLabelTitle: 'Private Label',
+      privateLabelDesc: 'Your brand on proven platforms — volume from 90–100+ pcs (pilot from 20–50)',
+      moqVolume: 'MOQ {standardRun} per 150 m roll for volume production; pilot runs from {trialStandard}',
+      leadTimeFacts: '{leadTime} after confirmed PO; samples in {sampleTime}',
+      moqShort: '{standardRun} standard volume · {trialStandard} pilot · {customMould} custom mould',
+      timelineShort: 'Samples in {sampleTime} · production in {leadTime} after PO and deposit',
+      qualityShort: '{assemblyChecklist} checklist · {pressureTest} pressure test',
       startProject: 'Start a Custom SUP Project',
       viewPlatform: 'View platform',
       otherSeries: 'Other series:',
@@ -202,6 +213,7 @@ export const enUi = {
     research: {
       kicker: 'Knowledge Center',
       title: 'Research & Technical Guides',
+      sub: 'In-depth technical research on SUP materials, construction, safety standards and manufacturing.',
     },
     guide: {
       quickAnswers: 'Quick Answers',
@@ -285,6 +297,8 @@ export const enUi = {
   },
   marketing: {
     recommendedFor: 'Recommended for:',
+    oemOdmBadge: 'OEM/ODM',
+    boardAriaLabel: 'SUP board',
   },
   feedback: {
     nav: 'Feedback',

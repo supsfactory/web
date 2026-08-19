@@ -10,6 +10,8 @@
  * corresponding Cloudflare/GitHub resources).
  */
 
+import { PRODUCT_TAGLINE, PRODUCT_DESCRIPTION } from '@/product/brand-constants'
+
 export const SITE_ID = 'supsfactory' as const
 
 export const SITE_NAME = 'SUPsfactory' as const
@@ -18,11 +20,9 @@ export const SITE_DOMAIN = 'supsfactory.com' as const
 
 export const SITE_URL = `https://${SITE_DOMAIN}` as const
 
-export const SITE_TAGLINE =
-  'Engineering, tooling, sampling and production for SUP brands, distributors and sourcing teams. You bring the brand — we build the boards.' as const
+export const SITE_TAGLINE = PRODUCT_TAGLINE as typeof PRODUCT_TAGLINE
 
-export const SITE_DESCRIPTION =
-  'Create your own SUP brand without building your own factory. Custom SUP manufacturing for startups, clubs, resorts and businesses — low MOQ — pilot runs from 20–50pcs — plus full customization and design support.' as const
+export const SITE_DESCRIPTION = PRODUCT_DESCRIPTION as typeof PRODUCT_DESCRIPTION
 
 export const DEFAULT_LOCALE = 'en' as const
 

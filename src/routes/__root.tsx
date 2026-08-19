@@ -7,7 +7,7 @@ import { getAnalyticsToken, getGa4MeasurementId } from '@/features/analytics/ana
 import { trackPageView } from '@/features/analytics/events'
 import { getNonce } from '@/lib/csp'
 import { JsonLd, siteLd } from '@/features/seo/jsonld'
-import { SITE_NAME, SITE_DESCRIPTION, BRAND_ASSETS_CDN } from '@/config'
+import { SITE_NAME, SITE_DESCRIPTION, SITE_TAGLINE, BRAND_ASSETS_CDN } from '@/config'
 import appCss from '@/styles/app.css?url'
 
 export const Route = createRootRoute({
@@ -15,16 +15,15 @@ export const Route = createRootRoute({
     meta: [
       { charSet: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { title: `${SITE_NAME} \u2014 Launch Your Own SUP Brand` },
+      { title: `${SITE_NAME} \u2014 ${SITE_TAGLINE}` },
       {
         name: 'description',
         content: SITE_DESCRIPTION,
       },
-      { property: 'og:title', content: `${SITE_NAME} \u2014 Launch Your Own SUP Brand` },
+      { property: 'og:title', content: `${SITE_NAME} \u2014 ${SITE_TAGLINE}` },
       {
         property: 'og:description',
-        content:
-          'Custom SUP manufacturing with low MOQ (pilot runs from 20\u201350pcs), full customization and professional design support. For startups, clubs, resorts and businesses.',
+        content: SITE_DESCRIPTION,
       },
       { property: 'og:type', content: 'website' },
     ],

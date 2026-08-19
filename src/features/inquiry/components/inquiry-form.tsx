@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ArrowRight, Check, ChevronDown, FileText, ShieldCheck, UploadCloud, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
-import { dictionaries } from '@/features/i18n/locale'
+import { dictionaries, localizePath } from '@/features/i18n/locale'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
@@ -38,6 +38,7 @@ export function InquiryForm({
   prefill?: InquiryPrefill
 }) {
   const { t, locale } = useTranslation()
+  const fl = (path: string): string => localizePath(locale, path)
   const { token, widget, reset } = useTurnstile(turnstileSiteKey)
 
   const [step, setStep] = useState<1 | 2>(1)
@@ -151,15 +152,13 @@ export function InquiryForm({
       {prefill?.intent && (
         <p className="flex items-center gap-2 rounded-lg border border-primary/25 bg-soft/60 px-3 py-2 text-[12.5px] font-medium text-primary">
           <ArrowRight size={14} className="shrink-0" />
-          {locale === 'es' ? 'Proyecto iniciado desde: ' : 'Project started from: '}
+          {t('inquiry.projectStartedFrom')}
           {prefill.intent}
         </p>
       )}
       {prefill?.name && (
         <p className="rounded-lg border border-primary/25 bg-soft/60 px-3 py-2 text-[12.5px] font-medium text-primary">
-          {locale === 'es'
-            ? `Proyecto iniciado desde: ${prefill.name}${prefill.sku ? ` (${prefill.sku})` : ''}`
-            : `Project started from: ${prefill.name}${prefill.sku ? ` (${prefill.sku})` : ''}`}
+          {t('inquiry.projectStartedFrom')}{prefill.name}{prefill.sku ? ` (${prefill.sku})` : ''}
         </p>
       )}
 
@@ -397,7 +396,7 @@ export function InquiryForm({
             <div className="flex items-center gap-3">
               <label className="inline-flex h-[42px] cursor-pointer items-center gap-2 rounded-[7px] border border-dashed border-input px-4 text-sm font-medium text-fg-2 transition-colors hover:border-primary hover:text-foreground">
                 <UploadCloud size={16} />
-                {fileName ?? (locale === 'es' ? 'Subir archivo' : 'Upload')}
+                {fileName ?? t('inquiry.uploadFile')}
                 <input
                   id="inq-logo"
                   name="projectFile"
@@ -451,7 +450,7 @@ export function InquiryForm({
           />
           <span className="text-[12.5px] leading-relaxed text-fg-2">
             {t('inquiry.consent')}{' '}
-            <a href={locale === 'es' ? '/es/privacy' : '/privacy'} className="font-medium text-primary hover:underline" target="_blank" rel="noreferrer">
+            <a href={fl('/privacy')} className="font-medium text-primary hover:underline" target="_blank" rel="noreferrer">
               {t('inquiry.consentPrivacy')}
             </a>
           </span>
@@ -497,7 +496,7 @@ function SuccessPanel({ tier }: { tier: InquiryTier }) {
         <p className="text-[15px] font-bold"><FileText size={16} className="mr-1.5 inline text-primary" /> {t('inquiry.okB.title')}</p>
         <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{t('inquiry.okB.body')}</p>
         <p className="mt-4 text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">
-          {locale === 'es' ? 'Brief del proyecto OEM' : 'OEM brief checklist'}
+          {t('inquiry.oemBriefChecklist')}
         </p>
         <ul className="mt-2 flex flex-col gap-1.5">
           {dictionaries[locale].inquiry.okB.checklist.map((line) => (

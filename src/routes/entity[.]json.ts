@@ -2,7 +2,9 @@ import { createFileRoute } from '@tanstack/react-router'
 import { env } from '@/lib/env'
 import { getGeoEntity } from '@/features/content/loader'
 import { SITE_NAME } from '@/config/site'
-import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_BOILERPLATE } from '@/config/branding'
+import { BRAND_PARENT_BRAND, BRAND_BOILERPLATE } from '@/config/branding'
+import { ENTITY_KNOWS_ABOUT, ENTITY_SUBJECT_OF } from '@/product/entity-data'
+import { PARENT_ORG_DESCRIPTION } from '@/product/ai-content'
 import {
   brandHeritageLd,
   enhancedFaqLd,
@@ -34,35 +36,14 @@ const handler = () => {
   out.parentOrganization = {
     '@type': 'Organization',
     name: BRAND_PARENT_BRAND,
-    description:
-      `${BRAND_PARENT_BRAND} is the SUP manufacturing division of ${BRAND_COMPANY_NAME} — OEM/ODM inflatable SUP production in Qingdao, China.`,
+    description: PARENT_ORG_DESCRIPTION,
   }
-  out.knowsAbout = [
-    'SUP manufacturing',
-    'custom paddle boards',
-    'SUP product development',
-    'SUP prototyping',
-    'private label SUP',
-    'custom SUP design',
-    'OEM manufacturing',
-    'resort SUP equipment',
-    'club SUP equipment',
-    'school SUP equipment',
-    'SUP MOQ tiers',
-    'SUP production lead time',
-    'SUP quality control',
-    'factory audit',
-  ]
-  out.subjectOf = [
-    { '@type': 'WebPage', name: 'Company entity', url: `${origin}/about/supsfactory-entity` },
-    { '@type': 'WebPage', name: 'Proof Center — factory evidence', url: `${origin}/proof-center` },
-    { '@type': 'WebPage', name: 'Factory & manufacturing capability', url: `${origin}/factory` },
-    { '@type': 'WebPage', name: 'Quality, testing & certifications', url: `${origin}/quality` },
-    { '@type': 'WebPage', name: 'Custom SUP MOQ & lead time', url: `${origin}/sup-oem-moq-lead-time` },
-    { '@type': 'WebPage', name: 'New-brand trial order', url: `${origin}/new-brand-trial-order` },
-    { '@type': 'CollectionPage', name: 'Projects', url: `${origin}/projects` },
-    { '@type': 'CollectionPage', name: 'Knowledge Center', url: `${origin}/knowledge` },
-  ]
+  out.knowsAbout = ENTITY_KNOWS_ABOUT
+  out.subjectOf = ENTITY_SUBJECT_OF.map((s) => ({
+    '@type': s.type,
+    name: s.name,
+    url: `${origin}${s.path}`,
+  }))
   // GEO 扩展实体（与 jsonld.tsx 的每页 JSON-LD 同源，口径与 /factory、/quality、/warranty 页面一致）
   out.brandHeritage = brandHeritageLd()
   out.factoryCapabilities = factoryCapabilitiesLd()

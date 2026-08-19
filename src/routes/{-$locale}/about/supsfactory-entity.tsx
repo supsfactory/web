@@ -10,26 +10,10 @@ import { knowledge } from '@/features/site/knowledge'
 import { PageHero } from '@/components/marketing/section-head'
 import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from '@/components/marketing/shell'
-import { SITE_NAME, BRAND_COMPANY_NAME } from '@/config'
-
-const FACTS: Record<string, { label: string; value: string }[]> = {
-  en: [
-    { label: 'Legal entity', value: BRAND_COMPANY_NAME },
-    { label: 'Product focus', value: 'Inflatable SUP manufacturing — OEM, ODM & private label' },
-    { label: 'Factories', value: '12,500 m² in-house plant in Qingdao, China' },
-    { label: 'Minimum order', value: 'Tiered: 1–2 samples · 20–50 trial · 90–100+ volume' },
-    { label: 'Markets', value: 'Worldwide — Europe, Americas, Asia, Oceania' },
-    { label: 'Business model', value: 'B2B development & manufacturing' },
-  ],
-  es: [
-    { label: 'Entidad legal', value: BRAND_COMPANY_NAME },
-    { label: 'Enfoque de producto', value: 'Fabricación de SUP hinchables: OEM, ODM y etiqueta privada' },
-    { label: 'Fábricas', value: 'Planta propia de 12.500 m² en Qingdao, China' },
-    { label: 'Pedido mínimo', value: 'Escalonado: 1–2 muestras · 20–50 prueba · 90–100+ volumen' },
-    { label: 'Mercados', value: 'Mundial: Europa, América, Asia, Oceanía' },
-    { label: 'Modelo de negocio', value: 'Desarrollo y fabricación B2B' },
-  ],
-}
+import { SITE_NAME } from '@/config'
+import { ENTITY_PAGE_PATH } from '@/config/navigation'
+import { getDictionary, translate } from '@/features/i18n/locale'
+import { ENTITY_FACTS, ENTITY_SERVICES } from '@/product/entity-data'
 
 /**
  * Entity hub (/about/supsfactory-entity) — the GEO-facing page that links
@@ -42,18 +26,13 @@ export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const dict = getDictionary(locale)
     const { meta, links } = localeHead({
       origin,
       locale,
-      path: '/about/supsfactory-entity',
-      title:
-        locale === 'es'
-          ? `${SITE_NAME} | Fabricante de SUP hinchables OEM/ODM`
-          : `${SITE_NAME} | Inflatable SUP OEM & ODM Manufacturer`,
-      description:
-        locale === 'es'
-          ? `${SITE_NAME}: fabricación de SUP hinchables OEM/ODM con ingeniería, moldes, muestras y producción a gran escala, por ${BRAND_COMPANY_NAME}.`
-          : `${SITE_NAME} is the inflatable SUP OEM & ODM manufacturing company — engineering, tooling, sampling and full-scale production by ${BRAND_COMPANY_NAME}.`,
+      path: ENTITY_PAGE_PATH,
+      title: translate(dict, 'inquiry.entityMetaTitle'),
+      description: translate(dict, 'inquiry.entityMetaDescription'),
     })
     return { meta, links }
   },
@@ -79,7 +58,7 @@ function EntityPage() {
     ctaTitle: t('sup.entity.ctaTitle'),
     ctaBody: t('sup.entity.ctaBody'),
   }
-  const services = ['custom-sup', 'private-label', 'resort', 'club', 'school']
+  const services = ENTITY_SERVICES
 
   return (
     <MarketingShell>
@@ -96,7 +75,7 @@ function EntityPage() {
         <div className="mx-auto max-w-6xl px-5 py-14 md:px-7">
           <h2 className="font-display text-xl font-bold">{c.factsTitle}</h2>
           <dl className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {FACTS[locale].map((f) => (
+            {ENTITY_FACTS[locale].map((f) => (
               <div key={f.label} className="marine-card p-5">
                 <dt className="text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">{f.label}</dt>
                 <dd className="mt-1.5 text-[14.5px] font-semibold">{f.value}</dd>
@@ -193,7 +172,7 @@ function EntityPage() {
       <JsonLd
         data={siteBreadcrumbLd([
           { name: t('sup.breadcrumb.home'), path: '/' },
-          { name: t('sup.breadcrumb.company'), path: '/about/supsfactory-entity' },
+          { name: t('sup.breadcrumb.company'), path: ENTITY_PAGE_PATH },
         ])}
       />
     </MarketingShell>

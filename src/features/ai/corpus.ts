@@ -13,7 +13,8 @@ import { knowledge } from '@/features/site/knowledge'
 import { projects } from '@/features/site/projects'
 import { seriesPages } from '@/features/site/series-pages'
 import { buildHubEntries } from '@/features/site/hub-pages'
-import { GUIDES, GUIDES_ES } from '@/features/content/guide-content'
+import { localizedGuides } from '@/features/content/guide-content'
+import { STATIC_PAGE_CORPUS_TEXT } from '@/product/ai-content'
 import {
   brandify,
   getContentPage,
@@ -84,7 +85,7 @@ export function buildChunks(locale: Locale): AiChunk[] {
     }
   }
 
-  for (const g of (locale === 'es' ? GUIDES_ES : GUIDES)) {
+  for (const g of localizedGuides(locale)) {
     const u = url(`/guides/${g.slug}`)
     push(u, g.title, g.intro.join('\n'))
     for (const [i, s] of g.sections.entries()) {
@@ -155,7 +156,7 @@ export function buildChunks(locale: Locale): AiChunk[] {
   ]
   for (const sp of staticPages) {
     const u = url(sp.path)
-    const txt = ` ${sp.title} page. ${SITE_NAME} provides custom inflatable SUP manufacturing solutions.`
+    const txt = ` ${sp.title} page. ${SITE_NAME}${STATIC_PAGE_CORPUS_TEXT}`
     push(u, sp.title, txt)
   }
 

@@ -28,6 +28,8 @@ import { getGuide } from './guide-content'
 import { FACTS } from '@/features/site/facts'
 import { SITE_NAME } from '@/config/site'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config/branding'
+import { CUSTOMIZATION_OPTIONS, OEM_APPLICATIONS } from '@/product/ai-content'
+import { JSONLD_KEYWORDS } from '@/product/ai-content'
 import { ArrowRight } from 'lucide-react'
 import { ContentSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
@@ -222,54 +224,9 @@ export function ContentCatchAll({ data }: { data: CatchAllData }) {
             {data.path.startsWith('/research/') && (
               <JsonLd data={researchArticleLd(data.origin, data.path, data.title, data.description, page)} />
             )}
-            {data.path.startsWith('/factory/quality-change-control') && (
+            {JSONLD_KEYWORDS[data.path] && (
               <JsonLd
-                data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, [
-                  'SUP Manufacturing',
-                  'Quality Management System',
-                  'ISO 9001 Change Control',
-                  'Airtightness Testing and Validation',
-                ], 'Stand-Up Paddleboard (SUP) Rework Process Parameter Change Control & Validation Standard')}
-              />
-            )}
-            {data.path.startsWith('/factory/non-conforming-control') && (
-              <JsonLd
-                data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, [
-                  'SUP Manufacturing',
-                  'Quality Management System',
-                  'ISO 9001 Non-Conforming Output Control',
-                  'Rework Re-Inspection and Scrap Disposition',
-                ])}
-              />
-            )}
-            {data.path.startsWith('/oem-moq-guide') && (
-              <JsonLd
-                data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, [
-                  'SUP Manufacturing',
-                  'Minimum Order Quantity',
-                  'Drop-Stitch Fabric Roll Yields',
-                  'Co-Branding and Flexible Branding',
-                ], 'Flexible Branding & Co-Branding MOQ Guide for Inflatable SUP Manufacturing')}
-              />
-            )}
-            {data.path.startsWith('/oem-trust-assurance') && (
-              <JsonLd
-                data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, [
-                  'SUP Manufacturing',
-                  'Factory Audit',
-                  'OEM Trust and Supplier Verification',
-                  'Third-Party Inspection (SGS, TUV, BV, Intertek)',
-                ], 'OEM Buyer Trust & Factory Assurance Guide for Inflatable SUP Manufacturing')}
-              />
-            )}
-            {data.path.startsWith('/proof-center') && (
-              <JsonLd
-                data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, [
-                  'SUP Manufacturing',
-                  'Factory Evidence and Certificate Scope',
-                  `Entity Relationship (${SITE_NAME}, content, Vatrad)`,
-                  'Batch Traceability and Record Keeping',
-                ], 'SUP Factory Proof Center: Evidence Behind Manufacturing Claims')}
+                data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, JSONLD_KEYWORDS[data.path].keywords, JSONLD_KEYWORDS[data.path].articleTitle)}
               />
             )}
             {page.meta?.dateModified && (
@@ -330,9 +287,7 @@ export function ContentCatchAll({ data }: { data: CatchAllData }) {
             <PageHero
               kicker={t('content.research.kicker')}
               title={t('content.research.title')}
-              sub={data.translated
-                ? 'Investigación técnica en profundidad sobre materiales, construcción, estándares de seguridad y fabricación de SUP.'
-                : 'In-depth technical research on SUP materials, construction, safety standards and manufacturing.'}
+              sub={t('content.research.sub')}
             />
             <ResearchIndex />
             {data.index.topics && data.index.topics.length > 0 && (
@@ -363,7 +318,6 @@ export function ProductView({ product, related, origin, locale }: { product: Con
   const specs = product.specs ?? []
   const gallery = product.gallery?.length ? product.gallery : product.image ? [{ url: product.image, alt: product.title }] : []
   const fl = (path: string): string => localizePath(locale, path)
-  const isDefault = locale === 'en'
   return (
     <>
       <PageHero kicker={product.category ?? t('content.kickers.product')} title={product.title} sub={brandify(product.summary ?? '')} />
@@ -402,11 +356,11 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th className="w-2/5 px-4 py-3 font-semibold">{t('content.product.minimumOrder')}</th>
-                      <td className="px-4 py-3 text-fg-2">{!isDefault ? `MOQ ${FACTS.moq.standardRun} por rollo de 150 m en volumen; piloto desde ${FACTS.moq.trialStandard}` : `MOQ ${FACTS.moq.standardRun} per 150 m roll for volume production; pilot runs from ${FACTS.moq.trialStandard}`}</td>
+                      <td className="px-4 py-3 text-fg-2">{t('content.product.moqVolume', { standardRun: FACTS.moq.standardRun, trialStandard: FACTS.moq.trialStandard })}</td>
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th className="w-2/5 px-4 py-3 font-semibold">{t('content.product.productionLeadTime')}</th>
-                      <td className="px-4 py-3 text-fg-2">{!isDefault ? `${FACTS.leadTime} tras PO confirmado; muestras en ${FACTS.sampleTime}` : `${FACTS.leadTime} after confirmed PO; samples in ${FACTS.sampleTime}`}</td>
+                      <td className="px-4 py-3 text-fg-2">{t('content.product.leadTimeFacts', { leadTime: FACTS.leadTime, sampleTime: FACTS.sampleTime })}</td>
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th className="w-2/5 px-4 py-3 font-semibold">{t('content.product.certifications')}</th>
@@ -431,9 +385,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   {t('content.product.minimumOrderShort')}
                 </p>
                 <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-                  {!isDefault
-                    ? `${FACTS.moq.standardRun} volumen estándar · ${FACTS.moq.trialStandard} piloto · ${FACTS.moq.customMould} molde a medida`
-                    : `${FACTS.moq.standardRun} standard volume · ${FACTS.moq.trialStandard} pilot · ${FACTS.moq.customMould} custom mould`}
+                  {t('content.product.moqShort', { standardRun: FACTS.moq.standardRun, trialStandard: FACTS.moq.trialStandard, customMould: FACTS.moq.customMould })}
                 </p>
               </div>
               <div className="marine-card p-4">
@@ -441,9 +393,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   {t('content.product.timeline')}
                 </p>
                 <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-                  {!isDefault
-                    ? `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras PO y depósito`
-                    : `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after PO and deposit`}
+                  {t('content.product.timelineShort', { sampleTime: FACTS.sampleTime, leadTime: FACTS.leadTime })}
                 </p>
               </div>
               <div className="marine-card p-4">
@@ -451,9 +401,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   {t('content.product.qualityControl')}
                 </p>
                 <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-                  {!isDefault
-                    ? `Lista de ${FACTS.assemblyChecklist} · prueba de presión ${FACTS.pressureTest}`
-                    : `${FACTS.assemblyChecklist} checklist · ${FACTS.pressureTest} pressure test`}
+                  {t('content.product.qualityShort', { assemblyChecklist: FACTS.assemblyChecklist, pressureTest: FACTS.pressureTest })}
                 </p>
               </div>
             </div>
@@ -562,21 +510,21 @@ export function ProductView({ product, related, origin, locale }: { product: Con
           </h2>
           <div className="mt-6 grid gap-3 sm:grid-cols-3">
             <a href={fl('/oem-manufacturing')} className="marine-card p-5 transition-colors hover:border-primary/40">
-              <p className="text-[14px] font-bold">{!isDefault ? 'OEM / ODM' : 'OEM / ODM Manufacturing'}</p>
+              <p className="text-[14px] font-bold">{t('content.product.oemOdmTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
-                {!isDefault ? 'Fabricación según tu especificación y muestras' : 'Manufacture to your spec, from sample to batch'}
+                {t('content.product.oemOdmDesc')}
               </p>
             </a>
             <a href={fl('/product-development')} className="marine-card p-5 transition-colors hover:border-primary/40">
-              <p className="text-[14px] font-bold">{!isDefault ? 'Desarrollo de producto SUP' : 'SUP Product Development'}</p>
+              <p className="text-[14px] font-bold">{t('content.product.supDevTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
-                {!isDefault ? 'Proceso de desarrollo en 6 pasos — ingeniería, prototipos, moldes y producción' : '6-step development pipeline — engineering, prototyping, moulds and mass production'}
+                {t('content.product.supDevDesc')}
               </p>
             </a>
             <a href={fl('/solutions/private-label-sup')} className="marine-card p-5 transition-colors hover:border-primary/40">
-              <p className="text-[14px] font-bold">{!isDefault ? 'Marca privada' : 'Private Label'}</p>
+              <p className="text-[14px] font-bold">{t('content.product.privateLabelTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
-                {!isDefault ? 'Tu logo en plataformas probadas — volumen desde 90–100+ uds. (piloto desde 20–50)' : 'Your brand on proven platforms — volume from 90–100+ pcs (pilot from 20–50)'}
+                {t('content.product.privateLabelDesc')}
               </p>
             </a>
           </div>
@@ -631,44 +579,12 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
 
 /** Customization points available on every OEM platform (product detail pages). */
 function customizationOptions(locale: Locale): { title: string; body: string }[] {
-  return locale !== 'en'
-    ? [
-        { title: 'Tamaño y forma de la tabla', body: 'Longitud, anchura, grosor y rocker ajustados a tu rendimiento objetivo y a tu mercado.' },
-        { title: 'Materiales y construcción', body: 'Capas de PVC, densidad drop-stitch, rigidizadores y refuerzos según tu presupuesto.' },
-        { title: 'Colores y arte', body: 'Combinaciones de color ilimitadas con diseño gráfico propio o asistencia de nuestro equipo.' },
-        { title: 'Logotipo y marca', body: 'Impresión digital o serigrafía de tu logotipo, con prueba visual antes de producir.' },
-        { title: 'EVA y cubierta', body: 'Diseños cortados a medida de la alfombrilla antideslizante, logotipos y colores del deck.' },
-        { title: 'Aletas y accesorios', body: 'Configuraciones de aleta, palas, bombas, correas y bolsas adaptados a tu paquete.' },
-        { title: 'Embalaje y exhibición', body: 'Cajas retail, embalaje marítimo y displays para punto de venta con tu marca.' },
-      ]
-    : [
-        { title: 'Board size and shape', body: 'Length, width, thickness and rocker tuned to your target performance and market.' },
-        { title: 'Materials and construction', body: 'PVC layers, drop-stitch density, stiffeners and reinforcements to fit your price point.' },
-        { title: 'Colors and artwork', body: 'Unlimited color combinations with your own artwork or support from our design team.' },
-        { title: 'Logo and branding', body: 'Digital or screen-printed logo application, with a visual proof before production.' },
-        { title: 'EVA and deck', body: 'Custom-cut traction pad designs, logos and deck colors on every board.' },
-        { title: 'Fins and accessories', body: 'Fin configurations, paddles, pumps, leashes and bags matched to your package.' },
-        { title: 'Packaging and display', body: 'Retail boxes, seaworthy shipping packaging and point-of-sale displays under your brand.' },
-      ]
+  return CUSTOMIZATION_OPTIONS[locale] ?? CUSTOMIZATION_OPTIONS.en
 }
 
 /** Who manufactures this platform with us (product detail pages). */
 function oemApplications(locale: Locale): { title: string; body: string }[] {
-  return locale !== 'en'
-    ? [
-        { title: 'Marcas de SUP', body: 'Lanza tu propia línea con mínimos por tramos desde 5–10 unidades de co-branding.' },
-        { title: 'Distribuidores y revendedores', body: 'Catálogos de volumen con embalaje marítimo y gestión de exportación.' },
-        { title: 'Retail y outdoor', body: 'Programas de reposición estacional con especificaciones estables de temporada en temporada.' },
-        { title: 'Resorts y operadores de alquiler', body: 'Flotas de uso intensivo con refuerzos, repuestos y mantenimiento estandarizado.' },
-        { title: 'Clubes, escuelas y eventos', body: 'Tablas con tu logotipo para programas, competiciones y flotas corporativas.' },
-      ]
-    : [
-        { title: 'SUP brands', body: 'Launch your own line with tiered minimums from 5–10-unit co-branding runs.' },
-        { title: 'Distributors and resellers', body: 'Volume catalogs with seaworthy packaging and export management.' },
-        { title: 'Retail and outdoor companies', body: 'Seasonal replenishment programs with stable specs run after run.' },
-        { title: 'Resorts and rental operators', body: 'High-duty fleets with reinforcements, spares and standardized maintenance.' },
-        { title: 'Clubs, schools and events', body: 'Branded boards for programs, competitions and corporate fleets.' },
-      ]
+  return OEM_APPLICATIONS[locale] ?? OEM_APPLICATIONS.en
 }
 
 function PostView({ post, relatedPosts, origin, path, locale }: { post: ContentPost; relatedPosts: RelatedPost[]; origin: string; path: string; locale: Locale }) {

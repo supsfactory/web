@@ -4,6 +4,9 @@ import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
 import { brandify } from '../brand'
 import { SITE_NAME } from '@/config/site'
+import { BRAND_PARENT_URL } from '@/config/branding'
+import { ABOUT_BRAND_PATH } from '@/config/navigation'
+import { CASE_STUDY_STATS } from '@/product/ai-content'
 import { useAferIndex } from '../index-data'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
@@ -176,7 +179,7 @@ const HREF_REMAP: Record<string, string> = {
   '/evidence': '/projects',
   '/resources/download-catalog': '/products',
   '/oem-odm': '/oem-manufacturing',
-  '/brand/afarer': '/about/afarer',
+  '/brand/afarer': ABOUT_BRAND_PATH,
   '/compare': '/inflatable-vs-hardboard',
   '/compare/inflatable-vs-hardboard': '/inflatable-vs-hardboard',
   '/v2/intermediate-techniques': '/knowledge',
@@ -190,7 +193,7 @@ const HREF_REMAP: Record<string, string> = {
   '/guides/sup-for-touring': '/knowledge',
   '/guides/sup-maintenance': '/knowledge',
   '/guides/sup-size-guide': '/research/sup-thickness-guide',
-  '/use-cases/search-and-rescue': 'https://afarer.com/search-and-rescue',
+  '/use-cases/search-and-rescue': `${BRAND_PARENT_URL}/search-and-rescue`,
   // academy skill-path topics without a ported page
   '/sup-basics': '',
   '/paddle-techniques': '',
@@ -1062,11 +1065,7 @@ function AcademyCategories({ c }: { c: Record<string, unknown> }) {
       <SectionHead
         kicker={str(c.tagline) || t('content.learningPaths')}
         title={t('content.skillPaths')}
-        sub={
-          locale === 'es'
-            ? 'Guías y tutoriales paso a paso organizados por nivel de habilidad — desde los conceptos básicos del SUP hasta técnicas avanzadas de rescate.'
-            : 'Step-by-step guides and tutorials organized by skill level —from SUP basics to advanced rescue techniques.'
-        }
+        sub={t('inquiry.skillPathsSub')}
       />
       <div className="mt-10 grid gap-5 md:grid-cols-2">
         {cats.map((cat, i) => {
@@ -1117,11 +1116,7 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
       <SectionHead
         kicker={t('content.knowledgeCenter')}
         title={t('content.knowledgeCenter')}
-        sub={
-          locale === 'es'
-            ? 'Conocimiento experto y guías de compra para profesionales del mar, operadores de flotas y entusiastas de los deportes acuáticos.'
-            : 'Expert knowledge and buying guides for marine professionals, fleet operators, and water sports enthusiasts.'
-        }
+        sub={t('inquiry.knowledgeCenterSub')}
       />
       <div className="mt-10 space-y-10">
         {sections.map((sec, i) => {
@@ -1694,21 +1689,18 @@ export function CaseStudiesIndex() {
 
 /** Intro + real-world stats for the case studies index. */
 function StatsBand() {
-  const { locale, t } = useTranslation()
+  const { t } = useTranslation()
   const { regionCount = 6, cases = [] } = useAferIndex()
-  const isDefault = locale === 'en'
   const studyLabel = t('content.cases.published')
   const regionLabel = t('content.cases.regionsServed')
   const widthLabel = t('content.cases.boardWidth')
   const testedLabel = t('content.cases.factoryTested')
-  const intro = isDefault
-    ? `These case studies document how real brands, resorts, clubs and operators buy inflatable SUPs, kayaks and professional craft from the ${SITE_NAME} plant in Qingdao. Each one covers the use case, the board family that fits it, and the operational considerations that matter when you build — or buy — a fleet.`
-    : t('content.cases.intro', { siteName: SITE_NAME })
+  const intro = t('content.cases.intro', { siteName: SITE_NAME })
   const stats = [
     { value: String(cases.length), label: studyLabel },
     { value: String(regionCount), label: regionLabel },
-    { value: '32"', label: widthLabel },
-    { value: '100%', label: testedLabel },
+    { value: CASE_STUDY_STATS.boardWidth, label: widthLabel },
+    { value: CASE_STUDY_STATS.factoryTested, label: testedLabel },
   ]
   return (
     <Container>

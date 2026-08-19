@@ -41,7 +41,7 @@ const HTTP_MODE = args.includes('--http')
 // key). Prevents "added images but forgot to re-run the upload" — the deploy
 // workflow runs this mode automatically. HTTP mode only.
 const MISSING_ONLY = args.includes('--missing')
-const SRC_DIR = flagValue('src', 'E:/github/afarer/public/images/afarer')
+const SRC_DIR = flagValue('src', process.env.AFARER_IMAGES_DIR ?? '')
 const KEY_PREFIX = flagValue('prefix', 'images/sups/')
 // 图片是稳定路径的不可变资产，允许浏览器/CDN 长缓存。若日后原地替换同名图，
 // 记得 bump 版本号（文件名带上 hash），不要依赖短缓存覆盖。

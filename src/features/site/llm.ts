@@ -17,7 +17,8 @@ import { GUIDES_ES } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
-import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config/branding'
+import { PAGE_TITLES } from '@/product/entity-data'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION } from '@/product/ai-content'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
 
@@ -49,7 +50,7 @@ export function llmSiteHeader(): string {
   return [
     `# ${SITE_NAME}`,
     '',
-    `> ${SITE_NAME} is the SUP product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}), a 12,500 m² inflatable manufacturing plant in Qingdao, China. We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. MOQ is tiered: 1–2 boards for samples, 5–10 units for co-branding small bulk, 20–50 units for pilot batches, and 90–100+ units per 150 m roll (≈180–220 boards) for standard volume production; custom-mould shapes run at the volume tier. Samples are ready in 7–12 days; bulk production 25–35 days after confirmed PO and deposit (custom mould tooling adds 15–20 days).`,
+    `> ${LLM_SITE_DESCRIPTION.replaceAll('{SITE}', SITE_NAME)}`,
     ...factsSection('Company Facts', company),
     ...factsSection('Certifications', certifications),
     ...factsSection('Manufacturing', manufacturing),
@@ -165,22 +166,6 @@ export function llmSolutionsFull(): string {
 
 /* ─────────────────────────── afarer (GEO/AI) ─────────────────────────── */
 
-/** Display titles for ported pages whose slug labels are not user-facing. */
-const PAGE_TITLES: Record<string, string> = {
-  '/oem-manufacturing': 'OEM Manufacturing',
-  '/odm-development': 'ODM Product Development',
-  '/oem-paddle': 'OEM Paddle Boards',
-  '/solutions/rental-operators': 'Solutions: Rental Operators',
-  '/solutions/retail-partners': 'Solutions: Retail Partners',
-  '/solutions/distributors': 'Solutions: Distributors',
-  '/b2b-solutions-matrix': 'B2B Solutions Matrix',
-  '/sup-oem-moq-lead-time': 'Custom SUP MOQ & Lead Time',
-  '/new-brand-trial-order': 'New-Brand Trial Order',
-  '/oem-moq-guide': 'MOQ & Flexible Branding Guide',
-  '/oem-trust-assurance': 'OEM Trust & Factory Assurance',
-  '/what-is-sup': 'What is SUP',
-}
-
 /** `/llms.txt` index sections link to absolute URLs (llmstxt.org) so LLMs can explore directly. */
 const abs = (origin: string, path: string) => `${origin}${path}`
 
@@ -193,7 +178,7 @@ export function llmAfarierIndex(origin: string): string {
     .filter((p) => !(p.path in EDGE_REDIRECTS) && !(p.path in LEGACY_REDIRECTS))
     .map((p) => `- [${PAGE_TITLES[p.path] ?? brandify(p.label)}](${abs(origin, p.path)}): ${flat(brandify(p.meta?.description ?? ''))}`)
   const staticLines = [
-    `- [FAQ](${abs(origin, '/faq')}): Answers to the most common questions about inflatable SUPs`,
+    `- [FAQ](${abs(origin, '/faq')}): ${LLM_FAQ_DESCRIPTION}`,
   ]
   const resolvedResearch = new Set(getContentPages().map((p) => p.path))
   const researchLines = getResearchTopics()
@@ -287,7 +272,7 @@ export function llmSpanishIndex(origin: string): string {
     '',
     '## Español',
     '',
-    `- [${SITE_NAME} — inicio](${es('/')}): Fabricante OEM de tablas de SUP hinchables y SUP inflables personalizadas, con exportación mundial desde China`,
+    `- [${SITE_NAME} — inicio](${es('/')}): ${LLM_SPANISH_HOMEPAGE_DESCRIPTION}`,
     '',
     '### Español: Productos',
     ...productLines,

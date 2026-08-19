@@ -1,5 +1,6 @@
 import { getNonce } from '@/lib/csp'
 import { SITE_NAME, SITE_URL } from '@/config/site'
+import { PRODUCT_BUILD_LINE } from '@/product/brand-constants'
 
 export interface FaqQa {
   q: string
@@ -32,7 +33,7 @@ export function contactPageLd(origin: string, path: string): Record<string, unkn
     '@type': 'ContactPage',
     name: 'Contact ' + SITE_NAME,
     url: `${origin}${path}`,
-    about: 'OEM/ODM manufacturing inquiry — project quotation, samples and production',
+    about: PRODUCT_BUILD_LINE,
   }
 }
 

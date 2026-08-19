@@ -8,7 +8,7 @@
  * lazily so the worker startup graph stays small.
  */
 
-import { defaultLocale, type Locale } from '@/features/i18n/locale'
+import { defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
 import { buildAskPrompt, matchFaq, stableHash, type AiChunk, type AskMessage, type AskSource } from './rag'
 
 const EMBED_MODEL = '@cf/baai/bge-m3'
@@ -43,7 +43,7 @@ export interface AskEnv {
 export async function ask(env: AskEnv, input: AskInput): Promise<AskResponse> {
   const question = input.question.trim().slice(0, MAX_QUESTION)
   if (!question) return { answer: '', sources: [], mode: 'none' }
-  const locale = (input.locale === 'es' ? 'es' : defaultLocale) as Locale
+  const locale = (input.locale && input.locale !== defaultLocale ? input.locale : defaultLocale) as Locale
 
   const cacheKey = `${CACHE_PREFIX}${locale}:${stableHash(question.toLowerCase())}`
   try {
@@ -84,7 +84,7 @@ async function askWithRag(env: AskEnv, question: string, locale: Locale, history
     })
     // FAQ chunks are the highest-value matches for buyer questions — surface
     // them first (stable sort keeps score order within each group).
-    const faqPath = locale === 'es' ? '/es/faq' : '/faq'
+    const faqPath = localizePath(locale, '/faq')
     const chunks: AiChunk[] = matches
       .filter((m) => typeof m.score === 'number' && m.score >= REL_SCORE_MIN)
       .map((m) => ({

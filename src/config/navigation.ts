@@ -10,6 +10,12 @@
  * The actual route handlers are generated from this structure.
  */
 
+import { BRAND_PARENT_URL } from './branding'
+
+export const ENTITY_PAGE_PATH = '/about/supsfactory-entity' as const
+
+export const ABOUT_BRAND_PATH = '/about/afarer' as const
+
 export interface NavItem {
   label: string
   href: string
@@ -53,13 +59,13 @@ export const FOOTER_RESOURCES: NavItem[] = [
 
 export const LEGACY_REDIRECTS: Record<string, string> = {
   '/about/afarer-brand': '/about',
-  '/afarer-story': '/about/afarer',
+  '/afarer-story': ABOUT_BRAND_PATH,
   '/brand-global-presence': '/about',
   '/brand-marine-expertise': '/about',
-  '/brand-why-afarer': '/about/afarer',
+  '/brand-why-afarer': ABOUT_BRAND_PATH,
   '/aquafarer': '/about',
   '/people': '/about',
-  '/geo-report': '/about/afarer',
+  '/geo-report': ABOUT_BRAND_PATH,
   '/disclaimer': '/terms',
   '/adventure-sup': '/products',
   '/all-around-sup': '/products',
@@ -88,22 +94,22 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/solutions/diving-center-boats': '/solutions',
   '/solutions/fishing-boat-solutions': '/fishing',
   '/solutions/marine-tourism-equipment': '/tourism-recreation',
-  '/solutions/rescue-watercraft': 'https://afarer.com/search-and-rescue',
+  '/solutions/rescue-watercraft': `${BRAND_PARENT_URL}/search-and-rescue`,
   '/solutions/yacht-tender-solutions': '/tourism-recreation',
   '/solutions-diving-center-boats': '/solutions',
   '/solutions-fishing-boat-solutions': '/fishing',
   '/solutions-marine-tourism-equipment': '/tourism-recreation',
-  '/solutions-rescue-watercraft': 'https://afarer.com/search-and-rescue',
+  '/solutions-rescue-watercraft': `${BRAND_PARENT_URL}/search-and-rescue`,
   '/solutions-yacht-tender-solutions': '/tourism-recreation',
   '/buyer-center': '/solutions',
   '/marine-industry': '/solutions',
   '/v2': '/products',
   '/use-cases': '/solutions',
-  '/use-cases/commercial-workboats': 'https://afarer.com/commercial-workboats',
-  '/use-cases/disaster-relief': 'https://afarer.com/disaster-relief-humanitarian-aid',
+  '/use-cases/commercial-workboats': `${BRAND_PARENT_URL}/commercial-workboats`,
+  '/use-cases/disaster-relief': `${BRAND_PARENT_URL}/disaster-relief-humanitarian-aid`,
   '/use-cases/fishing': '/fishing',
-  '/use-cases/maritime-safety-defense': 'https://afarer.com/maritime-safety-defense',
-  '/use-cases/search-and-rescue': 'https://afarer.com/search-and-rescue',
+  '/use-cases/maritime-safety-defense': `${BRAND_PARENT_URL}/maritime-safety-defense`,
+  '/use-cases/search-and-rescue': `${BRAND_PARENT_URL}/search-and-rescue`,
   '/use-cases/tourism-recreation': '/tourism-recreation',
   '/compare': '/inflatable-vs-hardboard',
   '/compare/inflatable-vs-hardboard': '/inflatable-vs-hardboard',

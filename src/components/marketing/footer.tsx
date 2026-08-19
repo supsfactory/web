@@ -3,6 +3,7 @@ import {  useTranslation  } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
 import { FACTS } from '@/features/site/facts'
 import { BRAND_CONTACT } from '@/config/branding'
+import { ENTITY_PAGE_PATH } from '@/config/navigation'
 import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
@@ -96,7 +97,7 @@ export function Footer({ theme }: { theme: 'light' | 'dark' }) {
           <a className="foot-link" href={fl('/projects')}>{t('sup.nav.projects')}</a>
           <a className="foot-link" href={fl('/faq')}>{t('sup.footer.faq')}</a>
           <a className="foot-link" href={fl('/news')}>{t('sup.footer.news')}</a>
-          <a className="foot-link" href={fl('/about/supsfactory-entity')}>{t('sup.nav.aboutAfarer')}</a>
+          <a className="foot-link" href={fl(ENTITY_PAGE_PATH)}>{t('sup.nav.aboutAfarer')}</a>
           <a className="foot-link" href={fl('/contact')}>{t('sup.footer.contact')}</a>
         </FooterCol>
       </div>

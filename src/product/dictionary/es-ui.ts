@@ -166,6 +166,17 @@ export const esUi = {
       faq: 'Preguntas frecuentes',
       produceUnderBrand: 'Producción bajo tu marca',
       readyToManufacture: '¿Listo para fabricar esta plataforma bajo tu marca?',
+      oemOdmTitle: 'OEM / ODM',
+      oemOdmDesc: 'Fabricación según tu especificación y muestras',
+      supDevTitle: 'Desarrollo de producto SUP',
+      supDevDesc: 'Proceso de desarrollo en 6 pasos — ingeniería, prototipos, moldes y producción',
+      privateLabelTitle: 'Marca privada',
+      privateLabelDesc: 'Tu logo en plataformas probadas — volumen desde 90–100+ uds. (piloto desde 20–50)',
+      moqVolume: 'MOQ {standardRun} por rollo de 150 m en volumen; piloto desde {trialStandard}',
+      leadTimeFacts: '{leadTime} tras PO confirmado; muestras en {sampleTime}',
+      moqShort: '{standardRun} volumen estándar · {trialStandard} piloto · {customMould} molde a medida',
+      timelineShort: 'Muestras en {sampleTime} · producción en {leadTime} tras PO y depósito',
+      qualityShort: 'Lista de {assemblyChecklist} · prueba de presión {pressureTest}',
       startProject: 'Inicia tu proyecto',
       viewPlatform: 'Ver plataforma',
       otherSeries: 'Otras series:',
@@ -192,6 +203,7 @@ export const esUi = {
     research: {
       kicker: 'Centro de conocimiento',
       title: 'Investigación y guías técnicas',
+      sub: 'Investigación técnica en profundidad sobre materiales, construcción, estándares de seguridad y fabricación de SUP.',
     },
     guide: {
       quickAnswers: 'Respuestas rápidas',
@@ -275,6 +287,8 @@ export const esUi = {
   },
   marketing: {
     recommendedFor: 'Recomendado para:',
+    oemOdmBadge: 'OEM/ODM',
+    boardAriaLabel: 'Tabla de SUP',
   },
   feedback: {
     nav: 'Comentarios',

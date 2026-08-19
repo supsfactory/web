@@ -2,6 +2,7 @@ import { locales, defaultLocale, localizePath, type Locale } from '@/features/i1
 import { SITE_NAME, SITE_TAGLINE } from '@/config/site'
 import { BRAND_OG_IMAGE, BRAND_HERO_IMAGE, BRAND_HERO_IMAGE_768, BRAND_HERO_IMAGE_480 } from '@/config/branding'
 import { OG_LOCALE, HREFLANG } from '@/config/locales'
+import { ENTITY_PAGE_PATH } from '@/config/navigation'
 
 interface PublicPathEntry {
   path: string
@@ -26,7 +27,7 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/solutions/school-sup', lastmod: '2026-06-01' },
   { path: '/projects', lastmod: '2026-08-15' },
   { path: '/knowledge', lastmod: '2026-06-25' },
-  { path: '/about/supsfactory-entity', lastmod: '2026-06-30' },
+  { path: ENTITY_PAGE_PATH, lastmod: '2026-06-30' },
 ]
 
 export const OG_IMAGE = BRAND_OG_IMAGE

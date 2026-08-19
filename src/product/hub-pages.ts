@@ -34,6 +34,7 @@ import { knowledge, knowledgeMeta } from './knowledge'
 import { projects, projectsMeta } from './projects'
 import { GUIDE_CARDS } from './guide-content'
 import { brandify } from '@/features/content/loader'
+import { HUB_PAGE_ENTRIES } from './ai-content'
 
 /**
  * Structured registry for the six live hub/landing pages that ship no yaml
@@ -156,111 +157,37 @@ function galleryContent(locale: Locale): string {
 }
 
 export function buildHubEntries(locale: Locale): SearchEntry[] {
-  if (locale === 'es') {
-    const knowledgeMetaData = knowledgeMeta.es
-    const projectsMetaData = projectsMeta.es
-    const entries: SearchEntry[] = [
-      {
-        url: '/es',
-        title: 'SUPsfactory — Fabricación OEM y ODM de SUP hinchables',
-        excerpt: 'Fábrica OEM/ODM de SUP hinchables en Qingdao: desarrollo de producto, producción a medida, marca privada y control de calidad.',
-        content: homeContent('es'),
-        type: 'page',
-        locale,
-      },
-      {
-        url: '/es/products',
-        title: 'Productos de SUP hinchables',
-        excerpt: 'Tablas de SUP hinchables premium: series de 11 ft, SUP de pesca, mini SUP, tablas gigantes para equipo y más — fabricación OEM/ODM a medida.',
-        content: productsContent('es'),
-        type: 'page',
-        locale,
-      },
-      {
-        url: '/es/solutions',
-        title: 'Soluciones',
-        excerpt: 'Programas de fabricación OEM/ODM de SUP: desarrollo de SUP a medida, marca privada, flotas de resorts y clubes, alquiler y minoristas.',
-        content: solutionsContent('es'),
-        type: 'page',
-        locale,
-      },
-      {
-        url: '/es/projects',
-        title: projectsMetaData.metaTitle,
-        excerpt: projectsMetaData.metaDescription,
-        content: projectsContent('es'),
-        type: 'page',
-        locale,
-      },
-      {
-        url: '/es/knowledge',
-        title: knowledgeMetaData.metaTitle,
-        excerpt: knowledgeMetaData.metaDescription,
-        content: knowledgeContent('es'),
-        type: 'page',
-        locale,
-      },
-      {
-        url: '/es/gallery',
-        title: 'Galería',
-        excerpt: 'Fábrica y galería de productos SUPsfactory: talleres, laboratorios de calidad, ensayos de tejido y tablas de SUP en producción.',
-        content: galleryContent('es'),
-        type: 'page',
-        locale,
-      },
-    ]
-    return entries
+  const templates = HUB_PAGE_ENTRIES[locale] ?? HUB_PAGE_ENTRIES.en
+  const projectsMetaData = projectsMeta[locale]
+  const knowledgeMetaData = knowledgeMeta[locale]
+  const contentFns: Record<string, (l: Locale) => string> = {
+    '/': homeContent,
+    '/es': homeContent,
+    '/products': productsContent,
+    '/es/products': productsContent,
+    '/solutions': solutionsContent,
+    '/es/solutions': solutionsContent,
+    '/projects': projectsContent,
+    '/es/projects': projectsContent,
+    '/knowledge': knowledgeContent,
+    '/es/knowledge': knowledgeContent,
+    '/gallery': galleryContent,
+    '/es/gallery': galleryContent,
   }
-  const knowledgeMetaData = knowledgeMeta.en
-  const projectsMetaData = projectsMeta.en
-  return [
-    {
-      url: '/',
-      title: 'SUPsfactory — Inflatable SUP OEM & ODM Manufacturing',
-      excerpt: 'Qingdao SUP OEM/ODM factory: product development, custom manufacturing, private label and quality control for paddle board brands.',
-      content: homeContent('en'),
-      type: 'page',
-      locale,
-    },
-    {
-      url: '/products',
-      title: 'Inflatable SUP Products',
-      excerpt: 'Premium inflatable SUP boards: 11 ft series boards, fishing SUP, mini SUP, giant team boards and more — built for OEM/ODM customization.',
-      content: productsContent('en'),
-      type: 'page',
-      locale,
-    },
-    {
-      url: '/solutions',
-      title: 'Solutions',
-      excerpt: 'OEM/ODM SUP manufacturing programs: custom SUP development, private label, resort and club fleets, rental operators and retail partners.',
-      content: solutionsContent('en'),
-      type: 'page',
-      locale,
-    },
-    {
-      url: '/projects',
-      title: projectsMetaData.metaTitle,
-      excerpt: projectsMetaData.metaDescription,
-      content: projectsContent('en'),
-      type: 'page',
-      locale,
-    },
-    {
-      url: '/knowledge',
-      title: knowledgeMetaData.metaTitle,
-      excerpt: knowledgeMetaData.metaDescription,
-      content: knowledgeContent('en'),
-      type: 'page',
-      locale,
-    },
-    {
-      url: '/gallery',
-      title: 'Gallery',
-      excerpt: 'SUPsfactory factory and product gallery: workshops, quality labs, fabric testing and SUP boards in production.',
-      content: galleryContent('en'),
-      type: 'page',
-      locale,
-    },
-  ]
+  return templates.map((t) => ({
+    url: t.url,
+    title: t.url === '/projects' || t.url === '/es/projects'
+      ? projectsMetaData.metaTitle
+      : t.url === '/knowledge' || t.url === '/es/knowledge'
+        ? knowledgeMetaData.metaTitle
+        : t.title,
+    excerpt: t.url === '/projects' || t.url === '/es/projects'
+      ? projectsMetaData.metaDescription
+      : t.url === '/knowledge' || t.url === '/es/knowledge'
+        ? knowledgeMetaData.metaDescription
+        : t.excerpt,
+    content: (contentFns[t.url] ?? homeContent)(locale),
+    type: 'page' as const,
+    locale,
+  }))
 }

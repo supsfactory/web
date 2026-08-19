@@ -80,23 +80,19 @@ function SeriesPage() {
           <div className="marine-card p-4">
             <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.minimumOrderShort')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-              {locale === 'es'
-                ? `${FACTS.moq.standardRun} volumen estándar · ${FACTS.moq.trialStandard} piloto · ${FACTS.moq.customMould} molde a medida`
-                : `${FACTS.moq.standardRun} standard volume · ${FACTS.moq.trialStandard} pilot · ${FACTS.moq.customMould} custom mould`}
+              {t('inquiry.moqSummary', { standardRun: FACTS.moq.standardRun, trialStandard: FACTS.moq.trialStandard, customMould: FACTS.moq.customMould })}
             </p>
           </div>
           <div className="marine-card p-4">
             <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.timeline')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-              {locale === 'es'
-                ? `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras PO y depósito`
-                : `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after PO and deposit`}
+              {t('inquiry.timelineSummary', { sampleTime: FACTS.sampleTime, leadTime: FACTS.leadTime })}
             </p>
           </div>
           <div className="marine-card p-4">
             <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.qualityControl')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-              {locale === 'es' ? `Checklist de ${FACTS.assemblyChecklist} puntos · prueba ${FACTS.pressureTest}` : `${FACTS.assemblyChecklist}-point checklist · ${FACTS.pressureTest} pressure test`}
+              {t('inquiry.qcSummary', { assemblyChecklist: FACTS.assemblyChecklist, pressureTest: FACTS.pressureTest })}
             </p>
           </div>
         </div>
@@ -158,7 +154,7 @@ function SeriesPage() {
 
         <div className="mt-12">
           <h2 className="font-display text-2xl font-extrabold tracking-tight">
-            {locale === 'es' ? `${page.navLabel} — modelos` : `${page.navLabel} — Models`}
+            {t('inquiry.modelsHeading', { navLabel: page.navLabel })}
           </h2>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {items.map((p) => (
@@ -172,9 +168,7 @@ function SeriesPage() {
                   <p className="mt-1.5 text-[13px] leading-relaxed text-fg-2">{p.tagline}</p>
                   <p className="mt-2 text-[12.5px] font-medium text-fg-3">{p.specs}</p>
                   <p className="mt-1.5 text-[12px] font-semibold text-primary">
-                    {locale === 'es'
-                      ? `MOQ ${FACTS.moq.standardRun} · piloto desde ${FACTS.moq.trialStandard}`
-                      : `MOQ ${FACTS.moq.standardRun} · pilot from ${FACTS.moq.trialStandard}`}
+                    {t('inquiry.moqShort', { standardRun: FACTS.moq.standardRun, trialStandard: FACTS.moq.trialStandard })}
                   </p>
                 </div>
                 <p className="mt-auto flex items-center gap-1.5 text-[13.5px] font-bold text-primary group-hover:underline">

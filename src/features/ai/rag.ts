@@ -7,6 +7,7 @@
  */
 
 import { SITE_NAME, SITE_URL } from '@/config/site'
+import { AI_SYSTEM_ROLE, AI_INQUIRY_PROMPT } from '@/product/ai-content'
 
 export interface AiChunk {
   id: string
@@ -61,10 +62,10 @@ export function buildAskPrompt(input: AskPromptInput): { system: string; user: s
     .map((c, i) => `[${i + 1}] ${c.title}\nSource: ${c.url}\n${c.text}`)
     .join('\n\n')
   const system = [
-    `You are the ${SITE_NAME} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`,
+    AI_SYSTEM_ROLE.replaceAll('{SITE}', SITE_NAME),
     'Answer the buyer using ONLY the knowledge base below. Cite the relevant sources as [1], [2] after every factual claim.',
     'Never invent prices, MOQ, lead times, certifications, materials or delivery conditions — if a fact is not in the knowledge base, do not guess it.',
-    `If the knowledge base does not answer the question, say you do not have that information and invite the buyer to submit an inquiry form at ${SITE_URL}/contact.`,
+    AI_INQUIRY_PROMPT.replaceAll('{SITE_URL}', SITE_URL),
     'Answer in the same language as the buyer\'s question (English or Spanish). Be concise and helpful: state the answer first, then 2-5 short bullets of supporting detail.',
     '',
     'Knowledge base:',

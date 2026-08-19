@@ -10,16 +10,17 @@
  */
 
 import { SITE_NAME, SITE_DOMAIN } from './site'
+import { PRODUCT_BOILERPLATE, PRODUCT_BUILD_LINE, PRODUCT_NOT_ROB, PRODUCT_OG_IMAGE_FILENAME } from '@/product/brand-constants'
 
 export const BRAND_LOGO_URL = '/logo192.png' as const
 
 export const BRAND_FAVICON_ICO = '/favicon.ico' as const
 export const BRAND_FAVICON_SVG = '/favicon.svg' as const
 
-export const BRAND_OG_IMAGE = `https://assets.${SITE_DOMAIN}/images/sups/products/afarer-og-default.webp` as const
-export const BRAND_HERO_IMAGE = `https://assets.${SITE_DOMAIN}/images/sups/products/afarer-og-default.avif` as const
-export const BRAND_HERO_IMAGE_768 = `https://assets.${SITE_DOMAIN}/images/sups/products/afarer-og-default-768.avif` as const
-export const BRAND_HERO_IMAGE_480 = `https://assets.${SITE_DOMAIN}/images/sups/products/afarer-og-default-480.avif` as const
+export const BRAND_OG_IMAGE = `https://assets.${SITE_DOMAIN}/images/sups/products/${PRODUCT_OG_IMAGE_FILENAME}.webp` as const
+export const BRAND_HERO_IMAGE = `https://assets.${SITE_DOMAIN}/images/sups/products/${PRODUCT_OG_IMAGE_FILENAME}.avif` as const
+export const BRAND_HERO_IMAGE_768 = `https://assets.${SITE_DOMAIN}/images/sups/products/${PRODUCT_OG_IMAGE_FILENAME}-768.avif` as const
+export const BRAND_HERO_IMAGE_480 = `https://assets.${SITE_DOMAIN}/images/sups/products/${PRODUCT_OG_IMAGE_FILENAME}-480.avif` as const
 
 export const BRAND_ASSETS_CDN = `https://assets.${SITE_DOMAIN}` as const
 
@@ -36,14 +37,11 @@ export const BRAND_CONTACT = {
   address: 'Economic Development Zone, Laixi, Qingdao, China, 266600',
 } as const
 
-export const BRAND_BOILERPLATE =
-  `${SITE_NAME} is the SUP product development and manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,500 m² inflatable manufacturing plant in Qingdao, China.` as const
+export const BRAND_BOILERPLATE = PRODUCT_BOILERPLATE as typeof PRODUCT_BOILERPLATE
 
-export const BRAND_BUILD_LINE =
-  'We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing.' as const
+export const BRAND_BUILD_LINE = PRODUCT_BUILD_LINE as typeof PRODUCT_BUILD_LINE
 
-export const BRAND_NOT_ROB =
-  'We do not sell to end consumers and we do not compete with our clients in any market.' as const
+export const BRAND_NOT_ROB = PRODUCT_NOT_ROB as typeof PRODUCT_NOT_ROB
 
 export const BRAND_COMPANY_NAME = 'Qingdao Vatrad Group Co., Ltd.' as const
 export const BRAND_PARENT_BRAND = 'Afarer' as const

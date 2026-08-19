@@ -7,6 +7,7 @@ import { LangSwitch } from '@/features/i18n/lang-switch'
 import { SearchDialog } from '@/components/marketing/search-dialog'
 import { useTranslation } from '@/features/i18n/provider'
 import { SITE_NAME } from '@/config/site'
+import { ENTITY_PAGE_PATH } from '@/config/navigation'
 
 interface NavItem {
   label: string
@@ -94,7 +95,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
       label: t('sup.nav.about'),
       items: [
         { label: t('sup.nav.aboutDropdown.about'), href: '/about' },
-        { label: t('sup.nav.aboutDropdown.entity'), href: '/about/supsfactory-entity' },
+        { label: t('sup.nav.aboutDropdown.entity'), href: ENTITY_PAGE_PATH },
         { label: t('sup.nav.aboutDropdown.partners'), href: '/partners' },
         { label: t('sup.nav.aboutDropdown.howItWorks'), href: '/how-it-works' },
         { label: t('sup.nav.contact'), href: '/contact' },

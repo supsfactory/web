@@ -7,14 +7,16 @@
 export function BoardArt({
   hue = 195,
   label,
+  ariaLabel = 'SUP board',
   className,
 }: {
   hue?: number
   label?: string
+  ariaLabel?: string
   className?: string
 }) {
   return (
-    <svg viewBox="0 0 460 150" className={className} role="img" aria-label={label ?? 'SUP board'} fill="none">
+    <svg viewBox="0 0 460 150" className={className} role="img" aria-label={ariaLabel} fill="none">
       {/* water ripples */}
       <g stroke="var(--primary)" strokeWidth="2" strokeLinecap="round">
         <path d="M16 138c13-7 26-7 39 0s26 7 39 0 26-7 39 0" opacity="0.28" />

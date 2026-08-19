@@ -2269,6 +2269,7 @@ export interface CustomizerContent {
   statusBody: string
   steps: { title: string; body: string }[]
   mockupLabel: string
+  mockupBrand: string
   stepLabel: string
   boardLabel: string
   cta: string
@@ -2288,6 +2289,7 @@ export const customizer: Localized<CustomizerContent> = {
       { title: 'Generate mockup', body: 'Export a preview of your custom SUP to share with your team.' },
     ],
     mockupLabel: 'Live mockup preview',
+    mockupBrand: "SUP Explorer 11'",
     stepLabel: 'Step',
     boardLabel: 'YOUR BRAND',
     cta: 'Create Your Design',
@@ -2305,6 +2307,7 @@ export const customizer: Localized<CustomizerContent> = {
       { title: 'Genera el mockup', body: 'Exporta una vista previa de tu SUP personalizado para compartirla con tu equipo.' },
     ],
     mockupLabel: 'Vista previa del mockup en vivo',
+    mockupBrand: "SUP Explorer 11'",
     stepLabel: 'Paso',
     boardLabel: 'TU MARCA',
     cta: 'Crea tu diseño',

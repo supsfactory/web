@@ -6,6 +6,7 @@
 import { Calendar, ExternalLink, Mail } from 'lucide-react'
 import { useMemo } from 'react'
 import { useTranslation } from '@/features/i18n/provider'
+import { LOCALE_LABELS } from '@/config/locales'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle, DrawerClose } from '@/components/ui/drawer'
 import { Badge } from '@/components/ui/badge'
 import { fmtDateTime } from '@/lib/format-date'
@@ -48,7 +49,7 @@ export function InquiryDetailDrawer({ row, open, onOpenChange }: Props) {
                   <a className="text-primary hover:underline" href={`https://${row.website}`} target="_blank" rel="noreferrer">{row.website}</a>
                 )}
                 <span className="inline-flex items-center gap-1"><Calendar size={12} />{fmtDateTime(row.createdAt)}</span>
-                <span>{row.locale === 'es' ? 'Español' : 'English'}</span>
+                <span>{LOCALE_LABELS[row.locale]?.native ?? row.locale}</span>
               </div>
             </div>
             <DrawerClose className="rounded p-1 text-fg-3 hover:bg-bg-alt hover:text-foreground" aria-label={t('admin.closeDrawer')}>✕</DrawerClose>
