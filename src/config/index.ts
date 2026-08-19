@@ -20,5 +20,4 @@ export type { DeploymentConfig } from './deployment'
 export { SUPPORTED_LOCALES as LOCALES, DEFAULT_LOCALE as CONFIG_DEFAULT_LOCALE, ACTIVE_LOCALES, OG_LOCALE, HREFLANG, isLocale, localizePath, stripDefaultLocalePrefix, negotiateLocale } from './locales'
 export type { Locale } from './locales'
 
-export { MAIN_NAV, FOOTER_NAV, FOOTER_LEGAL, FOOTER_RESOURCES, LEGACY_REDIRECTS, GONE_PATHS } from './navigation'
-export type { NavItem } from './navigation'
+export { LEGACY_REDIRECTS, GONE_PATHS } from './navigation'

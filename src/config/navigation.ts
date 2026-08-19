@@ -16,47 +16,6 @@ export const ENTITY_PAGE_PATH = '/about/supsfactory-entity' as const
 
 export const ABOUT_BRAND_PATH = '/about/afarer' as const
 
-export interface NavItem {
-  label: string
-  href: string
-  children?: NavItem[]
-}
-
-export const MAIN_NAV: NavItem[] = [
-  { label: 'Products', href: '/products' },
-  { label: 'Solutions', href: '/solutions', children: [
-    { label: 'Custom SUP Manufacturing', href: '/product-development' },
-    { label: 'Private Label Paddle Boards', href: '/solutions/private-label-sup' },
-    { label: 'Resort Paddle Boards', href: '/solutions/resort-sup' },
-    { label: 'Custom SUP Team Boards', href: '/solutions/club-sup' },
-    { label: 'School Paddle Board Program', href: '/solutions/school-sup' },
-  ]},
-  { label: 'Projects', href: '/projects' },
-  { label: 'Knowledge', href: '/knowledge' },
-  { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' },
-]
-
-export const FOOTER_NAV: NavItem[] = [
-  { label: 'Products', href: '/products' },
-  { label: 'Solutions', href: '/solutions' },
-  { label: 'Projects', href: '/projects' },
-  { label: 'Knowledge', href: '/knowledge' },
-  { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' },
-]
-
-export const FOOTER_LEGAL: NavItem[] = [
-  { label: 'Terms', href: '/terms' },
-  { label: 'Privacy', href: '/privacy' },
-]
-
-export const FOOTER_RESOURCES: NavItem[] = [
-  { label: 'FAQ', href: '/faq' },
-  { label: 'News', href: '/news' },
-  { label: 'Technology', href: '/technology' },
-]
-
 export const LEGACY_REDIRECTS: Record<string, string> = {
   '/about/afarer-brand': '/about',
   '/afarer-story': ABOUT_BRAND_PATH,
