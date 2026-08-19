@@ -198,6 +198,24 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
         value: s.value,
       })),
     ],
+    offers: {
+      '@type': 'Offer',
+      priceCurrency: 'USD',
+      price: '0',
+      availability: 'https://schema.org/InStock',
+      url: `${origin}/products/${product.slug}`,
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        price: '0',
+        priceCurrency: 'USD',
+        description: `MOQ ${FACTS.moq.trialStandard} pilot · ${FACTS.moq.standardRun} standard · ${FACTS.moq.customMould} custom mould`,
+      },
+      eligibleQuantity: {
+        '@type': 'QuantitativeValue',
+        minValue: FACTS.moq.trialStandard,
+        unitCode: 'C62',
+      },
+    },
   }
 }
 

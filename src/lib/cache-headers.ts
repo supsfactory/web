@@ -12,7 +12,7 @@
  *   future subset swap must not be masked from clients for a year.
  */
 
-const HASHED_ASSET = /^\/assets\/[^/]+-[0-9A-Za-z_-]{8}\.(?:js|mjs|css)$/
+const HASHED_ASSET = /^\/assets\/[^/]+-[0-9A-Za-z_-]{6,}\.(?:js|mjs|css)$/
 const FONT = /^\/fonts\/[^/]+\.woff2$/
 // Un-hashed public images (e.g. /assets/products/2026/...). No fingerprint in
 // the URL, so keep it short: cache 7 days, refresh sooner on release.

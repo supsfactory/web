@@ -49,6 +49,7 @@ describe('withStaticCache', () => {
       '/assets/index-DYsAOzxM.js',
       '/assets/app-BH3xOMGs.css',
       '/assets/_-_-locale_-OjHCjNFD.js',
+      '/assets/chunk-aB3xK.js',
     ]) {
       const r = withStaticCache(new Request(`https://x.test${path}`), GET(path, 'text/javascript'))
       expect(r.headers.get('cache-control')).toBe('public, max-age=31536000, immutable')
