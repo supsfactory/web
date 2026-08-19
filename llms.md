@@ -17,16 +17,27 @@
 ## 2. Content Source Hierarchy (Single Point of Truth)
 
 ```
-src/features/site/
+src/product/                          ← Product Layer (swap per deployment)
 │
 ├─ content.ts        ← HERO_CONTENT, gallery, FAQ, site-wide copy
 ├─ facts.ts          ← SITE_FACTS (5 capability cards, "who we serve" stats)
-├─ llm.ts            ← LLM index builder (products + solutions + afarer)
+├─ ai-content.ts     ← LLM descriptions, AI prompts, FAQ excerpts, corpus text
+├─ brand-constants.ts← PRODUCT_TAGLINE, PRODUCT_DESCRIPTION, PRODUCT_BOILERPLATE
+├─ guide-content.ts  ← GUIDES_BY_LOCALE, guide data
+├─ hub-pages.ts      ← hub/landing page entries
+├─ entity-data.ts    ← ENTITY_FACTS, ENTITY_SERVICES, ENTITY_KNOWS_ABOUT
+├─ product-jsonld.ts ← 9 structured data generators
+│
+│   (Framework code reads via re-exports in features/site/ → @/product/)
+
+src/features/site/
+│
+├─ llm.ts            ← LLM index builder (products + solutions + content)
 ├─ site-config.ts    ← read-only config views (SITE_FACTS, HERO_CONTENT)
 │
 ├─ seo.ts            ← PUBLIC_PATHS, HREFLANG, OG_LOCALE → /sitemap.xml, /robots.txt
 │
-├─ i18n/             ← dictionaries/{en,es}.ts; structural identity required
+├─ i18n/             ← dictionaries from src/product/dictionary/ (UI + Product merge)
 │
 └─ loader.ts         ← getGeoEntity → /entity.json
 ```
@@ -41,15 +52,15 @@ src/features/seo/
 ```
 
 ```
-src/content/afarer/
+src/content/site/
 │
-├─ site/pages.yaml   ← registry of every afarer page (slug, locale, meta)
+├─ site/pages.yaml   ← registry of every content page (slug, locale, meta)
 ├─ *.yaml            ← per-page frontmatter (title, description, etc.)
-├─ products/         ← 10 product series with SKUs, prices, specs
+├─ products/         ← product series with SKUs, prices, specs
 ├─ news/             ← news posts with date, title, description
 ├─ technology/       ← technology explanation pages
-├─ case-studies/     ← case study write-ups
-├─ geo.json          ← geographic/fact data for LLM grounding
+├─ case-use/         ← case study write-ups
+├─ geo/              ← geographic/fact data for LLM grounding (JSON)
 │
 └─ docs/             ← in-app docs (Fumadocs), excluded from LLM corpus at production
 ```

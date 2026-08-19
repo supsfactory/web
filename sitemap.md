@@ -10,7 +10,7 @@ The `/sitemap.xml` is **dynamically generated** on every request from a single s
 ```
 seo.ts PUBLIC_PATHS  →  × locales (en, es)  →  hreflang alternates
        ↘                     ↘
-        →  afarer registry      →  english-only afarer paths (no alternates)
+         →  content registry      →  english-only content paths (no alternates)
                                            ↓
                                        /sitemap.xml (XML)
 ```
@@ -40,8 +40,8 @@ seo.ts PUBLIC_PATHS  →  × locales (en, es)  →  hreflang alternates
 </url>
 ```
 
-### 2.2 Afarer-Only (English-only) Entries
-- Paths from `src/content/afarer/` registry that have **no Supsfactory bilingual route**
+### 2.2 Content-Registry-Only (English-only) Entries
+- Paths from `src/content/site/` registry that have **no bilingual route**
 - These entries **do not** include hreflang alternates (they are English-only)
 - Example:
 
@@ -74,13 +74,13 @@ export const PUBLIC_PATHS = {
   products: { en: '/products', es: '/es/productos' },
   solutions: { en: '/solutions', es: '/es/soluciones' },
   // ... other mapped paths
-  // afarer paths are injected separately from src/content/afarer/ registry
+  // content registry paths are injected separately from src/content/site/ registry
 };
 ```
 
 **How to add a new public page:**
 1. Add an entry to `PUBLIC_PATHS` in `seo.ts` (with both `en` and `es` keys, or `null` if locale‑not‑applicable).
-2. Ensure the route exists under `src/routes/{-$locale}/` (or is an afarer page).
+2. Ensure the route exists under `src/routes/{-$locale}/` (or is a content registry page).
 3. Re‑run `pnpm build` — the sitemap will auto‑include the new URL on next request.
 
 ## 4. Robots.txt & Sitemap Reference
@@ -102,7 +102,7 @@ The current sitemap structure is designed for **bilingual** (`en`/`es`) out of t
 
 1. **Locale‑aware `PUBLIC_PATHS`**: change the value type from `{ en: string, es: string }` to a `Record<string, string>` keyed by locale code.
 2. **Hreflang generation**: the sitemap generator will automatically produce `<xhtml:link hreflang="...">` for every registered locale.
-3. **Afarer registry**: afarer‑only pages remain single‑locale; they get no hreflang alternates but still appear as `<url>` entries.
+3. **Content registry**: registry-only pages remain single-locale; they get no hreflang alternates but still appear as `<url>` entries.
 
 ## 6. Verification
 

@@ -1,13 +1,12 @@
 # SUPsfactory — Technical Documentation
 
-> Last updated: 2026-08-16
+> Last updated: 2026-08-19
 > Project path: `E:\github\supsfactory`
 > Production: https://supsfactory.com (Cloudflare Workers, `supsfactory-production`)
 > Stack: TanStack Start (React 19) + Cloudflare Workers + D1 (Drizzle ORM) + KV + R2 + better-auth + Resend + Orama (search) + Fumadocs (docs)
 > > Media: All large assets (videos, PDFs, quality photos, product photos) migrated to Cloudflare R2 bucket `supsfactory-files-prod`, served via CDN `assets.supsfactory.com/site/*`; `public/assets/*` directories added to `.gitignore`; upload script `scripts/upload-site-assets.mjs` supports `--prefix <prefix>` for multi-site key isolation.
-> > Tests: 240 (Vitest node + workers pools); `pnpm typecheck` / `pnpm build` green
-> > Framework abstract layer: `src/features/site/site-config.ts` extracts `SITE_FACTS` / `HERO_CONTENT` as read-only views; all original `FACTS` / `hero` exports unchanged.
-> > Marketing positioning: custom SUP product development & manufacturing partner (not "launch your own brand") — 5-page /solutions system, legacy landings 301 to it; full afarer brand content ported under `/`
+> > Tests: 267 (Vitest node + workers pools); `pnpm typecheck` / `pnpm build` green
+> > Architecture: 5-layer decoupling — Product Layer (`src/product/`) → Site Configuration (`src/config/`) → Website Foundation (`src/features/`) → Cloudflare Platform → Infrastructure. Framework code never imports brand data directly.
 
 ---
 
@@ -24,7 +23,7 @@ Everything runs on the edge — the marketing site, the SaaS app, and all APIs a
 | **Private surfaces never cache** | `/app`, `/admin`, `/api`, `/login`, `/register`, `/sign-in`, `/sign-up`, `/signout`, `/forgot-password`, `/reset-password`, `/auth`, `/oauth`, `/verify` (first path segment) are force-stamped `Cache-Control: private, no-store` + `Vary: Cookie` on **every** method — even if the framework stamped `public` on an SSR response. This makes the worker immune to a CDN misconfiguration caching one user's session page for another. |
 | URL gate (`src/features/seo/edge-gate.ts`) | `EDGE_REDIRECTS` maps every duplicate/legacy URL to its canonical keeper (301, `max-age=3600`); a set of removed template pages 410s (`/docs`, `/waitlist`, `/changelog`); trailing slashes 301 to the slash-less form; retired `/zh/*` URLs 301 to their `/es` mirror. Runs **before** any route handler, so redirects never SSR. |
 | Cron | Two triggers in `wrangler.jsonc`: `0 3 * * *` daily maintenance cleanup (expired `session`/`verification`/stale `rateLimit` rows — `src/features/maintenance/cleanup.ts`, no outbound calls) and `*/5 * * * *` **edge-cache warming** (`warmEdgeCache`: replays `/`, `/es` and all `/products/*` paths through the real handler with a cache-busting query, then overwrites the clean-URL Cache API entry so real visitors get an edge hit instead of a cold worker render). |
-| Assets | Self-hosted fonts, `public/` statics. Product photos served from `assets.supsfactory.com` (the site's own R2 CDN). All afarer content (`src/content/afarer/`) is bundled at build time via Vite glob + `?raw` — no filesystem at runtime. |
+| Assets | Self-hosted fonts, `public/` statics. Product photos served from `assets.supsfactory.com` (the site's own R2 CDN). All site content (`src/content/site/`) is bundled at build time via Vite glob + `?raw` — no filesystem at runtime. |
 
 ### 1.2 Locale routing and the two content worlds
 
@@ -32,10 +31,10 @@ Path-based bilingual routing via TanStack's `{-$locale}` optional prefix: Englis
 
 The site serves **two content worlds** from one route tree:
 
-1. **Bilingual marketing site** (`{-$locale}/` routes) — copy/UI in `src/features/site/content.ts`, solution pages in `solution-pages.ts`.
-2. **Ported afarer brand site** (English-only) — the factory/technology/research/news/product content from `src/content/afarer/`. The root catch-all `src/routes/$.tsx` strips an optional leading locale segment and resolves the rest against the afarer registry; unknown paths throw `notFound()`. ~45 single-segment paths (e.g. `/factory`, `/oem-odm-manufacturer`, `/technology`) get their own static route stub via `afarerSingleRoute()` — they **must** be explicit routes because the optional `{-$locale}` group terminates on a bare segment before the splat is ever considered (a static route outranks the optional group).
+1. **Bilingual marketing site** (`{-$locale}/` routes) — copy/UI in `src/product/content.ts`, solution pages in `src/product/solution-pages.ts`.
+2. **Ported brand content** (English-only) — the factory/technology/research/news/product content from `src/content/site/`. The root catch-all `src/routes/$.tsx` strips an optional leading locale segment and resolves the rest against the content registry; unknown paths throw `notFound()`. ~45 single-segment paths (e.g. `/factory`, `/oem-odm-manufacturer`, `/technology`) get their own static route stub via `afarerSingleRoute()` — they **must** be explicit routes because the optional `{-$locale}` group terminates on a bare segment before the splat is ever considered (a static route outranks the optional group).
 
-Registry ownership is explicit: `SHADOWED_PATHS` (`features/content/loader.ts`) lists every path owned by a static SUPsfactory route — registry entries under those are never rendered; `EXTRA_PATHS` maps registry-less pages (research articles, R&D subpages, ported solution/OEM pages) to their YAML slugs for dedicated routes.
+Registry ownership is explicit: `SHADOWED_PATHS` (`src/product/route-registry.ts`) lists every path owned by a static route — registry entries under those are never rendered; `EXTRA_PATHS` maps registry-less pages (research articles, R&D subpages, ported solution/OEM pages) to their YAML slugs for dedicated routes.
 
 ### 1.3 Three data stores
 
@@ -59,7 +58,7 @@ Two public surfaces + one API, all built from the **same content sources** (sing
 
 Index coverage (`search-index.server.ts`): solution pages, knowledge hub, projects, product series, afarer products/news/technology/case-studies/guides, every afarer registry page (en + translated es), FAQ, **plus `hubEntries()`** — six live landing pages that ship no yaml registry entry yet are first-class public pages (home `/`, `/products`, `/solutions`, `/projects`, `/knowledge`, `/gallery`, en+es). Edge-redirected paths are excluded (`EDGE_REDIRECTS`), page titles strip trailing brand suffixes.
 
-These modules are server-only: the afarer corpus never enters the client bundle (dynamically imported by server routes / server fns).
+These modules are server-only: the content corpus never enters the client bundle (dynamically imported by server routes / server fns).
 
 ---
 
@@ -141,7 +140,7 @@ All generated dynamically; content sources are the single point of truth — edi
 
 **Meta length spec** (enforced on news/products/yaml pages): `title ≤ 70` chars, `description 80–170` chars, bilingual — keeps SERP snippets clean.
 
-Product catalog lives in `src/features/site/content.ts`; the 5 solution pages (with FAQ) in `src/features/site/solution-pages.ts`; the afarer corpus in `src/content/afarer/` (registry `site/pages.yaml` + page YAMLs + 13 products + news + technology + case studies + geo JSON). Keeping all of it in the LLM corpus means answer engines cite the actual offer — including prices and SKUs.
+Product catalog lives in `src/product/content.ts`; the 5 solution pages (with FAQ) in `src/product/solution-pages.ts`; the content corpus in `src/content/site/` (registry `site/pages.yaml` + page YAMLs + products + news + technology + case studies + geo JSON). Keeping all of it in the LLM corpus means answer engines cite the actual offer — including prices and SKUs.
 
 ### 5.1 Solutions system and the legacy-landing 301s
 
@@ -150,7 +149,7 @@ The five `/solutions/*` pages (custom-sup, private-label-sup, resort-sup, club-s
 The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`, `sup-for-resorts`, `sup-for-clubs`, `sup-startup-brands`) are stubs whose loaders throw `redirect({ href: localizePath(locale, target), statusCode: 301 })`. Broader URL policy (afarer-era dups, removed pages, trailing slashes, retired `/zh`) lives in the **edge gate** (`src/features/seo/edge-gate.ts`) so it runs before SSR:
 
 - Old URLs keep their search equity: `sup-startup-brands` → `/solutions/custom-sup`, the other four map 1:1 to their new pages; es requests redirect to the `/es/...` equivalents via `localizePath`.
-- The old paths were removed from `PUBLIC_PATHS`/sitemap and their data deleted — the solution pages are the single source of truth; `SHADOWED_PATHS` covers all five new paths so the afarer registry can never shadow them.
+- The old paths were removed from `PUBLIC_PATHS`/sitemap and their data deleted — the solution pages are the single source of truth; `SHADOWED_PATHS` covers all five new paths so the content registry can never shadow them.
 
 ---
 
@@ -159,7 +158,7 @@ The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`,
 | Task | Command |
 |------|---------|
 | Dev server | `pnpm dev` |
-| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 258 tests |
+| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 267 tests |
 | Typecheck / lint / build | `pnpm typecheck` (fumadocs-mdx + tsc) / `pnpm lint` / `pnpm build` |
 | D1 migrations | `pnpm db:generate` → `pnpm db:migrate:local` (local); `db:migrate:staging` / `db:migrate:prod` (remote) |
 | Deploy | `pnpm deploy:staging` / `pnpm deploy:prod` (builds with `CLOUDFLARE_ENV` + `wrangler deploy`); `pnpm deploy:purge` purges the CDN (needs `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ZONE_ID` w/ cache-purge scope); `deploy:prod:all` = deploy + purge |
