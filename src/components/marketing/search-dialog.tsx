@@ -6,6 +6,9 @@ import { TYPE_CLASS } from '@/features/site/search-type-class'
 import { useTranslation } from '@/features/i18n/provider'
 import { useFocusTrap } from '@/lib/use-focus-trap'
 
+const FOCUS_DELAY_MS = 30
+const MAX_RESULTS = 12
+
 /** Site-wide search dialog — lazily fetches `/search-index.json`, filters by
  * the current locale, and navigates on selection. The `/` shortcut opens it;
  * Enter submits to the /search results page. */
@@ -35,7 +38,8 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
           .catch((e) => { if (!ac.signal.aborted) { console.error('[search-index]', e); setIndex([]) } })
         return () => ac.abort()
       }
-      setTimeout(() => inputRef.current?.focus(), 30)
+      const focusTimer = setTimeout(() => inputRef.current?.focus(), FOCUS_DELAY_MS)
+      return () => clearTimeout(focusTimer)
     } else {
       setQuery('')
     }
@@ -66,7 +70,7 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
     if (!q || !index) return []
     return index
       .filter((it) => it.locale === locale && (it.title.toLowerCase().includes(q) || it.excerpt.toLowerCase().includes(q) || (it.content ?? '').toLowerCase().includes(q)))
-      .slice(0, 12)
+      .slice(0, MAX_RESULTS)
   }, [q, index, locale])
 
   if (!open) return null

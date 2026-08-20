@@ -1,4 +1,4 @@
-﻿import { useCallback, useEffect, useState } from 'react'
+﻿import { useCallback, useEffect, useRef, useState } from 'react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { useFocusTrap } from '@/lib/use-focus-trap'
@@ -6,6 +6,7 @@ import { BRAND_CONTACT } from '@/config/branding'
 
 const SCROLL_DELTA_THRESHOLD = 4
 const MIN_SCROLL_Y = 140
+const COPY_FEEDBACK_MS = 2000
 const WA_URL = BRAND_CONTACT.whatsappLink
 const WECHAT_DISPLAY = BRAND_CONTACT.whatsapp.replace(/(\+86)(\d{3})(\d{4})(\d{4})/, '$1 $2 $3 $4')
 
@@ -32,6 +33,13 @@ export function ContactFloats() {
   const [copied, setCopied] = useState(false)
   const [hidden, setHidden] = useState(false)
   const fl = useLocalizePath()
+  const copyTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  useEffect(() => {
+    return () => {
+      if (copyTimeoutRef.current) clearTimeout(copyTimeoutRef.current)
+    }
+  }, [])
 
   // Hide while scrolling down (and when reading the page footer), reappear on scroll up.
   useEffect(() => {
@@ -65,7 +73,7 @@ export function ContactFloats() {
       /* clipboard unavailable — the number stays visible for manual entry */
     }
     setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
+    copyTimeoutRef.current = setTimeout(() => setCopied(false), COPY_FEEDBACK_MS)
   }, [])
 
   const wechatPanel = open ? (

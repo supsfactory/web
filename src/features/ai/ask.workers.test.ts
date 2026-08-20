@@ -20,7 +20,7 @@ describe('ask — graceful degradation without AI bindings', () => {
     const res = await ask(env, { question: 'What is your minimum order quantity?', locale: 'en' })
     expect(res.mode).toBe('faq')
     expect(res.answer.length).toBeGreaterThan(0)
-    expect(res.sources[0]).toMatchObject({ url: '/faq' })
+    expect(res.sources[0].url).toMatch(/^\/faq#/)
   }, 30000)
 
   test('returns none (empty answer) when nothing matches', async () => {

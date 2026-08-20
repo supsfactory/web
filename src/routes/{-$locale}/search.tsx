@@ -11,6 +11,8 @@ import { PageHero } from '@/components/marketing/section-head'
 import { MarketingShell } from '@/components/marketing/shell'
 import { SITE_NAME } from '@/config'
 
+const MAX_SEARCH_RESULTS = 24
+
 interface SearchParams {
   q?: string
 }
@@ -52,7 +54,7 @@ function SearchPage() {
             it.excerpt.toLowerCase().includes(query) ||
             (it.content ?? '').toLowerCase().includes(query),
         )
-        .slice(0, 24)
+        .slice(0, MAX_SEARCH_RESULTS)
     : []
 
   return (
