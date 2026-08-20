@@ -234,6 +234,17 @@ export const esUi = {
       whatFor: 'Para qué sirve',
       notes: 'Notas',
     },
+    evidence: {
+      title: 'Evidencia y verificación',
+      reviewedBy: 'Revisado por',
+      location: 'Ubicación de fábrica',
+      lastVerified: 'Última verificación',
+      available: 'Evidencia disponible',
+      certificates: 'Certificados ISO 9001 · CE · BSCI',
+      qcRecords: 'Registros de inspección QC',
+      testReports: 'Informes de presión y pruebas estructurales',
+      batchTraceability: 'Registros de trazabilidad por lote',
+    },
     catalog: {
       invalidEmail: 'Introduce un correo válido.',
       rateLimited: 'Demasiados intentos — inténtalo en unos minutos.',

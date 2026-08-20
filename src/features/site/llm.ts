@@ -14,6 +14,7 @@ import {
   brandify,
 } from '@/features/content/loader'
 import { GUIDES_ES } from '@/features/content/guide-content'
+import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
@@ -52,11 +53,32 @@ export function llmSiteHeader(): string {
   const glossaryBlock = glossaryEntries.length > 0
     ? ['', '## Industry Glossary', '', ...glossaryEntries.map((g) => `- **${g.term}**: ${g.short}`)]
     : []
+  const collaborationLines = Object.entries(COLLABORATION_MODES).flatMap(([key, mode]) => [
+    `- **${key.toUpperCase()}**: ${mode.short}`,
+    `  Full: ${mode.full}`,
+    `  Best for: ${mode.bestFor}`,
+  ])
   return [
     `# ${SITE_NAME}`,
     '',
     `> ${LLM_SITE_DESCRIPTION.replaceAll('{SITE}', SITE_NAME)}`,
     LLM_FACT_BLOCK.replaceAll('{SITE}', SITE_NAME),
+    '',
+    '## MOQ Note',
+    FACTS.moqNote,
+    '',
+    '## MOQ Explanation',
+    `- Sample: ${FACTS.moqExplanation.sample}`,
+    `- Co-branding: ${FACTS.moqExplanation.coBrand}`,
+    `- Pilot: ${FACTS.moqExplanation.pilot}`,
+    `- Standard: ${FACTS.moqExplanation.standard}`,
+    `- Custom mould: ${FACTS.moqExplanation.customMould}`,
+    '',
+    '## Material Roll Note',
+    FACTS.materialRollNote,
+    '',
+    '## Collaboration Modes',
+    ...collaborationLines,
     ...factsSection('Company Facts', company),
     ...factsSection('Certifications', certifications),
     ...factsSection('Manufacturing', manufacturing),
@@ -213,14 +235,57 @@ export function llmAfarierIndex(origin: string): string {
 
 /** Full text for the afarer factory/technology pages + products + articles. */
 export function llmsAfarerFull(): string {
+  const DEEP_PAGES = new Set([
+    '/factory', '/quality', '/oem-moq-guide', '/sup-oem-moq-lead-time',
+    '/oem-sup-moq', '/inflatable-sup-certification', '/oem-trust-assurance',
+    '/proof-center', '/oem-odm-private-label-comparison',
+    '/factory/oem-capability', '/factory/quality-inspection',
+    '/factory/quality-change-control', '/factory/non-conforming-control',
+    '/odm-development', '/new-brand-trial-order',
+  ])
+
+  function pageBodyText(p: { path: string; content?: Record<string, unknown> }): string[] {
+    const c = p.content
+    if (!c || typeof c !== 'object') return []
+    const lines: string[] = []
+    for (const [key, val] of Object.entries(c)) {
+      if (key === 'meta' || key === 'evidence_review') continue
+      if (typeof val === 'string') { lines.push(flat(val)); continue }
+      if (typeof val !== 'object' || !val) continue
+      if (Array.isArray(val)) {
+        for (const item of val) {
+          if (typeof item === 'string') { lines.push(flat(item)); continue }
+          if (typeof item === 'object' && item) {
+            const obj = item as Record<string, unknown>
+            for (const v of Object.values(obj)) {
+              if (typeof v === 'string') lines.push(flat(v))
+              else if (Array.isArray(v)) for (const s of v) if (typeof s === 'string') lines.push(flat(s))
+            }
+          }
+        }
+        continue
+      }
+      const obj = val as Record<string, unknown>
+      for (const v of Object.values(obj)) {
+        if (typeof v === 'string') lines.push(flat(v))
+        else if (Array.isArray(v)) for (const s of v) if (typeof s === 'string') lines.push(flat(s))
+      }
+    }
+    return lines
+  }
   // Edge-301'd source paths (/brand/afarer, /brand/story, /oem-odm, …) and
   // legacy theafarer-era paths must not appear as canonical URLs in the LLM
   // corpus — same rule as the sitemap.
   const pageBlocks = getContentPages()
     .filter((p) => !(p.path in EDGE_REDIRECTS) && !(p.path in LEGACY_REDIRECTS))
-    .map((p) =>
-      [`# ${brandify(p.label)}`, '', flat(brandify(p.meta?.description ?? '')), '', `URL: ${p.path}`].join('\n'),
-    )
+    .map((p) => {
+      const isDeep = DEEP_PAGES.has(p.path)
+      const bodyLines = isDeep ? pageBodyText(p) : []
+      if (isDeep && bodyLines.length > 0) {
+        return [`# ${brandify(p.label)}`, '', flat(brandify(p.meta?.description ?? '')), '', `URL: ${p.path}`, '', ...bodyLines].join('\n')
+      }
+      return [`# ${brandify(p.label)}`, '', flat(brandify(p.meta?.description ?? '')), '', `URL: ${p.path}`].join('\n')
+    })
   const productBlocks = getContentProducts().map((p) =>
     [
       `## Product: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,

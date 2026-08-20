@@ -334,3 +334,8 @@ process_cta:
   desc: Follow a SUP through every stage of production —from raw material to sea-ready board.
   label: View production process →
   link: /factory/process
+
+evidence_review:
+  tagline: 'Evidence & Verification'
+  title: 'Factory Evidence — Verified'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'

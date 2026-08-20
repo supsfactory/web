@@ -493,6 +493,11 @@ faqs:
       a: 'Yes. For approved projects we share the quality documentation applicable to your order — quality inspection plan, incoming, in-process, air-tightness, final and packing inspection reports, and shipment release authorization — linked to your batch traceability. Sensitive commercial data stays under NDA as agreed.'
     - q: 'What does a batch-level inspection record contain?'
       a: 'Each record links the production batch to the applicable specification or drawing revision, records every inspection item against its acceptance criteria with the method and tool used, and closes with the inspector role, result status and the release disposition signed off by quality.'
+evidence_review:
+  tagline: 'Evidence & Verification'
+  title: 'VERIFIED SPECIFICATIONS'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'
+
 cta:
   title: 'Need Quality Requirements for Your SUP Project?'
   subtitle: 'Share your product category, target market, estimated quantity and any inspection, documentation or packing requirements. We will review the applicable project inputs and advise the next step for sample development or production planning. NDA discussion is available before sharing non-public specifications, artwork or quality requirements.'

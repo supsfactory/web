@@ -49,6 +49,7 @@
     - { key: third_party, type: features, label: 'Third-Party & Buyer Inspection' }
     - { key: content_certifications, type: content, label: 'Certifications Content' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: contact
@@ -81,6 +82,7 @@
     - { key: material_traceability, type: content, label: 'Material Traceability' }
     - { key: qc_dashboard, type: content, label: 'QC Dashboard' }
     - { key: process_cta, type: cta, label: 'Process CTA' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
 
 - slug: factory-capacity
   label: Factory Capacity
@@ -275,6 +277,7 @@
     - { key: moq_factors, type: table, label: 'MOQ Drivers Table' }
     - { key: moq_downloads, type: features, label: 'Official PDF Downloads' }
     - { key: moq_faqs, type: faqs, label: 'FAQs' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: sup-oem-moq-lead-time
@@ -291,6 +294,7 @@
     - { key: scenarios, type: features, label: 'Three Entry-Point Scenarios' }
     - { key: moq_quality, type: features, label: 'QC & Compliance Cards' }
     - { key: moq_faqs, type: faqs, label: 'FAQs' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: new-brand-trial-order
@@ -321,6 +325,7 @@
     - { key: trust_faqs, type: faqs, label: '12 Buyer FAQs' }
     - { key: governance, type: content, label: 'Governance & Signatures' }
     - { key: trust_downloads, type: features, label: 'Official PDF Downloads' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: partners
@@ -361,6 +366,7 @@
     - { key: tiers, type: content, label: 'Co-branding vs Pilot vs Volume' }
     - { key: custom_mould, type: content, label: 'Custom Mould MOQ' }
     - { key: samples, type: content, label: 'Sample Orders' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: inflatable-sup-certification
@@ -373,6 +379,7 @@
     - { key: details, type: content, label: 'Certification Details' }
     - { key: scope_notes, type: content, label: 'Scope Notes' }
     - { key: request, type: content, label: 'How to Request Documents' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: randdcenter
@@ -453,3 +460,16 @@
     - { key: seo, type: content, label: 'SEO Metadata' }
     - { key: body, type: content, label: 'Body Content' }
     - { key: content_html, type: html, label: 'CTA Block' }
+
+- slug: oem-odm-private-label-comparison
+  label: OEM vs ODM vs Private Label Comparison
+  path: /oem-odm-private-label-comparison
+  permalink: /oem-odm-private-label-comparison
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Comparison' }
+    - { key: comparison_table, type: table, label: 'Side-by-Side Comparison Table' }
+    - { key: scenario_cards, type: features, label: 'When to Choose Each Path' }
+    - { key: ip_rules, type: content, label: 'IP Protection Rules' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }

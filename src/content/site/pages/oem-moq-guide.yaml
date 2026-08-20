@@ -144,6 +144,11 @@ moq_faqs:
     - q: 'Does requesting MOQ guidance commit me to an order?'
       a: 'No. Requesting project MOQ guidance simply allows our engineering team at Qingdao Vatrad Group Co., Ltd. to review your technical brief and advise the most cost-effective production path. A Non-Disclosure Agreement (NDA) is available before you share proprietary technical specifications or artwork.'
 
+evidence_review:
+  tagline: 'Evidence & Verification'
+  title: 'VERIFIED SPECIFICATIONS'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'
+
 cta:
   title: 'Need MOQ Guidance for Your SUP Project?'
   subtitle: 'Share your target board model, estimated first-order range and branding requirements. We will advise whether a sample, pilot or volume route is the most suitable next step. Submitting an inquiry does not commit you to a final order quantity — NDA discussion is available.'

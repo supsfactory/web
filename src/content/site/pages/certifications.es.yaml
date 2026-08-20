@@ -493,6 +493,10 @@ faqs:
       a: 'Sí. Para proyectos aprobados compartimos la documentación de calidad aplicable a su pedido — plan de inspección de calidad, informes de materiales entrantes, en proceso, estanqueidad, final y embalaje, y autorización de liberación de envío — vinculada a su trazabilidad de lote. Los datos comerciales sensibles permanecen bajo NDA según lo acordado.'
     - q: '¿Qué contiene un registro de inspección a nivel de lote?'
       a: 'Cada registro vincula el lote de producción con la revisión de especificación o plano aplicable, documenta cada ítem de inspección contra sus criterios de aceptación con el método y la herramienta utilizados, y se cierra con el rol del inspector, el estado del resultado y la disposición de liberación firmada por calidad.'
+evidence_review:
+  tagline: 'Evidencia y verificación'
+  title: 'ESPECIFICACIONES VERIFICADAS'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
 cta:
   title: '¿Necesita requisitos de calidad para su proyecto de SUP?'
   subtitle: 'Comparta su categoría de producto, mercado objetivo, cantidad estimada y cualquier requisito de inspección, documentación o embalaje. Revisaremos los insumos aplicables del proyecto y le indicaremos el siguiente paso para el desarrollo de muestras o la planificación de producción. La discusión bajo NDA está disponible antes de compartir especificaciones, arte o requisitos de calidad no públicos.'

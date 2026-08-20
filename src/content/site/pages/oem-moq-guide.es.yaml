@@ -144,6 +144,10 @@ moq_faqs:
     - q: '¿Solicitar orientación de MOQ me compromete con un pedido?'
       a: 'No. Solicitar orientación de MOQ simplemente permite que nuestro equipo de ingeniería en Qingdao Vatrad Group Co., Ltd. revise tu brief técnico y aconseje la ruta de producción más rentable. Hay disponible un Acuerdo de No Divulgación (NDA) antes de compartir especificaciones técnicas o arte propietario.'
 
+evidence_review:
+  tagline: 'Evidencia y verificación'
+  title: 'ESPECIFICACIONES VERIFICADAS'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
 cta:
   title: '¿Necesitas Orientación de MOQ para Tu Proyecto de SUP?'
   subtitle: 'Comparte tu modelo objetivo de tabla, el rango estimado del primer pedido y tus requisitos de branding. Te asesoraremos si la ruta de muestra, piloto o volumen es el siguiente paso más adecuado. Enviar una consulta no te compromete con una cantidad final de pedido — hay disponible discusión bajo NDA.'

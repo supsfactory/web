@@ -334,3 +334,8 @@ process_cta:
   desc: Sigue un SUP a través de cada etapa de la producción, de la materia prima a la tabla lista para el mar.
   label: Ver el proceso de producción →
   link: /es/randdcenter
+
+evidence_review:
+  tagline: 'Evidencia y verificación'
+  title: 'Evidencia de fábrica — Verificada'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'

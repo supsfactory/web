@@ -149,6 +149,10 @@ trust_downloads:
       link: '/es/quality'
       link_label: 'Explorar el sistema de calidad'
 
+evidence_review:
+  tagline: 'Evidencia y verificación'
+  title: 'ESPECIFICACIONES VERIFICADAS'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
 cta:
   title: 'Empieza por la verificación — después hablamos de especificaciones'
   subtitle: 'Envía tu solicitud de NDA, pide el paquete de registro o reserva una visita de auditoría. La verificación va primero; la conversación del pedido viene después. Enviar una consulta no te compromete a ningún pedido.'

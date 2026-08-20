@@ -244,6 +244,17 @@ export const enUi = {
       whatFor: 'What it is for',
       notes: 'Notes',
     },
+    evidence: {
+      title: 'Evidence & Verification',
+      reviewedBy: 'Reviewed by',
+      location: 'Factory location',
+      lastVerified: 'Last verified',
+      available: 'Evidence available',
+      certificates: 'ISO 9001 · CE · BSCI certificates',
+      qcRecords: 'QC inspection records',
+      testReports: 'Pressure & structural test reports',
+      batchTraceability: 'Batch traceability records',
+    },
     catalog: {
       invalidEmail: 'Please enter a valid email address.',
       rateLimited: 'Too many attempts — please try again in a few minutes.',

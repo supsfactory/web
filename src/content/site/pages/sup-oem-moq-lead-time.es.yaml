@@ -199,6 +199,10 @@ moq_faqs:
     - q: '¿Un programa de 300+ tablas puede enviarse en varios lotes?'
       a: 'Sí. Los programas de gran escala se pueden programar como envíos escalonados en varios lotes de producción, de modo que las flotas de temporada lleguen cuando se necesitan y el flujo de caja y el espacio de almacén sigan siendo manejables. Los calendarios se confirman en el contrato, no después de la producción.'
 
+evidence_review:
+  tagline: 'Evidencia y verificación'
+  title: 'ESPECIFICACIONES VERIFICADAS'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
 cta:
   title: '¿Quieres Tu MOQ y Tu Plazo Específicos para el Proyecto?'
   subtitle: 'Envíanos tu modelo de tabla, la cantidad objetivo de la primera temporada y tus requisitos de branding. Nuestro equipo de ingeniería confirmará si encaja una ruta de muestra, prueba o volumen — con el cálculo exacto de MOQ y un calendario día a día. Enviar una consulta no te compromete a un pedido.'

@@ -149,6 +149,11 @@ trust_downloads:
       link: '/quality'
       link_label: 'Explore the Quality System'
 
+evidence_review:
+  tagline: 'Evidence & Verification'
+  title: 'VERIFIED SPECIFICATIONS'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'
+
 cta:
   title: 'Start With Verification —Then We Talk Specs'
   subtitle: 'Send your NDA request, ask for the registration pack, or book an audit slot. Verification comes first; the order conversation follows. Submitting an inquiry does not commit you to an order.'

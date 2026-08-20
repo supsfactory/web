@@ -199,6 +199,11 @@ moq_faqs:
     - q: 'Can a 300+ board program ship in multiple batches?'
       a: 'Yes. Large-scale programs can be scheduled as staggered shipments across production batches, so seasonal fleets arrive when needed and cash flow and warehouse space stay manageable. Schedules are confirmed at contract, not after production.'
 
+evidence_review:
+  tagline: 'Evidence & Verification'
+  title: 'VERIFIED SPECIFICATIONS'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'
+
 cta:
   title: 'Get Your Project-Specific MOQ & Lead Time?'
   subtitle: 'Send us your board model, target first-season quantity and branding requirements. Our engineering team will confirm whether a sample, trial or volume route fits — with the exact MOQ calculation and a day-by-day schedule. Submitting an inquiry does not commit you to an order.'
