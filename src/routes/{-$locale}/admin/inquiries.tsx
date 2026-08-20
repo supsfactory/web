@@ -1,6 +1,5 @@
 import { createFileRoute, useRouter, useRouterState } from '@tanstack/react-router'
 import { ChevronLeft, ChevronRight, Search } from 'lucide-react'
-import { authClient } from '@/features/auth/auth.client'
 import { AppShell } from '@/components/app/app-shell'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
@@ -10,6 +9,7 @@ import { fmtDateTime } from '@/lib/format-date'
 import { getInquiriesFn, setInquiryStatusFn } from '@/features/admin/middleware'
 import { STATUSES, TIERS, type InquiryStatus, type InquiryTier } from '@/features/inquiry/inquiry.shared'
 import { InquiryDetailDrawer } from '@/features/inquiry/components/inquiry-detail-drawer'
+import { useAdminUser } from '@/features/admin/use-admin-user'
 import { useEffect, useRef, useState } from 'react'
 
 interface InquirySearch {
@@ -37,7 +37,7 @@ function InquiriesAdmin() {
   const { rows, total } = Route.useLoaderData()
   const search = Route.useSearch()
   const router = useRouter()
-  const { data: session } = authClient.useSession()
+  const user = useAdminUser()
   const { t } = useTranslation()
   const [saving, setSaving] = useState<string | null>(null)
   const [selected, setSelected] = useState<(typeof rows)[number] | null>(null)
@@ -75,12 +75,7 @@ function InquiriesAdmin() {
 
   return (
     <AppShell
-      user={{
-        name: session?.user?.name,
-        email: session?.user?.email ?? '',
-        role: session?.user?.role ?? 'admin',
-        image: session?.user?.image ?? null,
-      }}
+      user={user}
       active="admin-inquiries"
       crumb={t('admin.navAdmin')}
     >
@@ -156,7 +151,7 @@ function InquiriesAdmin() {
                 <td className="px-4 py-3">
                   <a className="text-primary hover:underline" href={`mailto:${r.email}`}>{r.email}</a>
                   {r.whatsapp && (
-                    <a className="text-xs text-fg-3 hover:text-primary" href={`https://wa.me/${r.whatsapp.replace(/[^0-9]/g, '')}`} target="_blank" rel="noreferrer">
+                    <a className="text-xs text-fg-3 hover:text-primary" href={`https://wa.me/${r.whatsapp.replace(/[^0-9]/g, '')}`} target="_blank" rel="noopener noreferrer">
                       {r.whatsapp}
                     </a>
                   )}
@@ -173,7 +168,7 @@ function InquiriesAdmin() {
                   {r.logoKey ? (() => {
                     const ext = r.logoKey.split('.').pop()?.toUpperCase() ?? ''
                     return (
-                      <a className="text-primary hover:underline" href={`/api/inquiry-logo/${r.id}`} target="_blank" rel="noreferrer">
+                      <a className="text-primary hover:underline" href={`/api/inquiry-logo/${r.id}`} target="_blank" rel="noopener noreferrer">
                         {ext} · {t('admin.inquiryFile')}
                       </a>
                     )

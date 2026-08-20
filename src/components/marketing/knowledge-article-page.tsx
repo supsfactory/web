@@ -2,7 +2,7 @@ import { ArrowRight, BookOpen } from 'lucide-react'
 import type { KnowledgeArticle } from '@/product/knowledge'
 import { knowledge } from '@/product/knowledge'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { PageHero } from './section-head'
 import { JsonLd, articleLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from './shell'
@@ -13,7 +13,7 @@ import { MarketingShell } from './shell'
  */
 export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle }) {
   const { locale, t } = useTranslation()
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
   const articles = knowledge[locale]
   const index = articles.findIndex((a) => a.slug === article.slug)
   const next = index >= 0 && index < articles.length - 1 ? articles[index + 1] : undefined

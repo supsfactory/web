@@ -23,8 +23,7 @@ export function WhoWeServe() {
               <Reveal key={seg.slug} delay={i * 80}>
                 <a
                   href={localizePath(locale, seg.href)}
-                  className="marine-card group flex h-full flex-col p-7"
-                  style={{ color: 'inherit' }}
+                  className="marine-card group flex h-full flex-col p-7 text-current"
                 >
                   <div className="flex items-center justify-between">
                     <span className="icon-tile bg-aqua/10! text-primary!">

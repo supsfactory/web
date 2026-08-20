@@ -1,4 +1,4 @@
-import { createFileRoute, getRouteApi } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { useEffect, useState } from 'react'
 import { Mail, MessageCircle, Clock3, ShieldCheck, FileText, Plus } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
@@ -7,16 +7,13 @@ import { getTurnstileSiteKey } from '@/features/auth/middleware'
 import type { Locale } from '@/features/i18n/locale'
 import { getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
-import { SiteNav } from '@/components/marketing/site-nav'
+import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
 import { InquiryForm } from '@/features/inquiry/components/inquiry-form'
 import { pick, products } from '@/product/content'
 import { dictionaries } from '@/features/i18n/locale'
 import { JsonLd, contactPageLd, faqLd } from '@/features/seo/jsonld'
-import { Footer } from '@/components/marketing/footer'
 import { SITE_NAME, BRAND_CONTACT, BRAND_ASSETS_CDN, SITE_URL } from '@/config'
-
-const rootRoute = getRouteApi('__root__')
 
 export const Route = createFileRoute('/{-$locale}/contact')({
   validateSearch: (s: Record<string, unknown>) => ({
@@ -47,7 +44,6 @@ export const Route = createFileRoute('/{-$locale}/contact')({
 const INTENT_ANCHORS = ['custom-oem', 'cobranding', 'moq-guide', 'production-availability', 'project-brief'] as const
 
 function ContactPage() {
-  const { theme, user } = rootRoute.useLoaderData()
   const { t, locale } = useTranslation()
   const { turnstileSiteKey } = Route.useLoaderData()
   const { product, category } = Route.useSearch()
@@ -67,9 +63,7 @@ function ContactPage() {
   }, [locale])
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={!!user} />
-      <main id="main-content">
+    <MarketingShell>
       <PageHero kicker={t('sup.nav.contact')} title={t('sup.contact.title')} sub={t('sup.contact.subtitle')} />
 
       <section className="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:px-7 md:py-20 lg:grid-cols-[0.9fr_1.1fr]">
@@ -80,7 +74,7 @@ function ContactPage() {
           <div className="mt-7 flex flex-col gap-4">
             <a
               href={`mailto:${BRAND_CONTACT.email}`}
-              className="marine-card flex items-center gap-4 p-5 transition-colors hover:border-primary/40"
+              className="marine-card flex items-center gap-4 p-5"
             >
               <span className="icon-tile"><Mail size={19} /></span>
               <div>
@@ -92,7 +86,7 @@ function ContactPage() {
               href={BRAND_CONTACT.whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="marine-card flex items-center gap-4 p-5 transition-colors hover:border-primary/40"
+              className="marine-card flex items-center gap-4 p-5"
             >
               <span className="icon-tile"><MessageCircle size={19} /></span>
               <div>
@@ -147,7 +141,7 @@ function ContactPage() {
                 href={`${BRAND_ASSETS_CDN}/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="marine-card flex items-center gap-4 p-5 transition-colors hover:border-primary/40"
+                className="marine-card flex items-center gap-4 p-5"
               >
                 <span className="icon-tile"><FileText size={19} /></span>
                 <div>
@@ -178,8 +172,6 @@ function ContactPage() {
       <JsonLd data={contactPageLd(SITE_URL, localizePath(locale, '/contact'))} />
       <JsonLd data={faqLd([...dictionaries[locale].sup.contact.trustFaqs], locale)} />
 
-      </main>
-      <Footer theme={theme} />
-    </div>
+    </MarketingShell>
   )
 }

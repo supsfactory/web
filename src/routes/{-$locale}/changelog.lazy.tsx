@@ -1,14 +1,11 @@
-import { createLazyFileRoute, getRouteApi } from '@tanstack/react-router'
+import { createLazyFileRoute } from '@tanstack/react-router'
 import { Suspense } from 'react'
-import { SiteNav } from '@/components/marketing/site-nav'
-import { Footer } from '@/components/marketing/footer'
+import { MarketingShell } from '@/components/marketing/shell'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { useTranslation } from '@/features/i18n/provider'
 import { fmtDate } from '@/lib/format-date'
 import browserCollections from 'collections/browser'
-
-const rootRoute = getRouteApi('__root__')
 
 /**
  * Changelog 页面(壳 + 条目列表)。整个文件懒加载 —— collections/browser
@@ -22,14 +19,11 @@ const clientLoader = browserCollections.changelog.createClientLoader({
 })
 
 function Changelog() {
-  const { loggedIn, entries } = Route.useLoaderData()
-  const { theme } = rootRoute.useLoaderData()
+  const { entries } = Route.useLoaderData()
   const { t } = useTranslation()
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={loggedIn} />
-      <main id="main-content" className="mx-auto max-w-3xl px-4 py-16">
+    <MarketingShell mainClassName="mx-auto max-w-3xl px-4 py-16">
         <header className="mb-10 text-center">
           <h1 className="text-3xl font-bold tracking-tight">{t('changelog.title')}</h1>
           <p className="mt-2 text-fg-2">{t('changelog.subtitle')}</p>
@@ -53,9 +47,7 @@ function Changelog() {
             </Card>
           ))}
         </div>
-      </main>
-      <Footer theme={theme} />
-    </div>
+    </MarketingShell>
   )
 }
 

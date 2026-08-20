@@ -2,14 +2,16 @@ import { createFileRoute } from '@tanstack/react-router'
 import { ArrowRight, BookOpen, Building2, Hammer, PackageCheck } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
-import { localizePath, type Locale } from '@/features/i18n/locale'
+import { type Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { getSolutionPage, solutionPath } from '@/product/solution-pages'
 import { projects } from '@/product/projects'
 import { knowledge } from '@/product/knowledge'
 import { PageHero } from '@/components/marketing/section-head'
 import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from '@/components/marketing/shell'
+import { PRIMARY_CTA } from '@/components/marketing/cta-styles'
 import { SITE_NAME } from '@/config'
 import { ENTITY_PAGE_PATH } from '@/config/navigation'
 import { getDictionary, translate } from '@/features/i18n/locale'
@@ -41,7 +43,7 @@ export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
 
 function EntityPage() {
   const { locale, t } = useTranslation()
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
   const c = {
     kicker: t('sup.entity.kicker'),
     title: t('sup.entity.title'),
@@ -98,7 +100,7 @@ function EntityPage() {
             return (
               <a
                 key={slug}
-                href={localizePath(locale, solutionPath(slug))}
+                href={fl(solutionPath(slug))}
                 className="marine-card group p-5 transition-transform hover:-translate-y-0.5"
               >
                 <h3 className="font-display text-[15.5px] font-bold leading-snug group-hover:text-primary">
@@ -162,7 +164,7 @@ function EntityPage() {
           <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-[#d6eefb]">{c.ctaBody}</p>
           <a
             href={fl('/contact')}
-            className="sun-grad mt-8 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
+            className={PRIMARY_CTA}
           >
             {t('sup.projects.discuss')} <ArrowRight size={17} />
           </a>

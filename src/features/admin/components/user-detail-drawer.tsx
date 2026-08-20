@@ -146,9 +146,8 @@ export function UserDetailDrawer({ row, open, onOpenChange, currentUserId, onCha
                 </Popover>
               </div>
               <Button
-                variant="default"
+                variant="destructive"
                 disabled={isSelf || busy}
-                style={{ background: 'var(--destructive)' }}
                 onClick={() =>
                   act(
                     () =>
@@ -175,9 +174,8 @@ export function UserDetailDrawer({ row, open, onOpenChange, currentUserId, onCha
           </Button>
 
           <Button
-            variant="default"
+            variant="destructive"
             disabled={isSelf || busy}
-            style={{ background: 'var(--destructive)', color: '#fff' }}
             onClick={() => {
               if (!window.confirm(t('admin.deleteUserConfirm'))) return
               act(() => authClient.admin.removeUser({ userId: row.id }), t('admin.userDeleted'))

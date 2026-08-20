@@ -46,7 +46,7 @@ export function InquiryDetailDrawer({ row, open, onOpenChange }: Props) {
               <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-fg-3">
                 <span>{row.country || '—'}</span>
                 {row.website && (
-                  <a className="text-primary hover:underline" href={`https://${row.website}`} target="_blank" rel="noreferrer">{row.website}</a>
+                  <a className="text-primary hover:underline" href={`https://${row.website}`} target="_blank" rel="noopener noreferrer">{row.website}</a>
                 )}
                 <span className="inline-flex items-center gap-1"><Calendar size={12} />{fmtDateTime(row.createdAt)}</span>
                 <span>{LOCALE_LABELS[row.locale]?.native ?? row.locale}</span>
@@ -81,7 +81,7 @@ export function InquiryDetailDrawer({ row, open, onOpenChange }: Props) {
                 <Mail size={14} /> {row.email}
               </a>
               {row.whatsapp && (
-                <a className="inline-flex items-center gap-2 text-primary hover:underline" href={`https://wa.me/${row.whatsapp.replace(/[^0-9]/g, '')}`} target="_blank" rel="noreferrer">
+                <a className="inline-flex items-center gap-2 text-primary hover:underline" href={`https://wa.me/${row.whatsapp.replace(/[^0-9]/g, '')}`} target="_blank" rel="noopener noreferrer">
                   <ExternalLink size={14} /> {row.whatsapp}
                 </a>
               )}
@@ -121,7 +121,7 @@ export function InquiryDetailDrawer({ row, open, onOpenChange }: Props) {
                 <div>
                   <p className="text-[11px] font-bold uppercase tracking-wide text-fg-3">{t('admin.inquiryFile')}</p>
                   {isImage ? (
-                    <a href={`/api/inquiry-logo/${row.id}`} target="_blank" rel="noreferrer" className="mt-1.5 inline-block">
+                    <a href={`/api/inquiry-logo/${row.id}`} target="_blank" rel="noopener noreferrer" className="mt-1.5 inline-block">
                       <img
                         src={`/api/inquiry-logo/${row.id}`}
                         alt={row.company || 'upload'}
@@ -129,7 +129,7 @@ export function InquiryDetailDrawer({ row, open, onOpenChange }: Props) {
                       />
                     </a>
                   ) : (
-                    <a href={`/api/inquiry-logo/${row.id}`} target="_blank" rel="noreferrer" className="mt-1.5 inline-block text-primary hover:underline">
+                    <a href={`/api/inquiry-logo/${row.id}`} target="_blank" rel="noopener noreferrer" className="mt-1.5 inline-block text-primary hover:underline">
                       {ext.toUpperCase()} · {t('admin.inquiryFile')}
                     </a>
                   )}

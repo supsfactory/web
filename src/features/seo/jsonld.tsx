@@ -1,3 +1,4 @@
+import React from 'react'
 import { getNonce } from '@/lib/csp'
 import { SITE_NAME, SITE_URL } from '@/config/site'
 import { PRODUCT_BUILD_LINE } from '@/product/brand-constants'
@@ -9,10 +10,11 @@ export interface FaqQa {
 
 export const SITE_ORIGIN = SITE_URL
 
-export function JsonLd({ data }: { data: Record<string, unknown> }) {
+function JsonLdInner({ data }: { data: Record<string, unknown> }) {
   const nonce = getNonce()
   return <script type="application/ld+json" nonce={nonce} dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
 }
+export const JsonLd = React.memo(JsonLdInner)
 
 export function faqLd(faqs: FaqQa[], locale?: string): Record<string, unknown> {
   return {

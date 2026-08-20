@@ -70,8 +70,7 @@ function SolutionsIndex() {
               <a
                 key={card.path}
                 href={localizePath(locale, card.path)}
-                className="marine-card group flex flex-col p-6 transition-transform hover:-translate-y-0.5"
-                style={{ color: 'inherit' }}
+                className="marine-card group flex flex-col p-6 text-current transition-transform hover:-translate-y-0.5"
               >
                 <p className="kicker">{card.kicker}</p>
                 <h3 className="mt-2 font-display text-lg font-bold">{card.navLabel}</h3>

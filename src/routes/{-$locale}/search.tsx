@@ -5,7 +5,8 @@ import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
-import { searchIndexServer, type SearchEntry, type SearchEntryType } from '@/features/site/search'
+import { searchIndexServer, type SearchEntry } from '@/features/site/search'
+import { TYPE_CLASS } from '@/features/site/search-type-class'
 import { PageHero } from '@/components/marketing/section-head'
 import { MarketingShell } from '@/components/marketing/shell'
 import { SITE_NAME } from '@/config'
@@ -37,13 +38,6 @@ export const Route = createFileRoute('/{-$locale}/search')({
   },
   component: SearchPage,
 })
-
-const TYPE_CLASS: Record<SearchEntryType, string> = {
-  solution: 'bg-primary/10 text-primary',
-  guide: 'bg-emerald-500/10 text-emerald-700 dark:text-emerald-400',
-  project: 'bg-amber-500/10 text-amber-700 dark:text-amber-400',
-  page: 'bg-bg-alt text-fg-2',
-}
 
 function SearchPage() {
   const { locale, t } = useTranslation()

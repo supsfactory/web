@@ -1,10 +1,13 @@
 ﻿import { useEffect, useState } from 'react'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { useFocusTrap } from '@/lib/use-focus-trap'
+import { BRAND_CONTACT } from '@/config/branding'
 
-const WA_URL = 'https://wa.me/8613305324192'
-const WECHAT_ID = '+86 133 0532 4192'
+const SCROLL_DELTA_THRESHOLD = 4
+const MIN_SCROLL_Y = 140
+const WA_URL = BRAND_CONTACT.whatsappLink
+const WECHAT_DISPLAY = BRAND_CONTACT.whatsapp.replace(/(\+86)(\d{3})(\d{4})(\d{4})/, '$1 $2 $3 $4')
 
 function WhatsAppIcon() {
   return (
@@ -23,30 +26,33 @@ function WeChatIcon() {
 }
 
 export function ContactFloats() {
-  const { t, locale } = useTranslation()
+  const { t } = useTranslation()
   const [open, setOpen] = useState(false)
   const wechatTrap = useFocusTrap(open)
   const [copied, setCopied] = useState(false)
   const [hidden, setHidden] = useState(false)
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
 
   // Hide while scrolling down (and when reading the page footer), reappear on scroll up.
   useEffect(() => {
     let lastY = window.scrollY
     let raf = 0
+    let cancelled = false
     const onScroll = () => {
       if (raf) return
       raf = requestAnimationFrame(() => {
         raf = 0
+        if (cancelled) return
         const y = window.scrollY
         const delta = y - lastY
-        if (delta > 4 && y > 140) setHidden(true)
-        else if (delta < -4) setHidden(false)
+        if (delta > SCROLL_DELTA_THRESHOLD && y > MIN_SCROLL_Y) setHidden(true)
+        else if (delta < -SCROLL_DELTA_THRESHOLD) setHidden(false)
         lastY = y
       })
     }
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => {
+      cancelled = true
       window.removeEventListener('scroll', onScroll)
       if (raf) cancelAnimationFrame(raf)
     }
@@ -54,7 +60,7 @@ export function ContactFloats() {
 
   const copyWeChat = async () => {
     try {
-      await navigator.clipboard.writeText(WECHAT_ID)
+      await navigator.clipboard.writeText(WECHAT_DISPLAY)
     } catch {
       /* clipboard unavailable — the number stays visible for manual entry */
     }
@@ -78,7 +84,7 @@ export function ContactFloats() {
       />
       <p className="mt-3 text-center text-[13px] font-medium text-foreground">{t('sup.contactWeChatHint')}</p>
         <div className="mt-2 flex items-center gap-2">
-          <span className="text-[13.5px] text-fg-2">{WECHAT_ID}</span>
+          <span className="text-[13.5px] text-fg-2">{WECHAT_DISPLAY}</span>
           <button
             type="button"
             onClick={copyWeChat}

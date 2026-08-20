@@ -1,6 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, guides } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
@@ -10,7 +10,7 @@ import { Reveal } from './reveal'
 export function GuidesSection() {
   const { locale, t } = useTranslation()
   const c = pick(guides, locale)
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
 
   return (
     <section className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
@@ -20,7 +20,7 @@ export function GuidesSection() {
           <Reveal key={g.href} delay={i * 80}>
             <a
               href={fl(g.href)}
-              className="marine-card group flex h-full flex-col justify-between gap-6 p-6 transition-colors hover:border-primary/40"
+              className="marine-card group flex h-full flex-col justify-between gap-6 p-6"
             >
               <div>
                 <h3 className="font-display text-[17px] font-bold leading-snug">{g.title}</h3>

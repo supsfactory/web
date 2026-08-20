@@ -1,4 +1,4 @@
-import { createFileRoute, getRouteApi } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { Check } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -6,18 +6,16 @@ import { getTurnstileSiteKey } from '@/features/auth/middleware'
 import type { Locale } from '@/features/i18n/locale'
 import { getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
+import { SECONDARY_PILL } from '@/components/marketing/cta-styles'
 import { pick, products, productsPage } from '@/product/content'
 import { seriesPages } from '@/product/series-pages'
 import { JsonLd, itemListLd } from '@/features/seo/jsonld'
-import { SiteNav } from '@/components/marketing/site-nav'
+import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
 import { ProductsSection } from '@/components/marketing/products-section'
 import { CatalogDownload } from '@/components/marketing/catalog-download'
 import { CtaBand } from '@/components/marketing/cta'
-import { Footer } from '@/components/marketing/footer'
 import { SITE_NAME } from '@/config'
-
-const rootRoute = getRouteApi('__root__')
 
 export const Route = createFileRoute('/{-$locale}/products/')({
   validateSearch: (s: Record<string, unknown>): { platform?: string } => ({
@@ -44,7 +42,6 @@ export const Route = createFileRoute('/{-$locale}/products/')({
 })
 
 function ProductsPage() {
-  const { theme, user } = rootRoute.useLoaderData()
   const { locale, t } = useTranslation()
   const c = pick(productsPage, locale)
   const { turnstileSiteKey } = Route.useLoaderData()
@@ -52,9 +49,7 @@ function ProductsPage() {
   const navigate = Route.useNavigate()
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={!!user} />
-      <main id="main-content">
+    <MarketingShell>
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
 
       {/* series hub: one SEO page per platform category */}
@@ -67,7 +62,7 @@ function ProductsPage() {
             <a
               key={s.slug}
               href={localizePath(locale, `/products/${s.slug}`)}
-              className="rounded-full border border-border bg-background px-3.5 py-1.5 text-[13px] font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary"
+              className={SECONDARY_PILL}
             >
               {s.navLabel.replace(t('content.platforms'), '').trim()}
             </a>
@@ -108,8 +103,6 @@ function ProductsPage() {
       <CatalogDownload turnstileSiteKey={turnstileSiteKey} />
 
       <CtaBand />
-      </main>
-      <Footer theme={theme} />
-    </div>
+    </MarketingShell>
   )
 }

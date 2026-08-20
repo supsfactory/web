@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { ArrowRight, Check, ChevronDown, FileText, ShieldCheck, UploadCloud, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
-import { dictionaries, localizePath } from '@/features/i18n/locale'
+import { dictionaries } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
@@ -38,7 +39,7 @@ export function InquiryForm({
   prefill?: InquiryPrefill
 }) {
   const { t, locale } = useTranslation()
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
   const { token, widget, reset } = useTurnstile(turnstileSiteKey)
 
   const [step, setStep] = useState<1 | 2>(1)
@@ -47,15 +48,12 @@ export function InquiryForm({
   const [msg, setMsg] = useState<{ kind: 'err'; text: string } | null>(null)
   const [fileName, setFileName] = useState<string | null>(null)
   const [fileError, setFileError] = useState<'empty' | 'type' | 'size' | null>(null)
-  const [customization, setCustomization] = useState<Set<string>>(new Set())
-  const [docs, setDocs] = useState<Set<string>>(new Set())
+  const [customization, setCustomization] = useState<Record<string, boolean>>({})
+  const [docs, setDocs] = useState<Record<string, boolean>>({})
   const [consent, setConsent] = useState(false)
 
-  function toggle(set: Set<string>, setter: (v: Set<string>) => void, value: string) {
-    const next = new Set(set)
-    if (next.has(value)) next.delete(value)
-    else next.add(value)
-    setter(next)
+  function toggleKey(set: Record<string, boolean>, setter: (v: Record<string, boolean>) => void, value: string) {
+    setter({ ...set, [value]: !set[value] })
   }
 
   function fileErrorText(reason: 'empty' | 'type' | 'size' | null): string {
@@ -106,8 +104,8 @@ export function InquiryForm({
       const fd = new FormData(form)
       fd.set('turnstileToken', token ?? '')
       fd.set('locale', locale)
-      fd.set('customization', [...customization].join(','))
-      fd.set('docs', [...docs].join(','))
+      fd.set('customization', Object.keys(customization).filter((k) => customization[k]).join(','))
+      fd.set('docs', Object.keys(docs).filter((k) => docs[k]).join(','))
       fd.set('consent', consent ? 'yes' : '')
       const r = await submitInquiry({ data: fd })
       if (r.ok) {
@@ -116,8 +114,8 @@ export function InquiryForm({
         form.reset()
         setStep(1)
         setFileName(null)
-        setCustomization(new Set())
-        setDocs(new Set())
+        setCustomization({})
+        setDocs({})
         setConsent(false)
       } else {
         setMsg(mapResult(r))
@@ -333,11 +331,11 @@ export function InquiryForm({
               {(['logo', 'graphics', 'eva', 'accessories', 'packaging', 'tooling', 'not-sure'] as const).map((v) => (
                 <CheckOption
                   key={v}
-                  checked={customization.has(v)}
-                  onChange={() => toggle(customization, setCustomization, v)}
+                  checked={!!customization[v]}
+                  onChange={() => toggleKey(customization, setCustomization, v)}
                   label={t(`inquiry.customizationOptions.${v}`)}
                   name="customization"
-                  required={customization.size === 0}
+                  required={!Object.values(customization).some(Boolean)}
                 />
               ))}
             </div>
@@ -362,8 +360,8 @@ export function InquiryForm({
               {(['audit', 'declaration', 'test-report', 'labeling', 'inspection', 'not-decided'] as const).map((v) => (
                 <CheckOption
                   key={v}
-                  checked={docs.has(v)}
-                  onChange={() => toggle(docs, setDocs, v)}
+                  checked={!!docs[v]}
+                  onChange={() => toggleKey(docs, setDocs, v)}
                   label={t(`inquiry.docsOptions.${v}`)}
                   name="docs"
                 />
@@ -451,7 +449,7 @@ export function InquiryForm({
           />
           <span className="text-[12.5px] leading-relaxed text-fg-2">
             {t('inquiry.consent')}{' '}
-            <a href={fl('/privacy')} className="font-medium text-primary hover:underline" target="_blank" rel="noreferrer">
+            <a href={fl('/privacy')} className="font-medium text-primary hover:underline" target="_blank" rel="noopener noreferrer">
               {t('inquiry.consentPrivacy')}
             </a>
           </span>

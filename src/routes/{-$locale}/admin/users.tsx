@@ -11,6 +11,7 @@ import { AppToaster } from '@/components/ui/app-toaster'
 import { UserTable } from '@/features/admin/components/user-table'
 import { UserDetailDrawer } from '@/features/admin/components/user-detail-drawer'
 import { getAdminUsersFn, type AdminUserRow } from '@/features/admin/middleware'
+import { useAdminUser } from '@/features/admin/use-admin-user'
 
 // All fields optional so links to this route need not carry search params;
 // defaults are applied at read time (and the server fn defaults them too).
@@ -42,8 +43,8 @@ function UsersPage() {
   const router = useRouter()
   const { rows, total } = Route.useLoaderData()
   const search = Route.useSearch()
-  const { data: session } = authClient.useSession()
-  const currentUserId = session?.user?.id ?? ''
+  const user = useAdminUser()
+  const currentUserId = (authClient.useSession().data?.user?.id) ?? ''
 
   // Apply defaults at read time (search fields are optional for linking).
   const q = search.q ?? ''
@@ -81,7 +82,7 @@ function UsersPage() {
   }
 
   return (
-    <AppShell user={{ name: session?.user?.name, email: session?.user?.email ?? '', role: session?.user?.role ?? 'admin', image: session?.user?.image ?? null }} active="admin-users" crumb={t('admin.navAdmin')}>
+    <AppShell user={user} active="admin-users" crumb={t('admin.navAdmin')}>
       <div className="mb-5">
         <h1 className="page-h">{t('admin.users')}</h1>
         <p className="mt-1.5 text-[14.5px] text-fg-2">{t('admin.usersSub')}</p>

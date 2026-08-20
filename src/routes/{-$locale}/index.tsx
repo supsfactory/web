@@ -1,4 +1,4 @@
-import { createFileRoute, getRouteApi } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { lazy, Suspense } from 'react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -8,7 +8,7 @@ import { useTranslation } from '@/features/i18n/provider'
 import { pick, faq, videoShowcase } from '@/product/content'
 import { JsonLd, faqLd } from '@/features/seo/jsonld'
 import { SITE_NAME, BRAND_ASSETS_CDN } from '@/config'
-import { SiteNav } from '@/components/marketing/site-nav'
+import { MarketingShell } from '@/components/marketing/shell'
 import { Hero } from '@/components/marketing/hero'
 import { TrustBar } from '@/components/marketing/trust-bar'
 import { RoleBoundary } from '@/components/marketing/role-boundary'
@@ -31,9 +31,6 @@ const GuidesSection = lazy(() => import('@/components/marketing/guides-section')
 const ProjectsShowcase = lazy(() => import('@/components/marketing/projects-showcase').then((m) => ({ default: m.ProjectsShowcase })))
 const FaqSection = lazy(() => import('@/components/marketing/faq').then((m) => ({ default: m.FaqSection })))
 const CtaBand = lazy(() => import('@/components/marketing/cta').then((m) => ({ default: m.CtaBand })))
-const Footer = lazy(() => import('@/components/marketing/footer').then((m) => ({ default: m.Footer })))
-
-const rootRoute = getRouteApi('__root__')
 
 export const Route = createFileRoute('/{-$locale}/')({
   loader: async () => ({ origin: await getOrigin() }),
@@ -55,13 +52,10 @@ export const Route = createFileRoute('/{-$locale}/')({
 })
 
 function Home() {
-  const { theme, user } = rootRoute.useLoaderData()
   const { locale } = useTranslation()
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={!!user} />
-      <main id="main-content">
+    <MarketingShell>
       <Hero />
       <TrustBar />
       <RoleBoundary />
@@ -89,9 +83,7 @@ function Home() {
       <Suspense fallback={null}><ProjectsShowcase /></Suspense>
       <Suspense fallback={null}><FaqSection /></Suspense>
       <Suspense fallback={null}><CtaBand /></Suspense>
-      </main>
-      <Footer theme={theme} />
       <JsonLd data={faqLd(pick(faq, locale).items, locale)} />
-    </div>
+    </MarketingShell>
   )
 }

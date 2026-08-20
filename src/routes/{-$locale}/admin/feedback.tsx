@@ -2,7 +2,6 @@ import { createFileRoute, useRouter } from '@tanstack/react-router'
 import { useState } from 'react'
 import { ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react'
 import { toast } from 'sonner'
-import { authClient } from '@/features/auth/auth.client'
 import { AppShell } from '@/components/app/app-shell'
 import { AppToaster } from '@/components/ui/app-toaster'
 import { Card } from '@/components/ui/card'
@@ -13,6 +12,7 @@ import { useTranslation } from '@/features/i18n/provider'
 import { fmtDateTime } from '@/lib/format-date'
 import { getFeedbackFn, setFeedbackStatusFn, type AdminFeedbackRow } from '@/features/admin/middleware'
 import { FEEDBACK_STATUSES, type FeedbackStatus } from '@/features/feedback/feedback.shared'
+import { useAdminUser } from '@/features/admin/use-admin-user'
 
 interface FeedbackSearch { page?: number; pageSize?: number }
 
@@ -84,7 +84,7 @@ function FeedbackAdmin() {
   const { rows, total } = Route.useLoaderData()
   const search = Route.useSearch()
   const router = useRouter()
-  const { data: session } = authClient.useSession()
+  const user = useAdminUser()
   const { t } = useTranslation()
   const page = search.page ?? 0
   const pageSize = search.pageSize ?? 20
@@ -94,7 +94,7 @@ function FeedbackAdmin() {
   }
   return (
     <AppShell
-      user={{ name: session?.user?.name, email: session?.user?.email ?? '', role: session?.user?.role ?? 'admin', image: session?.user?.image ?? null }}
+      user={user}
       active="admin-feedback"
       crumb={t('admin.navAdmin')}
     >

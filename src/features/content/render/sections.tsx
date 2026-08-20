@@ -9,7 +9,7 @@ import { ABOUT_BRAND_PATH } from '@/config/navigation'
 import { CASE_STUDY_STATS } from '@/product/ai-content'
 import { useAferIndex } from '../index-data'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { assetUrl } from '../assets'
 import type { ContentPage, ContentSectionDef } from '../types'
 
@@ -43,8 +43,8 @@ function HeroWidget({ c }: { c: Record<string, unknown> }) {
     <PageHero kicker={str(c.tagline) || ''} title={brandify(str(c.title) || str(c.headline) || '')} sub={brandify(str(c.subtitle) || str(c.sub) || '')}>
       {actions.length > 0 && (
         <div className="mt-8 flex flex-wrap items-center gap-3">
-          {actions.map((a, i) => (
-            <ActionButton key={i} action={a} />
+          {actions.map((a) => (
+            <ActionButton key={a.text} action={a} />
           ))}
         </div>
       )}
@@ -62,8 +62,8 @@ function HeroTextWidget({ c }: { c: Record<string, unknown> }) {
     >
       {actions.length > 0 && (
         <div className="mt-8 flex flex-wrap items-center gap-3">
-          {actions.map((a, i) => (
-            <ActionButton key={i} action={a} />
+          {actions.map((a) => (
+            <ActionButton key={a.text} action={a} />
           ))}
         </div>
       )}
@@ -105,8 +105,8 @@ function StatGrid({ items, heading }: { items: StatItem[]; heading?: Record<stri
     <Container>
       {heading && <SectionHead kicker={str(heading.tagline)} title={brandify(str(heading.title) || '')} sub={brandify(str(heading.subtitle) || str(heading.description) || '')} />}
       <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
-        {items.map((s, i) => (
-          <div key={i} className="marine-card flex flex-col items-center px-4 py-6 text-center">
+        {items.map((s) => (
+          <div key={String(s.label)} className="marine-card flex flex-col items-center px-4 py-6 text-center">
             <span className="font-display text-3xl font-extrabold tracking-tight text-primary md:text-4xl">{str(s.value)}</span>
             <span className="mt-2 text-[13px] font-semibold text-fg-2">{str(s.label)}</span>
             {s.detail !== undefined && str(s.detail) !== '' && (
@@ -148,7 +148,7 @@ function FaqWidget({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('content.fallbackFaq'))} sub={brandify(str(c.subtitle) || str(c.sub) || '')} />
       <div className="mx-auto mt-10 max-w-3xl space-y-3">
         {items.map((f, i) => (
-          <details key={i} className="marine-card group px-5 py-4" open={i === 0}>
+          <details key={String(f.q)} className="marine-card group px-5 py-4" open={i === 0}>
             <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
               <span>{brandify(str(f.q))}</span>
               <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
@@ -249,9 +249,10 @@ function ActionButton({ action }: { action: CtaAction }) {
     </>
   )
   if (!action.href) return <a href={localize('/contact', locale)} className={cls}>{inner}</a>
-  if (action.href.startsWith('http') || action.href.includes('?') || action.href.startsWith('#')) return <a href={action.href} className={cls}>{inner}</a>
+  if (action.href.startsWith('http')) return <a href={action.href} className={cls} target="_blank" rel="noopener noreferrer">{inner}</a>
+  if (action.href.includes('?') || action.href.startsWith('#')) return <a href={action.href} className={cls}>{inner}</a>
   return (
-    <a href={localize(action.href, locale)} className={cls} style={{ color: 'inherit' }}>
+    <a href={localize(action.href, locale)} className={`${cls} text-current`}>
       {inner}
     </a>
   )
@@ -270,8 +271,8 @@ function CtaWidget({ c }: { c: Record<string, unknown> }) {
         {body && <p className="fg-dim mx-auto mt-4 max-w-xl text-[15px] leading-relaxed">{body}</p>}
         {actions.length > 0 ? (
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-            {actions.map((a, i) => (
-              <ActionButton key={i} action={a} />
+            {actions.map((a) => (
+              <ActionButton key={a.text} action={a} />
             ))}
           </div>
         ) : (
@@ -332,7 +333,7 @@ function FeatureGrid({ c, grid: gridProp = 'sm:grid-cols-2 lg:grid-cols-3' }: { 
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || str(c.description) || str(c.sub) || '')} />
       <div className={`mt-10 grid gap-5 ${grid}`}>
-        {items.map((it, i) => {
+        {items.map((it) => {
           const body = brandify(str(it.desc) || str(it.description) || str(it.body) || str(it.subtitle) || '')
           const href = remapHref(str(it.href) || str(it.link) || '')
           const fragment =
@@ -359,17 +360,21 @@ function FeatureGrid({ c, grid: gridProp = 'sm:grid-cols-2 lg:grid-cols-3' }: { 
             </div>
           )
           return href ? (
-            fragment ? (
-              <a key={i} href={href} className="group" style={{ color: 'inherit' }}>
+            href.startsWith('http') ? (
+              <a key={String(it.title)} href={href} className="group text-current" target="_blank" rel="noopener noreferrer">
+                {card}
+              </a>
+            ) : fragment ? (
+              <a key={String(it.title)} href={href} className="group text-current">
                 {card}
               </a>
             ) : (
-              <a key={i} href={localize(href, locale)} className="group" style={{ color: 'inherit' }}>
+              <a key={String(it.title)} href={localize(href, locale)} className="group text-current">
                 {card}
               </a>
             )
           ) : (
-            <div key={i}>{card}</div>
+            <div key={String(it.title)}>{card}</div>
           )
         })}
       </div>
@@ -398,7 +403,7 @@ function StepsWidget({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || str(c.description) || '')} />
       <ol className="mx-auto mt-10 max-w-3xl space-y-6">
         {steps.map((s, i) => (
-          <li key={i} className="marine-card flex gap-4 px-5 py-5">
+          <li key={String(s.stage || s.title)} className="marine-card flex gap-4 px-5 py-5">
             <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary/12 font-display text-[15px] font-extrabold text-primary">
               {str(s.step) || str(s.num) || str(s.stage) || String(i + 1)}
             </span>
@@ -422,8 +427,8 @@ function ProductionFlow({ c }: { c: Record<string, unknown> }) {
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mx-auto mt-10 max-w-4xl space-y-5">
-        {stages.map((s, i) => (
-          <div key={i} className="marine-card p-6">
+        {stages.map((s) => (
+          <div key={String(s.stage)} className="marine-card p-6">
             <div className="flex items-center gap-3">
               <span className="font-display text-2xl font-extrabold text-primary/40">{str(s.stage)}</span>
               <h3 className="font-display text-[17px] font-bold">{brandify(str(s.title))}</h3>
@@ -475,12 +480,12 @@ function QcFlowWidget({ c }: { c: Record<string, unknown> }) {
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mx-auto mt-10 max-w-4xl space-y-6">
-        {stages.map((s, i) => {
+        {stages.map((s) => {
           const image = assetUrl(str(s.image))
           const href = str(s.link)
           const external = href.startsWith('http')
           return (
-            <div key={i} className="marine-card overflow-hidden p-0">
+            <div key={String(s.stage)} className="marine-card overflow-hidden p-0">
               <div className="grid md:grid-cols-[260px_1fr]">
                 {image && (
                   <img
@@ -501,8 +506,8 @@ function QcFlowWidget({ c }: { c: Record<string, unknown> }) {
                   {str(s.summary) && <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{brandify(str(s.summary))}</p>}
                   {arr(s.checks).length > 0 && (
                     <ul className="mt-3 space-y-1.5 text-[12.5px] leading-relaxed text-fg-2">
-                      {arr(s.checks).map((chk, ci) => (
-                        <li key={ci} className="flex items-start gap-2">
+                      {arr(s.checks).map((chk) => (
+                        <li key={String(chk)} className="flex items-start gap-2">
                           <Check size={14} className="mt-0.5 shrink-0 text-primary" />
                           <span>{brandify(str(chk))}</span>
                         </li>
@@ -553,8 +558,8 @@ function OemCases({ c }: { c: Record<string, unknown> }) {
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 md:grid-cols-3">
-        {cases.map((cs, i) => (
-          <div key={i} className="marine-card flex flex-col p-6">
+        {cases.map((cs) => (
+          <div key={String(cs.challenge)} className="marine-card flex flex-col p-6">
             <dl className="flex-1 space-y-4 text-[13px] leading-relaxed">
               <div>
                 <dt className="font-bold uppercase tracking-wide text-primary">Challenge</dt>
@@ -597,8 +602,8 @@ function WorkforceWidget({ c }: { c: Record<string, unknown> }) {
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
-              {departments.map((d, i) => (
-                <tr key={i}>
+              {departments.map((d) => (
+                <tr key={String(d.name)}>
                   <td className="px-4 py-3 font-semibold">{brandify(str(d.name))}</td>
                   <td className="px-4 py-3 text-fg-2">{str(d.count)}</td>
                   <td className="hidden px-4 py-3 text-fg-2 md:table-cell">{brandify(str(d.role))}</td>
@@ -633,8 +638,8 @@ function TraceabilityWidget({ c }: { c: Record<string, unknown> }) {
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
-              {suppliers.map((s, i) => (
-                <tr key={i}>
+              {suppliers.map((s) => (
+                <tr key={String(s.material)}>
                   <td className="px-4 py-3 font-semibold">{brandify(str(s.material))}</td>
                   <td className="px-4 py-3 text-fg-2">{brandify(str(s.source))}</td>
                   <td className="hidden px-4 py-3 text-fg-2 md:table-cell">{brandify(str(s.certified))}</td>
@@ -657,8 +662,8 @@ function EquipmentWidget({ c }: { c: Record<string, unknown> }) {
       <div className="mx-auto mt-8 max-w-3xl overflow-hidden rounded-2xl border border-border">
         <table className="w-full text-left text-[13.5px]">
           <tbody className="divide-y divide-border">
-            {items.map((it, i) => (
-              <tr key={i}>
+            {items.map((it) => (
+              <tr key={String(it.name)}>
                 <td className="px-4 py-3.5 font-semibold">{brandify(str(it.name))}</td>
                 <td className="px-4 py-3.5 text-fg-2">{brandify(str(it.spec))}</td>
               </tr>
@@ -682,8 +687,8 @@ function IntelligenceCards({ c }: { c: Record<string, unknown> }) {
     <Container>
       {title && <SectionHead kicker={str(c.tagline)} title={brandify(title)} sub={brandify(str(c.subtitle) || '')} />}
       <div className={`grid gap-5 md:grid-cols-3 ${title ? 'mt-10' : ''}`}>
-        {cards.map((card, i) => (
-          <div key={i} className="marine-card flex flex-col p-6">
+        {cards.map((card) => (
+          <div key={String(card.title)} className="marine-card flex flex-col p-6">
             <span className={`mb-3 inline-flex h-11 w-11 items-center justify-center rounded-2xl font-display text-lg font-extrabold ${ICON_HUE[str(card.icon_bg)] ?? 'bg-soft text-primary'}`}>
               {str(card.icon) || '✦'}
             </span>
@@ -691,21 +696,25 @@ function IntelligenceCards({ c }: { c: Record<string, unknown> }) {
             <p className="mt-2 flex-1 text-[13.5px] leading-relaxed text-fg-2">{brandify(str(card.desc))}</p>
             {Array.isArray(card.metrics) && (
               <div className="mt-4 flex flex-wrap gap-1.5">
-                {(card.metrics as Record<string, unknown>[]).map((m, j) => (
-                  <span key={j} className="rounded-md bg-soft px-2 py-1 text-[11.5px] font-bold text-primary">
+                {(card.metrics as Record<string, unknown>[]).map((m) => (
+                  <span key={String(m.label)} className="rounded-md bg-soft px-2 py-1 text-[11.5px] font-bold text-primary">
                     {str(m.label)}: {str(m.value)}
                   </span>
                 ))}
               </div>
             )}
             {str(card.link) && (
-              (str(card.link).startsWith('#') || str(card.link).includes('?') || str(card.link).startsWith('http') || str(card.link).startsWith('/downloads/') || str(card.link).startsWith('/assets/'))
-                ? <a href={str(card.link)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
+              str(card.link).startsWith('http')
+                ? <a href={str(card.link)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary" target="_blank" rel="noopener noreferrer">
                     {str(card.link_label) || t('content.learnMore')} <ArrowRight size={14} />
                    </a>
-                 : <a href={localize(str(card.link), locale)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
-                    {str(card.link_label) || t('content.learnMore')} <ArrowRight size={14} />
-                  </a>
+                : (str(card.link).startsWith('#') || str(card.link).includes('?') || str(card.link).startsWith('/downloads/') || str(card.link).startsWith('/assets/'))
+                  ? <a href={str(card.link)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
+                      {str(card.link_label) || t('content.learnMore')} <ArrowRight size={14} />
+                     </a>
+                  : <a href={localize(str(card.link), locale)} className="mt-4 inline-flex items-center gap-1 text-[13px] font-bold text-primary">
+                      {str(card.link_label) || t('content.learnMore')} <ArrowRight size={14} />
+                    </a>
             )}
           </div>
         ))}
@@ -721,8 +730,8 @@ function TestimonialsWidget({ c }: { c: Record<string, unknown> }) {
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 md:grid-cols-3">
-        {items.map((t, i) => (
-          <figure key={i} className="marine-card flex flex-col p-6">
+        {items.map((t) => (
+          <figure key={String(t.quote || t.author)} className="marine-card flex flex-col p-6">
             <blockquote className="flex-1 text-[14px] leading-relaxed text-fg-2">
               “{brandify(str(t.quote) || str(t.body) || str(t.text) || '')}”
             </blockquote>
@@ -843,8 +852,8 @@ function CaseCardsWidget({ c }: { c: Record<string, unknown> }) {
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-        {items.map((it, i) => (
-          <div key={i} className="marine-card flex h-full flex-col p-6">
+        {items.map((it) => (
+          <div key={String(it.title)} className="marine-card flex h-full flex-col p-6">
             {str(it.image) && <img src={assetUrl(str(it.image))} alt={str(it.alt) || str(it.title)} width={1600} height={900} loading="lazy" decoding="async" className="mb-4 aspect-[16/9] w-full rounded-xl border border-border-2 object-cover" />}
             <div className="flex flex-wrap items-center gap-2 text-[11.5px] font-bold uppercase tracking-wider text-fg-3">
               {str(it.industry) && <span className="pill border-primary/25! bg-soft! text-primary!">{str(it.industry)}</span>}
@@ -889,14 +898,14 @@ function EquipmentCategories({ c }: { c: Record<string, unknown> }) {
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('content.fallbackEquipment'))} />
       <div className="mt-10 space-y-10">
-        {cats.map((cat, i) => {
+        {cats.map((cat) => {
           const items = arr(cat.items) as Record<string, unknown>[]
           return (
-            <div key={i}>
+            <div key={String(cat.title)}>
               <h3 className="font-display text-lg font-extrabold">{brandify(str(cat.title) || '')}</h3>
               <div className="mt-4 space-y-4">
-                {items.map((it, j) => (
-                  <div key={j} className="marine-card p-5">
+                {items.map((it) => (
+                  <div key={String(it.name)} className="marine-card p-5">
                     <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                       <h4 className="font-display text-[15px] font-bold">{brandify(str(it.name) || '')}</h4>
                       {str(it.spec) && <span className="text-[12px] font-semibold uppercase tracking-wide text-primary">{brandify(str(it.spec))}</span>}
@@ -919,8 +928,8 @@ function CategoryBlurbs({ c }: { c: Record<string, unknown> }) {
   return (
     <Container>
       <div className="grid gap-5 md:grid-cols-3">
-        {items.map((it, i) => (
-          <div key={i} className="marine-card p-6">
+        {items.map((it) => (
+          <div key={String(it.title)} className="marine-card p-6">
             <h3 className="font-display text-[17px] font-bold capitalize">{brandify(str(it.title) || '')}</h3>
             <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{brandify(str(it.description) || '')}</p>
           </div>
@@ -950,7 +959,7 @@ function SizeTableWidget({ c }: { c: Record<string, unknown> }) {
           </thead>
           <tbody className="divide-y divide-border">
             {rows.map((row, i) => (
-              <tr key={i} className="align-top">
+              <tr key={String(row[keys[0]]) || i} className="align-top">
                 {keys.map((k) => (
                   <td key={k} className="px-4 py-3.5 font-semibold text-fg-2">
                     {brandify(str(row[k]))}
@@ -1011,7 +1020,7 @@ function ReworkDecisionWidget({ c }: { c: Record<string, unknown> }) {
           const yesLabel = labels.get(str(n.yes))
           const noLabel = labels.get(str(n.no))
           return (
-            <div key={i}>
+            <div key={String(n.id || n.label)}>
               {i > 0 && (
                 <div className="flex justify-center py-1.5">
                   <ChevronDown size={16} className="text-fg-3" />
@@ -1071,10 +1080,10 @@ function AcademyCategories({ c }: { c: Record<string, unknown> }) {
         sub={t('inquiry.skillPathsSub')}
       />
       <div className="mt-10 grid gap-5 md:grid-cols-2">
-        {cats.map((cat, i) => {
+        {cats.map((cat) => {
           const guides = arr(cat.guides) as Record<string, unknown>[]
           return (
-            <div key={i} className="marine-card flex h-full flex-col p-6">
+            <div key={String(cat.level)} className="marine-card flex h-full flex-col p-6">
               <div className="flex items-center gap-3">
                 <span className={`inline-flex h-9 w-9 items-center justify-center rounded-lg bg-soft font-display text-sm font-extrabold text-primary`}>
                   {String(str(cat.level).charAt(0)) || '?'}
@@ -1084,7 +1093,7 @@ function AcademyCategories({ c }: { c: Record<string, unknown> }) {
                 </div>
               </div>
               <div className="mt-4 space-y-2.5">
-                {guides.map((g, j) => {
+                {guides.map((g) => {
                   const href = remapHref(str(g.href || g.slug))
                   const card = (
                     <div className="rounded-xl border border-border px-4 py-3 transition-colors hover:border-primary/40">
@@ -1093,12 +1102,12 @@ function AcademyCategories({ c }: { c: Record<string, unknown> }) {
                     </div>
                   )
                   return href ? (
-                    <a key={j} href={localize(href, locale)} className="group block rounded-xl border border-border px-4 py-3 transition-colors hover:border-primary/40">
+                    <a key={String(g.title)} href={localize(href, locale)} className="group block rounded-xl border border-border px-4 py-3 transition-colors hover:border-primary/40">
                       <div className="text-[14px] font-bold">{brandify(str(g.title))}</div>
                       {str(g.desc) && <p className="mt-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
                     </a>
                   ) : (
-                    <div key={j}>{card}</div>
+                    <div key={String(g.title)}>{card}</div>
                   )
                 })}
               </div>
@@ -1122,14 +1131,14 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
         sub={t('inquiry.knowledgeCenterSub')}
       />
       <div className="mt-10 space-y-10">
-        {sections.map((sec, i) => {
+        {sections.map((sec) => {
           const guides = arr(sec.guides) as Record<string, unknown>[]
           return (
-            <div key={i}>
+            <div key={String(sec.title)}>
               <h3 className="font-display text-xl font-extrabold">{brandify(str(sec.title) || '')}</h3>
               {str(sec.desc) && <p className="mt-1.5 max-w-3xl text-[13.5px] leading-relaxed text-fg-3">{brandify(str(sec.desc))}</p>}
               <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                {guides.map((g, j) => {
+                {guides.map((g) => {
                   const href = remapHref(str(g.href))
                   const card = (
                     <div className="marine-card flex h-full flex-col p-5">
@@ -1141,7 +1150,7 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
                     </div>
                   )
                   return href ? (
-                    <a key={j} href={localize(href, locale)} className="marine-card group flex h-full flex-col p-5">
+                    <a key={String(g.title)} href={localize(href, locale)} className="marine-card group flex h-full flex-col p-5">
                       <h4 className="font-display text-[14px] font-bold">{brandify(str(g.title))}</h4>
                       {str(g.desc) && <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
                       <span className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-primary">
@@ -1149,7 +1158,7 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
                       </span>
                     </a>
                   ) : (
-                    <div key={j}>{card}</div>
+                    <div key={String(g.title)}>{card}</div>
                   )
                 })}
               </div>
@@ -1309,10 +1318,10 @@ function GeoWidget({ c }: { c: R }) {
 }
 
 function BuyerGuidesWidget({ c }: { c: Record<string, unknown> }) {
-  const { t, locale } = useTranslation()
+  const { t } = useTranslation()
   const items = arr(c.items)
   if (items.length === 0) return null
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
   return (
     <Container>
       <SectionHead kicker={str(c.tagline)} title={str(c.title) || t('content.fallbackBuyersGuides')} sub={str(c.subtitle)} />
@@ -1325,7 +1334,7 @@ function BuyerGuidesWidget({ c }: { c: Record<string, unknown> }) {
             <a
               key={href}
               href={fl(href)}
-              className="marine-card group flex h-full flex-col justify-between gap-6 p-6 transition-colors hover:border-primary/40"
+              className="marine-card group flex h-full flex-col justify-between gap-6 p-6"
             >
               <div>
                 <h3 className="font-display text-[17px] font-bold leading-snug">{str(o.title)}</h3>
@@ -1380,12 +1389,12 @@ function CapabilityGroups({ c }: { c: Record<string, unknown> }) {
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 md:grid-cols-2">
-        {groups.map((g, i) => (
-          <div key={i} className="marine-card p-6">
+        {groups.map((g) => (
+          <div key={String(g.title)} className="marine-card p-6">
             <h3 className="font-display text-[16px] font-bold">{brandify(str(g.title) || '')}</h3>
             <ul className="mt-3 space-y-2.5">
-              {(arr(g.items) as unknown[]).map((it, j) => (
-                <li key={j} className="flex items-start gap-2.5 text-[13.5px] leading-relaxed text-fg-2">
+              {(arr(g.items) as unknown[]).map((it) => (
+                <li key={String(it)} className="flex items-start gap-2.5 text-[13.5px] leading-relaxed text-fg-2">
                   <Check size={15} className="mt-0.5 shrink-0 text-primary" />
                   {brandify(String(it))}
                 </li>
@@ -1409,8 +1418,8 @@ function ServicesWidget({ c }: { c: Record<string, unknown> }) {
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {services.map((s, i) => (
-          <div key={i} className="marine-card flex flex-col p-6">
+        {services.map((s) => (
+          <div key={String(s.title)} className="marine-card flex flex-col p-6">
             <h3 className="font-display text-[16px] font-bold">{brandify(str(s.title) || '')}</h3>
             <p className="mt-2 flex-1 text-[13.5px] leading-relaxed text-fg-2">{brandify(str(s.desc) || str(s.description) || '')}</p>
           </div>
@@ -1419,7 +1428,7 @@ function ServicesWidget({ c }: { c: Record<string, unknown> }) {
       {str(c.cta) && (
         <p className="mt-8 text-center">
           {href ? (
-            <a href={href.startsWith('http') ? href : localize(href, locale)} className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-5 py-2.5 text-[14px] font-bold text-primary-foreground transition-opacity hover:opacity-90">
+            <a href={href.startsWith('http') ? href : localize(href, locale)} className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-5 py-2.5 text-[14px] font-bold text-primary-foreground transition-opacity hover:opacity-90" {...href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {} }>
               {brandify(str(c.cta))} <ArrowRight size={16} />
             </a>
           ) : (
@@ -1509,7 +1518,7 @@ function ObjectTable({ rows }: { rows: Record<string, unknown>[] }) {
         </thead>
         <tbody className="divide-y divide-border">
           {rows.map((row, i) => (
-            <tr key={i} className="align-top">
+            <tr key={String(row[keys[0]]) || i} className="align-top">
               {keys.map((k) => (
                 <td key={k} className="px-4 py-3.5 font-semibold text-fg-2">
                   {brandify(str(row[k]))}
@@ -1536,8 +1545,8 @@ function ContentWidget({ c }: { c: unknown }) {
       return (
         <Container narrow>
           <ul className="space-y-3">
-            {c.map((s, i) => (
-              <li key={i} className="flex items-start gap-3 text-[14.5px] leading-relaxed text-fg-2">
+            {c.map((s) => (
+              <li key={String(s)} className="flex items-start gap-3 text-[14.5px] leading-relaxed text-fg-2">
                 <Check size={17} className="mt-0.5 shrink-0 text-primary" />
                 {brandify(String(s))}
               </li>
@@ -1563,7 +1572,6 @@ function ContentWidget({ c }: { c: unknown }) {
     if (Array.isArray(c.steps) || Array.isArray(c.stages)) return <StepsWidget c={c} />
     if (Array.isArray(c.questions) || Array.isArray(c.faqs)) return <FaqWidget c={c} />
     if (Array.isArray(c.testimonials) || Array.isArray(c.stories)) return <TestimonialsWidget c={c} />
-    if (Array.isArray(c.testimonials) || Array.isArray(c.stories)) return <TestimonialsWidget c={c} />
     if (Array.isArray(c.stats) || Array.isArray(c.highlights) || Array.isArray(c.rd_numbers)) return <StatGrid items={statItems(c)} heading={c} />
     if (Array.isArray(c.topics)) return <TopicList c={c} />
     if (Array.isArray(c.items) && c.items.every((it) => typeof it === 'string')) {
@@ -1571,8 +1579,8 @@ function ContentWidget({ c }: { c: unknown }) {
         <Container narrow>
           {(str(c.tagline) || str(c.title)) && <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />}
           <ul className="mx-auto mt-8 max-w-3xl space-y-3">
-            {c.items.map((s, i) => (
-              <li key={i} className="flex items-start gap-3 text-[14.5px] leading-relaxed text-fg-2">
+            {c.items.map((s) => (
+              <li key={String(s)} className="flex items-start gap-3 text-[14.5px] leading-relaxed text-fg-2">
                 <Check size={17} className="mt-0.5 shrink-0 text-primary" />
                 {brandify(String(s))}
               </li>

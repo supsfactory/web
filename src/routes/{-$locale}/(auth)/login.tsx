@@ -6,7 +6,7 @@ import { getEnabledSocialProviders, getTurnstileSiteKey } from '@/features/auth/
 import { mapAuthError } from '@/features/auth/errors'
 import { useTurnstile, captchaHeaders } from '@/features/auth/components/turnstile'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { authPageHead } from '@/features/auth/head'
 import { AuthCard, Field } from '@/features/auth/components/auth-card'
 import { SocialButtons } from '@/features/auth/components/social-buttons'
@@ -26,9 +26,9 @@ export const Route = createFileRoute('/{-$locale}/(auth)/login')({
 
 function Login() {
   const { providers, turnstileSiteKey } = Route.useLoaderData()
-  const { t, locale } = useTranslation()
+  const { t } = useTranslation()
   const router = useRouter()
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
   const { token, enabled, widget, reset } = useTurnstile(turnstileSiteKey)
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')

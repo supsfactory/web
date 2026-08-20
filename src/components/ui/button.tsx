@@ -7,12 +7,13 @@ export const buttonVariants = cva(
   'inline-flex items-center justify-center gap-2 rounded-[6px] font-semibold whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring disabled:opacity-50 disabled:pointer-events-none',
   {
     variants: {
-      variant: {
-        default: 'bg-primary text-primary-foreground hover:bg-primary-hover',
-        outline: 'border border-border-strong bg-transparent text-foreground hover:bg-bg-alt',
-        ghost: 'bg-transparent text-fg-2 hover:bg-bg-alt hover:text-foreground',
-        soft: 'bg-soft text-primary hover:opacity-90',
-      },
+        variant: {
+          default: 'bg-primary text-primary-foreground hover:bg-primary-hover',
+          destructive: 'bg-[var(--destructive)] text-white hover:opacity-90',
+          outline: 'border border-border-strong bg-transparent text-foreground hover:bg-bg-alt',
+          ghost: 'bg-transparent text-fg-2 hover:bg-bg-alt hover:text-foreground',
+          soft: 'bg-soft text-primary hover:opacity-90',
+        },
       size: {
         sm: 'h-[38px] px-[14px] text-sm',
         default: 'h-11 px-[18px] text-[15px]',

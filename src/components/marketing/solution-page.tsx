@@ -1,10 +1,11 @@
 import { ArrowRight, CheckCircle2, Target, AlertCircle } from 'lucide-react'
 import type { SolutionPageData } from '@/product/solution-pages'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { PageHero, SectionHead } from './section-head'
 import { JsonLd, faqLd, serviceLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { solutionPath } from '@/product/solution-pages'
+import { PRIMARY_CTA } from './cta-styles'
 
 /**
  * Shared renderer for the Solutions system pages (src/features/site/solution-pages.ts).
@@ -13,7 +14,7 @@ import { solutionPath } from '@/product/solution-pages'
  */
 export function SolutionPage({ page }: { page: SolutionPageData }) {
   const { t, locale } = useTranslation()
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
   const ctaLabel =
     page.ctaLabel ??
     {
@@ -157,7 +158,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
           <p className="fg-dim mt-4 max-w-xl text-[15.5px] leading-relaxed">{t('sup.solutions.nextBody')}</p>
           <a
             href={fl(ctaHref)}
-            className="sun-grad mt-8 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
+            className={PRIMARY_CTA}
           >
             {ctaLabel} <ArrowRight size={17} />
           </a>

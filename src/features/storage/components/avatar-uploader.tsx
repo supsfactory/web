@@ -41,9 +41,10 @@ export function AvatarUploader({ image, name }: { image?: string | null; name: s
       if (!res.ok) {
         setError(t(`storage.${res.reason}`))
         setPreview(null)
+        URL.revokeObjectURL(blobUrl)
         return
       }
-      // Server updated user.image; reload loader data so the new URL sticks.
+      URL.revokeObjectURL(blobUrl)
       router.invalidate()
     } catch {
       // 网络断开/会话过期等：给出可重试的报错；finally 复位 busy，按钮不再永久卡死
@@ -58,7 +59,7 @@ export function AvatarUploader({ image, name }: { image?: string | null; name: s
   return (
     <div className="flex items-center gap-4">
       <div className="grid size-16 place-items-center overflow-hidden rounded-full bg-bg-2 text-xl font-semibold text-fg-2">
-        {src ? <img src={src} alt={name} width={48} height={48} decoding="async" className="size-full object-cover" /> : initial}
+        {src ? <img src={src} alt={name} width={48} height={48} loading="lazy" decoding="async" className="size-full object-cover" /> : initial}
       </div>
       <div className="grid gap-1.5">
         <input

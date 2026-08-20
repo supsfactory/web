@@ -1,19 +1,16 @@
 import * as React from 'react'
-import { createFileRoute, getRouteApi } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { ArrowRight, PaintBucket, Upload, ImageIcon, Sparkles } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { getDictionary, translate } from '@/features/i18n/locale'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, customizer } from '@/product/content'
-import { SiteNav } from '@/components/marketing/site-nav'
+import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
 import { BoardArt } from '@/components/marketing/board-art'
-import { Footer } from '@/components/marketing/footer'
-
-const rootRoute = getRouteApi('__root__')
 
 const STEP_ICONS = [PaintBucket, Upload, ImageIcon, Sparkles]
 const SWATCHES = [195, 28, 260, 210, 330, 8]
@@ -38,16 +35,13 @@ export const Route = createFileRoute('/{-$locale}/customizer')({
 
 /** SUP Design Studio: clean white configurator layout with a live color-picking preview. */
 function CustomizerPage() {
-  const { theme, user } = rootRoute.useLoaderData()
   const { locale } = useTranslation()
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
   const c = pick(customizer, locale)
   const [hue, setHue] = React.useState(195)
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={!!user} />
-      <main id="main-content">
+    <MarketingShell>
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub}>
         <span className="mt-7 inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-[13px] font-semibold text-white">
           <Sparkles size={14} className="text-[#7fd6f0]" />
@@ -123,8 +117,6 @@ function CustomizerPage() {
         </div>
       </section>
 
-      </main>
-      <Footer theme={theme} />
-    </div>
+    </MarketingShell>
   )
 }

@@ -1,18 +1,15 @@
-import { createFileRoute, getRouteApi } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { getDictionary, translate } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, servePage } from '@/product/content'
-import { SiteNav } from '@/components/marketing/site-nav'
+import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
 import { WhoWeServe } from '@/components/marketing/who-we-serve'
 import { CtaBand } from '@/components/marketing/cta'
-import { Footer } from '@/components/marketing/footer'
 import { SITE_NAME } from '@/config'
-
-const rootRoute = getRouteApi('__root__')
 
 export const Route = createFileRoute('/{-$locale}/who-we-serve')({
   loader: async () => ({ origin: await getOrigin() }),
@@ -33,19 +30,14 @@ export const Route = createFileRoute('/{-$locale}/who-we-serve')({
 })
 
 function ServePage() {
-  const { theme, user } = rootRoute.useLoaderData()
   const { locale } = useTranslation()
   const c = pick(servePage, locale)
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={!!user} />
-      <main id="main-content">
+    <MarketingShell>
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
       <WhoWeServe />
       <CtaBand />
-      </main>
-      <Footer theme={theme} />
-    </div>
+    </MarketingShell>
   )
 }

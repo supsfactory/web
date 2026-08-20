@@ -1,5 +1,5 @@
 import { useTranslation } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, boardCategories } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
@@ -7,7 +7,7 @@ import { Reveal } from './reveal'
 export function BoardCategories() {
   const { locale } = useTranslation()
   const c = pick(boardCategories, locale)
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
 
   return (
     <section className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">

@@ -10,6 +10,7 @@ interface ChatSource {
 }
 
 interface ChatMessage {
+  id: number
   role: 'user' | 'assistant'
   content: string
   sources?: ChatSource[]
@@ -19,11 +20,8 @@ const MAX_HISTORY = 6
 
 const DISCLAIMER = 'Information provided by our AI assistant is for reference only and may not always be 100% accurate. If you have any doubts or specific inquiries, please contact our support team directly.'
 
-/**
- * Floating AI sales assistant (POST /api/ask). Positioned above the WhatsApp /
- * WeChat floats and above the mobile sticky contact bar, so the two never
- * collide. Renders the answer sources as links back into the site.
- */
+let nextId = 0
+
 export function AiChat() {
   const { t, locale } = useTranslation()
   const [open, setOpen] = useState(false)
@@ -50,7 +48,7 @@ export function AiChat() {
     if (!question || busy) return
     const history = messages.slice(-MAX_HISTORY).map((m) => ({ role: m.role, content: m.content }))
     const firstQuestion = messages.length === 0
-    setMessages((m) => [...m, { role: 'user', content: question }])
+    setMessages((m) => [...m, { id: nextId++, role: 'user', content: question }])
     setInput('')
     setBusy(true)
     setError(false)
@@ -64,10 +62,9 @@ export function AiChat() {
       if (!res.ok || !data.answer) throw new Error('empty answer')
       const answer = data.answer
       const sources = data.sources
-      setMessages((m) => [...m, { role: 'assistant', content: answer, sources }])
-      // after adding the real answer, if this was the first user question also inject the disclaimer
+      setMessages((m) => [...m, { id: nextId++, role: 'assistant', content: answer, sources }])
       if (firstQuestion) {
-        setMessages((m) => [...m, { role: 'assistant', content: DISCLAIMER }])
+        setMessages((m) => [...m, { id: nextId++, role: 'assistant', content: DISCLAIMER }])
       }
     } catch {
       setError(true)
@@ -119,8 +116,8 @@ export function AiChat() {
               </div>
             )}
 
-            {messages.map((m, i) => (
-              <div key={i} className={`mb-3 flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+            {messages.map((m) => (
+              <div key={m.id} className={`mb-3 flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
                 <div
                   className={`max-w-[85%] whitespace-pre-wrap rounded-2xl px-3.5 py-2.5 text-[13.5px] leading-relaxed ${
                     m.role === 'user'

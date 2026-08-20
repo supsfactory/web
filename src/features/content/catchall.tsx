@@ -12,15 +12,15 @@
  * the 900 KB+ content corpus.
  */
 
-import { getRouteApi, notFound } from '@tanstack/react-router'
+import * as React from 'react'
+import { notFound } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import {  I18nProvider, useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { type Locale } from '@/features/i18n/locale'
-import { SiteNav } from '@/components/marketing/site-nav'
+import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { CtaBand } from '@/components/marketing/cta'
-import { Footer } from '@/components/marketing/footer'
 import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd } from '@/features/seo/jsonld'
 import { brandify } from './brand'
 import { AferIndexProvider, type AferIndexData } from './index-data'
@@ -34,8 +34,6 @@ import { ArrowRight } from 'lucide-react'
 import { ContentSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
 import type { ContentArticle, ContentCaseUse, ContentPage, ContentPost, ContentProduct } from './types'
-
-const rootRoute = getRouteApi('__root__')
 
 /** Minimal product card for the "related platforms" strip on product pages. */
 export type RelatedProduct = { slug: string; title: string; image: string; amount?: string }
@@ -222,125 +220,120 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
 /* ─────────────────────────── shell + views ─────────────────────────── */
 
 export function ContentCatchAll({ data }: { data: CatchAllData }) {
-  const { theme, user } = rootRoute.useLoaderData()
   return (
     <I18nProvider locale={data.locale}>
       <AferIndexProvider value={data.index}>
-        <CatchAllShell data={data} theme={theme} loggedIn={!!user} />
+        <MarketingShell>
+          <CatchAllContent data={data} />
+        </MarketingShell>
       </AferIndexProvider>
     </I18nProvider>
   )
 }
 
-function CatchAllShell({ data, theme, loggedIn }: { data: CatchAllData; theme: 'light' | 'dark'; loggedIn: boolean }) {
+function CatchAllContent({ data }: { data: CatchAllData }) {
   const { t } = useTranslation()
-  return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={loggedIn} />
-      <main id="main-content">
-      {(() => {
-        switch (data.kind) {
-          case 'page': {
-            const page = data.page
-            const faqs = collectPageFaqs(page)
-            return (
-              <>
-                <ContentSections page={page} />
-                <JsonLd
-                  data={breadcrumbLd(data.origin, [
-                    { name: t('content.nav.home'), path: '/' },
-                    { name: data.title, path: data.path },
-                  ])}
-                />
-                {data.path.startsWith('/research/') && (
-                  <JsonLd data={researchArticleLd(data.origin, data.path, data.title, data.description, page)} />
-                )}
-                {JSONLD_KEYWORDS[data.path] && (
-                  <JsonLd
-                    data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, JSONLD_KEYWORDS[data.path].keywords, JSONLD_KEYWORDS[data.path].articleTitle)}
-                  />
-                )}
-                {page.meta?.dateModified && (
-                  <JsonLd
-                    data={{
-                      '@context': 'https://schema.org',
-                      '@type': 'WebPage',
-                      url: `${data.origin}${data.path}`,
-                      dateModified: page.meta.dateModified,
-                    }}
-                  />
-                )}
-                {faqs.length > 0 && <JsonLd data={faqLd(faqs, data.locale)} />}
-              </>
-            )
-          }
-          case 'product':
-            return (
-              <>
-                <ProductView product={data.product} related={data.related} origin={data.origin} locale={data.locale} />
-                <CtaBand productSlug={data.product.slug} />
-              </>
-            )
-          case 'post':
-            return (
-              <>
-                <PostView post={data.post} relatedPosts={data.relatedPosts} origin={data.origin} path={data.path} locale={data.locale} />
-                <CtaBand />
-              </>
-            )
-          case 'article':
-            return <ArticleView article={data.article} origin={data.origin} title={data.title} path={data.path} locale={data.locale} />
-          case 'case':
-            return <CaseView c={data.case} origin={data.origin} title={data.title} path={data.path} locale={data.locale} />
-          case 'guide':
-            return <GuideView slug={data.slug} origin={data.origin} path={data.path} locale={data.locale} />
-          case 'faq':
-            return <FaqView faqs={data.faqs} origin={data.origin} path={data.path} translated={data.translated} locale={data.locale} />
-          case 'cases-index':
-            return (
-              <>
-                <PageHero
-                  kicker={t('content.cases.kicker')}
-                  title={t('content.cases.title', { brand: BRAND_PARENT_BRAND })}
-                  sub={t('content.cases.sub')}
-                />
-                <CaseStudiesIndex />
-                {data.index.cases && data.index.cases.length > 0 && (
-                  <JsonLd
-                    data={itemListLd(data.index.cases.map((c) => ({ name: c.title, path: `/evidence/case-studies/${c.slug}` })))}
-                  />
-                )}
-              </>
-            )
-          case 'research-index':
-            return (
-              <>
-                <PageHero
-                  kicker={t('content.research.kicker')}
-                  title={t('content.research.title')}
-                  sub={t('content.research.sub')}
-                />
-                <ResearchIndex />
-                {data.index.topics && data.index.topics.length > 0 && (
-                  <JsonLd
-                    data={itemListLd(data.index.topics.map((t) => ({ name: t.slug.replace(/-/g, ' '), path: `/research/${t.slug}` })))}
-                  />
-                )}
-              </>
-            )
-        }
-      })()}
-      </main>
-      <Footer theme={theme} />
-    </div>
-  )
+  return renderContent(data, t)
+}
+
+function renderContent(data: CatchAllData, t: (key: string, params?: Record<string, string | number>) => string): React.ReactNode {
+  switch (data.kind) {
+    case 'page': {
+      const page = data.page
+      const faqs = collectPageFaqs(page)
+      return (
+        <>
+          <ContentSections page={page} />
+          <JsonLd
+            data={breadcrumbLd(data.origin, [
+              { name: t('content.nav.home'), path: '/' },
+              { name: data.title, path: data.path },
+            ])}
+          />
+          {data.path.startsWith('/research/') && (
+            <JsonLd data={researchArticleLd(data.origin, data.path, data.title, data.description, page)} />
+          )}
+          {JSONLD_KEYWORDS[data.path] && (
+            <JsonLd
+              data={vatradTechArticleLd(data.origin, data.path, data.title, data.description, page, data.locale, JSONLD_KEYWORDS[data.path].keywords, JSONLD_KEYWORDS[data.path].articleTitle)}
+            />
+          )}
+          {page.meta?.dateModified && (
+            <JsonLd
+              data={{
+                '@context': 'https://schema.org',
+                '@type': 'WebPage',
+                url: `${data.origin}${data.path}`,
+                dateModified: page.meta.dateModified,
+              }}
+            />
+          )}
+          {faqs.length > 0 && <JsonLd data={faqLd(faqs, data.locale)} />}
+        </>
+      )
+    }
+    case 'product':
+      return (
+        <>
+          <ProductView product={data.product} related={data.related} origin={data.origin} locale={data.locale} />
+          <CtaBand productSlug={data.product.slug} />
+        </>
+      )
+    case 'post':
+      return (
+        <>
+          <PostView post={data.post} relatedPosts={data.relatedPosts} origin={data.origin} path={data.path} locale={data.locale} />
+          <CtaBand />
+        </>
+      )
+    case 'article':
+      return <ArticleView article={data.article} origin={data.origin} title={data.title} path={data.path} locale={data.locale} />
+    case 'case':
+      return <CaseView c={data.case} origin={data.origin} title={data.title} path={data.path} locale={data.locale} />
+    case 'guide':
+      return <GuideView slug={data.slug} origin={data.origin} path={data.path} locale={data.locale} />
+    case 'faq':
+      return <FaqView faqs={data.faqs} origin={data.origin} path={data.path} translated={data.translated} locale={data.locale} />
+    case 'cases-index':
+      return (
+        <>
+          <PageHero
+            kicker={t('content.cases.kicker')}
+            title={t('content.cases.title', { brand: BRAND_PARENT_BRAND })}
+            sub={t('content.cases.sub')}
+          />
+          <CaseStudiesIndex />
+          {data.index.cases && data.index.cases.length > 0 && (
+            <JsonLd
+              data={itemListLd(data.index.cases.map((c) => ({ name: c.title, path: `/evidence/case-studies/${c.slug}` })))}
+            />
+          )}
+        </>
+      )
+    case 'research-index':
+      return (
+        <>
+          <PageHero
+            kicker={t('content.research.kicker')}
+            title={t('content.research.title')}
+            sub={t('content.research.sub')}
+          />
+          <ResearchIndex />
+          {data.index.topics && data.index.topics.length > 0 && (
+            <JsonLd
+              data={itemListLd(data.index.topics.map((t) => ({ name: t.slug.replace(/-/g, ' '), path: `/research/${t.slug}` })))}
+            />
+          )}
+        </>
+      )
+  }
 }
 
 export function ProductView({ product, related, origin, locale }: { product: ContentProduct; related: RelatedProduct[]; origin: string; locale: Locale }) {
   const { t } = useTranslation()
   const specs = product.specs ?? []
   const gallery = product.gallery?.length ? product.gallery : product.image ? [{ url: product.image, alt: product.title }] : []
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
   return (
     <>
       <PageHero kicker={product.category ?? t('content.kickers.product')} title={product.title} sub={brandify(product.summary ?? '')} />
@@ -348,7 +341,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
         <div className="grid gap-8 lg:grid-cols-[1.1fr_1fr]">
           <div className="grid gap-3">
             {gallery.map((img, i) => (
-              <img key={i} src={img.url} alt={img.alt ?? product.title} width={1200} height={630} loading={i === 0 ? 'eager' : 'lazy'} fetchPriority={i === 0 ? 'high' : 'auto'} decoding={i === 0 ? 'auto' : 'async'} className="w-full rounded-2xl border border-border-2 object-cover" />
+              <img key={img.url} src={img.url} alt={img.alt ?? product.title} width={1200} height={630} loading={i === 0 ? 'eager' : 'lazy'} fetchPriority={i === 0 ? 'high' : 'auto'} decoding={i === 0 ? 'auto' : 'async'} className="w-full rounded-2xl border border-border-2 object-cover" />
             ))}
           </div>
           <div>
@@ -367,8 +360,8 @@ export function ProductView({ product, related, origin, locale }: { product: Con
               <div className="mt-6 overflow-hidden rounded-2xl border border-border">
                 <table className="w-full text-left text-[13.5px]">
                   <tbody className="divide-y divide-border">
-                    {specs.map((s, i) => (
-                      <tr key={i} className="odd:bg-bg-alt/60">
+                    {specs.map((s) => (
+                      <tr key={s.label} className="odd:bg-bg-alt/60">
                         <th className="w-2/5 px-4 py-3 font-semibold">{brandify(s.label)}</th>
                         <td className="px-4 py-3 text-fg-2">{brandify(s.value)}</td>
                       </tr>
@@ -492,7 +485,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                 <a
                   key={r.slug}
                   href={fl(`/products/${r.slug}`)}
-                  className="marine-card group flex flex-col overflow-hidden p-0 transition-colors hover:border-primary/40"
+                  className="marine-card group flex flex-col overflow-hidden p-0"
                 >
                   {r.image && (
                     <img src={r.image} alt={r.title} width={800} height={600} loading="lazy" decoding="async" className="aspect-[4/3] w-full object-cover" />
@@ -513,7 +506,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
             </h2>
             <div className="mt-6 flex flex-col gap-3">
               {productFaqs(product, locale).map((f, i) => (
-                <details key={i} className="marine-card group px-5 py-4" open={i === 0}>
+                <details key={f.q} className="marine-card group px-5 py-4" open={i === 0}>
                   <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
                     <span>{f.q}</span>
                     <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
@@ -532,19 +525,19 @@ export function ProductView({ product, related, origin, locale }: { product: Con
             {t('content.product.produceUnderBrand')}
           </h2>
           <div className="mt-6 grid gap-3 sm:grid-cols-3">
-            <a href={fl('/oem-manufacturing')} className="marine-card p-5 transition-colors hover:border-primary/40">
+            <a href={fl('/oem-manufacturing')} className="marine-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.oemOdmTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {t('content.product.oemOdmDesc')}
               </p>
             </a>
-            <a href={fl('/product-development')} className="marine-card p-5 transition-colors hover:border-primary/40">
+            <a href={fl('/product-development')} className="marine-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.supDevTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {t('content.product.supDevDesc')}
               </p>
             </a>
-            <a href={fl('/solutions/private-label-sup')} className="marine-card p-5 transition-colors hover:border-primary/40">
+            <a href={fl('/solutions/private-label-sup')} className="marine-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.privateLabelTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {t('content.product.privateLabelDesc')}
@@ -658,7 +651,7 @@ function PostView({ post, relatedPosts, origin, path, locale }: { post: ContentP
                 <a
                   key={r.slug}
                   href={`${locale !== 'en' ? `/${locale}` : ''}/news/${r.slug}`}
-                  className="marine-card p-5 transition-colors hover:border-primary/40"
+                  className="marine-card p-5"
                 >
                   <p className="text-[12px] font-semibold uppercase tracking-wide text-fg-3">{r.date}</p>
                   <p className="mt-1 text-[15px] font-bold leading-snug">{r.title}</p>
@@ -668,7 +661,7 @@ function PostView({ post, relatedPosts, origin, path, locale }: { post: ContentP
             </div>
           </div>
         )}
-        <ContentCta locale={locale} />
+        <ContentCta />
       </article>
     </>
   )
@@ -693,7 +686,7 @@ function ArticleView({ article, origin, title, path, locale }: { article: Conten
           ])}
         />
         <JsonLd data={articleLd(`${origin}/technology/${article.slug}`, title, article.description ?? article.summary ?? '', locale, article.dateModified)} />
-        <ContentCta locale={locale} />
+        <ContentCta />
       </article>
     </>
   )
@@ -726,7 +719,7 @@ function CaseView({ c, origin, title, path, locale }: { c: ContentCaseUse; origi
           ])}
         />
         <JsonLd data={articleLd(`${origin}${path}`, title, c.summary ?? '', locale)} />
-        <ContentCta locale={locale} />
+        <ContentCta />
       </article>
     </>
   )
@@ -736,7 +729,7 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
   const { t } = useTranslation()
   const guide = getGuide(`/guides/${slug}`, locale)
   if (!guide) return null
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
   return (
     <>
       <PageHero kicker={t('content.kickers.guide')} title={guide.title} />
@@ -745,7 +738,7 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
           <p key={i} className="mt-4 text-[15px] leading-relaxed text-fg-2">{brandify(p)}</p>
         ))}
         {guide.sections.map((s, i) => (
-          <section key={i}>
+          <section key={s.title}>
             <h2 className="mt-10 flex items-center gap-3 font-display text-xl font-extrabold tracking-tight">
               <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/12 font-display text-[14px] font-extrabold text-primary">{i + 1}</span>
               {s.title}
@@ -757,8 +750,8 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
           <section className="mt-12">
             <SectionHead kicker="FAQ" title={t('content.guide.quickAnswers')} />
             <div className="mt-6 space-y-3">
-              {guide.faqs.map((f, i) => (
-                <details key={i} className="marine-card group px-5 py-4">
+              {guide.faqs.map((f) => (
+                <details key={f.q} className="marine-card group px-5 py-4">
                   <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[14.5px] font-semibold marker:hidden">
                     {f.q}
                     <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
@@ -779,7 +772,7 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
                 <a
                   key={r.href}
                   href={fl(r.href)}
-                  className="marine-card flex items-center justify-between gap-3 p-5 transition-colors hover:border-primary/40"
+                  className="marine-card flex items-center justify-between gap-3 p-5"
                 >
                   <span className="text-[14px] font-semibold leading-snug">{brandify(r.label)}</span>
                   <ArrowRight size={15} className="shrink-0 text-primary" />
@@ -797,16 +790,16 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
         />
         <JsonLd data={articleLd(`${origin}/guides/${guide.slug}`, guide.title, guide.intro[0] ?? '', locale)} />
         {guide.faqs.length > 0 && <JsonLd data={faqLd(guide.faqs, locale)} />}
-        <ContentCta locale={locale} />
+        <ContentCta />
       </article>
     </>
   )
 }
 
 /** Content → inquiry conversion block appended to news, tech articles, case studies and guides. */
-function ContentCta({ locale }: { locale: Locale }) {
+function ContentCta() {
   const { t } = useTranslation()
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
   return (
     <div className="mt-12 rounded-2xl border border-border-2 bg-bg-alt p-7 text-center">
       <p className="font-display text-xl font-extrabold">
@@ -845,7 +838,7 @@ function FaqView({ faqs, origin, path, locale }: { faqs: { q: string; a: string 
       <section className="mx-auto max-w-3xl px-5 py-14 md:px-7">
         <div className="flex flex-col gap-3">
           {faqs.map((f, i) => (
-            <details key={i} className="marine-card group px-5 py-4" open={i === 0}>
+            <details key={f.q} className="marine-card group px-5 py-4" open={i === 0}>
               <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
                 <span>{f.q}</span>
                 <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
@@ -856,7 +849,7 @@ function FaqView({ faqs, origin, path, locale }: { faqs: { q: string; a: string 
         </div>
       </section>
       <div className="mx-auto max-w-3xl px-5 pb-4">
-        <ContentCta locale={locale} />
+        <ContentCta />
       </div>
       <JsonLd data={breadcrumbLd(origin, [{ name: t('content.nav.home'), path: '/' }, { name: 'FAQ', path }])} />
       <JsonLd data={faqLd(faqs, locale)} />

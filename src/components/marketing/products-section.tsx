@@ -1,18 +1,17 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, products, productFilters, type Product } from '@/product/content'
 import { Reveal } from './reveal'
 
 /** Single catalog card: real product photo with sku/price chips, then brand-book details. */
-export function ProductCard({ product, priority = false }: { product: Product; priority?: boolean }) {
-  const { locale, t } = useTranslation()
-  const fl = (path: string): string => localizePath(locale, path)
+function ProductCardInner({ product, priority = false }: { product: Product; priority?: boolean }) {
+  const { t } = useTranslation()
+  const fl = useLocalizePath()
   return (
     <a
       href={fl(`/products/${product.slug}`)}
-      className="group block h-full"
-      style={{ color: 'inherit' }}
+      className="group block h-full text-current"
     >
       <div className="marine-card flex h-full flex-col overflow-hidden p-0 transition-transform duration-300 group-hover:-translate-y-1">
       <div className="zoom-img relative aspect-[4/3] overflow-hidden border-b border-border-2 bg-bg-alt">
@@ -59,6 +58,7 @@ export function ProductCard({ product, priority = false }: { product: Product; p
     </a>
   )
 }
+export const ProductCard = React.memo(ProductCardInner)
 
 /** Products grid (catalog style) shared by home and /products (the page passes its own header).
  *  Pass `active`/`onActiveChange` to mirror the filter into the URL (e.g. ?platform=race). */

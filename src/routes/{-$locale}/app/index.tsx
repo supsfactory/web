@@ -2,7 +2,7 @@
 import { Settings, ArrowRight } from 'lucide-react'
 import { requireUser } from '@/features/auth/middleware'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { AppShell } from '@/components/app/app-shell'
 
 export const Route = createFileRoute('/{-$locale}/app/')({
@@ -16,8 +16,8 @@ export const Route = createFileRoute('/{-$locale}/app/')({
 
 function AppHome() {
   const { user } = Route.useLoaderData()
-  const { t, locale } = useTranslation()
-  const fl = (path: string): string => localizePath(locale, path)
+  const { t } = useTranslation()
+  const fl = useLocalizePath()
 
   return (
     <AppShell user={user} active="dashboard" crumb={t('app.dashboard')}>

@@ -1,4 +1,4 @@
-import { createFileRoute, getRouteApi } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { BadgeCheck } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -6,15 +6,12 @@ import type { Locale } from '@/features/i18n/locale'
 import { getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, about } from '@/product/content'
-import { SiteNav } from '@/components/marketing/site-nav'
+import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
 import { JsonLd, aboutPageLd } from '@/features/seo/jsonld'
 import { CtaBand } from '@/components/marketing/cta'
-import { Footer } from '@/components/marketing/footer'
 import { SectionHead } from '@/components/marketing/section-head'
 import { SITE_NAME, BRAND_ASSETS_CDN, BRAND_BOILERPLATE, SITE_URL } from '@/config'
-
-const rootRoute = getRouteApi('__root__')
 
 export const Route = createFileRoute('/{-$locale}/about/')({
   loader: async () => ({ origin: await getOrigin() }),
@@ -35,14 +32,11 @@ export const Route = createFileRoute('/{-$locale}/about/')({
 })
 
 function AboutPage() {
-  const { theme, user } = rootRoute.useLoaderData()
   const { locale, t } = useTranslation()
   const c = pick(about, locale)
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={!!user} />
-      <main id="main-content">
+    <MarketingShell>
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
 
       {/* story */}
@@ -152,8 +146,6 @@ function AboutPage() {
       />
 
       <CtaBand />
-      </main>
-      <Footer theme={theme} />
-    </div>
+    </MarketingShell>
   )
 }

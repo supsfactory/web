@@ -1,5 +1,4 @@
-import { createFileRoute, getRouteApi } from '@tanstack/react-router'
-import { getOptionalUser } from '@/features/auth/middleware'
+import { createFileRoute } from '@tanstack/react-router'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
@@ -9,10 +8,8 @@ import { dictionaries } from '@/features/i18n/locale'
 import { LegalPage } from '@/components/marketing/legal-page'
 import { SITE_NAME, BRAND_COMPANY_NAME } from '@/config'
 
-const rootRoute = getRouteApi('__root__')
-
 export const Route = createFileRoute('/{-$locale}/terms')({
-  loader: async () => ({ origin: await getOrigin(), loggedIn: !!(await getOptionalUser()) }),
+  loader: async () => ({ origin: await getOrigin() }),
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
@@ -30,13 +27,9 @@ export const Route = createFileRoute('/{-$locale}/terms')({
 })
 
 function Terms() {
-  const { loggedIn } = Route.useLoaderData()
-  const { theme } = rootRoute.useLoaderData()
   const { t, locale } = useTranslation()
   return (
     <LegalPage
-      theme={theme}
-      loggedIn={loggedIn}
       title={t('legal.termsTitle')}
       sections={dictionaries[locale].legal.termsSections}
     />

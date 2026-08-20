@@ -1,9 +1,8 @@
-import { createFileRoute, getRouteApi } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
-import { getOptionalUser, getTurnstileSiteKey } from '@/features/auth/middleware'
-import { SiteNav } from '@/components/marketing/site-nav'
-import { Footer } from '@/components/marketing/footer'
+import { getTurnstileSiteKey } from '@/features/auth/middleware'
+import { MarketingShell } from '@/components/marketing/shell'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { useTranslation } from '@/features/i18n/provider'
 import { WaitlistForm } from '@/features/waitlist/components/waitlist-form'
@@ -11,16 +10,13 @@ import type { Locale } from '@/features/i18n/locale'
 import { getDictionary, translate } from '@/features/i18n/locale'
 import { SITE_NAME } from '@/config'
 
-const rootRoute = getRouteApi('__root__')
-
 export const Route = createFileRoute('/{-$locale}/waitlist')({
   loader: async () => {
-    const [origin, user, turnstileSiteKey] = await Promise.all([
+    const [origin, turnstileSiteKey] = await Promise.all([
       getOrigin(),
-      getOptionalUser(),
       getTurnstileSiteKey(),
     ])
-    return { origin, loggedIn: !!user, turnstileSiteKey }
+    return { origin, turnstileSiteKey }
   },
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
@@ -39,24 +35,19 @@ export const Route = createFileRoute('/{-$locale}/waitlist')({
 })
 
 function WaitlistPage() {
-  const { loggedIn, turnstileSiteKey } = Route.useLoaderData()
-  const { theme } = rootRoute.useLoaderData()
+  const { turnstileSiteKey } = Route.useLoaderData()
   const { t } = useTranslation()
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={loggedIn} />
-      <main id="main-content" className="mx-auto flex max-w-md flex-col px-4 py-20">
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-2xl">{t('waitlist.title')}</CardTitle>
-            <CardDescription>{t('waitlist.subtitle')}</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <WaitlistForm turnstileSiteKey={turnstileSiteKey} source="waitlist" />
-          </CardContent>
-        </Card>
-      </main>
-      <Footer theme={theme} />
-    </div>
+    <MarketingShell mainClassName="mx-auto flex max-w-md flex-col px-4 py-20">
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-2xl">{t('waitlist.title')}</CardTitle>
+          <CardDescription>{t('waitlist.subtitle')}</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <WaitlistForm turnstileSiteKey={turnstileSiteKey} source="waitlist" />
+        </CardContent>
+      </Card>
+    </MarketingShell>
   )
 }

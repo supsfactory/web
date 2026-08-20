@@ -2,15 +2,9 @@ import * as React from 'react'
 import { Search as SearchIcon } from 'lucide-react'
 import { useNavigate } from '@tanstack/react-router'
 import type { SearchEntry } from '@/features/site/search'
+import { TYPE_CLASS } from '@/features/site/search-type-class'
 import { useTranslation } from '@/features/i18n/provider'
 import { useFocusTrap } from '@/lib/use-focus-trap'
-
-const TYPE_CLASS: Record<SearchEntry['type'], string> = {
-  solution: 'bg-primary/10 text-primary',
-  guide: 'bg-emerald-500/10 text-emerald-700 dark:text-emerald-400',
-  project: 'bg-amber-500/10 text-amber-700 dark:text-amber-400',
-  page: 'bg-bg-alt text-fg-2',
-}
 
 /** Site-wide search dialog — lazily fetches `/search-index.json`, filters by
  * the current locale, and navigates on selection. The `/` shortcut opens it;
@@ -34,10 +28,12 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
   React.useEffect(() => {
     if (open) {
       if (!index) {
-        fetch('/search-index.json')
+        const ac = new AbortController()
+        fetch('/search-index.json', { signal: ac.signal })
           .then((r) => (r.ok ? r.json() : []))
           .then((data) => setIndex(data as SearchEntry[]))
-          .catch(() => setIndex([]))
+          .catch((e) => { if (!ac.signal.aborted) { console.error('[search-index]', e); setIndex([]) } })
+        return () => ac.abort()
       }
       setTimeout(() => inputRef.current?.focus(), 30)
     } else {

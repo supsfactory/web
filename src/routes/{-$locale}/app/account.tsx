@@ -4,7 +4,7 @@ import { requireUser } from '@/features/auth/middleware'
 import { signOut, changePassword, deleteUser } from '@/features/auth/auth.client'
 import { mapAuthError } from '@/features/auth/errors'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { AppShell } from '@/components/app/app-shell'
 import { Button, buttonVariants } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -48,9 +48,9 @@ function Section({
 
 function AccountPage() {
   const { user } = Route.useLoaderData()
-  const { t, locale } = useTranslation()
+  const { t } = useTranslation()
   const router = useRouter()
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
 
   const [currentPassword, setCurrentPassword] = useState('')
   const [newPassword, setNewPassword] = useState('')
@@ -153,7 +153,7 @@ function AccountPage() {
             </div>
             {deleteError && <p className="text-sm text-destructive">{deleteError}</p>}
             <div>
-              <Button type="submit" disabled={deleteBusy} style={{ background: 'var(--destructive)', color: '#fff' }}>
+              <Button type="submit" variant="destructive" disabled={deleteBusy}>
                 <Trash2 size={16} /> {t('auth.deleteAccount')}
               </Button>
             </div>

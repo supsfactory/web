@@ -1,4 +1,4 @@
-export function mergeDict(ui: Record<string, unknown>, product: Record<string, unknown>): Record<string, unknown> {
+export function mergeDict<T extends Record<string, unknown>>(ui: T, product: T): T {
   const result: Record<string, unknown> = { ...ui }
   for (const key of Object.keys(product)) {
     const uiVal = ui[key]
@@ -13,5 +13,5 @@ export function mergeDict(ui: Record<string, unknown>, product: Record<string, u
       result[key] = prodVal
     }
   }
-  return result
+  return result as T
 }

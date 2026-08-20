@@ -1,12 +1,12 @@
 import { createFileRoute, useRouter } from '@tanstack/react-router'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
-import { authClient } from '@/features/auth/auth.client'
 import { AppShell } from '@/components/app/app-shell'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { useTranslation } from '@/features/i18n/provider'
 import { fmtDateTime } from '@/lib/format-date'
 import { getWaitlistFn } from '@/features/admin/middleware'
+import { useAdminUser } from '@/features/admin/use-admin-user'
 
 interface WaitlistSearch {
   page?: number
@@ -29,7 +29,7 @@ function WaitlistAdmin() {
   const { rows, total } = Route.useLoaderData()
   const search = Route.useSearch()
   const router = useRouter()
-  const { data: session } = authClient.useSession()
+  const user = useAdminUser()
   const { t } = useTranslation()
   const page = search.page ?? 0
   const pageSize = search.pageSize ?? 20
@@ -41,12 +41,7 @@ function WaitlistAdmin() {
 
   return (
     <AppShell
-      user={{
-        name: session?.user?.name,
-        email: session?.user?.email ?? '',
-        role: session?.user?.role ?? 'admin',
-        image: session?.user?.image ?? null,
-      }}
+      user={user}
       active="admin-waitlist"
       crumb={t('admin.navAdmin')}
     >

@@ -4,7 +4,7 @@ import { ArrowRight, Package } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { projects, projectsMeta } from '@/product/projects'
 import { PageHero } from '@/components/marketing/section-head'
 import { JsonLd, itemListLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
@@ -32,7 +32,7 @@ function ProjectsIndex() {
   const { locale, t } = useTranslation()
   const items = projects[locale]
   const meta = projectsMeta[locale]
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
   const [customer, setCustomer] = useState('')
   const [category, setCategory] = useState('')
   const customers = Array.from(new Set(items.map((p) => p.industry)))

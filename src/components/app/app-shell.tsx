@@ -1,11 +1,11 @@
-﻿import { useEffect, useState, type ReactNode } from 'react'
+﻿import { useCallback, useEffect, useState, type ReactNode } from 'react'
 import { getRouteApi } from '@tanstack/react-router'
 import { Home, Settings, Gauge, Users, Menu, ClipboardList, PanelLeftClose, PanelLeftOpen, MessageSquare, Inbox } from 'lucide-react'
 import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { UserMenu } from '@/components/app/user-menu'
 import { SITE_NAME } from '@/config/site'
 
@@ -41,17 +41,17 @@ export function AppShell({
   children: ReactNode
 }) {
   const { theme } = rootRoute.useLoaderData()
-  const { t, locale } = useTranslation()
-  const fl = (path: string): string => localizePath(locale, path)
+  const { t } = useTranslation()
+  const fl = useLocalizePath()
   const [open, setOpen] = useState(false)
   const [collapsed, setCollapsed] = useState(false)
   useEffect(() => setCollapsed(localStorage.getItem(COLLAPSE_KEY) === '1'), [])
-  function toggleCollapsed() {
+  const toggleCollapsed = useCallback(() => {
     setCollapsed((v) => {
       localStorage.setItem(COLLAPSE_KEY, v ? '0' : '1')
       return !v
     })
-  }
+  }, [])
 
   // `rail` = collapsed icon rail (desktop only; the mobile drawer is always full-width)
   const sidebar = (rail: boolean) => {

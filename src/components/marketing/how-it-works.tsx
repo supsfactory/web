@@ -1,6 +1,6 @@
 import { ArrowRight, PenTool, FileText } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, works } from '@/product/content'
 import { BRAND_ASSETS_CDN } from '@/config/branding'
 import { SectionHead } from './section-head'
@@ -10,7 +10,7 @@ import { Reveal } from './reveal'
 export function HowItWorks() {
   const { t, locale } = useTranslation()
   const c = pick(works, locale)
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
 
   const deepLinks = [
     { label: t('sup.nav.manufacturingDropdown.quality'), href: '/quality' },
@@ -69,7 +69,7 @@ export function HowItWorks() {
               <a
                 key={l.href}
                 href={fl(l.href)}
-                className="marine-card inline-flex items-center gap-1.5 px-4 py-2.5 text-[13px] font-bold text-primary transition-colors hover:border-primary/40"
+                className="marine-card inline-flex items-center gap-1.5 px-4 py-2.5 text-[13px] font-bold text-primary"
               >
                 {l.label} <ArrowRight size={14} />
               </a>

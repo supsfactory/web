@@ -20,9 +20,10 @@ export function ErrorPage({ error, reset }: { error: Error; reset: () => void })
   const locale = getLocaleFromPath(pathname)
   const d = getDictionary(locale)
   const t = (key: string) => translate(d, key)
+  const docTitle = t('content.page.unexpectedError') + ` \u2014 ${SITE_NAME}`
   useEffect(() => {
-    document.title = t('content.page.unexpectedError') + ` \u2014 ${SITE_NAME}`
-  }, [t])
+    document.title = docTitle
+  }, [docTitle])
   return (
     <main className="grid-bg flex min-h-screen flex-col items-center justify-center gap-[18px] p-8 text-center">
       <span className="kicker">// {t('content.page.unexpectedErrorSub')}</span>

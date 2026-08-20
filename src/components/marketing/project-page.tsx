@@ -2,10 +2,11 @@ import { ArrowRight, Building2, CheckCircle2, ClipboardList, Globe2, Layers, Pac
 import type { ProjectData } from '@/product/projects'
 import { projects } from '@/product/projects'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { PageHero, SectionHead } from './section-head'
 import { JsonLd, projectLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from './shell'
+import { PRIMARY_CTA } from './cta-styles'
 
 /**
  * Case-study page renderer for /projects/{slug}: industry → requirement →
@@ -15,7 +16,7 @@ import { MarketingShell } from './shell'
  */
 export function ProjectPage({ page }: { page: ProjectData }) {
   const { t, locale } = useTranslation()
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
 
   const related = projects[locale]
     .filter((p) => p.slug !== page.slug)
@@ -52,7 +53,7 @@ export function ProjectPage({ page }: { page: ProjectData }) {
         </div>
         <a
           href={fl('/contact')}
-          className="sun-grad mt-8 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
+          className={PRIMARY_CTA}
         >
           {t('sup.projects.discuss')} <ArrowRight size={17} />
         </a>
@@ -241,7 +242,7 @@ export function ProjectPage({ page }: { page: ProjectData }) {
           <h2 className="mt-3 font-display text-3xl font-extrabold leading-[1.12] text-white md:text-4xl">{t('sup.projects.ctaTitle')}</h2>
           <a
             href={fl('/contact')}
-            className="sun-grad mt-8 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
+            className={PRIMARY_CTA}
           >
             {t('sup.projects.discuss')} <ArrowRight size={17} />
           </a>
@@ -283,7 +284,7 @@ export function ProjectPage({ page }: { page: ProjectData }) {
                 <a
                   key={p.slug}
                   href={fl(`/projects/${p.slug}`)}
-                  className="marine-card group flex w-full flex-col justify-between gap-4 p-5 transition-colors hover:border-primary/40 sm:w-[46%] lg:w-[31%]"
+                  className="marine-card group flex w-full flex-col justify-between gap-4 p-5 sm:w-[46%] lg:w-[31%]"
                 >
                   <div>
                     <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-primary">{p.industry}</p>

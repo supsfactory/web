@@ -1,4 +1,4 @@
-import { createFileRoute, getRouteApi } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { MessagesSquare } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -6,15 +6,12 @@ import type { Locale } from '@/features/i18n/locale'
 import { getDictionary, translate } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, worksPage, videoShowcase } from '@/product/content'
-import { SiteNav } from '@/components/marketing/site-nav'
+import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
 import { HowItWorks } from '@/components/marketing/how-it-works'
 import { VideoShowcase } from '@/components/marketing/video-showcase'
 import { CtaBand } from '@/components/marketing/cta'
-import { Footer } from '@/components/marketing/footer'
 import { BRAND_ASSETS_CDN } from '@/config'
-
-const rootRoute = getRouteApi('__root__')
 
 export const Route = createFileRoute('/{-$locale}/how-it-works')({
   loader: async () => ({ origin: await getOrigin() }),
@@ -35,14 +32,11 @@ export const Route = createFileRoute('/{-$locale}/how-it-works')({
 })
 
 function WorksPage() {
-  const { theme, user } = rootRoute.useLoaderData()
   const { locale } = useTranslation()
   const c = pick(worksPage, locale)
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={!!user} />
-      <main id="main-content">
+    <MarketingShell>
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
       <VideoShowcase
         video={`${BRAND_ASSETS_CDN}/site/videos/2026/sup-manufacturing.mp4`}
@@ -68,8 +62,6 @@ function WorksPage() {
       </section>
 
       <CtaBand />
-      </main>
-      <Footer theme={theme} />
-    </div>
+    </MarketingShell>
   )
 }

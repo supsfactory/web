@@ -10,15 +10,17 @@ import { useEffect } from 'react'
 import { useLocation } from '@tanstack/react-router'
 import { getLocaleFromPath, getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { SITE_NAME } from '@/config'
+import { SECONDARY_CTA } from '@/components/marketing/cta-styles'
 
 export function NotFound() {
   const { pathname } = useLocation()
   const locale = getLocaleFromPath(pathname)
   const d = getDictionary(locale)
   const t = (key: string) => translate(d, key)
+  const docTitle = t('content.page.notFound') + ` \u2014 ${SITE_NAME}`
   useEffect(() => {
-    document.title = t('content.page.notFound') + ` \u2014 ${SITE_NAME}`
-  }, [t])
+    document.title = docTitle
+  }, [docTitle])
   return (
     <>
       <meta name="robots" content="noindex" />
@@ -38,10 +40,10 @@ export function NotFound() {
         {t('content.page.backToHome')}
       </a>
       <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-        <a href={localizePath(locale, '/products')} className="rounded-[6px] border border-border-2 px-5 py-2.5 text-sm font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary">
+        <a href={localizePath(locale, '/products')} className={SECONDARY_CTA}>
           {t('content.page.browsePlatforms')}
         </a>
-        <a href={localizePath(locale, '/contact')} className="rounded-[6px] border border-border-2 px-5 py-2.5 text-sm font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary">
+        <a href={localizePath(locale, '/contact')} className={SECONDARY_CTA}>
           {t('content.page.contactUs')}
         </a>
       </div>

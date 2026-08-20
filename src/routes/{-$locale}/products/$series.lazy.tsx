@@ -1,43 +1,36 @@
-import { createLazyFileRoute, getRouteApi } from '@tanstack/react-router'
+import { createLazyFileRoute } from '@tanstack/react-router'
 import { ArrowRight, CheckCircle2, Package } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
-import { localizePath } from '@/features/i18n/locale'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, products, productsPage } from '@/product/content'
 import { seriesPages } from '@/product/series-pages'
 import { procurementProfiles, commercialRows } from '@/product/procurement'
 import { FACTS } from '@/product/facts'
+import { SECONDARY_PILL } from '@/components/marketing/cta-styles'
 import { JsonLd, breadcrumbLd, faqLd, itemListLd } from '@/features/seo/jsonld'
-import { SiteNav } from '@/components/marketing/site-nav'
+import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
-import { Footer } from '@/components/marketing/footer'
 import { CtaBand } from '@/components/marketing/cta'
 import { InquiryForm } from '@/features/inquiry/components/inquiry-form'
 import { ProductView } from '@/features/content/catchall'
 
-const rootRoute = getRouteApi('__root__')
-
 export const Route = createLazyFileRoute('/{-$locale}/products/$series')({ component: SeriesPage })
 
 function SeriesPage() {
-  const { theme, user } = rootRoute.useLoaderData()
   const { locale, t } = useTranslation()
   const { origin, turnstileSiteKey, page, product } = Route.useLoaderData()
 
   if (product) {
     return (
-      <div className="min-h-screen bg-background text-foreground">
-        <SiteNav theme={theme} loggedIn={!!user} />
-        <main id="main-content">
+      <MarketingShell>
         <ProductView product={product.product} related={product.related} origin={origin} locale={locale} />
         <CtaBand productSlug={product.product.slug} />
-        </main>
-        <Footer theme={theme} />
-      </div>
+      </MarketingShell>
     )
   }
 
   if (!page) return null
-  const fl = (path: string): string => localizePath(locale, path)
+  const fl = useLocalizePath()
   const items = pick(products, locale).items.filter((p) => p.series === page.slug)
   const c = pick(productsPage, locale)
   const others = seriesPages[locale].filter((s) => s.slug !== page.slug)
@@ -55,9 +48,7 @@ function SeriesPage() {
   const first = items[0]
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteNav theme={theme} loggedIn={!!user} />
-      <main id="main-content">
+    <MarketingShell>
       <PageHero kicker={page.kicker} title={page.h1} sub={page.intro[0]} />
 
       <section className="mx-auto max-w-6xl px-5 py-14 md:px-7 md:py-16">
@@ -242,7 +233,7 @@ function SeriesPage() {
               {t('content.product.otherSeries')}
             </span>
             {others.map((s) => (
-              <a key={s.slug} href={fl(`/products/${s.slug}`)} className="rounded-full border border-border bg-background px-3.5 py-1.5 text-[13px] font-semibold text-fg-2 transition-colors hover:border-primary/40 hover:text-primary">
+              <a key={s.slug} href={fl(`/products/${s.slug}`)} className={SECONDARY_PILL}>
                 {s.navLabel}
               </a>
             ))}
@@ -260,8 +251,6 @@ function SeriesPage() {
         <JsonLd data={faqLd(page.faqs, locale)} />
       </section>
 
-      </main>
-      <Footer theme={theme} />
-    </div>
+    </MarketingShell>
   )
 }

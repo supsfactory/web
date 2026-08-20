@@ -1,14 +1,18 @@
 import * as React from 'react'
 import { Menu, X, ChevronDown, Search as SearchIcon } from 'lucide-react'
+import { getRouteApi } from '@tanstack/react-router'
 import { Logo } from '@/components/brand/logo'
 import { buttonVariants } from '@/components/ui/button'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
 import { SearchDialog } from '@/components/marketing/search-dialog'
 import { useTranslation } from '@/features/i18n/provider'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { SITE_NAME } from '@/config/site'
 import { useFocusTrap } from '@/lib/use-focus-trap'
 import { ENTITY_PAGE_PATH } from '@/config/navigation'
+
+const rootRoute = getRouteApi('__root__')
 
 interface NavItem {
   label: string
@@ -21,21 +25,23 @@ interface NavItem {
 /** Sticky marketing header: utility top bar (auth) + main bar with dropdown
  * navigation (6 top-level items — desktop from xl to fit), search, theme and
  * language controls. */
-export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn: boolean }) {
-  const { t, locale } = useTranslation()
+export function SiteNav() {
+  const { theme, user } = rootRoute.useLoaderData()
+  const loggedIn = !!user
+  const { t } = useTranslation()
+  const fl = useLocalizePath()
   const [open, setOpen] = React.useState(false)
   const mobileTrap = useFocusTrap(open)
   const [searchOpen, setSearchOpen] = React.useState(false)
+  const openSearch = React.useCallback(() => setSearchOpen(true), [])
+  const closeSearch = React.useCallback(() => setSearchOpen(false), [])
   const [drop, setDrop] = React.useState<string | null>(null)
   const [mobileDrop, setMobileDrop] = React.useState<string | null>(null)
 
   const linkCls =
     'rounded-md px-3 py-2 text-sm font-medium text-fg-2 transition-colors hover:bg-bg-alt hover:text-foreground'
 
-  /** Localize a raw path (top-level afarer routes resolve via the catch-all). */
-  const l = (path: string): string => (locale === 'en' ? path : path === '/' ? '/es' : `/es${path}`)
-
-  const navItems: NavItem[] = [
+  const navItems: NavItem[] = React.useMemo(() => [
     {
       label: t('sup.nav.products'),
       items: [
@@ -104,33 +110,34 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
         { label: t('sup.nav.contact'), href: '/contact' },
       ],
     },
-  ]
+  ], [t, fl])
 
   const authLink = loggedIn ? (
-    <a href={l('/app')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
+    <a href={fl('/app')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
       {t('sup.nav.app')}
     </a>
   ) : (
-    <a href={l('/login')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
+    <a href={fl('/login')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
       {t('common.signIn')}
     </a>
   )
 
   const cta = (
-    <a href={l('/contact')} className={buttonVariants({ size: 'sm' })}>
+    <a href={fl('/contact')} className={buttonVariants({ size: 'sm' })}>
       {t('sup.nav.cta')}
     </a>
   )
 
-  const renderNavLink = (item: { label: string; href?: string }, onNavigate?: () => void) => (
-    <a href={l(item.href as string)} className={linkCls} onClick={onNavigate}>
+  const renderNavLink = (item: { label: string; href: string }, onNavigate?: () => void) => (
+    <a href={fl(item.href)} className={linkCls} onClick={onNavigate}>
       {item.label}
     </a>
   )
 
   const renderDesktopItem = (item: NavItem) => {
     if (!item.items) {
-      return renderNavLink(item)
+      if (!item.href) return null
+      return renderNavLink({ label: item.label, href: item.href })
     }
     const isOpen = drop === item.label
     return (
@@ -153,9 +160,11 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
           <div className="absolute left-0 top-full pt-2">
             <div className="min-w-[230px] rounded-xl border border-border bg-card p-1.5 shadow-[var(--shadow-lg)]">
               {item.items.map((sub) => (
-                <div key={sub.label}>
-                  {renderNavLink(sub, () => setDrop(null))}
-                </div>
+                sub.href ? (
+                  <div key={sub.label}>
+                    {renderNavLink({ label: sub.label, href: sub.href }, () => setDrop(null))}
+                  </div>
+                ) : null
               ))}
             </div>
           </div>
@@ -167,7 +176,8 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
   const renderMobileItems = (items: NavItem[]) =>
     items.map((item) => {
       if (!item.items) {
-        return <div key={item.label}>{renderNavLink(item, () => setOpen(false))}</div>
+        if (!item.href) return null
+        return <div key={item.label}>{renderNavLink({ label: item.label, href: item.href }, () => setOpen(false))}</div>
       }
       const isOpen = mobileDrop === item.label
       return (
@@ -184,7 +194,9 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
           {isOpen && (
             <div className="flex flex-col border-l border-border pl-3">
               {item.items.map((sub) => (
-                <div key={sub.label}>{renderNavLink(sub, () => setOpen(false))}</div>
+                sub.href ? (
+                  <div key={sub.label}>{renderNavLink({ label: sub.label, href: sub.href }, () => setOpen(false))}</div>
+                ) : null
               ))}
             </div>
           )}
@@ -203,7 +215,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
           {authLink}
         </div>
         <nav aria-label="Main navigation" className="flex h-16 items-center gap-3 px-4 md:px-7">
-          <a href={l('/')} aria-label={SITE_NAME} className="shrink-0">
+          <a href={fl('/')} aria-label={SITE_NAME} className="shrink-0">
             <div className="flex flex-col leading-tight">
               <Logo />
               <span className="text-[10.5px] font-medium uppercase tracking-[0.12em] text-fg-3">{t('sup.nav.poweredBy')}</span>
@@ -219,7 +231,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
             <ThemeToggle theme={theme} />
             <button
               type="button"
-              onClick={() => setSearchOpen(true)}
+              onClick={openSearch}
               aria-label={t('common.search')}
               className="inline-flex h-[38px] w-[38px] items-center justify-center rounded-lg text-fg-2 transition-colors hover:bg-bg-alt hover:text-foreground"
             >
@@ -256,7 +268,7 @@ export function SiteNav({ theme, loggedIn }: { theme: 'light' | 'dark'; loggedIn
           </div>
         )}
       </header>
-      <SearchDialog open={searchOpen} onOpen={() => setSearchOpen(true)} onClose={() => setSearchOpen(false)} />
+      <SearchDialog open={searchOpen} onOpen={openSearch} onClose={closeSearch} />
     </>
   )
 }

@@ -52,7 +52,8 @@ export const Route = createRootRoute({
       const user = await getOptionalUser()
       const [analyticsToken, ga4Id] = await Promise.all([getAnalyticsToken(), getGa4MeasurementId()])
       return { theme, themeFromCookie, user, analyticsToken, ga4Id }
-    } catch {
+    } catch (e) {
+      console.error('[root-loader]', e)
       return { theme: 'light' as const, themeFromCookie: false, user: null, analyticsToken: null, ga4Id: null }
     }
   },

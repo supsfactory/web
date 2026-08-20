@@ -1,5 +1,7 @@
+import React from 'react'
+
 /** SUPsfactory wordmark — dual-wave mark on an ocean gradient + "SUP" (bold) + "sfactory" (62%). `compact` renders the mark only. */
-export function Logo({ size = 18, compact = false }: { size?: number; compact?: boolean }) {
+function LogoInner({ size = 18, compact = false }: { size?: number; compact?: boolean }) {
   return (
     <span
       className="inline-flex items-center gap-[9px] font-display font-semibold tracking-[-0.3px] text-foreground"
@@ -36,3 +38,4 @@ export function Logo({ size = 18, compact = false }: { size?: number; compact?: 
     </span>
   )
 }
+export const Logo = React.memo(LogoInner)
