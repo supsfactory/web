@@ -9,7 +9,7 @@
  */
 
 import { defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
-import { buildAskPrompt, matchFaq, stableHash, type AiChunk, type AskMessage, type AskSource } from './rag'
+import { buildAskPrompt, faqSlug, matchFaq, stableHash, type AiChunk, type AskMessage, type AskSource } from './rag'
 
 const EMBED_MODEL = '@cf/baai/bge-m3'
 const LLM_MODEL = '@cf/meta/llama-3.2-3b-instruct'
@@ -131,9 +131,10 @@ async function askFromFaq(question: string, locale: Locale): Promise<AskResponse
       || (locale !== defaultLocale && matchFaq(question, getSiteFaqs(defaultLocale)))
     if (!hit) return { answer: '', sources: [], mode: 'none' }
     const { localizePath } = await import('@/features/i18n/locale')
+    const anchor = faqSlug(hit.faq.q)
     return {
       answer: hit.answer,
-      sources: [{ title: hit.faq.q, url: localizePath(locale, '/faq') }],
+      sources: [{ title: hit.faq.q, url: `${localizePath(locale, '/faq')}#${anchor}` }],
       mode: 'faq',
     }
   } catch (err) {

@@ -147,15 +147,22 @@ function FaqWidget({ c }: { c: Record<string, unknown> }) {
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('content.fallbackFaq'))} sub={brandify(str(c.subtitle) || str(c.sub) || '')} />
       <div className="mx-auto mt-10 max-w-3xl space-y-3">
-        {items.map((f, i) => (
-          <details key={String(f.q)} className="marine-card group px-5 py-4" open={i === 0}>
-            <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
-              <span>{brandify(str(f.q))}</span>
-              <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
-            </summary>
-            <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{brandify(str(f.a))}</p>
-          </details>
-        ))}
+        {items.map((f, i) => {
+          const slug = String(f.q)
+            .toLowerCase()
+            .replace(/[^\p{L}\p{N}]+/gu, '-')
+            .replace(/^-+|-+$/g, '')
+            .slice(0, 80)
+          return (
+            <details key={String(f.q)} id={slug} className="marine-card group px-5 py-4" open={i === 0}>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
+                <span>{brandify(str(f.q))}</span>
+                <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
+              </summary>
+              <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{brandify(str(f.a))}</p>
+            </details>
+          )
+        })}
       </div>
     </Container>
   )

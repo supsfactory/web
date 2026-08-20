@@ -36,6 +36,15 @@ export function stableHash(s: string): string {
   return (h >>> 0).toString(36)
 }
 
+/** Generate a URL-safe slug from a question for anchor links. */
+export function faqSlug(question: string): string {
+  return question
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 80)
+}
+
 const squeeze = (s: string): string => s.replace(/\s+/g, ' ').trim()
 
 /** Build a single index chunk; drops empty text, caps length (bge-m3 context). */
