@@ -123,7 +123,7 @@ export function SiteNav() {
   )
 
   const cta = (
-    <a href={fl('/contact')} className={buttonVariants({ size: 'sm' })}>
+    <a href={fl('/contact#project-brief')} className={buttonVariants({ size: 'sm' })}>
       {t('sup.nav.cta')}
     </a>
   )

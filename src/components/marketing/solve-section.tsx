@@ -36,7 +36,7 @@ export function SolveSection() {
       </div>
       <div className="mt-10 text-center">
         <a
-          href={fl('/contact')}
+          href={fl('/contact#project-brief')}
           className="sun-grad inline-flex h-[48px] items-center gap-2 rounded-full px-8 text-[15px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.75)] transition-transform hover:-translate-y-0.5"
         >
           {c.cta}

@@ -16,6 +16,7 @@ export const FACTS = {
     multiSku: 'Each SKU (size/color combo) on a separate material roll has its own MOQ',
   },
   moqNote: 'MOQ is confirmed after specification review, because construction, board size, PVC structure, artwork, packaging and accessories affect material usage.',
+  moqNoteEs: 'El MOQ se confirma tras la revisión de especificaciones, ya que la construcción, tamaño de tabla, estructura de PVC, arte, embalaje y accesorios afectan el uso de material.',
   moqExplanation: {
     sample: '1–2 units for approval',
     coBrand: 'from 5–10 units on selected existing platforms',

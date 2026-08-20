@@ -1,32 +1,21 @@
 import type { Locale } from '@/features/i18n/locale'
 import type { SearchEntry } from '@/features/content/types'
 import {
-  boundary,
-  capability,
   commercial,
   cta,
-  faq,
   gallery,
   galleryPage,
-  guides,
   hero,
+  homeFaq,
   manufacturingGuides,
   pick,
-  platforms,
   products,
   productsPage,
-  quality,
   series,
   serve,
   solutions,
   solve,
-  strip,
   studio,
-  trustBar,
-  valueProp,
-  videoShowcase,
-  why,
-  works,
 } from './content'
 import { solutionPages } from './solution-pages'
 import { seriesPages } from './series-pages'
@@ -58,50 +47,22 @@ function parts(...xs: (string | string[] | undefined)[]): string {
 
 function homeContent(locale: Locale): string {
   const h = pick(hero, locale)
-  const w = pick(why, locale)
-  const tb = pick(trustBar, locale)
   const so = pick(solve, locale)
-  const ca = pick(capability, locale)
-  const q = pick(quality, locale)
   const cm = pick(commercial, locale)
   const se = pick(serve, locale)
-  const vp = pick(valueProp, locale)
-  const b = pick(boundary, locale)
-  const wo = pick(works, locale)
-  const pl = pick(platforms, locale)
-  const st = pick(studio, locale)
-  const sy = pick(series, locale)
-  const ga = pick(gallery, locale)
-  const gd = pick(guides, locale)
-  const f = pick(faq, locale)
+  const f = pick(homeFaq, locale)
   const c = pick(cta, locale)
-  const v = pick(videoShowcase, locale)
   return parts(
     h.kicker, h.titlePre, h.titleAccent, h.titlePost, h.sub, h.heroNote,
     h.stats.flatMap((s) => [s.value, s.label]),
     `${h.float1.value} ${h.float1.label}`, `${h.float2.value} ${h.float2.label}`,
-    pick(strip, locale),
-    w.title, w.sub, w.bullets.flatMap((x) => [x.title, x.body]),
-    tb.stats.flatMap((s) => [s.value, s.label]),
     so.title, so.sub, so.items.flatMap((x) => [x.title, x.body]),
-    ca.title, ca.sub, ca.items.flatMap((x) => [x.name, x.body]),
-    q.title, q.sub, q.steps.flatMap((s) => [s.title, s.body]),
     cm.title, cm.sub, cm.cells.flatMap((x) => [x.label, ...x.lines]),
     cm.moqTiers.flatMap((m) => [m.stage, m.quantity, m.purpose, m.note]),
     cm.certs,
     se.title, se.sub, se.segments.flatMap((s) => [s.title, s.body, ...s.points]),
-    vp.title, vp.sub, vp.cards.flatMap((x) => [x.title, x.body]),
-    b.title, b.sub, b.oursTitle, b.theirsTitle, b.rows.flatMap((r) => [r.ours, r.theirs]), b.footer,
-    wo.title, wo.sub, wo.steps.flatMap((s) => [s.title, s.body]), wo.note,
-    pl.title, pl.sub, pl.items.flatMap((x) => [x.title, x.body, ...x.uses]),
-    st.title, st.sub, st.steps.flatMap((s) => [s.title, s.body]),
-    sy.title, sy.sub, sy.items.flatMap((x) => [x.title, x.sku, x.body]),
-    ga.title, ga.sub, ga.projects.flatMap((p) => [p.tag, p.title, p.body]),
-    gd.title, gd.sub, gd.guides.flatMap((x) => [x.title, x.body]),
     f.title, f.sub, f.items.flatMap((x) => [`Q: ${x.q}`, `A: ${x.a}`]),
     c.title, c.body,
-    v.launch.title, v.launch.sub, v.launch.points.flatMap((p) => [p.t, p.d ?? '']),
-    v.process.title, v.process.sub, v.process.points.flatMap((p) => [p.t, p.d ?? '']),
   )
 }
 

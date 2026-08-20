@@ -40,25 +40,17 @@ export function Hero() {
 
           <div className="mt-9 flex flex-wrap items-center gap-3">
             <a
-              href={fl('/contact')}
+              href={fl('/contact#project-brief')}
               className="sun-grad inline-flex h-[48px] items-center gap-2 rounded-full px-8 text-[15px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.75)] transition-transform hover:-translate-y-0.5"
             >
               {c.ctaPrimary} <ArrowRight size={17} />
             </a>
             <a
-              href={fl('/quality')}
+              href={fl('/proof-center')}
               className="glass-btn inline-flex h-[48px] items-center px-8 text-[15px] font-semibold"
             >
               {c.ctaSecondary}
             </a>
-            <div className="flex w-full flex-wrap items-center gap-x-5 gap-y-1.5 sm:w-auto">
-              <a href={fl('/oem-moq-guide')} className="inline-flex items-center gap-1.5 text-[13.5px] font-bold text-[#aee3f7] transition-colors hover:text-white">
-                {c.ctaTertiary} <ArrowRight size={14} />
-              </a>
-              <a href={fl('/proof-center')} className="inline-flex items-center gap-1.5 text-[13.5px] font-bold text-[#aee3f7] transition-colors hover:text-white">
-                {c.ctaQuartiary} <ArrowRight size={14} />
-              </a>
-            </div>
           </div>
           <p className="mt-3 text-[12px] font-medium tracking-wide text-white/75">{c.ctaMicro}</p>
 

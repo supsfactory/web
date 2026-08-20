@@ -3,15 +3,14 @@
   path: /
   permalink: /
   sections:
-    - { key: hero, type: hero, label: 'Hero Section (static, only used when no carousel)' }
-    - { key: hero_carousel, type: hero_carousel, label: 'Hero Carousel (3 switchable slides)' }
-    - { key: stats, type: stats, label: 'Statistics' }
-    - { key: features, type: features, label: 'Features Section (Why Choose Us)' }
-    - { key: featured_products, type: featured_products, label: 'Featured Products Section' }
-    - { key: content_workshop, type: content, label: 'Workshop Content Section' }
-    - { key: steps, type: steps, label: 'Steps Section (From Order to Delivery)' }
-    - { key: blog_latest, type: blog_latest, label: 'Latest Blog Section' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: hero, type: hero, label: 'Hero Section' }
+    - { key: collaboration_selector, type: features, label: 'Collaboration Mode Selector (OEM/ODM/Private Label/Commercial)' }
+    - { key: commercial_terms, type: content, label: 'Commercial Terms Summary' }
+    - { key: factory_evidence, type: features, label: 'Factory Evidence (Capability + Quality)' }
+    - { key: process_steps, type: steps, label: 'Process Steps (How It Works)' }
+    - { key: client_types, type: features, label: 'Client Types (Who We Serve)' }
+    - { key: cases, type: content, label: 'Case Studies' }
+    - { key: faqs, type: faqs, label: 'FAQs (5 key questions)' }
     - { key: cta, type: cta, label: 'Bottom CTA Section' }
 
 - slug: about-afarer

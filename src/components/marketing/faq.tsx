@@ -1,12 +1,12 @@
 import { Plus } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
-import { pick, faq } from '@/product/content'
+import { pick, faq, type FaqContent, type Localized } from '@/product/content'
 import { SectionHead } from './section-head'
 import { faqSlug } from '@/features/ai/rag'
 
-export function FaqSection({ heading }: { heading?: React.ReactNode }) {
+export function FaqSection({ heading, data }: { heading?: React.ReactNode; data?: Localized<FaqContent> }) {
   const { locale } = useTranslation()
-  const c = pick(faq, locale)
+  const c = pick(data ?? faq, locale)
 
   return (
     <section className="mx-auto max-w-3xl px-5 py-20 md:px-7 md:py-24">

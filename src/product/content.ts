@@ -44,53 +44,51 @@ export interface HeroContent {
 
 export const hero: Localized<HeroContent> = {
   en: {
-    kicker: 'SUP Manufacturer — OEM / ODM / Private Label',
-    titlePre: 'Custom Inflatable SUP Manufacturing for',
-    titleAccent: 'Brands, Distributors & Commercial Programs',
+    kicker: 'Qingdao, China Factory · OEM / ODM / Private Label · Samples to Batch Production',
+    titlePre: 'Custom SUP Product Manufacturing for',
+    titleAccent: 'Brands, Distributors & Organizations',
     titlePost: '',
-    sub: 'Develop your private-label paddle board range with a manufacturing partner that supports product specification, custom graphics, samples, quality control, packaging and export-ready production.',
-    ctaPrimary: 'Get a Custom Project Quote',
-    ctaSecondary: 'Explore Construction & Quality',
-    ctaTertiary: 'MOQ & Lead-Time Guide',
-    ctaQuartiary: 'Proof Center — Factory Evidence',
-    ctaMicro: 'Reply within 1 business day · NDA available · MOQ confirmed after specification review',
+    sub: 'OEM, ODM and private-label inflatable SUPs — from specification review and sample development to quality-controlled batch production in Qingdao, China.',
+    ctaPrimary: 'Start Your SUP Project',
+    ctaSecondary: 'View Factory, MOQ & Quality Evidence',
+    ctaTertiary: '',
+    ctaQuartiary: '',
+    ctaMicro: 'Reply within 1 business day · NDA available before file exchange · MOQ confirmed after specification review',
     stats: [
+      { value: '12,500 m²', label: 'In-house factory — Qingdao, China' },
       { value: '120,000+', label: 'Boards produced annually' },
-      { value: '12,500 m²', label: 'Factory floor — 4 workshops' },
-      { value: '4', label: 'Specialized production workshops' },
       { value: '50+', label: 'Export countries served' },
+      { value: FACTS.ndaWindow, label: 'NDA response window' },
     ],
     mockupLabel: 'Signature Platform',
     mockupBrand: "SUP Explorer 11'",
     mockupHint: 'Your graphics · your colors · your packaging',
-    heroNote:
-      'SUPSfactory is a custom inflatable SUP manufacturer in Qingdao (Laixi), China — the inflatable-SUP division of Afarer (Qingdao Vatrad Group). We run OEM, ODM and private-label programs from a 12,500 m² plant with 120,000+ boards of annual capacity. Trial runs start at 1–2 boards, pilots at 20–50, and standard volume MOQ from 90–100+ boards per approved configuration.',
-    float1: { value: '90–100+ pcs', label: 'Standard volume MOQ (per approved configuration)' },
+    heroNote: FACTS.moqNote,
+    float1: { value: '1–2 units', label: 'Sample & approval (before volume commitment)' },
     float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
   es: {
-    kicker: 'Fabricante de SUP — OEM / ODM / Marca privada',
-    titlePre: 'Fabricación de tablas SUP hinchables a medida para',
-    titleAccent: 'marcas, distribuidores y programas comerciales',
+    kicker: 'Fábrica en Qingdao, China · OEM / ODM / Marca privada · Muestras a producción en serie',
+    titlePre: 'Fabricación de productos SUP a medida para',
+    titleAccent: 'marcas, distribuidores y organizaciones',
     titlePost: '',
-    sub: 'Desarrolla tu gama de tablas de paddle board de marca propia con un socio de fabricación que cubre especificación de producto, gráficos personalizados, muestras, control de calidad, packaging y producción lista para exportar.',
-    ctaPrimary: 'Solicita un presupuesto de proyecto',
-    ctaSecondary: 'Explora construcción y calidad',
-    ctaTertiary: 'Guía de MOQ y plazos',
-    ctaQuartiary: 'Centro de Evidencia — Datos de Fábrica',
-    ctaMicro: 'Respuesta en 1 día hábil · NDA disponible · MOQ confirmado tras revisar la especificación',
+    sub: 'SUP hinchables OEM, ODM y marca privada — desde la revisión de especificaciones y desarrollo de muestras hasta la producción en serie con control de calidad en Qingdao, China.',
+    ctaPrimary: 'Inicia tu proyecto de SUP',
+    ctaSecondary: 'Ver fábrica, MOQ y evidencia de calidad',
+    ctaTertiary: '',
+    ctaQuartiary: '',
+    ctaMicro: 'Respuesta en 1 día hábil · NDA disponible antes del intercambio de archivos · MOQ confirmado tras revisar la especificación',
     stats: [
-      { value: '120.000+', label: 'Tablas producidas al año' },
-      { value: '12.500 m²', label: 'Superficie de fábrica — 4 talleres' },
-      { value: '4', label: 'Talleres de producción especializados' },
+      { value: '12.500 m²', label: 'Fábrica propia — Qingdao, China' },
+      { value: '120.000+', label: 'Tablas producidas anualmente' },
       { value: '50+', label: 'Países de exportación' },
+      { value: FACTS.ndaWindow, label: 'Plazo de respuesta NDA' },
     ],
     mockupLabel: 'Plataforma insignia',
     mockupBrand: 'SUP Explorer 11\'',
-    mockupHint: 'Tus gráficos · Tus colores · tu packaging',
-    heroNote:
-      'SUPsfactory es un fabricante de tablas SUP hinchables a medida en Qingdao (Laixi), China — la división de SUP hinchables de Afarer (Qingdao Vatrad Group). Realizamos programas OEM, ODM y de marca privada en una planta de 12.500 m² con capacidad anual de 120.000+ tablas. Los pedidos de prueba parten de 1–2 tablas, los pilotos de 20–50 y el MOQ de volumen estándar desde 90–100+ tablas por configuración aprobada.',
-    float1: { value: '90–100+ uds.', label: 'MOQ de volumen estándar (por configuración aprobada)' },
+    mockupHint: 'Tus gráficos · tus colores · tu packaging',
+    heroNote: FACTS.moqNoteEs,
+    float1: { value: '1–2 uds.', label: 'Muestra y aprobación (antes de compromiso de volumen)' },
     float2: { value: FACTS.leadTime, label: 'Plazo de producción (tras PO)' },
   },
 }
@@ -2009,6 +2007,39 @@ export const faq: Localized<FaqContent> = {
   },
 }
 
+export const homeFaq: Localized<FaqContent> = {
+  en: {
+    kicker: faq.en.kicker,
+    title: faq.en.title,
+    sub: faq.en.sub,
+    items: [
+      faq.en.items[1],
+      faq.en.items[2],
+      faq.en.items[3],
+      faq.en.items[5],
+      {
+        q: 'Can buyers audit the factory or use third-party inspection?',
+        a: 'Yes. We welcome buyer audits and work regularly with SGS, TÜV, BV and Intertek. Third-party inspection can be arranged at any production stage — incoming material, in-process or final inspection — and inspection reports are provided on request.',
+      },
+    ],
+  },
+  es: {
+    kicker: faq.es.kicker,
+    title: faq.es.title,
+    sub: faq.es.sub,
+    items: [
+      faq.es.items[1],
+      faq.es.items[2],
+      faq.es.items[3],
+      faq.es.items[5],
+      {
+        q: '¿Pueden los compradores auditar la fábrica o usar inspección de terceros?',
+        a: 'Sí. Aceptamos auditorías de compradores y trabajamos regularmente con SGS, TÜV, BV e Intertek. La inspección de terceros puede organizarse en cualquier etapa de producción — material entrante, en proceso o inspección final — y los informes de inspección se proporcionan a petición.',
+      },
+    ],
+  },
+}
+
 /* ─────────────────────────── CTA band ─────────────────────────── */
 
 export interface CtaContent {
@@ -2020,13 +2051,13 @@ export interface CtaContent {
 
 export const cta: Localized<CtaContent> = {
   en: {
-    title: 'Have a SUP Product Idea?',
+    title: 'Ready to Start Your SUP Project?',
     body: "Whether you already have a complete product specification or are still developing your concept, our team can help you evaluate the next step. Tell us what you want to build — we'll review your requirements and discuss the most practical path from concept to production.",
     button: 'Start Your SUP Project',
     note: 'Reply within 1 business day · NDA on request before file exchange · info@supsfactory.com · +86-13305324192',
   },
   es: {
-    title: '¿Tienes una idea de producto SUP?',
+    title: '¿Listo para iniciar tu proyecto de SUP?',
     body: 'Ya sea que tengas una especificación de producto completa o estés todavía desarrollando tu concepto, nuestro equipo puede ayudarte a evaluar el siguiente paso. Cuéntanos qué quieres construir — revisaremos tus requisitos y plantearemos la vía más práctica del concepto a la producción.',
     button: 'Inicia tu proyecto de SUP',
     note: 'Respuesta en 1 día laborable · NDA disponible antes del intercambio de archivos · info@supsfactory.com · +86-13305324192',
