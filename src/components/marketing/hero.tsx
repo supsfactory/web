@@ -28,10 +28,10 @@ export function Hero() {
       <div className="relative mx-auto grid w-full max-w-6xl items-center gap-14 px-5 pb-36 pt-24 md:px-7 md:pb-40 md:pt-28 lg:grid-cols-[1.08fr_0.92fr]">
         <div>
           <p className="kicker text-[#aee3f7]!">{c.kicker}</p>
-          <h1 className="mt-4 font-display text-[2.6rem] font-extrabold leading-[1.06] tracking-tight text-white md:text-[4rem]">
+          <h1 className="mt-4 font-display text-[1.75rem] font-extrabold leading-[1.06] tracking-tight text-white md:text-[2.7rem]">
             {c.titlePre} <span className="text-[#7fd6f0]">{c.titleAccent}</span>
             {c.titlePost ? (
-              <span className="mt-1 block text-[1.7rem] font-bold leading-[1.15] text-white/85 md:text-[2.35rem]">
+              <span className="mt-1 block text-[1.1rem] font-bold leading-[1.15] text-white/85 md:text-[1.6rem]">
                 {c.titlePost}
               </span>
             ) : null}
