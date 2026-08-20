@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from 'react'
+﻿import { useCallback, useEffect, useState } from 'react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { useFocusTrap } from '@/lib/use-focus-trap'
@@ -58,7 +58,7 @@ export function ContactFloats() {
     }
   }, [])
 
-  const copyWeChat = async () => {
+  const copyWeChat = useCallback(async () => {
     try {
       await navigator.clipboard.writeText(WECHAT_DISPLAY)
     } catch {
@@ -66,7 +66,7 @@ export function ContactFloats() {
     }
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
-  }
+  }, [])
 
   const wechatPanel = open ? (
     <div

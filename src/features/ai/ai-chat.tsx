@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { Loader2, MessageCircle, Send, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { dictionaries } from '@/features/i18n/locale'
@@ -43,7 +43,7 @@ export function AiChat() {
     return () => document.removeEventListener('keydown', onKey)
   }, [open])
 
-  const send = async (raw: string) => {
+  const send = useCallback(async (raw: string) => {
     const question = raw.trim()
     if (!question || busy) return
     const history = messages.slice(-MAX_HISTORY).map((m) => ({ role: m.role, content: m.content }))
@@ -71,7 +71,7 @@ export function AiChat() {
     } finally {
       setBusy(false)
     }
-  }
+  }, [messages, busy, locale])
 
   return (
     <>

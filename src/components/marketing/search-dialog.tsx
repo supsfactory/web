@@ -1,4 +1,4 @@
-import * as React from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Search as SearchIcon } from 'lucide-react'
 import { useNavigate } from '@tanstack/react-router'
 import type { SearchEntry } from '@/features/site/search'
@@ -12,20 +12,20 @@ import { useFocusTrap } from '@/lib/use-focus-trap'
 export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen: () => void; onClose: () => void }) {
   const { t, locale } = useTranslation()
   const navigate = useNavigate()
-  const [query, setQuery] = React.useState('')
-  const [index, setIndex] = React.useState<SearchEntry[] | null>(null)
-  const inputRef = React.useRef<HTMLInputElement>(null)
+  const [query, setQuery] = useState('')
+  const [index, setIndex] = useState<SearchEntry[] | null>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
   const searchTrap = useFocusTrap(open)
 
-  const submit = (e?: { preventDefault: () => void }) => {
+  const submit = useCallback((e?: { preventDefault: () => void }) => {
     e?.preventDefault()
     const q = query.trim()
     if (!q) return
     onClose()
     navigate({ to: '/{-$locale}/search', search: { q } })
-  }
+  }, [query, onClose, navigate])
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (open) {
       if (!index) {
         const ac = new AbortController()
@@ -41,7 +41,7 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
     }
   }, [open, index])
 
-  React.useEffect(() => {
+  useEffect(() => {
     function onKey(e: KeyboardEvent) {
       if (e.key === '/' && document.activeElement?.tagName !== 'INPUT' && document.activeElement?.tagName !== 'TEXTAREA') {
         e.preventDefault()
@@ -53,7 +53,7 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
     return () => document.removeEventListener('keydown', onKey)
   }, [onOpen, onClose])
 
-  React.useEffect(() => {
+  useEffect(() => {
     function onClick(e: MouseEvent) {
       if (searchTrap.current && !searchTrap.current.contains(e.target as Node)) onClose()
     }
@@ -62,7 +62,7 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
   }, [open, onClose])
 
   const q = query.trim().toLowerCase()
-  const matches = React.useMemo(() => {
+  const matches = useMemo(() => {
     if (!q || !index) return []
     return index
       .filter((it) => it.locale === locale && (it.title.toLowerCase().includes(q) || it.excerpt.toLowerCase().includes(q) || (it.content ?? '').toLowerCase().includes(q)))

@@ -1,4 +1,4 @@
-﻿import * as React from 'react'
+﻿import { useState, type ReactNode } from 'react'
 import { ArrowRight, Check, ChevronDown, FileText } from 'lucide-react'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
@@ -27,7 +27,7 @@ const isObj = (v: unknown): v is Record<string, unknown> => typeof v === 'object
 const arr = (v: unknown): unknown[] => (Array.isArray(v) ? v : [])
 const str = (v: unknown): string => (typeof v === 'string' ? v : '')
 
-function Container({ children, narrow = false, className = '' }: { children: React.ReactNode; narrow?: boolean; className?: string }) {
+function Container({ children, narrow = false, className = '' }: { children: ReactNode; narrow?: boolean; className?: string }) {
   return (
     <section className={`mx-auto ${narrow ? 'max-w-3xl' : 'max-w-6xl'} px-5 py-14 md:px-7 md:py-16 ${className}`}>
       {children}
@@ -1005,7 +1005,7 @@ const FLOW_BADGE: Record<string, string> = {
  * following steps. Backed by `nodes: [{ id, type, label, detail, yes?, no? }]`.
  */
 function ReworkDecisionWidget({ c }: { c: Record<string, unknown> }) {
-  const [open, setOpen] = React.useState(0)
+  const [open, setOpen] = useState(0)
   const raw = arr(c.nodes) as Record<string, unknown>[]
   if (raw.length === 0) return null
   const labels = new Map(raw.map((n, i) => [str(n.id) || String(i), str(n.label)]))
@@ -1440,7 +1440,7 @@ function ServicesWidget({ c }: { c: Record<string, unknown> }) {
   )
 }
 
-const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNode | null> = {
+const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => ReactNode | null> = {
   intelligence_cards: (c) => <IntelligenceCards c={c} />,
   oem_section: (c) => <OemCases c={c} />,
   production_flow: (c) => <ProductionFlow c={c} />,
@@ -1478,7 +1478,7 @@ const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNod
   geo: (c) => <GeoWidget c={c} />,
 }
 
-const TYPE_WIDGETS: Record<string, (c: Record<string, unknown>) => React.ReactNode | null> = {
+const TYPE_WIDGETS: Record<string, (c: Record<string, unknown>) => ReactNode | null> = {
   hero: (c) => <HeroWidget c={c} />,
   hero_text: (c) => <HeroTextWidget c={c} />,
   hero_carousel: (c) => <HeroWidget c={c} />,

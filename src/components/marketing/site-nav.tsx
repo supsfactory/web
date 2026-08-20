@@ -1,4 +1,4 @@
-import * as React from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import { Menu, X, ChevronDown, Search as SearchIcon } from 'lucide-react'
 import { getRouteApi } from '@tanstack/react-router'
 import { Logo } from '@/components/brand/logo'
@@ -30,18 +30,18 @@ export function SiteNav() {
   const loggedIn = !!user
   const { t } = useTranslation()
   const fl = useLocalizePath()
-  const [open, setOpen] = React.useState(false)
+  const [open, setOpen] = useState(false)
   const mobileTrap = useFocusTrap(open)
-  const [searchOpen, setSearchOpen] = React.useState(false)
-  const openSearch = React.useCallback(() => setSearchOpen(true), [])
-  const closeSearch = React.useCallback(() => setSearchOpen(false), [])
-  const [drop, setDrop] = React.useState<string | null>(null)
-  const [mobileDrop, setMobileDrop] = React.useState<string | null>(null)
+  const [searchOpen, setSearchOpen] = useState(false)
+  const openSearch = useCallback(() => setSearchOpen(true), [])
+  const closeSearch = useCallback(() => setSearchOpen(false), [])
+  const [drop, setDrop] = useState<string | null>(null)
+  const [mobileDrop, setMobileDrop] = useState<string | null>(null)
 
   const linkCls =
     'rounded-md px-3 py-2 text-sm font-medium text-fg-2 transition-colors hover:bg-bg-alt hover:text-foreground'
 
-  const navItems: NavItem[] = React.useMemo(() => [
+  const navItems: NavItem[] = useMemo(() => [
     {
       label: t('sup.nav.products'),
       items: [
