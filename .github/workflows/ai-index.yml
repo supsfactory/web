@@ -64,8 +64,8 @@ jobs:
           }
           IDX="${CF_VECTORIZE_INDEX:-supsfactory-knowledge}"
           create_index "$IDX"
-          create_index "$IDX-staging" --env staging
-          create_index "$IDX-prod" --env production
+          create_index "$IDX-staging"
+          create_index "$IDX-prod"
       # 部署后立刻重建索引（/api/reindex 由 worker 内的 REINDEX_TOKEN 门禁；
       # deploy.yml 的 secret sync 步骤已把该 token 同步到 Worker）。
       # 未配置 token 时优雅跳过 —— 每日 03:00 cron 仍会兜底重建。
