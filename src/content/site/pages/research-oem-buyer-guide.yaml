@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Minimum order quantity is confirmed by project configuration rather than a fixed number: sample development (1–2 units) validates the build, pilot orders (20–50 units) test the market on existing platforms, standard volume production runs 90–100+ units per batch from a full 150 m drop-stitch roll, and small-batch co-branding starts under 20 units. Samples ship in 7–12 days; bulk production runs 25–35 days after confirmed PO and deposit, plus 15–20 days when new tooling is required.'
+  text: 'Minimum order quantity is confirmed by project configuration rather than a fixed number: sample development (1–2 units) validates the build, pilot orders (20–50 units) test the market on existing platforms, standard volume production runs 90–100+ units per batch from a full 150 m drop-stitch roll, and small-batch co-branding starts at 5–10 units. Samples ship in 7–12 days; bulk production runs 25–35 days after confirmed PO and deposit, plus 15–20 days when new tooling is required.'
   verified: '2026-08'
 
 content_html: |
@@ -93,7 +93,7 @@ content_html: |
   </ul>
 
   <h2>7. Why Afarer</h2>
-  <p>Afarer has been manufacturing OEM/ODM inflatable SUP boards since 2012. With a 12,500 m&sup2; ISO 9001 certified facility, 25+ engineers, and CE certification across all product lines, we meet every criterion in this guide. We offer trial MOQs for new partners and full compliance documentation packages.</p>
+  <p>Afarer has been manufacturing OEM/ODM inflatable SUP boards since 2012. With a 12,500 m&sup2; ISO 9001 certified facility, 25+ engineers, and CE certification for models destined for EU markets (scope confirmed per project), we meet every criterion in this guide. We offer trial MOQs for new partners and full compliance documentation packages.</p>
   <p>Review our <a href="/oem-manufacturing">inflatable SUP OEM/ODM manufacturing services</a> or tour the <a href="/factory">12,500 m&sup2; factory floor</a> to see the equipment and QC processes behind each step above.</p>
 
 cta:

@@ -67,13 +67,13 @@ faq_section:
   title: ODM Development Questions
   questions:
     - q: How does ODM differ from OEM?
-      a: 'ODM (Original Design Manufacturing) starts from your brief or simply an idea — our engineers design the hull, structure, graphics and packaging, then sample and produce it. OEM (Original Equipment Manufacturing) builds from your own design or drawings as-is. Both run through the same plant, QC system and export team; ODM is the fastest path to a branded board when you do not have a design yet.'
+      a: 'ODM (Original Design Manufacturing) starts from your brief — our engineers develop the board structure, construction, graphics and packaging, whether from a market concept, performance target or adaptation of a proven platform. You approve the design before production. OEM (Original Equipment Manufacturing) manufactures to your approved specification — your drawings, dimensions, materials and packaging. You own the design and IP. Both run through the same plant, QC system and export team; ODM is the fastest path to a branded board when you do not have a design yet.'
     - q: I only have a rough idea — where do we start?
       a: 'Send a short brief: target riders, use cases, rough size, markets and volumes. Our engineers come back with a concept, a reference board direction and a development plan within one business day — an NDA is signed before any detailed exchange when requested.'
     - q: How long does it take to develop a new SUP board?
       a: 'Prototype samples ship in 7–12 days. A new hull with custom mould tooling adds 15–20 days of engineering before samples. Production runs 25–35 days after PO and deposit.'
     - q: What is the MOQ for an ODM board?
-      a: 'Standard volume production runs 90–100 units per 150 m drop-stitch roll batch; pilot runs start at 20–50 units on existing platforms. Small-batch co-branding starts under 20 units — see our MOQ & Flexible Branding Guide for the full calculation.'
+      a: 'Standard volume production runs 90–100 units per 150 m drop-stitch roll batch; pilot runs start at 20–50 units on existing platforms. Small-batch co-branding starts at 5–10 units — see our MOQ & Flexible Branding Guide for the full calculation.'
     - q: Who owns the design and mould?
       a: 'Your brief, design and tooling are protected by NDA, brand licensing terms and mould ownership or buyout clauses written into the contract. Tooling is kept for your brand and transferable.'
     - q: Can you develop a specific shape (touring, fishing, racing, yoga)?

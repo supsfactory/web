@@ -458,7 +458,7 @@ export const esProduct = {
         },
         {
           q: '¿Cuál es vuestro MOQ real?',
-          a: 'El MOQ es específico de cada proyecto y se explica en nuestra guía de MOQ: muestras de 1–2 unidades, co-branding desde 5–10 unidades, lotes piloto de 20–50 unidades y volumen estándar de 90–100+ unidades por rollo de 150 m (unas 180–220 tablas). Los diseños con molde a medida se producen en el tramo de volumen. El cálculo se confirma antes de cotizar — sin números "MOQ bajo" vagos.',
+          a: 'El MOQ es específico de cada proyecto y se explica en nuestra guía de MOQ: muestras de 1–2 unidades, co-branding desde 5–10 unidades, lotes piloto de 20–50 unidades y volumen estándar de 90–100+ unidades por configuración aprobada (sujeto a requisitos de rollo de material y embalaje). Los diseños con molde a medida se producen en el tramo de volumen. El cálculo se confirma antes de cotizar — sin números "MOQ bajo" vagos.',
         },
         {
           q: '¿Qué pasa si la producción se retrasa?',

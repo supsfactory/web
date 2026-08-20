@@ -127,16 +127,16 @@ workshops_section:
       alt: Máquina de soldadura RF sellando cámaras de tubo de embarcación hinchable en la fábrica de Qingdao
     - title: Unión del núcleo drop-stitch
       description: Los núcleos drop-stitch de las tablas SUP se unen a los laminados exteriores de PVC mediante laminación térmica. Miles de hilos internos de poliéster conectan las capas superior e inferior, creando una estructura rígida a 12–15 PSI. Las bandas de refuerzo del borde se fusionan con unión de triple capa para la resistencia de los cantos.
-      image: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
-      alt: Núcleo drop-stitch de SUP unido al laminado de PVC en prensa de laminación térmica
+      image: https://assets.afarer.com/images/afarer/factory/afarer-sup-manufacturing.webp
+      alt: Línea de fabricación de SUP hinchable con equipo de unión de núcleo drop-stitch en la fábrica de Qingdao
     - title: Impresión y decoración de SUP
       description: Las tablas SUP se decoran con impresión digital para gráficos a todo color y serigrafía para logotipos y patrones repetidos. Las impresoras digitales producen diseños de cubierta con calidad fotográfica, mientras que la serigrafía ofrece marcas de marca duraderas y vívidas.
-      image: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
-      alt: Impresora digital aplicando gráficos a todo color en la cubierta de una tabla SUP hinchable
+      image: https://assets.afarer.com/images/afarer/factory/afarer-production-department-2.webp
+      alt: Interior del departamento de producción en la fábrica de SUP hinchables de Qingdao
     - title: Montaje final y ajuste
       description: Línea de montaje donde se instalan válvulas, anillas D, asas, cajas de quilla y pads de cubierta en cada tabla SUP. Cada tabla sigue una lista de verificación de montaje de 100 puntos firmada por el responsable del equipo.
-      image: https://assets.afarer.com/images/afarer/hero/factory-gate.webp
-      alt: Línea de montaje final de SUP hinchable instalando válvulas, anillas D y pads de cubierta en la fábrica de Qingdao
+      image: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
+      alt: Departamento de producción con puestos de trabajo de ensamblaje en la fábrica de Qingdao
     - title: Ensayos e inspección de calidad
       description: Cada tabla terminada se somete a ensayos obligatorios de retención de aire, verificación de pelado de costuras y una comprobación completa de sistemas antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
       image: https://assets.afarer.com/images/afarer/factory/afarer-pressure-testing.webp
@@ -184,27 +184,30 @@ oem_section:
     - challenge: Un minorista europeo de outdoor necesitaba una línea de SUP de etiqueta privada con gráficos de cubierta únicos, PVC ecológico y embalaje listo para el comercio minorista, todo entregado en 60 días.
       solution: Desarrollamos archivos de impresión digital personalizados, conseguimos PVC conforme a REACH y redujimos las muestras de 3 rondas a 1 al ubicar al equipo de diseño en nuestra fábrica de Qingdao.
       result: Producción de 25–35 días desde la orden de compra firmada, con la primera entrega dentro de la ventana de llegada de 60 días. 2.400 unidades en 4 SKU. Pedido repetido antes de completarse la primera tirada.
+      disclaimer: 'Resumen de proyecto anonimizado — el tipo y alcance del proyecto son representativos; los resultados específicos no son verificables de forma independiente.'
     - challenge: Una startup estadounidense de deportes acuáticos necesitaba un SUP drop-stitch de alto rendimiento con forma personalizada, embalaje co-marcado y certificación BSCI para su colocación en el comercio minorista.
       solution: Adaptamos el molde SUP existente con un contorno modificado, desarrollamos el arte del embalaje co-marcado y proporcionamos documentación completa de la auditoría BSCI.
       result: Colocado con éxito en los principales minoristas de outdoor de EE. UU., generando un fuerte impulso con más de 5.000 unidades vendidas en el primer año y una tasa de ventas del 98%.
+      disclaimer: 'Resumen de proyecto anonimizado — el tipo y alcance del proyecto son representativos; los resultados específicos no son verificables de forma independiente.'
     - challenge: Un distribuidor australiano necesitaba una gama de SUP certificada CE con colores personalizados y cumplimiento de las normas australianas.
       solution: Produjimos muestras de preproducción con 4 variantes de color y coordinamos ensayos de cumplimiento de terceros.
       result: Gama de SUP de 3 modelos lanzada en el mercado AU/NZ. Posteriormente, adjudicación de una licitación gubernamental para 12 SUP de patrulla.
+      disclaimer: 'Resumen de proyecto anonimizado — el tipo y alcance del proyecto son representativos; los resultados específicos no son verificables de forma independiente.'
 
 faq_section:
   tagline: Preguntas frecuentes
   title: Preguntas frecuentes B2B y OEM
   questions:
     - q: ¿Cuál es la cantidad mínima de pedido (MOQ) para tablas SUP hinchables OEM?
-      a: 'El MOQ se confirma según la configuración del proyecto, no con un número fijo — casco y utillaje, colores y PVC, arte, empaque y accesorios. La producción de volumen estándar corre en lotes de 90–100+ unidades por rollo completo de drop-stitch de 150 m, el co-branding de lotes pequeños parte de menos de 20 unidades, y cada proyecto pasa por las etapas de muestra (1–2 unidades) y piloto (20–50 unidades). Consulta nuestra Guía de MOQ y Branding Flexible para la lógica de cálculo completa.'
+      a: 'El MOQ se confirma según la configuración del proyecto, no con un número fijo — casco y utillaje, colores y PVC, arte, empaque y accesorios. La producción de volumen estándar corre en lotes de 90–100+ unidades por rollo completo de drop-stitch de 150 m, el co-branding de lotes pequeños parte de 5–10 unidades, y cada proyecto pasa por las etapas de muestra (1–2 unidades) y piloto (20–50 unidades). Consulta nuestra Guía de MOQ y Branding Flexible para la lógica de cálculo completa.'
     - q: ¿Mantiene Afarer la certificación BSCI?
-      a: Sí. Nuestra fábrica mantiene una certificación válida de cumplimiento social BSCI (informe de auditoría disponible bajo petición). También tenemos ISO 9001 para gestión de calidad. Los modelos estándar llevan el marcado CE según la Directiva 2013/53/UE, y los modelos personalizados pueden certificarse CE mediante nuestro proceso establecido. La documentación de cumplimiento REACH y RoHS se entrega con cada pedido OEM.
+      a: Sí. Nuestra fábrica mantiene una certificación válida de cumplimiento social BSCI (informe de auditoría disponible bajo petición). También tenemos ISO 9001 para gestión de calidad. La certificación CE aplica a modelos destinados al mercado de la UE; el alcance se confirma por proyecto. La documentación de cumplimiento REACH y RoHS se entrega con cada pedido OEM.
     - q: ¿Cuál es el plazo de entrega típico de un pedido OEM?
       a: El plazo estándar es de 25–35 días desde la confirmación del pedido y el depósito para la producción OEM en volumen. El desarrollo de moldes personalizados añade 15–20 días para el utillaje. Hay producción acelerada disponible para pedidos urgentes y picos de temporada. Las muestras de prototipo suelen estar listas en 7–12 días.
     - q: ¿Gestionáis la documentación de exportación?
       a: Sí. Nuestro equipo gestiona internamente la documentación de exportación y el despacho de aduanas, y suministramos a más de 50 países en los mercados de la UE, EE. UU., Australia y Asia.
 
-b2b_moq: 'MOQ confirmado por configuración del proyecto: muestra 1–2, piloto 20–50, volumen 90–100+ (por rollo de 150 m); co-branding de lotes pequeños desde menos de 20 unidades.'
+b2b_moq: 'MOQ confirmado por configuración del proyecto: muestra 1–2, piloto 20–50, volumen 90–100+ (por rollo de 150 m); co-branding de lotes pequeños desde 5–10 unidades.'
 
 production_flow:
   tagline: Flujo de producción

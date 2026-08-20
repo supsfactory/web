@@ -1,5 +1,5 @@
 import type { Locale } from '@/features/i18n/locale'
-import { FACTS, MOQ_SHORT } from './facts'
+import { FACTS, MOQ_SHORT, COLLABORATION_MODES } from './facts'
 
 /**
  * Marketing content for the SUPsfactory site, localized en/es.
@@ -64,8 +64,8 @@ export const hero: Localized<HeroContent> = {
     mockupBrand: "SUP Explorer 11'",
     mockupHint: 'Your graphics · your colors · your packaging',
     heroNote:
-      'SUPSfactory is a custom inflatable SUP manufacturer in Qingdao (Laixi), China — the inflatable-SUP division of Afarer (Qingdao Vatrad Group). We run OEM, ODM and private-label programs from a 12,500 m² plant with 120,000+ boards of annual capacity. Trial runs start at 1–2 boards, pilots at 20–50, and standard volume MOQ from 90–100 boards per design.',
-    float1: { value: '90–100 pcs', label: 'Standard volume MOQ (per 150 m roll)' },
+      'SUPSfactory is a custom inflatable SUP manufacturer in Qingdao (Laixi), China — the inflatable-SUP division of Afarer (Qingdao Vatrad Group). We run OEM, ODM and private-label programs from a 12,500 m² plant with 120,000+ boards of annual capacity. Trial runs start at 1–2 boards, pilots at 20–50, and standard volume MOQ from 90–100+ boards per approved configuration.',
+    float1: { value: '90–100+ pcs', label: 'Standard volume MOQ (per approved configuration)' },
     float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
   es: {
@@ -89,8 +89,8 @@ export const hero: Localized<HeroContent> = {
     mockupBrand: 'SUP Explorer 11\'',
     mockupHint: 'Tus gráficos · Tus colores · tu packaging',
     heroNote:
-      'SUPsfactory es un fabricante de tablas SUP hinchables a medida en Qingdao (Laixi), China — la división de SUP hinchables de Afarer (Qingdao Vatrad Group). Realizamos programas OEM, ODM y de marca privada en una planta de 12.500 m² con capacidad anual de 120.000+ tablas. Los pedidos de prueba parten de 1–2 tablas, los pilotos de 20–50 y el MOQ de volumen estándar desde 90–100 tablas por diseño.',
-    float1: { value: '90–100 uds.', label: 'MOQ de volumen estándar (por rollo de 150 m)' },
+      'SUPsfactory es un fabricante de tablas SUP hinchables a medida en Qingdao (Laixi), China — la división de SUP hinchables de Afarer (Qingdao Vatrad Group). Realizamos programas OEM, ODM y de marca privada en una planta de 12.500 m² con capacidad anual de 120.000+ tablas. Los pedidos de prueba parten de 1–2 tablas, los pilotos de 20–50 y el MOQ de volumen estándar desde 90–100+ tablas por configuración aprobada.',
+    float1: { value: '90–100+ uds.', label: 'MOQ de volumen estándar (por configuración aprobada)' },
     float2: { value: FACTS.leadTime, label: 'Plazo de producción (tras PO)' },
   },
 }
@@ -185,7 +185,7 @@ export interface TrustBarContent {
 export const trustBar: Localized<TrustBarContent> = {
   en: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'per 150 m roll for volume production; pilot runs from 20–50 pcs' },
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'for volume production; pilot runs from 20–50 pcs' },
       { value: FACTS.sampleTime, label: 'samples to your desk after artwork confirmation' },
       { value: FACTS.leadTime, label: 'batch production after confirmed PO and deposit' },
       { value: FACTS.annualCapacity, label: 'annual in-house capacity at the Qingdao plant' },
@@ -199,7 +199,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   es: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'por rollo de 150 m para volumen; piloto desde 20–50 uds.' },
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'para volumen; piloto desde 20–50 uds.' },
       { value: FACTS.sampleTime, label: 'muestras en tu escritorio tras confirmar el arte' },
       { value: FACTS.leadTime, label: 'producción en serie tras PO y depósito confirmados' },
       { value: FACTS.annualCapacity, label: 'capacidad anual interna en la planta de Qingdao' },
@@ -237,15 +237,15 @@ export const solve: Localized<SolveContent> = {
     items: [
       {
         title: 'OEM — Build to Your Specification',
-        body: 'You supply drawings, specifications or a reference board. Our engineering team returns a manufacturability report covering materials, layup, tolerances, tooling requirements and cost drivers, then produces to that spec.',
+        body: COLLABORATION_MODES.oem.full,
       },
       {
-        title: 'ODM — Adapt a Proven Platform',
-        body: 'Start from one of our validated board platforms and adjust dimensions, layup, fin configuration, hardware and graphics. Faster to market than a ground-up mold, with the same construction standards.',
+        title: 'ODM — Develop the Board with Our Engineering Team',
+        body: COLLABORATION_MODES.odm.full,
       },
       {
-        title: 'Private Label — Your Brand on Commercial-Grade Boards',
-        body: 'Standard construction, your artwork, your deck pad colors, your packaging and your barcode. Delivered ready for retail or rental deployment with no SUPsfactory or Afarer marking anywhere on the product.',
+        title: 'Private Label — Your Brand on a Proven Platform',
+        body: COLLABORATION_MODES.privateLabel.full,
       },
       {
         title: 'Volume Supply — Repeat and Fleet Orders',
@@ -260,16 +260,16 @@ export const solve: Localized<SolveContent> = {
     cta: 'Solicita un presupuesto de fabricación',
     items: [
       {
-        title: 'OEM — fabrica según tu especificación',
-        body: 'Tú aportas planos, especificaciones o una tabla de referencia. Nuestro equipo de ingeniería entrega un informe de fabricabilidad con materiales, layup, tolerancias, utillaje y costes, y produce conforme a esa especificación.',
+        title: 'OEM — Fabrica según tu especificación',
+        body: 'Fabricamos según tu especificación aprobada: planos, dimensiones, materiales, construcción y embalaje. Tú eres propietario del diseño, los moldes y la propiedad intelectual.',
       },
       {
-        title: 'ODM — adapta una plataforma probada',
-        body: 'Parte de una de nuestras plataformas validadas y ajusta dimensiones, layup, configuración de quillas, herrajes y gráficos. Más rápido a mercado que un molde desde cero, con los mismos estándares de construcción.',
+        title: 'ODM — Desarrolla la tabla con nuestro equipo de ingeniería',
+        body: 'Nuestro equipo de ingeniería desarrolla la estructura, construcción, gráficos y embalaje a partir de tu brief — ya sea un concepto de mercado, un objetivo de rendimiento o la adaptación de una plataforma probada. La fábrica propone el diseño; el comprador lo aprueba antes de la producción.',
       },
       {
-        title: 'Marca privada — tu marca en tablas de grado comercial',
-        body: 'Construcción estándar, tu arte, tus colores de piso de cubierta, tu packaging y tu código de barras. Entregamos listas para retail o alquiler, sin ninguna marca SUPsfactory o Afarer visible en el producto.',
+        title: 'Marca privada — Tu marca en una plataforma probada',
+        body: 'Tu marca, gráficos y embalaje sobre una plataforma validada existente — sin desarrollo de molde, sin cambios estructurales. La vía más rápida del concepto a la entrega.',
       },
       {
         title: 'Suministro por volumen — pedidos repetidos y de flota',
@@ -470,9 +470,9 @@ export const commercial: Localized<CommercialContent> = {
       {
         label: 'Minimum order',
         lines: [
-          'Co-branding small bulk: 5–10 pcs',
-          'Pilot batch / initial stock: 20–50 pcs',
-          'Standard volume production: 90–100+ pcs (per 150 m roll)',
+          FACTS.moqExplanation.coBrand,
+          FACTS.moqExplanation.pilot,
+          FACTS.moqExplanation.standard,
         ],
       },
       {
@@ -499,31 +499,31 @@ export const commercial: Localized<CommercialContent> = {
       },
     ],
     certs:
-      'ISO 9001 quality management · CE certification · BSCI social compliance (audit report available on request) · REACH and RoHS documentation with every order.',
+      `ISO 9001 quality management · CE certification for models destined for EU markets (scope confirmed per project) · BSCI social compliance (audit report available on request) · REACH and RoHS documentation with every order.`,
     moqTiers: [
       {
         stage: 'Sample & approval',
-        quantity: '1–2 pcs per design',
+        quantity: FACTS.moqExplanation.sample,
         purpose: 'Confirm shape, colors, printing and packaging before any production run',
         note: '7–12 days; physical board, not a rendering',
       },
       {
         stage: 'Co-branding small bulk',
-        quantity: '5–10 pcs',
+        quantity: FACTS.moqExplanation.coBrand,
         purpose: 'Test a design on a proven platform with logo over-printing',
         note: 'Fastest way to validate a new graphic',
       },
       {
         stage: 'Pilot batch / initial stock',
-        quantity: '20–50 pcs per design',
+        quantity: FACTS.moqExplanation.pilot,
         purpose: 'Validate the market or open your store with real inventory',
         note: 'Lowest volume on existing platforms',
       },
       {
         stage: 'Standard volume production',
-        quantity: '90–100+ pcs per 150 m roll (~180–220 boards)',
+        quantity: FACTS.moqExplanation.standard,
         purpose: 'Regular production runs at the best unit price',
-        note: 'Custom-mould projects run at this tier (+15–20 days tooling)',
+        note: FACTS.moqExplanation.customMould,
       },
     ],
   },
@@ -535,9 +535,9 @@ export const commercial: Localized<CommercialContent> = {
       {
         label: 'Pedido mínimo',
         lines: [
-          'Pequeño lote de co-branding: 5–10 uds.',
-          'Lote piloto / stock inicial: 20–50 uds.',
-          'Producción de volumen estándar: 90–100+ uds. (por rollo de 150 m)',
+          `Co-branding: ${FACTS.moqExplanation.coBrand}`,
+          `Lote piloto: ${FACTS.moqExplanation.pilot}`,
+          `Volumen estándar: ${FACTS.moqExplanation.standard}`,
         ],
       },
       {
@@ -564,31 +564,31 @@ export const commercial: Localized<CommercialContent> = {
       },
     ],
     certs:
-      'ISO 9001 · Certificación CE · BSCI (informe de auditoría disponible) · Documentación REACH y RoHS con cada pedido.',
+      'ISO 9001 · Certificación CE para modelos destinados al mercado de la UE (alcance confirmado por proyecto) · BSCI (informe de auditoría disponible) · Documentación REACH y RoHS con cada pedido.',
     moqTiers: [
       {
         stage: 'Muestra y aprobación',
-        quantity: '1–2 uds. por diseño',
+        quantity: FACTS.moqExplanation.sample,
         purpose: 'Confirmar forma, colores, impresión y packaging antes de cualquier producción',
         note: '7–12 días; tabla física, no un render',
       },
       {
         stage: 'Co-branding en pequeño lote',
-        quantity: '5–10 uds.',
+        quantity: FACTS.moqExplanation.coBrand,
         purpose: 'Probar un diseño sobre una plataforma probada con impresión de logo',
         note: 'La vía más rápida para validar un gráfico',
       },
       {
         stage: 'Lote piloto / stock inicial',
-        quantity: '20–50 uds. por diseño',
+        quantity: FACTS.moqExplanation.pilot,
         purpose: 'Validar el mercado o abrir tu tienda con inventario real',
         note: 'El volumen más bajo sobre plataformas existentes',
       },
       {
         stage: 'Producción de volumen estándar',
-        quantity: '90–100+ uds. por rollo de 150 m (~180–220 tablas)',
+        quantity: FACTS.moqExplanation.standard,
         purpose: 'Producción regular al mejor precio unitario',
-        note: 'Los proyectos con molde a medida usan esta capa (+15–20 días utillaje)',
+        note: FACTS.moqExplanation.customMould,
       },
     ],
   },
@@ -1884,11 +1884,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'What is the difference between OEM and ODM?',
-        a: `OEM builds your board to your specification — shape, artwork, materials and packaging — from an existing platform or a new custom mould you own. ODM adapts a proven platform we already engineer: you add your brand, colors and artwork without owning the design. Both routes run through the same plant, QC system and export team: OEM suits product owners with their own spec, ODM is the fastest route to a branded board, starting at ${MOQ_SHORT.standardRun} with samples in ${FACTS.sampleTime}.`,
+        a: `OEM: we manufacture to your approved specification — your drawings, dimensions, materials and packaging. You own the design and intellectual property. ODM: our engineering team develops the board from your brief — whether a market concept, performance target or adaptation of a proven platform — and you approve before production. Private label puts your brand on an existing validated platform with no structural changes. Both OEM and ODM routes run through the same plant, QC system and export team; ODM is the fastest route to a branded board, starting at ${MOQ_SHORT.standardRun} with samples in ${FACTS.sampleTime}.`,
       },
       {
         q: 'What is your minimum order quantity?',
-        a: `Co-branding small bulk starts at 5–10 pcs; pilot batches from 20–50 pcs. Standard volume production starts at ${MOQ_SHORT.standardRun} per 150 m roll. Custom-mould shapes run at the volume tier, depending on complexity.`,
+        a: `Co-branding small bulk starts at 5–10 pcs; pilot batches from 20–50 pcs. Standard volume production starts at ${MOQ_SHORT.standardRun}. Custom-mould shapes run at the volume tier, depending on complexity.`,
       },
       {
         q: 'How long does production take?',
@@ -1900,7 +1900,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'What certifications do you hold?',
-        a: 'ISO 9001 for quality management, CE certification on all products, and valid BSCI social compliance certification with the audit report available on request. REACH and RoHS documentation is provided with every order.',
+        a: 'ISO 9001 for quality management, CE certification for models destined for EU markets (scope confirmed per project), and valid BSCI social compliance certification with the audit report available on request. REACH and RoHS documentation is provided with every order.',
       },
       {
         q: 'Do you handle export documentation?',
@@ -1932,7 +1932,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Do you work with new or startup SUP brands?',
-        a: `Yes. OEM/ODM projects are developed according to your product requirements, target market and volume — pilot runs start at 20–50 pcs and standard volume production at ${MOQ_SHORT.standardRun} per 150 m roll.`,
+        a: `Yes. OEM/ODM projects are developed according to your product requirements, target market and volume — pilot runs start at 20–50 pcs and standard volume production at ${MOQ_SHORT.standardRun}.`,
       },
       {
         q: 'What information should I provide for an OEM SUP inquiry?',
@@ -1951,11 +1951,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: '¿Cuál es la diferencia entre OEM y ODM?',
-        a: `OEM fabrica tu tabla según tu especificación — forma, arte, materiales y empaque — sobre una plataforma existente o un molde nuevo a medida de tu propiedad. ODM adapta una plataforma probada que ya ingeniamos: tú añades tu marca, colores y arte sin ser dueño del diseño. Ambas rutas pasan por la misma planta, el mismo sistema de QC y el mismo equipo de exportación: OEM es para quien tiene especificación propia; ODM es la vía más rápida hacia una tabla con tu marca, desde ${MOQ_SHORT.standardRun} y con muestras en ${FACTS.sampleTime}.`,
+        a: `OEM: fabricamos según tu especificación aprobada — planos, dimensiones, materiales y embalaje. Tú eres propietario del diseño y la propiedad intelectual. ODM: nuestro equipo de ingeniería desarrolla la tabla a partir de tu brief — ya sea un concepto de mercado, un objetivo de rendimiento o la adaptación de una plataforma probada — y tú apruebas antes de la producción. Marca privada pone tu marca en una plataforma validada existente sin cambios estructurales. Ambas rutas pasan por la misma planta, el mismo sistema de QC y el mismo equipo de exportación; ODM es la vía más rápida hacia una tabla con tu marca, desde ${MOQ_SHORT.standardRun} y con muestras en ${FACTS.sampleTime}.`,
       },
       {
         q: '¿Cuál es la cantidad mínima de pedido?',
-        a: `El pequeño lote de co-branding parte de 5–10 uds.; los lotes piloto, de 20–50 uds. La producción de volumen estándar parte de ${MOQ_SHORT.standardRun} por rollo de 150 m. Los diseños con molde a medida se producen en el tramo de volumen, según la complejidad.`,
+        a: `El pequeño lote de co-branding parte de 5–10 uds.; los lotes piloto, de 20–50 uds. La producción de volumen estándar parte de ${MOQ_SHORT.standardRun}. Los diseños con molde a medida se producen en el tramo de volumen, según la complejidad.`,
       },
       {
         q: '¿Cuánto tarda la producción?',
@@ -1967,7 +1967,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: '¿Qué certificaciones tenéis?',
-        a: 'ISO 9001 para la gestión de calidad, certificación CE en todos los productos y certificación BSCI válida con informe de auditoría disponible. La documentación REACH y RoHS se entrega con cada pedido.',
+        a: 'ISO 9001 para la gestión de calidad, certificación CE para modelos destinados al mercado de la UE (alcance confirmado por proyecto) y certificación BSCI válida con informe de auditoría disponible. La documentación REACH y RoHS se entrega con cada pedido.',
       },
       {
         q: '¿Gestionáis la documentación de exportación?',
@@ -1999,7 +1999,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: '¿Trabajáis con marcas de SUP nuevas o emergentes?',
-        a: `Sí. Los proyectos OEM/ODM se desarrollan según tus requisitos de producto, mercado objetivo y volumen — los pilotos parten de 20–50 uds. y la producción de volumen estándar, de ${MOQ_SHORT.standardRun} por rollo de 150 m.`,
+        a: `Sí. Los proyectos OEM/ODM se desarrollan según tus requisitos de producto, mercado objetivo y volumen — los pilotos parten de 20–50 uds. y la producción de volumen estándar, de ${MOQ_SHORT.standardRun}.`,
       },
       {
         q: '¿Qué información debo dar en una consulta OEM de SUP?',
@@ -2205,7 +2205,7 @@ export const about: Localized<AboutContent> = {
     ],
     capabilities: ['OEM / ODM / private label', 'Custom moulds', 'Sample service', 'Design & artwork', 'Multi-point QC', 'Export documentation'],
     stats: [
-      { value: '90–100 pcs', label: 'Standard volume MOQ (per 150 m roll)' },
+      { value: '90–100+ pcs', label: 'Standard volume MOQ (per approved configuration)' },
       { value: '7–12 days', label: 'Sample lead time' },
       { value: '25–35 days', label: 'Production lead time' },
       { value: '20–50 pcs', label: 'Pilot order MOQ' },
@@ -2217,7 +2217,7 @@ export const about: Localized<AboutContent> = {
       },
       {
         title: 'OEM Manufacturing',
-        body: 'Build your exact specification: materials, colors, logo placement, accessories and packaging, in standard volume batches from 90–100+ pcs per 150 m roll.',
+        body: 'Build your exact specification: materials, colors, logo placement, accessories and packaging, in standard volume batches from 90–100+ pcs per approved configuration.',
       },
       {
         title: 'ODM Solutions',
@@ -2268,7 +2268,7 @@ export const about: Localized<AboutContent> = {
     ],
     capabilities: ['OEM / ODM y marca privada', 'Moldes a medida', 'Servicio de muestras', 'Diseño e ingeniería', 'QC multipunto', 'Documentación de exportación'],
     stats: [
-      { value: '90–100 uds.', label: 'MOQ de volumen estándar (por rollo de 150 m)' },
+      { value: '90–100+ uds.', label: 'MOQ de volumen estándar (por configuración aprobada)' },
       { value: '7–12 días', label: 'Plazo de muestras' },
       { value: '25–35 días', label: 'Plazo de producción' },
       { value: '20–50 uds.', label: 'MOQ de pedido piloto' },
@@ -2280,7 +2280,7 @@ export const about: Localized<AboutContent> = {
       },
       {
         title: 'Fabricación OEM',
-        body: 'Construimos tu especificación exacta: materiales, colores, colocación del logotipo, accesorios y embalaje, en lotes de volumen estándar a partir de 90–100+ uds. por rollo de 150 m.',
+        body: 'Construimos tu especificación exacta: materiales, colores, colocación del logotipo, accesorios y embalaje, en lotes de volumen estándar a partir de 90–100+ uds. por configuración aprobada.',
       },
       {
         title: 'Soluciones ODM',

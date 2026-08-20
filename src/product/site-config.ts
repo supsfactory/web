@@ -5,7 +5,7 @@
  * 所有原有通过 `FACTS` / `hero` 导入的方式均可继续使用，本模块提供
  * 相同数据的只读视图，便于框架化与多站点派生。
  */
-import { FACTS, MOQ_SHORT, CERTIFICATION_NAMES } from './facts'
+import { FACTS, MOQ_SHORT, CERTIFICATION_NAMES, COLLABORATION_MODES } from './facts'
 
 /** 从 facts.ts 导出的全部字段（逐一映射，防止任何遗漏） */
 export const SITE_FACTS = {
@@ -16,7 +16,12 @@ export const SITE_FACTS = {
     trialStandard: MOQ_SHORT.trialStandard,
     standardRun: MOQ_SHORT.standardRun,
     customMould: MOQ_SHORT.customMould,
+    existingPlatform: MOQ_SHORT.existingPlatform,
   },
+  moqNote: FACTS.moqNote,
+  moqExplanation: FACTS.moqExplanation,
+  materialRollNote: FACTS.materialRollNote,
+  collaborationModes: COLLABORATION_MODES,
   leadTime: FACTS.leadTime,
   leadTimeDetail: FACTS.leadTimeDetail,
   sampleTime: FACTS.sampleTime,
@@ -69,8 +74,8 @@ export const HERO_CONTENT = {
     mockupBrand: "SUP Explorer 11'",
     mockupHint: 'Your graphics · your colors · your packaging',
     heroNote:
-      'SUPSfactory is a custom inflatable SUP manufacturer in Qingdao (Laixi), China — the inflatable-SUP division of Afarer (Qingdao Vatrad Group). We run OEM, ODM and private-label programs from a 12,500 m² plant with 120,000+ boards of annual capacity. Trial runs start at 1–2 boards, pilots at 20–50, and standard volume MOQ from 90–100 boards per design.',
-    float1: { value: '90–100 pcs', label: 'Standard volume MOQ (per 150 m roll)' },
+      'SUPSfactory is a custom inflatable SUP manufacturer in Qingdao (Laixi), China — the inflatable-SUP division of Afarer (Qingdao Vatrad Group). We run OEM, ODM and private-label programs from a 12,500 m² plant with 120,000+ boards of annual capacity. Trial runs start at 1–2 boards, pilots at 20–50, and standard volume MOQ from 90–100+ boards per approved configuration.',
+    float1: { value: '90–100+ pcs', label: 'Standard volume MOQ (per approved configuration)' },
     float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
   es: {
@@ -94,8 +99,8 @@ export const HERO_CONTENT = {
     mockupBrand: "SUP Explorer 11'",
     mockupHint: 'Tus gráficos · tus colores · tu packaging',
     heroNote:
-      'SUPSfactory es un fabricante de SUP a medida en Qingdao (Laixi), China — la división inflable de Afarer (Qingdao Vatrad Group). Gestionamos programas OEM, ODM y marca privada desde una planta de 12,500 m² con capacidad de 120,000+ tablas al año. Las pruebas de ensayo comienzan con 1–2 tablas, pilotos con 20–50， y el volumen estándar de MOQ desde 90–100 tablas por diseño.',
-    float1: { value: '90–100 pcs', label: 'Volumen estándar de MOQ (por rollo de 150 m)' },
+      'SUPSfactory es un fabricante de SUP a medida en Qingdao (Laixi), China — la división inflable de Afarer (Qingdao Vatrad Group). Gestionamos programas OEM, ODM y marca privada desde una planta de 12,500 m² con capacidad de 120,000+ tablas al año. Las pruebas de ensayo comienzan con 1–2 tablas, pilotos con 20–50, y el volumen estándar de MOQ desde 90–100+ tablas por configuración aprobada.',
+    float1: { value: '90–100+ uds.', label: 'Volumen estándar de MOQ (por configuración aprobada)' },
     float2: { value: FACTS.leadTime, label: 'Tiempo de producción ( después de la orden de compra)' },
   },
 }

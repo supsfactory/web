@@ -17,7 +17,7 @@ export const LLMS_TXT = `# SUPsfactory
 - Founded: 2012
 - Location: Economic Development Zone, Laixi, Qingdao, Shandong 266600, China
 - Contact: info@supsfactory.com | +86-13305324192
-- Minimum order quantity (tiered): 1–2 boards for samples / market tests · 5–10 units for co-branding small bulk · 20–50 units for pilot batches · 90–100+ units per 150 m roll (≈180–220 boards) for standard volume production, incl. custom-mould shapes
+- Minimum order quantity (tiered): 1–2 boards for samples / market tests · 5–10 units for co-branding small bulk · 20–50 units for pilot batches · 90–100+ units per approved configuration for standard volume production (subject to material-roll and packaging requirements), incl. custom-mould shapes. A 150 m drop-stitch roll yields different board counts depending on board size and nesting layout.
 - Sample / prototype lead time: 7–12 days
 - Production lead time: 25–35 days from confirmed PO and deposit; custom mould development adds 15–20 days
 - Manufacturing floor: 12,500 m² across 4 specialized workshops | Workers: 350+ | Annual capacity: 120,000+ units (10,000 boards/month on 4 automated lines)

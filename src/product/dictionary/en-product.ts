@@ -458,7 +458,7 @@ export const enProduct = {
         },
         {
           q: 'What is your real MOQ?',
-          a: 'MOQ is project-specific and explained in our MOQ guide: 1–2 units for samples, co-branding from 5–10 units, pilot batches of 20–50 units, and standard volume of 90–100+ units per 150 m roll (roughly 180–220 boards). Custom-mould designs are produced at the volume tier. The calculation is confirmed before quoting — no vague "low MOQ" numbers.',
+          a: 'MOQ is project-specific and explained in our MOQ guide: 1–2 units for samples, co-branding from 5–10 units, pilot batches of 20–50 units, and standard volume of 90–100+ units per approved configuration (subject to material-roll and packaging requirements). Custom-mould designs are produced at the volume tier. The calculation is confirmed before quoting — no vague "low MOQ" numbers.',
         },
         {
           q: 'What happens if production runs late?',

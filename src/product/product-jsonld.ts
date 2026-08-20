@@ -169,7 +169,7 @@ export function factoryCapabilitiesLd(): Record<string, unknown> {
       {
         '@type': 'Offer',
         name: 'Standard production run',
-        description: 'Regular bulk production per 150 m material roll',
+        description: 'Regular bulk production per approved configuration',
         priceSpecification: { '@type': 'PriceSpecification', price: '0', priceCurrency: 'USD', description: `MOQ ${MOQ_SHORT.standardRun}` },
       },
     ],
@@ -236,7 +236,7 @@ export function enhancedFaqLd(): Record<string, unknown> {
     },
     {
       q: 'What is the MOQ for custom SUP orders?',
-      a: `Trial/pilot orders start at ${MOQ_SHORT.trialStandard}; standard production runs are ${MOQ_SHORT.standardRun} per 150 m material roll.`,
+      a: `Trial/pilot orders start at ${MOQ_SHORT.trialStandard}; standard production runs are ${MOQ_SHORT.standardRun}.`,
       category: 'Pricing',
       priority: 5,
       keywords: ['MOQ', 'minimum order quantity', 'pilot order', 'custom SUP'],

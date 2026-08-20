@@ -50,7 +50,7 @@ values_section:
       description: 'Design, cutting, welding, assembly and testing happen in one 12,500 m² facility. No trading-company handoffs: the people who answer your questions are the people who build your boards.'
       icon: 'tabler:building-factory-2'
     - title: Small First Runs
-      description: 'Small-batch co-branding starts under 20 units and standard volume production runs 90–100+ units per batch (one 150 m drop-stitch roll), so brands validate the market before scaling — with tooling and artwork retained for reorders.'
+      description: 'Small-batch co-branding starts at 5–10 units and standard volume production runs 90–100+ units per batch (one 150 m drop-stitch roll), so brands validate the market before scaling — with tooling and artwork retained for reorders.'
       icon: 'tabler:layers-intersect'
 services_section:
   title: What the Factory Delivers
