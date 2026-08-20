@@ -1,4 +1,4 @@
-import { FACTS } from '@/product/facts'
+import { FACTS, MOQ_SHORT, CERTIFICATION_NAMES } from '@/product/facts'
 import { SITE_NAME, SITE_URL } from '@/config/site'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_CONTACT, BRAND_PARENT_URL } from '@/config/branding'
 import { LLM_SITE_DESCRIPTION } from './ai-content'
@@ -164,21 +164,21 @@ export function factoryCapabilitiesLd(): Record<string, unknown> {
         '@type': 'Offer',
         name: 'Trial / pilot order',
         description: 'Small pilot batch to validate spec before scaling',
-        priceSpecification: { '@type': 'PriceSpecification', price: '0', priceCurrency: 'USD', description: `MOQ ${FACTS.moq.trialStandard}` },
+        priceSpecification: { '@type': 'PriceSpecification', price: '0', priceCurrency: 'USD', description: `MOQ ${MOQ_SHORT.trialStandard}` },
       },
       {
         '@type': 'Offer',
         name: 'Standard production run',
         description: 'Regular bulk production per 150 m material roll',
-        priceSpecification: { '@type': 'PriceSpecification', price: '0', priceCurrency: 'USD', description: `MOQ ${FACTS.moq.standardRun}` },
+        priceSpecification: { '@type': 'PriceSpecification', price: '0', priceCurrency: 'USD', description: `MOQ ${MOQ_SHORT.standardRun}` },
       },
     ],
-    hasCredential: FACTS.certifications.map((c) => ({
+    hasCredential: CERTIFICATION_NAMES.map((c) => ({
       '@type': 'EducationalOccupationalCredential',
       credentialCategory: 'certification',
       name: c,
     })),
-    certification: FACTS.certifications,
+    certification: CERTIFICATION_NAMES,
     thirdPartyInspectors: FACTS.thirdPartyInspectors,
     qualityControl: {
       '@type': 'Thing',
@@ -201,10 +201,10 @@ export function brandHeritageLd(): Record<string, unknown> {
     historyHighlights: [
       { '@type': 'Event', name: 'Founding', startDate: '2012', description: `Founded as the inflatable SUP manufacturing division of ${BRAND_COMPANY_NAME}.` },
       { '@type': 'Event', name: 'Plant operations', description: `${FACTS.warehouseM2} inflatable manufacturing plant with ${FACTS.workshops} in Qingdao, China.` },
-      { '@type': 'Event', name: 'Certification', description: `Certified ${FACTS.certifications.join(', ')} \u2014 manufacturing quality, safety and social compliance.` },
+      { '@type': 'Event', name: 'Certification', description: `Certified ${CERTIFICATION_NAMES.join(', ')} \u2014 manufacturing quality, safety and social compliance.` },
       { '@type': 'Event', name: 'Global exports', description: `Supplies SUP OEM/ODM partners in ${FACTS.exportCountries} countries worldwide.` },
     ],
-    certifications: FACTS.certifications,
+    certifications: CERTIFICATION_NAMES,
     manufacturingExperience: {
       yearsInOperation: 'Since 2012',
       annualCapacity: FACTS.annualCapacity,
@@ -236,7 +236,7 @@ export function enhancedFaqLd(): Record<string, unknown> {
     },
     {
       q: 'What is the MOQ for custom SUP orders?',
-      a: `Trial/pilot orders start at ${FACTS.moq.trialStandard}; standard production runs are ${FACTS.moq.standardRun} per 150 m material roll.`,
+      a: `Trial/pilot orders start at ${MOQ_SHORT.trialStandard}; standard production runs are ${MOQ_SHORT.standardRun} per 150 m material roll.`,
       category: 'Pricing',
       priority: 5,
       keywords: ['MOQ', 'minimum order quantity', 'pilot order', 'custom SUP'],
@@ -264,7 +264,7 @@ export function enhancedFaqLd(): Record<string, unknown> {
     },
     {
       q: 'What certifications does the factory hold?',
-      a: `${FACTS.certifications.join(', ')} \u2014 with third-party inspection by ${FACTS.thirdPartyInspectors.join(', ')}.`,
+      a: `${CERTIFICATION_NAMES.join(', ')} \u2014 with third-party inspection by ${FACTS.thirdPartyInspectors.join(', ')}.`,
       category: 'Technical',
       priority: 4,
       keywords: ['certifications', 'ISO 9001', 'BSCI', 'CE', 'REACH', 'RoHS'],

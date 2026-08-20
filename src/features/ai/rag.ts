@@ -7,7 +7,7 @@
  */
 
 import { SITE_NAME, SITE_URL } from '@/config/site'
-import { AI_SYSTEM_ROLE, AI_INQUIRY_PROMPT } from '@/product/ai-content'
+import { AI_SYSTEM_ROLE, AI_INQUIRY_PROMPT, AI_DISCLOSURE } from '@/product/ai-content'
 
 export interface AiChunk {
   id: string
@@ -74,6 +74,8 @@ export function buildAskPrompt(input: AskPromptInput): { system: string; user: s
     AI_SYSTEM_ROLE.replaceAll('{SITE}', SITE_NAME),
     'Answer the buyer using ONLY the knowledge base below. Cite the relevant sources as [1], [2] after every factual claim.',
     'Never invent prices, MOQ, lead times, certifications, materials or delivery conditions — if a fact is not in the knowledge base, do not guess it.',
+    'For pricing, certification scope, or project-specific MOQ/lead-time questions, always add: "These details are project-confirmed. Request a quote for your specific requirements."',
+    AI_DISCLOSURE,
     AI_INQUIRY_PROMPT.replaceAll('{SITE_URL}', SITE_URL),
     'Answer in the same language as the buyer\'s question (English or Spanish). Be concise and helpful: state the answer first, then 2-5 short bullets of supporting detail.',
     '',

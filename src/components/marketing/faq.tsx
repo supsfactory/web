@@ -2,8 +2,8 @@ import { Plus } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, faq } from '@/product/content'
 import { SectionHead } from './section-head'
+import { faqSlug } from '@/features/ai/rag'
 
-/** SEO-friendly FAQ accordion (native <details>, no JS needed). */
 export function FaqSection({ heading }: { heading?: React.ReactNode }) {
   const { locale } = useTranslation()
   const c = pick(faq, locale)
@@ -18,15 +18,18 @@ export function FaqSection({ heading }: { heading?: React.ReactNode }) {
         />
       )}
       <div className="mt-12 flex flex-col gap-3">
-        {c.items.map((item) => (
-          <details key={item.q} className="faq-row">
-            <summary>
-              {item.q}
-              <Plus size={17} className="faq-icon" aria-hidden="true" />
-            </summary>
-            <div className="faq-body">{item.a}</div>
-          </details>
-        ))}
+        {c.items.map((item) => {
+          const anchor = faqSlug(item.q)
+          return (
+            <details key={item.q} id={anchor} className="faq-row scroll-mt-24">
+              <summary>
+                {item.q}
+                <Plus size={17} className="faq-icon" aria-hidden="true" />
+              </summary>
+              <div className="faq-body">{item.a}</div>
+            </details>
+          )
+        })}
       </div>
     </section>
   )

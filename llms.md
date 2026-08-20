@@ -1,6 +1,8 @@
 # SUPsfactory — LLM / RAG Content Index
 
 > **Purpose:** This file documents the content sources and structure that power the site's LLM discovery endpoints (`/llms.txt`, `/llms-full.txt`, `/entity.json`, `/rss.xml`, `/search-index.json`). All are generated **dynamically** from a single point of truth — edit the source, not a committed artifact.
+>
+> **Note:** The AI RAG assistant (Vectorize + Workers AI) requires a **Workers Paid plan** for production. The free tier has a 10,000 neurons/day quota which is insufficient for reindexing the full corpus.
 
 ## 1. Endpoint Map
 
@@ -60,9 +62,18 @@ src/content/site/
 ├─ news/             ← news posts with date, title, description
 ├─ technology/       ← technology explanation pages
 ├─ case-use/         ← case study write-ups
-├─ geo/              ← geographic/fact data for LLM grounding (JSON)
+├─ geo/              ← (empty — geo data moved to src/product/geo/)
 │
 └─ docs/             ← in-app docs (Fumadocs), excluded from LLM corpus at production
+```
+
+```
+src/product/geo/     ← Geo/fact data for LLM grounding (JSON, Product Layer)
+│
+├─ entity.json           Schema.org entity data
+├─ company-facts.json    Company facts (location, established, area)
+├─ certification-facts.json  Certification details
+└─ manufacturing-facts.json  Manufacturing capabilities & stats
 ```
 
 ## 3. LLM Index Build Logic (simplified)
@@ -93,7 +104,7 @@ export function buildLlmIndex(locale: 'en' | 'es' = 'en') {
 
 ## 4. Chunk Stability & Vectorize
 
-- **Chunk ids** are stable FNV-1a hashes of `(locale, url, part)` → daily re-runs upsert in place in Vectorize `sups-knowledge` / `-staging` / `-prod`.
+- **Chunk ids** are stable FNV-1a hashes of `(locale, url, part)` → daily re-runs upsert in place in Vectorize `supsfactory-knowledge` / `-staging` / `-prod`.
 - **Metadata** per chunk carries `text/url/title` so answer engines render sources as links.
 - **Rebuild** triggered daily at 03:00 UTC cron + every production deploy via `.github/workflows/ai-index.yml` (`POST /api/reindex` with `REINDEX_TOKEN`).
 
@@ -106,10 +117,10 @@ export function buildLlmIndex(locale: 'en' | 'es' = 'en') {
 
 | If you want to change… | Edit this file… | Effect |
 |------------------------|----------------|--------|
-| Product SKU / price / spec | `src/features/site/content.ts` → product entries | `/llms.txt`, `/llms-full.txt`, `/entity.json`, `/search-index.json` all rebuild on next deploy |
-| Solution page copy / CTA | `src/features/site/solution-pages.ts` | Same as above |
-| FAQ entries | `src/features/site/facts.ts` / per-page YAML | Same as above |
-| Add a new page / locale | Add path to `PUBLIC_PATHS` in `seo.ts`; add YAML in `src/content/afarer/` | New entry appears in sitemap, LLM index, search-index within one deploy cycle |
+| Product SKU / price / spec | `src/product/content.ts` → product entries | `/llms.txt`, `/llms-full.txt`, `/entity.json`, `/search-index.json` all rebuild on next deploy |
+| Solution page copy / CTA | `src/product/solution-pages.ts` | Same as above |
+| FAQ entries | `src/product/facts.ts` / per-page YAML | Same as above |
+| Add a new page / locale | Add path to `PUBLIC_PATHS` in `seo.ts`; add YAML in `src/content/site/` | New entry appears in sitemap, LLM index, search-index within one deploy cycle |
 | SEO metadata (OG, Twitter) | `src/features/site/branding.mdx` / `branding.ts` | OpenGraph/Twitter cards update on next build |
 
 ---

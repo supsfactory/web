@@ -1,0 +1,47 @@
+meta:
+  title: "Inflatable SUP Certification — CE, REACH, RoHS & Compliance Guide"
+  description: "Certification scope for inflatable SUP manufacturing: CE (EU models), BSCI, ISO 9001, REACH, RoHS. Certificate numbers available per project on request."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Direct Answer"
+    directAnswer:
+      answer: "SUPsfactory holds BSCI, ISO 9001, ISO 25649, CE, REACH and RoHS certifications. CE applies to models destined for EU markets — not universally 'all products'."
+      condition: "Certification scope varies by target market and product configuration. Certificate numbers, validity and issuing authorities are available per project on request."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "2026-08-20"
+      sourceType: "certificate"
+    body: |
+      Certification is a key procurement concern and must be stated precisely.
+      Blanket claims like "CE on all products" can create trust issues if a buyer
+      later discovers the scope is narrower than expected.
+
+  - title: "Certification details"
+    body: |
+      | Certification | Scope | Authority | Applies to |
+      |---------------|-------|-----------|------------|
+      | BSCI | Social responsibility audit | amfori BSCI | Manufacturing facility |
+      | ISO 9001 | Quality management system | Certifying body (available on request) | Manufacturing facility |
+      | ISO 25649 | Inflatable water craft safety | ISO | Applicable SUP models per market |
+      | CE | EU market conformity (EN ISO 6185 / 10087 / 10240) | EU notified body | Models destined for EU market |
+      | REACH | EU chemical safety | ECHA | Materials used in production |
+      | RoHS | Restriction of hazardous substances | EU directive | Electronic accessories (pumps) |
+
+  - title: "Important scope notes"
+    body: |
+      - **CE** applies to models configured for EU market sale. A board built for US or Australian
+        distribution does not carry the CE mark unless specifically requested.
+      - **ISO 9001** covers the manufacturing facility's quality management system, not individual
+        product certification.
+      - **REACH** compliance covers materials used in production — documentation available for
+        importers who must register substances.
+      - Certificate numbers, validity dates and issuing authorities are available per project on
+        request. We do not publish certificate numbers publicly for security reasons.
+      - Third-party inspection available through SGS, TÜV, BV or Intertek for any shipment.
+
+  - title: "How to request certification documents"
+    body: |
+      During the inquiry process, specify your target markets and we will confirm which
+      certifications apply to your specific product configuration. Certificate copies
+      (with redacted commercial details where needed) are provided as part of the
+      project documentation package.

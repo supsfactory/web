@@ -1,0 +1,22 @@
+meta:
+  title: "MOQ para SUP inflable — Cantidades mínimas explicadas"
+  description: "MOQ escalonado para fabricación de SUP hinchables: 5–10 co-branding, 20–50 piloto, 90–100+ volumen por rollo. Árbol de decisión por nivel de personalización."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Respuesta directa"
+    directAnswer:
+      answer: "Los pilotos sobre plataformas existentes empiezan en 20–50 uds.; el MOQ de volumen estándar es de 90–100+ uds. por rollo de drop-stitch de 150 m (~180–220 tablas)."
+      condition: "El MOQ específico depende de la forma, el rollo de material, la impresión, el embalaje y si se necesita un molde nuevo."
+      value: "5–10 co-branding · 20–50 piloto · 90–100+ por rollo de volumen"
+      verifiedDate: "2026-08-20"
+      sourceType: "factory-record"
+    body: |
+      El MOQ en SUPsfactory se escalona por nivel de personalización, no es un único número.
+
+      | Escenario | MOQ | Unidad | Condición |
+      |-----------|-----|--------|-----------|
+      | Plataforma existente, solo logotipo | 5–10 uds. | por diseño | Misma forma, mismo rollo, mismo color |
+      | Gráficos/EVA/empaque personalizado sobre plataforma existente | 20–50 uds. | lote piloto | Misma forma; el arte nuevo requiere prueba visual |
+      | Producción de volumen estándar | 90–100+ uds. | por rollo de 150 m (~180–220 tablas) | Por rollo; múltiples SKU = rollos separados |
+      | Forma nueva / molde a medida | 90–100+ uds. | tirada de producción | Utillaje suma 15–20 días; tarifa de molde única |

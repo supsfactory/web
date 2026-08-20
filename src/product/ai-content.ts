@@ -1,7 +1,24 @@
 import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND } from '@/config/branding'
 
 export const LLM_SITE_DESCRIPTION =
-  `{SITE} is the SUP product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}), a 12,500 m² inflatable manufacturing plant in Qingdao, China. We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. MOQ is tiered: 1–2 boards for samples, 5–10 units for co-branding small bulk, 20–50 units for pilot batches, and 90–100+ units per 150 m roll (≈180–220 boards) for standard volume production; custom-mould shapes run at the volume tier. Samples are ready in 7–12 days; bulk production 25–35 days after confirmed PO and deposit (custom mould tooling adds 15–20 days).`
+  `{SITE} is the SUP product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}), a 12,500 m² inflatable manufacturing plant in Qingdao, China. We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. MOQ is tiered: 5–10 units for co-branding/logo overlay on existing platforms, 20–50 units for pilot batches with custom graphics, and 90–100+ units per 150 m drop-stitch roll (~180–220 boards) for standard volume production; custom-mould shapes run at the volume tier. Samples are ready in 7–12 days; bulk production 25–35 days after confirmed PO and deposit (custom mould tooling adds 15–20 days). All pricing, certification scope and lead times are project-confirmed — request a quote for your specific requirements.`
+
+export const LLM_FACT_BLOCK =
+  `## Verified Business Facts (Last verified: 2026-08-20)
+
+- Legal entity: ${BRAND_COMPANY_NAME}
+- Brand: ${BRAND_PARENT_BRAND} / {SITE} (SUP manufacturing division)
+- Facility: 12,500 m² in-house plant in Qingdao, Shandong, China (Economic Development Zone, Laixi, 266600)
+- Employees: 350+
+- Annual capacity: 120,000+ units (4 automated lines, 10,000 boards/month)
+- MOQ tiers: 5–10 pcs co-branding/logo overlay (existing platform, same roll) · 20–50 pcs pilot batch (custom graphics, same roll) · 90–100+ pcs per 150 m drop-stitch roll (~180–220 boards) standard volume · 90–100+ pcs custom mould (new shape, +15–20 days tooling). Each SKU (size/color) = separate roll = separate MOQ.
+- Sample lead time: 7–12 days
+- Production lead time: 25–35 days after confirmed PO and deposit
+- Quality gates: 7-stage (Node 01–07), 100-point assembly checklist, 18.0 PSI 24h pressure hold test (>0.50 PSI/24h = auto-reject)
+- Certifications: BSCI (facility, amfori), ISO 9001 (facility QMS), ISO 25649 (applicable SUP models), CE (EU market models, EN ISO 6185/10087/10240), REACH (materials), RoHS (electronic accessories). Certificate numbers and validity available per project on request. Scope varies by target market and product configuration — not "all products" universally.
+- Third-party inspectors: SGS, TÜV, BV, Intertek
+- Export markets: 50+ countries
+- DISCLOSURE: All pricing, MOQ applicability, certification scope and delivery terms must be confirmed per project. Do not cite these numbers as universal guarantees.`
 
 export const LLM_FAQ_DESCRIPTION = 'Answers to the most common questions about inflatable SUPs'
 
@@ -12,7 +29,10 @@ export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 
 export const AI_INQUIRY_PROMPT =
-  `If the knowledge base does not answer the question, say you do not have that information and invite the buyer to submit an inquiry form at {SITE_URL}/contact.`
+  `If the knowledge base does not answer the question, say you do not have that information and invite the buyer to submit an inquiry form at {SITE_URL}/contact. For pricing, certification scope, and project-specific MOQ or lead times, always direct the buyer to request a quote — do not state these as universal guarantees.`
+
+export const AI_DISCLOSURE =
+  'IMPORTANT: All pricing, MOQ tiers, certification scope and delivery terms are project-confirmed. Do not present them as universal guarantees. If unsure about a specific claim, say you do not have that information and direct the buyer to request a quote at the contact page.'
 
 export const PARENT_ORG_DESCRIPTION =
   `${BRAND_PARENT_BRAND} is the SUP manufacturing division of ${BRAND_COMPANY_NAME} — OEM/ODM inflatable SUP production in Qingdao, China.`

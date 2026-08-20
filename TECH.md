@@ -1,11 +1,11 @@
 # SUPsfactory — Technical Documentation
 
-> Last updated: 2026-08-19
+> Last updated: 2026-08-20
 > Project path: `E:\github\supsfactory`
 > Production: https://supsfactory.com (Cloudflare Workers, `supsfactory-production`)
 > Stack: TanStack Start (React 19) + Cloudflare Workers + D1 (Drizzle ORM) + KV + R2 + better-auth + Resend + Orama (search) + Fumadocs (docs)
 > > Media: All large assets (videos, PDFs, quality photos, product photos) migrated to Cloudflare R2 bucket `supsfactory-files-prod`, served via CDN `assets.supsfactory.com/site/*`; `public/assets/*` directories added to `.gitignore`; upload script `scripts/upload-site-assets.mjs` supports `--prefix <prefix>` for multi-site key isolation.
-> > Tests: 267 (Vitest node + workers pools); `pnpm typecheck` / `pnpm build` green
+> > Tests: 272 (Vitest node + workers pools, 45 files); `pnpm typecheck` / `pnpm build` green
 > > Architecture: 5-layer decoupling — Product Layer (`src/product/`) → Site Configuration (`src/config/`) → Website Foundation (`src/features/`) → Cloudflare Platform → Infrastructure. Framework code never imports brand data directly.
 
 ---
@@ -23,7 +23,7 @@ Everything runs on the edge — the marketing site, the SaaS app, and all APIs a
 | **Private surfaces never cache** | `/app`, `/admin`, `/api`, `/login`, `/register`, `/sign-in`, `/sign-up`, `/signout`, `/forgot-password`, `/reset-password`, `/auth`, `/oauth`, `/verify` (first path segment) are force-stamped `Cache-Control: private, no-store` + `Vary: Cookie` on **every** method — even if the framework stamped `public` on an SSR response. This makes the worker immune to a CDN misconfiguration caching one user's session page for another. |
 | URL gate (`src/features/seo/edge-gate.ts`) | `EDGE_REDIRECTS` maps every duplicate/legacy URL to its canonical keeper (301, `max-age=3600`); a set of removed template pages 410s (`/docs`, `/waitlist`, `/changelog`); trailing slashes 301 to the slash-less form; retired `/zh/*` URLs 301 to their `/es` mirror. Runs **before** any route handler, so redirects never SSR. |
 | Cron | Two triggers in `wrangler.jsonc`: `0 3 * * *` daily maintenance cleanup (expired `session`/`verification`/stale `rateLimit` rows — `src/features/maintenance/cleanup.ts`, no outbound calls) and `*/5 * * * *` **edge-cache warming** (`warmEdgeCache`: replays `/`, `/es` and all `/products/*` paths through the real handler with a cache-busting query, then overwrites the clean-URL Cache API entry so real visitors get an edge hit instead of a cold worker render). |
-| Assets | Self-hosted fonts, `public/` statics. Product photos served from `assets.supsfactory.com` (the site's own R2 CDN). All site content (`src/content/site/`) is bundled at build time via Vite glob + `?raw` — no filesystem at runtime. |
+| Assets | Self-hosted fonts, `public/` statics. Product photos served from `assets.supsfactory.com` (the site's own R2 CDN). All site content (`src/content/site/`) is bundled at build time via Vite glob + `?raw` — no filesystem at runtime. Catch-all route `$.tsx` renders content via `ContentCatchAll` component (`src/features/content/catchall.tsx`). |
 
 ### 1.2 Locale routing and the two content worlds
 
@@ -32,9 +32,9 @@ Path-based bilingual routing via TanStack's `{-$locale}` optional prefix: Englis
 The site serves **two content worlds** from one route tree:
 
 1. **Bilingual marketing site** (`{-$locale}/` routes) — copy/UI in `src/product/content.ts`, solution pages in `src/product/solution-pages.ts`.
-2. **Ported brand content** (English-only) — the factory/technology/research/news/product content from `src/content/site/`. The root catch-all `src/routes/$.tsx` strips an optional leading locale segment and resolves the rest against the content registry; unknown paths throw `notFound()`. ~45 single-segment paths (e.g. `/factory`, `/oem-odm-manufacturer`, `/technology`) get their own static route stub via `afarerSingleRoute()` — they **must** be explicit routes because the optional `{-$locale}` group terminates on a bare segment before the splat is ever considered (a static route outranks the optional group).
+2. **Ported brand content** (English-only) — the factory/technology/research/news/product content from `src/content/site/`. The root catch-all `src/routes/$.tsx` (component: `CatchAllPage` → `ContentCatchAll`) strips an optional leading locale segment and resolves the rest against the content registry; unknown paths throw `notFound()`. ~45 single-segment paths (e.g. `/factory`, `/oem-odm-manufacturer`, `/technology`) get their own static route stub via `contentSingleRoute()` (loader + head only, component rendered by the catch-all) — they **must** be explicit routes because the optional `{-$locale}` group terminates on a bare segment before the splat is ever considered (a static route outranks the optional group).
 
-Registry ownership is explicit: `SHADOWED_PATHS` (`src/product/route-registry.ts`) lists every path owned by a static route — registry entries under those are never rendered; `EXTRA_PATHS` maps registry-less pages (research articles, R&D subpages, ported solution/OEM pages) to their YAML slugs for dedicated routes.
+Registry ownership is explicit: `SHADOWED_PATHS` (`src/product/route-registry.ts`) lists every path owned by a static route — registry entries under those are never rendered; `EXTRA_PATHS` maps registry-less pages (research articles, R&D subpages, ported solution/OEM pages) to their YAML slugs for dedicated routes. Single-segment routes use `contentSingleRoute()` from `src/features/content/content-single-route.ts` which provides loader + head but no component (rendered by the catch-all `$.tsx`).
 
 ### 1.3 Three data stores
 
@@ -158,7 +158,7 @@ The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`,
 | Task | Command |
 |------|---------|
 | Dev server | `pnpm dev` |
-| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 267 tests |
+| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 272 tests (45 files) |
 | Typecheck / lint / build | `pnpm typecheck` (fumadocs-mdx + tsc) / `pnpm lint` / `pnpm build` |
 | D1 migrations | `pnpm db:generate` → `pnpm db:migrate:local` (local); `db:migrate:staging` / `db:migrate:prod` (remote) |
 | Deploy | `pnpm deploy:staging` / `pnpm deploy:prod` (builds with `CLOUDFLARE_ENV` + `wrangler deploy`); `pnpm deploy:purge` purges the CDN (needs `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ZONE_ID` w/ cache-purge scope); `deploy:prod:all` = deploy + purge |
@@ -180,11 +180,11 @@ A floating chat widget (bottom-right, above the WhatsApp/WeChat floats and the m
 |-------|-------|
 | Corpus | `corpus.ts` `buildChunks(locale)` — one atomic chunk per piece of info: solution pages (+ their FAQ blocks individually), knowledge hub per-section, projects, product series, guides, afarer products/news/technology/case-studies, afarer pages (SEO description), and every site FAQ as its own Q/A chunk; en + es, URLs localized via `localizePath` |
 | Embeddings | Workers AI `@cf/baai/bge-m3` (1024-dim, multilingual) in batches of 64 |
-| Index | Vectorize `sups-knowledge` / `-staging` / `-prod` (per env); chunk ids are stable FNV-1a hashes of `(locale, url, part)` so daily re-runs upsert in place |
+| Index | Vectorize `supsfactory-knowledge` / `-staging` / `-prod` (per env); chunk ids are stable FNV-1a hashes of `(locale, url, part)` so daily re-runs upsert in place |
 | Retrieval | top-K=6 cosine, `returnMetadata: 'all'`; metadata carries `text/url/title` so sources render as links |
 | Generation | `@cf/meta/llama-3.2-3b-instruct` via `buildAskPrompt` (pure, in `rag.ts`): system prompt forbids inventing prices/MOQ/lead-times/certifications, demands `[n]` citations, and redirects unknown topics to `/contact`; answers in the buyer's language |
-| Degradation | No AI/Vectorize bindings, empty retrieval, or any failure → `matchFaq` keyword-overlap fallback (≥3 significant words, ≥55% overlap) against `getSiteFaqs(locale)` → last resort empty answer. The widget works from day one, before the index ever exists |
+| Degradation | No AI/Vectorize bindings, empty retrieval, or any failure → `matchFaq` keyword-overlap fallback (CJK: character-level tokenization + cross-language keyword expansion, min score 0.30 vs 0.55 for English; ≥3 significant words, ≥55% overlap for English) against `getSiteFaqs(locale)` → last resort empty answer. The widget works from day one, before the index ever exists |
 | Cache | KV `aiask:{locale}:{hash}` TTL 6h (hit answers served without AI calls); per-IP rate limit 10/10 min + daily global cap 1500, both fail-open; `/api/ask` is a POST JSON endpoint (route pattern mirrors `/api/search`, everything AI-related is dynamically imported) |
-| Rebuild | `ingest.ts` `rebuildAiIndex` runs in the daily 03:00 UTC cron (same block as maintenance cleanup, idempotent; skipped when bindings are absent). After every production deploy, `.github/workflows/ai-index.yml` re-creates the indexes if missing (idempotent) and triggers a rebuild via the token-guarded `POST /api/reindex` (`REINDEX_TOKEN` secret, 404 when unset / 401 on mismatch), then smoke-tests `/api/ask` |
+| Rebuild | `ingest.ts` `rebuildAiIndex` runs in the daily 03:00 UTC cron (same block as maintenance cleanup, idempotent; skipped when bindings are absent). After every production deploy, `.github/workflows/ai-index.yml` re-creates the indexes if missing (idempotent) and triggers a rebuild via the token-guarded `POST /api/reindex` (`REINDEX_TOKEN` secret, 404 when unset / 401 on mismatch), then smoke-tests `/api/ask`. **Workers AI free tier quota:** 10,000 neurons/day — for production RAG workloads, upgrade to the Workers Paid plan ($5/month) |
 
-Frontend: `src/features/ai/ai-chat.tsx` (mounted in `Footer`), i18n under `sup.aiChat.*`. Tests: `ai.node.test.ts` (chunker/prompt/FAQ-match/id stability, node pool) + `ask.workers.test.ts` (FAQ fallback against the miniflare KV, workers pool).
+Frontend: `src/features/ai/ai-chat.tsx` (mounted in `Footer`), i18n under `sup.aiChat.*`. Tests: `ai.node.test.ts` (chunker/prompt/FAQ-match/CJK/id stability, node pool) + `ask.workers.test.ts` (FAQ fallback against the miniflare KV, workers pool).

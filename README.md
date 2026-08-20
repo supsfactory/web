@@ -1,6 +1,6 @@
 <div align="center">
   <h1>SUPsfactory</h1>
-  <p>Your custom SUP product development & manufacturing partner — 10 manufacturing platforms, real OEM/ODM, bilingual (en/es) marketing site + 5-page solutions system, shipped edge-native.</p>
+  <p>Your custom SUP product development & manufacturing partner — 10 manufacturing platforms, real OEM/ODM, bilingual (en/es) marketing site + 5-page solutions system, shipped edge-native on Cloudflare Workers.</p>
   <p>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
     <a href="https://developers.cloudflare.com/workers/"><img src="https://img.shields.io/badge/Cloudflare-Workers-F38020?logo=cloudflare&logoColor=white" alt="Cloudflare Workers"></a>
@@ -70,7 +70,7 @@ These files contain **all brand-specific content**. Replace their contents with 
 | `dictionary/en-product.ts` | Product-specific strings (legal, inquiry, sup-specific) | Your product text |
 | `dictionary/es-ui.ts` | Spanish UI strings | Spanish translations |
 | `dictionary/es-product.ts` | Spanish product strings | Spanish product text |
-| `geo/*.json` | Entity, services, factory, shipping geo data | Your geo data |
+| `geo/*.json` | Entity, company facts, certification facts, manufacturing facts | Your geo data |
 
 #### 3. Replace content files (`src/content/site/`)
 
@@ -230,8 +230,8 @@ This guide maps the **major architectural layers** of SUPsfactory to their sourc
 | **SEO & LLM Discovery** | Sitemap, robots, llms.txt, entity.json, RSS | `src/features/seo/seo.ts` (PUBLIC_PATHS, hreflang), `src/features/site/llm.ts`, `src/features/content/loader.ts` (`getGeoEntity`) | All LLM/SSEO endpoints generated from single source of truth |
 | **Auth & Admin** | better-auth, admin-only gates, roles | `src/features/auth/`, `src/features/admin/assert-admin.server.ts`, `ADMIN_EMAILS` env | Email/password auth, verification, password reset, OAuth; single source of admin truth |
 | **Data Stores** | D1, KV, R2, Vectorize | `src/db/`, `src/lib/cache-headers.ts`, `features/storage/`, `src/features/ai/` | SQLite auth + app tables; per-IP rate limits; blob storage; RAG index |
-| **AI Sales Assistant** | RAG Q&A chat widget | `src/features/ai/corpus.ts`, `src/features/ai/ai-chat.tsx`, Vectorize `sups-knowledge` | Answers from site content with 6-citation minimum; degrades to keyword-FAQ fallback |
-| **Testing & CI** | 267 tests, typecheck, build | `pnpm test`, `pnpm typecheck`, `pnpm build`; CI: `ci.yml`, `deploy.yml` | Full regression test suite; type-safe build; deploy pipeline with CDN purge + edge warm |
+| **AI Sales Assistant** | RAG Q&A chat widget | `src/features/ai/corpus.ts`, `src/features/ai/ai-chat.tsx`, Vectorize `supsfactory-knowledge` | Answers from site content with 6-citation minimum; degrades to keyword-FAQ fallback; **requires Workers Paid plan** (free tier has 10K neurons/day quota) |
+| **Testing & CI** | 272 tests (45 files), typecheck, build | `pnpm test`, `pnpm typecheck`, `pnpm build`; CI: `ci.yml`, `deploy.yml` | Full regression test suite; type-safe build; deploy pipeline with CDN purge + edge warm |
 
 --- 
 
@@ -286,7 +286,7 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 | **Waitlist** | A complete pre-launch signup loop: a public signup page, Turnstile bot protection, an admin management page + CSV export, and automatic subscriber sync into a [Resend](https://resend.com) audience (gracefully skipped when unconfigured). Routes are 410'd in production (edge URL gate) — kept as template reference. |
 | **Inquiry** | A public B2B inquiry form (name/company/country/email/WhatsApp/business type/quantity/requirements + optional project-file upload to R2 — PNG/JPG/SVG/WebP/PDF/AI/PSD/DWG/DXF/ZIP, ≤10 MB, extension whitelist + per-format magic-number sniffing) with per-IP rate limiting + Turnstile, an HTML-escaped admin notification email, and an admin pipeline: status workflow, CSV export, and sandboxed file serving. |
 | **Search** | Header dialog → `/search-index.json` (public, edge-cached 1h); `/search` page → Orama full-text over the same corpus; `/api/search` → in-docs search with a lazy-loaded single Orama instance and per-IP rate limiting (60/min). |
-| **AI Assistant** | Floating RAG chat (`src/features/ai/`): bge-m3 embeddings + Vectorize index over the en/es corpus, llama-3.2-3b answers with `[n]`-cited sources, multi-turn history, KV-answer caching (6h), per-IP + daily-quota rate limiting, nightly index rebuild in the cron, and FAQ keyword fallback when the AI stack is unavailable — no mocks, degrades gracefully. |
+| **AI Assistant** | Floating RAG chat (`src/features/ai/`): bge-m3 embeddings + Vectorize index over the en/es corpus, llama-3.2-3b answers with `[n]`-cited sources, multi-turn history, KV-answer caching (6h), per-IP + daily-quota rate limiting, nightly index rebuild in the cron, and FAQ keyword fallback when the AI stack is unavailable — no mocks, degrades gracefully. **Note:** Workers AI free tier is limited to 10,000 neurons/day; a Workers Paid plan is required for production RAG workloads. |
 | **Changelog** | An in-app `/changelog` page — MDX-driven, per-locale, with a `published` flag (410'd in production, template reference). |
 | **Feedback** | Signed-in users submit feedback + a "my feedback" list; an admin governance page drives status transitions and replies. Also the **reference for adding your own feature**: a vertical slice with ownership filtering, a pure function layer, both gate patterns, and dual-pool tests — see [feedback](src/content/docs/features/feedback.mdx). |
 | **i18n** | Path-based locale routing via TanStack's `{-$locale}` optional prefix — English at `/`, Español at `/es`. All marketing copy and UI strings translated. |
@@ -308,7 +308,7 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 - **[Orama](https://orama.com)** full-text search (stopwords + tokenizers), **[Fumadocs](https://fumadocs.dev)** docs
 - **[Workers AI](https://developers.cloudflare.com/workers-ai/)** (bge-m3 embeddings + llama-3.2-3b) and **[Vectorize](https://developers.cloudflare.com/vectorize/)** (RAG knowledge index)
 - **[Tailwind CSS v4](https://tailwindcss.com)**
-- **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`) — **258 tests green**
+- **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`) — **272 tests green (45 files)**
 
 ## Prerequisites
 
@@ -383,8 +383,8 @@ src/
     solution-pages.ts   Solutions + paths
     procurement.ts      B2B procurement data
     llms-content.ts     LLMS.TXT text
-    dictionary/         en-ui, en-product, es-ui, es-product + merge utility
-    geo/                Entity, services, factory, shipping JSON
+     dictionary/         en-ui, en-product, es-ui, es-product + merge utility
+     geo/                entity, company-facts, certification-facts, manufacturing-facts JSON
   config/            # ★ SITE CONFIGURATION — adjust per deployment
     site.ts             SITE_ID, SITE_NAME, SITE_DOMAIN, SITE_URL
     branding.ts         Logo, social, contact, parent brand (most derived from site.ts + product/)
@@ -412,13 +412,25 @@ src/
     maintenance/     Cron cleanup (sessions, tokens, rate limits)
     theme/           Dark-first theme toggle
     ai/              RAG chat: Vectorize + Workers AI + FAQ fallback
-  components/
-    ui/              Primitives
-    marketing/       Hero, sections, board-art, site-nav, footer, etc.
-  routes/
-    {-$locale}/      Locale-prefixed pages (/, /es, /products, /solutions, etc.)
-    *.tsx            Single-segment content stubs (factory, technology, etc.)
-    $                Root catch-all → content registry
+   components/
+     ui/              Primitives
+     marketing/       Hero, sections, board-art, site-nav, footer, etc.
+     brand/           Logo component (product-specific)
+     app/             App shell (account, feedback)
+   routes/
+     {-$locale}/      Locale-prefixed pages (/, /es, /products, /solutions, etc.)
+       (auth)/        Login, register, forgot/reset password, verify email
+       admin/         Admin dashboard (users, inquiries, feedback, waitlist)
+       app/           User account, feedback
+       about/         About page + entity page
+       products/      Product catalog + $series detail
+       solutions/     5 solution pages (custom-sup, private-label-sup, resort-sup, club-sup, school-sup)
+       knowledge/     Knowledge hub + $slug articles
+       projects/      Project gallery + $slug detail
+     {-}/             Non-locale route group
+     *.tsx            Single-segment content stubs (factory, technology, etc.)
+     $.tsx            Root catch-all → ContentCatchAll (content registry resolver)
+     api/             Server API routes (ask, search, reindex, auth, avatars, inquiry-logo)
     api/             Server API routes
   content/site/     # ★ PRODUCT CONTENT — swap per deployment
     pages/           Page YAML (about, factory, solutions, etc.) — en + es
@@ -513,7 +525,7 @@ The repo ships five workflows:
 | `TURNSTILE_SECRET_KEY` | Same Turnstile widget → `Secret Key` | No captcha |
 | `CF_ANALYTICS_TOKEN` | Dashboard → Analytics & Logs → Web Analytics → your site → Manage → copy the beacon token (this is **not** an API token) | No beacon injected |
 | `SENTRY_DSN` | Sentry → project → Settings → Client Keys (DSN) | No error reporting |
-| `REINDEX_TOKEN` | Any strong random string, e.g. `openssl rand -hex 24` — bearer token for `POST /api/reindex` (the AI-index workflow rebuilds the Vectorize index after every deploy) | Index rebuilt only by the daily 03:00 UTC cron |
+| `REINDEX_TOKEN` | Any strong random string, e.g. `openssl rand -hex 24` — bearer token for `POST /api/reindex` (the AI-index workflow rebuilds the Vectorize index after every deploy). **Workers AI free tier has 10K neurons/day; upgrade to Workers Paid for production RAG.** | Index rebuilt only by the daily 03:00 UTC cron |
 
 Notes:
 
@@ -534,7 +546,7 @@ Create it at [dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.co
 | Workers KV Storage | Edit | deploy binds the KV namespace; `wrangler kv namespace list` (variable lookup) | Yes |
 | D1 | Edit | `d1 migrations apply supsfactory-db-prod --env production --remote` before every deploy; `wrangler d1 list` | Yes |
 | R2 Storage | Edit | creates buckets + uploads afarer images (`scripts/upload-afarer-images.mjs`, used by deploy backfill and the manual upload workflow) | Yes |
-| Vectorize | Edit | idempotently creates the 3 knowledge indexes (`sups-knowledge`, `-staging`, `-prod`) before deploy — deploy fails with code 10159 if the bound index is missing | Yes |
+| Vectorize | Edit | idempotently creates the 3 knowledge indexes (`supsfactory-knowledge`, `-staging`, `-prod`) before deploy — deploy fails with code 10159 if the bound index is missing | Yes |
 | Account Settings | Read | wrangler account/plan diagnostics | Recommended |
 
 **Zone resources** (scope to the zone `supsfactory.com`):
@@ -548,7 +560,7 @@ Create it at [dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.co
 
 Notes:
 
-- **Workers AI** (bge-m3 embeddings + llama-3.2-3b used by the RAG assistant) is a runtime feature gated by your account's plan — it needs **no API-token permission**; same for the AI binding. Only Vectorize creation needs the Vectorize permission above.
+- **Workers AI** (bge-m3 embeddings + llama-3.2-3b used by the RAG assistant) is a runtime feature gated by your account's plan — it needs **no API-token permission**; same for the AI binding. Only Vectorize creation needs the Vectorize permission above. The free tier has a 10,000 neurons/day quota; **upgrade to Workers Paid** for production RAG workloads.
 - No custom domain? (default `*.workers.dev`): you can omit all Zone resources — the purge/warm steps detect the missing zone and skip cleanly.
 - `CF_ANALYTICS_TOKEN` is **not** an API token — it is the per-site Web Analytics beacon token from the dashboard; do not confuse the two.
 - To verify a token afterwards: `curl https://api.cloudflare.com/client/v4/user/tokens/verify -H "Authorization: Bearer <token>"` (or run the `cf-inspect.yml` workflow).

@@ -1,0 +1,24 @@
+meta:
+  title: "Certificación de SUP inflable — Guía de CE, REACH, RoHS y conformidad"
+  description: "Alcance de certificación para fabricación de SUP hinchables: CE (modelos UE), BSCI, ISO 9001, REACH, RoHS. Números de certificado disponibles por proyecto."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Respuesta directa"
+    directAnswer:
+      answer: "SUPsfactory posee certificaciones BSCI, ISO 9001, ISO 25649, CE, REACH y RoHS. CE aplica a modelos destinados al mercado europeo — no es 'todos los productos' universalmente."
+      condition: "El alcance varía según mercado objetivo y configuración del producto. Números y validez disponibles por proyecto."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "2026-08-20"
+      sourceType: "certificate"
+    body: |
+      La certificación debe indicarse con precisión. Afirmaciones genéricas como "CE en todos los productos" pueden generar desconfianza si el comprador descubre que el alcance es más limitado.
+
+      | Certificación | Alcance | Autoridad | Aplica a |
+      |---------------|---------|-----------|----------|
+      | BSCI | Auditoría de responsabilidad social | amfori BSCI | Instalación de fabricación |
+      | ISO 9001 | Sistema de gestión de calidad | Organismo certificador | Instalación de fabricación |
+      | ISO 25649 | Seguridad de embarcaciones inflables | ISO | Modelos de SUP aplicables |
+      | CE | Conformidad mercado UE (EN ISO 6185/10087/10240) | Organismo notificado UE | Modelos destinados al mercado UE |
+      | REACH | Seguridad química UE | ECHA | Materiales de producción |
+      | RoHS | Restricción de sustancias peligrosas | Directiva UE | Accesorios electrónicos (bombas) |

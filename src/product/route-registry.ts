@@ -25,6 +25,8 @@ export const SHADOWED_PATHS: Set<string> = new Set([
   '/knowledge', '/knowledge/how-custom-sup-boards-are-developed',
   '/knowledge/inflatable-sup-construction-explained',
   '/knowledge/how-organizations-choose-sup-equipment',
+  '/oem-sup-moq',
+  '/inflatable-sup-certification',
   ENTITY_PAGE_PATH,
 ])
 

@@ -350,6 +350,32 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
+- slug: oem-sup-moq
+  label: Inflatable SUP MOQ Explained
+  path: /oem-sup-moq
+  permalink: /oem-sup-moq
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: direct_answer, type: answer, label: 'Direct Answer' }
+    - { key: decision_tree, type: content, label: 'MOQ Decision Tree' }
+    - { key: material_roll, type: content, label: 'Material Roll Explanation' }
+    - { key: tiers, type: content, label: 'Co-branding vs Pilot vs Volume' }
+    - { key: custom_mould, type: content, label: 'Custom Mould MOQ' }
+    - { key: samples, type: content, label: 'Sample Orders' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: inflatable-sup-certification
+  label: Inflatable SUP Certification Guide
+  path: /inflatable-sup-certification
+  permalink: /inflatable-sup-certification
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: direct_answer, type: answer, label: 'Direct Answer' }
+    - { key: details, type: content, label: 'Certification Details' }
+    - { key: scope_notes, type: content, label: 'Scope Notes' }
+    - { key: request, type: content, label: 'How to Request Documents' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
 - slug: randdcenter
   label: R&D Center
   path: /randdcenter

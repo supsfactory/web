@@ -25,7 +25,7 @@ import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd } from '@/featur
 import { brandify } from './brand'
 import { AferIndexProvider, type AferIndexData } from './index-data'
 import { getGuide } from './guide-content'
-import { FACTS } from '@/product/facts'
+import { FACTS, MOQ_SHORT, CERTIFICATION_NAMES } from '@/product/facts'
 import { SITE_NAME } from '@/config/site'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config/branding'
 import { CUSTOMIZATION_OPTIONS, OEM_APPLICATIONS } from '@/product/ai-content'
@@ -33,6 +33,7 @@ import { JSONLD_KEYWORDS } from '@/product/ai-content'
 import { ArrowRight } from 'lucide-react'
 import { ContentSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
+import { faqSlug } from '@/features/ai/rag'
 import type { ContentArticle, ContentCaseUse, ContentPage, ContentPost, ContentProduct } from './types'
 
 /** Minimal product card for the "related platforms" strip on product pages. */
@@ -160,7 +161,7 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
     {
       '@type': 'PropertyValue',
       name: t('content.jsonld.moq'),
-      value: `${FACTS.moq.trialStandard} pilot · ${FACTS.moq.standardRun} standard volume · ${FACTS.moq.customMould} custom mould`,
+      value: `${MOQ_SHORT.trialStandard} pilot · ${MOQ_SHORT.standardRun} standard volume · ${MOQ_SHORT.customMould} custom mould`,
     },
     { '@type': 'PropertyValue', name: t('content.jsonld.sampleLeadTime'), value: FACTS.sampleTime },
     {
@@ -168,7 +169,7 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
       name: t('content.jsonld.productionLeadTime'),
       value: `${FACTS.leadTime} after confirmed PO and deposit`,
     },
-    { '@type': 'PropertyValue', name: t('content.jsonld.certifications'), value: FACTS.certifications.join(', ') },
+    { '@type': 'PropertyValue', name: t('content.jsonld.certifications'), value: CERTIFICATION_NAMES.join(', ') },
   ]
   return {
     '@context': 'https://schema.org',
@@ -206,11 +207,11 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
         '@type': 'PriceSpecification',
         price: '0',
         priceCurrency: 'USD',
-        description: `MOQ ${FACTS.moq.trialStandard} pilot · ${FACTS.moq.standardRun} standard · ${FACTS.moq.customMould} custom mould`,
+        description: `MOQ ${MOQ_SHORT.trialStandard} pilot · ${MOQ_SHORT.standardRun} standard · ${MOQ_SHORT.customMould} custom mould`,
       },
       eligibleQuantity: {
         '@type': 'QuantitativeValue',
-        minValue: FACTS.moq.trialStandard,
+        minValue: MOQ_SHORT.trialStandard,
         unitCode: 'C62',
       },
     },
@@ -372,7 +373,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th className="w-2/5 px-4 py-3 font-semibold">{t('content.product.minimumOrder')}</th>
-                      <td className="px-4 py-3 text-fg-2">{t('content.product.moqVolume', { standardRun: FACTS.moq.standardRun, trialStandard: FACTS.moq.trialStandard })}</td>
+                       <td className="px-4 py-3 text-fg-2">{t('content.product.moqVolume', { standardRun: MOQ_SHORT.standardRun, trialStandard: MOQ_SHORT.trialStandard })}</td>
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th className="w-2/5 px-4 py-3 font-semibold">{t('content.product.productionLeadTime')}</th>
@@ -380,7 +381,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th className="w-2/5 px-4 py-3 font-semibold">{t('content.product.certifications')}</th>
-                      <td className="px-4 py-3 text-fg-2">{FACTS.certifications.join(' · ')}</td>
+                       <td className="px-4 py-3 text-fg-2">{CERTIFICATION_NAMES.join(' · ')}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -401,7 +402,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   {t('content.product.minimumOrderShort')}
                 </p>
                 <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-                  {t('content.product.moqShort', { standardRun: FACTS.moq.standardRun, trialStandard: FACTS.moq.trialStandard, customMould: FACTS.moq.customMould })}
+                  {t('content.product.moqShort', { standardRun: MOQ_SHORT.standardRun, trialStandard: MOQ_SHORT.trialStandard, customMould: MOQ_SHORT.customMould })}
                 </p>
               </div>
               <div className="marine-card p-4">
@@ -505,15 +506,18 @@ export function ProductView({ product, related, origin, locale }: { product: Con
               {t('content.product.faq')}
             </h2>
             <div className="mt-6 flex flex-col gap-3">
-              {productFaqs(product, locale).map((f, i) => (
-                <details key={f.q} className="marine-card group px-5 py-4" open={i === 0}>
-                  <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
-                    <span>{f.q}</span>
-                    <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
-                  </summary>
-                  <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{f.a}</p>
-                </details>
-              ))}
+              {productFaqs(product, locale).map((f) => {
+                const anchor = faqSlug(f.q)
+                return (
+                  <details key={f.q} id={anchor} className="marine-card group px-5 py-4 scroll-mt-24">
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
+                      <span>{f.q}</span>
+                      <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
+                    </summary>
+                    <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{f.a}</p>
+                  </details>
+                )
+              })}
             </div>
             <JsonLd data={faqLd(productFaqs(product, locale), locale)} />
           </div>
@@ -557,7 +561,7 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
     ? [
         {
           q: '¿Cuál es el pedido mínimo para personalizar esta tabla?',
-          a: `El MOQ de volumen es de ${FACTS.moq.standardRun} por rollo de 150 m para la producción estándar, con pilotos desde ${FACTS.moq.trialStandard} y ${FACTS.moq.customMould} para un molde a medida.`,
+          a: `El MOQ de volumen es de ${MOQ_SHORT.standardRun} por rollo de 150 m para la producción estándar, con pilotos desde ${MOQ_SHORT.trialStandard} y ${MOQ_SHORT.customMould} para un molde a medida.`,
         },
         {
           q: '¿Cuánto tardan las muestras y la producción?',
@@ -575,7 +579,7 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
     : [
         {
           q: 'What is the minimum order to customize this board?',
-          a: `MOQ is ${FACTS.moq.standardRun} per 150 m roll for standard volume production, with pilot runs from ${FACTS.moq.trialStandard} and ${FACTS.moq.customMould} for a custom mould.`,
+          a: `MOQ is ${MOQ_SHORT.standardRun} per 150 m roll for standard volume production, with pilot runs from ${MOQ_SHORT.trialStandard} and ${MOQ_SHORT.customMould} for a custom mould.`,
         },
         {
           q: 'How long do samples and production take?',
@@ -750,15 +754,18 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
           <section className="mt-12">
             <SectionHead kicker="FAQ" title={t('content.guide.quickAnswers')} />
             <div className="mt-6 space-y-3">
-              {guide.faqs.map((f) => (
-                <details key={f.q} className="marine-card group px-5 py-4">
-                  <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[14.5px] font-semibold marker:hidden">
-                    {f.q}
-                    <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
-                  </summary>
-                  <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{brandify(f.a)}</p>
-                </details>
-              ))}
+              {guide.faqs.map((f) => {
+                const anchor = faqSlug(f.q)
+                return (
+                  <details key={f.q} id={anchor} className="marine-card group px-5 py-4 scroll-mt-24">
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[14.5px] font-semibold marker:hidden">
+                      {f.q}
+                      <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
+                    </summary>
+                    <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{brandify(f.a)}</p>
+                  </details>
+                )
+              })}
             </div>
           </section>
         )}
@@ -837,15 +844,18 @@ function FaqView({ faqs, origin, path, locale }: { faqs: { q: string; a: string 
       />
       <section className="mx-auto max-w-3xl px-5 py-14 md:px-7">
         <div className="flex flex-col gap-3">
-          {faqs.map((f, i) => (
-            <details key={f.q} className="marine-card group px-5 py-4" open={i === 0}>
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
-                <span>{f.q}</span>
-                <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
-              </summary>
-              <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{f.a}</p>
-            </details>
-          ))}
+          {faqs.map((f, i) => {
+            const anchor = faqSlug(f.q)
+            return (
+              <details key={f.q} id={anchor} className="marine-card group px-5 py-4 scroll-mt-24" open={i === 0}>
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
+                  <span>{f.q}</span>
+                  <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{f.a}</p>
+              </details>
+            )
+          })}
         </div>
       </section>
       <div className="mx-auto max-w-3xl px-5 pb-4">

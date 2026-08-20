@@ -29,6 +29,7 @@ import { Route as ProofCenterRouteImport } from './routes/proof-center'
 import { Route as ProductDevelopmentRouteImport } from './routes/product-development'
 import { Route as PartnersRouteImport } from './routes/partners'
 import { Route as OemTrustAssuranceRouteImport } from './routes/oem-trust-assurance'
+import { Route as OemSupMoqRouteImport } from './routes/oem-sup-moq'
 import { Route as OemPaddleRouteImport } from './routes/oem-paddle'
 import { Route as OemOdmRouteImport } from './routes/oem-odm'
 import { Route as OemMoqGuideRouteImport } from './routes/oem-moq-guide'
@@ -40,6 +41,7 @@ import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as LlmsFullDottxtRouteImport } from './routes/llms-full[.]txt'
 import { Route as KnowledgeRouteImport } from './routes/knowledge'
 import { Route as InflatableVsHardboardRouteImport } from './routes/inflatable-vs-hardboard'
+import { Route as InflatableSupCertificationRouteImport } from './routes/inflatable-sup-certification'
 import { Route as FishingRouteImport } from './routes/fishing'
 import { Route as FaqRouteImport } from './routes/faq'
 import { Route as FactoryRouteImport } from './routes/factory'
@@ -210,6 +212,11 @@ const OemTrustAssuranceRoute = OemTrustAssuranceRouteImport.update({
 } as any).lazy(() =>
   import('./routes/oem-trust-assurance.lazy').then((d) => d.Route),
 )
+const OemSupMoqRoute = OemSupMoqRouteImport.update({
+  id: '/oem-sup-moq',
+  path: '/oem-sup-moq',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const OemPaddleRoute = OemPaddleRouteImport.update({
   id: '/oem-paddle',
   path: '/oem-paddle',
@@ -271,6 +278,12 @@ const InflatableVsHardboardRoute = InflatableVsHardboardRouteImport.update({
 } as any).lazy(() =>
   import('./routes/inflatable-vs-hardboard.lazy').then((d) => d.Route),
 )
+const InflatableSupCertificationRoute =
+  InflatableSupCertificationRouteImport.update({
+    id: '/inflatable-sup-certification',
+    path: '/inflatable-sup-certification',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const FishingRoute = FishingRouteImport.update({
   id: '/fishing',
   path: '/fishing',
@@ -648,6 +661,7 @@ export interface FileRoutesByFullPath {
   '/factory': typeof FactoryRoute
   '/faq': typeof FaqRoute
   '/fishing': typeof FishingRoute
+  '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
   '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
@@ -659,6 +673,7 @@ export interface FileRoutesByFullPath {
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
   '/oem-paddle': typeof OemPaddleRoute
+  '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/partners': typeof PartnersRoute
   '/product-development': typeof ProductDevelopmentRoute
@@ -743,6 +758,7 @@ export interface FileRoutesByTo {
   '/factory': typeof FactoryRoute
   '/faq': typeof FaqRoute
   '/fishing': typeof FishingRoute
+  '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
   '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
@@ -754,6 +770,7 @@ export interface FileRoutesByTo {
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
   '/oem-paddle': typeof OemPaddleRoute
+  '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/partners': typeof PartnersRoute
   '/product-development': typeof ProductDevelopmentRoute
@@ -838,6 +855,7 @@ export interface FileRoutesById {
   '/factory': typeof FactoryRoute
   '/faq': typeof FaqRoute
   '/fishing': typeof FishingRoute
+  '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
   '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
@@ -849,6 +867,7 @@ export interface FileRoutesById {
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
   '/oem-paddle': typeof OemPaddleRoute
+  '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/partners': typeof PartnersRoute
   '/product-development': typeof ProductDevelopmentRoute
@@ -936,6 +955,7 @@ export interface FileRouteTypes {
     | '/factory'
     | '/faq'
     | '/fishing'
+    | '/inflatable-sup-certification'
     | '/inflatable-vs-hardboard'
     | '/knowledge'
     | '/llms-full.txt'
@@ -947,6 +967,7 @@ export interface FileRouteTypes {
     | '/oem-moq-guide'
     | '/oem-odm'
     | '/oem-paddle'
+    | '/oem-sup-moq'
     | '/oem-trust-assurance'
     | '/partners'
     | '/product-development'
@@ -1031,6 +1052,7 @@ export interface FileRouteTypes {
     | '/factory'
     | '/faq'
     | '/fishing'
+    | '/inflatable-sup-certification'
     | '/inflatable-vs-hardboard'
     | '/knowledge'
     | '/llms-full.txt'
@@ -1042,6 +1064,7 @@ export interface FileRouteTypes {
     | '/oem-moq-guide'
     | '/oem-odm'
     | '/oem-paddle'
+    | '/oem-sup-moq'
     | '/oem-trust-assurance'
     | '/partners'
     | '/product-development'
@@ -1125,6 +1148,7 @@ export interface FileRouteTypes {
     | '/factory'
     | '/faq'
     | '/fishing'
+    | '/inflatable-sup-certification'
     | '/inflatable-vs-hardboard'
     | '/knowledge'
     | '/llms-full.txt'
@@ -1136,6 +1160,7 @@ export interface FileRouteTypes {
     | '/oem-moq-guide'
     | '/oem-odm'
     | '/oem-paddle'
+    | '/oem-sup-moq'
     | '/oem-trust-assurance'
     | '/partners'
     | '/product-development'
@@ -1222,6 +1247,7 @@ export interface RootRouteChildren {
   FactoryRoute: typeof FactoryRoute
   FaqRoute: typeof FaqRoute
   FishingRoute: typeof FishingRoute
+  InflatableSupCertificationRoute: typeof InflatableSupCertificationRoute
   InflatableVsHardboardRoute: typeof InflatableVsHardboardRoute
   KnowledgeRoute: typeof KnowledgeRoute
   LlmsFullDottxtRoute: typeof LlmsFullDottxtRoute
@@ -1233,6 +1259,7 @@ export interface RootRouteChildren {
   OemMoqGuideRoute: typeof OemMoqGuideRoute
   OemOdmRoute: typeof OemOdmRoute
   OemPaddleRoute: typeof OemPaddleRoute
+  OemSupMoqRoute: typeof OemSupMoqRoute
   OemTrustAssuranceRoute: typeof OemTrustAssuranceRoute
   PartnersRoute: typeof PartnersRoute
   ProductDevelopmentRoute: typeof ProductDevelopmentRoute
@@ -1407,6 +1434,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OemTrustAssuranceRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/oem-sup-moq': {
+      id: '/oem-sup-moq'
+      path: '/oem-sup-moq'
+      fullPath: '/oem-sup-moq'
+      preLoaderRoute: typeof OemSupMoqRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/oem-paddle': {
       id: '/oem-paddle'
       path: '/oem-paddle'
@@ -1482,6 +1516,13 @@ declare module '@tanstack/react-router' {
       path: '/inflatable-vs-hardboard'
       fullPath: '/inflatable-vs-hardboard'
       preLoaderRoute: typeof InflatableVsHardboardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/inflatable-sup-certification': {
+      id: '/inflatable-sup-certification'
+      path: '/inflatable-sup-certification'
+      fullPath: '/inflatable-sup-certification'
+      preLoaderRoute: typeof InflatableSupCertificationRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/fishing': {
@@ -2091,6 +2132,7 @@ const rootRouteChildren: RootRouteChildren = {
   FactoryRoute: FactoryRoute,
   FaqRoute: FaqRoute,
   FishingRoute: FishingRoute,
+  InflatableSupCertificationRoute: InflatableSupCertificationRoute,
   InflatableVsHardboardRoute: InflatableVsHardboardRoute,
   KnowledgeRoute: KnowledgeRoute,
   LlmsFullDottxtRoute: LlmsFullDottxtRoute,
@@ -2102,6 +2144,7 @@ const rootRouteChildren: RootRouteChildren = {
   OemMoqGuideRoute: OemMoqGuideRoute,
   OemOdmRoute: OemOdmRoute,
   OemPaddleRoute: OemPaddleRoute,
+  OemSupMoqRoute: OemSupMoqRoute,
   OemTrustAssuranceRoute: OemTrustAssuranceRoute,
   PartnersRoute: PartnersRoute,
   ProductDevelopmentRoute: ProductDevelopmentRoute,

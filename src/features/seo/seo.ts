@@ -27,6 +27,12 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/solutions/school-sup', lastmod: '2026-06-01' },
   { path: '/projects', lastmod: '2026-08-15' },
   { path: '/knowledge', lastmod: '2026-06-25' },
+  { path: '/oem-moq-guide', lastmod: '2026-08-20' },
+  { path: '/oem-sup-moq', lastmod: '2026-08-20' },
+  { path: '/inflatable-sup-certification', lastmod: '2026-08-20' },
+  { path: '/oem-trust-assurance', lastmod: '2026-08-20' },
+  { path: '/proof-center', lastmod: '2026-08-20' },
+  { path: '/sup-oem-moq-lead-time', lastmod: '2026-08-20' },
   { path: ENTITY_PAGE_PATH, lastmod: '2026-06-30' },
 ]
 

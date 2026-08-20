@@ -1,6 +1,7 @@
 import * as React from 'react'
 
-/** Scroll-reveal wrapper: fades the block up once it enters the viewport. */
+const reducedMotion = typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
+
 export function Reveal({
   children,
   className,
@@ -17,7 +18,7 @@ export function Reveal({
   React.useEffect(() => {
     const el = ref.current
     if (!el) return
-    if (typeof IntersectionObserver === 'undefined') {
+    if (reducedMotion || typeof IntersectionObserver === 'undefined') {
       el.classList.add('is-in')
       return
     }
@@ -37,7 +38,7 @@ export function Reveal({
   }, [])
 
   return (
-    <Tag ref={ref as never} className={`reveal ${className ?? ''}`} style={delay ? { transitionDelay: `${delay}ms` } : undefined}>
+    <Tag ref={ref as never} className={`reveal ${className ?? ''}`} style={delay && !reducedMotion ? { transitionDelay: `${delay}ms` } : undefined}>
       {children}
     </Tag>
   )

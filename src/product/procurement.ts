@@ -1,5 +1,5 @@
 import type { Localized } from './content'
-import { FACTS } from './facts'
+import { FACTS, MOQ_SHORT } from './facts'
 
 /**
  * B2B procurement profiles for the series platform pages (/products/{series}).
@@ -33,7 +33,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "10'0\"–11'6\" · 31\"–34\" wide · 120/150 mm",
       construction: 'Single-layer fusion or MSL double-layer drop-stitch',
       customization: 'Graphics, EVA, accessories & retail packaging',
-      moq: `From ${FACTS.moq.standardRun} pcs per project — trial runs from ${FACTS.moq.trialStandard}`,
+      moq: `From ${MOQ_SHORT.standardRun} pcs per project — trial runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
       specRows: [
         { label: 'Use scenario', value: 'Entry-level retail lines, resort & rental programs, DTC e-commerce' },
@@ -56,7 +56,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "12'6\"–14'0\" · 24\"–27\" wide · 150 mm",
       construction: 'Ultra-stiff linear woven drop-stitch + carbon stringer',
       customization: 'Race layup, width, fin system & club graphics',
-      moq: `From ${FACTS.moq.standardRun} pcs per project — trial runs from ${FACTS.moq.trialStandard}`,
+      moq: `From ${MOQ_SHORT.standardRun} pcs per project — trial runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
       specRows: [
         { label: 'Use scenario', value: 'Racing clubs, athletic training academies, performance brands' },
@@ -80,7 +80,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "8'6\"–10'6\" · 30\"–34\" wide",
       construction: 'Wave-specific shaping, reinforced rails & raised rocker',
       customization: 'Rocker, rails, deck graphics & soft-top options',
-      moq: `From ${FACTS.moq.standardRun} pcs per project — trial runs from ${FACTS.moq.trialStandard}`,
+      moq: `From ${MOQ_SHORT.standardRun} pcs per project — trial runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
       specRows: [
         { label: 'Use scenario', value: 'Wave riding, surf schools, hybrid retail lines' },
@@ -100,7 +100,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "11'6\"–12'6\" · 30\"–32\" wide · 150 mm",
       construction: 'Woven drop-stitch + reinforced double rail tape',
       customization: 'Cargo bungees, mounting points, graphics & accessories',
-      moq: `From ${FACTS.moq.standardRun} pcs per project — trial runs from ${FACTS.moq.trialStandard}`,
+      moq: `From ${MOQ_SHORT.standardRun} pcs per project — trial runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
       specRows: [
         { label: 'Use scenario', value: 'Long-distance touring, expedition programs, premium retail' },
@@ -123,7 +123,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "10'8\"–11'0\" · 34\"–36\" wide · 150 mm",
       construction: 'Wide stable platform + full-deck embossed EVA traction',
       customization: 'EVA coverage, artwork, anchors & accessory kit',
-      moq: `From ${FACTS.moq.standardRun} pcs per project — trial runs from ${FACTS.moq.trialStandard}`,
+      moq: `From ${MOQ_SHORT.standardRun} pcs per project — trial runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
       specRows: [
         { label: 'Use scenario', value: 'Water fitness studios, resort wellness retreats, SUP yoga fleets' },
@@ -145,7 +145,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "10'6\"–11'6\" · 32\"–34\" wide",
       construction: 'Project-specific drop-stitch & PVC with embossing options',
       customization: 'Full-board art, embossing, EVA piecing & coordinated accessories',
-      moq: `From ${FACTS.moq.standardRun} pcs per project — trial runs from ${FACTS.moq.trialStandard}`,
+      moq: `From ${MOQ_SHORT.standardRun} pcs per project — trial runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
       specRows: [
         { label: 'Use scenario', value: 'Designer editions, lifestyle retail, boutique travel programs' },
@@ -165,7 +165,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "11'6\"–12'0\" · 34\"–38\" wide · 150 mm",
       construction: 'Heavy-duty dual-layer + multiple D-rings & accessory mounts',
       customization: 'Seat, cooler and rod-holder integration, D-ring layouts',
-      moq: `From ${FACTS.moq.standardRun} pcs per project — trial runs from ${FACTS.moq.trialStandard}`,
+      moq: `From ${MOQ_SHORT.standardRun} pcs per project — trial runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
       specRows: [
         { label: 'Use scenario', value: 'Angling equipment brands, fishing outfitters, outdoor sporting shops' },
@@ -187,7 +187,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "8'0\"–9'6\" · 26\"–28\" wide · 100/120 mm",
       construction: 'Lightweight drop-stitch + high-visibility safety graphics',
       customization: 'Age-specific sizing, visibility colorways & paddle length',
-      moq: `From ${FACTS.moq.standardRun} pcs per project — trial runs from ${FACTS.moq.trialStandard}`,
+      moq: `From ${MOQ_SHORT.standardRun} pcs per project — trial runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
       specRows: [
         { label: 'Use scenario', value: 'Youth paddling clubs, school physical training, family retail' },
@@ -209,7 +209,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "15'0\"–18'0\" · 50\"–60\" wide · 200 mm",
       construction: 'Heavy-duty multi-chamber woven drop-stitch, dual valves',
       customization: 'Fleet numbering, logo placement, handles & D-ring layouts',
-      moq: `From ${FACTS.moq.standardRun} pcs per project — trial runs from ${FACTS.moq.trialStandard}`,
+      moq: `From ${MOQ_SHORT.standardRun} pcs per project — trial runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
       specRows: [
         { label: 'Use scenario', value: 'Team-building organizers, water parks, commercial tour operators' },
@@ -233,7 +233,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "10'0\"–11'6\" · 31\"–34\" ancho · 120/150 mm",
       construction: 'Drop-stitch de capa única fusionada o MSL doble capa',
       customization: 'Gráficos, EVA, accesorios y embalaje minorista',
-      moq: `Desde ${FACTS.moq.standardRun} uds. por proyecto — pedidos de prueba desde ${FACTS.moq.trialStandard}`,
+      moq: `Desde ${MOQ_SHORT.standardRun} uds. por proyecto — pedidos de prueba desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
       specRows: [
         { label: 'Escenario de uso', value: 'Líneas retail de entrada, programas de resort y alquiler, e-commerce DTC' },
@@ -256,7 +256,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "12'6\"–14'0\" · 24\"–27\" ancho · 150 mm",
       construction: 'Drop-stitch woven lineal ultra rígido + refuerzo de carbono',
       customization: 'Layup de competición, ancho, sistema de aletas y gráficos de club',
-      moq: `Desde ${FACTS.moq.standardRun} uds. por proyecto — pedidos de prueba desde ${FACTS.moq.trialStandard}`,
+      moq: `Desde ${MOQ_SHORT.standardRun} uds. por proyecto — pedidos de prueba desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
       specRows: [
         { label: 'Escenario de uso', value: 'Clubes de competición, academias de entrenamiento, marcas de rendimiento' },
@@ -280,7 +280,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "8'6\"–10'6\" · 30\"–34\" ancho",
       construction: 'Formas específicas de ola, rails reforzados y rocker elevado',
       customization: 'Rocker, rails, gráficos de cubierta y opciones soft-top',
-      moq: `Desde ${FACTS.moq.standardRun} uds. por proyecto — pedidos de prueba desde ${FACTS.moq.trialStandard}`,
+      moq: `Desde ${MOQ_SHORT.standardRun} uds. por proyecto — pedidos de prueba desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
       specRows: [
         { label: 'Escenario de uso', value: 'Surf de olas, escuelas de surf, líneas retail híbridas' },
@@ -300,7 +300,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "11'6\"–12'6\" · 30\"–32\" ancho · 150 mm",
       construction: 'Drop-stitch woven + cinta de rail doble reforzada',
       customization: 'Bungees de carga, puntos de montaje, gráficos y accesorios',
-      moq: `Desde ${FACTS.moq.standardRun} uds. por proyecto — pedidos de prueba desde ${FACTS.moq.trialStandard}`,
+      moq: `Desde ${MOQ_SHORT.standardRun} uds. por proyecto — pedidos de prueba desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
       specRows: [
         { label: 'Escenario de uso', value: 'Travesías de larga distancia, programas de expedición, retail premium' },
@@ -323,7 +323,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "10'8\"–11'0\" · 34\"–36\" ancho · 150 mm",
       construction: 'Plataforma estable ancha + tracción EVA grabada en toda la cubierta',
       customization: 'Cobertura EVA, arte, anclas y kit de accesorios',
-      moq: `Desde ${FACTS.moq.standardRun} uds. por proyecto — pedidos de prueba desde ${FACTS.moq.trialStandard}`,
+      moq: `Desde ${MOQ_SHORT.standardRun} uds. por proyecto — pedidos de prueba desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
       specRows: [
         { label: 'Escenario de uso', value: 'Estudios de fitness acuático, wellness de resort, flotas de SUP yoga' },
@@ -345,7 +345,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "10'6\"–11'6\" · 32\"–34\" ancho",
       construction: 'Drop-stitch y PVC específicos del proyecto con opciones de gofrado',
       customization: 'Arte de toda la tabla, gofrado, piezas EVA y accesorios coordinados',
-      moq: `Desde ${FACTS.moq.standardRun} uds. por proyecto — pedidos de prueba desde ${FACTS.moq.trialStandard}`,
+      moq: `Desde ${MOQ_SHORT.standardRun} uds. por proyecto — pedidos de prueba desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
       specRows: [
         { label: 'Escenario de uso', value: 'Ediciones de diseño, retail de estilo de vida, programas boutique' },
@@ -365,7 +365,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "11'6\"–12'0\" · 34\"–38\" ancho · 150 mm",
       construction: 'Doble capa resistente + múltiples D-rings y montajes de accesorios',
       customization: 'Integración de asiento, nevera y portacañas, distribución de D-rings',
-      moq: `Desde ${FACTS.moq.standardRun} uds. por proyecto — pedidos de prueba desde ${FACTS.moq.trialStandard}`,
+      moq: `Desde ${MOQ_SHORT.standardRun} uds. por proyecto — pedidos de prueba desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
       specRows: [
         { label: 'Escenario de uso', value: 'Marcas de equipos de pesca, outfitters, tiendas deportivas' },
@@ -387,7 +387,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "8'0\"–9'6\" · 26\"–28\" ancho · 100/120 mm",
       construction: 'Drop-stitch ligero + gráficos de seguridad de alta visibilidad',
       customization: 'Tallas por edad, colorways visibles y longitud de pala',
-      moq: `Desde ${FACTS.moq.standardRun} uds. por proyecto — pedidos de prueba desde ${FACTS.moq.trialStandard}`,
+      moq: `Desde ${MOQ_SHORT.standardRun} uds. por proyecto — pedidos de prueba desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
       specRows: [
         { label: 'Escenario de uso', value: 'Clubes de remo juvenil, educación física escolar, retail familiar' },
@@ -409,7 +409,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       sizes: "15'0\"–18'0\" · 50\"–60\" ancho · 200 mm",
       construction: 'Drop-stitch woven multicámara resistente, válvulas dobles',
       customization: 'Numeración de flota, ubicación del logo, asas y distribución de D-rings',
-      moq: `Desde ${FACTS.moq.standardRun} uds. por proyecto — pedidos de prueba desde ${FACTS.moq.trialStandard}`,
+      moq: `Desde ${MOQ_SHORT.standardRun} uds. por proyecto — pedidos de prueba desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
       specRows: [
         { label: 'Escenario de uso', value: 'Organizadores de team building, parques acuáticos, operadores turísticos' },

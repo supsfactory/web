@@ -5,7 +5,7 @@ import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, products, productsPage } from '@/product/content'
 import { seriesPages } from '@/product/series-pages'
 import { procurementProfiles, commercialRows } from '@/product/procurement'
-import { FACTS } from '@/product/facts'
+import { FACTS, MOQ_SHORT } from '@/product/facts'
 import { SECONDARY_PILL } from '@/components/marketing/cta-styles'
 import { JsonLd, breadcrumbLd, faqLd, itemListLd } from '@/features/seo/jsonld'
 import { MarketingShell } from '@/components/marketing/shell'
@@ -74,7 +74,7 @@ function SeriesPage() {
           <div className="marine-card p-4">
             <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.minimumOrderShort')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-              {t('inquiry.moqSummary', { standardRun: FACTS.moq.standardRun, trialStandard: FACTS.moq.trialStandard, customMould: FACTS.moq.customMould })}
+              {t('inquiry.moqSummary', { standardRun: MOQ_SHORT.standardRun, trialStandard: MOQ_SHORT.trialStandard, customMould: MOQ_SHORT.customMould })}
             </p>
           </div>
           <div className="marine-card p-4">
@@ -162,7 +162,7 @@ function SeriesPage() {
                   <p className="mt-1.5 text-[13px] leading-relaxed text-fg-2">{p.tagline}</p>
                   <p className="mt-2 text-[12.5px] font-medium text-fg-3">{p.specs}</p>
                   <p className="mt-1.5 text-[12px] font-semibold text-primary">
-                    {t('inquiry.moqShort', { standardRun: FACTS.moq.standardRun, trialStandard: FACTS.moq.trialStandard })}
+                    {t('inquiry.moqShort', { standardRun: MOQ_SHORT.standardRun, trialStandard: MOQ_SHORT.trialStandard })}
                   </p>
                 </div>
                 <p className="mt-auto flex items-center gap-1.5 text-[13.5px] font-bold text-primary group-hover:underline">

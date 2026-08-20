@@ -1,0 +1,61 @@
+meta:
+  title: "Inflatable SUP MOQ — Minimum Order Quantities Explained"
+  description: "Clear MOQ tiers for custom inflatable SUP manufacturing: 5–10 co-branding, 20–50 pilot, 90–100+ volume per roll. Decision tree by customization level."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Direct Answer"
+    directAnswer:
+      answer: "Existing-platform pilot runs start at 20–50 pcs; standard volume MOQ is 90–100+ pcs per 150 m drop-stitch roll (~180–220 boards)."
+      condition: "Specific MOQ depends on board shape, material roll, printing, packaging and whether a new mould is needed."
+      value: "5–10 co-branding · 20–50 pilot · 90–100+ per roll volume"
+      verifiedDate: "2026-08-20"
+      sourceType: "factory-record"
+    body: |
+      MOQ at SUPsfactory is tiered by customization level, not a single flat number.
+      Each tier corresponds to a specific production scenario:
+
+      | Scenario | MOQ | Unit | Condition |
+      |----------|-----|------|-----------|
+      | Existing platform, logo overlay only | 5–10 pcs | per design | Same shape, same material roll, same colorway |
+      | Custom graphics / EVA / packaging on existing platform | 20–50 pcs | pilot batch | Same shape; new artwork requires visual proof |
+      | Standard volume production (any platform) | 90–100+ pcs | per 150 m roll (~180–220 boards) | Per material roll; multiple SKUs = separate rolls |
+      | New shape / custom mould | 90–100+ pcs | production run | Mould tooling adds 15–20 days; one-time mould fee |
+
+  - title: "What counts as a 'material roll'?"
+    body: |
+      A 150-meter roll of drop-stitch fabric produces approximately 180–220 boards depending on
+      board dimensions (typically 10–11 ft). Each distinct SKU — meaning a different size, color
+      combination or material specification — requires its own roll and therefore its own MOQ.
+
+      This is why the MOQ is stated "per 150 m roll" rather than "per design": two colorways
+      of the same board shape are two rolls, two MOQs.
+
+  - title: "Co-branding vs pilot vs volume"
+    body: |
+      **Co-branding (5–10 pcs)**: Your logo applied to an existing platform that is already in
+      production for another brand. No artwork changes beyond the logo placement. Fastest route
+      to a branded sample.
+
+      **Pilot batch (20–50 pcs)**: Custom graphics, EVA traction pad design, or packaging on an
+      existing platform shape. Requires visual proof approval before production. Ideal for market
+      testing a new look.
+
+      **Volume production (90–100+ pcs per roll)**: Full production run with any combination of
+      customization. This is the standard commercial tier. Each material roll yields ~180–220 boards.
+
+  - title: "Custom mould MOQ"
+    body: |
+      When your design requires a new board shape (not just new graphics on an existing shape),
+      a dedicated mould must be created. This runs at the volume tier (90–100+ pcs) because
+      the mould investment requires a production run to amortize. Tooling adds 15–20 days to
+      the standard lead time.
+
+      Mould ownership: you own the mould. It is stored at our facility and used exclusively for
+      your production runs.
+
+  - title: "Sample orders"
+    body: |
+      Pre-production samples are available at 1–2 boards for fit/finish confirmation.
+      These are hand-built to your spec and typically take 7–12 days. Sample cost is credited
+      against your first volume order.

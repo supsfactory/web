@@ -18,7 +18,8 @@ import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
 
@@ -47,13 +48,19 @@ function factsSection(title: string, facts?: Record<string, unknown>): string[] 
  */
 export function llmSiteHeader(): string {
   const { company, certifications, manufacturing } = getGeoFacts()
+  const glossaryEntries = GLOSSARY.filter((g) => g.locale === 'en')
+  const glossaryBlock = glossaryEntries.length > 0
+    ? ['', '## Industry Glossary', '', ...glossaryEntries.map((g) => `- **${g.term}**: ${g.short}`)]
+    : []
   return [
     `# ${SITE_NAME}`,
     '',
     `> ${LLM_SITE_DESCRIPTION.replaceAll('{SITE}', SITE_NAME)}`,
+    LLM_FACT_BLOCK.replaceAll('{SITE}', SITE_NAME),
     ...factsSection('Company Facts', company),
     ...factsSection('Certifications', certifications),
     ...factsSection('Manufacturing', manufacturing),
+    ...glossaryBlock,
     '',
   ].join('\n')
 }

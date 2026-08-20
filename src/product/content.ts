@@ -1,5 +1,5 @@
 import type { Locale } from '@/features/i18n/locale'
-import { FACTS } from './facts'
+import { FACTS, MOQ_SHORT } from './facts'
 
 /**
  * Marketing content for the SUPsfactory site, localized en/es.
@@ -185,7 +185,7 @@ export interface TrustBarContent {
 export const trustBar: Localized<TrustBarContent> = {
   en: {
     stats: [
-      { value: `MOQ ${FACTS.moq.standardRun}`, label: 'per 150 m roll for volume production; pilot runs from 20–50 pcs' },
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'per 150 m roll for volume production; pilot runs from 20–50 pcs' },
       { value: FACTS.sampleTime, label: 'samples to your desk after artwork confirmation' },
       { value: FACTS.leadTime, label: 'batch production after confirmed PO and deposit' },
       { value: FACTS.annualCapacity, label: 'annual in-house capacity at the Qingdao plant' },
@@ -199,7 +199,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   es: {
     stats: [
-      { value: `MOQ ${FACTS.moq.standardRun}`, label: 'por rollo de 150 m para volumen; piloto desde 20–50 uds.' },
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'por rollo de 150 m para volumen; piloto desde 20–50 uds.' },
       { value: FACTS.sampleTime, label: 'muestras en tu escritorio tras confirmar el arte' },
       { value: FACTS.leadTime, label: 'producción en serie tras PO y depósito confirmados' },
       { value: FACTS.annualCapacity, label: 'capacidad anual interna en la planta de Qingdao' },
@@ -1884,11 +1884,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'What is the difference between OEM and ODM?',
-        a: `OEM builds your board to your specification — shape, artwork, materials and packaging — from an existing platform or a new custom mould you own. ODM adapts a proven platform we already engineer: you add your brand, colors and artwork without owning the design. Both routes run through the same plant, QC system and export team: OEM suits product owners with their own spec, ODM is the fastest route to a branded board, starting at ${FACTS.moq.standardRun} with samples in ${FACTS.sampleTime}.`,
+        a: `OEM builds your board to your specification — shape, artwork, materials and packaging — from an existing platform or a new custom mould you own. ODM adapts a proven platform we already engineer: you add your brand, colors and artwork without owning the design. Both routes run through the same plant, QC system and export team: OEM suits product owners with their own spec, ODM is the fastest route to a branded board, starting at ${MOQ_SHORT.standardRun} with samples in ${FACTS.sampleTime}.`,
       },
       {
         q: 'What is your minimum order quantity?',
-        a: `Co-branding small bulk starts at 5–10 pcs; pilot batches from 20–50 pcs. Standard volume production starts at ${FACTS.moq.standardRun} per 150 m roll. Custom-mould shapes run at the volume tier, depending on complexity.`,
+        a: `Co-branding small bulk starts at 5–10 pcs; pilot batches from 20–50 pcs. Standard volume production starts at ${MOQ_SHORT.standardRun} per 150 m roll. Custom-mould shapes run at the volume tier, depending on complexity.`,
       },
       {
         q: 'How long does production take?',
@@ -1932,7 +1932,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Do you work with new or startup SUP brands?',
-        a: `Yes. OEM/ODM projects are developed according to your product requirements, target market and volume — pilot runs start at 20–50 pcs and standard volume production at ${FACTS.moq.standardRun} per 150 m roll.`,
+        a: `Yes. OEM/ODM projects are developed according to your product requirements, target market and volume — pilot runs start at 20–50 pcs and standard volume production at ${MOQ_SHORT.standardRun} per 150 m roll.`,
       },
       {
         q: 'What information should I provide for an OEM SUP inquiry?',
@@ -1951,11 +1951,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: '¿Cuál es la diferencia entre OEM y ODM?',
-        a: `OEM fabrica tu tabla según tu especificación — forma, arte, materiales y empaque — sobre una plataforma existente o un molde nuevo a medida de tu propiedad. ODM adapta una plataforma probada que ya ingeniamos: tú añades tu marca, colores y arte sin ser dueño del diseño. Ambas rutas pasan por la misma planta, el mismo sistema de QC y el mismo equipo de exportación: OEM es para quien tiene especificación propia; ODM es la vía más rápida hacia una tabla con tu marca, desde ${FACTS.moq.standardRun} y con muestras en ${FACTS.sampleTime}.`,
+        a: `OEM fabrica tu tabla según tu especificación — forma, arte, materiales y empaque — sobre una plataforma existente o un molde nuevo a medida de tu propiedad. ODM adapta una plataforma probada que ya ingeniamos: tú añades tu marca, colores y arte sin ser dueño del diseño. Ambas rutas pasan por la misma planta, el mismo sistema de QC y el mismo equipo de exportación: OEM es para quien tiene especificación propia; ODM es la vía más rápida hacia una tabla con tu marca, desde ${MOQ_SHORT.standardRun} y con muestras en ${FACTS.sampleTime}.`,
       },
       {
         q: '¿Cuál es la cantidad mínima de pedido?',
-        a: `El pequeño lote de co-branding parte de 5–10 uds.; los lotes piloto, de 20–50 uds. La producción de volumen estándar parte de ${FACTS.moq.standardRun} por rollo de 150 m. Los diseños con molde a medida se producen en el tramo de volumen, según la complejidad.`,
+        a: `El pequeño lote de co-branding parte de 5–10 uds.; los lotes piloto, de 20–50 uds. La producción de volumen estándar parte de ${MOQ_SHORT.standardRun} por rollo de 150 m. Los diseños con molde a medida se producen en el tramo de volumen, según la complejidad.`,
       },
       {
         q: '¿Cuánto tarda la producción?',
@@ -1999,7 +1999,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: '¿Trabajáis con marcas de SUP nuevas o emergentes?',
-        a: `Sí. Los proyectos OEM/ODM se desarrollan según tus requisitos de producto, mercado objetivo y volumen — los pilotos parten de 20–50 uds. y la producción de volumen estándar, de ${FACTS.moq.standardRun} por rollo de 150 m.`,
+        a: `Sí. Los proyectos OEM/ODM se desarrollan según tus requisitos de producto, mercado objetivo y volumen — los pilotos parten de 20–50 uds. y la producción de volumen estándar, de ${MOQ_SHORT.standardRun} por rollo de 150 m.`,
       },
       {
         q: '¿Qué información debo dar en una consulta OEM de SUP?',

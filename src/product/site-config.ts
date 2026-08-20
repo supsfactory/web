@@ -5,7 +5,7 @@
  * 所有原有通过 `FACTS` / `hero` 导入的方式均可继续使用，本模块提供
  * 相同数据的只读视图，便于框架化与多站点派生。
  */
-import { FACTS } from './facts'
+import { FACTS, MOQ_SHORT, CERTIFICATION_NAMES } from './facts'
 
 /** 从 facts.ts 导出的全部字段（逐一映射，防止任何遗漏） */
 export const SITE_FACTS = {
@@ -13,9 +13,9 @@ export const SITE_FACTS = {
   workers: FACTS.workers,
   annualCapacity: FACTS.annualCapacity,
   moq: {
-    trialStandard: FACTS.moq.trialStandard,
-    standardRun: FACTS.moq.standardRun,
-    customMould: FACTS.moq.customMould,
+    trialStandard: MOQ_SHORT.trialStandard,
+    standardRun: MOQ_SHORT.standardRun,
+    customMould: MOQ_SHORT.customMould,
   },
   leadTime: FACTS.leadTime,
   leadTimeDetail: FACTS.leadTimeDetail,
@@ -28,7 +28,7 @@ export const SITE_FACTS = {
   pressureTest: FACTS.pressureTest,
   pressureReject: FACTS.pressureReject,
   traceabilityRet: FACTS.traceabilityRet,
-  certifications: FACTS.certifications,
+  certifications: CERTIFICATION_NAMES,
   exportCountries: FACTS.exportCountries,
   workshops: FACTS.workshops,
   productionLines: FACTS.productionLines,
