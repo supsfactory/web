@@ -17,7 +17,7 @@ const TOP_K = 6
 /** Cosine floor below which chunks are treated as noise — keeps the LLM from
  *  confabulating an answer from unrelated retrieval (e.g. "where is the
  *  company?" matching drop-stitch material). Tune against live queries. */
-const REL_SCORE_MIN = 0.4
+const REL_SCORE_MIN = 0.3
 const MAX_QUESTION = 500
 const CACHE_TTL = 6 * 60 * 60
 const CACHE_PREFIX = 'aiask:'
@@ -128,6 +128,7 @@ async function askFromFaq(question: string, locale: Locale): Promise<AskResponse
   try {
     const { getSiteFaqs } = await import('@/features/content/loader')
     const hit = matchFaq(question, getSiteFaqs(locale))
+      || (locale !== defaultLocale && matchFaq(question, getSiteFaqs(defaultLocale)))
     if (!hit) return { answer: '', sources: [], mode: 'none' }
     const { localizePath } = await import('@/features/i18n/locale')
     return {

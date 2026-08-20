@@ -80,7 +80,56 @@ export function buildAskPrompt(input: AskPromptInput): { system: string; user: s
   return { system, user }
 }
 
-/** Lowercase + punctuation-to-space, so FAQ matching ignores casing and punc. */
+const CJK_CHAR = /\p{Script=Han}|\p{Script=Hiragana}|\p{Script=Katakana}|\p{Script=Hangul}/u
+
+const CJK_KEYWORDS: ReadonlyArray<{ cjk: readonly string[]; en: readonly string[] }> = [
+  { cjk: ['工厂', '厂', '制造'], en: ['factory', 'plant', 'manufacturing'] },
+  { cjk: ['地址', '位置', '在哪', '位于'], en: ['address', 'location', 'located', 'where'] },
+  { cjk: ['价格', '多少钱', '报价'], en: ['price', 'cost', 'quote', 'pricing'] },
+  { cjk: ['最低', '起订', '数量'], en: ['minimum', 'moq', 'quantity', 'order'] },
+  { cjk: ['认证', '证书', '资质'], en: ['certification', 'certified', 'ce', 'bsci'] },
+  { cjk: ['交货', '发货', '运输', '物流'], en: ['delivery', 'shipping', 'lead time', 'logistics', 'freight'] },
+  { cjk: ['样品', '样本', '打样'], en: ['sample', 'prototype', 'sampling'] },
+  { cjk: ['材料', '材质', '面料'], en: ['material', 'pvc', 'fabric', 'drop stitch'] },
+  { cjk: ['包装', '标签', '品牌'], en: ['packaging', 'label', 'branding', 'private label'] },
+  { cjk: ['质量', '质检', '检验', '检测'], en: ['quality', 'inspection', 'qc', 'test'] },
+  { cjk: ['保修', '售后', '投诉'], en: ['warranty', 'claim', 'defect'] },
+  { cjk: ['定制', '自定义', 'oem', 'odm'], en: ['custom', 'oem', 'odm', 'customize'] },
+  { cjk: ['充气', '气密', '漏气'], en: ['inflatable', 'air', 'pressure', 'leak'] },
+]
+
+function expandCjkToEn(question: string): string {
+  if (!CJK_CHAR.test(question)) return question
+  const lower = question.toLowerCase()
+  const extra: string[] = []
+  for (const map of CJK_KEYWORDS) {
+    if (map.cjk.some((kw) => lower.includes(kw.toLowerCase()))) {
+      extra.push(...map.en)
+    }
+  }
+  return extra.length ? `${question} ${extra.join(' ')}` : question
+}
+
+function tokenizeForMatch(text: string): string[] {
+  const norm = text.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
+  if (!norm) return []
+  const tokens: string[] = []
+  for (const segment of norm.split(' ')) {
+    if (!segment) continue
+    let buf = ''
+    for (const ch of segment) {
+      if (CJK_CHAR.test(ch)) {
+        if (buf) { tokens.push(buf); buf = '' }
+        tokens.push(ch)
+      } else {
+        buf += ch
+      }
+    }
+    if (buf) tokens.push(buf)
+  }
+  return tokens
+}
+
 export function normalizeQuestion(question: string): string {
   return question
     .toLowerCase()
@@ -88,24 +137,33 @@ export function normalizeQuestion(question: string): string {
     .trim()
 }
 
-/**
- * Keyword-overlap FAQ fallback (used when AI/Vectorize are unavailable or fail).
- * Requires >= 3 significant words; a hit needs >= 55% of them inside q+a.
- */
+const MIN_MATCH_SCORE = 0.55
+const MIN_MATCH_SCORE_CJK = 0.30
+
 export function matchFaq(
   question: string,
   faqs: { q: string; a: string }[],
 ): { answer: string; faq: { q: string; a: string } } | null {
-  const words = normalizeQuestion(question)
-    .split(' ')
-    .filter((w) => w.length > 2)
-  if (words.length < 3) return null
+  const expanded = expandCjkToEn(question)
+  const rawTokens = tokenizeForMatch(expanded).filter((w) => w.length > 1 || CJK_CHAR.test(w))
+  if (rawTokens.length < 2) return null
+  const isCjkQuestion = rawTokens.some((t) => CJK_CHAR.test(t))
+  const scoredTokens = isCjkQuestion
+    ? rawTokens.filter((t) => !CJK_CHAR.test(t))
+    : rawTokens
+  if (scoredTokens.length < 2) return null
+  const qSet = new Set(scoredTokens)
+  const threshold = isCjkQuestion ? MIN_MATCH_SCORE_CJK : MIN_MATCH_SCORE
   let best: { score: number; faq: { q: string; a: string } } | null = null
   for (const faq of faqs) {
     const hay = normalizeQuestion(`${faq.q} ${faq.a}`)
-    const hits = words.filter((w) => hay.includes(w)).length
-    const score = hits / words.length
-    if (score >= 0.55 && (!best || score > best.score)) best = { score, faq }
+    const hayWords = new Set(tokenizeForMatch(`${faq.q} ${faq.a}`))
+    let hits = 0
+    for (const t of qSet) {
+      if (hayWords.has(t) || hay.includes(t)) hits++
+    }
+    const score = hits / qSet.size
+    if (score >= threshold && (!best || score > best.score)) best = { score, faq }
   }
   return best ? { answer: best.faq.a, faq: best.faq } : null
 }

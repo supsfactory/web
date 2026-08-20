@@ -56,8 +56,12 @@ describe('buildAskPrompt', () => {
 
 describe('matchFaq', () => {
   const faqs = [
+    { q: 'Where is your company and factory located?', a: 'We are based in Qingdao, China. A 12,500 m² inflatable manufacturing plant in the Laixi Economic Development Zone, producing since 2012.' },
     { q: 'What is the minimum order quantity (MOQ) for OEM inflatable paddle boards?', a: 'Minimum order quantity is 90–100+ pieces per standard production run.' },
     { q: 'How long does a sample take?', a: 'Samples ship in 7–12 days.' },
+    { q: 'What is the lead time for OEM production?', a: 'Standard OEM production lead time is 25–35 days from confirmed PO.' },
+    { q: 'What certifications do you hold?', a: 'CE standards and BSCI social compliance certification.' },
+    { q: 'Do you offer custom OEM/ODM?', a: 'Full-scale OEM and ODM customization from 3D blueprints to bulk production.' },
   ]
   test('hits the right FAQ by keyword overlap', () => {
     const hit = matchFaq('What is your minimum order quantity?', faqs)
@@ -72,6 +76,31 @@ describe('matchFaq', () => {
   })
   test('empty faq list returns null', () => {
     expect(matchFaq('What is your minimum order quantity?', [])).toBeNull()
+  })
+  test('Chinese question about factory location matches English FAQ', () => {
+    const hit = matchFaq('工厂地址在哪里', faqs)
+    expect(hit).not.toBeNull()
+    expect(hit!.answer).toContain('Qingdao')
+  })
+  test('Chinese question about MOQ matches English FAQ', () => {
+    const hit = matchFaq('最低起订量是多少', faqs)
+    expect(hit).not.toBeNull()
+    expect(hit!.answer).toContain('90–100')
+  })
+  test('Chinese question about certifications matches English FAQ', () => {
+    const hit = matchFaq('有什么认证', faqs)
+    expect(hit).not.toBeNull()
+    expect(hit!.answer).toContain('CE')
+  })
+  test('Chinese question with OEM keyword (uppercase) matches English FAQ', () => {
+    const hit = matchFaq('可以做OEM吗', faqs)
+    expect(hit).not.toBeNull()
+    expect(hit!.answer).toContain('OEM')
+  })
+  test('Chinese question about lead time matches English FAQ', () => {
+    const hit = matchFaq('交货期多长', faqs)
+    expect(hit).not.toBeNull()
+    expect(hit!.answer).toContain('25–35')
   })
 })
 
