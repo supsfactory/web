@@ -30,7 +30,7 @@ This repo is a **Website Foundation** — a full-stack Cloudflare Workers SaaS p
 │  Website Foundation     src/features/ + src/routes/      │
 │  Auth, search, AI chat, SEO, inquiry, admin, storage    │
 ├─────────────────────────────────────────────────────────┤
-│  Cloudflare Platform    D1 + KV + R2 + Vectorize + AI   │
+│  Cloudflare Platform    D1 + KV + R2 (+ Vectorize + AI) │
 ├─────────────────────────────────────────────────────────┤
 │  Infrastructure         GitHub Actions CI/CD + CDN       │
 └─────────────────────────────────────────────────────────┘
@@ -115,10 +115,10 @@ wrangler r2 bucket create myproduct-files-prod
 # KV namespace
 wrangler kv namespace create CACHE
 
-# Vectorize indexes
-wrangler vectorize create myproduct-knowledge --dimensions 1024 --metric cosine
-wrangler vectorize create myproduct-knowledge-staging --dimensions 1024 --metric cosine
-wrangler vectorize create myproduct-knowledge-prod --dimensions 1024 --metric cosine
+# Vectorize indexes (optional — only needed for full RAG mode; uncomment ai/vectorize in wrangler.jsonc)
+# wrangler vectorize create myproduct-knowledge --dimensions 1024 --metric cosine
+# wrangler vectorize create myproduct-knowledge-staging --dimensions 1024 --metric cosine
+# wrangler vectorize create myproduct-knowledge-prod --dimensions 1024 --metric cosine
 ```
 
 #### 6. Update `wrangler.example.jsonc`
@@ -129,7 +129,7 @@ Replace all `supsfactory` prefixes with your `SITE_ID`:
 - `d1_databases[].database_id`: paste the IDs from step 5
 - `r2_buckets[].bucket_name`: `myproduct-files` / `-staging` / `-prod`
 - `kv_namespaces[].id`: paste the ID from step 5
-- `vectorize[].index_name`: `myproduct-knowledge` / `-staging` / `-prod`
+- `vectorize[].index_name`: `myproduct-knowledge` / `-staging` / `-prod` (optional — only for full RAG mode)
 - `env.staging.name`: `myproduct-staging`
 - `env.production.name`: `myproduct-production`
 
@@ -229,8 +229,8 @@ This guide maps the **major architectural layers** of SUPsfactory to their sourc
 | **Routing & i18n** | Path-based bilingual routing (`{-$locale}`) | `src/routes/{-$locale}/` (file-based), `src/features/i18n/dictionaries/{en,es}.ts`, `src/features/seo/seo.ts` (`PUBLIC_PATHS`/`HREFLANG`/`OG_LOCALE`) | `/` = en, `/es` = es; dictionary must be structurally identical across languages |
 | **SEO & LLM Discovery** | Sitemap, robots, llms.txt, entity.json, RSS | `src/features/seo/seo.ts` (PUBLIC_PATHS, hreflang), `src/features/site/llm.ts`, `src/features/content/loader.ts` (`getGeoEntity`) | All LLM/SSEO endpoints generated from single source of truth |
 | **Auth & Admin** | better-auth, admin-only gates, roles | `src/features/auth/`, `src/features/admin/assert-admin.server.ts`, `ADMIN_EMAILS` env | Email/password auth, verification, password reset, OAuth; single source of admin truth |
-| **Data Stores** | D1, KV, R2, Vectorize | `src/db/`, `src/lib/cache-headers.ts`, `features/storage/`, `src/features/ai/` | SQLite auth + app tables; per-IP rate limits; blob storage; RAG index |
-| **AI Sales Assistant** | RAG Q&A chat widget | `src/features/ai/corpus.ts`, `src/features/ai/ai-chat.tsx`, Vectorize `supsfactory-knowledge` | Answers from site content with 6-citation minimum; degrades to keyword-FAQ fallback; **requires Workers Paid plan** (free tier has 10K neurons/day quota) |
+| **Data Stores** | D1, KV, R2 (+ Vectorize optional) | `src/db/`, `src/lib/cache-headers.ts`, `features/storage/`, `src/features/ai/` | SQLite auth + app tables; per-IP rate limits; blob storage; RAG index (optional) |
+| **AI Sales Assistant** | FAQ+corpus keyword search (free tier) / RAG Q&A (paid) | `src/features/ai/corpus.ts`, `src/features/ai/ai-chat.tsx`, Vectorize `supsfactory-knowledge` | **Deploys on Workers free tier** with keyword-based search (matchFaq + matchCorpus); upgrade to Workers Paid ($5/month) for AI-powered RAG (embeddings + LLM generation). Chat shows "FAQ" or "AI" badge per answer. |
 | **Testing & CI** | 272 tests (45 files), typecheck, build | `pnpm test`, `pnpm typecheck`, `pnpm build`; CI: `ci.yml`, `deploy.yml` | Full regression test suite; type-safe build; deploy pipeline with CDN purge + edge warm |
 
 --- 
@@ -286,7 +286,7 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 | **Waitlist** | A complete pre-launch signup loop: a public signup page, Turnstile bot protection, an admin management page + CSV export, and automatic subscriber sync into a [Resend](https://resend.com) audience (gracefully skipped when unconfigured). Routes are 410'd in production (edge URL gate) — kept as template reference. |
 | **Inquiry** | A public B2B inquiry form (name/company/country/email/WhatsApp/business type/quantity/requirements + optional project-file upload to R2 — PNG/JPG/SVG/WebP/PDF/AI/PSD/DWG/DXF/ZIP, ≤10 MB, extension whitelist + per-format magic-number sniffing) with per-IP rate limiting + Turnstile, an HTML-escaped admin notification email, and an admin pipeline: status workflow, CSV export, and sandboxed file serving. |
 | **Search** | Header dialog → `/search-index.json` (public, edge-cached 1h); `/search` page → Orama full-text over the same corpus; `/api/search` → in-docs search with a lazy-loaded single Orama instance and per-IP rate limiting (60/min). |
-| **AI Assistant** | Floating RAG chat (`src/features/ai/`): bge-m3 embeddings + Vectorize index over the en/es corpus, llama-3.2-3b answers with `[n]`-cited sources, multi-turn history, KV-answer caching (6h), per-IP + daily-quota rate limiting, nightly index rebuild in the cron, and FAQ keyword fallback when the AI stack is unavailable — no mocks, degrades gracefully. **Note:** Workers AI free tier is limited to 10,000 neurons/day; a Workers Paid plan is required for production RAG workloads. |
+| **AI Assistant** | Floating chat (`src/features/ai/`): **FAQ+corpus keyword search mode** (default, free-tier compatible) — `matchFaq` + `matchCorpus` score both FAQ entries and the full content corpus using token-overlap scoring, no AI inference needed. **Full RAG mode** (AI embeddings + LLM generation) available by uncommenting the `ai`/`vectorize` blocks in `wrangler.jsonc` — requires Workers Paid plan ($5/month). Chat shows "FAQ" or "AI" badge on each answer. KV-answer caching (6h), per-IP + daily-quota rate limiting, nightly index rebuild in the cron — no mocks, degrades gracefully. |
 | **Changelog** | An in-app `/changelog` page — MDX-driven, per-locale, with a `published` flag (410'd in production, template reference). |
 | **Feedback** | Signed-in users submit feedback + a "my feedback" list; an admin governance page drives status transitions and replies. Also the **reference for adding your own feature**: a vertical slice with ownership filtering, a pure function layer, both gate patterns, and dual-pool tests — see [feedback](src/content/docs/features/feedback.mdx). |
 | **i18n** | Path-based locale routing via TanStack's `{-$locale}` optional prefix — English at `/`, Español at `/es`. All marketing copy and UI strings translated. |
@@ -306,7 +306,7 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 - **[KV](https://developers.cloudflare.com/kv/)** for rate limiting, **[R2](https://developers.cloudflare.com/r2/)** for object storage
 - **[better-auth](https://better-auth.com)**, **[Resend](https://resend.com)**
 - **[Orama](https://orama.com)** full-text search (stopwords + tokenizers), **[Fumadocs](https://fumadocs.dev)** docs
-- **[Workers AI](https://developers.cloudflare.com/workers-ai/)** (bge-m3 embeddings + llama-3.2-3b) and **[Vectorize](https://developers.cloudflare.com/vectorize/)** (RAG knowledge index)
+- **[Workers AI](https://developers.cloudflare.com/workers-ai/)** (bge-m3 embeddings + llama-3.2-3b) and **[Vectorize](https://developers.cloudflare.com/vectorize/)** (RAG knowledge index) — **optional**, uncomment in `wrangler.jsonc` to enable full RAG mode
 - **[Tailwind CSS v4](https://tailwindcss.com)**
 - **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`) — **272 tests green (45 files)**
 
@@ -314,7 +314,7 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 
 - **Node.js** >= 22 (recommended to use [nvm](https://github.com/nvm-sh/nvm) or [volta](https://volta.sh/))
 - **pnpm** >= 9
-- A **Cloudflare** account (free tier is enough to start)
+- A **Cloudflare** account (free tier works — the assistant runs in FAQ+corpus keyword search mode without AI bindings)
 - `wrangler` CLI (already installed as a dev dependency, no need to install globally)
 
 ## Quick start
@@ -525,7 +525,7 @@ The repo ships five workflows:
 | `TURNSTILE_SECRET_KEY` | Same Turnstile widget → `Secret Key` | No captcha |
 | `CF_ANALYTICS_TOKEN` | Dashboard → Analytics & Logs → Web Analytics → your site → Manage → copy the beacon token (this is **not** an API token) | No beacon injected |
 | `SENTRY_DSN` | Sentry → project → Settings → Client Keys (DSN) | No error reporting |
-| `REINDEX_TOKEN` | Any strong random string, e.g. `openssl rand -hex 24` — bearer token for `POST /api/reindex` (the AI-index workflow rebuilds the Vectorize index after every deploy). **Workers AI free tier has 10K neurons/day; upgrade to Workers Paid for production RAG.** | Index rebuilt only by the daily 03:00 UTC cron |
+| `REINDEX_TOKEN` | Any strong random string, e.g. `openssl rand -hex 24` — bearer token for `POST /api/reindex` (the AI-index workflow rebuilds the Vectorize index after every deploy). **AI/Vectorize bindings are optional** — the assistant works in FAQ+corpus keyword search mode on the free tier. Uncomment the `ai`/`vectorize` blocks in `wrangler.jsonc` and upgrade to Workers Paid ($5/month) for full RAG. | Index rebuilt only by the daily 03:00 UTC cron |
 
 Notes:
 
@@ -560,7 +560,7 @@ Create it at [dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.co
 
 Notes:
 
-- **Workers AI** (bge-m3 embeddings + llama-3.2-3b used by the RAG assistant) is a runtime feature gated by your account's plan — it needs **no API-token permission**; same for the AI binding. Only Vectorize creation needs the Vectorize permission above. The free tier has a 10,000 neurons/day quota; **upgrade to Workers Paid** for production RAG workloads.
+- **Workers AI** (bge-m3 embeddings + llama-3.2-3b used by the RAG assistant) is a runtime feature gated by your account's plan — it needs **no API-token permission**; same for the AI binding. Only Vectorize creation needs the Vectorize permission above. The assistant works in FAQ+corpus keyword search mode on the free tier (no AI inference needed). **Upgrade to Workers Paid ($5/month) and uncomment the `ai`/`vectorize` blocks in `wrangler.jsonc` to enable full RAG mode.**
 - No custom domain? (default `*.workers.dev`): you can omit all Zone resources — the purge/warm steps detect the missing zone and skip cleanly.
 - `CF_ANALYTICS_TOKEN` is **not** an API token — it is the per-site Web Analytics beacon token from the dashboard; do not confuse the two.
 - To verify a token afterwards: `curl https://api.cloudflare.com/client/v4/user/tokens/verify -H "Authorization: Bearer <token>"` (or run the `cf-inspect.yml` workflow).

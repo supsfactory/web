@@ -31,7 +31,7 @@ export const Route = createFileRoute('/api/reindex')({
         }
         const { rebuildAiIndex } = await import('@/features/ai/ingest')
         try {
-          const stats = await rebuildAiIndex(env)
+          const stats = await rebuildAiIndex({ AI: env.AI, VECTORIZE: env.VECTORIZE })
           return Response.json({ ok: true, stats })
         } catch (err) {
           const msg = err instanceof Error ? err.message : String(err)

@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   # 每次生产部署成功后自动跑：确保索引存在 → 重建知识索引 → 冒烟验证。
   # Deploy 失败（conclusion 非 success）时跳过。
+  # 注意：AI/Vectorize 绑定默认注释掉（免费层兼容），未配置时整个 workflow 优雅跳过。
   workflow_run:
     workflows: [Deploy]
     types: [completed]

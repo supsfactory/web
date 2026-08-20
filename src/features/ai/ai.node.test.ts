@@ -4,7 +4,7 @@
  * the node pool resolves like any other module.
  */
 import { describe, expect, test } from 'vitest'
-import { buildAskPrompt, makeChunk, matchFaq, normalizeQuestion, stableHash } from './rag'
+import { buildAskPrompt, makeChunk, matchFaq, matchCorpus, normalizeQuestion, stableHash } from './rag'
 import { buildChunks } from './corpus'
 
 describe('stableHash', () => {
@@ -101,6 +101,36 @@ describe('matchFaq', () => {
     const hit = matchFaq('交货期多长', faqs)
     expect(hit).not.toBeNull()
     expect(hit!.answer).toContain('25–35')
+  })
+})
+
+describe('matchCorpus', () => {
+  const chunks = [
+    { id: '1', text: 'MOQ for standard volume production starts at 90–100+ pcs per 150 m drop-stitch roll. Pilot batches from 20–50 pcs.', url: '/oem-sup-moq', title: 'Inflatable SUP MOQ' },
+    { id: '2', text: 'We hold BSCI, ISO 9001, ISO 25649, CE, REACH and RoHS certifications for our Qingdao factory.', url: '/inflatable-sup-certification', title: 'SUP Certification Guide' },
+    { id: '3', text: 'Sample lead time is 7–12 days after artwork confirmation. Production is 25–35 days from confirmed PO.', url: '/faq', title: 'FAQ' },
+  ]
+  test('matches corpus chunk by keyword overlap', () => {
+    const hit = matchCorpus('What certifications do you have?', chunks)
+    expect(hit).not.toBeNull()
+    expect(hit!.chunk.url).toBe('/inflatable-sup-certification')
+    expect(hit!.answer).toContain('BSCI')
+  })
+  test('matches MOQ question against corpus', () => {
+    const hit = matchCorpus('What is your MOQ?', chunks)
+    expect(hit).not.toBeNull()
+    expect(hit!.answer).toContain('90–100')
+  })
+  test('no match for unrelated input', () => {
+    expect(matchCorpus('quark traversal photon tachyon', chunks)).toBeNull()
+  })
+  test('ignores short queries', () => {
+    expect(matchCorpus('hi there', chunks)).toBeNull()
+  })
+  test('Chinese question matches English corpus', () => {
+    const hit = matchCorpus('有什么认证', chunks)
+    expect(hit).not.toBeNull()
+    expect(hit!.answer).toContain('BSCI')
   })
 })
 

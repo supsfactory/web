@@ -76,7 +76,7 @@ const handler = {
       if (env.AI && env.VECTORIZE) {
         try {
           const { rebuildAiIndex } = await import('@/features/ai/ingest')
-          const stats = await rebuildAiIndex(env)
+          const stats = await rebuildAiIndex({ AI: env.AI, VECTORIZE: env.VECTORIZE })
           console.log('[cron] ai index rebuilt', stats)
         } catch (err) {
           console.error('[cron] ai index rebuild failed', err instanceof Error ? err.message : err)

@@ -14,6 +14,7 @@ interface ChatMessage {
   role: 'user' | 'assistant'
   content: string
   sources?: ChatSource[]
+  mode?: 'ai' | 'faq'
 }
 
 const MAX_HISTORY = 6
@@ -58,11 +59,12 @@ export function AiChat() {
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({ question, history, locale }),
       })
-      const data = (await res.json()) as { answer?: string; sources?: ChatSource[] }
+      const data = (await res.json()) as { answer?: string; sources?: ChatSource[]; mode?: 'ai' | 'faq' }
       if (!res.ok || !data.answer) throw new Error('empty answer')
       const answer = data.answer
       const sources = data.sources
-      setMessages((m) => [...m, { id: nextId++, role: 'assistant', content: answer, sources }])
+      const mode = data.mode
+      setMessages((m) => [...m, { id: nextId++, role: 'assistant', content: answer, sources, mode }])
       if (firstQuestion) {
         setMessages((m) => [...m, { id: nextId++, role: 'assistant', content: DISCLAIMER }])
       }
@@ -126,6 +128,13 @@ export function AiChat() {
                   }`}
                 >
                   {m.content}
+                  {m.role === 'assistant' && m.mode && (
+                    <span className={`ml-1 inline-block rounded px-1.5 py-0.5 text-[10px] font-medium leading-none ${
+                      m.mode === 'ai' ? 'bg-primary/10 text-primary' : 'bg-fg-3/10 text-fg-3'
+                    }`}>
+                      {m.mode === 'ai' ? 'AI' : 'FAQ'}
+                    </span>
+                  )}
                   {m.sources && m.sources.length > 0 && (
                     <div className="mt-2 border-t border-border/60 pt-2">
                       <p className="mb-1 text-[11px] font-semibold uppercase tracking-wide text-fg-3">

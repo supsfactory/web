@@ -2,7 +2,7 @@
 
 > **Purpose:** This file documents the content sources and structure that power the site's LLM discovery endpoints (`/llms.txt`, `/llms-full.txt`, `/entity.json`, `/rss.xml`, `/search-index.json`). All are generated **dynamically** from a single point of truth — edit the source, not a committed artifact.
 >
-> **Note:** The AI RAG assistant (Vectorize + Workers AI) requires a **Workers Paid plan** for production. The free tier has a 10,000 neurons/day quota which is insufficient for reindexing the full corpus.
+> **Note:** The AI RAG assistant (Vectorize + Workers AI) is **optional** — AI/Vectorize bindings are commented out by default in `wrangler.jsonc`. The assistant works in **FAQ+corpus keyword search mode** (matchFaq + matchCorpus, token-overlap scoring) on the Workers free tier with no AI inference. Uncomment the `ai`/`vectorize` blocks and upgrade to Workers Paid ($5/month) for full RAG mode (embeddings + LLM generation). The chat shows a "FAQ" or "AI" badge on each answer.
 
 ## 1. Endpoint Map
 
@@ -102,11 +102,12 @@ export function buildLlmIndex(locale: 'en' | 'es' = 'en') {
 }
 ```
 
-## 4. Chunk Stability & Vectorize
+## 4. Chunk Stability & Vectorize (optional — only for full RAG mode)
 
-- **Chunk ids** are stable FNV-1a hashes of `(locale, url, part)` → daily re-runs upsert in place in Vectorize `supsfactory-knowledge` / `-staging` / `-prod`.
+- **Chunk ids** are stable FNV-1a hashes of `(locale, url, part)` → daily re-runs upsert in place in Vectorize `supsfactory-knowledge` / `-staging` / `-prod`. These indexes only exist when the `vectorize` block is uncommented in `wrangler.jsonc`.
 - **Metadata** per chunk carries `text/url/title` so answer engines render sources as links.
-- **Rebuild** triggered daily at 03:00 UTC cron + every production deploy via `.github/workflows/ai-index.yml` (`POST /api/reindex` with `REINDEX_TOKEN`).
+- **Rebuild** triggered daily at 03:00 UTC cron + every production deploy via `.github/workflows/ai-index.yml` (`POST /api/reindex` with `REINDEX_TOKEN`). Skipped when bindings are absent.
+- **Without Vectorize**, `matchCorpus` searches the same chunks using token-overlap scoring — no embeddings needed, free-tier compatible.
 
 ## 5. Meta Length Spec (enforced on products/news/YAML pages)
 

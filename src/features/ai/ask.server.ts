@@ -9,7 +9,7 @@
  */
 
 import { defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
-import { buildAskPrompt, faqSlug, matchFaq, stableHash, type AiChunk, type AskMessage, type AskSource } from './rag'
+import { buildAskPrompt, faqSlug, matchFaq, matchCorpus, stableHash, type AiChunk, type AskMessage, type AskSource } from './rag'
 
 const EMBED_MODEL = '@cf/baai/bge-m3'
 const LLM_MODEL = '@cf/meta/llama-3.2-3b-instruct'
@@ -123,22 +123,37 @@ async function askWithRag(env: AskEnv, question: string, locale: Locale, history
   }
 }
 
-/** Degraded path: keyword-match against the site FAQ collection. */
+/** Degraded path: keyword-match against the site FAQ collection, then corpus chunks. */
 async function askFromFaq(question: string, locale: Locale): Promise<AskResponse> {
   try {
     const { getSiteFaqs } = await import('@/features/content/loader')
-    const hit = matchFaq(question, getSiteFaqs(locale))
-      || (locale !== defaultLocale && matchFaq(question, getSiteFaqs(defaultLocale)))
-    if (!hit) return { answer: '', sources: [], mode: 'none' }
     const { localizePath } = await import('@/features/i18n/locale')
-    const anchor = faqSlug(hit.faq.q)
-    return {
-      answer: hit.answer,
-      sources: [{ title: hit.faq.q, url: `${localizePath(locale, '/faq')}#${anchor}` }],
-      mode: 'faq',
+
+    const faqHit = matchFaq(question, getSiteFaqs(locale))
+      || (locale !== defaultLocale && matchFaq(question, getSiteFaqs(defaultLocale)))
+    if (faqHit) {
+      const anchor = faqSlug(faqHit.faq.q)
+      return {
+        answer: faqHit.answer,
+        sources: [{ title: faqHit.faq.q, url: `${localizePath(locale, '/faq')}#${anchor}` }],
+        mode: 'faq',
+      }
     }
+
+    const { buildChunks } = await import('./corpus')
+    const chunks = buildChunks(locale)
+    const corpusHit = matchCorpus(question, chunks)
+    if (corpusHit) {
+      return {
+        answer: corpusHit.answer,
+        sources: [{ title: corpusHit.chunk.title, url: corpusHit.chunk.url }],
+        mode: 'faq',
+      }
+    }
+
+    return { answer: '', sources: [], mode: 'none' }
   } catch (err) {
-    console.error('[ai] FAQ fallback failed', err instanceof Error ? err.message : err)
+    console.error('[ai] FAQ/corpus fallback failed', err instanceof Error ? err.message : err)
     return { answer: '', sources: [], mode: 'none' }
   }
 }

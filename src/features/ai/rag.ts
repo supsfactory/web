@@ -178,3 +178,45 @@ export function matchFaq(
   }
   return best ? { answer: best.faq.a, faq: best.faq } : null
 }
+
+const CORPUS_MIN_SCORE = 0.35
+const CORPUS_MIN_SCORE_CJK = 0.20
+
+const STOP_WORDS = new Set([
+  'what', 'where', 'when', 'how', 'who', 'which', 'why', 'whose',
+  'does', 'do', 'did', 'is', 'are', 'was', 'were', 'be', 'been',
+  'the', 'a', 'an', 'of', 'in', 'on', 'at', 'to', 'for', 'with',
+  'and', 'or', 'but', 'not', 'this', 'that', 'these', 'those',
+  'it', 'its', 'you', 'your', 'we', 'our', 'they', 'their',
+  'have', 'has', 'had', 'can', 'could', 'will', 'would', 'should',
+  'from', 'by', 'as', 'if', 'than', 'so', 'no', 'up', 'out',
+  'about', 'into', 'over', 'after', 'also', 'just', 'very',
+])
+
+export function matchCorpus(
+  question: string,
+  chunks: readonly AiChunk[],
+): { answer: string; chunk: AiChunk } | null {
+  const expanded = expandCjkToEn(question)
+  const rawTokens = tokenizeForMatch(expanded).filter((w) => w.length > 1 || CJK_CHAR.test(w))
+  if (rawTokens.length < 2) return null
+  const isCjkQuestion = rawTokens.some((t) => CJK_CHAR.test(t))
+  const scoredTokens = isCjkQuestion
+    ? rawTokens.filter((t) => !CJK_CHAR.test(t))
+    : rawTokens.filter((t) => !STOP_WORDS.has(t))
+  if (scoredTokens.length < 1) return null
+  const qSet = new Set(scoredTokens)
+  const threshold = isCjkQuestion ? CORPUS_MIN_SCORE_CJK : CORPUS_MIN_SCORE
+  let best: { score: number; chunk: AiChunk } | null = null
+  for (const chunk of chunks) {
+    const hay = normalizeQuestion(`${chunk.title} ${chunk.text}`)
+    const hayWords = new Set(tokenizeForMatch(`${chunk.title} ${chunk.text}`))
+    let hits = 0
+    for (const t of qSet) {
+      if (hayWords.has(t) || hay.includes(t)) hits++
+    }
+    const score = hits / qSet.size
+    if (score >= threshold && (!best || score > best.score)) best = { score, chunk }
+  }
+  return best ? { answer: best.chunk.text, chunk: best.chunk } : null
+}

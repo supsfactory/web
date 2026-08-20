@@ -60,15 +60,21 @@
 			"id": "00000000000000000000000000000000"
 		}
 	],
-	"ai": {
-		"binding": "AI"
-	},
-	"vectorize": [
-		{
-			"binding": "VECTORIZE",
-			"index_name": "supsfactory-knowledge"
-		}
-	],
+	// Workers AI + Vectorize — AI sales assistant (POST /api/ask).
+	// FREE-TIER: Commented out by default. The assistant works in FAQ-only mode
+	// without AI bindings. To enable full RAG (requires Workers Paid plan):
+	//   1. Uncomment ai + vectorize blocks below (and in each named env)
+	//   2. Create index: `wrangler vectorize create {siteId}-knowledge --dimensions=1024 --metric=cosine`
+	//   3. Set REINDEX_TOKEN: `wrangler secret put REINDEX_TOKEN`
+	// "ai": {
+	// 	"binding": "AI"
+	// },
+	// "vectorize": [
+	// 	{
+	// 		"binding": "VECTORIZE",
+	// 		"index_name": "supsfactory-knowledge"
+	// 	}
+	// ],
 	"vars": {
 		"BETTER_AUTH_SECRET": "",
 		"BETTER_AUTH_URL": "",
@@ -116,15 +122,15 @@
 					"id": "00000000000000000000000000000000"
 				}
 			],
-			"ai": {
-				"binding": "AI"
-			},
-			"vectorize": [
-				{
-					"binding": "VECTORIZE",
-					"index_name": "supsfactory-knowledge-staging"
-				}
-			]
+			// "ai": {
+			// 	"binding": "AI"
+			// },
+			// "vectorize": [
+			// 	{
+			// 		"binding": "VECTORIZE",
+			// 		"index_name": "supsfactory-knowledge-staging"
+			// 	}
+			// ]
 		},
 		"production": {
 			"name": "supsfactory-production",
@@ -154,15 +160,15 @@
 					"id": "00000000000000000000000000000000"
 				}
 			],
-			"ai": {
-				"binding": "AI"
-			},
-			"vectorize": [
-				{
-					"binding": "VECTORIZE",
-					"index_name": "supsfactory-knowledge-prod"
-				}
-			]
+			// "ai": {
+			// 	"binding": "AI"
+			// },
+			// "vectorize": [
+			// 	{
+			// 		"binding": "VECTORIZE",
+			// 		"index_name": "supsfactory-knowledge-prod"
+			// 	}
+			// ]
 		}
 	}
 }

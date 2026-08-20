@@ -172,9 +172,27 @@ The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`,
 
 ---
 
-## 7. AI sales assistant (RAG Q&A, `src/features/ai/`)
+## 7. AI sales assistant (`src/features/ai/`) — two-tier architecture
 
 A floating chat widget (bottom-right, above the WhatsApp/WeChat floats and the mobile contact bar) answering buyer questions from the site's own content — the same corpus the SEO/LLM layer exposes. No persistent storage; sessions live in the browser, multi-turn context is sent with each request (last 6 turns).
+
+The assistant runs in **two modes**, selected by whether the `ai`/`vectorize` bindings are present in `wrangler.jsonc`:
+
+### Tier 1: FAQ+corpus keyword search (default, Workers free tier)
+
+When AI/Vectorize bindings are absent (commented out by default in `wrangler.jsonc`), the assistant uses pure keyword matching — no AI inference, no embeddings, no LLM calls. Works entirely on the Workers free tier.
+
+| Layer | Piece |
+|-------|-------|
+| **matchFaq** | Token-overlap scoring against `getSiteFaqs(locale)`: splits question + FAQ question into word tokens, computes Jaccard-like overlap (≥3 significant words, ≥55% overlap for English; CJK: character-level tokenization + cross-language keyword expansion, min score 0.30 vs 0.55). Returns the best-matching FAQ answer. |
+| **matchCorpus** | Token-overlap scoring against the **full content corpus** (`buildChunks(locale)` — same chunks the RAG tier uses): each chunk's `text` field is tokenized and scored against the user's question. Finds relevant product specs, solution details, manufacturing facts, etc. — not just FAQ entries. Both `matchFaq` and `matchCorpus` run; results are merged with the highest-scoring answer returned. |
+| Badge | Each answer shows a subtle **"FAQ"** badge indicating keyword-search mode |
+
+This mode works from day one — no index build, no AI quota, no paid plan. It searches both FAQ entries AND the full content corpus (solutions, products, guides, knowledge hub, afarer pages) using token-overlap scoring.
+
+### Tier 2: Full RAG (Workers Paid plan, $5/month)
+
+When the `ai` and `vectorize` blocks are uncommented in `wrangler.jsonc`, the assistant upgrades to full RAG with embeddings + LLM generation:
 
 | Layer | Piece |
 |-------|-------|
@@ -183,8 +201,15 @@ A floating chat widget (bottom-right, above the WhatsApp/WeChat floats and the m
 | Index | Vectorize `supsfactory-knowledge` / `-staging` / `-prod` (per env); chunk ids are stable FNV-1a hashes of `(locale, url, part)` so daily re-runs upsert in place |
 | Retrieval | top-K=6 cosine, `returnMetadata: 'all'`; metadata carries `text/url/title` so sources render as links |
 | Generation | `@cf/meta/llama-3.2-3b-instruct` via `buildAskPrompt` (pure, in `rag.ts`): system prompt forbids inventing prices/MOQ/lead-times/certifications, demands `[n]` citations, and redirects unknown topics to `/contact`; answers in the buyer's language |
-| Degradation | No AI/Vectorize bindings, empty retrieval, or any failure → `matchFaq` keyword-overlap fallback (CJK: character-level tokenization + cross-language keyword expansion, min score 0.30 vs 0.55 for English; ≥3 significant words, ≥55% overlap for English) against `getSiteFaqs(locale)` → last resort empty answer. The widget works from day one, before the index ever exists |
-| Cache | KV `aiask:{locale}:{hash}` TTL 6h (hit answers served without AI calls); per-IP rate limit 10/10 min + daily global cap 1500, both fail-open; `/api/ask` is a POST JSON endpoint (route pattern mirrors `/api/search`, everything AI-related is dynamically imported) |
-| Rebuild | `ingest.ts` `rebuildAiIndex` runs in the daily 03:00 UTC cron (same block as maintenance cleanup, idempotent; skipped when bindings are absent). After every production deploy, `.github/workflows/ai-index.yml` re-creates the indexes if missing (idempotent) and triggers a rebuild via the token-guarded `POST /api/reindex` (`REINDEX_TOKEN` secret, 404 when unset / 401 on mismatch), then smoke-tests `/api/ask`. **Workers AI free tier quota:** 10,000 neurons/day — for production RAG workloads, upgrade to the Workers Paid plan ($5/month) |
+| Fallback | No AI/Vectorize bindings, empty retrieval, or any failure → Tier 1 (matchFaq + matchCorpus keyword fallback). The widget always works. |
+| Badge | Each answer shows a subtle **"AI"** badge indicating RAG mode |
 
-Frontend: `src/features/ai/ai-chat.tsx` (mounted in `Footer`), i18n under `sup.aiChat.*`. Tests: `ai.node.test.ts` (chunker/prompt/FAQ-match/CJK/id stability, node pool) + `ask.workers.test.ts` (FAQ fallback against the miniflare KV, workers pool).
+### Shared infrastructure (both tiers)
+
+| Layer | Piece |
+|-------|-------|
+| Cache | KV `aiask:{locale}:{hash}` TTL 6h (hit answers served without AI calls); per-IP rate limit 10/10 min + daily global cap 1500, both fail-open; `/api/ask` is a POST JSON endpoint (route pattern mirrors `/api/search`, everything AI-related is dynamically imported) |
+| Rebuild | `ingest.ts` `rebuildAiIndex` runs in the daily 03:00 UTC cron (same block as maintenance cleanup, idempotent; skipped when bindings are absent). After every production deploy, `.github/workflows/ai-index.yml` re-creates the indexes if missing (idempotent) and triggers a rebuild via the token-guarded `POST /api/reindex` (`REINDEX_TOKEN` secret, 404 when unset / 401 on mismatch), then smoke-tests `/api/ask`. |
+| Type bindings | `worker-configuration.d.ts` declares `Ai?` and `VectorizeIndex?` as optional — code checks for their presence at runtime to select the tier |
+
+**Workers AI free tier quota:** 10,000 neurons/day — sufficient for light testing, but reindexing exceeds this. **Upgrade to Workers Paid ($5/month) and uncomment the `ai`/`vectorize` blocks in `wrangler.jsonc` for full RAG mode.** The assistant works fully without them in FAQ+corpus keyword search mode.

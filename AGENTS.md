@@ -12,7 +12,7 @@ A **Website Foundation** — a Cloudflare-native SaaS platform on **TanStack Sta
 Product Layer          src/product/       Brand strings, product data, AI prompts, dictionaries
 Site Configuration     src/config/        SITE_ID, domain, locales, feature flags, nav redirects
 Website Foundation     src/features/      Auth, search, AI chat, SEO, inquiry, admin, storage
-Cloudflare Platform    D1 + KV + R2 + Vectorize + Workers AI
+Cloudflare Platform    D1 + KV + R2 (+ Vectorize + Workers AI, optional)
 Infrastructure         GitHub Actions CI/CD + CDN
 ```
 
@@ -39,7 +39,7 @@ Framework code (`src/features/`, `src/routes/`, `src/components/`) never imports
 - **Locales:** `SUPPORTED_LOCALES` (22 entries, type system) vs `ACTIVE_LOCALES` (runtime routing, only locales with deployed dictionaries). Add new locale: update ACTIVE_LOCALES + create dictionary file.
 - **DB:** Drizzle + D1 migrations — `pnpm db:generate` then `pnpm db:migrate:local`; register new tables in `src/db/schema.ts`. Seed split: `pnpm db:seed:framework:local` (system) then `pnpm db:seed:local` (demo data).
 - **No mock, graceful degradation:** optional integrations (Resend, Turnstile, Sentry, analytics) switch off when their env keys are absent — keep that behavior.
-- **AI quota:** Workers AI free tier = 10,000 neurons/day. RAG reindexing exceeds this. Upgrade to Workers Paid plan ($5/month) for production AI workloads.
+- **AI bindings are optional:** AI/Vectorize bindings are commented out by default in `wrangler.jsonc`. The assistant works in FAQ+corpus keyword search mode (matchFaq + matchCorpus) on the Workers free tier — no AI inference needed. Uncomment the `ai`/`vectorize` blocks and upgrade to Workers Paid ($5/month) for full RAG mode (embeddings + LLM generation). `worker-configuration.d.ts` has `Ai?` and `VectorizeIndex?` as optional.
 - **Routes:** after adding a route, run `pnpm build` before `pnpm typecheck` (the route tree is generated at build). Single-segment content routes use `contentSingleRoute()` (loader+head, no component — rendered by catch-all `$.tsx`).
 - **Tests:** Vitest — node pool (`*.node.test.ts`) for pure logic, workers pool (`*.workers.test.ts`) for D1; the workers pool does NOT auto-apply migrations (hand-create tables in `beforeAll`). 272 tests across 45 files.
 - **Media assets:** `public/assets/videos/`, `public/assets/quality/`, `public/assets/products/`, `public/downloads/` are git-ignored; large binaries live in Cloudflare R2 CDN `assets.{SITE_DOMAIN}/site/*`; re-upload via `pnpm upload:site-assets`.
