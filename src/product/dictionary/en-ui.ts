@@ -9,6 +9,8 @@ export const enUi = {
     typeSolution: 'Solution', typeGuide: 'Guide', typeProject: 'Project', typePage: 'Page',
     signIn: 'Sign in',
     menu: 'Menu',
+    skipToContent: 'Skip to content',
+    footerNav: 'Footer navigation',
   },
   changelog: {
     title: 'Changelog',

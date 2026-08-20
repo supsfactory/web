@@ -65,6 +65,7 @@ export function SiteNav() {
           label: t('sup.nav.productsServicesDropdown.exploreGroup'),
           items: [
             { label: t('sup.nav.productsServicesDropdown.manufacturer'), href: '/oem-manufacturing' },
+            { label: t('sup.nav.productsServicesDropdown.constructionComparison'), href: '/sup-construction-comparison' },
             { label: t('sup.nav.productsServicesDropdown.privateLabel'), href: '/solutions/private-label-sup' },
             { label: t('sup.nav.productsServicesDropdown.comparison'), href: '/oem-odm-private-label-comparison' },
             { label: t('sup.nav.productsServicesDropdown.productDevelopment'), href: '/product-development' },
@@ -104,6 +105,8 @@ export function SiteNav() {
             { label: t('sup.nav.proofQualityDropdown.factory'), href: '/factory' },
             { label: t('sup.nav.proofQualityDropdown.proofCenter'), href: '/proof-center' },
             { label: t('sup.nav.proofQualityDropdown.quality'), href: '/quality' },
+            { label: t('sup.nav.proofQualityDropdown.complianceByMarket'), href: '/sup-compliance-by-market' },
+            { label: t('sup.nav.proofQualityDropdown.auditChecklist'), href: '/factory-audit-checklist' },
             { label: t('sup.nav.proofQualityDropdown.technology'), href: '/technology' },
           ],
         },
@@ -250,7 +253,7 @@ export function SiteNav() {
   return (
     <>
       <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground focus:shadow-lg">
-        Skip to content
+        {t('common.skipToContent')}
       </a>
       <header className="sticky top-0 z-30 border-b border-border/80 shadow-[var(--shadow-sm)] backdrop-blur">
         {/* top bar — auth utilities above the main nav */}

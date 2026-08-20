@@ -87,6 +87,8 @@ export function ContactFloats() {
       <img
         src="/assets/wechat-qr.jpg"
         alt="WeChat QR code"
+        width={192}
+        height={192}
         loading="lazy"
         className="h-48 w-auto rounded-lg border border-border-2 bg-white p-1.5"
       />

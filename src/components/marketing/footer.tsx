@@ -59,6 +59,7 @@ export function Footer() {
         </div>
 
         {/* Manufacturing & Quality */}
+        <nav aria-label={t('common.footerNav')}>
         <FooterCol title={t('sup.footer.colManufacturing')}>
           <a className="foot-link" href={fl('/oem-manufacturing')}>{t('sup.nav.oemOdm')}</a>
           <a className="foot-link" href={fl('/oem-moq-guide')}>{t('sup.nav.oemDropdown.moqGuide')}</a>
@@ -69,6 +70,8 @@ export function Footer() {
           <a className="foot-link" href={fl('/proof-center')}>{t('sup.nav.manufacturingDropdown.proofCenter')}</a>
           <a className="foot-link" href={fl('/factory/capacity')}>{t('sup.footer.factoryCapacity')}</a>
           <a className="foot-link" href={fl('/quality')}>{t('sup.nav.manufacturingDropdown.quality')}</a>
+          <a className="foot-link" href={fl('/sup-compliance-by-market')}>{t('sup.nav.proofQualityDropdown.complianceByMarket')}</a>
+          <a className="foot-link" href={fl('/factory-audit-checklist')}>{t('sup.nav.proofQualityDropdown.auditChecklist')}</a>
           <a className="foot-link" href={fl('/factory/quality-inspection')}>{t('sup.nav.manufacturingDropdown.qualityInspection')}</a>
           <a className="foot-link" href={fl('/factory/quality-change-control')}>{t('sup.nav.manufacturingDropdown.changeControl')}</a>
           <a className="foot-link" href={fl('/factory/non-conforming-control')}>{t('sup.nav.manufacturingDropdown.nonConformingControl')}</a>
@@ -79,6 +82,7 @@ export function Footer() {
         {/* Solutions */}
         <FooterCol title={t('sup.footer.colSolutions')}>
           <a className="foot-link" href={fl('/product-development')}>{t('sup.footer.productDevelopment')}</a>
+          <a className="foot-link" href={fl('/sup-construction-comparison')}>{t('sup.nav.productsServicesDropdown.constructionComparison')}</a>
           <a className="foot-link" href={fl('/solutions/private-label-sup')}>{t('sup.footer.privateLabel')}</a>
           <a className="foot-link" href={fl('/solutions/resort-sup')}>{t('sup.footer.resortSolutions')}</a>
           <a className="foot-link" href={fl('/solutions/club-sup')}>{t('sup.footer.clubSup')}</a>
@@ -101,8 +105,10 @@ export function Footer() {
           <a className="foot-link" href={fl('/faq')}>{t('sup.footer.faq')}</a>
           <a className="foot-link" href={fl('/news')}>{t('sup.footer.news')}</a>
           <a className="foot-link" href={fl(ENTITY_PAGE_PATH)}>{t('sup.nav.aboutAfarer')}</a>
+          <a className="foot-link" href={fl('/about/identity')}>{t('sup.footer.aboutIdentity')}</a>
           <a className="foot-link" href={fl('/contact')}>{t('sup.footer.contact')}</a>
         </FooterCol>
+        </nav>
       </div>
 
       <div className="mx-auto mt-10 flex max-w-7xl flex-col items-start justify-between gap-4 border-t border-border pt-5 sm:flex-row sm:items-center">

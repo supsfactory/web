@@ -62,7 +62,7 @@ export const Route = createFileRoute('/$')({
       { property: 'og:description', content: description },
       { property: 'og:url', content: canonical },
       { property: 'og:locale', content: 'en_US' },
-      { property: 'og:type', content: loaderData.kind === 'post' ? 'article' : loaderData.kind === 'product' ? 'product' : 'website' },
+      { property: 'og:type', content: loaderData.kind === 'post' ? 'article' : 'website' },
       { property: 'og:image', content: absImage },
       { property: 'og:image:width', content: '1200' },
       { property: 'og:image:height', content: '630' },

@@ -9,6 +9,8 @@ export const esUi = {
     typeSolution: 'Solución', typeGuide: 'Guía', typeProject: 'Proyecto', typePage: 'Página',
     signIn: 'Iniciar sesión',
     menu: 'Menú',
+    skipToContent: 'Saltar al contenido',
+    footerNav: 'Navegación del pie de página',
   },
   changelog: {
     title: 'Registro de cambios',

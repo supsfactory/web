@@ -139,23 +139,31 @@ const SupOemMoqLeadTimeRoute = SupOemMoqLeadTimeRouteImport.update({
   id: '/sup-oem-moq-lead-time',
   path: '/sup-oem-moq-lead-time',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() =>
+  import('./routes/sup-oem-moq-lead-time.lazy').then((d) => d.Route),
+)
 const SupConstructionComparisonRoute =
   SupConstructionComparisonRouteImport.update({
     id: '/sup-construction-comparison',
     path: '/sup-construction-comparison',
     getParentRoute: () => rootRouteImport,
-  } as any)
+  } as any).lazy(() =>
+    import('./routes/sup-construction-comparison.lazy').then((d) => d.Route),
+  )
 const SupComplianceByMarketRoute = SupComplianceByMarketRouteImport.update({
   id: '/sup-compliance-by-market',
   path: '/sup-compliance-by-market',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() =>
+  import('./routes/sup-compliance-by-market.lazy').then((d) => d.Route),
+)
 const StartSupProjectRoute = StartSupProjectRouteImport.update({
   id: '/start-sup-project',
   path: '/start-sup-project',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() =>
+  import('./routes/start-sup-project.lazy').then((d) => d.Route),
+)
 const SizeGuideRoute = SizeGuideRouteImport.update({
   id: '/size-guide',
   path: '/size-guide',
@@ -239,7 +247,7 @@ const OemSupMoqRoute = OemSupMoqRouteImport.update({
   id: '/oem-sup-moq',
   path: '/oem-sup-moq',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/oem-sup-moq.lazy').then((d) => d.Route))
 const OemPaddleRoute = OemPaddleRouteImport.update({
   id: '/oem-paddle',
   path: '/oem-paddle',
@@ -249,13 +257,19 @@ const OemOnboardingGuideRoute = OemOnboardingGuideRouteImport.update({
   id: '/oem-onboarding-guide',
   path: '/oem-onboarding-guide',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() =>
+  import('./routes/oem-onboarding-guide.lazy').then((d) => d.Route),
+)
 const OemOdmPrivateLabelComparisonRoute =
   OemOdmPrivateLabelComparisonRouteImport.update({
     id: '/oem-odm-private-label-comparison',
     path: '/oem-odm-private-label-comparison',
     getParentRoute: () => rootRouteImport,
-  } as any)
+  } as any).lazy(() =>
+    import('./routes/oem-odm-private-label-comparison.lazy').then(
+      (d) => d.Route,
+    ),
+  )
 const OemOdmRoute = OemOdmRouteImport.update({
   id: '/oem-odm',
   path: '/oem-odm',
@@ -289,7 +303,9 @@ const NewBrandTrialOrderRoute = NewBrandTrialOrderRouteImport.update({
   id: '/new-brand-trial-order',
   path: '/new-brand-trial-order',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() =>
+  import('./routes/new-brand-trial-order.lazy').then((d) => d.Route),
+)
 const LlmsDottxtRoute = LlmsDottxtRouteImport.update({
   id: '/llms.txt',
   path: '/llms.txt',
@@ -317,7 +333,9 @@ const InflatableSupCertificationRoute =
     id: '/inflatable-sup-certification',
     path: '/inflatable-sup-certification',
     getParentRoute: () => rootRouteImport,
-  } as any)
+  } as any).lazy(() =>
+    import('./routes/inflatable-sup-certification.lazy').then((d) => d.Route),
+  )
 const FishingRoute = FishingRouteImport.update({
   id: '/fishing',
   path: '/fishing',
@@ -332,7 +350,9 @@ const FactoryAuditChecklistRoute = FactoryAuditChecklistRouteImport.update({
   id: '/factory-audit-checklist',
   path: '/factory-audit-checklist',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() =>
+  import('./routes/factory-audit-checklist.lazy').then((d) => d.Route),
+)
 const FactoryRoute = FactoryRouteImport.update({
   id: '/factory',
   path: '/factory',
@@ -510,7 +530,9 @@ const AboutIdentityRoute = AboutIdentityRouteImport.update({
   id: '/about/identity',
   path: '/about/identity',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() =>
+  import('./routes/about/identity.lazy').then((d) => d.Route),
+)
 const Char123LocaleChar125AdminRouteRoute =
   Char123LocaleChar125AdminRouteRouteImport.update({
     id: '/admin',
