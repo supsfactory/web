@@ -473,3 +473,30 @@
     - { key: ip_rules, type: content, label: 'IP Protection Rules' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: start-sup-project
+  label: Start Your SUP Project
+  path: /start-sup-project
+  permalink: /start-sup-project
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'What Happens Next' }
+    - { key: process_steps, type: steps, label: 'Process Steps' }
+    - { key: collaboration_types, type: features, label: 'Collaboration Types' }
+    - { key: what_we_need, type: content, label: 'What to Prepare' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: oem-onboarding-guide
+  label: OEM Onboarding Guide
+  path: /oem-onboarding-guide
+  permalink: /oem-onboarding-guide
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: process_steps, type: steps, label: 'Onboarding Gates' }
+    - { key: collaboration_modes, type: features, label: 'Collaboration Modes' }
+    - { key: checklist, type: content, label: 'Pre-Brief Checklist' }
+    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }

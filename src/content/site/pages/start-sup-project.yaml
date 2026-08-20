@@ -1,0 +1,114 @@
+meta:
+  title: 'Start Your SUP Project — From Brief to Delivered Boards | SUPsfactory'
+  description: 'Start your custom SUP project: submit a project brief, get NDA protection, receive samples in 7–12 days, approve and scale into production. Step-by-step process with clear timelines. Qingdao Vatrad Group Co., Ltd.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'start SUP project'
+    - 'custom SUP order'
+    - 'SUP project brief'
+    - 'OEM SUP project'
+    - 'custom paddle board order'
+    - 'SUP manufacturing project'
+    - 'inflatable SUP project'
+
+hero:
+  tagline: 'Begin Here'
+  title: 'Start Your SUP Project'
+  subtitle: 'Whether you are launching a new brand, expanding a product line, or sourcing branded boards for your operation — every project starts the same way: a project brief, an NDA, a sample, and a clear path to production. Here is what happens after you click "Start."'
+  actions:
+    - variant: primary
+      text: Begin Your Project Brief
+      href: /contact#project-brief
+    - text: See how the process works
+      href: /how-it-works
+
+answer:
+  label: 'What happens next'
+  text: 'After you submit a project brief, you receive a response within one business day. An NDA is available before you share any proprietary details. Engineering reviews your brief and returns an itemized quotation with MOQ, sample fees and a gate-by-gate timeline — typically 7–12 days for samples and 6–8 weeks for first production from confirmed PO. Sample fees are credited toward your production order. No commitment until you sign.'
+  verified: '2026-08'
+
+process_steps:
+  tagline: The Process
+  title: 'From Brief to Delivered Boards — Five Steps'
+  subtitle: 'Every step has a defined timeline, a documented deliverable, and a go/no-go checkpoint. You proceed only when you are ready.'
+  steps:
+    - step: 'Step 1'
+      title: 'Submit Your Project Brief'
+      desc: 'Tell us about your board — target specs, volume, compliance needs and timeline. The brief takes 5–10 minutes. If you are not sure about every detail, share what you have and we will guide the rest. An NDA is available before you share proprietary designs.'
+    - step: 'Step 2'
+      title: 'NDA & Feasibility Review (1–5 Days)'
+      desc: 'We sign an NDA if requested, then engineering reviews your brief against manufacturing capability, material availability and compliance scope. You receive an itemized quotation with MOQ calculation, sample fees and a gate-by-gate timeline.'
+    - step: 'Step 3'
+      title: 'Sample & Approval (7–21 Days)'
+      desc: '1–2 physical boards produced to your specification. You ride and evaluate — hull rigidity, graphic accuracy, accessory fitment. Adjustments are captured in a revised BOM. The frozen sample becomes the production reference. Sample fees are credited toward production.'
+    - step: 'Step 4'
+      title: 'Pre-Production Planning (7 Days)'
+      desc: 'Materials procurement, tooling setup, packaging confirmation and production slot reservation. All materials are incoming-inspected against the frozen BOM. A production schedule with QC gate dates is issued before manufacturing begins.'
+    - step: 'Step 5'
+      title: 'Production, QC & Shipping (4–6 Weeks)'
+      desc: 'Manufacturing runs through the 7-stage inspection gate system with pass/fail criteria at each gate. Export-grade packing, compliance documentation and ocean freight coordination to 50+ countries. Post-delivery review captures refinements for the next order.'
+
+collaboration_types:
+  tagline: Choose Your Path
+  title: 'Three Ways to Work with SUPsfactory'
+  subtitle: 'Every project goes through the same process — what changes is the engineering scope and where IP ownership sits.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM Manufacturing'
+      desc: 'You provide the design. We manufacture to your spec. You own all IP. Best for brands with proven board geometry.'
+      link_label: 'See OEM details'
+      href: /oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM Development'
+      desc: 'You provide the brief. We develop the board. Adapted platform with your branding. Best for brands entering the market without in-house design.'
+      link_label: 'See ODM details'
+      href: /odm-development
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Your brand on a proven platform. No engineering stage. As few as 5–10 units. Best for operators and distributors.'
+      link_label: 'See Private Label options'
+      href: /solutions/private-label-sup
+
+what_we_need:
+  heading: 'What to Prepare Before Your Brief'
+  body: |
+    A complete brief accelerates the process. Here is what helps:
+
+    - **Board specs** — Target length, width, thickness, rider weight, use-case. Reference board dimensions or competitor models are useful.
+    - **Design files** — Vector artwork (AI, SVG, PDF) for graphics and logos. If not ready, mood boards or reference images work for initial feasibility.
+    - **Volume & timeline** — Target quantity and season schedule. Even a rough range ("20–50 boards by March") is enough to start.
+    - **Compliance needs** — Target markets and any specific certification requirements beyond CE, ISO 9001, BSCI, REACH, RoHS.
+    - **Budget range** — An indicative per-board budget or target landed cost helps us recommend the right platform.
+
+    **Not ready with everything?** Submit what you have. We will guide the rest.
+
+faqs:
+  tagline: FAQ
+  title: 'Starting a SUP Project — Frequently Asked Questions'
+  items:
+    - q: 'What is the minimum order to start?'
+      a: 'The entry point is tiered: 1–2 samples first (7–12 days), a trial order of 20–50 boards (25–35 days), then standard volume runs of 90–100+ boards per approved configuration. Private label co-branding starts from 5–10 units with no development stage.'
+    - q: 'How long does it take to get samples?'
+      a: 'Physical samples are produced in 7–12 days from confirmed spec and deposit. Using existing hull platforms, the full cycle from brief to delivered trial order typically runs 8–12 weeks. A bespoke hull adds 15–20 days of mould development.'
+    - q: 'Is my design protected?'
+      a: 'Yes. An NDA is available immediately — before you share any proprietary information. We manufacture exclusively under our clients'' brands and never compete with them. All technical files are stored in access-controlled systems with audit trails.'
+    - q: 'What does the project brief form ask for?'
+      a: 'The brief asks for your business type, company name, target board specifications, order quantity range, timeline and any compliance requirements. It takes about 5–10 minutes. You can attach design files (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) up to 10 MB. If you are unsure about any field, skip it — we will follow up.'
+    - q: 'What happens after I submit the brief?'
+      a: 'You receive a response within one business day. Engineering reviews your brief and returns an itemized quotation with MOQ, sample fees and a gate-by-gate timeline. No commitment is required until you review and sign the contract. Sample fees are credited toward your production order.'
+
+cta:
+  title: 'Ready to Start?'
+  subtitle: 'Submit your project brief — board specs, volume and timeline — and we will confirm feasibility, produce samples and deliver a production schedule with documented QC at every step.'
+  actions:
+    - variant: primary
+      text: Begin Your Project Brief
+      href: /contact#project-brief
+    - text: Read the full onboarding guide
+      href: /oem-onboarding-guide
+    - text: Verify the factory & quality system
+      href: /proof-center

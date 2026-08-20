@@ -14,6 +14,7 @@ import { Route as WarrantyRouteImport } from './routes/warranty'
 import { Route as TourismRecreationRouteImport } from './routes/tourism-recreation'
 import { Route as TechnologyRouteImport } from './routes/technology'
 import { Route as SupOemMoqLeadTimeRouteImport } from './routes/sup-oem-moq-lead-time'
+import { Route as StartSupProjectRouteImport } from './routes/start-sup-project'
 import { Route as SizeGuideRouteImport } from './routes/size-guide'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as SitemapProductsDotxmlRouteImport } from './routes/sitemap-products[.]xml'
@@ -31,6 +32,8 @@ import { Route as PartnersRouteImport } from './routes/partners'
 import { Route as OemTrustAssuranceRouteImport } from './routes/oem-trust-assurance'
 import { Route as OemSupMoqRouteImport } from './routes/oem-sup-moq'
 import { Route as OemPaddleRouteImport } from './routes/oem-paddle'
+import { Route as OemOnboardingGuideRouteImport } from './routes/oem-onboarding-guide'
+import { Route as OemOdmPrivateLabelComparisonRouteImport } from './routes/oem-odm-private-label-comparison'
 import { Route as OemOdmRouteImport } from './routes/oem-odm'
 import { Route as OemMoqGuideRouteImport } from './routes/oem-moq-guide'
 import { Route as OemManufacturingRouteImport } from './routes/oem-manufacturing'
@@ -133,6 +136,11 @@ const SupOemMoqLeadTimeRoute = SupOemMoqLeadTimeRouteImport.update({
   path: '/sup-oem-moq-lead-time',
   getParentRoute: () => rootRouteImport,
 } as any)
+const StartSupProjectRoute = StartSupProjectRouteImport.update({
+  id: '/start-sup-project',
+  path: '/start-sup-project',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SizeGuideRoute = SizeGuideRouteImport.update({
   id: '/size-guide',
   path: '/size-guide',
@@ -222,6 +230,17 @@ const OemPaddleRoute = OemPaddleRouteImport.update({
   path: '/oem-paddle',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/oem-paddle.lazy').then((d) => d.Route))
+const OemOnboardingGuideRoute = OemOnboardingGuideRouteImport.update({
+  id: '/oem-onboarding-guide',
+  path: '/oem-onboarding-guide',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OemOdmPrivateLabelComparisonRoute =
+  OemOdmPrivateLabelComparisonRouteImport.update({
+    id: '/oem-odm-private-label-comparison',
+    path: '/oem-odm-private-label-comparison',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const OemOdmRoute = OemOdmRouteImport.update({
   id: '/oem-odm',
   path: '/oem-odm',
@@ -672,6 +691,8 @@ export interface FileRoutesByFullPath {
   '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
+  '/oem-odm-private-label-comparison': typeof OemOdmPrivateLabelComparisonRoute
+  '/oem-onboarding-guide': typeof OemOnboardingGuideRoute
   '/oem-paddle': typeof OemPaddleRoute
   '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
@@ -689,6 +710,7 @@ export interface FileRoutesByFullPath {
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
+  '/start-sup-project': typeof StartSupProjectRoute
   '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
   '/tourism-recreation': typeof TourismRecreationRoute
@@ -769,6 +791,8 @@ export interface FileRoutesByTo {
   '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
+  '/oem-odm-private-label-comparison': typeof OemOdmPrivateLabelComparisonRoute
+  '/oem-onboarding-guide': typeof OemOnboardingGuideRoute
   '/oem-paddle': typeof OemPaddleRoute
   '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
@@ -786,6 +810,7 @@ export interface FileRoutesByTo {
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
+  '/start-sup-project': typeof StartSupProjectRoute
   '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
   '/tourism-recreation': typeof TourismRecreationRoute
@@ -866,6 +891,8 @@ export interface FileRoutesById {
   '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
+  '/oem-odm-private-label-comparison': typeof OemOdmPrivateLabelComparisonRoute
+  '/oem-onboarding-guide': typeof OemOnboardingGuideRoute
   '/oem-paddle': typeof OemPaddleRoute
   '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
@@ -883,6 +910,7 @@ export interface FileRoutesById {
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
+  '/start-sup-project': typeof StartSupProjectRoute
   '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
   '/tourism-recreation': typeof TourismRecreationRoute
@@ -966,6 +994,8 @@ export interface FileRouteTypes {
     | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
+    | '/oem-odm-private-label-comparison'
+    | '/oem-onboarding-guide'
     | '/oem-paddle'
     | '/oem-sup-moq'
     | '/oem-trust-assurance'
@@ -983,6 +1013,7 @@ export interface FileRouteTypes {
     | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/size-guide'
+    | '/start-sup-project'
     | '/sup-oem-moq-lead-time'
     | '/technology'
     | '/tourism-recreation'
@@ -1063,6 +1094,8 @@ export interface FileRouteTypes {
     | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
+    | '/oem-odm-private-label-comparison'
+    | '/oem-onboarding-guide'
     | '/oem-paddle'
     | '/oem-sup-moq'
     | '/oem-trust-assurance'
@@ -1080,6 +1113,7 @@ export interface FileRouteTypes {
     | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/size-guide'
+    | '/start-sup-project'
     | '/sup-oem-moq-lead-time'
     | '/technology'
     | '/tourism-recreation'
@@ -1159,6 +1193,8 @@ export interface FileRouteTypes {
     | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
+    | '/oem-odm-private-label-comparison'
+    | '/oem-onboarding-guide'
     | '/oem-paddle'
     | '/oem-sup-moq'
     | '/oem-trust-assurance'
@@ -1176,6 +1212,7 @@ export interface FileRouteTypes {
     | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/size-guide'
+    | '/start-sup-project'
     | '/sup-oem-moq-lead-time'
     | '/technology'
     | '/tourism-recreation'
@@ -1258,6 +1295,8 @@ export interface RootRouteChildren {
   OemManufacturingRoute: typeof OemManufacturingRoute
   OemMoqGuideRoute: typeof OemMoqGuideRoute
   OemOdmRoute: typeof OemOdmRoute
+  OemOdmPrivateLabelComparisonRoute: typeof OemOdmPrivateLabelComparisonRoute
+  OemOnboardingGuideRoute: typeof OemOnboardingGuideRoute
   OemPaddleRoute: typeof OemPaddleRoute
   OemSupMoqRoute: typeof OemSupMoqRoute
   OemTrustAssuranceRoute: typeof OemTrustAssuranceRoute
@@ -1275,6 +1314,7 @@ export interface RootRouteChildren {
   SitemapProductsDotxmlRoute: typeof SitemapProductsDotxmlRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   SizeGuideRoute: typeof SizeGuideRoute
+  StartSupProjectRoute: typeof StartSupProjectRoute
   SupOemMoqLeadTimeRoute: typeof SupOemMoqLeadTimeRoute
   TechnologyRoute: typeof TechnologyRoute
   TourismRecreationRoute: typeof TourismRecreationRoute
@@ -1327,6 +1367,13 @@ declare module '@tanstack/react-router' {
       path: '/sup-oem-moq-lead-time'
       fullPath: '/sup-oem-moq-lead-time'
       preLoaderRoute: typeof SupOemMoqLeadTimeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/start-sup-project': {
+      id: '/start-sup-project'
+      path: '/start-sup-project'
+      fullPath: '/start-sup-project'
+      preLoaderRoute: typeof StartSupProjectRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/size-guide': {
@@ -1446,6 +1493,20 @@ declare module '@tanstack/react-router' {
       path: '/oem-paddle'
       fullPath: '/oem-paddle'
       preLoaderRoute: typeof OemPaddleRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oem-onboarding-guide': {
+      id: '/oem-onboarding-guide'
+      path: '/oem-onboarding-guide'
+      fullPath: '/oem-onboarding-guide'
+      preLoaderRoute: typeof OemOnboardingGuideRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oem-odm-private-label-comparison': {
+      id: '/oem-odm-private-label-comparison'
+      path: '/oem-odm-private-label-comparison'
+      fullPath: '/oem-odm-private-label-comparison'
+      preLoaderRoute: typeof OemOdmPrivateLabelComparisonRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/oem-odm': {
@@ -2143,6 +2204,8 @@ const rootRouteChildren: RootRouteChildren = {
   OemManufacturingRoute: OemManufacturingRoute,
   OemMoqGuideRoute: OemMoqGuideRoute,
   OemOdmRoute: OemOdmRoute,
+  OemOdmPrivateLabelComparisonRoute: OemOdmPrivateLabelComparisonRoute,
+  OemOnboardingGuideRoute: OemOnboardingGuideRoute,
   OemPaddleRoute: OemPaddleRoute,
   OemSupMoqRoute: OemSupMoqRoute,
   OemTrustAssuranceRoute: OemTrustAssuranceRoute,
@@ -2160,6 +2223,7 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapProductsDotxmlRoute: SitemapProductsDotxmlRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   SizeGuideRoute: SizeGuideRoute,
+  StartSupProjectRoute: StartSupProjectRoute,
   SupOemMoqLeadTimeRoute: SupOemMoqLeadTimeRoute,
   TechnologyRoute: TechnologyRoute,
   TourismRecreationRoute: TourismRecreationRoute,

@@ -36,7 +36,7 @@ export function CtaBand({ productSlug }: { productSlug?: string }) {
           </h2>
           <p className="fg-dim mx-auto mt-4 max-w-xl text-[15.5px] leading-relaxed">{c.body}</p>
           <a
-            href={fl(productSlug ? `/contact?product=${encodeURIComponent(productSlug)}` : '/contact#project-brief')}
+            href={fl(productSlug ? `/contact?product=${encodeURIComponent(productSlug)}` : '/start-sup-project')}
             className="sun-grad mx-auto mt-8 inline-flex h-[50px] items-center gap-2 rounded-full px-9 text-[15.5px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.8)] transition-transform hover:-translate-y-0.5"
           >
             {c.button} <ArrowRight size={17} />

@@ -56,4 +56,6 @@ export const EXTRA_PATHS: Record<string, string> = {
   '/solutions/distributors': 'solutions-distributors',
   '/b2b-solutions-matrix': 'b2b-solutions-matrix',
   '/oem-odm-private-label-comparison': 'oem-odm-private-label-comparison',
+  '/start-sup-project': 'start-sup-project',
+  '/oem-onboarding-guide': 'oem-onboarding-guide',
 }

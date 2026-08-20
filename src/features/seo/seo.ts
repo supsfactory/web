@@ -34,6 +34,8 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/proof-center', lastmod: '2026-08-20' },
   { path: '/sup-oem-moq-lead-time', lastmod: '2026-08-20' },
   { path: '/oem-odm-private-label-comparison', lastmod: '2026-08-20' },
+  { path: '/start-sup-project', lastmod: '2026-08-20' },
+  { path: '/oem-onboarding-guide', lastmod: '2026-08-20' },
   { path: ENTITY_PAGE_PATH, lastmod: '2026-06-30' },
 ]
 

@@ -10,21 +10,29 @@ import { useTranslation } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { SITE_NAME } from '@/config/site'
 import { useFocusTrap } from '@/lib/use-focus-trap'
-import { ENTITY_PAGE_PATH } from '@/config/navigation'
 
 const rootRoute = getRouteApi('__root__')
 
-interface NavItem {
+interface SubItem {
   label: string
-  to?: string
-  /** Raw path for top-level (non-locale-group) routes — localized at render. */
-  href?: string
-  items?: { label: string; to?: string; href?: string }[]
+  href: string
+  highlight?: boolean
 }
 
-/** Sticky marketing header: utility top bar (auth) + main bar with dropdown
- * navigation (6 top-level items — desktop from xl to fit), search, theme and
- * language controls. */
+interface NavGroup {
+  label: string
+  items: SubItem[]
+}
+
+interface NavItem {
+  label: string
+  href?: string
+  items?: SubItem[]
+  groups?: NavGroup[]
+}
+
+/** Sticky marketing header: utility top bar (auth) + main bar with mega-menu
+ * navigation (4 top-level sections), search, theme and language controls. */
 export function SiteNav() {
   const { theme, user } = rootRoute.useLoaderData()
   const loggedIn = !!user
@@ -43,71 +51,81 @@ export function SiteNav() {
 
   const navItems: NavItem[] = useMemo(() => [
     {
-      label: t('sup.nav.products'),
-      items: [
-        { label: t('sup.nav.productsDropdown.all'), href: '/products' },
-        { label: t('sup.nav.productsDropdown.customizer'), href: '/customizer' },
-        { label: t('sup.nav.productsDropdown.oemPaddle'), href: '/oem-paddle' },
-        { label: t('sup.nav.oemDropdown.productDevelopment'), href: '/product-development' },
-        { label: t('sup.nav.oemDropdown.manufacturer'), href: '/oem-manufacturing' },
-        { label: t('sup.nav.oemDropdown.moqGuide'), href: '/oem-moq-guide' },
-        { label: t('sup.nav.oemDropdown.moqLeadTime'), href: '/sup-oem-moq-lead-time' },
-        { label: t('sup.nav.oemDropdown.newBrandTrial'), href: '/new-brand-trial-order' },
-        { label: t('sup.nav.oemDropdown.trust'), href: '/oem-trust-assurance' },
-        { label: t('sup.nav.oemDropdown.privateLabel'), href: '/solutions/private-label-sup' },
+      label: t('sup.nav.productsServices'),
+      groups: [
+        {
+          label: t('sup.nav.productsServicesDropdown.startGroup'),
+          items: [
+            { label: t('sup.nav.productsServicesDropdown.startProject'), href: '/start-sup-project', highlight: true },
+            { label: t('sup.nav.productsServicesDropdown.all'), href: '/products' },
+            { label: t('sup.nav.productsServicesDropdown.customizer'), href: '/customizer' },
+          ],
+        },
+        {
+          label: t('sup.nav.productsServicesDropdown.exploreGroup'),
+          items: [
+            { label: t('sup.nav.productsServicesDropdown.manufacturer'), href: '/oem-manufacturing' },
+            { label: t('sup.nav.productsServicesDropdown.privateLabel'), href: '/solutions/private-label-sup' },
+            { label: t('sup.nav.productsServicesDropdown.comparison'), href: '/oem-odm-private-label-comparison' },
+            { label: t('sup.nav.productsServicesDropdown.productDevelopment'), href: '/product-development' },
+            { label: t('sup.nav.productsServicesDropdown.newBrandTrial'), href: '/new-brand-trial-order' },
+            { label: t('sup.nav.productsServicesDropdown.oemPaddle'), href: '/oem-paddle' },
+          ],
+        },
       ],
     },
     {
       label: t('sup.nav.industries'),
-      items: [
-        { label: t('sup.nav.industriesDropdown.overview'), href: '/who-we-serve' },
-        { label: t('sup.nav.industriesDropdown.resorts'), href: '/solutions/resort-sup' },
-        { label: t('sup.nav.industriesDropdown.clubs'), href: '/solutions/club-sup' },
-        { label: t('sup.nav.industriesDropdown.rental'), href: '/solutions/rental-operators' },
-        { label: t('sup.nav.industriesDropdown.distributors'), href: '/solutions/distributors' },
-        { label: t('sup.nav.industriesDropdown.retail'), href: '/solutions/retail-partners' },
+      groups: [
+        {
+          label: t('sup.nav.industriesDropdown.overviewGroup'),
+          items: [
+            { label: t('sup.nav.industriesDropdown.overview'), href: '/who-we-serve' },
+          ],
+        },
+        {
+          label: t('sup.nav.industriesDropdown.verticalsGroup'),
+          items: [
+            { label: t('sup.nav.industriesDropdown.resorts'), href: '/solutions/resort-sup' },
+            { label: t('sup.nav.industriesDropdown.clubs'), href: '/solutions/club-sup' },
+            { label: t('sup.nav.industriesDropdown.rental'), href: '/solutions/rental-operators' },
+            { label: t('sup.nav.industriesDropdown.distributors'), href: '/solutions/distributors' },
+            { label: t('sup.nav.industriesDropdown.retail'), href: '/solutions/retail-partners' },
+          ],
+        },
       ],
     },
     {
-      label: t('sup.nav.manufacturing'),
-      items: [
-        { label: t('sup.nav.manufacturingDropdown.factory'), href: '/factory' },
-        { label: t('sup.nav.manufacturingDropdown.proofCenter'), href: '/proof-center' },
-        { label: t('sup.nav.manufacturingDropdown.quality'), href: '/quality' },
-        { label: t('sup.nav.manufacturingDropdown.qualityInspection'), href: '/factory/quality-inspection' },
-        { label: t('sup.nav.manufacturingDropdown.changeControl'), href: '/factory/quality-change-control' },
-        { label: t('sup.nav.manufacturingDropdown.nonConformingControl'), href: '/factory/non-conforming-control' },
-        { label: t('sup.nav.manufacturingDropdown.technology'), href: '/technology' },
-        { label: t('sup.nav.manufacturingDropdown.warranty'), href: '/warranty' },
-      ],
-    },
-    {
-      label: t('sup.nav.caseStudies'),
-      items: [
-        { label: t('sup.nav.caseStudiesDropdown.projects'), href: '/projects' },
-        { label: t('sup.nav.caseStudiesDropdown.gallery'), href: '/gallery' },
-        { label: t('sup.nav.caseStudiesDropdown.evidence'), href: '/evidence/case-studies' },
+      label: t('sup.nav.proofQuality'),
+      groups: [
+        {
+          label: t('sup.nav.proofQualityDropdown.evidenceGroup'),
+          items: [
+            { label: t('sup.nav.proofQualityDropdown.factory'), href: '/factory' },
+            { label: t('sup.nav.proofQualityDropdown.proofCenter'), href: '/proof-center' },
+            { label: t('sup.nav.proofQualityDropdown.quality'), href: '/quality' },
+            { label: t('sup.nav.proofQualityDropdown.technology'), href: '/technology' },
+          ],
+        },
+        {
+          label: t('sup.nav.proofQualityDropdown.casesGroup'),
+          items: [
+            { label: t('sup.nav.proofQualityDropdown.projects'), href: '/projects' },
+            { label: t('sup.nav.proofQualityDropdown.gallery'), href: '/gallery' },
+            { label: t('sup.nav.proofQualityDropdown.evidence'), href: '/evidence/case-studies' },
+          ],
+        },
       ],
     },
     {
       label: t('sup.nav.resources'),
       items: [
         { label: t('sup.nav.resourcesDropdown.knowledge'), href: '/knowledge' },
+        { label: t('sup.nav.resourcesDropdown.onboarding'), href: '/oem-onboarding-guide' },
         { label: t('sup.nav.resourcesDropdown.faq'), href: '/faq' },
         { label: t('sup.nav.resourcesDropdown.sizeGuide'), href: '/size-guide' },
-        { label: t('sup.nav.resourcesDropdown.whatIsSup'), href: '/what-is-sup' },
-        { label: t('sup.nav.resourcesDropdown.b2bMatrix'), href: '/b2b-solutions-matrix' },
+        { label: t('sup.nav.resourcesDropdown.moqGuide'), href: '/oem-moq-guide' },
         { label: t('sup.nav.resourcesDropdown.news'), href: '/news' },
-      ],
-    },
-    {
-      label: t('sup.nav.about'),
-      items: [
-        { label: t('sup.nav.aboutDropdown.about'), href: '/about' },
-        { label: t('sup.nav.aboutDropdown.entity'), href: ENTITY_PAGE_PATH },
-        { label: t('sup.nav.aboutDropdown.partners'), href: '/partners' },
-        { label: t('sup.nav.aboutDropdown.howItWorks'), href: '/how-it-works' },
-        { label: t('sup.nav.contact'), href: '/contact' },
       ],
     },
   ], [t, fl])
@@ -123,23 +141,31 @@ export function SiteNav() {
   )
 
   const cta = (
-    <a href={fl('/contact#project-brief')} className={buttonVariants({ size: 'sm' })}>
+    <a href={fl('/start-sup-project')} className={buttonVariants({ size: 'sm' })}>
       {t('sup.nav.cta')}
     </a>
   )
 
-  const renderNavLink = (item: { label: string; href: string }, onNavigate?: () => void) => (
-    <a href={fl(item.href)} className={linkCls} onClick={onNavigate}>
+  const renderNavLink = (item: SubItem, onNavigate?: () => void) => (
+    <a
+      href={fl(item.href)}
+      className={`${linkCls} ${item.highlight ? 'font-bold text-primary!' : ''}`}
+      onClick={onNavigate}
+    >
       {item.label}
     </a>
   )
 
   const renderDesktopItem = (item: NavItem) => {
-    if (!item.items) {
+    if (!item.items && !item.groups) {
       if (!item.href) return null
       return renderNavLink({ label: item.label, href: item.href })
     }
     const isOpen = drop === item.label
+
+    const flatItems = item.items ?? item.groups?.flatMap((g) => g.items) ?? []
+    const hasGroups = !!item.groups && item.groups.length > 1
+
     return (
       <div
         className="relative"
@@ -158,14 +184,21 @@ export function SiteNav() {
         </button>
         {isOpen && (
           <div className="absolute left-0 top-full pt-2">
-            <div className="min-w-[230px] rounded-xl border border-border bg-card p-1.5 shadow-[var(--shadow-lg)]">
-              {item.items.map((sub) => (
-                sub.href ? (
-                  <div key={sub.label}>
-                    {renderNavLink({ label: sub.label, href: sub.href }, () => setDrop(null))}
+            <div className={`rounded-xl border border-border bg-card p-1.5 shadow-[var(--shadow-lg)] ${hasGroups ? 'grid grid-cols-2 gap-x-2 min-w-[520px]' : 'min-w-[230px]'}`}>
+              {hasGroups && item.groups ? (
+                item.groups.map((group) => (
+                  <div key={group.label} className="min-w-[200px]">
+                    <p className="px-3 pt-2 pb-1 text-[11px] font-semibold uppercase tracking-wider text-fg-3">{group.label}</p>
+                    {group.items.map((sub) => (
+                      <div key={sub.label}>{renderNavLink(sub, () => setDrop(null))}</div>
+                    ))}
                   </div>
-                ) : null
-              ))}
+                ))
+              ) : (
+                flatItems.map((sub) => (
+                  <div key={sub.label}>{renderNavLink(sub, () => setDrop(null))}</div>
+                ))
+              )}
             </div>
           </div>
         )}
@@ -175,7 +208,8 @@ export function SiteNav() {
 
   const renderMobileItems = (items: NavItem[]) =>
     items.map((item) => {
-      if (!item.items) {
+      const flatItems = item.items ?? item.groups?.flatMap((g) => g.items) ?? []
+      if (flatItems.length === 0) {
         if (!item.href) return null
         return <div key={item.label}>{renderNavLink({ label: item.label, href: item.href }, () => setOpen(false))}</div>
       }
@@ -193,11 +227,20 @@ export function SiteNav() {
           </button>
           {isOpen && (
             <div className="flex flex-col border-l border-border pl-3">
-              {item.items.map((sub) => (
-                sub.href ? (
-                  <div key={sub.label}>{renderNavLink({ label: sub.label, href: sub.href }, () => setOpen(false))}</div>
-                ) : null
-              ))}
+              {item.groups ? (
+                item.groups.map((group) => (
+                  <div key={group.label}>
+                    <p className="px-3 pt-2 pb-1 text-[11px] font-semibold uppercase tracking-wider text-fg-3">{group.label}</p>
+                    {group.items.map((sub) => (
+                      <div key={sub.label}>{renderNavLink(sub, () => setOpen(false))}</div>
+                    ))}
+                  </div>
+                ))
+              ) : (
+                flatItems.map((sub) => (
+                  <div key={sub.label}>{renderNavLink(sub, () => setOpen(false))}</div>
+                ))
+              )}
             </div>
           )}
         </div>
@@ -223,10 +266,10 @@ export function SiteNav() {
           </a>
           <div className="flex-1" />
 
-          {/* desktop nav with dropdowns */}
+          {/* desktop nav with mega-menus */}
           <div className="hidden items-center gap-0.5 lg:flex">{navItems.map(renderDesktopItem)}</div>
 
-          {/* theme · search · language (search sits between the two) */}
+          {/* theme · search · language */}
           <div className="flex items-center gap-1">
             <ThemeToggle theme={theme} />
             <button
