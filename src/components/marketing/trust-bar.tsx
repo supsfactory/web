@@ -8,7 +8,7 @@ export function TrustBar() {
 
   return (
     <section className="border-b border-border bg-bg-alt">
-      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-x-7 gap-y-8 px-5 py-10 md:grid-cols-4 md:px-7 md:py-12">
+      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-x-7 gap-y-8 px-5 py-10 md:grid-cols-4 md:px-8 lg:px-10 md:py-12">
         {c.stats.map((s) => (
           <div key={s.value} className="text-center md:text-left">
             <p className="font-display text-[20px] font-extrabold leading-tight tracking-tight text-primary md:text-[24px]">

@@ -10,7 +10,7 @@ export function CtaBand({ productSlug }: { productSlug?: string }) {
   const fl = useLocalizePath()
 
   return (
-    <section className="mx-auto max-w-6xl px-5 pb-20 md:px-7 md:pb-24">
+    <section className="mx-auto max-w-7xl px-5 pb-20 md:px-8 lg:px-10 md:pb-24">
       <div className="ocean-grad relative overflow-hidden rounded-[32px] px-6 py-16 text-center shadow-[var(--shadow-lg)] md:px-12 md:py-20">
         {/* deco */}
         <div

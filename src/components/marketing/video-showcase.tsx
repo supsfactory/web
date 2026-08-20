@@ -29,7 +29,7 @@ export function VideoShowcase({
   const [playing, setPlaying] = useState(false)
 
   return (
-    <section className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
+    <section className="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:px-10 md:py-24">
       <div className={`grid items-center gap-10 lg:grid-cols-2 ${flip ? 'lg:[&>*:first-child]:order-2' : ''}`}>
         {playing ? (
           <video

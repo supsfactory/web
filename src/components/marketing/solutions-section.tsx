@@ -13,7 +13,7 @@ export function SolutionsSection({ heading }: { heading?: React.ReactNode }) {
   const c = pick(solutions, locale)
 
   return (
-    <section className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
+    <section className="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:px-10 md:py-24">
       {heading !== undefined ? heading : <SectionHead kicker={c.kicker} title={c.title} sub={c.sub} />}
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {c.pillars.map((p, i) => {

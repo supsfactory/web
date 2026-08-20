@@ -48,7 +48,7 @@ export function CatalogDownload({ turnstileSiteKey }: { turnstileSiteKey: string
 
   return (
     <section className="border-t border-border bg-bg-alt">
-      <div className="mx-auto grid max-w-6xl items-center gap-8 px-5 py-16 md:grid-cols-2 md:px-7 md:py-20">
+      <div className="mx-auto grid max-w-7xl items-center gap-8 px-5 py-16 md:grid-cols-2 md:px-8 lg:px-10 md:py-20">
         <div>
           <p className="text-[12px] font-bold uppercase tracking-widest text-primary">{c.kicker}</p>
           <h2 className="mt-2 font-display text-2xl font-extrabold tracking-tight md:text-3xl">{c.title}</h2>

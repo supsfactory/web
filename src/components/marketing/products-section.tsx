@@ -87,7 +87,7 @@ export function ProductsSection({
   const items = current === 'all' ? allItems : allItems.filter((p) => p.series === current)
 
   return (
-    <section className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
+    <section className="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:px-10 md:py-24">
       {heading ?? null}
       {!limit && (
         <div className="mb-10 flex flex-wrap items-center justify-center gap-2">

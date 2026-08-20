@@ -12,7 +12,7 @@ export function StudioSection() {
 
   return (
     <section className="overflow-hidden border-y border-border bg-bg-alt">
-      <div className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
+      <div className="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:px-10 md:py-24">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <SectionHead kicker={c.kicker} title={c.title} sub={c.sub} className="mx-0! text-left!" />
           <p className="hidden items-center gap-2 pb-2 text-[13px] font-bold uppercase tracking-[0.14em] text-fg-3 lg:flex">

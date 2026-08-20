@@ -14,7 +14,7 @@ export function SolveSection() {
   const fl = useLocalizePath()
 
   return (
-    <section className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
+    <section className="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:px-10 md:py-24">
       <SectionHead kicker={c.kicker} title={c.title} sub={c.sub} />
       <div className="mt-12 grid gap-6 md:grid-cols-2">
         {c.items.map((item, i) => {

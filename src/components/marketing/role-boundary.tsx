@@ -14,7 +14,7 @@ export function RoleBoundary() {
 
   return (
     <section className="border-y border-border bg-bg-alt">
-      <div className="mx-auto max-w-6xl px-5 py-20 md:px-7 md:py-24">
+      <div className="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:px-10 md:py-24">
         <SectionHead kicker={c.kicker} title={c.title} sub={c.sub} />
 
         <Reveal className="mt-10">
