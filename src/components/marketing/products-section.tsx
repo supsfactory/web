@@ -14,12 +14,12 @@ function ProductCardInner({ product, priority = false }: { product: Product; pri
       className="group block h-full text-current"
     >
       <div className="marine-card flex h-full flex-col overflow-hidden p-0 transition-transform duration-300 group-hover:-translate-y-1">
-      <div className="zoom-img relative aspect-[4/3] overflow-hidden border-b border-border-2 bg-bg-alt">
+      <div className="zoom-img relative aspect-[3/4] overflow-hidden border-b border-border-2 bg-bg-alt">
         <img
           src={product.image}
           alt={product.name}
-          width={800}
-          height={600}
+          width={600}
+          height={800}
           loading={priority ? 'eager' : 'lazy'}
           fetchPriority={priority ? 'high' : 'auto'}
           decoding={priority ? 'auto' : 'async'}
@@ -116,7 +116,7 @@ export function ProductsSection({
           ))}
         </div>
       )}
-      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-12 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {items.map((p, i) => (
           <Reveal key={p.slug} delay={i * 80}>
             <ProductCard product={p} priority={i === 0} />
