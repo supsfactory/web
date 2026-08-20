@@ -58,4 +58,8 @@ export const EXTRA_PATHS: Record<string, string> = {
   '/oem-odm-private-label-comparison': 'oem-odm-private-label-comparison',
   '/start-sup-project': 'start-sup-project',
   '/oem-onboarding-guide': 'oem-onboarding-guide',
+  '/sup-construction-comparison': 'sup-construction-comparison',
+  '/sup-compliance-by-market': 'sup-compliance-by-market',
+  '/factory-audit-checklist': 'factory-audit-checklist',
+  '/about/identity': 'about-identity',
 }

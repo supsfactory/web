@@ -2,7 +2,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import { env } from '@/lib/env'
 import { getGeoEntity } from '@/features/content/loader'
 import { SITE_NAME } from '@/config/site'
-import { BRAND_PARENT_BRAND, BRAND_BOILERPLATE } from '@/config/branding'
+import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_BOILERPLATE, BRAND_PARENT_URL } from '@/config/branding'
 import { ENTITY_KNOWS_ABOUT, ENTITY_SUBJECT_OF } from '@/product/entity-data'
 import { PARENT_ORG_DESCRIPTION } from '@/product/ai-content'
 import {
@@ -35,8 +35,14 @@ const handler = () => {
   out.description = BRAND_BOILERPLATE
   out.parentOrganization = {
     '@type': 'Organization',
+    name: BRAND_COMPANY_NAME,
+    sameAs: BRAND_PARENT_URL,
+  }
+  out.department = {
+    '@type': 'Organization',
     name: BRAND_PARENT_BRAND,
     description: PARENT_ORG_DESCRIPTION,
+    sameAs: BRAND_PARENT_URL,
   }
   out.knowsAbout = ENTITY_KNOWS_ABOUT
   out.subjectOf = ENTITY_SUBJECT_OF.map((s) => ({

@@ -500,3 +500,56 @@
     - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: sup-construction-comparison
+  label: SUP Construction Comparison
+  path: /sup-construction-comparison
+  permalink: /sup-construction-comparison
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Comparison' }
+    - { key: comparison_table, type: table, label: 'Construction Comparison Table' }
+    - { key: use_cases, type: features, label: 'Use Cases by Construction' }
+    - { key: key_factors, type: content, label: 'Key Factors' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: sup-compliance-by-market
+  label: SUP Compliance by Market
+  path: /sup-compliance-by-market
+  permalink: /sup-compliance-by-market
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: market_cards, type: features, label: 'Market Compliance Cards' }
+    - { key: certifications_detail, type: content, label: 'Certifications Detail' }
+    - { key: compliance_process, type: features, label: 'Compliance in Onboarding' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: factory-audit-checklist
+  label: Factory Audit Checklist
+  path: /factory-audit-checklist
+  permalink: /factory-audit-checklist
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: audit_areas, type: features, label: 'Audit Areas' }
+    - { key: our_position, type: content, label: 'Our Position' }
+    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: about-identity
+  label: About Identity
+  path: /about/identity
+  permalink: /about/identity
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'In Brief' }
+    - { key: identity_detail, type: features, label: 'Identity Detail' }
+    - { key: manufacturing_scope, type: content, label: 'Manufacturing Scope' }
+    - { key: brand_positioning, type: content, label: 'Brand Positioning' }
+    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }

@@ -8,4 +8,5 @@ export {
   warrantyReturnsLd,
   shippingLogisticsLd,
   productVariantFaqLd,
+  qcHowToLd,
 } from '@/product/product-jsonld'

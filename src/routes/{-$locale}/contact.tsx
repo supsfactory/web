@@ -12,7 +12,7 @@ import { PageHero } from '@/components/marketing/section-head'
 import { InquiryForm } from '@/features/inquiry/components/inquiry-form'
 import { pick, products } from '@/product/content'
 import { dictionaries } from '@/features/i18n/locale'
-import { JsonLd, contactPageLd, faqLd } from '@/features/seo/jsonld'
+import { JsonLd, contactPageLd, faqLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { SITE_NAME, BRAND_CONTACT, BRAND_ASSETS_CDN, SITE_URL } from '@/config'
 
 export const Route = createFileRoute('/{-$locale}/contact')({
@@ -169,6 +169,7 @@ function ContactPage() {
         </div>
       </section>
 
+      <JsonLd data={siteBreadcrumbLd([{ name: 'Home', path: '/' }, { name: 'Contact', path: '/contact' }])} />
       <JsonLd data={contactPageLd(SITE_URL, localizePath(locale, '/contact'))} />
       <JsonLd data={faqLd([...dictionaries[locale].sup.contact.trustFaqs], locale)} />
 

@@ -21,7 +21,7 @@ import { type Locale } from '@/features/i18n/locale'
 import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { CtaBand } from '@/components/marketing/cta'
-import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd } from '@/features/seo/jsonld'
+import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd, serviceLd, qcHowToLd } from '@/features/seo/jsonld'
 import { brandify } from './brand'
 import { AferIndexProvider, type AferIndexData } from './index-data'
 import { getGuide } from './guide-content'
@@ -35,6 +35,21 @@ import { ContentSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } fro
 import { Markdown } from './render/markdown'
 import { faqSlug } from '@/features/ai/rag'
 import type { ContentArticle, ContentCaseUse, ContentPage, ContentPost, ContentProduct } from './types'
+
+const SERVICE_SCHEMA_PAGES: Record<string, { serviceType: string; description: string }> = {
+  '/oem-manufacturing': { serviceType: 'OEM Manufacturing', description: 'Full OEM manufacturing for SUP and marine inflatable products — buyer-owned designs, custom tooling, and production under your brand.' },
+  '/odm-development': { serviceType: 'ODM Development', description: 'ODM product development — factory engineering team designs from your brief, you approve every element before production.' },
+  '/oem-odm-private-label-comparison': { serviceType: 'OEM / ODM / Private Label Comparison', description: 'Side-by-side comparison of OEM manufacturing, ODM development, and private-label co-branding collaboration models.' },
+  '/factory/oem-capability': { serviceType: 'Factory OEM Capability', description: 'Factory OEM capabilities: production lines, CNC precision, RF welding, quality gates, and capacity for custom board manufacturing.' },
+  '/oem-moq-guide': { serviceType: 'OEM MOQ Guide', description: 'Minimum order quantities for OEM manufacturing: per-configuration thresholds, pilot batch options, and material-roll considerations.' },
+  '/oem-trust-assurance': { serviceType: 'OEM Trust Assurance', description: 'Trust assurance for OEM buyers: third-party inspections, quality control gates, certifications, and factory audit transparency.' },
+  '/sup-oem-moq-lead-time': { serviceType: 'SUP OEM MOQ & Lead Time', description: 'SUP-specific OEM minimum order quantities and lead times — per-configuration MOQ, tooling timelines, and sample turnaround.' },
+  '/oem-onboarding-guide': { serviceType: 'OEM Onboarding', description: 'Step-by-step OEM onboarding: 7-gate process from initial inquiry through first production run and ongoing partnership.' },
+  '/private-label': { serviceType: 'Private Label Co-Branding', description: 'Private-label co-branding program: apply your brand graphics to proven SUP platforms with low MOQ.' },
+  '/sup-construction-comparison': { serviceType: 'SUP Construction Comparison', description: 'Technical comparison of single-layer, double-layer and drop-stitch SUP construction types — rigidity, weight, durability and use-case guidance.' },
+  '/sup-compliance-by-market': { serviceType: 'SUP Compliance by Market', description: 'Market-by-market certification and compliance guide: CE, CPSIA, AS/NZS, ISO 9001, BSCI, REACH, RoHS requirements for inflatable SUP boards.' },
+  '/factory-audit-checklist': { serviceType: 'Factory Audit Checklist', description: 'Eight-area factory audit checklist for SUP buyers: quality system, capacity, traceability, pressure testing, welding controls, social compliance, documentation, and post-delivery support.' },
+}
 
 /** Minimal product card for the "related platforms" strip on product pages. */
 export type RelatedProduct = { slug: string; title: string; image: string; amount?: string }
@@ -196,25 +211,10 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
         name: s.label,
         value: s.value,
       })),
+      { '@type': 'PropertyValue', name: 'MOQ pilot', value: String(MOQ_SHORT.trialStandard) },
+      { '@type': 'PropertyValue', name: 'MOQ standard', value: String(MOQ_SHORT.standardRun) },
+      { '@type': 'PropertyValue', name: 'Pricing', value: 'Quote-based per project specification' },
     ],
-    offers: {
-      '@type': 'Offer',
-      priceCurrency: 'USD',
-      price: '0',
-      availability: 'https://schema.org/InStock',
-      url: `${origin}/products/${product.slug}`,
-      priceSpecification: {
-        '@type': 'PriceSpecification',
-        price: '0',
-        priceCurrency: 'USD',
-        description: `MOQ ${MOQ_SHORT.trialStandard} pilot · ${MOQ_SHORT.standardRun} standard · ${MOQ_SHORT.customMould} custom mould`,
-      },
-      eligibleQuantity: {
-        '@type': 'QuantitativeValue',
-        minValue: MOQ_SHORT.trialStandard,
-        unitCode: 'C62',
-      },
-    },
   }
 }
 
@@ -270,6 +270,10 @@ function renderContent(data: CatchAllData, t: (key: string, params?: Record<stri
             />
           )}
           {faqs.length > 0 && <JsonLd data={faqLd(faqs, data.locale)} />}
+          {SERVICE_SCHEMA_PAGES[data.path] && (
+            <JsonLd data={serviceLd({ ...SERVICE_SCHEMA_PAGES[data.path], path: data.path })} />
+          )}
+          {data.path === '/quality' && <JsonLd data={qcHowToLd()} />}
         </>
       )
     }

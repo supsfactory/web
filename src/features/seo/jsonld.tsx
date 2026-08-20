@@ -136,4 +136,5 @@ export {
   warrantyReturnsLd,
   shippingLogisticsLd,
   productVariantFaqLd,
+  qcHowToLd,
 } from './product-jsonld'

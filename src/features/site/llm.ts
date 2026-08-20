@@ -242,6 +242,8 @@ export function llmsAfarerFull(): string {
     '/factory/oem-capability', '/factory/quality-inspection',
     '/factory/quality-change-control', '/factory/non-conforming-control',
     '/odm-development', '/new-brand-trial-order',
+    '/sup-construction-comparison', '/sup-compliance-by-market',
+    '/factory-audit-checklist', '/about/identity',
   ])
 
   function pageBodyText(p: { path: string; content?: Record<string, unknown> }): string[] {

@@ -9,7 +9,7 @@ import { useTranslation } from '@/features/i18n/provider'
 import { SECONDARY_PILL } from '@/components/marketing/cta-styles'
 import { pick, products, productsPage } from '@/product/content'
 import { seriesPages } from '@/product/series-pages'
-import { JsonLd, itemListLd } from '@/features/seo/jsonld'
+import { JsonLd, itemListLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
 import { ProductsSection } from '@/components/marketing/products-section'
@@ -80,6 +80,7 @@ function ProductsPage() {
           })
         }
       />
+      <JsonLd data={siteBreadcrumbLd([{ name: 'Home', path: '/' }, { name: 'Products', path: '/products' }])} />
       <JsonLd
         data={itemListLd(pick(products, locale).items.map((p) => ({ name: p.name, path: `/products/${p.slug}` })))}
       />

@@ -1,0 +1,123 @@
+meta:
+  title: 'SUP Construction Comparison — Single-Layer vs Double-Layer vs Drop-Stitch PVC | SUPsfactory'
+  description: 'Side-by-side comparison of inflatable SUP construction types: single-layer PVC, double-layer PVC, and drop-stitch core. Rigidity, weight, durability, price, and best use-case for each. Qingdao Vatrad Group Co., Ltd.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'SUP construction comparison'
+    - 'inflatable SUP construction types'
+    - 'single layer vs double layer SUP'
+    - 'drop-stitch SUP construction'
+    - 'PVC SUP construction'
+    - 'SUP board rigidity'
+    - 'SUP board weight'
+
+hero:
+  tagline: 'Construction Guide'
+  title: 'SUP Construction Comparison'
+  subtitle: 'Three construction types, one manufacturing line. Understand the rigidity, weight, durability and cost trade-offs between single-layer PVC, double-layer PVC and drop-stitch core SUP boards — and which one matches your target rider and market position.'
+
+answer:
+  label: 'Quick comparison'
+  text: 'Single-layer PVC is the lightest and most affordable — best for casual riders and price-sensitive markets. Double-layer PVC adds a second PVC skin for rigidity and durability at moderate weight — the industry-standard choice for rental fleets and mid-range brands. Drop-stitch core with PVC shell delivers the highest rigidity and pressure tolerance — preferred for performance, surf and heavy-rider applications. All three constructions are manufactured on the same production line with the same QC gates; the difference is materials and lamination steps.'
+  verified: '2026-08'
+
+comparison_table:
+  tagline: Side-by-Side
+  title: 'Construction Types Compared'
+  headers:
+    - 'Attribute'
+    - 'Single-Layer PVC'
+    - 'Double-Layer PVC'
+    - 'Drop-Stitch Core + PVC Shell'
+  rows:
+    - - 'Rigidity (PSI rating)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Weight (11 ft board)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Durability'
+      - 'Good — recreational use'
+      - 'Very good — rental and commercial'
+      - 'Excellent — performance and heavy rider'
+    - - 'Construction layers'
+      - '1 PVC layer + drop-stitch core'
+      - '2 PVC layers + drop-stitch core'
+      - 'Reinforced drop-stitch + PVC shell + rail tape'
+    - - 'Typical use-case'
+      - 'Entry-level, casual, price-sensitive markets'
+      - 'All-around, rental, clubs, mid-range brands'
+      - 'Touring, surf, heavy riders, premium brands'
+    - - 'Relative cost'
+      - 'Lowest'
+      - 'Mid'
+      - 'Higher'
+    - - 'Welding method'
+      - 'RF heat-sealed seams'
+      - 'RF heat-sealed seams + lamination'
+      - 'RF heat-sealed seams + reinforced rails'
+    - - 'Pressure test standard'
+      - '18.0 PSI hold test'
+      - '18.0 PSI hold test'
+      - '18.0 PSI hold test (rated higher)'
+
+use_cases:
+  tagline: Which Construction for Which Buyer
+  title: 'Match Construction to Your Target Market'
+  subtitle: 'Construction choice is not just a cost decision — it defines the rider experience, the warranty risk profile, and the brand positioning you can sustain.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Single-Layer for Entry & Volume'
+      desc: 'Lightest board at the lowest price point. Ideal for brands targeting first-time buyers, big-box retail and online marketplaces where price is the primary purchase driver. Acceptable rigidity for flat-water paddling at moderate PSI. Lower warranty claim rate when used within rated pressure range.'
+      link_label: 'See OEM entry-level boards'
+      href: /oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Double-Layer for Rental & Commercial'
+      desc: 'The workhorse construction for rental fleets, clubs, resorts and school programs. Extra PVC layer resists the impacts, UV exposure and daily handling that destroy single-layer boards in commercial settings. Higher pressure tolerance means stiffer ride for heavier riders. Most popular construction tier globally.'
+      link_label: 'Rental & resort solutions'
+      href: /solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Drop-Stitch Core for Performance'
+      desc: 'Maximum rigidity for touring, surf, fishing and heavy-rider applications. Reinforced rail construction and higher PSI rating deliver hardboard-like performance in a portable package. Preferred by performance brands and experienced paddlers. Higher material cost, but stronger brand positioning and lower warranty rate per unit.'
+      link_label: 'Performance board development'
+      href: /odm-development
+
+key_factors:
+  heading: 'Key Factors Beyond Construction Type'
+  body: |
+    Construction type is one variable in board performance. Three additional factors matter as much or more:
+
+    - **Drop-stitch density** — Threads per inch determines how uniformly the board holds shape under pressure. We use 96 threads/inch standard and 140 threads/inch for performance builds. Higher density = flatter board = better glide.
+    - **PVC grade and thickness** — Not all PVC is equal. Korean-imported 0.7 mm PVC has higher tear strength and UV resistance than thinner alternatives. We specify material grade per project.
+    - **Rail construction** — Single-layer rails are the most common failure point on cheap boards. Double-layer and reinforced rail tape dramatically reduce rail puncture risk. All our boards use reinforced rails regardless of construction tier.
+
+faqs:
+  tagline: FAQ
+  title: 'SUP Construction — Frequently Asked Questions'
+  items:
+    - q: 'Which construction type should I choose for my brand?'
+      a: 'It depends on your target market and price positioning. Entry-level and big-box retail: single-layer. Rental fleets, clubs and mid-range brands: double-layer. Performance, touring and premium: drop-stitch core. Most brands start with double-layer as the best balance of cost, durability and rider experience. We recommend based on your specific market during the feasibility review.'
+    - q: 'Can I offer multiple construction tiers under one brand?'
+      a: 'Yes — many brands offer two or three tiers. We produce all three constructions on the same line with the same QC gates, so you can mix construction types within a single order. The hull shape and graphics can be identical across tiers; only the construction and materials change.'
+    - q: 'What is the pressure test standard for all constructions?'
+      a: 'Every board regardless of construction type passes an 18.0 PSI hold test with auto-reject above 0.50 PSI pressure drop over 24 hours. Single-layer boards are rated for 12–15 PSI riding pressure, double-layer for 15–18 PSI, and drop-stitch core for 18–25 PSI. The test pressure exceeds the rated pressure for all types.'
+    - q: 'How does construction affect warranty claims?'
+      a: 'Single-layer boards have marginally higher warranty claim rates in commercial/rental use due to rail and puncture exposure. Double-layer and drop-stitch core constructions have significantly lower claim rates. We provide per-tier warranty data from our production records during the quotation phase.'
+
+cta:
+  title: 'Need Help Choosing the Right Construction?'
+  subtitle: 'Tell us your target rider, price point and market — we will recommend the construction tier and provide sample boards for your evaluation.'
+  actions:
+    - variant: primary
+      text: Start Your Project Brief
+      href: /contact#project-brief
+    - text: See OEM manufacturing details
+      href: /oem-manufacturing
+    - text: Compare OEM, ODM and Private Label
+      href: /oem-odm-private-label-comparison

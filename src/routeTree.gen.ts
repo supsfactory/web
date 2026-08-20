@@ -14,6 +14,8 @@ import { Route as WarrantyRouteImport } from './routes/warranty'
 import { Route as TourismRecreationRouteImport } from './routes/tourism-recreation'
 import { Route as TechnologyRouteImport } from './routes/technology'
 import { Route as SupOemMoqLeadTimeRouteImport } from './routes/sup-oem-moq-lead-time'
+import { Route as SupConstructionComparisonRouteImport } from './routes/sup-construction-comparison'
+import { Route as SupComplianceByMarketRouteImport } from './routes/sup-compliance-by-market'
 import { Route as StartSupProjectRouteImport } from './routes/start-sup-project'
 import { Route as SizeGuideRouteImport } from './routes/size-guide'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
@@ -47,6 +49,7 @@ import { Route as InflatableVsHardboardRouteImport } from './routes/inflatable-v
 import { Route as InflatableSupCertificationRouteImport } from './routes/inflatable-sup-certification'
 import { Route as FishingRouteImport } from './routes/fishing'
 import { Route as FaqRouteImport } from './routes/faq'
+import { Route as FactoryAuditChecklistRouteImport } from './routes/factory-audit-checklist'
 import { Route as FactoryRouteImport } from './routes/factory'
 import { Route as EntityDotjsonRouteImport } from './routes/entity[.]json'
 import { Route as B2bSolutionsMatrixRouteImport } from './routes/b2b-solutions-matrix'
@@ -77,6 +80,7 @@ import { Route as ApiReindexRouteImport } from './routes/api/reindex'
 import { Route as ApiAskRouteImport } from './routes/api/ask'
 import { Route as AdminWaitlistDotcsvRouteImport } from './routes/admin/waitlist[.]csv'
 import { Route as AdminInquiriesDotcsvRouteImport } from './routes/admin/inquiries[.]csv'
+import { Route as AboutIdentityRouteImport } from './routes/about/identity'
 import { Route as Char123LocaleChar125AdminRouteRouteImport } from './routes/{-$locale}/admin/route'
 import { Route as Char123LocaleChar125SolutionsIndexRouteImport } from './routes/{-$locale}/solutions/index'
 import { Route as Char123LocaleChar125ProjectsIndexRouteImport } from './routes/{-$locale}/projects/index'
@@ -134,6 +138,17 @@ const TechnologyRoute = TechnologyRouteImport.update({
 const SupOemMoqLeadTimeRoute = SupOemMoqLeadTimeRouteImport.update({
   id: '/sup-oem-moq-lead-time',
   path: '/sup-oem-moq-lead-time',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SupConstructionComparisonRoute =
+  SupConstructionComparisonRouteImport.update({
+    id: '/sup-construction-comparison',
+    path: '/sup-construction-comparison',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const SupComplianceByMarketRoute = SupComplianceByMarketRouteImport.update({
+  id: '/sup-compliance-by-market',
+  path: '/sup-compliance-by-market',
   getParentRoute: () => rootRouteImport,
 } as any)
 const StartSupProjectRoute = StartSupProjectRouteImport.update({
@@ -313,6 +328,11 @@ const FaqRoute = FaqRouteImport.update({
   path: '/faq',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/faq.lazy').then((d) => d.Route))
+const FactoryAuditChecklistRoute = FactoryAuditChecklistRouteImport.update({
+  id: '/factory-audit-checklist',
+  path: '/factory-audit-checklist',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const FactoryRoute = FactoryRouteImport.update({
   id: '/factory',
   path: '/factory',
@@ -484,6 +504,11 @@ const AdminWaitlistDotcsvRoute = AdminWaitlistDotcsvRouteImport.update({
 const AdminInquiriesDotcsvRoute = AdminInquiriesDotcsvRouteImport.update({
   id: '/admin/inquiries.csv',
   path: '/admin/inquiries.csv',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AboutIdentityRoute = AboutIdentityRouteImport.update({
+  id: '/about/identity',
+  path: '/about/identity',
   getParentRoute: () => rootRouteImport,
 } as any)
 const Char123LocaleChar125AdminRouteRoute =
@@ -678,6 +703,7 @@ export interface FileRoutesByFullPath {
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
+  '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
   '/fishing': typeof FishingRoute
   '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
@@ -711,12 +737,15 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
   '/start-sup-project': typeof StartSupProjectRoute
+  '/sup-compliance-by-market': typeof SupComplianceByMarketRoute
+  '/sup-construction-comparison': typeof SupConstructionComparisonRoute
   '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
   '/tourism-recreation': typeof TourismRecreationRoute
   '/warranty': typeof WarrantyRoute
   '/what-is-sup': typeof WhatIsSupRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
+  '/about/identity': typeof AboutIdentityRoute
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
   '/api/ask': typeof ApiAskRoute
@@ -778,6 +807,7 @@ export interface FileRoutesByTo {
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
+  '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
   '/fishing': typeof FishingRoute
   '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
@@ -811,11 +841,14 @@ export interface FileRoutesByTo {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
   '/start-sup-project': typeof StartSupProjectRoute
+  '/sup-compliance-by-market': typeof SupComplianceByMarketRoute
+  '/sup-construction-comparison': typeof SupConstructionComparisonRoute
   '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
   '/tourism-recreation': typeof TourismRecreationRoute
   '/warranty': typeof WarrantyRoute
   '/what-is-sup': typeof WhatIsSupRoute
+  '/about/identity': typeof AboutIdentityRoute
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
   '/api/ask': typeof ApiAskRoute
@@ -878,6 +911,7 @@ export interface FileRoutesById {
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
+  '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
   '/fishing': typeof FishingRoute
   '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
@@ -911,12 +945,15 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
   '/start-sup-project': typeof StartSupProjectRoute
+  '/sup-compliance-by-market': typeof SupComplianceByMarketRoute
+  '/sup-construction-comparison': typeof SupConstructionComparisonRoute
   '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
   '/tourism-recreation': typeof TourismRecreationRoute
   '/warranty': typeof WarrantyRoute
   '/what-is-sup': typeof WhatIsSupRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
+  '/about/identity': typeof AboutIdentityRoute
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
   '/api/ask': typeof ApiAskRoute
@@ -981,6 +1018,7 @@ export interface FileRouteTypes {
     | '/b2b-solutions-matrix'
     | '/entity.json'
     | '/factory'
+    | '/factory-audit-checklist'
     | '/faq'
     | '/fishing'
     | '/inflatable-sup-certification'
@@ -1014,12 +1052,15 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/size-guide'
     | '/start-sup-project'
+    | '/sup-compliance-by-market'
+    | '/sup-construction-comparison'
     | '/sup-oem-moq-lead-time'
     | '/technology'
     | '/tourism-recreation'
     | '/warranty'
     | '/what-is-sup'
     | '/{-$locale}/admin'
+    | '/about/identity'
     | '/admin/inquiries.csv'
     | '/admin/waitlist.csv'
     | '/api/ask'
@@ -1081,6 +1122,7 @@ export interface FileRouteTypes {
     | '/b2b-solutions-matrix'
     | '/entity.json'
     | '/factory'
+    | '/factory-audit-checklist'
     | '/faq'
     | '/fishing'
     | '/inflatable-sup-certification'
@@ -1114,11 +1156,14 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/size-guide'
     | '/start-sup-project'
+    | '/sup-compliance-by-market'
+    | '/sup-construction-comparison'
     | '/sup-oem-moq-lead-time'
     | '/technology'
     | '/tourism-recreation'
     | '/warranty'
     | '/what-is-sup'
+    | '/about/identity'
     | '/admin/inquiries.csv'
     | '/admin/waitlist.csv'
     | '/api/ask'
@@ -1180,6 +1225,7 @@ export interface FileRouteTypes {
     | '/b2b-solutions-matrix'
     | '/entity.json'
     | '/factory'
+    | '/factory-audit-checklist'
     | '/faq'
     | '/fishing'
     | '/inflatable-sup-certification'
@@ -1213,12 +1259,15 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/size-guide'
     | '/start-sup-project'
+    | '/sup-compliance-by-market'
+    | '/sup-construction-comparison'
     | '/sup-oem-moq-lead-time'
     | '/technology'
     | '/tourism-recreation'
     | '/warranty'
     | '/what-is-sup'
     | '/{-$locale}/admin'
+    | '/about/identity'
     | '/admin/inquiries.csv'
     | '/admin/waitlist.csv'
     | '/api/ask'
@@ -1282,6 +1331,7 @@ export interface RootRouteChildren {
   B2bSolutionsMatrixRoute: typeof B2bSolutionsMatrixRoute
   EntityDotjsonRoute: typeof EntityDotjsonRoute
   FactoryRoute: typeof FactoryRoute
+  FactoryAuditChecklistRoute: typeof FactoryAuditChecklistRoute
   FaqRoute: typeof FaqRoute
   FishingRoute: typeof FishingRoute
   InflatableSupCertificationRoute: typeof InflatableSupCertificationRoute
@@ -1315,11 +1365,14 @@ export interface RootRouteChildren {
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   SizeGuideRoute: typeof SizeGuideRoute
   StartSupProjectRoute: typeof StartSupProjectRoute
+  SupComplianceByMarketRoute: typeof SupComplianceByMarketRoute
+  SupConstructionComparisonRoute: typeof SupConstructionComparisonRoute
   SupOemMoqLeadTimeRoute: typeof SupOemMoqLeadTimeRoute
   TechnologyRoute: typeof TechnologyRoute
   TourismRecreationRoute: typeof TourismRecreationRoute
   WarrantyRoute: typeof WarrantyRoute
   WhatIsSupRoute: typeof WhatIsSupRoute
+  AboutIdentityRoute: typeof AboutIdentityRoute
   AdminInquiriesDotcsvRoute: typeof AdminInquiriesDotcsvRoute
   AdminWaitlistDotcsvRoute: typeof AdminWaitlistDotcsvRoute
   ApiAskRoute: typeof ApiAskRoute
@@ -1367,6 +1420,20 @@ declare module '@tanstack/react-router' {
       path: '/sup-oem-moq-lead-time'
       fullPath: '/sup-oem-moq-lead-time'
       preLoaderRoute: typeof SupOemMoqLeadTimeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sup-construction-comparison': {
+      id: '/sup-construction-comparison'
+      path: '/sup-construction-comparison'
+      fullPath: '/sup-construction-comparison'
+      preLoaderRoute: typeof SupConstructionComparisonRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sup-compliance-by-market': {
+      id: '/sup-compliance-by-market'
+      path: '/sup-compliance-by-market'
+      fullPath: '/sup-compliance-by-market'
+      preLoaderRoute: typeof SupComplianceByMarketRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/start-sup-project': {
@@ -1600,6 +1667,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FaqRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/factory-audit-checklist': {
+      id: '/factory-audit-checklist'
+      path: '/factory-audit-checklist'
+      fullPath: '/factory-audit-checklist'
+      preLoaderRoute: typeof FactoryAuditChecklistRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/factory': {
       id: '/factory'
       path: '/factory'
@@ -1808,6 +1882,13 @@ declare module '@tanstack/react-router' {
       path: '/admin/inquiries.csv'
       fullPath: '/admin/inquiries.csv'
       preLoaderRoute: typeof AdminInquiriesDotcsvRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/about/identity': {
+      id: '/about/identity'
+      path: '/about/identity'
+      fullPath: '/about/identity'
+      preLoaderRoute: typeof AboutIdentityRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/{-$locale}/admin': {
@@ -2191,6 +2272,7 @@ const rootRouteChildren: RootRouteChildren = {
   B2bSolutionsMatrixRoute: B2bSolutionsMatrixRoute,
   EntityDotjsonRoute: EntityDotjsonRoute,
   FactoryRoute: FactoryRoute,
+  FactoryAuditChecklistRoute: FactoryAuditChecklistRoute,
   FaqRoute: FaqRoute,
   FishingRoute: FishingRoute,
   InflatableSupCertificationRoute: InflatableSupCertificationRoute,
@@ -2224,11 +2306,14 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   SizeGuideRoute: SizeGuideRoute,
   StartSupProjectRoute: StartSupProjectRoute,
+  SupComplianceByMarketRoute: SupComplianceByMarketRoute,
+  SupConstructionComparisonRoute: SupConstructionComparisonRoute,
   SupOemMoqLeadTimeRoute: SupOemMoqLeadTimeRoute,
   TechnologyRoute: TechnologyRoute,
   TourismRecreationRoute: TourismRecreationRoute,
   WarrantyRoute: WarrantyRoute,
   WhatIsSupRoute: WhatIsSupRoute,
+  AboutIdentityRoute: AboutIdentityRoute,
   AdminInquiriesDotcsvRoute: AdminInquiriesDotcsvRoute,
   AdminWaitlistDotcsvRoute: AdminWaitlistDotcsvRoute,
   ApiAskRoute: ApiAskRoute,

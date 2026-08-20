@@ -6,7 +6,7 @@ import type { Locale } from '@/features/i18n/locale'
 import { getDictionary, translate } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, homeFaq } from '@/product/content'
-import { JsonLd, faqLd } from '@/features/seo/jsonld'
+import { JsonLd, faqLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { SITE_NAME } from '@/config'
 import { MarketingShell } from '@/components/marketing/shell'
 import { Hero } from '@/components/marketing/hero'
@@ -55,6 +55,7 @@ function Home() {
       <Suspense fallback={null}><ProjectsShowcase /></Suspense>
       <Suspense fallback={null}><FaqSection data={homeFaq} /></Suspense>
       <Suspense fallback={null}><CtaBand /></Suspense>
+      <JsonLd data={siteBreadcrumbLd([{ name: 'Home', path: '/' }])} />
       <JsonLd data={faqLd(pick(homeFaq, locale).items, locale)} />
     </MarketingShell>
   )

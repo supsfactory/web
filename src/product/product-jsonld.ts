@@ -9,7 +9,7 @@ export function siteLd(): Record<string, unknown>[] {
   return [
     {
       '@context': 'https://schema.org',
-      '@type': ['Organization', 'Manufacturer'],
+      '@type': 'Organization',
       '@id': `${SITE_ORIGIN}/#organization`,
       name: SITE_NAME,
       alternateName: SITE_NAME,
@@ -21,6 +21,12 @@ export function siteLd(): Record<string, unknown>[] {
       parentOrganization: {
         '@type': 'Organization',
         name: BRAND_COMPANY_NAME,
+        sameAs: BRAND_PARENT_URL,
+      },
+      department: {
+        '@type': 'Organization',
+        name: BRAND_PARENT_BRAND,
+        description: 'Marine manufacturing division of Qingdao Vatrad Group Co., Ltd.',
         sameAs: BRAND_PARENT_URL,
       },
       brand: { '@type': 'Brand', name: BRAND_PARENT_BRAND },
@@ -149,42 +155,12 @@ export function factoryCapabilitiesLd(): Record<string, unknown> {
     numberOfEmployees: { '@type': 'QuantitativeValue', value: FACTS.workers },
     areaServed: FACTS.exportCountries,
     isicV4: '3012',
-    operationalCapabilities: [
-      { name: 'Production capacity', value: FACTS.annualCapacity },
-      { name: 'Monthly capacity', value: FACTS.monthlyCapacity },
-      { name: 'Production lines', value: FACTS.productionLines },
-      { name: 'Workshops', value: FACTS.workshops },
-      { name: 'CNC accuracy', value: FACTS.cncAccuracy },
-      { name: 'RF welding power', value: FACTS.rfPower },
-      { name: 'Drop-stitch pressure', value: FACTS.dropStitchPsi },
-      { name: 'Export countries', value: FACTS.exportCountries },
-    ],
-    offers: [
-      {
-        '@type': 'Offer',
-        name: 'Trial / pilot order',
-        description: 'Small pilot batch to validate spec before scaling',
-        priceSpecification: { '@type': 'PriceSpecification', price: '0', priceCurrency: 'USD', description: `MOQ ${MOQ_SHORT.trialStandard}` },
-      },
-      {
-        '@type': 'Offer',
-        name: 'Standard production run',
-        description: 'Regular bulk production per approved configuration',
-        priceSpecification: { '@type': 'PriceSpecification', price: '0', priceCurrency: 'USD', description: `MOQ ${MOQ_SHORT.standardRun}` },
-      },
-    ],
     hasCredential: CERTIFICATION_NAMES.map((c) => ({
       '@type': 'EducationalOccupationalCredential',
       credentialCategory: 'certification',
       name: c,
     })),
     certification: CERTIFICATION_NAMES,
-    thirdPartyInspectors: FACTS.thirdPartyInspectors,
-    qualityControl: {
-      '@type': 'Thing',
-      name: `${SITE_NAME} quality system`,
-      description: `${FACTS.qualityGates} inspection gates \u00b7 ${FACTS.assemblyChecklist} assembly checklist \u00b7 ${FACTS.pressureTest} pressure hold \u00b7 ${FACTS.traceabilityRet} ERP traceability per batch`,
-    },
     foundingDate: '2012',
   }
 }
@@ -399,6 +375,24 @@ export function productVariantFaqLd(input: {
           text: `Samples in ${FACTS.sampleTime}; bulk production ${FACTS.leadTime} after PO confirmation. Custom mould tooling adds 15\u201320 days.`,
         },
       },
+    ],
+  }
+}
+
+export function qcHowToLd(): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: '7-Stage SUP Quality Control Inspection',
+    description: 'Every inflatable SUP board passes seven inspection gates with documented pass/fail criteria before shipment. Each gate has quantitative standards and traceability records.',
+    step: [
+      { '@type': 'HowToStep', position: 1, name: 'Incoming Material Inspection', text: 'PVC fabric, drop-stitch core and all raw materials inspected against specification before entering production. Batch certificates and REACH/RoHS declarations verified.' },
+      { '@type': 'HowToStep', position: 2, name: 'Drop-Stitch Fabric Inspection', text: 'Drop-stitch thread density and fabric integrity verified. Thread count per inch checked against specification (96 or 140 threads/inch).' },
+      { '@type': 'HowToStep', position: 3, name: 'Welding & Assembly', text: 'RF welding parameters (temperature, pressure, dwell time) logged per production run. Seam integrity inspected with documented reject rates.' },
+      { '@type': 'HowToStep', position: 4, name: 'Pressure & Airtightness Testing', text: '18.0 PSI hold test for 24 hours. Auto-reject above 0.50 PSI pressure drop. Test logs retained per batch.' },
+      { '@type': 'HowToStep', position: 5, name: 'EVA Pad & Accessory Installation', text: 'Traction pad alignment, fin box installation, D-ring placement and all accessories checked against frozen BOM specification.' },
+      { '@type': 'HowToStep', position: 6, name: 'Graphic & Branding QC', text: 'Board graphics, logo placement and color accuracy verified against approved artwork. Brand application inspected per client specification.' },
+      { '@type': 'HowToStep', position: 7, name: 'Final Packaging & Documentation', text: 'Export packaging, compliance documentation (CE, ISO 9001, BSCI, REACH, RoHS), certificates of conformity and batch traceability records verified before shipment.' },
     ],
   }
 }

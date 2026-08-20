@@ -8,7 +8,7 @@ import { useTranslation } from '@/features/i18n/provider'
 import { pick, about } from '@/product/content'
 import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
-import { JsonLd, aboutPageLd } from '@/features/seo/jsonld'
+import { JsonLd, aboutPageLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { CtaBand } from '@/components/marketing/cta'
 import { SectionHead } from '@/components/marketing/section-head'
 import { SITE_NAME, BRAND_ASSETS_CDN, BRAND_BOILERPLATE, SITE_URL } from '@/config'
@@ -137,6 +137,7 @@ function AboutPage() {
         </div>
       </section>
 
+      <JsonLd data={siteBreadcrumbLd([{ name: 'Home', path: '/' }, { name: 'About', path: '/about' }])} />
       <JsonLd
          data={aboutPageLd(
            SITE_URL,

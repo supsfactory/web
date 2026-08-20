@@ -1,0 +1,100 @@
+meta:
+  title: 'Cumplimiento de SUP por Mercado — CE, REACH, RoHS, BSCI, ISO 9001 | SUPsfactory'
+  description: 'Guía de cumplimiento por mercado para tablas SUP hinchables: CE para UE, CPSIA para EE.UU., AS/NZS para Australia, ISO 9001, BSCI, REACH y RoHS. Alcance de certificación, requisitos de prueba y documentación por mercado objetivo. Qingdao Vatrad Group Co., Ltd.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'SUP compliance by market'
+    - 'CE certification SUP'
+    - 'inflatable SUP regulations'
+    - 'SUP REACH compliance'
+    - 'SUP RoHS compliance'
+    - 'BSCI audit SUP factory'
+    - 'ISO 9001 SUP manufacturer'
+
+hero:
+  tagline: 'Guía de Cumplimiento'
+  title: 'Cumplimiento de SUP por Mercado'
+  subtitle: 'Cada mercado objetivo tiene requisitos distintos de certificación, etiquetado y documentación. Esta guía mapea el panorama de cumplimiento para tablas SUP hinchables en los principales mercados — UE, Norteamérica, Australia y más — para que pueda especificar el alcance correcto al momento de la cotización, no después de la producción.'
+
+answer:
+  label: 'Respuesta rápida'
+  text: 'Para la UE: el marcado CE es obligatorio para tablas vendidas en el Espacio Económico Europeo — certificamos modelos destinados al mercado de la UE, alcance confirmado por proyecto. Para EE.UU.: se aplican CPSIA y regulaciones VOC estatales. Para Australia: cumplimiento AS/NZS 1586. Todos los mercados: ISO 9001 (fábrica), BSCI (auditoría social), REACH y RoHS (materiales) son estándar en toda nuestra producción independientemente del destino. El alcance y costos de cumplimiento se detallan en su cotización — sin sorpresas post-producción.'
+  verified: '2026-08'
+
+market_cards:
+  tagline: Requisitos por Región
+  title: 'Requisitos de Cumplimiento por Mercado Objetivo'
+  subtitle: 'El alcance de certificación se confirma por proyecto durante la revisión de viabilidad. A continuación se muestran los requisitos típicos por mercado.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Unión Europea'
+      desc: 'Marcado CE obligatorio. REACH (seguridad química), RoHS (sustancias restringidas), certificación de fábrica ISO 9001. Pruebas específicas por producto según directiva de EPI o embarcación recreativa según corresponda. Etiquetado en idioma oficial del país de destino. Auditoría social BSCI disponible.'
+    - icon: US
+      icon_bg: green
+      title: 'Estados Unidos'
+      desc: 'Cumplimiento CPSIA (seguridad de productos de consumo). California Prop 65 y regulaciones VOC estatales para emisiones de PVC y adhesivos. Sin equivalente federal al CE. Pruebas ASTM disponibles bajo solicitud. Requisitos de etiquetado FTC para país de origen y contenido de material.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Australia y Nueva Zelanda'
+      desc: 'AS/NZS 1586 para embarcaciones hinchables. Garantías de la Ley de Consumidores de Australia. Documentación de importación y evaluación de conformidad según requisitos del Australian Border Force. Documentación de seguridad química equivalente a REACH. Auditoría social BSCI disponible.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Global / Multimercado'
+      desc: 'Certificación de fábrica ISO 9001:2015 (auditada anualmente). Auditoría de cumplimiento social BSCI. Cumplimiento de materiales REACH y RoHS en toda la producción independientemente del destino. Trazabilidad por lote e informes de prueba disponibles para cualquier mercado. Alcance de certificación personalizado confirmado por proyecto.'
+
+certifications_detail:
+  heading: 'Nuestro Alcance de Certificación'
+  body: |
+    Las siguientes certificaciones se mantienen o están disponibles en toda nuestra producción. El alcance específico de certificación para su proyecto se confirma durante la revisión de viabilidad y se detalla en su cotización.
+
+    - **ISO 9001:2015** — Sistema de gestión de calidad de fábrica, auditado anualmente por un tercero acreditado. Cubre todo el proceso de fabricación desde la inspección de material entrante hasta el empaque final.
+    - **Marcado CE** — Aplicado a modelos destinados al mercado de la UE. Pruebas y documentación según la directiva de la UE aplicable. Alcance confirmado por proyecto — no todos los modelos requieren el mismo alcance CE.
+    - **BSCI** — Auditoría de Iniciativa de Cumplimiento Social Empresarial. Cubre derechos laborales, seguridad laboral, cumplimiento ambiental y ética comercial. Disponible para todos los mercados.
+    - **REACH** — Regulación de seguridad química de la UE. Todos los materiales de PVC, adhesivo y recubrimiento cumplen con REACH. Documentación de sustancias e informes de prueba disponibles por lote.
+    - **RoHS** — Directiva de Restricción de Sustancias Peligrosas. Todos los accesorios electrónicos (bombas con motor, accesorios LED) cumplen con RoHS. Los materiales de la tabla son inherentemente conformes.
+
+compliance_process:
+  tagline: Cómo Funciona el Cumplimiento en Su Pedido
+  title: 'Cumplimiento en el Flujo de Incorporación'
+  subtitle: 'El cumplimiento no es un complemento — está integrado en cada puerta del proceso de incorporación.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Puerta 1: Confirmación de Alcance'
+      desc: 'Al hacer su consulta, especifica los mercados objetivo. Confirmamos qué certificaciones, pruebas y documentación aplican a su producto y destino específicos. El alcance de cumplimiento y cualquier costo asociado se detallan en la cotización.'
+    - icon: 2
+      icon_bg: green
+      title: 'Puerta 3: Certificación de Muestras'
+      desc: 'Las muestras se producen según el alcance de cumplimiento confirmado. Si se requieren pruebas de laboratorio de terceros (CE, CPSIA, AS/NZS), coordinamos las pruebas a través de laboratorios acreditados. Los informes de prueba se entregan con la muestra.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Puerta 7: Paquete de Documentación'
+      desc: 'Cada pedido de producción se envía con un paquete de documentación de cumplimiento: certificados de conformidad, informes de prueba, registros de trazabilidad por lote, datos de seguridad de materiales y cumplimiento de etiquetado. La documentación es específica por mercado.'
+
+faqs:
+  tagline: Preguntas Frecuentes
+  title: 'Cumplimiento de SUP — Preguntas Frecuentes'
+  items:
+    - q: '¿Todas las tablas SUP necesitan marcado CE?'
+      a: 'El marcado CE es obligatorio solo para tablas vendidas en el Espacio Económico Europeo. Certificamos modelos destinados al mercado de la UE con alcance confirmado por proyecto. Las tablas enviadas a mercados fuera de la UE no llevan marcado CE a menos que lo solicite específicamente.'
+    - q: '¿Sus materiales cumplen con REACH y RoHS?'
+      a: 'Sí. Todos los materiales de PVC, adhesivo y recubrimiento cumplen con REACH. Todos los accesorios electrónicos (bombas con motor, accesorios LED) cumplen con RoHS. Los materiales de construcción de la tabla son inherentemente conformes con RoHS. La documentación de sustancias e informes de prueba están disponibles por lote bajo solicitud.'
+    - q: '¿Pueden gestionar la certificación para un mercado no listado aquí?'
+      a: 'Sí. Hemos enviado a más de 50 países y podemos coordinar la certificación y documentación para la mayoría de los mercados. Díganos su país de destino durante la consulta y confirmaremos el alcance específico de cumplimiento y cualquier prueba o documentación adicional requerida.'
+    - q: '¿Cómo se gestionan los costos de cumplimiento?'
+      a: 'El alcance de cumplimiento y cualquier costo asociado (pruebas de laboratorio de terceros, honorarios de certificación) se detallan en su cotización durante la revisión de viabilidad. Sin cargos de cumplimiento post-producción. Las certificaciones estándar (ISO 9001, BSCI) son a nivel de fábrica y no añaden costo por unidad.'
+
+cta:
+  title: 'Especifique Sus Requisitos de Cumplimiento'
+  subtitle: 'Díganos sus mercados objetivo y confirmaremos el alcance de certificación, requisitos de prueba y paquete de documentación — detallados en su cotización.'
+  actions:
+    - variant: primary
+      text: Inicie Su Breve de Proyecto
+      href: /contact#project-brief
+    - text: Verificar certificaciones y sistema de calidad
+      href: /proof-center
+    - text: Proceso de incorporación OEM
+      href: /oem-onboarding-guide
