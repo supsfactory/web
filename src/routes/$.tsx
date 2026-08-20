@@ -2,6 +2,7 @@ import { createFileRoute, redirect, ErrorComponent } from '@tanstack/react-route
 import { OG_IMAGE, localeHead } from '@/features/seo/seo'
 import { isLocale, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
 import { SITE_NAME } from '@/config/site'
+import { ContentCatchAll } from '@/features/content/catchall'
 
 /**
  * Catch-all route for the content site.
@@ -91,4 +92,10 @@ export const Route = createFileRoute('/$')({
     }
     return { meta, links }
   },
+  component: CatchAllPage,
 })
+
+function CatchAllPage() {
+  const data = Route.useLoaderData()
+  return <ContentCatchAll data={data} />
+}
