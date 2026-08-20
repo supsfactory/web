@@ -68,7 +68,7 @@ jobs:
           create_index() {
             local name="$1"; shift
             if npx wrangler vectorize create "$name" --dimensions=1024 --metric=cosine \
-              "$@" > /tmp/vz.log 2>&1; then
+              --config wrangler.example.jsonc "$@" > /tmp/vz.log 2>&1; then
               echo "created $name"
             elif grep -qiE 'already exists|duplicate_name' /tmp/vz.log; then
               echo "exists (skip) $name"
