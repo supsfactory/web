@@ -14,7 +14,7 @@ const handler = () => {
     ...getCaseUses().map((p) => ({ loc: `/evidence/case-studies/${p.slug}`, lastmod: '2026-06-01', es: es.has(`/evidence/case-studies/${p.slug}`) })),
   ]
   return new Response(buildSitemap(origin, paths, { locale: 'none' }), {
-    headers: { 'content-type': 'application/xml; charset=utf-8' },
+    headers: { 'content-type': 'application/xml; charset=utf-8', 'cache-control': 'public, max-age=3600' },
   })
 }
 

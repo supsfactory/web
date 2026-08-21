@@ -57,7 +57,7 @@ const handler = () => {
   out.warranty = warrantyReturnsLd()
   out.shippingLogistics = shippingLogisticsLd()
   return new Response(JSON.stringify(out, null, 2), {
-    headers: { 'content-type': 'application/json; charset=utf-8' },
+    headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=3600' },
   })
 }
 

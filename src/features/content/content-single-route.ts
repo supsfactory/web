@@ -33,7 +33,7 @@ export function contentSingleRoute(path: string) {
           { property: 'og:url', content: canonical },
           { property: 'og:locale', content: OG_LOCALE.en },
           { property: 'og:locale:alternate', content: OG_LOCALE.es },
-          { property: 'og:type', content: loaderData.kind === 'post' ? 'article' : 'website' },
+          { property: 'og:type', content: loaderData.kind === 'post' || loaderData.kind === 'article' ? 'article' : 'website' },
           { property: 'og:image', content: absImage },
           { property: 'og:image:width', content: '1200' },
           { property: 'og:image:height', content: '630' },

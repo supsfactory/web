@@ -31,7 +31,7 @@ const handler = () => {
     { loc: '/privacy', lastmod: '2026-08-15', es: true },
   ]
   return new Response(buildSitemap(origin, [...afarer, ...staticPages], { locale: 'en' }), {
-    headers: { 'content-type': 'application/xml; charset=utf-8' },
+    headers: { 'content-type': 'application/xml; charset=utf-8', 'cache-control': 'public, max-age=3600' },
   })
 }
 

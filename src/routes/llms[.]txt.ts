@@ -24,7 +24,7 @@ const handler = () => {
       llmProjectsIndex(origin) +
       llmKnowledgeIndex(origin) +
       llmSpanishIndex(origin),
-    { headers: { 'content-type': 'text/plain; charset=utf-8' } },
+    { headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'public, max-age=3600' } },
   )
 }
 

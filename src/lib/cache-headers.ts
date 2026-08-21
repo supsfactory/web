@@ -19,7 +19,7 @@ const FONT = /^\/fonts\/[^/]+\.woff2$/
 const STATIC_PUBLIC = /^\/assets\//
 // Crawler files (robots.txt, sitemap*.xml, llms.txt): content changes only on
 // release, so 1h at the edge stops every crawl from re-rendering the worker.
-const SEO_TEXT = /^\/(?:robots\.txt|llms\.txt|sitemap(?:-[a-z]+)?\.xml)$/
+const SEO_TEXT = /^\/(?:robots\.txt|llms\.txt|sitemap(?:-[a-z]+)?\.xml|entity\.json|search-index\.json)$/
 
 /** Path segments whose responses must never be cached (any method). */
 const PRIVATE_SEGMENTS = new Set([

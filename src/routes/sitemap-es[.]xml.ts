@@ -28,7 +28,7 @@ const handler = () => {
     ...seriesPages.es.map((s) => ({ path: `/products/${s.slug}` })),
   ]
   return new Response(buildLocaleSitemap(origin, 'es', [...PUBLIC_PATHS, ...detailEs, ...afarerEs]), {
-    headers: { 'content-type': 'application/xml; charset=utf-8' },
+    headers: { 'content-type': 'application/xml; charset=utf-8', 'cache-control': 'public, max-age=3600' },
   })
 }
 
