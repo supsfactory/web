@@ -1,6 +1,7 @@
 ﻿import { ErrorComponent } from '@tanstack/react-router'
 import { OG_IMAGE } from '@/features/seo/seo'
 import { SITE_NAME } from '@/config/site'
+import { OG_LOCALE } from '@/config/locales'
 import type { CatchAllData } from './catchall'
 
 export function contentSingleRoute(path: string) {
@@ -18,9 +19,9 @@ export function contentSingleRoute(path: string) {
       const absImage = (image.startsWith('http') ? image : `${origin}${image}`).replace(/\.avif$/, '.jpg')
       const links: { rel: string; href: string; hreflang?: string }[] = [{ rel: 'canonical', href: canonical }]
       links.push({ rel: 'alternate', hreflang: 'en-US', href: canonical })
+      links.push({ rel: 'alternate', hreflang: 'x-default', href: canonical })
       if (loaderData.esTranslated) {
         links.push({ rel: 'alternate', hreflang: 'es-ES', href: `${origin}/es${path}` })
-        links.push({ rel: 'alternate', hreflang: 'x-default', href: canonical })
       }
       return {
         meta: [
@@ -30,7 +31,7 @@ export function contentSingleRoute(path: string) {
           { property: 'og:title', content: title },
           { property: 'og:description', content: description },
           { property: 'og:url', content: canonical },
-          { property: 'og:locale', content: 'en_US' },
+          { property: 'og:locale', content: OG_LOCALE.en },
           { property: 'og:type', content: loaderData.kind === 'post' ? 'article' : 'website' },
           { property: 'og:image', content: absImage },
           { property: 'og:image:width', content: '1200' },

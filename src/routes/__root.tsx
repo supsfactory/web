@@ -7,7 +7,7 @@ import { getAnalyticsToken, getGa4MeasurementId } from '@/features/analytics/ana
 import { trackPageView } from '@/features/analytics/events'
 import { getNonce } from '@/lib/csp'
 import { JsonLd, siteLd } from '@/features/seo/jsonld'
-import { SITE_NAME, SITE_DESCRIPTION, SITE_TAGLINE, BRAND_ASSETS_CDN, BRAND_OG_IMAGE } from '@/config'
+import { SITE_NAME, SITE_DESCRIPTION, SITE_TAGLINE, BRAND_ASSETS_CDN } from '@/config'
 import appCss from '@/styles/app.css?url'
 
 export const Route = createRootRoute({
@@ -20,17 +20,6 @@ export const Route = createRootRoute({
         name: 'description',
         content: SITE_DESCRIPTION,
       },
-      { property: 'og:title', content: `${SITE_NAME} \u2014 ${SITE_TAGLINE}` },
-      {
-        property: 'og:description',
-        content: SITE_DESCRIPTION,
-      },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:image', content: BRAND_OG_IMAGE },
-      { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: `${SITE_NAME} \u2014 ${SITE_TAGLINE}` },
-      { name: 'twitter:description', content: SITE_DESCRIPTION },
-      { name: 'twitter:image', content: BRAND_OG_IMAGE },
       { name: 'theme-color', content: '#0077B6' },
     ],
     links: [

@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React, { useMemo } from 'react'
 
 /**
  * Minimal markdown renderer for afarer article bodies (products, news,
@@ -73,7 +73,7 @@ function splitBlocks(text: string): Block[] {
 }
 
 export function Markdown({ text, className }: { text: string; className?: string }) {
-  const blocks = splitBlocks(text)
+  const blocks = useMemo(() => splitBlocks(text), [text])
   let li = 0
   return (
     <div className={className ?? ''}>

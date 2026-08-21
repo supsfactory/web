@@ -8,6 +8,7 @@ import { useFocusTrap } from '@/lib/use-focus-trap'
 
 const FOCUS_DELAY_MS = 30
 const MAX_RESULTS = 12
+let cachedSearchIndex: SearchEntry[] | null = null
 
 /** Site-wide search dialog — lazily fetches `/search-index.json`, filters by
  * the current locale, and navigates on selection. The `/` shortcut opens it;
@@ -16,7 +17,7 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
   const { t, locale } = useTranslation()
   const navigate = useNavigate()
   const [query, setQuery] = useState('')
-  const [index, setIndex] = useState<SearchEntry[] | null>(null)
+  const [index, setIndex] = useState<SearchEntry[] | null>(cachedSearchIndex)
   const inputRef = useRef<HTMLInputElement>(null)
   const searchTrap = useFocusTrap(open)
 
@@ -34,7 +35,7 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
         const ac = new AbortController()
         fetch('/search-index.json', { signal: ac.signal })
           .then((r) => (r.ok ? r.json() : []))
-          .then((data) => setIndex(data as SearchEntry[]))
+          .then((data) => { cachedSearchIndex = data as SearchEntry[]; setIndex(cachedSearchIndex) })
           .catch((e) => { if (!ac.signal.aborted) { console.error('[search-index]', e); setIndex([]) } })
         return () => ac.abort()
       }

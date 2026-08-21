@@ -45,6 +45,21 @@ const BREADCRUMB_PARENTS: Record<string, { name: string; path: string }> = {
   '/about': { name: 'About', path: '/about' },
 }
 
+function FaqDetails({ q, a, anchor, className, defaultOpen = false, summaryClassName = '' }: {
+  q: string; a: React.ReactNode; anchor: string; className?: string; defaultOpen?: boolean; summaryClassName?: string
+}) {
+  const [open, setOpen] = React.useState(defaultOpen)
+  return (
+    <details id={anchor} className={className} open={open} onToggle={() => setOpen((v) => !v)}>
+      <summary aria-expanded={open} className={summaryClassName}>
+        <span>{q}</span>
+        <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
+      </summary>
+      <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{a}</p>
+    </details>
+  )
+}
+
 function breadcrumbEntries(origin: string, path: string, title: string, t: (k: string) => string) {
   const entries = [{ name: t('content.nav.home'), path: '/' }]
   const segments = path.split('/').filter(Boolean)
@@ -553,13 +568,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
               {productFaqs(product, locale).map((f) => {
                 const anchor = faqSlug(f.q)
                 return (
-                  <details key={f.q} id={anchor} className="marine-card group px-5 py-4 scroll-mt-24">
-                    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
-                      <span>{f.q}</span>
-                      <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
-                    </summary>
-                    <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{f.a}</p>
-                  </details>
+                  <FaqDetails key={f.q} q={f.q} a={f.a} anchor={anchor} className="marine-card group px-5 py-4 scroll-mt-24" summaryClassName="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden" />
                 )
               })}
             </div>
@@ -801,13 +810,7 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
               {guide.faqs.map((f) => {
                 const anchor = faqSlug(f.q)
                 return (
-                  <details key={f.q} id={anchor} className="marine-card group px-5 py-4 scroll-mt-24">
-                    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[14.5px] font-semibold marker:hidden">
-                      {f.q}
-                      <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
-                    </summary>
-                    <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{brandify(f.a)}</p>
-                  </details>
+                  <FaqDetails key={f.q} q={f.q} a={brandify(f.a)} anchor={anchor} className="marine-card group px-5 py-4 scroll-mt-24" summaryClassName="flex cursor-pointer list-none items-center justify-between gap-4 text-[14.5px] font-semibold marker:hidden" />
                 )
               })}
             </div>
@@ -891,13 +894,7 @@ function FaqView({ faqs, origin, path, locale }: { faqs: { q: string; a: string 
           {faqs.map((f, i) => {
             const anchor = faqSlug(f.q)
             return (
-              <details key={f.q} id={anchor} className="marine-card group px-5 py-4 scroll-mt-24" open={i === 0}>
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
-                  <span>{f.q}</span>
-                  <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
-                </summary>
-                <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{f.a}</p>
-              </details>
+              <FaqDetails key={f.q} q={f.q} a={f.a} anchor={anchor} className="marine-card group px-5 py-4 scroll-mt-24" defaultOpen={i === 0} summaryClassName="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden" />
             )
           })}
         </div>

@@ -131,7 +131,7 @@ export function SiteNav() {
         { label: t('sup.nav.resourcesDropdown.news'), href: '/news' },
       ],
     },
-  ], [t, fl])
+  ], [t])
 
   const authLink = loggedIn ? (
     <a href={fl('/app')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">

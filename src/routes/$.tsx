@@ -1,6 +1,7 @@
 import { createFileRoute, redirect, ErrorComponent } from '@tanstack/react-router'
 import { OG_IMAGE, localeHead } from '@/features/seo/seo'
 import { isLocale, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
+import { OG_LOCALE } from '@/config/locales'
 import { SITE_NAME } from '@/config/site'
 import { ContentCatchAll } from '@/features/content/catchall'
 
@@ -61,7 +62,7 @@ export const Route = createFileRoute('/$')({
       { property: 'og:title', content: title },
       { property: 'og:description', content: description },
       { property: 'og:url', content: canonical },
-      { property: 'og:locale', content: 'en_US' },
+      { property: 'og:locale', content: OG_LOCALE[locale] ?? 'en_US' },
       { property: 'og:type', content: loaderData.kind === 'post' ? 'article' : 'website' },
       { property: 'og:image', content: absImage },
       { property: 'og:image:width', content: '1200' },

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useMemo } from 'react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, products, productFilters, type Product } from '@/product/content'
@@ -84,7 +84,7 @@ export function ProductsSection({
     : internalActive
   const change = onActiveChange ?? setInternalActive
   const allItems = limit ? c.items.slice(0, limit) : c.items
-  const items = current === 'all' ? allItems : allItems.filter((p) => p.series === current)
+  const items = useMemo(() => current === 'all' ? allItems : allItems.filter((p) => p.series === current), [allItems, current])
 
   return (
     <section className="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:px-10 md:py-24">

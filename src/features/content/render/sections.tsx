@@ -1,4 +1,4 @@
-﻿import { useState, type ReactNode } from 'react'
+﻿import { useState, useCallback, type ReactNode } from 'react'
 import { ArrowRight, Check, ChevronDown, FileText } from 'lucide-react'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
@@ -143,6 +143,10 @@ function FaqWidget({ c }: { c: Record<string, unknown> }) {
   const { t } = useTranslation()
   const items = faqItems(c)
   if (items.length === 0) return null
+  const [openFaqs, setOpenFaqs] = useState<Set<number>>(() => new Set([0]))
+  const toggleFaq = useCallback((i: number) => {
+    setOpenFaqs((prev) => { const next = new Set(prev); if (next.has(i)) next.delete(i); else next.add(i); return next })
+  }, [])
   return (
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('content.fallbackFaq'))} sub={brandify(str(c.subtitle) || str(c.sub) || '')} />
@@ -153,9 +157,10 @@ function FaqWidget({ c }: { c: Record<string, unknown> }) {
             .replace(/[^\p{L}\p{N}]+/gu, '-')
             .replace(/^-+|-+$/g, '')
             .slice(0, 80)
+          const isOpen = openFaqs.has(i)
           return (
-            <details key={String(f.q)} id={slug} className="marine-card group px-5 py-4" open={i === 0}>
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
+            <details key={String(f.q)} id={slug} className="marine-card group px-5 py-4" open={isOpen} onToggle={() => toggleFaq(i)}>
+              <summary aria-expanded={isOpen} className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
                 <span>{brandify(str(f.q))}</span>
                 <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
               </summary>
@@ -1361,16 +1366,17 @@ function BuyerGuidesWidget({ c }: { c: Record<string, unknown> }) {
 
 /* ─────────────────────── facts (key-value pairs) ─────────────────────── */
 
+const FACTS_LABELS: Record<string, Record<string, string>> = {
+  moq: { en: 'MOQ', es: 'Cantidad mínima de pedido' },
+  lead_time: { en: 'Lead time', es: 'Plazo de entrega' },
+  payment: { en: 'Payment terms', es: 'Condiciones de pago' },
+  capacity: { en: 'Annual capacity', es: 'Capacidad anual' },
+  shipping: { en: 'Shipping', es: 'Envío' },
+}
+
 function FactsWidget({ c }: { c: Record<string, unknown> }) {
   const { locale } = useTranslation()
-  const LABELS: Record<string, Record<string, string>> = {
-    moq: { en: 'MOQ', es: 'Cantidad mínima de pedido' },
-    lead_time: { en: 'Lead time', es: 'Plazo de entrega' },
-    payment: { en: 'Payment terms', es: 'Condiciones de pago' },
-    capacity: { en: 'Annual capacity', es: 'Capacidad anual' },
-    shipping: { en: 'Shipping', es: 'Envío' },
-  }
-  const entries = Object.entries(c).filter(([k]) => LABELS[k] && c[k])
+  const entries = Object.entries(c).filter(([k]) => FACTS_LABELS[k] && c[k])
   if (entries.length === 0) return null
   return (
     <Container>
@@ -1378,7 +1384,7 @@ function FactsWidget({ c }: { c: Record<string, unknown> }) {
       <dl className="mx-auto mt-8 grid max-w-3xl gap-3 sm:grid-cols-3">
         {entries.map(([k, v]) => (
           <div key={k} className="marine-card p-4">
-            <dt className="text-[11px] font-bold uppercase tracking-[0.14em] text-fg-3">{LABELS[k][locale] ?? LABELS[k].en}</dt>
+            <dt className="text-[11px] font-bold uppercase tracking-[0.14em] text-fg-3">{FACTS_LABELS[k][locale] ?? FACTS_LABELS[k].en}</dt>
             <dd className="mt-1 text-[13.5px] font-semibold leading-snug text-foreground">{brandify(str(v))}</dd>
           </div>
         ))}

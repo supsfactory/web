@@ -140,6 +140,8 @@ export function ContactFloats() {
 
       {/* mobile sticky contact bar */}
       <div
+        role="toolbar"
+        aria-label={t('sup.contactToolbar')}
         className={`fixed inset-x-0 bottom-0 z-50 border-t border-border bg-background/95 px-4 pb-[max(12px,env(safe-area-inset-bottom))] pt-3 backdrop-blur transition-transform duration-300 md:hidden ${
           hidden ? 'translate-y-full' : 'translate-y-0'
         }`}

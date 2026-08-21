@@ -309,6 +309,7 @@ export const esUi = {
     filterAllAria: 'Filtro: {label}',
     filterGroupAria: 'Filtrar por {label}',
     hueAria: 'Tono {value}',
+    contactToolbar: 'Opciones de contacto',
   },
   feedback: {
     nav: 'Comentarios',

@@ -319,6 +319,7 @@ export const enUi = {
     filterAllAria: 'Filter: {label}',
     filterGroupAria: 'Filter by {label}',
     hueAria: 'Hue {value}',
+    contactToolbar: 'Contact options',
   },
   feedback: {
     nav: 'Feedback',
