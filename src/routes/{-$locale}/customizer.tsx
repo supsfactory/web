@@ -35,7 +35,7 @@ export const Route = createFileRoute('/{-$locale}/customizer')({
 
 /** SUP Design Studio: clean white configurator layout with a live color-picking preview. */
 function CustomizerPage() {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const fl = useLocalizePath()
   const c = pick(customizer, locale)
   const [hue, setHue] = React.useState(195)
@@ -76,7 +76,7 @@ function CustomizerPage() {
                 <button
                   key={h}
                   type="button"
-                  aria-label={`hue ${h}`}
+                  aria-label={t('marketing.hueAria', { value: h })}
                   onClick={() => setHue(h)}
                   className={`h-9 w-9 cursor-pointer rounded-full border-2 transition-transform hover:scale-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary ${
                     hue === h ? 'scale-110 border-white shadow-[0_0_0_3px_var(--primary)]' : 'border-border-strong'

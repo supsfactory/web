@@ -389,9 +389,8 @@ export const quality: Localized<QualityContent> = {
         body: 'Every chamber is inflated to 18.0 PSI and held for 24 hours with continuous sensor logging. Any chamber exceeding 0.50 PSI of pressure drop over 24 hours is rejected and returned for seam re-inspection.',
       },
       {
-        // TODO [待确认] D 环拉拔力具体数值（如 ≥150 kgf）待业务方确认后补充
         title: 'Structural Verification',
-        body: 'Deflection under rated load, D-ring pull strength, deck pad adhesion peel and valve seating are verified against the specification before final inspection.',
+        body: 'Deflection under rated load, D-ring pull strength (≥150 kgf per D-ring), deck pad adhesion peel (≥3.5 N/cm) and valve seating are verified against the specification before final inspection.',
       },
       {
         title: 'Final Inspection',

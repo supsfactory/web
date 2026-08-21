@@ -73,7 +73,7 @@ export function ProductsSection({
   active?: string
   onActiveChange?: (key: string) => void
 }) {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const c = pick(products, locale)
   const filters = pick(productFilters, locale)
   const [internalActive, setInternalActive] = useState('all')
@@ -93,7 +93,7 @@ export function ProductsSection({
         <div className="mb-10 flex flex-wrap items-center justify-center gap-2">
           <button
             type="button"
-            aria-label={`Filter: ${filters.all}`}
+            aria-label={t('marketing.filterAllAria', { label: filters.all })}
             onClick={() => change('all')}
             className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-colors ${
               current === 'all' ? 'bg-primary text-primary-foreground' : 'border border-border-2 text-fg-2 hover:border-primary/40 hover:text-foreground'
@@ -105,7 +105,7 @@ export function ProductsSection({
             <button
               key={g.key}
               type="button"
-              aria-label={`Filter: ${g.label}`}
+              aria-label={t('marketing.filterGroupAria', { label: g.label })}
               onClick={() => change(current === g.key ? 'all' : g.key)}
               className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-colors ${
                 current === g.key ? 'bg-primary text-primary-foreground' : 'border border-border-2 text-fg-2 hover:border-primary/40 hover:text-foreground'

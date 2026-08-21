@@ -37,14 +37,10 @@ export const Route = createRootRoute({
       { rel: 'stylesheet', href: appCss },
       { rel: 'preconnect', href: BRAND_ASSETS_CDN },
       { rel: 'dns-prefetch', href: BRAND_ASSETS_CDN },
-      { rel: 'preload', href: '/fonts/manrope-latin-400-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
-      { rel: 'preload', href: '/fonts/manrope-latin-500-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
       { rel: 'preload', href: '/fonts/manrope-latin-700-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
       { rel: 'preload', href: '/fonts/manrope-latin-800-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
       { rel: 'preload', href: '/fonts/inter-latin-400-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
-      { rel: 'preload', href: '/fonts/inter-latin-500-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
       { rel: 'preload', href: '/fonts/inter-latin-600-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
-      { rel: 'preload', href: '/fonts/inter-latin-700-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
       { rel: 'icon', href: '/favicon.ico', sizes: '48x48' },
       { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
       { rel: 'icon', type: 'image/png', href: '/logo192.png', sizes: '192x192' },
@@ -73,7 +69,7 @@ function RootComponent() {
   const { theme, analyticsToken, ga4Id } = Route.useLoaderData()
   const pathname = useRouterState({ select: (s) => s.location.pathname })
   const firstSegment = pathname.split('/').filter(Boolean)[0]
-  const lang = isLocale(firstSegment) ? firstSegment : pathname.startsWith('/docs') ? 'zh' : defaultLocale
+  const lang = isLocale(firstSegment) ? firstSegment : defaultLocale
   const nonce = getNonce()
   return (
     <html lang={lang} className={theme} suppressHydrationWarning>

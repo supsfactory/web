@@ -305,6 +305,9 @@ export const esUi = {
     recommendedFor: 'Recomendado para:',
     oemOdmBadge: 'OEM/ODM',
     boardAriaLabel: 'Tabla de SUP',
+    filterAllAria: 'Filtro: {label}',
+    filterGroupAria: 'Filtrar por {label}',
+    hueAria: 'Tono {value}',
   },
   feedback: {
     nav: 'Comentarios',

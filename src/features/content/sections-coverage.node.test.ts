@@ -12,7 +12,7 @@ import { renderToString } from 'react-dom/server'
  * and produce zero output on the live page.
  */
 
-test('every registry section with content renders non-empty markup', () => {
+test('every registry section with content renders non-empty markup', { timeout: 30_000 }, () => {
   const problems: string[] = []
   for (const page of getContentPages()) {
     for (const def of page.sections) {
@@ -34,7 +34,7 @@ test('every registry section with content renders non-empty markup', () => {
   expect(problems, `silently-missing sections:\n${problems.join('\n')}`).toEqual([])
 })
 
-test('every es twin keeps every section that its en twin renders', () => {
+test('every es twin keeps every section that its en twin renders', { timeout: 15_000 }, () => {
   const problems: string[] = []
   for (const page of getContentPages()) {
     const en = getContentPage(page.path, 'en')

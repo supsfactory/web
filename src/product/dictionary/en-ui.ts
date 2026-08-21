@@ -315,6 +315,9 @@ export const enUi = {
     recommendedFor: 'Recommended for:',
     oemOdmBadge: 'OEM/ODM',
     boardAriaLabel: 'SUP board',
+    filterAllAria: 'Filter: {label}',
+    filterGroupAria: 'Filter by {label}',
+    hueAria: 'Hue {value}',
   },
   feedback: {
     nav: 'Feedback',
