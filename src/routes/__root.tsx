@@ -31,6 +31,7 @@ export const Route = createRootRoute({
       { name: 'twitter:title', content: `${SITE_NAME} \u2014 ${SITE_TAGLINE}` },
       { name: 'twitter:description', content: SITE_DESCRIPTION },
       { name: 'twitter:image', content: BRAND_OG_IMAGE },
+      { name: 'theme-color', content: '#0077B6' },
     ],
     links: [
       { rel: 'stylesheet', href: appCss },

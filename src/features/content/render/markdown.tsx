@@ -27,9 +27,10 @@ function renderInline(text: string, keyBase: string): React.ReactNode[] {
     }
     const link = /^\[([^\]]+)\]\(([^)\s]+)\)$/.exec(part)
     if (link) {
-      const href = link[2].startsWith('/') ? link[2] : link[2]
+      const href = link[2]
+      const isExternal = href.startsWith('http')
       return (
-        <a key={`${keyBase}-${i}`} href={href} className="font-semibold text-primary underline-offset-4 hover:underline">
+        <a key={`${keyBase}-${i}`} href={href} className="font-semibold text-primary underline-offset-4 hover:underline" {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
           {link[1]}
         </a>
       )
@@ -79,7 +80,7 @@ export function Markdown({ text, className }: { text: string; className?: string
       {blocks.map((b, i) => {
         switch (b.kind) {
           case 'h1':
-            return <h1 key={i} className="mt-10 font-display text-3xl font-extrabold tracking-tight">{b.lines[0].replace(/^#\s*/, '')}</h1>
+            return <h2 key={i} className="mt-10 font-display text-3xl font-extrabold tracking-tight">{b.lines[0].replace(/^#\s*/, '')}</h2>
           case 'h2':
             return <h2 key={i} className="mt-10 font-display text-2xl font-extrabold tracking-tight">{b.lines[0].replace(/^##\s*/, '')}</h2>
           case 'h3':

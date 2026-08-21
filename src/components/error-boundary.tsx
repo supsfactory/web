@@ -23,11 +23,12 @@ export function ErrorPage({ error, reset }: { error: Error; reset: () => void })
   const docTitle = t('content.page.unexpectedError') + ` \u2014 ${SITE_NAME}`
   useEffect(() => {
     document.title = docTitle
-  }, [docTitle])
+    document.documentElement.lang = locale
+  }, [docTitle, locale])
   return (
     <main className="grid-bg flex min-h-screen flex-col items-center justify-center gap-[18px] p-8 text-center">
       <span className="kicker">// {t('content.page.unexpectedErrorSub')}</span>
-      <div className="font-display text-[120px] font-bold leading-none tracking-[-4px] text-primary">500</div>
+      <div className="font-display text-[80px] md:text-[120px] font-bold leading-none tracking-[-4px] text-primary">500</div>
       <h1 className="font-display text-[28px] font-semibold tracking-[-0.6px]">
         {t('content.page.unexpectedError')}
       </h1>

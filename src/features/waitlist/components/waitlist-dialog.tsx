@@ -17,7 +17,7 @@ export function WaitlistDialog({
   const { t } = useTranslation()
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent>
+      <DialogContent closeLabel={t('common.close')}>
         <DialogHeader>
           <DialogTitle>{t('waitlist.comingSoonTitle')}</DialogTitle>
           <DialogDescription>{t('waitlist.comingSoonBody')}</DialogDescription>

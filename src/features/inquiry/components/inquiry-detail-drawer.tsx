@@ -124,7 +124,11 @@ export function InquiryDetailDrawer({ row, open, onOpenChange }: Props) {
                     <a href={`/api/inquiry-logo/${row.id}`} target="_blank" rel="noopener noreferrer" className="mt-1.5 inline-block">
                       <img
                         src={`/api/inquiry-logo/${row.id}`}
-                        alt={row.company || 'upload'}
+                        alt={row.company || t('admin.inquiryFile')}
+                        width={400}
+                        height={300}
+                        loading="lazy"
+                        decoding="async"
                         className="max-h-44 rounded-lg border border-border bg-bg-alt object-contain"
                       />
                     </a>

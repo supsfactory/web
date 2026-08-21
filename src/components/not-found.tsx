@@ -20,7 +20,8 @@ export function NotFound() {
   const docTitle = t('content.page.notFound') + ` \u2014 ${SITE_NAME}`
   useEffect(() => {
     document.title = docTitle
-  }, [docTitle])
+    document.documentElement.lang = locale
+  }, [docTitle, locale])
   return (
     <>
       <meta name="robots" content="noindex" />

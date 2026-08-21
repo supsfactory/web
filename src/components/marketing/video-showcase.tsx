@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Play } from 'lucide-react'
+import { useTranslation } from '@/features/i18n/provider'
 
 /**
  * Video showcase block — a factory/brand video paired with a step or point
@@ -26,6 +27,7 @@ export function VideoShowcase({
   points: { t: string; d?: string }[]
   flip?: boolean
 }) {
+  const { t } = useTranslation()
   const [playing, setPlaying] = useState(false)
 
   return (
@@ -46,7 +48,7 @@ export function VideoShowcase({
           <button
             type="button"
             onClick={() => setPlaying(true)}
-            aria-label={`Play video: ${title}`}
+            aria-label={t('common.playVideo', { title })}
             className="group relative block aspect-video w-full overflow-hidden rounded-3xl border border-border-2 bg-bg-alt"
           >
             <img

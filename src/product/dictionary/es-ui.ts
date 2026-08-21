@@ -11,6 +11,9 @@ export const esUi = {
     menu: 'Menú',
     skipToContent: 'Saltar al contenido',
     footerNav: 'Navegación del pie de página',
+    close: 'Cerrar',
+    mainNav: 'Navegación principal',
+    playVideo: 'Reproducir vídeo: {title}',
   },
   changelog: {
     title: 'Registro de cambios',

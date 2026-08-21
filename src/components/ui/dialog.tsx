@@ -10,8 +10,9 @@ export function Dialog(props: React.ComponentProps<typeof DialogPrimitive.Root>)
 export function DialogContent({
   className,
   children,
+  closeLabel,
   ...props
-}: React.ComponentProps<typeof DialogPrimitive.Content>) {
+}: React.ComponentProps<typeof DialogPrimitive.Content> & { closeLabel?: string }) {
   return (
     <DialogPrimitive.Portal>
       <DialogPrimitive.Overlay data-slot="dialog-overlay" className="fixed inset-0 z-50 bg-black/60" />
@@ -26,7 +27,7 @@ export function DialogContent({
       >
         {children}
         <DialogPrimitive.Close
-          aria-label="Close"
+          aria-label={closeLabel}
           className="absolute right-4 top-4 text-fg-3 transition-colors hover:text-foreground"
         >
           <X size={16} />

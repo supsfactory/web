@@ -11,6 +11,9 @@ export const enUi = {
     menu: 'Menu',
     skipToContent: 'Skip to content',
     footerNav: 'Footer navigation',
+    close: 'Close',
+    mainNav: 'Main navigation',
+    playVideo: 'Play video: {title}',
   },
   changelog: {
     title: 'Changelog',

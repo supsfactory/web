@@ -137,7 +137,7 @@ export function Footer() {
 function FooterCol({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="flex flex-col">
-      <h4 className="mb-3 text-xs font-semibold uppercase tracking-wide text-fg-3">{title}</h4>
+      <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-fg-3">{title}</h2>
       <div className="flex flex-col gap-0.5 [&_.foot-link]:py-2 md:[&_.foot-link]:py-1 [&_.foot-link]:text-sm [&_.foot-link]:text-fg-2 [&_.foot-link:hover]:text-foreground [&_.foot-link]:transition-colors">
         {children}
       </div>

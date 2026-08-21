@@ -260,7 +260,7 @@ export function SiteNav() {
         <div className="flex h-9 items-center justify-end gap-4 border-b border-border/60 px-4 md:px-7">
           {authLink}
         </div>
-        <nav aria-label="Main navigation" className="flex h-16 items-center gap-3 px-4 md:px-7">
+        <nav aria-label={t('common.mainNav')} className="flex h-16 items-center gap-3 px-4 md:px-7">
           <a href={fl('/')} aria-label={SITE_NAME} className="shrink-0">
             <div className="flex flex-col leading-tight">
               <Logo />
