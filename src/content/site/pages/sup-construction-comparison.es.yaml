@@ -1,6 +1,6 @@
 meta:
   title: 'Comparación de Construcción de SUP — PVC Monocapa vs Bicapa vs Drop-Stitch | SUPsfactory'
-  description: 'Comparación lado a lado de los tipos de construcción de SUP hinchables: PVC monocapa, PVC bicapa y núcleo drop-stitch. Rigidez, peso, durabilidad, precio y mejor uso de cada uno. Qingdao Vatrad Group Co., Ltd.'
+  description: 'Comparación de construcción de SUP hinchables: PVC monocapa, PVC bicapa y núcleo drop-stitch. Rigidez, peso, durabilidad, precio y mejor uso.'
   dateModified: '2026-08-21'
   keywords:
     - 'SUP construction comparison'
@@ -74,19 +74,19 @@ use_cases:
       title: 'Monocapa para Entrada y Volumen'
       desc: 'La tabla más ligera al precio más bajo. Ideal para marcas dirigidas a compradores primerizos, grandes superficies comerciales y mercados online donde el precio es el principal impulsor de compra. Rigidez aceptable para remo en aguas tranquilas a PSI moderado. Menor tasa de reclamaciones de garantía cuando se usa dentro del rango de presión nominal.'
       link_label: 'Ver tablas OEM de nivel de entrada'
-      href: /oem-manufacturing
+      href: /es/oem-manufacturing
     - icon: D
       icon_bg: green
       title: 'Bicapa para Alquiler y Comercial'
       desc: 'La construcción de trabajo para flotas de alquiler, clubes, resorts y programas escolares. La capa extra de PVC resiste los impactos, exposición UV y manipulación diaria que destruyen las tablas monocapa en entornos comerciales. Mayor tolerancia de presión significa un ride más rígido para jinetes más pesados. Nivel de construcción más popular a nivel global.'
       link_label: 'Soluciones para resorts y alquiler'
-      href: /solutions/resort-sup
+      href: /es/solutions/resort-sup
     - icon: P
       icon_bg: purple
       title: 'Núcleo Drop-Stitch para Rendimiento'
       desc: 'Máxima rigidez para travesía, surf, pesca y aplicaciones de jinetes pesados. La construcción de canto reforzado y mayor clasificación PSI ofrecen rendimiento similar a una tabla rígida en un formato portátil. Preferido por marcas de rendimiento y remeros experimentados. Mayor costo de material, pero posicionamiento de marca más fuerte y menor tasa de garantía por unidad.'
       link_label: 'Desarrollo de tablas de rendimiento'
-      href: /odm-development
+      href: /es/odm-development
 
 key_factors:
   heading: 'Factores Clave Más Allá del Tipo de Construcción'
@@ -118,6 +118,6 @@ cta:
       text: Inicie Su Breve de Proyecto
       href: /contact#project-brief
     - text: Ver detalles de fabricación OEM
-      href: /oem-manufacturing
+      href: /es/oem-manufacturing
     - text: Comparar OEM, ODM y Marca Privada
-      href: /oem-odm-private-label-comparison
+      href: /es/oem-odm-private-label-comparison

@@ -548,6 +548,7 @@ export const enProduct = {
     email: 'Work Email Address',
     emailHint: 'A business email helps us route your project to the appropriate team.',
     whatsapp: 'WhatsApp (optional)',
+    whatsappPlaceholder: '+1 555 000 0000',
     businessType: 'Your Business Type',
     businessTypeHint: 'Select the option that best describes your organization.',
     country: 'Country',

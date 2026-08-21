@@ -263,7 +263,7 @@ export function InquiryForm({
           </div>
           <div className="field sm:col-span-2">
             <Label htmlFor="inq-whatsapp">{t('inquiry.whatsapp')}</Label>
-            <Input id="inq-whatsapp" name="whatsapp" maxLength={60} autoComplete="tel" placeholder="+86 13305324192" />
+            <Input id="inq-whatsapp" name="whatsapp" maxLength={60} autoComplete="tel" placeholder={t('inquiry.whatsappPlaceholder')} />
           </div>
         </div>
         <p className="mt-4 rounded-lg border border-border bg-bg-alt px-3 py-2.5 text-[12.5px] leading-relaxed text-fg-2">
@@ -481,6 +481,7 @@ export function InquiryForm({
 /** Tiered post-submit panel (hard-split pricing/SLA messaging per lead grade). */
 function SuccessPanel({ tier }: { tier: InquiryTier }) {
   const { t, locale } = useTranslation()
+  const fl = useLocalizePath()
   if (tier === 'A') {
     return (
       <div className="rounded-2xl border border-success/30 bg-success/5 p-6">
@@ -511,7 +512,7 @@ function SuccessPanel({ tier }: { tier: InquiryTier }) {
     <div className="rounded-2xl border border-border bg-bg-alt p-6">
       <p className="text-[15px] font-bold">{t('inquiry.okC.title')}</p>
       <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{t('inquiry.okC.body')}</p>
-      <a href="/oem-moq-guide" className="mt-4 inline-flex h-10 items-center gap-1.5 rounded-full border border-primary/30 bg-primary/5 px-5 text-[13px] font-bold text-primary transition-colors hover:bg-primary/10">
+      <a href={fl('/oem-moq-guide')} className="mt-4 inline-flex h-10 items-center gap-1.5 rounded-full border border-primary/30 bg-primary/5 px-5 text-[13px] font-bold text-primary transition-colors hover:bg-primary/10">
         {t('inquiry.okC.guideLink')}
       </a>
     </div>

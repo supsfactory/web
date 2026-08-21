@@ -95,3 +95,6 @@ certifications_section:
 cta:
   title: 'Construye tu proyecto de SUP con la fábrica de Afarer'
   subtitle: 'Envía tus requisitos — tipo de tabla, tamaño, cantidad y gráficos — y recibe una propuesta detallada en un día laborable.'
+  actions:
+    - text: Identidad de marca
+      href: /es/about/identity

@@ -1,6 +1,6 @@
 meta:
   title: 'Cumplimiento de SUP por Mercado — CE, REACH, RoHS, BSCI, ISO 9001 | SUPsfactory'
-  description: 'Guía de cumplimiento por mercado para tablas SUP hinchables: CE para UE, CPSIA para EE.UU., AS/NZS para Australia, ISO 9001, BSCI, REACH y RoHS. Alcance de certificación, requisitos de prueba y documentación por mercado objetivo. Qingdao Vatrad Group Co., Ltd.'
+  description: 'Cumplimiento por mercado para SUP hinchables: CE (UE), CPSIA (EE.UU.), AS/NZS (Australia), ISO 9001, BSCI, REACH y RoHS. Pruebas y documentación por mercado.'
   dateModified: '2026-08-21'
   keywords:
     - 'SUP compliance by market'
@@ -95,6 +95,6 @@ cta:
       text: Inicie Su Breve de Proyecto
       href: /contact#project-brief
     - text: Verificar certificaciones y sistema de calidad
-      href: /proof-center
+      href: /es/proof-center
     - text: Proceso de incorporación OEM
-      href: /oem-onboarding-guide
+      href: /es/oem-onboarding-guide

@@ -1,6 +1,6 @@
 meta:
   title: 'Sobre SUPsfactory — Identidad de Marca, División de Fabricación de Qingdao Vatrad Group | SUPsfactory'
-  description: 'Identidad de marca SUPsfactory: la división de fabricación de SUP hinchables y productos marinos hinchables de Qingdao Vatrad Group Co., Ltd. Ubicación de fábrica, entidad legal, certificaciones, alcance de fabricación y posicionamiento de marca. Qingdao Vatrad Group Co., Ltd.'
+  description: 'Identidad de SUPsfactory: división de fabricación de SUP y productos marinos hinchables. Fábrica, entidad legal, certificaciones y posicionamiento de marca.'
   dateModified: '2026-08-21'
   keywords:
     - 'SUPsfactory identity'
@@ -86,6 +86,6 @@ cta:
       text: Solicitar Documentación
       href: /contact#project-brief
     - text: Verificar certificaciones y sistema de calidad
-      href: /proof-center
+      href: /es/proof-center
     - text: Proceso de incorporación OEM
-      href: /oem-onboarding-guide
+      href: /es/oem-onboarding-guide

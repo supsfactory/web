@@ -159,3 +159,8 @@ cta:
   subtitle: 'Send your NDA request, ask for the registration pack, or book an audit slot. Verification comes first; the order conversation follows. Submitting an inquiry does not commit you to an order.'
   button_text: 'Request Verification Pack'
   button_link: '/contact#trust-verification'
+  actions:
+    - text: Factory Audit Checklist
+      href: /factory-audit-checklist
+    - text: Brand Identity
+      href: /about/identity

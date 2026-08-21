@@ -26,7 +26,7 @@ export function NotFound() {
       <meta name="robots" content="noindex" />
       <main className="grid-bg flex min-h-screen flex-col items-center justify-center gap-[18px] p-8 text-center">
       <span className="kicker">// {t('content.page.notFoundSub')}</span>
-      <div className="font-display text-[120px] font-bold leading-none tracking-[-4px] text-primary">404</div>
+      <div className="font-display text-[80px] md:text-[120px] font-bold leading-none tracking-[-4px] text-primary">404</div>
       <h1 className="font-display text-[28px] font-semibold tracking-[-0.6px]">
         {t('content.page.notFound')}
       </h1>

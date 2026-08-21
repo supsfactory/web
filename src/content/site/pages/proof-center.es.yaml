@@ -1,6 +1,6 @@
 meta:
   title: 'Centro de Evidencia —La Documentación Detrás de Cada Afirmación'
-  description: 'La carpeta de prueba detrás de las afirmaciones de SUPsfactory: entidades, certificados con alcance, lista de equipos, muestras de trazabilidad por lote y documentación de inspección — en un solo lugar.'
+  description: 'Carpeta de prueba detrás de las afirmaciones de SUPsfactory: entidades, certificados con alcance, equipos, trazabilidad por lote y documentación de inspección.'
   dateModified: '2026-08-16'
   keywords:
     - 'evidencia fábrica SUP'
@@ -161,3 +161,8 @@ cta:
   subtitle: 'Pide el paquete de registro, copias de certificados o una cita de auditoría. La verificación viene primero; la conversación del pedido después. Enviar una consulta no te compromete a ningún pedido.'
   button_text: 'Solicitar el paquete de verificación'
   button_link: '/contact#trust-verification'
+  actions:
+    - text: Identidad de marca
+      href: /es/about/identity
+    - text: Lista de Verificación de Auditoría de Fábrica
+      href: /es/factory-audit-checklist

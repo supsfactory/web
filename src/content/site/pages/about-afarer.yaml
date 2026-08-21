@@ -95,3 +95,6 @@ certifications_section:
 cta:
   title: 'Build your SUP project with the Afarer factory'
   subtitle: 'Send your requirements — board type, size, quantity and graphics — and receive a detailed quote within one business day.'
+  actions:
+    - text: Brand Identity
+      href: /about/identity

@@ -1,6 +1,6 @@
 meta:
   title: 'Desarrollo ODM de SUP | Diseño de tablas a medida desde tu idea'
-  description: 'Desarrollo ODM de tablas SUP en Qingdao: de la idea al casco diseñado, la gráfica, el prototipo y la producción en serie — diseño interno, ingeniería de moldes y muestras en 7–12 días.'
+  description: 'Desarrollo ODM de SUP en Qingdao: de la idea al casco, gráfica, prototipo y producción en serie — diseño interno, ingeniería de moldes y muestras en 7–12 días.'
   dateModified: '2026-08-16'
   keywords:
     - 'desarrollo ODM de tablas SUP'
@@ -146,3 +146,5 @@ cta:
       href: /oem-trust-assurance
     - text: Guía de MOQ y branding flexible
       href: /oem-moq-guide
+    - text: Comparación de Construcción SUP
+      href: /es/sup-construction-comparison

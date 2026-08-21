@@ -1,6 +1,6 @@
 meta:
   title: 'Lista de Verificación de Auditoría de Fábrica — Qué Verificar Antes de Elegir un Fabricante de SUP | SUPsfactory'
-  description: 'Lista de verificación completa de auditoría de fábrica para compradores de SUP hinchables: sistema de calidad, capacidad de producción, trazabilidad de materiales, pruebas de presión, cumplimiento social y documentación. Sepa qué verificar antes de comprometerse. Qingdao Vatrad Group Co., Ltd.'
+  description: 'Lista de verificación de auditoría de fábrica para compradores de SUP: calidad, capacidad, trazabilidad, pruebas de presión, cumplimiento y documentación.'
   dateModified: '2026-08-21'
   keywords:
     - 'SUP factory audit checklist'
@@ -100,6 +100,6 @@ cta:
       text: Solicitar Documentación de Auditoría
       href: /contact#project-brief
     - text: Verificar certificaciones y sistema de calidad
-      href: /proof-center
+      href: /es/proof-center
     - text: Proceso de incorporación OEM
-      href: /oem-onboarding-guide
+      href: /es/oem-onboarding-guide

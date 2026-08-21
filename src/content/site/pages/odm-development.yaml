@@ -1,6 +1,6 @@
 meta:
   title: 'ODM SUP Development | Custom Board Design from Your Idea'
-  description: 'ODM SUP board development in Qingdao: from rough idea to engineered hull, graphics, prototype and mass production — in-house design, mould engineering and 7–12 day samples.'
+  description: 'ODM SUP board development: from idea to engineered hull, graphics, prototype and mass production — in-house design, mould engineering and 7–12 day samples.'
   dateModified: '2026-08-16'
   keywords:
     - 'ODM SUP board development'
@@ -146,3 +146,5 @@ cta:
       href: /oem-trust-assurance
     - text: MOQ & flexible branding guide
       href: /oem-moq-guide
+    - text: SUP Construction Comparison
+      href: /sup-construction-comparison

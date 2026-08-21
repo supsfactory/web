@@ -1,6 +1,6 @@
 meta:
   title: 'Confianza en una fábrica OEM: verifica antes de pedir'
-  description: 'Cómo verifican los compradores a SUPsfactory antes de pedir: registro, auditorías de fábrica, ingenieros bajo NDA e inspecciones de terceros (SGS/TÜV/BV/Intertek).'
+  description: 'Cómo verifican los compradores a SUPsfactory antes de pedir: registro, auditorías, ingenieros bajo NDA e inspecciones de terceros (SGS/TÜV/BV/Intertek).'
   dateModified: '2026-08-14'
   keywords:
     - 'verificación fábrica OEM SUP'
@@ -158,3 +158,8 @@ cta:
   subtitle: 'Envía tu solicitud de NDA, pide el paquete de registro o reserva una visita de auditoría. La verificación va primero; la conversación del pedido viene después. Enviar una consulta no te compromete a ningún pedido.'
   button_text: 'Solicitar paquete de verificación'
   button_link: '/es/contact#trust-verification'
+  actions:
+    - text: Lista de Verificación de Auditoría de Fábrica
+      href: /es/factory-audit-checklist
+    - text: Identidad de marca
+      href: /es/about/identity

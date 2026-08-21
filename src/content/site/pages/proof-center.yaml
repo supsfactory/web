@@ -1,6 +1,6 @@
 meta:
   title: 'Proof Center —The Evidence Behind Every Manufacturing Claim'
-  description: 'The proof folder behind SUPsfactory claims: entity relationships, certificates with scope, equipment list, batch traceability samples and inspection documentation — in one place.'
+  description: 'Proof folder behind SUPsfactory claims: entity relationships, certificates with scope, equipment list, batch traceability and inspection documentation.'
   dateModified: '2026-08-16'
   keywords:
     - 'SUP factory evidence'
@@ -162,3 +162,8 @@ cta:
   subtitle: 'Ask for the registration pack, certificate copies or an audit slot. Verification comes first; the order conversation follows. Submitting an inquiry does not commit you to an order.'
   button_text: 'Request Verification Pack'
   button_link: '/contact#trust-verification'
+  actions:
+    - text: Brand Identity
+      href: /about/identity
+    - text: Factory Audit Checklist
+      href: /factory-audit-checklist

@@ -548,6 +548,7 @@ export const esProduct = {
     email: 'Correo profesional',
     emailHint: 'Un correo profesional nos ayuda a enrutar tu proyecto al equipo adecuado.',
     whatsapp: 'WhatsApp (opcional)',
+    whatsappPlaceholder: '+34 600 000 000',
     businessType: 'Tu tipo de negocio',
     businessTypeHint: 'Selecciona la opción que mejor describa tu organización.',
     country: 'País',
