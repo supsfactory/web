@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import React, { startTransition, useState, useMemo } from 'react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, products, productFilters, type Product } from '@/product/content'
@@ -94,7 +94,7 @@ export function ProductsSection({
           <button
             type="button"
             aria-label={t('marketing.filterAllAria', { label: filters.all })}
-            onClick={() => change('all')}
+            onClick={() => startTransition(() => change('all'))}
             className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-colors ${
               current === 'all' ? 'bg-primary text-primary-foreground' : 'border border-border-2 text-fg-2 hover:border-primary/40 hover:text-foreground'
             }`}
@@ -106,7 +106,7 @@ export function ProductsSection({
               key={g.key}
               type="button"
               aria-label={t('marketing.filterGroupAria', { label: g.label })}
-              onClick={() => change(current === g.key ? 'all' : g.key)}
+              onClick={() => startTransition(() => change(current === g.key ? 'all' : g.key))}
               className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-colors ${
                 current === g.key ? 'bg-primary text-primary-foreground' : 'border border-border-2 text-fg-2 hover:border-primary/40 hover:text-foreground'
               }`}

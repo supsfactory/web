@@ -14,8 +14,9 @@ const BASE_HEADERS: Record<string, string> = {
   'X-Content-Type-Options': 'nosniff',
   'X-Frame-Options': 'DENY',
   'Referrer-Policy': 'strict-origin-when-cross-origin',
-  'Permissions-Policy': 'camera=(), microphone=(), geolocation=()',
-  // Harmless over http (browsers ignore it); enforced once served over https.
+  'Permissions-Policy': 'camera=(), microphone=(), geolocation=(), fullscreen=(self), clipboard-write=(self), payment=(), sync-xhr=()',
+  'Cross-Origin-Opener-Policy': 'same-origin',
+  'Cross-Origin-Resource-Policy': 'same-origin',
   'Strict-Transport-Security': 'max-age=63072000; includeSubDomains; preload',
 }
 
@@ -24,7 +25,7 @@ function buildCsp(nonce: string): string {
     "default-src 'self'",
     `script-src 'self' 'nonce-${nonce}' https://challenges.cloudflare.com https://static.cloudflareinsights.com https://www.googletagmanager.com`, // Turnstile + Web Analytics beacon + GA4 gtag
     "style-src 'self' 'unsafe-inline'",
-    "img-src 'self' data: blob: https:", // blob: for client-side avatar preview
+    "img-src 'self' data: blob: https://assets.supsfactory.com https://assets.afarer.com", // blob: for client-side avatar preview
     "font-src 'self' data:", // fonts are self-hosted under /fonts
     "connect-src 'self' https://cloudflareinsights.com https://www.google-analytics.com https://analytics.google.com https://api.whatsapp.com", // Web Analytics beacon + GA4 POSTs
     "frame-src https://challenges.cloudflare.com", // Turnstile widget iframe

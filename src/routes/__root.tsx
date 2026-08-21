@@ -1,5 +1,5 @@
 import { createRootRoute, ErrorComponent, HeadContent, Outlet, Scripts, useRouterState } from '@tanstack/react-router'
-import { useEffect } from 'react'
+import { Suspense, useEffect } from 'react'
 import { isLocale, defaultLocale } from '@/features/i18n/locale'
 import { getPreferences } from '@/server/preferences'
 import { getOptionalUser } from '@/features/auth/middleware'
@@ -23,9 +23,13 @@ export const Route = createRootRoute({
       { name: 'theme-color', content: '#0077B6' },
     ],
     links: [
-      { rel: 'stylesheet', href: appCss },
+      { rel: 'stylesheet', href: appCss, fetchPriority: 'high' },
       { rel: 'preconnect', href: BRAND_ASSETS_CDN },
       { rel: 'dns-prefetch', href: BRAND_ASSETS_CDN },
+      { rel: 'preconnect', href: 'https://www.googletagmanager.com' },
+      { rel: 'dns-prefetch', href: 'https://www.googletagmanager.com' },
+      { rel: 'preconnect', href: 'https://static.cloudflareinsights.com' },
+      { rel: 'dns-prefetch', href: 'https://static.cloudflareinsights.com' },
       { rel: 'preload', href: '/fonts/manrope-latin-700-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
       { rel: 'preload', href: '/fonts/manrope-latin-800-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
       { rel: 'preload', href: '/fonts/inter-latin-400-normal.woff2', as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
@@ -70,7 +74,9 @@ function RootComponent() {
         {siteLd().map((d) => (
           <JsonLd key={d['@id'] as string} data={d} />
         ))}
-        <Outlet />
+        <Suspense fallback={<div className="min-h-[60svh]" />}>
+          <Outlet />
+        </Suspense>
         <Scripts />
         {analyticsToken && (
           <script

@@ -963,6 +963,9 @@ input {
     transition: none;
     animation: none;
   }
+  .wave-layer {
+    will-change: auto;
+  }
   .reveal {
     opacity: 1;
     transform: none;

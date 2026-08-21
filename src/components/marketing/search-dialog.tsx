@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState, startTransition } from 'react'
 import { Search as SearchIcon } from 'lucide-react'
 import { useNavigate } from '@tanstack/react-router'
 import type { SearchEntry } from '@/features/site/search'
@@ -87,7 +87,7 @@ export function SearchDialog({ open, onOpen, onClose }: { open: boolean; onOpen:
                 ref={inputRef}
                 type="text"
                 value={query}
-                onChange={(e) => setQuery(e.target.value)}
+                onChange={(e) => startTransition(() => setQuery(e.target.value))}
                 placeholder={t('common.searchPlaceholder')}
                 className="min-w-0 flex-1 bg-transparent text-[15px] text-foreground outline-none placeholder:text-fg-3"
                 autoComplete="off"

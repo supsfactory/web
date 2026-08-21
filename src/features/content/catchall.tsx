@@ -363,6 +363,9 @@ function renderContent(data: CatchAllData, t: (key: string, params?: Record<stri
             sub={t('content.cases.sub')}
           />
           <CaseStudiesIndex />
+          <JsonLd
+            data={breadcrumbEntries(data.origin, data.path, t('content.cases.title', { brand: BRAND_PARENT_BRAND }), t)}
+          />
           {data.index.cases && data.index.cases.length > 0 && (
             <JsonLd
               data={itemListLd(data.index.cases.map((c) => ({ name: c.title, path: `/evidence/case-studies/${c.slug}` })))}
@@ -379,6 +382,9 @@ function renderContent(data: CatchAllData, t: (key: string, params?: Record<stri
             sub={t('content.research.sub')}
           />
           <ResearchIndex />
+          <JsonLd
+            data={breadcrumbEntries(data.origin, data.path, t('content.research.title'), t)}
+          />
           {data.index.topics && data.index.topics.length > 0 && (
             <JsonLd
               data={itemListLd(data.index.topics.map((t) => ({ name: t.slug.replace(/-/g, ' '), path: `/research/${t.slug}` })))}

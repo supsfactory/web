@@ -50,7 +50,7 @@ export async function ask(env: AskEnv, input: AskInput): Promise<AskResponse> {
     const cached = await env.CACHE.get<AskResponse>(cacheKey, 'json')
     if (cached) return cached
   } catch {
-    // KV failure — compute fresh (fail-open)
+    console.warn('[ai] KV cache read failed (recomputing)')
   }
 
   const result =
@@ -62,7 +62,7 @@ export async function ask(env: AskEnv, input: AskInput): Promise<AskResponse> {
     try {
       await env.CACHE.put(cacheKey, JSON.stringify(result), { expirationTtl: CACHE_TTL })
     } catch {
-      // caching is best-effort
+      console.warn('[ai] KV cache write failed (best-effort)')
     }
   }
   return result

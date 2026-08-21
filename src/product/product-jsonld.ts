@@ -1,9 +1,8 @@
 import { FACTS, MOQ_SHORT, CERTIFICATION_NAMES } from '@/product/facts'
-import { SITE_NAME, SITE_URL } from '@/config/site'
+import { SITE_NAME } from '@/config/site'
+import { SITE_ORIGIN } from '@/features/seo/jsonld'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_CONTACT, BRAND_PARENT_URL } from '@/config/branding'
 import { LLM_SITE_DESCRIPTION } from './ai-content'
-
-const SITE_ORIGIN = SITE_URL
 
 export function siteLd(): Record<string, unknown>[] {
   return [
@@ -268,21 +267,14 @@ export function enhancedFaqLd(): Record<string, unknown> {
     },
   ]
   return {
+    '@context': 'https://schema.org',
     '@type': 'FAQPage',
     inLanguage: 'en',
     mainEntity: faqs.map((f) => ({
       '@type': 'Question',
       name: f.q,
-      category: f.category,
-      priority: f.priority,
-      keywords: f.keywords,
       acceptedAnswer: { '@type': 'Answer', text: f.a },
     })),
-    metadata: {
-      totalFaqs: faqs.length,
-      categories: [...new Set(faqs.map((f) => f.category))],
-      avgPriority: Math.round(faqs.reduce((s, f) => s + f.priority, 0) / faqs.length * 10) / 10,
-    },
   }
 }
 
@@ -345,13 +337,13 @@ export function productVariantFaqLd(input: {
   sku?: string
 }): Record<string, unknown> {
   return {
+    '@context': 'https://schema.org',
     '@type': 'FAQPage',
     name: `${input.variantName} \u2014 variant FAQ`,
     mainEntity: [
       {
         '@type': 'Question',
         name: `What is the ${input.variantName}?`,
-        category: 'General',
         acceptedAnswer: {
           '@type': 'Answer',
           text: `A variant of the ${input.baseProduct}${input.sku ? ` (SKU ${input.sku})` : ''}, manufactured to order with the customization options agreed in the purchase contract.`,
@@ -360,7 +352,6 @@ export function productVariantFaqLd(input: {
       {
         '@type': 'Question',
         name: 'Can variant artwork and packaging be customized?',
-        category: 'Customization',
         acceptedAnswer: {
           '@type': 'Answer',
           text: 'Yes \u2014 graphics, deck pad and packaging are customized per PO within the standard MOQ tiers.',
@@ -369,7 +360,6 @@ export function productVariantFaqLd(input: {
       {
         '@type': 'Question',
         name: 'What lead time applies to this variant?',
-        category: 'Production',
         acceptedAnswer: {
           '@type': 'Answer',
           text: `Samples in ${FACTS.sampleTime}; bulk production ${FACTS.leadTime} after PO confirmation. Custom mould tooling adds 15\u201320 days.`,
