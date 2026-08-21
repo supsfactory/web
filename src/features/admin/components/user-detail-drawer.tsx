@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, lazy, Suspense } from 'react'
 import { useRouter } from '@tanstack/react-router'
 import { Ban, Check, Copy, LogIn, CalendarIcon, Trash2 } from 'lucide-react'
 import { toast } from 'sonner'
@@ -9,7 +9,8 @@ import { Badge } from '@/components/ui/badge'
 import { Textarea } from '@/components/ui/textarea'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle, DrawerFooter, DrawerClose } from '@/components/ui/drawer'
 import { Popover, PopoverTrigger, PopoverContent } from '@/components/ui/popover'
-import { Calendar } from '@/components/ui/calendar'
+
+const Calendar = lazy(() => import('@/components/ui/calendar').then(m => ({ default: m.Calendar })))
 import { useIsMobile } from '@/lib/use-mobile'
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
 import { banExpiresInSeconds } from '@/features/admin/ban'
@@ -133,7 +134,7 @@ export function UserDetailDrawer({ row, open, onOpenChange, currentUserId, onCha
                     </Button>
                   </PopoverTrigger>
                   <PopoverContent>
-                    <Calendar
+                    <Suspense><Calendar
                       mode="single"
                       selected={expiry}
                       onSelect={(d) => {
@@ -141,7 +142,7 @@ export function UserDetailDrawer({ row, open, onOpenChange, currentUserId, onCha
                         setCalOpen(false)
                       }}
                       disabled={{ before: new Date() }}
-                    />
+                    /></Suspense>
                   </PopoverContent>
                 </Popover>
               </div>

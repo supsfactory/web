@@ -19,7 +19,7 @@ export function CommercialTerms() {
               <ul className="mt-4 space-y-2.5">
                 {cell.lines.map((line) => (
                   <li key={line} className="flex items-start gap-2.5 text-[14px] leading-relaxed text-fg-2">
-                    <span className="mt-0.5 text-primary">✓</span> {line}
+                    <span className="mt-0.5 text-primary" aria-hidden="true">✓</span> {line}
                   </li>
                 ))}
               </ul>
@@ -33,7 +33,7 @@ export function CommercialTerms() {
             <thead>
               <tr className="border-b border-border bg-soft/60">
                 {[t('content.commercialTerms.orderStage'), t('content.commercialTerms.quantity'), t('content.commercialTerms.whatFor'), t('content.commercialTerms.notes')].map((h) => (
-                  <th key={h} className="px-4 py-3 font-display text-[12.5px] font-extrabold uppercase tracking-wide text-fg-2">
+                  <th key={h} scope="col" className="px-4 py-3 font-display text-[12.5px] font-extrabold uppercase tracking-wide text-fg-2">
                     {h}
                   </th>
                 ))}

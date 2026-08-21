@@ -1,4 +1,5 @@
 import { createLazyFileRoute } from '@tanstack/react-router'
+import { useState } from 'react'
 import { ArrowRight, CheckCircle2, Package } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
@@ -189,10 +190,7 @@ function SeriesPage() {
             <h2 className="font-display text-xl font-extrabold tracking-tight">{t('content.product.seriesFaq')}</h2>
             <div className="mt-4 flex flex-col gap-3">
               {page.faqs.map((f) => (
-                <details key={f.q} className="group rounded-xl border border-border bg-background px-4 py-3">
-                  <summary className="cursor-pointer list-none text-[14px] font-bold leading-snug">{f.q}</summary>
-                  <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{f.a}</p>
-                </details>
+                <SeriesFaqItem key={f.q} q={f.q} a={f.a} />
               ))}
             </div>
           </div>
@@ -252,5 +250,15 @@ function SeriesPage() {
       </section>
 
     </MarketingShell>
+  )
+}
+
+function SeriesFaqItem({ q, a }: { q: string; a: string }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <details className="group rounded-xl border border-border bg-background px-4 py-3" open={open} onToggle={() => setOpen((v) => !v)}>
+      <summary aria-expanded={open} className="cursor-pointer list-none text-[14px] font-bold leading-snug">{q}</summary>
+      <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{a}</p>
+    </details>
   )
 }

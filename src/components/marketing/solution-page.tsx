@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { ArrowRight, CheckCircle2, Target, AlertCircle } from 'lucide-react'
 import type { SolutionPageData } from '@/product/solution-pages'
 import {  useTranslation  } from '@/features/i18n/provider'
@@ -127,10 +128,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
         <SectionHead kicker="FAQ" title={t('sup.solutions.faqTitle')} />
         <div className="mt-10 flex flex-col gap-3">
           {page.faqs.map((f) => (
-            <details key={f.q} className="faq-row">
-              <summary>{f.q}</summary>
-              <div className="faq-body">{f.a}</div>
-            </details>
+            <FaqItem key={f.q} q={f.q} a={f.a} />
           ))}
         </div>
       </section>
@@ -175,5 +173,15 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
         <a href={fl('/contact')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.contact')}</a>
       </nav>
     </>
+  )
+}
+
+function FaqItem({ q, a }: { q: string; a: string }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <details className="faq-row" open={open} onToggle={() => setOpen((v) => !v)}>
+      <summary aria-expanded={open}>{q}</summary>
+      <div className="faq-body">{a}</div>
+    </details>
   )
 }

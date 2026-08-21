@@ -14,11 +14,11 @@ import { ContactFloats } from '@/components/marketing/contact-floats'
 const AiChat = lazy(() => import('@/features/ai/ai-chat').then(m => ({ default: m.AiChat })))
 
 const rootRoute = getRouteApi('__root__')
+const FOOTER_YEAR = new Date().getFullYear()
 
 export function Footer() {
   const { theme } = rootRoute.useLoaderData()
   const { t } = useTranslation()
-  const year = new Date().getFullYear()
   const fl = useLocalizePath()
 
   return (
@@ -116,7 +116,7 @@ export function Footer() {
       <div className="mx-auto mt-10 flex max-w-7xl flex-col items-start justify-between gap-4 border-t border-border pt-5 sm:flex-row sm:items-center">
         <div>
           <p className="text-[13px] text-fg-3">
-            &copy; {year} {t('common.appName')}. {t('sup.footer.rights')}
+            &copy; {FOOTER_YEAR} {t('common.appName')}. {t('sup.footer.rights')}
           </p>
           <p className="mt-1 text-[12.5px] text-fg-3/80">{t('sup.footer.owner')}</p>
           <p className="mt-1 max-w-xl text-[12.5px] text-fg-3/80">{t('sup.footer.compliance')}</p>

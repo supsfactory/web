@@ -1,7 +1,5 @@
 import * as React from 'react'
 
-const reducedMotion = typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
-
 export function Reveal({
   children,
   className,
@@ -14,6 +12,11 @@ export function Reveal({
   as?: 'div' | 'section' | 'li' | 'article'
 }) {
   const ref = React.useRef<HTMLElement | null>(null)
+  const [reducedMotion, setReducedMotion] = React.useState(false)
+
+  React.useEffect(() => {
+    setReducedMotion(window.matchMedia('(prefers-reduced-motion: reduce)').matches)
+  }, [])
 
   React.useEffect(() => {
     const el = ref.current
@@ -35,7 +38,7 @@ export function Reveal({
     )
     io.observe(el)
     return () => io.disconnect()
-  }, [])
+  }, [reducedMotion])
 
   return (
     <Tag ref={ref as never} className={`reveal ${className ?? ''}`} style={delay && !reducedMotion ? { transitionDelay: `${delay}ms` } : undefined}>

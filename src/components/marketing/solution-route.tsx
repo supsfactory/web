@@ -1,6 +1,6 @@
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
-import type { Locale } from '@/features/i18n/locale'
+import { isLocale, defaultLocale, type Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { getSolutionPage, solutionPath } from '@/product/solution-pages'
 import { SolutionPage } from './solution-page'
@@ -17,7 +17,8 @@ export function solutionRoute(slug: string) {
     loader: async () => ({ origin: await getOrigin() }),
     head: ({ loaderData, params }: { loaderData?: { origin: string } | null; params?: unknown }) => {
       const origin = loaderData?.origin ?? ''
-      const locale = ((params as { locale?: string } | undefined)?.locale ?? 'en') as Locale
+      const raw = (params as Record<string, string | undefined>)?.locale
+      const locale: Locale = isLocale(raw) ? raw : defaultLocale
       const page = getSolutionPage(locale, slug)
       const { meta, links } = localeHead({
         origin,

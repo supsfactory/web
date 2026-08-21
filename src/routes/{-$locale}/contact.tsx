@@ -156,13 +156,7 @@ function ContactPage() {
             <h3 className="font-display text-xl font-extrabold tracking-tight">{t('sup.contact.trustFaqTitle')}</h3>
             <div className="mt-6 flex flex-col gap-3">
               {dictionaries[locale].sup.contact.trustFaqs.map((item) => (
-                <details key={item.q} className="faq-row">
-                  <summary>
-                    {item.q}
-                    <Plus size={17} className="faq-icon" />
-                  </summary>
-                  <div className="faq-body">{item.a}</div>
-                </details>
+                <ContactFaqItem key={item.q} q={item.q} a={item.a} />
               ))}
             </div>
           </div>
@@ -174,5 +168,18 @@ function ContactPage() {
       <JsonLd data={faqLd([...dictionaries[locale].sup.contact.trustFaqs], locale)} />
 
     </MarketingShell>
+  )
+}
+
+function ContactFaqItem({ q, a }: { q: string; a: string }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <details className="faq-row" open={open} onToggle={() => setOpen((v) => !v)}>
+      <summary aria-expanded={open}>
+        {q}
+        <Plus size={17} className="faq-icon" />
+      </summary>
+      <div className="faq-body">{a}</div>
+    </details>
   )
 }
