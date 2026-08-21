@@ -119,6 +119,7 @@ export const enUi = {
     banDefaultReason: 'Banned by admin', banSubmit: 'Ban user', banPermanent: 'Permanent',
     deleteUser: 'Delete user', deleteUserConfirm: 'This permanently deletes the user and all their data. This cannot be undone. Continue?', userDeleted: 'User deleted',
     rowsPerPage: 'Rows per page', pageOf: 'Page {page} of {total}',
+    prevPage: 'Previous page', nextPage: 'Next page',
     noResults: 'No users found', waitlistEmpty: 'No signups yet', closeDrawer: 'Close',
     waitlist: 'Waitlist', waitlistExport: 'Export CSV', locale: 'Locale',
     feedbackAdmin: 'All Feedback', feedbackSub: 'Every submission, with status controls and replies.',

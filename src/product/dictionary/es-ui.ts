@@ -109,6 +109,7 @@ export const esUi = {
     banDefaultReason: 'Bloqueado por el administrador', banSubmit: 'Bloquear usuario', banPermanent: 'Permanente',
     deleteUser: 'Eliminar usuario', deleteUserConfirm: 'Esto elimina permanentemente al usuario y todos sus datos. No se puede deshacer. ¿Continuar?', userDeleted: 'Usuario eliminado',
     rowsPerPage: 'Filas por página', pageOf: 'Página {page} de {total}',
+    prevPage: 'Página anterior', nextPage: 'Página siguiente',
     noResults: 'No se encontraron usuarios', waitlistEmpty: 'Aún no hay registros', closeDrawer: 'Cerrar',
     waitlist: 'Lista de espera', waitlistExport: 'Exportar CSV', locale: 'Idioma',
     feedbackAdmin: 'Todos los comentarios', feedbackSub: 'Cada envío, con controles de estado y respuestas.',
