@@ -539,6 +539,7 @@ export const esProduct = {
     step2Hint:
       'Cuanto más detalle compartas, con mayor precisión podremos evaluar construcción, personalización, requisitos de muestra, MOQ y tiempos de producción.',
     continue: 'Continuar a los detalles del proyecto',
+    step2Legend: 'Detalles del proyecto',
     back: 'Atrás',
     selectPlaceholder: 'Selecciona…',
     company: 'Nombre de la empresa',

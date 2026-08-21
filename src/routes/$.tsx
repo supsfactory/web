@@ -69,6 +69,7 @@ export const Route = createFileRoute('/$')({
       { property: 'og:image:type', content: absImage.endsWith('.webp') ? 'image/webp' : 'image/jpeg' },
       { property: 'og:image:alt', content: `${SITE_NAME} �?${title.replace(/\s+\|.*$/, '')}` },
       { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@SUPsfactory' },
       { name: 'twitter:title', content: title },
       { name: 'twitter:description', content: description },
       { name: 'twitter:image', content: absImage },

@@ -18,6 +18,7 @@ export function VideoShowcase({
   sub,
   points,
   flip = false,
+  eagerPoster = false,
 }: {
   video: string
   poster: string
@@ -26,6 +27,7 @@ export function VideoShowcase({
   sub: string
   points: { t: string; d?: string }[]
   flip?: boolean
+  eagerPoster?: boolean
 }) {
   const { t } = useTranslation()
   const [playing, setPlaying] = useState(false)
@@ -56,7 +58,8 @@ export function VideoShowcase({
               alt={title}
               width={1600}
               height={900}
-              loading="lazy"
+              loading={eagerPoster ? 'eager' : 'lazy'}
+              fetchPriority={eagerPoster ? 'high' : 'auto'}
               decoding="async"
               className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
             />

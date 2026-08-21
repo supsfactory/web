@@ -276,6 +276,7 @@ export function InquiryForm({
 
       {/* ── Step 2: product brief ── */}
       <fieldset disabled={step === 1} className={step === 1 ? 'hidden' : 'flex flex-col gap-4'}>
+        <legend className="sr-only">{t('inquiry.step2Legend')}</legend>
         <div className="grid gap-4 sm:grid-cols-2">
           <div className="field">
             <Label htmlFor="inq-role">{t('inquiry.role')} <span className="req">*</span></Label>
