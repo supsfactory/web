@@ -608,9 +608,9 @@ function WorkforceWidget({ c }: { c: Record<string, unknown> }) {
           <table className="w-full text-left text-[13.5px]">
             <thead className="bg-bg-alt text-[12px] uppercase tracking-wide text-fg-3">
               <tr>
-                <th className="px-4 py-3 font-semibold">Department</th>
-                <th className="px-4 py-3 font-semibold">People</th>
-                <th className="hidden px-4 py-3 font-semibold md:table-cell">Role</th>
+                <th scope="col" className="px-4 py-3 font-semibold">Department</th>
+                <th scope="col" className="px-4 py-3 font-semibold">People</th>
+                <th scope="col" className="hidden px-4 py-3 font-semibold md:table-cell">Role</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
@@ -644,9 +644,9 @@ function TraceabilityWidget({ c }: { c: Record<string, unknown> }) {
           <table className="w-full text-left text-[13.5px]">
             <thead className="bg-bg-alt text-[12px] uppercase tracking-wide text-fg-3">
               <tr>
-                <th className="px-4 py-3 font-semibold">Material</th>
-                <th className="px-4 py-3 font-semibold">Source</th>
-                <th className="hidden px-4 py-3 font-semibold md:table-cell">Certified</th>
+                <th scope="col" className="px-4 py-3 font-semibold">Material</th>
+                <th scope="col" className="px-4 py-3 font-semibold">Source</th>
+                <th scope="col" className="hidden px-4 py-3 font-semibold md:table-cell">Certified</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
@@ -963,7 +963,7 @@ function SizeTableWidget({ c }: { c: Record<string, unknown> }) {
           <thead>
             <tr className="border-b border-border bg-soft/60">
               {keys.map((k) => (
-                <th key={k} className="px-4 py-3 font-display text-[12.5px] font-extrabold uppercase tracking-wide text-fg-2">
+                <th key={k} scope="col" className="px-4 py-3 font-display text-[12.5px] font-extrabold uppercase tracking-wide text-fg-2">
                   {brandify(str(headers[k]))}
                 </th>
               ))}
@@ -1523,7 +1523,7 @@ function ObjectTable({ rows }: { rows: Record<string, unknown>[] }) {
         <thead>
           <tr className="border-b border-border bg-soft/60">
             {keys.map((k) => (
-              <th key={k} className="px-4 py-3 font-display text-[12.5px] font-extrabold uppercase tracking-wide text-fg-2">
+              <th key={k} scope="col" className="px-4 py-3 font-display text-[12.5px] font-extrabold uppercase tracking-wide text-fg-2">
                 {brandify(k.replace(/_/g, ' '))}
               </th>
             ))}

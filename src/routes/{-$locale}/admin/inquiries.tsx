@@ -115,18 +115,18 @@ function InquiriesAdmin() {
         <table className="w-full text-sm">
           <thead>
             <tr className="text-left text-fg-3">
-              <th className="px-4 py-2">{t('admin.inquiryTier')}</th>
-              <th className="px-4 py-2">{t('admin.inquiryCompany')}</th>
-              <th className="px-4 py-2">{t('admin.inquiryCountry')}</th>
-              <th className="px-4 py-2">{t('admin.inquiryEmail')}</th>
-              <th className="px-4 py-2">{t('admin.inquiryType')}</th>
-              <th className="px-4 py-2">{t('admin.inquiryCategory')}</th>
-              <th className="px-4 py-2">{t('admin.inquiryStage')}</th>
-              <th className="px-4 py-2">{t('admin.inquiryQty')}</th>
-              <th className="px-4 py-2">{t('admin.inquiryReq')}</th>
-              <th className="px-4 py-2">{t('admin.inquiryFile')}</th>
-              <th className="px-4 py-2">{t('admin.inquiryStatus')}</th>
-              <th className="px-4 py-2">{t('admin.inquirySubmitted')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.inquiryTier')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.inquiryCompany')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.inquiryCountry')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.inquiryEmail')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.inquiryType')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.inquiryCategory')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.inquiryStage')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.inquiryQty')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.inquiryReq')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.inquiryFile')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.inquiryStatus')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.inquirySubmitted')}</th>
             </tr>
           </thead>
           <tbody>

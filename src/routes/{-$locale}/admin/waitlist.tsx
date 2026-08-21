@@ -53,10 +53,10 @@ function WaitlistAdmin() {
         <table className="w-full text-sm">
           <thead>
             <tr className="text-left text-fg-3">
-              <th className="px-4 py-2">{t('admin.email')}</th>
-              <th className="px-4 py-2">{t('admin.source')}</th>
-              <th className="px-4 py-2">{t('admin.locale')}</th>
-              <th className="px-4 py-2">{t('admin.joined')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.email')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.source')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.locale')}</th>
+              <th scope="col" className="px-4 py-2">{t('admin.joined')}</th>
             </tr>
           </thead>
           <tbody>

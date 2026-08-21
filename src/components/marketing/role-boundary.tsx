@@ -22,8 +22,8 @@ export function RoleBoundary() {
             <table className="w-full min-w-[720px] text-left text-[14px]">
               <thead>
                 <tr className="border-b border-border bg-bg-alt">
-                  <th className="px-5 py-3.5 font-display font-bold text-primary">{c.oursTitle}</th>
-                  <th className="px-5 py-3.5 font-display font-bold">{c.theirsTitle}</th>
+                  <th scope="col" className="px-5 py-3.5 font-display font-bold text-primary">{c.oursTitle}</th>
+                  <th scope="col" className="px-5 py-3.5 font-display font-bold">{c.theirsTitle}</th>
                 </tr>
               </thead>
               <tbody>

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import { ArrowRight, Check, ChevronDown, FileText, ShieldCheck, UploadCloud, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { dictionaries } from '@/features/i18n/locale'
@@ -52,9 +52,9 @@ export function InquiryForm({
   const [docs, setDocs] = useState<Record<string, boolean>>({})
   const [consent, setConsent] = useState(false)
 
-  function toggleKey(set: Record<string, boolean>, setter: (v: Record<string, boolean>) => void, value: string) {
+  const toggleKey = useCallback((set: Record<string, boolean>, setter: (v: Record<string, boolean>) => void, value: string) => {
     setter({ ...set, [value]: !set[value] })
-  }
+  }, [])
 
   function fileErrorText(reason: 'empty' | 'type' | 'size' | null): string {
     if (reason === 'size') return t('inquiry.fileSize')
@@ -129,7 +129,7 @@ export function InquiryForm({
     }
   }
 
-  function onFileChange(files: FileList | null) {
+  const onFileChange = useCallback((files: FileList | null) => {
     const f = files?.[0]
     if (!f) {
       setFileName(null)
@@ -141,7 +141,7 @@ export function InquiryForm({
     const okSize = f.size <= INQUIRY_LIMITS.fileMaxBytes
     setFileError(f.size === 0 ? 'empty' : !okType ? 'type' : !okSize ? 'size' : null)
     setFileName(f.name)
-  }
+  }, [])
 
   if (doneTier) return <SuccessPanel tier={doneTier} />
 

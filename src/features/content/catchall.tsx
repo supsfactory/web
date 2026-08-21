@@ -422,24 +422,24 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   <tbody className="divide-y divide-border">
                     {specs.map((s) => (
                       <tr key={s.label} className="odd:bg-bg-alt/60">
-                        <th className="w-2/5 px-4 py-3 font-semibold">{brandify(s.label)}</th>
+                        <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{brandify(s.label)}</th>
                         <td className="px-4 py-3 text-fg-2">{brandify(s.value)}</td>
                       </tr>
                     ))}
                     <tr className="odd:bg-bg-alt/60">
-                      <th className="w-2/5 px-4 py-3 font-semibold">{t('content.product.factoryTestPressure')}</th>
+                      <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.factoryTestPressure')}</th>
                       <td className="px-4 py-3 text-fg-2">{FACTS.pressureTest} · {FACTS.pressureReject}</td>
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
-                      <th className="w-2/5 px-4 py-3 font-semibold">{t('content.product.minimumOrder')}</th>
+                      <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.minimumOrder')}</th>
                        <td className="px-4 py-3 text-fg-2">{t('content.product.moqVolume', { standardRun: MOQ_SHORT.standardRun, trialStandard: MOQ_SHORT.trialStandard })}</td>
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
-                      <th className="w-2/5 px-4 py-3 font-semibold">{t('content.product.productionLeadTime')}</th>
+                      <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.productionLeadTime')}</th>
                       <td className="px-4 py-3 text-fg-2">{t('content.product.leadTimeFacts', { leadTime: FACTS.leadTime, sampleTime: FACTS.sampleTime })}</td>
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
-                      <th className="w-2/5 px-4 py-3 font-semibold">{t('content.product.certifications')}</th>
+                      <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.certifications')}</th>
                        <td className="px-4 py-3 text-fg-2">{CERTIFICATION_NAMES.join(' · ')}</td>
                     </tr>
                   </tbody>
