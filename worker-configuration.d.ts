@@ -5,8 +5,8 @@ interface __BaseEnv_Env {
 	CACHE: KVNamespace;
 	BUCKET: R2Bucket;
 	DB: D1Database;
-	VECTORIZE?: VectorizeIndex;
-	AI?: Ai;
+	VECTORIZE: VectorizeIndex;
+	AI: Ai;
 	BETTER_AUTH_SECRET: string;
 	BETTER_AUTH_URL: string;
 	RESEND_API_KEY: string;
@@ -32,8 +32,8 @@ declare namespace Cloudflare {
 		CACHE: KVNamespace;
 		BUCKET: R2Bucket;
 		DB: D1Database;
-		VECTORIZE?: VectorizeIndex;
-		AI?: Ai;
+		VECTORIZE: VectorizeIndex;
+		AI: Ai;
 		BETTER_AUTH_SECRET: string;
 		BETTER_AUTH_URL: string;
 		RESEND_API_KEY: string;
@@ -53,8 +53,8 @@ declare namespace Cloudflare {
 		CACHE: KVNamespace;
 		BUCKET: R2Bucket;
 		DB: D1Database;
-		VECTORIZE?: VectorizeIndex;
-		AI?: Ai;
+		VECTORIZE: VectorizeIndex;
+		AI: Ai;
 		BETTER_AUTH_SECRET: string;
 		BETTER_AUTH_URL: string;
 		RESEND_API_KEY: string;

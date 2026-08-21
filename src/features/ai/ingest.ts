@@ -10,9 +10,16 @@
 
 import { locales, type Locale } from '@/features/i18n/locale'
 import type { AiChunk } from './rag'
+
+const NEURON_BUDGET_DAILY = 10_000
+const NEURON_RESERVE_FOR_QUERIES = 7_000
+const REINDEX_NEURON_ESTIMATE = 1_000
+const NEURON_KEY_PREFIX = 'aiq:'
+
 export interface IngestEnv {
   AI: Ai
   VECTORIZE: VectorizeIndex
+  CACHE?: KVNamespace
 }
 
 const EMBED_MODEL = '@cf/baai/bge-m3'
@@ -25,6 +32,14 @@ const EMBED_ATTEMPTS = 4
 const sleep = (ms: number): Promise<void> => new Promise((r) => setTimeout(r, ms))
 
 export async function rebuildAiIndex(env: IngestEnv): Promise<{ locale: Locale; chunks: number }[]> {
+  if (env.CACHE) {
+    const day = new Date().toISOString().slice(0, 10)
+    const used = await env.CACHE.get<number>(`${NEURON_KEY_PREFIX}${day}`, 'json').catch(() => null)
+    if (used !== null && used * 14 + REINDEX_NEURON_ESTIMATE > NEURON_BUDGET_DAILY - NEURON_RESERVE_FOR_QUERIES) {
+      console.log(`[ingest] skipping reindex — daily neuron budget near limit (queries≈${used}, budget=${NEURON_BUDGET_DAILY})`)
+      return []
+    }
+  }
   const { buildChunks } = await import('./corpus')
   const stats: { locale: Locale; chunks: number }[] = []
   for (const locale of locales) {

@@ -5,7 +5,9 @@ import { isLocale } from '@/features/i18n/locale'
  * AI sales assistant (POST /api/ask) — public RAG endpoint. The entire AI
  * stack is imported lazily inside the handler so routeTree preload never
  * drags it into the client bundle. Rate-limited per IP (fail-open on KV
- * errors) plus a daily global cap; hot answers are KV-cached server-side.
+ * errors) plus a daily global cap of 500 AI queries (≈7,000 neurons, staying
+ * under the 10,000 free-tier daily neuron budget with margin for reindex);
+ * hot answers are KV-cached server-side.
  */
 
 const MAX_HISTORY = 6
@@ -56,7 +58,7 @@ export const Route = createFileRoute('/api/ask')({
           if (!allowed) return new Response('Too Many Requests', { status: 429 })
           const day = new Date().toISOString().slice(0, 10)
           const count = await env.CACHE.get<number>(`aiq:${day}`, 'json').catch(() => null)
-          if (count !== null && count >= 1500) {
+          if (count !== null && count >= 500) {
             return new Response('Rate limit exceeded', { status: 429 })
           }
           await env.CACHE.put(`aiq:${day}`, JSON.stringify((count ?? 0) + 1), {
