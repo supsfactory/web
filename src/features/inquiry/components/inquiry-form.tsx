@@ -168,11 +168,12 @@ export function InquiryForm({
       </div>
 
       {/* ── Step 1: project fit ── */}
-      <div className={step === 2 ? 'hidden' : ''}>
+      <fieldset disabled={step === 2} className={step === 2 ? 'hidden' : ''}>
+        <legend className="sr-only">{t('inquiry.step1Legend')}</legend>
         <div className="grid gap-4 sm:grid-cols-2">
           <div className="field">
             <Label htmlFor="inq-type">{t('inquiry.businessType')} <span className="req">*</span></Label>
-            <Select id="inq-type" name="businessType" defaultValue="" required>
+            <Select id="inq-type" name="businessType" defaultValue="" required autoComplete="off">
               <option value="" disabled>{t('inquiry.businessTypeHint')}</option>
               <option value="brand">{t('inquiry.businessOptions.brand')}</option>
               <option value="retailer">{t('inquiry.businessOptions.retailer')}</option>
@@ -205,7 +206,7 @@ export function InquiryForm({
           </div>
           <div className="field">
             <Label htmlFor="inq-category">{t('inquiry.category')} <span className="req">*</span></Label>
-            <Select id="inq-category" name="category" defaultValue={prefill?.category ?? 'unsure'} required>
+            <Select id="inq-category" name="category" defaultValue={prefill?.category ?? 'unsure'} required autoComplete="off">
               <option value="all-around">{t('inquiry.categoryOptions.all-around')}</option>
               <option value="race">{t('inquiry.categoryOptions.race')}</option>
               <option value="surf">{t('inquiry.categoryOptions.surf')}</option>
@@ -224,7 +225,7 @@ export function InquiryForm({
           </div>
           <div className="field sm:col-span-2">
             <Label htmlFor="inq-qty">{t('inquiry.quantity')} <span className="req">*</span></Label>
-            <Select id="inq-qty" name="quantity" defaultValue="" required>
+            <Select id="inq-qty" name="quantity" defaultValue="" required autoComplete="off">
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="q1-9">{t('inquiry.quantityOptions.q1-9')}</option>
               <option value="q10-49">{t('inquiry.quantityOptions.q10-49')}</option>
@@ -238,7 +239,7 @@ export function InquiryForm({
           </div>
           <div className="field">
             <Label htmlFor="inq-timeline">{t('inquiry.timeline')} <span className="req">*</span></Label>
-            <Select id="inq-timeline" name="timeline" defaultValue="" required>
+            <Select id="inq-timeline" name="timeline" defaultValue="" required autoComplete="off">
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="now">{t('inquiry.timelineOptions.now')}</option>
               <option value="t1-3mo">{t('inquiry.timelineOptions.t1-3mo')}</option>
@@ -251,7 +252,7 @@ export function InquiryForm({
           </div>
           <div className="field">
             <Label htmlFor="inq-stage">{t('inquiry.projectStage')} <span className="req">*</span></Label>
-            <Select id="inq-stage" name="projectStage" defaultValue="" required>
+            <Select id="inq-stage" name="projectStage" defaultValue="" required autoComplete="off">
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="ready">{t('inquiry.projectStageOptions.ready')}</option>
               <option value="reviewing">{t('inquiry.projectStageOptions.reviewing')}</option>
@@ -272,7 +273,7 @@ export function InquiryForm({
         <Button type="submit" className="mt-4 h-12 w-full rounded-[7px] text-[15px] font-bold">
           {t('inquiry.continue')}
         </Button>
-      </div>
+      </fieldset>
 
       {/* ── Step 2: product brief ── */}
       <fieldset disabled={step === 1} className={step === 1 ? 'hidden' : 'flex flex-col gap-4'}>

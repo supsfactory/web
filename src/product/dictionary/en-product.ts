@@ -540,6 +540,7 @@ export const enProduct = {
       'The more detail you share, the more accurately we can assess construction, customization, sample requirements, MOQ and production timing.',
     continue: 'Continue to Project Details',
     step2Legend: 'Project Details',
+    step1Legend: 'Project Fit',
     back: 'Back',
     selectPlaceholder: 'Select…',
     company: 'Company Name',

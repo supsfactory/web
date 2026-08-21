@@ -36,6 +36,27 @@ import { Markdown } from './render/markdown'
 import { faqSlug } from '@/features/ai/rag'
 import type { ContentArticle, ContentCaseUse, ContentPage, ContentPost, ContentProduct } from './types'
 
+const BREADCRUMB_PARENTS: Record<string, { name: string; path: string }> = {
+  '/factory': { name: 'Factory', path: '/factory' },
+  '/randdcenter': { name: 'R&D Center', path: '/randdcenter' },
+  '/research': { name: 'Knowledge', path: '/knowledge' },
+  '/solutions': { name: 'Solutions', path: '/solutions' },
+  '/oem': { name: 'OEM Manufacturing', path: '/oem-manufacturing' },
+  '/about': { name: 'About', path: '/about' },
+}
+
+function breadcrumbEntries(origin: string, path: string, title: string, t: (k: string) => string) {
+  const entries = [{ name: t('content.nav.home'), path: '/' }]
+  const segments = path.split('/').filter(Boolean)
+  if (segments.length > 1) {
+    const parentPath = '/' + segments[0]
+    const parent = BREADCRUMB_PARENTS[parentPath]
+    if (parent) entries.push(parent)
+  }
+  entries.push({ name: title, path })
+  return breadcrumbLd(origin, entries)
+}
+
 const SERVICE_SCHEMA_PAGES: Record<string, { serviceType: string; description: string }> = {
   '/oem-manufacturing': { serviceType: 'OEM Manufacturing', description: 'Full OEM manufacturing for SUP and marine inflatable products — buyer-owned designs, custom tooling, and production under your brand.' },
   '/odm-development': { serviceType: 'ODM Development', description: 'ODM product development — factory engineering team designs from your brief, you approve every element before production.' },
@@ -224,6 +245,19 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
       { '@type': 'PropertyValue', name: 'MOQ standard', value: String(MOQ_SHORT.standardRun) },
       { '@type': 'PropertyValue', name: 'Pricing', value: 'Quote-based per project specification' },
     ],
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+      priceValidUntil: '2027-12-31',
+      availability: 'https://schema.org/InStock',
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        price: 'Quote-based',
+        priceCurrency: 'USD',
+        description: 'B2B OEM/ODM custom manufacturing — pricing determined per project specification, volume, and customization scope.',
+      },
+    },
   }
 }
 
@@ -254,11 +288,9 @@ function renderContent(data: CatchAllData, t: (key: string, params?: Record<stri
       return (
         <>
           <ContentSections page={page} />
+          {!page.sections.some((s) => s.type === 'cta') && <CtaBand />}
           <JsonLd
-            data={breadcrumbLd(data.origin, [
-              { name: t('content.nav.home'), path: '/' },
-              { name: data.title, path: data.path },
-            ])}
+            data={breadcrumbEntries(data.origin, data.path, data.title, t)}
           />
           {data.path.startsWith('/research/') && (
             <JsonLd data={researchArticleLd(data.origin, data.path, data.title, data.description, page)} />
