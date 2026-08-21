@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Lista de Verificación de Auditoría de Fábrica — Qué Verificar Antes de Elegir un Fabricante de SUP | SUPsfactory'
   description: 'Lista de verificación de auditoría de fábrica para compradores de SUP: calidad, capacidad, trazabilidad, pruebas de presión, cumplimiento y documentación.'
   dateModified: '2026-08-21'
@@ -98,7 +98,7 @@ cta:
   actions:
     - variant: primary
       text: Solicitar Documentación de Auditoría
-      href: /contact#project-brief
+      href: /es/contact#project-brief
     - text: Verificar certificaciones y sistema de calidad
       href: /es/proof-center
     - text: Proceso de incorporación OEM

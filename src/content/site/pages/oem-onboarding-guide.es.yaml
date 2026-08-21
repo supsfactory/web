@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Guía de Onboarding OEM — Proceso Paso a Paso desde el Primer Contacto hasta la Producción | SUPsfactory'
   description: 'Guía de onboarding OEM: NDA, factibilidad, muestras, aprobación, preproducción, QC y envío. Proceso paso a paso con cronogramas.'
   dateModified: '2026-08-20'
@@ -18,9 +18,9 @@ hero:
   actions:
     - variant: primary
       text: Inicia Tu Brief de Proyecto
-      href: /contact#project-brief
+      href: /es/contact#project-brief
     - text: Compara las rutas OEM, ODM y Private Label
-      href: /oem-odm-private-label-comparison
+      href: /es/oem-odm-private-label-comparison
 
 answer:
   label: 'Respuesta directa'
@@ -65,19 +65,19 @@ collaboration_modes:
       title: 'Fabricación OEM'
       desc: 'Provees la especificación completa de diseño — forma del casco, construcción, gráficos, accesorios. Fabricamos según tu especificación. Tú posees todo el IP. Mejor para marcas con una línea de productos existente y geometría de tabla probada.'
       link_label: 'Cómo funciona OEM'
-      href: /oem-manufacturing
+      href: /es/oem-manufacturing
     - icon: D
       icon_bg: green
       title: 'Desarrollo ODM'
       desc: 'Provees el brief — peso del rider objetivo, caso de uso, precio objetivo — y nuestro equipo de ingeniería desarrolla la tabla según tus requisitos. Plataforma adaptada con tu marca. Mejor para marcas que entran al mercado sin capacidad de diseño interna.'
       link_label: 'Cómo funciona ODM'
-      href: /odm-development
+      href: /es/odm-development
     - icon: P
       icon_bg: purple
       title: 'Private Label / Co-Branding'
       desc: 'Aplica tu marca a una plataforma probada en el campo — sin etapa de ingeniería. Tu logo en proa o raíles laterales desde tan solo 5–10 unidades. Mejor para operadores y distribuidores que quieren tablas con su marca sin ciclo de desarrollo.'
       link_label: 'Opciones de Private Label'
-      href: /solutions/private-label-sup
+      href: /es/solutions/private-label-sup
 
 checklist:
   heading: 'Qué Preparar Antes de Tu Brief de Proyecto'
@@ -118,8 +118,8 @@ cta:
   actions:
     - variant: primary
       text: Inicia Tu Brief de Proyecto
-      href: /contact#project-brief
+      href: /es/contact#project-brief
     - text: Compara OEM, ODM y Private Label
-      href: /oem-odm-private-label-comparison
+      href: /es/oem-odm-private-label-comparison
     - text: Verifica la fábrica y el sistema de calidad
-      href: /proof-center
+      href: /es/proof-center

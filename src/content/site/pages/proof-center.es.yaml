@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Centro de Evidencia —La Documentación Detrás de Cada Afirmación'
   description: 'Carpeta de prueba detrás de las afirmaciones de SUPsfactory: entidades, certificados con alcance, equipos, trazabilidad por lote y documentación de inspección.'
   dateModified: '2026-08-16'
@@ -13,8 +13,8 @@ hero:
   title: 'Centro de Evidencia —Todo Lo Que Afirmamos, Archivado Aquí'
   subtitle: 'Una página que conecta cada afirmación de este sitio con su evidencia: la entidad registrada detrás de la fábrica, los certificados con su alcance, las máquinas que hacen el trabajo y los registros de lote que sobreviven a cada producción.'
   actions:
-    - { variant: primary, text: 'Solicitar el paquete de verificación', href: '/contact#trust-verification' }
-    - { variant: ghost, text: 'Explorar el sistema de calidad', href: '/quality' }
+    - { variant: primary, text: 'Solicitar el paquete de verificación', href: '/es/contact#trust-verification' }
+    - { variant: ghost, text: 'Explorar el sistema de calidad', href: '/es/quality' }
 
 answer:
   label: 'Respuesta directa'
@@ -30,19 +30,19 @@ entities:
       icon_bg: blue
       title: 'SUPsfactory — el sitio web público'
       desc: 'La línea de productos SUP OEM/ODM y marca privada con su documentación pública: catálogo, guía de MOQ, páginas del sistema de calidad y casos de éxito. El nombre con el que negocias es el nombre que puedes inspeccionar.'
-      link: '/about/supsfactory-entity'
+      link: '/es/about/supsfactory-entity'
       link_label: 'Página de la entidad'
     - icon: A
       icon_bg: green
       title: 'Afarer — la división de fabricación'
       desc: 'La marca marina detrás de la planta: tablas SUP, barcos hinchables y RIB producidos en la misma instalación de Qingdao. La documentación de producto y calidad se emite bajo esta marca.'
-      link: '/factory'
+      link: '/es/factory'
       link_label: 'Explorar la fábrica'
     - icon: V
       icon_bg: orange
       title: 'Qingdao Vatrad Group Co., Ltd. — la entidad legal'
       desc: 'El fabricante registrado (desde 2012) que opera la planta de 12,500 m² en la Zona de Desarrollo Económico de Laixi, Qingdao. Los datos de registro, la licencia de comercio exterior y los registros de auditoría se comparten bajo NDA o durante una auditoría.'
-      link: '/oem-trust-assurance'
+      link: '/es/oem-trust-assurance'
       link_label: 'Ver el caso de verificación'
 
 proof_stats:
@@ -102,25 +102,25 @@ evidence_gates:
       icon_bg: blue
       title: 'Lista de equipos y maquinaria'
       desc: 'Corte, soldadura, laminación, impresión y ensamblaje, más el laboratorio de calidad — máquinas con nombre, especificación y función. Pide un recorrido en vivo.'
-      link: '/factory/equipment'
+      link: '/es/factory/equipment'
       link_label: 'Abrir lista de equipos'
     - icon: P
       icon_bg: green
       title: 'Fotos e informes de inspección'
       desc: 'Siete puertas de inspección con fotos de planta e informes bilingües — qué se verifica, con qué método, contra qué criterio, dónde queda registrado.'
-      link: '/factory/process'
+      link: '/es/factory/process'
       link_label: 'Abrir puertas de inspección'
     - icon: Q
       icon_bg: orange
       title: 'Laboratorio de calidad y procedimientos'
       desc: 'Máquina de tracción universal (ASTM D751), prueba de pelado de costuras (ISO 6185), bancos de retención de aire y cámara de envejecimiento xenón — las máquinas que verifican telas y cámaras.'
-      link: '/factory/quality-lab'
+      link: '/es/factory/quality-lab'
       link_label: 'Abrir el laboratorio'
     - icon: T
       icon_bg: purple
       title: 'Trazabilidad y cuarentena'
       desc: 'La cadena literal del rollo de tela a la tabla embarcada, el flujo de cuarentena de 7 pasos para existencias no conformes y la matriz de defectos que gobierna las disposiciones.'
-      link: '/factory/quality-inspection'
+      link: '/es/factory/quality-inspection'
       link_label: 'Abrir archivo de trazabilidad'
 
 traceability:
@@ -160,7 +160,7 @@ cta:
   title: 'Verifica Primero —Después Hablamos De Especificaciones'
   subtitle: 'Pide el paquete de registro, copias de certificados o una cita de auditoría. La verificación viene primero; la conversación del pedido después. Enviar una consulta no te compromete a ningún pedido.'
   button_text: 'Solicitar el paquete de verificación'
-  button_link: '/contact#trust-verification'
+  button_link: '/es/contact#trust-verification'
   actions:
     - text: Identidad de marca
       href: /es/about/identity

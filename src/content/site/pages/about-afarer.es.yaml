@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Acerca de Afarer — la división de fabricación náutica'
   description: 'Afarer es la división de fabricación náutica de Qingdao Vatrad Group, fundada en 2012: la fábrica detrás de cada proyecto personalizado de SUPsfactory.'
   dateModified: '2026-08'
@@ -13,10 +13,10 @@ hero:
   subtitle: 'Fundada en 2012 en Qingdao, China, Afarer fabrica las embarcaciones hinchables y las tablas de SUP que están detrás de los proyectos personalizados de SUPsfactory: una fábrica de 12,500 m², más de 350 trabajadores y más de 120,000 unidades de capacidad anual.'
   actions:
     - text: 'Iniciar un proyecto personalizado'
-      href: /contact
+      href: /es/contact
       variant: primary
     - text: 'Ver la fábrica'
-      href: /factory
+      href: /es/factory
       variant: secondary
 intro: |
   <p><strong>Afarer</strong> es la división de fabricación náutica de <strong>Qingdao Vatrad Group Co., Ltd.</strong>, con sede en la Zona de Desarrollo Económico de Laixi, Qingdao, Shandong (China). Fundada en 2012, la empresa empezó como un taller especializado de embarcaciones dedicado a la artesanía náutica, y se ha convertido en una fábrica certificada que da servicio a clientes OEM y ODM en más de 50 países.</p>

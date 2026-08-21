@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Comparación de Construcción de SUP — PVC Monocapa vs Bicapa vs Drop-Stitch | SUPsfactory'
   description: 'Comparación de construcción de SUP hinchables: PVC monocapa, PVC bicapa y núcleo drop-stitch. Rigidez, peso, durabilidad, precio y mejor uso.'
   dateModified: '2026-08-21'
@@ -116,7 +116,7 @@ cta:
   actions:
     - variant: primary
       text: Inicie Su Breve de Proyecto
-      href: /contact#project-brief
+      href: /es/contact#project-brief
     - text: Ver detalles de fabricación OEM
       href: /es/oem-manufacturing
     - text: Comparar OEM, ODM y Marca Privada

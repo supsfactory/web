@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Guía del comprador OEM: abastecer SUP desde Asia | SUPsfactory'
   description: 'Cómo abastecer SUP hinchables desde Asia: auditoría de fábrica, control de calidad, cumplimiento, negociación de MOQ, envío y errores a evitar.'
   author: 'SUPsfactory'
@@ -61,7 +61,7 @@ content_html: |
   </ul>
 
   <h2>4. Negociación del MOQ</h2>
-  <p>Los MOQ de las tablas de SUP hinchables los determinan la ruta de producción y la configuración del proyecto, no las conjeturas. Todos los proyectos OEM/ODM de Afarer siguen tres etapas de cantidad distintas — muestra, piloto y volumen — y la lógica de cálculo completa se explica en nuestra <a href="/oem-moq-guide">Guía de MOQ y Branding Flexible</a>:</p>
+  <p>Los MOQ de las tablas de SUP hinchables los determinan la ruta de producción y la configuración del proyecto, no las conjeturas. Todos los proyectos OEM/ODM de Afarer siguen tres etapas de cantidad distintas — muestra, piloto y volumen — y la lógica de cálculo completa se explica en nuestra <a href="/es/oem-moq-guide">Guía de MOQ y Branding Flexible</a>:</p>
   <table class="w-full text-sm border-collapse">
     <thead>
       <tr class="bg-gray-100">
@@ -94,10 +94,10 @@ content_html: |
 
   <h2>7. Por qué Afarer</h2>
   <p>Afarer fabrica tablas de SUP hinchables OEM/ODM desde 2012. Con unas instalaciones certificadas ISO 9001 de 12,500 m&sup2;, más de 25 ingenieros y certificación CE en todas las líneas de productos, cumplimos todos los criterios de esta guía. Ofrecemos MOQ de prueba para nuevos socios y paquetes completos de documentación de cumplimiento.</p>
-  <p>Revisa nuestros <a href="/oem-manufacturing">servicios de fabricación OEM/ODM de SUP hinchables</a> o visita la <a href="/factory">planta de 12,500 m&sup2;</a> para ver los equipos y los procesos de control de calidad que hay detrás de cada paso anterior.</p>
+  <p>Revisa nuestros <a href="/es/oem-manufacturing">servicios de fabricación OEM/ODM de SUP hinchables</a> o visita la <a href="/es/factory">planta de 12,500 m&sup2;</a> para ver los equipos y los procesos de control de calidad que hay detrás de cada paso anterior.</p>
 
 cta:
   title: '¿Listo para empezar a abastecerte?'
   subtitle: 'Contacta con nuestro equipo OEM para hablar de los requisitos de tu proyecto.'
   button_text: 'Solicitar presupuesto'
-  button_link: /contact
+  button_link: /es/contact

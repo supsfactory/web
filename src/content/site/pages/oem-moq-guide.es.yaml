@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Guía de MOQ para SUP: Branding Flexible y Cantidades Mínimas de Pedido'
   description: 'Cómo se calcula el MOQ de SUP hinchables: rollos drop-stitch de 150 m que rinden 90–100 tablas y co-branding desde menos de 20 unidades.'
   dateModified: '2026-08-14'
@@ -42,13 +42,13 @@ moq_tiers:
       icon_bg: blue
       title: 'OEM de Volumen Totalmente Personalizado — 90–100 Unidades por Lote'
       desc: 'Determinado por la longitud estándar de 150 m del rollo de tela drop-stitch de alta calidad para garantizar la utilización óptima del material y la consistencia estructural. · Personalización 100% total: forma exclusiva del casco y colores Pantone a medida · Cobertura de arte digital o serigrafía en superficie completa · Empaque minorista personalizado, cajas impresas y accesorios con tu marca · Máxima eficiencia de costos y economías de escala'
-      link: '/contact#custom-oem'
+      link: '/es/contact#custom-oem'
       link_label: 'Consultar por OEM de Volumen'
     - icon: B
       icon_bg: green
       title: 'Co-Branding de Lotes Pequeños — Menos de 20 Unidades'
       desc: 'Una solución de baja barrera basada en nuestras colecciones anuales probadas en campo para clubes, centros de alquiler y resorts — sin inventario pesado. · Casco y geometría fijos: formas probadas con cumplimiento CE / ISO 25649 · Identificador principal: marca oficial SUPsfactory en la sección central · Marca secundaria personalizada: tu logo impreso en la proa o los rieles laterales · Pruebas de presión y estanqueidad al 100% de la serie, 24 horas'
-      link: '/contact#cobranding'
+      link: '/es/contact#cobranding'
       link_label: 'Iniciar Co-Branding de Lotes Pequeños'
 
 moq_fees:

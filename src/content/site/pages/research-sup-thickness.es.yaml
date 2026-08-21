@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Cómo elegir el grosor del SUP — Análisis de ingeniería'
   description: 'En qué se diferencian las tablas de SUP hinchables de 4", 5" y 6" en rigidez, peso, estabilidad y dirección, con consejos sobre el grosor.'
   author: 'SUPsfactory'
@@ -73,10 +73,10 @@ content_html: |
     <li><strong>Tablas de 6":</strong> serie Cheetah Ultra-Stable: 10' x 34" x 6" para yoga, paleadores grandes y plataformas de fotografía</li>
   </ul>
   <p>Todas las tablas utilizan núcleos drop-stitch de 1,680 DTEX con presión nominal de 15 PSI y laminados de PVC de 1.2 mm.</p>
-  <p>El grosor, el PSI y la especificación del tejido son configurables para líneas personalizadas: descubre cómo <a href="/oem-manufacturing">diseñamos tablas para marcas OEM y de marca blanca</a> y recorre nuestra construcción de tablas en la <a href="/factory">planta de la fábrica</a>.</p>
+  <p>El grosor, el PSI y la especificación del tejido son configurables para líneas personalizadas: descubre cómo <a href="/es/oem-manufacturing">diseñamos tablas para marcas OEM y de marca blanca</a> y recorre nuestra construcción de tablas en la <a href="/es/factory">planta de la fábrica</a>.</p>
 
 cta:
   title: '¿No sabes qué grosor es el adecuado para ti?'
   subtitle: 'Explora nuestra gama de SUP o consulta a nuestro equipo de tallas.'
   button_text: 'Ver tablas de SUP'
-  button_link: /products
+  button_link: /es/products

@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Control de cambios y validación de retrabajo | SUPsfactory'
   description: 'QINGDAO VATRAD GROUP gestiona cambios de parámetros de retrabajo con control de cambios ISO 9001: ECR, riesgos, aprobación, validación y reinspección.'
   dateModified: '2026-08-14'
@@ -21,7 +21,7 @@ hero:
     - text: Descargar Anexo de ejecución A (PDF)
       href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
     - text: Solicitar revisión de calidad
-      href: /contact
+      href: /es/contact
 
 answer:
   label: 'Respuesta directa'
@@ -308,13 +308,13 @@ cc_downloads:
       icon_bg: purple
       title: Gobernanza controlada de retrabajo (página)
       desc: 'Página complementaria del sistema de retrabajo de estanqueidad: clasificación de defectos A–G, tarjetas de método aprobadas MC-RW-01 a MC-RW-06 y el flujo de retrabajo controlado de 7 pasos.'
-      link: '/factory/quality-inspection'
+      link: '/es/factory/quality-inspection'
       link_label: Ver página
     - icon: N
       icon_bg: orange
       title: Control de productos no conformes (página)
       desc: 'Control de salidas no conformes según la ISO 9001:2015 Cláusula 8.7: registro NCR, cuarentena, autoridad de disposición por gravedad, retrabajo controlado bajo instrucciones SRI, reinspección independiente y el protocolo de destrucción presenciada.'
-      link: '/factory/non-conforming-control'
+      link: '/es/factory/non-conforming-control'
       link_label: Ver página
 
 faqs:
@@ -342,7 +342,7 @@ cta:
   actions:
     - text: Solicitar revisión de calidad
       variant: primary
-      href: /contact
+      href: /es/contact
     - text: Descargar SOP de control de cambios (PDF)
       href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
     - text: Descargar Anexo de ejecución A (PDF)

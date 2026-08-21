@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Proveedor de equipamiento SUP para alquiler y soluciones de flota'
   description: 'Tablas SUP comerciales para uso diario en alquiler: PVC resistente a los rayos UV, costuras reforzadas y secado rápido para flotas de alta rotación.'
   dateModified: '2026-08'
@@ -67,7 +67,7 @@ fleet_guide:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Sigue leyendo:</strong> las tablas de alquiler parten de tu especificación: consulta nuestro <a href="/oem-manufacturing">programa OEM/ODM</a> para personalización, MOQ de prueba reducidos y precios de flota. Cada tabla pasa por la <a href="/factory">línea de producción</a> de 12.000 m&sup2; y se prueba a presión al 100% antes del envío.</p>
+    <p><strong>Sigue leyendo:</strong> las tablas de alquiler parten de tu especificación: consulta nuestro <a href="/es/oem-manufacturing">programa OEM/ODM</a> para personalización, MOQ de prueba reducidos y precios de flota. Cada tabla pasa por la <a href="/es/factory">línea de producción</a> de 12.000 m&sup2; y se prueba a presión al 100% antes del envío.</p>
   </div>
 
 cta:
@@ -75,7 +75,7 @@ cta:
   subtitle: 'Envía tus requisitos de flota o compara plataformas de tablas para tu operación.'
   actions:
     - text: 'Enviar Requisitos'
-      href: '/contact'
+      href: '/es/contact'
       variant: 'primary'
     - text: 'Comparar Plataformas de Tablas'
       href: '/es/inflatable-vs-hardboard'

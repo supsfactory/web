@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Equipo de fábrica: corte, soldadura e impresión'
   description: 'Equipos de fabricación de grado industrial de Afarer: corte de PVC, soldadura RF, impresión digital, ensamblaje y ensayos para tablas de SUP hinchables.'
   dateModified: '2026-08'
@@ -12,7 +12,7 @@ hero:
   title: Equipos y maquinaria de fabricación
   subtitle: Equipos de grado industrial en corte, soldadura, impresión y ensamblaje
   back_label: Volver a la fábrica
-  back_link: /factory
+  back_link: /es/factory
 
 answer:
   label: 'Respuesta directa'
@@ -90,4 +90,4 @@ cta:
   title: ¿Le interesa una visita a la fábrica?
   desc: Recibimos visitas en nuestras instalaciones de Qingdao. Vea en persona nuestros equipos y procesos.
   label: Programar una visita →
-  link: /contact
+  link: /es/contact

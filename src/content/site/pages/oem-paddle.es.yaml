@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Paddle hinchable OEM y marca privada | {SITE}'
   description: 'Fabricante de paddle hinchable OEM/ODM: producción de paddle personalizada, marca privada y venta al por mayor. Fábrica con certificación CE en China.'
   dateModified: '2026-08-07'
@@ -18,7 +18,7 @@ hero:
     alt: Paddle hinchable OEM a medida con el logotipo de la marca
   actions:
     - text: 'Iniciar mi proyecto OEM'
-      href: /contact
+      href: /es/contact
 
 answer:
   label: 'Respuesta directa'
@@ -29,10 +29,10 @@ answer:
     alt: Paddle hinchable OEM a medida con el logotipo de la marca
   actions:
     - text: 'Iniciar mi proyecto OEM'
-      href: /contact
+      href: /es/contact
       variant: primary
     - text: 'Ver los paquetes OEM'
-      href: /oem-manufacturing
+      href: /es/oem-manufacturing
       variant: secondary
 stats:
   - value: '25–35'
@@ -82,7 +82,7 @@ faqs:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Sigue leyendo:</strong> la producción de paddles y tablas comparte el mismo <a href="/oem-manufacturing">programa OEM/ODM</a> y la misma <a href="/factory">planta de 12,500 m&sup2;</a> — un único presupuesto cubre ambos.</p>
+    <p><strong>Sigue leyendo:</strong> la producción de paddles y tablas comparte el mismo <a href="/es/oem-manufacturing">programa OEM/ODM</a> y la misma <a href="/es/factory">planta de 12,500 m&sup2;</a> — un único presupuesto cubre ambos.</p>
   </div>
 
 geo:
@@ -98,8 +98,8 @@ cta:
   subtitle: 'Recibe un presupuesto OEM detallado en un día laborable.'
   actions:
     - text: 'Solicitar un presupuesto OEM'
-      href: /contact
+      href: /es/contact
       variant: primary
     - text: 'Descargar la guía OEM'
-      href: /research/oem-buyer-guide
+      href: /es/research/oem-buyer-guide
       variant: secondary

@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Fabricante OEM de SUP hinchables | Producción de paddle boards a medida'
   description: 'Fábrica OEM de SUP hinchables: fabricamos tu diseño — revisión de ingeniería, muestras en 7–12 días, producción en 25–35 días, cumplimiento CE/ISO/BSCI.'
   dateModified: '2026-08-16'
@@ -147,17 +147,17 @@ cta:
   actions:
     - variant: primary
       text: Solicitar un presupuesto OEM
-      href: /contact#custom-oem
+      href: /es/contact#custom-oem
     - text: Verifica la fábrica y el sistema de calidad
-      href: /oem-trust-assurance
+      href: /es/oem-trust-assurance
     - text: El sistema de inspección de 7 etapas
-      href: /quality
+      href: /es/quality
     - text: Guía de MOQ y branding flexible
-      href: /oem-moq-guide
+      href: /es/oem-moq-guide
     - text: Desglose de MOQ y plazos para SUP personalizados
-      href: /sup-oem-moq-lead-time
+      href: /es/sup-oem-moq-lead-time
     - text: Lanza una nueva marca con un pedido de prueba
-      href: /new-brand-trial-order
+      href: /es/new-brand-trial-order
     - text: Comparación de Construcción SUP
       href: /es/sup-construction-comparison
     - text: Cumplimiento SUP por Mercado

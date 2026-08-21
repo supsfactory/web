@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Producción SUP de etiqueta privada para minoristas | SUPsfactory'
   description: 'Producción SUP personalizada y de etiqueta privada para minoristas: especificaciones, gráficos con tu marca, MOQ reducido y control de calidad de fábrica.'
   dateModified: '2026-08'
@@ -89,7 +89,7 @@ support:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Sigue leyendo:</strong> consulta el <a href="/oem-manufacturing">programa completo de fabricación OEM/ODM</a> — MOQ confirmados por proyecto en las etapas de muestra, piloto y volumen, branding de etiqueta privada y cumplimiento CE — o lee la <a href="/oem-moq-guide">Guía de MOQ y Branding Flexible</a>, o visita la <a href="/factory">fábrica</a> para ver cómo se gestiona el QC preparado para el comercio minorista.</p>
+    <p><strong>Sigue leyendo:</strong> consulta el <a href="/es/oem-manufacturing">programa completo de fabricación OEM/ODM</a> — MOQ confirmados por proyecto en las etapas de muestra, piloto y volumen, branding de etiqueta privada y cumplimiento CE — o lee la <a href="/es/oem-moq-guide">Guía de MOQ y Branding Flexible</a>, o visita la <a href="/es/factory">fábrica</a> para ver cómo se gestiona el QC preparado para el comercio minorista.</p>
   </div>
 
 cta:
@@ -97,8 +97,8 @@ cta:
   subtitle: 'Envía tus requisitos: nuestro equipo responde en menos de 1 día laborable.'
   actions:
     - text: 'Enviar Tus Requisitos'
-      href: '/contact'
+      href: '/es/contact'
       variant: 'primary'
     - text: 'Ver Plataformas de Producto'
-      href: '/products'
+      href: '/es/products'
       variant: 'secondary'

@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Inicia Tu Proyecto SUP — Desde el Brief hasta las Tablas Entregadas | SUPsfactory'
   description: 'Inicia tu proyecto SUP: envía un brief, obtén NDA, recibe muestras en 7–12 días, aprueba y escala a producción. Proceso paso a paso con cronogramas.'
   dateModified: '2026-08-20'
@@ -18,9 +18,9 @@ hero:
   actions:
     - variant: primary
       text: Inicia Tu Brief de Proyecto
-      href: /contact#project-brief
+      href: /es/contact#project-brief
     - text: Mira cómo funciona el proceso
-      href: /how-it-works
+      href: /es/how-it-works
 
 answer:
   label: 'Qué pasa después'
@@ -59,19 +59,19 @@ collaboration_types:
       title: 'Fabricación OEM'
       desc: 'Provees el diseño. Fabricamos según tu especificación. Tú posees todo el IP. Mejor para marcas con geometría de tabla probada.'
       link_label: 'Ver detalles OEM'
-      href: /oem-manufacturing
+      href: /es/oem-manufacturing
     - icon: D
       icon_bg: green
       title: 'Desarrollo ODM'
       desc: 'Provees el brief. Desarrollamos la tabla. Plataforma adaptada con tu marca. Mejor para marcas que entran al mercado sin diseño interno.'
       link_label: 'Ver detalles ODM'
-      href: /odm-development
+      href: /es/odm-development
     - icon: P
       icon_bg: purple
       title: 'Private Label / Co-Branding'
       desc: 'Tu marca en una plataforma probada. Sin etapa de ingeniería. Desde 5–10 unidades. Mejor para operadores y distribuidores.'
       link_label: 'Ver opciones de Private Label'
-      href: /solutions/private-label-sup
+      href: /es/solutions/private-label-sup
 
 what_we_need:
   heading: 'Qué Preparar Antes de Tu Brief'
@@ -107,8 +107,8 @@ cta:
   actions:
     - variant: primary
       text: Inicia Tu Brief de Proyecto
-      href: /contact#project-brief
+      href: /es/contact#project-brief
     - text: Lee la guía completa de onboarding
-      href: /oem-onboarding-guide
+      href: /es/oem-onboarding-guide
     - text: Verifica la fábrica y el sistema de calidad
-      href: /proof-center
+      href: /es/proof-center

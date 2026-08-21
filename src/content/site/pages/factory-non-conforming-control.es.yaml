@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'No conformidades y retrabajo SUP | Fábrica OEM | SUPsfactory'
   description: 'Control de productos no conformes (ISO 9001 Cláusula 8.7): cuarentena NCR, retrabajo controlado bajo SRI, reinspección independiente, destrucción presenciada.'
   dateModified: '2026-08-14'
@@ -21,7 +21,7 @@ hero:
     - text: Descargar certificado de destrucción (PDF)
       href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
     - text: Solicitar revisión de calidad
-      href: /contact
+      href: /es/contact
 
 answer:
   label: 'Respuesta directa'
@@ -201,13 +201,13 @@ nc_downloads:
       icon_bg: green
       title: Gobernanza controlada de retrabajo (página)
       desc: 'Página complementaria de las tarjetas de método de retrabajo de estanqueidad aprobadas MC-RW-01 a MC-RW-06 y el flujo de retrabajo controlado de 7 pasos.'
-      link: '/factory/quality-inspection'
+      link: '/es/factory/quality-inspection'
       link_label: Ver página
     - icon: C
       icon_bg: purple
       title: Estándar de control de cambios de retrabajo (página)
       desc: 'Control de cambios formal según ISO 9001 para parámetros de retrabajo: ECR, clasificación de riesgos, matriz de aprobación, plan de validación y salvaguardas Poka-Yoke — QMS-SOP-QC-CC-001 Rev 2.0.'
-      link: '/factory/quality-change-control'
+      link: '/es/factory/quality-change-control'
       link_label: Ver página
 
 faqs:
@@ -235,7 +235,7 @@ cta:
   actions:
     - text: Hablar de requisitos de calidad
       variant: primary
-      href: /contact
+      href: /es/contact
     - text: Descargar SOP de control de no conformes (PDF)
       href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
     - text: Descargar certificado de destrucción (PDF)

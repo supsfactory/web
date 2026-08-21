@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Cumplimiento de SUP por Mercado — CE, REACH, RoHS, BSCI, ISO 9001 | SUPsfactory'
   description: 'Cumplimiento por mercado para SUP hinchables: CE (UE), CPSIA (EE.UU.), AS/NZS (Australia), ISO 9001, BSCI, REACH y RoHS. Pruebas y documentación por mercado.'
   dateModified: '2026-08-21'
@@ -93,7 +93,7 @@ cta:
   actions:
     - variant: primary
       text: Inicie Su Breve de Proyecto
-      href: /contact#project-brief
+      href: /es/contact#project-brief
     - text: Verificar certificaciones y sistema de calidad
       href: /es/proof-center
     - text: Proceso de incorporación OEM

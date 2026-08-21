@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Estándares de inspección de calidad para SUP a medida | SUPsfactory'
   description: 'Fabricación OEM de SUP hinchables: inspección de materiales, producción, ensayos finales, embalaje y trazabilidad, con control de retrabajo bajo ISO 9001.'
   dateModified: '2026-08-14'
@@ -21,7 +21,7 @@ hero:
     - text: Descargar el paquete de calidad de muestra (PDF)
       href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
     - text: Solicitar información de calidad OEM
-      href: /contact
+      href: /es/contact
 
 answer:
   label: 'Respuesta directa'
@@ -432,13 +432,13 @@ document_pack:
       icon_bg: orange
       title: Estándar de control de cambios de retrabajo (página)
       desc: 'Control de cambios formal según ISO 9001 para parámetros de retrabajo: ECR, clasificación de riesgos, matriz de aprobación interdepartamental, bucle cerrado de 9 pasos, validación de ingeniería cuantificada y salvaguardas Poka-Yoke — con el SOP bilingüe QMS-SOP-QC-CC-001 Rev 2.0.'
-      link: '/factory/quality-change-control'
+      link: '/es/factory/quality-change-control'
       link_label: Ver página
     - icon: N
       icon_bg: blue
       title: Control de productos no conformes (página)
       desc: 'Control de salidas no conformes según la ISO 9001:2015 Cláusula 8.7: registro NCR, cuarentena, autoridad de disposición por gravedad, retrabajo controlado bajo SRI, reinspección independiente y destrucción presenciada con bóveda de video SHA-256 — con SOP bilingüe y descargas de certificado de desguace.'
-      link: '/factory/non-conforming-control'
+      link: '/es/factory/non-conforming-control'
       link_label: Ver página
 
 faqs:
@@ -470,7 +470,7 @@ cta:
   actions:
     - text: Solicitar revisión de calidad
       variant: primary
-      href: /contact
+      href: /es/contact
     - text: Descargar el paquete de calidad de muestra (PDF)
       href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
     - text: Descargar el protocolo de QC y la lista PSI

@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'MOQ y Plazos de Entrega para SUP Personalizados: De 1 Muestra a Series de Contenedor'
   description: 'MOQ y plazos de SUP personalizados: muestras en 7–12 días, piloto de 20–50 tablas, volumen de 90–100+ por rollo y producción en 25–35 días.'
   dateModified: '2026-08-16'
@@ -18,9 +18,9 @@ hero:
   actions:
     - variant: primary
       text: Solicita tu desglose de MOQ y plazos
-      href: /contact#moq-guide
+      href: /es/contact#moq-guide
     - text: La guía de MOQ y branding flexible
-      href: /oem-moq-guide
+      href: /es/oem-moq-guide
 
 answer:
   label: 'Respuesta directa'
@@ -209,10 +209,10 @@ cta:
   actions:
     - variant: primary
       text: Solicita tu desglose de MOQ y plazos
-      href: /contact#moq-guide
+      href: /es/contact#moq-guide
     - text: Compáralo con la guía de branding flexible
-      href: /oem-moq-guide
+      href: /es/oem-moq-guide
     - text: Lanza una nueva marca con un pedido de prueba de bajo MOQ
-      href: /new-brand-trial-order
+      href: /es/new-brand-trial-order
     - text: Verifica la fábrica y el sistema de calidad
-      href: /oem-trust-assurance
+      href: /es/oem-trust-assurance

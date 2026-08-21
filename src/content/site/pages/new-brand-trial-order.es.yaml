@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Lanza Tu Marca de SUP con un Pedido de Prueba de Bajo MOQ | SUPsfactory'
   description: 'Lanza tu marca de SUP con pedido de prueba bajo MOQ: muestras en 7–12 días, piloto de 20–50 tablas, producción en 25–35 días. Branding y QC incluidos.'
   dateModified: '2026-08-16'
@@ -18,9 +18,9 @@ hero:
   actions:
     - variant: primary
       text: Empieza Tu Lanzamiento con una Muestra
-      href: /contact#custom-oem
+      href: /es/contact#custom-oem
     - text: Consulta el marco completo de MOQ y plazos
-      href: /sup-oem-moq-lead-time
+      href: /es/sup-oem-moq-lead-time
 
 answer:
   label: 'Respuesta directa'
@@ -167,10 +167,10 @@ cta:
   actions:
     - variant: primary
       text: Empieza Tu Lanzamiento
-      href: /contact#custom-oem
+      href: /es/contact#custom-oem
     - text: Entiende primero el MOQ y los plazos del SUP personalizado
-      href: /sup-oem-moq-lead-time
+      href: /es/sup-oem-moq-lead-time
     - text: La guía de branding flexible y MOQ
-      href: /oem-moq-guide
+      href: /es/oem-moq-guide
     - text: Verifica la fábrica y el sistema de calidad
-      href: /oem-trust-assurance
+      href: /es/oem-trust-assurance

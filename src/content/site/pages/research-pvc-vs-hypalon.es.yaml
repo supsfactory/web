@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'PVC vs. Hypalon — Tejidos para tablas de SUP hinchables | {SITE}'
   description: 'PVC vs. Hypalon en SUP hinchables: resistencia UV, durabilidad, reparabilidad, peso, coste y qué tejido se utiliza realmente.'
   author: 'SUPsfactory'
@@ -72,10 +72,10 @@ content_html: |
 
   <h2>Recomendación de Afarer</h2>
   <p>Para las tablas de SUP hinchables, el PVC moderno de alta calidad con estabilizadores UV ofrece el mejor equilibrio entre coste, peso, rendimiento y durabilidad. Afarer fabrica cada SUP con PVC marino de 1,680 DTEX, recubrimiento de tres capas y núcleo drop-stitch homologado a 15 PSI, con cada lote de tejido probado de forma independiente en nuestro laboratorio de tejidos de PVC antes de la producción. El Hypalon sigue disponible bajo petición para embarcaciones comerciales y aplicaciones especiales, producido por separado a través de nuestra línea marina comercial.</p>
-  <p>La elección del material determina el coste, el peso y la durabilidad de tu línea - indícanos tu mercado objetivo y <a href="/oem-manufacturing">especificaremos el tejido adecuado para tu proyecto OEM</a>, probado en nuestro <a href="/randdcenter/quality-inspection-lab">laboratorio de ensayo de materiales</a>.</p>
+  <p>La elección del material determina el coste, el peso y la durabilidad de tu línea - indícanos tu mercado objetivo y <a href="/es/oem-manufacturing">especificaremos el tejido adecuado para tu proyecto OEM</a>, probado en nuestro <a href="/es/randdcenter/quality-inspection-lab">laboratorio de ensayo de materiales</a>.</p>
 
 cta:
   title: '¿Necesitas ayuda para elegir materiales?'
   subtitle: 'Nuestro equipo puede asesorarte sobre PVC vs. Hypalon para tu aplicación concreta.'
   button_text: 'Consulta a nuestros expertos'
-  button_link: /contact
+  button_link: /es/contact

@@ -45,10 +45,19 @@ const SERVICE_SCHEMA_PAGES: Record<string, { serviceType: string; description: s
   '/oem-trust-assurance': { serviceType: 'OEM Trust Assurance', description: 'Trust assurance for OEM buyers: third-party inspections, quality control gates, certifications, and factory audit transparency.' },
   '/sup-oem-moq-lead-time': { serviceType: 'SUP OEM MOQ & Lead Time', description: 'SUP-specific OEM minimum order quantities and lead times — per-configuration MOQ, tooling timelines, and sample turnaround.' },
   '/oem-onboarding-guide': { serviceType: 'OEM Onboarding', description: 'Step-by-step OEM onboarding: 7-gate process from initial inquiry through first production run and ongoing partnership.' },
-  '/private-label': { serviceType: 'Private Label Co-Branding', description: 'Private-label co-branding program: apply your brand graphics to proven SUP platforms with low MOQ.' },
   '/sup-construction-comparison': { serviceType: 'SUP Construction Comparison', description: 'Technical comparison of single-layer, double-layer and drop-stitch SUP construction types — rigidity, weight, durability and use-case guidance.' },
   '/sup-compliance-by-market': { serviceType: 'SUP Compliance by Market', description: 'Market-by-market certification and compliance guide: CE, CPSIA, AS/NZS, ISO 9001, BSCI, REACH, RoHS requirements for inflatable SUP boards.' },
   '/factory-audit-checklist': { serviceType: 'Factory Audit Checklist', description: 'Eight-area factory audit checklist for SUP buyers: quality system, capacity, traceability, pressure testing, welding controls, social compliance, documentation, and post-delivery support.' },
+  '/product-development': { serviceType: 'Product Development', description: 'Custom SUP product development service — from concept and design through prototyping, testing, and first production run.' },
+  '/oem-paddle': { serviceType: 'OEM Paddle Manufacturing', description: 'OEM paddle manufacturing: adjustable and fixed-length SUP paddles in carbon fiber, fiberglass, and aluminum for brand partners.' },
+  '/b2b-solutions-matrix': { serviceType: 'B2B Solutions Matrix', description: 'Structured overview of OEM, ODM, private-label, distributor, and resort-operator partnership models for SUP brands.' },
+  '/solutions/rental-operators': { serviceType: 'Rental Operator Solutions', description: 'SUP equipment programs for rental operators: bulk fleet pricing, custom branding, and durable construction for high-use environments.' },
+  '/solutions/retail-partners': { serviceType: 'Retail Partner Solutions', description: 'Retail partnership program for SUP dealers: wholesale pricing, display packages, and territory protection.' },
+  '/solutions/distributors': { serviceType: 'Distributor Solutions', description: 'Global SUP distribution network: exclusive territories, complete product portfolio, and dedicated account management.' },
+  '/oem/sup-oem-north-america': { serviceType: 'SUP OEM North America', description: 'OEM SUP manufacturing for North American brands: CPSIA compliance, USMCA logistics, and region-specific MOQ tiers.' },
+  '/oem/sup-oem-europe': { serviceType: 'SUP OEM Europe', description: 'OEM SUP manufacturing for European brands: CE certification, REACH compliance, and EU-specific logistics.' },
+  '/oem/sup-oem-australia': { serviceType: 'SUP OEM Australia', description: 'OEM SUP manufacturing for Australian brands: AS/NZS compliance, local standards, and Oceania logistics.' },
+  '/oem/sup-oem-canada': { serviceType: 'SUP OEM Canada', description: 'OEM SUP manufacturing for Canadian brands: CPSIA/CCPSA compliance, NAFTA logistics, and cold-climate testing.' },
 }
 
 /** Minimal product card for the "related platforms" strip on product pages. */
