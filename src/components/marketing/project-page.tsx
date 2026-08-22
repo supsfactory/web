@@ -81,8 +81,8 @@ export function ProjectPage({ page }: { page: ProjectData }) {
             <dl className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
               {page.metrics.map((m) => (
                 <div key={m.label} className="text-center">
-                  <dd className="font-display text-[34px] font-extrabold leading-none text-primary">{m.value}</dd>
-                  <dt className="mx-auto mt-2 max-w-[230px] text-[12.5px] font-semibold leading-snug text-fg-2">{m.label}</dt>
+                  <dt className="font-display text-[34px] font-extrabold leading-none text-primary">{m.value}</dt>
+                  <dd className="mx-auto mt-2 max-w-[230px] text-[12.5px] font-semibold leading-snug text-fg-2">{m.label}</dd>
                 </div>
               ))}
             </dl>

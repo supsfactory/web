@@ -104,17 +104,17 @@ function StatGrid({ items, heading }: { items: StatItem[]; heading?: Record<stri
   return (
     <Container>
       {heading && <SectionHead kicker={str(heading.tagline)} title={brandify(str(heading.title) || '')} sub={brandify(str(heading.subtitle) || str(heading.description) || '')} />}
-      <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+      <dl className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
         {items.map((s) => (
           <div key={String(s.label)} className="marine-card flex flex-col items-center px-4 py-6 text-center">
-            <span className="font-display text-3xl font-extrabold tracking-tight text-primary md:text-4xl">{str(s.value)}</span>
-            <span className="mt-2 text-[13px] font-semibold text-fg-2">{str(s.label)}</span>
+            <dt className="font-display text-3xl font-extrabold tracking-tight text-primary md:text-4xl">{str(s.value)}</dt>
+            <dd className="mt-2 text-[13px] font-semibold text-fg-2">{str(s.label)}</dd>
             {s.detail !== undefined && str(s.detail) !== '' && (
-              <span className="mt-1 text-[11.5px] leading-snug text-fg-3">{str(s.detail)}</span>
+              <dd className="mt-1 text-[11.5px] leading-snug text-fg-3">{str(s.detail)}</dd>
             )}
           </div>
         ))}
-      </div>
+      </dl>
     </Container>
   )
 }
