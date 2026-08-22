@@ -1536,10 +1536,9 @@ function ObjectTable({ rows }: { rows: Record<string, unknown>[] }) {
         <tbody className="divide-y divide-border">
           {rows.map((row, i) => (
             <tr key={String(row[keys[0]]) || i} className="align-top">
-              {keys.map((k) => (
-                <td key={k} className="px-4 py-3.5 font-semibold text-fg-2">
-                  {brandify(str(row[k]))}
-                </td>
+              <th scope="row" className="px-4 py-3.5 font-semibold text-fg-2">{brandify(str(row[keys[0]]))}</th>
+              {keys.slice(1).map((k) => (
+                <td key={k} className="px-4 py-3.5 text-fg-2">{brandify(str(row[k]))}</td>
               ))}
             </tr>
           ))}
