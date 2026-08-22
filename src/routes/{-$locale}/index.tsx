@@ -41,7 +41,7 @@ export const Route = createFileRoute('/{-$locale}/')({
 })
 
 function Home() {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
 
   return (
     <MarketingShell>
@@ -55,7 +55,7 @@ function Home() {
       <Suspense fallback={null}><ProjectsShowcase /></Suspense>
       <Suspense fallback={null}><FaqSection data={homeFaq} /></Suspense>
       <Suspense fallback={null}><CtaBand /></Suspense>
-      <JsonLd data={siteBreadcrumbLd([{ name: 'Home', path: '/' }])} />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }])} />
       <JsonLd data={faqLd(pick(homeFaq, locale).items, locale)} />
     </MarketingShell>
   )

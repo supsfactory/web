@@ -137,7 +137,7 @@ function AboutPage() {
         </div>
       </section>
 
-      <JsonLd data={siteBreadcrumbLd([{ name: 'Home', path: '/' }, { name: 'About', path: '/about' }])} />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('sup.nav.about'), path: '/about' }])} />
       <JsonLd
          data={aboutPageLd(
            SITE_URL,
