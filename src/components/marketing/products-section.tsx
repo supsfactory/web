@@ -116,6 +116,9 @@ export function ProductsSection({
           ))}
         </div>
       )}
+      <div role="status" aria-live="polite" className="sr-only">
+        {t('marketing.filterResults', { count: items.length })}
+      </div>
       <div className="mt-12 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {items.map((p, i) => (
           <Reveal key={p.slug} delay={i * 80}>

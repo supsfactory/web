@@ -310,6 +310,7 @@ export const esUi = {
     filterGroupAria: 'Filtrar por {label}',
     hueAria: 'Tono {value}',
     contactToolbar: 'Opciones de contacto',
+    filterResults: '{count} producto(s) mostrado(s)',
   },
   feedback: {
     nav: 'Comentarios',

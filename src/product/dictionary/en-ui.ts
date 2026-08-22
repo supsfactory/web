@@ -320,6 +320,7 @@ export const enUi = {
     filterGroupAria: 'Filter by {label}',
     hueAria: 'Hue {value}',
     contactToolbar: 'Contact options',
+    filterResults: '{count} product(s) shown',
   },
   feedback: {
     nav: 'Feedback',
