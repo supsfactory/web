@@ -9,6 +9,7 @@ import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
 import { GallerySection } from '@/components/marketing/gallery-section'
 import { CtaBand } from '@/components/marketing/cta'
+import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { SITE_NAME } from '@/config'
 
 export const Route = createFileRoute('/{-$locale}/gallery')({
@@ -30,7 +31,7 @@ export const Route = createFileRoute('/{-$locale}/gallery')({
 })
 
 function GalleryPage() {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const c = pick(galleryPage, locale)
 
   return (
@@ -43,6 +44,7 @@ function GalleryPage() {
       </section>
 
       <CtaBand />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: c.title, path: '/gallery' }])} />
     </MarketingShell>
   )
 }

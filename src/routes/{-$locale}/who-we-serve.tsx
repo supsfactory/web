@@ -9,6 +9,7 @@ import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
 import { WhoWeServe } from '@/components/marketing/who-we-serve'
 import { CtaBand } from '@/components/marketing/cta'
+import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { SITE_NAME } from '@/config'
 
 export const Route = createFileRoute('/{-$locale}/who-we-serve')({
@@ -30,7 +31,7 @@ export const Route = createFileRoute('/{-$locale}/who-we-serve')({
 })
 
 function ServePage() {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const c = pick(servePage, locale)
 
   return (
@@ -38,6 +39,7 @@ function ServePage() {
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
       <WhoWeServe />
       <CtaBand />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: c.title, path: '/who-we-serve' }])} />
     </MarketingShell>
   )
 }

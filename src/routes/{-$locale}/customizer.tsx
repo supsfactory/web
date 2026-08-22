@@ -11,6 +11,7 @@ import { pick, customizer } from '@/product/content'
 import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
 import { BoardArt } from '@/components/marketing/board-art'
+import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 
 const STEP_ICONS = [PaintBucket, Upload, ImageIcon, Sparkles]
 const SWATCHES = [195, 28, 260, 210, 330, 8]
@@ -116,7 +117,7 @@ function CustomizerPage() {
           </div>
         </div>
       </section>
-
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('sup.nav.customizer'), path: '/customizer' }])} />
     </MarketingShell>
   )
 }

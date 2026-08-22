@@ -11,6 +11,7 @@ import { PageHero } from '@/components/marketing/section-head'
 import { HowItWorks } from '@/components/marketing/how-it-works'
 import { VideoShowcase } from '@/components/marketing/video-showcase'
 import { CtaBand } from '@/components/marketing/cta'
+import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { BRAND_ASSETS_CDN } from '@/config'
 
 export const Route = createFileRoute('/{-$locale}/how-it-works')({
@@ -32,7 +33,7 @@ export const Route = createFileRoute('/{-$locale}/how-it-works')({
 })
 
 function WorksPage() {
-  const { locale } = useTranslation()
+  const { locale, t } = useTranslation()
   const c = pick(worksPage, locale)
 
   return (
@@ -62,6 +63,7 @@ function WorksPage() {
       </section>
 
       <CtaBand />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('sup.nav.process'), path: '/how-it-works' }])} />
     </MarketingShell>
   )
 }
