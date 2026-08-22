@@ -433,6 +433,7 @@ function StepsWidget({ c }: { c: Record<string, unknown> }) {
 /* ─────────────────────────── bespoke widgets ─────────────────────────── */
 
 function ProductionFlow({ c }: { c: Record<string, unknown> }) {
+  const { t } = useTranslation()
   const stages = arr(c.stages) as Record<string, unknown>[]
   if (stages.length === 0) return null
   return (
@@ -448,15 +449,15 @@ function ProductionFlow({ c }: { c: Record<string, unknown> }) {
             <p className="mt-2.5 text-[14px] leading-relaxed text-fg-2">{brandify(str(s.description))}</p>
             <dl className="mt-4 grid gap-2 text-[12.5px] leading-relaxed md:grid-cols-3">
               <div className="rounded-lg bg-bg-alt p-3">
-                <dt className="font-bold uppercase tracking-wide text-fg-3">QC check</dt>
+                <dt className="font-bold uppercase tracking-wide text-fg-3">{t('content.qcCheck')}</dt>
                 <dd className="mt-1 text-fg-2">{brandify(str(s.qc_check))}</dd>
               </div>
               <div className="rounded-lg bg-bg-alt p-3">
-                <dt className="font-bold uppercase tracking-wide text-fg-3">Threshold</dt>
+                <dt className="font-bold uppercase tracking-wide text-fg-3">{t('content.threshold')}</dt>
                 <dd className="mt-1 text-fg-2">{brandify(str(s.qc_threshold))}</dd>
               </div>
               <div className="rounded-lg bg-bg-alt p-3">
-                <dt className="font-bold uppercase tracking-wide text-fg-3">Responsibility</dt>
+                <dt className="font-bold uppercase tracking-wide text-fg-3">{t('content.responsibility')}</dt>
                 <dd className="mt-1 text-fg-2">{brandify(str(s.responsibility))}</dd>
               </div>
             </dl>
@@ -564,6 +565,7 @@ function QcFlowWidget({ c }: { c: Record<string, unknown> }) {
 }
 
 function OemCases({ c }: { c: Record<string, unknown> }) {
+  const { t } = useTranslation()
   const cases = arr(c.cases) as Record<string, unknown>[]
   if (cases.length === 0) return null
   return (
@@ -574,15 +576,15 @@ function OemCases({ c }: { c: Record<string, unknown> }) {
           <div key={String(cs.challenge)} className="marine-card flex flex-col p-6">
             <dl className="flex-1 space-y-4 text-[13px] leading-relaxed">
               <div>
-                <dt className="font-bold uppercase tracking-wide text-primary">Challenge</dt>
+                <dt className="font-bold uppercase tracking-wide text-primary">{t('content.challenge')}</dt>
                 <dd className="mt-1 text-fg-2">{brandify(str(cs.challenge))}</dd>
               </div>
               <div>
-                <dt className="font-bold uppercase tracking-wide text-primary">Solution</dt>
+                <dt className="font-bold uppercase tracking-wide text-primary">{t('content.solution')}</dt>
                 <dd className="mt-1 text-fg-2">{brandify(str(cs.solution))}</dd>
               </div>
               <div>
-                <dt className="font-bold uppercase tracking-wide text-primary">Result</dt>
+                <dt className="font-bold uppercase tracking-wide text-primary">{t('content.result')}</dt>
                 <dd className="mt-1 text-fg-2">{brandify(str(cs.result))}</dd>
               </div>
             </dl>
@@ -594,6 +596,7 @@ function OemCases({ c }: { c: Record<string, unknown> }) {
 }
 
 function WorkforceWidget({ c }: { c: Record<string, unknown> }) {
+  const { t } = useTranslation()
   const departments = arr(c.departments) as Record<string, unknown>[]
   return (
     <Container>
@@ -608,9 +611,9 @@ function WorkforceWidget({ c }: { c: Record<string, unknown> }) {
           <table className="w-full text-left text-[13.5px]">
             <thead className="bg-bg-alt text-[12px] uppercase tracking-wide text-fg-3">
               <tr>
-                <th scope="col" className="px-4 py-3 font-semibold">Department</th>
-                <th scope="col" className="px-4 py-3 font-semibold">People</th>
-                <th scope="col" className="hidden px-4 py-3 font-semibold md:table-cell">Role</th>
+                <th scope="col" className="px-4 py-3 font-semibold">{t('content.department')}</th>
+                <th scope="col" className="px-4 py-3 font-semibold">{t('content.people')}</th>
+                <th scope="col" className="hidden px-4 py-3 font-semibold md:table-cell">{t('content.role')}</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
@@ -630,23 +633,24 @@ function WorkforceWidget({ c }: { c: Record<string, unknown> }) {
 }
 
 function TraceabilityWidget({ c }: { c: Record<string, unknown> }) {
+  const { t } = useTranslation()
   const suppliers = arr(c.suppliers) as Record<string, unknown>[]
   return (
     <Container>
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.description) || '')} />
       <div className="mx-auto mt-8 max-w-3xl space-y-3 text-[14px] leading-relaxed text-fg-2">
-        {str(c.system) && <p><span className="font-semibold text-foreground">System:</span> {brandify(str(c.system))}</p>}
-        {str(c.coverage) && <p><span className="font-semibold text-foreground">Coverage:</span> {brandify(str(c.coverage))}</p>}
-        {str(c.records_retained) && <p><span className="font-semibold text-foreground">Records retained:</span> {brandify(str(c.records_retained))}</p>}
+        {str(c.system) && <p><span className="font-semibold text-foreground">{t('content.system')}:</span> {brandify(str(c.system))}</p>}
+        {str(c.coverage) && <p><span className="font-semibold text-foreground">{t('content.coverage')}:</span> {brandify(str(c.coverage))}</p>}
+        {str(c.records_retained) && <p><span className="font-semibold text-foreground">{t('content.recordsRetained')}:</span> {brandify(str(c.records_retained))}</p>}
       </div>
       {suppliers.length > 0 && (
         <div className="mx-auto mt-8 max-w-3xl overflow-hidden rounded-2xl border border-border">
           <table className="w-full text-left text-[13.5px]">
             <thead className="bg-bg-alt text-[12px] uppercase tracking-wide text-fg-3">
               <tr>
-                <th scope="col" className="px-4 py-3 font-semibold">Material</th>
-                <th scope="col" className="px-4 py-3 font-semibold">Source</th>
-                <th scope="col" className="hidden px-4 py-3 font-semibold md:table-cell">Certified</th>
+                <th scope="col" className="px-4 py-3 font-semibold">{t('content.material')}</th>
+                <th scope="col" className="px-4 py-3 font-semibold">{t('content.source')}</th>
+                <th scope="col" className="hidden px-4 py-3 font-semibold md:table-cell">{t('content.certified')}</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
