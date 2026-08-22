@@ -945,7 +945,8 @@ input {
 
 .sun-grad:focus-visible,
 [class*="hover:scale-10"]:focus-visible,
-[class*="hover:-translate-y"]:focus-visible {
+[class*="hover:-translate-y"]:focus-visible,
+.foot-link:focus-visible {
   outline: 2px solid var(--ring, hsl(217 91% 60%));
   outline-offset: 2px;
 }
