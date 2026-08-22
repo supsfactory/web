@@ -811,7 +811,7 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
         ))}
         {guide.faqs.length > 0 && (
           <section className="mt-12">
-            <SectionHead kicker="FAQ" title={t('content.guide.quickAnswers')} />
+            <SectionHead kicker={t('content.fallbackFaq')} title={t('content.guide.quickAnswers')} />
             <div className="mt-6 space-y-3">
               {guide.faqs.map((f) => {
                 const anchor = faqSlug(f.q)
@@ -891,7 +891,7 @@ function FaqView({ faqs, origin, path, locale }: { faqs: { q: string; a: string 
   return (
     <>
       <PageHero
-        kicker="FAQ"
+        kicker={t('content.fallbackFaq')}
         title={t('content.faq.title')}
         sub={t('content.faq.sub')}
       />

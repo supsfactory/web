@@ -125,7 +125,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
 
       {/* FAQ */}
       <section className="mx-auto max-w-3xl px-5 py-16 md:px-7 md:py-20">
-        <SectionHead kicker="FAQ" title={t('sup.solutions.faqTitle')} />
+        <SectionHead kicker={t('content.fallbackFaq')} title={t('sup.solutions.faqTitle')} />
         <div className="mt-10 flex flex-col gap-3">
           {page.faqs.map((f) => (
             <FaqItem key={f.q} q={f.q} a={f.a} />
