@@ -10,6 +10,8 @@ const DECO_SUN: React.CSSProperties = { background: 'radial-gradient(circle, rgb
 const STAGE_AQUA: React.CSSProperties = { background: 'radial-gradient(circle, rgba(53,194,201,0.6) 0%, transparent 70%)' }
 const STAGE_NAVY: React.CSSProperties = { background: 'radial-gradient(circle, rgba(0,119,182,0.35) 0%, transparent 70%)' }
 
+const HERO_SWATCHES = [195, 28, 260, 210, 330]
+
 /** Home hero: 100svh ocean scene — headline left, brand mockup card on a water stage right, drifting waves below. */
 export function Hero() {
   const { locale } = useTranslation()
@@ -106,7 +108,7 @@ export function Hero() {
             </div>
 
             <div className="mt-5 flex items-center justify-center gap-2.5">
-              {[195, 28, 260, 210, 330].map((hue) => (
+              {HERO_SWATCHES.map((hue) => (
                 <span
                   key={hue}
                   className="h-6 w-6 cursor-pointer rounded-full border-2 border-white shadow-sm transition-transform hover:scale-110"
