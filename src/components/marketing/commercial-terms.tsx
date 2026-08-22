@@ -42,7 +42,7 @@ export function CommercialTerms() {
             <tbody className="divide-y divide-border">
               {c.moqTiers.map((t) => (
                 <tr key={t.stage} className="align-top">
-                  <td className="px-4 py-3.5 font-semibold text-fg-1">{t.stage}</td>
+                  <th scope="row" className="px-4 py-3.5 font-semibold text-fg-1">{t.stage}</th>
                   <td className="px-4 py-3.5 font-bold text-primary">{t.quantity}</td>
                   <td className="px-4 py-3.5 text-fg-2">{t.purpose}</td>
                   <td className="px-4 py-3.5 text-fg-3">{t.note}</td>

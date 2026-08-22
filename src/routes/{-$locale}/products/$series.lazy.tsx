@@ -102,7 +102,7 @@ function SeriesPage() {
                   <tbody>
                     {profile.specRows.map((row) => (
                       <tr key={row.label} className="border-b border-border/60 last:border-0">
-                        <td className="py-2 pr-4 align-top font-bold text-fg-3">{row.label}</td>
+                        <th scope="row" className="py-2 pr-4 align-top font-bold text-fg-3">{row.label}</th>
                         <td className="py-2 align-top text-fg-2">{row.value}</td>
                       </tr>
                     ))}
