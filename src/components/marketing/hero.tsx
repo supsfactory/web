@@ -93,8 +93,9 @@ export function Hero() {
                 alt={c.mockupBrand}
                 width={1200}
                 height={630}
+                loading="eager"
                 fetchPriority="high"
-                decoding="async"
+                decoding="auto"
                 className="relative h-[280px] w-full object-cover md:h-[320px]"
               />
             </div>
@@ -127,7 +128,7 @@ export function Hero() {
       {/* drifting water layers */}
       <div className="absolute bottom-0 left-0 h-28 w-full overflow-hidden opacity-90" aria-hidden="true">
         <div className="wave-layer bottom-0">
-          <svg className="h-24 w-full" viewBox="0 0 1600 96" preserveAspectRatio="none">
+          <svg className="h-24 w-full" viewBox="0 0 1600 96" preserveAspectRatio="none" aria-hidden="true">
             <path
               d="M0 40c160 24 320 24 480 0s320-24 480 0 320 24 480 0 320-24 480 0v56H0Z"
               fill="rgba(255,255,255,0.14)"
@@ -139,7 +140,7 @@ export function Hero() {
           </svg>
         </div>
         <div className="wave-layer slow bottom-0">
-          <svg className="h-16 w-full" viewBox="0 0 1600 64" preserveAspectRatio="none">
+          <svg className="h-16 w-full" viewBox="0 0 1600 64" preserveAspectRatio="none" aria-hidden="true">
             <path
               d="M0 24c200-14 400-14 600 0s400 14 600 0 400-14 600 0v40H0Z"
               fill="rgba(53,194,201,0.28)"

@@ -25,7 +25,7 @@ export function CtaBand({ productSlug }: { productSlug?: string }) {
         />
         {/* water layers */}
         <div className="wave-layer slow absolute left-0 top-0 opacity-40" aria-hidden="true">
-          <svg className="h-16 w-full" viewBox="0 0 1600 64" preserveAspectRatio="none">
+          <svg className="h-16 w-full" viewBox="0 0 1600 64" preserveAspectRatio="none" aria-hidden="true">
             <path d="M0 24c200-14 400-14 600 0s400 14 600 0 400-14 600 0v40H0Z" fill="rgba(255,255,255,0.18)" />
           </svg>
         </div>
