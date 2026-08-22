@@ -1,5 +1,7 @@
 import React from 'react'
 
+const ICON_STYLE: React.CSSProperties = { width: 28, height: 28, background: 'var(--ocean-grad)', color: '#fff' }
+
 /** SUPsfactory wordmark — dual-wave mark on an ocean gradient + "SUP" (bold) + "sfactory" (62%). `compact` renders the mark only. */
 function LogoInner({ size = 18, compact = false }: { size?: number; compact?: boolean }) {
   return (
@@ -9,12 +11,7 @@ function LogoInner({ size = 18, compact = false }: { size?: number; compact?: bo
     >
       <span
         className="inline-flex shrink-0 items-center justify-center rounded-lg"
-        style={{
-          width: 28,
-          height: 28,
-          background: 'var(--ocean-grad)',
-          color: '#fff',
-        }}
+        style={ICON_STYLE}
       >
         <svg
           width="17"

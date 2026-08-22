@@ -87,7 +87,7 @@ export function ProductsSection({
   const items = useMemo(() => current === 'all' ? allItems : allItems.filter((p) => p.series === current), [allItems, current])
 
   return (
-    <section className="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:px-10 md:py-24">
+    <section aria-label={t('marketing.filterResults', { count: items.length })} className="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:px-10 md:py-24">
       {heading ?? null}
       {!limit && (
         <div className="mb-10 flex flex-wrap items-center justify-center gap-2">

@@ -5,6 +5,11 @@ import { pick, hero } from '@/product/content'
 import { HERO_IMAGE, HERO_IMAGE_480, HERO_IMAGE_768, HERO_IMAGE_WEBP } from '@/features/seo/seo'
 import { PictureImg } from '@/components/ui/picture-img'
 
+const DECO_AQUA: React.CSSProperties = { background: 'radial-gradient(circle, rgba(53,194,201,0.55) 0%, transparent 70%)' }
+const DECO_SUN: React.CSSProperties = { background: 'radial-gradient(circle, rgba(255,138,61,0.5) 0%, transparent 70%)' }
+const STAGE_AQUA: React.CSSProperties = { background: 'radial-gradient(circle, rgba(53,194,201,0.6) 0%, transparent 70%)' }
+const STAGE_NAVY: React.CSSProperties = { background: 'radial-gradient(circle, rgba(0,119,182,0.35) 0%, transparent 70%)' }
+
 /** Home hero: 100svh ocean scene — headline left, brand mockup card on a water stage right, drifting waves below. */
 export function Hero() {
   const { locale } = useTranslation()
@@ -16,12 +21,12 @@ export function Hero() {
       {/* ambient deco */}
       <div
         className="pointer-events-none absolute -right-32 -top-40 h-[480px] w-[480px] rounded-full opacity-40 blur-3xl"
-        style={{ background: 'radial-gradient(circle, rgba(53,194,201,0.55) 0%, transparent 70%)' }}
+        style={DECO_AQUA}
         aria-hidden="true"
       />
       <div
         className="pointer-events-none absolute -bottom-56 -left-40 h-[520px] w-[520px] rounded-full opacity-30 blur-3xl"
-        style={{ background: 'radial-gradient(circle, rgba(255,138,61,0.5) 0%, transparent 70%)' }}
+        style={DECO_SUN}
         aria-hidden="true"
       />
 
@@ -78,12 +83,12 @@ export function Hero() {
             <div className="relative mt-6 overflow-hidden rounded-[20px] border border-border-2 bg-bg-alt">
               <div
                 className="pointer-events-none absolute -right-8 -top-10 h-40 w-40 rounded-full opacity-60 blur-2xl"
-                style={{ background: 'radial-gradient(circle, rgba(53,194,201,0.6) 0%, transparent 70%)' }}
+                style={STAGE_AQUA}
                 aria-hidden="true"
               />
               <div
                 className="pointer-events-none absolute -left-10 bottom-4 h-32 w-40 rounded-full opacity-50 blur-2xl"
-                style={{ background: 'radial-gradient(circle, rgba(0,119,182,0.35) 0%, transparent 70%)' }}
+                style={STAGE_NAVY}
                 aria-hidden="true"
               />
               <PictureImg

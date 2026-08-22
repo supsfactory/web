@@ -3,6 +3,9 @@ import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, cta } from '@/product/content'
 
+const DECO_AQUA: React.CSSProperties = { background: 'radial-gradient(circle, rgba(53,194,201,0.6) 0%, transparent 70%)' }
+const DECO_SUN: React.CSSProperties = { background: 'radial-gradient(circle, rgba(255,138,61,0.6) 0%, transparent 70%)' }
+
 /** Shared conversion band (ocean gradient, drifting waves + sunset CTA). */
 export function CtaBand({ productSlug }: { productSlug?: string }) {
   const { locale } = useTranslation()
@@ -15,12 +18,12 @@ export function CtaBand({ productSlug }: { productSlug?: string }) {
         {/* deco */}
         <div
           className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full opacity-40 blur-3xl"
-          style={{ background: 'radial-gradient(circle, rgba(53,194,201,0.6) 0%, transparent 70%)' }}
+          style={DECO_AQUA}
           aria-hidden="true"
         />
         <div
           className="pointer-events-none absolute -bottom-28 -right-20 h-80 w-80 rounded-full opacity-30 blur-3xl"
-          style={{ background: 'radial-gradient(circle, rgba(255,138,61,0.6) 0%, transparent 70%)' }}
+          style={DECO_SUN}
           aria-hidden="true"
         />
         {/* water layers */}
