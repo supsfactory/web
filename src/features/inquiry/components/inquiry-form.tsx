@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useRef } from 'react'
 import { createPortal } from 'react-dom'
 import { ArrowRight, Check, ChevronDown, ShieldCheck, UploadCloud, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
@@ -51,6 +51,7 @@ export function InquiryForm({
   const [customization, setCustomization] = useState<Record<string, boolean>>({})
   const [docs, setDocs] = useState<Record<string, boolean>>({})
   const [consent, setConsent] = useState(false)
+  const submittedRef = useRef(false)
 
   const toggleKey = useCallback((set: Record<string, boolean>, setter: (v: Record<string, boolean>) => void, value: string) => {
     setter({ ...set, [value]: !set[value] })
@@ -91,6 +92,7 @@ export function InquiryForm({
       setStep(2)
       return
     }
+    if (submittedRef.current || busy) return
     // The file input is optional, so native validation won't catch a bad file —
     // block the POST here so the server never sees an invalid logo.
     if (fileError) {
@@ -98,6 +100,7 @@ export function InquiryForm({
       return
     }
     setBusy(true)
+    submittedRef.current = true
     setMsg(null)
     setFileError(null)
     try {
@@ -122,6 +125,7 @@ export function InquiryForm({
         if (r.reason !== 'invalid') reset()
       }
     } catch {
+      submittedRef.current = false
       setMsg({ kind: 'err', text: t('inquiry.failed') })
       reset()
     } finally {
