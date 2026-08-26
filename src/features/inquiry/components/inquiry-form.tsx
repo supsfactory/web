@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react'
+import { useState, useCallback } from 'react'
 import { ArrowRight, Check, ChevronDown, ShieldCheck, UploadCloud, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
@@ -50,12 +50,6 @@ export function InquiryForm({
   const [customization, setCustomization] = useState<Record<string, boolean>>({})
   const [docs, setDocs] = useState<Record<string, boolean>>({})
   const [consent, setConsent] = useState(false)
-
-  useEffect(() => {
-    if (!submitSuccess) return
-    const timer = setTimeout(() => setSubmitSuccess(false), 4000)
-    return () => clearTimeout(timer)
-  }, [submitSuccess])
 
   const toggleKey = useCallback((set: Record<string, boolean>, setter: (v: Record<string, boolean>) => void, value: string) => {
     setter({ ...set, [value]: !set[value] })
@@ -149,6 +143,7 @@ export function InquiryForm({
   }, [])
 
   return (
+    <>
     <form onSubmit={submit} className="flex flex-col gap-4">
       {prefill?.intent && (
         <p className="flex items-center gap-2 rounded-lg border border-primary/25 bg-soft/60 px-3 py-2 text-[12.5px] font-medium text-primary">
@@ -479,26 +474,27 @@ export function InquiryForm({
         </div>
         <p className="text-center text-[12px] text-fg-3">{t('inquiry.noObligation')}</p>
       </fieldset>
-
-      {submitSuccess && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-          <div className="rounded-xl bg-background p-8 shadow-xl text-center max-w-sm mx-4">
-            <p className="text-2xl font-bold text-primary"><Check size={28} className="mx-auto mb-2" /></p>
-            <p className="text-[18px] font-bold">{t('inquiry.okA.title')}</p>
-            <p className="mt-3 text-[14px] leading-relaxed text-fg-2">
-              {t('inquiry.submittedSuccess')}
-            </p>
-            <button
-              type="button"
-              className="mt-6 rounded-lg bg-primary px-6 py-3 text-[14px] font-bold text-white transition-colors hover:bg-primary/90"
-              onClick={() => setSubmitSuccess(false)}
-            >
-              OK
-            </button>
-          </div>
-        </div>
-      )}
     </form>
+
+    {submitSuccess && (
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+        <div className="rounded-xl bg-background p-8 shadow-xl text-center max-w-sm mx-4">
+          <p className="text-2xl font-bold text-primary"><Check size={28} className="mx-auto mb-2" /></p>
+          <p className="text-[18px] font-bold">{t('inquiry.okA.title')}</p>
+          <p className="mt-3 text-[14px] leading-relaxed text-fg-2">
+            {t('inquiry.submittedSuccess')}
+          </p>
+          <button
+            type="button"
+            className="mt-6 rounded-lg bg-primary px-6 py-3 text-[14px] font-bold text-white transition-colors hover:bg-primary/90"
+            onClick={() => setSubmitSuccess(false)}
+          >
+            OK
+          </button>
+        </div>
+      </div>
+    )}
+    </>
   )
 }
 
