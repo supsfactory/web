@@ -168,7 +168,7 @@ export function InquiryForm({
       </div>
 
       {/* ── Step 1: project fit ── */}
-      <fieldset disabled={step === 2} className={step === 2 ? 'hidden' : ''}>
+      <fieldset className={step === 2 ? 'hidden' : ''}>
         <legend className="sr-only">{t('inquiry.step1Legend')}</legend>
         <div className="grid gap-4 sm:grid-cols-2">
           <div className="field">
