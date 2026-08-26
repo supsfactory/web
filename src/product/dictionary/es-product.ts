@@ -621,6 +621,7 @@ export const esProduct = {
       body: 'El precio OEM y las condiciones de producción dependen del alcance y la cantidad del proyecto. Revisa nuestra guía de muestras y MOQ y envía un brief de proyecto cuando tengas tu cantidad esperada, mercado y requisitos de personalización.',
       guideLink: 'Revisar la guía de muestras y MOQ',
     },
+    submittedSuccess: 'Tu consulta ha sido enviada correctamente. Nuestro equipo revisará tu proyecto y te contactará en 1 día laborable.',
     invalid: 'Completa los campos obligatorios.',
     captcha: 'Verificación fallida. Inténtalo de nuevo.',
     rateLimited: 'Demasiados intentos — vuelve a intentarlo en unos minutos.',

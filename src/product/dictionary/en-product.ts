@@ -621,6 +621,7 @@ export const enProduct = {
       body: 'Custom OEM pricing and production conditions depend on project scope and quantity. Please review our sample and MOQ guidance, then submit a project brief when you have your expected quantity, market and customization requirements.',
       guideLink: 'Review sample and MOQ guidance',
     },
+    submittedSuccess: 'Your inquiry has been submitted successfully. Our team will review your project and get back to you within 1 business day.',
     invalid: 'Please fill in the required fields.',
     captcha: 'Verification failed. Please try again.',
     rateLimited: 'Too many attempts — please try again in a few minutes.',
