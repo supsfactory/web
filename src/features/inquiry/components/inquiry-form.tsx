@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react'
+import { createPortal } from 'react-dom'
 import { ArrowRight, Check, ChevronDown, ShieldCheck, UploadCloud, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
@@ -476,7 +477,7 @@ export function InquiryForm({
       </fieldset>
     </form>
 
-    {submitSuccess && (
+    {submitSuccess && createPortal(
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
         <div className="rounded-xl bg-background p-8 shadow-xl text-center max-w-sm mx-4">
           <p className="text-2xl font-bold text-primary"><Check size={28} className="mx-auto mb-2" /></p>
@@ -492,7 +493,8 @@ export function InquiryForm({
             OK
           </button>
         </div>
-      </div>
+      </div>,
+      document.body,
     )}
     </>
   )
