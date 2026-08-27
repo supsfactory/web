@@ -528,5 +528,5 @@ export const seriesPages: Localized<SeriesPageData[]> = {
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {
-  return seriesPages[locale].find((s) => s.slug === slug)
+  return (seriesPages[locale] ?? seriesPages.en).find((s) => s.slug === slug)
 }

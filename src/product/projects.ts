@@ -1364,7 +1364,7 @@ export const projects: Localized<ProjectData[]> = {
 }
 
 export function getProject(locale: Locale, slug: string): ProjectData | undefined {
-  return projects[locale].find((p) => p.slug === slug)
+  return (projects[locale] ?? projects.en).find((p) => p.slug === slug)
 }
 
 export interface ProjectsMeta {

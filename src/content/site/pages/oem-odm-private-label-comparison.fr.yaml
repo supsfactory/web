@@ -1,0 +1,128 @@
+meta:
+  title: 'Fabrication SUP OEM vs ODM vs Marque privée — Guide de comparaison'
+  description: 'Fabrication SUP OEM vs ODM vs marque privée comparées : définitions, propriété, points d''entrée MOQ, délais, outillage, règles de propriété intellectuelle et scénarios les mieux adaptés.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM vs ODM vs marque privée'
+    - 'comparaison fabrication SUP'
+    - 'fabrication de planches à pagaie personnalisées'
+    - 'OEM SUP Chine'
+    - 'développement SUP ODM'
+    - 'SUP marque privée'
+
+hero:
+  tagline: 'Choisissez votre voie de collaboration'
+  title: 'OEM vs ODM vs Marque privée — quel modèle convient à votre projet ?'
+  subtitle: 'Trois façons de travailler avec une usine de SUP, chacune avec des compromis différents de propriété, d''investissement et de rapidité. Ce guide explique les différences pour que vous choisissiez la bonne voie avant votre première demande.'
+
+answer:
+  label: 'Comparaison rapide'
+  text: 'OEM : vous possédez le design et la spécification — nous fabriquons selon vos dessins. ODM : notre équipe d''ingénierie développe la planche à partir de votre brief — vous approuvez avant la production. Marque privée : votre marque sur une plateforme existante éprouvée sans modification structurelle — voie la plus rapide vers le marché. Les trois voies passent par la même usine, le même système de QC et la même équipe d''export à Qingdao, en Chine.'
+  verified: '2026-08'
+
+comparison_table:
+  tagline: 'Côte à côte'
+  title: 'Comparaison OEM / ODM / Marque privée'
+  subtitle: 'Principales différences en matière de propriété du design, MOQ, outillage, délai et propriété intellectuelle.'
+  headers:
+    dimension: Dimension
+    oem: Fabrication OEM
+    odm: Développement ODM
+    pl: Marque privée
+  rows:
+    - dimension: 'Qui conçoit la planche ?'
+      oem: 'Vous fournissez la spécification, les dessins ou la planche de référence'
+      odm: 'L''équipe d''ingénierie de l''usine développe à partir de votre brief'
+      pl: 'Plateforme d''usine existante — aucun travail de design nécessaire'
+    - dimension: 'Propriété du design et PI'
+      oem: 'Vous possédez tous les designs, moules et la propriété intellectuelle'
+      odm: 'Vous possédez le design final approuvé ; l''usine détient la PI du processus de développement'
+      pl: 'L''usine détient le design de la plateforme ; vous possédez votre marque et vos graphismes'
+    - dimension: 'Moule / outillage'
+      oem: 'Moule personnalisé requis pour les nouvelles formes — frais d''outillage uniques, 15–20 jours supplémentaires'
+      odm: 'Peut exiger un moule personnalisé selon la spéc. — même calendrier d''outillage'
+      pl: 'Pas de nouveau moule — l''outillage de plateforme existant est utilisé'
+    - dimension: 'Quantité minimale de commande'
+      oem: '90–100+ unités par configuration approuvée'
+      odm: '90–100+ unités par configuration approuvée ; lots pilotes dès 20–50'
+      pl: '5–10 unités (co-marquage) ou 20–50 (lot pilote sur plateforme existante)'
+    - dimension: 'Délai typique'
+      oem: '25–35 jours + 15–20 jours d''outillage si nouveau moule'
+      odm: '25–35 jours + temps d''itération du développement (varie selon la complexité)'
+      pl: '25–35 jours (aucun délai d''outillage)'
+    - dimension: 'Niveau de personnalisation'
+      oem: 'Complet — forme, construction, matériaux, graphismes, emballage'
+      odm: 'Complet — l''usine propose, vous approuvez chaque élément'
+      pl: 'Graphismes et emballage uniquement — aucune modification structurelle'
+    - dimension: 'Processus d''échantillon'
+      oem: '1–2 échantillons de prototype en 7–12 jours après approbation de la spéc.'
+      odm: '1–2 échantillons de prototype en 7–12 jours après approbation du design'
+      pl: '1–2 échantillons en 7–12 jours — plateforme déjà validée'
+    - dimension: 'Idéal pour'
+      oem: 'Les acheteurs avec des designs existants, des planches de référence ou des spéc. détaillées'
+      odm: 'Les acheteurs avec des idées de produit ou des exigences de marché mais sans spéc. détaillée'
+      pl: 'Les acheteurs qui ont besoin de planches marquées rapidement sans développement de produit'
+
+scenario_cards:
+  tagline: 'Quand choisir chaque voie'
+  title: 'Scénarios du monde réel'
+  subtitle: 'Situations courantes d''acheteurs et le modèle de collaboration recommandé.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Vous avez des spéc. complètes et vous possédez le design'
+      desc: 'Vous avez des dessins CAO, une planche de référence, ou une fiche de spéc. détaillée avec dimensions, matériaux, construction et exigences d''emballage. Choisissez OEM — nous fabriquons exactement selon votre spécification.'
+      link: '/fr/factory/oem-capability'
+      link_label: 'Détails de la fabrication OEM'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Vous avez un concept de produit mais aucune spéc. d''ingénierie'
+      desc: 'Vous connaissez le marché cible, le prix et les exigences de performance, mais avez besoin d''un support d''ingénierie pour développer la planche. Choisissez ODM — notre équipe développe à partir de votre brief, vous approuvez avant la production.'
+      link: '/fr/odm-development'
+      link_label: 'Détails du développement ODM'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Vous avez besoin de planches marquées rapidement, sans développement de produit'
+      desc: 'Vous êtes un distributeur, une station ou un opérateur de location qui veut votre logo sur des planches de qualité sans investir dans le développement de produit. Choisissez Marque privée — voie la plus rapide du concept à la livraison.'
+      link: '/fr/solutions/private-label-sup'
+      link_label: 'Détails de la marque privée'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Vous exploitez une station, un club ou une flotte de location'
+      desc: 'Vous avez besoin de packs SUP durables à usage haute fréquence avec cohérence des lots, pièces de rechange et gestion des couleurs sur les ré-commandes. Choisissez notre Programme de Flotte Commerciale.'
+      link: '/fr/solutions/resort-sup'
+      link_label: 'Détails de la flotte commerciale'
+
+ip_rules:
+  tagline: 'Protection de la propriété intellectuelle'
+  title: 'Comment nous protégeons vos designs et votre marque'
+  subtitle: 'Quel que soit le modèle de collaboration, vos graphismes, votre outillage et vos fichiers de spécification restent votre propriété.'
+  body: |
+    **NDA avant l''échange de fichiers.** Nous signons un accord de non-divulgation avant tout échange technique de fichiers — le délai de réponse standard est de 4 heures ouvrées.
+
+    **Pas de réutilisation du design.** Vos graphismes, votre outillage et vos fichiers de spécification ne sont jamais partagés avec ou vendus à d''autres clients. Les moules OEM vous appartiennent exclusivement. Les designs ODM sont approuvés par vous avant la production. Les plateformes Marque privée sont des structures partagées, mais vos graphismes et votre marque sont exclusifs.
+
+    **B2B uniquement.** Nous fabriquons exclusivement sous les marques de nos clients. Nous ne vendons pas aux consommateurs finaux et ne concurrençons pas nos clients sur aucun marché.
+
+    **Propriété du moule.** Les moules personnalisés payés par l''acheteur appartiennent à l''acheteur. Nous les stockons et les entretenons, mais ne pouvons pas les utiliser pour d''autres clients sans autorisation écrite.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Questions courantes sur OEM, ODM et Marque privée'
+  items:
+    - q: 'Puis-je passer de la marque privée à l''OEM plus tard ?'
+      a: 'Oui. De nombreux clients commencent par un lot de marque privée ou pilote pour valider le marché, puis investissent dans un outillage personnalisé pour un programme OEM complet une fois la demande prouvée. La même usine et le même système de QC soutiennent les deux voies.'
+    - q: 'ODM signifie-t-il que l''usine possède ma marque ?'
+      a: 'Non. En ODM, vous possédez votre marque, vos graphismes et votre emballage. L''usine développe la structure de la planche à partir de votre brief et vous approuvez le design avant la production. L''usine conserve la PI du processus de développement, mais la spécification de produit approuvée est la vôtre.'
+    - q: 'La marque privée est-elle de qualité inférieure à l''OEM ?'
+      a: 'Non. Les trois voies passent par la même usine, le même système de QC et la même équipe d''export. Les planches de marque privée sont construites sur des plateformes éprouvées et validées avec des tests de pression complets de 18 PSI / 24 h et la même liste de contrôle d''assemblage de 100 points.'
+    - q: 'Que faire si je ne suis pas sûr du modèle à choisir ?'
+      a: 'Contactez-nous avec votre situation — notre équipe d''ingénierie recommandera la voie la plus pratique en fonction de vos exigences produit, de votre calendrier et de vos objectifs de volume. Aucun engagement exigé avant l''examen de la spécification.'
+    - q: 'Puis-je obtenir des échantillons avant de m''engager dans un modèle ?'
+      a: 'Oui. 1–2 échantillons de prototype partent en 7–12 jours. Le coût de l''échantillon est crédité sur votre commande en gros. Cela vous permet d''évaluer la construction et la qualité avant tout engagement de volume.'
+
+cta:
+  title: 'Prêt à discuter de votre projet SUP ?'
+  subtitle: 'Parlez-nous de vos exigences produit, de votre marché et de vos objectifs de volume — nous recommanderons la voie de collaboration la plus pratique.'
+  button: 'Démarrez votre projet SUP'
+  note: 'Réponse sous 1 jour ouvré · NDA disponible avant l''échange de fichiers'

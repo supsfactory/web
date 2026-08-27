@@ -270,7 +270,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
-  return knowledge[locale].find((a) => a.slug === slug)
+  return (knowledge[locale] ?? knowledge.en).find((a) => a.slug === slug)
 }
 
 export interface KnowledgeMeta {

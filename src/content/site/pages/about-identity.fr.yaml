@@ -1,0 +1,91 @@
+meta:
+  title: 'À propos de SUPsfactory — Identité de marque, division de fabrication de Qingdao Vatrad Group | SUPsfactory'
+  description: 'Identité de marque de SUPsfactory : division de fabrication de SUP gonflables et d''embarcations nautiques gonflables. Localisation de l''usine, entité juridique, certifications et positionnement de la marque.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'identité supsfactory'
+    - 'Qingdao Vatrad Group'
+    - 'fabricant de sup Afarer'
+    - 'usine de sup Laixi Qingdao'
+    - 'fabricant de sup gonflable Chine'
+    - 'identité d''usine OEM sup'
+
+hero:
+  tagline: 'Identité de marque'
+  title: 'Qui est SUPsfactory ?'
+  subtitle: 'SUPsfactory est la division de fabrication nautique de Qingdao Vatrad Group Co., Ltd. — un fabricant spécialisé de SUP gonflables et de produits nautiques gonflables situé à Laixi, Qingdao, en Chine. Nous fabriquons exclusivement sous les marques de nos clients et ne concurrençons jamais ces derniers sur aucun marché.'
+
+answer:
+  label: 'En bref'
+  text: 'Entité juridique : Qingdao Vatrad Group Co., Ltd. Division de fabrication : Afarer (marque SUPsfactory). Usine : Laixi, Qingdao, Shandong, Chine. Périmètre : fabrication OEM, ODM et en marque privée de planches de SUP gonflables, de pagaies et d''embarcations nautiques. Certifications : ISO 9001:2015, CE (modèles destinés à l''UE), BSCI, REACH, RoHS. Nous ne vendons pas sous notre propre marque — chaque planche que nous produisons porte la marque de l''acheteur.'
+  verified: '2026-08'
+
+identity_detail:
+  tagline: Juridique et organisation
+  title: 'Entité juridique et structure'
+  subtitle: 'Transparence totale sur la structure de l''entreprise, le périmètre de fabrication et les certifications.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: L
+      icon_bg: blue
+      title: 'Entité juridique'
+      desc: 'Qingdao Vatrad Group Co., Ltd. — l''entité contractante pour tous les accords de fabrication, les bons de commande et la documentation d''exportation. Enregistrée à Qingdao, Shandong, en Chine.'
+    - icon: M
+      icon_bg: green
+      title: 'Division de fabrication'
+      desc: 'Afarer opère comme division de fabrication nautique au sein de Qingdao Vatrad Group. SUPsfactory est la marque orientée acheteurs utilisée pour les services de fabrication OEM, ODM et en marque privée à l''international.'
+    - icon: F
+      icon_bg: purple
+      title: 'Localisation de l''usine'
+      desc: 'Laixi, Qingdao, Shandong, Chine. Installation de production de plus de 10 000 m² avec 4 lignes de production, découpe CNC, soudage radiofréquence, laboratoire d''essais de pression et entrepôt de matériaux. À 120 km du port de Qingdao.'
+
+manufacturing_scope:
+  heading: 'Périmètre de fabrication'
+  body: |
+    Notre périmètre de fabrication couvre toute la chaîne de production des SUP gonflables et des produits nautiques — de l'inspection d'entrée des matières premières jusqu'à l'emballage final et la documentation d'exportation.
+
+    - **Catégories de produits** : planches de SUP gonflables (all-around, touring, surf, pêche, yoga, course), kayaks gonflables, bateaux gonflables, pagaies, pompes et accessoires.
+    - **Types de construction** : PVC monocouche, PVC double couche, noyau drop-stitch avec enveloppe PVC. Spécifications de construction personnalisées par projet.
+    - **Modèles de collaboration** : OEM (conception appartenant à l'acheteur), ODM (conception développée par l'usine à partir du cahier des charges acheteur), marque privée/co-branding (marque appliquée sur des plateformes éprouvées).
+    - **Certifications** : ISO 9001:2015 (management de la qualité de l'usine), CE (modèles destinés à l'UE, périmètre selon projet), BSCI (conformité sociale), REACH (sécurité chimique), RoHS (substances restreintes).
+    - **Capacité de production** : plus de 30 000 planches par an, plus de 2 500 unités par mois. Montée en cadence possible avec planification anticipée.
+
+brand_positioning:
+  heading: 'Positionnement de la marque'
+  body: |
+    SUPsfactory occupe une position spécifique sur le marché — nous ne sommes pas une marque, nous sommes un fabricant. Cette distinction façonne tous les aspects de notre fonctionnement :
+
+    - **Nous ne vendons jamais sous notre propre marque.** Chaque planche que nous produisons porte la marque de l'acheteur. Nous ne concurrençons pas nos clients sur aucun marché, aucun canal. Cette politique n'est pas négociable.
+    - **Nous ne sommes pas une société de négoce.** Nous exploitons l'usine. Le contrôle qualité, l'ingénierie, la planification de la production et la documentation d'exportation sont tous gérés en interne. Aucun intermédiaire entre votre commande et l'atelier de production.
+    - **Nous sommes spécialisés dans les produits gonflables.** Ce n'est ni une activité secondaire ni une catégorie de produits parmi d'autres. Les SUP gonflables et les produits nautiques sont notre cœur de compétence. Chaque machine, chaque processus, chaque poste de contrôle qualité est optimisé pour cette catégorie de produits.
+    - **Nous servons des acheteurs professionnels.** Nos clients sont des marques, des distributeurs, des opérateurs de resorts, des clubs et des écoles — pas des consommateurs individuels. Nos prix, notre structure de MOQ, notre documentation et notre communication sont conçus pour les relations B2B.
+
+evidence_review:
+  tagline: 'Preuves et vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: 'Toutes les allégations organisationnelles et de fabrication de cette page sont vérifiables. Le certificat ISO 9001, le rapport BSCI, la licence commerciale et les documents d''enregistrement de l''usine sont disponibles sur demande. Visites d''usine bienvenues. Spécifications dernièrement vérifiées en 2026-08.'
+
+faqs:
+  tagline: FAQ
+  title: 'Identité de marque — Questions fréquentes'
+  items:
+    - q: 'SUPsfactory est-elle une société distincte de Qingdao Vatrad Group ?'
+      a: 'Non. SUPsfactory est la marque orientée acheteurs d''Afarer, qui est la division de fabrication nautique de Qingdao Vatrad Group Co., Ltd. L''entité juridique contractante pour toutes les commandes est Qingdao Vatrad Group Co., Ltd. L''usine, l''équipe et le système qualité constituent une seule opération.'
+    - q: 'Vendez-vous des planches sous votre propre marque ?'
+      a: 'Non. Nous fabriquons exclusivement sous les marques de nos clients et ne les concurrençons jamais sur aucun marché. C''est une politique fondamentale — et non une position temporaire. Si vous trouvez sur le marché une planche de marque SUPsfactory, elle ne provient pas de notre usine.'
+    - q: 'Puis-je visiter l''usine ?'
+      a: 'Oui. Nous accueillons volontiers les visites d''usine et pouvons organiser un audit structuré couvrant l''ensemble du processus de production, les postes de contrôle qualité, l''entrepôt de matériaux et la revue documentaire. Contactez-nous pour planifier une visite.'
+    - q: 'Quelle est la relation entre Afarer et SUPsfactory ?'
+      a: 'Afarer est le nom de la division de fabrication au sein de Qingdao Vatrad Group. SUPsfactory est la marque internationale orientée acheteurs utilisée pour les services de fabrication OEM, ODM et en marque privée. Elles désignent la même opération — la division de fabrication nautique de Laixi, Qingdao.'
+
+cta:
+  title: 'Prêt à vérifier notre usine ?'
+  subtitle: 'Demandez de la documentation, planifiez une visite d''usine ou lancez votre cahier des charges de projet. Transparence totale, sans exception.'
+  actions:
+    - variant: primary
+      text: Demander la documentation
+      href: /fr/contact#project-brief
+    - text: Vérifier les certifications et le système qualité
+      href: /fr/proof-center
+    - text: Processus d'intégration OEM
+      href: /fr/oem-onboarding-guide

@@ -1,0 +1,170 @@
+meta:
+  title: 'Guide MOQ SUP : Marque flexible et quantités minimales de commande'
+  description: 'Comment le MOQ du SUP gonflable est calculé : les rouleaux de drop-stitch de 150 m donnent 90–100 planches, co-marquage dès 5–10 unités et frais de moule transparents.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'MOQ SUP'
+    - 'quantité minimale de commande SUP gonflable'
+    - 'programme de co-marquage SUP'
+    - 'SUP petit lot'
+    - 'MOQ planche à pagaie personnalisée'
+    - 'usine OEM de SUP en Chine'
+
+hero:
+  tagline: 'Transparent et spécifique au projet'
+  title: 'Guide du MOQ de fabrication et de marque flexible'
+  subtitle: 'Comprenez la physique de la matière première drop-stitch qui régit les séries de production de SUP — et comment notre programme de co-marquage à faible barrière fonctionne pour les opérateurs de location, les clubs, les stations et les marques de sports nautiques en croissance. Conçu et opéré par Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Réponse directe'
+  text: 'Le MOQ n''est pas un chiffre unique. Chaque MOQ est confirmé par la configuration du projet : forme de la coque et outillage, coloris et PVC, complexité des graphismes, emballage et mix d''accessoires. La production en volume entièrement personnalisée s''exécute à 90–100 unités par lot à partir d''un rouleau de tissu drop-stitch standard de 150 m ; le co-marquage en petits lots démarre dès 5–10 unités ; et chaque projet est divisé en trois étapes distinctes — développement d''échantillon (1–2 unités), commande pilote (20–50 unités) et production en volume (90–100+ unités). Nous confirmons le calcul exact pour votre mix de SKU avant devis — pas de promesses vagues de « MOQ bas », pas de compromis cachés.'
+  verified: '2026-08'
+
+moq_principle:
+  tagline: La logique d''ingénierie
+  title: 'Pourquoi le MOQ de volume standard est de 90–100 unités : physique des rouleaux de matière première'
+  subtitle: 'Les tailles des séries de production ne sont pas des chiffres arbitraires fixés par une équipe commerciale — elles sont déterminées par les longueurs des rouleaux de tissu drop-stitch brut et la physique des changements de ligne.'
+  body: |
+    **La base brute de 150 mètres.** Le tissu drop-stitch tissé haute résistance est produit et enduit sur des rouleaux maîtres continus. La longueur de rouleau industriel standard d''un lot unique est de 150 mètres de matière continue.
+
+    **Le calcul de rendement (90 à 100 planches).** Pour une coque SUP standard de randonnée ou polyvalente (10 ft 6 po à 11 ft 6 po), un rouleau maître complet de 150 m donne environ 90 à 100 planches à pagaie finies.
+
+    **Politique de zéro épissure du tissu.** Des rouleaux de tissu complets garantissent une continuité structurelle complète — aucune épissure de tissu transversale à haut risque, et une tension de fibre uniforme à travers les surfaces supérieure et inférieure de la planche.
+
+    **Calibrage thermique et adhésif.** Les lignes automatisées de soudure à air chaud haute fréquence et de laminage adhésif marin exigent 2 heures de préchauffage, de profilage de température et de calibrage de pression. Un lot complet de 90–100 unités amortit ces coûts fixes de configuration, offrant le coût unitaire le plus bas possible.
+
+moq_tiers:
+  tagline: Deux voies vers votre marque
+  title: 'OEM de volume entièrement personnalisé vs co-marquage en petits lots'
+  subtitle: 'Une usine, deux points d''entrée : la production de masse entièrement personnalisée pour les lignes établies, et un programme de co-marquage à faible barrière pour les clubs, les hubs de location et les marques en croissance.'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'OEM de volume entièrement personnalisé — 90–100 unités par lot'
+      desc: 'Déterminé par la longueur standard du rouleau de 150 m de tissu drop-stitch brut haute qualité pour garantir une utilisation optimale des matériaux et une cohérence structurelle. · 100 % de personnalisation complète : forme de coque exclusive et coloris Pantone personnalisés · Couverture graphique numérique pleine surface ou sérigraphiée · Emballage retail personnalisé de marque, cartons imprimés et accessoires de marque · Efficacité de coût maximale et économies d''échelle'
+      link: '/fr/contact#custom-oem'
+      link_label: 'Se renseigner pour l''OEM de volume'
+    - icon: B
+      icon_bg: green
+      title: 'Co-marquage en petits lots — moins de 20 unités'
+      desc: 'Une solution à faible barrière construite sur nos collections annuelles de produits éprouvées sur le terrain pour les clubs, les hubs de location et les stations — zéro stock lourd. · Coque et géométrie fixes : formes de coque éprouvées sur le terrain avec conformité CE / ISO 25649 · Identifiant principal : marquage officiel SUPsfactory dans la section centrale · Marquage secondaire personnalisé : votre logo imprimé sur le nez ou les rails latéraux · Test de pression et d''étanchéité à l''air de 24 heures à 100 % de la série'
+      link: '/fr/contact#cobranding'
+      link_label: 'Démarrer le co-marquage en petits lots'
+
+moq_fees:
+  tagline: Frais de sérigraphie transparents
+  title: 'Structure des frais de co-marquage — détaillés à l''avance'
+  subtitle: 'Tarification claire et détaillée pour la sérigraphie en petits lots. Les frais de moule sont facturés une fois à la configuration initiale et levés pour les ré-commandes utilisant la même dimension de graphisme.'
+  headers:
+    fee: élément de frais
+    amount: Montant
+    detail: Détails
+  rows:
+    - fee: 'Frais de moule de sérigraphie (une fois, logo jusqu''à 30 cm)'
+      amount: '10,00 $ USD'
+      detail: 'Facturé une fois à la configuration initiale ; levé pour les ré-commandes avec la même dimension de graphisme.'
+    - fee: 'Frais de moule de sérigraphie (une fois, logo jusqu''à 50 cm)'
+      amount: '15,00 $ USD'
+      detail: 'Facturé une fois à la configuration initiale ; levé pour les ré-commandes avec la même dimension de graphisme.'
+    - fee: 'Frais de traitement d''usine et d''impression de précision'
+      amount: '1,00 $ USD par planche'
+      detail: 'Couvre le positionnement des coordonnées manuel, le prétraitement au solvant, le transfert d''encre et le durcissement à chaud.'
+
+moq_stages:
+  tagline: Échantillon · Pilote · Volume
+  title: 'Trois étapes de quantité distinctes'
+  subtitle: 'Les quantités de production d''échantillon, de pilote et de volume sont différentes. Chaque projet est catégorisé en trois niveaux distincts pour que vous validiez avant de vous engager.'
+  steps:
+    - step: '01'
+      title: 'Développement d''échantillon (1–2 unités)'
+      desc: 'Confirmation physique de la rigidité de la coque, de la texture du tapis de traction EVA, de la précision des graphismes et du montage des accessoires avant tout engagement financier. Des frais d''échantillon s''appliquent et sont crédités sur votre commande de production à la signature du contrat.'
+    - step: '02'
+      title: 'Commande pilote (20–50 unités)'
+      desc: 'Tests commerciaux de pré-saison et validation des marchés régionaux en utilisant les plateformes de coque existantes, les matériaux en stock et un emballage simplifié pour minimiser les frictions de configuration.'
+    - step: '03'
+      title: 'Production en volume (90–100+ unités)'
+      desc: 'Confirmée après BOM figé, graphismes finalisés, emballage personnalisé et plans de livraison programmés — rouleaux de tissu complets de 150 m, tissus Pantone personnalisés, emballage sur mesure, remises de volume et traçabilité de lot complète sur toute la chaîne.'
+
+moq_factors:
+  tagline: Ce qui détermine votre MOQ
+  title: 'Pourquoi le MOQ entièrement personnalisé est toujours spécifique au projet'
+  subtitle: 'Pour une fabrication 100 % sur mesure, le MOQ est calculé à partir de l''architecture produit complète — ces quatre composants sont évalués ensemble avant le devis.'
+  headers:
+    component: Composant du projet
+    driver: Facteur de fabrication
+    impact: Impact sur la quantité minimale
+  rows:
+    - component: 'Forme de la coque et outillage'
+      driver: 'Moules de rocker d''usine existants vs matrices de découpe CAO sur mesure et outillage de presse à chaud EVA'
+      impact: 'Plateformes existantes : commandes pilotes dès 20 pièces. Coques sur mesure : amortissement d''outillage dédié requis.'
+    - component: 'Coloris et PVC'
+      driver: 'Couleurs standard uniques en stock vs feuilles PVC teintées Pantone propriétaires'
+      impact: 'Le PVC Pantone personnalisé exige des séries de teinture chimique dédiées avec des MOQ de matière première indépendants.'
+    - component: 'Emballage de marque'
+      driver: 'Cartons génériques avec étiquettes de code-barres vs boîtes cadeaux retail 5 couches pleine couleur et manuels de marque'
+      impact: 'Les boîtes couleur personnalisées portent un minimum de presse d''impression offset indépendant (généralement 500+ boîtes).'
+    - component: 'Packs d''accessoires'
+      driver: 'Pagaies aluminium ou nylon standard vs pagaies carbone assorties sur mesure et pompes de marque'
+      impact: 'Les accessoires entièrement marqués suivent les lots de production des fournisseurs de sous-niveau.'
+
+moq_downloads:
+  tagline: Documents officiels
+  title: 'Fichiers de politique bilingues — télécharger et partager'
+  subtitle: 'Documents officiels de Qingdao Vatrad Group Co., Ltd., prêts à joindre aux demandes d''acheteurs. Les deux fichiers sont bilingues (anglais / chinois).'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Guide de marque et MOQ flexible (PDF)'
+      desc: 'Guide B2B officiel (Partie I, DOC-MOQ-EXP-2026-EN, publié le 14 août 2026) : la logique d''ingénierie derrière les rendements des rouleaux de drop-stitch de 150 m (90–100 planches), le programme de co-marquage dès 5–10 unités, les frais de sérigraphie transparents et les trois étapes de production.'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Télécharger le guide (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Politique de marque flexible et de co-marquage (PDF)'
+      desc: 'Dossier de politique officiel (Partie 1, POL-MOQ-2026-V1) : règles du co-marquage en petits lots, cadre de MOQ spécifique au projet, les quatre facteurs qui déterminent les minimums, et signature conjointe du VP des ventes, de l''ingénieur en chef et du directeur QA.'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link_label: 'Télécharger la politique (PDF)'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Questions fréquentes sur le MOQ'
+  items:
+    - q: 'Le MOQ est-il calculé par commande, par modèle ou par coloris ?'
+      a: 'Le MOQ peut s''appliquer par modèle, coloris, version de graphisme, configuration d''emballage ou commande totale. Parce que différentes épaisseurs de drop-stitch (12 cm vs 15 cm) et couleurs de PVC proviennent de rouleaux de matière première distincts, commander 50 planches réparties sur 5 couleurs crée 5 exigences de rouleau de tissu séparées. Nous confirmons le calcul exact contre votre matrice de SKU avant devis pour que vous puissiez planifier clairement votre mix.'
+    - q: 'Puis-je commander un échantillon avant la production en masse ?'
+      a: 'Oui. Le développement d''échantillon (1–2 unités) vérifie la rigidité de la coque, la texture du tapis de traction EVA, la précision des graphismes et le montage des accessoires avant la sortie de production de masse. Des frais d''échantillon s''appliquent et sont crédités sur votre commande de production à la signature du contrat.'
+    - q: 'Pourquoi l''emballage retail personnalisé a-t-il un MOQ indépendant ?'
+      a: 'Les presses d''impression de cartons flexographiques ou offset personnalisées exigent une configuration de production minimale de 500+ unités. Nous proposons une Solution de Stockage d''Emballage Hybride : nous produisons les 500 cartons imprimés personnalisés, stockons le surplus dans notre entrepôt propre, et les libérons sur vos expéditions de planches programmées — pour qu''une commande de planches plus petite puisse encore partir en emballage retail entièrement marqué.'
+    - q: 'Pourquoi le MOQ de volume standard est-il de 90–100 unités ?'
+      a: 'Le MOQ de volume standard suit la matière première : un rouleau maître de 150 m de tissu drop-stitch haute qualité donne environ 90–100 planches finies pour une coque standard de randonnée ou polyvalente. L''exécution de rouleaux complets élimine l''épissure du tissu, maintient une tension de fibre uniforme et amortit le calibrage de 2 heures de la ligne de soudure et de laminage — offrant le coût unitaire le plus bas possible.'
+    - q: 'Une quantité plus élevée réduit-elle le coût unitaire ?'
+      a: 'Dans la plupart des projets, oui. Des quantités plus élevées améliorent le rendement matière, répartissent les frais généraux fixes de configuration de la ligne sur plus de planches et réduisent les coûts d''emballage par unité.'
+    - q: 'Les frais de moule de co-marquage s''appliquent-ils à nouveau sur les ré-commandes ?'
+      a: 'Non. Les frais de moule de sérigraphie sont facturés une fois à la configuration initiale et sont levés pour les ré-commandes utilisant la même dimension de graphisme. Vous ne payez que les 1,00 $ USD par planche de traitement d''usine et d''impression.'
+    - q: 'Demander des conseils sur le MOQ m''engage-t-il dans une commande ?'
+      a: 'Non. Demander des conseils sur le MOQ de projet permet simplement à notre équipe d''ingénierie de Qingdao Vatrad Group Co., Ltd. d''examiner votre brief technique et de conseiller la voie de production la plus rentable. Un accord de non-divulgation (NDA) est disponible avant que vous partagiez des spécifications techniques ou des graphismes propriétaires.'
+
+evidence_review:
+  tagline: 'Preuves et vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées 2026-08.'
+
+cta:
+  title: 'Besoin de conseils sur le MOQ pour votre projet SUP ?'
+  subtitle: 'Partagez votre modèle de planche cible, votre fourchette estimée de première commande et vos exigences de marque. Nous vous conseillerons si une voie d''échantillon, de pilote ou de volume est la prochaine étape la plus adaptée. Soumettre une demande ne vous engage pas à une quantité de commande finale — une discussion NDA est disponible.'
+  actions:
+    - variant: primary
+      text: Demander des conseils sur le MOQ de projet
+      href: /fr/contact#moq-guide
+    - text: Décomposition du MOQ et des délais SUP personnalisés
+      href: /fr/sup-oem-moq-lead-time
+    - text: Lancez une nouvelle marque avec une commande d''essai
+      href: /fr/new-brand-trial-order
+    - text: Vérifier l''usine et le système qualité
+      href: /fr/oem-trust-assurance
+    - text: Le système d''inspection en 7 étapes
+      href: /fr/quality
+    - text: Aperçu de la fabrication OEM et ODM
+      href: /fr/oem-manufacturing
+    - text: Comparaison de construction SUP
+      href: /fr/sup-construction-comparison

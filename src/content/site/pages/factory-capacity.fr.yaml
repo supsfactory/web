@@ -1,0 +1,85 @@
+meta:
+  title: 'Capacité de production — usine de 12 500 m² | {SITE}'
+  description: 'Capacité de l''usine Afarer : installation de 12 500 m² produisant plus de 120 000 planches de SUP par an avec de la marge pour évoluer. Fabrication OEM/ODM de SUP gonflables à grande échelle.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'capacité de production sup'
+    - 'usine sup gonflable'
+    - 'production planches à pagaie'
+    - 'usine sup chine'
+hero:
+  tagline: Capacité de production
+  title: Capacité de fabrication et production annuelle
+  subtitle: 'Installation de 12 500 m² produisant plus de 120 000 planches de SUP par an avec de la marge pour évoluer'
+
+answer:
+  label: 'Réponse directe'
+  text: 'Capacité d''usine : 12 500 m² répartis sur quatre ateliers spécialisés, plus de 120 000 planches de SUP par an, 350+ ouvriers sur deux équipes, export vers plus de 50 pays. Le MOQ est confirmé par la configuration du projet — échantillon (1–2 unités), pilote (20–50 unités) et volume standard (90–100+ unités par rouleau de 150 m) ; consultez notre Guide MOQ et marque flexible pour la logique complète. Délai de 25–35 jours, échantillons en 7–12 jours.'
+  verified: '2026-08'
+
+intro: 'Afarer exploite l''une des plus grandes installations de fabrication dédiées de SUP gonflables à Qingdao, en Chine. Notre usine de 12 500 m² est organisée en quatre ateliers spécialisés fonctionnant en parallèle, ce qui nous permet de produire plus de 120 000 planches par an sur les lignes de SUP et d''équipements de sécurité.'
+
+highlights:
+  - value: 12 500 m²
+    label: Surface totale de fabrication
+    detail: Sur 4 ateliers spécialisés
+  - value: 120 000+
+    label: Planches produites chaque année
+    detail: SUP et équipements de sécurité
+  - value: 350+
+    label: Effectif qualifié
+    detail: 25+ ingénieurs, 2 équipes/jour
+  - value: 50+
+    label: Pays d''export
+    detail: UE, US, AU, Moyen-Orient, Asie
+  - value: 25–35
+    label: Délai standard (jours)
+    detail: Après bon de commande confirmé et acompte
+  - value: 10+
+    label: Années d''expérience à l''export
+    detail: Depuis 2012
+
+workshops:
+  - title: Production de planches de SUP
+    description: '4 lignes d''assemblage automatisées pour les planches de SUP gonflables avec une production combinée d''environ 10 000 planches par mois. Les postes d''impression numérique et de sérigraphie fonctionnent en parallèle. Capacité SUP annuelle : plus de 120 000 planches.'
+    output: '120 000+ SUP/an'
+  - title: Production de planches de SUP
+    description: 'Capacité de production élargie pour les planches de SUP utilisant des lignes d''assemblage supplémentaires. L''assemblage du noyau drop-stitch, l''impression numérique et les postes d''assemblage fonctionnent en parallèle.'
+    output: 'Capacité SUP élargie'
+  - title: Planches de SUP et accessoires
+    description: 'Lignes de production polyvalentes pour les planches de SUP et les accessoires. Les postes de soudure à l''air chaud, les presses diélectriques RF et les postes d''assemblage sont reconfigurés selon le mix de commandes. Capacité annuelle : plus de 5 000 unités.'
+    output: '5 000+ unités/an'
+  - title: Équipements de sécurité
+    description: 'Zone de production en salle blanche séparée pour les gilets de sauvetage et les équipements de sécurité. Postes de couture, d''insertion de mousse et de test dédiés. Capacité annuelle de gilets de sauvetage : plus de 50 000 unités.'
+    output: '50 000+ gilets de sauvetage/an'
+
+oem_capacity:
+  moq: 'SUP : échantillon 1–2 | pilote 20–50 | volume 90–100+ (par rouleau de 150 m)'
+  lead_time: 'Standard 25–35 jours. Échantillon 7–12 jours. Urgence disponible.'
+  payment: 'T/T 30 % d''acompte + 70 % de solde. L/C, Western Union acceptés.'
+
+lead_time_explainer:
+  tagline: 'Planification et programmation'
+  title: 'Comment la capacité se traduit dans votre livraison'
+  subtitle: 'La capacité n''est pas un chiffre unique — voici comment les délais sont réellement alloués.'
+  items:
+    - title: 'La capacité varie avec votre spécification'
+      body: 'Les créneaux disponibles changent avec le type de planche, la complexité de construction, l''emballage et la demande saisonnière. Pendant la montée en charge printemps/été, les lignes tournent à plein et les créneaux d''échantillons se réservent en premier.'
+    - title: 'Planifiez avant votre saison de lancement'
+      body: 'Verrouillez tôt votre confirmation d''échantillon et votre gel des graphismes. Les commandes renouvelées sont programmées dans votre créneau récurrent convenu une fois l''échantillon doré archivé.'
+    - title: 'Trois voies de programmation'
+      body: 'Les échantillons entrent d''abord dans la ligne prototype, les commandes initiales s''insèrent dans la fenêtre d''assemblage ouverte la plus proche, et les commandes renouvelées tournent dans leur créneau récurrent.'
+    - title: 'Délais fermes après revue'
+      body: 'Nous confirmons un délai ferme uniquement après revue de la spécification, des graphismes, de l''emballage et de la quantité — jamais comme une promesse fixe à l''avance.'
+
+cta:
+  title: 'Vérifiez la disponibilité de production pour votre date de lancement'
+  subtitle: 'Envoyez votre type de planche, votre quantité et votre date d''expédition cible — nous répondons avec la prochaine fenêtre de production ouverte et une estimation de délai ferme.'
+  actions:
+    - variant: primary
+      text: Vérifier la disponibilité
+      href: /fr/contact#production-availability
+    - text: Voir la vue d''ensemble complète de l''usine
+      href: /fr/factory
+    - text: Comment les planches sont construites
+      href: /fr/factory/process

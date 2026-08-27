@@ -22,6 +22,14 @@ import { seriesPages } from './series-pages'
 import { knowledge, knowledgeMeta } from './knowledge'
 import { projects, projectsMeta } from './projects'
 import { GUIDE_CARDS } from './guide-content'
+
+function pickArr<T>(d: Record<string, T[]>, locale: Locale): T[] {
+  return d[locale] ?? d.en
+}
+
+function pickVal<T>(d: Record<string, T>, locale: Locale): T {
+  return d[locale] ?? d.en
+}
 import { brandify } from '@/features/content/brand'
 import { HUB_PAGE_ENTRIES } from './ai-content'
 
@@ -75,7 +83,7 @@ function productsContent(locale: Locale): string {
     p.kicker, p.title, p.sub,
     p.items.flatMap((x) => [x.name, x.tagline, x.desc, x.specs, ...x.uses, ...x.for]),
     sy.kicker, sy.title, sy.sub, sy.items.flatMap((x) => [x.title, x.body]),
-    seriesPages[locale].flatMap((s) => [s.navLabel, s.metaDescription]),
+    pickArr(seriesPages, locale).flatMap((s) => [s.navLabel, s.metaDescription]),
   )
 }
 
@@ -89,19 +97,20 @@ function solutionsContent(locale: Locale): string {
 }
 
 function projectsContent(locale: Locale): string {
-  const m = projectsMeta[locale]
+  const m = pickVal(projectsMeta, locale)
   return parts(
     m.h1, m.metaDescription,
-    projects[locale].flatMap((p) => [p.industry, p.productCategory, p.h1, p.requirement]),
+    pickArr(projects, locale).flatMap((p) => [p.industry, p.productCategory, p.h1, p.requirement]),
   )
 }
 
 function knowledgeContent(locale: Locale): string {
   const mfg = pick(manufacturingGuides, locale)
+  const km = pickVal(knowledgeMeta, locale)
   return parts(
-    knowledgeMeta[locale].h1, knowledgeMeta[locale].metaDescription,
-    knowledge[locale].flatMap((a) => [a.h1, a.intro]),
-    GUIDE_CARDS[locale].flatMap((g) => [g.title, g.intro]),
+    km.h1, km.metaDescription,
+    pickArr(knowledge, locale).flatMap((a) => [a.h1, a.intro]),
+    pickArr(GUIDE_CARDS, locale).flatMap((g) => [g.title, g.intro]),
     mfg.title, mfg.sub, mfg.guides.flatMap((g) => [g.title, g.body]),
   )
 }
@@ -119,8 +128,8 @@ function galleryContent(locale: Locale): string {
 
 export function buildHubEntries(locale: Locale): SearchEntry[] {
   const templates = HUB_PAGE_ENTRIES[locale] ?? HUB_PAGE_ENTRIES.en
-  const projectsMetaData = projectsMeta[locale]
-  const knowledgeMetaData = knowledgeMeta[locale]
+  const projectsMetaData = pickVal(projectsMeta, locale)
+  const knowledgeMetaData = pickVal(knowledgeMeta, locale)
   const contentFns: Record<string, (l: Locale) => string> = {
     '/': homeContent,
     '/es': homeContent,

@@ -1,0 +1,176 @@
+meta:
+  title: 'Lancez votre marque de SUP avec une commande d''essai à faible MOQ | SUPsfactory'
+  description: 'Lancez une marque de SUP gonflable avec une commande d''essai à faible MOQ : échantillons en 7–12 jours, séries pilotes de 20–50 planches, production en 25–35 jours. Marque et QC pris en charge.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'lancer une marque de SUP'
+    - 'lancement de marque SUP'
+    - 'SUP à faible MOQ'
+    - 'commande d''essai SUP'
+    - 'marque SUP startup'
+    - 'marque SUP petit lot'
+    - 'SUP gonflable marque privée'
+
+hero:
+  tagline: 'Pour les marques de SUP nouvelles et en croissance'
+  title: 'Lancez votre marque de SUP avec une commande d''essai à faible MOQ'
+  subtitle: 'Vous n''avez pas besoin d''un conteneur pour lancer une marque de SUP. Validez votre planche, vos graphismes et votre marché avec un seul échantillon, puis testez l''écoulement avec une commande d''essai de 20–50 planches — avant de jamais vous engager dans des volumes de production complets. La marque, le contrôle qualité et la logistique d''export sont gérés par Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Commencez votre lancement avec un échantillon
+      href: /fr/contact#custom-oem
+    - text: Voir le cadre complet MOQ et délais
+      href: /fr/sup-oem-moq-lead-time
+
+answer:
+  label: 'Réponse directe'
+  text: 'Oui — vous pouvez lancer une marque de SUP gonflable avec une commande d''essai à faible MOQ. Le point d''entrée est étagé plutôt que tout-ou-rien : commandez d''abord 1–2 échantillons (prêts en 7–12 jours) pour figer votre coque, vos graphismes et votre emballage ; puis placez une commande d''essai de 20–50 planches (production en 25–35 jours) pour tester l''écoulement réel ; enfin passez à l''échelle en séries de volume standard de 90–100+ planches par rouleau de tissu drop-stitch de 150 m une fois le format prouvé. Le co-marquage en petits lots commence dès 5–10 unités pour les opérateurs qui veulent des planches marquées sans aucune étape de développement. Votre premier conteneur n''arrive que lorsque les données le justifient.'
+  verified: '2026-08'
+
+trial_included:
+  tagline: Ce que couvre la commande d''essai
+  title: 'Tout ce qu''un lancement nécessite, sans les frais généraux'
+  subtitle: 'Une commande d''essai n''est pas une facture réduite — c''est le même processus d''usine, dimensionné pour une marque en lancement. Voici ce que chaque programme d''essai inclut.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: 'Plateforme et construction de planche'
+      desc: 'Coques de randonnée et polyvalentes éprouvées sur le terrain avec construction drop-stitch, fusion de bande de rail triple couche et rigidité de 12–15 PSI — les mêmes plateformes utilisées par nos clients de volume, en tailles standard de 10 ft à 11 ft 6 po.'
+    - icon: L
+      icon_bg: green
+      title: 'Votre marque, réellement appliquée'
+      desc: 'Graphismes numériques pleine surface ou sérigraphiés, tapis de traction EVA avec votre logo et marque secondaire sur le nez ou les rails latéraux. Le co-marquage en petits lots utilise le marquage central SUPsfactory avec votre logo sur le nez ou les rails.'
+    - icon: P
+      icon_bg: purple
+      title: 'Options d''emballage évolutives'
+      desc: 'Commencez avec des cartons génériques et des étiquettes de code-barres, passez aux boîtes retail marquées 5 couches pleine couleur pour les séries ultérieures. L''emballage personnalisé a un minimum de presse indépendant ; les boîtes excédentaires sont stockées et libérées selon le calendrier.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Contrôle qualité au niveau usine'
+      desc: 'Chaque planche passe la même liste de contrôle d''assemblage de 100 points et le même test de pression et d''étanchéité à l''air de 24 heures (maintien à 18,0 PSI, rejet automatique au-delà d''une chute de 0,50 PSI) que s''applique à toute commande, échantillon ou conteneur.'
+    - icon: D
+      icon_bg: blue
+      title: 'Export et documentation'
+      desc: 'Documentation de conformité CE, ISO 9001, BSCI, REACH et RoHS, conditionnement adapté à l''export et coordination du fret océanique vers 50+ pays — d''un échantillon d''1 planche aux programmes complets.'
+    - icon: T
+      icon_bg: green
+      title: 'Un calendrier sur lequel planifier'
+      desc: 'Échantillons en 7–12 jours, production d''essai en 25–35 jours après bon de commande confirmé et acompte, et créneaux de production confirmés pour les commandes de pré-saison — pour qu''un lancement arrive en saison, pas après.'
+
+trial_steps:
+  tagline: Feuille de route de lancement
+  title: 'De l''idée au premier écoulement en six portes'
+  subtitle: 'Le premier lancement typique s''exécute en 8–12 semaines du brief à la commande d''essai livrée en utilisant les plateformes existantes — plus long quand une coque sur mesure ajoute le développement du moule. Chaque porte a une date convenue à l''avance.'
+  steps:
+    - step: 'Porte 1'
+      title: 'Brief produit et revue d''ingénierie (Jours 0–2)'
+      desc: 'Vous partagez le modèle de planche cible, la quantité de commande, les graphismes et l''intention d''emballage. La revue d''ingénierie est complétée sous un jour ouvré, avec NDA disponible avant de partager des spécifications propriétaires.'
+    - step: 'Porte 2'
+      title: 'Spécification, MOQ et devis (Jours 3–7)'
+      desc: 'Devis détaillé avec le calcul exact du MOQ, les frais d''échantillon et les segments de délai. Les frais d''échantillon sont crédités sur votre commande de production à la signature du contrat.'
+    - step: 'Porte 3'
+      title: 'Échantillons en 7–12 jours'
+      desc: '1–2 planches physiques valident la rigidité de la coque, la texture du tapis de traction EVA, la précision des graphismes et le montage des accessoires. Vous montez sur la planche avant de vous engager dans autre chose.'
+    - step: 'Porte 4'
+      title: 'Commande d''essai de 20–50 planches (25–35 jours)'
+      desc: 'Production sur les plateformes de coque existantes avec des matériaux en stock et un emballage simplifié — le test commercial minimum qui reflète les conditions réelles de stock.'
+    - step: 'Porte 5'
+      title: 'Fenêtre d''écoulement et de retour'
+      desc: 'La porte importante se trouve sur votre marché, pas dans notre usine : les loueurs et clients confirment le format, les graphismes et le prix de la planche avant que vous passiez à l''échelle.'
+    - step: 'Porte 6'
+      title: 'Passage à l''échelle en séries de volume (90–100+ planches)'
+      desc: 'Une fois le format prouvé, les séries standard sur rouleau de 150 m offrent une efficacité de production complète, un emballage marqué et une tarification de volume. Un programme conteneur est l''objectif, pas l''exigence.'
+
+trial_budget:
+  tagline: Fourchettes budgétaires indicatives
+  title: 'Ce que coûte un lancement — fourchettes de prix de référence'
+  subtitle: 'Fourchettes de référence indicatives, EXW Qingdao (Chine), pour une coque standard de randonnée ou polyvalente en tailles en stock. Le devis final dépend de la forme de coque, du PVC, de la couverture des graphismes, de l''emballage, des accessoires et de la quantité — confirmé contre votre configuration avant tout engagement.'
+  headers:
+    stage: Étape de commande
+    price: Prix de référence par planche
+    notes: Notes
+  rows:
+    - stage: 'Échantillons (1–2 planches)'
+      price: 'USD 250–350'
+      notes: 'Échantillon physique avec vos graphismes appliqués. Les frais d''échantillon sont crédités sur la commande de production à la signature du contrat.'
+    - stage: 'Commande d''essai / pilote (20–50 planches)'
+      price: 'USD 180–260'
+      notes: 'Plateformes de coque existantes, matériaux en stock et emballage simplifié. La voie de lancement standard à faible MOQ.'
+    - stage: 'Volume standard (90–100+ planches par rouleau de 150 m)'
+      price: 'USD 150–220'
+      notes: 'Rouleaux de tissu complets de 150 m, options PVC Pantone personnalisées, emballage marqué et tarification de volume.'
+    - stage: 'Coque et outillage sur mesure (en supplément)'
+      price: 'Devisé par projet'
+      notes: 'Une forme de coque sur mesure ajoute 15–20 jours de développement de moule dans le calendrier global ; l''outillage est détaillé et devisé une fois.'
+
+derisk:
+  tagline: Lancement sans le risque
+  title: 'Quatre façons dont une commande d''essai réduit le risque de votre lancement'
+  subtitle: 'La plupart des échecs de lancement de marques nouvelles se produisent sur le stock, pas sur la qualité du produit. Une commande d''essai est conçue pour rendre les erreurs évitables impossibles.'
+  features:
+    - icon: I
+      icon_bg: blue
+      title: 'Pas d''engagement de stock lourd'
+      desc: 'Votre exposition de première saison reste sous 50 planches. Si le format a besoin d''ajustement, vous ajustez avant la grosse dépense, pas après.'
+    - icon: C
+      icon_bg: green
+      title: 'Une trésorerie qui reste gérable'
+      desc: 'Des commandes plus petites signifient des acomptes plus petits, des paiements échelonnés et aucun capital oisif dans un entrepôt. La tarification de volume attend d''être réellement méritée.'
+    - icon: Q
+      icon_bg: purple
+      title: 'La qualité n''est jamais réduite'
+      desc: 'Une commande d''essai de 20 planches passe par la même liste de contrôle de 100 points et le même test de pression qu''un programme conteneur — aucun compromis « essayer avant la qualité ».'
+    - icon: G
+      icon_bg: orange
+      title: 'Chemin garanti vers l''échelle'
+      desc: 'Chaque commande d''essai porte une voie confirmée vers le volume : crédits d''échantillon conservés, graphismes et BOM figés, et créneaux de production réservés pour votre série de suivi.'
+
+scale_path:
+  tagline: Après l''essai
+  title: 'Ce qui vient après une commande d''essai réussie'
+  subtitle: 'La commande d''essai est délibérément conçue pour être la première étape d''une relation plus longue. Voici le chemin que nous convenons avant que la première planche ne parte.'
+  steps:
+    - step: 'Phase 1'
+      title: 'Essai livré et examiné'
+      desc: '20–50 planches arrivent en saison, les données d''écoulement reviennent de votre canal — location, retail ou direct.'
+    - step: 'Phase 2'
+      title: 'Retour et affinement'
+      desc: 'Les coloris, graphismes, emballage et mix d''accessoires sont ajustés contre la réponse réelle du marché. Les graphismes et la BOM sont figés pour le suivi.'
+    - step: 'Phase 3'
+      title: 'Série de volume (90–100+ planches)'
+      desc: 'Séries standard sur rouleau de 150 m avec efficacité de production complète, emballage retail marqué et tarification de volume — les crédits d''échantillon déjà appliqués.'
+    - step: 'Phase 4'
+      title: 'Programmes à l''échelle du conteneur'
+      desc: 'Programmes de 300+ planches avec expéditions échelonnées, matériaux Pantone personnalisés et le pipeline de développement complet — la même usine, désormais à pleine échelle.'
+
+trial_faqs:
+  tagline: FAQ
+  title: 'Questions fréquentes sur le lancement avec une commande d''essai'
+  items:
+    - q: 'Puis-je vraiment lancer une marque de SUP sans commande en conteneur ?'
+      a: 'Oui. Le point d''entrée est étagé : 1–2 échantillons valident la planche (prêts en 7–12 jours), une commande d''essai de 20–50 planches valide le marché (production en 25–35 jours), et les séries de volume de 90–100+ planches suivent uniquement quand l''écoulement prouve le format. Le co-marquage en petits lots commence dès 5–10 unités quand vous voulez des planches marquées sans aucune étape de développement.'
+    - q: 'Combien de temps prend un lancement complet, de bout en bout ?'
+      a: 'En utilisant les plateformes de coque existantes, un premier lancement typique s''exécute en 8–12 semaines du brief produit à la commande d''essai livrée : échantillons en 7–12 jours, production d''essai en 25–35 jours après bon de commande confirmé et acompte. Une coque sur mesure ajoute 15–20 jours de développement de moule.'
+    - q: 'Que comprend le prix — et que ne comprend-il pas ?'
+      a: 'Les fourchettes de référence sont EXW Qingdao pour les planches elles-mêmes, y compris l''application de la marque et le QC standard. Elles sont indicatives : le devis final est confirmé contre votre configuration — coque, PVC, couverture des graphismes, emballage et accessoires — avant tout engagement. Le fret, les droits et le dédouanement à destination sont devisés séparément.'
+    - q: 'Dois-je acheter 100 ou 500 planches pour avoir mon logo sur les planches ?'
+      a: 'Non. Le co-marquage en petits lots met votre logo sur le nez ou les rails latéraux dès 5–10 unités, et les commandes d''essai de 20–50 planches soutiennent l''application complète des graphismes à la même qualité que la production en volume. Ce qui change avec la quantité, c''est le prix unitaire, pas la disponibilité.'
+    - q: 'Que se passe-t-il si je veux modifier le design après l''essai ?'
+      a: 'Les modifications entre l''essai et le volume sont normales et bienvenues — c''est tout l''intérêt de l''essai. Les coloris, graphismes, emballage et accessoires sont re-devisés contre la nouvelle configuration, puis figés avec la signature des graphismes et de la BOM avant la série de volume. Les frais de moule pour la sérigraphie sont levés sur les ré-commandes utilisant la même dimension de graphisme.'
+    - q: 'Signez-vous une NDA avant que je partage mes designs ?'
+      a: 'Oui. Un accord de non-divulgation est disponible avant que vous partagiez des spécifications techniques ou des graphismes propriétaires. Nous fabriquons exclusivement sous les marques de nos clients et ne concurrençons jamais sur aucun marché — la même politique s''applique à un échantillon d''1 planche qu''à un programme conteneur.'
+
+cta:
+  title: 'Prêt à lancer votre marque de SUP ?'
+  subtitle: 'Envoyez-nous votre modèle de planche cible, votre quantité de première saison et vos idées de marque. Nous confirmerons la voie exacte d''échantillon et d''essai avec des coûts détaillés et un calendrier jour par jour — aucun engagement avant votre signature.'
+  actions:
+    - variant: primary
+      text: Commencez votre lancement
+      href: /fr/contact#custom-oem
+    - text: D''abord comprendre le MOQ et les délais SUP personnalisés
+      href: /fr/sup-oem-moq-lead-time
+    - text: Le guide de marque flexible et MOQ
+      href: /fr/oem-moq-guide
+    - text: Vérifier l''usine et le système qualité
+      href: /fr/oem-trust-assurance

@@ -1,0 +1,94 @@
+meta:
+  title: 'Ingénierie de coque SUP — conception CAD et FEA des planches'
+  description: 'Studio d''ingénierie des planches SUP : conception CAD, analyse par éléments finis (FEA) des structures drop-stitch et formes de coque personnalisées pour les projets OEM.'
+  back_text: 'Retour au Centre R&D'
+  home_label: 'Accueil'
+
+hero:
+  tagline: 'Laboratoire 02'
+  title: 'Studio d''ingénierie des planches'
+  subtitle: 'Simulation numérique, intelligence structurelle, conception de planches personnalisées'
+  image: 'https://assets.afarer.com/images/afarer/factory/design discussafarer-inflatable-boat-afarer-factory-exterior.webp'
+  image_alt: 'Poste de travail de conception d''ingénierie CAD de planches SUP Afarer'
+
+answer:
+  label: 'Réponse directe'
+  text: 'Les planches de SUP personnalisées sont conçues en interne avec la modélisation de surface 3D SolidWorks, ANSYS FEA et CFD — chaque planche est simulée pour la répartition des contraintes et la rigidité du pont avec un facteur de sécurité obligatoire ≥ 2,5 avant le prototypage. Une forme personnalisée prend 7–12 jours à prototyper ; l''outillage de moule personnalisé complet ajoute 15–20 jours au délai de production de 25–35 jours, avec le MOQ confirmé par la configuration du projet (voir notre guide MOQ).'
+  verified: '2026-08'
+
+intro: 'La forme d''une planche de SUP — son rocker, son profil de rail, son volume de nez et de queue — détermine comment elle pagaye, tourne et suit son cap. Chez {SITE.name}, notre Studio d''ingénierie des planches combine la modélisation de surface CAD, l''analyse par éléments finis (FEA) des structures drop-stitch et l''expérience de production pour livrer des planches optimisées pour leur usage prévu : stabilité polyvalente, glisse de randonnée ou performance de surf. Chaque planche personnalisée part de votre spécification, pas d''une forme générique de catalogue.'
+
+content_html: |
+  <h2>Là où la résistance rencontre l''hydrodynamique</h2>
+  <p>Une planche de SUP gonflable est une structure drop-stitch : des milliers de fils polyester relient les peaux PVC supérieure et inférieure, maintenant le pont plat à 12–15 PSI tandis que la géométrie du rail et du nez contrôle la façon dont la planche interagit avec l''eau. Nous concevons la forme 3D, simulons la structure gonflée et validons le résultat en interne avant qu''un seul échantillon ne soit découpé.</p>
+
+  <h2>Outils et normes de conception</h2>
+  <p>Notre environnement d''ingénierie numérique comprend :</p>
+  <table>
+    <thead><tr><th>Capacité</th><th>Logiciel / Outil</th><th>Application</th></tr></thead>
+    <tbody>
+      <tr><td>Modélisation paramétrique 3D</td><td>SolidWorks Professionnel</td><td>Surface de planche, ligne de rocker, profil de rail, intégration poignée &amp; aileron</td></tr>
+      <tr><td>Analyse par éléments finis</td><td>ANSYS Mechanical</td><td>Cartographie des contraintes du noyau drop-stitch, rigidité du pont sous charge, renfort du point de poignée</td></tr>
+      <tr><td>Dynamique des fluides numérique</td><td>Ansys Fluent</td><td>Prédiction de la traînée hydrodynamique, optimisation de l''assiette de planage</td></tr>
+      <tr><td>Ingénierie de lamination</td><td>ESAComp</td><td>Empilement des couches PVC, sélection du grammage du tissu, estimation du poids</td></tr>
+      <tr><td>Revue de surface de moule</td><td>Moldex3D</td><td>Revue de la géométrie de l''outil de soudure pour le soudage RF</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Notre flux de travail d''ingénierie</h2>
+  <p>Chaque conception de planche, qu''il s''agisse d''un modèle standard ou d''un projet entièrement personnalisé, suit un processus rigoureux en cinq étapes :</p>
+  <ol>
+    <li><strong>Collecte du concept et des exigences</strong> — Nous définissons la plage de poids du pratiquant, l''usage prévu (polyvalent, randonnée, surf, yoga, flotte de location), les cibles de longueur, largeur et épaisseur, et toute caractéristique spéciale (systèmes de chargement, tapis de pont, points d''attache).</li>
+    <li><strong>Modélisation de surface 3D et calcul de volume</strong> — La forme de la planche est modélisée dans SolidWorks et vérifiée pour la distribution de volume, le déplacement et la stabilité contre le poids cible du pratiquant.</li>
+    <li><strong>FEA structurelle</strong> — La planche gonflée est analysée sous charge debout, statique (pratiquant au centre, 100 kg) et dynamique (impact de vague au rail). Les contours de contrainte sont revus ; le facteur de sécurité ≥ 2,5 est obligatoire.</li>
+    <li><strong>Optimisation de la traînée CFD</strong> — La coque est simulée à trois états de charge et cinq vitesses. La surface mouillée, l''angle d''assiette et la résistance résiduelle sont itérativement réduits.</li>
+    <li><strong>Revue de conception et libération</strong> — Le pack d''ingénierie complet (modèle 3D, rapport FEA, rapport CFD, estimation de poids, plan de découpe des panneaux) est revu par notre ingénieur senior avant libération à l''atelier de prototype.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Résultats FEA — Planche polyvalente 11''0 (32'' de large, 6'' d''épaisseur)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2,8 : 1</span>
+        <span class="text-gray-500">Facteur de sécurité à 120 kg de charge debout</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Déflexion du pont à 15 PSI, sans charge</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3,2 mm</span>
+        <span class="text-gray-500">Flexion maximale du pont sous pratiquant de 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Pression d''analyse — pression de service de la plateforme</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Personnalisation : votre planche, vos règles</h2>
+  <p>Aucune marque n''a des exigences identiques. Une flotte de location a besoin d''une planche polyvalente large et stable avec des rails renforcés ; une marque de randonnée a besoin d''un nez à déplacement plus long avec des points d''attache de chargement ; une ligne axée surf a besoin d''une queue resserrée et d''un profil de rocker. Nous ne forçons pas votre gamme dans des formes préexistantes — nous concevons depuis votre spécification.</p>
+  <p>Exemples de récents projets d''ingénierie de planches personnalisées :</p>
+  <ul>
+    <li>Un SUP de randonnée 14'' pour une marque de pagaie d''endurance, avec un nez à déplacement et un pont de chargement encastré (+15 % de longueur de ligne de flottaison pour la glisse).</li>
+    <li>Une planche polyvalente large 10''6'''' pour une flotte de resort, avec des rails latéraux double couche et une capacité nominale de 220 lb.</li>
+    <li>Un SUP de surf 9'' avec une queue resserrée et un rocker progressif, développé pour une ligne dédiée d''école de surf.</li>
+  </ul>
+
+  <h2>Nos ingénieurs</h2>
+  <p>Le studio est dirigé par un ingénieur produit senior avec 14 ans d''expérience dans la conception de produits gonflables, soutenu par deux ingénieurs mécaniciens spécialisés en FEA et CFD. Tous trois détiennent des diplômes d''études supérieures en ingénierie d''universités internationalement reconnues, et l''équipe travaille directement avec notre sol de production pour garantir que chaque conception est fabriquable à l''échelle des conteneurs.</p>
+
+  <h2>Associez-vous à nous pour votre prochaine planche</h2>
+  <p>Du premier croquis de concept au rapport de contrainte final, notre Studio d''ingénierie des planches est votre partenaire pour créer une planche qui n''est pas seulement construite — mais conçue. Nous investissons les heures de simulation en amont pour que chaque soudure, chaque couche de laminate et chaque courbe du rail existent pour une raison.</p>
+  <p>Que vous ayez besoin d''une modification mineure d''un modèle existant ou d''une conception entièrement nouvelle, nous sommes prêts à discuter de vos exigences.</p>
+
+cta:
+  title: 'Commencez votre consultation de conception de planche'
+  subtitle: 'Parlez-nous de vos pratiquants cibles et de votre cas d''usage et nous proposerons une voie d''ingénierie.'
+  actions:
+    - variant: primary
+      text: Contacter notre équipe d''ingénierie
+      href: /fr/contact#project-brief
+    - text: Retour au Centre R&D
+      href: /fr/randdcenter

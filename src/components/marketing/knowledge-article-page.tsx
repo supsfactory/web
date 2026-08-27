@@ -14,7 +14,7 @@ import { MarketingShell } from './shell'
 export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle }) {
   const { locale, t } = useTranslation()
   const fl = useLocalizePath()
-  const articles = knowledge[locale]
+  const articles = knowledge[locale] ?? knowledge.en
   const index = articles.findIndex((a) => a.slug === article.slug)
   const next = index >= 0 && index < articles.length - 1 ? articles[index + 1] : undefined
 

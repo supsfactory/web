@@ -1,0 +1,109 @@
+meta:
+  title: 'Processus de fabrication — de la matière première au SUP'
+  description: 'De la matière première au SUP prêt pour la mer : chaque étape du processus de fabrication Afarer sous notre contrôle, de la découpe et du soudage aux essais.'
+  dateModified: '2026-08'
+  keywords:
+    - 'processus de fabrication sup'
+    - 'usine sup gonflable'
+    - 'étapes de production planches à pagaie'
+    - 'soudure pvc sup'
+hero:
+  tagline: Processus
+  title: Processus de fabrication
+  subtitle: De la matière première au SUP prêt pour la mer —chaque étape sous notre contrôle
+  back_label: Retour à l''usine
+  back_link: /fr/factory
+
+answer:
+  label: 'Réponse directe'
+  text: 'Les planches passent par cinq étapes contrôlées : inspection des matériaux (1–2 jours), découpe CNC automatique (moins de 5 % de gaspillage, 2–4 heures par kit), thermoscellage des tubes avec coutures renforcées RF (1–2 jours par planche), assemblage du noyau drop-stitch, et assemblage final avec test de rétention d''air et de charge à 100 % avant conditionnement.'
+  verified: '2026-08'
+
+intro: 'Contrairement aux marques qui externalisent leur production à des usines tierces, Afarer possède et exploite l''ensemble de sa chaîne de fabrication. Cette intégration verticale nous permet de maintenir un contrôle qualité strict à chaque étape, de répondre rapidement aux exigences personnalisées et de fournir une qualité de produit constante lot après lot. Voici comment une planche de SUP est construite dans notre installation.'
+
+steps:
+  - step: '01'
+    title: Réception et inspection des matériaux
+    description: Chaque lot entrant de tissu PVC, de mat d''attaches, de résine et de quincaillerie est inspecté par rapport à la spécification. Les échantillons de tissu sont testés pour la résistance à la traction, l''uniformité d''épaisseur et la résistance aux UV avant libération en production. Les matériaux non conformes sont mis en quarantaine et retournés.
+    duration: 1–2 jours
+  - step: '02'
+    title: Découpe PVC automatique
+    description: <p>Les tissus approuvés sont disposés sur la machine de découpe CNC automatique et découpés avec une précision sub-millimétrique. Le placement optimisé par ordinateur arrange les panneaux pour minimiser le gaspillage — typiquement en dessous de 5 %. Les panneaux découpés sont étiquetés par modèle de SUP et par chambre, puis réunis pour le transfert vers l''atelier de soudage.</p>
+    duration: 2–4 heures par kit de planche
+  - step: '03'
+    title: Thermoscellage et soudage des tubes
+    description: Les panneaux sont pointés et liés à l''aide de machines de thermoscellage avec soudure à l''air chaud à des températures contrôlées de 200–300 °C. Les coutures principales sont renforcées par soudage diélectrique RF pour des joints étanches à l''air haute résistance. Les chambres terminées sont gonflées à 18,0 PSI pour un contrôle d''étanchéité initial avant le maintien de rétention de 24 heures.
+    duration: 1–2 jours par planche de SUP
+  - step: '04'
+    title: Assemblage du noyau drop-stitch
+    description: Les noyaux drop-stitch des SUP sont liés aux laminés PVC extérieurs par lamination thermique. Des milliers de fils polyester internes relient les couches supérieure et inférieure, créant une structure rigide à 12-15 PSI. Les bandes de rail sont fusionnées en triple couche pour la résistance des bords.
+    duration: 1–2 jours par planche
+  - step: '05'
+    title: Impression et décoration de SUP
+    description: Les graphismes de pont des SUP sont appliqués par impression numérique pour des designs pleine couleur de qualité photo, et par sérigraphie pour des logos durables et des motifs répétitifs. Les impressions sont réticulées et scellées pour une résistance aux UV et à l''abrasion.
+    duration: 1–2 jours
+  - step: '06'
+    title: Assemblage final et équipement
+    description: Les valves, anneaux en D, poignées, boîtiers d''ailerons et tapis de pont sont installés sur la ligne d''assemblage. Chaque planche suit une liste de contrôle d''assemblage de 100 points avec signature obligatoire à chaque étape.
+    duration: 1–2 jours
+  - step: '07'
+    title: Essais qualité et inspection
+    description: 'Chaque planche terminée subit une porte qualité obligatoire : test de rétention d''air de la chambre, contrôle fonctionnel de la quincaillerie, vérification du couple de serrage des fixations et inspection cosmétique. Les fabrications personnalisées et prototypes reçoivent également des essais en eau couvrant la stabilité et la maniabilité.'
+    duration: 1–2 jours
+  - step: '08'
+    title: Conditionnement et expédition
+    description: Les planches sont dégonflées, pliées selon la procédure, emballées dans des sacs tissés robustes ou des boîtes retail, puis chargées pour l''expédition. Chaque paquet est étiqueté avec le modèle, le numéro de série et la destination. Nous coordonnons avec des transitaires pour les expéditions conteneurisées FCL et LCL dans le monde entier.
+    duration: 1 jour
+
+evidence_gates:
+  tagline: Preuves d''inspection
+  title: 'Chaque étape laisse un enregistrement — photos et rapports'
+  subtitle: 'Voici les photos d''inspection réelles et les dossiers de rapports de test de nos sept portes qualité contrôlées. Chaque PDF est un véritable enregistrement bilingue que vous pouvez télécharger et auditer — les mêmes enregistrements qui soutiennent chaque lot dans l''archive de traçabilité ERP de 10 ans. Voir le flux complet en 7 étapes sur /fr/quality.'
+  items:
+    - title: 'PPM — Planification qualité du projet'
+      description: 'La réunion de pré-production verrouille le périmètre, l''échantillon doré et le Plan d''Inspection Qualité avant le démarrage de la ligne. Les éléments non résolus bloquent l''autorisation de production.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Télécharger QIP (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      alt: Réunion de pré-production examinant l''échantillon doré et le plan d''inspection qualité pour une commande de SUP OEM
+    - title: 'IQC — Inspection des matières entrantes'
+      description: 'Chaque lot entrant de PVC, de tissu et de quincaillerie est vérifié par rapport à la spécification approuvée. Les lots non conformes sont mis en quarantaine et rejetés avant libération sur la ligne.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Télécharger les rapports IQC (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      alt: Inspection des matières entrantes du tissu PVC et des composants SUP à l''usine
+    - title: 'IPQC / FAI — Contrôle en cours de fabrication'
+      description: 'Le premier article est vérifié par rapport aux références verrouillées et chaque équipe effectue des contrôles de ronde sur la ligne. L''approbation FAI verrouille en version les graphismes, les dimensions et la BOM.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Télécharger les rapports IPQC (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Inspection en cours de fabrication et contrôle du premier article pendant la production de SUP
+    - title: 'Tests de gonflage et d''étanchéité à l''air'
+      description: '100 % des planches terminées — pas un échantillon — reçoivent un maintien de pression de 24 heures à 18,0 PSI avec rejet automatique au-delà d''une chute de 0,50 PSI. Un enregistrement par chambre.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Télécharger les rapports d''étanchéité à l''air (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      alt: Test de gonflage et d''étanchéité à l''air d''une chambre de SUP gonflable
+    - title: 'FQC — Inspection finale du produit'
+      description: 'Les planches finies sont mesurées par rapport aux tolérances de dessin et notées esthétiquement sous lampes à lumière du jour D65 contre l''échantillon doré approuvé.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Télécharger les rapports FQC (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      alt: Inspection finale du produit des planches SUP finies avant conditionnement
+    - title: 'PSI — Conditionnement et inspection avant expédition'
+      description: 'Le kit emballé est contrôlé à 100 % par rapport à la BOM approuvée par le client — scan de code-barres (note ≥ B), marquages des cartons et test de chute ISTA-1A avant chargement.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Télécharger les rapports PSI (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      alt: Inspection avant expédition vérifiant le kit SUP emballé par rapport à la BOM
+    - title: 'Autorisation d''expédition et traçabilité'
+      description: 'La qualité signe le lot uniquement lorsque les six portes précédentes sont clôturées. Les numéros de série sont mappés au lot et le dossier est remis avec l''expédition.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Télécharger les rapports de libération (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      alt: Signature d''autorisation d''expédition et remise de l''enregistrement de traçabilité du lot
+cta:
+  title: Voir nos équipements et machines
+  desc: Explorez les équipements de qualité industrielle derrière chaque planche de SUP Afarer.
+  label: Voir les équipements →
+  link: /fr/factory/equipment

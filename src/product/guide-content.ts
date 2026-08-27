@@ -616,6 +616,6 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
   ],
 }
 
-export function guideCard(locale: 'en' | 'es', slug: string): GuideCard | undefined {
-  return GUIDE_CARDS[locale].find((c) => c.slug === slug)
+export function guideCard(locale: 'en' | 'es' | string, slug: string): GuideCard | undefined {
+  return (GUIDE_CARDS[locale] ?? GUIDE_CARDS.en).find((c) => c.slug === slug)
 }

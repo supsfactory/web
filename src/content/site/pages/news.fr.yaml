@@ -1,0 +1,14 @@
+meta:
+  title: 'Actualités — Fabricant de SUP et nouvelles nautiques | {SITE}'
+  description: 'Dernières actualités d''Afarer : mises à jour d''usine, nouveaux modèles de SUP gonflable, certifications et annonces de l''industrie nautique.'
+  keywords:
+    - 'actualités fabricant de sup'
+    - 'mises à jour Afarer'
+    - 'annonces sup gonflable'
+    - 'actualités industrie nautique'
+hero_text:
+  tagline: ''
+  title: Actualités
+  subtitle: Les dernières d''Afarer —lancements de produits, mises à jour d''entreprise, guides et récits de l''eau
+news_list:
+  limit: 100

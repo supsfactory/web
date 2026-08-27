@@ -34,8 +34,8 @@ function SeriesPage() {
   const fl = useLocalizePath()
   const items = pick(products, locale).items.filter((p) => p.series === page.slug)
   const c = pick(productsPage, locale)
-  const others = seriesPages[locale].filter((s) => s.slug !== page.slug)
-  const profile = procurementProfiles[locale][page.slug]
+  const others = (seriesPages[locale] ?? seriesPages.en).filter((s) => s.slug !== page.slug)
+  const profile = (procurementProfiles[locale] ?? procurementProfiles.en)[page.slug]
   const snap = profile
     ? [
         { label: t('sup.procurement.bestFor'), value: profile.bestFor },
@@ -117,7 +117,7 @@ function SeriesPage() {
                   <h3 className="font-display text-lg font-bold tracking-tight">{t('sup.procurement.commercialTitle')}</h3>
                   <table className="mt-4 w-full border-collapse text-[13.5px]">
                     <tbody>
-                      {commercialRows[locale].map((row) => (
+                      {(commercialRows[locale] ?? commercialRows.en).map((row) => (
                         <tr key={row.label} className="border-b border-border/60 last:border-0">
                         <th scope="row" className="py-2 pr-4 align-top font-bold text-fg-3">{row.label}</th>
                           <td className="py-2 align-top text-fg-2">{row.value}</td>

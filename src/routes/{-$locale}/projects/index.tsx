@@ -20,8 +20,8 @@ export const Route = createFileRoute('/{-$locale}/projects/')({
       origin,
       locale,
       path: '/projects',
-      title: projectsMeta[locale].metaTitle,
-      description: projectsMeta[locale].metaDescription,
+      title: (projectsMeta[locale] ?? projectsMeta.en).metaTitle,
+      description: (projectsMeta[locale] ?? projectsMeta.en).metaDescription,
     })
     return { meta, links }
   },
@@ -30,8 +30,8 @@ export const Route = createFileRoute('/{-$locale}/projects/')({
 
 function ProjectsIndex() {
   const { locale, t } = useTranslation()
-  const items = projects[locale]
-  const meta = projectsMeta[locale]
+  const items = projects[locale] ?? projects.en
+  const meta = projectsMeta[locale] ?? projectsMeta.en
   const fl = useLocalizePath()
   const [customer, setCustomer] = useState('')
   const [category, setCategory] = useState('')

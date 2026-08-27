@@ -58,7 +58,7 @@ function ProductsPage() {
           <span className="text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
             {t('content.series')}
           </span>
-          {seriesPages[locale].map((s) => (
+          {(seriesPages[locale] ?? seriesPages.en).map((s) => (
             <a
               key={s.slug}
               href={localizePath(locale, `/products/${s.slug}`)}

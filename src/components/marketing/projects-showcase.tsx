@@ -13,7 +13,7 @@ const FEATURED = ['coastal-rental-fleet', 'eu-distributor-private-label', 'resor
 export function ProjectsShowcase() {
   const { locale, t } = useTranslation()
   const fl = useLocalizePath()
-  const items = FEATURED.map((slug) => projects[locale].find((p) => p.slug === slug)).filter(
+  const items = FEATURED.map((slug) => (projects[locale] ?? projects.en).find((p) => p.slug === slug)).filter(
     (p): p is NonNullable<typeof p> => Boolean(p),
   )
 

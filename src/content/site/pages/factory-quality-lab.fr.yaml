@@ -1,0 +1,129 @@
+meta:
+  title: 'Laboratoire qualité — Essais et assurance qualité | {SITE}'
+  description: 'Laboratoire qualité indépendant avec processus ISO 9001 chez Afarer : chaque unité testée avant expédition pour garantir la qualité des planches de SUP gonflables.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'contrôle qualité sup'
+    - 'laboratoire de test planches à pagaie'
+    - 'usine sup iso 9001'
+    - 'qualité sup gonflable'
+hero:
+  tagline: Laboratoire de contrôle qualité
+  title: Laboratoire d''essais et assurance qualité
+  subtitle: Laboratoire qualité indépendant avec processus ISO 9001 —chaque unité testée avant expédition
+
+answer:
+  label: 'Réponse directe'
+  text: '100 % des unités sont testées en pression à 18,0 PSI pendant 24 heures, avec rejet automatique au-delà d''une chute de pression de 0,50 PSI. Les lots de tissus bruts sont vérifiés selon ASTM D751 et ISO 4674, et les tests de pelage de soudure s''exécutent toutes les 50 unités avec un échantillonnage final AQL 2,5 selon ISO 2859.'
+  verified: '2026-08'
+
+intro: 'Afarer exploite un laboratoire de contrôle qualité dédié qui fonctionne indépendamment de la production. Chaque lot de matière première et chaque planche de SUP finie passe par des protocoles d''inspection documentés avant libération. Notre équipe QC relève directement de la direction, garantissant des décisions qualité impartiales.'
+
+highlights:
+  - value: 100%
+    label: Unités testées en pression
+    detail: Chaque chambre, chaque planche
+  - value: 24 h
+    label: Durée du test de rétention d''air
+    detail: À la pression nominale de 18,0 PSI
+  - value: '&lt;5%'
+    label: Chute de pression maximale autorisée
+    detail: Sur la période de maintien de 24 heures
+  - value: AQL 2.5
+    label: Seuil de défaut majeur
+    detail: Selon l''échantillonnage ISO 2859
+
+test_procedures:
+  - title: Inspection des matières premières
+    description: Chaque lot entrant de PVC, Hypalon, tissu drop-stitch et quincaillerie est testé avant acceptation. La résistance à la traction (ASTM D751), la résistance à la déchirure (ISO 4674) et la résistance aux UV sont vérifiées. Les matériaux non conformes sont mis en quarantaine et retournés.
+    standards:
+      - ASTM D751 (traction)
+      - ISO 4674 (déchirure)
+      - ISO 4892 (UV)
+  - title: Points de contrôle QC en cours de fabrication
+    description: Les opérateurs de production effectuent une auto-inspection à chaque étape. Les auditeurs QC réalisent un échantillonnage aléatoire tout au long de l''équipe. Les tests de pelage de soudure sont effectués toutes les 50 unités. Les contrôles dimensionnels ont lieu chaque 20e panneau.
+    standards:
+      - ASTM D751 (pelage)
+      - Liste de contrôle interne à 100 points
+      - Échantillonnage ISO 2859
+  - title: Test de rétention d''air de 24 heures
+    description: Chaque chambre de tube est gonflée à 18,0 PSI et maintenue 24 heures. Les capteurs de pression enregistrent en continu avec compensation de température. Toute chambre dépassant 0,50 PSI de chute de pression déclenche une ré-inspection automatique du lot.
+    standards:
+      - ISO 6185
+      - CE 2013/53/UE
+  - title: Test de charge et d''équilibre
+    description: Les planches terminées sont testées à la capacité nominale maximale pour la stabilité, le franc-bord et la maniabilité. Chaque planche subit un test à l''eau avant l''approbation de l''inspection finale.
+    standards:
+      - ISO 12217
+      - CE 2013/53/UE
+
+equipment:
+  - name: Machine d''essai universelle (traction)
+    spec: 5 kN, conforme ASTM D751
+  - name: Testeur de décroissance de pression
+    spec: Multicanal, 0–50 psi, enregistrement de données
+  - name: Chambre de vieillissement UV
+    spec: ISO 4892, cycles de 1 000 h
+  - name: Jauge d''épaisseur (numérique)
+    spec: Résolution 0,01 mm
+  - name: Testeur de pelage (soudure)
+    spec: Motorisé, capacité 50 N
+  - name: Chambre de température
+    spec: -40 °C à +100 °C
+  - name: Cuve de détection de fuite
+    spec: 6 m × 2 m, éclairée
+
+lab_evidence:
+  tagline: Dossiers de rapports de test
+  title: 'Télécharger les rapports de test de laboratoire réels'
+  subtitle: 'Les mêmes enregistrements bilingues contrôlés contre lesquels notre équipe qualité clôture — structure, méthodes, critères et résultats, avec les champs confidentiels supprimés. Chaque dossier correspond à l''une des sept portes d''inspection.'
+  items:
+    - title: 'IQC — Rapports des matières entrantes'
+      description: 'Vérification du tissu, du rouleau de PVC, des valves et des composants par rapport à la spécification approuvée.'
+      icon: tabler:file-certificate
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Télécharger les rapports IQC (PDF)'
+    - title: 'IPQC — Rapports en cours de fabrication et du premier article'
+      description: 'Enregistrements du premier article et de l''inspection en cours de fabrication contre la révision verrouillée.'
+      icon: tabler:file-check
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Télécharger les rapports IPQC (PDF)'
+    - title: 'Étanchéité à l''air — Enregistrements de pression et de fuite'
+      description: 'Détection de fuite de couture à 100 %, intégrité des valves et vérification du maintien de pression de 24 h.'
+      icon: tabler:waves
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Télécharger les rapports d''étanchéité à l''air (PDF)'
+    - title: 'FQC — Rapports de test final des planches'
+      description: 'Inspection finale contre l''échantillon approuvé — dimensions, cosmétique et boîtier d''aileron.'
+      icon: tabler:shield-check
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Télécharger les rapports FQC (PDF)'
+    - title: 'PSI — Rapports de conditionnement et avant expédition'
+      description: 'Complétude du kit, note de code-barres, marquages des cartons et enregistrements de sécurité à la chute.'
+      icon: tabler:package
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Télécharger les rapports PSI (PDF)'
+    - title: 'Dossier d''autorisation d''expédition et de traçabilité'
+      description: 'Autorisation de libération et traçabilité des lots mappée à la spécification, aux graphismes et à la BOM.'
+      icon: tabler:history
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Télécharger les rapports de libération (PDF)'
+    - title: 'Dossier qualité complet'
+      description: 'Un pack couvrant tout le système documentaire — QIP, enregistrements de portes, traçabilité et contrôle NCR.'
+      icon: tabler:books
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Télécharger le pack de documentation (PDF)'
+
+cta:
+  title: 'Auditez le laboratoire derrière votre commande'
+  subtitle: 'Le laboratoire fonctionne indépendamment de la production et relève directement de la direction. Examinez les rapports de test, consultez les normes d''inspection ou demandez une visite guidée du laboratoire en direct lors de la planification de la production.'
+  actions:
+    - variant: primary
+      text: Demander une revue qualité de projet
+      href: /fr/contact#quality-inquiry
+    - text: Le système d''inspection en 7 étapes
+      href: /fr/quality
+    - text: Normes d''inspection et téléchargements QMS
+      href: /fr/factory/quality-inspection
+    - text: Visiter le laboratoire d''essais de matériaux R&D
+      href: /fr/randdcenter/quality-inspection-lab

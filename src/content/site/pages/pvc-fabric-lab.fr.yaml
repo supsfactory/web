@@ -1,0 +1,111 @@
+meta:
+  title: 'Laboratoire de tissus PVC — Test des matériaux pour planches SUP'
+  description: 'Test des matériaux de la fibre à la planche finie : résistance à la traction, vieillissement UV, flexibilité à basse température et résistance à l''abrasion pour les tissus PVC de SUP.'
+back_text: 'Retour au centre de R&D'
+home_label: 'Accueil'
+
+hero:
+  tagline: 'Lab 01'
+  title: 'Laboratoire de tissus PVC'
+  subtitle: 'Test scientifique des matériaux — de la fibre à la planche finie'
+  image: 'https://assets.afarer.com/images/afarer/randd/afarer-pvc-material-lab.webp'
+  image_alt: 'Laboratoire de test des matériaux en tissu PVC d''Afarer'
+
+answer:
+  label: 'Réponse directe'
+  text: 'Les planches sont construites en PVC marin de 1 680 DTEX avec un revêtement en trois couches et un noyau drop-stitch nominal à 12–15 PSI. Chaque lot de tissu entrant est testé indépendamment en interne pour la résistance à la traction (ISO 1421), la rétention UV après 2 000 heures d''exposition à l''arc xénon (ISO 4892), l''abrasion et la flexibilité à basse température — aucun lot n''entre en production sur les seules fiches techniques du fournisseur.'
+  verified: '2026-08'
+
+intro: 'Le tissu de la planche est le matériau le plus critique d''un SUP gonflable. Il doit résister à une exposition UV constante, à des cycles d''inflation répétés, à l''abrasion contre les quais et les atterrissages sableux, et à des écarts de température extrêmes — tout en maintenant son intégrité structurelle pendant des années. Chez {SITE.name}, notre Laboratoire de tissus PVC est exclusivement dédié à la caractérisation, la validation et l''amélioration continue des tissus que nous utilisons dans chaque planche que nous construisons.'
+
+content_html: |
+  <h2>Le fondement de chaque SUP gonflable</h2>
+  <p>Nous ne nous fions pas uniquement aux fiches techniques des fournisseurs. Chaque lot de tissu PVC et de noyau drop-stitch qui entre dans notre atelier est testé indépendamment en interne. Cela garantit que la spécification de matériau que nous publions est la performance de matériau que vous recevez — lot après lot, année après année.</p>
+
+  <h2>Équipement de test standardisé</h2>
+  <p>Notre laboratoire de tissus est équipé d''instruments de qualité industrielle conformes aux méthodes de test ISO, ASTM et EN :</p>
+  <table>
+    <thead><tr><th>Équipement</th><th>Paramètres mesurés</th><th>Norme</th></tr></thead>
+    <tbody>
+      <tr><td>Machine de traction universelle (50 kN)</td><td>Force de rupture, allongement à la rupture, propagation de déchirure</td><td>ISO 1421 / ASTM D751</td></tr>
+      <tr><td>Chambre de vieillissement à l''arc xénon</td><td>Résistance UV (changement de couleur, rétention de résistance après 2000 h)</td><td>ISO 4892 / ASTM G155</td></tr>
+      <tr><td>Testeur de flexion à basse température</td><td>Point de fissuration à -30 °C à -50 °C</td><td>ISO 4675 / ASTM D2136</td></tr>
+      <tr><td>Testeur d''abrasion Taber</td><td>Perte de poids après 1000 cycles (meule CS-10)</td><td>ASTM D3389 / ISO 5470-1</td></tr>
+      <tr><td>Jauge d''épaisseur (numérique, résolution 0,001 mm)</td><td>Uniformité sur toute la largeur du rouleau</td><td>ISO 2286-3</td></tr>
+      <tr><td>Testeur de colonne d''eau</td><td>Résistance à la pénétration d''eau</td><td>ISO 811</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Tout l''équipement est calibré chaque année par des laboratoires accrédités tiers.</p>
+
+  <h2>Des données à la décision : un flux de travail de test typique</h2>
+  <p>Quand un nouveau candidat de tissu arrive, il suit un processus de qualification standardisé en sept étapes :</p>
+  <ol>
+    <li><strong>Inspection à la réception</strong> — contrôle visuel pour les défauts de surface, micro-trous et conformité dimensionnelle.</li>
+    <li><strong>Cartographie d''épaisseur</strong> — mesure en 20 points sur le rouleau ; CV &lt; 3 % est requis pour l''acceptation.</li>
+    <li><strong>Test de traction</strong> — 5 éprouvettes dans les directions chaîne et trame. Minimum 3500 N/50 mm pour le PVC 1100 dtex.</li>
+    <li><strong>Conditionnement UV</strong> — exposition de 1000 h dans la chambre à arc xénon ; rétention de résistance minimale de 80 % requise.</li>
+    <li><strong>Fissure à froid</strong> — 4 h à -35 °C, puis pliage à 180° sur un mandrin de 25 mm. Aucune fissuration visible.</li>
+    <li><strong>Résistance à l''abrasion</strong> — 1000 cycles, perte de poids ≤ 0,05 g.</li>
+    <li><strong>Signature d''approbation</strong> — ce n''est qu''après le passage des sept portes que le tissu est libéré pour la production.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">PVC 1100 dtex typique — Rétention de traction après exposition UV</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 h 100%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">500 h 95%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">1000 h 88%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
+        <span class="text-xs mt-1">2000 h 82%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
+        <span class="text-xs mt-1">Concurrent ~65%</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Notre tissu PVC 1100 dtex conserve &gt; 80 % de résistance à la traction après 2000 h d''exposition à l''arc xénon, contre les qualités industrielles typiques qui chutent sous 70 %.</p>
+  </div>
+
+  <h2>Notre équipe professionnelle</h2>
+  <p>Le laboratoire est composé de deux ingénieurs matériaux à temps plein, chacun titulaire d''un diplôme en science des polymères ou en ingénierie textile avec un minimum de six ans d''expérience industrielle. Ils sont soutenus par trois techniciens qui effectuent les tests quotidiens et la journalisation des données. L''équipe participe régulièrement à des essais inter-laboratoires en anneau organisés par l''Organisation internationale de normalisation (ISO) pour valider la précision de nos méthodes de test.</p>
+
+  <h2>Résoudre vos défis matériaux les plus difficiles</h2>
+  <p>Chaque environnement de pagayage est différent. Une planche opérant sous les tropiques fait face à des conditions UV et de température très différentes de celles d''un lac nordique ou d''un réservoir désertique. Notre Laboratoire de tissus vous aide à sélectionner — ou développer — une spécification de tissu optimisée pour votre profil d''exploitation.</p>
+  <p>Solutions personnalisées récentes :</p>
+  <ul>
+    <li>Un mélange PVC haute abrasion pour une flotte de location dont les planches touchent régulièrement des plages de sable et des rampes de mise à l''eau en béton (+40 % de durée d''abrasion).</li>
+    <li>Une formulation basse température pour un programme de revendeur de stockage hivernal canadien, testée à -50 °C sans fragilisation.</li>
+    <li>Un pont orange stabilisé en couleur pour une flotte d''entraînement de recherche et sauvetage, maintenant la visibilité après 3 ans d''exposition au soleil tropical.</li>
+  </ul>
+  <p>Nous ne vendons pas de tissus « prêts à l''emploi » en espérant qu''ils fonctionnent. Nous testons, validons et recommandons — ou créons — une solution sur mesure pour votre profil de mission spécifique. C''est la différence {SITE.name}.</p>
+
+  <h2>Comment nous vous servons</h2>
+  <p>Quand vous nous apportez un défi matériau, voici ce que vous pouvez attendre :</p>
+  <ol>
+    <li><strong>Consultation</strong> — nous discutons de votre environnement d''exploitation, de vos objectifs de performance et de votre budget.</li>
+    <li><strong>Proposition</strong> — un plan de test est rédigé avec des critères de réussite/échec clairs et un calendrier.</li>
+    <li><strong>Exécution</strong> — notre laboratoire exécute les tests et produit un rapport détaillé avec données brutes et analyse comparative.</li>
+    <li><strong>Recommandation</strong> — nous présentons une spécification de tissu, y compris des options alternatives si plusieurs matériaux répondent à vos exigences.</li>
+    <li><strong>Suivi</strong> — après la livraison, nous restons disponibles pour soutenir toute question matériau en service.</li>
+  </ol>
+  <p>Notre objectif n''est pas simplement de vous vendre une planche. C''est de garantir que la planche que vous recevez fonctionne de manière fiable dans les conditions où vous opérez — et cela commence par le tissu.</p>
+
+cta:
+  title: 'Besoin d''une spécification de tissu personnalisée ?'
+  subtitle: 'Contactez notre équipe d''ingénierie matériaux pour discuter de vos exigences.'
+  actions:
+    - variant: primary
+      text: Contacter notre équipe de laboratoire
+      href: /fr/contact#project-brief
+    - text: Retour au centre de R&D
+      href: /fr/randdcenter

@@ -121,7 +121,7 @@ function EntityPage() {
             </h2>
             <p className="mt-2 text-[14.5px] text-fg-2">{c.projectsBody}</p>
             <ul className="mt-5 space-y-2.5">
-              {projects[locale].map((p) => (
+              {(projects[locale] ?? projects.en).map((p) => (
                 <li key={p.slug}>
                   <a
                     href={fl(`/projects/${p.slug}`)}
@@ -139,7 +139,7 @@ function EntityPage() {
             </h2>
             <p className="mt-2 text-[14.5px] text-fg-2">{c.knowledgeBody}</p>
             <ul className="mt-5 space-y-2.5">
-              {knowledge[locale].map((a) => (
+              {(knowledge[locale] ?? knowledge.en).map((a) => (
                 <li key={a.slug}>
                   <a
                     href={fl(`/knowledge/${a.slug}`)}

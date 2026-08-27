@@ -18,7 +18,7 @@ export function ProjectPage({ page }: { page: ProjectData }) {
   const { t, locale } = useTranslation()
   const fl = useLocalizePath()
 
-  const related = projects[locale]
+  const related = (projects[locale] ?? projects.en)
     .filter((p) => p.slug !== page.slug)
     .map((p) => ({
       p,

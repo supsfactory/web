@@ -1,0 +1,166 @@
+meta:
+  title: 'Confiance OEM et assurance d''usine —Vérifiez notre usine avant de commander'
+  description: 'Comment les acheteurs vérifient SUPsfactory avant de commander : enregistrement officiel, audits d''usine, ingénieurs sous NDA et inspections tierces parties (SGS/TÜV/BV/Intertek).'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'vérification d''usine OEM SUP'
+    - 'vérifier un fabricant de SUP'
+    - 'audit d''usine SUP en Chine'
+    - 'usine de SUP gonflable Qingdao'
+    - 'assurance de confiance OEM'
+    - 'certificats de fabricant SUP'
+
+hero:
+  tagline: 'Fabrication que vous pouvez vérifier'
+  title: 'Confiance OEM et assurance d''usine'
+  subtitle: 'Chaque allégation de ce site peut être vérifiée : enregistrement officiel de l''entreprise, une usine physique de 12 500 m² que vous pouvez visiter ou auditer, de vrais ingénieurs sous NDA, des documents QMS que vous pouvez télécharger et des données de test enregistrées par numéro de série. Conçu et opéré par Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Réponse directe'
+  text: 'La confiance n''est pas une promesse — c''est de la documentation. Nous sommes une entité manufacturière chinoise enregistrée (Qingdao Vatrad Group Co., Ltd.) avec une usine physique de 12 500 m² à Qingdao, 350+ ouvriers et une capacité annuelle de 120 000+ planches. Vous pouvez vérifier l''enregistrement, auditer l''usine, examiner les SOP QMS, télécharger des enregistrements qualité d''exemple, planifier des inspections tierces parties (SGS, TÜV, BV ou Intertek) et faire signer une NDA sous 4 heures ouvrées. Chaque planche est testée en pression à 18,0 PSI pendant 24 heures avec rejet automatique au-delà d''une chute de 0,50 PSI, et chaque lot conserve une traçabilité ERP sur 10 ans. Si une allégation ne peut pas être documentée, nous ne la formulons pas.'
+  verified: '2026-08'
+
+trust_stats:
+  - value: '12 500 m²'
+    label: Atelier d''usine
+    detail: 4 ateliers spécialisés, ouverts aux audits
+  - value: '350+'
+    label: Ouvriers sur site
+    detail: 25+ ingénieurs en R&D, matériaux et QC
+  - value: '120 000+'
+    label: Planches produites chaque année
+    detail: 10 000 planches/mois sur 4 lignes automatisées
+  - value: '4 heures'
+    label: Délai de NDA
+    detail: NDA standard signée sous 4 heures ouvrées
+  - value: '7 étapes'
+    label: Système de portes qualité
+    detail: Nœud 01—7, enregistré par numéro de série
+  - value: '18,0 PSI'
+    label: Test de pression 100 %
+    detail: Maintien sur 24 h, rejet automatique au-delà d''une chute de 0,50 PSI
+
+role_boundary:
+  tagline: 'Ce que nous sommes —et ce que nous ne sommes pas'
+  title: 'Une usine que vous pouvez vérifier, jamais une allégation à prendre sur la foi'
+  subtitle: 'La différence de vérification entre une usine et un bureau de trading est simple : chaque allégation a un document, une personne ou une machine derrière elle.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: 'Ce que nous sommes —un fabricant vérifiable'
+      desc: '· Une entité légale enregistrée : Qingdao Vatrad Group Co., Ltd. —détails d''enregistrement partagés sous NDA ou pendant l''audit · Une usine physique : 12 500 m² dans la zone de développement économique de Laixi, Qingdao, avec 4 ateliers spécialisés, 350+ ouvriers et 4 lignes automatisées · Une équipe de fabrication : les personnes qui répondent à vos questions sont celles qui construisent vos planches · De vrais documents : SOP QMS, normes d''inspection et enregistrements qualité anonymisés disponibles au téléchargement · Vérification indépendante bienvenue : inspections SGS, TÜV, BV ou Intertek à votre choix, selon ISO 2859-1 Niveau II'
+      link: '/fr/factory'
+      link_label: 'Visiter la page de l''usine'
+    - icon: B
+      icon_bg: green
+      title: 'Ce que nous ne sommes pas —le profil du bureau de trading'
+      desc: '· Pas de société de trading : nous ne transférons pas votre commande à une tierce usine ni n''ajoutons de marges de courtier · Pas de marque à nous sur vos planches : vous possédez la marque, le marché et le client · Pas de minimums vagues : le MOQ est calculé à partir de la physique des rouleaux de matière première et confirmé par projet · Pas de certificats « sur demande uniquement » : la liste est publiée et les enregistrements d''audit peuvent être examinés · Pas d''allégations uniquement verbales : pression de test, seuils et traçabilité des lots documentés par numéro de série'
+      link: '/fr/oem-moq-guide'
+      link_label: 'Voir le guide MOQ transparent'
+
+trust_steps:
+  tagline: 'Une vraie étude de cas'
+  title: 'Comment une flotte de location d''Europe du Nord nous a vérifiés avant de commander'
+  subtitle: 'Sept étapes de vérification qu''un opérateur de location commercial a complétées avant de passer une commande de flotte de 90–100+ unités —la même liste de contrôle vous est ouverte.'
+  steps:
+    - step: '01'
+      title: 'Vérification officielle de l''entité'
+      desc: 'L''acheteur a demandé l''enregistrement d''entreprise chinois et la licence de commerce d''export. L''entité légale derrière SUPsfactory est Qingdao Vatrad Group Co., Ltd., un fabricant enregistré depuis 2012 à Qingdao, Shandong —vérifié via le registre national sous NDA.'
+    - step: '02'
+      title: 'Usine physique et audit de site'
+      desc: 'Un audit d''usine (en personne et via une visite vidéo) a confirmé l''usine de 12 500 m² : quatre ateliers spécialisés, 350+ ouvriers, quatre lignes automatisées et une production mensuelle d''environ 10 000 planches. Le rapport d''audit est classé avec les enregistrements du contrat.'
+    - step: '03'
+      title: 'Personnes : de vrais ingénieurs, pas des scripts commerciaux'
+      desc: 'L''acheteur a parlé directement avec l''équipe d''ingénierie —conception de coque, laboratoire de matériaux et QC. La spécification du projet et la NDA ont été échangées sous 4 heures ouvrées, et une revue d''ingénierie est revenue sous un jour ouvré.'
+    - step: '04'
+      title: 'Papier : QMS, certificats et inspection tierce partie'
+      desc: 'La documentation de conformité ISO 9001:2015, ISO 25649 et CE, les enregistrements BSCI/REACH/RoHS et les SOP QMS ont été examinés. L''acheteur a planifié une inspection SGS avant expédition selon ISO 2859-1 Niveau II sur la première commande de volume —et a reçu un Certificat de Conformité par lot.'
+    - step: '05'
+      title: 'Données : enregistrements de test par numéro de série'
+      desc: 'L''acheteur a audité les enregistrements de test réels : chaque chambre testée à 18,0 PSI pendant 24 heures avec rejet automatique au-delà d''une chute de pression de 0,50 PSI, listes de contrôle d''assemblage de 100 points et traçabilité de lot ERP sur 10 ans. Des enregistrements QC d''échantillon ont été fournis avant la commande.'
+    - step: '06'
+      title: 'Protection contractuelle'
+      desc: 'Le contrat de commande couvrait la licence de marque, une période d''exclusivité territoriale convenue, la propriété du moule et les conditions de rachat, et définissait les données et enregistrements qui transfèrent avec l''outillage. L''acheteur a approuvé le moule à l''usine avant la production.'
+    - step: '07'
+      title: 'Gouvernance continue'
+      desc: 'Des revues commerciales trimestrielles avec le VP des ventes et l''ingénieur en chef, un droit réservé d''audit pendant la production et une voie d''escalade vers le directeur QA pour tout différend qualité. L''accord a été conjointement signé par le VP des ventes, l''ingénieur en chef et le directeur QA.'
+
+trust_faqs:
+  tagline: 'FAQ'
+  title: 'Les 12 préoccupations que les acheteurs expriment avant de commander'
+  items:
+    - q: 'SUPsfactory est-il vraiment une usine, ou une société de trading ?'
+      a: 'SUPsfactory est la division de développement produit et de fabrication SUP d''Afarer, la division de fabrication de Qingdao Vatrad Group Co., Ltd. Nous exploitons nous-mêmes l''usine de 12 500 m² à Qingdao —design, découpe, soudure, assemblage et test se déroulent dans une seule installation. Aucun transfert de société de trading : les personnes qui répondent à vos questions sont celles qui construisent vos planches.'
+    - q: 'Avec qui exactement traiterai-je pendant mon projet ?'
+      a: 'Un ingénieur de projet nommé et un contact QC nommé, plus les chefs de département qui signent vos documents. Vous pouvez demander à parler directement à l''ingénieur en chef, au directeur QA ou au directeur d''usine —avant et après la commande. Aucune couche de chef de compte ne s''interpose entre vous et les personnes qui font le travail.'
+    - q: 'Puis-je visiter ou auditer l''usine ?'
+      a: 'Oui. Nous accueillons les visites d''usine dans la zone de développement économique de Laixi, Qingdao, et soutenons les audits à distance avec des visites vidéo en direct. Les audits peuvent être organisés indépendamment (votre inspecteur ou une tierce partie comme SGS, TÜV, BV ou Intertek) et le calendrier d''audit peut être écrit dans le contrat.'
+    - q: 'Signerez-vous une NDA avant que je partage mon design ?'
+      a: 'Oui. Notre NDA standard est signée sous 4 heures ouvrées après votre demande, avant que toute spécification propriétaire, graphisme ou fichier technique soit partagé. Des versions bilingues (anglais/chinois) sont disponibles, et le document est contresigné par le directeur d''usine.'
+    - q: 'Comment savoir que vos allégations qualité sont réelles ?'
+      a: 'Chaque allégation de ce site a un document derrière elle : les SOP QMS et les normes d''inspection sont téléchargeables, des échantillons d''enregistrements qualité anonymisés sont publiés, et les données de test sont journalisées par numéro de série avec traçabilité de lot ERP sur 10 ans. Vous pouvez aussi planifier une inspection tierce partie avant expédition à votre choix.'
+    - q: 'Que se passe-t-il si mes planches arrivent avec des défauts ?'
+      a: 'Chaque planche est testée avant l''emballage, et les enregistrements au niveau du lot permettent une recherche de cause racine par numéro de série. Le contrat définit les obligations d''inspection, de remplacement et de reprise, et le directeur QA signe la libération du lot. Les planches reprises sont re-testées en totalité —jamais contrôlées partiellement.'
+    - q: 'Pouvez-vous vraiment tester 100 % des planches avant l''expédition ?'
+      a: 'Oui —et les enregistrements le prouvent. Chaque chambre est gonflée à 18,0 PSI et maintenue pendant 24 heures avec journalisation continue des capteurs ; toute chambre dépassant 0,50 PSI de chute de pression sur 24 heures est automatiquement rejetée et ré-inspectée. Les journaux de test sont liés à chaque numéro de série et font partie de la documentation du lot.'
+    - q: 'Quelles certifications détenez-vous réellement ?'
+      a: 'Management de la qualité ISO 9001:2015, conformité ISO 25649 et CE pour les produits SUP gonflables, plus la conformité BSCI, REACH et RoHS pour l''installation et les matériaux. Les numéros de certificat et les enregistrements d''audit sont fournis sur demande ou pendant un audit —la liste est publiée, pas « disponible sur demande uniquement ».'
+    - q: 'Ma marque sera-t-elle en sécurité —design, moules et marché ?'
+      a: 'Oui. Votre marque, vos designs et votre outillage sont protégés par NDA, conditions de licence de marque et clauses de propriété ou de rachat du moule écrites dans le contrat. L''outillage est conservé pour la marque et transférable. Les conditions de territoire et d''exclusivité sont convenues par écrit avant le début de la production.'
+    - q: 'Quel est votre vrai MOQ ?'
+      a: 'Le MOQ est spécifique au projet et expliqué sur notre guide MOQ : échantillons 1–2 unités, co-marquage petit volume 5–10 unités, lots pilotes 20–50 unités et volume standard 90–100+ unités par rouleau de 150 m (environ 180–220 planches). Les formes à moule personnalisé s''exécutent au niveau de volume. Le calcul est confirmé avant devis —pas de chiffres vagues de « MOQ bas ».'
+    - q: 'Que se passe-t-il si la production est en retard ?'
+      a: 'Le délai est confirmé après l''examen de la spécification, des graphismes et de l''emballage —jamais promis à l''avance. Le contrat couvre la planification, la notification de retard et la voie de résolution, et la revue commerciale trimestrielle suit la performance de livraison contre le calendrier convenu.'
+    - q: 'Qui signe les documents contractuels de votre côté ?'
+      a: 'Les commandes et accords sont conjointement signés par le VP des ventes, l''ingénieur en chef et le directeur QA —les trois personnes responsables respectivement des conditions commerciales, de l''exécution d''ingénierie et de la libération qualité. Vous recevez les documents signés avec les enregistrements du contrat.'
+
+governance:
+  tagline: 'Structure de responsabilité'
+  title: 'Signataires nommés et droits réservés'
+  subtitle: 'Chaque engagement est lié à un rôle nommé —pas à un département commercial.'
+  body: |
+    **Signature conjointe.** Les commandes, plans qualité et résolutions de différends sont signés par trois rôles : le VP des ventes (conditions commerciales), l''ingénieur en chef (exécution d''ingénierie) et le directeur QA (libération qualité). Les SOP bilingues sont versionnées et portent la même structure de signature.
+
+    **Droits réservés.** L''acheteur conserve le droit d''auditer la production, d''examiner les enregistrements de test et de retenir la libération du lot jusqu''à la signature de l''inspection. La reprise n''a lieu que sous un enregistrement de changement approuvé, et la libération est validée par un QC indépendant —jamais par les opérateurs de reprise.
+
+    **Enregistrements qui transfèrent.** Les journaux de test de lot, les certificats de conformité et les rapports d''inspection sont livrés avec chaque expédition, et la traçabilité de lot ERP est conservée pendant 10 ans. Les enregistrements d''outillage et les dessins de moule transfèrent avec l''outillage quand le contrat le prévoit.
+
+trust_downloads:
+  tagline: 'Documents officiels'
+  title: 'Documents de vérification —télécharger et partager'
+  subtitle: 'Documents officiels de Qingdao Vatrad Group Co., Ltd., prêts à joindre à votre dossier de due diligence fournisseur.'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Guide de confiance acheteur OEM et d''assurance d''usine (PDF)'
+      desc: 'Guide B2B officiel (Partie II, DOC-ENG-2026-EN) : vérification d''usine étape par étape —enregistrement de l''entité, audit physique, vrais ingénieurs, documents QMS, inspection tierce partie, protection contractuelle et signatures de gouvernance.'
+      link: 'https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link_label: 'Télécharger le guide (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Guide de marque flexible et de MOQ (PDF)'
+      desc: 'Guide B2B officiel (Partie I, DOC-MOQ-EXP-2026-EN) : la logique d''ingénierie derrière les rendements des rouleaux de drop-stitch de 150 m (90–100 planches), co-marquage dès 5–10 unités, lots pilotes 20–50 unités et les trois étapes de production.'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Télécharger le guide MOQ (PDF)'
+    - icon: Q
+      icon_bg: orange
+      title: 'Le système qualité derrière ces allégations'
+      desc: 'Une page qui relie le tout : le système de portes d''inspection à 7 étapes, les quatre normes qui le régissent et le registre de documents 00–15 avec chaque SOP et rapport que vous pouvez télécharger — QIP, normes d''inspection, dossier de traçabilité, NCP et SOP de reprise.'
+      link: '/fr/quality'
+      link_label: 'Explorer le système qualité'
+
+evidence_review:
+  tagline: 'Preuves et vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées 2026-08.'
+
+cta:
+  title: 'Commencez par la vérification —Ensuite nous parlons spécifications'
+  subtitle: 'Envoyez votre demande de NDA, demandez le pack d''enregistrement ou réservez un créneau d''audit. La vérification d''abord ; la conversation de commande suit. Soumettre une demande ne vous engage pas à une commande.'
+  button_text: 'Demander le pack de vérification'
+  button_link: '/fr/contact#trust-verification'
+  actions:
+    - text: Liste de contrôle d''audit d''usine
+      href: /fr/factory-audit-checklist
+    - text: Identité de marque
+      href: /fr/about/identity

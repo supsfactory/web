@@ -1,0 +1,164 @@
+meta:
+  title: 'Fabricant OEM de SUP gonflable | Production de planches à pagaie personnalisées'
+  description: 'Usine OEM de SUP gonflable : fabriquez votre design existant — revue d''ingénierie, échantillons en 7–12 jours, production en 25–35 jours, conformité CE/ISO/BSCI.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'fabricant OEM de SUP'
+    - 'SUP gonflable OEM'
+    - 'production de SUP personnalisée'
+    - 'usine de SUP en Chine'
+    - 'usine de planches à pagaie personnalisées'
+
+hero:
+  tagline: Fabrication OEM
+  title: 'Fabrication OEM de SUP personnalisée — votre spéc., notre usine'
+  subtitle: 'Vous apportez le design, le dessin ou la plateforme éprouvée — nous la fabriquons à l''échelle du conteneur. Revue d''ingénierie sous un jour ouvré, échantillons en 7–12 jours, production en 25–35 jours après bon de commande confirmé et acompte, expédié sous votre marque.'
+
+answer:
+  label: 'Réponse directe'
+  text: 'La production OEM s''exécute à partir de votre spécification. Le MOQ est confirmé par la configuration du projet plutôt que par un chiffre fixe : la production en volume standard s''exécute à 90–100 unités par lot à partir d''un rouleau de tissu drop-stitch de 150 m, les séries pilotes démarrent à 20–50 unités sur les plateformes existantes, et chaque projet passe par un échantillon (1–2 unités) avant le volume. Les échantillons partent en 7–12 jours ; la production s''exécute en 25–35 jours après bon de commande confirmé et acompte, plus 15–20 jours quand un nouvel outillage est requis.'
+  verified: '2026-08'
+
+features:
+  title: Capacités OEM
+  subtitle: 'Tout ce qu''il faut pour transformer votre spéc., dessin ou plateforme existant en conteneur expédié.'
+  items:
+    - title: Fabrication selon votre spéc.
+      description: 'Vos dessins, dimensions, qualités de matériaux et graphismes sont exécutés tels que livrés — nos ingénieurs examinent la spéc. pour la fabricabilité avant devis.'
+      icon: 'tabler:file-check'
+    - title: Adaptation de plateforme
+      description: 'Les plateformes de production éprouvées peuvent être adaptées avec vos modifications de forme, spéc. de rail, disposition des vannes et accessoires — sans développement complet de moule.'
+      icon: 'tabler:arrows-diff'
+    - title: Moules personnalisés
+      description: 'Nouvelles formes de planche à partir de vos dessins ou CAO — conception et ingénierie de moule en interne. L''outillage ajoute 15–20 jours à votre délai de projet.'
+      icon: 'tabler:shapes'
+    - title: Prototype et échantillon
+      description: 'Un échantillon physique est produit et approuvé avant toute série de volume, généralement sous 7–12 jours, avec essais sur piste pour les nouvelles formes.'
+      icon: 'tabler:tools'
+    - title: Production à l''échelle du conteneur
+      description: 'Lots en volume standard de 90–100 unités par design (un rouleau de tissu complet de 150 m), séries pilotes dès 20–50 pièces, délai de 25–35 jours après bon de commande confirmé.'
+      icon: 'tabler:package'
+    - title: Certifié CE
+      description: 'CE, ISO 9001, BSCI, REACH et RoHS — documentation de conformité préparée pour chaque marché vers lequel vous expédiez.'
+      icon: 'tabler:certificate'
+    - title: Inspection et traçabilité
+      description: 'Test de maintien de pression de 24 heures à 18,0 PSI avec rejet automatique au-delà d''une chute de 0,50 PSI, liste de contrôle d''assemblage de 100 points et traçabilité de lot ERP sur 10 ans.'
+      icon: 'tabler:shield-check'
+    - title: Logistique mondiale
+      description: 'FOB Qingdao, CIF et DDP vers plus de 50 pays, avec conditionnement d''export et dédouanement gérés par notre équipe logistique.'
+      icon: 'tabler:world'
+
+customization:
+  tagline: Construit selon votre spéc.
+  title: Points de spécification OEM
+  subtitle: 'Voici les points de spécification que vous contrôlez sur un projet OEM — votre document de spécification est le contrat de production :'
+  items:
+    - 'Dimensions de la planche — longueur, largeur, épaisseur, rocker et volume selon vos dessins ou pagayeurs cibles'
+    - 'Structure des matériaux — nombre de couches et qualité du PVC, densité du drop-stitch, raidisseurs et renforts de rail'
+    - 'Graphismes et couleurs — vos graphismes appliqués avec des palettes illimitées, ou support de notre équipe de design interne'
+    - 'Tapis de traction EVA — tapis de pont découpés sur mesure, logos et couleurs de pont sur chaque planche'
+    - 'Poignées et anneaux en D — placement, nombre et spéc. du matériel pour votre cas d''usage'
+    - 'Systèmes d''ailerons — configurations simple, bi ou tri-ailerons et boîtiers d''aileron à votre spéc.'
+    - 'Pagaies, pompes, laisses et accessoires — votre pack, votre marque'
+    - 'Emballage et présentation retail — boîtes retail, conditionnement d''expédition adapté à la mer et présentoirs sous votre marque'
+    - 'Étiquettes et marques de conformité — étiquettes de série, logos et documentation par marché préparée pour votre région d''export'
+
+faq_section:
+  tagline: FAQ
+  title: Questions sur la fabrication OEM
+  questions:
+    - q: Comment démarrer un projet OEM avec mon propre design ?
+      a: 'Envoyez vos dessins, une planche de référence ou une spécification écrite. Notre revue d''ingénierie confirme la fabricabilité et renvoie un devis sous un jour ouvré — c''est notre engagement standard, et une NDA est signée avant tout échange de fichier si nécessaire.'
+    - q: Quel est le MOQ pour un SUP gonflable OEM ?
+      a: 'Le MOQ est confirmé par la configuration du projet — coque et outillage, coloris et PVC, graphismes, emballage et accessoires. La production en volume standard s''exécute à 90–100 unités par lot (un rouleau de drop-stitch de 150 m), tandis que les séries pilotes démarrent à 20–50 unités sur les plateformes existantes. Lisez la logique de calcul complète dans notre Guide MOQ & Marque Flexible.'
+    - q: Quel est le délai typique pour une commande OEM ?
+      a: 'La production s''exécute en 25–35 jours à partir du bon de commande confirmé et de l''acompte. Le développement de moule personnalisé ajoute 15–20 jours d''outillage. Les échantillons de prototype partent généralement sous 7–12 jours.'
+    - q: Pouvez-vous fabriquer à partir de mes seuls dessins existants ?
+      a: 'Oui. L''OEM construit à partir de votre spécification telle quelle — vous possédez le design. Nos ingénieurs examinent les dessins pour la faisabilité de production, signalent tout conflit de spéc. avant le début de l''outillage ou de la découpe, et l''échantillon approuvé devient la référence de production.'
+    - q: Fournissez-vous des échantillons avant la production ?
+      a: 'Oui. Un échantillon physique est produit et approuvé avant toute série de production, généralement sous 7–12 jours, et il sert de référence pour tous les contrôles QC ultérieurs.'
+    - q: Quelles certifications l''usine détient-elle ?
+      a: 'CE, ISO 9001, BSCI, REACH et RoHS. Une documentation de conformité complète est fournie avec chaque expédition OEM, préparée pour vos marchés cibles.'
+    - q: Comment le contrôle qualité est-il géré sur une série OEM ?
+      a: 'La production s''exécute sous un QC multipoints — matière entrante, contrôle en cours de processus et inspection finale — avec test de maintien de pression de 24 heures à 18,0 PSI (rejet automatique au-delà d''une chute de 0,50 PSI), liste de contrôle d''assemblage de 100 points et traçabilité de lot ERP sur 10 ans par numéro de série.'
+    - q: Quelles sont vos conditions d''expédition ?
+      a: 'FOB Qingdao, CIF sur les principaux ports mondiaux, ou DDP pour les partenaires qualifiés. Nous expédions vers 50+ pays à travers les marchés UE, US, AU et Asie.'
+
+process:
+  title: Le processus OEM — de la spéc. au conteneur expédié
+  subtitle: 'Sept étapes contrôlées gérées par une seule équipe d''usine, donc chaque étape de votre première spéc. au conteneur emballé reste documentée et dans les délais.'
+  steps:
+    - phase: '01'
+      title: Revue de spéc. et devis
+      period: 1 jour ouvré
+      items:
+        - 'Partagez vos dessins, spécification ou planches de référence — nos ingénieurs vérifient la fabricabilité.'
+        - 'Vous recevez un devis détaillé et un plan de projet sous un jour ouvré.'
+    - phase: '02'
+      title: Confirmation d''ingénierie
+      period: Semaine 1
+      items:
+        - 'Les dimensions de la coque, la qualité du drop-stitch, les spéc. PVC et la construction des rails sont confirmées contre votre document.'
+        - 'Les décisions de moule ou de plateforme sont verrouillées — l''outillage de moule personnalisé démarre ici si requis.'
+    - phase: '03'
+      title: Prototype et échantillon
+      period: 7–12 jours
+      items:
+        - 'Un échantillon physique est produit et envoyé pour votre examen — essais sur piste inclus pour les nouvelles formes.'
+        - 'Un échantillon (1–2 unités) valide votre spéc. avant tout engagement de volume.'
+    - phase: '04'
+      title: Tests et validation
+      period: En parallèle
+      items:
+        - 'Contrôles de rétention d''air, de maintien de pression, de résistance de soudure, de charge et UV par ligne de production.'
+        - 'Documentation CE, ISO 9001, BSCI, REACH et RoHS préparée pour vos marchés d''export.'
+    - phase: '05'
+      title: Approbation et confirmation
+      period: Après signature de l''échantillon
+      items:
+        - 'Vous approuvez l''échantillon et les graphismes ; le bon de commande et l''acompte verrouillent le créneau de production.'
+        - 'Un plan de pré-production confirme les dates, quantités, emballage et port de chargement.'
+    - phase: '06'
+      title: Production
+      period: 25–35 jours
+      items:
+        - 'La production s''exécute sous un QC multipoints — matière entrante, contrôle en cours de processus et inspection finale.'
+        - 'Des commandes pilotes (20–50 unités) sur plateformes existantes jusqu''aux lots complets de rouleau de 150 m (90–100+ unités) pour la production en volume standard.'
+    - phase: '07'
+      title: Emballage et expédition
+      period: 1 jour + transit
+      items:
+        - 'Conditionnement d''export avec étiquettes de série du modèle, puis FOB Qingdao, CIF ou DDP vers 50+ pays.'
+        - 'Documentation douanière, suivi et support de ré-commande inclus à chaque étape.'
+
+geo:
+  tagline: Avec qui nous travaillons
+  title: Partenaires OEM dans toute l''industrie du SUP
+  sentence: 'Chaque projet OEM chez SUPsfactory est associé à une équipe qui a déjà construit des planches pour le même type d''entreprise — voici qui nous servons.'
+  audiences:
+    - 'Marques de SUP'
+    - 'Entreprises de sports de plein air et nautiques'
+    - 'Distributeurs et détaillants'
+    - 'Stations, clubs et organisations'
+
+cta:
+  title: 'Prêt à lancer votre ligne de SUP ?'
+  subtitle: 'Recevez un devis OEM détaillé sous un jour ouvré — envoyez votre spéc. ou vos dessins.'
+  actions:
+    - variant: primary
+      text: Demander un devis OEM
+      href: /fr/contact#custom-oem
+    - text: Vérifier l''usine et le système qualité
+      href: /fr/oem-trust-assurance
+    - text: Le système d''inspection en 7 étapes
+      href: /fr/quality
+    - text: Guide MOQ & marque flexible
+      href: /fr/oem-moq-guide
+    - text: Décomposition du MOQ et des délais SUP personnalisés
+      href: /fr/sup-oem-moq-lead-time
+    - text: Lancez une nouvelle marque avec une commande d''essai
+      href: /fr/new-brand-trial-order
+    - text: Comparaison de construction SUP
+      href: /fr/sup-construction-comparison
+    - text: Conformité SUP par marché
+      href: /fr/sup-compliance-by-market

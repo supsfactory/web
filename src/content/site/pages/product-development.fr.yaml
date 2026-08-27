@@ -1,0 +1,108 @@
+meta:
+  title: 'Développement de produit SUP — Design, prototype et production personnalisés'
+  description: 'Développement de produit SUP du concept au conteneur : spécification, ingénierie, prototypage, test, outillage et production de masse à l''intérieur d''une usine de SUP dédiée.'
+  dateModified: '2026-08-10'
+  keywords:
+    - 'développement de produit SUP'
+    - 'développement de prototype SUP'
+    - 'design de SUP personnalisé'
+    - 'ingénierie de produit SUP'
+    - 'prototypage de SUP gonflable'
+
+hero:
+  tagline: Développement de produit
+  title: 'Développement de produit SUP personnalisé, du concept au conteneur'
+  subtitle: 'Six étapes transforment votre idée de produit en planches SUP prêtes pour la production — spécification, ingénierie, prototypage, test, outillage et production de masse, le tout dans une seule usine avec un seul système qualité responsable.'
+
+answer:
+  label: 'Réponse directe'
+  text: 'Le développement de produit SUP chez SUPsfactory s''exécute en six étapes — spécification produit, ingénierie structurelle, échantillonnage de prototype, test et validation, outillage personnalisé et production de masse. Le premier échantillon physique part 7–12 jours après l''approbation de la spécification ; la production s''exécute en 25–35 jours après bon de commande confirmé et acompte ; le développement de nouveau moule ajoute 15–20 jours.'
+  verified: '2026-08'
+
+stages:
+  title: 'Les six étapes du développement de produit SUP'
+  subtitle: 'Chaque étape a un livrable clair, pour que vous sachiez toujours où en est votre projet — et ce qui arrive ensuite.'
+  items:
+    - title: '1. Idée et spécification produit'
+      description: 'Géométrie de la planche, plage de poids du pagayeur, volume, objectifs de construction et pack d''accessoires. Une planche de référence, un croquis ou une spéc. concurrente suffit pour commencer.'
+      icon: 'tabler:bulb'
+    - title: '2. Ingénierie et design 3D'
+      description: 'Ingénierie structurelle, épaisseur du drop-stitch et sélection de la qualité du PVC, plus une revue de fabricabilité et un devis — renvoyés sous un jour ouvré.'
+      icon: 'tabler:blueprint'
+    - title: '3. Échantillonnage de prototype'
+      description: 'Votre premier échantillon physique part en 7–12 jours, documenté avec une fiche d''approbation couvrant la construction, les couleurs d''impression et les résultats de test de pression.'
+      icon: 'tabler:tools'
+    - title: '4. Test et validation'
+      description: 'Maintien de pression, résistance de soudure et contrôles dimensionnels contre l''échantillon approuvé, avec documentation CE et REACH préparée pour vos marchés cibles.'
+      icon: 'tabler:test-pipe'
+    - title: '5. Outillage et production de masse'
+      description: 'Développement de moule personnalisé en 15–20 jours si nécessaire ; production en 25–35 jours avec points de contrôle QC en cours de processus et traçabilité des lots.'
+      icon: 'tabler:settings'
+    - title: '6. Livraison et mise à l''échelle'
+      description: 'Logistique FOB, CIF ou DDP vers 50+ pays — puis commandes récurrentes sur votre ligne établie avec des délais stables et des graphismes approuvés en dossier.'
+      icon: 'tabler:truck-delivery'
+
+why_inhouse:
+  title: 'Pourquoi le développement à l''intérieur d''une usine bat un projet de courtier'
+  subtitle: 'Le travail de développement situé à l''intérieur de l''usine de production change ce que vous obtenez à chaque étape.'
+  items:
+    - title: Pas de lacunes de transfert de design
+      description: 'L''équipe d''ingénierie et de dessin travaille sur le même étage que la ligne de soudure — un changement de dessin va en production la même semaine, pas après un aller-retour commercial.'
+      icon: 'tabler:handshake'
+    - title: Des échantillons qui correspondent à la production
+      description: 'La série d''échantillon et la série de production partagent les mêmes machines, matériaux et postes QC, donc l''échantillon approuvé est ce que vous recevez réellement à l''échelle du conteneur.'
+      icon: 'tabler:stack-2'
+    - title: Une ingénierie qui ne vend rien
+      description: 'Les décisions sont prises contre le coût cible, le poids et la durabilité — pas contre des marges de montée en gamme, car c''est une usine et la production est le seul revenu.'
+      icon: 'tabler:scale'
+    - title: La confidentialité comme contrat permanent
+      description: 'Une NDA est signée avant tout échange de fichiers, et vos graphismes, votre outillage et vos fichiers de spécification restent votre propriété — jamais réutilisés, revendus ou montrés à un autre client.'
+      icon: 'tabler:lock'
+
+buyer_guides:
+  tagline: 'Guides d''acheteur'
+  title: 'La bibliothèque complète d''approvisionnement'
+  subtitle: 'Chaque étape d''un projet SUP personnalisé, expliquée avec nos délais réels, nos conditions et notre documentation.'
+  items:
+    - title: 'Marque privée : le guide complet étape par étape'
+      body: 'Du choix d''une usine à un conteneur livré — le parcours complet en six étapes pour les nouvelles marques.'
+      href: '/fr/news/private-label-sup-guide'
+    - title: 'Comment choisir un fabricant OEM de SUP'
+      body: 'Les questions d''audit qui séparent une vraie usine d''un trader : certifications, QC, échantillons et propriété.'
+      href: '/fr/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'Calendrier de développement de produit SUP'
+      body: 'Échantillon en 7–12 jours, production en 25–35 jours, outillage plus 15–20 — le calendrier complet, étape par étape.'
+      href: '/fr/news/custom-sup-development-timeline'
+    - title: 'Informations à préparer avant de commander'
+      body: 'Les cinq détails qui permettent à une usine de deviser précisément du premier coup — et d''éviter la reprise de spéc.'
+      href: '/fr/news/info-needed-before-sup-production'
+    - title: 'MOQ et tarification OEM SUP'
+      body: 'Niveaux de MOQ à travers les étapes échantillon (1–2), pilote (20–50) et volume (90–100+ par rouleau de 150 m), les six facteurs de coût et cinq façons de réduire le coût sans réduire la qualité.'
+      href: '/fr/news/sup-oem-moq-pricing'
+    - title: 'Certification CE pour SUP gonflable'
+      body: 'Ce que CE couvre réellement, les cinq documents à exiger et comment vérifier qu''un certificat nomme votre modèle.'
+      href: '/fr/news/ce-certification-inflatable-sup'
+    - title: 'Expédition : FOB vs CIF vs DDP'
+      body: 'Ce que chaque incoterm couvre et coûte, le calendrier de fret maritime de 4 à 6 semaines, et quel terme convient à votre entreprise.'
+      href: '/fr/news/private-label-sup-oem-guide'
+
+faq_section:
+  tagline: FAQ
+  title: 'Questions fréquentes sur le développement SUP'
+  questions:
+    - q: Pouvez-vous développer un produit SUP à partir d''une idée ?
+      a: 'Oui. Nous soutenons le parcours complet de la spécification produit et de l''ingénierie au développement de prototype, à la personnalisation et à la production de masse en fonction de vos exigences. Un croquis, une planche de référence ou même une spécification concurrente suffit pour démarrer la revue d''ingénierie.'
+    - q: Combien coûte le développement de produit SUP ?
+      a: 'La revue de spécification et l''évaluation d''ingénierie sont gratuites et renvoyées sous un jour ouvré. L''échantillonnage de prototype est devisé par projet après fixation de la spéc. ; la tarification de production dépend des matériaux, du volume et de la nécessité ou non d''un outillage personnalisé.'
+    - q: Combien de temps prend le développement de produit SUP ?
+      a: 'Le premier échantillon part 7–12 jours après l''approbation de la spécification, avec 3–7 jours par cycle de révision. La production s''exécute en 25–35 jours après le bon de commande et l''acompte. Le développement de moule personnalisé ajoute 15–20 jours en amont, et le fret maritime ajoute 4–6 semaines vers la plupart des destinations.'
+    - q: Qu''est-ce qui vient en premier — l''échantillon ou la production ?
+      a: 'Toujours l''échantillon. Un prototype physique est produit, mesuré et approuvé contre la spécification avant le début de toute série de production. Nous ne faisons pas de production en gros sur des designs non approuvés.'
+    - q: Signez-vous une NDA pour le développement de produit ?
+      a: 'Oui. Une NDA est signée avant tout échange de fichiers, et vos designs, graphismes et votre outillage restent votre propriété tout au long du développement et de la fabrication.'
+    - q: Pouvez-vous protéger mon design et mes spécifications SUP ?
+      a: 'Les designs, spécifications et concepts de produit des clients sont traités de manière confidentielle pendant le développement et la fabrication. Vos fichiers d''outillage ne sont jamais réutilisés, revendus ou montrés à un autre client.'
+
+cta:
+  title: 'Démarrez votre projet de produit SUP'
+  subtitle: 'Envoyez un croquis, une planche de référence ou une spécification — revue d''ingénierie et devis sous un jour ouvré.'

@@ -21,8 +21,8 @@ export const Route = createFileRoute('/{-$locale}/knowledge/')({
       origin,
       locale,
       path: '/knowledge',
-      title: knowledgeMeta[locale].metaTitle,
-      description: knowledgeMeta[locale].metaDescription,
+      title: (knowledgeMeta[locale] ?? knowledgeMeta.en).metaTitle,
+      description: (knowledgeMeta[locale] ?? knowledgeMeta.en).metaDescription,
     })
     return { meta, links }
   },
@@ -31,9 +31,9 @@ export const Route = createFileRoute('/{-$locale}/knowledge/')({
 
 function KnowledgeIndex() {
   const { locale, t } = useTranslation()
-  const articles = knowledge[locale]
-  const meta = knowledgeMeta[locale]
-  const guides = GUIDE_CARDS[locale]
+  const articles = knowledge[locale] ?? knowledge.en
+  const meta = knowledgeMeta[locale] ?? knowledgeMeta.en
+  const guides = GUIDE_CARDS[locale] ?? GUIDE_CARDS.en
   const mfg = pick(manufacturingGuides, locale)
   const fl = useLocalizePath()
 

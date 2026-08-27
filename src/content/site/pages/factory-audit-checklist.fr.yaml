@@ -1,0 +1,105 @@
+meta:
+  title: 'Liste de contrôle d''audit d''usine — que vérifier avant de choisir un fabricant de SUP | SUPsfactory'
+  description: 'Liste de contrôle d''audit d''usine pour les acheteurs de SUP gonflables : système qualité, capacité, traçabilité des matériaux, test de pression, conformité sociale et documentation.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'liste de contrôle audit usine sup'
+    - 'audit fabricant planche gonflable'
+    - 'vérification usine sup'
+    - 'inspection usine oem'
+    - 'audit qualité sup'
+    - 'due diligence fabricant sup'
+    - 'audit production sup gonflable'
+
+hero:
+  tagline: 'Due diligence'
+  title: 'Liste de contrôle d''audit d''usine'
+  subtitle: 'Avant de vous engager auprès d''un fabricant de SUP, vérifiez les fondamentaux. Cette liste couvre les huit domaines qu''un acheteur professionnel doit auditer — du management de la qualité et de la capacité de production à la traçabilité des matériaux et à la conformité sociale. Chaque élément de cette liste est une chose que nous pouvons démontrer avec des enregistrements, et non de simples allégations.'
+
+answer:
+  label: 'Réponse rapide'
+  text: 'Les huit domaines d''audit qui comptent le plus : (1) Système de management de la qualité — certification ISO 9001 et enregistrements d''inspection réels porte par porte, pas seulement un certificat au mur. (2) Capacité de production — des chiffres réels de production, pas de la capacité nominale. (3) Traçabilité des matériaux — inspection entrante au niveau du lot et rapports de test. (4) Tests de pression et de structure — protocoles de maintien documentés. (5) Contrôles de soudage et d''assemblage — paramètres de soudure RF et inspection des coutures. (6) Conformité sociale — audit BSCI ou équivalent. (7) Documentation et traçabilité — enregistrements de lots, journaux d''inspection, certificats de conformité. (8) Support après livraison — processus de garantie, pièces de rechange, réactivité de communication.'
+  verified: '2026-08'
+
+audit_areas:
+  tagline: Huit domaines d''audit
+  title: 'Ce qu''il faut vérifier — les huit domaines d''audit'
+  subtitle: 'Chaque domaine comprend les questions à poser, les enregistrements à demander et les signaux d''alarme à surveiller.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: Q
+      icon_bg: blue
+      title: '1. Système de management de la qualité'
+      desc: 'Demandez : certificat ISO 9001 (organisme accrédité, à jour), calendrier d''audits internes, journal CAPA (actions correctives et préventives), procédures de portes d''inspection. Signal d''alarme : certificat uniquement, sans enregistrements d''inspection au niveau des portes ni processus CAPA.'
+    - icon: C
+      icon_bg: green
+      title: '2. Capacité de production'
+      desc: 'Demandez : chiffres de production mensuels par type de produit, planning de production montrant l''utilisation actuelle, capacité d''outillage (nombre de moules, machines CNC, soudeurs RF). Signal d''alarme : capacité nominale uniquement, sans données d''utilisation ni planning de production.'
+    - icon: M
+      icon_bg: purple
+      title: '3. Traçabilité des matériaux'
+      desc: 'Demandez : enregistrements d''inspection des matières entrantes, certificats fournisseurs de PVC et de drop-stitch, traçabilité des lots de la matière première à la planche finie, déclarations de substances REACH/RoHS. Signal d''alarme : pas de traçabilité au niveau du lot, certificats de matériaux indisponibles.'
+    - icon: P
+      icon_bg: orange
+      title: '4. Tests de pression et de structure'
+      desc: 'Demandez : protocole de test de pression (PSI, durée, critères de réussite/échec), journaux de test des lots de production récents, enregistrements de tests structurels (chute, impact, contrainte de rail). Signal d''alarme : « inspection visuelle uniquement » ou aucun protocole de test documenté avec critères quantitatifs de réussite/échec.'
+    - icon: W
+      icon_bg: blue
+      title: '5. Contrôles de soudage et d''assemblage'
+      desc: 'Demandez : enregistrements des paramètres de soudure RF (température, pression, temps de maintien), critères d''inspection des coutures et taux de rejet, documentation de la séquence d''assemblage. Signal d''alarme : pas de journaux de paramètres de soudage, taux de rejet de couture élevé sans CAPA.'
+    - icon: S
+      icon_bg: green
+      title: '6. Conformité sociale'
+      desc: 'Demandez : rapport d''audit BSCI ou SMETA (à jour, périmètre complet), enregistrements des heures de travail et des salaires, rapports d''inspection santé et sécurité, documentation de conformité environnementale. Signal d''alarme : pas d''audit social tiers, ou audit avec des non-conformités majeures non résolues.'
+    - icon: D
+      icon_bg: purple
+      title: '7. Documentation et traçabilité'
+      desc: 'Demandez : enregistrements de production par lot, journaux d''inspection par porte, certificats de conformité, listes de colisage avec références de lots, système de suivi des réclamations de garantie. Signal d''alarme : pas de documentation au niveau du lot, réclamations de garantie non suivies ou non analysées.'
+    - icon: A
+      icon_bg: orange
+      title: '8. Support après livraison'
+      desc: 'Demandez : conditions de garantie et processus de réclamation, délai moyen de résolution des réclamations, disponibilité des pièces de rechange, engagement de délai de réponse, processus de revue après livraison. Signal d''alarme : aucun processus de garantie documenté, communication lente ou incohérente après la livraison.'
+
+our_position:
+  heading: 'Notre position sur chaque domaine d''audit'
+  body: |
+    Nous ne prétendons pas simplement être conformes — nous fournissons les enregistrements. Voici notre position sur chacun des huit domaines d''audit :
+
+    - **Management de la qualité** : certifié ISO 9001:2015, audité chaque année par un tiers accrédité. Système de portes d''inspection en 7 étapes avec critères documentés de réussite/échec à chaque porte. Journal CAPA maintenu et revu trimestriellement.
+    - **Capacité de production** : plus de 30 000 planches de capacité annuelle, plus de 2 500 sorties mensuelles. Planning de production disponible pour revue lors de la visite d''usine. 4 lignes de production, 3 machines CNC, 5 soudeurs RF.
+    - **Traçabilité des matériaux** : traçabilité au niveau du lot de la matière entrante à la planche finie. Certificats fournisseurs de PVC et de drop-stitch archivés. Déclarations de substances REACH et RoHS disponibles par lot.
+    - **Test de pression** : test de maintien à 18,0 PSI avec rejet automatique au-delà d''une chute de 0,50 PSI sur 24 heures. Journaux de test disponibles pour chaque lot de production. Tests structurels et d''impact selon le type de construction.
+    - **Contrôles de soudage** : paramètres de soudure RF enregistrés par cycle de production. Inspection des coutures à la porte 3 avec taux de rejet documentés. CAPA déclenchée pour les taux de rejet au-dessus du seuil.
+    - **Conformité sociale** : audité selon BSCI. Les enregistrements des heures de travail, des salaires et de la sécurité sont disponibles à l''inspection lors de la visite d''usine.
+    - **Documentation** : enregistrements de production par lot, journaux d''inspection par porte, certificats de conformité et listes de colisage avec références de lots expédiés avec chaque commande. Système de suivi des réclamations de garantie maintenu.
+    - **Support après livraison** : conditions de garantie documentées par contrat. Résolution moyenne des réclamations sous 14 jours ouvrés. Pièces de rechange disponibles à partir du stock. Revue après livraison proposée pour chaque première commande.
+
+evidence_review:
+  tagline: 'Preuves et vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: 'Toutes les allégations de fabrication et de qualité de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et journaux de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en 2026-08.'
+
+faqs:
+  tagline: FAQ
+  title: 'Audit d''usine — questions fréquentes'
+  items:
+    - q: 'Puis-je visiter l''usine pour un audit sur site ?'
+      a: 'Oui. Nous accueillons volontiers les visites d''usine et pouvons organiser un audit structuré couvrant les huit domaines. Une visite typique comprend la visite du sol de production, l''observation des portes QC, l''inspection de l''entrepôt de matériaux, la revue documentaire et des questions-réponses avec le responsable qualité. Prévoyez une journée complète. Contactez-nous pour planifier.'
+    - q: 'Fournissez-vous la documentation d''audit avant une visite ?'
+      a: 'Oui. Nous pouvons partager le certificat ISO 9001, le rapport BSCI, le résumé de capacité de production, le protocole de test de pression et des échantillons d''enregistrements d''inspection avant votre visite — pour que vous puissiez préparer des questions ciblées. Les enregistrements complets de lots sont disponibles sur site pendant la visite.'
+    - q: 'Quelles inspections tierces utilisez-vous ?'
+      a: 'Nous travaillons avec SGS, Intertek et TUV pour les inspections et certifications tierces. L''inspection tierce avant expédition est disponible sur demande pour toute commande. Le périmètre et les coûts d''inspection sont confirmés pendant la phase de devis.'
+    - q: 'Comment savoir que votre système qualité est réellement appliqué, et pas seulement documenté ?'
+      a: 'Chaque planche passe 7 portes d''inspection avec des critères quantitatifs de réussite/échec — pas des listes de contrôle visuelles. Les données de test de pression, les paramètres de soudage et les taux de rejet sont enregistrés par lot et disponibles pour votre revue. La CAPA est déclenchée automatiquement pour les résultats hors spécification. Nous vous encourageons à auditer le processus en direct lors d''une visite d''usine.'
+
+cta:
+  title: 'Planifier un audit d''usine'
+  subtitle: 'Demandez la documentation d''audit ou planifiez une visite sur site. Nous fournissons les enregistrements — vous vérifiez le processus.'
+  actions:
+    - variant: primary
+      text: Demander la documentation d''audit
+      href: /fr/contact#project-brief
+    - text: Vérifier les certifications et le système qualité
+      href: /fr/proof-center
+    - text: Processus d''intégration OEM
+      href: /fr/oem-onboarding-guide

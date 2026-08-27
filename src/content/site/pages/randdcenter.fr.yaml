@@ -1,0 +1,131 @@
+meta:
+  title: 'Centre de R&D — Ingénierie de SUP gonflables | {SITE}'
+  description: 'Recherche et développement — test des tissus PVC, ingénierie de coque, soudure RF, test hydrodynamique et contrôle qualité. Services R&D personnalisés disponibles.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Centre de R&D
+  title: Centre de R et D
+  subtitle: Focalisés sur le progrès
+
+intro:
+  - Le Centre de Recherche et de Développement (R&D) d'Afarer est la force motrice de notre mission de révolutionner l'équipement de sports nautiques. Nous donnons aux passionnés de sports nautiques du monde entier des produits plus sûrs, plus confortables et plus agréables grâce à une innovation constante dans les planches de stand-up paddle (SUP) et les bateaux gonflables. Notre équipe dédiée d'ingénieurs, de designers et d'experts passionnés des sports nautiques façonne l'avenir de l'industrie, élevant constamment le niveau de la qualité, de la performance et de la durabilité.
+  - Notre installation de R&D réunit sous un même toit des scientifiques des matériaux, des architectes navals et des ingénieurs de production. De la formulation des tissus et de la simulation de coque au développement des processus de soudure et aux essais en mer à grande échelle, chaque étape du développement produit est pilotée par les données et validée par les tests.
+
+mission:
+  tagline: Notre mission
+  title: Innover l'avenir des sports nautiques
+  pillars:
+    - icon: lightning
+      title: Avancement technologique
+      desc: Innover de nouveaux matériaux, designs et fabrications pour une performance et une longévité supérieures du produit.
+    - icon: design
+      title: Design centré sur l'utilisateur
+      desc: Comprendre et dépasser profondément les besoins des utilisateurs grâce à un design de produit ergonomique et intuitif.
+    - icon: globe
+      title: Pratiques durables
+      desc: Minimiser notre empreinte environnementale en utilisant des matériaux et processus écologiques.
+    - icon: shield
+      title: Sécurité sans compromis
+      desc: Garantir les plus hauts standards de sécurité grâce à des tests et une certification rigoureux.
+
+pillars:
+  - title: Avancement technologique
+    desc: Innover de nouveaux matériaux, designs et processus de fabrication pour offrir une performance et une longévité supérieures du produit.
+    icon: tech
+  - title: Matériaux avancés
+    desc: Rechercher des PVC, Hypalon, composites de pointe et des alternatives durables pour améliorer les caractéristiques du produit.
+    icon: materials
+  - title: Durabilité
+    desc: 'Un engagement central : nous sommes dédiés à la gestion environnementale grâce à une fabrication durable et des matériaux recyclables.'
+    icon: sustainability
+
+capabilities:
+  tagline: Capacités
+  title: Capacités de R&D
+  subtitle: Quatre disciplines clés qui nous donnent un contrôle de bout en bout sur le développement produit —de la recherche sur les matières premières à la certification finale.
+  groups:
+    - title: Science des matériaux et technologie du tissu
+      items:
+        - Analyse et optimisation des formulations de PVC et Hypalon
+        - Développement d'additifs de stabilisation UV, de résistance aux flammes et antimicrobiens
+        - Ingénierie de laminage multicouche et de liaison adhésive
+        - Tests de vieillissement accéléré (UV, thermique, humidité, brouillard salin)
+    - title: Ingénierie de coque et hydrodynamique
+      items:
+        - Conception de coque 3D paramétrique et optimisation CFD
+        - Analyse par éléments finis pour les charges structurelles et d'impact
+        - Tests en bassin de remorquage sur modèle réduit et validation de performance
+        - Développement de coque personnalisée pour des profils de mission spéciaux
+    - title: Technologie de soudure et d'assemblage
+      items:
+        - Développement et optimisation des processus de soudure diélectrique RF
+        - Méthodes de soudure à air chaud, cale chaude et ultrasonique
+        - Qualification des liaisons adhésives et des bandes de couture
+        - Modélisation de la résistance de soudure et prédiction de durée de vie
+    - title: Test, certification et conformité
+      items:
+        - Management de la qualité et test de conformité CE
+        - Support de test et de certification tierce partie indépendante
+        - Développement de protocoles de test personnalisés pour la qualification d'approvisionnement
+        - Analyse des défaillances en service et investigation des causes racines
+
+rd_numbers:
+  tagline: Innovation
+  title: La R&D en chiffres
+  stats:
+    - value: '14'
+      label: Ingénieurs et scientifiques R&D
+    - value: '8'
+      label: Brevets et dépôts actifs
+    - value: '6'
+      label: Laboratoires spécialisés
+    - value: 12 ans
+      label: Expérience moyenne de l'équipe
+
+rd_services:
+  tagline: R&D personnalisée
+  title: Services de R&D pour les partenaires
+  services:
+    - title: Développement de matériaux personnalisés
+      desc: Nous développons des formulations de tissu, des empilements de laminé et des systèmes adhésifs personnalisés adaptés à votre environnement d'exploitation et à vos objectifs de performance.
+    - title: Ingénierie de produit OEM / ODM
+      desc: Nous développons des formulations de tissu, des empilements de laminé et des systèmes adhésifs personnalisés adaptés à votre environnement d'exploitation et à vos objectifs de performance.
+    - title: Test et certification tierce partie
+      desc: Utilisez nos installations de test conformes ISO pour les tests de matériaux indépendants, la validation de produit et le support de certification.
+  cta: Discutez de vos exigences de R&D →
+  cta_link: /fr/contact
+
+vision:
+  tagline: Notre vision
+  title: Façonner l'avenir des sports nautiques
+  body: Afarer s'efforce de leader l'industrie des bateaux et SUP gonflables grâce à une innovation continue, une qualité inébranlable et un engagement ferme envers la sécurité et la durabilité —enrichissant en définitive les expériences des passionnés de sports nautiques du monde entier. Le Centre de R&D d'Afarer est là où la passion rencontre l'innovation, établissant de nouvelles normes pour l'industrie des sports nautiques.
+
+labs_section:
+  tagline: Laboratoires
+  title: Nos laboratoires
+  labs:
+    - image: https://assets.afarer.com/images/afarer/randd/afarer-pvc-material-lab.webp
+      title: Laboratoire de tissus PVC
+      description: Recherche et test continus des tissus de tube PVC et Hypalon pour la résistance à la traction, la résistance UV, l'abrasion et la flexibilité à basse température afin de garantir une fiabilité à long terme dans les environnements marins.
+      href: /fr/randdcenter
+    - image: https://assets.afarer.com/images/afarer/factory/afarer-design-discussion-2.webp
+      title: Studio d'ingénierie de coque
+      description: Design piloté par CAO et analyse par éléments finis des coques en HDPE, aluminium et fibre de verre. Chaque coque est simulée numériquement pour la distribution des contraintes et la résistance aux impacts avant la construction du premier prototype.
+      href: /fr/randdcenter
+    - image: https://assets.afarer.com/images/afarer/factory/afarer-sup-manufacturing-3.webp
+      title: Centre de soudure RF
+      description: Installation dédiée de soudure par radiofréquence avec contrôle de précision de la température et de la pression, produisant des coutures étanches à haute résistance qui répondent aux normes de l'industrie marine pour les embarcations gonflables.
+      href: /fr/randdcenter
+    - image: https://assets.afarer.com/images/afarer/factory/afarer-design-discussion-original.webp
+      title: Bassin d'essais hydrodynamiques
+      description: Test sur modèle réduit dans notre bassin d'essais interne pour optimiser la forme de coque, la performance de planage, la stabilité et l'efficacité du carburant sur une gamme de conditions de charge et de mer.
+      href: /fr/randdcenter
+    - image: https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp
+      title: Atelier de prototypes
+      description: Installation de prototypage et de gréement à grande échelle où les nouveaux modèles sont construits, équipés et essayés en mer. Chaque prototype subit un programme de test sur l'eau d'au moins 20 heures avant l'approbation de production.
+      href: /fr/randdcenter
+    - image: https://assets.afarer.com/images/afarer/factory/afarer-uv-resistance-testing.webp
+      title: Laboratoire de qualité et d'inspection
+      description: Laboratoire d'assurance qualité dédié effectuant des tests de traction, des cycles de rétention d'air, des tests de pelage de couture et la certification des matériaux pour garantir que chaque bateau quittant l'atelier répond à nos spécifications publiées.
+      href: /fr/randdcenter

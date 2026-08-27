@@ -1,0 +1,55 @@
+meta:
+  title: 'Certification de SUP gonflable — Guide de conformité CE, REACH, RoHS'
+  description: 'Périmètre de certification pour la fabrication de SUP gonflables : CE (modèles UE), BSCI, ISO 9001, REACH, RoHS. Numéros de certificat disponibles par projet sur demande.'
+  dateModified: '2026-08-20'
+
+sections:
+  - title: "Réponse directe"
+    directAnswer:
+      answer: "SUPsfactory détient les certifications BSCI, ISO 9001, ISO 25649, CE, REACH et RoHS. La CE s'applique aux modèles destinés aux marchés de l'UE — pas universellement à « tous les produits »."
+      condition: "Le périmètre de certification varie selon le marché cible et la configuration du produit. Les numéros de certificat, la validité et les autorités émettrices sont disponibles par projet sur demande."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "2026-08-20"
+      sourceType: "certificate"
+    body: |
+      La certification est une préoccupation clé de l'approvisionnement et doit être
+      énoncée avec précision. Des allégations générales comme « CE sur tous les
+      produits » peuvent créer des problèmes de confiance si un acheteur découvre
+      plus tard que le périmètre est plus restreint que prévu.
+
+  - title: "Détails de la certification"
+    body: |
+      | Certification | Périmètre | Autorité | S'applique à |
+      |---------------|-----------|-----------|--------------|
+      | BSCI | Audit de responsabilité sociale | amfori BSCI | Installation de fabrication |
+      | ISO 9001 | Système de management de la qualité | Organisme certificateur (disponible sur demande) | Installation de fabrication |
+      | ISO 25649 | Sécurité des embarcations gonflables | ISO | Modèles SUP applicables par marché |
+      | CE | Conformité au marché de l'UE (EN ISO 6185 / 10087 / 10240) | Organisme notifié UE | Modèles destinés au marché de l'UE |
+      | REACH | Sécurité chimique UE | ECHA | Matériaux utilisés en production |
+      | RoHS | Restriction des substances dangereuses | Directive UE | Accessoires électroniques (pompes) |
+
+  - title: "Notes importantes sur le périmètre"
+    body: |
+      - **CE** s'applique aux modèles configurés pour la vente sur le marché de l'UE. Une planche
+        construite pour la distribution aux États-Unis ou en Australie ne porte pas le marquage CE
+        sauf demande spécifique.
+      - **ISO 9001** couvre le système de management de la qualité de l'installation de fabrication,
+        pas la certification de produit individuelle.
+      - La conformité **REACH** couvre les matériaux utilisés en production — documentation disponible
+        pour les importateurs qui doivent enregistrer des substances.
+      - Les numéros de certificat, les dates de validité et les autorités émettrices sont disponibles
+        par projet sur demande. Nous ne publions pas les numéros de certificat publiquement pour des
+        raisons de sécurité.
+      - Inspection tierce partie disponible via SGS, TÜV, BV ou Intertek pour toute expédition.
+
+  - title: "Comment demander les documents de certification"
+    body: |
+      Pendant le processus de demande, précisez vos marchés cibles et nous confirmerons
+      quelles certifications s'appliquent à votre configuration de produit spécifique.
+      Des copies des certificats (avec les données commerciales éditées là où nécessaire)
+      sont fournies dans le cadre du pack de documentation du projet.
+
+evidence_review:
+  tagline: 'Preuves et vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en 2026-08.'

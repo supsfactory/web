@@ -1,0 +1,100 @@
+meta:
+  title: 'À propos d''Afarer — la division de fabrication nautique'
+  description: 'Afarer est la division de fabrication nautique de Qingdao Vatrad Group, fondée en 2012 à Qingdao, en Chine — l''usine derrière chaque projet personnalisé de SUPsfactory.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Afarer'
+    - 'usine de sup en chine'
+    - 'fabricant de sup gonflable'
+    - 'qingdao vatrad group'
+hero:
+  tagline: À propos d'Afarer
+  title: 'Afarer — la division de fabrication nautique derrière {SITE}'
+  subtitle: 'Fondée en 2012 à Qingdao, en Chine, Afarer fabrique les embarcations gonflables et les planches de SUP derrière les projets personnalisés de SUPsfactory — une usine de 12 500 m², plus de 350 ouvriers et plus de 120 000 unités de capacité annuelle.'
+  actions:
+    - text: 'Lancer un projet personnalisé'
+      href: /fr/contact
+      variant: primary
+    - text: 'Voir l''usine'
+      href: /fr/factory
+      variant: secondary
+intro: |
+  <p><strong>Afarer</strong> est la division de fabrication nautique de <strong>Qingdao Vatrad Group Co., Ltd.</strong>, basée dans la zone de développement économique de Laixi, à Qingdao, Shandong, en Chine. Fondée en 2012, l'entreprise a commencé comme un atelier spécialisé d'embarcations dédié au savoir-faire nautique, et est devenue une usine certifiée desservant des clients OEM et ODM dans plus de 50 pays.</p>
+  <p>SUPsfactory est la division B2B de développement personnalisé de l'usine Afarer. Chaque projet SUPsfactory — d'un premier échantillon ou d'une petite série en co-branding à une ligne de produits complète en marque privée — est fabriqué dans la même installation, par les mêmes équipes et sous le même système qualité décrit ici.</p>
+  <p>L'usine couvre 12 500 m² avec des ateliers dédiés à la découpe du PVC, à l'assemblage des noyaux drop-stitch, au soudage haute fréquence, à l'assemblage des planches ainsi qu'une zone d'essais pour les contrôles de rétention d'air, de maintien de la pression et de résistance des coutures. La capacité de production dépasse 120 000 unités gonflables par an, et l'installation opère sous un système de management de la qualité ISO 9001, avec une conformité CE, BSCI, REACH et une approbation USCG pour les produits exportés.</p>
+  <p>Plus de 350 ouvriers qualifiés et plus de 14 ingénieurs R&D soutiennent les deux lignes de travail qui importent aux marques de SUP : l'ingénierie (conception de coque, sélection des matériaux, prototypage) et la production (application des graphismes, assemblage, inspection, emballage d'exportation). Un centre de R&D interne doté d'un laboratoire de tissus PVC et d'un bassin d'essais traite les moules personnalisés et la validation structurelle avant le début de la production en série.</p>
+stats:
+  title: Afarer en chiffres
+  stats:
+    - title: Fondation
+      amount: 2012
+    - title: Installation
+      amount: '12 500 m²'
+    - title: Pays desservis
+      amount: '50+'
+    - title: Capacité annuelle
+      amount: '120 000+ unités'
+    - title: Employés
+      amount: '350+'
+    - title: Ingénieurs R&D
+      amount: '14+'
+values_section:
+  title: Comment l'usine travaille avec les marques
+  subtitle: 'Trois principes qui façonnent chaque projet construit par l''usine Afarer.'
+  columns: 3
+  items:
+    - title: Ingénierie avant la production
+      description: 'Chaque projet commence par des exigences, des plans et un échantillon physique — la forme de la coque, la qualité du drop-stitch, le placement des graphismes et l''emballage sont validés avant toute série de production, et non découverts sur la chaîne.'
+      icon: 'tabler:settings'
+    - title: Une équipe, une installation
+      description: 'La conception, la découpe, le soudage, l''assemblage et les essais se déroulent dans une seule installation de 12 500 m². Aucun intermédiaire de société de négoce : les personnes qui répondent à vos questions sont celles qui fabriquent vos planches.'
+      icon: 'tabler:building-factory-2'
+    - title: Petites séries initiales
+      description: 'Le co-branding en petits lots démarre dès 5–10 unités et la production standard de volume s''exécute par lots de 90–100+ unités (un rouleau de drop-stitch de 150 m), afin que les marques valident le marché avant de passer à l''échelle — avec l''outillage et les designs conservés pour les commandes récurrentes.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Ce que livre l'usine
+  subtitle: 'Les services de fabrication disponibles pour les clients de SUPsfactory.'
+  columns: 2
+  items:
+    - title: Développement de SUP personnalisé
+      description: 'Évaluation des exigences, spécifications, sélection des matériaux, graphismes, prototypage, approbation de l''échantillon et production de produits SUP gonflables sur mesure.'
+      icon: 'tabler:bulb'
+    - title: Production en marque privée
+      description: 'Votre logo, vos couleurs et votre emballage sur des plateformes commerciales éprouvées — planche, tapis de pont, accessoires et cartons portent tous votre identité, sans marque d''usine.'
+      icon: 'tabler:tag'
+    - title: Fabrication OEM / ODM
+      description: 'Fabrication complète de SUP gonflables OEM et ODM à partir de plans client ou de conceptions co-développées, y compris les moules personnalisés pour les nouvelles formes de planches.'
+      icon: 'tabler:package'
+    - title: Approvisionnement de flottes
+      description: 'Flottes de planches de marque pour resorts, clubs, écoles et opérateurs de location, avec accessoires assortis et séries de production adaptées aux flottes.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: Certification et conformité
+  subtitle: 'L''usine expédie vers l''UE, les États-Unis et l''Asie-Pacifique dans le cadre d''un système de conformité documenté.'
+  columns: 2
+  items:
+    - title: Certification CE
+      description: 'Les lignes de produits de SUP gonflables et embarcations respectent les directives de sécurité de l''UE, avec la documentation fournie pour chaque marché.'
+      icon: 'tabler:certificate'
+    - title: Système qualité ISO 9001
+      description: 'L''installation de fabrication opère sous un système de management de la qualité ISO 9001 couvrant les matières entrantes, le contrôle en cours de fabrication et l''inspection finale.'
+      icon: 'tabler:badge-check'
+    - title: Conformité sociale BSCI
+      description: 'La responsabilité sociale est auditée selon BSCI, couvrant les conditions de travail et la conformité de l''usine.'
+      icon: 'tabler:shield-check'
+    - title: Conformité des matériaux REACH
+      description: 'Les matériaux respectent le règlement REACH de l''UE en matière de sécurité chimique.'
+      icon: 'tabler:flask'
+    - title: Approbation USCG
+      description: 'Fabrication approuvée par les garde-côtes américains pour les lignes de produits d''embarcations gonflables.'
+      icon: 'tabler:anchor'
+    - title: Tests produits
+      description: 'Flottabilité, capacité de charge, résistance des coutures, résistance aux UV, résistance à l''abrasion et tests de maintien de la pression sur chaque ligne de production.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Construisez votre projet SUP avec l''usine Afarer'
+  subtitle: 'Envoyez vos exigences — type de planche, taille, quantité et graphismes — et recevez un devis détaillé sous un jour ouvré.'
+  actions:
+    - text: Identité de marque
+      href: /fr/about/identity

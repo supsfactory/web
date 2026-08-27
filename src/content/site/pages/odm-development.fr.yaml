@@ -1,0 +1,150 @@
+meta:
+  title: 'Développement SUP ODM | Conception de planche personnalisée à partir de votre idée'
+  description: 'Développement de planche SUP ODM : de l''idée à la coque, aux graphismes, au prototype et à la production de masse — conception en interne, ingénierie du moule et échantillons en 7–12 jours.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'développement de planche SUP ODM'
+    - 'conception de planche SUP personnalisée'
+    - 'développement de produit de planche à pagaie'
+    - 'conception de forme et de graphisme SUP personnalisée'
+    - 'usine de développement d''échantillon SUP'
+
+hero:
+  tagline: Développement ODM
+  title: 'Développement SUP ODM — de votre idée à une planche prête pour le marché'
+  subtitle: 'Pas encore de dessins ? Nos ingénieurs internes conçoivent la coque, la structure, les graphismes et l''emballage autour de votre brief — puis la construisent, la testent et la produisent en masse. Prototypes en 7–12 jours, production en 25–35 jours après bon de commande confirmé.'
+
+answer:
+  label: 'Réponse directe'
+  text: 'Le développement ODM part de votre brief, pas de vos dessins : la conception de la coque (longueur, largeur, rocker, volume), la structure des matériaux et les graphismes sont conçus en interne, validés par des prototypes en 7–12 jours, et produits au MOQ de volume standard de 90–100 unités par lot de rouleau de 150 m (pilote dès 20–50 unités). La production s''exécute en 25–35 jours après bon de commande confirmé et acompte ; l''outillage de moule personnalisé ajoute 15–20 jours. La documentation CE, ISO 9001, BSCI, REACH et RoHS part avec chaque commande.'
+  verified: '2026-08'
+
+features:
+  title: Capacités ODM
+  subtitle: 'Tout ce que vous obtenez quand le travail de conception se déroule à l''usine, pas à votre bureau.'
+  items:
+    - title: Conception de coque
+      description: 'Longueur, largeur, épaisseur, rocker et volume conçus pour vos pagayeurs, cas d''usage et marchés cibles — à partir d''une page blanche ou de notre bibliothèque de plateformes éprouvées.'
+      icon: 'tabler:waves'
+    - title: Ingénierie structurelle
+      description: 'Densité du drop-stitch, nombre de couches et qualité du PVC, placement des raidisseurs et construction des rails spécifiés et validés pour votre design.'
+      icon: 'tabler:building-factory'
+    - title: Graphismes et marque
+      description: 'Graphismes de pont, marquage du tube, tapis EVA et emballage retail développés par notre équipe de design interne autour de votre marque.'
+      icon: 'tabler:palette'
+    - title: Développement de moule
+      description: 'Les nouvelles formes de coque commencent par un outillage de moule conçu et découpé en interne — l''outillage ajoute 15–20 jours au calendrier du projet.'
+      icon: 'tabler:shapes'
+    - title: Validation du prototype
+      description: 'Un prototype physique est construit, testé et envoyé pour votre examen avec des essais sur piste — généralement sous 7–12 jours.'
+      icon: 'tabler:tools'
+    - title: Tests et conformité
+      description: 'Tests de rétention d''air, de maintien de pression et de résistance de soudure par unité, avec documentation CE, ISO 9001, BSCI, REACH et RoHS pour l''export.'
+      icon: 'tabler:certificate'
+    - title: Options de propriété de l''outillage
+      description: 'Clauses de propriété ou de rachat du moule écrites dans le contrat — votre design reste le vôtre, et l''outillage est conservé pour les ré-commandes.'
+      icon: 'tabler:lock'
+    - title: Du prototype au conteneur
+      description: 'Un design ODM validé passe directement en production de volume standard : 90–100+ unités par lot de rouleau de 150 m, 25–35 jours après bon de commande confirmé.'
+      icon: 'tabler:package'
+
+customization:
+  tagline: Conçu avec vous
+  title: Ce que nous développons autour de votre brief
+  subtitle: 'ODM signifie que le produit est conçu pour vous à partir de zéro ou de notre bibliothèque de plateformes — voici les leviers que votre brief contrôle :'
+  items:
+    - 'Profil du pagayeur et marché — positionnement débutant, randonnée, course, yoga, pêche ou multi-usage'
+    - 'Dimensions de la planche — longueur, largeur, épaisseur et volume adaptés au pagayeur cible et au cas d''usage'
+    - 'Caractère de la coque — rocker, profil du rail, formes du nez et de la poupe réglés pour la stabilité ou la vitesse'
+    - 'Structure des matériaux — densité du drop-stitch, nombre de couches et qualité du PVC, raidisseurs et renforts de rail'
+    - 'Graphismes et couleurs — couleurs de marque, art du pont et marquage du tube développés en interne'
+    - 'Tapis de traction EVA — disposition, couleurs et intégration du logo sur le pont'
+    - 'Pack d''accessoires — pagaies, pompes, ailerons, laisses et sacs adaptés à la planche'
+    - 'Emballage et présentation retail — boîtes retail, présentoirs et conditionnement d''export sous votre marque'
+
+faq_section:
+  tagline: FAQ
+  title: Questions sur le développement ODM
+  questions:
+    - q: En quoi l''ODM diffère-t-il de l''OEM ?
+      a: 'ODM (Fabrication de design original) part de votre brief — nos ingénieurs développent la structure, la construction, les graphismes et l''emballage de la planche, que ce soit à partir d''un concept de marché, d''un objectif de performance ou d''une adaptation d''une plateforme éprouvée. Vous approuvez le design avant la production. OEM (Fabrication d''équipement d''origine) fabrique selon votre spécification approuvée — vos dessins, dimensions, matériaux et emballage. Vous possédez le design et la propriété intellectuelle. Les deux passent par la même usine, le même système de QC et la même équipe d''export ; ODM est la voie la plus rapide vers une planche marquée quand vous n''avez pas encore de design.'
+    - q: Je n''ai qu''une idée grossière — par où commençons-nous ?
+      a: 'Envoyez un court brief : pagayeurs cibles, cas d''usage, taille approximative, marchés et volumes. Nos ingénieurs reviennent avec un concept, une direction de planche de référence et un plan de développement sous un jour ouvré — une NDA est signée avant tout échange détaillé sur demande.'
+    - q: Combien de temps faut-il pour développer une nouvelle planche SUP ?
+      a: 'Les échantillons de prototype partent en 7–12 jours. Une nouvelle coque avec outillage de moule personnalisé ajoute 15–20 jours d''ingénierie avant les échantillons. La production s''exécute en 25–35 jours après le bon de commande et l''acompte.'
+    - q: Quel est le MOQ pour une planche ODM ?
+      a: 'La production en volume standard s''exécute à 90–100 unités par lot de rouleau de drop-stitch de 150 m ; les séries pilotes démarrent à 20–50 unités sur les plateformes existantes. Le co-marquage en petits lots démarre à 5–10 unités — voir notre Guide MOQ & Marque Flexible pour le calcul complet.'
+    - q: Qui possède le design et le moule ?
+      a: 'Votre brief, votre design et votre outillage sont protégés par NDA, conditions de licence de marque et clauses de propriété ou de rachat du moule écrites dans le contrat. L''outillage est conservé pour votre marque et transférable.'
+    - q: Pouvez-vous développer une forme spécifique (randonnée, pêche, course, yoga) ?
+      a: 'Oui. L''ingénierie de coque couvre toutes les catégories principales de SUP — polyvalent, randonnée, course, yoga, pêche et planches multi-personnes — avec validation par bassin d''essais hydrodynamiques disponible pour les formes de performance.'
+    - q: Quelles certifications la planche développée portera-t-elle ?
+      a: 'CE (directive des bateaux de plaisance), ISO 9001, BSCI, REACH et RoHS. Les documents de certification sont préparés par commande pour vos marchés d''export, et la conformité ISO 25649 s''applique aux planches gonflables de stand-up paddle.'
+
+process:
+  title: Le processus ODM — du brief à la production à l''échelle
+  subtitle: 'Six étapes contrôlées gérées par la même équipe interne qui conçoit, échantillonne et met à l''échelle votre planche — tout reste documenté.'
+  steps:
+    - phase: '01'
+      title: Brief et concept
+      period: 1 jour ouvré
+      items:
+        - 'Partagez les pagayeurs cibles, cas d''usage, tailles, marchés et volumes — ou juste une idée.'
+        - 'Nos ingénieurs reviennent avec une direction de concept, des options de plateforme et un plan de développement.'
+    - phase: '02'
+      title: Conception de coque et de structure
+      period: Semaine 1–2
+      items:
+        - 'Dimensions de la planche, caractère de la coque, densité du drop-stitch et structure PVC conçus en interne.'
+        - 'Graphismes, disposition du pont EVA et concept d''emballage développés autour de votre marque.'
+    - phase: '03'
+      title: Moule et outillage
+      period: +15–20 jours (nouvelles formes)
+      items:
+        - 'Un outillage de moule personnalisé conçu et découpé pour les nouvelles formes de coque ; les plateformes existantes sautent cette étape.'
+        - 'Les conditions de propriété de l''outillage sont fixées dans le contrat avant le début de la découpe.'
+    - phase: '04'
+      title: Prototype et échantillon
+      period: 7–12 jours
+      items:
+        - 'Un prototype physique est construit, testé et envoyé pour votre examen — essais sur piste inclus.'
+        - 'Un échantillon (1–2 unités) valide la forme, la structure et la marque avant le volume.'
+    - phase: '05'
+      title: Validation et approbation
+      period: En parallèle
+      items:
+        - 'Contrôles de rétention d''air, de maintien de pression, de résistance de soudure, de charge et UV par ligne de production.'
+        - 'Documentation CE, ISO 9001, BSCI, REACH et RoHS préparée pour vos marchés d''export.'
+        - 'Vous approuvez le prototype ; le bon de commande et l''acompte verrouillent le créneau de production.'
+    - phase: '06'
+      title: Production et livraison
+      period: 25–35 jours
+      items:
+        - 'Les lots en volume standard s''exécutent à 90–100+ unités par rouleau de 150 m, les séries pilotes en 20–50 unités.'
+        - 'Conditionnement d''export, expédition FOB/CIF/DDP vers 50+ pays et support de ré-commande inclus.'
+
+geo:
+  tagline: Avec qui nous travaillons
+  title: Partenaires ODM dans toute l''industrie du SUP
+  sentence: 'ODM chez SUPsfactory associe votre brief à la même équipe d''ingénieurs, de designers et de production qui a lancé des planches pour ces types d''entreprises — voici qui nous servons.'
+  audiences:
+    - 'Marques de SUP'
+    - 'Entreprises de sports de plein air et nautiques'
+    - 'Distributeurs et détaillants'
+    - 'Stations, clubs et organisations'
+
+cta:
+  title: 'Prêt à développer votre planche de SUP ?'
+  subtitle: 'Envoyez votre brief — un concept, des tailles et des marchés cibles suffisent pour commencer. Revue d''ingénierie et devis sous un jour ouvré.'
+  actions:
+    - variant: primary
+      text: Démarrer un projet ODM
+      href: /fr/contact#custom-oem
+    - text: Voir le pipeline de développement produit en six étapes
+      href: /fr/product-development
+    - text: Vérifier l''usine et le système qualité
+      href: /fr/oem-trust-assurance
+    - text: Guide MOQ & marque flexible
+      href: /fr/oem-moq-guide
+    - text: Comparaison de construction SUP
+      href: /fr/sup-construction-comparison

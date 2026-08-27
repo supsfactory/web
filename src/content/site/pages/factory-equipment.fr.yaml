@@ -1,0 +1,93 @@
+meta:
+  title: 'Équipement d''usine — Découpe, soudage et impression'
+  description: 'Équipements de fabrication industriels Afarer : découpe PVC, soudure RF, impression numérique, assemblage et essais pour planches de SUP gonflables.'
+  dateModified: '2026-08'
+  keywords:
+    - 'équipement de fabrication sup'
+    - 'usine sup gonflable'
+    - 'soudure rf pvc'
+    - 'production planches à pagaie'
+hero:
+  tagline: Équipement
+  title: Équipements et machines de fabrication
+  subtitle: 'Équipements de qualité industrielle pour la découpe, le soudage, l''impression et l''assemblage'
+  back_label: Retour à l''usine
+  back_link: /fr/factory
+
+answer:
+  label: 'Réponse directe'
+  text: 'Notre usine de 12 500 m² exploite une découpe automatique contrôlée par CNC (précision 0,1 mm, moins de 5 % de gaspillage), un thermoscellage à l''air chaud de 200–600 °C plus un soudage diélectrique RF de 15 kW pour les coutures principales, des presses de lamination de noyau drop-stitch jusqu''à 14 ft, et un laboratoire QC qui teste en pression chaque chambre, avec des contrôles de traction ASTM D751 et une vérification de pelage de couture ISO 6185.'
+  verified: '2026-08'
+
+categories:
+  - title: Découpe et préparation des matériaux
+    items:
+      - name: Machine de découpe PVC automatique
+        spec: Contrôlée par CNC, 6,5 m × 2,5 m, précision 0,1 mm
+        desc: Machine de découpe automatique contrôlée par ordinateur pour les tissus PVC, Hypalon et drop-stitch. Le logiciel de placement optimise l''utilisation de la matière à moins de 5 % de gaspillage.
+      - name: Étaleur de tissu
+        spec: Largeur max 3 m, alimentation à tension contrôlée
+        desc: Place le tissu en une ou plusieurs épaisseurs avec une tension contrôlée pour éviter la déformation avant découpe.
+
+  - title: Soudage et assemblage de tubes
+    items:
+      - name: Machine de thermoscellage
+        spec: Soudure à l''air chaud, variable 200–600 °C, 0,5–5 m/min
+        desc: Machine de thermoscellage à l''air chaud pour lier et souder les coutures de tubes PVC et Hypalon. Utilisée pour le pointage, le scellage et la fusion des chambres de tubes et des joints flottants.
+      - name: Presse diélectrique RF
+        spec: 15 kW, plateau 2000 × 600 mm
+        desc: Presse de soudage par radiofréquence pour les coutures longitudinales principales, les joints barre-chambres et la fabrication de grandes chambres.
+      - name: Soudeuse RF contrôlée par CNC
+        spec: 8 kW, table XY 2500 × 1200 mm
+        desc: Soudage de coutures courbes programmable pour les géométries complexes, le gaufrage de logos et l''applique de précision.
+
+  - title: Fabrication de planches de SUP
+    items:
+      - name: Presse de lamination de noyau drop-stitch
+        spec: Presse grand format pour noyaux de planches jusqu''à 14 ft LOA
+        desc: Lamination de précision des noyaux drop-stitch sur les laminés PVC extérieurs. Chaque couche est liée sous pression pour une qualité et une résistance constantes.
+      - name: Défonceuse CNC (5 axes)
+        spec: Enveloppe 3 m × 2 m × 1 m, broche refroidie par eau
+        desc: Usinage des boîtiers d''ailerons, des découpes de poignées et des composants de planches personnalisés.
+
+  - title: Impression et décoration de SUP
+    items:
+      - name: Imprimante numérique
+        spec: Jet d''encre haute résolution, largeur d''impression jusqu''à 2 m
+        desc: Impression numérique directe sur tissu pour les graphismes de pont SUP pleine couleur. Imprime des motifs personnalisés, des dégradés et des images de qualité photo avec des encres à base d''eau résistantes aux UV.
+      - name: Machine de sérigraphie
+        spec: Manuelle et semi-automatique, alignement multicolore
+        desc: Sérigraphie pour les logos, marques et motifs répétitifs des planches SUP. Produit des impressions durables et opaques avec une saturation de couleur éclatante.
+
+  - title: Assemblage et équipement
+    items:
+      - name: Poste d''assemblage de planches
+        spec: Modulaire réglable, agencement multi-postes
+        desc: Assemblage des boîtiers d''ailerons, poignées, anneaux en D, valves et tapis de pont sur les planches de SUP.
+      - name: Presse d''installation de valves
+        spec: Pneumatique, pression réglable
+        desc: Installation et scellage de précision des valves Halkey-Roberts et Leafield.
+      - name: Lamineuse de tapis de pont
+        spec: 3 m × 1,5 m, température contrôlée
+        desc: Lamination thermique des tapis de pont en mousse EVA sur le dessus des planches SUP avec une force de liaison constante.
+
+  - title: Essais et contrôle de la qualité
+    items:
+      - name: Testeur de traction universel
+        spec: 50 kN, / ASTM D751
+        desc: Tests de force de rupture, d''allongement à la rupture et de propagation de déchirure pour les lots de tissus.
+      - name: Banc de test de rétention d''air
+        spec: Programmables, maintien de pression de 30 min
+        desc: Test automatisé de maintien de pression pour chaque chambre de tube avant assemblage.
+      - name: Testeur de pelage de couture
+        spec: Pelage 180° motorisé à 100 mm/min
+        desc: Test de résistance au pelage des soudures et des coutures collées selon ISO 6185.
+      - name: Chambre de vieillissement au xénon-arc
+        spec: Exposition 2000 h
+        desc: Test de résistance aux UV pour le changement de couleur et la conservation de la résistance.
+
+cta:
+  title: Intéressé par une visite d''usine ?
+  desc: Nous accueillons les visiteurs dans notre installation de Qingdao. Voyez nos équipements et nos processus en personne.
+  label: Planifier une visite →
+  link: /fr/contact

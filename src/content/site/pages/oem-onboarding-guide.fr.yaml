@@ -1,0 +1,125 @@
+meta:
+  title: 'Guide d''intégration OEM — processus étape par étape du premier contact à la production | SUPsfactory'
+  description: 'Guide d''intégration OEM : NDA, revue de faisabilité, production d''échantillon, approbation, planification de pré-production, QC de production et expédition. Étape par étape avec calendriers.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'guide d''intégration OEM'
+    - 'processus de fabrication SUP'
+    - 'intégration d''acheteur OEM'
+    - 'processus d''usine SUP'
+    - 'étapes de commande SUP personnalisée'
+    - 'processus d''échantillon OEM'
+    - 'calendrier de production SUP'
+
+hero:
+  tagline: 'Intégration d''acheteur OEM'
+  title: 'Votre première commande SUP, étape par étape'
+  subtitle: 'Du premier contact aux planches livrées, le processus d''intégration OEM chez SUPsfactory traverse sept portes définies — chacune avec un calendrier clair, un livrable documenté et un point de contrôle go/no-go. Aucune ambiguïté, aucune étape cachée, aucune surprise après l''acompte.'
+  actions:
+    - variant: primary
+      text: Démarrez votre brief de projet
+      href: /fr/contact#project-brief
+    - text: Comparez les voies OEM, ODM et Marque privée
+      href: /fr/oem-odm-private-label-comparison
+
+answer:
+  label: 'Réponse directe'
+  text: 'Une intégration OEM typique prend 2–4 semaines pour l''approbation de l''échantillon et 6–8 semaines pour la première série de production à partir du bon de commande confirmé. Vous commencez par soumettre un brief de projet (spéc. de planche, volume, besoins de conformité). Nous répondons sous un jour ouvré, proposons une NDA avant que vous partagiez des détails propriétaires, et produisons 1–2 échantillons physiques en 7–12 jours pour votre examen et votre approbation. Une fois l''échantillon figé, la planification de production et la fabrication suivent avec des portes de QC fixes à chaque étape. Chaque étape est documentée et traçable.'
+  verified: '2026-08'
+
+process_steps:
+  tagline: Les sept portes
+  title: 'Déroulement de l''intégration — sept portes du brief à la livraison'
+  subtitle: 'Chaque porte a une entrée définie, une sortie définie et un calendrier que vous convenez à l''avance. Vous ne dépassez jamais une porte sans approbation explicite.'
+  steps:
+    - step: 'Porte 1'
+      title: 'Demande initiale et NDA (Jour 0)'
+      desc: 'Soumettez un brief de projet via /contact avec vos spéc. de planche cibles, le volume de commande, les exigences de conformité et le calendrier. Une NDA est disponible immédiatement — avant que vous partagiez toute spécification technique ou graphisme propriétaire. Réponse sous un jour ouvré.'
+    - step: 'Porte 2'
+      title: 'Revue de faisabilité et devis (Jours 1–5)'
+      desc: 'L''ingénierie examine votre brief contre la capacité de fabrication, la disponibilité des matériaux et le périmètre de conformité. Vous recevez un devis détaillé avec le calcul du MOQ, les frais d''échantillon (crédités sur la production) et les segments de délai — pas une fourchette approximative, mais un calendrier porte par porte.'
+    - step: 'Porte 3'
+      title: 'Production d''échantillon (Jours 6–17)'
+      desc: '1–2 planches physiques produites selon votre spécification : rigidité de la coque, texture du tapis de traction EVA, précision des graphismes, montage des accessoires. Vous montez et évaluez la planche avant de vous engager dans autre chose. Les frais d''échantillon sont crédités sur votre commande de production à la signature du contrat.'
+    - step: 'Porte 4'
+      title: 'Examen et approbation de l''échantillon (Jours 18–21)'
+      desc: 'Vous évaluez l''échantillon contre vos spécifications — qualité de roulage, fidélité des graphismes, emballage, accessoires. Les ajustements sont capturés dans une BOM révisée et une signature des graphismes. La spécification figée devient la référence de production pour toutes les séries ultérieures.'
+    - step: 'Porte 5'
+      title: 'Planification de pré-production (Jours 22–28)'
+      desc: 'Approvisionnement des matériaux, configuration de l''outillage, confirmation de l''emballage et réservation du créneau de production. Tous les matériaux sont contrôlés à l''arrivée contre la BOM figée. Un planning de production avec les dates de portes QC est émis avant le début de la fabrication.'
+    - step: 'Porte 6'
+      title: 'Production et portes QC (Jours 29–55)'
+      desc: 'La fabrication passe par le système de portes d''inspection à 7 étapes : inspection des matériaux entrant, inspection du tissu drop-stitch, soudure et assemblage, test de pression et d''étanchéité à l''air (maintien à 18,0 PSI, rejet automatique au-delà d''une chute de 0,50 PSI), installation du tapis EVA et des accessoires, QC des graphismes et de la marque, emballage final et documentation. Chaque porte a des critères de réussite/échec et des enregistrements de traçabilité.'
+    - step: 'Porte 7'
+      title: 'Expédition et examen post-livraison (Jours 56–63)'
+      desc: 'Conditionnement adapté à l''export, documentation de conformité (CE, ISO 9001, BSCI, REACH, RoHS) et coordination du fret océanique vers 50+ pays. Un examen post-livraison capture les enseignements et les améliorations pour le prochain cycle de commande.'
+
+collaboration_modes:
+  tagline: Choisissez votre voie
+  title: 'Trois modèles de collaboration, un seul processus d''intégration'
+  subtitle: 'Chaque nouvel acheteur passe par la même intégration en sept portes — ce qui change, c''est l''ampleur de l''implication de l''ingénierie et l''emplacement de la propriété intellectuelle.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Fabrication OEM'
+      desc: 'Vous fournissez la spécification de design complète — forme de la coque, construction, graphismes, accessoires. Nous fabriquons selon votre spéc. Vous possédez toute la PI. Idéal pour les marques avec une ligne de produit existante et une géométrie de planche éprouvée.'
+      link_label: 'Comment fonctionne l''OEM'
+      href: /fr/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Développement ODM'
+      desc: 'Vous fournissez le brief — poids du pagayeur cible, cas d''usage, prix — et notre équipe d''ingénierie développe la planche à partir de vos exigences. Plateforme adaptée avec votre marque. Idéal pour les marques entrant sur le marché sans capacité de design interne.'
+      link_label: 'Comment fonctionne l''ODM'
+      href: /fr/odm-development
+    - icon: P
+      icon_bg: purple
+      title: 'Marque privée / Co-marquage'
+      desc: 'Appliquez votre marque à une plateforme éprouvée sur le terrain — aucune étape d''ingénierie requise. Votre logo sur le nez ou les rails latéraux dès 5–10 unités. Idéal pour les opérateurs et distributeurs qui veulent des planches marquées sans cycle de développement.'
+      link_label: 'Options de marque privée'
+      href: /fr/solutions/private-label-sup
+
+checklist:
+  heading: 'Que préparer avant votre brief de projet'
+  body: |
+    Plus votre brief est complet, plus le devis est rapide et précis. Voici ce qu''il faut avoir prêt :
+
+    - **Spécifications de la planche** — Longueur cible, largeur, épaisseur, plage de poids du pagayeur et usage prévu (randonnée, polyvalent, surf, pêche, yoga, etc.). Si vous avez des dimensions de planche de référence ou un modèle concurrent, incluez-les.
+    - **Fichiers de design** — Graphismes vectoriels (AI, SVG ou PDF) pour les graphismes de la planche, le logo du tapis EVA et tout marquage secondaire. Si les graphismes ne sont pas prêts, un mood board ou des images de référence suffisent pour la faisabilité initiale.
+    - **Volume et calendrier de commande** — Votre quantité cible pour la première commande et le calendrier de saison à respecter. Même une fourchette approximative (« 20–50 planches d''ici mars ») suffit pour confirmer la faisabilité et la disponibilité des créneaux.
+    - **Exigences de conformité** — Marchés cibles (UE, Amérique du Nord, Australie, etc.) et toute exigence de certification ou de test spécifique au-delà de notre périmètre standard (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **Fourchette budgétaire** — Un budget indicatif par planche ou un coût débarqué cible aide à recommander la bonne plateforme et le bon niveau de construction. Le prix exact est confirmé après la revue d''ingénierie — jamais avant.
+
+    Si vous n''avez pas encore tout cela, soumettez ce que vous avez. Nous vous guiderons pour le reste.
+
+evidence_review:
+  tagline: 'Preuves et vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et journaux de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées 2026-08.'
+
+faqs:
+  tagline: FAQ
+  title: 'Intégration OEM — questions fréquentes'
+  items:
+    - q: 'Combien de temps prend le processus d''intégration complet ?'
+      a: 'L''approbation de l''échantillon prend généralement 2–4 semaines (y compris la production d''échantillon en 7–12 jours et votre période d''examen). La première série de production prend 6–8 semaines à partir du bon de commande confirmé et de l''acompte. Une forme de coque sur mesure ajoute 15–20 jours de développement de moule. Chaque porte a un calendrier fixe convenu à l''avance.'
+    - q: 'Dois-je signer une NDA avant de partager mon design ?'
+      a: 'Une NDA est disponible immédiatement sur demande — avant que vous partagiez toute spécification technique ou graphisme propriétaire. Nous fabriquons exclusivement sous les marques de nos clients et ne concurrençons jamais sur aucun marché. La même politique s''applique à un échantillon d''1 planche qu''à un programme conteneur.'
+    - q: 'Quelle est la commande minimale pour une première série OEM ?'
+      a: 'Le point d''entrée est étagé : 1–2 échantillons d''abord (prêts en 7–12 jours), une commande d''essai ou pilote de 20–50 planches (production en 25–35 jours), puis des séries de volume standard de 90–100+ planches par configuration approuvée. Le co-marquage en petits lots commence dès 5–10 unités quand aucune étape de développement n''est nécessaire. Les frais d''échantillon sont crédités sur votre commande de production.'
+    - q: 'Comment la protection de la PI est-elle gérée pendant l''intégration ?'
+      a: 'Vos designs et spécifications sont protégés sous la NDA signée avant que toute information propriétaire soit partagée. Tous les graphismes, données BOM et fichiers techniques sont stockés dans des systèmes à accès contrôlé avec pistes d''audit. En mode OEM, vous possédez toute la PI. En mode ODM, la PI de la plateforme adaptée est partagée selon l''accord. En mode Marque privée, la PI reste avec SUPsfactory et vous licencez l''application de la marque.'
+    - q: 'Quelles garanties de qualité s''appliquent à une première commande ?'
+      a: 'Chaque planche — échantillon, essai ou volume — passe par le même système de portes d''inspection à 7 étapes : inspection des matériaux entrant, inspection du tissu drop-stitch, soudure et assemblage, test de pression et d''étanchéité à l''air de 24 heures (maintien à 18,0 PSI, rejet automatique au-delà d''une chute de 0,50 PSI), installation du tapis EVA et des accessoires, QC des graphismes et de la marque, et emballage final et documentation. La qualité n''est jamais réduite pour les commandes plus petites.'
+
+cta:
+  title: 'Prêt à démarrer votre projet SUP ?'
+  subtitle: 'Envoyez-nous vos spécifications de planche, votre objectif de volume et votre calendrier. Nous confirmerons la faisabilité, produirons des échantillons et fournirons un planning de production — porte par porte, avec QC documenté à chaque étape.'
+  actions:
+    - variant: primary
+      text: Démarrez votre brief de projet
+      href: /fr/contact#project-brief
+    - text: Comparez OEM, ODM et Marque privée
+      href: /fr/oem-odm-private-label-comparison
+    - text: Vérifier l''usine et le système qualité
+      href: /fr/proof-center

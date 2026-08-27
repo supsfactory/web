@@ -1,0 +1,69 @@
+meta:
+  title: "MOQ SUP gonflable — Quantités minimales de commande expliquées"
+  description: "Niveaux de MOQ clairs pour la fabrication de SUP gonflables personnalisés : 5–10 co-marquage, 20–50 pilote, 90–100+ volume par rouleau. Arbre de décision par niveau de personnalisation."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Réponse directe"
+    directAnswer:
+      answer: "Les séries pilotes sur plateforme existante démarrent à 20–50 pièces ; le MOQ de volume standard est de 90–100+ pièces par rouleau de drop-stitch de 150 m (~180–220 planches)."
+      condition: "Le MOQ spécifique dépend de la forme de la planche, du rouleau de matériau, de l''impression, de l''emballage et de la nécessité ou non d''un nouveau moule."
+      value: "5–10 co-marquage · 20–50 pilote · 90–100+ par rouleau volume"
+      verifiedDate: "2026-08-20"
+      sourceType: "enregistrement-usine"
+    body: |
+      Le MOQ chez SUPsfactory est étagé par niveau de personnalisation, pas un seul
+      chiffre plat. Chaque niveau correspond à un scénario de production spécifique :
+
+      | Scénario | MOQ | Unité | Condition |
+      |----------|-----|-------|-----------|
+      | Plateforme existante, simple superposition de logo | 5–10 pièces | par design | Même forme, même rouleau de matériau, même coloris |
+      | Graphismes / EVA / emballage personnalisés sur plateforme existante | 20–50 pièces | lot pilote | Même forme ; les nouveaux graphismes exigent une preuve visuelle |
+      | Production en volume standard (toute plateforme) | 90–100+ pièces | par rouleau de 150 m (~180–220 planches) | Par rouleau de matériau ; plusieurs SKU = rouleaux séparés |
+      | Nouvelle forme / moule personnalisé | 90–100+ pièces | série de production | L''outillage du moule ajoute 15–20 jours ; frais de moule uniques |
+
+  - title: "Qu''est-ce qu''un « rouleau de matériau » ?"
+    body: |
+      Un rouleau de 150 mètres de tissu drop-stitch produit environ 180–220 planches selon
+      les dimensions de la planche (généralement 10–11 ft). Chaque SKU distinct — c''est-à-dire
+      une combinaison différente de taille, de couleur ou de spécification de matériau —
+      nécessite son propre rouleau et donc son propre MOQ.
+
+      C''est pourquoi le MOQ est indiqué « par rouleau de 150 m » plutôt que « par design » :
+      deux coloris de la même forme de planche sont deux rouleaux, deux MOQ.
+
+  - title: "Co-marquage vs pilote vs volume"
+    body: |
+      **Co-marquage (5–10 pièces)** : Votre logo appliqué à une plateforme existante qui est déjà
+      en production pour une autre marque. Aucune modification de graphismes au-delà du placement
+      du logo. Voie la plus rapide vers un échantillon marqué.
+
+      **Lot pilote (20–50 pièces)** : Graphismes personnalisés, design du tapis de traction EVA
+      ou emballage sur une forme de plateforme existante. Exige l''approbation de la preuve
+      visuelle avant la production. Idéal pour tester un nouveau look sur le marché.
+
+      **Production en volume (90–100+ pièces par rouleau)** : Série de production complète avec
+      toute combinaison de personnalisation. C''est le niveau commercial standard. Chaque rouleau
+      de matériau donne environ 180–220 planches.
+
+  - title: "MOQ de moule personnalisé"
+    body: |
+      Quand votre design exige une nouvelle forme de planche (pas seulement de nouveaux
+      graphismes sur une forme existante), un moule dédié doit être créé. Cela s''exécute au
+      niveau de volume (90–100+ pièces) parce que l''investissement du moule exige une série de
+      production pour être amorti. L''outillage ajoute 15–20 jours au délai standard.
+
+      Propriété du moule : vous possédez le moule. Il est stocké dans notre installation et
+      utilisé exclusivement pour vos séries de production.
+
+  - title: "Commandes d''échantillon"
+    body: |
+      Des échantillons de pré-production sont disponibles à 1–2 planches pour la confirmation
+      d''ajustement/finition. Ils sont fabriqués à la main selon votre spéc. et prennent
+      généralement 7–12 jours. Le coût de l''échantillon est crédité sur votre première commande
+      de volume.
+
+evidence_review:
+  tagline: 'Preuves et vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées 2026-08.'

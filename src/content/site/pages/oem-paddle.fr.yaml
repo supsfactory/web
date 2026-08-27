@@ -1,0 +1,105 @@
+meta:
+  title: 'Pagaie gonflable OEM et marque privée | {SITE}'
+  description: 'Fabricant de pagaies gonflables OEM/ODM : production de pagaies personnalisées, marque privée et vente en gros. Usine certifiée CE en Chine.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'planche à pagaie OEM'
+    - 'SUP gonflable ODM'
+    - 'SUP marque privée'
+    - 'fabricant de pagaies personnalisées'
+    - 'vente en gros de planches à pagaie'
+    - 'fournisseur SUP professionnel'
+hero:
+  tagline: 'OEM · ODM · Marque privée'
+  title: 'Fabrication OEM de pagaie gonflable sous votre marque'
+  subtitle: 'De l''idée au produit fini : nous fabriquons votre pagaie gonflable personnalisée. Logo, couleurs, emballage, moule personnalisé — production OEM/ODM en Chine, prête pour votre marché.'
+  image:
+    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+    alt: Pagaie gonflable OEM personnalisée avec logo de marque
+  actions:
+    - text: 'Démarrer mon projet OEM'
+      href: /fr/contact
+
+answer:
+  label: 'Réponse directe'
+  text: 'La quantité minimale de commande est confirmée par la configuration du projet : échantillon (1–2 unités), pilote (20–50 unités) et volume standard (90–100+ unités par lot à partir d''un rouleau de drop-stitch de 150 m), avec co-marquage en petits lots dès 5–10 unités. Les échantillons partent en 7–12 jours ; la production en gros s''exécute en 25–35 jours après bon de commande et acompte. Certification CE pour les modèles destinés au marché de l''UE et documentation de conformité complète incluse avec chaque commande.'
+  verified: '2026-08'
+  image:
+    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+    alt: Pagaie gonflable OEM personnalisée avec logo de marque
+  actions:
+    - text: 'Démarrer mon projet OEM'
+      href: /fr/contact
+      variant: primary
+    - text: 'Voir les packs OEM'
+      href: /fr/oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Jours de délai de production'
+    detail: 'À partir du bon de commande confirmé et de l''acompte'
+  - value: '50'
+    label: 'MOQ minimal (unités)'
+  - value: '200+'
+    label: 'Modèles personnalisés livrés'
+  - value: '100%'
+    label: 'Certification CE incluse'
+features:
+  title: 'Un service OEM complet'
+  subtitle: 'Tout sous un même toit : design, prototypage, fabrication, contrôle qualité et logistique.'
+  columns: 3
+  items:
+    - title: 'Design et ingénierie'
+      description: 'Modélisation 3D, sélection de matériaux PVC/VS2 et design graphique personnalisé.'
+      icon: 'tabler:palette'
+    - title: 'Prototype et validation'
+      description: 'Échantillon certifié CE avec test qualité avant la production de masse.'
+      icon: 'tabler:flask'
+    - title: 'Production de masse'
+      description: 'Fabrication à grande échelle avec QC en ligne et support d''audit d''usine.'
+      icon: 'tabler:building-factory'
+    - title: 'Marque privée'
+      description: 'Logo, étiquettes, emballage et boîtes de présentation à l''image de votre marque.'
+      icon: 'tabler:shield-check'
+    - title: 'Qualité certifiée'
+      description: 'CE / ISO / BSCI / REACH — pagaies gonflables professionnelles pour les marchés mondiaux.'
+      icon: 'tabler:certificate'
+    - title: 'Expédition mondiale'
+      description: 'FOB Qingdao, CIF sur les principaux ports et livraison en porte-à-porte vers 50+ pays.'
+      icon: 'tabler:world'
+faqs:
+  title: 'FAQ sur la production de pagaies OEM'
+  subtitle: 'Réponses aux questions les plus courantes des marques qui lancent leur propre pagaie.'
+  items:
+    - title: 'Comment créer ma propre marque de pagaie ?'
+      description: 'Lancez votre marque : brief, design, prototype certifié CE, production de masse et livraison. Échantillons en 7–12 jours, production en 25–35 jours à partir du bon de commande et de l''acompte. Explorez nos packs OEM.'
+    - title: 'Quel est le délai de production ?'
+      description: 'L''échantillon est prêt en 7–12 jours, la production en gros en 25–35 jours après le bon de commande et l''acompte selon le volume.'
+    - title: 'La pagaie porte-t-elle notre logo ?'
+      description: 'Oui — marque privée complète : impression du logo, couleurs personnalisées, emballage et étiquettes à votre marque.'
+    - title: 'Puis-je acheter en gros dès le premier jour ?'
+      description: 'Le MOQ est confirmé par la configuration du projet — échantillon (1–2 unités), pilote (20–50 unités) et volume standard (90–100+ unités par lot), avec des paliers de tarification gros à mesure que le volume augmente.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Poursuivez votre lecture :</strong> la production de pagaies et de planches partage le même <a href="/fr/oem-manufacturing">programme OEM/ODM</a> et le même <a href="/fr/factory">atelier d''usine de 12 500 m&sup2;</a> — un seul devis couvre les deux.</p>
+  </div>
+
+geo:
+  tagline: 'Positionnement B2B'
+  sentence: 'Afarer est un fabricant professionnel de SUP et planches à pagaie gonflables (OEM/ODM), spécialisé dans le design, la production personnalisée et les solutions de sports nautiques pour les marques, distributeurs, clubs et entreprises.'
+  audiences:
+    - 'Marques privées'
+    - 'Grossistes'
+    - 'Distributeurs'
+    - 'Centres nautiques'
+cta:
+  title: 'Donnez vie à votre marque de pagaie'
+  subtitle: 'Recevez un devis OEM détaillé sous un jour ouvré.'
+  actions:
+    - text: 'Demander un devis OEM'
+      href: /fr/contact
+      variant: primary
+    - text: 'Télécharger le guide OEM'
+      href: /fr/research/oem-buyer-guide
+      variant: secondary
