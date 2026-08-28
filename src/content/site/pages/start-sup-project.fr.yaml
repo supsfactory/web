@@ -1,0 +1,114 @@
+meta:
+  title: 'Lancez votre projet SUP — Du brief aux planches livrées | SUPsfactory'
+  description: 'Lancez votre projet SUP personnalisé : soumettez un brief, obtenez une protection NDA, recevez des échantillons en 7–12 jours, approuvez et passez à la production. Étape par étape avec calendriers.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'lancer projet sup'
+    - 'commande sup personnalisée'
+    - 'brief projet sup'
+    - 'projet sup oem'
+    - 'commande planche à pagaie personnalisée'
+    - 'projet de fabrication sup'
+    - 'projet sup gonflable'
+
+hero:
+  tagline: 'Commencez ici'
+  title: 'Lancez votre projet SUP'
+  subtitle: 'Que vous lanciez une nouvelle marque, étendiez une gamme de produits, ou sourciez des planches marquées pour votre exploitation — chaque projet démarre de la même façon : un brief de projet, un NDA, un échantillon, et un chemin clair vers la production. Voici ce qui se passe après avoir cliqué sur « Démarrer ».'
+  actions:
+    - variant: primary
+      text: Démarrer votre brief de projet
+      href: /fr/contact#project-brief
+    - text: Voir comment le processus fonctionne
+      href: /fr/how-it-works
+
+answer:
+  label: 'Que se passe-t-il ensuite'
+  text: 'Après avoir soumis un brief de projet, vous recevez une réponse sous un jour ouvré. Un NDA est disponible avant de partager tout détail propriétaire. L''ingénierie examine votre brief et renvoie un devis détaillé avec MOQ, frais d''échantillon et un calendrier étape par étape — généralement 7–12 jours pour les échantillons et 6–8 semaines pour la première production à partir de la PO confirmée. Les frais d''échantillon sont crédités sur votre commande de production. Aucun engagement jusqu''à signature.'
+  verified: '2026-08'
+
+process_steps:
+  tagline: Le processus
+  title: 'Du brief aux planches livrées — cinq étapes'
+  subtitle: 'Chaque étape a un calendrier défini, un livrable documenté et un point de contrôle go/no-go. Vous avancez seulement quand vous êtes prêt.'
+  steps:
+    - step: 'Étape 1'
+      title: 'Soumettez votre brief de projet'
+      desc: 'Parlez-nous de votre planche — specs cibles, volume, besoins de conformité et calendrier. Le brief prend 5–10 minutes. Si vous n''êtes pas sûr de chaque détail, partagez ce que vous avez et nous guiderons le reste. Un NDA est disponible avant de partager des designs propriétaires.'
+    - step: 'Étape 2'
+      title: 'NDA & revue de faisabilité (1–5 jours)'
+      desc: 'Nous signons un NDA si demandé, puis l''ingénierie examine votre brief contre la capacité de fabrication, la disponibilité des matériaux et le périmètre de conformité. Vous recevez un devis détaillé avec calcul MOQ, frais d''échantillon et calendrier étape par étape.'
+    - step: 'Étape 3'
+      title: 'Échantillon & approbation (7–21 jours)'
+      desc: '1–2 planches physiques produites selon votre spécification. Vous pagayez et évaluez — rigidité de la carène, exactitude des graphismes, ajustement des accessoires. Les ajustements sont capturés dans un BOM révisé. L''échantillon figé devient la référence de production. Les frais d''échantillon sont crédités sur la production.'
+    - step: 'Étape 4'
+      title: 'Planification pré-production (7 jours)'
+      desc: 'Achats des matériaux, installation de l''outillage, confirmation de l''emballage et réservation du créneau de production. Tous les matériaux sont inspectés à l''entrée contre le BOM figé. Un planning de production avec dates de portes QC est émis avant le démarrage de la fabrication.'
+    - step: 'Étape 5'
+      title: 'Production, QC & expédition (4–6 semaines)'
+      desc: 'La fabrication passe le système de portes d''inspection à 7 étapes avec critères pass/fail à chaque porte. Emballage de grade export, documentation de conformité et coordination du fret maritime vers 50+ pays. La revue post-livraison capture les améliorations pour la commande suivante.'
+
+collaboration_types:
+  tagline: Choisissez votre chemin
+  title: 'Trois façons de travailler avec SUPsfactory'
+  subtitle: 'Chaque projet passe par le même processus — ce qui change est le périmètre d''ingénierie et le détenteur de la propriété intellectuelle.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Fabrication OEM'
+      desc: 'Vous fournissez le design. Nous fabriquons selon votre spec. Vous possédez toute la PI. Idéal pour les marques avec une géométrie de planche éprouvée.'
+      link_label: 'Voir les détails OEM'
+      href: /fr/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Développement ODM'
+      desc: 'Vous fournissez le brief. Nous développons la planche. Plateforme adaptée avec votre marque. Idéal pour les marques entrant sur le marché sans design interne.'
+      link_label: 'Voir les détails ODM'
+      href: /fr/odm-development
+    - icon: P
+      icon_bg: purple
+      title: 'Marque privée / co-marquage'
+      desc: 'Votre marque sur une plateforme éprouvée. Aucune étape d''ingénierie. Dès 5–10 unités. Idéal pour les opérateurs et distributeurs.'
+      link_label: 'Voir les options marque privée'
+      href: /fr/solutions/private-label-sup
+
+what_we_need:
+  heading: 'Que préparer avant votre brief'
+  body: |
+    Un brief complet accélère le processus. Voici ce qui aide :
+
+    - **Specs de planche** — Longueur, largeur, épaisseur cibles, poids du pagayeur, cas d''usage. Les dimensions de planche de référence ou modèles concurrents sont utiles.
+    - **Fichiers design** — Visuels vectoriels (AI, SVG, PDF) pour graphismes et logos. Si non prêts, des mood boards ou images de référence fonctionnent pour la faisabilité initiale.
+    - **Volume & calendrier** — Quantité cible et planning saisonnier. Même une fourchette approximative (« 20–50 planches d''ici mars ») suffit à démarrer.
+    - **Besoins de conformité** — Marchés cibles et toute exigence de certification spécifique au-delà de CE, ISO 9001, BSCI, REACH, RoHS.
+    - **Fourchette budgétaire** — Un budget par planche indicatif ou un coût débarqué cible nous aide à recommander la bonne plateforme.
+
+    **Pas prêt sur tout ?** Soumettez ce que vous avez. Nous guiderons le reste.
+
+faqs:
+  tagline: FAQ
+  title: 'Lancer un projet SUP — Questions fréquentes'
+  items:
+    - q: 'Quelle est la commande minimale pour démarrer ?'
+      a: 'Le point d''entrée est étagé : 1–2 échantillons d''abord (7–12 jours), une commande d''essai de 20–50 planches (25–35 jours), puis des runs de volume standard de 90–100+ planches par configuration approuvée. Le co-marquage en marque privée démarre à 5–10 unités sans étape de développement.'
+    - q: 'Combien de temps pour obtenir des échantillons ?'
+      a: 'Les échantillons physiques sont produits en 7–12 jours à partir de la spec et de l''acompte confirmés. En utilisant des plateformes de carène existantes, le cycle complet du brief à la commande d''essai livrée tourne généralement en 8–12 semaines. Une carène sur mesure ajoute 15–20 jours de développement de moule.'
+    - q: 'Mon design est-il protégé ?'
+      a: 'Oui. Un NDA est disponible immédiatement — avant de partager toute information propriétaire. Nous fabriquons exclusivement sous les marques de nos clients et ne leur faisons jamais concurrence. Tous les fichiers techniques sont stockés dans des systèmes à contrôle d''accès avec pistes d''audit.'
+    - q: 'Que demande le formulaire de brief de projet ?'
+      a: 'Le brief demande votre type d''entreprise, le nom de la société, les spécifications de planche cibles, la fourchette de quantité de commande, le calendrier et tout besoin de conformité. Cela prend environ 5–10 minutes. Vous pouvez joindre des fichiers design (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) jusqu''à 10 Mo. Si un champ vous est incertain, sautez-le — nous suivrons.'
+    - q: 'Que se passe-t-il après avoir soumis le brief ?'
+      a: 'Vous recevez une réponse sous un jour ouvré. L''ingénierie examine votre brief et renvoie un devis détaillé avec MOQ, frais d''échantillon et calendrier étape par étape. Aucun engagement n''est requis avant de revoir et signer le contrat. Les frais d''échantillon sont crédités sur votre commande de production.'
+
+cta:
+  title: 'Prêt à démarrer ?'
+  subtitle: 'Soumettez votre brief de projet — specs de planche, volume et calendrier — et nous confirmerons la faisabilité, produirons des échantillons et livrerons un planning de production avec QC documentée à chaque étape.'
+  actions:
+    - variant: primary
+      text: Démarrer votre brief de projet
+      href: /fr/contact#project-brief
+    - text: Lire le guide complet d''intégration
+      href: /fr/oem-onboarding-guide
+    - text: Vérifier l''usine et le système qualité
+      href: /fr/proof-center

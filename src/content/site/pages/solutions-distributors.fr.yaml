@@ -1,0 +1,132 @@
+meta:
+  title: 'Programme partenaire de distribution en gros de SUP | {SITE}'
+  description: 'Rejoignez le réseau mondial de distribution en gros de SUP d''Afarer : territoires exclusifs, portefeuille complet de produits et gestion de compte dédiée dans plus de 50 pays.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Distributeurs
+  title: 'Rejoignez notre réseau de distribution mondial'
+  subtitle: 'Programme partenaire de distribution en gros de SUP avec territoires exclusifs, portefeuille complet de planches SUP gonflables et support de classe mondiale. Afarer expédie vers 50+ pays — nous recherchons des distributeurs établis en marine et sports nautiques.'
+  image:
+    src: https://assets.afarer.com/images/afarer/factory/afarer-factory-building.webp
+    alt: Opérations d''expédition et de distribution mondiale d''Afarer
+
+answer:
+  label: 'Réponse directe'
+  text: 'Conditions de distribution en gros : territoire exclusif, 3–8 SKU par programme, paiement à 45–60 jours, et 100 % du stock testé en pression à l''usine avant expédition. Les distributeurs achètent au prix de gros direct usine avec un responsable de compte dédié ; la commande d''ouverture minimale et les conditions de fret sont convenues par territoire, expédiées FOB Qingdao ou CIF.'
+  verified: '2026-08'
+
+intro:
+  tagline: À propos du programme
+  title: 'Distribution en gros de SUP, bâtie autour d''un partenariat long terme'
+  body: |
+    Afarer planifie, construit et contrôle qualité chaque SUP gonflable, kayak et accessoire dans sa propre usine — donc un accord de distribution en gros avec nous inclut la source d''approvisionnement intégrée. Les distributeurs ne revendent pas une gamme tierce éloignée : ils reçoivent le catalogue complet de produits Afarer, les prix direct usine et un responsable de compte dédié qui planifie le réapprovisionnement saisonnier autour de leurs ventes.
+
+    La plupart de nos partenaires de distribution opèrent sur un territoire exclusif et portent une gamme concentrée de 4–8 modèles les plus vendus — planches tout-terrain en trois tailles, un modèle touring, et la pompe, la pagaie et les accessoires d''entretien assortis. Parce que nous contrôlons toute la ligne de production, nous pouvons planifier de grands runs pour le début de saison de l''hémisphère nord, stabiliser les coûts de fret par des commandes anticipées, et libérer du fonds de roulement avec des conditions de gros transparentes et des échéanciers de paiement convenus.
+
+    Le programme de distribution est l''une des deux façons d''acheter les produits Afarer en gros. Si vous exploitez déjà un canal de gros, cette page est pour vous. Les marques, stations, écoles de formation et flottes de location achetant en direct pour leur propre usage doivent plutôt consulter les programmes OEM/ODM et flottes.
+
+wholesale_pricing:
+  tagline: Pourquoi rejoindre
+  title: 'Ce que les distributeurs obtiennent'
+  subtitle: 'Tout ce dont vous avez besoin pour réussir sur votre marché.'
+  intro: 'Les partenaires de distribution reçoivent le même produit, la même qualité d''usine et la même profondeur d''ingénierie que Afarer est réputé, emballés pour le canal de gros.'
+  stats:
+    - value: '50+'
+      label: 'Pays expédiés'
+    - value: '1'
+      label: 'Responsable de compte dédié'
+    - value: '45–60'
+      label: 'Jours de paiement'
+    - value: '10+'
+      label: 'Gammes de produits principales'
+    - value: '3–8'
+      label: 'SKU par programme territorial'
+    - value: '100 %'
+      label: 'Testé à l''usine avant expédition'
+
+steps:
+  tagline: Comment ça marche
+  title: 'Parcours de la candidature au premier conteneur'
+  subtitle: 'Un processus d''intégration clair, multi-étapes, pour que votre canal de gros soit expédié à temps pour sa première saison.'
+  steps:
+    - step: 1
+      title: Postuler
+      desc: 'Soumettez la candidature distributeur avec le profil de votre société, le chiffre de gros existant et le territoire.'
+    - step: 2
+      title: Cartographie du territoire
+      desc: 'Nous confirmons l''exclusivité et convenons des pays ou régions couverts par votre programme.'
+    - step: 3
+      title: Sélection catalogue et prix
+      desc: 'Choisissez votre gamme d''ouverture et recevez les prix de gros pour votre territoire.'
+    - step: 4
+      title: Commande d''échantillons
+      desc: 'Commandez des échantillons de certification pour tester qualité, emballage et manutention drop-ship avant le premier conteneur.'
+    - step: 5
+      title: Réapprovisionnement saisonnier
+      desc: 'Votre responsable de compte planifie la production et le réapprovisionnement autour de votre prévision et du calendrier saisonnier.'
+
+benefits:
+  title: Ce que les distributeurs obtiennent
+  subtitle: 'Tout ce dont vous avez besoin pour réussir sur votre marché.'
+  items:
+    - 'Droits de territoire exclusif'
+    - 'Catalogue complet de produits (SUP, accessoires, pièces)'
+    - 'Prix de gros compétitifs'
+    - 'Supports marketing et ventes (traduits)'
+    - 'Programme de formation (produit, ventes, entretien)'
+    - 'Support salon professionnel'
+    - 'Programme d''échantillons'
+    - 'Capacité de drop-ship'
+    - 'Responsable de compte distributeur dédié'
+    - 'Paiement à 45-60 jours'
+
+coverage:
+  title: Distribution actuelle
+  subtitle: 'Afarer sert actuellement ces marchés directement.'
+  regions:
+    - name: Europe
+      countries: 'France, Allemagne, Royaume-Uni, Espagne, Italie, Pays-Bas, Suède, Norvège, Pologne, Grèce'
+    - name: Asie
+      countries: 'Japon, Corée du Sud, Chine, Thaïlande, Singapour'
+    - name: Moyen-Orient
+      countries: 'EAU, Arabie saoudite'
+    - name: Amériques
+      countries: 'États-Unis, Canada, Brésil, Mexique'
+    - name: Océanie
+      countries: 'Australie, Nouvelle-Zélande'
+    - name: Afrique
+      countries: 'Afrique du Sud, Maroc'
+
+faqs:
+  tagline: FAQ distributeur
+  title: 'Programme de distribution en gros — Questions fréquentes'
+  items:
+    - q: 'Quelle est la commande de gros minimale pour un nouveau distributeur ?'
+      a: 'Les nouveaux partenaires de distribution ouvrent généralement avec une commande d''échantillons suivie d''un premier conteneur planifié selon leur saison. Les minimums exacts dépendent de la taille du territoire et de la gamme choisie ; votre responsable de compte confirme le volume d''ouverture lors de la sélection du catalogue.'
+    - q: 'Les territoires sont-ils exclusifs ?'
+      a: 'Oui. Le programme de distribution Afarer repose sur des territoires exclusifs — chaque partenaire de gros couvre un pays ou une région défini et reçoit les prix et le support de programme pour ce marché.'
+    - q: 'Proposez-vous le drop-shipping ?'
+      a: 'La capacité de drop-ship est incluse dans le programme distributeur. Les échantillons, l''emballage produit et la manutention sont validés lors de l''étape de commande d''échantillons afin que les commandes drop-ship fonctionnent parfaitement dès le premier jour.'
+    - q: 'Quels produits les distributeurs peuvent-ils commander ?'
+      a: 'Le catalogue complet Afarer : planches SUP gonflables toutes catégories (tout-terrain, touring, surf), kayaks gonflables, pompes, pagaies, gilets et accessoires d''entretien. La plupart des partenaires ouvrent avec 4–8 SKU les plus vendus et étendent les saisons suivantes.'
+    - q: 'Comment les commandes sont-elles expédiées ?'
+      a: 'Les commandes quittent notre usine sur des départs programmés, avec commande anticipée disponible pour stabiliser les coûts de fret. Votre responsable de compte dédié planifie la production et l''expédition autour de votre prévision et du calendrier saisonnier.'
+    - q: 'Comment postuler ?'
+      a: 'Utilisez le formulaire de candidature de cette page ou contactez-nous directement. Les candidatures sont examinées par l''équipe distribution, et nous répondons avec les prochaines étapes, incluant la cartographie du territoire et un projet d''accord, sous quelques jours ouvrables.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>À lire :</strong> les partenaires distributeurs vendent les mêmes planches que nous construisons pour les <a href="/fr/oem-manufacturing">marques OEM/en marque privée</a> — consultez le programme de fabrication et le <a href="/fr/factory">processus qualité de l''usine</a> pour positionner le produit en confiance.</p>
+  </div>
+
+cta:
+  title: 'Prêt à devenir distributeur ?'
+  subtitle: 'Postulez à notre programme distributeur ou téléchargez notre kit d''information distributeur.'
+  actions:
+    - text: 'Postuler au programme distributeur'
+      href: '/fr/contact?partner=distributor'
+      variant: 'primary'
+    - text: 'Télécharger le kit distributeur'
+      href: '/fr/products'
+      variant: 'secondary'

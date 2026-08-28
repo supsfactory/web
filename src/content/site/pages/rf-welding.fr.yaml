@@ -1,0 +1,99 @@
+meta:
+  title: 'Centre de soudure RF — Assemblage diélectrique des coutures de SUP | {SITE}'
+  description: 'Technologie de soudure par radiofréquence produisant des coutures de SUP étanches conformes. Tests de pelage, validation de rétention d''air et spécifications de couture personnalisées.'
+  dateModified: '2026-08'
+back_text: 'Retour au Centre R&D'
+home_label: 'Accueil'
+
+answer:
+  label: 'Réponse directe'
+  text: 'Nous exploitons des presses diélectriques RF de 15 kW qui lient moléculairement les coutures PVC à des équivalents 200–600 °C à l''air chaud, puis validons chaque soudure : tests de pelage selon ASTM D751, maintiens de rétention d''air à 18,0 PSI, avec des coutures documentées et traçables par unité.'
+  verified: '2026-08'
+
+hero:
+  tagline: 'Lab 03'
+  title: 'Centre de soudure RF'
+  subtitle: 'Technologie de liaison diélectrique pour des soudures qui tiennent sous pression'
+  image: 'https://assets.afarer.com/images/afarer/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Processus de liaison diélectrique par soudure RF d''Afarer'
+
+intro: 'Une planche SUP gonflable n''est fiable que par ses coutures. Une seule soudure faible peut compromettre toute une chambre — et sous les pieds, une défaillance de chambre n''est pas un inconvénient ; c''est un risque de sécurité. Chez {SITE.name}, nous avons investi dans un Centre de soudure RF (radiofréquence) dédié qui combine des presses de soudure diélectrique de qualité industrielle avec un contrôle de processus rigoureux et des tests post-soudure. Chaque couture que nous produisons est documentée, traçable et certifiée pour répondre ou dépasser les exigences de la norme internationale pour les embarcations gonflables.'
+
+content_html: |
+  <h2>La science derrière la couture</h2>
+  <p>La soudure RF utilise une énergie électromagnétique haute fréquence (généralement 27,12 MHz) pour exciter les molécules polaires du tissu enduit PVC, générant de la chaleur précisément à l''interface du matériau. Contrairement à la soudure à l''air chaud ou au coin chaud, la soudure RF crée une véritable liaison moléculaire — les deux couches de tissu fusionnent en un matériau homogène unique au niveau de la zone soudée, produisant un joint aussi résistant que le matériau d''origine.</p>
+
+  <h2>Équipement de soudure et contrôle de processus</h2>
+  <p>Notre centre de soudure est équipé de :</p>
+  <table>
+    <thead><tr><th>Machine</th><th>Puissance / Capacité</th><th>Application</th></tr></thead>
+    <tbody>
+      <tr><td>Presse RF diélectrique 1</td><td>15 kW, plateau 2000 × 600 mm</td><td>Coutures principales de planche, jonctions bande de rail au pont</td></tr>
+      <tr><td>Presse RF diélectrique 2</td><td>10 kW, plateau 1500 × 500 mm</td><td>Soudures de cône de nez, patches de poignée, patches de valve</td></tr>
+      <tr><td>Soudeuse RF à commande CNC</td><td>8 kW, table XY 2500 × 1200 mm</td><td>Coutures de rail courbes, gaufrage logo/panneau, patchwork de précision</td></tr>
+      <tr><td>Soudeuse automatique à coin chaud</td><td>Température variable, 1,2 m/min max</td><td>Méthode de secours pour matériaux CSM spéciaux</td></tr>
+    </tbody>
+  </table>
+  <p>Chaque presse RF est équipée d''un monitoring de température et de pression en boucle fermée. Les paramètres de soudure — puissance, temps de presse, temps de refroidissement, pression de l''électrode — sont programmés par type de matériau et enregistrés dans notre système MES (Manufacturing Execution System) pour une traçabilité complète.</p>
+
+  <h2>Tests de qualité de soudure — chaque couture, chaque planche</h2>
+  <p>L''intégrité de la soudure est vérifiée par un protocole obligatoire de quatre tests :</p>
+  <ol>
+    <li><strong>Inspection visuelle</strong> — 100 % des coutures sont inspectées visuellement pour le percement, le désalignement, la contamination ou la fusion incomplète. Seuil de rejet : 0,5 % des mètres linéaires.</li>
+    <li><strong>Test de pelage</strong> — Une bande de 25 mm de large est découpée sur un coupon d''essai soudé avec chaque lot de production. Force de pelage minimale : 120 N/25 mm pour du PVC 1100 dtex.</li>
+    <li><strong>Test de rétention d''air</strong> — Chaque planche terminée est pressurisée à 18,0 PSI et maintenue 24 heures. La chute de pression ne doit pas dépasser 0,50 PSI.</li>
+    <li><strong>Test de cyclage thermique</strong> — Des coupons d''essai sont cyclés de -20 °C à +60 °C pendant 50 cycles, puis testés en pelage à nouveau. Perte de résistance acceptable : &lt; 10 %.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Comparaison de résistance au pelage — Soudure RF vs Air chaud (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Soudure RF</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Air chaud</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Min. standard</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">La soudure RF atteint systématiquement 90-95 % de la résistance du matériau d''origine, bien au-delà du minimum.</p>
+  </div>
+
+  <h2>Expertise professionnelle</h2>
+  <p>Notre équipe de soudure est dirigée par un ingénieur de processus senior avec 11 ans d''expérience en soudure diélectrique de textiles enduits. Chaque opérateur suit un programme de certification interne de 6 mois avant de pouvoir travailler sur les coutures de production. La recertification est requise annuellement, incluant un test de soudure pratique évalué selon notre norme interne Grade-A (résistance au pelage ≥ 160 N/25 mm).</p>
+
+  <h2>Solutions de soudure personnalisées pour exigences uniques</h2>
+  <p>Nous comprenons qu''une seule spécification de soudure ne convient pas à toutes les applications. Notre Centre de soudure RF développe régulièrement des configurations de couture personnalisées pour les clients ayant des exigences spéciales :</p>
+  <ul>
+    <li><strong>Patches de renfort multicouches</strong> — pour les zones à forte usure comme les bandes de rail et les coiffes de nez, nous développons des soudures RF multipasses qui intègrent une couche externe résistante à l''usure sans compromettre la flexibilité.</li>
+    <li><strong>Coutures de planche haute pression</strong> — pour les planches cotées au-delà de 15 PSI, nous validons la géométrie de soudure à pression de travail élevée et documentons la limite dans le rapport de test.</li>
+    <li><strong>Soudure de panneaux changeant de couleur</strong> — panneaux de tissu bicolores (ex. pont orange + rail gris) soudés avec un chevauchement dissimulé pour préserver l''esthétique de la marque sans ligne de joint visible.</li>
+  </ul>
+
+  <h2>Notre engagement envers vous</h2>
+  <p>Chaque planche que nous livrons porte notre garantie de qualité de soudure : si une couture défaille en service normal pendant la période de garantie, nous réparons ou remplaçons la chambre concernée sans frais, et une enquête sur la cause racine est menée pour éviter la récurrence. Ce n''est pas simplement une garantie — c''est un engagement d''amélioration continue piloté par des données opérationnelles réelles.</p>
+  <p>Quand vous choisissez {SITE.name}, vous choisissez des coutures conçues, testées et documentées — pas seulement soudées. C''est la différence entre une planche qui flotte et une planche qui performe.</p>
+
+cta:
+  title: 'Discuter de vos exigences de soudure'
+  subtitle: 'Spécifications de couture personnalisées, compatibilité des matériaux ou validation de processus.'
+  actions:
+    - variant: primary
+      text: Contacter notre équipe de soudure
+      href: /fr/contact#project-brief
+    - text: Retour au Centre R&D
+      href: /fr/randdcenter

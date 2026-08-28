@@ -1,0 +1,86 @@
+meta:
+  title: 'Guide des tailles et specs SUP — Planches à pagaie gonflables | {SITE}'
+  description: 'Dimensions, capacités et usages recommandés pour chaque planche Afarer. Trouvez la bonne taille de SUP gonflable pour vos besoins.'
+  dateModified: '2026-08'
+  keywords:
+    - 'guide des tailles sup'
+    - 'dimensions planche à pagaie'
+    - 'specs sup gonflable'
+    - 'tableau des tailles sup'
+
+hero:
+  title: Guide des tailles et specs
+  subtitle: Dimensions, capacités et usages recommandés pour chaque produit Afarer.
+
+categories:
+  inflatable: SUP gonflables conçus pour la portabilité sans sacrifier la performance. Associez la bonne taille à votre poids et votre style de pagaie.
+  sup: Planches stand-up paddle pour le touring, le yoga, le fitness et la pagaie récréative. Choisissez selon la longueur et le poids du pagayeur.
+  accessory: Accessoires et équipements de sécurité pour compléter votre planche SUP. Tailles universelles avec plusieurs options.
+
+table:
+  headers:
+    product: Produit
+    length: Longueur
+    width: Largeur
+    weight: Poids
+    max_load: Charge max.
+    best_for: Idéal pour
+  rows:
+    - product: 'SUP tout-terrain (Explorer 11 pi)'
+      length: '11''0" (335 cm)'
+      width: '32" (81 cm)'
+      weight: 19 lbs (8,6 kg)
+      max_load: 220 lbs (100 kg)
+      best_for: Débutants, récréation, pagaie en famille sur lacs et rivières calmes
+    - product: 'SUP tout-terrain (10''6")'
+      length: '10''6" (320 cm)'
+      width: '32" (81 cm)'
+      weight: 18 lbs (8,2 kg)
+      max_load: 200 lbs (90 kg)
+      best_for: Pagayeurs plus légers, yoga et récréation générale
+    - product: 'SUP touring (12 pi)'
+      length: '12''0" (366 cm)'
+      width: '30" (76 cm)'
+      weight: 23 lbs (10,4 kg)
+      max_load: 260 lbs (118 kg)
+      best_for: Pagaie en distance, vitesse et touring côtier
+    - product: 'SUP touring (14 pi)'
+      length: '14''0" (427 cm)'
+      width: '28" (71 cm)'
+      weight: 26 lbs (11,8 kg)
+      max_load: 275 lbs (125 kg)
+      best_for: Course et expéditions en longue distance
+    - product: 'SUP surf (8–10 pi)'
+      length: '8''0"–10''0" (244–305 cm)'
+      width: '30" (76 cm)'
+      weight: 17 lbs (7,7 kg)
+      max_load: 180 lbs (82 kg)
+      best_for: Surf et maniabilité en vague
+    - product: 'SUP yoga / fitness (11 pi)'
+      length: '11''0" (335 cm)'
+      width: '34" (86 cm)'
+      weight: 22 lbs (10 kg)
+      max_load: 240 lbs (109 kg)
+      best_for: Yoga, fitness et récréation stable
+
+how_to_choose:
+  title: Comment choisir la bonne taille
+  cards:
+    - title: Planches SUP
+      description: Choisissez la longueur selon votre poids et votre usage prévu. Les planches plus larges (32"+) offrent plus de stabilité. Les planches plus longues (11-12 pi) tiennent mieux leur cap pour le touring. Les pagayeurs lourds ont besoin de planches à plus grand volume.
+    - title: SUP touring
+      description: Les planches plus longues (11–12 pi) sont idéales pour couvrir de la distance et le touring. Les planches plus larges (32"+) offrent plus de stabilité. Vérifiez la capacité de charge pour la charge totale incluant l''équipement.
+    - title: SUP tout-terrain
+      description: Choisissez la longueur selon le poids du pagayeur et l''usage prévu. Les planches tout-terrain conviennent à la récréation, au fitness et au yoga. Les planches plus petites sont plus maniables.
+
+cta:
+  title: 'Parcourez les planches par taille, ou parlez à un ingénieur'
+  subtitle: 'Comparez les modèles touring, tout-terrain et yoga dans notre gamme de produits — ou envoyez votre mix de pagayeurs et nous recommanderons les bonnes tailles pour votre projet.'
+  actions:
+    - variant: primary
+      text: Parcourir les produits SUP
+      href: /fr/products
+    - text: Plus de connaissances sur la pagaie
+      href: /fr/knowledge
+    - text: Comment les planches sont construites
+      href: /fr/factory/process

@@ -1,0 +1,53 @@
+meta:
+  title: 'Technologie — Drop-Stitch & PVC marine | {SITE}'
+  description: 'Technologies Afarer : construction drop-stitch, PVC marine, constructions à double couche et haute pression. Innovation d''un fabricant professionnel de SUP gonflables.'
+  dateModified: '2026-08'
+  keywords:
+    - 'technologie sup'
+    - 'construction drop-stitch'
+    - 'sup haute pression'
+    - 'matériaux sup gonflable'
+hero:
+  tagline: 'Technologie'
+  title: 'Conçu pour la performance'
+  subtitle: 'Chaque SUP gonflable Afarer est conçu avec une construction drop-stitch et un PVC de grade marine — des matériaux de précision et des méthodes de fabrication testées pour les environnements marins exigeants.'
+
+sections:
+  - title: 'Noyau Drop-Stitch'
+    description: 'Des milliers de fils de polyester internes relient les couches supérieure et inférieure, créant une structure rigide à 12–15 PSI. C''est la même technologie utilisée dans les planches à pagaie professionnelles et les SUP de course gonflables.'
+    imageAlt: 'Diagramme du noyau DS'
+  - title: 'PVC de grade marine'
+    description: 'Tissu PVC laminé multicouche classé pour environnements marins. Chaque couche est soudée par fusion plutôt que collée, éliminant les risques de délaminage. Testé pour la résistance UV, la corrosion en eau salée et l''abrasion.'
+    imageAlt: 'Couche PVC'
+  - title: 'PVC de grade militaire'
+    description: 'Utilisé sur tous les modèles de SUP, le PVC premium offre une résistance supérieure aux UV et aux produits chimiques. Conserve sa flexibilité à des températures extrêmes et résiste à la dégradation.'
+    imageAlt: 'PVC'
+  - title: 'Planche à air (Air Deck)'
+    description: 'Construction drop-stitch gonflable haute pression offrant une rigidité exceptionnelle pour la station debout, la pêche et le yoga. Réduit le temps de mise en place, le poids total et le volume de rangement.'
+    imageAlt: 'Air Deck'
+
+related:
+  title: 'Liés'
+  links:
+    - text: 'Centre R&D'
+      url: /fr/randdcenter
+    - text: 'Tests qualité'
+      url: /fr/quality
+    - text: 'Normes de sécurité'
+      url: /fr/quality
+    - text: 'Garantie'
+      url: /fr/warranty
+    - text: 'Bateaux de travail commerciaux'
+      url: https://afarer.com/commercial-workboats
+    - text: 'Recherche et sauvetage'
+      url: https://afarer.com/search-and-rescue
+    - text: 'Tourisme & loisirs'
+      url: /fr/tourism-recreation
+    - text: 'Secours en cas de catastrophe'
+      url: https://afarer.com/disaster-relief-humanitarian-aid
+    - text: 'Sécurité maritime & défense'
+      url: https://afarer.com/maritime-safety-defense
+    - text: 'Guides'
+      url: /fr/knowledge
+    - text: 'Produits'
+      url: /fr/products

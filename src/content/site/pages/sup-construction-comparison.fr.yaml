@@ -1,0 +1,123 @@
+meta:
+  title: 'Comparaison de construction SUP — Mono-couche vs double-couche vs drop-stitch PVC | SUPsfactory'
+  description: 'Comparaison de construction SUP gonflable : mono-couche PVC, double-couche PVC et noyau drop-stitch — rigidité, poids, durabilité, prix et meilleur cas d''usage.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'comparaison construction sup'
+    - 'types de construction sup gonflable'
+    - 'mono-couche vs double-couche sup'
+    - 'construction drop-stitch sup'
+    - 'construction pvc sup'
+    - 'rigidité planche sup'
+    - 'poids planche sup'
+
+hero:
+  tagline: 'Guide de construction'
+  title: 'Comparaison de construction SUP'
+  subtitle: 'Trois types de construction, une seule ligne de production. Comprenez les compromis de rigidité, poids, durabilité et coût entre les planches SUP mono-couche PVC, double-couche PVC et noyau drop-stitch — et laquelle correspond à votre pagayeur cible et positionnement marché.'
+
+answer:
+  label: 'Comparaison rapide'
+  text: 'Le mono-couche PVC est le plus léger et abordable — idéal pour les pagayeurs occasionnels et les marchés sensibles au prix. Le double-couche PVC ajoute une seconde peau PVC pour rigidité et durabilité à poids modéré — le choix standard du secteur pour les flottes de location et marques milieu de gamme. Le noyau drop-stitch avec coque PVC offre la plus haute rigidité et tolérance de pression — privilégié pour performance, surf et gros pagayeurs. Les trois constructions sont fabriquées sur la même ligne avec les mêmes portes QC ; la différence est dans les matériaux et étapes de lamination.'
+  verified: '2026-08'
+
+comparison_table:
+  tagline: Côte à côte
+  title: 'Types de construction comparés'
+  headers:
+    - 'Attribut'
+    - 'Mono-couche PVC'
+    - 'Double-couche PVC'
+    - 'Noyau drop-stitch + coque PVC'
+  rows:
+    - - 'Rigidité (cote PSI)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Poids (planche 11 pi)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Durabilité'
+      - 'Bonne — usage récréatif'
+      - 'Très bonne — location et commercial'
+      - 'Excellente — performance et gros pagayeur'
+    - - 'Couches de construction'
+      - '1 couche PVC + noyau drop-stitch'
+      - '2 couches PVC + noyau drop-stitch'
+      - 'Drop-stitch renforcé + coque PVC + ruban de rail'
+    - - 'Cas d''usage typique'
+      - 'Entrée de gamme, occasionnel, marchés sensibles au prix'
+      - 'Tout-terrain, location, clubs, marques milieu de gamme'
+      - 'Touring, surf, gros pagayeurs, marques premium'
+    - - 'Coût relatif'
+      - 'Le plus bas'
+      - 'Moyen'
+      - 'Plus élevé'
+    - - 'Méthode de soudure'
+      - 'Coutures scellées RF à chaud'
+      - 'Coutures scellées RF à chaud + lamination'
+      - 'Coutures scellées RF à chaud + rails renforcés'
+    - - 'Norme de test de pression'
+      - 'Test de maintien 18,0 PSI'
+      - 'Test de maintien 18,0 PSI'
+      - 'Test de maintien 18,0 PSI (coté plus haut)'
+
+use_cases:
+  tagline: Quelle construction pour quel acheteur
+  title: 'Associez la construction à votre marché cible'
+  subtitle: 'Le choix de construction n''est pas qu''une décision de coût — il définit l''expérience pagayeur, le profil de risque de garantie, et le positionnement de marque que vous pouvez soutenir.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Mono-couche pour entrée & volume'
+      desc: 'Planche la plus légère au prix le plus bas. Idéal pour les marques ciblant les premiers acheteurs, la grande distribution et les marketplaces en ligne où le prix est le principal moteur d''achat. Rigidité acceptable pour pagaie en eau plate à PSI modéré. Taux de réclamation de garantie plus bas dans la plage de pression cotée.'
+      link_label: 'Voir les planches OEM entrée de gamme'
+      href: /fr/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Double-couche pour location & commercial'
+      desc: 'La construction workhorse pour flottes de location, clubs, stations et programmes scolaires. La couche PVC supplémentaire résiste aux impacts, exposition UV et manutention quotidienne qui détruisent les planches mono-couche en usage commercial. La tolérance de pression plus élevée donne une ride plus rigide pour les gros pagayeurs. Le niveau de construction le plus populaire mondialement.'
+      link_label: 'Solutions station & location'
+      href: /fr/solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Noyau drop-stitch pour performance'
+      desc: 'Rigidité maximale pour touring, surf, pêche et gros pagayeurs. Construction de rail renforcée et cote PSI plus élevée offrent une performance type planche rigide dans un format portable. Privilégié par les marques performance et pagayeurs expérimentés. Coût matière plus élevé, mais positionnement de marque plus fort et taux de garantie plus bas par unité.'
+      link_label: 'Développement planche performance'
+      href: /fr/odm-development
+
+key_factors:
+  heading: 'Facteurs clés au-delà du type de construction'
+  body: |
+    Le type de construction est une variable de la performance de la planche. Trois facteurs additionnels comptent autant ou plus :
+
+    - **Densité drop-stitch** — Le nombre de fils par pouce détermine à quel point la planche garde sa forme uniformément sous pression. Nous utilisons 96 fils/pouce en standard et 140 fils/pouce pour les builds performance. Densité plus élevée = planche plus plate = meilleure glisse.
+    - **Qualité et épaisseur du PVC** — Tout le PVC n''est pas égal. Le PVC coréen importé de 0,7 mm a une meilleure résistance à la déchirure et aux UV que les alternatives plus fines. Nous spécifions le grade du matériau par projet.
+    - **Construction de rail** — Les rails mono-couche sont le point de défaillance le plus courant sur les planches bon marché. Le ruban de rail double-couche et renforcé réduit drastiquement le risque de perforation de rail. Toutes nos planches utilisent des rails renforcés quel que soit le niveau de construction.
+
+faqs:
+  tagline: FAQ
+  title: 'Construction SUP — Questions fréquentes'
+  items:
+    - q: 'Quel type de construction choisir pour ma marque ?'
+      a: 'Cela dépend de votre marché cible et positionnement prix. Entrée de gamme et grande distribution : mono-couche. Flottes de location, clubs et marques milieu de gamme : double-couche. Performance, touring et premium : noyau drop-stitch. La plupart des marques démarrent en double-couche comme meilleur équilibre coût, durabilité et expérience pagayeur. Nous recommandons selon votre marché spécifique lors de la revue de faisabilité.'
+    - q: 'Puis-je offrir plusieurs niveaux de construction sous une seule marque ?'
+      a: 'Oui — beaucoup de marques offrent deux ou trois niveaux. Nous produisons les trois constructions sur la même ligne avec les mêmes portes QC, donc vous pouvez mélanger les types de construction dans une seule commande. La forme de la carène et les graphismes peuvent être identiques entre niveaux ; seule la construction et les matériaux changent.'
+    - q: 'Quelle est la norme de test de pression pour toutes les constructions ?'
+      a: 'Chaque planche, quel que soit le type de construction, passe un test de maintien 18,0 PSI avec rejet automatique au-delà d''une chute de 0,50 PSI sur 24 heures. Les planches mono-couche sont cotées pour 12–15 PSI de pression de ride, double-couche pour 15–18 PSI, et noyau drop-stitch pour 18–25 PSI. La pression de test excède la pression cotée pour tous les types.'
+    - q: 'Comment la construction affecte-t-elle les réclamations de garantie ?'
+      a: 'Les planches mono-couche ont un taux de réclamation de garantie marginalement plus élevé en usage commercial/locatif dû à l''exposition rail et perforation. Les constructions double-couche et noyau drop-stitch ont des taux de réclamation significativement plus bas. Nous fournissons les données de garantie par niveau depuis nos registres de production lors de la phase de devis.'
+
+cta:
+  title: 'Besoin d''aide pour choisir la bonne construction ?'
+  subtitle: 'Dites-nous votre pagayeur cible, positionnement prix et marché — nous recommanderons le niveau de construction et fournirons des planches échantillons pour votre évaluation.'
+  actions:
+    - variant: primary
+      text: Démarrer votre brief de projet
+      href: /fr/contact#project-brief
+    - text: Voir les détails de fabrication OEM
+      href: /fr/oem-manufacturing
+    - text: Comparer OEM, ODM et marque privée
+      href: /fr/oem-odm-private-label-comparison

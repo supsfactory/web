@@ -1,0 +1,82 @@
+meta:
+  title: 'Comment choisir l''épaisseur d''un SUP — Analyse technique'
+  description: 'Comment les SUP gonflables de 4", 5" et 6" diffèrent en rigidité, poids, stabilité et cap au vent, avec des conseils sur l''épaisseur.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Retour à la Recherche'
+
+hero:
+  tagline: 'Génie technique'
+  title: 'Comment choisir l''épaisseur d''un SUP — Analyse technique'
+  subtitle: 'Lecture 6 min'
+
+answer:
+  label: 'Réponse directe'
+  text: 'L''épaisseur échange la rigidité contre la stabilité : 4" (10 cm) est le plus rigide, le plus léger et le plus rapide — idéal pour le touring et la course ; 5" (12,7 cm) est le choix polyvalent pour la plupart des pagayeurs ; 6" (15,2 cm) maximise la stabilité primaire pour le yoga et les pagayeurs lourds (100+ kg). Une section plus fine est structurellement plus rigide, donc une planche de 4" à 15 PSI fléchit moins qu''une planche de 6" à 25 PSI.'
+  verified: '2026-08'
+
+content_html: |
+  <h2>Les trois épaisseurs standard</h2>
+
+  <h3>4" (10 cm) – Touring et performance</h3>
+  <ul>
+    <li>Rigidité maximale – moins de flexion sous charge</li>
+    <li>Le plus léger – moins de matière, moins de volume d''air</li>
+    <li>Cap au vent excellent – rocking latéral réduit</li>
+    <li>Le plus rapide – traînée réduite, glisse facilitée</li>
+    <li>Idéal pour : touring, course, fitness, pagayeurs expérimentés</li>
+  </ul>
+
+  <h3>5" (12,7 cm) – Polyvalent</h3>
+  <ul>
+    <li>Bonne rigidité – ratio flexibilité/rigidité équilibré</li>
+    <li>Poids modéré – usage standard de matière</li>
+    <li>Bonne stabilité primaire et secondaire</li>
+    <li>Idéal pour : pagaie récréative, débutants, usage lac et rivière occasionnel</li>
+  </ul>
+
+  <h3>6" (15,2 cm) – Stabilité et yoga</h3>
+  <ul>
+    <li>Stabilité primaire maximale – flottabilité massive</li>
+    <li>Le plus lourd – plus de PVC, volume d''air plus grand</li>
+    <li>Le plus lent – plus de traînée, difficile à maintenir en glisse</li>
+    <li>Idéal pour : yoga/fitness, pagayeurs lourds (100+ kg), conditions très agitées</li>
+  </ul>
+
+  <h2>Analyse technique</h2>
+  <p>La rigidité d''un SUP gonflable est gouvernée par la pression d''air interne et le moment d''inertie de la section de la planche. À 20 PSI, une planche de 4" présente environ 30 % de déflection en moins sous charge qu''une planche de 6" de même largeur et longueur. La stabilité primaire vient de la largeur à la ligne de flottaison et de la flottabilité ; la stabilité secondaire est influencée par la forme du rail et la largeur de la planche.</p>
+
+  <h2>Épaisseur selon le poids du pagayeur</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Poids du pagayeur</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Épaisseur recommandée</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Moins de 65 kg (143 lbs)</td><td class="p-3 border">4"</td></tr>
+      <tr><td class="p-3 border">65 – 90 kg (143 – 198 lbs)</td><td class="p-3 border">5"</td></tr>
+      <tr><td class="p-3 border">90 – 115 kg (198 – 253 lbs)</td><td class="p-3 border">5" ou 6"</td></tr>
+      <tr><td class="p-3 border">Plus de 115 kg (253 lbs)</td><td class="p-3 border">6"</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Épaisseur vs PSI — le compromis</h2>
+  <p>Une idée reçue fréquente veut qu''un PSI plus élevé compense une épaisseur excessive. À 25 PSI, une planche de 6" présente plus de flexion qu''une planche de 4" à 15 PSI, car le moment d''inertie géométrique domine l''équation de rigidité. Pour les pagayeurs orientés performance, une planche plus fine à pression plus basse surpasse une planche plus épaisse à pression plus élevée.</p>
+
+  <h2>La gamme Afarer</h2>
+  <ul>
+    <li><strong>Planches 4" :</strong> série Cheetah Touring – SUP de touring 12' x 30" x 4" pour le fitness et la distance</li>
+    <li><strong>Planches 5" :</strong> série Cheetah All-Round – 10'6" x 32" x 5" pour un usage récréatif</li>
+    <li><strong>Planches 6" :</strong> série Cheetah Ultra-Stable – 10' x 34" x 6" pour le yoga, les grands pagayeurs et les plateformes photo</li>
+  </ul>
+  <p>Toutes les planches utilisent des noyaux drop-stitch 1 680 DTEX avec une pression nominale de 15 PSI et des lamifiés PVC de 1,2 mm.</p>
+  <p>L''épaisseur, le PSI et la spécification du tissu sont tous configurables pour les gammes personnalisées — voyez comment nous <a href="/fr/oem-manufacturing">concevons des planches pour les marques OEM et en marque privée</a> et parcourez notre construction de planches à l''<a href="/fr/factory">atelier de production</a>.</p>
+
+cta:
+  title: 'Incertain sur l''épaisseur qui vous convient ?'
+  subtitle: 'Parcourez notre gamme de SUP ou consultez notre équipe de dimensionnement.'
+  button_text: 'Voir les planches SUP'
+  button_link: /fr/products

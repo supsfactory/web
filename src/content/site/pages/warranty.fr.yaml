@@ -1,0 +1,111 @@
+meta:
+  title: 'Garantie SUP gonflable — 5 ans limitée | {SITE}'
+  description: 'Garantie Afarer et support après-vente pour SUP gonflables et accessoires. Notre engagement qualité de 5 ans pour les partenaires et clients.'
+  keywords:
+    - 'garantie sup'
+    - 'garantie planche à pagaie'
+    - 'garantie sup gonflable'
+    - 'support après-vente'
+label: 'Garantie'
+headline: 'Garantie SUP gonflable & support après-vente'
+subtitle: 'Afarer garantit la qualité de chaque SUP gonflable que nous fabriquons. Cette garantie limitée expose les termes et la couverture de votre produit Afarer.'
+seo:
+  headline: 'Garantie SUP gonflable Afarer — garantie limitée 5 ans | Afarer'
+  description: 'Afarer offre une garantie limitée de 5 ans sur l''intégrité structurelle du tissu de tube principal, des coutures et du noyau drop-stitch. Couvre également les valves de gonflage et les accessoires installés en usine. Termes et conditions complets de la garantie SUP gonflable Afarer.'
+  datePublished: '2024-01-01'
+  dateModified: '2026-06-01'
+body: |
+  <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+    Cette garantie limitée s'applique aux nouveaux produits marins gonflables de marque Afarer achetés directement auprès d'Afarer ou auprès d'un revendeur ou détaillant Afarer autorisé. La date d'effet est la date de vente au détail d'origine vérifiable.
+  </p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
+    <h2 class="text-xl font-bold mb-3">Couverture & durée de garantie</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ans</h3>
+        <p class="text-sm text-gray-600 mt-1">Intégrité du tissu de tube principal (CSM/PVC)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ans</h3>
+        <p class="text-sm text-gray-600 mt-1">Intégrité structurelle de la coque fibre de verre</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ans</h3>
+        <p class="text-sm text-gray-600 mt-1">Capacité de maintien d'air de la couture de tube gonflable</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ans</h3>
+        <p class="text-sm text-gray-600 mt-1">Fonctionnalité de la valve de gonflage</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">1 an</h3>
+        <p class="text-sm text-gray-600 mt-1">Accessoires installés en usine et fixations auxiliaires</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-amber-700 dark:text-amber-400">1 an*</h3>
+        <p class="text-sm text-gray-600 mt-1">Usage commercial, de location ou de flotte — tous composants</p>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 mt-4">*L'usage commercial, gouvernemental, d'affrètement, de location ou d'enseignement réduit la garantie à 1 an. L'usage en course ou compétition annule la garantie intégralement.</p>
+  </div>
+
+  <h2>Ce qui est couvert</h2>
+  <h3>Tissu de tube principal (5 ans)</h3>
+  <p>Afarer garantit le tissu de tube principal contre la détérioration de la porosité qui compromet substantiellement la capacité du produit à maintenir un gonflage opérationnel. Cela s'applique au tissu enduit CSM (Hypalon) et à tous les autres tissus de tube utilisés en fabrication.</p>
+
+  <h3>Intégrité structurelle de la coque fibre de verre (5 ans)</h3>
+  <p>Pour les produits avec une coque en plastique renforcé de fibres de verre (PRFV), la structure composite fondamentale est garantie contre la défaillance structurelle due à des défauts de matériaux ou de fabrication.</p>
+
+  <h3>Capacité de maintien d'air de la couture de tube gonflable (5 ans)</h3>
+  <p>Les coutures des tubes gonflables, là où elles sont assemblées en fabrication, sont garanties contre les défauts de fabrication qui entraînent une fuite d'air substantielle à travers la couture. L'inspection périodique et la maintenance des pressions de gonflage appropriées sont des conditions de couverture.</p>
+
+  <h3>Fonctionnalité de la valve de gonflage (5 ans)</h3>
+  <p>Les valves de gonflage à air originellement installées par Afarer sont garanties contre les défauts de fabrication des matériaux ou de main-d'œuvre qui empêchent la valve de maintenir l'air comme prévu.</p>
+
+  <h3>Accessoires installés en usine (1 an)</h3>
+  <p>Les composants et fixations fabriqués par Afarer et originellement installés en usine sont garantis contre les défauts de matériau et de main-d'œuvre pendant un an. Cela exclut les articles tiers, couverts uniquement par leurs garanties de fabricant respectives.</p>
+
+  <h2>Ce qui n'est pas couvert</h2>
+  <ul>
+    <li>Défauts cosmétiques incluant décoloration, taches, délavage, efflorescence ou toute altération d'apparence</li>
+    <li>Perforations, coupures, déchirures, déchirures ou autres dommages physiques</li>
+    <li>Craquelures, fissures, abrasion, éraflures ou détérioration par frottement ou contact</li>
+    <li>Dégradation par exposition aux UV, intempéries ou conditions atmosphériques</li>
+    <li>Dommages par contact avec carburants, solvants, acides, alcalis ou produits chimiques</li>
+    <li>Dommages par négligence, usage impropre, abus, accident ou usure normale</li>
+    <li>Problèmes de gelcoat ou de peinture (cloquage, craquelures, décoloration, délavage)</li>
+    <li>Dommages par impact, contrainte, support inapproprié ou remorquage</li>
+    <li>Dommages par gonflage/dégonflage impropre ou usage de dispositifs de gonflage non approuvés</li>
+    <li>Équipements, composants ou systèmes tiers (couverts par leurs fabricants respectifs)</li>
+  </ul>
+
+  <h2>Obligation & remède du fabricant</h2>
+  <p>La seule et exclusive obligation d'Afarer est la réparation ou le remplacement, au choix d'Afarer, de tout composant jugé défectueux en matériaux ou main-d'œuvre et couvert par cette garantie. Les réparations ou remplacements sont effectués par Afarer ou sa station de service autorisée désignée. Les composants réparés ou remplacés sont garantis uniquement pour la portion non expirée de la période de garantie d'origine.</p>
+
+  <h2>Conditions de garantie</h2>
+  <ul>
+    <li><strong>Enregistrement :</strong> Le produit doit être dûment enregistré comme exigé dans les termes de garantie.</li>
+    <li><strong>Maintenance :</strong> Le produit doit être entretenu selon les directives publiées d'Afarer, incluant l'inspection périodique et la maintenance des pressions de gonflage appropriées.</li>
+    <li><strong>Coopération :</strong> L'acheteur doit coopérer pleinement et promptement avec Afarer dans toutes les questions relatives aux réclamations de garantie.</li>
+    <li><strong>Acheteur d'origine :</strong> Cette garantie est accordée exclusivement à l'acheteur utilisateur final d'origine et n'est pas transférable.</li>
+  </ul>
+
+  <h2>Usage commercial</h2>
+  <p>Si le produit est utilisé à des fins commerciales, gouvernementales, à but non lucratif, d'affrètement, de location, d'enseignement, ou toute autre fin que l'usage récréatif privé, la période de garantie de tous les composants est réduite à un (1) an à partir de la date de vente au détail d'origine. L'usage en course, vitesse ou compétition d'endurance annule immédiatement et irrévocablement la garantie intégralement.</p>
+
+  <h2>Comment faire une réclamation de garantie</h2>
+  <p>Contactez Afarer ou votre revendeur autorisé avec la preuve d'achat et une description détaillée du problème. Afarer examinera la réclamation et fournira des instructions pour l'inspection et le service.</p>
+  <p>Pour les demandes de service sous garantie, veuillez nous contacter via notre <a href="/fr/contact" class="text-sky-600 underline">page de contact</a> avec votre numéro de commande et les détails du produit.</p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
+    <h2 class="text-xl font-bold mb-3">Soutenu par un système qualité documenté</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Chaque planche est testée avant l'emballage — les <a href="/fr/factory/quality-inspection" class="text-sky-600 underline">portes d'inspection en 7 étapes</a> enregistrent les résultats par numéro de série, et les lots conservent une traçabilité ERP de 10 ans. Les réclamations de garantie sont jugées sur ces enregistrements de lot, pas sur des suppositions. Voir le <a href="/fr/quality" class="text-sky-600 underline">système qualité complet</a> et téléchargez les véritables <a href="https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">rapports d'inspection finale</a>.</p>
+  </div>
+
+  <h2>Articles tiers</h2>
+  <p>Les équipements, composants ou systèmes fabriqués par des tiers (même si installés par Afarer) sont couverts exclusivement par toute garantie offerte par leur fabricant respectif. Afarer décline expressément toute responsabilité de garantie pour ces articles tiers.</p>
+
+  <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
+    Cette déclaration de garantie est un résumé de la garantie limitée complète du fabricant Afarer. Le document légal complet de garantie régit tous les termes et conditions de garantie. Spécifications sujettes à changement sans préavis. Afarer est la division de fabrication de Qingdao Vatrad Group.
+  </p>

@@ -1,0 +1,100 @@
+meta:
+  title: 'Conformité SUP par marché — CE, REACH, RoHS, BSCI, ISO 9001 | SUPsfactory'
+  description: 'Guide de conformité pour planches SUP gonflables par marché : CE (UE), CPSIA (USA), AS/NZS (AU), ISO 9001, BSCI, REACH et RoHS — périmètre et docs par marché.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'conformité sup par marché'
+    - 'certification ce sup'
+    - 'régulations sup gonflable'
+    - 'conformité sup reach'
+    - 'conformité sup rohs'
+    - 'audit bsci usine sup'
+    - 'fabricant sup iso 9001'
+
+hero:
+  tagline: 'Guide de conformité'
+  title: 'Conformité SUP par marché'
+  subtitle: 'Chaque marché cible a des exigences distinctes de certification, étiquetage et documentation. Ce guide cartographie le paysage de conformité pour les planches SUP gonflables à travers les grands marchés — UE, Amérique du Nord, Australie et au-delà — afin que vous spécifiiez le bon périmètre au moment du devis, pas après production.'
+
+answer:
+  label: 'Réponse rapide'
+  text: 'Pour l''UE : le marquage CE est obligatoire pour les planches vendues dans l''Espace économique européen — nous certifions les modèles destinés aux marchés UE, périmètre confirmé par projet. Pour les USA : CPSIA et règlements étatiques sur les COV s''appliquent. Pour l''Australie : conformité AS/NZS 1586. Tous marchés : ISO 9001 (usine), BSCI (audit social), REACH et RoHS (matériaux) sont standard sur toute notre production quel que soit la destination. Le périmètre et les coûts de conformité sont détaillés dans votre devis — aucune surprise post-production.'
+  verified: '2026-08'
+
+market_cards:
+  tagline: Exigences par région
+  title: 'Exigences de conformité par marché cible'
+  subtitle: 'Le périmètre de certification est confirmé par projet lors de la revue de faisabilité. Voici les exigences typiques par marché.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Union Européenne'
+      desc: 'Marquage CE obligatoire. REACH (sécurité chimique), RoHS (substances restreintes), certification usine ISO 9001. Tests spécifiques au produit selon directive EPI ou craft récréatif selon applicabilité. Étiquetage en langue officielle du pays de destination. Audit social BSCI disponible.'
+    - icon: US
+      icon_bg: green
+      title: 'États-Unis'
+      desc: 'Conformité CPSIA (sécurité produit grand public). California Prop 65 et règlements étatiques sur les COV pour émissions de PVC et adhésifs. Pas d''équivalent CE fédéral. Tests ASTM disponibles sur demande. Exigences d''étiquetage FTC pour pays d''origine et contenu matériel.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Australie & Nouvelle-Zélande'
+      desc: 'AS/NZS 1586 pour les embarcations nautiques gonflables. Garanties de la loi australienne sur le consommateur. Documentation d''import et évaluation de conformité selon exigences de l''Australian Border Force. Documentation de sécurité chimique équivalente REACH. Audit social BSCI disponible.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Global / Multi-marché'
+      desc: 'Certification usine ISO 9001:2015 (auditée annuellement). Audit de conformité sociale BSCI. Conformité matérielle REACH et RoHS sur toute la production quel que soit la destination. Traçabilité au niveau lot et rapports de test disponibles pour tout marché. Périmètre de certification personnalisé confirmé par projet.'
+
+certifications_detail:
+  heading: 'Notre périmètre de certification'
+  body: |
+    Les certifications suivantes sont détenues ou disponibles sur l''ensemble de notre production. Le périmètre de certification spécifique pour votre projet est confirmé lors de la revue de faisabilité et détaillé dans votre devis.
+
+    - **ISO 9001:2015** — Système de management qualité usine, audité annuellement par un tiers accrédité. Couvre le processus de fabrication complet de l''inspection des matières entrantes au conditionnement final.
+    - **Marquage CE** — Appliqué aux modèles destinés aux marchés UE. Tests et documentation selon directive UE applicable. Périmètre confirmé par projet — tous les modèles ne requièrent pas le même périmètre CE.
+    - **BSCI** — Audit Business Social Compliance Initiative. Couvre droits des travailleurs, sécurité au travail, conformité environnementale et éthique des affaires. Disponible pour tous les marchés.
+    - **REACH** — Règlement UE sur la sécurité chimique. Tous les matériaux PVC, adhésifs et revêtements sont conformes REACH. Documentation des substances et rapports de test disponibles par lot.
+    - **RoHS** — Directive restriction des substances dangereuses. Tous les accessoires électroniques (pompes à moteur, accessoires LED) sont conformes RoHS. Les matériaux de construction de planche sont intrinsèquement conformes.
+
+compliance_process:
+  tagline: Comment la conformité fonctionne dans votre commande
+  title: 'La conformité dans le flux d''intégration'
+  subtitle: 'La conformité n''est pas un ajout — elle est intégrée à chaque porte du processus d''intégration.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Porte 1 : Confirmation du périmètre'
+      desc: 'À l''enquête, vous spécifiez les marchés cibles. Nous confirmons quelles certifications, tests et documentation s''appliquent à votre produit et destination spécifiques. Le périmètre de conformité et tout coût associé sont détaillés dans le devis.'
+    - icon: 2
+      icon_bg: green
+      title: 'Porte 3 : Certification échantillon'
+      desc: 'Les échantillons sont produits selon le périmètre de conformité confirmé. Si un test de laboratoire tiers est requis (CE, CPSIA, AS/NZS), nous coordonnons les tests via des laboratoires accrédités. Les rapports de test sont livrés avec l''échantillon.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Porte 7 : Package documentaire'
+      desc: 'Chaque commande de production est expédiée avec un package de documentation de conformité : certificats de conformité, rapports de test, registres de traçabilité par lot, fiches de données sécurité matériaux et conformité d''étiquetage. La documentation est spécifique au marché.'
+
+faqs:
+  tagline: FAQ
+  title: 'Conformité SUP — Questions fréquentes'
+  items:
+    - q: 'Toutes les planches SUP ont-elles besoin du marquage CE ?'
+      a: 'Le marquage CE n''est requis que pour les planches vendues dans l''Espace économique européen. Nous certifions les modèles destinés aux marchés UE avec un périmètre confirmé par projet. Les planches expédiées vers des marchés hors UE ne portent pas le marquage CE sauf demande spécifique de votre part.'
+    - q: 'Vos matériaux sont-ils conformes REACH et RoHS ?'
+      a: 'Oui. Tous les matériaux PVC, adhésifs et revêtements sont conformes REACH. Tous les accessoires électroniques (pompes à moteur, accessoires LED) sont conformes RoHS. Les matériaux de construction de planche sont intrinsèquement conformes RoHS. La documentation des substances et rapports de test sont disponibles par lot sur demande.'
+    - q: 'Pouvez-vous gérer la certification pour un marché non listé ici ?'
+      a: 'Oui. Nous avons expédié vers 50+ pays et pouvons coordonner la certification et la documentation pour la plupart des marchés. Indiquez-nous votre pays de destination lors de l''enquête et nous confirmerons le périmètre de conformité spécifique et tout test ou documentation additionnel requis.'
+    - q: 'Comment les coûts de conformité sont-ils gérés ?'
+      a: 'Le périmètre de conformité et tout coût associé (test laboratoire tiers, frais de certification) sont détaillés dans votre devis lors de la revue de faisabilité. Aucun frais de conformité post-production. Les certifications standard (ISO 9001, BSCI) sont au niveau usine et n''ajoutent pas de coût par unité.'
+
+cta:
+  title: 'Spécifiez vos exigences de conformité'
+  subtitle: 'Dites-nous vos marchés cibles et nous confirmerons le périmètre de certification, les exigences de test et le package documentaire — détaillés dans votre devis.'
+  actions:
+    - variant: primary
+      text: Démarrer votre brief de projet
+      href: /fr/contact#project-brief
+    - text: Vérifier certifications et système qualité
+      href: /fr/proof-center
+    - text: Processus d''intégration OEM
+      href: /fr/oem-onboarding-guide

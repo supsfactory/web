@@ -1,0 +1,219 @@
+meta:
+  title: 'MOQ & délai SUP personnalisé : de 1 échantillon aux séries conteneur'
+  description: 'Paliers de MOQ et délai de production SUP personnalisé : échantillons en 7–12 jours, commandes pilotes de 20–50 planches, volume standard de 90–100+ par rouleau de 150 m, production en 25–35 jours.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'MOQ SUP personnalisé'
+    - 'délai de production SUP'
+    - 'quantité minimale commande SUP gonflable'
+    - 'commande pilote SUP'
+    - 'délai planche à pagaie personnalisée'
+    - 'délai usine SUP OEM'
+    - 'commande échantillon SUP'
+
+hero:
+  tagline: 'MOQ & délai SUP personnalisé'
+  title: 'De 1 échantillon aux séries conteneur — MOQ et délai, expliqués'
+  subtitle: 'Une explication en langage clair des paliers de quantité de commande et des délais de production des SUP gonflables personnalisés : ce que vous pouvez commander à chaque étape, la durée réelle de chaque étape, et comment un échantillon, un pilote et une commande de volume s''insèrent dans un seul projet. Conçu et exploité par Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: 'Obtenir une répartition MOQ & délai projet'
+      href: /fr/contact#moq-guide
+    - text: 'Le guide MOQ & marque flexible'
+      href: /fr/oem-moq-guide
+
+answer:
+  label: 'Réponse directe'
+  text: 'Le MOQ et le délai sont propres au projet, mais le cadre est fixe. Chaque projet de SUP personnalisé passe par les mêmes étapes à paliers : développement d''échantillon (1–2 planches, prêtes en 7–12 jours), commandes d''essai et pilotes (20–50 planches), et séries de volume standard (90–100+ planches par rouleau de tissu drop-stitch de 150 m). Le délai de production est de 25–35 jours à partir du bon de commande confirmé et de l''acompte ; si votre projet nécessite une coque sur mesure, le développement de moule ajoute 15–20 jours avant le début de la production. Un premier projet type ressemble donc à ceci : échantillons en environ 1–2 semaines, planches pilotes en 4–6 semaines, et la première série complète expédiée environ 6–8 semaines après confirmation de la commande.'
+  verified: '2026-08'
+
+moq_lead_table:
+  tagline: 'Le cadre'
+  title: 'Paliers de MOQ & délai SUP personnalisé en bref'
+  subtitle: 'Chaque étape valide la suivante. Vous ne sautez jamais directement d''un dessin à un conteneur — vous confirmez la coque, les graphismes et l''emballage à chaque palier avant de vous engager sur plus de planches.'
+  headers:
+    stage: 'Étape de commande'
+    quantity: 'Quantité typique'
+    lead_time: 'Délai'
+    best_for: 'Idéal pour'
+  rows:
+    - stage: 'Développement d''échantillon'
+      quantity: '1–2 planches'
+      lead_time: '7–12 jours'
+      best_for: 'Validation de la rigidité de la coque, texture du tapis de traction EVA, précision graphique et ajustement des accessoires. Des frais d''échantillon s''appliquent et sont crédités sur votre commande de production après signature du contrat.'
+    - stage: 'Commande d''essai / pilote'
+      quantity: '20–50 planches'
+      lead_time: '25–35 jours'
+      best_for: 'Tests commerciaux pré-saison, validation de marché et première vente via les plateformes de coque existantes, matériaux en stock et emballage simplifié.'
+    - stage: 'Série de volume standard'
+      quantity: '90–100+ planches par rouleau de 150 m'
+      lead_time: '25–35 jours'
+      best_for: 'Efficacité de production complète sur rouleaux de tissu complets de 150 m — aucun épissage de tissu, tension de fibre uniforme et mise en ligne amortie. Les formes à moule personnalisé s''exécutent à ce palier.'
+    - stage: 'Programme à grande échelle'
+      quantity: '300+ planches'
+      lead_time: '25–35 jours par lot, expéditions échelonnées'
+      best_for: 'Programmes à l''échelle du conteneur et flottes saisonnières, planifiés sur plusieurs lots de production pour garder entrepôt et trésorerie gérables.'
+
+moq_drivers:
+  tagline: 'Ce qui pilote votre MOQ'
+  title: 'Les six facteurs qui décident votre quantité minimale'
+  subtitle: 'Le MOQ n''est pas un chiffre au hasard choisi par une équipe commerciale. Il est calculé à partir de toute l''architecture produit — ces composants sont évalués ensemble avant tout devis.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Forme de coque & outillage'
+      desc: 'Les moules de rocker existants en usine permettent des commandes pilotes dès 20 planches. Une coque sur mesure nécessite des découpes CNC dédiées et un outillage de presse à chaud EVA, et le développement d''outillage ajoute 15–20 jours au calendrier.'
+    - icon: C
+      icon_bg: green
+      title: 'Coloris & PVC'
+      desc: 'Les couleurs stock standard s''exécutent en quantités pilotes, tandis que les feuilles PVC teintes Pantone propriétaires nécessitent des bains de teinture chimique dédiés avec leurs propres minima de matière première.'
+    - icon: A
+      icon_bg: purple
+      title: 'Habillage & couverture d''impression'
+      desc: 'Un logo de proue peut être sérigraphié en petites séries, tandis qu''un habillage pleine surface ou multi-panneaux nécessite une plaque d''impression numérique et des tests de couverture, ce qui augmente la taille de lot pratique.'
+    - icon: B
+      icon_bg: orange
+      title: 'Emballage marqué'
+      desc: 'Les boîtes cadeaux retail 5 plis ont un minimum propre à l''imprimerie offset. Commandez moins de boîtes et nous stockons le surplus et le libérons sur vos expéditions planifiées.'
+    - icon: G
+      icon_bg: blue
+      title: 'Packs d''accessoires'
+      desc: 'Les pagaies aluminium ou nylon standard, pompes et sacs suivent des sous-lots fournisseurs. Les pagaies carbone entièrement marquées et les pompes personnalisées suivent leurs propres minima de production.'
+    - icon: S
+      icon_bg: green
+      title: 'Saison & calendrier de paiement'
+      desc: 'Les commandes passées dans la fenêtre pré-saison obtiennent des créneaux de production confirmés. Les calendriers d''expédition échelonnés pour les programmes de 300+ planches sont confirmés au contrat, pas après production.'
+
+moq_timeline:
+  tagline: 'Calendrier de bout en bout'
+  title: 'Du brief produit aux planches expédiées : jour par jour'
+  subtitle: 'Le calendrier complet d''un programme SUP personnalisé type. Les plateformes de coque existantes se compressent dans la partie gauche de ce calendrier ; une coque sur mesure ajoute l''étape de développement de moule.'
+  steps:
+    - step: 'Jour 0'
+      title: 'Soumettez votre brief produit'
+      desc: 'Modèle de planche, quantité cible, coloris, habillage et exigences d''emballage. La revue d''ingénierie est complétée sous un jour ouvré.'
+    - step: 'Jours 1–2'
+      title: 'Revue d''ingénierie & faisabilité'
+      desc: 'Notre équipe d''ingénierie vérifie la géométrie de coque, les matériaux et le chemin de conformité, et confirme si le projet s''inscrit dans les plateformes existantes ou nécessite un nouvel outillage.'
+    - step: 'Jours 3–7'
+      title: 'Spécification & devis détaillé'
+      desc: 'Vous recevez la spécification complète avec calcul du MOQ, segments de délai et coûts détaillés — frais de moule inclus — avant tout engagement.'
+    - step: 'Jours 7–12'
+      title: 'Développement d''échantillon (1–2 planches)'
+      desc: 'Échantillon physique construit et testé : rigidité de coque, texture du tapis de traction EVA, précision graphique et ajustement des accessoires. Les frais d''échantillon sont crédités sur la commande de production à la signature.'
+    - step: '+15–20 jours'
+      title: 'Développement de moule personnalisé (coques sur mesure uniquement)'
+      desc: 'Uniquement pour les projets à nouvelle forme de coque : découpes CNC, outillage de presse à chaud EVA et essais de moule sont complétés avant le démarrage de la production en volume.'
+    - step: '25–35 jours'
+      title: 'Production après bon de commande & acompte confirmés'
+      desc: 'Rouleaux complets de tissu de 150 m, matériaux Pantone, emballage marqué et contrôle de 100 points. Chaque planche passe les tests de pression et d''étanchéité de 24 heures.'
+    - step: '300+ planches'
+      title: 'Planification d''expédition échelonnée'
+      desc: 'Les grands programmes expédient sur des lots planifiés pour correspondre à la vente saisonnière, la capacité d''entrepôt et les jalons de paiement.'
+    - step: 'Jour 0–90'
+      title: 'Horizon type de première commande'
+      desc: 'Du brief à la première série livrée : environ 6–8 semaines via les plateformes existantes, 8–12 semaines en incluant un moule personnalisé. Les programmes multi-rouleaux et conteneurs s''étendent au-delà par conception.'
+
+expedite:
+  tagline: 'Gardez le calendrier court'
+  title: 'Ce qui maintient le délai serré'
+  subtitle: 'Trois leviers vous permettent de compresser le calendrier sans changer les fondamentaux de la physique du rouleau.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Les échantillons sont rapides par défaut'
+      desc: 'Le développement d''échantillon prend 7–12 jours sur chaque projet. Utilisez le cycle d''échantillon pour figer votre spéc. afin que la production n''attende jamais une décision graphique tardive.'
+    - icon: P
+      icon_bg: green
+      title: 'Les créneaux de production sont confirmés à l''avance'
+      desc: 'Les commandes pré-saison verrouillent des créneaux de production confirmés. Plusieurs clients réservant le même créneau expliquent pourquoi les acomptes plus tôt obtiennent les lignes plus tôt.'
+    - icon: T
+      icon_bg: purple
+      title: 'Portes d''étape transparentes'
+      desc: 'Chaque porte — approbation échantillon, gel BOM, gel habillage, bon de commande et acompte — est convenue au contrat avec une date. Vous savez toujours quel jour l''horloge redémarre.'
+
+scenarios:
+  tagline: 'Trois points d''entrée réalistes'
+  title: 'Quelle route convient à votre projet ?'
+  subtitle: 'La même usine, trois façons d''entrer. Choisissez le scénario le plus proche de votre situation et utilisez-le quand vous nous contactez.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Marque en démarrage : validez avant de vous engager'
+      desc: 'Commandez d''abord 1–2 échantillons (7–12 jours), testez la qualité de ride et la photographie, puis passez une commande d''essai de 20–50 planches pour tester la vente avant toute série complète. L''exposition totale de première saison reste sous 50 planches.'
+    - icon: B
+      icon_bg: blue
+      title: 'Exploitant de station ou location : pilotez, puis échelle'
+      desc: 'Une commande pilote de 20–50 planches avec emballage simplifié vous porte à travers la pré-saison. Après le retour des données d''utilisation, passez à des séries standard de 90–100+ planches avec emballage marqué.'
+    - icon: C
+      icon_bg: green
+      title: 'Marque établie : programmes conteneur pleinement personnalisés'
+      desc: 'Les marques existantes commandent 90–100+ planches par rouleau de 150 m avec coques sur mesure et marquage pleine surface. L''outillage de moule personnalisé ajoute 15–20 jours ; les programmes de 300+ planches expédient sur calendriers échelonnés.'
+
+moq_quality:
+  tagline: 'QC & conformité'
+  title: 'Le même système qualité à chaque quantité de commande'
+  subtitle: 'Un échantillon de 1 planche et un programme de 300+ planches passent les mêmes portes qualité et la même documentation de conformité. « Faible MOQ » ne signifie jamais « faible standard ».'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Documents de conformité, toute échelle'
+      desc: 'La documentation de certification CE, ISO 9001, BSCI, REACH et RoHS est fournie avec chaque commande — y compris les échantillons uniques — avec numéros de certificat fournis sur demande.'
+    - icon: A
+      icon_bg: green
+      title: 'Liste de contrôle d''assemblage de 100 points'
+      desc: 'Chaque planche passe la même liste de contrôle d''assemblage de 100 points quelle que soit la taille du lot : matériaux, soudure, valves, rails, ailerons et ajustement des accessoires vérifiés ligne par ligne.'
+    - icon: P
+      icon_bg: purple
+      title: 'Tests de pression & d''étanchéité de 24 heures'
+      desc: 'Chaque planche est gonflée à 18,0 PSI et maintenue 24 heures. Une chute de pression au-delà de 0,50 PSI déclenche un rejet automatique — la même porte pour un échantillon et un conteneur.'
+    - icon: R
+      icon_bg: orange
+      title: 'Vérification soudure RF & fusion de rail'
+      desc: 'La fusion de bande de rail en triple couche et les coutures de soudure RF sont vérifiées visuellement et dimensionnellement contre l''échantillon approuvé avant tout démarrage de production.'
+    - icon: B
+      icon_bg: blue
+      title: 'Traçabilité de lot ERP (10 ans)'
+      desc: 'Chaque planche porte des enregistrements de production numérotés par série — matériaux, opérateurs, tests et résultats d''inspection — conservés 10 ans et disponibles pour audit.'
+    - icon: I
+      icon_bg: green
+      title: 'Prêt pour inspection tierce'
+      desc: 'La production par lot est prête pour une inspection tierce à toute étape. La plupart des clients utilisent également notre système d''inspection en 7 étapes ou une inspection pré-expédition sur les programmes de volume.'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Questions fréquentes sur le MOQ & délai'
+  items:
+    - q: 'Quelle est la quantité minimale de commande pour un SUP personnalisé ?'
+      a: 'Cela dépend de l''étape de votre projet : les échantillons sont de 1–2 planches, le co-marquage en petit volume démarre à 5–10 unités, les commandes d''essai et pilotes s''exécutent à 20–50 planches, et la production standard en volume s''exécute à 90–100+ planches par rouleau de tissu drop-stitch de 150 m. Les formes à moule personnalisé s''exécutent au palier volume. Nous confirmons le calcul exact pour votre configuration avant devis.'
+    - q: 'Combien de temps prend un échantillon de SUP gonflable ?'
+      a: 'Le développement d''échantillon prend 7–12 jours. L''échantillon vérifie la rigidité de coque, la texture du tapis de traction EVA, la précision graphique et l''ajustement des accessoires. Des frais d''échantillon s''appliquent et sont crédités sur votre commande de production après signature du contrat.'
+    - q: 'Combien de temps la production prend-elle après confirmation de commande ?'
+      a: 'Le délai de production est de 25–35 jours à partir du bon de commande confirmé et de l''acompte. Si votre projet inclut une coque sur mesure, le développement de moule personnalisé ajoute 15–20 jours d''outillage avant le début de la production.'
+    - q: 'Le MOQ est-il calculé par commande, par modèle ou par coloris ?'
+      a: 'Le MOQ peut s''appliquer par modèle, coloris, version d''habillage, configuration d''emballage ou commande totale. Parce que les différentes épaisseurs de drop-stitch et couleurs PVC proviennent de rouleaux de matière distincts, commander 50 planches réparties sur 5 couleurs crée 5 exigences de rouleau de tissu séparées. Nous confirmons le calcul contre votre matrice SKU.'
+    - q: 'Puis-je démarrer avec seulement 1–2 planches pour tester le marché ?'
+      a: 'Oui. Une commande échantillon de 1–2 planches est la validation la moins chère possible : la rigidité de coque, les graphismes et l''ajustement des accessoires sont confirmés avant tout engagement financier sur une série. De là vous passez à une commande d''essai de 20–50 planches pour la validation commerciale.'
+    - q: 'Un programme de 300+ planches peut-il expédier en plusieurs lots ?'
+      a: 'Oui. Les programmes à grande échelle peuvent être planifiés en expéditions échelonnées sur les lots de production, afin que les flottes saisonnières arrivent quand nécessaire et que trésorerie et espace d''entrepôt restent gérables. Les calendriers sont confirmés au contrat, pas après production.'
+
+evidence_review:
+  tagline: 'Preuves & vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en 2026-08.'
+
+cta:
+  title: 'Obtenez votre MOQ & délai spécifiques au projet ?'
+  subtitle: 'Envoyez-nous votre modèle de planche, votre quantité cible de première saison et vos exigences de marque. Notre équipe d''ingénierie confirmera si une route échantillon, essai ou volume convient — avec le calcul exact du MOQ et un calendrier jour par jour. Soumettre une demande ne vous engage pas sur une commande.'
+  actions:
+    - variant: primary
+      text: 'Demander une répartition MOQ & délai'
+      href: /fr/contact#moq-guide
+    - text: 'Mesurer face au guide de marque flexible'
+      href: /fr/oem-moq-guide
+    - text: 'Lancez une nouvelle marque avec une commande d''essai faible MOQ'
+      href: /fr/new-brand-trial-order
+    - text: 'Vérifier l''usine et le système qualité'
+      href: /fr/oem-trust-assurance

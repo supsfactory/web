@@ -1,0 +1,82 @@
+meta:
+  title: 'Fournisseur d''équipement de location SUP & solutions de flotte'
+  description: 'Planches SUP de commerce conçues pour un usage locatif quotidien : PVC résistant aux UV, coutures renforcées et matériaux séchage rapide pour flottes de location à haute rotation.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Opérateurs de location
+  title: 'Planches SUP conçues pour les flottes de location'
+  subtitle: 'Spécifiez une flotte qui survit à l''usage locatif quotidien : planches à haute rotation avec PVC résistant aux UV, coutures renforcées et matériaux séchage rapide — conçues pour 365 jours d''usage par an.'
+  image:
+    src: https://assets.afarer.com/images/afarer/lifestyle/afarer-lifestyle-1.webp
+    alt: Planches SUP prêtes pour un usage locatif quotidien
+
+answer:
+  label: 'Réponse directe'
+  text: 'Les planches de flotte de location sont construites en PVC marine résistant aux UV, avec des coutures 3× plus résistantes que la construction standard, et des noyaux drop-stitch cotés pour 15 PSI — testées pour 500+ cycles de location. Le MOQ est confirmé par la configuration du projet : échantillon (1–2 unités), pilote (20–50 unités) et volume standard (90–100+ unités par lot à partir d''un rouleau de 150 m) ; la production s''exécute en 25–35 jours après PO et acompte, avec conditions FOB, CIF ou DDP.'
+  verified: '2026-08'
+
+features:
+  title: Conçu pour l''usage locatif intensif
+  subtitle: 'Chaque planche est conçue pour 500+ cycles de location avec un entretien minimal.'
+  items:
+    - title: '500+ cycles de location'
+      description: 'Testé pour survivre à un usage quotidien en eau salée, soleil et sable.'
+      icon: 'tabler:shield-check'
+    - title: 'Tissu résistant aux UV'
+      description: 'Aucun décolorage ni dégradation après 1 an de stockage extérieur.'
+      icon: 'tabler:sun'
+    - title: 'Coutures renforcées'
+      description: 'Construction de couture renforcée conçue pour la rotation locative quotidienne et les cycles de gonflage répétés.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Matériaux séchage rapide'
+      description: 'Les matériaux séchage rapide gardent les planches prêtes pour la location suivante entre les sessions.'
+      icon: 'tabler:droplet'
+    - title: 'Stockage empilable'
+      description: 'Design économisant l''espace et empilable — rangez plus de planches dans le même espace de stockage.'
+      icon: 'tabler:stack'
+    - title: 'Tailles codées par couleur'
+      description: 'Le personnel saisit la bonne planche instantanément grâce au codage couleur des tailles.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: Indicateurs d''exploitation
+  stats:
+    - title: Atelier de production
+      amount: '12 500 m²'
+    - title: Test de pression
+      amount: '18 PSI / 24h'
+    - title: Liste de contrôle d''assemblage
+      amount: '100 points'
+    - title: Expédition des pièces
+      amount: '48h'
+
+fleet_guide:
+  title: Guide de dimensionnement de flotte
+  subtitle: 'Estimez le nombre de planches dont votre exploitation a besoin selon la rotation locative quotidienne.'
+  tiers:
+    - label: Petit kiosque
+      boards: '15-20'
+      note: 'Jusqu''à 2–3 rotations de planches par jour en pleine saison'
+    - label: Exploitation moyenne
+      boards: '30-50'
+      note: 'Plusieurs points de mise à l''eau ou trafic élevé le week-end'
+    - label: Grande plage de location
+      boards: '50-100'
+      note: 'Flottes de location complètes sur plusieurs stations balnéaires'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>À lire :</strong> les planches de location partent de votre spéc. — voyez notre <a href="/fr/oem-manufacturing">programme OEM/ODM</a> pour la personnalisation, les MOQ d''essai bas et les prix de flotte. Chaque planche passe la ligne de production de 12 500 m&sup2; <a href="/fr/factory">et est 100 % testée en pression</a> avant expédition.</p>
+  </div>
+
+cta:
+  title: 'Spécifiez votre flotte de location'
+  subtitle: 'Envoyez vos besoins de flotte ou comparez les plateformes de planches pour votre exploitation.'
+  actions:
+    - text: 'Envoyer les besoins de flotte'
+      href: '/fr/contact'
+      variant: 'primary'
+    - text: 'Comparer les plateformes de planches'
+      href: '/fr/inflatable-vs-hardboard'
+      variant: 'secondary'

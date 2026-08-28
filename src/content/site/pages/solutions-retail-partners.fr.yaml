@@ -1,0 +1,104 @@
+meta:
+  title: 'Production SUP personnalisée & en marque privée pour détaillants | {SITE}'
+  description: 'Production SUP personnalisée et en marque privée pour les marques de détail : spécifications de planche, graphismes de marque, MOQ d''essai bas et QC d''usine — de l''échantillon au vrac.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Marques de détail
+  title: 'Production SUP personnalisée pour marques de détail'
+  subtitle: 'Les marques de détail lancent leur propre gamme de planches à pagaie avec notre usine : spécifications de planche développées à partir de vos besoins, votre marque sur le produit, et le contrôle qualité géré de bout en bout.'
+  image:
+    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Planches SUP Afarer produites pour une marque de détail
+
+answer:
+  label: 'Réponse directe'
+  text: 'Le MOQ est confirmé par la configuration du projet : les marques de détail démarrent avec un échantillon (1–2 unités) ou un lot pilote (20–50 unités, échantillons en 7–12 jours), passent à un run OEM de volume standard de 90–100+ unités par design (25–35 jours après PO et acompte), ou investissent dans un moule personnalisé pour des gammes entièrement sur mesure (l''outillage ajoute 15–20 jours). Chaque planche est testée en pression avant expédition, avec conditions FOB, CIF ou DDP depuis Qingdao.'
+  verified: '2026-08'
+
+margin_section:
+  title: 'Étapes de production pour les marques de détail'
+  subtitle: 'Démarrez avec un échantillon, validez en pilote, passez à un run de volume standard, ou investissez dans un moule personnalisé — le MOQ et les délais sont fixés par le chemin de production, pas par estimation.'
+  items:
+    - tier: 'Étape échantillon'
+      moq: '1–2 unités'
+      margin_note: 'Délai échantillon 7–12 jours'
+      features:
+        - 'Développement des visuels à partir de vos éléments de marque'
+        - 'Échantillon physique pour approbation'
+        - 'QC plateforme standard'
+    - tier: 'Étape pilote'
+      moq: '20–50 unités'
+      margin_note: 'Validation marché sur plateformes en stock'
+      features:
+        - 'Graphismes, logo et disposition EVA de la planche complète'
+        - 'Réapprovisionnements sur les mêmes plateformes vérifiées'
+        - 'Documentation d''export incluse'
+    - tier: 'Moule personnalisé'
+      moq: 'Confirmé par config projet'
+      margin_note: 'L''outillage ajoute 15–20 jours'
+      features:
+        - 'Nouvelle forme de planche et développement de moule'
+        - 'Contrôle complet de la spécification'
+        - 'Allocation de production prioritaire'
+
+product_line:
+  title: Gamme de produits complète
+  subtitle: 'Une plateforme de production pour chaque segment de votre magasin.'
+  items:
+    - name: Série All-Round
+      description: 'Forme polyvalente — la plateforme de départ la plus courante'
+    - name: Série Touring
+      description: 'Carène à déplacement pour la pagaie en distance'
+    - name: Série Yoga
+      description: 'Plateforme large et stable pour le segment bien-être'
+    - name: Série Kids
+      description: 'Planches courtes et légères pour les jeunes pagayeurs'
+    - name: Série Racing
+      description: 'Carènes rapides pour le segment des passionnés'
+    - name: Accessoires
+      description: 'Pagaies, gilets, pompes et sacs pour compléter la gamme'
+
+catalog:
+  title: Ressources partenaire détail
+  subtitle: 'Spécifications, détails de commande et documentation produit.'
+  items:
+    - name: 'Catalogue produit 2026'
+      desc: 'Gamme complète avec specs et informations de commande'
+      icon: 'tabler:file-text'
+      link: '/fr/products'
+    - name: 'Guide partenaire détail'
+      desc: 'Guide des spécifications, processus de commande et normes QC'
+      icon: 'tabler:book'
+      link: '/fr/products'
+    - name: 'Ressources produit & techniques'
+      desc: 'Photos produit haute résolution, images lifestyle et documentation technique'
+      icon: 'tabler:photo'
+      link: '/fr/products'
+
+support:
+  title: Support de fabrication
+  subtitle: 'Ce que votre partenaire de fabrication fournit autour de la commande.'
+  items:
+    - 'Échantillon physique avant la production en vrac'
+    - 'Tolérance et QC : chaque planche testée en pression avant expédition'
+    - 'Support spécification — formes, graphismes, disposition EVA, accessoires'
+    - 'Délai de vrac 25–35 jours après PO confirmée'
+    - 'Pièces détachées et guide de réparation pour vos clients'
+    - 'Export et documentation : FOB/CIF/DDP depuis Qingdao'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>À lire :</strong> voyez le <a href="/fr/oem-manufacturing">programme de fabrication OEM/ODM</a> complet — MOQ confirmés par projet à travers les étapes échantillon, pilote et volume, marque privée et conformité CE — ou lisez le <a href="/fr/oem-moq-guide">guide MOQ &amp; marque flexible</a>, ou visitez l''<a href="/fr/factory">usine</a> pour voir comment la QC prête pour le détail est exécutée.</p>
+  </div>
+
+cta:
+  title: 'Discuter de votre gamme produit détail'
+  subtitle: 'Envoyez vos besoins — notre équipe répond sous 1 jour ouvré.'
+  actions:
+    - text: 'Envoyer vos besoins'
+      href: '/fr/contact'
+      variant: 'primary'
+    - text: 'Voir les plateformes produit'
+      href: '/fr/products'
+      variant: 'secondary'
