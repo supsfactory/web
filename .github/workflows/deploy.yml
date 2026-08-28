@@ -142,7 +142,7 @@ jobs:
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
         run: |
           CDN_ORIGIN="https://${CF_PROD_DOMAIN:-supsfactory.com}"
-          for p in / /es; do
+          for p in / /es /fr; do
             code=$(curl -sS -o /dev/null -w '%{http_code}' "$CDN_ORIGIN$p")
             echo "warm $p first pass -> HTTP $code"
             sleep 2

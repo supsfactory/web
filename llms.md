@@ -12,8 +12,8 @@
 | `/llms-full.txt` | Same as `/llms.txt`, concatenated plain Markdown | Full corpus | Catalog, solutions incl. FAQ, afarer pages/news/technology/case studies, geo facts |
 | `/entity.json` | `src/features/content/loader.ts` (`getGeoEntity`) | schema.org Organization | `@id`/`url`/`name`/`description` rewritten to this site's origin; `subjectOf`/`knowsAbout` rebuilt from live page set |
 | `/rss.xml` | afarer news posts (RSS feed) | XML | Latest news/posts from the afarer corpus |
-| `/search-index.json` | `src/features/site/search-index.server.ts` | JSON (Orama-backed) | Every public page deduped across locales; cached at edge (`max-age=3600`) |
-| `/sitemap.xml` | `src/features/seo/seo.ts` (`PUBLIC_PATHS` × locales + afarer registry) | XML | Bilingual entries with hreflang; single-locale entries for afarer-only pages |
+| `/search-index.json` | `src/features/site/search-index.server.ts` | JSON (Orama-backed) | Every public page deduped across the active locales (en/es/fr); cached at edge (`max-age=3600`) |
+| `/sitemap.xml` | `src/features/seo/seo.ts` (`PUBLIC_PATHS` × locales + afarer registry) | XML | en/es/fr entries with hreflang alternates |
 | `/robots.txt` | `src/features/seo/seo.ts` | Plain text | Disallows `/app`, `/admin`, `/*/admin`, `/api`, `/docs`, `/waitlist`, `/changelog`; points to sitemap, llms, entity.json, rss.xml |
 
 ## 2. Content Source Hierarchy (Single Point of Truth)
@@ -21,7 +21,12 @@
 ```
 src/product/                          ← Product Layer (swap per deployment)
 │
-├─ content.ts        ← HERO_CONTENT, gallery, FAQ, site-wide copy
+├─ content.ts        ← HERO_CONTENT, gallery, FAQ, site-wide copy (en/es/fr `Localized<T>`)
+├─ solution-pages.ts ← the 5 solution pages (scenario → … → FAQ, CTA temperature)
+├─ series-pages.ts   ← product series landing pages
+├─ knowledge.ts      ← knowledge hub articles + meta
+├─ projects.ts       ← case-study projects + meta
+├─ procurement.ts    ← procurement profiles + commercial rows
 ├─ facts.ts          ← SITE_FACTS (5 capability cards, "who we serve" stats)
 ├─ ai-content.ts     ← LLM descriptions, AI prompts, FAQ excerpts, corpus text
 ├─ brand-constants.ts← PRODUCT_TAGLINE, PRODUCT_DESCRIPTION, PRODUCT_BOILERPLATE
@@ -80,6 +85,9 @@ src/product/geo/     ← Geo/fact data for LLM grounding (JSON, Product Layer)
 
 ```typescript
 // src/features/site/llm.ts
+// English corpus chunks; the Spanish section is emitted separately
+// (llmSpanishIndex). The same source data is trilingual (en/es/fr) — a
+// French section can be added by mirroring llmSpanishIndex.
 export function buildLlmIndex(locale: 'en' | 'es' = 'en') {
   const chunks: LLMChunk[] = [];
 
@@ -112,7 +120,7 @@ export function buildLlmIndex(locale: 'en' | 'es' = 'en') {
 ## 5. Meta Length Spec (enforced on products/news/YAML pages)
 
 - `title ≤ 70` chars → clean SERP snippet
-- `description 80–170` chars → bilingual kept in sync
+- `description 80–170` chars → kept in sync across locales
 
 ## 6. What to Edit (never touch committed artifacts)
 

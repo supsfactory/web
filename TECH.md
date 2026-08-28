@@ -1,11 +1,11 @@
 # SUPsfactory — Technical Documentation
 
-> Last updated: 2026-08-20
+> Last updated: 2026-08-28
 > Project path: `E:\github\supsfactory`
 > Production: https://supsfactory.com (Cloudflare Workers, `supsfactory-production`)
 > Stack: TanStack Start (React 19) + Cloudflare Workers + D1 (Drizzle ORM) + KV + R2 + better-auth + Resend + Orama (search) + Fumadocs (docs)
 > > Media: All large assets (videos, PDFs, quality photos, product photos) migrated to Cloudflare R2 bucket `supsfactory-files-prod`, served via CDN `assets.supsfactory.com/site/*`; `public/assets/*` directories added to `.gitignore`; upload script `scripts/upload-site-assets.mjs` supports `--prefix <prefix>` for multi-site key isolation.
-> > Tests: 272 (Vitest node + workers pools, 45 files); `pnpm typecheck` / `pnpm build` green
+> > Tests: 292 (Vitest node + workers pools, 46 files); `pnpm typecheck` / `pnpm build` green
 > > Architecture: 5-layer decoupling — Product Layer (`src/product/`) → Site Configuration (`src/config/`) → Website Foundation (`src/features/`) → Cloudflare Platform → Infrastructure. Framework code never imports brand data directly.
 
 ---
@@ -22,17 +22,17 @@ Everything runs on the edge — the marketing site, the SaaS app, and all APIs a
 | Edge cache (`src/lib/cache-headers.ts`) | Marketing HTML is `public, max-age=3600` and written to the Cache API so repeat crawls never hit the worker. Hashed build assets under `/assets/` (index-`<hash>`.js etc.) get `max-age=31536000, immutable`; un-hashed public images + fonts `max-age=604800`; crawler files (`robots.txt`, `sitemap*.xml`, `llms.txt`) `max-age=3600`. Only responses passing `isEdgeCacheable` (GET/HEAD, non-private path, status 200/301/410, `max-age>0`) are cached. |
 | **Private surfaces never cache** | `/app`, `/admin`, `/api`, `/login`, `/register`, `/sign-in`, `/sign-up`, `/signout`, `/forgot-password`, `/reset-password`, `/auth`, `/oauth`, `/verify` (first path segment) are force-stamped `Cache-Control: private, no-store` + `Vary: Cookie` on **every** method — even if the framework stamped `public` on an SSR response. This makes the worker immune to a CDN misconfiguration caching one user's session page for another. |
 | URL gate (`src/features/seo/edge-gate.ts`) | `EDGE_REDIRECTS` maps every duplicate/legacy URL to its canonical keeper (301, `max-age=3600`); a set of removed template pages 410s (`/docs`, `/waitlist`, `/changelog`); trailing slashes 301 to the slash-less form; retired `/zh/*` URLs 301 to their `/es` mirror. Runs **before** any route handler, so redirects never SSR. |
-| Cron | Two triggers in `wrangler.jsonc`: `0 3 * * *` daily maintenance cleanup (expired `session`/`verification`/stale `rateLimit` rows — `src/features/maintenance/cleanup.ts`, no outbound calls) and `*/5 * * * *` **edge-cache warming** (`warmEdgeCache`: replays `/`, `/es` and all `/products/*` paths through the real handler with a cache-busting query, then overwrites the clean-URL Cache API entry so real visitors get an edge hit instead of a cold worker render). |
+| Cron | Two triggers in `wrangler.jsonc`: `0 3 * * *` daily maintenance cleanup (expired `session`/`verification`/stale `rateLimit` rows — `src/features/maintenance/cleanup.ts`, no outbound calls) and `*/5 * * * *` **edge-cache warming** (`warmEdgeCache`: replays `/`, `/es`, `/fr` and all `/products/*` paths through the real handler with a cache-busting query, then overwrites the clean-URL Cache API entry so real visitors get an edge hit instead of a cold worker render). |
 | Assets | Self-hosted fonts, `public/` statics. Product photos served from `assets.supsfactory.com` (the site's own R2 CDN). All site content (`src/content/site/`) is bundled at build time via Vite glob + `?raw` — no filesystem at runtime. Catch-all route `$.tsx` renders content via `ContentCatchAll` component (`src/features/content/catchall.tsx`). |
 
 ### 1.2 Locale routing and the two content worlds
 
-Path-based bilingual routing via TanStack's `{-$locale}` optional prefix: English at `/`, Español at `/es` (default locale has no prefix; `/en/...` is 301-stripped to the canonical no-prefix form). Locale is negotiated from cookie → Accept-Language.
+Path-based trilingual routing via TanStack's `{-$locale}` optional prefix: English at `/`, Español at `/es`, Français at `/fr` (default locale has no prefix; `/en/...` is 301-stripped to the canonical no-prefix form). Locale is negotiated from cookie → Accept-Language.
 
 The site serves **two content worlds** from one route tree:
 
-1. **Bilingual marketing site** (`{-$locale}/` routes) — copy/UI in `src/product/content.ts`, solution pages in `src/product/solution-pages.ts`.
-2. **Ported brand content** (English-only) — the factory/technology/research/news/product content from `src/content/site/`. The root catch-all `src/routes/$.tsx` (component: `CatchAllPage` → `ContentCatchAll`) strips an optional leading locale segment and resolves the rest against the content registry; unknown paths throw `notFound()`. ~45 single-segment paths (e.g. `/factory`, `/oem-odm-manufacturer`, `/technology`) get their own static route stub via `contentSingleRoute()` (loader + head only, component rendered by the catch-all) — they **must** be explicit routes because the optional `{-$locale}` group terminates on a bare segment before the splat is ever considered (a static route outranks the optional group).
+1. **Trilingual marketing site** (`{-$locale}/` routes) — copy/UI in `src/product/content.ts`, solution pages in `src/product/solution-pages.ts`. Every `Localized<T>` structure carries `en`/`es`/`fr`.
+2. **Ported brand content** (en/es/fr) — the factory/technology/research/news/product content from `src/content/site/` (each page has `.fr.*` variants alongside `.es.*`). The root catch-all `src/routes/$.tsx` (component: `CatchAllPage` → `ContentCatchAll`) strips an optional leading locale segment and resolves the rest against the content registry; unknown paths throw `notFound()`. ~45 single-segment paths (e.g. `/factory`, `/oem-odm-manufacturer`, `/technology`) get their own static route stub via `contentSingleRoute()` (loader + head only, component rendered by the catch-all) — they **must** be explicit routes because the optional `{-$locale}` group terminates on a bare segment before the splat is ever considered (a static route outranks the optional group).
 
 Registry ownership is explicit: `SHADOWED_PATHS` (`src/product/route-registry.ts`) lists every path owned by a static route — registry entries under those are never rendered; `EXTRA_PATHS` maps registry-less pages (research articles, R&D subpages, ported solution/OEM pages) to their YAML slugs for dedicated routes. Single-segment routes use `contentSingleRoute()` from `src/features/content/content-single-route.ts` which provides loader + head but no component (rendered by the catch-all `$.tsx`).
 
@@ -56,7 +56,7 @@ Two public surfaces + one API, all built from the **same content sources** (sing
 | `/search` page | server fn | `buildExtendedIndex(locale)` | Full-text Orama search with stopwords/tokenizers; results rendered server-side. |
 | Docs search | `/api/search` | `fumadocs-core/search/server` | In-docs (Fumadocs) search for the `/docs` area. The Orama instance is a **lazy module-level singleton** (never rebuilt per request) and the route is **rate-limited per IP (60/min, fail-open)**. `SearchAPI` (not `SearchServer`) is the return type of `createFromSource`. |
 
-Index coverage (`search-index.server.ts`): solution pages, knowledge hub, projects, product series, afarer products/news/technology/case-studies/guides, every afarer registry page (en + translated es), FAQ, **plus `hubEntries()`** — six live landing pages that ship no yaml registry entry yet are first-class public pages (home `/`, `/products`, `/solutions`, `/projects`, `/knowledge`, `/gallery`, en+es). Edge-redirected paths are excluded (`EDGE_REDIRECTS`), page titles strip trailing brand suffixes.
+Index coverage (`search-index.server.ts`): solution pages, knowledge hub, projects, product series, afarer products/news/technology/case-studies/guides, every afarer registry page (en + es + fr), FAQ, **plus `hubEntries()`** — six live landing pages that ship no yaml registry entry yet are first-class public pages (home `/`, `/products`, `/solutions`, `/projects`, `/knowledge`, `/gallery`, en/es/fr). Edge-redirected paths are excluded (`EDGE_REDIRECTS`), page titles strip trailing brand suffixes.
 
 These modules are server-only: the content corpus never enters the client bundle (dynamically imported by server routes / server fns).
 
@@ -129,7 +129,7 @@ All generated dynamically; content sources are the single point of truth — edi
 
 | Endpoint | Source | Output |
 |----------|--------|--------|
-| `/sitemap.xml` | `src/features/seo/seo.ts` (`PUBLIC_PATHS` × locales, hreflang alternates) + docs pages + afarer public paths (registry + products/news/technology/case-studies/guides) | XML; bilingual entries with hreflang, single-locale entries (no alternates) for the English-only afarer pages |
+| `/sitemap.xml` | `src/features/seo/seo.ts` (`PUBLIC_PATHS` × locales, hreflang alternates) + docs pages + afarer public paths (registry + products/news/technology/case-studies/guides) | XML; en/es/fr entries with hreflang alternates across the trilingual page set |
 | `/robots.txt` | `src/features/seo/seo.ts` | disallow `/app`, `/admin`, `/*/admin`, `/api`, `/docs`, `/waitlist`, `/changelog`; points to sitemap, llms, entity.json, rss.xml |
 | `/llms.txt` | `src/features/docs/llm.ts` (docs index) + `src/features/site/llm.ts` (products + **solution pages** + afarer index) | Markdown index for LLMs |
 | `/llms-full.txt` | same, concatenated plain Markdown | full corpus (catalog, solutions incl. FAQ, afarer pages/news/technology/case studies, geo facts) |
@@ -138,13 +138,13 @@ All generated dynamically; content sources are the single point of truth — edi
 | `/docs-md/*` | `src/routes/docs-md/$.ts` | frontmatter-stripped Markdown per page (malformed percent-encoding → 404, not 500) |
 | `/search-index.json` | `src/features/site/search-index.server.ts` | full public search index (see §2), cached at the edge |
 
-**Meta length spec** (enforced on news/products/yaml pages): `title ≤ 70` chars, `description 80–170` chars, bilingual — keeps SERP snippets clean.
+**Meta length spec** (enforced on news/products/yaml pages): `title ≤ 70` chars, `description 80–170` chars, kept in sync across locales — keeps SERP snippets clean.
 
-Product catalog lives in `src/product/content.ts`; the 5 solution pages (with FAQ) in `src/product/solution-pages.ts`; the content corpus in `src/content/site/` (registry `site/pages.yaml` + page YAMLs + products + news + technology + case studies + geo JSON). Keeping all of it in the LLM corpus means answer engines cite the actual offer — including prices and SKUs.
+Product catalog lives in `src/product/content.ts`; the 5 solution pages (with FAQ) in `src/product/solution-pages.ts`; the knowledge/projects/series/guides data in `src/product/{knowledge,projects,series-pages,guide-content}.ts`; the content corpus in `src/content/site/` (registry `site/pages.yaml` + page YAMLs + products + news + technology + case studies + geo JSON). All of it is trilingual (en/es/fr). Keeping all of it in the LLM corpus means answer engines cite the actual offer — including prices and SKUs.
 
 ### 5.1 Solutions system and the legacy-landing 301s
 
-The five `/solutions/*` pages (custom-sup, private-label-sup, resort-sup, club-sup, school-sup) are data-driven: `solution-pages.ts` (en/es) + the `solution-page.tsx` renderer + the `solution-route.tsx` route factory, mounted under the `solutions.tsx` layout with a hub at `solutions/index.tsx`. Every page shares one business logic — scenario → problems → solution → process → case study → FAQ — and ends in a **CTA temperature** (`cold` = Learn More, `warm` = Discuss Your Project, `hot` = Request Manufacturing Proposal): custom-sup is hot, private-label-sup and resort-sup warm, club-sup and school-sup cold.
+The five `/solutions/*` pages (custom-sup, private-label-sup, resort-sup, club-sup, school-sup) are data-driven: `solution-pages.ts` (en/es/fr) + the `solution-page.tsx` renderer + the `solution-route.tsx` route factory, mounted under the `solutions.tsx` layout with a hub at `solutions/index.tsx`. Every page shares one business logic — scenario → problems → solution → process → case study → FAQ — and ends in a **CTA temperature** (`cold` = Learn More, `warm` = Discuss Your Project, `hot` = Request Manufacturing Proposal): custom-sup is hot, private-label-sup and resort-sup warm, club-sup and school-sup cold.
 
 The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`, `sup-for-resorts`, `sup-for-clubs`, `sup-startup-brands`) are stubs whose loaders throw `redirect({ href: localizePath(locale, target), statusCode: 301 })`. Broader URL policy (afarer-era dups, removed pages, trailing slashes, retired `/zh`) lives in the **edge gate** (`src/features/seo/edge-gate.ts`) so it runs before SSR:
 
@@ -158,12 +158,12 @@ The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`,
 | Task | Command |
 |------|---------|
 | Dev server | `pnpm dev` |
-| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 272 tests (45 files) |
+| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 292 tests (46 files) |
 | Typecheck / lint / build | `pnpm typecheck` (fumadocs-mdx + tsc) / `pnpm lint` / `pnpm build` |
 | D1 migrations | `pnpm db:generate` → `pnpm db:migrate:local` (local); `db:migrate:staging` / `db:migrate:prod` (remote) |
 | Deploy | `pnpm deploy:staging` / `pnpm deploy:prod` (builds with `CLOUDFLARE_ENV` + `wrangler deploy`); `pnpm deploy:purge` purges the CDN (needs `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ZONE_ID` w/ cache-purge scope); `deploy:prod:all` = deploy + purge |
 | Images | `pnpm upload:afarer-images` — backfills missing afarer images to R2 (`--missing` only PUTs absent objects) |
-| CI | `ci.yml` (lint + typecheck + test + build, no secrets); `deploy.yml` (push to `main`: gen `wrangler.jsonc` → build with `CLOUDFLARE_ENV=production` → **D1 migrations** → `wrangler deploy` → **purge CDN cache** → **warm edge cache** (`/`, `/es`, products) → `wrangler secret bulk` from GitHub secrets → **backfill missing afarer images**). Missing `CLOUDFLARE_API_TOKEN` → whole deploy job skips gracefully. |
+| CI | `ci.yml` (lint + typecheck + test + build, no secrets); `deploy.yml` (push to `main`: gen `wrangler.jsonc` → build with `CLOUDFLARE_ENV=production` → **D1 migrations** → `wrangler deploy` → **purge CDN cache** → **warm edge cache** (`/`, `/es`, `/fr`, products) → `wrangler secret bulk` from GitHub secrets → **backfill missing afarer images**). Missing `CLOUDFLARE_API_TOKEN` → whole deploy job skips gracefully. |
 | Diagnostics | `cf-inspect.yml` (manual): dumps zone cache settings + purge results to `cf-inspect.log` committed back to the repo |
 
 **Testing note:** the workers pool does NOT auto-apply migrations — create tables in `beforeAll` (see `features/auth/test-helpers.ts`).
@@ -196,7 +196,7 @@ When the `ai` and `vectorize` blocks are uncommented in `wrangler.jsonc`, the as
 
 | Layer | Piece |
 |-------|-------|
-| Corpus | `corpus.ts` `buildChunks(locale)` — one atomic chunk per piece of info: solution pages (+ their FAQ blocks individually), knowledge hub per-section, projects, product series, guides, afarer products/news/technology/case-studies, afarer pages (SEO description), and every site FAQ as its own Q/A chunk; en + es, URLs localized via `localizePath` |
+| Corpus | `corpus.ts` `buildChunks(locale)` — one atomic chunk per piece of info: solution pages (+ their FAQ blocks individually), knowledge hub per-section, projects, product series, guides, afarer products/news/technology/case-studies, afarer pages (SEO description), and every site FAQ as its own Q/A chunk; en/es/fr, URLs localized via `localizePath` |
 | Embeddings | Workers AI `@cf/baai/bge-m3` (1024-dim, multilingual) in batches of 64 |
 | Index | Vectorize `supsfactory-knowledge` / `-staging` / `-prod` (per env); chunk ids are stable FNV-1a hashes of `(locale, url, part)` so daily re-runs upsert in place |
 | Retrieval | top-K=6 cosine, `returnMetadata: 'all'`; metadata carries `text/url/title` so sources render as links |

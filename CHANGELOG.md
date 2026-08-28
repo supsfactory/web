@@ -9,6 +9,19 @@ and this project aims to follow [Semantic Versioning](https://semver.org/spec/v2
 
 ### Added
 
+- **French end-to-end** — the site is now trilingual (en/es/fr). The content
+  loader (`src/features/content/loader.ts`) includes `fr` in all six locale glob
+  maps, strips locale suffixes from base arrays and resolves `fr` overlay slugs,
+  so `/fr/*` content pages render French instead of falling back to English.
+  `Localized<T>` now requires `fr`, and French data was added across
+  `content.ts` (home, products, series, solutions, about, FAQ, catalog),
+  `procurement.ts`, `knowledge.ts`, `projects.ts`, `series-pages.ts`,
+  `solution-pages.ts`, `guide-content.ts` (`GUIDES_FR` + cards) and the
+  `HUB_PAGE_ENTRIES` search registry. Sitemap hreflang, `/search-index.json` and
+  the AI corpus cover en/es/fr; the LLM index still emits the English corpus plus
+  a Spanish section. New regression suite `content-fr.node.test.ts` (15 tests)
+  proves French output across both content files and the TS data layer —
+  292 tests total. Edge-cache warming now includes `/fr`.
 - **AI index deploy pipeline** (`.github/workflows/ai-index.yml`) — after every
   successful production deploy (or on manual dispatch): idempotently creates
   the three Vectorize indexes (`sups-knowledge`, `-staging`, `-prod`,
@@ -18,20 +31,20 @@ and this project aims to follow [Semantic Versioning](https://semver.org/spec/v2
   net; missing credentials/`REINDEX_TOKEN` skip gracefully.
 - **AI sales assistant** (`src/features/ai/`) — a floating RAG chat widget on the
   marketing site (`POST /api/ask`): bge-m3 embeddings + Vectorize top-K retrieval
-  over the full en/es corpus (solutions, knowledge hub, projects, series, guides,
+  over the full en/es/fr corpus (solutions, knowledge hub, projects, series, guides,
   afarer products/news/technology/case-studies/pages, and every site FAQ as its
   own chunk) + llama-3.2-3b answers with clickable `[n]`-cited sources and
   multi-turn history. KV-cached answers (6h), per-IP rate limit (10/10 min) and a
   daily global cap, both fail-open. Degrades gracefully: no AI/Vectorize
   bindings or any failure → keyword-matched site FAQ fallback → empty answer, so
   the widget works before the index exists. Index rebuilt nightly in the 03:00
-  cron via stable-hash upserts. i18n under `sup.aiChat.*` (en/es).
+  cron via stable-hash upserts. i18n under `sup.aiChat.*` (en/es/fr).
 - **Site search** — three surfaces over one index: a header search dialog fed by
   `/search-index.json` (full public index, edge-cached 1h), a `/search` page with
   Orama full-text search, and `/api/search` for the docs area. Covers solution
   pages, knowledge hub, projects, product series, afarer products/news/technology/
   case-studies/guides, FAQ and the six hub/landing pages (home, `/products`,
-  `/solutions`, `/projects`, `/knowledge`, `/gallery`) in en+es.
+  `/solutions`, `/projects`, `/knowledge`, `/gallery`) in en/es/fr.
 - **Edge URL gate** (`src/features/seo/edge-gate.ts`) — 301 merges of duplicate/
   legacy URLs, 410 for removed template pages, trailing-slash normalisation and
   retired-locale `/zh/*` → `/es` redirects, applied before any route runs.

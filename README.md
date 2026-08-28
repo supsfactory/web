@@ -1,6 +1,6 @@
 <div align="center">
   <h1>SUPsfactory</h1>
-  <p>Your custom SUP product development & manufacturing partner — 10 manufacturing platforms, real OEM/ODM, bilingual (en/es) marketing site + 5-page solutions system, shipped edge-native on Cloudflare Workers.</p>
+  <p>Your custom SUP product development & manufacturing partner — 10 manufacturing platforms, real OEM/ODM, trilingual (en/es/fr) marketing site + 5-page solutions system, shipped edge-native on Cloudflare Workers.</p>
   <p>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
     <a href="https://developers.cloudflare.com/workers/"><img src="https://img.shields.io/badge/Cloudflare-Workers-F38020?logo=cloudflare&logoColor=white" alt="Cloudflare Workers"></a>
@@ -70,6 +70,8 @@ These files contain **all brand-specific content**. Replace their contents with 
 | `dictionary/en-product.ts` | Product-specific strings (legal, inquiry, sup-specific) | Your product text |
 | `dictionary/es-ui.ts` | Spanish UI strings | Spanish translations |
 | `dictionary/es-product.ts` | Spanish product strings | Spanish product text |
+| `dictionary/fr-ui.ts` | French UI strings | French translations |
+| `dictionary/fr-product.ts` | French product strings | French product text |
 | `geo/*.json` | Entity, company facts, certification facts, manufacturing facts | Your geo data |
 
 #### 3. Replace content files (`src/content/site/`)
@@ -78,11 +80,11 @@ These directories hold the **page content** (YAML, MDX, Markdown) loaded by the 
 
 | Directory | Contents |
 |-----------|----------|
-| `content/site/pages/` | Page YAML data (about, factory, technology, solutions, etc.) — en + es variants |
-| `content/site/products/` | Product page MDX (one per product) — en + es variants |
-| `content/site/news/` | News/blog MDX — en + es variants |
-| `content/site/case-use/` | Case study MD — en + es variants |
-| `content/site/technology/` | Technology MD — en + es variants |
+| `content/site/pages/` | Page YAML data (about, factory, technology, solutions, etc.) — en + es + fr variants |
+| `content/site/products/` | Product page MDX (one per product) — en + es + fr variants |
+| `content/site/news/` | News/blog MDX — en + es + fr variants |
+| `content/site/case-use/` | Case study MD — en + es + fr variants |
+| `content/site/technology/` | Technology MD — en + es + fr variants |
 | `content/site/site/` | Site-wide YAML (faqs, pages registry, research) |
 | `content/docs/` | In-app documentation (Fumadocs MDX) |
 
@@ -207,6 +209,8 @@ src/product/
     en-product.ts       ← Product strings (brand-specific)
     es-ui.ts            ← Spanish UI strings
     es-product.ts       ← Spanish product strings
+    fr-ui.ts            ← French UI strings
+    fr-product.ts       ← French product strings
     merge.ts            ← mergeDict() utility
     index.ts            ← Barrel re-exports
   geo/
@@ -226,18 +230,18 @@ This guide maps the **major architectural layers** of SUPsfactory to their sourc
 |---------------------|--------------|-----------------|------------------|
 | **Media & CDN** | Videos, PDFs, product/quality images | `public/assets/*` (git-ignored), `scripts/upload-site-assets.mjs` → R2 `supsfactory-files-prod`, CDN `assets.supsfactory.com/site/*` | All large binary assets; `.gitignore` prevents Git bloat; R2 key prefix controllable via `--prefix` |
 | **Site Config (Framework Abstract)** | Business facts & hero content as config | `src/features/site/site-config.ts` → reads `SITE_FACTS` from `facts.ts`, `HERO_CONTENT` from `content.ts`; `siteConfig.facts / siteConfig.hero` only-read | Framework派生站点的可配置常量层；原有 `FACTS` / `hero` 导出完全不变 |
-| **Routing & i18n** | Path-based bilingual routing (`{-$locale}`) | `src/routes/{-$locale}/` (file-based), `src/features/i18n/dictionaries/{en,es}.ts`, `src/features/seo/seo.ts` (`PUBLIC_PATHS`/`HREFLANG`/`OG_LOCALE`) | `/` = en, `/es` = es; dictionary must be structurally identical across languages |
+| **Routing & i18n** | Path-based trilingual routing (`{-$locale}`) | `src/routes/{-$locale}/` (file-based), `src/features/i18n/dictionaries/{en,es,fr}.ts`, `src/features/seo/seo.ts` (`PUBLIC_PATHS`/`HREFLANG`/`OG_LOCALE`) | `/` = en, `/es` = es, `/fr` = fr; dictionaries must be structurally identical across languages |
 | **SEO & LLM Discovery** | Sitemap, robots, llms.txt, entity.json, RSS | `src/features/seo/seo.ts` (PUBLIC_PATHS, hreflang), `src/features/site/llm.ts`, `src/features/content/loader.ts` (`getGeoEntity`) | All LLM/SSEO endpoints generated from single source of truth |
 | **Auth & Admin** | better-auth, admin-only gates, roles | `src/features/auth/`, `src/features/admin/assert-admin.server.ts`, `ADMIN_EMAILS` env | Email/password auth, verification, password reset, OAuth; single source of admin truth |
 | **Data Stores** | D1, KV, R2 (+ Vectorize optional) | `src/db/`, `src/lib/cache-headers.ts`, `features/storage/`, `src/features/ai/` | SQLite auth + app tables; per-IP rate limits; blob storage; RAG index (optional) |
 | **AI Sales Assistant** | FAQ+corpus keyword search (free tier) / RAG Q&A (paid) | `src/features/ai/corpus.ts`, `src/features/ai/ai-chat.tsx`, Vectorize `supsfactory-knowledge` | **Deploys on Workers free tier** with keyword-based search (matchFaq + matchCorpus); upgrade to Workers Paid ($5/month) for AI-powered RAG (embeddings + LLM generation). Chat shows "FAQ" or "AI" badge per answer. |
-| **Testing & CI** | 272 tests (45 files), typecheck, build | `pnpm test`, `pnpm typecheck`, `pnpm build`; CI: `ci.yml`, `deploy.yml` | Full regression test suite; type-safe build; deploy pipeline with CDN purge + edge warm |
+| **Testing & CI** | 292 tests (46 files), typecheck, build | `pnpm test`, `pnpm typecheck`, `pnpm build`; CI: `ci.yml`, `deploy.yml` | Full regression test suite; type-safe build; deploy pipeline with CDN purge + edge warm |
 
 --- 
 
 **English**
 
-SUPsfactory is the production-ready web presence for an SUP (stand-up paddleboard) OEM/ODM manufacturer — the marketing site is positioned as a **custom SUP product development & manufacturing partner**, not a "launch your own brand" tool. It pairs a fully designed bilingual (en / es) marketing site with the complete SaaS backend from [Vectoflare](https://github.com/vectoflare/vectoflare): auth, email, an admin console, and more — every feature a real implementation, no mocks or stubs, running on the Cloudflare free-to-cheap stack (Workers + D1 + KV + R2). The full afarer brand content (factory, technology, research, news, product pages) is ported in and served from the same Worker, English-only, under `/`.
+SUPsfactory is the production-ready web presence for an SUP (stand-up paddleboard) OEM/ODM manufacturer — the marketing site is positioned as a **custom SUP product development & manufacturing partner**, not a "launch your own brand" tool. It pairs a fully designed trilingual (en / es / fr) marketing site with the complete SaaS backend from [Vectoflare](https://github.com/vectoflare/vectoflare): auth, email, an admin console, and more — every feature a real implementation, no mocks or stubs, running on the Cloudflare free-to-cheap stack (Workers + D1 + KV + R2). The full afarer brand content (factory, technology, research, news, product pages) is ported in and served from the same Worker in en/es/fr under `/` (`/es` and `/fr` prefixed).
 
 ## The marketing site
 
@@ -250,14 +254,14 @@ Custom-built "Bright Ocean Studio" design language: Ocean White / Ocean Blue / A
 | **SUP Design Studio** | Interactive configurator: pick colors and preview a live board mockup — the "place your logo" pitch for prospects |
 | **Solutions system** | A 5-page system under `/solutions` — `/solutions/custom-sup`, `/solutions/private-label-sup`, `/solutions/resort-sup`, `/solutions/club-sup`, `/solutions/school-sup`. Every page follows one business logic (scenario → problems → solution → process → case study → FAQ) and ends in a **CTA temperature** — cold (Learn More), warm (Discuss Your Project), hot (Request Manufacturing Proposal) — so each audience gets a pitch matched to how ready they are |
 | **Who we serve** | Landing-oriented scene pages that funnel into the matching solution page |
-| **Site search** | Two surfaces: a header search dialog fed by `/search-index.json` (the full public index, edge-cached 1h) and a `/search` page with a full-text (Orama) index built from the same data — solutions, knowledge hub, projects, product series, afarer pages, news, technology, case studies, guides, FAQs and the six hub/landing pages (home, /products, /solutions, /projects, /knowledge, /gallery) in en+es |
-| **AI sales assistant** | A floating RAG chat widget (bottom-right, above the contact floats): bge-m3 embeddings + Vectorize top-K over the whole en/es corpus + llama-3.2-3b answers with clickable sources, multi-turn context, KV-cached answers, per-IP rate limiting, and graceful degradation to keyword-matched site FAQs when AI/Vectorize are unavailable (works before the index even exists). Index rebuilt nightly by cron |
+| **Site search** | Two surfaces: a header search dialog fed by `/search-index.json` (the full public index, edge-cached 1h) and a `/search` page with a full-text (Orama) index built from the same data — solutions, knowledge hub, projects, product series, afarer pages, news, technology, case studies, guides, FAQs and the six hub/landing pages (home, /products, /solutions, /projects, /knowledge, /gallery) in en/es/fr |
+| **AI sales assistant** | A floating RAG chat widget (bottom-right, above the contact floats): bge-m3 embeddings + Vectorize top-K over the whole en/es/fr corpus + llama-3.2-3b answers with clickable sources, multi-turn context, KV-cached answers, per-IP rate limiting, and graceful degradation to keyword-matched site FAQs when AI/Vectorize are unavailable (works before the index even exists). Index rebuilt nightly by cron |
 | **Legacy SEO landings** | The old keyword pages (`/sup-startup-brands`, `/sup-for-resorts`, `/sup-for-clubs`, `/private-label-sup`, `/custom-sup-manufacturing`) now **301-redirect** to their new solution-page equivalents — search equity preserved, one source of truth |
 | **Edge URL policy** | `src/features/seo/edge-gate.ts` applies at the worker before any route runs: 301 merges of duplicate/legacy pages, 410 for removed template pages (`/docs`, `/waitlist`, `/changelog`), trailing-slash normalisation, and retired-locale `/zh/*` → `/es` redirects — all served with a short `max-age` so changes stay easy to amend |
-| **afarer brand content** | The full ported manufacturer site (English): `/factory/*`, `/technology/*`, `/research/*`, `/news/*`, `/products/*`, `/oem-odm-manufacturer`, `/guides`, `/faq` and more — served by a catch-all route from the bundled afarer content |
+| **afarer brand content** | The full ported manufacturer site (en/es/fr): `/factory/*`, `/technology/*`, `/research/*`, `/news/*`, `/products/*`, `/oem-odm-manufacturer`, `/guides`, `/faq` and more — served by a catch-all route from the bundled afarer content |
 | **Gallery / How it works / About / Contact** | Brand stories with real project photos, manufacturing timeline, company story, inquiry form |
 
-**The 10 platform series** (data in `src/features/site/content.ts`, photos served from `assets.supsfactory.com`, the site's own R2 CDN):
+**The 10 platform series** (data in `src/product/content.ts`, photos served from `assets.supsfactory.com`, the site's own R2 CDN):
 
 | Series | SKU | Price | Position |
 |--------|-----|-------|----------|
@@ -274,7 +278,7 @@ Custom-built "Bright Ocean Studio" design language: Ocean White / Ocean Blue / A
 
 Every series is a manufacturing platform — shape, artwork, EVA deck pads, and packaging all adapt to your client's brand (50pcs MOQ per design).
 
-**AI-ready content**: `/llms.txt` and `/llms-full.txt` index the docs, the full product catalog (names, SKUs, specs, prices, recommended use), the 5 solution pages with their FAQ, and the whole ported afarer brand corpus (factory, technology, research, news) — so answer engines can cite the actual offering. `/entity.json` exposes the schema.org Organization entity behind the factory, and `/rss.xml` the news feed. Every entry carries a **page-level meta spec** enforced at build time: `title ≤ 70` chars, `description 80–170` chars (bilingual, en/es).
+**AI-ready content**: `/llms.txt` and `/llms-full.txt` index the docs, the full product catalog (names, SKUs, specs, prices, recommended use), the 5 solution pages with their FAQ, and the whole ported afarer brand corpus (factory, technology, research, news) — so answer engines can cite the actual offering. `/entity.json` exposes the schema.org Organization entity behind the factory, and `/rss.xml` the news feed. Every entry carries a **page-level meta spec** enforced at build time: `title ≤ 70` chars, `description 80–170` chars (kept in sync, en/es/fr).
 
 ## The platform under the hood
 
@@ -289,8 +293,8 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 | **AI Assistant** | Floating chat (`src/features/ai/`): **FAQ+corpus keyword search mode** (default, free-tier compatible) — `matchFaq` + `matchCorpus` score both FAQ entries and the full content corpus using token-overlap scoring, no AI inference needed. **Full RAG mode** (AI embeddings + LLM generation) available by uncommenting the `ai`/`vectorize` blocks in `wrangler.jsonc` — requires Workers Paid plan ($5/month). Chat shows "FAQ" or "AI" badge on each answer. KV-answer caching (6h), per-IP + daily-quota rate limiting, nightly index rebuild in the cron — no mocks, degrades gracefully. |
 | **Changelog** | An in-app `/changelog` page — MDX-driven, per-locale, with a `published` flag (410'd in production, template reference). |
 | **Feedback** | Signed-in users submit feedback + a "my feedback" list; an admin governance page drives status transitions and replies. Also the **reference for adding your own feature**: a vertical slice with ownership filtering, a pure function layer, both gate patterns, and dual-pool tests — see [feedback](src/content/docs/features/feedback.mdx). |
-| **i18n** | Path-based locale routing via TanStack's `{-$locale}` optional prefix — English at `/`, Español at `/es`. All marketing copy and UI strings translated. |
-| **SEO** | Per-locale sitemap with `hreflang` + canonical for the bilingual pages, plus single-locale entries for the English-only afarer pages (factory, news, products, technology, case studies, guides); OpenGraph tags (featured image is a real product photo from the site's R2 CDN), `robots.txt`, `noindex` on authenticated pages, and the 5 solution pages as keyword targets (legacy landing URLs 301 to them). Page meta is length-validated (`title ≤ 70`, `description 80–170`). |
+| **i18n** | Path-based locale routing via TanStack's `{-$locale}` optional prefix — English at `/`, Español at `/es`, Français at `/fr`. All marketing copy and UI strings translated (en/es/fr). |
+| **SEO** | Per-locale sitemap with `hreflang` + canonical for the trilingual pages (en/es/fr — marketing routes and afarer content pages both emit alternates); OpenGraph tags (featured image is a real product photo from the site's R2 CDN), `robots.txt`, `noindex` on authenticated pages, and the 5 solution pages as keyword targets (legacy landing URLs 301 to them). Page meta is length-validated (`title ≤ 70`, `description 80–170`). |
 | **AI-ready** | **Runtime:** [`llms.txt`](/llms.txt) index and [`llms-full.txt`](/llms-full.txt) full corpus — docs **plus the product catalog, the 5 solution pages (incl. FAQ) and the afarer brand corpus**; [`entity.json`](/entity.json) schema.org Organization; [`rss.xml`](/rss.xml) news feed; `robots.txt` pointing to all of them. **Codebase:** [`AGENTS.md`](AGENTS.md) is the single source of truth for coding agents (auto-imported into [`CLAUDE.md`](CLAUDE.md)). |
 | **Admin** | `ADMIN_EMAILS` is the **single source of truth**; the DB `role` column is a cache, two-way-synced on every gated access (promote on first use, demote the moment an email leaves the list). Every admin surface — pages, server fns, CSV exports, and better-auth's own `/api/auth/admin/*` — shares one `assertAdmin()` gate that returns **404** for non-admins (the admin surface stays invisible). Roles are least-privilege (`ban` / `impersonate` / `delete` / `list` only). Searchable/paginated user table, stats dashboard, ban/impersonate/delete actions — all on real data. |
 | **Theme** | Dark-first design with a light/dark toggle persisted via cookie. |
@@ -308,7 +312,7 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 - **[Orama](https://orama.com)** full-text search (stopwords + tokenizers), **[Fumadocs](https://fumadocs.dev)** docs
 - **[Workers AI](https://developers.cloudflare.com/workers-ai/)** (bge-m3 embeddings + llama-3.2-3b) and **[Vectorize](https://developers.cloudflare.com/vectorize/)** (RAG knowledge index) — **optional**, uncomment in `wrangler.jsonc` to enable full RAG mode
 - **[Tailwind CSS v4](https://tailwindcss.com)**
-- **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`) — **272 tests green (45 files)**
+- **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`) — **292 tests green (46 files)**
 
 ## Prerequisites
 
@@ -418,7 +422,7 @@ src/
      brand/           Logo component (product-specific)
      app/             App shell (account, feedback)
    routes/
-     {-$locale}/      Locale-prefixed pages (/, /es, /products, /solutions, etc.)
+     {-$locale}/      Locale-prefixed pages (/, /es, /fr, /products, /solutions, etc.)
        (auth)/        Login, register, forgot/reset password, verify email
        admin/         Admin dashboard (users, inquiries, feedback, waitlist)
        app/           User account, feedback
@@ -433,11 +437,11 @@ src/
      api/             Server API routes (ask, search, reindex, auth, avatars, inquiry-logo)
     api/             Server API routes
   content/site/     # ★ PRODUCT CONTENT — swap per deployment
-    pages/           Page YAML (about, factory, solutions, etc.) — en + es
-    products/        Product MDX — en + es
-    news/            News MDX — en + es
-    case-use/        Case study MD — en + es
-    technology/      Technology MD — en + es
+    pages/           Page YAML (about, factory, solutions, etc.) — en + es + fr
+    products/        Product MDX — en + es + fr
+    news/            News MDX — en + es + fr
+    case-use/        Case study MD — en + es + fr
+    technology/      Technology MD — en + es + fr
     site/            Site-wide YAML (faqs, registry, research)
   content/docs/      In-app documentation (MDX)
   lib/               Cross-cutting: cache-headers, CSP, security headers, env validation
