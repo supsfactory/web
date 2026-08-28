@@ -78,9 +78,9 @@ what_we_need:
   body: |
     Un brief complet accélère le processus. Voici ce qui aide :
 
-    - **Specs de planche** — Longueur, largeur, épaisseur cibles, poids du pagayeur, cas d''usage. Les dimensions de planche de référence ou modèles concurrents sont utiles.
+    - **Specs de planche** — Longueur, largeur, épaisseur cibles, poids du pagayeur, cas d'usage. Les dimensions de planche de référence ou modèles concurrents sont utiles.
     - **Fichiers design** — Visuels vectoriels (AI, SVG, PDF) pour graphismes et logos. Si non prêts, des mood boards ou images de référence fonctionnent pour la faisabilité initiale.
-    - **Volume & calendrier** — Quantité cible et planning saisonnier. Même une fourchette approximative (« 20–50 planches d''ici mars ») suffit à démarrer.
+    - **Volume & calendrier** — Quantité cible et planning saisonnier. Même une fourchette approximative (« 20–50 planches d'ici mars ») suffit à démarrer.
     - **Besoins de conformité** — Marchés cibles et toute exigence de certification spécifique au-delà de CE, ISO 9001, BSCI, REACH, RoHS.
     - **Fourchette budgétaire** — Un budget par planche indicatif ou un coût débarqué cible nous aide à recommander la bonne plateforme.
 
@@ -108,7 +108,7 @@ cta:
     - variant: primary
       text: Démarrer votre brief de projet
       href: /fr/contact#project-brief
-    - text: Lire le guide complet d''intégration
+    - text: Lire le guide complet d'intégration
       href: /fr/oem-onboarding-guide
-    - text: Vérifier l''usine et le système qualité
+    - text: Vérifier l'usine et le système qualité
       href: /fr/proof-center

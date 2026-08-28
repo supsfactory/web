@@ -22,7 +22,7 @@ content_html: |
   <h3>Certificats de conformité</h3>
   <ul>
     <li><strong>ISO 9001:2015</strong> – Système de management de la qualité</li>
-    <li><strong>Certification CE</strong> – Vérifiez le numéro de l''organisme notifié</li>
+    <li><strong>Certification CE</strong> – Vérifiez le numéro de l'organisme notifié</li>
     <li><strong>BSCI / SMETA / SEDEX</strong> – Audits de conformité sociale</li>
     <li><strong>REACH / RoHS</strong> – Déclarations de conformité des matériaux</li>
   </ul>
@@ -30,34 +30,34 @@ content_html: |
   <h3>Capacités de fabrication</h3>
   <ul>
     <li>Tissage du noyau drop-stitch en interne vs externalisé</li>
-    <li>Ligne d''enduction / laminage PVC</li>
+    <li>Ligne d'enduction / laminage PVC</li>
     <li>Équipement de soudure RF et à air chaud</li>
     <li>Fabrication de moules en interne (usinage CNC)</li>
     <li>Laboratoire de test (test de pression, vieillissement UV, test de traction)</li>
   </ul>
 
-  <h3>Vérification de l''expérience</h3>
+  <h3>Vérification de l'expérience</h3>
   <ul>
-    <li>Années de fabrication d''embarcations gonflables (5+ ans minimum)</li>
-    <li>Nombre d''ingénieurs en interne</li>
+    <li>Années de fabrication d'embarcations gonflables (5+ ans minimum)</li>
+    <li>Nombre d'ingénieurs en interne</li>
     <li>Clients OEM/ODM existants (demandez des références)</li>
-    <li>Destinations d''export – expédient-ils déjà vers votre marché cible ?</li>
+    <li>Destinations d'export – expédient-ils déjà vers votre marché cible ?</li>
   </ul>
 
   <h2>2. Protocoles de contrôle qualité</h2>
   <p>QC des matériaux entrant : résistance à la traction (ASTM D751 ou ISO 1421), résistance à la déchirure (ASTM D2261 ou ISO 4674), résistance de liaison, contrôles ponctuels de vieillissement UV.</p>
   <p>QC en cours de processus : surveillance de la résistance des coutures tous les 50 unités, vérification du couple de serrage des vannes, contrôles de la densité de fil drop-stitch, contrôles dimensionnels contre les dessins CAO.</p>
-  <p>Inspection finale : test de maintien d''inflation à 100 % (24 heures, chute maximale de 0,50 PSI), inspection visuelle, test de fonction de la vanne, test d''échantillons aléatoires (AQL 2,5 ou 4,0 selon ISO 2859).</p>
+  <p>Inspection finale : test de maintien d'inflation à 100 % (24 heures, chute maximale de 0,50 PSI), inspection visuelle, test de fonction de la vanne, test d'échantillons aléatoires (AQL 2,5 ou 4,0 selon ISO 2859).</p>
 
   <h2>3. Liste de contrôle de documentation de conformité</h2>
   <ul>
     <li>Déclaration de Conformité (DoC) référençant la bonne directive UE</li>
-    <li>Certificat CE de l''organisme notifié</li>
-    <li>Rapport de test d''un laboratoire accrédité</li>
+    <li>Certificat CE de l'organisme notifié</li>
+    <li>Rapport de test d'un laboratoire accrédité</li>
     <li>Fiches de données de sécurité (FDSS / MSDS)</li>
     <li>Déclaration de conformité REACH</li>
     <li>Nomenclature avec traçabilité des fournisseurs</li>
-    <li>Rapport d''inspection d''usine</li>
+    <li>Rapport d'inspection d'usine</li>
   </ul>
 
   <h2>4. Négociation du MOQ</h2>
@@ -71,30 +71,30 @@ content_html: |
       </tr>
     </thead>
     <tbody>
-      <tr><td class="p-3 border font-medium">Développement d''échantillon (par design)</td><td class="p-3 border">1 – 2 unités</td><td class="p-3 border">Échantillons en 7 – 12 jours</td></tr>
+      <tr><td class="p-3 border font-medium">Développement d'échantillon (par design)</td><td class="p-3 border">1 – 2 unités</td><td class="p-3 border">Échantillons en 7 – 12 jours</td></tr>
       <tr><td class="p-3 border font-medium">Commande pilote (plateformes existantes)</td><td class="p-3 border">20 – 50 unités</td><td class="p-3 border">Validation du marché avec matériaux en stock</td></tr>
       <tr><td class="p-3 border font-medium">Lot de volume standard (par design)</td><td class="p-3 border">90 – 100+ unités</td><td class="p-3 border">25 – 35 jours après PO et acompte</td></tr>
-      <tr><td class="p-3 border font-medium">Moule entièrement personnalisé / marque privée</td><td class="p-3 border">Confirmé par la config. du projet</td><td class="p-3 border">Ajoute 15 – 20 jours pour l''outillage</td></tr>
+      <tr><td class="p-3 border font-medium">Moule entièrement personnalisé / marque privée</td><td class="p-3 border">Confirmé par la config. du projet</td><td class="p-3 border">Ajoute 15 – 20 jours pour l'outillage</td></tr>
     </tbody>
   </table>
-  <p>Les quantités de production d''échantillon, de pilote et de volume sont différentes : le développement d''échantillon (1–2 unités) valide la construction, les commandes pilotes (20–50 unités) testent le marché sur des plateformes existantes, et la production en volume standard s''exécute à 90–100+ unités par lot à partir d''un rouleau complet de drop-stitch de 150 m — avec des paliers de tarification de volume à mesure que la taille de la commande augmente. Obtenez le calcul du MOQ, le délai et les conditions de paiement pour votre planche spécifique par écrit avant de vous engager avec un fournisseur.</p>
+  <p>Les quantités de production d'échantillon, de pilote et de volume sont différentes : le développement d'échantillon (1–2 unités) valide la construction, les commandes pilotes (20–50 unités) testent le marché sur des plateformes existantes, et la production en volume standard s'exécute à 90–100+ unités par lot à partir d'un rouleau complet de drop-stitch de 150 m — avec des paliers de tarification de volume à mesure que la taille de la commande augmente. Obtenez le calcul du MOQ, le délai et les conditions de paiement pour votre planche spécifique par écrit avant de vous engager avec un fournisseur.</p>
 
   <h2>5. Logistique et expédition</h2>
-  <p>Incoterms courants : <strong>FOB</strong> (l''usine livre au port de départ – le plus courant), <strong>EXW</strong> (l''acheteur organise toute l''expédition depuis la porte de l''usine), <strong>CIF</strong> (l''usine paie le fret et l''assurance jusqu''au port de destination).</p>
-  <p>Les produits gonflables sont de faible poids et de grand volume — le poids volumétrique (DIM) détermine souvent le coût d''expédition. Demandez un emballage sous vide pour réduire le volume de 50 à 60 %. Le transit par fret maritime de la Chine vers l''UE prend généralement 25 à 35 jours, et 7 à 12 jours vers la côte ouest des États-Unis — en plus du délai de production de 25 à 35 jours.</p>
+  <p>Incoterms courants : <strong>FOB</strong> (l'usine livre au port de départ – le plus courant), <strong>EXW</strong> (l'acheteur organise toute l'expédition depuis la porte de l'usine), <strong>CIF</strong> (l'usine paie le fret et l'assurance jusqu'au port de destination).</p>
+  <p>Les produits gonflables sont de faible poids et de grand volume — le poids volumétrique (DIM) détermine souvent le coût d'expédition. Demandez un emballage sous vide pour réduire le volume de 50 à 60 %. Le transit par fret maritime de la Chine vers l'UE prend généralement 25 à 35 jours, et 7 à 12 jours vers la côte ouest des États-Unis — en plus du délai de production de 25 à 35 jours.</p>
 
   <h2>6. Pièges courants</h2>
   <ul>
-    <li><strong>Pas d''audit d''usine :</strong> Effectuez ou faites toujours réaliser un audit tierce partie (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Pas d'audit d'usine :</strong> Effectuez ou faites toujours réaliser un audit tierce partie (QIMA, SGS, Bureau Veritas)</li>
     <li><strong>Spéc. uniquement verbales :</strong> une fiche technique détaillée signée par les deux parties</li>
-    <li><strong>Sauter l''approbation de l''échantillon :</strong> signature écrite sur les échantillons avant la production en gros</li>
-    <li><strong>Pas de QC pendant la production :</strong> inspection tierce partie pendant la production (DUPRO) et avant l''expédition (PSI)</li>
+    <li><strong>Sauter l'approbation de l'échantillon :</strong> signature écrite sur les échantillons avant la production en gros</li>
+    <li><strong>Pas de QC pendant la production :</strong> inspection tierce partie pendant la production (DUPRO) et avant l'expédition (PSI)</li>
     <li><strong>Ignorer la conformité :</strong> Vérifiez le marquage CE (Directive 2013/53/UE) et la documentation spécifique au marché avant la production</li>
   </ul>
 
   <h2>7. Pourquoi Afarer</h2>
-  <p>Afarer fabrique des planches SUP gonflables OEM/ODM depuis 2012. Avec une installation certifiée ISO 9001 de 12 500 m&sup2;, plus de 25 ingénieurs et une certification CE pour les modèles destinés aux marchés de l''UE (périmètre confirmé par projet), nous répondons à chaque critère de ce guide. Nous offrons des MOQ d''essai pour les nouveaux partenaires et des packs complets de documentation de conformité.</p>
-  <p>Consultez nos <a href="/fr/oem-manufacturing">services de fabrication OEM/ODM de SUP gonflables</a> ou parcourez l''<a href="/fr/factory">atelier d''usine de 12 500 m&sup2;</a> pour voir l''équipement et les processus QC derrière chaque étape ci-dessus.</p>
+  <p>Afarer fabrique des planches SUP gonflables OEM/ODM depuis 2012. Avec une installation certifiée ISO 9001 de 12 500 m&sup2;, plus de 25 ingénieurs et une certification CE pour les modèles destinés aux marchés de l'UE (périmètre confirmé par projet), nous répondons à chaque critère de ce guide. Nous offrons des MOQ d'essai pour les nouveaux partenaires et des packs complets de documentation de conformité.</p>
+  <p>Consultez nos <a href="/fr/oem-manufacturing">services de fabrication OEM/ODM de SUP gonflables</a> ou parcourez l'<a href="/fr/factory">atelier d'usine de 12 500 m&sup2;</a> pour voir l'équipement et les processus QC derrière chaque étape ci-dessus.</p>
 
 cta:
   title: 'Prêt à commencer l''approvisionnement ?'

@@ -44,7 +44,7 @@ content_programs:
       description: 'Tarification de flotte, qualité constante et marque personnalisée pour les stations, centres de plongée et opérations de location du monde entier.'
       icon: tabler:sun
 content_benefits:
-  tagline: Pourquoi s''associer à nous
+  tagline: Pourquoi s'associer à nous
   title: 'Pourquoi les partenaires choisissent Afarer'
   subtitle: 'Nos partenaires travaillent avec une véritable capacité de fabrication, une qualité constante et un support d''ingénierie réactif.'
   list:
@@ -79,5 +79,5 @@ cta:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Poursuivez votre lecture :</strong> les programmes partenaires partagent un seul <a href="/fr/oem-manufacturing">moteur de fabrication OEM/ODM</a> — les conditions, MOQ d''essai et la personnalisation y sont définis — et toute la production passe par l''<a href="/fr/factory">usine de 12 500 m&sup2;</a>.</p>
+    <p><strong>Poursuivez votre lecture :</strong> les programmes partenaires partagent un seul <a href="/fr/oem-manufacturing">moteur de fabrication OEM/ODM</a> — les conditions, MOQ d'essai et la personnalisation y sont définis — et toute la production passe par l'<a href="/fr/factory">usine de 12 500 m&sup2;</a>.</p>
   </div>

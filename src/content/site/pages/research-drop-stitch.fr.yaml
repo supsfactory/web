@@ -17,23 +17,23 @@ hero:
   subtitle: 'Lecture de 8 min'
 
 content_html: |
-  <h2>Qu''est-ce que le drop stitch ?</h2>
-  <p>Le drop stitch (aussi appelé « tissu drop-stitch » ou « noyau drop-stitch ») est une méthode de construction dans laquelle des milliers de fils de polyester individuels relient les couches supérieure et inférieure d''une coque de tissu. Quand la coque est gonflée, ces fils agissent comme des éléments de tension internes — ils empêchent les panneaux supérieur et inférieur de se bomber vers l''extérieur en forme ronde, forçant le panneau à rester plat et rigide.</p>
-  <p>Le résultat est une structure légère et portable qui peut résister à une pression interne de 15 – 20 PSI — comparable à la rigidité d''une planche à coque dure mais entièrement dégonflable pour le stockage et le transport.</p>
+  <h2>Qu'est-ce que le drop stitch ?</h2>
+  <p>Le drop stitch (aussi appelé « tissu drop-stitch » ou « noyau drop-stitch ») est une méthode de construction dans laquelle des milliers de fils de polyester individuels relient les couches supérieure et inférieure d'une coque de tissu. Quand la coque est gonflée, ces fils agissent comme des éléments de tension internes — ils empêchent les panneaux supérieur et inférieur de se bomber vers l'extérieur en forme ronde, forçant le panneau à rester plat et rigide.</p>
+  <p>Le résultat est une structure légère et portable qui peut résister à une pression interne de 15 – 20 PSI — comparable à la rigidité d'une planche à coque dure mais entièrement dégonflable pour le stockage et le transport.</p>
 
   <h2>Comment cela fonctionne : la physique</h2>
-  <p>Dans une structure gonflable conventionnelle (comme un ballon ou un matelas gonflable), la pression d''air interne pousse également dans toutes les directions. Sans retenue interne, la structure devient cylindrique ou sphérique. Le drop stitch résout cela en introduisant un renfort de tension :</p>
+  <p>Dans une structure gonflable conventionnelle (comme un ballon ou un matelas gonflable), la pression d'air interne pousse également dans toutes les directions. Sans retenue interne, la structure devient cylindrique ou sphérique. Le drop stitch résout cela en introduisant un renfort de tension :</p>
   <ul>
     <li>Des milliers de fils relient les couches de tissu supérieure et inférieure</li>
-    <li>Quand il est gonflé, la pression d''air essaie d''écarter le haut et le bas</li>
-    <li>Les fils résistent à cette séparation, transférant la charge en tension le long de l''axe du fil</li>
+    <li>Quand il est gonflé, la pression d'air essaie d'écarter le haut et le bas</li>
+    <li>Les fils résistent à cette séparation, transférant la charge en tension le long de l'axe du fil</li>
     <li>Le résultat est un panneau plat et rigide qui résiste à la flexion</li>
   </ul>
 
   <h2>Processus de construction</h2>
   <ol>
     <li><strong>Tissage :</strong> Les fils de polyester sont tissés simultanément dans deux couches séparées de tissu de base (généralement polyester enduit PVC de 1 100 DTEX ou 1 680 DTEX). Les fils sont tissés en boucle entre les couches à un angle de 90&deg;.</li>
-    <li><strong>Enduction :</strong> Le tissu de base tissé est enduit de PVC (ou occasionnellement de TPU) via un processus d''enduction au couteau ou au calendrier. Cela scelle les fils et crée la membrane étanche à l''air.</li>
+    <li><strong>Enduction :</strong> Le tissu de base tissé est enduit de PVC (ou occasionnellement de TPU) via un processus d'enduction au couteau ou au calendrier. Cela scelle les fils et crée la membrane étanche à l'air.</li>
     <li><strong>Liaison des couches :</strong> Le noyau drop-stitch est lié aux couches laminées extérieures (généralement PVC de 0,9 mm ou 1,2 mm) par laminage thermique ou adhésif.</li>
     <li><strong>Soudure :</strong> Les bandes de rail sont soudées le long des bords par soudure à air chaud, soudure RF ou soudure haute fréquence pour créer les parois latérales de la planche.</li>
     <li><strong>Installation de la vanne :</strong> Des vannes Boston ou Halkey-Roberts sont installées, généralement avec un mécanisme de décompression pour empêcher la sur-inflation.</li>
@@ -44,7 +44,7 @@ content_html: |
     <thead>
       <tr class="bg-gray-100">
         <th class="p-3 text-left font-semibold text-gray-900 border">Paramètre</th>
-        <th class="p-3 text-left font-semibold text-gray-900 border">Niveau d''entrée</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Niveau d'entrée</th>
         <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
       </tr>
     </thead>
@@ -66,11 +66,11 @@ content_html: |
   </ul>
 
   <h2>Drop stitch vs pont en air (noyau en fibre de verre ou bois)</h2>
-  <p>Les planches à coque dure utilisent des noyaux en mousse EPS avec renfort de lisses en fibre de verre ou bois. Elles sont plus légères, plus rigides et plus réactives — mais elles ne peuvent pas être dégonflées. Le drop stitch échange une partie de la rigidité contre une portabilité complète. Pour la plupart des utilisateurs récréatifs, les SUP drop-stitch modernes à 20 PSI sont impossibles à distinguer des planches dures d''entrée de gamme en rigidité.</p>
+  <p>Les planches à coque dure utilisent des noyaux en mousse EPS avec renfort de lisses en fibre de verre ou bois. Elles sont plus légères, plus rigides et plus réactives — mais elles ne peuvent pas être dégonflées. Le drop stitch échange une partie de la rigidité contre une portabilité complète. Pour la plupart des utilisateurs récréatifs, les SUP drop-stitch modernes à 20 PSI sont impossibles à distinguer des planches dures d'entrée de gamme en rigidité.</p>
 
   <h2>Comment Afarer utilise le drop stitch</h2>
   <p>Afarer utilise un noyau drop-stitch de 1 680 DTEX dans toute sa gamme de SUP, avec 2 fils par pouce carré et un laminé extérieur PVC de 1,2 mm. Les planches sont nominales à 15 PSI et subissent un test de maintien de pression de 24 heures à 18,0 PSI avant expédition. Les bandes de rail sont soudées à air chaud avec fusion triple couche, et les vannes de décompression sont standard sur tous les modèles.</p>
-  <p>Le drop-stitch est l''épine dorsale de notre production de SUP — voir la <a href="/fr/technology/drop-stitch-core">page technologique du noyau drop-stitch</a> et comment le noyau est lié sur la <a href="/fr/factory">ligne de production d''usine</a>.</p>
+  <p>Le drop-stitch est l'épine dorsale de notre production de SUP — voir la <a href="/fr/technology/drop-stitch-core">page technologique du noyau drop-stitch</a> et comment le noyau est lié sur la <a href="/fr/factory">ligne de production d'usine</a>.</p>
 
 cta:
   title: 'Envie d''en savoir plus sur le drop stitch ?'

@@ -21,10 +21,10 @@ intro: 'Afarer offre des services OEM et ODM complets aux marques, distributeurs
 
 highlight:
   - value: 10+
-    label: Années d''expérience OEM
+    label: Années d'expérience OEM
     detail: Depuis 2012
   - value: 50+
-    label: Pays d''export
+    label: Pays d'export
     detail: Portée mondiale
   - value: 200+
     label: Projets personnalisés livrés
@@ -35,13 +35,13 @@ highlight:
 
 services:
   - title: Conception produit et ingénierie
-    description: Notre équipe R&D interne travaille avec votre concept ou votre spécification pour développer des dessins CAD, des modèles 3D et des prototypes. Nous proposons la conception de moules, l''optimisation de la forme de coque et des conseils de choix de matériaux.
+    description: Notre équipe R&D interne travaille avec votre concept ou votre spécification pour développer des dessins CAD, des modèles 3D et des prototypes. Nous proposons la conception de moules, l'optimisation de la forme de coque et des conseils de choix de matériaux.
   - title: Marque et graphismes personnalisés
-    description: Impression numérique pleine couleur, sérigraphie, gaufrage et options d''étiquettes. Nous développons des graphismes de pont spécifiques à la marque, le marquage des tubes et un emballage prêt pour le retail.
+    description: Impression numérique pleine couleur, sérigraphie, gaufrage et options d'étiquettes. Nous développons des graphismes de pont spécifiques à la marque, le marquage des tubes et un emballage prêt pour le retail.
   - title: Personnalisation des matériaux et spécifications
     description: Choisissez parmi PVC (standard, écologique, ignifuge), Hypalon/CSM, drop-stitch et constructions hybrides. Couleurs de tubes personnalisées, grammages de tissu et options de renfort.
   - title: Emballage et logistique
-    description: Emballage retail personnalisé, boîtes en marque privée, mise sous vide, palettisation et conditionnement prêt à l''export préparés en interne.
+    description: Emballage retail personnalisé, boîtes en marque privée, mise sous vide, palettisation et conditionnement prêt à l'export préparés en interne.
 
 moq_table:
   - product: Planches de SUP gonflables
@@ -51,11 +51,11 @@ moq_table:
 
 why_us:
   - title: Intégration verticale
-    description: Nous possédons notre usine, nos moules et notre chaîne d''approvisionnement — pas d''intermédiaires, pas de sous-traitants. Cela nous donne le contrôle sur la qualité, le coût et la livraison.
+    description: Nous possédons notre usine, nos moules et notre chaîne d'approvisionnement — pas d'intermédiaires, pas de sous-traitants. Cela nous donne le contrôle sur la qualité, le coût et la livraison.
   - title: Double certification
-    description: Certification de management de la qualité ISO 9001 et de conformité sociale BSCI. Rapports d''audit d''usine disponibles sur demande.
+    description: Certification de management de la qualité ISO 9001 et de conformité sociale BSCI. Rapports d'audit d'usine disponibles sur demande.
   - title: Conformité CE
-    description: La certification CE s''applique aux modèles destinés aux marchés de l''UE (périmètre confirmé par projet). Les modèles personnalisés peuvent être certifiés CE par notre processus établi.
+    description: La certification CE s'applique aux modèles destinés aux marchés de l'UE (périmètre confirmé par projet). Les modèles personnalisés peuvent être certifiés CE par notre processus établi.
   - title: MOQ spécifique au projet
     description: 'Le MOQ est confirmé par la configuration de votre projet — le co-marquage en petits lots commence à 5–10 unités, la production standard en volume s''exécute en 90–100+ unités par lot. Nous aidons les marques émergentes à se lancer sans sur-engager de stock.'
 
@@ -66,9 +66,9 @@ cta:
     - variant: primary
       text: Demander un devis OEM
       href: /fr/contact#custom-oem
-    - text: Vérifier l''usine et le système qualité
+    - text: Vérifier l'usine et le système qualité
       href: /fr/oem-trust-assurance
-    - text: Le système d''inspection en 7 étapes
+    - text: Le système d'inspection en 7 étapes
       href: /fr/quality
     - text: Voir la ligne de production
       href: /fr/factory/process

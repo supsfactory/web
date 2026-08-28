@@ -82,15 +82,15 @@ collaboration_modes:
 checklist:
   heading: 'Que préparer avant votre brief de projet'
   body: |
-    Plus votre brief est complet, plus le devis est rapide et précis. Voici ce qu''il faut avoir prêt :
+    Plus votre brief est complet, plus le devis est rapide et précis. Voici ce qu'il faut avoir prêt :
 
     - **Spécifications de la planche** — Longueur cible, largeur, épaisseur, plage de poids du pagayeur et usage prévu (randonnée, polyvalent, surf, pêche, yoga, etc.). Si vous avez des dimensions de planche de référence ou un modèle concurrent, incluez-les.
     - **Fichiers de design** — Graphismes vectoriels (AI, SVG ou PDF) pour les graphismes de la planche, le logo du tapis EVA et tout marquage secondaire. Si les graphismes ne sont pas prêts, un mood board ou des images de référence suffisent pour la faisabilité initiale.
-    - **Volume et calendrier de commande** — Votre quantité cible pour la première commande et le calendrier de saison à respecter. Même une fourchette approximative (« 20–50 planches d''ici mars ») suffit pour confirmer la faisabilité et la disponibilité des créneaux.
+    - **Volume et calendrier de commande** — Votre quantité cible pour la première commande et le calendrier de saison à respecter. Même une fourchette approximative (« 20–50 planches d'ici mars ») suffit pour confirmer la faisabilité et la disponibilité des créneaux.
     - **Exigences de conformité** — Marchés cibles (UE, Amérique du Nord, Australie, etc.) et toute exigence de certification ou de test spécifique au-delà de notre périmètre standard (CE, ISO 9001, BSCI, REACH, RoHS).
-    - **Fourchette budgétaire** — Un budget indicatif par planche ou un coût débarqué cible aide à recommander la bonne plateforme et le bon niveau de construction. Le prix exact est confirmé après la revue d''ingénierie — jamais avant.
+    - **Fourchette budgétaire** — Un budget indicatif par planche ou un coût débarqué cible aide à recommander la bonne plateforme et le bon niveau de construction. Le prix exact est confirmé après la revue d'ingénierie — jamais avant.
 
-    Si vous n''avez pas encore tout cela, soumettez ce que vous avez. Nous vous guiderons pour le reste.
+    Si vous n'avez pas encore tout cela, soumettez ce que vous avez. Nous vous guiderons pour le reste.
 
 evidence_review:
   tagline: 'Preuves et vérification'
@@ -121,5 +121,5 @@ cta:
       href: /fr/contact#project-brief
     - text: Comparez OEM, ODM et Marque privée
       href: /fr/oem-odm-private-label-comparison
-    - text: Vérifier l''usine et le système qualité
+    - text: Vérifier l'usine et le système qualité
       href: /fr/proof-center

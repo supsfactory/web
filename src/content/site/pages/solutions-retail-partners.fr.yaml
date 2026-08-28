@@ -89,7 +89,7 @@ support:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>À lire :</strong> voyez le <a href="/fr/oem-manufacturing">programme de fabrication OEM/ODM</a> complet — MOQ confirmés par projet à travers les étapes échantillon, pilote et volume, marque privée et conformité CE — ou lisez le <a href="/fr/oem-moq-guide">guide MOQ &amp; marque flexible</a>, ou visitez l''<a href="/fr/factory">usine</a> pour voir comment la QC prête pour le détail est exécutée.</p>
+    <p><strong>À lire :</strong> voyez le <a href="/fr/oem-manufacturing">programme de fabrication OEM/ODM</a> complet — MOQ confirmés par projet à travers les étapes échantillon, pilote et volume, marque privée et conformité CE — ou lisez le <a href="/fr/oem-moq-guide">guide MOQ &amp; marque flexible</a>, ou visitez l'<a href="/fr/factory">usine</a> pour voir comment la QC prête pour le détail est exécutée.</p>
   </div>
 
 cta:

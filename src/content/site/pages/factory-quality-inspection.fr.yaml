@@ -15,10 +15,10 @@ hero:
   title: Contrôle qualité des planches de SUP gonflables personnalisées
   subtitle: 'QINGDAO VATRAD GROUP.,LTD. applique des critères d''inspection spécifiques au projet tout au long de la préparation des matériaux, de la construction de la planche, du test de gonflage final, de l''emballage et de l''autorisation d''expédition. Les Exigences Qualité sont gérées dynamiquement en fonction de l''échantillon approuvé, de la spécification technique, de l''épreuve des graphismes, de la nomenclature (BOM) et des normes d''emballage convenues pour chaque commande OEM/ODM.'
   actions:
-    - text: Télécharger le pack d''assurance qualité
+    - text: Télécharger le pack d'assurance qualité
       variant: primary
       href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
-    - text: Télécharger l''échantillon de pack qualité (PDF)
+    - text: Télécharger l'échantillon de pack qualité (PDF)
       href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
     - text: Demander des informations qualité OEM
       href: /fr/contact
@@ -32,14 +32,14 @@ intro: 'Notre système qualité est conçu pour les projets OEM/ODM : les critè
 
 scope_note:
   tagline: Périmètre
-  title: Critères d''inspection spécifiques au projet
+  title: Critères d'inspection spécifiques au projet
   body: |
-    Les spécifications qualité peuvent varier selon la construction de la planche (par ex. simple/double couche, drop-stitch tissé, rail fusionné), l''usage final prévu, les réglementations du marché cible et les paramètres approuvés par le client. L''autorisation de libération finale est strictement basée sur les critères d''inspection documentés convenus pour la commande.
+    Les spécifications qualité peuvent varier selon la construction de la planche (par ex. simple/double couche, drop-stitch tissé, rail fusionné), l'usage final prévu, les réglementations du marché cible et les paramètres approuvés par le client. L'autorisation de libération finale est strictement basée sur les critères d'inspection documentés convenus pour la commande.
 
 stages:
   tagline: Cadre qualité
   title: Notre système de vérification qualité en 4 étapes
-  subtitle: Une boucle QC complète de l''arrivée de la matière première à l''autorisation d''expédition.
+  subtitle: Une boucle QC complète de l'arrivée de la matière première à l'autorisation d'expédition.
   steps:
     - title: '1. Contrôle des matières entrantes (IQC)'
       desc: 'Les matériaux principaux et les composants achetés sont vérifiés par rapport aux spécifications approuvées et aux échantillons de référence avant d''entrer sur la ligne de production. Le drop-stitch et le PVC sont vérifiés pour l''identification du matériau, le lot fournisseur, le poids/densité, l''épaisseur, la correspondance des couleurs avec les échantillons approuvés et les défauts de surface. Les tapis de traction EVA sont vérifiés pour le motif, la couleur, l''épaisseur, la précision de découpe et la compatibilité de l''adhésif. Les valves et la quincaillerie subissent des tests de fonctionnalité, de filetage, d''intégrité du joint et de montage. Les accessoires et l''emballage (pompes, pagaies, ailerons, leashes, sacs, cartons) sont appariés pour la quantité, la couleur, la marque, la précision du code-barres et la version des graphismes par rapport à la BOM approuvée.'
@@ -51,13 +51,13 @@ stages:
       desc: 'Une vérification complète avant expédition garantit zéro écart de configuration SKU ou de marques d''expédition. La complétude du kit recoupe planche, aileron, leash, pagaie, pompe, sac, kit de réparation et manuel utilisateur par rapport à la BOM de commande. Les contrôles d''emballage et de code-barres vérifient les marques des cartons, les étiquettes SKU, la lisibilité des codes-barres, la langue du manuel et l''intégrité structurelle du carton. Les commandes ne sont libérées qu''après la signature de l''audit final d''emballage par un personnel qualité autorisé.'
 
 inspection_points:
-  tagline: Couverture d''inspection
-  title: Points de contrôle d''inspection clés
-  subtitle: Chaque point de contrôle est exécuté selon des critères d''acceptation documentés convenus par commande.
+  tagline: Couverture d'inspection
+  title: Points de contrôle d'inspection clés
+  subtitle: Chaque point de contrôle est exécuté selon des critères d'acceptation documentés convenus par commande.
   features:
     - icon: A
       icon_bg: blue
-      title: Vérification de l''étanchéité à l''air
+      title: Vérification de l'étanchéité à l'air
       desc: 'Les planches terminées sont gonflées à la pression d''inspection approuvée et vérifiées pour la rétention de pression, l''état de la base de valve, les coutures de rail, les zones nez et queue et les emplacements à haute contrainte. Là où la procédure d''inspection l''exige, les zones suspectes de fuite sont examinées avec des méthodes de détection de fuite approuvées.'
     - icon: B
       icon_bg: green
@@ -65,25 +65,25 @@ inspection_points:
       desc: 'Les planches sont inspectées sous un éclairage adapté pour l''état de la surface du matériau, les défauts d''impression, la variation de couleur, l''alignement EVA, les plis, les rayures, la contamination et l''apparence des collages. Les dimensions clés et les positions des accessoires sont vérifiées par rapport aux dessins ou spécifications approuvés.'
     - icon: C
       icon_bg: purple
-      title: Vérification des accessoires et de l''emballage
+      title: Vérification des accessoires et de l'emballage
       desc: 'La configuration complète du produit est vérifiée avant expédition : modèle de planche, système d''aileron, pagaie, pompe, leash, sac de transport, kit de réparation, manuel utilisateur et accessoires spécifiques au client — chacun apparié à l''échantillon approuvé, aux dessins et à la BOM.'
     - icon: D
       icon_bg: orange
-      title: Conditionnement et autorisation d''expédition
+      title: Conditionnement et autorisation d'expédition
       desc: 'Les unités emballées sont vérifiées pour la configuration SKU, la complétude des accessoires, les étiquettes produit, les informations de code-barres, la version du manuel, le marquage du carton, la quantité de conditionnement et l''état du carton. L''autorisation d''expédition n''est donnée qu''après complétion de toutes les exigences d''inspection et de conditionnement.'
 
 traceability_intro:
   tagline: Traçabilité des lots
   title: Système de traçabilité au niveau du projet et du lot
   body: |
-    Chaque commande de SUP personnalisée est gérée sous un code projet unifié reliant les spécifications techniques, la BOM approuvée, les révisions de graphismes, les numéros de lot des matériaux, les références de conditionnement et les enregistrements d''inspection. Les enregistrements de production et d''inspection sont conservés par le projet et le lot de production applicables, et chaque lot peut être relié à la spécification produit approuvée, à la BOM, aux graphismes et aux références de conditionnement.
+    Chaque commande de SUP personnalisée est gérée sous un code projet unifié reliant les spécifications techniques, la BOM approuvée, les révisions de graphismes, les numéros de lot des matériaux, les références de conditionnement et les enregistrements d'inspection. Les enregistrements de production et d'inspection sont conservés par le projet et le lot de production applicables, et chaque lot peut être relié à la spécification produit approuvée, à la BOM, aux graphismes et aux références de conditionnement.
 
-    Cela soutient une revue efficace de la configuration produit, du statut d''inspection et du périmètre affecté lorsqu''un problème qualité est identifié — du produit fini aux enregistrements sources en utilisant l''identification de la planche ou du carton.
+    Cela soutient une revue efficace de la configuration produit, du statut d'inspection et du périmètre affecté lorsqu'un problème qualité est identifié — du produit fini aux enregistrements sources en utilisant l'identification de la planche ou du carton.
 
 traceability_chain:
   tagline: Chaîne de traçabilité
-  title: Du code projet à l''autorisation d''expédition
-  subtitle: Une chaîne de références contrôlées de la confirmation de commande à l''expédition autorisée.
+  title: Du code projet à l'autorisation d'expédition
+  subtitle: Une chaîne de références contrôlées de la confirmation de commande à l'expédition autorisée.
   steps:
     - step: '01'
       title: Code projet
@@ -95,41 +95,41 @@ traceability_chain:
       title: Lot et matériaux
       desc: Lots de matériaux et de composants enregistrés contre le lot de production.
     - step: '04'
-      title: Enregistrements d''inspection
-      desc: Résultats d''inspection IQC, en cours de fabrication, d''étanchéité à l''air, finale et de conditionnement par lot.
+      title: Enregistrements d'inspection
+      desc: Résultats d'inspection IQC, en cours de fabrication, d'étanchéité à l'air, finale et de conditionnement par lot.
     - step: '05'
       title: Conditionnement et libération
-      desc: Lot de conditionnement, statut de clôture NCR et résumé d''autorisation d''expédition.
+      desc: Lot de conditionnement, statut de clôture NCR et résumé d'autorisation d'expédition.
 
 traceability_sample:
   tagline: Échantillon anonymisé
   title: Enregistrement de contrôle de traçabilité (Démo)
   body: |
-    Les valeurs de démonstration sont affichées à titre d''illustration uniquement — les noms de clients, numéros de bons de commande, graphismes personnalisés, données fournisseurs et informations commerciales sont supprimés pour protéger la confidentialité.
+    Les valeurs de démonstration sont affichées à titre d'illustration uniquement — les noms de clients, numéros de bons de commande, graphismes personnalisés, données fournisseurs et informations commerciales sont supprimés pour protéger la confidentialité.
 
     - **Fabricant :** QINGDAO VATRAD GROUP, LTD.
     - **Code projet :** DEMO-SUP-2026-01
     - **Référence SKU :** DEMO-TR-126
     - **Lot de production :** BATCH-AUG-01
     - **Révision Spécification / BOM / Graphismes :** Rev B / Rev C / Rev B
-    - **Enregistrement d''étanchéité à l''air :** RÉUSSI — conservé par lot
-    - **Statut d''inspection :** RÉUSSI
-    - **Statut d''expédition :** LIBÉRÉ
+    - **Enregistrement d'étanchéité à l'air :** RÉUSSI — conservé par lot
+    - **Statut d'inspection :** RÉUSSI
+    - **Statut d'expédition :** LIBÉRÉ
 
 quarantine_intro:
   tagline: Contrôle des non-conformités
   title: Contrôle des produits non conformes et mise en quarantaine
   body: |
-    Les produits ou composants qui ne respectent pas les critères d''acceptation définis sont clairement identifiés et placés sous statut de blocage ou de quarantaine contrôlé. Ils ne peuvent pas passer à l''étape de production suivante, au conditionnement ou à l''expédition jusqu''à ce qu''une disposition autorisée soit complétée. La reprise est effectuée sous instructions approuvées et reliée à l''enregistrement de non-conformité concerné ; les articles repris sont ré-inspectés selon les exigences de projet applicables avant la libération qualité.
+    Les produits ou composants qui ne respectent pas les critères d'acceptation définis sont clairement identifiés et placés sous statut de blocage ou de quarantaine contrôlé. Ils ne peuvent pas passer à l'étape de production suivante, au conditionnement ou à l'expédition jusqu'à ce qu'une disposition autorisée soit complétée. La reprise est effectuée sous instructions approuvées et reliée à l'enregistrement de non-conformité concerné ; les articles repris sont ré-inspectés selon les exigences de projet applicables avant la libération qualité.
 
 quarantine_flow:
   tagline: Flux de contrôle en 7 étapes
-  title: Que se passe-t-il lorsqu''une non-conformité est trouvée
+  title: Que se passe-t-il lorsqu'une non-conformité est trouvée
   subtitle: Identifier, contrôler, corriger, vérifier —puis libérer ou rejeter. Le produit non conforme ne retourne jamais dans la production ou le conditionnement sans contrôle.
   steps:
     - step: '01'
       title: Identifier
-      desc: La non-conformité est enregistrée contre le produit, le SKU, le lot ou l''étape de processus affecté.
+      desc: La non-conformité est enregistrée contre le produit, le SKU, le lot ou l'étape de processus affecté.
     - step: '02'
       title: Étiqueter
       desc: Les articles affectés sont clairement identifiés avec des étiquettes de statut contrôlées — HOLD, QUARANTINE ou REJECTED.
@@ -141,48 +141,48 @@ quarantine_flow:
       desc: Le périmètre affecté est revu par lot, étape de processus, lot de matériau et révision de document.
     - step: '05'
       title: Reprendre / remplacer
-      desc: La correction n''est permise que par une disposition approuvée et une instruction de travail contrôlée.
+      desc: La correction n'est permise que par une disposition approuvée et une instruction de travail contrôlée.
     - step: '06'
       title: Ré-inspecter
-      desc: Les articles corrigés sont ré-inspectés selon les critères d''acceptation applicables avant libération.
+      desc: Les articles corrigés sont ré-inspectés selon les critères d'acceptation applicables avant libération.
     - step: '07'
       title: Libérer ou rejeter
-      desc: Seul le produit conforme autorisé passe au conditionnement ou à l''autorisation d''expédition.
+      desc: Seul le produit conforme autorisé passe au conditionnement ou à l'autorisation d'expédition.
 
 quarantine_evidence:
-  tagline: Sur le sol d''usine
+  tagline: Sur le sol d'usine
   title: Essais contrôlés et quarantaine en pratique
-  subtitle: Les photos de notre atelier de Qingdao montrent comment le contrôle de statut et les enregistrements d''inspection sont appliqués sur site.
+  subtitle: Les photos de notre atelier de Qingdao montrent comment le contrôle de statut et les enregistrements d'inspection sont appliqués sur site.
   features:
     - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
-      alt: Planches de SUP gonflables gonflées dans la zone de test d''étanchéité à l''air de l''usine, surveillées par un manomètre numérique
-      title: Zone de test d''étanchéité à l''air
+      alt: Planches de SUP gonflables gonflées dans la zone de test d'étanchéité à l'air de l'usine, surveillées par un manomètre numérique
+      title: Zone de test d'étanchéité à l'air
       desc: 'Planches gonflées maintenues dans la zone de test QC sous éclairage industriel, avec des manomètres numériques surveillant le test approuvé de maintien d''air à la base de valve, aux coutures de rail, au nez et à la queue et aux emplacements à haute contrainte. Les enregistrements sont conservés par lot et reliés à l''inspection finale.'
     - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
-      alt: Feuilles de contrôle QC et étiquettes de statut de blocage contrôlé au poste d''inspection de l''usine
+      alt: Feuilles de contrôle QC et étiquettes de statut de blocage contrôlé au poste d'inspection de l'usine
       title: Poste de blocage et de quarantaine
       desc: 'Poste d''inspection avec feuilles de contrôle QC et étiquetage de statut. Tout article échouant aux critères d''acceptation est étiqueté, enregistré et déplacé en quarantaine — il ne peut pas passer au conditionnement jusqu''à ce qu''une disposition autorisée et une ré-inspection obligatoire soient complétées.'
     - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
-      alt: Technicien QC effectuant une reprise d''étanchéité à l''air contrôlée sur un SUP gonflable au poste de reprise de l''usine
+      alt: Technicien QC effectuant une reprise d'étanchéité à l'air contrôlée sur un SUP gonflable au poste de reprise de l'usine
       title: Poste de reprise contrôlée
       desc: 'La reprise d''étanchéité à l''air est effectuée sur un poste dédié sous une carte de méthode approuvée : le défaut est marqué, la planche reste sur HOLD, et après la période de durcissement requise elle revient dans la zone de test pour une ré-inspection selon les critères d''acceptation d''origine.'
     - image: https://assets.supsfactory.com/site/quality/qc-workshop-quarantine-demo.avif
-      alt: Démonstration en atelier de la séparation de quarantaine contrôlée dans l''usine de Qingdao
+      alt: Démonstration en atelier de la séparation de quarantaine contrôlée dans l'usine de Qingdao
       title: Démonstration de la zone de quarantaine
       desc: 'Photo de démonstration de l''atelier montrant comment fonctionne la séparation de quarantaine contrôlée sur site : les unités séparées sont maintenues sous contrôle de statut jusqu''à ce qu''une disposition autorisée soit complétée.'
 
 rework_intro:
   tagline: Gouvernance de la reprise
-  title: Gouvernance contrôlée des non-conformités et de la reprise d''étanchéité à l''air
+  title: Gouvernance contrôlée des non-conformités et de la reprise d'étanchéité à l'air
   body: |
-    Chez QINGDAO VATRAD GROUP.,LTD., la reprise est définie strictement comme la restauration d''une unité non conforme à la pleine conformité avec sa spécification d''ingénierie d''origine — pas comme un correctif rapide. Toute planche identifiée avec une non-conformité d''étanchéité à l''air est placée sous blocage contrôlé et reliée à un Rapport de Non-Conformité (NCR) avant tout traitement ultérieur ; la source de la fuite est localisée et enregistrée en utilisant la méthode de diagnostic approuvée.
+    Chez QINGDAO VATRAD GROUP.,LTD., la reprise est définie strictement comme la restauration d'une unité non conforme à la pleine conformité avec sa spécification d'ingénierie d'origine — pas comme un correctif rapide. Toute planche identifiée avec une non-conformité d'étanchéité à l'air est placée sous blocage contrôlé et reliée à un Rapport de Non-Conformité (NCR) avant tout traitement ultérieur ; la source de la fuite est localisée et enregistrée en utilisant la méthode de diagnostic approuvée.
 
-    La reprise ne peut avoir lieu que lorsque le défaut est dans le périmètre de reprise approuvé et qu''une méthode autorisée est disponible. L''instruction de reprise identifie le produit, le lot, l''emplacement du défaut, le matériau approuvé, la méthode, les conditions requises et le périmètre de ré-inspection. Après la période de durcissement ou de stabilisation requise, la planche est ré-inspectée selon les mêmes critères d''acceptation applicables qu''une planche conforme — la reprise ne réduit jamais la norme d''acceptation. L''échec de la ré-inspection exige une nouvelle disposition d''ingénierie et de qualité ; la reprise répétée n''est pas permise sans approbation documentée.
+    La reprise ne peut avoir lieu que lorsque le défaut est dans le périmètre de reprise approuvé et qu'une méthode autorisée est disponible. L'instruction de reprise identifie le produit, le lot, l'emplacement du défaut, le matériau approuvé, la méthode, les conditions requises et le périmètre de ré-inspection. Après la période de durcissement ou de stabilisation requise, la planche est ré-inspectée selon les mêmes critères d'acceptation applicables qu'une planche conforme — la reprise ne réduit jamais la norme d'acceptation. L'échec de la ré-inspection exige une nouvelle disposition d'ingénierie et de qualité ; la reprise répétée n'est pas permise sans approbation documentée.
 
 rework_decision:
   tagline: Flux interactif
-  title: Flux de décision de reprise — cliquez sur n''importe quel nœud
-  subtitle: Suivez comment une non-conformité d''étanchéité à l''air est traitée de la détection à la libération ou à la mise au rebut. Cliquez sur un nœud pour développer les exigences de contrôle à cette étape.
+  title: Flux de décision de reprise — cliquez sur n'importe quel nœud
+  subtitle: Suivez comment une non-conformité d'étanchéité à l'air est traitée de la détection à la libération ou à la mise au rebut. Cliquez sur un nœud pour développer les exigences de contrôle à cette étape.
   nodes:
     - id: detect
       type: start
@@ -231,8 +231,8 @@ rework_decision:
 
 defect_matrix:
   tagline: Classification des défauts
-  title: Matrice de classification des défauts d''étanchéité à l''air et d''approbation
-  subtitle: Toutes les fuites ne sont pas reprises — chaque défaut est classé et sa disposition approuvée au bon niveau, de l''inspecteur QC au directeur d''usine.
+  title: Matrice de classification des défauts d'étanchéité à l'air et d'approbation
+  subtitle: Toutes les fuites ne sont pas reprises — chaque défaut est classé et sa disposition approuvée au bon niveau, de l'inspecteur QC au directeur d'usine.
   headers:
     category: Catégorie de défaut
     area: Zone typique
@@ -280,7 +280,7 @@ rework_flow:
       title: Diagnostic systématique de fuite
       desc: 'La planche est gonflée à la pression de diagnostic approuvée par le projet et la source de la fuite est localisée avec une méthode approuvée — rétention de pression, test de bulles calibré, équipement acoustique ou de détection de fuite. L''emplacement suspect est marqué sans endommager la planche.'
     - step: '03'
-      title: Disposition et autorisation d''ingénierie
+      title: Disposition et autorisation d'ingénierie
       desc: 'La QC confirme la catégorie de défaut et l''Ingénierie examine si la planche peut être restaurée à sa spécification d''origine. Une autorisation de reprise référençant le NCR enregistre la méthode, les matériaux, les conditions et le périmètre de ré-inspection approuvés — ou assigne le remplacement, le rejet, la mise au rebut ou la concession client.'
     - step: '04'
       title: Exécution de la reprise contrôlée
@@ -298,7 +298,7 @@ rework_flow:
 quality_safeguards:
   tagline: Garde-fous qualité
   title: Règles anti-erreur qui protègent votre marque
-  subtitle: Contrôles durs qui empêchent les boucles de réparation non contrôlées — une reprise documentée par défaut, des seuils d''alerte au niveau du lot, une instrumentation calibrée et des conditions de test contrôlées.
+  subtitle: Contrôles durs qui empêchent les boucles de réparation non contrôlées — une reprise documentée par défaut, des seuils d'alerte au niveau du lot, une instrumentation calibrée et des conditions de test contrôlées.
   features:
     - icon: 1
       icon_bg: blue
@@ -321,16 +321,16 @@ rework_boundaries:
   tagline: Périmètre et limites
   title: Ce que ce système ne couvre pas
   body: |
-    Le système de contrôle de la reprise s''applique aux planches de SUP gonflables terminées ou en cours fabriqué identifiées avec une fuite d''air, un échec de rétention de pression ou des défauts connexes du système d''air avant l''autorisation d''expédition. Il n''autorise pas les modifications de la construction, des matériaux, des graphismes, de la configuration produit ou des exigences client approuvés, et il ne couvre pas :
+    Le système de contrôle de la reprise s'applique aux planches de SUP gonflables terminées ou en cours fabriqué identifiées avec une fuite d'air, un échec de rétention de pression ou des défauts connexes du système d'air avant l'autorisation d'expédition. Il n'autorise pas les modifications de la construction, des matériaux, des graphismes, de la configuration produit ou des exigences client approuvés, et il ne couvre pas :
 
     - Les produits déjà expédiés ou dans les canaux clients.
-    - Les dommages structurels ou déformations de planche non évalués par l''Ingénierie.
+    - Les dommages structurels ou déformations de planche non évalués par l'Ingénierie.
     - Les défaillances généralisées de rail ou de couture, les dommages du matériau du noyau ou les défauts pouvant affecter la sécurité.
-    - Les projets où la reprise n''est pas permise : échantillons approuvés par le client, unités de certification ou d''essai.
+    - Les projets où la reprise n'est pas permise : échantillons approuvés par le client, unités de certification ou d'essai.
     - Les projets avec des processus clients propriétaires, des matériaux spéciaux ou des exigences de réparation spéciales.
     - Les fuites récurrentes qui ne peuvent pas être localisées, ou les planches échouant de nouveau après reprise.
 
-    Tout écart par rapport aux spécifications client exige une revue d''ingénierie documentée et, le cas échéant, une approbation écrite du client. Les planches qui ne peuvent pas être restaurées à leur spécification d''origine ne sont libérées que sous une concession explicite du client — jamais par la production seule.
+    Tout écart par rapport aux spécifications client exige une revue d'ingénierie documentée et, le cas échéant, une approbation écrite du client. Les planches qui ne peuvent pas être restaurées à leur spécification d'origine ne sont libérées que sous une concession explicite du client — jamais par la production seule.
 
 method_cards:
   tagline: Système de cartes de méthode
@@ -339,8 +339,8 @@ method_cards:
   headers:
     code: Carte de méthode
     defect: Classe de défaut
-    scope: Périmètre d''application
-    controls: Contrôles d''ingénierie clés
+    scope: Périmètre d'application
+    controls: Contrôles d'ingénierie clés
     approval: Autorité de signature
   rows:
     - code: MC-RW-01
@@ -364,7 +364,7 @@ method_cards:
       controls: 'Activation thermique à température contrôlée, rouleau presseur, gabarit anti-enroulement'
       approval: 'Ingénierie + Responsable QA'
     - code: MC-RW-05
-      defect: Classe B/C (rebord d''accessoire)
+      defect: Classe B/C (rebord d'accessoire)
       scope: 'Patch de boîtier d''aileron et scellage de base de montage d''accessoire'
       controls: 'Promoteur d''adhérence de surface, bloc de serrage profilé, période de maintien définie'
       approval: 'QC + Ingénierie'
@@ -383,13 +383,13 @@ inspector_friendly:
   tagline: Inspection tierce partie
   title: Protocole adapté aux inspecteurs
   body: |
-    Nous fournissons une zone d''inspection dédiée avec des manomètres calibrés, des tables lumineuses standardisées pour les contrôles de couture et de graphismes, et des Notes d''inspection pré-remplies afin que les agences tierces (SGS, BV, Intertek, QIMA) puissent compléter l''inspection avant expédition efficacement — économisant vos frais d''inspection.
+    Nous fournissons une zone d'inspection dédiée avec des manomètres calibrés, des tables lumineuses standardisées pour les contrôles de couture et de graphismes, et des Notes d'inspection pré-remplies afin que les agences tierces (SGS, BV, Intertek, QIMA) puissent compléter l'inspection avant expédition efficacement — économisant vos frais d'inspection.
 
-    Chaque note résume les révisions documentaires applicables, la référence d''échantillon approuvée, les contrôles critiques pour la qualité, le niveau d''échantillonnage convenu, les tests fonctionnels et les exigences d''emballage et de code-barres pour le bon de commande. Les quantités, la qualité, le conditionnement et les éléments de sécurité de base spécifiés sont vérifiés par rapport aux références de projet approuvées — pas de chasse aux documents de dernière minute sur site.
+    Chaque note résume les révisions documentaires applicables, la référence d'échantillon approuvée, les contrôles critiques pour la qualité, le niveau d'échantillonnage convenu, les tests fonctionnels et les exigences d'emballage et de code-barres pour le bon de commande. Les quantités, la qualité, le conditionnement et les éléments de sécurité de base spécifiés sont vérifiés par rapport aux références de projet approuvées — pas de chasse aux documents de dernière minute sur site.
 
 document_pack:
   tagline: Pack de documentation qualité
-  title: Télécharger l''échantillon de pack qualité et les modèles de protocole
+  title: Télécharger l'échantillon de pack qualité et les modèles de protocole
   subtitle: 'Modèles contrôlés standard utilisés pour les projets OEM/ODM — structurés comme le registre documentaire 00–15 (index de projet, spécification approuvée, BOM, références de graphismes et d''emballage, QIP, enregistrements d''inspection, NCR, contrôle des modifications, note tierce, résumé de libération).'
   features:
     - icon: P
@@ -400,7 +400,7 @@ document_pack:
       link_label: Télécharger le PDF
     - icon: T
       icon_bg: green
-      title: Note d''inspection tierce partie (PDF)
+      title: Note d'inspection tierce partie (PDF)
       desc: 'Note d''une page pour les inspecteurs SGS / BV / Intertek / QIMA : quantité de commande, niveau d''échantillonnage AQL, révisions applicables et contrôles critiques pour la qualité incluant la vérification de l''enregistrement d''étanchéité à l''air, le test de maintien de pression, la complétude du kit, le scan de code-barres et le test de chute du carton.'
       link: 'https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
       link_label: Télécharger le PDF
@@ -418,7 +418,7 @@ document_pack:
       link_label: Télécharger le PDF
     - icon: W
       icon_bg: blue
-      title: Instruction de reprise d''étanchéité à l''air (PDF)
+      title: Instruction de reprise d'étanchéité à l'air (PDF)
       desc: 'Instruction de travail contrôlée WI-QC-AT-001 Rev A : périmètre et limites, classification des défauts, NCR et autorisation de reprise, exécution contrôlée, durcissement, ré-inspection et libération pour les planches de SUP gonflables.'
       link: 'https://assets.supsfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
       link_label: Télécharger le PDF
@@ -465,13 +465,13 @@ faqs:
       a: 'Un emplacement unique peut être repris une fois sous une instruction autorisée. Si la ré-inspection échoue encore, la planche est escaladée pour remplacement, rejet, mise au rebut ou concession client — la reprise répétée sans approbation documentée n''est pas permise.'
 
 cta:
-  title: Besoin d''un échantillon complet de pack qualité projet ?
+  title: Besoin d'un échantillon complet de pack qualité projet ?
   desc: 'Demandez un pack de support d''inspection tierce partie anonymisé et un Plan d''Inspection Qualité (QIP) pour votre projet OEM/ODM — ou téléchargez les modèles d''échantillon pour revoir la structure documentaire que vous pouvez attendre pour votre commande.'
   actions:
     - text: Demander une revue qualité
       variant: primary
       href: /fr/contact
-    - text: Télécharger l''échantillon de pack qualité (PDF)
+    - text: Télécharger l'échantillon de pack qualité (PDF)
       href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
     - text: Télécharger le protocole QC et la liste de contrôle PSI
       href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

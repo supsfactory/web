@@ -17,7 +17,7 @@ answer:
   verified: '2026-08'
 
 features:
-  title: Conçu pour l''usage locatif intensif
+  title: Conçu pour l'usage locatif intensif
   subtitle: 'Chaque planche est conçue pour 500+ cycles de location avec un entretien minimal.'
   items:
     - title: '500+ cycles de location'
@@ -40,13 +40,13 @@ features:
       icon: 'tabler:color-swatch'
 
 stats:
-  title: Indicateurs d''exploitation
+  title: Indicateurs d'exploitation
   stats:
     - title: Atelier de production
       amount: '12 500 m²'
     - title: Test de pression
       amount: '18 PSI / 24h'
-    - title: Liste de contrôle d''assemblage
+    - title: Liste de contrôle d'assemblage
       amount: '100 points'
     - title: Expédition des pièces
       amount: '48h'
@@ -67,7 +67,7 @@ fleet_guide:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>À lire :</strong> les planches de location partent de votre spéc. — voyez notre <a href="/fr/oem-manufacturing">programme OEM/ODM</a> pour la personnalisation, les MOQ d''essai bas et les prix de flotte. Chaque planche passe la ligne de production de 12 500 m&sup2; <a href="/fr/factory">et est 100 % testée en pression</a> avant expédition.</p>
+    <p><strong>À lire :</strong> les planches de location partent de votre spéc. — voyez notre <a href="/fr/oem-manufacturing">programme OEM/ODM</a> pour la personnalisation, les MOQ d'essai bas et les prix de flotte. Chaque planche passe la ligne de production de 12 500 m&sup2; <a href="/fr/factory">et est 100 % testée en pression</a> avant expédition.</p>
   </div>
 
 cta:

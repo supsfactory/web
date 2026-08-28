@@ -47,9 +47,9 @@ market_cards:
 certifications_detail:
   heading: 'Notre périmètre de certification'
   body: |
-    Les certifications suivantes sont détenues ou disponibles sur l''ensemble de notre production. Le périmètre de certification spécifique pour votre projet est confirmé lors de la revue de faisabilité et détaillé dans votre devis.
+    Les certifications suivantes sont détenues ou disponibles sur l'ensemble de notre production. Le périmètre de certification spécifique pour votre projet est confirmé lors de la revue de faisabilité et détaillé dans votre devis.
 
-    - **ISO 9001:2015** — Système de management qualité usine, audité annuellement par un tiers accrédité. Couvre le processus de fabrication complet de l''inspection des matières entrantes au conditionnement final.
+    - **ISO 9001:2015** — Système de management qualité usine, audité annuellement par un tiers accrédité. Couvre le processus de fabrication complet de l'inspection des matières entrantes au conditionnement final.
     - **Marquage CE** — Appliqué aux modèles destinés aux marchés UE. Tests et documentation selon directive UE applicable. Périmètre confirmé par projet — tous les modèles ne requièrent pas le même périmètre CE.
     - **BSCI** — Audit Business Social Compliance Initiative. Couvre droits des travailleurs, sécurité au travail, conformité environnementale et éthique des affaires. Disponible pour tous les marchés.
     - **REACH** — Règlement UE sur la sécurité chimique. Tous les matériaux PVC, adhésifs et revêtements sont conformes REACH. Documentation des substances et rapports de test disponibles par lot.
@@ -96,5 +96,5 @@ cta:
       href: /fr/contact#project-brief
     - text: Vérifier certifications et système qualité
       href: /fr/proof-center
-    - text: Processus d''intégration OEM
+    - text: Processus d'intégration OEM
       href: /fr/oem-onboarding-guide

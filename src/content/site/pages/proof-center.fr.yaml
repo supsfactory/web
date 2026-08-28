@@ -134,11 +134,11 @@ traceability:
     - **Découpe** — travail de nidification CNC contre le fichier de design, pourcentage de déchets journalisé
     - **Soudure et laminage** — ligne, opérateur, paramètres machine par chambre
     - **Assemblage** — numéro de série de la planche, type de vanne, lot de tapis de pont
-    - **Test** — maintien de 18,0 PSI × 24 h par chambre, rejet automatique au-delà d''une chute de 0,50 PSI
+    - **Test** — maintien de 18,0 PSI × 24 h par chambre, rejet automatique au-delà d'une chute de 0,50 PSI
     - **Libération** — liste de contrôle de 100 points par planche, signature du directeur QA par lot
-    - **Suite** — Certificat de Conformité avec l''expédition ; droit d''audit réservé dans le contrat
+    - **Suite** — Certificat de Conformité avec l'expédition ; droit d'audit réservé dans le contrat
 
-    Demandez l''enregistrement QC d''échantillon avant votre première commande — c''est le même format que vous recevez avec votre expédition.
+    Demandez l'enregistrement QC d'échantillon avant votre première commande — c'est le même format que vous recevez avec votre expédition.
 
 faqs:
   tagline: 'FAQ'
@@ -165,5 +165,5 @@ cta:
   actions:
     - text: Identité de marque
       href: /fr/about/identity
-    - text: Liste de contrôle d''audit d''usine
+    - text: Liste de contrôle d'audit d'usine
       href: /fr/factory-audit-checklist

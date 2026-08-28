@@ -9,7 +9,7 @@ meta:
     - 'qualité sup gonflable'
 hero:
   tagline: Laboratoire de contrôle qualité
-  title: Laboratoire d''essais et assurance qualité
+  title: Laboratoire d'essais et assurance qualité
   subtitle: Laboratoire qualité indépendant avec processus ISO 9001 —chaque unité testée avant expédition
 
 answer:
@@ -24,14 +24,14 @@ highlights:
     label: Unités testées en pression
     detail: Chaque chambre, chaque planche
   - value: 24 h
-    label: Durée du test de rétention d''air
+    label: Durée du test de rétention d'air
     detail: À la pression nominale de 18,0 PSI
   - value: '&lt;5%'
     label: Chute de pression maximale autorisée
     detail: Sur la période de maintien de 24 heures
   - value: AQL 2.5
     label: Seuil de défaut majeur
-    detail: Selon l''échantillonnage ISO 2859
+    detail: Selon l'échantillonnage ISO 2859
 
 test_procedures:
   - title: Inspection des matières premières
@@ -41,30 +41,30 @@ test_procedures:
       - ISO 4674 (déchirure)
       - ISO 4892 (UV)
   - title: Points de contrôle QC en cours de fabrication
-    description: Les opérateurs de production effectuent une auto-inspection à chaque étape. Les auditeurs QC réalisent un échantillonnage aléatoire tout au long de l''équipe. Les tests de pelage de soudure sont effectués toutes les 50 unités. Les contrôles dimensionnels ont lieu chaque 20e panneau.
+    description: Les opérateurs de production effectuent une auto-inspection à chaque étape. Les auditeurs QC réalisent un échantillonnage aléatoire tout au long de l'équipe. Les tests de pelage de soudure sont effectués toutes les 50 unités. Les contrôles dimensionnels ont lieu chaque 20e panneau.
     standards:
       - ASTM D751 (pelage)
       - Liste de contrôle interne à 100 points
       - Échantillonnage ISO 2859
-  - title: Test de rétention d''air de 24 heures
+  - title: Test de rétention d'air de 24 heures
     description: Chaque chambre de tube est gonflée à 18,0 PSI et maintenue 24 heures. Les capteurs de pression enregistrent en continu avec compensation de température. Toute chambre dépassant 0,50 PSI de chute de pression déclenche une ré-inspection automatique du lot.
     standards:
       - ISO 6185
       - CE 2013/53/UE
-  - title: Test de charge et d''équilibre
-    description: Les planches terminées sont testées à la capacité nominale maximale pour la stabilité, le franc-bord et la maniabilité. Chaque planche subit un test à l''eau avant l''approbation de l''inspection finale.
+  - title: Test de charge et d'équilibre
+    description: Les planches terminées sont testées à la capacité nominale maximale pour la stabilité, le franc-bord et la maniabilité. Chaque planche subit un test à l'eau avant l'approbation de l'inspection finale.
     standards:
       - ISO 12217
       - CE 2013/53/UE
 
 equipment:
-  - name: Machine d''essai universelle (traction)
+  - name: Machine d'essai universelle (traction)
     spec: 5 kN, conforme ASTM D751
   - name: Testeur de décroissance de pression
     spec: Multicanal, 0–50 psi, enregistrement de données
   - name: Chambre de vieillissement UV
     spec: ISO 4892, cycles de 1 000 h
-  - name: Jauge d''épaisseur (numérique)
+  - name: Jauge d'épaisseur (numérique)
     spec: Résolution 0,01 mm
   - name: Testeur de pelage (soudure)
     spec: Motorisé, capacité 50 N
@@ -121,9 +121,9 @@ cta:
     - variant: primary
       text: Demander une revue qualité de projet
       href: /fr/contact#quality-inquiry
-    - text: Le système d''inspection en 7 étapes
+    - text: Le système d'inspection en 7 étapes
       href: /fr/quality
-    - text: Normes d''inspection et téléchargements QMS
+    - text: Normes d'inspection et téléchargements QMS
       href: /fr/factory/quality-inspection
-    - text: Visiter le laboratoire d''essais de matériaux R&D
+    - text: Visiter le laboratoire d'essais de matériaux R&D
       href: /fr/randdcenter/quality-inspection-lab

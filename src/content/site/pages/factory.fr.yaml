@@ -18,8 +18,8 @@ answer:
   verified: '2026-08'
 
 intro:
-  - En tant que division de fabrication de **Qingdao Vatrad Group Co., Ltd.**, Afarer contrôle chaque étape de la fabrication de SUP gonflables — de l''arrivée des matières PVC brutes à l''inspection finale avant livraison de la planche à pagaie finie. Notre installation de fabrication dans la zone de développement économique de Qingdao s''étend sur 12 500 mètres carrés et abrite des ateliers dédiés à la découpe de PVC, au collage du noyau drop-stitch, à l''impression numérique de SUP, à l''assemblage final et aux essais qualité.
-  - En intégrant la conception, l''ingénierie, le prototypage, la fabrication et les essais sous un même toit, nous éliminons les inefficacités de la sous-traitance contractuelle et conservons un contrôle direct sur la qualité de fabrication, le choix des matériaux et les délais de livraison. Chaque SUP qui quitte notre atelier est construit par nos équipes, sur nos équipements, selon nos normes.
+  - En tant que division de fabrication de **Qingdao Vatrad Group Co., Ltd.**, Afarer contrôle chaque étape de la fabrication de SUP gonflables — de l'arrivée des matières PVC brutes à l'inspection finale avant livraison de la planche à pagaie finie. Notre installation de fabrication dans la zone de développement économique de Qingdao s'étend sur 12 500 mètres carrés et abrite des ateliers dédiés à la découpe de PVC, au collage du noyau drop-stitch, à l'impression numérique de SUP, à l'assemblage final et aux essais qualité.
+  - En intégrant la conception, l'ingénierie, le prototypage, la fabrication et les essais sous un même toit, nous éliminons les inefficacités de la sous-traitance contractuelle et conservons un contrôle direct sur la qualité de fabrication, le choix des matériaux et les délais de livraison. Chaque SUP qui quitte notre atelier est construit par nos équipes, sur nos équipements, selon nos normes.
 
 stats:
   - value: 12 500 m2
@@ -64,11 +64,11 @@ intelligence_cards:
     metrics:
       - label: Certifications
         value: 'ISO 9001, BSCI, CE, REACH'
-      - label: Marchés à l''export
+      - label: Marchés à l'export
         value: '50+ pays'
     link: /fr/factory/oem-capability
     link_label: 'Services OEM complets →'
-  - title: Normes d''inspection qualité
+  - title: Normes d'inspection qualité
     icon: I
     icon_bg: orange
     desc: 'Critères d''inspection qualité spécifiques au projet sur IQC, IPQC, FQC et OQC : vérification de l''étanchéité à l''air, contrôles visuels et dimensionnels, confirmation des accessoires, traçabilité des lots et signature d''autorisation avant expédition — plus une gouvernance contrôlée des non-conformités d''étanchéité à l''air et de la reprise.'
@@ -120,27 +120,27 @@ workshops_section:
     - title: Découpe de PVC et préparation des matériaux
       description: Les machines de découpe CNC automatiques traitent les tissus PVC, Hypalon et drop-stitch avec une précision sub-millimétrique. Le placement optimisé par ordinateur minimise le gaspillage de matière et garantit que chaque panneau respecte sa spécification dimensionnelle avant le soudage.
       image: https://assets.afarer.com/images/afarer/hero/production-dept.webp
-      alt: Machine de découpe PVC CNC préparant les panneaux de tissu SUP gonflable à l''usine de Qingdao
+      alt: Machine de découpe PVC CNC préparant les panneaux de tissu SUP gonflable à l'usine de Qingdao
     - title: Soudage de tubes et thermoscellage
-      description: Atelier de soudage dédié avec machines de thermoscellage et presses diélectriques RF. Les thermosoudeurs à air chaud lient et fusionnent les chambres des tubes PVC, tandis que les soudures RF produisent des coutures étanches à l''air haute résistance qui dépassent les exigences.
+      description: Atelier de soudage dédié avec machines de thermoscellage et presses diélectriques RF. Les thermosoudeurs à air chaud lient et fusionnent les chambres des tubes PVC, tandis que les soudures RF produisent des coutures étanches à l'air haute résistance qui dépassent les exigences.
       image: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
-      alt: Machine de soudage RF scellant les chambres des tubes de bateau gonflable à l''usine de Qingdao
+      alt: Machine de soudage RF scellant les chambres des tubes de bateau gonflable à l'usine de Qingdao
     - title: Assemblage du noyau drop-stitch
       description: Les noyaux drop-stitch des SUP sont liés aux laminés PVC extérieurs par lamination thermique. Des milliers de fils polyester internes relient les couches supérieure et inférieure, créant une structure rigide à 12-15 PSI. Les bandes de rail sont fusionnées en triple couche pour la résistance des bords.
       image: https://assets.afarer.com/images/afarer/factory/afarer-sup-manufacturing.webp
-      alt: Ligne de fabrication de SUP gonflables avec équipement d''assemblage de noyau drop-stitch à l''usine de Qingdao
+      alt: Ligne de fabrication de SUP gonflables avec équipement d'assemblage de noyau drop-stitch à l'usine de Qingdao
     - title: Impression et décoration de SUP
       description: Les SUP sont décorés par impression numérique pour les graphismes pleine couleur et sérigraphie pour les logos et motifs répétitifs. Les imprimantes numériques produisent des designs de pont de qualité photo, tandis que la sérigraphie offre des marques durables et éclatantes.
       image: https://assets.afarer.com/images/afarer/factory/afarer-production-department-2.webp
-      alt: Intérieur de département de production à l''usine de SUP gonflables de Qingdao
+      alt: Intérieur de département de production à l'usine de SUP gonflables de Qingdao
     - title: Assemblage final et équipement
-      description: Ligne d''assemblage où les valves, anneaux en D, poignées, boîtiers d''ailerons et tapis de pont sont installés sur chaque SUP. Chaque planche suit une liste de contrôle d''assemblage de 100 points signée par le chef d''équipe.
+      description: Ligne d'assemblage où les valves, anneaux en D, poignées, boîtiers d'ailerons et tapis de pont sont installés sur chaque SUP. Chaque planche suit une liste de contrôle d'assemblage de 100 points signée par le chef d'équipe.
       image: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
-      alt: Département de production avec postes d''assemblage à l''usine de Qingdao
+      alt: Département de production avec postes d'assemblage à l'usine de Qingdao
     - title: Essais qualité et inspection
-      description: Chaque planche terminée subit des essais obligatoires de rétention d''air, une vérification de pelage de couture et un contrôle complet des systèmes avant expédition. Notre laboratoire qualité fonctionne indépendamment de la production et relève directement de la direction.
+      description: Chaque planche terminée subit des essais obligatoires de rétention d'air, une vérification de pelage de couture et un contrôle complet des systèmes avant expédition. Notre laboratoire qualité fonctionne indépendamment de la production et relève directement de la direction.
       image: https://assets.afarer.com/images/afarer/factory/afarer-pressure-testing.webp
-      alt: Test de pression d''un SUP gonflable pour la rétention d''air avant expédition à l''usine de Qingdao
+      alt: Test de pression d'un SUP gonflable pour la rétention d'air avant expédition à l'usine de Qingdao
 
 equipment_section:
   tagline: Équipement
@@ -151,11 +151,11 @@ equipment_section:
     - name: Machine de découpe PVC automatique
       spec: Contrôlée par CNC, précision 0,1 mm
     - name: Machine de thermoscellage
-      spec: Air chaud, 200 °C–300 °C, pour l''assemblage de tubes
+      spec: Air chaud, 200 °C–300 °C, pour l'assemblage de tubes
     - name: Presse de soudage diélectrique RF
-      spec: 15 kW, soudage de coutures étanches à l''air
+      spec: 15 kW, soudage de coutures étanches à l'air
     - name: Presse de lamination de noyau drop-stitch
-      spec: Noyaux SUP jusqu''à 14 ft
+      spec: Noyaux SUP jusqu'à 14 ft
     - name: Imprimante numérique
       spec: Graphismes de pont SUP pleine couleur
     - name: Machine de sérigraphie
@@ -163,35 +163,35 @@ equipment_section:
 
 qc_section:
   tagline: Contrôle qualité
-  title: Processus d''essais et d''assurance qualité
+  title: Processus d'essais et d'assurance qualité
   subtitle: Chaque planche subit des essais obligatoires avant expédition. Notre laboratoire qualité fonctionne indépendamment de la production et relève directement de la direction.
   steps:
     - step: '1'
       title: Inspection des matières premières
-      desc: Les tissus PVC, Hypalon et drop-stitch subissent des essais de traction, de propagation de déchirure et de résistance aux UV avant que tout lot n''entre en production.
+      desc: Les tissus PVC, Hypalon et drop-stitch subissent des essais de traction, de propagation de déchirure et de résistance aux UV avant que tout lot n'entre en production.
     - step: '2'
-      title: Test de rétention d''air de 24 heures
+      title: Test de rétention d'air de 24 heures
       desc: Chaque chambre de tube est gonflée à 18,0 PSI et maintenue 24 heures. Une chute de pression supérieure à 0,50 PSI déclenche le rejet automatique et la ré-inspection de la couture.
     - step: '3'
-      title: Essai de charge et d''équilibre
-      desc: Les planches terminées sont gonflées à la pression nominale et vérifiées pour le gonflement symétrique, la rigidité à 15 PSI et la stabilité sous charge. Chaque planche est testée à l''eau dans notre bassin d''essai avant l''inspection finale.
+      title: Essai de charge et d'équilibre
+      desc: Les planches terminées sont gonflées à la pression nominale et vérifiées pour le gonflement symétrique, la rigidité à 15 PSI et la stabilité sous charge. Chaque planche est testée à l'eau dans notre bassin d'essai avant l'inspection finale.
 
 oem_section:
   tagline: Projets OEM
   title: Études de cas de partenariats de marques et OEM
   subtitle: Du concept à la production — comment nous aidons les marques mondiales à lancer et développer leurs gammes de SUP gonflables.
   cases:
-    - challenge: Un détaillant européen de plein air avait besoin d''une gamme de SUP en marque privée avec des graphismes de pont uniques, du PVC écologique et un emballage prêt pour le retail — le tout livré en 60 jours.
-      solution: Nous avons développé des fichiers d''impression numérique personnalisés, sourcé un PVC conforme REACH et réduit l''échantillonnage de 3 tours à 1 en installant l''équipe de conception à notre usine de Qingdao.
+    - challenge: Un détaillant européen de plein air avait besoin d'une gamme de SUP en marque privée avec des graphismes de pont uniques, du PVC écologique et un emballage prêt pour le retail — le tout livré en 60 jours.
+      solution: Nous avons développé des fichiers d'impression numérique personnalisés, sourcé un PVC conforme REACH et réduit l'échantillonnage de 3 tours à 1 en installant l'équipe de conception à notre usine de Qingdao.
       result: 'Production en 25–35 jours à partir du bon de commande signé, avec première livraison dans la fenêtre de 60 jours. 2 400 unités sur 4 SKU. Une commande renouvelée a été passée avant la livraison complète du premier lot.'
       disclaimer: 'Résumé de projet anonymisé — le type et le périmètre du projet sont représentatifs ; les résultats spécifiques ne sont pas vérifiables de manière indépendante.'
-    - challenge: Une startup américaine de sports nautiques avait besoin d''un SUP drop-stitch haute performance avec une forme personnalisée, un emballage co-marqué et une certification BSCI pour le placement en retail.
-      solution: Adaptation du moule SUP existant avec un contour modifié, développement des visuels d''emballage co-marqués et fourniture de la documentation complète d''audit BSCI.
-      result: Placement réussi dans les principaux détaillants de plein air américains, générant une forte dynamique avec plus de 5 000 unités vendues en première année et un taux d''écoulement de 98 %.
+    - challenge: Une startup américaine de sports nautiques avait besoin d'un SUP drop-stitch haute performance avec une forme personnalisée, un emballage co-marqué et une certification BSCI pour le placement en retail.
+      solution: Adaptation du moule SUP existant avec un contour modifié, développement des visuels d'emballage co-marqués et fourniture de la documentation complète d'audit BSCI.
+      result: Placement réussi dans les principaux détaillants de plein air américains, générant une forte dynamique avec plus de 5 000 unités vendues en première année et un taux d'écoulement de 98 %.
       disclaimer: 'Résumé de projet anonymisé — le type et le périmètre du projet sont représentatifs ; les résultats spécifiques ne sont pas vérifiables de manière indépendante.'
-    - challenge: Un distributeur australien avait besoin d''une gamme de SUP certifiée CE avec des couleurs personnalisées et une conformité aux normes australiennes.
-      solution: Production d''échantillons de pré-production avec 4 variantes de couleur et coordination des essais de conformité par une tierce partie.
-      result: Gamme de SUP à 3 modèles lancée sur le marché AU/NZ. Suivie d''une victoire à un appel d''offres gouvernemental pour 12 SUP de patrouille.
+    - challenge: Un distributeur australien avait besoin d'une gamme de SUP certifiée CE avec des couleurs personnalisées et une conformité aux normes australiennes.
+      solution: Production d'échantillons de pré-production avec 4 variantes de couleur et coordination des essais de conformité par une tierce partie.
+      result: Gamme de SUP à 3 modèles lancée sur le marché AU/NZ. Suivie d'une victoire à un appel d'offres gouvernemental pour 12 SUP de patrouille.
       disclaimer: 'Résumé de projet anonymisé — le type et le périmètre du projet sont représentatifs ; les résultats spécifiques ne sont pas vérifiables de manière indépendante.'
 
 faq_section:
@@ -204,7 +204,7 @@ faq_section:
       a: 'Oui. Notre usine maintient une certification BSCI valide de conformité sociale (rapport d''audit disponible sur demande). Nous détenons également l''ISO 9001 pour le management de la qualité. La certification CE s''applique aux modèles destinés aux marchés de l''UE ; le périmètre est confirmé par projet. La documentation de conformité REACH et RoHS est fournie avec chaque commande OEM.'
     - q: Quel est le délai habituel pour une commande OEM ?
       a: 'Le délai standard est de 25–35 jours à partir du bon de commande confirmé et de l''acompte pour la production OEM en volume. Le développement de moules personnalisés ajoute 15–20 jours pour l''outillage. Une production accélérée est disponible pour les commandes urgentes et les périodes de pointe saisonnières. Les échantillons de prototype sont généralement prêts en 7–12 jours.'
-    - q: Gérez-vous la documentation d''export ?
+    - q: Gérez-vous la documentation d'export ?
       a: 'Oui. Notre équipe gère la documentation d''export et le dédouanement en interne, et nous livrons dans plus de 50 pays sur les marchés UE, US, AU et Asie.'
 
 b2b_moq: 'MOQ confirmé par la configuration du projet : échantillon 1–2, pilote 20–50, volume 90–100+ (par rouleau de 150 m) ; co-marquage en petits lots à partir de 5–10 unités.'
@@ -212,7 +212,7 @@ b2b_moq: 'MOQ confirmé par la configuration du projet : échantillon 1–2, pil
 production_flow:
   tagline: Flux de production
   title: De la matière à la planche finie
-  subtitle: Chaque planche passe par 6 étapes de production avec des points de contrôle qualité à chaque étape. Pas de raccourcis, pas d''inspections sautées.
+  subtitle: Chaque planche passe par 6 étapes de production avec des points de contrôle qualité à chaque étape. Pas de raccourcis, pas d'inspections sautées.
   stages:
     - stage: '01'
       title: Réception des matières et QC entrant
@@ -225,7 +225,7 @@ production_flow:
       description: 'Le placement optimisé par ordinateur dispose les panneaux sur le stock PVC pour minimiser le gaspillage. Les machines de découpe CNC automatiques maintiennent une précision de positionnement de 0,1 mm.'
       qc_check: 'Contrôle dimensionnel par rapport aux fichiers CAD DXF, inspection de la qualité des bords, vérification du nombre de panneaux'
       qc_threshold: 'Chaque 20e panneau mesuré. Tolérance ±0,5 mm. Rejet du lot si >2 % hors tolérance'
-      responsibility: Responsable de l''atelier de découpe
+      responsibility: Responsable de l'atelier de découpe
     - stage: '03'
       title: Soudage et assemblage drop-stitch
       description: 'Les noyaux drop-stitch sont liés aux laminés PVC extérieurs par lamination thermique. Les chambres de tubes sont soudées par RF ou à l''air chaud. Les bandes de rail sont fusionnées en triple couche.'
@@ -237,7 +237,7 @@ production_flow:
       description: 'Les planches passent à l''assemblage final où tous les composants sont réunis : panneaux de pont et de coque fusionnés, valves installées, anneaux en D, poignées, boîtiers d''ailerons et fixation du sac de transport. Chaque unité suit une liste de contrôle d''assemblage de 100 points.'
       qc_check: 'Signature de la liste de contrôle à 100 points par unité, test de fonction de la valve (10 cycles ouvert/fermé), vérification du couple de serrage de la quincaillerie, inspection visuelle'
       qc_threshold: 'Politique zéro défaut sur les éléments critiques pour la sécurité (valves, anneaux en D, poignées). Cosmétique mineur : AQL 2,5 (ISO 2859)'
-      responsibility: Chef d''équipe d''assemblage + QC de ligne
+      responsibility: Chef d'équipe d'assemblage + QC de ligne
     - stage: '05'
       title: Test de pression et blocage qualité
       description: 'Chaque chambre est gonflée à 18,0 PSI (pour un SUP nominal de 12–15 PSI) et maintenue 24 heures. Les capteurs de pression enregistrent en continu. Les chambres dépassant 0,50 PSI de chute de pression sont rejetées et envoyées en ré-inspection de couture.'
@@ -267,7 +267,7 @@ workforce:
       role: Découpe CNC, préparation des panneaux, manutention des matériaux
     - name: Soudage et lamination
       count: 40
-      role: Soudure RF, soudure à l''air chaud, assemblage drop-stitch
+      role: Soudure RF, soudure à l'air chaud, assemblage drop-stitch
     - name: Assemblage du noyau SUP
       count: 30
       role: Lamination drop-stitch, collage thermique, fusion des bandes de rail
@@ -279,7 +279,7 @@ workforce:
       role: QC entrant, QC en cours de fabrication, inspection finale, essais de laboratoire
     - name: Logistique et conditionnement
       count: 20
-      role: Emballage, chargement du conteneur, documentation d''export
+      role: Emballage, chargement du conteneur, documentation d'export
     - name: Direction et administration
       count: 15
       role: Ventes, achats, RH, finances, conformité
@@ -287,7 +287,7 @@ workforce:
 material_traceability:
   tagline: Traçabilité
   title: Suivi des matériaux et contrôle des lots
-  description: Chaque lot de matière première reçoit un numéro de lot unique dans notre système ERP. De l''arrivée à la production jusqu''au produit fini, la nomenclature de chaque planche renvoie au lot fournisseur d''origine. Cela permet une traçabilité amont complète pour toute enquête qualité ou conformité.
+  description: Chaque lot de matière première reçoit un numéro de lot unique dans notre système ERP. De l'arrivée à la production jusqu'au produit fini, la nomenclature de chaque planche renvoie au lot fournisseur d'origine. Cela permet une traçabilité amont complète pour toute enquête qualité ou conformité.
   system: 'ERP personnalisé (système interne de Qingdao Vatrad Group) + étiquettes de lot physiques sur chaque ordre de travail'
   coverage: '100 % des matériaux de production — PVC, Hypalon, tissu drop-stitch, adhésifs, valves, quincaillerie, emballage'
   records_retained: '10 ans (selon l''exigence CE 2013/53/UE)'
@@ -318,12 +318,12 @@ qc_dashboard:
       detail: Sur 24 h à 18,0 PSI
     - value: AQL 2.5
       label: Seuil de défaut majeur
-      detail: Selon la norme d''échantillonnage ISO 2859
+      detail: Selon la norme d'échantillonnage ISO 2859
     - value: 24h
       label: Durée de maintien de pression
       detail: Chaque planche, chaque chambre
     - value: 18 PSI
-      label: Pression d''essai vs nominale
+      label: Pression d'essai vs nominale
       detail: Marge de sécurité sur chaque chambre
     - value: 0%
       label: Tolérance sur les défauts de sécurité
@@ -343,5 +343,5 @@ evidence_review:
 cta:
   title: 'Explorez notre usine'
   actions:
-    - text: Liste de contrôle d''audit d''usine
+    - text: Liste de contrôle d'audit d'usine
       href: /fr/factory-audit-checklist

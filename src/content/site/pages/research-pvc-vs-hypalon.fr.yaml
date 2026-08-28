@@ -20,10 +20,10 @@ content_html: |
   <h2>Aperçu des matériaux</h2>
 
   <h3>PVC (chlorure de polyvinyle)</h3>
-  <p>Le PVC est le tissu standard des planches SUP gonflables. Pour la construction des planches, il est généralement renforcé par une trame polyester (1 100 – 1 680 DTEX) enduite des deux côtés, puis soudé par fusion autour d''un noyau drop-stitch. Les formulations modernes de PVC marine incluent des stabilisateurs UV et des plastifiants pour améliorer la flexibilité et la résistance aux intempéries, et les planches construites ainsi supportent des pressions de travail de 12 – 15 PSI.</p>
+  <p>Le PVC est le tissu standard des planches SUP gonflables. Pour la construction des planches, il est généralement renforcé par une trame polyester (1 100 – 1 680 DTEX) enduite des deux côtés, puis soudé par fusion autour d'un noyau drop-stitch. Les formulations modernes de PVC marine incluent des stabilisateurs UV et des plastifiants pour améliorer la flexibilité et la résistance aux intempéries, et les planches construites ainsi supportent des pressions de travail de 12 – 15 PSI.</p>
 
   <h3>Hypalon (CSM – polyéthylène chlorosulfoné)</h3>
-  <p>L''Hypalon est un composé caoutchouteux synthétique (désormais produit de façon générique sous le nom de CSM depuis que DuPont a abandonné la marque Hypalon). Il est réputé pour sa résistance exceptionnelle aux UV et à l''ozone, ce qui en fait le tissu privilégié des flotteurs de bateaux gonflables professionnels et commerciaux exposés longtemps en plein soleil. Sur les planches SUP, l''Hypalon est rarement utilisé — les planches exigent des ponts à haute pression et dimensionnellement stables que le PVC et la construction drop-stitch offrent à une fraction du poids.</p>
+  <p>L'Hypalon est un composé caoutchouteux synthétique (désormais produit de façon générique sous le nom de CSM depuis que DuPont a abandonné la marque Hypalon). Il est réputé pour sa résistance exceptionnelle aux UV et à l'ozone, ce qui en fait le tissu privilégié des flotteurs de bateaux gonflables professionnels et commerciaux exposés longtemps en plein soleil. Sur les planches SUP, l'Hypalon est rarement utilisé — les planches exigent des ponts à haute pression et dimensionnellement stables que le PVC et la construction drop-stitch offrent à une fraction du poids.</p>
 
   <h2>Comparaison côte à côte</h2>
   <table class="w-full text-sm border-collapse">
@@ -36,12 +36,12 @@ content_html: |
     </thead>
     <tbody>
       <tr><td class="p-3 border font-medium">Résistance UV</td><td class="p-3 border">Bonne (avec stabilisateurs)</td><td class="p-3 border">Excellente (inhérente)</td></tr>
-      <tr><td class="p-3 border font-medium">Résistance à l''abrasion</td><td class="p-3 border">Bonne</td><td class="p-3 border">Très bonne</td></tr>
+      <tr><td class="p-3 border font-medium">Résistance à l'abrasion</td><td class="p-3 border">Bonne</td><td class="p-3 border">Très bonne</td></tr>
       <tr><td class="p-3 border font-medium">Résistance à la traction</td><td class="p-3 border">3 000 – 5 000 N/5cm</td><td class="p-3 border">2 500 – 4 000 N/5cm</td></tr>
       <tr><td class="p-3 border font-medium">Poids (par m&sup2;)</td><td class="p-3 border">850 – 1 200 g</td><td class="p-3 border">1 100 – 1 500 g</td></tr>
       <tr><td class="p-3 border font-medium">Souplesse au froid (basse temp.)</td><td class="p-3 border">-30&deg;C</td><td class="p-3 border">-20&deg;C</td></tr>
       <tr><td class="p-3 border font-medium">Réparabilité</td><td class="p-3 border">Facile (soudure thermique ou adhésif)</td><td class="p-3 border">Nécessite un adhésif CSM spécial</td></tr>
-      <tr><td class="p-3 border font-medium">Méthode d''assemblage</td><td class="p-3 border">Soudure RF, soudure à l''air chaud</td><td class="p-3 border">Collage à la main (ciment de contact)</td></tr>
+      <tr><td class="p-3 border font-medium">Méthode d'assemblage</td><td class="p-3 border">Soudure RF, soudure à l'air chaud</td><td class="p-3 border">Collage à la main (ciment de contact)</td></tr>
       <tr><td class="p-3 border font-medium">Coût (matériau)</td><td class="p-3 border">8 – 15 $ / m&sup2;</td><td class="p-3 border">20 – 40 $ / m&sup2;</td></tr>
       <tr><td class="p-3 border font-medium">Durée de vie (soleil tropical)</td><td class="p-3 border">5 – 8 ans</td><td class="p-3 border">10 – 15 ans</td></tr>
     </tbody>
@@ -53,26 +53,26 @@ content_html: |
   <ul>
     <li>Vous construisez des planches SUP gonflables (PVC + drop-stitch est la norme du secteur)</li>
     <li>Le poids de la planche compte — le PVC est 15 – 25 % plus léger</li>
-    <li>Vous avez besoin d''une flexibilité par temps froid sous -20&deg;C</li>
-    <li>Vous souhaitez un plus large éventail d''options de couleur et de finition</li>
-    <li>Vous avez besoin d''une pression de travail élevée (12 – 15 PSI) pour un pont rigide et stable</li>
+    <li>Vous avez besoin d'une flexibilité par temps froid sous -20&deg;C</li>
+    <li>Vous souhaitez un plus large éventail d'options de couleur et de finition</li>
+    <li>Vous avez besoin d'une pression de travail élevée (12 – 15 PSI) pour un pont rigide et stable</li>
   </ul>
 
-  <h3>Choisissez l''Hypalon quand :</h3>
+  <h3>Choisissez l'Hypalon quand :</h3>
   <ul>
     <li>Le produit sera amarré ou stocké en plein soleil pendant des années</li>
     <li>Vous êtes dans un environnement tropical ou à forte exposition UV sans option de stockage</li>
     <li>La durabilité et la durée de vie maximales priment sur le poids et le coût</li>
     <li>Vous construisez des embarcations professionnelles ou commerciales telles que des flotteurs de bateau</li>
-    <li>L''abrasion due au sable, au béton ou aux ponts est une préoccupation principale</li>
+    <li>L'abrasion due au sable, au béton ou aux ponts est une préoccupation principale</li>
   </ul>
 
   <h2>Différences de fabrication</h2>
-  <p>Les planches PVC sont fabriquées par soudure RF (radiofréquence) ou soudure à l''air chaud, créant une liaison moléculaire entre les couches de tissu enduit. Cela permet une production automatisée, cohérente et à haut débit, avec une résistance de couture précise sur les planches haute pression. L''Hypalon est assemblé par collage à la main au ciment de contact ; chaque couture est roulée et pressée manuellement, rendant la production Hypalon plus intensive en main-d''œuvre et adaptée à la construction de tubes basse pression.</p>
+  <p>Les planches PVC sont fabriquées par soudure RF (radiofréquence) ou soudure à l'air chaud, créant une liaison moléculaire entre les couches de tissu enduit. Cela permet une production automatisée, cohérente et à haut débit, avec une résistance de couture précise sur les planches haute pression. L'Hypalon est assemblé par collage à la main au ciment de contact ; chaque couture est roulée et pressée manuellement, rendant la production Hypalon plus intensive en main-d'œuvre et adaptée à la construction de tubes basse pression.</p>
 
   <h2>Recommandation Afarer</h2>
-  <p>Pour les planches SUP gonflables, le PVC moderne de haute qualité avec stabilisateurs UV offre le meilleur équilibre entre coût, poids, performance et durabilité. Afarer construit chaque SUP avec un PVC marine 1 680 DTEX, un revêtement triple couche et un noyau drop-stitch côté pour 15 PSI — chaque lot de tissu étant testé indépendamment dans notre Laboratoire de tissus PVC avant production. L''Hypalon reste disponible sur demande pour les embarcations commerciales et applications spéciales, produit séparément via notre ligne marine commerciale.</p>
-  <p>Le choix du matériau façonne le coût, le poids et la durabilité de votre gamme — indiquez-nous votre marché cible et nous <a href="/fr/oem-manufacturing">spécifierons le bon tissu pour votre projet OEM</a>, testé dans notre <a href="/fr/randdcenter/quality-inspection-lab">laboratoire d''essai des matériaux</a>.</p>
+  <p>Pour les planches SUP gonflables, le PVC moderne de haute qualité avec stabilisateurs UV offre le meilleur équilibre entre coût, poids, performance et durabilité. Afarer construit chaque SUP avec un PVC marine 1 680 DTEX, un revêtement triple couche et un noyau drop-stitch côté pour 15 PSI — chaque lot de tissu étant testé indépendamment dans notre Laboratoire de tissus PVC avant production. L'Hypalon reste disponible sur demande pour les embarcations commerciales et applications spéciales, produit séparément via notre ligne marine commerciale.</p>
+  <p>Le choix du matériau façonne le coût, le poids et la durabilité de votre gamme — indiquez-nous votre marché cible et nous <a href="/fr/oem-manufacturing">spécifierons le bon tissu pour votre projet OEM</a>, testé dans notre <a href="/fr/randdcenter/quality-inspection-lab">laboratoire d'essai des matériaux</a>.</p>
 
 cta:
   title: 'Besoin d''aide pour choisir les matériaux ?'

@@ -18,7 +18,7 @@ hero:
     - text: Télécharger la SOP de contrôle des modifications (PDF)
       variant: primary
       href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
-    - text: Télécharger l''annexe d''exécution A (PDF)
+    - text: Télécharger l'annexe d'exécution A (PDF)
       href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
     - text: Demander une revue qualité
       href: /fr/contact
@@ -29,7 +29,7 @@ answer:
   verified: '2026-08'
 
 stats:
-  tagline: En un coup d''œil
+  tagline: En un coup d'œil
   title: Le contrôle des modifications en chiffres
   stats:
     - value: '9'
@@ -47,19 +47,19 @@ cc_intro:
   body: |
     **Document :** QMS-SOP-QC-CC-001 — *Norme de contrôle des modifications de paramètres de processus de reprise* (Rev 2.0, publication officielle). **Fabricant :** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Référence de norme :** Systèmes de management de la qualité ISO 9001:2015.
 
-    - **Aucune modification non contrôlée.** Les modifications de paramètres de reprise doivent passer par un contrôle formel des modifications. Les opérateurs sur site, les chefs d''équipe ou un service unique ne sont jamais autorisés à modifier des paramètres de reprise approuvés par accord verbal ou par écriture manuscrite sur un enregistrement de reprise.
-    - **Couverture complète des éléments.** Le périmètre contrôlé couvre l''étanchéité à l''air, les sièges de valves, les bandes de rail, l''assemblage des coutures, le durcissement à l''air chaud et le test de maintien de pression — chaque paramètre pouvant influencer l''étanchéité, la durabilité structurelle, l''apparence, l''acceptation client ou la traçabilité.
-    - **Ligne de base d''approbation client.** Toute modification qui éloigne un produit de l''échantillon approuvé par le client, de la spécification technique, de la BOM, des graphismes, de l''exigence d''emballage ou des critères d''acceptation n''est mise en œuvre qu''avec l''approbation écrite du client. Sans elle, la planche est reprise selon l''exigence d''origine, remplacée ou rejetée — jamais « assouplie » par l''usine seule.
+    - **Aucune modification non contrôlée.** Les modifications de paramètres de reprise doivent passer par un contrôle formel des modifications. Les opérateurs sur site, les chefs d'équipe ou un service unique ne sont jamais autorisés à modifier des paramètres de reprise approuvés par accord verbal ou par écriture manuscrite sur un enregistrement de reprise.
+    - **Couverture complète des éléments.** Le périmètre contrôlé couvre l'étanchéité à l'air, les sièges de valves, les bandes de rail, l'assemblage des coutures, le durcissement à l'air chaud et le test de maintien de pression — chaque paramètre pouvant influencer l'étanchéité, la durabilité structurelle, l'apparence, l'acceptation client ou la traçabilité.
+    - **Ligne de base d'approbation client.** Toute modification qui éloigne un produit de l'échantillon approuvé par le client, de la spécification technique, de la BOM, des graphismes, de l'exigence d'emballage ou des critères d'acceptation n'est mise en œuvre qu'avec l'approbation écrite du client. Sans elle, la planche est reprise selon l'exigence d'origine, remplacée ou rejetée — jamais « assouplie » par l'usine seule.
 
 cc_scope:
   tagline: Classification des risques
   title: Périmètre de modification et classification des risques
-  subtitle: Chacun des éléments suivants déclenche un contrôle formel des modifications — il n''est jamais traité en écrivant une note dans l''enregistrement de reprise. Le niveau de risque détermine qui approuve et la quantité de validation requise.
+  subtitle: Chacun des éléments suivants déclenche un contrôle formel des modifications — il n'est jamais traité en écrivant une note dans l'enregistrement de reprise. Le niveau de risque détermine qui approuve et la quantité de validation requise.
   headers:
     category: Catégorie de modification
     examples: Exemples typiques
     risk: Risque
-    requirements: Exigences de contrôle et d''approbation
+    requirements: Exigences de contrôle et d'approbation
   rows:
     - category: 'Matériaux de reprise'
       examples: 'Adhésif, nettoyant, matériau de patch, joint de valve, primaire ou changement de fournisseur'
@@ -87,14 +87,14 @@ cc_scope:
       requirements: 'Révision documentaire contrôlée (Rev A → Rev B) + enregistrements de formation'
 
 cc_containment:
-  tagline: Règle d''arrêt dur
+  tagline: Règle d'arrêt dur
   title: Confinement immédiat quand les conditions deviennent sérieuses
   body: |
-    > « La méthode de reprise existante doit être placée sous revue et ne doit pas être appliquée à des produits affectés supplémentaires jusqu''à ce que la modification soit évaluée et autorisée, sauf si un écart temporaire documenté est approuvé par la Qualité et l''Ingénierie. »
+    > « La méthode de reprise existante doit être placée sous revue et ne doit pas être appliquée à des produits affectés supplémentaires jusqu'à ce que la modification soit évaluée et autorisée, sauf si un écart temporaire documenté est approuvé par la Qualité et l'Ingénierie. »
 
-    La méthode de reprise actuelle doit être suspendue immédiatement lorsque la ré-inspection de reprise continue d''échouer, lorsque le défaut implique des zones structurelles porteuses (base de valve, rails, coutures, zones de pression nez/queue), lorsqu''un matériau de substitution n''est pas encore validé, ou lorsque les paramètres actuels entrent en conflit avec la spécification approuvée par le client.
+    La méthode de reprise actuelle doit être suspendue immédiatement lorsque la ré-inspection de reprise continue d'échouer, lorsque le défaut implique des zones structurelles porteuses (base de valve, rails, coutures, zones de pression nez/queue), lorsqu'un matériau de substitution n'est pas encore validé, ou lorsque les paramètres actuels entrent en conflit avec la spécification approuvée par le client.
 
-    Les écarts temporaires ne deviennent jamais une pratique permanente : chacun porte une fenêtre de validité définie, un périmètre de lot applicable, un plafond de quantité, des exigences de validation et un mécanisme d''expiration automatique. Une exception verbale n''est pas une exception — si elle n''est pas documentée avec son expiration, elle n''existe pas.
+    Les écarts temporaires ne deviennent jamais une pratique permanente : chacun porte une fenêtre de validité définie, un périmètre de lot applicable, un plafond de quantité, des exigences de validation et un mécanisme d'expiration automatique. Une exception verbale n'est pas une exception — si elle n'est pas documentée avec son expiration, elle n'existe pas.
 
 cc_flow:
   tagline: Boucle fermée standard en 9 étapes
@@ -108,7 +108,7 @@ cc_flow:
       title: Filtrage initial et confinement
       desc: 'La demande est d''abord filtrée pour le confinement immédiat : la méthode actuelle doit-elle s''arrêter maintenant ? Si un écart temporaire est autorisé, il est borné par la fenêtre de validité, le périmètre de lot, le plafond de quantité et l''expiration automatique.'
     - step: '03'
-      title: Évaluation d''impact et de risque
+      title: Évaluation d'impact et de risque
       desc: 'L''Ingénierie, la Qualité, la Production, les Achats/Chaîne d''approvisionnement et le Projet évaluent la performance produit, les critères d''acceptation, la compatibilité des matériaux, l''apparence, la capacité de processus, l''équipement et les jauges, la qualification du personnel, les exigences client, la conformité et le périmètre de traçabilité.'
     - step: '04'
       title: Revue conjointe et approbation
@@ -120,7 +120,7 @@ cc_flow:
       title: Mise en œuvre pilote contrôlée
       desc: 'Les nouveaux documents sont publiés et les versions obsolètes retirées et marquées OBSOLÈTES ; les nouveaux matériaux et jauges sont vérifiés et étalonnés ; les opérateurs sont formés et qualifiés ; le premier lot tourne sous inspection renforcée avec identification claire du statut.'
     - step: '07'
-      title: Ré-inspection et revue d''efficacité
+      title: Ré-inspection et revue d'efficacité
       desc: 'Le taux de reprise au premier passage, le taux de réussite de ré-inspection, le taux de récurrence et l''acceptation de l''apparence sont mesurés et revus avant que la modification puisse être considérée comme efficace — une planche réparée n''est jamais traitée comme une validation de processus.'
     - step: '08'
       title: Révision documentaire et formation
@@ -130,8 +130,8 @@ cc_flow:
       desc: 'La modification n''est clôturée qu''après revue et approbation des preuves de validation, des mises à jour documentaires, des enregistrements de formation et de l''efficacité de la mise en œuvre. Si le résultat visé n''est pas atteint, la modification est révisée, prolongée, suspendue ou retirée.'
 
 cc_approval:
-  tagline: Matrice d''approbation
-  title: Matrice d''autorisation interdépartementale
+  tagline: Matrice d'approbation
+  title: Matrice d'autorisation interdépartementale
   subtitle: 'Un tableau d''autorisation fixe empêche la prise de décision ad hoc : chaque type de modification a ses approbateurs requis, de la clarification au niveau documentaire jusqu''à la validation client.'
   headers:
     change: Contenu de la modification
@@ -183,7 +183,7 @@ cc_approval:
       production: Contre-signer
       procurement: '—'
       project: Informer
-      customer: Quand le projet l''exige
+      customer: Quand le projet l'exige
     - change: 'Modification de la méthode de reprise rail / couture / siège de valve'
       engineering: 'Approuver'
       quality: 'Approuver'
@@ -200,29 +200,29 @@ cc_approval:
       customer: 'Approbation écrite obligatoire'
 
 cc_validation:
-  tagline: Validation d''ingénierie
-  title: Protocole de validation et d''acceptation — des preuves plutôt que des affirmations
+  tagline: Validation d'ingénierie
+  title: Protocole de validation et d'acceptation — des preuves plutôt que des affirmations
   body: |
-    Les formulations d''acceptation vagues telles que *« la planche réparée doit être bonne »* ne sont pas acceptées. La formulation contrôlée est :
+    Les formulations d'acceptation vagues telles que *« la planche réparée doit être bonne »* ne sont pas acceptées. La formulation contrôlée est :
 
-    > « L''échantillon repris doit satisfaire les mêmes critères d''acceptation applicables d''étanchéité à l''air, de finition visuelle, de fonction de valve et de spécifiques au projet qu''une planche conforme, sauf si un écart approuvé par le client définit spécifiquement un critère alternatif. »
+    > « L'échantillon repris doit satisfaire les mêmes critères d'acceptation applicables d'étanchéité à l'air, de finition visuelle, de fonction de valve et de spécifiques au projet qu'une planche conforme, sauf si un écart approuvé par le client définit spécifiquement un critère alternatif. »
 
-    Les preuves de validation sont quantitatives, et la base d''ingénierie pour la reprise d''étanchéité à l''air comprend :
+    Les preuves de validation sont quantitatives, et la base d'ingénierie pour la reprise d'étanchéité à l'air comprend :
 
-    - **Élimination de la fuite et maintien de pression.** La fuite d''origine est éliminée sans bulles persistantes dans la détection de fuite à l''eau savonneuse ; la planche tient à la pression de test standard de 18,0 PSI pendant 24 heures, avec une chute de pression nette ΔP ≤ 0,2 PSI après compensation de température/humidité.
+    - **Élimination de la fuite et maintien de pression.** La fuite d'origine est éliminée sans bulles persistantes dans la détection de fuite à l'eau savonneuse ; la planche tient à la pression de test standard de 18,0 PSI pendant 24 heures, avec une chute de pression nette ΔP ≤ 0,2 PSI après compensation de température/humidité.
     - **Fonction de valve.** Le couple du noyau de valve respecte la spécification de 15–20 N·m, sans micro-fuite au joint sous gonflage haute pression et pressage dynamique.
     - **Assemblage et durabilité des coutures.** Les bords liés ne montrent aucun soulèvement, blanchiment ou délamination ; après cycles de vieillissement chaleur-humidité, la couche adhésive ne montre aucun ramollissement ni fissuration fragile.
-    - **Apparence et finition.** Aucune trace de coulure d''adhésif, aucun dommage EVA, aucune déformation de planche, aucun déplacement de logo ni rayure de surface imprimée.
+    - **Apparence et finition.** Aucune trace de coulure d'adhésif, aucun dommage EVA, aucune déformation de planche, aucun déplacement de logo ni rayure de surface imprimée.
 
 cc_engineering:
-  tagline: Matrice d''exécution d''ingénierie
+  tagline: Matrice d'exécution d'ingénierie
   title: Paramètres quantifiés pour les quatre processus de reprise principaux
   subtitle: 'Chaque processus de reprise contrôlé porte des paramètres, une méthodologie et des critères d''acceptation définis — les mêmes chiffres que nos opérateurs suivent et que nos clients peuvent vérifier lors des audits.'
   headers:
     process: Processus de reprise
     parameters: Paramètres contrôlés
     methodology: Méthodologie de test
-    acceptance: Critères d''acceptation
+    acceptance: Critères d'acceptation
   rows:
     - process: 'Réparation de patch de trou d''épingle / micro-fuite'
       parameters: 'Nettoyage au solvant et séchage 3–5 min ; activation à l''air chaud 60 °C ± 5 °C ; rouleau presseur ≥ 0,4 MPa'
@@ -242,17 +242,17 @@ cc_engineering:
       acceptance: 'Chute de pression nette ΔP ≤ 0,20 PSI / 24 h après compensation ; aucun gonflement ni déformation de planche'
 
 cc_photos:
-  tagline: Sur le sol d''usine
+  tagline: Sur le sol d'usine
   title: Reconstruction, re-test, libération — documenté à chaque étape
   subtitle: Les photos de notre atelier de Qingdao montrent chaque processus de reprise contrôlé avec ses jauges calibrées, ses paramètres définis et ses enregistrements sur site — les mêmes preuves que les inspecteurs peuvent demander à tout moment.
   grid: 'sm:grid-cols-2'
   features:
     - image: https://assets.supsfactory.com/site/quality/cc-pinhole-repair.avif
-      alt: Technicien réparant un trou d''épingle micro-fuite sur un SUP gonflable avec un pistolet thermique et un rouleau presseur
-      title: Réparation de trou d''épingle
+      alt: Technicien réparant un trou d'épingle micro-fuite sur un SUP gonflable avec un pistolet thermique et un rouleau presseur
+      title: Réparation de trou d'épingle
       desc: 'Un technicien traite une micro-fuite marquée avec un pistolet thermique réglé à la spécification de 60 °C et un rouleau presseur ; l''eau savonneuse confirme l''emplacement de la fuite, et le ticket ECR signé QC sur l''établi montre la porte de contrôle des modifications (Poka-Yoke n°1).'
     - image: https://assets.supsfactory.com/site/quality/cc-rail-seam-bonding.avif
-      alt: Technicien appliquant de l''adhésif PU bicomposant sur une couture de rail avec un pinceau de précision sous climat contrôlé
+      alt: Technicien appliquant de l'adhésif PU bicomposant sur une couture de rail avec un pinceau de précision sous climat contrôlé
       title: Assemblage de couture de rail
       desc: 'L''adhésif PU bicomposant est appliqué sur la couture de rail avec un pinceau de précision pendant que la planche est maintenue dans un serrage au gabarit ; le thermomètre/hygromètre sur site montre la fenêtre contrôlée de 24 °C / 55 % HR.'
     - image: https://assets.supsfactory.com/site/quality/cc-valve-base-integrity.avif
@@ -271,7 +271,7 @@ cc_pokayoke:
   features:
     - icon: 1
       icon_bg: blue
-      title: Porte ECR pour déverrouillage de l''outillage
+      title: Porte ECR pour déverrouillage de l'outillage
       desc: 'Les postes de reprise lisent un code-barres ECR signé QA avant que les valves de gonflage pneumatiques et les mélangeurs de colle se déverrouillent. Pas d''enregistrement de contrôle des modifications approuvé, pas d''alimentation — la validation rétroactive (« modifier d''abord, signer ensuite ») est physiquement bloquée.'
     - icon: 2
       icon_bg: green
@@ -299,7 +299,7 @@ cc_downloads:
       link_label: Télécharger le PDF
     - icon: A
       icon_bg: green
-      title: Annexe d''exécution A (PDF)
+      title: Annexe d'exécution A (PDF)
       desc: 'Schéma de données ECR, la matrice d''exécution d''ingénierie quantifiée pour les quatre processus de reprise principaux, la logique de blocage Poka-Yoke et le bloc de signature de libération tripartite.'
       link: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
       link_label: Télécharger le PDF
@@ -344,5 +344,5 @@ cta:
       href: /fr/contact
     - text: Télécharger la SOP de contrôle des modifications (PDF)
       href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
-    - text: Télécharger l''annexe d''exécution A (PDF)
+    - text: Télécharger l'annexe d'exécution A (PDF)
       href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

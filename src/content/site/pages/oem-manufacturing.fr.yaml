@@ -35,7 +35,7 @@ features:
     - title: Prototype et échantillon
       description: 'Un échantillon physique est produit et approuvé avant toute série de volume, généralement sous 7–12 jours, avec essais sur piste pour les nouvelles formes.'
       icon: 'tabler:tools'
-    - title: Production à l''échelle du conteneur
+    - title: Production à l'échelle du conteneur
       description: 'Lots en volume standard de 90–100 unités par design (un rouleau de tissu complet de 150 m), séries pilotes dès 20–50 pièces, délai de 25–35 jours après bon de commande confirmé.'
       icon: 'tabler:package'
     - title: Certifié CE
@@ -77,11 +77,11 @@ faq_section:
       a: 'Oui. L''OEM construit à partir de votre spécification telle quelle — vous possédez le design. Nos ingénieurs examinent les dessins pour la faisabilité de production, signalent tout conflit de spéc. avant le début de l''outillage ou de la découpe, et l''échantillon approuvé devient la référence de production.'
     - q: Fournissez-vous des échantillons avant la production ?
       a: 'Oui. Un échantillon physique est produit et approuvé avant toute série de production, généralement sous 7–12 jours, et il sert de référence pour tous les contrôles QC ultérieurs.'
-    - q: Quelles certifications l''usine détient-elle ?
+    - q: Quelles certifications l'usine détient-elle ?
       a: 'CE, ISO 9001, BSCI, REACH et RoHS. Une documentation de conformité complète est fournie avec chaque expédition OEM, préparée pour vos marchés cibles.'
     - q: Comment le contrôle qualité est-il géré sur une série OEM ?
       a: 'La production s''exécute sous un QC multipoints — matière entrante, contrôle en cours de processus et inspection finale — avec test de maintien de pression de 24 heures à 18,0 PSI (rejet automatique au-delà d''une chute de 0,50 PSI), liste de contrôle d''assemblage de 100 points et traçabilité de lot ERP sur 10 ans par numéro de série.'
-    - q: Quelles sont vos conditions d''expédition ?
+    - q: Quelles sont vos conditions d'expédition ?
       a: 'FOB Qingdao, CIF sur les principaux ports mondiaux, ou DDP pour les partenaires qualifiés. Nous expédions vers 50+ pays à travers les marchés UE, US, AU et Asie.'
 
 process:
@@ -95,7 +95,7 @@ process:
         - 'Partagez vos dessins, spécification ou planches de référence — nos ingénieurs vérifient la fabricabilité.'
         - 'Vous recevez un devis détaillé et un plan de projet sous un jour ouvré.'
     - phase: '02'
-      title: Confirmation d''ingénierie
+      title: Confirmation d'ingénierie
       period: Semaine 1
       items:
         - 'Les dimensions de la coque, la qualité du drop-stitch, les spéc. PVC et la construction des rails sont confirmées contre votre document.'
@@ -114,7 +114,7 @@ process:
         - 'Documentation CE, ISO 9001, BSCI, REACH et RoHS préparée pour vos marchés d''export.'
     - phase: '05'
       title: Approbation et confirmation
-      period: Après signature de l''échantillon
+      period: Après signature de l'échantillon
       items:
         - 'Vous approuvez l''échantillon et les graphismes ; le bon de commande et l''acompte verrouillent le créneau de production.'
         - 'Un plan de pré-production confirme les dates, quantités, emballage et port de chargement.'
@@ -133,7 +133,7 @@ process:
 
 geo:
   tagline: Avec qui nous travaillons
-  title: Partenaires OEM dans toute l''industrie du SUP
+  title: Partenaires OEM dans toute l'industrie du SUP
   sentence: 'Chaque projet OEM chez SUPsfactory est associé à une équipe qui a déjà construit des planches pour le même type d''entreprise — voici qui nous servons.'
   audiences:
     - 'Marques de SUP'
@@ -148,15 +148,15 @@ cta:
     - variant: primary
       text: Demander un devis OEM
       href: /fr/contact#custom-oem
-    - text: Vérifier l''usine et le système qualité
+    - text: Vérifier l'usine et le système qualité
       href: /fr/oem-trust-assurance
-    - text: Le système d''inspection en 7 étapes
+    - text: Le système d'inspection en 7 étapes
       href: /fr/quality
     - text: Guide MOQ & marque flexible
       href: /fr/oem-moq-guide
     - text: Décomposition du MOQ et des délais SUP personnalisés
       href: /fr/sup-oem-moq-lead-time
-    - text: Lancez une nouvelle marque avec une commande d''essai
+    - text: Lancez une nouvelle marque avec une commande d'essai
       href: /fr/new-brand-trial-order
     - text: Comparaison de construction SUP
       href: /fr/sup-construction-comparison

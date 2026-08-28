@@ -17,23 +17,23 @@ answer:
   verified: '2026-08'
 
 content_html: |
-  <h2>Qu''est-ce que la certification CE ?</h2>
-  <p>Le marquage CE (Conformit&eacute; Europ&eacute;enne) indique qu''un produit respecte les exigences de santé, de sécurité et d''environnement de l''UE. Pour les embarcations gonflables, le cadre réglementaire pertinent dépend de la catégorie de produit.</p>
+  <h2>Qu'est-ce que la certification CE ?</h2>
+  <p>Le marquage CE (Conformit&eacute; Europ&eacute;enne) indique qu'un produit respecte les exigences de santé, de sécurité et d'environnement de l'UE. Pour les embarcations gonflables, le cadre réglementaire pertinent dépend de la catégorie de produit.</p>
 
   <h2>Directives applicables</h2>
 
   <h3>Directive relative aux bateaux de plaisance (2013/53/UE)</h3>
-  <p>La directive principale pour la plupart des bateaux gonflables, SUP et kayaks. Elle s''applique aux bateaux de plaisance de 2,5 m à 24 m de longueur de coque, aux bateaux partiellement construits (pour la fourniture OEM) et aux engins nautiques à moteur.</p>
+  <p>La directive principale pour la plupart des bateaux gonflables, SUP et kayaks. Elle s'applique aux bateaux de plaisance de 2,5 m à 24 m de longueur de coque, aux bateaux partiellement construits (pour la fourniture OEM) et aux engins nautiques à moteur.</p>
 
   <h3>Règlement relatif aux équipements de protection individuelle (2016/425)</h3>
-  <p>Les gilets de sauvetage, aides à la flottabilité et équipements de sécurité fournis avec les embarcations doivent respecter les exigences du règlement EPI, y compris l''examen de type (Module B) par un organisme notifié et l''assurance qualité de production (Module D ou E).</p>
+  <p>Les gilets de sauvetage, aides à la flottabilité et équipements de sécurité fournis avec les embarcations doivent respecter les exigences du règlement EPI, y compris l'examen de type (Module B) par un organisme notifié et l'assurance qualité de production (Module D ou E).</p>
 
   <h2>Le processus de certification</h2>
   <ol>
-    <li>Classification du produit : déterminer la catégorie de conception de l''embarcation (A – D selon ISO 8666)</li>
+    <li>Classification du produit : déterminer la catégorie de conception de l'embarcation (A – D selon ISO 8666)</li>
     <li>Normes applicables : EN ISO 6185 (Parties 1 – 4), EN ISO 10087 (HIN), EN ISO 14945 (plaque du constructeur)</li>
     <li>Préparation du dossier technique : dessins de conception, nomenclature, certificats de matériaux, analyse des risques</li>
-    <li>Essai de type : flottabilité, stabilité, capacité de charge, test des matériaux, résistance des coutures, rétention d''air</li>
+    <li>Essai de type : flottabilité, stabilité, capacité de charge, test des matériaux, résistance des coutures, rétention d'air</li>
     <li>Contrôle de production en usine : audit par organisme notifié des processus de fabrication</li>
     <li>Déclaration de Conformité : le fabricant signe la DoC, appose le marquage CE</li>
   </ol>
@@ -53,14 +53,14 @@ content_html: |
     <tbody>
       <tr><td class="p-3 border">Préparation du dossier technique</td><td class="p-3 border">2 – 4 semaines</td><td class="p-3 border">2 000 – 5 000</td></tr>
       <tr><td class="p-3 border">Essai de type</td><td class="p-3 border">4 – 8 semaines</td><td class="p-3 border">8 000 – 20 000</td></tr>
-      <tr><td class="p-3 border">Audit d''usine</td><td class="p-3 border">1 – 2 jours (sur site)</td><td class="p-3 border">3 000 – 6 000</td></tr>
+      <tr><td class="p-3 border">Audit d'usine</td><td class="p-3 border">1 – 2 jours (sur site)</td><td class="p-3 border">3 000 – 6 000</td></tr>
       <tr><td class="p-3 border">Total (premier produit)</td><td class="p-3 border">8 – 14 semaines</td><td class="p-3 border">13 000 – 31 000</td></tr>
     </tbody>
   </table>
 
   <h2>Ce que cela signifie pour les acheteurs</h2>
-  <p>Lors de l''achat de planches gonflables certifiées CE, vérifiez toujours que le marquage CE est sur la plaque du constructeur, qu''une DoC valide existe, que le numéro de l''organisme notifié est listé et que le manuel du propriétaire inclut les consignes de sécurité dans votre langue locale. Tous les produits Afarer portent la certification CE avec une traçabilité complète vers les rapports d''audit de l''organisme notifié.</p>
-  <p>La certification fait partie de chaque série de production dans notre usine de Qingdao — voir le <a href="/fr/factory">flux de travail qualité et test d''usine</a> et comment nous soutenons la <a href="/fr/oem-manufacturing">conformité CE pour les partenaires OEM/marque privée</a>.</p>
+  <p>Lors de l'achat de planches gonflables certifiées CE, vérifiez toujours que le marquage CE est sur la plaque du constructeur, qu'une DoC valide existe, que le numéro de l'organisme notifié est listé et que le manuel du propriétaire inclut les consignes de sécurité dans votre langue locale. Tous les produits Afarer portent la certification CE avec une traçabilité complète vers les rapports d'audit de l'organisme notifié.</p>
+  <p>La certification fait partie de chaque série de production dans notre usine de Qingdao — voir le <a href="/fr/factory">flux de travail qualité et test d'usine</a> et comment nous soutenons la <a href="/fr/oem-manufacturing">conformité CE pour les partenaires OEM/marque privée</a>.</p>
 
 cta:
   title: 'Besoin de soutien pour la certification CE ?'

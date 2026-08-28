@@ -20,24 +20,24 @@ intro: 'Chaque planche qui quitte notre atelier porte la certification qu''elle 
 
 content_html: |
   <h2>Faites confiance, mais vérifiez</h2>
-  <p>Le laboratoire opère sous un système de management de la qualité aligné sur les principes ISO 9001, et nos méthodes de test sont basées sur les normes ISO, ASTM et EN partout où c''est applicable. Nous conservons des enregistrements détaillés de chaque test effectué, créant une chaîne de traçabilité complète de la réception des matières premières à la livraison finale de la planche.</p>
+  <p>Le laboratoire opère sous un système de management de la qualité aligné sur les principes ISO 9001, et nos méthodes de test sont basées sur les normes ISO, ASTM et EN partout où c'est applicable. Nous conservons des enregistrements détaillés de chaque test effectué, créant une chaîne de traçabilité complète de la réception des matières premières à la livraison finale de la planche.</p>
 
   <h2>Équipement de test et capacités</h2>
   <table>
     <thead><tr><th>Équipement</th><th>Tests effectués</th><th>Norme / Méthode</th></tr></thead>
     <tbody>
       <tr><td>Machine de test universelle (50 kN)</td><td>Résistance à la traction (tissu), résistance au pelage (coutures), propagation de déchirure</td><td>ISO 1421, ISO 4674</td></tr>
-      <tr><td>Banc de test de rétention d''air (programmable)</td><td>Endurance de 1000 cycles d''inflation/dégonflage, test de maintien de pression de 30 min</td><td>Interne (selon la méthode ISO 6185)</td></tr>
+      <tr><td>Banc de test de rétention d'air (programmable)</td><td>Endurance de 1000 cycles d'inflation/dégonflage, test de maintien de pression de 30 min</td><td>Interne (selon la méthode ISO 6185)</td></tr>
       <tr><td>Gabarit de pelage de soudure (pelage 180° motorisé)</td><td>Résistance au pelage des soudures et coutures collées à 100 mm/min</td><td>ISO 1421 / ASTM D1876</td></tr>
-      <tr><td>Testeur de colonne d''eau</td><td>Résistance à la pénétration d''eau du tissu (0–1000 mbar)</td><td>ISO 811</td></tr>
-      <tr><td>Jauge d''épaisseur numérique et micromètre</td><td>Épaisseur du tissu, épaisseur de soudure, épaisseur du film adhésif</td><td>ISO 2286-3</td></tr>
+      <tr><td>Testeur de colonne d'eau</td><td>Résistance à la pénétration d'eau du tissu (0–1000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Jauge d'épaisseur numérique et micromètre</td><td>Épaisseur du tissu, épaisseur de soudure, épaisseur du film adhésif</td><td>ISO 2286-3</td></tr>
       <tr><td>Chambre environnementale</td><td>Conditionnement de température (-40 °C à +80 °C) pour les tests de fissure à froid et de vieillissement thermique</td><td>ISO 188, ISO 4675</td></tr>
       <tr><td>Spectrophotomètre de couleur</td><td>Mesure de couleur Delta-E après exposition UV</td><td>ISO 105-A05 / ASTM D2244</td></tr>
     </tbody>
   </table>
 
-  <h2>Les portes d''inspection — du matériau à la livraison</h2>
-  <p>Chaque planche suit un plan qualité défini avec des points d''inspection obligatoires. Aucune planche ne peut sauter une porte ; chaque porte doit être signée par un inspecteur qualité avant que l''étape de production suivante commence.</p>
+  <h2>Les portes d'inspection — du matériau à la livraison</h2>
+  <p>Chaque planche suit un plan qualité défini avec des points d'inspection obligatoires. Aucune planche ne peut sauter une porte ; chaque porte doit être signée par un inspecteur qualité avant que l'étape de production suivante commence.</p>
 
   <div class="not-prose my-8">
     <div class="relative">
@@ -47,7 +47,7 @@ content_html: |
           <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Porte 1</div>
           <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
             <p class="text-sm font-semibold">Inspection des matériaux entrant</p>
-            <p class="text-xs text-gray-500 mt-1">Lot de tissu, noyau drop-stitch, lot d''adhésif, accastillage — tout est contrôlé contre la spécification d''entrée avant la libération en production.</p>
+            <p class="text-xs text-gray-500 mt-1">Lot de tissu, noyau drop-stitch, lot d'adhésif, accastillage — tout est contrôlé contre la spécification d'entrée avant la libération en production.</p>
           </div>
         </div>
         <div class="flex gap-4">
@@ -60,7 +60,7 @@ content_html: |
         <div class="flex gap-4">
           <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Porte 3</div>
           <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
-            <p class="text-sm font-semibold">Test d''air de la chambre</p>
+            <p class="text-sm font-semibold">Test d'air de la chambre</p>
             <p class="text-xs text-gray-500 mt-1">Planche pressurisée à 18,0 PSI (travail à 12–15 PSI), maintenue 24 h. Une chute de pression &gt; 0,50 PSI rejette automatiquement. Données journalisées par numéro de série.</p>
           </div>
         </div>
@@ -68,14 +68,14 @@ content_html: |
           <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Porte 4</div>
           <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
             <p class="text-sm font-semibold">Inspection avant livraison</p>
-            <p class="text-xs text-gray-500 mt-1">Planche complète inspectée : tout l''accastillage serré, adhérence du tapis de pont, alignement des graphismes, aucun défaut esthétique. Liste de contrôle de 100 points.</p>
+            <p class="text-xs text-gray-500 mt-1">Planche complète inspectée : tout l'accastillage serré, adhérence du tapis de pont, alignement des graphismes, aucun défaut esthétique. Liste de contrôle de 100 points.</p>
           </div>
         </div>
         <div class="flex gap-4">
           <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Porte 5</div>
           <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
             <p class="text-sm font-semibold">Certification finale</p>
-            <p class="text-xs text-gray-500 mt-1">Rapports de test compilés, enregistrements d''inspection examinés, Certificat de Conformité émis.</p>
+            <p class="text-xs text-gray-500 mt-1">Rapports de test compilés, enregistrements d'inspection examinés, Certificat de Conformité émis.</p>
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@ content_html: |
   <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
       <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
-      <span class="text-xs text-gray-500">18,0 PSI au test d''air de la chambre, maintenu 24 h</span>
+      <span class="text-xs text-gray-500">18,0 PSI au test d'air de la chambre, maintenu 24 h</span>
     </div>
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
       <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
@@ -94,7 +94,7 @@ content_html: |
     </div>
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
       <span class="block text-2xl font-bold text-blue-600">100 %</span>
-      <span class="text-xs text-gray-500">Chambres testées à l''air avant l''assemblage</span>
+      <span class="text-xs text-gray-500">Chambres testées à l'air avant l'assemblage</span>
     </div>
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
       <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
@@ -103,32 +103,32 @@ content_html: |
   </div>
 
   <h2>Notre équipe qualité</h2>
-  <p>Le laboratoire est composé d''un responsable qualité (10 ans en QA marine, Ingénieur Qualité Certifié ASQ), de deux inspecteurs qualité (chacun avec une certification NDT de niveau 2 en test visuel) et d''un technicien matériaux responsable de tous les tests physiques. L''équipe subit des tests de compétence annuels via un prestataire tiers indépendant pour garantir que nos résultats de test restent précis et reproductibles.</p>
+  <p>Le laboratoire est composé d'un responsable qualité (10 ans en QA marine, Ingénieur Qualité Certifié ASQ), de deux inspecteurs qualité (chacun avec une certification NDT de niveau 2 en test visuel) et d'un technicien matériaux responsable de tous les tests physiques. L'équipe subit des tests de compétence annuels via un prestataire tiers indépendant pour garantir que nos résultats de test restent précis et reproductibles.</p>
 
   <h2>Test indépendant pour les clients</h2>
-  <p>Notre Laboratoire de qualité et d''inspection est disponible pour des services de test indépendants. Si vous devez vérifier une spécification de tissu, valider un nouveau système adhésif ou obtenir un rapport de test tierce partie pour une qualification d''approvisionnement, nous pouvons effectuer les tests selon la norme applicable et émettre un rapport de test certifié.</p>
+  <p>Notre Laboratoire de qualité et d'inspection est disponible pour des services de test indépendants. Si vous devez vérifier une spécification de tissu, valider un nouveau système adhésif ou obtenir un rapport de test tierce partie pour une qualification d'approvisionnement, nous pouvons effectuer les tests selon la norme applicable et émettre un rapport de test certifié.</p>
   <p>Exemples de travaux de test tierce partie récents :</p>
   <ul>
-    <li>Comparaison de la résistance au pelage de cinq produits concurrents de film adhésif pour un programme d''approvisionnement européen.</li>
+    <li>Comparaison de la résistance au pelage de cinq produits concurrents de film adhésif pour un programme d'approvisionnement européen.</li>
     <li>Étude de vieillissement accéléré (UV + cyclage thermique) pour une nouvelle formulation PVC pigmentée orange, avec des mesures intermédiaires régulières à des intervalles de 500 h.</li>
-    <li>Validation de la rétention d''air de 50 assemblages de vanne prototype pour un nouveau design de planche haute pression.</li>
+    <li>Validation de la rétention d'air de 50 assemblages de vanne prototype pour un nouveau design de planche haute pression.</li>
   </ul>
 
   <h2>Notre engagement envers vous</h2>
-  <p>Quand vous recevez une planche {SITE.name}, vous recevez aussi son dossier qualité — un enregistrement compilé des résultats de test qui s''appliquent à votre planche spécifique. Certificat de lot de tissu, tests de pelage de soudure, journaux de test d''air de la chambre et liste de contrôle d''inspection avant livraison. Chaque chiffre est traçable. Chaque inspecteur est identifié. Ce n''est pas de la simple paperasse — c''est notre promesse que ce que nous avons livré est ce que nous avons spécifié.</p>
+  <p>Quand vous recevez une planche {SITE.name}, vous recevez aussi son dossier qualité — un enregistrement compilé des résultats de test qui s'appliquent à votre planche spécifique. Certificat de lot de tissu, tests de pelage de soudure, journaux de test d'air de la chambre et liste de contrôle d'inspection avant livraison. Chaque chiffre est traçable. Chaque inspecteur est identifié. Ce n'est pas de la simple paperasse — c'est notre promesse que ce que nous avons livré est ce que nous avons spécifié.</p>
   <p>Si vous avez un jour un souci qualité, vous pouvez contacter le laboratoire directement — les coordonnées sont imprimées sur votre certificat de conformité. Nous prenons chaque demande au sérieux et nous nous engageons à une enquête formelle sous 48 heures.</p>
 
-  <h2>Que se passe-t-il si une planche échoue à l''inspection ?</h2>
+  <h2>Que se passe-t-il si une planche échoue à l'inspection ?</h2>
   <p>Une planche en échec ne disparaît jamais en silence. Le laboratoire suit un flux de non-conformité fixe pour que le problème soit contenu, corrigé et empêché de se reproduire :</p>
   <ul>
-    <li><strong>Isolement</strong> — la planche est étiquetée, retirée de la ligne et journalisée dans le registre de non-conformité avec le nom de l''inspecteur et les critères en échec.</li>
+    <li><strong>Isolement</strong> — la planche est étiquetée, retirée de la ligne et journalisée dans le registre de non-conformité avec le nom de l'inspecteur et les critères en échec.</li>
     <li><strong>Reprise ou rebut</strong> — les défauts réparables (par ex. une vanne, une soudure de rail ou un coin de tapis de pont) sont repris par un opérateur certifié et la zone réparée est re-testée au même niveau. Les planches qui ne peuvent pas atteindre la spécification sont rebutées, pas déclassées.</li>
-    <li><strong>Ré-inspection</strong> — chaque planche reprise repasse entièrement la porte affectée avant de pouvoir ré-entrer sur la ligne d''emballage.</li>
-    <li><strong>Libération</strong> — seules les planches dont toutes les portes sont signées quittent l''usine. Le taux de rejet, la cause racine et l''action corrective sont résumés dans votre rapport qualité de lot.</li>
+    <li><strong>Ré-inspection</strong> — chaque planche reprise repasse entièrement la porte affectée avant de pouvoir ré-entrer sur la ligne d'emballage.</li>
+    <li><strong>Libération</strong> — seules les planches dont toutes les portes sont signées quittent l'usine. Le taux de rejet, la cause racine et l'action corrective sont résumés dans votre rapport qualité de lot.</li>
   </ul>
 
   <h2>Documentation qualité que vous recevez</h2>
-  <p>Chaque lot part avec un pack de documents que votre équipe QC peut auditer : le certificat de lot (tissu, adhésif, numéros de lot d''accastillage), les enregistrements de test de pelage de soudure, les journaux de test d''air de la chambre par numéro de série, la liste de contrôle signée de 100 points avant livraison, la liste de colisage et l''enregistrement photographié de vos planches avant le chargement.</p>
+  <p>Chaque lot part avec un pack de documents que votre équipe QC peut auditer : le certificat de lot (tissu, adhésif, numéros de lot d'accastillage), les enregistrements de test de pelage de soudure, les journaux de test d'air de la chambre par numéro de série, la liste de contrôle signée de 100 points avant livraison, la liste de colisage et l'enregistrement photographié de vos planches avant le chargement.</p>
 
 cta:
   title: 'Demander une liste de contrôle QC d''échantillon'
@@ -137,9 +137,9 @@ cta:
     - variant: primary
       text: Demander la liste de contrôle QC
       href: /fr/contact#quality-inquiry
-    - text: Le système d''inspection en 7 étapes
+    - text: Le système d'inspection en 7 étapes
       href: /fr/quality
-    - text: Laboratoire qualité d''usine et téléchargements de rapports de test
+    - text: Laboratoire qualité d'usine et téléchargements de rapports de test
       href: /fr/factory/quality-lab
     - text: Norme de contrôle des non-conformités
       href: /fr/factory/non-conforming-control

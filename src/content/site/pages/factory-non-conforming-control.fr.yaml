@@ -12,7 +12,7 @@ meta:
 
 hero:
   tagline: Contrôle des produits non conformes
-  title: Processus d''isolation, de reprise et de ré-inspection des produits non conformes
+  title: Processus d'isolation, de reprise et de ré-inspection des produits non conformes
   subtitle: 'Chez QINGDAO VATRAD GROUP.,LTD., une planche non conforme ne circule jamais. Tout produit ou composant qui échoue aux critères d''acceptation définis est identifié, enregistré contre un Rapport de Non-Conformité (NCR), étiqueté et séparé, évalué pour le périmètre affecté, et dispositionné au bon niveau d''autorité. La reprise autorisée suit des instructions contrôlées, les articles corrigés sont ré-inspectés selon les critères d''acceptation d''origine — y compris un test complet là où requis — et le produit n''est expédié qu''après signature qualité autorisée. Cette page présente notre norme contrôlée selon ISO 9001:2015 clause 8.7 et les preuves de traçabilité qui la soutiennent.'
   actions:
     - text: Télécharger la SOP de contrôle NCP (PDF)
@@ -29,15 +29,15 @@ answer:
   verified: '2026-08'
 
 stats:
-  tagline: En un coup d''œil
+  tagline: En un coup d'œil
   title: Le contrôle de non-conformité en chiffres
   stats:
     - value: '7'
-      label: Étapes de l''identification à l''action corrective
+      label: Étapes de l'identification à l'action corrective
     - value: '100%'
       label: Ré-inspection de chaque planche reprise par une QA indépendante
     - value: '24h'
-      label: Re-test de pression complet pour les réparations d''étanchéité à l''air
+      label: Re-test de pression complet pour les réparations d'étanchéité à l'air
     - value: '≥ 5 ans'
       label: Conservation des preuves de destruction attestée (coffre SHA-256)
 
@@ -45,13 +45,13 @@ nc_intro:
   tagline: Contrôle des produits non conformes
   title: Que se passe-t-il quand un produit ne respecte pas les critères
   body: |
-    Les produits ou composants qui ne respectent pas les critères d''acceptation définis sont identifiés et contrôlés pour empêcher toute utilisation involontaire, transformation ultérieure ou expédition. Les critères d''acceptation applicables sont basés sur l''échantillon approuvé, la spécification technique, les graphismes, la nomenclature (BOM), les exigences d''emballage et le plan d''inspection du projet.
+    Les produits ou composants qui ne respectent pas les critères d'acceptation définis sont identifiés et contrôlés pour empêcher toute utilisation involontaire, transformation ultérieure ou expédition. Les critères d'acceptation applicables sont basés sur l'échantillon approuvé, la spécification technique, les graphismes, la nomenclature (BOM), les exigences d'emballage et le plan d'inspection du projet.
 
-    Les articles non conformes sont évalués pour déterminer le périmètre affecté et la disposition appropriée. Selon le problème, l''article peut être maintenu, repris sous instructions contrôlées, remplacé, rejeté ou autrement traité par un processus approuvé. Les articles repris ou corrigés sont ré-inspectés avant libération. L''autorisation d''expédition n''est permise qu''après la complétion des enregistrements qualité concernés et la conformité du produit aux critères d''acceptation applicables.
+    Les articles non conformes sont évalués pour déterminer le périmètre affecté et la disposition appropriée. Selon le problème, l'article peut être maintenu, repris sous instructions contrôlées, remplacé, rejeté ou autrement traité par un processus approuvé. Les articles repris ou corrigés sont ré-inspectés avant libération. L'autorisation d'expédition n'est permise qu'après la complétion des enregistrements qualité concernés et la conformité du produit aux critères d'acceptation applicables.
 
 nc_flow:
   tagline: Boucle fermée standard en 7 étapes
-  title: De l''identification à l''action corrective
+  title: De l'identification à l'action corrective
   subtitle: 'Une boucle contrôlée pour chaque non-conformité : identifier, mettre en quarantaine, revoir, reprendre ou remplacer, ré-inspecter, libérer ou rejeter, améliorer.'
   steps:
     - step: '01'
@@ -95,31 +95,31 @@ nc_pillars:
       desc: 'L''autorisation d''expédition n''est permise qu''après documentation complète du NCR et signature QC autorisée, le statut du lot passant de HOLD à RELEASED. Les écarts systémiques ou répétés déclenchent automatiquement des flux de travail CAPA à la cause racine.'
 
 nc_photos:
-  tagline: Sur le sol d''usine
+  tagline: Sur le sol d'usine
   title: Quarantaine, reprise et ré-inspection en pratique
   subtitle: Les photos de notre atelier de Qingdao montrent comment les planches non conformes sont physiquement séparées, reprises sous instructions contrôlées et re-vérifiées avant toute décision de libération.
   features:
     - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
-      alt: Planches de SUP gonflables gonflées dans la zone de test d''étanchéité à l''air de l''usine, surveillées par des manomètres numériques
+      alt: Planches de SUP gonflables gonflées dans la zone de test d'étanchéité à l'air de l'usine, surveillées par des manomètres numériques
       title: Porte de ré-inspection
       desc: 'Après la reprise, chaque planche revient dans la zone de test QC pour une re-vérification indépendante : gonflée et surveillée avec des manomètres numériques selon les critères d''acceptation approuvés par le projet — jamais un contrôle partiel.'
     - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
-      alt: Feuilles de contrôle QC et étiquettes de statut de blocage contrôlé au poste d''inspection de l''usine
+      alt: Feuilles de contrôle QC et étiquettes de statut de blocage contrôlé au poste d'inspection de l'usine
       title: Poste de blocage et de quarantaine
       desc: 'Poste d''inspection avec feuilles de contrôle QC et étiquetage de statut. Tout article échouant aux critères d''acceptation est étiqueté HOLD / QUARANTINE, enregistré contre un NCR et physiquement séparé — il ne peut pas passer au conditionnement jusqu''à ce qu''une disposition autorisée et une ré-inspection obligatoire soient complétées.'
     - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
-      alt: Technicien QC effectuant une reprise d''étanchéité à l''air contrôlée sur un SUP gonflable au poste de reprise de l''usine
+      alt: Technicien QC effectuant une reprise d'étanchéité à l'air contrôlée sur un SUP gonflable au poste de reprise de l'usine
       title: Poste de reprise contrôlée
       desc: 'La reprise est effectuée sur un poste dédié sous une instruction SRI approuvée : le défaut est marqué, la planche reste sur HOLD, et après la période de durcissement requise elle revient dans la zone de test pour une ré-inspection selon les critères d''acceptation d''origine.'
     - image: https://assets.supsfactory.com/site/quality/qc-workshop-inspection-demo.avif
-      alt: Démonstration en atelier des contrôles qualité dans l''usine de Qingdao
+      alt: Démonstration en atelier des contrôles qualité dans l'usine de Qingdao
       title: Démonstration QC en atelier
       desc: 'Photo de démonstration de l''atelier montrant les contrôles qualité appliqués en pratique, soutenant les enregistrements d''inspection et de contrôle de statut référencés tout au long de cette page.'
 
 nc_severity:
   tagline: Gravité du défaut et autorité
   title: Classification de gravité et autorité de disposition
-  subtitle: Toutes les non-conformités ne sont pas traitées au même niveau — l''autorité de disposition croît avec la gravité du défaut, de la validation de ligne au Material Review Board et à la concession client.
+  subtitle: Toutes les non-conformités ne sont pas traitées au même niveau — l'autorité de disposition croît avec la gravité du défaut, de la validation de ligne au Material Review Board et à la concession client.
   headers:
     severity: Gravité
     examples: Exemples typiques
@@ -140,9 +140,9 @@ nc_severity:
       control: 'Pas de libération sans concession autorisée ; sinon destruction physique attestée obligatoire'
 
 nc_matrix:
-  tagline: Matrice de protocole d''ingénierie
+  tagline: Matrice de protocole d'ingénierie
   title: Matrice de disposition des défauts SUP et de ré-inspection
-  subtitle: Protocoles d''ingénierie standard appliqués aux écarts de fabrication les plus courants — les mêmes paramètres quantifiés que les clients peuvent vérifier lors des audits.
+  subtitle: Protocoles d'ingénierie standard appliqués aux écarts de fabrication les plus courants — les mêmes paramètres quantifiés que les clients peuvent vérifier lors des audits.
   headers:
     defect: Catégorie de défaut
     protocol: Protocole de disposition contrôlée
@@ -168,17 +168,17 @@ nc_scrap:
   tagline: Zéro fuite sur le marché
   title: Mise au rebut et destruction attestées — protocole anti-détournement zéro défaut
   body: |
-    Les partenaires de marque internationaux ont besoin de l''assurance que les planches défaillantes n''atteindront jamais le retail secondaire, les marchés gris ou les canaux e-commerce. Les planches qui ne peuvent pas être mises en conformité sont détruites sous un protocole attesté et enregistré :
+    Les partenaires de marque internationaux ont besoin de l'assurance que les planches défaillantes n'atteindront jamais le retail secondaire, les marchés gris ou les canaux e-commerce. Les planches qui ne peuvent pas être mises en conformité sont détruites sous un protocole attesté et enregistré :
 
-    **1. Cisaillement de la quincaillerie et des accessoires.** Sous la supervision du Directeur QA, une cisaille hydraulique retire tous les anneaux en D en acier inoxydable 316, la sangle de poignée de transport et les boucles de bagage. L''ensemble de valve de gonflage et la base de boîtier d''aileron (US-Box / aileron à enclenchement) sont découpés à la racine de la planche, éliminant tout composant récupérable.
+    **1. Cisaillement de la quincaillerie et des accessoires.** Sous la supervision du Directeur QA, une cisaille hydraulique retire tous les anneaux en D en acier inoxydable 316, la sangle de poignée de transport et les boucles de bagage. L'ensemble de valve de gonflage et la base de boîtier d'aileron (US-Box / aileron à enclenchement) sont découpés à la racine de la planche, éliminant tout composant récupérable.
 
-    **2. Fendage du drop-stitch et sectionnement du rail.** Le noyau drop-stitch interne est découpé en travers de la planche et du pont avec des fentes entrecroisées profondes (≥ 50 cm par coupe), et les rails latéraux renforcés sont sectionnés en au moins 4 segments — détruisant définitivement la capacité d''étanchéité et la flottabilité.
+    **2. Fendage du drop-stitch et sectionnement du rail.** Le noyau drop-stitch interne est découpé en travers de la planche et du pont avec des fentes entrecroisées profondes (≥ 50 cm par coupe), et les rails latéraux renforcés sont sectionnés en au moins 4 segments — détruisant définitivement la capacité d'étanchéité et la flottabilité.
 
     **3. Coffre vidéo et photo.** La destruction est enregistrée en vidéo 1080p non coupée avec des gros plans du code-barres de série, du processus de cisaillement, du fendage du noyau et du tas de rebut pesé final. La vidéo est hachée (SHA-256) et archivée sur un serveur contrôlé pendant au moins 5 ans.
 
-    **4. Élimination certifiée des déchets.** Tous les fragments de PVC et de drop-stitch sont pesés, enregistrés dans le registre de sortie et transportés uniquement par des partenaires qualifiés de recyclage de polymères — aucun résidu ne quitte l''installation par un autre canal.
+    **4. Élimination certifiée des déchets.** Tous les fragments de PVC et de drop-stitch sont pesés, enregistrés dans le registre de sortie et transportés uniquement par des partenaires qualifiés de recyclage de polymères — aucun résidu ne quitte l'installation par un autre canal.
 
-    > **Garantie de protection de marque :** QINGDAO VATRAD GROUP CO., LTD. garantit la destruction à 100 % des embarcations hors spécification non reparables. Aucun second choix d''usine ni planche compromise n''entrera jamais dans le retail secondaire, les marchés gris ou les canaux e-commerce. Le Certificat de rebut et de destruction (VAT-QA-SCRAP-CERT-2026) enregistre le produit, le lot, la conclusion MRB, les photos témoins et la double signature du Directeur QA et du Directeur d''usine.
+    > **Garantie de protection de marque :** QINGDAO VATRAD GROUP CO., LTD. garantit la destruction à 100 % des embarcations hors spécification non reparables. Aucun second choix d'usine ni planche compromise n'entrera jamais dans le retail secondaire, les marchés gris ou les canaux e-commerce. Le Certificat de rebut et de destruction (VAT-QA-SCRAP-CERT-2026) enregistre le produit, le lot, la conclusion MRB, les photos témoins et la double signature du Directeur QA et du Directeur d'usine.
 
 nc_downloads:
   tagline: Documents QMS téléchargeables

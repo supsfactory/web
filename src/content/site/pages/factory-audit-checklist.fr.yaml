@@ -22,7 +22,7 @@ answer:
   verified: '2026-08'
 
 audit_areas:
-  tagline: Huit domaines d''audit
+  tagline: Huit domaines d'audit
   title: 'Ce qu''il faut vérifier — les huit domaines d''audit'
   subtitle: 'Chaque domaine comprend les questions à poser, les enregistrements à demander et les signaux d''alarme à surveiller.'
   grid: 'sm:grid-cols-2 lg:grid-cols-4'
@@ -63,15 +63,15 @@ audit_areas:
 our_position:
   heading: 'Notre position sur chaque domaine d''audit'
   body: |
-    Nous ne prétendons pas simplement être conformes — nous fournissons les enregistrements. Voici notre position sur chacun des huit domaines d''audit :
+    Nous ne prétendons pas simplement être conformes — nous fournissons les enregistrements. Voici notre position sur chacun des huit domaines d'audit :
 
-    - **Management de la qualité** : certifié ISO 9001:2015, audité chaque année par un tiers accrédité. Système de portes d''inspection en 7 étapes avec critères documentés de réussite/échec à chaque porte. Journal CAPA maintenu et revu trimestriellement.
-    - **Capacité de production** : plus de 30 000 planches de capacité annuelle, plus de 2 500 sorties mensuelles. Planning de production disponible pour revue lors de la visite d''usine. 4 lignes de production, 3 machines CNC, 5 soudeurs RF.
+    - **Management de la qualité** : certifié ISO 9001:2015, audité chaque année par un tiers accrédité. Système de portes d'inspection en 7 étapes avec critères documentés de réussite/échec à chaque porte. Journal CAPA maintenu et revu trimestriellement.
+    - **Capacité de production** : plus de 30 000 planches de capacité annuelle, plus de 2 500 sorties mensuelles. Planning de production disponible pour revue lors de la visite d'usine. 4 lignes de production, 3 machines CNC, 5 soudeurs RF.
     - **Traçabilité des matériaux** : traçabilité au niveau du lot de la matière entrante à la planche finie. Certificats fournisseurs de PVC et de drop-stitch archivés. Déclarations de substances REACH et RoHS disponibles par lot.
-    - **Test de pression** : test de maintien à 18,0 PSI avec rejet automatique au-delà d''une chute de 0,50 PSI sur 24 heures. Journaux de test disponibles pour chaque lot de production. Tests structurels et d''impact selon le type de construction.
+    - **Test de pression** : test de maintien à 18,0 PSI avec rejet automatique au-delà d'une chute de 0,50 PSI sur 24 heures. Journaux de test disponibles pour chaque lot de production. Tests structurels et d'impact selon le type de construction.
     - **Contrôles de soudage** : paramètres de soudure RF enregistrés par cycle de production. Inspection des coutures à la porte 3 avec taux de rejet documentés. CAPA déclenchée pour les taux de rejet au-dessus du seuil.
-    - **Conformité sociale** : audité selon BSCI. Les enregistrements des heures de travail, des salaires et de la sécurité sont disponibles à l''inspection lors de la visite d''usine.
-    - **Documentation** : enregistrements de production par lot, journaux d''inspection par porte, certificats de conformité et listes de colisage avec références de lots expédiés avec chaque commande. Système de suivi des réclamations de garantie maintenu.
+    - **Conformité sociale** : audité selon BSCI. Les enregistrements des heures de travail, des salaires et de la sécurité sont disponibles à l'inspection lors de la visite d'usine.
+    - **Documentation** : enregistrements de production par lot, journaux d'inspection par porte, certificats de conformité et listes de colisage avec références de lots expédiés avec chaque commande. Système de suivi des réclamations de garantie maintenu.
     - **Support après livraison** : conditions de garantie documentées par contrat. Résolution moyenne des réclamations sous 14 jours ouvrés. Pièces de rechange disponibles à partir du stock. Revue après livraison proposée pour chaque première commande.
 
 evidence_review:
@@ -97,9 +97,9 @@ cta:
   subtitle: 'Demandez la documentation d''audit ou planifiez une visite sur site. Nous fournissons les enregistrements — vous vérifiez le processus.'
   actions:
     - variant: primary
-      text: Demander la documentation d''audit
+      text: Demander la documentation d'audit
       href: /fr/contact#project-brief
     - text: Vérifier les certifications et le système qualité
       href: /fr/proof-center
-    - text: Processus d''intégration OEM
+    - text: Processus d'intégration OEM
       href: /fr/oem-onboarding-guide

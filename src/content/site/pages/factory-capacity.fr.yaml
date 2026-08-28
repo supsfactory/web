@@ -30,13 +30,13 @@ highlights:
     label: Effectif qualifié
     detail: 25+ ingénieurs, 2 équipes/jour
   - value: 50+
-    label: Pays d''export
+    label: Pays d'export
     detail: UE, US, AU, Moyen-Orient, Asie
   - value: 25–35
     label: Délai standard (jours)
     detail: Après bon de commande confirmé et acompte
   - value: 10+
-    label: Années d''expérience à l''export
+    label: Années d'expérience à l'export
     detail: Depuis 2012
 
 workshops:
@@ -79,7 +79,7 @@ cta:
     - variant: primary
       text: Vérifier la disponibilité
       href: /fr/contact#production-availability
-    - text: Voir la vue d''ensemble complète de l''usine
+    - text: Voir la vue d'ensemble complète de l'usine
       href: /fr/factory
     - text: Comment les planches sont construites
       href: /fr/factory/process

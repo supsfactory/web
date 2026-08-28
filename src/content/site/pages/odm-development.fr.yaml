@@ -41,7 +41,7 @@ features:
     - title: Tests et conformité
       description: 'Tests de rétention d''air, de maintien de pression et de résistance de soudure par unité, avec documentation CE, ISO 9001, BSCI, REACH et RoHS pour l''export.'
       icon: 'tabler:certificate'
-    - title: Options de propriété de l''outillage
+    - title: Options de propriété de l'outillage
       description: 'Clauses de propriété ou de rachat du moule écrites dans le contrat — votre design reste le vôtre, et l''outillage est conservé pour les ré-commandes.'
       icon: 'tabler:lock'
     - title: Du prototype au conteneur
@@ -66,9 +66,9 @@ faq_section:
   tagline: FAQ
   title: Questions sur le développement ODM
   questions:
-    - q: En quoi l''ODM diffère-t-il de l''OEM ?
+    - q: En quoi l'ODM diffère-t-il de l'OEM ?
       a: 'ODM (Fabrication de design original) part de votre brief — nos ingénieurs développent la structure, la construction, les graphismes et l''emballage de la planche, que ce soit à partir d''un concept de marché, d''un objectif de performance ou d''une adaptation d''une plateforme éprouvée. Vous approuvez le design avant la production. OEM (Fabrication d''équipement d''origine) fabrique selon votre spécification approuvée — vos dessins, dimensions, matériaux et emballage. Vous possédez le design et la propriété intellectuelle. Les deux passent par la même usine, le même système de QC et la même équipe d''export ; ODM est la voie la plus rapide vers une planche marquée quand vous n''avez pas encore de design.'
-    - q: Je n''ai qu''une idée grossière — par où commençons-nous ?
+    - q: Je n'ai qu'une idée grossière — par où commençons-nous ?
       a: 'Envoyez un court brief : pagayeurs cibles, cas d''usage, taille approximative, marchés et volumes. Nos ingénieurs reviennent avec un concept, une direction de planche de référence et un plan de développement sous un jour ouvré — une NDA est signée avant tout échange détaillé sur demande.'
     - q: Combien de temps faut-il pour développer une nouvelle planche SUP ?
       a: 'Les échantillons de prototype partent en 7–12 jours. Une nouvelle coque avec outillage de moule personnalisé ajoute 15–20 jours d''ingénierie avant les échantillons. La production s''exécute en 25–35 jours après le bon de commande et l''acompte.'
@@ -82,7 +82,7 @@ faq_section:
       a: 'CE (directive des bateaux de plaisance), ISO 9001, BSCI, REACH et RoHS. Les documents de certification sont préparés par commande pour vos marchés d''export, et la conformité ISO 25649 s''applique aux planches gonflables de stand-up paddle.'
 
 process:
-  title: Le processus ODM — du brief à la production à l''échelle
+  title: Le processus ODM — du brief à la production à l'échelle
   subtitle: 'Six étapes contrôlées gérées par la même équipe interne qui conçoit, échantillonne et met à l''échelle votre planche — tout reste documenté.'
   steps:
     - phase: '01'
@@ -125,7 +125,7 @@ process:
 
 geo:
   tagline: Avec qui nous travaillons
-  title: Partenaires ODM dans toute l''industrie du SUP
+  title: Partenaires ODM dans toute l'industrie du SUP
   sentence: 'ODM chez SUPsfactory associe votre brief à la même équipe d''ingénieurs, de designers et de production qui a lancé des planches pour ces types d''entreprises — voici qui nous servons.'
   audiences:
     - 'Marques de SUP'
@@ -142,7 +142,7 @@ cta:
       href: /fr/contact#custom-oem
     - text: Voir le pipeline de développement produit en six étapes
       href: /fr/product-development
-    - text: Vérifier l''usine et le système qualité
+    - text: Vérifier l'usine et le système qualité
       href: /fr/oem-trust-assurance
     - text: Guide MOQ & marque flexible
       href: /fr/oem-moq-guide

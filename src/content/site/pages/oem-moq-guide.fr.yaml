@@ -21,11 +21,11 @@ answer:
   verified: '2026-08'
 
 moq_principle:
-  tagline: La logique d''ingénierie
+  tagline: La logique d'ingénierie
   title: 'Pourquoi le MOQ de volume standard est de 90–100 unités : physique des rouleaux de matière première'
   subtitle: 'Les tailles des séries de production ne sont pas des chiffres arbitraires fixés par une équipe commerciale — elles sont déterminées par les longueurs des rouleaux de tissu drop-stitch brut et la physique des changements de ligne.'
   body: |
-    **La base brute de 150 mètres.** Le tissu drop-stitch tissé haute résistance est produit et enduit sur des rouleaux maîtres continus. La longueur de rouleau industriel standard d''un lot unique est de 150 mètres de matière continue.
+    **La base brute de 150 mètres.** Le tissu drop-stitch tissé haute résistance est produit et enduit sur des rouleaux maîtres continus. La longueur de rouleau industriel standard d'un lot unique est de 150 mètres de matière continue.
 
     **Le calcul de rendement (90 à 100 planches).** Pour une coque SUP standard de randonnée ou polyvalente (10 ft 6 po à 11 ft 6 po), un rouleau maître complet de 150 m donne environ 90 à 100 planches à pagaie finies.
 
@@ -158,11 +158,11 @@ cta:
       href: /fr/contact#moq-guide
     - text: Décomposition du MOQ et des délais SUP personnalisés
       href: /fr/sup-oem-moq-lead-time
-    - text: Lancez une nouvelle marque avec une commande d''essai
+    - text: Lancez une nouvelle marque avec une commande d'essai
       href: /fr/new-brand-trial-order
-    - text: Vérifier l''usine et le système qualité
+    - text: Vérifier l'usine et le système qualité
       href: /fr/oem-trust-assurance
-    - text: Le système d''inspection en 7 étapes
+    - text: Le système d'inspection en 7 étapes
       href: /fr/quality
     - text: Aperçu de la fabrication OEM et ODM
       href: /fr/oem-manufacturing

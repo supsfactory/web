@@ -9,7 +9,7 @@ hero:
   subtitle: 'Programme partenaire de distribution en gros de SUP avec territoires exclusifs, portefeuille complet de planches SUP gonflables et support de classe mondiale. Afarer expédie vers 50+ pays — nous recherchons des distributeurs établis en marine et sports nautiques.'
   image:
     src: https://assets.afarer.com/images/afarer/factory/afarer-factory-building.webp
-    alt: Opérations d''expédition et de distribution mondiale d''Afarer
+    alt: Opérations d'expédition et de distribution mondiale d'Afarer
 
 answer:
   label: 'Réponse directe'
@@ -20,11 +20,11 @@ intro:
   tagline: À propos du programme
   title: 'Distribution en gros de SUP, bâtie autour d''un partenariat long terme'
   body: |
-    Afarer planifie, construit et contrôle qualité chaque SUP gonflable, kayak et accessoire dans sa propre usine — donc un accord de distribution en gros avec nous inclut la source d''approvisionnement intégrée. Les distributeurs ne revendent pas une gamme tierce éloignée : ils reçoivent le catalogue complet de produits Afarer, les prix direct usine et un responsable de compte dédié qui planifie le réapprovisionnement saisonnier autour de leurs ventes.
+    Afarer planifie, construit et contrôle qualité chaque SUP gonflable, kayak et accessoire dans sa propre usine — donc un accord de distribution en gros avec nous inclut la source d'approvisionnement intégrée. Les distributeurs ne revendent pas une gamme tierce éloignée : ils reçoivent le catalogue complet de produits Afarer, les prix direct usine et un responsable de compte dédié qui planifie le réapprovisionnement saisonnier autour de leurs ventes.
 
-    La plupart de nos partenaires de distribution opèrent sur un territoire exclusif et portent une gamme concentrée de 4–8 modèles les plus vendus — planches tout-terrain en trois tailles, un modèle touring, et la pompe, la pagaie et les accessoires d''entretien assortis. Parce que nous contrôlons toute la ligne de production, nous pouvons planifier de grands runs pour le début de saison de l''hémisphère nord, stabiliser les coûts de fret par des commandes anticipées, et libérer du fonds de roulement avec des conditions de gros transparentes et des échéanciers de paiement convenus.
+    La plupart de nos partenaires de distribution opèrent sur un territoire exclusif et portent une gamme concentrée de 4–8 modèles les plus vendus — planches tout-terrain en trois tailles, un modèle touring, et la pompe, la pagaie et les accessoires d'entretien assortis. Parce que nous contrôlons toute la ligne de production, nous pouvons planifier de grands runs pour le début de saison de l'hémisphère nord, stabiliser les coûts de fret par des commandes anticipées, et libérer du fonds de roulement avec des conditions de gros transparentes et des échéanciers de paiement convenus.
 
-    Le programme de distribution est l''une des deux façons d''acheter les produits Afarer en gros. Si vous exploitez déjà un canal de gros, cette page est pour vous. Les marques, stations, écoles de formation et flottes de location achetant en direct pour leur propre usage doivent plutôt consulter les programmes OEM/ODM et flottes.
+    Le programme de distribution est l'une des deux façons d'acheter les produits Afarer en gros. Si vous exploitez déjà un canal de gros, cette page est pour vous. Les marques, stations, écoles de formation et flottes de location achetant en direct pour leur propre usage doivent plutôt consulter les programmes OEM/ODM et flottes.
 
 wholesale_pricing:
   tagline: Pourquoi rejoindre
@@ -60,7 +60,7 @@ steps:
       title: Sélection catalogue et prix
       desc: 'Choisissez votre gamme d''ouverture et recevez les prix de gros pour votre territoire.'
     - step: 4
-      title: Commande d''échantillons
+      title: Commande d'échantillons
       desc: 'Commandez des échantillons de certification pour tester qualité, emballage et manutention drop-ship avant le premier conteneur.'
     - step: 5
       title: Réapprovisionnement saisonnier
@@ -117,7 +117,7 @@ faqs:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>À lire :</strong> les partenaires distributeurs vendent les mêmes planches que nous construisons pour les <a href="/fr/oem-manufacturing">marques OEM/en marque privée</a> — consultez le programme de fabrication et le <a href="/fr/factory">processus qualité de l''usine</a> pour positionner le produit en confiance.</p>
+    <p><strong>À lire :</strong> les partenaires distributeurs vendent les mêmes planches que nous construisons pour les <a href="/fr/oem-manufacturing">marques OEM/en marque privée</a> — consultez le programme de fabrication et le <a href="/fr/factory">processus qualité de l'usine</a> pour positionner le produit en confiance.</p>
   </div>
 
 cta:

@@ -2,8 +2,8 @@ meta:
   title: 'Bassin d''essais hydrodynamiques — Tests de performance des planches SUP'
   description: 'Validez la performance des coques de planches SUP avec notre bassin d''essais hydrodynamiques. Remorquage de maquettes, analyse de planage et mesure de traînée pour les formes de planches.'
   dateModified: '2026-08'
-  back_text: 'Retour au Centre R&D'
-  home_label: 'Accueil'
+back_text: 'Retour au Centre R&D'
+home_label: 'Accueil'
 
 answer:
   label: 'Réponse directe'
@@ -21,29 +21,29 @@ intro: 'C''est une idée fausse courante que les essais hydrodynamiques sont ré
 
 content_html: |
   <h2>Pourquoi tester une planche SUP en bassin ?</h2>
-  <p>Le test à l''échelle de maquette (typiquement 1:3 à 1:5) nous donne la capacité d''itérer rapidement et à moindre coût les formes de planches. Une semaine dans le bassin peut générer les mêmes données de performance qui exigeraient des mois d''essais-erreurs pleine échelle — et à une fraction du coût.</p>
+  <p>Le test à l'échelle de maquette (typiquement 1:3 à 1:5) nous donne la capacité d'itérer rapidement et à moindre coût les formes de planches. Une semaine dans le bassin peut générer les mêmes données de performance qui exigeraient des mois d'essais-erreurs pleine échelle — et à une fraction du coût.</p>
 
-  <h2>Spécifications de l''installation</h2>
+  <h2>Spécifications de l'installation</h2>
   <table>
     <thead><tr><th>Paramètre</th><th>Spécification</th></tr></thead>
     <tbody>
       <tr><td>Dimensions du bassin</td><td>35 m (L) × 3,5 m (l) × 1,8 m (P)</td></tr>
       <tr><td>Chariot de remorquage</td><td>Entraîné par servomoteur électrique, vitesse max 12 m/s (23 kn), précision de vitesse ± 0,5 %</td></tr>
-      <tr><td>Générateur de vagues</td><td>Type à clapet, états de mer réguliers &amp; irréguliers programmables, Hs jusqu''à 0,3 m à l''échelle de maquette</td></tr>
+      <tr><td>Générateur de vagues</td><td>Type à clapet, états de mer réguliers &amp; irréguliers programmables, Hs jusqu'à 0,3 m à l'échelle de maquette</td></tr>
       <tr><td>Instrumentation</td><td>Dynamomètre 6 composantes (traînée, force latérale, moment de lacet), accéléromètres, inclinomètres, sondes de vagues</td></tr>
       <tr><td>Acquisition de données</td><td>Échantillonnage à 1000 Hz par canal, affichage en temps réel + suite de post-traitement</td></tr>
-      <tr><td>Fabrication des maquettes</td><td>Fraisage CNC et impression 3D en interne pour les coques de maquette jusqu''à 1,8 m LOA</td></tr>
+      <tr><td>Fabrication des maquettes</td><td>Fraisage CNC et impression 3D en interne pour les coques de maquette jusqu'à 1,8 m LOA</td></tr>
     </tbody>
   </table>
 
-  <h2>Notre programme d''essais</h2>
+  <h2>Notre programme d'essais</h2>
   <p>Un programme standard de développement de planches dans notre bassin suit cette séquence :</p>
   <ol>
-    <li><strong>Construction de la maquette</strong> — Une maquette à l''échelle 1:4 est usinée par CNC à partir de mousse haute densité et stratifiée pour la rigidité. Le poids et le centre de gravité sont ajustés pour correspondre à la condition de pleine charge à l''échelle de Froude.</li>
+    <li><strong>Construction de la maquette</strong> — Une maquette à l'échelle 1:4 est usinée par CNC à partir de mousse haute densité et stratifiée pour la rigidité. Le poids et le centre de gravité sont ajustés pour correspondre à la condition de pleine charge à l'échelle de Froude.</li>
     <li><strong>Courses de résistance</strong> — La maquette est remorquée à 6-10 vitesses couvrant la plage de pagayage (2–6 kn pleine échelle). La résistance totale est mesurée et décomposée en composantes frictionnelles et résiduelles en utilisant la méthode ITTC-1957.</li>
-    <li><strong>Mesure d''assiette et d''enfoncement</strong> — L''assiette et l''enfoncement de course sont enregistrés à chaque vitesse. La cible est l''angle d''assiette qui minimise la surface mouillée tout en gardant le nez dégagé de la vague d''étrave.</li>
-    <li><strong>Levé de sillage</strong> — Les coupes transversales de vagues sont mesurées à deux vitesses pour évaluer la résistance de formation de vague et identifier les interactions de forme de nez qui ralentissent une planche dans l''eau.</li>
-    <li><strong>Tenue à la mer (optionnel)</strong> — Courses en mer de face dans des vagues régulières pour mesurer la résistance ajoutée et l''accélération verticale dans la houle — les données derrière la conception du nez des planches de randonnée.</li>
+    <li><strong>Mesure d'assiette et d'enfoncement</strong> — L'assiette et l'enfoncement de course sont enregistrés à chaque vitesse. La cible est l'angle d'assiette qui minimise la surface mouillée tout en gardant le nez dégagé de la vague d'étrave.</li>
+    <li><strong>Levé de sillage</strong> — Les coupes transversales de vagues sont mesurées à deux vitesses pour évaluer la résistance de formation de vague et identifier les interactions de forme de nez qui ralentissent une planche dans l'eau.</li>
+    <li><strong>Tenue à la mer (optionnel)</strong> — Courses en mer de face dans des vagues régulières pour mesurer la résistance ajoutée et l'accélération verticale dans la houle — les données derrière la conception du nez des planches de randonnée.</li>
     <li><strong>Analyse des données et recommandations</strong> — Un rapport complet est livré avec des graphiques comparatifs, des courbes traînée/vitesse et des recommandations de conception spécifiques pour la planche pleine taille.</li>
   </ol>
 
@@ -86,14 +86,14 @@ content_html: |
         <span class="w-16 text-right">52 N</span>
       </div>
     </div>
-    <p class="text-xs text-gray-400 mt-2">Traînée à l''échelle de maquette (N) aux vitesses à l''échelle de Froude. La prédiction de puissance pleine échelle suit la méthode de prédiction de performance ITTC-1978.</p>
+    <p class="text-xs text-gray-400 mt-2">Traînée à l'échelle de maquette (N) aux vitesses à l'échelle de Froude. La prédiction de puissance pleine échelle suit la méthode de prédiction de performance ITTC-1978.</p>
   </div>
 
-  <h2>Équipe d''experts</h2>
-  <p>Notre bassin est opéré par un hydrodynamicien titulaire d''un doctorat en architecture navale et 8 ans d''expérience en bassin de remorquage dans un grand institut de recherche maritime européen. Il est soutenu par un technicien qui prépare toutes les maquettes et l''instrumentation. L''équipe suit les procédures recommandées de l''ITTC (International Towing Tank Conference) pour garantir que chaque test est répétable, traçable et internationalement défendable.</p>
+  <h2>Équipe d'experts</h2>
+  <p>Notre bassin est opéré par un hydrodynamicien titulaire d'un doctorat en architecture navale et 8 ans d'expérience en bassin de remorquage dans un grand institut de recherche maritime européen. Il est soutenu par un technicien qui prépare toutes les maquettes et l'instrumentation. L'équipe suit les procédures recommandées de l'ITTC (International Towing Tank Conference) pour garantir que chaque test est répétable, traçable et internationalement défendable.</p>
 
   <h2>Tests en bassin pour le développement de planches personnalisées</h2>
-  <p>Notre bassin n''est pas seulement utilisé pour les planches conçues en interne — nous réalisons régulièrement des programmes d''essais pour des clients qui veulent valider une forme de planche personnalisée ou enquêter sur un problème de performance :</p>
+  <p>Notre bassin n'est pas seulement utilisé pour les planches conçues en interne — nous réalisons régulièrement des programmes d'essais pour des clients qui veulent valider une forme de planche personnalisée ou enquêter sur un problème de performance :</p>
   <ul>
     <li><strong>Comparaison de formes</strong> — Deux ou plusieurs formes de planches candidates testées dans des conditions identiques, fournissant une comparaison objective traînée/vitesse/stabilité pour éclairer votre choix de conception.</li>
     <li><strong>Optimisation du rail et du nez</strong> — Les variations de profil de nez et de rayon de rail peuvent être testées dans diverses configurations pour quantifier leur contribution à la réduction de traînée.</li>
@@ -101,7 +101,7 @@ content_html: |
   </ul>
 
   <h2>Pourquoi tester avec nous ?</h2>
-  <p>Nous ne vous donnons pas simplement un ensemble de chiffres bruts. Nos rapports traduisent les données de bassin en recommandations d''ingénierie actionnables : « Relever le rocker de nez de 10 mm pour réduire la traînée de vague d''étrave à la vitesse de croisière », « Arrondir le rail à la station centrale pour réduire la surface mouillée », ou « Déplacer la zone debout de 50 mm vers l''avant pour améliorer l''assiette ». Vous repartez avec une compréhension claire de ce qu''il faut modifier et pourquoi.</p>
+  <p>Nous ne vous donnons pas simplement un ensemble de chiffres bruts. Nos rapports traduisent les données de bassin en recommandations d'ingénierie actionnables : « Relever le rocker de nez de 10 mm pour réduire la traînée de vague d'étrave à la vitesse de croisière », « Arrondir le rail à la station centrale pour réduire la surface mouillée », ou « Déplacer la zone debout de 50 mm vers l'avant pour améliorer l'assiette ». Vous repartez avec une compréhension claire de ce qu'il faut modifier et pourquoi.</p>
   <p>Notre bassin est également disponible pour des essais tiers indépendants sur une base de service payant. Si vous développez une planche et voulez une évaluation hydrodynamique impartiale et exécutée professionnellement, nous accueillons votre demande.</p>
 
 cta:
@@ -109,7 +109,7 @@ cta:
   subtitle: 'Que vous ayez besoin d''un programme de développement complet ou d''un seul test comparatif, nous pouvons nous adapter à votre calendrier.'
   actions:
     - variant: primary
-      text: Contacter notre équipe d''hydrodynamique
+      text: Contacter notre équipe d'hydrodynamique
       href: /fr/contact#project-brief
     - text: Retour au Centre R&D
       href: /fr/randdcenter

@@ -378,7 +378,7 @@ traceability:
   title: 'Quatre questions auxquelles chaque lot répond'
   subtitle: 'Les enregistrements qualité sont tenus par lot de production et reliés à la spécification produit, aux graphismes, à la BOM et aux exigences d''emballage applicables. Cela appuie l''investigation et les actions contrôlées si un problème qualité est identifié. Lors d''un audit acheteur, notre équipe qualité répond sur le terrain à ces quatre questions — chaque réponse renvoie à un enregistrement contrôlé.'
   items:
-    - title: 'Qu''''a-t-on produit ?'
+    - title: 'Qu''a-t-on produit ?'
       description: 'Le produit, le modèle, la configuration et la révision sont liés au numéro de commande et à la révision de spécification approuvée.'
       icon: '1'
       link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
@@ -400,7 +400,7 @@ traceability:
       link_label: 'Voir le dossier de traçabilité (PDF)'
 non_conformance:
   tagline: Contrôle des produits non conformes
-  title: 'Lorsqu''''un défaut est détecté : contenir, décider, documenter'
+  title: 'Lorsqu''un défaut est détecté : contenir, décider, documenter'
   subtitle: 'Les produits ou composants qui ne satisfont pas aux critères d''acceptation définis sont identifiés et placés sous blocage contrôlé. La reprise ou le remplacement n''est autorisé que par la procédure qualité applicable, suivie d''une nouvelle inspection avant la libération autorisée.'
   items:
     - title: 'Détecter et isoler'
@@ -481,17 +481,17 @@ faqs:
   tagline: FAQ
   title: Questions fréquentes sur notre système qualité
   items:
-    - q: 'Puis-je télécharger les rapports d''''inspection réels ?'
+    - q: 'Puis-je télécharger les rapports d''inspection réels ?'
       a: 'Oui. Les sept dossiers de rapports bilingues de cette page — QIP, IQC, IPQC/FAI, étanchéité à l''air, FQC, PSI et autorisation d''expédition — sont de véritables enregistrements contrôlés avec les champs confidentiels supprimés. Ils montrent la structure exacte, les méthodes et les critères d''acceptation utilisés sur chaque commande.'
     - q: 'Comment les sept portes correspondent-elles à mon projet ?'
       a: 'Chaque projet reçoit un Plan d''Inspection Qualité (QIP) qui définit les portes applicables à votre produit et à votre marché, le périmètre d''inspection à chaque porte et les enregistrements que vous recevrez. Téléchargez l''échantillon QIP sur cette page pour voir la structure.'
-    - q: 'Ces échantillons d''''enregistrements d''''inspection sont-ils réels ?'
+    - q: 'Ces échantillons d''enregistrements d''inspection sont-ils réels ?'
       a: 'Oui. Les échantillons suivent notre structure d''enregistrement contrôlé réelle — en-tête de document, liste de contrôle d''inspection, critères d''acceptation, méthode, résultats, rôle de l''inspecteur et décision de libération. Toutes les valeurs d''identification sont remplacées par des valeurs de démonstration (codes DEMO-*), de sorte qu''aucune donnée client, graphismes, commande ou tarification n''est exposée.'
     - q: 'Pourquoi les échantillons sont-ils anonymisés ?'
       a: 'La confidentialité des acheteurs passe en premier. Les noms de clients, les graphismes, les détails de commande, les informations fournisseurs et la tarification sont protégés par conception. L''anonymisation permet à tout acheteur potentiel de vérifier notre structure d''enregistrement et notre traçabilité sans exposer l''activité d''un autre client.'
-    - q: 'Pouvons-nous recevoir les rapports d''''inspection complets pour notre projet ?'
+    - q: 'Pouvons-nous recevoir les rapports d''inspection complets pour notre projet ?'
       a: 'Oui. Pour les projets approuvés, nous partageons la documentation qualité applicable à votre commande — plan d''inspection qualité, rapports d''inspection entrante, en cours de fabrication, d''étanchéité à l''air, finale et d''emballage, et autorisation d''expédition — reliés à votre traçabilité de lot. Les données commerciales sensibles restent sous NDA comme convenu.'
-    - q: 'Que contient un enregistrement d''''inspection au niveau du lot ?'
+    - q: 'Que contient un enregistrement d''inspection au niveau du lot ?'
       a: 'Chaque enregistrement relie le lot de production à la spécification ou révision de dessin applicable, enregistre chaque élément d''inspection par rapport à ses critères d''acceptation avec la méthode et l''outil utilisés, et se clôt par le rôle de l''inspecteur, le statut du résultat et la décision de libération signée par la qualité.'
 evidence_review:
   tagline: 'Preuves et vérification'
@@ -499,7 +499,7 @@ evidence_review:
   body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, les enregistrements d''inspection QC, les rapports de test de pression et de structure, et les enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en 2026-08.'
 
 cta:
-  title: 'Besoin d''''exigences qualité pour votre projet SUP ?'
+  title: 'Besoin d''exigences qualité pour votre projet SUP ?'
   subtitle: 'Partagez votre catégorie de produit, votre marché cible, votre quantité estimée et toute exigence d''inspection, de documentation ou d''emballage. Nous examinerons les intrants de projet applicables et vous conseillerons sur la prochaine étape pour le développement d''échantillons ou la planification de la production. Une discussion NDA est disponible avant de partager des spécifications, graphismes ou exigences qualité non publics.'
   actions:
     - variant: primary

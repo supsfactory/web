@@ -22,7 +22,7 @@ answer:
 
 trust_stats:
   - value: '12 500 m²'
-    label: Atelier d''usine
+    label: Atelier d'usine
     detail: 4 ateliers spécialisés, ouverts aux audits
   - value: '350+'
     label: Ouvriers sur site
@@ -38,7 +38,7 @@ trust_stats:
     detail: Nœud 01—7, enregistré par numéro de série
   - value: '18,0 PSI'
     label: Test de pression 100 %
-    detail: Maintien sur 24 h, rejet automatique au-delà d''une chute de 0,50 PSI
+    detail: Maintien sur 24 h, rejet automatique au-delà d'une chute de 0,50 PSI
 
 role_boundary:
   tagline: 'Ce que nous sommes —et ce que nous ne sommes pas'
@@ -119,11 +119,11 @@ governance:
   title: 'Signataires nommés et droits réservés'
   subtitle: 'Chaque engagement est lié à un rôle nommé —pas à un département commercial.'
   body: |
-    **Signature conjointe.** Les commandes, plans qualité et résolutions de différends sont signés par trois rôles : le VP des ventes (conditions commerciales), l''ingénieur en chef (exécution d''ingénierie) et le directeur QA (libération qualité). Les SOP bilingues sont versionnées et portent la même structure de signature.
+    **Signature conjointe.** Les commandes, plans qualité et résolutions de différends sont signés par trois rôles : le VP des ventes (conditions commerciales), l'ingénieur en chef (exécution d'ingénierie) et le directeur QA (libération qualité). Les SOP bilingues sont versionnées et portent la même structure de signature.
 
-    **Droits réservés.** L''acheteur conserve le droit d''auditer la production, d''examiner les enregistrements de test et de retenir la libération du lot jusqu''à la signature de l''inspection. La reprise n''a lieu que sous un enregistrement de changement approuvé, et la libération est validée par un QC indépendant —jamais par les opérateurs de reprise.
+    **Droits réservés.** L'acheteur conserve le droit d'auditer la production, d'examiner les enregistrements de test et de retenir la libération du lot jusqu'à la signature de l'inspection. La reprise n'a lieu que sous un enregistrement de changement approuvé, et la libération est validée par un QC indépendant —jamais par les opérateurs de reprise.
 
-    **Enregistrements qui transfèrent.** Les journaux de test de lot, les certificats de conformité et les rapports d''inspection sont livrés avec chaque expédition, et la traçabilité de lot ERP est conservée pendant 10 ans. Les enregistrements d''outillage et les dessins de moule transfèrent avec l''outillage quand le contrat le prévoit.
+    **Enregistrements qui transfèrent.** Les journaux de test de lot, les certificats de conformité et les rapports d'inspection sont livrés avec chaque expédition, et la traçabilité de lot ERP est conservée pendant 10 ans. Les enregistrements d'outillage et les dessins de moule transfèrent avec l'outillage quand le contrat le prévoit.
 
 trust_downloads:
   tagline: 'Documents officiels'
@@ -160,7 +160,7 @@ cta:
   button_text: 'Demander le pack de vérification'
   button_link: '/fr/contact#trust-verification'
   actions:
-    - text: Liste de contrôle d''audit d''usine
+    - text: Liste de contrôle d'audit d'usine
       href: /fr/factory-audit-checklist
     - text: Identité de marque
       href: /fr/about/identity

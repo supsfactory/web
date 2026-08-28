@@ -21,33 +21,33 @@ intro: 'Un modèle CAO, aussi détaillé soit-il, ne peut pas révéler ce qu''u
 
 content_html: |
   <h2>Là où le design devient réalité</h2>
-  <p>L''atelier est équipé pour la fabrication simultanée des panneaux, des noyaux drop-stitch et des rails. Cette approche de travail en parallèle réduit le délai de prototype à 7–12 jours à partir de la libération d''ingénierie. Quand votre application exige une solution spécialisée, nous pouvons passer du concept à la validation sur l''eau en moins de trois semaines.</p>
+  <p>L'atelier est équipé pour la fabrication simultanée des panneaux, des noyaux drop-stitch et des rails. Cette approche de travail en parallèle réduit le délai de prototype à 7–12 jours à partir de la libération d'ingénierie. Quand votre application exige une solution spécialisée, nous pouvons passer du concept à la validation sur l'eau en moins de trois semaines.</p>
 
-  <h2>Capacités de l''atelier</h2>
+  <h2>Capacités de l'atelier</h2>
   <table>
     <thead><tr><th>Poste de travail</th><th>Équipement</th><th>Objectif</th></tr></thead>
     <tbody>
       <tr><td>Découpe de panneaux</td><td>Découpeuse CNC de tissu, logiciel de nidification, bibliothèque de patrons de panneaux</td><td>Découpe de précision des panneaux de pont, de coque et de rail pour toute taille de planche</td></tr>
-      <tr><td>Assemblage du noyau</td><td>Table de laminage du noyau drop-stitch, rouleaux d''application de colle</td><td>Liaison du noyau drop-stitch entre les peaux PVC avec un revêtement adhésif uniforme</td></tr>
-      <tr><td>Soudure</td><td>Presse de soudure RF, poste de pointage à air chaud, gabarit de test d''inflation</td><td>Soudure des coutures des assemblages de planche taille réelle avec vannes, poignées et boîtiers d''ailerons</td></tr>
-      <tr><td>Équipement et finition</td><td>Applicateur de tapis de pont, table de laminage des graphismes, banc d''accastillage</td><td>Équipement complet : tapis de pont, logos, montage de poignée, bouchon de laisse, boîtiers d''ailerons</td></tr>
-      <tr><td>Banc d''instrumentation</td><td>Manomètres, enregistreur de données, banc de mesure de flexion</td><td>Test des échantillons : cycles d''inflation, déflexion du pont, mesure de la rétention d''air</td></tr>
+      <tr><td>Assemblage du noyau</td><td>Table de laminage du noyau drop-stitch, rouleaux d'application de colle</td><td>Liaison du noyau drop-stitch entre les peaux PVC avec un revêtement adhésif uniforme</td></tr>
+      <tr><td>Soudure</td><td>Presse de soudure RF, poste de pointage à air chaud, gabarit de test d'inflation</td><td>Soudure des coutures des assemblages de planche taille réelle avec vannes, poignées et boîtiers d'ailerons</td></tr>
+      <tr><td>Équipement et finition</td><td>Applicateur de tapis de pont, table de laminage des graphismes, banc d'accastillage</td><td>Équipement complet : tapis de pont, logos, montage de poignée, bouchon de laisse, boîtiers d'ailerons</td></tr>
+      <tr><td>Banc d'instrumentation</td><td>Manomètres, enregistreur de données, banc de mesure de flexion</td><td>Test des échantillons : cycles d'inflation, déflexion du pont, mesure de la rétention d'air</td></tr>
     </tbody>
   </table>
 
   <h2>Le parcours du prototype — étape par étape</h2>
   <ol>
-    <li><strong>Transfert d''ingénierie</strong> — Le pack de design (modèle 3D, rapport FEA, nomenclature, plan de pose des panneaux) est formellement examiné par le responsable de l''atelier et l''ingénieur de projet. Toute préoccupation de fabrication est signalée et résolue avant le début de la découpe.</li>
-    <li><strong>Production des panneaux</strong> — La planche est construite selon la spécification d''ingénierie. Les panneaux sont découpés au CNC, le noyau drop-stitch est laminé entre les peaux PVC, et le pont et la coque sont assemblés avec l''empilement de matériaux approuvé.</li>
+    <li><strong>Transfert d'ingénierie</strong> — Le pack de design (modèle 3D, rapport FEA, nomenclature, plan de pose des panneaux) est formellement examiné par le responsable de l'atelier et l'ingénieur de projet. Toute préoccupation de fabrication est signalée et résolue avant le début de la découpe.</li>
+    <li><strong>Production des panneaux</strong> — La planche est construite selon la spécification d'ingénierie. Les panneaux sont découpés au CNC, le noyau drop-stitch est laminé entre les peaux PVC, et le pont et la coque sont assemblés avec l'empilement de matériaux approuvé.</li>
     <li><strong>Soudure</strong> — Les panneaux sont soudés par RF en la forme complète de la planche. La chambre est gonflée à la pression de test et laissée 24 h pour la stabilisation initiale.</li>
-    <li><strong>Assemblage et finition</strong> — Le tapis de pont, les graphismes, la poignée, le bouchon de laisse et les boîtiers d''ailerons sont installés. Tous les accessoires sont montés et vérifiés contre la spécification.</li>
-    <li><strong>Tests statiques</strong> — Avant que la planche touche l''eau, elle subit : cycle d''inflation, test de maintien de rétention d''air, mesure de la déflexion du pont à la pression nominale et contrôles du couple de serrage de l''accastillage.</li>
-    <li><strong>Programme de test sur l''eau</strong> — 10 heures de test dans l''eau, détaillées ci-dessous.</li>
-    <li><strong>Revue du prototype</strong> — Une réunion formelle de validation est tenue avec les équipes d''ingénierie, de production et de qualité. Tout changement de design requis est documenté et intégré à la libération de production.</li>
+    <li><strong>Assemblage et finition</strong> — Le tapis de pont, les graphismes, la poignée, le bouchon de laisse et les boîtiers d'ailerons sont installés. Tous les accessoires sont montés et vérifiés contre la spécification.</li>
+    <li><strong>Tests statiques</strong> — Avant que la planche touche l'eau, elle subit : cycle d'inflation, test de maintien de rétention d'air, mesure de la déflexion du pont à la pression nominale et contrôles du couple de serrage de l'accastillage.</li>
+    <li><strong>Programme de test sur l'eau</strong> — 10 heures de test dans l'eau, détaillées ci-dessous.</li>
+    <li><strong>Revue du prototype</strong> — Une réunion formelle de validation est tenue avec les équipes d'ingénierie, de production et de qualité. Tout changement de design requis est documenté et intégré à la libération de production.</li>
   </ol>
 
   <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
-    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Programme de test sur l''eau de 10 heures — Calendrier de test</p>
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Programme de test sur l'eau de 10 heures — Calendrier de test</p>
     <div class="space-y-2 text-sm">
       <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
         <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
@@ -67,7 +67,7 @@ content_html: |
       </div>
       <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
         <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
-        <span class="flex-1">Course d''endurance — pagayage continu avec contrôles de pression périodiques ; journalisation de la rétention d''air</span>
+        <span class="flex-1">Course d'endurance — pagayage continu avec contrôles de pression périodiques ; journalisation de la rétention d'air</span>
       </div>
       <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
         <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
@@ -77,19 +77,19 @@ content_html: |
   </div>
 
   <h2>Prototypage personnalisé pour des applications uniques</h2>
-  <p>L''Atelier de prototypes est là où nous résolvons les problèmes que les planches de production standard ne peuvent pas traiter. Exemples récents :</p>
+  <p>L'Atelier de prototypes est là où nous résolvons les problèmes que les planches de production standard ne peuvent pas traiter. Exemples récents :</p>
   <ul>
-    <li>Une planche de randonnée de 14'' pour une marque européenne de paddle d''endurance, avec un pont de chargement en retrait et un nez renforcé — prototypée, équipée et testée dans notre installation.</li>
-    <li>Une planche de yoga de 10''6 avec un tapis de traction pleine longueur et une épaisseur supplémentaire pour la rigidité, validée lors d''un essai de saison de location de 4 semaines.</li>
-    <li>Une planche de flotte en marque blanche avec des graphismes de pont personnalisés et une double poignée, dont le prototype a servi à valider la couleur, le placement du logo et l''emballage avant que le client ne s''engage sur un conteneur.</li>
+    <li>Une planche de randonnée de 14'' pour une marque européenne de paddle d'endurance, avec un pont de chargement en retrait et un nez renforcé — prototypée, équipée et testée dans notre installation.</li>
+    <li>Une planche de yoga de 10'6'' avec un tapis de traction pleine longueur et une épaisseur supplémentaire pour la rigidité, validée lors d'un essai de saison de location de 4 semaines.</li>
+    <li>Une planche de flotte en marque blanche avec des graphismes de pont personnalisés et une double poignée, dont le prototype a servi à valider la couleur, le placement du logo et l'emballage avant que le client ne s'engage sur un conteneur.</li>
   </ul>
 
   <h2>Notre équipe de prototypage</h2>
-  <p>L''atelier est composé de huit techniciens de production polyvalents, chacun formé à au moins deux des trois disciplines de base (découpe, soudure, équipement). Le responsable d''équipe est un maître artisan avec 16 ans d''expérience couvrant des constructions uniques sur mesure jusqu''aux séries de production. Chaque prototype est assigné à un ingénieur de projet dédié qui sert de point de contact unique pour le client tout au long du processus de construction et de test.</p>
+  <p>L'atelier est composé de huit techniciens de production polyvalents, chacun formé à au moins deux des trois disciplines de base (découpe, soudure, équipement). Le responsable d'équipe est un maître artisan avec 16 ans d'expérience couvrant des constructions uniques sur mesure jusqu'aux séries de production. Chaque prototype est assigné à un ingénieur de projet dédié qui sert de point de contact unique pour le client tout au long du processus de construction et de test.</p>
 
   <h2>Participation du client</h2>
-  <p>Nous encourageons activement nos clients à assister aux étapes clés de la construction du prototype — en particulier la revue initiale d''équipement et le test sur l''eau. Votre retour opérationnel pendant ces étapes est précieux pour affiner la planche avant qu''elle n''entre en production. Nous ne construisons pas dans le vide ; nous construisons en partenariat avec vous.</p>
-  <p>Le programme de test sur l''eau est aussi une occasion pour votre équipe de se familiariser avec les exigences de maniement et d''entretien de la planche, garantissant une transition fluide vers la production quand les planches finales sont livrées.</p>
+  <p>Nous encourageons activement nos clients à assister aux étapes clés de la construction du prototype — en particulier la revue initiale d'équipement et le test sur l'eau. Votre retour opérationnel pendant ces étapes est précieux pour affiner la planche avant qu'elle n'entre en production. Nous ne construisons pas dans le vide ; nous construisons en partenariat avec vous.</p>
+  <p>Le programme de test sur l'eau est aussi une occasion pour votre équipe de se familiariser avec les exigences de maniement et d'entretien de la planche, garantissant une transition fluide vers la production quand les planches finales sont livrées.</p>
 
 cta:
   title: 'Démarrez votre projet de prototype'

@@ -28,7 +28,7 @@ answer:
   verified: '2026-08'
 
 trial_included:
-  tagline: Ce que couvre la commande d''essai
+  tagline: Ce que couvre la commande d'essai
   title: 'Tout ce qu''un lancement nécessite, sans les frais généraux'
   subtitle: 'Une commande d''essai n''est pas une facture réduite — c''est le même processus d''usine, dimensionné pour une marque en lancement. Voici ce que chaque programme d''essai inclut.'
   grid: 'sm:grid-cols-2 lg:grid-cols-3'
@@ -127,7 +127,7 @@ derisk:
       desc: 'Chaque commande d''essai porte une voie confirmée vers le volume : crédits d''échantillon conservés, graphismes et BOM figés, et créneaux de production réservés pour votre série de suivi.'
 
 scale_path:
-  tagline: Après l''essai
+  tagline: Après l'essai
   title: 'Ce qui vient après une commande d''essai réussie'
   subtitle: 'La commande d''essai est délibérément conçue pour être la première étape d''une relation plus longue. Voici le chemin que nous convenons avant que la première planche ne parte.'
   steps:
@@ -168,9 +168,9 @@ cta:
     - variant: primary
       text: Commencez votre lancement
       href: /fr/contact#custom-oem
-    - text: D''abord comprendre le MOQ et les délais SUP personnalisés
+    - text: D'abord comprendre le MOQ et les délais SUP personnalisés
       href: /fr/sup-oem-moq-lead-time
     - text: Le guide de marque flexible et MOQ
       href: /fr/oem-moq-guide
-    - text: Vérifier l''usine et le système qualité
+    - text: Vérifier l'usine et le système qualité
       href: /fr/oem-trust-assurance
