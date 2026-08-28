@@ -1,6 +1,5 @@
 import { ArrowRight, Building2, CheckCircle2, ClipboardList, Globe2, Layers, Package, ShieldCheck, TrendingUp, Truck } from 'lucide-react'
-import type { ProjectData } from '@/product/projects'
-import { projects } from '@/product/projects'
+import type { ProjectData, ProjectRelated } from '@/product/projects'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { PageHero, SectionHead } from './section-head'
@@ -14,23 +13,9 @@ import { PRIMARY_CTA } from './cta-styles'
  * Flagship cases (with `metrics` / `takeaways`) additionally get a numbers
  * strip, a mid-page CTA, key takeaways and related-case links.
  */
-export function ProjectPage({ page }: { page: ProjectData }) {
-  const { t, locale } = useTranslation()
+export function ProjectPage({ page, related }: { page: ProjectData; related: ProjectRelated[] }) {
+  const { t } = useTranslation()
   const fl = useLocalizePath()
-
-  const related = (projects[locale] ?? projects.en)
-    .filter((p) => p.slug !== page.slug)
-    .map((p) => ({
-      p,
-      score:
-        (p.industry === page.industry ? 2 : 0) +
-        (p.productCategory === page.productCategory ? 1 : 0) +
-        (p.tags.some((tag) => page.tags.includes(tag)) ? 1 : 0),
-    }))
-    .filter((x) => x.score > 0)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 3)
-    .map((x) => x.p)
 
   const snapshot = [
     { icon: Building2, label: t('sup.projects.snapshot.customerType'), value: page.customerType },

@@ -8,7 +8,6 @@ import { getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { SECONDARY_PILL } from '@/components/marketing/cta-styles'
 import { pick, products, productsPage } from '@/product/content'
-import { seriesPages } from '@/product/series-pages'
 import { JsonLd, itemListLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
@@ -21,9 +20,11 @@ export const Route = createFileRoute('/{-$locale}/products/')({
   validateSearch: (s: Record<string, unknown>): { platform?: string } => ({
     platform: typeof s.platform === 'string' ? s.platform : undefined,
   }),
-  loader: async () => {
+  loader: async ({ params }) => {
+    const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
     const [origin, turnstileSiteKey] = await Promise.all([getOrigin(), getTurnstileSiteKey()])
-    return { origin, turnstileSiteKey }
+    const { seriesPages } = await import('@/product/series-pages')
+    return { origin, turnstileSiteKey, series: seriesPages[locale] ?? seriesPages.en }
   },
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
@@ -44,7 +45,7 @@ export const Route = createFileRoute('/{-$locale}/products/')({
 function ProductsPage() {
   const { locale, t } = useTranslation()
   const c = pick(productsPage, locale)
-  const { turnstileSiteKey } = Route.useLoaderData()
+  const { turnstileSiteKey, series } = Route.useLoaderData()
   const { platform } = Route.useSearch()
   const navigate = Route.useNavigate()
 
@@ -58,7 +59,7 @@ function ProductsPage() {
           <span className="text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
             {t('content.series')}
           </span>
-          {(seriesPages[locale] ?? seriesPages.en).map((s) => (
+          {series.map((s) => (
             <a
               key={s.slug}
               href={localizePath(locale, `/products/${s.slug}`)}

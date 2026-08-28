@@ -5,8 +5,6 @@ import { getOrigin } from '@/features/seo/seo.fns'
 import { type Locale } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
-import { getSolutionPage, solutionPath } from '@/product/solution-pages'
-import { projects } from '@/product/projects'
 import { knowledge } from '@/product/knowledge'
 import { PageHero } from '@/components/marketing/section-head'
 import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
@@ -24,7 +22,18 @@ import { ENTITY_FACTS, ENTITY_SERVICES } from '@/product/entity-data'
  * describe "what SUPsfactory is".
  */
 export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
-  loader: async () => ({ origin: await getOrigin() }),
+  loader: async ({ params }) => {
+    const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const origin = await getOrigin()
+    const { getSolutionPage, solutionPath } = await import('@/product/solution-pages')
+    const { projects } = await import('@/product/projects')
+    const solutionServices = ENTITY_SERVICES.map((slug) => {
+      const page = getSolutionPage(locale, slug) ?? getSolutionPage('en', slug)
+      return page ? { slug, href: solutionPath(slug), title: page.h1 } : null
+    }).filter((x): x is { slug: string; href: string; title: string } => x !== null)
+    const projectLinks = (projects[locale] ?? projects.en).map((p) => ({ slug: p.slug, navLabel: p.navLabel }))
+    return { origin, solutionServices, projectLinks }
+  },
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
@@ -44,6 +53,7 @@ export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
 function EntityPage() {
   const { locale, t } = useTranslation()
   const fl = useLocalizePath()
+  const { solutionServices, projectLinks } = Route.useLoaderData()
   const c = {
     kicker: t('sup.entity.kicker'),
     title: t('sup.entity.title'),
@@ -60,7 +70,6 @@ function EntityPage() {
     ctaTitle: t('sup.entity.ctaTitle'),
     ctaBody: t('sup.entity.ctaBody'),
   }
-  const services = ENTITY_SERVICES
 
   return (
     <MarketingShell>
@@ -94,21 +103,17 @@ function EntityPage() {
         </h2>
         <p className="mt-2 max-w-2xl text-[14.5px] text-fg-2">{c.servicesBody}</p>
         <div className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((slug) => {
-            const en = getSolutionPage('en', slug)
-            if (!en) return null
-            return (
-              <a
-                key={slug}
-                href={fl(solutionPath(slug))}
-                className="marine-card group p-5 transition-transform hover:-translate-y-0.5"
-              >
-                <h3 className="font-display text-[15.5px] font-bold leading-snug group-hover:text-primary">
-                  {getSolutionPage(locale, slug)?.h1 ?? en.h1}
-                </h3>
-              </a>
-            )
-          })}
+          {solutionServices.map(({ slug, href, title }) => (
+            <a
+              key={slug}
+              href={fl(href)}
+              className="marine-card group p-5 transition-transform hover:-translate-y-0.5"
+            >
+              <h3 className="font-display text-[15.5px] font-bold leading-snug group-hover:text-primary">
+                {title}
+              </h3>
+            </a>
+          ))}
         </div>
       </section>
 
@@ -121,7 +126,7 @@ function EntityPage() {
             </h2>
             <p className="mt-2 text-[14.5px] text-fg-2">{c.projectsBody}</p>
             <ul className="mt-5 space-y-2.5">
-              {(projects[locale] ?? projects.en).map((p) => (
+              {projectLinks.map((p) => (
                 <li key={p.slug}>
                   <a
                     href={fl(`/projects/${p.slug}`)}

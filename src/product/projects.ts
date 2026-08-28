@@ -2052,3 +2052,30 @@ export const projectsMeta: Localized<ProjectsMeta> = {
     h1: 'Projets — comment nous développons des produits SUP avec nos clients',
   },
 }
+
+export interface ProjectRelated {
+  slug: string
+  h1: string
+  industry: string
+}
+
+/**
+ * Top-3 related cases (shared industry / category / tags), computed from the
+ * data source so the client bundle never has to carry the projects list just
+ * to pick related-case links.
+ */
+export function relatedProjects(page: ProjectData, locale: Locale): ProjectRelated[] {
+  return (projects[locale] ?? projects.en)
+    .filter((p) => p.slug !== page.slug)
+    .map((p) => ({
+      p,
+      score:
+        (p.industry === page.industry ? 2 : 0) +
+        (p.productCategory === page.productCategory ? 1 : 0) +
+        (p.tags.some((tag) => page.tags.includes(tag)) ? 1 : 0),
+    }))
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3)
+    .map((x) => ({ slug: x.p.slug, h1: x.p.h1, industry: x.p.industry }))
+}

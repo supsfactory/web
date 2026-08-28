@@ -5,33 +5,41 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
-import { projects, projectsMeta } from '@/product/projects'
 import { PageHero } from '@/components/marketing/section-head'
 import { JsonLd, itemListLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from '@/components/marketing/shell'
 import type { Locale } from '@/features/i18n/locale'
 
 export const Route = createFileRoute('/{-$locale}/projects/')({
-  loader: async () => ({ origin: await getOrigin() }),
+  loader: async ({ params }) => {
+    const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const origin = await getOrigin()
+    const { projects, projectsMeta } = await import('@/product/projects')
+    return {
+      origin,
+      items: projects[locale] ?? projects.en,
+      meta: projectsMeta[locale] ?? projectsMeta.en,
+    }
+  },
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
-    const { meta, links } = localeHead({
+    const meta = loaderData?.meta
+    const { meta: seo, links } = localeHead({
       origin,
       locale,
       path: '/projects',
-      title: (projectsMeta[locale] ?? projectsMeta.en).metaTitle,
-      description: (projectsMeta[locale] ?? projectsMeta.en).metaDescription,
+      title: meta?.metaTitle ?? '',
+      description: meta?.metaDescription ?? '',
     })
-    return { meta, links }
+    return { meta: seo, links }
   },
   component: ProjectsIndex,
 })
 
 function ProjectsIndex() {
-  const { locale, t } = useTranslation()
-  const items = projects[locale] ?? projects.en
-  const meta = projectsMeta[locale] ?? projectsMeta.en
+  const { t } = useTranslation()
+  const { items, meta } = Route.useLoaderData()
   const fl = useLocalizePath()
   const [customer, setCustomer] = useState('')
   const [category, setCategory] = useState('')

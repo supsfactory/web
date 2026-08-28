@@ -3,7 +3,6 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import { getTurnstileSiteKey } from '@/features/auth/middleware'
 import type { Locale } from '@/features/i18n/locale'
-import { getSeriesPage } from '@/product/series-pages'
 import type { SeriesPageData } from '@/product/series-pages'
 import type { CatchAllData } from '@/features/content/catchall'
 
@@ -16,6 +15,7 @@ export const Route = createFileRoute('/{-$locale}/products/$series')({
   loader: async ({ params }) => {
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
     const slug = (params as { series: string }).series
+    const { getSeriesPage } = await import('@/product/series-pages')
     const page = getSeriesPage(locale, slug)
     const [origin, turnstileSiteKey] = await Promise.all([getOrigin(), getTurnstileSiteKey()])
     if (page) return { origin, turnstileSiteKey, page, product: null as ProductCatchAll | null }

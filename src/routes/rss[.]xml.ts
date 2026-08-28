@@ -1,7 +1,4 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { env } from '@/lib/env'
-import { getNewsPosts } from '@/features/content/loader'
-import { SITE_NAME, BRAND_BOILERPLATE } from '@/config'
 
 // `/rss.xml` — RSS 2.0 feed of the ported afarer news posts (see /news).
 const escape = (s: string) =>
@@ -12,7 +9,12 @@ const rfc822 = (iso: string): string => {
   return Number.isNaN(d.getTime()) ? '' : d.toUTCString()
 }
 
-const handler = () => {
+const handler = async () => {
+  const [{ env }, { SITE_NAME, BRAND_BOILERPLATE }, { getNewsPosts }] = await Promise.all([
+    import('@/lib/env'),
+    import('@/config'),
+    import('@/features/content/loader'),
+  ])
   const origin = new URL(env.BETTER_AUTH_URL).origin
   const posts = getNewsPosts()
   const items = posts.map((p) => {

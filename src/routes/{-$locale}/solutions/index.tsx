@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { createServerFn } from '@tanstack/react-start'
 import { ArrowRight } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -7,8 +8,6 @@ import { getDictionary, translate } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { localizePath } from '@/features/i18n/locale'
 import { pick, solutions } from '@/product/content'
-import { solutionPages, solutionPath } from '@/product/solution-pages'
-import { getContentPage, brandify } from '@/features/content/loader'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { SolutionsSection } from '@/components/marketing/solutions-section'
 import { CtaBand } from '@/components/marketing/cta'
@@ -17,8 +16,44 @@ import { JsonLd, itemListLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 /** Program pages served by the afarer catch-all (not part of solutionPages). */
 const PROGRAM_PATHS = ['/solutions/distributors', '/solutions/rental-operators', '/solutions/retail-partners'] as const
 
+/**
+ * Resolve the program-page cards (title + meta from the content corpus) on the
+ * server: the loader it reads from is pulled in dynamically so the YAML corpus
+ * and parser stay out of the client bundle.
+ */
+const programCardsServerFn = createServerFn({ method: 'GET' })
+  .validator((locale: string) => locale)
+  .handler(async ({ data }) => {
+    const { getContentPage, brandify } = await import('@/features/content/loader')
+    const cards: { path: string; navLabel: string; metaDescription: string }[] = []
+    for (const path of PROGRAM_PATHS) {
+      const page = getContentPage(path, data as Locale)
+      if (!page) continue
+      const meta = page.content.meta as { title?: string; description?: string } | undefined
+      if (!meta?.title) continue
+      cards.push({
+        path,
+        navLabel: brandify(String(meta.title)).split('|')[0].trim(),
+        metaDescription: brandify(meta.description ?? ''),
+      })
+    }
+    return cards
+  })
+
 export const Route = createFileRoute('/{-$locale}/solutions/')({
-  loader: async () => ({ origin: await getOrigin() }),
+  loader: async ({ params }) => {
+    const origin = await getOrigin()
+    const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const { solutionPages, solutionPath } = await import('@/product/solution-pages')
+    const solutionCards = (solutionPages[locale] ?? solutionPages.en).map((p) => ({
+      path: solutionPath(p.slug),
+      navLabel: p.navLabel,
+      metaDescription: p.metaDescription,
+      kicker: p.kicker,
+    }))
+    const programPages = await programCardsServerFn({ data: locale })
+    return { origin, solutionCards, programPages }
+  },
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
@@ -37,26 +72,13 @@ export const Route = createFileRoute('/{-$locale}/solutions/')({
 
 function SolutionsIndex() {
   const { locale, t } = useTranslation()
+  const { solutionCards, programPages } = Route.useLoaderData()
   const c = pick(solutions, locale)
-  const pages = pick(solutionPages, locale)
-  const programPages = PROGRAM_PATHS
-    .map((path) => {
-      const page = getContentPage(path, locale)
-      if (!page) return null
-      const meta = page.content.meta as { title?: string; description?: string } | undefined
-      if (!meta?.title) return null
-      return {
-        path,
-        navLabel: brandify(String(meta.title)).split('|')[0].trim(),
-        metaDescription: brandify(meta.description ?? ''),
-        kicker: t('content.kickers.program'),
-      }
-    })
-    .filter((p): p is NonNullable<typeof p> => p !== null)
-  const cards = [
-    ...pages.map((p) => ({ path: solutionPath(p.slug), navLabel: p.navLabel, metaDescription: p.metaDescription, kicker: p.kicker })),
-    ...programPages,
-  ]
+  const programCards = programPages.map((p) => ({
+    ...p,
+    kicker: t('content.kickers.program'),
+  }))
+  const cards = [...solutionCards, ...programCards]
 
   return (
     <>

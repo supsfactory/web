@@ -1,7 +1,7 @@
 import { test, expect, vi } from 'vitest'
 import { renderToString } from 'react-dom/server'
 import * as React from 'react'
-import { projects } from '@/product/projects'
+import { projects, relatedProjects } from '@/product/projects'
 
 // ProjectPage itself uses no router hooks — only MarketingShell reads the root
 // loader data (theme/user). Mock getRouteApi so the case page can be SSR'd in
@@ -22,7 +22,7 @@ const html = (slug: string, locale: 'en' | 'es' = 'en'): string => {
   const page = projects[locale].find((p) => p.slug === slug)
   expect(page, `${slug} (${locale}) not found`).toBeTruthy()
   return renderToString(
-    React.createElement(I18nProvider, { locale, children: React.createElement(ProjectPage, { page: page! }) }),
+    React.createElement(I18nProvider, { locale, children: React.createElement(ProjectPage, { page: page!, related: relatedProjects(page!, locale) }) }),
   )
 }
 

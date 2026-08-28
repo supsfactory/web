@@ -5,7 +5,6 @@ import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { PageHero, SectionHead } from './section-head'
 import { JsonLd, faqLd, serviceLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
-import { solutionPath } from '@/product/solution-pages'
 import { PRIMARY_CTA } from './cta-styles'
 
 /**
@@ -13,7 +12,7 @@ import { PRIMARY_CTA } from './cta-styles'
  * Uniform logic: scenario → problems → solution → process → case study → FAQ → CTA.
  * CTA temperature: cold → Learn More, warm → Discuss Your Project, hot → Request Manufacturing Proposal.
  */
-export function SolutionPage({ page }: { page: SolutionPageData }) {
+export function SolutionPage({ page, path }: { page: SolutionPageData; path: string }) {
   const { t, locale } = useTranslation()
   const fl = useLocalizePath()
   const ctaLabel =
@@ -24,7 +23,6 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
       hot: t('sup.solutions.ctaHot'),
     }[page.ctaLevel]
   const ctaHref = page.ctaLevel === 'cold' ? '/solutions' : '/contact'
-  const path = solutionPath(page.slug)
 
   return (
     <>
