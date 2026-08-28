@@ -267,6 +267,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  fr: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Comment les planches de SUP personnalisées sont développées',
+      metaTitle: 'Comment les planches de SUP personnalisées sont développées | SUPsfactory',
+      metaDescription:
+        "Comment un SUP personnalisé passe de l'idée à l'usine : spécifications, design, prototypage, échantillonnage et production — expliqué étape par étape.",
+      kicker: 'Connaissances',
+      h1: 'Comment les planches de SUP personnalisées sont développées',
+      intro:
+        "Avant qu'un paddle board personnalisé ne soit expédié à vos clients, il suit un parcours de développement bien défini. Connaître chaque étape permet de brief correctement l'usine, de fixer des délais réalistes et d'éviter les erreurs classiques des premiers acheteurs.",
+      sections: [
+        {
+          title: 'Étape 1 : Définir le besoin',
+          body: [
+            "Chaque projet de développement commence par l'usage : qui utilise la planche, où et à quelle fréquence. Une planche pour parc de location diffère d'une planche de lancement de marque ou d'une planche scolaire — les objectifs de stabilité, de durabilité et de coût changent tous avec la réponse.",
+            "Notez la quantité, le prix cible et les caractéristiques indispensables avant de contacter une usine. Des besoins clairs produisent de meilleurs premiers devis et réduisent les allers-retours.",
+          ],
+        },
+        {
+          title: 'Étape 2 : Fixer la spécification',
+          body: [
+            "La spécification transforme le besoin en valeurs mesurables : longueur, largeur, épaisseur, volume, matériaux (densité du tissu, grammage), configuration des ailerons, charge maximale et emballage.",
+            "C'est le document sur lequel les deux parties font leur devis. Les modifications plus tard dans le processus sont plus lentes et plus coûteuses — une spécification figée est la chose la moins chère que vous puissiez contrôler.",
+          ],
+        },
+        {
+          title: 'Étape 3 : Design et graphismes',
+          body: [
+            "Une fois la spécification fixée, le travail de design commence : ajustements de forme, schémas de couleurs, placement du logo, graphismes du deck pad et choix des accessoires assortis (leash, pagaie, aileron, sac).",
+            "Les fabricants peuvent produire des maquettes numériques pour que vous approuviez le rendu avant qu'aucun échantillon physique ne soit fabriqué — plus économique et plus rapide que d'itérer sur le matériel.",
+          ],
+        },
+        {
+          title: 'Étape 4 : Prototype et échantillon',
+          body: [
+            "L'échantillon est la première preuve physique. Pour les planches gonflables, cela signifie une planche fabriquée à la main ou issue d'un pilote que vous pouvez utiliser et tester par rapport à la spécification.",
+            "Testez l'échantillon comme le ferait votre utilisateur final : stabilité, rigidité, tenue de cap, poids et résistance des graphismes. Un cycle d'échantillonnage approfondi permet généralement de détecter la plupart des problèmes avant la production.",
+          ],
+        },
+        {
+          title: 'Étape 5 : Production et livraison',
+          body: [
+            "Après approbation de l'échantillon, la production se déroule par lots avec des points de contrôle qualité. L'inspection en usine avant expédition — photos, vidéos ou inspection par un tiers — protège le lot que vous recevez.",
+            "Un bon calendrier de projet se calcule à rebours depuis votre date de lancement, et non pas en avant depuis la commande.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'La construction des SUP gonflables, expliquée',
+      metaTitle: 'Construction des SUP gonflables : matériaux et couches | SUPsfactory',
+      metaDescription:
+        "De quoi est fait un SUP gonflable — couches de PVC, tissu drop-stitch, boudins et indicateurs de qualité — pour mieux spécifier vos planches de projet.",
+      kicker: 'Connaissances',
+      h1: 'La construction des SUP gonflables, expliquée',
+      intro:
+        "La plupart des projets SUP personnalisés actuels sont des planches gonflables. Elles sont plus légères, plus faciles à stocker et à expédier, et plus indulgentes pour les débutants. Ce guide explique leur construction afin que vous puissiez spécifier la qualité en toute confiance.",
+      sections: [
+        {
+          title: 'Le cœur : le tissu drop-stitch',
+          body: [
+            "Une planche gonflable est construite autour d'un tissu drop-stitch : des milliers de fils de polyester relient les couches de PVC supérieure et inférieure. Une fois gonflés, ces fils maintiennent la planche à une épaisseur fixe — c'est ce qui donne à un iSUP sa forme et sa rigidité.",
+            "Une densité de fils plus élevée (points par pouce carré) signifie une planche plus ferme et plus stable à pression égale. Les planches d'entrée de gamme utilisent des densités plus faibles ; les planches haut de gamme, des densités plus élevées.",
+          ],
+        },
+        {
+          title: 'Couches de PVC et boudins',
+          body: [
+            "Le tissu est pris en sandwich entre des couches de PVC, qui le protègent contre l'abrasion, les UV et les chocs. Un PVC plus épais (plus de mils ou de mm) résiste mieux aux perforations, mais ajoute du poids.",
+            "Les boudins — les bords de la planche — absorbent le plus de chocs en usage quotidien. Une construction à double ou triple épaisseur des boudins est un indicateur fort de durabilité et de convenance à la location.",
+          ],
+        },
+        {
+          title: "Ce qui ajoute du poids contre ce qui ajoute de la résistance",
+          body: [
+            "Le poids est un compromis : un PVC plus épais ajoute de la durabilité et du poids ; les stratifications plus légères conviennent aux pratiquants qui transportent leur planche loin. C'est l'un des moyens les plus clairs par lesquels une spécification personnalisée est adaptée à la réalité de l'acheteur.",
+            "Indicateurs de qualité à demander : pression d'inflation nominale, construction des coutures, type de valve et densité du drop-stitch. Les usines réputées publient ces chiffres.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Comment les organisations choisissent leur équipement SUP',
+      metaTitle: 'Comment les resorts, clubs et écoles choisissent leur équipement SUP',
+      metaDescription:
+        "Comment les resorts, clubs et écoles choisissent leur équipement SUP : dimensionnement de la flotte, types de planches, durabilité, stockage et budget pour un programme durable.",
+      kicker: 'Connaissances',
+      h1: 'Comment les organisations choisissent leur équipement SUP',
+      intro:
+        "Les resorts, clubs et écoles achètent différemment des marques grand public : l'équipement doit supporter un usage quotidien, convenir à des niveaux variés et s'adapter au budget du programme. Ce cadre couvre les décisions qui comptent.",
+      sections: [
+        {
+          title: 'Dimensionner la flotte selon l\u2019usage',
+          body: [
+            "Comptez combien de pratiquants seront sur l'eau en même temps, et non combien de clients vous avez. Un resort qui loue en rotation a besoin de moins de planches qu'une école qui organise des cours simultanés — et plus de pièces de rechange.",
+            "Une bonne règle empirique : une planche par pratiquant simultané, plus 10–15 % de capacité de réserve pour la maintenance et la croissance.",
+          ],
+        },
+        {
+          title: 'Adapter les types de planches aux niveaux',
+          body: [
+            "Les débutants profitent de planches plus larges et plus volumineuses qui paraissent stables ; les pratiquants expérimentés préfèrent des planches plus étroites qui pagayent plus vite. Une flotte mixte — principalement adaptée aux débutants, avec quelques planches de performance — convient à la plupart des programmes.",
+            "Les planches multi-personnes ont toute leur place dans les écoles et les expériences de groupe : elles permettent aux instructeurs d'enseigner et peuvent remplacer plusieurs planches individuelles lors des rotations de cours.",
+          ],
+        },
+        {
+          title: 'La durabilité est une décision budgétaire',
+          body: [
+            "Une construction de qualité location coûte plus cher à l'achat mais permet d'économiser sur deux à trois saisons. Renseignez-vous sur le renforcement des boudins, l'épaisseur du PVC et la garantie que l'usine offre sur les commandes de flotte.",
+            "Prévoyez aussi le stockage et le gonflage : compresseurs, râteliers et routines de rangement déterminent la charge de travail quotidienne du programme. Les fournisseurs orientés flotte incluent tout cela dans le package.",
+          ],
+        },
+        {
+          title: 'Planifier le programme, pas seulement la commande',
+          body: [
+            "Les meilleures commandes d'équipement s'inscrivent dans un plan de programme : formation des instructeurs, routines de maintenance et cycle de remplacement des planches usées. Les organisations qui planifient le programme renouvellent leur équipement selon le calendrier ; celles qui ne le font pas achètent des remplacements d'urgence à plein tarif.",
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -291,5 +415,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       'Guías prácticas sobre desarrollo de productos SUP personalizados y construcción de tablas hinchables.',
     h1: 'Centro de conocimiento — desarrollo de producto, explicado',
+  },
+  fr: {
+    metaTitle: 'Centre de connaissances — guides de développement de produits | SUPsfactory',
+    metaDescription:
+      "Guides pratiques sur le développement de produits SUP personnalisés, la construction de planches gonflables et le choix d'un équipement SUP pour les resorts, clubs et écoles.",
+    h1: 'Centre de connaissances — développement de produit, expliqué',
   },
 }

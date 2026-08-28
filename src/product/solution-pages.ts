@@ -793,6 +793,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Comenta tu programa SUP escolar',
     },
   ],
+  fr: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Fabrication de SUP personnalisés',
+      metaTitle: 'Développement de produits SUP sur mesure | Solutions personnalisées',
+      metaDescription:
+        'Développez des produits SUP personnalisés avec Supsfactory. Nous accompagnons vos exigences, la personnalisation, les prototypes et la fabrication pour entreprises et organisations.',
+      kicker: 'Fabricant de SUP personnalisés',
+      serviceType: 'Développement de produits SUP sur mesure',
+      answer:
+        'Nous développons des SUP gonflables, des planches rigides et des accessoires personnalisés à partir de votre cahier des charges — forme, graphisme, matériaux et emballage — de l\'ingénierie à l\'échantillonnage et à la production. Les projets sur mesure démarrent à 90–100+ unités par rouleau de 150 m (volume) ; les échantillons sont expédiés sous 7–12 jours et la production dure 25–35 jours après confirmation du bon de commande et versement de l\'acompte.',
+      h1: 'Produits SUP personnalisés selon vos exigences',
+      intro: [
+        'Vous avez besoin de planches fabriquées selon vos propres spécifications — forme, graphisme, matériaux, emballage — sans gérer votre propre usine. Nous sommes le partenaire de fabrication qui prend en charge vos exigences et vous livre un produit fini.',
+        'Chaque projet est suivi par un spécialiste dédié qui gère la conception, les échantillons, la production et la livraison, afin que vous sachiez toujours où en est votre commande.',
+      ],
+      scenario: {
+        title: 'Vous avez besoin de planches fabriquées sur spécification',
+        body: 'Un cahier des charges produit, pas un choix de catalogue. Vos préférences de forme, votre graphisme, votre niveau de qualité, votre emballage. Nous assurons l\'ingénierie, l\'échantillonnage et la production sur des plateformes éprouvées, avec une flexibilité dès les petits premiers lots.',
+      },
+      pairs: [
+        {
+          problem: 'Les catalogues d\'usine ne proposent que des designs existants que vous ne pouvez pas modifier.',
+          solution: 'Nous produisons des planches personnalisées selon vos formes, votre graphisme et vos spécifications — de la première échantillonne à la production complète.',
+        },
+        {
+          problem: 'Les grands minimums vous engagent dans du stock avant de valider le marché.',
+          solution: 'La production personnalisée commence à 90–100+ unités par design, tandis que les lots pilotes sur plateformes existantes démarrent à 20–50 unités — les premiers lots restent petits tout en maintenant un prix unitaire avantageux.',
+        },
+        {
+          problem: 'Vous n\'avez pas d\'équipe de conception ni d\'ingénierie en interne.',
+          solution: 'Notre équipe de conception et d\'ingénierie interne transforme une idée, un croquis ou une planche de référence en dessins prêts pour la production.',
+        },
+        {
+          problem: 'Qualité d\'usine inconnue et communication lente.',
+          solution: 'Un chef de projet dédié gère les échantillons, les étapes de contrôle qualité et les délais de livraison de bout en bout — un seul interlocuteur, des mises à jour claires.',
+        },
+      ],
+      steps: [
+        { title: 'Soumettez votre projet', body: 'Exposez vos exigences ou partagez des croquis et des images de référence.' },
+        { title: 'Conception et échantillonnage', body: 'Nous développons les dessins et expédions un échantillon physique sous 7–12 jours.' },
+        { title: 'Validation et production', body: 'Après votre approbation, la production dure 25–35 jours avec un contrôle qualité multi-étapes.' },
+        { title: 'Livraison et réassort', body: 'Export mondial avec emballage professionnel, et accompagnement pour les réassorts à qualité constante.' },
+      ],
+      caseStudy: {
+        title: 'Extension de gamme d\'une marque outdoor',
+        body: 'Une marque d\'équipement outdoor s\'est lancée dans le paddle avec une planche de voyage à marque. Nous avons développé la planche à partir d\'un croquis sommaire, obtenu l\'approbation de l\'échantillon en 15 jours et livré la première production en 25–35 jours.',
+        tags: ['Développement de planche', 'Graphisme de marque', 'Première production'],
+      },
+      faqs: [
+        {
+          q: 'Pouvez-vous développer un produit SUP à partir de mon idée ?',
+          a: 'Oui. Nous vous aidons à évaluer vos exigences et à développer une solution prête pour la production — du concept et des dessins à l\'échantillon physique.',
+        },
+        {
+          q: 'Puis-je personnaliser les graphismes et les couleurs du SUP ?',
+          a: 'Oui. Les graphismes, les couleurs et les éléments de marque peuvent être développés selon les exigences du projet.',
+        },
+        {
+          q: 'Quelle est la commande minimale pour la fabrication de SUP personnalisés ?',
+          a: 'La production personnalisée commence à 90–100+ unités par design, avec des lots pilotes de 20–50 unités sur les plateformes existantes. Les quantités plus importantes débloquent un meilleur prix unitaire, et les réassorts conservent vos outillages et designs.',
+        },
+        {
+          q: 'Qu\'est-ce qui peut être personnalisé sur une planche ?',
+          a: 'Forme et dimensions, construction et matériaux, graphismes et logos, disposition du tapis EVA, accessoires (pagaie, pompe, sac) et emballage.',
+        },
+        {
+          q: 'Fournissez-vous des échantillons avant la production ?',
+          a: 'Oui — un échantillon physique est produit et approuvé avant toute production. Le délai d\'échantillonnage est généralement de 7–12 jours.',
+        },
+        {
+          q: 'Pouvez-vous travailler uniquement à partir de mes éléments de marque, sans équipe de conception complète ?',
+          a: 'Oui. Notre équipe de conception développe des fichiers de production prêts à partir de votre logo, de vos couleurs de marque ou d\'un concept approximatif.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Parlez de votre projet SUP personnalisé',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'Planches de marque privée',
+      metaTitle: 'Fabrication SUP en marque privée | Production personnalisée',
+      metaDescription:
+        'Supsfactory accompagne la fabrication SUP en marque privée pour les marques existantes, du développement à la production de produits SUP personnalisés.',
+      kicker: 'Planches de marque privée',
+      serviceType: 'Fabrication SUP en marque privée',
+      answer:
+        'La marque privée place votre marque sur des plateformes de SUP éprouvées et prêtes à produire, sans nouvel outillage. Choisissez un modèle de base, appliquez votre logo, vos couleurs, votre emballage et vos accessoires, et commandez dès 90–100+ unités par rouleau de 150 m (volume). C\'est la voie la plus rapide et la moins risquée pour se lancer ; les échantillons prennent 7–12 jours et la production 25–35 jours après le bon de commande.',
+      h1: 'Fabrication SUP en marque privée pour votre marque',
+      intro: [
+        'La production en marque privée vous permet de lancer une gamme de planches sous votre propre marque sans investir dans de l\'outillage ni dans une usine. Votre logo, vos couleurs et votre emballage sont appliqués sur des plateformes vérifiées en qualité, avec des quantités qui évoluent selon la demande.',
+        'Nous gérons le volet produit pour que vous puissiez vous concentrer sur le volet marque : conception, emballage et gestion des réassorts sont de notre ressort.',
+      ],
+      scenario: {
+        title: 'Vous avez une marque — et avez besoin de produits qui la portent',
+        body: 'Une identité de marque sans stock. Vous souhaitez une gamme de planches vendables à votre nom, en quantités adaptées à votre étape — du premier lot de validation aux flottes en réassort.',
+      },
+      pairs: [
+        {
+          problem: 'La marque ne vit que sur l\'étiquette — le produit reste générique.',
+          solution: 'Intégration complète de la marque : graphismes de la planche, logo, disposition du tapis EVA, pagaie, pompe, sac et emballage à marque.',
+        },
+        {
+          problem: 'La première commande vous oblige à acheter des centaines d\'unités que vous risquez de ne pas écouter.',
+          solution: 'Commencez par un lot pilote de 20–50 unités sur une plateforme standard, puis passez à un lot en volume de 90–100+ unités — validez le marché avant les grands volumes.',
+        },
+        {
+          problem: 'Le développement du design et de l\'emballage vous semble inaccessible.',
+          solution: 'Notre équipe de conception transforme vos éléments de marque en fichiers de planche et d\'emballage prêts pour la production.',
+        },
+        {
+          problem: 'Les réassorts sont instables en qualité ou en délais.',
+          solution: 'Les outillages et les designs vous appartiennent, et les réassorts s\'effectuent sur les mêmes plateformes vérifiées avec une qualité constante.',
+        },
+      ],
+      steps: [
+        { title: 'Présentez votre marque', body: 'Envoyez votre logo, vos couleurs et tout élément de marque existant.' },
+        { title: 'Développement du design', body: 'Nous concevons les graphismes de la planche, la disposition EVA et l\'emballage autour de votre marque.' },
+        { title: 'Validation de l\'échantillon', body: 'Un échantillon physique confirme les couleurs, la finition et l\'emballage.' },
+        { title: 'Production et livraison', body: 'Nous produisons les quantités demandées avec contrôle qualité et export gérés de bout en bout.' },
+      ],
+      caseStudy: {
+        title: 'Nouvelle marque, première commande de production',
+        body: 'Un détaillant sportif a lancé sa gamme de planches de paddle avec uniquement un logo. Nous avons développé l\'ensemble du design de planche et d\'emballage, produit un premier lot de 50 unités pour tester le marché, puis passé à une commande de production complète en une saison.',
+        tags: ['Développement de marque', 'Design d\'emballage', 'Production escalée'],
+      },
+      faqs: [
+        {
+          q: 'Qu\'est-ce que la fabrication SUP en marque privée ?',
+          a: 'La fabrication SUP en marque privée permet aux entreprises de vendre des produits SUP sous leur propre marque avec des spécifications personnalisées et un accompagnement de production.',
+        },
+        {
+          q: 'Les marques existantes peuvent-elles développer de nouveaux produits SUP ?',
+          a: 'Oui. Supsfactory accompagne les marques souhaitant s\'étendre au SUP : sélection de produits, ajustement de spécifications, graphismes personnalisés et fabrication.',
+        },
+        {
+          q: 'Qu\'est-ce qu\'inclus dans un programme SUP en marque privée ?',
+          a: 'Votre marque sur la planche elle-même — graphismes, logo, tapis EVA — plus en option la pagaie, la pompe, le sac et l\'emballage à marque : un produit complet et vendable sous votre nom.',
+        },
+        {
+          q: 'Le design peut-il changer entre les commandes ?',
+          a: 'Oui. Une fois vos éléments de marque prêts pour la production, les réassorts peuvent actualiser les graphismes, les couleurs ou l\'emballage à tout moment.',
+        },
+        {
+          q: 'Nous n\'avons qu\'un logo. Pouvez-vous quand même nous aider ?',
+          a: 'Oui. Notre équipe de conception développe l\'ensemble du design de planche et d\'emballage à partir de votre logo et de vos couleurs de marque.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Parlez de votre projet en marque privée',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'Planches pour resorts',
+      metaTitle: 'Équipement SUP pour resorts | Planches personnalisées',
+      metaDescription:
+        'Créez des équipements SUP personnalisés pour resorts et hôtels avec Supsfactory : planches à marque, accessoires et accompagnement de production.',
+      kicker: 'Planches pour resorts',
+      serviceType: 'Équipement SUP pour resorts et hôtels',
+      answer:
+        'Nous fournissons des SUP gonflables à marque pour resorts et hôtels, conçus pour un usage quotidien par les clients : construction drop-stitch haute pression, coutures renforcées et MOQ progressifs de 20–50 unités pilotes à 90–100+ pour les déploiements de flotte. Les planches portent votre logo et vos couleurs, et nous conseillons sur le stockage, l\'entretien et les réassorts.',
+      h1: 'Équipement SUP personnalisé pour resorts et hôtels',
+      intro: [
+        'Les flottes de planches de resort doivent résister à un usage quotidien par les clients, se stocker facilement hors saison et porter votre marque. Nous fabriquons des planches durables, adaptées aux clients et dans vos couleurs, et structurons le programme de flotte autour de votre exploitation.',
+        'Les quantités sont recommandées selon les schémas d\'utilisation réels, pas selon des estimations — et les programmes de réassort maintiennent la flotte en bon état saison après saison.',
+      ],
+      scenario: {
+        title: 'Vous gérez des activités nautiques pour vos clients',
+        body: 'Les clients attendent une expérience mémorable sur l\'eau, et l\'équipement représente votre établissement. Vous avez besoin de planches suffisamment robustes pour la location quotidienne, faciles à ranger et à l\'image de votre resort.',
+      },
+      pairs: [
+        {
+          problem: 'Les flottes s\'usent rapidement avec l\'usage intensif de la location.',
+          solution: 'Construction de qualité location avec rails renforcés et matériaux résistants aux UV, conçue pour des sessions répétées.',
+        },
+        {
+          problem: 'L\'espace de stockage est limité hors saison.',
+          solution: 'Options gonflables faciles à ranger qui se glissent dans un placard en fin de saison.',
+        },
+        {
+          problem: 'L\'équipement est générique et ne reflète pas votre établissement.',
+          solution: 'Graphismes complets sur la planche, logo et marquage EVA dans les couleurs de votre resort, avec accessoires à marque.',
+        },
+        {
+          problem: 'Le renouvellement et la mise à jour de la flotte manquent de coordination.',
+          solution: 'Programme de réassort de flotte avec qualité constante, support pour les pièces détachées et recommandations de quantités réalistes.',
+        },
+      ],
+      steps: [
+        { title: 'Décrivez votre exploitation', body: 'Volume de clients, littoral, capacités de stockage et durée de la saison.' },
+        { title: 'Recevez le plan de flotte', body: 'Nous recommandons les types de planches et les quantités selon les schémas d\'utilisation.' },
+        { title: 'Validation de l\'échantillon à marque', body: 'Vos couleurs et votre logo confirmés sur une planche physique.' },
+        { title: 'Réception et entretien', body: 'Livraison, pièces détachées et programme de réassort pour les saisons futures.' },
+      ],
+      caseStudy: {
+        title: 'Flotte clients pour un resort côtier',
+        body: 'Un resort côtier a équipé son programme de plage avec 40 planches gonflables à marque dans les couleurs du resort, avec des pagaies et des pompes à marque. Les planches se stockent dans un seul placard hors saison, et la flotte a été renouvelée à qualité constante après la deuxième saison.',
+        tags: ['Flotte clients à marque', 'Stockage gonflable', 'Renouvellement saisonnier'],
+      },
+      faqs: [
+        {
+          q: 'Les resorts peuvent-ils personnaliser l\'équipement SUP avec leur logo ?',
+          a: 'Oui. Les resorts peuvent personnaliser les graphismes, les couleurs et les accessoires selon les exigences du projet — marquage complet de la planche dans les couleurs de l\'établissement.',
+        },
+        {
+          q: 'Pouvez-vous fournir plusieurs unités SUP pour l\'exploitation d\'un resort ?',
+          a: 'Oui. Des solutions de production peuvent être développées selon les besoins de la flotte, de la flotte de démarrage aux programmes de renouvellement saisonnier.',
+        },
+        {
+          q: 'Combien de planches un resort a-t-il besoin ?',
+          a: 'La plupart des resorts commencent avec 20–50 planches et évoluent selon la demande. Nous recommandons selon le volume de clients et le littoral, pas selon des estimations.',
+        },
+        {
+          q: 'Les planches gonflables conviennent-elles à un usage en resort ?',
+          a: 'Oui. Les SUP gonflables modernes sont extrêmement durables et beaucoup plus faciles à stocker et à transporter — le choix populaire pour les resorts avec un espace de stockage limité.',
+        },
+        {
+          q: 'La flotte peut-elle porter notre logo et nos couleurs ?',
+          a: 'Oui — graphismes complets sur la planche, impression du logo, marquage EVA et accessoires à marque font partie intégrante du programme resort.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Demandez une solution SUP pour votre resort',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Planches d\'équipe pour clubs',
+      metaTitle: 'Équipement SUP pour clubs et équipes',
+      metaDescription:
+        'Supsfactory propose des solutions d\'équipement SUP personnalisé pour clubs, équipes et événements, incluant le graphisme, les spécifications et l\'accompagnement de production.',
+      kicker: 'Planches d\'équipe pour clubs',
+      serviceType: 'Équipement SUP pour clubs et équipes',
+      answer:
+        'Les clubs et équipes obtiennent des flottes durables et cohérentes dans leurs couleurs : placement du logo, longueurs de pagaie personnalisées et lots d\'accessoires sur une seule spécification de planche standardisée, afin que les réparations et les pièces de rechange restent simples lors des réassorts. Le MOQ démarre à 90–100+ unités (volume) ; des lots pilotes de 20–50 unités sont disponibles pour valider la spécification.',
+      h1: 'Équipement SUP personnalisé pour clubs et équipes',
+      intro: [
+        'Les clubs de paddle ont besoin de planches qui résistent à l\'entraînement quotidien, affichent les couleurs de l\'équipe et restent cohérentes lors des réassorts. Nous fabriquons des planches d\'équipe personnalisées avec le nom et les couleurs de votre club, à des tarifs avantageux pour les flottes.',
+        'Les programmes de club incluent également le volet pratique : pièces détachées, guide de réparation et accompagnement des réassorts à qualité constante.',
+      ],
+      scenario: {
+        title: 'Votre club organise des entraînements et des sessions d\'équipe',
+        body: 'Les planches sont utilisées quotidiennement par les membres et représentent le club lors d\'événements et de compétitions. Vous souhaitez un équipement d\'équipe à l\'image de votre club, robuste et sans gérer vous-même la relation avec l\'usine.',
+      },
+      pairs: [
+        {
+          problem: 'Les planches d\'entraînement subissent un usage intensif et répété.',
+          solution: 'Construction renforcée conçue pour un usage professionnel quotidien, avec guide de réparation et support pour les pièces détachées.',
+        },
+        {
+          problem: 'La flotte apparaît disparate et sans identité.',
+          solution: 'Le nom, les couleurs et le logo du club imprimés sur chaque planche pour une flotte d\'équipe unifiée.',
+        },
+        {
+          problem: 'L\'extension de la flotte nécessite de rechercher des références compatibles.',
+          solution: 'Les réassorts s\'effectuent sur les mêmes plateformes vérifiées : les nouvelles planches correspondent parfaitement aux existantes.',
+        },
+        {
+          problem: 'Les budgets flotte sont limités.',
+          solution: 'Tarifs dégressifs pour les flottes et interlocuteur dédié pour les réassorts, les pièces et la maintenance.',
+        },
+      ],
+      steps: [
+        { title: 'Présentez votre club', body: 'Nombre de membres, types de sessions et équipement actuel.' },
+        { title: 'Choisissez les types de planches', body: 'Planches d\'entraînement, de début et d\'équipe adaptées à votre programme.' },
+        { title: 'Ajoutez la marque du club', body: 'Nom, couleurs et logo appliqués sur les planches et les accessoires.' },
+        { title: 'Commandez et développez', body: 'Approvisionnement de la flotte, pièces détachées et réassorts à qualité constante.' },
+      ],
+      caseStudy: {
+        title: 'Renouvellement de la flotte d\'un club',
+        body: 'Un club de paddle a renouvelé son image avec 25 planches d\'entraînement à marque et des pièces de rechange. Les membres s\'entraînent avec un équipement unifié, et le club a étendu sa flotte la saison suivante avec un réassort identique.',
+        tags: ['Marque du club', 'Renouvellement de flotte', 'Support pièces'],
+      },
+      faqs: [
+        {
+          q: 'Les clubs de SUP peuvent-ils personnaliser les planches d\'équipe ?',
+          a: 'Oui. Les clubs peuvent personnaliser les graphismes, les couleurs et les configurations produit — le nom, les couleurs et le logo du club sur chaque planche.',
+        },
+        {
+          q: 'Pouvez-vous assurer une production SUP pour des événements ?',
+          a: 'Oui. Des plans de production peuvent être développés selon les besoins de l\'événement, incluant des planches et accessoires édition spéciale.',
+        },
+        {
+          q: 'Quelles planches conviennent le mieux à l\'entraînement en club ?',
+          a: 'Des planches stables et robustes adaptées au niveau des membres — planches larges de début pour les cours et planches de randonnée pour l\'entraînement en distance.',
+        },
+        {
+          q: 'Les clubs bénéficient-ils de tarifs dégressifs pour les flottes ?',
+          a: 'Oui — les flottes de club bénéficient de tarifs dégressifs et d\'un interlocuteur dédié pour les réassorts, les pièces et la maintenance.',
+        },
+        {
+          q: 'Les planches endommagées peuvent-elles être réparées ou remplacées ?',
+          a: 'Nous fournissons des pièces de rechange, un guide de réparation et un accompagnement pour les réassorts afin de maintenir la cohérence de la flotte.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Parlez de votre projet SUP club',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'Programme SUP scolaire',
+      metaTitle: 'Équipement SUP scolaire | Planches personnalisées pour l\'éducation',
+      metaDescription:
+        'Des solutions d\'équipement SUP sûres et fiables pour écoles, camps et organismes, avec un accompagnement de production personnalisée de Supsfactory.',
+      kicker: 'Programme SUP scolaire',
+      serviceType: 'Équipement SUP pour écoles et programmes',
+      answer:
+        'Pour les écoles et programmes éducatifs, nous fournissons des planches stables et accessibles aux débutants, avec guide de sécurité imprimé, pagaies rembourrées et accessoires de protection, dimensionnées en fonction de vos effectifs et de vos contraintes de stockage. Le lot standard est de 90–100+ unités par rouleau de 150 m, avec des lots pilotes de 20–50 unités ; les délais s\'adaptent au calendrier d\'approvisionnement scolaire.',
+      h1: 'Solutions SUP sûres et fiables pour écoles et programmes',
+      intro: [
+        'Les écoles abordent le paddle différemment : grands groupes, niveaux hétérogènes, exigences de sécurité strictes et budgets éducatifs. Notre programme scolaire propose des planches stables et accessibles aux débutants, des packs adaptés aux effectifs et des conseils du point de vue de l\'instructeur.',
+        'L\'approvisionnement en volume et l\'accompagnement des réassorts maintiennent l\'équipement disponible pour de nouvelles promotions année après année.',
+      ],
+      scenario: {
+        title: 'Vous enseignez le paddle à des élèves',
+        body: 'Les groupes sont importants et les niveaux de compétence variés. Vous avez besoin de planches stables et sûres pour les débutants, de quantités adaptées à la taille des groupes et d\'un programme compatible avec le budget et les cycles d\'approvisionnement scolaires.',
+      },
+      pairs: [
+        {
+          problem: 'Les élèves ont besoin d\'une stabilité maximale sur l\'eau.',
+          solution: 'Planches de début larges et à grand volume, et planches multi-places conçues pour être indulgentes avec les premières fois.',
+        },
+        {
+          problem: 'La taille des groupes exige un équipement suffisant et uniforme.',
+          solution: 'Tarifs de programme en volume selon la taille des groupes, avec une qualité identique sur chaque planche.',
+        },
+        {
+          problem: 'Les instructeurs gèrent la sécurité avec peu de moyens.',
+          solution: 'Les planches incluent des consignes d\'utilisation claires, et nous recommandons les quantités et l\'agencement pour votre zone d\'eau.',
+        },
+        {
+          problem: 'L\'équipement doit durer sur plusieurs promotions d\'élèves.',
+          solution: 'Construction renforcée avec pièces détachées et accompagnement des réassorts pour une longue durée de vie du programme.',
+        },
+      ],
+      steps: [
+        { title: 'Présentez votre programme', body: 'Taille des groupes, zone d\'eau, configuration des instructeurs et cycle budgétaire.' },
+        { title: 'Construisez le pack', body: 'Types et quantités de planches adaptés à la pédagogie, pas à des estimations.' },
+        { title: 'Validation de l\'échantillon', body: 'Vérifiez la stabilité, la construction et la finition sur une planche physique.' },
+        { title: 'Livraison et renouvellement', body: 'Approvisionnement en volume, pièces détachées et réassorts pour les nouvelles promotions.' },
+      ],
+      caseStudy: {
+        title: 'Programme nautique scolaire',
+        body: 'Une école a lancé un cours de paddle avec 15 planches de début et des planches multi-places pour les premières leçons. Les instructeurs ont constaté des progrès plus rapides lors de la première session grâce aux plateformes stables, et le programme a renouvelé l\'équipement avec un réassort identique l\'année suivante.',
+        tags: ['Flotte de début', 'Lancement de programme', 'Commandes de renouvellement'],
+      },
+      faqs: [
+        {
+          q: 'Quel équipement SUP convient aux écoles ?',
+          a: 'Le choix de l\'équipement SUP dépend de l\'âge des utilisateurs, du contexte d\'utilisation et des exigences du programme — les planches larges et stables sont le choix standard pour l\'enseignement.',
+        },
+        {
+          q: 'Les écoles peuvent-elles personnaliser l\'équipement SUP ?',
+          a: 'Oui. Les écoles peuvent personnaliser les graphismes, les couleurs et les packs d\'équipement selon leur programme.',
+        },
+        {
+          q: 'Quelles planches conviennent le mieux aux cours de SUP scolaires ?',
+          a: 'Les planches de début larges et stables et les planches multi-places sont idéales — leur volume les rend indulgentes pour les débutants et stables avec plusieurs rameurs.',
+        },
+        {
+          q: 'Les quantités peuvent-elles correspondre à la taille de nos groupes ?',
+          a: 'Oui — les tarifs de programme sont construits autour des quantités par groupe, et nous recommandons les chiffres selon votre zone d\'eau et votre rythme de rotation.',
+        },
+        {
+          q: 'Travaillez-vous avec les calendriers d\'approvisionnement scolaires ?',
+          a: 'Oui. Nous planifions les délais d\'échantillonnage et de production en fonction des cycles budgétaires et saisonniers scolaires.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Parlez de votre programme SUP scolaire',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

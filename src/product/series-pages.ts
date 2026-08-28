@@ -525,6 +525,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+  fr: [
+    {
+      slug: 'all-around',
+      navLabel: 'Plateformes polyvalentes',
+      metaTitle: 'Tableaux SUP polyvalents personnalisés — Fabricant OEM gonflable | SUPsfactory',
+      metaDescription:
+        'Tableaux SUP gonflables polyvalents personnalisés sous votre marque — stabilité large, OEM/ODM en volume dès 90–100+ pcs, échantillons en 7–12 jours. Usine directe de Qingdao, Chine.',
+      kicker: 'Série · Polyvalent',
+      h1: 'Tableaux SUP polyvalents personnalisés — la plateforme de départ par défaut pour les nouvelles marques',
+      intro: [
+        'Le tableau polyvalent est le cheval de bataille de la catégorie SUP : assez large pour offrir une stabilité aux débutants, assez agile pour garder les intermédiaires intéressés, et assez léger pour être transporté partout. La plupart des nouvelles marques et des flottes de location commencent ici.',
+        'Nous fabriquons des plateformes polyvalentes sous votre marque à partir de 90–100+ pcs par rouleau de 150 m (volume), avec des séries pilotes à partir de 20–50 pcs. Forme, rails, couches, couleurs, graphiques pleine surface et emballage sont spécifiés par projet.',
+      ],
+      faqs: [
+        {
+          q: 'Puis-je personnaliser un tableau SUP polyvalent pour ma marque ?',
+          a: 'Oui. Chaque plateforme polyvalente est une base de fabrication — vous spécifiez les dimensions (généralement de 10′6″ à 11′6″), la largeur, l\'épaisseur, le laminage (simple/double couche ou fusion), la configuration des rails, le tapis EVA, les graphiques pleine surface et l\'emballage. Les formes sur mesure à moule commencent à 90–100+ pcs par forme ; la production standard en volume à partir de 90–100+ pcs par rouleau de 150 m.',
+        },
+        {
+          q: 'Quel est le MOQ pour les tableaux SUP polyvalents ?',
+          a: 'Les lots standard en volume commencent à 90–100+ pcs par rouleau de 150 m ; les séries pilotes sur plateformes standard à partir de 20–50 pcs ; les séries de moulage complet à partir de 90–100+ pcs par forme. Les échantillons sont expédiés en 7–12 jours et la production en série prend 25–35 jours après confirmation du bon de commande et de l\'acompte.',
+        },
+        {
+          q: 'Que comprend le package prêt pour la vente au détail ?',
+          a: 'Le package complet : tableau gonflable avec noyau drop-stitch, pagaie réglable, pompe manuelle (ou pompe électrique double étage), kit de réparation, sac à dos de transport et carton imprimé. Les accessoires peuvent être modifiés ou améliorés selon votre marché cible.',
+        },
+        {
+          q: 'Quelle dureté de sol EVA fabriquez-vous ?',
+          a: 'Les tapis de traction vont de 45–55 Shore C — dureté moyenne souple, adhérence confortable sous le pied sans durcir au soleil. L\'épaisseur, les rainures, les découpes et le positionnement du logo sont spécifiés par projet.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Plateformes de course',
+      metaTitle: 'Tableaux SUP de course personnalisés — Plateformes de racing OEM | SUPsfactory',
+      metaDescription:
+        'Tableaux SUP gonflables de course personnalisés pour clubs, événements et marques — coques de racing drop-stitch, OEM en volume dès 90–100+ pcs, production certifiée CE. Usine directe.',
+      kicker: 'Série · Course',
+      h1: 'Tableaux SUP de course personnalisés — coques de racing fabriquées pour votre marque',
+      intro: [
+        'Les tableaux de course privilégient la vitesse à la stabilité : profils plus longs et plus étroits, formes de proue affinées et faible rocker, conçus pour le pagayage en déplacement. Les versions gonflables égalent les performances des planches rigides dans une plateforme transportable.',
+        'Nous produisons des plateformes de course pour marques, clubs et organisateurs d\'événements avec des noyaux drop-stitch de précision, des couches spécifiques à la course et des formes de coque orientées vitesse — testées en bassin hydrodynamique.',
+      ],
+      faqs: [
+        {
+          q: 'Quelles dimensions de SUP de course pouvez-vous fabriquer ?',
+          a: 'Les plateformes de course vont généralement de 12′6″ × 28″ pour les classes 12′6 à 14′ × 23″–25″ pour les formats Unlimited/Touring race. La largeur, le rocker et le profil de proue sont adaptés au groupe de rameurs cible et vérifiés sur un échantillon physique.',
+        },
+        {
+          q: 'Les tableaux de course nécessitent-ils une construction spéciale ?',
+          a: 'Oui — les tableaux de course utilisent un noyau drop-stitch plus léger et à tissage serré, des pressions plus élevées (18–20 PSI) et un renforcement de rail plus rigide pour maintenir la forme de la coque en vitesse. Le choix des couches (simple vs double) équilibre poids et rigidité, ce que nous définissons avec vous pour chaque projet.',
+        },
+        {
+          q: 'Les clubs peuvent-ils commander des tableaux de course pour leur équipe ?',
+          a: 'Oui. Les programmes clubs et équipes commandent à partir de 90–100+ pcs (volume) avec les graphiques du club, et peuvent mélanger tableaux de course et d\'entraînement dans une même commande. Le tarif flotte s\'applique aux volumes combinés.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Plateformes de surf',
+      metaTitle: 'Tableaux SUP de surf personnalisés — Plateformes hybrides gonflables OEM | SUPsfactory',
+      metaDescription:
+        'Tableaux SUP gonflables de surf personnalisés — profils hybrides avec rails arrondis et rocker relevé, fabriqués sous votre marque dès 90–100+ pcs à Qingdao, Chine.',
+      kicker: 'Série · Surf',
+      h1: 'Tableaux SUP de surf personnalisés — plateformes hybrides pour chevaucher les vagues',
+      intro: [
+        'Les tableaux SUP de surf apportent les performances vagues dans une plateforme transportable : longueurs réduites, rocker accru, rails arrondis et proues concaves qui maintiennent la ligne sur la face de la vague. Les formes de surf gonflables sont la manière la plus accessible de s\'initier au surf avec pagaie.',
+        'Nous fabriquons des plateformes de surf sous votre marque avec des formes et des détails de construction spécifiques aux vagues — des packages complets type soft-top aux laminages performance.',
+      ],
+      faqs: [
+        {
+          q: 'Quelles tailles sont disponibles pour les tableaux SUP de surf ?',
+          a: 'Les plateformes de surf courantes vont de 8′6″ à 10′6″ avec des largeurs autour de 30″–34″. La longueur, le rocker et le profil de rails sont spécifiés en fonction du poids du rameur et du type de vague, et vérifiés sur un échantillon physique avant production.',
+        },
+        {
+          q: 'Les tableaux de surf gonflables sont-ils suffisamment durables pour la location ?',
+          a: 'Avec des rails renforcés et du PVC résistant aux UV, nos plateformes de surf supportent l\'usage en location et en formation dans les écoles de surf. Les flottes de location combinent généralement des formes polyvalentes et des formes de surf — le tarif flotte s\'applique au volume mixte.',
+        },
+        {
+          q: 'Pouvez-vous reproduire les graphiques de notre marque sur les tableaux de surf ?',
+          a: 'Oui. Les graphiques pleine surface, l\'illustration de fond, les tapis de traction EVA et l\'emballage sont produits à partir de vos fichiers graphiques ou développés par notre équipe design à partir des éléments de votre marque.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Plateformes de randonnée',
+      metaTitle: 'Tableaux SUP de randonnée personnalisés — Plateformes longue distance OEM | SUPsfactory',
+      metaDescription:
+        'Tableaux SUP gonflables de randonnée pour pagayage longue distance — coques de déplacement 12′6″+, capacité multi-jours, OEM en volume dès 90–100+ pcs, usine directe.',
+      kicker: 'Série · Randonnée',
+      h1: 'Tableaux SUP de randonnée personnalisés — conçus pour la distance, le chargement et le terrain',
+      intro: [
+        'Les tableaux de randonnée sont longs et efficaces : proues effilées pour le déplacement, volume modéré pour la stabilité en eau libre, et une longueur de coque suffisante pour transporter du matériel lors de sorties multi-jours. Ils sont la plateforme privilégiée des rameurs de distance et des outfitters d\'expédition.',
+        'Nous produisons des plateformes de randonnée sous votre marque avec un profilage de déplacement, des points d\'ancrage et un espace de pont pour le fret, ainsi qu\'un écosystème d\'accessoires compatibles (filets élastiques, D-rings, supports).',
+      ],
+      faqs: [
+        {
+          q: 'Quelles tailles de SUP de randonnée fabriquez-vous ?',
+          a: 'Les plateformes de randonnée vont généralement de 12′6″ à 14′ avec des largeurs de 28″–32″. Les coques de 14′ privilégient le glissement ; les versions plus larges ajoutent de la stabilité au chargement. Les spécifications sont confirmées sur un échantillon physique avant production en série.',
+        },
+        {
+          q: 'Les tableaux de randonnée comportent-ils des options de chargement et d\'ancrage ?',
+          a: 'Oui — filets élastiques de chargement, grilles D-rings, supports pour cannes et rails d\'accessoires sont spécifiés par projet. Les packages de randonnée s\'associent couramment à des sacs à dos et des pompes haute pression.',
+        },
+        {
+          q: 'Fournissez-vous des tableaux de randonnée aux outfitters et opérateurs de location ?',
+          a: 'Oui. Les outfitters et opérateurs peuvent constituer des flottes de randonnée dédiées à partir de 20–50 pcs (pilote) avec tarif flotte, pièces de rechange et cycle de renouvellement saisonnier défini.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Plateformes de yoga',
+      metaTitle: 'Tableaux SUP de yoga personnalisés — Plateformes larges et stables OEM | SUPsfactory',
+      metaDescription:
+        'Tableaux SUP gonflables de yoga personnalisés — plateformes extra larges avec ponts moelleux pour studios, resorts et instructeurs. OEM en volume dès 90–100+ pcs, usine directe.',
+      kicker: 'Série · Yoga',
+      h1: 'Tableaux SUP de yoga personnalisés — plateformes extra larges pour pratiquer sur l\'eau',
+      intro: [
+        'Les tableaux de yoga sont conçus pour l\'immobilité : largeur et volume supplémentaires pour une plateforme stable, revêtements moelleux pour les mains et les pieds, et profils bas qui maintiennent le tableau au plus près de l\'eau. Ils servent les studios, resorts et instructeurs de programmes de yoga aquatique.',
+        'Nous fabriquons des plateformes de yoga sous votre marque avec les profils stables les plus larges, des revêtements EVA premium et des options à l\'échelle des programmes pour studios et flottes de resorts.',
+      ],
+      faqs: [
+        {
+          q: 'Qu\'est-ce qui fait un bon tableau SUP pour le yoga ?',
+          a: 'La stabilité avant tout : une largeur accrue (33″–36″) et un volume important maintiennent le tableau plat et ferme. Un revêtement EVA doux au toucher protège les mains, les genoux et les pieds, et un rail à faible profil réduit les oscillations lors de la montée et de la descente.',
+        },
+        {
+          q: 'Les resorts peuvent-ils commander des tableaux de yoga dans le cadre d\'une flotte ?',
+          a: 'Oui. Les resorts associent couramment des plateformes de yoga aux tableaux polyvalents pour les clients. Les volumes de flotte combinés ouvrent droit au tarif flotte, et les graphiques de marque dans la charte de l\'établissement s\'appliquent à l\'ensemble de la commande.',
+        },
+        {
+          q: 'Les tableaux de yoga incluent-ils des packages complets ?',
+          a: 'Oui — tableau gonflable, pagaie, pompe, sac à dos et kit de réparation, ou un kit allégé pour le stockage sur place (tableau + pagaie + pompe électrique), selon les besoins de votre programme.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Plateformes de eaux vives',
+      metaTitle: 'Tableaux SUP de eaux vives personnalisés — Plateformes de rivière OEM | SUPsfactory',
+      metaDescription:
+        'Tableaux SUP gonflables de eaux vives pour rivières et rapides — coques courtes et maniables avec construction de choc renforcée. OEM en volume dès 90–100+ pcs, usine directe de Qingdao, Chine.',
+      kicker: 'Série · Eaux vives',
+      h1: 'Tableaux SUP de eaux vives personnalisés — coques de rivière conçues pour encaisser les chocs',
+      intro: [
+        'Les tableaux de eaux vives sont courts, larges et robustes : coques maniables qui pivotent à la demande, grande résistance aux impacts sur les rails et construction lourde pour les fonds peu profonds et les mises à l\'eau rocheuses.',
+        'Nous fabriquons des plateformes de eaux vives sous votre marque avec des coutures renforcées, des rails de choc et des formes spécifiques à la rivière — conçues pour les écoles, les guides et les outfitters qui animent des cours et des excursions quotidiennes.',
+      ],
+      faqs: [
+        {
+          q: 'Quelle construction les tableaux de eaux vives nécessitent-ils ?',
+          a: 'Des rails renforcés et des coutures surpiqûées absorbent les impacts contre les rochers ; un PVC épais et des couches multicouches résistent aux crevaisons du lit de rivière. Les designs à double chambre ajoutent une réserve de flottaison pour les rivières isolées.',
+        },
+        {
+          q: 'Fournissez-vous aux outfitters de rivière et aux écoles de guides ?',
+          a: 'Oui. Les outfitters et les écoles de guides constituent des flottes de eaux vives à partir de 20–50 pcs (pilote) avec tarif flotte, kits de réparation renforcés et pièces de rechange (dérives, vannes) — typiques pour les programmes à usage intensif en rivière.',
+        },
+        {
+          q: 'Les tableaux de eaux vives peuvent-ils porter les graphiques de marque ?',
+          a: 'Oui — graphiques pleine surface, positionnement du logo et couleurs d\'équipe sont produits à partir de vos fichiers graphiques. Les couches d\'impression anti-déchirure préservent l\'identité de marque même sous usage intense.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Plateformes de pêche',
+      metaTitle: 'Tableaux SUP de pêche personnalisés — OEM et marque privée | SUPsfactory',
+      metaDescription:
+        'Tableaux SUP gonflables de pêche personnalisés avec stabilité, capacité de charge et supports d\'accessoires — OEM/marque privée en volume dès 90–100+ pcs, usine directe de Qingdao, Chine.',
+      kicker: 'Série · Pêche',
+      h1: 'Tableaux SUP de pêche personnalisés — conçus pour les pêcheurs',
+      intro: [
+        'Les tableaux de pêche sont des plateformes de lancer stables : larges et à haut volume pour transporter le pêcheur et son équipement, avec des systèmes de fixation pour porte-cannes, glacières et tackle box, et une construction silencieuse pour les approches discrètes.',
+        'Nous fabriquons des plateformes de pêche sous votre marque avec des fonctionnalités spécifiques aux pêcheurs, spécifiées par projet — des packages week-end aux montages complets de tournoi.',
+      ],
+      faqs: [
+        {
+          q: 'Quelles fonctionnalités de pêche peuvent être spécifiées ?',
+          a: 'Grilles de fixation pour porte-cannes et accessoires, rails d\'équipement, sangles de glacière, points d\'amarrage et tableaux haute capacité jusqu\'à 500 lbs pour le pêcheur plus l\'équipement. Les packages peuvent inclure des pagaies, pompes et sacs avec votre marque.',
+        },
+        {
+          q: 'Quel est le MOQ pour les commandes OEM de tableaux de pêche ?',
+          a: 'Les lots standard en volume commencent à 90–100+ pcs par rouleau de 150 m ; les séries pilotes à partir de 20–50 pcs sur plateformes standard ; l\'outillage sur mesure à partir de 90–100+ pcs par forme. Les échantillons sont expédiés en 7–12 jours et la production en série prend 25–35 jours après confirmation du bon de commande et de l\'acompte.',
+        },
+        {
+          q: 'Produisez-vous des tableaux de pêche pour la location et les activités de guide ?',
+          a: 'Oui. Les activités de guide et de location gèrent des flottes de pêche avec tarif flotte, pièces de rechange et kits de réparation adaptés aux programmes d\'usage quotidien.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Plateformes enfants',
+      metaTitle: 'Tableaux SUP enfants personnalisés — Plateformes légères et compactes OEM | SUPsfactory',
+      metaDescription:
+        'Tableaux SUP gonflables enfants personnalisés — plateformes plus courtes et plus légères avec ponts adaptés aux enfants, conçus pour la sécurité et le plaisir. OEM en volume dès 90–100+ pcs, usine directe.',
+      kicker: 'Série · Enfants',
+      h1: 'Tableaux SUP enfants personnalisés — compacts, légers et conçus pour les premières pagaies',
+      intro: [
+        'Les tableaux enfants sont proportionnés pour les jeunes rameurs : coques plus courtes, poids réduits, largeurs adaptées aux petits gabarits, et ponts moelleux qui pardonnent les chutes. Ils constituent le point d\'entrée pour les marques familiales, les écoles et les flottes de location destinées aux enfants.',
+        'Nous fabriquons des plateformes enfants sous votre marque en tailles standard et junior, avec des options de package adaptées aux familles.',
+      ],
+      faqs: [
+        {
+          q: 'Quelles tailles de tableaux SUP enfants proposez-vous ?',
+          a: 'Les plateformes enfants vont généralement de 7′ à 9′6″ avec des largeurs de 26″ à 30″ et des poids d\'environ 7–9 kg (15–20 lbs). La taille est adaptée à l\'âge et au poids du rameur, et vérifiée sur un échantillon physique avant production.',
+        },
+        {
+          q: 'Fournissez-vous aux écoles et programmes jeunesse ?',
+          a: 'Oui — nos plateformes enfants sont un composant courant des flottes scolaires et de programmes jeunesse, commandées avec des pagaies junior et des accessoires de débutant au tarif programme.',
+        },
+        {
+          q: 'Les tableaux enfants peuvent-ils porter les graphiques de marque et de personnages ?',
+          a: 'Oui. Les déclinaisons couleur pleine surface, les illustrations de personnages et le positionnement du logo sont développés à partir de vos fichiers graphiques ou de la direction de marque — imprimés avec les mêmes couches anti-déchirure que les tableaux adultes.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Plateformes multiplièges',
+      metaTitle: 'Tableaux SUP multiplièges personnalisés — Tandem et famille OEM | SUPsfactory',
+      metaDescription:
+        'Tableaux SUP gonflables multiplièges pour loisirs familiaux et cours en groupe — plateformes tandem, yard et party. OEM en volume dès 90–100+ pcs, usine directe.',
+      kicker: 'Série · Multiplièges',
+      h1: 'Tableaux SUP multiplièges personnalisés — tandems, yard et plateformes party',
+      intro: [
+        'Les tableaux multiplièges ouvrent le SUP aux groupes : tandems avec positions de pagaie supplémentaires, tableaux yard pour se détendre et plateformes party pour plusieurs rameurs. Ils soutiennent les revenus de location dans les resorts, les plages et les bases nautiques.',
+        'Nous fabriquons des plateformes multiplièges sous votre marque avec les profils de stabilité et de volume adaptés à chaque usage.',
+      ],
+      faqs: [
+        {
+          q: 'Quels types de tableaux multiplièges fabriquez-vous ?',
+          a: 'Tandems (deux rameurs, ~13′–14′), tableaux yard (plateformes courtes et larges pour se détendre) et plateformes party à haut volume pour 3–6 rameurs. Chaque type est spécifié en fonction de la capacité, du poids et de l\'usage prévu.',
+        },
+        {
+          q: 'Les tableaux multiplièges sont-ils un bon investissement pour la location ?',
+          a: 'Oui — ils permettent des tarifs horaires premium avec un coût d\'équipement réduit par rameur, et maintiennent les groupes ensemble au lieu de les disperser sur des tableaux individuels. Les opérateurs de location associent généralement les tableaux multiplièges aux flottes polyvalentes.',
+        },
+        {
+          q: 'Quelle est la capacité d\'une plateforme party ?',
+          a: 'La capacité dépend des dimensions et du volume : les plateformes yard et party courantes supportent 400–700 lbs et transportent 3–6 rameurs selon la taille et la configuration. Les spécifications sont confirmées sur un échantillon physique avant la production en volume.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

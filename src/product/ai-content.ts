@@ -94,6 +94,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/es/knowledge', title: '', excerpt: '' },
     { url: '/es/gallery', title: 'Galería', excerpt: 'Fábrica y galería de productos SUPsfactory: talleres, laboratorios de calidad, ensayos de tejido y tablas de SUP en producción.' },
   ],
+  fr: [
+    { url: '/fr', title: 'SUPsfactory — Fabrication OEM et ODM de SUP gonflables', excerpt: 'Usine OEM/ODM de SUP gonflables à Qingdao : développement de produit, fabrication sur mesure, marque privée et contrôle qualité.' },
+    { url: '/fr/products', title: 'Produits de SUP gonflables', excerpt: 'SUP gonflables premium : séries 11 ft, SUP de pêche, mini SUP, planches géantes pour équipes et plus encore — une fabrication OEM/ODM sur mesure.' },
+    { url: '/fr/solutions', title: 'Solutions', excerpt: 'Programmes de fabrication OEM/ODM de SUP : développement de SUP sur mesure, marque privée, flottes de resorts et de clubs, location et partenaires retail.' },
+    { url: '/fr/projects', title: '', excerpt: '' },
+    { url: '/fr/knowledge', title: '', excerpt: '' },
+    { url: '/fr/gallery', title: 'Galerie', excerpt: 'Usine et galerie de produits SUPsfactory : ateliers, laboratoires qualité, tests de tissu et planches de SUP en production.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
