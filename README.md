@@ -361,6 +361,10 @@ pnpm deploy:purge           # purge the CDN cache (scripts/purge-cache.mjs)
 pnpm deploy:prod:all        # deploy + purge
 pnpm upload:afarer-images   # backfill missing afarer images to R2
 pnpm upload:site-assets     # upload videos / PDFs / quality photos to R2 (site/*)
+pnpm images:process         # sharp: build responsive webp/avif variants (-768/-480) + upload to R2
+pnpm images:preview         # sharp dry-run: render variants to dist-image-preview/ (no upload)
+pnpm pdf:compress           # ghostscript: compress public/downloads PDFs + upload to R2 (GS_EXEC to set gs path)
+pnpm pdf:preview            # ghostscript dry-run: compress locally, don't upload
 pnpm cf-typegen             # regenerate worker-configuration.d.ts from wrangler.jsonc
 ```
 
@@ -489,13 +493,14 @@ The **full first-time walkthrough** — creating D1/KV, setting secrets, and run
 
 ## GitHub Actions & deployment configuration
 
-The repo ships five workflows:
+The repo ships six workflows:
 
 | Workflow | Triggers | What it does |
 |----------|----------|--------------|
 | `ci.yml` | every push | lint + typecheck + test + build (no secrets needed) |
 | `deploy.yml` | push to `main` | generates `wrangler.jsonc` from repo variables, builds with `CLOUDFLARE_ENV=production`, applies D1 migrations, deploys the Worker, **purges the CDN cache**, **warms the edge cache** (`/`, `/es`, product pages), bulk-syncs GitHub secrets → Worker secrets, and backfills missing afarer images to R2 |
 | `upload-afarer-images.yml` | manual | uploads the bundled afarer images to R2 (used for one-off backfills) |
+| `images.yml` | manual | builds responsive image variants (`sharp`) and compressed PDFs (`ghostscript`) from the bundled sources and uploads them to R2 — R2 free tier cannot resize images/PDFs, so variants are generated offline |
 | `website-performance.yml` | manual | Lighthouse-style performance audit |
 | `cf-inspect.yml` | manual | Cloudflare diagnostics helper — dumps cache rules, zone settings and purge results to `cf-inspect.log` in the repo (keep the token's `Zone → Cache Purge` permission for the deploy pipeline's purge step) |
 
