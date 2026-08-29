@@ -67,15 +67,20 @@
 	// When bindings are absent (local dev), ask() falls back to FAQ keyword search.
 	// Setup: `wrangler vectorize create supsfactory-knowledge --dimensions=1024 --metric=cosine`
 	//         `wrangler secret put REINDEX_TOKEN`
-	"ai": {
-		"binding": "AI"
-	},
-	"vectorize": [
-		{
-			"binding": "VECTORIZE",
-			"index_name": "supsfactory-knowledge"
-		}
-	],
+	// AI/Vectorize blocks are commented out at the top level so `vite dev` /
+	// `wrangler dev` runs fully local (miniflare has no simulator for `ai`, and
+	// the Cloudflare Vite plugin then forces a remote proxy session that needs
+	// API auth). Named environments below keep them for staging/production deploys.
+	// Upgrade to Workers Paid and uncomment to enable full RAG mode locally.
+	// "ai": {
+	// 	"binding": "AI"
+	// },
+	// "vectorize": [
+	// 	{
+	// 		"binding": "VECTORIZE",
+	// 		"index_name": "supsfactory-knowledge"
+	// 	}
+	// ],
 	"vars": {
 		"BETTER_AUTH_SECRET": "",
 		"BETTER_AUTH_URL": "",
