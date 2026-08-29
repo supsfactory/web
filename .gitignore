@@ -45,3 +45,6 @@ public/assets/products/
 public/downloads/
 
 dev-server-opt.err
+
+# 本地图片批处理预览输出（scripts/process-and-publish-images.mjs --dry-run）
+dist-image-preview/

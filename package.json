@@ -26,7 +26,11 @@
     "db:seed:framework:local": "wrangler d1 execute ${npm_config_site_id:-supsfactory}-db --local --file=./scripts/framework.sql",
     "db:reset:local": "rm -rf .wrangler/state/v3/d1 && pnpm db:migrate:local && pnpm db:seed:local",
     "upload:images": "node scripts/upload-afarer-images.mjs",
-    "upload:site-assets": "node scripts/upload-site-assets.mjs"
+    "upload:site-assets": "node scripts/upload-site-assets.mjs",
+    "images:process": "node scripts/process-and-publish-images.mjs",
+    "images:preview": "node scripts/process-and-publish-images.mjs --dry-run",
+    "pdf:compress": "node scripts/compress-pdf.mjs",
+    "pdf:preview": "node scripts/compress-pdf.mjs --dry-run"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.52.1",
@@ -75,6 +79,7 @@
     "@vitejs/plugin-react": "^6.0.1",
     "drizzle-kit": "^0.31.10",
     "eslint": "^10.4.1",
+    "sharp": "^0.35.2",
     "typescript": "^6.0.2",
     "vite": "^8.2.1",
     "vitest": "^4.1.5",

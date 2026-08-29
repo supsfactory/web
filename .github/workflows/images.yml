@@ -1,0 +1,151 @@
+name: Process & publish images / PDFs
+
+# 手动触发：用开源 sharp 给源图批量生成响应式变体（webp/avif × 原图/-768/-480），
+# 并用 Ghostscript (gs) 压缩 public/downloads 下的 PDF，全部上传到 R2。
+#
+# 背景：Cloudflare R2 免费套餐「原样」提供对象，不具备图片缩放/处理能力
+# （缩放属付费 Images 产品），所以响应式变体在本机(CI)用 sharp 批量生成后再落地，
+# 让 CDN 直接按尺寸出图。PDF 同理——R2 无 PDF 处理能力，用 gs 离线压缩后上传。
+#
+# 依赖仓库 secrets：CLOUDFLARE_API_TOKEN（Account › R2 Storage › Edit）、
+# CLOUDFLARE_ACCOUNT_ID。未配置时优雅跳过。
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  process-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set resource names from variables
+        id: config
+        env:
+          CF_PROD_R2_BUCKET: ${{ vars.CF_PROD_R2_BUCKET }}
+          CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
+          SITE_ID: ${{ vars.SITE_ID }}
+        run: |
+          R2_BUCKET="${CF_PROD_R2_BUCKET:-${SITE_ID:-supsfactory}-files-prod}"
+          CDN_DOMAIN="assets.${CF_PROD_DOMAIN:-${SITE_ID:-supsfactory}.com}"
+          echo "r2_bucket=$R2_BUCKET" >> "$GITHUB_OUTPUT"
+          echo "cdn_domain=$CDN_DOMAIN" >> "$GITHUB_OUTPUT"
+
+      - name: Check for Cloudflare credentials
+        id: guard
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID 未配置，跳过。"
+          fi
+
+      - if: steps.guard.outputs.enabled == 'true'
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.0.0
+
+      - if: steps.guard.outputs.enabled == 'true'
+        uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
+      - if: steps.guard.outputs.enabled == 'true'
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.4.0
+        with:
+          node-version: 22
+          cache: pnpm
+
+      # 安装依赖（含 sharp）。sharp 在 CI 上由 pnpm rebuild 本地重建原生模块。
+      - if: steps.guard.outputs.enabled == 'true'
+        name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - if: steps.guard.outputs.enabled == 'true'
+        name: Rebuild sharp native binaries
+        run: pnpm rebuild sharp
+
+      - name: Preflight R2 access
+        id: preflight
+        if: steps.guard.outputs.enabled == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
+        run: |
+          API="https://api.cloudflare.com/client/v4"
+          AUTH="Authorization: Bearer ${CLOUDFLARE_API_TOKEN}"
+          HTTP=$(curl -sS -o /tmp/r2buckets.json -w '%{http_code}' \
+            "$API/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets?per_page=100" -H "$AUTH")
+          if [ "$HTTP" = "200" ]; then
+            echo "r2_ok=true" >> "$GITHUB_OUTPUT"
+            if jq -e --arg b "$R2_BUCKET" '.result.buckets | any(.name == $b)' /tmp/r2buckets.json >/dev/null; then
+              echo "bucket_exists=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "bucket_exists=false" >> "$GITHUB_OUTPUT"
+              echo "::notice::桶 $R2_BUCKET 不存在，将尝试创建。"
+            fi
+          else
+            echo "r2_ok=false" >> "$GITHUB_OUTPUT"
+            echo "::error::R2 API probe failed (HTTP $HTTP). CLOUDFLARE_API_TOKEN 需要 Account › R2 Storage › Edit 权限。$(jq -c '.errors' /tmp/r2buckets.json 2>/dev/null)"
+          fi
+
+      - name: Create R2 bucket if missing
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true' && steps.preflight.outputs.bucket_exists == 'false'
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
+        run: |
+          curl -sS -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
+            -d "{\"name\":\"$R2_BUCKET\"}" | jq .
+
+      # ── Step 1: responsive images (sharp) ─────────────────────────────
+      - name: Generate & upload responsive images
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
+        run: |
+          node scripts/process-and-publish-images.mjs --http --src scripts/afarer-images --prefix images/sups/ --widths 768,480 --formats webp,avif --missing
+
+      # ── Step 2: PDF compression (Ghostscript) ─────────────────────────
+      - name: Install Ghostscript
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ghostscript
+
+      - name: Compress & upload PDFs
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
+        run: |
+          node scripts/compress-pdf.mjs --http --src public/downloads --prefix site/downloads/
+
+      - name: Verify upload
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
+          CDN_DOMAIN: ${{ steps.config.outputs.cdn_domain }}
+        run: |
+          echo "--- images/sups/products (sample) ---"
+          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/products/afarer-og-default&per_page=20" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            | jq '{success, keys: [.result[].key]}'
+          echo "--- site/downloads (compressed PDFs) ---"
+          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=site/downloads/&per_page=50" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            | jq '{success, keys: [.result[].key]}'
+          echo "--- CDN reachability (hero responsive variants) ---"
+          for f in afarer-og-default.avif afarer-og-default-768.avif afarer-og-default-480.avif afarer-og-default.webp; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/sups/products/$f?v=$(date +%s)")
+            echo "$code https://$CDN_DOMAIN/images/sups/products/$f"
+          done
