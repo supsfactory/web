@@ -121,8 +121,9 @@ async function main() {
       if (!r) { report[loc].push({ p: ts.p, url: ts[loc], status: r ? r.status : "-", note: "no-fetch/404" }); continue; }
       if (r.status !== 200) { report[loc].push({ p: ts.p, url: ts[loc], status: r.status, note: "non-200" }); continue; }
       const sameTitle = r.title === e.title;
-      const sameH1 = r.h1 === e.h1;
-      if (!sameTitle && !sameH1) { /* genuinely localized */ }
+      const bothH1 = Boolean(r.h1) && Boolean(e.h1);
+      const sameH1 = bothH1 && r.h1 === e.h1;
+      if (!sameTitle && !sameH1) { /* genuinely localized (or H1 client-rendered) */ }
       else {
         report[loc].push({
           p: ts.p, url: ts[loc], status: 200, lang: r.lang, enLang: e.lang,
