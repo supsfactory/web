@@ -38,8 +38,8 @@ features:
     - title: Container-Scale Production
       description: 'Standard volume batches of 90–100 units per design (one full 150 m fabric roll), pilot runs from 20–50 pcs, 25–35 days lead time after confirmed PO.'
       icon: 'tabler:package'
-    - title: CE Certified
-      description: 'CE, ISO 9001, BSCI, REACH and RoHS — compliance documentation prepared for every market you ship to.'
+    - title: CE & Market Compliance
+      description: 'CE conformity documentation available for applicable EU-market configurations — scope confirmed per project. ISO 9001, BSCI, REACH and RoHS documentation prepared for every market you ship to.'
       icon: 'tabler:certificate'
     - title: Inspection & Traceability
       description: '18.0 PSI 24-hour pressure-hold testing with auto-reject above 0.50 PSI drop, a 100-point assembly checklist and 10-year ERP batch traceability.'
@@ -78,7 +78,7 @@ faq_section:
     - q: Do you provide samples before production?
       a: 'Yes. A physical sample is produced and approved before any production run, typically within 7–12 days, and it is the reference for all subsequent QC checks.'
     - q: Which certifications does the factory hold?
-      a: 'CE, ISO 9001, BSCI, REACH and RoHS. Full compliance documentation is provided with every OEM shipment, prepared for your target markets.'
+      a: 'ISO 9001:2015 quality management (factory-wide), BSCI social compliance (amfori facility audit), CE conformity documentation for applicable EU-market configurations (scope confirmed per project), REACH (materials) and RoHS (electronic accessories). Full compliance documentation is provided with every OEM shipment, prepared for your target markets.'
     - q: How is quality controlled on an OEM run?
       a: 'Production runs under multi-point QC — incoming material, in-process and final inspection — with 18.0 PSI 24-hour pressure-hold testing (auto-reject above 0.50 PSI drop), a 100-point assembly checklist and 10-year ERP batch traceability per serial number.'
     - q: What are your shipping terms?

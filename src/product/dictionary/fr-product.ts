@@ -268,7 +268,7 @@ export const frProduct = {
       terms: 'Conditions', privacy: 'Confidentialité', contact: 'Contact',
       rights: 'Partenaire de développement et fabrication de produits SUP personnalisés.',
       owner: `${BRAND_PARENT_BRAND} — Division manufacturing marine de ${BRAND_COMPANY_NAME}.`,
-      compliance: 'Tous nos matériaux sont conformes aux normes CE, REACH et ISO 9001 de gestion de la qualité. Export 100 % direct depuis notre usine de Qingdao, Chine.',
+      compliance: 'Les produits et matériaux sont gérés selon les exigences applicables CE, REACH, RoHS et ISO 9001, avec un périmètre de conformité confirmé pour chaque projet et marché cible.',
       followUs: 'Suivez-nous', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },
     contactWhatsApp: 'Discuter sur WhatsApp', contactWeChat: 'Discuter sur WeChat',

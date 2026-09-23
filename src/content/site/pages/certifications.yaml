@@ -460,7 +460,7 @@ content_certifications:
   subtitle: 'Certifications are only as valuable as what they cover. Below is the certification scope, the certificate holder, and how to verify or request the documents for your project.'
   items:
     - title: 'CE Marking'
-      description: 'Standard SUP and boat models carry CE marking per Directive 2013/53/EU for recreational craft. Custom models are CE certified through our established process for your configuration. Certificate numbers and test reports available on request.'
+      description: 'CE conformity documentation is available for applicable EU-market configurations per Directive 2013/53/EU (recreational craft); scope is confirmed per project. Certificate numbers and test reports available on request.'
       icon: tabler:certificate
     - title: 'ISO 9001:2015'
       description: 'Quality management system certified to ISO 9001:2015, covering design, manufacturing, and distribution of inflatable watercraft and marine equipment. Certification scope and audit report available on request.'

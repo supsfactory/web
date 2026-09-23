@@ -39,7 +39,7 @@ features:
       description: 'Se construye un prototipo físico, se prueba y se envía para tu revisión con pruebas en el agua — normalmente en 7–12 días.'
       icon: 'tabler:tools'
     - title: Ensayos y cumplimiento
-      description: 'Ensayos por unidad de retención de aire, presión y resistencia de costuras, con documentación CE, ISO 9001, BSCI, REACH y RoHS para exportación.'
+      description: 'Ensayos por unidad de retención de aire, presión y resistencia de costuras, con documentación ISO 9001, BSCI, REACH, RoHS y de conformidad CE aplicable al mercado objetivo (alcance confirmado por proyecto).'
       icon: 'tabler:certificate'
     - title: Opciones de propiedad del utillaje
       description: 'Cláusulas de propiedad o compra del molde escritas en el contrato — tu diseño sigue siendo tuyo y el utillaje se conserva para reordenes.'
@@ -79,7 +79,7 @@ faq_section:
     - q: '¿Podéis desarrollar una forma específica (travesía, pesca, carrera, yoga)?'
       a: 'Sí. La ingeniería de cascos cubre todas las categorías principales de SUP — all-around, travesía, carrera, yoga, pesca y tablas multipersona — con validación en tanque hidrodinámico disponible para formas de rendimiento.'
     - q: '¿Qué certificaciones llevará la tabla desarrollada?'
-      a: 'CE (directiva de embarcaciones de recreo), ISO 9001, BSCI, REACH y RoHS. La documentación de certificación se prepara por pedido para tus mercados de exportación, y la conformidad ISO 25649 aplica a las tablas hinchables de SUP.'
+      a: 'Gestión de calidad ISO 9001:2015 (a nivel de fábrica), cumplimiento social BSCI (auditoría de instalación amfori), documentación de conformidad CE para configuraciones aplicables al mercado de la UE (directiva de embarcaciones de recreo — alcance confirmado por proyecto), REACH (materiales), RoHS (accesorios electrónicos) y conformidad ISO 25649 para los modelos de SUP hinchables aplicables. Los documentos de certificación se preparan por pedido para tus mercados de exportación.'
 
 process:
   title: 'El proceso ODM — Del brief a la producción escalada'

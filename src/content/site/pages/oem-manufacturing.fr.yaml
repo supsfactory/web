@@ -38,8 +38,8 @@ features:
     - title: Production à l'échelle du conteneur
       description: 'Lots en volume standard de 90–100 unités par design (un rouleau de tissu complet de 150 m), séries pilotes dès 20–50 pièces, délai de 25–35 jours après bon de commande confirmé.'
       icon: 'tabler:package'
-    - title: Certifié CE
-      description: 'CE, ISO 9001, BSCI, REACH et RoHS — documentation de conformité préparée pour chaque marché vers lequel vous expédiez.'
+    - title: Conformité CE et marché
+      description: 'Documentation de conformité CE disponible pour les configurations applicables au marché de l''UE — périmètre confirmé par projet. Documentation ISO 9001, BSCI, REACH et RoHS préparée pour chaque marché vers lequel vous expédiez.'
       icon: 'tabler:certificate'
     - title: Inspection et traçabilité
       description: 'Test de maintien de pression de 24 heures à 18,0 PSI avec rejet automatique au-delà d''une chute de 0,50 PSI, liste de contrôle d''assemblage de 100 points et traçabilité de lot ERP sur 10 ans.'
@@ -78,7 +78,7 @@ faq_section:
     - q: Fournissez-vous des échantillons avant la production ?
       a: 'Oui. Un échantillon physique est produit et approuvé avant toute série de production, généralement sous 7–12 jours, et il sert de référence pour tous les contrôles QC ultérieurs.'
     - q: Quelles certifications l'usine détient-elle ?
-      a: 'CE, ISO 9001, BSCI, REACH et RoHS. Une documentation de conformité complète est fournie avec chaque expédition OEM, préparée pour vos marchés cibles.'
+      a: 'Management de la qualité ISO 9001:2015 (à l''échelle de l''usine), conformité sociale BSCI (audit d''installation amfori), documentation de conformité CE pour les configurations applicables au marché de l''UE (périmètre confirmé par projet), REACH (matériaux) et RoHS (accessoires électroniques). Une documentation de conformité complète est fournie avec chaque expédition OEM, préparée pour vos marchés cibles.'
     - q: Comment le contrôle qualité est-il géré sur une série OEM ?
       a: 'La production s''exécute sous un QC multipoints — matière entrante, contrôle en cours de processus et inspection finale — avec test de maintien de pression de 24 heures à 18,0 PSI (rejet automatique au-delà d''une chute de 0,50 PSI), liste de contrôle d''assemblage de 100 points et traçabilité de lot ERP sur 10 ans par numéro de série.'
     - q: Quelles sont vos conditions d'expédition ?

@@ -176,6 +176,8 @@ export const esUi = {
       minimumOrder: 'Pedido mínimo (MOQ)',
       productionLeadTime: 'Plazo de producción',
       certifications: 'Certificaciones',
+      certificationsScope: 'ISO 9001 · BSCI · CE (modelos destinados a la UE, alcance por proyecto) · ISO 25649 · REACH · RoHS',
+      certificationsLink: 'Fábrica y Cumplimiento',
       minimumOrderShort: 'Cantidad mínima',
       timeline: 'Plazos',
       qualityControl: 'Control de calidad',

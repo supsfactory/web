@@ -460,7 +460,7 @@ content_certifications:
   subtitle: 'Las certificaciones valen por lo que cubren. A continuación se detalla el alcance de la certificación, el titular del certificado y cómo verificar o solicitar los documentos para su proyecto.'
   items:
     - title: 'Marcado CE'
-      description: 'Los modelos estándar de SUP y embarcaciones llevan marcado CE conforme a la Directiva 2013/53/UE para embarcaciones de recreo. Los modelos a medida se certifican CE mediante nuestro proceso establecido para su configuración. Números de certificado e informes de ensayo disponibles bajo petición.'
+      description: 'La documentación de conformidad CE está disponible para configuraciones aplicables al mercado de la UE conforme a la Directiva 2013/53/UE (embarcaciones de recreo); el alcance se confirma por proyecto. Números de certificado e informes de ensayo disponibles bajo petición.'
       icon: tabler:certificate
     - title: 'ISO 9001:2015'
       description: 'Sistema de gestión de calidad certificado según ISO 9001:2015, que cubre diseño, fabricación y distribución de embarcaciones hinchables y equipos marinos. Alcance de certificación e informe de auditoría disponibles bajo petición.'

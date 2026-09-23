@@ -38,9 +38,9 @@
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: stats, type: stats, label: 'Statistics' }
+    - { key: qc_flow, type: content, label: '7-Stage Inspection Flow' }
     - { key: quality_basis, type: features, label: 'Quality Basis (5 Locked Baselines)' }
     - { key: tests, type: features, label: 'Tests & Procedures' }
-    - { key: qc_flow, type: content, label: '7-Stage Inspection Flow' }
     - { key: system_map, type: features, label: 'Quality System Map (4 Standards)' }
     - { key: intelligence_cards, type: content, label: 'Documentation & Traceability — Anonymized Record Samples' }
     - { key: doc_register, type: features, label: 'Controlled Document Register (00–15)' }

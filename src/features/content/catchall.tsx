@@ -450,7 +450,12 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.certifications')}</th>
-                       <td className="px-4 py-3 text-fg-2">{CERTIFICATION_NAMES.join(' · ')}</td>
+                      <td className="px-4 py-3 text-fg-2">
+                        <span>{t('content.product.certificationsScope')}</span>
+                        <a href={fl('/quality')} className="ml-2 whitespace-nowrap font-bold text-primary underline">
+                          {t('content.product.certificationsLink')}
+                        </a>
+                      </td>
                     </tr>
                   </tbody>
                 </table>

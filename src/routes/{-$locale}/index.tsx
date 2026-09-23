@@ -12,6 +12,7 @@ import { MarketingShell } from '@/components/marketing/shell'
 import { Hero } from '@/components/marketing/hero'
 
 const FactoryProof = lazy(() => import('@/components/marketing/factory-proof').then((m) => ({ default: m.FactoryProof })))
+const ManufacturerPledge = lazy(() => import('@/components/marketing/manufacturer-pledge').then((m) => ({ default: m.ManufacturerPledge })))
 const BoardCategories = lazy(() => import('@/components/marketing/board-categories').then((m) => ({ default: m.BoardCategories })))
 const CollaborationSelector = lazy(() => import('@/components/marketing/collaboration-selector').then((m) => ({ default: m.CollaborationSelector })))
 const PlantCapability = lazy(() => import('@/components/marketing/plant-capability').then((m) => ({ default: m.PlantCapability })))
@@ -49,6 +50,7 @@ function Home() {
   return (
     <MarketingShell>
       <Hero />
+      <Suspense fallback={null}><ManufacturerPledge /></Suspense>
       <Suspense fallback={null}><FactoryProof /></Suspense>
       <Suspense fallback={null}><CollaborationSelector /></Suspense>
       <Suspense fallback={null}><HowItWorks /></Suspense>

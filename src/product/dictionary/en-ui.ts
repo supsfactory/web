@@ -186,6 +186,8 @@ export const enUi = {
       minimumOrder: 'Minimum order (MOQ)',
       productionLeadTime: 'Production lead time',
       certifications: 'Certifications',
+      certificationsScope: 'ISO 9001 · BSCI · CE (EU-destined models, scope per project) · ISO 25649 · REACH · RoHS',
+      certificationsLink: 'Factory & Compliance',
       minimumOrderShort: 'Minimum order',
       timeline: 'Timeline',
       qualityControl: 'Quality control',

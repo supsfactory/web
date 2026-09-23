@@ -39,7 +39,7 @@ features:
       description: 'Un prototype physique est construit, testé et envoyé pour votre examen avec des essais sur piste — généralement sous 7–12 jours.'
       icon: 'tabler:tools'
     - title: Tests et conformité
-      description: 'Tests de rétention d''air, de maintien de pression et de résistance de soudure par unité, avec documentation CE, ISO 9001, BSCI, REACH et RoHS pour l''export.'
+      description: 'Tests de rétention d''air, de maintien de pression et de résistance de soudure par unité, avec documentation ISO 9001, BSCI, REACH, RoHS et de conformité CE applicable au marché cible (périmètre confirmé par projet).'
       icon: 'tabler:certificate'
     - title: Options de propriété de l'outillage
       description: 'Clauses de propriété ou de rachat du moule écrites dans le contrat — votre design reste le vôtre, et l''outillage est conservé pour les ré-commandes.'
@@ -79,7 +79,7 @@ faq_section:
     - q: Pouvez-vous développer une forme spécifique (randonnée, pêche, course, yoga) ?
       a: 'Oui. L''ingénierie de coque couvre toutes les catégories principales de SUP — polyvalent, randonnée, course, yoga, pêche et planches multi-personnes — avec validation par bassin d''essais hydrodynamiques disponible pour les formes de performance.'
     - q: Quelles certifications la planche développée portera-t-elle ?
-      a: 'CE (directive des bateaux de plaisance), ISO 9001, BSCI, REACH et RoHS. Les documents de certification sont préparés par commande pour vos marchés d''export, et la conformité ISO 25649 s''applique aux planches gonflables de stand-up paddle.'
+      a: 'Management de la qualité ISO 9001:2015 (à l''échelle de l''usine), conformité sociale BSCI (audit d''installation amfori), documentation de conformité CE pour les configurations applicables au marché de l''UE (directive des bateaux de plaisance — périmètre confirmé par projet), REACH (matériaux), RoHS (accessoires électroniques) et conformité ISO 25649 pour les modèles de SUP gonflables applicables. Les documents de certification sont préparés par commande pour vos marchés d''export.'
 
 process:
   title: Le processus ODM — du brief à la production à l'échelle

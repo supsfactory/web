@@ -1,111 +1,113 @@
 meta:
-  title: 'Garantie SUP gonflable — 5 ans limitée | {SITE}'
-  description: 'Garantie Vatrad et support après-vente pour SUP gonflables et accessoires. Notre engagement qualité de 5 ans pour les partenaires et clients.'
+  title: 'Garantie de Fabrication OEM et Assurance Qualité | {SITE}'
+  description: "Conditions de garantie de fabrication OEM pour les produits SUP gonflables et marins fabriqués par SUPsfactory : défauts couverts, durée, registres de lot documentés et traitement des réclamations."
   keywords:
-    - 'garantie sup'
-    - 'garantie planche à pagaie'
+    - 'garantie OEM'
+    - 'garantie de fabrication'
+    - 'garantie usine SUP'
+    - 'assurance qualité produit'
     - 'garantie sup gonflable'
-    - 'support après-vente'
-label: 'Garantie'
-headline: 'Garantie SUP gonflable & support après-vente'
-subtitle: 'Vatrad garantit la qualité de chaque SUP gonflable que nous fabriquons. Cette garantie limitée expose les termes et la couverture de votre produit Vatrad.'
+label: 'Garantie OEM'
+headline: 'Garantie de Fabrication OEM et Assurance Qualité Produit'
+subtitle: "Chaque planche que nous fabriquons est produite sur la base d'un échantillon approuvé et de registres de lot documentés. Cette garantie définit ce que nous garantissons sur les produits que nous fabriquons sous votre marque, et comment les réclamations sont traitées à partir de ces registres."
 seo:
-  headline: 'Garantie SUP gonflable Vatrad — garantie limitée 5 ans | Vatrad'
-  description: 'Vatrad offre une garantie limitée de 5 ans sur l''intégrité structurelle du tissu de tube principal, des coutures et du noyau drop-stitch. Couvre également les valves de gonflage et les accessoires installés en usine. Termes et conditions complets de la garantie SUP gonflable Vatrad.'
+  headline: 'Garantie de Fabrication OEM et Assurance Qualité | SUPsfactory'
+  description: "Garantie de fabrication pour SUP gonflables et autres produits marins produits par SUPsfactory : 5 ans de couverture sur le tissu principal du boudin, les soudures et l'intégrité structurelle du noyau drop-stitch, plus les valves de gonflage et les accessoires installés en usine."
   datePublished: '2024-01-01'
-  dateModified: '2026-06-01'
+  dateModified: '2026-09-23'
 body: |
   <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
-    Cette garantie limitée s'applique aux nouveaux produits marins gonflables de marque Vatrad achetés directement auprès de Vatrad ou auprès d'un revendeur ou détaillant Vatrad autorisé. La date d'effet est la date de vente au détail d'origine vérifiable.
+    Cette Garantie de Fabrication s'applique aux planches de SUP gonflables, kayaks et produits marins gonflables fabriqués par SUPsfactory — la division de fabrication marine de Qingdao Vatrad Group Co., Ltd. — dans le cadre de programmes OEM, ODM et de marque privée. La date effective est la date vérifiable de production du lot ou d'expédition convenue dans le bon de commande. L'acheteur (propriétaire de la marque) définit la politique de garantie pour l'utilisateur final sur son marché ; cette garantie est l'engagement de l'usine sur les produits tels qu'ils sont fabriqués.
   </p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
-    <h2 class="text-xl font-bold mb-3">Couverture & durée de garantie</h2>
+    <h2 class="text-xl font-bold mb-3">Couverture et durée de la garantie de fabrication</h2>
     <div class="grid md:grid-cols-2 gap-4">
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ans</h3>
-        <p class="text-sm text-gray-600 mt-1">Intégrité du tissu de tube principal (CSM/PVC)</p>
+        <p class="text-sm text-gray-600 mt-1">Intégrité du tissu principal du boudin (CSM/PVC)</p>
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ans</h3>
-        <p class="text-sm text-gray-600 mt-1">Intégrité structurelle de la coque fibre de verre</p>
+        <p class="text-sm text-gray-600 mt-1">Intégrité structurelle de la coque en fibre de verre</p>
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ans</h3>
-        <p class="text-sm text-gray-600 mt-1">Capacité de maintien d'air de la couture de tube gonflable</p>
+        <p class="text-sm text-gray-600 mt-1">Étanchéité des soudures du boudin gonflable</p>
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ans</h3>
-        <p class="text-sm text-gray-600 mt-1">Fonctionnalité de la valve de gonflage</p>
+        <p class="text-sm text-gray-600 mt-1">Fonctionnement de la valve de gonflage</p>
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-sky-700 dark:text-sky-400">1 an</h3>
-        <p class="text-sm text-gray-600 mt-1">Accessoires installés en usine et fixations auxiliaires</p>
+        <p class="text-sm text-gray-600 mt-1">Accessoires et équipements installés en usine</p>
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-amber-700 dark:text-amber-400">1 an*</h3>
-        <p class="text-sm text-gray-600 mt-1">Usage commercial, de location ou de flotte — tous composants</p>
+        <p class="text-sm text-gray-600 mt-1">Usage commercial, location ou flotte : tous les composants</p>
       </div>
     </div>
-    <p class="text-xs text-gray-500 mt-4">*L'usage commercial, gouvernemental, d'affrètement, de location ou d'enseignement réduit la garantie à 1 an. L'usage en course ou compétition annule la garantie intégralement.</p>
+    <p class="text-xs text-gray-500 mt-4">*L'usage commercial, gouvernemental, en affrètement, en location ou pédagogique réduit la garantie à 1 an. L'usage en compétition ou en course annule entièrement la garantie.</p>
   </div>
 
   <h2>Ce qui est couvert</h2>
-  <h3>Tissu de tube principal (5 ans)</h3>
-  <p>Vatrad garantit le tissu de tube principal contre la détérioration de la porosité qui compromet substantiellement la capacité du produit à maintenir un gonflage opérationnel. Cela s'applique au tissu enduit CSM (Hypalon) et à tous les autres tissus de tube utilisés en fabrication.</p>
+  <h3>Tissu principal du boudin (5 ans)</h3>
+  <p>L'usine garantit le tissu principal du boudin contre la détérioration par porosité compromettant substantiellement la capacité du produit à maintenir la pression de fonctionnement. Cela s'applique au tissu enduit de CSM (Hypalon) et à tous les autres matériaux de boudin utilisés dans la fabrication.</p>
 
-  <h3>Intégrité structurelle de la coque fibre de verre (5 ans)</h3>
-  <p>Pour les produits avec une coque en plastique renforcé de fibres de verre (PRFV), la structure composite fondamentale est garantie contre la défaillance structurelle due à des défauts de matériaux ou de fabrication.</p>
+  <h3>Intégrité structurelle de la coque en fibre de verre (5 ans)</h3>
+  <p>Pour les produits à coque en plastique renforcé de fibres de verre (PRV), la structure composite fondamentale est garantie contre toute défaillance structurelle due à des défauts de matériaux ou de fabrication.</p>
 
-  <h3>Capacité de maintien d'air de la couture de tube gonflable (5 ans)</h3>
-  <p>Les coutures des tubes gonflables, là où elles sont assemblées en fabrication, sont garanties contre les défauts de fabrication qui entraînent une fuite d'air substantielle à travers la couture. L'inspection périodique et la maintenance des pressions de gonflage appropriées sont des conditions de couverture.</p>
+  <h3>Étanchéité des soudures du boudin gonflable (5 ans)</h3>
+  <p>Les soudures des boudins gonflables, là où elles sont assemblées lors de la fabrication, sont garanties contre les défauts de fabrication entraînant une fuite d'air substantielle à travers la soudure. L'inspection périodique et le maintien de pressions de gonflage appropriées sont des conditions de la couverture.</p>
 
-  <h3>Fonctionnalité de la valve de gonflage (5 ans)</h3>
-  <p>Les valves de gonflage à air originellement installées par Vatrad sont garanties contre les défauts de fabrication des matériaux ou de main-d'œuvre qui empêchent la valve de maintenir l'air comme prévu.</p>
+  <h3>Fonctionnement de la valve de gonflage (5 ans)</h3>
+  <p>Les valves de gonflage installées à l'origine lors de la production sont garanties contre les défauts de matériaux ou de fabrication empêchant la valve de retenir l'air comme prévu.</p>
 
   <h3>Accessoires installés en usine (1 an)</h3>
-  <p>Les composants et fixations fabriqués par Vatrad et originellement installés en usine sont garantis contre les défauts de matériau et de main-d'œuvre pendant un an. Cela exclut les articles tiers, couverts uniquement par leurs garanties de fabricant respectives.</p>
+  <p>Les composants et équipements installés en usine sont garantis contre les défauts de matériau et de fabrication pendant un an. Cela exclut les articles de tiers, couverts uniquement par les garanties de leurs fabricants respectifs.</p>
 
   <h2>Ce qui n'est pas couvert</h2>
   <ul>
-    <li>Défauts cosmétiques incluant décoloration, taches, délavage, efflorescence ou toute altération d'apparence</li>
-    <li>Perforations, coupures, déchirures, déchirures ou autres dommages physiques</li>
-    <li>Craquelures, fissures, abrasion, éraflures ou détérioration par frottement ou contact</li>
+    <li>Défauts esthétiques, y compris décoloration, taches, atténuation des couleurs, farinage ou toute altération de l'aspect</li>
+    <li>Perforations, coupures, déchirures, ruptures ou autres dommages physiques</li>
+    <li>Microfissuration, craquelures, abrasion, frottements ou détérioration par friction ou contact</li>
     <li>Dégradation par exposition aux UV, intempéries ou conditions atmosphériques</li>
     <li>Dommages par contact avec carburants, solvants, acides, alcalis ou produits chimiques</li>
-    <li>Dommages par négligence, usage impropre, abus, accident ou usure normale</li>
-    <li>Problèmes de gelcoat ou de peinture (cloquage, craquelures, décoloration, délavage)</li>
+    <li>Dommages par négligence, mauvaise utilisation, abus, accident ou usure normale</li>
+    <li>Problèmes de gelcoat ou de peinture (cloques, microfissuration, décoloration)</li>
     <li>Dommages par impact, contrainte, support inapproprié ou remorquage</li>
-    <li>Dommages par gonflage/dégonflage impropre ou usage de dispositifs de gonflage non approuvés</li>
-    <li>Équipements, composants ou systèmes tiers (couverts par leurs fabricants respectifs)</li>
+    <li>Dommages par gonflage/dégonflage inapproprié ou utilisation de dispositifs de gonflage non approuvés</li>
+    <li>Équipements, composants ou systèmes de tiers (couverts par leurs fabricants respectifs)</li>
   </ul>
 
-  <h2>Obligation & remède du fabricant</h2>
-  <p>La seule et exclusive obligation de Vatrad est la réparation ou le remplacement, au choix de Vatrad, de tout composant jugé défectueux en matériaux ou main-d'œuvre et couvert par cette garantie. Les réparations ou remplacements sont effectués par Vatrad ou sa station de service autorisée désignée. Les composants réparés ou remplacés sont garantis uniquement pour la portion non expirée de la période de garantie d'origine.</p>
+  <h2>Obligation et recours du fabricant</h2>
+  <p>L'obligation unique et exclusive de l'usine est la réparation ou le remplacement, à son choix, de tout composant jugé défectueux en matériaux ou en fabrication et couvert par cette garantie. Les réparations ou remplacements sont effectués par l'usine ou son centre de service agréé désigné. Les composants réparés ou remplacés ne sont garantis que pour la partie non écoulée de la période de garantie initiale.</p>
 
-  <h2>Conditions de garantie</h2>
+  <h2>Conditions de la garantie</h2>
   <ul>
-    <li><strong>Enregistrement :</strong> Le produit doit être dûment enregistré comme exigé dans les termes de garantie.</li>
-    <li><strong>Maintenance :</strong> Le produit doit être entretenu selon les directives publiées de Vatrad, incluant l'inspection périodique et la maintenance des pressions de gonflage appropriées.</li>
-    <li><strong>Coopération :</strong> L'acheteur doit coopérer pleinement et promptement avec Vatrad dans toutes les questions relatives aux réclamations de garantie.</li>
-    <li><strong>Acheteur d'origine :</strong> Cette garantie est accordée exclusivement à l'acheteur utilisateur final d'origine et n'est pas transférable.</li>
+    <li><strong>Référence de lot :</strong> les réclamations doivent faire référence au bon de commande, au numéro de lot ou à la plage de numéros de série afin que l'usine puisse retrouver les registres d'inspection correspondants.</li>
+    <li><strong>Base de spécification :</strong> les réclamations sont évaluées sur la base de l'échantillon approuvé, de la spécification technique, des graphismes et de la nomenclature gelés pour le lot — les mêmes référentiels utilisés en production.</li>
+    <li><strong>Entretien :</strong> le produit doit être entretenu conformément aux consignes publiées, y compris l'inspection périodique et le maintien de pressions de gonflage appropriées.</li>
+    <li><strong>Coopération :</strong> le demandeur doit coopérer pleinement et rapidement avec l'usine dans tous les domaines relatifs aux réclamations, y compris l'inspection des unités concernées.</li>
+    <li><strong>Politique de garantie de l'acheteur :</strong> l'acheteur, en tant que propriétaire de la marque, définit le programme de garantie pour l'utilisateur final sur son marché. Cette garantie de fabrication est l'engagement de l'usine sur les produits tels qu'ils sont fabriqués.</li>
   </ul>
 
   <h2>Usage commercial</h2>
-  <p>Si le produit est utilisé à des fins commerciales, gouvernementales, à but non lucratif, d'affrètement, de location, d'enseignement, ou toute autre fin que l'usage récréatif privé, la période de garantie de tous les composants est réduite à un (1) an à partir de la date de vente au détail d'origine. L'usage en course, vitesse ou compétition d'endurance annule immédiatement et irrévocablement la garantie intégralement.</p>
+  <p>Si le produit est utilisé à des fins commerciales, gouvernementales, à but non lucratif, en affrètement, en location, pédagogiques ou pour tout usage autre que récréatif privé, la période de garantie de tous les composants est réduite à un (1) an à compter de la date effective. L'usage en compétition, en vitesse ou en endurance annule immédiatement et irrévocablement l'intégralité de la garantie.</p>
 
-  <h2>Comment faire une réclamation de garantie</h2>
-  <p>Contactez Vatrad ou votre revendeur autorisé avec la preuve d'achat et une description détaillée du problème. Vatrad examinera la réclamation et fournira des instructions pour l'inspection et le service.</p>
-  <p>Pour les demandes de service sous garantie, veuillez nous contacter via notre <a href="/fr/contact" class="text-sky-600 underline">page de contact</a> avec votre numéro de commande et les détails du produit.</p>
+  <h2>Comment faire une réclamation</h2>
+  <p>Contactez SUPsfactory avec le bon de commande ou la référence de lot et une description détaillée du problème, y compris les numéros de série des planches lorsqu'ils sont disponibles. L'usine examinera la réclamation sur la base des registres de lot et fournira les instructions d'inspection et de service.</p>
+  <p>Pour toute question sur le service de garantie, contactez-nous via notre <a href="/fr/contact" class="text-sky-600 underline">page de contact</a> avec votre numéro de commande et les informations produit.</p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
-    <h2 class="text-xl font-bold mb-3">Soutenu par un système qualité documenté</h2>
-    <p class="text-sm text-gray-600 dark:text-gray-400">Chaque planche est testée avant l'emballage — les <a href="/fr/factory/quality-inspection" class="text-sky-600 underline">portes d'inspection en 7 étapes</a> enregistrent les résultats par numéro de série, et les lots conservent une traçabilité ERP de 10 ans. Les réclamations de garantie sont jugées sur ces enregistrements de lot, pas sur des suppositions. Voir le <a href="/fr/quality" class="text-sky-600 underline">système qualité complet</a> et téléchargez les véritables <a href="https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">rapports d'inspection finale</a>.</p>
+    <h2 class="text-xl font-bold mb-3">Appuyé par un système qualité documenté</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Chaque planche est testée avant emballage — <a href="/fr/factory/quality-inspection" class="text-sky-600 underline">7 jalons d'inspection</a> enregistrent les résultats par numéro de série, et les lots conservent une traçabilité ERP de 10 ans. Les réclamations sont traitées à partir de ces registres de lot, pas par supposition. Consultez le <a href="/fr/quality" class="text-sky-600 underline">système qualité complet</a> et téléchargez les <a href="https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">rapports d'inspection finale</a>.</p>
   </div>
 
-  <h2>Articles tiers</h2>
-  <p>Les équipements, composants ou systèmes fabriqués par des tiers (même si installés par Vatrad) sont couverts exclusivement par toute garantie offerte par leur fabricant respectif. Vatrad décline expressément toute responsabilité de garantie pour ces articles tiers.</p>
+  <h2>Articles de tiers</h2>
+  <p>Les équipements, composants ou systèmes fabriqués par des tiers (même s'ils sont installés par l'usine) sont couverts exclusivement par la garantie offerte par leur fabricant respectif. L'usine décline expressément toute responsabilité de garantie pour ces articles de tiers.</p>
 
   <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
-    Cette déclaration de garantie est un résumé de la garantie limitée complète du fabricant Vatrad. Le document légal complet de garantie régit tous les termes et conditions de garantie. Spécifications sujettes à changement sans préavis. SUPsfactory est la division de fabrication de Qingdao Vatrad Group.
+    Cette déclaration de garantie est un résumé des conditions de garantie de fabrication de l'usine pour les programmes OEM, ODM et de marque privée. L'intégralité du contrat d'achat régit tous les termes et conditions. Spécifications sujettes à modification sans préavis. SUPsfactory est la division de fabrication de Qingdao Vatrad Group.
   </p>

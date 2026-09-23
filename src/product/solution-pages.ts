@@ -57,7 +57,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Custom SUP Manufacturing',
       metaTitle: 'Custom SUP Development | Customized Paddle Board Solutions',
       metaDescription:
-        'Develop custom SUP products with Supsfactory. We support product requirements, customization, prototypes and manufacturing for businesses and organizations.',
+        'Develop custom SUP products with SUPsfactory. We support product requirements, customization, prototypes and manufacturing for businesses and organizations.',
       kicker: 'Custom SUP Manufacturer',
       serviceType: 'Custom SUP Product Development',
       answer:
@@ -134,7 +134,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Private Label Paddle Boards',
       metaTitle: 'Private Label SUP Manufacturing | Custom SUP Production',
       metaDescription:
-        'Supsfactory provides private label SUP manufacturing support for existing brands, helping develop customized SUP products from specifications to production.',
+        'SUPsfactory provides private label SUP manufacturing support for existing brands, helping develop customized SUP products from specifications to production.',
       kicker: 'Private Label Paddle Boards',
       serviceType: 'Private Label SUP Manufacturing',
       answer:
@@ -184,7 +184,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
         {
           q: 'Can existing brands develop new SUP products?',
-          a: 'Yes. Supsfactory supports brands looking to expand into SUP products — product selection, specification adjustment, custom graphics and manufacturing.',
+          a: 'Yes. SUPsfactory supports brands looking to expand into SUP products — product selection, specification adjustment, custom graphics and manufacturing.',
         },
         {
           q: 'What is included in a private label SUP program?',
@@ -207,7 +207,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Resort Paddle Boards',
       metaTitle: 'Custom SUP Equipment for Resorts | Branded Boards',
       metaDescription:
-        'Create customized SUP equipment for resorts and hotels with branded boards, accessories and production support from Supsfactory.',
+        'Create customized SUP equipment for resorts and hotels with branded boards, accessories and production support from SUPsfactory.',
       kicker: 'Resort Paddle Boards',
       serviceType: 'Resort & Hotel SUP Equipment',
       answer:
@@ -280,7 +280,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Custom SUP Team Boards',
       metaTitle: 'Custom SUP Equipment for Clubs & Teams',
       metaDescription:
-        'Supsfactory provides customized SUP equipment solutions for clubs, teams and events including graphics, specifications and production support.',
+        'SUPsfactory provides customized SUP equipment solutions for clubs, teams and events including graphics, specifications and production support.',
       kicker: 'Custom SUP Team Boards',
       serviceType: 'Club & Team SUP Equipment',
       answer:
@@ -353,7 +353,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'School Paddle Board Program',
       metaTitle: 'School SUP Equipment | Custom Paddle Boards for Education',
       metaDescription:
-        'Provide safe and reliable SUP equipment solutions for schools, camps and organizations with customized production support from Supsfactory.',
+        'Provide safe and reliable SUP equipment solutions for schools, camps and organizations with customized production support from SUPsfactory.',
       kicker: 'School Paddle Board Program',
       serviceType: 'School & Program SUP Equipment',
       answer:
@@ -428,7 +428,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Fabricación de SUP personalizados',
       metaTitle: 'Desarrollo de productos SUP | Soluciones a medida',
       metaDescription:
-        'Desarrolla productos SUP personalizados con Supsfactory. Ofrecemos apoyo de requisitos, personalización, muestras y fabricación para empresas y organizaciones.',
+        'Desarrolla productos SUP personalizados con SUPsfactory. Ofrecemos apoyo de requisitos, personalización, muestras y fabricación para empresas y organizaciones.',
       kicker: 'Fabricante de SUP personalizados',
       serviceType: 'Desarrollo de productos SUP personalizados',
       answer:
@@ -505,7 +505,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Tablas de marca privada',
       metaTitle: 'Fabricación SUP de marca privada | Producción',
       metaDescription:
-        'Supsfactory ofrece soporte de fabricación SUP de marca privada para marcas existentes, del desarrollo a la producción de productos SUP personalizados.',
+        'SUPsfactory ofrece soporte de fabricación SUP de marca privada para marcas existentes, del desarrollo a la producción de productos SUP personalizados.',
       kicker: 'Tablas de marca privada',
       serviceType: 'Fabricación SUP de marca privada',
       answer:
@@ -555,7 +555,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
         {
           q: '¿Una marca existente puede desarrollar nuevos productos SUP?',
-          a: 'Sí. Supsfactory apoya a marcas que quieren ampliarse al SUP: selección de productos, ajuste de especificaciones, arte personalizado y fabricación.',
+          a: 'Sí. SUPsfactory apoya a marcas que quieren ampliarse al SUP: selección de productos, ajuste de especificaciones, arte personalizado y fabricación.',
         },
         {
           q: '¿Qué incluye un proyecto SUP de marca privada?',
@@ -578,7 +578,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Tablas para resorts',
       metaTitle: 'Equipamiento SUP para resorts | Tablas de resort con marca',
       metaDescription:
-        'Crea equipamiento SUP personalizado para resorts y hoteles con Supsfactory: tablas con marca, accesorios y soporte de producción.',
+        'Crea equipamiento SUP personalizado para resorts y hoteles con SUPsfactory: tablas con marca, accesorios y soporte de producción.',
       kicker: 'Tablas para resorts',
       serviceType: 'Equipamiento SUP para resorts y hoteles',
       answer:
@@ -651,7 +651,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Tablas de equipo personalizadas para clubes',
       metaTitle: 'Equipamiento SUP para clubes y equipos',
       metaDescription:
-        'Supsfactory ofrece soluciones de equipamiento SUP personalizado para clubes, equipos y eventos, incluidos arte, especificaciones y soporte de producción.',
+        'SUPsfactory ofrece soluciones de equipamiento SUP personalizado para clubes, equipos y eventos, incluidos arte, especificaciones y soporte de producción.',
       kicker: 'Tablas de equipo personalizadas para clubes',
       serviceType: 'Equipamiento SUP para clubes y equipos',
       answer:
@@ -724,7 +724,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Programas de SUP escolares',
       metaTitle: 'Equipamiento SUP escolar | Tablas personalizadas',
       metaDescription:
-        'Soluciones de equipamiento SUP seguras y fiables para escuelas, campamentos e instituciones, con soporte de producción personalizada de Supsfactory.',
+        'Soluciones de equipamiento SUP seguras y fiables para escuelas, campamentos e instituciones, con soporte de producción personalizada de SUPsfactory.',
       kicker: 'Programas de SUP escolares',
       serviceType: 'Equipamiento SUP para escuelas y programas',
       answer:
@@ -799,7 +799,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Fabrication de SUP personnalisés',
       metaTitle: 'Développement de produits SUP sur mesure | Solutions personnalisées',
       metaDescription:
-        'Développez des produits SUP personnalisés avec Supsfactory. Nous accompagnons vos exigences, la personnalisation, les prototypes et la fabrication pour entreprises et organisations.',
+        'Développez des produits SUP personnalisés avec SUPsfactory. Nous accompagnons vos exigences, la personnalisation, les prototypes et la fabrication pour entreprises et organisations.',
       kicker: 'Fabricant de SUP personnalisés',
       serviceType: 'Développement de produits SUP sur mesure',
       answer:
@@ -876,7 +876,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Planches de marque privée',
       metaTitle: 'Fabrication SUP en marque privée | Production personnalisée',
       metaDescription:
-        'Supsfactory accompagne la fabrication SUP en marque privée pour les marques existantes, du développement à la production de produits SUP personnalisés.',
+        'SUPsfactory accompagne la fabrication SUP en marque privée pour les marques existantes, du développement à la production de produits SUP personnalisés.',
       kicker: 'Planches de marque privée',
       serviceType: 'Fabrication SUP en marque privée',
       answer:
@@ -926,7 +926,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
         },
         {
           q: 'Les marques existantes peuvent-elles développer de nouveaux produits SUP ?',
-          a: 'Oui. Supsfactory accompagne les marques souhaitant s\'étendre au SUP : sélection de produits, ajustement de spécifications, graphismes personnalisés et fabrication.',
+          a: 'Oui. SUPsfactory accompagne les marques souhaitant s\'étendre au SUP : sélection de produits, ajustement de spécifications, graphismes personnalisés et fabrication.',
         },
         {
           q: 'Qu\'est-ce qu\'inclus dans un programme SUP en marque privée ?',
@@ -949,7 +949,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Planches pour resorts',
       metaTitle: 'Équipement SUP pour resorts | Planches personnalisées',
       metaDescription:
-        'Créez des équipements SUP personnalisés pour resorts et hôtels avec Supsfactory : planches à marque, accessoires et accompagnement de production.',
+        'Créez des équipements SUP personnalisés pour resorts et hôtels avec SUPsfactory : planches à marque, accessoires et accompagnement de production.',
       kicker: 'Planches pour resorts',
       serviceType: 'Équipement SUP pour resorts et hôtels',
       answer:
@@ -1022,7 +1022,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Planches d\'équipe pour clubs',
       metaTitle: 'Équipement SUP pour clubs et équipes',
       metaDescription:
-        'Supsfactory propose des solutions d\'équipement SUP personnalisé pour clubs, équipes et événements, incluant le graphisme, les spécifications et l\'accompagnement de production.',
+        'SUPsfactory propose des solutions d\'équipement SUP personnalisé pour clubs, équipes et événements, incluant le graphisme, les spécifications et l\'accompagnement de production.',
       kicker: 'Planches d\'équipe pour clubs',
       serviceType: 'Équipement SUP pour clubs et équipes',
       answer:
@@ -1095,7 +1095,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       navLabel: 'Programme SUP scolaire',
       metaTitle: 'Équipement SUP scolaire | Planches personnalisées pour l\'éducation',
       metaDescription:
-        'Des solutions d\'équipement SUP sûres et fiables pour écoles, camps et organismes, avec un accompagnement de production personnalisée de Supsfactory.',
+        'Des solutions d\'équipement SUP sûres et fiables pour écoles, camps et organismes, avec un accompagnement de production personnalisée de SUPsfactory.',
       kicker: 'Programme SUP scolaire',
       serviceType: 'Équipement SUP pour écoles et programmes',
       answer:

@@ -37,7 +37,7 @@ identity_detail:
     - icon: F
       icon_bg: purple
       title: 'Ubicación de Fábrica'
-      desc: 'Laixi, Qingdao, Shandong, China. Instalación de producción de más de 10,000 m² con 4 líneas de producción, corte CNC, soldadura RF, laboratorio de pruebas de presión y almacén de materiales. A 120 km del puerto de Qingdao.'
+      desc: 'Laixi, Qingdao, Shandong, China. Instalación de fabricación total de 12,500 m², incluyendo más de 10,000 m² de área de producción, con 4 líneas de producción, corte CNC, soldadura RF, laboratorio de pruebas de presión y almacén de materiales. A 120 km del puerto de Qingdao.'
 
 manufacturing_scope:
   heading: 'Alcance de Fabricación'
@@ -48,7 +48,7 @@ manufacturing_scope:
     - **Tipos de construcción**: PVC monocapa, PVC bicapa, núcleo drop-stitch con carcasa de PVC. Especificaciones de construcción personalizadas por proyecto.
     - **Modelos de colaboración**: OEM (diseño del comprador), ODM (desarrollado por fábrica a partir del brief del comprador), marca privada/co-branding (marca aplicada a plataformas probadas).
     - **Certificaciones**: ISO 9001:2015 (gestión de calidad de fábrica), CE (modelos destinados a la UE, alcance por proyecto), BSCI (cumplimiento social), REACH (seguridad química), RoHS (sustancias restringidas).
-    - **Capacidad de producción**: Más de 30,000 tablas anuales, más de 2,500 de producción mensual. Escalabilidad disponible con programación anticipada.
+    - **Capacidad de producción**: Más de 120,000 tablas anuales, producción mensual de aproximadamente 10,000 unidades en 4 líneas automatizadas. Escalabilidad disponible con programación anticipada.
 
 brand_positioning:
   heading: 'Posicionamiento de Marca'

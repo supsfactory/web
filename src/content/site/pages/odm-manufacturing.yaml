@@ -39,7 +39,7 @@ features:
       description: 'A physical prototype is built, tested and sent for your review with runway trials — usually within 7–12 days.'
       icon: 'tabler:tools'
     - title: Testing & Compliance
-      description: 'Air-retention, pressure-hold and seam-strength testing per unit, with CE, ISO 9001, BSCI, REACH and RoHS documentation for export.'
+      description: 'Air-retention, pressure-hold and seam-strength testing per unit, with ISO 9001, BSCI, REACH, RoHS and CE conformity documentation applicable to the target market (scope confirmed per project).'
       icon: 'tabler:certificate'
     - title: Tooling Ownership Options
       description: 'Mould ownership or buyout clauses written into the contract — your design stays yours, and tooling is kept for reorders.'
@@ -79,7 +79,7 @@ faq_section:
     - q: Can you develop a specific shape (touring, fishing, racing, yoga)?
       a: 'Yes. Hull engineering covers all main SUP categories — all-around, touring, racing, yoga, fishing and multi-person boards — with hydrodynamic test-tank validation available for performance shapes.'
     - q: Which certifications will the developed board carry?
-      a: 'CE (recreational craft directive), ISO 9001, BSCI, REACH and RoHS. Certification documents are prepared per order for your export markets, and ISO 25649 compliance applies to inflatable stand-up boards.'
+      a: 'ISO 9001:2015 quality management (factory-wide), BSCI social compliance (amfori facility audit), CE conformity documentation for applicable EU-market configurations (recreational craft directive — scope confirmed per project), REACH (materials), RoHS (electronic accessories) and ISO 25649 compliance for applicable inflatable SUP models. Certification documents are prepared per order for your export markets.'
 
 process:
   title: The ODM Process — From Brief to Scaled Production

@@ -37,7 +37,7 @@ identity_detail:
     - icon: F
       icon_bg: purple
       title: 'Localisation de l''usine'
-      desc: 'Laixi, Qingdao, Shandong, Chine. Installation de production de plus de 10 000 m² avec 4 lignes de production, découpe CNC, soudage radiofréquence, laboratoire d''essais de pression et entrepôt de matériaux. À 120 km du port de Qingdao.'
+      desc: 'Laixi, Qingdao, Shandong, Chine. Installation de fabrication totale de 12 500 m², dont plus de 10 000 m² de surface de production, avec 4 lignes de production, découpe CNC, soudage radiofréquence, laboratoire d''essais de pression et entrepôt de matériaux. À 120 km du port de Qingdao.'
 
 manufacturing_scope:
   heading: 'Périmètre de fabrication'
@@ -48,7 +48,7 @@ manufacturing_scope:
     - **Types de construction** : PVC monocouche, PVC double couche, noyau drop-stitch avec enveloppe PVC. Spécifications de construction personnalisées par projet.
     - **Modèles de collaboration** : OEM (conception appartenant à l'acheteur), ODM (conception développée par l'usine à partir du cahier des charges acheteur), marque privée/co-branding (marque appliquée sur des plateformes éprouvées).
     - **Certifications** : ISO 9001:2015 (management de la qualité de l'usine), CE (modèles destinés à l'UE, périmètre selon projet), BSCI (conformité sociale), REACH (sécurité chimique), RoHS (substances restreintes).
-    - **Capacité de production** : plus de 30 000 planches par an, plus de 2 500 unités par mois. Montée en cadence possible avec planification anticipée.
+    - **Capacité de production** : plus de 120 000 planches par an, environ 10 000 unités par mois sur 4 lignes automatisées. Montée en cadence possible avec planification anticipée.
 
 brand_positioning:
   heading: 'Positionnement de la marque'

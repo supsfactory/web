@@ -1,36 +1,36 @@
 meta:
-  title: 'SUP Wholesale Distribution Partner Program | {SITE}'
-  description: "Join Vatrad's global SUP wholesale distribution network: exclusive territories, complete product portfolio and dedicated account management in 50+ countries."
-  dateModified: '2026-08'
+  title: 'Private Label & Wholesale Distribution for Distributors | {SITE}'
+  description: 'Factory-direct private label and wholesale distribution programs for distributors and retailers: exclusive territories, white-label SUP manufacturing, and dedicated account management.'
+  dateModified: '2026-09'
 
 hero:
-  tagline: Distributors
-  title: 'Join Our Global Distribution Network'
-  subtitle: "SUP wholesale distribution partner program with exclusive territories, complete inflatable SUP product portfolio, and world-class support. Vatrad ships to 50+ countries — we're looking for established marine and water sports distributors."
+  tagline: Distributors & Private Label
+  title: 'Factory-Direct Programs for Distributors and Brands'
+  subtitle: 'Wholesale and private-label programs from an inflatable SUP manufacturing facility. Buy at factory-direct pricing, build the range under your own brand, and ship to exclusive territories across 50+ countries.'
   image:
     src: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-building.webp
-    alt: Vatrad global distribution and shipping operations
+    alt: SUPsfactory manufacturing and shipping operations
 
 answer:
   label: 'Straight answer'
-  text: 'Wholesale distribution terms: exclusive territory, 3–8 SKUs per program, 45–60 day payment terms, and 100% factory pressure-tested stock before dispatch. Distributors buy at factory-direct wholesale pricing with a dedicated account manager; minimum opening order and freight terms are agreed per territory, shipped FOB Qingdao or CIF.'
+  text: 'Distributors and brands work directly with the factory: white-label SUP boards built under your brand, factory-direct wholesale pricing, exclusive territory per program, 3–8 SKUs to open, 45–60 day payment terms, and 100% pressure-tested stock before dispatch. Minimum opening volumes and freight terms are agreed per territory, shipped FOB Qingdao or CIF.'
   verified: '2026-08'
 
 intro:
   tagline: About the program
-  title: 'SUP Wholesale Distribution, Built Around Long-Term Partnership'
+  title: 'Private Label Distribution, Built on Manufacturing Capacity'
   body: |
-    Vatrad plans, builds and quality-tests every inflatable SUP, kayak and accessory in our own manufacturing facility — so a wholesale distribution agreement with us comes with the source of supply built in. Distributors do not resell a distant third-party range: they receive the complete Vatrad product catalog, direct factory pricing, and a dedicated account manager who plans seasonal replenishment around their sell-through.
+    SUPsfactory designs, builds and quality-tests every inflatable SUP, kayak and accessory in its own facility in Laixi, Qingdao. A private-label agreement with us means the source of supply is built into your brand: you receive boards manufactured under your own name by the factory, not resold stock from another distributor.
 
-    Most of our distribution partners operate in one exclusive territory and carry a concentrated range of 4–8 best-selling models — all-around boards in three sizes, a touring model, and the matching pump, paddle and care accessories. Because we control the full production line, we can schedule large runs for the northern-hemisphere season start, stabilize freight costs with forward orders, and free up working capital with transparent wholesale terms and agreed payment schedules.
+    Because we plan production around our clients' forecasts, we can schedule large runs for the northern-hemisphere season start, stabilize freight costs with forward orders, and free up working capital with transparent wholesale terms and agreed payment schedules. Engineering, sampling, QC and export documentation are all handled in-house — there is no broker or trading intermediary in the chain.
 
-    The distribution program is one of two ways to buy Vatrad products wholesale. If you already run a wholesale channel, this page is for you. Brands, resorts, training schools and rental fleets buying direct for their own use should review the OEM/ODM manufacturing and fleet programs instead.
+    This program is one of two ways to work with the factory. If you carry your own wholesale brand and want it built for you, this page is for you. Resorts, training schools and rental fleets buying direct for their own use should review the OEM/ODM manufacturing and fleet programs instead.
 
 wholesale_pricing:
   tagline: Why join
   title: 'What Distributors Get'
-  subtitle: 'Everything you need to succeed in your market.'
-  intro: 'Distribution partners receive the same product, factory quality and engineering depth Vatrad is known for, packaged for the wholesale channel.'
+  subtitle: 'Everything you need to launch a branded range in your market.'
+  intro: 'Distribution partners receive the same factory quality and engineering depth we deliver to OEM/ODM brands, packaged for the wholesale channel under their own label.'
   stats:
     - value: '50+'
       label: 'Countries shipped'
@@ -38,30 +38,30 @@ wholesale_pricing:
       label: 'Dedicated account manager'
     - value: '45–60'
       label: 'Day payment terms'
-    - value: '10+'
-      label: 'Core product lines'
+    - value: '120,000+'
+      label: 'Boards of annual capacity'
     - value: '3–8'
-      label: 'SKUs per territory program'
+      label: 'SKUs to open a program'
     - value: '100%'
       label: 'Factory-tested before dispatch'
 
 steps:
   tagline: How it works
   title: 'Pathway from Application to First Container'
-  subtitle: 'A clear, multi-stage onboarding process so your wholesale channel ships on time in its first season.'
+  subtitle: 'A clear, multi-stage onboarding process so your branded program ships on time in its first season.'
   steps:
     - step: 1
       title: Apply
       desc: 'Submit the distributor application with your company profile, existing wholesale turnover and territory.'
     - step: 2
       title: Territory mapping
-      desc: 'We confirm exclusivity and agree which countries or regions your program will cover.'
+      desc: 'We confirm which countries or regions your brand program will cover and whether the territory is exclusive.'
     - step: 3
-      title: Catalog & pricing selection
-      desc: 'Choose your opening product range and receive wholesale pricing for your territory.'
+      title: Range & branding plan
+      desc: 'Choose your foundation models from the manufacturing catalog, freeze specifications and finalize your brand artwork for production.'
     - step: 4
-      title: Sample order
-      desc: 'Order certification samples to test quality, packaging and drop-ship handling before the first container.'
+      title: Sample & quality approval
+      desc: 'Order certification samples to test quality, packaging and drop-ship handling. Samples are approved before mass production starts.'
     - step: 5
       title: Seasonal replenishment
       desc: 'Your account manager schedules production and replenishment around your forecast and the season calendar.'
@@ -70,20 +70,21 @@ benefits:
   title: What Distributors Get
   subtitle: 'Everything you need to succeed in your market.'
   items:
+    - 'Private label under your own brand (OEM white-label)'
     - 'Exclusive territory rights'
-    - 'Complete product catalog (SUP, accessories, parts)'
-    - 'Competitive wholesale pricing'
+    - 'Manufacturing catalog: SUP, accessories, parts'
+    - 'Competitive factory-direct pricing'
     - 'Marketing & sales materials (translated)'
     - 'Training program (product, sales, maintenance)'
     - 'Trade show support'
-    - 'Sample program'
+    - 'Sample & pre-production approval program'
     - 'Drop-ship capability'
     - 'Dedicated distributor account manager'
     - '45-60 day payment terms'
 
 coverage:
   title: Current Distribution
-  subtitle: 'Vatrad currently serves these markets directly.'
+  subtitle: 'SUPsfactory currently ships to these markets directly.'
   regions:
     - name: Europe
       countries: 'France, Germany, UK, Spain, Italy, Netherlands, Sweden, Norway, Poland, Greece'
@@ -102,31 +103,33 @@ faqs:
   tagline: Distributor FAQ
   title: 'Wholesale Distribution Program — Frequently Asked Questions'
   items:
-    - q: 'What is the minimum wholesale order for a new distributor?'
-      a: 'New distribution partners typically open with a sample order followed by a first container scheduled to their season. Exact minimums depend on territory size and the chosen product range; your account manager confirms the opening volume during catalog selection.'
+    - q: 'What is the minimum order for a new distributor?'
+      a: 'New distribution partners typically open with a sample and pre-production approval order followed by a first container scheduled to their season. Exact minimums depend on territory size and the chosen range; your account manager confirms the opening volume during range and branding planning.'
+    - q: 'Can we sell the boards under our own brand?'
+      a: 'Yes. Private label is the standard model here: boards are manufactured under your brand with your artwork, packaging and specifications. SUPsfactory manufactures exclusively for its clients and does not compete with them in any market.'
     - q: 'Are territories exclusive?'
-      a: 'Yes. The Vatrad distribution program is built on exclusive territories — each wholesale partner covers a defined country or region and receives pricing and program support for that market.'
+      a: 'Yes. Distributor programs are built on exclusive territories — each wholesale partner covers a defined country or region and receives pricing and program support for that market.'
     - q: 'Do you support drop-shipping?'
-      a: 'Drop-ship capability is included in the distributor program. Samples, product packaging and handling are validated during the sample-order stage so drop-ship orders run cleanly from day one.'
-    - q: 'What products can distributors order?'
-      a: 'The complete Vatrad catalog: inflatable SUP boards across all-around, touring and surf shapes, inflatable kayaks, pumps, paddles, life vests and care accessories. Most partners open with 4–8 best-selling SKUs and expand in later seasons.'
+      a: 'Drop-ship capability is included in the program. Samples, packaging and handling are validated during the sample-approval stage so drop-ship orders run cleanly from day one.'
+    - q: 'What models can we order?'
+      a: 'The manufacturing catalog covers inflatable SUP boards across all-around, touring and surf shapes, inflatable kayaks, pumps, paddles, life vests and care accessories, plus custom shapes developed with our engineering team. Most partners open with 4–8 best-selling SKUs and expand in later seasons.'
     - q: 'How are orders shipped?'
-      a: 'Orders leave our factory on scheduled sailings, with forward ordering available to stabilize freight costs. Your dedicated account manager plans production and dispatch around your forecast and the season calendar.'
+      a: 'Orders leave the factory on scheduled sailings, with forward ordering available to stabilize freight costs. Your dedicated account manager plans production and dispatch around your forecast and the season calendar.'
     - q: 'How do I apply?'
       a: 'Use the application form on this page or contact us directly. Applications are reviewed by the distribution team, and we respond with next steps, including territory mapping and a draft agreement, within a few working days.'
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> distribution partners sell the same boards we make for <a href="/oem-manufacturing">OEM/private-label brands</a> — review the manufacturing program and the <a href="/factory">factory quality process</a> so you can position the product with confidence.</p>
+    <p><strong>Keep reading:</strong> distribution partners carry boards manufactured for them under their own brand — review the <a href="/oem-manufacturing">OEM/private-label manufacturing program</a> and the <a href="/factory">factory quality process</a> so you can position the product with confidence.</p>
   </div>
 
 cta:
-  title: 'Ready to become a distributor?'
-  subtitle: 'Apply for our distributor program or download our distributor information kit.'
+  title: 'Ready to launch your branded range?'
+  subtitle: 'Apply for the distributor program or browse the manufacturing catalog.'
   actions:
     - text: 'Apply for Distributor Program'
       href: '/contact?partner=distributor'
       variant: 'primary'
-    - text: 'Download Distributor Kit'
+    - text: 'Browse Manufacturing Catalog'
       href: '/products'
       variant: 'secondary'

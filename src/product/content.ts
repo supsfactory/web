@@ -118,6 +118,61 @@ export const hero: Localized<HeroContent> = {
   },
 }
 
+/* ─────────────────────────── home: manufacturer pledge ─────────────────────────── */
+
+export interface ManufacturerPledgeItem {
+  title: string
+  body: string
+}
+
+export interface ManufacturerPledgeContent {
+  kicker: string
+  title: string
+  sub: string
+  items: ManufacturerPledgeItem[]
+  verifyLabel: string
+  verifyHref: string
+}
+
+export const manufacturerPledge: Localized<ManufacturerPledgeContent> = {
+  en: {
+    kicker: 'Manufacturer, Not a Trading Company',
+    title: 'We Own the Factory Behind Your Order',
+    sub: 'A trading company resells other factories\u2019 output. We operate the plant. There is no broker margin, no third-party warehouse and no intermediary between your order and the production floor.',
+    items: [
+      { title: 'Registered legal entity', body: 'Qingdao Vatrad Group Co., Ltd. is the contracting entity on every order and every export document.' },
+      { title: 'One factory, one team', body: 'Engineering, QC, production scheduling and export documentation are all managed in-house at the Laixi, Qingdao plant.' },
+      { title: 'Your brand, never ours', body: 'We manufacture exclusively under our clients\u2019 brands and never compete with them in any market.' },
+    ],
+    verifyLabel: 'Verify Who We Are',
+    verifyHref: '/about/identity',
+  },
+  es: {
+    kicker: 'Fabricante, no empresa comercializadora',
+    title: 'Somos Dueños de la Fábrica Detrás de Tu Pedido',
+    sub: 'Una empresa comercializadora revende la producción de otras fábricas. Nosotros operamos la planta. No hay margen de intermediario, ni almacenes de terceros, ni intermediarios entre tu pedido y la línea de producción.',
+    items: [
+      { title: 'Entidad legal registrada', body: 'Qingdao Vatrad Group Co., Ltd. es la entidad contratante en cada pedido y en cada documento de exportación.' },
+      { title: 'Una fábrica, un equipo', body: 'Ingeniería, control de calidad, programación de producción y documentación de exportación, todo gestionado internamente en la planta de Laixi, Qingdao.' },
+      { title: 'Tu marca, nunca la nuestra', body: 'Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellos en ningún mercado.' },
+    ],
+    verifyLabel: 'Verifica Quiénes Somos',
+    verifyHref: '/about/identity',
+  },
+  fr: {
+    kicker: 'Fabricant, pas une société de négoce',
+    title: 'Nous Possédons l\'Usine Derrière Votre Commande',
+    sub: 'Une société de négoce revend la production d\'autres usines. Nous exploitons la nôtre. Aucune marge d\'intermédiaire, aucun entrepôt tiers, aucun intermédiaire entre votre commande et l\'atelier de production.',
+    items: [
+      { title: 'Entité légale enregistrée', body: 'Qingdao Vatrad Group Co., Ltd. est l\'entité contractante sur chaque commande et chaque document d\'exportation.' },
+      { title: 'Une seule usine, une seule équipe', body: 'Ingénierie, contrôle qualité, planification de production et documentation d\'exportation : tout est géré en interne à l\'usine de Laixi, Qingdao.' },
+      { title: 'Votre marque, jamais la nôtre', body: 'Nous fabriquons exclusivement sous les marques de nos clients et ne les concurrençons jamais sur aucun marché.' },
+    ],
+    verifyLabel: 'Vérifier Qui Nous Sommes',
+    verifyHref: '/about/identity',
+  },
+}
+
 /* ─────────────────────────── home: factory proof (verifiable stats, every number linked) ─────────────────────────── */
 
 export interface FactoryProofStat {
@@ -2242,7 +2297,7 @@ export interface BoardCategoriesContent {
 export const boardCategories: Localized<BoardCategoriesContent> = {
   en: {
     kicker: 'Our Boards',
-    title: 'Performance Meets Freedom',
+    title: 'From Product Concept to Production-Ready SUP',
     sub: 'Every board category is a manufacturing platform — choose your starting point and we customize the shape, graphics and specs to your product.',
     viewLabel: 'View',
     items: [
@@ -2259,7 +2314,7 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
   },
   es: {
     kicker: 'Nuestras Tablas',
-    title: 'Rendimiento y Libertad',
+    title: 'Del Concepto de Producto al SUP Listo para Producir',
     sub: 'Cada categoría es una plataforma de fabricación: elige tu punto de partida y adaptamos la forma, los gráficos y las especificaciones a tu producto.',
     viewLabel: 'Ver',
     items: [
@@ -2276,7 +2331,7 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
   },
   fr: {
     kicker: 'Nos Planches',
-    title: 'Performance et Liberté',
+    title: 'Du Concept Produit au SUP Prêt pour la Production',
     sub: 'Chaque catégorie de planches est une plateforme de fabrication : choisissez votre point de départ et nous adaptons la forme, les graphismes et les spécifications à votre produit.',
     viewLabel: 'Voir',
     items: [
@@ -2743,8 +2798,8 @@ export const faq: Localized<FaqContent> = {
     sub: 'Questions buyers ask before placing an order — answered with our actual terms.',
     items: [
       {
-        q: 'What does Supsfactory manufacture?',
-        a: 'Supsfactory is a professional SUP manufacturing factory specializing in customized inflatable SUP boards and related water sports products for global brands and businesses — engineered, sampled and produced in our own 12,500 m² plant in Qingdao, China.',
+        q: 'What does SUPsfactory manufacture?',
+        a: 'SUPsfactory is a professional SUP manufacturing factory specializing in customized inflatable SUP boards and related water sports products for global brands and businesses — engineered, sampled and produced in our own 12,500 m² plant in Qingdao, China.',
       },
       {
         q: 'What is the difference between OEM and ODM?',
@@ -2810,8 +2865,8 @@ export const faq: Localized<FaqContent> = {
     sub: 'Estas son las preguntas que un comprador plantea antes de encargar — respondidas con nuestras condiciones reales.',
     items: [
       {
-        q: '¿Qué fabrica Supsfactory?',
-        a: 'Supsfactory es una fábrica profesional de fabricación de SUP especializada en tablas hinchables personalizadas y productos acuáticos relacionados para marcas y empresas globales — diseñadas, muestreadas y producidas en nuestra propia planta de 12,500 m² en Qingdao, China.',
+        q: '¿Qué fabrica SUPsfactory?',
+        a: 'SUPsfactory es una fábrica profesional de fabricación de SUP especializada en tablas hinchables personalizadas y productos acuáticos relacionados para marcas y empresas globales — diseñadas, muestreadas y producidas en nuestra propia planta de 12,500 m² en Qingdao, China.',
       },
       {
         q: '¿Cuál es la diferencia entre OEM y ODM?',
@@ -2877,8 +2932,8 @@ export const faq: Localized<FaqContent> = {
     sub: 'Les questions que les acheteurs posent avant de passer commande — réponses avec nos conditions réelles.',
     items: [
       {
-        q: 'Que fabrique Supsfactory ?',
-        a: 'Supsfactory est une usine professionnelle de fabrication de SUP, spécialisée dans les planches de SUP gonflables personnalisées et les produits de sports nautiques associés pour les marques et entreprises du monde entier — conçues, échantillonnées et produites dans notre propre usine de 12 500 m² à Qingdao, en Chine.',
+        q: 'Que fabrique SUPsfactory ?',
+        a: 'SUPsfactory est une usine professionnelle de fabrication de SUP, spécialisée dans les planches de SUP gonflables personnalisées et les produits de sports nautiques associés pour les marques et entreprises du monde entier — conçues, échantillonnées et produites dans notre propre usine de 12 500 m² à Qingdao, en Chine.',
       },
       {
         q: 'Quelle est la différence entre OEM et ODM ?',
@@ -3060,7 +3115,7 @@ export const valueProp: Localized<ValuePropContent> = {
   en: {
     kicker: 'Our Role',
     title: 'More Than a SUP Factory',
-    sub: 'Many manufacturers can produce a standard paddle board. Our role is different. SUPS Factory is a custom SUP product development and manufacturing partner, helping businesses move from an initial idea to a production-ready product.',
+    sub: 'Many manufacturers can produce a standard paddle board. Our role is different. SUPsfactory is a custom SUP product development and manufacturing partner, helping businesses move from an initial idea to a production-ready product.',
     cards: [
       {
         title: 'Product Development',
@@ -3091,7 +3146,7 @@ export const valueProp: Localized<ValuePropContent> = {
   es: {
     kicker: 'Nuestro papel',
     title: 'Más que una fábrica de SUP',
-    sub: 'Muchos fabricantes pueden producir una tabla de pádel estándar. Nuestro papel es distinto. SUPS Factory es un socio de desarrollo de productos y fabricación de SUP personalizados que ayuda a las empresas a pasar de la idea inicial a un producto listo para producir.',
+    sub: 'Muchos fabricantes pueden producir una tabla de pádel estándar. Nuestro papel es distinto. SUPsfactory es un socio de desarrollo de productos y fabricación de SUP personalizados que ayuda a las empresas a pasar de la idea inicial a un producto listo para producir.',
     cards: [
       {
         title: 'Desarrollo de producto',
@@ -3122,7 +3177,7 @@ export const valueProp: Localized<ValuePropContent> = {
   fr: {
     kicker: 'Notre rôle',
     title: 'Plus qu\'une usine de SUP',
-    sub: 'De nombreux fabricants savent produire une planche de paddle standard. Notre rôle est différent. SUPS Factory est un partenaire de développement produit et de fabrication de SUP sur mesure qui aide les entreprises à passer de l\'idée initiale à un produit prêt pour la production.',
+    sub: 'De nombreux fabricants savent produire une planche de paddle standard. Notre rôle est différent. SUPsfactory est un partenaire de développement produit et de fabrication de SUP sur mesure qui aide les entreprises à passer de l\'idée initiale à un produit prêt pour la production.',
     cards: [
       {
         title: 'Développement produit',

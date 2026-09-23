@@ -38,8 +38,8 @@ features:
     - title: Producción a escala de contenedor
       description: 'Lotes de volumen estándar de 90–100 unidades por diseño (un rollo completo de 150 m), pilotos desde 20–50 uds. y 25–35 días de plazo tras confirmar el pedido.'
       icon: 'tabler:package'
-    - title: Certificación CE
-      description: 'CE, ISO 9001, BSCI, REACH y RoHS — documentación de cumplimiento preparada para cada mercado al que exportas.'
+    - title: Cumplimiento CE y de Mercado
+      description: 'Documentación de conformidad CE disponible para configuraciones aplicables al mercado de la UE — alcance confirmado por proyecto. Documentación ISO 9001, BSCI, REACH y RoHS preparada para cada mercado al que exportas.'
       icon: 'tabler:certificate'
     - title: Inspección y trazabilidad
       description: 'Prueba de retención de presión de 24 horas a 18.0 PSI con auto-rechazo por encima de 0.50 PSI de caída, lista de comprobación de 100 puntos y trazabilidad ERP de 10 años.'
@@ -78,7 +78,7 @@ faq_section:
     - q: '¿Proporcionáis muestras antes de la producción?'
       a: 'Sí. Se produce y aprueba una muestra física antes de cualquier tirada, normalmente en 7–12 días, y es la referencia para todos los controles de calidad posteriores.'
     - q: '¿Qué certificaciones tiene la fábrica?'
-      a: 'CE, ISO 9001, BSCI, REACH y RoHS. Con cada envío OEM se entrega documentación completa de cumplimiento, preparada para tus mercados objetivo.'
+      a: 'Gestión de calidad ISO 9001:2015 (a nivel de fábrica), cumplimiento social BSCI (auditoría de instalación amfori), documentación de conformidad CE para configuraciones aplicables al mercado de la UE (alcance confirmado por proyecto), REACH (materiales) y RoHS (accesorios electrónicos). Con cada envío OEM se entrega documentación completa de cumplimiento, preparada para tus mercados objetivo.'
     - q: '¿Cómo se controla la calidad en una tirada OEM?'
       a: 'La producción corre bajo control de calidad multipunto — material entrante, proceso y inspección final — con prueba de retención de presión de 24 horas a 18.0 PSI (auto-rechazo por encima de 0.50 PSI de caída), lista de comprobación de 100 puntos y trazabilidad ERP de 10 años por número de serie.'
     - q: '¿Cuáles son vuestros términos de envío?'

@@ -37,7 +37,7 @@ identity_detail:
     - icon: F
       icon_bg: purple
       title: 'Factory Location'
-      desc: 'Laixi, Qingdao, Shandong, China. 10,000+ m² production facility with 4 production lines, CNC cutting, RF welding, pressure testing lab and material warehouse. 120 km from Qingdao port.'
+      desc: 'Laixi, Qingdao, Shandong, China. 12,500 m² total manufacturing facility, including 10,000+ m² of production area, with 4 production lines, CNC cutting, RF welding, pressure testing lab and material warehouse. 120 km from Qingdao port.'
 
 manufacturing_scope:
   heading: 'Manufacturing Scope'
@@ -48,7 +48,7 @@ manufacturing_scope:
     - **Construction types**: Single-layer PVC, double-layer PVC, drop-stitch core with PVC shell. Custom construction specifications per project.
     - **Collaboration models**: OEM (buyer-owned design), ODM (factory-developed from buyer brief), private-label/co-branding (brand applied to proven platforms).
     - **Certifications**: ISO 9001:2015 (factory quality management), CE (EU-destined models, scope per project), BSCI (social compliance), REACH (chemical safety), RoHS (restricted substances).
-    - **Production capacity**: 30,000+ boards annually, 2,500+ monthly output. Scale-up available with advance scheduling.
+    - **Production capacity**: 120,000+ boards annually, ~10,000 units monthly output on 4 automated lines. Scale-up available with advance scheduling.
 
 brand_positioning:
   heading: 'Brand Positioning'

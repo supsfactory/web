@@ -1,26 +1,27 @@
 meta:
-  title: 'Inflatable SUP Warranty — 5-Year Limited | {SITE}'
-  description: 'Vatrad warranty and after-sales support for inflatable SUPs and accessories. Our 5-year quality commitment for partners and customers.'
+  title: 'OEM Manufacturing Warranty & Product Quality Assurance | {SITE}'
+  description: 'OEM manufacturing warranty terms for inflatable SUP and marine products made by SUPsfactory: covered defects, duration, documented batch records and how claims are handled.'
   keywords:
-    - 'sup warranty'
-    - 'paddle board guarantee'
+    - 'OEM warranty'
+    - 'manufacturing warranty'
+    - 'SUP factory warranty'
+    - 'product quality assurance'
     - 'inflatable sup warranty'
-    - 'after-sales support'
-label: 'Warranty'
-headline: 'Inflatable SUP Warranty & After-Sales Support'
-subtitle: 'Vatrad stands behind the quality of every inflatable SUP we manufacture. This Limited Warranty sets forth the terms and coverage for your Vatrad product.'
+label: 'OEM Warranty'
+headline: 'OEM Manufacturing Warranty & Product Quality Assurance'
+subtitle: 'Every board we manufacture is built against an approved sample and documented batch records. This warranty defines what we guarantee on the products we make under your brand, and how claims are adjudicated against those records.'
 seo:
-  headline: 'Vatrad Inflatable SUP Warranty — 5-Year Limited Warranty | Vatrad'
-  description: 'Vatrad offers a 5-year limited warranty on primary tube fabric, seams, and drop-stitch core structural integrity. Also covering inflation valves and factory-installed accessories. Full terms and conditions for Vatrad inflatable SUP warranty.'
+  headline: 'OEM Manufacturing Warranty & Product Quality Assurance | SUPsfactory'
+  description: 'Manufacturing warranty on inflatable SUP boards and other marine products produced by SUPsfactory: 5-year coverage on primary tube fabric, seams and drop-stitch core structural integrity, plus inflation valves and factory-installed accessories.'
   datePublished: '2024-01-01'
-  dateModified: '2026-06-01'
+  dateModified: '2026-09-23'
 body: |
   <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
-    This Limited Warranty applies to new Vatrad branded inflatable marine products purchased directly from Vatrad or from an authorized Vatrad dealer or retailer. The effective date is the verifiable date of original retail purchase.
+    This Manufacturing Warranty applies to inflatable SUP boards, kayaks and marine inflatable products manufactured by SUPsfactory — the marine manufacturing division of Qingdao Vatrad Group Co., Ltd. — under OEM, ODM and private-label programs. The effective date is the verifiable batch production or shipment date agreed in the purchase order. The buyer (brand owner) sets the end-user warranty policy for their own market; this warranty is the factory's guarantee on the goods as manufactured.
   </p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
-    <h2 class="text-xl font-bold mb-3">Warranty Coverage & Duration</h2>
+    <h2 class="text-xl font-bold mb-3">Manufacturing Warranty Coverage &amp; Duration</h2>
     <div class="grid md:grid-cols-2 gap-4">
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-sky-700 dark:text-sky-400">5 Years</h3>
@@ -44,7 +45,7 @@ body: |
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-amber-700 dark:text-amber-400">1 Year*</h3>
-        <p class="text-sm text-gray-600 mt-1">Commercial, rental, or fleet use —all components</p>
+        <p class="text-sm text-gray-600 mt-1">Commercial, rental, or fleet use — all components</p>
       </div>
     </div>
     <p class="text-xs text-gray-500 mt-4">*Commercial, governmental, charter, rental, or instructional use reduces warranty to 1 year. Racing or competition use voids warranty entirely.</p>
@@ -52,7 +53,7 @@ body: |
 
   <h2>What Is Covered</h2>
   <h3>Primary Tube Fabric (5 Years)</h3>
-  <p>Vatrad warrants the principal tube fabric against porosity deterioration that substantially compromises the product's ability to maintain operational inflation. This applies to CSM (Hypalon) coated fabric and all other tube fabric materials used in manufacture.</p>
+  <p>The factory warrants the principal tube fabric against porosity deterioration that substantially compromises the product's ability to maintain operational inflation. This applies to CSM (Hypalon) coated fabric and all other tube fabric materials used in manufacture.</p>
 
   <h3>Fiberglass Hull Structural Integrity (5 Years)</h3>
   <p>For products with a fiberglass-reinforced plastic (FRP) hull, the fundamental composite structure is warranted against structural failure due to defects in materials or workmanship.</p>
@@ -61,10 +62,10 @@ body: |
   <p>The seams of inflatable tubes, where joined during manufacture, are warranted against manufacturing defects that result in substantial air leakage through the seam. Periodic inspection and maintenance of appropriate inflation pressures are conditions of coverage.</p>
 
   <h3>Inflation Valve Functionality (5 Years)</h3>
-  <p>Air inflation valves originally installed by Vatrad are warranted against manufacturing defects in materials or workmanship that prevent the valve from holding air as designed.</p>
+  <p>Air inflation valves originally installed during production are warranted against manufacturing defects in materials or workmanship that prevent the valve from holding air as designed.</p>
 
   <h3>Factory-Installed Accessories (1 Year)</h3>
-  <p>Components and fittings manufactured by Vatrad and originally installed at the factory are warranted against defects in material and workmanship for one year. This excludes third-party items, which are covered only by their respective manufacturer warranties.</p>
+  <p>Components and fittings installed at the factory are warranted against defects in material and workmanship for one year. This excludes third-party items, which are covered only by their respective manufacturer warranties.</p>
 
   <h2>What Is Not Covered</h2>
   <ul>
@@ -80,23 +81,24 @@ body: |
     <li>Third-party equipment, components, or systems (covered by their respective manufacturers)</li>
   </ul>
 
-  <h2>Manufacturer's Obligation & Remedy</h2>
-  <p>Vatrad's sole and exclusive obligation is the repair or replacement, at Vatrad's option, of any component determined to be defective in materials or workmanship and covered under this warranty. Repairs or replacements are performed by Vatrad or its designated authorized service facility. Components repaired or replaced are warranted only for the unexpired portion of the original warranty period.</p>
+  <h2>Manufacturer's Obligation &amp; Remedy</h2>
+  <p>The factory's sole and exclusive obligation is the repair or replacement, at its option, of any component determined to be defective in materials or workmanship and covered under this warranty. Repairs or replacements are performed by the factory or its designated authorized service facility. Components repaired or replaced are warranted only for the unexpired portion of the original warranty period.</p>
 
   <h2>Conditions of Warranty</h2>
   <ul>
-    <li><strong>Registration:</strong> The product must be properly registered as mandated in the warranty terms.</li>
-    <li><strong>Maintenance:</strong> The product must be maintained in accordance with Vatrad's published guidelines, including periodic inspection and maintenance of appropriate inflation pressures.</li>
-    <li><strong>Cooperation:</strong> The purchaser must fully and promptly cooperate with Vatrad in all matters pertaining to warranty claims.</li>
-    <li><strong>Original Purchaser:</strong> This warranty is extended exclusively to the original end-user purchaser and is not transferable.</li>
+    <li><strong>Batch reference:</strong> Claims must reference the purchase order, batch number or serial range so the factory can pull the corresponding inspection records.</li>
+    <li><strong>Specification baseline:</strong> Claims are evaluated against the approved sample, technical specification, artwork and BOM that were frozen for the batch — the same baselines used at production.</li>
+    <li><strong>Maintenance:</strong> The product must be maintained in accordance with the published care guidelines, including periodic inspection and maintenance of appropriate inflation pressures.</li>
+    <li><strong>Cooperation:</strong> The claimant must fully and promptly cooperate with the factory in all matters pertaining to warranty claims, including inspection of affected units.</li>
+    <li><strong>Buyer warranty policy:</strong> The buyer, as brand owner, defines the end-user warranty program in their market. This manufacturing warranty is what the factory owes on the goods as manufactured.</li>
   </ul>
 
   <h2>Commercial Use</h2>
-  <p>If the product is used for commercial, governmental, non-profit, charter, rental, instructional, or any purpose other than private recreational use, the warranty period for all components is reduced to one (1) year from the original date of retail purchase. Use in racing, speed or endurance competition immediately and irrevocably voids the warranty entirely.</p>
+  <p>If the product is used for commercial, governmental, non-profit, charter, rental, instructional, or any purpose other than private recreational use, the warranty period for all components is reduced to one (1) year from the effective date. Use in racing, speed or endurance competition immediately and irrevocably voids the warranty entirely.</p>
 
   <h2>How to Make a Warranty Claim</h2>
-  <p>Contact Vatrad or your authorized dealer with proof of purchase and a detailed description of the issue. Vatrad will review the claim and provide instructions for inspection and service.</p>
-  <p>For warranty service inquiries, please contact us through our <a href="/contact" class="text-sky-600 underline">contact page</a> with your order number and product details.</p>
+  <p>Contact SUPsfactory with the purchase order or batch reference and a detailed description of the issue, including board serial numbers where available. The factory will review the claim against the batch records and provide instructions for inspection and service.</p>
+  <p>For warranty service inquiries, contact us through our <a href="/contact" class="text-sky-600 underline">contact page</a> with your order number and product details.</p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
     <h2 class="text-xl font-bold mb-3">Backed by a Documented Quality System</h2>
@@ -104,8 +106,8 @@ body: |
   </div>
 
   <h2>Third-Party Items</h2>
-  <p>Equipment, components, or systems manufactured by third parties (even if installed by Vatrad) are covered exclusively by any warranty offered by their respective manufacturer. Vatrad expressly disclaims any warranty responsibility for such third-party items.</p>
+  <p>Equipment, components, or systems manufactured by third parties (even if installed by the factory) are covered exclusively by any warranty offered by their respective manufacturer. The factory expressly disclaims any warranty responsibility for such third-party items.</p>
 
   <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
-    This warranty statement is a summary of the complete Vatrad Manufacturer's Limited Warranty. The full legal warranty document governs all warranty terms and conditions. Specifications subject to change without notice. SUPsfactory is the manufacturing division of Qingdao Vatrad Group.
+    This warranty statement is a summary of the factory's manufacturing warranty terms for OEM, ODM and private-label programs. The full purchase agreement governs all warranty terms and conditions. Specifications subject to change without notice. SUPsfactory is the manufacturing division of Qingdao Vatrad Group.
   </p>

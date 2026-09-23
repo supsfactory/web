@@ -460,7 +460,7 @@ content_certifications:
   subtitle: 'Les certifications ne valent que par ce qu''elles couvrent. Voici le périmètre de certification, le titulaire du certificat et la manière de vérifier ou de demander les documents pour votre projet.'
   items:
     - title: 'Marquage CE'
-      description: 'Les modèles standard de SUP et de bateaux portent le marquage CE conformément à la directive 2013/53/UE sur les embarcations de plaisance. Les modèles personnalisés sont certifiés CE via notre processus établi pour votre configuration. Numéros de certificat et rapports d''essai disponibles sur demande.'
+      description: 'La documentation de conformité CE est disponible pour les configurations applicables au marché de l''UE conformément à la directive 2013/53/UE (embarcations de plaisance) ; le périmètre est confirmé par projet. Numéros de certificat et rapports d''essai disponibles sur demande.'
       icon: tabler:certificate
     - title: 'ISO 9001:2015'
       description: 'Système de management de la qualité certifié ISO 9001:2015, couvrant la conception, la fabrication et la distribution d''embarcations gonflables et d''équipements nautiques. Périmètre de certification et rapport d''audit disponibles sur demande.'
