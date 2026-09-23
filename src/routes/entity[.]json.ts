@@ -2,7 +2,7 @@ import { createFileRoute } from '@tanstack/react-router'
 
 /**
  * `/entity.json` — schema.org Organization entity that describes the factory
- * and brand behind SUPsfactory (ported from the afarer GEO dataset). Served as
+ * and brand behind SUPsfactory (ported from the legacy GEO dataset). Served as
  * structured JSON for AI answer engines and knowledge graphs. The canonical
  * `@id`/`url` are rewritten to this site's origin.
  *

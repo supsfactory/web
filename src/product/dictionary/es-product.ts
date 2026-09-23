@@ -149,7 +149,7 @@ export const esProduct = {
       login: 'Iniciar sesión',
       app: 'App',
       poweredBy: `Con la fabricación de ${BRAND_PARENT_BRAND}`,
-      process: 'Proceso', projects: 'Proyectos',       aboutAfarer: `Sobre ${SITE_NAME}`, guides: 'Centro de conocimiento',
+      process: 'Proceso', projects: 'Proyectos',       aboutBrand: `Sobre ${SITE_NAME}`, guides: 'Centro de conocimiento',
       solutions: 'Soluciones', company: 'Empresa',
       productsServices: 'Productos y Servicios',
       proofQuality: 'Evidencia y Calidad',

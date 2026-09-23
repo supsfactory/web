@@ -7,7 +7,7 @@
     <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white" alt="TypeScript"></a>
   </p>
   <p>
-    <em>Bright Ocean Studio × Afarer Manufacturing (Qingdao Vatrad Group) — a complete custom SUP manufacturing platform built on the Vectoflare full-stack SaaS starter.</em>
+    <em>Bright Ocean Studio × SUPsfactory Manufacturing (Qingdao Vatrad Group) — a complete custom SUP manufacturing platform built on the Vectoflare full-stack SaaS starter.</em>
   </p>
 </div>
 
@@ -241,7 +241,7 @@ This guide maps the **major architectural layers** of SUPsfactory to their sourc
 
 **English**
 
-SUPsfactory is the production-ready web presence for an SUP (stand-up paddleboard) OEM/ODM manufacturer — the marketing site is positioned as a **custom SUP product development & manufacturing partner**, not a "launch your own brand" tool. It pairs a fully designed trilingual (en / es / fr) marketing site with the complete SaaS backend from [Vectoflare](https://github.com/vectoflare/vectoflare): auth, email, an admin console, and more — every feature a real implementation, no mocks or stubs, running on the Cloudflare free-to-cheap stack (Workers + D1 + KV + R2). The full afarer brand content (factory, technology, research, news, product pages) is ported in and served from the same Worker in en/es/fr under `/` (`/es` and `/fr` prefixed).
+SUPsfactory is the production-ready web presence for an SUP (stand-up paddleboard) OEM/ODM manufacturer — the marketing site is positioned as a **custom SUP product development & manufacturing partner**, not a "launch your own brand" tool. It pairs a fully designed trilingual (en / es / fr) marketing site with the complete SaaS backend from [Vectoflare](https://github.com/vectoflare/vectoflare): auth, email, an admin console, and more — every feature a real implementation, no mocks or stubs, running on the Cloudflare free-to-cheap stack (Workers + D1 + KV + R2). The full manufacturer brand content (factory, technology, research, news, product pages) is ported in and served from the same Worker in en/es/fr under `/` (`/es` and `/fr` prefixed).
 
 ## The marketing site
 
@@ -254,11 +254,11 @@ Custom-built "Bright Ocean Studio" design language: Ocean White / Ocean Blue / A
 | **SUP Design Studio** | Interactive configurator: pick colors and preview a live board mockup — the "place your logo" pitch for prospects |
 | **Solutions system** | A 5-page system under `/solutions` — `/solutions/custom-sup`, `/solutions/private-label-sup`, `/solutions/resort-sup`, `/solutions/club-sup`, `/solutions/school-sup`. Every page follows one business logic (scenario → problems → solution → process → case study → FAQ) and ends in a **CTA temperature** — cold (Learn More), warm (Discuss Your Project), hot (Request Manufacturing Proposal) — so each audience gets a pitch matched to how ready they are |
 | **Who we serve** | Landing-oriented scene pages that funnel into the matching solution page |
-| **Site search** | Two surfaces: a header search dialog fed by `/search-index.json` (the full public index, edge-cached 1h) and a `/search` page with a full-text (Orama) index built from the same data — solutions, knowledge hub, projects, product series, afarer pages, news, technology, case studies, guides, FAQs and the six hub/landing pages (home, /products, /solutions, /projects, /knowledge, /gallery) in en/es/fr |
+| **Site search** | Two surfaces: a header search dialog fed by `/search-index.json` (the full public index, edge-cached 1h) and a `/search` page with a full-text (Orama) index built from the same data — solutions, knowledge hub, projects, product series, brand pages, news, technology, case studies, guides, FAQs and the six hub/landing pages (home, /products, /solutions, /projects, /knowledge, /gallery) in en/es/fr |
 | **AI sales assistant** | A floating RAG chat widget (bottom-right, above the contact floats): bge-m3 embeddings + Vectorize top-K over the whole en/es/fr corpus + llama-3.2-3b answers with clickable sources, multi-turn context, KV-cached answers, per-IP rate limiting, and graceful degradation to keyword-matched site FAQs when AI/Vectorize are unavailable (works before the index even exists). Index rebuilt nightly by cron |
 | **Legacy SEO landings** | The old keyword pages (`/sup-startup-brands`, `/sup-for-resorts`, `/sup-for-clubs`, `/private-label-sup`, `/custom-sup-manufacturing`) now **301-redirect** to their new solution-page equivalents — search equity preserved, one source of truth |
 | **Edge URL policy** | `src/features/seo/edge-gate.ts` applies at the worker before any route runs: 301 merges of duplicate/legacy pages, 410 for removed template pages (`/docs`, `/waitlist`, `/changelog`), trailing-slash normalisation, and retired-locale `/zh/*` → `/es` redirects — all served with a short `max-age` so changes stay easy to amend |
-| **afarer brand content** | The full ported manufacturer site (en/es/fr): `/factory/*`, `/technology/*`, `/research/*`, `/news/*`, `/products/*`, `/oem-odm-manufacturer`, `/guides`, `/faq` and more — served by a catch-all route from the bundled afarer content |
+| **brand content** | The full ported manufacturer site (en/es/fr): `/factory/*`, `/technology/*`, `/research/*`, `/news/*`, `/products/*`, `/oem-odm-manufacturer`, `/guides`, `/faq` and more — served by a catch-all route from the bundled content |
 | **Gallery / How it works / About / Contact** | Brand stories with real project photos, manufacturing timeline, company story, inquiry form |
 
 **The 10 platform series** (data in `src/product/content.ts`, photos served from `assets.supsfactory.com`, the site's own R2 CDN):
@@ -278,7 +278,7 @@ Custom-built "Bright Ocean Studio" design language: Ocean White / Ocean Blue / A
 
 Every series is a manufacturing platform — shape, artwork, EVA deck pads, and packaging all adapt to your client's brand (50pcs MOQ per design).
 
-**AI-ready content**: `/llms.txt` and `/llms-full.txt` index the docs, the full product catalog (names, SKUs, specs, prices, recommended use), the 5 solution pages with their FAQ, and the whole ported afarer brand corpus (factory, technology, research, news) — so answer engines can cite the actual offering. `/entity.json` exposes the schema.org Organization entity behind the factory, and `/rss.xml` the news feed. Every entry carries a **page-level meta spec** enforced at build time: `title ≤ 70` chars, `description 80–170` chars (kept in sync, en/es/fr).
+**AI-ready content**: `/llms.txt` and `/llms-full.txt` index the docs, the full product catalog (names, SKUs, specs, prices, recommended use), the 5 solution pages with their FAQ, and the whole ported manufacturer brand corpus (factory, technology, research, news) — so answer engines can cite the actual offering. `/entity.json` exposes the schema.org Organization entity behind the factory, and `/rss.xml` the news feed. Every entry carries a **page-level meta spec** enforced at build time: `title ≤ 70` chars, `description 80–170` chars (kept in sync, en/es/fr).
 
 ## The platform under the hood
 
@@ -294,8 +294,8 @@ Every series is a manufacturing platform — shape, artwork, EVA deck pads, and 
 | **Changelog** | An in-app `/changelog` page — MDX-driven, per-locale, with a `published` flag (410'd in production, template reference). |
 | **Feedback** | Signed-in users submit feedback + a "my feedback" list; an admin governance page drives status transitions and replies. Also the **reference for adding your own feature**: a vertical slice with ownership filtering, a pure function layer, both gate patterns, and dual-pool tests — see [feedback](src/content/docs/features/feedback.mdx). |
 | **i18n** | Path-based locale routing via TanStack's `{-$locale}` optional prefix — English at `/`, Español at `/es`, Français at `/fr`. All marketing copy and UI strings translated (en/es/fr). |
-| **SEO** | Per-locale sitemap with `hreflang` + canonical for the trilingual pages (en/es/fr — marketing routes and afarer content pages both emit alternates); OpenGraph tags (featured image is a real product photo from the site's R2 CDN), `robots.txt`, `noindex` on authenticated pages, and the 5 solution pages as keyword targets (legacy landing URLs 301 to them). Page meta is length-validated (`title ≤ 70`, `description 80–170`). |
-| **AI-ready** | **Runtime:** [`llms.txt`](/llms.txt) index and [`llms-full.txt`](/llms-full.txt) full corpus — docs **plus the product catalog, the 5 solution pages (incl. FAQ) and the afarer brand corpus**; [`entity.json`](/entity.json) schema.org Organization; [`rss.xml`](/rss.xml) news feed; `robots.txt` pointing to all of them. **Codebase:** [`AGENTS.md`](AGENTS.md) is the single source of truth for coding agents (auto-imported into [`CLAUDE.md`](CLAUDE.md)). |
+| **SEO** | Per-locale sitemap with `hreflang` + canonical for the trilingual pages (en/es/fr — marketing routes and content pages both emit alternates); OpenGraph tags (featured image is a real product photo from the site's R2 CDN), `robots.txt`, `noindex` on authenticated pages, and the 5 solution pages as keyword targets (legacy landing URLs 301 to them). Page meta is length-validated (`title ≤ 70`, `description 80–170`). |
+| **AI-ready** | **Runtime:** [`llms.txt`](/llms.txt) index and [`llms-full.txt`](/llms-full.txt) full corpus — docs **plus the product catalog, the 5 solution pages (incl. FAQ) and the manufacturer brand corpus**; [`entity.json`](/entity.json) schema.org Organization; [`rss.xml`](/rss.xml) news feed; `robots.txt` pointing to all of them. **Codebase:** [`AGENTS.md`](AGENTS.md) is the single source of truth for coding agents (auto-imported into [`CLAUDE.md`](CLAUDE.md)). |
 | **Admin** | `ADMIN_EMAILS` is the **single source of truth**; the DB `role` column is a cache, two-way-synced on every gated access (promote on first use, demote the moment an email leaves the list). Every admin surface — pages, server fns, CSV exports, and better-auth's own `/api/auth/admin/*` — shares one `assertAdmin()` gate that returns **404** for non-admins (the admin surface stays invisible). Roles are least-privilege (`ban` / `impersonate` / `delete` / `list` only). Searchable/paginated user table, stats dashboard, ban/impersonate/delete actions — all on real data. |
 | **Theme** | Dark-first design with a light/dark toggle persisted via cookie. |
 | **Security & observability** | Nonce-based production CSP (no `unsafe-inline` for scripts), baseline security headers, Turnstile bot protection, per-IP rate limiting (KV/D1-backed), startup env validation (fail-fast); admin endpoints gated to `ADMIN_EMAILS` (404 for non-admins), admin notification emails HTML-escaped, uploaded files served sandboxed (`default-src 'none'; sandbox`), uploads extension- + magic-number-verified, private surfaces (`/app`, `/admin`, `/api`, auth pages) forced `private, no-store` + `Vary: Cookie` so a CDN misconfiguration can never cache one user's session page for another; CF Web Analytics (cookieless) and Sentry error reporting — all optional, off when keys are blank. |
@@ -359,7 +359,7 @@ pnpm deploy:staging         # CLOUDFLARE_ENV=staging build + wrangler deploy
 pnpm deploy:prod            # CLOUDFLARE_ENV=production build + wrangler deploy
 pnpm deploy:purge           # purge the CDN cache (scripts/purge-cache.mjs)
 pnpm deploy:prod:all        # deploy + purge
-pnpm upload:afarer-images   # backfill missing afarer images to R2
+pnpm upload:images          # backfill missing brand images to R2 (scripts/brand-images)
 pnpm upload:site-assets     # upload videos / PDFs / quality photos to R2 (site/*)
 pnpm images:process         # sharp: build responsive webp/avif variants (-768/-480) + upload to R2
 pnpm images:preview         # sharp dry-run: render variants to dist-image-preview/ (no upload)
@@ -498,8 +498,8 @@ The repo ships six workflows:
 | Workflow | Triggers | What it does |
 |----------|----------|--------------|
 | `ci.yml` | every push | lint + typecheck + test + build (no secrets needed) |
-| `deploy.yml` | push to `main` | generates `wrangler.jsonc` from repo variables, builds with `CLOUDFLARE_ENV=production`, applies D1 migrations, deploys the Worker, **purges the CDN cache**, **warms the edge cache** (`/`, `/es`, product pages), bulk-syncs GitHub secrets → Worker secrets, and backfills missing afarer images to R2 |
-| `upload-afarer-images.yml` | manual | uploads the bundled afarer images to R2 (used for one-off backfills) |
+| `deploy.yml` | push to `main` | generates `wrangler.jsonc` from repo variables, builds with `CLOUDFLARE_ENV=production`, applies D1 migrations, deploys the Worker, **purges the CDN cache**, **warms the edge cache** (`/`, `/es`, product pages), bulk-syncs GitHub secrets → Worker secrets, and backfills missing brand images to R2 |
+| `upload-brand-images.yml` | manual | uploads the bundled brand images to R2 (used for one-off backfills) |
 | `images.yml` | manual | builds responsive image variants (`sharp`) and compressed PDFs (`ghostscript`) from the bundled sources and uploads them to R2 — R2 free tier cannot resize images/PDFs, so variants are generated offline |
 | `website-performance.yml` | manual | Lighthouse-style performance audit |
 | `cf-inspect.yml` | manual | Cloudflare diagnostics helper — dumps cache rules, zone settings and purge results to `cf-inspect.log` in the repo (keep the token's `Zone → Cache Purge` permission for the deploy pipeline's purge step) |
@@ -554,7 +554,7 @@ Create it at [dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.co
 | Workers Scripts | Edit | `wrangler deploy` (the worker itself) | Yes |
 | Workers KV Storage | Edit | deploy binds the KV namespace; `wrangler kv namespace list` (variable lookup) | Yes |
 | D1 | Edit | `d1 migrations apply supsfactory-db-prod --env production --remote` before every deploy; `wrangler d1 list` | Yes |
-| R2 Storage | Edit | creates buckets + uploads afarer images (`scripts/upload-afarer-images.mjs`, used by deploy backfill and the manual upload workflow) | Yes |
+| R2 Storage | Edit | creates buckets + uploads brand images (`scripts/upload-brand-images.mjs`, used by deploy backfill and the manual upload workflow) | Yes |
 | Vectorize | Edit | idempotently creates the 3 knowledge indexes (`supsfactory-knowledge`, `-staging`, `-prod`) before deploy — deploy fails with code 10159 if the bound index is missing | Yes |
 | Account Settings | Read | wrangler account/plan diagnostics | Recommended |
 

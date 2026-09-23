@@ -149,7 +149,7 @@ export const frProduct = {
       login: 'Se connecter',
       app: 'App',
       poweredBy: `Propulsé par ${BRAND_PARENT_BRAND}`,
-      process: 'Processus', projects: 'Projets', aboutAfarer: `À Propos de ${SITE_NAME}`, guides: 'Centre de Connaissances',
+      process: 'Processus', projects: 'Projets', aboutBrand: `À Propos de ${SITE_NAME}`, guides: 'Centre de Connaissances',
       solutions: 'Solutions', company: 'Entreprise',
       productsServices: 'Produits & Services',
       proofQuality: 'Preuves & Qualité',

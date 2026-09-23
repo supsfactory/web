@@ -15,15 +15,16 @@
  *   <file>-768.avif
  *   <file>-480.avif
  *
- * The <name>-768 / <name>-480 convention matches the existing
- * afarer-og-default-768.avif / -480.avif hero URLs in src/config/branding.ts.
+ * The <name>-768 / <name>-480 convention matches the responsive variant URLs
+ * the site references (e.g. `supsfactory-og-default` base filenames from
+ * `PRODUCT_OG_IMAGE_FILENAME` in src/product/brand-constants.ts).
  * Renderers can choose format + width via <picture>/srcset. Only images wider
  * than the target bucket are downscaled; smaller ones are skipped to avoid
  * pointless upscaling.
  *
  * Usage:
  *   node scripts/process-and-publish-images.mjs --dry-run                  # render to ./dist-image-preview, list variants
- *   node scripts/process-and-publish-images.mjs --src scripts/afarer-images # S3 mode, upload everything
+ *   node scripts/process-and-publish-images.mjs --src scripts/brand-images # S3 mode, upload everything
  *   node scripts/process-and-publish-images.mjs --http --src ...            # HTTP API mode (CI)
  *   node scripts/process-and-publish-images.mjs --http --src ... --missing  # only upload variants not yet in R2
  *   node scripts/process-and-publish-images.mjs --src ... --widths 1200,768,480 --formats webp,avif
@@ -65,7 +66,7 @@ function collectSrcs() {
       i++
     }
   }
-  return out.length ? out : ['scripts/afarer-images']
+  return out.length ? out : ['scripts/brand-images']
 }
 const SRCS = collectSrcs()
 const KEY_PREFIX = flagValue('prefix', 'images/sups/')

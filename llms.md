@@ -8,12 +8,12 @@
 
 | Endpoint | Source | Output Format | Key Content |
 |----------|--------|---------------|-------------|
-| `/llms.txt` | `src/features/site/llm.ts` + `src/features/docs/llm.ts` | Markdown index | Products + solution pages + afarer index (factory, technology, research, news, product pages, geo facts) |
-| `/llms-full.txt` | Same as `/llms.txt`, concatenated plain Markdown | Full corpus | Catalog, solutions incl. FAQ, afarer pages/news/technology/case studies, geo facts |
+| `/llms.txt` | `src/features/site/llm.ts` + `src/features/docs/llm.ts` | Markdown index | Products + solution pages + brand index (factory, technology, research, news, product pages, geo facts) |
+| `/llms-full.txt` | Same as `/llms.txt`, concatenated plain Markdown | Full corpus | Catalog, solutions incl. FAQ, brand pages/news/technology/case studies, geo facts |
 | `/entity.json` | `src/features/content/loader.ts` (`getGeoEntity`) | schema.org Organization | `@id`/`url`/`name`/`description` rewritten to this site's origin; `subjectOf`/`knowsAbout` rebuilt from live page set |
-| `/rss.xml` | afarer news posts (RSS feed) | XML | Latest news/posts from the afarer corpus |
+| `/rss.xml` | brand news posts (RSS feed) | XML | Latest news/posts from the brand corpus |
 | `/search-index.json` | `src/features/site/search-index.server.ts` | JSON (Orama-backed) | Every public page deduped across the active locales (en/es/fr); cached at edge (`max-age=3600`) |
-| `/sitemap.xml` | `src/features/seo/seo.ts` (`PUBLIC_PATHS` × locales + afarer registry) | XML | en/es/fr entries with hreflang alternates |
+| `/sitemap.xml` | `src/features/seo/seo.ts` (`PUBLIC_PATHS` × locales + brand registry) | XML | en/es/fr entries with hreflang alternates |
 | `/robots.txt` | `src/features/seo/seo.ts` | Plain text | Disallows `/app`, `/admin`, `/*/admin`, `/api`, `/docs`, `/waitlist`, `/changelog`; points to sitemap, llms, entity.json, rss.xml |
 
 ## 2. Content Source Hierarchy (Single Point of Truth)
@@ -100,8 +100,8 @@ export function buildLlmIndex(locale: 'en' | 'es' = 'en') {
   // 3) Knowledge hub sections
   chunks.push(...buildKnowledgeChunks(locale));
 
-  // 4) Afarer corpus (products/news/technology/case-studies/geo)
-  chunks.push(...buildAfarerChunks(locale));
+  // 4) Brand corpus (products/news/technology/case-studies/geo)
+  chunks.push(...buildChunks(locale));
 
   // 5) Site FAQ (each as its own Q/A chunk)
   chunks.push(...buildFaqChunks());

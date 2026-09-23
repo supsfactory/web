@@ -28,7 +28,7 @@ Framework code (`src/features/`, `src/routes/`, `src/components/`) never imports
 - `src/db/` — Drizzle client + `schema.ts` barrel; tables in `src/db/tables/` and feature `*.schema.ts`.
 - `src/content/site/` — **Product Content**: page YAML, product MDX, news MDX, case-use/technology MD, site-wide YAML (faqs, registry, research). Swap per deployment. (Geo JSON now lives in `src/product/geo/`.)
 - `src/content/docs/` — in-app docs (MDX, Fumadocs).
-- `scripts/` — `framework.sql` (system bootstrap), `demo.sql` (sample data), `upload-afarer-images.mjs`, `upload-site-assets.mjs`, `lib/r2-upload.mjs` (shared SigV4/HTTP uploader with `isMissing`), `process-and-publish-images.mjs` (sharp responsive variants), `compress-pdf.mjs` (Ghostscript PDF compression), plus check/purge helpers.
+- `scripts/` — `framework.sql` (system bootstrap), `demo.sql` (sample data), `upload-brand-images.mjs`, `upload-site-assets.mjs`, `lib/r2-upload.mjs` (shared SigV4/HTTP uploader with `isMissing`), `process-and-publish-images.mjs` (sharp responsive variants), `compress-pdf.mjs` (Ghostscript PDF compression), plus check/purge helpers.
 
 ## Conventions
 

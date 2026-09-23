@@ -72,7 +72,7 @@ test('brand pages collapse onto /about and /about/vatrad (P1-3)', () => {
   expect(gatePath('/es/brand/why-afarer')).toEqual({ action: 'redirect', to: '/es/about/vatrad' })
 })
 
-test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
+test('legacy brand URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/odm-manufacturing' })
   expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
   expect(gatePath('/guides/sup-yoga')).toEqual({ action: 'redirect', to: '/knowledge' })

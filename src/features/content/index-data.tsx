@@ -2,11 +2,11 @@ import { createContext, useContext, type ReactNode } from 'react'
 import { setBrandCount } from './brand'
 
 /**
- * Per-page widget index payloads for the afarer content site, resolved
+ * Per-page widget index payloads for the brand content site, resolved
  * server-side.
  *
  * Widgets previously pulled their lists straight from the loader, which forced
- * the whole 900 KB+ afarer corpus and the YAML parser into the client bundle.
+ * the whole 900 KB+ brand corpus and the YAML parser into the client bundle.
  * The catch-all loader now ships only the lists the current page renders;
  * they are hydrated through this provider and read via useAferIndex().
  */

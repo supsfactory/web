@@ -56,7 +56,7 @@ Two public surfaces + one API, all built from the **same content sources** (sing
 | `/search` page | server fn | `buildExtendedIndex(locale)` | Full-text Orama search with stopwords/tokenizers; results rendered server-side. |
 | Docs search | `/api/search` | `fumadocs-core/search/server` | In-docs (Fumadocs) search for the `/docs` area. The Orama instance is a **lazy module-level singleton** (never rebuilt per request) and the route is **rate-limited per IP (60/min, fail-open)**. `SearchAPI` (not `SearchServer`) is the return type of `createFromSource`. |
 
-Index coverage (`search-index.server.ts`): solution pages, knowledge hub, projects, product series, afarer products/news/technology/case-studies/guides, every afarer registry page (en + es + fr), FAQ, **plus `hubEntries()`** — six live landing pages that ship no yaml registry entry yet are first-class public pages (home `/`, `/products`, `/solutions`, `/projects`, `/knowledge`, `/gallery`, en/es/fr). Edge-redirected paths are excluded (`EDGE_REDIRECTS`), page titles strip trailing brand suffixes.
+Index coverage (`search-index.server.ts`): solution pages, knowledge hub, projects, product series, brand products/news/technology/case-studies/guides, every brand registry page (en + es + fr), FAQ, **plus `hubEntries()`** — six live landing pages that ship no yaml registry entry yet are first-class public pages (home `/`, `/products`, `/solutions`, `/projects`, `/knowledge`, `/gallery`, en/es/fr). Edge-redirected paths are excluded (`EDGE_REDIRECTS`), page titles strip trailing brand suffixes.
 
 These modules are server-only: the content corpus never enters the client bundle (dynamically imported by server routes / server fns).
 
@@ -129,12 +129,11 @@ All generated dynamically; content sources are the single point of truth — edi
 
 | Endpoint | Source | Output |
 |----------|--------|--------|
-| `/sitemap.xml` | `src/features/seo/seo.ts` (`PUBLIC_PATHS` × locales, hreflang alternates) + docs pages + afarer public paths (registry + products/news/technology/case-studies/guides) | XML; en/es/fr entries with hreflang alternates across the trilingual page set |
+| `/sitemap.xml` | `src/features/seo/seo.ts` (`PUBLIC_PATHS` × locales, hreflang alternates) + docs pages + brand public paths (registry + products/news/technology/case-studies/guides) | XML; en/es/fr entries with hreflang alternates across the trilingual page set |
 | `/robots.txt` | `src/features/seo/seo.ts` | disallow `/app`, `/admin`, `/*/admin`, `/api`, `/docs`, `/waitlist`, `/changelog`; points to sitemap, llms, entity.json, rss.xml |
-| `/llms.txt` | `src/features/docs/llm.ts` (docs index) + `src/features/site/llm.ts` (products + **solution pages** + afarer index) | Markdown index for LLMs |
-| `/llms-full.txt` | same, concatenated plain Markdown | full corpus (catalog, solutions incl. FAQ, afarer pages/news/technology/case studies, geo facts) |
-| `/entity.json` | `src/features/content/loader.ts` (`getGeoEntity`) | schema.org Organization — `@id`/`url`/`name`/`description` rewritten to this site's origin; `subjectOf`/`knowsAbout` rebuilt from the live page set |
-| `/rss.xml` | afarer news posts | RSS feed |
+| `/llms.txt` | `src/features/docs/llm.ts` (docs index) + `src/features/site/llm.ts` (products + **solution pages** + brand index) | Markdown index for LLMs |
+| `/llms-full.txt` | same, concatenated plain Markdown | full corpus (catalog, solutions incl. FAQ, brand pages/news/technology/case studies, geo facts) |
+| `/rss.xml` | brand news posts | RSS feed |
 | `/docs-md/*` | `src/routes/docs-md/$.ts` | frontmatter-stripped Markdown per page (malformed percent-encoding → 404, not 500) |
 | `/search-index.json` | `src/features/site/search-index.server.ts` | full public search index (see §2), cached at the edge |
 
@@ -146,7 +145,7 @@ Product catalog lives in `src/product/content.ts`; the 5 solution pages (with FA
 
 The five `/solutions/*` pages (custom-sup, private-label-sup, resort-sup, club-sup, school-sup) are data-driven: `solution-pages.ts` (en/es/fr) + the `solution-page.tsx` renderer + the `solution-route.tsx` route factory, mounted under the `solutions.tsx` layout with a hub at `solutions/index.tsx`. Every page shares one business logic — scenario → problems → solution → process → case study → FAQ — and ends in a **CTA temperature** (`cold` = Learn More, `warm` = Discuss Your Project, `hot` = Request Manufacturing Proposal): custom-sup is hot, private-label-sup and resort-sup warm, club-sup and school-sup cold.
 
-The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`, `sup-for-resorts`, `sup-for-clubs`, `sup-startup-brands`) are stubs whose loaders throw `redirect({ href: localizePath(locale, target), statusCode: 301 })`. Broader URL policy (afarer-era dups, removed pages, trailing slashes, retired `/zh`) lives in the **edge gate** (`src/features/seo/edge-gate.ts`) so it runs before SSR:
+The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`, `sup-for-resorts`, `sup-for-clubs`, `sup-startup-brands`) are stubs whose loaders throw `redirect({ href: localizePath(locale, target), statusCode: 301 })`. Broader URL policy (legacy-brand dups, removed pages, trailing slashes, retired `/zh`) lives in the **edge gate** (`src/features/seo/edge-gate.ts`) so it runs before SSR:
 
 - Old URLs keep their search equity: `sup-startup-brands` → `/solutions/custom-sup`, the other four map 1:1 to their new pages; es requests redirect to the `/es/...` equivalents via `localizePath`.
 - The old paths were removed from `PUBLIC_PATHS`/sitemap and their data deleted — the solution pages are the single source of truth; `SHADOWED_PATHS` covers all five new paths so the content registry can never shadow them.
@@ -162,8 +161,8 @@ The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`,
 | Typecheck / lint / build | `pnpm typecheck` (fumadocs-mdx + tsc) / `pnpm lint` / `pnpm build` |
 | D1 migrations | `pnpm db:generate` → `pnpm db:migrate:local` (local); `db:migrate:staging` / `db:migrate:prod` (remote) |
 | Deploy | `pnpm deploy:staging` / `pnpm deploy:prod` (builds with `CLOUDFLARE_ENV` + `wrangler deploy`); `pnpm deploy:purge` purges the CDN (needs `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ZONE_ID` w/ cache-purge scope); `deploy:prod:all` = deploy + purge |
-| Images | `pnpm upload:afarer-images` — backfills missing afarer images to R2 (`--missing` only PUTs absent objects) |
-| CI | `ci.yml` (lint + typecheck + test + build, no secrets); `deploy.yml` (push to `main`: gen `wrangler.jsonc` → build with `CLOUDFLARE_ENV=production` → **D1 migrations** → `wrangler deploy` → **purge CDN cache** → **warm edge cache** (`/`, `/es`, `/fr`, products) → `wrangler secret bulk` from GitHub secrets → **backfill missing afarer images**). Missing `CLOUDFLARE_API_TOKEN` → whole deploy job skips gracefully. |
+| Images | `pnpm upload:images` — backfills missing brand images to R2 (`--missing` only PUTs absent objects) |
+| CI | `ci.yml` (lint + typecheck + test + build, no secrets); `deploy.yml` (push to `main`: gen `wrangler.jsonc` → build with `CLOUDFLARE_ENV=production` → **D1 migrations** → `wrangler deploy` → **purge CDN cache** → **warm edge cache** (`/`, `/es`, `/fr`, products) → `wrangler secret bulk` from GitHub secrets → **backfill missing brand images**). Missing `CLOUDFLARE_API_TOKEN` → whole deploy job skips gracefully. |
 | Diagnostics | `cf-inspect.yml` (manual): dumps zone cache settings + purge results to `cf-inspect.log` committed back to the repo |
 
 **Testing note:** the workers pool does NOT auto-apply migrations — create tables in `beforeAll` (see `features/auth/test-helpers.ts`).
@@ -188,7 +187,7 @@ When AI/Vectorize bindings are absent (commented out by default in `wrangler.jso
 | **matchCorpus** | Token-overlap scoring against the **full content corpus** (`buildChunks(locale)` — same chunks the RAG tier uses): each chunk's `text` field is tokenized and scored against the user's question. Finds relevant product specs, solution details, manufacturing facts, etc. — not just FAQ entries. Both `matchFaq` and `matchCorpus` run; results are merged with the highest-scoring answer returned. |
 | Badge | Each answer shows a subtle **"FAQ"** badge indicating keyword-search mode |
 
-This mode works from day one — no index build, no AI quota, no paid plan. It searches both FAQ entries AND the full content corpus (solutions, products, guides, knowledge hub, afarer pages) using token-overlap scoring.
+This mode works from day one — no index build, no AI quota, no paid plan. It searches both FAQ entries AND the full content corpus (solutions, products, guides, knowledge hub, brand pages) using token-overlap scoring.
 
 ### Tier 2: Full RAG (Workers Paid plan, $5/month)
 
@@ -196,7 +195,7 @@ When the `ai` and `vectorize` blocks are uncommented in `wrangler.jsonc`, the as
 
 | Layer | Piece |
 |-------|-------|
-| Corpus | `corpus.ts` `buildChunks(locale)` — one atomic chunk per piece of info: solution pages (+ their FAQ blocks individually), knowledge hub per-section, projects, product series, guides, afarer products/news/technology/case-studies, afarer pages (SEO description), and every site FAQ as its own Q/A chunk; en/es/fr, URLs localized via `localizePath` |
+| Corpus | `corpus.ts` `buildChunks(locale)` — one atomic chunk per piece of info: solution pages (+ their FAQ blocks individually), knowledge hub per-section, projects, product series, guides, brand products/news/technology/case-studies, brand pages (SEO description), and every site FAQ as its own Q/A chunk; en/es/fr, URLs localized via `localizePath` |
 | Embeddings | Workers AI `@cf/baai/bge-m3` (1024-dim, multilingual) in batches of 64 |
 | Index | Vectorize `supsfactory-knowledge` / `-staging` / `-prod` (per env); chunk ids are stable FNV-1a hashes of `(locale, url, part)` so daily re-runs upsert in place |
 | Retrieval | top-K=6 cosine, `returnMetadata: 'all'`; metadata carries `text/url/title` so sources render as links |

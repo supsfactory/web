@@ -88,7 +88,7 @@ export function llmSiteHeader(): string {
 }
 
 export function llmProductsIndex(origin: string): string {
-  // Real product detail pages exist for the ported afarer products — link each
+  // Real product detail pages exist for the ported products — link each
   // entry to its page instead of the /products index.
   const lines = getContentProducts().map((p) => `- [${p.title}](${abs(origin, `/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
   return ['', '## Products', ...lines, ''].join('\n')
@@ -193,13 +193,13 @@ export function llmSolutionsFull(): string {
   return ['', ...blocks].join('\n\n')
 }
 
-/* ─────────────────────────── afarer (GEO/AI) ─────────────────────────── */
+/* ─────────────────────────── brand pages (GEO/AI) ─────────────────────────── */
 
 /** `/llms.txt` index sections link to absolute URLs (llmstxt.org) so LLMs can explore directly. */
 const abs = (origin: string, path: string) => `${origin}${path}`
 
-/** Index entries for the ported afarer brand pages (in /llms.txt). */
-export function llmAfarierIndex(origin: string): string {
+/** Index entries for the ported brand pages (in /llms.txt). */
+export function llmBrandIndex(origin: string): string {
   // Derived from the loader (not a hand-maintained list) so revived pages and
   // future registry additions are covered automatically. Edge/legacy-301'd
   // source paths must not appear as canonical URLs — same rule as the sitemap.
@@ -233,8 +233,8 @@ export function llmAfarierIndex(origin: string): string {
   ].join('\n')
 }
 
-/** Full text for the afarer factory/technology pages + products + articles. */
-export function llmsAfarerFull(): string {
+/** Full text for the factory/technology pages + products + articles. */
+export function llmsFull(): string {
   const DEEP_PAGES = new Set([
     '/factory', '/quality', '/oem-moq-guide', '/sup-oem-moq-lead-time',
     '/oem-sup-moq', '/inflatable-sup-certification', '/oem-trust-assurance',
@@ -290,8 +290,8 @@ export function llmsAfarerFull(): string {
     }
     return lines
   }
-  // Edge-301'd source paths (/brand/afarer, /brand/story, /oem-odm, …) and
-  // legacy theafarer-era paths must not appear as canonical URLs in the LLM
+  // Edge-301'd source paths (/brand/*, /oem-odm, …) and
+  // legacy brand-era paths must not appear as canonical URLs in the LLM
   // corpus — same rule as the sitemap.
   const pageBlocks = getContentPages()
     .filter((p) => !(p.path in EDGE_REDIRECTS) && !(p.path in LEGACY_REDIRECTS))
@@ -385,7 +385,7 @@ export function llmSpanishIndex(origin: string): string {
 }
 
 /** Full Spanish text for products, news, tech, cases and guides (in /llms-full.txt). */
-export function llmsAfarerSpanishFull(): string {
+export function llmsSpanishFull(): string {
   const productBlocks = getContentProducts('es').map((p) =>
     [
       `## Producto: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,

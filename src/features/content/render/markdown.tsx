@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 
 /**
- * Minimal markdown renderer for afarer article bodies (products, news,
+ * Minimal markdown renderer for article bodies (products, news,
  * technology, case studies). The source content is first-party and uses a
  * small, regular subset: #/##/### headings, paragraphs, `-` and `1.` lists,
  * blockquotes, `---` rules, plus inline **bold**, `code` and [links](url).

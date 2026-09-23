@@ -17,7 +17,7 @@ const handler = async () => {
   const origin = new URL(env.BETTER_AUTH_URL).origin
   return new Response(
     LLMS_TXT +
-      llm.llmAfarierIndex(origin) +
+      llm.llmBrandIndex(origin) +
       llm.llmProductsIndex(origin) +
       llm.llmSolutionsIndex(origin) +
       llm.llmProjectsIndex(origin) +

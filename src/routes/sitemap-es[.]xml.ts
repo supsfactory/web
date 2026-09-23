@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 
 // Spanish marketing pages (hreflang-linked to the English pages file) plus the
-// afarer pages and detail content (news/products/technology/case-use/guides)
+// brand pages and detail content (news/products/technology/case-use/guides)
 // that ship a real Spanish variant.
 //
 // Content loader, product pages and sitemap builders are server-only — loaded
@@ -20,7 +20,7 @@ const handler = async () => {
       import('@/product/series-pages'),
     ])
   const origin = new URL(env.BETTER_AUTH_URL).origin
-  const afarerEs = loader
+  const brandPaths = loader
     .getLocalePaths('es')
     .filter((p: string) => !(p in EDGE_REDIRECTS) && !(p in LEGACY_REDIRECTS))
     .map((path: string) => ({ path }))
@@ -34,7 +34,7 @@ const handler = async () => {
     ...knowledge.es.map((a: { slug: string }) => ({ path: `/knowledge/${a.slug}` })),
     ...seriesPages.es.map((s: { slug: string }) => ({ path: `/products/${s.slug}` })),
   ]
-  return new Response(buildLocaleSitemap(origin, 'es', [...PUBLIC_PATHS, ...detailEs, ...afarerEs]), {
+  return new Response(buildLocaleSitemap(origin, 'es', [...PUBLIC_PATHS, ...detailEs, ...brandPaths]), {
     headers: { 'content-type': 'application/xml; charset=utf-8', 'cache-control': 'public, max-age=3600' },
   })
 }

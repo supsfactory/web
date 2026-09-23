@@ -2,7 +2,7 @@
  * Server-only site search index builder.
  *
  * Statically imported by server routes (`/search-index.json`) and dynamically
- * by the `/search` page server fn, so the afarer corpus it pulls in via the
+ * by the `/search` page server fn, so the brand corpus it pulls in via the
  * loader never enters the client bundle.
  */
 
@@ -89,7 +89,7 @@ export function buildContentIndex(locale: Locale): SearchEntry[] {
   return entries
 }
 
-/** Afarer detail content (products/news/technology/case-use/guides) for one locale. */
+/** Detail content (products/news/technology/case-use/guides) for one locale. */
 function contentEntries(locale: Locale): SearchEntry[] {
   const out: SearchEntry[] = []
   const url = (p: string) => localizePath(locale, p)
@@ -112,7 +112,7 @@ function contentEntries(locale: Locale): SearchEntry[] {
   return out
 }
 
-/** Afarer + site-FAQ entries for one locale (the `/search` server filter). */
+/** Brand + site-FAQ entries for one locale (the `/search` server filter). */
 export function buildExtendedIndex(locale: Locale): SearchEntry[] {
   const entries: SearchEntry[] = [...buildContentIndex(locale), ...contentEntries(locale), ...buildHubEntries(locale)]
   for (const p of getContentPages()) {

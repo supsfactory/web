@@ -121,7 +121,7 @@ function readFileSyncSafe(file: string): string | null {
   }
 }
 
-test('every internal link in afarer content resolves to a live route', () => {
+test('every internal link in content builds resolve to a live route', () => {
   const failing = broken.filter((b) => b.reason.startsWith('no live route'))
   expect(
     failing.map((b) => `${b.file}: ${b.link} (${b.reason})`),
@@ -137,7 +137,7 @@ test('no content link points at an edge-gate redirect or 410 (link directly to t
   ).toEqual([])
 })
 
-test('every /assets/ link in afarer content resolves to a real file', () => {
+test('every /assets/ link in content builds resolves to a real file', () => {
   const missing = broken.filter((b) => b.reason.startsWith('missing asset'))
   expect(
     missing.map((b) => `${b.file}: ${b.link} (${b.reason})`),

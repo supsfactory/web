@@ -1,9 +1,9 @@
 /**
  * Beginner SUP guides (/guides/{slug}).
  *
- * The afarer source renders these as dedicated Astro pages with embedded copy
+ * The legacy source renders these as dedicated Astro pages with embedded copy
  * (no YAML), so we ship a small structured dataset here instead. The slugs are
- * the ones referenced by afarer's learning-center.yaml cards.
+ * the ones referenced by the learning-center.yaml cards.
  */
 
 export interface GuideSection {

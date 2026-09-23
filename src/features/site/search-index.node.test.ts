@@ -1,5 +1,5 @@
 /**
- * Search index tests (node pool — full afarer corpus resolves like any module).
+ * Search index tests (node pool — full brand corpus resolves like any module).
  * Guards against regressions where content lives in bodies but not excerpts.
  */
 import { describe, expect, test } from 'vitest'

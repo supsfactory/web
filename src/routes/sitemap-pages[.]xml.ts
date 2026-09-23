@@ -1,8 +1,8 @@
 import { createFileRoute } from '@tanstack/react-router'
 
 // English marketing pages (hreflang-linked to /es mirrors in sitemap-es) plus
-// afarer/static pages; every entry whose /es twin renders a real translation
-// carries the Spanish hreflang alternate.
+// static pages; every entry whose /es twin renders a real translation carries
+// the Spanish hreflang alternate.
 //
 // The content loader (YAML corpus), product pages and sitemap builders are
 // server-only — loaded dynamically so they stay out of the client bundle.
@@ -20,7 +20,7 @@ const handler = async () => {
     ])
   const origin = new URL(env.BETTER_AUTH_URL).origin
   const esPaths = new Set(loader.getLocalePaths('es'))
-  const afarer = loader
+  const livePages = loader
     .getContentPages()
     .filter((p: { path: string }) => !(p.path in EDGE_REDIRECTS))
     .map((p: { path: string; content: { seo?: { dateModified?: string } }; meta?: { dateModified?: string } }) => {
@@ -37,7 +37,7 @@ const handler = async () => {
     { loc: '/terms', lastmod: '2026-08-15', es: true },
     { loc: '/privacy', lastmod: '2026-08-15', es: true },
   ]
-  return new Response(buildSitemap(origin, [...afarer, ...staticPages], { locale: 'en' }), {
+  return new Response(buildSitemap(origin, [...livePages, ...staticPages], { locale: 'en' }), {
     headers: { 'content-type': 'application/xml; charset=utf-8', 'cache-control': 'public, max-age=3600' },
   })
 }

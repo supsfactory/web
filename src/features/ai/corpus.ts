@@ -1,7 +1,7 @@
 /**
  * Corpus builder for the AI knowledge index (server-only).
  *
- * Statically imports the full afarer corpus, so it must never enter the client
+ * Statically imports the full brand corpus, so it must never enter the client
  * bundle or the worker startup graph — it is loaded dynamically by the
  * scheduled index rebuild (src/features/ai/ingest.ts) and tests only.
  */
@@ -120,7 +120,7 @@ export function buildChunks(locale: Locale): AiChunk[] {
     for (const [i, b] of chunkBody(brandify(c.body)).entries()) push(u, c.title, b, `body${i}`)
   }
 
-  // Afarer pages carry their own SEO description — good one-chunk answers
+  // Pages carry their own SEO description — good one-chunk answers
   // (product-development, private-label, customizer, trust pages etc.). Full
   // page text is added per-section so deep details are searchable too.
   for (const p of getContentPages()) {

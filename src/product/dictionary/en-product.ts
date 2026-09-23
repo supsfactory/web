@@ -149,7 +149,7 @@ export const enProduct = {
       login: 'Sign in',
       app: 'App',
       poweredBy: `Powered by ${BRAND_PARENT_BRAND}`,
-      process: 'Process', projects: 'Projects',       aboutAfarer: `About ${SITE_NAME}`, guides: 'Knowledge Center',
+      process: 'Process', projects: 'Projects',       aboutBrand: `About ${SITE_NAME}`, guides: 'Knowledge Center',
       solutions: 'Solutions', company: 'Company',
       productsServices: 'Products & Services',
       proofQuality: 'Proof & Quality',
