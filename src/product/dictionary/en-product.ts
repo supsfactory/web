@@ -267,7 +267,7 @@ export const enProduct = {
       qualityEvidence: 'Quality Evidence',
       terms: 'Terms', privacy: 'Privacy', contact: 'Contact',
       rights: 'Custom SUP product development & manufacturing partner.',
-      owner: `${BRAND_PARENT_BRAND} — marine manufacturing division of ${BRAND_COMPANY_NAME}.`,
+      owner: `${SITE_NAME} — SUP manufacturing division of ${BRAND_COMPANY_NAME}.`,
       compliance: 'Products and materials are managed according to applicable CE, REACH, RoHS and ISO 9001 requirements, with compliance scope confirmed for each project and target market.',
       followUs: 'Follow us', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },

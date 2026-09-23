@@ -267,7 +267,7 @@ export const esProduct = {
       qualityEvidence: 'Evidencia de calidad',
       terms: 'Términos', privacy: 'Privacidad', contact: 'Contacto',
       rights: 'Socio de desarrollo y fabricación de productos SUP personalizados.',
-      owner: `${BRAND_PARENT_BRAND} — división de fabricación marina de ${BRAND_COMPANY_NAME}.`,
+      owner: `${SITE_NAME} — división de fabricación de SUP de ${BRAND_COMPANY_NAME}.`,
       compliance: 'Los productos y materiales se gestionan según los requisitos aplicables de CE, REACH, RoHS e ISO 9001, con el alcance del cumplimiento confirmado para cada proyecto y mercado objetivo.',
       followUs: 'Síguenos', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },

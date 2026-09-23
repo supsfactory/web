@@ -1,0 +1,25 @@
+{
+  "name": "footer-owner-supsfactory-division",
+  "dir": "src/product/dictionary",
+  "files": "*-product.ts",
+  "rules": [
+    {
+      "name": "en owner: SUPsfactory SUP manufacturing division",
+      "filter": "en-product\\.ts$",
+      "find": "owner: `${BRAND_PARENT_BRAND} — marine manufacturing division of ${BRAND_COMPANY_NAME}.`",
+      "replace": "owner: `${SITE_NAME} — SUP manufacturing division of ${BRAND_COMPANY_NAME}.`"
+    },
+    {
+      "name": "es owner: SUPsfactory division de fabricacion de SUP",
+      "filter": "es-product\\.ts$",
+      "find": "owner: `${BRAND_PARENT_BRAND} — división de fabricación marina de ${BRAND_COMPANY_NAME}.`",
+      "replace": "owner: `${SITE_NAME} — división de fabricación de SUP de ${BRAND_COMPANY_NAME}.`"
+    },
+    {
+      "name": "fr owner: SUPsfactory division de fabrication de SUP",
+      "filter": "fr-product\\.ts$",
+      "find": "owner: `${BRAND_PARENT_BRAND} — Division manufacturing marine de ${BRAND_COMPANY_NAME}.`",
+      "replace": "owner: `${SITE_NAME} — division de fabrication de SUP de ${BRAND_COMPANY_NAME}.`"
+    }
+  ]
+}
