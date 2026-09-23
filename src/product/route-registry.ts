@@ -64,4 +64,6 @@ export const EXTRA_PATHS: Record<string, string> = {
   '/sup-compliance-by-market': 'sup-compliance-by-market',
   '/factory-audit-checklist': 'factory-audit-checklist',
   '/about/identity': 'about-identity',
+  '/oem-sup-moq': 'oem-sup-moq',
+  '/inflatable-sup-certification': 'inflatable-sup-certification',
 }

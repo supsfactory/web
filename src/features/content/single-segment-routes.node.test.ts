@@ -1,7 +1,7 @@
 ﻿import { test, expect } from 'vitest'
 import { readdirSync } from 'node:fs'
 import { join, resolve } from 'node:path'
-import { getContentPages } from '@/features/content/loader'
+import { getContentPage, getContentPages } from '@/features/content/loader'
 import { gatePath } from '@/features/seo/edge-gate'
 
 const routesRoot = resolve(process.cwd(), 'src/routes')
@@ -47,4 +47,14 @@ test('every single-segment content page has a serving route (P0 regression guard
 test('oem-moq-guide regression: bare EN path served by a dedicated route', () => {
   expect(rootRoutes).toContain('/oem-moq-guide')
   expect(singleSegmentPages).toContain('/oem-moq-guide')
+})
+
+test('shadowed dedicated-route pages resolve through the content loader (SHADOWED vs EXTRA_PATHS guard)', () => {
+  // These paths are SHADOWED (reserved for dedicated root routes) and therefore
+  // not served from the registry — they must be wired up via EXTRA_PATHS.
+  // llms.txt / entity-data advertise them, so a missing EXTRA_PATHS entry turns
+  // the dedicated route into a 404 while sitemaps still list the URL.
+  for (const p of ['/oem-sup-moq', '/inflatable-sup-certification']) {
+    expect(getContentPage(p), `${p} must resolve from the loader (EXTRA_PATHS)`).toBeDefined()
+  }
 })
