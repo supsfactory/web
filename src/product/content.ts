@@ -865,9 +865,9 @@ export const commercial: Localized<CommercialContent> = {
       {
         label: 'Pedido mínimo',
         lines: [
-          `Co-branding: ${FACTS.moqExplanation.coBrand}`,
-          `Lote piloto: ${FACTS.moqExplanation.pilot}`,
-          `Volumen estándar: ${FACTS.moqExplanation.standard}`,
+          `Co-branding: ${FACTS.moqExplanationEs.coBrand}`,
+          `Lote piloto: ${FACTS.moqExplanationEs.pilot}`,
+          `Volumen estándar: ${FACTS.moqExplanationEs.standard}`,
         ],
       },
       {
@@ -898,27 +898,27 @@ export const commercial: Localized<CommercialContent> = {
     moqTiers: [
       {
         stage: 'Muestra y aprobación',
-        quantity: FACTS.moqExplanation.sample,
+        quantity: FACTS.moqExplanationEs.sample,
         purpose: 'Confirmar forma, colores, impresión y packaging antes de cualquier producción',
         note: '7–12 días; tabla física, no un render',
       },
       {
         stage: 'Co-branding en pequeño lote',
-        quantity: FACTS.moqExplanation.coBrand,
+        quantity: FACTS.moqExplanationEs.coBrand,
         purpose: 'Probar un diseño sobre una plataforma probada con impresión de logo',
         note: 'La vía más rápida para validar un gráfico',
       },
       {
         stage: 'Lote piloto / stock inicial',
-        quantity: FACTS.moqExplanation.pilot,
+        quantity: FACTS.moqExplanationEs.pilot,
         purpose: 'Validar el mercado o abrir tu tienda con inventario real',
         note: 'El volumen más bajo sobre plataformas existentes',
       },
       {
         stage: 'Producción de volumen estándar',
-        quantity: FACTS.moqExplanation.standard,
+        quantity: FACTS.moqExplanationEs.standard,
         purpose: 'Producción regular al mejor precio unitario',
-        note: FACTS.moqExplanation.customMould,
+        note: FACTS.moqExplanationEs.customMould,
       },
     ],
   },
@@ -930,9 +930,9 @@ export const commercial: Localized<CommercialContent> = {
       {
         label: 'Commande minimale',
         lines: [
-          `Co-branding : ${FACTS.moqExplanation.coBrand}`,
-          `Lot pilote : ${FACTS.moqExplanation.pilot}`,
-          `Volume standard : ${FACTS.moqExplanation.standard}`,
+          `Co-branding : ${FACTS.moqExplanationFr.coBrand}`,
+          `Lot pilote : ${FACTS.moqExplanationFr.pilot}`,
+          `Volume standard : ${FACTS.moqExplanationFr.standard}`,
         ],
       },
       {
@@ -962,27 +962,27 @@ export const commercial: Localized<CommercialContent> = {
     moqTiers: [
       {
         stage: 'Échantillon & approbation',
-        quantity: FACTS.moqExplanation.sample,
+        quantity: FACTS.moqExplanationFr.sample,
         purpose: 'Confirmer la forme, les couleurs, l’impression et l’emballage avant toute production',
         note: '7–12 jours ; planche physique, pas un rendu',
       },
       {
         stage: 'Co-branding en petit volume',
-        quantity: FACTS.moqExplanation.coBrand,
+        quantity: FACTS.moqExplanationFr.coBrand,
         purpose: 'Tester un design sur une plateforme éprouvée avec surimpression du logo',
         note: 'La voie la plus rapide pour valider un nouveau graphisme',
       },
       {
         stage: 'Lot pilote / stock initial',
-        quantity: FACTS.moqExplanation.pilot,
+        quantity: FACTS.moqExplanationFr.pilot,
         purpose: 'Valider le marché ou ouvrir votre boutique avec un stock réel',
         note: 'Le volume le plus faible sur les plateformes existantes',
       },
       {
         stage: 'Production en volume standard',
-        quantity: FACTS.moqExplanation.standard,
+        quantity: FACTS.moqExplanationFr.standard,
         purpose: 'Production régulière au meilleur prix unitaire',
-        note: FACTS.moqExplanation.customMould,
+        note: FACTS.moqExplanationFr.customMould,
       },
     ],
   },
