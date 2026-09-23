@@ -17,7 +17,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'L''usine SUPsfactory est un site de 12 500 m² à Qingdao, dans le Shandong (Chine), avec 350+ employés, 4 lignes de production automatisées et 4 ateliers spécialisés. Les acheteurs peuvent la vérifier de quatre façons : visiter l''usine toute l''année, co-animer ou demander des audits (BSCI, ISO 9001), réaliser une inspection par un tiers (SGS, TÜV, BV, Intertek ; échantillonnage ISO 2859-1 niveau II), ou examiner les preuves documentées — certificats, check-lists d''assemblage à 100 points, rapports de maintien de pression 18,0 PSI pendant 24 h et traçabilité de lot ERP sur 10 ans par étiquette de série.'
-  verified: '2026-09'
+  verified: 'September 2026'
 
 features:
   title: Comment vérifier l''usine

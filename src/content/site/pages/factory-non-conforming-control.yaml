@@ -26,7 +26,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'Non-conforming products are never hidden, reworked informally, or released without verification at QINGDAO VATRAD GROUP.,LTD. Every identified non-conformance is recorded against the affected product, batch or component and linked to an NCR. The item is labelled (HOLD / QUARANTINE / REJECTED), physically segregated, and the affected scope is assessed by batch, material lot, process stage and document revision. Disposition is decided at the authority level matching the defect severity: Minor issues are signed off at the line level, Major issues require a QC Manager + Technical Engineer disposition with a controlled rework instruction and 100% independent re-inspection, and Critical issues require a Material Review Board decision with written customer concession where required — otherwise mandatory witnessed destruction. Reworked items are re-inspected against the original acceptance criteria, air-tightness repairs receive a complete new pressure test cycle, and shipment release happens only after authorized quality sign-off. Repeated or systemic issues trigger root-cause corrective action (CAPA).'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 stats:
   tagline: At a Glance

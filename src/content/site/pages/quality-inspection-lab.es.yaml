@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'Cada tabla se inspecciona contra las especificaciones publicadas antes del envío: ensayo de retención de inflado al 100 % a 18,0 PSI durante 24 horas (rechazo automático con una caída de presión superior a 0,50 PSI), ensayos de tracción y pelado de costuras según ISO 1421, y una lista de comprobación de 100 puntos. El laboratorio informa al director general, no a producción, y puede detener cualquier envío.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 intro: 'Toda tabla que sale de nuestro taller lleva la certificación de haber superado un conjunto definido de inspecciones de calidad y ensayos de materiales. Nuestro Laboratorio de Calidad e Inspección es una función independiente dentro de la organización — informa directamente al director general, no a producción — de modo que ninguna presión comercial pueda comprometer el punto de inspección. Si un lote de material o una tabla terminada no cumple la especificación publicada, el laboratorio tiene autoridad para detener el envío hasta que la no conformidad quede resuelta.'
 

@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Marca Privada y Distribución Mayorista para Distribuidores | {SITE}'
   description: 'Programas de distribución mayorista y marca privada directos de fábrica para distribuidores y minoristas: territorios exclusivos, fabricación de SUP de etiqueta blanca y gestión de cuenta dedicada.'
   dateModified: '2026-09'
@@ -13,8 +13,8 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Distribuidores y marcas trabajan directamente con la fábrica: tablas de SUP de etiqueta blanca fabricadas bajo tu marca, precio mayorista directo de fábrica, territorio exclusivo por programa, 3–8 SKU de apertura, condiciones de pago a 45–60 días y stock 100% probado a presión antes del despacho. Los volúmenes mínimos iniciales y las condiciones de flete se acuerdan por territorio, con envío FOB Qingdao o CIF.'
-  verified: '2026-08'
+  text: 'Distribuidores y marcas trabajan directamente con la fábrica: tablas de SUP de etiqueta blanca fabricadas bajo tu marca, precio mayorista directo de fábrica, territorio exclusivo por programa, 3–8 SKU de apertura y condiciones de pago a 45–60 días (todo ello sujeto al acuerdo comercial), con stock 100% probado a presión antes del despacho. Los volúmenes mínimos iniciales y las condiciones de flete se acuerdan por territorio, con envío FOB Qingdao o CIF.'
+  verified: 'September 2026'
 
 intro:
   tagline: Sobre el programa
@@ -30,7 +30,7 @@ wholesale_pricing:
   tagline: Por qué participar
   title: 'Lo Que Obtienen los Distribuidores'
   subtitle: 'Todo lo que necesitas para lanzar una gama con tu marca en tu mercado.'
-  intro: 'Los socios de distribución reciben la misma calidad de fábrica y profundidad de ingeniería que entregamos a las marcas OEM/ODM, empaquetada para el canal mayorista bajo su propia etiqueta.'
+  intro: 'Los socios de distribución reciben la misma calidad de fábrica y profundidad de ingeniería que entregamos a las marcas OEM/ODM, empaquetada para el canal mayorista bajo su propia etiqueta. Las condiciones del programa — exclusividad de territorio, gama inicial de SKU y plazos de pago — se confirman por programa en el acuerdo comercial.'
   stats:
     - value: '50+'
       label: 'Países a los que se envía'
@@ -71,7 +71,7 @@ benefits:
   subtitle: 'Todo lo que necesitas para triunfar en tu mercado.'
   items:
     - 'Marca privada bajo tu propio nombre (etiqueta blanca OEM)'
-    - 'Derechos de territorio exclusivo'
+    - 'Derechos de territorio exclusivo (según acuerdo comercial)'
     - 'Catálogo de fabricación: SUP, accesorios, piezas'
     - 'Precios competitivos directos de fábrica'
     - 'Material de marketing y ventas (traducido)'
@@ -80,7 +80,7 @@ benefits:
     - 'Programa de muestras y aprobación previa a producción'
     - 'Capacidad de envío directo (drop-ship)'
     - 'Gestor de cuenta dedicado para distribuidores'
-    - 'Condiciones de pago de 45-60 días'
+    - 'Condiciones de pago de 45-60 días (sujetas al acuerdo comercial)'
 
 coverage:
   title: Distribución Actual
@@ -108,7 +108,7 @@ faqs:
     - q: '¿Podemos vender las tablas bajo nuestra propia marca?'
       a: 'Sí. La marca privada es el modelo estándar aquí: las tablas se fabrican bajo tu marca con tu arte, embalaje y especificaciones. SUPsfactory fabrica exclusivamente para sus clientes y no compite con ellos en ningún mercado.'
     - q: '¿Los territorios son exclusivos?'
-      a: 'Sí. Los programas de distribución se basan en territorios exclusivos: cada socio mayorista cubre un país o región definido y recibe precios y soporte de programa para ese mercado.'
+      a: 'Sí. Los programas de distribución se basan en territorios exclusivos: cada socio mayorista cubre un país o región definido y recibe precios y soporte de programa para ese mercado, según lo establecido en el acuerdo comercial.'
     - q: '¿Ofrecéis envío directo?'
       a: 'La capacidad de envío directo está incluida en el programa. Las muestras, el embalaje y la manipulación se validan durante la fase de aprobación de muestra para que los envíos directos funcionen desde el primer día.'
     - q: '¿Qué modelos podemos pedir?'
@@ -128,7 +128,7 @@ cta:
   subtitle: 'Solicita el programa de distribución o consulta el catálogo de fabricación.'
   actions:
     - text: 'Solicitar el Programa de Distribución'
-      href: '/es/contact?partner=distributor'
+      href: '/es/contact#distributor'
       variant: 'primary'
     - text: 'Consultar el Catálogo de Fabricación'
       href: '/es/products'

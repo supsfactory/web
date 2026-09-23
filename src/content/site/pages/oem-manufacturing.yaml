@@ -17,7 +17,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'OEM production runs from your specification. MOQ is confirmed by project configuration rather than a fixed number: standard volume production runs 90–100 units per batch from a 150 m drop-stitch fabric roll, pilot runs start at 20–50 units on existing platforms, and every project moves through sample (1–2 units) before volume. Samples ship in 7–12 days; production runs 25–35 days after confirmed PO and deposit, plus 15–20 days when new tooling is required.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 features:
   title: OEM Capabilities

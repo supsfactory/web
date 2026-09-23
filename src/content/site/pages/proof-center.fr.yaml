@@ -20,12 +20,12 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'La chaîne allégation-à-preuve est : chaque affirmation de ce site est soutenue par un enregistrement, un certificat, une machine, un document ou un enregistrement de test — et chacun de ceux-ci peut être examiné. SUPsfactory est la division de développement produit et de fabrication SUP de Qingdao Vatrad Group Co., Ltd. (enregistrée à Qingdao depuis 2012). L''usine de 12 500 m² détient le management de la qualité ISO 9001:2015, la conformité ISO 25649, la documentation de conformité CE, la conformité sociale BSCI (rapport d''audit sur demande) et la documentation matériaux REACH/RoHS par commande. Chaque chambre gonflable est testée à 18,0 PSI pendant 24 heures avec rejet automatique au-delà d''une chute de 0,50 PSI, et les enregistrements de lot sont conservés sous traçabilité ERP sur 10 ans. La trace papier est publiée ou partageable, et l''usine elle-même est ouverte à l''audit.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 entities:
   tagline: 'Qui est derrière l''usine'
-  title: 'Trois noms, une chaîne légale traçable'
-  subtitle: 'Le côté commercial, la division de fabrication et l''entité légale sont une chaîne que vous pouvez suivre du site web au registre des sociétés.'
+  title: 'Une opération de fabrication, une entité légale'
+  subtitle: 'Le côté commercial, la division de fabrication et l''entité légale remontent à une seule opération que vous pouvez vérifier du site web au registre des sociétés.'
   features:
     - icon: S
       icon_bg: blue

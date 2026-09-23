@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'OEM vs ODM vs Marca Privada SUP — Guía Comparativa'
   description: 'Comparativa lado a lado de fabricación SUP OEM, ODM y marca privada: definiciones, propiedad, MOQ, plazos, utillaje, reglas de PI y escenarios recomendados.'
   dateModified: '2026-08-20'
@@ -18,7 +18,7 @@ hero:
 answer:
   label: 'Comparación rápida'
   text: 'OEM: tú eres propietario del diseño y la especificación — fabricamos según tus planos. ODM: nuestro equipo de ingeniería desarrolla la tabla a partir de tu brief — tú apruebas antes de la producción. Marca privada: tu marca sobre una plataforma existente validada sin cambios estructurales — la vía más rápida al mercado. Las tres rutas pasan por la misma planta, el mismo sistema de QC y el mismo equipo de exportación en Qingdao, China.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 comparison_table:
   tagline: 'Lado a lado'

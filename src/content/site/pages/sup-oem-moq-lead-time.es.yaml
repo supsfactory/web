@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'MOQ y Plazos de Entrega para SUP Personalizados: De 1 Muestra a Series de Contenedor'
   description: 'MOQ y plazos de SUP personalizados: muestras en 7–12 días, piloto de 20–50 tablas, volumen de 90–100+ por rollo y producción en 25–35 días.'
   dateModified: '2026-08-16'
@@ -25,7 +25,7 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'El MOQ y los plazos dependen de cada proyecto, pero el marco es fijo. Todo proyecto de SUP personalizado pasa por las mismas etapas escalonadas: desarrollo de muestras (1–2 tablas, listas en 7–12 días), pedidos de prueba y piloto (20–50 tablas) y series de volumen estándar (90–100+ tablas por rollo de tela drop-stitch de 150 m). El plazo de producción es de 25–35 días desde la confirmación del PO y el depósito; si el proyecto necesita un casco a medida, el desarrollo del molde añade 15–20 días antes de iniciar la producción. Así se ve un primer proyecto típico: muestras en unas 1–2 semanas, tablas piloto en 4–6 semanas y la primera serie completa enviándose unas 6–8 semanas después de la confirmación del pedido.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 moq_lead_table:
   tagline: El Marco
@@ -202,7 +202,7 @@ moq_faqs:
 evidence_review:
   tagline: 'Evidencia y verificación'
   title: 'ESPECIFICACIONES VERIFICADAS'
-  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez en septiembre de 2026.'
 cta:
   title: '¿Quieres Tu MOQ y Tu Plazo Específicos para el Proyecto?'
   subtitle: 'Envíanos tu modelo de tabla, la cantidad objetivo de la primera temporada y tus requisitos de branding. Nuestro equipo de ingeniería confirmará si encaja una ruta de muestra, prueba o volumen — con el cálculo exacto de MOQ y un calendario día a día. Enviar una consulta no te compromete a un pedido.'

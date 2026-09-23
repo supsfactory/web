@@ -18,7 +18,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'La confiance n''est pas une promesse — c''est de la documentation. Nous sommes une entité manufacturière chinoise enregistrée (Qingdao Vatrad Group Co., Ltd.) avec une usine physique de 12 500 m² à Qingdao, 350+ ouvriers et une capacité annuelle de 120 000+ planches. Vous pouvez vérifier l''enregistrement, auditer l''usine, examiner les SOP QMS, télécharger des enregistrements qualité d''exemple, planifier des inspections tierces parties (SGS, TÜV, BV ou Intertek) et faire signer une NDA sous 4 heures ouvrées. Chaque planche est testée en pression à 18,0 PSI pendant 24 heures avec rejet automatique au-delà d''une chute de 0,50 PSI, et chaque lot conserve une traçabilité ERP sur 10 ans. Si une allégation ne peut pas être documentée, nous ne la formulons pas.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 trust_stats:
   - value: '12 500 m²'
@@ -152,7 +152,7 @@ trust_downloads:
 evidence_review:
   tagline: 'Preuves et vérification'
   title: 'SPÉCIFICATIONS VÉRIFIÉES'
-  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées 2026-08.'
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en septembre 2026.'
 
 cta:
   title: 'Commencez par la vérification —Ensuite nous parlons spécifications'

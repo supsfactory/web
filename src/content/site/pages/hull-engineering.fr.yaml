@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'Les planches de SUP personnalisées sont conçues en interne avec la modélisation de surface 3D SolidWorks, ANSYS FEA et CFD — chaque planche est simulée pour la répartition des contraintes et la rigidité du pont avec un facteur de sécurité obligatoire ≥ 2,5 avant le prototypage. Une forme personnalisée prend 7–12 jours à prototyper ; l''outillage de moule personnalisé complet ajoute 15–20 jours au délai de production de 25–35 jours, avec le MOQ confirmé par la configuration du projet (voir notre guide MOQ).'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 intro: 'La forme d''une planche de SUP — son rocker, son profil de rail, son volume de nez et de queue — détermine comment elle pagaye, tourne et suit son cap. Chez {SITE.name}, notre Studio d''ingénierie des planches combine la modélisation de surface CAD, l''analyse par éléments finis (FEA) des structures drop-stitch et l''expérience de production pour livrer des planches optimisées pour leur usage prévu : stabilité polyvalente, glisse de randonnée ou performance de surf. Chaque planche personnalisée part de votre spécification, pas d''une forme générique de catalogue.'
 

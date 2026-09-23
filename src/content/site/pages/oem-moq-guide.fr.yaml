@@ -18,7 +18,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'Le MOQ n''est pas un chiffre unique. Chaque MOQ est confirmé par la configuration du projet : forme de la coque et outillage, coloris et PVC, complexité des graphismes, emballage et mix d''accessoires. La production en volume entièrement personnalisée s''exécute à 90–100 unités par lot à partir d''un rouleau de tissu drop-stitch standard de 150 m ; le co-marquage en petits lots démarre dès 5–10 unités ; et chaque projet est divisé en trois étapes distinctes — développement d''échantillon (1–2 unités), commande pilote (20–50 unités) et production en volume (90–100+ unités). Nous confirmons le calcul exact pour votre mix de SKU avant devis — pas de promesses vagues de « MOQ bas », pas de compromis cachés.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 moq_principle:
   tagline: La logique d'ingénierie
@@ -147,7 +147,7 @@ moq_faqs:
 evidence_review:
   tagline: 'Preuves et vérification'
   title: 'SPÉCIFICATIONS VÉRIFIÉES'
-  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées 2026-08.'
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en septembre 2026.'
 
 cta:
   title: 'Besoin de conseils sur le MOQ pour votre projet SUP ?'

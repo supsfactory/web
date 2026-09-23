@@ -448,6 +448,7 @@ export const esProduct = {
         'moq-guide': 'Planificación de MOQ y producción',
         'production-availability': 'Capacidad de producción y plazos',
         'project-brief': 'Briefing de ingeniería y prototipado',
+        'distributor': 'Programa de distribuidor / marca privada',
       },
       ndaNote: 'Disponemos de soporte de NDA antes de compartir archivos confidenciales.',
       trustTitle: 'Confianza y Verificación de Fábrica',

@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'No conformidades y retrabajo SUP | Fábrica OEM | SUPsfactory'
   description: 'Control de productos no conformes (ISO 9001 Cláusula 8.7): cuarentena NCR, retrabajo controlado bajo SRI, reinspección independiente, destrucción presenciada.'
   dateModified: '2026-08-14'
@@ -26,7 +26,7 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'Los productos no conformes nunca se ocultan, se retrabajan informalmente ni se liberan sin verificación en QINGDAO VATRAD GROUP.,LTD. Toda no conformidad identificada se registra contra el producto, lote o componente afectado y se vincula a un NCR. El artículo se etiqueta (HOLD / QUARANTINE / REJECTED), se segrega físicamente y se evalúa el alcance afectado por lote, lote de material, etapa de proceso y revisión documental. La disposición se decide al nivel de autoridad que corresponde a la gravedad del defecto: los problemas menores se firman a nivel de línea; los mayores requieren una disposición de Gerente de Calidad + Ingeniero Técnico con instrucción de retrabajo controlada y reinspección independiente al 100%; y los críticos requieren una decisión del comité de revisión de materiales (MRB) con concesión escrita del cliente cuando corresponde — si no, destrucción física presenciada obligatoria. Los artículos retrabajados se reinspeccionan contra los criterios de aceptación originales, las reparaciones de estanqueidad reciben un ciclo completo nuevo de prueba de presión y la liberación del envío solo ocurre tras la firma autorizada de calidad. Los problemas repetidos o sistémicos activan acciones correctivas de causa raíz (CAPA).'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 stats:
   tagline: De un vistazo

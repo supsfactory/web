@@ -448,6 +448,7 @@ export const frProduct = {
         'moq-guide': 'MOQ & planification de production',
         'production-availability': 'Capacité de production & délai',
         'project-brief': 'Brief ingénierie & prototypage',
+        'distributor': 'Programme distributeur / marque privée',
       },
       ndaNote: 'Un NDA peut être conclu avant le partage de fichiers confidentiels.',
       trustTitle: 'Confiance & Vérification Usine',

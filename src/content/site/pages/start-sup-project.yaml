@@ -25,7 +25,7 @@ hero:
 answer:
   label: 'What happens next'
   text: 'After you submit a project brief, you receive a response within one business day. An NDA is available before you share any proprietary details. Engineering reviews your brief and returns an itemized quotation with MOQ, sample fees and a gate-by-gate timeline — typically 7–12 days for samples and 6–8 weeks for first production from confirmed PO. Sample fees are credited toward your production order. No commitment until you sign.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 process_steps:
   tagline: The Process

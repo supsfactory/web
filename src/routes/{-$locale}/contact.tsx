@@ -41,7 +41,7 @@ export const Route = createFileRoute('/{-$locale}/contact')({
 })
 
 /** Semantic CTAs across the site deep-link to the contact form via #anchor. */
-const INTENT_ANCHORS = ['custom-oem', 'cobranding', 'moq-guide', 'production-availability', 'project-brief'] as const
+const INTENT_ANCHORS = ['custom-oem', 'cobranding', 'distributor', 'moq-guide', 'production-availability', 'project-brief'] as const
 
 function ContactPage() {
   const { t, locale } = useTranslation()

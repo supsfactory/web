@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'Le MOQ est confirmé par la configuration du projet : les marques de détail démarrent avec un échantillon (1–2 unités) ou un lot pilote (20–50 unités, échantillons en 7–12 jours), passent à un run OEM de volume standard de 90–100+ unités par design (25–35 jours après PO et acompte), ou investissent dans un moule personnalisé pour des gammes entièrement sur mesure (l''outillage ajoute 15–20 jours). Chaque planche est testée en pression avant expédition, avec conditions FOB, CIF ou DDP depuis Qingdao.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 margin_section:
   title: 'Étapes de production pour les marques de détail'

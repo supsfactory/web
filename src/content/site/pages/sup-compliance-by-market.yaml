@@ -19,7 +19,7 @@ hero:
 answer:
   label: 'Quick answer'
   text: 'For EU: CE marking is mandatory for boards sold in the European Economic Area — we certify models destined for EU markets, scope confirmed per project. For USA: CPSIA and state-level VOC regulations apply. For Australia: AS/NZS 1586 compliance. All markets: ISO 9001 (factory), BSCI (social audit), REACH and RoHS (materials) are standard across our production regardless of destination. Compliance scope and costs are itemized in your quotation — no post-production surprises.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 market_cards:
   tagline: Requirements by Region

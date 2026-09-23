@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Inicia Tu Proyecto SUP — Desde el Brief hasta las Tablas Entregadas | SUPsfactory'
   description: 'Inicia tu proyecto SUP: envía un brief, obtén NDA, recibe muestras en 7–12 días, aprueba y escala a producción. Proceso paso a paso con cronogramas.'
   dateModified: '2026-08-20'
@@ -25,7 +25,7 @@ hero:
 answer:
   label: 'Qué pasa después'
   text: 'Después de enviar un brief de proyecto, recibes una respuesta en un día hábil. Un NDA está disponible antes de que compartas cualquier detalle de propiedad. Ingeniería revisa tu brief y devuelve una cotización detallada con MOQ, tarifas de muestra y un cronograma puerta por puerta — típicamente 7–12 días para muestras y 6–8 semanas para la primera producción desde PO confirmado. Las tarifas de muestra se acreditan hacia tu pedido de producción. Sin compromiso hasta que firmes.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 process_steps:
   tagline: El Proceso

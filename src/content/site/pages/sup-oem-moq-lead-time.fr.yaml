@@ -25,7 +25,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'Le MOQ et le délai sont propres au projet, mais le cadre est fixe. Chaque projet de SUP personnalisé passe par les mêmes étapes à paliers : développement d''échantillon (1–2 planches, prêtes en 7–12 jours), commandes d''essai et pilotes (20–50 planches), et séries de volume standard (90–100+ planches par rouleau de tissu drop-stitch de 150 m). Le délai de production est de 25–35 jours à partir du bon de commande confirmé et de l''acompte ; si votre projet nécessite une coque sur mesure, le développement de moule ajoute 15–20 jours avant le début de la production. Un premier projet type ressemble donc à ceci : échantillons en environ 1–2 semaines, planches pilotes en 4–6 semaines, et la première série complète expédiée environ 6–8 semaines après confirmation de la commande.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 moq_lead_table:
   tagline: 'Le cadre'
@@ -202,7 +202,7 @@ moq_faqs:
 evidence_review:
   tagline: 'Preuves & vérification'
   title: 'SPÉCIFICATIONS VÉRIFIÉES'
-  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en 2026-08.'
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en septembre 2026.'
 
 cta:
   title: 'Obtenez votre MOQ & délai spécifiques au projet ?'

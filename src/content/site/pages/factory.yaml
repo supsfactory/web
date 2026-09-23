@@ -15,7 +15,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'Certified inflatable SUP factory in Qingdao, China: ISO 9001, ISO 25649, BSCI, CE, REACH and RoHS. 12,500 m² plant across 4 specialized workshops, 350+ workers, 120,000+ boards produced annually (10,000 boards/month on 4 automated lines). Every board is pressure-tested at 18.0 PSI for 24 hours, passes a 100-point assembly checklist, and carries 10-year material traceability.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 intro:
   - As the manufacturing division of **Qingdao Vatrad Group Co., Ltd.**, Vatrad controls every stage of inflatable SUP manufacturing —from the arrival of raw PVC materials to the final pre-delivery inspection of the finished paddle board. Our manufacturing facility in the Qingdao Economic Development Zone spans 12,500 square metres and houses dedicated workshops for PVC cutting, drop-stitch core bonding, SUP digital printing, final assembly, and quality testing.
@@ -54,7 +54,7 @@ intelligence_cards:
       - label: Lab Equipment
         value: 'Tensile tester, temp chamber, leak tank'
       - label: Standards
-        value: 'ISO 9001, CE, AS 1799'
+        value: 'QMS: ISO 9001; Market: CE, AS 1799'
     link: /factory/quality-lab
     link_label: 'Lab procedures & equipment →'
   - title: OEM/ODM Capability
@@ -338,7 +338,7 @@ process_cta:
 evidence_review:
   tagline: 'Evidence & Verification'
   title: 'Factory Evidence — Verified'
-  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified September 2026.'
 
 cta:
   title: 'Explore Our Factory'

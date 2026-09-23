@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Guía de MOQ para SUP: Branding Flexible y Cantidades Mínimas de Pedido'
   description: 'Cómo se calcula el MOQ de SUP hinchables: rollos drop-stitch de 150 m que rinden 90–100 tablas y co-branding desde menos de 20 unidades.'
   dateModified: '2026-08-14'
@@ -18,7 +18,7 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'El MOQ no es un número único para todos. Cada MOQ se confirma según la configuración del proyecto: forma y molde del casco, colores y PVC, complejidad del arte, empaque y mezcla de accesorios. La producción de volumen totalmente personalizada corre en lotes de 90–100 unidades por rollo estándar de tela drop-stitch de 150 m; el co-branding de lotes pequeños parte de menos de 20 unidades; y cada proyecto se divide en tres etapas distintas — desarrollo de muestras (1–2 unidades), pedido piloto (20–50 unidades) y producción de volumen (90–100+ unidades). Confirmamos el cálculo exacto para tu mezcla de SKU antes de cotizar — sin promesas vagas de "MOQ bajo", sin compromisos ocultos.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 moq_principle:
   tagline: La Lógica de Ingeniería
@@ -147,7 +147,7 @@ moq_faqs:
 evidence_review:
   tagline: 'Evidencia y verificación'
   title: 'ESPECIFICACIONES VERIFICADAS'
-  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez en septiembre de 2026.'
 cta:
   title: '¿Necesitas Orientación de MOQ para Tu Proyecto de SUP?'
   subtitle: 'Comparte tu modelo objetivo de tabla, el rango estimado del primer pedido y tus requisitos de branding. Te asesoraremos si la ruta de muestra, piloto o volumen es el siguiente paso más adecuado. Enviar una consulta no te compromete con una cantidad final de pedido — hay disponible discusión bajo NDA.'

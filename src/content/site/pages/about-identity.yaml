@@ -18,7 +18,7 @@ hero:
 answer:
   label: 'In brief'
   text: 'Legal entity: Qingdao Vatrad Group Co., Ltd. Manufacturing division: Vatrad (SUPsfactory brand). Factory: Laixi, Qingdao, Shandong, China. Scope: OEM, ODM and private-label manufacturing of inflatable SUP boards, paddles and marine inflatables. Certifications: ISO 9001:2015, CE (EU-destined models), BSCI, REACH, RoHS. We do not sell under our own brand — every board we produce carries the brand of the buyer.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 identity_detail:
   tagline: Legal & Organizational
@@ -63,7 +63,7 @@ brand_positioning:
 evidence_review:
   tagline: 'Evidence & Verification'
   title: 'SPECIFICATIONS VERIFIED'
-  body: 'All organizational and manufacturing claims on this page are verifiable. ISO 9001 certificate, BSCI report, business license and factory registration documents are available on request. Factory visits welcome. Specifications last verified 2026-08.'
+  body: 'All organizational and manufacturing claims on this page are verifiable. ISO 9001 certificate, BSCI report, business license and factory registration documents are available on request. Factory visits welcome. Specifications last verified September 2026.'
 
 faqs:
   tagline: FAQ

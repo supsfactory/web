@@ -13,8 +13,8 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Distributors and brands work directly with the factory: white-label SUP boards built under your brand, factory-direct wholesale pricing, exclusive territory per program, 3–8 SKUs to open, 45–60 day payment terms, and 100% pressure-tested stock before dispatch. Minimum opening volumes and freight terms are agreed per territory, shipped FOB Qingdao or CIF.'
-  verified: '2026-08'
+  text: 'Distributors and brands work directly with the factory: white-label SUP boards built under your brand, factory-direct wholesale pricing, exclusive territory per program, 3–8 SKUs to open and 45–60 day payment terms (all subject to commercial agreement), with 100% pressure-tested stock before dispatch. Minimum opening volumes and freight terms are agreed per territory, shipped FOB Qingdao or CIF.'
+  verified: 'September 2026'
 
 intro:
   tagline: About the program
@@ -30,7 +30,7 @@ wholesale_pricing:
   tagline: Why join
   title: 'What Distributors Get'
   subtitle: 'Everything you need to launch a branded range in your market.'
-  intro: 'Distribution partners receive the same factory quality and engineering depth we deliver to OEM/ODM brands, packaged for the wholesale channel under their own label.'
+  intro: 'Distribution partners receive the same factory quality and engineering depth we deliver to OEM/ODM brands, packaged for the wholesale channel under their own label. Program terms — territory exclusivity, opening SKU range and payment terms — are confirmed per program in the commercial agreement.'
   stats:
     - value: '50+'
       label: 'Countries shipped'
@@ -71,7 +71,7 @@ benefits:
   subtitle: 'Everything you need to succeed in your market.'
   items:
     - 'Private label under your own brand (OEM white-label)'
-    - 'Exclusive territory rights'
+    - 'Exclusive territory rights (per commercial agreement)'
     - 'Manufacturing catalog: SUP, accessories, parts'
     - 'Competitive factory-direct pricing'
     - 'Marketing & sales materials (translated)'
@@ -80,7 +80,7 @@ benefits:
     - 'Sample & pre-production approval program'
     - 'Drop-ship capability'
     - 'Dedicated distributor account manager'
-    - '45-60 day payment terms'
+    - '45-60 day payment terms (subject to commercial agreement)'
 
 coverage:
   title: Current Distribution
@@ -108,7 +108,7 @@ faqs:
     - q: 'Can we sell the boards under our own brand?'
       a: 'Yes. Private label is the standard model here: boards are manufactured under your brand with your artwork, packaging and specifications. SUPsfactory manufactures exclusively for its clients and does not compete with them in any market.'
     - q: 'Are territories exclusive?'
-      a: 'Yes. Distributor programs are built on exclusive territories — each wholesale partner covers a defined country or region and receives pricing and program support for that market.'
+      a: 'Yes. Distributor programs are built on exclusive territories — each wholesale partner covers a defined country or region and receives pricing and program support for that market, as set out in the commercial agreement.'
     - q: 'Do you support drop-shipping?'
       a: 'Drop-ship capability is included in the program. Samples, packaging and handling are validated during the sample-approval stage so drop-ship orders run cleanly from day one.'
     - q: 'What models can we order?'
@@ -128,7 +128,7 @@ cta:
   subtitle: 'Apply for the distributor program or browse the manufacturing catalog.'
   actions:
     - text: 'Apply for Distributor Program'
-      href: '/contact?partner=distributor'
+      href: '/contact#distributor'
       variant: 'primary'
     - text: 'Browse Manufacturing Catalog'
       href: '/products'

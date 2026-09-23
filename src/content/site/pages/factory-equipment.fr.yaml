@@ -17,7 +17,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'Notre usine de 12 500 m² exploite une découpe automatique contrôlée par CNC (précision 0,1 mm, moins de 5 % de gaspillage), un thermoscellage à l''air chaud de 200–600 °C plus un soudage diélectrique RF de 15 kW pour les coutures principales, des presses de lamination de noyau drop-stitch jusqu''à 14 ft, et un laboratoire QC qui teste en pression chaque chambre, avec des contrôles de traction ASTM D751 et une vérification de pelage de couture ISO 6185.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 categories:
   - title: Découpe et préparation des matériaux

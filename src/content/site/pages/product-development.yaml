@@ -17,7 +17,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'SUP product development at SUPsfactory runs six stages — product specification, structural engineering, prototype sampling, testing and validation, custom tooling, and mass production. The first physical sample ships 7–12 days after specification approval; production runs 25–35 days after confirmed PO and deposit; new mould development adds 15–20 days.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 stages:
   title: 'The Six Stages of SUP Product Development'

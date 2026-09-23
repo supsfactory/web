@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Guía del comprador OEM: abastecer SUP desde Asia | SUPsfactory'
   description: 'Cómo abastecer SUP hinchables desde Asia: auditoría de fábrica, control de calidad, cumplimiento, negociación de MOQ, envío y errores a evitar.'
   author: 'SUPsfactory'
@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'La cantidad mínima de pedido se confirma según la configuración del proyecto, no con un número fijo: el desarrollo de muestra (1–2 unidades) valida el producto, los pedidos piloto (20–50 unidades) prueban el mercado sobre plataformas existentes, la producción de volumen estándar corre en lotes de 90–100+ unidades por rollo completo de drop-stitch de 150 m, y el co-branding de lotes pequeños parte de menos de 20 unidades. Las muestras se envían en 7–12 días; la producción en serie tarda 25–35 días tras la confirmación de la orden de compra y el depósito, más 15–20 días cuando se requiere utillaje nuevo.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 content_html: |
   <h2>1. Preevaluación: qué buscar en una fábrica</h2>

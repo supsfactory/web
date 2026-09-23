@@ -15,7 +15,7 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'Fábrica certificada de SUP hinchables en Qingdao, China: ISO 9001, ISO 25649, BSCI, CE, REACH y RoHS. Planta de 12.500 m² con 4 talleres especializados, más de 350 trabajadores y más de 120.000 tablas producidas al año (10.000 tablas/mes en 4 líneas automatizadas). Cada tabla se prueba a presión a 18,0 PSI durante 24 horas, supera una lista de control de montaje de 100 puntos y conserva una trazabilidad de materiales de 10 años.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 intro:
   - Como división de fabricación de **Qingdao Vatrad Group Co., Ltd.**, Vatrad controla cada etapa de la fabricación de SUP hinchables, desde la llegada de las materias primas de PVC hasta la inspección final previa a la entrega del paddle board terminado. Nuestra planta de fabricación en la Zona de Desarrollo Económico de Qingdao ocupa 12.500 metros cuadrados y alberga talleres dedicados al corte de PVC, la unión del núcleo drop-stitch, la impresión digital de SUP, el montaje final y los ensayos de calidad.
@@ -54,7 +54,7 @@ intelligence_cards:
       - label: Equipo de laboratorio
         value: 'Máquina de tracción, cámara térmica, tanque de fugas'
       - label: Estándares
-        value: 'ISO 9001, CE, AS 1799'
+        value: 'SGQ: ISO 9001; Mercado: CE, AS 1799'
     link: /es/factory/quality-lab
     link_label: Procedimientos y equipo del laboratorio →
   - title: Capacidad OEM/ODM
@@ -338,7 +338,7 @@ process_cta:
 evidence_review:
   tagline: 'Evidencia y verificación'
   title: 'Evidencia de fábrica — Verificada'
-  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez en septiembre de 2026.'
 
 cta:
   title: 'Explora nuestra fábrica'

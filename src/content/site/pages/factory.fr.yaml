@@ -15,7 +15,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'Usine de SUP gonflables certifiée à Qingdao, Chine : ISO 9001, ISO 25649, BSCI, CE, REACH et RoHS. Un site de 12 500 m² réparti sur 4 ateliers spécialisés, 350+ ouvriers, plus de 120 000 planches produites chaque année (10 000 planches/mois sur 4 lignes automatisées). Chaque planche est testée en pression à 18,0 PSI pendant 24 heures, passe une liste de contrôle d''assemblage de 100 points et porte une traçabilité matière de 10 ans.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 intro:
   - En tant que division de fabrication de **Qingdao Vatrad Group Co., Ltd.**, Vatrad contrôle chaque étape de la fabrication de SUP gonflables — de l'arrivée des matières PVC brutes à l'inspection finale avant livraison de la planche à pagaie finie. Notre installation de fabrication dans la zone de développement économique de Qingdao s'étend sur 12 500 mètres carrés et abrite des ateliers dédiés à la découpe de PVC, au collage du noyau drop-stitch, à l'impression numérique de SUP, à l'assemblage final et aux essais qualité.
@@ -54,7 +54,7 @@ intelligence_cards:
       - label: Équipement de laboratoire
         value: 'Testeur de traction, chambre de température, cuve d''étanchéité'
       - label: Normes
-        value: 'ISO 9001, CE, AS 1799'
+        value: 'SGQ : ISO 9001 ; Marché : CE, AS 1799'
     link: /fr/factory/quality-lab
     link_label: 'Procédures et équipement de laboratoire →'
   - title: Capacité OEM/ODM
@@ -338,7 +338,7 @@ process_cta:
 evidence_review:
   tagline: 'Preuves et vérification'
   title: 'Preuves usine — vérifiées'
-  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en 2026-08.'
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en septembre 2026.'
 
 cta:
   title: 'Explorez notre usine'

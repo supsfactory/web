@@ -4,7 +4,7 @@ export const LLM_SITE_DESCRIPTION =
   `{SITE} is the SUP product development and manufacturing division of ${BRAND_COMPANY_NAME}, a 12,500 m² inflatable manufacturing plant in Qingdao, China. We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. MOQ is confirmed after specification review: 5–10 units for co-branding/logo overlay on existing platforms, 20–50 units for pilot batches with custom graphics, and 90–100+ units per approved configuration for standard volume production (subject to material-roll and packaging requirements); custom-mould shapes run at the volume tier. A 150 m drop-stitch material roll yields different board counts depending on board size, construction and nesting layout. Samples are ready in 7–12 days; bulk production 25–35 days after confirmed PO and deposit (custom mould tooling adds 15–20 days). All pricing, certification scope and lead times are project-confirmed — request a quote for your specific requirements.`
 
 export const LLM_FACT_BLOCK =
-  `## Verified Business Facts (Last verified: 2026-08-20)
+  `## Verified Business Facts (Last verified: September 2026)
 
 - Legal entity: ${BRAND_COMPANY_NAME}
 - Brand: ${BRAND_PARENT_BRAND} / {SITE} (SUP manufacturing division)

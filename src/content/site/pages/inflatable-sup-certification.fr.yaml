@@ -9,7 +9,7 @@ sections:
       answer: "SUPsfactory détient les certifications BSCI, ISO 9001, ISO 25649, CE, REACH et RoHS. La CE s'applique aux modèles destinés aux marchés de l'UE — pas universellement à « tous les produits »."
       condition: "Le périmètre de certification varie selon le marché cible et la configuration du produit. Les numéros de certificat, la validité et les autorités émettrices sont disponibles par projet sur demande."
       value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
-      verifiedDate: "2026-08-20"
+      verifiedDate: "September 2026"
       sourceType: "certificate"
     body: |
       La certification est une préoccupation clé de l'approvisionnement et doit être
@@ -52,4 +52,4 @@ sections:
 evidence_review:
   tagline: 'Preuves et vérification'
   title: 'SPÉCIFICATIONS VÉRIFIÉES'
-  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en 2026-08.'
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en septembre 2026.'

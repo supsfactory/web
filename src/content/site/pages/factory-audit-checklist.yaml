@@ -19,7 +19,7 @@ hero:
 answer:
   label: 'Quick answer'
   text: 'The eight audit areas that matter most: (1) Quality management system — ISO 9001 certification and actual gate-by-gate inspection records, not just a certificate on the wall. (2) Production capacity — real output numbers, not nameplate. (3) Material traceability — batch-level incoming inspection and test reports. (4) Pressure and structural testing — documented hold-test protocols. (5) Welding and assembly controls — RF welding parameters and seam inspection. (6) Social compliance — BSCI or equivalent audit. (7) Documentation and traceability — batch records, inspection logs, conformity certificates. (8) Post-delivery support — warranty process, spare parts, communication responsiveness.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 audit_areas:
   tagline: Eight Audit Areas
@@ -77,7 +77,7 @@ our_position:
 evidence_review:
   tagline: 'Evidence & Verification'
   title: 'SPECIFICATIONS VERIFIED'
-  body: 'All manufacturing and quality claims on this page are verified by our manufacturing engineering team at the Laixi, Qingdao factory. Certificates, QC inspection records, pressure and structural test reports, and batch traceability logs are available on request. Specifications last verified 2026-08.'
+  body: 'All manufacturing and quality claims on this page are verified by our manufacturing engineering team at the Laixi, Qingdao factory. Certificates, QC inspection records, pressure and structural test reports, and batch traceability logs are available on request. Specifications last verified September 2026.'
 
 faqs:
   tagline: FAQ

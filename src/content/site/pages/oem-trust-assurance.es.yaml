@@ -18,7 +18,7 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'La confianza no es una promesa — es documentación. Somos una entidad manufacturera china registrada (Qingdao Vatrad Group Co., Ltd.) con una planta física de 12.500 m² en Qingdao, más de 350 trabajadores y más de 120.000 tablas de capacidad anual. Puedes verificar el registro, auditar la fábrica, revisar los SOP de QMS, descargar registros de calidad de muestra, programar inspecciones de terceros (SGS, TÜV, BV o Intertek) y firmar un NDA en un plazo de 4 horas laborables. Cada tabla se prueba a presión a 18,0 PSI durante 24 horas con rechazo automático por encima de 0,50 PSI de caída, y cada lote conserva trazabilidad ERP de 10 años. Si una afirmación no se puede documentar, no la hacemos.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 trust_stats:
   - value: '12.500 m²'
@@ -152,7 +152,7 @@ trust_downloads:
 evidence_review:
   tagline: 'Evidencia y verificación'
   title: 'ESPECIFICACIONES VERIFICADAS'
-  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez en septiembre de 2026.'
 cta:
   title: 'Empieza por la verificación — después hablamos de especificaciones'
   subtitle: 'Envía tu solicitud de NDA, pide el paquete de registro o reserva una visita de auditoría. La verificación va primero; la conversación del pedido viene después. Enviar una consulta no te compromete a ningún pedido.'

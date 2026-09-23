@@ -25,7 +25,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'MOQ and lead time are project-specific, but the framework is fixed. Every custom SUP project moves through the same tiered stages: sample development (1–2 boards, ready in 7–12 days), trial and pilot orders (20–50 boards), and standard volume runs (90–100+ boards per 150 m drop-stitch fabric roll). Production lead time is 25–35 days from confirmed PO and deposit; if your project needs a bespoke hull, mould development adds 15–20 days before production begins. So a typical first project looks like this: samples in about 1–2 weeks, pilot boards in 4–6 weeks, and the first full run shipping roughly 6–8 weeks after order confirmation.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 moq_lead_table:
   tagline: The Framework
@@ -202,7 +202,7 @@ moq_faqs:
 evidence_review:
   tagline: 'Evidence & Verification'
   title: 'VERIFIED SPECIFICATIONS'
-  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified September 2026.'
 
 cta:
   title: 'Get Your Project-Specific MOQ & Lead Time?'

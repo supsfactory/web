@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'La quantité minimale de commande est confirmée par la configuration du projet plutôt que par un chiffre fixe : le développement d''échantillon (1–2 unités) valide la construction, les commandes pilotes (20–50 unités) testent le marché sur des plateformes existantes, la production en volume standard s''exécute à 90–100+ unités par lot à partir d''un rouleau complet de drop-stitch de 150 m, et le co-marquage en petits lots commence à 5–10 unités. Les échantillons partent en 7–12 jours ; la production en gros s''exécute en 25–35 jours après bon de commande confirmé et acompte, plus 15–20 jours quand un nouvel outillage est requis.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 content_html: |
   <h2>1. Pré-qualification : que rechercher dans une usine</h2>

@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Equipo de fábrica: corte, soldadura e impresión'
   description: 'Equipos de fabricación de grado industrial de Vatrad: corte de PVC, soldadura RF, impresión digital, ensamblaje y ensayos para tablas de SUP hinchables.'
   dateModified: '2026-08'
@@ -17,7 +17,7 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'Nuestra fábrica de 12.500 m² dispone de corte automático controlado por CNC (precisión de 0,1 mm, desperdicio inferior al 5%), termosellado de aire caliente a 200–600 °C más soldadura dieléctrica RF de 15 kW para las costuras principales, prensas de laminación de núcleos drop-stitch de hasta 14 ft, y un laboratorio de control de calidad que prueba la presión de cada cámara, realiza comprobaciones de tracción según ASTM D751 y verifica el pelado de costuras según ISO 6185.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 categories:
   - title: Corte y preparación de materiales

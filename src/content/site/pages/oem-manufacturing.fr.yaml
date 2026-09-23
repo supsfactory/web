@@ -17,7 +17,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'La production OEM s''exécute à partir de votre spécification. Le MOQ est confirmé par la configuration du projet plutôt que par un chiffre fixe : la production en volume standard s''exécute à 90–100 unités par lot à partir d''un rouleau de tissu drop-stitch de 150 m, les séries pilotes démarrent à 20–50 unités sur les plateformes existantes, et chaque projet passe par un échantillon (1–2 unités) avant le volume. Les échantillons partent en 7–12 jours ; la production s''exécute en 25–35 jours après bon de commande confirmé et acompte, plus 15–20 jours quand un nouvel outillage est requis.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 features:
   title: Capacités OEM

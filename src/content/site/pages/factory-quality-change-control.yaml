@@ -26,7 +26,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'Rework parameter changes are never decided verbally or retroactively at QINGDAO VATRAD GROUP.,LTD. Every proposed change to approved rework materials, process conditions, equipment, test methods, inspection criteria or authorized personnel must pass formal change control before implementation: a documented Engineering Change Request (ECR), impact and risk assessment, cross-functional review by Engineering, Quality, Production, Procurement and Project, approval at the level fixed by our authorization matrix, an approved validation plan for high-risk changes, controlled pilot implementation, re-inspection and effectiveness review, and closure only after document revision and training. Any change affecting customer-approved specifications, samples, BOMs, artwork or acceptance criteria additionally requires written customer approval.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 stats:
   tagline: At a Glance
@@ -210,7 +210,7 @@ cc_validation:
 
     Validation evidence is quantitative, and the engineering baseline for air-tightness rework includes:
 
-    - **Leak elimination & pressure hold.** The original leak is removed with no sustained bubbles in soap-water leak detection; the board holds at the standard test pressure of 18.0 PSI for 24 hours, with net pressure drop ΔP ≤ 0.2 PSI after temperature/humidity compensation.
+    - **Leak elimination & pressure hold.** The original leak is removed with no sustained bubbles in soap-water leak detection; the board holds at the standard test pressure of 18.0 PSI for 24 hours, with net pressure drop ΔP ≤ 0.2 PSI after temperature/humidity compensation — the tighter rework-validation baseline, distinct from the 0.50 PSI auto-reject threshold applied at production-line final acceptance.
     - **Valve function.** Valve core torque meets the 15–20 N·m specification, with no micro-leak at the seal under high-pressure inflation and dynamic pressing.
     - **Seam bonding & durability.** Bond edges show no lifting, whitening or delamination; after heat-humidity aging cycles the adhesive layer shows no softening or brittle cracking.
     - **Appearance & workmanship.** No adhesive run-off marks, no EVA damage, no board distortion, and no logo shift or printed-surface scratches.

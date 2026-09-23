@@ -19,7 +19,7 @@ hero:
 answer:
   label: 'Réponse rapide'
   text: 'Pour l''UE : le marquage CE est obligatoire pour les planches vendues dans l''Espace économique européen — nous certifions les modèles destinés aux marchés UE, périmètre confirmé par projet. Pour les USA : CPSIA et règlements étatiques sur les COV s''appliquent. Pour l''Australie : conformité AS/NZS 1586. Tous marchés : ISO 9001 (usine), BSCI (audit social), REACH et RoHS (matériaux) sont standard sur toute notre production quel que soit la destination. Le périmètre et les coûts de conformité sont détaillés dans votre devis — aucune surprise post-production.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 market_cards:
   tagline: Exigences par région

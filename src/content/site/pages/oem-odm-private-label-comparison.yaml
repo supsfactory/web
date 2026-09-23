@@ -18,7 +18,7 @@ hero:
 answer:
   label: 'Quick comparison'
   text: 'OEM: you own the design and specification — we manufacture to your drawings. ODM: our engineering team develops the board from your brief — you approve before production. Private Label: your brand on a proven existing platform with no structural changes — fastest route to market. All three paths run through the same plant, QC system and export team in Qingdao, China.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 comparison_table:
   tagline: 'Side-by-Side'

@@ -448,6 +448,7 @@ export const enProduct = {
         'moq-guide': 'MOQ & production planning',
         'production-availability': 'Production capacity & lead time',
         'project-brief': 'Engineering & prototyping brief',
+        'distributor': 'Distributor / private-label program',
       },
       ndaNote: 'NDA support is available before you share confidential files.',
       trustTitle: 'Factory Trust & Verification',

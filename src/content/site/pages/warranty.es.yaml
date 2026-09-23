@@ -29,7 +29,7 @@ body: |
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-sky-700 dark:text-sky-400">5 años</h3>
-        <p class="text-sm text-gray-600 mt-1">Integridad estructural del casco de fibra de vidrio</p>
+        <p class="text-sm text-gray-600 mt-1">Integridad estructural del casco de fibra de vidrio (cuando corresponda)</p>
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-sky-700 dark:text-sky-400">5 años</h3>
@@ -48,7 +48,7 @@ body: |
         <p class="text-sm text-gray-600 mt-1">Uso comercial, de alquiler o en flota: todos los componentes</p>
       </div>
     </div>
-    <p class="text-xs text-gray-500 mt-4">*El uso comercial, gubernamental, de chárter, de alquiler o docente reduce la garantía a 1 año. El uso en competiciones o carreras anula la garantía por completo.</p>
+    <p class="text-xs text-gray-500 mt-4">*El uso comercial, gubernamental, de chárter, de alquiler o docente reduce la garantía a 1 año. El uso en competiciones o carreras anula la garantía por completo, salvo que se cubra expresamente una configuración específica de competición en el acuerdo de compra.</p>
   </div>
 
   <h2>Qué está cubierto</h2>
@@ -94,7 +94,7 @@ body: |
   </ul>
 
   <h2>Uso comercial</h2>
-  <p>Si el producto se utiliza con fines comerciales, gubernamentales, sin ánimo de lucro, de chárter, de alquiler, docentes o para cualquier propósito distinto del uso recreativo privado, el periodo de garantía de todos los componentes se reduce a un (1) año desde la fecha efectiva. El uso en competiciones, de velocidad o de resistencia anula inmediata e irrevocablemente la garantía por completo.</p>
+  <p>Si el producto se utiliza con fines comerciales, gubernamentales, sin ánimo de lucro, de chárter, de alquiler, docentes o para cualquier propósito distinto del uso recreativo privado, el periodo de garantía de todos los componentes se reduce a un (1) año desde la fecha efectiva. El uso en competiciones, de velocidad o de resistencia anula la garantía por completo, salvo que se cubra expresamente una configuración específica de competición en el acuerdo de compra.</p>
 
   <h2>Cómo realizar una reclamación de garantía</h2>
   <p>Contacta con SUPsfactory con la orden de compra o referencia de lote y una descripción detallada del problema, incluidos los números de serie de las tablas cuando estén disponibles. La fábrica revisará la reclamación contra los registros del lote y te indicará los pasos para la inspección y el servicio.</p>

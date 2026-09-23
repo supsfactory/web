@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Lista de Verificación de Auditoría de Fábrica — Qué Verificar Antes de Elegir un Fabricante de SUP | SUPsfactory'
   description: 'Lista de verificación de auditoría de fábrica para compradores de SUP: calidad, capacidad, trazabilidad, pruebas de presión, cumplimiento y documentación.'
   dateModified: '2026-08-21'
@@ -19,7 +19,7 @@ hero:
 answer:
   label: 'Respuesta rápida'
   text: 'Las ocho áreas de auditoría más importantes: (1) Sistema de gestión de calidad — certificación ISO 9001 y registros reales de inspección puerta por puerta, no solo un certificado en la pared. (2) Capacidad de producción — números reales de producción, no nominales. (3) Trazabilidad de materiales — inspección de entrada por lote e informes de prueba. (4) Pruebas de presión y estructurales — protocolos documentados de prueba de retención. (5) Controles de soldadura y ensamblaje — parámetros de soldadura RF e inspección de costuras. (6) Cumplimiento social — auditoría BSCI o equivalente. (7) Documentación y trazabilidad — registros por lote, registros de inspección, certificados de conformidad. (8) Soporte post-entrega — proceso de garantía, repuestos, capacidad de respuesta en comunicación.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 audit_areas:
   tagline: Ocho Áreas de Auditoría
@@ -77,7 +77,7 @@ our_position:
 evidence_review:
   tagline: 'Evidencia y Verificación'
   title: 'ESPECIFICACIONES VERIFICADAS'
-  body: 'Todas las afirmaciones de fabricación y calidad en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la fábrica de Laixi, Qingdao. Certificados, registros de inspección de CC, informes de pruebas de presión y estructurales, y registros de trazabilidad por lote están disponibles bajo solicitud. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricación y calidad en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la fábrica de Laixi, Qingdao. Certificados, registros de inspección de CC, informes de pruebas de presión y estructurales, y registros de trazabilidad por lote están disponibles bajo solicitud. Especificaciones verificadas por última vez en septiembre de 2026.'
 
 faqs:
   tagline: Preguntas Frecuentes

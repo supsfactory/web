@@ -13,8 +13,8 @@ hero:
 
 answer:
   label: 'Réponse directe'
-  text: "Distributeurs et marques travaillent directement avec l'usine : planches de SUP en marque blanche fabriquées sous votre marque, prix de gros direct usine, territoire exclusif par programme, 3–8 SKU pour ouvrir, paiement à 45–60 jours, et 100 % du stock testé en pression avant expédition. Les volumes d'ouverture minimaux et les conditions de fret sont convenus par territoire, expédiés FOB Qingdao ou CIF."
-  verified: '2026-08'
+  text: "Distributeurs et marques travaillent directement avec l'usine : planches de SUP en marque blanche fabriquées sous votre marque, prix de gros direct usine, territoire exclusif par programme, 3–8 SKU pour ouvrir et paiement à 45–60 jours (le tout soumis à l'accord commercial), avec 100 % du stock testé en pression avant expédition. Les volumes d'ouverture minimaux et les conditions de fret sont convenus par territoire, expédiés FOB Qingdao ou CIF."
+  verified: 'September 2026'
 
 intro:
   tagline: À propos du programme
@@ -30,7 +30,7 @@ wholesale_pricing:
   tagline: Pourquoi rejoindre
   title: 'Ce que les distributeurs obtiennent'
   subtitle: "Tout ce dont vous avez besoin pour lancer une gamme à votre marque sur votre marché."
-  intro: "Les partenaires de distribution reçoivent la même qualité d'usine et la même profondeur d'ingénierie que celle que nous livrons aux marques OEM/ODM, emballée pour le canal de gros sous leur propre étiquette."
+  intro: "Les partenaires de distribution reçoivent la même qualité d'usine et la même profondeur d'ingénierie que celle que nous livrons aux marques OEM/ODM, emballée pour le canal de gros sous leur propre étiquette. Les conditions de programme — exclusivité de territoire, gamme de SKU d'ouverture et délais de paiement — sont confirmées par programme dans l'accord commercial."
   stats:
     - value: '50+'
       label: 'Pays expédiés'
@@ -71,7 +71,7 @@ benefits:
   subtitle: 'Tout ce dont vous avez besoin pour réussir sur votre marché.'
   items:
     - 'Marque privée sous votre propre nom (marque blanche OEM)'
-    - 'Droits de territoire exclusif'
+    - 'Droits de territoire exclusif (selon accord commercial)'
     - 'Catalogue de fabrication : SUP, accessoires, pièces'
     - 'Prix compétitifs directs usine'
     - 'Supports marketing et ventes (traduits)'
@@ -80,7 +80,7 @@ benefits:
     - "Programme d'échantillons et d'approbation pré-production"
     - 'Capacité de drop-ship'
     - 'Responsable de compte distributeur dédié'
-    - 'Paiement à 45-60 jours'
+    - 'Paiement à 45-60 jours (soumis à l''accord commercial)'
 
 coverage:
   title: Distribution actuelle
@@ -108,7 +108,7 @@ faqs:
     - q: 'Pouvons-nous vendre les planches sous notre propre marque ?'
       a: "Oui. La marque privée est le modèle standard ici : les planches sont fabriquées sous votre marque avec vos graphismes, votre emballage et vos spécifications. SUPsfactory fabrique exclusivement pour ses clients et ne les concurrence jamais sur aucun marché."
     - q: 'Les territoires sont-ils exclusifs ?'
-      a: "Oui. Les programmes de distribution reposent sur des territoires exclusifs — chaque partenaire de gros couvre un pays ou une région défini et reçoit les prix et le support de programme pour ce marché."
+      a: "Oui. Les programmes de distribution reposent sur des territoires exclusifs — chaque partenaire de gros couvre un pays ou une région défini et reçoit les prix et le support de programme pour ce marché, tel que défini dans l'accord commercial."
     - q: 'Proposez-vous le drop-shipping ?'
       a: "La capacité de drop-ship est incluse dans le programme. Les échantillons, l'emballage et la manutention sont validés lors de l'étape d'approbation des échantillons afin que les commandes drop-ship fonctionnent parfaitement dès le premier jour."
     - q: 'Quels modèles pouvons-nous commander ?'
@@ -128,7 +128,7 @@ cta:
   subtitle: 'Postulez au programme distributeur ou consultez le catalogue de fabrication.'
   actions:
     - text: 'Postuler au programme distributeur'
-      href: '/fr/contact?partner=distributor'
+      href: '/fr/contact#distributor'
       variant: 'primary'
     - text: 'Consulter le catalogue de fabrication'
       href: '/fr/products'

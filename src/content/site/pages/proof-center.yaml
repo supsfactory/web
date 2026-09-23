@@ -20,12 +20,12 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'The claim-to-evidence chain is: every statement on this site is backed by a registration, a certificate, a machine, a document or a test record — and each of those can be reviewed. SUPsfactory is the SUP product development and manufacturing division of Qingdao Vatrad Group Co., Ltd. (registered in Qingdao since 2012). The 12,500 m² plant holds ISO 9001:2015 quality management, ISO 25649 compliance, CE conformity documentation, BSCI social compliance (audit report on request) and REACH/RoHS material documentation per order. Every inflatable chamber is tested at 18.0 PSI for 24 hours with auto-reject above 0.50 PSI drop, and batch records are kept under 10-year ERP traceability. The paper trail is published or shareable, and the factory itself is audit-open.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 entities:
   tagline: 'Who Is Behind The Factory'
-  title: 'Three Names, One Legal Chain You Can Trace'
-  subtitle: 'The sales side, the manufacturing division and the legal entity are one chain you can follow from the website to the company register.'
+  title: 'One Manufacturing Operation, One Legal Entity'
+  subtitle: 'The sales side, the manufacturing division and the legal entity all trace to one operation you can verify from the website to the company register.'
   features:
     - icon: S
       icon_bg: blue

@@ -8,7 +8,7 @@ home_label: 'Accueil'
 answer:
   label: 'Réponse directe'
   text: 'Nous testons en bassin les formes de coques SUP à l''échelle de maquette 1:3 à 1:5 — profil de nez, rayon de rail, rocker et surface mouillée — mesurant la traînée, l''efficacité de glisse et la stabilité avant de s''engager dans un prototype pleine taille. Une semaine dans le bassin renvoie les données de performance qui prendraient des mois d''essais-erreurs pleine échelle.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 hero:
   tagline: 'Laboratoire 04'

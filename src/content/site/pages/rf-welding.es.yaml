@@ -8,7 +8,7 @@ home_label: 'Inicio'
 answer:
   label: 'Respuesta directa'
   text: 'Operamos prensas RF dieléctricas de 15 kW que unen molecularmente las costuras de PVC (equivalente a 200–600 °C de aire caliente) y después validamos cada soldadura: ensayos de pelado según ASTM D751 y retención de aire a 18,0 PSI, con costuras documentadas y trazables por unidad.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 hero:
   tagline: 'Lab 03'

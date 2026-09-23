@@ -8,7 +8,7 @@ home_label: 'Inicio'
 answer:
   label: 'Respuesta directa'
   text: 'Ensayamos las formas de casco de SUP a escala de modelo 1:3 a 1:5 — perfil de proa, radio del canto, rocker y superficie mojada — midiendo la resistencia, la eficiencia de deslizamiento y la estabilidad antes de comprometer un prototipo a tamaño completo. Una semana en el canal devuelve los datos de rendimiento que costarían meses de prueba y error a escala real.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 hero:
   tagline: 'Lab 04'

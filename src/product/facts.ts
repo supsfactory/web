@@ -1,6 +1,6 @@
 import { BRAND_SOCIAL, BRAND_CONTACT, BRAND_BOILERPLATE, BRAND_BUILD_LINE, BRAND_NOT_ROB } from '@/config/branding'
 
-export const FACTS_VERIFIED = '2026-08-20' as const
+export const FACTS_VERIFIED = 'September 2026' as const
 
 export type VerifiedSource = 'factory-record' | 'qc-procedure' | 'certificate' | 'project-record' | 'audit-report'
 

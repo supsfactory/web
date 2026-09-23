@@ -25,7 +25,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'Une intégration OEM typique prend 2–4 semaines pour l''approbation de l''échantillon et 6–8 semaines pour la première série de production à partir du bon de commande confirmé. Vous commencez par soumettre un brief de projet (spéc. de planche, volume, besoins de conformité). Nous répondons sous un jour ouvré, proposons une NDA avant que vous partagiez des détails propriétaires, et produisons 1–2 échantillons physiques en 7–12 jours pour votre examen et votre approbation. Une fois l''échantillon figé, la planification de production et la fabrication suivent avec des portes de QC fixes à chaque étape. Chaque étape est documentée et traçable.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 process_steps:
   tagline: Les sept portes
@@ -95,7 +95,7 @@ checklist:
 evidence_review:
   tagline: 'Preuves et vérification'
   title: 'SPÉCIFICATIONS VÉRIFIÉES'
-  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et journaux de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées 2026-08.'
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et journaux de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en septembre 2026.'
 
 faqs:
   tagline: FAQ

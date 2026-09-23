@@ -9,7 +9,7 @@ sections:
       answer: "Existing-platform pilot runs start at 20–50 pcs; standard volume MOQ is 90–100+ pcs per 150 m drop-stitch roll (~180–220 boards)."
       condition: "Specific MOQ depends on board shape, material roll, printing, packaging and whether a new mould is needed."
       value: "5–10 co-branding · 20–50 pilot · 90–100+ per roll volume"
-      verifiedDate: "2026-08-20"
+      verifiedDate: "September 2026"
       sourceType: "factory-record"
     body: |
       MOQ at SUPsfactory is tiered by customization level, not a single flat number.
@@ -63,4 +63,4 @@ sections:
 evidence_review:
   tagline: 'Evidence & Verification'
   title: 'VERIFIED SPECIFICATIONS'
-  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified September 2026.'

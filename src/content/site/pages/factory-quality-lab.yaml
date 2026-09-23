@@ -15,7 +15,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: '100% of units are pressure-tested at 18.0 PSI for 24 hours, with auto-reject above a 0.50 PSI pressure drop. Raw fabric batches are verified to ASTM D751 and ISO 4674, and weld peel tests run every 50 units with AQL 2.5 final sampling per ISO 2859.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 intro: Vatrad operates a dedicated quality control laboratory that operates independently from production. Every batch of raw material and every finished SUP board passes through documented inspection protocols before release. Our QC team reports directly to management, ensuring impartial quality decisions.
 

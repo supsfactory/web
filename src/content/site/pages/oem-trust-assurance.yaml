@@ -18,7 +18,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'Trust is not a promise —it is documentation. We are a registered Chinese manufacturing entity (Qingdao Vatrad Group Co., Ltd.) with a physical 12,500 m² plant in Qingdao, 350+ workers and 120,000+ boards of annual capacity. You can verify the registration, audit the factory, review QMS SOPs, download sample quality records, schedule third-party inspections (SGS, TÜV, BV or Intertek) and have an NDA signed within 4 business hours. Every board is pressure-tested at 18.0 PSI for 24 hours with auto-reject above 0.50 PSI drop, and every batch keeps 10-year ERP traceability. If a claim cannot be documented, we do not make it.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 trust_stats:
   - value: '12,500 m²'
@@ -152,7 +152,7 @@ trust_downloads:
 evidence_review:
   tagline: 'Evidence & Verification'
   title: 'VERIFIED SPECIFICATIONS'
-  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified September 2026.'
 
 cta:
   title: 'Start With Verification —Then We Talk Specs'

@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'Minimum order quantity is confirmed by project configuration rather than a fixed number: sample development (1–2 units) validates the build, pilot orders (20–50 units) test the market on existing platforms, standard volume production runs 90–100+ units per batch from a full 150 m drop-stitch roll, and small-batch co-branding starts at 5–10 units. Samples ship in 7–12 days; bulk production runs 25–35 days after confirmed PO and deposit, plus 15–20 days when new tooling is required.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 content_html: |
   <h2>1. Pre-Qualification: What to Look for in a Factory</h2>

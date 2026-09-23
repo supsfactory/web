@@ -19,7 +19,7 @@ hero:
 answer:
   label: 'Réponse rapide'
   text: 'Les huit domaines d''audit qui comptent le plus : (1) Système de management de la qualité — certification ISO 9001 et enregistrements d''inspection réels porte par porte, pas seulement un certificat au mur. (2) Capacité de production — des chiffres réels de production, pas de la capacité nominale. (3) Traçabilité des matériaux — inspection entrante au niveau du lot et rapports de test. (4) Tests de pression et de structure — protocoles de maintien documentés. (5) Contrôles de soudage et d''assemblage — paramètres de soudure RF et inspection des coutures. (6) Conformité sociale — audit BSCI ou équivalent. (7) Documentation et traçabilité — enregistrements de lots, journaux d''inspection, certificats de conformité. (8) Support après livraison — processus de garantie, pièces de rechange, réactivité de communication.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 audit_areas:
   tagline: Huit domaines d'audit
@@ -77,7 +77,7 @@ our_position:
 evidence_review:
   tagline: 'Preuves et vérification'
   title: 'SPÉCIFICATIONS VÉRIFIÉES'
-  body: 'Toutes les allégations de fabrication et de qualité de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et journaux de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en 2026-08.'
+  body: 'Toutes les allégations de fabrication et de qualité de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et journaux de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en septembre 2026.'
 
 faqs:
   tagline: FAQ

@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'Les SUP gonflables relèvent de la Directive européenne relative aux bateaux de plaisance 2013/53/UE lorsqu''ils mesurent plus de 2,5 m de longueur de coque, ou de la Directive générale sur la sécurité des produits lorsqu''ils sont plus petits. La certification coûte environ 13 000 à 31 000 EUR et prend 8 à 14 semaines pour un premier produit : dossier technique, essai de type par un organisme notifié, audit d''usine, puis Déclaration de Conformité.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 content_html: |
   <h2>Qu'est-ce que la certification CE ?</h2>

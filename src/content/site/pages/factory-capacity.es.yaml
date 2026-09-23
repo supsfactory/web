@@ -15,17 +15,17 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'Capacidad de la fábrica: 12.500 m² repartidos en cuatro talleres especializados, más de 120.000 tablas de SUP al año, más de 350 trabajadores en dos turnos y exportación a más de 50 países. El MOQ se confirma según la configuración del proyecto — muestra (1–2 unidades), piloto (20–50 unidades) y volumen estándar (90–100+ unidades por rollo de 150 m); consulta nuestra Guía de MOQ y Branding Flexible para la lógica completa. Plazo de entrega de 25–35 días y muestras en 7–12 días.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
-intro: Vatrad opera una de las instalaciones dedicadas más grandes de fabricación de SUP hinchables en Qingdao, China. Nuestra fábrica de 12.500 m² está organizada en cuatro talleres especializados que trabajan en paralelo, lo que nos da la capacidad de producir más de 120.000 tablas al año en las líneas de SUP y equipo de seguridad.
+intro: Vatrad opera una de las instalaciones dedicadas más grandes de fabricación de SUP hinchables en Qingdao, China. Nuestra fábrica de 12.500 m² está organizada en cuatro talleres especializados que trabajan en paralelo. La capacidad anual de SUP es de más de 120.000 tablas SUP hinchables (unas 10.000 al mes), con más de 50.000 chalecos salvavidas y más de 5.000 accesorios en líneas de producto independientes.
 
 highlights:
   - value: 12,500 m2
     label: Superficie total de fabricación
     detail: En 4 talleres especializados
   - value: 120,000+
-    label: Tablas producidas al año
-    detail: SUP y equipo de seguridad
+    label: Capacidad anual de SUP
+    detail: 'Tablas SUP hinchables, ~10.000/mes'
   - value: 350+
     label: Plantilla cualificada
     detail: Más de 25 ingenieros, 2 turnos al día
@@ -43,12 +43,12 @@ workshops:
   - title: Producción de tablas de SUP
     description: '4 líneas de ensamblaje automatizadas para tablas de SUP hinchables con una producción combinada de unas 10.000 tablas al mes. Las estaciones de impresión digital y serigrafía funcionan simultáneamente. Capacidad anual de SUP: más de 120.000 tablas.'
     output: 'Más de 120.000 SUP al año'
-  - title: Producción de tablas de SUP
-    description: 'Capacidad de producción ampliada para tablas de SUP con líneas de ensamblaje adicionales. La unión de núcleos drop-stitch, la impresión digital y las estaciones de ensamblaje funcionan en paralelo.'
-    output: 'Capacidad de SUP ampliada'
-  - title: Tablas y accesorios SUP
-    description: 'Líneas de producción polivalentes para tablas de SUP y accesorios. Las estaciones de soldadura de aire caliente, las prensas dieléctricas RF y los puestos de ensamblaje se reconfiguran según la mezcla de pedidos. Capacidad anual: más de 5.000 unidades.'
-    output: 'Más de 5.000 unidades al año'
+  - title: 'Producción de tablas de SUP — líneas de expansión'
+    description: 'Líneas de ensamblaje automatizadas adicionales para tablas de SUP, activadas según aumenta el volumen. La unión de núcleos drop-stitch, la impresión digital y las estaciones de ensamblaje funcionan en paralelo.'
+    output: 'Parte de la capacidad anual de SUP de más de 120.000'
+  - title: 'Accesorios SUP y ensamblaje mixto'
+    description: 'Líneas de producción polivalentes para accesorios de SUP (palas, aletas, correas, bolsas y kits). Las estaciones de soldadura de aire caliente, las prensas dieléctricas RF y los puestos de ensamblaje se reconfiguran según la mezcla de pedidos. Capacidad anual de accesorios: más de 5.000 unidades.'
+    output: 'Más de 5.000 accesorios al año'
   - title: Equipo de seguridad
     description: 'Área de producción de sala limpia independiente para chalecos salvavidas y equipo de seguridad. Estaciones dedicadas de costura, inserción de espuma y ensayos. Capacidad anual de chalecos salvavidas: más de 50.000 unidades.'
     output: 'Más de 50.000 chalecos salvavidas al año'

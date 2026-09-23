@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'Boards are built from 1,680 DTEX marine PVC with a three-layer coating and a drop-stitch core rated to 12–15 PSI. Every incoming fabric batch is independently tested in-house for tensile strength (ISO 1421), UV retention after 2,000 hours of xenon-arc exposure (ISO 4892), abrasion and low-temperature flexibility — no batch enters production on supplier data sheets alone.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 intro: 'The board fabric is the single most critical material in an inflatable SUP. It must withstand constant UV exposure, repeated inflation cycles, abrasion against docks and sandy landings, and extreme temperature swings — all while maintaining its structural integrity for years. At {SITE.name}, our PVC Fabric Lab is dedicated exclusively to the characterisation, validation, and continuous improvement of the fabrics we use in every board we build.'
 

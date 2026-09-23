@@ -18,7 +18,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'MOQ is not a one-size-fits-all number. Every MOQ is confirmed by project configuration: hull shape and tooling, colorways and PVC, artwork complexity, packaging and accessory mix. Full-custom volume production runs 90–100 units per batch from a standard 150 m drop-stitch fabric roll; small-batch co-branding starts from 5–10 units; and every project is split into three distinct stages — sample development (1–2 units), pilot order (20–50 units) and volume production (90–100+ units). We confirm the exact calculation for your SKU mix before quotation — no vague "low MOQ" promises, no hidden compromises.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 moq_principle:
   tagline: The Engineering Logic
@@ -147,7 +147,7 @@ moq_faqs:
 evidence_review:
   tagline: 'Evidence & Verification'
   title: 'VERIFIED SPECIFICATIONS'
-  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified September 2026.'
 
 cta:
   title: 'Need MOQ Guidance for Your SUP Project?'

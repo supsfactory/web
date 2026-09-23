@@ -17,7 +17,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'The SUPsfactory plant is a 12,500 m² facility in Qingdao, Shandong, China with 350+ workers, 4 automated production lines and 4 specialized workshops. Buyers can verify it four ways: visit the plant year-round, co-host or request audits (BSCI, ISO 9001), run third-party inspection (SGS, TÜV, BV, Intertek; ISO 2859-1 Level II sampling), or review documented evidence — certificates, 100-point assembly checklists, 18.0 PSI 24-hour pressure-hold reports and 10-year ERP batch traceability per serial label.'
-  verified: '2026-09'
+  verified: 'September 2026'
 
 features:
   title: Ways to Verify the Factory

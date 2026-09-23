@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'L''épaisseur échange la rigidité contre la stabilité : 4" (10 cm) est le plus rigide, le plus léger et le plus rapide — idéal pour le touring et la course ; 5" (12,7 cm) est le choix polyvalent pour la plupart des pagayeurs ; 6" (15,2 cm) maximise la stabilité primaire pour le yoga et les pagayeurs lourds (100+ kg). Une section plus fine est structurellement plus rigide, donc une planche de 4" à 15 PSI fléchit moins qu''une planche de 6" à 25 PSI.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 content_html: |
   <h2>Les trois épaisseurs standard</h2>

@@ -26,7 +26,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'Les modifications de paramètres de reprise ne sont jamais décidées verbalement ou rétroactivement chez QINGDAO VATRAD GROUP.,LTD. Chaque modification proposée des matériaux de reprise approuvés, des conditions de processus, de l''équipement, des méthodes de test, des critères d''inspection ou du personnel autorisé doit passer un contrôle documenté des modifications avant mise en œuvre : une demande de modification d''ingénierie (ECR) documentée, une évaluation d''impact et de risque, une revue interfonctionnelle par l''Ingénierie, la Qualité, la Production, les Achats et le Projet, une approbation au niveau fixé par notre matrice d''autorisation, un plan de validation approuvé pour les modifications à haut risque, une mise en œuvre pilote contrôlée, une ré-inspection et une revue d''efficacité, et une clôture uniquement après révision des documents et formation. Toute modification affectant les spécifications, échantillons, BOM, graphismes ou critères d''acceptation approuvés par le client exige en outre une approbation écrite du client.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 stats:
   tagline: En un coup d'œil
@@ -209,7 +209,7 @@ cc_validation:
 
     Les preuves de validation sont quantitatives, et la base d'ingénierie pour la reprise d'étanchéité à l'air comprend :
 
-    - **Élimination de la fuite et maintien de pression.** La fuite d'origine est éliminée sans bulles persistantes dans la détection de fuite à l'eau savonneuse ; la planche tient à la pression de test standard de 18,0 PSI pendant 24 heures, avec une chute de pression nette ΔP ≤ 0,2 PSI après compensation de température/humidité.
+    - **Élimination de la fuite et maintien de pression.** La fuite d'origine est éliminée sans bulles persistantes dans la détection de fuite à l'eau savonneuse ; la planche tient à la pression de test standard de 18,0 PSI pendant 24 heures, avec une chute de pression nette ΔP ≤ 0,2 PSI après compensation de température/humidité — la base de validation de reprise la plus stricte, distincte du seuil de rejet automatique de 0,50 PSI appliqué à l'acceptation finale en ligne de production.
     - **Fonction de valve.** Le couple du noyau de valve respecte la spécification de 15–20 N·m, sans micro-fuite au joint sous gonflage haute pression et pressage dynamique.
     - **Assemblage et durabilité des coutures.** Les bords liés ne montrent aucun soulèvement, blanchiment ou délamination ; après cycles de vieillissement chaleur-humidité, la couche adhésive ne montre aucun ramollissement ni fissuration fragile.
     - **Apparence et finition.** Aucune trace de coulure d'adhésif, aucun dommage EVA, aucune déformation de planche, aucun déplacement de logo ni rayure de surface imprimée.

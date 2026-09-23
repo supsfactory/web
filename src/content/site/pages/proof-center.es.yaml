@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Centro de Evidencia —La Documentación Detrás de Cada Afirmación'
   description: 'Carpeta de prueba detrás de las afirmaciones de SUPsfactory: entidades, certificados con alcance, equipos, trazabilidad por lote y documentación de inspección.'
   dateModified: '2026-08-16'
@@ -19,12 +19,12 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'La cadena afirmación-evidencia es: cada afirmación de este sitio está respaldada por un registro, un certificado, una máquina, un documento o un registro de prueba — y cada uno de ellos puede revisarse. SUPsfactory es la división de desarrollo y fabricación de SUP de Qingdao Vatrad Group Co., Ltd. (registrada en Qingdao desde 2012). La planta de 12,500 m² cuenta con gestión de calidad ISO 9001:2015, cumplimiento ISO 25649, documentación de conformidad CE, cumplimiento social BSCI (informe de auditoría bajo petición) y documentación de materiales REACH/RoHS por pedido. Cada cámara hinchable se prueba a 18.0 PSI durante 24 horas con auto-rechazo por encima de 0.50 PSI de caída, y los registros de lote se conservan con trazabilidad ERP de 10 años. La documentación se publica o se comparte, y la fábrica misma está abierta a auditorías.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 entities:
   tagline: 'Quién Está Detrás De La Fábrica'
-  title: 'Tres Nombres, Una Cadena Legal Que Puedes Rastrear'
-  subtitle: 'El lado comercial, la división de fabricación y la entidad legal son una sola cadena que se puede seguir del sitio web al registro mercantil.'
+  title: 'Una Operación de Fabricación, Una Entidad Legal'
+  subtitle: 'El lado comercial, la división de fabricación y la entidad legal se rastrean hasta una sola operación que se puede verificar del sitio web al registro mercantil.'
   features:
     - icon: S
       icon_bg: blue

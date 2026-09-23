@@ -25,7 +25,7 @@ hero:
 answer:
   label: 'Que se passe-t-il ensuite'
   text: 'Après avoir soumis un brief de projet, vous recevez une réponse sous un jour ouvré. Un NDA est disponible avant de partager tout détail propriétaire. L''ingénierie examine votre brief et renvoie un devis détaillé avec MOQ, frais d''échantillon et un calendrier étape par étape — généralement 7–12 jours pour les échantillons et 6–8 semaines pour la première production à partir de la PO confirmée. Les frais d''échantillon sont crédités sur votre commande de production. Aucun engagement jusqu''à signature.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 process_steps:
   tagline: Le processus

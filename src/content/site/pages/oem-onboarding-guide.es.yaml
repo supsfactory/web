@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Guía de Onboarding OEM — Proceso Paso a Paso desde el Primer Contacto hasta la Producción | SUPsfactory'
   description: 'Guía de onboarding OEM: NDA, factibilidad, muestras, aprobación, preproducción, QC y envío. Proceso paso a paso con cronogramas.'
   dateModified: '2026-08-20'
@@ -25,7 +25,7 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'Un onboarding OEM típico toma 2–4 semanas para la aprobación de muestras y 6–8 semanas para la primera serie de producción desde PO confirmado. Empiezas enviando un brief de proyecto (especificaciones de tabla, volumen, necesidades de cumplimiento). Respondemos en un día hábil, ofrecemos un NDA antes de que compartas detalles de propiedad, y producimos 1–2 muestras físicas en 7–12 días para tu revisión y aprobación. Una vez congelada la muestra, la planificación de producción y la fabricación siguen con puertas de QC fijas en cada etapa. Cada paso está documentado y es trazable.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 process_steps:
   tagline: Las Siete Puertas
@@ -95,7 +95,7 @@ checklist:
 evidence_review:
   tagline: 'Evidencia y verificación'
   title: 'ESPECIFICACIONES VERIFICADAS'
-  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez en septiembre de 2026.'
 
 faqs:
   tagline: FAQ

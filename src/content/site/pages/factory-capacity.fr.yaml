@@ -15,17 +15,17 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'Capacité d''usine : 12 500 m² répartis sur quatre ateliers spécialisés, plus de 120 000 planches de SUP par an, 350+ ouvriers sur deux équipes, export vers plus de 50 pays. Le MOQ est confirmé par la configuration du projet — échantillon (1–2 unités), pilote (20–50 unités) et volume standard (90–100+ unités par rouleau de 150 m) ; consultez notre Guide MOQ et marque flexible pour la logique complète. Délai de 25–35 jours, échantillons en 7–12 jours.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
-intro: 'Vatrad exploite l''une des plus grandes installations de fabrication dédiées de SUP gonflables à Qingdao, en Chine. Notre usine de 12 500 m² est organisée en quatre ateliers spécialisés fonctionnant en parallèle, ce qui nous permet de produire plus de 120 000 planches par an sur les lignes de SUP et d''équipements de sécurité.'
+intro: 'Vatrad exploite l''une des plus grandes installations de fabrication dédiées de SUP gonflables à Qingdao, en Chine. Notre usine de 12 500 m² est organisée en quatre ateliers spécialisés fonctionnant en parallèle. La capacité annuelle de SUP est de plus de 120 000 planches de SUP gonflables (environ 10 000 par mois), avec plus de 50 000 gilets de sauvetage et plus de 5 000 accessoires sur des lignes de produits distinctes.'
 
 highlights:
   - value: 12 500 m²
     label: Surface totale de fabrication
     detail: Sur 4 ateliers spécialisés
   - value: 120 000+
-    label: Planches produites chaque année
-    detail: SUP et équipements de sécurité
+    label: Capacité annuelle de SUP
+    detail: 'Planches de SUP gonflables, ~10 000/mois'
   - value: 350+
     label: Effectif qualifié
     detail: 25+ ingénieurs, 2 équipes/jour
@@ -43,12 +43,12 @@ workshops:
   - title: Production de planches de SUP
     description: '4 lignes d''assemblage automatisées pour les planches de SUP gonflables avec une production combinée d''environ 10 000 planches par mois. Les postes d''impression numérique et de sérigraphie fonctionnent en parallèle. Capacité SUP annuelle : plus de 120 000 planches.'
     output: '120 000+ SUP/an'
-  - title: Production de planches de SUP
-    description: 'Capacité de production élargie pour les planches de SUP utilisant des lignes d''assemblage supplémentaires. L''assemblage du noyau drop-stitch, l''impression numérique et les postes d''assemblage fonctionnent en parallèle.'
-    output: 'Capacité SUP élargie'
-  - title: Planches de SUP et accessoires
-    description: 'Lignes de production polyvalentes pour les planches de SUP et les accessoires. Les postes de soudure à l''air chaud, les presses diélectriques RF et les postes d''assemblage sont reconfigurés selon le mix de commandes. Capacité annuelle : plus de 5 000 unités.'
-    output: '5 000+ unités/an'
+  - title: 'Production de planches de SUP — lignes d''expansion'
+    description: 'Lignes d''assemblage automatisées supplémentaires pour les planches de SUP, activées au fur et à mesure que le volume monte. L''assemblage du noyau drop-stitch, l''impression numérique et les postes d''assemblage fonctionnent en parallèle.'
+    output: 'Compris dans la capacité annuelle de SUP de 120 000+'
+  - title: 'Accessoires SUP et assemblage mixte'
+    description: 'Lignes de production polyvalentes pour les accessoires de SUP (pagaies, ailerons, leashs, sacs et kits). Les postes de soudure à l''air chaud, les presses diélectriques RF et les postes d''assemblage sont reconfigurés selon le mix de commandes. Capacité annuelle d''accessoires : plus de 5 000 unités.'
+    output: '5 000+ accessoires/an'
   - title: Équipements de sécurité
     description: 'Zone de production en salle blanche séparée pour les gilets de sauvetage et les équipements de sécurité. Postes de couture, d''insertion de mousse et de test dédiés. Capacité annuelle de gilets de sauvetage : plus de 50 000 unités.'
     output: '50 000+ gilets de sauvetage/an'

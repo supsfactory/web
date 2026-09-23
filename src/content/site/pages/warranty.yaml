@@ -29,7 +29,7 @@ body: |
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-sky-700 dark:text-sky-400">5 Years</h3>
-        <p class="text-sm text-gray-600 mt-1">Fiberglass hull structural integrity</p>
+        <p class="text-sm text-gray-600 mt-1">Fiberglass hull structural integrity (where applicable)</p>
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-sky-700 dark:text-sky-400">5 Years</h3>
@@ -48,7 +48,7 @@ body: |
         <p class="text-sm text-gray-600 mt-1">Commercial, rental, or fleet use — all components</p>
       </div>
     </div>
-    <p class="text-xs text-gray-500 mt-4">*Commercial, governmental, charter, rental, or instructional use reduces warranty to 1 year. Racing or competition use voids warranty entirely.</p>
+    <p class="text-xs text-gray-500 mt-4">*Commercial, governmental, charter, rental, or instructional use reduces warranty to 1 year. Racing or competition use voids warranty entirely unless a racing-specific configuration is expressly covered in the purchase agreement.</p>
   </div>
 
   <h2>What Is Covered</h2>
@@ -94,7 +94,7 @@ body: |
   </ul>
 
   <h2>Commercial Use</h2>
-  <p>If the product is used for commercial, governmental, non-profit, charter, rental, instructional, or any purpose other than private recreational use, the warranty period for all components is reduced to one (1) year from the effective date. Use in racing, speed or endurance competition immediately and irrevocably voids the warranty entirely.</p>
+  <p>If the product is used for commercial, governmental, non-profit, charter, rental, instructional, or any purpose other than private recreational use, the warranty period for all components is reduced to one (1) year from the effective date. Use in racing, speed or endurance competition voids the warranty entirely, unless a racing-specific configuration is expressly covered in the purchase agreement.</p>
 
   <h2>How to Make a Warranty Claim</h2>
   <p>Contact SUPsfactory with the purchase order or batch reference and a detailed description of the issue, including board serial numbers where available. The factory will review the claim against the batch records and provide instructions for inspection and service.</p>

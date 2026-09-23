@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'Thickness trades rigidity against stability: 4\" (10 cm) is stiffest, lightest, and fastest — best for touring and racing; 5\" (12.7 cm) is the all-around choice for most paddlers; 6\" (15.2 cm) maximizes primary stability for yoga and heavier paddlers (100+ kg). A thinner cross-section is structurally stiffer, so a 4\" board at 15 PSI flexes less than a 6\" board at 25 PSI.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 content_html: |
   <h2>The Three Standard Thicknesses</h2>

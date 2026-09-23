@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Straight answer'
   text: 'Every board is inspected against published specifications before shipment: 100% inflation hold test at 18.0 PSI for 24 hours (auto-reject above 0.50 PSI pressure drop), tensile and seam-peel testing per ISO 1421, and a 100-point assembly checklist. The lab reports to the managing director, not production, and can halt any shipment.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 intro: 'Every board that leaves our workshop carries the certification that it has passed a defined set of quality inspections and material tests. Our Quality & Inspection Lab is an independent function within the organisation — it reports directly to the managing director, not to production — ensuring that no commercial pressure can compromise the inspection gate. If a material batch or a completed board does not meet the published specification, the lab has the authority to halt shipment until the non-conformance is resolved.'
 

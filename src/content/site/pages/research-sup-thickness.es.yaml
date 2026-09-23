@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Cómo elegir el grosor del SUP — Análisis de ingeniería'
   description: 'En qué se diferencian las tablas de SUP hinchables de 4", 5" y 6" en rigidez, peso, estabilidad y dirección, con consejos sobre el grosor.'
   author: 'SUPsfactory'
@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'El grosor equilibra la rigidez y la estabilidad: el de 4\" (10 cm) es el más rígido, ligero y rápido: ideal para travesía y competición; el de 5\" (12.7 cm) es la elección polivalente para la mayoría de los paleadores; el de 6\" (15.2 cm) maximiza la estabilidad primaria para yoga y paleadores más pesados (100+ kg). Una sección más delgada es estructuralmente más rígida, por lo que una tabla de 4\" a 15 PSI se flexiona menos que una de 6\" a 25 PSI.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 content_html: |
   <h2>Los tres grosores estándar</h2>

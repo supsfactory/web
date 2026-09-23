@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Réponse directe'
   text: 'Chaque planche est inspectée contre des spécifications publiées avant l''expédition : test de maintien d''inflation à 100 % à 18,0 PSI pendant 24 heures (rejet automatique au-delà d''une chute de pression de 0,50 PSI), test de traction et de pelage de soudure selon ISO 1421, et liste de contrôle d''assemblage de 100 points. Le laboratoire rend compte au directeur général, pas à la production, et peut interrompre toute expédition.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 intro: 'Chaque planche qui quitte notre atelier porte la certification qu''elle a réussi un ensemble défini d''inspections qualité et de tests matériaux. Notre Laboratoire de qualité et d''inspection est une fonction indépendante au sein de l''organisation — il rend compte directement au directeur général, pas à la production — garantissant qu''aucune pression commerciale ne peut compromettre la porte d''inspection. Si un lot de matériau ou une planche terminée ne répond pas à la spécification publiée, le laboratoire a l''autorité d''interrompre l''expédition jusqu''à ce que la non-conformité soit résolue.'
 

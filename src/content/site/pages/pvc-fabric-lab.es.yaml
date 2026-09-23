@@ -14,7 +14,7 @@ hero:
 answer:
   label: 'Respuesta directa'
   text: 'Las tablas se construyen con PVC marino de 1,680 DTEX con recubrimiento de tres capas y un núcleo drop-stitch homologado para 12–15 PSI. Cada lote de tejido entrante se ensaya de forma independiente en nuestras instalaciones, comprobando la resistencia a la tracción (ISO 1421), la retención UV tras 2,000 horas de exposición con arco de xenón (ISO 4892), la abrasión y la flexibilidad en frío — ningún lote entra en producción basándose solo en las fichas del proveedor.'
-  verified: '2026-08'
+  verified: 'September 2026'
 
 intro: 'El tejido de la tabla es el material más crítico de un SUP hinchable. Debe soportar la exposición constante a los rayos UV, los ciclos repetidos de inflado, la abrasión contra muelles y playas con arena, y los cambios extremos de temperatura — manteniendo su integridad estructural durante años. En {SITE.name}, nuestro Laboratorio de Tejidos PVC está dedicado en exclusiva a la caracterización, validación y mejora continua de los tejidos que usamos en cada tabla que fabricamos.'
 

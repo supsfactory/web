@@ -29,7 +29,7 @@ body: |
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ans</h3>
-        <p class="text-sm text-gray-600 mt-1">Intégrité structurelle de la coque en fibre de verre</p>
+        <p class="text-sm text-gray-600 mt-1">Intégrité structurelle de la coque en fibre de verre (le cas échéant)</p>
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
         <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ans</h3>
@@ -48,7 +48,7 @@ body: |
         <p class="text-sm text-gray-600 mt-1">Usage commercial, location ou flotte : tous les composants</p>
       </div>
     </div>
-    <p class="text-xs text-gray-500 mt-4">*L'usage commercial, gouvernemental, en affrètement, en location ou pédagogique réduit la garantie à 1 an. L'usage en compétition ou en course annule entièrement la garantie.</p>
+    <p class="text-xs text-gray-500 mt-4">*L'usage commercial, gouvernemental, en affrètement, en location ou pédagogique réduit la garantie à 1 an. L'usage en compétition ou en course annule entièrement la garantie, sauf si une configuration spécifique de course est expressément couverte par le contrat d'achat.</p>
   </div>
 
   <h2>Ce qui est couvert</h2>
@@ -94,7 +94,7 @@ body: |
   </ul>
 
   <h2>Usage commercial</h2>
-  <p>Si le produit est utilisé à des fins commerciales, gouvernementales, à but non lucratif, en affrètement, en location, pédagogiques ou pour tout usage autre que récréatif privé, la période de garantie de tous les composants est réduite à un (1) an à compter de la date effective. L'usage en compétition, en vitesse ou en endurance annule immédiatement et irrévocablement l'intégralité de la garantie.</p>
+  <p>Si le produit est utilisé à des fins commerciales, gouvernementales, à but non lucratif, en affrètement, en location, pédagogiques ou pour tout usage autre que récréatif privé, la période de garantie de tous les composants est réduite à un (1) an à compter de la date effective. L'usage en compétition, en vitesse ou en endurance annule l'intégralité de la garantie, sauf si une configuration spécifique de course est expressément couverte par le contrat d'achat.</p>
 
   <h2>Comment faire une réclamation</h2>
   <p>Contactez SUPsfactory avec le bon de commande ou la référence de lot et une description détaillée du problème, y compris les numéros de série des planches lorsqu'ils sont disponibles. L'usine examinera la réclamation sur la base des registres de lot et fournira les instructions d'inspection et de service.</p>
