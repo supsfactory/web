@@ -10,10 +10,11 @@ const handler = async () => {
   ])
   const origin = new URL(env.BETTER_AUTH_URL).origin
   const es = new Set(loader.getLocaleContentPaths('es'))
+  const fr = new Set(loader.getLocaleContentPaths('fr'))
   const paths = [
-    ...loader.getContentProducts().map((p: { slug: string }) => ({ loc: `/products/${p.slug}`, lastmod: '2026-06-01', es: es.has(`/products/${p.slug}`) })),
-    ...loader.getTechArticles().map((p: { slug: string }) => ({ loc: `/technology/${p.slug}`, lastmod: '2026-06-01', es: es.has(`/technology/${p.slug}`) })),
-    ...loader.getCaseUses().map((p: { slug: string }) => ({ loc: `/evidence/case-studies/${p.slug}`, lastmod: '2026-06-01', es: es.has(`/evidence/case-studies/${p.slug}`) })),
+    ...loader.getContentProducts().map((p: { slug: string }) => ({ loc: `/products/${p.slug}`, lastmod: '2026-06-01', es: es.has(`/products/${p.slug}`), fr: fr.has(`/products/${p.slug}`) })),
+    ...loader.getTechArticles().map((p: { slug: string }) => ({ loc: `/technology/${p.slug}`, lastmod: '2026-06-01', es: es.has(`/technology/${p.slug}`), fr: fr.has(`/technology/${p.slug}`) })),
+    ...loader.getCaseUses().map((p: { slug: string }) => ({ loc: `/evidence/case-studies/${p.slug}`, lastmod: '2026-06-01', es: es.has(`/evidence/case-studies/${p.slug}`), fr: fr.has(`/evidence/case-studies/${p.slug}`) })),
   ]
   return new Response(buildSitemap(origin, paths, { locale: 'none' }), {
     headers: { 'content-type': 'application/xml; charset=utf-8', 'cache-control': 'public, max-age=3600' },

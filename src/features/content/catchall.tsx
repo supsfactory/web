@@ -109,10 +109,12 @@ export type CatchAllData = {
   origin: string
   /** Locale the page is served as (from the URL prefix, defaults to en). */
   locale: Locale
-  /** True when a real Spanish variant is rendered (vs an English duplicate). */
+  /** True when a real locale variant is rendered (vs an English duplicate). */
   translated: boolean
   /** True when a real Spanish variant exists for this path. */
   esTranslated: boolean
+  /** True when a real French variant exists for this path. */
+  frTranslated: boolean
   /** Server-resolved widget index payloads for the page's sections. */
   index: AferIndexData
 } & (

@@ -25,6 +25,9 @@ export const LLM_FAQ_DESCRIPTION = 'Answers to the most common questions about i
 export const LLM_SPANISH_HOMEPAGE_DESCRIPTION =
   'Fabricante OEM de tablas de SUP hinchables y SUP inflables personalizadas, con exportación mundial desde China'
 
+export const LLM_FRENCH_HOMEPAGE_DESCRIPTION =
+  'Fabricant OEM de planches de SUP gonflables et SUP gonflables personnalisées, avec exportation mondiale depuis la Chine'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 

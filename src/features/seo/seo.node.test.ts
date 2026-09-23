@@ -36,7 +36,25 @@ test('locale sitemap: single locale + lastmod + hreflang', () => {
   expect(xml).toContain('<lastmod>2026-06-01</lastmod>')
   expect(xml).toContain('hreflang="es-ES"')
   expect(xml).toContain(`href="${origin}/es/factory"`)
+  expect(xml).toContain('hreflang="fr-FR"')
+  expect(xml).toContain(`href="${origin}/fr/factory"`)
   expect(xml).not.toContain(`<loc>${origin}/es/factory</loc>`)
+})
+
+test('fr locale sitemap: /fr URLs + cross-links to en/es', () => {
+  const xml = buildLocaleSitemap(origin, 'fr', [{ path: '/oem-sup-moq', lastmod: '2026-08-20' }])
+  expect(xml).toContain(`<loc>${origin}/fr/oem-sup-moq</loc>`)
+  expect(xml).toContain('hreflang="en-US"')
+  expect(xml).toContain('hreflang="es-ES"')
+  expect(xml).toContain('hreflang="fr-FR"')
+})
+
+test('sitemap single entries emit fr alternate when the fr flag is set', () => {
+  const xml = buildSitemap(origin, [{ loc: '/oem-sup-moq', es: true, fr: true }], { locale: 'none' })
+  expect(xml).toContain(`<loc>${origin}/oem-sup-moq</loc>`)
+  expect(xml).toContain(`href="${origin}/es/oem-sup-moq"`)
+  expect(xml).toContain(`href="${origin}/fr/oem-sup-moq"`)
+  expect(xml).toContain('hreflang="x-default"')
 })
 
 test('sitemap index aggregates per-section files', () => {

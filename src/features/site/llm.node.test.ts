@@ -1,6 +1,7 @@
 ﻿import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
+import { GUIDES_FR } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -50,5 +51,31 @@ test('llms.txt index covers every live page and no shadowed paths', () => {
     } else {
       expect(listedPaths, `llms.txt index missing live page ${path}`).toContain(path)
     }
+  }
+})
+
+test('llms.txt French section: /fr absolute links, French homepage note and guides', () => {
+  const section = llmFrenchIndex('https://supsfactory.com')
+  expect(section).toContain('## Français')
+  expect(section).toContain('— accueil')
+  expect(section).toContain('### Français: Produits')
+  expect(section).toContain('### Français: Guides')
+  expect(section).toContain('### Français: Questions fréquentes')
+  expect(section).toContain('https://supsfactory.com/fr/')
+  for (const g of GUIDES_FR) {
+    expect(section, `llms.txt French section missing guide ${g.slug}`).toContain(`https://supsfactory.com/fr/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt French section: product/news/tech/case/guide bodies present', () => {
+  const fr = llmsFrenchFull()
+  expect(fr).toContain('# Français')
+  expect(fr).toContain('## Produit:')
+  expect(fr).toContain('## Actualité:')
+  expect(fr).toContain('## Technologie:')
+  expect(fr).toContain('## Étude de cas:')
+  expect(fr).toContain('# Guide:')
+  for (const g of GUIDES_FR) {
+    expect(fr, `llms-full.txt French section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
   }
 })

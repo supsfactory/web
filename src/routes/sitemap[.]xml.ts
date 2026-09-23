@@ -9,6 +9,7 @@ const handler = async () => {
     buildSitemapIndex(new URL(env.BETTER_AUTH_URL).origin, [
       'sitemap-pages.xml',
       'sitemap-es.xml',
+      'sitemap-fr.xml',
       'sitemap-products.xml',
       'sitemap-news.xml',
     ]),

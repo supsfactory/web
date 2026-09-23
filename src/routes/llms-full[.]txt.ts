@@ -14,7 +14,8 @@ const handler = async () => {
       llm.llmProjectsFull() +
       llm.llmKnowledgeFull() +
       llm.llmsFull() +
-      llm.llmsSpanishFull(),
+      llm.llmsSpanishFull() +
+      llm.llmsFrenchFull(),
     {
       headers: { 'content-type': 'text/markdown; charset=utf-8' },
     },

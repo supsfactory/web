@@ -13,13 +13,13 @@ import {
   getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
-import { GUIDES_ES } from '@/features/content/guide-content'
+import { GUIDES_ES, GUIDES_FR } from '@/features/content/guide-content'
 import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -429,6 +429,96 @@ export function llmsSpanishFull(): string {
     ...caseBlocks,
     '',
     '# Español: Guías',
+    ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` French section — absolute /fr URLs so LLMs can ingest the mirror directly. */
+export function llmFrenchIndex(origin: string): string {
+  const fr = (path: string) => abs(origin, `/fr${path}`)
+  const productLines = getContentProducts('fr').map((p) => `- [${p.title}](${fr(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('fr').map((a) => `- [${a.title}](${fr(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('fr').map((c) => `- [${c.title}](${fr(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_FR.map((g) => `- [${g.title}](${fr(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('fr')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${fr(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('fr')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## Français',
+    '',
+    `- [${SITE_NAME} — accueil](${fr('/')}): ${LLM_FRENCH_HOMEPAGE_DESCRIPTION}`,
+    '',
+    '### Français: Produits',
+    ...productLines,
+    '',
+    '### Français: Technologie',
+    ...techLines,
+    '',
+    '### Français: Études de cas',
+    ...caseLines,
+    '',
+    '### Français: Guides',
+    ...guideLines,
+    '',
+    '### Français: Actualités',
+    ...newsLines,
+    '',
+    '### Français: Questions fréquentes',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full French text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsFrenchFull(): string {
+  const productBlocks = getContentProducts('fr').map((p) =>
+    [
+      `## Produit: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('fr').map((p) =>
+    [`## Actualité: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('fr').map((a) =>
+    [`## Technologie: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('fr').map((c) => [`## Étude de cas: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_FR.map((g) =>
+    [
+      `# Guide: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## FAQ',
+      ...g.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# Français',
+    ...productBlocks,
+    '',
+    '# Français: Actualités',
+    ...newsBlocks,
+    '',
+    '# Français: Technologie',
+    ...techBlocks,
+    '',
+    '# Français: Études de cas',
+    ...caseBlocks,
+    '',
+    '# Français: Guides',
     ...guideBlocks,
     '',
   ].join('\n\n')

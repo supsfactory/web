@@ -85,15 +85,21 @@ export const Route = createFileRoute('/$')({
     if (loaderData.localized) {
       meta.push({ name: 'robots', content: 'noindex, follow' })
     }
-    // en twin of a page with a real /es translation: emit the es alternate so
-    // hreflang is bidirectional (sitemap already cross-links; the page head
-    // must mirror it �?Google requires the return tag on both sides).
-    const hasEsTwin = !loaderData.localized && loaderData.esTranslated
+// en twin of a page with a real /es or /fr translation: emit the sibling
+    // alternates so hreflang is bidirectional (sitemap cross-links them, and
+    // the page head must mirror it — Google requires the return tag on both
+    // sides).
+    const hasLocTwin = !loaderData.localized && (loaderData.esTranslated || loaderData.frTranslated)
     const links: Record<string, string>[] = [{ rel: 'canonical', href: canonical }]
-    if (hasEsTwin) {
+    if (hasLocTwin) {
       links.push({ rel: 'alternate', hreflang: 'en-US', href: canonical })
-      links.push({ rel: 'alternate', hreflang: 'es-ES', href: `${origin}${localizePath('es', loaderData.path)}` })
       links.push({ rel: 'alternate', hreflang: 'x-default', href: canonical })
+      if (loaderData.esTranslated) {
+        links.push({ rel: 'alternate', hreflang: 'es-ES', href: `${origin}${localizePath('es', loaderData.path)}` })
+      }
+      if (loaderData.frTranslated) {
+        links.push({ rel: 'alternate', hreflang: 'fr-FR', href: `${origin}${localizePath('fr', loaderData.path)}` })
+      }
     }
     return { meta, links }
   },
