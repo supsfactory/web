@@ -25,7 +25,7 @@ import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd, serviceLd, qcHo
 import { brandify } from './brand'
 import { AferIndexProvider, type AferIndexData } from './index-data'
 import { getGuide } from './guide-content'
-import { FACTS, MOQ_SHORT, CERTIFICATION_NAMES } from '@/product/facts'
+import { FACTS, MOQ_SHORT } from '@/product/facts'
 import { SITE_NAME } from '@/config/site'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config/branding'
 import { CUSTOMIZATION_OPTIONS, OEM_APPLICATIONS } from '@/product/ai-content'
@@ -233,7 +233,7 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
       name: t('content.jsonld.productionLeadTime'),
       value: `${FACTS.leadTime} after confirmed PO and deposit`,
     },
-    { '@type': 'PropertyValue', name: t('content.jsonld.certifications'), value: CERTIFICATION_NAMES.join(', ') },
+    { '@type': 'PropertyValue', name: t('content.jsonld.certifications'), value: t('content.product.certificationsScope') },
   ]
   return {
     '@context': 'https://schema.org',
