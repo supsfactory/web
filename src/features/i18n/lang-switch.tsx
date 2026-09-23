@@ -37,11 +37,11 @@ export function LangSwitch() {
           <span>{currentLabel.short}</span>
         </button>
       </PopoverTrigger>
-      <PopoverContent sideOffset={6} className="w-[240px]">
+<PopoverContent sideOffset={6} className="w-[270px]">
         <p className="mb-1.5 px-1 text-xs font-semibold uppercase tracking-wide text-fg-3">
           {t('common.language')}
         </p>
-        <div className="grid grid-cols-1 gap-0.5">
+        <div className="grid grid-cols-5 gap-0.5">
           {SUPPORTED_LOCALES.map((code) => {
             const label = LOCALE_LABELS[code] ?? { native: code, short: code.toUpperCase() }
             const available = activeLocales.includes(code)
@@ -50,11 +50,13 @@ export function LangSwitch() {
               return (
                 <div
                   key={code}
-                  className="flex items-center gap-2 rounded-md px-2 py-1.5 opacity-45"
+                  className="flex flex-col items-center gap-0.5 rounded-md px-1 py-1.5 opacity-40"
                   title={t('common.languageUnavailable')}
                 >
-                  <span className="min-w-0 flex-1 truncate text-[13px] text-fg-2">{label.native}</span>
-                  <span className="text-[11px] font-medium text-fg-3">{label.short}</span>
+                  <span className="text-[12.5px] font-semibold leading-none text-fg-2">{label.short}</span>
+                  <span className="w-full truncate text-center text-[9.5px] leading-tight text-fg-3">
+                    {label.native}
+                  </span>
                 </div>
               )
             }
@@ -66,13 +68,15 @@ export function LangSwitch() {
                   setOpen(false)
                   if (code !== locale) switchLocaleTo(code)
                 }}
-                className={`flex items-center gap-2 rounded-md px-2 py-1.5 text-left text-[13px] transition-colors hover:bg-bg-alt ${
-                  current ? 'font-semibold text-foreground' : 'text-fg-2 hover:text-foreground'
+                className={`relative flex flex-col items-center gap-0.5 rounded-md px-1 py-1.5 transition-colors hover:bg-bg-alt ${
+                  current ? 'bg-bg-alt text-foreground' : 'text-fg-2 hover:text-foreground'
                 }`}
               >
-                <span className="min-w-0 flex-1 truncate">{label.native}</span>
-                <span className="text-[11px] font-medium text-fg-3">{label.short}</span>
-                {current && <Check size={14} className="shrink-0 text-primary" />}
+                <span className="text-[12.5px] font-semibold leading-none">{label.short}</span>
+                <span className="w-full truncate text-center text-[9.5px] leading-tight text-fg-3">
+                  {label.native}
+                </span>
+                {current && <Check size={12} className="absolute right-0.5 top-0.5 shrink-0 text-primary" />}
               </button>
             )
           })}
