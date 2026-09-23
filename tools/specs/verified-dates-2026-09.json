@@ -1,0 +1,14 @@
+{
+  "name": "verified-dates-september-2026",
+  "dir": "src/content/site/pages",
+  "files": "*.yaml",
+  "rules": [
+    { "find": "verified: '2026-08'", "replace": "verified: 'September 2026'" },
+    { "find": "verified: '2026-09'", "replace": "verified: 'September 2026'" },
+    { "find": "verifiedDate: \"2026-08-20\"", "replace": "verifiedDate: \"September 2026\"" },
+    { "find": "last verified 2026-08.", "replace": "last verified September 2026." },
+    { "find": "vérifiées en 2026-08.", "replace": "vérifiées en septembre 2026." },
+    { "find": "vérifiées 2026-08.", "replace": "vérifiées en septembre 2026." },
+    { "find": "por última vez 2026-08.", "replace": "por última vez en septiembre de 2026." }
+  ]
+}

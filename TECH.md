@@ -1,11 +1,11 @@
 # SUPsfactory — Technical Documentation
 
-> Last updated: 2026-08-28
+> Last updated: 2026-09-23
 > Project path: `E:\github\supsfactory`
 > Production: https://supsfactory.com (Cloudflare Workers, `supsfactory-production`)
 > Stack: TanStack Start (React 19) + Cloudflare Workers + D1 (Drizzle ORM) + KV + R2 + better-auth + Resend + Orama (search) + Fumadocs (docs)
 > > Media: All large assets (videos, PDFs, quality photos, product photos) migrated to Cloudflare R2 bucket `supsfactory-files-prod`, served via CDN `assets.supsfactory.com/site/*`; `public/assets/*` directories added to `.gitignore`; upload script `scripts/upload-site-assets.mjs` supports `--prefix <prefix>` for multi-site key isolation.
-> > Tests: 292 (Vitest node + workers pools, 46 files); `pnpm typecheck` / `pnpm build` green
+> > Tests: 300 (Vitest node + workers pools, 46 files); `pnpm typecheck` / `pnpm build` green
 > > Architecture: 5-layer decoupling — Product Layer (`src/product/`) → Site Configuration (`src/config/`) → Website Foundation (`src/features/`) → Cloudflare Platform → Infrastructure. Framework code never imports brand data directly.
 
 ---
@@ -157,7 +157,7 @@ The five legacy landing routes (`custom-sup-manufacturing`, `private-label-sup`,
 | Task | Command |
 |------|---------|
 | Dev server | `pnpm dev` |
-| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 292 tests (46 files) |
+| Tests | `pnpm test` (Vitest: `*.node.test.ts` = pure logic, `*.workers.test.ts` = D1/R2/KV via CF vitest pool) — 300 tests (46 files) |
 | Typecheck / lint / build | `pnpm typecheck` (fumadocs-mdx + tsc) / `pnpm lint` / `pnpm build` |
 | D1 migrations | `pnpm db:generate` → `pnpm db:migrate:local` (local); `db:migrate:staging` / `db:migrate:prod` (remote) |
 | Deploy | `pnpm deploy:staging` / `pnpm deploy:prod` (builds with `CLOUDFLARE_ENV` + `wrangler deploy`); `pnpm deploy:purge` purges the CDN (needs `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ZONE_ID` w/ cache-purge scope); `deploy:prod:all` = deploy + purge |
@@ -212,3 +212,90 @@ When the `ai` and `vectorize` blocks are uncommented in `wrangler.jsonc`, the as
 | Type bindings | `worker-configuration.d.ts` declares `Ai?` and `VectorizeIndex?` as optional — code checks for their presence at runtime to select the tier |
 
 **Workers AI free tier quota:** 10,000 neurons/day — sufficient for light testing, but reindexing exceeds this. **Upgrade to Workers Paid ($5/month) and uncomment the `ai`/`vectorize` blocks in `wrangler.jsonc` for full RAG mode.** The assistant works fully without them in FAQ+corpus keyword search mode.
+
+---
+
+## 8. Multi-language content editing & scripting tools
+
+### 8.1 Content layout & encoding rules
+
+- **Page families** live in `src/content/site/pages/<slug>.yaml` (English) with `<slug>.es.yaml` and `<slug>.fr.yaml` twins — one YAML per language, locale derived from the file suffix. Live URLs are `/es/<path>` and `/fr/<path>` (`localizePath`, `src/config/locales.ts`; English has no prefix). The registry `src/content/site/site/pages.yaml` declares renderable pages; registry-less dedicated pages (e.g. `/solutions/distributors` → `solutions-distributors`) are wired via `EXTRA_PATHS` (`src/product/route-registry.ts`) — a new dedicated content page needs both.
+- **Content files are UTF-8 WITHOUT BOM.** Never let a tool re-encode them. PowerShell 5.1 `Set-Content`/`Out-File` default to ANSI/UTF-16 BOM → mojibake; always read with `[System.IO.File]::ReadAllText(path, [Text.Encoding]::UTF8)` and write with `[System.IO.File]::WriteAllText(path, text, (New-Object System.Text.UTF8Encoding($false)))`. Line endings are preserved by this path.
+- **YAML single-quoted scalars**: an inner apostrophe must be doubled (`''`). French copy is full of them (`l'accord` → `l''accord`). Double-quoted scalars do not need doubling.
+- **Two dates differ**: `verified:`/`verifiedDate:` render "Specifications verified" / "Last verified"; `dateModified` renders on article pages as a change date. Site-wide date unifications touch ONLY the verified fields + prose + the AI-facing constants — never `dateModified`.
+- **AI-facing truth must mirror pages**: `FACTS_VERIFIED` (`src/product/facts.ts`) and `LLM_FACT_BLOCK` (`src/product/ai-content.ts`) carry the verified date for the AI corpus/RAG tier — when a page date changes, update those too.
+
+### 8.2 The rule: every multi-language content change is scripted
+
+When adding, removing or editing content that spans the en/es/fr page families, **generate a spec and run it through `batch-edit-pages.ps1`** instead of hand-editing each file — a change that touches one phrase in three languages and five pages is 15 file edits; a spec is one auditable, re-runnable step (and the run report is the diff proof).
+
+Standard workflow:
+
+1. Write a spec JSON under `tools/specs/` — one rule per language-aware replacement (`filter` picks the locale twin), literal values (accents allowed — the JSON is read as UTF-8).
+2. Dry-run and review: `-DryRun` prints per-rule match counts; the `NOT_FOUND` list catches typos and already-applied values; `-Strict` exits non-zero if any rule replaced nothing.
+3. Real run, then `pnpm build` → `pnpm typecheck` → `pnpm test` (CI also enforces).
+4. Deploy + verify (§8.4).
+5. Commit the spec together with the content change so the edit is traceable.
+
+Spec-derived, non-content changes (routing/intent wiring) still follow their own conventions (§8.6 mistakes 8).
+
+### 8.3 Tool reference (`tools/`)
+
+| Tool | What it does | Usage |
+|------|--------------|-------|
+| `tools/batch-edit-pages.ps1` | Generic find/replace across any subset of the content tree — all locales in one pass; UTF-8 no-BOM preserved; reports to `tools/out/batch-edit.json` (git-ignored). Spec mode (recommended) and inline `-Find/-Replace` mode. | `powershell -ExecutionPolicy Bypass -File tools/batch-edit-pages.ps1 -Spec tools/specs/<change>.json [-DryRun] [-Strict] [-V]` |
+| `tools/check-production-content.ps1` | Post-deploy content verifier: fetches live pages and asserts expected substrings (and optional `<title>` contains); relative URLs resolve against `-Base https://supsfactory.com`; exit non-zero on any MISS/ERROR. Spec mode + inline `-Pairs "url|match"` mode. | `powershell -ExecutionPolicy Bypass -File tools/check-production-content.ps1 -Spec tools/specs/production-check.example.json` |
+| `tools/acceptance-crawl.mjs` | Full-site crawl pre/post deploy: non-200 pages, broken images (CDN/R2 404), `afarer` leftovers, duplicate/oversized meta, per-section URL sweep. | `node tools/acceptance-crawl.mjs https://supsfactory.com` (reports to `tools/out/`) |
+| `tools/locale-check.mjs` | en/es/fr coverage: every page/file must ship a real variant, sitemap URLs vs content registry. | `node tools/locale-check.mjs https://supsfactory.com` |
+| `tools/specs/verified-dates-2026-09.json` | The historical full-site verified-date unification (2026-08/09 → September 2026) — kept verbatim as the canonical spec example; now idempotent (0 matches) and safe to re-run any time. | via `batch-edit-pages.ps1` |
+| `tools/specs/production-check.example.json` | The production spot-checks used to verify the September-2026 round on the live site (10 URL+substring checks incl. es/fr). | via `check-production-content.ps1` |
+
+Spec JSON format (`batch-edit-pages.ps1`):
+
+```json
+{
+  "name": "short description",
+  "dir": "src/content/site/pages",
+  "files": "*.yaml",
+  "rules": [
+    {
+      "name": "optional label",
+      "filter": "\\.es\\.yaml$",
+      "find": "old text",
+      "replace": "new text",
+      "regex": false
+    }
+  ]
+}
+```
+
+Common filters: omit `filter` = all locales; `\\.es\\.yaml$` / `\\.fr\\.yaml$` = that twin only; `^(?!.*\\.(?:es|fr)\\.yaml$)` = English base files only. Point `dir` at `src/content/site` to cover news/products/technology too.
+
+### 8.4 Deployment & verification loop (content-only changes)
+
+```bash
+pnpm build && pnpm typecheck && pnpm test
+git add -A && git commit -m "fix(content): ..."
+git -c http.proxy=http://127.0.0.1:10810 push origin main   # local env; CI deploys ~1-2 min
+# verify (wait for the edge cache to refresh):
+powershell -ExecutionPolicy Bypass -File tools/check-production-content.ps1 -Spec tools/specs/production-check.example.json
+node tools/acceptance-crawl.mjs https://supsfactory.com
+```
+
+Crawl informational fields (long titles, `158:99` desc lengths, a missing `.avif`/`.webp`) may be **pre-existing**, not caused by your change — check `git log`/working tree before "fixing" to avoid noise.
+
+### 8.5 Mistakes log — technical errors recorded so they are not repeated
+
+1. **PowerShell typed-param variable collision (2026-09-23).** PS variable names are case-insensitive, and a `param([string]$Spec)` declaration makes `$Spec` a **typed variable that coerces later assignments**. A local `$spec = $json | ConvertFrom-Json` collides with `$Spec` — the parsed object silently degrades to a String, `$spec.rules` is missing and the rule set is lost without any error. Same hazard: local `$files` vs param `$Files`. Fix: never reuse a param name (case-insensitively) for locals — parser locals are `$parsed`, `$fileList`, etc.
+2. **UTF-8 BOM/encoding.** Content YAML is UTF-8 no BOM. PowerShell `Set-Content/Out-File` re-encode (ANSI/BOM/UTF-16) → mojibake. Always `[System.IO.File]::*` + `UTF8Encoding($false)`. PS 5.1 **console** mojibake for accented output is display-only (console codepage) — the written file bytes are correct. Accented literals inside a `.ps1` itself require the `.ps1` to be saved with a BOM (PS 5.1 parse); the tools here instead keep `.ps1` ASCII-only and put accents in the UTF-8 JSON specs.
+3. **`rg` is unavailable in this PowerShell 5.1 environment** — use the editor's grep tool or `Select-String` in scripts; don't call ripgrep in tooling.
+4. **`pnpm build` BEFORE `pnpm typecheck`** — the route tree is generated at build (AGENTS.md). Adding/moving routes without a rebuild fails typecheck on stale `routeTree.gen.ts`.
+5. **`verified:`/`verifiedDate:` ≠ `dateModified`.** The site-wide date unification (P0-6) touched only verified fields + prose + `FACTS_VERIFIED`/`LLM_FACT_BLOCK`; `dateModified` was deliberately left alone. Mixing them up produces "changed" diffs that alter visible dates users didn't ask about.
+6. **AI-facing constants must mirror page dates**: `FACTS_VERIFIED` (`facts.ts`) and `LLM_FACT_BLOCK` (`ai-content.ts`) feed the AI/RAG corpus; forgetting them leaves the assistant answering with stale verification dates.
+7. **Audit grep false positives.** "Hits" like `©1970` or `2,500` are inline SVG path coordinates inside components (the WhatsApp/WeChat icons), not page content — verify a hit is real rendered text (ideally on the live page) before "fixing" it.
+8. **Contact deep-links are `#hash`-based.** `validateSearch` only accepts `product`/`category` — query strings are dropped, so `/contact?partner=distributor` silently did nothing. A new gateway/intent needs: an entry in `INTENT_ANCHORS` (`src/routes/{-$locale}/contact.tsx`) + `contact.intentLabels['...']` in **all three** dictionaries (en/es/fr) + the `#anchor` link itself.
+9. **FR apostrophes in YAML single-quoted strings** must be doubled (`''`); single quotes written raw truncate/garble the scalar.
+10. **Claim-softening policy**: competence/commitment numbers are agreed facts — never lower them without confirmation. New qualifiers are additive (`subject to commercial agreement`, `per project scope`, `(where applicable)`), applied identically across en/es/fr.
+11. **Nested `powershell -Command "..."` $-expansion** — the outer shell expands `$...` before the inner one sees it (tooling footer: `powershell -Command "& { ... $Spec ... }" -Spec x` breaks). Put the code in a `.ps1` and run it with `-File`.
+12. **Push must use the local proxy**: `git -c http.proxy=http://127.0.0.1:10810 push origin main`; a plain `git push` fails on this network.
+13. **Report artifacts vs committed inputs**: `tools/out/*.json` are runtime reports and git-ignored; the committed, reviewable inputs are the specs in `tools/specs/`. Commit specs with the content change.

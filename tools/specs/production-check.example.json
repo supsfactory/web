@@ -1,0 +1,14 @@
+{
+  "checks": [
+    { "url": "/factory", "match": "September 2026" },
+    { "url": "/factory", "match": "QMS: ISO 9001", "title": "Factory" },
+    { "url": "/es/factory", "match": "SGQ: ISO 9001" },
+    { "url": "/factory/quality-change-control", "match": "distinct from the 0.50 PSI auto-reject threshold" },
+    { "url": "/solutions/distributors", "match": "subject to commercial agreement" },
+    { "url": "/es/solutions/distributors", "match": "sujetas al acuerdo comercial" },
+    { "url": "/es/solutions/distributors", "match": "/es/contact#distributor" },
+    { "url": "/fr/solutions/distributors", "match": "accord commercial" },
+    { "url": "/warranty", "match": "where applicable" },
+    { "url": "/proof-center", "match": "One Manufacturing Operation, One Legal Entity" }
+  ]
+}
