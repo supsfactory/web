@@ -7,6 +7,8 @@ export const inquiry = sqliteTable('inquiry', {
   company: text('company').notNull().default(''),
   website: text('website').notNull().default(''),
   country: text('country').notNull().default(''),
+  projectType: text('project_type').notNull().default(''),       // InquiryProjectType
+  existingDesign: text('existing_design').notNull().default(''), // InquiryExistingDesign
   email: text('email').notNull(),
   whatsapp: text('whatsapp').notNull().default(''),
   businessType: text('business_type').notNull().default('other'), // InquiryBusinessType

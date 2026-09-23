@@ -19,7 +19,7 @@ const MODE_ENTRIES = [
     icon: Lightbulb,
     buyerState: 'Have a product idea or market positioning',
     ctaLabel: 'Develop a Board From Your Brief',
-    href: '/odm-development',
+    href: '/odm-manufacturing',
   },
   {
     key: 'privateLabel' as const,

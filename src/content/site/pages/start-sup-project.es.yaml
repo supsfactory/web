@@ -65,7 +65,7 @@ collaboration_types:
       title: 'Desarrollo ODM'
       desc: 'Provees el brief. Desarrollamos la tabla. Plataforma adaptada con tu marca. Mejor para marcas que entran al mercado sin diseño interno.'
       link_label: 'Ver detalles ODM'
-      href: /es/odm-development
+      href: /es/odm-manufacturing
     - icon: P
       icon_bg: purple
       title: 'Private Label / Co-Branding'

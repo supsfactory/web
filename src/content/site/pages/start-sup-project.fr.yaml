@@ -65,7 +65,7 @@ collaboration_types:
       title: 'Développement ODM'
       desc: 'Vous fournissez le brief. Nous développons la planche. Plateforme adaptée avec votre marque. Idéal pour les marques entrant sur le marché sans design interne.'
       link_label: 'Voir les détails ODM'
-      href: /fr/odm-development
+      href: /fr/odm-manufacturing
     - icon: P
       icon_bg: purple
       title: 'Marque privée / co-marquage'

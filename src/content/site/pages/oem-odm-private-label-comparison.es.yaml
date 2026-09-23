@@ -78,7 +78,7 @@ scenario_cards:
       icon_bg: 'green'
       title: 'Tienes un concepto de producto pero sin especificación de ingeniería'
       desc: 'Conoces el mercado objetivo, el punto de precio y los requisitos de rendimiento, pero necesitas soporte de ingeniería para desarrollar la tabla. Elige ODM — nuestro equipo desarrolla desde tu brief, tú apruebas antes de la producción.'
-      link: '/es/odm-development'
+      link: '/es/odm-manufacturing'
       link_label: 'Detalles de desarrollo ODM'
     - icon: '3'
       icon_bg: 'orange'

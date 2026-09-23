@@ -65,6 +65,7 @@ export function SiteNav() {
           label: t('sup.nav.productsServicesDropdown.exploreGroup'),
           items: [
             { label: t('sup.nav.productsServicesDropdown.manufacturer'), href: '/oem-manufacturing' },
+            { label: t('sup.nav.productsServicesDropdown.odmManufacturing'), href: '/odm-manufacturing' },
             { label: t('sup.nav.productsServicesDropdown.constructionComparison'), href: '/sup-construction-comparison' },
             { label: t('sup.nav.productsServicesDropdown.privateLabel'), href: '/solutions/private-label-sup' },
             { label: t('sup.nav.productsServicesDropdown.comparison'), href: '/oem-odm-private-label-comparison' },
@@ -107,6 +108,9 @@ export function SiteNav() {
             { label: t('sup.nav.proofQualityDropdown.quality'), href: '/quality' },
             { label: t('sup.nav.proofQualityDropdown.complianceByMarket'), href: '/sup-compliance-by-market' },
             { label: t('sup.nav.proofQualityDropdown.auditChecklist'), href: '/factory-audit-checklist' },
+            { label: t('sup.nav.proofQualityDropdown.manufacturingCapabilities'), href: '/manufacturing-capabilities' },
+            { label: t('sup.nav.proofQualityDropdown.verifyFactory'), href: '/verify-factory' },
+            { label: t('sup.nav.proofQualityDropdown.qualityEvidence'), href: '/proof-center' },
             { label: t('sup.nav.proofQualityDropdown.technology'), href: '/technology' },
           ],
         },

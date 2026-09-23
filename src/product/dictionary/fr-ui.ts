@@ -305,9 +305,9 @@ export const frUi = {
       faqDesc: 'Foire aux questions sur la fabrication OEM/ODM de SUP gonflables — matériaux, certifications, quantités minimales de commande et approvisionnement en gros.',
       waitlistTitle: 'Rejoignez la liste d\'attente',
       waitlistDesc: 'Nous vous préviendrons dès le lancement.',
-      homeTitle: 'Fabrication de SUP gonflables personnalisés | OEM/ODM pour marques et distributeurs',
-      homeDesc: '{siteName} fabrique des SUP gonflables personnalisés pour des marques et distributeurs : spécification, échantillons, contrôle qualité, emballage et production prête pour l\'export.',
-      homeOgTitle: '{siteName} — Fabrication de SUP gonflables personnalisés',
+      homeTitle: 'Fabricant de SUP gonflables et usine OEM/ODM à Qingdao, Chine',
+      homeDesc: '{siteName} est un fabricant de SUP gonflables et une usine OEM/ODM à Qingdao, en Chine : ingénierie, prototypes, production en série sous contrôle qualité, emballage et livraison prête pour l\'export.',
+      homeOgTitle: '{siteName} — Fabricant de SUP gonflables et usine OEM/ODM',
     },
     jsonld: {
       moq: 'Quantité minimale de commande (MOQ)',

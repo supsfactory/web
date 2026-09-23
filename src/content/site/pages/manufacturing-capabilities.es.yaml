@@ -1,0 +1,125 @@
+meta:
+  title: 'Capacidades de fabricación de SUP | Fábrica de tablas inflables'
+  description: 'Capacidades de fabricación de SUP en Qingdao: ingeniería de casco interna (0,1 mm), procesado de drop-stitch, soldadura HF, impresión, moldes, control de calidad de 100 puntos y 120 000+ tablas al año.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'capacidades de fabricación de SUP'
+    - 'capacidades de fábrica de paddle boards'
+    - 'fabricación de SUP integrada'
+    - 'capacidades de producción de tablas'
+    - 'fábrica de SUP Qingdao'
+
+hero:
+  tagline: Capacidades de fabricación
+  title: 'Capacidades de fabricación de SUP'
+  subtitle: 'Cada etapa — ingeniería de casco, procesado del tejido drop-stitch, soldadura de alta frecuencia, impresión, moldes, ensamblaje, pruebas y embalaje — se realiza internamente en nuestra planta de 12 500 m² en Qingdao: un solo equipo responsable desde el primer dibujo hasta el contenedor enviado.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'La fabricación de SUP está completamente integrada en nuestra planta de Qingdao: diseño e ingeniería dimensional de casco con precisión CNC de 0,1 mm; procesado del tejido drop-stitch y soldadura HF en 4 líneas automatizadas; impresión de gráficas; corte de tapetes EVA; moldes a medida (+15–20 días para formas nuevas); ensamblaje según checklist de 100 puntos; y prueba de presión de 18,0 PSI durante 24 horas con rechazo automático por encima de una caída de 0,50 PSI. La capacidad anual es de 120 000+ tablas (unas 10 000/mes) desde 4 talleres especializados con 350+ trabajadores, enviadas a más de 50 países bajo tu marca.'
+  verified: '2026-09'
+
+capabilities:
+  tagline: Capacidades internas
+  title: 'Grupos de capacidades, todos realizados en fábrica'
+  subtitle: 'Cada capacidad que aparece abajo se ejecuta dentro de la fábrica, lo que acorta plazos, integra el control de calidad en cada paso y mantiene tu especificación en un solo lugar.'
+  groups:
+    - title: Diseño e Ingeniería
+      items:
+        - 'Diseño de casco e ingeniería dimensional'
+        - 'Precisión CNC de 0,1 mm'
+        - 'Diseño de moldes y utilaje a medida'
+        - 'Gráficas de packaging y retail'
+    - title: Producción
+      items:
+        - 'Procesado del tejido drop-stitch'
+        - 'Soldadura HF 15 kW (4 líneas automatizadas)'
+        - 'Impresión de gráficas'
+        - 'Corte de tapetes EVA'
+        - 'Ensamblaje y acabado de tablas'
+        - 'Kitting de accesorios'
+    - title: Calidad y Cumplimiento
+      items:
+        - 'Checklist de ensamblaje de 100 puntos'
+        - 'Sujeción de presión 18,0 PSI · 24 h'
+        - 'Muestreo ISO 2859-1 nivel II'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - 'Trazabilidad de lote a 10 años'
+    - title: Servicio y Logística
+      items:
+        - 'Muestras prototipo en 7–12 días'
+        - 'Producción en 25–35 días'
+        - 'Moldes a medida en +15–20 días'
+        - 'FOB Qingdao · CIF · DDP a 50+ países'
+
+table:
+  headers:
+    capability: Capacidad
+    in_house: En fábrica
+    standard: Qué incluye el estándar
+  rows:
+    - capability: 'Diseño de casco e ingeniería dimensional'
+      in_house: 'Sí — equipo de ingeniería interno'
+      standard: 'Diseñado y validado antes del molde; precisión CNC de 0,1 mm para moldes y corte'
+    - capability: 'Procesado del tejido drop-stitch'
+      in_house: 'Sí — producción interna del núcleo'
+      standard: 'Densidad drop-stitch 12–15 PSI, anidamiento optimizado por tamaño de tabla'
+    - capability: 'Soldadura HF y construcción de costuras'
+      in_house: 'Sí — en fábrica'
+      standard: 'Capacidad de soldadura HF de 15 kW en 4 líneas de producción automatizadas'
+    - capability: 'Impresión y gráficas'
+      in_house: 'Sí — diseño e impresión internos'
+      standard: 'Paletas ilimitadas, gráficas a sangre completa, apoyo de diseño de la fábrica'
+    - capability: 'Corte de tapetes EVA'
+      in_house: 'Sí — en fábrica'
+      standard: 'Especificación EVA 45–55 Shore C, cortes a medida y logotipos'
+    - capability: 'Moldes y utilaje a medida'
+      in_house: 'Sí — taller de moldes interno'
+      standard: 'Molde de forma nueva: +15–20 días; moldes propiedad de la fábrica salvo acuerdo'
+    - capability: 'Ensamblaje y acabado de tablas'
+      in_house: 'Sí — en fábrica'
+      standard: 'Checklist de ensamblaje de 100 puntos; asas, anillas D y accesorios según especificación'
+    - capability: 'Pruebas de presión y carga'
+      in_house: 'Sí — banco de pruebas interno'
+      standard: 'Sujeción de presión 18,0 PSI 24 h, rechazo automático por encima de 0,50 PSI'
+    - capability: 'Inspección final y trazabilidad'
+      in_house: 'Sí — equipo QC interno'
+      standard: 'Muestreo ISO 2859-1 nivel II; trazabilidad ERP de lote a 10 años por serie'
+    - capability: 'Embalaje y exportación'
+      in_house: 'Kitting interno + logística certificada'
+      standard: 'Cajas retail, embalaje marítimo y etiquetas de serie bajo tu marca'
+
+faq_section:
+  tagline: FAQ
+  title: Preguntas sobre las capacidades de fabricación
+  questions:
+    - q: ¿Qué procesos de fabricación son internos?
+      a: 'Todos los procesos clave están integrados: ingeniería de casco, procesado del tejido drop-stitch, soldadura HF, impresión, corte EVA, ensamblaje, pruebas y embalaje. Los accesorios y algunas materias primas provienen de proveedores certificados; el kitting final se realiza internamente para una trazabilidad completa.'
+    - q: ¿Cuál es su capacidad de producción?
+      a: '120 000+ tablas al año (unas 10 000/mes) en 4 líneas automatizadas y 4 talleres especializados dentro de una planta de 12 500 m² con más de 350 trabajadores.'
+    - q: ¿Qué MOQ aplica a estas capacidades?
+      a: 'La producción de volumen estándar comienza en 90–100+ unidades por configuración aprobada (un rollo de tejido drop-stitch de 150 m); los pilotos comienzan en 20–50 unidades en plataformas existentes; pedidos solo logo desde 5–10 unidades.'
+    - q: ¿Qué plazos debemos prever?
+      a: 'Muestras prototipo en 7–12 días; producción en 25–35 días tras confirmar el pedido y el depósito; el desarrollo de molde a medida añade 15–20 días.'
+    - q: ¿Cómo se traducen las capacidades en calidad?
+      a: 'Cada etapa alimenta el sistema de calidad en 7 etapas: checklist de ensamblaje de 100 puntos, sujeción de presión 18,0 PSI 24 h con rechazo automático por encima de 0,50 PSI, muestreo ISO 2859-1 nivel II y trazabilidad ERP de lote a 10 años.'
+
+cta:
+  title: 'Mira qué capacidades encajan con tu proyecto'
+  subtitle: 'Envía tu brief de producto — revisión de ingeniería y cotización ajustada a capacidades en un día laboral.'
+  actions:
+    - variant: primary
+      text: Solicitar una cotización de fabricación
+      href: /es/contact#custom-oem
+    - text: Visita a la fábrica
+      href: /es/factory
+    - text: Proceso de producción
+      href: /es/factory/process
+    - text: Capacidad y plazos de la fábrica
+      href: /es/factory/capacity
+    - text: Calidad y pruebas
+      href: /es/quality
+    - text: Proof Center — evidencias de fábrica
+      href: /es/proof-center
+    - text: Fabricación OEM y ODM
+      href: /es/oem-manufacturing

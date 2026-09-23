@@ -9,7 +9,19 @@
  */
 export const LLMS_TXT = `# SUPsfactory
 
-> SUPsfactory is the SUP product development and manufacturing division of Qingdao Vatrad Group Co., Ltd. — a 12,500 m² inflatable manufacturing plant in Qingdao, China (Laixi Economic Development Zone), producing since 2012. We manufacture exclusively under our clients' brands: engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. The plant runs two production shifts daily with 25+ engineers across R&D, mold design, materials lab and production engineering, averaging 7+ years in inflatable manufacturing.
+> SUP OEM & ODM Manufacturer — Qingdao, China.
+
+SUPsfactory manufactures inflatable stand-up paddle boards for brands, distributors, retailers and outdoor businesses, as the SUP product development and manufacturing division of Qingdao Vatrad Group Co., Ltd. — a 12,500 m² inflatable manufacturing plant in Qingdao, China (Laixi Economic Development Zone), producing since 2012. We manufacture exclusively under our clients' brands: engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. The plant runs two production shifts daily with 25+ engineers across R&D, mold design, materials lab and production engineering, averaging 7+ years in inflatable manufacturing.
+
+## Core capabilities
+
+- OEM manufacturing
+- ODM product development
+- Product engineering
+- Prototyping
+- Mass production
+- Quality control
+- Export production
 
 ## Key facts
 
@@ -38,7 +50,7 @@ export const LLMS_TXT = `# SUPsfactory
 - [OEM manufacturing](https://supsfactory.com/oem-manufacturing): manufacture your existing design or spec — engineering review, samples, container-scale runs with compliance documentation.
 - [Custom SUP MOQ & lead time](https://supsfactory.com/sup-oem-moq-lead-time): the MOQ and lead-time framework — samples (1–2 boards, 7–12 days), trial/pilot orders (20–50 boards), standard volume (90–100+ boards per 150 m roll) and production in 25–35 days.
 - [Launch a SUP brand with a low-MOQ trial order](https://supsfactory.com/new-brand-trial-order): launch path for new brands — samples, a 20–50 board trial order, indicative price ranges and the guaranteed route to volume runs.
-- [ODM SUP product development](https://supsfactory.com/odm-development): your brief becomes an engineered hull, graphics and prototype, designed and built in-house.
+- [SUP ODM manufacturing](https://supsfactory.com/odm-manufacturing): your brief becomes an engineered hull, graphics and prototype, designed and built in-house.
 - [Request a quotation](https://supsfactory.com/contact): submit board type, size, quantity, printing method, accessories, target market and required launch timing for a project quote. The form accepts attached project files (spec sheets, sketches, briefs — engineering drawings, PDFs and image/vector formats) so a quote can be built from your actual specs.
 
 ## Factory & quality
@@ -46,6 +58,8 @@ export const LLMS_TXT = `# SUPsfactory
 - [Factory and manufacturing capability](https://supsfactory.com/factory): production processes, equipment, capacity and OEM capability of the Vatrad facility in Qingdao.
 - [Quality, testing and certifications](https://supsfactory.com/quality): CE and ISO compliance, in-line inspection, air-retention and pressure testing, batch quality control.
 - [R&D center](https://supsfactory.com/randdcenter): hull engineering, hydrodynamic test tank, prototype workshop, PVC fabric lab, RF welding, quality inspection lab.
+- [Manufacturing capabilities](https://supsfactory.com/manufacturing-capabilities): the six in-house manufacturing capabilities — CNC cutting, RF dielectric welding, drop-stitch lamination, deck graphics, assembly and export packing — all run inside the plant.
+- [Verify the factory](https://supsfactory.com/verify-factory): how to cross-check SUPsfactory's business records, certifications and factory evidence before committing.
 - [Technology](https://supsfactory.com/technology): drop-stitch core construction, military-grade PVC, Hypalon tubes, air-deck floor.
 - [Proof Center — factory evidence](https://supsfactory.com/proof-center): entity relationships (SUPsfactory / Vatrad / Qingdao Vatrad Group), certificates with scope, equipment list, batch traceability sample and inspection documentation.
 

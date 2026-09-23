@@ -1,6 +1,8 @@
 /** Shared inquiry types + validation limits (pure, node-testable). */
 
 export type InquiryBusinessType = 'brand' | 'retailer' | 'distributor' | 'resort' | 'club' | 'rental' | 'corporate' | 'other'
+export type InquiryProjectType = 'oem' | 'odm' | 'private-label' | 'prototype' | 'bulk' | 'other'
+export type InquiryExistingDesign = 'cad' | 'drawing' | 'reference' | 'existing-sup' | 'concept'
 export type InquiryQuantity = 'q1-9' | 'q10-49' | 'q50-99' | 'q100-299' | 'q300-499' | 'q500' | 'unsure'
 export type InquiryCategory =
   | 'all-around'
@@ -30,6 +32,8 @@ export type InquiryStatus = 'new' | 'contacted' | 'quoted' | 'closed'
 export type InquiryTier = 'A' | 'B' | 'C'
 
 export const BUSINESS_TYPES: InquiryBusinessType[] = ['brand', 'retailer', 'distributor', 'resort', 'club', 'rental', 'corporate', 'other']
+export const PROJECT_TYPES: InquiryProjectType[] = ['oem', 'odm', 'private-label', 'prototype', 'bulk', 'other']
+export const EXISTING_DESIGNS: InquiryExistingDesign[] = ['cad', 'drawing', 'reference', 'existing-sup', 'concept']
 export const QUANTITIES: InquiryQuantity[] = ['q1-9', 'q10-49', 'q50-99', 'q100-299', 'q300-499', 'q500', 'unsure']
 export const CATEGORIES: InquiryCategory[] = [
   'all-around', 'race', 'surf', 'touring', 'yoga', 'whitewater', 'fishing', 'kids', 'multi', 'hard', 'accessories', 'multiple', 'unsure',
@@ -48,6 +52,7 @@ export const STATUSES: InquiryStatus[] = ['new', 'contacted', 'quoted', 'closed'
 export const TIERS: InquiryTier[] = ['A', 'B', 'C']
 
 export const INQUIRY_LIMITS = {
+  nameMax: 120,
   companyMax: 120,
   websiteMax: 200,
   countryMax: 80,
@@ -146,9 +151,12 @@ export const FREE_MAIL_DOMAINS = [
 ]
 
 export type InquiryInput = {
+  name: string
   company: string
   website: string
   country: string
+  projectType: string
+  existingDesign: string
   email: string
   whatsapp: string
   businessType: string
@@ -187,9 +195,12 @@ export function clampInquiryInput(d: unknown): InquiryInput {
           .slice(0, max)
       : pick(v, allowed)
   return {
+    name: s(o.name, INQUIRY_LIMITS.nameMax).trim(),
     company: s(o.company, INQUIRY_LIMITS.companyMax).trim(),
     website: s(o.website, INQUIRY_LIMITS.websiteMax).trim().replace(/^https?:\/\//i, ''),
     country: s(o.country, INQUIRY_LIMITS.countryMax).trim(),
+    projectType: pick(o.projectType, PROJECT_TYPES),
+    existingDesign: pick(o.existingDesign, EXISTING_DESIGNS),
     email: s(o.email, INQUIRY_LIMITS.emailMax).trim().toLowerCase(),
     whatsapp: s(o.whatsapp, INQUIRY_LIMITS.whatsappMax).trim(),
     businessType: pick(o.businessType, BUSINESS_TYPES),
@@ -236,10 +247,13 @@ export function checkProjectFile(file: File): FileCheck {
  */
 export function isValidInquiry(input: InquiryInput): boolean {
   return (
+    input.name.length >= 2 &&
     input.company.length >= 2 &&
     isValidInquiryEmail(input.email) &&
     (input.country.length > 0 || input.targetMarket.length > 0) &&
     input.businessType !== '' &&
+    input.projectType !== '' &&
+    input.existingDesign !== '' &&
     input.quantity !== '' &&
     input.category !== '' &&
     input.timeline !== '' &&

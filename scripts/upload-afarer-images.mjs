@@ -207,11 +207,14 @@ async function run() {
   }
 
   const keys = files.map((f) => `${KEY_PREFIX}${relative(SRC_DIR, f).split(sep).join('/')}`)
+  // Legacy objects are branded `afarer-*`. Upload each file under its new
+  // `supsfactory-*` key too (public URLs reference the clean name only).
+  const aliases = keys.map((k) => (k.includes('afarer-') ? k.replace('afarer-', 'supsfactory-') : null))
   const totalBytes = (await Promise.all(files.map((f) => stat(f)))).reduce((n, s) => n + s.size, 0)
 
   if (DRY_RUN) {
     console.log(`[dry-run] ${files.length} files, ${(totalBytes / 1024 / 1024).toFixed(1)} MiB -> ${BUCKET} (${KEY_PREFIX}*)`)
-    for (const k of keys) console.log(`  ${k}`)
+    for (let i = 0; i < keys.length; i++) console.log(`  ${keys[i]}${aliases[i] && aliases[i] !== keys[i] ? `  ->  ${aliases[i]}` : ''}`)
     return
   }
 
@@ -220,49 +223,59 @@ async function run() {
     process.exit(1)
   }
   if (MISSING_ONLY && !DRY_RUN) {
-    console.log(`Checking ${keys.length} keys for existing objects (--missing)...`)
+    const targets = keys.flatMap((k, i) => (aliases[i] && aliases[i] !== k ? [k, aliases[i]] : [k]))
+    console.log(`Checking ${targets.length} object keys for existing objects (--missing)...`)
     const present = new Set()
-    const probeQueue = [...keys]
+    const probeQueue = [...targets]
     let checked = 0
     async function probeWorker() {
       while (probeQueue.length > 0) {
         const key = probeQueue.shift()
         if (!(await isMissingHttp(key))) present.add(key)
         checked++
-        if (checked % 50 === 0) console.log(`  probed ${checked}/${keys.length}`)
+        if (checked % 50 === 0) console.log(`  probed ${checked}/${targets.length}`)
       }
     }
-    await Promise.all(Array.from({ length: Math.min(CONCURRENCY, keys.length) }, probeWorker))
-    const missing = keys.filter((k) => !present.has(k))
-    console.log(`  ${missing.length} missing (${keys.length - missing.length} already present, skipped)`)
-    if (missing.length === 0) {
+    await Promise.all(Array.from({ length: Math.min(CONCURRENCY, targets.length) }, probeWorker))
+    const missing = new Set(targets.filter((k) => !present.has(k)))
+    console.log(`  ${missing.size} missing (${targets.length - missing.size} already present, skipped)`)
+    if (missing.size === 0) {
       console.log('Nothing to upload.')
       return
     }
-    const missingSet = new Set(missing)
-    keys.splice(0, keys.length, ...missing)
-    // Keep localPath aligned with the trimmed key list (upload loop maps by index).
-    for (let i = files.length - 1; i >= 0; i--) {
-      const k = `${KEY_PREFIX}${relative(SRC_DIR, files[i]).split(sep).join('/')}`
-      if (!missingSet.has(k)) files.splice(i, 1)
+    // Trim files/keys/aliases so only jobs with at least one missing target remain.
+    for (let i = keys.length - 1; i >= 0; i--) {
+      const k = keys[i]
+      if (!missing.has(k) && (!aliases[i] || !missing.has(aliases[i]))) {
+        keys.splice(i, 1)
+        aliases.splice(i, 1)
+        files.splice(i, 1)
+      }
     }
   }
 
-  console.log(`Uploading ${files.length} files (${(totalBytes / 1024 / 1024).toFixed(1)} MiB) to ${BUCKET} under ${KEY_PREFIX}*`)
+  const uploadTargets = keys.map((key, i) => ({
+    targets: [key, ...(aliases[i] && aliases[i] !== key ? [aliases[i]] : [])],
+    localPath: files[i],
+  }))
+  const totalTargets = uploadTargets.reduce((n, j) => n + j.targets.length, 0)
+  console.log(`Uploading ${uploadTargets.length} files (${totalTargets} keys, ${(totalBytes / 1024 / 1024).toFixed(1)} MiB) to ${BUCKET} under ${KEY_PREFIX}*`)
   let done = 0
   let failed = 0
-  let queue = [...keys.map((key, i) => ({ key, localPath: files[i] }))]
+  let queue = [...uploadTargets]
 
   async function worker() {
     while (queue.length > 0) {
       const job = queue.shift()
-      try {
-        await upload(job.key, job.localPath)
-        done++
-        console.log(`  [${done}/${keys.length}] ok ${job.key}`)
-      } catch (err) {
-        failed++
-        console.error(`  FAILED ${job.key}: ${err.message}`)
+      for (const key of job.targets) {
+        try {
+          await upload(key, job.localPath)
+          done++
+          console.log(`  [${done}/${totalTargets}] ok ${key}`)
+        } catch (err) {
+          failed++
+          console.error(`  FAILED ${key}: ${err.message}`)
+        }
       }
     }
   }

@@ -71,7 +71,7 @@ collaboration_modes:
       title: 'ODM Development'
       desc: 'You provide the brief — target rider weight, use-case, price point — and our engineering team develops the board from your requirements. Adapted platform with your branding. Best for brands entering the market without in-house design capability.'
       link_label: 'How ODM works'
-      href: /odm-development
+      href: /odm-manufacturing
     - icon: P
       icon_bg: purple
       title: 'Private Label / Co-Branding'

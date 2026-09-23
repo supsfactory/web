@@ -32,7 +32,8 @@ export async function sendInquiryNotification(apiKey: string | null, from: strin
   const subject = `[${SITE_NAME}] [${i.tier}] ${i.businessType} inquiry: ${i.company || i.email} (${i.category}, score ${i.score})`
   const text = [
     `Lead tier: ${i.tier} (score ${i.score})`,
-    `Company: ${i.company || '—'}`,
+    `Contact: ${i.name || '—'} · ${i.company || '—'}`,
+    `Project type: ${i.projectType || '—'} · Existing design: ${i.existingDesign || '—'}`,
     `Website: ${i.website || '—'}`,
     `Country: ${i.country || '—'} · Target market: ${i.targetMarket || '—'}`,
     `Email: ${i.email}`,
@@ -54,7 +55,9 @@ export async function sendInquiryNotification(apiKey: string | null, from: strin
     '<div style="font-family:Arial,sans-serif;max-width:560px;margin:auto">',
     `<h2 style="color:#0b2540">New project inquiry — Tier ${e(i.tier)} (score ${e(String(i.score))})</h2>`,
     '<table style="border-collapse:collapse;width:100%;font-size:14px">',
-    row('Company', e(i.company)),
+    row('Contact', `${e(i.name)}${i.company ? ` (${e(i.company)})` : ''}`),
+    row('Project type', e(i.projectType)),
+    row('Existing design', e(i.existingDesign)),
     row('Website', e(i.website)),
     row('Country / market', `${e(i.country)}${i.targetMarket ? ` / ${e(i.targetMarket)}` : ''}`),
     row('Email', `<a href="mailto:${e(i.email)}">${e(i.email)}</a>`),

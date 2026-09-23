@@ -13,4 +13,4 @@ export const PRODUCT_BUILD_LINE =
 export const PRODUCT_NOT_ROB =
   'We do not sell to end consumers and we do not compete with our clients in any market.'
 
-export const PRODUCT_OG_IMAGE_FILENAME = 'afarer-og-default'
+export const PRODUCT_OG_IMAGE_FILENAME = 'supsfactory-og-default'

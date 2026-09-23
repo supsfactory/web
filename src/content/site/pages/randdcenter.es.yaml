@@ -105,19 +105,19 @@ labs_section:
   tagline: Laboratorios
   title: Nuestros laboratorios
   labs:
-    - image: https://assets.supsfactory.com/images/sups/randd/afarer-pvc-material-lab.webp
+    - image: https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp
       title: Laboratorio de tejidos PVC
       description: 'Investigación y ensayo continuos de tejidos para tubos de PVC y Hypalon: resistencia a la tracción, resistencia UV, abrasión y flexibilidad a baja temperatura, para garantizar una fiabilidad a largo plazo en entornos marinos.'
       href: /es/randdcenter
-    - image: https://assets.supsfactory.com/images/sups/factory/afarer-design-discussion-2.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-2.webp
       title: Estudio de ingeniería de cascos
       description: Diseño asistido por CAD y análisis por elementos finitos de cascos de HDPE, aluminio y fibra de vidrio. Cada casco se simula digitalmente para evaluar la distribución de tensiones y la resistencia al impacto antes de construir el primer prototipo.
       href: /es/randdcenter
-    - image: https://assets.supsfactory.com/images/sups/factory/afarer-sup-manufacturing-3.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing-3.webp
       title: Centro de soldadura RF
       description: Instalación dedicada de soldadura por radiofrecuencia con control de precisión de temperatura y presión, que produce costuras herméticas de alta resistencia conformes a los estándares marinos para embarcaciones hinchables.
       href: /es/randdcenter
-    - image: https://assets.supsfactory.com/images/sups/factory/afarer-design-discussion-original.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp
       title: Canal hidrodinámico
       description: Ensayos con modelos a escala en nuestro canal de pruebas interno para optimizar la forma del casco, el planeo, la estabilidad y la eficiencia del combustible en un amplio rango de cargas y condiciones de mar.
       href: /es/randdcenter
@@ -125,7 +125,7 @@ labs_section:
       title: Taller de prototipos
       description: Instalación de prototipado y aparejo a escala real donde se construyen, equipan y prueban en el mar los nuevos modelos. Cada prototipo supera un mínimo de 20 horas de pruebas en el agua antes de la aprobación de producción.
       href: /es/randdcenter
-    - image: https://assets.supsfactory.com/images/sups/factory/afarer-uv-resistance-testing.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
       title: Laboratorio de calidad e inspección
       description: Laboratorio de garantía de calidad dedicado a ensayos de tracción, ciclos de retención de aire, pruebas de pelado de costuras y certificación de materiales, para garantizar que cada embarcación que sale del taller cumple nuestras especificaciones publicadas.
       href: /es/randdcenter

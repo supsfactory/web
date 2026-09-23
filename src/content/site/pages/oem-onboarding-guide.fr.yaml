@@ -71,7 +71,7 @@ collaboration_modes:
       title: 'Développement ODM'
       desc: 'Vous fournissez le brief — poids du pagayeur cible, cas d''usage, prix — et notre équipe d''ingénierie développe la planche à partir de vos exigences. Plateforme adaptée avec votre marque. Idéal pour les marques entrant sur le marché sans capacité de design interne.'
       link_label: 'Comment fonctionne l''ODM'
-      href: /fr/odm-development
+      href: /fr/odm-manufacturing
     - icon: P
       icon_bg: purple
       title: 'Marque privée / Co-marquage'

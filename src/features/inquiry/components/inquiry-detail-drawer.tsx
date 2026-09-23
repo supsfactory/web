@@ -88,7 +88,10 @@ export function InquiryDetailDrawer({ row, open, onOpenChange }: Props) {
             </div>
           </div>
 
+          <Field label={t('inquiry.name')} value={row.name || '—'} />
           <Field label={t('admin.inquiryType')} value={opt('businessOptions', row.businessType)} />
+          <Field label={t('inquiry.projectType')} value={opt('projectTypeOptions', row.projectType)} />
+          <Field label={t('inquiry.existingDesign')} value={opt('existingDesignOptions', row.existingDesign)} />
           <Field label={t('admin.inquiryCategory')} value={opt('categoryOptions', row.category)} />
           <Field label={t('inquiry.projectStage')} value={opt('projectStageOptions', row.projectStage)} />
           <Field label={t('inquiry.role')} value={opt('roleOptions', row.role)} />

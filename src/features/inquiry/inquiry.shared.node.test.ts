@@ -16,9 +16,12 @@ import {
 
 function validInput(overrides: Partial<InquiryInput> = {}): InquiryInput {
   return {
+    name: 'Anna Buyer',
     company: 'Acme Boards GmbH',
     website: 'acme-boards.com',
     country: 'Germany',
+    projectType: 'oem',
+    existingDesign: 'reference',
     email: 'purchasing@acme-boards.com',
     whatsapp: '+49 170 0000000',
     businessType: 'brand',
@@ -55,6 +58,8 @@ describe('clampInquiryInput', () => {
     const out = clampInquiryInput({
       ...validInput(),
       businessType: 'hacker',
+      projectType: 'white-label-extra',
+      existingDesign: 'mars-model',
       quantity: 'q999999',
       category: 'mystery-board',
       timeline: 'yesterday',
@@ -68,6 +73,8 @@ describe('clampInquiryInput', () => {
       consent: 'sure',
     })
     expect(out.businessType).toBe('')
+    expect(out.projectType).toBe('')
+    expect(out.existingDesign).toBe('')
     expect(out.quantity).toBe('')
     expect(out.category).toBe('')
     expect(out.timeline).toBe('')
@@ -83,7 +90,10 @@ describe('clampInquiryInput', () => {
 
   test('keeps known enum values', () => {
     const out = clampInquiryInput(validInput())
+    expect(out.name).toBe('Anna Buyer')
     expect(out.businessType).toBe('brand')
+    expect(out.projectType).toBe('oem')
+    expect(out.existingDesign).toBe('reference')
     expect(out.quantity).toBe('q100-299')
     expect(out.category).toBe('all-around')
     expect(out.timeline).toBe('t3-6mo')
@@ -128,11 +138,15 @@ describe('isValidInquiry', () => {
   })
 
   test.each([
+    ['name', { name: 'A' }],
+    ['name missing entirely', { name: '' }],
     ['company', { company: 'X' }],
     ['company missing entirely', { company: '' }],
     ['email', { email: 'not-an-email' }],
     ['country+market both empty', { country: '', targetMarket: '' }],
     ['businessType', { businessType: '' }],
+    ['projectType', { projectType: '' }],
+    ['existingDesign', { existingDesign: '' }],
     ['quantity', { quantity: '' }],
     ['category', { category: '' }],
     ['timeline', { timeline: '' }],

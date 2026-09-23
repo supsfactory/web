@@ -45,16 +45,16 @@ export interface HeroContent {
 
 export const hero: Localized<HeroContent> = {
   en: {
-    kicker: 'Qingdao, China Factory · OEM / ODM / Private Label · Samples to Batch Production',
-    titlePre: 'Custom SUP Product Manufacturing for',
-    titleAccent: 'Brands, Distributors & Organizations',
+    kicker: 'Custom SUP OEM / ODM Manufacturer — Qingdao, China',
+    titlePre: 'Inflatable SUP Manufacturer &',
+    titleAccent: 'OEM/ODM Factory',
     titlePost: '',
-    sub: 'OEM, ODM and private-label inflatable SUPs — from specification review and sample development to quality-controlled batch production in Qingdao, China.',
-    ctaPrimary: 'Start Your SUP Project',
-    ctaSecondary: 'View Factory, MOQ & Quality Evidence',
-    ctaTertiary: '',
+    sub: 'Custom inflatable paddle boards engineered, prototyped and manufactured in our Qingdao, China factory.',
+    ctaPrimary: 'Request an OEM Quote',
+    ctaSecondary: 'Develop Your SUP Product',
+    ctaTertiary: 'Explore Our Factory',
     ctaQuartiary: '',
-    ctaMicro: 'Reply within 1 business day · NDA available before file exchange · MOQ confirmed after specification review',
+    ctaMicro: 'OEM · ODM · Private Label · Product Development · Prototyping · Mass Production',
     stats: [
       { value: '12,500 m²', label: 'In-house factory — Qingdao, China' },
       { value: '120,000+', label: 'Boards produced annually' },
@@ -64,21 +64,21 @@ export const hero: Localized<HeroContent> = {
     mockupLabel: 'Signature Platform',
     mockupBrand: "SUP Explorer 11'",
     mockupHint: 'Your graphics · your colors · your packaging',
-    heroNote: FACTS.moqNote,
+    heroNote: 'Factory-direct manufacturing · Prototype development · Quality-controlled production · Export support',
     float1: { value: '1–2 units', label: 'Sample & approval (before volume commitment)' },
     float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
   es: {
-    kicker: 'Fábrica en Qingdao, China · OEM / ODM / Marca privada · Muestras a producción en serie',
-    titlePre: 'Fabricación de productos SUP a medida para',
-    titleAccent: 'marcas, distribuidores y organizaciones',
+    kicker: 'Fabricante OEM / ODM de SUP a medida — Qingdao, China',
+    titlePre: 'Fabricante de SUP hinchables y',
+    titleAccent: 'fábrica OEM/ODM',
     titlePost: '',
-    sub: 'SUP hinchables OEM, ODM y marca privada — desde la revisión de especificaciones y desarrollo de muestras hasta la producción en serie con control de calidad en Qingdao, China.',
-    ctaPrimary: 'Inicia tu proyecto de SUP',
-    ctaSecondary: 'Ver fábrica, MOQ y evidencia de calidad',
-    ctaTertiary: '',
+    sub: 'SUP hinchables a medida diseñados, prototipados y fabricados en nuestra fábrica de Qingdao, China.',
+    ctaPrimary: 'Solicita un presupuesto OEM',
+    ctaSecondary: 'Desarrolla tu producto SUP',
+    ctaTertiary: 'Visita nuestra fábrica',
     ctaQuartiary: '',
-    ctaMicro: 'Respuesta en 1 día hábil · NDA disponible antes del intercambio de archivos · MOQ confirmado tras revisar la especificación',
+    ctaMicro: 'OEM · ODM · Marca privada · Desarrollo de producto · Prototipos · Producción en serie',
     stats: [
       { value: '12.500 m²', label: 'Fábrica propia — Qingdao, China' },
       { value: '120.000+', label: 'Tablas producidas anualmente' },
@@ -88,21 +88,21 @@ export const hero: Localized<HeroContent> = {
     mockupLabel: 'Plataforma insignia',
     mockupBrand: 'SUP Explorer 11\'',
     mockupHint: 'Tus gráficos · tus colores · tu packaging',
-    heroNote: FACTS.moqNoteEs,
+    heroNote: 'Fabricación directa en fábrica · Desarrollo de prototipos · Producción con control de calidad · Soporte de exportación',
     float1: { value: '1–2 uds.', label: 'Muestra y aprobación (antes de compromiso de volumen)' },
     float2: { value: FACTS.leadTime, label: 'Plazo de producción (tras PO)' },
   },
   fr: {
-    kicker: 'Usine à Qingdao, Chine · OEM / ODM / Marque privée · Des échantillons à la production en série',
-    titlePre: 'Fabrication de produits SUP sur mesure pour',
-    titleAccent: 'marques, distributeurs et organisations',
+    kicker: 'Fabricant OEM / ODM de SUP sur mesure — Qingdao, Chine',
+    titlePre: 'Fabricant de SUP gonflables et',
+    titleAccent: 'usine OEM/ODM',
     titlePost: '',
-    sub: 'SUP gonflables OEM, ODM et marque privée — de l’examen des spécifications et du développement des échantillons à la production en série sous contrôle qualité à Qingdao, en Chine.',
-    ctaPrimary: 'Lancez votre projet SUP',
-    ctaSecondary: 'Voir l’usine, le MOQ et les preuves de qualité',
-    ctaTertiary: '',
+    sub: 'Paddleboards gonflables sur mesure conçus, prototypés et fabriqués dans notre usine de Qingdao, en Chine.',
+    ctaPrimary: 'Demander un devis OEM',
+    ctaSecondary: 'Développez votre produit SUP',
+    ctaTertiary: 'Visitez notre usine',
     ctaQuartiary: '',
-    ctaMicro: 'Réponse sous 1 jour ouvré · NDA disponible avant l’échange de fichiers · MOQ confirmé après examen des spécifications',
+    ctaMicro: 'OEM · ODM · Marque privée · Développement de produit · Prototypage · Production en série',
     stats: [
       { value: '12 500 m²', label: 'Usine intégrée — Qingdao, Chine' },
       { value: '120 000+', label: 'Planches produites chaque année' },
@@ -112,9 +112,136 @@ export const hero: Localized<HeroContent> = {
     mockupLabel: 'Plateforme signature',
     mockupBrand: 'SUP Explorer 11\'',
     mockupHint: 'Vos graphismes · vos couleurs · votre emballage',
-    heroNote: 'Le MOQ est confirmé après examen des spécifications, car la construction, la taille de la planche, la structure du PVC, le graphisme, l’emballage et les accessoires influent sur la consommation de matériau.',
+    heroNote: 'Fabrication directe en usine · Développement de prototypes · Production sous contrôle qualité · Support à l’export',
     float1: { value: '1–2 units', label: 'Échantillon et approbation (avant tout engagement de volume)' },
     float2: { value: FACTS.leadTime, label: 'Délai de production (après PO)' },
+  },
+}
+
+/* ─────────────────────────── home: factory proof (verifiable stats, every number linked) ─────────────────────────── */
+
+export interface FactoryProofStat {
+  value: string
+  label: string
+  href: string
+}
+
+export interface FactoryProofContent {
+  kicker: string
+  title: string
+  sub: string
+  cta: string
+  stats: FactoryProofStat[]
+  links: { label: string; href: string }[]
+  note: string
+}
+
+export const factoryProof: Localized<FactoryProofContent> = {
+  en: {
+    kicker: 'Factory Proof',
+    title: 'A Real Factory, Documented',
+    sub: 'Verifiable numbers from our Qingdao, China plant — each figure links to the page where it is documented.',
+    cta: 'Verify this figure',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'In-house manufacturing facility', href: '/factory' },
+      { value: FACTS.workers, label: 'Factory workforce, in-house', href: '/manufacturing-capabilities' },
+      { value: '120,000+', label: 'Boards produced annually', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'Export countries served', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'MOQ & Lead Time', href: '/sup-oem-moq-lead-time' },
+      { label: 'Quality Control', href: '/quality' },
+      { label: 'Factory Audit Checklist', href: '/factory-audit-checklist' },
+    ],
+    note: FACTS.moqNote,
+  },
+  es: {
+    kicker: 'Prueba de fábrica',
+    title: 'Una fábrica real, documentada',
+    sub: 'Cifras verificables de nuestra planta de Qingdao, China — cada dato enlaza con la página donde está documentado.',
+    cta: 'Verifica esta cifra',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'Instalación de fabricación propia', href: '/factory' },
+      { value: FACTS.workers, label: 'Plantilla de la fábrica, propia', href: '/manufacturing-capabilities' },
+      { value: '120.000+', label: 'Tablas producidas anualmente', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'Países de exportación', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'MOQ y plazo de entrega', href: '/sup-oem-moq-lead-time' },
+      { label: 'Control de calidad', href: '/quality' },
+      { label: 'Checklist de auditoría de fábrica', href: '/factory-audit-checklist' },
+    ],
+    note: FACTS.moqNoteEs,
+  },
+  fr: {
+    kicker: 'Preuves d’usine',
+    title: 'Une vraie usine, documentée',
+    sub: 'Des chiffres vérifiables de notre usine de Qingdao, en Chine — chaque donnée renvoie à la page où elle est documentée.',
+    cta: 'Vérifiez ce chiffre',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'Installation de fabrication intégrée', href: '/factory' },
+      { value: FACTS.workers, label: 'Effectif de l’usine, en interne', href: '/manufacturing-capabilities' },
+      { value: '120 000+', label: 'Planches produites chaque année', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'Pays de destination à l’export', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'MOQ et délais', href: '/sup-oem-moq-lead-time' },
+      { label: 'Contrôle qualité', href: '/quality' },
+      { label: 'Check-list d’audit d’usine', href: '/factory-audit-checklist' },
+    ],
+    note: 'Le MOQ est confirmé après examen des spécifications, car la construction, la taille de la planche, la structure du PVC, le graphisme, l’emballage et les accessoires influent sur la consommation de matériau.',
+  },
+}
+
+/* ─────────────────────────── home: factory evidence (verification band) ─────────────────────────── */
+
+export interface FactoryEvidenceItem {
+  title: string
+  body: string
+  href: string
+}
+
+export interface FactoryEvidenceContent {
+  kicker: string
+  title: string
+  sub: string
+  cta: string
+  items: FactoryEvidenceItem[]
+}
+
+export const factoryEvidence: Localized<FactoryEvidenceContent> = {
+  en: {
+    kicker: 'Verify Us Before You Order',
+    title: 'Factory Evidence & Verification',
+    sub: 'Independent proof that our facility, equipment, quality system and export records are real — review and verify before any commitment.',
+    cta: 'View evidence',
+    items: [
+      { title: 'Proof Center', body: 'Certificates, third-party inspection reports, audit records and delivered-project evidence in one place.', href: '/proof-center' },
+      { title: 'Verify the Factory', body: 'Cross-check our public business records, certifications and verification guidance before you commit.', href: '/verify-factory' },
+      { title: 'Factory Audit Checklist', body: 'Download the buyer checklist used when auditing an inflatable SUP factory — facility, equipment and process.', href: '/factory-audit-checklist' },
+    ],
+  },
+  es: {
+    kicker: 'Verifícanos antes de pedir',
+    title: 'Evidencia de fábrica y verificación',
+    sub: 'Pruebas independientes de que nuestras instalaciones, equipos, sistema de calidad y registros de exportación son reales — revisa y verifica antes de cualquier compromiso.',
+    cta: 'Ver pruebas',
+    items: [
+      { title: 'Centro de pruebas', body: 'Certificados, informes de inspección de terceros, registros de auditoría y evidencia de proyectos entregados en un solo lugar.', href: '/proof-center' },
+      { title: 'Verifica la fábrica', body: 'Contrasta nuestros registros públicos de empresa, certificaciones y guía de verificación antes de comprometerte.', href: '/verify-factory' },
+      { title: 'Checklist de auditoría de fábrica', body: 'Descarga la checklist que los compradores usan para auditar una fábrica de SUP hinchables — instalaciones, equipo y proceso.', href: '/factory-audit-checklist' },
+    ],
+  },
+  fr: {
+    kicker: 'Vérifiez avant de commander',
+    title: 'Preuves d’usine et vérification',
+    sub: 'Des preuves indépendantes que nos installations, nos équipements, notre système qualité et nos registres d’export sont réels — à examiner et à vérifier avant tout engagement.',
+    cta: 'Voir les preuves',
+    items: [
+      { title: 'Centre de preuves', body: 'Certificats, rapports d’inspection par tiers, enregistrements d’audit et preuves de projets livrés, rassemblés au même endroit.', href: '/proof-center' },
+      { title: 'Vérifier l’usine', body: 'Recoupez nos registres publics d’entreprise, nos certifications et notre guide de vérification avant de vous engager.', href: '/verify-factory' },
+      { title: 'Check-list d’audit d’usine', body: 'Téléchargez la check-list utilisée par les acheteurs pour auditer une usine de SUP gonflables — installations, équipements et processus.', href: '/factory-audit-checklist' },
+    ],
   },
 }
 
@@ -139,7 +266,7 @@ export const why: Localized<WhyContent> = {
     kicker: 'The Manufacturing Brand',
     title: 'Powered by Vatrad',
     sub: 'SUPsfactory is the SUP product development and manufacturing division of Qingdao Vatrad Group Co., Ltd. Our 12,500 m² plant in Laixi, Qingdao has produced inflatable products since 2012, with 25+ engineers across R&D, mold design, materials lab and production engineering averaging 7+ years in inflatable manufacturing, running two production shifts daily.',
-    image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
+    image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp',
     imageCaption: 'Vatrad manufacturing facility, Qingdao, China',
     bullets: [
       {
@@ -164,7 +291,7 @@ export const why: Localized<WhyContent> = {
     kicker: 'La marca de fabricación',
     title: 'Con el respaldo de Vatrad',
     sub: 'SUPsfactory es la división de desarrollo y fabricación de productos SUP de Qingdao Vatrad Group Co., Ltd. Nuestra planta de 12.500 m² en Laixi, Qingdao produce productos inflables desde 2012, con más de 25 ingenieros entre I+D, diseño de moldes, laboratorio de materiales e ingeniería de producción, con una media de más de 7 años en fabricación de inflables y dos turnos de producción diarios.',
-    image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
+    image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp',
     imageCaption: 'Instalaciones de fabricación de Vatrad, Qingdao, China',
     bullets: [
       {
@@ -189,7 +316,7 @@ export const why: Localized<WhyContent> = {
     kicker: 'La marque de fabrication',
     title: 'Propulsé par Vatrad',
     sub: 'SUPsfactory est la division développement produit et fabrication de SUP de Qingdao Vatrad Group Co., Ltd. Notre usine de 12 500 m² à Laixi, Qingdao produit des articles gonflables depuis 2012, avec plus de 25 ingénieurs répartis entre la R&D, la conception de moules, le laboratoire des matériaux et l’ingénierie de production, forts d’une moyenne de plus de 7 ans d’expérience dans la fabrication d’articles gonflables, et fonctionne sur deux postes de production quotidiens.',
-    image: 'https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp',
+    image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp',
     imageCaption: 'Installations de fabrication de Vatrad, Qingdao, Chine',
     bullets: [
       {
@@ -293,10 +420,10 @@ export interface SolveContent {
 
 export const solve: Localized<SolveContent> = {
   en: {
-    kicker: 'Manufacturing Scope',
-    title: 'Four Ways Brands and Buyers Work With Our Plant',
-    sub: 'OEM, ODM, private label or volume supply — the same in-house engineering and quality system behind every program.',
-    cta: 'Request a Manufacturing Quote',
+    kicker: 'OEM & ODM Manufacturing',
+    title: 'Two Ways to Build Your SUP Product',
+    sub: 'OEM when you bring the specification, ODM when you bring the idea — plus private label and volume supply for brands who want a proven platform.',
+    cta: 'Request an OEM Quote',
     items: [
       {
         title: 'OEM — Build to Your Specification',
@@ -317,10 +444,10 @@ export const solve: Localized<SolveContent> = {
     ],
   },
   es: {
-    kicker: 'Alcance de fabricación',
-    title: 'Cuatro formas de trabajar con nuestra planta',
-    sub: 'OEM, ODM, marca privada o suministro por volumen — los mismos estándares de ingeniería y calidad en cada programa.',
-    cta: 'Solicita un presupuesto de fabricación',
+    kicker: 'Fabricación OEM y ODM',
+    title: 'Dos formas de desarrollar tu producto SUP',
+    sub: 'OEM si traes la especificación, ODM si traes la idea — además de marca privada y suministro por volumen para marcas que quieren una plataforma probada.',
+    cta: 'Solicita un presupuesto OEM',
     items: [
       {
         title: 'OEM — Fabrica según tu especificación',
@@ -341,10 +468,10 @@ export const solve: Localized<SolveContent> = {
     ],
   },
   fr: {
-    kicker: 'Périmètre de fabrication',
-    title: 'Quatre façons de travailler avec notre usine',
-    sub: 'OEM, ODM, marque privée ou fourniture en volume — le même savoir-faire d’ingénierie interne et le même système qualité derrière chaque programme.',
-    cta: 'Demander un devis de fabrication',
+    kicker: 'Fabrication OEM et ODM',
+    title: 'Deux façons de développer votre produit SUP',
+    sub: 'L’OEM quand vous apportez la spécification, l’ODM quand vous apportez l’idée — plus la marque privée et le volume pour les marques qui veulent une plateforme éprouvée.',
+    cta: 'Demander un devis OEM',
     items: [
       {
         title: 'OEM — Fabriquez selon votre spécification',
@@ -382,8 +509,8 @@ export interface CapabilityContent {
 
 export const capability: Localized<CapabilityContent> = {
   en: {
-    kicker: 'Manufacturing Capability',
-    title: 'Inside the Plant',
+    kicker: 'Manufacturing Capabilities',
+    title: 'Six In-House Manufacturing Capabilities',
     sub: 'Every process below runs in-house. Nothing critical is subcontracted.',
     items: [
       {
@@ -413,8 +540,8 @@ export const capability: Localized<CapabilityContent> = {
     ],
   },
   es: {
-    kicker: 'Capacidad de fabricación',
-    title: 'Dentro de la planta',
+    kicker: 'Capacidades de fabricación',
+    title: 'Seis capacidades de fabricación propias',
     sub: 'Todos los procesos siguientes se realizan en casa. Nada crítico se subcontrata.',
     items: [
       {
@@ -444,8 +571,8 @@ export const capability: Localized<CapabilityContent> = {
     ],
   },
   fr: {
-    kicker: 'Capacité de fabrication',
-    title: 'Au cœur de l’usine',
+    kicker: 'Capacités de fabrication',
+    title: 'Six capacités de fabrication internes',
     sub: 'Tous les processus ci-dessous sont réalisés en interne. Aucun élément critique n’est sous-traité.',
     items: [
       {
@@ -1985,8 +2112,8 @@ export interface WorksContent {
 
 export const works: Localized<WorksContent> = {
   en: {
-    kicker: 'Development Process',
-    title: 'From Specification to Finished Product',
+    kicker: 'SUP Product Development',
+    title: 'From Brief to Batch — Product Development Inside Our Plant',
     sub: 'Requirement intake through finished goods — every step inside our own plant.',
     steps: [
       {
@@ -2021,8 +2148,8 @@ export const works: Localized<WorksContent> = {
     note: 'The approved sample is the contract. Every board in the batch is measured against it.',
   },
   es: {
-    kicker: 'Proceso de desarrollo',
-    title: 'De la especificación al producto terminado',
+    kicker: 'Desarrollo de producto SUP',
+    title: 'Del briefing al lote — desarrollo de producto en nuestra planta',
     sub: 'Desde la recepción de requisitos hasta el producto terminado — cada paso dentro de nuestra propia planta.',
     steps: [
       {
@@ -2057,8 +2184,8 @@ export const works: Localized<WorksContent> = {
     note: 'La muestra aprobada es el punto de referencia. Cada tabla del lote se mide contra ella.',
   },
   fr: {
-    kicker: 'Processus de développement',
-    title: 'De la spécification au produit fini',
+    kicker: 'Développement de produit SUP',
+    title: 'Du cahier des charges au lot — développement de produit dans notre usine',
     sub: 'De la collecte des exigences au produit fini — chaque étape au sein de notre propre usine.',
     steps: [
       {
@@ -2819,6 +2946,14 @@ export const homeFaq: Localized<FaqContent> = {
     title: faq.en.title,
     sub: faq.en.sub,
     items: [
+      {
+        q: 'Who is SUPsfactory?',
+        a: 'SUPsfactory is a SUP OEM and ODM manufacturer in Qingdao, China, providing product development, prototyping, manufacturing, quality control and export production for brands, distributors and outdoor businesses.',
+      },
+      {
+        q: 'Is SUPsfactory an OEM manufacturer?',
+        a: 'Yes. SUPsfactory manufactures inflatable SUPs to customer-approved specifications, including dimensions, materials, construction, artwork, accessories and packaging. ODM product development is also available for brands that want to develop a SUP from a brief.',
+      },
       faq.en.items[1],
       faq.en.items[2],
       faq.en.items[3],
@@ -2834,6 +2969,14 @@ export const homeFaq: Localized<FaqContent> = {
     title: faq.es.title,
     sub: faq.es.sub,
     items: [
+      {
+        q: '¿Quién es SUPsfactory?',
+        a: 'SUPsfactory es un fabricante OEM y ODM de SUP en Qingdao, China, que ofrece desarrollo de producto, prototipado, fabricación, control de calidad y producción para exportación a marcas, distribuidores y empresas de actividades al aire libre.',
+      },
+      {
+        q: '¿Es SUPsfactory un fabricante OEM?',
+        a: 'Sí. SUPsfactory fabrica SUP hinchables según las especificaciones aprobadas por el cliente: dimensiones, materiales, construcción, arte, accesorios y embalaje. El desarrollo de producto ODM también está disponible para marcas que quieran desarrollar un SUP a partir de un brief.',
+      },
       faq.es.items[1],
       faq.es.items[2],
       faq.es.items[3],
@@ -2849,6 +2992,14 @@ export const homeFaq: Localized<FaqContent> = {
     title: faq.fr.title,
     sub: faq.fr.sub,
     items: [
+      {
+        q: 'Qui est SUPsfactory ?',
+        a: 'SUPsfactory est un fabricant OEM et ODM de SUP à Qingdao, en Chine, qui fournit développement de produit, prototypage, fabrication, contrôle qualité et production destinée à l\'exportation aux marques, distributeurs et entreprises d\'activités de plein air.',
+      },
+      {
+        q: 'SUPsfactory est-il un fabricant OEM ?',
+        a: 'Oui. SUPsfactory fabrique des SUP gonflables selon les spécifications approuvées par le client : dimensions, matériaux, construction, décor, accessoires et emballage. Le développement de produit ODM est également disponible pour les marques qui souhaitent développer un SUP à partir d\'un brief.',
+      },
       faq.fr.items[1],
       faq.fr.items[2],
       faq.fr.items[3],
@@ -2872,19 +3023,19 @@ export interface CtaContent {
 
 export const cta: Localized<CtaContent> = {
   en: {
-    title: 'Ready to Start Your SUP Project?',
+    title: 'Ready to Develop Your SUP Product?',
     body: "Whether you already have a complete product specification or are still developing your concept, our team can help you evaluate the next step. Tell us what you want to build — we'll review your requirements and discuss the most practical path from concept to production.",
     button: 'Start Your SUP Project',
     note: 'Reply within 1 business day · NDA on request before file exchange · info@supsfactory.com · +86-13305324192',
   },
   es: {
-    title: '¿Listo para iniciar tu proyecto de SUP?',
+    title: '¿Listo para desarrollar tu producto de SUP?',
     body: 'Ya sea que tengas una especificación de producto completa o estés todavía desarrollando tu concepto, nuestro equipo puede ayudarte a evaluar el siguiente paso. Cuéntanos qué quieres construir — revisaremos tus requisitos y plantearemos la vía más práctica del concepto a la producción.',
     button: 'Inicia tu proyecto de SUP',
     note: 'Respuesta en 1 día laborable · NDA disponible antes del intercambio de archivos · info@supsfactory.com · +86-13305324192',
   },
   fr: {
-    title: 'Prêt à lancer votre projet de SUP ?',
+    title: 'Prêt à développer votre produit SUP ?',
     body: 'Que vous disposiez déjà d\'une spécification produit complète ou que vous développiez encore votre concept, notre équipe peut vous aider à évaluer la suite. Dites-nous ce que vous souhaitez construire — nous examinerons vos exigences et évoquerons la voie la plus pratique, du concept à la production.',
     button: 'Lancer votre projet de SUP',
     note: 'Réponse sous 1 jour ouvrable · NDA sur demande avant l\'échange de fichiers · info@supsfactory.com · +86-13305324192',

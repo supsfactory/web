@@ -65,7 +65,7 @@ collaboration_types:
       title: 'ODM Development'
       desc: 'You provide the brief. We develop the board. Adapted platform with your branding. Best for brands entering the market without in-house design.'
       link_label: 'See ODM details'
-      href: /odm-development
+      href: /odm-manufacturing
     - icon: P
       icon_bg: purple
       title: 'Private Label / Co-Branding'

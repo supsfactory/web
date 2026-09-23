@@ -32,6 +32,7 @@ const handler = async () => {
   if (typeof out['@id'] === 'string') out['@id'] = `${origin}/#organization`
   if (typeof out.url === 'string') out.url = origin
   out.name = SITE_NAME
+  out.legalName = branding.BRAND_COMPANY_NAME
   out.description = branding.BRAND_BOILERPLATE
   out.parentOrganization = {
     '@type': 'Organization',

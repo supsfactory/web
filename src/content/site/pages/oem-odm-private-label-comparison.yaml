@@ -78,7 +78,7 @@ scenario_cards:
       icon_bg: 'green'
       title: 'You have a product concept but no engineering spec'
       desc: 'You know the target market, price point and performance requirements, but need engineering support to develop the board. Choose ODM — our team develops from your brief, you approve before production.'
-      link: '/odm-development'
+      link: '/odm-manufacturing'
       link_label: 'ODM Development Details'
     - icon: '3'
       icon_bg: 'orange'

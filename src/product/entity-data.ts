@@ -47,6 +47,8 @@ export const ENTITY_SUBJECT_OF = [
   { type: 'WebPage', name: 'Proof Center — factory evidence', path: '/proof-center' },
   { type: 'WebPage', name: 'Factory & manufacturing capability', path: '/factory' },
   { type: 'WebPage', name: 'Quality, testing & certifications', path: '/quality' },
+  { type: 'WebPage', name: 'SUP manufacturing capabilities', path: '/manufacturing-capabilities' },
+  { type: 'WebPage', name: 'Factory verification', path: '/verify-factory' },
   { type: 'WebPage', name: 'Custom SUP MOQ & lead time', path: '/sup-oem-moq-lead-time' },
   { type: 'WebPage', name: 'New-brand trial order', path: '/new-brand-trial-order' },
   { type: 'CollectionPage', name: 'Projects', path: '/projects' },
@@ -55,7 +57,9 @@ export const ENTITY_SUBJECT_OF = [
 
 export const PAGE_TITLES: Record<string, string> = {
   '/oem-manufacturing': 'OEM Manufacturing',
-  '/odm-development': 'ODM Product Development',
+  '/odm-manufacturing': 'ODM Manufacturing',
+  '/manufacturing-capabilities': 'SUP Manufacturing Capabilities',
+  '/verify-factory': 'Factory Verification',
   '/oem-paddle': 'OEM Paddle Boards',
   '/solutions/rental-operators': 'Solutions: Rental Operators',
   '/solutions/retail-partners': 'Solutions: Retail Partners',

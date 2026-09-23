@@ -41,9 +41,12 @@ export const submitInquiry = createServerFn({ method: 'POST' })
     }
 
     const input = clampInquiryInput({
+      name: data.get('name'),
       company: data.get('company'),
       website: data.get('website'),
       country: data.get('country'),
+      projectType: data.get('projectType'),
+      existingDesign: data.get('existingDesign'),
       email: data.get('email'),
       whatsapp: data.get('whatsapp'),
       businessType: data.get('businessType'),
@@ -106,7 +109,6 @@ export const submitInquiry = createServerFn({ method: 'POST' })
 
     const row: Inquiry = {
       id,
-      name: input.company || 'inquiry',
       model: 'unsure', // legacy column — kept for historical rows
       ...input,
       logoKey,

@@ -1,0 +1,81 @@
+meta:
+  title: 'Verify Our SUP Factory | Visit, Audit & Inspect in Qingdao'
+  description: 'How to verify the SUP factory before you commit: schedule a factory visit, run a third-party audit or inspection, and review QC records, batch traceability and certifications in Qingdao, China.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'verify SUP factory'
+    - 'SUP factory visit Qingdao'
+    - 'SUP factory audit'
+    - 'third-party SUP inspection'
+    - 'inflatable paddle board factory verification'
+
+hero:
+  tagline: Factory Verification
+  title: 'Verify the SUP Factory Before You Commit'
+  subtitle: 'You should not take a factory on trust. Schedule a visit, run an independent audit or inspection, and review certificates, QC records and batch traceability before your first order — all of it is open to serious buyers.'
+
+answer:
+  label: 'Straight answer'
+  text: 'The SUPsfactory plant is a 12,500 m² facility in Qingdao, Shandong, China with 350+ workers, 4 automated production lines and 4 specialized workshops. Buyers can verify it four ways: visit the plant year-round, co-host or request audits (BSCI, ISO 9001), run third-party inspection (SGS, TÜV, BV, Intertek; ISO 2859-1 Level II sampling), or review documented evidence — certificates, 100-point assembly checklists, 18.0 PSI 24-hour pressure-hold reports and 10-year ERP batch traceability per serial label.'
+  verified: '2026-09'
+
+features:
+  title: Ways to Verify the Factory
+  subtitle: 'Four verification routes, each arranged by your project specialist — pick one or combine them.'
+  items:
+    - title: Schedule a Factory Visit
+      description: 'We host buyer visits in Qingdao year-round, with airport pickup and factory-floor walk-through arranged around your dates. NDA welcome at any time.'
+      icon: 'tabler:map-pin'
+    - title: Third-Party Audit
+      description: 'BSCI and ISO 9001 audit reports are available on request, and co-hosted audits are welcome so you can walk the floor with the auditor.'
+      icon: 'tabler:clipboard-check'
+    - title: Independent Inspection
+      description: 'Pre-shipment or mid-production inspection with SGS, TÜV, BV or Intertek under ISO 2859-1 Level II sampling — at your cost, arranged by us, reported directly to you.'
+      icon: 'tabler:zoom-check'
+    - title: Documentation Review
+      description: 'Certificate copies, incoming/in-process/final inspection records, pressure-hold test reports and batch traceability files shared before you commit.'
+      icon: 'tabler:file-search'
+    - title: Live Video Walk-Through
+      description: 'Cannot travel yet? We walk the production floor on a live call — drop-stitch processing, welding, printing, assembly, testing and packing — before you place an order.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: Verification Questions
+  title: Factory Verification & Inspection Q&A
+  questions:
+    - q: Where is the factory?
+      a: 'The plant is in Qingdao, Shandong, China — a 12,500 m² facility with 350+ workers, 4 automated lines and 4 specialized workshops. The address and map are shared with verified buyers when we schedule a visit, and the call-off address appears in contracts, the BSCI audit and export documentation.'
+    - q: What does the factory manufacture?
+      a: 'Inflatable SUP boards — from hull engineering and drop-stitch core processing to graphics, assembly, testing and export packing. All core SUP processes run under one roof.'
+    - q: What processes are performed in-house?
+      a: 'Hull design, dimensional engineering, drop-stitch core processing, RF welding, graphics printing, EVA pad die-cutting, custom mould tooling, assembly, testing and packing are all in-house. Accessories and some raw materials come from certified suppliers and are kitted in-house for traceability.'
+    - q: Can buyers visit the factory?
+      a: 'Yes. Buyer visits are hosted year-round in Qingdao. Airport pickup from Qingdao Jiaodong International Airport and a full factory-floor walk-through are arranged by your project specialist.'
+    - q: Can buyers arrange third-party inspection?
+      a: 'Yes. SGS, TÜV, BV and Intertek inspections are welcome before or during production. Pre-shipment inspection uses ISO 2859-1 Level II sampling, and the report is sent directly to you from the inspection body.'
+    - q: Can buyers request QC documentation?
+      a: 'Yes. Certificate copies, incoming/in-process/final inspection records, 18.0 PSI 24-hour pressure-hold reports and the 100-point assembly checklist are issued per batch on request.'
+    - q: How is batch traceability managed?
+      a: 'Every board carries a serial label. Batches are logged in a 10-year ERP record that links fabric roll, materials, production date, operators and test results to each serial number.'
+    - q: How is the approved sample used?
+      a: 'The approved sample becomes the production reference. Materials, dimensions, graphics, accessories and finish are matched against it at every QC gate, so production matches what you signed off.'
+    - q: How is production quality controlled?
+      a: 'A 7-stage quality system (Node 01–07) runs incoming-material, in-process and final inspection gates, with 18.0 PSI 24-hour pressure-hold testing (auto-reject above 0.50 PSI drop) and end-of-line release against ISO 2859-1 Level II sampling.'
+
+cta:
+  title: 'Verify first, then commit'
+  subtitle: 'Book a facility walk-through or request verification documents — a project specialist responds within one business day.'
+  actions:
+    - variant: primary
+      text: Schedule a Factory Verification Call
+      href: /contact
+    - text: Proof Center — factory evidence
+      href: /proof-center
+    - text: Factory audit checklist
+      href: /factory-audit-checklist
+    - text: OEM trust & factory assurance
+      href: /oem-trust-assurance
+    - text: Quality & testing
+      href: /quality
+    - text: Factory & production
+      href: /factory

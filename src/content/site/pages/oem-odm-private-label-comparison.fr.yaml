@@ -78,7 +78,7 @@ scenario_cards:
       icon_bg: 'green'
       title: 'Vous avez un concept de produit mais aucune spéc. d''ingénierie'
       desc: 'Vous connaissez le marché cible, le prix et les exigences de performance, mais avez besoin d''un support d''ingénierie pour développer la planche. Choisissez ODM — notre équipe développe à partir de votre brief, vous approuvez avant la production.'
-      link: '/fr/odm-development'
+      link: '/fr/odm-manufacturing'
       link_label: 'Détails du développement ODM'
     - icon: '3'
       icon_bg: 'orange'

@@ -315,9 +315,9 @@ export const enUi = {
       faqDesc: 'Frequently asked questions about inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale supply.',
       waitlistTitle: 'Join the waitlist',
       waitlistDesc: "We'll let you know the moment we launch.",
-      homeTitle: 'Custom Inflatable SUP Manufacturing | OEM/ODM for Brands & Distributors',
-      homeDesc: '{siteName} builds custom inflatable SUP boards for brands and distributors: specification, samples, QC, packaging and export-ready production.',
-      homeOgTitle: '{siteName} — Custom Inflatable SUP Manufacturing',
+      homeTitle: 'Inflatable SUP Manufacturer & OEM/ODM Factory in Qingdao, China',
+      homeDesc: '{siteName} is an inflatable SUP manufacturer and OEM/ODM factory in Qingdao, China — engineering, prototyping, quality-controlled batch production, packaging and export-ready delivery for brands and distributors.',
+      homeOgTitle: '{siteName} — Inflatable SUP Manufacturer & OEM/ODM Factory',
     },
     jsonld: {
       moq: 'Minimum order quantity (MOQ)',

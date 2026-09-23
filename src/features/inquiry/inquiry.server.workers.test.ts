@@ -17,6 +17,7 @@ beforeAll(async () => {
     `CREATE TABLE IF NOT EXISTS "inquiry" (
       "id" TEXT PRIMARY KEY NOT NULL, "name" TEXT NOT NULL, "company" TEXT NOT NULL DEFAULT '',
       "website" TEXT NOT NULL DEFAULT '', "country" TEXT NOT NULL DEFAULT '',
+      "project_type" TEXT NOT NULL DEFAULT '', "existing_design" TEXT NOT NULL DEFAULT '',
       "email" TEXT NOT NULL, "whatsapp" TEXT NOT NULL DEFAULT '',
       "business_type" TEXT NOT NULL DEFAULT 'other', "quantity" TEXT NOT NULL DEFAULT 'unsure',
       "product_type" TEXT NOT NULL DEFAULT 'unsure', "model" TEXT NOT NULL DEFAULT 'unsure',

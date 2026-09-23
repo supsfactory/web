@@ -11,6 +11,7 @@ import { SITE_NAME } from '@/config'
 import { MarketingShell } from '@/components/marketing/shell'
 import { Hero } from '@/components/marketing/hero'
 
+const FactoryProof = lazy(() => import('@/components/marketing/factory-proof').then((m) => ({ default: m.FactoryProof })))
 const BoardCategories = lazy(() => import('@/components/marketing/board-categories').then((m) => ({ default: m.BoardCategories })))
 const CollaborationSelector = lazy(() => import('@/components/marketing/collaboration-selector').then((m) => ({ default: m.CollaborationSelector })))
 const PlantCapability = lazy(() => import('@/components/marketing/plant-capability').then((m) => ({ default: m.PlantCapability })))
@@ -19,6 +20,7 @@ const CommercialTerms = lazy(() => import('@/components/marketing/commercial-ter
 const HowItWorks = lazy(() => import('@/components/marketing/how-it-works').then((m) => ({ default: m.HowItWorks })))
 const WhoWeServe = lazy(() => import('@/components/marketing/who-we-serve').then((m) => ({ default: m.WhoWeServe })))
 const ProjectsShowcase = lazy(() => import('@/components/marketing/projects-showcase').then((m) => ({ default: m.ProjectsShowcase })))
+const FactoryEvidence = lazy(() => import('@/components/marketing/factory-evidence').then((m) => ({ default: m.FactoryEvidence })))
 const FaqSection = lazy(() => import('@/components/marketing/faq').then((m) => ({ default: m.FaqSection })))
 const CtaBand = lazy(() => import('@/components/marketing/cta').then((m) => ({ default: m.CtaBand })))
 
@@ -47,14 +49,16 @@ function Home() {
   return (
     <MarketingShell>
       <Hero />
-      <Suspense fallback={null}><BoardCategories /></Suspense>
+      <Suspense fallback={null}><FactoryProof /></Suspense>
       <Suspense fallback={null}><CollaborationSelector /></Suspense>
-      <Suspense fallback={null}><WhoWeServe /></Suspense>
-      <Suspense fallback={null}><CommercialTerms /></Suspense>
+      <Suspense fallback={null}><HowItWorks /></Suspense>
       <Suspense fallback={null}><PlantCapability /></Suspense>
       <Suspense fallback={null}><QualitySteps /></Suspense>
-      <Suspense fallback={null}><HowItWorks /></Suspense>
+      <Suspense fallback={null}><CommercialTerms /></Suspense>
+      <Suspense fallback={null}><BoardCategories /></Suspense>
+      <Suspense fallback={null}><WhoWeServe /></Suspense>
       <Suspense fallback={null}><ProjectsShowcase /></Suspense>
+      <Suspense fallback={null}><FactoryEvidence /></Suspense>
       <Suspense fallback={null}><FaqSection data={homeFaq} /></Suspense>
       <Suspense fallback={null}><CtaBand /></Suspense>
       <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }])} />

@@ -169,6 +169,13 @@
       "when": 1786706156533,
       "tag": "0023_worried_wallow",
       "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "6",
+      "when": 1790141013427,
+      "tag": "0024_watery_pretty_boy",
+      "breakpoints": true
     }
   ]
 }

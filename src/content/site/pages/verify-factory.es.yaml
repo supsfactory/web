@@ -1,0 +1,81 @@
+meta:
+  title: 'Verifica nuestra fábrica de SUP | Visita, auditoría e inspección en Qingdao'
+  description: 'Cómo verificar la fábrica de SUP antes de comprometerte: agenda una visita, haz una auditoría o inspección de terceros y revisa registros QC, trazabilidad de lotes y certificaciones en Qingdao, China.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'verificar fábrica de SUP'
+    - 'visita fábrica SUP Qingdao'
+    - 'auditoría fábrica SUP'
+    - 'inspección SUP terceros'
+    - 'verificación fábrica de paddle boards'
+
+hero:
+  tagline: Verificación de fábrica
+  title: 'Verifica la fábrica de SUP antes de comprometerte'
+  subtitle: 'No deberías fiarte de una fábrica sin comprobarlo. Agenda una visita, realiza una auditoría o inspección independiente y revisa certificados, registros QC y trazabilidad de lotes antes de tu primer pedido — todo está abierto para compradores serios.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'La planta de SUPsfactory es una instalación de 12 500 m² en Qingdao, Shandong (China), con más de 350 trabajadores, 4 líneas de producción automatizadas y 4 talleres especializados. Los compradores pueden verificarla de cuatro formas: visitar la planta durante todo el año, coorganizar o solicitar auditorías (BSCI, ISO 9001), hacer una inspección de terceros (SGS, TÜV, BV, Intertek; muestreo ISO 2859-1 nivel II), o revisar la evidencia documentada — certificados, checklists de ensamblaje de 100 puntos, informes de sujeción de presión 18,0 PSI 24 h y trazabilidad ERP de lote a 10 años por etiqueta de serie.'
+  verified: '2026-09'
+
+features:
+  title: Formas de verificar la fábrica
+  subtitle: 'Cuatro vías de verificación, cada una organizada por tu especialista de proyecto — elige una o combínalas.'
+  items:
+    - title: Agenda una visita a la fábrica
+      description: 'Recibimos visitas de compradores en Qingdao todo el año, con recogida en el aeropuerto y recorrido por la planta adaptado a tus fechas. NDA bienvenida en cualquier momento.'
+      icon: 'tabler:map-pin'
+    - title: Auditoría de terceros
+      description: 'Los informes de auditoría BSCI e ISO 9001 están disponibles a petición, y las auditorías co-anfitrionas son bienvenidas para que recorras la planta junto al auditor.'
+      icon: 'tabler:clipboard-check'
+    - title: Inspección independiente
+      description: 'Inspección antes del envío o durante la producción con SGS, TÜV, BV o Intertek bajo muestreo ISO 2859-1 nivel II — a tu costo, organizada por nosotros, reportada directamente a ti.'
+      icon: 'tabler:zoom-check'
+    - title: Revisión de documentación
+      description: 'Copias de certificados, registros de inspección entrante/en proceso/final, informes de prueba de presión y archivos de trazabilidad de lote compartidos antes de que te comprometas.'
+      icon: 'tabler:file-search'
+    - title: Recorrido en video en vivo
+      description: '¿Aún no puedes viajar? Recorremos la línea de producción en una llamada en vivo — procesado drop-stitch, soldadura, impresión, ensamblaje, pruebas y embalaje — antes de que hagas un pedido.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: Preguntas de verificación
+  title: Q&A de verificación e inspección de fábrica
+  questions:
+    - q: ¿Dónde está la fábrica?
+      a: 'La planta está en Qingdao, Shandong (China) — una instalación de 12 500 m² con más de 350 trabajadores, 4 líneas automatizadas y 4 talleres especializados. La dirección y el mapa se comparten con compradores verificados al agendar una visita, y la dirección de retiro aparece en contratos, la auditoría BSCI y la documentación de exportación.'
+    - q: ¿Qué fabrica la fábrica?
+      a: 'Tablas de SUP hinchables — desde la ingeniería de casco y el procesado del tejido drop-stitch hasta gráficas, ensamblaje, pruebas y embalaje de exportación. Todos los procesos clave del SUP bajo un mismo techo.'
+    - q: ¿Qué procesos se realizan en fábrica?
+      a: 'Diseño de casco, ingeniería dimensional, procesado del tejido drop-stitch, soldadura HF, impresión de gráficas, corte de tapetes EVA, moldes a medida, ensamblaje, pruebas y embalaje son internos. Los accesorios y algunas materias primas provienen de proveedores certificados y se embalan internamente para la trazabilidad.'
+    - q: ¿Pueden los compradores visitar la fábrica?
+      a: 'Sí. Recibimos visitas de compradores todo el año en Qingdao. La recogida en el aeropuerto internacional de Qingdao Jiaodong y un recorrido completo por la planta son organizados por tu especialista de proyecto.'
+    - q: ¿Pueden los compradores planificar una inspección de terceros?
+      a: 'Sí. Las inspecciones de SGS, TÜV, BV e Intertek son bienvenidas antes o durante la producción. La inspección previa al envío usa muestreo ISO 2859-1 nivel II, y el informe se te envía directamente desde el organismo de inspección.'
+    - q: ¿Pueden los compradores solicitar documentación QC?
+      a: 'Sí. Copias de certificados, registros de inspección entrante/en proceso/final, informes de sujeción de presión 18,0 PSI 24 h y la checklist de ensamblaje de 100 puntos se emiten por lote a petición.'
+    - q: ¿Cómo se gestiona la trazabilidad de lotes?
+      a: 'Cada tabla lleva una etiqueta de serie. Los lotes se registran en un archivo ERP de 10 años que vincula rollo de tejido, materiales, fecha de producción, operadores y resultados de prueba a cada número de serie.'
+    - q: ¿Cómo se usa la muestra aprobada?
+      a: 'La muestra aprobada se convierte en la referencia de producción. Materiales, dimensiones, gráficas, accesorios y acabado se comparan contra ella en cada punto de control QC, para que la producción coincida exactamente con lo que aprobaste.'
+    - q: ¿Cómo se controla la calidad de la producción?
+      a: 'Un sistema de calidad en 7 etapas (Node 01–07) ejecuta puertas de inspección entrante, en proceso y final, con prueba de sujeción de presión 18,0 PSI 24 h (rechazo automático por encima de 0,50 PSI) y liberación al final de línea según muestreo ISO 2859-1 nivel II.'
+
+cta:
+  title: 'Verifica primero, comprométete después'
+  subtitle: 'Reserva un recorrido por la fábrica o solicita los documentos de verificación — un especialista responde en un día laboral.'
+  actions:
+    - variant: primary
+      text: Agendar una llamada de verificación de fábrica
+      href: /es/contact
+    - text: Proof Center — evidencias de fábrica
+      href: /es/proof-center
+    - text: Checklist de auditoría de fábrica
+      href: /es/factory-audit-checklist
+    - text: Confianza OEM y garantía de fábrica
+      href: /es/oem-trust-assurance
+    - text: Calidad y pruebas
+      href: /es/quality
+    - text: Fábrica y producción
+      href: /es/factory

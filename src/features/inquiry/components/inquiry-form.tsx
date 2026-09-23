@@ -45,6 +45,7 @@ export function InquiryForm({
   const [step, setStep] = useState<1 | 2>(1)
   const [busy, setBusy] = useState(false)
   const [submitSuccess, setSubmitSuccess] = useState(false)
+  const [okTier, setOkTier] = useState<'A' | 'B' | 'C'>('A')
   const [msg, setMsg] = useState<{ kind: 'err'; text: string } | null>(null)
   const [fileName, setFileName] = useState<string | null>(null)
   const [fileError, setFileError] = useState<'empty' | 'type' | 'size' | null>(null)
@@ -113,6 +114,7 @@ export function InquiryForm({
       const r = await submitInquiry({ data: fd })
       if (r.ok) {
         trackLead(`inquiry:${String(fd.get('category') ?? 'unsure')}`)
+        setOkTier(r.tier)
         setSubmitSuccess(true)
         form.reset()
         setStep(1)
@@ -174,6 +176,11 @@ export function InquiryForm({
       <fieldset className={step === 2 ? 'hidden' : ''}>
         <legend className="sr-only">{t('inquiry.step1Legend')}</legend>
         <div className="grid gap-4 sm:grid-cols-2">
+          <div className="field">
+            <Label htmlFor="inq-name">{t('inquiry.name')} <span className="req">*</span></Label>
+            <Input id="inq-name" name="name" required minLength={2} maxLength={120} autoComplete="name" />
+            <span className="field-hint">{t('inquiry.nameHint')}</span>
+          </div>
           <div className="field">
             <Label htmlFor="inq-type">{t('inquiry.businessType')} <span className="req">*</span></Label>
             <Select id="inq-type" name="businessType" defaultValue="" required autoComplete="off">
@@ -282,6 +289,31 @@ export function InquiryForm({
       <fieldset disabled={step === 1} className={step === 1 ? 'hidden' : 'flex flex-col gap-4'}>
         <legend className="sr-only">{t('inquiry.step2Legend')}</legend>
         <div className="grid gap-4 sm:grid-cols-2">
+          <div className="field sm:col-span-2">
+            <Label htmlFor="inq-projtype">{t('inquiry.projectType')} <span className="req">*</span></Label>
+            <Select id="inq-projtype" name="projectType" defaultValue="" required autoComplete="off">
+              <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
+              <option value="oem">{t('inquiry.projectTypeOptions.oem')}</option>
+              <option value="odm">{t('inquiry.projectTypeOptions.odm')}</option>
+              <option value="private-label">{t('inquiry.projectTypeOptions.private-label')}</option>
+              <option value="prototype">{t('inquiry.projectTypeOptions.prototype')}</option>
+              <option value="bulk">{t('inquiry.projectTypeOptions.bulk')}</option>
+              <option value="other">{t('inquiry.projectTypeOptions.other')}</option>
+            </Select>
+            <span className="field-hint">{t('inquiry.projectTypeHint')}</span>
+          </div>
+          <div className="field sm:col-span-2">
+            <Label htmlFor="inq-exdesign">{t('inquiry.existingDesign')} <span className="req">*</span></Label>
+            <Select id="inq-exdesign" name="existingDesign" defaultValue="" required autoComplete="off">
+              <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
+              <option value="cad">{t('inquiry.existingDesignOptions.cad')}</option>
+              <option value="drawing">{t('inquiry.existingDesignOptions.drawing')}</option>
+              <option value="reference">{t('inquiry.existingDesignOptions.reference')}</option>
+              <option value="existing-sup">{t('inquiry.existingDesignOptions.existing-sup')}</option>
+              <option value="concept">{t('inquiry.existingDesignOptions.concept')}</option>
+            </Select>
+            <span className="field-hint">{t('inquiry.existingDesignHint')}</span>
+          </div>
           <div className="field">
             <Label htmlFor="inq-role">{t('inquiry.role')} <span className="req">*</span></Label>
             <Select id="inq-role" name="role" defaultValue="" required>
@@ -485,10 +517,24 @@ export function InquiryForm({
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
         <div className="rounded-xl bg-background p-8 shadow-xl text-center max-w-sm mx-4">
           <p className="text-2xl font-bold text-primary"><Check size={28} className="mx-auto mb-2" /></p>
-          <p className="text-[18px] font-bold">{t('inquiry.okA.title')}</p>
+          <p className="text-[18px] font-bold">{t(`inquiry.ok${okTier}.title`)}</p>
           <p className="mt-3 text-[14px] leading-relaxed text-fg-2">
-            {t('inquiry.submittedSuccess')}
+            {t(`inquiry.ok${okTier}.body`)}
           </p>
+          {okTier === 'B' && (
+            <ul className="mt-3 text-left text-[13px] leading-relaxed text-fg-2">
+              {(t('inquiry.okB.checklist') as unknown as string[]).map((item) => (
+                <li key={item} className="flex items-start gap-2 py-0.5">
+                  <span className="mt-0.5 shrink-0">–</span> {item}
+                </li>
+              ))}
+            </ul>
+          )}
+          {okTier === 'C' && (
+            <a href={fl('/sup-oem-moq-lead-time')} className="mt-4 inline-block text-[13.5px] font-semibold text-primary hover:underline">
+              {t('inquiry.okC.guideLink')} →
+            </a>
+          )}
           <button
             type="button"
             className="mt-6 rounded-lg bg-primary px-6 py-3 text-[14px] font-bold text-white transition-colors hover:bg-primary/90"

@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as WhatIsSupRouteImport } from './routes/what-is-sup'
 import { Route as WarrantyRouteImport } from './routes/warranty'
+import { Route as VerifyFactoryRouteImport } from './routes/verify-factory'
 import { Route as TourismRecreationRouteImport } from './routes/tourism-recreation'
 import { Route as TechnologyRouteImport } from './routes/technology'
 import { Route as SupOemMoqLeadTimeRouteImport } from './routes/sup-oem-moq-lead-time'
@@ -39,9 +40,10 @@ import { Route as OemOdmPrivateLabelComparisonRouteImport } from './routes/oem-o
 import { Route as OemOdmRouteImport } from './routes/oem-odm'
 import { Route as OemMoqGuideRouteImport } from './routes/oem-moq-guide'
 import { Route as OemManufacturingRouteImport } from './routes/oem-manufacturing'
-import { Route as OdmDevelopmentRouteImport } from './routes/odm-development'
+import { Route as OdmManufacturingRouteImport } from './routes/odm-manufacturing'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as NewBrandTrialOrderRouteImport } from './routes/new-brand-trial-order'
+import { Route as ManufacturingCapabilitiesRouteImport } from './routes/manufacturing-capabilities'
 import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as LlmsFullDottxtRouteImport } from './routes/llms-full[.]txt'
 import { Route as KnowledgeRouteImport } from './routes/knowledge'
@@ -123,6 +125,13 @@ const WarrantyRoute = WarrantyRouteImport.update({
   path: '/warranty',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/warranty.lazy').then((d) => d.Route))
+const VerifyFactoryRoute = VerifyFactoryRouteImport.update({
+  id: '/verify-factory',
+  path: '/verify-factory',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/verify-factory.lazy').then((d) => d.Route),
+)
 const TourismRecreationRoute = TourismRecreationRouteImport.update({
   id: '/tourism-recreation',
   path: '/tourism-recreation',
@@ -287,12 +296,12 @@ const OemManufacturingRoute = OemManufacturingRouteImport.update({
 } as any).lazy(() =>
   import('./routes/oem-manufacturing.lazy').then((d) => d.Route),
 )
-const OdmDevelopmentRoute = OdmDevelopmentRouteImport.update({
-  id: '/odm-development',
-  path: '/odm-development',
+const OdmManufacturingRoute = OdmManufacturingRouteImport.update({
+  id: '/odm-manufacturing',
+  path: '/odm-manufacturing',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() =>
-  import('./routes/odm-development.lazy').then((d) => d.Route),
+  import('./routes/odm-manufacturing.lazy').then((d) => d.Route),
 )
 const NewsRoute = NewsRouteImport.update({
   id: '/news',
@@ -306,6 +315,14 @@ const NewBrandTrialOrderRoute = NewBrandTrialOrderRouteImport.update({
 } as any).lazy(() =>
   import('./routes/new-brand-trial-order.lazy').then((d) => d.Route),
 )
+const ManufacturingCapabilitiesRoute =
+  ManufacturingCapabilitiesRouteImport.update({
+    id: '/manufacturing-capabilities',
+    path: '/manufacturing-capabilities',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/manufacturing-capabilities.lazy').then((d) => d.Route),
+  )
 const LlmsDottxtRoute = LlmsDottxtRouteImport.update({
   id: '/llms.txt',
   path: '/llms.txt',
@@ -733,9 +750,10 @@ export interface FileRoutesByFullPath {
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
+  '/manufacturing-capabilities': typeof ManufacturingCapabilitiesRoute
   '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
-  '/odm-development': typeof OdmDevelopmentRoute
+  '/odm-manufacturing': typeof OdmManufacturingRoute
   '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
@@ -764,6 +782,7 @@ export interface FileRoutesByFullPath {
   '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
   '/tourism-recreation': typeof TourismRecreationRoute
+  '/verify-factory': typeof VerifyFactoryRoute
   '/warranty': typeof WarrantyRoute
   '/what-is-sup': typeof WhatIsSupRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
@@ -837,9 +856,10 @@ export interface FileRoutesByTo {
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
+  '/manufacturing-capabilities': typeof ManufacturingCapabilitiesRoute
   '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
-  '/odm-development': typeof OdmDevelopmentRoute
+  '/odm-manufacturing': typeof OdmManufacturingRoute
   '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
@@ -868,6 +888,7 @@ export interface FileRoutesByTo {
   '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
   '/tourism-recreation': typeof TourismRecreationRoute
+  '/verify-factory': typeof VerifyFactoryRoute
   '/warranty': typeof WarrantyRoute
   '/what-is-sup': typeof WhatIsSupRoute
   '/about/identity': typeof AboutIdentityRoute
@@ -941,9 +962,10 @@ export interface FileRoutesById {
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
+  '/manufacturing-capabilities': typeof ManufacturingCapabilitiesRoute
   '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
-  '/odm-development': typeof OdmDevelopmentRoute
+  '/odm-manufacturing': typeof OdmManufacturingRoute
   '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
@@ -972,6 +994,7 @@ export interface FileRoutesById {
   '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
   '/tourism-recreation': typeof TourismRecreationRoute
+  '/verify-factory': typeof VerifyFactoryRoute
   '/warranty': typeof WarrantyRoute
   '/what-is-sup': typeof WhatIsSupRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
@@ -1048,9 +1071,10 @@ export interface FileRouteTypes {
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
+    | '/manufacturing-capabilities'
     | '/new-brand-trial-order'
     | '/news'
-    | '/odm-development'
+    | '/odm-manufacturing'
     | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
@@ -1079,6 +1103,7 @@ export interface FileRouteTypes {
     | '/sup-oem-moq-lead-time'
     | '/technology'
     | '/tourism-recreation'
+    | '/verify-factory'
     | '/warranty'
     | '/what-is-sup'
     | '/{-$locale}/admin'
@@ -1152,9 +1177,10 @@ export interface FileRouteTypes {
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
+    | '/manufacturing-capabilities'
     | '/new-brand-trial-order'
     | '/news'
-    | '/odm-development'
+    | '/odm-manufacturing'
     | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
@@ -1183,6 +1209,7 @@ export interface FileRouteTypes {
     | '/sup-oem-moq-lead-time'
     | '/technology'
     | '/tourism-recreation'
+    | '/verify-factory'
     | '/warranty'
     | '/what-is-sup'
     | '/about/identity'
@@ -1255,9 +1282,10 @@ export interface FileRouteTypes {
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
+    | '/manufacturing-capabilities'
     | '/new-brand-trial-order'
     | '/news'
-    | '/odm-development'
+    | '/odm-manufacturing'
     | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
@@ -1286,6 +1314,7 @@ export interface FileRouteTypes {
     | '/sup-oem-moq-lead-time'
     | '/technology'
     | '/tourism-recreation'
+    | '/verify-factory'
     | '/warranty'
     | '/what-is-sup'
     | '/{-$locale}/admin'
@@ -1361,9 +1390,10 @@ export interface RootRouteChildren {
   KnowledgeRoute: typeof KnowledgeRoute
   LlmsFullDottxtRoute: typeof LlmsFullDottxtRoute
   LlmsDottxtRoute: typeof LlmsDottxtRoute
+  ManufacturingCapabilitiesRoute: typeof ManufacturingCapabilitiesRoute
   NewBrandTrialOrderRoute: typeof NewBrandTrialOrderRoute
   NewsRoute: typeof NewsRoute
-  OdmDevelopmentRoute: typeof OdmDevelopmentRoute
+  OdmManufacturingRoute: typeof OdmManufacturingRoute
   OemManufacturingRoute: typeof OemManufacturingRoute
   OemMoqGuideRoute: typeof OemMoqGuideRoute
   OemOdmRoute: typeof OemOdmRoute
@@ -1392,6 +1422,7 @@ export interface RootRouteChildren {
   SupOemMoqLeadTimeRoute: typeof SupOemMoqLeadTimeRoute
   TechnologyRoute: typeof TechnologyRoute
   TourismRecreationRoute: typeof TourismRecreationRoute
+  VerifyFactoryRoute: typeof VerifyFactoryRoute
   WarrantyRoute: typeof WarrantyRoute
   WhatIsSupRoute: typeof WhatIsSupRoute
   AboutIdentityRoute: typeof AboutIdentityRoute
@@ -1421,6 +1452,13 @@ declare module '@tanstack/react-router' {
       path: '/warranty'
       fullPath: '/warranty'
       preLoaderRoute: typeof WarrantyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/verify-factory': {
+      id: '/verify-factory'
+      path: '/verify-factory'
+      fullPath: '/verify-factory'
+      preLoaderRoute: typeof VerifyFactoryRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/tourism-recreation': {
@@ -1619,11 +1657,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OemManufacturingRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/odm-development': {
-      id: '/odm-development'
-      path: '/odm-development'
-      fullPath: '/odm-development'
-      preLoaderRoute: typeof OdmDevelopmentRouteImport
+    '/odm-manufacturing': {
+      id: '/odm-manufacturing'
+      path: '/odm-manufacturing'
+      fullPath: '/odm-manufacturing'
+      preLoaderRoute: typeof OdmManufacturingRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/news': {
@@ -1638,6 +1676,13 @@ declare module '@tanstack/react-router' {
       path: '/new-brand-trial-order'
       fullPath: '/new-brand-trial-order'
       preLoaderRoute: typeof NewBrandTrialOrderRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/manufacturing-capabilities': {
+      id: '/manufacturing-capabilities'
+      path: '/manufacturing-capabilities'
+      fullPath: '/manufacturing-capabilities'
+      preLoaderRoute: typeof ManufacturingCapabilitiesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/llms.txt': {
@@ -2302,9 +2347,10 @@ const rootRouteChildren: RootRouteChildren = {
   KnowledgeRoute: KnowledgeRoute,
   LlmsFullDottxtRoute: LlmsFullDottxtRoute,
   LlmsDottxtRoute: LlmsDottxtRoute,
+  ManufacturingCapabilitiesRoute: ManufacturingCapabilitiesRoute,
   NewBrandTrialOrderRoute: NewBrandTrialOrderRoute,
   NewsRoute: NewsRoute,
-  OdmDevelopmentRoute: OdmDevelopmentRoute,
+  OdmManufacturingRoute: OdmManufacturingRoute,
   OemManufacturingRoute: OemManufacturingRoute,
   OemMoqGuideRoute: OemMoqGuideRoute,
   OemOdmRoute: OemOdmRoute,
@@ -2333,6 +2379,7 @@ const rootRouteChildren: RootRouteChildren = {
   SupOemMoqLeadTimeRoute: SupOemMoqLeadTimeRoute,
   TechnologyRoute: TechnologyRoute,
   TourismRecreationRoute: TourismRecreationRoute,
+  VerifyFactoryRoute: VerifyFactoryRoute,
   WarrantyRoute: WarrantyRoute,
   WhatIsSupRoute: WhatIsSupRoute,
   AboutIdentityRoute: AboutIdentityRoute,

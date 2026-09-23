@@ -71,7 +71,7 @@ collaboration_modes:
       title: 'Desarrollo ODM'
       desc: 'Provees el brief — peso del rider objetivo, caso de uso, precio objetivo — y nuestro equipo de ingeniería desarrolla la tabla según tus requisitos. Plataforma adaptada con tu marca. Mejor para marcas que entran al mercado sin capacidad de diseño interna.'
       link_label: 'Cómo funciona ODM'
-      href: /es/odm-development
+      href: /es/odm-manufacturing
     - icon: P
       icon_bg: purple
       title: 'Private Label / Co-Branding'

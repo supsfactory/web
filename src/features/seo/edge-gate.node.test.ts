@@ -73,7 +73,7 @@ test('brand pages collapse onto /about and /about/vatrad (P1-3)', () => {
 })
 
 test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
-  expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/odm-development' })
+  expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/odm-manufacturing' })
   expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
   expect(gatePath('/guides/sup-yoga')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/knowledge' })
@@ -194,7 +194,7 @@ test('trailing slash normalised (P0-6)', () => {
 test('api/app/admin and plain paths untouched', () => {
   expect(gatePath('/factory').action).toBe('ok')
   expect(gatePath('/oem-manufacturing').action).toBe('ok')
-  expect(gatePath('/odm-development').action).toBe('ok')
+  expect(gatePath('/odm-manufacturing').action).toBe('ok')
   expect(gatePath('/oem-odm-manufacturer').action).toBe('redirect')
   expect(gatePath('/api/v1/waitlist').action).toBe('ok')
   expect(gatePath('/app/dashboard').action).toBe('ok')

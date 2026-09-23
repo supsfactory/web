@@ -47,28 +47,27 @@ export function Hero() {
 
           <div className="mt-9 flex flex-wrap items-center gap-3">
             <a
-              href={fl('/start-sup-project')}
+              href={fl('/oem-manufacturing')}
               className="sun-grad inline-flex h-[48px] items-center gap-2 rounded-full px-8 text-[15px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.75)] transition-transform hover:-translate-y-0.5"
             >
               {c.ctaPrimary} <ArrowRight size={17} />
             </a>
             <a
-              href={fl('/proof-center')}
+              href={fl('/product-development')}
               className="glass-btn inline-flex h-[48px] items-center px-8 text-[15px] font-semibold"
             >
               {c.ctaSecondary}
             </a>
+            {c.ctaTertiary ? (
+              <a
+                href={fl('/factory')}
+                className="glass-btn inline-flex h-[48px] items-center px-8 text-[15px] font-semibold"
+              >
+                {c.ctaTertiary}
+              </a>
+            ) : null}
           </div>
           <p className="mt-3 text-[12px] font-medium tracking-wide text-white/75">{c.ctaMicro}</p>
-
-          <dl className="mt-10 grid max-w-xl grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/15 bg-white/10 backdrop-blur-sm sm:grid-cols-4">
-            {c.stats.map((s) => (
-              <div key={s.label} className="bg-black/20 px-4 py-3.5">
-                <dt className="font-display text-[1.35rem] font-extrabold leading-none text-white">{s.value}</dt>
-                <dd className="mt-1.5 text-[11.5px] font-semibold leading-snug text-white/75">{s.label}</dd>
-              </div>
-            ))}
-          </dl>
 
           <p className="mt-6 max-w-xl text-[13px] font-medium leading-relaxed text-white/85">{c.heroNote}</p>
         </div>

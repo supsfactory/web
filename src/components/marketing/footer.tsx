@@ -66,6 +66,8 @@ export function Footer() {
           <a className="foot-link" href={fl('/sup-construction-comparison')}>{t('sup.nav.productsServicesDropdown.constructionComparison')}</a>
           <a className="foot-link" href={fl('/product-development')}>{t('sup.footer.productDevelopment')}</a>
           <a className="foot-link" href={fl('/oem-odm-private-label-comparison')}>{t('sup.nav.productsServicesDropdown.comparison')}</a>
+          <a className="foot-link" href={fl('/oem-manufacturing')}>{t('sup.nav.oemDropdown.manufacturer')}</a>
+          <a className="foot-link" href={fl('/odm-manufacturing')}>{t('sup.footer.odmManufacturing')}</a>
           <a className="foot-link" href={fl('/new-brand-trial-order')}>{t('sup.nav.oemDropdown.newBrandTrial')}</a>
         </FooterCol>
 
@@ -73,6 +75,9 @@ export function Footer() {
         <FooterCol title={t('sup.footer.colManufacturing')}>
           <a className="foot-link" href={fl('/factory')}>{t('sup.footer.factory')}</a>
           <a className="foot-link" href={fl('/factory/capacity')}>{t('sup.footer.factoryCapacity')}</a>
+          <a className="foot-link" href={fl('/manufacturing-capabilities')}>{t('sup.footer.manufacturingCapabilities')}</a>
+          <a className="foot-link" href={fl('/verify-factory')}>{t('sup.footer.verifyFactory')}</a>
+          <a className="foot-link" href={fl('/proof-center')}>{t('sup.footer.qualityEvidence')}</a>
           <a className="foot-link" href={fl('/quality')}>{t('sup.nav.manufacturingDropdown.quality')}</a>
           <a className="foot-link" href={fl('/proof-center')}>{t('sup.nav.manufacturingDropdown.proofCenter')}</a>
           <a className="foot-link" href={fl('/sup-compliance-by-market')}>{t('sup.nav.proofQualityDropdown.complianceByMarket')}</a>

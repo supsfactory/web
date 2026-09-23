@@ -105,19 +105,19 @@ labs_section:
   tagline: Laboratoires
   title: Nos laboratoires
   labs:
-    - image: https://assets.supsfactory.com/images/sups/randd/afarer-pvc-material-lab.webp
+    - image: https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp
       title: Laboratoire de tissus PVC
       description: Recherche et test continus des tissus de tube PVC et Hypalon pour la résistance à la traction, la résistance UV, l'abrasion et la flexibilité à basse température afin de garantir une fiabilité à long terme dans les environnements marins.
       href: /fr/randdcenter
-    - image: https://assets.supsfactory.com/images/sups/factory/afarer-design-discussion-2.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-2.webp
       title: Studio d'ingénierie de coque
       description: Design piloté par CAO et analyse par éléments finis des coques en HDPE, aluminium et fibre de verre. Chaque coque est simulée numériquement pour la distribution des contraintes et la résistance aux impacts avant la construction du premier prototype.
       href: /fr/randdcenter
-    - image: https://assets.supsfactory.com/images/sups/factory/afarer-sup-manufacturing-3.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing-3.webp
       title: Centre de soudure RF
       description: Installation dédiée de soudure par radiofréquence avec contrôle de précision de la température et de la pression, produisant des coutures étanches à haute résistance qui répondent aux normes de l'industrie marine pour les embarcations gonflables.
       href: /fr/randdcenter
-    - image: https://assets.supsfactory.com/images/sups/factory/afarer-design-discussion-original.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp
       title: Bassin d'essais hydrodynamiques
       description: Test sur modèle réduit dans notre bassin d'essais interne pour optimiser la forme de coque, la performance de planage, la stabilité et l'efficacité du carburant sur une gamme de conditions de charge et de mer.
       href: /fr/randdcenter
@@ -125,7 +125,7 @@ labs_section:
       title: Atelier de prototypes
       description: Installation de prototypage et de gréement à grande échelle où les nouveaux modèles sont construits, équipés et essayés en mer. Chaque prototype subit un programme de test sur l'eau d'au moins 20 heures avant l'approbation de production.
       href: /fr/randdcenter
-    - image: https://assets.supsfactory.com/images/sups/factory/afarer-uv-resistance-testing.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
       title: Laboratoire de qualité et d'inspection
       description: Laboratoire d'assurance qualité dédié effectuant des tests de traction, des cycles de rétention d'air, des tests de pelage de couture et la certification des matériaux pour garantir que chaque bateau quittant l'atelier répond à nos spécifications publiées.
       href: /fr/randdcenter

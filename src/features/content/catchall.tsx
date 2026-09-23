@@ -74,7 +74,9 @@ function breadcrumbEntries(origin: string, path: string, title: string, t: (k: s
 
 const SERVICE_SCHEMA_PAGES: Record<string, { serviceType: string; description: string }> = {
   '/oem-manufacturing': { serviceType: 'OEM Manufacturing', description: 'Full OEM manufacturing for SUP and marine inflatable products — buyer-owned designs, custom tooling, and production under your brand.' },
-  '/odm-development': { serviceType: 'ODM Development', description: 'ODM product development — factory engineering team designs from your brief, you approve every element before production.' },
+  '/odm-manufacturing': { serviceType: 'ODM Manufacturing', description: 'ODM manufacturing — we design, engineer and build your SUP from a product brief; you approve every element before production.' },
+  '/manufacturing-capabilities': { serviceType: 'SUP Manufacturing Capabilities', description: 'In-house SUP manufacturing capabilities — hull engineering, drop-stitch processing, RF welding, printing, moulding, 100-point QC and export logistics.' },
+  '/verify-factory': { serviceType: 'Factory Verification', description: 'Verify the SUP factory in Qingdao — factory visit, third-party audit or inspection, QC documentation review, batch traceability and certifications.' },
   '/oem-odm-private-label-comparison': { serviceType: 'OEM / ODM / Private Label Comparison', description: 'Side-by-side comparison of OEM manufacturing, ODM development, and private-label co-branding collaboration models.' },
   '/factory/oem-capability': { serviceType: 'Factory OEM Capability', description: 'Factory OEM capabilities: production lines, CNC precision, RF welding, quality gates, and capacity for custom board manufacturing.' },
   '/oem-moq-guide': { serviceType: 'OEM MOQ Guide', description: 'Minimum order quantities for OEM manufacturing: per-configuration thresholds, pilot batch options, and material-roll considerations.' },

@@ -1,0 +1,125 @@
+meta:
+  title: 'SUP Manufacturing Capabilities | Inflatable Paddle Board Factory'
+  description: 'SUP manufacturing capabilities in Qingdao: in-house hull engineering (0.1 mm), drop-stitch processing, RF welding, printing, moulding, 100-point QC and 120,000+ boards per year.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'SUP manufacturing capabilities'
+    - 'inflatable paddle board factory capabilities'
+    - 'in-house SUP manufacturing'
+    - 'paddle board production capabilities'
+    - 'SUP factory Qingdao'
+
+hero:
+  tagline: Manufacturing Capabilities
+  title: 'SUP Manufacturing Capabilities'
+  subtitle: 'Every process — hull engineering, drop-stitch core processing, RF welding, printing, mould tooling, assembly, testing and packing — runs in-house in our 12,500 m² Qingdao plant, so one accountable team takes your project from first drawing to shipped container.'
+
+answer:
+  label: 'Straight answer'
+  text: 'SUP manufacturing is fully in-house at our Qingdao plant: hull design and dimensional engineering at 0.1 mm CNC accuracy; drop-stitch material processing and RF welding across 4 automated lines; graphics printing; EVA pad die-cutting; custom mould tooling (+15–20 days for new shapes); assembly to a 100-point checklist; and 18.0 PSI 24-hour pressure-hold testing with auto-reject above 0.50 PSI drop. Annual capacity is 120,000+ boards (~10,000/month) from 4 specialized workshops with 350+ workers, shipped to 50+ countries under your brand.'
+  verified: '2026-09'
+
+capabilities:
+  tagline: In-House Capabilities
+  title: 'Capability Groups, Each Performed In-House'
+  subtitle: 'Every capability below is performed inside the factory, which shortens lead times, locks quality control into each step and keeps your specification in one place.'
+  groups:
+    - title: Design & Engineering
+      items:
+        - 'Hull design & dimensional engineering'
+        - '0.1 mm CNC accuracy'
+        - 'Custom mould & tooling design'
+        - 'Packaging & retail graphics'
+    - title: Production
+      items:
+        - 'Drop-stitch core processing'
+        - '15 kW RF welding (4 automated lines)'
+        - 'Graphics printing & artwork'
+        - 'EVA pad die-cutting'
+        - 'Board assembly & finishing'
+        - 'Accessory kitting'
+    - title: Quality & Compliance
+      items:
+        - '100-point assembly checklist'
+        - '18.0 PSI · 24-hour pressure hold'
+        - 'ISO 2859-1 Level II sampling'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - '10-year batch traceability'
+    - title: Service & Logistics
+      items:
+        - 'Prototype samples in 7–12 days'
+        - 'Production in 25–35 days'
+        - 'Custom moulds in +15–20 days'
+        - 'FOB Qingdao · CIF · DDP to 50+ countries'
+
+table:
+  headers:
+    capability: Capability
+    in_house: In-house
+    standard: What the standard includes
+  rows:
+    - capability: 'Hull design & dimensional engineering'
+      in_house: 'Yes — in-house engineering team'
+      standard: 'Engineered and validated before tooling; 0.1 mm CNC accuracy for moulds and cutting'
+    - capability: 'Drop-stitch material processing'
+      in_house: 'Yes — in-house core production'
+      standard: '12–15 PSI drop-stitch density range, nesting optimized per board size'
+    - capability: 'RF welding & seam construction'
+      in_house: 'Yes — in-house'
+      standard: '15 kW RF welding capacity across 4 automated production lines'
+    - capability: 'Graphics printing & artwork'
+      in_house: 'Yes — in-house design & printing'
+      standard: 'Unlimited palettes, full-bleed graphics, artwork support from the factory team'
+    - capability: 'EVA traction pad die-cutting'
+      in_house: 'Yes — in-house'
+      standard: '45–55 Shore C pad specification, custom-cut decks and logos'
+    - capability: 'Custom mould & tooling'
+      in_house: 'Yes — in-house mould workshop'
+      standard: 'New shape tooling adds 15–20 days; moulds stay factory-owned unless agreed otherwise'
+    - capability: 'Board assembly & finishing'
+      in_house: 'Yes — in-house'
+      standard: '100-point assembly checklist; handles, D-rings and accessories fitted per spec'
+    - capability: 'Pressure & load testing'
+      in_house: 'Yes — in-house test bench'
+      standard: '18.0 PSI 24-hour pressure hold, auto-reject above 0.50 PSI drop'
+    - capability: 'Final inspection & traceability'
+      in_house: 'Yes — in-house QC team'
+      standard: 'ISO 2859-1 Level II sampling; 10-year ERP batch traceability per serial'
+    - capability: 'Packaging & export'
+      in_house: 'In-house kitting + certified logistics'
+      standard: 'Retail boxes, seaworthy export packing and serial labels under your brand'
+
+faq_section:
+  tagline: FAQ
+  title: SUP Manufacturing Capability Questions
+  questions:
+    - q: Which manufacturing processes are in-house?
+      a: 'All core processes are in-house: hull engineering, drop-stitch core processing, RF welding, printing, EVA die-cutting, assembly, testing and packing. Accessories and some raw materials come from certified suppliers; final kitting happens in-house for full traceability.'
+    - q: What is your production capacity?
+      a: '120,000+ boards per year (around 10,000/month) across 4 automated lines and 4 specialized workshops in a 12,500 m² plant with 350+ workers.'
+    - q: What MOQ applies across these capabilities?
+      a: 'Standard volume runs 90–100+ units per approved configuration (one 150 m drop-stitch fabric roll); pilot runs start at 20–50 units on existing platforms; logo-only orders from 5–10 units.'
+    - q: What lead times should we plan?
+      a: 'Prototype samples in 7–12 days; production 25–35 days after confirmed PO and deposit; custom mould development adds 15–20 days for tooling.'
+    - q: How do capabilities translate into quality?
+      a: 'Each process feeds the 7-stage quality system: a 100-point assembly checklist, 18.0 PSI 24-hour pressure hold with auto-reject above 0.50 PSI drop, ISO 2859-1 Level II sampling and 10-year ERP batch traceability.'
+
+cta:
+  title: 'See which capabilities fit your project'
+  subtitle: 'Send your product brief — engineering review and a capability-fitted quotation within one business day.'
+  actions:
+    - variant: primary
+      text: Request a Manufacturing Quotation
+      href: /contact#custom-oem
+    - text: Walk the factory
+      href: /factory
+    - text: Factory production process
+      href: /factory/process
+    - text: Factory capacity & lead times
+      href: /factory/capacity
+    - text: Quality & testing
+      href: /quality
+    - text: Proof Center — factory evidence
+      href: /proof-center
+    - text: OEM & ODM manufacturing
+      href: /oem-manufacturing

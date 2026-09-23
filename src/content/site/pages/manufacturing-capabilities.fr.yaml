@@ -1,0 +1,125 @@
+meta:
+  title: 'Capacités de fabrication de SUP | Usine de planches à pagaie gonflables'
+  description: 'Capacités de fabrication de SUP à Qingdao : ingénierie de coque en interne (0,1 mm), traitement du drop-stitch, soudure HF, impression, outillage, contrôle qualité à 100 points et 120 000+ planches par an.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'capacités de fabrication de SUP'
+    - 'capacités d''usine de paddle board gonflable'
+    - 'fabrication de SUP intégrée'
+    - 'capacités de production de planches à pagaie'
+    - 'usine de SUP Qingdao'
+
+hero:
+  tagline: Capacités de fabrication
+  title: 'Capacités de fabrication de SUP'
+  subtitle: 'Chaque étape — ingénierie de coque, traitement du tissu drop-stitch, soudure haute fréquence, impression, outillage de moules, assemblage, tests et emballage — est réalisée en interne dans notre usine de 12 500 m² à Qingdao : une seule équipe responsable depuis le premier dessin jusqu''au conteneur expédié.'
+
+answer:
+  label: 'Réponse directe'
+  text: 'La fabrication de SUP est entièrement intégrée dans notre usine de Qingdao : conception et ingénierie dimensionnelle de coque à une précision CNC de 0,1 mm ; traitement du matériau drop-stitch et soudure HF sur 4 lignes automatisées ; impression des graphismes ; découpe des tapis EVA ; outillage de moules sur mesure (+15–20 jours pour les nouvelles formes) ; assemblage selon une check-list à 100 points ; et test de maintien de pression 18,0 PSI pendant 24 heures avec rejet automatique au-delà d''une chute de 0,50 PSI. La capacité annuelle est de 120 000+ planches (environ 10 000/mois) issue de 4 ateliers spécialisés avec 350+ employés, expédiées vers plus de 50 pays sous votre marque.'
+  verified: '2026-09'
+
+capabilities:
+  tagline: Capacités en interne
+  title: 'Groupes de capacités, tous réalisés en interne'
+  subtitle: 'Chaque capacité ci-dessous est exécutée à l''intérieur de l''usine, ce qui réduit les délais, verrouille le contrôle qualité à chaque étape et garde votre cahier des charges au même endroit.'
+  groups:
+    - title: Conception & Ingénierie
+      items:
+        - 'Conception de coque & ingénierie dimensionnelle'
+        - 'Précision CNC de 0,1 mm'
+        - 'Conception de moules & outillage sur mesure'
+        - 'Graphismes packaging & retail'
+    - title: Production
+      items:
+        - 'Traitement du tissu drop-stitch'
+        - 'Soudure HF 15 kW (4 lignes automatisées)'
+        - 'Impression des graphismes'
+        - 'Découpe des tapis EVA'
+        - 'Assemblage & finition des planches'
+        - 'Conditionnement des accessoires'
+    - title: Qualité & Conformité
+      items:
+        - 'Check-list d''assemblage à 100 points'
+        - 'Maintien de pression 18,0 PSI · 24 h'
+        - 'Échantillonnage ISO 2859-1 niveau II'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - 'Traçabilité de lot sur 10 ans'
+    - title: Service & Logistique
+      items:
+        - 'Échantillons prototype en 7–12 jours'
+        - 'Production en 25–35 jours'
+        - 'Moules sur mesure en +15–20 jours'
+        - 'FOB Qingdao · CIF · DDP vers 50+ pays'
+
+table:
+  headers:
+    capability: Capacité
+    in_house: En interne
+    standard: Ce que comprend le standard
+  rows:
+    - capability: 'Conception de coque & ingénierie dimensionnelle'
+      in_house: 'Oui — équipe d''ingénierie interne'
+      standard: 'Conçue et validée avant l''outillage ; précision CNC de 0,1 mm pour les moules et la découpe'
+    - capability: 'Traitement du matériau drop-stitch'
+      in_house: 'Oui — production du cœur en interne'
+      standard: 'Densité drop-stitch 12–15 PSI, nidification optimisée par taille de planche'
+    - capability: 'Soudure HF & construction des coutures'
+      in_house: 'Oui — en interne'
+      standard: 'Capacité de soudure HF de 15 kW sur 4 lignes de production automatisées'
+    - capability: 'Impression & graphismes'
+      in_house: 'Oui — conception et impression internes'
+      standard: 'Palettes illimitées, graphismes pleine surface, support artistique de l''usine'
+    - capability: 'Découpe des tapis EVA'
+      in_house: 'Oui — en interne'
+      standard: 'Spécification EVA 45–55 Shore C, découpes sur mesure et logos'
+    - capability: 'Moules & outillage sur mesure'
+      in_house: 'Oui — atelier de moules interne'
+      standard: 'Outillage de nouvelle forme : +15–20 jours ; moules propriété de l''usine sauf accord contraire'
+    - capability: 'Assemblage & finition des planches'
+      in_house: 'Oui — en interne'
+      standard: 'Check-list d''assemblage à 100 points ; poignées, inserts et accessoires selon le cahier des charges'
+    - capability: 'Tests de pression & de charge'
+      in_house: 'Oui — banc de test interne'
+      standard: 'Maintien de pression 18,0 PSI pendant 24 h, rejet automatique au-delà de 0,50 PSI'
+    - capability: 'Inspection finale & traçabilité'
+      in_house: 'Oui — équipe QC interne'
+      standard: 'Échantillonnage ISO 2859-1 niveau II ; traçabilité de lot ERP sur 10 ans par série'
+    - capability: 'Emballage & export'
+      in_house: 'Conditionnement interne + logistique certifiée'
+      standard: 'Boîtes retail, emballage export nautique et étiquettes de série sous votre marque'
+
+faq_section:
+  tagline: FAQ
+  title: Questions sur les capacités de fabrication
+  questions:
+    - q: Quels procédés de fabrication sont réalisés en interne ?
+      a: 'Tous les procédés clés sont intégrés : ingénierie de coque, traitement du tissu drop-stitch, soudure HF, impression, découpe EVA, assemblage, tests et emballage. Les accessoires et certaines matières premières proviennent de fournisseurs certifiés ; le conditionnement final est réalisé en interne pour une traçabilité complète.'
+    - q: Quelle est votre capacité de production ?
+      a: '120 000+ planches par an (environ 10 000/mois) sur 4 lignes automatisées et 4 ateliers spécialisés dans une usine de 12 500 m² avec plus de 350 employés.'
+    - q: Quelle quantité minimum (MOQ) s''applique à ces capacités ?
+      a: 'La production de volume standard démarre à 90–100+ unités par configuration approuvée (un rouleau de tissu drop-stitch de 150 m) ; les séries pilotes démarrent à 20–50 unités sur des plateformes existantes ; les commandes logo seul dès 5–10 unités.'
+    - q: Quels délais devons-nous prévoir ?
+      a: 'Échantillons prototype en 7–12 jours ; production en 25–35 jours après bon de commande confirmé et acompte ; l''outillage de moule sur mesure ajoute 15–20 jours.'
+    - q: Comment ces capacités se traduisent-elles en qualité ?
+      a: 'Chaque étape alimente le système qualité en 7 étapes : check-list d''assemblage à 100 points, maintien de pression 18,0 PSI pendant 24 heures avec rejet automatique au-delà de 0,50 PSI, échantillonnage ISO 2859-1 niveau II et traçabilité de lot ERP sur 10 ans.'
+
+cta:
+  title: 'Vérifiez quelles capacités correspondent à votre projet'
+  subtitle: 'Envoyez votre brief produit — revue d''ingénierie et devis adapté à vos capacités sous un jour ouvré.'
+  actions:
+    - variant: primary
+      text: Demander un devis de fabrication
+      href: /fr/contact#custom-oem
+    - text: Visiter l''usine
+      href: /fr/factory
+    - text: Process de production usine
+      href: /fr/factory/process
+    - text: Capacité & délais de l''usine
+      href: /fr/factory/capacity
+    - text: Qualité & tests
+      href: /fr/quality
+    - text: Proof Center — preuves de l''usine
+      href: /fr/proof-center
+    - text: Fabrication OEM & ODM
+      href: /fr/oem-manufacturing

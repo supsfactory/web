@@ -105,19 +105,19 @@ labs_section:
   tagline: Labs
   title: Our Laboratories
   labs:
-    - image: https://assets.supsfactory.com/images/sups/randd/afarer-pvc-material-lab.webp
+    - image: https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp
       title: PVC Fabric Lab
       description: Continuous research and testing of PVC and Hypalon tube fabrics for tensile strength, UV resistance, abrasion, and low-temperature flexibility to ensure long-term reliability in marine environments.
       href: /randdcenter/pvc-fabric-lab
-    - image: https://assets.supsfactory.com/images/sups/factory/afarer-design-discussion-2.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-2.webp
       title: Hull Engineering Studio
       description: CAD-driven design and finite element analysis of HDPE, aluminum, and fiberglass hulls. Every hull is digitally simulated for stress distribution and impact resistance before the first prototype is built.
       href: /randdcenter/hull-engineering
-    - image: https://assets.supsfactory.com/images/sups/factory/afarer-sup-manufacturing-3.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing-3.webp
       title: RF Welding Center
       description: Dedicated radio-frequency welding facility with precision temperature and pressure control, producing high-strength, airtight seams that meet marine industry standards for inflatable craft.
       href: /randdcenter/rf-welding
-    - image: https://assets.supsfactory.com/images/sups/factory/afarer-design-discussion-original.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp
       title: Hydrodynamic Test Tank
       description: Scale-model testing in our in-house test tank to optimize hull form, planing performance, stability, and fuel efficiency across a range of load and sea conditions.
       href: /randdcenter/hydrodynamic-test-tank
@@ -125,7 +125,7 @@ labs_section:
       title: Prototype Workshop
       description: Full-scale prototyping and rigging facility where new models are built, fitted, and sea-trialed. Every prototype undergoes a minimum 20-hour in-water test programme before production approval.
       href: /randdcenter/prototype-workshop
-    - image: https://assets.supsfactory.com/images/sups/factory/afarer-uv-resistance-testing.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
       title: Quality & Inspection Lab
       description: Dedicated quality assurance lab performing tensile testing, air-retention cycling, seam peel tests, and material certification to ensure every boat leaving the workshop meets our published specifications.
       href: /randdcenter/quality-inspection-lab

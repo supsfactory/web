@@ -45,35 +45,35 @@ quality_basis:
 tests:
   - title: Tests de pression
     description: Les chambres gonflables sont soumises à des pressions dépassant leurs limites de fonctionnement recommandées sur des périodes prolongées. Cela vérifie l'étanchéité à l'air et l'intégrité structurelle du matériau et des coutures, garantissant que le produit peut supporter l'usage prévu et une éventuelle sur-gonflage sans défaillance ni fuite.
-    image: https://assets.supsfactory.com/images/sups/factory/afarer-pressure-testing.webp
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
     alt: Chambre de SUP gonflable soumise à un test de pression pour vérifier l'étanchéité à l'air
   - title: Tests d'impact
     description: Les produits sont soumis à des impacts contrôlés de différentes masses et angles. Cela évalue la résistance du matériau aux perforations, aux déchirures et aux dommages dus aux collisions avec des obstacles dans l'eau, démontrant la durabilité et la longévité.
-    image: https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
     alt: Banc d'essai d'impact évaluant la résistance à la perforation du matériau du bateau gonflable
   - title: Tests de résistance aux UV
     description: Les échantillons de matériau sont exposés à un rayonnement UV accéléré pour vérifier qu'ils ne jaunissent pas, ne fissurent pas et ne perdent pas de résistance au fil du temps. Chaque lot de PVC est contrôlé contre la dégradation solaire avant utilisation en production.
-    image: https://assets.supsfactory.com/images/sups/factory/afarer-uv-resistance-testing.webp
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
     alt: Échantillons de matériau PVC sous rayonnement UV accéléré lors d'un test de résistance
   - title: Tests de résistance à l'abrasion
     description: Les échantillons de matériau sont frottés contre des surfaces abrasives pendant un nombre de cycles défini sous une pression contrôlée. Cela mesure la capacité du matériau à résister à l'usure due à une utilisation répétée, au contact avec le sable, les rochers ou d'autres surfaces, garantissant une durabilité à long terme.
-    image: https://assets.supsfactory.com/images/sups/factory/afarer-pvc-material-testing.webp
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pvc-material-testing.webp
     alt: Machine de test d'abrasion frottant un échantillon de tissu PVC pour mesurer la résistance à l'usure
   - title: Tests de performance à basse température
     description: Les produits sont testés dans des environnements froids pour évaluer leur fonctionnalité et leur durabilité dans diverses conditions de température, évitant la rigidité ou les fissures dans les eaux plus froides. Essentiel pour les bateaux destinés à un usage hivernal ou à haute latitude.
-    image: https://assets.supsfactory.com/images/sups/factory/afarer-factory-exterior.webp
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-exterior.webp
     alt: Produit gonflable à l'intérieur d'une chambre froide pour un test de performance à basse température
   - title: Tests de flottabilité et de capacité de charge
     description: Les produits sont testés avec différentes masses pour déterminer leur capacité de charge maximale et garantir qu'ils supportent en toute sécurité les utilisateurs et le matériel. La capacité nominale de chaque modèle est vérifiée avant sa mise sur le marché.
-    image: https://assets.supsfactory.com/images/sups/factory/afarer-stock-boat-inventory.webp
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-stock-boat-inventory.webp
     alt: Test de flottabilité et de capacité de charge avec des charges sur une embarcation gonflable
   - title: Tests de manœuvrabilité
     description: Les produits sont testés pour leur réactivité aux commandes de pagaie ou de moteur, en évaluant le rayon de virage et la facilité de maniement. Les essais sur l'eau valident que le comportement réel correspond aux spécifications de conception.
-    image: https://assets.supsfactory.com/images/sups/factory/afarer-sup-manufacturing.webp
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
     alt: Test de manœuvrabilité sur l'eau de coques de SUP gonflable et de bateau
   - title: Tests d'étanchéité à l'eau
     description: Les produits entièrement assemblés sont immergés ou soumis à un jet d'eau pour vérifier toute fuite à travers les coutures, les valves ou les matériaux. Chaque bateau passe un contrôle obligatoire d'étanchéité à l'eau avant expédition.
-    image: https://assets.supsfactory.com/images/sups/factory/afarer-production-department-2.webp
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
     alt: Test d'étanchéité par immersion vérifiant les coutures et les valves contre les fuites
 qc_flow:
   tagline: Le flux d'inspection en 7 étapes

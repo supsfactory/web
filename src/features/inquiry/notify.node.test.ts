@@ -28,6 +28,8 @@ function inquiry(overrides: Partial<Inquiry> = {}): Inquiry {
     company: '',
     website: '',
     country: '',
+    projectType: '',
+    existingDesign: '',
     email: 'a@b.com',
     whatsapp: '',
     businessType: 'other',

@@ -305,9 +305,9 @@ export const esUi = {
       faqDesc: 'Preguntas frecuentes sobre la fabricación OEM/ODM de SUP hinchables — materiales, certificaciones, cantidades mínimas de pedido y logística mayorista.',
       waitlistTitle: 'Únete a la lista de espera',
       waitlistDesc: 'Te avisaremos en cuanto lancemos.',
-      homeTitle: 'Fabricante de tablas SUP hinchables a medida | OEM/ODM para marcas',
-      homeDesc: '{siteName} fabrica SUP hinchables de marca propia: especificación, muestras, QC, packaging y producción lista para exportar.',
-      homeOgTitle: '{siteName} — Fabricante de tablas SUP hinchables a medida',
+      homeTitle: 'Fabricante de SUP hinchables y fábrica OEM/ODM en Qingdao, China',
+      homeDesc: '{siteName} es un fabricante de SUP hinchables y fábrica OEM/ODM en Qingdao, China: ingeniería, prototipos, producción en serie con control de calidad, embalaje y entrega lista para exportar.',
+      homeOgTitle: '{siteName} — Fabricante de SUP hinchables y fábrica OEM/ODM',
     },
     jsonld: {
       moq: 'Cantidad mínima de pedido (MOQ)',
