@@ -2,7 +2,7 @@ import { SITE_NAME } from '@/config/site'
 
 export const frUi = {
   common: {
-    appName: SITE_NAME, toggleTheme: 'Changer de thème', language: 'Langue',
+    appName: SITE_NAME, toggleTheme: 'Changer de thème', language: 'Langue', languageUnavailable: 'Pas encore disponible',
     search: 'Rechercher', searchPlaceholder: 'Rechercher des produits, guides, projets…',
     searchStart: 'Saisissez un mot-clé pour commencer la recherche', searchNone: 'Aucun résultat',
     searchResultsTitle: 'Recherche', searchResultsFor: 'Résultats pour « {query} »', searchResultsEmpty: 'Aucun résultat trouvé. Essayez avec un autre mot-clé.',
@@ -302,7 +302,7 @@ export const frUi = {
       researchTitle: 'Recherche et guides techniques — {siteName}',
       researchDesc: 'Recherche technique approfondie sur les matériaux, la construction, les normes de sécurité et la fabrication de SUP.',
       faqTitle: 'FAQ — Fabrication OEM de SUP gonflable, matériaux et MOQ | {siteName}',
-      faqDesc: 'Foire aux questions sur la fabrication OEM/ODM de SUP gonflables afarer — matériaux, certifications, quantités minimales de commande et approvisionnement en gros.',
+      faqDesc: 'Foire aux questions sur la fabrication OEM/ODM de SUP gonflables — matériaux, certifications, quantités minimales de commande et approvisionnement en gros.',
       waitlistTitle: 'Rejoignez la liste d\'attente',
       waitlistDesc: 'Nous vous préviendrons dès le lancement.',
       homeTitle: 'Fabrication de SUP gonflables personnalisés | OEM/ODM pour marques et distributeurs',

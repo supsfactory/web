@@ -19,7 +19,7 @@ hero:
 
 answer:
   label: 'Réponse directe'
-  text: 'La chaîne allégation-à-preuve est : chaque affirmation de ce site est soutenue par un enregistrement, un certificat, une machine, un document ou un enregistrement de test — et chacun de ceux-ci peut être examiné. SUPsfactory est la division de développement produit et de fabrication SUP d''Afarer, la division de fabrication de Qingdao Vatrad Group Co., Ltd. (enregistrée à Qingdao depuis 2012). L''usine de 12 500 m² détient le management de la qualité ISO 9001:2015, la conformité ISO 25649, la documentation de conformité CE, la conformité sociale BSCI (rapport d''audit sur demande) et la documentation matériaux REACH/RoHS par commande. Chaque chambre gonflable est testée à 18,0 PSI pendant 24 heures avec rejet automatique au-delà d''une chute de 0,50 PSI, et les enregistrements de lot sont conservés sous traçabilité ERP sur 10 ans. La trace papier est publiée ou partageable, et l''usine elle-même est ouverte à l''audit.'
+  text: 'La chaîne allégation-à-preuve est : chaque affirmation de ce site est soutenue par un enregistrement, un certificat, une machine, un document ou un enregistrement de test — et chacun de ceux-ci peut être examiné. SUPsfactory est la division de développement produit et de fabrication SUP de Qingdao Vatrad Group Co., Ltd. (enregistrée à Qingdao depuis 2012). L''usine de 12 500 m² détient le management de la qualité ISO 9001:2015, la conformité ISO 25649, la documentation de conformité CE, la conformité sociale BSCI (rapport d''audit sur demande) et la documentation matériaux REACH/RoHS par commande. Chaque chambre gonflable est testée à 18,0 PSI pendant 24 heures avec rejet automatique au-delà d''une chute de 0,50 PSI, et les enregistrements de lot sont conservés sous traçabilité ERP sur 10 ans. La trace papier est publiée ou partageable, et l''usine elle-même est ouverte à l''audit.'
   verified: '2026-08'
 
 entities:
@@ -35,7 +35,7 @@ entities:
       link_label: 'Page d''entité du site'
     - icon: A
       icon_bg: green
-      title: 'Afarer — la division de fabrication'
+      title: 'Vatrad — la division de fabrication'
       desc: 'La division de fabrication marine derrière l''usine : planches SUP, bateaux gonflables et RIB produits dans la même installation de Qingdao. La documentation produit et qualité est émise sous ce nom.'
       link: '/fr/factory'
       link_label: 'Explorer l''usine'
@@ -147,7 +147,7 @@ faqs:
     - q: 'Cette page est-elle uniquement pour la vérification, et ne remplace-t-elle pas la due diligence ?'
       a: 'Correct — cette page montre où chaque allégation peut être vérifiée : enregistrement de l''entité, certificats, machines, enregistrements et une usine ouverte à l''audit. Vos étapes habituelles de due diligence (vérification de l''enregistrement, audit, inspection tierce partie) s''appliquent toujours et sont bienvenues.'
     - q: 'Quelle entité doit apparaître sur ma documentation de commande ?'
-      a: 'Les commandes sont passées avec Qingdao Vatrad Group Co., Ltd., opérant sous le nom d''Afarer (division de fabrication), avec SUPsfactory comme ligne de produits SUP. Les documents contractuels sont signés par le VP des ventes, l''ingénieur en chef et le directeur QA.'
+      a: 'Les commandes sont passées avec Qingdao Vatrad Group Co., Ltd., opérant sous le nom de Vatrad (division de fabrication), avec SUPsfactory comme ligne de produits SUP. Les documents contractuels sont signés par le VP des ventes, l''ingénieur en chef et le directeur QA.'
     - q: 'Puis-je obtenir des copies des certificats avant de commander ?'
       a: 'Oui — les numéros de certificat et les enregistrements d''audit sont fournis sur demande ou pendant un audit. La liste est publiée, jamais « disponible sur demande uniquement ».'
     - q: 'Comment puis-je vérifier moi-même les enregistrements de test de lot ?'

@@ -13,7 +13,7 @@ tags:
 entityType: technology
 ---
 
-El suelo Air Deck es un sistema hinchable de alta presión utilizado en los cascos hinchables de afarer. Sustituye a los suelos tradicionales de tablones de contrachapado o de aluminio, reduciendo el peso total y acortando el tiempo de montaje.
+El suelo Air Deck es un sistema hinchable de alta presión utilizado en los cascos hinchables de Vatrad. Sustituye a los suelos tradicionales de tablones de contrachapado o de aluminio, reduciendo el peso total y acortando el tiempo de montaje.
 
 El air deck se flexiona más que un suelo de madera maciza, pero ofrece la rigidez suficiente para ponerse de pie, pescar y caminar por él, al tiempo que permite que todo el casco se desinfle y se convierta en un paquete de transporte compacto.
 

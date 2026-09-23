@@ -66,7 +66,7 @@ content_html: |
   <h2>Thickness vs. PSI Trade-off</h2>
   <p>A common misconception is that higher PSI can compensate for excessive thickness. At 25 PSI, a 6" board shows more flex than a 4" board at 15 PSI because the geometric moment of inertia dominates the stiffness equation. For performance-oriented paddlers, a thinner board at lower pressure outperforms a thicker board at higher pressure.</p>
 
-  <h2>Afarer Lineup</h2>
+  <h2>Vatrad Lineup</h2>
   <ul>
     <li><strong>4" boards:</strong> Cheetah Touring series – 12' x 30" x 4" touring SUPs for fitness and distance paddling</li>
     <li><strong>5" boards:</strong> Cheetah All-Round series – 10'6" x 32" x 5" for recreational use</li>

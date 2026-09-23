@@ -1,8 +1,8 @@
 ---
 publishDate: 2025-01-01
 title: Entrenamiento de SUP para principiantes
-summary: 'Plataformas hinchables de SUP estables para quienes aprenden por primera vez en lagos y aguas costeras tranquilas. Las tablas anchas de 32 pulgadas permiten a los alumnos ponerse de pie en su primera sesión, y los bordes blandos hinchables hacen que las caídas sean más seguras — estas son las razones por las que las flotas de entrenamiento eligen las tablas polivalentes de Afarer frente a las rígidas.'
-description: 'El entrenamiento de SUP para principiantes necesita tablas estables y tolerantes. La Afarer Explorer 11 y modelos similares ofrecen la plataforma amplia para unas primeras remadas con éxito.'
+summary: 'Plataformas hinchables de SUP estables para quienes aprenden por primera vez en lagos y aguas costeras tranquilas. Las tablas anchas de 32 pulgadas permiten a los alumnos ponerse de pie en su primera sesión, y los bordes blandos hinchables hacen que las caídas sean más seguras — estas son las razones por las que las flotas de entrenamiento eligen las tablas polivalentes de Vatrad frente a las rígidas.'
+description: 'El entrenamiento de SUP para principiantes necesita tablas estables y tolerantes. La Vatrad Explorer 11 y modelos similares ofrecen la plataforma amplia para unas primeras remadas con éxito.'
 category: training
 environment: lake
 skill: beginner
@@ -16,7 +16,7 @@ tags:
 entityType: case-use
 ---
 
-El entrenamiento de SUP para principiantes es el principal caso de uso de afarer. El diseño estable y de cuerpo ancho de tablas como la SUP Explorer 11' permite que quienes reman por primera vez se pongan de pie en cuestión de minutos, y la anchura de 32" ofrece una manga generosa que compensa la postura poco firme durante las primeras sesiones.
+El entrenamiento de SUP para principiantes es el principal caso de uso de Vatrad. El diseño estable y de cuerpo ancho de tablas como la SUP Explorer 11' permite que quienes reman por primera vez se pongan de pie en cuestión de minutos, y la anchura de 32" ofrece una manga generosa que compensa la postura poco firme durante las primeras sesiones.
 
 ## Por qué las tablas anchas ganan en el entrenamiento
 

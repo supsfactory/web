@@ -2,8 +2,8 @@
 publishDate: 2025-01-01
 dateModified: 2026-08-01
 title: PVC vs Hypalon pour les planches de SUP gonflables
-summary: Pourquoi les planches de SUP gonflables utilisent un PVC marin multicouche plutôt que l'Hypalon — et où l'Hypalon subsiste dans la gamme Afarer.
-description: Les planches de SUP gonflables sont construites en PVC marin multicouche laminé, et non en Hypalon. Cet article explique le choix du matériau, les différences et l'usage de l'Hypalon dans les produits Afarer.
+summary: Pourquoi les planches de SUP gonflables utilisent un PVC marin multicouche plutôt que l'Hypalon — et où l'Hypalon subsiste dans la gamme Vatrad.
+description: Les planches de SUP gonflables sont construites en PVC marin multicouche laminé, et non en Hypalon. Cet article explique le choix du matériau, les différences et l'usage de l'Hypalon dans les produits Vatrad.
 category: materials
 tags:
   - pvc
@@ -13,7 +13,7 @@ tags:
 entityType: technology
 ---
 
-Si vous vous êtes renseigné sur les embarcations gonflables, vous avez vu l'Hypalon (polyéthylène chlorosulfoné, CSM) présenté comme un matériau premium. Sur les planches de SUP gonflables, la situation est différente : les planches Afarer sont construites en PVC marin multicouche laminé, et cet article explique pourquoi.
+Si vous vous êtes renseigné sur les embarcations gonflables, vous avez vu l'Hypalon (polyéthylène chlorosulfoné, CSM) présenté comme un matériau premium. Sur les planches de SUP gonflables, la situation est différente : les planches Vatrad sont construites en PVC marin multicouche laminé, et cet article explique pourquoi.
 
 ## Pourquoi les planches de SUP utilisent le PVC et non l'Hypalon
 
@@ -23,9 +23,9 @@ Les stratifiés PVC multicouche à cœur drop-stitch répondent à toutes ces ex
 
 Les atouts de l'Hypalon — une résistance exceptionnelle aux produits chimiques et aux UV — comptent surtout là où les tissus sont exposés en permanence à l'essence, aux huiles et aux solvants industriels, ce qui explique son usage sur les tubes de bateaux gonflables professionnels et commerciaux plutôt que sur les planches de pagaie.
 
-## Où l'Hypalon apparaît dans la gamme Afarer
+## Où l'Hypalon apparaît dans la gamme Vatrad
 
-L'Hypalon reste le matériau spécifié sur les modèles RIB d'Afarer (RIB 330, RIB 450 Patrol), conçus pour un usage maritime professionnel et vendus via afarer.com. Les planches de SUP et les kayaks de la gamme SUPsfactory utilisent exclusivement le PVC marin, et chaque lot de PVC est testé indépendamment dans notre Laboratoire de tissu PVC avant la production.
+L'Hypalon reste le matériau spécifié sur les modèles RIB de Vatrad (RIB 330, RIB 450 Patrol), conçus pour un usage maritime professionnel. Les planches de SUP et les kayaks de la gamme SUPsfactory utilisent exclusivement le PVC marin, et chaque lot de PVC est testé indépendamment dans notre Laboratoire de tissu PVC avant la production.
 
 ## Les données de test
 

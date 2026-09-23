@@ -2,7 +2,7 @@ import { SITE_NAME } from '@/config/site'
 
 export const esUi = {
   common: {
-    appName: SITE_NAME, toggleTheme: 'Cambiar tema', language: 'Idioma',
+    appName: SITE_NAME, toggleTheme: 'Cambiar tema', language: 'Idioma', languageUnavailable: 'Aún no disponible',
     search: 'Buscar', searchPlaceholder: 'Buscar productos, guías, proyectos…',
     searchStart: 'Escribe una palabra clave para empezar a buscar', searchNone: 'Sin resultados',
     searchResultsTitle: 'Buscar', searchResultsFor: 'Resultados para "{query}"', searchResultsEmpty: 'No se han encontrado resultados. Prueba con otra palabra clave.',
@@ -302,7 +302,7 @@ export const esUi = {
       researchTitle: 'Investigación y guías técnicas — {siteName}',
       researchDesc: 'Investigación técnica en profundidad sobre materiales, construcción, estándares de seguridad y fabricación de SUP.',
       faqTitle: 'Preguntas frecuentes — Fabricación OEM de SUP',
-      faqDesc: 'Preguntas frecuentes sobre la fabricación OEM/ODM de SUP hinchables afarer — materiales, certificaciones, cantidades mínimas de pedido y logística mayorista.',
+      faqDesc: 'Preguntas frecuentes sobre la fabricación OEM/ODM de SUP hinchables — materiales, certificaciones, cantidades mínimas de pedido y logística mayorista.',
       waitlistTitle: 'Únete a la lista de espera',
       waitlistDesc: 'Te avisaremos en cuanto lancemos.',
       homeTitle: 'Fabricante de tablas SUP hinchables a medida | OEM/ODM para marcas',

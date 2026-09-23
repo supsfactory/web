@@ -36,13 +36,11 @@ const handler = async () => {
   out.parentOrganization = {
     '@type': 'Organization',
     name: branding.BRAND_COMPANY_NAME,
-    sameAs: branding.BRAND_PARENT_URL,
   }
   out.department = {
     '@type': 'Organization',
     name: branding.BRAND_PARENT_BRAND,
     description: PARENT_ORG_DESCRIPTION,
-    sameAs: branding.BRAND_PARENT_URL,
   }
   out.knowsAbout = entityData.ENTITY_KNOWS_ABOUT
   out.subjectOf = entityData.ENTITY_SUBJECT_OF.map((s: { type: string; name: string; path: string }) => ({

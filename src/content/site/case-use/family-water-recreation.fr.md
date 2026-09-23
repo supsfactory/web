@@ -18,7 +18,7 @@ tags:
 entityType: case-use
 ---
 
-Les loisirs nautiques en famille sont un cas d'usage central des grands gonflables Afarer. Le Kayak Tandem accueille deux personnes et l'AirDeck 360 transporte jusqu'à cinq personnes, ce qui les rend idéaux pour les sorties familiales sur les lacs, les rivières calmes et les eaux côtières abritées.
+Les loisirs nautiques en famille sont un cas d'usage central des grands gonflables Vatrad. Le Kayak Tandem accueille deux personnes et l'AirDeck 360 transporte jusqu'à cinq personnes, ce qui les rend idéaux pour les sorties familiales sur les lacs, les rivières calmes et les eaux côtières abritées.
 
 ## Le problème de la barque familiale
 

@@ -9,7 +9,7 @@ hero:
   subtitle: Centrados en el progreso
 
 intro:
-  - El Centro de Investigación y Desarrollo (I+D) de Afarer es la fuerza motriz de nuestra misión de revolucionar el equipo de deportes acuáticos. Damos a los amantes de los deportes acuáticos de todo el mundo productos más seguros, cómodos y agradables mediante una innovación constante en tablas de paddle surf (SUP) y embarcaciones hinchables. Nuestro equipo dedicado de ingenieros, diseñadores y expertos apasionados de los deportes acuáticos está dando forma al futuro del sector, elevando constantemente el listón de la calidad, el rendimiento y la sostenibilidad.
+  - El Centro de Investigación y Desarrollo (I+D) de Vatrad es la fuerza motriz de nuestra misión de revolucionar el equipo de deportes acuáticos. Damos a los amantes de los deportes acuáticos de todo el mundo productos más seguros, cómodos y agradables mediante una innovación constante en tablas de paddle surf (SUP) y embarcaciones hinchables. Nuestro equipo dedicado de ingenieros, diseñadores y expertos apasionados de los deportes acuáticos está dando forma al futuro del sector, elevando constantemente el listón de la calidad, el rendimiento y la sostenibilidad.
   - Nuestras instalaciones de I+D reúnen bajo un mismo techo a científicos de materiales, arquitectos navales e ingenieros de producción. Desde la formulación de tejidos y la simulación de cascos hasta el desarrollo de procesos de soldadura y las pruebas de mar a escala real, cada etapa del desarrollo de producto está impulsada por datos y validada mediante ensayos.
 
 mission:
@@ -99,33 +99,33 @@ rd_services:
 vision:
   tagline: Nuestra visión
   title: Dando forma al futuro de los deportes acuáticos
-  body: Afarer aspira a liderar la industria de las embarcaciones hinchables y el SUP mediante la innovación continua, una calidad inquebrantable y un firme compromiso con la seguridad y la sostenibilidad, enriqueciendo en última instancia las experiencias de los amantes de los deportes acuáticos de todo el mundo. El Centro de I+D de Afarer es donde la pasión se encuentra con la innovación, estableciendo nuevos estándares para el sector.
+  body: Vatrad aspira a liderar la industria de las embarcaciones hinchables y el SUP mediante la innovación continua, una calidad inquebrantable y un firme compromiso con la seguridad y la sostenibilidad, enriqueciendo en última instancia las experiencias de los amantes de los deportes acuáticos de todo el mundo. El Centro de I+D de Vatrad es donde la pasión se encuentra con la innovación, estableciendo nuevos estándares para el sector.
 
 labs_section:
   tagline: Laboratorios
   title: Nuestros laboratorios
   labs:
-    - image: https://assets.afarer.com/images/afarer/randd/afarer-pvc-material-lab.webp
+    - image: https://assets.supsfactory.com/images/sups/randd/afarer-pvc-material-lab.webp
       title: Laboratorio de tejidos PVC
       description: 'Investigación y ensayo continuos de tejidos para tubos de PVC y Hypalon: resistencia a la tracción, resistencia UV, abrasión y flexibilidad a baja temperatura, para garantizar una fiabilidad a largo plazo en entornos marinos.'
       href: /es/randdcenter
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-design-discussion-2.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/afarer-design-discussion-2.webp
       title: Estudio de ingeniería de cascos
       description: Diseño asistido por CAD y análisis por elementos finitos de cascos de HDPE, aluminio y fibra de vidrio. Cada casco se simula digitalmente para evaluar la distribución de tensiones y la resistencia al impacto antes de construir el primer prototipo.
       href: /es/randdcenter
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-sup-manufacturing-3.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/afarer-sup-manufacturing-3.webp
       title: Centro de soldadura RF
       description: Instalación dedicada de soldadura por radiofrecuencia con control de precisión de temperatura y presión, que produce costuras herméticas de alta resistencia conformes a los estándares marinos para embarcaciones hinchables.
       href: /es/randdcenter
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-design-discussion-original.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/afarer-design-discussion-original.webp
       title: Canal hidrodinámico
       description: Ensayos con modelos a escala en nuestro canal de pruebas interno para optimizar la forma del casco, el planeo, la estabilidad y la eficiencia del combustible en un amplio rango de cargas y condiciones de mar.
       href: /es/randdcenter
-    - image: https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp
+    - image: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
       title: Taller de prototipos
       description: Instalación de prototipado y aparejo a escala real donde se construyen, equipan y prueban en el mar los nuevos modelos. Cada prototipo supera un mínimo de 20 horas de pruebas en el agua antes de la aprobación de producción.
       href: /es/randdcenter
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-uv-resistance-testing.webp
+    - image: https://assets.supsfactory.com/images/sups/factory/afarer-uv-resistance-testing.webp
       title: Laboratorio de calidad e inspección
       description: Laboratorio de garantía de calidad dedicado a ensayos de tracción, ciclos de retención de aire, pruebas de pelado de costuras y certificación de materiales, para garantizar que cada embarcación que sale del taller cumple nuestras especificaciones publicadas.
       href: /es/randdcenter

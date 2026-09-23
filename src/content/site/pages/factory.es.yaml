@@ -1,6 +1,6 @@
 meta:
   title: 'Fábrica y fabricación — OEM de SUP hinchables'
-  description: 'La fábrica de Afarer: planta de 12.500 m² con corte, soldadura RF, impresión y laboratorio de calidad para fabricación OEM/ODM.'
+  description: 'La fábrica de Vatrad: planta de 12.500 m² con corte, soldadura RF, impresión y laboratorio de calidad para fabricación OEM/ODM.'
   dateModified: '2026-08-07'
   keywords:
     - 'fábrica sup china'
@@ -18,7 +18,7 @@ answer:
   verified: '2026-08'
 
 intro:
-  - Como división de fabricación de **Qingdao Vatrad Group Co., Ltd.**, Afarer controla cada etapa de la fabricación de SUP hinchables, desde la llegada de las materias primas de PVC hasta la inspección final previa a la entrega del paddle board terminado. Nuestra planta de fabricación en la Zona de Desarrollo Económico de Qingdao ocupa 12.500 metros cuadrados y alberga talleres dedicados al corte de PVC, la unión del núcleo drop-stitch, la impresión digital de SUP, el montaje final y los ensayos de calidad.
+  - Como división de fabricación de **Qingdao Vatrad Group Co., Ltd.**, Vatrad controla cada etapa de la fabricación de SUP hinchables, desde la llegada de las materias primas de PVC hasta la inspección final previa a la entrega del paddle board terminado. Nuestra planta de fabricación en la Zona de Desarrollo Económico de Qingdao ocupa 12.500 metros cuadrados y alberga talleres dedicados al corte de PVC, la unión del núcleo drop-stitch, la impresión digital de SUP, el montaje final y los ensayos de calidad.
   - Al integrar diseño, ingeniería, creación de prototipos, fabricación y ensayos bajo un mismo techo, eliminamos las ineficiencias de la fabricación por contrato y mantenemos el control directo de la calidad de construcción, la selección de materiales y los plazos de entrega. Cada SUP que sale de nuestro taller está construido por nuestra gente, con nuestro equipo y según nuestros estándares.
 
 stats:
@@ -119,27 +119,27 @@ workshops_section:
   workshops:
     - title: Corte de PVC y preparación de materiales
       description: Máquinas de corte CNC automáticas procesan tejidos de PVC, Hypalon y drop-stitch con precisión submilimétrica. El anidado optimizado por ordenador minimiza el desperdicio de material y garantiza que cada panel cumpla su especificación dimensional antes de la soldadura.
-      image: https://assets.afarer.com/images/afarer/hero/production-dept.webp
+      image: https://assets.supsfactory.com/images/sups/hero/production-dept.webp
       alt: Máquina CNC de corte de PVC preparando paneles de tela SUP en la fábrica de Qingdao
     - title: Soldadura de tubos y termosellado
       description: Taller de soldadura dedicado con máquinas de termosellado y prensas dieléctricas RF. Los termoselladores de aire caliente unen y fusionan las cámaras de los tubos de PVC, mientras que las soldaduras RF producen costuras herméticas de alta resistencia que superan los requisitos exigidos.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
+      image: https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp
       alt: Máquina de soldadura RF sellando cámaras de tubo de embarcación hinchable en la fábrica de Qingdao
     - title: Unión del núcleo drop-stitch
       description: Los núcleos drop-stitch de las tablas SUP se unen a los laminados exteriores de PVC mediante laminación térmica. Miles de hilos internos de poliéster conectan las capas superior e inferior, creando una estructura rígida a 12–15 PSI. Las bandas de refuerzo del borde se fusionan con unión de triple capa para la resistencia de los cantos.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-sup-manufacturing.webp
+      image: https://assets.supsfactory.com/images/sups/factory/afarer-sup-manufacturing.webp
       alt: Línea de fabricación de SUP hinchable con equipo de unión de núcleo drop-stitch en la fábrica de Qingdao
     - title: Impresión y decoración de SUP
       description: Las tablas SUP se decoran con impresión digital para gráficos a todo color y serigrafía para logotipos y patrones repetidos. Las impresoras digitales producen diseños de cubierta con calidad fotográfica, mientras que la serigrafía ofrece marcas de marca duraderas y vívidas.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-production-department-2.webp
+      image: https://assets.supsfactory.com/images/sups/factory/afarer-production-department-2.webp
       alt: Interior del departamento de producción en la fábrica de SUP hinchables de Qingdao
     - title: Montaje final y ajuste
       description: Línea de montaje donde se instalan válvulas, anillas D, asas, cajas de quilla y pads de cubierta en cada tabla SUP. Cada tabla sigue una lista de verificación de montaje de 100 puntos firmada por el responsable del equipo.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
+      image: https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp
       alt: Departamento de producción con puestos de trabajo de ensamblaje en la fábrica de Qingdao
     - title: Ensayos e inspección de calidad
       description: Cada tabla terminada se somete a ensayos obligatorios de retención de aire, verificación de pelado de costuras y una comprobación completa de sistemas antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-pressure-testing.webp
+      image: https://assets.supsfactory.com/images/sups/factory/afarer-pressure-testing.webp
       alt: Ensayo de presión para verificar la retención de aire de un SUP hinchable antes del envío en la fábrica de Qingdao
 
 equipment_section:
@@ -200,7 +200,7 @@ faq_section:
   questions:
     - q: ¿Cuál es la cantidad mínima de pedido (MOQ) para tablas SUP hinchables OEM?
       a: 'El MOQ se confirma según la configuración del proyecto, no con un número fijo — casco y utillaje, colores y PVC, arte, empaque y accesorios. La producción de volumen estándar corre en lotes de 90–100+ unidades por rollo completo de drop-stitch de 150 m, el co-branding de lotes pequeños parte de 5–10 unidades, y cada proyecto pasa por las etapas de muestra (1–2 unidades) y piloto (20–50 unidades). Consulta nuestra Guía de MOQ y Branding Flexible para la lógica de cálculo completa.'
-    - q: ¿Mantiene Afarer la certificación BSCI?
+    - q: ¿Mantiene Vatrad la certificación BSCI?
       a: Sí. Nuestra fábrica mantiene una certificación válida de cumplimiento social BSCI (informe de auditoría disponible bajo petición). También tenemos ISO 9001 para gestión de calidad. La certificación CE aplica a modelos destinados al mercado de la UE; el alcance se confirma por proyecto. La documentación de cumplimiento REACH y RoHS se entrega con cada pedido OEM.
     - q: ¿Cuál es el plazo de entrega típico de un pedido OEM?
       a: El plazo estándar es de 25–35 días desde la confirmación del pedido y el depósito para la producción OEM en volumen. El desarrollo de moldes personalizados añade 15–20 días para el utillaje. Hay producción acelerada disponible para pedidos urgentes y picos de temporada. Las muestras de prototipo suelen estar listas en 7–12 días.

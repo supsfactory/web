@@ -2,7 +2,7 @@
 publishDate: 2025-01-01
 title: Randonnée et exploration côtières
 summary: Planches de randonnée plus longues pour couvrir des distances en eau libre avec efficacité et tenue de cap. Les designs à carène déplaçante comme la Tour 12' glissent dans la houle et gardent leur direction, avec des tailles de 11'6" à 14' adaptées au poids et à la forme physique du pagayeur.
-description: La randonnée côtière exige des planches avec une bonne tenue de cap, une glisse efficace et la capacité de gérer une houle modérée. L'Afarer Tour 12 est conçue pour ce cas d'usage.
+description: La randonnée côtière exige des planches avec une bonne tenue de cap, une glisse efficace et la capacité de gérer une houle modérée. L'Vatrad Tour 12 est conçue pour ce cas d'usage.
 category: recreation
 environment: coastal
 skill: intermediate

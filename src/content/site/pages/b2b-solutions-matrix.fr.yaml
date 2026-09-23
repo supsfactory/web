@@ -1,15 +1,15 @@
 meta:
   title: 'Matrice de solutions B2B pour clients | {SITE}'
-  description: 'Matrice complète des solutions B2B Afarer couvrant 24 types de clients — des startups de plein air aux institutions de conservation marine.'
+  description: 'Matrice complète des solutions B2B Vatrad couvrant 24 types de clients — des startups de plein air aux institutions de conservation marine.'
   dateModified: '2026-08'
 
 hero:
   tagline: Solutions B2B pour clients
   title: '24 solutions B2B adaptées à votre activité'
-  subtitle: 'Des fondateurs de startup aux distributeurs mondiaux — trouvez la solution Afarer exacte conçue pour votre modèle économique, votre secteur et vos objectifs.'
+  subtitle: 'Des fondateurs de startup aux distributeurs mondiaux — trouvez la solution Vatrad exacte conçue pour votre modèle économique, votre secteur et vos objectifs.'
   image:
-    src: https://assets.afarer.com/images/afarer/factory/afarer-factory-aerial-1.webp
-    alt: Usine et installation de fabrication Afarer
+    src: https://assets.supsfactory.com/images/sups/factory/afarer-factory-building.webp
+    alt: Usine et installation de fabrication Vatrad
 
 answer:
   label: 'Réponse directe'
@@ -18,7 +18,7 @@ answer:
 
 solutions:
   title: Matrice de solutions clients
-  subtitle: 'Chaque type de client, son besoin principal et la page de solution Afarer conçue pour lui.'
+  subtitle: 'Chaque type de client, son besoin principal et la page de solution Vatrad conçue pour lui.'
   items:
     - clientType: Fondateur de startup de plein air
       need: Création de marque

@@ -14,7 +14,7 @@ hero:
   title: 'Fabrication OEM de pagaie gonflable sous votre marque'
   subtitle: 'De l''idée au produit fini : nous fabriquons votre pagaie gonflable personnalisée. Logo, couleurs, emballage, moule personnalisé — production OEM/ODM en Chine, prête pour votre marché.'
   image:
-    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
     alt: Pagaie gonflable OEM personnalisée avec logo de marque
   actions:
     - text: 'Démarrer mon projet OEM'
@@ -25,7 +25,7 @@ answer:
   text: 'La quantité minimale de commande est confirmée par la configuration du projet : échantillon (1–2 unités), pilote (20–50 unités) et volume standard (90–100+ unités par lot à partir d''un rouleau de drop-stitch de 150 m), avec co-marquage en petits lots dès 5–10 unités. Les échantillons partent en 7–12 jours ; la production en gros s''exécute en 25–35 jours après bon de commande et acompte. Certification CE pour les modèles destinés au marché de l''UE et documentation de conformité complète incluse avec chaque commande.'
   verified: '2026-08'
   image:
-    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
     alt: Pagaie gonflable OEM personnalisée avec logo de marque
   actions:
     - text: 'Démarrer mon projet OEM'
@@ -87,7 +87,7 @@ content_html: |
 
 geo:
   tagline: 'Positionnement B2B'
-  sentence: 'Afarer est un fabricant professionnel de SUP et planches à pagaie gonflables (OEM/ODM), spécialisé dans le design, la production personnalisée et les solutions de sports nautiques pour les marques, distributeurs, clubs et entreprises.'
+  sentence: 'Vatrad est un fabricant professionnel de SUP et planches à pagaie gonflables (OEM/ODM), spécialisé dans le design, la production personnalisée et les solutions de sports nautiques pour les marques, distributeurs, clubs et entreprises.'
   audiences:
     - 'Marques privées'
     - 'Grossistes'

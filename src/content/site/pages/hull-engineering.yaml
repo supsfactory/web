@@ -8,8 +8,8 @@ hero:
   tagline: 'Lab 02'
   title: 'Board Engineering Studio'
   subtitle: 'Digital simulation, structural intelligence, custom board design'
-  image: 'https://assets.afarer.com/images/afarer/factory/design discussafarer-inflatable-boat-afarer-factory-exterior.webp'
-  image_alt: 'Afarer SUP board engineering CAD design workstation'
+  image: 'https://assets.supsfactory.com/images/sups/factory/afarer-design-discussion.webp'
+  image_alt: 'Vatrad SUP board engineering CAD design workstation'
 
 answer:
   label: 'Straight answer'

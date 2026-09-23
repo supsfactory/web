@@ -1,7 +1,7 @@
 import { FACTS, MOQ_SHORT, CERTIFICATION_NAMES } from '@/product/facts'
 import { SITE_NAME } from '@/config/site'
 import { SITE_ORIGIN } from '@/features/seo/jsonld'
-import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_CONTACT, BRAND_PARENT_URL } from '@/config/branding'
+import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_CONTACT } from '@/config/branding'
 import { LLM_SITE_DESCRIPTION } from './ai-content'
 
 export function siteLd(): Record<string, unknown>[] {
@@ -16,17 +16,15 @@ export function siteLd(): Record<string, unknown>[] {
       url: `${SITE_ORIGIN}/`,
       logo: `${SITE_ORIGIN}/logo192.png`,
       description: LLM_SITE_DESCRIPTION.replaceAll('{SITE}', SITE_NAME),
-      sameAs: [BRAND_PARENT_URL, FACTS.social.facebook, FACTS.social.linkedin, FACTS.social.youtube],
+      sameAs: [FACTS.social.facebook, FACTS.social.linkedin, FACTS.social.youtube],
       parentOrganization: {
         '@type': 'Organization',
         name: BRAND_COMPANY_NAME,
-        sameAs: BRAND_PARENT_URL,
       },
       department: {
         '@type': 'Organization',
         name: BRAND_PARENT_BRAND,
         description: 'Marine manufacturing division of Qingdao Vatrad Group Co., Ltd.',
-        sameAs: BRAND_PARENT_URL,
       },
       brand: { '@type': 'Brand', name: BRAND_PARENT_BRAND },
       numberOfEmployees: { '@type': 'QuantitativeValue', value: '350+' },
@@ -140,7 +138,7 @@ export function factoryCapabilitiesLd(): Record<string, unknown> {
     '@type': 'ManufacturingFacility',
     name: `${SITE_NAME} Inflatable SUP Plant`,
     description:
-      `12,500 m\u00b2 inflatable SUP manufacturing plant in Qingdao, China \u2014 the SUP product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}).`,
+      `12,500 m\u00b2 inflatable SUP manufacturing plant in Qingdao, China \u2014 the SUP product development and manufacturing division of ${BRAND_COMPANY_NAME}.`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Economic Development Zone, Laixi',

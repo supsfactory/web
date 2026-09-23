@@ -1,8 +1,8 @@
 ---
 publishDate: 2025-01-01
 title: Entraînement SUP pour débutants
-summary: Plateformes de SUP gonflables stables pour les premiers pagayeurs s'initiant sur les lacs et les eaux côtières calmes. Les planches larges de 32 pouces permettent aux élèves de se mettre debout dès la première séance, et les boudins gonflables souples rendent les chutes plus sûres — autant de raisons pour lesquelles les flottes d'entraînement choisissent les planches tout-terrain Afarer plutôt que les véhicules rigides.
-description: L'entraînement SUP pour débutants exige des planches stables et tolérantes. L'Afarer Explorer 11 et les modèles similaires offrent la plateforme large pour de premières pagayées réussies.
+summary: Plateformes de SUP gonflables stables pour les premiers pagayeurs s'initiant sur les lacs et les eaux côtières calmes. Les planches larges de 32 pouces permettent aux élèves de se mettre debout dès la première séance, et les boudins gonflables souples rendent les chutes plus sûres — autant de raisons pour lesquelles les flottes d'entraînement choisissent les planches tout-terrain Vatrad plutôt que les véhicules rigides.
+description: L'entraînement SUP pour débutants exige des planches stables et tolérantes. L'Vatrad Explorer 11 et les modèles similaires offrent la plateforme large pour de premières pagayées réussies.
 category: training
 environment: lake
 skill: beginner
@@ -16,7 +16,7 @@ tags:
 entityType: case-use
 ---
 
-L'entraînement SUP pour débutants est le cas d'usage principal d'Afarer. La conception stable et à corps large de planches comme la SUP Explorer 11' permet à un premier pagayeur de se mettre debout en quelques minutes, et la largeur de 32" offre une baille généreuse qui compense une posture instable lors des premières séances.
+L'entraînement SUP pour débutants est le cas d'usage principal de Vatrad. La conception stable et à corps large de planches comme la SUP Explorer 11' permet à un premier pagayeur de se mettre debout en quelques minutes, et la largeur de 32" offre une baille généreuse qui compense une posture instable lors des premières séances.
 
 ## Pourquoi les planches larges gagnent à l'entraînement
 

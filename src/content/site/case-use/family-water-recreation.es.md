@@ -18,7 +18,7 @@ tags:
 entityType: case-use
 ---
 
-La recreación acuática en familia es un caso de uso central de los hinchables grandes de afarer. El Kayak Tandem tiene espacio para dos y el AirDeck 360 transporta hasta cinco personas, lo que los convierte en la opción ideal para las salidas familiares en lagos, ríos tranquilos y aguas costeras protegidas.
+La recreación acuática en familia es un caso de uso central de los hinchables grandes de Vatrad. El Kayak Tandem tiene espacio para dos y el AirDeck 360 transporta hasta cinco personas, lo que los convierte en la opción ideal para las salidas familiares en lagos, ríos tranquilos y aguas costeras protegidas.
 
 ## El problema de la barca familiar
 

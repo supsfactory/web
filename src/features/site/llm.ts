@@ -245,7 +245,7 @@ export function llmsAfarerFull(): string {
     '/odm-development', '/oem-manufacturing', '/oem-paddle',
     '/new-brand-trial-order', '/b2b-solutions-matrix',
     '/sup-construction-comparison', '/sup-compliance-by-market',
-    '/factory-audit-checklist', '/about/identity', '/about/afarer',
+    '/factory-audit-checklist', '/about/identity', '/about/vatrad',
     '/partners', '/news', '/technology', '/size-guide',
     '/fishing', '/inflatable-vs-hardboard', '/tourism-recreation',
     '/warranty', '/what-is-sup',

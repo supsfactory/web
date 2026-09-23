@@ -1,6 +1,6 @@
 meta:
   title: 'Technologie — Drop-Stitch & PVC marine | {SITE}'
-  description: 'Technologies Afarer : construction drop-stitch, PVC marine, constructions à double couche et haute pression. Innovation d''un fabricant professionnel de SUP gonflables.'
+  description: 'Technologies Vatrad : construction drop-stitch, PVC marine, constructions à double couche et haute pression. Innovation d''un fabricant professionnel de SUP gonflables.'
   dateModified: '2026-08'
   keywords:
     - 'technologie sup'
@@ -10,7 +10,7 @@ meta:
 hero:
   tagline: 'Technologie'
   title: 'Conçu pour la performance'
-  subtitle: 'Chaque SUP gonflable Afarer est conçu avec une construction drop-stitch et un PVC de grade marine — des matériaux de précision et des méthodes de fabrication testées pour les environnements marins exigeants.'
+  subtitle: 'Chaque SUP gonflable Vatrad est conçu avec une construction drop-stitch et un PVC de grade marine — des matériaux de précision et des méthodes de fabrication testées pour les environnements marins exigeants.'
 
 sections:
   - title: 'Noyau Drop-Stitch'
@@ -37,16 +37,8 @@ related:
       url: /fr/quality
     - text: 'Garantie'
       url: /fr/warranty
-    - text: 'Bateaux de travail commerciaux'
-      url: https://afarer.com/commercial-workboats
-    - text: 'Recherche et sauvetage'
-      url: https://afarer.com/search-and-rescue
     - text: 'Tourisme & loisirs'
       url: /fr/tourism-recreation
-    - text: 'Secours en cas de catastrophe'
-      url: https://afarer.com/disaster-relief-humanitarian-aid
-    - text: 'Sécurité maritime & défense'
-      url: https://afarer.com/maritime-safety-defense
     - text: 'Guides'
       url: /fr/knowledge
     - text: 'Produits'

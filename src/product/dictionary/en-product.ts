@@ -1,5 +1,5 @@
 import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
-import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT, BRAND_PARENT_DOMAIN } from '@/config/branding'
+import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT } from '@/config/branding'
 
 export const enProduct = {
   email: {
@@ -259,7 +259,7 @@ export const enProduct = {
       marketsEurope: 'SUP OEM — Europe',
       terms: 'Terms', privacy: 'Privacy', contact: 'Contact',
       rights: 'Custom SUP product development & manufacturing partner.',
-      owner: `${BRAND_PARENT_BRAND} — SUP manufacturing division of ${BRAND_COMPANY_NAME}.`,
+      owner: `${BRAND_PARENT_BRAND} — marine manufacturing division of ${BRAND_COMPANY_NAME}.`,
       compliance: 'All materials comply with CE, REACH and ISO 9001 quality management standards. 100% factory-direct export from our Qingdao, China plant.',
       followUs: 'Follow us', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },
@@ -400,11 +400,11 @@ export const enProduct = {
       kicker: 'Company Entity',
       title: `${SITE_NAME} — the Inflatable SUP OEM & ODM Manufacturer Behind Your Brand`,
       intro1:
-        `${SITE_NAME} is the SUP product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}). We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing.`,
+        `${SITE_NAME} is the SUP product development and manufacturing division of ${BRAND_COMPANY_NAME}. We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing.`,
       intro2:
         'Our 12,500 m² plant in Qingdao, China handles every stage in-house — design, mould engineering, drop-stitch construction, RF welding, printing, assembly and quality testing. We do not sell to end consumers and we do not compete with our clients in any market.',
       intro3:
-        `One factory, three names. ${BRAND_COMPANY_NAME} is the legal entity; ${BRAND_PARENT_BRAND} is its manufacturing division and operates the full-category inflatable product lines on ${BRAND_PARENT_DOMAIN}; ${SITE_NAME} is the SUP-focused OEM/ODM division you are reading now. Whatever your sourcing team calls us, you reach the same factory floor in Qingdao.`,
+        `One factory, three names. ${BRAND_COMPANY_NAME} is the legal entity; ${BRAND_PARENT_BRAND} is its marine manufacturing division; ${SITE_NAME} is the SUP-focused OEM/ODM division you are reading now. Whatever your sourcing team calls us, you reach the same factory floor in Qingdao.`,
       factsTitle: 'Company Facts',
       servicesTitle: 'What We Manufacture',
       servicesBody: 'Five solution areas cover most custom SUP manufacturing projects:',
@@ -453,7 +453,7 @@ export const enProduct = {
       trustFaqs: [
         {
           q: `Is ${SITE_NAME} really a factory, or a trading company?`,
-          a: `${SITE_NAME} is the product development and SUP manufacturing division of ${BRAND_PARENT_BRAND}, the manufacturing division of ${BRAND_COMPANY_NAME}. We operate the 12,500 m² plant in Qingdao ourselves — design, cutting, welding, assembly and testing all happen in one facility. There are no intermediaries: the people answering your questions are the people building your boards.`,
+          a: `${SITE_NAME} is the product development and SUP manufacturing division of ${BRAND_COMPANY_NAME}. We operate the 12,500 m² plant in Qingdao ourselves — design, cutting, welding, assembly and testing all happen in one facility. There are no intermediaries: the people answering your questions are the people building your boards.`,
         },
         {
           q: 'Who exactly will I deal with during my project?',

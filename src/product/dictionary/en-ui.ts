@@ -2,7 +2,7 @@ import { SITE_NAME } from '@/config/site'
 
 export const enUi = {
   common: {
-    appName: SITE_NAME, toggleTheme: 'Toggle theme', language: 'Language',
+    appName: SITE_NAME, toggleTheme: 'Toggle theme', language: 'Language', languageUnavailable: 'Not yet available',
     search: 'Search', searchPlaceholder: 'Search products, guides, projects…',
     searchStart: 'Type a keyword to start searching', searchNone: 'No matches found',
     searchResultsTitle: 'Search', searchResultsFor: 'Results for "{query}"', searchResultsEmpty: 'No results found. Try a different keyword.',
@@ -312,7 +312,7 @@ export const enUi = {
       researchTitle: 'Research & Technical Guides — {siteName}',
       researchDesc: 'In-depth technical research on SUP materials, construction, safety standards and manufacturing.',
       faqTitle: 'FAQ — Inflatable SUP OEM, Materials & MOQ | {siteName}',
-      faqDesc: 'Frequently asked questions about afarer inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale supply.',
+      faqDesc: 'Frequently asked questions about inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale supply.',
       waitlistTitle: 'Join the waitlist',
       waitlistDesc: "We'll let you know the moment we launch.",
       homeTitle: 'Custom Inflatable SUP Manufacturing | OEM/ODM for Brands & Distributors',

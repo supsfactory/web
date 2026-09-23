@@ -40,7 +40,7 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/sup-compliance-by-market', lastmod: '2026-08-21' },
   { path: '/factory-audit-checklist', lastmod: '2026-08-21' },
   { path: '/about/identity', lastmod: '2026-08-21' },
-  { path: '/about/afarer', lastmod: '2026-08-20' },
+  { path: '/about/vatrad', lastmod: '2026-08-20' },
   { path: '/factory', lastmod: '2026-08-20' },
   { path: '/factory/capacity', lastmod: '2026-08-20' },
   { path: '/factory/equipment', lastmod: '2026-08-20' },

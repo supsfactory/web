@@ -3,9 +3,9 @@
   "@type": "Organization",
   "@id": "https://supsfactory.com/#organization",
   "name": "SUPsfactory",
-  "alternateName": "SUPsfactory — Afarer SUP Manufacturing",
+  "alternateName": "SUPsfactory — Vatrad SUP Manufacturing",
   "url": "https://supsfactory.com",
-  "description": "SUPsfactory is the custom inflatable SUP (stand-up paddle board) OEM/ODM manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,500 m² marine equipment plant in Qingdao, China. Engineering, tooling, sampling, production and export for SUP brands, distributors and sourcing teams worldwide.",
+  "description": "SUPsfactory is the custom inflatable SUP (stand-up paddle board) OEM/ODM manufacturing division of Qingdao Vatrad Group Co., Ltd., a 12,500 m² marine equipment plant in Qingdao, China. Engineering, tooling, sampling, production and export for SUP brands, distributors and sourcing teams worldwide.",
   "industry": "Marine Equipment Manufacturing — SUP Division",
   "foundingDate": "2012",
   "isicV4": "3012",
@@ -53,20 +53,17 @@
     }
   ],
   "sameAs": [
-    "https://www.youtube.com/@afarer",
-    "https://www.instagram.com/afarer_watersports/",
-    "https://www.facebook.com/profile.php?id=61572404318679",
-    "https://www.linkedin.com/company/afarer",
-    "https://afarer.en.alibaba.com",
-    "https://afarer.en.made-in-china.com"
+    "https://www.facebook.com/supsfactory",
+    "https://www.linkedin.com/company/supsfactory",
+    "https://www.youtube.com/@supsfactory"
   ],
   "parentOrganization": {
     "@type": "Organization",
-    "@id": "https://afarer.com/#organization",
-    "name": "Afarer",
-    "alternateName": "Afarer Marine",
-    "url": "https://afarer.com",
-    "description": "Afarer is the parent brand — a global water sports equipment and marine innovation partner manufacturing RIB boats, inflatable boats, SUP boards and marine solutions."
+    "@id": "https://supsfactory.com/#organization",
+    "name": "Vatrad",
+    "alternateName": "Vatrad Marine",
+    "url": "https://supsfactory.com",
+    "description": "Vatrad is the marine manufacturing division of Qingdao Vatrad Group Co., Ltd. — RIB boats, inflatable boats, SUP boards and marine solutions built in the same Qingdao plant."
   },
   "isPartOf": {
     "@type": "Organization",

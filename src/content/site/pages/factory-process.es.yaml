@@ -19,7 +19,7 @@ answer:
   text: 'Las tablas pasan por cinco etapas controladas: inspección de materiales (1–2 días), corte CNC automático (desperdicio inferior al 5%, 2–4 horas por kit), termosellado de tubos con costuras reforzadas por RF (1–2 días por tabla), unión del núcleo drop-stitch y ensamblaje final con retención de aire al 100% y pruebas de carga antes del embalaje.'
   verified: '2026-08'
 
-intro: A diferencia de las marcas que subcontratan la producción a fábricas de terceros, Afarer es dueño y operador de toda su cadena de fabricación. Esta integración vertical nos permite mantener un estricto control de calidad en cada etapa, responder rápidamente a los requisitos personalizados y entregar una calidad de producto constante tanda tras tanda. Así se fabrica una tabla de SUP en nuestras instalaciones.
+intro: A diferencia de las marcas que subcontratan la producción a fábricas de terceros, Vatrad es dueño y operador de toda su cadena de fabricación. Esta integración vertical nos permite mantener un estricto control de calidad en cada etapa, responder rápidamente a los requisitos personalizados y entregar una calidad de producto constante tanda tras tanda. Así se fabrica una tabla de SUP en nuestras instalaciones.
 
 steps:
   - step: '01'
@@ -104,6 +104,6 @@ evidence_gates:
       alt: Firma de liberación de envío y entrega del registro de trazabilidad del lote
 cta:
   title: Vea nuestros equipos y maquinaria
-  desc: Explore el equipamiento de grado industrial que hay detrás de cada tabla de SUP de afarer.
+  desc: Explore el equipamiento de grado industrial que hay detrás de cada tabla de SUP de Vatrad.
   label: Ver equipos →
   link: /es/factory/equipment

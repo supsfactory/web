@@ -5,7 +5,7 @@
   keywords:
     - 'SUPsfactory identity'
     - 'Qingdao Vatrad Group'
-    - 'Afarer SUP manufacturer'
+    - 'Vatrad SUP manufacturer'
     - 'SUP factory Laixi Qingdao'
     - 'inflatable SUP manufacturer China'
     - 'OEM SUP factory identity'
@@ -17,7 +17,7 @@ hero:
 
 answer:
   label: 'En resumen'
-  text: 'Entidad legal: Qingdao Vatrad Group Co., Ltd. División de fabricación: Afarer (marca SUPsfactory). Fábrica: Laixi, Qingdao, Shandong, China. Alcance: Fabricación OEM, ODM y marca privada de tablas SUP hinchables, remos y productos marinos hinchables. Certificaciones: ISO 9001:2015, CE (modelos destinados a la UE), BSCI, REACH, RoHS. No vendemos bajo nuestra propia marca — cada tabla que producimos lleva la marca del comprador.'
+  text: 'Entidad legal: Qingdao Vatrad Group Co., Ltd. División de fabricación: Vatrad (marca SUPsfactory). Fábrica: Laixi, Qingdao, Shandong, China. Alcance: Fabricación OEM, ODM y marca privada de tablas SUP hinchables, remos y productos marinos hinchables. Certificaciones: ISO 9001:2015, CE (modelos destinados a la UE), BSCI, REACH, RoHS. No vendemos bajo nuestra propia marca — cada tabla que producimos lleva la marca del comprador.'
   verified: '2026-08'
 
 identity_detail:
@@ -33,7 +33,7 @@ identity_detail:
     - icon: M
       icon_bg: green
       title: 'División de Fabricación'
-      desc: 'Afarer opera como la división de fabricación marina bajo Qingdao Vatrad Group. SUPsfactory es la marca orientada al comprador utilizada para servicios de fabricación OEM, ODM y marca privada a nivel internacional.'
+      desc: 'Vatrad opera como la división de fabricación marina bajo Qingdao Vatrad Group. SUPsfactory es la marca orientada al comprador utilizada para servicios de fabricación OEM, ODM y marca privada a nivel internacional.'
     - icon: F
       icon_bg: purple
       title: 'Ubicación de Fábrica'
@@ -70,13 +70,13 @@ faqs:
   title: 'Identidad de Marca — Preguntas Frecuentes'
   items:
     - q: '¿SUPsfactory es una empresa separada de Qingdao Vatrad Group?'
-      a: 'No. SUPsfactory es la marca orientada al comprador de Afarer, que es la división de fabricación marina de Qingdao Vatrad Group Co., Ltd. La entidad legal contratante para todos los pedidos es Qingdao Vatrad Group Co., Ltd. La fábrica, el equipo y el sistema de calidad son una sola operación.'
+      a: 'No. SUPsfactory es la marca orientada al comprador de Vatrad, que es la división de fabricación marina de Qingdao Vatrad Group Co., Ltd. La entidad legal contratante para todos los pedidos es Qingdao Vatrad Group Co., Ltd. La fábrica, el equipo y el sistema de calidad son una sola operación.'
     - q: '¿Venden tablas bajo su propia marca?'
       a: 'No. Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellos en ningún mercado. Esta es una política fundamental — no una posición temporal. Si encuentra una tabla con la marca SUPsfactory en el mercado, no proviene de nuestra fábrica.'
     - q: '¿Puedo visitar la fábrica?'
       a: 'Sí. Recibimos visitas de fábrica y podemos organizar una auditoría estructurada que cubra todo el proceso de producción, puertas de control de calidad, almacén de materiales y revisión de documentación. Contáctenos para programar una visita.'
-    - q: '¿Cuál es la relación entre Afarer y SUPsfactory?'
-      a: 'Afarer es el nombre de la división de fabricación dentro de Qingdao Vatrad Group. SUPsfactory es la marca internacional orientada al comprador utilizada para servicios de fabricación OEM, ODM y marca privada. Se refieren a la misma operación — la división de fabricación marina en Laixi, Qingdao.'
+    - q: '¿Cuál es la relación entre Vatrad y SUPsfactory?'
+      a: 'Vatrad es el nombre de la división de fabricación dentro de Qingdao Vatrad Group. SUPsfactory es la marca internacional orientada al comprador utilizada para servicios de fabricación OEM, ODM y marca privada. Se refieren a la misma operación — la división de fabricación marina en Laixi, Qingdao.'
 
 cta:
   title: '¿Listo para Verificar Nuestra Fábrica?'

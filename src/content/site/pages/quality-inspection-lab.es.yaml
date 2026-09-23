@@ -8,8 +8,8 @@ hero:
   tagline: 'Lab 06'
   title: 'Laboratorio de Calidad e Inspección'
   subtitle: 'Verificación independiente — cada ensayo superado antes de la entrega'
-  image: 'https://assets.afarer.com/images/afarer/factory/afarer-uv-resistance-testing.webp'
-  image_alt: 'Ensayos UV en el laboratorio de inspección de calidad de Afarer'
+  image: 'https://assets.supsfactory.com/images/sups/factory/afarer-uv-resistance-testing.webp'
+  image_alt: 'Ensayos UV en el laboratorio de inspección de calidad de Vatrad'
 
 answer:
   label: 'Respuesta directa'

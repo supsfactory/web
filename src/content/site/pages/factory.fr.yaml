@@ -1,6 +1,6 @@
 meta:
   title: 'Usine et fabrication — OEM de SUP gonflables'
-  description: 'Visitez l''usine Afarer : un site de 12 500 m² avec découpe, soudure RF, impression, assemblage et laboratoire qualité pour la fabrication OEM/ODM de SUP gonflables.'
+  description: 'Visitez l''usine Vatrad : un site de 12 500 m² avec découpe, soudure RF, impression, assemblage et laboratoire qualité pour la fabrication OEM/ODM de SUP gonflables.'
   dateModified: '2026-08-07'
   keywords:
     - 'usine sup chine'
@@ -18,7 +18,7 @@ answer:
   verified: '2026-08'
 
 intro:
-  - En tant que division de fabrication de **Qingdao Vatrad Group Co., Ltd.**, Afarer contrôle chaque étape de la fabrication de SUP gonflables — de l'arrivée des matières PVC brutes à l'inspection finale avant livraison de la planche à pagaie finie. Notre installation de fabrication dans la zone de développement économique de Qingdao s'étend sur 12 500 mètres carrés et abrite des ateliers dédiés à la découpe de PVC, au collage du noyau drop-stitch, à l'impression numérique de SUP, à l'assemblage final et aux essais qualité.
+  - En tant que division de fabrication de **Qingdao Vatrad Group Co., Ltd.**, Vatrad contrôle chaque étape de la fabrication de SUP gonflables — de l'arrivée des matières PVC brutes à l'inspection finale avant livraison de la planche à pagaie finie. Notre installation de fabrication dans la zone de développement économique de Qingdao s'étend sur 12 500 mètres carrés et abrite des ateliers dédiés à la découpe de PVC, au collage du noyau drop-stitch, à l'impression numérique de SUP, à l'assemblage final et aux essais qualité.
   - En intégrant la conception, l'ingénierie, le prototypage, la fabrication et les essais sous un même toit, nous éliminons les inefficacités de la sous-traitance contractuelle et conservons un contrôle direct sur la qualité de fabrication, le choix des matériaux et les délais de livraison. Chaque SUP qui quitte notre atelier est construit par nos équipes, sur nos équipements, selon nos normes.
 
 stats:
@@ -119,27 +119,27 @@ workshops_section:
   workshops:
     - title: Découpe de PVC et préparation des matériaux
       description: Les machines de découpe CNC automatiques traitent les tissus PVC, Hypalon et drop-stitch avec une précision sub-millimétrique. Le placement optimisé par ordinateur minimise le gaspillage de matière et garantit que chaque panneau respecte sa spécification dimensionnelle avant le soudage.
-      image: https://assets.afarer.com/images/afarer/hero/production-dept.webp
+      image: https://assets.supsfactory.com/images/sups/hero/production-dept.webp
       alt: Machine de découpe PVC CNC préparant les panneaux de tissu SUP gonflable à l'usine de Qingdao
     - title: Soudage de tubes et thermoscellage
       description: Atelier de soudage dédié avec machines de thermoscellage et presses diélectriques RF. Les thermosoudeurs à air chaud lient et fusionnent les chambres des tubes PVC, tandis que les soudures RF produisent des coutures étanches à l'air haute résistance qui dépassent les exigences.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
+      image: https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp
       alt: Machine de soudage RF scellant les chambres des tubes de bateau gonflable à l'usine de Qingdao
     - title: Assemblage du noyau drop-stitch
       description: Les noyaux drop-stitch des SUP sont liés aux laminés PVC extérieurs par lamination thermique. Des milliers de fils polyester internes relient les couches supérieure et inférieure, créant une structure rigide à 12-15 PSI. Les bandes de rail sont fusionnées en triple couche pour la résistance des bords.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-sup-manufacturing.webp
+      image: https://assets.supsfactory.com/images/sups/factory/afarer-sup-manufacturing.webp
       alt: Ligne de fabrication de SUP gonflables avec équipement d'assemblage de noyau drop-stitch à l'usine de Qingdao
     - title: Impression et décoration de SUP
       description: Les SUP sont décorés par impression numérique pour les graphismes pleine couleur et sérigraphie pour les logos et motifs répétitifs. Les imprimantes numériques produisent des designs de pont de qualité photo, tandis que la sérigraphie offre des marques durables et éclatantes.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-production-department-2.webp
+      image: https://assets.supsfactory.com/images/sups/factory/afarer-production-department-2.webp
       alt: Intérieur de département de production à l'usine de SUP gonflables de Qingdao
     - title: Assemblage final et équipement
       description: Ligne d'assemblage où les valves, anneaux en D, poignées, boîtiers d'ailerons et tapis de pont sont installés sur chaque SUP. Chaque planche suit une liste de contrôle d'assemblage de 100 points signée par le chef d'équipe.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
+      image: https://assets.supsfactory.com/images/sups/factory/afarer-production-department.webp
       alt: Département de production avec postes d'assemblage à l'usine de Qingdao
     - title: Essais qualité et inspection
       description: Chaque planche terminée subit des essais obligatoires de rétention d'air, une vérification de pelage de couture et un contrôle complet des systèmes avant expédition. Notre laboratoire qualité fonctionne indépendamment de la production et relève directement de la direction.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-pressure-testing.webp
+      image: https://assets.supsfactory.com/images/sups/factory/afarer-pressure-testing.webp
       alt: Test de pression d'un SUP gonflable pour la rétention d'air avant expédition à l'usine de Qingdao
 
 equipment_section:
@@ -200,7 +200,7 @@ faq_section:
   questions:
     - q: Quelle est la quantité minimale de commande (MOQ) pour les planches de SUP gonflables OEM ?
       a: 'Le MOQ est confirmé par la configuration du projet plutôt que par un chiffre fixe — coque et outillage, coloris et PVC, graphismes, emballage et accessoires. La production standard en volume s''exécute en 90–100+ unités par lot à partir d''un rouleau drop-stitch complet de 150 m, le co-marquage en petits lots commence à 5–10 unités, et chaque projet passe par les étapes d''échantillon (1–2 unités) et de pilote (20–50 unités). Consultez notre Guide MOQ et marque flexible pour la logique de calcul complète.'
-    - q: Afarer détient-elle la certification BSCI ?
+    - q: Vatrad détient-elle la certification BSCI ?
       a: 'Oui. Notre usine maintient une certification BSCI valide de conformité sociale (rapport d''audit disponible sur demande). Nous détenons également l''ISO 9001 pour le management de la qualité. La certification CE s''applique aux modèles destinés aux marchés de l''UE ; le périmètre est confirmé par projet. La documentation de conformité REACH et RoHS est fournie avec chaque commande OEM.'
     - q: Quel est le délai habituel pour une commande OEM ?
       a: 'Le délai standard est de 25–35 jours à partir du bon de commande confirmé et de l''acompte pour la production OEM en volume. Le développement de moules personnalisés ajoute 15–20 jours pour l''outillage. Une production accélérée est disponible pour les commandes urgentes et les périodes de pointe saisonnières. Les échantillons de prototype sont généralement prêts en 7–12 jours.'

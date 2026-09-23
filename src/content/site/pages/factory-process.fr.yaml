@@ -1,6 +1,6 @@
 meta:
   title: 'Processus de fabrication — de la matière première au SUP'
-  description: 'De la matière première au SUP prêt pour la mer : chaque étape du processus de fabrication Afarer sous notre contrôle, de la découpe et du soudage aux essais.'
+  description: 'De la matière première au SUP prêt pour la mer : chaque étape du processus de fabrication Vatrad sous notre contrôle, de la découpe et du soudage aux essais.'
   dateModified: '2026-08'
   keywords:
     - 'processus de fabrication sup'
@@ -19,7 +19,7 @@ answer:
   text: 'Les planches passent par cinq étapes contrôlées : inspection des matériaux (1–2 jours), découpe CNC automatique (moins de 5 % de gaspillage, 2–4 heures par kit), thermoscellage des tubes avec coutures renforcées RF (1–2 jours par planche), assemblage du noyau drop-stitch, et assemblage final avec test de rétention d''air et de charge à 100 % avant conditionnement.'
   verified: '2026-08'
 
-intro: 'Contrairement aux marques qui externalisent leur production à des usines tierces, Afarer possède et exploite l''ensemble de sa chaîne de fabrication. Cette intégration verticale nous permet de maintenir un contrôle qualité strict à chaque étape, de répondre rapidement aux exigences personnalisées et de fournir une qualité de produit constante lot après lot. Voici comment une planche de SUP est construite dans notre installation.'
+intro: 'Contrairement aux marques qui externalisent leur production à des usines tierces, Vatrad possède et exploite l''ensemble de sa chaîne de fabrication. Cette intégration verticale nous permet de maintenir un contrôle qualité strict à chaque étape, de répondre rapidement aux exigences personnalisées et de fournir une qualité de produit constante lot après lot. Voici comment une planche de SUP est construite dans notre installation.'
 
 steps:
   - step: '01'
@@ -104,6 +104,6 @@ evidence_gates:
       alt: Signature d'autorisation d'expédition et remise de l'enregistrement de traçabilité du lot
 cta:
   title: Voir nos équipements et machines
-  desc: Explorez les équipements de qualité industrielle derrière chaque planche de SUP Afarer.
+  desc: Explorez les équipements de qualité industrielle derrière chaque planche de SUP Vatrad.
   label: Voir les équipements →
   link: /fr/factory/equipment

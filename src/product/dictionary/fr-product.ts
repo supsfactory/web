@@ -1,5 +1,5 @@
 import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
-import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT, BRAND_PARENT_DOMAIN } from '@/config/branding'
+import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT } from '@/config/branding'
 
 export const frProduct = {
   email: {
@@ -259,7 +259,7 @@ export const frProduct = {
       marketsEurope: 'SUP OEM — Europe',
       terms: 'Conditions', privacy: 'Confidentialité', contact: 'Contact',
       rights: 'Partenaire de développement et fabrication de produits SUP personnalisés.',
-      owner: `${BRAND_PARENT_BRAND} — Division manufacturing SUP de ${BRAND_COMPANY_NAME}.`,
+      owner: `${BRAND_PARENT_BRAND} — Division manufacturing marine de ${BRAND_COMPANY_NAME}.`,
       compliance: 'Tous nos matériaux sont conformes aux normes CE, REACH et ISO 9001 de gestion de la qualité. Export 100 % direct depuis notre usine de Qingdao, Chine.',
       followUs: 'Suivez-nous', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },
@@ -400,11 +400,11 @@ export const frProduct = {
       kicker: 'Entité Juridique',
       title: `${SITE_NAME} — Le Fabricant OEM & ODM SUP Gonflable Derrière Votre Marque`,
       intro1:
-        `${SITE_NAME} est la division de développement et fabrication de produits SUP de ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}). Nous fabriquons des planches SUP selon vos spécifications — ingénierie, outillage, échantillonnage, production et exportation. Vous possédez la marque, le marché et le client ; nous possédons la fabrication.`,
+        `${SITE_NAME} est la division de développement et fabrication de produits SUP de ${BRAND_COMPANY_NAME}. Nous fabriquons des planches SUP selon vos spécifications — ingénierie, outillage, échantillonnage, production et exportation. Vous possédez la marque, le marché et le client ; nous possédons la fabrication.`,
       intro2:
         'Notre usine de 12 500 m² à Qingdao, Chine, gère chaque étape en interne — conception, ingénierie de moules, construction drop-stitch, soudage RF, impression, assemblage et contrôle qualité. Nous ne vendons pas aux consommateurs finaux et ne concurrençons pas nos clients sur aucun marché.',
       intro3:
-        `Une usine, trois noms. ${BRAND_COMPANY_NAME} est l'entité juridique ; ${BRAND_PARENT_BRAND} est sa division de production et exploite les gammes complètes de produits gonflables sur ${BRAND_PARENT_DOMAIN} ; ${SITE_NAME} est la division OEM/ODM spécialisée SUP que vous consultez actuellement. Quel que soit le nom que votre équipe d'approvisionnement utilise, vous atteignez la même production à Qingdao.`,
+        `Une usine, trois noms. ${BRAND_COMPANY_NAME} est l'entité juridique ; ${BRAND_PARENT_BRAND} est sa division de fabrication marine ; ${SITE_NAME} est la division OEM/ODM spécialisée SUP que vous consultez actuellement. Quel que soit le nom que votre équipe d'approvisionnement utilise, vous atteignez la même usine à Qingdao.`,
       factsTitle: 'Données Entreprise',
       servicesTitle: 'Ce Que Nous Fabriquons',
       servicesBody: 'Cinq domaines de solutions couvrent la plupart des projets de fabrication SUP personnalisés :',
@@ -453,7 +453,7 @@ export const frProduct = {
       trustFaqs: [
         {
           q: `${SITE_NAME} est-il réellement une usine ou une société de commerce ?`,
-          a: `${SITE_NAME} est la division de développement produit et fabrication SUP de ${BRAND_PARENT_BRAND}, la division manufacturing de ${BRAND_COMPANY_NAME}. Nous exploitons nous-mêmes l'usine de 12 500 m² à Qingdao — la conception, la découpe, le soudage, l'assemblage et les essais ont lieu dans un même site. Il n'y a pas d'intermédiaires : les personnes qui répondent à vos questions sont celles qui fabriquent vos planches.`,
+          a: `${SITE_NAME} est la division de développement produit et fabrication SUP de ${BRAND_COMPANY_NAME}. Nous exploitons nous-mêmes l'usine de 12 500 m² à Qingdao — la conception, la découpe, le soudage, l'assemblage et les essais ont lieu dans un même site. Il n'y a pas d'intermédiaires : les personnes qui répondent à vos questions sont celles qui fabriquent vos planches.`,
         },
         {
           q: 'Qui exactement sera mon interlocuteur durant le projet ?',

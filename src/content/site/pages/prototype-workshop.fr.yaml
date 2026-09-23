@@ -14,8 +14,8 @@ hero:
   tagline: 'Lab 05'
   title: 'Atelier de prototypes'
   subtitle: 'Du modèle CAO à la planche d''échantillon testée — construite, équipée et éprouvée'
-  image: 'https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp'
-  image_alt: 'Fabrication de planche SUP prototype dans l''atelier de prototypes d''Afarer'
+  image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'Fabrication de planche SUP prototype dans l''atelier de prototypes de Vatrad'
 
 intro: 'Un modèle CAO, aussi détaillé soit-il, ne peut pas révéler ce qu''une planche ressentira réellement avant d''être gonflée, montée et pagayée. C''est pourquoi notre Atelier de prototypes est conçu pour traduire les données d''ingénierie en une planche physique et navigable aussi rapidement et précisément que possible. Chaque nouveau modèle {SITE.name} — et chaque construction personnalisée significative — passe par cet atelier avant que l''outillage de production soit engagé.'
 

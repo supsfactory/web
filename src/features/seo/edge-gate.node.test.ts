@@ -49,66 +49,27 @@ test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
   expect(gatePath('/solutions/build-your-own-brand')).toEqual({ action: 'redirect', to: '/solutions/private-label-sup' })
 })
 
-test('brand pages collapse onto /about and /about/afarer (P1-3)', () => {
-  expect(gatePath('/afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
-  expect(gatePath('/es/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-  expect(gatePath('/zh/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
+test('brand pages collapse onto /about and /about/vatrad (P1-3)', () => {
+  expect(gatePath('/afarer')).toEqual({ action: 'redirect', to: '/about/vatrad' })
+  expect(gatePath('/es/afarer')).toEqual({ action: 'redirect', to: '/es/about/vatrad' })
+  expect(gatePath('/zh/afarer')).toEqual({ action: 'redirect', to: '/es/about/vatrad' })
   expect(gatePath('/brand')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand')).toEqual({ action: 'redirect', to: '/es/about' })
   expect(gatePath('/zh/brand')).toEqual({ action: 'redirect', to: '/es/about' })
-  expect(gatePath('/brand/afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
-  expect(gatePath('/es/brand/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-  expect(gatePath('/zh/brand/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-  expect(gatePath('/brand/story')).toEqual({ action: 'redirect', to: '/about/afarer' })
-  expect(gatePath('/es/brand/story')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-  expect(gatePath('/zh/brand/story')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
+  expect(gatePath('/brand/afarer')).toEqual({ action: 'redirect', to: '/about/vatrad' })
+  expect(gatePath('/es/brand/afarer')).toEqual({ action: 'redirect', to: '/es/about/vatrad' })
+  expect(gatePath('/zh/brand/afarer')).toEqual({ action: 'redirect', to: '/es/about/vatrad' })
+  expect(gatePath('/brand/story')).toEqual({ action: 'redirect', to: '/about/vatrad' })
+  expect(gatePath('/es/brand/story')).toEqual({ action: 'redirect', to: '/es/about/vatrad' })
+  expect(gatePath('/zh/brand/story')).toEqual({ action: 'redirect', to: '/es/about/vatrad' })
   expect(gatePath('/brand/global-presence')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand/global-presence')).toEqual({ action: 'redirect', to: '/es/about' })
   expect(gatePath('/brand/marine-expertise')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand/marine-expertise')).toEqual({ action: 'redirect', to: '/es/about' })
   expect(gatePath('/brand/team')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand/team')).toEqual({ action: 'redirect', to: '/es/about' })
-  expect(gatePath('/brand/why-afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
-  expect(gatePath('/es/brand/why-afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-})
-
-test('non-SUP business lines 301 to afarer.com (P1-7)', () => {
-  expect(gatePath('/commercial-workboats')).toEqual({
-    action: 'redirect',
-    to: 'https://afarer.com/commercial-workboats',
-  })
-  expect(gatePath('/es/commercial-workboats')).toEqual({
-    action: 'redirect',
-    to: 'https://afarer.com/es/commercial-workboats',
-  })
-  expect(gatePath('/zh/commercial-workboats')).toEqual({
-    action: 'redirect',
-    to: 'https://afarer.com/es/commercial-workboats',
-  })
-  expect(gatePath('/maritime-safety-defense')).toEqual({
-    action: 'redirect',
-    to: 'https://afarer.com/maritime-safety-defense',
-  })
-  expect(gatePath('/search-and-rescue')).toEqual({
-    action: 'redirect',
-    to: 'https://afarer.com/search-and-rescue',
-  })
-  expect(gatePath('/disaster-relief-humanitarian-aid')).toEqual({
-    action: 'redirect',
-    to: 'https://afarer.com/disaster-relief-humanitarian-aid',
-  })
-  expect(gatePath('/products/life-vest-classic')).toEqual({
-    action: 'redirect',
-    to: 'https://afarer.com/products/life-vest-classic',
-  })
-  expect(gatePath('/products/life-vest-pro')).toEqual({
-    action: 'redirect',
-    to: 'https://afarer.com/products/life-vest-pro',
-  })
-  expect(gatePath('/products/oars-pump-set')).toEqual({
-    action: 'redirect',
-    to: 'https://afarer.com/products/oars-pump-set',
-  })
+  expect(gatePath('/brand/why-afarer')).toEqual({ action: 'redirect', to: '/about/vatrad' })
+  expect(gatePath('/es/brand/why-afarer')).toEqual({ action: 'redirect', to: '/es/about/vatrad' })
 })
 
 test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
@@ -117,10 +78,6 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/guides/sup-yoga')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/fishing' })
-  expect(gatePath('/use-cases/disaster-relief')).toEqual({
-    action: 'redirect',
-    to: 'https://afarer.com/disaster-relief-humanitarian-aid',
-  })
   expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/products' })
   expect(gatePath('/es/resources/download-catalog')).toEqual({ action: 'redirect', to: '/es/products' })
   expect(gatePath('/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
@@ -153,7 +110,6 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
 test('every legacy URL resolves to a live route', () => {
   for (const [from, to] of Object.entries(LEGACY_REDIRECTS)) {
     expect(from, `legacy key must differ from its target`).not.toBe(to)
-    if (to.startsWith('https://')) continue // cross-domain handoff to afarer.com (P1-7)
     expect(LIVE_ROUTES.has(to), `${from} → ${to} is not a live route`).toBe(true)
   }
 })
@@ -168,7 +124,7 @@ test('no legacy key shadows a live page (P0-5)', () => {
 })
 
 test('revived pages are served, not 301d (P0-5)', () => {
-  expect(gatePath('/about/afarer').action).toBe('ok')
+  expect(gatePath('/about/vatrad').action).toBe('ok')
   expect(gatePath('/oem-paddle').action).toBe('ok')
   expect(gatePath('/factory/oem-capability').action).toBe('ok')
   expect(gatePath('/factory/capacity').action).toBe('ok')

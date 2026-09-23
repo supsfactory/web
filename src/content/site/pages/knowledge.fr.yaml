@@ -1,6 +1,6 @@
 meta:
   title: 'Connaissances — Guides SUP gonflable et OEM | {SITE}'
-  description: 'Base de connaissances Afarer : guides sur les SUP gonflables, les matériaux des planches à pagaie, le choix des planches et les perspectives industrielles pour les marques et les professionnels.'
+  description: 'Base de connaissances Vatrad : guides sur les SUP gonflables, les matériaux des planches à pagaie, le choix des planches et les perspectives industrielles pour les marques et les professionnels.'
   dateModified: '2026-08'
   keywords:
     - 'connaissances sup'
@@ -18,7 +18,7 @@ hero:
 clusters:
   tagline: 'Groupes de connaissances'
   title: 'Explorez par sujet'
-  subtitle: 'Des analyses approfondies de la technologie, de la sécurité et des compétences derrière chaque produit Afarer.'
+  subtitle: 'Des analyses approfondies de la technologie, de la sécurité et des compétences derrière chaque produit Vatrad.'
   items:
     - title: 'Guides d''achat SUP'
       description: 'Du choix de votre première planche aux techniques de randonnée avancées —tout sur la pratique du stand-up paddle.'

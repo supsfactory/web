@@ -8,8 +8,8 @@ hero:
   tagline: 'Lab 06'
   title: 'Quality & Inspection Lab'
   subtitle: 'Independent verification — every test passed before delivery'
-  image: 'https://assets.afarer.com/images/afarer/factory/afarer-uv-resistance-testing.webp'
-  image_alt: 'Afarer quality inspection laboratory UV testing'
+  image: 'https://assets.supsfactory.com/images/sups/factory/afarer-uv-resistance-testing.webp'
+  image_alt: 'Vatrad quality inspection laboratory UV testing'
 
 answer:
   label: 'Straight answer'

@@ -8,8 +8,8 @@ hero:
   tagline: 'Lab 01'
   title: 'Laboratorio de Tejidos PVC'
   subtitle: 'Ensayos científicos de materiales — de la fibra a la tabla terminada'
-  image: 'https://assets.afarer.com/images/afarer/randd/afarer-pvc-material-lab.webp'
-  image_alt: 'Laboratorio de ensayos de materiales de tejido PVC de Afarer'
+  image: 'https://assets.supsfactory.com/images/sups/randd/afarer-pvc-material-lab.webp'
+  image_alt: 'Laboratorio de ensayos de materiales de tejido PVC de Vatrad'
 
 answer:
   label: 'Respuesta directa'

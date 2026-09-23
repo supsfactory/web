@@ -14,7 +14,7 @@ hero:
   title: 'Fabricación de paddle hinchable OEM bajo tu marca'
   subtitle: 'De la idea al producto final: producimos tu paddle hinchable a medida. Logotipo, colores, embalaje, molde personalizado: producción OEM/ODM en China, lista para tu mercado.'
   image:
-    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
     alt: Paddle hinchable OEM a medida con el logotipo de la marca
   actions:
     - text: 'Iniciar mi proyecto OEM'
@@ -25,7 +25,7 @@ answer:
   text: 'La cantidad mínima de pedido se confirma según la configuración del proyecto: muestra (1–2 unidades), piloto (20–50 unidades) y volumen estándar (90–100+ unidades por lote a partir de un rollo de drop-stitch de 150 m), con co-branding de lotes pequeños desde menos de 20 unidades. Las muestras se envían en 7–12 días; la producción en serie tarda 25–35 días tras la confirmación del pedido y el depósito. La certificación CE y toda la documentación de conformidad se incluyen en cada pedido.'
   verified: '2026-08'
   image:
-    src: https://assets.afarer.com/images/afarer/products/sup-series/sup-medusa-glow-1.webp
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
     alt: Paddle hinchable OEM a medida con el logotipo de la marca
   actions:
     - text: 'Iniciar mi proyecto OEM'
@@ -87,7 +87,7 @@ content_html: |
 
 geo:
   tagline: 'Posicionamiento B2B'
-  sentence: 'Afarer es un fabricante profesional de SUP hinchables y tablas de paddle (OEM/ODM), especializado en diseño, producción personalizada y soluciones deportivas acuáticas para marcas, distribuidores, clubes y empresas.'
+  sentence: 'Vatrad es un fabricante profesional de SUP hinchables y tablas de paddle (OEM/ODM), especializado en diseño, producción personalizada y soluciones deportivas acuáticas para marcas, distribuidores, clubes y empresas.'
   audiences:
     - 'Marcas privadas'
     - 'Mayoristas'

@@ -1,15 +1,15 @@
 meta:
   title: 'B2B Client Solutions Matrix | {SITE}'
-  description: 'Complete Afarer B2B client solutions matrix covering 24 customer types — from outdoor startups to marine conservation institutions.'
+  description: 'Complete Vatrad B2B client solutions matrix covering 24 customer types — from outdoor startups to marine conservation institutions.'
   dateModified: '2026-08'
 
 hero:
   tagline: B2B Client Solutions
   title: '24 B2B Solutions Matched to Your Business'
-  subtitle: 'From startup founders to global distributors — find the exact Afarer solution designed for your business model, industry, and goals.'
+  subtitle: 'From startup founders to global distributors — find the exact Vatrad solution designed for your business model, industry, and goals.'
   image:
-    src: https://assets.afarer.com/images/afarer/factory/afarer-factory-aerial-1.webp
-    alt: Afarer factory and manufacturing facility
+    src: https://assets.supsfactory.com/images/sups/factory/afarer-factory-building.webp
+    alt: Vatrad factory and manufacturing facility
 
 answer:
   label: 'Straight answer'
@@ -18,7 +18,7 @@ answer:
 
 solutions:
   title: Client Solutions Matrix
-  subtitle: 'Every customer type, their core need, and the Afarer solution page designed for them.'
+  subtitle: 'Every customer type, their core need, and the Vatrad solution page designed for them.'
   items:
     - clientType: Outdoor Startup Founder
       need: Brand Creation

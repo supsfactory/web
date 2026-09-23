@@ -13,7 +13,7 @@ tags:
 entityType: technology
 ---
 
-Le plancher Air Deck est un système gonflable haute pression utilisé sur les coques gonflables Afarer. Il remplace les planchers traditionnels à lattes de contreplaqué ou d'aluminium, réduisant le poids total et raccourcissant le temps de montage.
+Le plancher Air Deck est un système gonflable haute pression utilisé sur les coques gonflables Vatrad. Il remplace les planchers traditionnels à lattes de contreplaqué ou d'aluminium, réduisant le poids total et raccourcissant le temps de montage.
 
 Si le plancher Air Deck fléchit davantage qu'un plancher en bois plein, il offre la rigidité suffisante pour se tenir debout, pêcher et marcher dessus, tout en permettant à l'ensemble de la coque de se dégonfler en un compacte bagage de transport.
 

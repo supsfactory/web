@@ -1,5 +1,5 @@
 import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
-import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT, BRAND_PARENT_DOMAIN } from '@/config/branding'
+import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT } from '@/config/branding'
 
 export const esProduct = {
   email: {
@@ -259,7 +259,7 @@ export const esProduct = {
       marketsEurope: 'OEM de SUP — Europa',
       terms: 'Términos', privacy: 'Privacidad', contact: 'Contacto',
       rights: 'Socio de desarrollo y fabricación de productos SUP personalizados.',
-      owner: `${BRAND_PARENT_BRAND} — división de fabricación de SUP de ${BRAND_COMPANY_NAME}.`,
+      owner: `${BRAND_PARENT_BRAND} — división de fabricación marina de ${BRAND_COMPANY_NAME}.`,
       compliance: 'Todos los materiales cumplen con las normas de gestión de calidad CE, REACH e ISO 9001. 100% de exportación directa de fábrica desde nuestra planta en Qingdao, China.',
       followUs: 'Síguenos', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },
@@ -400,11 +400,11 @@ export const esProduct = {
       kicker: 'Entidad de la empresa',
       title: `${SITE_NAME} — el fabricante OEM/ODM de SUP hinchables detrás de tu marca`,
       intro1:
-        `${SITE_NAME} es la división de desarrollo de producto y fabricación de SUP de ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}). Fabricamos tablas SUP según tu especificación: ingeniería, moldes, muestras, producción y exportación. Tú tienes la marca, el mercado y el cliente; nosotros tenemos la fabricación.`,
+        `${SITE_NAME} es la división de desarrollo de producto y fabricación de SUP de ${BRAND_COMPANY_NAME}. Fabricamos tablas SUP según tu especificación: ingeniería, moldes, muestras, producción y exportación. Tú tienes la marca, el mercado y el cliente; nosotros tenemos la fabricación.`,
       intro2:
         'Nuestra planta de 12.500 m² en Qingdao, China, cubre cada etapa en casa: diseño, ingeniería de moldes, construcción drop-stitch, soldadura RF, impresión, montaje y ensayos de calidad. No vendemos a consumidores finales y no competimos con nuestros clientes en ningún mercado.',
       intro3:
-        `Una fábrica, tres nombres. ${BRAND_COMPANY_NAME} es la entidad legal; ${BRAND_PARENT_BRAND} es su división de fabricación y opera las líneas de productos inflables de todas las categorías en ${BRAND_PARENT_DOMAIN}; ${SITE_NAME} es la división OEM/ODM centrada en SUP que estás leyendo ahora. Seas cual sea el nombre que use tu equipo de compras, llegas a la misma planta de Qingdao.`,
+        `Una fábrica, tres nombres. ${BRAND_COMPANY_NAME} es la entidad legal; ${BRAND_PARENT_BRAND} es su división de fabricación marina; ${SITE_NAME} es la división OEM/ODM centrada en SUP que estás leyendo ahora. Seas cual sea el nombre que use tu equipo de compras, llegas a la misma planta de Qingdao.`,
       factsTitle: 'Datos de la empresa',
       servicesTitle: 'Qué fabricamos',
       servicesBody: 'Cinco áreas de soluciones cubren la mayoría de los proyectos de fabricación SUP a medida:',
@@ -453,7 +453,7 @@ export const esProduct = {
       trustFaqs: [
         {
           q: `¿${SITE_NAME} es realmente una fábrica o una empresa comercial?`,
-          a: `${SITE_NAME} es la división de desarrollo de producto y fabricación de SUP de ${BRAND_PARENT_BRAND}, la división de fabricación de ${BRAND_COMPANY_NAME}. Operamos nosotros mismos la planta de 12.500 m² en Qingdao — diseño, corte, soldadura, montaje y ensayos ocurren en una sola instalación. No hay intermediarios: las personas que responden tus preguntas son las que construyen tus tablas.`,
+          a: `${SITE_NAME} es la división de desarrollo de producto y fabricación de SUP de ${BRAND_COMPANY_NAME}. Operamos nosotros mismos la planta de 12.500 m² en Qingdao — diseño, corte, soldadura, montaje y ensayos ocurren en una sola instalación. No hay intermediarios: las personas que responden tus preguntas son las que construyen tus tablas.`,
         },
         {
           q: '¿Con quién exactamente trataré durante mi proyecto?',

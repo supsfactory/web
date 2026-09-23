@@ -12,8 +12,8 @@ hero:
   title: 'Partenariats de fabrication et distribution'
   subtitle: "Nous fabriquons pour des distributeurs marins, des revendeurs, des marques retail et des organisations dans 50+ pays. Vous spécifiez le produit — nous l'ingénierons, l'échantillonnons et le produisons sous votre marque."
   image:
-    src: https://assets.afarer.com/images/afarer/partners/partners-hero.webp
-    alt: Réseau mondial de partenaires et distributeurs Afarer
+    src: https://assets.supsfactory.com/images/sups/team/afarer-meeting-overseas.webp
+    alt: Réseau mondial de partenaires et distributeurs Vatrad
 
 answer:
   label: 'Réponse directe'
@@ -45,7 +45,7 @@ content_programs:
       icon: tabler:sun
 content_benefits:
   tagline: Pourquoi s'associer à nous
-  title: 'Pourquoi les partenaires choisissent Afarer'
+  title: 'Pourquoi les partenaires choisissent Vatrad'
   subtitle: 'Nos partenaires travaillent avec une véritable capacité de fabrication, une qualité constante et un support d''ingénierie réactif.'
   list:
     - 'Accès direct à l''usine : Travaillez directement avec notre équipe de fabrication — pas d''intermédiaires. Réponses plus rapides, visibilité totale sur la production et réponses d''ingénierie des personnes qui construisent les planches.'

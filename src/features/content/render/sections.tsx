@@ -4,7 +4,6 @@ import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
 import { brandify } from '../brand'
 import { SITE_NAME } from '@/config/site'
-import { BRAND_PARENT_URL } from '@/config/branding'
 import { ABOUT_BRAND_PATH } from '@/config/navigation'
 import { CASE_STUDY_STATS } from '@/product/ai-content'
 import { useAferIndex } from '../index-data'
@@ -205,7 +204,6 @@ const HREF_REMAP: Record<string, string> = {
   '/guides/sup-for-touring': '/knowledge',
   '/guides/sup-maintenance': '/knowledge',
   '/guides/sup-size-guide': '/research/sup-thickness-guide',
-  '/use-cases/search-and-rescue': `${BRAND_PARENT_URL}/search-and-rescue`,
   // academy skill-path topics without a ported page
   '/sup-basics': '',
   '/paddle-techniques': '',
