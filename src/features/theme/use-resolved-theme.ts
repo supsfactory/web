@@ -5,6 +5,6 @@ export function useResolvedTheme(ssrTheme: 'light' | 'dark'): 'light' | 'dark' {
   useEffect(() => {
     const resolved = document.documentElement.classList.contains('light') ? 'light' : 'dark'
     setTheme((prev) => (prev === resolved ? prev : resolved))
-  }, [])
+  }, [ssrTheme])
   return theme
 }
