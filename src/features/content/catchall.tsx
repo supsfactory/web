@@ -25,7 +25,7 @@ import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd, serviceLd, qcHo
 import { brandify } from './brand'
 import { AferIndexProvider, type AferIndexData } from './index-data'
 import { getGuide } from './guide-content'
-import { FACTS, MOQ_SHORT } from '@/product/facts'
+import { FACTS, MOQ_SHORT, getFacts } from '@/product/facts'
 import { SITE_NAME } from '@/config/site'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config/branding'
 import { CUSTOMIZATION_OPTIONS, OEM_APPLICATIONS } from '@/product/ai-content'
@@ -404,6 +404,7 @@ function renderContent(data: CatchAllData, t: (key: string, params?: Record<stri
 
 export function ProductView({ product, related, origin, locale }: { product: ContentProduct; related: RelatedProduct[]; origin: string; locale: Locale }) {
   const { t } = useTranslation()
+  const facts = getFacts(locale)
   const specs = product.specs ?? []
   const gallery = product.gallery?.length ? product.gallery : product.image ? [{ url: product.image, alt: product.title }] : []
   const fl = useLocalizePath()
@@ -441,15 +442,15 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                     ))}
                     <tr className="odd:bg-bg-alt/60">
                       <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.factoryTestPressure')}</th>
-                      <td className="px-4 py-3 text-fg-2">{FACTS.pressureTest} · {FACTS.pressureReject}</td>
+                      <td className="px-4 py-3 text-fg-2">{facts.pressureTest} · {facts.pressureReject}</td>
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.minimumOrder')}</th>
-                       <td className="px-4 py-3 text-fg-2">{t('content.product.moqVolume', { standardRun: MOQ_SHORT.standardRun, trialStandard: MOQ_SHORT.trialStandard })}</td>
+                       <td className="px-4 py-3 text-fg-2">{t('content.product.moqVolume', { standardRun: facts.moq.standardRun, trialStandard: facts.moq.trialStandard })}</td>
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.productionLeadTime')}</th>
-                      <td className="px-4 py-3 text-fg-2">{t('content.product.leadTimeFacts', { leadTime: FACTS.leadTime, sampleTime: FACTS.sampleTime })}</td>
+                      <td className="px-4 py-3 text-fg-2">{t('content.product.leadTimeFacts', { leadTime: facts.leadTime, sampleTime: facts.sampleTime })}</td>
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.certifications')}</th>
@@ -479,7 +480,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   {t('content.product.minimumOrderShort')}
                 </p>
                 <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-                  {t('content.product.moqShort', { standardRun: MOQ_SHORT.standardRun, trialStandard: MOQ_SHORT.trialStandard, customMould: MOQ_SHORT.customMould })}
+                  {t('content.product.moqShort', { standardRun: facts.moq.standardRun, trialStandard: facts.moq.trialStandard, customMould: facts.moq.customMould })}
                 </p>
               </div>
               <div className="marine-card p-4">
@@ -487,7 +488,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   {t('content.product.timeline')}
                 </p>
                 <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-                  {t('content.product.timelineShort', { sampleTime: FACTS.sampleTime, leadTime: FACTS.leadTime })}
+                  {t('content.product.timelineShort', { sampleTime: facts.sampleTime, leadTime: facts.leadTime })}
                 </p>
               </div>
               <div className="marine-card p-4">
@@ -495,7 +496,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   {t('content.product.qualityControl')}
                 </p>
                 <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-                  {t('content.product.qualityShort', { assemblyChecklist: FACTS.assemblyChecklist, pressureTest: FACTS.pressureTest })}
+                  {t('content.product.qualityShort', { assemblyChecklist: facts.assemblyChecklist, pressureTest: facts.pressureTest })}
                 </p>
               </div>
             </div>

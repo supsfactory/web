@@ -19,6 +19,7 @@ import { seriesPages } from '@/product/series-pages'
 import { solutionPages } from '@/product/solution-pages'
 import { localizedGuides, GUIDE_CARDS } from '@/product/guide-content'
 import { procurementProfiles } from '@/product/procurement'
+import { FACTS_LOCALE } from '@/product/facts'
 import { PRODUCT_FAQ_POOL } from './product-faq-pool'
 
 const contentRoot = resolve(process.cwd(), 'src/content/site')
@@ -299,4 +300,11 @@ test('fr product FAQ pool is French (not Spanish/en fallback)', () => {
     expect(PRODUCT_FAQ_POOL.fr[i].q).not.toBe(PRODUCT_FAQ_POOL.en[i].q)
   }
   expect(failures).toEqual([])
+})
+
+test('localized facts (FACTS_LOCALE) provide French shorthands', () => {
+  const frAll = Object.values(FACTS_LOCALE.fr).flat().join(' ') + Object.values(FACTS_LOCALE.fr.moq).join(' ')
+  expect(frAll).toMatch(/jours|unités/)
+  expect(frAll.toLowerCase()).not.toMatch(/\bpcs\b|\bdays\b|\border\b/)
+  expect(frAll).not.toMatch(/[¿¡ñáóú]/i)
 })

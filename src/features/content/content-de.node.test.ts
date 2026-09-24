@@ -19,6 +19,7 @@ import { seriesPages } from '@/product/series-pages'
 import { solutionPages } from '@/product/solution-pages'
 import { localizedGuides, GUIDE_CARDS } from '@/product/guide-content'
 import { procurementProfiles } from '@/product/procurement'
+import { FACTS_LOCALE } from '@/product/facts'
 import { PRODUCT_FAQ_POOL } from './product-faq-pool'
 
 const contentRoot = resolve(process.cwd(), 'src/content/site')
@@ -272,6 +273,30 @@ test('de procurement profiles are German with en key parity', () => {
     assertGerman(failures, `${slug}.bestFor`, `${f.bestFor} ${f.customization ?? ''}`)
   }
   expect(failures).toEqual([])
+})
+
+test('de procurement MOQ/lead-time rows embed German facts (no English fragments)', () => {
+  const failures: string[] = []
+  for (const [slug, f] of Object.entries(procurementProfiles.de)) {
+    assertGerman(failures, `${slug}.moq`, f.moq)
+    assertGerman(failures, `${slug}.leadTime`, f.leadTime)
+    expect(f.moq + f.leadTime).not.toMatch(/[¿¡ñáéíóú]/i)
+  }
+  expect(failures).toEqual([])
+})
+
+test('localized facts (FACTS_LOCALE) provide German shorthands for all locales', () => {
+  const locales = Object.keys(FACTS_LOCALE).sort() as (keyof typeof FACTS_LOCALE)[]
+  expect(locales).toEqual(['de', 'en', 'es', 'fr'])
+  const enKeys = Object.keys(FACTS_LOCALE.en)
+  for (const l of locales) {
+    expect(Object.keys(FACTS_LOCALE[l]).sort()).toEqual([...enKeys].sort())
+    expect(Object.keys(FACTS_LOCALE[l].moq).sort()).toEqual(Object.keys(FACTS_LOCALE.en.moq).sort())
+  }
+  const deAll = Object.values(FACTS_LOCALE.de).flat().join(' ') + Object.values(FACTS_LOCALE.de.moq).join(' ')
+  expect(deAll).toMatch(/Stück|Tage/)
+  expect(deAll.toLowerCase()).not.toMatch(/\bpcs\b|\bdays\b|\bper\b|\border\b/)
+  expect(deAll).not.toMatch(/[¿¡ñáéíóú]/i)
 })
 
 test('de product-page customization & OEM application sections are German', () => {

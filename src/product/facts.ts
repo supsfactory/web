@@ -96,6 +96,85 @@ export const MOQ_SHORT = {
   existingPlatform: FACTS.moq.existingPlatform,
 } as const
 
+/** Rendering shorthands for facts interpolated into localized UI strings. */
+export interface FactShorthands {
+  moq: {
+    existingPlatform: string
+    trialStandard: string
+    standardRun: string
+    customMould: string
+  }
+  leadTime: string
+  leadTimeDetail: string
+  sampleTime: string
+  assemblyChecklist: string
+  pressureTest: string
+  pressureReject: string
+}
+
+export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de', FactShorthands> = {
+  en: {
+    moq: {
+      existingPlatform: FACTS.moq.existingPlatform,
+      trialStandard: FACTS.moq.pilotBatch,
+      standardRun: FACTS.moq.standardRun,
+      customMould: FACTS.moq.customMould,
+    },
+    leadTime: FACTS.leadTime,
+    leadTimeDetail: FACTS.leadTimeDetail,
+    sampleTime: FACTS.sampleTime,
+    assemblyChecklist: FACTS.assemblyChecklist,
+    pressureTest: FACTS.pressureTest,
+    pressureReject: FACTS.pressureReject,
+  },
+  es: {
+    moq: {
+      existingPlatform: '5–10 uds. (solo logotipo en forma existente, mismo rollo de material)',
+      trialStandard: '20–50 uds. (gráficos personalizados o cambio menor de especificación, mismo rollo de material)',
+      standardRun: '90–100+ uds. por configuración aprobada, según los requisitos de material y embalaje',
+      customMould: '90–100+ uds. (las formas nuevas requieren molde dedicado; el utillaje añade 15–20 días)',
+    },
+    leadTime: '25–35 días',
+    leadTimeDetail: '25–35 días desde el PO y el depósito confirmados; el desarrollo de un molde a medida añade 15–20 días de utillaje.',
+    sampleTime: '7–12 días',
+    assemblyChecklist: '100 puntos',
+    pressureTest: '18.0 PSI · 24 h de mantenimiento',
+    pressureReject: 'caída de presión >0,50 PSI/24 h (rechazo automático)',
+  },
+  fr: {
+    moq: {
+      existingPlatform: '5–10 unités (logo seul sur forme existante, même rouleau de matériau)',
+      trialStandard: '20–50 unités (visuels personnalisés ou légère modification de spécification, même rouleau de matériau)',
+      standardRun: '90–100+ unités par configuration approuvée, selon les exigences d’emballage et de rouleau de matériau',
+      customMould: '90–100+ unités (une nouvelle forme nécessite un moule dédié ; l’outillage ajoute 15–20 jours)',
+    },
+    leadTime: '25–35 jours',
+    leadTimeDetail: '25–35 jours à compter de la confirmation du bon de commande et de l’acompte ; le développement d’un moule sur mesure ajoute 15–20 jours d’outillage.',
+    sampleTime: '7–12 jours',
+    assemblyChecklist: '100 points',
+    pressureTest: '18,0 PSI · maintien 24 h',
+    pressureReject: 'chute de pression >0,50 PSI/24 h (rejet automatique)',
+  },
+  de: {
+    moq: {
+      existingPlatform: '5–10 Stück (nur Logo auf bestehender Form, gleiche Materialrolle)',
+      trialStandard: '20–50 Stück (individuelle Grafik oder geringe Spezifikationsänderung, gleiche Materialrolle)',
+      standardRun: '90–100+ Stück pro freigegebener Konfiguration, abhängig von Materialrolle und Verpackungsanforderungen',
+      customMould: '90–100+ Stück (neue Form erfordert Maßform; Werkzeugbau zusätzlich 15–20 Tage)',
+    },
+    leadTime: '25–35 Tage',
+    leadTimeDetail: '25–35 Tage nach bestätigter Bestellung und Anzahlung; die Entwicklung einer Maßform dauert 15–20 Tage zusätzlich für den Werkzeugbau.',
+    sampleTime: '7–12 Tage',
+    assemblyChecklist: '100',
+    pressureTest: '18,0 PSI über 24 h',
+    pressureReject: 'Druckabfall >0,50 PSI/24 h (automatische Aussortierung)',
+  },
+}
+
+export function getFacts(locale: string): FactShorthands {
+  return FACTS_LOCALE[locale as keyof typeof FACTS_LOCALE] ?? FACTS_LOCALE.en
+}
+
 export const COLLABORATION_MODES = {
   oem: {
     short: 'Manufacture to your approved specification',
