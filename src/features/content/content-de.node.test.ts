@@ -12,6 +12,7 @@ import {
   getPublicPaths,
 } from '@/features/content/loader'
 import { pick, hero, products, series, faq, about, solve } from '@/product/content'
+import { CUSTOMIZATION_OPTIONS, OEM_APPLICATIONS } from '@/product/ai-content'
 import { knowledge, knowledgeMeta } from '@/product/knowledge'
 import { projects, projectsMeta } from '@/product/projects'
 import { seriesPages } from '@/product/series-pages'
@@ -268,6 +269,21 @@ test('de procurement profiles are German with en key parity', () => {
     const f = de[slug]
     if (!f) { failures.push(`${slug}: missing in de`); continue }
     assertGerman(failures, `${slug}.bestFor`, `${f.bestFor} ${f.customization ?? ''}`)
+  }
+  expect(failures).toEqual([])
+})
+
+test('de product-page customization & OEM application sections are German', () => {
+  expect(CUSTOMIZATION_OPTIONS.de).toBeDefined()
+  expect(OEM_APPLICATIONS.de).toBeDefined()
+  expect(CUSTOMIZATION_OPTIONS.de.length).toBe(CUSTOMIZATION_OPTIONS.en.length)
+  expect(OEM_APPLICATIONS.de.length).toBe(OEM_APPLICATIONS.en.length)
+  const failures: string[] = []
+  for (let i = 0; i < CUSTOMIZATION_OPTIONS.en.length; i++) {
+    assertGerman(failures, `customization #${i}`, CUSTOMIZATION_OPTIONS.de[i].title + ' ' + CUSTOMIZATION_OPTIONS.de[i].body)
+  }
+  for (let i = 0; i < OEM_APPLICATIONS.en.length; i++) {
+    assertGerman(failures, `oem-application #${i}`, OEM_APPLICATIONS.de[i].title + ' ' + OEM_APPLICATIONS.de[i].body)
   }
   expect(failures).toEqual([])
 })

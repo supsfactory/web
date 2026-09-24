@@ -12,6 +12,7 @@ import {
   getPublicPaths,
 } from '@/features/content/loader'
 import { pick, hero, products, series, faq, about, solve } from '@/product/content'
+import { CUSTOMIZATION_OPTIONS, OEM_APPLICATIONS } from '@/product/ai-content'
 import { knowledge, knowledgeMeta } from '@/product/knowledge'
 import { projects, projectsMeta } from '@/product/projects'
 import { seriesPages } from '@/product/series-pages'
@@ -268,6 +269,21 @@ test('fr procurement profiles are French with es key parity', () => {
     const f = fr[slug]
     if (!f) { failures.push(`${slug}: missing in fr`); continue }
     assertFrench(failures, `${slug}.bestFor`, `${f.bestFor} ${f.customization ?? ''}`)
+  }
+  expect(failures).toEqual([])
+})
+
+test('fr product-page customization & OEM application sections are French', () => {
+  expect(CUSTOMIZATION_OPTIONS.fr).toBeDefined()
+  expect(OEM_APPLICATIONS.fr).toBeDefined()
+  expect(CUSTOMIZATION_OPTIONS.fr.length).toBe(CUSTOMIZATION_OPTIONS.en.length)
+  expect(OEM_APPLICATIONS.fr.length).toBe(OEM_APPLICATIONS.en.length)
+  const failures: string[] = []
+  for (let i = 0; i < CUSTOMIZATION_OPTIONS.en.length; i++) {
+    assertFrench(failures, `customization #${i}`, CUSTOMIZATION_OPTIONS.fr[i].title + ' ' + CUSTOMIZATION_OPTIONS.fr[i].body)
+  }
+  for (let i = 0; i < OEM_APPLICATIONS.en.length; i++) {
+    assertFrench(failures, `oem-application #${i}`, OEM_APPLICATIONS.fr[i].title + ' ' + OEM_APPLICATIONS.fr[i].body)
   }
   expect(failures).toEqual([])
 })

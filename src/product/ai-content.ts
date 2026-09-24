@@ -64,6 +64,24 @@ export const CUSTOMIZATION_OPTIONS: Record<string, { title: string; body: string
     { title: 'Aletas y accesorios', body: 'Configuraciones de aleta, palas, bombas, correas y bolsas adaptados a tu paquete.' },
     { title: 'Embalaje y exhibición', body: 'Cajas retail, embalaje marítimo y displays para punto de venta con tu marca.' },
   ],
+  fr: [
+    { title: 'Taille et forme du paddle', body: 'Longueur, largeur, épaisseur et rocker adaptés à la performance et au marché visés.' },
+    { title: 'Matériaux et construction', body: 'Couches de PVC, densité drop-stitch, raidisseurs et renforts selon votre budget.' },
+    { title: 'Couleurs et design', body: 'Combinaisons de couleurs illimitées avec vos propres visuels ou l\'appui de notre équipe design.' },
+    { title: 'Logo et marque', body: 'Application du logo par impression numérique ou sérigraphie, avec épreuve visuelle avant production.' },
+    { title: 'EVA et pont', body: 'Tapis de traction découpés sur mesure, logos et couleurs de pont sur chaque planche.' },
+    { title: 'Ailerons et accessoires', body: 'Configurations d\'ailerons, pagaies, pompes, leashs et sacs adaptés à votre pack.' },
+    { title: 'Emballage et présentation', body: 'Cartons retail, emballage maritime et présentoirs en point de vente à votre marque.' },
+  ],
+  de: [
+    { title: 'Boardgröße und -form', body: 'Länge, Breite, Dicke und Rocker, abgestimmt auf die angestrebte Leistung und den Markt.' },
+    { title: 'Materialien und Konstruktion', body: 'PVC-Schichten, Drop-Stitch-Dichte, Versteifungen und Verstärkungen passend zu Ihrem Preisniveau.' },
+    { title: 'Farben und Design', body: 'Unbegrenzte Farbkombinationen mit Ihren eigenen Designs oder Unterstützung durch unser Designteam.' },
+    { title: 'Logo und Branding', body: 'Digitaler Druck oder Siebdruck Ihres Logos, mit visuellem Nachweis vor der Produktion.' },
+    { title: 'EVA und Deck', body: 'Maßgeschneiderte Traktionspads, Logos und Decksfarben auf jedem Board.' },
+    { title: 'Finnen und Zubehör', body: 'Finnen-Konfigurationen, Paddel, Pumpen, Leashes und Taschen passend zu Ihrem Paket.' },
+    { title: 'Verpackung und Präsentation', body: 'Einzelhandelsverpackungen, seetüchtige Versandkartons und Verkaufsdisplays unter Ihrer Marke.' },
+  ],
 }
 
 export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]> = {
@@ -80,6 +98,20 @@ export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]>
     { title: 'Retail y outdoor', body: 'Programas de reposición estacional con especificaciones estables de temporada en temporada.' },
     { title: 'Resorts y operadores de alquiler', body: 'Flotas de uso intensivo con refuerzos, repuestos y mantenimiento estandarizado.' },
     { title: 'Clubes, escuelas y eventos', body: 'Tablas con tu logotipo para programas, competiciones y flotas corporativas.' },
+  ],
+  fr: [
+    { title: 'Marques de SUP', body: 'Lancez votre propre ligne avec des minimums par paliers à partir de séries de 5–10 unités en co-branding.' },
+    { title: 'Distributeurs et revendeurs', body: 'Catalogues de volume avec emballage maritime et gestion de l\'export.' },
+    { title: 'Retail et équipementiers outdoor', body: 'Programmes de réapprovisionnement saisonnier avec des spécifications stables, série après série.' },
+    { title: 'Resorts et sociétés de location', body: 'Flottes haute cadence avec renforts, pièces détachées et maintenance standardisée.' },
+    { title: 'Clubs, écoles et événements', body: 'Planches personnalisées pour des programmes, compétitions et flottes corporatives.' },
+  ],
+  de: [
+    { title: 'SUP-Marken', body: 'Lancieren Sie Ihre eigene Linie mit gestaffelten Mindestmengen ab Co-Branding-Serien von 5–10 Stück.' },
+    { title: 'Distributoren und Wiederverkäufer', body: 'Mengenkataloge mit seetüchtiger Verpackung und Exportmanagement.' },
+    { title: 'Handel und Outdoor-Unternehmen', body: 'Saisonale Nachbestellprogramme mit stabilen Spezifikationen, Serie für Serie.' },
+    { title: 'Resorts und Verleihbetreiber', body: 'Robuste Flotten mit Verstärkungen, Ersatzteilen und standardisierter Wartung.' },
+    { title: 'Clubs, Schulen und Veranstaltungen', body: 'Gebrandete Boards für Programme, Wettkämpfe und Firmenflotten.' },
   ],
 }
 
