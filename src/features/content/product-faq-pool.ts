@@ -1,0 +1,88 @@
+import type { ContentProduct } from '@/features/content/types'
+import type { Locale } from '@/features/i18n/locale'
+
+export interface FaqEntry {
+  q: string
+  a: string
+}
+
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de', FaqEntry[]> = {
+  en: [
+    {
+      q: 'What is the minimum order to customize this board?',
+      a: 'MOQ is 90–100+ pcs per approved configuration, subject to material-roll and packaging requirements, on one 150 m roll for standard volume production, with pilot runs from 20–50 pcs and 90–100+ pcs for a custom mould.',
+    },
+    {
+      q: 'How long do samples and production take?',
+      a: 'Samples are ready in 7–12 days; batch production completes in 25–35 days after confirmed PO and deposit.',
+    },
+    {
+      q: 'Can I change colors, artwork and the logo?',
+      a: 'Yes — graphics, colors, EVA traction, logo, packaging and accessories are all customizable on every platform. Share your logo and we produce a visual proof before production.',
+    },
+    {
+      q: 'How is quality controlled before shipment?',
+      a: 'Every board passes a 100-point assembly checklist and an 18.0 PSI · 24h hold pressure test before packing; units exceeding a 0.50 PSI/24h pressure drop are auto-rejected.',
+    },
+  ],
+  es: [
+    {
+      q: '¿Cuál es el pedido mínimo para personalizar esta tabla?',
+      a: 'El MOQ de volumen es de 90–100+ uds. por configuración aprobada, según los requisitos de material y embalaje, en un rollo de 150 m para la producción estándar, con pedidos piloto desde 20–50 uds. y 90–100+ uds. para un molde a medida.',
+    },
+    {
+      q: '¿Cuánto tardan las muestras y la producción?',
+      a: 'Las muestras están listas en 7–12 días; la producción en serie se completa en 25–35 días tras confirmar el pedido y el depósito.',
+    },
+    {
+      q: '¿Puedo cambiar los colores, el arte y el logo?',
+      a: 'Sí: gráficos, colores, EVA, logotipo, embalaje y accesorios se personalizan en cada plataforma. Comparte tu logo y te haremos una prueba visual antes de la producción.',
+    },
+    {
+      q: '¿Cómo se controla la calidad antes del envío?',
+      a: 'Cada tabla pasa por una lista de verificación de 100 puntos y una prueba de presión de 18.0 PSI durante 24 h antes de empaquetar; las unidades con una caída de presión superior a 0.50 PSI/24 h se rechazan automáticamente.',
+    },
+  ],
+  fr: [
+    {
+      q: 'Quelle est la quantité minimale de commande pour personnaliser cette planche ?',
+      a: 'Le MOQ de série est de 90–100+ unités par configuration approuvée, selon les exigences d’emballage et de rouleau de matériau, sur un rouleau de 150 m pour la production en volume, avec des lots pilotes dès 20–50 unités et 90–100+ unités pour un moule sur mesure.',
+    },
+    {
+      q: 'Combien de temps prennent les échantillons et la production ?',
+      a: 'Les échantillons sont prêts en 7–12 jours ; la production en série est réalisée en 25–35 jours après confirmation de la commande et de l’acompte.',
+    },
+    {
+      q: 'Puis-je modifier les couleurs, les visuels et le logo ?',
+      a: 'Oui : graphismes, couleurs, EVA, logo, emballage et accessoires sont personnalisables sur chaque plateforme. Partagez votre logo et nous réalisons une épreuve visuelle avant production.',
+    },
+    {
+      q: 'Comment la qualité est-elle contrôlée avant l’expédition ?',
+      a: 'Chaque planche passe une checklist d’assemblage de 100 points et un test de pression de 18,0 PSI pendant 24 h avant le conditionnement ; les unités qui dépassent une chute de pression de 0,50 PSI/24 h sont automatiquement écartées.',
+    },
+  ],
+  de: [
+    {
+      q: 'Welche Mindestbestellmenge gilt für die Individualisierung dieses Boards?',
+      a: 'Die Serien-Mindestbestellmenge beträgt 90–100+ Stück pro freigegebener Konfiguration, abhängig von Materialrolle und Verpackungsanforderungen, auf einer 150-m-Rolle; Pilotserien starten ab 20–50 Stück, für eine Maßform gelten 90–100+ Stück.',
+    },
+    {
+      q: 'Wie lange dauern Muster und Produktion?',
+      a: 'Muster sind in 7–12 Tagen fertig; die Serienproduktion wird 25–35 Tage nach bestätigter Bestellung und Anzahlung abgeschlossen.',
+    },
+    {
+      q: 'Kann ich Farben, Design und Logo ändern?',
+      a: 'Ja: Grafiken, Farben, EVA, Logo, Verpackung und Zubehör sind auf jeder Plattform anpassbar. Teilen Sie Ihr Logo mit uns — vor der Produktion erhalten Sie einen visuellen Entwurf.',
+    },
+    {
+      q: 'Wie wird die Qualität vor dem Versand kontrolliert?',
+      a: 'Jedes Board durchläuft eine 100-Punkte-Montagecheckliste und einen Drucktest (18,0 PSI über 24 h), bevor es verpackt wird; Boards mit einem Druckabfall über 0,50 PSI/24 h werden automatisch aussortiert.',
+    },
+  ],
+}
+
+export function productFaqs(product: ContentProduct, locale: Locale): FaqEntry[] {
+  const specific = product.faqs ?? []
+  const pool = PRODUCT_FAQ_POOL[locale as keyof typeof PRODUCT_FAQ_POOL] ?? PRODUCT_FAQ_POOL.en
+  return [...specific, ...pool]
+}

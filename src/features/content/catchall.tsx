@@ -30,6 +30,7 @@ import { SITE_NAME } from '@/config/site'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config/branding'
 import { CUSTOMIZATION_OPTIONS, OEM_APPLICATIONS } from '@/product/ai-content'
 import { JSONLD_KEYWORDS } from '@/product/ai-content'
+import { productFaqs } from './product-faq-pool'
 import { ArrowRight } from 'lucide-react'
 import { ContentSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
@@ -624,48 +625,8 @@ export function ProductView({ product, related, origin, locale }: { product: Con
   )
 }
 
-/** Product FAQ pool: product-specific entries + shared fallbacks (≥5 total). */
-function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: string }[] {
-  const specific = product.faqs ?? []
-  const pool: { q: string; a: string }[] = locale !== 'en'
-    ? [
-        {
-          q: '¿Cuál es el pedido mínimo para personalizar esta tabla?',
-          a: `El MOQ de volumen es de ${MOQ_SHORT.standardRun} por rollo de 150 m para la producción estándar, con pilotos desde ${MOQ_SHORT.trialStandard} y ${MOQ_SHORT.customMould} para un molde a medida.`,
-        },
-        {
-          q: '¿Cuánto tardan las muestras y la producción?',
-          a: `Las muestras tardan ${FACTS.sampleTime}; la producción en serie se completa en ${FACTS.leadTime} tras confirmar el pedido y el depósito.`,
-        },
-        {
-          q: '¿Puedo cambiar los colores, el arte y el logo?',
-          a: 'Sí — gráficos, colores, EVA, logotipo, embalaje y accesorios se personalizan en cada plataforma. Comparte tu logo y te haremos una prueba visual antes de la producción.',
-        },
-        {
-          q: '¿Cómo se controla la calidad antes del envío?',
-          a: `Cada tabla pasa por una lista de verificación de ${FACTS.assemblyChecklist} y una prueba de presión de ${FACTS.pressureTest} antes de empaquetar; las piezas que superen una caída de presión mayor al 5% se rechazan automáticamente.`,
-        },
-      ]
-    : [
-        {
-          q: 'What is the minimum order to customize this board?',
-          a: `MOQ is ${MOQ_SHORT.standardRun} per 150 m roll for standard volume production, with pilot runs from ${MOQ_SHORT.trialStandard} and ${MOQ_SHORT.customMould} for a custom mould.`,
-        },
-        {
-          q: 'How long do samples and production take?',
-          a: `Samples are ready in ${FACTS.sampleTime}; batch production completes in ${FACTS.leadTime} after confirmed PO and deposit.`,
-        },
-        {
-          q: 'Can I change colors, artwork and the logo?',
-          a: 'Yes — graphics, colors, EVA traction, logo, packaging and accessories are all customizable on every platform. Share your logo and we produce a visual proof before production.',
-        },
-        {
-          q: 'How is quality controlled before shipment?',
-          a: `Every board passes a ${FACTS.assemblyChecklist} assembly checklist and a ${FACTS.pressureTest} pressure test before packing; units exceeding a 5% pressure drop are auto-rejected.`,
-        },
-      ]
-  return [...specific, ...pool]
-}
+/** Product FAQ pool: product-specific entries + shared fallbacks (≥5 total).
+ *  Pool localized per locale in ./product-faq-pool. */
 
 /** Customization points available on every OEM platform (product detail pages). */
 function customizationOptions(locale: Locale): { title: string; body: string }[] {

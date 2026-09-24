@@ -19,6 +19,7 @@ import { seriesPages } from '@/product/series-pages'
 import { solutionPages } from '@/product/solution-pages'
 import { localizedGuides, GUIDE_CARDS } from '@/product/guide-content'
 import { procurementProfiles } from '@/product/procurement'
+import { PRODUCT_FAQ_POOL } from './product-faq-pool'
 
 const contentRoot = resolve(process.cwd(), 'src/content/site')
 
@@ -284,6 +285,18 @@ test('de product-page customization & OEM application sections are German', () =
   }
   for (let i = 0; i < OEM_APPLICATIONS.en.length; i++) {
     assertGerman(failures, `oem-application #${i}`, OEM_APPLICATIONS.de[i].title + ' ' + OEM_APPLICATIONS.de[i].body)
+  }
+  expect(failures).toEqual([])
+})
+
+test('de product FAQ pool is German (not Spanish/en fallback)', () => {
+  expect(PRODUCT_FAQ_POOL.de.length).toBe(PRODUCT_FAQ_POOL.en.length)
+  const failures: string[] = []
+  for (let i = 0; i < PRODUCT_FAQ_POOL.en.length; i++) {
+    const qa = `${PRODUCT_FAQ_POOL.de[i].q} ${PRODUCT_FAQ_POOL.de[i].a}`
+    assertGerman(failures, `faq #${i}`, qa)
+    expect(qa).not.toMatch(/[¿¡ñáéíóú]/i)
+    expect(PRODUCT_FAQ_POOL.de[i].q).not.toBe(PRODUCT_FAQ_POOL.en[i].q)
   }
   expect(failures).toEqual([])
 })
