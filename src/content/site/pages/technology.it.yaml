@@ -1,0 +1,46 @@
+meta:
+  title: 'Tecnologia — Drop-stitch & PVC marino | {SITE}'
+  description: 'Le tecnologie Vatrad: costruzione drop-stitch, PVC marino, costruzioni a doppio strato e alta pressione. Innovazione di un produttore professionale di SUP gonfiabili.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Tecnologia SUP'
+    - 'Costruzione drop-stitch'
+    - 'SUP ad alta pressione'
+    - 'Materiali SUP gonfiabili'
+
+hero:
+  tagline: 'Tecnologia'
+  title: 'Costruita per le prestazioni'
+  subtitle: 'Ogni SUP gonfiabile Vatrad è realizzato con costruzione drop-stitch e PVC marino — materiali e metodi di produzione di precisione, testati per ambienti marini esigenti.'
+
+sections:
+  - title: 'Nucleo drop-stitch'
+    description: 'Migliaia di fili interni in poliestere collegano lo strato superiore e inferiore, creando una struttura rigida a 12–15 PSI. È la stessa tecnologia utilizzata nei paddleboard professionali e nei SUP racing gonfiabili.'
+    imageAlt: 'Diagramma nucleo drop-stitch'
+  - title: 'PVC marino'
+    description: 'Tessuto in PVC laminato multistrato, progettato per ambienti marini. Ogni strato viene saldato e non incollato, eliminando i rischi di delaminazione. Testato per resistenza ai raggi UV, corrosione dell''acqua salata e abrasione.'
+    imageAlt: 'Strato in PVC'
+  - title: 'PVC di qualità militare'
+    description: 'Il PVC premium utilizzato su tutti i modelli SUP offre una resistenza superiore ai raggi UV e agli agenti chimici. Resta flessibile a temperature estreme e resiste all''invecchiamento.'
+    imageAlt: 'PVC'
+  - title: 'Air-Deck Floor'
+    description: 'Costruzione drop-stitch ad aria compressa per una rigidità eccezionale in piedi, in pesca e nello yoga. Riduce i tempi di montaggio, il peso complessivo e il volume di stivaggio.'
+    imageAlt: 'Air-Deck'
+
+related:
+  title: 'Argomenti correlati'
+  links:
+    - text: Centro R&S
+      url: /it/randdcenter
+    - text: Controllo qualità
+      url: /it/quality
+    - text: Standard di sicurezza
+      url: /it/quality
+    - text: Garanzia
+      url: /it/warranty
+    - text: Turismo & tempo libero
+      url: /it/tourism-recreation
+    - text: Guide
+      url: /it/knowledge
+    - text: Prodotti
+      url: /it/products

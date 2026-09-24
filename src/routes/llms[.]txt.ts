@@ -24,7 +24,8 @@ const handler = async () => {
       llm.llmKnowledgeIndex(origin) +
       llm.llmSpanishIndex(origin) +
       llm.llmFrenchIndex(origin) +
-      llm.llmGermanIndex(origin),
+      llm.llmGermanIndex(origin) +
+      llm.llmItalianIndex(origin),
     { headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'public, max-age=3600' } },
   )
 }

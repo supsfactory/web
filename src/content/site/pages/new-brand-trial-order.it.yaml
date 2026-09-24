@@ -1,0 +1,176 @@
+meta:
+  title: 'Lancia un marchio di SUP con un ordine di prova a quantità minima bassa | SUPsfactory'
+  description: 'Lancia un marchio di SUP gonfiabili con un ordine di prova a MOQ basso: campioni in 7–12 giorni, prove pilota con 20–50 tavole, produzione in 25–35 giorni. Branding e controllo qualità inclusi.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'Lanciare un marchio di SUP'
+    - 'Lancio di un marchio di SUP'
+    - 'SUP con MOQ basso'
+    - 'Ordine di prova SUP'
+    - 'Marchio SUP startup'
+    - 'Branding SUP per piccoli lotti'
+    - 'Private label SUP gonfiabili'
+
+hero:
+  tagline: 'Per marchi di SUP nuovi e in crescita'
+  title: 'Lancia un marchio di SUP con un ordine di prova a MOQ basso'
+  subtitle: 'Non ti serve un container per lanciare un marchio di SUP. Valida la tua tavola, la tua grafica e il tuo mercato con un singolo campione e testa le vendite con un ordine di prova di 20–50 tavole — prima di impegnarti su volumi di produzione interi. Branding, controllo qualità e logistica export sono gestiti dalla Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Inizia con un campione
+      href: /it/contact#custom-oem
+    - text: Scopri il concetto completo di MOQ e tempi di consegna
+      href: /it/sup-oem-moq-lead-time
+
+answer:
+  label: 'Risposta breve'
+  text: 'Sì — puoi lanciare un marchio di SUP gonfiabili con un ordine di prova a MOQ basso. L''ingresso è scaglionato, non tutto-o-niente: prima ordini 1–2 campioni (disponibili in 7–12 giorni) per definire scafo, grafica e imballaggio; poi un ordine di prova di 20–50 tavole (produzione in 25–35 giorni) per testare le vendite reali; infine puoi scalare su lotti standard di 90–100+ tavole per bobina da 150 m di tessuto drop-stitch, una volta che il formato si è dimostrato. Il co-branding per piccoli lotti parte da sole 5–10 unità per gli operatori che vogliono tavole brandizzate senza alcuna fase di sviluppo. Il tuo primo container arriva solo quando i dati lo dicono.'
+  verified: 'Settembre 2026'
+
+trial_included:
+  tagline: Cosa copre l'ordine di prova
+  title: 'Tutto ciò che serve a un lancio — senza overhead'
+  subtitle: 'Un ordine di prova non è una fattura ridotta — usa lo stesso processo di fabbrica, su misura per un marchio che parte. Questo copre ogni programma di prova.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: 'Piattaforma e costruzione della tavola'
+      desc: 'Scafi Touring e Allround collaudati con costruzione drop-stitch, fusione a tre strati del nastro rail e rigidità 12–15 PSI — le stesse piattaforme usate per i nostri clienti di grandi volumi, nelle misure standard da 10 ft a 11 ft 6 in.'
+    - icon: L
+      icon_bg: green
+      title: 'Il tuo branding, davvero realizzato'
+      desc: 'Grafica digitale o serigrafica a tutta superficie, tappetino antiscivolo in EVA con il tuo logo e branding secondario su nose o rail laterali. Il co-branding per piccoli lotti usa il branding principale SUPsfactory con il tuo logo su nose o rail.'
+    - icon: P
+      icon_bg: purple
+      title: 'Opzioni di imballaggio che scalano'
+      desc: 'Si parte con scatole standard ed etichette con codice a barre, poi si passa a imballaggi commerciali brandizzati a 5 strati a colori. Gli imballaggi personalizzati hanno un minimo di stampa dedicato; le scatole in eccesso vengono stoccate e rilasciate al momento giusto.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Controllo qualità a livello di fabbrica'
+      desc: 'Ogni tavola passa dalla stessa checklist di montaggio a 100 punti e da un test di pressione e tenuta di 24 ore (tenuta a 18,0 PSI, scarto automatico oltre 0,50 PSI di caduta) — come per ogni ordine, sia esso un campione o un container.'
+    - icon: D
+      icon_bg: blue
+      title: 'Export e documentazione'
+      desc: 'Documentazione di conformità CE, ISO-9001, BSCI, REACH e RoHS, imballaggio adatto all''export e coordinamento del trasporto marittimo in oltre 50 paesi — da un singolo campione fino a programmi completi.'
+    - icon: T
+      icon_bg: green
+      title: 'Tempistiche pianificabili'
+      desc: 'Campioni in 7–12 giorni, produzione di prova in 25–35 giorni dopo conferma dell''ordine e acconto, oltre a slot di produzione confermati per gli ordini pre-stagione — così il lancio arriva in stagione, invece di mancarla.'
+
+trial_steps:
+  tagline: La roadmap del lancio
+  title: 'Dall''idea alle prime vendite in sei gate'
+  subtitle: 'Il primo lancio tipico dura 8–12 settimane dal briefing alla consegna dell''ordine di prova con piattaforme esistenti — di più se uno scafo dedicato richiede la costruzione dello stampo. Ogni gate ha una data che concordi in anticipo.'
+  steps:
+    - step: 'Gate 1'
+      title: 'Briefing del prodotto e verifica tecnica (Giorno 0–2)'
+      desc: 'Condividi modello obiettivo, quantità d''ordine, design e intenzioni di imballaggio. La verifica tecnica avviene entro un giorno lavorativo, con NDA prima di scambiare specifiche proprietarie.'
+    - step: 'Gate 2'
+      title: 'Specifica, MOQ e offerta (Giorno 3–7)'
+      desc: 'Offerta voce per voce con calcolo esatto del MOQ, costi dei campioni e voci di tempi di consegna. I costi dei campioni vengono accreditati sull''ordine di produzione dopo la firma del contratto.'
+    - step: 'Gate 3'
+      title: 'Campioni in 7–12 giorni'
+      desc: '1–2 tavole fisiche validano la rigidità dello scafo, l''aderenza del pad EVA, la precisione della grafica e la vestibilità degli accessori. Provi la tavola prima di impegnarti su qualsiasi altra cosa.'
+    - step: 'Gate 4'
+      title: 'Ordine di prova con 20–50 tavole (25–35 giorni)'
+      desc: 'Produzione su piattaforme di scafo esistenti con materiali standard e imballaggio semplificato — il test commerciale minimo che rispecchia le reali condizioni di vendita al dettaglio.'
+    - step: 'Gate 5'
+      title: 'Finestra di vendita e feedback'
+      desc: 'Il gate più importante è nel tuo mercato, non nella nostra fabbrica: noleggiatori e clienti confermano formato della tavola, grafica e livello di prezzo prima che tu punti a scalare.'
+    - step: 'Gate 6'
+      title: 'Scalata a lotti di quantità (90–100+ tavole)'
+      desc: 'Una volta che il formato si è dimostrato, le bobine standard da 150 m offrono piena efficienza produttiva, imballaggio brandizzato e prezzi per quantità. Un programma container è un obiettivo, non un obbligo.'
+
+trial_budget:
+  tagline: Valori di riferimento per il budget
+  title: 'Quanto costa un lancio — riferimenti di prezzo'
+  subtitle: 'Valori di riferimento, EXW Qingdao (Cina), per uno scafo Touring o Allround standard nelle misure standard. L''offerta finale dipende da forma dello scafo, PVC, copertura della grafica, imballaggio, accessori e quantità — confermata sulla tua configurazione prima di ogni impegno.'
+  headers:
+    stage: Fase dell'ordine
+    price: Prezzo di riferimento per tavola
+    notes: Note
+  rows:
+    - stage: 'Campione (1–2 tavole)'
+      price: 'USD 250–350'
+      notes: 'Campione fisico con la tua grafica. I costi dei campioni vengono accreditati sull''ordine di produzione dopo la firma del contratto.'
+    - stage: 'Ordine di prova / pilota (20–50 tavole)'
+      price: 'USD 180–260'
+      notes: 'Piattaforme di scafo esistenti, materiali standard e imballaggio semplificato. Il percorso standard per quantità minime basse.'
+    - stage: 'Quantità standard (90–100+ tavole per bobina da 150 m)'
+      price: 'USD 150–220'
+      notes: 'Bobine complete di tessuto da 150 m, opzioni PVC Pantone personalizzate, imballaggio brandizzato e prezzi per quantità.'
+    - stage: 'Scafo e stampi dedicati (opzione aggiuntiva)'
+      price: 'In base al progetto'
+      notes: 'Uno stampo scafo dedicato aggiunge 15–20 giorni di costruzione stampi al cronoprogramma complessivo; i costi dell''attrezzatura vengono quotati una tantum, voce per voce.'
+
+derisk:
+  tagline: Lancio senza rischi
+  title: 'Quattro modi in cui un ordine di prova mette al sicuro il tuo lancio'
+  subtitle: 'La maggior parte dei lanci di marchi fallisce sui magazzini, non sulla qualità del prodotto. Un ordine di prova rende impossibili gli errori evitabili.'
+  features:
+    - icon: I
+      icon_bg: blue
+      title: 'Nessun pesante impegno di magazzino'
+      desc: 'Il tuo primo rischio di stagione resta sotto le 50 tavole. Se il formato va adattato, lo fai prima del grande investimento — non dopo.'
+    - icon: C
+      icon_bg: green
+      title: 'Il cashflow resta pianificabile'
+      desc: 'Ordini più piccoli significano acconti più piccoli, pagamenti scaglionati e nessun capitale fermo in magazzino. I prezzi per quantità aspettano finché non sono davvero guadagnati.'
+    - icon: Q
+      icon_bg: purple
+      title: 'La qualità non viene mai ridotta'
+      desc: 'Un ordine di prova da 20 tavole passa dalla stessa checklist a 100 punti e dallo stesso test di pressione di un programma container — nessun compromesso del tipo "prima testa, poi qualità".'
+    - icon: G
+      icon_bg: orange
+      title: 'Percorso garantito verso la scalata'
+      desc: 'Ogni ordine di prova include un percorso confermato verso i volumi: accrediti sui campioni ricevuti, artwork e BOM congelati e slot di produzione riservati per il tuo ordine successivo.'
+
+scale_path:
+  tagline: Dopo l'ordine di prova
+  title: 'Cosa succede dopo un ordine di prova riuscito'
+  subtitle: 'L''ordine di prova è progettato volutamente come primo passo di una partnership più lunga. Questo è il percorso che concordiamo prima che la prima tavola venga spedita.'
+  steps:
+    - step: 'Phase 1'
+      title: 'Prova consegnata e valutata'
+      desc: '20–50 tavole arrivano in stagione e i dati di vendita tornano dal tuo canale — noleggio, commercio o vendita diretta.'
+    - step: 'Phase 2'
+      title: 'Feedback e perfezionamento'
+      desc: 'Varianti di colore, grafica, imballaggio e mix di accessori vengono adattati alla reazione reale del mercato. Artwork e BOM vengono congelati per l''ordine successivo.'
+    - step: 'Phase 3'
+      title: 'Run di quantità (90–100+ tavole)'
+      desc: 'Bobine standard da 150 m con piena efficienza produttiva, imballaggio commerciale brandizzato e prezzi per quantità — con gli accrediti dei campioni già applicati.'
+    - step: 'Phase 4'
+      title: 'Programmi container'
+      desc: 'Programmi con 300+ tavole, consegne scaglionate, materiale Pantone personalizzato e la piena pipeline di sviluppo — la stessa fabbrica, ora a scala di volumi.'
+
+trial_faqs:
+  tagline: FAQ
+  title: 'Domande frequenti sul lancio con un ordine di prova'
+  items:
+    - q: 'Posso davvero lanciare un marchio di SUP senza un ordine container?'
+      a: 'Sì. L''ingresso è scaglionato: 1–2 campioni validano la tavola (disponibili in 7–12 giorni), un ordine di prova di 20–50 tavole valida il mercato (produzione in 25–35 giorni) e i lotti di quantità di 90–100+ tavole arrivano solo quando le vendite dimostrano il formato. Il co-branding per piccoli lotti parte da sole 5–10 unità se vuoi tavole brandizzate senza fase di sviluppo.'
+    - q: 'Quanto dura un lancio completo dall''inizio alla fine?'
+      a: 'Con piattaforme di scafo esistenti, un primo lancio tipico dura 8–12 settimane dal briefing del prodotto alla consegna dell''ordine di prova: campioni in 7–12 giorni, produzione di prova in 25–35 giorni dopo conferma dell''ordine e acconto. Uno scafo dedicato aggiunge 15–20 giorni di costruzione stampi.'
+    - q: 'Cosa è incluso nel prezzo — e cosa no?'
+      a: 'I prezzi di riferimento valgono EXW Qingdao per le tavole stesse, incluso branding e QC standard. Sono valori indicativi: l''offerta finale viene confermata sulla tua configurazione — scafo, PVC, copertura grafica, imballaggio e accessori — prima che qualcosa diventi vincolante. Trasporto, dazi e sdoganamento a destinazione vengono quotati separatamente.'
+    - q: 'Devo comprare 100 o 500 tavole per avere il mio logo sulla tavola?'
+      a: 'No. Il co-branding per piccoli lotti mette il tuo logo su nose o rail laterali da sole 5–10 unità, e gli ordini di prova di 20–50 tavole supportano l''applicazione grafica completa con la stessa qualità della produzione su larga scala. Quello che cambia con la quantità è il prezzo unitario — non la disponibilità.'
+    - q: 'Cosa succede se voglio modificare il design dopo la prova?'
+      a: 'Le modifiche tra prova e quantità sono normali e benvenute — è esattamente a questo che serve la prova. Varianti di colore, artwork, imballaggio e accessori vengono ricalcolati sulla nuova configurazione e congelati prima del run di quantità con approvazione di artwork e BOM. I costi degli stampi per la serigrafia decadono per gli ordini successivi con lo stesso formato di artwork.'
+    - q: 'Firmate una NDA prima che condivida i miei design?'
+      a: 'Sì. È disponibile un accordo di non divulgazione (NDA) prima che condivida specifiche tecniche proprietarie o artwork. Produciamo esclusivamente sotto i marchi dei nostri clienti e non entriamo in concorrenza con te in nessun mercato — la stessa politica vale per un singolo campione come per un programma container.'
+
+cta:
+  title: 'Pronto a lanciare il tuo marchio di SUP?'
+  subtitle: 'Inviaci il tuo modello obiettivo, le quantità iniziali e le tue idee di branding. Confermiamo il percorso esatto di campione e prova con costi voce per voce e un piano giorno per giorno — senza impegno, finché non firmi.'
+  actions:
+    - variant: primary
+      text: Avvia il lancio
+      href: /it/contact#custom-oem
+    - text: Prima capisci MOQ e tempi di consegna
+      href: /it/sup-oem-moq-lead-time
+    - text: La guida flessibile a branding e MOQ
+      href: /it/oem-moq-guide
+    - text: Verifica fabbrica e sistema di qualità
+      href: /it/oem-trust-assurance

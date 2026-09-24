@@ -112,7 +112,7 @@ export interface FactShorthands {
   pressureReject: string
 }
 
-export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de', FactShorthands> = {
+export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it', FactShorthands> = {
   en: {
     moq: {
       existingPlatform: FACTS.moq.existingPlatform,
@@ -168,6 +168,20 @@ export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de', FactShorthands> = {
     assemblyChecklist: '100',
     pressureTest: '18,0 PSI über 24 h',
     pressureReject: 'Druckabfall >0,50 PSI/24 h (automatische Aussortierung)',
+  },
+  it: {
+    moq: {
+      existingPlatform: '5–10 pezzi (solo logo su forma esistente, stesso rotolo di materiale)',
+      trialStandard: '20–50 pezzi (grafiche personalizzate o modifica minore di specifica, stesso rotolo di materiale)',
+      standardRun: '90–100+ pezzi per configurazione approvata, soggetto ai requisiti di rotolo di materiale e imballaggio',
+      customMould: '90–100+ pezzi (una nuova forma richiede stampo dedicato; l’utillaggio aggiunge 15–20 giorni)',
+    },
+    leadTime: '25–35 giorni',
+    leadTimeDetail: '25–35 giorni da PO e acconto confermati; lo sviluppo di uno stampo su misura aggiunge 15–20 giorni di utillaggio.',
+    sampleTime: '7–12 giorni',
+    assemblyChecklist: '100',
+    pressureTest: '18.0 PSI · 24 ore di tenuta',
+    pressureReject: 'calo di pressione >0,50 PSI/24 h (scarto automatico)',
   },
 }
 

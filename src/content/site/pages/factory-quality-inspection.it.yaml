@@ -1,0 +1,477 @@
+meta:
+  title: 'Standard di ispezione qualità per SUP personalizzati | Fabbrica OEM | SUPsfactory'
+  description: 'Produzione OEM di SUP gonfiabili: ispezione di materiali, produzione, collaudo, imballaggio e rintracciabilità, con controllo della rilavorazione di tenuta all''aria secondo ISO 9001.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'produttore sup gonfiabili'
+    - 'fabbrica sup oem'
+    - 'produttore paddle board personalizzate'
+    - 'ispezione qualità sup'
+    - 'processo di produzione sup'
+    - 'produttore sup private label'
+
+hero:
+  tagline: Ispezione & garanzia qualità
+  title: Controllo qualità per SUP gonfiabili personalizzati
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD. applica criteri di ispezione specifici per progetto su tutta la preparazione dei materiali, la costruzione della tavola, la prova finale di gonfiaggio, l''imballaggio e il rilascio in spedizione. I requisiti di qualità vengono gestiti dinamicamente in base al campione rilasciato, alla specifica tecnica, alla prova di artwork, alla distinta base (BOM) e agli standard di imballaggio concordati per ogni ordine OEM/ODM.'
+  actions:
+    - text: Scarica il pacchetto garanzia qualità
+      variant: primary
+      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+    - text: Scarica un pacchetto qualità di esempio (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Richiedi informazioni qualità OEM
+      href: /contact
+
+answer:
+  label: 'Risposta chiara'
+  text: 'QINGDAO VATRAD GROUP.,LTD. controlla la qualità dei SUP gonfiabili tramite un sistema di verifica in 4 fasi: controllo ingresso merci (IQC), controllo qualità di processo (IPQC), verifica finale della tavola e di gonfiaggio (FQC) nonché pre-rilascio di imballaggio e spedizione (OQC). Ogni ordine viene verificato contro il campione rilasciato, la specifica tecnica, la prova di artwork, la BOM e gli standard di imballaggio — inclusa la verifica di tenuta all''aria, i controlli visivi e dimensionali, la conferma degli accessori e la rintracciabilità dei lotti. Le unità che non soddisfano i criteri di accettazione vengono bloccate o poste in quarantena in modo controllato, rilavorate esclusivamente secondo istruzioni rilasciate e nuovamente verificate prima del rilascio autorizzato.'
+  verified: 'September 2026'
+
+intro: 'Il nostro sistema qualità è costruito per i progetti OEM/ODM: i criteri di ispezione vengono definiti, documentati e seguiti per ordine dal team di produzione e qualità, dall''ingresso merci all''imballaggio. Così l''aspettativa di qualità resta allineata tra fabbrica e vostro marchio, dal primo campione alle consegne complete in container.'
+
+scope_note:
+  tagline: Ambito
+  title: Criteri di ispezione specifici per progetto
+  body: |
+    Le specifiche di qualità possono variare in base alla costruzione della tavola (es. a uno/due strati, drop-stitch in tessuto, rail incollato), all''uso previsto, alle normative del mercato di destinazione e ai parametri approvati dal cliente. Il rilascio finale si basa rigorosamente sui criteri di ispezione documentati concordati per l''ordine.
+
+stages:
+  tagline: Quadro qualità
+  title: Il nostro sistema di verifica qualità in 4 fasi
+  subtitle: Un ciclo QC completo dall''ingresso delle materie prime al rilascio in spedizione.
+  steps:
+    - title: '1. Controllo ingresso merci (IQC)'
+      desc: 'I materiali principali e i componenti acquistati vengono verificati contro specifiche rilasciate e campioni di riferimento prima di entrare nella linea di produzione. Materiale drop-stitch e PVC vengono verificati per identificazione materiale, lotto fornitore, peso/densità, spessore, corrispondenza colore contro i campioni rilasciati e difetti superficiali. I pad di trazione EVA vengono controllati per motivo, colore, spessore, precisione di taglio e compatibilità dell''adesivo. Valvole e raccordi passano test funzionali, di filettatura, di integrità della guarnizione e di accoppiamento. Accessori e imballaggio (pompe, paddle, pinne, leash, borse, cartoni) vengono confrontati per quantità, colore, branding, accuratezza del codice a barre e versione artwork contro la BOM rilasciata.'
+    - title: '2. Controllo qualità di processo (IPQC)'
+      desc: 'Le fasi produttive critiche vengono ispezionate per individuare le non conformità prima che le tavole raggiungano le postazioni a valle. Taglio e stampa vengono verificati per dimensioni dei pannelli, layout artwork, orientamento a specchio e pulizia dei bordi contro i disegni tecnici rilasciati. Assemblaggio della tavola e incollaggio del rail vengono controllati per simmetria dello scafo, continuità della sovrapposizione delle cuciture e assenza di vuoti o bolle d''aria lungo le aree altamente sollecitate. Il fissaggio di valvole e accessori, le grafiche e il branding vengono verificati per posizione, orientamento, copertura adesiva, grafia del logo e versione artwork.'
+    - title: '3. Verifica finale della tavola & di gonfiaggio (FQC)'
+      desc: 'Le tavole completate attraversano test fisici e strutturali vincolanti prima del rilascio all''imballaggio. Le tavole vengono gonfiate e mantenute alla pressione di prova rilasciata per il progetto per verificare rigidità strutturale e stabilità della pressione. Le scansioni di tenuta all''aria coprono l''alloggiamento della valvola, le cuciture dei rail, i coni di prua/poppa e i giunti di tensione utilizzando metodi calibrati di rilevamento delle perdite (monitoraggio del calo di pressione o test a bolle). L''ispezione estetica e dimensionale verifica dimensioni, profilo rocker e allineamento del pad EVA (tolleranza ±2 mm) in condizioni di luce diurna standard.'
+    - title: '4. Imballaggio & pre-rilascio spedizione (OQC)'
+      desc: 'La pre-verifica di spedizione completa assicura una corrispondenza di configurazione SKU e marcature di spedizione con zero deviazioni. Il controllo di completezza del kit confronta tavola, pinna, leash, paddle, pompa, borsa, kit di riparazione e manuale di istruzioni contro la BOM dell''ordine. I controlli di imballaggio e codice a barre verificano le marcature del cartone, le etichette SKU, la leggibilità del codice a barre, la lingua del manuale e l''integrità strutturale del cartone. Gli ordini vengono rilasciati solo dopo il controllo di imballaggio finale firmato dal personale qualità autorizzato.'
+
+inspection_points:
+  tagline: Copertura dell''ispezione
+  title: Punti di controllo di ispezione principali
+  subtitle: Ogni punto di controllo viene eseguito contro criteri di accettazione documentati e concordati per ordine.
+  features:
+    - icon: A
+      icon_bg: blue
+      title: Verifica di tenuta all''aria
+      desc: 'Le tavole completate vengono gonfiate alla pressione di prova rilasciata e controllate per mantenimento della pressione, stato della base valvola, cuciture dei rail, zone di prua e poppa e punti altamente sollecitati. Dove previsto dalla procedura di ispezione, le aree di sospetta perdita vengono esaminate con metodi di rilevamento rilasciati.'
+    - icon: B
+      icon_bg: green
+      title: Controllo visivo & dimensionale
+      desc: 'Le tavole vengono controllate con illuminazione adeguata per stato della superficie del materiale, errori di stampa, scarti cromatici, allineamento EVA, pieghe, graffi, impurità e ottica di incollaggio. Le dimensioni chiave e le posizioni degli accessori vengono verificate contro i disegni o le specifiche rilasciate.'
+    - icon: C
+      icon_bg: purple
+      title: Verifica di accessori & imballaggio
+      desc: 'Prima della spedizione viene verificata la configurazione completa del prodotto: modello di tavola, sistema di pinne, paddle, pompa, leash, borsa di trasporto, kit di riparazione, manuale di istruzioni e accessori personalizzati — ciascuno confrontato contro il campione rilasciato, i disegni e la BOM.'
+    - icon: D
+      icon_bg: orange
+      title: Imballaggio & rilascio in spedizione
+      desc: 'Le unità imballate vengono controllate per configurazione SKU, completezza degli accessori, etichette di prodotto, informazioni del codice a barre, versione del manuale di istruzioni, marcatura del cartone, quantità di imballaggio e stato del cartone. Il rilascio in spedizione viene autorizzato solo dopo il completamento di tutti i requisiti di ispezione e imballaggio.'
+
+traceability_intro:
+  tagline: Rintracciabilità dei lotti
+  title: Sistema di rintracciabilità di progetto & lotti
+  body: |
+    Ogni ordine SUP personalizzato viene gestito sotto un codice di progetto unificato che collega specifiche tecniche, BOM rilasciata, revisioni artwork, numeri di lotto materiale, riferimenti di imballaggio e registrazioni di ispezione. Le registrazioni di produzione e ispezione vengono mantenute per progetto e lotto di produzione applicabili, e ogni lotto può essere ricondotto alla specifica di prodotto rilasciata, BOM, artwork e riferimenti di imballaggio.
+
+    Questo supporta la verifica efficiente di configurazione del prodotto, stato di ispezione e ambito interessato nel caso venga sollevata una preoccupazione di qualità — dal prodotto finito alle registrazioni di origine tramite l''identificazione di tavola o cartone.
+
+traceability_chain:
+  tagline: Catena di rintracciabilità
+  title: Dal codice di progetto al rilascio in spedizione
+  subtitle: Una catena di riferimenti controllati dalla conferma d''ordine alla spedizione autorizzata.
+  steps:
+    - step: '01'
+      title: Codice di progetto
+      desc: Riferimento di progetto unificato che collega ogni documento controllato all''ordine.
+    - step: '02'
+      title: Revisioni documentali
+      desc: Livelli di revisione correnti di specifica, BOM, artwork e imballaggio — solo le versioni rilasciate sono valide per la produzione.
+    - step: '03'
+      title: Lotto & materiali
+      desc: I lotti di materiale e componenti vengono registrati contro il lotto di produzione.
+    - step: '04'
+      title: Registrazioni di ispezione
+      desc: Risultati di ispezione IQC, di processo, tenuta all''aria, finali e di imballaggio per lotto.
+    - step: '05'
+      title: Imballaggio & rilascio
+      desc: Lotto di imballaggio, stato di chiusura NCR e panoramica del rilascio in spedizione autorizzato.
+
+traceability_sample:
+  tagline: Esempio anonimizzato
+  title: Registrazione di controllo della rintracciabilità (Demo)
+  body: |
+    I valori dimostrativi servono solo per illustrazione — nome del cliente, numeri d''ordine, artwork personalizzato, dati fornitore e informazioni commerciali sono stati rimossi a tutela della riservatezza.
+
+    - **Produttore:** QINGDAO VATRAD GROUP, LTD.
+    - **Codice di progetto:** DEMO-SUP-2026-01
+    - **Riferimento SKU:** DEMO-TR-126
+    - **Lotto di produzione:** BATCH-AUG-01
+    - **Specifica / BOM / Revisione artwork:** Rev B / Rev C / Rev B
+    - **Registrazione di tenuta all''aria:** PASS —conservata per lotto
+    - **Stato ispezione:** PASS
+    - **Stato spedizione:** RILASCIATO
+
+quarantine_intro:
+  tagline: Controllo di non conformità
+  title: Controllo dei prodotti non conformi & quarantena
+  body: |
+    I prodotti o componenti che non soddisfano i criteri di accettazione definiti vengono chiaramente marcati e bloccati o posti in quarantena in modo controllato. Possono arrivare allo stadio di produzione successivo, all''imballaggio o alla spedizione solo dopo il completamento di una disposizione autorizzata. La rilavorazione avviene secondo istruzioni rilasciate ed è collegata al relativo verbale di non conformità; le unità rilavorate vengono nuovamente verificate contro i requisiti di progetto applicabili prima del rilascio qualità.
+
+quarantine_flow:
+  tagline: Flusso di controllo in 7 fasi
+  title: Cosa succede quando viene trovata una non conformità
+  subtitle: Identificare, bloccare, correggere, verificare — poi rilasciare o respingere. I prodotti non conformi non tornano mai alla produzione o all''imballaggio senza verifica.
+  steps:
+    - step: '01'
+      title: Identificare
+      desc: La non conformità viene registrata contro il prodotto, la SKU, il lotto o la fase di processo interessati.
+    - step: '02'
+      title: Marcare
+      desc: Le unità interessate vengono chiaramente marcate con etichette di stato controllate —HOLD, in quarantena o respinte.
+    - step: '03'
+      title: Quarantena
+      desc: Le unità vengono separate in un''area di quarantena fisicamente controllata o gestita dal sistema, per prevenire uso o spedizione involontari.
+    - step: '04'
+      title: Valutare l''ambito
+      desc: L''ambito interessato viene esaminato per lotto, fase di processo, lotto materiale e revisione documentale.
+    - step: '05'
+      title: Rilavorare / Sostituire
+      desc: Una correzione è consentita solo tramite disposizione rilasciata e istruzione di lavoro controllata.
+    - step: '06'
+      title: Verificare di nuovo
+      desc: Le unità corrette vengono nuovamente verificate contro i criteri di accettazione applicabili prima del rilascio.
+    - step: '07'
+      title: Rilasciare o respingere
+      desc: Solo il prodotto autorizzato e conforme raggiunge l''imballaggio o il rilascio in spedizione.
+
+quarantine_evidence:
+  tagline: Nell''area produttiva
+  title: Controllo & quarantena in pratica
+  subtitle: Le foto della nostra officina di Qingdao mostrano come il controllo di stato e le registrazioni di ispezione vengono applicati in loco.
+  features:
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: SUP gonfiabili gonfiati nell''area di test di tenuta all''aria della fabbrica, monitorati da uno strumento di misura pressione digitale
+      title: Area di test di tenuta all''aria
+      desc: 'Le tavole gonfiate vengono mantenute nell''area di test QC sotto illuminazione industriale; gli strumenti di misura pressione digitali monitorano il test di mantenimento della pressione rilasciato su base valvola, cuciture dei rail, prua e poppa e punti altamente sollecitati. Le registrazioni vengono mantenute per lotto e collegate al controllo finale.'
+    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Fogli di controllo qualità ed etichette di stato HOLD controllate alla postazione di ispezione della fabbrica
+      title: Postazione di blocco & quarantena
+      desc: 'Postazione di ispezione con fogli di controllo QC e marcatura di stato. Ogni unità che non soddisfa i criteri di accettazione viene etichettata, protocollata e portata in quarantena — può arrivare all''imballaggio solo dopo disposizione autorizzata e ispezione ripetuta vincolante.'
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Tecnico QC esegue una rilavorazione controllata di tenuta all''aria su un SUP gonfiabile alla postazione di rilavorazione della fabbrica
+      title: Postazione di rilavorazione controllata
+      desc: 'La rilavorazione di tenuta all''aria viene eseguita in una postazione dedicata secondo una scheda metodo rilasciata: il difetto viene marcato, la tavola resta su HOLD e, dopo il tempo di polimerizzazione richiesto, torna all''area di test per la verifica ripetuta contro i criteri di accettazione originali.'
+    - image: https://assets.supsfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+      alt: Dimostrazione in officina della separazione controllata in quarantena nella fabbrica di Qingdao
+      title: Dimostrazione dell''area di quarantena
+      desc: 'Foto dimostrativa dall''officina che mostra il funzionamento della separazione controllata in quarantena in loco: le unità separate restano sotto controllo di stato fino al completamento di una disposizione autorizzata.'
+
+rework_intro:
+  tagline: Governance della rilavorazione
+  title: Non conformità di tenuta all''aria controllata & governance della rilavorazione
+  body: |
+    Presso QINGDAO VATRAD GROUP.,LTD. la rilavorazione è strettamente definita come ripristino di un''unità non conforme alla piena conformità con la sua specifica tecnica originale — non come una toppa veloce. Ogni tavola con una non conformità di tenuta all''aria viene bloccata in modo controllato e collegata a un verbale di non conformità (NCR) prima di qualsiasi ulteriore lavorazione; la fonte della perdita viene localizzata e registrata con il metodo diagnostico rilasciato.
+
+    La rilavorazione può procedere solo se il difetto rientra nell''ambito di rilavorazione rilasciato e se è disponibile un metodo autorizzato. L''istruzione di rilavorazione identifica prodotto, lotto, posizione del difetto, materiale rilasciato, metodo, condizioni richieste e ambito della verifica ripetuta. Dopo la fase di polimerizzazione o stabilizzazione richiesta, la tavola viene nuovamente verificata contro gli stessi criteri di accettazione applicabili di una tavola conforme — la rilavorazione non abbassa mai lo standard di accettazione. Se la verifica ripetuta fallisce, è richiesta una nuova disposizione di ingegneria e qualità; la rilavorazione ripetuta non è consentita senza rilascio documentato.
+
+rework_decision:
+  tagline: Flusso interattivo
+  title: Flusso decisionale della rilavorazione — clicca ogni nodo
+  subtitle: Segui come una non conformità di tenuta all''aria viene gestita dal rilevamento al rilascio o alla rottamazione. Clicca su un nodo per espandere i requisiti di controllo in quel passaggio.
+  nodes:
+    - id: detect
+      type: start
+      label: Perdita rilevata
+      detail: 'Durante l''ispezione viene riscontrata una non conformità di tenuta all''aria — errore di mantenimento pressione, perdita visibile o un errore correlato del sistema aria.'
+    - id: hold
+      type: step
+      label: Fermare la linea · etichetta HOLD · NCR
+      detail: 'La lavorazione viene fermata. ID tavola, codice prodotto, lotto, postazione di lavoro, data e ispettore vengono registrati; viene apposta un''etichetta HOLD / quarantena e viene aperto un NCR contro la revisione di specifica applicabile.'
+    - id: locate
+      type: step
+      label: Localizzare la fonte della perdita
+      detail: 'La tavola viene gonfiata alla pressione diagnostica rilasciata per il progetto e la fonte viene localizzata con un metodo rilasciato — mantenimento della pressione, test a bolle calibrato, dispositivo acustico o di rilevamento perdite.'
+    - id: classify
+      type: step
+      label: Classificare il difetto (A–G)
+      detail: 'Il difetto viene classificato contro la matrice di rilascio: A interfaccia valvola, B cucitura base valvola, C foro di spillo superficiale, D cucitura locale del rail, E danno esteso al rail, F perdita ricorrente, G danno strutturale.'
+    - id: authorize
+      type: decision
+      label: Rilavorazione autorizzata?
+      yes: rework
+      no: escalate
+      detail: 'Il QC conferma la categoria del difetto e l''ingegneria verifica se la tavola può essere riportata alla sua specifica originale. L''autorizzazione documenta scheda metodo, materiali, condizioni e ambito della verifica ripetuta — oppure porta a sostituzione, respinta, rottamazione o concessione al cliente.'
+    - id: rework
+      type: step
+      label: Rilavorazione controllata
+      detail: 'Eseguita esclusivamente entro il limite di difetto rilasciato utilizzando la scheda metodo, il lotto di materiale e gli attrezzi rilasciati — senza mai modificare dimensioni, costruzione, grafiche, accessori o requisiti di imballaggio.'
+    - id: cure
+      type: step
+      label: Polimerizzazione & stabilizzazione
+      detail: 'La tavola resta su HOLD durante la fase di polimerizzazione e stabilizzazione definita dall''istruzione di materiale e processo rilasciata, quindi riceve una pre-verifica visiva e di lavorazione.'
+    - id: reinspect
+      type: decision
+      label: Verifica ripetuta superata?
+      yes: release
+      no: escalate
+      detail: 'La tavola viene gonfiata alla pressione di verifica ripetuta rilasciata per il progetto e il difetto originale insieme a tutte le caratteristiche potenzialmente interessate vengono nuovamente verificati — punto di perdita, valvola, rail, cuciture, aree altamente sollecitate, accessori e aspetto. La rilavorazione non abbassa mai lo standard di accettazione.'
+    - id: release
+      type: release
+      label: Rilascio qualità
+      detail: 'La Qualità verifica l''NCR chiuso, la registrazione di rilavorazione e l''esito della verifica ripetuta e autorizza il rilascio. Nessuna tavola rilavorata viene imballata o spedita senza rilascio qualità autorizzato.'
+    - id: escalate
+      type: escalate
+      label: Escalation — sostituire / rottamare / concessione
+      detail: 'Nessuna rilavorazione ripetuta senza rilascio documentato. La tavola viene sostituita, respinta, rottamata o al cliente viene offerta una concessione scritta se la specifica originale non può essere ripristinata.'
+
+defect_matrix:
+  tagline: Classificazione dei difetti
+  title: Classificazione dei difetti di tenuta all''aria & matrice di rilascio
+  subtitle: Non ogni perdita viene rilavorata — ogni difetto viene classificato e la sua disposizione viene rilasciata al livello giusto, dall''ispettore QC al capo stabilimento.
+  headers:
+    category: Categoria di difetto
+    area: Area tipica
+    eligibility: Idoneità alla rilavorazione
+    approval: Rilascio richiesto
+  rows:
+    - category: 'Classe A — Interfaccia valvola'
+      area: 'Nucleo valvola, guarnizione del cappuccio, tenuta, interfaccia pompa'
+      eligibility: 'Rilavorazione standard autorizzata'
+      approval: 'Ispettore QC'
+    - category: 'Classe B — Cucitura base valvola'
+      area: 'Micro-perdita lungo il bordo della valvola'
+      eligibility: 'Rilavorazione valutata secondo la scheda metodo rilasciata'
+      approval: 'QC + Ingegneria'
+    - category: 'Classe C — Foro di spillo superficiale'
+      area: 'Micro foro di spillo locale su una superficie non sollecitata'
+      eligibility: 'Autorizzata solo se conforme alle specifiche del cliente'
+      approval: 'QC + Ingegneria'
+    - category: 'Classe D — Cucitura locale del rail'
+      area: 'Perdita locale di sovrapposizione sul rail band'
+      eligibility: 'Rischio elevato; disposizione ingegneristica rigorosa richiesta'
+      approval: 'Ingegneria + Capo QA'
+    - category: 'Classe E — Danno esteso al rail'
+      area: 'Guasto continuo della cucitura in zone altamente sollecitate'
+      eligibility: 'Rilavorazione standard non autorizzata — sostituzione o verifica della causa radice'
+      approval: 'Capo QA + concessione cliente'
+    - category: 'Classe F — Perdita ricorrente'
+      area: 'Perdita non localizzabile o errore nel nuovo test'
+      eligibility: 'Nessuna rilavorazione ripetuta; sostituzione, rottamazione o analisi ingegneristica della causa radice'
+      approval: 'QA / Ingegneria senior'
+    - category: 'Classe G — Danno strutturale'
+      area: 'Danno al materiale, delaminazione, deformazione della tavola'
+      eligibility: 'Rilascio di rilavorazione non autorizzato — sostituzione, rottamazione o concessione scritta del cliente'
+      approval: 'Quality Manager + rilascio cliente'
+
+rework_flow:
+  tagline: Ciclo chiuso in 7 fasi
+  title: Workflow di rilavorazione controllata — dal rilevamento al rilascio o alla rottamazione
+  subtitle: 'Ogni rilavorazione di tenuta all''aria segue lo stesso ciclo controllato: rilevare, mettere in quarantena, diagnosticare, autorizzare, rilavorare, verificare di nuovo, rilasciare.'
+  steps:
+    - step: '01'
+      title: Rilevamento, stop di linea & quarantena
+      desc: 'La lavorazione della tavola interessata si ferma immediatamente. ID tavola, codice prodotto, lotto, postazione di lavoro, data e ispettore vengono registrati, viene apposta un''etichetta HOLD / quarantena e viene aperto un NCR contro la revisione di specifica applicabile.'
+    - step: '02'
+      title: Diagnosi sistematica della perdita
+      desc: 'La tavola viene gonfiata alla pressione diagnostica rilasciata per il progetto e la fonte della perdita viene localizzata con un metodo rilasciato — mantenimento della pressione, test a bolle calibrato, dispositivo acustico o di rilevamento perdite. Il punto sospetto viene marcato senza danneggiare la tavola.'
+    - step: '03'
+      title: Disposizione di ingegneria & autorizzazione
+      desc: 'Il QC conferma la categoria del difetto e l''ingegneria verifica se la tavola può essere riportata alla sua specifica originale. Un''autorizzazione di rilavorazione che fa riferimento all''NCR documenta metodo rilasciato, materiali, condizioni e ambito della verifica ripetuta — oppure assegna sostituzione, respinta, rottamazione o concessione al cliente.'
+    - step: '04'
+      title: Esecuzione controllata della rilavorazione
+      desc: 'La rilavorazione viene eseguita esclusivamente entro il limite di difetto rilasciato con la scheda metodo, il lotto di materiale e gli attrezzi rilasciati. Dimensioni della tavola, costruzione, grafiche, configurazione accessori e requisiti di imballaggio non vengono mai modificati.'
+    - step: '05'
+      title: Polimerizzazione, stabilizzazione & pre-verifica
+      desc: 'La tavola rilavorata resta in stato HOLD durante la fase di polimerizzazione e stabilizzazione definita dall''istruzione di materiale e processo rilasciata e riceve una pre-verifica visiva e di lavorazione prima della verifica ripetuta.'
+    - step: '06'
+      title: Verifica ripetuta & test di prova
+      desc: 'La tavola viene gonfiata alla pressione di verifica ripetuta rilasciata per il progetto e il difetto originale insieme a tutte le caratteristiche potenzialmente interessate vengono nuovamente verificati: punto di perdita e zona circostante, valvola, rail, cuciture, aree altamente sollecitate, accessori e aspetto. La rilavorazione non abbassa mai lo standard di accettazione.'
+    - step: '07'
+      title: Rilascio QA o disposizione finale
+      desc: 'La Qualità verifica l''NCR chiuso, la registrazione di rilavorazione e l''esito della verifica ripetuta e quindi autorizza il rilascio — oppure scala a sostituzione, respinta, rottamazione o concessione al cliente. Nessuna tavola rilavorata viene imballata o spedita senza rilascio qualità autorizzato.'
+
+quality_safeguards:
+  tagline: Garanzie di qualità
+  title: Regole anti-errore che proteggono il vostro marchio
+  subtitle: Controlli rigidi che prevengono cicli di riparazione non controllati — una rilavorazione documentata per difetto, soglie di allarme sui lotti, strumenti di misura calibrati e condizioni di test controllate.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Una rilavorazione per difetto
+      desc: 'Un singolo punto può essere rilavorato una volta sotto un''istruzione autorizzata. Se la verifica ripetuta continua a fallire, la tavola viene scalata a sostituzione, respinta, rottamazione o concessione al cliente — la rilavorazione ripetuta senza rilascio documentato non è consentita.'
+    - icon: 2
+      icon_bg: green
+      title: Allarme sul lotto & stop di linea
+      desc: 'Se la non conformità di un lotto di produzione supera la soglia fissata dall''ingegneria, la linea viene fermata e l''ingegneria indaga la causa — lotto materiale, condizioni di processo e registrazioni — prima di riprendere la produzione.'
+    - icon: 3
+      icon_bg: purple
+      title: Strumenti di misura calibrati
+      desc: 'Gli strumenti di misura pressione, i manometri digitali e i cronometri per le prove di tenuta all''aria vengono verificati e calibrati da laboratori terzi entro il loro periodo di validità; lo stato di calibrazione è visibile nell''area di ispezione.'
+    - icon: 4
+      icon_bg: orange
+      title: Condizioni di test controllate
+      desc: 'Le aree di test di tenuta all''aria e di polimerizzazione vengono mantenute in un ambiente controllato, così i risultati non vengono influenzati dalle fluttuazioni di temperatura tra giorno e notte.'
+
+rework_boundaries:
+  tagline: Ambito & limiti
+  title: Cosa non copre questo sistema
+  body: |
+    Il sistema di controllo della rilavorazione si applica ai SUP gonfiabili finiti o in lavorazione in cui vengono rilevate perdite d''aria, errori di mantenimento pressione o errori correlati del sistema aria prima del rilascio in spedizione. Non autorizza modifiche a costruzione rilasciata, materiali, grafiche, configurazione di prodotto o requisiti del cliente e non copre:
+
+    - Prodotti già spediti o presenti nei sistemi dei clienti.
+    - Danni strutturali o deformazioni della tavola non valutati dall''ingegneria.
+    - Difetti estesi di rail o cuciture, danni al materiale del nucleo o difetti che possono compromettere la sicurezza.
+    - Progetti in cui la rilavorazione non è consentita: campioni approvati dal cliente, unità di certificazione o test.
+    - Progetti con processi proprietari del cliente, materiali speciali o requisiti di riparazione particolari.
+    - Perdite ricorrenti che non possono essere localizzate, o tavole che falliscono di nuovo dopo la rilavorazione.
+
+    Ogni deviazione dalle specifiche del cliente richiede una verifica ingegneristica documentata e, ove applicabile, il rilascio scritto del cliente. Le tavole che non possono essere riportate alla loro specifica originale vengono rilasciate solo sotto una concessione espressa del cliente — mai dalla sola produzione.
+
+method_cards:
+  tagline: Sistema di schede metodo
+  title: Indice delle schede metodo di rilavorazione controllate
+  subtitle: 'L''istruzione generale controlla il processo; le schede metodo controllano l''esecuzione. L''istruzione di rilavorazione (WI-QC-AT-001) fa riferimento alle schede metodo MC-RW-01 fino a MC-RW-06 oltre a MC-RW-00 per la rottamazione e la respinta vincolanti.'
+  headers:
+    code: Scheda metodo
+    defect: Classe di difetto
+    scope: Ambito di applicazione
+    controls: Controlli di ingegneria principali
+    approval: Autorità di firma
+  rows:
+    - code: MC-RW-01
+      defect: Classe A (interfaccia valvola)
+      scope: 'Manutenzione del nucleo valvola, pulizia della tenuta e riassemblaggio'
+      controls: 'Chiave dinamometrica calibrata, sede guarnizione pulita, nessun danno alla filettatura della valvola'
+      approval: 'Ispettore QC'
+    - code: MC-RW-02
+      defect: Classe B (circonferenza valvola)
+      scope: 'Sigillatura della flangia di base valvola e serraggio controllato'
+      controls: 'Preparazione superficiale controllata, materiale adesivo rilasciato, dispositivo di pressione circolare'
+      approval: 'QC + Ingegneria'
+    - code: MC-RW-03
+      defect: Classe C (micro-perdita superficiale)
+      scope: 'Sigillatura di fori di spillo non strutturali'
+      controls: 'Adesivo bicomponente rilasciato, nessun trabocco su grafiche o EVA'
+      approval: 'QC + Ingegneria'
+    - code: MC-RW-04
+      defect: Classe D (cucitura locale del rail)
+      scope: 'Ri-incollaggio di cuciture locali di sovrapposizione del rail'
+      controls: 'Attivazione a caldo a temperatura controllata, rullo di pressatura, dispositivo anti-arricciamento'
+      approval: 'Ingegneria + Capo QA'
+    - code: MC-RW-05
+      defect: Classe B/C (bordo accessori)
+      scope: 'Riparazione della fin box e sigillatura della base di montaggio accessori'
+      controls: 'Primer di adesione superficiale, blocco di serraggio sagomato, tempo di mantenimento definito'
+      approval: 'QC + Ingegneria'
+    - code: MC-RW-06
+      defect: Classe D (cucitura prua/poppa)
+      scope: 'Intervento sulle cuciture curve altamente sollecitate'
+      controls: 'Materiale adesivo ad alta resistenza al taglio rilasciato, tempo di polimerizzazione prolungato prima del nuovo test'
+      approval: 'Ingegnere capo'
+    - code: MC-RW-00
+      defect: Classe E/F/G (critico / rottura)
+      scope: 'Rottamazione e distruzione fisica vincolanti'
+      controls: 'Taglio fisico per prevenire la miscelazione, protocollo di rottamazione, verifica interfunzionale della causa radice'
+      approval: 'Capo stabilimento'
+
+inspector_friendly:
+  tagline: Ispezione di terze parti
+  title: Protocollo a misura di ispettore
+  body: |
+    Forniamo un''area di ispezione dedicata con strumenti di misura pressione calibrati, tavoli luminosi standardizzati per la verifica di cuciture e grafiche e brief di ispezione precompilati, così le organizzazioni terze (SGS, BV, Intertek, QIMA) possono eseguire la loro ispezione pre-spedizione in modo efficiente — questo vi fa risparmiare overhead di ispezione.
+
+    Ogni brief riassume le revisioni documentali applicabili, il riferimento del campione rilasciato, i controlli di rilevanza critica per la qualità, il livello di campionamento concordato, i test funzionali e i requisiti di imballaggio e codice a barre per la PO. Quantità specificate, qualità, imballaggio e aspetti di sicurezza fondamentali vengono verificati contro i riferimenti di progetto rilasciati — nessuna ricerca frenetica di documenti sul posto.
+
+document_pack:
+  tagline: Pacchetto di documentazione qualità
+  title: Scarica il pacchetto qualità di esempio & le template di protocollo
+  subtitle: 'Template standardizzate e controllate per progetti OEM/ODM — strutturate come registro documentale 00–15 (indice di progetto, specifica rilasciata, BOM, riferimenti artwork & imballaggio, QIP, registrazioni di ispezione, NCR, controllo modifiche, brief di terze parti, panoramica di rilascio).'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: Pacchetto di documentazione qualità (PDF)
+      desc: 'Struttura documentale completa e controllata 00–15: indice di progetto, specifica, BOM, riferimenti artwork e imballaggio, piano di ispezione qualità (QIP), registrazioni di ispezione, NCR, controllo modifiche, brief di terze parti e panoramica di pre-rilascio in spedizione.'
+      link: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link_label: Scaricare PDF
+    - icon: T
+      icon_bg: green
+      title: Brief di ispezione di terze parti (PDF)
+      desc: 'Brief di una pagina per ispettori SGS / BV / Intertek / QIMA: quantità d''ordine, livello di campionamento AQL, revisioni applicabili e controlli di rilevanza critica per la qualità inclusa la verifica della registrazione di tenuta all''aria, test di mantenimento pressione, completezza del kit, scansione del codice a barre e test di caduta del cartone.'
+      link: 'https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link_label: Scaricare PDF
+    - icon: C
+      icon_bg: purple
+      title: Protocollo di controllo modifiche (PDF)
+      desc: 'Protocollo di controllo modifiche per revisioni di artwork, BOM approvata dal cliente e marcature dei cartoni — con panoramica della modifica, motivo, valutazione dell''impatto, stato del rilascio cliente, lotto efficace e ritiro dei documenti obsoleti.'
+      link: 'https://assets.supsfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link_label: Scaricare PDF
+    - icon: R
+      icon_bg: orange
+      title: Panoramica di pre-rilascio in spedizione (PDF)
+      desc: 'Firma di rilascio di una pagina: verifica dei gate di qualità (IQC, IPQC, tenuta all''aria, controllo finale, imballaggio), stato NCR aperto e decisione di rilascio autorizzata firmata da Qualità e Operazioni.'
+      link: 'https://assets.supsfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link_label: Scaricare PDF
+    - icon: W
+      icon_bg: blue
+      title: Istruzione di rilavorazione di tenuta all''aria (PDF)
+      desc: 'Istruzione di lavoro controllata WI-QC-AT-001 Rev A: ambito e limiti, classificazione dei difetti, NCR e autorizzazione di rilavorazione, esecuzione controllata, polimerizzazione, verifica ripetuta e rilascio per SUP gonfiabili.'
+      link: 'https://assets.supsfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link_label: Scaricare PDF
+    - icon: M
+      icon_bg: green
+      title: Indice delle schede metodo (PDF)
+      desc: 'Documento controllato SOP-QC-AT-IDX-001 Rev A: il sistema numerato di schede metodo MC-RW-01 fino a MC-RW-06 oltre a MC-RW-00 per rottamazione e respinta, collegato all''istruzione di rilavorazione di tenuta all''aria.'
+      link: 'https://assets.supsfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link_label: Scaricare PDF
+    - icon: V
+      icon_bg: orange
+      title: Standard di controllo modifiche per rilavorazione (pagina)
+      desc: 'Controllo formale delle modifiche ISO 9001 per i parametri di rilavorazione: ECR, classificazione del rischio, matrice di rilascio interfunzionale, ciclo chiuso in 9 fasi, validazione tecnica quantificata e protezioni Poka-Yoke — con SOP bilingue QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/it/factory/quality-change-control'
+      link_label: Visualizza pagina
+    - icon: N
+      icon_bg: blue
+      title: Controllo dei prodotti non conformi (pagina)
+      desc: 'ISO 9001:2015 sezione 8.7 Controllo dei prodotti non conformi: registrazione NCR, quarantena, autorità di disposizione in base alla gravità, rilavorazione controllata sotto SRI, ispezione ripetuta indipendente e distruzione attestata, protetta con SHA-256 — con download della SOP bilingue e del certificato di rottamazione.'
+      link: '/it/factory/non-conforming-control'
+      link_label: Visualizza pagina
+
+faqs:
+  tagline: FAQ
+  title: Domande frequenti sul controllo qualità SUP
+  items:
+    - q: 'Come controlla QINGDAO VATRAD GROUP.,LTD. la qualità dei SUP gonfiabili?'
+      a: 'La qualità viene controllata tramite ispezione di ingresso merci, punti di controllo del processo di produzione, verifica finale del prodotto, ispezione dell''imballaggio e rintracciabilità della produzione — ciascuna eseguita contro campioni, specifiche e criteri di ispezione rilasciati per il progetto.'
+    - q: 'Quali controlli di qualità vengono eseguiti durante la produzione SUP?'
+      a: 'Le ispezioni includono verifica dei materiali, controlli di taglio e stampa, ispezione della costruzione delle tavole, verifica dell''installazione delle valvole, ispezione degli accessori, test di tenuta all''aria, ispezione dell''aspetto e verifica dell''imballaggio.'
+    - q: 'I clienti OEM possono richiedere le registrazioni di ispezione SUP?'
+      a: 'Sì. Registrazioni di ispezione e documentazione di qualità possono essere fornite in base ai requisiti di progetto e agli accordi di qualità con il cliente, inclusi i report delle ispezioni pre-spedizione a campione.'
+    - q: 'Come garantisce la fabbrica una qualità di produzione OEM costante?'
+      a: 'La coerenza produttiva viene mantenuta tramite campioni rilasciati, specifiche tecniche, punti di controllo di fabbricazione, procedure di ispezione e processi di controllo qualità documentati collegati a ogni ordine.'
+    - q: 'Posso organizzare un''ispezione di terze parti con SGS, BV, Intertek o QIMA?'
+      a: 'Sì. Accogliamo gli ispettori di terze parti con un''area di ispezione dedicata, strumenti di misura pressione calibrati, brief di ispezione precompilati e registrazioni accessibili. Condividete la vostra specifica, il campione rilasciato, l''artwork, i requisiti di imballaggio e i criteri di difetto — oppure usate la nostra template di brief di ispezione di terze parti.'
+    - q: 'Come vengono gestite le modifiche di artwork, BOM o imballaggio durante la produzione?'
+      a: 'Le modifiche vengono registrate nel nostro protocollo di controllo modifiche, inclusa la revisione documentale interessata, la panoramica della modifica, il motivo, la valutazione dell''impatto, lo stato del rilascio cliente e il lotto efficace. Le versioni obsolete vengono ritirate, così produzione e ispezione usano sempre i documenti rilasciati correnti.'
+    - q: 'La fabbrica supporta progetti di SUP gonfiabili personalizzati?'
+      a: 'Sì. I progetti OEM/ODM personalizzati per SUP gonfiabili vengono supportati in base a specifiche del cliente, requisiti artwork, configurazioni di accessori ed esigenze di imballaggio, con criteri di ispezione specifici per progetto concordati prima della produzione.'
+    - q: 'Un SUP con perdite può essere rilavorato in fabbrica?'
+      a: 'Sì — a condizioni controllate. La tavola viene messa su HOLD e collegata a un NCR, la perdita viene localizzata con un metodo diagnostico rilasciato e la rilavorazione avviene solo dopo autorizzazione QC/Ingegneria ed esclusivamente entro le classi di difetto rilasciate per la rilavorazione. La tavola viene poi nuovamente verificata contro gli stessi criteri di accettazione di una tavola conforme prima del rilascio.'
+    - q: 'Quante volte la fabbrica può rilavorare una tavola?'
+      a: 'Un singolo punto può essere rilavorato una volta sotto un''istruzione autorizzata. Se la verifica ripetuta continua a fallire, la tavola viene scalata a sostituzione, respinta, rottamazione o concessione al cliente — la rilavorazione ripetuta senza rilascio documentato non è consentita.'
+
+cta:
+  title: Vi serve un esempio completo di pacchetto qualità di progetto?
+  desc: 'Richiedete un pacchetto di supporto per ispezioni di terze parti anonimizzato e un piano di ispezione qualità (QIP) per il vostro progetto OEM/ODM — oppure scaricate le template di esempio per verificare la struttura documentale che potete aspettarvi per il vostro ordine.'
+  actions:
+    - text: Richiedere un controllo qualità
+      variant: primary
+      href: /contact
+    - text: Scaricare il pacchetto qualità di esempio (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Scaricare protocollo QC & checklist PSI
+      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

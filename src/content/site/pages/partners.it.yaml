@@ -1,0 +1,83 @@
+meta:
+  title: 'Partner — Distribuzione & vendita all''ingrosso | {SITE}'
+  description: 'Partnership di produzione con SUPsfactory: distribuzione, fornitura all''ingrosso, programmi OEM/private label e supporto alle specifiche per fornitori di paddle board in tutto il mondo.'
+  keywords:
+    - 'partner di distribuzione SUP'
+    - 'vendita all''ingrosso di paddle board'
+    - 'partner di distribuzione SUP gonfiabili'
+    - 'partnership SUP'
+  dateModified: '2026-08'
+hero:
+  tagline: Partner & distribuzione
+  title: 'Partnership di produzione & distribuzione'
+  subtitle: "Produciamo per distributori di attrezzature marine, rivenditori, marchi commerciali e organizzazioni in oltre 50 paesi. Tu definisci il prodotto — noi lo sviluppiamo, lo campioniamo e lo produciamo sotto il tuo marchio."
+  image:
+    src: https://assets.supsfactory.com/images/sups/team/supsfactory-meeting-overseas.webp
+    alt: Rete globale di partner e distribuzione di Vatrad
+
+answer:
+  label: 'Risposta breve'
+  text: 'Le condizioni di partnership partono con il campione (1–2 unità) e i lotti pilota (20–50 unità, campioni in 7–12 giorni), per poi scalare su run di volume OEM standard da 90–100+ unità per lotto da un rotolo completo di drop-stitch da 150 m — oppure investire in stampi propri per prodotti private label. Il MOQ viene confermato in base al progetto. I programmi di distribuzione includono territori esclusivi, prezzi all''ingrosso diretti di fabbrica e termini di pagamento di 45–60 giorni, spediti FOB Qingdao o CIF.'
+  verified: 'September 2026'
+content_programs:
+  tagline: Programmi partner
+  title: 'Modelli di partnership basati sulla produzione'
+  subtitle: 'Che tu sia un partner di distribuzione, un rivenditore o un partner di marca — il programma si allinea ai tuoi requisiti di prodotto e al tuo piano di produzione.'
+  columns: 3
+  items:
+    - title: 'Programma di distribuzione'
+      description: 'Accordi di distribuzione con accesso diretto alla fabbrica, supporto alle specifiche e qualità costante dei riordini in più territori. Quantitativo minimo in base alla dimensione del territorio.'
+      icon: tabler:world
+    - title: 'Programma rivenditori'
+      description: 'Specifiche di prodotto, approvazione dei campioni, supporto di garanzia e riordini affidabili per negozi al dettaglio e online.'
+      icon: tabler:building-store
+    - title: 'Partnership OEM/ODM'
+      description: 'Servizio OEM e ODM completo con branding personalizzato, imballaggio e specifica di prodotto. Dall''idea al container.'
+      icon: tabler:certificate
+    - title: 'Partnership di marca'
+      description: 'Private label e sviluppo di modelli per marchi affermati nel settore marino e del tempo libero outdoor.'
+      icon: tabler:stars
+    - title: 'Istituzionale & pubblico'
+      description: 'Programmi da fornitore preferenziale per autorità, guardie costiere, forze armate e organizzazioni umanitarie. Documentazione pronta per le gare d''appalto.'
+      icon: tabler:building-community
+    - title: 'Partner resort & noleggio'
+      description: 'Tariffe flotta, qualità costante e branding personalizzato per resort, centri subacquei e operatori di noleggio in tutto il mondo.'
+      icon: tabler:sun
+content_benefits:
+  tagline: Perché collaborare con noi
+  title: 'Perché i partner scelgono Vatrad'
+  subtitle: 'I nostri partner lavorano con capacità produttiva reale, qualità costante e supporto ingegneristico reattivo.'
+  list:
+    - 'Accesso diretto alla fabbrica: lavori direttamente con il nostro team di produzione — nessun intermediario. Risposte più rapide, piena visibilità sulla produzione e pareri ingegneristici dalle persone che costruiscono le tavole.'
+    - 'Personalizzazione pronta: brandizza i tuoi prodotti con colori, loghi, imballaggi e specifiche propri. Il MOQ viene confermato in base al progetto — ai livelli campione, pilota e volume.'
+    - 'Qualità garantita: produzione certificata ISO-9001 con conformità CE, BSCI e REACH. Ogni prodotto viene sottoposto a test di pressione prima della spedizione.'
+    - 'Logistica globale: spedizione da Qingdao, Cina, con opzioni FOB, CIF e DDP. Magazzino USA a Montclair, CA, per la distribuzione in Nordamerica.'
+    - 'Documentazione tecnica: cataloghi prodotto, fotografia e materiali tecnici a supporto delle decisioni di specifica e riordino.'
+    - 'Supporto specifiche & QC: campionatura prima dell''ordine di massa, supporto tecnico per i tuoi clienti e coordinamento del servizio di garanzia.'
+content_process:
+  tagline: Come diventare partner
+  title: 'Processo di partnership'
+  subtitle: 'Un percorso semplice — dalla candidatura al primo run di produzione.'
+  items:
+    - title: 'Passo 1: invia la candidatura'
+      description: 'Compila il nostro modulo di candidatura partner con profilo aziendale, mercato di destinazione e interessi di prodotto.'
+    - title: 'Passo 2: verifica della qualifica'
+      description: 'Il nostro team esamina la tua candidatura e ti contatta entro 3 giorni lavorativi per discutere i requisiti.'
+    - title: 'Passo 3: accordo & attivazione'
+      description: 'Firma un accordo di partnership, attiva il tuo conto e ricevi campioni di prodotto, specifiche e condizioni concordate.'
+    - title: 'Passo 4: campionatura & produzione'
+      description: 'Approva i campioni fisici, conferma specifiche e MOQ — e i run di produzione partono sotto il tuo marchio.'
+cta:
+  title: 'Discuti una partnership'
+  subtitle: 'Invia i tuoi requisiti — il nostro team risponde entro 3 giorni lavorativi.'
+  actions:
+    - variant: primary
+      text: Invia i requisiti
+      href: /it/contact
+    - text: Vedi i nostri prodotti
+      href: /it/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Approfondisci:</strong> i programmi partner condividono lo stesso <a href="/it/oem-manufacturing">motore produttivo OEM/ODM</a> — condizioni, MOQ di prova e personalizzazione sono definiti lì — e tutti i run di produzione passano dalla <a href="/it/factory">fabbrica di 12,500 m&sup2;</a>.</p>
+  </div>

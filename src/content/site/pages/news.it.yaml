@@ -1,0 +1,14 @@
+meta:
+  title: 'News — Produttore SUP & aggiornamenti nautici | {SITE}'
+  description: 'Ultime novità da Vatrad: aggiornamenti di fabbrica, nuovi modelli di SUP gonfiabile, certificazioni e notizie dal settore nautico.'
+  keywords:
+    - 'produttore sup news'
+    - 'Vatrad updates'
+    - 'annunci sup gonfiabile'
+    - 'settore nautico news'
+hero_text:
+  tagline: ''
+  title: News
+  subtitle: Le ultime novità di Vatrad —lanci di prodotto, aggiornamenti aziendali, guide e storie dall'acqua
+news_list:
+  limit: 100

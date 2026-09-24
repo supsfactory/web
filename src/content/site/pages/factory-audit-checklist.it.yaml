@@ -1,0 +1,105 @@
+meta:
+  title: 'Checklist di audit della fabbrica — Cosa verificare prima della scelta di un produttore di SUP | SUPsfactory'
+  description: 'Checklist di audit della fabbrica per acquirenti di SUP gonfiabili: sistema qualità, capacità, rintracciabilità dei materiali, test di pressione, conformità sociale e documentazione.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'checklist audit fabbrica SUP'
+    - 'audit produttore paddle board gonfiabili'
+    - 'verifica fabbrica SUP'
+    - 'ispezione fabbrica OEM'
+    - 'audit qualità SUP'
+    - 'due diligence fornitore SUP'
+    - 'audit produzione SUP gonfiabili'
+
+hero:
+  tagline: 'Due Diligence'
+  title: 'Checklist di audit della fabbrica'
+  subtitle: 'Prima di scegliere un produttore di SUP, verifica i fondamentali. Questa checklist copre le otto aree che un acquirente professionale dovrebbe audire — dal sistema di gestione della qualità e la capacità produttiva alla rintracciabilità dei materiali e alla conformità sociale. Ogni punto di questa lista è qualcosa che possiamo dimostrare con registrazioni, non solo con affermazioni.'
+
+answer:
+  label: 'Risposta rapida'
+  text: 'Le otto aree di audit principali: (1) Sistema di gestione della qualità — certificazione ISO 9001 e registrazioni di ispezione reali gate-by-gate, non solo un certificato appeso al muro. (2) Capacità produttiva — dati di produzione reali, non solo capacità nominale. (3) Rintracciabilità dei materiali — controlli di ingresso merci e risultati dei test a livello di lotto. (4) Test di pressione e strutturali — protocolli documentati di halte test. (5) Controlli di saldatura e assemblaggio — parametri di saldatura RF e ispezione delle cuciture. (6) Conformità sociale — BSCI o audit equivalente. (7) Documentazione e rintracciabilità — registrazioni dei lotti, protocolli di ispezione, certificati di conformità. (8) Supporto post-consegna — procedure di garanzia, ricambi, reattività di comunicazione.'
+  verified: 'September 2026'
+
+audit_areas:
+  tagline: Otto aree di audit
+  title: 'Cosa verificare — le otto aree di audit'
+  subtitle: 'Ogni area include le domande da porre, le registrazioni da richiedere e i segnali d''allarme da considerare.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: Q
+      icon_bg: blue
+      title: '1. Sistema di gestione della qualità'
+      desc: 'Richiedere: certificato ISO 9001 (ente accreditato, aggiornato), piano di audit interno, protocollo CAPA (azioni correttive e preventive), procedure di ispezione di gate. Segnale d''allarme: solo certificato, nessuna registrazione di ispezione o processo CAPA a livello di gate.'
+    - icon: C
+      icon_bg: green
+      title: '2. Capacità produttiva'
+      desc: 'Richiedere: dati di produzione mensili per tipo di prodotto, piano di produzione con utilizzo attuale, capacità delle attrezzature (numero di stampi, macchine CNC, saldatrici RF). Segnale d''allarme: solo capacità nominale, nessun dato di utilizzo o piano di produzione.'
+    - icon: M
+      icon_bg: purple
+      title: '3. Rintracciabilità dei materiali'
+      desc: 'Richiedere: registrazioni del controllo di ingresso merci, certificati dei fornitori per PVC e drop-stitch, rintracciabilità dei lotti dalla materia prima alla tavola finita, dichiarazioni di sostanze REACH/RoHS. Segnale d''allarme: nessuna rintracciabilità a livello di lotto, certificati dei materiali non disponibili.'
+    - icon: P
+      icon_bg: orange
+      title: '4. Test di pressione e strutturali'
+      desc: 'Richiedere: protocollo di prova di pressione (PSI, durata, criteri superato/non superato), protocolli di prova per i lotti di produzione correnti, registrazioni di test strutturali (caduta, urto, tensione del rail). Segnale d''allarme: "solo controllo visivo" o nessun protocollo di prova documentato con criteri quantitativi superato/non superato.'
+    - icon: W
+      icon_bg: blue
+      title: '5. Controlli di saldatura e assemblaggio'
+      desc: 'Richiedere: registrazioni dei parametri di saldatura RF (temperatura, pressione, tempo di permanenza), criteri di ispezione delle cuciture e tassi di scarto, documentazione della sequenza di assemblaggio. Segnale d''allarme: nessun protocollo dei parametri di saldatura, alto tasso di scarti delle cuciture senza CAPA.'
+    - icon: S
+      icon_bg: green
+      title: '6. Conformità sociale'
+      desc: 'Richiedere: rapporto di audit BSCI o SMETA (aggiornato, ambito completo), registrazioni di orari di lavoro e retribuzioni, rapporti di ispezione di sicurezza sul lavoro, documentazione di conformità ambientale. Segnale d''allarme: nessun audit sociale di terze parti o audit con gravi non conformità non risolte.'
+    - icon: D
+      icon_bg: purple
+      title: '7. Documentazione e rintracciabilità'
+      desc: 'Richiedere: registrazioni di produzione dei lotti, protocolli di ispezione per gate, certificati di conformità, packing list con riferimenti di lotto, sistema di tracciamento dei reclami in garanzia. Segnale d''allarme: nessuna documentazione a livello di lotto, reclami in garanzia non tracciati o non valutati.'
+    - icon: A
+      icon_bg: orange
+      title: '8. Supporto post-consegna'
+      desc: 'Richiedere: termini di garanzia e procedura di reclamo, tempo medio di risoluzione dei reclami, disponibilità di ricambi, impegno sul tempo di risposta alla comunicazione, processo di verifica post-vendita. Segnale d''allarme: nessuna procedura di garanzia documentata, comunicazione lenta o incoerente dopo la consegna.'
+
+our_position:
+  heading: 'La nostra posizione su ogni area di audit'
+  body: |
+    Noi non ci limitiamo a dichiarare la conformità — forniamo le registrazioni. Ecco la nostra posizione su ciascuna delle otto aree di audit:
+
+    - **Gestione della qualità**: certificati ISO 9001:2015, annualmente auditati da un ente terzo accreditato. Sistema di ispezione a 7 gate con criteri documentati superato/non superato a ogni gate. Protocollo CAPA mantenuto e verificato trimestralmente.
+    - **Capacità produttiva**: oltre 120,000 tavole di capacità annua, circa 10,000 di produzione mensile. Piano di produzione disponibile per la consultazione durante la visita in fabbrica. 4 linee di produzione automatizzate, taglio CNC, saldatura RF e un laboratorio di prova pressione.
+    - **Rintracciabilità dei materiali**: rintracciabilità a livello di lotto dall''ingresso merci alla tavola finita. Certificati dei fornitori per PVC e drop-stitch in archivio. Dichiarazioni di sostanze REACH e RoHS disponibili per ogni lotto.
+    - **Test di pressione**: halte test a 18.0 PSI con rigetto automatico oltre 0.50 PSI di calo in 24 ore. Protocolli di prova disponibili per ogni lotto di produzione. Test strutturali e di urto in base al tipo di costruzione.
+    - **Controlli di saldatura**: parametri di saldatura RF protocollati per ogni ciclo produttivo. Ispezione delle cuciture al gate 3 con tassi di scarto documentati. Il CAPA viene avviato quando il tasso di scarto viene superato.
+    - **Conformità sociale**: sottoposta ad audit BSCI. Registrazioni di orari di lavoro, retribuzioni e sicurezza disponibili per la consultazione durante la visita in fabbrica.
+    - **Documentazione**: registrazioni di produzione dei lotti, protocolli di ispezione per gate, certificati di conformità e packing list con riferimenti di lotto vengono inviati con ogni ordine. Sistema di tracciamento dei reclami in garanzia mantenuto.
+    - **Supporto post-consegna**: termini di garanzia documentati per contratto. Risoluzione media dei reclami sotto i 14 giorni lavorativi. Ricambi disponibili a magazzino. Verifica post-vendita offerta per ogni primo ordine.
+
+evidence_review:
+  tagline: 'Prove & verifica'
+  title: 'SPECIFICHE VERIFICATE'
+  body: 'Tutte le dichiarazioni di produzione e qualità su questa pagina vengono verificate dal nostro Manufacturing Engineering Team nella fabbrica di Laixi, Qingdao. Certificati, registrazioni di ispezione QC, rapporti di prova di pressione e strutturali e protocolli di rintracciabilità dei lotti sono disponibili su richiesta. Specifiche verificate per l''ultima volta a settembre 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Audit della fabbrica — Domande frequenti'
+  items:
+    - q: 'Posso visitare la fabbrica per un audit in loco?'
+      a: 'Sì. Accogliamo con piacere le visite in fabbrica e possiamo organizzare un audit strutturato che copre tutte le otto aree. Una visita tipica comprende un giro dell''area produttiva, l''osservazione dei gate QC, l''ispezione del magazzino materiali, la verifica dei documenti e una sessione di Q&A con il quality manager. Prevedi un''intera giornata. Contattaci per pianificare.'
+    - q: 'Fornite la documentazione di audit prima di una visita?'
+      a: 'Sì. Possiamo condividere prima della vostra visita il certificato ISO 9001, il rapporto BSCI, la sintesi della capacità produttiva, il protocollo di prova pressione e registrazioni di ispezione di esempio — così potrete preparare domande mirate. Le registrazioni complete dei lotti sono disponibili in loco durante la visita.'
+    - q: 'Quali ispezioni di terze parti utilizzate?'
+      a: 'Collaboriamo con SGS, Intertek e TUV per ispezioni e certificazioni di terze parti. Un''ispezione di spedizione di terze parti è disponibile su richiesta per ogni ordine. Ambito dell''ispezione e costi vengono confermati durante la fase di quotazione.'
+    - q: 'Come faccio a sapere che il vostro sistema qualità viene realmente applicato e non solo documentato?'
+      a: 'Ogni tavola attraversa 7 gate di ispezione con criteri quantitativi superato/non superato — non solo checklist visive. I dati dei test di pressione, i parametri di saldatura e i tassi di scarto vengono protocollati per ogni lotto e sono a vostra disposizione per la verifica. Il CAPA viene attivato automaticamente per risultati fuori specifica. Vi incoraggiamo ad auditare il processo dal vivo durante una visita in fabbrica.'
+
+cta:
+  title: 'Pianifica un audit della fabbrica'
+  subtitle: 'Richiedi la documentazione di audit o pianifica una visita in loco. Forniamo le registrazioni — voi verificate il processo.'
+  actions:
+    - variant: primary
+      text: Richiedi la documentazione di audit
+      href: /contact#project-brief
+    - text: Verifica certificazioni e sistema qualità
+      href: /proof-center
+    - text: Processo di onboarding OEM
+      href: /oem-onboarding-guide

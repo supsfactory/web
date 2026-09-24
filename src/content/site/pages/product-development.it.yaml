@@ -1,0 +1,108 @@
+meta:
+  title: 'Sviluppo prodotto SUP — Design personalizzato, prototipo & produzione'
+  description: 'Sviluppo prodotto SUP dall''idea al container: specifica, ingegneria, prototipazione, test, costruzione attrezzature e produzione in serie in una fabbrica SUP dedicata.'
+  dateModified: '2026-08-10'
+  keywords:
+    - 'sviluppo prodotto SUP'
+    - 'sviluppo prototipi SUP'
+    - 'design SUP personalizzato'
+    - 'ingegneria prodotto SUP'
+    - 'prototipazione di SUP gonfiabili'
+
+hero:
+  tagline: Sviluppo prodotto
+  title: 'Sviluppo prodotto SUP personalizzato, dall''idea al container'
+  subtitle: 'Sei fasi trasformano la tua idea in tavole SUP pronte per la produzione — specifica, ingegneria, prototipazione, test, costruzione attrezzature e produzione in serie, tutto in un''unica fabbrica con un sistema qualità responsabile.'
+
+answer:
+  label: 'Risposta breve'
+  text: 'Lo sviluppo prodotto SUP da SUPsfactory passa attraverso sei fasi — specifica di prodotto, ingegneria strutturale, campionatura del prototipo, test & validazione, costruzione di attrezzature personalizzate e produzione in serie. Il primo campione fisico parte 7–12 giorni dopo l''approvazione della specifica; la produzione prosegue per 25–35 giorni dopo l''ordine confermato e l''acconto; un nuovo stampo aggiunge 15–20 giorni.'
+  verified: 'September 2026'
+
+stages:
+  title: 'Le sei fasi dello sviluppo prodotto SUP'
+  subtitle: 'Ogni fase ha un risultato chiaro — così sai sempre a che punto è il tuo progetto — e cosa succede dopo.'
+  items:
+    - title: '1. Idea & specifica di prodotto'
+      description: 'Geometria della tavola, fascia di peso del rider, volume, obiettivi di costruzione e pacchetto accessori. Una tavola di riferimento, uno schizzo o la specifica di un concorrente bastano per iniziare.'
+      icon: 'tabler:bulb'
+    - title: '2. Ingegneria & design 3D'
+      description: 'Ingegneria strutturale, spessore del drop-stitch e selezione della classe PVC, oltre a una verifica di producibilità e un''offerta — entro un giorno lavorativo.'
+      icon: 'tabler:blueprint'
+    - title: '3. Campionatura del prototipo'
+      description: 'Il tuo primo campione fisico parte in 7–12 giorni, documentato con un modulo di approvazione per costruzione, colori di stampa e risultati del test di pressione.'
+      icon: 'tabler:tools'
+    - title: '4. Test & validazione'
+      description: 'Tenuta di pressione, resistenza delle saldature e controlli dimensionali rispetto al campione approvato, con documentazione CE e REACH per i tuoi mercati di destinazione.'
+      icon: 'tabler:test-pipe'
+    - title: '5. Attrezzature & produzione in serie'
+      description: 'Costruzione di stampi personalizzati in 15–20 giorni, se necessario; la produzione prosegue per 25–35 giorni con punti di controllo QC in linea e tracciabilità dei lotti.'
+      icon: 'tabler:settings'
+    - title: '6. Consegna & scalabilità'
+      description: 'Logistica FOB, CIF o DDP verso oltre 50 paesi — poi ordini di riassortimento sulla tua linea consolidata con tempi di consegna stabili e artwork approvato archiviato.'
+      icon: 'tabler:truck-delivery'
+
+why_inhouse:
+  title: 'Perché lo sviluppo in fabbrica batte un progetto mediato'
+  subtitle: 'Lo sviluppo direttamente nello stabilimento di produzione cambia ciò che ottieni in ogni fase.'
+  items:
+    - title: Nessun passaggio di consegne nel design
+      description: 'Il team di ingegneria e disegno lavora sullo stesso piano della linea di saldatura — una modifica al disegno entra in produzione nella stessa settimana, non dopo un giro commerciale.'
+      icon: 'tabler:handshake'
+    - title: Campioni conformi alla produzione
+      description: 'Il run di campionatura e il run di produzione condividono le stesse macchine, materiali e postazioni QC — il campione approvato è quindi esattamente ciò che ricevi a scala container.'
+      icon: 'tabler:stack-2'
+    - title: Ingegneria che non vende nulla
+      description: 'Le decisioni vengono prese rispetto a costi target, peso e durata — non rispetto a margini di ricarico, perché qui è una fabbrica e la produzione è l''unica fonte di fatturato.'
+      icon: 'tabler:scale'
+    - title: Riservatezza come impegno permanente
+      description: 'Una NDA viene firmata prima di ogni scambio di file e il tuo artwork, le tue attrezzature e i tuoi file di specifica restano di tua proprietà — mai riutilizzati, rivenduti o mostrati ad altri clienti.'
+      icon: 'tabler:lock'
+
+buyer_guides:
+  tagline: Guide all'acquisto
+  title: 'La libreria Sourcing completa'
+  subtitle: 'Ogni fase di un progetto SUP personalizzato, spiegata con i nostri tempi di consegna reali, le condizioni e i documenti.'
+  items:
+    - title: 'Private label: la guida passo passo completa'
+      body: 'Dalla scelta della fabbrica al container consegnato — il percorso completo in sei passi per i nuovi marchi.'
+      href: '/it/news/private-label-sup-guide'
+    - title: 'Come scegliere un produttore SUP OEM'
+      body: 'Le domande di audit che distinguono una vera fabbrica da un rivenditore: certificazioni, QC, campioni e proprietà.'
+      href: '/it/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'Tempi dello sviluppo prodotto SUP'
+      body: 'Campioni in 7–12 giorni, produzione in 25–35 giorni, attrezzature più 15–20 — il calendario completo, fase per fase.'
+      href: '/it/news/custom-sup-development-timeline'
+    - title: 'Informazioni da preparare prima dell''ordine'
+      body: 'I cinque dettagli con cui una fabbrica formula un''offerta corretta al primo tentativo — ed evita la rilavorazione della specifica.'
+      href: '/it/news/info-needed-before-sup-production'
+    - title: 'MOQ e prezzi SUP OEM'
+      body: 'Livelli di MOQ attraverso campione (1–2), pilota (20–50) e volume (90–100+ per rotolo da 150 m), i sei fattori di costo e cinque modi per ridurre i costi senza sacrificare la qualità.'
+      href: '/it/news/sup-oem-moq-pricing'
+    - title: 'Certificazione CE per i SUP gonfiabili'
+      body: 'Cosa copre davvero la CE, i cinque documenti da richiedere e come verificare se un certificato menziona il tuo modello.'
+      href: '/it/news/ce-certification-inflatable-sup'
+    - title: 'Spedizione: FOB vs. CIF vs. DDP'
+      body: 'Cosa copre e costa ogni Incoterm, le 4–6 settimane di transito marittimo e quale condizione si adatta alla tua attività.'
+      href: '/it/news/private-label-sup-oem-guide'
+
+faq_section:
+  tagline: FAQ
+  title: 'Domande frequenti sullo sviluppo SUP'
+  questions:
+    - q: Potete sviluppare un prodotto SUP partendo da un''idea?
+      a: 'Sì. Accompagniamo tutto il percorso dalla specifica di prodotto e dall''ingegneria, attraverso lo sviluppo del prototipo, la personalizzazione e la produzione in serie in base ai tuoi requisiti. Uno schizzo, una tavola di riferimento o persino la specifica di un concorrente bastano per la verifica ingegneristica.'
+    - q: Quanto costa lo sviluppo prodotto SUP?
+      a: 'La verifica della specifica e la valutazione ingegneristica sono gratuite e vengono restituite entro un giorno lavorativo. La campionatura del prototipo viene quotata per progetto dopo il congelamento della specifica; i prezzi di produzione dipendono dai materiali, dalla quantità e dal fatto che sia o meno necessaria un''attrezzatura propria.'
+    - q: Quanto dura lo sviluppo prodotto SUP?
+      a: 'Il primo campione parte 7–12 giorni dopo l''approvazione della specifica, con 3–7 giorni per ogni giro di revisione. La produzione prosegue per 25–35 giorni dopo l''ordine e l''acconto. Uno stampo proprio aggiunge 15–20 giorni in anticipo e il trasporto marittimo incide per 4–6 settimane sulla maggior parte delle destinazioni.'
+    - q: Cosa viene prima — campione o produzione?
+      a: 'Sempre il campione. Un prototipo fisico viene realizzato, misurato e approvato rispetto alla specifica prima che parta qualsiasi run di produzione. Non produciamo quantità da design non approvati.'
+    - q: Firmate una NDA per lo sviluppo prodotto?
+      a: 'Sì. Una NDA viene firmata prima di ogni scambio di file e i tuoi design, il tuo artwork e le tue attrezzature restano di tua proprietà durante tutto lo sviluppo e la produzione.'
+    - q: Potete proteggere il mio design e le mie specifiche SUP?
+      a: 'I design dei clienti, le specifiche e i concept di prodotto vengono trattati in modo riservato durante lo sviluppo e la produzione. I tuoi file di attrezzatura non vengono mai riutilizzati, rivenduti o mostrati ad altri clienti.'
+
+cta:
+  title: 'Avvia il tuo progetto prodotto SUP'
+  subtitle: 'Invia uno schizzo, una tavola di riferimento o una specifica — verifica ingegneristica e offerta entro un giorno lavorativo.'

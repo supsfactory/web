@@ -1,0 +1,74 @@
+meta:
+  title: 'Produzione OEM & private label | {SITE}'
+  description: 'Dal concept alla produzione: personalizzate ogni dettaglio della vostra linea di SUP gonfiabili. Servizio OEM/ODM completo per marchi di paddle board private label.'
+  dateModified: '2026-08'
+  keywords:
+    - 'produzione sup oem'
+    - 'paddle board private label'
+    - 'sup gonfiabile oem'
+    - 'fabbrica sup personalizzata'
+hero:
+  tagline: Produzione OEM/ODM
+  title: Produzione OEM & private label
+  subtitle: Dal concept alla produzione — personalizzate ogni dettaglio della vostra linea di SUP gonfiabili
+
+answer:
+  label: 'Risposta chiara'
+  text: 'Il MOQ viene confermato in base alla configurazione del progetto e non con un numero fisso: ogni progetto attraversa le fasi di campione (1–2 unità) e pilota (20–50 unità), mentre la produzione standard in serie comprende 90–100+ unità per partita da un''intera bobina drop-stitch da 150 m. I campioni sono pronti in 7–12 giorni; la produzione standard gira in 25–35 giorni dopo PO e acconto confermati.'
+  verified: 'September 2026'
+
+intro: Vatrad offre servizi OEM e ODM completi a marchi, distributori e istituzioni in tutto il mondo. Con oltre 10 anni di esperienza export e una fabbrica di 12,500 m² certificata ISO 9001 e BSCI, ci occupiamo di tutto — dal design di prodotto e lo sviluppo stampi fino alla produzione su larga scala, all''imballaggio e alla gestione dell''export.
+
+highlight:
+  - value: 10+
+    label: Anni di esperienza OEM
+    detail: Dal 2012
+  - value: 50+
+    label: Paesi di esportazione
+    detail: Copertura globale
+  - value: 200+
+    label: Progetti personalizzati consegnati
+    detail: Su tutte le linee di prodotto
+  - value: 25–35
+    label: Tempo di consegna standard (giorni)
+    detail: Dopo PO e acconto confermati
+
+services:
+  - title: Design di prodotto & costruzione
+    description: Il nostro team R&S interno lavora sul vostro concept o specifica per sviluppare disegni CAD, modelli 3D e prototipi. Offriamo design di stampi, ottimizzazione della forma dello scafo e consulenza sulla scelta dei materiali.
+  - title: Branding & grafiche personalizzate
+    description: Stampa digitale a pieni colori, serigrafia, goffratura e opzioni di etichette. Sviluppiamo grafiche del deck specifiche del marchio, branding delle camere e imballaggio pronto per il retail.
+  - title: Personalizzazione di materiali & specifiche
+    description: Scegliete tra PVC (standard, eco-friendly, ignifugo), Hypalon/CSM, drop-stitch e costruzioni ibride. Colori delle camere personalizzati, grammature del tessuto e opzioni di rinforzo.
+  - title: Imballaggio & logistica
+    description: Imballaggio commerciale personalizzato, cartoni private label, imballaggio sottovuoto, pallettizzazione e stivaggio pronto per l''export preparati in-house.
+
+moq_table:
+  - product: SUP gonfiabili
+    standard_moq: 'Campione 1–2 | Pilota 20–50'
+    custom_moq: 'Quantità 90–100+ (per bobina da 150 m)'
+    lead_time: 25–35 giorni
+
+why_us:
+  - title: Integrazione verticale
+    description: Possediamo la nostra fabbrica, i nostri stampi e la nostra catena di fornitura — nessun intermediario, nessun subappaltatore. Questo ci dà il controllo su qualità, costi e consegna.
+  - title: Doppia certificazione
+    description: Gestione qualità ISO 9001 e certificazione di conformità sociale BSCI. Rapporti di audit della fabbrica disponibili su richiesta.
+  - title: Conformità CE
+    description: La certificazione CE si applica ai modelli destinati ai mercati UE (ambito confermato per progetto). I modelli personalizzati possono essere certificati CE tramite il nostro processo consolidato.
+  - title: MOQ specifico per progetto
+    description: 'Il MOQ viene confermato dalla vostra configurazione di progetto — il co-branding in piccoli lotti parte da 5–10 unità, la produzione standard in serie gira con 90–100+ unità per partita. Aiutiamo i nuovi marchi a partire senza sovra-impegni di inventario.'
+
+cta:
+  title: 'Mettete il vostro marchio su una tavola collaudata'
+  subtitle: 'Dalla verifica della specifica al container spedito — inviate oggi il vostro brief e riceverete un''offerta OEM dettagliata entro un giorno lavorativo. Verificate la fabbrica e il suo sistema qualità prima di impegnarvi.'
+  actions:
+    - variant: primary
+      text: Richiedi un''offerta OEM
+      href: /contact#custom-oem
+    - text: Verifica fabbrica & sistema qualità
+      href: /oem-trust-assurance
+    - text: Il sistema di ispezione in 7 fasi
+      href: /quality
+    - text: Guarda la linea di produzione
+      href: /factory/process

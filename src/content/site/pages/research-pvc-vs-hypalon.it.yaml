@@ -1,0 +1,81 @@
+meta:
+  title: 'PVC vs Hypalon — Tessuti per tavole SUP gonfiabili | {SITE}'
+  description: 'PVC vs Hypalon per la costruzione di tavole SUP gonfiabili: resistenza UV, durata, riparabilità, peso, costi e quale tessuto usano davvero le tavole SUP.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Torna alla Ricerca'
+
+hero:
+  tagline: 'Materiali'
+  title: 'PVC vs Hypalon — Guida ai materiali per tavole SUP gonfiabili'
+  subtitle: 'Lettura 10 min'
+
+answer:
+  label: 'Risposta breve'
+  text: 'Per le tavole SUP vince il PVC per costi, peso, stampabilità e automazione saldabile a radiofrequenza (RF) — un PVC marino a triplo strato in 1 680 DTEX con stabilizzatori UV è lo standard del settore. L''Hypalon/CSM resiste più a lungo a luce solare e agenti chimici, ma costa circa 3&ndash;5&times; in più, è più pesante e viene incollato a mano, motivo per cui oggi è usato raramente sulle SUP.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Panoramica dei materiali</h2>
+
+  <h3>PVC (polivinilcloruro)</h3>
+  <p>Il PVC è il tessuto standard per le tavole SUP gonfiabili. Per la costruzione delle tavole viene in genere rinforzato con una trama in poliestere (1 100 – 1 680 DTEX), rivestito su entrambi i lati e poi saldato attorno a un nucleo drop-stitch. Le moderne formulazioni di PVC marino includono stabilizzatori UV e plastificanti per migliorare flessibilità e resistenza agli agenti atmosferici; le tavole così costruite sopportano pressioni di esercizio di 12 – 15 PSI.</p>
+
+  <h3>Hypalon (CSM – polietilene clorosolfonato)</h3>
+  <p>L'Hypalon è un composto di gomma sintetica (oggi prodotto genericamente come CSM da quando DuPont ha abbandonato il marchio Hypalon). È noto per la sua eccezionale resistenza a UV e ozono ed è considerato il tessuto preferito per i tubolari di imbarcazioni professionali e commerciali esposti a lungo alla luce solare diretta. Sulle tavole SUP l'Hypalon viene usato raramente — le tavole richiedono deck ad alta pressione e dimensionalmente stabili, che le costruzioni in PVC drop-stitch offrono a una frazione del peso.</p>
+
+  <h2>Confronto diretto</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Proprietà</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">PVC</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Hypalon (CSM)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Resistenza UV</td><td class="p-3 border">Buona (con stabilizzatori)</td><td class="p-3 border">Eccellente (intrinseca)</td></tr>
+      <tr><td class="p-3 border font-medium">Resistenza all'abrasione</td><td class="p-3 border">Buona</td><td class="p-3 border">Molto buona</td></tr>
+      <tr><td class="p-3 border font-medium">Resistenza alla trazione</td><td class="p-3 border">3 000 – 5 000 N/5cm</td><td class="p-3 border">2 500 – 4 000 N/5cm</td></tr>
+      <tr><td class="p-3 border font-medium">Peso (per m&sup2;)</td><td class="p-3 border">850 – 1 200 g</td><td class="p-3 border">1 100 – 1 500 g</td></tr>
+      <tr><td class="p-3 border font-medium">Flessibilità a freddo (basse temperature)</td><td class="p-3 border">-30&deg;C</td><td class="p-3 border">-20&deg;C</td></tr>
+      <tr><td class="p-3 border font-medium">Riparabilità</td><td class="p-3 border">Facile (termosaldatura o colla)</td><td class="p-3 border">Richiede adesivo CSM specifico</td></tr>
+      <tr><td class="p-3 border font-medium">Metodo di unione</td><td class="p-3 border">Saldatura RF, saldatura ad aria calda</td><td class="p-3 border">Incollaggio a mano (adesivo a contatto)</td></tr>
+      <tr><td class="p-3 border font-medium">Costo (materiale)</td><td class="p-3 border">$8 – $15 / m&sup2;</td><td class="p-3 border">$20 – $40 / m&sup2;</td></tr>
+      <tr><td class="p-3 border font-medium">Durata di vita (sole tropicale)</td><td class="p-3 border">5 – 8 anni</td><td class="p-3 border">10 – 15 anni</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Cosa scegliere?</h2>
+
+  <h3>Scegliere il PVC quando:</h3>
+  <ul>
+    <li>Costruite tavole SUP gonfiabili (PVC + drop-stitch è lo standard del settore)</li>
+    <li>Il peso della tavola conta — il PVC è più leggero del 15 – 25 %</li>
+    <li>Servono flessibilità a freddo al di sotto di -20&deg;C</li>
+    <li>Desiderate una gamma più ampia di opzioni di colore e finitura</li>
+    <li>Serve un'alta pressione di esercizio (12 – 15 PSI) per un deck rigido e stabile</li>
+  </ul>
+
+  <h3>Scegliere l'Hypalon quando:</h3>
+  <ul>
+    <li>Il prodotto resta all'ancora o in deposito in pieno sole per anni</li>
+    <li>Siete in un ambiente tropicale o con forti UV senza possibilità di deposito</li>
+    <li>Durata e longevità massime contano più di peso e costo</li>
+    <li>Costruite imbarcazioni professionali o commerciali come i tubolari</li>
+    <li>L'abrasione da sabbia, cemento o pontili è una preoccupazione principale</li>
+  </ul>
+
+  <h2>Differenze di produzione</h2>
+  <p>Le tavole in PVC vengono realizzate mediante saldatura RF (radiofrequenza) o ad aria calda, creando un legame molecolare tra gli strati di tessuto rivestito. Questo consente una produzione automatizzata, coerente e ad alta resa, con una resistenza precisa delle cuciture sulle tavole ad alta pressione. L'Hypalon viene assemblato tramite incollaggio a mano con adesivo a contatto; ogni cucitura viene rullata e pressata manualmente, rendendo la produzione in Hypalon più intensiva in termini di manodopera e adatta alla costruzione di tubolari a bassa pressione.</p>
+
+  <h2>Raccomandazione di Vatrad</h2>
+  <p>Per le tavole SUP gonfiabili, il moderno PVC di alta qualità con stabilizzatori UV offre il miglior equilibrio tra costi, peso, prestazioni e durata. Vatrad costruisce ogni SUP con PVC marino in 1 680 DTEX, rivestimento a triplo strato e nucleo drop-stitch dimensionato per 15 PSI — con ogni lotto di tessuto testato in modo indipendente nel nostro laboratorio tessuti PVC prima della produzione. L'Hypalon resta disponibile su richiesta per imbarcazioni commerciali e applicazioni speciali, prodotto separatamente tramite la nostra linea marina commerciale.</p>
+  <p>La scelta del materiale determina costi, peso e durata della vostra gamma — indicateci il vostro mercato di riferimento e <a href="/it/oem-manufacturing">specificheremo il tessuto giusto per il vostro progetto OEM</a>, testato nel nostro <a href="/it/randdcenter/quality-inspection-lab">laboratorio di prova dei materiali</a>.</p>
+
+cta:
+  title: 'Avete bisogno di aiuto per la scelta dei materiali?'
+  subtitle: 'Il nostro team può consigliarvi su PVC vs Hypalon per la vostra applicazione specifica.'
+  button_text: 'Consulta i nostri esperti'
+  button_link: /it/contact

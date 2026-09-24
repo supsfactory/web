@@ -1,0 +1,99 @@
+meta:
+  title: 'Centro di saldatura HF — Giunzione dielettrica delle cuciture per SUP | {SITE}'
+  description: 'Tecnologia di saldatura a radiofrequenza per cuciture di tavole SUP ermetiche e conformi. Test di peeling, verifica di tenuta all''aria e tolleranze di cucitura personalizzate.'
+  dateModified: '2026-08'
+back_text: 'Torna al centro R&S'
+home_label: 'Home'
+
+answer:
+  label: 'Risposta breve'
+  text: 'Utilizziamo presse HF dielettriche da 15 kW che uniscono molecolarmente le cuciture in PVC (equivalente a 200–600 °C di aria calda) e validiamo ogni saldatura: test di peeling secondo ASTM D751, tenuta dell''aria a 18.0 PSI, con cuciture documentate e tracciabili per singola unità.'
+  verified: 'Settembre 2026'
+
+hero:
+  tagline: 'Laboratorio 03'
+  title: 'Centro di saldatura HF'
+  subtitle: 'Tecnologia di giunzione dielettrica per cuciture che tengono sotto pressione'
+  image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Saldatura HF Vatrad, processo di giunzione dielettrica'
+
+intro: 'Una tavola SUP gonfiabile è affidabile solo quanto le sue cuciture. Una singola saldatura debole può mettere a rischio un''intera camera — e sotto i piedi un cedimento della camera non è un fastidio, ma un rischio per la sicurezza. In {SITE.name} abbiamo investito in un centro di saldatura a radiofrequenza (HF) dedicato, che combina presse industriali per saldatura dielettrica con un rigoroso controllo di processo e prove dopo la saldatura. Ogni cucitura che produciamo è documentata, tracciabile e certificata per soddisfare o superare i requisiti della norma internazionale per le imbarcazioni gonfiabili.'
+
+content_html: |
+  <h2>La scienza dietro la cucitura</h2>
+  <p>La saldatura HF utilizza energia elettromagnetica ad alta frequenza (tipicamente 27.12 MHz) per eccitare le molecole polari nel tessuto rivestito in PVC e generare calore con precisione all'interfaccia del materiale. A differenza della saldatura ad aria calda o a cuneo, la saldatura HF crea un vero legame molecolare: i due strati di tessuto si fondono in un unico materiale omogeneo nella zona di saldatura, formando così una connessione forte quanto il materiale di partenza stesso.</p>
+
+  <h2>Attrezzature di saldatura e controllo di processo</h2>
+  <p>Il nostro centro di saldatura è dotato di:</p>
+  <table>
+    <thead><tr><th>Macchina</th><th>Potenza / Capacità</th><th>Applicazione</th></tr></thead>
+    <tbody>
+      <tr><td>Pressa HF dielettrica 1</td><td>15 kW, piastra 2000 × 600 mm</td><td>Cuciture principali della tavola, giunzioni railband-deck</td></tr>
+      <tr><td>Pressa HF dielettrica 2</td><td>10 kW, piastra 1500 × 500 mm</td><td>Saldature del cono di prua, patch per maniglia, patch per valvola</td></tr>
+      <tr><td>Saldatrice HF a controllo CNC</td><td>8 kW, tavola XY 2500 × 1200 mm</td><td>Cuciture di rail curve, goffrature logo/pannelli, interventi di precisione</td></tr>
+      <tr><td>Saldatrice automatica a cuneo caldo</td><td>Temperatura variabile, max 1.2 m/min</td><td>Processo di riserva per materiali CSM speciali</td></tr>
+    </tbody>
+  </table>
+  <p>Ogni pressa HF dispone di un monitoraggio chiuso di temperatura e pressione. I parametri di saldatura — potenza, tempo di pressatura, tempo di raffreddamento, pressione degli elettrodi — vengono programmati per ciascun tipo di materiale e registrati nel nostro Manufacturing Execution System (MES) per una completa tracciabilità.</p>
+
+  <h2>Test di qualità della saldatura — ogni cucitura, ogni tavola</h2>
+  <p>L'integrità della cucitura viene verificata tramite un protocollo obbligatorio di quattro test:</p>
+  <ol>
+    <li><strong>Ispezione visiva</strong> — il 100 % delle cuciture viene controllato per bruciature, disallineamenti, contaminazioni o fusione incompleta. Limite di scarto: 0.5 % dei metri lineari.</li>
+    <li><strong>Test di peeling</strong> — una striscia larga 25 mm viene tagliata da un campione saldato con ogni lotto di produzione. Forza di distacco minima: 120 N/25 mm per PVC 1100 dtex.</li>
+    <li><strong>Test di tenuta all'aria</strong> — ogni tavola finita viene gonfiata a 18.0 PSI e mantenuta per 24 ore. La caduta di pressione non può superare 0.50 PSI.</li>
+    <li><strong>Test di escursione termica</strong> — i campioni vengono esposti a 50 cicli da -20 °C a +60 °C e poi sottoposti nuovamente a peeling. Perdita di resistenza consentita: &lt; 10 %.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Confronto della forza di peeling — saldatura HF vs ad aria calda (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Saldatura HF</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Aria calda</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Minimo normativo</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">La saldatura HF raggiunge costantemente il 90-95 % della resistenza del materiale di partenza — nettamente oltre il minimo.</p>
+  </div>
+
+  <h2>Competenza professionale</h2>
+  <p>Il nostro team di saldatura è guidato da un ingegnere di processo senior con 11 anni di esperienza nella saldatura dielettrica di tessuti rivestiti. Ogni operatore completa un programma interno di certificazione di 6 mesi prima di poter lavorare su cuciture di produzione. La ricertificazione è richiesta annualmente, incluso un test pratico di saldatura valutato secondo il nostro standard interno Grade-A (forza di peeling ≥ 160 N/25 mm).</p>
+
+  <h2>Soluzioni di saldatura personalizzate per requisiti speciali</h2>
+  <p>Sappiamo che una specifica di saldatura non si adatta a ogni applicazione. Il nostro centro di saldatura HF sviluppa regolarmente configurazioni di cucitura personalizzate per clienti con requisiti speciali:</p>
+  <ul>
+    <li><strong>Patch di rinforzo multistrato</strong> — per le aree ad alta sollecitazione come le railband e le punte di prua sviluppiamo saldature HF multistrato che integrano uno strato esterno resistente all'usura, senza compromettere la flessibilità.</li>
+    <li><strong>Cuciture per tavole ad alta pressione</strong> — per tavole con pressione nominale superiore a 15 PSI validiamo la geometria di saldatura a pressione di esercizio elevata e documentiamo il limite nel rapporto di prova.</li>
+    <li><strong>Saldatura di pannelli a cambio colore</strong> — i pannelli di tessuto bicolore (es. deck grigio + rail grigio) vengono saldati con sovrapposizione nascosta per preservare l'estetica del marchio senza una linea di cucitura visibile.</li>
+  </ul>
+
+  <h2>La nostra promessa a voi</h2>
+  <p>Ogni tavola che consegniamo è coperta dalla nostra garanzia di qualità della cucitura: se una cucitura si guasta durante il periodo di garanzia con uso normale, ripareremo o sostituiremo gratuitamente la camera interessata e verrà condotta un'analisi della causa per prevenire il ripetersi. Non è semplicemente una garanzia — è un impegno al miglioramento continuo basato su dati operativi reali.</p>
+  <p>Quando scegliete {SITE.name}, scegliete cuciture progettate, testate e documentate — non solo saldate. È la differenza tra una tavola che galleggia e una tavola che funziona.</p>
+
+cta:
+  title: 'Discuti le tue esigenze di saldatura'
+  subtitle: 'Tolleranze di cucitura personalizzate, compatibilità dei materiali o validazione di processo.'
+  actions:
+    - variant: primary
+      text: Contatta il team di saldatura
+      href: /it/contact#project-brief
+    - text: Torna al centro R&S
+      href: /it/randdcenter

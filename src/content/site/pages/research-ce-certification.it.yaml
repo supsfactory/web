@@ -1,0 +1,69 @@
+meta:
+  title: 'Come funziona la certificazione CE per le tavole SUP gonfiabili'
+  description: 'Come funziona la certificazione CE per SUP, imbarcazioni e kayak gonfiabili: direttive (2013/53/UE RCD, DPI 2016/425), prove, organismi notificati e documentazione tecnica.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Torna a Research'
+
+hero:
+  tagline: 'Conformità'
+  title: 'Come funziona la certificazione CE per SUP & kayak gonfiabili'
+  subtitle: '7 min di lettura'
+
+answer:
+  label: 'Risposta breve'
+  text: 'I SUP gonfiabili rientrano nella direttiva UE sulle imbarcazioni da diporto 2013/53/UE se hanno una lunghezza dello scafo superiore a 2.5 m, oppure nella direttiva sulla sicurezza generale dei prodotti se sono più piccoli. Per un primo prodotto la certificazione costa circa 13,000&ndash;31,000 EUR e richiede 8&ndash;14 settimane: documentazione tecnica, esame di tipo presso un organismo notificato, audit di fabbrica e successivamente una dichiarazione di conformità.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Cos'è la certificazione CE?</h2>
+  <p>La marcatura CE (Conformit&eacute; Europ&eacute;enne) indica che un prodotto soddisfa i requisiti di salute, sicurezza e ambiente dell'UE. Per le imbarcazioni gonfiabili, il quadro normativo applicabile dipende dalla categoria di prodotto.</p>
+
+  <h2>Direttive applicabili</h2>
+
+  <h3>Direttiva sulle imbarcazioni da diporto (2013/53/UE)</h3>
+  <p>La direttiva più importante per la maggior parte di imbarcazioni gonfiabili, SUP e kayak. Si applica ai mezzi sportivi con lunghezza dello scafo da 2.5 m a 24 m, alle imbarcazioni in costruzione incompleta (per la fornitura OEM) e alle moto d'acqua.</p>
+
+  <h3>Regolamento sui dispositivi di protezione individuale (2016/425)</h3>
+  <p>I giubbotti di salvataggio, i dispositivi di galleggiamento e le attrezzature di sicurezza fornite con le imbarcazioni devono soddisfare i requisiti del regolamento DPI, inclusi l'esame di tipo (modulo B) presso un organismo notificato e la garanzia di qualità della produzione (modulo D o E).</p>
+
+  <h2>Il processo di certificazione</h2>
+  <ol>
+    <li>Classificazione del prodotto: determinare la categoria di progettazione dell'imbarcazione (A – D secondo ISO 8666)</li>
+    <li>Norme applicabili: EN ISO 6185 (parti 1 – 4), EN ISO 10087 (HIN), EN ISO 14945 (targa del costruttore)</li>
+    <li>Redazione della documentazione tecnica: disegni costruttivi, distinta base, certificati dei materiali, valutazione dei rischi</li>
+    <li>Esame di tipo: galleggiabilità, stabilità, capacità di carico, prove sui materiali, resistenza delle cuciture, tenuta d'aria</li>
+    <li>Controllo di produzione in fabbrica: audit dei processi produttivi da parte di un organismo notificato</li>
+    <li>Dichiarazione di conformità: il produttore firma la DoC e appone la marcatura CE</li>
+  </ol>
+
+  <h2>Organismi notificati per le imbarcazioni gonfiabili</h2>
+  <p>Gli organismi notificati comuni sono Bureau Veritas (Francia), DNV GL (Germania), RINA (Italia), T&Uuml;V Rheinland / T&Uuml;V S&Uuml;D (Germania).</p>
+
+  <h2>Tempi e costi</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Fase</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Durata</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Costi tipici (EUR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Redazione della documentazione tecnica</td><td class="p-3 border">2 – 4 settimane</td><td class="p-3 border">2,000 – 5,000</td></tr>
+      <tr><td class="p-3 border">Esame di tipo</td><td class="p-3 border">4 – 8 settimane</td><td class="p-3 border">8,000 – 20,000</td></tr>
+      <tr><td class="p-3 border">Audit di fabbrica</td><td class="p-3 border">1 – 2 giorni (in loco)</td><td class="p-3 border">3,000 – 6,000</td></tr>
+      <tr><td class="p-3 border">Totale (primo prodotto)</td><td class="p-3 border">8 – 14 settimane</td><td class="p-3 border">13,000 – 31,000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Cosa significa per gli acquirenti</h2>
+  <p>Quando acquisti tavole gonfiabili certificate CE, verifica sempre che la marcatura CE sia presente sulla targa del costruttore, che sia disponibile una DoC valida, che sia indicato il numero dell'organismo notificato e che il manuale d'uso contenga le avvertenze di sicurezza nella tua lingua. Tutti i prodotti Vatrad sono certificati CE con piena rintracciabilità rispetto ai rapporti di audit degli organismi notificati.</p>
+  <p>La certificazione fa parte di ogni ciclo produttivo presso il nostro stabilimento di Qingdao — consulta il <a href="/it/factory">flusso di fabbrica per qualità &amp; collaudi</a> e come supportiamo <a href="/it/oem-manufacturing">la conformità CE per i partner OEM/private label</a>.</p>
+
+cta:
+  title: 'Ti serve supporto per la certificazione CE?'
+  subtitle: 'Gestiamo la certificazione per i partner OEM in tutto il mondo.'
+  button_text: 'Avvia il processo di certificazione'
+  button_link: /it/contact

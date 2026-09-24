@@ -515,6 +515,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  it: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Come vengono sviluppati i SUP personalizzati',
+      metaTitle: 'Come vengono sviluppati i SUP personalizzati | SUPsfactory',
+      metaDescription:
+        "Come un SUP personalizzato passa dall\u2019idea alla fabbrica: specifiche, design, prototipazione, campioni e produzione — spiegato passo dopo passo.",
+      kicker: 'Conoscenza',
+      h1: 'Come vengono sviluppati i SUP personalizzati',
+      intro:
+        'Prima che un paddleboard personalizzato venga spedito ai tuoi clienti, percorre un percorso di sviluppo ben definito. Conoscere ogni fase ti consente di impostare correttamente la richiesta in fabbrica, fissare tempi realistici ed evitare gli errori classici di chi acquista per la prima volta.',
+      sections: [
+        {
+          title: 'Fase 1: definire il fabbisogno',
+          body: [
+            "Ogni progetto di sviluppo inizia dal caso d\u2019uso: chi usa la tavola, dove e con quale frequenza. Una tavola per una flotta di noleggio è diversa da una tavola per un lancio di marca o per una scuola: stabilità, durata e obiettivi di costo cambiano tutti in base alla risposta.",
+            'Annota quantità, prezzo obiettivo e caratteristiche imprescindibili prima di contattare una fabbrica. Requisiti chiari producono preventivi migliori già al primo giro e meno andirivieni.',
+          ],
+        },
+        {
+          title: 'Fase 2: fissare le specifiche',
+          body: [
+            'Le specifiche trasformano i requisiti in valori misurabili: lunghezza, larghezza, spessore, volume, materiali (densità del drop-stitch, grammatura del tessuto), configurazione delle pinne, limite di peso e imballo.',
+            'È il documento sulla base del quale entrambe le parti calcolano i costi. Le modifiche in un secondo momento sono più lente e più costose: una specifica congelata è lo strumento più economico che puoi controllare.',
+          ],
+        },
+        {
+          title: 'Fase 3: design e grafiche',
+          body: [
+            'A specifiche fissate, inizia il lavoro di design: regolazioni della forma, combinazioni di colori, posizionamento del logo, grafiche del deck pad e accessori coordinati (leash, pagaia, pinna, borsa).',
+            "I produttori possono realizzare mockup digitali per farti approvare l\u2019aspetto prima di produrre un qualsiasi campione fisico: più economico e più rapido che iterare sull\u2019hardware.",
+          ],
+        },
+        {
+          title: 'Fase 4: prototipo e campione',
+          body: [
+            'Il campione è la prima prova fisica. Per le tavole gonfiabili significa una tavola realizzata a mano o proveniente da una produzione pilota, che puoi provare e testare rispetto alle specifiche.',
+            'Testa il campione come farebbe il tuo utente finale: stabilità, rigidità, tenuta di rotta, peso e resa delle grafiche. Un ciclo di campionamento approfondito di norma individua la maggior parte dei problemi prima della produzione.',
+          ],
+        },
+        {
+          title: 'Fase 5: produzione e consegna',
+          body: [
+            "Dopo l\u2019approvazione del campione, la produzione procede a lotti con checkpoint di controllo qualità. L\u2019ispezione in fabbrica prima della spedizione — foto, video o ispezione di terze parti — protegge il lotto che ricevi.",
+            "Un buon piano di progetto si calcola a ritroso dalla data di lancio, non in avanti dalla data dell\u2019ordine.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'La costruzione dei SUP gonfiabili, spiegata',
+      metaTitle: 'Costruzione dei SUP gonfiabili: materiali e strati | SUPsfactory',
+      metaDescription:
+        'Di cosa è fatto un SUP gonfiabile — strati di PVC, tessuto drop-stitch, rails e indicatori di qualità — per specificare tavole migliori per il tuo progetto.',
+      kicker: 'Conoscenza',
+      h1: 'La costruzione dei SUP gonfiabili, spiegata',
+      intro:
+        'La maggior parte dei progetti SUP personalizzati di oggi sono tavole gonfiabili. Sono più leggere, più facili da immagazzinare e spedire e più indulgenti con i principianti. Questa guida spiega la costruzione, così puoi specificare la qualità con sicurezza.',
+      sections: [
+        {
+          title: 'Il cuore: il tessuto drop-stitch',
+          body: [
+            'Una tavola gonfiabile è costruita attorno a un tessuto drop-stitch: migliaia di fili di poliestere collegano lo strato di PVC superiore e quello inferiore. Quando è gonfiata, questi fili mantengono la tavola a uno spessore fisso — è ciò che dà a un iSUP forma e rigidità.',
+            'Una densità di fili più elevata (punti per pollice quadrato) significa una tavola più rigida e stabile a parità di pressione. Le tavole economiche usano densità inferiori; quelle premium, densità superiori.',
+          ],
+        },
+        {
+          title: 'Strati di PVC e rails',
+          body: [
+            'Il tessuto è interposto tra strati di PVC, che lo proteggono da abrasioni, raggi UV e urti. Un PVC più pesante (più mils o mm) resiste meglio alle forature ma aumenta il peso.',
+            "I rails — i bordi della tavola — assorbono il maggior numero di urti nell\u2019uso quotidiano. Una costruzione dei rails a doppio o triplo strato è un forte indicatore di durata e idoneità al noleggio.",
+          ],
+        },
+        {
+          title: 'Cosa aggiunge peso — e cosa aggiunge resistenza',
+          body: [
+            'Il peso è un compromesso: un PVC più spesso aumenta durata e peso; le stratificazioni più leggere si adattano ai rider che trasportano le tavole per lunghe distanze. È uno dei punti in cui una specifica personalizzata viene calibrata sulla realtà del compratore.',
+            'Indicatori di qualità da richiedere: pressione di gonfiaggio nominale, costruzione delle cuciture, tipo di valvola e densità del drop-stitch. Le fabbriche serie pubblicano questi numeri.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: "Come le organizzazioni scelgono l\u2019attrezzatura SUP",
+      metaTitle: "Come resort, club e scuole scelgono l\u2019attrezzatura SUP",
+      metaDescription:
+        "Come resort, club e scuole scelgono l\u2019attrezzatura SUP: dimensionamento della flotta, tipi di tavola, durata, stoccaggio e budget per un programma che duri nel tempo.",
+      kicker: 'Conoscenza',
+      h1: "Come le organizzazioni scelgono l\u2019attrezzatura SUP",
+      intro:
+        "Resort, club e scuole acquistano in modo diverso dai marchi di consumo: l\u2019attrezzatura deve reggere l\u2019uso quotidiano, servire diversi livelli di abilità e rientrare nel budget del programma. Questo quadro copre le decisioni che contano.",
+      sections: [
+        {
+          title: "Dimensionare la flotta in base all\u2019utilizzo",
+          body: [
+            "Conta quanti rider saranno sull\u2019acqua contemporaneamente, non quanti ospiti hai. Un resort che noleggia a rotazione ha bisogno di meno tavole di una scuola con corsi simultanei — e di più ricambi.",
+            'Una buona regola pratica: una tavola per ogni rider simultaneo, più una riserva del 10–15 % per manutenzione e crescita.',
+          ],
+        },
+        {
+          title: 'Abbinare i tipi di tavola ai livelli di abilità',
+          body: [
+            'I principianti traggono beneficio da tavole più larghe e voluminose che risultano stabili; i rider esperti preferiscono tavole più strette che pagaiano più velocemente. Una flotta mista — prevalentemente adatta ai principianti con alcune tavole performance — copre la maggior parte dei programmi.',
+            'Le tavole multiposto hanno il loro posto nelle scuole e nelle esperienze di gruppo: consentono agli istruttori di insegnare e possono sostituire più tavole singole nelle rotazioni dei corsi.',
+          ],
+        },
+        {
+          title: 'La durata è una decisione di budget',
+          body: [
+            "Una costruzione adatta al noleggio costa di più all\u2019inizio e fa risparmiare nel corso di due o tre stagioni. Chiedi informazioni sul rinforzo dei rails, sullo spessore del PVC e sulla garanzia che la fabbrica offre per gli ordini di flotta.",
+            'Prevedi anche stoccaggio e gonfiaggio: compressori, cavalletti e routine di imballaggio determinano il carico di lavoro quotidiano del programma. I fornitori orientati alle flotte includono tutto questo nel pacchetto.',
+          ],
+        },
+        {
+          title: "Pianificare il programma, non solo l\u2019ordine",
+          body: [
+            "I migliori ordini di attrezzatura fanno parte di un piano di programma: formazione degli istruttori, routine di manutenzione e un ciclo di sostituzione per le tavole usurate. Le organizzazioni che pianificano il programma rinnovano l\u2019attrezzatura secondo scadenze prestabilite; le altre comprano sostituzioni di emergenza a prezzo pieno.",
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -551,5 +675,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       'Praktische Leitfäden zur Entwicklung individueller SUP-Produkte, zur Konstruktion aufblasbarer Boards und zur Auswahl von SUP-Ausrüstung für Resorts, Clubs und Schulen.',
     h1: 'Wissenszentrum — Produktentwicklung, erklärt',
+  },
+  it: {
+    metaTitle: 'Centro di conoscenza: guide allo sviluppo di prodotti SUP | SUPsfactory',
+    metaDescription:
+      "Guide pratiche sullo sviluppo di prodotti SUP personalizzati, sulla costruzione delle tavole gonfiabili e sulla scelta dell\u2019attrezzatura SUP per resort, club e scuole.",
+    h1: 'Centro di conoscenza — sviluppo di prodotto, spiegato',
   },
 }

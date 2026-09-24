@@ -1,0 +1,242 @@
+meta:
+  title: 'Controllo dei SUP non conformi & rilavorazione | Fabbrica OEM | SUPsfactory'
+  description: 'Controllo dei prodotti non conformi (ISO 9001:2015 sezione 8.7): blocco NCR, rilavorazione controllata secondo SRI, nuova verifica indipendente e distruzione accompagnata.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'controllo prodotti non conformi'
+    - 'processo rilavorazione re-ispezione sup'
+    - 'output non conformi iso 9001'
+    - 'controllo ncr produzione'
+    - 'certificato distruzione scarti sup'
+    - 'controllo qualità oem sup gonfiabili'
+
+hero:
+  tagline: Controllo dei prodotti non conformi
+  title: Processo di separazione, rilavorazione & nuova verifica dei prodotti non conformi
+  subtitle: 'Presso QINGDAO VATRAD GROUP.,LTD. una tavola non conforme non viene mai fatta procedere. Ogni prodotto o componente che manca i criteri di accettazione definiti viene identificato, registrato contro un Non-Conformance Report (NCR), marcato e separato, valutato per l''ambito interessato e disposto al giusto livello di autorità. La rilavorazione consentita segue istruzioni controllate, gli articoli corretti vengono nuovamente verificati contro i criteri di accettazione originali — inclusa la nuova prova completa ove richiesta — e il prodotto viene spedito solo dopo il rilascio qualità autorizzato. Questa pagina presenta il nostro standard controllato sotto ISO 9001:2015 sezione 8.7 e le evidenze di rintracciabilità alla base.'
+  actions:
+    - text: Scaricare la SOP di controllo NCP (PDF)
+      variant: primary
+      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Scaricare il certificato di scarto & distruzione (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: Richiedere un controllo qualità
+      href: /contact
+
+answer:
+  label: 'Risposta chiara'
+  text: 'I prodotti non conformi non vengono mai nascosti, rilavorati informalmente o rilasciati senza verifica presso QINGDAO VATRAD GROUP.,LTD. Ogni non conformità identificata viene registrata contro il prodotto, la partita o il componente interessato e collegata a un NCR. L''articolo viene marcato (HOLD / QUARANTINE / REJECTED), fisicamente separato e l''ambito interessato viene valutato per partita, lotto di materiale, fase di processo e revisione documentale. La disposizione viene decisa al livello di autorità corrispondente alla gravità del difetto: i problemi lievi vengono firmati a livello di linea, i problemi gravi richiedono una disposizione di QC Manager + Ingegnere tecnico con istruzione di rilavorazione controllata e nuova verifica indipendente al 100%, e i problemi critici richiedono una decisione del Material Review Board con consenso scritto del cliente ove richiesto — altrimenti distruzione accompagnata obbligatoria. Gli articoli rilavorati vengono nuovamente verificati contro i criteri di accettazione originali, le riparazioni di tenuta all''aria ricevono un ciclo completo di nuovo test di pressione e il rilascio in spedizione avviene solo dopo la qualifica qualità autorizzata. I problemi ricorrenti o sistemici attivano analisi delle cause e azioni correttive (CAPA).'
+  verified: 'September 2026'
+
+stats:
+  tagline: In sintesi
+  title: Il controllo di non conformità in cifre
+  stats:
+    - value: '7'
+      label: Fasi dall''identificazione all''azione correttiva
+    - value: '100%'
+      label: Nuova verifica di ogni tavola rilavorata da parte di QA indipendente
+    - value: '24h'
+      label: Nuovo test di pressione completo per le riparazioni di tenuta all''aria
+    - value: '≥ 5 yr'
+      label: Conservazione delle evidenze di scarto accompagnato (SHA-256-vault)
+
+nc_intro:
+  tagline: Controllo dei prodotti non conformi
+  title: Cosa succede quando un prodotto non soddisfa i criteri
+  body: |
+    I prodotti o componenti che non soddisfano i criteri di accettazione definiti vengono identificati e controllati per prevenire l''uso involontario, l''ulteriore lavorazione o la spedizione. I criteri di accettazione applicabili si basano sul campione rilasciato, sulla specifica tecnica, sulla grafica, sulla distinta base, sui requisiti di imballaggio e sul piano di ispezione di progetto.
+
+    Gli articoli non conformi vengono valutati per determinare l''ambito interessato e la disposizione appropriata. A seconda del problema, l''articolo può essere trattenuto, rilavorato sotto istruzioni controllate, sostituito, respinto o gestito tramite un processo rilasciato. Gli articoli rilavorati o corretti vengono nuovamente ispezionati prima del rilascio. Il rilascio in spedizione è consentito solo dopo il completamento delle registrazioni di qualità pertinenti e la conformità del prodotto ai criteri di accettazione applicabili.
+
+nc_flow:
+  tagline: Ciclo chiuso standard in 7 fasi
+  title: Dall''identificazione all''azione correttiva
+  subtitle: 'Un ciclo controllato per ogni non conformità: identificare, bloccare, verificare, rilavorare o sostituire, ricontrollare, rilasciare o respingere, migliorare.'
+  steps:
+    - step: '01'
+      title: Identificare
+      desc: 'Ogni non conformità identificata viene registrata contro il prodotto, la partita o il componente interessato e valutata contro i requisiti applicabili del progetto. Il rilevamento può avvenire all''ingresso merci, nel controllo di processo, nell''ispezione finale, nell''imballaggio o nell''ispezione del cliente/di terze parti.'
+    - step: '02'
+      title: Bloccare
+      desc: 'Gli articoli vengono chiaramente identificati e posti sotto stato di blocco o quarantena controllata per prevenire uso, ulteriore lavorazione o spedizione involontari. Le etichette HOLD / QUARANTINE / REJECTED portano numero NCR, SKU, partita, quantità, descrizione del difetto e data.'
+    - step: '03'
+      title: Verificare
+      desc: 'Vengono valutati l''ambito interessato e la disposizione appropriata: unità singola, partita di turno, partita completa o più partite — attraverso lotti di materiale comuni, revisioni grafiche, fasi di processo e revisioni documentali. Se necessario si applicano ulteriore contenimento o ispezione rinforzata.'
+    - step: '04'
+      title: Rilavorazione o sostituzione
+      desc: 'La rilavorazione consentita segue istruzioni rilasciate che identificano l''articolo interessato, il metodo, i materiali, i punti di ispezione e i requisiti di nuova verifica. Non sono mai consentite modifiche non autorizzate a specifica di prodotto, grafica, configurazione accessori o imballaggio. Gli articoli sostitutivi rientrano nei gate di ispezione applicabili.'
+    - step: '05'
+      title: Ricontrollare
+      desc: 'Gli articoli rilavorati o corretti vengono nuovamente ispezionati contro i criteri di accettazione applicabili. Il difetto originariamente non superato e tutte le caratteristiche associate potenzialmente interessate dalla rilavorazione vengono verificate prima del rilascio — da QC indipendente e, per le riparazioni di tenuta all''aria, con un ciclo completo di nuovo test di pressione di 24h.'
+    - step: '06'
+      title: Rilasciare o respingere
+      desc: 'Il prodotto viene rilasciato solo dopo il completamento della nuova verifica richiesta, quando il personale qualità autorizzato conferma la conformità ai requisiti applicabili del progetto. Gli articoli che non possono essere portati a conformità vengono respinti, sostituiti, rispediti o disposti sotto procedure controllate — inclusa la distruzione fisica accompagnata.'
+    - step: '07'
+      title: Azione correttiva
+      desc: 'Le non conformità ricorrenti, significative o sistemiche vengono investigate per causa e azione correttiva (CAPA). I miglioramenti possono includere aggiornamenti di istruzioni di lavoro, controlli dei materiali, punti di ispezione, formazione, gestione fornitori o controllo documentale.'
+
+nc_pillars:
+  tagline: Pilastri della fiducia dell''acquirente
+  title: Tre controlli che proteggono il vostro marchio
+  subtitle: 'Il processo è costruito attorno alle domande che gli acquirenti esteri pongono realmente: i problemi vengono nascosti, la rilavorazione sfugge al controllo e le tavole riparate vengono nuovamente verificate.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Solo istruzioni controllate
+      desc: 'La rilavorazione è regolata rigorosamente da Standard Rework Instructions (SRI) autorizzati. Le modifiche sul campo non approvate, le variazioni di specifica o le modifiche grafiche senza autorizzazione scritta sono severamente vietate.'
+    - icon: 2
+      icon_bg: green
+      title: Nuova verifica indipendente
+      desc: 'Le tavole rilavorate vengono sottoposte a nuova verifica al 100% da parte degli ispettori QA contro i criteri di accettazione originali. Le riparazioni di tenuta all''aria richiedono un ciclo completo di nuovo test di pressione di 24h — mai una verifica parziale.'
+    - icon: 3
+      icon_bg: purple
+      title: Rilascio autorizzato & rintracciabilità
+      desc: 'Il rilascio in spedizione è consentito esclusivamente dopo documentazione NCR completa e autorizzazione QC, con lo stato della partita che passa da HOLD a RELEASED. Le deviazioni sistemiche o ricorrenti attivano automaticamente i workflow CAPA per l''analisi delle cause.'
+
+nc_photos:
+  tagline: Nell''area produttiva
+  title: Blocco, rilavorazione & nuova verifica in pratica
+  subtitle: Le foto della nostra officina di Qingdao mostrano come le tavole non conformi vengono fisicamente separate, rilavorate sotto istruzioni controllate e nuovamente verificate prima di qualsiasi decisione di rilascio.
+  features:
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: SUP gonfiabili gonfiati nell''area di test di tenuta all''aria della fabbrica, monitorati da manometri digitali
+      title: Gate di nuova verifica
+      desc: 'Dopo la rilavorazione, ogni tavola torna all''area di test QC per la verifica indipendente: gonfiata e monitorata con manometri digitali contro i criteri di accettazione rilasciati di progetto — mai una verifica parziale.'
+    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Checklist di controllo qualità ed etichette di stato di blocco controllato alla postazione di ispezione della fabbrica
+      title: Postazione di blocco & quarantena
+      desc: 'Postazione di ispezione con checklist QC e marcatura di stato. Ogni articolo che non soddisfa i criteri di accettazione viene marcato HOLD / QUARANTINE, registrato contro un NCR e fisicamente separato — può procedere all''imballaggio solo dopo disposizione autorizzata e nuova verifica vincolante.'
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Tecnico QC esegue una rilavorazione controllata di tenuta all''aria su un SUP gonfiabile alla postazione di rilavorazione della fabbrica
+      title: Postazione di rilavorazione controllata
+      desc: 'La rilavorazione avviene in una postazione dedicata sotto un''istruzione SRI rilasciata: il difetto viene marcato, la tavola resta su HOLD e, dopo il tempo di polimerizzazione richiesto, torna all''area di test per la nuova verifica contro i criteri di accettazione originali.'
+    - image: https://assets.supsfactory.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: Dimostrazione in officina dei controlli di qualità nella fabbrica di Qingdao
+      title: Dimostrazione QC in officina
+      desc: 'Foto dimostrativa dall''officina che mostra i controlli qualità applicati in pratica e sostiene le registrazioni di ispezione e di transizione di stato a cui questa pagina fa riferimento in modo continuo.'
+
+nc_severity:
+  tagline: Gravità del difetto & autorità
+  title: Classificazione della gravità & autorità di disposizione
+  subtitle: Non ogni non conformità viene gestita allo stesso livello — l''autorità di disposizione scala con la gravità del difetto, dal rilascio a livello di linea al Material Review Board con consenso del cliente.
+  headers:
+    severity: Gravità
+    examples: Esempi tipici
+    authority: Autorità di disposizione & controllo
+    control: Condizione di rilascio
+  rows:
+    - severity: 'Lieve'
+      examples: 'Rifilo dell''angolo del cartone, leggero disallineamento di un accessorio non critico'
+      authority: 'Rilascio in loco a cura del capo QC di sezione + supervisore di linea, con sostituzione o rilascio'
+      control: 'Registrato nell''NCR; nessun impatto su funzione del prodotto o requisiti del cliente'
+    - severity: 'Grave'
+      examples: 'Lenta perdita della valvola, disallineamento EVA fuori tolleranza (>2 mm), accessorio mancante'
+      authority: 'La QC Manager + Ingegnere tecnico emettono un''istruzione di rilavorazione controllata (SRI)'
+      control: 'Nuovo test di conformità indipendente al 100% dei difetti originariamente non superati e delle caratteristiche interessate prima del rilascio'
+    - severity: 'Critico'
+      examples: 'Danno alla camera drop-stitch, bolla del rail o lacerazione ad alta pressione, stampa errata del logo cliente o scarto cromatico'
+      authority: 'Decisione del Material Review Board (MRB); consenso scritto del cliente ove richiesto'
+      control: 'Nessun rilascio senza consenso autorizzato; altrimenti distruzione fisica accompagnata obbligatoria'
+
+nc_matrix:
+  tagline: Matrice dei protocolli di ingegneria
+  title: Matrice di disposizione dei difetti & nuova verifica SUP
+  subtitle: Protocolli di ingegneria standard applicati alle deviazioni di produzione più comuni — gli stessi parametri quantificati che i clienti possono verificare durante gli audit.
+  headers:
+    defect: Categoria di difetto
+    protocol: Protocollo di disposizione controllata
+    validation: Nuova verifica & validazione indipendente
+  rows:
+    - defect: 'Lenta perdita della valvola'
+      protocol: 'Isolare la tavola. Smontare il nucleo valvola con utensile di coppia calibrato (25 N·m), pulire la filettatura interna, sostituire l''O-ring in silicone e serrare di nuovo.'
+      validation: 'Immergere in soluzione saponosa; gonfiare a 18 PSI ed eseguire un nuovo test completo di perdita di pressione di 24h (ΔP ≤ 0.05 PSI).'
+    - defect: 'Bolle d''aria nella cucitura del rail'
+      protocol: 'Bloccare la partita di turno. Delaminare l''area della bolla con ugello a caldo assistito, pulire la superficie con solvente, applicare adesivo PU bicomponente sotto pressione di 5 bar.'
+      validation: 'Ispezione visiva e tattile della cucitura al 100%; prova strutturale di pressione di verifica (18.0 PSI) oltre al mantenimento di tenuta all''aria di 24h.'
+    - defect: 'Disallineamento del pad EVA'
+      protocol: 'Rimozione a caldo assistita con utensile a temperatura regolata (80°C). Nuovo allineamento con dima di posizionamento acrilica di precisione.'
+      validation: 'Verifica della tolleranza di fabbricazione dei giochi (≤ ±1.5 mm), verifica di simmetria del motivo a rombi, test di adesione dei bordi al 100%.'
+    - defect: 'Errore di branding/logo'
+      protocol: 'Arresto immediato della linea di stampa. Bloccare tutti i pannelli stampati. Verificare la revisione vettoriale con il cliente; zero modifiche non autorizzate.'
+      validation: 'Verifica colore con spettrofotometro (ΔE ≤ 1.5); ispezione visiva al 100% dell''allineamento del testo contro il PDF master vettoriale firmato dal cliente.'
+    - defect: 'Deviazione di imballaggio / SKU mancante'
+      protocol: 'Bloccare il pallet di esportazione. Aprire e svolgere una verifica di posizione al 100% secondo la BOM (pompa, pinna, leash, paddle, tubo di riparazione).'
+      validation: 'Validazione con bilance di controllo dinamiche elettroniche integrate (±30 g di varianza); verifica con scanner ottici di codici a barre 2D.'
+
+nc_scrap:
+  tagline: Zero fuoriuscita sul mercato
+  title: Rottamazione & distruzione accompagnata — protocollo anti-diversione a zero difetti
+  body: |
+    I partner di marca esteri hanno bisogno della certezza che le tavole difettose non finiscano mai nei canali di retail secondario, mercati grigi o e-commerce. Le tavole che non possono essere portate a conformità vengono distrutte sotto un protocollo accompagnato e registrato:
+
+    **1. Taglio di raccordi & accessori.** Sotto la supervisione del QA Director, una cesoia idraulica rimuove tutti gli anelli a D in acciaio inox 316, le cinghie delle maniglie di trasporto e le fibbie dei bagagli. Il gruppo valvola di gonfiaggio e la base della fin box (US-box / pinna a scatto) vengono asportati alla radice della tavola, eliminando così tutti i componenti riutilizzabili.
+
+    **2. Incisione del drop-stitch & sezionamento del rail.** Il nucleo drop-stitch interno viene tagliato attraverso tavola e deck con tagli incrociati profondi (≥ 50 cm per taglio), e i rail laterali rinforzati vengono recisi in almeno 4 segmenti — distruggendo in modo permanente capacità di sigillatura e galleggiamento.
+
+    **3. Video- & fotovault.** La distruzione viene registrata come video 1080p non tagliato con primi piani del codice a barre di serie, del taglio, dell''incisione del nucleo e del cumulo di scarto finale pesato. Il video viene sottoposto a hash (SHA-256) e archiviato per ≥ 5 anni su un server controllato.
+
+    **4. Smaltimento dei rifiuti certificato.** Tutti i frammenti in PVC e drop-stitch vengono pesati, registrati nel registro di uscita e trasportati solo da partner qualificati di riciclo polimeri — nessun materiale residuo lascia l''impianto tramite altri canali.
+
+    > **Garanzia di protezione del marchio:** QINGDAO VATRAD GROUP CO., LTD. garantisce la distruzione al 100% delle imbarcazioni non rilavorabili e fuori specifica. Nessun articolo di seconda scelta o tavola compromessa finirà mai nei canali di retail secondario, mercati grigi o e-commerce. Il certificato di scarto & distruzione (VAT-QA-SCRAP-CERT-2026) documenta prodotto, partita, conclusione del MRB, foto testimone e la doppia firma di QA Director e capo stabilimento.
+
+nc_downloads:
+  tagline: Documenti QMS scaricabili
+  title: Documenti bilingue controllati (PDF)
+  subtitle: Documenti ufficiali bilingue EN/ZH di QINGDAO VATRAD GROUP.,LTD. — strutturati sotto ISO 9001:2015 sezione 8.7 e pronti per audit dei clienti, white paper tecnici B2B e distribuzione controllata sul piano di produzione.
+  features:
+    - icon: N
+      icon_bg: blue
+      title: SOP di controllo dei prodotti non conformi (PDF)
+      desc: 'SOP bilingue basata su ISO 9001:2015 sezione 8.7: controllo a ciclo in 8 fasi, matrice di disposizione dei difetti SUP, struttura dati NCR e impegno di qualità verso il cliente.'
+      link: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link_label: Scaricare PDF
+    - icon: S
+      icon_bg: orange
+      title: Certificato di scarto & distruzione (PDF)
+      desc: 'VAT-QA-SCRAP-CERT-2026: rintracciabilità di prodotto e partita, conclusione del MRB, protocollo di distruzione fisica in 4 fasi, campi per foto testimone e doppio spazio firma.'
+      link: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link_label: Scaricare PDF
+    - icon: R
+      icon_bg: green
+      title: Governance della rilavorazione controllata (pagina)
+      desc: 'Pagina di riferimento per i metodi di rilavorazione di tenuta all''aria rilasciati MC-RW-01 fino a MC-RW-06 e il workflow di rilavorazione controllata in 7 fasi.'
+      link: '/it/factory/quality-inspection'
+      link_label: Visualizza pagina
+    - icon: C
+      icon_bg: purple
+      title: Standard di controllo delle modifiche di rilavorazione (pagina)
+      desc: 'Formale controllo delle modifiche ISO 9001 per i parametri di rilavorazione: ECR, classificazione del rischio, matrice di rilascio, piano di validazione e protezioni Poka-Yoke — QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/it/factory/quality-change-control'
+      link_label: Visualizza pagina
+
+faqs:
+  tagline: FAQ
+  title: FAQ su qualità & controllo dei difetti per acquirenti globali
+  items:
+    - q: 'Come garantite che le tavole rilavorate soddisfino gli standard di sicurezza completi?'
+      a: 'Ogni tavola rilavorata viene trattata come una nuova unità e deve percorrere lo stesso ciclo di test completo da zero — per le riparazioni di tenuta all''aria un test di pressione completo di 24h. Sono gli ispettori QC indipendenti, non gli operatori di rilavorazione, a condurre la validazione di rilascio.'
+    - q: 'La fabbrica spedirà tavole con lievi deviazioni estetiche senza informarci?'
+      a: 'Mai. Ogni deviazione che interessa golden samples approvati dal cliente, grafiche di logo, varianti di colore o imballaggio richiede un accordo formale di concessione scritto firmato dal cliente prima del rilascio in spedizione.'
+    - q: 'Cosa succede se una tavola rilavorata non supera la nuova verifica?'
+      a: 'La tavola non viene rilasciata. Torna a una nuova valutazione di disposizione e, se non può essere portata a conformità, viene sostituita, respinta o distrutta sotto il protocollo di scarto accompagnato. Il mancato superamento ripetuto della stessa classe di difetto attiva un CAPA per l''analisi delle cause.'
+    - q: 'Le tavole difettose possono essere vendute come articoli di seconda scelta o tramite altri canali?'
+      a: 'No. Le tavole non rilavorabili e fuori specifica vengono distrutte fisicamente sotto il protocollo di scarto accompagnato — raccordi tagliati, nucleo e rail recisi, video registrato con hash SHA-256 e archiviato per almeno 5 anni. Il certificato di scarto & distruzione viene firmato dal QA Director e dal capo stabilimento.'
+    - q: 'Come viene valutato l''ambito interessato quando viene trovato un difetto?'
+      a: 'L''ambito viene esaminato per identificazione del prodotto, partita di produzione, partita di materiale o componente, fase di processo e revisione documentale applicabile. Se lo stesso lotto di materiale, la stessa revisione grafica o la stessa postazione di lavoro è interessata, i prodotti coinvolti vengono inclusi e ispezionati di conseguenza.'
+    - q: 'È necessario il nostro consenso prima di concedere una concessione?'
+      a: 'Sì. Ogni accettazione sotto concessione documentata che interessa i requisiti del cliente — campioni rilasciati, specifica, grafica, imballaggio o criteri di accettazione — richiede il rilascio scritto del cliente prima della liberazione. Senza di esso, il prodotto viene rilavorato, sostituito o respinto secondo il requisito originale.'
+    - q: 'Quale documentazione riceviamo per una non conformità?'
+      a: 'Il record NCR include numero NCR, fase di rilevamento, prodotto/SKU, partita, revisioni documentali applicabili, descrizione del difetto, contenimento, disposizione, riferimento dell''istruzione di rilavorazione, esito della nuova verifica e rilascio o chiusura finale — disponibile secondo il vostro accordo di qualità di progetto.'
+
+cta:
+  title: I problemi di qualità vengono gestiti tramite un processo controllato
+  desc: 'Condividete i vostri requisiti di qualità, ispezione o documentazione specifici per progetto durante la richiesta — possiamo verificare i punti di controllo applicabili prima dello sviluppo del campione o della pianificazione della produzione.'
+  actions:
+    - text: Discutere i requisiti di qualità
+      variant: primary
+      href: /contact
+    - text: Scaricare la SOP di controllo NCP (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Scaricare il certificato di scarto (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

@@ -1,0 +1,103 @@
+meta:
+  title: 'Guida per l''acquirente OEM: approvvigionamento di tavole SUP dall''Asia | SUPsfactory'
+  description: 'Approvvigionamento di tavole SUP gonfiabili dall''Asia: checklist per l''audit di fabbrica, protocolli di controllo qualità, conformità, negoziazione del MOQ, termini di spedizione e insidie.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Torna alla Ricerca'
+
+hero:
+  tagline: 'Approvvigionamento'
+  title: 'Guida per l''acquirente OEM — approvvigionamento di tavole SUP gonfiabili dall''Asia'
+  subtitle: '12 min di lettura'
+
+answer:
+  label: 'Risposta breve'
+  text: 'La quantità minima d''ordine viene confermata in base al progetto, non come numero fisso: lo sviluppo campioni (1–2 unità) valida la costruzione, gli ordini pilota (20–50 unità) testano il mercato sulle piattaforme esistenti, la produzione standard in volumi avviene con 90–100+ unità per lotto da un rotolo drop-stitch completo da 150 m, e il co-branding in piccole serie parte da 5–10 unità. I campioni partono in 7–12 giorni; la produzione di massa avviene 25–35 giorni dopo ordine confermato e acconto, più 15–20 giorni se è necessario nuovo attrezzaggio.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>1. Pre-qualifica: cosa cercare in una fabbrica</h2>
+
+  <h3>Certificati di conformità</h3>
+  <ul>
+    <li><strong>ISO 9001:2015</strong> – sistema di gestione della qualità</li>
+    <li><strong>Certificazione CE</strong> – verificare il numero dell'organismo notificato</li>
+    <li><strong>BSCI / SMETA / SEDEX</strong> – audit di conformità sociale</li>
+    <li><strong>REACH / RoHS</strong> – dichiarazioni di conformità dei materiali</li>
+  </ul>
+
+  <h3>Capacità produttive</h3>
+  <ul>
+    <li>Tessitura del nucleo drop-stitch in-house vs. esternalizzata</li>
+    <li>Linea di spalmatura / laminazione PVC</li>
+    <li>Attrezzature per saldatura RF e ad aria calda</li>
+    <li>Costruzione stampi in-house (lavorazione CNC)</li>
+    <li>Laboratorio di prova (test di pressione, invecchiamento UV, test di trazione)</li>
+  </ul>
+
+  <h3>Verifica dell'esperienza</h3>
+  <ul>
+    <li>Anni nella produzione di natanti gonfiabili (almeno 5+ anni)</li>
+    <li>Numero di ingegneri impiegati</li>
+    <li>Clienti OEM/ODM esistenti (richiedere referenze)</li>
+    <li>Mercati di export – spediscono già nel tuo mercato di destinazione?</li>
+  </ul>
+
+  <h2>2. Protocolli di controllo qualità</h2>
+  <p>QC in entrata per i materiali: resistenza alla trazione (ASTM D751 o ISO 1421), resistenza allo strappo (ASTM D2261 o ISO 4674), adesione dei rivestimenti, campioni di invecchiamento UV.</p>
+  <p>QC di processo: monitoraggio della resistenza delle cuciture ogni 50 unità, test del momento torcente delle valvole, campionamento della densità del filato drop-stitch, controlli dimensionali rispetto ai disegni CAD.</p>
+  <p>Ispezione finale: test di tenuta di pressione al 100 % (24 ore, caduta max 0.50 PSI), ispezione visiva, test di funzionamento delle valvole, campioni casuali (AQL 2.5 o 4.0 secondo ISO 2859).</p>
+
+  <h2>3. Checklist per la documentazione di conformità</h2>
+  <ul>
+    <li>Dichiarazione di conformità (DoC) che fa riferimento alla corretta direttiva UE</li>
+    <li>Certificato CE di un organismo notificato</li>
+    <li>Rapporto di prova di un laboratorio accreditato</li>
+    <li>Schede di sicurezza (MSDS) dei materiali</li>
+    <li>Dichiarazione di conformità REACH</li>
+    <li>Distinta base con tracciabilità dei fornitori</li>
+    <li>Rapporto di ispezione della fabbrica</li>
+  </ul>
+
+  <h2>4. Negoziazione del MOQ</h2>
+  <p>I MOQ per le tavole SUP gonfiabili sono determinati dal percorso produttivo e dalla configurazione del progetto, non da stime. Tutti i progetti OEM/ODM Vatrad seguono tre chiare fasce di quantità — campioni, pilota e volume — e la logica di calcolo completa è spiegata nella nostra <a href="/it/oem-moq-guide">Guida MOQ &amp; branding flessibile</a>:</p>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Percorso produttivo</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">MOQ</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Tempi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Sviluppo campioni (per design)</td><td class="p-3 border">1 – 2 unità</td><td class="p-3 border">Campioni in 7 – 12 giorni</td></tr>
+      <tr><td class="p-3 border font-medium">Ordine pilota (piattaforme esistenti)</td><td class="p-3 border">20 – 50 unità</td><td class="p-3 border">Validazione del mercato con materiali esistenti</td></tr>
+      <tr><td class="p-3 border font-medium">Lotto di volume standard (per design)</td><td class="p-3 border">90 – 100+ unità</td><td class="p-3 border">25 – 35 giorni dopo ordine e acconto</td></tr>
+      <tr><td class="p-3 border font-medium">Forme proprie complete / Private Label</td><td class="p-3 border">Confermato in base al progetto</td><td class="p-3 border">Aggiunge 15 – 20 giorni per l'attrezzaggio</td></tr>
+    </tbody>
+  </table>
+  <p>Le quantità di campioni, pilota e serie differiscono: lo sviluppo campioni (1–2 unità) valida la costruzione, gli ordini pilota (20–50 unità) testano il mercato sulle piattaforme esistenti, e la produzione standard in volumi avviene con 90–100+ unità per lotto da un rotolo drop-stitch completo da 150 m — con fasce di prezzo per quantità che salgono con la dimensione dell'ordine. Fatti fornire per iscritto il calcolo del MOQ, i tempi di consegna e le condizioni di pagamento per la tua tavola specifica prima di impegnarti con un fornitore.</p>
+
+  <h2>5. Logistica e spedizione</h2>
+  <p>Incoterms comuni: <strong>FOB</strong> (la fabbrica consegna fino al porto di partenza — il più diffuso), <strong>EXW</strong> (l'acquirente organizza tutta la spedizione dallo stabilimento), <strong>CIF</strong> (la fabbrica paga nolo e assicurazione fino al porto di destinazione).</p>
+  <p>I prodotti gonfiabili sono leggeri ma voluminosi — il peso volumetrico (DIM) spesso determina i costi di spedizione. Richiedi imballaggi sottovuoto per ridurre il volume del 50–60 %. La spedizione marittima dalla Cina all'UE dura in genere 25–35 giorni e 7–12 giorni verso la costa occidentale degli Stati Uniti — in aggiunta al lead time di produzione di 25–35 giorni.</p>
+
+  <h2>6. Insidie comuni</h2>
+  <ul>
+    <li><strong>Nessun audit di fabbrica:</strong> esegui sempre un audit o commissiona un'ispezione di terze parti (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Solo specifiche verbali:</strong> foglio di specifiche tecniche dettagliato, firmato da entrambe le parti</li>
+    <li><strong>Saltare l'approvazione dei campioni:</strong> approvazione scritta dei campioni prima della produzione di massa</li>
+    <li><strong>Nessun controllo qualità durante la produzione:</strong> ispezione di terze parti durante la produzione (DUPRO) e prima della spedizione (PSI)</li>
+    <li><strong>Ignorare la conformità:</strong> verificare la marcatura CE (Direttiva 2013/53/UE) e la documentazione specifica del mercato prima della produzione</li>
+  </ul>
+
+  <h2>7. Perché Vatrad</h2>
+  <p>Vatrad produce tavole SUP gonfiabili OEM/ODM dal 2012. Con un impianto certificato ISO 9001 di 12,500 m&sup2;, 25+ ingegneri e certificazione CE per i modelli destinati ai mercati UE (ambito confermato per ciascun progetto), soddisfiamo ogni criterio di questa guida. Offriamo MOQ di prova per nuovi partner e pacchetti completi di documentazione di conformità.</p>
+  <p>Consulta i nostri <a href="/it/oem-manufacturing">servizi di produzione OEM/ODM per SUP gonfiabili</a> o visita l'<a href="/it/factory">impianto di 12,500 m&sup2;</a> per vedere le attrezzature e i processi QC dietro ogni passaggio di cui sopra.</p>
+
+cta:
+  title: 'Pronto a iniziare l''approvvigionamento?'
+  subtitle: 'Contatta il nostro team OEM per discutere i requisiti del tuo progetto.'
+  button_text: 'Richiedi un preventivo'
+  button_link: /it/contact

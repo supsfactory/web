@@ -1,0 +1,82 @@
+meta:
+  title: 'Attrezzature per il noleggio SUP & soluzioni per flotte'
+  description: 'Tavole SUP commerciali per il noleggio quotidiano: PVC resistente ai raggi UV, cuciture rinforzate e materiali ad asciugatura rapida per flotte a rotazione ad alta frequenza.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Operatori di noleggio
+  title: 'Tavole SUP progettate per flotte di noleggio'
+  subtitle: 'Specifica una flotta che regga il noleggio quotidiano: tavole a rotazione ad alta frequenza con PVC resistente ai raggi UV, cuciture rinforzate e materiali ad asciugatura rapida — progettate per 365 giorni di utilizzo all''anno.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/use-cases/supsfactory-family-use-case.webp
+    alt: Tavole SUP pronte per il noleggio quotidiano
+
+answer:
+  label: 'Risposta breve'
+  text: 'Le tavole per flotte di noleggio sono costruite con PVC marino resistente ai raggi UV, con cuciture 3× più resistenti rispetto alle costruzioni standard e nuclei drop-stitch per 15 PSI — testate per oltre 500 cicli di noleggio. La MOQ viene confermata dalla configurazione del progetto: campioni (1–2 unità), pilota (20–50 unità) e volume standard (90–100+ unità per lotto da un rotolo da 150 m); la produzione richiede 25–35 giorni dopo PO e acconto, con condizioni FOB, CIF o DDP.'
+  verified: 'Settembre 2026'
+
+features:
+  title: Costruite per il quotidiano del noleggio
+  subtitle: 'Ogni tavola è progettata per oltre 500 cicli di noleggio con manutenzione minima.'
+  items:
+    - title: 'Oltre 500 cicli di noleggio'
+      description: 'Testate per resistere all''uso quotidiano in acqua salata, sole e sabbia.'
+      icon: 'tabler:shield-check'
+    - title: 'Tessuto resistente ai raggi UV'
+      description: 'Nessuno scolorimento o deterioramento dopo 1 anno di stoccaggio all''aperto.'
+      icon: 'tabler:sun'
+    - title: 'Cuciture rinforzate'
+      description: 'Costruzione di cucitura rinforzata per la rotazione di noleggio quotidiana e i cicli di gonfiaggio ripetuti.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Materiali ad asciugatura rapida'
+      description: 'I materiali ad asciugatura rapida mantengono le tavole pronte all''uso tra un impiego e l''altro.'
+      icon: 'tabler:droplet'
+    - title: 'Stoccaggio impilabile'
+      description: 'Design impilabile che fa risparmiare spazio — più tavole nella stessa area di stoccaggio.'
+      icon: 'tabler:stack'
+    - title: 'Misure con codice colore'
+      description: 'Il personale prende subito la tavola giusta grazie alle misure con codice colore.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: Indicatori operativi
+  stats:
+    - title: Superficie dello stabilimento
+      amount: '12,500 m²'
+    - title: Test di pressione
+      amount: '18 PSI / 24h'
+    - title: Checklist di montaggio
+      amount: '100 punti'
+    - title: Spedizione pezzi
+      amount: '48h'
+
+fleet_guide:
+  title: Guida alle dimensioni della flotta
+  subtitle: 'Stima quante tavole servono al tuo operatore in base alla rotazione giornaliera di noleggio.'
+  tiers:
+    - label: Piccolo chiosco
+      boards: '15-20'
+      note: 'Fino a 2–3 rotazioni di tavole al giorno in alta stagione'
+    - label: Operatore di medie dimensioni
+      boards: '30-50'
+      note: 'Più punti di partenza o alta affluenza nel fine settimana'
+    - label: Grande noleggio da spiaggia
+      boards: '50-100'
+      note: 'Flotte di noleggio full-service su più stazioni balneari'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Approfondisci:</strong> le tavole da noleggio partono dalla tua specifica — scopri il nostro <a href="/it/oem-manufacturing">programma OEM/ODM</a> per personalizzazione, MOQ di test basse e prezzi flotta. Ogni tavola passa attraverso i 12,500 m&sup2; della <a href="/it/factory">linea di produzione</a> e prima della spedizione viene sottoposta al 100 % a un test di pressione.</p>
+  </div>
+
+cta:
+  title: 'Specifica la tua flotta di noleggio'
+  subtitle: 'Invia i requisiti della tua flotta oppure confronta le piattaforme di tavole per il tuo operatore.'
+  actions:
+    - text: 'Invia i requisiti della flotta'
+      href: '/it/contact'
+      variant: 'primary'
+    - text: 'Confronta le piattaforme di tavole'
+      href: '/it/inflatable-vs-hardboard'
+      variant: 'secondary'

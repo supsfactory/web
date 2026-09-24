@@ -101,6 +101,30 @@ export const HERO_CONTENT = {
     float1: { value: '1–2 uds.', label: 'Muestra y aprobación (antes de compromiso de volumen)' },
     float2: { value: FACTS.leadTime, label: 'Plazo de producción (tras PO)' },
   },
+  it: {
+    kicker: 'Fabbrica a Qingdao, Cina · OEM / ODM / Marchio privato · Dal campione alla produzione in serie',
+    titlePre: 'Produzione di prodotti SUP su misura per',
+    titleAccent: 'marchi, distributori e organizzazioni',
+    titlePost: '',
+    sub: 'SUP gonfiabili OEM, ODM e a marchio privato — dalla revisione delle specifiche e dallo sviluppo dei campioni alla produzione in serie con controllo qualità a Qingdao, Cina.',
+    ctaPrimary: 'Avvia il tuo progetto SUP',
+    ctaSecondary: 'Scopri fabbrica, MOQ ed evidenze di qualità',
+    ctaTertiary: '',
+    ctaQuartiary: '',
+    ctaMicro: 'Risposta entro 1 giorno lavorativo · NDA disponibile prima dello scambio di file · MOQ confermato dopo la revisione della specifica',
+    stats: [
+      { value: '12.500 m²', label: 'Fabbrica di proprietà — Qingdao, Cina' },
+      { value: '120.000+', label: 'Tavole prodotte ogni anno' },
+      { value: '50+', label: 'Paesi di esportazione' },
+      { value: FACTS.ndaWindow, label: 'Finestra di risposta NDA' },
+    ],
+    mockupLabel: 'Piattaforma di punta',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Le tue grafiche · i tuoi colori · il tuo packaging',
+    heroNote: "Il MOQ è confermato dopo l’esame della specifica, perché costruzione, misura della tavola, struttura PVC, grafiche, imballaggio e accessori influiscono sull’uso del materiale.",
+    float1: { value: '1–2 unità', label: "Campione e approvazione (prima dell’impegno di volume)" },
+    float2: { value: FACTS.leadTime, label: 'Tempo di produzione (dopo il PO)' },
+  },
 }
 
 /** 供 Seo 模块使用的简化映射（仅读，不修改 PUBLIC_PATHS/HREFLANG/OG_*） */

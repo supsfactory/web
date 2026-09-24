@@ -1,0 +1,94 @@
+meta:
+  title: 'Costruzione dello scafo SUP — Design board CAD & FEA'
+  description: 'Studio di costruzione delle tavole SUP: design board CAD, analisi a elementi finiti (FEA) delle strutture drop-stitch e forme di scafo personalizzate per progetti OEM.'
+back_text: 'Torna al centro R&S'
+home_label: 'Home'
+
+hero:
+  tagline: 'Laboratorio 02'
+  title: 'Studio di costruzione delle tavole'
+  subtitle: 'Simulazione digitale, intelligenza strutturale, design board personalizzato'
+  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion.webp'
+  image_alt: 'Postazione CAD per la costruzione di tavole SUP presso Vatrad'
+
+answer:
+  label: 'Risposta chiara'
+  text: 'Le tavole SUP personalizzate vengono progettate internamente con modellazione di superfici 3D SolidWorks, FEA ANSYS e CFD — ogni tavola viene simulata per distribuzione delle tensioni e rigidità del deck prima della produzione del prototipo, con un fattore di sicurezza vincolante ≥ 2,5. Una forma personalizzata richiede 7–12 giorni fino al prototipo; la produzione completa del tooling per una forma personalizzata estende il lead time produttivo di 25–35 giorni di altri 15–20 giorni, con il MOQ confermato dalla configurazione di progetto (vedi la nostra guida MOQ).'
+  verified: 'September 2026'
+
+intro: 'La forma dello scafo di una tavola SUP — il suo rocker, il profilo del rail, il volume di prua e poppa — determina come pagaia, vira e mantiene la rotta. Il nostro studio di costruzione delle tavole presso {SITE.name} combina modellazione di superfici CAD, analisi a elementi finiti (FEA) delle strutture drop-stitch ed esperienza produttiva per consegnare tavole ottimizzate per il loro scopo: stabilità allround, planata touring o prestazioni surf. Ogni tavola personalizzata inizia dalla vostra specifica, non da una forma generica da catalogo.'
+
+content_html: |
+  <h2>Dove la resistenza incontra l''idrodinamica</h2>
+  <p>Una tavola SUP gonfiabile è una struttura drop-stitch: migliaia di fili in poliestere collegano le pelli superiore e inferiore in PVC e mantengono il deck piano a 12–15 PSI, mentre la geometria di rail e prua determina il comportamento della tavola in acqua. Progettiamo la forma 3D, simuliamo la struttura gonfiata e validiamo il risultato internamente, prima ancora che venga tagliato un singolo campione.</p>
+
+  <h2>Strumenti e standard di costruzione</h2>
+  <p>Il nostro ambiente di costruzione digitale comprende:</p>
+  <table>
+    <thead><tr><th>Capacità</th><th>Software / strumento</th><th>Applicazione</th></tr></thead>
+    <tbody>
+      <tr><td>Modellazione parametrica 3D</td><td>SolidWorks Professional</td><td>Superficie della tavola, linea del rocker, profilo del rail, integrazione di impugnatura &amp; pinne</td></tr>
+      <tr><td>Analisi a elementi finiti</td><td>ANSYS Mechanical</td><td>Distribuzione delle tensioni del nucleo drop-stitch, rigidità del deck sotto carico, rinforzo del punto di presa</td></tr>
+      <tr><td>Computational Fluid Dynamics</td><td>Ansys Fluent</td><td>Previsione della resistenza idrodinamica, ottimizzazione dell''assetto di planata</td></tr>
+      <tr><td>Ingegneria della laminazione</td><td>ESAComp</td><td>Strato di PVC, selezione del peso del tessuto, stima del peso</td></tr>
+      <tr><td>Review delle superfici di tooling</td><td>Moldex3D</td><td>Verifica della geometria del tooling di saldatura per la saldatura RF</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Il nostro workflow di costruzione</h2>
+  <p>Ogni design di tavola, sia un modello standard che un progetto completamente personalizzato, segue un rigoroso processo in cinque fasi:</p>
+  <ol>
+    <li><strong>Acquisizione di concept &amp; requisiti</strong> — Definiamo l''intervallo di peso dei paddler, lo scopo d''uso (allround, touring, surf, yoga, flotta da noleggio), gli obiettivi di lunghezza, larghezza e spessore e le caratteristiche speciali (sistemi di stivaggio, deck pad, punti di fissaggio).</li>
+    <li><strong>Modellazione superfici 3D &amp; calcolo del volume</strong> — La forma della tavola viene modellata in SolidWorks e verificata per distribuzione del volume, dislocamento e stabilità rispetto al peso target del paddler.</li>
+    <li><strong>FEA strutturale</strong> — La tavola gonfiata viene analizzata sotto carico in piedi, sia statico (paddler al centro, 100 kg) che dinamico (impatto delle onde sul rail). Vengono controllati i contorni di tensione; un fattore di sicurezza ≥ 2,5 è vincolante.</li>
+    <li><strong>Ottimizzazione della resistenza CFD</strong> — Lo scafo viene simulato a tre stati di carico e cinque velocità. Superficie bagnata, angolo di assetto e resistenza residua vengono ridotti in modo iterativo.</li>
+    <li><strong>Design review &amp; rilascio</strong> — Il pacchetto di ingegneria completo (modello 3D, report FEA, report CFD, stima del peso, piano di posizionamento dei pannelli) viene esaminato dal nostro ingegnere senior prima del rilascio all''officina prototipi.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Risultati FEA — tavola allround 11''0 (32'' larga, 6'' spessa)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2,8 : 1</span>
+        <span class="text-gray-500">Fattore di sicurezza a 120 kg di carico in piedi</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Inflessione del deck a 15 PSI, senza carico</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3,2 mm</span>
+        <span class="text-gray-500">Inflessione massima del deck sotto paddler di 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Pressione di analisi — pressione operativa della piattaforma</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Personalizzazione: la vostra tavola, le vostre regole</h2>
+  <p>Non esistono due marchi con requisiti identici. Una flotta da noleggio ha bisogno di una tavola allround larga e stabile con rail rinforzati; un marchio touring ha bisogno di una prua a dislocamento più lunga con fissaggi per carico; una linea orientata al surf ha bisogno di una poppa raccolta e di un profilo rocker. Non forziamo la vostra linea di prodotto in forme preconfezionate — costruiamo a partire dalla vostra specifica.</p>
+  <p>Esempi di progetti recenti di costruzione di tavole personalizzate:</p>
+  <ul>
+    <li>Un SUP touring da 14'' per un marchio di endurance paddling, con prua a dislocamento e cargo deck incassato (+15% di lunghezza della linea di galleggiamento per una migliore planata).</li>
+    <li>Una tavola allround larga da 10'6'' per una flotta resort, con rail laterali a doppio strato e capacità nominale di 220 lb.</li>
+    <li>Un SUP surf da 9'' con poppa raccolta e rocker progressivo, sviluppato per una linea di surf school propria.</li>
+  </ul>
+
+  <h2>I nostri ingegneri</h2>
+  <p>Lo studio è guidato da un senior product engineer con 14 anni di esperienza nel design di prodotti gonfiabili, supportato da due ingegneri meccanici specialisti in FEA e CFD. Tutti e tre possiedono lauree avanzate in ingegneria da università internazionalmente riconosciute, e il team lavora direttamente con il nostro capannone di produzione per garantire che ogni design sia producibile su scala container.</p>
+
+  <h2>Progettate con noi la vostra prossima tavola</h2>
+  <p>Dal primo schizzo di concept al report finale delle tensioni, il nostro studio di costruzione delle tavole è il vostro partner nello sviluppo di una tavola che non è solo costruita, ma progettata. Investiamo il tempo di simulazione in anticipo, così ogni saldatura, ogni strato di laminato e ogni curva del rail ha uno scopo.</p>
+  <p>Che vi serva una modifica minore a un modello esistente o una riprogettazione completa — siamo pronti a discutere i vostri requisiti.</p>
+
+cta:
+  title: 'Avvia la tua consulenza di design board'
+  subtitle: 'Comunicateci i vostri paddler target e lo scopo d''uso, e vi proporremo un percorso di ingegneria.'
+  actions:
+    - variant: primary
+      text: Contatta il nostro team di ingegneria
+      href: /contact#project-brief
+    - text: Torna al centro R&S
+      href: /randdcenter

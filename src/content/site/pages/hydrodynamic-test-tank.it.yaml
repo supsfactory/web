@@ -1,0 +1,115 @@
+meta:
+  title: 'Vasca di prova idrodinamica — test di performance delle tavole SUP'
+  description: 'Validate le prestazioni dello scafo delle tavole SUP nella nostra vasca di prova idrodinamica. Prove di traino su modelli, analisi della planata e misurazione della resistenza per le forme delle tavole.'
+  dateModified: '2026-08'
+back_text: 'Torna al centro R&S'
+home_label: 'Home'
+
+answer:
+  label: 'Risposta chiara'
+  text: 'Testiamo le forme degli scafi SUP nella vasca di prova a scala di modello 1:3 fino a 1:5 — profilo di prua, raggio del rail, rocker e superficie bagnata — e misuriamo resistenza, efficienza di planata e stabilità, prima di impegnarci su un prototipo a grandezza naturale. Una settimana in vasca fornisce i dati di performance che altrimenti richiederebbero mesi di tentativi ed errori a grandezza naturale.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorio 04'
+  title: 'Vasca di prova idrodinamica'
+  subtitle: 'Validazione delle prestazioni prima del primo prototipo a grandezza naturale'
+  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp'
+  image_alt: 'Vasca di prova idrodinamica di Vatrad per il test delle performance'
+
+intro: 'È una convinzione errata diffusa che i test idrodinamici siano riservati alle navi e ai veicoli da corsa. In realtà, le prestazioni di una tavola SUP — uno scafo planante da 10 a 14 piedi — dipendono dalla sua forma subacquea esattamente come qualsiasi altro mezzo. Profilo di prua, raggio del rail, rocker e superficie bagnata hanno un impatto drammatico su resistenza, efficienza di planata e stabilità. Presso {SITE.name} gestiamo una vasca di prova idrodinamica dedicata, che ci consente di quantificare questi effetti a scala di modello — prima di impegnare tessuto e tooling per un prototipo a grandezza naturale.'
+
+content_html: |
+  <h2>Perché testare una tavola SUP in vasca?</h2>
+  <p>I test a scala di modello (tipicamente 1:3 fino a 1:5) ci consentono di iterare rapidamente e a basso costo le forme delle tavole. Una settimana in vasca può produrre gli stessi dati di performance che richiederebbero mesi di tentativi ed errori a grandezza naturale — a una frazione dei costi.</p>
+
+  <h2>Specifiche dell''impianto</h2>
+  <table>
+    <thead><tr><th>Parametro</th><th>Specifica</th></tr></thead>
+    <tbody>
+      <tr><td>Dimensioni vasca</td><td>35 m (L) × 3,5 m (Lar) × 1,8 m (P)</td></tr>
+      <tr><td>Carrello di traino</td><td>Servoamplificato elettrico, velocità massima 12 m/s (23 kn), accuratezza della velocità ± 0,5 %</td></tr>
+      <tr><td>Generatore di onde</td><td>Tipo flap, mare stati programmabili regolari &amp; irregolari, Hs fino a 0,3 m a scala di modello</td></tr>
+      <tr><td>Strumentazione</td><td>Bilancia di misura della resistenza a 6 componenti (resistenza, forza laterale, momento di imbardata), accelerometri, inclinometri, sonde per onde</td></tr>
+      <tr><td>Acquisizione dati</td><td>Frequenza di campionamento 1000 Hz per canale, visualizzazione in tempo reale + pacchetto software di post-elaborazione</td></tr>
+      <tr><td>Produzione modelli</td><td>Fresatura CNC e stampa 3D in-house per scafi modello fino a 1,8 m di lunghezza fuori tutto</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Il nostro programma di test</h2>
+  <p>Un programma standard di sviluppo di una tavola nella nostra vasca segue questa sequenza:</p>
+  <ol>
+    <li><strong>Costruzione del modello</strong> — Un modello in scala 1:4 viene fresato a CNC in schiuma ad alta densità e rinforzato in fibra di vetro per rigidità. Peso e baricentro vengono regolati per raggiungere la condizione di pieno carico scalata secondo Froude.</li>
+    <li><strong>Corse di resistenza</strong> — Il modello viene trainato a 6–10 velocità nell''intervallo di pagaiata (2–6 kn a grandezza naturale). Viene misurata la resistenza totale e scomposta in resistenza di attrito e residua con il metodo ITTC-1957.</li>
+    <li><strong>Misurazione di assetto &amp; immersione</strong> — Assetto di corsa e immersione vengono registrati a ogni velocità. L''obiettivo è l''angolo di assetto che minimizza la superficie bagnata mantenendo al contempo la prua chiaramente sopra l''onda di prua.</li>
+    <li><strong>Indagine sul campo d''onda</strong> — Le sezioni d''onda trasversali vengono misurate a due velocità per valutare la resistenza di generazione dell''onda e identificare le interazioni della forma di prua che rallentano una tavola nell''acqua.</li>
+    <li><strong>Comportamento al carico di mare (opzionale)</strong> — Corse in onda contraria con onde regolari per misurare la resistenza addizionale e l''accelerazione verticale in mare mosso — i dati dietro il design delle prua delle tavole touring.</li>
+    <li><strong>Analisi dati &amp; raccomandazioni</strong> — Viene consegnato un report completo con grafici comparativi, curve resistenza/velocità e specifiche raccomandazioni di design per la tavola a grandezza naturale.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Risultati tipici del test in vasca — Resistenza vs. velocità (tavola allround 11''0, scala 1:4)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">2 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:18%"></div>
+        </div>
+        <span class="w-16 text-right">11 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">3 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">21 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">4 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:52%"></div>
+        </div>
+        <span class="w-16 text-right">32 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">5 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:68%"></div>
+        </div>
+        <span class="w-16 text-right">42 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">6 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:85%"></div>
+        </div>
+        <span class="w-16 text-right">52 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Resistenza a scala di modello (N) a velocità scalate secondo Froude. La previsione delle prestazioni a grandezza naturale segue il metodo di previsione delle prestazioni ITTC-1978.</p>
+  </div>
+
+  <h2>Team di esperti</h2>
+  <p>La nostra vasca è gestita da un idrodinamico con dottorato in architettura navale e 8 anni di esperienza in un importante istituto di ricerca marittimo europeo. È affiancato da un tecnico che prepara tutti i modelli e la strumentazione. Il team segue le procedure raccomandate della ITTC (International Towing Tank Conference) per garantire che ogni test sia ripetibile, rintracciabile e difendibile a livello internazionale.</p>
+
+  <h2>Test in vasca per lo sviluppo di tavole personalizzate</h2>
+  <p>La nostra vasca non è usata solo per le tavole in-house — eseguiamo regolarmente programmi di test per clienti che vogliono validare una forma di tavola personalizzata o indagare un problema di prestazioni:</p>
+  <ul>
+    <li><strong>Confronto di forme</strong> — Due o più forme candidate vengono testate in condizioni identiche e forniscono un confronto oggettivo resistenza/velocità/stabilità come supporto decisionale per la vostra scelta di design.</li>
+    <li><strong>Ottimizzazione di rail &amp; prua</strong> — Le varianti di profilo di prua e raggio del rail possono essere testate in configurazioni diverse per quantificare il loro contributo alla riduzione della resistenza.</li>
+    <li><strong>Studio del carico del paddler</strong> — I dati di resistenza vengono mappati sull''intero intervallo di peso dei paddler, così potete specificare la lunghezza e la larghezza giuste per il vostro segmento di paddler target.</li>
+  </ul>
+
+  <h2>Perché testare da noi?</h2>
+  <p>Non vi forniamo solo una serie di numeri grezzi. I nostri report traducono i dati della vasca in raccomandazioni di ingegneria attuabili: "Aumentate il rocker di prua di 10 mm per ridurre la resistenza dell''onda di prua in velocità di crociera", "Smussate il rail alla sezione maestra per ridurre la superficie bagnata" oppure "Spostate l''area di posizione in piedi di 50 mm in avanti per un assetto migliore". Uscite con una chiara comprensione di cosa e perché andrebbe modificato.</p>
+  <p>La nostra vasca è disponibile anche per test indipendenti da parte di terzi su base onoraria. Se state sviluppando una tavola e desiderate una valutazione idrodinamica imparziale eseguita professionalmente, saremo lieti di ricevere la vostra richiesta.</p>
+
+cta:
+  title: 'Prenota una sessione di test in vasca'
+  subtitle: 'Che vi serva un programma di sviluppo completo o un singolo test comparativo — possiamo adattarci al vostro calendario.'
+  actions:
+    - variant: primary
+      text: Contatta il nostro team di idrodinamica
+      href: /contact#project-brief
+    - text: Torna al centro R&S
+      href: /randdcenter

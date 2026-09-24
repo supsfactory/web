@@ -1,0 +1,100 @@
+meta:
+  title: 'Conformità SUP per mercato — Requisiti CE, REACH, RoHS, BSCI, ISO 9001 | SUPsfactory'
+  description: 'Guida alla conformità per tavole SUP gonfiabili per mercato: CE (UE), CPSIA (USA), AS/NZS (AU), ISO 9001, BSCI, REACH e RoHS — ambito e documenti per ciascun mercato.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'Conformità SUP per mercato'
+    - 'Certificazione CE SUP'
+    - 'Normative per SUP gonfiabili'
+    - 'Conformità REACH SUP'
+    - 'Conformità RoHS SUP'
+    - 'Audit BSCI fabbrica SUP'
+    - 'Produttore SUP ISO 9001'
+
+hero:
+  tagline: 'Guida alla conformità'
+  title: 'Conformità SUP per mercato'
+  subtitle: 'Ogni mercato target ha i propri requisiti di certificazione, marcatura e documentazione. Questa guida mappa il panorama della conformità per le tavole SUP gonfiabili nei principali mercati — UE, Nord America, Australia e oltre — così puoi definire l''ambito corretto al momento della richiesta di offerta e non solo dopo la produzione.'
+
+answer:
+  label: 'Risposta breve'
+  text: 'Per l''UE: la marcatura CE è obbligatoria per le tavole vendute nello Spazio economico europeo — certifichiamo i modelli per il mercato UE, l''ambito viene confermato per progetto. Per gli USA: regolamenti CPSIA e VOC a livello statale. Per l''Australia: conformità secondo AS/NZS 1586. Per tutti i mercati valgono: ISO 9001 (fabbrica), BSCI (audit sociale), REACH e RoHS (materiali) standard in tutta la nostra produzione, indipendentemente dalla destinazione. Ambito e costi di conformità vengono dettagliati nella tua offerta — nessuna sorpresa dopo la produzione.'
+  verified: 'Settembre 2026'
+
+market_cards:
+  tagline: Requisiti per regione
+  title: 'Requisiti di conformità per mercato target'
+  subtitle: 'L''ambito di certificazione viene confermato per progetto durante la verifica di fattibilità. Di seguito i requisiti tipici per mercato.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Unione europea'
+      desc: 'Marcatura CE obbligatoria. REACH (sicurezza chimica), RoHS (sostanze soggette a restrizioni), certificazione di fabbrica ISO 9001. Verifiche specifiche del prodotto secondo la direttiva DPI o imbarcazioni da diporto, ove applicabile. Marcatura nella lingua ufficiale del paese di destinazione. Audit sociale BSCI disponibile.'
+    - icon: US
+      icon_bg: green
+      title: 'Stati Uniti'
+      desc: 'Conformità CPSIA (sicurezza dei prodotti di consumo). California Prop 65 e normative VOC a livello statale per le emissioni di PVC e adesivi. Nessun equivalente federale della CE. Prove ASTM su richiesta. Requisiti di etichettatura FTC per paese di origine e composizione dei materiali.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Australia & Nuova Zelanda'
+      desc: 'AS/NZS 1586 per le imbarcazioni gonfiabili. Garanzie ai sensi del diritto australiano dei consumatori. Documentazione di importazione e valutazione di conformità secondo i requisiti dell''autorità di frontiera australiana. Documentazione sulla sicurezza chimica equivalente a REACH. Audit sociale BSCI disponibile.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Globale / Multi-mercato'
+      desc: 'Certificazione di fabbrica ISO 9001:2015 (audit annuale). Audit sociale BSCI. Conformità dei materiali REACH e RoHS in tutta la produzione indipendentemente dalla destinazione. Tracciabilità dei lotti e rapporti di prova disponibili per ogni mercato. Ambito di certificazione individuale confermato per progetto.'
+
+certifications_detail:
+  heading: 'Il nostro ambito di certificazione'
+  body: |
+    Le seguenti certificazioni sono mantenute nella nostra produzione o disponibili. L'ambito di certificazione specifico per il tuo progetto verrà confermato durante la verifica di fattibilità e dettagliato nella tua offerta.
+
+    - **ISO 9001:2015** — Sistema di gestione della qualità della fabbrica, audit annuale da parte di una terza parte accreditata. Copre l'intero processo produttivo dalla verifica in ingresso delle merci al confezionamento finale.
+    - **Marcatura CE** — applicata ai modelli per il mercato UE. Verifica e documentazione secondo la direttiva UE applicabile. Ambito confermato per progetto — non tutti i modelli richiedono lo stesso ambito CE.
+    - **BSCI** — Audit della Business Social Compliance Initiative. Copre i diritti dei lavoratori, la sicurezza sul lavoro, la conformità ambientale e l'etica aziendale. Disponibile per tutti i mercati.
+    - **REACH** — Regolamento UE sulla sicurezza chimica. Tutti i materiali in PVC, adesivi e rivestimenti sono conformi a REACH. Documentazione delle sostanze e rapporti di prova per lotto disponibili.
+    - **RoHS** — Restrizione delle sostanze pericolose. Tutti gli accessori elettronici (pompe con motore, accessori LED) sono conformi a RoHS. I materiali delle tavole sono conformi per natura.
+
+compliance_process:
+  tagline: Come funziona la conformità nel tuo ordine
+  title: 'La conformità nel processo di onboarding'
+  subtitle: 'La conformità non è un extra — è integrata in ogni gate del processo di onboarding.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Gate 1: conferma dell''ambito'
+      desc: 'Al momento della richiesta definisci i mercati target. Confermiamo quali certificazioni, prove e documenti si applicano al tuo prodotto specifico e alla tua destinazione. Ambito di conformità ed eventuali costi vengono dettagliati nell''offerta.'
+    - icon: 2
+      icon_bg: green
+      title: 'Gate 3: certificazione dei campioni'
+      desc: 'I campioni vengono prodotti secondo l''ambito di conformità confermato. Per i test di laboratorio di terze parti (CE, CPSIA, AS/NZS) coordiniamo le prove tramite laboratori accreditati. I rapporti di prova vengono forniti insieme al campione.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Gate 7: pacchetto documentale'
+      desc: 'Ogni ordine di produzione viene spedito con un pacchetto documentale di conformità: attestati di conformità, rapporti di prova, registri di tracciabilità dei lotti, dati di sicurezza dei materiali e conformità della marcatura. La documentazione è specifica per mercato.'
+
+faqs:
+  tagline: FAQ
+  title: 'Conformità SUP — Domande frequenti'
+  items:
+    - q: 'Tutte le tavole SUP richiedono la marcatura CE?'
+      a: 'La marcatura CE è richiesta solo per le tavole vendute nello Spazio economico europeo. Certifichiamo i modelli per il mercato UE con ambito confermato per progetto. Le tavole destinate a mercati extra-UE non portano la marcatura CE, a meno che non la richiediate esplicitamente.'
+    - q: 'I vostri materiali sono conformi a REACH e RoHS?'
+      a: 'Sì. Tutti i materiali in PVC, adesivi e rivestimenti sono conformi a REACH. Tutti gli accessori elettronici (pompe con motore, accessori LED) sono conformi a RoHS. I materiali di costruzione delle tavole sono conformi a RoHS per natura. La documentazione delle sostanze e i rapporti di prova sono disponibili per lotto su richiesta.'
+    - q: 'Potete gestire le certificazioni per un mercato non elencato qui?'
+      a: 'Sì. Abbiamo spedito in oltre 50 paesi e possiamo coordinare certificazione e documentazione per la maggior parte dei mercati. Comunicaci il tuo paese di destinazione al momento della richiesta e confermeremo l''ambito di conformità specifico, oltre alle eventuali prove o documenti aggiuntivi richiesti.'
+    - q: 'Come vengono gestiti i costi di conformità?'
+      a: 'Ambito di conformità ed eventuali costi (test di laboratorio di terze parti, spese di certificazione) vengono dettagliati nella tua offerta durante la verifica di fattibilità. Nessun costo di conformità dopo la produzione. Le certificazioni standard (ISO 9001, BSCI) valgono a livello di fabbrica e non generano costi unitari.'
+
+cta:
+  title: 'Definisci i tuoi requisiti di conformità'
+  subtitle: 'Comunicaci i tuoi mercati target e confermeremo ambito di certificazione, requisiti di prova e pacchetto documentale — dettagliati nella tua offerta.'
+  actions:
+    - variant: primary
+      text: Inizia il briefing di progetto
+      href: /it/contact#project-brief
+    - text: Verifica certificazioni e sistema di qualità
+      href: /it/proof-center
+    - text: Processo di onboarding OEM
+      href: /it/oem-onboarding-guide

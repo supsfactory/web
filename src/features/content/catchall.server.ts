@@ -142,6 +142,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
   const esTranslated = hasContent('es')
   const frTranslated = hasContent('fr')
   const deTranslated = hasContent('de')
+  const itTranslated = hasContent('it')
   const page = getContentPage(path, locale)
   if (page) {
     return {
@@ -152,6 +153,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       esTranslated,
       frTranslated,
       deTranslated,
+      itTranslated,
       slug: page.slug,
       title: brandify(page.meta?.title ?? `${page.label} — ${SITE_NAME}`),
       description: brandify(page.meta?.description ?? ''),
@@ -171,6 +173,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         esTranslated,
         frTranslated,
         deTranslated,
+        itTranslated,
         product,
         title: brandify(product.metadata?.title ?? `${product.title} — ${SITE_NAME}`),
         description: brandify(product.metadata?.description ?? product.description ?? product.summary ?? ''),
@@ -192,6 +195,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         esTranslated,
         frTranslated,
         deTranslated,
+        itTranslated,
         post,
         title: brandify(post.metadata?.title ?? `${post.title} — ${SITE_NAME}`),
         description: brandify(post.metadata?.description ?? post.excerpt ?? ''),
@@ -213,6 +217,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         esTranslated,
         frTranslated,
         deTranslated,
+        itTranslated,
         slug: article.slug,
         title: brandify(`${article.title} — ${SITE_NAME}`),
         description: brandify(article.description ?? article.summary ?? ''),
@@ -233,6 +238,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         esTranslated,
         frTranslated,
         deTranslated,
+        itTranslated,
         slug: c.slug,
         title: brandify(`${c.title} — ${SITE_NAME}`),
         description: brandify(c.description ?? c.summary ?? ''),
@@ -252,6 +258,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       esTranslated,
       frTranslated,
       deTranslated,
+      itTranslated,
       origin: '',
       title: translate(d, 'content.seo.casesTitle', { siteName: SITE_NAME }),
       description: translate(d, 'content.seo.casesDesc'),
@@ -268,6 +275,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       esTranslated,
       frTranslated,
       deTranslated,
+      itTranslated,
       origin: '',
       title: translate(d, 'content.seo.researchTitle', { siteName: SITE_NAME }),
       description: translate(d, 'content.seo.researchDesc'),
@@ -285,6 +293,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         esTranslated,
         frTranslated,
         deTranslated,
+        itTranslated,
         slug: guide.slug,
         title: brandify(`${guide.title} — ${SITE_NAME}`),
         description: brandify(guide.intro[0] ?? ''),
@@ -304,6 +313,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         esTranslated,
         frTranslated,
         deTranslated,
+        itTranslated,
         origin: '',
         title: translate(d, 'content.seo.faqTitle', { siteName: SITE_NAME }),
         description: translate(d, 'content.seo.faqDesc'),

@@ -118,6 +118,8 @@ export type CatchAllData = {
   frTranslated: boolean
   /** True when a real German variant exists for this path. */
   deTranslated: boolean
+  /** True when a real Italian variant exists for this path. */
+  itTranslated: boolean
   /** Server-resolved widget index payloads for the page's sections. */
   index: AferIndexData
 } & (

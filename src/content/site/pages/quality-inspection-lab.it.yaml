@@ -1,0 +1,145 @@
+meta:
+  title: 'Laboratorio qualità & collaudi — collaudo SUP conforme ISO'
+  description: 'Controllo qualità indipendente per tavole SUP gonfiabili: prove di trazione, cicli di tenuta dell''aria, prove di pelatura delle cuciture e certificazione dei materiali.'
+back_text: 'Torna al centro R&S'
+home_label: 'Home'
+
+hero:
+  tagline: 'Laboratorio 06'
+  title: 'Laboratorio qualità & collaudi'
+  subtitle: 'Collaudi indipendenti — ogni test superato prima della consegna'
+  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp'
+  image_alt: 'Prova UV nel laboratorio di controllo qualità di Vatrad'
+
+answer:
+  label: 'Risposta breve'
+  text: 'Ogni tavola viene collaudata prima della spedizione rispetto alle specifiche pubblicate: controllo di tenuta della pressione al 100 % a 18.0 PSI per 24 ore (scarto automatico oltre 0.50 PSI di calo di pressione), prove di trazione e di pelatura delle cuciture secondo ISO 1421 e una check-list di montaggio a 100 punti. Il laboratorio riferisce direttamente alla direzione aziendale, non alla produzione, e può fermare qualsiasi consegna.'
+  verified: 'September 2026'
+
+intro: 'Ogni tavola che lascia la nostra officina porta la conferma di aver superato una serie definita di controlli di qualità e prove sui materiali. Il nostro laboratorio qualità & collaudi è una funzione indipendente all''interno dell''organizzazione — riferisce direttamente alla direzione aziendale, non alla produzione — garantendo così che nessuna pressione commerciale possa compromettere i gate di collaudo. Quando un lotto di materiale o una tavola finita non è conforme alla specifica pubblicata, il laboratorio ha l''autorità di sospendere la consegna finché la non conformità non è risolta.'
+
+content_html: |
+  <h2>Fiducia, ma verifica</h2>
+  <p>Il laboratorio opera nell'ambito di un sistema di gestione della qualità secondo i principi ISO 9001, e i nostri metodi di prova si basano, dove possibile, sulle norme ISO, ASTM ed EN. Teniamo registrazioni dettagliate di ogni test eseguito, creando così una catena di rintracciabilità completa dall'ingresso delle materie prime alla consegna finale della tavola.</p>
+
+  <h2>Attrezzature e capacità di collaudo</h2>
+  <table>
+    <thead><tr><th>Attrezzatura</th><th>Test eseguiti</th><th>Standard / Metodo</th></tr></thead>
+    <tbody>
+      <tr><td>Macchina di prova universale (50 kN)</td><td>Resistenza alla trazione (tessuto), resistenza alla pelatura (cuciture), comportamento alla propagazione del taglio</td><td>ISO 1421, ISO 4674</td></tr>
+      <tr><td>Banco di prova di tenuta dell'aria (programmabile)</td><td>Prova di resistenza a 1000 cicli di gonfiaggio/sgonfiaggio, prova di tenuta della pressione di 30 min</td><td>Interno (secondo il metodo ISO-6185)</td></tr>
+      <tr><td>Dispositivo di pelatura delle cuciture (pelatura motorizzata a 180°)</td><td>Resistenza alla pelatura delle cuciture saldate e incollate a 100 mm/min</td><td>ISO 1421 / ASTM D1876</td></tr>
+      <tr><td>Apparecchio di prova a colonna d'acqua</td><td>Resistenza alla penetrazione dell'acqua del tessuto (0–1000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Calibro di spessore digitale &amp; micrometro</td><td>Spessore del tessuto, spessore delle saldature, spessore dei film adesivi</td><td>ISO 2286-3</td></tr>
+      <tr><td>Camera climatica</td><td>Condizionamento termico (-40 °C a +80 °C) per test di rottura a freddo e invecchiamento termico</td><td>ISO 188, ISO 4675</td></tr>
+      <tr><td>Spettrofotometro colorimetrico</td><td>Misurazione del colore Delta-E dopo esposizione UV</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+    </tbody>
+  </table>
+
+  <h2>I gate di collaudo — dal materiale alla consegna</h2>
+  <p>Ogni tavola segue un piano qualità definito con punti di collaudo vincolanti. Nessuna tavola può saltare un gate; ogni gate deve essere controfirmato da un ispettore qualità prima che inizi la fase produttiva successiva.</p>
+
+  <div class="not-prose my-8">
+    <div class="relative">
+      <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-200 dark:bg-blue-800"></div>
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 1</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Controllo dei materiali in ingresso</p>
+            <p class="text-xs text-gray-500 mt-1">Lotto di tessuto, nucleo drop-stitch, produzione di colla, accessori — tutti verificati rispetto alla specifica di ingresso prima di essere rilasciati alla produzione.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 2</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Controllo delle saldature in processo</p>
+            <p class="text-xs text-gray-500 mt-1">Campioni di saldatura iniziali testati (pelatura + ispezione visiva) all'inizio di ogni turno di produzione.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 3</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Test dell'aria in camera</p>
+            <p class="text-xs text-gray-500 mt-1">Tavola pressurizzata a 18.0 PSI (pressione di esercizio 12–15 PSI) e mantenuta per 24 h. Un calo di pressione &gt; 0.50 PSI comporta lo scarto automatico. Dati registrati per ogni numero di serie.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 4</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Controllo prima della spedizione</p>
+            <p class="text-xs text-gray-500 mt-1">Tavola completa controllata: tutti gli accessori serrati, adesione del deck pad, allineamento della grafica, nessun difetto estetico. Check-list a 100 punti.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 5</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Certificazione finale</p>
+            <p class="text-xs text-gray-500 mt-1">Rapporti di prova compilati, protocolli di collaudo verificati, emesso il certificato di conformità (Certificate of Conformance).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Collaudi standard per ogni lotto</h2>
+  <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18.0 PSI nel test dell'aria in camera, mantenuti per 24 h</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">Un calo di pressione comporta lo scarto automatico</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">100 %</span>
+      <span class="text-xs text-gray-500">Camere testate con aria prima dell'assemblaggio</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
+      <span class="text-xs text-gray-500">Sistema di gestione della qualità</span>
+    </div>
+  </div>
+
+  <h2>Il nostro team qualità</h2>
+  <p>Il laboratorio è presidiato da un quality manager (10 anni di esperienza nella garanzia qualità marittima, ingegnere qualità certificato ASQ), due ispettori qualità (entrambi con certificazione NDT livello 2 per l'ispezione visiva) e un tecnico dei materiali responsabile di tutte le prove fisiche. Il team svolge verifiche di competenza annuali tramite un fornitore terzo indipendente, per garantire che i nostri risultati di prova restino accurati e riproducibili.</p>
+
+  <h2>Collaudi indipendenti per i clienti</h2>
+  <p>Il nostro laboratorio qualità &amp; collaudi è a disposizione per servizi di collaudo indipendenti. Se devi verificare una specifica di tessuto, validare un nuovo sistema adesivo o ottenere un rapporto di prova di terze parti per una qualificazione all'approvvigionamento, eseguiamo le prove secondo lo standard applicabile e rilasciamo un rapporto di prova certificato.</p>
+  <p>Esempi di recenti incarichi di collaudo di terze parti:</p>
+  <ul>
+    <li>Confronto della resistenza alla pelatura di cinque prodotti adesivi concorrenti per un programma di approvvigionamento europeo.</li>
+    <li>Studio di invecchiamento accelerato (UV + cicli termici) per una nuova formulazione PVC pigmentata arancione, con misurazioni intermedie regolari a intervalli di 500 h.</li>
+    <li>Validazione della tenuta dell'aria di 50 gruppi valvola prototipo per un nuovo design di tavola ad alta pressione.</li>
+  </ul>
+
+  <h2>Il nostro impegno verso di te</h2>
+  <p>Quando ricevi una tavola {SITE.name}, ricevi anche il suo fascicolo qualità — una registrazione compilata dei risultati di prova relativi alla tua specifica tavola. Certificato del lotto di tessuto, prove di pelatura delle cuciture, protocolli del test dell'aria in camera e check-list di collaudo pre-spedizione. Ogni numero è rintracciabile. Ogni ispettore è identificato. Non è solo carta — è la nostra promessa che ciò che abbiamo consegnato corrisponde a ciò che abbiamo specificato.</p>
+  <p>Se hai mai un problema di qualità, puoi contattare direttamente il laboratorio — i dati di contatto sono riportati sul tuo certificato di conformità. Prendiamo sul serio ogni richiesta e ci impegniamo a un'indagine formale entro 48 ore.</p>
+
+  <h2>Cosa succede quando una tavola non supera il collaudo?</h2>
+  <p>Una tavola non conforme non sparisce mai in silenzio. Il laboratorio segue una procedura di non conformità definita, affinché il problema venga contenuto, corretto e la sua ricorrenza prevenuta:</p>
+  <ul>
+    <li><strong>Isolamento</strong> — la tavola viene contrassegnata, rimossa dalla linea e registrata nel registro delle non conformità con il nome dell'ispettore e i criteri non superati.</li>
+    <li><strong>Rilavorazione o rottamazione</strong> — i difetti riparabili (ad es. una valvola, una saldatura del rail o un angolo del deck pad) vengono rilavorati da un operatore certificato e l'area riparata viene nuovamente testata secondo lo stesso standard. Le tavole che non possono raggiungere la specifica vengono rottamate, non declassate.</li>
+    <li><strong>Nuovo collaudo</strong> — ogni tavola rilavorata deve superare nuovamente l'intero gate interessato prima di poter rientrare nella linea di imballaggio.</li>
+    <li><strong>Rilascio</strong> — solo le tavole con tutti i gate controfirmati lasciano lo stabilimento. Il tasso di scarto, la causa e l'azione correttiva vengono riepilogate nel tuo rapporto di qualità del lotto.</li>
+  </ul>
+
+  <h2>La documentazione qualità che ricevi</h2>
+  <p>Ogni lotto viene spedito con un pacchetto documentale che il tuo team QC può verificare: il certificato di lotto (numeri di lotto di tessuto, colla e accessori), i protocolli di pelatura delle cuciture, i protocolli del test dell'aria in camera per ogni numero di serie, la check-list pre-spedizione a 100 punti firmata, il packing list e un protocollo fotografico delle tue tavole prima del carico.</p>
+
+cta:
+  title: 'Richiedi una check-list QC di esempio'
+  subtitle: 'Scopri gli esatti gate di collaudo, i metodi di prova e i documenti rispetto ai quali verrebbe controllato il tuo lotto — inviaci il tipo di tavola e la quantità.'
+  actions:
+    - variant: primary
+      text: Richiedi la check-list QC
+      href: /it/contact#quality-inquiry
+    - text: Il sistema di gate di collaudo in 7 fasi
+      href: /it/quality
+    - text: Laboratorio QC di fabbrica & download di rapporti di prova
+      href: /it/factory/quality-lab
+    - text: Standard per la gestione dei prodotti non conformi
+      href: /it/factory/non-conforming-control

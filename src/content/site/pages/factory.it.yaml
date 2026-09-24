@@ -1,0 +1,347 @@
+meta:
+  title: 'Fabbrica e produzione — OEM di SUP gonfiabili'
+  description: 'Visita la fabbrica Vatrad: impianto di 12,500 m² con taglio, saldatura ad alta frequenza, pressione, assemblaggio e laboratorio qualità per la produzione OEM/ODM di SUP gonfiabili.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'fabbrica SUP Cina'
+    - 'fabbrica paddle board gonfiabili'
+    - 'produttore OEM SUP'
+    - 'produzione SUP gonfiabili'
+hero:
+  tagline: Fabbrica
+  title: Fabbrica & produzione
+  subtitle: 'Fabbrica SUP di 12,500 m2 a Qingdao, Cina — produzione SUP su misura dalla materia prima PVC alla tavola da paddle gonfiabile finita'
+
+answer:
+  label: 'Risposta chiara'
+  text: 'Fabbrica certificata di SUP gonfiabili a Qingdao, Cina: ISO 9001, ISO 25649, BSCI, CE, REACH e RoHS. Impianto di 12,500 m² in 4 officine specializzate, oltre 350 dipendenti, più di 120,000 tavole prodotte ogni anno (10,000 tavole/mese su 4 linee automatizzate). Ogni tavola viene testata in pressione per 24 ore a 18.0 PSI, supera una checklist di assemblaggio a 100 punti e porta una rintracciabilità dei materiali di 10 anni.'
+  verified: 'September 2026'
+
+intro:
+  - 'Come divisione produttiva del **Qingdao Vatrad Group Co., Ltd.**, Vatrad controlla ogni fase della produzione di SUP gonfiabili — dall''ingresso dei materiali grezzi in PVC fino all''ispezione finale pre-spedizione della tavola da paddle finita. Il nostro stabilimento produttivo nella zona di sviluppo economico di Qingdao copre 12,500 metri quadrati e ospita officine dedicate al taglio del PVC, alla laminazione del nucleo drop-stitch, alla stampa digitale dei SUP, all''assemblaggio finale e al controllo qualità.'
+  - 'Integrando design, progettazione, prototipazione, produzione e test sotto lo stesso tetto eliminiamo le inefficienze della produzione su ordinazione e manteniamo il controllo diretto su qualità costruttiva, selezione dei materiali e tempi di consegna. Ogni SUP che lascia il nostro stabilimento viene costruito dalle nostre persone, con le nostre attrezzature, secondo i nostri standard.'
+
+stats:
+  - value: 12,500 m2
+    label: Superficie produttiva
+  - value: 350+
+    label: Professionisti
+  - value: 120,000+
+    label: SUP prodotti ogni anno
+  - value: ISO 9001
+    label: Qualità certificata
+
+intelligence_tagline: Intelligenza di fabbrica
+intelligence_title: Scopri le nostre capacità produttive
+
+intelligence_cards:
+  - title: Capacità produttiva
+    icon: C
+    icon_bg: blue
+    desc: 'Impianto di 12,500 m² che produce oltre 120,000 SUP/anno su linee per tavole SUP e attrezzatura di sicurezza. Oltre 350 dipendenti, 2 turni.'
+    metrics:
+      - label: MOQ
+        value: 'SUP: campione 1–2 / pilota 20–50 / quantità 90–100+'
+      - label: Tempi di consegna
+        value: '25–35 giorni'
+    link: /factory/capacity
+    link_label: Dettagli completi sulla capacità →
+  - title: Laboratorio qualità & test
+    icon: Q
+    icon_bg: green
+    desc: 'Laboratorio QC indipendente con 4 livelli di test: controllo materie prime (resistenza alla trazione, allo strappo, UV), mantenimento pressione 24h a 18.0 PSI, test di peeling delle cuciture e verifica della rigidità alla flessione su ogni tavola.'
+    metrics:
+      - label: Attrezzatura di laboratorio
+        value: 'Macchina di trazione, camera termica, vasca di rilevamento perdite'
+      - label: Standard
+        value: 'QMS: ISO 9001; Mercato: CE, AS 1799'
+    link: /factory/quality-lab
+    link_label: 'Procedure di laboratorio e attrezzatura →'
+  - title: Capacità OEM/ODM
+    icon: O
+    icon_bg: purple
+    desc: 'Servizi OEM/ODM end-to-end: design di stampi personalizzati, imballaggio private label, colori personalizzati delle tavole, grafiche del deck (stampa digitale e serigrafica) e imballaggio pronto per l''esportazione.'
+    metrics:
+      - label: Certificazioni
+        value: 'ISO 9001, BSCI, CE, REACH'
+      - label: Mercati di esportazione
+        value: '50+ paesi'
+    link: /factory/oem-capability
+    link_label: 'Servizi OEM completi →'
+  - title: Standard di ispezione della qualità
+    icon: I
+    icon_bg: orange
+    desc: 'Criteri di ispezione qualità specifici per progetto su IQC, IPQC, FQC e OQC: verifica di tenuta all''aria, controlli visivi e dimensionali, conferma degli accessori, rintracciabilità dei lotti e rilascio pre-spedizione — oltre a una governance controllata di non conformità e rilavorazione sulla tenuta all''aria.'
+    metrics:
+      - label: Copertura
+        value: 'Materiali → imballaggio finale'
+      - label: Download
+        value: 'Verbale QC, report PSI e documenti di rilavorazione (PDF)'
+    link: /factory/quality-inspection
+    link_label: 'Standard di ispezione e download →'
+  - title: Standard di controllo delle modifiche di rilavorazione
+    icon: C
+    icon_bg: blue
+    desc: 'Controllo formale delle modifiche ISO 9001 per i parametri di rilavorazione: ECR, classificazione del rischio, matrice di rilascio interfunzionale, ciclo chiuso in 9 fasi, validazione tecnica quantificata (18.0 PSI, 24 h di mantenimento, ΔP ≤ 0.2 PSI) e protezioni Poka-Yoke — con SOP bilingue QMS-SOP-QC-CC-001 Rev 2.0.'
+    metrics:
+      - label: Documento
+        value: 'QMS-SOP-QC-CC-001 Rev 2.0'
+      - label: Download
+        value: 'SOP di controllo modifiche e allegato di esecuzione (PDF)'
+    link: /factory/quality-change-control
+    link_label: 'Standard di controllo modifiche e download →'
+  - title: Controllo dei prodotti non conformi
+    icon: N
+    icon_bg: purple
+    desc: 'ISO 9001:2015 sezione 8.7 Controllo degli output non conformi: registrazione NCR, quarantena e blocco, disposizione in base alla gravità (capo linea / QC Manager + Ingegnere tecnico / MRB), rilavorazione controllata secondo istruzioni SRI, nuovo controllo indipendente al 100% e distruzione assistita — video di rottamazione protetto con SHA-256.'
+    metrics:
+      - label: Standard
+        value: 'ISO 9001:2015 sezione 8.7'
+      - label: Certificato di rottamazione
+        value: 'VAT-QA-SCRAP-CERT-2026'
+    link: /factory/non-conforming-control
+    link_label: 'Controllo dei prodotti non conformi e download →'
+  - title: Flusso di controllo qualità in 7 fasi
+    icon: Q
+    icon_bg: green
+    desc: 'L''intero flusso di controllo qualità di progetto, punto per punto: pianificazione qualità (PPM) → controllo ingresso merci → controllo di processo e primo articolo → gonfiaggio e tenuta all''aria → controllo finale → imballaggio e PSI → rilascio per la spedizione e rintracciabilità. Ogni punto mostra cosa viene controllato, come viene valutato e quale report bilingue viene generato.'
+    metrics:
+      - label: Punti
+        value: '01 → 07'
+      - label: Download
+        value: 'Dossier di report per punto (PDF)'
+    link: /quality
+    link_label: 'Verifica il flusso in 7 fasi →'
+
+workshops_section:
+  tagline: Officine
+  title: Officine di produzione
+  workshops:
+    - title: Taglio PVC & preparazione materiali
+      description: Le taglierine automatiche CNC lavorano tessuti in PVC, Hypalon e drop-stitch con precisione submillimetrica. L''annidamento ottimizzato al computer minimizza lo scarto di materiale e garantisce che ogni pannello rispetti le sue dimensioni di specifica prima della saldatura.
+      image: https://assets.supsfactory.com/images/sups/hero/production-dept.webp
+      alt: Taglierina CNC per PVC che prepara i pannelli di tessuto SUP gonfiabile nella fabbrica di Qingdao
+    - title: Saldatura camere & termosaldatura
+      description: Officina di saldatura dedicata con saldatrici ad aria calda e presse dielettriche ad alta frequenza. I saldatori ad aria calda uniscono e saldano le camere dei gommoni in PVC, mentre le saldature HF creano cuciture ermetiche ad alta resistenza che superano i requisiti.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      alt: Macchina di saldatura HF che sigilla le camere dei gommoni nella fabbrica di Qingdao
+    - title: Laminazione nucleo drop-stitch
+      description: I nuclei drop-stitch delle tavole SUP vengono incollati ai laminati esterni in PVC tramite laminazione a caldo. Migliaia di fili interni in poliestere collegano gli strati superiore e inferiore, creando una struttura rigida a 12-15 PSI. I rail band vengono incollati per fusione a tre strati per la resistenza dei bordi.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
+      alt: Linea di produzione di SUP gonfiabili con impianto di laminazione del nucleo drop-stitch nella fabbrica di Qingdao
+    - title: Stampa & decorazione SUP
+      description: Le tavole SUP vengono decorate tramite stampa digitale per grafiche a pieni colori e serigrafia per loghi e motivi ripetuti. Le stampanti digitali producono design del deck fotorealistici, mentre la serigrafia offre segni di marca durevoli e decisi.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
+      alt: Interno del reparto produttivo nella fabbrica di SUP gonfiabili di Qingdao
+    - title: Assemblaggio finale & attrezzatura
+      description: Linea di assemblaggio in cui valvole, anelli a D, maniglie, fin box e deck pad vengono installati su ogni tavola SUP. Ogni tavola segue una checklist di assemblaggio a 100 punti firmata dal capo squadra.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      alt: Reparto produttivo con postazioni di assemblaggio nella fabbrica di Qingdao
+    - title: Controllo qualità & ispezione
+      description: Ogni tavola completata supera prima della spedizione un test obbligatorio di ritenzione dell''aria, una verifica di peeling delle cuciture e un controllo completo del sistema. Il nostro laboratorio qualità opera in modo indipendente dalla produzione e riporta direttamente alla direzione.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
+      alt: Test di pressione di un SUP gonfiabile per la ritenzione dell''aria prima della spedizione nella fabbrica di Qingdao
+
+equipment_section:
+  tagline: Attrezzatura
+  title: Principale attrezzatura di produzione
+  view_full: Visualizza l''elenco completo delle attrezzature →
+  view_full_link: /factory/equipment
+  items:
+    - name: Taglierina automatica PVC
+      spec: Controllata CNC, precisione 0.1 mm
+    - name: Saldatrice ad aria calda
+      spec: Aria calda, 200°C–300 °C, per incollaggio camere
+    - name: Pressa di saldatura dielettrica HF
+      spec: 15 kW, saldatura cuciture ermetiche
+    - name: Pressa di laminazione nucleo drop-stitch
+      spec: Nuclei SUP fino a 14 ft
+    - name: Stampante digitale
+      spec: Grafiche deck SUP a pieni colori
+    - name: Macchina serigrafica
+      spec: Stampa loghi multicolore
+
+qc_section:
+  tagline: Controllo qualità
+  title: Processo di test e garanzia di qualità
+  subtitle: Ogni tavola supera prima della spedizione un test obbligatorio. Il nostro laboratorio qualità opera in modo indipendente dalla produzione e riporta direttamente alla direzione.
+  steps:
+    - step: '1'
+      title: Controllo materie prime
+      desc: I tessuti in PVC, Hypalon e drop-stitch vengono sottoposti a prove di resistenza alla trazione, test di strappo e verifica della resistenza ai raggi UV prima che un lotto entri in produzione.
+    - step: '2'
+      title: Test di ritenzione dell''aria di 24 ore
+      desc: Ogni camera viene gonfiata a 18.0 PSI e mantenuta per 24 ore. Una caduta di pressione superiore a 0.50 PSI attiva il rifiuto automatico e il ricontrollo delle cuciture.
+    - step: '3'
+      title: Test di carico e bilanciamento
+      desc: Le tavole finite vengono gonfiate alla pressione nominale e controllate per riempimento simmetrico, rigidità a 15 PSI e stabilità sotto carico. Ogni tavola viene testata in acqua nella nostra vasca di prova prima del controllo finale.
+
+oem_section:
+  tagline: Progetti OEM
+  title: Casi di studio di partnership con marchi & OEM
+  subtitle: Dalla concept alla produzione — come aiutiamo i marchi globali a lanciare e scalare le loro linee di SUP gonfiabili.
+  cases:
+    - challenge: Un rivenditore outdoor europeo aveva bisogno di una linea di SUP private label con grafiche deck uniche, PVC eco-friendly e imballaggio pronto per il retail — tutto consegnato in 60 giorni.
+      solution: Sviluppo di file di stampa digitale personalizzati, approvvigionamento di PVC conforme REACH e compressione della fase di campione da 3 round a 1 grazie al team di design ospitato nella nostra fabbrica di Qingdao.
+      result: 'Produzione in 25–35 giorni dall''ordine firmato, con la prima consegna entro la finestra dei 60 giorni. 2,400 unità su 4 SKU. Ordine ripetuto prima che il primo lotto fosse completamente consegnato.'
+      disclaimer: 'Riepilogo di progetto anonimizzato — il tipo e l''ambito del progetto sono rappresentativi; i risultati concreti non sono verificabili in modo indipendente.'
+    - challenge: Una startup americana di sport acquatici aveva bisogno di un SUP drop-stitch ad alte prestazioni con forma personalizzata, imballaggio in co-branding e certificazione BSCI per il retail.
+      solution: Adattamento di una forma SUP esistente con contorno modificato, sviluppo di grafiche di imballaggio in co-branding e fornitura della documentazione completa di audit BSCI.
+      result: 'Posizionamento riuscito presso i principali rivenditori outdoor statunitensi, con forte slancio grazie a oltre 5,000 unità vendute nel primo anno e un tasso di completamento del 98%.'
+      disclaimer: 'Riepilogo di progetto anonimizzato — il tipo e l''ambito del progetto sono rappresentativi; i risultati concreti non sono verificabili in modo indipendente.'
+    - challenge: Un distributore australiano aveva bisogno di una serie SUP certificata CE con colori personalizzati e conformità agli standard australiani.
+      solution: Produzione di campioni di pre-serie con 4 varianti di colore e coordinamento dei test di conformità di terze parti.
+      result: 'Lancio di una serie SUP a 3 modelli nel mercato AU/NZ. Seguito da un successo in appalto governativo per 12 SUP di pattuglia.'
+      disclaimer: 'Riepilogo di progetto anonimizzato — il tipo e l''ambito del progetto sono rappresentativi; i risultati concreti non sono verificabili in modo indipendente.'
+
+faq_section:
+  tagline: FAQ
+  title: Domande frequenti su B2B & OEM
+  questions:
+    - q: Qual è la quantità minima d''ordine (MOQ) per le tavole SUP gonfiabili OEM?
+      a: 'Il MOQ viene confermato in base alla configurazione del progetto e non da un numero fisso — scafo e attrezzatura, varianti di colore e PVC, grafiche, imballaggio e accessori. La produzione standard in serie gira con 90–100+ unità per lotto da una bobina completa di drop-stitch da 150 m, il co-branding in piccoli lotti parte da 5–10 unità e ogni progetto attraversa le fasi di campione (1–2 unità) e pilota (20–50 unità). Consulta la nostra guida MOQ & branding flessibile per la logica completa di calcolo.'
+    - q: Vatrad possiede una certificazione BSCI?
+      a: 'Sì. La nostra fabbrica detiene una certificazione di conformità sociale BSCI valida (report di audit disponibile su richiesta). Manteniamo inoltre ISO 9001 per la gestione della qualità. La certificazione CE si applica ai modelli destinati al mercato UE; l''ambito viene confermato per ogni progetto. La documentazione di conformità REACH e RoHS viene fornita con ogni ordine OEM.'
+    - q: Qual è il tipico tempo di consegna per un ordine OEM?
+      a: 'Il tempo di consegna standard è di 25–35 giorni da PO e acconto confermati per la produzione OEM in volume. Il design di forme personalizzate aggiunge 15–20 giorni per la realizzazione dello stampo. La produzione express è disponibile per ordini urgenti e picchi stagionali. I campioni prototipo sono pronti in genere entro 7–12 giorni.'
+    - q: Gestite la documentazione commerciale di esportazione?
+      a: 'Sì. Il nostro team gestisce internamente la documentazione commerciale di esportazione e lo sdoganamento, e spediamo in oltre 50 paesi nei mercati UE, USA, AU e asiatici.'
+
+b2b_moq: 'MOQ confermato in base alla configurazione del progetto: campione 1–2, pilota 20–50, quantità 90–100+ (per bobina da 150 m); co-branding in piccoli lotti da 5–10 unità.'
+
+production_flow:
+  tagline: Flusso di produzione
+  title: Dal materiale alla tavola finita
+  subtitle: Ogni tavola attraversa 6 fasi di produzione con punti di controllo QC in ogni passaggio. Nessuna scorciatoia, nessuna ispezione saltata.
+  stages:
+    - stage: '01'
+      title: Ingresso merci & QC di ingresso
+      description: 'Tutti i materiali in ingresso vengono registrati nel nostro sistema ERP con numero di lotto. Le bobine di tessuto PVC, i nuclei drop-stitch, le valvole, gli adesivi e i raccordi vengono tenuti in quarantena fino al rilascio QC.'
+      qc_check: 'Resistenza alla trazione (ASTM D751), resistenza allo strappo (ISO 4674), misurazione spessore, viscosità adesivi, scansione difetti visivi'
+      qc_threshold: '100% dei lotti testati. Rifiuto se resistenza alla trazione < 90% della specifica, resistenza allo strappo < minimo di spec. o presenza di un difetto visivo'
+      responsibility: Team QC di ingresso (3 ispettori)
+    - stage: '02'
+      title: Taglio CNC & preparazione materiali
+      description: 'L''annidamento ottimizzato al computer dispone i pannelli sulla materia prima PVC per minimizzare gli scarti. Le taglierine automatiche CNC mantengono una precisione di posizionamento di 0.1 mm.'
+      qc_check: 'Verifica dimensionale contro i file CAD-DXF, ispezione della qualità dei bordi, verifica del numero di pannelli'
+      qc_threshold: 'Misurato ogni 20° pannello. Tolleranza ±0.5 mm. Rifiutare il lotto se >2% fuori tolleranza'
+      responsibility: Capo dell''officina di taglio
+    - stage: '03'
+      title: Saldatura & incollaggio drop-stitch
+      description: 'I nuclei drop-stitch vengono incollati ai laminati esterni in PVC tramite laminazione a caldo. Le camere vengono saldate con HF o aria calda. I rail band vengono incollati per fusione a tre strati.'
+      qc_check: 'Test di peeling ogni 50 unità (ASTM D751), misurazione larghezza saldatura, verifica log temperatura aria calda, ispezione visiva delle cuciture in controluce'
+      qc_threshold: 'Resistenza al peeling min. 8 N/cm. Tolleranza larghezza saldatura ±1 mm. Scanalatura visibile = rifiuto'
+      responsibility: QC saldatura (2 ispettori per turno)
+    - stage: '04'
+      title: Assemblaggio & attrezzatura
+      description: 'Le tavole entrano nell''assemblaggio finale dove convergono tutti i componenti: pannelli di deck e scafo saldati, valvole installate, anelli a D, maniglie, fin box e borsa di trasporto montati. Ogni unità segue una checklist di assemblaggio a 100 punti.'
+      qc_check: 'Rilascio checklist a 100 punti per unità, test funzionale valvola (10 cicli apertura/chiusura), verifica coppia raccordi, ispezione visiva'
+      qc_threshold: 'Politica zero difetti sui componenti critici per la sicurezza (valvole, anelli a D, maniglie). Cosmetici minori: AQL 2.5 (ISO 2859)'
+      responsibility: Capo squadra assemblaggio + QC di linea
+    - stage: '05'
+      title: Test di pressione & blocco qualità
+      description: 'Ogni camera viene gonfiata a 18.0 PSI (per un SUP con rating di 12–15 PSI) e mantenuta per 24 ore. I sensori di pressione registrano in modo continuo. Le camere con una caduta di pressione superiore a 0.50 PSI vengono rifiutate e inviate al ricontrollo delle cuciture.'
+      qc_check: 'Registro mantenimento pressione 24h, calibrazione sensori verificata quotidianamente, misurazione pressione compensata in temperatura, test cuciture dopo riparazione'
+      qc_threshold: 'Max. 0.50 PSI di caduta di pressione in 24h a temperatura stabile. Ogni camera che supera questo = nuovo test al 100% dell''intero lotto di produzione'
+      responsibility: Laboratorio qualità (indipendente dalla produzione, riporta alla direzione)
+    - stage: '06'
+      title: Controllo finale & imballaggio
+      description: 'Controllo visivo e funzionale finale. Difetti superficiali, coerenza del colore, verifica etichette/BIN, integrità dell''imballaggio e completezza degli accessori. Le unità vengono imballate sottovuoto, inserite nei cartoni e pallettizzate a strati per il carico in container.'
+      qc_check: 'Ispezione visiva completa, checklist accessori per SKU, drop test imballaggio (1 m, campione), verifica scansione etichette/codici a barre'
+      qc_threshold: 'AQL 2.5 per difetti gravi, AQL 4.0 per difetti lievi. Tolleranza zero per difetti di sicurezza. 100% delle unità ispezionate visivamente'
+      responsibility: Team QC finale (4 ispettori) + capo squadra imballaggio
+
+workforce:
+  tagline: Le nostre persone
+  title: Forza lavoro & competenze
+  engineers: 25+
+  engineers_detail: 'Ingegneri in R&S, design stampi, laboratorio materiali e progettazione di produzione. In media oltre 7 anni di esperienza nella produzione di gonfiabili.'
+  shift_pattern: '2 turni/giorno (07:00–15:30, 15:30–00:00). Turno notturno opzionale per ordini urgenti.'
+  training: 'Formazione QC mensile, esercitazioni di sicurezza trimestrali, valutazione annuale delle competenze. Le nuove assunzioni completano un''introduzione di 40 ore prima di lavorare sulla linea di produzione.'
+  departments:
+    - name: R&S & progettazione
+      count: 25+
+      role: Design di prodotto, progettazione stampi, laboratorio materiali
+    - name: Taglio & preparazione materiali
+      count: 15
+      role: Taglio CNC, preparazione pannelli, movimentazione materiali
+    - name: Saldatura & laminazione
+      count: 40
+      role: Saldatura HF, saldatura ad aria calda, incollaggio drop-stitch
+    - name: Laminazione nuclei SUP
+      count: 30
+      role: Laminazione drop-stitch, incollaggio a caldo, fusione rail band
+    - name: Assemblaggio & attrezzatura
+      count: 35
+      role: Assemblaggio finale, installazione raccordi, controllo sistema
+    - name: Controllo qualità
+      count: 12
+      role: QC ingresso, QC di processo, controllo finale, test di laboratorio
+    - name: Logistica & imballaggio
+      count: 20
+      role: Imballaggio, carico container, documentazione commerciale di esportazione
+    - name: Management & amministrazione
+      count: 15
+      role: Vendite, approvvigionamento, HR, finanza, conformità
+
+material_traceability:
+  tagline: Rintracciabilità
+  title: Tracciamento dei materiali & controllo lotti
+  description: Ogni lotto di materia prima riceve un numero di lotto univoco nel nostro sistema ERP. Dall''ingresso fino alla produzione e al prodotto finale, la distinta base di ogni tavola rimanda al lotto originale del fornitore. Questo consente una piena rintracciabilità a monte per qualsiasi richiesta di qualità o conformità.
+  system: ERP personalizzato (sistema interno del Qingdao Vatrad Group) + marcature fisiche dei lotti su ogni ordine di lavoro
+  coverage: '100% del materiale di produzione — PVC, Hypalon, tessuto drop-stitch, adesivi, valvole, raccordi, imballaggio'
+  records_retained: 10 anni (secondo requisito CE 2013/53/UE)
+  suppliers:
+    - material: PVC di qualità marina
+      source: Fornitori cinesi e coreani
+      certified: ISO 9001, REACH, RoHS
+    - material: 'Hypalon (CSM)'
+      source: Fornitore giapponese
+      certified: ISO 9001, REACH
+    - material: Tessuto drop-stitch
+      source: Tessitura propria + partner esterno
+      certified: QC interno + fornitore ISO 9001
+    - material: Valvole & raccordi
+      source: Fornitori OEM cinesi
+      certified: ISO 9001, certificati materiali per lotto
+
+qc_dashboard:
+  tagline: QC in cifre
+  title: Metriche di controllo qualità
+  subtitle: Dati reali di superato/non superato dalla nostra linea di produzione. Il nostro laboratorio qualità opera in modo indipendente dalla produzione e riporta direttamente alla direzione.
+  stats:
+    - value: 100%
+      label: Unità testate in pressione
+      detail: Ogni tavola, ogni camera, ogni lotto
+    - value: '<5%'
+      label: Max. caduta di pressione consentita
+      detail: Su 24h a 18.0 PSI
+    - value: AQL 2.5
+      label: Soglia per difetti gravi
+      detail: Secondo standard di campionamento ISO-2859
+    - value: 24h
+      label: Durata del mantenimento pressione
+      detail: Ogni tavola, ogni camera
+    - value: 18 PSI
+      label: Pressione di test vs. nominale
+      detail: Margine di sicurezza su ogni camera
+    - value: 0%
+      label: Tolleranza sui difetti di sicurezza
+      detail: Valvole, anelli a D, cuciture, galleggiabilità
+
+process_cta:
+  title: Guarda il nostro processo di produzione
+  desc: Segui un SUP in ogni fase della produzione — dalla materia prima alla tavola pronta per l''acqua.
+  label: Visualizza il processo di produzione →
+  link: /factory/process
+
+evidence_review:
+  tagline: 'Prove & verifica'
+  title: 'Prove di fabbrica — Verificate'
+  body: 'Tutte le dichiarazioni di produzione in questa pagina vengono verificate dal nostro Manufacturing Engineering Team nel sito di Laixi, Qingdao. Certificati, registrazioni di ispezione QC, report di test di pressione e strutturali e registrazioni di rintracciabilità dei lotti sono disponibili su richiesta. Specifiche verificate per l''ultima volta a settembre 2026.'
+
+cta:
+  title: 'Esplora la nostra fabbrica'
+  actions:
+    - text: Checklist di audit della fabbrica
+      href: /factory-audit-checklist

@@ -1,0 +1,67 @@
+meta:
+  title: "MOQ SUP gonfiabile — le quantità minime d'ordine spiegate semplicemente"
+  description: "Livelli di MOQ chiari per la produzione di SUP gonfiabili personalizzati: 5–10 co-branding, 20–50 pilota, 90–100+ volume per rotolo. Albero decisionale in base al grado di personalizzazione."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Risposta diretta"
+    directAnswer:
+      answer: "I run pilota su piattaforme esistenti partono da 20–50 pezzi; il MOQ standard è di 90–100+ pezzi per rotolo di drop-stitch da 150 m (~180–220 tavole)."
+      condition: "Il MOQ specifico dipende dalla forma della tavola, dal rotolo di materiale, dalla stampa, dall'imballaggio e dal fatto che sia o meno necessario un nuovo stampo."
+      value: "5–10 co-branding · 20–50 pilota · 90–100+ per rotolo volume"
+      verifiedDate: "September 2026"
+      sourceType: "registrazione-fabbrica"
+    body: |
+      Il MOQ da SUPsfactory è scaglionato in base al grado di personalizzazione, non è un
+      numero unico e fisso. Ogni livello corrisponde a uno scenario di produzione concreto:
+
+      | Scenario | MOQ | Unità | Condizione |
+      |----------|-----|-------|-----------|
+      | Piattaforma esistente, solo sovraimpressione del logo | 5–10 pezzi | per design | Stessa forma, stesso rotolo di materiale, stessa variante di colore |
+      | Grafica / EVA / imballaggio personalizzati su piattaforma esistente | 20–50 pezzi | lotto pilota | Stessa forma; il nuovo artwork richiede una prova visiva |
+      | Produzione in volume standard (qualsiasi piattaforma) | 90–100+ pezzi | per rotolo da 150 m (~180–220 tavole) | Per rotolo di materiale; più SKU = rotoli separati |
+      | Nuova forma / forma propria | 90–100+ pezzi | run di produzione | La costruzione dello stampo aggiunge 15–20 giorni; costi di stampo una tantum |
+
+  - title: 'Cosa conta come "rotolo di materiale"?'
+    body: |
+      Un rotolo di 150 metri di tessuto drop-stitch produce, a seconda delle misure della tavola (in genere
+      10–11 ft), circa 180–220 tavole. Ogni SKU propria — cioè una combinazione diversa di misura, colore
+      o materiale — richiede un proprio rotolo e quindi un proprio MOQ.
+
+      Per questo il MOQ viene indicato "per rotolo da 150 m" invece che "per design": due
+      varianti di colore della stessa forma di tavola sono due rotoli, due MOQ.
+
+  - title: "Co-branding vs. pilota vs. volume"
+    body: |
+      **Co-branding (5–10 pezzi)**: il tuo logo su una piattaforma esistente già in produzione per
+      un''altra marca. Nessuna modifica dell''artwork oltre al posizionamento del logo.
+      Il percorso più rapido verso un campione brandizzato.
+
+      **Lotto pilota (20–50 pezzi)**: grafica personalizzata, design del tappetino antiscivolo in EVA
+      o imballaggio su una forma di piattaforma esistente. Richiede l''approvazione della prova
+      visiva prima della produzione. Ideale per testare un nuovo look sul mercato.
+
+      **Produzione in volume (90–100+ pezzi per rotolo)**: run di produzione completo con qualsiasi
+      combinazione di personalizzazioni. È il livello commerciale standard. Ogni
+      rotolo di materiale produce circa 180–220 tavole.
+
+  - title: "MOQ per forme proprie"
+    body: |
+      Se il tuo design richiede una nuova forma di tavola (non solo nuova grafica su una
+      forma esistente), occorre creare uno stampo proprio. Questo avviene al livello di volume
+      (90–100+ pezzi), perché l''investimento nello stampo richiede un run di produzione per
+      essere ammortizzato. La costruzione dello stampo aggiunge 15–20 giorni al lead time standard.
+
+      Proprietà dello stampo: lo stampo è tuo. Viene custodito nel nostro stabilimento e
+      utilizzato esclusivamente per i tuoi run di produzione.
+
+  - title: "Ordini di campioni"
+    body: |
+      Campioni di pre-produzione disponibili con 1–2 tavole per la conferma di vestibilità/finitura.
+      Vengono realizzati a mano secondo la tua specifica e richiedono in genere
+      7–12 giorni. Il costo dei campioni viene accreditato sul tuo primo ordine di volume.
+
+evidence_review:
+  tagline: 'Prove & verifica'
+  title: 'SPECIFICHE VERIFICATE'
+  body: 'Tutte le dichiarazioni di produzione di questa pagina sono verificate dal nostro team di Manufacturing Engineering presso lo stabilimento di Laixi, Qingdao. Certificati, protocolli di ispezione QC, rapporti di prova di pressione e struttura e protocolli di tracciabilità dei lotti sono disponibili su richiesta. Specifiche verificate per l''ultima volta: settembre 2026.'

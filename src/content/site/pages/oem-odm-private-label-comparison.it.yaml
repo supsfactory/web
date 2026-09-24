@@ -1,0 +1,128 @@
+meta:
+  title: 'Produzione SUP OEM vs. ODM vs. Private Label — guida al confronto'
+  description: 'Produzione SUP OEM vs. ODM vs. Private Label a confronto: definizioni, proprietà, punti di ingresso del MOQ, tempi di consegna, attrezzature, regole IP e criteri di scelta.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM vs ODM vs Private Label'
+    - 'Confronto produzione SUP'
+    - 'Produzione di paddle board personalizzate'
+    - 'OEM SUP China'
+    - 'Sviluppo SUP ODM'
+    - 'Private Label SUP'
+
+hero:
+  tagline: 'Scegli il tuo modello di collaborazione'
+  title: 'OEM vs. ODM vs. Private Label — quale modello si adatta al tuo progetto?'
+  subtitle: 'Tre modi di collaborare con una fabbrica di SUP, ciascuno con proprietà, investimenti e compromessi sulla velocità diversi. Questa guida spiega le differenze, così scegli il percorso giusto prima della tua prima richiesta.'
+
+answer:
+  label: 'Confronto rapido'
+  text: 'OEM: possiedi design e specifica — produciamo secondo i tuoi disegni. ODM: il nostro team tecnico sviluppa la tavola dal tuo briefing — approvi prima della produzione. Private Label: il tuo marchio su una piattaforma esistente collaudata senza modifiche strutturali — il percorso più rapido verso il mercato. Tutti e tre i percorsi passano per la stessa fabbrica, lo stesso sistema QC e lo stesso team export a Qingdao, Cina.'
+  verified: 'Settembre 2026'
+
+comparison_table:
+  tagline: 'Fianco a fianco'
+  title: 'OEM / ODM / Private Label a confronto'
+  subtitle: 'Differenze essenziali su proprietà del design, MOQ, attrezzature, tempi di consegna e proprietà intellettuale.'
+  headers:
+    dimension: Dimensione
+    oem: Produzione OEM
+    odm: Sviluppo ODM
+    pl: Private Label
+  rows:
+    - dimension: 'Chi progetta la tavola?'
+      oem: 'Fornisci specifica, disegni o una tavola di riferimento'
+      odm: 'Il team tecnico della fabbrica sviluppa dal tuo briefing'
+      pl: 'Piattaforma di fabbrica esistente — nessuno sforzo di design'
+    - dimension: 'Proprietà del design e IP'
+      oem: 'Possiedi tutti i design, gli stampi e la proprietà intellettuale'
+      odm: 'Possiedi il design finale approvato; la fabbrica detiene l''IP del processo di sviluppo'
+      pl: 'La fabbrica possiede il design della piattaforma; tu possiedi marchio e grafica'
+    - dimension: 'Stampo / attrezzatura'
+      oem: 'Stampo dedicato necessario per nuove forme — tariffa unica per l''attrezzatura, 15–20 giorni aggiuntivi'
+      odm: 'Può richiedere uno stampo dedicato a seconda della specifica — stessa pianificazione attrezzature'
+      pl: 'Nessuno stampo nuovo — si usa l''attrezzatura della piattaforma esistente'
+    - dimension: 'Quantità minima d''ordine'
+      oem: '90–100+ unità per configurazione approvata'
+      odm: '90–100+ unità per configurazione approvata; lotti pilota da 20–50'
+      pl: '5–10 unità (co-branding) o 20–50 (lotto pilota su piattaforma esistente)'
+    - dimension: 'Tempo di consegna tipico'
+      oem: '25–35 giorni + 15–20 giorni di attrezzature se nuovo stampo'
+      odm: '25–35 giorni + iterazione di sviluppo (varia con la complessità)'
+      pl: '25–35 giorni (nessun ritardo di attrezzaggio)'
+    - dimension: 'Grado di personalizzazione'
+      oem: 'Totale — forma, costruzione, materiali, grafica, imballaggio'
+      odm: 'Totale — la fabbrica propone, tu approvi ogni elemento'
+      pl: 'Solo grafica e imballaggio — nessuna modifica strutturale'
+    - dimension: 'Processo del campione'
+      oem: '1–2 campioni prototipo in 7–12 giorni dopo l''approvazione della specifica'
+      odm: '1–2 campioni prototipo in 7–12 giorni dopo l''approvazione del design'
+      pl: '1–2 campioni in 7–12 giorni — piattaforma già validata'
+    - dimension: 'Ideale per'
+      oem: 'Acquirenti con design esistenti, tavole di riferimento o specifiche dettagliate'
+      odm: 'Acquirenti con idee di prodotto o requisiti di mercato, ma senza specifica dettagliata'
+      pl: 'Acquirenti che vogliono tavole brandizzate in fretta senza sviluppo prodotto'
+
+scenario_cards:
+  tagline: 'Quando scegliere quale percorso'
+  title: 'Scenari reali'
+  subtitle: 'Situazioni comuni degli acquirenti e modello di collaborazione consigliato.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Hai specifiche complete e possiedi il design'
+      desc: 'Hai disegni CAD, una tavola di riferimento o un foglio di specifica dettagliato con misure, materiali, costruzione e requisiti di imballaggio. Scegli OEM — produciamo esattamente secondo la tua specifica.'
+      link: '/it/factory/oem-capability'
+      link_label: 'Dettagli produzione OEM'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Hai un concetto di prodotto, ma nessuna specifica tecnica'
+      desc: 'Conosci mercato di riferimento, fascia di prezzo e requisiti di prestazione, ma ti serve supporto tecnico per sviluppare la tavola. Scegli ODM — il nostro team sviluppa dal tuo briefing e tu approvi prima della produzione.'
+      link: '/it/odm-manufacturing'
+      link_label: 'Dettagli sviluppo ODM'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Ti servono tavole brandizzate in fretta, senza sviluppo prodotto'
+      desc: 'Sei un distributore, un resort o un noleggiatore e vuoi il tuo logo su tavole di qualità senza investire nello sviluppo prodotto. Scegli Private Label — il percorso più rapido dal concetto alla consegna.'
+      link: '/it/solutions/private-label-sup'
+      link_label: 'Dettagli Private Label'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Gestisci un resort, un club o una flotta di noleggio'
+      desc: 'Ti servono pacchetti SUP duraturi per un uso ad alta frequenza, con coerenza dei lotti, ricambi e gestione dei colori tra i riordini. Scegli il nostro Commercial Fleet Program.'
+      link: '/it/solutions/resort-sup'
+      link_label: 'Dettagli Commercial Fleet'
+
+ip_rules:
+  tagline: 'Protezione della proprietà intellettuale'
+  title: 'Come proteggiamo i tuoi design e il tuo marchio'
+  subtitle: 'Indipendentemente dal modello di collaborazione, il tuo artwork, i tuoi stampi e i tuoi file di specifica restano di tua proprietà.'
+  body: |
+    **NDA prima dello scambio di file.** Firmiamo un accordo di non divulgazione prima di ogni scambio di file tecnici — tempo di risposta standard entro 4 ore lavorative.
+
+    **Nessun riutilizzo dei design.** Il tuo artwork, i tuoi stampi e i tuoi file di specifica non vengono mai condivisi o venduti ad altri clienti. Gli stampi OEM appartengono in esclusiva a te. I design ODM vengono approvati da te prima della produzione. Le piattaforme Private Label sono strutture condivise, ma la tua grafica e il tuo branding sono esclusivi.
+
+    **Solo B2B.** Produciamo esclusivamente sotto i marchi dei nostri clienti. Non vendiamo ai consumatori finali e non entriamo in concorrenza con i nostri clienti in nessun mercato.
+
+    **Proprietà degli stampi.** Gli stampi dedicati pagati dall''acquirente appartengono all''acquirente. Li immagazziniamo e li manteniamo, ma non possiamo usarli per altri clienti senza autorizzazione scritta.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Domande frequenti su OEM, ODM e Private Label'
+  items:
+    - q: 'Posso passare dal Private Label all''OEM in seguito?'
+      a: 'Sì. Molti clienti partono con una produzione Private Label o pilota per validare il mercato, poi investono in attrezzature dedicate per un programma OEM completo una volta dimostrata la domanda. La stessa fabbrica e lo stesso sistema QC supportano entrambi i percorsi.'
+    - q: 'ODM significa che la fabbrica possiede il mio marchio?'
+      a: 'No. Con l''ODM possiedi il tuo marchio, la tua grafica e il tuo imballaggio. La fabbrica sviluppa la struttura della tavola dal tuo briefing e tu approvi il design prima della produzione. La fabbrica mantiene l''IP del processo di sviluppo, ma la specifica di prodotto approvata è tua.'
+    - q: 'Il Private Label è di qualità inferiore rispetto all''OEM?'
+      a: 'No. Tutti e tre i percorsi passano per la stessa fabbrica, lo stesso sistema QC e lo stesso team export. Le tavole Private Label vengono costruite su piattaforme collaudate e validate, con il test completo di pressione 18-PSI/24 ore e la stessa checklist di montaggio a 100 punti.'
+    - q: 'E se non sono sicuro di quale modello scegliere?'
+      a: 'Contattaci con la tua situazione — il nostro team tecnico consiglia il percorso più pratico in base ai tuoi requisiti di prodotto, al tuo programma e ai tuoi obiettivi di quantità. Non c''è alcun obbligo prima della verifica della specifica.'
+    - q: 'Posso ricevere campioni prima di decidere il modello?'
+      a: 'Sì. 1–2 campioni prototipo partono in 7–12 giorni. I costi dei campioni vengono accreditati sul tuo ordine di massa. Così puoi valutare costruzione e qualità prima di qualsiasi impegno sulla quantità.'
+
+cta:
+  title: 'Pronto a discutere il tuo progetto SUP?'
+  subtitle: 'Raccontaci i tuoi requisiti di prodotto, il tuo mercato e i tuoi obiettivi di quantità — ti consigliamo il percorso di collaborazione più pratico.'
+  button: 'Avvia il tuo progetto SUP'
+  note: 'Risposta entro 1 giorno lavorativo · NDA disponibile prima dello scambio di file'

@@ -1,0 +1,109 @@
+meta:
+  title: 'Processo di produzione — dalla materia prima al SUP'
+  description: 'Dalla materia prima al SUP pronto per l''acqua: ogni fase del processo produttivo Vatrad sotto il nostro controllo — dal taglio e la saldatura al collaudo.'
+  dateModified: '2026-08'
+  keywords:
+    - 'processo di produzione sup'
+    - 'fabbrica sup gonfiabili'
+    - 'fasi produzione paddle board'
+    - 'saldatura pvc sup'
+hero:
+  tagline: Processo
+  title: Processo di produzione
+  subtitle: Dalla materia prima al SUP pronto per l''acqua — ogni passo sotto il nostro controllo
+  back_label: Torna alla fabbrica
+  back_link: /factory
+
+answer:
+  label: 'Risposta chiara'
+  text: 'Le tavole attraversano cinque fasi controllate: controllo dei materiali (1–2 giorni), taglio CNC automatico (<5% di scarto, 2–4 ore per kit), termosaldatura delle camere con cuciture rinforzate in RF (1–2 giorni per tavola), incollaggio del nucleo drop-stitch e assemblaggio finale con test di ritenzione aria e di carico al 100% prima dell''imballaggio.'
+  verified: 'September 2026'
+
+intro: A differenza dei marchi che esternalizzano la produzione a fabbriche terze, Vatrad possiede e gestisce l''intera catena produttiva. Questa integrazione verticale ci consente di mantenere uno stretto controllo qualità in ogni fase, rispondere rapidamente ai requisiti personalizzati dei clienti e garantire una qualità di prodotto costante partita dopo partita. Ecco come viene costruita una tavola SUP nel nostro impianto.
+
+steps:
+  - step: '01'
+    title: Ingresso materiali & controllo
+    description: Ogni partita in ingresso di tessuto PVC, stuoia in fibra di vetro, resina e raccordi viene controllata contro la specifica. I campioni di tessuto vengono testati per resistenza alla trazione, uniformità dello spessore e resistenza ai raggi UV prima del rilascio alla produzione. I materiali non conformi vengono bloccati e rispediti.
+    duration: 1–2 giorni
+  - step: '02'
+    title: Taglio PVC automatico
+    description: <p>I tessuti rilasciati vengono stesi sulla taglierina CNC automatica e tagliati con precisione submillimetrica. L''annidamento ottimizzato al computer dispone i pannelli per minimizzare gli scarti — tipicamente sotto il 5%. I pannelli tagliati vengono etichettati per modello SUP e camera, quindi raggruppati e trasferiti all''officina di saldatura.</p>
+    duration: 2–4 ore per kit di tavola
+  - step: '03'
+    title: Termosaldatura & saldatura camere
+    description: I pannelli vengono imbastiti e uniti con termosaldatrici a temperature di aria calda controllate tra 200–300 °C. Le cuciture principali vengono rinforzate con saldatura dielettrica RF per giunzioni ermetiche e ad alta resistenza. Le camere finite vengono gonfiate a 18.0 PSI per il mantenimento di 24 ore come primo controllo di tenuta all''aria.
+    duration: 1–2 giorni per SUP
+  - step: '04'
+    title: Incollaggio nucleo drop-stitch
+    description: I nuclei drop-stitch delle tavole SUP vengono incollati ai laminati esterni in PVC tramite laminazione a caldo. Migliaia di fili interni in poliestere collegano gli strati superiore e inferiore, creando una struttura rigida a 12-15 PSI. I rail band vengono incollati per fusione a tre strati per la resistenza dei bordi.
+    duration: 1–2 giorni per tavola
+  - step: '05'
+    title: Stampa & decorazione SUP
+    description: Le grafiche del deck delle tavole SUP vengono applicate tramite stampa digitale per design fotorealistici a pieni colori e serigrafia per loghi durevoli e motivi ripetuti. Le stampe vengono polimerizzate e sigillate per la resistenza a UV e abrasione.
+    duration: 1–2 giorni
+  - step: '06'
+    title: Assemblaggio finale & attrezzaggio
+    description: Valvole, anelli a D, maniglie, fin box e deck pad vengono installati sulla linea di assemblaggio. Ogni tavola segue una checklist di assemblaggio a 100 punti con rilascio vincolante in ogni fase.
+    duration: 1–2 giorni
+  - step: '07'
+    title: Controllo qualità & ispezione
+    description: 'Ogni tavola completata attraversa un gate di qualità vincolante: test di ritenzione aria della camera, prova funzionale dei raccordi, verifica della coppia di serraggio e ispezione estetica. Le costruzioni personalizzate e i prototipi ricevono inoltre prove in acqua, che coprono stabilità e manovrabilità.'
+    duration: 1–2 giorni
+  - step: '08'
+    title: Imballaggio & spedizione
+    description: Le tavole vengono sgonfiate, piegate secondo procedura, imballate in sacche in tessuto robusto o cartoni commerciali e caricate per la spedizione. Ogni pacco viene etichettato con modello, numero di serie e destinazione. Coordiniamo con gli spedizionieri il trasporto in container FCL e LCL in tutto il mondo.
+    duration: 1 giorno
+
+evidence_gates:
+  tagline: Evidenze di ispezione
+  title: 'Ogni fase lascia un''evidenza — foto & report'
+  subtitle: 'Qui sotto trovate le foto di ispezione reali e i dossier dei report di prova dei nostri sette gate di qualità controllati. Ogni PDF è un documento bilingue autentico che potete scaricare e auditare — le stesse registrazioni che supportano ogni partita nell''archivio di rintracciabilità ERP di 10 anni. Vedete il flusso completo in 7 fasi su /quality.'
+  items:
+    - title: 'PPM — Pianificazione qualità di progetto'
+      description: 'La riunione di pre-serie fissa l''ambito, il golden sample e il piano di ispezione qualità prima che la linea parta. I punti irrisolti bloccano il rilascio della produzione.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Scarica il QIP (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      alt: Riunione di pre-serie per verificare il golden sample e il piano di ispezione qualità per un ordine SUP OEM
+    - title: 'IQC — Controllo ingresso merci'
+      description: 'Ogni partita in ingresso di PVC, tessuto e raccordi viene controllata contro la specifica rilasciata. Le partite non conformi vengono bloccate e respinte prima del rilascio alla linea.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Scarica i report IQC (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      alt: Controllo ingresso merci di tessuto PVC e componenti SUP in fabbrica
+    - title: 'IPQC / FAI — Controllo di processo'
+      description: 'Il primo campione viene verificato contro le baseline bloccate e ogni turno mantiene i controlli a campione sulla linea. Il rilascio FAI blocca le versioni di grafiche, dimensioni e BOM.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Scarica i report IPQC (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Ispezione di processo e verifica del primo campione durante la produzione SUP
+    - title: 'Prova di gonfiaggio & tenuta all''aria'
+      description: '100% delle tavole finite — non solo un campione — riceve un mantenimento di pressione di 24 ore a 18.0 PSI con esclusione automatica oltre un calo di 0,50 PSI. Un''evidenza per camera.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Scarica i report di tenuta all''aria (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      alt: Prova di gonfiaggio e tenuta all''aria di una camera di SUP gonfiabile
+    - title: 'FQC — Controllo prodotto finale'
+      description: 'Le tavole finite vengono misurate contro le tolleranze di disegno e valutate otticamente sotto lampade a luce diurna D65 contro il golden sample rilasciato.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Scarica i report FQC (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      alt: Controllo del prodotto finale delle tavole SUP finite prima dell''imballaggio
+    - title: 'PSI — Ispezione pre-spedizione di imballaggio'
+      description: 'Il kit imballato viene verificato al 100% contro la BOM approvata dal cliente — scansione del codice a barre (voto ≥ B), marcature del cartone e test di caduta ISTA-1A prima del carico.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Scarica i report PSI (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      alt: Ispezione pre-spedizione che verifica il kit SUP imballato contro la BOM
+    - title: 'Rilascio in spedizione & rintracciabilità'
+      description: 'La Qualità rilascia la partita solo quando tutti i sei gate precedenti sono chiusi. I numeri di serie vengono assegnati alla partita e il dossier viene consegnato con la spedizione.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Scarica i report di rilascio (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      alt: Firma del rilascio in spedizione e consegna del protocollo di rintracciabilità della partita
+cta:
+  title: Guarda le nostre attrezzature e macchine
+  desc: Esplora l''attrezzatura industriale dietro ogni tavola SUP Vatrad.
+  label: Guarda l''attrezzatura →
+  link: /factory/equipment

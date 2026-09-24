@@ -1,0 +1,111 @@
+meta:
+  title: 'Conoscenza — Guide SUP gonfiabili & OEM | {SITE}'
+  description: 'Knowledge base di Vatrad: guide su SUP gonfiabili, materiali dei paddle board, scelta della tavola e insight di settore per marchi e professionisti.'
+  dateModified: '2026-08'
+  keywords:
+    - 'conoscenza sup'
+    - 'guida sup gonfiabile'
+    - 'materiali paddle board'
+    - 'insight settore sup'
+hero:
+  tagline: 'Centro del sapere'
+  title: 'Knowledge base SUP'
+  subtitle: |
+    Una knowledge base strutturata sulla tecnologia dei SUP gonfiabili, 
+    sulla sicurezza in acqua, sull'ingegneria delle tavole e sulla pianificazione delle avventure.
+  taglineSection: 'Scopri. Impara. Vai in acqua con la giusta sicurezza.'
+
+clusters:
+  tagline: 'Cluster di conoscenza'
+  title: 'Esplora per argomento'
+  subtitle: 'Approfondimenti su tecnologia, sicurezza e competenze dietro ogni prodotto Vatrad.'
+  items:
+    - title: 'Guida all''acquisto di un SUP'
+      description: 'Dalla scelta della tua prima tavola alle tecniche di touring avanzate — tutto sul paddleboarding.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'Come scegliere il tuo primo SUP gonfiabile'
+        - 'Guida alle misure SUP e classificazione per peso'
+        - 'Miglior SUP per principianti, touring, yoga e gare'
+        - 'Errori di acquisto SUP da evitare'
+        - 'Confronto gonfiabile vs. tavola rigida'
+    - title: 'Ingegneria e tecnologia SUP'
+      description: 'Guide tecniche sulle tavole SUP gonfiabili — materiali, metodi di costruzione e processi di produzione.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Tecnologia drop-stitch in dettaglio'
+        - 'Specifiche PVC di qualità militare'
+        - 'Laminazione a fusione vs. incollaggio'
+        - 'Tecnologia del foam EVA e processi di grafica'
+        - 'Tipi di valvole SUP e sistemi di pinne'
+    - title: 'Sicurezza e manutenzione SUP'
+      description: 'Conoscenze di sicurezza essenziali per ogni paddler — dalla scelta del giubbotto di salvataggio alla meteorologia, oltre alla cura e alla riparazione delle tavole.'
+      icon: 'tabler:shield'
+      topics:
+        - 'Checklist di sicurezza SUP e requisiti dei giubbotti di salvataggio'
+        - 'Sicurezza multi-camera per acque remote'
+        - 'Guida alla pressione di gonfiaggio SUP (PSI)'
+        - 'Stoccaggio e cura invernale delle tavole'
+        - 'Tecniche di riparazione per tavole gonfiabili'
+    - title: 'Tecniche e abilità SUP'
+      description: 'Tecniche di pagaiata, capacità di touring e allenamento fitness per ogni livello di abilità.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Tecniche di pagaiata per principianti'
+        - 'Tecniche di pagaiata avanzate per la stroke'
+        - 'Pianificazione di tour ed esplorazioni'
+        - 'Allenamento fitness e gara SUP'
+        - 'Abilità per acque bianche e discese fluviali'
+    - title: 'Stile di vita SUP e impieghi speciali'
+      description: 'Attività SUP specializzate — yoga, pesca, cani, famiglie e consigli di viaggio.'
+      icon: 'tabler:heart'
+      topics:
+        - 'Yoga SUP e meditazione sull''acqua'
+        - 'Pesca da un SUP gonfiabile'
+        - 'Pagaia con cani e bambini'
+        - 'Viaggiare con il SUP: aereo e auto'
+        - 'Accessori SUP e attrezzatura essenziale'
+    - title: 'Confronti e riferimenti SUP'
+      description: 'Confronti diretti che ti aiutano a prendere decisioni informate.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'SUP vs. kayak — qual è quello giusto per te?'
+        - 'Confronto materiali PVC vs. Hypalon'
+        - 'Sicurezza: camera singola vs. multi-camera'
+        - 'I materiali delle tavole SUP spiegati'
+        - 'Stampa UV vs. design a blocchi EVA'
+
+featured_guides:
+  tagline: 'Guide in evidenza'
+  title: 'Risorse di conoscenza più popolari'
+  items:
+    - title: 'Basi del SUP'
+      href: '/it/knowledge'
+    - title: 'Gonfiabile vs. tavola rigida'
+      href: '/it/inflatable-vs-hardboard'
+    - title: 'Guida alla sicurezza in acqua'
+      href: '/it/guides/safety-tips'
+    - title: 'Riferimento materiali'
+      href: '/it/knowledge'
+    - title: 'Guida all''acquisto di un SUP'
+      href: '/it/guides/how-to-choose-your-sup'
+    - title: 'Guida alle misure SUP'
+      href: '/it/size-guide'
+    - title: 'Centro tecnologie SUP'
+      href: '/it/technology'
+    - title: 'Cura del SUP'
+      href: '/it/knowledge'
+    - title: 'Guida al touring'
+      href: '/it/products/touring'
+    - title: 'Tecniche di pagaiata'
+      href: '/it/knowledge'
+
+cta:
+  title: 'Esplora ora'
+  subtitle: 'Immergiti nella nostra knowledge base e recupera tutte le informazioni per la tua prossima avventura in acqua.'
+  actions:
+    - variant: primary
+      text: 'Vedi tutte le guide'
+      href: '/it/knowledge'
+    - text: 'Esplora la knowledge base'
+      href: '/it/knowledge'

@@ -1,0 +1,131 @@
+meta:
+  title: 'Centro R&S — ingegneria SUP gonfiabili | {SITE}'
+  description: 'Ricerca & sviluppo — prove tessuti PVC, ingegneria dello scafo, saldatura HF, prove idrodinamiche e controllo qualità. Servizi R&S personalizzati disponibili.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Centro R&S
+  title: Centro R & S
+  subtitle: Focus sul progresso
+
+intro:
+  - Il centro ricerca e sviluppo (R&S) di Vatrad è la forza trainante della nostra missione di rivoluzionare le attrezzature per gli sport acquatici. Attraverso un'innovazione instancabile nelle tavole stand-up paddle (SUP) gonfiabili e nei gommoni, rendiamo possibili prodotti più sicuri, più comodi e più belli per gli appassionati di sport acquatici in tutto il mondo. Il nostro team dedicato di ingegneri, designer e appassionati esperti del settore plasma il futuro del settore, alzando costantemente l'asticella di qualità, prestazioni e sostenibilità.
+  - La nostra struttura R&S riunisce sotto lo stesso tetto scienziati dei materiali, architetti navali e ingegneri di produzione. Dalla formulazione dei tessuti e la simulazione dello scafo allo sviluppo dei processi di saldatura fino alle prove in mare su larga scala, ogni fase dello sviluppo prodotto è guidata dai dati e validata dai collaudi.
+
+mission:
+  tagline: La nostra missione
+  title: Innovare il futuro degli sport acquatici
+  pillars:
+    - icon: lightning
+      title: Progresso tecnologico
+      desc: Essere pionieri di nuovi materiali, design e processi produttivi per prestazioni e durata superiori del prodotto.
+    - icon: design
+      title: Design incentrato sull'utente
+      desc: Comprendere a fondo e superare le esigenze degli utenti attraverso un design ergonomico e intuitivo.
+    - icon: globe
+      title: Pratiche sostenibili
+      desc: Ridurre al minimo la nostra impronta ecologica grazie a materiali e processi rispettosi dell'ambiente.
+    - icon: shield
+      title: Sicurezza senza compromessi
+      desc: Garantire i più elevati standard di sicurezza attraverso collaudi e certificazioni rigorosi.
+
+pillars:
+  - title: Progresso tecnologico
+    desc: Essere pionieri di nuovi materiali, design e processi produttivi per prestazioni e durata superiori del prodotto.
+    icon: tech
+  - title: Materiali all'avanguardia
+    desc: Studio di PVC, Hypalon, materiali compositi e alternative sostenibili all'avanguardia per proprietà di prodotto migliorate.
+    icon: materials
+  - title: Sostenibilità
+    desc: 'Un impegno fondamentale: promuoviamo la responsabilità ambientale attraverso una produzione sostenibile e materiali riciclabili.'
+    icon: sustainability
+
+capabilities:
+  tagline: Capacità
+  title: Capacità R&S
+  subtitle: Quattro discipline chiave ci danno il controllo end-to-end sullo sviluppo prodotto — dalla ricerca sulle materie prime alla certificazione finale.
+  groups:
+    - title: Scienza dei materiali & tecnologia dei tessuti
+      items:
+        - Analisi e ottimizzazione delle formulazioni PVC e Hypalon
+        - Sviluppo di stabilizzazione UV, ritardanti di fiamma e additivi antimicrobici
+        - Laminazione di tessuti multistrato e ingegneria dei collegamenti adesivi
+        - Prove di invecchiamento accelerato (UV, termico, umidità, nebbia salina)
+    - title: Ingegneria dello scafo & idrodinamica
+      items:
+        - Design parametrico 3D dello scafo e ottimizzazione CFD
+        - Analisi agli elementi finiti per carichi strutturali e da impatto
+        - Prove in vasca di traino con modelli e validazione delle prestazioni
+        - Sviluppo personalizzato dello scafo per profili d'uso speciali
+    - title: Tecnologia di saldatura & giunzione
+      items:
+        - Sviluppo e ottimizzazione del processo di saldatura dielettrica HF
+        - Processi di saldatura ad aria calda, cuneo termico e ultrasuoni
+        - Qualificazione dei collegamenti adesivi e dei nastri di cucitura
+        - Modellazione della resistenza di saldatura e previsione della durata
+    - title: Collaudi, certificazione & conformità
+      items:
+        - Gestione della qualità e collaudi di conformità CE
+        - Supporto per collaudi e certificazioni di terze parti indipendenti
+        - Sviluppo di protocolli di prova personalizzati per la qualificazione all'approvvigionamento
+        - Analisi dei guasti sul campo e ricerca delle cause
+
+rd_numbers:
+  tagline: Innovazione
+  title: R&S in cifre
+  stats:
+    - value: '14'
+      label: Ingegneri & scienziati R&S
+    - value: '8'
+      label: Brevetti & domande attivi
+    - value: '6'
+      label: Laboratori specializzati
+    - value: 12 yr
+      label: Esperienza media del team
+
+rd_services:
+  tagline: R&S personalizzata
+  title: Servizi R&S per partner
+  services:
+    - title: Sviluppo materiali personalizzato
+      desc: Sviluppiamo formulazioni di tessuto, stack di laminato e sistemi adesivi personalizzati, su misura per il tuo ambiente di utilizzo e i tuoi obiettivi di prestazione.
+    - title: Ingegneria prodotto OEM / ODM
+      desc: Sviluppiamo formulazioni di tessuto, stack di laminato e sistemi adesivi personalizzati, su misura per il tuo ambiente di utilizzo e i tuoi obiettivi di prestazione.
+    - title: Collaudi di terze parti & certificazione
+      desc: Utilizza le nostre strutture di collaudo conformi ISO per prove materiali indipendenti, validazione prodotto e supporto alla certificazione.
+  cta: Discuti i tuoi requisiti R&S →
+  cta_link: /it/contact
+
+vision:
+  tagline: La nostra visione
+  title: Dare forma al futuro degli sport acquatici
+  body: Vatrad mira a guidare il settore dei gommoni e dei SUP attraverso innovazione continua, qualità incrollabile e un saldo impegno verso sicurezza e sostenibilità — arricchendo così le esperienze degli appassionati di sport acquatici in tutto il mondo. Il centro R&S di Vatrad è il luogo in cui la passione incontra l'innovazione e si fissano nuovi parametri di riferimento per il settore degli sport acquatici.
+
+labs_section:
+  tagline: Laboratori
+  title: I nostri laboratori
+  labs:
+    - image: https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp
+      title: Laboratorio tessuti PVC
+      description: Ricerca e prove continue sui materiali gonfiabili PVC e Hypalon per resistenza alla trazione, resistenza UV, abrasione e flessibilità a freddo, per garantire affidabilità a lungo termine in ambienti marini.
+      href: /it/randdcenter/pvc-fabric-lab
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-2.webp
+      title: Studio di ingegneria dello scafo
+      description: Design assistito da CAD e analisi agli elementi finiti di scafi in HDPE, alluminio e fibra di vetro. Ogni scafo viene simulato digitalmente per distribuzione degli sforzi e resistenza agli urti prima della costruzione del primo prototipo.
+      href: /it/randdcenter/hull-engineering
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing-3.webp
+      title: Centro di saldatura HF
+      description: Struttura dedicata di saldatura ad alta frequenza con controllo preciso di temperatura e pressione, che produce cuciture ad alta resistenza e a tenuta d'aria secondo gli standard di settore per le imbarcazioni gonfiabili.
+      href: /it/randdcenter/rf-welding
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp
+      title: Vasca di prova idrodinamica
+      description: Prove su modelli nella nostra vasca di prova per ottimizzare forma dello scafo, planata, stabilità ed efficienza su una serie di condizioni di carico e di mare.
+      href: /it/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: Officina prototipi
+      description: Struttura a grandezza naturale per prototipazione e allestimento, in cui i nuovi modelli vengono costruiti, allestiti e collaudati in mare. Ogni prototipo passa attraverso un programma di test in acqua di almeno 20 ore prima dell'approvazione di produzione.
+      href: /it/randdcenter/prototype-workshop
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
+      title: Laboratorio qualità & collaudi
+      description: Laboratorio di garanzia qualità dedicato per prove di trazione, cicli di tenuta dell'aria, prove di pelatura delle cuciture e certificazione dei materiali, per garantire che ogni imbarcazione che lascia l'officina corrisponda alle nostre specifiche pubblicate.
+      href: /it/randdcenter/quality-inspection-lab

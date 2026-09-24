@@ -1,0 +1,125 @@
+meta:
+  title: 'Capacità di produzione SUP | Fabbrica di paddle board gonfiabili'
+  description: 'Capacità di produzione SUP a Qingdao: ingegneria dello scafo interna (0,1 mm), lavorazione drop-stitch, saldatura ad alta frequenza, stampa, attrezzaggio, controllo qualità a 100 punti e 120.000+ tavole all''anno.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'capacità di produzione SUP'
+    - 'capacità della fabbrica di paddle board gonfiabili'
+    - 'produzione SUP interna'
+    - 'capacità produttive paddle board'
+    - 'fabbrica SUP Qingdao'
+
+hero:
+  tagline: Capacità di produzione
+  title: 'Capacità di produzione SUP'
+  subtitle: 'Ogni processo — ingegneria dello scafo, lavorazione del nucleo drop-stitch, saldatura ad alta frequenza, stampa, attrezzaggio, assemblaggio, collaudo e imballaggio — avviene internamente nel nostro stabilimento di 12,500 m² a Qingdao. Un unico team responsabile gestisce il tuo progetto dal primo disegno fino al container spedito.'
+
+answer:
+  label: 'Risposta breve'
+  text: 'La produzione SUP è completamente interna nel nostro stabilimento di Qingdao: progettazione dello scafo e ingegneria dimensionale con precisione CNC di 0,1 mm; lavorazione del materiale drop-stitch e saldatura ad alta frequenza su 4 linee automatizzate; stampa grafica; fustellatura dei pad in EVA; attrezzaggio interno (+15–20 giorni per nuove forme); assemblaggio secondo una checklist a 100 punti e un test di tenuta di pressione di 24 ore a 18,0 PSI con scarto automatico in caso di calo superiore a 0,50 PSI. La capacità annuale è di 120.000+ tavole (circa 10.000/mese) in 4 officine specializzate con 350+ dipendenti, consegnate in oltre 50 Paesi con il tuo marchio.'
+  verified: 'September 2026'
+
+capabilities:
+  tagline: Capacità interne
+  title: 'Gruppi di capacità — tutti realizzati internamente'
+  subtitle: 'Ogni capacità viene eseguita direttamente in fabbrica: tempi di consegna più brevi, controllo qualità in ogni fase e la tua specifica resta in un unico posto.'
+  groups:
+    - title: Design & Ingegneria
+      items:
+        - 'Progettazione dello scafo & ingegneria dimensionale'
+        - 'Precisione CNC di 0,1 mm'
+        - 'Attrezzaggio & realizzazione stampi su misura'
+        - 'Grafica per imballaggio e vendita'
+    - title: Produzione
+      items:
+        - 'Lavorazione del nucleo drop-stitch'
+        - 'Saldatura ad alta frequenza da 15 kW (4 linee automatizzate)'
+        - 'Stampa grafica & design'
+        - 'Fustellatura dei pad in EVA'
+        - 'Assemblaggio & rifinitura delle tavole'
+        - 'Composizione degli accessori'
+    - title: Qualità & Conformità
+      items:
+        - 'Checklist di assemblaggio a 100 punti'
+        - '18,0 PSI · tenuta di pressione 24 ore'
+        - 'Campionamento secondo ISO 2859-1 Livello II'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - 'Tracciabilità dei lotti per 10 anni'
+    - title: Service & Logistica
+      items:
+        - 'Campioni prototipo in 7–12 giorni'
+        - 'Produzione in 25–35 giorni'
+        - 'Forme su misura in +15–20 giorni'
+        - 'FOB Qingdao · CIF · DDP in oltre 50 Paesi'
+
+table:
+  headers:
+    capability: Capacità
+    in_house: Interna
+    standard: Cosa comprende lo standard
+  rows:
+    - capability: 'Progettazione dello scafo & ingegneria dimensionale'
+      in_house: 'Sì — dipartimento tecnico interno'
+      standard: 'Progettata e validata prima dell''attrezzaggio; precisione CNC di 0,1 mm per forme e taglio'
+    - capability: 'Lavorazione del materiale drop-stitch'
+      in_house: 'Sì — produzione del nucleo interna'
+      standard: 'Intervallo di densità drop-stitch 12–15 PSI, nesting ottimizzato per ogni misura di tavola'
+    - capability: 'Saldatura ad alta frequenza & costruzione delle cuciture'
+      in_house: 'Sì — interna'
+      standard: 'Capacità di saldatura ad alta frequenza da 15 kW su 4 linee di produzione automatizzate'
+    - capability: 'Stampa grafica & design'
+      in_house: 'Sì — design e stampa interni'
+      standard: 'Palette illimitate, grafica senza bordi, supporto grafico del team di fabbrica'
+    - capability: 'Fustellatura dei tappetini antiscivolo in EVA'
+      in_house: 'Sì — interna'
+      standard: 'Specifica del pad 45–55 Shore C, deck e loghi tagliati su misura'
+    - capability: 'Forme e attrezzature su misura'
+      in_house: 'Sì — officina forme interna'
+      standard: 'Le nuove forme richiedono 15–20 giorni; le forme restano di proprietà della fabbrica salvo accordi diversi'
+    - capability: 'Assemblaggio & rifinitura delle tavole'
+      in_house: 'Sì — interno'
+      standard: 'Checklist di assemblaggio a 100 punti; maniglie, D-ring e accessori installati secondo specifica'
+    - capability: 'Prova di pressione & carico'
+      in_house: 'Sì — banco di prova interno'
+      standard: 'Tenuta di pressione 18,0 PSI per 24 ore, scarto automatico in caso di calo superiore a 0,50 PSI'
+    - capability: 'Ispezione finale & tracciabilità'
+      in_house: 'Sì — team qualità interno'
+      standard: 'Campionamento secondo ISO 2859-1 Livello II; tracciabilità dei lotti ERP per 10 anni per numero di serie'
+    - capability: 'Imballaggio & export'
+      in_house: 'Kitting interno + logistica certificata'
+      standard: 'Confezioni commerciali, imballaggio export marino ed etichette di serie con il tuo marchio'
+
+faq_section:
+  tagline: FAQ
+  title: Domande sulle capacità di produzione SUP
+  questions:
+    - q: Quali processi di produzione avvengono internamente?
+      a: 'Tutti i processi chiave sono interni: ingegneria dello scafo, lavorazione del nucleo drop-stitch, saldatura ad alta frequenza, stampa, fustellatura EVA, assemblaggio, collaudo e imballaggio. Accessori e alcune materie prime provengono da fornitori certificati; la composizione finale del kit avviene internamente per una tracciabilità completa.'
+    - q: Qual è la vostra capacità produttiva?
+      a: '120.000+ tavole all''anno (circa 10.000/mese) su 4 linee automatizzate e 4 officine specializzate su 12,500 m² con oltre 350 dipendenti.'
+    - q: Quale quantità minima d'ordine si applica a queste capacità?
+      a: 'La quantità standard parte da 90–100+ unità per configurazione approvata (un rotolo da 150 m di tessuto drop-stitch); i lotti pilota partono da 20–50 unità su piattaforme esistenti; gli ordini solo logo partono da 5–10 unità.'
+    - q: Quali tempi di consegna dobbiamo mettere in conto?
+      a: 'Campioni prototipo in 7–12 giorni; produzione 25–35 giorni dopo ordine confermato e acconto; l''attrezzaggio per forme su misura aggiunge 15–20 giorni.'
+    - q: In che modo le capacità influiscono sulla qualità?
+      a: 'Ogni processo alimenta il sistema qualità in 7 fasi: checklist di assemblaggio a 100 punti, tenuta di pressione 18,0 PSI per 24 ore con scarto automatico oltre 0,50 PSI di calo, campionamento secondo ISO 2859-1 Livello II e tracciabilità dei lotti ERP per 10 anni.'
+
+cta:
+  title: 'Verifica quali capacità si adattano al tuo progetto'
+  subtitle: 'Invia la tua richiesta di prodotto — verifica tecnica e offerta adatta entro un giorno lavorativo.'
+  actions:
+    - variant: primary
+      text: Richiedi un preventivo di produzione
+      href: /it/contact#custom-oem
+    - text: Visita la fabbrica
+      href: /it/factory
+    - text: Processo produttivo della fabbrica
+      href: /it/factory/process
+    - text: Capacità della fabbrica & tempi di consegna
+      href: /it/factory/capacity
+    - text: Qualità & collaudi
+      href: /it/quality
+    - text: Proof Center — prove della fabbrica
+      href: /it/proof-center
+    - text: Produzione OEM & ODM
+      href: /it/oem-manufacturing

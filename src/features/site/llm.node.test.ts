@@ -1,7 +1,7 @@
 ﻿import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
-import { GUIDES_FR, GUIDES_DE } from '@/features/content/guide-content'
+import { GUIDES_FR, GUIDES_DE, GUIDES_IT } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -103,5 +103,31 @@ test('llms-full.txt German section: product/news/tech/case/guide bodies present'
   expect(de).toContain('# Guide:')
   for (const g of GUIDES_DE) {
     expect(de, `llms-full.txt German section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
+  }
+})
+
+test('llms.txt Italian section: /it absolute links, Italian homepage note and guides', () => {
+  const section = llmItalianIndex('https://supsfactory.com')
+  expect(section).toContain('## Italiano')
+  expect(section).toContain('— Homepage')
+  expect(section).toContain('### Italiano: Prodotti')
+  expect(section).toContain('### Italiano: Guides')
+  expect(section).toContain('### Italiano: Domande frequenti')
+  expect(section).toContain('https://supsfactory.com/it/')
+  for (const g of GUIDES_IT) {
+    expect(section, `llms.txt Italian section missing guide ${g.slug}`).toContain(`https://supsfactory.com/it/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt Italian section: product/news/tech/case/guide bodies present', () => {
+  const it = llmsItalianFull()
+  expect(it).toContain('# Italiano')
+  expect(it).toContain('## Prodotto:')
+  expect(it).toContain('## Notizia:')
+  expect(it).toContain('## Tecnologia:')
+  expect(it).toContain('## Caso di studio:')
+  expect(it).toContain('# Guide:')
+  for (const g of GUIDES_IT) {
+    expect(it, `llms-full.txt Italian section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
   }
 })

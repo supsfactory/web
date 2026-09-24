@@ -1,0 +1,53 @@
+meta:
+  title: "Certificazione SUP gonfiabili — Guida alla conformità CE, REACH, RoHS"
+  description: "Ambito di certificazione per la produzione di SUP gonfiabili: CE (modelli UE), BSCI, ISO 9001, REACH, RoHS. Numeri di certificato disponibili per progetto su richiesta."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Risposta diretta"
+    directAnswer:
+      answer: "SUPsfactory possiede le certificazioni BSCI, ISO 9001, ISO 25649, CE, REACH e RoHS. La CE si applica ai modelli destinati ai mercati UE — non indiscriminatamente a «tutti i prodotti»."
+      condition: "L'ambito di certificazione varia in base al mercato di destinazione e alla configurazione del prodotto. Numeri di certificato, validità ed enti emittenti sono disponibili per progetto su richiesta."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "September 2026"
+      sourceType: "certificate"
+    body: |
+      La certificazione è un criterio di approvvigionamento centrale e deve essere dichiarata con precisione.
+      Affermazioni generiche come "CE su tutti i prodotti" possono generare problemi di fiducia
+      se l'acquirente scopre in seguito che l'ambito è più ristretto del previsto.
+
+  - title: "Dettagli di certificazione"
+    body: |
+      | Certificazione | Ambito | Ente | Applicabile a |
+      |---------------|-------|-----------|------------|
+      | BSCI | Audit sociale | amfori BSCI | Stabilimento di produzione |
+      | ISO 9001 | Sistema di gestione della qualità | Ente di certificazione (disponibile su richiesta) | Stabilimento di produzione |
+      | ISO 25649 | Sicurezza delle imbarcazioni gonfiabili | ISO | Modelli SUP applicabili per mercato |
+      | CE | Conformità al mercato UE (EN ISO 6185 / 10087 / 10240) | Organismo notificato UE | Modelli destinati al mercato UE |
+      | REACH | Sicurezza chimica UE | ECHA | Materiali utilizzati in produzione |
+      | RoHS | Restrizione delle sostanze pericolose | Direttiva UE | Accessori elettronici (pompe) |
+
+  - title: "Note importanti sull'ambito"
+    body: |
+      - **CE** si applica ai modelli configurati per la vendita sul mercato UE. Una tavola
+        costruita per la distribuzione negli Stati Uniti o in Australia reca la marcatura CE solo
+        se espressamente richiesta.
+      - **ISO 9001** copre il sistema di gestione della qualità dello stabilimento, non la
+        certificazione di prodotto dei singoli articoli.
+      - La conformità **REACH** copre i materiali utilizzati in produzione — la documentazione
+        è disponibile per gli importatori che devono registrare le sostanze.
+      - Numeri di certificato, date di validità ed enti emittenti sono disponibili per progetto
+        su richiesta. Non pubblichiamo i numeri di certificato pubblicamente per motivi di sicurezza.
+      - Ispezione di terze parti tramite SGS, TÜV, BV o Intertek disponibile per ogni spedizione.
+
+  - title: "Come richiedere i documenti di certificazione"
+    body: |
+      Indicate i vostri mercati di destinazione durante il processo di richiesta e confermeremo
+      quali certificazioni si applicano alla vostra specifica configurazione di prodotto. Copie
+      dei certificati (con eventuali dati commerciali oscurati dove necessario) vengono fornite
+      come parte del pacchetto di documentazione del progetto.
+
+evidence_review:
+  tagline: 'Prove & verifica'
+  title: 'SPECIFICHE VERIFICATE'
+  body: 'Tutte le dichiarazioni di produzione di questa pagina sono verificate dal nostro team di Manufacturing Engineering presso lo stabilimento di Laixi, Qingdao. Certificati, registrazioni di ispezione QC, rapporti di prova di pressione e struttura e registrazioni di tracciabilità dei lotti sono disponibili su richiesta. Specifiche verificate per l''ultima volta a settembre 2026.'

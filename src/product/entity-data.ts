@@ -21,6 +21,16 @@ export const ENTITY_FACTS: Record<string, { label: string; value: string }[]> = 
     { label: 'Mercados', value: 'Mundial: Europa, América, Asia, Oceanía' },
     { label: 'Modelo de negocio', value: 'Desarrollo y fabricación B2B — sin venta al consumidor final' },
   ],
+  it: [
+    { label: 'Marchio', value: `SUPsfactory — la divisione di produzione SUP di ${BRAND_PARENT_BRAND}` },
+    { label: 'Entità legale', value: BRAND_COMPANY_NAME },
+    { label: 'Rapporto tra i marchi', value: `SUPsfactory è la divisione di produzione SUP di ${BRAND_PARENT_BRAND}, gestita da ${BRAND_COMPANY_NAME}. ${BRAND_PARENT_BRAND} copre gommoni RIB, imbarcazioni gonfiabili, tavole SUP e soluzioni marine; SUPsfactory si concentra esclusivamente sulla produzione OEM/ODM di SUP gonfiabili.` },
+    { label: 'Focus di prodotto', value: 'Produzione di SUP gonfiabili: OEM, ODM e marchio privato' },
+    { label: 'Fabbriche', value: 'Stabilimento di proprietà di 12.500 m² a Qingdao, Cina' },
+    { label: 'Ordine minimo', value: 'Scalonato: 5–10 co-branding · 20–50 prova · 90–100+ volume per configurazione approvata' },
+    { label: 'Mercati', value: 'Mondiale: Europa, Americhe, Asia, Oceania' },
+    { label: 'Modello di business', value: 'Sviluppo e produzione B2B — nessuna vendita al consumatore finale' },
+  ],
 }
 
 export const ENTITY_SERVICES = ['custom-sup', 'private-label', 'resort', 'club', 'school']

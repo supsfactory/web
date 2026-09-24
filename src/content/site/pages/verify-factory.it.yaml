@@ -1,0 +1,81 @@
+meta:
+  title: 'Verifica la nostra fabbrica SUP | Visita, audit & ispezione a Qingdao'
+  description: 'Come verificare la fabbrica di SUP prima di impegnarti: pianificare una visita in fabbrica, effettuare un audit o un''ispezione di terze parti e consultare registri QC, tracciabilità dei lotti e certificati a Qingdao, in Cina.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'Verificare la fabbrica SUP'
+    - 'Visita fabbrica SUP Qingdao'
+    - 'Audit fabbrica SUP'
+    - 'Ispezione SUP di terze parti'
+    - 'Verifica di una fabbrica di paddleboard gonfiabili'
+
+hero:
+  tagline: 'Verifica della fabbrica'
+  title: 'Verifica la fabbrica SUP prima di impegnarti'
+  subtitle: 'Non dovresti fidarti di una fabbrica alla cieca. Pianifica una visita, effettua un audit o un''ispezione indipendente e verifica certificati, registri QC e tracciabilità dei lotti prima del tuo primo ordine — tutto questo è aperto agli acquirenti seri.'
+
+answer:
+  label: 'Risposta breve'
+  text: 'Lo stabilimento SUPsfactory è un impianto di 12,500 m² a Qingdao, Shandong, Cina, con oltre 350 dipendenti, 4 linee di produzione automatizzate e 4 officine specializzate. Gli acquirenti possono verificarlo in quattro modi: visitare lo stabilimento tutto l''anno, organizzare o richiedere audit (BSCI, ISO 9001), effettuare un''ispezione di terze parti (SGS, TÜV, BV, Intertek; campionamento ISO 2859-1 livello II) oppure esaminare le evidenze documentate — certificati, checklist di montaggio a 100 punti, rapporti di tenuta a 18.0 PSI per 24 ore e una tracciabilità dei lotti ERP di 10 anni per etichetta seriale.'
+  verified: 'Settembre 2026'
+
+features:
+  title: 'Modi per verificare la fabbrica'
+  subtitle: 'Quattro percorsi di verifica, ciascuno organizzato dal tuo specialista di progetto — scegline uno o combinane più.'
+  items:
+    - title: 'Pianificare una visita in fabbrica'
+      description: 'Accogliamo visite di acquirenti a Qingdao tutto l''anno, con ritiro in aeroporto e tour dello stabilimento organizzato attorno ai tuoi impegni. Una NDA è sempre benvenuta.'
+      icon: 'tabler:map-pin'
+    - title: 'Audit di terze parti'
+      description: 'I rapporti di audit BSCI e ISO 9001 sono disponibili su richiesta e sono benvenuti gli audit co-organizzati, così puoi percorrere la sala di produzione insieme all''auditor.'
+      icon: 'tabler:clipboard-check'
+    - title: 'Ispezione indipendente'
+      description: 'Ispezione pre-spedizione o durante la produzione con SGS, TÜV, BV o Intertek secondo il campionamento ISO 2859-1 livello II — a tuo carico, organizzata da noi, riportata direttamente a te.'
+      icon: 'tabler:zoom-check'
+    - title: 'Verifica documentale'
+      description: 'Copie dei certificati, registri di controllo in ingresso/processo/finale, rapporti di tenuta di pressione e fascicoli di tracciabilità dei lotti vengono condivisi prima del tuo impegno.'
+      icon: 'tabler:file-search'
+    - title: 'Tour dello stabilimento video in diretta'
+      description: 'Non ancora pronto a viaggiare? Percorriamo l''area produttiva in una videochiamata in diretta — lavorazione drop-stitch, saldatura, stampa, montaggio, collaudo e imballaggio — prima che tu effettui un ordine.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: 'Domande sulla verifica'
+  title: 'Verifica della fabbrica & ispezione — Domande e risposte'
+  questions:
+    - q: 'Dove si trova la fabbrica?'
+      a: 'Lo stabilimento si trova a Qingdao, Shandong, Cina — un impianto di 12,500 m² con oltre 350 dipendenti, 4 linee automatizzate e 4 officine specializzate. L''indirizzo e l''ubicazione sulla mappa vengono comunicati agli acquirenti verificati al momento della programmazione di una visita, e l''indirizzo di produzione appare nei contratti, nell''audit BSCI e nella documentazione export.'
+    - q: 'Cosa produce la fabbrica?'
+      a: 'Tavole SUP gonfiabili — dall''ingegneria dello scafo e la lavorazione del nucleo drop-stitch fino a grafiche, montaggio, collaudo e imballaggio per l''export. Tutti i processi SUP core avvengono sotto lo stesso tetto.'
+    - q: 'Quali processi vengono svolti in house?'
+      a: 'Design dello scafo, ingegneria dimensionale, lavorazione del nucleo drop-stitch, saldatura HF, stampa grafica, goffratura dei pad EVA, attrezzaggio per forme personalizzate, montaggio, collaudo e imballaggio — tutto in house. Gli accessori e alcune materie prime provengono da fornitori certificati e vengono confezionati in house per la tracciabilità.'
+    - q: 'Gli acquirenti possono visitare la fabbrica?'
+      a: 'Sì. Le visite degli acquirenti vengono accolte a Qingdao tutto l''anno. Il ritiro dall''aeroporto internazionale di Qingdao Jiaodong e un tour completo dello stabilimento vengono organizzati dal tuo specialista di progetto.'
+    - q: 'Gli acquirenti possono organizzare un''ispezione di terze parti?'
+      a: 'Sì. Le ispezioni SGS, TÜV, BV e Intertek sono benvenute prima o durante la produzione. L''ispezione pre-spedizione utilizza il campionamento ISO 2859-1 livello II e il rapporto viene inviato direttamente a te dall''ente di ispezione.'
+    - q: 'Gli acquirenti possono richiedere la documentazione QC?'
+      a: 'Sì. Copie dei certificati, registri di controllo in ingresso/processo/finale, rapporti di tenuta a 18.0 PSI per 24 ore e la checklist di montaggio a 100 punti vengono rilasciati per lotto su richiesta.'
+    - q: 'Come viene garantita la tracciabilità dei lotti?'
+      a: 'Ogni tavola porta un''etichetta seriale. I lotti vengono registrati in un dato ERP decennale che collega rotolo di tessuto, materiali, data di produzione, operatori e risultati dei test con ogni numero di serie.'
+    - q: 'Come viene utilizzato il campione approvato?'
+      a: 'Il campione approvato funge da riferimento di produzione. Materiali, dimensioni, grafiche, accessori e superficie vengono confrontati con quel campione a ogni gate QC, così la produzione corrisponde a ciò che hai approvato.'
+    - q: 'Come viene gestita la qualità di produzione?'
+      a: 'Un sistema di qualità a 7 livelli (Node 01–07) esegue gate di controllo in ingresso, di processo e finale, con test di tenuta a 18.0 PSI per 24 ore (scarto automatico da una caduta di pressione di 0.50 PSI) e liberazione finale secondo il campionamento ISO 2859-1 livello II.'
+
+cta:
+  title: 'Prima verifica, poi decidi'
+  subtitle: 'Prenota un tour dello stabilimento o richiedi i documenti di verifica — uno specialista di progetto risponde entro un giorno lavorativo.'
+  actions:
+    - variant: primary
+      text: Pianifica un colloquio di verifica
+      href: /it/contact
+    - text: Centro prove — evidenze della fabbrica
+      href: /it/proof-center
+    - text: Checklist di ispezione della fabbrica
+      href: /it/factory-audit-checklist
+    - text: Fiducia OEM & basi della fabbrica
+      href: /it/oem-trust-assurance
+    - text: Qualità & collaudo
+      href: /it/quality
+    - text: Fabbrica & produzione
+      href: /it/factory

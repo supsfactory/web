@@ -1,0 +1,93 @@
+meta:
+  title: 'Attrezzatura della fabbrica — Taglio, saldatura & stampa'
+  description: 'Attrezzatura di produzione industriale Vatrad: taglio PVC, saldatura RF, stampa digitale, assemblaggio e collaudo per SUP gonfiabili.'
+  dateModified: '2026-08'
+  keywords:
+    - 'attrezzatura produzione sup'
+    - 'fabbrica sup gonfiabili'
+    - 'saldatura rf pvc'
+    - 'produzione paddle board'
+hero:
+  tagline: Attrezzatura
+  title: Attrezzatura di produzione & macchinari
+  subtitle: Attrezzatura industriale per taglio, saldatura, stampa e assemblaggio
+  back_label: Torna alla fabbrica
+  back_link: /factory
+
+answer:
+  label: 'Risposta chiara'
+  text: 'La nostra fabbrica di 12,500 m² gestisce taglio automatico a controllo CNC (precisione 0.1 mm, meno del 5% di scarto), termosaldatura ad aria calda a 200–600 °C oltre a saldatura dielettrica RF da 15 kW per le cuciture principali, presse di laminazione del nucleo drop-stitch fino a 14 ft e un laboratorio QC che esegue il test di pressione di ogni camera, prove di trazione ASTM D751 e la verifica di peeling delle cuciture ISO 6185.'
+  verified: 'September 2026'
+
+categories:
+  - title: Taglio & preparazione materiali
+    items:
+      - name: Taglierina automatica PVC
+        spec: A controllo CNC, 6.5 m × 2.5 m, precisione 0.1 mm
+        desc: Taglierina automatica a controllo computerizzato per tessuti in PVC, Hypalon e drop-stitch. Il software di annidamento ottimizza l''utilizzo del materiale fino a meno del 5% di scarto.
+      - name: Spanditrice per tessuti
+        spec: Larghezza max. 3 m, avanzamento a tensione controllata
+        desc: Stende il tessuto in uno o più strati con tensione controllata per prevenire deformazioni prima del taglio.
+
+  - title: Saldatura camere & incollaggio
+    items:
+      - name: Termosaldatrice
+        spec: Saldatura ad aria calda, variabile 200–600 °C, 0.5–5 m/min
+        desc: Termosaldatrice ad aria calda per incollare e saldare le cuciture delle camere in PVC e Hypalon. Utilizzata per imbastire, sigillare e fondere camere e giunti di galleggiamento.
+      - name: Pressa dielettrica RF
+        spec: 15 kW, piatto 2000 × 600 mm
+        desc: Pressa di saldatura ad alta frequenza per cuciture longitudinali principali, giunzioni dei tubolari e produzione di camere di grandi dimensioni.
+      - name: Saldatrice RF a controllo CNC
+        spec: 8 kW, tavolo XY 2500 × 1200 mm
+        desc: Saldatura programmabile di cuciture curve per geometrie complesse, marchiatura di loghi e riparazioni di precisione.
+
+  - title: Produzione SUP
+    items:
+      - name: Pressa di laminazione nucleo drop-stitch
+        spec: Pressa di grande formato per nuclei di tavole fino a 14 ft LOA
+        desc: Laminazione di precisione dei nuclei drop-stitch sui laminati esterni in PVC. Ogni strato viene incollato a pressione per una qualità e una resistenza costanti.
+      - name: Fresatrice CNC (5 assi)
+        spec: Area di lavoro 3 m × 2 m × 1 m, mandrino raffreddato ad acqua
+        desc: Lavorazione di fin box, ritagli per maniglie e componenti personalizzati delle tavole.
+
+  - title: Stampa & decorazione SUP
+    items:
+      - name: Stampante digitale
+        spec: Inkjet ad alta risoluzione, larghezza di stampa fino a 2 m
+        desc: Stampa digitale diretta sul tessuto per grafiche del deck SUP a pieni colori. Stampa motivi personalizzati, sfumature e immagini fotorealistiche con inchiostri a base acqua resistenti ai raggi UV.
+      - name: Macchina serigrafica
+        spec: Manuale e semiautomatica, registrazione multicolore
+        desc: Serigrafia per loghi, marchi e motivi ripetuti sulle tavole SUP. Offre stampe durevoli e coprenti con forte saturazione cromatica.
+
+  - title: Assemblaggio & attrezzaggio
+    items:
+      - name: Postazione di assemblaggio tavole
+        spec: Regolabile in modo modulare, layout a più stazioni
+        desc: Assemblaggio di fin box, maniglie, anelli a D, valvole e deck pad sulle tavole SUP.
+      - name: Pressa di installazione valvole
+        spec: Pneumatica, pressione regolabile
+        desc: Installazione e sigillatura di precisione delle valvole Halkey-Roberts e Leafield.
+      - name: Laminatore deck pad
+        spec: 3 m × 1.5 m, a temperatura controllata
+        desc: Laminazione a caldo dei deck pad in schiuma EVA sulle superfici superiori delle tavole SUP con forza di adesione costante.
+
+  - title: Collaudo & controllo qualità
+    items:
+      - name: Macchina universale di prova trazione
+        spec: 50 kN, / ASTM D751
+        desc: Prova di carico massimo, allungamento a rottura e resistenza allo strappo per i lotti di tessuto.
+      - name: Dispositivo di test ritenzione aria
+        spec: Programmabile, mantenimento pressione di 30 minuti
+        desc: Test automatizzato di mantenimento pressione per ogni camera prima dell''assemblaggio.
+      - name: Dispositivo di peeling cuciture
+        spec: Abduzione motorizzata a 180° a 100 mm/min
+        desc: Prova della forza di peeling delle cuciture saldate e incollate secondo ISO 6185.
+      - name: Camera di invecchiamento ad arco allo xeno
+        spec: 2000 h di esposizione
+        desc: Prova di resistenza ai raggi UV per variazione cromatica e mantenimento della resistenza.
+
+cta:
+  title: Interessato a un tour in fabbrica?
+  desc: Accogliamo con piacere i visitatori nel nostro impianto di Qingdao. Guardate di persona attrezzature e processi.
+  label: Pianifica una visita →
+  link: /contact

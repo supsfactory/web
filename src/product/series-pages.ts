@@ -1023,6 +1023,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+  it: [
+    {
+      slug: 'all-around',
+      navLabel: 'Piattaforme all-round',
+      metaTitle: 'Tavole SUP all-round personalizzate — Produttore OEM gonfiabile | SUPsfactory',
+      metaDescription:
+        'Tavole SUP gonfiabili all-round personalizzate con il vostro branding — tavole larghe e stabili, OEM/ODM da 90–100+ pz, campioni in 7–12 giorni. Direttamente dalla fabbrica di Qingdao, Cina.',
+      kicker: 'Serie · All-round',
+      h1: 'Tavole SUP all-round personalizzate — la piattaforma di partenza per i nuovi brand',
+      intro: [
+        "La tavola all-round è il cavallo di battaglia della categoria SUP: abbastanza larga da risultare stabile per i principianti, abbastanza agile da mantenere l’interesse di chi ha più esperienza e abbastanza leggera da portarla ovunque. La maggior parte dei nuovi brand e delle flotte da noleggio parte da qui.",
+        'Produciamo piattaforme all-round con il vostro marchio da 90–100+ pz per rotolo da 150 m (volume), con produzioni pilota da 20–50 pz. Forma, rail, layup, colori, grafiche a tutta coperta e imballaggio vengono specificati progetto per progetto.',
+      ],
+      faqs: [
+        {
+          q: 'Posso personalizzare una tavola SUP all-round per il mio brand?',
+          a: 'Sì. Ogni piattaforma all-round è una base di produzione: voi definite dimensioni (solitamente da 10′6″ a 11′6″), larghezza, spessore, layup (mono/doppio strato o fusione), configurazione dei rail, pad EVA, grafiche a tutta coperta e imballaggio. Le forme con stampo dedicato partono da 90–100+ pz per forma; la produzione standard in volume da 90–100+ pz per rotolo da 150 m.',
+        },
+        {
+          q: 'Qual è il MOQ per le tavole SUP all-round?',
+          a: "Le partite standard in volume partono da 90–100+ pz per rotolo da 150 m; le produzioni pilota su piattaforme standard da 20–50 pz; la produzione completa con stampo dedicato da 90–100+ pz per forma. Inviamo i campioni in 7–12 giorni e la produzione in serie richiede 25–35 giorni dopo conferma dell’ordine e acconto.",
+        },
+        {
+          q: 'Cosa comprende il pacchetto pronto per la vendita al dettaglio?',
+          a: 'Il pacchetto completo: tavola gonfiabile con anima drop-stitch, pagaia regolabile, pompa a mano (o pompa elettrica a doppio stadio), kit di riparazione, zaino da trasporto e cartone stampato. Gli accessori possono essere sostituiti o aggiornati in base al vostro mercato di riferimento.',
+        },
+        {
+          q: 'Quale durezza del deck EVA producete?',
+          a: 'I pad di trazione per il deck vanno solitamente da 45–55 Shore C — una durezza medio-bassa, con buon grip sotto i piedi e senza indurirsi al sole. Spessore, scanalature, ritagli e posizionamento del logo vengono specificati progetto per progetto.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Piattaforme race',
+      metaTitle: 'Tavole SUP race personalizzate — Piattaforme racing gonfiabili OEM | SUPsfactory',
+      metaDescription:
+        'Tavole SUP race gonfiabili personalizzate per club, eventi e brand — scafi racing drop-stitch, OEM da 90–100+ pz, produzione certificata CE. Direttamente dalla fabbrica.',
+      kicker: 'Serie · Race',
+      h1: 'Tavole SUP race personalizzate — scafi racing prodotti per il vostro brand',
+      intro: [
+        'Le tavole race scambiano la stabilità con la velocità: profili più lunghi e stretti, con forme di prua rifinite e rocker contenuto, progettati per la pagaiata in corsa. Le versioni gonfiabili raggiungono le prestazioni delle tavole rigide in una piattaforma trasportabile.',
+        'Produciamo piattaforme race per brand, club e organizzatori di eventi con anime drop-stitch di precisione, layup race e forme di scafo orientate alla velocità — testate statisticamente nella nostra vasca di prova idrodinamica.',
+      ],
+      faqs: [
+        {
+          q: 'Quali dimensioni per SUP race potete produrre?',
+          a: 'Le piattaforme race tipiche vanno da 12′6″ × 28″ per la classe 12′6 a 14′ × 23″–25″ per i formati Unlimited/Touring race. Larghezza, rocker e profilo di prua vengono calibrati sul gruppo di rider di riferimento e verificati su un campione fisico.',
+        },
+        {
+          q: 'Le tavole race richiedono una costruzione speciale?',
+          a: "Sì: le tavole race usano un’anima drop-stitch più leggera e a trama fitta, con pressione più alta (18–20 PSI) e rail rinforzati più rigidi per mantenere la forma dello scafo ad alta velocità. La scelta del layup (mono o doppio strato) bilancia peso e rigidità, e la definiamo insieme a voi progetto per progetto.",
+        },
+        {
+          q: 'I club possono ordinare tavole race per la loro squadra?',
+          a: 'Sì. I programmi per club e squadre ordinano da 90–100+ pz (volume) con le grafiche del club e possono mescolare piattaforme race e da allenamento in un unico ordine. Per i volumi combinati si applicano i prezzi da flotta.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Piattaforme surf',
+      metaTitle: 'Tavole SUP surf personalizzate — Piattaforme surf ibride gonfiabili OEM | SUPsfactory',
+      metaDescription:
+        'Tavole SUP surf gonfiabili personalizzate — profili surf ibridi con rail arrotondati e rocker elevato, prodotte con il vostro marchio da 90–100+ pz a Qingdao, Cina.',
+      kicker: 'Serie · Surf',
+      h1: 'Tavole SUP surf personalizzate — piattaforme surf ibride per cavalcare le onde',
+      intro: [
+        "Le tavole SUP surf portano la performance da onda in una piattaforma trasportabile: lunghezze più corte, più rocker, rail arrotondati e forme di prua concave che tengono la linea sulla facciata dell’onda. Le forme surf gonfiabili sono il modo più accessibile per avvicinarsi al surf con la pagaia.",
+        'Produciamo piattaforme surf con il vostro marchio, con shaping e dettagli costruttivi specifici per le onde — dal pacchetto completo soft-top al layup performance.',
+      ],
+      faqs: [
+        {
+          q: 'Quali taglie sono disponibili per le tavole SUP surf?',
+          a: 'Le piattaforme surf più comuni vanno da 8′6″ a 10′6″ con larghezze intorno ai 30″–34″. Lunghezza, rocker e profilo dei rail vengono specificati in base al peso del rider e al tipo di onda, e verificati su un campione fisico prima della produzione.',
+        },
+        {
+          q: 'Le tavole surf gonfiabili sono abbastanza resistenti per il noleggio?',
+          a: "Con rail rinforzati e PVC resistente ai raggi UV, le nostre piattaforme surf reggono l’uso da noleggio e da lezione nelle surf school. Le flotte da noleggio combinano tipicamente forme all-round e surf — il prezzo da flotta si applica sul volume misto.",
+        },
+        {
+          q: 'Potete applicare le nostre grafiche di marca sulle tavole surf?',
+          a: 'Sì. Grafiche a tutta coperta, artwork del fondo, pad di trazione EVA e imballaggio vengono realizzati dai vostri file o sviluppati dal nostro team di design sulla base degli asset del vostro brand.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Piattaforme touring',
+      metaTitle: 'Tavole SUP touring personalizzate — Piattaforme per lunghe distanze OEM | SUPsfactory',
+      metaDescription:
+        'Tavole SUP touring gonfiabili per lunghe distanze — scafi a dislocamento da 12′6″+, adatti a escursioni di più giorni, OEM da 90–100+ pz, direttamente dalla fabbrica.',
+      kicker: 'Serie · Touring',
+      h1: 'Tavole SUP touring personalizzate — costruite per la distanza, il carico e la navigazione',
+      intro: [
+        "Le tavole touring sono lunghe ed efficienti: prue affusolate per lo scivolamento, volume moderato per la stabilità in acque aperte e lunghezza dello scafo sufficiente per trasportare l’attrezzatura nelle escursioni di più giorni. Sono la piattaforma scelta da chi fa lunghe distanze e dagli outfitter di spedizioni.",
+        'Produciamo piattaforme touring con il vostro marchio, con shaping a dislocamento, punti di fissaggio e spazio sul deck per il carico, oltre a sistemi di accessori compatibili con il carbonio (bungee, D-ring, supporti).',
+      ],
+      faqs: [
+        {
+          q: 'Quali misure di SUP touring producete?',
+          a: 'Le piattaforme touring sono tipicamente da 12′6″ a 14′, con larghezze da 28″–32″. Gli scafi da 14′ più lunghi privilegiano lo scivolamento; le versioni più larghe aggiungono stabilità con il carico. Le specifiche vengono confermate con un campione fisico prima della produzione in serie.',
+        },
+        {
+          q: 'Le tavole touring hanno opzioni di carico e fissaggio?',
+          a: 'Sì: reti bungee per il carico, griglie di D-ring, portacanne e guide per accessori vengono specificate progetto per progetto. I pacchetti touring combinano di solito le tavole con borse a zaino e pompe ad alta pressione.',
+        },
+        {
+          q: 'Fornite tavole touring a outfitter e gestori di noleggio?',
+          a: 'Sì. Outfitter e gestori possono allestire flotte touring dedicate da 20–50 pz (pilota) con prezzi da flotta, ricambi e un ciclo definito di rinnovo stagionale.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Piattaforme yoga',
+      metaTitle: 'Tavole SUP yoga personalizzate — Piattaforme larghe e stabili OEM | SUPsfactory',
+      metaDescription:
+        'Tavole SUP yoga gonfiabili personalizzate — piattaforme extra larghe e stabili con deck morbidi per studi, resort e istruttori. OEM da 90–100+ pz, direttamente dalla fabbrica.',
+      kicker: 'Serie · Yoga',
+      h1: "Tavole SUP yoga personalizzate — piattaforme extra larghe per la pratica sull’acqua",
+      intro: [
+        "Le tavole yoga sono costruite per la quiete: larghezza e volume extra per una piattaforma stabile, soft-top morbidi per mani e piedi e profili bassi che tengono la tavola vicino all’acqua. Servono studi, resort e istruttori che propongono programmi di yoga sull’acqua.",
+        'Produciamo piattaforme yoga con il vostro marchio, con i profili stabili più larghi, deck EVA premium e opzioni su scala per flotte di studi e resort.',
+      ],
+      faqs: [
+        {
+          q: 'Cosa rende una tavola SUP particolarmente adatta allo yoga?',
+          a: 'La stabilità prima di tutto: larghezza extra (33″–36″) e volume mantengono la tavola piatta e ferma. Un deck EVA morbido protegge mani, ginocchia e piedi, e un profilo del rail basso riduce le oscillazioni quando si sale e si scende.',
+        },
+        {
+          q: 'I resort possono ordinare tavole yoga come parte di una flotta?',
+          a: "Sì. I resort combinano spesso piattaforme yoga con tavole all-round per gli ospiti. I volumi di flotta combinati danno accesso ai prezzi da flotta e la grafica di marca con i colori della struttura si applica all’intero ordine.",
+        },
+        {
+          q: 'Le tavole yoga sono disponibili come pacchetto completo?',
+          a: 'Sì: tavola gonfiabile, pagaia, pompa, zaino e kit di riparazione, oppure un kit ridotto per lo stoccaggio in loco (tavola + pagaia + pompa elettrica), a seconda delle esigenze del vostro programma.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Piattaforme whitewater',
+      metaTitle: 'Tavole SUP whitewater personalizzate — Piattaforme per fiumi e rapide OEM | SUPsfactory',
+      metaDescription:
+        'Tavole SUP whitewater gonfiabili personalizzate per fiumi e rapide — scafi corti e maneggevoli con costruzione rinforzata contro gli impatti. OEM da 90–100+ pz a Qingdao, Cina.',
+      kicker: 'Serie · Whitewater',
+      h1: 'Tavole SUP whitewater personalizzate — scafi da fiume costruiti per gli impatti',
+      intro: [
+        'Le tavole whitewater sono corte, larghe e robuste: scafi maneggevoli che girano al comando, elevata resistenza agli impatti sui rail e una costruzione robusta per i letti dei fiumi bassi e i punti di calata rocciosi.',
+        'Produciamo piattaforme whitewater con il vostro marchio, con cuciture rinforzate, rail anti-impatto e forme specifiche per i fiumi — pensate per scuole, guide e outfitter fluviali che offrono corsi ed escursioni quotidiani.',
+      ],
+      faqs: [
+        {
+          q: 'Quale costruzione serve per le tavole whitewater?',
+          a: 'Rail rinforzati e cuciture sovrapposte assorbono gli impatti sui rail; PVC spesso e layup a più strati resistono alle forature dei letti dei fiumi. Le costruzioni a doppia camera aggiungono riserva di galleggiamento per i fiumi remoti.',
+        },
+        {
+          q: 'Fornite outfitter fluviali e scuole per guide?',
+          a: 'Sì. Outfitter e scuole per guide gestiscono flotte whitewater da 20–50 pz (pilota) con prezzi da flotta, kit di riparazione robusti e pinne/valvole di ricambio — tipici per i programmi fluviali ad alto utilizzo.',
+        },
+        {
+          q: 'Le tavole whitewater possono portare grafiche di marca?',
+          a: 'Sì: grafiche a tutta coperta, posizionamento del logo e colori della squadra vengono realizzati dai vostri file. Gli strati di stampa anti-strappo mantengono il branding intatto anche con un uso intenso.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Piattaforme fishing',
+      metaTitle: 'Tavole SUP fishing personalizzate — OEM e private label | SUPsfactory',
+      metaDescription:
+        'Tavole SUP fishing gonfiabili personalizzate con stabilità, capacità di carico e supporti per accessori — OEM/private label da 90–100+ pz, direttamente dalla fabbrica di Qingdao, Cina.',
+      kicker: 'Serie · Fishing',
+      h1: 'Tavole SUP fishing personalizzate — costruite pensando ai pescatori',
+      intro: [
+        "Le tavole fishing sono piattaforme di lancio stabili: larghe e voluminose per trasportare il pescatore più l’attrezzatura, con sistemi di fissaggio per portacanne, borse termiche e tackle, e una costruzione silenziosa per gli avvicinamenti discreti.",
+        'Produciamo piattaforme fishing con il vostro marchio, con funzioni per i pescatori definite progetto per progetto — dal pacchetto per il weekend fino al setup completo da torneo.',
+      ],
+      faqs: [
+        {
+          q: 'Quali funzioni per la pesca possono essere specificate?',
+          a: "Griglie di fissaggio per portacanne e accessori, guide per l’attrezzatura, cinghie per la borsa termica, punti di ancora e tavole ad alta capacità fino a 500 lbs per pescatore più attrezzatura. I pacchetti possono includere pagaie, pompe e borse con etichetta del marchio.",
+        },
+        {
+          q: 'Qual è il MOQ per gli ordini OEM di SUP fishing?',
+          a: "Le partite standard in volume partono da 90–100+ pz per rotolo da 150 m; le produzioni pilota da 20–50 pz su piattaforme standard; la produzione con stampo dedicato da 90–100+ pz per forma. Inviamo i campioni in 7–12 giorni; la produzione richiede 25–35 giorni dopo conferma dell’ordine e acconto.",
+        },
+        {
+          q: 'Producete tavole fishing per noleggio e attività di guida?',
+          a: "Sì. Le attività di guida e noleggio gestiscono flotte fishing con prezzi da flotta, ricambi e kit di riparazione calibrati per l’uso quotidiano.",
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Piattaforme kids',
+      metaTitle: 'Tavole SUP kids personalizzate — Piattaforme piccole e leggere OEM | SUPsfactory',
+      metaDescription:
+        'Tavole SUP kids gonfiabili personalizzate — piattaforme più corte e leggere con deck adatti ai bambini, progettate per sicurezza e divertimento. OEM da 90–100+ pz, direttamente dalla fabbrica.',
+      kicker: 'Serie · Kids',
+      h1: 'Tavole SUP kids personalizzate — piccole, leggere e costruite per le prime pagaiate',
+      intro: [
+        'Le tavole kids sono proporzionate per i rider più giovani: scafi più corti, peso inferiore, larghezze ridotte per corpi piccoli e deck morbidi che perdonano le cadute. Sono il punto di ingresso per brand family, scuole e flotte da noleggio per bambini.',
+        'Produciamo piattaforme kids con il vostro marchio in misure standard e junior, con opzioni di pacchetto adatte alle famiglie.',
+      ],
+      faqs: [
+        {
+          q: 'In quali misure sono disponibili le tavole SUP kids?',
+          a: 'Le piattaforme kids tipiche vanno da 7′ a 9′6″ con larghezze da 26″ a 30″ e pesi intorno ai 7–9 kg (15–20 lbs). La misura viene calibrata su età e peso del rider e verificata su un campione fisico prima della produzione.',
+        },
+        {
+          q: 'Fornite scuole e programmi giovanili?',
+          a: 'Sì: le nostre piattaforme kids sono un componente frequente delle flotte per scuole e programmi giovanili, ordinate insieme a pagaie junior e accessori per principianti a condizioni da programma.',
+        },
+        {
+          q: 'Le tavole kids possono portare grafiche di marca e dei personaggi?',
+          a: 'Sì. Varianti di colore a tutta coperta, artwork dei personaggi e posizionamento del logo vengono sviluppati dai vostri file o dalle indicazioni del marchio — stampati con gli stessi strati anti-strappo delle tavole per adulti.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Piattaforme multi-posto',
+      metaTitle: 'Tavole SUP multi-posto personalizzate — Tandem e famiglia OEM | SUPsfactory',
+      metaDescription:
+        'Tavole SUP multi-posto gonfiabili per il tempo libero in famiglia e le lezioni di gruppo — piattaforme tandem, yard e party. OEM da 90–100+ pz, direttamente dalla fabbrica.',
+      kicker: 'Serie · Multi-posto',
+      h1: 'Tavole SUP multi-posto personalizzate — tandem, piattaforme yard e party',
+      intro: [
+        'Le tavole multi-posto aprono il SUP ai gruppi: tandem con postazioni di pagaiata aggiuntive, tavole yard per rilassarsi e piattaforme party che trasportano più rider. Sostengono i ricavi del noleggio in resort, spiagge e attività lacustri.',
+        'Produciamo piattaforme multi-posto con il vostro marchio, con i profili di stabilità e volume richiesti da ogni scenario di utilizzo.',
+      ],
+      faqs: [
+        {
+          q: 'Quali tipi di tavole multi-posto producete?',
+          a: 'Tandem (due pagaiatori, circa 13′–14′), tavole yard (piattaforme lounge corte e larghe) e piattaforme party ad alto volume per 3–6 rider. Ogni tipo viene specificato in base a capacità, peso e uso previsto.',
+        },
+        {
+          q: 'Le tavole multi-posto sono un buon investimento per il noleggio?',
+          a: 'Sì: consentono tariffe orarie più alte con costi di attrezzatura inferiori per rider e tengono i gruppi uniti invece di dividerli su tavole singole. I gestori di noleggio combinano tipicamente le tavole multi-posto con flotte all-round.',
+        },
+        {
+          q: 'Qual è la capacità di una piattaforma party?',
+          a: 'La capacità dipende da misure e volume: le piattaforme yard e party tipiche sopportano 400–700 lbs e trasportano 3–6 rider a seconda di dimensioni e configurazione. Le specifiche vengono confermate su un campione fisico prima della produzione in serie.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

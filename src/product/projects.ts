@@ -2679,6 +2679,665 @@ export const projects: Localized<ProjectData[]> = {
       tags: ['Yoga-Konfiguration', 'Vollständige Deckabdeckung', 'Programmflotte'],
     },
   ],
+  it: [
+    {
+      slug: 'coastal-rental-fleet',
+      customerType: 'Operatori di flotte di noleggio',
+      region: 'Mediterraneo — Spagna, Italia, Grecia',
+      productCategory: 'SUP gonfiabile per noleggio (10′6″ + 11′0″)',
+      projectStage: 'Valutazione della flotta → Approvazione del campione → Consegna scaglionata in 3 lotti',
+      manufacturingScope: 'Specifica della flotta, costruzione rinforzata, produzione scaglionata, fornitura di ricambi',
+      keyRequirements: 'Tavole da noleggio durevoli, consegna scaglionata a tutte le stazioni, minore tasso di sostituzioni anticipate',
+      qualityFocus: "Costruzione rinforzata, tenuta all’aria, grafiche di flotta, dotazione completa",
+      navLabel: 'Flotta di noleggio costiera',
+      metaTitle: 'Flotta di noleggio costiera | 320 tavole in 120 giorni — SUPsfactory',
+      metaDescription:
+        'Come un operatore di noleggio nel Mediterraneo ha allestito una flotta costiera di 320 tavole tra Spagna, Italia e Grecia — tre lotti scaglionati in 120 giorni e una riduzione stimata delle sostituzioni anticipate del 20–25 %.',
+      kicker: 'Progetto di noleggio costiero',
+      h1: 'Come un operatore di noleggio nel Mediterraneo ha allestito una flotta costiera di 320 tavole in 120 giorni',
+      intro: [
+        "Un operatore di noleggio con stazioni in Spagna, Italia e Grecia aveva bisogno di una flotta durevole per l’estate ad alta rotazione — consegnata in tre lotti, in tempo per l’apertura di ogni stazione.",
+      ],
+      industry: 'Operatori di flotte di noleggio',
+      requirement: '320 tavole da noleggio in due misure — 10′6″ e 11′0″ — per stazioni costiere in tre Paesi, consegnate in tre lotti scaglionati entro 120 giorni.',
+      challenge:
+        "La rotazione quotidiana del noleggio usura rapidamente le tavole e il tasso di sostituzioni anticipate dell’operatore si attestava al 20–25 %. Le stazioni aprivano in tre Paesi in date diverse: una consegna unica non era un’opzione, né lo era una flotta di un’unica misura.",
+      solution:
+        "Due piattaforme da noleggio durevoli nelle misure che coprono la maggior parte dei noleggi, una costruzione rinforzata per l’uso intensivo e tre lotti di produzione programmati in tempo per l’apertura di ogni stazione — con kit di ricambi e guida alla riparazione per stazione.",
+      product: 'SUP gonfiabile per noleggio — piattaforme da 10′6″ e 11′0″ con rail rinforzati e materiali resistenti ai raggi UV, kit per stazione.',
+      process: [
+        { title: 'Valutazione della flotta', body: 'Le date di apertura e i volumi di rotazione hanno definito le due misure e la ripartizione dei lotti.' },
+        { title: 'Selezione delle tavole', body: 'Piattaforme da noleggio da 10′6″ e 11′0″ scelte per la copertura dei noleggi e la durabilità.' },
+        { title: 'Produzione scaglionata', body: 'Tre lotti sincronizzati con la data di apertura di ogni stazione.' },
+        { title: 'Consegna e supporto', body: 'Flotta spedita per lotto con kit di ricambi e guida alla riparazione per stazione.' },
+      ],
+      result:
+        "Tutti e tre i lotti sono arrivati entro 120 giorni, in sincronia con l’apertura di ogni stazione. Le piattaforme rinforzate dovrebbero ridurre il tasso di sostituzioni anticipate di circa il 20–25 % e i kit di ricambi coprono le riparazioni sul campo tra una stagione e l’altra.",
+      outcome: '320 tavole · 120 giorni · 3 lotti · ca. −20–25 % di sostituzioni anticipate.',
+      metrics: [
+        { value: '320', label: 'tavole in due misure' },
+        { value: '120', label: "giorni dall’ordine all’ultimo lotto" },
+        { value: '3', label: 'consegne scaglionate, una per apertura di stazione' },
+        { value: '−20–25%', label: 'tasso di sostituzioni anticipate stimato' },
+      ],
+      takeaways: [
+        "I lotti scaglionati portano la flotta esattamente all’apertura di ogni stazione — nessun inventario inattivo, nessun avvio tardivo.",
+        'Due misure (10′6″ e 11′0″) hanno coperto la maggior parte dei noleggi senza frammentare la flotta.',
+        'Per abbassare il tasso di sostituzioni anticipate è decisiva la costruzione rinforzata — non solo il prezzo.',
+        "I kit di ricambi per stazione hanno mantenuto le tavole operative tra una stagione e l’altra.",
+      ],
+      customizations: [
+        'Piattaforme da noleggio da 10′6″ e 11′0″ calibrate sui profili dei noleggi',
+        "Rail rinforzati e materiali resistenti ai raggi UV per l’uso intensivo del noleggio",
+        'Grafiche di flotta e numerazione per stazione',
+        'Piano di produzione in tre lotti sincronizzato con le aperture delle stazioni',
+        'Kit di ricambi e guida alla riparazione per stazione',
+        'Imballaggio per sedi separate e verifica della consegna per lotto',
+      ],
+      inspectionFocus: [
+        'Verifica della costruzione rinforzata per tavola',
+        "Gonfiaggio e tenuta all’aria su ogni tavola",
+        'Accuratezza delle grafiche di flotta e della numerazione delle stazioni',
+        'Completezza di accessori e kit di ricambi per stazione',
+        "Controlli dell’imballaggio per spedizioni a sedi separate in più lotti",
+      ],
+      confidentiality:
+        "Per accordo, il nome dell’operatore e le ubicazioni delle stazioni non vengono divulgati. Questo progetto è presentato in forma anonima per tutelare la riservatezza commerciale.",
+      tags: ['Consegna scaglionata della flotta', 'Costruzione di qualità da noleggio', 'Tasso di sostituzione ridotto'],
+    },
+    {
+      slug: 'eu-distributor-private-label',
+      customerType: 'Distributori e grossisti',
+      region: 'Europa',
+      productCategory: 'SUP gonfiabile a marchio privato (2 SKU)',
+      projectStage: 'Pianificazione della gamma → Approvazione del campione → Consegna in volume in 90 giorni',
+      manufacturingScope: 'Branding a marchio privato, imballaggio retail, produzione in serie, supporto per i riordini',
+      keyRequirements: 'Due SKU collaudate sul mercato sotto il marchio del distributore, imballaggio retail UE, allineamento con le date di stagione',
+      qualityFocus: "Accuratezza delle grafiche, codice a barre ed etichetta per mercato, dotazione completa, tenuta all’aria",
+      navLabel: 'Marchio privato per distributori',
+      metaTitle: 'Marchio privato per distributore UE | 1,200 tavole in 90 giorni — SUPsfactory',
+      metaDescription:
+        'Come un distributore europeo ha lanciato in 90 giorni una linea SUP a marchio privato con 1,200 tavole — due SKU, imballaggio retail UE e un riordino nel Q4 sulla stessa specifica bloccata.',
+      kicker: 'Progetto a marchio privato',
+      h1: 'Come un distributore europeo ha lanciato una linea SUP a marchio privato con 1,200 tavole in 90 giorni',
+      intro: [
+        "Un distributore europeo voleva una propria linea SUP sugli scaffali per la stagione estiva — due SKU collaudate sul mercato, imballaggio retail completo e nessun rapporto diretto con i produttori.",
+      ],
+      industry: 'Distributori e grossisti',
+      requirement: '1,200 tavole brandizzate in due SKU — 10′6″ Allround e 12′6″ Touring — con imballaggio retail UE, consegnate in 90 giorni.',
+      challenge:
+        "La finestra di vendita estiva è fissa: tutte le 1,200 tavole con il relativo imballaggio dovevano arrivare in tempo. L’imballaggio a marchio privato — codici a barre, etichette, manuali — doveva rispettare i requisiti del retail UE e il distributore non poteva contare su alcuna esperienza con fabbriche di SUP.",
+      solution:
+        "Due piattaforme collaudate sul mercato per la gamma retail, l’intero design a marchio privato e l’imballaggio retail UE gestiti in un unico programma e una pianificazione della produzione che consenta la spedizione congiunta di entrambe le SKU entro la finestra dei 90 giorni — con specifica bloccata per un riordino pulito.",
+      product: 'SUP gonfiabile a marchio privato — 10′6″ Allround e 12′6″ Touring, con pagaia, pompa, zaino e cartoni retail stampati brandizzati.',
+      process: [
+        { title: 'Pianificazione della gamma', body: 'Selezionate due SKU — 10′6″ Allround e 12′6″ Touring — per la copertura nel retail.' },
+        { title: 'Approvazione del campione', body: 'Grafiche, imballaggio e finiture confermati su tavole fisiche.' },
+        { title: 'Produzione in 90 giorni', body: 'Produzione in volumi pianificata per spedire congiuntamente entrambe le SKU per la finestra di stagione.' },
+        { title: 'Riordino nel Q4', body: 'Riordino effettuato sulla stessa specifica bloccata.' },
+      ],
+      result:
+        "Tutte le 1,200 tavole con imballaggio retail completo sono state spedite entro 90 giorni, in tempo per la finestra di vendita estiva. La linea ha venduto l’intero stock e il distributore è tornato nel Q4 con un riordino sulla stessa specifica bloccata.",
+      outcome: '1,200 tavole · 90 giorni · 2 SKU · riordino nel Q4.',
+      metrics: [
+        { value: '1,200', label: 'tavole in un unico lancio' },
+        { value: '90', label: 'giorni alla consegna completa' },
+        { value: '2', label: 'SKU retail, entrambe in tempo per la finestra' },
+        { value: 'Q4', label: 'riordino sulla stessa specifica' },
+      ],
+      takeaways: [
+        'Partire con due SKU collaudate mantiene basso il rischio di magazzino e riempie comunque la gamma retail.',
+        'Un unico programma per tavole, accessori e imballaggio elimina una causa frequente di errore nei lanci.',
+        'Una data di stagione fissa determina il calendario — la pianificazione della produzione deve trattarla come non negoziabile.',
+        'Bloccare la specifica al lancio rende i riordini puliti e coerenti.',
+      ],
+      customizations: [
+        'Piattaforme Allround da 10′6″ e piattaforme Touring da 12′6″ per la gamma retail',
+        'Design a marchio privato per deck, fondo e imballaggio',
+        'Pagaia, pompa e zaino brandizzati per SKU',
+        "Cartoni retail stampati, codici a barre, etichette e manuale d’uso per il retail UE",
+        'Distinta base e specifica bloccate per riordini coerenti',
+        'Consegna scaglionata sincronizzata con la finestra di lancio nel retail',
+      ],
+      inspectionFocus: [
+        'Accuratezza delle grafiche rispetto ai file a marchio privato approvati',
+        'Verifica di codice a barre, etichetta e manuale per mercato',
+        'Dotazione completa per SKU su tutta la serie di 1,200 tavole',
+        "Verifiche a campione della tenuta all’aria durante la produzione",
+        'Verifica di cartone e imballaggio per SKU',
+      ],
+      confidentiality:
+        "Per accordo, il nome del distributore e i suoi clienti retail non vengono divulgati. Questo progetto è presentato in forma anonima per tutelare la riservatezza commerciale.",
+      tags: ['Marchio privato', 'Gamma retail di 2 SKU', 'Consegna nella finestra di stagione'],
+    },
+    {
+      slug: 'resort-sup-fleet',
+      customerType: 'Resort e strutture alberghiere',
+      region: 'Europa / Nordamerica',
+      productCategory: 'SUP gonfiabile Allround',
+      projectStage: 'Approvazione del campione → Produzione in serie → Aggiornamento della flotta',
+      manufacturingScope: 'Grafiche, accessori, imballaggio e produzione della flotta',
+      keyRequirements: 'Durabilità per il noleggio, stoccaggio compatto, branding completo della struttura',
+      qualityFocus: "Tenuta all’aria, accuratezza delle grafiche, accessori completi, marcatura dei cartoni",
+      navLabel: 'Flotta SUP per un resort di lusso',
+      metaTitle: 'Flotta SUP per un resort di lusso | 100 tavole brandizzate — SUPsfactory',
+      metaDescription:
+        'Come un resort di lusso ha dotato il proprio programma balneare di 100 tavole SUP brandizzate — design personalizzato, costruzione di qualità da noleggio e gestione stagionale della flotta.',
+      kicker: 'Progetto resort',
+      h1: 'Come un resort di lusso ha standardizzato una flotta SUP brandizzata con 100 tavole',
+      intro: [
+        "Un resort di lusso voleva che il proprio programma balneare si integrasse con la struttura — tavole brandizzate nei colori del resort, abbastanza robuste per l’uso quotidiano degli ospiti e facili da stoccare tra una stagione e l’altra.",
+      ],
+      industry: 'Resort e strutture alberghiere',
+      requirement: '100 tavole SUP brandizzate per il noleggio agli ospiti, nei colori della struttura.',
+      challenge:
+        "Il noleggio quotidiano usura rapidamente le flotte standard e lo spazio di stoccaggio fuori stagione è limitato. Il resort aveva bisogno di tavole in grado di resistere all’uso intensivo, stoccabili in poco spazio e con il branding completo della struttura.",
+      solution:
+        "Costruzione gonfiabile di qualità da noleggio con rail rinforzati e materiali resistenti ai raggi UV, grafiche a tutta superficie nei colori del resort e pagaie e pompe brandizzate incluse nel pacchetto flotta.",
+      product: "SUP gonfiabile personalizzato — piattaforma Allround da 11′ con design del deck brandizzato e accessori.",
+      process: [
+        { title: 'Consulenza sulla flotta', body: 'Afflusso degli ospiti, zona costiera e durata della stagione hanno definito dimensione e mix della flotta.' },
+        { title: 'Campione brandizzato', body: 'Colori e logo approvati su una tavola fisica prima della produzione.' },
+        { title: 'Produzione e controllo qualità', body: '100 tavole prodotte con controllo qualità a più punti su tutta la serie.' },
+        { title: 'Consegna e aggiornamento', body: 'Consegna stagionale, ricambi e un programma di aggiornamento per le stagioni successive.' },
+      ],
+      result:
+        "La flotta è partita in tempo per la stagione, le tavole si stoccano fuori stagione in un’unica stanza e il feedback degli ospiti sulle attrezzature brandizzate ha portato a un ampliamento della flotta l’anno successivo.",
+      outcome: 'Avvio di stagione puntuale, flotta brandizzata al 100%, ampliamento nella stagione successiva.',
+      customizations: [
+        'Piattaforma, misura e costruzione delle tavole selezionate per il noleggio quotidiano',
+        'Design a tutta superficie del deck nei colori della struttura',
+        'Branding sui rail e posizionamento del logo approvati su un campione fisico',
+        'Pagaia, pompa e set di accessori brandizzati per ogni tavola',
+        'Numerazione della flotta e codifica a colori su tutta la serie',
+        "Configurazione di stoccaggio compatto e ambito dell’aggiornamento stagionale",
+      ],
+      inspectionFocus: [
+        "Gonfiaggio e tenuta all’aria su ogni tavola",
+        'Stato della valvola e dei rail rinforzati',
+        'Accuratezza delle grafiche e corrispondenza cromatica rispetto al campione approvato',
+        'Completezza di accessori e dotazione per tavola',
+        'Marcatura dei cartoni ed etichette di flotta prima del rilascio della spedizione',
+      ],
+      confidentiality:
+        "Per accordo, il nome del resort e i suoi asset di marca non vengono divulgati. Questo progetto è presentato in forma anonima per tutelare la riservatezza commerciale.",
+      tags: ['Flotta brandizzata per gli ospiti', 'Costruzione di qualità da noleggio', 'Aggiornamento stagionale'],
+    },
+    {
+      slug: 'private-label-launch',
+      customerType: 'Marchi retail e outdoor',
+      region: 'Europa',
+      productCategory: 'SUP gonfiabile Allround (a marchio privato)',
+      projectStage: 'Approvazione del campione → Serie di validazione → Scalabilità',
+      manufacturingScope: 'Design di prodotto e imballaggio, campionatura, produzione, mantenimento degli stampi',
+      keyRequirements: 'Linea vendibile senza design o produzione SUP interni',
+      qualityFocus: "Controllo delle versioni delle grafiche, accuratezza dell’imballaggio, dotazione completa",
+      navLabel: 'Lancio del marchio private label',
+      metaTitle: 'Lancio SUP private label | Estensione di marca — SUPsfactory',
+      metaDescription:
+        'Come un marchio outdoor esistente si è espanso nel business SUP con una linea di prodotto a marchio privato — dal logo al primo container, con MOQ scalabile.',
+      kicker: 'Progetto private label',
+      h1: 'Come un marchio outdoor ha lanciato una linea SUP a marchio privato, dal logo al primo container',
+      intro: [
+        'Un rivenditore sportivo con una marca affermata voleva espandersi negli sport di pagaiata senza rapporti diretti con i produttori — una linea SUP vendibile a proprio nome.',
+      ],
+      industry: 'Marchi retail e outdoor',
+      requirement: 'Una linea SUP a marchio privato — logo, colori e imballaggio su piattaforme collaudate, con una prima serie da 50 pezzi.',
+      challenge:
+        'Nessun team di design SUP interno, nessuna esperienza produttiva e un primo ordine abbastanza piccolo per testare il mercato prima di scalare.',
+      solution:
+        'Design completo di prodotto e imballaggio basato sugli asset della marca, una serie di validazione da 50 pezzi e successiva scalatura sulle stesse piattaforme verificate — gli stampi restano alla marca.',
+      product: 'SUP gonfiabile a marchio privato — deck brandizzato, pagaia, pompa, zaino e cartoni stampati.',
+      process: [
+        { title: 'Acquisizione della marca', body: 'Logo, colori e linee guida di marca trasformati in design di tavole e imballaggio.' },
+        { title: 'Approvazione del campione', body: 'Il campione fisico ha confermato finiture, colori e imballaggio.' },
+        { title: 'Serie di validazione', body: 'Prima serie da 50 pezzi venduta completamente prima della scalatura.' },
+        { title: 'Scalabilità', body: 'Produzione in quantità da container con qualità costante; design di proprietà della marca.' },
+      ],
+      result:
+        'La linea ha venduto la propria serie di validazione entro una stagione ed è scalata agli ordini da container — la marca possiede tutti i design e gli stampi.',
+      outcome: 'Validata in una stagione, scalata agli ordini da container.',
+      customizations: [
+        'Piattaforme, misure e colori delle tavole allineati alla linea della marca',
+        'Design di deck, fondo e imballaggio basati sugli asset della marca',
+        'Pagaia, pompa, zaino e set di accessori brandizzati',
+        'Cartoni retail stampati e impaginazione delle etichette',
+        "Codice a barre e versione del manuale d’uso per il mercato di riferimento",
+        'Proprietà di stampi e design mantenuta dalla marca',
+      ],
+      inspectionFocus: [
+        'Corrispondenza della versione delle grafiche con i file approvati',
+        'Accuratezza di colori e finiture sul campione fisico',
+        'Verifica di imballaggio, codice a barre e manuale',
+        'Dotazione completa su tutta la serie di validazione',
+        "Verifiche a campione della tenuta all’aria durante la produzione",
+      ],
+      confidentiality:
+        "Per accordo, il nome della marca e i dettagli commerciali non vengono divulgati. Questo progetto è presentato in forma anonima per tutelare la riservatezza commerciale.",
+      tags: ['Estensione di marca', "Design dell’imballaggio", 'MOQ scalabile'],
+    },
+    {
+      slug: 'club-team-boards',
+      customerType: 'Club e squadre di paddle',
+      region: 'Nordamerica',
+      productCategory: 'SUP gonfiabile da allenamento',
+      projectStage: "Approvazione del campione → Produzione della flotta → Riordino per l’ampliamento",
+      manufacturingScope: 'Branding del club, produzione della flotta, supporto ricambi',
+      keyRequirements: 'Look di squadra uniforme, budget limitato, ampliamento futuro identico',
+      qualityFocus: "Accuratezza delle grafiche, tenuta all’aria, dotazione completa, riordini coerenti",
+      navLabel: 'Tavole di squadra per il club',
+      metaTitle: 'Tavole SUP di squadra per club | Rinnovamento della flotta brandizzato — SUPsfactory',
+      metaDescription:
+        'Come un club di paddle ha rinnovato e aggiornato la propria flotta con 25 tavole da allenamento brandizzate — grafiche di squadra, supporto ricambi e riordini coerenti.',
+      kicker: 'Progetto club',
+      h1: 'Come un club di paddle ha rinnovato il brand di una flotta da allenamento con 25 tavole',
+      intro: [
+        'Un club di paddle ha rilanciato la propria marca e aveva bisogno di attrezzature coerenti — una flotta di squadra uniforme per allenamenti e regate, senza stock eterogenei.',
+      ],
+      industry: 'Club e squadre di paddle',
+      requirement: '25 tavole da allenamento brandizzate con nome, colori e logo del club, oltre a ricambi.',
+      challenge:
+        "La flotta esistente era disomogenea e senza brand; il budget era limitato e per l’ampliamento futuro servivano stock identici e coerenti.",
+      solution:
+        'Branding del club su ogni tavola, condizioni di flotta per il volume e ricambi con guide alla riparazione per prolungare la vita delle tavole.',
+      product: 'SUP di squadra personalizzato — forma da allenamento con grafiche del club, pinne di ricambio e kit di riparazione.',
+      process: [
+        { title: 'Acquisizione del club', body: 'Numero di membri, tipi di allenamento e attrezzature attuali verificati.' },
+        { title: 'Selezione delle tavole', body: 'Forme da allenamento e da principianti calibrate sul programma del club.' },
+        { title: 'Branding', body: 'Nome, colori e logo del club applicati su tutta la flotta.' },
+        { title: 'Consegna e crescita', body: "Flotta consegnata con i ricambi; riordino identico per l’ampliamento." },
+      ],
+      result:
+        "I membri si allenano con attrezzature brandizzate coerenti e il club ha ampliato la flotta nella stagione successiva con un riordino identico e della stessa qualità.",
+      outcome: 'Flotta uniforme, riordino di ampliamento identico.',
+      customizations: [
+        'Piattaforme da allenamento e da principianti calibrate sul programma del club',
+        'Nome, colori e logo del club su tutta la flotta',
+        'Numerazione delle tavole e raggruppamento per misura in base al gruppo di allenamento',
+        'Pinne di ricambio e kit di riparazione come accessori di flotta',
+        'Specifica di riordino bloccata per un ampliamento futuro identico',
+      ],
+      inspectionFocus: [
+        'Accuratezza delle grafiche di nome, colori e logo del club',
+        "Verifica di gonfiaggio e tenuta all’aria",
+        'Completezza di accessori e kit di riparazione',
+        'Coerenza cromatica su tutta la serie di 25 tavole',
+      ],
+      confidentiality:
+        "Per accordo, il nome del club e la sua ubicazione non vengono divulgati. Questo progetto è presentato in forma anonima per tutelare la riservatezza commerciale.",
+      tags: ['Branding del club', 'Condizioni di flotta', 'Supporto ricambi'],
+    },
+    {
+      slug: 'school-program-fleet',
+      customerType: 'Istruzione e programmi giovanili',
+      region: 'Europa',
+      productCategory: 'SUP gonfiabile per principianti e multi-posto',
+      projectStage: 'Revisione del programma → Approvazione del campione → Consegna della flotta',
+      manufacturingScope: 'Design del pacchetto, produzione, ricambi e supporto al rinnovo',
+      keyRequirements: 'Attrezzature orientate alla sicurezza, quantità per dimensioni di classe, gestione con personale limitato',
+      qualityFocus: "Stabilità, tenuta all’aria, accessori completi, guida per l’utente",
+      navLabel: 'Flotta per programmi scolastici',
+      metaTitle: 'Programma SUP per scuole | Flotta per principianti — SUPsfactory',
+      metaDescription:
+        "Come una scuola ha avviato un corso opzionale di paddle sport con una flotta di 15 tavole per principianti e tavole multi-posto — attrezzature orientate alla sicurezza per l’insegnamento.",
+      kicker: 'Progetto scolastico',
+      h1: "Come una scuola ha allestito una flotta per principianti con 15 tavole per l’insegnamento del paddle sport",
+      intro: [
+        'Una scuola che avviava un corso opzionale di paddle sport aveva bisogno di attrezzature stabili e sicure per i principianti, dimensionate sulle classi e facili da gestire con un personale limitato.',
+      ],
+      industry: 'Istruzione e programmi giovanili',
+      requirement: 'Una flotta per principianti adatta alle dimensioni delle classi, incluse tavole multi-posto per le prime lezioni.',
+      challenge:
+        'Livelli di abilità misti, requisiti di sicurezza severi, cicli di acquisto scolastici e un budget che deve coprire anche le future coorti.',
+      solution:
+        "Tavole per principianti larghe e di grande volume e tavole multi-posto, condizioni di programma allineate alle dimensioni delle classi e una guida per l’utente chiara per gli istruttori.",
+      product: 'Flotta di SUP per principianti — piattaforme stabili con costruzione rinforzata per una lunga durata del programma.',
+      process: [
+        { title: 'Revisione del programma', body: 'Dimensioni delle classi, area acquatica e organizzazione degli istruttori hanno definito il pacchetto.' },
+        { title: 'Costruzione del pacchetto', body: "Tipi e quantità di tavole calibrati sull’insegnamento." },
+        { title: 'Approvazione del campione', body: 'Stabilità e costruzione verificate su una tavola fisica.' },
+        { title: 'Consegna e rinnovo', body: 'Fornitura in volumi, ricambi e riordini per le nuove coorti.' },
+      ],
+      result:
+        "Gli istruttori hanno segnalato progressi più rapidi nella prima lezione sulle piattaforme stabili e il programma ha rinnovato le attrezzature l’anno successivo con un riordino corrispondente.",
+      outcome: "Curva di apprendimento più rapida, attrezzature rinnovate l’anno successivo.",
+      customizations: [
+        'Piattaforme per principianti larghe e di grande volume per le prime lezioni',
+        'Tavole multi-posto per lezioni di gruppo',
+        'Misura e quantità delle tavole calibrate sulle dimensioni delle classi',
+        "Guida per l’utente chiara ed etichette didattiche",
+        'Costruzione rinforzata per una lunga durata del programma',
+        'Specifica per la fornitura in volumi e i riordini di rinnovo',
+      ],
+      inspectionFocus: [
+        'Verifica di stabilità e configurazione del deck',
+        "Gonfiaggio e tenuta all’aria su ogni tavola",
+        'Accessori completi per tavola e kit di classe',
+        "Accuratezza di guida per l’utente ed etichette",
+        'Marcatura dei cartoni e controlli del kit di classe',
+      ],
+      confidentiality:
+        "Per accordo, il nome della scuola e la regione non vengono divulgati. Questo progetto è presentato in forma anonima per tutelare la riservatezza commerciale.",
+      tags: ['Flotta per principianti', 'Avvio del programma', 'Ordini di rinnovo'],
+    },
+    {
+      slug: 'distributor-line-expansion',
+      customerType: 'Distributori e grossisti',
+      region: 'Due regioni di esportazione',
+      productCategory: 'SUP gonfiabile di fascia media (6 SKU)',
+      projectStage: 'Pianificazione della gamma → Approvazione del campione → Fornitura a più mercati',
+      manufacturingScope: 'Tavole, accessori e imballaggio retail in un unico programma',
+      keyRequirements: 'Un unico responsabile della qualità, branding coerente, scorte ridotte per SKU',
+      qualityFocus: "Tenuta all’aria, accuratezza delle grafiche, accuratezza di codici a barre ed etichette, rispondenza con la distinta base",
+      navLabel: 'Ampliamento della gamma per distributori',
+      metaTitle: 'Ampliamento della gamma SUP per distributori | Programma da 6 SKU — SUPsfactory',
+      metaDescription:
+        'Come un distributore di sport acquatici ha costruito una linea SUP completa di fascia media con sei SKU — una fabbrica, un programma, esportata in più mercati.',
+      kicker: 'Progetto distributore',
+      h1: 'Come un distributore ha lanciato una linea SUP da 6 SKU in due mercati',
+      intro: [
+        'Un distributore di sport acquatici con kayak e accessori a catalogo voleva una propria linea di SUP gonfiabili — senza frammentare la fornitura di tavole, pagaie e pompe tra più fabbriche.',
+      ],
+      industry: 'Distributori e grossisti',
+      requirement: 'Una linea SUP di fascia media da 6 SKU (da 10′6″ a 12′6″ più set di accessori) con esportazione in due regioni.',
+      challenge:
+        'Fabbriche separate per tavole, pagaie e pompe significavano branding incoerente, tre punti di fornitura distinti e nessun responsabile unico della qualità per i casi di garanzia.',
+      solution:
+        'Un unico programma per tavole, accessori e imballaggio retail; set di accessori condivisi per ridurre le scorte per SKU; e opzioni di fornitura calibrate sulla struttura di ogni mercato.',
+      product: 'Sei SKU retail brandizzate — piattaforme SUP gonfiabili con set completi, imballati in scomparti, in cartoni stampati.',
+      process: [
+        { title: 'Pianificazione della gamma', body: 'Gap di mercato e posizionamenti di prezzo hanno definito le sei SKU e i contenuti dei bundle.' },
+        { title: 'Branding unificato', body: 'Un unico sistema di design applicato a tavole, pagaie, pompe e cartoni.' },
+        { title: 'Condizioni di programma', body: "Prezzi in volume sull’intero programma, non per singola SKU." },
+        { title: 'Fornitura per mercati', body: 'Condizioni di esportazione standard per la regione principale, condizioni full-service per il secondo mercato.' },
+      ],
+      result:
+        'La linea è stata lanciata in entrambi i mercati in una sola stagione; i set di accessori condivisi hanno ridotto le scorte e i casi di garanzia sono stati risolti tramite un unico referente in fabbrica.',
+      outcome: 'Lancio multi-mercato in una stagione, scorte ridotte, un unico referente per la garanzia.',
+      customizations: [
+        'Sei SKU da 10′6″ a 12′6″ più bundle di accessori',
+        'Un unico sistema di design per tavole, pagaie, pompe e cartoni',
+        'Set di accessori condivisi per ridurre le scorte per SKU',
+        'Set completi imballati in scomparti in cartoni retail stampati',
+        'Versioni di codice a barre, etichetta e manuale per ogni mercato di riferimento',
+        'Condizioni di fornitura e imballaggio calibrati su ogni mercato',
+      ],
+      inspectionFocus: [
+        'Rispondenza con la distinta base per configurazione SKU',
+        'Accuratezza di design e branding sulle sei SKU',
+        'Accuratezza di codici a barre ed etichette per mercato',
+        "Completezza dei set di accessori e dell’imballaggio in scomparti",
+        "Verifica della tenuta all’aria su tutta la serie",
+      ],
+      confidentiality:
+        "Per accordo, il nome del distributore e il suo elenco clienti non vengono divulgati. Questo progetto è presentato in forma anonima per tutelare la riservatezza commerciale.",
+      tags: ['Programma multi-SKU', 'Set retail completi'],
+    },
+    {
+      slug: 'startup-brand-zero-to-one',
+      customerType: 'Marchi SUP startup',
+      region: 'Nordamerica',
+      productCategory: 'SUP gonfiabile ODM Allround',
+      projectStage: 'Concept → Produzione di prova → Ordine di lancio',
+      manufacturingScope: 'Sviluppo ODM, grafiche, imballaggio, produzione',
+      keyRequirements: 'Prima serie con MOQ bassa, allineamento con la data di lancio, stampi mantenuti dalla marca',
+      qualityFocus: "Tenuta all’aria, accuratezza delle grafiche, verifica dell’imballaggio",
+      navLabel: 'Lancio startup 0→1',
+      metaTitle: 'Lancio di una marca SUP startup | Dal concept alla prima serie — SUPsfactory',
+      metaDescription:
+        'Come una startup SUP è passata dal concept a una prima serie esaurita — sviluppo ODM, una produzione di prova da 10 pezzi e poi un ordine di lancio brandizzato da 200 pezzi.',
+      kicker: 'Progetto startup',
+      h1: 'Dal concept a un lancio esaurito con 200 tavole per una marca SUP startup',
+      intro: [
+        'Due fondatori con grande visibilità ma senza fabbrica volevano vendere il proprio SUP — una tavola ODM sviluppata secondo la loro specifica, con un ordine di lancio che non li mettesse in difficoltà.',
+      ],
+      industry: 'Marchi SUP startup',
+      requirement: 'Sviluppo ODM con MOQ bassa: produzione di prova da 10 pezzi per la validazione, poi 200 pezzi per il lancio.',
+      challenge:
+        "Nessun team di design, nessuna esperienza di importazione e un primo ordine troppo piccolo per la maggior parte delle fabbriche — oltre a una data di lancio legata alla stagione dell’emisfero settentrionale.",
+      solution:
+        "Sviluppo ODM basato sul loro concept su una piattaforma collaudata, una produzione di prova da 10 pezzi che ha coperto la verifica di campioni e fornitura, poi un ordine di lancio brandizzato da 200 pezzi — gli stampi restano alla marca.",
+      product: 'SUP ODM gonfiabile brandizzato — design del deck personalizzato, imballaggio e misure dei cartoni pronte per il retail.',
+      process: [
+        { title: 'Colloquio di concept', body: 'Target del rider, posizionamento di prezzo e data di lancio hanno definito la piattaforma base.' },
+        { title: 'Produzione di prova', body: "10 pezzi hanno validato prodotto e imballaggio dall’inizio alla fine." },
+        { title: 'Ordine di lancio', body: '200 pezzi prodotti con grafiche e specifica dei cartoni verificate.' },
+        { title: 'Percorso di scalabilità', body: 'Stampi mantenuti dalla marca; riordini a condizioni migliori.' },
+      ],
+      result:
+        "La prima serie si è esaurita entro poche settimane dall’inizio della stagione; il feedback della produzione di prova ha corretto un problema di imballaggio prima che il grande ordine entrasse in produzione.",
+      outcome: 'Serie di lancio esaurita, imballaggio corretto prima della scalatura, percorso di riordino consolidato.',
+      customizations: [
+        'Tavola ODM sviluppata dal concept della marca su una piattaforma collaudata',
+        'Design del deck personalizzato e imballaggio di marca',
+        "Misure dei cartoni pronte per il retail per l’ordine di lancio",
+        'Set di accessori e configurazione calibrati sul target del rider',
+        'Gli stampi e il design rimangono alla marca',
+        'Pianificazione della produzione allineata alla data di lancio',
+      ],
+      inspectionFocus: [
+        'Accuratezza delle grafiche rispetto ai file approvati',
+        "Verifica della tenuta all’aria su produzione di prova e ordine di lancio",
+        'Verifica di imballaggio e cartoni — inclusa la correzione emersa nella produzione di prova',
+        'Completezza di accessori e dotazione',
+      ],
+      confidentiality:
+        "Per accordo, il nome della marca e i dettagli del lancio non vengono divulgati. Questo progetto è presentato in forma anonima per tutelare la riservatezza commerciale.",
+      tags: ['Sviluppo ODM', 'Produzione di prova con MOQ bassa', 'Pianificazione in base alla data di stagione'],
+    },
+    {
+      slug: 'rental-fleet-multi-site',
+      customerType: 'Operatori di flotte di noleggio',
+      region: 'Nordamerica',
+      productCategory: 'SUP gonfiabile Allround di qualità da noleggio',
+      projectStage: 'Audit della flotta → Produzione uniforme → Aggiornamento stagionale',
+      manufacturingScope: 'Specifica della flotta, produzione, kit di ricambi, programma di aggiornamento',
+      keyRequirements: 'Una tavola uniforme in tutte le sedi, durabilità sotto stress da noleggio',
+      qualityFocus: "Verifica della costruzione rinforzata, tenuta all’aria, dotazione completa",
+      navLabel: 'Flotta di noleggio multi-sede',
+      metaTitle: 'Ampliamento della flotta di noleggio | 200 tavole, 3 sedi — SUPsfactory',
+      metaDescription:
+        'Come un operatore di noleggio multi-sede ha sostituito stock eterogenei con 200 tavole uniformi in tre sedi — condizioni di flotta, aggiornamento stagionale e fornitura di ricambi.',
+      kicker: 'Progetto di noleggio',
+      h1: 'Standardizzazione di una flotta di noleggio da 200 tavole in tre sedi per un operatore di flotte',
+      intro: [
+        'Un operatore di noleggio con tre sedi acquatiche aveva bisogno di una flotta uniforme invece di stock eterogenei — la stessa tavola in ogni sede, con prezzi in base al volume della flotta.',
+      ],
+      industry: 'Operatori di flotte di noleggio',
+      requirement: '200 tavole di qualità da noleggio in tre sedi, con aggiornamento stagionale e ricambi riparabili sul campo.',
+      challenge:
+        'Stock eterogenei e invecchiati complicavano riparazioni e prezzi; lo stress del noleggio richiede una costruzione rinforzata e lo stoccaggio fuori stagione è distribuito su tre sedi.',
+      solution:
+        "Un’unica piattaforma di qualità da noleggio in tutte le sedi con rail rinforzati e materiali resistenti ai raggi UV, condizioni di flotta sul volume di 200 tavole e un kit di ricambi con guida alla riparazione per sede.",
+      product: "SUP gonfiabile di qualità da noleggio — piattaforma Allround da 11′ con costruzione rinforzata e kit di riparazione.",
+      process: [
+        { title: 'Audit della flotta', body: 'Volumi e curve di utilizzo per sede hanno definito la distribuzione tra le sedi.' },
+        { title: 'Specifica uniforme', body: 'Una tavola ovunque — riparazioni, prezzi e formazione più semplici.' },
+        { title: 'Condizioni di flotta', body: "Sconto in volume sull’ordine combinato di 200 tavole." },
+        { title: 'Ricambi e aggiornamento', body: 'Kit di ricambi per sede oltre a un ciclo di sostituzione stagionale definito.' },
+      ],
+      result:
+        "La flotta uniforme ha eliminato l’incertezza sulle riparazioni per sede, gli ordini combinati hanno sbloccato le condizioni di flotta e il programma di 200 tavole è diventato la base del rinnovo stagionale.",
+      outcome: 'Operatività uniforme, costi unitari ridotti, ciclo stagionale ripetibile.',
+      customizations: [
+        "Un’unica piattaforma di qualità da noleggio in tutte e tre le sedi",
+        'Rail rinforzati e materiali resistenti ai raggi UV per lo stress del noleggio',
+        'Ripartizione per sede e numerazione della flotta per ubicazione',
+        'Kit di ricambi per sede con guida alla riparazione',
+        'Ciclo di sostituzione stagionale definito',
+      ],
+      inspectionFocus: [
+        'Verifica della costruzione rinforzata per tavola',
+        "Gonfiaggio e tenuta all’aria su ogni tavola",
+        'Completezza di accessori e kit di riparazione per sede',
+        'Accuratezza di numerazione della flotta ed etichette delle sedi',
+        "Controlli dell’imballaggio per spedizioni a più sedi",
+      ],
+      confidentiality:
+        "Per accordo, il nome dell’operatore e le ubicazioni non vengono divulgati. Questo progetto è presentato in forma anonima per tutelare la riservatezza commerciale.",
+      tags: ['Flotta multi-sede', 'Costruzione di qualità da noleggio', 'Rinnovo stagionale'],
+    },
+    {
+      slug: 'touring-sup-range',
+      customerType: 'Distributori outdoor e di sport acquatici',
+      region: 'Europa',
+      productCategory: 'SUP gonfiabile touring',
+      projectStage: 'Brief di prodotto → Approvazione del campione → Produzione in serie',
+      manufacturingScope: 'Revisione della piattaforma, grafiche, configurazione degli accessori, imballaggio retail e produzione',
+      keyRequirements: 'Prestazioni touring, grafiche specifiche del progetto, kit retail completo',
+      qualityFocus: "Tenuta all’aria, accuratezza delle grafiche, accessori completi, marcatura dei cartoni",
+      navLabel: 'Linea SUP touring',
+      metaTitle: 'Sviluppo di una linea SUP touring | Distributore outdoor — SUPsfactory',
+      metaDescription:
+        "Come SUPsfactory ha supportato una linea SUP touring per un distributore outdoor europeo — revisione della piattaforma, grafiche specifiche del progetto, configurazione degli accessori e imballaggio retail.",
+      kicker: 'Progetto touring',
+      h1: 'Sviluppo di una linea SUP touring per un distributore outdoor europeo',
+      intro: [
+        "Un progetto personalizzato di SUP gonfiabili con revisione della piattaforma, grafiche specifiche del progetto, configurazione degli accessori, imballaggio retail e pianificazione della qualità — dall’approvazione del campione alla preparazione della spedizione.",
+      ],
+      industry: 'Distributori e grossisti',
+      requirement: "Una linea SUP touring con grafiche specifiche del progetto, configurazione degli accessori e imballaggio retail, gestita dall’approvazione del campione alla spedizione.",
+      challenge:
+        "I pagaiatori touring si aspettano stabilità a velocità elevate e una planata prevedibile, quindi piattaforma, misure e volume dovevano essere verificati prima della produzione. Le grafiche dovevano tenere conto di rail, EVA e valvole, e ogni kit retail doveva arrivare completo su tutta la linea.",
+      solution:
+        "Verifica di piattaforma e misure per le prestazioni touring, grafiche specifiche del progetto allineate alle caratteristiche della tavola, una configurazione di accessori con pagaia, leash e borsa, pianificazione dell’imballaggio retail e produzione in serie controllata con punti di controllo qualità definiti.",
+      product: 'Linea di SUP gonfiabili touring — piattaforma ad alte prestazioni con design personalizzato, kit di accessori completo e imballaggio pronto per il retail.',
+      process: [
+        { title: 'Revisione della piattaforma', body: 'Misure touring, volume e profilo dei rail calibrati sul target e sul mercato.' },
+        { title: 'Specifica e grafiche', body: 'Preparati specifica tecnica, allineamento delle grafiche e distinta base approvata dal cliente.' },
+        { title: 'Approvazione del campione', body: 'Costruzione, grafiche e kit confermati su una tavola fisica.' },
+        { title: 'Produzione e ispezione', body: "Produzione in serie con punti di controllo qualità, verifica dell’imballaggio e rilascio della spedizione." },
+      ],
+      result:
+        "La linea è avanzata dall’approvazione del campione alla preparazione della spedizione con una documentazione controllata di prodotto, grafiche, distinta base e imballaggio — il campione approvato ha fatto da riferimento per produzione e controllo finale.",
+      outcome: 'Percorso controllato dal campione alla produzione; grafiche e imballaggio bloccati prima della produzione.',
+      customizations: [
+        'Piattaforma touring, misure e configurazione del volume',
+        'Grafiche specifiche del progetto per deck, fondo e rail',
+        'Layout del pad EVA e configurazione dei colori',
+        'Sistema di pinne, disposizione dei bungee e set di accessori',
+        'Borsa brandizzata, versione del manuale e imballaggio retail',
+        'Marcatura dei cartoni e requisiti dei codici a barre per il mercato di riferimento',
+      ],
+      inspectionFocus: [
+        "Verifica di gonfiaggio e tenuta all’aria",
+        'Ispezione di valvola, rail e cuciture',
+        'Accuratezza delle grafiche rispetto ai file approvati',
+        'Completezza di accessori e dotazione',
+        'Verifica di imballaggio retail, codice a barre e marcatura dei cartoni',
+      ],
+      confidentiality:
+        "Per accordo, il nome del distributore e il suo elenco clienti non vengono divulgati. Questo progetto è presentato in forma anonima per tutelare la riservatezza commerciale.",
+      tags: ['Linea SUP touring', 'Grafiche personalizzate', 'Imballaggio retail'],
+    },
+    {
+      slug: 'fishing-sup-program',
+      customerType: 'Rivenditori outdoor',
+      region: 'Nordamerica',
+      productCategory: 'SUP gonfiabile da pesca',
+      projectStage: 'Revisione del concept → Approvazione del campione → Produzione del programma',
+      manufacturingScope: 'Configurazione della piattaforma, disposizione degli accessori, imballaggio e produzione',
+      keyRequirements: 'Integrazione degli accessori da pesca, piattaforma stabile, kit ordinato',
+      qualityFocus: "Tenuta all’aria, ancoraggio degli accessori, accuratezza delle grafiche, kit completo",
+      navLabel: 'Programma SUP da pesca',
+      metaTitle: 'Sviluppo SUP da pesca | Disposizione degli accessori e kit — SUPsfactory',
+      metaDescription:
+        "Come SUPsfactory ha sviluppato una configurazione SUP da pesca per un rivenditore outdoor — disposizione degli accessori, kit ordinato e imballaggio pronto per il retail in un programma controllato.",
+      kicker: 'Progetto pesca',
+      h1: 'Sviluppo di un SUP da pesca per un rivenditore outdoor — disposizione degli accessori e configurazione del kit',
+      intro: [
+        "Un progetto SUP specifico per la pesca: una piattaforma stabile con zone per gli accessori da pesca, un kit ordinato e un imballaggio pronto per il retail — dalla revisione del concept alla produzione del programma.",
+      ],
+      industry: 'Marchi retail e outdoor',
+      requirement: 'Una configurazione SUP da pesca con accessori ancorati, kit ordinato e imballaggio retail, dalla revisione del concept alla produzione del programma.',
+      challenge:
+        "Le tavole da pesca richiedono accessori ancorati — portacanne, anelli a D e zone per le cassette — senza compromettere la stabilità. Il kit doveva restare ordinato a bordo e l’imballaggio doveva presentare chiaramente la categoria nel retail.",
+      solution:
+        "Una piattaforma larga e stabile con zone accessori definite, anelli a D e bungee posizionati per l’attrezzatura da pesca, un kit ordinato con kit di riparazione e un imballaggio retail sviluppato in un unico programma controllato.",
+      product: 'SUP gonfiabile da pesca — piattaforma stabile con zone per gli accessori da pesca, kit ordinato e imballaggio pronto per il retail.',
+      process: [
+        { title: 'Revisione del concept', body: 'Uso previsto, attrezzature trasportate e struttura del kit hanno definito la configurazione.' },
+        { title: 'Disposizione degli accessori', body: 'Anelli a D, bungee e zone di stivaggio posizionati sul deck.' },
+        { title: 'Approvazione del campione', body: 'Stabilità e ancoraggio degli accessori verificati su una tavola fisica.' },
+        { title: 'Produzione del programma', body: 'Punti di controllo qualità definiti, verifica del kit e rilascio della spedizione.' },
+      ],
+      result:
+        "La configurazione è stata confermata sul campione approvato — ancoraggio degli accessori, struttura del kit e imballaggio allineati prima della produzione — e il programma è stato spedito con kit verificati.",
+      outcome: 'Disposizione degli accessori e kit bloccati in fase di campione; kit verificati spediti.',
+      customizations: [
+        'Piattaforma stabile e larga con zone per gli accessori da pesca',
+        'Posizionamento di portacanne, anelli a D e bungee',
+        'Layout del deck per cassette e attrezzatura',
+        "Selezione di pagaia, pinne e leash per l’uso da pesca",
+        'Kit di accessori ordinato e kit di riparazione',
+        'Imballaggio retail per la categoria SUP da pesca',
+        'Codice a barre e marcatura dei cartoni per il mercato di riferimento',
+      ],
+      inspectionFocus: [
+        "Verifica dell’ancoraggio degli accessori e del posizionamento degli anelli a D",
+        "Verifica di gonfiaggio e tenuta all’aria",
+        'Accuratezza di grafiche e layout del deck',
+        'Completezza del kit e configurazione degli accessori',
+        'Verifica di imballaggio retail e marcatura dei cartoni',
+      ],
+      confidentiality:
+        "Per accordo, il nome del rivenditore e i dettagli di canale non vengono divulgati. Questo progetto è presentato in forma anonima per tutelare la riservatezza commerciale.",
+      tags: ['Configurazione da pesca', 'Disposizione degli accessori', 'Organizzazione del kit'],
+    },
+    {
+      slug: 'yoga-sup-program',
+      customerType: 'Scuole e programmi di sport acquatici',
+      region: 'Europa',
+      productCategory: 'SUP gonfiabile da yoga',
+      projectStage: 'Revisione del programma → Approvazione del campione → Consegna della flotta',
+      manufacturingScope: 'Configurazione della piattaforma stabile, copertura del deck, produzione e imballaggio del programma',
+      keyRequirements: 'Stabilità per la pratica di gruppo, copertura completa del deck in EVA, flotta coerente',
+      qualityFocus: "Copertura del deck, tenuta all’aria, accuratezza delle grafiche, dotazione completa",
+      navLabel: 'Programma SUP yoga',
+      metaTitle: 'Sviluppo SUP yoga | Programma di allenamento — SUPsfactory',
+      metaDescription:
+        "Come SUPsfactory ha sviluppato una configurazione yoga SUP stabile per un programma di allenamento di sport acquatici — copertura completa del deck e una flotta di programma coerente.",
+      kicker: 'Progetto yoga',
+      h1: 'Sviluppo di una configurazione yoga SUP stabile per un programma di allenamento di sport acquatici',
+      intro: [
+        'Una configurazione yoga SUP per un programma di allenamento: una piattaforma larga e di grande volume con copertura completa del deck in EVA, prodotta come flotta coerente per la pratica di gruppo.',
+      ],
+      industry: 'Istruzione e programmi giovanili',
+      requirement: 'Una configurazione yoga SUP stabile con copertura completa del deck per la pratica di gruppo, in quantità di programma.',
+      challenge:
+        "La pratica dello yoga richiede una piattaforma larga e di grande volume che resti assolutamente stabile in acqua. I gruppi hanno bisogno di tavole coerenti e gli istruttori di istruzioni chiare e di uno stoccaggio gestibile tra una sessione e l’altra.",
+      solution:
+        "Una piattaforma larga e di grande volume con copertura completa del deck in EVA, una configurazione di flotta coerente sull’intero programma e istruzioni per gli istruttori ed etichette del programma incluse.",
+      product: 'SUP gonfiabile da yoga — piattaforma stabile con copertura completa del pad del deck e flotta di programma coerente.',
+      process: [
+        { title: 'Revisione del programma', body: 'Stile di pratica, dimensione del gruppo e stoccaggio hanno definito la configurazione.' },
+        { title: 'Configurazione', body: 'Piattaforma, copertura del deck e finiture definite su tutta la flotta.' },
+        { title: 'Approvazione del campione', body: 'Stabilità e copertura del deck verificate su una tavola fisica.' },
+        { title: 'Consegna della flotta', body: 'Quantità di programma prodotte con verifica di kit e imballaggio.' },
+      ],
+      result:
+        "La flotta è stata spedita come un’unica configurazione coerente — ogni tavola conforme al campione approvato in termini di stabilità, copertura del deck e finiture — con le istruzioni incluse per gli istruttori.",
+      outcome: 'Flotta coerente conforme al campione approvato; imballaggio del programma verificato.',
+      customizations: [
+        'Piattaforma larga e di grande volume per la stabilità in piedi',
+        "Copertura completa del deck in EVA su tutta l’area utilizzabile",
+        'Layout del deck e posizionamento delle cinghie per la pratica',
+        'Colore e finiture coerenti su tutta la flotta',
+        'Istruzioni per gli istruttori ed etichette del programma',
+        'Configurazione di stoccaggio e imballaggio del programma',
+      ],
+      inspectionFocus: [
+        "Ispezione della copertura del deck e dell’adesione dell’EVA",
+        "Verifica di gonfiaggio e tenuta all’aria",
+        'Verifica della stabilità sul campione approvato',
+        'Coerenza di grafiche e finiture su tutta la serie',
+        "Completezza della dotazione e controlli dell’imballaggio del programma",
+      ],
+      confidentiality:
+        "Per accordo, il nome del programma e la sua ubicazione non vengono divulgati. Questo progetto è presentato in forma anonima per tutelare la riservatezza commerciale.",
+      tags: ['Configurazione yoga', 'Copertura completa del deck', 'Flotta di programma'],
+    },
+  ],
 }
 
 export function getProject(locale: Locale, slug: string): ProjectData | undefined {
@@ -2715,6 +3374,12 @@ export const projectsMeta: Localized<ProjectsMeta> = {
     metaDescription:
       'Reale SUP-Fertigungsprojekte: Wie Resorts, Marken, Clubs und Schulen mit SUPsfactory aus Produktanforderungen fertige SUP-Boards gemacht haben.',
     h1: 'Projekte — so entwickeln wir SUP-Produkte mit Kunden',
+  },
+  it: {
+    metaTitle: 'Progetti e casi di sviluppo di prodotti SUP | SUPsfactory',
+    metaDescription:
+      'Progetti reali di produzione SUP: come resort, marchi, club e scuole hanno trasformato i requisiti di prodotto in paddle board finite con SUPsfactory.',
+    h1: 'Progetti — come sviluppiamo prodotti SUP con i clienti',
   },
 }
 

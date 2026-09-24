@@ -1,0 +1,169 @@
+meta:
+  title: 'Proof Center — le prove dietro ogni dichiarazione di produzione'
+  description: 'Raccolta delle prove dietro le dichiarazioni di SUPsfactory: relazioni tra entità, certificati con ambito di applicazione, elenco attrezzature, tracciabilità dei lotti e documentazione di ispezione.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'prove di fabbrica SUP'
+    - 'elenco delle certificazioni di fabbrica'
+    - 'tracciabilità dei lotti SUP'
+    - 'verifica della fabbrica SUP'
+    - 'prove di produzione Cina'
+
+hero:
+  tagline: 'Hub delle prove di fabbrica'
+  title: 'Proof Center — tutto ciò che affermiamo è archiviato qui'
+  subtitle: 'Una pagina che associa ogni affermazione di questo sito alla sua prova: l''entità registrata dietro la fabbrica, i certificati con ambito di applicazione, le macchine che svolgono il lavoro e le registrazioni di lotto che sopravvivono a ogni run di produzione.'
+  actions:
+    - { variant: primary, text: 'Richiedi il pacchetto di verifica', href: '/it/contact#trust-verification' }
+    - { variant: ghost, text: 'Esplora il sistema di qualità', href: '/it/quality' }
+
+answer:
+  label: 'Risposta breve'
+  text: 'La catena da affermazione a prova funziona così: ogni affermazione di questo sito si basa su una registrazione, un certificato, una macchina, un documento o un protocollo di test — e ognuno di questi può essere consultato. SUPsfactory è la divisione di sviluppo prodotto e produzione SUP della Qingdao Vatrad Group Co., Ltd. (registrata a Qingdao dal 2012). L''impianto di 12,500 m² dispone di gestione qualità ISO-9001:2015, conformità ISO-25649, documentazione di conformità CE, conformità sociale BSCI (rapporto di audit su richiesta) e documentazione materiali REACH/RoHS per ogni ordine. Ogni camera gonfiabile viene testata per 24 ore a 18,0 PSI con scarto automatico oltre 0,50 PSI di caduta e le registrazioni di lotto vengono conservate con tracciabilità ERP di 10 anni. Il percorso cartaceo è pubblicato o condivisibile e la fabbrica stessa è aperta agli audit.'
+  verified: 'September 2026'
+
+entities:
+  tagline: 'Chi sta dietro la fabbrica'
+  title: 'Un''azienda di produzione, una persona giuridica'
+  subtitle: 'Il lato commerciale, la divisione di produzione e la persona giuridica riconducono tutti a un''azienda che puoi verificare dal sito fino al registro delle imprese.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'SUPsfactory — il sito web pubblico'
+      desc: 'La linea prodotto SUP OEM/ODM e private label con la sua documentazione pubblica: catalogo, guida MOQ, pagine del sistema qualità e casi studio. Il nome con cui tratti è il nome che verifichi.'
+      link: '/it/about/supsfactory-entity'
+      link_label: 'Pagina dell''entità sul sito'
+    - icon: A
+      icon_bg: green
+      title: 'Vatrad — la divisione di produzione'
+      desc: 'La divisione manifatturiera marina dietro l''impianto: tavole SUP, gommoni e RIB vengono prodotti nello stesso stabilimento di Qingdao. La documentazione di prodotto e qualità viene emessa sotto questo nome.'
+      link: '/it/factory'
+      link_label: 'Esplora la fabbrica'
+    - icon: V
+      icon_bg: orange
+      title: 'Qingdao Vatrad Group Co., Ltd. — la persona giuridica'
+      desc: 'Il produttore registrato (dal 2012) che gestisce l''impianto di 12,500 m² nella Economic Development Zone di Laixi, Qingdao. I dettagli di registrazione, la licenza di commercio estero e i documenti di audit vengono condivisi sotto NDA o durante un audit.'
+      link: '/it/oem-trust-assurance'
+      link_label: 'Vedi il caso studio di verifica'
+
+proof_stats:
+  - value: '12,500 m²'
+    label: 'Un unico sito produttivo'
+    detail: '4 officine specializzate, aperte agli audit'
+  - value: '350+'
+    label: 'Dipendenti in sede'
+    detail: '25+ ingegneri in R&S, materiali e QC'
+  - value: '120,000+'
+    label: 'Tavole all''anno'
+    detail: '~10.000 tavole/mese su 4 linee automatizzate'
+  - value: '50+'
+    label: 'Paesi serviti'
+    detail: 'Europa, Americhe, APAC, Medio Oriente'
+  - value: '7 livelli'
+    label: 'Sistema a gate di collaudo'
+    detail: 'Nodo 01–07, registrato per numero di serie'
+  - value: '10 anni'
+    label: 'Tracciabilità ERP dei lotti'
+    detail: 'Registrazioni di lotto conservate e collegate per lotto'
+
+certifications:
+  tagline: 'Certificati & ambito di applicazione'
+  title: 'Cosa possediamo, cosa copre, come viene verificato'
+  subtitle: 'L''elenco pubblicato — mai "disponibile solo su richiesta". I numeri di certificato e i documenti di audit vengono forniti su richiesta o durante un audit.'
+  headers:
+    certificate: 'Certificato / Standard'
+    scope: 'Copertura'
+    verify: 'Come verificare'
+  rows:
+    - certificate: 'ISO 9001:2015'
+      scope: 'Gestione della qualità per design e produzione SUP'
+      verify: 'Numero di certificato e documenti di audit su richiesta o durante un audit'
+    - certificate: 'ISO 25649'
+      scope: 'Sicurezza e conformità strutturale delle imbarcazioni gonfiabili (Europa)'
+      verify: 'Documentazione di conformità per famiglia di prodotto'
+    - certificate: 'CE'
+      scope: 'Conformità UE per i prodotti SUP gonfiabili'
+      verify: 'La documentazione CE accompagna gli ordini'
+    - certificate: 'BSCI'
+      scope: 'Conformità sociale per impianto e organico'
+      verify: 'Rapporto di audit disponibile su richiesta'
+    - certificate: 'REACH & RoHS'
+      scope: 'Sostanze soggette a restrizione e documentazione dei materiali'
+      verify: 'Documentazione dei materiali con ogni ordine'
+    - certificate: 'Ispezione di terze parti (opzionale)'
+      scope: 'Ispezione pre-spedizione SGS, TÜV, BV o Intertek'
+      verify: 'ISO 2859-1 Livello II, programmata a tua scelta'
+
+evidence_gates:
+  tagline: 'Dove vivono le prove'
+  title: 'Raccolte delle prove — aperte alla consultazione'
+  subtitle: 'Ogni raccolta è una pagina live che puoi consultare ora, più i file che accompagnano il tuo ordine.'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'Elenco attrezzature & macchine'
+      desc: 'Taglio, saldatura, laminazione, stampa e assemblaggio, oltre al laboratorio QC — macchine con nome, specifiche e funzione. Chiedi un tour dal vivo.'
+      link: '/it/factory/equipment'
+      link_label: 'Apri l''elenco attrezzature'
+    - icon: P
+      icon_bg: green
+      title: 'Foto dei gate di collaudo & rapporti'
+      desc: 'Sette gate di collaudo con foto del sito produttivo e link ai rapporti bilingue — cosa viene controllato, con quale metodo, contro quale criterio, dove viene documentato.'
+      link: '/it/factory/process'
+      link_label: 'Apri i gate di collaudo'
+    - icon: Q
+      icon_bg: orange
+      title: 'Laboratorio QC & procedure di test'
+      desc: 'Macchina universale di prova a trazione (ASTM D751), tester di peeling delle saldature (ISO 6185), banchi di prova di tenuta d''aria e camera di invecchiamento allo xeno — le macchine che verificano tessuti e camere.'
+      link: '/it/factory/quality-lab'
+      link_label: 'Apri il laboratorio'
+    - icon: T
+      icon_bg: purple
+      title: 'Modelli di tracciabilità & quarantena'
+      desc: 'La catena letterale dal rotolo di materia prima alla tavola spedita, il processo di quarantena a 7 livelli per la merce non conforme e la matrice dei difetti che regola le classificazioni.'
+      link: '/it/factory/quality-inspection'
+      link_label: 'Apri il file di tracciabilità'
+
+traceability:
+  tagline: 'Un lotto, tracciato dal rotolo alla tavola'
+  title: 'Come appare davvero la tracciabilità'
+  body: |
+    A ogni lotto viene assegnato un **codice lotto ERP di 10 anni**. La catena registrata sotto un lotto:
+
+    - **Rotolo in ingresso** — certificato del materiale, numero del rotolo, partita di tessuto verificata (trazione, taglio, saldatura)
+    - **Taglio** — ordine di nesting CNC rispetto al file di design, percentuale di scarto registrata
+    - **Saldatura & laminazione** — linea, operatore, parametri macchina per camera
+    - **Assemblaggio** — numero di serie della tavola, tipo di valvola, lotto del deck pad
+    - **Test** — 18,0 PSI × 24 h di tenuta per camera, scarto automatico oltre 0,50 PSI di caduta
+    - **Rilascio** — checklist a 100 punti per tavola, rilascio del Direttore QA per lotto
+    - **Avanti** — certificato di conformità (Certificate of Conformance) con la consegna; diritto di audit riservato contrattualmente
+
+    Richiedi il protocollo QC di esempio prima del tuo primo ordine — ha lo stesso formato che riceverai con la consegna.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Domande sulle prove che gli acquirenti pongono'
+  items:
+    - q: 'Questa pagina serve solo alla verifica e non sostituisce la due diligence?'
+      a: 'Esatto — questa pagina mostra dove ogni affermazione può essere verificata: registrazione dell''entità, certificati, macchine, registrazioni e un impianto aperto agli audit. I tuoi consueti passaggi di due diligence (verifica della registrazione, audit, ispezione di terze parti) restano validi e sono benvenuti.'
+    - q: 'Quale entità deve comparire sulla mia documentazione d''ordine?'
+      a: 'Gli ordini vengono conclusi con la Qingdao Vatrad Group Co., Ltd., che opera come Vatrad (divisione di produzione), con SUPsfactory come linea prodotto SUP. I documenti contrattuali vengono firmati dal VP Vendite, dall''ingegnere capo e dal Direttore QA.'
+    - q: 'Posso ricevere copie dei certificati prima dell''ordine?'
+      a: 'Sì — i numeri di certificato e i documenti di audit vengono forniti su richiesta o durante un audit. L''elenco è pubblicato, mai "disponibile solo su richiesta".'
+    - q: 'Come posso verificare da solo i protocolli di test dei lotti?'
+      a: 'Ogni camera viene testata per 24 ore a 18,0 PSI con scarto automatico oltre 0,50 PSI di caduta; i protocolli di test sono collegati ai numeri di serie e viaggiano con il certificato di conformità di ogni lotto. Un''ispezione pre-spedizione SGS, TÜV, BV o Intertek secondo ISO 2859-1 Livello II può essere programmata a tua scelta.'
+    - q: 'I certificati coprono anche gli accessori?'
+      a: 'La documentazione materiali REACH/RoHS vale per tavole e accessori dello stesso ordine e le checklist QC coprono il kit completo — tavola, pagaia, pompa, leash e borsa.'
+    - q: 'Cosa succede alle prove dopo l''ordine?'
+      a: 'La tracciabilità ERP dei lotti viene conservata per 10 anni. Le SOP QMS e gli standard di prova restano scaricabili e l''acquirente mantiene contrattualmente un diritto di audit durante la produzione.'
+
+cta:
+  title: 'Prima verifica — poi parliamo di specifiche'
+  subtitle: 'Richiedi il pacchetto di registrazione, copie dei certificati o un audit. Prima la verifica; poi la discussione d''ordine. Una richiesta non comporta alcun obbligo d''ordine.'
+  button_text: 'Richiedi il pacchetto di verifica'
+  button_link: '/it/contact#trust-verification'
+  actions:
+    - text: Identità del marchio
+      href: /it/about/identity
+    - text: Checklist audit di fabbrica
+      href: /it/factory-audit-checklist

@@ -1,0 +1,79 @@
+meta:
+  title: 'Come funziona il Drop Stitch — nuclei rigidi per SUP gonfiabili'
+  description: 'Come il Drop Stitch trasforma il PVC flessibile in un nucleo rigido ad alta pressione (15-20 PSI) per i SUP: costruzione, materiali, indici di qualità e applicazioni.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Torna a Research'
+
+answer:
+  label: 'Risposta breve'
+  text: 'Il drop-stitch è un tessuto i cui ponticelli in filo di poliestere tengono il lato superiore e quello inferiore in PVC a una distanza fissa — così la pressione dell''aria rende la tavola rigida. Nuclei Vatrad: 1,680 DTEX, 2 fili per pollice quadrato, laminato esterno in PVC da 1.2 mm, progettati per 15 PSI, validati con un test di tenuta di 24 ore a 18.0 PSI.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Tecnologia'
+  title: 'Come funziona il Drop Stitch — l''ingegneria dietro i nuclei rigidi gonfiabili'
+  subtitle: '8 min di lettura'
+
+content_html: |
+  <h2>Cos'è il Drop Stitch?</h2>
+  <p>Nel processo drop-stitch (chiamato anche "tessuto drop-stitch" o "nucleo drop-stitch"), migliaia di singoli fili di poliestere collegano il lato superiore e quello inferiore di una struttura di tessuto. Durante il gonfiaggio questi fili agiscono come elementi di trazione interni — impediscono al lato superiore e a quello inferiore di gonfiarsi in una forma rotonda e mantengono la superficie piatta e rigida.</p>
+  <p>Il risultato è una struttura leggera e trasportabile che sopporta 15 – 20 PSI di pressione interna — paragonabile alla rigidità di una tavola rigida, ma completamente sgonfiabile per lo stoccaggio e il trasporto.</p>
+
+  <h2>Come funziona: la fisica</h2>
+  <p>In una struttura gonfiabile convenzionale (come un palloncino o un materassino) la pressione interna spinge uniformemente in tutte le direzioni. Senza contenimento interno la struttura diventa cilindrica o sferica. Il Drop Stitch risolve il problema con un rinforzo resistente alla trazione:</p>
+  <ul>
+    <li>Migliaia di fili collegano lo strato di tessuto superiore e inferiore</li>
+    <li>Durante il gonfiaggio la pressione dell'aria tenta di spingere lato superiore e inferiore in direzioni opposte</li>
+    <li>I fili resistono a questa separazione e trasmettono il carico come trazione lungo l'asse del filo</li>
+    <li>Il risultato è una superficie piatta e rigida che resiste alla flessione</li>
+  </ul>
+
+  <h2>Processo di produzione</h2>
+  <ol>
+    <li><strong>Tessitura:</strong> i fili di poliestere vengono tessuti simultaneamente in due strati separati di un tessuto di supporto (tipicamente poliestere rivestito PVC da 1,100 DTEX o 1,680 DTEX). I fili vengono tessuti tra gli strati con un angolo di 90&deg;.</li>
+    <li><strong>Rivestimento:</strong> il tessuto di supporto tessuto viene rivestito con PVC (o occasionalmente TPU) tramite processo a racla o calandra. Questo sigilla i fili e crea la membrana a tenuta d'aria.</li>
+    <li><strong>Incollaggio degli strati:</strong> il nucleo drop-stitch viene unito agli strati di laminato esterni (tipicamente PVC da 0.9 mm o 1.2 mm) tramite laminazione a caldo o colla.</li>
+    <li><strong>Saldatura:</strong> le fasce dei rail vengono unite lungo i bordi tramite saldatura ad aria calda, saldatura HF o saldatura ad alta frequenza, per formare le pareti laterali della tavola.</li>
+    <li><strong>Montaggio della valvola:</strong> vengono installate valvole Boston o valvole Halkey-Roberts, tipicamente con una valvola di sovrappressione per prevenire un gonfiaggio eccessivo.</li>
+  </ol>
+
+  <h2>Indici di qualità principali</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parametro</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Classe base</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Densità dei fili</td><td class="p-3 border">1 filo / sq in</td><td class="p-3 border">2 fili / sq in</td></tr>
+      <tr><td class="p-3 border">Tessuto di supporto</td><td class="p-3 border">1,100 DTEX</td><td class="p-3 border">1,680 DTEX</td></tr>
+      <tr><td class="p-3 border">Pressione max.</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">Spessore PVC</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Costruzione del rail</td><td class="p-3 border">Piegata &amp; incollata</td><td class="p-3 border">Saldata &amp; fusa</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Applicazioni</h2>
+  <ul>
+    <li><strong>Tavole SUP:</strong> spessore 4" – 6", 15 – 20 PSI, 1 – 2 fili/sq in</li>
+    <li><strong>Kayak:</strong> fondo drop-stitch + camere laterali gonfiabili, fondo a 10 – 15 PSI</li>
+    <li><strong>Fondi RIB:</strong> fondi drop-stitch per tender RIB leggeri e pieghevoli, 12 – 18 PSI</li>
+    <li><strong>Parabordi:</strong> drop-stitch a bassa pressione per parabordi sagomati con superfici piatte</li>
+  </ul>
+
+  <h2>Drop Stitch vs. Air Deck (nucleo in fibra di vetro o legno)</h2>
+  <p>Le tavole rigide usano nuclei in schiuma EPS con rinforzi in fibra di vetro o longheroni in legno. Sono più leggere, più rigide e più reattive — ma non possono essere sgonfiate. Il Drop Stitch scambia un po' di rigidità con una trasportabilità totale. Per la maggior parte degli utenti ricreativi, i SUP moderni in drop-stitch a 20 PSI sono indistinguibili nella rigidità dalle tavole rigide base.</p>
+
+  <h2>Come Vatrad utilizza il Drop Stitch</h2>
+  <p>Vatrad utilizza un nucleo drop-stitch in 1,680 DTEX in tutta la sua gamma SUP, con 2 fili per pollice quadrato e un laminato esterno in PVC da 1.2 mm. Le tavole sono progettate per 15 PSI e vengono sottoposte prima della spedizione a un test di tenuta della pressione di 24 ore a 18.0 PSI. Le fasce dei rail vengono saldate con il processo ad aria calda con fusione a tre strati, e le valvole di sovrappressione sono di serie su tutti i modelli.</p>
+  <p>Il Drop Stitch è la spina dorsale della nostra produzione SUP — consulta la <a href="/it/technology/drop-stitch-core">pagina tecnologica del nucleo drop-stitch</a> e come il nucleo viene giunto sulla <a href="/it/factory">linea di produzione di fabbrica</a>.</p>
+
+cta:
+  title: 'Vuoi saperne di più sul Drop Stitch?'
+  subtitle: 'Contattaci per specifiche tecniche e richieste OEM.'
+  button_text: 'Contatta le vendite'
+  button_link: /it/contact

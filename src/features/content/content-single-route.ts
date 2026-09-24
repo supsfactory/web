@@ -29,6 +29,9 @@ export function contentSingleRoute(path: string) {
       if (loaderData.deTranslated) {
         links.push({ rel: 'alternate', hreflang: 'de-DE', href: `${origin}/de${path}` })
       }
+      if (loaderData.itTranslated) {
+        links.push({ rel: 'alternate', hreflang: 'it-IT', href: `${origin}/it${path}` })
+      }
       return {
         meta: [
           { title },
@@ -41,6 +44,7 @@ export function contentSingleRoute(path: string) {
           { property: 'og:locale:alternate', content: OG_LOCALE.es },
           ...(loaderData.frTranslated ? [{ property: 'og:locale:alternate', content: OG_LOCALE.fr }] : []),
           ...(loaderData.deTranslated ? [{ property: 'og:locale:alternate', content: OG_LOCALE.de }] : []),
+          ...(loaderData.itTranslated ? [{ property: 'og:locale:alternate', content: OG_LOCALE.it }] : []),
           { property: 'og:type', content: loaderData.kind === 'post' || loaderData.kind === 'article' ? 'article' : 'website' },
           { property: 'og:image', content: absImage },
           { property: 'og:image:width', content: '1200' },

@@ -1,0 +1,85 @@
+meta:
+  title: 'Guida a misure e specifiche SUP — Paddleboard gonfiabili | {SITE}'
+  description: 'Dimensioni, capacità e usi consigliati per ogni tavola Vatrad. Trova la misura SUP gonfiabile giusta per le tue esigenze.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Consulente misure SUP'
+    - 'Dimensioni paddleboard'
+    - 'Specifiche SUP gonfiabili'
+    - 'Tabella misure SUP'
+hero:
+  title: Guida a misure e specifiche
+  subtitle: Dimensioni, capacità e usi consigliati per ogni prodotto Vatrad.
+
+categories:
+  inflatable: SUP gonfiabili per la massima portabilità senza rinunce in termini di prestazioni. Scegli la misura giusta per il tuo peso e il tuo stile di pagaiata.
+  sup: Stand-up paddleboard per tour, yoga, fitness e paddling ricreativo. Scelta in base a lunghezza e peso del rider.
+  accessory: Accessori e attrezzature di sicurezza per completare la tua tavola SUP. Misure universali con più opzioni.
+
+table:
+  headers:
+    product: Prodotto
+    length: Lunghezza
+    width: Larghezza
+    weight: Peso
+    max_load: Carico max.
+    best_for: Adatto per
+  rows:
+    - product: 'SUP Allround (Explorer 11 ft)'
+      length: '11''0" (335 cm)'
+      width: '32" (81 cm)'
+      weight: 19 lbs (8.6 kg)
+      max_load: 220 lbs (100 kg)
+      best_for: Principianti, tempo libero, paddling in famiglia su laghi e fiumi tranquilli
+    - product: 'SUP Allround (10''6")'
+      length: '10''6" (320 cm)'
+      width: '32" (81 cm)'
+      weight: 18 lbs (8.2 kg)
+      max_load: 200 lbs (90 kg)
+      best_for: Rider più leggeri, yoga e utilizzo ricreativo generale
+    - product: 'SUP Touring (12 ft)'
+      length: '12''0" (366 cm)'
+      width: '30" (76 cm)'
+      weight: 23 lbs (10.4 kg)
+      max_load: 260 lbs (118 kg)
+      best_for: Paddling di distanza, velocità e tour costieri
+    - product: 'SUP Touring (14 ft)'
+      length: '14''0" (427 cm)'
+      width: '28" (71 cm)'
+      weight: 26 lbs (11.8 kg)
+      max_load: 275 lbs (125 kg)
+      best_for: Gare e paddling di lunga distanza
+    - product: 'SUP Surf (8–10 ft)'
+      length: '8''0"–10''0" (244–305 cm)'
+      width: '30" (76 cm)'
+      weight: 17 lbs (7.7 kg)
+      max_load: 180 lbs (82 kg)
+      best_for: Onde e surf manovrabile
+    - product: 'SUP Yoga/Fitness (11 ft)'
+      length: '11''0" (335 cm)'
+      width: '34" (86 cm)'
+      weight: 22 lbs (10 kg)
+      max_load: 240 lbs (109 kg)
+      best_for: Yoga, fitness e paddling ricreativo stabile
+
+how_to_choose:
+  title: Come trovare la misura giusta
+  cards:
+    - title: Tavole SUP
+      description: Scegli la lunghezza in base al tuo peso e all'uso previsto. Le tavole più larghe (32"+ – 81 cm+) offrono più stabilità. Le tavole più lunghe (11-12 ft) tengono meglio la rotta nei tour. I paddler più pesanti necessitano di tavole con volume maggiore.
+    - title: SUP Touring
+      description: Le tavole più lunghe (11–12 ft) sono le più adatte al paddling di distanza e ai tour. Le tavole più larghe (32"+ – 81 cm+) offrono più stabilità. Controlla la capacità di peso per il peso totale incluso l'attrezzatura.
+    - title: SUP Allround
+      description: Scegli la lunghezza in base al peso del rider e all'uso previsto. Le tavole Allround sono adatte a tempo libero, fitness e yoga. Le tavole più piccole sono più manovrabili.
+
+cta:
+  title: 'Sfoglia le tavole per misura o parla con un ingegnere'
+  subtitle: 'Confronta i modelli Touring, Allround e Yoga del nostro assortimento — oppure inviaci la composizione dei tuoi rider e ti consiglieremo le misure adatte al tuo progetto.'
+  actions:
+    - variant: primary
+      text: Sfoglia i prodotti SUP
+      href: /it/products
+    - text: Altri approfondimenti sul paddling
+      href: /it/knowledge
+    - text: Come vengono costruite le tavole
+      href: /it/factory/process

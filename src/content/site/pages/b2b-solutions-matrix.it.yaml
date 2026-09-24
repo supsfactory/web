@@ -1,0 +1,134 @@
+meta:
+  title: 'Matrice di soluzioni B2B per i clienti | {SITE}'
+  description: 'Matrice completa delle soluzioni B2B Vatrad per 24 tipologie di clienti — dalle startup outdoor alle istituzioni per la conservazione marina.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Soluzioni B2B per i clienti
+  title: '24 soluzioni B2B adatte alla tua azienda'
+  subtitle: 'Dai fondatori di startup ai distributori globali: trova l''esatta soluzione Vatrad sviluppata per il tuo modello di business, il tuo settore e i tuoi obiettivi.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-building.webp
+    alt: Fabbrica e impianto produttivo Vatrad
+
+answer:
+  label: 'Risposta chiara'
+  text: 'Una sola fabbrica serve ogni canale B2B: produzione OEM/ODM con MOQ confermato per progetto (campione 1–2 unità, pilota 20–50, quantità standard 90–100+ per bobina da 150 m; co-branding da 5–10 unità), private label su piattaforme collaudate, distribuzione all''ingrosso e programmi per flotte per resort, club e scuole. Ogni tipologia di cliente viene associata a una specifica pagina di soluzione — campioni in 7–12 giorni, produzione in 25–35 giorni dall''ordine e dall''acconto.'
+  verified: 'September 2026'
+
+solutions:
+  title: Matrice delle soluzioni per i clienti
+  subtitle: 'Ogni tipologia di cliente, la sua esigenza principale e la pagina di soluzione Vatrad progettata appositamente.'
+  items:
+    - clientType: Fondatore di startup outdoor
+      need: Creazione del marchio
+      solutionPage: Costruisci il tuo marchio SUP
+      link: /solutions/private-label-sup
+    - clientType: Manager di marchio outdoor
+      need: Espansione del marchio outdoor negli sport acquatici
+      solutionPage: Espandere un marchio outdoor negli sport acquatici
+      link: /solutions/private-label-sup
+    - clientType: Proprietario di un surf shop
+      need: Modernizzazione dell''attività di surf
+      solutionPage: Portare la tecnologia gonfiabile nel tuo surf shop
+      link: /products/surf
+    - clientType: Venditore Amazon
+      need: Crescita e-commerce
+      solutionPage: Differenziazione del prodotto e consegna rapida
+      link: /solutions/private-label-sup
+    - clientType: Marchio di attrezzatura da pesca
+      need: SUP da pesca
+      solutionPage: Costruisci il tuo marchio di SUP da pesca
+      link: /products/fishing
+    - clientType: Marchio yoga e benessere
+      need: Prodotti acquatici per il benessere
+      solutionPage: Soluzioni per l''attrezzatura SUP Yoga
+      link: /products/yoga
+    - clientType: Marchio creator
+      need: Marchio da influencer
+      solutionPage: Avvio SUP in edizione Creator
+      link: /solutions/private-label-sup
+    - clientType: Fondatore di un paddle club
+      need: Flotta per il club
+      solutionPage: Flotta SUP commerciale
+      link: /solutions/club-sup
+    - clientType: Proprietario di un centro di noleggio
+      need: Attività di noleggio
+      solutionPage: Soluzione per flotte di noleggio durevoli
+      link: /solutions/rental-operators
+    - clientType: Manager attività di un resort
+      need: Esperienza alberghiera
+      solutionPage: Pacchetto attività acquatiche per resort
+      link: /solutions/resort-sup
+    - clientType: Accademia di sport acquatici
+      need: Formazione e addestramento
+      solutionPage: Programma attrezzature per accademie SUP
+      link: /solutions/school-sup
+    - clientType: Azienda di crociere e yacht
+      need: Esperienza in yacht
+      solutionPage: Pacchetto SUP portatile di lusso
+      link: /product-development
+    - clientType: Buyer retail outdoor
+      need: Canale retail
+      solutionPage: Programma private label per il retail
+      link: /solutions/retail-partners
+    - clientType: Distributore e importatore
+      need: Distribuzione regionale
+      solutionPage: Partner OEM e supply chain regionale
+      link: /solutions/distributors
+    - clientType: Buyer per progetti aziendali
+      need: Eventi aziendali
+      solutionPage: Pacchetto eventi SUP corporate
+      link: /contact
+    - clientType: Brand manager di sport acquatici
+      need: Espansione del marchio di sport acquatici
+      solutionPage: Espandi il tuo portafoglio di sport acquatici
+      link: /solutions/private-label-sup
+    - clientType: Proprietario di un marchio avventura animali
+      need: Outdoor per animali domestici
+      solutionPage: Programma paddle board pet-friendly
+      link: /product-development
+    - clientType: Operatore di attività balneari
+      need: Intrattenimento in spiaggia
+      solutionPage: Soluzioni complete di attrezzatura per attività in spiaggia
+      link: /solutions/rental-operators
+    - clientType: Sviluppatore di un parco acquatico
+      need: Intrattenimento a tema
+      solutionPage: Flotta SUP commerciale per parchi acquatici
+      link: /solutions/resort-sup
+    - clientType: Proprietario di isola privata e club di lusso
+      need: Lifestyle di alta gamma
+      solutionPage: Collezione SUP premium per clienti
+      link: /product-development
+    - clientType: Autorità turistiche e gestori di parchi pubblici
+      need: Progetti turistici pubblici
+      solutionPage: Pacchetto sport acquatici per destinazioni
+      link: /solutions/rental-operators
+    - clientType: Operatore di campi estivi e avventura per bambini
+      need: Educazione giovanile
+      solutionPage: Programma SUP esploratori per bambini
+      link: /solutions/school-sup
+    - clientType: Organizzazione di salvataggio e sicurezza acquatica
+      need: Soccorso professionale
+      solutionPage: Sistema SUP di salvataggio acquatico professionale
+      link: /product-development
+    - clientType: Istituzione per la conservazione marina e la ricerca
+      need: Ricerca ambientale
+      solutionPage: Piattaforma SUP eco per ricerca e monitoraggio
+      link: /product-development
+
+cta:
+  title: 'Non sei sicuro di quale soluzione si adatti alla tua azienda?'
+  subtitle: 'Descrivi il tuo progetto al nostro team B2B e ti consiglieremo la configurazione e la struttura di prezzo giuste.'
+  actions:
+    - variant: primary
+      text: Parla con il nostro team B2B
+      href: /contact?subject=b2b-solutions
+    - variant: secondary
+      text: Scarica il catalogo
+      href: /products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Ogni percorso di questa matrice parte dalle stesse due cose: il nostro <a href="/oem-manufacturing">programma di produzione OEM/ODM</a> e la <a href="/factory">fabbrica che c''è dietro</a> — un impianto di 12,500 m&sup2;, un unico set di standard di qualità, ogni canale servito.</p>
+  </div>

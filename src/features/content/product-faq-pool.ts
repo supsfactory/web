@@ -6,7 +6,7 @@ export interface FaqEntry {
   a: string
 }
 
-export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de', FaqEntry[]> = {
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it', FaqEntry[]> = {
   en: [
     {
       q: 'What is the minimum order to customize this board?',
@@ -77,6 +77,24 @@ export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de', FaqEntry[]> = {
     {
       q: 'Wie wird die Qualität vor dem Versand kontrolliert?',
       a: 'Jedes Board durchläuft eine 100-Punkte-Montagecheckliste und einen Drucktest (18,0 PSI über 24 h), bevor es verpackt wird; Boards mit einem Druckabfall über 0,50 PSI/24 h werden automatisch aussortiert.',
+    },
+  ],
+  it: [
+    {
+      q: 'Qual è la quantità minima d’ordine per personalizzare questa tavola?',
+      a: 'Il MOQ di volume è di 90–100+ pezzi per configurazione approvata, soggetto ai requisiti di rotolo di materiale e imballaggio, su un rotolo da 150 m per la produzione standard, con lotti pilota da 20–50 pezzi e 90–100+ pezzi per uno stampo su misura.',
+    },
+    {
+      q: 'Quanto richiedono campioni e produzione?',
+      a: 'I campioni sono pronti in 7–12 giorni; la produzione in serie si completa in 25–35 giorni dopo PO confermato e acconto.',
+    },
+    {
+      q: 'Posso cambiare colori, grafiche e logo?',
+      a: 'Sì: grafiche, colori, EVA, logo, imballaggio e accessori sono personalizzabili su ogni piattaforma. Condividi il tuo logo e produrremo una prova visiva prima della produzione.',
+    },
+    {
+      q: 'Come viene controllata la qualità prima della spedizione?',
+      a: 'Ogni tavola supera una checklist di assemblaggio a 100 punti e un test di pressione di 18.0 PSI per 24 ore prima dell’imballaggio; le unità con calo di pressione superiore a 0,50 PSI/24 h vengono scartate automaticamente.',
     },
   ],
 }

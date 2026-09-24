@@ -1,0 +1,82 @@
+meta:
+  title: 'Come scegliere lo spessore del SUP — Analisi tecnica'
+  description: 'Come le tavole SUP gonfiabili da 4", 5" e 6" si differenziano in rigidità, peso, stabilità e tenuta di rotta, con raccomandazioni sullo spessore.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Torna alla ricerca'
+
+hero:
+  tagline: 'Tecnica'
+  title: 'Come scegliere lo spessore del SUP — Analisi tecnica'
+  subtitle: '6 min di lettura'
+
+answer:
+  label: 'Risposta breve'
+  text: 'Lo spessore è un compromesso tra rigidità e stabilità: 4" (10 cm) è il più rigido, più leggero e più veloce — ideale per tour e gare; 5" (12.7 cm) è la scelta all-round per la maggior parte dei paddler; 6" (15.2 cm) massimizza la stabilità primaria per lo yoga e i paddler più pesanti (100+ kg). Una sezione trasversale più sottile è strutturalmente più rigida, quindi una tavola da 4" si flette a 15 PSI meno di una da 6" a 25 PSI.'
+  verified: 'Settembre 2026'
+
+content_html: |
+  <h2>I tre spessori standard</h2>
+
+  <h3>4" (10 cm) – Tour &amp; Performance</h3>
+  <ul>
+    <li>Massima rigidità – meno flessione sotto carico</li>
+    <li>Più leggera – meno materiale, meno volume d'aria</li>
+    <li>Eccellente tenuta di rotta – ridotta oscillazione laterale</li>
+    <li>Più veloce – meno resistenza, planata più facile</li>
+    <li>Ideale per: tour, gare, fitness paddling, paddler esperti</li>
+  </ul>
+
+  <h3>5" (12.7 cm) – Allround</h3>
+  <ul>
+    <li>Buona rigidità – rapporto flessione-rigidità bilanciato</li>
+    <li>Peso moderato – impiego standard di materiale</li>
+    <li>Buona stabilità primaria e secondaria</li>
+    <li>Ideale per: paddling ricreativo, principianti, uso occasionale in mare e in fiume</li>
+  </ul>
+
+  <h3>6" (15.2 cm) – Stabilità &amp; Yoga</h3>
+  <ul>
+    <li>Massima stabilità primaria – enorme spinta di galleggiamento</li>
+    <li>Più pesante – più materiale in PVC, maggiore volume d'aria</li>
+    <li>Più lenta – più resistenza, più difficile da far planare</li>
+    <li>Ideale per: yoga/fitness, paddler pesanti (100+ kg), condizioni molto mosse</li>
+  </ul>
+
+  <h2>Analisi tecnica</h2>
+  <p>La rigidità di un SUP gonfiabile è determinata dalla pressione dell'aria interna e dal momento d'inerzia della sezione trasversale della tavola. A 20 PSI, una tavola da 4" mostra sotto carico circa il 30 % di flessione in meno rispetto a una da 6" di pari larghezza e lunghezza. La stabilità primaria deriva dalla larghezza della linea di galleggiamento e dalla spinta di galleggiamento; la stabilità secondaria è influenzata dalla forma della rail e dalla larghezza della tavola.</p>
+
+  <h2>Spessore in base al peso del paddler</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Peso del paddler</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Spessore consigliato</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Meno di 65 kg (143 lbs)</td><td class="p-3 border">4"</td></tr>
+      <tr><td class="p-3 border">65 – 90 kg (143 – 198 lbs)</td><td class="p-3 border">5"</td></tr>
+      <tr><td class="p-3 border">90 – 115 kg (198 – 253 lbs)</td><td class="p-3 border">5" o 6"</td></tr>
+      <tr><td class="p-3 border">Oltre 115 kg (253 lbs)</td><td class="p-3 border">6"</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Compromesso tra spessore e PSI</h2>
+  <p>Un errore comune è pensare che un valore PSI più alto possa compensare uno spessore eccessivo. A 25 PSI una tavola da 6" si flette più di una da 4" a 15 PSI, perché il momento d'inerzia geometrico domina l'equazione della rigidità. Per i paddler orientati alle prestazioni, quindi, una tavola più sottile a pressione più bassa si comporta meglio di una più spessa a pressione più alta.</p>
+
+  <h2>La linea di prodotti Vatrad</h2>
+  <ul>
+    <li><strong>Tavole da 4":</strong> serie Cheetah Touring – SUP da tour 12' x 30" x 4" per fitness e paddling di distanza</li>
+    <li><strong>Tavole da 5":</strong> serie Cheetah Allround – 10'6" x 32" x 5" per l'uso ricreativo</li>
+    <li><strong>Tavole da 6":</strong> serie Cheetah Ultra Stable – 10' x 34" x 6" per yoga, paddler grandi e piattaforme fotografiche</li>
+  </ul>
+  <p>Tutte le tavole utilizzano nuclei drop-stitch da 1,680 DTEX con una pressione prevista di 15 PSI e laminati in PVC da 1.2 mm.</p>
+  <p>Spessore, PSI e specifiche del tessuto sono configurabili per linee personalizzate — scopri come <a href="/it/oem-manufacturing">sviluppiamo tavole per marchi OEM e private label</a> e osserva il processo di costruzione direttamente <a href="/it/factory">in fabbrica</a>.</p>
+
+cta:
+  title: 'Non sei sicuro di quale spessore sia giusto per te?'
+  subtitle: 'Sfoglia la nostra linea di prodotti SUP o chiedi al nostro team di sizing.'
+  button_text: 'Vedi le tavole SUP'
+  button_link: /it/products

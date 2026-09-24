@@ -1,0 +1,102 @@
+meta:
+  title: 'Officina prototipi SUP — costruzione di tavole campione'
+  description: 'Dalla CAD alla tavola campione testata in 7–12 giorni: la nostra officina prototipi costruisce, testa e valida campioni SUP personalizzati. Avvia oggi il tuo progetto di prototipo.'
+  dateModified: '2026-08'
+back_text: 'Torna al centro R&S'
+home_label: 'Home'
+
+answer:
+  label: 'Risposta breve'
+  text: 'Trasformiamo un modello CAD in una tavola campione navigabile e testabile in 7–12 giorni: prototipazione gonfiabile, prove in acqua con moto ondoso, iterazioni su rail e nose, poi la decisione sull''attrezzatura di produzione. La costruzione completa di stampi personalizzati richiede 15–20 giorni in aggiunta al lead time standard della produzione in serie di 25–35 giorni.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorio 05'
+  title: 'Officina prototipi'
+  subtitle: 'Dal modello CAD alla tavola campione testata — costruita, allestita e collaudata'
+  image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'Produzione di tavole SUP nell''officina prototipi di Vatrad'
+
+intro: 'Un modello CAD — per quanto dettagliato — non può mostrare come si comporta davvero una tavola prima che venga gonfiata, salita e pagaiata. Per questo la nostra officina prototipi è progettata per trasformare i dati tecnici in una tavola fisica e navigabile il più rapidamente e precisamente possibile. Ogni nuovo modello di {SITE.name} — e ogni costruzione personalizzata significativa — passa da questa officina prima che l''attrezzatura di produzione venga approvata.'
+
+content_html: |
+  <h2>Dove il design diventa realtà</h2>
+  <p>L'officina è attrezzata per la produzione parallela di pannelli, nuclei drop-stitch e rail. Questo flusso di lavoro parallelo riduce il lead time dei prototipi a 7–12 giorni dall'approvazione tecnica. Se la tua applicazione richiede una soluzione specializzata, possiamo passare dal concept alla validazione in acqua in meno di tre settimane.</p>
+
+  <h2>Capacità dell'officina</h2>
+  <table>
+    <thead><tr><th>Postazione</th><th>Attrezzatura</th><th>Scopo</th></tr></thead>
+    <tbody>
+      <tr><td>Taglio pannelli</td><td>Taglierina tessuto CNC, software di nesting, libreria di modelli di taglio dei pannelli</td><td>Taglio preciso dei pannelli di deck, scafo e rail per ogni misura di tavola</td></tr>
+      <tr><td>Assemblaggio del nucleo</td><td>Tavolo di laminazione per nuclei drop-stitch, rulli applicatori per colla</td><td>Unione del nucleo drop-stitch tra le pelli PVC con copertura uniforme della colla</td></tr>
+      <tr><td>Saldatura</td><td>Pressa di saldatura HF, stazione di saldatura tampone ad aria calda, dispositivo di test di gonfiaggio</td><td>Saldatura delle cuciture dell'assemblaggio tavola a grandezza naturale con valvole, maniglie e fin box</td></tr>
+      <tr><td>Allestimento &amp; rifinitura</td><td>Dispositivo di applicazione deck pad, tavolo di laminazione grafica, banco di montaggio accessori</td><td>Allestimento completo: deck pad, loghi, supporto maniglia, leash plug, fin box</td></tr>
+      <tr><td>Postazione strumenti di misura</td><td>Manometri, data logger, dispositivo di misurazione della flessione</td><td>Collaudo dei campioni: cicli di gonfiaggio, flessione del deck, misurazione della tenuta d'aria</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Il percorso del prototipo — passo dopo passo</h2>
+  <ol>
+    <li><strong>Consegna tecnica</strong> — Il pacchetto di design (modello 3D, rapporto FEA, distinta base, piano di posizionamento dei pannelli) viene esaminato formalmente dal capo officina e dall'ingegnere di progetto. Eventuali criticità di produzione vengono evidenziate e risolte prima del taglio.</li>
+    <li><strong>Produzione dei pannelli</strong> — La tavola viene costruita secondo la specifica tecnica. I pannelli vengono tagliati al CNC, il nucleo drop-stitch viene laminato tra le pelli PVC e deck e scafo vengono montati con il pacchetto materiali approvato.</li>
+    <li><strong>Saldatura</strong> — I pannelli vengono uniti tramite saldatura HF nella forma completa della tavola. La camera viene gonfiata alla pressione di prova e mantenuta per 24 ore per la stabilizzazione iniziale.</li>
+    <li><strong>Assemblaggio &amp; rifinitura</strong> — Vengono montati deck pad, grafica, maniglia, leash plug e fin box. Tutti gli accessori vengono installati e verificati rispetto alla specifica.</li>
+    <li><strong>Test statici</strong> — Prima di andare in acqua, la tavola passa attraverso: cicli di gonfiaggio, test di tenuta dell'aria, misurazione della flessione del deck alla pressione nominale e prova di coppia degli accessori.</li>
+    <li><strong>Programma di test in acqua</strong> — 10 ore di prova in acqua, dettagliate qui sotto.</li>
+    <li><strong>Review del prototipo</strong> — Una riunione formale di approvazione con i team di ingegneria, produzione e qualità. Le modifiche di design necessarie vengono documentate e incorporate nell'approvazione di produzione.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Programma di test in acqua di 10 ore — piano di test</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Prova di stabilità — equilibrio in piedi a riposo, tolleranza al carico laterale</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Prova di pagaiata — planata, rotta dritta e virate a 3 velocità; comfort della pagaiata</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Test di carico del rider — stabilità e flessione con rider da 60 / 80 / 100 / 120 kg</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Test sul moto ondoso — passaggi ripetuti attraverso la scia di chiglia delle imbarcazioni; spruzzi sulla nose, flessione dei rail</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Corsa di resistenza — pagaiata continua con controlli di pressione regolari; registrazione della tenuta dell'aria</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Collaudo finale — verifica di cuciture, accessori e grafica dopo il test; documentazione dei riscontri</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Prototipazione personalizzata per applicazioni speciali</h2>
+  <p>L'officina prototipi è il luogo in cui risolviamo problemi che le tavole standard non possono coprire. Esempi recenti:</p>
+  <ul>
+    <li>Una tavola da touring 14'' per un marchio europeo di endurance paddling con deck di carico incassato e nose rinforzata — costruita, allestita e testata nel nostro impianto.</li>
+    <li>Una tavola yoga 10'6'' con deck antiscivolo continuo e spessore extra per la rigidità, validata attraverso un test di 4 settimane di stagione di noleggio.</li>
+    <li>Una tavola flotta white label con grafica del deck personalizzata e doppie maniglie, in cui il prototipo è servito a validare colore, posizionamento del logo e imballaggio prima che il cliente scegliesse un container.</li>
+  </ul>
+
+  <h2>Il nostro team di prototipazione</h2>
+  <p>L'officina è presidiata da otto tecnici di produzione polivalenti, ciascuno formato in almeno due delle tre competenze chiave (taglio, saldatura, allestimento). Il capo team è un maestro artigiano con 16 anni di esperienza, dalla produzione di pezzi unici personalizzati alle serie di produzione. Ogni prototipo riceve un ingegnere di progetto dedicato, unico punto di contatto per il cliente per tutto il processo di costruzione e test.</p>
+
+  <h2>Coinvolgimento del cliente</h2>
+  <p>Incoraggiamo esplicitamente i nostri clienti a partecipare alle tappe più importanti della costruzione del prototipo — in particolare alla prima verifica di allestimento e al test in acqua. Il vostro feedback operativo in queste fasi è di valore inestimabile per affinare la tavola prima della produzione. Non costruiamo nel vuoto; costruiamo in partnership con voi.</p>
+  <p>Il programma di test in acqua è inoltre un'occasione per il tuo team di familiarizzare con la gestione e le esigenze di manutenzione della tavola, assicurando così una transizione fluida alla produzione quando verranno consegnate le tavole definitive.</p>
+
+cta:
+  title: 'Avvia il tuo progetto di prototipo'
+  subtitle: 'Raccontaci la tavola di cui hai bisogno e ti proporremo un piano di sviluppo del prototipo.'
+  actions:
+    - variant: primary
+      text: Contatta il nostro team di prototipazione
+      href: /it/contact#project-brief
+    - text: Torna al centro R&S
+      href: /it/randdcenter

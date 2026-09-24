@@ -1535,6 +1535,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Besprechen Sie Ihr Schul-SUP-Programm',
     },
   ],
+  it: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Produzione SUP personalizzata',
+      metaTitle: 'Sviluppo SUP personalizzato | Soluzioni per paddle board personalizzate',
+      metaDescription:
+        'Sviluppate prodotti SUP personalizzati con SUPsfactory. Supportiamo i requisiti di prodotto, la personalizzazione, i prototipi e la produzione per aziende e organizzazioni.',
+      kicker: 'Produttore di SUP personalizzati',
+      serviceType: 'Sviluppo di prodotti SUP personalizzati',
+      answer:
+        "Sviluppiamo SUP gonfiabili, tavole rigide e accessori in base ai vostri requisiti — forma, grafiche, materiali e imballaggio — dalla progettazione ai campioni fino alla produzione. I progetti personalizzati partono da 90–100+ pz per rotolo da 150 m (volume); inviamo i campioni in 7–12 giorni e la produzione richiede 25–35 giorni dopo conferma dell’ordine e acconto.",
+      h1: 'Prodotti SUP personalizzati in base ai vostri requisiti',
+      intro: [
+        'Vi servono paddle board costruite secondo le vostre specifiche — forma, grafiche, materiali, imballaggio — senza gestire una fabbrica da soli. Siamo il partner di produzione che recepisce la vostra esigenza e vi consegna un prodotto pronto.',
+        'Ogni progetto è seguito da uno specialista dedicato che gestisce design, campioni, produzione e consegna, così sapete sempre a che punto è il vostro ordine.',
+      ],
+      scenario: {
+        title: 'Vi servono tavole secondo le vostre specifiche',
+        body: 'Un requisito di prodotto — non un prodotto da catalogo. Le vostre preferenze di forma, le vostre grafiche, il vostro livello di qualità, il vostro imballaggio. Progettiamo, realizziamo i campioni e produciamo su piattaforme collaudate, con flessibilità fin dal primo piccolo lotto.',
+      },
+      pairs: [
+        {
+          problem: 'I cataloghi di fabbrica offrono solo design standard che non potete modificare.',
+          solution: 'Produciamo tavole personalizzate con le vostre forme, grafiche e specifiche — dal primo campione fino alla produzione in serie completa.',
+        },
+        {
+          problem: 'Ordini minimi elevati vi vincolano allo stock prima che il mercato sia validato.',
+          solution: 'La produzione personalizzata in volume parte da 90–100+ pz per design, mentre le produzioni pilota su piattaforme esistenti partono da 20–50 pz — i primi lotti restano piccoli e il prezzo unitario resta equo.',
+        },
+        {
+          problem: 'Non avete un team di design o ingegneria al vostro fianco.',
+          solution: "Il nostro team interno di design e ingegneria trasforma un’idea, un bozzetto o una tavola di riferimento in disegni pronti per la produzione.",
+        },
+        {
+          problem: 'Qualità di fabbrica sconosciuta e comunicazione lenta.',
+          solution: "Uno specialista del progetto segue campioni, tappe del controllo qualità e scadenze di consegna dall’inizio alla fine — un unico referente e aggiornamenti chiari.",
+        },
+      ],
+      steps: [
+        { title: 'Inviate il progetto', body: 'Comunicateci i vostri requisiti oppure inviate bozzetti e immagini di riferimento.' },
+        { title: 'Design e campione', body: 'Sviluppiamo i disegni e spediamo un campione fisico entro 7–12 giorni.' },
+        { title: 'Approvazione e produzione', body: 'Dopo la vostra approvazione, la produzione richiede 25–35 giorni con controllo qualità in più punti.' },
+        { title: 'Consegna e riordino', body: 'Esportazione mondiale con imballaggio professionale, oltre a supporto per i riordini con qualità costante.' },
+      ],
+      caseStudy: {
+        title: 'Estensione di gamma di un brand outdoor',
+        body: "Un brand di attrezzatura outdoor è entrato nel mondo del paddling con una tavola touring brandizzata. Abbiamo sviluppato la tavola da un bozzetto approssimativo, ottenuto l’approvazione del campione in 15 giorni e prodotto la prima serie in 25–35 giorni.",
+        tags: ['Sviluppo della tavola', 'Grafiche brandizzate', 'Prima produzione in serie'],
+      },
+      faqs: [
+        {
+          q: 'Potete sviluppare un prodotto SUP a partire dalla mia idea?',
+          a: 'Sì. Vi aiutiamo a valutare i vostri requisiti e a sviluppare una soluzione pronta per la produzione — dal concept e dai disegni fino al campione fisico.',
+        },
+        {
+          q: 'Posso personalizzare le grafiche e i colori del SUP?',
+          a: 'Sì. Grafiche, colori ed elementi di branding personalizzati possono essere sviluppati in base ai requisiti del progetto.',
+        },
+        {
+          q: "Qual è la quantità minima d’ordine per la produzione SUP personalizzata?",
+          a: 'La produzione personalizzata in volume parte da 90–100+ pz per design, con produzioni pilota da 20–50 pz su piattaforme esistenti. Quantità maggiori garantiscono prezzi unitari migliori e i riordini mantengono i vostri stampi e design.',
+        },
+        {
+          q: 'Cosa si può personalizzare su una tavola?',
+          a: 'Forma e dimensioni, costruzione e materiali, grafiche e loghi, layout del pad EVA, accessori (pagaia, pompa, borsa) e imballaggio.',
+        },
+        {
+          q: 'Fornite campioni prima della produzione?',
+          a: 'Sì: prima di ogni serie viene realizzato e approvato un campione fisico. Il tempo di campionatura è in genere di 7–12 giorni.',
+        },
+        {
+          q: 'Potete lavorare solo con i miei asset di marca, senza un team di design completo?',
+          a: 'Sì. Il nostro team di design sviluppa grafiche pronte per la produzione dal vostro logo, dai colori del brand o da un concept approssimativo.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Parliamo del vostro progetto SUP personalizzato',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'Paddle board private label',
+      metaTitle: 'Produzione SUP private label | Produzione SUP personalizzata',
+      metaDescription:
+        'SUPsfactory supporta la produzione SUP private label per brand esistenti, aiutando a sviluppare prodotti SUP personalizzati dalle specifiche fino alla produzione.',
+      kicker: 'Paddle board private label',
+      serviceType: 'Produzione SUP private label',
+      answer:
+        "Il private label mette il vostro brand su piattaforme SUP collaudate e pronte per la produzione, senza nuovi stampi. Scegliete un modello base, applicate logo, colori, imballaggio e accessori e ordinate da 90–100+ pz per rotolo da 150 m (volume). È il modo più rapido e a minor rischio per lanciarsi; i campioni richiedono 7–12 giorni e la produzione 25–35 giorni dopo l’ordine.",
+      h1: 'Produzione SUP private label per il vostro brand',
+      intro: [
+        'La produzione private label vi permette di lanciare una linea di paddle board con il vostro marchio senza investire in stampi o in una fabbrica. Logo, colori e imballaggio vengono applicati su piattaforme certificate per la qualità, con quantità che crescono con la domanda.',
+        'Ci occupiamo noi del lato prodotto, così voi potete concentrarvi sul brand: design, imballaggio e gestione dei riordini sono a nostro carico.',
+      ],
+      scenario: {
+        title: 'Avete un brand — e vi serve un prodotto che lo rappresenti',
+        body: "Un’identità di marca senza magazzino. Volete una linea di paddle board vendibile a vostro nome, in una quantità adatta alla vostra fase — dal primo lotto di validazione fino alle flotte ricorrenti.",
+      },
+      pairs: [
+        {
+          problem: 'Il branding solo su un adesivo — il prodotto continua a sembrare generico.',
+          solution: 'Integrazione completa del brand: grafiche sulla tavola, logo, layout del pad EVA, pagaia brandizzata, pompa, borsa e imballaggio.',
+        },
+        {
+          problem: 'I primi ordini vi costringono ad acquistare centinaia di unità che forse non venderete.',
+          solution: 'Iniziate con un lotto pilota di 20–50 unità su una piattaforma standard, poi scalate verso una produzione standard in volume da 90–100+ pz — validate il mercato prima di ordini grandi.',
+        },
+        {
+          problem: 'La creazione di design e imballaggio sembra fuori portata.',
+          solution: 'I vostri asset di marca vengono trasformati dal nostro team di design in grafiche per tavola e imballaggio pronte per la produzione.',
+        },
+        {
+          problem: 'I riordini variano in qualità o disponibilità.',
+          solution: 'Stampi e design restano di vostra proprietà, e i riordini vengono prodotti sulle stesse piattaforme certificate con qualità costante.',
+        },
+      ],
+      steps: [
+        { title: 'Condividete il brand', body: 'Inviate il vostro logo, i colori e gli asset di marca esistenti.' },
+        { title: 'Sviluppo delle grafiche', body: 'Progettiamo grafiche per la tavola, layout EVA e imballaggio intorno al vostro brand.' },
+        { title: 'Approvazione del campione', body: 'Un campione fisico conferma colori, finitura e imballaggio.' },
+        { title: 'Produzione e consegna', body: 'La produzione segue le vostre quantità, con controllo qualità ed esportazione gestiti completamente da noi.' },
+      ],
+      caseStudy: {
+        title: 'Nuovo brand, primo ordine di produzione',
+        body: "Un rivenditore sportivo ha lanciato la sua linea di paddle board partendo solo da un logo. Abbiamo sviluppato l’intera grafica di tavola e imballaggio, prodotto una prima partita di 50 pz per il test di mercato e scalato fino a un ordine di produzione completo entro una stagione.",
+        tags: ["Sviluppo del brand", "Design dell’imballaggio", 'Produzione scalata'],
+      },
+      faqs: [
+        {
+          q: "Cos’è la produzione SUP private label?",
+          a: 'La produzione SUP private label permette alle aziende di vendere prodotti SUP con il proprio marchio, con specifiche personalizzate e supporto alla produzione.',
+        },
+        {
+          q: 'I brand esistenti possono sviluppare nuovi prodotti SUP?',
+          a: 'Sì. SUPsfactory supporta i brand che vogliono entrare nel segmento SUP — selezione del prodotto, adeguamento delle specifiche, grafiche personalizzate e produzione.',
+        },
+        {
+          q: 'Cosa prevede un programma SUP private label?',
+          a: 'Il vostro brand sulla tavola stessa — grafiche, logo, pad EVA — più pagaia, pompa, zaino e imballaggio brandizzati opzionali: un prodotto completo e vendibile a vostro nome.',
+        },
+        {
+          q: 'Il design può essere modificato tra un ordine e l’altro?',
+          a: 'Sì. Una volta che gli asset di marca sono pronti per la produzione, i riordini possono aggiornare grafiche, colori o imballaggio in qualsiasi momento.',
+        },
+        {
+          q: 'Abbiamo solo un logo. Potete aiutarci comunque?',
+          a: "Sì. Il nostro team di design sviluppa l’intera grafica di tavola e imballaggio a partire dal vostro logo e dai colori del brand.",
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Parliamo del vostro progetto private label',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'Paddle board per resort',
+      metaTitle: 'Attrezzatura SUP per resort | Tavole brandizzate',
+      metaDescription:
+        'Realizzate attrezzatura SUP personalizzata per resort e hotel con tavole brandizzate, accessori e supporto alla produzione di SUPsfactory.',
+      kicker: 'Paddle board per resort',
+      serviceType: 'Attrezzatura SUP per resort e hotel',
+      answer:
+        "Forniamo SUP gonfiabili brandizzati per resort e hotel, progettati per l’uso quotidiano degli ospiti: costruzione drop-stitch ad alta pressione, cuciture rinforzate e MOQ scaglionati da 20–50 unità pilota fino a 90–100+ per il lancio delle flotte. Le tavole portano il vostro logo e i vostri colori, e vi consigliamo su stoccaggio, manutenzione e pianificazione dei riordini.",
+      h1: 'Soluzioni SUP personalizzate per resort e hotel',
+      intro: [
+        "Le flotte di paddle board nei resort devono resistere all’uso quotidiano degli ospiti, essere facili da stoccare tra le stagioni e portare il vostro marchio. Costruiamo tavole robuste e adatte agli ospiti nei vostri colori e strutturiamo il programma flotta intorno alla vostra attività.",
+        'Le quantità vengono definite in base ai modelli d’uso reali, non a stime — e i programmi di riordino mantengono la flotta aggiornata stagione dopo stagione.',
+      ],
+      scenario: {
+        title: 'Gestite attività acquatiche per gli ospiti',
+        body: "Gli ospiti si aspettano un’esperienza sull’acqua indimenticabile e l’attrezzatura rappresenta la vostra struttura. Vi servono tavole abbastanza robuste per il noleggio quotidiano, facili da stoccare e in linea con l’immagine del resort.",
+      },
+      pairs: [
+        {
+          problem: 'Le flotte per gli ospiti si usurano in fretta con il noleggio quotidiano.',
+          solution: 'Costruzione adatta al noleggio, con rail rinforzati e materiali resistenti ai raggi UV, progettata per un uso ripetuto.',
+        },
+        {
+          problem: 'Lo spazio di stoccaggio fuori stagione è limitato.',
+          solution: 'Opzioni gonfiabili facili da stoccare, che a fine stagione stanno in un armadio.',
+        },
+        {
+          problem: 'L’attrezzatura sembra generica, non rappresenta la vostra struttura.',
+          solution: 'Grafiche a tutta coperta, loghi e branding EVA nei colori del vostro resort — inclusi accessori brandizzati.',
+        },
+        {
+          problem: 'La sostituzione e il rinnovo della flotta avvengono senza coordinamento.',
+          solution: 'Un programma di riordino della flotta con qualità costante, supporto per i ricambi e una consulenza onesta sulle quantità.',
+        },
+      ],
+      steps: [
+        { title: 'Descrivete la vostra attività', body: 'Volume di ospiti, zona costiera, stoccaggio e durata della stagione.' },
+        { title: 'Ricevete un piano flotta', body: 'Vi consigliamo tipi di tavola e quantità in base ai modelli d’uso.' },
+        { title: 'Approvazione del campione brandizzato', body: 'I vostri colori e il vostro logo confermati su una tavola fisica.' },
+        { title: 'Ricezione e manutenzione', body: 'Consegna, ricambi e un programma di riordino per le stagioni future.' },
+      ],
+      caseStudy: {
+        title: 'Flotta per ospiti di un resort costiero',
+        body: 'Un resort costiero ha equipaggiato il suo programma da spiaggia con 40 tavole gonfiabili brandizzate nei colori del resort, inclusi pagaie e pompe brandizzate. Fuori stagione le tavole stanno in un unico armadio e la flotta è stata rinnovata dopo la seconda stagione con qualità costante.',
+        tags: ['Flotta brandizzata per gli ospiti', 'Stoccaggio tavole gonfiabili', 'Rinnovo stagionale'],
+      },
+      faqs: [
+        {
+          q: 'I resort possono personalizzare l’attrezzatura SUP con il loro logo?',
+          a: 'Sì. I resort possono personalizzare grafiche, colori e accessori in base ai requisiti del progetto — branding a tutta coperta nei colori della vostra struttura.',
+        },
+        {
+          q: 'Potete fornire più unità SUP per l’attività di un resort?',
+          a: 'Sì. Possiamo sviluppare soluzioni di produzione in base alle esigenze della flotta — dalla flotta iniziale ai programmi di rinnovo stagionale.',
+        },
+        {
+          q: 'Quante tavole servono a un resort?',
+          a: 'La maggior parte dei resort parte con 20–50 tavole e scala in base alla domanda. Consigliamo le quantità in base al volume di ospiti e alla zona costiera, non a sensazioni.',
+        },
+        {
+          q: 'Le tavole gonfiabili sono adatte all’uso in un resort?',
+          a: 'Sì. I moderni SUP gonfiabili sono estremamente durevoli e molto più facili da stoccare e trasportare: la scelta più diffusa per i resort con spazio di stoccaggio limitato.',
+        },
+        {
+          q: 'La flotta può portare il nostro logo e i nostri colori?',
+          a: 'Sì: grafiche a tutta coperta, stampa del logo, branding del pad EVA e accessori brandizzati fanno parte del programma resort.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Richiedete una soluzione SUP per il vostro resort',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Tavole da team personalizzate per club',
+      metaTitle: 'Attrezzatura SUP per club e squadre',
+      metaDescription:
+        'SUPsfactory offre soluzioni di attrezzatura SUP personalizzata per club, squadre ed eventi — inclusi grafiche, specifiche e supporto alla produzione.',
+      kicker: 'Tavole da team personalizzate per club',
+      serviceType: 'Attrezzatura SUP per club e squadre',
+      answer:
+        'Club e squadre ottengono flotte durevoli e coerenti nei loro colori: posizionamento del logo, lunghezze di pagaia personalizzate e pacchetti di accessori su una specifica di tavola standardizzata, così riparazioni e ricambi restano semplici anche nei riordini. Il MOQ parte da 90–100+ pz (volume); sono disponibili produzioni pilota da 20–50 unità per validare prima la specifica.',
+      h1: 'Attrezzatura SUP personalizzata per club e squadre',
+      intro: [
+        "I club di paddling hanno bisogno di tavole che resistano all’allenamento quotidiano, abbiano l’aspetto della squadra e restino coerenti tra un riordino e l’altro. Produciamo tavole da team personalizzate con il nome e i colori del vostro club a condizioni vantaggiose per le flotte.",
+        'I programmi per i club includono anche l’aspetto pratico: ricambi, indicazioni per le riparazioni e supporto per i riordini con la stessa qualità.',
+      ],
+      scenario: {
+        title: 'Il vostro club organizza allenamenti e sessioni di squadra',
+        body: 'Le tavole vengono usate ogni giorno dai soci e rappresentano il club in eventi e regate. Volete attrezzatura da team durevole con il branding del club, senza dover gestire personalmente il rapporto con la fabbrica.',
+      },
+      pairs: [
+        {
+          problem: 'Le tavole da allenamento vengono usate molto e ripetutamente.',
+          solution: 'Costruzione rinforzata per l’uso professionale quotidiano, con indicazioni per le riparazioni e supporto per i ricambi.',
+        },
+        {
+          problem: 'Le flotte sembrano disomogenee e senza branding.',
+          solution: 'Nome del club, colori e logo su ogni tavola per una flotta da team uniforme.',
+        },
+        {
+          problem: 'Ampliare la flotta significa cercare stock compatibili.',
+          solution: 'I riordini vengono prodotti sulle stesse piattaforme certificate, così le nuove tavole corrispondono a quelle esistenti.',
+        },
+        {
+          problem: 'I budget per le flotte sono limitati.',
+          solution: 'Prezzi da flotta e un referente dedicato per riordini, ricambi e domande sulla manutenzione.',
+        },
+      ],
+      steps: [
+        { title: 'Parlateci del club', body: 'Numero di soci, tipi di sessioni e attrezzatura attuale.' },
+        { title: 'Scegliete i tipi di tavola', body: 'Forme da allenamento, da principianti e da team in linea con il vostro programma.' },
+        { title: 'Aggiungete il branding del club', body: 'Nome, colori e logo su tavole e accessori.' },
+        { title: 'Ordinate e crescete', body: 'Fornitura della flotta, ricambi e riordini coerenti.' },
+      ],
+      caseStudy: {
+        title: 'Rinnovo della flotta di un club',
+        body: 'Un club di paddling ha rinnovato la sua immagine con 25 tavole da allenamento brandizzate e ricambi. I soci si allenano su attrezzatura uniforme e il club ha ampliato la flotta nella stagione successiva con un riordino identico.',
+        tags: ['Branding del club', 'Rinnovo della flotta', 'Supporto ricambi'],
+      },
+      faqs: [
+        {
+          q: 'I club SUP possono personalizzare le tavole da team?',
+          a: 'Sì. I club possono personalizzare grafiche, colori e configurazioni del prodotto — nome del club, colori e logo su ogni tavola.',
+        },
+        {
+          q: 'Supportate la produzione SUP legata agli eventi?',
+          a: 'Sì. La pianificazione della produzione può essere sviluppata in base alle esigenze dell’evento, incluse tavole in edizione evento e accessori.',
+        },
+        {
+          q: 'Quali tavole sono più adatte all’allenamento di un club?',
+          a: 'Tavole stabili e durevoli adatte al livello dei vostri soci — forme larghe da principianti per le lezioni e forme touring per l’allenamento di distanza.',
+        },
+        {
+          q: 'Offrite prezzi da flotta per i club?',
+          a: 'Sì: sconti sul volume per le flotte dei club, con un referente dedicato per riordini, ricambi e domande sulla manutenzione.',
+        },
+        {
+          q: 'Le tavole danneggiate possono essere riparate o sostituite?',
+          a: 'Forniamo ricambi, indicazioni per le riparazioni e supporto per i riordini, così la flotta resta coerente.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Parliamo del vostro progetto SUP per club',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'Programma SUP per scuole',
+      metaTitle: "Attrezzatura SUP per scuole | Paddle board personalizzate per l’istruzione",
+      metaDescription:
+        'Soluzioni di attrezzatura SUP sicure e affidabili per scuole, campi e organizzazioni, con supporto alla produzione personalizzata da parte di SUPsfactory.',
+      kicker: 'Programma SUP per scuole',
+      serviceType: 'Attrezzatura SUP per scuole e programmi',
+      answer:
+        'Per scuole e programmi educativi forniamo tavole stabili e adatte ai principianti, con indicazioni di sicurezza stampate, pagaie imbottite e accessori protettivi, calibrate sulle dimensioni delle vostre classi e sullo stoccaggio. La partita standard in volume è di 90–100+ pz per rotolo da 150 m, con produzioni pilota da 20–50 unità; i lead time seguono il ciclo di approvvigionamento delle scuole.',
+      h1: 'Soluzioni SUP sicure e affidabili per scuole e programmi',
+      intro: [
+        "Le scuole affrontano il paddling in modo diverso: classi numerose, livelli di abilità misti, requisiti di sicurezza stringenti e budget dell’istruzione. Il nostro programma scuola offre tavole stabili e adatte ai principianti, opzioni di pacchetto in linea con la dimensione delle classi e consulenza con la prospettiva degli istruttori.",
+        "La fornitura in volume e il supporto per i riordini mantengono l’attrezzatura disponibile anno dopo anno per le nuove classi di studenti.",
+      ],
+      scenario: {
+        title: 'Insegnate il paddling agli studenti',
+        body: 'Le classi sono numerose e i livelli di abilità variano. Vi servono tavole stabili e sicure per i principianti, quantità in linea con la dimensione delle classi e un programma di fornitura adatto al budget scolastico e al ciclo di approvvigionamento.',
+      },
+      pairs: [
+        {
+          problem: 'Gli studenti hanno bisogno della massima stabilità sull’acqua.',
+          solution: 'Tavole da principianti larghe e voluminose e tavole multi-posto, progettate per essere tolleranti con i principianti.',
+        },
+        {
+          problem: 'Le dimensioni delle classi richiedono attrezzatura coerente in grandi quantità.',
+          solution: 'Prezzi da programma per le quantità di classe, con qualità identica su ogni tavola.',
+        },
+        {
+          problem: 'Gli istruttori gestiscono la sicurezza con un supporto limitato.',
+          solution: 'Le tavole sono fornite con chiare istruzioni d’uso e vi consigliamo su quantità e disposizione per la vostra area acquatica.',
+        },
+        {
+          problem: 'L’attrezzatura deve resistere a più classi di studenti.',
+          solution: 'Costruzione rinforzata, oltre a ricambi e supporto per i riordini, per una lunga durata del programma.',
+        },
+      ],
+      steps: [
+        { title: 'Condividete il programma', body: 'Dimensioni delle classi, area acquatica, organizzazione degli istruttori e ciclo di budget.' },
+        { title: 'Costruite il pacchetto', body: 'Tipi di tavola e quantità scelti per l’insegnamento, non a stima.' },
+        { title: 'Approvazione del campione', body: 'Verificare stabilità, costruzione e finitura su una tavola fisica.' },
+        { title: 'Consegna e rinnovo', body: 'Fornitura in volume, ricambi e riordini per le nuove classi.' },
+      ],
+      caseStudy: {
+        title: 'Programma di sport acquatici scolastico',
+        body: "Una scuola ha avviato un corso opzionale di paddling con una flotta di 15 tavole per principianti e tavole multi-posto per le prime lezioni. Gli istruttori hanno segnalato progressi più rapidi già dalla prima sessione grazie alle piattaforme stabili, e il programma ha rinnovato l’attrezzatura l’anno successivo con un riordino identico.",
+        tags: ['Flotta per principianti', 'Avvio del programma', 'Ordini di rinnovo'],
+      },
+      faqs: [
+        {
+          q: 'Quale attrezzatura SUP è adatta alle scuole?',
+          a: "La scelta dipende dall’età degli utenti, dall’ambiente di utilizzo e dai requisiti del programma — le tavole larghe e stabili sono la scelta standard per l’insegnamento.",
+        },
+        {
+          q: 'Le scuole possono personalizzare l’attrezzatura SUP?',
+          a: 'Sì. Le scuole possono personalizzare grafiche, colori e pacchetti di attrezzatura in base al loro programma.',
+        },
+        {
+          q: 'Quali tavole sono più adatte alle lezioni SUP scolastiche?',
+          a: 'Le tavole da principianti larghe e stabili e le tavole multi-posto sono ideali: il loro volume le rende adatte ai principianti e stabili anche con più rider.',
+        },
+        {
+          q: 'Le quantità possono essere adattate alle dimensioni delle nostre classi?',
+          a: 'Sì: le condizioni del programma sono costruite sulle quantità di classe e consigliamo i numeri in base alla vostra area acquatica e alla rotazione.',
+        },
+        {
+          q: 'Lavorate con i calendari di approvvigionamento delle scuole?',
+          a: 'Sì. Pianifichiamo i tempi di campionatura e produzione intorno ai cicli di budget e di stagione delle scuole.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Parliamo del vostro programma SUP per la scuola',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

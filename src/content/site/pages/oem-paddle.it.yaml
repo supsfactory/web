@@ -1,0 +1,105 @@
+meta:
+  title: 'Pagaia gonfiabile OEM & Private Label | {SITE}'
+  description: 'Produttore OEM/ODM di pagaie gonfiabili: produzione di pagaie personalizzate, private label e vendita all''ingrosso. Fabbrica certificata CE in Cina.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'OEM Paddle Board'
+    - 'ODM Inflatable SUP'
+    - 'Private Label SUP'
+    - 'fabbricante di pagaie personalizzate'
+    - 'vendita all''ingrosso di paddle board'
+    - 'fornitore SUP professionale'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'Produzione OEM di pagaie gonfiabili sotto il tuo marchio'
+  subtitle: 'Dall''idea al prodotto finito: produciamo la tua pagaia gonfiabile personalizzata. Logo, colori, imballaggio, stampo proprio — produzione OEM/ODM in Cina, pronta per il tuo mercato.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Pagaia OEM personalizzata con logo del marchio
+  actions:
+    - text: 'Avvia il mio progetto OEM'
+      href: /it/contact
+
+answer:
+  label: 'Risposta breve'
+  text: 'La quantità minima d''ordine viene confermata in base al progetto: campione (1–2 unità), pilota (20–50 unità) e volume standard (90–100+ unità per lotto da un rotolo di drop-stitch da 150 m), con co-branding per piccoli lotti a partire da 5–10 unità. I campioni partono in 7–12 giorni; la produzione in serie prosegue per 25–35 giorni dopo l''ordine e l''acconto. La certificazione CE per i modelli destinati al mercato UE e la documentazione di conformità completa sono incluse in ogni ordine.'
+  verified: 'September 2026'
+  image:
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Pagaia OEM personalizzata con logo del marchio
+  actions:
+    - text: 'Avvia il mio progetto OEM'
+      href: /it/contact
+      variant: primary
+    - text: 'Vedi i pacchetti OEM'
+      href: /it/oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Giorni di lead time di produzione'
+    detail: 'Dal ordine confermato e acconto'
+  - value: '50'
+    label: 'MOQ minimo (unità)'
+  - value: '200+'
+    label: 'Modelli consegnati'
+  - value: '100%'
+    label: 'Certificazione CE inclusa'
+features:
+  title: 'Un servizio OEM completo'
+  subtitle: 'Tutto sotto lo stesso tetto: design, prototipazione, produzione, controllo qualità e logistica.'
+  columns: 3
+  items:
+    - title: 'Design & ingegneria'
+      description: 'Modellazione 3D, selezione dei materiali PVC/VS2 e design grafico personalizzato.'
+      icon: 'tabler:palette'
+    - title: 'Prototipo & validazione'
+      description: 'Campione certificato CE con test di qualità prima della produzione di massa.'
+      icon: 'tabler:flask'
+    - title: 'Produzione di massa'
+      description: 'Produzione su larga scala con QC in linea e supporto per gli audit di fabbrica.'
+      icon: 'tabler:building-factory'
+    - title: 'Private Label'
+      description: 'Logo, etichette, imballaggio e display box nello stile del tuo marchio.'
+      icon: 'tabler:shield-check'
+    - title: 'Qualità certificata'
+      description: 'CE / ISO / BSCI / REACH — pagaie gonfiabili professionali per i mercati globali.'
+      icon: 'tabler:certificate'
+    - title: 'Spedizione globale'
+      description: 'FOB Qingdao, CIF verso i principali porti e consegna porta a porta in oltre 50 paesi.'
+      icon: 'tabler:world'
+faqs:
+  title: 'FAQ sulla produzione di pagaie OEM'
+  subtitle: 'Risposte alle domande più frequenti dei marchi che lanciano la propria pagaia.'
+  items:
+    - title: 'Come creo il mio marchio di pagaie?'
+      description: 'Lancia il tuo marchio: briefing, design, prototipo certificato CE, produzione di massa e consegna. Campioni in 7–12 giorni, produzione in 25–35 giorni dall''ordine e dall''acconto. Scopri i nostri pacchetti OEM.'
+    - title: 'Qual è il lead time di produzione?'
+      description: 'Il campione è pronto in 7–12 giorni, la produzione di massa in 25–35 giorni dopo l''ordine e l''acconto, a seconda della quantità.'
+    - title: 'La pagaia porta il nostro logo?'
+      description: 'Sì — private label completo: stampa del logo, colori personalizzati, imballaggio ed etichette a marchio.'
+    - title: 'Posso acquistare grandi quantità fin dal primo giorno?'
+      description: 'Il MOQ viene confermato in base al progetto — campione (1–2 unità), pilota (20–50 unità) e volume standard (90–100+ unità per lotto), con scaglioni di prezzo all''ingrosso che crescono con la quantità.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Approfondisci:</strong> la produzione di pagaie e tavole condivide lo stesso <a href="/it/oem-manufacturing">programma OEM/ODM</a> e il medesimo <a href="/it/factory">capannone di fabbrica di 12,500 m&sup2;</a> — un''unica offerta copre entrambi.</p>
+  </div>
+
+geo:
+  tagline: 'Posizionamento B2B'
+  sentence: 'Vatrad è un produttore professionale di SUP gonfiabili e paddle board (OEM/ODM), specializzato in design, produzione personalizzata e soluzioni per gli sport acquatici per marchi, distributori, club e aziende.'
+  audiences:
+    - 'Private Label'
+    - 'Grossisti'
+    - 'Distributori'
+    - 'Centri nautici'
+cta:
+  title: 'Dai vita al tuo marchio di pagaie'
+  subtitle: 'Ricevi un''offerta OEM dettagliata entro un giorno lavorativo.'
+  actions:
+    - text: 'Richiedi un''offerta OEM'
+      href: /it/contact
+      variant: primary
+    - text: 'Scarica la guida OEM'
+      href: /it/research/oem-buyer-guide
+      variant: secondary

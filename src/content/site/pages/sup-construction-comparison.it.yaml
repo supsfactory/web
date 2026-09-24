@@ -1,0 +1,123 @@
+meta:
+  title: 'Confronto delle costruzioni SUP — PVC monostrato, PVC doppio strato e drop-stitch | SUPsfactory'
+  description: 'Confronto delle costruzioni dei SUP gonfiabili: PVC monostrato, PVC doppio strato e nucleo drop-stitch — rigidità, peso, durata, prezzo e uso ideale.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'Confronto costruzioni SUP'
+    - 'Tipi di costruzione dei SUP gonfiabili'
+    - 'SUP monostrato vs doppio strato'
+    - 'Costruzione SUP drop-stitch'
+    - 'Costruzione SUP in PVC'
+    - 'Rigidità tavola SUP'
+    - 'Peso tavola SUP'
+
+hero:
+  tagline: 'Guida alla costruzione'
+  title: 'Confronto delle costruzioni SUP'
+  subtitle: 'Tre tipi di costruzione, una sola linea di produzione. Comprendi i compromessi tra rigidità, peso, durata e costi di PVC monostrato, PVC doppio strato e nucleo drop-stitch — e quale si adatta al tuo rider target e al tuo posizionamento di mercato.'
+
+answer:
+  label: 'Confronto rapido'
+  text: 'Il PVC monostrato è il più leggero ed economico — ideale per rider occasionali e mercati sensibili al prezzo. Il PVC doppio strato aggiunge una seconda pelle in PVC per rigidità e durata a peso moderato — la scelta standard del settore per flotte di noleggio e modelli di fascia media. Il nucleo drop-stitch con rivestimento in PVC offre la massima rigidità e tolleranza alla pressione — preferito per performance, surf e rider pesanti. Tutte e tre le costruzioni vengono prodotte sulla stessa linea con gli stessi gate QC; la differenza sta nei materiali e nei passaggi di laminazione.'
+  verified: 'Settembre 2026'
+
+comparison_table:
+  tagline: Fianco a fianco
+  title: 'Tipi di costruzione a confronto'
+  headers:
+    - 'Attributo'
+    - 'PVC monostrato'
+    - 'PVC doppio strato'
+    - 'Nucleo drop-stitch + rivestimento in PVC'
+  rows:
+    - - 'Rigidità (valore nominale PSI)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Peso (tavola da 11 ft)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Durata'
+      - 'Buona — uso ricreativo'
+      - 'Molto buona — noleggio e uso commerciale'
+      - 'Eccellente — performance e rider pesanti'
+    - - 'Strato di costruzione'
+      - '1 strato in PVC + nucleo drop-stitch'
+      - '2 strati in PVC + nucleo drop-stitch'
+      - 'Drop-stitch rinforzato + rivestimento in PVC + rail tape'
+    - - 'Uso tipico'
+      - 'Mercati entry-level, occasionali, sensibili al prezzo'
+      - 'Allround, noleggio, associazioni, marchi medi'
+      - 'Tour, surf, rider pesanti, marchi premium'
+    - - 'Costi relativi'
+      - 'I più bassi'
+      - 'Medi'
+      - 'Più alti'
+    - - 'Metodo di saldatura'
+      - 'Cuciture saldate HF'
+      - 'Cuciture saldate HF + laminazione'
+      - 'Cuciture saldate HF + rail rinforzate'
+    - - 'Standard del test di pressione'
+      - 'Test di tenuta a 18.0 PSI'
+      - 'Test di tenuta a 18.0 PSI'
+      - 'Test di tenuta a 18.0 PSI (valutato più alto)'
+
+use_cases:
+  tagline: Quale costruzione per quale acquirente
+  title: 'Costruzione adatta al tuo mercato target'
+  subtitle: 'La scelta della costruzione non è solo una decisione di costo — definisce l''esperienza di guida, il profilo di rischio in garanzia e il posizionamento di marca che puoi mantenere.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Monostrato per entry-level & volumi'
+      desc: 'La tavola più leggera al prezzo più basso. Ideale per marchi che si rivolgono a primi acquirenti, grande distribuzione e marketplace online, dove il prezzo è la principale motivazione d''acquisto. Rigidità sufficiente per il paddling in acque piatte a PSI moderato. Tasso di richieste in garanzia inferiore se usata nell''intervallo di pressione nominale.'
+      link_label: 'Vedi le tavole OEM entry-level'
+      href: /it/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Doppio strato per noleggio & uso commerciale'
+      desc: 'La costruzione cavallo di battaglia per flotte di noleggio, associazioni, resort e programmi scolastici. Lo strato aggiuntivo in PVC resiste a urti, esposizione UV e manipolazione quotidiana che distruggono le tavole monostrato nell''uso commerciale. La maggiore tolleranza alla pressione significa una sensazione di guida più rigida per i rider più pesanti. Il livello di costruzione più utilizzato al mondo.'
+      link_label: 'Soluzioni per noleggio & resort'
+      href: /it/solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Nucleo drop-stitch per la performance'
+      desc: 'Massima rigidità per tour, surf, pesca e rider pesanti. Costruzione delle rail rinforzate e valore nominale PSI più alto offrono prestazioni simili a una hardboard in un pacchetto portatile. Preferito da marchi performance e paddler esperti. Costi dei materiali più alti, ma posizionamento di marca più forte e tasso di garanzia per unità più basso.'
+      link_label: 'Sviluppo di tavole performance'
+      href: /it/odm-manufacturing
+
+key_factors:
+  heading: 'Fattori importanti oltre al tipo di costruzione'
+  body: |
+    Il tipo di costruzione è una variabile della performance della tavola. Altri tre fattori sono altrettanto importanti o di più:
+
+    - **Densità del drop-stitch** — I fili per pollice determinano quanto uniformemente la tavola mantiene la sua forma sotto pressione. Usiamo standard di 96 fili/pollice e 140 fili/pollice per le build performance. Densità maggiore = tavola più piatta = migliore planata.
+    - **Qualità e spessore del PVC** — Non tutto il PVC è uguale. Il PVC da 0.7 mm importato dalla Corea ha una resistenza alla lacerazione e una protezione UV superiori rispetto alle alternative più sottili. Specificiamo la qualità del materiale per progetto.
+    - **Costruzione delle rail** — Le rail monostrato sono il punto di rottura più comune nelle tavole economiche. Le rail a doppio strato e il rail tape rinforzato riducono drasticamente il rischio di forature delle rail. Tutte le nostre tavole usano rail rinforzate indipendentemente dal livello di costruzione.
+
+faqs:
+  tagline: FAQ
+  title: 'Costruzione SUP — Domande frequenti'
+  items:
+    - q: 'Quale tipo di costruzione dovrei scegliere per il mio marchio?'
+      a: 'Dipende dal tuo mercato target e dal posizionamento di prezzo. Entry-level e grande distribuzione: monostrato. Flotte di noleggio, associazioni e marchi medi: doppio strato. Performance, tour e premium: nucleo drop-stitch. La maggior parte dei marchi parte con il doppio strato come miglior compromesso tra costo, durata e esperienza di guida. Consigliamo in base al tuo mercato specifico durante la verifica di fattibilità.'
+    - q: 'Posso offrire più livelli di costruzione sotto un unico marchio?'
+      a: 'Sì — molti marchi offrono due o tre livelli. Produciamo tutte e tre le costruzioni sulla stessa linea con gli stessi gate QC, così puoi mescolare i tipi di costruzione all''interno di un singolo ordine. Forma dello scafo e grafiche possono essere identiche su tutti i livelli; cambiano solo costruzione e materiali.'
+    - q: 'Quale standard di test di pressione vale per tutte le costruzioni?'
+      a: 'Ogni tavola, indipendentemente dal tipo di costruzione, supera un test di tenuta a 18.0 PSI con scarto automatico in caso di caduta di pressione superiore a 0.50 PSI in 24 ore. Le tavole monostrato sono progettate per 12–15 PSI di pressione di guida, quelle a doppio strato per 15–18 PSI e quelle a nucleo drop-stitch per 18–25 PSI. La pressione di test supera la pressione nominale di tutti i tipi.'
+    - q: 'In che modo la costruzione incide sulle richieste in garanzia?'
+      a: 'Le tavole monostrato hanno un tasso di richieste in garanzia leggermente più alto nell''uso commerciale/di noleggio a causa di rail e forature. Le costruzioni a doppio strato e a nucleo drop-stitch hanno tassi di richieste nettamente inferiori. Forniamo dati di garanzia per livello tratti dai nostri registri di produzione durante la fase di offerta.'
+
+cta:
+  title: 'Hai bisogno di aiuto per scegliere la costruzione giusta?'
+  subtitle: 'Comunicaci il tuo rider target, la fascia di prezzo e il tuo mercato — consiglieremo il livello di costruzione adatto e forniremo tavole campione per la tua valutazione.'
+  actions:
+    - variant: primary
+      text: Inizia il briefing di progetto
+      href: /it/contact#project-brief
+    - text: Vedi i dettagli della produzione OEM
+      href: /it/oem-manufacturing
+    - text: Confronta OEM, ODM e private label
+      href: /it/oem-odm-private-label-comparison

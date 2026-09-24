@@ -1,0 +1,219 @@
+meta:
+  title: 'MOQ SUP personalizzato & tempi di consegna: dal campione ai lotti per container'
+  description: 'MOQ SUP personalizzato e livelli di consegna: campioni in 7–12 giorni, ordini pilota di 20–50 tavole, volumi standard di 90–100+ per rotolo da 150 m, produzione in 25–35 giorni.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'MOQ SUP personalizzato'
+    - 'Tempi di produzione SUP'
+    - 'Quantità minima di ordinazione SUP gonfiabile'
+    - 'Ordine pilota SUP'
+    - 'Tempi di consegna paddleboard personalizzato'
+    - 'Tempi di consegna fabbrica SUP OEM'
+    - 'Ordine di campioni SUP'
+
+hero:
+  tagline: 'MOQ SUP personalizzato & tempi di consegna'
+  title: 'Dal campione ai lotti per container — MOQ e tempi di consegna spiegati in modo chiaro'
+  subtitle: 'Una ripartizione chiara dei livelli di quantità di ordinazione e dei tempi di produzione per i SUP gonfiabili personalizzati: cosa puoi ordinare in ogni livello, quanto dura realmente ogni livello e come campione, ordine pilota e volume si integrano in un unico progetto. Progettata e gestita da Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Richiedi il breakdown MOQ & tempi di consegna del tuo progetto
+      href: /it/contact#moq-guide
+    - text: La guida MOQ & branding flessibile
+      href: /it/oem-moq-guide
+
+answer:
+  label: 'Risposta breve'
+  text: 'MOQ e tempi di consegna sono specifici per progetto, ma il quadro è fisso. Ogni progetto SUP personalizzato passa attraverso gli stessi livelli a scaglioni: sviluppo dei campioni (1–2 tavole, pronte in 7–12 giorni), ordini di prova e ordini pilota (20–50 tavole) e cicli di volume standard (90–100+ tavole per rotolo drop-stitch da 150 m). Il tempo di produzione è di 25–35 giorni dalla PO confermata e dall''acconto; se il tuo progetto richiede uno scafo personalizzato, lo sviluppo dello stampo aggiunge 15–20 giorni prima dell''inizio della produzione. Un tipico primo progetto si presenta quindi così: campioni in circa 1–2 settimane, tavole pilota in 4–6 settimane e il primo ciclo completo che parte circa 6–8 settimane dopo la conferma dell''ordine.'
+  verified: 'Settembre 2026'
+
+moq_lead_table:
+  tagline: 'Il quadro'
+  title: 'I livelli di MOQ SUP personalizzato & tempi di consegna in sintesi'
+  subtitle: 'Ogni livello valida il successivo. Non si salta mai direttamente da un disegno a un container: confermi scafo, grafiche e imballaggio in ogni livello prima di impegnarti per altre tavole.'
+  headers:
+    stage: 'Livello di ordine'
+    quantity: 'Quantità tipica'
+    lead_time: 'Tempo di consegna'
+    best_for: 'Ideale per'
+  rows:
+    - stage: 'Sviluppo dei campioni'
+      quantity: '1–2 tavole'
+      lead_time: '7–12 giorni'
+      best_for: 'Validazione della rigidità dello scafo, della texture del tappetino di trazione EVA, della precisione grafica e dell''adattamento degli accessori. Sono previste spese per i campioni, accreditate sul tuo ordine di produzione alla firma del contratto.'
+    - stage: 'Ordine di prova / ordine pilota'
+      quantity: '20–50 tavole'
+      lead_time: '25–35 giorni'
+      best_for: 'Test economici pre-stagione, validazione di mercato e prime vendite utilizzando piattaforme di scafo esistenti, materiali di magazzino e imballaggio semplificato.'
+    - stage: 'Ciclo di volume standard'
+      quantity: '90–100+ tavole per rotolo da 150 m'
+      lead_time: '25–35 giorni'
+      best_for: 'Piena efficienza produttiva su rotoli di tessuto completi da 150 m — nessuna giuntura di tessuto, tensione uniforme delle fibre e setup di linea ammortizzato. Gli stampi personalizzati girano su questo livello.'
+    - stage: 'Programma ampio'
+      quantity: '300+ tavole'
+      lead_time: '25–35 giorni per lotto, spedizioni scaglionate'
+      best_for: 'Programmi per container e flotte stagionali, pianificati su più lotti di produzione, così il tuo magazzino e il tuo cash flow restano gestibili.'
+
+moq_drivers:
+  tagline: 'Cosa determina la tua MOQ'
+  title: 'I sei fattori che determinano la tua quantità minima'
+  subtitle: 'La MOQ non è un numero arbitrario scelto da un team vendite. Viene calcolata dall''intera architettura di prodotto — questi componenti vengono valutati insieme prima di preparare l''offerta.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Forma dello scafo & attrezzaggio'
+      desc: 'Le forme rocker esistenti dello stabilimento consentono ordini pilota da 20 tavole. Uno scafo personalizzato richiede attrezzi di taglio CAD dedicati e attrezzi per la pressatura a caldo EVA, e l''attrezzaggio aggiunge 15–20 giorni al programma.'
+    - icon: C
+      icon_bg: green
+      title: 'Varianti colore & PVC'
+      desc: 'I colori standard di magazzino girano in quantità pilota, mentre i rotoli in PVC tinto in proprio con colori Pantone richiedono cicli di tintura chimica dedicati con quantità minime di materia prima proprie.'
+    - icon: A
+      icon_bg: purple
+      title: 'Design & copertura di stampa'
+      desc: 'Un logo di prua può essere stampato in serigrafia in piccoli cicli, mentre i design a tutta superficie o a più pannelli richiedono la costruzione dei cliché di stampa digitale e test di copertura, aumentando la dimensione pratica del lotto.'
+    - icon: B
+      icon_bg: orange
+      title: 'Imballaggio con il tuo marchio'
+      desc: 'Le scatole regalo retail personalizzate a 5 strati hanno un loro problema di tiratura minima in stampa offset. Se ordini meno scatole, stocchiamo l''eccedenza e la liberiamo lungo le tue spedizioni pianificate.'
+    - icon: G
+      icon_bg: blue
+      title: 'Pacchetti di accessori'
+      desc: 'Le pagaie standard in alluminio o nylon, le pompe e le borse seguono lotti di fornitura a livelli inferiori. Le pagaie in carbonio completamente marchiate e le pompe personalizzate seguono quantità minime di produzione proprie.'
+    - icon: S
+      icon_bg: green
+      title: 'Pianificazione stagionale & dei pagamenti'
+      desc: 'Gli ordini inseriti nella finestra pre-stagione ricevono slot di produzione confermati. I piani di spedizione scaglionati per i programmi da 300+ tavole vengono confermati in sede di contratto, non dopo la produzione.'
+
+moq_timeline:
+  tagline: 'Timeline end-to-end'
+  title: 'Dal briefing di prodotto alle tavole spedite: giorno per giorno'
+  subtitle: 'La timeline completa per un tipico programma SUP personalizzato. Le piattaforme di scafo esistenti comprimono il lato sinistro di questa timeline; uno scafo personalizzato aggiunge la fase di sviluppo dello stampo.'
+  steps:
+    - step: 'Giorno 0'
+      title: 'Invia il tuo briefing di prodotto'
+      desc: 'Modello della tavola, quantità obiettivo, varianti colore, design e requisiti di imballaggio. La verifica tecnica viene completata entro un giorno lavorativo.'
+    - step: 'Giorni 1–2'
+      title: 'Verifica tecnica & fattibilità'
+      desc: 'Il nostro team tecnico verifica geometria dello scafo, materiali e percorso di conformità e conferma se il progetto si adatta alle piattaforme esistenti o richiede nuovi stampi.'
+    - step: 'Giorni 3–7'
+      title: 'Specifica & offerta dettagliata'
+      desc: 'Ricevi la specifica completa con calcolo della MOQ, segmenti di consegna e costi dettagliati — inclusi eventuali costi dello stampo — prima di qualsiasi impegno.'
+    - step: 'Giorni 7–12'
+      title: 'Sviluppo dei campioni (1–2 tavole)'
+      desc: 'Campione fisico costruito e testato: rigidità dello scafo, texture del tappetino di trazione EVA, precisione grafica e adattamento degli accessori. Le spese per i campioni vengono accreditate sull''ordine di produzione all''approvazione.'
+    - step: '+15–20 giorni'
+      title: 'Sviluppo di stampi personalizzati (solo scafi personalizzati)'
+      desc: 'Solo per progetti con nuova forma dello scafo: attrezzi di taglio CNC, attrezzi per la pressatura a caldo EVA e prove dello stampo vengono completati prima che possa iniziare la produzione in volume.'
+    - step: '25–35 giorni'
+      title: 'Produzione dopo PO confermata & acconto'
+      desc: 'Rotoli di tessuto completi da 150 m, materiali Pantone, imballaggio con il tuo marchio e montaggio a 100 punti. Ogni tavola viene sottoposta a prove di pressione e tenuta all''aria di 24 ore.'
+    - step: '300+ tavole'
+      title: 'Pianificazione delle spedizioni scaglionate'
+      desc: 'I programmi ampi vengono spediti su lotti pianificati per rispondere alle vendite stagionali, alla capacità di stoccaggio e alle milestone di pagamento.'
+    - step: 'Giorno 0–90'
+      title: 'Orizzonte tipico del primo ordine'
+      desc: 'Dal briefing al primo ciclo consegnato: circa 6–8 settimane con piattaforme esistenti, 8–12 settimane incluso lo stampo personalizzato. I programmi multi-rotolo e per container vanno consapevolmente oltre.'
+
+expedite:
+  tagline: 'Tenere corto il programma'
+  title: 'Cosa tiene stretti i tempi di consegna'
+  subtitle: 'Tre leve ti permettono di comprimere il programma senza cambiare le fondamenta della fisica dei rotoli.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'I campioni sono veloci per standard'
+      desc: 'Lo sviluppo dei campioni richiede 7–12 giorni in ogni progetto. Usa il giro dei campioni per congelare la tua specifica, così la produzione non deve mai aspettare decisioni di design tardive.'
+    - icon: P
+      icon_bg: green
+      title: 'Gli slot di produzione vengono confermati in anticipo'
+      desc: 'Gli ordini pre-stagione garantiscono slot di produzione confermati. Il fatto che più clienti prenotino lo stesso slot è esattamente il motivo per cui acconti più anticipati ottengono linee più anticipate.'
+    - icon: T
+      icon_bg: purple
+      title: 'Gate a livelli trasparenti'
+      desc: 'Ogni gate — approvazione dei campioni, congelamento BOM, congelamento del design, PO e acconto — viene concordato con una data in sede di contratto. Sai sempre in quale giorno l''orologio riparte.'
+
+scenarios:
+  tagline: 'Tre punti di ingresso realistici'
+  title: 'Quale percorso si adatta al tuo progetto?'
+  subtitle: 'La stessa fabbrica, tre percorsi diversi per entrare. Scegli lo scenario più vicino alla tua situazione e usalo quando ci contatti.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Marchio startup: validare prima di impegnarti'
+      desc: 'Ordina prima 1–2 campioni (7–12 giorni), testa qualità di guida e fotografia e poi piazza un ordine di prova di 20–50 tavole per testare le vendite prima di qualsiasi ciclo completo. L''esposizione complessiva della prima stagione resta sotto le 50 tavole.'
+    - icon: B
+      icon_bg: blue
+      title: 'Resort o operatore di noleggio: pilotare, poi scalare'
+      desc: 'Un ordine pilota di 20–50 tavole con imballaggio semplificato ti porta attraverso la pre-stagione. Dopo aver raccolto i dati di utilizzo, sali a cicli standard di 90–100+ tavole con imballaggio a marchio.'
+    - icon: C
+      icon_bg: green
+      title: 'Marchio affermato: programmi completi per container'
+      desc: 'I marchi esistenti ordinano 90–100+ tavole per rotolo da 150 m con scafi personalizzati e branding a tutta superficie. L''attrezzaggio dello stampo personalizzato aggiunge 15–20 giorni; i programmi da 300+ tavole spediscono secondo piani scaglionati.'
+
+moq_quality:
+  tagline: 'QC & conformità'
+  title: 'Lo stesso sistema di qualità a ogni dimensione di ordine'
+  subtitle: 'Un campione da 1 tavola e un programma da 300+ tavole passano attraverso gli stessi gate di qualità e la stessa documentazione di conformità. "MOQ bassa" non significa mai "standard basso".'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Documenti di conformità, ogni dimensione'
+      desc: 'La documentazione di certificazione CE, ISO 9001, BSCI, REACH e RoHS viene fornita con ogni ordine — inclusi i singoli campioni — con numeri di certificato su richiesta.'
+    - icon: A
+      icon_bg: green
+      title: 'Checklist di montaggio a 100 punti'
+      desc: 'Ogni tavola, indipendentemente dalla dimensione del lotto, supera la stessa checklist di montaggio a 100 punti: materiali, saldature, valvole, rail, pinne e adattamento degli accessori vengono verificati riga per riga.'
+    - icon: P
+      icon_bg: purple
+      title: 'Prova di pressione e tenuta all''aria di 24 ore'
+      desc: 'Ogni tavola viene gonfiata a 18.0 PSI e tenuta per 24 ore. Una caduta di pressione superiore a 0.50 PSI attiva lo scarto automatico — lo stesso gate per un campione e per un container.'
+    - icon: R
+      icon_bg: orange
+      title: 'Verifica della saldatura HF & fusione delle rail'
+      desc: 'La fusione del nastro rail a tre strati e le saldature HF vengono verificate visivamente e dimensionalmente rispetto al campione approvato prima di ogni ciclo di produzione.'
+    - icon: B
+      icon_bg: blue
+      title: 'Tracciabilità dei lotti ERP (10 anni)'
+      desc: 'Ogni tavola porta registri di produzione con numero di serie — materiali, operatori, test e risultati delle ispezioni — conservati per 10 anni e messi a disposizione per gli audit.'
+    - icon: I
+      icon_bg: green
+      title: 'Pronta per l''ispezione di terze parti'
+      desc: 'La produzione per lotti è pronta per ispezioni di terze parti in qualsiasi momento. La maggior parte dei clienti utilizza inoltre il nostro sistema di ispezione a 7 livelli o un''ispezione pre-spedizione per i programmi in volume.'
+
+moq_faqs:
+  tagline: 'FAQ'
+  title: 'Domande frequenti su MOQ & tempi di consegna'
+  items:
+    - q: 'Qual è la quantità minima di ordinazione per un SUP personalizzato?'
+      a: 'Dipende dal livello del tuo progetto: i campioni sono 1–2 tavole, le piccole quantità di co-branding partono da 5–10 unità, gli ordini di prova e pilota girano con 20–50 tavole e la produzione di volume standard gira con 90–100+ tavole per rotolo di tessuto drop-stitch da 150 m. Gli stampi personalizzati girano sul livello di volume. Confermiamo il calcolo esatto per la tua configurazione prima di preparare l''offerta.'
+    - q: 'Quanto dura un campione di SUP gonfiabile?'
+      a: 'Lo sviluppo dei campioni richiede 7–12 giorni. Il campione verifica rigidità dello scafo, texture del tappetino di trazione EVA, precisione grafica e adattamento degli accessori. Sono previste spese per i campioni, accreditate sul tuo ordine di produzione alla firma del contratto.'
+    - q: 'Quanto dura la produzione dopo la conferma dell''ordine?'
+      a: 'Il tempo di produzione è di 25–35 giorni dalla PO confermata e dall''acconto. Se il tuo progetto include uno scafo personalizzato, lo sviluppo dello stampo personalizzato aggiunge 15–20 giorni di attrezzaggio prima dell''inizio della produzione.'
+    - q: 'La MOQ viene calcolata per ordine, per modello o per variante colore?'
+      a: 'La MOQ può valere per modello, variante colore, versione di design, configurazione di imballaggio o ordine complessivo. Poiché diversi spessori di drop-stitch e colori di PVC provengono da rotoli di materia prima separati, un ordine di 50 tavole distribuite su 5 colori genera 5 richieste distinte di rotoli di tessuto. Confermiamo il calcolo rispetto alla tua matrice SKU.'
+    - q: 'Posso iniziare con solo 1–2 tavole per testare il mercato?'
+      a: 'Sì. Un ordine di campioni da 1–2 tavole è la validazione più economica possibile: rigidità dello scafo, grafiche e adattamento degli accessori vengono confermati prima che tu ti impegni finanziariamente su un ciclo. Da lì sali a un ordine di prova di 20–50 tavole per la validazione economica.'
+    - q: 'Un programma da 300+ tavole può essere spedito in più lotti?'
+      a: 'Sì. I programmi ampi possono essere pianificati come spedizioni scaglionate su lotti di produzione, così le flotte stagionali arrivano quando servono e cash flow e spazio di magazzino restano gestibili. I programmi vengono confermati in sede di contratto, non dopo la produzione.'
+
+evidence_review:
+  tagline: 'Evidenze & verifica'
+  title: 'SPECIFICHE VERIFICATE'
+  body: 'Tutti i dati di produzione in questa pagina vengono verificati dal nostro Manufacturing Engineering Team nello stabilimento di Laixi, Qingdao. Certificati, registri di ispezione QC, rapporti di prova di pressione e strutturali e registri di tracciabilità dei lotti sono disponibili su richiesta. Specifiche verificate l''ultima volta a settembre 2026.'
+
+cta:
+  title: 'Vuoi ricevere MOQ & tempi di consegna specifici per il tuo progetto?'
+  subtitle: 'Inviaci il tuo modello di tavola, la quantità obiettivo per la prima stagione e i tuoi requisiti di branding. Il nostro team tecnico conferma se il percorso campione, prova o volume è quello giusto — con il calcolo esatto della MOQ e un piano giorno per giorno. Una richiesta non ti impegna a nessun ordine.'
+  actions:
+    - variant: primary
+      text: Richiedi il breakdown MOQ & tempi di consegna
+      href: /it/contact#moq-guide
+    - text: Confronta con la guida al branding flessibile
+      href: /it/oem-moq-guide
+    - text: Lancia un nuovo marchio con un ordine di prova a MOQ bassa
+      href: /it/new-brand-trial-order
+    - text: Verifica fabbrica e sistema di qualità
+      href: /it/oem-trust-assurance

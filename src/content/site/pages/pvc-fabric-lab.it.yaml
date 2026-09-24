@@ -1,0 +1,111 @@
+meta:
+  title: 'Laboratorio tessuti PVC — prove materiali per tavole SUP'
+  description: 'Prove materiali dalla fibra alla tavola finita: resistenza alla trazione, invecchiamento UV, flessibilità a freddo e resistenza all''abrasione per i tessuti PVC dei SUP.'
+back_text: 'Torna al centro R&S'
+home_label: 'Home'
+
+hero:
+  tagline: 'Laboratorio 01'
+  title: 'Laboratorio tessuti PVC'
+  subtitle: 'Prove materiali scientifiche — dalla fibra alla tavola finita'
+  image: 'https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp'
+  image_alt: 'Laboratorio di prove materiali per tessuti PVC di Vatrad'
+
+answer:
+  label: 'Risposta breve'
+  text: 'Le tavole vengono costruite con PVC marino da 1,680 DTEX con un rivestimento a tre strati e un nucleo drop-stitch progettato per 12–15 PSI. Ogni lotto di tessuto in ingresso viene testato in modo indipendente in fabbrica — resistenza alla trazione (ISO 1421), ritenzione UV dopo 2,000 ore di esposizione alla lampada allo xeno (ISO 4892), abrasione e flessibilità a freddo — nessun lotto entra in produzione solo sulla base dei data sheet del fornitore.'
+  verified: 'September 2026'
+
+intro: 'Il tessuto della tavola è di gran lunga il materiale più importante in un SUP gonfiabile. Deve resistere a un''esposizione UV prolungata, a cicli di gonfiaggio ripetuti, all''abrasione su deck e spiagge sabbiose e a variazioni di temperatura estreme — mantenendo nel frattempo la propria integrità strutturale per anni. Da {SITE.name}, il nostro laboratorio tessuti PVC è dedicato esclusivamente alla caratterizzazione, alla validazione e al miglioramento continuo dei tessuti che usiamo in ogni tavola che costruiamo.'
+
+content_html: |
+  <h2>La base di ogni SUP gonfiabile</h2>
+  <p>Non ci affidiamo soltanto ai data sheet del fornitore. Ogni lotto di tessuto PVC e di nucleo drop-stitch che entra nella nostra officina viene testato in modo indipendente internamente. Questo garantisce che la specifica materiale pubblicata sia anche la prestazione del materiale che ricevi — lotto dopo lotto, anno dopo anno.</p>
+
+  <h2>Attrezzatura di prova standardizzata</h2>
+  <p>Il nostro laboratorio tessuti è dotato di apparecchiature industriali di prova conformi ai metodi ISO, ASTM ed EN:</p>
+  <table>
+    <thead><tr><th>Attrezzatura</th><th>Parametri misurati</th><th>Standard</th></tr></thead>
+    <tbody>
+      <tr><td>Macchina universale di prova a trazione (50 kN)</td><td>Forza di rottura, allungamento a rottura, comportamento alla propagazione del taglio</td><td>ISO 1421 / ASTM D751</td></tr>
+      <tr><td>Camera di invecchiamento a lampada allo xeno</td><td>Resistenza UV (variazione colore, conservazione della resistenza dopo 2000 h)</td><td>ISO 4892 / ASTM G155</td></tr>
+      <tr><td>Apparecchio per flessibilità a freddo</td><td>Temperatura di rottura da -30 °C a -50 °C</td><td>ISO 4675 / ASTM D2136</td></tr>
+      <tr><td>Apparecchio di abrasione Taber</td><td>Perdita di peso dopo 1000 cicli (ruota CS-10)</td><td>ASTM D3389 / ISO 5470-1</td></tr>
+      <tr><td>Calibro di spessore (digitale, risoluzione 0.001 mm)</td><td>Uniformità sulla larghezza del rotolo</td><td>ISO 2286-3</td></tr>
+      <tr><td>Apparecchio di prova a colonna d''acqua</td><td>Resistenza alla penetrazione dell''acqua</td><td>ISO 811</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Tutti gli strumenti vengono calibrati annualmente da laboratori terzi accreditati.</p>
+
+  <h2>Dai dati alla decisione: un tipico percorso di prova</h2>
+  <p>Quando arriva un nuovo candidato tessuto, passa attraverso un processo di qualificazione standardizzato in sette fasi:</p>
+  <ol>
+    <li><strong>Controllo in ingresso</strong> — ispezione visiva per difetti di superficie, fori di ago e conformità dimensionale.</li>
+    <li><strong>Mappatura dello spessore</strong> — misurazione a 20 punti lungo il rotolo; per l''accettazione è richiesto CV &lt; 3 %.</li>
+    <li><strong>Prova di trazione</strong> — 5 campioni in direzione ordito e trama. Almeno 3500 N/50 mm per PVC da 1100 dtex.</li>
+    <li><strong>Condizionamento UV</strong> — 1000 h di esposizione nella camera a lampada allo xeno; richiesta una conservazione della resistenza di almeno l''80 %.</li>
+    <li><strong>Rottura a freddo</strong> — 4 h a -35 °C, poi piegatura a 180° su un mandrino di 25 mm. Nessuna cricca visibile.</li>
+    <li><strong>Resistenza all''abrasione</strong> — 1000 cicli, perdita di peso ≤ 0.05 g.</li>
+    <li><strong>Rilascio</strong> — solo dopo aver superato tutti e sette i gate il tessuto viene rilasciato per la produzione.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">PVC tipico 1100 dtex — conservazione della resistenza alla trazione dopo esposizione UV</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 h 100%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">500 h 95%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">1000 h 88%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
+        <span class="text-xs mt-1">2000 h 82%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
+        <span class="text-xs mt-1">Concorrente ~65%</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Il nostro tessuto PVC 1100 dtex conserva oltre l''80 % della resistenza alla trazione dopo 2000 h di esposizione alla lampada allo xeno — a fronte di classi industriali comuni che scendono sotto il 70 %.</p>
+  </div>
+
+  <h2>Il nostro team tecnico</h2>
+  <p>Il laboratorio è presidiato da due ingegneri dei materiali a tempo pieno, ciascuno in possesso di una laurea in scienza dei polimeri o tecnologia tessile con almeno sei anni di esperienza di settore. Supportati da tre tecnici che eseguono i controlli quotidiani e la registrazione dei dati. Il team partecipa regolarmente ai circuiti di interconfronto organizzati dall''Organizzazione Internazionale per la Normazione (ISO) per validare l''accuratezza dei nostri metodi di prova.</p>
+
+  <h2>Risolvere le vostre sfide materiali più difficili</h2>
+  <p>Ogni ambiente di pagaiata è diverso. Una tavola ai tropici è esposta a condizioni UV e termiche completamente diverse da una su un lago nordico o un bacino desertico. Il nostro laboratorio tessuti ti aiuta a scegliere — o a sviluppare — una specifica di tessuto ottimizzata per il tuo profilo di utilizzo.</p>
+  <p>Le soluzioni speciali recenti includono:</p>
+  <ul>
+    <li>Una mescola PVC ad alta resistenza all''abrasione per un parco flotte di noleggio le cui tavole toccano regolarmente spiagge sabbiose e rampe di cemento (+40 % di durata all''abrasione).</li>
+    <li>Una formulazione per temperature bassissime per un programma rivenditori di stoccaggio invernale in Canada, testata fino a -50 °C senza infragilimento.</li>
+    <li>Un deck arancione stabilizzato nel colore per un parco addestramento soccorso e ricerca che preserva la visibilità dopo 3 anni di esposizione al sole tropicale.</li>
+  </ul>
+  <p>Non vendiamo tessuti "standard" nella speranza che funzionino. Testiamo, validiamo e consigliamo — o sviluppiamo — una soluzione su misura per il tuo specifico profilo di missione. Questa è la differenza {SITE.name}.</p>
+
+  <h2>Come ti serviamo</h2>
+  <p>Quando vieni da noi con una sfida materiale, ecco cosa puoi aspettarti:</p>
+  <ol>
+    <li><strong>Consulenza</strong> — discutiamo del tuo ambiente di utilizzo, degli obiettivi di prestazione e del tuo budget.</li>
+    <li><strong>Offerta</strong> — viene creato un piano di test con criteri superato/non superato chiari e un calendario.</li>
+    <li><strong>Esecuzione</strong> — il nostro laboratorio esegue i test e produce un rapporto dettagliato con dati grezzi e analisi comparativa.</li>
+    <li><strong>Raccomandazione</strong> — presentiamo una specifica di tessuto, incluse opzioni alternative se più materiali soddisfano i tuoi requisiti.</li>
+    <li><strong>Assistenza post-vendita</strong> — dopo la consegna restiamo disponibili per ogni domanda sul materiale in campo.</li>
+  </ol>
+  <p>Il nostro obiettivo non è solo venderti una tavola. Si tratta di garantire che la tavola che ricevi funzioni in modo affidabile nelle condizioni in cui la usi — e questo inizia dal tessuto.</p>
+
+cta:
+  title: 'Ti serve una specifica di tessuto personalizzata?'
+  subtitle: 'Contatta il nostro team di ingegneria dei materiali per discutere i tuoi requisiti.'
+  actions:
+    - variant: primary
+      text: Contatta il nostro team di laboratorio
+      href: /it/contact#project-brief
+    - text: Torna al centro R&S
+      href: /it/randdcenter

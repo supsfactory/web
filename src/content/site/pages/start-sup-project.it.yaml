@@ -1,0 +1,114 @@
+meta:
+  title: 'Avvia il tuo progetto SUP — Dal briefing alle tavole consegnate | SUPsfactory'
+  description: 'Avvia il tuo progetto SUP personalizzato: invia il briefing, ottieni la protezione NDA, ricevi i campioni in 7–12 giorni, approvali e scala la produzione. Passo dopo passo con tempi definiti.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'Avviare un progetto SUP'
+    - 'Ordine SUP personalizzato'
+    - 'Briefing progetto SUP'
+    - 'Progetto SUP OEM'
+    - 'Ordine paddleboard personalizzato'
+    - 'Progetto di produzione SUP'
+    - 'Progetto SUP gonfiabile'
+
+hero:
+  tagline: 'Inizia qui'
+  title: 'Avvia il tuo progetto SUP'
+  subtitle: 'Che tu voglia lanciare un nuovo marchio, ampliare una linea di prodotti o procurarti tavole con il tuo marchio per la tua attività — ogni progetto inizia allo stesso modo: con un briefing di progetto, una NDA, un campione e un percorso chiaro verso la produzione. Qui scopri cosa succede dopo aver cliccato su "Avvia".'
+  actions:
+    - variant: primary
+      text: Inizia il briefing di progetto
+      href: /it/contact#project-brief
+    - text: Come funziona il processo
+      href: /it/how-it-works
+
+answer:
+  label: 'Cosa succede dopo'
+  text: 'Dopo aver inviato un briefing di progetto, ricevi una risposta entro un giorno lavorativo. Prima di condividere dettagli riservati è disponibile una NDA. L''ufficio tecnico esamina il tuo briefing e fornisce un''offerta dettagliata con MOQ, spese per i campioni e un piano a tappe — in genere 7–12 giorni per i campioni e 6–8 settimane per la prima produzione dalla PO confermata. Le spese per i campioni vengono accreditate sul tuo ordine di produzione. Nessun impegno fino alla firma.'
+  verified: 'Settembre 2026'
+
+process_steps:
+  tagline: Il processo
+  title: 'Dal briefing alle tavole consegnate — cinque passi'
+  subtitle: 'Ogni passo ha un tempo definito, un risultato documentato e una milestone go/no-go. Prosegui solo quando sei pronto.'
+  steps:
+    - step: 'Passo 1'
+      title: 'Invia il tuo briefing di progetto'
+      desc: 'Raccontaci della tua tavola — specifiche obiettivo, quantità, requisiti di conformità e tempi. Il briefing richiede 5–10 minuti. Se non sei sicuro di qualche dettaglio, condividi quello che hai e ti guidiamo noi nel resto. Una NDA è disponibile prima che tu condivida design riservati.'
+    - step: 'Passo 2'
+      title: 'NDA & verifica di fattibilità (1–5 giorni)'
+      desc: 'Su richiesta firmiamo una NDA, poi l''ufficio tecnico verifica il tuo briefing rispetto a capacità produttiva, disponibilità dei materiali e ambito di conformità. Ricevi un''offerta dettagliata con calcolo della MOQ, spese per i campioni e un piano a tappe.'
+    - step: 'Passo 3'
+      title: 'Campioni & approvazione (7–21 giorni)'
+      desc: '1–2 tavole fisiche secondo la tua specifica. Pagai e valuti — rigidità dello scafo, precisione grafica, adattamento degli accessori. Le modifiche vengono registrate in una BOM rivista. Il campione approvato diventa riferimento di produzione. Le spese per i campioni vengono accreditate sulla produzione.'
+    - step: 'Passo 4'
+      title: 'Pianificazione pre-produzione (7 giorni)'
+      desc: 'Approvvigionamento dei materiali, preparazione degli stampi, conferma dell''imballaggio e riserva dello slot di produzione. Tutti i materiali vengono ispezionati in ingresso rispetto alla BOM congelata. Prima dell''avvio della produzione viene emesso un piano con le date dei gate QC.'
+    - step: 'Passo 5'
+      title: 'Produzione, QC & spedizione (4–6 settimane)'
+      desc: 'La produzione passa attraverso il sistema di gate di ispezione a 7 livelli, con criteri superato/non superato a ogni gate. Imballaggio conforme all''export, documentazione di conformità e coordinamento del trasporto marittimo in oltre 50 paesi. Un''analisi post-consegna raccoglie i miglioramenti per l''ordine successivo.'
+
+collaboration_types:
+  tagline: Scegli la tua strada
+  title: 'Tre modi di collaborare con SUPsfactory'
+  subtitle: 'Ogni progetto segue lo stesso processo — ciò che cambia è l''ambito di ingegneria e la proprietà dell''IP.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Produzione OEM'
+      desc: 'Fornisci tu il design. Noi produciamo secondo la tua specifica. Tu possiedi tutto l''IP. Ideale per marchi con geometrie di tavola collaudate.'
+      link_label: 'Vedi i dettagli OEM'
+      href: /it/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Sviluppo ODM'
+      desc: 'Fornisci tu il briefing. Noi sviluppiamo la tavola. Piattaforma adattata con il tuo branding. Ideale per marchi che entrano nel mercato senza un design interno.'
+      link_label: 'Vedi i dettagli ODM'
+      href: /it/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Il tuo marchio su una piattaforma collaudata. Nessuna fase di ingegneria. Già da 5–10 unità. Ideale per operatori e distributori.'
+      link_label: 'Vedi le opzioni private label'
+      href: /it/solutions/private-label-sup
+
+what_we_need:
+  heading: 'Cosa preparare prima del briefing'
+  body: |
+    Un briefing completo accelera il processo. Ecco cosa aiuta:
+
+    - **Specifiche della tavola** — lunghezza, larghezza e spessore obiettivo, peso del rider, uso previsto. Le misure di riferimento di tavole o modelli concorrenti sono utili.
+    - **File di design** — grafiche vettoriali (AI, SVG, PDF) per grafiche e loghi. Se non sono ancora pronti, per la prima fattibilità bastano moodboard o immagini di riferimento.
+    - **Quantità & tempi** — quantità obiettivo e piano di stagione. Basta già una stima approssimativa ("20–50 tavole entro marzo") per iniziare.
+    - **Requisiti di conformità** — mercati target e requisiti di certificazione specifici oltre a CE, ISO 9001, BSCI, REACH, RoHS.
+    - **Quadro di budget** — un budget indicativo per tavola o un costo a destino obiettivo ci aiuta a consigliare la piattaforma giusta.
+
+    **Non è ancora tutto pronto?** Invia quello che hai. Ti guidiamo noi attraverso il resto.
+
+faqs:
+  tagline: FAQ
+  title: 'Avviare un progetto SUP — Domande frequenti'
+  items:
+    - q: 'Qual è l''ordine minimo per iniziare?'
+      a: 'L''ingresso è a scaglioni: prima 1–2 campioni (7–12 giorni), poi un ordine di prova di 20–50 tavole (25–35 giorni), quindi cicli di serie standard di 90–100+ tavole per configurazione approvata. Il co-branding private label parte da 5–10 unità senza fase di sviluppo.'
+    - q: 'Quanto tempo serve per ricevere i campioni?'
+      a: 'I campioni fisici vengono prodotti in 7–12 giorni dalla conferma della specifica e dell''acconto. Con piattaforme di scafo esistenti, l''intero ciclo dal briefing all''ordine di prova consegnato richiede in genere 8–12 settimane. Uno scafo personalizzato aggiunge 15–20 giorni di sviluppo dello stampo.'
+    - q: 'Il mio design è protetto?'
+      a: 'Sì. Una NDA è disponibile immediatamente — prima che tu condivida informazioni riservate. Produciamo esclusivamente a marchio dei nostri clienti e non competiamo mai con loro. Tutti i file tecnici vengono conservati in sistemi con controllo degli accessi e audit trail.'
+    - q: 'Cosa chiede il modulo di briefing di progetto?'
+      a: 'Il briefing chiede tipo di attività, nome dell''azienda, specifiche obiettivo della tavola, fascia di quantità di ordinazione, tempi ed eventuali requisiti di conformità. Richiede circa 5–10 minuti. Puoi allegare file di design (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) fino a 10 MB. Se non sei sicuro di un campo, saltalo — ti ricontattiamo noi.'
+    - q: 'Cosa succede dopo l''invio del briefing?'
+      a: 'Ricevi una risposta entro un giorno lavorativo. L''ufficio tecnico esamina il tuo briefing e fornisce un''offerta dettagliata con MOQ, spese per i campioni e un piano a tappe. Non sorge alcun impegno finché non hai esaminato e firmato il contratto. Le spese per i campioni vengono accreditate sul tuo ordine di produzione.'
+
+cta:
+  title: 'Pronto a iniziare?'
+  subtitle: 'Invia il tuo briefing di progetto — specifiche della tavola, quantità e tempi — e noi confermeremo la fattibilità, produrremo i campioni e forniremo un piano di produzione con QC documentata in ogni fase.'
+  actions:
+    - variant: primary
+      text: Inizia il briefing di progetto
+      href: /it/contact#project-brief
+    - text: Leggi la guida completa all'onboarding
+      href: /it/oem-onboarding-guide
+    - text: Verifica fabbrica e sistema di qualità
+      href: /it/proof-center

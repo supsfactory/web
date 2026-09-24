@@ -1,0 +1,85 @@
+meta:
+  title: 'Capacità produttiva — Fabbrica di 12,500 m² | {SITE}'
+  description: 'Capacità della fabbrica Vatrad: impianto di 12,500 m² con una produzione annua di oltre 120,000 SUP e possibilità di espansione. Produzione OEM/ODM di SUP gonfiabili ad alto volume.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'capacità produttiva sup'
+    - 'fabbrica sup gonfiabili'
+    - 'produzione paddle board'
+    - 'fabbrica sup cina'
+hero:
+  tagline: Capacità produttiva
+  title: Capacità produttiva & produzione annuale
+  subtitle: Impianto di 12,500 m² con una produzione annua di oltre 120,000 SUP con spazio per espansioni
+
+answer:
+  label: 'Risposta chiara'
+  text: 'Capacità della fabbrica: 12,500 m² in quattro officine specializzate, oltre 120,000 SUP all''anno, oltre 350 dipendenti su due turni, export in oltre 50 paesi. Il MOQ viene confermato in base alla configurazione del progetto — campione (1–2 unità), pilota (20–50 unità) e quantità standard (90–100+ unità per bobina da 150 m); consulta la nostra guida MOQ & branding flessibile per la logica completa. Tempo di consegna 25–35 giorni, campioni 7–12 giorni.'
+  verified: 'September 2026'
+
+intro: Vatrad gestisce uno dei più grandi impianti di produzione dedicati ai SUP gonfiabili di Qingdao, Cina. La nostra fabbrica di 12,500 m² è organizzata in quattro officine specializzate che operano in parallelo. La capacità SUP annua supera i 120,000 SUP gonfiabili (circa 10,000 al mese), con oltre 50,000 giubbotti di salvataggio e oltre 5,000 accessori prodotti su linee di prodotto separate.
+
+highlights:
+  - value: 12,500 m²
+    label: Superficie produttiva totale
+    detail: Oltre 4 officine specializzate
+  - value: 120,000+
+    label: Capacità SUP annua
+    detail: SUP gonfiabili, circa 10,000/mese
+  - value: 350+
+    label: Professionisti
+    detail: Oltre 25 ingegneri, 2 turni/giorno
+  - value: 50+
+    label: Paesi di esportazione
+    detail: UE, USA, AU, Medio Oriente, Asia
+  - value: 25–35
+    label: Tempo di consegna standard (giorni)
+    detail: Dopo PO e acconto confermati
+  - value: 10+
+    label: Anni di esperienza export
+    detail: Dal 2012
+
+workshops:
+  - title: Produzione SUP
+    description: '4 linee di assemblaggio automatizzate per SUP gonfiabili con una produzione combinata di circa 10,000 tavole al mese. Le postazioni di stampa digitale e serigrafica operano in parallelo. Capacità SUP annua: oltre 120,000 tavole.'
+    output: '120,000+ SUP/anno'
+  - title: Produzione SUP — linee di ampliamento
+    description: 'Ulteriori linee di assemblaggio automatizzate per SUP, attivate non appena i volumi crescono. L''incollaggio del nucleo drop-stitch, la stampa digitale e le postazioni di assemblaggio operano in parallelo.'
+    output: 'Parte della capacità annua di oltre 120,000 SUP'
+  - title: Accessori SUP & assemblaggio misto
+    description: 'Linee di assemblaggio multifunzionali per accessori SUP — paddle, pinne, leash, borse e kit. Postazioni di saldatura ad aria calda, presse dielettriche HF e banchi di assemblaggio vengono riconfigurati in base al mix di ordini. Capacità annua accessori: oltre 5,000 unità.'
+    output: '5,000+ accessori/anno'
+  - title: Attrezzatura di sicurezza
+    description: 'Area di produzione separata in camera pulita per giubbotti di salvataggio e attrezzatura di sicurezza. Postazioni dedicate di cucitura, inserimento schiuma e collaudo. Capacità annua giubbotti di salvataggio: oltre 50,000 unità.'
+    output: '50,000+ giubbotti di salvataggio/anno'
+
+oem_capacity:
+  moq: 'SUP: campione 1–2 | pilota 20–50 | quantità 90–100+ (per bobina da 150 m)'
+  lead_time: 'Standard 25–35 giorni. Campioni 7–12 giorni. Express disponibile.'
+  payment: 'T/T 30% acconto + 70% saldo. L/C, Western Union accettati.'
+
+lead_time_explainer:
+  tagline: 'Pianificazione & schedulazione'
+  title: 'Come la capacità si traduce nella vostra consegna'
+  subtitle: 'La capacità non è un singolo numero — ecco come vengono realmente assegnati i tempi di consegna.'
+  items:
+    - title: 'La capacità varia con la vostra specifica'
+      body: 'Gli slot disponibili si spostano con il tipo di tavola, la complessità costruttiva, l''imballaggio e la domanda stagionale. Durante il build-up primaverile/estivo le linee girano quasi a pieno regime e gli slot per i campioni si esauriscono per primi.'
+    - title: 'Pianificate prima della vostra stagione di lancio'
+      body: 'Definite in anticipo la conferma del campione e il freeze grafico. Gli ordini di ripetizione vengono schedulati nel vostro slot di ripetizione concordato non appena il golden sample viene archiviato.'
+    - title: 'Tre corsie di schedulazione'
+      body: 'I campioni vengono immessi per primi nella linea prototipi, gli ordini iniziali finiscono nella prossima finestra di assemblaggio libera e gli ordini di ripetizione girano nel loro slot di ripetizione.'
+    - title: 'Tempi di consegna vincolanti dopo verifica'
+      body: 'Confermiamo un tempo di consegna vincolante solo dopo che specifica, grafica, imballaggio e quantità sono stati verificati — mai come promessa fissa in anticipo.'
+
+cta:
+  title: 'Verifica la disponibilità produttiva per la tua data di lancio'
+  subtitle: 'Invia tipo di tavola, quantità e data di spedizione target — rispondiamo con la prossima finestra produttiva libera e una stima di consegna vincolante.'
+  actions:
+    - variant: primary
+      text: Verifica la disponibilità
+      href: /contact#production-availability
+    - text: Visualizza la panoramica completa della fabbrica
+      href: /factory
+    - text: Come vengono costruite le tavole
+      href: /factory/process

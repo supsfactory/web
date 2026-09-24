@@ -1082,7 +1082,275 @@ export const GUIDES_DE: Guide[] = [
   },
 ]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE }
+/** Italian variants of the guides (same slugs, translated copy). */
+export const GUIDES_IT: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'Come scegliere il tuo SUP',
+    intro: [
+      'La scelta del tuo primo SUP gonfiabile dipende da dimensioni, larghezza, costruzione e contenuto della confezione. Ecco cosa conta, in parole semplici.',
+    ],
+    sections: [
+      {
+        title: 'Lunghezza e volume',
+        body: 'Le tavole più lunghe (11–12 ft) scorrono di più a ogni colpo di pagaia e mantengono meglio la rotta — ideali per tour e pagaiate di distanza. Le tavole più corte virano più facilmente. Per la maggior parte dei rider, una tavola all-around di 10\'6"–11\'0" è il compromesso migliore.',
+      },
+      {
+        title: 'Larghezza e stabilità',
+        body: 'La larghezza determina la stabilità più di qualsiasi altro fattore. Un deck da 32 inch è indulgente con i principianti e abbastanza stabile per lo yoga; le tavole da 30 inch si adattano a pagaiatori più leggeri o più esperti che cercano velocità e agilità.',
+      },
+      {
+        title: 'Qualità costruttiva',
+        body: "Cerca un nucleo in PVC drop-stitch di grado militare con una pressione nominale di almeno 15 PSI, una laminazione in PVC a doppio strato e fasce rail rinforzate. Sono questi gli elementi che determinano quanto la tavola risulti rigida e quanto duri con l\u2019uso quotidiano.",
+      },
+      {
+        title: 'Cosa dovrebbe essere incluso',
+        body: 'Un pacchetto completo fa risparmiare denaro e fastidi: tavola, pagaia regolabile in 3 pezzi, pompa a doppia azione con manometro, leash a spirale, pinna/e, zaino da viaggio e kit di riparazione.',
+      },
+    ],
+    faqs: [
+      { q: 'Quanto deve essere grande una tavola SUP?', a: 'La maggior parte dei principianti sceglie una tavola all-around di circa 11\'0" × 32" × 6" — stabile, versatile e facile da trasportare. I rider più pesanti o chi punta alle distanze dovrebbe scegliere una taglia in più.' },
+      { q: 'Un SUP gonfiabile è rigido come una tavola rigida?', a: 'Un drop-stitch gonfiabile moderno a 15–20 PSI si avvicina a una tavola rigida entry-level in termini di rigidità — con il vantaggio di stare in uno zaino.' },
+    ],
+    related: [
+      { label: 'Le nostre piattaforme SUP', href: '/products' },
+      { label: 'Gonfiabile vs tavola rigida', href: '/inflatable-vs-hardboard' },
+      { label: 'Produzione OEM', href: '/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Guida alla pagaiata per principianti',
+    intro: [
+      'Tutto ciò che ti serve per le tue prime sessioni in acqua: gonfiaggio, il primo passo in piedi, la pagaiata di base e come restare al sicuro mentre acquisisci sicurezza.',
+    ],
+    sections: [
+      {
+        title: 'Gonfiare al valore nominale, non a sensazione',
+        body: "Gonfia alla pressione indicata (di norma 15 PSI) usando il manometro della tua pompa. Una tavola a 10 PSI sembra a posto sull\u2019erba, ma si deforma parecchio in acqua. Controlla la pressione nelle giornate calde — il sole riscalda l\u2019aria all\u2019interno e fa salire la pressione.",
+      },
+      {
+        title: 'I primi passi sulla tavola',
+        body: "Parti dalla spiaggia o da un accesso poco profondo: prima in ginocchio, poi in piedi un piede alla volta sopra la linea centrale. Tieni i piedi alla larghezza delle spalle, le ginocchia morbide e lo sguardo sull\u2019orizzonte — la tua tavola segue i tuoi occhi.",
+      },
+      {
+        title: 'La pagaiata di base',
+        body: 'Allunga la pagaia ben in avanti, immergi completamente la pala e tira lungo la tavola ruotando il busto. Cambia lato ogni pochi colpi per andare dritto; per virare bastano un paio di ampie pagaiate su un lato.',
+      },
+      {
+        title: 'Esercitati prima di tutto a cadere',
+        body: "Cadere in acqua fa parte dell\u2019apprendimento. Esercita la risalita in acque basse: nuota fino alla maniglia centrale, spingi le gambe verso la superficie e tirati su sulla tavola in un solo movimento.",
+      },
+    ],
+    faqs: [
+      { q: 'Quanto tempo ci vuole per imparare il SUP?', a: "La maggior parte delle persone riesce a pagaiare comodamente su acqua calma già nella prima sessione di un\u2019ora. La sicurezza nelle virate, col vento e nella distanza cresce nel corso di poche sessioni." },
+      { q: 'Devo essere in forma?', a: 'No — il SUP è molto accessibile. Equilibrio, forza del core e resistenza si sviluppano in modo del tutto naturale con la pagaiata regolare.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Gonfiabile vs tavola rigida',
+    intro: [
+      'Le due famiglie di costruzione vincono ognuna in scenari diversi. Ecco il confronto onesto per pagaiatori ricreativi, club e operatori di noleggio.',
+    ],
+    sections: [
+      {
+        title: 'Portabilità e stoccaggio',
+        body: "Le tavole gonfiabili si piegano in uno zaino che sta nel bagagliaio, nel camper o nell\u2019armadio di casa — e sono la scelta standard per i viaggi. Le tavole rigide richiedono portapacchi, spazio di stoccaggio e una gestione più accurata.",
+      },
+      {
+        title: 'Rigidità e prestazioni',
+        body: 'Le hardboard premium sono più rigide e reagiscono in modo più diretto ad alti livelli di prestazione. A velocità ricreative, un drop-stitch gonfiabile ben costruito a 15–20 PSI offre prestazioni comparabili — a una frazione dei costi di stoccaggio.',
+      },
+      {
+        title: 'Durata',
+        body: "Le tavole gonfiabili in PVC sopportano graffi da pontile e urti sulla riva che spaccherebbero un guscio rigido — un motivo centrale per cui le flotte di noleggio e i resort scelgono i gonfiabili per l\u2019uso quotidiano degli ospiti.",
+      },
+      {
+        title: 'Costo totale di proprietà',
+        body: 'Le tavole gonfiabili costano meno in spedizione, stoccaggio e manutenzione e sopravvivono a un trattamento più rude. Per la maggior parte degli utenti e delle flotte, una tavola gonfiabile è il miglior rapporto qualità-prezzo complessivo.',
+      },
+    ],
+    faqs: [
+      { q: "Qual è il migliore per i principianti?", a: 'Le tavole gonfiabili — stabili, indulgenti, facili da stoccare e abbastanza durature per i graffi che causano i principianti.' },
+      { q: 'Un SUP gonfiabile può essere veloce come una tavola rigida?', a: 'A velocità ricreative la differenza è minima. Le tavole rigide vincono chiaramente solo in gara e negli scenari ad alte prestazioni.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Consigli di sicurezza in acqua',
+    intro: [
+      'Una sessione sicura è una sessione piacevole. Queste basi valgono allo stesso modo per laghi, fiumi e pagaiata costiera.',
+    ],
+    sections: [
+      {
+        title: 'Controllare vento e previsioni',
+        body: 'Il vento offshore è la classica trappola del SUP: ti spinge lontano dalla riva più velocemente di quanto tu possa pagaiare per tornare indietro. Controlla le previsioni e, in caso di dubbio, resta in acque riparate.',
+      },
+      {
+        title: 'Indossare sempre il leash',
+        body: 'Un leash a spirale tiene la tua tavola a portata di mano in caso di caduta — la tavola è il tuo dispositivo di galleggiamento. Scegli un leash adatto alle tue condizioni: a spirale per le acque calme, dritto per il surf.',
+      },
+      {
+        title: 'PFD e sicurezza personale',
+        body: "Indossa un dispositivo di galleggiamento quando le condizioni lo richiedono o le normative lo impongono. Porta con te un fischietto, comunica a qualcuno il tuo percorso e l\u2019orario di ritorno e valuta di tenere un telefono in una custodia impermeabile.",
+      },
+      {
+        title: 'Conosci i tuoi limiti',
+        body: "Fai esperienza su acque calme prima di affrontare vento o corrente. Rispetta l\u2019acqua fredda — sottrae forze rapidamente. E non pagaiare mai da solo in zone remote o in acque aperte senza un piano.",
+      },
+    ],
+    faqs: [
+      { q: 'Devo indossare un giubbotto di salvataggio su un SUP?', a: "I requisiti variano da paese a paese e da via d\u2019acqua a via d\u2019acqua. Anche dove è facoltativo, leash più dispositivo di galleggiamento rappresentano la base responsabile, e i bambini dovrebbero sempre indossare un giubbotto di salvataggio ben aderente." },
+      { q: 'È sicuro fare SUP in un lago?', a: 'Sì — i laghi calmi sono ideali per imparare. Controlla la direzione del vento, resta visibile al traffico di barche ed evita le rotte di navigazione molto frequentate.' },
+    ],
+    related: [
+      { label: 'Equipaggiamento di sicurezza sulle nostre piattaforme', href: '/products' },
+      { label: 'Controllo qualità in produzione', href: '/quality' },
+      { label: 'Scegli la tua prima tavola', href: '/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Come scegliere una fabbrica OEM di SUP personalizzati',
+    intro: [
+      'Acquistare paddleboard gonfiabili con il proprio marchio si riduce a una decisione: a quale fabbrica affidare la tua prima partita. Ecco come valutare un produttore di SUP personalizzati prima di emettere un ordine (PO).',
+    ],
+    sections: [
+      {
+        title: 'Inizia con un ordine di prova, non con una discussione sul MOQ',
+        body: 'Una fabbrica che parla solo di quantità minime è un segnale di una scrivania commerciale, non di una vera azienda. Le vere fabbriche offrono minimi a scaglioni — co-branding da 5–10 unità, partite pilota da 20–50 unità, run di volume standard da 90–100+ per rotolo da 150 m e progetti con stampo completamente personalizzato allo scaglione volume. Ordina per prima una piccola partita: testa comunicazione, disciplina delle specifiche e qualità dei campioni senza rischiare tutto il tuo lancio.',
+      },
+      {
+        title: 'Verifica cosa è realmente in-house',
+        body: 'La produzione di un SUP drop-stitch comprende quattro fasi centrali: laminazione del materiale, saldatura, stampa e assemblaggio. Una vera fabbrica le esegue tutte sotto lo stesso tetto e ti consente di verificare il reparto. Se il venditore non può mostrarti una linea di produzione, probabilmente stai acquistando tramite un intermediario senza controllo sulla qualità o sui tempi di consegna.',
+      },
+      {
+        title: 'I campioni devono corrispondere alla produzione di serie',
+        body: 'Un campione rifinito a mano è facile; una produzione di serie costante è difficile. Chiedi come la fabbrica controlla la ripetibilità: protocolli dei lotti di materiale, parametri di saldatura e una checklist di QC che venga applicata a ogni singola tavola — non solo a quella che approvi.',
+      },
+      {
+        title: 'Conosci i tuoi costi prima del PO',
+        body: 'Ottieni per iscritto il quadro completo dei costi: prezzo unitario per quantità, costi di attrezzaggio o stampo se desideri una nuova forma, predisposizione di artwork e stampa, e imballaggio.',
+      },
+      {
+        title: "Chiedi un\u2019ispezione di terze parti",
+        body: 'Le fabbriche OEM di SUP affidabili accolgono favorevolmente le ispezioni pre-spedizione — molti marchi prenotano una visita QC indipendente per ogni container. Conferma che la fabbrica possa organizzare ispezioni su campioni e run di produzione e che le unità respinte (ad esempio tavole che perdono più del 5 % di pressione) vengano escluse dal lotto.',
+      },
+      {
+        title: 'Tempi di consegna che reggono',
+        body: 'Per i SUP gonfiabili, calcola campioni in 7–12 giorni e produzione di serie in 25–35 giorni dopo PO confermata e acconto, più il tempo di attrezzaggio quando ordini un nuovo stampo. Una fabbrica che dichiara tempi nettamente più brevi di tutti gli altri cita da un catalogo, non da una pianificazione.',
+      },
+    ],
+    faqs: [
+      { q: "Qual è la quantità minima d\u2019ordine per le tavole SUP personalizzate?", a: 'I minimi a scaglioni sono lo standard: 1–2 unità per i campioni, 5–10 unità per il co-branding, 20–50 unità per una partita pilota e 90–100+ unità per rotolo da 150 m per il volume standard; i progetti con stampo completamente personalizzato sono allo scaglione volume.' },
+      { q: 'Posso vedere un campione prima della produzione di serie?', a: 'Sì — i campioni sono pronti in 7–12 giorni. La maggior parte delle fabbriche accredita i costi di campione e stampo sul tuo primo ordine di produzione, una volta confermato.' },
+      { q: 'Come verifico che una fabbrica di SUP sia reale?', a: 'Chiedi una video-visita in diretta del reparto produttivo, verifica un indirizzo di stabilimento operativo a Qingdao o in un altro polo manifatturiero e richiedi la documentazione dei precedenti ordini di esportazione. Gli ordini di prova sono la prova definitiva.' },
+      { q: 'Cosa deve includere un preventivo di una fabbrica di SUP?', a: "Prezzo unitario per tavola, costi di attrezzaggio o stampo, predisposizione dell\u2019artwork, imballaggio, condizioni di QC e ispezione e condizioni di pagamento." },
+    ],
+    related: [
+      { label: 'La nostra produzione OEM / ODM', href: '/oem-manufacturing' },
+      { label: 'Processo di sviluppo del prodotto SUP', href: '/product-development' },
+      { label: 'Capacità e stabilimento', href: '/factory' },
+      { label: 'Come controlliamo la qualità — 7 gate di ispezione', href: '/quality' },
+      { label: 'Guida a MOQ e branding flessibile (PDF)', href: '/oem-moq-guide' },
+      { label: 'Fiducia e garanzia dello stabilimento', href: '/oem-trust-assurance' },
+      { label: 'Avvia il tuo progetto SUP personalizzato', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'SUP a marchio privato: cosa ottieni realmente da una fabbrica',
+    intro: [
+      'Il private label è il modo più rapido per lanciare un marchio SUP: il tuo logo su una piattaforma collaudata, senza i costi e i rischi di progettare una tavola da zero. Ecco cosa comprende realmente la collaborazione con un produttore di SUP personalizzati.',
+    ],
+    sections: [
+      {
+        title: 'Private label significa piattaforme collaudate',
+        body: 'Si parte da piattaforme che la fabbrica costruisce e collauda già — all-around, touring, yoga, race e altro. La fabbrica personalizza branding, grafiche e finiture, mantenendo bassi i costi e brevi i tempi di consegna. I minimi sono a scaglioni: co-branding da 5–10 unità, partite pilota da 20–50 unità e 90–100+ unità per rotolo da 150 m per il volume standard di private label.',
+      },
+      {
+        title: 'Il branding va oltre il logo',
+        body: 'Il private label comprende la stampa del tuo logo (digitale o serigrafia), schemi di colore personalizzati, tappetini EVA tagliati su misura con il tuo logo, branding degli accessori (pagaia, pompa, leash), design della scatola retail e persino espositori da punto vendita. Invia le tue grafiche e la fabbrica prepara una prova visiva prima della produzione.',
+      },
+      {
+        title: 'Cosa gestisce la fabbrica per te',
+        body: "Una fabbrica SUP full-service gestisce la predisposizione dell\u2019artwork, l\u2019approvvigionamento dei materiali, la produzione dei campioni, una checklist di QC di assemblaggio a 100 punti, i test di pressione e la documentazione di esportazione (fattura, packing list, certificato di origine). Tu verifichi le prove e approvi il campione — la fabbrica fa tutto il resto.",
+      },
+      {
+        title: 'Ciò che ti appartiene: marchio, mercato, cliente',
+        body: "In un accordo di private label la fabbrica costruisce le tavole e a te appartiene il marchio. I produttori affidabili non vendono le loro tavole con il proprio nome nel tuo mercato né cedono il tuo design personalizzato ad altri. Chiedi l\u2019esclusiva di mercato nel tuo preventivo.",
+      },
+      {
+        title: "Costi: campione, stampo, predisposizione dell\u2019artwork",
+        body: "Conta su tre tipi di costi: spese per il campione (7–12 giorni di produzione), costi di attrezzaggio quando serve un nuovo stampo (minimo allo scaglione volume) e predisposizione dell\u2019artwork per la stampa. La maggior parte delle fabbriche accredita i costi di campione e stampo sul tuo primo ordine di produzione.",
+      },
+      {
+        title: 'Dalla PO alla partita finita',
+        body: "Un run di private label tipico: un acconto del 30 % avvia la produzione, la produzione di serie viene completata in 25–35 giorni dopo PO confermata e acconto e il saldo viene compensato con la partita approvata. Includi l\u2019intero run nel tuo primo ordine.",
+      },
+    ],
+    faqs: [
+      { q: "Qual è la quantità minima d\u2019ordine per tavole SUP a marchio privato?", a: 'Il co-branding parte da 5–10 unità, le partite pilota da 20–50 unità e il volume standard di private label da 90–100+ unità per rotolo da 150 m; i progetti con stampo completamente personalizzato sono allo scaglione volume.' },
+      { q: 'Posso inviare il mio logo e le mie grafiche?', a: 'Sì — invia il tuo logo e le tue grafiche; la fabbrica prepara una prova visiva prima della produzione, così approvi colori, posizionamento e finitura.' },
+      { q: 'Il mio design SUP personalizzato è esclusivo del mio marchio?', a: 'Sì, alle condizioni standard di private label. Richiedi una clausola di esclusività nel tuo contratto di acquisto; fabbriche come la nostra non rivendono il tuo design con il tuo marchio.' },
+      { q: 'Quanto tempo richiede un ordine SUP a marchio privato?', a: 'I campioni vengono spediti in 7–12 giorni; la produzione di serie si completa in 25–35 giorni dopo PO confermata e acconto. Prevedi 8–12 settimane per il primo run completo.' },
+    ],
+    related: [
+      { label: 'Soluzioni SUP a marchio privato', href: '/solutions/private-label-sup' },
+      { label: 'Piattaforme collaudate', href: '/products/all-around' },
+      { label: 'Produzione OEM / ODM', href: '/oem-manufacturing' },
+      { label: 'Avvia il tuo progetto SUP personalizzato', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'Acquistare flotte SUP per il noleggio, resort e club',
+    intro: [
+      'Chi acquista flotte ha bisogno di risposte diverse dagli utenti finali: durata per sessione, ricambi standardizzati, quantità a livello volume e un fornitore che consegni stagione dopo stagione. Ecco cosa pianificare prima di ordinare la tua prima flotta.',
+    ],
+    sections: [
+      {
+        title: 'Standardizzare su una o due specifiche',
+        body: 'Il business delle flotte si basa sulla standardizzazione: una dimensione di tavola (di norma 10\'6"–11\'0" × 32") per la maggior parte degli ospiti, un pacchetto robusto, un kit di ricambi. Semplifica riparazioni, formazione del personale, stoccaggio e riordini. Resisti alla tentazione di comprare dieci modelli diversi.',
+      },
+      {
+        title: 'Le tavole ad alto utilizzo sono un prodotto diverso',
+        body: 'Una tavola da noleggio regge decine di sessioni a stagione. Specifica strati di PVC più spessi, fasce rail rinforzate e accessori più robusti rispetto alle tavole retail. Chiedi alla fabbrica come la specifica da flotta differisce dalla versione consumer — i veri impianti hanno entrambe.',
+      },
+      {
+        title: 'Adattare le quantità alla domanda',
+        body: 'Calcola la dimensione della tua flotta in base alla rotazione giornaliera e alla durata della stagione: 20–30 tavole servono un piccolo punto vendita, 100+ un resort o un club molto frequentato. Chiedi alla fabbrica una raccomandazione sulle quantità adatta al tuo modello di domanda.',
+      },
+      {
+        title: 'Ordinare i ricambi insieme alla flotta',
+        body: 'Ordina valvole di ricambio, kit di riparazione, pompe, leash e pagaie nello stesso PO — costano poco a unità adesso e sono difficili da reperire a metà stagione. Chiedi alla fabbrica una quota di ricambi consigliata (di norma il 5–10 % della dimensione della flotta per i materiali di consumo).',
+      },
+      {
+        title: 'Ordinare per la stagione, non durante',
+        body: 'La produzione richiede 25–35 giorni dopo PO confermata e acconto. Per avere le tavole in spiaggia in primavera, conferma gli ordini nel tardo autunno, così la produzione arriva prima della stagione.',
+      },
+      {
+        title: 'Brandizzare la flotta per il valore di rivendita',
+        body: "Le tavole da flotta possono portare il tuo logo, un sistema di numerazione per il noleggio e un codice colore per dimensione. I loghi serigrafati su run da 200+ unità sono convenienti, e una flotta brandizzata funziona anche come marketing sull\u2019acqua.",
+      },
+    ],
+    faqs: [
+      { q: "Qual è il miglior SUP per una flotta di noleggio?", a: "Una tavola all-around da 10\'6\"–11\'0\" × 32\" con costruzione rinforzata è lo standard del settore — stabile per i principianti, duratura per l\u2019uso quotidiano e facile da manutenere." },
+      { q: "Di quante tavole ha bisogno un\u2019attività di noleggio?", a: 'Prevedi 20–30 tavole per un piccolo punto vendita, scalando con la rotazione: 100+ unità per resort e club molto frequentati. I ricambi dovrebbero corrispondere al 5–10 % della dimensione della flotta.' },
+      { q: 'Le tavole della flotta possono avere il nostro logo?', a: 'Sì — loghi serigrafati, numerazione del noleggio e deck con codici colore sono personalizzazioni standard, particolarmente convenienti da 200 unità in su.' },
+      { q: 'Quanto tempo richiede un ordine di flotta?', a: "Campioni in 7–12 giorni, produzione in 25–35 giorni dopo PO confermata e acconto — quindi ordina le flotte ben prima dell\u2019inizio della stagione." },
+    ],
+    related: [
+      { label: 'Soluzioni per resort e club', href: '/solutions/resort-sup' },
+      { label: 'Case study: flotta di noleggio in più sedi', href: '/projects/rental-fleet-multi-site' },
+      { label: 'Piattaforme per flotte', href: '/products/all-around' },
+      { label: 'Parla con uno specialista di progetto', href: '/contact' },
+    ],
+  },
+]
+
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -1236,6 +1504,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'SUP-Flotten kaufen',
       intro:
         'Flottenplanung für Verleih, Resorts und Clubs: strapazierfähige Spezifikation, Mengen pro Container, Ersatzteile und Saisonalität.',
+    },
+  ],
+  it: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'Come scegliere il tuo SUP',
+      intro:
+        'La scelta del tuo primo SUP gonfiabile dipende da dimensioni, larghezza, costruzione e contenuto della confezione. Ecco cosa conta, in parole semplici.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Guida alla pagaiata per principianti',
+      intro:
+        'Tutto ciò che ti serve per le tue prime sessioni in acqua: gonfiaggio, il primo passo in piedi, la pagaiata di base e sicurezza.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Gonfiabile vs tavola rigida',
+      intro:
+        'Le due famiglie di costruzione vincono ognuna in scenari diversi. Ecco il confronto onesto per pagaiatori ricreativi, club e operatori di noleggio.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Consigli di sicurezza in acqua',
+      intro:
+        'Una sessione sicura è una sessione piacevole. Queste basi valgono allo stesso modo per laghi, fiumi e pagaiata costiera.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Come scegliere una fabbrica OEM di SUP personalizzati',
+      intro:
+        'Come valutare un produttore di SUP personalizzati prima di emettere un ordine: ordine di prova, produzione interna, campioni, costi e ispezione.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'SUP a marchio privato',
+      intro:
+        'Cosa comprende realmente un accordo di private label: piattaforme collaudate, branding completo, costi, esclusiva e tempi di consegna.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'Acquistare flotte SUP',
+      intro:
+        'Pianificazione di flotte per noleggio, resort e club: specifica robusta, quantità per container, ricambi e stagionalità.',
     },
   ],
 }

@@ -1,0 +1,127 @@
+meta:
+  title: 'Guida all''onboarding OEM — passo dopo passo dal primo contatto alla produzione | SUPsfactory'
+  description: 'Guida all''onboarding OEM: NDA, verifica di fattibilità, produzione di campioni, approvazione, pianificazione della pre-produzione, QC di produzione e spedizione. Passo per passo con le tempistiche.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'Guida all''onboarding OEM'
+    - 'Processo di produzione SUP'
+    - 'Onboarding acquirente OEM'
+    - 'Processo fabbrica SUP'
+    - 'Fasi degli ordini SUP personalizzati'
+    - 'Processo campioni OEM'
+    - 'Tempi di produzione SUP'
+
+hero:
+  tagline: 'Onboarding acquirente OEM'
+  title: 'Il tuo primo ordine SUP, passo dopo passo'
+  subtitle: 'Dal primo contatto alle tavole consegnate, il processo di onboarding OEM presso SUPsfactory passa attraverso sette gate definiti — ognuno con una tempistica chiara, un esito documentato e un punto di controllo go/no-go. Nessuna ambiguità, nessun passaggio nascosto, nessuna sorpresa dopo l''acconto.'
+  actions:
+    - variant: primary
+      text: Avvia il briefing del tuo progetto
+      href: /it/contact#project-brief
+    - text: Confronta i percorsi OEM, ODM e Private Label
+      href: /it/oem-odm-private-label-comparison
+
+answer:
+  label: 'Risposta breve'
+  text: 'Un onboarding OEM tipico richiede 2–4 settimane per l''approvazione del campione e 6–8 settimane per il primo ciclo di produzione dal conferimento dell''ordine. Inizi con un briefing di progetto (specifiche della tavola, quantità, requisiti di conformità). Rispondiamo entro un giorno lavorativo, offriamo una NDA prima dello scambio di dettagli proprietari e produciamo 1–2 campioni fisici in 7–12 giorni per la tua valutazione e approvazione. Una volta congelato il campione, seguono la pianificazione della produzione e la produzione con gate di QC fissi in ogni fase. Ogni passaggio è documentato e rintracciabile.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: I sette gate
+  title: 'Percorso di onboarding — sette gate dal briefing alla consegna'
+  subtitle: 'Ogni gate ha un input definito, un output definito e una tempistica concordata in anticipo. Non superi nessun gate senza un''approvazione esplicita.'
+  steps:
+    - step: 'Gate 1'
+      title: 'Prima richiesta & NDA (Giorno 0)'
+      desc: 'Invia tramite /contact un briefing di progetto con le tue specifiche obiettivo della tavola, la quantità dell''ordine, i requisiti di conformità e il calendario. Una NDA è disponibile immediatamente — prima di condividere specifiche tecniche proprietarie o artwork. Risposta entro un giorno lavorativo.'
+    - step: 'Gate 2'
+      title: 'Verifica di fattibilità & offerta (Giorno 1–5)'
+      desc: 'L''ingegneria verifica il tuo briefing rispetto a capacità produttiva, disponibilità dei materiali e ambito di conformità. Ricevi un''offerta voce per voce con calcolo del MOQ, costi dei campioni (accreditati sulla produzione) e ripartizione dei tempi di consegna — nessun intervallo approssimativo, ma un programma gate per gate.'
+    - step: 'Gate 3'
+      title: 'Produzione dei campioni (Giorno 6–17)'
+      desc: '1–2 tavole fisiche secondo la tua specifica: rigidità dello scafo, aderenza del pad antiscivolo in EVA, fedeltà grafica, vestibilità degli accessori. Tu provi e valuti la tavola prima di impegnarti su qualsiasi cosa definitiva. I costi dei campioni vengono accreditati sull''ordine di produzione alla firma del contratto.'
+    - step: 'Gate 4'
+      title: 'Revisione del campione & approvazione (Giorno 18–21)'
+      desc: 'Valuti il campione rispetto alla tua specifica — sensazione di guida, fedeltà grafica, imballaggio, accessori. Le modifiche vengono incorporate in una BOM rivista e in un''approvazione dell''artwork. La specifica congelata diventa il riferimento di produzione per tutti i cicli successivi.'
+    - step: 'Gate 5'
+      title: 'Pianificazione della pre-produzione (Giorno 22–28)'
+      desc: 'Approvvigionamento dei materiali, impostazione degli stampi, conferma dell''imballaggio e prenotazione dello slot di produzione. Tutti i materiali vengono controllati all''ingresso rispetto alla BOM congelata. Prima dell''inizio della produzione viene emesso un piano di produzione con le date dei gate di QC.'
+    - step: 'Gate 6'
+      title: 'Produzione & gate di QC (Giorno 29–55)'
+      desc: 'La produzione passa attraverso il sistema a 7 gate di ispezione: controllo all''ingresso, controllo del tessuto drop-stitch, saldatura & assemblaggio, test di pressione e tenuta (18,0 PSI di tenuta, scarto automatico oltre 0,50 PSI), montaggio del pad EVA & accessori, QC grafica & branding, imballaggio finale & documentazione. Ogni gate ha criteri superato/non superato e protocolli di tracciabilità.'
+    - step: 'Gate 7'
+      title: 'Spedizione & valutazione post-consegna (Giorno 56–63)'
+      desc: 'Imballaggio pronto per l''export, documentazione di conformità (CE, ISO 9001, BSCI, REACH, RoHS) e coordinamento del trasporto marittimo verso oltre 50 paesi. Una valutazione post-consegna cattura gli insegnamenti e i miglioramenti per il ciclo d''ordine successivo.'
+
+collaboration_modes:
+  tagline: 'Scegli la tua strada'
+  title: 'Tre modalità di collaborazione, un processo di onboarding'
+  subtitle: 'Ogni nuovo acquirente attraversa lo stesso onboarding a sette gate — ciò che cambia è la portata del coinvolgimento ingegneristico e dove risiede la proprietà del IP.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Produzione OEM'
+      desc: 'Fornisci la specifica di design completa — forma dello scafo, costruzione, grafica, accessori. Produciamo secondo la tua specifica. Possiedi tutto il IP. Ideale per marchi con una linea di prodotto esistente e una geometria della tavola collaudata.'
+      link_label: 'Come funziona OEM'
+      href: /it/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Sviluppo ODM'
+      desc: 'Fornisci il briefing — peso target del rider, uso previsto, fascia di prezzo — e il nostro team tecnico sviluppa la tavola a partire dalle tue esigenze. Piattaforma adattata con il tuo branding. Ideale per marchi senza capacità di design interna che entrano nel mercato.'
+      link_label: 'Come funziona ODM'
+      href: /it/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Metti il tuo marchio su una piattaforma comprovata sul campo — nessuna fase di ingegneria necessaria. Il tuo logo su nose o rail laterali da sole 5–10 unità. Ideale per operatori e distributori che vogliono tavole con marchio senza ciclo di sviluppo.'
+      link_label: 'Opzioni Private Label'
+      href: /it/solutions/private-label-sup
+
+checklist:
+  heading: 'Cosa preparare prima del briefing del tuo progetto'
+  body: |
+    Più completo è il tuo briefing, più rapida e accurata sarà l'offerta. Ecco come prepararti:
+
+    - **Specifiche della tavola** — lunghezza, larghezza e spessore target, intervallo di peso del rider e uso previsto (touring, allround, surf, pesca, yoga ecc.). Se hai misure di riferimento o un modello della concorrenza, includile.
+    - **File di design** — artwork vettoriale (AI, SVG o PDF) per la grafica della tavola, il logo del pad EVA e il branding secondario. Se l'artwork non è ancora pronto, per la prima fattibilità bastano una mood-board o immagini di riferimento.
+    - **Quantità & tempistiche** — la tua quantità target per il primo ordine e il calendario di stagione da rispettare. Anche un intervallo approssimativo („20–50 tavole entro marzo") serve a confermare fattibilità e disponibilità degli slot.
+    - **Requisiti di conformità** — mercati target (UE, Nord America, Australia ecc.) ed eventuali requisiti di certificazione o test oltre il nostro standard (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **Budget** — un budget indicativo per tavola o un costo a terra obiettivo ci aiuta a consigliare la piattaforma e il livello di costruzione giusti. Il prezzo esatto viene confermato solo dopo la verifica tecnica — mai prima.
+
+    Se non hai ancora tutto, invia quello che hai. Ti guidiamo noi per il resto.
+
+evidence_review:
+  tagline: 'Prove & verifica'
+  title: 'SPECIFICHE VERIFICATE'
+  body: 'Tutte le dichiarazioni di produzione in questa pagina sono verificate dal nostro Manufacturing Engineering Team presso lo stabilimento di Laixi, Qingdao. Certificati, protocolli di ispezione QC, test di pressione e strutturali e registri di tracciabilità dei lotti sono disponibili su richiesta. Specifiche verificate l''ultima volta: settembre 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Onboarding OEM — domande frequenti'
+  items:
+    - q: 'Quanto dura l''intero processo di onboarding?'
+      a: 'L''approvazione del campione richiede in genere 2–4 settimane (incluse la produzione del campione in 7–12 giorni e la tua fase di revisione). Il primo ciclo di produzione richiede 6–8 settimane dall''ordine confermato e dall''acconto. Un nuovo stampo dello scafo aggiunge 15–20 giorni di costruzione dello stampo. Ogni gate ha una tempistica concordata in anticipo.'
+    - q: 'Devo firmare una NDA prima di condividere il mio design?'
+      a: 'Una NDA è disponibile immediatamente su richiesta — prima di condividere specifiche tecniche proprietarie o artwork. Produciamo esclusivamente con i marchi dei nostri clienti e non competiamo con loro in nessun mercato. La stessa politica vale per un singolo campione come per un programma a container.'
+    - q: 'Qual è la quantità minima di ordine per un primo ciclo OEM?'
+      a: 'L''ingresso è scaglionato: prima 1–2 campioni (disponibili in 7–12 giorni), poi un ordine di prova o pilota di 20–50 tavole (produzione in 25–35 giorni), quindi cicli di quantità standard di 90–100+ tavole per configurazione approvata. Il co-branding in piccoli lotti parte da 5–10 unità se non serve una fase di sviluppo. I costi dei campioni vengono accreditati sull''ordine di produzione.'
+    - q: 'Come viene gestita la protezione del IP durante l''onboarding?'
+      a: 'I tuoi design e le tue specifiche sono protetti dalla NDA firmata prima dello scambio di informazioni proprietarie. Tutti gli artwork, i dati della BOM e i file tecnici sono conservati in sistemi ad accesso controllato con audit trail. In modalità OEM possiedi tutto il IP. In modalità ODM il IP della piattaforma adattata è condiviso come concordato. In modalità Private Label il IP appartiene a SUPsfactory e tu ottieni in licenza l''applicazione del marchio.'
+    - q: 'Quali garanzie di qualità valgono per un primo ordine?'
+      a: 'Ogni tavola — campione, prova o quantità — passa attraverso lo stesso sistema a 7 gate di ispezione: controllo all''ingresso, controllo del tessuto drop-stitch, saldatura & assemblaggio, test di pressione e tenuta di 24 ore (18,0 PSI di tenuta, scarto automatico oltre 0,50 PSI), montaggio del pad EVA & accessori, QC grafica & branding, imballaggio finale & documentazione. La qualità non viene mai ridotta per gli ordini più piccoli.'
+    - q: 'Qual è il primo passo pratico?'
+      a: 'Compila /it/contact#project-brief con le specifiche della tavola, la quantità target e le tempistiche. Rispondiamo entro un giorno lavorativo con la verifica di fattibilità e un''offerta voce per voce. Tutto il resto del processo è documentato gate per gate, dalla NDA alla consegna.'
+
+cta:
+  title: 'Pronto a iniziare il tuo progetto SUP?'
+  subtitle: 'Inviaci le specifiche della tua tavola, la quantità target e il calendario. Confermiamo la fattibilità, produciamo campioni e forniamo un piano di produzione — gate per gate, con QC documentata in ogni fase.'
+  actions:
+    - variant: primary
+      text: Avvia il briefing del tuo progetto
+      href: /it/contact#project-brief
+    - text: Confronta OEM, ODM e Private Label
+      href: /it/oem-odm-private-label-comparison
+    - text: Verifica la fabbrica e il sistema di qualità
+      href: /it/proof-center

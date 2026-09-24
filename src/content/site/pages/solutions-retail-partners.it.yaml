@@ -1,0 +1,104 @@
+meta:
+  title: 'Produzione SUP personalizzata & private label per rivenditori | {SITE}'
+  description: 'Produzione SUP personalizzata e private label per marche commerciali: specifiche delle tavole, grafiche del marchio, MOQ di test basse e QC di fabbrica — dal campione alla serie.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Marche commerciali
+  title: 'Produzione SUP personalizzata per marche commerciali'
+  subtitle: 'Le marche commerciali lanciano la loro linea di paddleboard con la nostra fabbrica: specifiche delle tavole sviluppate dai tuoi requisiti, il tuo marchio sul prodotto e QC di produzione assunto in modo continuativo.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Tavole SUP Vatrad, prodotte per una marca commerciale
+
+answer:
+  label: 'Risposta breve'
+  text: 'La MOQ viene confermata dalla configurazione del progetto: le marche commerciali partono con un campione (1–2 unità) o una piccola serie pilota (20–50 unità, campioni in 7–12 giorni), scalano a una serie OEM standard di 90–100+ unità per design (25–35 giorni dopo PO e acconto) oppure investono in una forma personalizzata per linee completamente individuali (attrezzaggio aggiunge 15–20 giorni). Ogni tavola viene testata a pressione prima della spedizione, con condizioni FOB, CIF o DDP da Qingdao.'
+  verified: 'Settembre 2026'
+
+margin_section:
+  title: 'Livelli di produzione per marche commerciali'
+  subtitle: 'Parti con un campione, valida con una serie pilota, scala a una serie standard oppure investi in una forma personalizzata — MOQ e tempi di consegna sono determinati dal percorso produttivo, non da rate.'
+  items:
+    - tier: 'Livello campione'
+      moq: '1–2 unità'
+      margin_note: 'Consegna campioni in 7–12 giorni'
+      features:
+        - 'Sviluppo grafico a partire dalle risorse del tuo marchio'
+        - 'Campione fisico per l''approvazione'
+        - 'QC su piattaforma standard'
+    - tier: 'Livello pilota'
+      moq: '20–50 unità'
+      margin_note: 'Validazione di mercato su piattaforme esistenti'
+      features:
+        - 'Grafiche a tutta superficie, logo e layout EVA'
+        - 'Riordini sulle stesse piattaforme approvate'
+        - 'Documentazione export inclusa'
+    - tier: 'Forma personalizzata'
+      moq: 'Confermato dalla configurazione del progetto'
+      margin_note: 'Attrezzaggio aggiunge 15–20 giorni'
+      features:
+        - 'Nuova forma della tavola e sviluppo dello stampo'
+        - 'Pieno controllo delle specifiche'
+        - 'Allocazione produttiva prioritaria'
+
+product_line:
+  title: Assortimento completo
+  subtitle: 'Una piattaforma di produzione per ogni segmento della tua attività.'
+  items:
+    - name: Serie Allround
+      description: 'Forma versatile — la piattaforma di partenza più comune'
+    - name: Serie Touring
+      description: 'Scafo a dislocamento per il paddling di distanza'
+    - name: Serie Yoga
+      description: 'Piattaforma larga e stabile per il settore wellness'
+    - name: Serie Bambini
+      description: 'Tavole corte e leggere per i paddler più giovani'
+    - name: Serie Racing
+      description: 'Scafi veloci per il segmento degli appassionati'
+    - name: Accessori
+      description: 'Pagaie, giubbotti, pompe e borse per completare l''assortimento'
+
+catalog:
+  title: Risorse per i partner commerciali
+  subtitle: 'Specifiche, dettagli di ordinazione e documentazione di prodotto.'
+  items:
+    - name: 'Catalogo prodotti 2026'
+      desc: 'Assortimento completo con specifiche e informazioni di ordinazione'
+      icon: 'tabler:file-text'
+      link: '/it/products'
+    - name: 'Guida per i partner commerciali'
+      desc: 'Guida alle specifiche, processo di ordinazione e standard QC'
+      icon: 'tabler:book'
+      link: '/it/products'
+    - name: 'Asset di prodotto & tecnici'
+      desc: 'Foto prodotto ad alta risoluzione, immagini lifestyle e documentazione tecnica'
+      icon: 'tabler:photo'
+      link: '/it/products'
+
+support:
+  title: Supporto alla produzione
+  subtitle: 'Cosa fa il tuo partner di produzione attorno all''ordine.'
+  items:
+    - 'Campione fisico prima della produzione in serie'
+    - 'Tolleranze e QC: ogni tavola testata a pressione prima della spedizione'
+    - 'Supporto alle specifiche — forme, grafiche, layout EVA, accessori'
+    - 'Consegna della serie in 25–35 giorni dopo PO confermata'
+    - 'Ricambi e istruzioni di riparazione per i tuoi clienti'
+    - 'Export e documentazione: FOB/CIF/DDP da Qingdao'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Approfondisci:</strong> scopri il <a href="/it/oem-manufacturing">programma di produzione OEM/ODM completo</a> — MOQ confermati da progetto attraverso i livelli campione, pilota e serie, branding private label e conformità CE — oppure leggi la <a href="/it/oem-moq-guide">guida MOQ & branding flessibile</a> oppure visita la <a href="/it/factory">fabbrica</a> per vedere come viene implementato il QC pronto per il commercio.</p>
+  </div>
+
+cta:
+  title: 'Discuti la tua linea di prodotti commerciale'
+  subtitle: 'Invia i tuoi requisiti — il nostro team risponde entro un giorno lavorativo.'
+  actions:
+    - text: 'Invia i requisiti'
+      href: '/it/contact'
+      variant: 'primary'
+    - text: 'Vedi le piattaforme di prodotto'
+      href: '/it/products'
+      variant: 'secondary'

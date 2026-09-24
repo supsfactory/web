@@ -1,0 +1,349 @@
+meta:
+  title: 'Controllo delle modifiche & validazione dei parametri di rilavorazione | SUPsfactory'
+  description: 'Controllo delle modifiche dei parametri di rilavorazione sotto ISO 9001: ECR, classificazione del rischio, matrice di rilascio, validazione e nuova verifica per la produzione SUP.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'controllo modifiche rilavorazione sup'
+    - 'controllo modifiche iso 9001 produzione'
+    - 'gestione qualità oem sup gonfiabili'
+    - 'ecr engineering change request sup'
+    - 'standard validazione tenuta all''aria'
+    - 'garanzia qualità fabbrica sup'
+
+hero:
+  tagline: Controllo delle modifiche dei parametri di rilavorazione
+  title: Standard di controllo & validazione delle modifiche dei parametri di processo di rilavorazione
+  subtitle: 'Presso QINGDAO VATRAD GROUP.,LTD. nessun operatore, capo turno o singolo reparto può modificare sul posto un parametro di rilavorazione rilasciato. Ogni modifica proposta a materiali di rilavorazione rilasciati, condizioni di processo, attrezzature, metodi di prova, criteri di ispezione o personale autorizzato viene gestita tramite un controllo delle modifiche documentato — Engineering Change Request, valutazione di impatto e rischio, rilascio interfunzionale, piano di validazione, implementazione controllata, nuova verifica e prova di efficacia, quindi chiusura e conservazione delle registrazioni. Questa pagina presenta il nostro standard controllato QMS-SOP-QC-CC-001 (Rev 2.0, basato su ISO 9001:2015) e le evidenze tecniche alla base.'
+  actions:
+    - text: Scaricare la SOP di controllo modifiche (PDF)
+      variant: primary
+      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Scaricare l''allegato di esecuzione A (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Richiedere un controllo qualità
+      href: /contact
+
+answer:
+  label: 'Risposta chiara'
+  text: 'Le modifiche ai parametri di rilavorazione non vengono mai decise oralmente o retroattivamente presso QINGDAO VATRAD GROUP.,LTD. Ogni modifica proposta a materiali di rilavorazione rilasciati, condizioni di processo, attrezzature, metodi di prova, criteri di ispezione o personale autorizzato deve attraversare un controllo formale delle modifiche prima dell''implementazione: un Engineering Change Request (ECR) documentato, valutazione di impatto e rischio, verifica interfunzionale di progettazione, qualità, produzione, approvvigionamento e progetto, rilascio al livello stabilito dalla nostra matrice di autorizzazione, un piano di validazione rilasciato per le modifiche ad alto rischio, implementazione pilota controllata, nuova verifica e prova di efficacia, nonché chiusura solo dopo revisione documentale e formazione. Ogni modifica che interessa specifiche approvate dal cliente, campioni, BOM, grafiche o criteri di accettazione richiede inoltre il rilascio scritto del cliente.'
+  verified: 'September 2026'
+
+stats:
+  tagline: In sintesi
+  title: Il controllo delle modifiche in cifre
+  stats:
+    - value: '9'
+      label: Fasi nel ciclo chiuso di controllo delle modifiche
+    - value: '6'
+      label: Categorie di modifica che richiedono controllo formale
+    - value: '4'
+      label: Processi di rilavorazione core con parametri quantificati
+    - value: '≥ 5'
+      label: Tavole campione + 2 QC indipendenti per la validazione ad alto rischio
+
+
+cc_intro:
+  tagline: Ambito & politica
+  title: Principi di governance core
+  body: |
+    **Documento:** QMS-SOP-QC-CC-001 — *Standard del controllo delle modifiche per i parametri di processo di rilavorazione* (Rev 2.0, pubblicazione ufficiale). **Produttore:** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Riferimento standard:** ISO 9001:2015 Sistemi di gestione per la qualità.
+
+    - **Niente modifiche non controllate.** Le modifiche ai parametri di rilavorazione devono passare attraverso un controllo formale delle modifiche. Gli operatori sul campo, i capi turno o un singolo reparto non devono mai modificare i parametri di rilavorazione rilasciati con un accordo verbale o una registrazione manoscritta in un verbale di rilavorazione.
+    - **Copertura completa degli elementi.** L''ambito controllato comprende tenuta all''aria, sedi delle valvole, rail band, incollaggio delle cuciture, polimerizzazione ad aria calda e test di mantenimento della pressione — ogni parametro che può influenzare sigillatura, durata strutturale, aspetto, accettazione del cliente o rintracciabilità.
+    - **Il rilascio del cliente come punto centrale.** Ogni modifica che allontana un prodotto dal campione approvato dal cliente, dalla specifica tecnica, dalla BOM, dalla grafica, dal requisito di imballaggio o dai criteri di accettazione viene implementata solo con il rilascio scritto del cliente. Senza di esso, la tavola viene rilavorata, sostituita o respinta secondo il requisito originale — mai "allentata" solo dalla fabbrica.
+
+cc_scope:
+  tagline: Classificazione del rischio
+  title: Ambito delle modifiche & classificazione del rischio
+  subtitle: Ognuna delle seguenti modifiche attiva il controllo formale delle modifiche — non viene mai gestita con una nota nel verbale di rilavorazione. Il livello di rischio determina chi rilascia e quanta validazione è richiesta.
+  headers:
+    category: Categoria di modifica
+    examples: Esempi tipici
+    risk: Rischio
+    requirements: Requisiti di controllo & rilascio
+  rows:
+    - category: 'Materiali di rilavorazione'
+      examples: 'Adesivo, sgrassante, materiale di riparazione, guarnizione valvola, primer o cambio fornitore'
+      risk: 'Alto'
+      requirements: 'Verifica interfunzionale + validazione di compatibilità materiali & mantenimento pressione + rilascio del cliente ove applicabile'
+    - category: 'Condizioni di processo'
+      examples: 'Preparazione della superficie, temperatura/umidità di polimerizzazione ad aria calda, pressione di pressatura, durata del mantenimento'
+      risk: 'Alto'
+      requirements: 'Rilascio di progettazione + qualità con validazione definita delle finestre di temperatura & umidità'
+    - category: 'Attrezzature & strumenti di misura'
+      examples: 'Manometri, rilevatori di perdite, termoelementi ad aria calda, attrezzi per valvole, software di test'
+      risk: 'Medio/Alto'
+      requirements: 'Verifica di validità della calibrazione + valutazione dell''idoneità dell''attrezzatura'
+    - category: 'Ambito del difetto'
+      examples: 'Estensione dell''area di rilavorazione; micro-riparazione superficiale che cresce verso zone critiche di rail, cucitura o sede valvola'
+      risk: 'Alto'
+      requirements: 'Superfici strutturalmente portanti: stop obbligatorio e nuova valutazione'
+    - category: 'Metodi di ispezione'
+      examples: 'Metodo di rilevamento perdite, pressione di prova (18.0 PSI), durata del mantenimento (24h)'
+      risk: 'Alto'
+      requirements: 'Rilascio qualità + conferma dell''accordo tecnico del cliente'
+    - category: 'Documentazione & autorizzazione'
+      examples: 'Istruzione di rilavorazione, fogli di ispezione, logica di disposizione NCR, qualifica operatori'
+      risk: 'Medio'
+      requirements: 'Revisione documentale controllata (Rev A → Rev B) + evidenze di formazione'
+
+cc_containment:
+  tagline: Regola dello stop rigido
+  title: Contenimento immediato quando le condizioni si fanno serie
+  body: |
+    > "Il metodo di rilavorazione esistente deve essere sottoposto a verifica e non applicato a ulteriori prodotti interessati finché la modifica non è valutata e autorizzata, a meno che una deviazione temporanea documentata sia stata approvata da Qualità e Progettazione."
+
+    Il metodo di rilavorazione corrente deve essere sospeso immediatamente se la nuova verifica della rilavorazione continua a fallire, se il difetto interessa zone strutturalmente portanti (base valvola, rail, cuciture, aree di pressione di prua/prua-poppa), se un materiale sostitutivo non è ancora validato o se i parametri correnti collidono con la specifica approvata dal cliente.
+
+    Le deviazioni temporanee non diventano mai prassi permanente: ognuna porta una finestra di validità definita, un ambito di partita applicabile, un tetto di quantità, requisiti di validazione e un meccanismo di scadenza automatica. Un''eccezione verbale non è un''eccezione — se non è documentata con la sua scadenza, non esiste.
+
+cc_flow:
+  tagline: Ciclo chiuso standard in 9 fasi
+  title: Dalla richiesta di modifica alla chiusura e alla conservazione
+  subtitle: 'Un ciclo documentato per ogni modifica dei parametri: proporre, screenare, valutare, rilasciare, validare, pilotare, verificare, rivedere, chiudere.'
+  steps:
+    - step: '01'
+      title: Richiesta di modifica (ECR)
+      desc: 'Ogni reparto può presentare una richiesta, ma la sponsorizzano Progettazione, Qualità o la direzione di produzione. L''ECR risponde al perché della modifica, a cosa cambia, cosa è interessato e come verrà verificato — con numero di controllo modifiche, NCR/CAPA collegato, parametro attuale vs. proposto, partite interessate e classificazione modifica temporanea/permanente.'
+    - step: '02'
+      title: Screening iniziale & contenimento
+      desc: 'La richiesta viene prima screentata per il contenimento immediato: il metodo corrente deve essere fermato ora? Se è consentita una deviazione temporanea, viene limitata da finestra di validità, ambito di partita, tetto di quantità e scadenza automatica.'
+    - step: '03'
+      title: Valutazione di impatto & rischio
+      desc: 'Progettazione, Qualità, Produzione, Approvvigionamento/supply chain e Progetto valutano prestazioni del prodotto, criteri di accettazione, compatibilità dei materiali, aspetto, capacità di processo, attrezzature e strumenti di misura, qualifica del personale, requisiti del cliente, conformità e ambito di rintracciabilità.'
+    - step: '04'
+      title: Verifica congiunta & rilascio
+      desc: 'Il rilascio segue la matrice di autorizzazione fissa — non "chi parla più forte". Le modifiche ad alto rischio richiedono il rilascio interfunzionale e, ove necessario, il rilascio scritto del cliente prima di qualsiasi tentativo.'
+    - step: '05'
+      title: Piano di validazione
+      desc: 'Per le modifiche ad alto rischio è richiesto un piano di validazione rilasciato prima dell''applicazione di routine: tavole campione rappresentative, metodo attuale vs. proposto, metodi di prova, criteri di accettazione, livelli di ispezione, responsabili e tempistica.'
+    - step: '06'
+      title: Pilot controllati & implementazione
+      desc: 'I nuovi documenti vengono rilasciati e le versioni obsolete ritirate e marcate OBSOLETE; nuovi materiali e strumenti di misura vengono verificati e calibrati; gli operatori vengono formati e qualificati; la prima partita gira sotto ispezione rinforzata con chiara marcatura di stato.'
+    - step: '07'
+      title: Nuova verifica & prova di efficacia
+      desc: 'Il tasso di primo passaggio della rilavorazione, il tasso di superamento della nuova verifica, il tasso di ripetizione e l''accettazione dell''aspetto vengono misurati e verificati prima che la modifica sia considerata efficace — una tavola riparata non è mai trattata come validazione di processo.'
+    - step: '08'
+      title: Revisione documentale & formazione
+      desc: 'Istruzioni di lavoro, fogli di ispezione, opzioni di disposizione NCR, schede parametri e materiali di formazione vengono aggiornati alla nuova revisione, con formazione pratica registrata e qualifica dell''operatore.'
+    - step: '09'
+      title: Chiusura & conservazione delle registrazioni
+      desc: 'La modifica viene chiusa solo dopo che evidenze di validazione, aggiornamenti documentali, evidenze di formazione ed efficacia dell''implementazione sono stati verificati e rilasciati. Se il risultato previsto non viene raggiunto, la modifica viene rivista, estesa, sospesa o ritirata.'
+
+cc_approval:
+  tagline: Matrice di rilascio
+  title: Matrice di autorizzazione interfunzionale
+  subtitle: 'Una tabella di autorizzazione fissa previene le decisioni ad hoc: ogni tipo di modifica ha i suoi approvatori richiesti, dalla precisazione a livello documentale al rilascio del cliente.'
+  headers:
+    change: Contenuto della modifica
+    engineering: Progettazione
+    quality: Qualità
+    production: Produzione
+    procurement: Approvvigionamento
+    project: Progetto / Vendite
+    customer: Cliente
+  rows:
+    - change: 'Chiarimento della formulazione documentale (nessun impatto sui parametri)'
+      engineering: Verifica
+      quality: 'Rilascio'
+      production: Notifica
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Regolazione della sequenza operativa di rilavorazione'
+      engineering: 'Rilascio'
+      quality: 'Rilascio'
+      production: Controfirma
+      procurement: '—'
+      project: Notifica
+      customer: Come richiesto
+    - change: 'Nuova qualifica di un operatore di rilavorazione'
+      engineering: Verifica
+      quality: 'Rilascio'
+      production: 'Rilascio'
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Cambio di attrezzature/strumenti di test'
+      engineering: 'Rilascio'
+      quality: 'Rilascio'
+      production: Controfirma
+      procurement: Come necessario
+      project: '—'
+      customer: Come richiesto
+    - change: 'Materiale/fornitore di rilavorazione sostitutivo'
+      engineering: 'Rilascio'
+      quality: 'Rilascio'
+      production: Controfirma
+      procurement: Controfirma
+      project: Notifica
+      customer: Può essere richiesto
+    - change: 'Modifica dei parametri di pressione/mantenimento/polimerizzazione'
+      engineering: 'Rilascio'
+      quality: 'Rilascio'
+      production: Controfirma
+      procurement: '—'
+      project: Notifica
+      customer: Se il progetto lo richiede
+    - change: 'Modifica del metodo di rilavorazione rail/cucitura/sede valvola'
+      engineering: 'Rilascio'
+      quality: 'Rilascio'
+      production: Controfirma
+      procurement: Come necessario
+      project: Notifica
+      customer: In genere raccomandato
+    - change: 'Modifica di specifica cliente, campione di rilascio o criteri di accettazione'
+      engineering: 'Rilascio'
+      quality: 'Rilascio'
+      production: Controfirma
+      procurement: '—'
+      project: Controfirma
+      customer: 'Rilascio scritto obbligatorio'
+
+cc_validation:
+  tagline: Validazione di ingegneria
+  title: Protocollo di validazione & accettazione — evidenze, non affermazioni
+  body: |
+    Una formulazione di accettazione vaga come *"la tavola riparata deve essere buona"* non è accettata. La formulazione controllata è:
+
+    > "Il campione rilavorato deve soddisfare gli stessi criteri di accettazione applicabili di tenuta all''aria, lavorazione visiva, funzione valvola e specifici del progetto di una tavola conforme, a meno che una deviazione approvata dal cliente non definisca espressamente un criterio alternativo."
+
+    Le evidenze di validazione sono quantitative e la baseline tecnica per la rilavorazione di tenuta all''aria comprende:
+
+    - **Eliminazione della perdita & mantenimento della pressione.** La perdita originale viene eliminata senza bolle persistenti nel rilevamento con acqua saponata; la tavola mantiene la pressione alla pressione di prova standard di 18.0 PSI per 24 ore, con calo di pressione netto ΔP ≤ 0.2 PSI dopo compensazione di temperatura/umidità — la baseline più severa per la validazione della rilavorazione, separata dalla soglia di esclusione automatica di 0.50 PSI applicata all''accettazione finale della linea di produzione.
+    - **Funzione valvola.** La coppia del nucleo valvola soddisfa la specifica di 15–20 N·m, senza micro-perdite alla guarnizione sotto gonfiaggio ad alta pressione e pressione dinamica.
+    - **Incollaggio delle cuciture & durata.** I bordi di incollaggio non mostrano sollevamenti, sbiancamenti o delaminazione; dopo i cicli di invecchiamento termico/umidità lo strato adesivo non mostra rammollimento o screpolature fragili.
+    - **Aspetto & lavorazione.** Nessuna sbavatura di adesivo, nessun danno all''EVA, nessuna deformazione della tavola e nessuno spostamento del logo o graffio sulla superficie stampata.
+
+cc_engineering:
+  tagline: Matrice di esecuzione di ingegneria
+  title: Parametri quantificati per i quattro processi di rilavorazione core
+  subtitle: 'Ogni processo di rilavorazione controllato porta parametri definiti, metodologia e criteri di accettazione — gli stessi numeri che seguono i nostri operatori e che i clienti possono verificare durante gli audit.'
+  headers:
+    process: Processo di rilavorazione
+    parameters: Parametri controllati
+    methodology: Metodologia di test
+    acceptance: Criteri di accettazione
+  rows:
+    - process: 'Riparazione di fori di spillo/micro-perdite'
+      parameters: 'Pulizia con solvente & asciugatura 3–5 min; attivazione ad aria calda 60°C ± 5°C; rullo di pressatura ≥ 0.4 MPa'
+      methodology: 'Gonfiare a 18 PSI; immersione completa in acqua o applicazione di sapone; osservare per 10 minuti'
+      acceptance: 'Emissione di bolle pari a zero; abduzione del bordo a 180° senza sollevamenti e senza sbavature di adesivo'
+    - process: 'Ri-incollaggio rail band/cucitura'
+      parameters: 'Rapporto adesivo bicomponente strettamente controllato; ambiente 22–28°C, ≤ 65% umidità relativa; morsa della dima ≥ 4 h'
+      methodology: 'Test di sovrapressione a 22 PSI per 2 h; poi 6 h di cottura in forno a caldo a 50°C e 2 h di riposo a temperatura ambiente'
+      acceptance: 'Separazione pari a zero, screpolature pari a zero; calo di pressione netto ΔP ≤ 0.1 PSI; strato adesivo senza sbiancamenti o infragilimento'
+    - process: 'Allentamento della base valvola / micro-perdita'
+      parameters: 'Coppia dedicata della chiave 18–20 N·m; anello di tenuta piatto senza deformazioni; pulizia della filettatura confermata'
+      methodology: 'Gonfiare a 15 PSI; 20 cicli di gonfiaggio/sfiatamento; osservazione durante l''immersione sott''acqua'
+      acceptance: 'Bolle pari a zero al nucleo valvola e nell''intorno della base; coppia dopo i cicli ≥ 16 N·m'
+    - process: 'Test finale di mantenimento pressione di 24h'
+      parameters: 'Gonfiaggio di riferimento 18.0 PSI; manometro digitale classe 1.0 / ±0.5%; temperatura & umidità ambiente registrate e compensate'
+      methodology: 'Registratore di pressione digitale; curva di pressione continua di 24h'
+      acceptance: 'Calo di pressione netto ΔP ≤ 0.20 PSI / 24 h dopo compensazione; nessuna bombatura o deformazione della tavola'
+
+cc_photos:
+  tagline: Nell''area produttiva
+  title: Riparazione, ritest, rilascio — documentati in ogni passaggio
+  subtitle: Le foto della nostra officina di Qingdao mostrano ogni processo di rilavorazione controllato con i suoi strumenti di misura calibrati, i parametri definiti e le registrazioni in loco — le stesse evidenze che gli ispettori possono richiedere in qualsiasi momento.
+  grid: 'sm:grid-cols-2'
+  features:
+    - image: https://assets.supsfactory.com/site/quality/cc-pinhole-repair.avif
+      alt: Tecnico ripara una micro-perdita da foro di spillo su un SUP gonfiabile con pistola ad aria calda e rullo di pressatura
+      title: Riparazione di fori di spillo
+      desc: 'Un tecnico tratta una micro-perdita marcata con una pistola ad aria calda impostata sulla specifica di 60°C e un rullo di pressatura; l''acqua saponata conferma la posizione della perdita e il modulo ECR firmato da QC sul bancone mostra il gate di controllo modifiche (Poka-Yoke n. 1).'
+    - image: https://assets.supsfactory.com/site/quality/cc-rail-seam-bonding.avif
+      alt: Tecnico applica adesivo PU bicomponente con pennello di precisione su una cucitura del rail sotto clima controllato
+      title: Incollaggio cucitura del rail
+      desc: 'L''adesivo PU bicomponente viene applicato con un pennello di precisione sulla cucitura del rail mentre la tavola è tenuta in una morsa della dima; il termometro/igrometro in loco mostra la finestra controllata di 24°C / 55% umidità relativa.'
+    - image: https://assets.supsfactory.com/site/quality/cc-valve-base-integrity.avif
+      alt: Chiave dinamometrica digitale impostata a 19 N·m che serra il nucleo valvola contro il materiale drop-stitch
+      title: Integrità della base valvola
+      desc: 'Una chiave dinamometrica digitale, impostata sulla specifica di 19 N·m, esegue il serraggio finale del nucleo valvola e sigilla la base contro il materiale drop-stitch — lo strumento porta l''etichetta verde CALIBRATED.'
+    - image: https://assets.supsfactory.com/site/quality/cc-pressure-hold-testing.avif
+      alt: SUP gonfiabili finiti collegati a registratori di pressione digitali nell''area di test finale di mantenimento pressione
+      title: Verifica finale di mantenimento pressione
+      desc: 'Le tavole finite vengono collegate a registratori di pressione digitali ad alta precisione; il manometro master mostra il riferimento di 18.00 PSI e tutti i dati di test vengono caricati automaticamente e collegati al sistema di rintracciabilità contrattuale.'
+
+cc_pokayoke:
+  tagline: Protezione a prova di errore
+  title: 'Poka-Yoke: blocchi rigidi che fermano le modifiche non controllate'
+  subtitle: Lo standard viene applicato non solo tramite procedure ma con blocchi fisici e sistemici che rendono impossibili le modifiche non controllate.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Gate ECR per l''attivazione degli attrezzi
+      desc: 'Le postazioni di rilavorazione leggono un codice a barre ECR firmato da QA prima che le valvole di gonfiaggio pneumatiche e i miscelatori di adesivo si attivino. Nessuna evidenza di controllo modifiche rilasciato, nessuna alimentazione — la firma retroattiva ("prima cambia, poi firma") è fisicamente bloccata.'
+    - icon: 2
+      icon_bg: green
+      title: Scadenza automatica delle deviazioni temporanee
+      desc: 'Le deviazioni temporanee sono cap hard-coded nel sistema (es. massimo 50 tavole o 7 giorni di calendario). Il raggiungimento del tetto blocca la partita e blocca la stampa del tag di passaggio di spedizione finché la modifica non è formalmente valutata.'
+    - icon: 3
+      icon_bg: purple
+      title: Evidenza minima di validazione
+      desc: 'Le modifiche ad alto rischio richiedono almeno 5 tavole campione rappresentative che coprono il limite di tolleranza superiore e inferiore, completamente testate da 2 ispettori QC indipendenti prima che possa essere emesso un report di validazione — una tavola riparata non è mai trattata come validazione di processo.'
+    - icon: 4
+      icon_bg: orange
+      title: Controllo documentale 1-in-1-out
+      desc: 'Le schede obsolete delle postazioni di lavoro vengono fisicamente ritirate e invalidate (perforate) prima che la nuova scheda venga emessa timbrata con il sigillo rosso controllato — vecchie e nuove versioni non condividono mai una postazione di lavoro.'
+
+cc_downloads:
+  tagline: Documenti QMS scaricabili
+  title: Documenti bilingue controllati (PDF)
+  subtitle: Documenti ufficiali bilingue EN/ZH di QINGDAO VATRAD GROUP.,LTD. — pronti per audit dei clienti, white paper tecnici B2B e distribuzione controllata sul piano di produzione.
+  features:
+    - icon: S
+      icon_bg: blue
+      title: SOP di controllo modifiche di rilavorazione (PDF)
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: tabella di classificazione delle modifiche, matrice di autorizzazione interfunzionale, parametri tecnici di validazione, linee rosse di contenimento e blocchi di firma qualità.'
+      link: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: Scaricare PDF
+    - icon: A
+      icon_bg: green
+      title: Allegato di esecuzione A (PDF)
+      desc: 'Schema dati ECR, matrice di esecuzione tecnica quantificata per i quattro processi di rilavorazione core, logica dei blocchi Poka-Yoke e blocco firma di rilascio a tre parti.'
+      link: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: Scaricare PDF
+    - icon: R
+      icon_bg: purple
+      title: Governance della rilavorazione controllata (pagina)
+      desc: 'Pagina di riferimento per il sistema di rilavorazione di tenuta all''aria: classificazione dei difetti A–G, schede metodo rilasciate MC-RW-01 fino a MC-RW-06 e il workflow di rilavorazione controllata in 7 fasi.'
+      link: '/it/factory/quality-inspection'
+      link_label: Visualizza pagina
+    - icon: N
+      icon_bg: orange
+      title: Controllo dei prodotti non conformi (pagina)
+      desc: 'ISO 9001:2015 sezione 8.7 Controllo dei prodotti non conformi: registrazione NCR, quarantena, autorità di disposizione in base alla gravità, rilavorazione controllata sotto istruzioni SRI, nuova verifica indipendente e protocollo di distruzione accompagnata.'
+      link: '/it/factory/non-conforming-control'
+      link_label: Visualizza pagina
+
+faqs:
+  tagline: FAQ
+  title: Domande frequenti sul controllo delle modifiche di rilavorazione
+  items:
+    - q: 'La fabbrica può modificare i parametri di rilavorazione senza informarci?'
+      a: 'No. Ogni modifica proposta a materiali di rilavorazione rilasciati, condizioni di processo, attrezzature, metodi di prova, criteri di ispezione o personale autorizzato deve prima passare attraverso un controllo delle modifiche documentato. Le modifiche che interessano specifiche approvate dal cliente, campioni, BOM, grafiche o criteri di accettazione richiedono il rilascio scritto del cliente.'
+    - q: 'Cosa conta come modifica ad alto rischio?'
+      a: 'Le modifiche a materiali o fornitori di rilavorazione, condizioni di pressione/mantenimento o polimerizzazione, metodi di rilavorazione di valvole/rail/cuciture, criteri di ispezione o accettazione e l''estensione dell''ambito del difetto verso zone strutturali sono classificate ad alto rischio. Richiedono verifica interfunzionale, un piano di validazione rilasciato e implementazione pilota controllata prima dell''uso di routine.'
+    - q: 'Una deviazione temporanea può essere usata senza limiti?'
+      a: 'No. Ogni deviazione temporanea porta una finestra di validità definita, un ambito di partita, un tetto di quantità e requisiti di validazione con scadenza automatica. Il raggiungimento del tetto blocca la partita e blocca la stampa del tag di passaggio finché la modifica non è formalmente valutata.'
+    - q: 'Come si dimostra che un metodo modificato è funzionante prima dell''uso pieno?'
+      a: 'Le modifiche ad alto rischio richiedono un piano di validazione: almeno 5 tavole campione rappresentative che coprono i limiti di tolleranza, testate da 2 ispettori QC indipendenti contro criteri di accettazione quantificati (eliminazione perdite, mantenimento pressione, funzione valvola, durata delle cuciture, aspetto). Il rilascio alla validazione non è un rilascio per l''applicazione.'
+    - q: 'Dobbiamo rilasciare ogni modifica?'
+      a: 'Non ogni modifica, ma ogni modifica che allontana il prodotto dal campione approvato dal cliente, dalla specifica tecnica, dalla BOM, dalla grafica, dall''imballaggio o dai criteri di accettazione viene implementata solo con il rilascio scritto del cliente. Senza di esso, le tavole vengono rilavorate, sostituite o respinte secondo il requisito originale.'
+    - q: 'Cosa succede ai vecchi documenti quando una modifica viene rilasciata?'
+      a: 'Le vecchie istruzioni di lavoro, le schede parametri e i fogli di ispezione vengono fisicamente ritirati e invalidati (1-in-1-out), marcati OBSOLETE e sostituiti dalla nuova revisione controllata dopo la formazione. Le versioni vecchie e nuove non condividono mai una postazione di lavoro.'
+    - q: 'Per quanto tempo vengono conservate le registrazioni del controllo modifiche?'
+      a: 'Le registrazioni di chiusura — evidenze di validazione, revisioni documentali, evidenze di formazione e prove di efficacia — vengono conservate secondo la nostra politica di conservazione (almeno 3 anni per le registrazioni di chiusura), così ogni modifica rimane ricostruibile per audit e verifiche di rintracciabilità.'
+
+cta:
+  title: Vi servono documenti di controllo modifiche per il vostro audit?
+  desc: 'Scaricate la SOP bilingue di controllo modifiche e l''allegato di esecuzione oppure richiedete un campione anonimizzato della nostra template ECR e del vostro piano di validazione per il vostro progetto OEM/ODM.'
+  actions:
+    - text: Richiedere un controllo qualità
+      variant: primary
+      href: /contact
+    - text: Scaricare la SOP di controllo modifiche (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Scaricare l''allegato di esecuzione A (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

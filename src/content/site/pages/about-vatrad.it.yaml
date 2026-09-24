@@ -1,0 +1,100 @@
+meta:
+  title: 'Informazioni su Vatrad — la divisione nautica di produzione'
+  description: 'Vatrad è la divisione nautica di produzione del Qingdao Vatrad Group, fondata nel 2012 a Qingdao, Cina — la fabbrica dietro ogni progetto SUP personalizzato di SUPsfactory.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Vatrad'
+    - 'fabbrica SUP Cina'
+    - 'produttore SUP gonfiabili'
+    - 'Qingdao Vatrad Group'
+hero:
+  tagline: Informazioni su Vatrad
+  title: 'Vatrad — la divisione nautica di produzione dietro {SITE}'
+  subtitle: 'Fondata nel 2012 a Qingdao, Cina, Vatrad costruisce le imbarcazioni gonfiabili e le tavole SUP dietro i progetti SUP personalizzati di SUPsfactory — una fabbrica di 12,500 m², oltre 350 dipendenti e una capacità annua di oltre 120.000 unità.'
+  actions:
+    - text: 'Avviare un progetto personalizzato'
+      href: /contact
+      variant: primary
+    - text: 'Visitare la fabbrica'
+      href: /factory
+      variant: secondary
+intro: |
+  <p><strong>Vatrad</strong> è la divisione nautica di produzione del <strong>Qingdao Vatrad Group Co., Ltd.</strong> con sede nella zona di sviluppo economico di Laixi, Qingdao, Shandong, Cina. Fondata nel 2012, l''azienda è nata come officina specializzata in imbarcazioni dedicata all''artigianato nautico ed è cresciuta fino a diventare una fabbrica certificata che serve clienti OEM e ODM in oltre 50 paesi.</p>
+  <p>SUPsfactory è la divisione B2B per gli sviluppi personalizzati della fabbrica Vatrad. Ogni progetto SUPsfactory — dal primo campione o da un piccolo lotto in co-branding fino a una linea di prodotti completa in private label — viene realizzato nello stesso impianto, dagli stessi team e con lo stesso sistema qualità descritto in questa pagina.</p>
+  <p>La fabbrica si estende su 12,500 m² con officine dedicate al taglio del PVC, all''assemblaggio del nucleo drop-stitch, alla saldatura ad alta frequenza, al montaggio delle tavole e a un''area di test per la ritenzione d''aria, il mantenimento della pressione e le prove di resistenza delle cuciture. La capacità produttiva supera le 120.000 unità gonfiabili all''anno e l''impianto opera con una gestione della qualità secondo ISO 9001, con conformità CE, BSCI, REACH e approvazione USCG per i prodotti esportati.</p>
+  <p>Oltre 350 collaboratori qualificati e oltre 14 ingegneri R&S supportano i due ambiti di lavoro che contano per i marchi SUP: progettazione (design dello scafo, selezione dei materiali, prototipazione) e produzione (applicazione grafica, assemblaggio, ispezione, imballaggio per l''esportazione). Un centro R&S interno con laboratorio tessuti in PVC e vasca di prova gestisce forme personalizzate e la validazione strutturale prima dell''avvio della produzione in serie.</p>
+stats:
+  title: Vatrad in cifre
+  stats:
+    - title: Anno di fondazione
+      amount: 2012
+    - title: Impianto
+      amount: '12,500 m²'
+    - title: Paesi serviti
+      amount: '50+'
+    - title: Capacità annua
+      amount: '120,000+ unità'
+    - title: Dipendenti
+      amount: '350+'
+    - title: Ingegneri R&S
+      amount: '14+'
+values_section:
+  title: Come la fabbrica lavora con i marchi
+  subtitle: 'Tre principi che caratterizzano ogni progetto costruito dalla fabbrica Vatrad.'
+  columns: 3
+  items:
+    - title: Progettazione prima della produzione
+      description: 'Ogni progetto inizia con requisiti, disegni e un campione fisico — forma dello scafo, gradi del drop-stitch, posizionamento della grafica e imballaggio vengono validati prima di ogni ciclo produttivo, non scoperti soltanto in linea.'
+      icon: 'tabler:settings'
+    - title: Un team, un impianto
+      description: 'Design, taglio, saldatura, assemblaggio e collaudo avvengono in un unico impianto di 12,500 m². Nessun passaggio di mano tramite società commerciali: le persone che rispondono alle tue domande sono quelle che costruiscono le tue tavole.'
+      icon: 'tabler:building-factory-2'
+    - title: Piccoli primi lotti
+      description: 'Il co-branding in piccoli lotti parte da 5–10 unità e la produzione standard in serie gira con 90–100+ unità per lotto (una bobina di drop-stitch da 150 m) — così i marchi validano il mercato prima di scalare, mantenendo stampi e grafiche per i riordini.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Cosa offre la fabbrica
+  subtitle: 'I servizi di produzione disponibili per i clienti SUPsfactory.'
+  columns: 2
+  items:
+    - title: Sviluppo SUP personalizzato
+      description: 'Valutazione dei requisiti, specifiche, selezione dei materiali, grafiche, prototipazione, approvazione del campione e produzione per prodotti SUP gonfiabili su misura.'
+      icon: 'tabler:bulb'
+    - title: Produzione private label
+      description: 'Il tuo logo, i tuoi colori e il tuo imballaggio su piattaforme commerciali collaudate: tavola, deck pad, accessori e scatole portano tutti la tua identità, senza branding di fabbrica.'
+      icon: 'tabler:tag'
+    - title: Produzione OEM/ODM
+      description: 'Produzione OEM e ODM completa di SUP gonfiabili secondo i disegni del cliente o design sviluppati insieme, inclusi stampi personalizzati per nuove forme di tavola.'
+      icon: 'tabler:package'
+    - title: Fornitura di flotte
+      description: 'Flotte di tavole brandizzate per resort, club, scuole e centri di noleggio, con accessori coordinati e cicli produttivi pensati per le flotte.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: Certificazione e conformità
+  subtitle: 'La fabbrica fornisce l''UE, gli Stati Uniti e la regione Asia-Pacifico nell''ambito di un sistema di conformità documentato.'
+  columns: 2
+  items:
+    - title: Certificazione CE
+      description: 'Le linee di prodotto per SUP gonfiabili e imbarcazioni rispettano le direttive di sicurezza UE, con documentazione per ogni mercato.'
+      icon: 'tabler:certificate'
+    - title: Sistema qualità ISO 9001
+      description: 'L''impianto produttivo opera con un sistema di gestione della qualità ISO 9001 che copre il controllo di ingresso, di processo e finale.'
+      icon: 'tabler:badge-check'
+    - title: Conformità sociale BSCI
+      description: 'La responsabilità sociale è sottoposta ad audit secondo BSCI e copre le condizioni di lavoro e la conformità della fabbrica.'
+      icon: 'tabler:shield-check'
+    - title: Conformità materiali REACH
+      description: 'I materiali rispettano il regolamento REACH dell''UE sulla sicurezza chimica.'
+      icon: 'tabler:flask'
+    - title: Approvazione USCG
+      description: 'Produzione approvata dalla Guardia Costiera statunitense per le linee di prodotto di imbarcazioni gonfiabili.'
+      icon: 'tabler:anchor'
+    - title: Collaudo del prodotto
+      description: 'Test di galleggiabilità, capacità di carico, resistenza delle cuciture, resistenza ai raggi UV, resistenza all''abrasione e mantenimento della pressione su ogni linea di produzione.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Costruisci il tuo progetto SUP con la fabbrica Vatrad'
+  subtitle: 'Invia i tuoi requisiti — tipo di tavola, dimensioni, quantità e grafiche — e ricevi un preventivo dettagliato entro un giorno lavorativo.'
+  actions:
+    - text: Identità del marchio
+      href: /about/identity

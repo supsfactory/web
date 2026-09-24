@@ -1,0 +1,135 @@
+meta:
+  title: 'Private label & distribuzione all''ingrosso per distributori | {SITE}'
+  description: 'Programmi private label e all''ingrosso direttamente dalla fabbrica per distributori e rivenditori: territori esclusivi, produzione SUP white label e gestione account dedicata.'
+  dateModified: '2026-09'
+
+hero:
+  tagline: Distributori & Private Label
+  title: 'Programmi direttamente dalla fabbrica per distributori e marchi'
+  subtitle: 'Programmi all''ingrosso e private label da uno stabilimento di produzione di SUP gonfiabili. Acquista a prezzi diretti di fabbrica, costruisci il tuo assortimento a marchio proprio e distribuisci in territori esclusivi in oltre 50 paesi.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-building.webp
+    alt: Stabilimento di produzione e spedizione SUPsfactory
+
+answer:
+  label: 'Risposta breve'
+  text: 'Distributori e marchi collaborano direttamente con la fabbrica: tavole SUP white label a marchio proprio, prezzi all''ingrosso diretti di fabbrica, territorio esclusivo per programma, 3–8 SKU all''avvio e 45–60 giorni di dilazione di pagamento (il tutto subordinato all''accordo commerciale), con il 100 % dello stock testato a pressione prima della spedizione. Quantitativi minimi iniziali e condizioni di trasporto vengono concordati per territorio, con spedizione FOB Qingdao o CIF.'
+  verified: 'Settembre 2026'
+
+intro:
+  tagline: Il programma
+  title: 'Distribuzione private label basata su capacità produttiva propria'
+  body: |
+    SUPsfactory progetta, costruisce e testa ogni SUP gonfiabile, kayak e accessorio nel proprio stabilimento di Laixi, Qingdao. Un accordo private label con noi significa che la fonte di approvvigionamento è integrata nel tuo marchio: ricevi tavole prodotte dalla fabbrica a tuo nome — non stock rivenduto di un altro distributore.
+
+    Poiché pianifichiamo la produzione attorno alle previsioni dei nostri clienti, possiamo programmare grandi volumi per l'avvio della stagione dell'emisfero settentrionale, stabilizzare i costi di trasporto tramite preordini e liberare capitale circolante con condizioni all'ingrosso trasparenti e piani di pagamento concordati. Ingegneria, campioni, controllo qualità e documentazione per l'export sono tutti gestiti internamente — non c'è alcun broker o intermediario commerciale nella filiera.
+
+    Questo programma è una delle due modalità di collaborazione con la fabbrica. Se gestisci un tuo marchio all'ingrosso e vuoi farlo produrre per te, questa pagina fa per te. I resort, i centri di formazione e le flotte di noleggio che acquistano direttamente per uso proprio dovrebbero invece consultare la produzione OEM/ODM e i programmi per flotte.
+
+wholesale_pricing:
+  tagline: Perché partecipare
+  title: 'Cosa ricevono i distributori'
+  subtitle: 'Tutto ciò che serve per lanciare un assortimento a marchio proprio nel tuo mercato.'
+  intro: 'I partner di distribuzione ricevono la stessa qualità di fabbrica e la stessa profondità tecnologica che forniamo ai marchi OEM/ODM, confezionati per il canale all''ingrosso a marchio proprio. Le condizioni del programma — esclusività territoriale, assortimento SKU iniziale e condizioni di pagamento — vengono confermate per ciascun programma nell''accordo commerciale.'
+  stats:
+    - value: '50+'
+      label: 'Paesi in cui spediamo'
+    - value: '1'
+      label: 'Account manager dedicato'
+    - value: '45–60'
+      label: 'Giorni di dilazione di pagamento'
+    - value: '120,000+'
+      label: 'Tavole di capacità annuale'
+    - value: '3–8'
+      label: 'SKU all''avvio del programma'
+    - value: '100%'
+      label: 'Testato in fabbrica prima della spedizione'
+
+steps:
+  tagline: Come funziona
+  title: 'Dalla candidatura al primo container'
+  subtitle: 'Un processo di onboarding chiaro e strutturato in più fasi, affinché il tuo programma a marchio proprio parta puntuale nella prima stagione.'
+  steps:
+    - step: 1
+      title: Invia la candidatura
+      desc: 'Invia la candidatura da distributore con il profilo della tua azienda, il tuo fatturato all''ingrosso pregresso e il tuo territorio.'
+    - step: 2
+      title: Assegnazione del territorio
+      desc: 'Confermiamo quali paesi o regioni copre il tuo programma a marchio proprio e se il territorio è esclusivo.'
+    - step: 3
+      title: Piano assortimento & branding
+      desc: 'Scegli i tuoi modelli base dal catalogo di produzione, congela le specifiche e finalizza le grafiche del tuo marchio per la produzione.'
+    - step: 4
+      title: Approvazione campioni & qualità
+      desc: 'Ordina campioni di certificazione per verificare qualità, imballaggio e gestione drop-ship. I campioni vengono approvati prima dell''avvio della produzione in serie.'
+    - step: 5
+      title: Riordino stagionale
+      desc: 'Il tuo account manager pianifica produzione e rifornimenti attorno alle tue previsioni e al calendario stagionale.'
+
+benefits:
+  title: Cosa ricevono i distributori
+  subtitle: 'Tutto ciò che serve per avere successo nel tuo mercato.'
+  items:
+    - 'Private label a marchio proprio (OEM white label)'
+    - 'Diritti territoriali esclusivi (secondo l''accordo commerciale)'
+    - 'Catalogo di produzione: SUP, accessori, componenti'
+    - 'Prezzi competitivi direttamente dalla fabbrica'
+    - 'Materiali di marketing e vendita (tradotti)'
+    - 'Programma di formazione (prodotto, vendite, manutenzione)'
+    - 'Supporto fieristico'
+    - 'Programma di approvazione campioni e pre-produzione'
+    - 'Capacità drop-ship'
+    - 'Account manager dedicato ai distributori'
+    - '45-60 giorni di dilazione di pagamento (subordinato all''accordo commerciale)'
+
+coverage:
+  title: Distribuzione attuale
+  subtitle: 'SUPsfactory spedisce attualmente direttamente in questi mercati.'
+  regions:
+    - name: Europa
+      countries: 'Francia, Germania, Regno Unito, Spagna, Italia, Paesi Bassi, Svezia, Norvegia, Polonia, Grecia'
+    - name: Asia
+      countries: 'Giappone, Corea del Sud, Cina, Thailandia, Singapore'
+    - name: Medio Oriente
+      countries: 'Emirati Arabi Uniti, Arabia Saudita'
+    - name: Americhe
+      countries: 'USA, Canada, Brasile, Messico'
+    - name: Oceania
+      countries: 'Australia, Nuova Zelanda'
+    - name: Africa
+      countries: 'Sudafrica, Marocco'
+
+faqs:
+  tagline: FAQ per i distributori
+  title: 'Programma di distribuzione all''ingrosso — Domande frequenti'
+  items:
+    - q: 'Qual è l''ordine minimo per un nuovo distributore?'
+      a: 'I nuovi partner di distribuzione partono in genere con un ordine di approvazione campioni e pre-produzione, seguito da un primo container calibrato sulla loro stagione. I quantitativi minimi esatti dipendono dall''ampiezza del territorio e dall''assortimento scelto; il tuo account manager conferma il quantitativo iniziale durante la pianificazione di assortimento e branding.'
+    - q: 'Possiamo vendere le tavole con il nostro marchio?'
+      a: 'Sì. Il private label è il modello standard qui: le tavole vengono prodotte a marchio proprio con le tue grafiche, il tuo imballaggio e le tue specifiche. SUPsfactory produce esclusivamente per i propri clienti e non compete con loro in nessun mercato.'
+    - q: 'I territori sono esclusivi?'
+      a: 'Sì. I programmi per distributori si basano su territori esclusivi — ogni partner all''ingrosso copre un paese o una regione definiti e riceve supporto sui prezzi e sul programma per quel mercato, come stabilito nell''accordo commerciale.'
+    - q: 'Supportate il drop-shipping?'
+      a: 'La capacità drop-ship è inclusa nel programma. Campioni, imballaggio e gestione vengono validati nella fase di approvazione dei campioni, così gli ordini drop-ship funzionano senza intoppi fin dal primo giorno.'
+    - q: 'Quali modelli possiamo ordinare?'
+      a: 'Il catalogo di produzione comprende tavole SUP gonfiabili in forme Allround, Touring e Surf, kayak gonfiabili, pompe, pagaie, giubbotti di salvataggio e accessori per la cura, oltre a sagome personalizzate sviluppate con il nostro team di ingegneri. La maggior parte dei partner parte con 4–8 SKU bestseller ed espande nelle stagioni successive.'
+    - q: 'Come vengono spediti gli ordini?'
+      a: 'Gli ordini lasciano la fabbrica con partenze pianificate, con possibilità di preordine per stabilizzare i costi di trasporto. Il tuo account manager dedicato pianifica produzione e spedizione attorno alle tue previsioni e al calendario stagionale.'
+    - q: 'Come faccio a candidarmi?'
+      a: 'Usa il modulo di candidatura presente in questa pagina oppure contattaci direttamente. Le candidature vengono esaminate dal team vendite e rispondiamo entro pochi giorni lavorativi con i passi successivi, inclusa l''assegnazione del territorio e una bozza di contratto.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Approfondisci:</strong> i partner di distribuzione commercializzano tavole prodotte per loro a marchio proprio — scopri il <a href="/it/oem-manufacturing">programma di produzione OEM/private label</a> e il <a href="/it/factory">processo di qualità della fabbrica</a> per posizionare il prodotto con sicurezza.</p>
+  </div>
+
+cta:
+  title: 'Pronto a lanciare il tuo assortimento a marchio proprio?'
+  subtitle: 'Candidati al programma per distributori oppure sfoglia il catalogo di produzione.'
+  actions:
+    - text: 'Candidati al programma per distributori'
+      href: '/it/contact#distributor'
+      variant: 'primary'
+    - text: 'Sfoglia il catalogo di produzione'
+      href: '/it/products'
+      variant: 'secondary'

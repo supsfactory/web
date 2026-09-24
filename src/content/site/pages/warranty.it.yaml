@@ -1,0 +1,113 @@
+meta:
+  title: 'Garanzia di Fabbricazione OEM e Assicurazione della Qualità | {SITE}'
+  description: 'Condizioni di garanzia di fabbricazione OEM per i prodotti SUP gonfiabili e marini prodotti da SUPsfactory: difetti coperti, durata, registri di lotto documentati e gestione delle richieste.'
+  keywords:
+    - 'garanzia OEM'
+    - 'garanzia di fabbricazione'
+    - 'garanzia fabbrica SUP'
+    - 'assicurazione qualità prodotto'
+    - 'garanzia SUP gonfiabile'
+label: 'Garanzia OEM'
+headline: 'Garanzia di Fabbricazione OEM e Assicurazione della Qualità del Prodotto'
+subtitle: 'Ogni tavola che produciamo viene costruita su un campione approvato e registri di lotto documentati. Questa garanzia definisce ciò che garantiamo sui prodotti che produciamo sotto il tuo marchio e come le richieste vengono trattate sulla base di questi registri.'
+seo:
+  headline: 'Garanzia di Fabbricazione OEM e Assicurazione della Qualità | SUPsfactory'
+  description: 'Garanzia di fabbricazione per SUP gonfiabili e altri prodotti marini prodotti da SUPsfactory: 5 anni di copertura su tessuto principale della camera, saldature e integrità strutturale del nucleo drop-stitch, oltre a valvole di gonfiaggio e accessori installati in fabbrica.'
+  datePublished: '2024-01-01'
+  dateModified: '2026-09-23'
+body: |
+  <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+    Questa Garanzia di Fabbricazione si applica alle tavole SUP gonfiabili, ai kayak e ai prodotti marini gonfiabili prodotti da SUPsfactory — la divisione di fabbricazione marina di Qingdao Vatrad Group Co., Ltd. — nell'ambito di programmi OEM, ODM e private label. La data di decorrenza è la data verificabile di produzione del lotto o di spedizione concordata nell'ordine di acquisto. L'acquirente (proprietario del marchio) definisce la politica di garanzia per l'utente finale nel proprio mercato; questa garanzia è l'impegno della fabbrica sulle merci così come sono state fabbricate.
+  </p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
+    <h2 class="text-xl font-bold mb-3">Copertura e durata della garanzia di fabbricazione</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 anni</h3>
+        <p class="text-sm text-gray-600 mt-1">Integrità del tessuto principale della camera (CSM/PVC)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 anni</h3>
+        <p class="text-sm text-gray-600 mt-1">Integrità strutturale dello scafo in fibra di vetro (ove applicabile)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 anni</h3>
+        <p class="text-sm text-gray-600 mt-1">Tenuta stagna delle saldature della camera gonfiabile</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 anni</h3>
+        <p class="text-sm text-gray-600 mt-1">Funzionamento della valvola di gonfiaggio</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">1 anno</h3>
+        <p class="text-sm text-gray-600 mt-1">Accessori ed equipaggiamenti installati in fabbrica</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-amber-700 dark:text-amber-400">1 anno*</h3>
+        <p class="text-sm text-gray-600 mt-1">Uso commerciale, noleggio o flotta: tutti i componenti</p>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 mt-4">*L'uso commerciale, governativo, in noleggio, in affitto o didattico riduce la garanzia a 1 anno. L'uso in gara o competizione annulla interamente la garanzia, salvo che una configurazione specifica da gara sia espressamente coperta dal contratto di acquisto.</p>
+  </div>
+
+  <h2>Cosa è coperto</h2>
+  <h3>Tessuto principale della camera (5 anni)</h3>
+  <p>La fabbrica garantisce il tessuto principale della camera contro il deterioramento per porosità che comprometta sostanzialmente la capacità del prodotto di mantenere la pressione di esercizio. Ciò si applica al tessuto rivestito in CSM (Hypalon) e a tutti gli altri materiali della camera utilizzati in produzione.</p>
+
+  <h3>Integrità strutturale dello scafo in fibra di vetro (5 anni)</h3>
+  <p>Per i prodotti con scafo in plastica rinforzata con fibra di vetro (PRFV), la struttura composita fondamentale è garantita contro il cedimento strutturale dovuto a difetti di materiale o di lavorazione.</p>
+
+  <h3>Tenuta stagna delle saldature della camera gonfiabile (5 anni)</h3>
+  <p>Le saldature delle camere gonfiabili, dove vengono unite in fabbricazione, sono garantite contro i difetti di fabbricazione che causano una perdita d'aria sostanziale attraverso la saldatura. L'ispezione periodica e il mantenimento di pressioni di gonfiaggio adeguate sono condizioni della copertura.</p>
+
+  <h3>Funzionamento della valvola di gonfiaggio (5 anni)</h3>
+  <p>Le valvole di gonfiaggio installate originariamente durante la produzione sono garantite contro i difetti di materiale o di lavorazione che impediscono alla valvola di trattenere l'aria come previsto.</p>
+
+  <h3>Accessori installati in fabbrica (1 anno)</h3>
+  <p>I componenti e gli equipaggiamenti installati in fabbrica sono garantiti contro i difetti di materiale e di lavorazione per un anno. Sono esclusi gli articoli di terze parti, coperti esclusivamente dalle garanzie dei rispettivi produttori.</p>
+
+  <h2>Cosa non è coperto</h2>
+  <ul>
+    <li>Difetti estetici, inclusi scolorimento, macchie, sbiadimento, effetto farinoso o qualsiasi alterazione dell'aspetto</li>
+    <li>Perforazioni, tagli, lacerazioni, rotture o altri danni fisici</li>
+    <li>Microfessurazioni, screpolature, abrasioni, sfregamenti o deterioramento per attrito o contatto</li>
+    <li>Degradazione per esposizione ai raggi UV, intemperie o condizioni atmosferiche</li>
+    <li>Danni da contatto con carburanti, solventi, acidi, alcali o prodotti chimici</li>
+    <li>Danni da negligenza, uso improprio, abuso, incidente o usura normale</li>
+    <li>Problemi di gelcoat o di vernice (bolle, microfessurazioni, scolorimento)</li>
+    <li>Danni da urto, sollecitazione, supporto inadeguato o rimorchio</li>
+    <li>Danni da gonfiaggio/sgonfiaggio inadeguato o utilizzo di dispositivi di gonfiaggio non approvati</li>
+    <li>Equipaggiamenti, componenti o sistemi di terze parti (coperti dai rispettivi produttori)</li>
+  </ul>
+
+  <h2>Obbligo e rimedio del produttore</h2>
+  <p>L'obbligo unico ed esclusivo della fabbrica è la riparazione o la sostituzione, a sua scelta, di qualsiasi componente giudicato difettoso per materiali o lavorazione e coperto da questa garanzia. Le riparazioni o sostituzioni vengono effettuate dalla fabbrica o dal suo centro di assistenza autorizzato designato. I componenti riparati o sostituiti sono garantiti solo per la parte residua del periodo di garanzia originale.</p>
+
+  <h2>Condizioni della garanzia</h2>
+  <ul>
+    <li><strong>Riferimento al lotto:</strong> le richieste devono fare riferimento all'ordine di acquisto, al numero di lotto o all'intervallo di numeri seriali affinché la fabbrica possa recuperare i corrispondenti registri di ispezione.</li>
+    <li><strong>Base della specifica:</strong> le richieste vengono valutate in base al campione approvato, alla specifica tecnica, alla grafica e alla distinta base (BOM) congelate per il lotto — gli stessi riferimenti utilizzati in produzione.</li>
+    <li><strong>Manutenzione:</strong> il prodotto deve essere mantenuto secondo le istruzioni pubblicate, inclusa l'ispezione periodica e il mantenimento di pressioni di gonfiaggio adeguate.</li>
+    <li><strong>Cooperazione:</strong> il richiedente deve cooperare pienamente e tempestivamente con la fabbrica in tutte le questioni relative alle richieste, inclusa l'ispezione delle unità interessate.</li>
+    <li><strong>Politica di garanzia dell'acquirente:</strong> l'acquirente, in qualità di proprietario del marchio, definisce il programma di garanzia per l'utente finale nel proprio mercato. Questa garanzia di fabbricazione è ciò che la fabbrica deve per le merci così come sono state fabbricate.</li>
+  </ul>
+
+  <h2>Uso commerciale</h2>
+  <p>Se il prodotto viene utilizzato per scopi commerciali, governativi, senza scopo di lucro, in noleggio, in affitto, didattici o per qualsiasi scopo diverso dal tempo libero privato, il periodo di garanzia di tutti i componenti è ridotto a un (1) anno dalla data di decorrenza. L'uso in competizioni di velocità, endurance o gara annulla interamente la garanzia, salvo che una configurazione specifica da gara sia espressamente coperta dal contratto di acquisto.</p>
+
+  <h2>Come presentare una richiesta di garanzia</h2>
+  <p>Contatta SUPsfactory con l'ordine di acquisto o il riferimento del lotto e una descrizione dettagliata del problema, inclusi i numeri seriali delle tavole quando disponibili. La fabbrica esaminerà la richiesta sulla base dei registri del lotto e fornirà istruzioni per l'ispezione e l'assistenza.</p>
+  <p>Per le richieste di assistenza in garanzia, contattaci tramite la nostra <a href="/it/contact" class="text-sky-600 underline">pagina di contatto</a> con il numero d'ordine e i dettagli del prodotto.</p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
+    <h2 class="text-xl font-bold mb-3">Supportato da un sistema qualità documentato</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Ogni tavola viene testata prima dell'imballaggio — <a href="/it/factory/quality-inspection" class="text-sky-600 underline">7 gate di ispezione</a> registrano i risultati per numero seriale e i lotti hanno una tracciabilità ERP di 10 anni. Le richieste di garanzia vengono decise sulla base di questi registri di lotto, non per congettura. Consulta il <a href="/it/quality" class="text-sky-600 underline">sistema qualità completo</a> e scarica gli <a href="https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">rapporti di controllo finale</a>.</p>
+  </div>
+
+  <h2>Articoli di terze parti</h2>
+  <p>Gli equipaggiamenti, i componenti o i sistemi prodotti da terze parti (anche se installati dalla fabbrica) sono coperti esclusivamente dalla garanzia eventualmente offerta dal rispettivo produttore. La fabbrica declina espressamente ogni responsabilità di garanzia per tali articoli di terze parti.</p>
+
+  <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
+    Questa dichiarazione di garanzia è un riepilogo delle condizioni di garanzia di fabbricazione della fabbrica per i programmi OEM, ODM e private label. L'intero contratto di acquisto disciplina tutti i termini e le condizioni. Le specifiche possono essere modificate senza preavviso. SUPsfactory è la divisione di fabbricazione di Qingdao Vatrad Group.
+  </p>
