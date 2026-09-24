@@ -1,0 +1,67 @@
+meta:
+  title: "Inflatable SUP MOQ — Mindestbestellmengen einfach erklärt"
+  description: "Klare MOQ-Stufen für die Fertigung individueller Inflatable SUPs: 5–10 Co-Branding, 20–50 Pilot, 90–100+ Menge pro Rolle. Entscheidungsbaum nach Individualisierungsgrad."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Direkte Antwort"
+    directAnswer:
+      answer: "Pilotläufe auf bestehenden Plattformen starten bei 20–50 Stück; der Standard-MOQ liegt bei 90–100+ Stück pro 150-m-Drop-stitch-Rolle (~180–220 Boards)."
+      condition: "Der konkrete MOQ hängt von Board-Form, Materialrolle, Druck, Verpackung und davon ab, ob eine neue Form benötigt wird."
+      value: "5–10 Co-Branding · 20–50 Pilot · 90–100+ pro Rolle Menge"
+      verifiedDate: "September 2026"
+      sourceType: "werksaufzeichnung"
+    body: |
+      Der MOQ bei SUPsfactory ist nach Individualisierungsgrad gestaffelt, nicht eine
+      einzige flache Zahl. Jede Stufe entspricht einem konkreten Produktionsszenario:
+
+      | Szenario | MOQ | Einheit | Bedingung |
+      |----------|-----|---------|-----------|
+      | Bestehende Plattform, nur Logo-Überlagerung | 5–10 Stück | pro Design | Gleiche Form, gleiche Materialrolle, gleiche Farbvariante |
+      | Individuelle Grafik / EVA / Verpackung auf bestehender Plattform | 20–50 Stück | Pilotcharge | Gleiche Form; neues Artwork erfordert visuellen Nachweis |
+      | Standard-Mengenproduktion (jede Plattform) | 90–100+ Stück | pro 150-m-Rolle (~180–220 Boards) | Pro Materialrolle; mehrere SKUs = getrennte Rollen |
+      | Neue Form / eigene Form | 90–100+ Stück | Produktionslauf | Formenbau addiert 15–20 Tage; einmalige Formkosten |
+
+  - title: 'Was zählt als „Materialrolle"?'
+    body: |
+      Eine Rolle von 150 Metern Drop-stitch-Gewebe ergibt je nach Board-Maßen (typisch
+      10–11 ft) etwa 180–220 Boards. Jede eigene SKU — also eine andere Größen-, Farb-
+      oder Materialkombination — benötigt eine eigene Rolle und damit einen eigenen MOQ.
+
+      Deshalb wird der MOQ „pro 150-m-Rolle" statt „pro Design" angegeben: Zwei
+      Farbvarianten derselben Board-Form sind zwei Rollen, zwei MOQs.
+
+  - title: "Co-Branding vs. Pilot vs. Menge"
+    body: |
+      **Co-Branding (5–10 Stück)**: Ihr Logo auf einer bestehenden Plattform, die bereits für
+      eine andere Marke in Produktion ist. Keine Artwork-Änderungen über die Logo-Platzierung
+      hinaus. Schnellster Weg zu einem gebrandeten Muster.
+
+      **Pilotcharge (20–50 Stück)**: Individuelle Grafik, EVA-Antirutschpad-Design oder
+      Verpackung auf einer bestehenden Plattformform. Erfordert die Freigabe des visuellen
+      Nachweises vor der Produktion. Ideal zum Testen eines neuen Looks auf dem Markt.
+
+      **Mengenproduktion (90–100+ Stück pro Rolle)**: Vollständiger Produktionslauf mit jeder
+      Kombination aus Individualisierungen. Das ist die Standard-Handelsstufe. Jede
+      Materialrolle ergibt etwa 180–220 Boards.
+
+  - title: "MOQ für eigene Formen"
+    body: |
+      Wenn Ihr Design eine neue Board-Form erfordert (nicht nur neue Grafik auf einer
+      bestehenden Form), muss eine eigene Form erstellt werden. Das läuft auf der Mengenstufe
+      (90–100+ Stück), weil die Formeninvestition einen Produktionslauf zur Amortisation
+      benötigt. Der Formenbau addiert 15–20 Tage zur Standardlieferzeit.
+
+      Formeneigentum: Sie besitzen die Form. Sie wird in unserer Einrichtung gelagert und
+      ausschließlich für Ihre Produktionsläufe verwendet.
+
+  - title: "Musterbestellungen"
+    body: |
+      Vorproduktions-Muster sind mit 1–2 Boards zur Bestätigung von Passform/Verarbeitung
+      verfügbar. Diese werden handgefertigt nach Ihrer Spezifikation und dauern typischerweise
+      7–12 Tage. Die Musterkosten werden auf Ihre erste Mengenbestellung angerechnet.
+
+evidence_review:
+  tagline: 'Nachweise & Verifizierung'
+  title: 'VERIFIZIERTE SPEZIFIKATIONEN'
+  body: 'Alle Fertigungsaussagen auf dieser Seite werden von unserem Manufacturing Engineering Team am Standort Laixi, Qingdao verifiziert. Zertifikate, QC-Prüfprotokolle, Druck- & Strukturtestberichte und Chargenrückverfolgungsprotokolle sind auf Anfrage verfügbar. Spezifikationen zuletzt verifiziert: September 2026.'

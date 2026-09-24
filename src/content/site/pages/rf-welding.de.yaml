@@ -1,0 +1,99 @@
+meta:
+  title: 'HF-Schweißzentrum — Dielektrische Nahtverbindung für SUPs | {SITE}'
+  description: 'Radiofrequenz-Schweißtechnologie für dichte, konforme SUP-Board-Nähte. Schältests, Luftdichtigkeitsprüfung und kundenspezifische Nahttoleranzen.'
+  dateModified: '2026-08'
+back_text: 'Zurück zum F&E-Zentrum'
+home_label: 'Startseite'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Wir betreiben 15-kW-dielektrische HF-Pressen, die PVC-Nähte molekular verbinden (Äquivalent zu 200–600 °C Heißluft), und validieren jede Schweißnaht: Schältest nach ASTM D751, Luftdichtheitshalt bei 18.0 PSI, mit dokumentierten und pro Einheit rückverfolgbaren Nähten.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Labor 03'
+  title: 'HF-Schweißzentrum'
+  subtitle: 'Dielektrische Verbindungstechnologie für Nähte, die unter Druck halten'
+  image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Vatrad-HF-Schweißen, dielektrischer Verbindungsprozess'
+
+intro: 'Ein aufblasbares SUP-Board ist nur so zuverlässig wie seine Nähte. Eine einzige schwache Schweißnaht kann eine gesamte Kammer gefährden — und unter den Füßen ist ein Kammerausfall kein Ärgernis, sondern ein Sicherheitsrisiko. Bei {SITE.name} haben wir in ein eigenes Radiofrequenz-Schweißzentrum (HF) investiert, das industrielle dielektrische Schweißpressen mit strenger Prozesskontrolle und Prüfungen nach dem Schweißen kombiniert. Jede Naht, die wir produzieren, wird dokumentiert, ist rückverfolgbar und zertifiziert, um die Anforderungen der internationalen Norm für aufblasbare Wasserfahrzeuge zu erfüllen oder zu übertreffen.'
+
+content_html: |
+  <h2>Die Wissenschaft hinter der Naht</h2>
+  <p>HF-Schweißen nutzt hochfrequente elektromagnetische Energie (typisch 27.12 MHz), um die polaren Moleküle im PVC-beschichteten Gewebe anzuregen und Wärme präzise an der Materialgrenzfläche zu erzeugen. Anders als Heißluft- oder Keilschweißen erzeugt HF-Schweißen eine echte molekulare Bindung — die beiden Gewebeschichten verschmelzen an der Schweißzone zu einem homogenen Material und bilden so eine Verbindung, die so stark ist wie das Ausgangsmaterial selbst.</p>
+
+  <h2>Schweißanlagen und Prozesskontrolle</h2>
+  <p>Unser Schweißzentrum ist ausgestattet mit:</p>
+  <table>
+    <thead><tr><th>Maschine</th><th>Leistung / Kapazität</th><th>Anwendung</th></tr></thead>
+    <tbody>
+      <tr><td>Dielektrische HF-Presse 1</td><td>15 kW, Platte 2000 × 600 mm</td><td>Haupt-Boardnähte, Railband-zu-Deck-Verbindungen</td></tr>
+      <tr><td>Dielektrische HF-Presse 2</td><td>10 kW, Platte 1500 × 500 mm</td><td>Bugkegel-Schweißnähte, Griff-Patches, Ventil-Patches</td></tr>
+      <tr><td>CNC-gesteuerter HF-Schweißer</td><td>8 kW, XY-Tisch 2500 × 1200 mm</td><td>Gebogene Railnähte, Logo-/Panel-Prägungen, Präzisions-Flickarbeiten</td></tr>
+      <tr><td>Automatischer Heißkeilschweißer</td><td>Variable Temperatur, max. 1.2 m/min</td><td>Backup-Verfahren für spezielle CSM-Materialien</td></tr>
+    </tbody>
+  </table>
+  <p>Jede HF-Presse verfügt über eine geschlossene Temperatur- und Drucküberwachung. Schweißparameter — Leistung, Presszeit, Kühlzeit, Elektrodendruck — werden pro Materialtyp programmiert und in unserem Manufacturing Execution System (MES) für vollständige Rückverfolgbarkeit erfasst.</p>
+
+  <h2>Schweißqualitätstests — jede Naht, jedes Board</h2>
+  <p>Die Nahtintegrität wird über ein verbindliches Vier-Test-Protokoll verifiziert:</p>
+  <ol>
+    <li><strong>Sichtprüfung</strong> — 100 % der Nähte werden auf Durchbrennen, Fehlausrichtung, Kontamination oder unvollständige Verschmelzung geprüft. Ausschussgrenze: 0.5 % der laufenden Meter.</li>
+    <li><strong>Schältest</strong> — Ein 25 mm breiter Streifen wird aus einem Probestück geschnitten, das mit jeder Produktionscharge verschweißt wurde. Mindestabzugskraft: 120 N/25 mm für PVC 1100 dtex.</li>
+    <li><strong>Luftdichtigkeitstest</strong> — Jedes fertige Board wird auf 18.0 PSI aufgepumpt und 24 Stunden gehalten. Der Druckabfall darf 0.50 PSI nicht überschreiten.</li>
+    <li><strong>Temperaturwechseltest</strong> — Probestücke werden 50 Zyklen von -20 °C bis +60 °C ausgesetzt und anschließend erneut geschält. Zulässiger Festigkeitsverlust: &lt; 10 %.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Vergleich der Schälfestigkeit — HF- vs. Heißluftschweißen (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">HF-Schweißnaht</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Heißluft</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Norm-Minimum</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">HF-Schweißen erreicht durchgängig 90-95 % der Festigkeit des Ausgangsmaterials — deutlich über dem Minimum.</p>
+  </div>
+
+  <h2>Professionelle Expertise</h2>
+  <p>Unser Schweißteam wird von einem leitenden Prozessingenieur mit 11 Jahren Erfahrung im dielektrischen Schweißen beschichteter Textilien geführt. Jeder Operator absolviert ein 6-monatiges internes Zertifizierungsprogramm, bevor er an Produktionsnähten arbeiten darf. Eine Rezertifizierung ist jährlich erforderlich, einschließlich eines praktischen Schweißtests, der gegen unseren internen Grade-A-Standard bewertet wird (Schälfestigkeit ≥ 160 N/25 mm).</p>
+
+  <h2>Kundenspezifische Schweißlösungen für besondere Anforderungen</h2>
+  <p>Wir wissen, dass eine Schweißspezifikation nicht auf jede Anwendung passt. Unser HF-Schweißzentrum entwickelt regelmäßig kundenspezifische Nahtkonfigurationen für Kunden mit besonderen Anforderungen:</p>
+  <ul>
+    <li><strong>Mehrschichtige Verstärkungspatches</strong> — für stark beanspruchte Bereiche wie Railbänder und Bugkappen entwickeln wir mehrlagige HF-Schweißnähte, die eine verschleißfeste Außenschicht integrieren, ohne die Flexibilität zu beeinträchtigen.</li>
+    <li><strong>Nähte für Hochdruck-Boards</strong> — für Boards mit einem Nenndruck über 15 PSI validieren wir die Schweißgeometrie bei erhöhtem Betriebsdruck und dokumentieren die Grenze im Prüfbericht.</li>
+    <li><strong>Schweißen von Farbwechsel-Panels</strong> — zweifarbige Gewebepanels (z. B. graues Deck + grauer Rail) werden mit verdeckter Überlappung verschweißt, um die Markenästhetik ohne sichtbare Nahtlinie zu erhalten.</li>
+  </ul>
+
+  <h2>Unser Versprechen an Sie</h2>
+  <p>Jedes Board, das wir ausliefern, trägt unsere Nahtqualitätsgarantie: Wenn eine Naht während der Garantiezeit im normalen Gebrauch versagt, reparieren oder ersetzen wir die betroffene Kammer kostenlos, und es wird eine Ursachenanalyse durchgeführt, um Wiederholungen zu verhindern. Das ist nicht einfach eine Garantie — es ist ein Bekenntnis zur kontinuierlichen Verbesserung auf Basis realer Betriebsdaten.</p>
+  <p>Wenn Sie sich für {SITE.name} entscheiden, entscheiden Sie sich für Nähte, die entwickelt, getestet und dokumentiert sind — nicht nur geschweißt. Das ist der Unterschied zwischen einem Board, das schwimmt, und einem Board, das funktioniert.</p>
+
+cta:
+  title: 'Besprechen Sie Ihre Schweißanforderungen'
+  subtitle: 'Kundenspezifische Nahttoleranzen, Materialkompatibilität oder Prozessvalidierung.'
+  actions:
+    - variant: primary
+      text: Kontakt zum Schweißteam
+      href: /contact#project-brief
+    - text: Zurück zum F&E-Zentrum
+      href: /randdcenter

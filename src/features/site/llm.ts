@@ -13,13 +13,13 @@ import {
   getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
-import { GUIDES_ES, GUIDES_FR } from '@/features/content/guide-content'
+import { GUIDES_ES, GUIDES_FR, GUIDES_DE } from '@/features/content/guide-content'
 import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -519,6 +519,96 @@ export function llmsFrenchFull(): string {
     ...caseBlocks,
     '',
     '# Français: Guides',
+    ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` German section — absolute /de URLs so LLMs can ingest the mirror directly. */
+export function llmGermanIndex(origin: string): string {
+  const de = (path: string) => abs(origin, `/de${path}`)
+  const productLines = getContentProducts('de').map((p) => `- [${p.title}](${de(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('de').map((a) => `- [${a.title}](${de(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('de').map((c) => `- [${c.title}](${de(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_DE.map((g) => `- [${g.title}](${de(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('de')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${de(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('de')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## Deutsch',
+    '',
+    `- [${SITE_NAME} — Startseite](${de('/')}): ${LLM_GERMAN_HOMEPAGE_DESCRIPTION}`,
+    '',
+    '### Deutsch: Produkte',
+    ...productLines,
+    '',
+    '### Deutsch: Technologie',
+    ...techLines,
+    '',
+    '### Deutsch: Fallstudien',
+    ...caseLines,
+    '',
+    '### Deutsch: Guides',
+    ...guideLines,
+    '',
+    '### Deutsch: Nachrichten',
+    ...newsLines,
+    '',
+    '### Deutsch: Häufig gestellte Fragen',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full German text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsGermanFull(): string {
+  const productBlocks = getContentProducts('de').map((p) =>
+    [
+      `## Produkt: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('de').map((p) =>
+    [`## Nachricht: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('de').map((a) =>
+    [`## Technologie: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('de').map((c) => [`## Fallstudie: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_DE.map((g) =>
+    [
+      `# Guide: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## FAQ',
+      ...g.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# Deutsch',
+    ...productBlocks,
+    '',
+    '# Deutsch: Nachrichten',
+    ...newsBlocks,
+    '',
+    '# Deutsch: Technologie',
+    ...techBlocks,
+    '',
+    '# Deutsch: Fallstudien',
+    ...caseBlocks,
+    '',
+    '# Deutsch: Guides',
     ...guideBlocks,
     '',
   ].join('\n\n')

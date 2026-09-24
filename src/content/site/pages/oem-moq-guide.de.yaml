@@ -1,0 +1,170 @@
+meta:
+  title: 'SUP-MOQ-Leitfaden: Flexible Markenbildung & Mindestbestellmengen'
+  description: 'So wird der MOQ für Inflatable SUPs berechnet: 150-m-Drop-stitch-Rollen ergeben 90–100 Boards, Co-Branding ab 5–10 Einheiten und transparente Formkosten.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'SUP-MOQ'
+    - 'Mindestbestellmenge Inflatable SUP'
+    - 'SUP-Co-Branding-Programm'
+    - 'Kleinserien SUP'
+    - 'MOQ für individuelle Paddle Boards'
+    - 'OEM-SUP-Fabrik China'
+
+hero:
+  tagline: 'Transparent & projektbezogen'
+  title: 'Flexible Markenbildung & Fertigungs-MOQ-Leitfaden'
+  subtitle: 'Verstehen Sie die Physik des Drop-stitch-Rohmaterials, die SUP-Produktionsläufe steuert — und wie unser Co-Branding-Programm mit niedriger Einstiegshürde für Verleiher, Clubs, Resorts und wachsende Wassersportmarken funktioniert. Konstruiert und betrieben von der Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Der MOQ ist keine Einheitsgröße. Jeder MOQ wird projektbezogen bestätigt: Rumpfform und Werkzeug, Farbvarianten und PVC, Artwork-Komplexität, Verpackung und Zubehörmix. Die vollständige Eigenfertigung in Standardmenge läuft mit 90–100 Einheiten pro Charge aus einer standardmäßigen 150-m-Drop-stitch-Geweberolle; Kleinserien-Co-Branding startet ab 5–10 Einheiten; und jedes Projekt gliedert sich in drei klar getrennte Stufen — Musterentwicklung (1–2 Einheiten), Pilotauftrag (20–50 Einheiten) und Mengenproduktion (90–100+ Einheiten). Wir bestätigen die exakte Berechnung für Ihre SKU-Mischung vor dem Angebot — keine vagen „Low-MOQ"-Versprechen, keine versteckten Kompromisse.'
+  verified: 'September 2026'
+
+moq_principle:
+  tagline: Die technische Logik
+  title: 'Warum der Standard-MOQ 90–100 Einheiten beträgt: Rollenphysik des Rohmaterials'
+  subtitle: 'Produktionslosgrößen sind keine willkürlichen Zahlen von einer Vertriebsabteilung — sie ergeben sich aus den Rollenlängen des Drop-stitch-Rohgewebes und der Physik der Linienumstellung.'
+  body: |
+    **Die 150-Meter-Rohgewebe-Basislinie.** Hochfestes gewebtes Drop-stitch-Gewebe wird auf durchgehenden Masterrollen produziert und beschichtet. Die standardmäßige Industriestoßlänge für eine Einzelcharge beträgt 150 Meter durchgehendes Material.
+
+    **Die Ertragsberechnung (90 bis 100 Boards).** Bei einem Standard-Touring- oder Allround-SUP-Rumpf (10 ft 6 in bis 11 ft 6 in) ergeben 150 m Masterrolle etwa 90 bis 100 fertige Paddle Boards.
+
+    **Null-Gewebestückung.** Volle Geweberollen gewährleisten vollständige strukturelle Kontinuität — keine querverlaufende, risikoreiche Gewebestückung und gleichmäßige Faserspannung über Ober- und Unterseite des Boards.
+
+    **Thermische und Kleber-Kalibrierung.** Automatisierte Hochfrequenz-Heißluftschweiß- und Marinekleber-Laminierlinien benötigen 2 Stunden Vorheizen, Temperaturprofilierung und Druckkalibrierung. Eine volle Charge mit 90–100 Einheiten amortisiert diese Fixkosten der Rüstung und erzielt so die niedrigstmöglichen Stückkosten.
+
+moq_tiers:
+  tagline: Zwei Wege zu Ihrer Marke
+  title: 'Vollindividueller Mengen-OEM vs. Kleinserien-Co-Branding'
+  subtitle: 'Eine Fabrik, zwei Einstiege: vollindividuelle Massenproduktion für etablierte Linien und ein Co-Branding-Programm mit niedriger Hürde für Clubs, Verleihzentren und wachsende Marken.'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Vollindividueller Mengen-OEM — 90–100 Einheiten pro Charge'
+      desc: 'Bestimmt durch die standardmäßige 150-m-Rollenlänge hochwertigen Drop-stitch-Rohgewebes für optimale Materialausnutzung und strukturelle Konsistenz. · 100 % vollständige Individualisierung: exklusive Rumpfform und individuelle Pantone-Farbvarianten · Ganzflächige Digital- oder Siebdruck-Abdeckung · Individuelle gebrandete Handelsverpackung, bedruckte Kartons und gebrandetes Zubehör · Maximale Kosteneffizienz und Skaleneffekte'
+      link: '/de/contact#custom-oem'
+      link_label: 'Mengen-OEM anfragen'
+    - icon: B
+      icon_bg: green
+      title: 'Kleinserien-Co-Branding — unter 20 Einheiten'
+      desc: 'Eine Lösung mit niedriger Hürde, aufgebaut auf unseren felderprobten jährlichen Produktkollektionen für Clubs, Verleihzentren und Resorts — kein schwere Lagerbestände. · Fester Rumpf und feste Geometrie: felderprobte Rumpfformen mit CE-/ISO-25649-Konformität · Primäre Kennzeichnung: offizielles SUPsfactory-Branding im mittleren Bereich · Sekundäres individuelles Branding: Ihr Logo auf Nose- oder Seitenrails · 100 % Teil- oder Vollprüfung mit 24-Stunden-Druck- und Dichtigkeitstest'
+      link: '/de/contact#cobranding'
+      link_label: 'Kleinserien-Co-Branding starten'
+
+moq_fees:
+  tagline: Transparente Siebdruckkosten
+  title: 'Co-Branding-Gebührenstruktur — im Voraus aufgeschlüsselt'
+  subtitle: 'Klare, aufgeschlüsselte Preise für Kleinserien-Siebdruck. Formenkosten werden einmalig bei der Ersteinrichtung erhoben und für Nachbestellungen mit derselben Artwork-Abmessung erlassen.'
+  headers:
+    fee: Gebührenposten
+    amount: Betrag
+    detail: Details
+  rows:
+    - fee: 'Siebdruck-Formkosten (einmalig, Logo bis 30 cm)'
+      amount: '$10.00 USD'
+      detail: 'Einmalig bei der Ersteinrichtung; für Nachbestellungen mit derselben Artwork-Abmessung erlassen.'
+    - fee: 'Siebdruck-Formkosten (einmalig, Logo bis 50 cm)'
+      amount: '$15.00 USD'
+      detail: 'Einmalig bei der Ersteinrichtung; für Nachbestellungen mit derselben Artwork-Abmessung erlassen.'
+    - fee: 'Werksbearbeitungs- & Präzisionsdruckgebühr'
+      amount: '$1.00 USD pro Board'
+      detail: 'Abdeckt manuelle Koordinatenpositionierung, Lösungsmittel-Vorbehandlung, Farbübertrag und thermische Aushärtung.'
+
+moq_stages:
+  tagline: Muster · Pilot · Menge
+  title: 'Drei klar getrennte Mengenstufen'
+  subtitle: 'Muster-, Pilot- und Mengenproduktionsmengen sind unterschiedlich. Jedes Projekt wird in drei getrennte Stufen eingeteilt, damit Sie vor der Zusage validieren.'
+  steps:
+    - step: '01'
+      title: 'Musterentwicklung (1–2 Einheiten)'
+      desc: 'Physische Bestätigung von Rumpfsteifigkeit, EVA-Antirutschpad-Griffigkeit, Grafikgenauigkeit und Zubehörpassform vor jeder finanziellen Verpflichtung. Mustergebühren gelten und werden nach Vertragsunterzeichnung auf den Produktionsauftrag angerechnet.'
+    - step: '02'
+      title: 'Pilotauftrag (20–50 Einheiten)'
+      desc: 'Kommerzielle Tests vor der Saison und regionale Marktvalidierung mit bestehenden Rumpfplattformen, Standardmaterialien und vereinfachter Verpackung, um den Rüstaufwand zu minimieren.'
+    - step: '03'
+      title: 'Mengenproduktion (90–100+ Einheiten)'
+      desc: 'Bestätigt nach eingefrorenem BOM, finalisiertem Artwork, individueller Verpackung und geplanten Lieferterminen — volle 150-m-Geweberollen, individuelle Pantone-Gewebe, maßgeschneiderte Verpackung, Mengenrabatte und vollständige Chargenrückverfolgbarkeit über die gesamte Kette.'
+
+moq_factors:
+  tagline: Was Ihren MOQ bestimmt
+  title: 'Warum der vollindividuelle MOQ immer projektspezifisch ist'
+  subtitle: 'Für 100 % maßgeschneiderte Fertigung wird der MOQ aus der vollständigen Produktarchitektur berechnet — diese vier Komponenten werden vor dem Angebot gemeinsam bewertet.'
+  headers:
+    component: Projektkomponente
+    driver: Fertigungstreiber
+    impact: Auswirkung auf die Mindestmenge
+  rows:
+    - component: 'Rumpfform & Werkzeug'
+      driver: 'Bestehende Factory-Rocker-Formen vs. individuelle CAD-Schnittwerkzeuge und EVA-Heißpresswerkzeuge'
+      impact: 'Bestehende Plattformen: Pilotaufträge ab 20 Stück. Eigene Rümpfe: Amortisation des dedizierten Werkzeugs erforderlich.'
+    - component: 'Farbvarianten & PVC'
+      driver: 'Einzelne Standard-Lagerfarben vs. proprietäre Pantone-gefärbte PVC-Bahnen'
+      impact: 'Individuelles Pantone-PVC erfordert dedizierte chemische Färbeläufe mit eigenen Rohstoff-Mindestmengen.'
+    - component: 'Gebrandete Verpackung'
+      driver: 'Standardkartons mit Barcode-Aufklebern vs. ganzfarbige 5-lagige Handelsgeschenkboxen und gebrandete Handbücher'
+      impact: 'Individuelle Farbkartons haben ein eigenes Offsetdruck-Mindestvolumen (in der Regel 500+ Kartons).'
+    - component: 'Zubehörpakete'
+      driver: 'Standard-Alu- oder Nylonpaddel vs. individuell passende Carbonpaddel und gebrandete Pumpen'
+      impact: 'Vollständig gebrandetes Zubehör folgt den Produktionslosen der Sub-Lieferanten.'
+
+moq_downloads:
+  tagline: Offizielle Dokumente
+  title: 'Bilinguale Policy-Dateien — herunterladen & teilen'
+  subtitle: 'Offizielle Dokumente der Qingdao Vatrad Group Co., Ltd., bereit zum Anhang an Käuferanfragen. Beide Dateien sind zweisprachig (Englisch / Chinesisch).'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Flexible Markenbildung & MOQ-Leitfaden (PDF)'
+      desc: 'Offizieller B2B-Leitfaden (Teil I, DOC-MOQ-EXP-2026-EN, veröffentlicht am 14. Aug. 2026): die technische Logik hinter den 150-m-Drop-stitch-Rollenerträgen (90–100 Boards), das Co-Branding-Programm ab 5–10 Einheiten, transparente Siebdruckkosten und die drei Produktionsstufen.'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Leitfaden herunterladen (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Flexible Markenbildung & Co-Branding-Policy (PDF)'
+      desc: 'Offizielles Policy-Dossier (Teil 1, POL-MOQ-2026-V1): Kleinserien-Co-Branding-Regeln, der projektbezogene MOQ-Rahmen, die vier Faktoren, die Mindestmengen bestimmen, und die gemeinsame Unterzeichnung durch Vertriebs-VP, Chefingenieur und QA-Direktor.'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link_label: 'Policy herunterladen (PDF)'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Häufig gestellte Fragen zum MOQ'
+  items:
+    - q: 'Wird der MOQ pro Auftrag, pro Modell oder pro Farbvariante berechnet?'
+      a: 'Der MOQ kann pro Modell, Farbvariante, Artwork-Version, Verpackungskonfiguration oder Gesamtauftrag gelten. Da unterschiedliche Drop-stitch-Dicken (12 cm vs. 15 cm) und PVC-Farben aus getrennten Rohstoffrollen stammen, erfordert eine Bestellung von 50 Boards auf 5 Farben verteilt 5 separate Geweberollen. Wir bestätigen die exakte Berechnung gegen Ihre SKU-Matrix vor dem Angebot, damit Sie Ihre Mischung planen können.'
+    - q: 'Kann ich vor der Massenproduktion ein Muster bestellen?'
+      a: 'Ja. Die Musterentwicklung (1–2 Einheiten) prüft Rumpfsteifigkeit, EVA-Antirutschpad-Griffigkeit, Grafikgenauigkeit und Zubehörpassform vor der Freigabe zur Massenproduktion. Mustergebühren gelten und werden nach Vertragsunterzeichnung auf den Produktionsauftrag angerechnet.'
+    - q: 'Warum hat individuelle Handelsverpackung einen eigenen MOQ?'
+      a: 'Individuelle Flexodruck- oder Offsetdruckpressen für Kartons erfordern ein Mindestrüstvolumen von 500+ Einheiten. Wir bieten eine Hybrid-Verpackungslagerlösung: Wir produzieren die 500 individuell bedruckten Kartons, lagern den Überschuss in unserem sauberen Lager und geben ihn über Ihre geplanten Board-Lieferungen frei — so kann auch eine kleinere Board-Bestellung vollständig gebrandet im Handelskarton versendet werden.'
+    - q: 'Warum beträgt der Standard-MOQ 90–100 Einheiten?'
+      a: 'Der Standard-MOQ folgt dem Rohmaterial: Eine 150-m-Masterrolle hochwertigen Drop-stitch-Gewebes ergibt ca. 90–100 fertige Boards für einen Standard-Touring- oder Allround-Rumpf. Volle Rollen eliminieren Gewebestückung, halten die Faserspannung gleichmäßig und amortisieren die 2-stündige Schweiß- und Laminierlinien-Kalibrierung — bei den niedrigstmöglichen Stückkosten.'
+    - q: 'Senkt eine höhere Menge den Stückpreis?'
+      a: 'Bei den meisten Projekten ja. Höhere Mengen verbessern die Materialausbeute, verteilen die Fixkosten der Produktionslinienrüstung auf mehr Boards und senken die Verpackungskosten pro Einheit.'
+    - q: 'Fallen Co-Branding-Formkosten bei Nachbestellungen erneut an?'
+      a: 'Nein. Siebdruck-Formkosten werden einmalig bei der Ersteinrichtung erhoben und für Nachbestellungen mit derselben Artwork-Abmessung erlassen. Sie zahlen nur die $1.00-USD-Werksbearbeitungs- und Druckgebühr pro Board.'
+    - q: 'Verpflichtet mich eine MOQ-Beratungsanfrage zu einem Auftrag?'
+      a: 'Nein. Eine projektbezogene MOQ-Beratungsanfrage erlaubt lediglich unserem Technikteam bei der Qingdao Vatrad Group Co., Ltd., Ihr technisches Briefing zu prüfen und den wirtschaftlichsten Produktionsweg zu empfehlen. Eine Geheimhaltungsvereinbarung (NDA) ist verfügbar, bevor Sie proprietäre technische Spezifikationen oder Artwork teilen.'
+
+evidence_review:
+  tagline: 'Nachweise & Verifizierung'
+  title: 'VERIFIZIERTE SPEZIFIKATIONEN'
+  body: 'Alle Fertigungsaussagen auf dieser Seite werden von unserem Manufacturing Engineering Team am Standort Laixi, Qingdao verifiziert. Zertifikate, QC-Prüfprotokolle, Druck- & Strukturtestberichte und Chargenrückverfolgungsprotokolle sind auf Anfrage verfügbar. Spezifikationen zuletzt verifiziert: September 2026.'
+
+cta:
+  title: 'Brauchen Sie MOQ-Beratung für Ihr SUP-Projekt?'
+  subtitle: 'Teilen Sie Ihr Zielmodell, die geschätzte Erstbestellmenge und Ihre Branding-Anforderungen. Wir beraten, ob ein Muster-, Pilot- oder Mengenweg der passende nächste Schritt ist. Eine Anfrage verpflichtet Sie nicht zu einer endgültigen Bestellmenge — eine NDA-Besprechung ist möglich.'
+  actions:
+    - variant: primary
+      text: Projektbezogene MOQ-Beratung anfordern
+      href: /de/contact#moq-guide
+    - text: Individueller SUP-MOQ & Lieferzeit-Aufschlüsselung
+      href: /de/sup-oem-moq-lead-time
+    - text: Neue Marke mit einer Probebestellung starten
+      href: /de/new-brand-trial-order
+    - text: Fabrik & Qualitätssystem verifizieren
+      href: /de/oem-trust-assurance
+    - text: Das 7-stufige Prüfsystem
+      href: /de/quality
+    - text: OEM- & ODM-Fertigungsübersicht
+      href: /de/oem-manufacturing
+    - text: SUP-Konstruktionsvergleich
+      href: /de/sup-construction-comparison

@@ -1,0 +1,242 @@
+meta:
+  title: 'Kontrolle nichtkonformer SUPs & Nacharbeit | OEM-Fabrik | SUPsfactory'
+  description: 'Kontrolle nichtkonformer Produkte (ISO 9001:2015 Abschnitt 8.7): NCR-Sperrung, kontrollierte Nacharbeit unter SRI, unabhängige Nachprüfung und begleitete Zerstörung.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'non conforming product control'
+    - 'sup rework re-inspection process'
+    - 'iso 9001 non-conforming outputs'
+    - 'ncr control manufacturing'
+    - 'scrap destruction certificate sup'
+    - 'inflatable sup oem quality control'
+
+hero:
+  tagline: Kontrolle nichtkonformer Produkte
+  title: Trennungs-, Nacharbeits- & Nachprüfprozess für nichtkonforme Produkte
+  subtitle: 'Bei QINGDAO VATRAD GROUP.,LTD. fließt ein nichtkonformes Board nie weiter. Jedes Produkt oder Komponente, das die definierten Abnahmekriterien verfehlt, wird identifiziert, gegen einen Non-Conformance Report (NCR) erfasst, gekennzeichnet und separiert, hinsichtlich des betroffenen Umfangs bewertet und auf der richtigen Führungsebene disponiert. Zulässige Nacharbeit folgt kontrollierten Anweisungen, korrigierte Artikel werden gegen die ursprünglichen Abnahmekriterien nachgeprüft — einschließlich vollständiger Neuprufung wo erforderlich — und Produkt wird nur nach autorisierter Qualitätsfreigabe versendet. Diese Seite stellt unseren kontrollierten Standard unter ISO 9001:2015 Abschnitt 8.7 und die dahinterstehenden Rückverfolgbarkeitsnachweise vor.'
+  actions:
+    - text: NCP-Kontroll-SOP herunterladen (PDF)
+      variant: primary
+      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Schrott- & Zerstörungszertifikat herunterladen (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: Qualitätsprüfung anfordern
+      href: /contact
+
+answer:
+  label: 'Klare Antwort'
+  text: 'Nichtkonforme Produkte werden bei QINGDAO VATRAD GROUP.,LTD. niemals versteckt, informell nachgearbeitet oder ohne Verifizierung freigegeben. Jede identifizierte Nichtkonformität wird gegen das betroffene Produkt, die Charge oder Komponente erfasst und mit einer NCR verknüpft. Der Artikel wird gekennzeichnet (HOLD / QUARANTINE / REJECTED), physisch separiert, und der betroffene Umfang wird nach Charge, Material-Lot, Prozessstufe und Dokumentenrevision bewertet. Die Disposition wird auf der Führungsebene entschieden, die dem Fehlerschweregrad entspricht: Leichte Probleme werden auf Linienebene abgezeichnet, schwere Probleme erfordern eine Disposition durch QC-Manager + Technischer Ingenieur mit kontrollierter Nacharbeitsanweisung und 100 % unabhängiger Nachprüfung, und kritische Probleme erfordern eine Entscheidung des Material Review Board mit schriftlicher Kundenzustimmung wo erforderlich — ansonsten verbindliche begleitete Zerstörung. Nachgearbeitete Artikel werden gegen die ursprünglichen Abnahmekriterien nachgeprüft, Luftdichtigkeitsreparaturen erhalten einen vollständigen neuen Drucktestzyklus, und die Versandfreigabe erfolgt nur nach autorisierter Qualitätsfreigabe. Wiederkehrende oder systemische Probleme lösen Ursachenanalysen und Korrekturmaßnahmen (CAPA) aus.'
+  verified: 'September 2026'
+
+stats:
+  tagline: Auf einen Blick
+  title: Nichtkonformitätskontrolle in Zahlen
+  stats:
+    - value: '7'
+      label: Schritte von der Identifikation zur Korrekturmaßnahme
+    - value: '100%'
+      label: Nachprüfung jedes nachgearbeiteten Boards durch unabhängige QA
+    - value: '24h'
+      label: Vollständiger Druckneutest für Luftdichtigkeitsreparaturen
+    - value: '≥ 5 yr'
+      label: Aufbewahrung der Begleit-Schrottnachweise (SHA-256-Vault)
+
+nc_intro:
+  tagline: Kontrolle nichtkonformer Produkte
+  title: Was passiert, wenn ein Produkt die Kriterien nicht erfüllt
+  body: |
+    Produkte oder Komponenten, die die definierten Abnahmekriterien nicht erfüllen, werden identifiziert und kontrolliert, um unbeabsichtigte Verwendung, Weiterverarbeitung oder Versand zu verhindern. Die anwendbaren Abnahmekriterien basieren auf dem freigegebenen Muster, der technischen Spezifikation, der Grafik, der Stückliste, den Verpackungsanforderungen und dem Projektinspektionsplan.
+
+    Nichtkonforme Artikel werden bewertet, um den betroffenen Umfang und die angemessene Disposition zu bestimmen. Je nach Problem kann der Artikel gehalten, unter kontrollierten Anweisungen nachgearbeitet, ersetzt, zurückgewiesen oder anderweitig über einen freigegebenen Prozess behandelt werden. Nachgearbeitete oder korrigierte Artikel werden vor der Freigabe erneut geprüft. Die Versandfreigabe ist nur nach Abschluss der relevanten Qualitätsaufzeichnungen und Erfüllung der anwendbaren Abnahmekriterien durch das Produkt zulässig.
+
+nc_flow:
+  tagline: Standard-7-Schritte geschlossener Kreislauf
+  title: Von der Identifikation zur Korrekturmaßnahme
+  subtitle: 'Ein kontrollierter Kreislauf für jede Nichtkonformität: identifizieren, sperren, prüfen, nacharbeiten oder ersetzen, nachprüfen, freigeben oder zurückweisen, verbessern.'
+  steps:
+    - step: '01'
+      title: Identifizieren
+      desc: 'Jede identifizierte Nichtkonformität wird gegen das betroffene Produkt, die Charge oder Komponente erfasst und gegen die anwendbaren Projektanforderungen bewertet. Die Erkennung kann beim Wareneingang, in der Prozesskontrolle, bei der Endprüfung, beim Verpacken oder bei der Kunden-/Drittinspektion erfolgen.'
+    - step: '02'
+      title: Sperren
+      desc: 'Artikel werden klar identifiziert und unter kontrolliertem Halt oder Quarantänestatus gelegt, um unbeabsichtigte Verwendung, Weiterverarbeitung oder Versand zu verhindern. HOLD / QUARANTINE / REJECTED-Etiketten tragen NCR-Nummer, SKU, Charge, Menge, Fehlerbeschreibung und Datum.'
+    - step: '03'
+      title: Prüfen
+      desc: 'Der betroffene Umfang und die angemessene Disposition werden bewertet: einzelne Einheit, Schichtcharge, vollständige Charge oder mehrere Chargen — über gemeinsame Material-Lots, Grafikrevisionen, Prozessstufen und Dokumentenrevisionen. Zusätzliche Eindämmung oder verschärfte Inspektion wird bei Bedarf angewendet.'
+    - step: '04'
+      title: Nacharbeit oder Ersatz
+      desc: 'Zulässige Nacharbeit folgt freigegebenen Anweisungen, die den betroffenen Artikel, die Methode, die Materialien, die Inspektionspunkte und die Nachprüfanforderungen identifizieren. Nicht genehmigte Änderungen an Produktspezifikation, Grafik, Zubehörkonfiguration oder Verpackung sind niemals erlaubt. Ersatzartikel treten wieder in die anwendbaren Inspektionsgates ein.'
+    - step: '05'
+      title: Nachprüfen
+      desc: 'Nachgearbeitete oder korrigierte Artikel werden gegen die anwendbaren Abnahmekriterien erneut geprüft. Das ursprünglich fehlgeschlagene Merkmal und alle damit verbundenen Merkmale, die von der Nacharbeit potenziell betroffen sind, werden vor der Freigabe verifiziert — durch unabhängige QC und bei Luftdichtigkeitsreparaturen mit einem vollständigen neuen 24h-Drucktestzyklus.'
+    - step: '06'
+      title: Freigeben oder Zurückweisen
+      desc: 'Produkt wird erst nach Abschluss der erforderlichen Nachprüfung freigegeben, wenn autorisiertes Qualitätspersonal die Konformität mit den anwendbaren Projektanforderungen bestätigt. Artikel, die nicht in Konformität gebracht werden können, werden zurückgewiesen, ersetzt, zurückgesendet oder unter kontrollierten Verfahren disponiert — einschließlich begleiteter physischer Zerstörung.'
+    - step: '07'
+      title: Korrekturmaßnahme
+      desc: 'Wiederkehrende, bedeutende oder systemische Nichtkonformitäten werden auf Ursache und Korrekturmaßnahme (CAPA) untersucht. Verbesserungen können Aktualisierungen von Arbeitsanweisungen, Materialkontrollen, Inspektionspunkten, Schulungen, Lieferantenmanagement oder Dokumentenkontrolle umfassen.'
+
+nc_pillars:
+  tagline: Säulen des Käufervertrauens
+  title: Drei Kontrollen, die Ihre Marke schützen
+  subtitle: 'Der Prozess ist um die Fragen aufgebaut, die Überseekäufer tatsächlich stellen: werden Probleme versteckt, läuft Nacharbeit außer Kontrolle, und werden reparierte Boards erneut verifiziert.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Nur kontrollierte Anweisungen
+      desc: 'Nacharbeit wird strikt durch autorisierte Standard Rework Instructions (SRI) geregelt. Nicht genehmigte Feldänderungen, Änderungen an Spezifikationen oder Modifikationen von Grafiken ohne schriftliche Autorisierung sind strikt verboten.'
+    - icon: 2
+      icon_bg: green
+      title: Unabhängige Nachprüfung
+      desc: 'Nachgearbeitete Boards unterziehen sich einer 100 %-Nachprüfung durch QA-Inspektoren gegen die ursprünglichen Abnahmekriterien. Luftdichtigkeitsreparaturen erfordern einen brandneuen, vollständigen 24h-Drucktestzyklus — niemals eine teilweise Nachprüfung.'
+    - icon: 3
+      icon_bg: purple
+      title: Autorisierte Freigabe & Rückverfolgbarkeit
+      desc: 'Die Versandfreigabe ist ausschließlich nach vollständiger NCR-Dokumentation und autorisierter QC-Freigabe zulässig, wobei der Chargenstatus von HOLD auf RELEASED wechselt. Systemische oder wiederkehrende Abweichungen lösen automatisch CAPA-Workflows zur Ursachenanalyse aus.'
+
+nc_photos:
+  tagline: Auf der Fabrikfläche
+  title: Sperrung, Nacharbeit & Nachprüfung in der Praxis
+  subtitle: Fotos aus unserer Werkstatt in Qingdao zeigen, wie nichtkonforme Boards physisch separiert, unter kontrollierten Anweisungen nachgearbeitet und vor jeder Freigabeentscheidung erneut verifiziert werden.
+  features:
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Aufgeblasene aufblasbare SUP-Boards im Luftdichtigkeitstestbereich der Fabrik, überwacht von digitalen Manometern
+      title: Nachprüf-Gate
+      desc: 'Nach der Nacharbeit kehrt jedes Board zur QC-Testfläche für die unabhängige Verifikation zurück: aufgeblasen und mit digitalen Manometern gegen die projektfreigegebenen Abnahmekriterien überwacht — niemals eine Teilprüfung.'
+    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Qualitätskontroll-Checklisten und kontrollierte Haltstatus-Etiketten an der Fabrikinspektionsstation
+      title: Halt- & Quarantänestation
+      desc: 'Inspektionsstation mit QC-Checklisten und Statuskennzeichnung. Jeder Artikel, der die Abnahmekriterien verfehlt, wird als HOLD / QUARANTINE markiert, gegen eine NCR erfasst und physisch separiert — er kann erst nach autorisierter Disposition und verbindlicher Nachprüfung zum Verpacken weitergehen.'
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: QC-Techniker führt kontrollierte Luftdichtigkeitsnacharbeit an einem aufblasbaren SUP an der Nacharbeitsstation der Fabrik durch
+      title: Kontrollierte Nacharbeitsstation
+      desc: 'Nacharbeit erfolgt an einer dedizierten Station unter einer freigegebenen SRI-Anweisung: Der Fehler wird markiert, das Board bleibt auf HOLD, und nach der erforderlichen Aushärtezeit kehrt es zur Testfläche für die Nachprüfung gegen die ursprünglichen Abnahmekriterien zurück.'
+    - image: https://assets.supsfactory.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: Werkstattdemonstration von Qualitätskontrollprüfungen in der Qingdao-Fabrik
+      title: Werkstatt-QC-Demonstration
+      desc: 'Demonstrationsfoto aus der Werkstatt, das die in der Praxis angewendeten Qualitätskontrollprüfungen zeigt und die Inspektions- und Statustransfer-Aufzeichnungen stützt, auf die auf dieser Seite durchgehend verwiesen wird.'
+
+nc_severity:
+  tagline: Fehlerschweregrad & Befugnis
+  title: Schweregradklassifizierung & Dispositionsbefugnis
+  subtitle: Nicht jede Nichtkonformität wird auf derselben Ebene behandelt — die Dispositionsbefugnis skaliert mit dem Fehlerschweregrad, von der Freigabe auf Linienebene bis zum Material Review Board und zur Kundenzustimmung.
+  headers:
+    severity: Schweregrad
+    examples: Typische Beispiele
+    authority: Dispositionsbefugnis & Kontrolle
+    control: Freigabebedingung
+  rows:
+    - severity: 'Leicht'
+      examples: 'Kartonkantenfalz, leichte nicht-kritische Zubehörfehlausrichtung'
+      authority: 'Vor-Ort-Freigabe durch QC-Leitung der Sektion + Linienvorgesetzter, Ersatz oder Freigabe'
+      control: 'Im NCR erfasst; keine Auswirkung auf Produktfunktion oder Kundenanforderungen'
+    - severity: 'Schwer'
+      examples: 'Langsames Ventilleck, EVA-Fehlausrichtung außerhalb der Toleranz (>2 mm), fehlendes Zubehör'
+      authority: 'QC-Manager + Technischer Ingenieur erteilen eine kontrollierte Nacharbeitsanweisung (SRI)'
+      control: '100 % unabhängiger Neukonformance-Test der ursprünglich fehlgeschlagenen und betroffenen Merkmale vor der Freigabe'
+    - severity: 'Kritisch'
+      examples: 'Drop-Stitch-Kammerschaden, Railblase oder Riss unter hohem Druck, Kundenlogo-Fehldruck oder Farbabweichung'
+      authority: 'Entscheidung des Material Review Board (MRB); schriftliche Kundenzustimmung wo erforderlich'
+      control: 'Keine Freigabe ohne autorisierte Zustimmung; ansonsten verbindliche begleitete physische Zerstörung'
+
+nc_matrix:
+  tagline: Engineering-Protokollmatrix
+  title: SUP-Fehlerdispositions- & Nachprüfmatrix
+  subtitle: Standard-Engineering-Protokolle, die auf die häufigsten Fertigungsabweichungen angewendet werden — dieselben quantifizierten Parameter, die Kunden während Audits verifizieren können.
+  headers:
+    defect: Fehlerkategorie
+    protocol: Kontrolliertes Dispositionsprotokoll
+    validation: Unabhängige Nachprüfung & Validierung
+  rows:
+    - defect: 'Langsames Ventilleck'
+      protocol: 'Board isolieren. Ventilkern mit kalibriertem Drehmomentwerkzeug (25 N·m) demontieren, Innengewinde reinigen, Silikon-O-Ring ersetzen und erneut festziehen.'
+      validation: 'In Seifenlösung eintauchen; auf 18 PSI aufblasen und vollständigen 24h-Druckabfalls-Neutest durchführen (ΔP ≤ 0.05 PSI).'
+    - defect: 'Luftblasen in der Railnaht'
+      protocol: 'Schichtcharge sperren. Blasenbereich mit wärmeunterstützter Düse delaminieren, Oberfläche lösungsmittelreinigen, zweikomponentigen PU-Klebstoff unter 5 bar Druck auftragen.'
+      validation: '100 % Nahtsicht- und Tastprüfung; strukturelle Proof-Druckprüfung (18.0 PSI) plus 24h-Luftdichtheitshalt.'
+    - defect: 'EVA-Pad-Fehlausrichtung'
+      protocol: 'Wärmeunterstütztes Abziehen mit temperaturreguliertem Werkzeug (80°C). Neuausrichtung mit präziser Acryl-Positionierschablone.'
+      validation: 'Verifizierung der Spaltfertigungstoleranz (≤ ±1.5 mm), Diamantmuster-Symmetrieprüfung, 100 % Kantenhaftungstest.'
+    - defect: 'Branding-/Logotippfehler'
+      protocol: 'Sofortiger Drucklinienstopp. Alle bedruckten Paneele anhalten. Vektorrevision mit dem Kunden prüfen; null nicht genehmigte Änderungen.'
+      validation: 'Spektralphotometer-Farbprüfung (ΔE ≤ 1.5); 100 % Sichtprüfung der Textausrichtung gegen die vom Kunden unterzeichnete Vektor-Master-PDF.'
+    - defect: 'Verpackungsabweichung / fehlende SKU'
+      protocol: 'Exportpalette sperren. Auspacken und 100 % Positionsprüfung gemäß BOM durchführen (Pumpe, Finne, Leash, Paddel, Reparaturrohr).'
+      validation: 'Inline dynamische elektronische Kontrollwaagen-Validierung (±30 g Varianz); optische 2D-Barcodescanner-Verifizierung.'
+
+nc_scrap:
+  tagline: Null Marktleckage
+  title: Begleitete Verschrottung & Zerstörung — Null-Fehler-Antidiversionsprotokoll
+  body: |
+    Überseeische Markenpartner brauchen Gewissheit, dass fehlerhafte Boards niemals in den Zweiteinzelhandel, graue Märkte oder E-Commerce-Kanäle gelangen. Boards, die nicht in Konformität gebracht werden können, werden unter einem begleiteten, aufgezeichneten Protokoll zerstört:
+
+    **1. Beschlag- & Zubehörabscheren.** Unter Aufsicht des QA-Direktors entfernt eine hydraulische Schere alle D-Ringe aus 316er-Edelstahl, Tragegriff-Gurte und Gepäckschnallen. Die Aufblasventilbaugruppe und der Finbox-Sockel (US-Box / Einrastfinne) werden an der Boardwurzel herausgeschnitten, wodurch alle wiederverwertbaren Komponenten eliminiert werden.
+
+    **2. Drop-Stitch-Schlitzen & Railsektionierung.** Der interne Drop-Stitch-Kern wird durch Board und Deck mit tiefen kreuzweisen Schnitten (≥ 50 cm pro Schnitt) durchgetrennt, und die verstärkten Seitenrails werden in mindestens 4 Segmenten durchtrennt — wodurch Versiegelungsfähigkeit und Auftrieb dauerhaft zerstört werden.
+
+    **3. Video- & Fotovault.** Die Zerstörung wird als ungeschnittenes 1080p-Video mit Nahaufnahmen des Serienbarcodes, des Abscherens, des Kernschützens und des endgültigen gewogenen Schrotthaufens aufgezeichnet. Das Video wird gehasht (SHA-256) und für ≥ 5 Jahre auf einem kontrollierten Server archiviert.
+
+    **4. Zertifizierte Abfallentsorgung.** Alle PVC- und Drop-Stitch-Fragmente werden gewogen, im Ausgangsbuch erfasst und nur von qualifizierten Polymer-Recycling-Partnern transportiert — kein Reststoff verlässt die Anlage über andere Kanäle.
+
+    > **Markenschutzgarantie:** QINGDAO VATRAD GROUP CO., LTD. garantiert die 100 %-Zerstörung nicht nacharbeitbarer, außerhalb der Spezifikation liegender Wasserfahrzeuge. Null Fabrik-Sekundenartikel oder kompromittierte Boards werden jemals in Zweiteinzelhandel, graue Märkte oder E-Commerce-Kanäle gelangen. Das Schrott- & Zerstörungszertifikat (VAT-QA-SCRAP-CERT-2026) dokumentiert Produkt, Charge, MRB-Schlussfolgerung, Zeugenfotos und die doppelte Zeichnung durch QA-Direktor und Werksleiter.
+
+nc_downloads:
+  tagline: Herunterladbare QMS-Dokumente
+  title: Kontrollierte zweisprachige Dokumente (PDF)
+  subtitle: Offizielle EN/ZH zweisprachige Dokumente der QINGDAO VATRAD GROUP.,LTD. — strukturiert unter ISO 9001:2015 Abschnitt 8.7 und bereit für Kundenaudits, B2B-Technik-Whitepapers und kontrollierte Shopfloor-Verteilung.
+  features:
+    - icon: N
+      icon_bg: blue
+      title: SOP zur Kontrolle nichtkonformer Produkte (PDF)
+      desc: 'Auf ISO 9001:2015 Abschnitt 8.7 basierende zweisprachige SOP: 8-stufige Kreislaufkontrolle, die SUP-Fehlerdispositionsmatrix, NCR-Datenstruktur und Kundenqualitätsverpflichtung.'
+      link: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link_label: PDF herunterladen
+    - icon: S
+      icon_bg: orange
+      title: Schrott- & Zerstörungszertifikat (PDF)
+      desc: 'VAT-QA-SCRAP-CERT-2026: Produkt- und Chargen-Rückverfolgbarkeit, MRB-Schlussfolgerung, das 4-Schritte-Protokoll zur physischen Zerstörung, Zeugenfoto-Felder und doppelte Zeichnungsfläche.'
+      link: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link_label: PDF herunterladen
+    - icon: R
+      icon_bg: green
+      title: Kontrollierte Nacharbeits-Governance (Seite)
+      desc: 'Begleitseite für die freigegebenen Luftdichtigkeits-Nacharbeitsmethoden MC-RW-01 bis MC-RW-06 und den 7-stufigen kontrollierten Nacharbeitsworkflow.'
+      link: '/de/factory/quality-inspection'
+      link_label: Seite ansehen
+    - icon: C
+      icon_bg: purple
+      title: Standard der Nacharbeits-Änderungskontrolle (Seite)
+      desc: 'Formelle ISO-9001-Änderungskontrolle für Nacharbeitsparameter: ECR, Risikoklassifizierung, Freigabematrix, Validierungsplan und Poka-Yoke-Sicherungen — QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/de/factory/quality-change-control'
+      link_label: Seite ansehen
+
+faqs:
+  tagline: FAQ
+  title: FAQ zu Qualität & Fehlerkontrolle für globale Käufer
+  items:
+    - q: 'Wie garantieren Sie, dass nachgearbeitete Boards die vollständigen Sicherheitsstandards erfüllen?'
+      a: 'Jedes nachgearbeitete Board wird wie eine neue Einheit behandelt und muss denselben vollständigen Testzyklus von Null durchlaufen — bei Luftdichtigkeitsreparaturen einen vollständigen 24h-Drucktest. Unabhängige QC-Inspektoren, nicht die Nacharbeitsoperatoren, führen die Freigabevalidierung durch.'
+    - q: 'Wird die Fabrik Boards mit leichten kosmetischen Abweichungen versenden, ohne uns zu informieren?'
+      a: 'Niemals. Jede Abweichung, die kundenfreigegebene Golden Samples, Logografiken, Farbvarianten oder Verpackung betrifft, erfordert eine formelle schriftliche Konzessionsvereinbarung, die der Kunde vor der Versandfreigabe unterzeichnet.'
+    - q: 'Was passiert, wenn ein nachgearbeitetes Board die Nachprüfung nicht besteht?'
+      a: 'Das Board wird nicht freigegeben. Es kehrt zu einer neuen Dispositionsprüfung zurück, und wenn es nicht in Konformität gebracht werden kann, wird es unter dem begleiteten Schrottprotokoll ersetzt, zurückgewiesen oder zerstört. Wiederholtes Versagen derselben Fehlerklasse löst CAPA zur Ursachenanalyse aus.'
+    - q: 'Können fehlerhafte Boards als Fabrik-Sekundenartikel oder über andere Kanäle verkauft werden?'
+      a: 'Nein. Nicht nacharbeitbare Boards außerhalb der Spezifikation werden unter dem begleiteten Schrottprotokoll physisch zerstört — Beschläge abgeschert, Kern und Rails durchtrennt, Video mit SHA-256-Hash aufgezeichnet und für mindestens 5 Jahre archiviert. Das Schrott- & Zerstörungszertifikat wird vom QA-Direktor und Werksleiter unterzeichnet.'
+    - q: 'Wie wird der betroffene Umfang bewertet, wenn ein Fehler gefunden wird?'
+      a: 'Der Umfang wird nach Produktidentifikation, Produktionscharge, Material- oder Komponentencharge, Prozessstufe und anwendbarer Dokumentenrevision geprüft. Wenn dasselbe Material-Lot, dieselbe Grafikrevision oder dieselbe Arbeitsstation betroffen ist, werden betroffene Produkte entsprechend eingeschlossen und geprüft.'
+    - q: 'Benötigen wir Ihre Zustimmung, bevor eine Konzession erteilt wird?'
+      a: 'Ja. Jede Abnahme unter einer dokumentierten Konzession, die Kundenanforderungen betrifft — freigegebene Muster, Spezifikation, Grafik, Verpackung oder Abnahmekriterien — erfordert die schriftliche Kundenfreigabe vor der Freigabe. Ohne diese wird das Produkt gemäß der ursprünglichen Anforderung nachgearbeitet, ersetzt oder zurückgewiesen.'
+    - q: 'Welche Dokumentation erhalten wir bei einer Nichtkonformität?'
+      a: 'Der NCR-Datensatz umfasst NCR-Nummer, Erkennungsstufe, Produkt/SKU, Charge, anwendbare Dokumentenrevisionen, Fehlerbeschreibung, Eindämmung, Disposition, Referenz der Nacharbeitsanweisung, Nachprüfergebnis und Freigabe- oder Abschlussfreigabe — verfügbar gemäß Ihrer Projektqualitätsvereinbarung.'
+
+cta:
+  title: Qualitätsbedenken werden über einen kontrollierten Prozess verwaltet
+  desc: 'Teilen Sie Ihre projektspezifischen Qualitäts-, Inspektions- oder Dokumentationsanforderungen während der Anfrage — wir können die anwendbaren Kontrollpunkte vor der Musterentwicklung oder Produktionsplanung prüfen.'
+  actions:
+    - text: Qualitätsanforderungen besprechen
+      variant: primary
+      href: /contact
+    - text: NCP-Kontroll-SOP herunterladen (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Schrottzertifikat herunterladen (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

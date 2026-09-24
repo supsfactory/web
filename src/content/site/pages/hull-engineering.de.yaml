@@ -1,0 +1,94 @@
+meta:
+  title: 'SUP-Rumpfkonstruktion — CAD- & FEA-Boarddesign'
+  description: 'SUP-Board-Konstruktionsstudio: CAD-Boarddesign, Finite-Elemente-Analyse (FEA) von Drop-Stitch-Strukturen und kundenspezifische Rumpfformen für OEM-Projekte.'
+back_text: 'Zurück zum F&E-Zentrum'
+home_label: 'Startseite'
+
+hero:
+  tagline: 'Labor 02'
+  title: 'Board-Konstruktionsstudio'
+  subtitle: 'Digitale Simulation, strukturelle Intelligenz, kundenspezifisches Boarddesign'
+  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion.webp'
+  image_alt: 'CAD-Arbeitsplatz für SUP-Board-Konstruktion bei Vatrad'
+
+answer:
+  label: 'Klare Antwort'
+  text: 'Kundenspezifische SUP-Boards werden hausintern mit SolidWorks-3D-Oberflächenmodellierung, ANSYS-FEA und CFD entworfen — jedes Board wird vor der Prototypenfertigung auf Spannungsverteilung und Decksteifigkeit simuliert, mit einem verbindlichen Sicherheitsfaktor von ≥ 2,5. Eine kundenspezifische Form benötigt 7–12 Tage bis zum Prototyp; eine vollständige kundenspezifische Formwerkzeugfertigung verlängert die 25–35-tägige Produktionsvorlaufzeit um 15–20 Tage, wobei die MOQ durch die Projektkonfiguration bestätigt wird (siehe unseren MOQ-Leitfaden).'
+  verified: 'September 2026'
+
+intro: 'Die Rumpfform eines SUP-Boards — sein Rocker, das Railprofil, das Bug- und Heckvolumen — bestimmt, wie es paddelt, wendet und spurt. Unser Board-Konstruktionsstudio bei {SITE.name} verbindet CAD-Oberflächenmodellierung, Finite-Elemente-Analyse (FEA) von Drop-Stitch-Strukturen und Produktionserfahrung, um Boards zu liefern, die für ihren Verwendungszweck optimiert sind: Allround-Stabilität, Touring-Gleiten oder Surf-Performance. Jedes kundenspezifische Board beginnt mit Ihrer Spezifikation, nicht mit einer generischen Form aus dem Katalog.'
+
+content_html: |
+  <h2>Wo Festigkeit auf Hydrodynamik trifft</h2>
+  <p>Ein aufblasbares SUP-Board ist eine Drop-Stitch-Struktur: Tausende Polyesterfäden verbinden die obere und untere PVC-Haut und halten das Deck bei 12–15 PSI eben, während die Rail- und Buggeometrie das Verhalten des Boards im Wasser bestimmt. Wir konstruieren die 3D-Form, simulieren die aufgeblasene Struktur und validieren das Ergebnis hausintern, bevor auch nur ein einziges Muster geschnitten wird.</p>
+
+  <h2>Konstruktionswerkzeuge und Standards</h2>
+  <p>Unsere digitale Konstruktionsumgebung umfasst:</p>
+  <table>
+    <thead><tr><th>Fähigkeit</th><th>Software / Werkzeug</th><th>Anwendung</th></tr></thead>
+    <tbody>
+      <tr><td>3D-Parametermodellierung</td><td>SolidWorks Professional</td><td>Boardoberfläche, Rockerlinie, Railprofil, Griff- &amp; Fin-Integration</td></tr>
+      <tr><td>Finite-Elemente-Analyse</td><td>ANSYS Mechanical</td><td>Drop-Stitch-Kern-Spannungsverteilung, Decksteifigkeit unter Last, Griffpunkt-Verstärkung</td></tr>
+      <tr><td>Computational Fluid Dynamics</td><td>Ansys Fluent</td><td>Hydrodynamische Widerstandsvorhersage, Gleittrim-Optimierung</td></tr>
+      <tr><td>Laminierungs-Engineering</td><td>ESAComp</td><td>PVC-Schichtaufbau, Gewebegewichtsauswahl, Gewichtsschätzung</td></tr>
+      <tr><td>Werkzeugoberflächen-Review</td><td>Moldex3D</td><td>Schweißwerkzeug-Geometrieprüfung für RF-Schweißen</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Unser Konstruktionsworkflow</h2>
+  <p>Jedes Boarddesign, ob Standardmodell oder vollständig kundenspezifisches Projekt, folgt einem strengen fünfstufigen Prozess:</p>
+  <ol>
+    <li><strong>Konzept- &amp; Anforderungserfassung</strong> — Wir definieren den Fahrergewichtsbereich, den Verwendungszweck (Allround, Touring, Surf, Yoga, Verleihflotte), Längen-, Breiten- und Dickenziele sowie besondere Merkmale (Stausysteme, Deckpads, Befestigungspunkte).</li>
+    <li><strong>3D-Oberflächenmodellierung &amp; Volumenberechnung</strong> — Die Boardform wird in SolidWorks modelliert und auf Volumenverteilung, Verdrängung und Stabilität gegenüber dem Ziel-Fahrergewicht geprüft.</li>
+    <li><strong>Strukturelle FEA</strong> — Das aufgeblasene Board wird unter Stehlast analysiert, sowohl statisch (Fahrer in der Mitte, 100 kg) als auch dynamisch (Wellenaufprall am Rail). Spannungskonturen werden geprüft; ein Sicherheitsfaktor von ≥ 2,5 ist verbindlich.</li>
+    <li><strong>CFD-Widerstandsoptimierung</strong> — Der Rumpf wird bei drei Lastzuständen und fünf Geschwindigkeiten simuliert. Benetzte Oberfläche, Trimwinkel und Restwiderstand werden iterativ reduziert.</li>
+    <li><strong>Design-Review &amp; Freigabe</strong> — Das vollständige Engineering-Paket (3D-Modell, FEA-Bericht, CFD-Bericht, Gewichtsschätzung, Panel-Lageplan) wird vor der Freigabe an die Prototypenwerkstatt von unserem Senior-Engineer geprüft.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">FEA-Ergebnisse — 11''0-Allround-Board (32'' breit, 6'' dick)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2,8 : 1</span>
+        <span class="text-gray-500">Sicherheitsfaktor bei 120 kg Stehlast</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Deckdurchbiegung bei 15 PSI, ohne Last</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3,2 mm</span>
+        <span class="text-gray-500">Maximale Deckdurchbiegung unter 120-kg-Fahrer</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Analyse-Druck — Betriebsdruck der Plattform</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Individualisierung: Ihr Board, Ihre Regeln</h2>
+  <p>Keine zwei Marken haben identische Anforderungen. Eine Verleihflotte braucht ein breites, stabiles Allround-Board mit verstärkten Rails; eine Touring-Marke braucht eine längere Verdrängungsnase mit Cargo-Befestigungen; eine surforientierte Linie braucht ein zurückgezogenes Heck und Rockerprofil. Wir pressen Ihre Produktlinie nicht in vorgefertigte Formen — wir konstruieren von Ihrer Spezifikation ausgehend aufwärts.</p>
+  <p>Beispiele für aktuelle kundenspezifische Board-Konstruktionsprojekte:</p>
+  <ul>
+    <li>Ein 14''-Touring-SUP für eine Ausdauer-Paddelmarke, mit Verdrängungsnase und versenktem Cargo-Deck (+15 % Wasserlinienlänge für besseres Gleiten).</li>
+    <li>Ein 10'6''-breites Allround-Board für eine Resort-Flotte, mit doppellagigen Seitenrails und einer Nennkapazität von 220 lb.</li>
+    <li>Ein 9''-Surf-SUP mit zurückgezogenem Heck und progressivem Rocker, entwickelt für eine eigene Surfschul-Linie.</li>
+  </ul>
+
+  <h2>Unsere Ingenieure</h2>
+  <p>Das Studio wird von einem Senior-Produktingenieur mit 14 Jahren Erfahrung im Design aufblasbarer Produkte geleitet, unterstützt von zwei Maschinenbauingenieuren, die auf FEA und CFD spezialisiert sind. Alle drei besitzen fortgeschrittene Ingenieurabschlüsse von international anerkannten Universitäten, und das Team arbeitet direkt mit unserer Produktionshalle zusammen, um sicherzustellen, dass jedes Design in Containermaßstab fertigbar ist.</p>
+
+  <h2>Gestalten Sie mit uns Ihr nächstes Board</h2>
+  <p>Vom ersten Konzeptskizze bis zum finalen Spannungsbericht ist unser Board-Konstruktionsstudio Ihr Partner bei der Entwicklung eines Boards, das nicht nur gebaut, sondern konstruiert ist. Wir investieren die Simulationszeit im Voraus, damit jede Schweißnaht, jede Laminatschicht und jede Kurve des Rails einen Zweck hat.</p>
+  <p>Ob Sie eine kleinere Modifikation an einem bestehenden Modell oder ein komplettes Neudesign benötigen — wir sind bereit, Ihre Anforderungen zu besprechen.</p>
+
+cta:
+  title: 'Starten Sie Ihre Board-Design-Beratung'
+  subtitle: 'Teilen Sie uns Ihre Ziel-Fahrer und den Verwendungszweck mit, und wir schlagen Ihnen einen Engineering-Weg vor.'
+  actions:
+    - variant: primary
+      text: Kontaktieren Sie unser Engineering-Team
+      href: /contact#project-brief
+    - text: Zurück zum F&E-Zentrum
+      href: /randdcenter

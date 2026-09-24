@@ -1,0 +1,169 @@
+meta:
+  title: 'Proof Center —Die Belege hinter jeder Fertigungsaussage'
+  description: 'Beleger-Ordner hinter SUPsfactory-Aussagen: Entitätsbeziehungen, Zertifikate mit Geltungsbereich, Ausrüstungsliste, Chargenrückverfolgbarkeit und Prüfdokumentation.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'SUP-Fabrikbelege'
+    - 'Liste der Fabrikzertifizierungen'
+    - 'SUP-Chargenrückverfolgbarkeit'
+    - 'Verifizierung der SUP-Fabrik'
+    - 'Fertigungsnachweise China'
+
+hero:
+  tagline: 'Fabrik-Belege-Hub'
+  title: 'Proof Center —Alles, was wir behaupten, ist hier abgelegt'
+  subtitle: 'Eine Seite, die jede Aussage dieser Website ihrem Beleg zuordnet: die registrierte Entität hinter der Fabrik, Zertifikate mit Geltungsbereich, die Maschinen, die die Arbeit erledigen, und die Chargenaufzeichnungen, die jeden Produktionslauf überdauern.'
+  actions:
+    - { variant: primary, text: 'Verifizierungspaket anfordern', href: '/de/contact#trust-verification' }
+    - { variant: ghost, text: 'Das Qualitätssystem erkunden', href: '/de/quality' }
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Die Kette von Aussage zu Beleg funktioniert so: Jede Aussage dieser Website stützt sich auf eine Registrierung, ein Zertifikat, eine Maschine, ein Dokument oder ein Testprotokoll — und jedes davon kann eingesehen werden. SUPsfactory ist die SUP-Produktentwicklungs- und Fertigungsdivision der Qingdao Vatrad Group Co., Ltd. (seit 2012 in Qingdao registriert). Die 12,500 m² große Anlage verfügt über ISO-9001:2015-Qualitätsmanagement, ISO-25649-Konformität, CE-Konformitätsdokumentation, BSCI-Sozialkonformität (Auditbericht auf Anfrage) und REACH/RoHS-Materialdokumentation pro Auftrag. Jede aufblasbare Kammer wird 24 Stunden bei 18,0 PSI getestet mit automatischer Aussortierung über 0,50 PSI Abfall, und die Chargenaufzeichnungen werden mit 10-jähriger ERP-Rückverfolgbarkeit geführt. Der Papierpfad ist veröffentlicht oder teilbar, und die Fabrik selbst ist audit-offen.'
+  verified: 'September 2026'
+
+entities:
+  tagline: 'Wer hinter der Fabrik steht'
+  title: 'Ein Fertigungsbetrieb, eine juristische Person'
+  subtitle: 'Die Vertriebsseite, die Fertigungsdivision und die juristische Person führen alle auf einen Betrieb zurück, den Sie von der Website bis zum Handelsregister verifizieren können.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'SUPsfactory — die öffentliche Website'
+      desc: 'Die SUP-OEM/ODM- und Private-Label-Produktlinie mit ihrer öffentlichen Dokumentation: Katalog, MOQ-Leitfaden, Qualitätssystemseiten und Fallstudien. Der Name, mit dem Sie verhandeln, ist der Name, den Sie prüfen.'
+      link: '/de/about/supsfactory-entity'
+      link_label: 'Entitätsseite der Website'
+    - icon: A
+      icon_bg: green
+      title: 'Vatrad — die Fertigungsdivision'
+      desc: 'Die Meeresfertigungsdivision hinter der Anlage: SUP-Boards, Schlauchboote und RIBS werden in derselben Qingdao-Einrichtung produziert. Produkt- und Qualitätsdokumentation wird unter diesem Namen ausgestellt.'
+      link: '/de/factory'
+      link_label: 'Die Fabrik erkunden'
+    - icon: V
+      icon_bg: orange
+      title: 'Qingdao Vatrad Group Co., Ltd. — die juristische Person'
+      desc: 'Der registrierte Hersteller (seit 2012), der die 12,500 m² große Anlage in der Wirtschaftsentwicklungszone Laixi, Qingdao, betreibt. Registrierungsdetails, Exporthandelslizenz und Auditunterlagen werden unter NDA oder während eines Audits geteilt.'
+      link: '/de/oem-trust-assurance'
+      link_label: 'Die Verifizierungs-Fallstudie ansehen'
+
+proof_stats:
+  - value: '12,500 m²'
+    label: 'Ein Werksgelände'
+    detail: '4 Spezialwerkstätten, offen für Audits'
+  - value: '350+'
+    label: 'Mitarbeiter vor Ort'
+    detail: '25+ Ingenieure in F&E, Materialien und QC'
+  - value: '120,000+'
+    label: 'Boards pro Jahr'
+    detail: '~10.000 Boards/Monat auf 4 automatisierten Linien'
+  - value: '50+'
+    label: 'Bediente Länder'
+    detail: 'Europa, Amerika, APAC, Naher Osten'
+  - value: '7-stufig'
+    label: 'Prüf-Torsystem'
+    detail: 'Node 01–07, je Seriennummer erfasst'
+  - value: '10 Jahre'
+    label: 'ERP-Chargenrückverfolgbarkeit'
+    detail: 'Chargenaufzeichnungen je Los geführt und verknüpft'
+
+certifications:
+  tagline: 'Zertifikate & Geltungsbereich'
+  title: 'Was wir halten, was es abdeckt, wie es verifiziert wird'
+  subtitle: 'Die veröffentlichte Liste — nie „nur auf Anfrage verfügbar". Zertifikatsnummern und Auditunterlagen werden auf Anfrage oder während eines Audits geliefert.'
+  headers:
+    certificate: 'Zertifikat / Standard'
+    scope: 'Abdeckung'
+    verify: 'So verifizieren'
+  rows:
+    - certificate: 'ISO 9001:2015'
+      scope: 'Qualitätsmanagement für SUP-Design und -Produktion'
+      verify: 'Zertifikatsnummer und Auditunterlagen auf Anfrage oder während eines Audits'
+    - certificate: 'ISO 25649'
+      scope: 'Sicherheit und strukturelle Konformität aufblasbarer Wasserfahrzeuge (Europa)'
+      verify: 'Konformitätsdokumentation pro Produktfamilie'
+    - certificate: 'CE'
+      scope: 'EU-Konformität für aufblasbare SUP-Produkte'
+      verify: 'CE-Dokumentation wird mit den Aufträgen geliefert'
+    - certificate: 'BSCI'
+      scope: 'Sozialkonformität für Anlage und Belegschaft'
+      verify: 'Auditbericht auf Anfrage verfügbar'
+    - certificate: 'REACH & RoHS'
+      scope: 'Beschränkte Stoffe und Materialdokumentation'
+      verify: 'Materialdokumentation mit jedem Auftrag'
+    - certificate: 'Drittprüfung (optional)'
+      scope: 'SGS-, TÜV-, BV- oder Intertek-Vorversandprüfung'
+      verify: 'ISO 2859-1 Level II, nach Ihrer Wahl terminiert'
+
+evidence_gates:
+  tagline: 'Wo die Belege leben'
+  title: 'Beleger-Ordner — zur Einsicht geöffnet'
+  subtitle: 'Jeder Ordner ist eine Live-Seite, die Sie jetzt einsehen können, plus Dateien, die mit Ihrer Bestellung mitreisen.'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'Ausrüstungs- & Maschinenliste'
+      desc: 'Zuschnitt, Schweißen, Laminierung, Druck und Montage sowie das QC-Labor — Maschinen mit Namen, Spezifikationen und Funktion. Fragen Sie nach einem Live-Rundgang.'
+      link: '/de/factory/equipment'
+      link_label: 'Ausrüstungsliste öffnen'
+    - icon: P
+      icon_bg: green
+      title: 'Prüf-Tor-Fotos & Berichte'
+      desc: 'Sieben Prüf-Tore mit Fotos vom Werksgelände und zweisprachigen Berichtslinks — was geprüft wird, mit welcher Methode, gegen welches Kriterium, wo dokumentiert.'
+      link: '/de/factory/process'
+      link_label: 'Prüf-Tore öffnen'
+    - icon: Q
+      icon_bg: orange
+      title: 'QC-Labor & Testverfahren'
+      desc: 'Universelle Zugprüfmaschine (ASTM D751), Nahtschältester (ISO 6185), Luftdichtigkeitsprüfstände und Xenon-Bewitterungskammer — die Maschinen, die Gewebe und Kammern verifizieren.'
+      link: '/de/factory/quality-lab'
+      link_label: 'Das Labor öffnen'
+    - icon: T
+      icon_bg: purple
+      title: 'Rückverfolgbarkeitsmuster & Quarantäne'
+      desc: 'Die wörtliche Kette von der Rohrolle bis zum versandten Board, der 7-stufige Quarantäne-Ablauf für nichtkonforme Ware und die Fehlermatrix, die die Einstufungen regelt.'
+      link: '/de/factory/quality-inspection'
+      link_label: 'Rückverfolgbarkeitsdatei öffnen'
+
+traceability:
+  tagline: 'Eine Charge, von der Rolle bis zum Board verfolgt'
+  title: 'Wie Rückverfolgbarkeit wirklich aussieht'
+  body: |
+    Jeder Charge wird ein **10-jähriger ERP-Loscode** zugewiesen. Die unter einem Los erfasste Kette:
+
+    - **Eingangsrolle** — Materialzertifikat, Rollennummer, geprüfte Gewebepartie (Zug, Riss, Naht)
+    - **Zuschnitt** — CNC-Nesting-Auftrag gegen Design-Datei, Verschnittanteil protokolliert
+    - **Schweißen & Laminierung** — Linie, Bediener, Maschinenparameter pro Kammer
+    - **Montage** — Board-Seriennummer, Ventiltyp, Deck-Pad-Los
+    - **Test** — 18,0 PSI × 24 h Halt pro Kammer, automatische Aussortierung über 0,50 PSI Abfall
+    - **Freigabe** — 100-Punkte-Checkliste pro Board, Freigabe durch den QA-Direktor je Charge
+    - **Weiter** — Konformitätszertifikat (Certificate of Conformance) mit der Lieferung; Auditrecht vertraglich vorbehalten
+
+    Fordern Sie das QC-Musterprotokoll vor Ihrer ersten Bestellung an — es hat dasselbe Format, das Sie mit Ihrer Lieferung erhalten.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Belege-Fragen, die Käufer stellen'
+  items:
+    - q: 'Dient diese Seite nur der Verifizierung und ersetzt keine Due-Diligence?'
+      a: 'Korrekt — diese Seite zeigt, wo jede Aussage verifiziert werden kann: Entitätsregistrierung, Zertifikate, Maschinen, Aufzeichnungen und eine audit-offene Anlage. Ihre üblichen Due-Diligence-Schritte (Registrierungsprüfung, Audit, Drittprüfung) gelten weiterhin und sind willkommen.'
+    - q: 'Welche Entität soll auf meiner Auftragsdokumentation erscheinen?'
+      a: 'Aufträge werden mit der Qingdao Vatrad Group Co., Ltd. geschlossen, die als Vatrad (Fertigungsdivision) auftritt, mit SUPsfactory als SUP-Produktlinie. Vertragsdokumente werden vom Vertriebs-VP, dem Chefingenieur und dem QA-Direktor unterzeichnet.'
+    - q: 'Kann ich vor der Bestellung Kopien der Zertifikate erhalten?'
+      a: 'Ja — Zertifikatsnummern und Auditunterlagen werden auf Anfrage oder während eines Audits geliefert. Die Liste ist veröffentlicht, nie „nur auf Anfrage verfügbar".'
+    - q: 'Wie kann ich die Chargentestprotokolle selbst verifizieren?'
+      a: 'Jede Kammer wird 24 Stunden bei 18,0 PSI getestet mit automatischer Aussortierung über 0,50 PSI Abfall; die Testprotokolle sind mit den Seriennummern verknüpft und reisen mit dem Konformitätszertifikat je Charge. Eine SGS-, TÜV-, BV- oder Intertek-Vorversandprüfung nach ISO 2859-1 Level II kann nach Ihrer Wahl terminiert werden.'
+    - q: 'Decken die Zertifikate auch das Zubehör ab?'
+      a: 'Die REACH/RoHS-Materialdokumentation gilt für Boards und Zubehör aus derselben Bestellung, und die QC-Checklisten decken das komplette Kit ab — Board, Paddel, Pumpe, Leash und Tasche.'
+    - q: 'Was passiert mit den Belegen nach dem Auftrag?'
+      a: 'Die ERP-Chargenrückverfolgbarkeit wird 10 Jahre aufbewahrt. QMS-SOPs und Prüfstandards bleiben herunterladbar, und der Käufer behält vertraglich ein Auditrecht während der Produktion.'
+
+cta:
+  title: 'Erst verifizieren — dann lassen wir über Spezifikationen sprechen'
+  subtitle: 'Fordern Sie das Registrierungspaket, Zertifikatskopien oder einen Audit-Slot an. Die Verifizierung kommt zuerst; das Auftragsgespräch folgt. Eine Anfrage verpflichtet Sie nicht zu einem Auftrag.'
+  button_text: 'Verifizierungspaket anfordern'
+  button_link: '/de/contact#trust-verification'
+  actions:
+    - text: Markenidentität
+      href: /de/about/identity
+    - text: Fabrikaudit-Checkliste
+      href: /de/factory-audit-checklist

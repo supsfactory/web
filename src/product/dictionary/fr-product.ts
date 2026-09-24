@@ -556,7 +556,7 @@ export const frProduct = {
     whatsapp: 'WhatsApp (facultatif)',
     whatsappPlaceholder: '+33 6 00 00 00 00',
     businessType: 'Votre Type d\'Activité',
-    businessHint: 'Sélectionnez l\'option qui décrit le mieux votre organisation.',
+    businessTypeHint: 'Sélectionnez l\'option qui décrit le mieux votre organisation.',
     country: 'Pays',
     targetMarket: 'Marché de Vente Cible',
     targetMarketHint: 'Merci de sélectionner le lieu de vente des produits finis, pas uniquement le lieu d\'expédition.',

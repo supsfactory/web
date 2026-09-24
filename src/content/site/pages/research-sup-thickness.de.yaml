@@ -1,0 +1,82 @@
+meta:
+  title: 'So wählen Sie die SUP-Dicke — Technische Analyse'
+  description: 'Wie sich 4", 5" und 6" dicke aufblasbare SUP-Boards in Steifigkeit, Gewicht, Stabilität und Spurtreue unterscheiden, mit Empfehlungen zur Dicke.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Zurück zur Forschung'
+
+hero:
+  tagline: 'Technik'
+  title: 'So wählen Sie die SUP-Dicke — Technische Analyse'
+  subtitle: '6 Min. Lesezeit'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Die Dicke ist ein Kompromiss zwischen Steifigkeit und Stabilität: 4" (10 cm) ist am steifsten, leichtesten und schnellsten — ideal für Touren und Rennen; 5" (12.7 cm) ist die Allround-Wahl für die meisten Paddler; 6" (15.2 cm) maximiert die Primärstabilität für Yoga und schwerere Paddler (100+ kg). Ein dünnerer Querschnitt ist strukturell steifer, daher biegt sich ein 4"-Board bei 15 PSI weniger als ein 6"-Board bei 25 PSI.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Die drei Standard-Dicken</h2>
+
+  <h3>4" (10 cm) – Touren &amp; Performance</h3>
+  <ul>
+    <li>Höchste Steifigkeit – weniger Flex unter Last</li>
+    <li>Am leichtesten – weniger Material, weniger Luftvolumen</li>
+    <li>Ausgezeichnete Spurtreue – reduziertes seitliches Schwanken</li>
+    <li>Am schnellsten – weniger Widerstand, leichteres Gleiten</li>
+    <li>Ideal für: Touren, Rennen, Fitness-Paddling, erfahrene Paddler</li>
+  </ul>
+
+  <h3>5" (12.7 cm) – Allround</h3>
+  <ul>
+    <li>Gute Steifigkeit – ausgewogenes Flex-zu-Steifigkeits-Verhältnis</li>
+    <li>Moderates Gewicht – Standard-Materialeinsatz</li>
+    <li>Gute Primär- und Sekundärstabilität</li>
+    <li>Ideal für: Freizeit-Paddling, Einsteiger, gelegentliche See- und Flussnutzung</li>
+  </ul>
+
+  <h3>6" (15.2 cm) – Stabilität &amp; Yoga</h3>
+  <ul>
+    <li>Höchste Primärstabilität – enorme Auftriebskraft</li>
+    <li>Am schwersten – mehr PVC-Material, größeres Luftvolumen</li>
+    <li>Am langsamsten – mehr Widerstand, schwerer zu gleiten</li>
+    <li>Ideal für: Yoga/Fitness, schwere Paddler (100+ kg), sehr unruhige Bedingungen</li>
+  </ul>
+
+  <h2>Technische Analyse</h2>
+  <p>Die Steifigkeit eines aufblasbaren SUP wird durch den inneren Luftdruck und das Flächenträgheitsmoment des Board-Querschnitts bestimmt. Bei 20 PSI zeigt ein 4"-Board unter Last etwa 30 % weniger Durchbiegung als ein 6"-Board gleicher Breite und Länge. Primärstabilität ergibt sich aus Wasserlinienbreite und Auftrieb; die Sekundärstabilität wird von Railform und Boardbreite beeinflusst.</p>
+
+  <h2>Dicke nach Paddlergewicht</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Paddlergewicht</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Empfohlene Dicke</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Unter 65 kg (143 lbs)</td><td class="p-3 border">4"</td></tr>
+      <tr><td class="p-3 border">65 – 90 kg (143 – 198 lbs)</td><td class="p-3 border">5"</td></tr>
+      <tr><td class="p-3 border">90 – 115 kg (198 – 253 lbs)</td><td class="p-3 border">5" oder 6"</td></tr>
+      <tr><td class="p-3 border">Über 115 kg (253 lbs)</td><td class="p-3 border">6"</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Kompromiss zwischen Dicke und PSI</h2>
+  <p>Ein verbreiteter Irrtum ist, dass ein höherer PSI-Wert eine übermäßige Dicke ausgleichen kann. Bei 25 PSI biegt sich ein 6"-Board stärker durch als ein 4"-Board bei 15 PSI, weil das geometrische Trägheitsmoment die Steifigkeitsgleichung dominiert. Für leistungsorientierte Paddler schneidet daher ein dünneres Board bei niedrigerem Druck besser ab als ein dickeres Board bei höherem Druck.</p>
+
+  <h2>Vatrad-Produktlinie</h2>
+  <ul>
+    <li><strong>4"-Boards:</strong> Cheetah-Touring-Serie – 12' x 30" x 4" Touren-SUPs für Fitness- und Distanz-Paddling</li>
+    <li><strong>5"-Boards:</strong> Cheetah-Allround-Serie – 10'6" x 32" x 5" für den Freizeitgebrauch</li>
+    <li><strong>6"-Boards:</strong> Cheetah-Ultra-Stable-Serie – 10' x 34" x 6" für Yoga, große Paddler und Fotoplattformen</li>
+  </ul>
+  <p>Alle Boards nutzen 1,680-DTEX-Drop-Stitch-Kerne mit einem für 15 PSI ausgelegten Druck und 1.2-mm-PVC-Laminaten.</p>
+  <p>Dicke, PSI und Gewebespezifikation sind für individuelle Linien konfigurierbar — erfahren Sie, wie wir <a href="/oem-manufacturing">Boards für OEM- und Private-Label-Marken entwickeln</a> und besichtigen Sie den Boardbau direkt <a href="/factory">in der Fabrik</a>.</p>
+
+cta:
+  title: 'Unsicher, welche Dicke für Sie richtig ist?'
+  subtitle: 'Stöbern Sie in unserer SUP-Produktlinie oder fragen Sie unser Sizing-Team.'
+  button_text: 'SUP-Boards ansehen'
+  button_link: /products

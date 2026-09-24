@@ -1,0 +1,82 @@
+meta:
+  title: 'SUP-Verleihausrüstung & Flottenlösungen'
+  description: 'Kommerzielle SUP-Boards für den täglichen Verleih: UV-beständiges PVC, verstärkte Nähte und schnell trocknende Materialien für hochfrequent rotierende Verleihflotten.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Verleihbetriebe
+  title: 'SUP-Boards für Verleihflotten entwickelt'
+  subtitle: 'Spezifizieren Sie eine Flotte, die täglichen Verleih übersteht: hochfrequent rotierende Boards mit UV-beständigem PVC, verstärkten Nähten und schnell trocknenden Materialien — entwickelt für 365 Tage Nutzung pro Jahr.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/use-cases/supsfactory-family-use-case.webp
+    alt: SUP-Boards bereit für den täglichen Verleih
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Verleihflotten-Boards werden mit UV-beständigem Marine-PVC gebaut, mit Nähten, die 3× stärker als Standard-Konstruktionen sind, und Drop-Stitch-Kernen für 15 PSI — getestet für 500+ Verleihzyklen. Die MOQ wird durch die Projektkonfiguration bestätigt: Muster (1–2 Einheiten), Pilot (20–50 Einheiten) und Standardvolumen (90–100+ Einheiten pro Charge aus einer 150-m-Rolle); die Produktion läuft 25–35 Tage nach PO und Anzahlung, mit FOB-, CIF- oder DDP-Bedingungen.'
+  verified: 'September 2026'
+
+features:
+  title: Gebaut für den Verleih-Alltag
+  subtitle: 'Jedes Board ist für 500+ Verleihzyklen mit minimalem Wartungsaufwand ausgelegt.'
+  items:
+    - title: '500+ Verleihzyklen'
+      description: 'Getestet, um den täglichen Einsatz in Salzwasser, Sonne und Sand zu überstehen.'
+      icon: 'tabler:shield-check'
+    - title: 'UV-beständiges Gewebe'
+      description: 'Kein Ausbleichen oder Verfall nach 1 Jahr Außenlagerung.'
+      icon: 'tabler:sun'
+    - title: 'Verstärkte Nähte'
+      description: 'Verstärkte Nahtkonstruktion für tägliche Verleihrotation und wiederholte Aufblaszyklen.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Schnell trocknende Materialien'
+      description: 'Schnell trocknende Materialien halten Boards zwischen den Einsätzen einsatzbereit.'
+      icon: 'tabler:droplet'
+    - title: 'Stapelbare Lagerung'
+      description: 'Platzsparendes stapelbares Design — mehr Boards im gleichen Lagerbereich.'
+      icon: 'tabler:stack'
+    - title: 'Farbkodierte Größen'
+      description: 'Das Personal greift dank farbkodierter Größen sofort zum richtigen Board.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: Betriebskennzahlen
+  stats:
+    - title: Fabrikfläche
+      amount: '12,500 m²'
+    - title: Drucktest
+      amount: '18 PSI / 24h'
+    - title: Montage-Checkliste
+      amount: '100 Punkte'
+    - title: Teileversand
+      amount: '48h'
+
+fleet_guide:
+  title: Flottengrößen-Leitfaden
+  subtitle: 'Schätzen Sie, wie viele Boards Ihr Betrieb je nach täglicher Verleihrotation benötigt.'
+  tiers:
+    - label: Kleiner Kiosk
+      boards: '15-20'
+      note: 'Bis zu 2–3 Board-Rotationen pro Tag in der Hochsaison'
+    - label: Mittelgroßer Betrieb
+      boards: '30-50'
+      note: 'Mehrere Startpunkte oder hohes Wochenendaufkommen'
+    - label: Großer Strandverleih
+      boards: '50-100'
+      note: 'Full-Service-Verleihflotten über mehrere Strandstationen'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Weiterlesen:</strong> Verleih-Boards starten mit Ihrer Spezifikation — informieren Sie sich über unser <a href="/oem-manufacturing">OEM/ODM-Programm</a> für Individualisierung, niedrige Test-MOQs und Flottenpreise. Jedes Board läuft über die 12,500 m&sup2; <a href="/factory">Produktionslinie</a> und wird vor dem Versand zu 100 % einem Drucktest unterzogen.</p>
+  </div>
+
+cta:
+  title: 'Spezifizieren Sie Ihre Verleihflotte'
+  subtitle: 'Senden Sie Ihre Flottenanforderungen oder vergleichen Sie Board-Plattformen für Ihren Betrieb.'
+  actions:
+    - text: 'Flottenanforderungen senden'
+      href: '/de/contact'
+      variant: 'primary'
+    - text: 'Board-Plattformen vergleichen'
+      href: '/de/inflatable-vs-hardboard'
+      variant: 'secondary'

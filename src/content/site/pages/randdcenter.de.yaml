@@ -1,0 +1,131 @@
+meta:
+  title: 'F&E-Zentrum — Engineering aufblasbarer SUP | {SITE}'
+  description: 'Forschung & Entwicklung — PVC-Stoffprüfung, Rumpfengineering, HF-Schweißen, hydrodynamische Prüfung und Qualitätskontrolle. Individuelle F&E-Dienste verfügbar.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: F&E-Zentrum
+  title: F & E-Zentrum
+  subtitle: Fokus auf Fortschritt
+
+intro:
+  - Vatrads Forschungs- und Entwicklungs-(F&E-)Zentrum ist die treibende Kraft unserer Mission, die Wassersportausrüstung zu revolutionieren. Durch unermüdliche Innovation bei aufblasbaren Stand-up-Paddle-Boards (SUPs) und Booten ermöglichen wir Wassersportbegeisterten weltweit sicherere, komfortablere und schönere Produkte. Unser engagiertes Team aus Ingenieuren, Designern und leidenschaftlichen Wassersportexperten gestaltet die Zukunft der Branche und hebt die Messlatte für Qualität, Leistung und Nachhaltigkeit stetig an.
+  - Unsere F&E-Einrichtung vereint Materialwissenschaftler, Schiffsarchitekten und Produktionsingenieure unter einem Dach. Von der Gewebeformulierung und Rumpfsimulation über die Entwicklung von Schweißverfahren bis hin zu großmaßstäblichen Seeversuchen wird jede Phase der Produktentwicklung von Daten getrieben und durch Prüfungen validiert.
+
+mission:
+  tagline: Unsere Mission
+  title: Die Zukunft des Wassersports innovativ gestalten
+  pillars:
+    - icon: lightning
+      title: Technologischer Fortschritt
+      desc: Pionierarbeit bei neuen Materialien, Designs und Fertigungsverfahren für überlegene Produktleistung und Langlebigkeit.
+    - icon: design
+      title: Nutzerzentriertes Design
+      desc: Nutzerbedürfnisse durch ergonomisches und intuitives Produktdesign tief verstehen und übertreffen.
+    - icon: globe
+      title: Nachhaltige Praktiken
+      desc: Minimierung unseres ökologischen Fußabdrucks durch umweltfreundliche Materialien und Prozesse.
+    - icon: shield
+      title: Kompromisslose Sicherheit
+      desc: Höchste Sicherheitsstandards durch rigorose Prüfungen und Zertifizierungen sicherstellen.
+
+pillars:
+  - title: Technologischer Fortschritt
+    desc: Pionierarbeit bei neuen Materialien, Designs und Fertigungsprozessen für überlegene Produktleistung und Langlebigkeit.
+    icon: tech
+  - title: Fortschrittliche Materialien
+    desc: Untersuchung modernster PVC-, Hypalon-, Verbund- und nachhaltiger Alternativen für verbesserte Produkteigenschaften.
+    icon: materials
+  - title: Nachhaltigkeit
+    desc: 'Eine Kernverpflichtung: Wir setzen uns für Umweltverantwortung durch nachhaltige Fertigung und recycelbare Materialien ein.'
+    icon: sustainability
+
+capabilities:
+  tagline: Kapazitäten
+  title: F&E-Kapazitäten
+  subtitle: Vier Kerndisziplinen geben uns die End-to-End-Kontrolle über die Produktentwicklung — von der Rohstoffforschung bis zur Endzertifizierung.
+  groups:
+    - title: Materialwissenschaft & Gewebetechnologie
+      items:
+        - Analyse und Optimierung von PVC- und Hypalon-Formulierungen
+        - Entwicklung von UV-Stabilisierung, Flammschutz und antimikrobiellen Zusatzstoffen
+        - Mehrschichtige Gewebelaminierung und Klebverbindungs-Engineering
+        - Beschleunigte Alterungsprüfung (UV, thermisch, Feuchtigkeit, Salzsprühnebel)
+    - title: Rumpfengineering & Hydrodynamik
+      items:
+        - Parametrisches 3D-Rumpfdesign und CFD-Optimierung
+        - Finite-Elemente-Analyse für Struktur- und Stoßlasten
+        - Schlepptankprüfung mit Modellen und Leistungsvalidierung
+        - Individuelle Rumpfentwicklung für spezielle Missionsprofile
+    - title: Schweiß- & Fügetechnologie
+      items:
+        - Entwicklung und Optimierung des HF-Dielektrik-Schweißverfahrens
+        - Heißluft-, Heizkeil- und Ultraschallschweißverfahren
+        - Qualifizierung von Klebverbindungen und Nahtbändern
+        - Schweißfestigkeitsmodellierung und Lebensdauervorhersage
+    - title: Prüfung, Zertifizierung & Konformität
+      items:
+        - Qualitätsmanagement- und CE-Konformitätsprüfung
+        - Unterstützung bei unabhängigen Drittprüfungen und Zertifizierungen
+        - Entwicklung individueller Testprotokolle für die Beschaffungsqualifizierung
+        - Fehleranalyse im Einsatz und Ursachenforschung
+
+rd_numbers:
+  tagline: Innovation
+  title: F&E in Zahlen
+  stats:
+    - value: '14'
+      label: F&E-Ingenieure & -Wissenschaftler
+    - value: '8'
+      label: Aktive Patente & Anmeldungen
+    - value: '6'
+      label: Speziallabore
+    - value: 12 yr
+      label: Durchschnittliche Teamerfahrung
+
+rd_services:
+  tagline: Individuelle F&E
+  title: F&E-Dienste für Partner
+  services:
+    - title: Individuelle Materialentwicklung
+      desc: Wir entwickeln individuelle Gewebeformulierungen, Laminatstapel und Klebesysteme, die auf Ihre Einsatzumgebung und Leistungsziele zugeschnitten sind.
+    - title: OEM / ODM-Produktengineering
+      desc: Wir entwickeln individuelle Gewebeformulierungen, Laminatstapel und Klebesysteme, die auf Ihre Einsatzumgebung und Leistungsziele zugeschnitten sind.
+    - title: Drittprüfung & Zertifizierung
+      desc: Nutzen Sie unsere ISO-konformen Prüfeinrichtungen für unabhängige Materialprüfung, Produktvalidierung und Zertifizierungsunterstützung.
+  cta: Besprechen Sie Ihre F&E-Anforderungen →
+  cta_link: /de/contact
+
+vision:
+  tagline: Unsere Vision
+  title: Die Zukunft des Wassersports gestalten
+  body: Vatrad strebt danach, die Branche für Schlauchboote und SUP durch kontinuierliche Innovation, unerschütterliche Qualität und eine feste Verpflichtung zu Sicherheit und Nachhaltigkeit anzuführen — und so letztlich die Erlebnisse von Wassersportbegeisterten weltweit zu bereichern. Das Vatrad-F&E-Zentrum ist der Ort, an dem Leidenschaft auf Innovation trifft und neue Maßstäbe für die Wassersportbranche setzt.
+
+labs_section:
+  tagline: Labore
+  title: Unsere Labore
+  labs:
+    - image: https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp
+      title: PVC-Stofflabor
+      description: Kontinuierliche Forschung und Prüfung von PVC- und Hypalon-Schlauchmaterialien auf Zugfestigkeit, UV-Beständigkeit, Abrieb und Kälteflexibilität, um langfristige Zuverlässigkeit in marinen Umgebungen sicherzustellen.
+      href: /de/randdcenter/pvc-fabric-lab
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-2.webp
+      title: Rumpfengineering-Studio
+      description: CAD-gestütztes Design und Finite-Elemente-Analyse von HDPE-, Aluminium- und Glasfaser-Rümpfen. Jeder Rumpf wird vor dem Bau des ersten Prototyps digital auf Spannungsverteilung und Stoßfestigkeit simuliert.
+      href: /de/randdcenter/hull-engineering
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing-3.webp
+      title: HF-Schweißzentrum
+      description: Dedizierte Hochfrequenz-Schweißeinrichtung mit präziser Temperatur- und Druckregelung, die hochfeste, luftdichte Nähte nach den Industriestandards für aufblasbare Wasserfahrzeuge erzeugt.
+      href: /de/randdcenter/rf-welding
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp
+      title: Hydrodynamischer Testtank
+      description: Modellprüfung in unserem eigenen Testtank zur Optimierung von Rumpfform, Gleitverhalten, Stabilität und Effizienz über eine Reihe von Last- und Seezuständen hinweg.
+      href: /de/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: Prototypenwerkstatt
+      description: Einrichtung in Originalgröße für Prototyping und Ausrüstung, in der neue Modelle gebaut, ausgestattet und seeerprobt werden. Jeder Prototyp durchläuft vor der Produktionsfreigabe ein Wasser-Testprogramm von mindestens 20 Stunden.
+      href: /de/randdcenter/prototype-workshop
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
+      title: Qualitäts- & Prüflabor
+      description: Dediziertes Qualitätssicherungslabor für Zugprüfungen, Luftdichtigkeit-Zyklen, Nahtschälprüfungen und Materialzertifizierung, um sicherzustellen, dass jedes die Werkstatt verlassende Boot unseren veröffentlichten Spezifikationen entspricht.
+      href: /de/randdcenter/quality-inspection-lab

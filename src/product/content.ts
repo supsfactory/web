@@ -2,18 +2,19 @@ import type { Locale } from '@/features/i18n/locale'
 import { FACTS, MOQ_SHORT, COLLABORATION_MODES } from './facts'
 
 /**
- * Marketing content for the SUPsfactory site, localized en/es/fr.
+ * Marketing content for the SUPsfactory site, localized en/es/fr/de.
  *
  * Content (headlines, body copy, products, FAQ, landings) lives here rather
  * than in the i18n dictionaries, which stay reserved for structural UI strings
- * (nav, buttons, form labels). Every entry is trilingual (en/es/fr) so all
- * locale routes render the same structure.
+ * (nav, buttons, form labels). Every entry is available in four locales
+ * (en/es/fr/de) so all locale routes render the same structure.
  */
 
 export interface Localized<T> extends Record<string, T> {
   en: T
   es: T
   fr: T
+  de: T
 }
 
 export function pick<T>(d: Localized<T>, locale: Locale): T {
@@ -116,6 +117,30 @@ export const hero: Localized<HeroContent> = {
     float1: { value: '1–2 units', label: 'Échantillon et approbation (avant tout engagement de volume)' },
     float2: { value: FACTS.leadTime, label: 'Délai de production (après PO)' },
   },
+  de: {
+    kicker: 'Individueller SUP-OEM-/ODM-Hersteller — Qingdao, China',
+    titlePre: 'Hersteller aufblasbarer SUPs &',
+    titleAccent: 'OEM/ODM-Fabrik',
+    titlePost: '',
+    sub: 'Individuelle aufblasbare Paddelbretter werden in unserer Fabrik in Qingdao, China, konstruiert, prototypisiert und gefertigt.',
+    ctaPrimary: 'OEM-Angebot anfordern',
+    ctaSecondary: 'Entwickeln Sie Ihr SUP-Produkt',
+    ctaTertiary: 'Unsere Fabrik entdecken',
+    ctaQuartiary: '',
+    ctaMicro: 'OEM · ODM · Private Label · Produktentwicklung · Prototypenfertigung · Serienproduktion',
+    stats: [
+      { value: '12,500 m²', label: 'Eigene Fabrik — Qingdao, China' },
+      { value: '120,000+', label: 'Boards pro Jahr produziert' },
+      { value: '50+', label: 'Bediente Exportländer' },
+      { value: FACTS.ndaWindow, label: 'NDA-Antwortzeitfenster' },
+    ],
+    mockupLabel: 'Signature-Plattform',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Ihre Grafiken · Ihre Farben · Ihre Verpackung',
+    heroNote: 'Fabrikdirekte Fertigung · Prototypenentwicklung · Qualitätsgeprüfte Produktion · Exportunterstützung',
+    float1: { value: '1–2 units', label: 'Muster & Freigabe (vor größerer Mengenbindung)' },
+    float2: { value: FACTS.leadTime, label: 'Produktionslieferzeit (nach PO)' },
+  },
 }
 
 /* ─────────────────────────── home: manufacturer pledge ─────────────────────────── */
@@ -169,6 +194,18 @@ export const manufacturerPledge: Localized<ManufacturerPledgeContent> = {
       { title: 'Votre marque, jamais la nôtre', body: 'Nous fabriquons exclusivement sous les marques de nos clients et ne les concurrençons jamais sur aucun marché.' },
     ],
     verifyLabel: 'Vérifier Qui Nous Sommes',
+    verifyHref: '/about/identity',
+  },
+  de: {
+    kicker: 'Hersteller, kein Handelsunternehmen',
+    title: 'Wir sind Eigentümer der Fabrik hinter Ihrer Bestellung',
+    sub: 'Ein Handelsunternehmen verkauft die Produktion anderer Fabriken weiter. Wir betreiben die Anlage. Es gibt keine Vermittlermarge, kein Lager eines Dritten und keinen Zwischenhändler zwischen Ihrer Bestellung und der Fertigung.',
+    items: [
+      { title: 'Registrierte juristische Person', body: 'Qingdao Vatrad Group Co., Ltd. ist auf jeder Bestellung und jedem Exportdokument die vertragschließende Einheit.' },
+      { title: 'Eine Fabrik, ein Team', body: 'Engineering, Qualitätskontrolle, Produktionsplanung und Exportdokumentation werden vollständig intern im Werk Laixi, Qingdao, abgewickelt.' },
+      { title: 'Ihre Marke, nie unsere', body: 'Wir fertigen ausschließlich unter den Marken unserer Kunden und treten in keinem Markt in Wettbewerb zu ihnen.' },
+    ],
+    verifyLabel: 'Verifizieren Sie, wer wir sind',
     verifyHref: '/about/identity',
   },
 }
@@ -246,6 +283,24 @@ export const factoryProof: Localized<FactoryProofContent> = {
     ],
     note: 'Le MOQ est confirmé après examen des spécifications, car la construction, la taille de la planche, la structure du PVC, le graphisme, l’emballage et les accessoires influent sur la consommation de matériau.',
   },
+  de: {
+    kicker: 'Fabriknachweis',
+    title: 'Eine echte Fabrik, dokumentiert',
+    sub: 'Überprüfbare Zahlen aus unserem Werk in Qingdao, China — jede Zahl verlinkt auf die Seite, auf der sie dokumentiert ist.',
+    cta: 'Diese Zahl prüfen',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'Eigene Fertigungsstätte', href: '/factory' },
+      { value: FACTS.workers, label: 'Fabrikbelegschaft, intern', href: '/manufacturing-capabilities' },
+      { value: '120,000+', label: 'Boards pro Jahr produziert', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'Bediente Exportländer', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'MOQ & Lieferzeit', href: '/sup-oem-moq-lead-time' },
+      { label: 'Qualitätskontrolle', href: '/quality' },
+      { label: 'Checkliste für das Fabrikaudit', href: '/factory-audit-checklist' },
+    ],
+    note: 'Der MOQ wird nach Prüfung der Spezifikation bestätigt, da Konstruktion, Boardgröße, PVC-Aufbau, Grafik, Verpackung und Zubehör den Materialverbrauch beeinflussen.',
+  },
 }
 
 /* ─────────────────────────── home: factory evidence (verification band) ─────────────────────────── */
@@ -296,6 +351,17 @@ export const factoryEvidence: Localized<FactoryEvidenceContent> = {
       { title: 'Centre de preuves', body: 'Certificats, rapports d’inspection par tiers, enregistrements d’audit et preuves de projets livrés, rassemblés au même endroit.', href: '/proof-center' },
       { title: 'Vérifier l’usine', body: 'Recoupez nos registres publics d’entreprise, nos certifications et notre guide de vérification avant de vous engager.', href: '/verify-factory' },
       { title: 'Check-list d’audit d’usine', body: 'Téléchargez la check-list utilisée par les acheteurs pour auditer une usine de SUP gonflables — installations, équipements et processus.', href: '/factory-audit-checklist' },
+    ],
+  },
+  de: {
+    kicker: 'Prüfen Sie uns, bevor Sie bestellen',
+    title: 'Fabriknachweise & Verifikation',
+    sub: 'Unabhängige Nachweise, dass unsere Anlage, Ausrüstung, unser Qualitätssystem und unsere Exportunterlagen real sind — prüfen und verifizieren Sie, bevor Sie sich binden.',
+    cta: 'Nachweise ansehen',
+    items: [
+      { title: 'Nachweiszentrum', body: 'Zertifikate, Prüfberichte Dritter, Auditaufzeichnungen und Nachweise gelieferter Projekte an einem Ort.', href: '/proof-center' },
+      { title: 'Die Fabrik verifizieren', body: 'Gleichen Sie unsere öffentlichen Geschäftsunterlagen, Zertifizierungen und Verifikationshinweise ab, bevor Sie sich festlegen.', href: '/verify-factory' },
+      { title: 'Checkliste für das Fabrikaudit', body: 'Laden Sie die Checkliste herunter, die Käufer bei der Auditierung einer Fabrik für aufblasbare SUPs verwenden — Anlage, Ausrüstung und Prozess.', href: '/factory-audit-checklist' },
     ],
   },
 }
@@ -392,6 +458,31 @@ export const why: Localized<WhyContent> = {
       },
     ],
   },
+  de: {
+    kicker: 'Die Fertigungsmarke',
+    title: 'Angetrieben von Vatrad',
+    sub: 'SUPsfactory ist die Abteilung für SUP-Produktentwicklung und -Fertigung der Qingdao Vatrad Group Co., Ltd. Unser Werk mit 12,500 m² in Laixi, Qingdao stellt seit 2012 aufblasbare Produkte her; mehr als 25 Ingenieure arbeiten in Forschung & Entwicklung, Formenkonstruktion, Materiallabor und Fertigungsplanung und bringen im Durchschnitt über 7 Jahre Erfahrung in der Fertigung aufblasbarer Produkte mit. Es laufen täglich zwei Produktionsschichten.',
+    image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp',
+    imageCaption: 'Vatrad-Fertigungsstätte, Qingdao, China',
+    bullets: [
+      {
+        title: '12,500 m² Werk',
+        body: 'Vom Roh-PVC bis zum fertigen Board vollständig intern, in Laixi, Qingdao.',
+      },
+      {
+        title: 'Seit 2012 in Produktion',
+        body: 'Zwei Produktionsschichten täglich bei SUP und aufblasbaren Produkten.',
+      },
+      {
+        title: 'Mehr als 25 Ingenieure',
+        body: 'In Forschung & Entwicklung, Formenkonstruktion, Materiallabor und Fertigungsplanung.',
+      },
+      {
+        title: 'Im Schnitt über 7 Jahre',
+        body: 'Erfahrung in der Fertigung aufblasbarer Produkte pro Ingenieur.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── capability strip ─────────────────────────── */
@@ -400,6 +491,7 @@ export const strip: Localized<string[]> = {
   en: ['OEM & ODM', 'Private Label', 'Sample Service', 'Design & Artwork', 'QC on every run', 'Worldwide export'],
   es: ['OEM & ODM', 'Marca privada', 'Servicio de muestras', 'Diseño y arte', 'QC en cada lote', 'Exportación mundial'],
   fr: ['OEM & ODM', 'Marque privée', 'Service d’échantillons', 'Conception & graphismes', 'QC sur chaque lot', 'Exportation mondiale'],
+  de: ['OEM & ODM', 'Private Label', 'Musterservice', 'Design & Artwork', 'QC bei jeder Charge', 'Weltweiter Export'],
 }
 
 /* ─────────────────────────── home: trust bar ─────────────────────────── */
@@ -454,6 +546,20 @@ export const trustBar: Localized<TrustBarContent> = {
       { value: FACTS.exportCountries, label: 'marchés d’exportation en UE, USA, Australie et Asie' },
       { value: '18 PSI / 24 h', label: 'test de gonflage et d’étanchéité à 100 % sur chaque planche avant emballage' },
       { value: 'MSL Fusion', label: 'soudure par fusion multicouche avec constructions drop-stitch tissées' },
+    ],
+  },
+  de: {
+    stats: [
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'für Serienproduktion; Pilotserien ab 20–50 Stück' },
+      { value: FACTS.sampleTime, label: 'Muster auf Ihrem Schreibtisch nach Grafikbestätigung' },
+      { value: FACTS.leadTime, label: 'Serienfertigung nach bestätigter PO und Anzahlung' },
+      { value: FACTS.annualCapacity, label: 'jährliche Eigenkapazität im Werk Qingdao' },
+      { value: FACTS.warehouseM2, label: 'eigenes Werk, vom Roh-PVC bis zum fertigen Board' },
+      { value: FACTS.workers, label: 'Werksmitarbeiter und Ingenieure vor Ort' },
+      { value: 'ISO 9001 · CE · BSCI', label: 'zertifiziert; REACH/RoHS-konforme Materialien' },
+      { value: FACTS.exportCountries, label: 'Exportmärkte in der EU, den USA, Australien und Asien' },
+      { value: '18 PSI / 24 h', label: '100%-Druck- und Dichtigkeitstest bei jedem Board vor dem Verpacken' },
+      { value: 'MSL Fusion', label: 'mehrschichtiges Fusionsschweißen mit gewebten Drop-Stitch-Konstruktionen' },
     ],
   },
 }
@@ -543,6 +649,30 @@ export const solve: Localized<SolveContent> = {
       {
         title: 'Fourniture en volume — Commandes récurrentes et de flotte',
         body: 'Production en grandes séries pour les distributeurs, les opérateurs de location et les groupes hôteliers, avec spécifications figées, traçabilité par lot et construction homogène d’une commande récurrente à l’autre.',
+      },
+    ],
+  },
+  de: {
+    kicker: 'OEM- & ODM-Fertigung',
+    title: 'Zwei Wege, Ihr SUP-Produkt aufzubauen',
+    sub: 'OEM, wenn Sie die Spezifikation mitbringen, ODM, wenn Sie die Idee mitbringen — zusätzlich Private Label und Mengenversorgung für Marken, die eine bewährte Plattform nutzen möchten.',
+    cta: 'OEM-Angebot anfordern',
+    items: [
+      {
+        title: 'OEM — Fertigung nach Ihrer Spezifikation',
+        body: 'OEM (Original Equipment Manufacturing): Wir fertigen nach Ihrer freigegebenen Spezifikation — Ihre Zeichnungen, Maße, Materialien, Konstruktion und Verpackung. Sie besitzen das Design, die Formen und das geistige Eigentum.',
+      },
+      {
+        title: 'ODM — Entwickeln Sie das Board mit unserem Ingenieurteam',
+        body: 'ODM (Original Design Manufacturing): Unser Ingenieurteam entwickelt Boardstruktur, Konstruktion, Grafik und Verpackung auf Basis Ihres Briefings — sei es ein Marktkonzept, ein Leistungsziel oder die Adaption einer bewährten Plattform. Die Fabrik schlägt das Design vor; der Käufer gibt es vor der Produktion frei.',
+      },
+      {
+        title: 'Private Label — Ihre Marke auf einer bewährten Plattform',
+        body: 'Private Label: Ihre Marke, Ihre Grafik und Ihre Verpackung auf einer bestehenden validierten Plattform — ohne Formenentwicklung, ohne strukturelle Änderungen. Der schnellste Weg vom Konzept zur Auslieferung.',
+      },
+      {
+        title: 'Mengenversorgung — Folge- und Flottenaufträge',
+        body: 'Großserienproduktion für Distributoren, Verleihbetriebe und Resort-Gruppen, mit festgeschriebenen Spezifikationen, Chargenrückverfolgbarkeit und gleichbleibender Konstruktion über Nachbestellungen hinweg.',
       },
     ],
   },
@@ -656,6 +786,37 @@ export const capability: Localized<CapabilityContent> = {
       },
     ],
   },
+  de: {
+    kicker: 'Fertigungskapazitäten',
+    title: 'Sechs interne Fertigungskapazitäten',
+    sub: 'Alle folgenden Prozesse laufen intern. Nichts Kritisches ist ausgelagert.',
+    items: [
+      {
+        name: 'CNC-Zuschnitt',
+        body: 'Automatische CNC-Maschinen schneiden PVC, Hypalon und Drop-Stitch-Gewebe mit einer Positionsgenauigkeit von 0.1 mm und computergestützt optimiertem Nesting zur Minimierung des Materialabfalls.',
+      },
+      {
+        name: 'RF-Dielektrisches Schweißen',
+        body: 'Schweißpressen mit 15 kW erzeugen luftdichte Nähte. Die Railbänder werden dreilagig fusioniert für Kantenfestigkeit und Schlagfestigkeit.',
+      },
+      {
+        name: 'Drop-Stitch-Kernlamination',
+        body: 'Tausende interne Polyesterfäden halten die obere und untere Lage parallel und erzeugen so eine starre Plattform bei 12–15 PSI. Kerne werden bis 14 ft laminiert.',
+      },
+      {
+        name: 'Deck-Grafik',
+        body: 'Vierfarb-Digitaldruck und mehrfarbiger Siebdruck auf Basis Ihrer Markendateien. EVA-Deckpads in Ihren Farben mit individuellen Logos, Ausstanzungen und Texturen.',
+      },
+      {
+        name: 'Montage und Rigging',
+        body: 'Jedes Board durchläuft eine 100-Punkte-Montagecheckliste, die der Linienleiter abzeichnet — Beschläge, D-Ringe, Ventile, Leash-Punkte und Accessoires.',
+      },
+      {
+        name: 'Exportverpackung',
+        body: 'Vakuumiert, verpackt und exporttauglich versandfertig, auf Wunsch mit bedruckten Verkaufskartons.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: quality control (How Every Board Is Verified) ─────────────────────────── */
@@ -763,6 +924,37 @@ export const quality: Localized<QualityContent> = {
       {
         title: 'Traçabilité des lots',
         body: 'Chaque lot de matière reçoit un numéro ERP unique. La nomenclature de chaque planche renvoie au lot d’origine du fournisseur. Les registres sont conservés 10 ans, conformément à la norme CE 2013/53/UE.',
+      },
+    ],
+  },
+  de: {
+    kicker: 'Qualitätskontrolle',
+    title: 'So wird jedes Board verifiziert',
+    sub: 'Qualität ist ein dokumentierter Prozess, kein Versprechen. So läuft Ihre Bestellung ab, bevor sie versendet wird.',
+    steps: [
+      {
+        title: 'Wareneingangskontrolle',
+        body: 'PVC-Rollen, Drop-Stitch-Kerne, Ventile, Klebstoffe und Beschläge werden bis zur QC-Freigabe gesperrt. Gewebe werden vor jedem Chargenstart auf Zugfestigkeit, Weiterreißfestigkeit und UV-Beständigkeit geprüft.',
+      },
+      {
+        title: 'Kontrollpunkte in der Fertigung',
+        body: 'QC-Kontrollpunkte in jeder Fertigungsstufe, mit Schweißproben, die gezogen und gegen den Chargenstandard auf Schälfestigkeit geprüft werden.',
+      },
+      {
+        title: 'Dichtigkeitstest',
+        body: 'Jede Kammer wird auf 18.0 PSI aufgepumpt und 24 Stunden unter kontinuierlicher Sensoraufzeichnung gehalten. Jede Kammer mit einem Druckabfall von über 0.50 PSI in 24 Stunden wird ausgemustert und zur erneuten Nahtprüfung zurückgeführt.',
+      },
+      {
+        title: 'Strukturelle Verifikation',
+        body: 'Durchbiegung unter Nennlast, D-Ring-Abrufzugfestigkeit (≥150 kgf pro D-Ring), Schälfestigkeit des Deckpads (≥3.5 N/cm) und Dichtsitz der Ventile werden vor der Endprüfung gegen die Spezifikation verifiziert.',
+      },
+      {
+        title: 'Endprüfung',
+        body: '100-Punkte-Checkliste pro Board sowie Dimensions- und Gewichtsprüfung gegen das freigegebene Muster.',
+      },
+      {
+        title: 'Chargenrückverfolgbarkeit',
+        body: 'Jede Materialcharge erhält eine eindeutige ERP-Nummer. Die Stückliste jedes Boards verweist auf die ursprüngliche Lieferantencharge. Aufzeichnungen werden gemäß CE 2013/53/EU zehn Jahre aufbewahrt.',
       },
     ],
   },
@@ -986,6 +1178,70 @@ export const commercial: Localized<CommercialContent> = {
       },
     ],
   },
+  de: {
+    kicker: 'Handelskonditionen',
+    title: 'Handelskonditionen, transparent von Anfang an',
+    sub: 'Standard-MOQ, Bemusterung, Produktions- und Lieferkonditionen sind unten aufgeführt. Projekte mit neuer Werkzeugauslegung, Spezialmaterialien, Konformitätsprüfungen oder individueller Verpackung werden separat angeboten.',
+    cells: [
+      {
+        label: 'Mindestbestellung',
+        lines: [
+          'Co-Branding: ab 5–10 Stück auf ausgewählten bestehenden Plattformen',
+          'Pilotcharge: 20–50 Stück auf bestehenden Plattformen',
+          'Standardvolumen: 90–100+ Stück pro freigegebener Konfiguration, abhängig von Materialrolle und Verpackungsanforderungen',
+        ],
+      },
+      {
+        label: 'Lieferzeit',
+        lines: [
+          '25–35 Tage ab bestätigter PO und Anzahlung',
+          'Individuelle Formenentwicklung: +15–20 Tage für den Werkzeugbau',
+          'Expressproduktion für saisonale Spitzenzeiten verfügbar',
+        ],
+      },
+      {
+        label: 'Bemusterung',
+        lines: [
+          'Prototypenmuster werden in 7–12 Tagen versandt',
+          'Die Musterkosten werden bei der Serienbestellung angerechnet',
+        ],
+      },
+      {
+        label: 'Export & Dokumentation',
+        lines: [
+          'Exportdokumentation intern erledigt',
+          'Exportgerechte Verpackung; bedruckte Verkaufskartons verfügbar',
+        ],
+      },
+    ],
+    certs: 'ISO 9001 Qualitätsmanagement · CE-Zertifizierung für Modelle für den EU-Markt (Geltungsbereich pro Projekt bestätigt) · BSCI Sozialkonformität (Prüfbericht auf Anfrage) · REACH- und RoHS-Dokumentation bei jeder Bestellung.',
+    moqTiers: [
+      {
+        stage: 'Muster & Freigabe',
+        quantity: '1–2 Stück zur Freigabe',
+        purpose: 'Form, Farben, Druck und Verpackung vor jeder Produktion bestätigen',
+        note: '7–12 Tage; physisches Board, keine Renderdarstellung',
+      },
+      {
+        stage: 'Co-Branding in kleiner Stückzahl',
+        quantity: 'ab 5–10 Stück auf ausgewählten bestehenden Plattformen',
+        purpose: 'Ein Design auf einer bewährten Plattform mit Logo-Überdruck testen',
+        note: 'Der schnellste Weg, eine neue Grafik zu validieren',
+      },
+      {
+        stage: 'Pilotcharge / Erstbestand',
+        quantity: '20–50 Stück auf bestehenden Plattformen',
+        purpose: 'Den Markt validieren oder Ihren Store mit realem Bestand eröffnen',
+        note: 'Niedrigstes Volumen auf bestehenden Plattformen',
+      },
+      {
+        stage: 'Standard-Serienproduktion',
+        quantity: '90–100+ Stück pro freigegebener Konfiguration, abhängig von Materialrolle und Verpackungsanforderungen',
+        purpose: 'Regelmäßige Serienproduktion zum besten Stückpreis',
+        note: '90–100+ Stück; neue Formen erfordern eine eigene Form (+15–20 Tage Werkzeugbau)',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── who we serve / customer needs ─────────────────────────── */
@@ -1124,6 +1380,45 @@ export const serve: Localized<ServeContent> = {
       },
     ],
   },
+  de: {
+    kicker: 'Wen wir bedienen',
+    title: 'Konzipiert für Unternehmen, die eigene SUP-Produkte entwickeln',
+    sub: 'Ob Sie eine neue Paddelboard-Marke lancieren oder eine bestehende Outdoor-Produktlinie erweitern — unsere Fertigungslösungen lassen sich an Ihr Geschäft anpassen.',
+    segments: [
+      {
+        slug: 'sup-brands',
+        title: 'SUP-Marken',
+        body: 'Entwickeln Sie individuelle Paddelbretter, die zu Ihrer Markenpositionierung, Ihrem Zielmarkt und Ihrer Produktstrategie passen.',
+        points: ['Individuelle Designs', 'Markengrafiken', 'Produktentwicklung', 'Private Label'],
+        cta: 'Individuelles SUP entdecken',
+        href: '/product-development',
+      },
+      {
+        slug: 'outdoor-companies',
+        title: 'Outdoor- & Wassersportunternehmen',
+        body: 'Erweitern Sie Ihr Produktportfolio mit individuell gefertigten SUP-Produkten für Ihren Markt.',
+        points: ['Produktindividualisierung', 'Mehrere Modelle', 'OEM-Produktion'],
+        cta: 'Individuelles SUP ansehen',
+        href: '/solutions/custom-sup',
+      },
+      {
+        slug: 'distributors-retailers',
+        title: 'Distributoren & Händler',
+        body: 'Schaffen Sie differenzierte Paddelboard-Kollektionen, statt über dieselben Standardprodukte zu konkurrieren.',
+        points: ['Private Label', 'Individuelle Verpackung', 'Handelsfertige Produkte'],
+        cta: 'Mehr erfahren',
+        href: '/solutions/private-label-sup',
+      },
+      {
+        slug: 'resorts-clubs',
+        title: 'Resorts, Clubs & Organisationen',
+        body: 'Entwickeln Sie SUP-Produkte und -Ausstattung, die auf Ihr Betriebsumfeld und Ihre Nutzer zugeschnitten sind.',
+        points: ['Individuelle Spezifikationen', 'Branding', 'Serienproduktion'],
+        cta: 'Lösungen ansehen',
+        href: '/solutions/resort-sup',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── solutions ─────────────────────────── */
@@ -1220,6 +1515,33 @@ export const solutions: Localized<SolutionsContent> = {
         title: 'Exigences de production',
         body: 'Adaptez la manière dont votre projet est produit.',
         points: ['Quantité', 'Spécification', 'Application'],
+      },
+    ],
+  },
+  de: {
+    kicker: 'Individualisierungskompetenz',
+    title: 'Individuelle SUP-Produktlösungen für Ihr Unternehmen',
+    sub: 'Von OEM-/ODM-Programmen für Marken bis zu Private-Label-Linien für Distributoren und Einkaufsteams — jede Anforderung wird zu einem fertigbaren Produkt.',
+    pillars: [
+      {
+        title: 'Borddesign',
+        body: 'Definieren Sie das Board nach den Anforderungen Ihres Produkts.',
+        points: ['Form', 'Größe', 'Dicke', 'Konstruktion'],
+      },
+      {
+        title: 'Grafik & Branding',
+        body: 'Bringen Sie Ihre Identität auf jedes Board.',
+        points: ['Logo', 'Farben', 'Artwork', 'Druck'],
+      },
+      {
+        title: 'Zubehör',
+        body: 'Vervollständigen Sie das Produkt mit passenden Teilen.',
+        points: ['Paddel', 'Tasche', 'Finne', 'Verpackung'],
+      },
+      {
+        title: 'Produktionsanforderungen',
+        body: 'Passen Sie an, wie Ihr Projekt produziert wird.',
+        points: ['Menge', 'Spezifikation', 'Anwendung'],
       },
     ],
   },
@@ -1325,6 +1647,34 @@ export const studio: Localized<StudioContent> = {
       },
     ],
   },
+  de: {
+    kicker: 'Konfigurator',
+    title: 'Spezifikations-Builder',
+    sub: 'Scrollen Sie durch den Aufbau — von der Boardform bis zum Versandkarton, jede Ebene legen Sie selbst fest.',
+    scrollHint: 'Scrollen, um zu entdecken',
+    steps: [
+      {
+        title: 'Form und Größe',
+        body: 'Wählen Sie eine bewährte Plattform oder legen Sie eine eigene Kontur fest — Länge, Breite, Dicke, Railprofil und Rocker.',
+      },
+      {
+        title: 'Konstruktion',
+        body: 'Einlagiger, zweilagiger oder Fusionsaufbau. Anzahl der Railbänder und Verstärkungszonen je nach Einsatzzweck.',
+      },
+      {
+        title: 'Deck-Grafik',
+        body: 'Artwork über die gesamte Deckfläche in Ihren Farben, gedruckt aus Ihren Markendateien. Unser Prepress-Team wandelt grobe Konzepte in produktionsreife Daten.',
+      },
+      {
+        title: 'Deckpad',
+        body: 'EVA in Ihren Markenfarben, mit individuellen Logos, Profilrillen, Ausstanzungen und Texturen.',
+      },
+      {
+        title: 'Zubehör und Verpackung',
+        body: 'Paddel, Pumpen, Taschen, Finnen und Leashes — individualisiert und als Bundle. Bedruckte Kartons und Handelseinschläge nach Ihrer Spezifikation.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── products ─────────────────────────── */
@@ -1397,6 +1747,20 @@ export const productFilters: Localized<{ all: string; groups: ProductFilterGroup
       { key: 'fishing', label: 'Pêche' },
       { key: 'kids', label: 'Enfants' },
       { key: 'multi', label: 'Multipersonnes' },
+    ],
+  },
+  de: {
+    all: 'Alle Plattformen',
+    groups: [
+      { key: 'all-around', label: 'Allround' },
+      { key: 'race', label: 'Rennen' },
+      { key: 'surf', label: 'Surf' },
+      { key: 'touring', label: 'Touren' },
+      { key: 'yoga', label: 'Yoga' },
+      { key: 'whitewater', label: 'Wildwasser' },
+      { key: 'fishing', label: 'Angeln' },
+      { key: 'kids', label: 'Kinder' },
+      { key: 'multi', label: 'Multipersonen' },
     ],
   },
 }
@@ -2053,6 +2417,223 @@ export const products: Localized<ProductsContent> = {
       },
     ],
   },
+  de: {
+    kicker: 'Produktplattformen',
+    title: 'SUP-Plattformen für die Individualisierung verfügbar',
+    sub: 'Jede Serie ist eine Fertigungsplattform — wählen Sie einen Ausgangspunkt, und wir passen Form, Grafiken und Spezifikationen an Ihr Produkt an.',
+    items: [
+      {
+        slug: 'sup-explorer-11',
+        series: 'all-around',
+        sku: 'SUP-EX11',
+        name: "SUP Explorer 11'",
+        tagline: 'Der Allround-Klassiker',
+        desc: 'Unser beliebtestes Allround-Board — breite Bauform für Stabilität bei Anfängern, Agilität für Fortgeschrittene und Mobilität für jedes Abenteuer. Der Standardausgangspunkt für die meisten neuen Marken.',
+        uses: ['Anfänger', 'Allround', 'Familie'],
+        for: ['Start-ups', 'Verleihflotten'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
+        artwork: 'Drop-Stitch-Kern in Militärqualität · verstärkte Rails · 2+1-Finnen · Komplettpaket',
+        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-pulse',
+        series: 'whitewater',
+        sku: 'SUP-OP11',
+        name: 'Ocean Pulse Series',
+        tagline: 'Designer-Edition mit topografischem Wellenmuster',
+        desc: 'Meereswellen, verwandelt in topografische Konturen in Tiffany-Blau, mit hochpräzisem mechanischem Prägen und einem durchgängig farblich abgestimmten Accessoire-Kit.',
+        uses: ['Lifestyle', 'Flachwasser', 'Designer'],
+        for: ['Lifestyle-Marken', 'Boutique-Reisen'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV-Digitaldruck + mechanisches Heißprägen · abgestimmtes Zubehör',
+        image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-cheetah-surge',
+        series: 'surf',
+        sku: 'SUP-CS11',
+        name: 'Cheetah Surge Edition',
+        tagline: 'Von der Wildnis inspirierte Premium-Edition',
+        desc: 'Rohle Wildkraft trifft auf künstlerische Eleganz — ein Gepardenmotiv in Pastellrosa, Petrol und Koralle, gefertigt mit farbechter, mehrfarbiger EVA-Blockverklebung.',
+        uses: ['Lifestyle', 'Flachwasser', 'Designer'],
+        for: ['Lifestyle-Marken', 'Social-First-Marken'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Mehrfarbige EVA-Blockverklebung + UV-Druck · delaminationsresistenter Aufbau',
+        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-medusa-glow',
+        series: 'yoga',
+        sku: 'SUP-MG11',
+        name: 'Medusa Glow Series',
+        tagline: 'Die Quallen-Edition',
+        desc: 'Eine traumhafte Unterwasserwelt — leuchtende Quallen, Seesterne und Korallenriffe in erfrischendem Mintgrün, mit farbechtem EVA-Artwork und herausragender Seitenstabilität für Yoga.',
+        uses: ['Yoga', 'Tropical', 'Lifestyle'],
+        for: ['Yoga-Studios', 'Tropische Marken'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Mehrfarbige EVA-Blockverklebung + UV-Druck · Griff im PVC-Rumpf verankert',
+        image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        hue: 260,
+      },
+      {
+        slug: 'sup-dolphin-wave',
+        series: 'touring',
+        sku: 'SUP-DW11',
+        name: 'Dolphin Wave Series',
+        tagline: 'Marine 360°-Edition',
+        desc: 'Springende Delfine und geschichtete Blautöne im Stil mittelalterlicher Wellen mit CNC-präzise geschnittener EVA-Splicing-Verbindung und siebbedruckter durchgehender Railgrafik, die das Deck 360° umschließt.',
+        uses: ['Marine', 'Flachwasser', 'Designer'],
+        for: ['Marine-Marken', 'Resorts'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'CNC-geschnittenes EVA-Farbblock-Splicing + siebbedruckte Rails · PANTONE-TPG-Farbabstimmung',
+        image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-flowing-lotus',
+        series: 'yoga',
+        sku: 'SUP-FL11',
+        name: 'Flowing Lotus Series',
+        tagline: 'Wellness-Edition mit orientalischer Kunst',
+        desc: 'Traditionelle orientalische Pinselkunst mit Lotus-, Koi- und Libellenmotiven — lasergeätzt in das Antirutschpad, damit es sich nie abnutzt oder verblasst. Konzipiert für ruhiges Paddeln und Yoga.',
+        uses: ['Yoga', 'Meditation', 'Flachwasser'],
+        for: ['Yoga-Studios', 'Wellness-Marken'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Zweischichtig lasergraviertes EVA + UV-Druck mit Farbverlauf · dynamische Farbblock-Finnen',
+        image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif',
+        hue: 150,
+      },
+      {
+        slug: 'sup-jungle-mandala',
+        series: 'all-around',
+        sku: 'SUP-JM11',
+        name: 'Jungle Mandala Series',
+        tagline: 'Tropische sakrale Geometrie',
+        desc: 'Tropische Vitalität trifft auf sakrale Geometrie — Hibiskus, Kolibris und Mandala-Totems in Tiffany-Blau und Korallenorange, konstruiert für perfekte Symmetrie bei vollem Druck.',
+        uses: ['Tropisch', 'Küste', 'Designer'],
+        for: ['Tropische Marken', 'Reise'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Zweischichtig lasergraviertes EVA + UV-Druck + siebbedruckte Rails · verzerrungsfreie Geometrie',
+        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-10.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-leviathan-wake',
+        series: 'race',
+        sku: 'SUP-LW11',
+        name: 'Leviathan Wake Series',
+        tagline: 'Die Wal-Edition',
+        desc: 'Ein majestätisches Blauwal-Totem mit geometrischen Stammesmustern und minimalistischen Schwarz-Weiß-Dünungslinien — für Paddler, die sich mit dem Ozean verbunden fühlen.',
+        uses: ['Ozean', 'Allround', 'Designer'],
+        for: ['Ozean-Marken', 'Outdoor-Marken'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV-Digitaldruck + mechanisches Prägen · dehnbare PVC-Farben im Bodenlogo',
+        image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-voyager',
+        series: 'all-around',
+        sku: 'SUP-OV11',
+        name: 'Ocean Voyager Series',
+        tagline: 'Die Meeresschildkröten-Edition',
+        desc: 'Eine Hommage an den größten Wanderer des Ozeans — geometrisches Meeresschildkröten-Artwork in Tiefpetrol, Türkis und Korallenorange, mit einem durchgängig abgestimmten Accessoire-Kit.',
+        uses: ['Touren', 'Ozean', 'Allround'],
+        for: ['Touren-Marken', 'Outdoor-Marken'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Mehrfarbige EVA-Blockverklebung + UV-Druck · farblich abgestimmter Rucksack, Pumpe & Leash',
+        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-12.avif',
+        hue: 170,
+      },
+      {
+        slug: 'sup-tropical-breeze',
+        series: 'all-around',
+        sku: 'SUP-TB11',
+        name: 'Tropical Breeze Series',
+        tagline: 'Inselauszeit-Edition',
+        desc: 'Eine komplette Urlaubsinsel-Leinwand — Sonnenschein, Kokospalmen und Strandszenen, die von einer fein illustrierten Nase in abstrakte EVA-Farbblöcke Richtung Heck übergehen.',
+        uses: ['Urlaub', 'Lifestyle', 'Küste'],
+        for: ['Reisemarken', 'Resorts'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV-Digitaldruck + gestanztes EVA-Patchwork · illustrierte Nasenlandschaft',
+        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-17.avif',
+        hue: 330,
+      },
+      {
+        slug: 'sup-rheo-race',
+        series: 'race',
+        sku: 'SUP-RHEO01',
+        name: 'RHEO Race Series',
+        tagline: 'Carbon-Hybrid-Renn-Edition',
+        desc: 'Aufblasbares Rennboard der Eliteklasse mit Carbon-Hybridkonstruktion und aggressivem Gleitrocker — gebaut für Wettkampfrennen, Sprinttraining und technische Kurse, in denen Steifigkeit und Geschwindigkeit über das Ergebnis entscheiden.',
+        uses: ['Rennsport', 'Geschwindigkeit', 'Training'],
+        for: ['Renn-Teams', 'Coaching'],
+        specs: 'Carbon-Hybrid-Matrix · Gleitrocker · stromlinienförmiges Hochgeschwindigkeitsprofil',
+        artwork: 'Carbon-Hybrid-Aufblaskonstruktion · leistungsstarker Gleitrocker',
+        image: 'https://assets.supsfactory.com/site/products/2026/race/race-11.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-fishing',
+        series: 'fishing',
+        sku: 'SUP-FSH01',
+        name: 'Aufblasbares Angel-SUP',
+        tagline: 'Angel-Edition mit Katamaran-Stabilität',
+        desc: 'Aufblasbares SUP speziell fürs Angeln mit doppelseitiger Luftkammer (im Katamaranstil) für herausragende Sekundärstabilität, Rutenhalter-Befestigungen, einer Fischmessskala auf dem Deck und einem verstärkten Nutzrumpf.',
+        uses: ['Angeln', 'Stabilität', 'Nutzung'],
+        for: ['Angelmarken', 'Guides'],
+        specs: 'Doppelseitige Luftkammer · 10–80-cm-Fischskala · Rutenhalter-Befestigungen',
+        artwork: 'Verstärkter Nutzrumpf · mehrpunktige Metall-D-Ringe',
+        image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-mini',
+        series: 'kids',
+        sku: 'SUP-MINI01',
+        name: 'Mini SUP Series',
+        tagline: '3-in-1: Kinder / Surf / Bodyboard',
+        desc: 'Ultratransportables Hybrid-Board, das zwischen Kinder-SUP, aufblasbarem Surfbrett und Bodyboard wechselt — mit einem kurzen, breiten, äußerst stabilen Profil und einer stichfesten Deckfläche.',
+        uses: ['Kinder', 'Surf', 'Reise'],
+        for: ['Kindermarken', 'Resorts'],
+        specs: 'Hybride SUP-/Surf-/Bodyboard-Geometrie · kurzer breiter Rumpf · stichfestes Deck',
+        artwork: 'Multifunktions-Hybridgeometrie · hochbelastbares Deckmaterial',
+        image: 'https://assets.supsfactory.com/site/products/2026/mini/mini-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-giant',
+        series: 'multi',
+        sku: 'SUP-GNT01',
+        name: 'Giant SUP — Multipersonen-Teamboard',
+        tagline: 'Teamplattform für 6–8 Personen',
+        desc: 'Multipersonen-SUP im Großformat für 6–8 Personen: Rumpf 16.4–17 ft, Breite 59–60 Zoll, Dicke 8 Zoll und Zwei-Ventil-Aufpumpsystem, mit 8–12 Tragegriffen und einem 4+1-Fin-System.',
+        uses: ['Gruppe', 'Team', 'Freizeit'],
+        for: ['Resorts', 'Verleihflotten'],
+        specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · 4+1 fins",
+        artwork: 'Zwei-Ventil-Aufpumpsystem · 8–12 Neopren-Tragegriffe · 4+1-Fin-System',
+        image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-lure-skiff',
+        series: 'fishing',
+        sku: 'SUP-LSK01',
+        name: 'Utility SUP — Lure Skiff',
+        tagline: 'Kunstköderangeln auf ultradurchbreitem 120-cm-Board',
+        desc: 'Ultradurchbreites 120-cm-Board zum Kunstköderangeln mit zentralem Einschnappfach und Unterwasser-Sichtfenster, 400 kg Zuladung und pontonartigem Rumpf für bombenfestes Auswerfen und sitzendes Angeln.',
+        uses: ['Angeln', 'Nutzung', 'Stabilität'],
+        for: ['Angelmarken', 'Angler'],
+        specs: '350 × 120 × 15 cm · 400-kg-Zuladung · Tri-Fin · Sichtfenster',
+        artwork: 'Zentrales Einschnappfach · transparentes Unterwasser-Sichtfenster · Pontonrumpf',
+        image: 'https://assets.supsfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        hue: 170,
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── video showcases ─────────────────────────── */
@@ -2145,6 +2726,31 @@ export const videoShowcase: Localized<{
         { t: 'Pad de pont antidérapant' },
         { t: 'Quincaillerie et cordons élastiques' },
         { t: 'Dégonflage, pliage et emballage' },
+      ],
+    },
+  },
+  de: {
+    launch: {
+      badge: 'Markenlaunch',
+      title: 'Träumen Sie davon, Ihre eigene SUP-Marke auf den Markt zu bringen?',
+      sub: 'Sie brauchen keine eigene Fabrik, um eine SUP-Marke aufzubauen. Wir sind der Fertigungspartner hinter Ihrer Linie: Spezifikation, Engineering, Bemusterung, Qualitätskontrolle, Verpackung und exportfertige Produktion — alles unter einem Vertrag mit einem verantwortlichen Team.',
+      points: [
+        { t: 'Vollständiger OEM/ODM-Weg vom Konzept zur Produktion', d: 'Individuelle Boardgrafiken, Logo-Integration, Deckpads und individuelle Verpackung.' },
+        { t: 'Flexibler Launch mit niedrigem MOQ', d: 'Kleinserien-Unterstützung, damit Sie den Markt testen können, ohne großes Kapital zu binden.' },
+        { t: 'Komplette Accessoire-Bundles', d: 'Leistungsstarke Paddel, Pumpen, Leashes und Reisetaschen, versandfertig gepackt.' },
+        { t: 'Qualität & Zertifizierung auf Unternehmensniveau', d: 'Strenge QA/QC-Protokolle, Dichtigkeitstests und globale Exportkonformität.' },
+      ],
+    },
+    process: {
+      badge: 'In der Fabrik',
+      title: 'Wie ein aufblasbares SUP entsteht',
+      sub: 'Haben Sie sich je gefragt, wie aus einem weichen Board ein hartes wird? Fünf Schritte in unserem Werk.',
+      points: [
+        { t: 'Präzisionszuschnitt & UV-Druck' },
+        { t: 'Zu 100 % luftdichtes Heißschweißen' },
+        { t: 'Antirutsch-Deckpad' },
+        { t: 'Beschläge & Bungee-Seile' },
+        { t: 'Entlüften, Falten & Verpacken' },
       ],
     },
   },
@@ -2274,6 +2880,42 @@ export const works: Localized<WorksContent> = {
     ],
     note: 'L\'échantillon approuvé fait office de contrat. Chaque planche du lot est mesurée par rapport à lui.',
   },
+  de: {
+    kicker: 'SUP-Produktentwicklung',
+    title: 'Vom Briefing bis zur Charge — Produktentwicklung in unserem Werk',
+    sub: 'Von der Anforderungsaufnahme bis zum Fertigprodukt — jeder Schritt in unserem eigenen Werk.',
+    steps: [
+      {
+        title: 'Anforderungsaufnahme',
+        body: 'Wir erfassen Ihre Spezifikation, Ihren Zielmarkt, Ihre Konformitätsanforderungen und Ihre Mengenprognose. Vor jedem Dateiaustausch wird eine NDA unterzeichnet.',
+      },
+      {
+        title: 'Engineering-Prüfung',
+        body: 'Boardtyp, Maße, Aufbau, Materialien und Beschläge werden auf Fertigbarkeit geprüft. Sie erhalten einen schriftlichen Bericht mit identifizierten Kostentreibern.',
+      },
+      {
+        title: 'Artwork-Prepress',
+        body: 'Ihre Markendateien werden in produktionsreife Druckdaten überführt. Farben werden vor dem Druck abgestimmt und geprüft.',
+      },
+      {
+        title: 'Prototyp',
+        body: 'Ein physischer Prototyp bestätigt Form, Steifigkeit, Gewicht und Finish. Versand in 7–12 Tagen.',
+      },
+      {
+        title: 'Musterfreigabe',
+        body: 'Sie geben das physische Muster frei. Nichts geht in Produktion, bis das Goldmuster freigegeben und als Chargenreferenz archiviert ist.',
+      },
+      {
+        title: 'Serienproduktion',
+        body: 'Fertigung in unserem eigenen Werk gemäß dem oben beschriebenen Qualitätsprozess, mit Chargenrückverfolgbarkeit bis auf Materialcharchebene.',
+      },
+      {
+        title: 'Exportfertige Auslieferung',
+        body: 'Vakuumiert, verpackt, dokumentiert und exportfertig übergeben.',
+      },
+    ],
+    note: 'Das freigegebene Muster ist der Vertrag. Jedes Board der Charge wird daran gemessen.',
+  },
 }
 
 /* ─────────────────────────── home: board categories ─────────────────────────── */
@@ -2344,6 +2986,23 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
       { id: 'fishing', label: 'Pêche', desc: 'Plateformes stables avec porte-cannes et coque utilitaire pour la pêche.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
       { id: 'kids', label: 'SUP pour enfants', desc: 'Planches plus petites et plus légères, conçues pour les enfants.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
       { id: 'multi', label: 'Multi-personnes', desc: 'Planches d\'équipe de grand format pour 6–8 pagayeurs.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+    ],
+  },
+  de: {
+    kicker: 'Unsere Boards',
+    title: 'Vom Produktkonzept zum produktionsreifen SUP',
+    sub: 'Jede Boardkategorie ist eine Fertigungsplattform — wählen Sie Ihren Ausgangspunkt, und wir passen Form, Grafiken und Spezifikationen an Ihr Produkt an.',
+    viewLabel: 'Ansehen',
+    items: [
+      { id: 'all-around', label: 'Allround', desc: 'Vielseitige SUP-Boards für Paddler aller Könnensstufen.', image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring-SUP', desc: 'Langstrecken-Boards für Entdeckungen und Abenteuer.', image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Rennen', desc: 'Leistungsboards für Wettkämpfe und sportliches Paddeln.', image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Wildwasser', desc: 'Robuste Boards für Fluss-Stromschnellen und Lifestyle.', image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Geräumige Decks für Yoga und Fitness.', image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Agile Boards fürs Wellenreiten und Surfen.', image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Angeln', desc: 'Stabile Plattformen mit Rutenhaltern und Nutzrumpf.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'Kinder-SUPs', desc: 'Kleinere, leichtere Boards für Kinder.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Multipersonen', desc: 'Team-Boards im Großformat für 6–8 Personen.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
 }
@@ -2471,6 +3130,41 @@ export const platforms: Localized<PlatformsContent> = {
       },
     ],
   },
+  de: {
+    kicker: 'Produktplattformen',
+    title: 'Basisplattformen',
+    sub: 'Basisplattformen, keine Katalogprodukte. Jede Dimension, jeder Aufbau und jede Grafik wird pro Projekt spezifiziert.',
+    items: [
+      {
+        title: 'Allround',
+        body: 'Klassische Freizeitplattformen für Handelssortimente, Verleihflotten und Outdoor-Programme.',
+        uses: ['Handelssortimente', 'Verleihflotten', 'Outdoor-Programme'],
+        cta: 'Diese Plattform anfragen',
+        href: '/contact',
+      },
+      {
+        title: 'Touring',
+        body: 'Längere Wasserlinien für Distanz, Spurhaltung und Expeditionszwecke.',
+        uses: ['Distanz', 'Spurhaltung', 'Expedition'],
+        cta: 'Diese Plattform anfragen',
+        href: '/contact',
+      },
+      {
+        title: 'Rennen',
+        body: 'Leistungsformen für Clubs, Events und Wettkampfteams.',
+        uses: ['Clubs', 'Events', 'Wettkampfteams'],
+        cta: 'Diese Plattform anfragen',
+        href: '/contact',
+      },
+      {
+        title: 'Mehrzweck',
+        body: 'Langlebige Boards mit hoher Nutzungsfrequenz für Schulen, Verleihbetriebe und institutionelle Käufer.',
+        uses: ['Schulen', 'Verleihbetriebe', 'Institutionelle Käufer'],
+        cta: 'Diese Plattform anfragen',
+        href: '/contact',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── gallery ─────────────────────────── */
@@ -2575,6 +3269,34 @@ export const gallery: Localized<GalleryContent> = {
       },
     ],
   },
+  de: {
+    kicker: 'Produktionsprojekte',
+    title: 'Aktuelle Produktion',
+    sub: 'Fertigungsprojekte aus unserem Werk — mit den Zahlen, die Käufer tatsächlich interessieren.',
+    projects: [
+      {
+        tag: 'Chargenrückverfolgbarkeit',
+        title: 'Versandfreigabe & Übergabe der Rückverfolgbarkeit',
+        body: 'Jede Charge wird mit ihrer Qualitätsübergabe versandt — Prüfprotokolle, Seriennummern pro Board und das unterschriebene Freigabeprotokoll, archiviert im Rahmen der 10-jährigen ERP-Rückverfolgbarkeit. Das Foto zeigt das tatsächliche Protokoll zur Freigabe- und Rückverfolgbarkeitsübergabe im Werk.',
+        hue: 195,
+        image: '/出货放行与批次追溯记录交接.jpg',
+      },
+      {
+        tag: 'Club-Team',
+        title: 'Club-Team-Boards — Rennplattform',
+        body: 'Rennplattform mit Spezifikationsanpassungen und Clubgrafik, im Musterstadium festgelegt; das Werkzeug wurde über zwei Saisons wiederverwendet, sodass die Nachbestellung exakt der ursprünglichen Flotte entsprach.',
+        hue: 28,
+        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+      },
+      {
+        tag: 'Markenlinienerweiterung',
+        title: 'Markenlinienerweiterung — aufblasbares SUP',
+        body: 'Eine etablierte Wassersportmarke ergänzte eine Linie aufblasbarer SUPs: Engineering-Prüfung, individuelle Form, drei Größen und eine Erstproduktion von 50 Stück mit Grafik- und Dichtheitsprüfung vor dem Hochskalieren — Design und Werkzeug gehören der Marke.',
+        hue: 210,
+        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── buyer's guides (home) ─────────────────────────── */
@@ -2655,6 +3377,28 @@ export const guides: Localized<GuidesContent> = {
       {
         title: 'Certification CE pour SUP gonflables',
         body: 'Ce que couvre réellement le CE, les cinq documents à exiger, et comment vérifier qu\'un certificat nomme bien votre modèle.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  de: {
+    kicker: 'Ratgeber für Käufer',
+    title: 'Fertigungsleitfäden',
+    sub: 'Die Fragen, die jede SUP-Marke vor der Bestellung stellt — verständlich beantwortet, mit unseren realen Konditionen.',
+    guides: [
+      {
+        title: 'Private Label: Der vollständige Schritt-für-Schritt-Leitfaden',
+        body: 'Von der Fabrikwahl bis zur Produktion — der komplette Weg in sechs Schritten für neue Marken.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'SUP-OEM-MOQ und Preisgestaltung',
+        body: 'MOQ-Stufen von 1–2 Mustern bis zu Serien mit 90–100+ Stück, die sechs Kostentreiber und fünf Wege, Kosten zu senken, ohne an Qualität zu sparen.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'CE-Zertifizierung für aufblasbare SUPs',
+        body: 'Was die CE wirklich abdeckt, die fünf Dokumente, die Sie verlangen sollten, und wie Sie prüfen, ob ein Zertifikat Ihr Modell benennt.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -2771,6 +3515,43 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'Certification CE pour SUP gonflables',
         body: 'Ce que couvre réellement le CE, les cinq documents à exiger, et comment vérifier qu\'un certificat nomme bien votre modèle.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  de: {
+    kicker: 'Fertigungsleitfäden',
+    title: 'Von der Fabrik zum Fertigprodukt',
+    sub: 'Die vollständige Sourcing-Bibliothek — jede Phase eines individuellen SUP-Projekts mit unseren realen Lieferzeiten, Konditionen und Dokumenten.',
+    guides: [
+      {
+        title: 'So wählen Sie einen SUP-OEM-Hersteller',
+        body: 'Die Audit-Fragen, die eine echte Fabrik von einem Händler unterscheiden: Zertifizierungen, Qualitätskontrolle, Muster und Eigentum.',
+        href: '/news/how-to-choose-sup-oem-manufacturer',
+      },
+      {
+        title: 'Zeitplan der SUP-Produktentwicklung',
+        body: 'Muster in 7–12 Tagen, Produktion in 25–35 Tagen, Werkzeug plus 15–20 — der vollständige Kalender, Stufe für Stufe.',
+        href: '/news/custom-sup-development-timeline',
+      },
+      {
+        title: 'Informationen, die Sie vor der Bestellung vorbereiten',
+        body: 'Die fünf Angaben, mit denen eine Fabrik beim ersten Anlauf präzise kalkulieren kann — und Spezifikationsnacharbeit vermeidet.',
+        href: '/news/info-needed-before-sup-production',
+      },
+      {
+        title: 'Private Label: Der vollständige Schritt-für-Schritt-Leitfaden',
+        body: 'Von der Fabrikwahl bis zur Produktion — der komplette Weg in sechs Schritten für neue Marken.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'SUP-OEM-MOQ und Preisgestaltung',
+        body: 'MOQ-Stufen von 1–2 Mustern bis zu Serien mit 90–100+ Stück, die sechs Kostentreiber und fünf Wege, Kosten zu senken, ohne an Qualität zu sparen.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'CE-Zertifizierung für aufblasbare SUPs',
+        body: 'Was die CE wirklich abdeckt, die fünf Dokumente, die Sie verlangen sollten, und wie Sie prüfen, ob ein Zertifikat Ihr Modell benennt.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -2993,6 +3774,73 @@ export const faq: Localized<FaqContent> = {
       },
     ],
   },
+  de: {
+    kicker: 'FAQ',
+    title: 'Häufige Fragen zur Fertigung',
+    sub: 'Fragen, die Käufer vor einer Bestellung stellen — beantwortet mit unseren tatsächlichen Konditionen.',
+    items: [
+      {
+        q: 'Was stellt SUPsfactory her?',
+        a: 'SUPsfactory ist eine professionelle SUP-Fertigungsfabrik, spezialisiert auf individuelle aufblasbare SUP-Boards und verwandte Wassersportprodukte für globale Marken und Unternehmen — konstruiert, bemustert und produziert in unserem eigenen Werk mit 12,500 m² in Qingdao, China.',
+      },
+      {
+        q: 'Was ist der Unterschied zwischen OEM und ODM?',
+        a: `OEM: Wir fertigen nach Ihrer freigegebenen Spezifikation — Ihre Zeichnungen, Maße, Materialien und Verpackung. Sie besitzen das Design und das geistige Eigentum. ODM: Unser Ingenieurteam entwickelt das Board auf Basis Ihres Briefings — ob Marktkonzept, Leistungsziel oder Adaption einer bewährten Plattform —, und Sie geben es vor der Produktion frei. Private Label bringt Ihre Marke ohne strukturelle Änderungen auf eine bestehende validierte Plattform. Beide Wege, OEM und ODM, laufen durch dasselbe Werk, dasselbe Qualitätssystem und dasselbe Exportteam; ODM ist der schnellste Weg zu einem Board mit Ihrer Marke, ab ${MOQ_SHORT.standardRun} mit Mustern in ${FACTS.sampleTime}.`,
+      },
+      {
+        q: 'Wie hoch ist Ihre Mindestbestellmenge?',
+        a: `Co-Branding in kleiner Stückzahl startet ab 5–10 Stück; Pilotchargen ab 20–50 Stück. Die Standard-Serienproduktion startet ab ${MOQ_SHORT.standardRun}. Formen mit individueller Werkzeugauslegung werden je nach Komplexität auf der Mengenstufe gefertigt.`,
+      },
+      {
+        q: 'Wie lange dauert die Produktion?',
+        a: '25–35 Tage ab bestätigter PO und Anzahlung. Individuelles Werkzeug verlängert die Formenentwicklung um 15–20 Tage. Für saisonale Eilaufträge ist eine Expressproduktion verfügbar.',
+      },
+      {
+        q: 'Wie schnell erhalte ich ein Muster?',
+        a: 'Prototypenmuster werden in der Regel innerhalb von 7–12 Tagen nach Freigabe von Artwork und Spezifikation versendet.',
+      },
+      {
+        q: 'Welche Zertifizierungen besitzen Sie?',
+        a: 'ISO 9001 für Qualitätsmanagement, CE-Zertifizierung für Modelle für den EU-Markt (Geltungsbereich pro Projekt bestätigt) und eine gültige BSCI-Zertifizierung für soziale Konformität, Prüfbericht auf Anfrage. REACH- und RoHS-Dokumentation wird mit jeder Bestellung geliefert.',
+      },
+      {
+        q: 'Übernehmen Sie die Exportdokumentation?',
+        a: 'Ja. Exportdokumentation und exportgerechte Verpackung werden intern abgewickelt, und wir beliefern Marken in über 50 Ländern in der EU, den USA, Australien und Asien.',
+      },
+      {
+        q: 'Wird mein Design weiteren Kunden gezeigt?',
+        a: 'Nein. Artwork, Werkzeug und Spezifikationsdateien bleiben Ihr Eigentum. Wir unterzeichnen vor jedem Dateiaustausch eine NDA und verwenden Werkzeuge oder Designs von Kunden nie weiter und verkaufen sie nicht.',
+      },
+      {
+        q: 'Verkaufen Sie eine eigene SUP-Marke?',
+        a: 'Nein. Wir fertigen ausschließlich unter den Marken unserer Kunden. Wir verkaufen nicht an Endverbraucher und treten in keinem Markt in Wettbewerb zu unseren Kunden.',
+      },
+      {
+        q: 'Können Sie ein Board, das ich bereits verkaufe, nachbauen?',
+        a: 'Ja. Senden Sie ein physisches Muster oder eine vollständige Spezifikation, und unser Ingenieurteam erstellt einen Fertigbarkeitsbericht mit Materialien, Aufbau, Toleranzen und Kostentreibern.',
+      },
+      {
+        q: 'Können Sie SUP-Boards mit unserem Logo herstellen?',
+        a: 'Ja. Individuelles Branding — Logos, Farben, Grafiken und Oberflächen-Artwork — wird gemäß den vereinbarten Spezifikationen in Design und Produktion integriert. Alle Marken- und Artwork-Dateien gehören Ihnen.',
+      },
+      {
+        q: 'Können Sie ein völlig neues SUP-Produkt entwickeln?',
+        a: 'Ja. Die individuelle Produktentwicklung startet bei Ihrem Konzept, Ihren Skizzen, Spezifikationen oder Marktanforderungen. Wir arbeiten über Spezifikationsprüfung, strukturelles Engineering, Prototypenmuster und Freigabe, bevor es in die Serienproduktion geht.',
+      },
+      {
+        q: 'Welche Materialien verwenden Sie für aufblasbare SUP-Boards?',
+        a: 'Aufblasbare SUPs werden in Drop-Stitch-Konstruktion mit wählbaren PVC-Lagen und -Dichten gebaut, um Gewichts-, Steifigkeits- und Preisziele zu treffen, mit REACH/RoHS-konformen Materialien und Qualitätszertifizierung (ISO 9001, CE, BSCI).',
+      },
+      {
+        q: 'Arbeiten Sie mit neuen oder Start-up-SUP-Marken zusammen?',
+        a: `Ja. OEM/ODM-Projekte werden nach Ihren Produktanforderungen, Ihrem Zielmarkt und Ihrem Volumen entwickelt — Pilotserien starten ab 20–50 Stück und die Standard-Serienproduktion ab ${MOQ_SHORT.standardRun}.`,
+      },
+      {
+        q: 'Welche Informationen sollte ich für eine OEM-SUP-Anfrage bereitstellen?',
+        a: 'Am hilfreichsten: Produkttyp, Zielmarkt, Boardgröße oder Spezifikationen, gewünschte Konstruktion, Branding-Anforderungen, geschätzte Menge, Verpackungsanforderungen und angestrebter Launch-Termin. Unser Team sendet innerhalb eines Werktags eine technische Bewertung und ein Angebot.',
+      },
+    ],
+  },
 }
 
 export const homeFaq: Localized<FaqContent> = {
@@ -3065,6 +3913,29 @@ export const homeFaq: Localized<FaqContent> = {
       },
     ],
   },
+  de: {
+    kicker: faq.de.kicker,
+    title: faq.de.title,
+    sub: faq.de.sub,
+    items: [
+      {
+        q: 'Wer ist SUPsfactory?',
+        a: 'SUPsfactory ist ein OEM- und ODM-Hersteller für aufblasbare SUPs in Qingdao, China, der Marken, Distributoren und Outdoor-Unternehmen Produktentwicklung, Prototypenbau, Fertigung, Qualitätskontrolle und Exportproduktion anbietet.',
+      },
+      {
+        q: 'Ist SUPsfactory ein OEM-Hersteller?',
+        a: 'Ja. SUPsfactory fertigt aufblasbare SUPs nach den vom Kunden freigegebenen Spezifikationen, einschließlich Abmessungen, Materialien, Konstruktion, Grafik, Zubehör und Verpackung. ODM-Produktentwicklung ist ebenfalls für Marken verfügbar, die ein SUP auf Basis eines Briefings entwickeln möchten.',
+      },
+      faq.de.items[1],
+      faq.de.items[2],
+      faq.de.items[3],
+      faq.de.items[5],
+      {
+        q: 'Können Käufer das Werk auditen oder eine Drittprüfung in Anspruch nehmen?',
+        a: 'Ja. Wir heißen Käufer-Audits willkommen und arbeiten regelmäßig mit SGS, TÜV, BV und Intertek zusammen. Eine Drittprüfung kann in jeder Produktionsphase vereinbart werden — Wareneingang, In-Prozess-Kontrolle oder Endkontrolle — und die Prüfberichte werden auf Anfrage bereitgestellt.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── CTA band ─────────────────────────── */
@@ -3094,6 +3965,12 @@ export const cta: Localized<CtaContent> = {
     body: 'Que vous disposiez déjà d\'une spécification produit complète ou que vous développiez encore votre concept, notre équipe peut vous aider à évaluer la suite. Dites-nous ce que vous souhaitez construire — nous examinerons vos exigences et évoquerons la voie la plus pratique, du concept à la production.',
     button: 'Lancer votre projet de SUP',
     note: 'Réponse sous 1 jour ouvrable · NDA sur demande avant l\'échange de fichiers · info@supsfactory.com · +86-13305324192',
+  },
+  de: {
+    title: 'Bereit, Ihr SUP-Produkt zu entwickeln?',
+    body: 'Ob Sie bereits eine vollständige Produktspezifikation haben oder Ihr Konzept noch entwickeln, unser Team kann Ihnen helfen, den nächsten Schritt zu bewerten. Teilen Sie uns mit, was Sie bauen möchten — wir prüfen Ihre Anforderungen und besprechen den praktischsten Weg vom Konzept bis zur Produktion.',
+    button: 'Ihr SUP-Projekt starten',
+    note: 'Antwort innerhalb eines Werktags · NDA auf Anfrage vor dem Dateiaustausch · info@supsfactory.com · +86-13305324192',
   },
 }
 
@@ -3205,6 +4082,37 @@ export const valueProp: Localized<ValuePropContent> = {
       },
     ],
   },
+  de: {
+    kicker: 'Unsere Rolle',
+    title: 'Mehr als eine SUP-Fabrik',
+    sub: 'Viele Hersteller können ein Standard-SUP herstellen. Unsere Rolle ist anders: SUPsfactory ist ein Partner für Produktentwicklung und kundenspezifische Fertigung, der Unternehmen hilft, von der ersten Idee zum produktionsreifen Produkt zu gelangen.',
+    cards: [
+      {
+        title: 'Produktentwicklung',
+        body: 'Verwandeln Sie Ihr Konzept, Ihre Skizzen, Spezifikationen oder Marktanforderungen in ein herstellbares SUP-Produkt.',
+      },
+      {
+        title: 'Kundenspezifische Fertigung',
+        body: 'Passen Sie Konstruktion, Abmessungen, Grafiken, Farben, Zubehör und Verpackung an Ihre Anforderungen an.',
+      },
+      {
+        title: 'Prototypenentwicklung',
+        body: 'Bewerten Sie das Produkt vor der Serienproduktion anhand von Musterentwicklung und Tests.',
+      },
+      {
+        title: 'Produktionsunterstützung',
+        body: 'Nach Freigabe des Designs übernehmen wir den Übergang vom Prototyp zur reproduzierbaren Serienproduktion.',
+      },
+      {
+        title: 'Qualitätskontrolle',
+        body: 'Qualitätsprüfungen während der gesamten Produktion stellen sicher, dass die Fertigprodukte den vereinbarten Spezifikationen entsprechen.',
+      },
+      {
+        title: 'Globale Lieferung',
+        body: 'Unterstützung bei Verpackung und Exportdokumentation vereinfacht den Beschaffungsprozess.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: role boundary (Where We Stop, You Start) ─────────────────────────── */
@@ -3275,6 +4183,23 @@ export const boundary: Localized<BoundaryContent> = {
     ],
     footer:
       'Vos fichiers de graphisme, d\'outillage et de spécification restent votre propriété et ne sont jamais réutilisés, revendus ni montrés à un autre client.',
+  },
+  de: {
+    kicker: 'Wer wir sind',
+    title: 'Gebaut von einer SUP-Fabrik, nicht von einer Handelsplattform',
+    sub: 'Wir sind ein Fertigungspartner, kein Marktplatz. Unsere Aufgabe ist es, Kunden zu helfen, Ideen, Designs und Produktanforderungen in herstellbare SUP-Produkte zu verwandeln. Ihre Marke gehört Ihnen. Ihren Markt steuern Sie. Wir kümmern uns um die Produktionsumsetzung.',
+    oursTitle: 'Wir übernehmen',
+    theirsTitle: 'Sie behalten',
+    rows: [
+      { ours: 'Prüfung der Spezifikation und Bewertung der Herstellbarkeit', theirs: 'Markenname, Identität und Positionierung' },
+      { ours: 'Konstruktionstechnik, Materialauswahl, Formenbau', theirs: 'Preise, Vertriebskanäle und Verkauf' },
+      { ours: 'Druckvorbereitung des Deck-Artworks und Produktion aus Ihren Markendateien', theirs: 'Eigentum an allen Marken- und Artwork-Dateien' },
+      { ours: 'Prototyping, Bemusterung und Dokumentation der Musterfreigabe', theirs: 'Endgültige Freigabe jedes Musters' },
+      { ours: 'Serienproduktion, Qualitätskontrolle während der Produktion und Endkontrolle', theirs: 'Ihr Markt, Ihre Kunden, Ihre Daten' },
+      { ours: 'Zertifizierungsdokumentation und exportgerechte Verpackung', theirs: 'Beziehungen zum Endkunden und After-Sales' },
+    ],
+    footer:
+      'Ihre Artwork-, Werkzeug- und Spezifikationsdateien bleiben Ihr Eigentum und werden niemals wiederverwendet, weiterverkauft oder einem anderen Kunden gezeigt.',
   },
 }
 
@@ -3482,6 +4407,42 @@ export const about: Localized<AboutContent> = {
       ],
     },
   },
+  de: {
+    kicker: 'Über uns',
+    title: 'Über SUPsfactory',
+    sub: 'Ihr Partner für kundenspezifische SUP-Fertigung',
+    story: [
+      'Wir sind eine OEM/ODM-Fabrik für aufblasbare SUPs, die seit Jahren Boards für Marken, Händler und Einkaufsteams auf der ganzen Welt herstellt. Dabei begegneten wir immer wieder demselben Kundentyp — Marken und Käufer mit einer klaren Produktvision, aber ohne eigene Produktionsstätte, um sie zu realisieren.',
+      'Also haben wir SUPsfactory um sie herum aufgebaut. Abgestufte Mindestmengen ab Co-Branding-Läufen von 5–10 Einheiten, vollständige Engineering- und Design-Unterstützung und ein Fertigungsteam, das Ihre erste Bestellung so ernst nimmt wie Ihre hundertste. Sie bringen die Marke; wir betreiben die Fabrik.',
+    ],
+    values: [
+      { title: 'Qualität zuerst', body: 'Jede Board durchläuft eine mehrstufige Qualitätskontrolle — Material, Schweißnähte, Druck, Montage und Verpackung werden in jeder Produktionsphase geprüft.' },
+      { title: 'Hersteller, kein Zwischenhändler', body: 'Design, Formenbau, Prototyp, Produktion und Tests finden unter einem Dach statt — ohne Handelsebene zwischen Ihnen und dem Werk.' },
+      { title: 'Flexibel durch Design', body: 'Abgestufte Mindestmengen, modulare Optionen und realistische Lieferzeiten erlauben es Marken, vom Musterauftrag zu Serienaufträgen zu wachsen.' },
+    ],
+    capabilities: ['OEM / ODM / Private Label', 'Kundenspezifische Formen', 'Musterservice', 'Design & Artwork', 'Mehrstufige Qualitätskontrolle', 'Exportdokumentation'],
+    stats: [
+      { value: '90–100+ Stk.', label: 'Standard-MOQ für Serienmenge (je freigegebener Konfiguration)' },
+      { value: '7–12 Tage', label: 'Musterlieferzeit' },
+      { value: '25–35 Tage', label: 'Produktionsvorlaufzeit' },
+      { value: '20–50 Stk.', label: 'MOQ für Pilotaufträge' },
+    ],
+    strength: [
+      { title: 'Produktentwicklung', body: 'Von der Konzeptskizze bis zur Produktionszeichnung — unsere Ingenieure verfeinern Form, Rocker, Dicke und Drop-Stitch-Konstruktion, um Ihre Leistungs- und Preisziele zu erreichen.' },
+      { title: 'OEM-Fertigung', body: 'Bauen Sie nach Ihrer exakten Spezifikation: Materialien, Farben, Logo-Platzierung, Zubehör und Verpackung, in Serienmengen ab 90–100+ Stück je freigegebener Konfiguration.' },
+      { title: 'ODM-Lösungen', body: 'Start auf unseren bewährten Plattformen — Allround, Touring, Race, Yoga und mehr — mit individueller Markierung, Grafik und Ausstattung für einen schnellen, risikoarmen Start.' },
+      { title: 'Engineering-Support', body: 'Formenbau, Prototyping und Musterentwicklung unter einem Dach, mit Druckmustern und Grafikfreigaben bei jedem Meilenstein vor der Serienproduktion.' },
+      { title: 'Qualitätsmanagement', body: 'Multipunkt-QC über Materialien, Schweißnähte, Druck, Montage und Verpackung, plus Stichproben- und Vorversand-Inspektionen, die Sie als Dritter buchen können.' },
+      { title: 'Globale Lieferung', body: 'Exportdokumentation, exportgerechte Verpackung und interne Dokumentationsunterstützung für Marken in über 50 Märkten.' },
+    ],
+    partnering: {
+      title: 'Zusammenarbeit mit Unternehmen weltweit',
+      body: [
+        'SUPsfactory arbeitet mit SUP-Marken, Händlern, Resorts, Schulen und Outdoor-Unternehmen zusammen, die eine zuverlässige Fabrik für aufblasbare SUP-Boards benötigen — vom ersten Musterauftrag bis zu Container-Programmen.',
+        'Teilen Sie uns Ihren Markt und Ihren Zielpreis mit, und wir antworten mit einem Spezifikationsblatt, MOQ und Lieferzeiten passend zu Ihrem Geschäftsmodell.',
+      ],
+    },
+  },
 }
 
 /* ─────────────────────────── customizer page ─────────────────────────── */
@@ -3555,6 +4516,24 @@ export const customizer: Localized<CustomizerContent> = {
     boardLabel: 'VOTRE MARQUE',
     cta: 'Créer votre design',
   },
+  de: {
+    kicker: 'Gestalten Sie Ihr SUP',
+    title: 'Visualisieren Sie Ihr SUP-Konzept vor der Produktion',
+    sub: 'Sehen Sie vorab, wie Ihre Marke auf einem echten Board aussieht — wählen Sie eine Farbe, beobachten Sie, wie sich der Mockup live aktualisiert, und senden Sie uns anschließend Ihr Logo für ein vollständiges Design.',
+    status: 'Interaktive Vorschau',
+    statusBody: 'Testen Sie jetzt die Palette und senden Sie uns dann Ihre Idee — unser Team erstellt einen kostenlosen Mockup Ihres vollständigen Designs.',
+    steps: [
+      { title: 'Board-Modell wählen', body: 'Von Allround-Plattformen bis zu Touring- und Yoga-Formen — jeweils mit realistischen Proportionen.' },
+      { title: 'Farben auswählen', body: 'Wählen Sie Ihre Markenpalette und sehen Sie, wie sich das Board sofort verändert.' },
+      { title: 'Logo hochladen', body: 'Platzieren Sie Ihr Logo und Artwork auf dem Deck — Größe und Position anpassen.' },
+      { title: 'Mockup erzeugen', body: 'Exportieren Sie eine Vorschau Ihres individuellen SUP zum Teilen mit Ihrem Team.' },
+    ],
+    mockupLabel: 'Live-Mockup-Vorschau',
+    mockupBrand: "SUP Explorer 11'",
+    stepLabel: 'Schritt',
+    boardLabel: 'IHRE MARKE',
+    cta: 'Design erstellen',
+  },
 }
 
 /* ─────────────────────────── products page extras ─────────────────────────── */
@@ -3592,6 +4571,14 @@ export const productsPage: Localized<ProductsPageContent> = {
     customTitle: 'Chaque produit peut être personnalisé',
     customBody: 'Rien ne part tel quel en l\'état. Chaque planche est construite pour vous avec vos choix à chaque couche.',
     customPoints: ['Forme et taille', 'Couleurs et graphismes pleine planche', 'Logo et design du pad EVA', 'Accessoires et packaging'],
+  },
+  de: {
+    kicker: 'Produktplattformen',
+    title: 'SUP-Plattformen zur Individualisierung',
+    sub: 'Jedes Modell unten ist eine Fertigungsplattform. Wählen Sie eines als Ausgangspunkt, und wir passen Form, Grafiken, Farben und Spezifikationen an Ihr Produkt an.',
+    customTitle: 'Jedes Produkt kann individualisiert werden',
+    customBody: 'Nichts verlässt das Werk als Standardware. Jede Board wird mit Ihren Entscheidungen auf jeder Ebene für Sie gebaut.',
+    customPoints: ['Form & Größe', 'Farben & komplette Board-Grafiken', 'Logo- & EVA-Pad-Design', 'Zubehör & Verpackung'],
   },
 }
 
@@ -3643,6 +4630,17 @@ export const catalogDownload: Localized<CatalogContent> = {
     successTitle: 'Demande reçue',
     successBody: 'Notre équipe commerciale enverra le catalogue produit complet et la fiche de MOQ à {email} sous un jour ouvrable.',
   },
+  de: {
+    kicker: 'Produktkatalog',
+    title: 'Erhalten Sie den vollständigen Katalog und die MOQ-Übersicht',
+    body: 'Alle zehn Plattformen mit Spezifikationen, Artwork-Optionen, abgestuften MOQs, Musterzeiten und Verpackung — von unserem Vertriebsteam innerhalb eines Werktags an Ihr Postfach gesendet.',
+    emailLabel: 'Geschäftliche E-Mail',
+    emailPlaceholder: 'sie@ihrfirma.com',
+    submit: 'Katalog anfordern',
+    secure: 'Kein Spam. Nur der Katalog und Antworten zu Ihrem Projekt.',
+    successTitle: 'Anfrage erhalten',
+    successBody: 'Unser Vertriebsteam sendet den vollständigen Produktkatalog und die MOQ-Übersicht innerhalb eines Werktags an {email}.',
+  },
 }
 
 /* ─────────────────────────── gallery page extras ─────────────────────────── */
@@ -3673,6 +4671,12 @@ export const galleryPage: Localized<GalleryPageContent> = {
     sub: 'Un aperçu de la façon dont les produits SUP prennent vie — des exigences des clients aux planches finies.',
     note: 'Vous souhaitez voir votre projet mis en avant ici ? Engagez la conversation et concevons-le ensemble.',
   },
+  de: {
+    kicker: 'Individuelle SUP-Projekte',
+    title: 'Individuelle SUP-Projekte',
+    sub: 'Ein Einblick, wie SUP-Produkte entstehen — von den Anforderungen der Kunden bis zu den fertigen Boards.',
+    note: 'Möchten Sie Ihr Projekt hier vorgestellt sehen? Sprechen Sie uns an und wir gestalten es gemeinsam.',
+  },
 }
 
 /* ─────────────────────────── who-we-serve page extras ─────────────────────────── */
@@ -3695,11 +4699,17 @@ export const servePage: Localized<ServePageContent> = {
     sub: 'Ya sea que necesites tablas con marca para tu organización o productos SUP personalizados para tu negocio, te ayudamos a convertir los requisitos en productos terminados.',
   },
   fr: {
-    kicker: 'Besoins des clients',
-    title: 'Solutions SUP sur mesure pour votre entreprise',
-    sub: 'Que vous ayez besoin de planches à votre marque pour votre organisation ou de produits SUP personnalisés pour votre activité, nous vous aidons à transformer vos exigences en produits finis.',
+    kicker: 'Pour qui nous travaillons',
+    title: 'Personnalisées pour votre activité SUP',
+    sub: 'Que vous ayez besoin de planches à votre marque pour votre organisation ou de produits SUP personnalisés pour votre entreprise, nous vous aidons à transformer vos exigences en produits finis.',
+  },
+  de: {
+    kicker: 'Für wen wir arbeiten',
+    title: 'SUP-Lösungen nach Maß für Ihr Unternehmen',
+    sub: 'Ob Sie Boards unter eigener Marke für Ihre Organisation oder maßgeschneiderte SUP-Produkte für Ihr Unternehmen benötigen — wir helfen Ihnen, aus Ihren Anforderungen fertige Produkte zu machen.',
   },
 }
+
 
 /* ─────────────────────────── how-it-works page extras ─────────────────────────── */
 
@@ -3727,13 +4737,21 @@ export const worksPage: Localized<WorksPageContent> = {
     consultBody: 'Envíanos tu especificación, una tabla de referencia o planos. Te devolvemos una evaluación de fabricabilidad y un presupuesto, sin compromiso.',
   },
   fr: {
-    kicker: 'Processus de développement',
+    kicker: 'Notre processus de développement',
     title: 'De la spécification au produit fini',
     sub: 'Collecte des exigences, revue d\'ingénierie, échantillonnage, production et export — chaque étape au sein de notre propre usine.',
     consultTitle: 'Commencez par une revue de spécification',
     consultBody: 'Envoyez-nous votre spécification, une planche de référence ou des plans. Nous vous retournons une évaluation de fabricabilité et un devis, sans engagement.',
   },
+  de: {
+    kicker: 'Unser Entwicklungsprozess',
+    title: 'Von der Spezifikation zum fertigen Produkt',
+    sub: 'Anforderungsaufnahme, technische Prüfung, Muster, Produktion und Export — jeder Schritt in unserem eigenen Werk.',
+    consultTitle: 'Beginnen Sie mit einer Spezifikationsprüfung',
+    consultBody: 'Senden Sie uns Ihre Spezifikation, ein Referenzboard oder Zeichnungen. Sie erhalten eine Machbarkeitsbewertung und ein Angebot zurück — ganz unverbindlich.',
+  },
 }
+
 
 /* ─────────────────────────── signature series (home) ─────────────────────────── */
 
@@ -3811,6 +4829,27 @@ export const series: Localized<SeriesContent> = {
         title: 'Série Medusa Glow (L\'édition Méduses)',
         sku: 'SUP-MG11',
         body: 'Des méduses éclatantes, étoiles de mer et récifs coralliens avec un assemblage de blocs EVA résistant à la décoloration, dans un vert menthe rafraîchissant. Coque polyvalente de 11 ft pour les aventures tropicales et côtières.',
+        image: 'https://assets.supsfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        href: '/products/sup-medusa-glow',
+      },
+    ],
+  },
+  de: {
+    kicker: 'Signature-Serie',
+    title: 'Themen-Editionen',
+    sub: 'Vom Ozean inspirierte Themen-Editionen, bereit für Ihre Eigenmarke — einbaufertige Designs mit UV-Digitaldruck und mechanischer Prägung.',
+    items: [
+      {
+        title: 'Leviathan-Wake-Serie (Die Wal-Edition)',
+        sku: 'SUP-LW11',
+        body: 'Ein majestätisches Blauwal-Totem mit geometrischen und tribalen Mustern, kombiniert mit minimalistischen schwarz-weißen Wellenlinien. Allround-Rumpf mit 11 ft für Seen, Flüsse und Küstengewässer.',
+        image: 'https://assets.supsfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        href: '/products/sup-leviathan-wake',
+      },
+      {
+        title: 'Medusa-Glow-Serie (Die Quallen-Edition)',
+        sku: 'SUP-MG11',
+        body: 'Leuchtende Quallen, Seesterne und Korallenriffe mit farbechten EVA-Blockmotiven in erfrischendem Mintgrün. Allround-Rumpf mit 11 ft für tropische und Küstenabenteuer.',
         image: 'https://assets.supsfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },

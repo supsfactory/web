@@ -1,0 +1,100 @@
+meta:
+  title: 'Über Vatrad — die Marine-Fertigungssparte'
+  description: 'Vatrad ist die Marine-Fertigungssparte der Qingdao Vatrad Group, gegründet 2012 in Qingdao, China — die Fabrik hinter jedem individuellen SUPsfactory-Projekt.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Vatrad'
+    - 'sup factory china'
+    - 'inflatable sup manufacturer'
+    - 'qingdao vatrad group'
+hero:
+  tagline: Über Vatrad
+  title: 'Vatrad — die Marine-Fertigungssparte hinter {SITE}'
+  subtitle: 'Gegründet 2012 in Qingdao, China, baut Vatrad die aufblasbaren Wasserfahrzeuge und SUP-Boards hinter den individuellen SUPsfactory-Projekten — eine 12,500 m² große Fabrik, über 350 Mitarbeiter und eine Jahreskapazität von über 120.000 Einheiten.'
+  actions:
+    - text: 'Ein individuelles Projekt starten'
+      href: /contact
+      variant: primary
+    - text: 'Die Fabrik ansehen'
+      href: /factory
+      variant: secondary
+intro: |
+  <p><strong>Vatrad</strong> ist die Marine-Fertigungssparte der <strong>Qingdao Vatrad Group Co., Ltd.</strong> mit Sitz in der Wirtschaftsentwicklungszone von Laixi, Qingdao, Shandong, China. Das 2012 gegründete Unternehmen begann als spezialisierte Werkstatt für Wasserfahrzeuge, die sich dem maritimen Handwerk verschrieben hatte, und ist zu einer zertifizierten Fabrik herangewachsen, die OEM- und ODM-Kunden in über 50 Ländern bedient.</p>
+  <p>SUPsfactory ist die B2B-Abteilung für individuelle Entwicklungen der Vatrad-Fabrik. Jedes SUPsfactory-Projekt — vom ersten Muster oder einer kleinen Co-Branding-Charge bis zur vollständigen Private-Label-Produktlinie — wird in derselben Anlage, von denselben Teams und nach demselben Qualitätssystem gefertigt, das hier beschrieben wird.</p>
+  <p>Die Fabrik umfasst 12,500 m² mit eigenen Werkstätten für PVC-Zuschnitt, Drop-Stitch-Kernmontage, Hochfrequenzschweißung, Boardmontage und einem Testbereich für Luftretention, Druckhaltung und Nahtfestigkeitsprüfungen. Die Produktionskapazität übersteigt 120.000 aufblasbare Einheiten pro Jahr, und die Anlage arbeitet nach ISO-9001-Qualitätsmanagement mit CE-, BSCI-, REACH- und USCG-zugelassener Konformität für exportierte Produkte.</p>
+  <p>Über 350 qualifizierte Mitarbeiter und 14+ F&E-Ingenieure unterstützen die beiden Arbeitsbereiche, die für SUP-Marken zählen: Konstruktion (Rumpfdesign, Materialauswahl, Prototyping) und Produktion (Grafikanwendung, Montage, Inspektion, Exportverpackung). Ein hausinternes F&E-Zentrum mit PVC-Gewebelabor und Testbecken übernimmt kundenspezifische Formen und Strukturvalidierung vor Beginn der Serienfertigung.</p>
+stats:
+  title: Vatrad in Zahlen
+  stats:
+    - title: Gegründet
+      amount: 2012
+    - title: Anlage
+      amount: '12,500 m²'
+    - title: Belieferte Länder
+      amount: '50+'
+    - title: Jahreskapazität
+      amount: '120,000+ Einheiten'
+    - title: Mitarbeiter
+      amount: '350+'
+    - title: F&E-Ingenieure
+      amount: '14+'
+values_section:
+  title: Wie die Fabrik mit Marken zusammenarbeitet
+  subtitle: 'Drei Prinzipien, die jedes von der Vatrad-Fabrik gebaute Projekt prägen.'
+  columns: 3
+  items:
+    - title: Konstruktion vor Produktion
+      description: 'Jedes Projekt beginnt mit Anforderungen, Zeichnungen und einem physischen Muster — Rumpfform, Drop-Stitch-Grade, Grafikplatzierung und Verpackung werden vor jedem Produktionslauf validiert, nicht erst an der Linie entdeckt.'
+      icon: 'tabler:settings'
+    - title: Ein Team, eine Anlage
+      description: 'Design, Zuschnitt, Schweißung, Montage und Prüfung finden in einer 12,500 m² großen Anlage statt. Keine Handelsunternehmens-Übergaben: Die Personen, die Ihre Fragen beantworten, sind dieselben, die Ihre Boards bauen.'
+      icon: 'tabler:building-factory-2'
+    - title: Kleine erste Läufe
+      description: 'Co-Branding in kleinen Chargen beginnt bei 5–10 Einheiten, und die Standard-Serienfertigung läuft mit 90–100+ Einheiten pro Charge (eine 150-m-Drop-Stitch-Rolle) — so validieren Marken den Markt vor der Skalierung, wobei Werkzeug und Grafiken für Nachbestellungen erhalten bleiben.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Was die Fabrik liefert
+  subtitle: 'Die Fertigungsdienstleistungen, die SUPsfactory-Kunden zur Verfügung stehen.'
+  columns: 2
+  items:
+    - title: Individuelle SUP-Entwicklung
+      description: 'Anforderungsbewertung, Spezifikation, Materialauswahl, Grafiken, Prototyping, Musterfreigabe und Produktion für maßgeschneiderte aufblasbare SUP-Produkte.'
+      icon: 'tabler:bulb'
+    - title: Private-Label-Produktion
+      description: 'Ihr Logo, Ihre Farben und Ihre Verpackung auf bewährten kommerziellen Plattformen — Board, Deckpad, Zubehör und Kartons tragen alle Ihre Identität, ohne Fabrikbranding.'
+      icon: 'tabler:tag'
+    - title: OEM-/ODM-Fertigung
+      description: 'Vollständige OEM- und ODM-Fertigung aufblasbarer SUPs nach Kundenzeichnungen oder gemeinsam entwickelten Designs, einschließlich kundenspezifischer Formen für neue Boardformen.'
+      icon: 'tabler:package'
+    - title: Flottenversorgung
+      description: 'Markierte Boardflotten für Resorts, Clubs, Schulen und Verleihbetriebe, mit passendem Zubehör und flottenfreundlichen Produktionsläufen.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: Zertifizierung & Konformität
+  subtitle: 'Die Fabrik liefert in die EU, die USA und den asiatisch-pazifischen Raum unter einem dokumentierten Konformitätssystem.'
+  columns: 2
+  items:
+    - title: CE-Zertifizierung
+      description: 'Produktlinien für aufblasbare SUPs und Wasserfahrzeuge erfüllen die EU-Sicherheitsrichtlinien, mit Dokumentation für jeden Markt.'
+      icon: 'tabler:certificate'
+    - title: ISO-9001-Qualitätssystem
+      description: 'Die Fertigungsanlage arbeitet nach einem ISO-9001-Qualitätsmanagementsystem, das Wareneingang, Prozess- und Endkontrolle abdeckt.'
+      icon: 'tabler:badge-check'
+    - title: BSCI-Sozialkonformität
+      description: 'Soziale Verantwortung wird nach BSCI auditiert und deckt Arbeitsbedingungen und die Compliance der Fabrik ab.'
+      icon: 'tabler:shield-check'
+    - title: REACH-Materialkonformität
+      description: 'Die Materialien erfüllen die EU-REACH-Verordnung zur chemischen Sicherheit.'
+      icon: 'tabler:flask'
+    - title: USCG-Zulassung
+      description: 'Von der US Coast Guard zugelassene Fertigung für Produktlinien aufblasbarer Wasserfahrzeuge.'
+      icon: 'tabler:anchor'
+    - title: Produktprüfung
+      description: 'Auftriebs-, Tragfähigkeits-, Nahtfestigkeits-, UV-Beständigkeits-, Abriebfestigkeits- und Druckhalttests auf jeder Produktionslinie.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Bauen Sie Ihr SUP-Projekt mit der Vatrad-Fabrik'
+  subtitle: 'Senden Sie Ihre Anforderungen — Boardtyp, Größe, Menge und Grafiken — und erhalten Sie innerhalb eines Arbeitstags ein detailliertes Angebot.'
+  actions:
+    - text: Markenidentität
+      href: /about/identity

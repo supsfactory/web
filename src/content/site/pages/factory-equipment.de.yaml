@@ -1,0 +1,93 @@
+meta:
+  title: 'Fabrikausrüstung — Zuschnitt, Schweißen & Druck'
+  description: 'Industrielle Vatrad-Fertigungsausrüstung: PVC-Zuschnitt, RF-Schweißung, Digitaldruck, Montage und Prüfung für aufblasbare SUP-Boards.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup manufacturing equipment'
+    - 'inflatable sup factory'
+    - 'rf welding pvc'
+    - 'paddle board production'
+hero:
+  tagline: Ausrüstung
+  title: Fertigungsausrüstung & Maschinen
+  subtitle: Industrielle Ausrüstung über Zuschnitt, Schweißen, Druck und Montage
+  back_label: Zurück zur Fabrik
+  back_link: /factory
+
+answer:
+  label: 'Klare Antwort'
+  text: 'Unsere 12,500 m² große Fabrik betreibt CNC-gesteuertes automatisches Schneiden (0.1 mm Genauigkeit, unter 5 % Abfall), Heißluftversiegeln bei 200–600 °C plus 15-kW-RF-Dielektrikschweißung für Hauptnähte, Drop-Stitch-Kernlaminierpressen bis 14 ft und ein QC-Labor, das jede Kammer drucktestet, ASTM-D751-Zugprüfungen und ISO-6185-Nahtabziehverifizierung durchführt.'
+  verified: 'September 2026'
+
+categories:
+  - title: Zuschnitt & Materialvorbereitung
+    items:
+      - name: Automatische PVC-Schneidemaschine
+        spec: CNC-gesteuert, 6.5 m × 2.5 m, 0.1 mm Genauigkeit
+        desc: Computergesteuerte automatische Schneidemaschine für PVC-, Hypalon- und Drop-Stitch-Gewebe. Verschachtelungssoftware optimiert die Materialausnutzung auf unter 5 % Abfall.
+      - name: Gewebespreizer
+        spec: Max. Breite 3 m, spannungsgesteuerter Vorschub
+        desc: Legt Gewebe in ein oder mehreren Lagen mit kontrollierter Spannung aus, um Verformungen vor dem Zuschnitt zu verhindern.
+
+  - title: Schlauchschweißen & Verklebung
+    items:
+      - name: Heißsiegemaschine
+        spec: Heißluftschweißen, variabel 200–600 °C, 0.5–5 m/min
+        desc: Heißluft-Heißsiegemaschine zum Verkleben und Schweißen von PVC- und Hypalon-Schlauchnähten. Wird zum Heften, Versiegeln und Verschmelzen von Schlauchkammern und Floatgelenken verwendet.
+      - name: Dielektrik-RF-Presse
+        spec: 15 kW, Platte 2000 × 600 mm
+        desc: Hochfrequenz-Schweißpresse für Hauptlängsnähte, Spanten-Schlauchverbindungen und die Fertigung großer Kammern.
+      - name: CNC-gesteuerter RF-Schweißer
+        spec: 8 kW, XY-Tisch 2500 × 1200 mm
+        desc: Programmierbares Kurvennahtschweißen für komplexe Geometrien, Logoprägung und präzise Flickenarbeit.
+
+  - title: SUP-Board-Fertigung
+    items:
+      - name: Drop-Stitch-Kernlaminierpresse
+        spec: Großformatpresse für Boardkerne bis 14 ft LOA
+        desc: Präzisionslaminierung von Drop-Stitch-Kernen auf äußere PVC-Laminate. Jede Schicht wird für gleichbleibende Qualität und Festigkeit druckgebunden.
+      - name: CNC-Fräser (5-achsig)
+        spec: Arbeitsbereich 3 m × 2 m × 1 m, wassergekühlte Spindel
+        desc: Bearbeitung von Finboxes, Griffausschnitten und kundenspezifischen Boardkomponenten.
+
+  - title: SUP-Druck & Dekoration
+    items:
+      - name: Digitaldrucker
+        spec: Hochauflösender Tintenstrahl, Druckbreite bis 2 m
+        desc: Digitaldruck direkt aufs Gewebe für vollfarbige SUP-Deckgrafiken. Druckt kundenspezifische Muster, Verläufe und fotorealistische Bilder mit UV-beständigen wasserbasierten Tinten.
+      - name: Siebdruckmaschine
+        spec: Manuell und halbautomatisch, Mehrfarben-Registrierung
+        desc: Siebdruck für SUP-Board-Logos, Markenzeichen und sich wiederholende Muster. Liefert langlebige, deckende Drucke mit kräftiger Farbsättigung.
+
+  - title: Montage & Ausrüstung
+    items:
+      - name: Board-Montagestation
+        spec: Modular verstellbar, Mehrstationslayout
+        desc: Montage von Finboxes, Griffen, D-Ringen, Ventilen und Deckpads auf SUP-Boards.
+      - name: Ventilinstallationspresse
+        spec: Pneumatisch, verstellbarer Druck
+        desc: Präzisionsinstallation und -abdichtung von Halkey-Roberts- und Leafield-Ventilen.
+      - name: Deckpad-Laminierer
+        spec: 3 m × 1.5 m, temperaturgesteuert
+        desc: Heißlaminierung von EVA-Schaum-Deckpads auf SUP-Board-Oberseiten mit gleichbleibender Bindefestigkeit.
+
+  - title: Prüfung & Qualitätskontrolle
+    items:
+      - name: Universelle Zugprüfmaschine
+        spec: 50 kN, / ASTM D751
+        desc: Bruchkraft, Bruchdehnung und Weiterreißprüfung für Gewebechargen.
+      - name: Luftretentionstest-Vorrichtung
+        spec: Programmierbar, 30-minütiger Druckhalt
+        desc: Automatisierter Druckhaltetest für jede Schlauchkammer vor der Montage.
+      - name: Nahtabzieh-Prüfgerät
+        spec: Motorisierter 180°-Abzug bei 100 mm/min
+        desc: Abziehkraftprüfung von Schweiß- und Klebenahten gemäß ISO 6185.
+      - name: Xenon-Bogen-Bewitterungskammer
+        spec: 2000 h Belichtungszeit
+        desc: UV-Beständigkeitsprüfung hinsichtlich Farbveränderung und Festigkeitserhalt.
+
+cta:
+  title: Interesse an einer Werksführung?
+  desc: Wir begrüßen Besucher in unserer Qingdao-Anlage. Sehen Sie Ausrüstung und Prozesse persönlich mit an.
+  label: Besuch planen →
+  link: /contact

@@ -26,6 +26,9 @@ export function contentSingleRoute(path: string) {
       if (loaderData.frTranslated) {
         links.push({ rel: 'alternate', hreflang: 'fr-FR', href: `${origin}/fr${path}` })
       }
+      if (loaderData.deTranslated) {
+        links.push({ rel: 'alternate', hreflang: 'de-DE', href: `${origin}/de${path}` })
+      }
       return {
         meta: [
           { title },
@@ -37,6 +40,7 @@ export function contentSingleRoute(path: string) {
           { property: 'og:locale', content: OG_LOCALE.en },
           { property: 'og:locale:alternate', content: OG_LOCALE.es },
           ...(loaderData.frTranslated ? [{ property: 'og:locale:alternate', content: OG_LOCALE.fr }] : []),
+          ...(loaderData.deTranslated ? [{ property: 'og:locale:alternate', content: OG_LOCALE.de }] : []),
           { property: 'og:type', content: loaderData.kind === 'post' || loaderData.kind === 'article' ? 'article' : 'website' },
           { property: 'og:image', content: absImage },
           { property: 'og:image:width', content: '1200' },

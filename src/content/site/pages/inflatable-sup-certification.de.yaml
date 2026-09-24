@@ -1,0 +1,53 @@
+meta:
+  title: "Zertifizierung aufblasbarer SUPs — CE, REACH, RoHS & Konformitätsleitfaden"
+  description: "Zertifizierungsumfang für die Herstellung aufblasbarer SUPs: CE (EU-Modelle), BSCI, ISO 9001, REACH, RoHS. Zertifikatsnummern auf Anfrage pro Projekt erhältlich."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Direkte Antwort"
+    directAnswer:
+      answer: "SUPsfactory besitzt Zertifizierungen nach BSCI, ISO 9001, ISO 25649, CE, REACH und RoHS. CE gilt für Modelle, die für EU-Märkte bestimmt sind — nicht pauschal für „alle Produkte“."
+      condition: "Der Zertifizierungsumfang variiert je nach Zielmarkt und Produktkonfiguration. Zertifikatsnummern, Gültigkeit und ausstellende Stellen sind pro Projekt auf Anfrage erhältlich."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "September 2026"
+      sourceType: "certificate"
+    body: |
+      Zertifizierung ist ein zentrales Beschaffungskriterium und muss präzise angegeben werden.
+      Pauschale Behauptungen wie „CE auf allen Produkten“ können zu Vertrauensproblemen führen,
+      wenn der Käufer später feststellt, dass der Umfang enger ist als erwartet.
+
+  - title: "Zertifizierungsdetails"
+    body: |
+      | Zertifizierung | Umfang | Stelle | Anwendbar auf |
+      |---------------|-------|-----------|------------|
+      | BSCI | Sozialaudit | amfori BSCI | Produktionsstätte |
+      | ISO 9001 | Qualitätsmanagementsystem | Zertifizierungsstelle (auf Anfrage erhältlich) | Produktionsstätte |
+      | ISO 25649 | Sicherheit aufblasbarer Wasserfahrzeuge | ISO | Geltende SUP-Modelle je Markt |
+      | CE | EU-Marktkonformität (EN ISO 6185 / 10087 / 10240) | EU-Benannte Stelle | Für den EU-Markt bestimmte Modelle |
+      | REACH | EU-Chemikaliensicherheit | ECHA | In der Produktion verwendete Materialien |
+      | RoHS | Beschränkung gefährlicher Stoffe | EU-Richtlinie | Elektronisches Zubehör (Pumpen) |
+
+  - title: "Wichtige Hinweise zum Umfang"
+    body: |
+      - **CE** gilt für Modelle, die für den Verkauf auf dem EU-Markt konfiguriert sind. Ein Board,
+        das für den Vertrieb in den USA oder Australien gebaut wird, trägt die CE-Kennzeichnung nur,
+        wenn dies ausdrücklich angefordert wird.
+      - **ISO 9001** deckt das Qualitätsmanagementsystem der Produktionsstätte ab, nicht die
+        Produktzertifizierung einzelner Artikel.
+      - **REACH**-Konformität deckt die in der Produktion verwendeten Materialien ab — Dokumentation
+        steht Importeuren zur Verfügung, die Stoffe registrieren müssen.
+      - Zertifikatsnummern, Gültigkeitsdaten und ausstellende Stellen sind pro Projekt auf Anfrage
+        erhältlich. Wir veröffentlichen Zertifikatsnummern aus Sicherheitsgründen nicht öffentlich.
+      - Drittprüfung über SGS, TÜV, BV oder Intertek für jede Sendung verfügbar.
+
+  - title: "So beantragen Sie Zertifizierungsdokumente"
+    body: |
+      Geben Sie während des Anfrageprozesses Ihre Zielmärkte an, und wir bestätigen, welche
+      Zertifizierungen für Ihre spezifische Produktkonfiguration gelten. Zertifikatskopien
+      (bei Bedarf mit geschwärzten kommerziellen Angaben) werden als Teil des
+      Projektdokumentationspakets bereitgestellt.
+
+evidence_review:
+  tagline: 'Nachweise & Verifizierung'
+  title: 'VERIFIZIERTE SPEZIFIKATIONEN'
+  body: 'Alle Fertigungsangaben auf dieser Seite werden von unserem Manufacturing-Engineering-Team im Werk in Laixi, Qingdao, verifiziert. Zertifikate, QC-Inspektionsaufzeichnungen, Druck- & Strukturprüfberichte sowie Chargen-Rückverfolgbarkeitsaufzeichnungen sind auf Anfrage erhältlich. Spezifikationen zuletzt verifiziert im September 2026.'

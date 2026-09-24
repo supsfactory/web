@@ -89,7 +89,7 @@ export const Route = createFileRoute('/$')({
     // alternates so hreflang is bidirectional (sitemap cross-links them, and
     // the page head must mirror it — Google requires the return tag on both
     // sides).
-    const hasLocTwin = !loaderData.localized && (loaderData.esTranslated || loaderData.frTranslated)
+    const hasLocTwin = !loaderData.localized && (loaderData.esTranslated || loaderData.frTranslated || loaderData.deTranslated)
     const links: Record<string, string>[] = [{ rel: 'canonical', href: canonical }]
     if (hasLocTwin) {
       links.push({ rel: 'alternate', hreflang: 'en-US', href: canonical })
@@ -99,6 +99,9 @@ export const Route = createFileRoute('/$')({
       }
       if (loaderData.frTranslated) {
         links.push({ rel: 'alternate', hreflang: 'fr-FR', href: `${origin}${localizePath('fr', loaderData.path)}` })
+      }
+      if (loaderData.deTranslated) {
+        links.push({ rel: 'alternate', hreflang: 'de-DE', href: `${origin}${localizePath('de', loaderData.path)}` })
       }
     }
     return { meta, links }

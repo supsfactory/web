@@ -6,7 +6,7 @@
  * scheduled index rebuild (src/features/ai/ingest.ts) and tests only.
  */
 
-import { localizePath, type Locale } from '@/features/i18n/locale'
+import { localizePath, defaultLocale, type Locale } from '@/features/i18n/locale'
 import { pick } from '@/product/content'
 import { solutionPages, solutionPath } from '@/product/solution-pages'
 import { knowledge } from '@/product/knowledge'
@@ -125,8 +125,8 @@ export function buildChunks(locale: Locale): AiChunk[] {
   // page text is added per-section so deep details are searchable too.
   for (const p of getContentPages()) {
     if (p.path in EDGE_REDIRECTS || p.path === FAQ_PATH) continue
-    if (locale === 'es' && !isContentPageTranslated(p.path, 'es')) continue
-    const page = locale === 'es' ? getContentPage(p.path, 'es')! : p
+    if (locale !== defaultLocale && !isContentPageTranslated(p.path, locale)) continue
+    const page = locale === defaultLocale ? p : getContentPage(p.path, locale)!
     const seo = page.content.seo as { title?: string; description?: string } | undefined
     const title = (seo?.title ?? '').replace(/[|–—-].*$/, '').trim() || page.label
     push(url(p.path), title, seo?.description ?? '')

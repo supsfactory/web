@@ -28,6 +28,9 @@ export const LLM_SPANISH_HOMEPAGE_DESCRIPTION =
 export const LLM_FRENCH_HOMEPAGE_DESCRIPTION =
   'Fabricant OEM de planches de SUP gonflables et SUP gonflables personnalisées, avec exportation mondiale depuis la Chine'
 
+export const LLM_GERMAN_HOMEPAGE_DESCRIPTION =
+  'OEM-Hersteller von aufblasbaren SUPs und individuell bedruckten aufblasbaren SUPs, mit weltweitem Export aus China'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 
@@ -105,6 +108,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/fr/knowledge', title: '', excerpt: '' },
     { url: '/fr/gallery', title: 'Galerie', excerpt: 'Usine et galerie de produits SUPsfactory : ateliers, laboratoires qualité, tests de tissu et planches de SUP en production.' },
   ],
+  de: [
+    { url: '/de', title: 'SUPsfactory — OEM- und ODM-Herstellung von aufblasbaren SUPs', excerpt: 'OEM/ODM-Fabrik für aufblasbare SUPs in Qingdao: Produktentwicklung, Fertigung nach Maß, Private Label und Qualitätskontrolle.' },
+    { url: '/de/products', title: 'Aufblasbare SUP-Boards', excerpt: 'Premium-Aufblas-SUPs: 11-ft-Serien, Fishing-SUP, Mini-SUP, riesige Team-Boards und mehr — maßgeschneiderte OEM/ODM-Fertigung.' },
+    { url: '/de/solutions', title: 'Lösungen', excerpt: 'OEM/ODM-SUP-Fertigungsprogramme: SUP-Entwicklung nach Maß, Private Label, Flotten für Resorts und Clubs, Vermietung und Einzelhandelspartner.' },
+    { url: '/de/projects', title: '', excerpt: '' },
+    { url: '/de/knowledge', title: '', excerpt: '' },
+    { url: '/de/gallery', title: 'Galerie', excerpt: 'SUPsfactory-Werks- und Produktgalerie: Werkstätten, Qualitätslabore, Stofftests und SUP-Boards in Produktion.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
@@ -115,6 +126,8 @@ export const CASE_STUDY_STATS = {
 export const FAQ_EXCERPTS: Record<string, string> = {
   en: 'Frequently asked questions about inflatable SUP OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale supply.',
   es: 'Preguntas frecuentes sobre fabricación OEM/ODM de SUP hinchables — materiales, certificaciones, cantidades mínimas de pedido y suministro al por mayor.',
+  fr: 'Questions fréquentes sur la fabrication OEM/ODM de SUP gonflables — matériaux, certifications, quantités minimales de commande et approvisionnement en gros.',
+  de: 'Häufig gestellte Fragen zur OEM/ODM-Fertigung aufblasbarer SUPs — Materialien, Zertifizierungen, Mindestbestellmengen und Großhandelsbelieferung.',
 }
 
 export const STATIC_PAGE_CORPUS_TEXT =

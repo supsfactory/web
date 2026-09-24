@@ -1,0 +1,513 @@
+meta:
+  title: 'Qualitätskontrolle für kundenspezifische SUPs: 7-Stufen-Inspektion | SUPsfactory'
+  description: 'Wie jede kundenspezifische SUP-Bestellung kontrolliert wird: 7 Inspektionsgates von der Produktionsplanung bis zur Versandfreigabe, mit herunterladbaren zweisprachigen Berichten.'
+  dateModified: '2026-08-15'
+  keywords:
+    - 'sup quality control'
+    - 'sup factory inspection'
+    - 'oem quality inspection plan'
+    - 'pre shipment inspection sup'
+    - 'ce certification sup'
+    - 'iso 9001 sup'
+hero:
+  tagline: Qualitätskontrolle für kundenspezifische Projekte
+  title: 'Qualitätskontrolle für kundenspezifische aufblasbare SUP-Projekte'
+  subtitle: 'Die Qualität wird gegen das freigegebene Muster, die technische Spezifikation, die Grafik, die Stückliste und die Verpackungsanforderungen jedes Projekts verifiziert — nicht gegen eine allgemeine Behauptung. Vom Wareneingang bis zur Versandfreigabe ist unser Inspektionsprozess so strukturiert, dass er die Produktkonformität in definierten Produktionsstufen verifiziert. Betrieben von QINGDAO VATRAD GROUP, der 12,500 m² großen aufblasbaren SUP-Fabrik hinter Vatrad.'
+stats:
+  - value: 100%
+    label: Druckgetestete Einheiten
+  - value: '7'
+    label: Kontrollierte Inspektionsgates
+  - value: 18.0 PSI
+    label: 24-stündiger Druckhalt
+  - value: ISO 9001
+    label: Qualität zertifiziert
+quality_basis:
+  tagline: Qualitätsbasis
+  title: 'Was die Produktabnahme definiert'
+  subtitle: 'Die endgültigen Abnahmekriterien werden vor der Produktionsfreigabe festgelegt. Diese kontrollierten Projektdokumente definieren, was hergestellt werden muss, wie wichtige Details verifiziert werden und was vor dem Versand geprüft werden muss — vom Käufer freigegeben und im Quality Inspection Plan (QIP) eingefroren. Jede Änderungsanforderung durchläuft eine dokumentierte Änderungskontrolle, niemals stillschweigend an der Linie.'
+  items:
+    - title: 'Freigegebenes Muster'
+      description: 'Das physische Referenzboard, das vom Käufer abgezeichnet wurde. Jedes fertige Board wird hinsichtlich Maßen, Profil, Steifigkeit und Finish damit verglichen.'
+      icon: tabler:medal
+    - title: 'Technische Spezifikation'
+      description: 'Materialien, Konstruktion und Maßzeichnungen, auf eine Revisionsnummer fixiert. Die FAI verifiziert das erste Artikel gegen genau diese Revision.'
+      icon: tabler:file-check
+    - title: 'Freigegebene Grafiken'
+      description: 'Grafiken, Druckfarben und Platzierung freigegeben und versionsgesperrt vor dem Zuschnitt — so wird jedes Deck in dem Look versendet, den die Marke freigegen hat.'
+      icon: tabler:palette
+    - title: 'Vom Kunden freigegebene BOM'
+      description: 'Stückliste — Board, Paddel, Pumpe, Leash, Tasche, Handbuch — vom Käufer bestätigt. Die PSI prüft 100 % Kit-Vollständigkeit gegen diese BOM.'
+      icon: tabler:list-checks
+    - title: 'Verpackungs- & Kennzeichnungsanforderungen'
+      description: 'Kartonstruktur, Markierungen, Barcodes, Etiketteninhalte und Versandmarkierungen schriftlich fixiert. Barcodelesbarkeit und Markierungsgenauigkeit werden bei der PSI verifiziert.'
+      icon: tabler:package
+tests:
+  - title: Druckprüfung
+    description: Aufblasbare Kammern werden über längere Zeit Drücken ausgesetzt, die über ihren empfohlenen Betriebsgrenzen liegen. Dies verifiziert die Luftdichtigkeit und strukturelle Integrität von Material und Nähten und stellt sicher, dass das Produkt der bestimmungsgemäßen Nutzung und möglicher Überblähung ohne Versagen oder Leckagen standhält.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
+    alt: Aufblasbare SUP-Kammer unter Druckprüfung zur Verifizierung der Luftdichtigkeit
+  - title: Schlagprüfung
+    description: Produkte werden kontrollierten Schlägen aus verschiedenen Gewichten und Winkeln ausgesetzt. Dies bewertet die Widerstandsfähigkeit des Materials gegen Durchstiche, Risse und Schäden durch Kollisionen mit Hindernissen im Wasser und weist seine Haltbarkeit und Langlebigkeit nach.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+    alt: Schlagprüfvorrichtung, die die Durchstoßfestigkeit von Schlauchboot-Material prüft
+  - title: UV-Beständigkeitsprüfung
+    description: Materialproben werden beschleunigter UV-Strahlung ausgesetzt, um zu verifizieren, dass sie im Laufe der Zeit nicht vergilben, reißen oder an Festigkeit verlieren. Jede PVC-Charge wird vor der Produktion auf solare Degradation geprüft.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
+    alt: PVC-Materialproben unter beschleunigter UV-Strahlung in der Beständigkeitsprüfung
+  - title: Abriebfestigkeitsprüfung
+    description: Materialproben werden eine festgelegte Anzahl von Zyklen unter kontrolliertem Druck über abrasive Oberflächen gerieben. Dies misst die Fähigkeit des Materials, Verschleiß durch wiederholte Nutzung, Kontakt mit Sand, Steinen oder anderen Oberflächen zu widerstehen, und sichert langfristige Haltbarkeit.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pvc-material-testing.webp
+    alt: Abriebprüfmaschine, die eine PVC-Gewebeprobe zur Messung der Verschleißfestigkeit reibt
+  - title: Tieftemperatur-Leistungsprüfung
+    description: Produkte werden in kalten Umgebungen getestet, um Funktionalität und Haltbarkeit unter verschiedenen Temperaturbedingungen zu beurteilen und Steifigkeit oder Rissbildung in kälteren Gewässern zu verhindern. Unverzichtbar für Boote, die für Winter- oder Hochbreiten-Nutzung bestimmt sind.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-exterior.webp
+    alt: Aufblasbares Produkt in der Kühlkammer für Tieftemperatur-Leistungsprüfung
+  - title: Auftriebs- & Tragfähigkeitsprüfung
+    description: Produkte werden mit verschiedenen Gewichten getestet, um ihre maximale Tragfähigkeit zu bestimmen und sicherzustellen, dass sie Nutzer und Ausrüstung sicher tragen. Die Nennkapazität jedes Modells wird vor der Freigabe verifiziert.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-stock-boat-inventory.webp
+    alt: Auftriebs- und Tragfähigkeitsprüfung mit Gewichten auf aufblasbaren Wasserfahrzeugen
+  - title: Manövrierfähigkeitsprüfung
+    description: Produkte werden auf ihr Ansprechverhalten auf Paddel- oder Motorinputs getestet, wobei Wenderadius und Handlichkeit bewertet werden. Wassererprobungen validieren, dass das Verhalten in der Praxis den Konstruktionsspezifikationen entspricht.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
+    alt: Manövrierfähigkeitsprüfung auf dem Wasser von aufblasbaren SUP- und Bootsrümpfen
+  - title: Dichtheitsprüfung
+    description: Vollständig montierte Produkte werden untergetaucht oder Wasserstrahl ausgesetzt, um Undichtigkeiten an Nähten, Ventilen oder Materialien zu prüfen. Jedes Boot besteht vor dem Versand eine verbindliche Dichtheitsprüfung.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
+    alt: Untertauch-Dichtheitsprüfung, die Nähte und Ventile auf Lecks prüft
+qc_flow:
+  tagline: Der 7-Stufen-Inspektionsablauf
+  title: 'Sieben kontrollierte Qualitätsgates, Ende zu Ende'
+  subtitle: 'Jedes Gate unten ist im projectbezogenen Quality Inspection Plan mit seinem Inspektionsobjekt, seiner Methode, seinen Abnahmekriterien und seiner Dokumentenausgabe definiert. Die zweisprachigen Berichtsdossiers sind echte kontrollierte Aufzeichnungen — öffnen Sie eines davon, um die tatsächliche Struktur zu sehen.'
+  obj_label: Inspektionsobjekt
+  method_label: Inspektionsmethode
+  criteria_label: Abnahmekriterien
+  record_label: Dokumentenausgabe
+  stages:
+    - stage: STAGE 01
+      title: 'Projektqualitätsplanung (PPM)'
+      summary: 'Das Vorserienmeeting fixiert Umfang, Baseline und Inspektionsplan, bevor die Linie startet.'
+      checks:
+        - 'Produktname, interner Code, Kunden-SKU, Auftragsnummer und Chargendefinition werden erfasst.'
+        - 'Boardtyp, Drop-Stitch-Kern, Materialien, Railbänder, EVA, Ventile und Flossensystem werden spezifiziert.'
+        - 'Grafikdateiname, Version, Farben, Logo-Position und Druckfläche werden gesperrt und freigegeben.'
+        - 'BOM — jeder Artikel pro Set mit Menge, Farbe, Teilenummer und Ersatzregeln — ist kundenfreigegeben.'
+        - 'Verpackung, Kennzeichnung, Barcodes, Sprache der Handbücher und Drittinspektionsregelungen sind schriftlich fixiert.'
+      object: 'Projektumfang vs. Kundenanforderungen — Materialien, Maße, Grafiken, Verpackung, Zielmarkt und anwendbare Normen.'
+      method: 'Vorserienmeeting mit Vertrieb, Konstruktion und QC; Golden-Sample-Unterzeichnung; Ausstellung des Quality Inspection Plan (QIP) für den Auftrag.'
+      criteria: 'Alle fünf Baselines werden vor Beginn der Serienfertigung freigegeben und eingefroren. Ungeklärte Punkte blockieren die Produktionsfreigabe.'
+      record: 'QIP + PPM-Protokoll, Musterfreigabeprotokolle.'
+      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      alt: Vorserienmeeting zur Prüfung des Golden Samples und des Qualitätsinspektionsplans für einen OEM-SUP-Auftrag
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'QIP herunterladen (PDF)'
+    - stage: STAGE 02
+      title: 'Wareneingangskontrolle (IQC)'
+      summary: 'Rohmaterialien werden vor dem Eingang in die Produktion gegen die freigegebene Lieferantenspezifikation verifiziert.'
+      checks:
+        - 'Drop-Stitch-Gewebe, PVC-Rollen, Railmaterial und EVA-Deckpads werden gegen das freigegebene Muster geprüft — Farbe, Dicke, Gewicht und Oberflächenfehler.'
+        - 'Ventile, Finboxes, D-Ringe, Griffe und Beschläge werden auf Typ, Größe, Oberfläche, Rost und korrekte Funktion geprüft.'
+        - 'Pumpen, Paddel, Leashes, Taschen und Reparaturkits werden auf Modell, Farbe und Projektkonfiguration verifiziert.'
+        - 'Lieferantenzertifikate (COA), Materialdeklarationen und REACH/RoHS-Konformitätsdokumente werden je Charge geprüft.'
+        - 'Nichtkonforme Partien werden gesperrt und zurückgesendet, bevor Material an die Linie gelangt.'
+      object: 'Drop-Stitch-Gewebe, PVC-Rollen, Ventile, Finnen, Zubehör und Verpackungsmaterialien gegen die freigegebene Spezifikation und Lieferantenprüfzertifikate.'
+      method: 'Sicht-, Maß- und Gewichtsprüfungen; Chargen-Stichproben nach AQL; Materialzertifikate geprüft; freigegebene Lieferantenliste durchgesetzt.'
+      criteria: 'Erfüllt die freigegebene Spezifikation und Zertifikate. Nichtkonforme Partien werden vor der Freigabe an die Linie gesperrt und zurückgewiesen.'
+      record: 'IQC-Prüfberichte mit Partiereferenzen und Dispositionen.'
+      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      alt: Wareneingangskontrolle von PVC-Gewebe und SUP-Komponenten in der Fabrik
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'IQC-Berichte herunterladen (PDF)'
+    - stage: STAGE 03
+      title: 'Prozesskontrolle & Erstmusterprüfung (IPQC / FAI)'
+      summary: 'Konstruktionsmethoden und Prüfpunkte werden nach der freigegebenen Boardplattform und Projektkonfiguration gewählt. Das erste Muster wird gegen die gesperrten Baselines geprüft; jede Schicht hält Streifenkontrollen an der Linie.'
+      checks:
+        - 'Erstmuster wird vor Beginn der Serienfertigung gegen freigegebenes Muster, technische Zeichnung, BOM, Grafik und Verpackungsdateien verifiziert.'
+        - 'Boardmaße, Umriss und Symmetrie werden gemessen; Tinte- und Logorichtung, Position, Farben und Revision bestätigt.'
+        - 'Nähte und Rail-Kontinuität werden an der Linie auf Lücken, Delamination, Falten, Kontamination oder Fehlausrichtung geprüft.'
+        - 'Ventil-, D-Ring-, Griff- und Finbox-Installation wird auf Position, Menge und Passung gegen die kundenfreigegebene BOM geprüft.'
+        - 'Die FAI-Freigabe versionssperrt Grafiken, Maße und BOM; Abweichungen laufen in den Nacharbeits-Entscheidungsfluss — niemals Inline-Flicks.'
+      object: 'Erstmuster und In-Process-Montagen — Nähte, Rails, Finbox, Ventilbasis, Grafikposition, Beschlagdrehmoment.'
+      method: 'Erstmusterprüfung am ersten Stück; Streifenkontrollen je Schicht; Schweißfestigkeit und Nahtausrichtung inline verifiziert.'
+      criteria: 'FAI-Freigabe versionssperrt Grafiken, Maße und BOM. Abweichungen laufen in den Nacharbeits-Entscheidungsfluss — niemals Inline-Flicks.'
+      record: 'FAI-Aufzeichnung, Schicht-Streifenprotokolle, Nacharbeits- und Dispositionsnotizen.'
+      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Prozessinspektion und Erstmusterprüfung während der SUP-Produktion
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'IPQC-Berichte herunterladen (PDF)'
+    - stage: STAGE 04
+      title: 'Aufblas- & Luftdichtheitsprüfung'
+      summary: 'Jedes fertiggestellte Board wird vor dem Verpacken einer Aufblas- und Luftdichtheitsverifizierung unterzogen — 100 % der Einheiten, nicht eine Stichprobe.'
+      checks:
+        - 'Boardoberfläche, Rails und Ventilbereich werden vor dem Aufblasen auf Nadellöcher, Risse, abnormale Falten oder Delamination geprüft.'
+        - 'Kammern werden mit einem kalibrierten digitalen Manometer auf den Projekttestdruck aufgeblasen und der Startwert gesperrt.'
+        - 'Ventilkern, Ventilbasis und Railnähte werden über den gesamten Umfang geprüft — Bug, Heck und Kurvenbereiche.'
+        - '24-stündiger Druckhalt mit kontinuierlicher Protokollierung; automatische Ausschleusung über dem zulässigen Druckabfall.'
+        - 'Fehlerhafte Boards werden gesperrt, nach Anweisung nachgearbeitet und vollständig neu getestet — nicht nur am Reparaturpunkt nachgeprüft.'
+      object: '100 % der aufgeblasenen Kammern — vollständige Naht-Leckerkennung, Ventilintegrität und Druckhaltevermögen.'
+      method: 'Vollständige Naht-Leckerkennung, gefolgt von einem 24-stündigen Druckhalt bei 18,0 PSI; automatische Ausschleusung über einem Abfall von 0,50 PSI.'
+      criteria: 'Null Leckpunkte und Druckabfall innerhalb 0,50 PSI je Kammer; fehlerhafte Einheiten werden gesperrt und nachgearbeitet oder verschrottet.'
+      record: 'Luftdichtheitsprüfberichte, einer je Kammer, mit Chargenverknüpfung.'
+      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      alt: Aufblas- und Luftdichtheitsprüfung einer aufblasbaren SUP-Kammer
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Luftdichtheitsberichte herunterladen (PDF)'
+    - stage: STAGE 05
+      title: 'Endproduktinspektion (FQC)'
+      summary: 'Fertige Boards werden gemessen und optisch gegen das freigegebene Golden Sample bewertet.'
+      checks:
+        - 'Schlüsselmaße — Länge, Breite und Dicke — werden bei Arbeitsdruck gegen Zeichnungstoleranzen gemessen.'
+        - 'Boardumriss, Rocker und Symmetrie werden verifiziert; keine abnormalen Verformungen, Torsionen oder Wellungen nach dem Aufblasen.'
+        - 'Optische Bewertung unter D65-Tageslichtlampen: Kratzer, Flecken, Klebstoffrückstände, Blasen, Falten, Farbabweichungen.'
+        - 'Funktionsprüfungen: Ventil öffnen/schließen und Kappenpassung, Finen-Einsetzen und -Verriegeln, D-Ringe, Griffe und Paddelfunktion.'
+        - 'Konfiguration wird gegen die kundenfreigegebene BOM und SKU verifiziert — Zubehör, Etiketten, Barcodes und Seriennummern.'
+      object: 'Fertiges Board vs. Golden Sample — Maße, Rocker, Profil, Optik, Finbox-Passung und Zubehörvollständigkeit.'
+      method: 'Maßverifizierung gegen Zeichnungstoleranzen; optische Bewertung unter D65-Tageslichtlampen; Finbox- und Beschlag-Passtests.'
+      criteria: 'Maße innerhalb der Toleranz (z. B. 3508 × 814 × 150,3 mm), optische Note nach freigegebenem Muster, alles Zubehör vorhanden.'
+      record: 'FQC-Berichte mit Prüferunterzeichnung und Disposition.'
+      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      alt: Endproduktinspektion fertiger SUP-Boards vor dem Verpacken
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'FQC-Berichte herunterladen (PDF)'
+    - stage: STAGE 06
+      title: 'Verpackungs- & Versandvorinspektion (PSI)'
+      summary: 'Das verpackte Kit wird auf Vollständigkeit, Kennzeichnungsgenauigkeit und Versandbereitschaft geprüft.'
+      checks:
+        - '100 % Kit-Vollständigkeit vs. BOM: Board, Paddel, Pumpe, Leash, Tasche, Reparaturkit und Handbuch — ein Set nach dem anderen.'
+        - 'Empfindliche Teile geschützt (Pump- und Klingentaschen), Board nach Pack-SOP gefaltet, Zubehör entspricht Modell und Farbe.'
+        - 'Kartongrafiken, Marke, Warnhinweise und Sprachversionen werden gegen die freigegebene Grafikrevision geprüft.'
+        - 'Barcodetyp, -nummer, -position und Scanbarkeit verifiziert; Versandmarkierungen, SKU, PO, Kartennummer und Menge korrekt.'
+        - 'Kartongröße, Brutto-/Nettogewicht und Innenverpackung entsprechen der Verpackungsspezifikation; Falltest-Ergebnis bei Anforderung erfasst.'
+      object: 'Verpacktes Kit — Board, Paddel, Pumpe, Leash, Tasche, Handbuch — gegen die kundenfreigegebene BOM und Verpackungsspezifikation.'
+      method: '100 % Kit-Vollständigkeit vs. BOM; Barcode-Scan (Note ≥ B); Karton-Kennzeichnungsgenauigkeit; ISTA-1A-Falltest auf verpackten Kartons.'
+      criteria: '100 % Kit-Abgleich mit BOM, lesbare Barcodes, korrekte Kennzeichnungen und fallsichere Verpackung vor dem Laden.'
+      record: 'PSI-Checklisten und Packprotokolle je Karton.'
+      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      alt: Versandvorinspektion, die das verpackte SUP-Kit gegen die BOM prüft
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'PSI-Berichte herunterladen (PDF)'
+    - stage: STAGE 07
+      title: 'Versandfreigabe & Rückverfolgbarkeit'
+      summary: 'Quality gibt die Charge nur dann frei, wenn alle sechs vorherigen Gates geschlossen und alle Aufzeichnungen vollständig sind.'
+      checks:
+        - 'Produktionscharge, Auftragsnummer, SKU, Menge und Kartonanzahl entsprechen Packliste und Handelsrechnung.'
+        - 'Spezifikations-, BOM-, Grafik- und Verpackungsdateien liegen alle in der aktuellen freigegebenen Revision vor.'
+        - 'IQC-, FAI-, Prozess-, Luftdichtheits-, FQC- und PSI-Aufzeichnungen sind für die freizugebende Charge vollständig.'
+        - 'Alle Nichtkonformitäten sind gelöst, nachgearbeitet, neu geprüft und geschlossen — keine offenen Punkte bei der Freigabe.'
+        - 'Rückverfolgbarkeitsfelder je Charge erfasst: Projektcode, PO, SKU, Grafik-/BOM-/Verpackungsrevisionen, Produktionsdatum, Prüfer und Aufzeichnungsnummern.'
+      object: 'Freigabeautorisierung für die Charge — alle Gates geschlossen, Aufzeichnungen vollständig, Seriennummern der Charge zugeordnet.'
+      method: 'Gate-Prüfung aller sechs vorherigen Aufzeichnungen durch Quality; Chargen-Rückverfolgbarkeitsdossier zusammengestellt; Aufzeichnungen bei Versand übergeben.'
+      criteria: 'Alle Gates durch QA freigegeben; Chargenaufzeichnungen und Rückverfolgbarkeitsdossier an den Käufer übergeben oder auf Wunsch unter NDA gehalten.'
+      record: 'Versandfreigabeautorisierung und Chargen-Rückverfolgbarkeitsdossier.'
+      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      alt: Versandfreigabe-Unterzeichnung und Übergabe des Chargen-Rückverfolgbarkeitsprotokolls
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Freigabeberichte herunterladen (PDF)'
+system_map:
+  tagline: Das Qualitätssystem
+  title: 'Ein System, vier kontrollierte Standards'
+  subtitle: 'Die sieben Gates oben laufen auf vier dokumentierten Standards, die jeweils als kontrollierte Verfahren veröffentlicht sind, die Sie herunterladen und auditieren können. Zusammen bilden sie das QMS hinter jeder OEM/ODM-Bestellung — Inspektionskriterien, Änderungskontrolle, Nichtkonformität und Labortests.'
+  items:
+    - title: 'Inspektions- & Freigabestandards'
+      description: 'Der Projekt-QIP treibt jedes Gate: Inspektionsobjekt, Methode, Abnahmekriterien und Dokumentenausgabe je Bestellung. Umfasst das 4-Stufen-QC-Framework, die Rückverfolgbarkeitskette, den Quarantänefluss, die Fehlermatrix und das Dokumentationsregister 00–15.'
+      icon: tabler:clipboard-check
+      link: /factory/quality-inspection
+      link_label: 'Inspektionsstandards & QMS-Downloads'
+    - title: 'Nacharbeits-Änderungskontrolle'
+      description: 'Keine Nacharbeitsparameter-Änderung ohne dokumentierte Kontrolle: Containment, Risikoklassifizierung, 9-stufiger Änderungszyklus, Freigabematrix und Validierung. Jede Änderung an freigegebenen Spezifikationen, Mustern, BOMs oder Abnahmekriterien erfordert die schriftliche Kundenfreigabe.'
+      icon: tabler:git-branch
+      link: /factory/quality-change-control
+      link_label: 'Standard der Änderungskontrolle'
+    - title: 'Kontrolle nichtkonformer Produkte'
+      description: 'Ein geschlossener 7-stufiger Kreislauf unter ISO 9001:2015 Abschnitt 8.7: identifizieren, sperren, nach NCR disponieren, nacharbeiten oder zurückweisen, nachprüfen, freigeben, korrigieren. Umfasst die Schweregrad-Befugnis, die SUP-Fehlerdispositionsmatrix und begleitete Zerstörung.'
+      icon: tabler:alert-triangle
+      link: /factory/non-conforming-control
+      link_label: 'Standard für nichtkonforme Produkte'
+    - title: 'Laborprüfung & Ausrüstung'
+      description: 'Das Qualitätslabor arbeitet unabhängig von der Produktion: Zug-, Druckabfall-, UV-Bewitterungs-, Schweißnaht-Abzieh-, Leckerkennungs- und Temperaturkammern — mit den Kalibrier- und Prüfverfahren hinter unseren veröffentlichten Aussagen.'
+      icon: tabler:flask
+      link: /factory/quality-lab
+      link_label: 'Qualitätslabor & Prüfausrüstung'
+    - title: 'Materialprüflabor (F&E)'
+      description: 'Das F&E-Zentrum führt unabhängige Materialprüfungen für PVC/Hypalon-Rezepturen, beschleunigte Alterung und Zertifizierungsunterstützung durch und speist die Standards, die die Produktion verwendet.'
+      icon: tabler:microscope
+      link: /randdcenter/quality-inspection-lab
+      link_label: 'F&E-Materialprüflabor'
+intelligence_cards:
+  tagline: Dokumentation & Rückverfolgbarkeit
+  title: 'Qualitätsaufzeichnungen, die die Projekt-Rückverfolgbarkeit unterstützen'
+  subtitle: 'Inspektionsaufzeichnungen werden je Produktionscharge geführt und mit der anwendbaren Projektdokumentation verknüpft — Spezifikationsrevision, Grafikrevision, BOM und Packanforderungen. Zum Schutz der Kundendaten sind die Muster auf dieser Seite anonymisiert: es werden nur strukturelle Felder gezeigt (Projektcode, Produkt/SKU, Charge, Inspektionsstufe, Prüfpunkt, Abnahmekriterien, Ergebnis, Prüfer, Datum und Freigabestatus).'
+  cards:
+    - icon: 1
+      icon_bg: blue
+      title: Wareneingangskontroll-Protokoll
+      desc: 'Belegt, dass Rohmaterialien, Drop-Stitch-Gewebe, PVC-Rollen und Komponenten vor der Produktionsfreigabe gegen die freigegebene Spezifikation verifiziert werden.'
+      metrics:
+        - { label: Stufe, value: '02 · IQC' }
+        - { label: Chargen-Referenz, value: 'LOT-DEMO-DS-0814' }
+        - { label: Ergebnis, value: 'Bestanden · für Produktion freigegeben' }
+      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link_label: 'Anonymisiertes Muster ansehen (PDF)'
+    - icon: 2
+      icon_bg: green
+      title: Erstmusterprüfungs-Protokoll (FAI)
+      desc: 'Belegt die Versionssperrung (Grafiken, Maße, BOM-Spezifikationen) vor dem Eintritt in die volle Serienfertigung.'
+      metrics:
+        - { label: Stufe, value: '03 · IPQC' }
+        - { label: Mustercode, value: 'SN-DEMO-FAI-001' }
+        - { label: Ergebnis, value: 'Bestanden · FAI freigegeben' }
+      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link_label: 'Anonymisiertes Muster ansehen (PDF)'
+    - icon: 3
+      icon_bg: purple
+      title: Aufblas- & Luftdichtheitsprüf-Protokoll
+      desc: 'Verifiziert 100 % vollständige Naht-Leckerkennung, Ventilintegrität und Druckhaltevermögen gemäß Projektqualitätsplan.'
+      metrics:
+        - { label: Stufe, value: '04 · Luftdichtheit' }
+        - { label: Testbedingung, value: 'Laut Projektplan (18,0 PSI)' }
+        - { label: Ergebnis, value: 'Bestanden · für Endprüfung freigegeben' }
+      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link_label: 'Anonymisiertes Muster ansehen (PDF)'
+    - icon: 4
+      icon_bg: orange
+      title: Endproduktinspektionsbericht
+      desc: 'Validiert das fertige Board gegen das freigegebene Muster hinsichtlich Maßen, Rocker, Optik (D65-Licht) und Finbox-Passung.'
+      metrics:
+        - { label: Stufe, value: '05 · FQC' }
+        - { label: Abmessung, value: '3508 × 814 × 150.3 mm' }
+        - { label: Ergebnis, value: 'Bestanden · für Verpackung freigegeben' }
+      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link_label: 'Anonymisiertes Muster ansehen (PDF)'
+    - icon: 5
+      icon_bg: green
+      title: Pack- & Versandvorinspektions-Checkliste
+      desc: 'Stellt 100 % Kit-Vollständigkeit, Barcodelesbarkeit (Note ≥ B), Karton-Kennzeichnungsgenauigkeit und ISTA-1A-Fallsicherheit sicher.'
+      metrics:
+        - { label: Stufe, value: '06 · PSI' }
+        - { label: Kit, value: '100 % BOM-Abgleich' }
+        - { label: Ergebnis, value: 'Bestanden · für Versand freigegeben' }
+      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link_label: 'Anonymisiertes Muster ansehen (PDF)'
+doc_register:
+  tagline: Register kontrollierter Dokumente
+  title: 'Jedes Dokument hinter einem Versand, aufgelistet'
+  subtitle: 'Jede Bestellung erzeugt ein strukturiertes Dokumentationsregister 00–15 — Projektindex, freigegebene Spezifikation, BOM, Grafik- und Packreferenzen, QIP, Inspektionsaufzeichnungen, NCR, Änderungskontrolle, Drittfirmen-Briefing und Freigabezusammenfassung. Laden Sie die öffentlichen Dokumente herunter, um die exakte Struktur und die Kriterien zu sehen, nach denen wir kontrollieren.'
+  items:
+    - title: '00 · Project Quality Inspection Plan (QIP)'
+      description: 'Der Qualitätsvertrag für die Bestellung: Gates, Inspektionsumfang, Methoden, Abnahmekriterien und die Aufzeichnungen, die Sie erhalten.'
+      icon: '00'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'QIP herunterladen (PDF)'
+    - title: '01 · Qualitätsinspektionsstandards'
+      description: 'Der vollständige Inspektions- und Sicherungsstandard, der auf kundenspezifische aufblasbare SUP-Bestellungen angewendet wird.'
+      icon: '01'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
+      link_label: 'Standards herunterladen (PDF)'
+    - title: '02 · Qualitätsdokumentations-Pack'
+      description: 'Die vollständige Dokumentstruktur, die ein Projekt erhält, in einem Übersichtspack.'
+      icon: '02'
+      link: https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link_label: 'Pack herunterladen (PDF)'
+    - title: '03 · IQC-Testberichte'
+      description: 'Wareneingangskontrollberichte — Gewebe, PVC-Rollen, Ventile und Komponenten.'
+      icon: '03'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'IQC-Berichte herunterladen (PDF)'
+    - title: '04 · IPQC-Testberichte'
+      description: 'Prozessinspektions- und Erstmusterberichte gegen die gesperrte Revision.'
+      icon: '04'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'IPQC-Berichte herunterladen (PDF)'
+    - title: '05 · Luftdichtheits-Testberichte'
+      description: '100 % Naht-Leckerkennung, Ventilintegrität und Druckhalteprotokolle.'
+      icon: '05'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Luftdichtheitsberichte herunterladen (PDF)'
+    - title: '06 · FQC-Testberichte'
+      description: 'Endkontrolle des Boards gegen das freigegebene Muster — Maße, Optik, Finbox.'
+      icon: '06'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'FQC-Berichte herunterladen (PDF)'
+    - title: '07 · PSI-Testberichte'
+      description: 'Pack- und Versandvorinspektion — 100 % Kit-Vollständigkeit, Barcodenote, Fallsicherheit.'
+      icon: '07'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'PSI-Berichte herunterladen (PDF)'
+    - title: '08 · Versandfreigabeberichte'
+      description: 'Freigabeautorisierung, unterzeichnet, wenn alle Gates geschlossen sind, zusammen mit dem Chargendossier.'
+      icon: '08'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Freigabeberichte herunterladen (PDF)'
+    - title: '09 · Rückverfolgbarkeits- & NCR-Dossier'
+      description: 'Chargen-Rückverfolgbarkeit, mit Spec/Grafik/BOM verknüpft, plus Aufzeichnungen zur Nichtkonformitätskontrolle.'
+      icon: '09'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Dossier herunterladen (PDF)'
+    - title: '10 · NCP-Kontroll-SOP (ISO 8.7)'
+      description: 'Das kontrollierte Verfahren für Sperrung, Disposition, Nacharbeit und Freigabe nichtkonformer Produkte.'
+      icon: '10'
+      link: https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link_label: 'SOP herunterladen (PDF)'
+    - title: '11 · Nacharbeits-Änderungskontrolle SOP + Anhang'
+      description: 'Das Änderungskontrollverfahren und sein Ausführungsanhang — Containment, Freigabe und Validierung.'
+      icon: '11'
+      link: https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'SOP herunterladen (PDF)'
+    - title: '12 · Versandvorfreigabe-Zusammenfassung'
+      description: 'Die zweisprachige Freigabezusammenfassung, mit der jede Charge versendet wird und die das Register zusammenhält.'
+      icon: '12'
+      link: https://assets.supsfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link_label: 'Zusammenfassung herunterladen (PDF)'
+    - title: '13 · Briefing-Vorlage für Drittinspektionen'
+      description: 'Die Briefing-Vorlage, die Inspektoren verwenden, um eine Versandvorinspektion anzukündigen, zu planen und zu berichten.'
+      icon: '13'
+      link: https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Vorlage herunterladen (PDF)'
+    - title: '14 · PSI-Checkliste'
+      description: 'Die Versandvorinspektion-Checkliste für die Fertigung — Kit-Vollständigkeit, Barcodenote, Kennzeichnungen und Fallsicherheit.'
+      icon: '14'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Checkliste herunterladen (PDF)'
+    - title: '15 · OEM-Projekt-Realisierbarkeits- & Qualitätsleitfaden'
+      description: 'Wie ein Projekt von der Anfrage zum freigegebenen Golden Sample gelangt — Konstruktions- und Qualitätsschritte vor der Serienfertigung.'
+      icon: '15'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Leitfaden herunterladen (PDF)'
+traceability:
+  tagline: Chargenbezogene Rückverfolgbarkeit
+  title: 'Vier Fragen, die jede Charge beantwortet'
+  subtitle: 'Qualitätsaufzeichnungen werden je Produktionscharge geführt und mit der anwendbaren Produktspezifikation, Grafik, BOM und den Packanforderungen verknüpft. Dies unterstützt Untersuchung und kontrolliertes Handeln, wenn ein Qualitätsproblem identifiziert wird. Bei einem Käuferaudit beantwortet unser Qualitätsteam diese vier Fragen auf der Fläche — jede Antwort verweist auf eine kontrollierte Aufzeichnung.'
+  items:
+    - title: 'Was wurde produziert?'
+      description: 'Produkt, Modell, Konfiguration und Revision sind mit der Auftragsnummer und der freigegebenen Spezifikationsrevision verknüpft.'
+      icon: '1'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Rückverfolgbarkeitsdossier ansehen (PDF)'
+    - title: 'Welche Materialien wurden verwendet?'
+      description: 'Jede Materialcharge, die in die Charge fließt, wird mit ihrem Lieferanten, Zertifikat und ihrer IQC-Disposition erfasst.'
+      icon: '2'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Rückverfolgbarkeitsdossier ansehen (PDF)'
+    - title: 'Wer geprüft hat, und wann?'
+      description: 'Jede Aufzeichnung trägt Prüferrolle, Datum, verwendete Werkzeuge und Ergebnis — keine anonymen Unterschriften.'
+      icon: '3'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Rückverfolgbarkeitsdossier ansehen (PDF)'
+    - title: 'Wie wurde die Charge freigegeben?'
+      description: 'Die Freigabe wird von Quality nur autorisiert, wenn alle Gates geschlossen sind; die Disposition wird auf der Aufzeichnung dokumentiert.'
+      icon: '4'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Rückverfolgbarkeitsdossier ansehen (PDF)'
+non_conformance:
+  tagline: Kontrolle nichtkonformer Produkte
+  title: 'Wenn ein Fehler gefunden wird: Eindämmen, Entscheiden, Dokumentieren'
+  subtitle: 'Produkte oder Komponenten, die die definierten Abnahmekriterien nicht erfüllen, werden identifiziert und unter kontrollierten Halt gelegt. Nacharbeit oder Ersatz ist nur über das anwendbare Qualitätsverfahren zulässig, gefolgt von einer erneuten Prüfung vor der autorisierten Freigabe.'
+  items:
+    - title: 'Erkennen & Trennen'
+      description: 'Fehlerhafte Einheiten werden rot gekennzeichnet und zur Quarantänestation gebracht — keine weitere Verarbeitung oder Verpackung bis zur Disposition.'
+      icon: tabler:alert-triangle
+    - title: 'Disposition per NCR'
+      description: 'Quality erstellt einen Non-Conformance Report und leitet die Einheit gemäß Dispositionsmatrix zu Nacharbeit, Nachprüfung, Rückweisung oder Verschrottung.'
+      icon: tabler:git-branch
+      link: /factory/non-conforming-control
+      link_label: 'Standard für nichtkonforme Produkte'
+    - title: 'Verifizieren & Freigeben'
+      description: 'Nachgearbeitete Einheiten werden gegen dieselben Kriterien nachgeprüft; der NCR wird erst geschlossen, nachdem die erneute Verifizierung bestanden ist.'
+      icon: tabler:shield-check
+    - title: 'Verschrottungskontrolle'
+      description: 'Verschrottetes Material wird mit einem unterzeichneten Verschrottungszertifikat zerstört, damit es nie wieder in Bestand oder Markt gelangen kann.'
+      icon: tabler:trash
+      link: https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link_label: 'Verschrottungs- & Zerstörungszertifikat (PDF)'
+    - title: 'Ursachen-Feedback'
+      description: 'Wiederkehrende Fehler lösen Korrekturmaßnahmen mit dem verantwortlichen Prozess oder Lieferanten aus — geschlossener Kreislauf, nicht Papierkram.'
+      icon: tabler:refresh
+      link: https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'Änderungskontroll-SOP Nacharbeit (PDF)'
+third_party:
+  tagline: Käuferbestellte & unabhängige Inspektionsunterstützung
+  title: 'Ihr Inspektor ist auf der Fläche willkommen'
+  subtitle: 'Käuferbestellte und unabhängige Drittinspektionen (SGS, TÜV, Bureau Veritas, Zollbroker) können vor der Produktionsfreigabe besprochen werden. Inspektionsumfang, Stichprobenumfang, Abnahmekriterien, Terminierung und Berichtsanforderungen sollten vor Beginn der Produktion bestätigt werden. Wo anwendbar, koordinieren wir den Zugang zu den relevanten Produktions-, Endinspektions- und Packstufen gemäß dem vereinbarten Inspektionsplan.'
+  items:
+    - title: 'Inspektionsplanung'
+      description: 'Hauseigene oder Drittinspektionen können an jedem der sieben Gates arrangiert werden, wobei Ihr Inspektionsplan als Abnahmegrundlage angewendet wird.'
+      icon: tabler:calendar-clock
+      link: /factory/quality-inspection
+      link_label: 'Inspektionsstandards & QMS-Downloads'
+    - title: 'Versandvorinspektion-Briefing-Vorlage'
+      description: 'Die Briefing-Vorlage, die Inspektoren verwenden, um eine Versandvorinspektion in unserer Anlage anzukündigen, zu planen und zu berichten.'
+      icon: tabler:file-report
+      link: https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Briefing-Vorlage herunterladen (PDF)'
+    - title: 'PSI-Checkliste'
+      description: 'Die Versandvorinspektion-Checkliste für die Fertigung — Kit-Vollständigkeit, Barcodenote, Kennzeichnungen und Fallsicherheit.'
+      icon: tabler:clipboard-check
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'PSI-Checkliste herunterladen (PDF)'
+    - title: 'Vollständiges Qualitätsdokumentations-Pack'
+      description: 'Ein Dossier, das das vollständige Dokumentationssystem abdeckt — QIP, Gate-Aufzeichnungen, Rückverfolgbarkeit und NCR-Kontrolle.'
+      icon: tabler:books
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Dokumentations-Pack herunterladen (PDF)'
+    - title: 'OEM-Projekt-Realisierbarkeits- & Qualitätsleitfaden'
+      description: 'Wie ein Projekt von der Anfrage zum freigegebenen Golden Sample gelangt — die Konstruktions- und Qualitätsschritte vor der Serienfertigung.'
+      icon: tabler:route
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Projektleitfaden herunterladen (PDF)'
+content_certifications:
+  tagline: Zertifizierungen & Standards
+  title: 'Zertifizierte Qualität, weltweit anerkannt'
+  subtitle: 'Zertifizierungen sind nur so wertvoll wie das, was sie abdecken. Im Folgenden finden Sie den Zertifizierungsumfang, den Zertifikatsinhaber und wie Sie die Dokumente für Ihr Projekt anfordern oder verifizieren können.'
+  items:
+    - title: 'CE-Kennzeichnung'
+      description: 'CE-Konformitätsdokumentation ist für anwendbare EU-Marktkonfigurationen gemäß Richtlinie 2013/53/EU (Sportboote) verfügbar; der Umfang wird je Projekt bestätigt. Zertifikatsnummern und Prüfberichte auf Anfrage erhältlich.'
+      icon: tabler:certificate
+    - title: 'ISO 9001:2015'
+      description: 'Qualitätsmanagementsystem zertifiziert nach ISO 9001:2015, das Entwicklung, Fertigung und Vertrieb aufblasbarer Wasserfahrzeuge und Marineausrüstung abdeckt. Zertifizierungsumfang und Auditbericht auf Anfrage erhältlich.'
+      icon: tabler:clipboard-check
+    - title: 'BSCI-Sozialkonformität'
+      description: 'Bewertet nach BSCI (Business Social Compliance Initiative), abdeckend Arbeitsbedingungen und Fabrikconformance. Auditbericht auf Anfrage erhältlich.'
+      icon: tabler:heart-handshake
+    - title: 'REACH-Materialkonformität'
+      description: 'Materialien erfüllen die EU-REACH-Verordnung zur chemischen Sicherheit. Materialdeklarationen werden mit der Produktionsdokumentation jeder Lieferung bereitgestellt.'
+      icon: tabler:flask
+    - title: 'RoHS-Konformität'
+      description: 'Beschränkung gefährlicher Stoffe wird je RoHS für anwendbare Komponenten und Materialien dokumentiert.'
+      icon: tabler:flame
+    - title: 'Materialprüfung'
+      description: 'Gewebe werden auf Zugfestigkeit, Rissfestigkeit, UV-Degradation und Kältebruchverhalten geprüft. Jede Produktionscharge wird beprobt und gegen das veröffentlichte Prüfprotokoll verifiziert.'
+      icon: tabler:test-pipe
+faqs:
+  tagline: FAQ
+  title: Häufig gestellte Fragen zu unserem Qualitätssystem
+  items:
+    - q: 'Kann ich die tatsächlichen Inspektionsberichte herunterladen?'
+      a: 'Ja. Die sieben zweisprachigen Berichtsdossiers auf dieser Seite — QIP, IQC, IPQC/FAI, Luftdichtheit, FQC, PSI und Versandfreigabe — sind echte kontrollierte Aufzeichnungen mit entfernten vertraulichen Feldern. Sie zeigen die exakte Struktur, Methoden und Abnahmekriterien, die bei jeder Bestellung verwendet werden.'
+    - q: 'Wie ordnen sich die sieben Gates meinem Projekt zu?'
+      a: 'Jedes Projekt erhält einen Quality Inspection Plan (QIP), der die für Ihr Produkt und Ihren Markt anwendbaren Gates, den Inspektionsumfang an jedem Gate und die Aufzeichnungen definiert, die Sie erhalten werden. Laden Sie das QIP-Muster auf dieser Seite herunter, um die Struktur zu sehen.'
+    - q: 'Sind diese Inspektionsmuster echt?'
+      a: 'Ja. Die Muster folgen unserer tatsächlichen kontrollierten Aufzeichnungsstruktur — Dokumentenkopf, Inspektionscheckliste, Abnahmekriterien, Methode, Ergebnisse, Prüferrolle und Freigabedisposition. Alle identifizierenden Werte werden durch Demonstrationswerte (DEMO-*-Codes) ersetzt, sodass keine Kunden-, Grafik-, Auftrags- oder Preisdaten offengelegt werden.'
+    - q: 'Warum sind die Muster anonymisiert?'
+      a: 'Die Vertraulichkeit der Käufer hat Vorrang. Kundennamen, Grafiken, Auftragsdetails, Lieferanteninformationen und Preise sind konstruktionsbedingt geschützt. Die Anonymisierung ermöglicht jedem potenziellen Käufer, unsere Aufzeichnungsstruktur und Rückverfolgbarkeit zu verifizieren, ohne die Geschäftsdaten eines anderen Kunden offenzulegen.'
+    - q: 'Können wir vollständige Inspektionsberichte für unser Projekt erhalten?'
+      a: 'Ja. Für freigegebene Projekte teilen wir die für Ihre Bestellung anwendbare Qualitätsdokumentation — Qualitätsinspektionsplan, Wareneingangs-, Prozess-, Luftdichtheits-, End- und Packinspektionsberichte sowie die Versandfreigabeautorisierung — verknüpft mit Ihrer Chargen-Rückverfolgbarkeit. Sensible kommerzielle Daten bleiben wie vereinbart unter NDA.'
+    - q: 'Was enthält eine chargenbezogene Inspektionsaufzeichnung?'
+      a: 'Jede Aufzeichnung verknüpft die Produktionscharge mit der anwendbaren Spezifikations- oder Zeichnungsrevision, hält jeden Prüfpunkt gegen seine Abnahmekriterien mit der verwendeten Methode und dem Werkzeug fest und schließt mit Prüferrolle, Ergebnisstatus und der von Quality unterzeichneten Freigabedisposition.'
+evidence_review:
+  tagline: 'Nachweise & Verifizierung'
+  title: 'VERIFIZIERTE SPEZIFIKATIONEN'
+  body: 'Alle Fertigungsaussagen auf dieser Seite werden von unserem Manufacturing Engineering Team am Standort Laixi, Qingdao, verifiziert. Zertifikate, QC-Inspektionsaufzeichnungen, Druck- und Strukturtestberichte sowie Chargen-Rückverfolgbarkeitsaufzeichnungen sind auf Anfrage erhältlich. Spezifikationen zuletzt verifiziert im September 2026.'
+
+cta:
+  title: 'Qualitätsanforderungen für Ihr SUP-Projekt nötig?'
+  subtitle: 'Teilen Sie Ihre Produktkategorie, den Zielmarkt, die geschätzte Menge und alle Inspektions-, Dokumentations- oder Verpackungsanforderungen. Wir prüfen die anwendbaren Projekteingaben und beraten den nächsten Schritt für die Musterentwicklung oder Produktionsplanung. Eine NDA-Besprechung ist vor der Weitergabe nichtöffentlicher Spezifikationen, Grafiken oder Qualitätsanforderungen möglich.'
+  actions:
+    - variant: primary
+      text: Projektqualitätsprüfung anfordern
+      href: /contact#quality-inquiry
+    - text: Besuchen Sie unser Qualitätsinspektionslabor
+      href: /randdcenter/quality-inspection-lab
+    - text: Inspektionsstandards & QMS-Downloads
+      href: /factory/quality-inspection
+    - text: Standard für nichtkonforme Produkte
+      href: /factory/non-conforming-control

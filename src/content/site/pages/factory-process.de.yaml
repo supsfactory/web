@@ -1,0 +1,109 @@
+meta:
+  title: 'Fertigungsprozess — vom Rohmaterial zum SUP'
+  description: 'Vom Rohmaterial zum seefähigen SUP: jeder Schritt des Vatrad-Fertigungsprozesses unter unserer Kontrolle — vom Zuschnitt und Schweißen bis zur Prüfung.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup manufacturing process'
+    - 'inflatable sup factory'
+    - 'paddle board production steps'
+    - 'pvc welding sup'
+hero:
+  tagline: Prozess
+  title: Fertigungsprozess
+  subtitle: Vom Rohmaterial zum seefähigen SUP —jeder Schritt unter unserer Kontrolle
+  back_label: Zurück zur Fabrik
+  back_link: /factory
+
+answer:
+  label: 'Klare Antwort'
+  text: 'Boards durchlaufen fünf kontrollierte Stufen: Materialprüfung (1–2 Tage), automatischer CNC-Zuschnitt (<5 % Abfall, 2–4 Stunden pro Kit), Schlauchheißsiegeln mit RF-verstärkten Nähten (1–2 Tage pro Board), Drop-Stitch-Kernverklebung und Endmontage mit 100 % Luftretentions- und Lastprüfung vor der Verpackung.'
+  verified: 'September 2026'
+
+intro: Anders als Marken, die die Produktion an Drittfabriken auslagern, besitzt und betreibt Vatrad seine gesamte Fertigungskette. Diese vertikale Integration ermöglicht es uns, in jeder Stufe strenge Qualitätskontrolle aufrechtzuerhalten, schnell auf kundenspezifische Anforderungen zu reagieren und Chargen für Chargen gleichbleibende Produktqualität zu liefern. So wird in unserer Anlage ein SUP-Board gebaut.
+
+steps:
+  - step: '01'
+    title: Materialeingang & Prüfung
+    description: Jede eingehende Charge PVC-Gewebe, Glasfasermatte, Harz und Beschläge wird gegen die Spezifikation geprüft. Gewebeproben werden vor der Freigabe an die Produktion auf Zugfestigkeit, Dickenuniformität und UV-Beständigkeit getestet. Nichtkonforme Materialien werden gesperrt und zurückgesendet.
+    duration: 1–2 Tage
+  - step: '02'
+    title: Automatischer PVC-Zuschnitt
+    description: <p>Freigegebene Gewebe werden auf der automatischen CNC-Schneidemaschine ausgelegt und mit submillimetergenauer Präzision geschnitten. Computersoptimierte Verschachtelung ordnet Paneele an, um Abfall zu minimieren —typischerweise unter 5 %. Geschnittene Paneele werden nach SUP-Modell und Kammer etikettiert und dann gebündelt zur Schweißwerkstatt transferiert.</p>
+    duration: 2–4 Stunden pro Board-Kit
+  - step: '03'
+    title: Schlauchheißsiegeln & Schweißen
+    description: Paneele werden mithilfe von Heißsiegemaschinen bei kontrollierten Heißlufttemperaturen von 200–300 °C geheftet und verbunden. Hauptnähte werden mit RF-Dielektrikschweißung für luftdichte, hochfeste Verbindungen verstärkt. Fertige Kammern werden vor dem 24-stündigen Retentionshalt auf 18.0 PSI für einen ersten Luftdichtigkeitscheck aufgeblasen.
+    duration: 1–2 Tage pro SUP-Board
+  - step: '04'
+    title: Drop-Stitch-Kernverklebung
+    description: Drop-Stitch-Kerne der SUP-Boards werden mithilfe von Heißlaminierung mit den äußeren PVC-Laminaten verklebt. Tausende interne Polyesterfäden verbinden Ober- und Unterschicht und erzeugen eine steife Struktur bei 12-15 PSI. Railbänder werden für die Kantenfestigkeit dreilagig fusionverklebt.
+    duration: 1–2 Tage pro Board
+  - step: '05'
+    title: SUP-Druck & Dekoration
+    description: Deckgrafiken der SUP-Boards werden mithilfe von Digitaldruck für vollfarbige fotorealistische Designs und Siebdruck für langlebige Logos und sich wiederholende Muster aufgebracht. Drucke werden für UV- und Abriebbeständigkeit ausgehärtet und versiegelt.
+    duration: 1–2 Tage
+  - step: '06'
+    title: Endmontage & Ausrüstung
+    description: Ventile, D-Ringe, Griffe, Finboxes und Deckpads werden an der Montagelinie installiert. Jedes Board folgt einer 100-Punkte-Montagecheckliste mit verbindlicher Freigabe in jeder Stufe.
+    duration: 1–2 Tage
+  - step: '07'
+    title: Qualitätsprüfung & Inspektion
+    description: 'Jedes fertiggestellte Board durchläuft ein verbindliches Qualitätsgate: Kammer-Luftretentionstest, Funktionsprüfung der Beschläge, Drehmomentverifizierung der Befestigungen und kosmetische Inspektion. Kundenspezifische und Prototypen-Bauten erhalten zudem Wassererprobungen, die Stabilität und Handling abdecken.'
+    duration: 1–2 Tage
+  - step: '08'
+    title: Verpackung & Versand
+    description: Boards werden entlüftet, nach Verfahren gefaltet, in robusten gewebten Taschen oder Handelskartons verpackt und für den Versand verladen. Jedes Paket wird mit Modell, Seriennummer und Zielort etikettiert. Wir koordinieren mit Spediteuren für FCL- und LCL-Containerversand weltweit.
+    duration: 1 Tag
+
+evidence_gates:
+  tagline: Inspektionsnachweise
+  title: 'Jede Stufe hinterlässt einen Nachweis — Fotos & Berichte'
+  subtitle: 'Unten sind die tatsächlichen Inspektionsfotos und Testberichts-Dossiers aus unseren sieben kontrollierten Qualitätsgates. Jede PDF ist ein echtes zweisprachiges Dokument, das Sie herunterladen und auditieren können — dieselben Aufzeichnungen, die jede Charge im 10-Jahres-ERP-Rückverfolgbarkeitsarchiv stützen. Sehen Sie den vollständigen 7-Stufen-Ablauf auf /quality.'
+  items:
+    - title: 'PPM — Projektqualitätsplanung'
+      description: 'Das Vorserienmeeting fixiert den Umfang, das Golden Sample und den Quality Inspection Plan, bevor die Linie startet. Ungeklärte Punkte blockieren die Produktionsfreigabe.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'QIP herunterladen (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      alt: Vorserienmeeting zur Prüfung des Golden Samples und des Qualitätsinspektionsplans für einen OEM-SUP-Auftrag
+    - title: 'IQC — Wareneingangskontrolle'
+      description: 'Jede eingehende Charge PVC, Gewebe und Beschläge wird gegen die freigegebene Spezifikation geprüft. Nichtkonforme Partien werden vor der Freigabe an die Linie gesperrt und zurückgewiesen.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'IQC-Berichte herunterladen (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      alt: Wareneingangskontrolle von PVC-Gewebe und SUP-Komponenten in der Fabrik
+    - title: 'IPQC / FAI — Prozesskontrolle'
+      description: 'Das erste Muster wird gegen die gesperrten Baselines verifiziert, und jede Schicht hält Streifenkontrollen an der Linie. Die FAI-Freigabe versionssperrt Grafiken, Maße und BOM.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'IPQC-Berichte herunterladen (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Prozessinspektion und Erstmusterprüfung während der SUP-Produktion
+    - title: 'Aufblas- & Luftdichtheitsprüfung'
+      description: '100 % der fertigen Boards — nicht nur eine Stichprobe — erhalten einen 24-stündigen Druckhalt bei 18.0 PSI mit automatischer Ausschleusung über einem Abfall von 0,50 PSI. Ein Nachweis pro Kammer.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Luftdichtheitsberichte herunterladen (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      alt: Aufblas- und Luftdichtheitsprüfung einer aufblasbaren SUP-Kammer
+    - title: 'FQC — Endproduktkontrolle'
+      description: 'Fertige Boards werden gegen Zeichnungstoleranzen gemessen und unter D65-Tageslichtlampen optisch gegen das freigegebene Golden Sample bewertet.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'FQC-Berichte herunterladen (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      alt: Endproduktkontrolle fertiger SUP-Boards vor dem Verpacken
+    - title: 'PSI — Verpackungs- & Versandvorinspektion'
+      description: 'Das verpackte Kit wird 100 % gegen die kundenfreigegebene BOM geprüft — Barcode-Scan (Note ≥ B), Kartonkennzeichnungen und ISTA-1A-Falltest vor dem Laden.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'PSI-Berichte herunterladen (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      alt: Versandvorinspektion, die das verpackte SUP-Kit gegen die BOM prüft
+    - title: 'Versandfreigabe & Rückverfolgbarkeit'
+      description: 'Quality gibt die Charge erst frei, wenn alle sechs vorherigen Gates geschlossen sind. Seriennummern werden der Charge zugeordnet und das Dossier wird mit dem Versand übergeben.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Freigabeberichte herunterladen (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      alt: Versandfreigabe-Unterzeichnung und Übergabe des Chargen-Rückverfolgbarkeitsprotokolls
+cta:
+  title: Sehen Sie unsere Ausrüstung und Maschinen
+  desc: Erkunden Sie die industrielle Ausrüstung hinter jedem Vatrad-SUP-Board.
+  label: Ausrüstung ansehen →
+  link: /factory/equipment

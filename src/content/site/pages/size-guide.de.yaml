@@ -1,0 +1,85 @@
+meta:
+  title: 'SUP-Größen- & Spezifikationsguide — Aufblasbare Paddelboards | {SITE}'
+  description: 'Maße, Kapazitäten und empfohlene Verwendungszwecke für jedes Vatrad-Board. Finden Sie die richtige aufblasbare SUP-Größe für Ihre Bedürfnisse.'
+  dateModified: '2026-08'
+  keywords:
+    - 'SUP-Größenberater'
+    - 'Paddelboard-Maße'
+    - 'aufblasbare SUP-Spezifikationen'
+    - 'SUP-Größentabelle'
+hero:
+  title: Größen- & Spezifikationsguide
+  subtitle: Maße, Kapazitäten und empfohlene Verwendungszwecke für jedes Vatrad-Produkt.
+
+categories:
+  inflatable: Aufblasbare SUPs für maximale Portabilität ohne Leistungseinbußen. Wählen Sie die passende Größe für Ihr Gewicht und Ihren Paddelstil.
+  sup: Stand-up-Paddleboards für Touren, Yoga, Fitness und Freizeit-Paddling. Auswahl nach Länge und Fahrergewicht.
+  accessory: Zubehör und Sicherheitsausrüstung zur Ergänzung Ihres SUP-Boards. Universelle Größen mit mehreren Optionen.
+
+table:
+  headers:
+    product: Produkt
+    length: Länge
+    width: Breite
+    weight: Gewicht
+    max_load: Max. Belastung
+    best_for: Geeignet für
+  rows:
+    - product: 'Allround-SUP (Explorer 11 ft)'
+      length: '11''0" (335 cm)'
+      width: '32" (81 cm)'
+      weight: 19 lbs (8.6 kg)
+      max_load: 220 lbs (100 kg)
+      best_for: Einsteiger, Freizeit, Familien-Paddling auf Seen und ruhigen Flüssen
+    - product: 'Allround-SUP (10''6")'
+      length: '10''6" (320 cm)'
+      width: '32" (81 cm)'
+      weight: 18 lbs (8.2 kg)
+      max_load: 200 lbs (90 kg)
+      best_for: Leichtere Fahrer, Yoga und allgemeine Freizeitnutzung
+    - product: 'Touring-SUP (12 ft)'
+      length: '12''0" (366 cm)'
+      width: '30" (76 cm)'
+      weight: 23 lbs (10.4 kg)
+      max_load: 260 lbs (118 kg)
+      best_for: Distanz-Paddling, Geschwindigkeit und Küsten-Touren
+    - product: 'Touring-SUP (14 ft)'
+      length: '14''0" (427 cm)'
+      width: '28" (71 cm)'
+      weight: 26 lbs (11.8 kg)
+      max_load: 275 lbs (125 kg)
+      best_for: Rennen und Langstrecken-Expeditions-Paddling
+    - product: 'Surf-SUP (8–10 ft)'
+      length: '8''0"–10''0" (244–305 cm)'
+      width: '30" (76 cm)'
+      weight: 17 lbs (7.7 kg)
+      max_load: 180 lbs (82 kg)
+      best_for: Wellenreiten und manövrierfähiges Surfen
+    - product: 'Yoga-/Fitness-SUP (11 ft)'
+      length: '11''0" (335 cm)'
+      width: '34" (86 cm)'
+      weight: 22 lbs (10 kg)
+      max_load: 240 lbs (109 kg)
+      best_for: Yoga, Fitness und stabiles Freizeit-Paddling
+
+how_to_choose:
+  title: So finden Sie die richtige Größe
+  cards:
+    - title: SUP-Boards
+      description: Wählen Sie die Länge nach Ihrem Gewicht und dem vorgesehenen Einsatz. Breitere Boards (32"+) bieten mehr Stabilität. Längere Boards (11-12 ft) liegen beim Touren besser in der Spur. Schwerere Paddler benötigen Boards mit höherem Volumen.
+    - title: Touring-SUPs
+      description: Längere Boards (11–12 ft) eignen sich am besten für Distanz- und Touren-Paddling. Breitere Boards (32"+) bieten mehr Stabilität. Prüfen Sie die Gewichtskapazität für das Gesamtgewicht inklusive Ausrüstung.
+    - title: Allround-SUPs
+      description: Wählen Sie die Länge nach Fahrergewicht und vorgesehenem Einsatz. Allround-Boards eignen sich für Freizeit, Fitness und Yoga. Kleinere Boards sind wendiger.
+
+cta:
+  title: 'Boards nach Größe durchstöbern oder mit einem Ingenieur sprechen'
+  subtitle: 'Vergleichen Sie Touring-, Allround- und Yoga-Modelle aus unserem Sortiment — oder senden Sie uns Ihren Fahrer-Mix und wir empfehlen die passenden Größen für Ihr Projekt.'
+  actions:
+    - variant: primary
+      text: SUP-Produkte durchstöbern
+      href: /products
+    - text: Mehr Paddling-Wissen
+      href: /knowledge
+    - text: So werden Boards gebaut
+      href: /factory/process

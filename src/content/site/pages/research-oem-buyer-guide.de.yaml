@@ -1,0 +1,103 @@
+meta:
+  title: 'OEM-Käufer-Leitfaden: SUP-Boards aus Asien beschaffen | SUPsfactory'
+  description: 'Aufblasbare SUP-Boards aus Asien beschaffen: Fabrikaudit-Checkliste, QC-Protokolle, Konformität, MOQ-Verhandlung, Versandbedingungen und Fallstricke.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Zurück zu Research'
+
+hero:
+  tagline: 'Beschaffung'
+  title: 'OEM-Käufer-Leitfaden — aufblasbare SUP-Boards aus Asien beschaffen'
+  subtitle: '12 Min. Lesezeit'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Die Mindestbestellmenge wird projektbezogen bestätigt statt als feste Zahl: die Musterentwicklung (1–2 Einheiten) validiert den Aufbau, Pilotbestellungen (20–50 Einheiten) testen den Markt auf bestehenden Plattformen, die Standard-Mengenproduktion läuft mit 90–100+ Einheiten pro Charge aus einer vollen 150-m-Drop-stitch-Rolle, und Kleinserien-Co-Branding startet ab 5–10 Einheiten. Muster versenden in 7–12 Tagen; die Massenproduktion läuft 25–35 Tage nach bestätigtem Auftrag und Anzahlung, plus 15–20 Tage, wenn neues Werkzeug erforderlich ist.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>1. Vorqualifizierung: Worauf Sie bei einer Fabrik achten sollten</h2>
+
+  <h3>Konformitätszertifikate</h3>
+  <ul>
+    <li><strong>ISO 9001:2015</strong> – Qualitätsmanagementsystem</li>
+    <li><strong>CE-Zertifizierung</strong> – Nummer der benannten Stelle prüfen</li>
+    <li><strong>BSCI / SMETA / SEDEX</strong> – Sozialkonformitäts-Audits</li>
+    <li><strong>REACH / RoHS</strong> – Materialkonformitätserklärungen</li>
+  </ul>
+
+  <h3>Fertigungskapazitäten</h3>
+  <ul>
+    <li>Drop-stitch-Kernweberei im Haus vs. ausgelagert</li>
+    <li>PVC-Beschichtungs- / Laminierungslinie</li>
+    <li>RF-Schweiß- und Heißluftschweißausrüstung</li>
+    <li>Formenbau im Haus (CNC-Bearbeitung)</li>
+    <li>Prüflabor (Druckprüfung, UV-Alterung, Zugprüfung)</li>
+  </ul>
+
+  <h3>Erfahrungsverifizierung</h3>
+  <ul>
+    <li>Jahre in der Fertigung aufblasbarer Wasserfahrzeuge (mindestens 5+ Jahre)</li>
+    <li>Anzahl der beschäftigten Ingenieure</li>
+    <li>Bestehende OEM/ODM-Kunden (Referenzen anfordern)</li>
+    <li>Exportziele – versenden sie bereits in Ihren Zielmarkt?</li>
+  </ul>
+
+  <h2>2. Qualitätskontroll-Protokolle</h2>
+  <p>Eingangs-QC für Materialien: Zugfestigkeit (ASTM D751 oder ISO 1421), Weiterreißfestigkeit (ASTM D2261 oder ISO 4674), Haftfestigkeit, Stichproben der UV-Alterung.</p>
+  <p>Prozess-QC: Überwachung der Nahtfestigkeit alle 50 Einheiten, Ventildrehmoment-Prüfung, Stichproben der Drop-stitch-Garndichte, Maßprüfungen gegen CAD-Zeichnungen.</p>
+  <p>Endprüfung: 100 % Druckhalteprüfung (24 Stunden, max. 0.50 PSI Abfall), Sichtprüfung, Ventilfunktionstest, Zufallsstichproben (AQL 2.5 oder 4.0 nach ISO 2859).</p>
+
+  <h2>3. Checkliste für Konformitätsdokumentation</h2>
+  <ul>
+    <li>Konformitätserklärung (DoC) unter Bezugnahme auf die richtige EU-Richtlinie</li>
+    <li>CE-Zertifikat einer benannten Stelle</li>
+    <li>Testbericht eines akkreditierten Labors</li>
+    <li>Sicherheitsdatenblätter (MSDS) der Materialien</li>
+    <li>REACH-Konformitätserklärung</li>
+    <li>Stückliste mit Lieferantenrückverfolgbarkeit</li>
+    <li>Fabrikinspektionsbericht</li>
+  </ul>
+
+  <h2>4. MOQ-Verhandlung</h2>
+  <p>Die MOQs für aufblasbare SUP-Boards werden durch den Produktionsweg und die Projektkonfiguration bestimmt, nicht durch Schätzungen. Alle Vatrad-OEM/ODM-Projekte folgen drei klaren Mengenstufen — Muster, Pilot und Menge — und die vollständige Berechnungslogik ist in unserem <a href="/de/oem-moq-guide">MOQ- &amp; Flexible-Branding-Leitfaden</a> erläutert:</p>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Produktionsweg</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">MOQ</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Zeitrahmen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Musterentwicklung (pro Design)</td><td class="p-3 border">1 – 2 Einheiten</td><td class="p-3 border">Muster in 7 – 12 Tagen</td></tr>
+      <tr><td class="p-3 border font-medium">Pilotbestellung (bestehende Plattformen)</td><td class="p-3 border">20 – 50 Einheiten</td><td class="p-3 border">Marktvalidierung mit vorhandenen Materialien</td></tr>
+      <tr><td class="p-3 border font-medium">Standard-Mengencharge (pro Design)</td><td class="p-3 border">90 – 100+ Einheiten</td><td class="p-3 border">25 – 35 Tage nach Auftrag und Anzahlung</td></tr>
+      <tr><td class="p-3 border font-medium">Kompletter eigener Formenbau / Private Label</td><td class="p-3 border">Projektspezifisch bestätigt</td><td class="p-3 border">Addiert 15 – 20 Tage für Werkzeug</td></tr>
+    </tbody>
+  </table>
+  <p>Die Mengen für Muster, Pilot und Serie unterscheiden sich: die Musterentwicklung (1–2 Einheiten) validiert den Aufbau, Pilotbestellungen (20–50 Einheiten) testen den Markt auf bestehenden Plattformen, und die Standard-Mengenproduktion läuft mit 90–100+ Einheiten pro Charge aus einer vollen 150-m-Drop-stitch-Rolle — mit Mengenpreisstufen, die mit der Bestellgröße steigen. Lassen Sie sich die MOQ-Berechnung, Lieferzeit und Zahlungsbedingungen für Ihr konkretes Board vor der Zusage an einen Lieferanten schriftlich geben.</p>
+
+  <h2>5. Logistik und Versand</h2>
+  <p>Übliche Incoterms: <strong>FOB</strong> (die Fabrik liefert bis zum Abgangshafen – am gebräuchlichsten), <strong>EXW</strong> (der Käufer organisiert den gesamten Versand ab Werksgelände), <strong>CIF</strong> (die Fabrik zahlt Fracht und Versicherung bis zum Zielhafen).</p>
+  <p>Aufblasbare Produkte sind leicht, aber voluminös — das Volumengewicht (DIM) bestimmt oft die Versandkosten. Fordern Sie vakuumverpackte Verpackung an, um das Volumen um 50–60 % zu reduzieren. Die Seefracht von China in die EU dauert typischerweise 25–35 Tage und 7–12 Tage an die US-Westküste — zusätzlich zur Produktionsvorlaufzeit von 25–35 Tagen.</p>
+
+  <h2>6. Häufige Fallstricke</h2>
+  <ul>
+    <li><strong>Kein Fabrikaudit:</strong> Führen Sie immer ein Audit durch oder beauftragen Sie eine Drittprüfung (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Nur mündliche Spezifikationen:</strong> Detailliertes technisches Spezifikationsblatt, von beiden Parteien unterzeichnet</li>
+    <li><strong>Musterfreigabe überspringen:</strong> Schriftliche Freigabe der Muster vor der Massenproduktion</li>
+    <li><strong>Keine QC während der Produktion:</strong> Drittprüfung während der Produktion (DUPRO) und vor dem Versand (PSI)</li>
+    <li><strong>Konformität ignorieren:</strong> CE-Kennzeichnung (Richtlinie 2013/53/EU) und marktspezifische Dokumentation vor der Produktion prüfen</li>
+  </ul>
+
+  <h2>7. Warum Vatrad</h2>
+  <p>Vatrad fertigt seit 2012 OEM/ODM aufblasbare SUP-Boards. Mit einer ISO-9001-zertifizierten Anlage von 12,500 m&sup2;, 25+ Ingenieuren und CE-Zertifizierung für Modelle für EU-Märkte (Geltungsbereich pro Projekt bestätigt) erfüllen wir jedes Kriterium dieses Leitfadens. Wir bieten Versuchs-MOQs für neue Partner und vollständige Konformitätsdokumentationspakete.</p>
+  <p>Sehen Sie sich unsere <a href="/de/oem-manufacturing">OEM/ODM-Fertigungsdienste für aufblasbare SUPs</a> an oder besichtigen Sie das <a href="/de/factory">12,500 m&sup2; große Werksgelände</a>, um die Ausrüstung und QC-Prozesse hinter jedem obigen Schritt zu sehen.</p>
+
+cta:
+  title: 'Bereit, mit der Beschaffung zu starten?'
+  subtitle: 'Kontaktieren Sie unser OEM-Team, um Ihre Projektanforderungen zu besprechen.'
+  button_text: 'Angebot anfordern'
+  button_link: /de/contact

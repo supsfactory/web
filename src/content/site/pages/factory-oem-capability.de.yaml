@@ -1,0 +1,74 @@
+meta:
+  title: 'OEM & Private-Label-Fertigung | {SITE}'
+  description: 'Vom Konzept zur Produktion: Individualisieren Sie jedes Detail Ihrer aufblasbaren SUP-Linie. Vollständiger OEM/ODM-Service für Private-Label-Paddelboard-Marken.'
+  dateModified: '2026-08'
+  keywords:
+    - 'oem sup manufacturing'
+    - 'private label paddle board'
+    - 'oem inflatable sup'
+    - 'custom sup factory'
+hero:
+  tagline: OEM/ODM-Fertigung
+  title: OEM & Private-Label-Fertigung
+  subtitle: Vom Konzept zur Produktion —individualisieren Sie jedes Detail Ihrer aufblasbaren SUP-Linie
+
+answer:
+  label: 'Klare Antwort'
+  text: 'Die MOQ wird per Projektkonfiguration bestätigt und nicht durch eine feste Zahl: Jedes Projekt durchläuft die Phasen Muster (1–2 Einheiten) und Pilot (20–50 Einheiten), während die Standard-Serienfertigung 90–100+ Einheiten pro Charge aus einer vollen 150-m-Drop-Stitch-Rolle umfasst. Muster sind in 7–12 Tagen bereit; die Standardproduktion läuft 25–35 Tage nach bestätigter PO und Anzahlung.'
+  verified: 'September 2026'
+
+intro: Vatrad bietet umfassende OEM- und ODM-Dienstleistungen für Marken, Distributoren und Behörden weltweit. Mit über 10 Jahren Exporterfahrung und einer 12,500 m² großen, nach ISO 9001 und BSCI zertifizierten Fabrik übernehmen wir alles vom Produktdesign und der Formenentwicklung bis hin zur Produktion im großen Maßstab, Verpackung und Exportverwaltung.
+
+highlight:
+  - value: 10+
+    label: Jahre OEM-Erfahrung
+    detail: Seit 2012
+  - value: 50+
+    label: Exportländer
+    detail: Globale Reichweite
+  - value: 200+
+    label: Gelieferte Individualprojekte
+    detail: Über alle Produktlinien
+  - value: 25–35
+    label: Standardlieferzeit (Tage)
+    detail: Nach bestätigter PO und Anzahlung
+
+services:
+  - title: Produktdesign & Konstruktion
+    description: Unser hauseigenes F&E-Team arbeitet mit Ihrem Konzept oder Ihrer Spezifikation, um CAD-Zeichnungen, 3D-Modelle und Prototypen zu entwickeln. Wir bieten Formendesign, Rumpfform-Optimierung und Materialauswahl-Beratung.
+  - title: Kundenspezifisches Branding & Grafiken
+    description: Vollfarbiger Digitaldruck, Siebdruck, Prägung und Etikettenoptionen. Wir entwickeln markenspezifische Deckgrafiken, Schlauchbranding und handelsfertige Verpackung.
+  - title: Material- & Spezifikations-Individualisierung
+    description: Wählen Sie aus PVC (Standard, umweltfreundlich, schwer entflammbar), Hypalon/CSM, Drop-Stitch und Hybrid-Konstruktionen. Kundenspezifische Schlauchfarben, Stoffgewichte und Verstärkungsoptionen.
+  - title: Verpackung & Logistik
+    description: Kundenspezifische Handelsverpackung, Private-Label-Kartons, Vakuumverpackung, Palettierung und exportsichere Packungstour in-house vorbereitet.
+
+moq_table:
+  - product: Aufblasbare SUP-Boards
+    standard_moq: 'Muster 1–2 | Pilot 20–50'
+    custom_moq: 'Menge 90–100+ (pro 150-m-Rolle)'
+    lead_time: 25–35 Tage
+
+why_us:
+  - title: Vertikale Integration
+    description: Wir besitzen unsere Fabrik, unsere Formen und unsere Lieferkette —keine Zwischenhändler, keine Subunternehmer. Das gibt uns Kontrolle über Qualität, Kosten und Lieferung.
+  - title: Doppelte Zertifizierung
+    description: ISO 9001-Qualitätsmanagement und BSCI-Sozialkonformitätszertifizierung. Fabrik-Auditberichte auf Anfrage erhältlich.
+  - title: CE-Konformität
+    description: Die CE-Zertifizierung gilt für Modelle, die für EU-Märkte bestimmt sind (Umfang pro Projekt bestätigt). Kundenspezifische Modelle können über unseren etablierten Prozess CE-zertifiziert werden.
+  - title: Projektspezifische MOQ
+    description: 'Die MOQ wird durch Ihre Projektkonfiguration bestätigt — Co-Branding in kleinen Chargen beginnt bei 5–10 Einheiten, Standard-Serienfertigung läuft mit 90–100+ Einheiten pro Charge. Wir helfen neuen Marken, ohne Überengagement im Inventar zu starten.'
+
+cta:
+  title: 'Setzen Sie Ihre eigene Marke auf ein bewährtes Board'
+  subtitle: 'Von der Spezifikationsprüfung bis zum versendeten Container — senden Sie noch heute Ihr Briefing und erhalten Sie innerhalb eines Werktags ein detailliertes OEM-Angebot. Verifizieren Sie die Fabrik und ihr Qualitätssystem, bevor Sie sich festlegen.'
+  actions:
+    - variant: primary
+      text: OEM-Angebot anfordern
+      href: /contact#custom-oem
+    - text: Fabrik & Qualitätssystem verifizieren
+      href: /oem-trust-assurance
+    - text: Das 7-stufige Inspektionssystem
+      href: /quality
+    - text: Die Produktionslinie ansehen
+      href: /factory/process

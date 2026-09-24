@@ -1,0 +1,100 @@
+meta:
+  title: 'SUP-Konformität nach Markt — CE-, REACH-, RoHS-, BSCI-, ISO-9001-Anforderungen | SUPsfactory'
+  description: 'Konformitätsleitfaden für aufblasbare SUP-Boards nach Märkten: CE (EU), CPSIA (USA), AS/NZS (AU), ISO 9001, BSCI, REACH und RoHS — Umfang und Unterlagen pro Markt.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'SUP-Konformität nach Markt'
+    - 'CE-Zertifizierung SUP'
+    - 'Vorschriften für aufblasbare SUPs'
+    - 'SUP-REACH-Konformität'
+    - 'SUP-RoHS-Konformität'
+    - 'BSCI-Audit SUP-Fabrik'
+    - 'ISO-9001-SUP-Hersteller'
+
+hero:
+  tagline: 'Konformitätsleitfaden'
+  title: 'SUP-Konformität nach Markt'
+  subtitle: 'Jeder Zielmarkt hat eigene Zertifizierungs-, Kennzeichnungs- und Dokumentationsanforderungen. Dieser Leitfaden kartiert die Konformitätslandschaft für aufblasbare SUP-Boards in den wichtigsten Märkten — EU, Nordamerika, Australien und darüber hinaus — damit Sie den richtigen Umfang bei der Angebotserstellung festlegen können und nicht erst nach der Produktion.'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Für die EU: Die CE-Kennzeichnung ist für Boards, die im Europäischen Wirtschaftsraum verkauft werden, verpflichtend — wir zertifizieren Modelle für den EU-Markt, der Umfang wird pro Projekt bestätigt. Für die USA: CPSIA- und VOC-Vorschriften auf Bundesstaatsebene. Für Australien: Konformität nach AS/NZS 1586. Für alle Märkte gelten: ISO 9001 (Fabrik), BSCI (Sozialaudit), REACH und RoHS (Materialien) standardmäßig in unserer gesamten Produktion, unabhängig vom Bestimmungsort. Konformitätsumfang und -kosten werden in Ihrem Angebot aufgeschlüsselt — keine Überraschungen nach der Produktion.'
+  verified: 'September 2026'
+
+market_cards:
+  tagline: Anforderungen nach Region
+  title: 'Konformitätsanforderungen nach Zielmarkt'
+  subtitle: 'Der Zertifizierungsumfang wird pro Projekt während der Machbarkeitsprüfung bestätigt. Im Folgenden die typischen Anforderungen nach Markt.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Europäische Union'
+      desc: 'CE-Kennzeichnung verpflichtend. REACH (Chemikaliensicherheit), RoHS (beschränkte Stoffe), ISO-9001-Fabrikzertifizierung. Produktspezifische Prüfungen gemäß PSA- oder Sportboot-Richtlinie, soweit anwendbar. Kennzeichnung in der Amtssprache des Bestimmungslands. BSCI-Sozialaudit verfügbar.'
+    - icon: US
+      icon_bg: green
+      title: 'Vereinigte Staaten'
+      desc: 'CPSIA-Konformität (Verbraucherproduktsicherheit). California Prop 65 und VOC-Vorschriften auf Bundesstaatsebene für PVC- und Klebstoffemissionen. Kein bundesstaatliches CE-Äquivalent. ASTM-Prüfungen auf Anfrage. FTC-Kennzeichnungsanforderungen für Ursprungsland und Materialzusammensetzung.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Australien & Neuseeland'
+      desc: 'AS/NZS 1586 für aufblasbare Wasserfahrzeuge. Garantien nach australischem Verbraucherrecht. Importdokumentation und Konformitätsbewertung gemäß den Anforderungen der australischen Grenzbehörde. REACH-äquivalente Chemikaliensicherheitsdokumentation. BSCI-Sozialaudit verfügbar.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Global / Multi-Markt'
+      desc: 'ISO-9001:2015-Fabrikzertifizierung (jährlich auditiert). BSCI-Sozialkonformitätsaudit. REACH- und RoHS-Materialkonformität in der gesamten Produktion unabhängig vom Bestimmungsort. Chargenrückverfolgbarkeit und Prüfberichte für jeden Markt verfügbar. Individueller Zertifizierungsumfang pro Projekt bestätigt.'
+
+certifications_detail:
+  heading: 'Unser Zertifizierungsumfang'
+  body: |
+    Die folgenden Zertifizierungen werden in unserer Produktion gehalten oder sind verfügbar. Der konkrete Zertifizierungsumfang für Ihr Projekt wird während der Machbarkeitsprüfung bestätigt und in Ihrem Angebot aufgeschlüsselt.
+
+    - **ISO 9001:2015** — Qualitätsmanagementsystem der Fabrik, jährlich von einer akkreditierten Drittpartei auditiert. Deckt den gesamten Fertigungsprozess von der Wareneingangsprüfung bis zur Endverpackung ab.
+    - **CE-Kennzeichnung** — Wird auf Modelle für den EU-Markt angewandt. Prüfung und Dokumentation gemäß der anwendbaren EU-Richtlinie. Umfang pro Projekt bestätigt — nicht alle Modelle benötigen denselben CE-Umfang.
+    - **BSCI** — Audit der Business Social Compliance Initiative. Deckt Arbeitnehmerrechte, Arbeitssicherheit, Umweltkonformität und Geschäftsethik ab. Für alle Märkte verfügbar.
+    - **REACH** — EU-Chemikaliensicherheitsverordnung. Alle PVC-, Klebstoff- und Beschichtungsmaterialien sind REACH-konform. Stoffdokumentation und Prüfberichte pro Charge verfügbar.
+    - **RoHS** — Beschränkung gefährlicher Stoffe. Alle elektronischen Zubehörteile (Pumpen mit Motor, LED-Zubehör) sind RoHS-konform. Board-Materialien sind von Natur aus konform.
+
+compliance_process:
+  tagline: So funktioniert Konformität in Ihrer Bestellung
+  title: 'Konformität im Onboarding-Ablauf'
+  subtitle: 'Konformität ist kein Zusatz — sie ist in jedes Gate des Onboarding-Prozesses integriert.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Gate 1: Umfangsbestätigung'
+      desc: 'Bei der Anfrage legen Sie die Zielmärkte fest. Wir bestätigen, welche Zertifizierungen, Prüfungen und Unterlagen für Ihr konkretes Produkt und Ihren Bestimmungsort gelten. Konformitätsumfang und eventuelle Kosten werden im Angebot aufgeschlüsselt.'
+    - icon: 2
+      icon_bg: green
+      title: 'Gate 3: Musterzertifizierung'
+      desc: 'Muster werden nach dem bestätigten Konformitätsumfang produziert. Für Labortests durch Dritte (CE, CPSIA, AS/NZS) koordinieren wir die Prüfung über akkreditierte Labore. Prüfberichte werden mit dem Muster geliefert.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Gate 7: Dokumentationspaket'
+      desc: 'Jede Produktionsbestellung wird mit einem Konformitätsdokumentationspaket versendet: Konformitätsbescheinigungen, Prüfberichte, Chargenrückverfolgungsaufzeichnungen, Material-Sicherheitsdaten und Kennzeichnungskonformität. Die Dokumentation ist marktspezifisch.'
+
+faqs:
+  tagline: FAQ
+  title: 'SUP-Konformität — Häufig gestellte Fragen'
+  items:
+    - q: 'Benötigen alle SUP-Boards eine CE-Kennzeichnung?'
+      a: 'Die CE-Kennzeichnung ist nur für Boards erforderlich, die im Europäischen Wirtschaftsraum verkauft werden. Wir zertifizieren Modelle für den EU-Markt mit pro Projekt bestätigtem Umfang. Boards für Nicht-EU-Märkte tragen keine CE-Kennzeichnung, es sei denn, Sie fordern sie ausdrücklich an.'
+    - q: 'Sind Ihre Materialien REACH- und RoHS-konform?'
+      a: 'Ja. Alle PVC-, Klebstoff- und Beschichtungsmaterialien sind REACH-konform. Alle elektronischen Zubehörteile (Pumpen mit Motor, LED-Zubehör) sind RoHS-konform. Board-Konstruktionsmaterialien sind von Natur aus RoHS-konform. Stoffdokumentation und Prüfberichte sind pro Charge auf Anfrage verfügbar.'
+    - q: 'Können Sie Zertifizierungen für einen hier nicht aufgeführten Markt übernehmen?'
+      a: 'Ja. Wir haben in über 50 Länder versendet und können Zertifizierung und Dokumentation für die meisten Märkte koordinieren. Nennen Sie uns Ihr Bestimmungsland bei der Anfrage, und wir bestätigen den konkreten Konformitätsumfang sowie eventuell erforderliche zusätzliche Prüfungen oder Unterlagen.'
+    - q: 'Wie werden Konformitätskosten gehandhabt?'
+      a: 'Konformitätsumfang und eventuelle Kosten (Labortests durch Dritte, Zertifizierungsgebühren) werden während der Machbarkeitsprüfung in Ihrem Angebot aufgeschlüsselt. Keine Konformitätskosten nach der Produktion. Standardzertifizierungen (ISO 9001, BSCI) gelten auf Fabrikebene und erzeugen keine Stückkosten.'
+
+cta:
+  title: 'Legen Sie Ihre Konformitätsanforderungen fest'
+  subtitle: 'Teilen Sie uns Ihre Zielmärkte mit, und wir bestätigen Zertifizierungsumfang, Prüfanforderungen und Dokumentationspaket — aufgeschlüsselt in Ihrem Angebot.'
+  actions:
+    - variant: primary
+      text: Projektbriefing starten
+      href: /contact#project-brief
+    - text: Zertifizierungen und Qualitätssystem verifizieren
+      href: /proof-center
+    - text: OEM-Onboarding-Prozess
+      href: /oem-onboarding-guide

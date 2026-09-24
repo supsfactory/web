@@ -1,0 +1,150 @@
+meta:
+  title: 'SUP-ODM-Hersteller | Individuelle Paddle-Board-Entwicklung & Design'
+  description: 'SUP-ODM-Hersteller in Qingdao, China — entwickeln Sie Ihr Paddle-Board aus einem Produkt-Briefing: hausinterne Rumpfkonstruktion, Technik, Prototypen in 7–12 Tagen und Produktion in 25–35 Tagen.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'SUP-ODM-Hersteller'
+    - 'ODM Inflatable SUP'
+    - 'individuelles Paddle-Board-Design'
+    - 'SUP-Produktentwicklung'
+    - 'Entwicklung von Paddle Boards'
+
+hero:
+  tagline: ODM-Fertigung
+  title: 'SUP-ODM-Hersteller — Produktdesign & -entwicklung'
+  subtitle: 'Sie brauchen kein fertiges SUP-Design. Starten Sie mit einem Produktkonzept, einer Marktanforderung oder einem Leistungsziel — unsere hausinternen Ingenieure konstruieren Rumpf, Struktur, Grafik und Verpackung nach Ihrem Briefing, prototypisieren in 7–12 Tagen und produzieren 25–35 Tage nach bestätigtem Auftrag.'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'SUPsfactory ist ein SUP-ODM-Hersteller in Qingdao, China. Die ODM-Entwicklung startet mit Ihrem Briefing, nicht mit Ihren Zeichnungen: Rumpfdesign (Länge, Breite, Rocker, Volumen), Materialstruktur und Grafik werden hausintern konstruiert, durch Prototypen-Muster in 7–12 Tagen validiert und in Standard-Mengen von 90–100 Einheiten pro 150-m-Rolle produziert (Pilot ab 20–50 Einheiten). Die Produktion dauert 25–35 Tage nach bestätigtem Auftrag und Anzahlung; der Formenbau für individuelle Formen addiert 15–20 Tage. CE-, ISO-9001-, BSCI-, REACH- und RoHS-Dokumentation wird mit jeder Bestellung geliefert.'
+  verified: 'September 2026'
+
+features:
+  title: ODM-Fähigkeiten
+  subtitle: 'Alles, was Sie erhalten, wenn das Design in der Fabrik entsteht — nicht an Ihrem Schreibtisch.'
+  items:
+    - title: Rumpfdesign
+      description: 'Länge, Breite, Dicke, Rocker und Volumen, konstruiert für Ihre Ziel-Fahrer, Einsatzzwecke und Märkte — von der leeren Seite oder aus unserer erprobten Plattformbibliothek.'
+      icon: 'tabler:waves'
+    - title: Strukturtechnik
+      description: 'Drop-stitch-Dichte, PVC-Lagenzahl und -qualität, Versteifungsplatzierung und Rail-Konstruktion — für Ihr Design spezifiziert und validiert.'
+      icon: 'tabler:building-factory'
+    - title: Grafik & Branding
+      description: 'Board-Deck-Grafik, Tubus-Branding, EVA-Pads und Handelsverpackungen, entwickelt von unserem Designteam rund um Ihre Marke.'
+      icon: 'tabler:palette'
+    - title: Formenentwicklung
+      description: 'Neue Rumpfformen starten als Formenbau, der hausintern konstruiert und gefräst wird — das Werkzeug addiert 15–20 Tage zum Projektzeitplan.'
+      icon: 'tabler:shapes'
+    - title: Prototyp-Validierung
+      description: 'Ein physischer Prototyp wird gebaut, getestet und mit Wassererprobung zu Ihrer Bewertung gesendet — in der Regel innerhalb von 7–12 Tagen.'
+      icon: 'tabler:tools'
+    - title: Prüfung & Konformität
+      description: 'Luftretention, Druckhalt und Nahtfestigkeit je Einheit, mit ISO-9001-, BSCI-, REACH-, RoHS- und CE-Konformitätsdokumentation für den Zielmarkt (Geltungsbereich projektbezogen bestätigt).'
+      icon: 'tabler:certificate'
+    - title: Optionen zum Formeneigentum
+      description: 'Formeneigentum oder Übernahme-Klauseln stehen im Vertrag — Ihr Design bleibt Ihr Eigentum, und die Formen stehen für Nachbestellungen bereit.'
+      icon: 'tabler:lock'
+    - title: Vom Prototyp zum Container
+      description: 'Ein validiertes ODM-Design geht direkt in die Standardmengenproduktion: 90–100+ Einheiten pro 150-m-Rolle, 25–35 Tage nach bestätigtem Auftrag.'
+      icon: 'tabler:package'
+
+customization:
+  tagline: Mit Ihnen gestaltet
+  title: Was wir rund um Ihr Briefing entwickeln
+  subtitle: 'ODM bedeutet, dass das Produkt für Sie von Grund auf oder aus unserer Plattformbibliothek entworfen wird — das sind die Stellschrauben, die Ihr Briefing steuert:'
+  items:
+    - 'Fahrerprofil und Markt — Einsteiger-, Touring-, Renn-, Yoga-, Angel- oder Mehrzweckpositionierung'
+    - 'Board-Maße — Länge, Breite, Dicke und Volumen, abgestimmt auf Ziel-Fahrer und Einsatzzweck'
+    - 'Rumpf-Charakter — Rocker, Rail-Profil, Nose- und Tail-Form, abgestimmt auf Stabilität oder Geschwindigkeit'
+    - 'Materialstruktur — Drop-stitch-Dichte, PVC-Lagenzahl und -qualität, Versteifungen und Rail-Verstärkungen'
+    - 'Grafik und Farben — Markenfarben, Deck-Grafik und Tubus-Branding, hausintern entwickelt'
+    - 'EVA-Antirutschpad — Layout, Farben und Logo-Integration über das Deck'
+    - 'Zubehörpaket — Paddel, Pumpen, Finnen, Leashes und Taschen, abgestimmt aufs Board'
+    - 'Verpackung & Handelsaufbereitung — Handelsverpackungen, Displays und Exportverpackung unter Ihrer Marke'
+
+faq_section:
+  tagline: FAQ
+  title: Fragen zur ODM-Entwicklung
+  questions:
+    - q: Wie unterscheidet sich ODM von OEM?
+      a: 'ODM (Original Design Manufacturing) startet mit Ihrem Briefing — unsere Ingenieure entwickeln Board-Struktur, Konstruktion, Grafik und Verpackung, sei es aus einem Marktkonzept, einem Leistungsziel oder einer Adaption einer erprobten Plattform. Sie geben das Design vor der Produktion frei. OEM (Original Equipment Manufacturing) fertigt nach Ihrer freigegebenen Spezifikation — Ihren Zeichnungen, Maßen, Materialien und Ihrer Verpackung. Sie besitzen Design und IP. Beide Wege laufen durch dieselbe Fabrik, dasselbe QC-System und dasselbe Exportteam; ODM ist der schnellste Weg zu einem gebrandeten Board, wenn Sie noch kein Design haben.'
+    - q: Ich habe nur eine grobe Idee — wo beginnen wir?
+      a: 'Senden Sie ein kurzes Briefing: Ziel-Fahrer, Einsatzzwecke, ungefähre Größe, Märkte und Mengen. Unsere Ingenieure kommen innerhalb eines Werktages mit einem Konzept, einer Referenzrichtung und einem Entwicklungsplan zurück — auf Wunsch wird vor jedem Detailaustausch eine NDA unterzeichnet.'
+    - q: Wie lange dauert die Entwicklung eines neuen SUP-Boards?
+      a: 'Prototyp-Muster gehen in 7–12 Tagen raus. Ein neuer Rumpf mit eigenem Formenbau addiert vor den Mustern 15–20 Tage Engineering. Die Produktion läuft 25–35 Tage nach Auftrag und Anzahlung.'
+    - q: Wie hoch ist der MOQ für ein ODM-Board?
+      a: 'Die Standardmengenproduktion läuft mit 90–100 Einheiten pro 150-m-Drop-stitch-Rolle; Pilotläufe starten bei 20–50 Einheiten auf bestehenden Plattformen. Kleinserien-Co-Branding startet bei 5–10 Einheiten — die volle Berechnung finden Sie in unserem MOQ- & Flexible-Branding-Leitfaden.'
+    - q: Wem gehören Design und Form?
+      a: 'Ihr Briefing, Ihr Design und Ihr Werkzeug sind durch NDA, Markenlizenzbedingungen und Formeneigentums- oder Übernahme-Klauseln im Vertrag geschützt. Die Formen bleiben für Ihre Marke erhalten und sind übertragbar.'
+    - q: Können Sie eine bestimmte Form entwickeln (Touring, Angeln, Rennen, Yoga)?
+      a: 'Ja. Die Rumpftechnik deckt alle wichtigen SUP-Kategorien ab — Allround, Touring, Rennen, Yoga, Angeln und Mehrpersonen-Boards — mit hydrodynamischer Testtank-Validierung für Performance-Formen.'
+    - q: Welche Zertifizierungen trägt das entwickelte Board?
+      a: 'ISO 9001:2015 Qualitätsmanagement (werksweit), BSCI Sozialcompliance (amfori-Fabrikaudit), CE-Konformitätsdokumentation für anwendbare EU-Marktkonfigurationen (Richtlinie für Sportboote — Geltungsbereich projektbezogen bestätigt), REACH (Materialien), RoHS (elektronisches Zubehör) und ISO 25649 für anwendbare Inflatable-SUP-Modelle. Die Zertifizierungsdokumente werden je Auftrag für Ihre Exportmärkte erstellt.'
+
+process:
+  title: 'Der ODM-Prozess — vom Briefing bis zur skalierten Produktion'
+  subtitle: 'Sechs kontrollierte Stufen, geführt vom selben Team, das Ihr Board konstruiert, bemustert und skaliert — alles bleibt dokumentiert.'
+  steps:
+    - phase: '01'
+      title: Briefing & Konzept
+      period: 1 Werktag
+      items:
+        - 'Teilen Sie Ziel-Fahrer, Einsatzzwecke, Größen, Märkte und Mengen — oder nur eine Idee.'
+        - 'Unsere Ingenieure liefern eine Konzeptrichtung, Plattformoptionen und einen Entwicklungsplan.'
+    - phase: '02'
+      title: Rumpf- & Strukturdesign
+      period: Woche 1–2
+      items:
+        - 'Board-Maße, Rumpfcharakter, Drop-stitch-Dichte und PVC-Struktur — hausintern konstruiert.'
+        - 'Grafik, EVA-Deck-Layout und Verpackungskonzept rund um Ihre Marke entwickelt.'
+    - phase: '03'
+      title: Formen & Werkzeug
+      period: +15–20 Tage (neue Formen)
+      items:
+        - 'Eigener Formenbau für neue Rumpfformen; bestehende Plattformen überspringen diese Stufe.'
+        - 'Die Formeneigentums-Bedingungen werden vor dem Frässtart im Vertrag fixiert.'
+    - phase: '04'
+      title: Prototyp & Muster
+      period: 7–12 Tage
+      items:
+        - 'Ein physischer Prototyp wird gebaut, getestet und zu Ihrer Bewertung gesendet — Wassererprobung inklusive.'
+        - 'Das Muster (1–2 Einheiten) validiert Form, Struktur und Branding vor der Menge.'
+    - phase: '05'
+      title: Validierung & Freigabe
+      period: Parallel
+      items:
+        - 'Luftretention, Druckhalt, Nahtfestigkeit, Last- und UV-Prüfungen je Produktionslinie.'
+        - 'CE-, ISO-9001-, BSCI-, REACH- und RoHS-Dokumentation für Ihre Exportmärkte erstellt.'
+        - 'Sie geben den Prototyp frei; Auftrag und Anzahlung sichern den Produktionsslot.'
+    - phase: '06'
+      title: Produktion & Lieferung
+      period: 25–35 Tage
+      items:
+        - 'Standardmengen laufen mit 90–100+ Einheiten pro 150-m-Rolle, Pilotläufe ab 20–50 Einheiten.'
+        - 'Exportverpackung, FOB-/CIF-/DDP-Versand in über 50 Länder und Nachbestell-Support inklusive.'
+
+geo:
+  tagline: Mit wem wir arbeiten
+  title: ODM-Partner in der gesamten SUP-Branche
+  sentence: 'ODM bei SUPsfactory verbindet Ihr Briefing mit denselben Ingenieuren, Designern und dem Produktionsteam, die Boards für diese Unternehmenstypen auf den Markt gebracht haben — hier ist, wen wir bedienen.'
+  audiences:
+    - 'SUP-Marken'
+    - 'Outdoor- & Wassersportunternehmen'
+    - 'Distributoren & Einzelhändler'
+    - 'Resorts, Clubs & Organisationen'
+
+cta:
+  title: 'Bereit, Ihr SUP-Board zu entwickeln?'
+  subtitle: 'Senden Sie Ihr Briefing — ein Konzept, Größen und Zielmärkte reichen zum Start. Technische Prüfung und Offerte innerhalb eines Werktages.'
+  actions:
+    - variant: primary
+      text: ODM-Projekt starten
+      href: /de/contact#custom-oem
+    - text: Die sechsstufige Produktentwicklungspipeline ansehen
+      href: /de/product-development
+    - text: Fabrik & Qualitätssystem verifizieren
+      href: /de/oem-trust-assurance
+    - text: MOQ- & Flexible-Branding-Leitfaden
+      href: /de/oem-moq-guide
+    - text: SUP-Konstruktionsvergleich
+      href: /de/sup-construction-comparison

@@ -1,0 +1,85 @@
+meta:
+  title: 'Produktionskapazität — 12,500 m² Fabrik | {SITE}'
+  description: 'Vatrad-Fabrikkapazität: 12,500 m² Anlage mit einer Jahresproduktion von über 120,000 SUP-Boards und Skalierungsmöglichkeiten. Großvolumige OEM/ODM-Fertigung aufblasbarer SUPs.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup production capacity'
+    - 'inflatable sup factory'
+    - 'paddle board production'
+    - 'sup factory china'
+hero:
+  tagline: Produktionskapazität
+  title: Fertigungskapazität & Jahresausstoß
+  subtitle: 12,500 m² Anlage mit einer Jahresproduktion von über 120,000 SUP-Boards mit Skalierungsspielraum
+
+answer:
+  label: 'Klare Antwort'
+  text: 'Fabrikkapazität: 12,500 m² in vier spezialisierten Werkstätten, über 120,000 SUP-Boards pro Jahr, über 350 Mitarbeiter in zwei Schichten, Export in über 50 Länder. MOQ wird per Projektkonfiguration bestätigt — Muster (1–2 Einheiten), Pilot (20–50 Einheiten) und Standardmenge (90–100+ Einheiten pro 150-m-Rolle); siehe unseren MOQ- & Flexible-Branding-Leitfaden für die vollständige Logik. Lieferzeit 25–35 Tage, Muster 7–12 Tage.'
+  verified: 'September 2026'
+
+intro: Vatrad betreibt eine der größten dedizierten Fertigungsanlagen für aufblasbare SUPs in Qingdao, China. Unsere 12,500 m² große Fabrik ist in vier spezialisierte, parallel arbeitende Werkstätten gegliedert. Die Jahres-SUP-Kapazität liegt bei über 120,000 aufblasbaren SUP-Boards (ca. 10,000 pro Monat), mit über 50,000 Rettungswesten und über 5,000 Zubehörteilen, die auf separaten Produktlinien gefertigt werden.
+
+highlights:
+  - value: 12,500 m²
+    label: Gesamte Produktionsfläche
+    detail: Über 4 spezialisierte Werkstätten
+  - value: 120,000+
+    label: Jahres-SUP-Kapazität
+    detail: Aufblasbare SUP-Boards, ca. 10,000/Monat
+  - value: 350+
+    label: Fachkräfte
+    detail: Über 25 Ingenieure, 2 Schichten/Tag
+  - value: 50+
+    label: Exportländer
+    detail: EU, USA, AU, Naher Osten, Asien
+  - value: 25–35
+    label: Standardlieferzeit (Tage)
+    detail: Nach bestätigter PO und Anzahlung
+  - value: 10+
+    label: Jahre Exporterfahrung
+    detail: Seit 2012
+
+workshops:
+  - title: SUP-Board-Produktion
+    description: '4 automatisierte Montagelinien für aufblasbare SUP-Boards mit einem kombinierten Ausstoß von ca. 10,000 Boards pro Monat. Digitaldruck- und Siebdruckstationen laufen parallel. Jahres-SUP-Kapazität: über 120,000 Boards.'
+    output: '120,000+ SUPs/Jahr'
+  - title: SUP-Board-Produktion — Erweiterungslinien
+    description: 'Zusätzliche automatisierte Montagelinien für SUP-Boards, die aktiviert werden, sobald das Volumen steigt. Drop-Stitch-Kernverklebung, Digitaldruck und Montagestationen laufen parallel.'
+    output: 'Teil der Jahreskapazität von über 120,000 SUP-Boards'
+  - title: SUP-Zubehör & gemischte Montage
+    description: 'Multifunktionale Montagelinien für SUP-Zubehör — Paddel, Finnen, Leashes, Taschen und Kits. Heißluftschweißstationen, HF-Dielektrikpressen und Montagearbeitsplätze werden je nach Auftragsmix umkonfiguriert. Jahres-Zubehörkapazität: über 5,000 Einheiten.'
+    output: '5,000+ Zubehörteile/Jahr'
+  - title: Sicherheitsausrüstung
+    description: 'Separater Reinraum-Produktionsbereich für Rettungswesten und Sicherheitsausrüstung. Eigene Näh-, Schaumeinlege- und Prüfstationen. Jahreskapazität Rettungswesten: über 50,000 Einheiten.'
+    output: '50,000+ Rettungswesten/Jahr'
+
+oem_capacity:
+  moq: 'SUP: Muster 1–2 | Pilot 20–50 | Menge 90–100+ (pro 150-m-Rolle)'
+  lead_time: 'Standard 25–35 Tage. Muster 7–12 Tage. Express verfügbar.'
+  payment: 'T/T 30 % Anzahlung + 70 % Restbetrag. L/C, Western Union akzeptiert.'
+
+lead_time_explainer:
+  tagline: 'Planung & Terminierung'
+  title: 'Wie Kapazität in Ihre Lieferung übersetzt wird'
+  subtitle: 'Kapazität ist keine einzelne Zahl — hier ist, wie Lieferzeiten tatsächlich zugeteilt werden.'
+  items:
+    - title: 'Die Kapazität variiert mit Ihrer Spezifikation'
+      body: 'Verfügbare Slots verschieben sich mit Boardtyp, Konstruktionskomplexität, Verpackung und saisonaler Nachfrage. Während des Frühjahrs-/Sommeraufbaus laufen Linien nahezu voll aus, und Musterslots sind zuerst ausgebucht.'
+    - title: 'Planen Sie vor Ihrer Markteinführungssaison'
+      body: 'Legen Sie Ihre Musterbestätigung und den Grafik-Freeze früh fest. Wiederholungsaufträge werden in Ihren vereinbarten Wiederholungsslot terminiert, sobald das Golden Sample archiviert ist.'
+    - title: 'Drei Terminierungsspuren'
+      body: 'Muster werden zuerst in die Prototypenlinie eingespeist, Erstaufträge landen im nächsten offenen Montagefenster, und Wiederholungsaufträge laufen in ihrem Wiederholungsslot.'
+    - title: 'Verbindliche Lieferzeiten nach Prüfung'
+      body: 'Wir bestätigen eine verbindliche Lieferzeit erst, nachdem Spezifikation, Grafik, Verpackung und Menge geprüft wurden — niemals als festes Versprechen im Voraus.'
+
+cta:
+  title: 'Produktionsverfügbarkeit für Ihr Launch-Datum prüfen'
+  subtitle: 'Senden Sie Boardtyp, Menge und Zielversandtermin — wir antworten mit dem nächsten offenen Produktionsfenster und einer verbindlichen Lieferzeitschätzung.'
+  actions:
+    - variant: primary
+      text: Verfügbarkeit prüfen
+      href: /contact#production-availability
+    - text: Die vollständige Fabrikübersicht ansehen
+      href: /factory
+    - text: Wie Boards gebaut werden
+      href: /factory/process

@@ -1,0 +1,46 @@
+meta:
+  title: 'Technologie — Drop-Stitch & Marine-PVC | {SITE}'
+  description: 'Vatrad-Technologien: Drop-Stitch-Konstruktion, Marine-PVC, doppellagige Aufbauten und hoher Druck. Innovation von einem professionellen Inflatable-SUP-Hersteller.'
+  dateModified: '2026-08'
+  keywords:
+    - 'SUP-Technologie'
+    - 'Drop-Stitch-Konstruktion'
+    - 'Hochdruck-SUP'
+    - 'Inflatable-SUP-Materialien'
+
+hero:
+  tagline: 'Technologie'
+  title: 'Für Leistung gebaut'
+  subtitle: 'Jedes Vatrad-Inflatable-SUP ist mit Drop-Stitch-Konstruktion und Marine-PVC gefertigt — präzise Materialien und Fertigungsmethoden, die für anspruchsvolle Meeresumgebungen getestet wurden.'
+
+sections:
+  - title: 'Drop-Stitch-Kern'
+    description: 'Tausende interne Polyesterfäden verbinden die Ober- und Unterschicht und erzeugen eine steife Struktur bei 12–15 PSI. Dies ist dieselbe Technologie, die in professionellen Paddelbrettern und aufblasbaren Racing-SUPs verwendet wird.'
+    imageAlt: 'Drop-Stitch-Kern-Diagramm'
+  - title: 'Marine-PVC'
+    description: 'Mehrschichtiges, laminiertes PVC-Gewebe, das für Meeresumgebungen ausgelegt ist. Jede Schicht wird verschweißt und nicht geklebt, wodurch Delaminationsrisiken entfallen. Getestet auf UV-Beständigkeit, Salzwasserkorrosion und Abrieb.'
+    imageAlt: 'PVC-Schicht'
+  - title: 'PVC in Militärqualität'
+    description: 'Das auf allen SUP-Modellen verwendete Premium-PVC bietet überlegene UV- und Chemikalienbeständigkeit. Bleibt bei extremen Temperaturen flexibel und widersteht Alterung.'
+    imageAlt: 'PVC'
+  - title: 'Air-Deck-Floor'
+    description: 'Druckluft-Drop-Stitch-Konstruktion für außergewöhnliche Steifigkeit beim Stehen, Angeln und Yoga. Reduziert Aufbauzeit, Gesamtgewicht und Stauvolumen.'
+    imageAlt: 'Air-Deck'
+
+related:
+  title: 'Verwandte Themen'
+  links:
+    - text: F&E-Zentrum
+      url: /randdcenter
+    - text: Qualitätsprüfung
+      url: /quality
+    - text: Sicherheitsstandards
+      url: /quality
+    - text: Garantie
+      url: /warranty
+    - text: Tourismus & Freizeit
+      url: /tourism-recreation
+    - text: Ratgeber
+      url: /knowledge
+    - text: Produkte
+      url: /products

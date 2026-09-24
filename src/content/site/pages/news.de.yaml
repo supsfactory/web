@@ -1,0 +1,14 @@
+meta:
+  title: 'News — SUP-Hersteller & Nautik-Updates | {SITE}'
+  description: 'Aktuelles von Vatrad: Werks-Updates, neue Inflatable-SUP-Modelle, Zertifizierungen und Meldungen aus der Nautik-Branche.'
+  keywords:
+    - 'sup-hersteller news'
+    - 'Vatrad updates'
+    - 'ankündigungen inflatable sup'
+    - 'nautik-branchen news'
+hero_text:
+  tagline: ''
+  title: News
+  subtitle: Aktuelles von Vatrad —Produkteinführungen, Unternehmens-Updates, Ratgeber und Geschichten vom Wasser
+news_list:
+  limit: 100

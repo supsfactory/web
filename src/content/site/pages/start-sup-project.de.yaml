@@ -1,0 +1,114 @@
+meta:
+  title: 'Starten Sie Ihr SUP-Projekt — Vom Briefing bis zu gelieferten Boards | SUPsfactory'
+  description: 'Starten Sie Ihr individuelles SUP-Projekt: Briefing einreichen, NDA-Schutz erhalten, Muster in 7–12 Tagen bekommen, freigeben und zur Produktion skalieren. Schritt für Schritt mit Zeitplänen.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'SUP-Projekt starten'
+    - 'individuelle SUP-Bestellung'
+    - 'SUP-Projektbriefing'
+    - 'OEM-SUP-Projekt'
+    - 'individuelle Paddelboard-Bestellung'
+    - 'SUP-Fertigungsprojekt'
+    - 'aufblasbares SUP-Projekt'
+
+hero:
+  tagline: 'Hier beginnen'
+  title: 'Starten Sie Ihr SUP-Projekt'
+  subtitle: 'Ob Sie eine neue Marke launchen, eine Produktlinie erweitern oder markierte Boards für Ihren Betrieb beschaffen möchten — jedes Projekt beginnt gleich: mit einem Projektbriefing, einer NDA, einem Muster und einem klaren Weg zur Produktion. Hier erfahren Sie, was nach dem Klick auf „Start" passiert.'
+  actions:
+    - variant: primary
+      text: Projektbriefing beginnen
+      href: /contact#project-brief
+    - text: So funktioniert der Prozess
+      href: /how-it-works
+
+answer:
+  label: 'Was als Nächstes passiert'
+  text: 'Nachdem Sie ein Projektbriefing eingereicht haben, erhalten Sie innerhalb eines Werktags eine Antwort. Vor der Weitergabe vertraulicher Details ist eine NDA verfügbar. Engineering prüft Ihr Briefing und liefert ein aufgeschlüsseltes Angebot mit MOQ, Mustergebühren und einem stufenweisen Zeitplan — in der Regel 7–12 Tage für Muster und 6–8 Wochen für die erste Produktion ab bestätigter PO. Mustergebühren werden auf Ihre Produktionsbestellung angerechnet. Keine Verbindlichkeit, bis Sie unterschreiben.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: Der Prozess
+  title: 'Vom Briefing zu gelieferten Boards — fünf Schritte'
+  subtitle: 'Jeder Schritt hat einen definierten Zeitrahmen, ein dokumentiertes Ergebnis und einen Go/No-Go-Meilenstein. Sie gehen nur dann weiter, wenn Sie bereit sind.'
+  steps:
+    - step: 'Schritt 1'
+      title: 'Reichen Sie Ihr Projektbriefing ein'
+      desc: 'Erzählen Sie uns von Ihrem Board — Ziel-Spezifikationen, Stückzahl, Konformitätsanforderungen und Zeitplan. Das Briefing dauert 5–10 Minuten. Wenn Sie sich bei jedem Detail nicht sicher sind, teilen Sie, was Sie haben, und wir führen Sie durch den Rest. Eine NDA ist verfügbar, bevor Sie vertrauliche Designs teilen.'
+    - step: 'Schritt 2'
+      title: 'NDA & Machbarkeitsprüfung (1–5 Tage)'
+      desc: 'Wir unterzeichnen auf Wunsch eine NDA, anschließend prüft Engineering Ihr Briefing gegen Fertigungskapazität, Materialverfügbarkeit und Konformitätsscope. Sie erhalten ein aufgeschlüsseltes Angebot mit MOQ-Berechnung, Mustergebühren und einem stufenweisen Zeitplan.'
+    - step: 'Schritt 3'
+      title: 'Muster & Freigabe (7–21 Tage)'
+      desc: '1–2 physische Boards nach Ihrer Spezifikation. Sie paddeln und bewerten — Rumpfsteifigkeit, Grafikgenauigkeit, Zubehörpassung. Änderungen werden in einer überarbeiteten BOM erfasst. Das freigegebene Muster wird zur Produktionsreferenz. Mustergebühren werden auf die Produktion angerechnet.'
+    - step: 'Schritt 4'
+      title: 'Vorproduktionsplanung (7 Tage)'
+      desc: 'Materialbeschaffung, Werkzeugaufbau, Verpackungsbestätigung und Reservierung des Produktionsslots. Alle Materialien werden gegen die eingefrorene BOM eingangsgeprüft. Ein Produktionsplan mit QC-Gate-Terminen wird vor Produktionsbeginn ausgegeben.'
+    - step: 'Schritt 5'
+      title: 'Produktion, QC & Versand (4–6 Wochen)'
+      desc: 'Die Fertigung läuft durch das 7-stufige Inspektions-Gate-System mit Bestanden/Nicht-bestanden-Kriterien an jedem Gate. Exportgerechte Verpackung, Konformitätsdokumentation und Seefrachtkoordination in über 50 Länder. Eine Nachlieferanalyse erfasst Verbesserungen für die nächste Bestellung.'
+
+collaboration_types:
+  tagline: Wählen Sie Ihren Weg
+  title: 'Drei Möglichkeiten der Zusammenarbeit mit SUPsfactory'
+  subtitle: 'Jedes Projekt durchläuft denselben Prozess — was sich ändert, ist der Engineering-Umfang und die IP-Eigentümerschaft.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM-Fertigung'
+      desc: 'Sie liefern das Design. Wir fertigen nach Ihrer Spezifikation. Sie besitzen das gesamte IP. Ideal für Marken mit bewährter Boardgeometrie.'
+      link_label: 'OEM-Details ansehen'
+      href: /oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM-Entwicklung'
+      desc: 'Sie liefern das Briefing. Wir entwickeln das Board. Adaptierte Plattform mit Ihrem Branding. Ideal für Marken, die ohne hauseigenes Design in den Markt eintreten.'
+      link_label: 'ODM-Details ansehen'
+      href: /odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Ihre Marke auf einer bewährten Plattform. Keine Engineering-Phase. Schon ab 5–10 Einheiten. Ideal für Betreiber und Distributoren.'
+      link_label: 'Private-Label-Optionen ansehen'
+      href: /solutions/private-label-sup
+
+what_we_need:
+  heading: 'Was Sie vor Ihrem Briefing vorbereiten sollten'
+  body: |
+    Ein vollständiges Briefing beschleunigt den Prozess. Das hilft:
+
+    - **Board-Spezifikationen** — Ziellänge, -breite, -dicke, Fahrergewicht, Einsatzzweck. Referenzmaße von Boards oder Konkurrenzmodelle sind hilfreich.
+    - **Designdateien** — Vektorgrafiken (AI, SVG, PDF) für Grafiken und Logos. Falls noch nicht fertig, reichen Moodboards oder Referenzbilder für die erste Machbarkeit.
+    - **Menge & Zeitplan** — Zielstückzahl und Saisonplan. Schon ein grober Rahmen („20–50 Boards bis März") reicht zum Start.
+    - **Konformitätsanforderungen** — Zielmärkte und spezifische Zertifizierungsanforderungen über CE, ISO 9001, BSCI, REACH, RoHS hinaus.
+    - **Budgetrahmen** — Ein indikatives Budget pro Board oder ein Ziel-Landed-Cost hilft uns, die richtige Plattform zu empfehlen.
+
+    **Noch nicht alles bereit?** Reichen Sie ein, was Sie haben. Wir führen Sie durch den Rest.
+
+faqs:
+  tagline: FAQ
+  title: 'Ein SUP-Projekt starten — Häufig gestellte Fragen'
+  items:
+    - q: 'Wie hoch ist die Mindestbestellung zum Start?'
+      a: 'Der Einstieg ist gestaffelt: zuerst 1–2 Muster (7–12 Tage), dann eine Probebestellung von 20–50 Boards (25–35 Tage), danach Standard-Serienläufe von 90–100+ Boards pro freigegebener Konfiguration. Private-Label-Co-Branding startet ab 5–10 Einheiten ohne Entwicklungsphase.'
+    - q: 'Wie lange dauert es, Muster zu erhalten?'
+      a: 'Physische Muster werden in 7–12 Tagen ab bestätigter Spezifikation und Anzahlung produziert. Mit bestehenden Rumpfplattformen dauert der vollständige Zyklus vom Briefing bis zur gelieferten Probebestellung in der Regel 8–12 Wochen. Ein individueller Rumpf ergänzt 15–20 Tage Formentwicklung.'
+    - q: 'Ist mein Design geschützt?'
+      a: 'Ja. Eine NDA ist sofort verfügbar — bevor Sie vertrauliche Informationen teilen. Wir fertigen ausschließlich unter den Marken unserer Kunden und konkurrieren nie mit ihnen. Alle technischen Dateien werden in zugriffskontrollierten Systemen mit Audit-Trails gespeichert.'
+    - q: 'Was fragt das Projektbriefing-Formular ab?'
+      a: 'Das Briefing fragt nach Geschäftstyp, Firmenname, Ziel-Board-Spezifikationen, Bestellmengenrahmen, Zeitplan und eventuellen Konformitätsanforderungen. Es dauert etwa 5–10 Minuten. Sie können Designdateien (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) bis 10 MB anhängen. Wenn Sie bei einem Feld unsicher sind, überspringen Sie es — wir melden uns.'
+    - q: 'Was passiert, nachdem ich das Briefing eingereicht habe?'
+      a: 'Sie erhalten innerhalb eines Werktags eine Antwort. Engineering prüft Ihr Briefing und liefert ein aufgeschlüsseltes Angebot mit MOQ, Mustergebühren und einem stufenweisen Zeitplan. Keine Verbindlichkeit entsteht, bis Sie den Vertrag geprüft und unterschrieben haben. Mustergebühren werden auf Ihre Produktionsbestellung angerechnet.'
+
+cta:
+  title: 'Bereit zu starten?'
+  subtitle: 'Reichen Sie Ihr Projektbriefing ein — Board-Spezifikationen, Menge und Zeitplan — und wir bestätigen die Machbarkeit, produzieren Muster und liefern einen Produktionsplan mit dokumentierter QC in jedem Schritt.'
+  actions:
+    - variant: primary
+      text: Projektbriefing beginnen
+      href: /contact#project-brief
+    - text: Vollständigen Onboarding-Leitfaden lesen
+      href: /oem-onboarding-guide
+    - text: Fabrik- & Qualitätssystem verifizieren
+      href: /proof-center

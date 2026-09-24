@@ -1,0 +1,111 @@
+meta:
+  title: 'Wissen — Inflatable SUP & OEM-Ratgeber | {SITE}'
+  description: 'Vatrad-Wissensdatenbank: Ratgeber zu aufblasbaren SUPs, Paddle-Board-Materialien, Board-Auswahl und Branchen-Insights für Marken und Profis.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup-wissen'
+    - 'ratgeber aufblasbares sup'
+    - 'paddle board materialien'
+    - 'sup-branchen-insights'
+hero:
+  tagline: 'Wissenszentrum'
+  title: 'SUP-Wissenszentrum'
+  subtitle: |
+    Eine strukturierte Wissensdatenbank rund um aufblasbare SUP-Technologie, 
+    Wassersicherheit, Board-Engineering und Abenteuerplanung.
+  taglineSection: 'Entdecken. Lernen. Mit Zuversicht aufs Wasser.'
+
+clusters:
+  tagline: 'Wissens-Cluster'
+  title: 'Nach Thema erkunden'
+  subtitle: 'Ausführliche Einblicke in die Technologie, Sicherheit und Fähigkeiten hinter jedem Vatrad-Produkt.'
+  items:
+    - title: 'SUP-Kaufratgeber'
+      description: 'Von der Wahl Ihres ersten Boards bis zu fortgeschrittenen Touren-Techniken — alles rund um das Stand-up-Paddeln.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'So wählen Sie Ihr erstes aufblasbares SUP'
+        - 'SUP-Größenratgeber und Gewichtsklassifizierung'
+        - 'Bestes SUP für Einsteiger, Touren, Yoga und Rennen'
+        - 'Häufige SUP-Kauffehler, die Sie vermeiden sollten'
+        - 'Vergleich aufblasbar vs. hartes Board'
+    - title: 'SUP-Engineering & Technologie'
+      description: 'Technische Ratgeber zu aufblasbaren SUP-Boards — Materialien, Bauweisen und Fertigungsprozesse.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Drop-stitch-Technologie im Detail'
+        - 'PVC-Spezifikationen in Militärqualität'
+        - 'Fusion-Laminierung vs. Klebeverbindung'
+        - 'EVA-Schaum-Technologie und Gestaltungsverfahren'
+        - 'SUP-Ventiltypen und Fin-Systeme'
+    - title: 'SUP-Sicherheit & Wartung'
+      description: 'Wichtiges Sicherheitswissen für jeden Paddler — von der Auswahl der Schwimmweste bis zur Wetterkunde sowie Pflege und Reparatur des Boards.'
+      icon: 'tabler:shield'
+      topics:
+        - 'SUP-Sicherheitscheckliste und Anforderungen an Schwimmwesten'
+        - 'Mehrkammer-Sicherheit für abgelegene Gewässer'
+        - 'SUP-Aufblasdruck-Ratgeber (PSI)'
+        - 'Board-Lagerung und Pflege im Winter'
+        - 'Reparaturtechniken für aufblasbare Boards'
+    - title: 'SUP-Techniken & Skills'
+      description: 'Paddeltechniken, Touring-Fähigkeiten und Fitnesstraining für alle Könnensstufen.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Paddeltechniken für Einsteiger'
+        - 'Fortgeschrittene Paddeltechniken für den Schlag'
+        - 'Planung von Touren und Expeditionen'
+        - 'SUP-Fitness- und Renntraining'
+        - 'Fähigkeiten für Wildwasser und Flussfahrten'
+    - title: 'SUP-Lifestyle & besondere Einsatzbereiche'
+      description: 'Spezialisierte SUP-Aktivitäten — Yoga, Angeln, Hunde, Familien und Reisetipps.'
+      icon: 'tabler:heart'
+      topics:
+        - 'SUP-Yoga und Meditation auf dem Wasser'
+        - 'Angeln vom aufblasbaren SUP'
+        - 'Paddeln mit Hunden und Kindern'
+        - 'Reisen mit dem SUP: Flugzeug und Auto'
+        - 'SUP-Zubehör und wichtige Ausrüstung'
+    - title: 'SUP-Vergleiche & Referenzen'
+      description: 'Direkte Vergleiche, die Ihnen helfen, fundierte Entscheidungen zu treffen.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'SUP vs. Kajak — was passt zu Ihnen?'
+        - 'Materialvergleich PVC vs. Hypalon'
+        - 'Sicherheit: Einzelkammer vs. Mehrkammer'
+        - 'SUP-Board-Materialien erklärt'
+        - 'UV-Druck vs. EVA-Block-Gestaltung'
+
+featured_guides:
+  tagline: 'Ausgewählte Ratgeber'
+  title: 'Beliebteste Wissensressourcen'
+  items:
+    - title: 'SUP-Grundlagen'
+      href: '/de/knowledge'
+    - title: 'Inflatable vs. Hard Board'
+      href: '/de/inflatable-vs-hardboard'
+    - title: 'Wassersicherheits-Ratgeber'
+      href: '/de/guides/safety-tips'
+    - title: 'Material-Referenz'
+      href: '/de/knowledge'
+    - title: 'SUP-Kaufratgeber'
+      href: '/de/guides/how-to-choose-your-sup'
+    - title: 'SUP-Größenratgeber'
+      href: '/de/size-guide'
+    - title: 'SUP-Technologie-Zentrum'
+      href: '/de/technology'
+    - title: 'SUP-Pflege'
+      href: '/de/knowledge'
+    - title: 'Touren-Ratgeber'
+      href: '/de/products/touring'
+    - title: 'Paddeltechniken'
+      href: '/de/knowledge'
+
+cta:
+  title: 'Jetzt erkunden'
+  subtitle: 'Tauchen Sie in unsere Wissensdatenbank ein und holen Sie sich alle Informationen für Ihr nächstes Wasserabenteuer.'
+  actions:
+    - variant: primary
+      text: 'Alle Ratgeber ansehen'
+      href: '/de/knowledge'
+    - text: 'Wissensdatenbank erkunden'
+      href: '/de/knowledge'

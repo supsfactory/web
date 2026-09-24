@@ -1,0 +1,166 @@
+meta:
+  title: 'OEM-Vertrauen & Fabrik-Sicherheit —Verifizieren Sie unsere Fabrik vor Ihrer Bestellung'
+  description: 'Wie Käufer SUPsfactory vor der Bestellung verifizieren: offizielle Registrierung, Fabrikaudits, Ingenieure unter NDA und Drittprüfungen (SGS/TÜV/BV/Intertek).'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'Verifizierung der SUP-OEM-Fabrik'
+    - 'SUP-Hersteller verifizieren'
+    - 'SUP-Fabrikaudit China'
+    - 'Inflatable-SUP-Fabrik Qingdao'
+    - 'OEM-Vertrauenssicherung'
+    - 'Referenzen des SUP-Herstellers'
+
+hero:
+  tagline: 'Fertigung, die Sie verifizieren können'
+  title: 'OEM-Vertrauen & Fabrik-Sicherheit'
+  subtitle: 'Jede Aussage auf dieser Website lässt sich verifizieren: offizielle Unternehmensregistrierung, eine physische 12,500 m² große Fabrik, die Sie besuchen oder auditieren können, echte Ingenieure unter NDA, herunterladbare QMS-Dokumente und je Seriennummer erfasste Testdaten. Konstruiert und betrieben von der Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Vertrauen ist kein Versprechen — es ist Dokumentation. Wir sind ein registriertes chinesisches Fertigungsunternehmen (Qingdao Vatrad Group Co., Ltd.) mit einer physischen 12,500 m² großen Anlage in Qingdao, 350+ Mitarbeitern und 120.000+ Boards Jahreskapazität. Sie können die Registrierung verifizieren, die Fabrik auditieren, QMS-SOPs prüfen, Beispiel-Qualitätsaufzeichnungen herunterladen, Drittprüfungen terminieren (SGS, TÜV, BV oder Intertek) und innerhalb von 4 Geschäftsstunden eine NDA unterzeichnet bekommen. Jedes Board wird 24 Stunden bei 18,0 PSI druckgetestet mit automatischer Aussortierung über 0,50 PSI Abfall, und jede Charge behält eine 10-jährige ERP-Rückverfolgbarkeit. Wenn eine Aussage nicht dokumentierbar ist, machen wir sie nicht.'
+  verified: 'September 2026'
+
+trust_stats:
+  - value: '12,500 m²'
+    label: Werksfläche
+    detail: 4 Spezialwerkstätten, offen für Audits
+  - value: '350+'
+    label: Mitarbeiter vor Ort
+    detail: 25+ Ingenieure in F&E, Materialien und QC
+  - value: '120,000+'
+    label: Jährlich produzierte Boards
+    detail: 10.000 Boards/Monat auf 4 automatisierten Linien
+  - value: '4 Stunden'
+    label: NDA-Bearbeitungszeit
+    detail: Standard-NDA innerhalb von 4 Geschäftsstunden unterzeichnet
+  - value: '7-stufig'
+    label: Qualitäts-Torsystem
+    detail: Node 01–7, je Seriennummer erfasst
+  - value: '18.0 PSI'
+    label: 100% Drucktest
+    detail: 24 Std. Halt, automatische Aussortierung über 0,50 PSI Abfall
+
+role_boundary:
+  tagline: 'Was wir sind — und was wir nicht sind'
+  title: 'Eine Fabrik, die Sie verifizieren können, nie eine Aussage, die Sie glauben müssen'
+  subtitle: 'Der Verifizierungsunterschied zwischen einer Fabrik und einem Handelsbüro ist einfach: hinter jeder Aussage steht ein Dokument, eine Person oder eine Maschine.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: 'Was wir sind — ein verifizierbarer Hersteller'
+      desc: '· Eine registrierte juristische Person: Qingdao Vatrad Group Co., Ltd. — Registrierungsdetails werden unter NDA oder beim Audit geteilt · Eine physische Fabrik: 12,500 m² in der Wirtschaftsentwicklungszone Laixi, Qingdao, mit 4 Spezialwerkstätten, 350+ Mitarbeitern und 4 automatisierten Linien · Ein Fertigungsteam: Die Personen, die Ihre Fragen beantworten, sind die Personen, die Ihre Boards bauen · Echte Dokumente: QMS-SOPs, Prüfstandards und anonymisierte Qualitätsaufzeichnungen zum Download · Unabhängige Verifizierung willkommen: SGS-, TÜV-, BV- oder Intertek-Prüfungen Ihrer Wahl, nach ISO 2859-1 Level II'
+      link: '/de/factory'
+      link_label: 'Die Fabrikseite besuchen'
+    - icon: B
+      icon_bg: green
+      title: 'Was wir nicht sind — das Handelsbüro-Profil'
+      desc: '· Kein Handelsunternehmen: Wir leiten Ihren Auftrag nicht an eine Drittfabrik weiter und rechnen keine Makleraufschläge ab · Keine eigene Marke auf Ihren Boards: Sie besitzen die Marke, den Markt und den Kunden · Keine vagen Mindestmengen: Der MOQ wird aus der Rollenphysik des Rohmaterials berechnet und projektspezifisch bestätigt · Keine Zertifikate „nur auf Anfrage": Die Liste ist veröffentlicht, Audit-Aufzeichnungen können eingesehen werden · Keine rein mündlichen Aussagen: Testdruck, Schwellenwerte und Chargenrückverfolgbarkeit sind je Seriennummer dokumentiert'
+      link: '/de/oem-moq-guide'
+      link_label: 'Den transparenten MOQ-Leitfaden ansehen'
+
+trust_steps:
+  tagline: 'Eine reale Fallstudie'
+  title: 'Wie eine nordeuropäische Verleihflotte uns vor der Bestellung verifizierte'
+  subtitle: 'Sieben Verifizierungsschritte, die ein gewerblicher Verleiher vor einer Flottenbestellung von 90–100+ Einheiten durchführte — dieselbe Checkliste steht Ihnen offen.'
+  steps:
+    - step: '01'
+      title: 'Verifizierung der offiziellen Entität'
+      desc: 'Der Käufer forderte die chinesische Gewerberegistrierung und die Exporthandelslizenz an. Die juristische Person hinter SUPsfactory ist die Qingdao Vatrad Group Co., Ltd., ein seit 2012 in Qingdao, Shandong registrierter Hersteller — über das nationale Register unter NDA verifiziert.'
+    - step: '02'
+      title: 'Physische Fabrik & Standortaudit'
+      desc: 'Ein Fabrikaudit (persönlich und per Video-Durchgang) bestätigte die 12,500 m² große Anlage: vier Spezialwerkstätten, 350+ Mitarbeiter, vier automatisierte Linien und eine Monatsproduktion von etwa 10.000 Boards. Der Auditbericht wird zu den Vertragsunterlagen abgelegt.'
+    - step: '03'
+      title: 'Menschen: echte Ingenieure, keine Vertriebskripte'
+      desc: 'Der Käufer sprach direkt mit dem Technikteam — Rumpfdesign, Materiallabor und QC. Projektspezifikation und NDA wurden innerhalb von 4 Geschäftsstunden ausgetauscht, und eine technische Prüfung kam innerhalb eines Werktages zurück.'
+    - step: '04'
+      title: 'Papier: QMS, Zertifikate & Drittprüfung'
+      desc: 'ISO-9001:2015-, ISO-25649- und CE-Konformitätsdokumentation, BSCI/REACH/RoHS-Aufzeichnungen und die QMS-SOPs wurden geprüft. Der Käufer terminierte eine SGS-Vorversandprüfung nach ISO 2859-1 Level II für den ersten Mengenauftrag — und erhielt pro Charge ein Konformitätszertifikat (Certificate of Conformance).'
+    - step: '05'
+      title: 'Daten: Testaufzeichnungen je Seriennummer'
+      desc: 'Der Käufer prüfte echte Testaufzeichnungen: jede Kammer 24 Stunden bei 18,0 PSI getestet mit automatischer Aussortierung über 0,50 PSI Druckabfall, 100-Punkte-Montagechecklisten und 10-jährige ERP-Chargenrückverfolgbarkeit. Beispiel-QC-Aufzeichnungen wurden vor der Bestellung bereitgestellt.'
+    - step: '06'
+      title: 'Vertragsschutz'
+      desc: 'Der Auftragsvertrag deckte Markenlizenzierung, eine vereinbarte territoriale Exklusivitätsdauer, Formeneigentum und Übernahmebedingungen sowie die mit den Werkzeugen zu übergebenden Daten und Aufzeichnungen ab. Der Käufer gab die Form vor der Produktion in der Fabrik frei.'
+    - step: '07'
+      title: 'Laufende Governance'
+      desc: 'Vierteljährliche Geschäftsbesprechungen mit dem Vertriebs-VP und dem Chefingenieur, ein vorbehaltenes Auditrecht während der Produktion und ein Eskalationspfad zum QA-Direktor bei Qualitätsstreitigkeiten. Die Vereinbarung wurde vom Vertriebs-VP, dem Chefingenieur und dem QA-Direktor gemeinsam unterzeichnet.'
+
+trust_faqs:
+  tagline: 'FAQ'
+  title: 'Die 12 Bedenken, die Käufer vor der Bestellung stellen'
+  items:
+    - q: 'Ist SUPsfactory wirklich eine Fabrik oder ein Handelsunternehmen?'
+      a: 'SUPsfactory ist die SUP-Produktentwicklungs- und Fertigungsdivision der Qingdao Vatrad Group Co., Ltd. Wir betreiben die 12,500 m² große Anlage in Qingdao selbst — Design, Zuschnitt, Schweißen, Montage und Prüfung finden in einer Einrichtung statt. Es gibt keine Übergaben über Handelsunternehmen: Die Personen, die Ihre Fragen beantworten, sind die Personen, die Ihre Boards bauen.'
+    - q: 'Mit wem werde ich während meines Projekts konkret zu tun haben?'
+      a: 'Mit einem benannten Projektingenieur und einem benannten QC-Ansprechpartner sowie den Abteilungsleitern, die Ihre Dokumente unterzeichnen. Sie können direkt mit dem Chefingenieur, dem QA-Direktor oder dem Werksleiter sprechen — vor und nach der Bestellung. Zwischen Ihnen und den ausführenden Personen sitzt keine Account-Manager-Ebene.'
+    - q: 'Kann ich die Fabrik besuchen oder auditieren?'
+      a: 'Ja. Wir empfangen Fabrikbesuche in der Wirtschaftsentwicklungszone Laixi, Qingdao und unterstützen Remote-Audits mit Live-Video-Durchgängen. Audits können unabhängig organisiert werden (durch Ihren Prüfer oder einen Dritten wie SGS, TÜV, BV oder Intertek), und der Auditplan kann in den Vertrag aufgenommen werden.'
+    - q: 'Unterzeichnen Sie vor dem Teilen meines Designs eine NDA?'
+      a: 'Ja. Unsere Standard-NDA wird innerhalb von 4 Geschäftsstunden nach Ihrer Anfrage unterzeichnet, bevor eine proprietäre Spezifikation, Artwork oder technische Datei geteilt wird. Zweisprachige Fassungen (Englisch/Chinesisch) sind verfügbar, und das Dokument wird vom Werksleiter gegengezeichnet.'
+    - q: 'Woher weiß ich, dass Ihre Qualitätsaussagen real sind?'
+      a: 'Hinter jeder Aussage auf dieser Website steht ein Dokument: QMS-SOPs und Prüfstandards sind herunterladbar, anonymisierte Qualitätsaufzeichnungs-Muster sind veröffentlicht, und Testdaten werden je Seriennummer mit 10-jähriger ERP-Chargenrückverfolgbarkeit protokolliert. Sie können auch eine Dritt-Vorversandprüfung Ihrer Wahl terminieren.'
+    - q: 'Was passiert, wenn meine Boards mit Mängeln ankommen?'
+      a: 'Jedes Board wird vor der Verpackung geprüft, und Chargenaufzeichnungen ermöglichen die Ursachenanalyse je Seriennummer. Der Vertrag definiert Prüf-, Ersatz- und Nacharbeitspflichten, und der QA-Direktor unterzeichnet die Chargenfreigabe. Nachgearbeitete Boards werden vollständig erneut geprüft — nie nur teilweise kontrolliert.'
+    - q: 'Können Sie wirklich 100% der Boards vor dem Versand testen?'
+      a: 'Ja — und die Aufzeichnungen belegen es. Jede Kammer wird auf 18,0 PSI aufgepumpt und mit kontinuierlicher Sensorprotokollierung 24 Stunden gehalten; jede Kammer mit einem Druckabfall über 0,50 PSI über 24 Stunden wird automatisch aussortiert und neu geprüft. Testprotokolle sind mit jeder Seriennummer verknüpft und Teil der Chargendokumentation.'
+    - q: 'Welche Zertifizierungen besitzen Sie tatsächlich?'
+      a: 'ISO 9001:2015 Qualitätsmanagement, ISO 25649- und CE-Konformität für Inflatable-SUP-Produkte sowie BSCI-, REACH- und RoHS-Konformität für Einrichtung und Materialien. Zertifikatsnummern und Audit-Aufzeichnungen werden auf Anfrage oder bei einem Audit bereitgestellt — die Liste ist veröffentlicht, nicht „nur auf Anfrage verfügbar".'
+    - q: 'Ist meine Marke sicher — Design, Formen und Markt?'
+      a: 'Ja. Ihre Marke, Ihre Designs und Ihr Werkzeug sind durch NDA, Markenlizenzbedingungen und Formeneigentums- oder Übernahmeklauseln im Vertrag geschützt. Das Werkzeug wird für die Marke aufbewahrt und ist übertragbar. Territorial- und Exklusivitätsbedingungen werden vor Produktionsbeginn schriftlich vereinbart.'
+    - q: 'Wie hoch ist Ihr tatsächlicher MOQ?'
+      a: 'Der MOQ ist projektspezifisch und in unserem MOQ-Leitfaden erläutert: Muster 1–2 Einheiten, Co-Branding-Kleinserie 5–10 Einheiten, Pilotchargen 20–50 Einheiten und Standardmenge 90–100+ Einheiten pro 150-m-Rolle (ca. 180–220 Boards). Formen für eigene Formen laufen auf der Mengenstufe. Die Berechnung wird vor dem Angebot bestätigt — keine vagen „Low-MOQ"-Zahlen.'
+    - q: 'Was passiert, wenn die Produktion zu spät kommt?'
+      a: 'Die Lieferzeit wird nach Prüfung von Spezifikation, Artwork und Verpackung bestätigt — nie vorher versprochen. Der Vertrag regelt Planung, Verzögerungsmeldung und den Lösungsweg, und die vierteljährliche Geschäftsbesprechung verfolgt die Lieferleistung gegen den vereinbarten Kalender.'
+    - q: 'Wer unterzeichnet auf Ihrer Seite die Vertragsdokumente?'
+      a: 'Aufträge und Vereinbarungen werden vom Vertriebs-VP, dem Chefingenieur und dem QA-Direktor gemeinsam unterzeichnet — den drei Personen, die für Handelspolitik, technische Umsetzung bzw. Qualitätsfreigabe verantwortlich sind. Sie erhalten die unterzeichneten Dokumente mit den Vertragsunterlagen.'
+
+governance:
+  tagline: 'Verantwortlichkeitsstruktur'
+  title: 'Benannte Unterzeichner & vorbehaltene Rechte'
+  subtitle: 'Jede Verpflichtung ist an eine benannte Rolle gebunden — nicht an eine Vertriebsabteilung.'
+  body: |
+    **Gemeinsame Unterzeichnung.** Aufträge, Qualitätspläne und Streitbeilegungen werden von drei Rollen unterzeichnet: dem Vertriebs-VP (Handelspolitik), dem Chefingenieur (technische Umsetzung) und dem QA-Direktor (Qualitätsfreigabe). Zweisprachige SOPs sind versionskontrolliert und tragen dieselbe Unterschriftenstruktur.
+
+    **Vorbehaltene Rechte.** Der Käufer behält das Recht, die Produktion zu auditieren, Testaufzeichnungen zu prüfen und die Chargenfreigabe bis zur Prüffreigabe zurückzuhalten. Nacharbeit erfolgt nur unter einem genehmigten Änderungsprotokoll, und die Freigabe wird von unabhängiger Qualitätskontrolle validiert — nie von den Nacharbeitsoperatoren.
+
+    **Übergebene Aufzeichnungen.** Chargentestprotokolle, Konformitätszertifikate und Prüfberichte werden mit jeder Lieferung geliefert, und die ERP-Chargenrückverfolgbarkeit wird 10 Jahre aufbewahrt. Werkzeugaufzeichnungen und Formenzeichnungen gehen mit dem Werkzeug über, wenn der Vertrag dies vorsieht.
+
+trust_downloads:
+  tagline: 'Offizielle Dokumente'
+  title: 'Verifizierungsdokumente — herunterladen & teilen'
+  subtitle: 'Offizielle Dokumente der Qingdao Vatrad Group Co., Ltd., bereit zum Anhang an Ihre Lieferanten-Due-Diligence-Akte.'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'OEM-Käufer-Vertrauen & Fabrik-Sicherheitsleitfaden (PDF)'
+      desc: 'Offizieller B2B-Leitfaden (Teil II, DOC-ENG-2026-EN): Fabrikverifizierung Schritt für Schritt — Entitätsregistrierung, physisches Audit, echte Ingenieure, QMS-Unterlagen, Drittprüfung, Vertragsschutz und Governance-Unterzeichnungen.'
+      link: 'https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link_label: 'Leitfaden herunterladen (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Flexible Markenbildung & MOQ-Leitfaden (PDF)'
+      desc: 'Offizieller B2B-Leitfaden (Teil I, DOC-MOQ-EXP-2026-EN): die technische Logik hinter den 150-m-Drop-stitch-Rollenerträgen (90–100 Boards), Co-Branding ab 5–10 Einheiten, Pilotchargen 20–50 Einheiten und die drei Produktionsstufen.'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'MOQ-Leitfaden herunterladen (PDF)'
+    - icon: Q
+      icon_bg: orange
+      title: 'Das Qualitätssystem hinter diesen Aussagen'
+      desc: 'Eine Seite, die alles verbindet: das 7-stufige Prüf-Torsystem, die vier Standards, die es regeln, und das 00–15-Dokumentregister mit allen herunterladbaren SOPs und Berichten — QIP, Prüfstandards, Rückverfolgbarkeitsdossier, NCP- und Nacharbeits-SOPs.'
+      link: '/de/quality'
+      link_label: 'Das Qualitätssystem erkunden'
+
+evidence_review:
+  tagline: 'Nachweise & Verifizierung'
+  title: 'VERIFIZIERTE SPEZIFIKATIONEN'
+  body: 'Alle Fertigungsaussagen auf dieser Seite werden von unserem Manufacturing Engineering Team am Standort Laixi, Qingdao verifiziert. Zertifikate, QC-Prüfprotokolle, Druck- & Strukturtestberichte und Chargenrückverfolgungsprotokolle sind auf Anfrage verfügbar. Spezifikationen zuletzt verifiziert: September 2026.'
+
+cta:
+  title: 'Beginnen Sie mit der Verifizierung — dann sprechen wir über Spezifikationen'
+  subtitle: 'Senden Sie Ihre NDA-Anfrage, fordern Sie das Registrierungspaket an oder buchen Sie einen Audit-Slot. Erst die Verifizierung; danach folgt die Auftragsbesprechung. Eine Anfrage verpflichtet Sie nicht zu einem Auftrag.'
+  button_text: 'Verifizierungspaket anfordern'
+  button_link: '/de/contact#trust-verification'
+  actions:
+    - text: Fabrikaudit-Checkliste
+      href: /de/factory-audit-checklist
+    - text: Markenidentität
+      href: /de/about/identity

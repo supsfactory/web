@@ -1,0 +1,49 @@
+badge: Aktuelle Forschung
+heading: Wissenszentrum
+description: Tiefgreifende technische Forschung zu SUP- und Watercraft-Materialien, Konstruktion, Sicherheitsnormen und Fertigung
+topics:
+  - slug: drop-stitch-technology
+    category: Technologie
+    readTime: 8 Min. Lesezeit
+  - slug: pvc-vs-hypalon
+    category: Materialien
+    readTime: 10 Min. Lesezeit
+  - slug: ce-certification-guide
+    category: Konformität
+    readTime: 7 Min. Lesezeit
+  - slug: sup-thickness-guide
+    category: Konstruktion
+    readTime: 6 Min. Lesezeit
+  - slug: oem-buyer-guide
+    category: Beschaffung
+    readTime: 12 Min. Lesezeit
+  - slug: sup-manufacturing-process
+    category: Fertigung
+    readTime: 10 Min. Lesezeit
+  - slug: eva-foam-technology
+    category: Materialien
+    readTime: 7 Min. Lesezeit
+  - slug: uv-printing-vs-eva-block
+    category: Technologie
+    readTime: 6 Min. Lesezeit
+  - slug: fusion-lamination-vs-glue
+    category: Fertigung
+    readTime: 8 Min. Lesezeit
+  - slug: sup-valve-types
+    category: Konstruktion
+    readTime: 6 Min. Lesezeit
+  - slug: fin-systems-guide
+    category: Konstruktion
+    readTime: 7 Min. Lesezeit
+  - slug: board-hull-design
+    category: Konstruktion
+    readTime: 9 Min. Lesezeit
+  - slug: quality-testing-standards
+    category: Konformität
+    readTime: 8 Min. Lesezeit
+  - slug: sup-paddle-technology
+    category: Ausrüstung
+    readTime: 7 Min. Lesezeit
+  - slug: military-grade-pvc-specs
+    category: Materialien
+    readTime: 8 Min. Lesezeit

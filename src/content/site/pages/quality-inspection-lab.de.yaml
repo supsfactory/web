@@ -1,0 +1,145 @@
+meta:
+  title: 'Qualitäts- & Prüflabor — ISO-konforme SUP-Prüfung'
+  description: 'Unabhängige Qualitätsprüfung für aufblasbare SUP-Boards: Zugprüfung, Luftdichtigkeits-Zyklen, Nahtschälprüfungen und Materialzertifizierung.'
+back_text: 'Zurück zum F&E-Zentrum'
+home_label: 'Startseite'
+
+hero:
+  tagline: 'Labor 06'
+  title: 'Qualitäts- & Prüflabor'
+  subtitle: 'Unabhängige Prüfung — jeder Test vor der Lieferung bestanden'
+  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp'
+  image_alt: 'UV-Prüfung im Qualitätsprüflabor von Vatrad'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Jedes Board wird vor dem Versand gegen die veröffentlichten Spezifikationen geprüft: 100 % Druckhalteprüfung bei 18.0 PSI über 24 Stunden (automatische Aussortierung über 0.50 PSI Druckabfall), Zug- und Nahtschälprüfungen nach ISO 1421 sowie eine 100-Punkte-Montagecheckliste. Das Labor berichtet direkt an die Geschäftsleitung, nicht an die Produktion, und kann jede Lieferung stoppen.'
+  verified: 'September 2026'
+
+intro: 'Jedes Board, das unsere Werkstatt verlässt, trägt die Bestätigung, dass es einen definierten Satz von Qualitätsprüfungen und Materialtests bestanden hat. Unser Qualitäts- & Prüflabor ist eine unabhängige Funktion innerhalb der Organisation — es berichtet direkt an die Geschäftsleitung, nicht an die Produktion — und stellt so sicher, dass kein kommerzieller Druck das Prüf- Tor beeinträchtigen kann. Wenn eine Materialcharge oder ein fertiges Board nicht der veröffentlichten Spezifikation entspricht, hat das Labor die Befugnis, die Lieferung anzuhalten, bis die Nichtkonformität behoben ist.'
+
+content_html: |
+  <h2>Vertrauen, aber prüfen</h2>
+  <p>Das Labor arbeitet unter einem Qualitätsmanagementsystem nach den Grundsätzen von ISO 9001, und unsere Prüfmethoden basieren wo immer möglich auf den Normen ISO, ASTM und EN. Wir führen detaillierte Aufzeichnungen über jeden ausgeführten Test und schaffen so eine vollständige Rückverfolgbarkeitskette vom Rohmaterialeingang bis zur endgültigen Board-Lieferung.</p>
+
+  <h2>Prüfausrüstung und -kapazitäten</h2>
+  <table>
+    <thead><tr><th>Ausrüstung</th><th>Durchgeführte Tests</th><th>Standard / Methode</th></tr></thead>
+    <tbody>
+      <tr><td>Universalprüfmaschine (50 kN)</td><td>Zugfestigkeit (Gewebe), Schälwiderstand (Nähte), Weiterreißverhalten</td><td>ISO 1421, ISO 4674</td></tr>
+      <tr><td>Luftdichtigkeit-Prüfstand (programmierbar)</td><td>1000-Zyklen-Inflations-/Deflations-Ausdauerprüfung, 30-min-Druckhalteprüfung</td><td>Intern (nach ISO-6185-Methode)</td></tr>
+      <tr><td>Nahtschälvorrichtung (motorisierte 180°-Schälung)</td><td>Schälfestigkeit von Schweiß- und Klebenähten bei 100 mm/min</td><td>ISO 1421 / ASTM D1876</td></tr>
+      <tr><td>Wassersäulen-Prüfgerät</td><td>Wasserdurchdringungswiderstand des Gewebes (0–1000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Digitales Dickenmessgerät &amp; Mikrometer</td><td>Gewebedicke, Schweißnahtdicke, Klebefoliendicke</td><td>ISO 2286-3</td></tr>
+      <tr><td>Klimakammer</td><td>Temperaturkonditionierung (-40 °C bis +80 °C) für Kältebruch- und Wärmealterungstests</td><td>ISO 188, ISO 4675</td></tr>
+      <tr><td>Farbspektralphotometer</td><td>Delta-E-Farbmessung nach UV-Bestrahlung</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Die Prüf- Tore — vom Material bis zur Lieferung</h2>
+  <p>Jedes Board folgt einem definierten Qualitätsplan mit verbindlichen Prüfpunkten. Kein Board kann ein Tor überspringen; jedes Tor muss von einem Qualitätsprüfer abgezeichnet werden, bevor die nächste Produktionsstufe beginnt.</p>
+
+  <div class="not-prose my-8">
+    <div class="relative">
+      <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-200 dark:bg-blue-800"></div>
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Tor 1</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Eingangsmaterialprüfung</p>
+            <p class="text-xs text-gray-500 mt-1">Gewebecharge, Drop-stitch-Kern, Kleberherstellung, Beschläge — alle gegen die Eingangsspezifikation geprüft, bevor sie zur Produktion freigegeben werden.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Tor 2</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Schweißnahtprüfung im Prozess</p>
+            <p class="text-xs text-gray-500 mt-1">Erstmuster-Schweißmuster getestet (Schälung + Sichtprüfung) zu Beginn jeder Produktionsschicht.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Tor 3</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Kammer-Lufttest</p>
+            <p class="text-xs text-gray-500 mt-1">Board auf 18.0 PSI (12–15 PSI Betriebsdruck) beaufschlagt, 24 h gehalten. Druckabfall &gt; 0.50 PSI führt zur automatischen Aussortierung. Daten je Seriennummer protokolliert.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Tor 4</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Vorversandprüfung</p>
+            <p class="text-xs text-gray-500 mt-1">Komplettes Board geprüft: alle Beschläge festgezogen, Deckpad-Haftung, Grafik-Ausrichtung, keine kosmetischen Fehler. 100-Punkte-Checkliste.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Tor 5</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Endzertifizierung</p>
+            <p class="text-xs text-gray-500 mt-1">Testberichte zusammengestellt, Prüfprotokolle geprüft, Konformitätszertifikat (Certificate of Conformance) ausgestellt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Standardprüfungen für jede Charge</h2>
+  <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18.0 PSI im Kammer-Lufttest, 24 h gehalten</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">Druckabfall führt zur automatischen Aussortierung</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">100 %</span>
+      <span class="text-xs text-gray-500">Kammern vor der Montage luftgetestet</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
+      <span class="text-xs text-gray-500">Qualitätsmanagementsystem</span>
+    </div>
+  </div>
+
+  <h2>Unser Qualitätsteam</h2>
+  <p>Das Labor wird von einem Qualitätsmanager besetzt (10 Jahre Erfahrung in der maritimen Qualitätssicherung, ASQ-zertifizierter Qualitätsingenieur), zwei Qualitätsprüfern (jeweils mit NDT-Zertifizierung Level 2 für Sichtprüfung) sowie einem Materialtechniker, der für alle physikalischen Prüfungen zuständig ist. Das Team durchläuft jährliche Kompetenzprüfungen über einen unabhängigen Drittanbieter, um sicherzustellen, dass unsere Testergebnisse genau und reproduzierbar bleiben.</p>
+
+  <h2>Unabhängige Prüfung für Kunden</h2>
+  <p>Unser Qualitäts- &amp; Prüflabor steht für unabhängige Prüfleistungen zur Verfügung. Wenn Sie eine Gewebespezifikation verifizieren, ein neues Klebesystem validieren oder einen Testbericht eines Dritten für eine Beschaffungsqualifizierung benötigen, führen wir die Prüfungen nach dem anwendbaren Standard durch und stellen einen zertifizierten Testbericht aus.</p>
+  <p>Beispiele für jüngste Prüfaufträge von Dritten:</p>
+  <ul>
+    <li>Schälfestigkeitsvergleich von fünf konkurrierenden Klebefolienprodukten für ein europäisches Beschaffungsprogramm.</li>
+    <li>Beschleunigte Alterungsstudie (UV + thermische Zyklen) für eine neue orange pigmentierte PVC-Formulierung, mit regelmäßigen Zwischenmessungen in 500-h-Intervallen.</li>
+    <li>Luftdichtigkeit-Validierung von 50 Prototyp-Ventilbaugruppen für ein neues Hochdruck-Board-Design.</li>
+  </ul>
+
+  <h2>Unser Engagement für Sie</h2>
+  <p>Wenn Sie ein {SITE.name}-Board erhalten, erhalten Sie auch seine Qualitätsakte — eine zusammengestellte Aufzeichnung der Testergebnisse, die für Ihr spezifisches Board gelten. Gewebechargen-Zertifikat, Schweißnaht-Schälprüfungen, Kammer-Lufttestprotokolle und Vorversand-Prüfcheckliste. Jede Zahl ist nachvollziehbar. Jeder Prüfer ist identifiziert. Das ist kein bloßes Papier — es ist unser Versprechen, dass das, was wir geliefert haben, dem entspricht, was wir spezifiziert haben.</p>
+  <p>Wenn Sie jemals ein Qualitätsproblem haben, können Sie das Labor direkt kontaktieren — die Kontaktdaten stehen auf Ihrem Konformitätszertifikat. Wir nehmen jede Anfrage ernst und verpflichten uns zu einer formellen Untersuchung innerhalb von 48 Stunden.</p>
+
+  <h2>Was passiert, wenn ein Board die Prüfung nicht besteht?</h2>
+  <p>Ein durchgefallenes Board verschwindet nie stillschweigend. Das Labor folgt einem festen Nichtkonformitäts-Ablauf, damit das Problem eingedämmt, korrigiert und sein Auftreten verhindert wird:</p>
+  <ul>
+    <li><strong>Isolierung</strong> — das Board wird gekennzeichnet, von der Linie genommen und im Nichtkonformitätsregister mit dem Namen des Prüfers und den durchgefallenen Kriterien erfasst.</li>
+    <li><strong>Nacharbeit oder Verschrottung</strong> — reparierbare Mängel (z. B. ein Ventil, eine Rail-Schweißnaht oder eine Deckpad-Ecke) werden von einem zertifizierten Bediener nachgearbeitet, und der reparierte Bereich wird erneut nach demselben Standard getestet. Boards, die die Spezifikation nicht erreichen können, werden verschrottet, nicht herabgestuft.</li>
+    <li><strong>Erneute Prüfung</strong> — jedes nachgearbeitete Board besteht das vollständige betroffene Tor erneut, bevor es in die Verpackungslinie zurückkehren darf.</li>
+    <li><strong>Freigabe</strong> — nur Boards mit allen abgezeichneten Toren verlassen das Werk. Die Ausschussrate, die Ursache und die Korrekturmaßnahme werden in Ihrem Chargenqualitätsbericht zusammengefasst.</li>
+  </ul>
+
+  <h2>Qualitätsdokumentation, die Sie erhalten</h2>
+  <p>Jede Charge wird mit einem Dokumentenpaket versandt, das Ihr QC-Team gegenprüfen kann: das Chargenzertifikat (Gewebe-, Kleber-, Beschlag-Losnummern), Schweißnaht-Schälprüfprotokolle, Kammer-Lufttestprotokolle je Seriennummer, die unterschriebene 100-Punkte-Vorversandscheckliste, der Packzettel und ein fotografiertes Protokoll Ihrer Boards vor der Verladung.</p>
+
+cta:
+  title: 'Muster-QC-Checkliste anfordern'
+  subtitle: 'Sehen Sie die exakten Prüf- Tore, Prüfmethoden und Dokumente, gegen die Ihre Charge geprüft würde — senden Sie uns Board-Typ und Stückzahl.'
+  actions:
+    - variant: primary
+      text: Die QC-Checkliste anfordern
+      href: /de/contact#quality-inquiry
+    - text: Das 7-stufige Prüf- Torsystem
+      href: /de/quality
+    - text: Werks-QC-Labor & Testbericht-Downloads
+      href: /de/factory/quality-lab
+    - text: Standard zur Lenkung nichtkonformer Produkte
+      href: /de/factory/non-conforming-control

@@ -1,0 +1,69 @@
+meta:
+  title: 'So funktioniert die CE-Zertifizierung für aufblasbare SUP-Boards'
+  description: 'Wie die CE-Zertifizierung für aufblasbare SUPs, Boote und Kajaks funktioniert: Richtlinien (2013/53/EU RCD, PSA 2016/425), Prüfungen, benannte Stellen und technische Unterlagen.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Zurück zu Research'
+
+hero:
+  tagline: 'Konformität'
+  title: 'Wie die CE-Zertifizierung für aufblasbare SUPs & Kajaks funktioniert'
+  subtitle: '7 Min. Lesezeit'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Aufblasbare SUPs unterliegen der EU-Richtlinie über Sportboote 2013/53/EU, wenn sie eine Rumpflänge über 2.5 m haben, oder der Richtlinie über die allgemeine Produktsicherheit, wenn sie kleiner sind. Die Zertifizierung kostet für ein erstes Produkt grob 13,000&ndash;31,000 EUR und dauert 8&ndash;14 Wochen: technische Unterlagen, Baumusterprüfung durch eine benannte Stelle, Werksaudit und anschließend eine Konformitätserklärung.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Was ist die CE-Zertifizierung?</h2>
+  <p>Die CE-Kennzeichnung (Conformit&eacute; Europ&eacute;enne) zeigt, dass ein Produkt die Gesundheits-, Sicherheits- und Umweltanforderungen der EU erfüllt. Für aufblasbare Wasserfahrzeuge hängt der anwendbare Rechtsrahmen von der Produktkategorie ab.</p>
+
+  <h2>Anwendbare Richtlinien</h2>
+
+  <h3>Richtlinie über Sportboote (2013/53/EU)</h3>
+  <p>Die wichtigste Richtlinie für die meisten aufblasbaren Boote, SUPs und Kajaks. Sie gilt für Sportfahrzeuge mit einer Rumpflänge von 2.5 m bis 24 m, für unvollständig gebaute Boote (für die OEM-Belieferung) und für Wassermotorräder.</p>
+
+  <h3>Verordnung über persönliche Schutzausrüstung (2016/425)</h3>
+  <p>Rettungswesten, Auftriebshilfen und Sicherheitsausrüstung, die mit Wasserfahrzeugen geliefert werden, müssen die Anforderungen der PSA-Verordnung erfüllen, einschließlich der Baumusterprüfung (Modul B) durch eine benannte Stelle und der Qualitätssicherung der Produktion (Modul D oder E).</p>
+
+  <h2>Der Zertifizierungsprozess</h2>
+  <ol>
+    <li>Produktklassifizierung: Konstruktionskategorie des Fahrzeugs bestimmen (A – D nach ISO 8666)</li>
+    <li>Anwendbare Normen: EN ISO 6185 (Teile 1 – 4), EN ISO 10087 (HIN), EN ISO 14945 (Herstellerschild)</li>
+    <li>Erstellung der technischen Unterlagen: Konstruktionszeichnungen, Stückliste, Materialzertifikate, Risikobewertung</li>
+    <li>Baumusterprüfung: Auftrieb, Stabilität, Tragfähigkeit, Materialprüfung, Nahtfestigkeit, Luftdichtigkeit</li>
+    <li>Werksproduktionskontrolle: Audit der Fertigungsprozesse durch eine benannte Stelle</li>
+    <li>Konformitätserklärung: Der Hersteller unterzeichnet die DoC und bringt die CE-Kennzeichnung an</li>
+  </ol>
+
+  <h2>Benannte Stellen für aufblasbare Wasserfahrzeuge</h2>
+  <p>Übliche benannte Stellen sind Bureau Veritas (Frankreich), DNV GL (Deutschland), RINA (Italien), T&Uuml;V Rheinland / T&Uuml;V S&Uuml;D (Deutschland).</p>
+
+  <h2>Zeitrahmen und Kosten</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Phase</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Dauer</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Typische Kosten (EUR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Erstellung der technischen Unterlagen</td><td class="p-3 border">2 – 4 Wochen</td><td class="p-3 border">2,000 – 5,000</td></tr>
+      <tr><td class="p-3 border">Baumusterprüfung</td><td class="p-3 border">4 – 8 Wochen</td><td class="p-3 border">8,000 – 20,000</td></tr>
+      <tr><td class="p-3 border">Werksaudit</td><td class="p-3 border">1 – 2 Tage (vor Ort)</td><td class="p-3 border">3,000 – 6,000</td></tr>
+      <tr><td class="p-3 border">Gesamt (erstes Produkt)</td><td class="p-3 border">8 – 14 Wochen</td><td class="p-3 border">13,000 – 31,000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Was das für Käufer bedeutet</h2>
+  <p>Beim Kauf CE-zertifizierter aufblasbarer Boards prüfen Sie stets, dass sich die CE-Kennzeichnung auf dem Herstellerschild befindet, eine gültige DoC vorliegt, die Nummer der benannten Stelle aufgeführt ist und die Bedienungsanleitung Sicherheitshinweise in Ihrer Landessprache enthält. Alle Vatrad-Produkte tragen eine CE-Zertifizierung mit vollständiger Rückverfolgbarkeit zu den Auditberichten der benannten Stellen.</p>
+  <p>Die Zertifizierung ist Teil jedes Produktionslaufs an unserem Standort in Qingdao — siehe den <a href="/de/factory">Werks-Ablauf für Qualität &amp; Prüfung</a> und wie wir <a href="/de/oem-manufacturing">CE-Konformität für OEM-/Private-Label-Partner</a> unterstützen.</p>
+
+cta:
+  title: 'Brauchen Sie Unterstützung bei der CE-Zertifizierung?'
+  subtitle: 'Wir übernehmen die Zertifizierung für OEM-Partner weltweit.'
+  button_text: 'Zertifizierungsprozess starten'
+  button_link: /de/contact

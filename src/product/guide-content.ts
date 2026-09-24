@@ -814,7 +814,275 @@ export const GUIDES_FR: Guide[] = [
   },
 ]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR }
+/** German variants of the guides (same slugs, translated copy). */
+export const GUIDES_DE: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'So wählen Sie Ihr SUP',
+    intro: [
+      'Die Wahl Ihres ersten aufblasbaren SUP hängt von Boardgröße, Breite, Konstruktion und Lieferumfang ab. Hier erfahren Sie, worauf es ankommt – in klarer Sprache.',
+    ],
+    sections: [
+      {
+        title: 'Länge und Volumen',
+        body: 'Längere Boards (11–12 ft) gleiten pro Paddelzug weiter und halten die Spur besser – ideal für Touren und Distanzpaddeln. Kürzere Boards wenden leichter. Für die meisten Fahrer ist ein Allround-Board von 10\'6"–11\'0" der beste Kompromiss.',
+      },
+      {
+        title: 'Breite und Stabilität',
+        body: 'Die Breite bestimmt die Stabilität mehr als alles andere. Ein 32-inch Deck ist verzeihend für Anfänger und stabil genug für Yoga; 30-inch-Boards eignen sich für leichtere oder erfahrenere Paddler, die Geschwindigkeit und Wendigkeit suchen.',
+      },
+      {
+        title: 'Konstruktionsqualität',
+        body: 'Achten Sie auf einen militärtauglichen drop-stitch PVC-Kern mit einer Nenndruckfestigkeit von mindestens 15 PSI, doppellagiger PVC-Laminierung und verstärkten Rail-Bändern. Sie bestimmen, wie steif sich das Board anfühlt und wie lange es bei täglicher Nutzung hält.',
+      },
+      {
+        title: 'Was im Lieferumfang sein sollte',
+        body: 'Ein komplettes Paket spart Geld und Ärger: Board, verstellbares 3-teiliges Paddel, Doppelhub-Pumpe mit Manometer, Spiralleash, Finne(n), Reiserucksack und Reparaturset.',
+      },
+    ],
+    faqs: [
+      { q: 'Welche SUP-Boardgröße brauche ich?', a: 'Die meisten Anfänger wählen ein Allround-Board von etwa 11\'0" × 32" × 6" – stabil, vielseitig und leicht zu transportieren. Schwerere Fahrer oder Paddler mit Distanzzielen sollten eine Nummer größer wählen.' },
+      { q: 'Ist ein aufblasbares SUP genauso steif wie ein hartes Board?', a: 'Ein modernes drop-stitch Aufblasboard mit 15–20 PSI kommt einem Einstiegs-Hardboard in der Steifigkeit nahe – mit dem Vorteil, dass es in einen Rucksack passt.' },
+    ],
+    related: [
+      { label: 'Unsere SUP-Plattformen', href: '/products' },
+      { label: 'Aufblasbar vs. Hartschalen-Board', href: '/inflatable-vs-hardboard' },
+      { label: 'OEM-Fertigung', href: '/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Paddel-Guide für Anfänger',
+    intro: [
+      'Alles, was Sie für Ihre ersten Sessions auf dem Wasser brauchen: Aufpumpen, das erste Aufstehen, der Grundschlag und wie Sie sicher bleiben, während Sie Sicherheit gewinnen.',
+    ],
+    sections: [
+      {
+        title: 'Auf den Sollwert aufpumpen, nicht nach Gefühl',
+        body: 'Pumpen Sie mit dem Manometer Ihrer Pumpe auf den angegebenen Druck (in der Regel 15 PSI). Ein Board mit 10 PSI fühlt sich auf dem Rasen gut an, verformt sich auf dem Wasser aber stark. Prüfen Sie den Druck an warmen Tagen – die Sonne erhitzt die Luft im Inneren und erhöht den Druck.',
+      },
+      {
+        title: 'Die ersten Schritte auf dem Board',
+        body: 'Starten Sie vom Strand oder an einem flachen Einstieg: knien Sie zuerst, dann stellen Sie sich einen Fuß nach dem anderen über die Mittellinie. Halten Sie die Füße schulterbreit, die Knie weich und den Blick zum Horizont – Ihr Board folgt Ihren Augen.',
+      },
+      {
+        title: 'Der Grundschlag',
+        body: 'Greifen Sie mit dem Paddel weit nach vorn, tauchen Sie das Blatt vollständig ein und ziehen Sie es am Board entlang, während Sie den Oberkörper mitdrehen. Wechseln Sie alle paar Züge die Seite, um geradeaus zu fahren; zum Wenden dienen ein paar weite Züge auf einer Seite.',
+      },
+      {
+        title: 'Üben Sie zuerst den Sturz',
+        body: 'Das Hineinfallen gehört zum Lernen dazu. Üben Sie den Wiederaufstieg im flachen Wasser: schwimmen Sie zum Mittelgriff, stoßen Sie die Beine an die Oberfläche und ziehen Sie sich in einer Bewegung auf das Board.',
+      },
+    ],
+    faqs: [
+      { q: 'Wie lange dauert es, SUP zu lernen?', a: 'Die meisten Menschen können innerhalb ihrer ersten einstündigen Session bequem auf flachem Wasser paddeln. Sicherheit bei Wendungen, Wind und Distanz wächst über ein paar Sessions hinweg.' },
+      { q: 'Muss ich fit sein?', a: 'Nein – SUP ist sehr zugänglich. Gleichgewicht, Rumpfkraft und Ausdauer bauen sich mit regelmäßigem Paddeln ganz natürlich auf.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Aufblasbar vs. Hartschalen-Board',
+    intro: [
+      'Die beiden Konstruktionsfamilien gewinnen jeweils in unterschiedlichen Szenarien. Hier ist der ehrliche Vergleich für Freizeitpaddler, Clubs und Verleihbetreiber.',
+    ],
+    sections: [
+      {
+        title: 'Portabilität und Lagerung',
+        body: 'Aufblasbare Boards werden zu einem Rucksack zusammengelegt, der in einen Kofferraum, ein Wohnmobil oder einen Apartmentschrank passt – und sind bei Reisen die Standardwahl. Hartschalen-Boards benötigen Dachträger, Stauraum und eine sorgfältigere Handhabung.',
+      },
+      {
+        title: 'Steifigkeit und Leistung',
+        body: 'Premium-Hardboards sind bei hohem Leistungsniveau steifer und reagieren direkter. Bei Freizeitgeschwindigkeit leistet ein gut gebautes drop-stitch Aufblasboard mit 15–20 PSI Vergleichbares – für einen Bruchteil der Lagerkosten.',
+      },
+      {
+        title: 'Langlebigkeit',
+        body: 'Aufblasbare PVC-Boards stecken Stegkratzer und Stöße an Land weg, die eine Hartschale brechen würden – ein Hauptgrund, warum Verleihflotten und Resorts für den täglichen Gästeeinsatz aufblasbare Boards wählen.',
+      },
+      {
+        title: 'Gesamtkosten',
+        body: 'Aufblasbare Boards kosten weniger in Versand, Lagerung und Wartung und überstehen rauere Behandlung. Für die meisten Nutzer und Flotten ist ein aufblasbares Board das bessere Gesamtpaket.',
+      },
+    ],
+    faqs: [
+      { q: 'Welches ist besser für Anfänger?', a: 'Aufblasbare Boards – stabil, verzeihend, leicht zu lagern und haltbar genug für die Kratzer, die Anfänger verursachen.' },
+      { q: 'Kann ein aufblasbares SUP so schnell sein wie ein Hartschalen-Board?', a: 'Bei Freizeitgeschwindigkeit ist der Unterschied gering. Hartschalen-Boards gewinnen nur im Renn- und Hochleistungsbereich eindeutig.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Sicherheitstipps auf dem Wasser',
+    intro: [
+      'Eine sichere Session ist eine schöne Session. Diese Grundlagen gelten für Seen, Flüsse und Küstenpaddeln gleichermaßen.',
+    ],
+    sections: [
+      {
+        title: 'Wind und Vorhersage prüfen',
+        body: 'Offshore-Wind ist die klassische SUP-Falle: Er treibt Sie schneller vom Ufer weg, als Sie zurückpaddeln können. Prüfen Sie die Vorhersage und bleiben Sie im Zweifel in geschützten Gewässern.',
+      },
+      {
+        title: 'Immer die Leash tragen',
+        body: 'Eine Spiralleash hält Ihr Board bei einem Sturz in Reichweite – das Board ist Ihr Schwimmgerät. Wählen Sie eine Leash passend zu Ihren Bedingungen: Spirale für Flachwasser, gerade für Brandung.',
+      },
+      {
+        title: 'PFD und persönliche Sicherheit',
+        body: 'Tragen Sie eine Schwimmhilfe, wenn es die Bedingungen nahelegen oder Vorschriften es verlangen. Nehmen Sie eine Trillerpfeife mit, teilen Sie jemandem Ihre Route und Rückkehrzeit mit und erwägen Sie ein Telefon in einer wasserdichten Hülle.',
+      },
+      {
+        title: 'Kennen Sie Ihre Grenzen',
+        body: 'Sammeln Sie Erfahrung auf flachem Wasser, bevor Sie Wind oder Strömung angehen. Respektieren Sie kaltes Wasser – es entzieht schnell Kraft. Und paddeln Sie in abgelegenen oder offenen Gewässern nie ohne Plan allein.',
+      },
+    ],
+    faqs: [
+      { q: 'Brauche ich auf einem SUP eine Schwimmweste?', a: 'Die Anforderungen variieren je nach Land und Gewässer. Auch wo sie optional ist, sind Leash plus Schwimmhilfe die verantwortungsvolle Basis, und Kinder sollten immer eine richtig sitzende Schwimmweste tragen.' },
+      { q: 'Ist SUP auf einem See sicher?', a: 'Ja – flache Seen sind ideal zum Lernen. Prüfen Sie die Windrichtung, bleiben Sie für den Bootsverkehr sichtbar und meiden Sie stark befahrene Schifffahrtslinien.' },
+    ],
+    related: [
+      { label: 'Sicherheitsausstattung auf unseren Plattformen', href: '/products' },
+      { label: 'Fertigungs-Qualitätskontrolle', href: '/quality' },
+      { label: 'Wählen Sie Ihr erstes Board', href: '/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'So wählen Sie eine kundenspezifische SUP-OEM-Fabrik',
+    intro: [
+      'Eigene aufblasbare Paddleboards unter eigener Marke zu kaufen, läuft auf eine Entscheidung hinaus: welcher Fabrik Sie Ihre erste Charge anvertrauen. So bewerten Sie einen kundenspezifischen SUP-Hersteller, bevor Sie eine Bestellung (PO) aufgeben.',
+    ],
+    sections: [
+      {
+        title: 'Beginnen Sie mit einer Probebestellung, nicht mit einer MOQ-Diskussion',
+        body: 'Eine Fabrik, die nur über Mindestmengen spricht, ist ein Anzeichen für einen Handelstisch, nicht für einen echten Hersteller. Echte Fabriken bieten abgestufte Mindestmengen – Co-Branding ab 5–10 Einheiten, Pilotchargen ab 20–50 Einheiten, Standard-Volumenläufe ab 90–100+ pro 150-m-Rolle und komplette eigene Formprojekte auf der Volumenstufe. Bestellen Sie zuerst eine kleine Charge: Sie testet Kommunikation, Spezifikationsdisziplin und Musterqualität, ohne Ihr ganzes Launch zu riskieren.',
+      },
+      {
+        title: 'Prüfen Sie, was tatsächlich im Haus ist',
+        body: 'Die drop-stitch SUP-Produktion umfasst vier Kernstufen: Materiallaminierung, Schweißen, Druck und Montage. Eine echte Fabrik erledigt alle unter einem Dach und lässt Sie die Fertigung auditieren. Wenn der Verkäufer Ihnen keine Fertigungsstraße zeigen kann, kaufen Sie wahrscheinlich über einen Zwischenhändler ohne Kontrolle über Qualität oder Lieferzeit.',
+      },
+      {
+        title: 'Muster müssen der Serienproduktion entsprechen',
+        body: 'Ein von Hand fertiggestelltes Muster ist einfach; konsistente Serienproduktion ist schwer. Fragen Sie, wie die Fabrik die Wiederholbarkeit kontrolliert: Materialchargen-Protokolle, Schweißparameter und eine QC-Checkliste, die bei jedem einzelnen Board durchläuft – nicht nur bei dem, das Sie freigeben.',
+      },
+      {
+        title: 'Kennen Sie Ihre Kosten vor der PO',
+        body: 'Holen Sie sich das vollständige Kostenbild schriftlich: Stückpreis nach Menge, Werkzeug- oder Formkosten, wenn Sie eine neue Form wünschen, Artwork- und Druckeinrichtung sowie Verpackung.',
+      },
+      {
+        title: 'Fragen Sie nach einer Drittinspektion',
+        body: 'Seriöse OEM-SUP-Fabriken begrüßen Vorab-Inspektionen vor dem Versand – viele Marken buchen einen unabhängigen QC-Besuch pro Container. Bestätigen Sie, dass die Fabrik Inspektionen bei Muster- und Produktionsläufen organisieren kann und dass abgelehnte Einheiten (z. B. Boards, die mehr als 5 % Druck verlieren) aus der Charge ausgeschlossen werden.',
+      },
+      {
+        title: 'Lieferzeiten, die halten',
+        body: 'Bei aufblasbaren SUPs rechnen Sie mit Mustern in 7–12 Tagen und Serienproduktion in 25–35 Tagen nach bestätigter PO und Anzahlung, plus Werkzeugzeit, wenn Sie eine neue Form bestellen. Eine Fabrik, die deutlich kürzere Zeiten nennt als alle anderen, zitiert aus einem Prospekt, nicht aus einem Zeitplan.',
+      },
+    ],
+    faqs: [
+      { q: 'Wie hoch ist die Mindestbestellmenge für kundenspezifische SUP-Boards?', a: 'Abgestufte Mindestmengen sind Standard: 1–2 Einheiten für Muster, 5–10 Einheiten für Co-Branding, 20–50 Einheiten für eine Pilotcharge und 90–100+ Einheiten pro 150-m-Rolle für Standard-Volumen; komplett eigene Formprojekte laufen auf der Volumenstufe.' },
+      { q: 'Kann ich vor der Serienproduktion ein Muster sehen?', a: 'Ja – Muster sind in 7–12 Tagen fertig. Die meisten Fabriken verrechnen Muster- und Formkosten mit Ihrer ersten Produktionsbestellung, sobald sie bestätigt ist.' },
+      { q: 'Wie verifiziere ich, dass eine SUP-Fabrik echt ist?', a: 'Fragen Sie nach einem Live-Videorundgang durch die Fertigung, prüfen Sie eine aktive Werksadresse in Qingdao oder einem anderen Fertigungsstandort und fordern Sie Dokumentation früherer Exportaufträge an. Probebestellungen sind der ultimative Beweis.' },
+      { q: 'Was sollte ein Angebot einer SUP-Fabrik enthalten?', a: 'Stückpreis pro Board, Werkzeug- oder Formkosten, Artwork-Einrichtung, Verpackung, QC- und Inspektionsbedingungen sowie Zahlungsbedingungen.' },
+    ],
+    related: [
+      { label: 'Unsere OEM-/ODM-Fertigung', href: '/oem-manufacturing' },
+      { label: 'SUP-Produktentwicklungsprozess', href: '/product-development' },
+      { label: 'Fabrikkapazität und Werk', href: '/factory' },
+      { label: 'So kontrollieren wir Qualität – 7 Inspektionsgates', href: '/quality' },
+      { label: 'MOQ- und Flexible-Branding-Leitfaden (PDF)', href: '/oem-moq-guide' },
+      { label: 'Vertrauen und Werksgarantie', href: '/oem-trust-assurance' },
+      { label: 'Starten Sie Ihr kundenspezifisches SUP-Projekt', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'Private Label SUP: Was Sie von einer Fabrik tatsächlich bekommen',
+    intro: [
+      'Private Label ist der schnellste Weg, eine SUP-Marke zu launchen: Ihr Logo auf einer bewährten Plattform – ohne Kosten und Risiko, ein Board von Grund auf zu entwickeln. Hier sehen Sie, was die Zusammenarbeit mit einem kundenspezifischen SUP-Hersteller tatsächlich beinhaltet.',
+    ],
+    sections: [
+      {
+        title: 'Private Label bedeutet bewährte Plattformen',
+        body: 'Sie starten von Plattformen, die die Fabrik bereits baut und testet – Allround, Touring, Yoga, Race und mehr. Die Fabrik individualisiert Branding, Grafiken und Ausstattung, was Kosten niedrig und Lieferzeiten kurz hält. Die Mindestmengen sind abgestuft: Co-Branding ab 5–10 Einheiten, Pilotchargen ab 20–50 Einheiten und 90–100+ Einheiten pro 150-m-Rolle für Standard-Private-Label-Volumen.',
+      },
+      {
+        title: 'Branding geht über das Logo hinaus',
+        body: 'Private Label umfasst Ihren Logodruck (digital oder Siebdruck), individuelle Farbschemata, passgenau zugeschnittene EVA-Traction-Pads mit Ihrem Logo, Accessoire-Branding (Paddel, Pumpe, Leash), Retail-Box-Design und sogar Point-of-Sale-Displays. Senden Sie Ihre Artworks, und die Fabrik erstellt vor der Produktion einen visuellen Nachweis.',
+      },
+      {
+        title: 'Was die Fabrik für Sie übernimmt',
+        body: 'Eine Full-Service-SUP-Fabrik übernimmt Artwork-Einrichtung, Materialbeschaffung, Musterproduktion, eine 100-Punkte-Montage-QC-Checkliste, Drucktests und Exportdokumentation (Rechnung, Packliste, Ursprungszeugnis). Sie prüfen die Nachweise und geben das Muster frei – die Fabrik erledigt alles Weitere.',
+      },
+      {
+        title: 'Was Ihnen gehört: Marke, Markt, Kunde',
+        body: 'In einer Private-Label-Vereinbarung baut die Fabrik die Boards, und Ihnen gehört die Marke. Seriöse Hersteller verkaufen ihre Boards nicht unter eigenem Namen in Ihrem Markt und geben Ihr individuelles Design nicht an andere weiter. Fragen Sie in Ihrem Angebot nach Marktexklusivität.',
+      },
+      {
+        title: 'Kosten: Muster, Form, Artwork-Einrichtung',
+        body: 'Rechnen Sie mit drei Arten von Kosten: Mustergebühren (7–12 Tage Produktionszeit), Werkzeugkosten, wenn eine neue Form erforderlich ist (auf der Volumenstufe), und Artwork-Einrichtung für den Druck. Die meisten Fabriken verrechnen Muster- und Formkosten mit Ihrer ersten Produktionsbestellung.',
+      },
+      {
+        title: 'Von der PO zur fertigen Charge',
+        body: 'Ein typischer Private-Label-Lauf: 30 % Anzahlung starten die Produktion, die Serienproduktion ist in 25–35 Tagen nach bestätigter PO und Anzahlung abgeschlossen, der Restbetrag wird gegen die freigegebene Charge verrechnet. Planen Sie den kompletten Lauf in Ihre erste Bestellung ein.',
+      },
+    ],
+    faqs: [
+      { q: 'Wie hoch ist die Mindestbestellmenge für Private-Label-SUP-Boards?', a: 'Co-Branding läuft ab 5–10 Einheiten, Pilotchargen ab 20–50 Einheiten und Standard-Private-Label-Volumen ab 90–100+ Einheiten pro 150-m-Rolle; komplett eigene Formprojekte laufen auf der Volumenstufe.' },
+      { q: 'Kann ich mein eigenes Logo und Artwork senden?', a: 'Ja – senden Sie Ihr Logo und Ihre Artworks; die Fabrik erstellt vor der Produktion einen visuellen Nachweis, damit Sie Farben, Platzierung und Verarbeitung freigeben.' },
+      { q: 'Ist mein kundenspezifisches SUP-Design exklusiv für meine Marke?', a: 'Ja, bei standardmäßigen Private-Label-Bedingungen. Fordern Sie eine Exklusivitätsklausel in Ihrem Kaufvertrag; Fabriken wie unsere verkaufen Ihr markiertes Design nicht weiter.' },
+      { q: 'Wie lange dauert eine Private-Label-SUP-Bestellung?', a: 'Muster werden in 7–12 Tagen versendet; die Serienproduktion ist in 25–35 Tagen nach bestätigter PO und Anzahlung abgeschlossen. Planen Sie für den ersten kompletten Lauf 8–12 Wochen ein.' },
+    ],
+    related: [
+      { label: 'Private-Label-SUP-Lösungen', href: '/solutions/private-label-sup' },
+      { label: 'Bewährte Plattformen', href: '/products/all-around' },
+      { label: 'OEM-/ODM-Fertigung', href: '/oem-manufacturing' },
+      { label: 'Starten Sie Ihr kundenspezifisches SUP-Projekt', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'SUP-Flotten kaufen für Verleih, Resorts und Clubs',
+    intro: [
+      'Flottenkäufer brauchen andere Antworten als Endnutzer: Haltbarkeit pro Session, standardisierte Ersatzteile, Mengen auf Volumenebene und einen Lieferanten, der Saison für Saison liefert. Hier erfahren Sie, was Sie vor der Bestellung Ihrer ersten Flotte planen sollten.',
+    ],
+    sections: [
+      {
+        title: 'Auf eine oder zwei Spezifikationen standardisieren',
+        body: 'Flottenbetrieb läuft über Standardisierung: eine Boardgröße (in der Regel 10\'6"–11\'0" × 32") für die meisten Gäste, ein strapazierfähiges Paket, ein Ersatzteil-Kit. Das vereinfacht Reparaturen, Personalschulung, Lagerung und Nachbestellung. Widerstehen Sie der Versuchung, zehn verschiedene Modelle zu kaufen.',
+      },
+      {
+        title: 'Hochbelastete Boards sind ein anderes Produkt',
+        body: 'Ein Verleihboard hält dutzende Sessions pro Saison aus. Spezifizieren Sie dickere PVC-Schichten, verstärkte Rail-Bänder und robustere Accessoires als bei Retail-Boards. Fragen Sie die Fabrik, wie sich die Flottenspezifikation von der Verbraucherversion unterscheidet – echte Werke haben beide.',
+      },
+      {
+        title: 'Mengen an die Nachfrage anpassen',
+        body: 'Berechnen Sie Ihre Flottengröße anhand der täglichen Rotation und der Saisonlänge: 20–30 Boards bedienen einen kleinen Stand, 100+ ein stark frequentiertes Resort oder einen Club. Bitten Sie die Fabrik um eine Mengenempfehlung passend zu Ihrem Nachfragemuster.',
+      },
+      {
+        title: 'Ersatzteile gleich mit der Flotte bestellen',
+        body: 'Bestellen Sie Ersatzventile, Reparatursets, Pumpen, Leashes und Paddel in derselben PO – sie kosten jetzt wenig pro Einheit und sind mitten in der Saison schwer zu beschaffen. Fragen Sie die Fabrik nach einer empfohlenen Ersatzteilquote (in der Regel 5–10 % der Flottengröße für Verbrauchsmaterial).',
+      },
+      {
+        title: 'Gegen die Saison bestellen, nicht während',
+        body: 'Die Produktion dauert 25–35 Tage nach bestätigter PO und Anzahlung. Damit die Boards im Frühjahr am Strand liegen, bestätigen Sie Bestellungen im Spätherbst, sodass die Produktion vor der Saison ankommt.',
+      },
+      {
+        title: 'Die Flotte für den Wiederverkaufswert markieren',
+        body: 'Flottenboards können Ihr Logo, ein Verleih-Nummernsystem und eine Farbcodierung nach Größe tragen. Siebdruck-Logos bei Läufen ab 200+ Einheiten sind kosteneffektiv, und eine markierte Flotte wirkt auf dem Wasser zugleich als Marketing.',
+      },
+    ],
+    faqs: [
+      { q: 'Welches ist das beste SUP für eine Verleihflotte?', a: 'Ein Allround-Board in 10\'6"–11\'0" × 32" mit verstärkter Konstruktion ist der Industriestandard – stabil für Anfänger, haltbar für den täglichen Einsatz und leicht zu warten.' },
+      { q: 'Wie viele Boards braucht ein Verleihbetrieb?', a: 'Planen Sie für einen kleinen Stand 20–30 Boards, skalierend mit der Rotation: 100+ Einheiten für stark frequentierte Resorts und Clubs. Ersatzteile sollten 5–10 % der Flottengröße betragen.' },
+      { q: 'Können Flottenboards mit unserem Logo versehen werden?', a: 'Ja – Siebdruck-Logos, Verleih-Nummerierung und farbcodierte Decks sind Standard-Individualisierungen, besonders kosteneffektiv ab 200 Einheiten.' },
+      { q: 'Wie lange dauert eine Flottenbestellung?', a: 'Muster in 7–12 Tagen, Produktion in 25–35 Tagen nach bestätigter PO und Anzahlung – deshalb bestellen Sie Flotten deutlich vor Saisonbeginn.' },
+    ],
+    related: [
+      { label: 'Resort- und Club-Lösungen', href: '/solutions/resort-sup' },
+      { label: 'Fallstudie: Verleihflotte an mehreren Standorten', href: '/projects/rental-fleet-multi-site' },
+      { label: 'Flotten-Plattformen', href: '/products/all-around' },
+      { label: 'Sprechen Sie mit einem Projektspezialisten', href: '/contact' },
+    ],
+  },
+]
+
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -924,6 +1192,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'Acheter des flottes de SUP',
       intro:
         'Planification de flottes pour locations, resorts et clubs : spécification résistante, quantités par conteneur, pièces de rechange et saisonnalité.',
+    },
+  ],
+  de: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'So wählen Sie Ihr SUP',
+      intro:
+        'Die Wahl Ihres ersten aufblasbaren SUP hängt von Boardgröße, Breite, Konstruktion und Lieferumfang ab. Hier erfahren Sie, worauf es ankommt – in klarer Sprache.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Paddel-Guide für Anfänger',
+      intro:
+        'Alles, was Sie für Ihre ersten Sessions auf dem Wasser brauchen: Aufpumpen, das erste Aufstehen, der Grundschlag und Sicherheit.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Aufblasbar vs. Hartschalen-Board',
+      intro:
+        'Die beiden Konstruktionsfamilien gewinnen jeweils in unterschiedlichen Szenarien. Hier ist der ehrliche Vergleich für Freizeitpaddler, Clubs und Verleihbetreiber.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Sicherheitstipps auf dem Wasser',
+      intro:
+        'Eine sichere Session ist eine schöne Session. Diese Grundlagen gelten für Seen, Flüsse und Küstenpaddeln gleichermaßen.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'So wählen Sie eine kundenspezifische SUP-OEM-Fabrik',
+      intro:
+        'So bewerten Sie einen kundenspezifischen SUP-Hersteller, bevor Sie eine Bestellung aufgeben: Probebestellung, eigene Fertigung, Muster, Kosten und Inspektion.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'Private Label SUP',
+      intro:
+        'Was ein Private-Label-Vertrag tatsächlich beinhaltet: bewährte Plattformen, vollständiges Branding, Kosten, Exklusivität und Lieferzeiten.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'SUP-Flotten kaufen',
+      intro:
+        'Flottenplanung für Verleih, Resorts und Clubs: strapazierfähige Spezifikation, Mengen pro Container, Ersatzteile und Saisonalität.',
     },
   ],
 }

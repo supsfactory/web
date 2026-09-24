@@ -1,0 +1,349 @@
+meta:
+  title: 'Änderungskontrolle & Validierung von Nacharbeitsparametern | SUPsfactory'
+  description: 'Änderungskontrolle von Nacharbeitsparametern unter ISO 9001: ECR, Risikoklassifizierung, Freigabematrix, Validierung und Nachprüfung für die SUP-Produktion.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'sup rework change control'
+    - 'iso 9001 change control manufacturing'
+    - 'inflatable sup oem quality management'
+    - 'ecr engineering change request sup'
+    - 'air-tightness validation standard'
+    - 'sup factory quality assurance'
+
+hero:
+  tagline: Änderungskontrolle von Nacharbeitsparametern
+  title: Änderungskontroll- & Validierungsstandard für Nacharbeitsprozessparameter
+  subtitle: 'Bei QINGDAO VATRAD GROUP.,LTD. darf kein Operator, keine Schichtleitung und keine einzelne Abteilung einen freigegebenen Nacharbeitsparameter vor Ort ändern. Jede vorgeschlagene Änderung an freigegebenen Nacharbeitsmaterialien, Prozessbedingungen, Werkzeugen, Testmethoden, Inspektionskriterien oder autorisiertem Personal wird über dokumentierte Änderungskontrolle verwaltet — Engineering Change Request, Auswirkungs- und Risikobewertung, abteilungsübergreifende Freigabe, Validierungsplan, kontrollierte Umsetzung, Nachprüfung und Effektivitätsprüfung, dann Abschluss und Aufzeichnungsaufbewahrung. Diese Seite stellt unseren kontrollierten Standard QMS-SOP-QC-CC-001 (Rev 2.0, auf ISO 9001:2015 basiert) und die technischen Nachweise dahinter vor.'
+  actions:
+    - text: Änderungskontroll-SOP herunterladen (PDF)
+      variant: primary
+      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Ausführungs-Anhang A herunterladen (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Qualitätsprüfung anfordern
+      href: /contact
+
+answer:
+  label: 'Klare Antwort'
+  text: 'Änderungen an Nacharbeitsparametern werden bei QINGDAO VATRAD GROUP.,LTD. niemals mündlich oder rückwirkend entschieden. Jede vorgeschlagene Änderung an freigegebenen Nacharbeitsmaterialien, Prozessbedingungen, Ausrüstung, Testmethoden, Inspektionskriterien oder autorisiertem Personal muss vor der Umsetzung eine formelle Änderungskontrolle durchlaufen: einen dokumentierten Engineering Change Request (ECR), Auswirkungs- und Risikobewertung, abteilungsübergreifende Prüfung durch Konstruktion, Qualität, Produktion, Beschaffung und Projekt, Freigabe auf der Ebene, die unsere Autorisierungsmatrix festlegt, einen freigegebenen Validierungsplan für risiko-reiche Änderungen, kontrollierte Pilotumsetzung, Nachprüfung und Effektivitätsprüfung sowie Abschluss erst nach Dokumentenrevision und Schulung. Jede Änderung, die kundenfreigegebene Spezifikationen, Muster, BOMs, Grafiken oder Abnahmekriterien betrifft, erfordert zusätzlich die schriftliche Kundenfreigabe.'
+  verified: 'September 2026'
+
+stats:
+  tagline: Auf einen Blick
+  title: Änderungskontrolle in Zahlen
+  stats:
+    - value: '9'
+      label: Schritte im geschlossenen Änderungskontrollkreislauf
+    - value: '6'
+      label: Änderungskategorien, die formelle Änderungskontrolle erfordern
+    - value: '4'
+      label: Kernnacharbeitsprozesse mit quantifizierten Parametern
+    - value: '≥ 5'
+      label: Musterboards + 2 unabhängige QC für risikoreiche Validierung
+
+
+cc_intro:
+  tagline: Umfang & Richtlinie
+  title: Kerner-Governance-Prinzipien
+  body: |
+    **Dokument:** QMS-SOP-QC-CC-001 — *Standard der Änderungskontrolle für Nacharbeitsprozessparameter* (Rev 2.0, offizielle Veröffentlichung). **Hersteller:** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Standardreferenz:** ISO 9001:2015 Qualitätsmanagementsysteme.
+
+    - **Keine unkontrollierten Änderungen.** Änderungen an Nacharbeitsparametern müssen über formelle Änderungskontrolle laufen. Vor-Ort-Operatoren, Schichtleiter oder eine einzelne Abteilung dürfen freigegebene Nacharbeitsparameter niemals durch mündliche Vereinbarung oder handschriftliche Eintragung in einem Nacharbeitsnachweis ändern.
+    - **Volle Elementabdeckung.** Der kontrollierte Umfang umfasst Luftdichtigkeit, Ventilsitze, Railbänder, Nahtverklebung, Heißluftaushärtung und Druckhalttests — jeden Parameter, der Abdichtung, strukturelle Haltbarkeit, Erscheinungsbild, Kundenabnahme oder Rückverfolgbarkeit beeinflussen kann.
+    - **Kundenfreigabe als Kernpunkt.** Jede Änderung, die ein Produkt von der kundenfreigegebenen Probe, der technischen Spezifikation, der BOM, der Grafik, der Verpackungsanforderung oder den Abnahmekriterien wegführt, wird nur mit schriftlicher Kundenfreigabe umgesetzt. Ohne diese wird das Board gemäß der ursprünglichen Anforderung nachgearbeitet, ersetzt oder zurückgewiesen — niemals allein durch die Fabrik "gelockert".
+
+cc_scope:
+  tagline: Risikoklassifizierung
+  title: Änderungsumfang & Risikoklassifizierung
+  subtitle: Jede der folgenden Änderungen löst formelle Änderungskontrolle aus — sie wird niemals durch eine Notiz im Nacharbeitsnachweis behandelt. Das Risikoniveau bestimmt, wer freigibt und wie viel Validierung erforderlich ist.
+  headers:
+    category: Änderungskategorie
+    examples: Typische Beispiele
+    risk: Risiko
+    requirements: Kontroll- & Freigabeanforderungen
+  rows:
+    - category: 'Nacharbeitsmaterialien'
+      examples: 'Klebstoff, Reiniger, Flickenmaterial, Ventildichtung, Primer oder Lieferantenwechsel'
+      risk: 'Hoch'
+      requirements: 'Abteilungsübergreifende Prüfung + Materialkompatibilitäts- & Druckhaltevalidierung + Kundenfreigabe wo anwendbar'
+    - category: 'Prozessbedingungen'
+      examples: 'Oberflächenvorbereitung, Heißluftaushärtungstemperatur/-feuchte, Klemmdruck, Haltedauer'
+      risk: 'Hoch'
+      requirements: 'Konstruktions- + Qualitätsfreigabe mit definierter Temperatur- & Feuchtefenster-Validierung'
+    - category: 'Werkzeuge & Messgeräte'
+      examples: 'Druckmessgeräte, Leckdetektoren, Heißluftgeräte, Ventilwerkzeuge, Testsoftware'
+      risk: 'Mittel/Hoch'
+      requirements: 'Kalibrierungsgültigkeitsprüfung + Ausrüstungseignungsbewertung'
+    - category: 'Fehlerumfang'
+      examples: 'Erweiterung des Nacharbeitsbereichs; Oberflächenmikrolack, der in kritische Rail-, Naht- oder Ventilsitzzonen wächst'
+      risk: 'Hoch'
+      requirements: 'Strukturell tragende Oberflächen: verbindlicher Stopp und Neubewertung'
+    - category: 'Inspektionsmethoden'
+      examples: 'Leckerkennungsmethode, Testdruck (18.0 PSI), Haltedauer (24h)'
+      risk: 'Hoch'
+      requirements: 'Qualitätsfreigabe + Bestätigung der technischen Kundenvereinbarung'
+    - category: 'Dokumentation & Autorisierung'
+      examples: 'Nacharbeitsanweisung, Inspektionsblätter, NCR-Dispositionslogik, Operatorqualifikation'
+      risk: 'Mittel'
+      requirements: 'Kontrollierte Dokumentenrevision (Rev A → Rev B) + Schulungsnachweise'
+
+cc_containment:
+  tagline: Hartstopp-Regel
+  title: Sofortige Eindämmung, wenn die Bedingungen ernst werden
+  body: |
+    > "Die bestehende Nacharbeitsmethode soll einer Überprüfung unterzogen und nicht auf zusätzliche betroffene Produkte angewendet werden, bis die Änderung bewertet und autorisiert ist, es sei denn, eine dokumentierte temporäre Abweichung wurde von Qualität und Konstruktion genehmigt."
+
+    Die aktuelle Nacharbeitsmethode muss sofort ausgesetzt werden, wenn die Nacharbeits-Nachprüfung weiterhin durchfällt, wenn der Fehler strukturell tragende Zonen betrifft (Ventilbasis, Rails, Nähte, Bug-/Heckdruckbereiche), wenn ein Ersatzmaterial noch nicht validiert ist oder wenn aktuelle Parameter mit der kundenfreigegebenen Spezifikation kollidieren.
+
+    Temporäre Abweichungen werden nie zur dauerhaften Praxis: jede trägt ein definiertes Gültigkeitsfenster, einen anwendbaren Chargenumfang, eine Mengenobergrenze, Validierungsanforderungen und einen automatischen Ablaufmechanismus. Eine mündliche Ausnahme ist keine Ausnahme — wenn sie nicht mit ihrem Ablauf dokumentiert ist, existiert sie nicht.
+
+cc_flow:
+  tagline: Standard-9-Schritte geschlossener Kreislauf
+  title: Vom Änderungsantrag zum Abschluss und zur Aufbewahrung
+  subtitle: 'Ein dokumentierter Kreislauf für jede Parameteränderung: vorschlagen, screenen, bewerten, freigeben, validieren, pilotieren, verifizieren, überarbeiten, abschließen.'
+  steps:
+    - step: '01'
+      title: Änderungsantrag (ECR)
+      desc: 'Jede Abteilung darf einen Antrag stellen, aber Konstruktion, Qualität oder Produktionsleitung sponsern ihn. Der ECR beantwortet, warum die Änderung vorgeschlagen wird, was sich ändert, was betroffen ist und wie verifiziert wird — mit Änderungskontrollnummer, zugehörigem NCR/CAPA, aktuellem vs. vorgeschlagenem Parameter, betroffenen Chargen und Klassifizierung temporäre/dauerhafte Änderung.'
+    - step: '02'
+      title: Erstscreening & Eindämmung
+      desc: 'Der Antrag wird zuerst auf sofortige Eindämmung gescreent: muss die aktuelle Methode jetzt gestoppt werden? Wenn eine temporäre Abweichung erlaubt ist, wird sie durch Gültigkeitsfenster, Chargenumfang, Mengenobergrenze und automatischen Ablauf begrenzt.'
+    - step: '03'
+      title: Auswirkungs- & Risikobewertung
+      desc: 'Konstruktion, Qualität, Produktion, Beschaffung/Supply Chain und Projekt bewerten Produktleistung, Abnahmekriterien, Materialkompatibilität, Erscheinungsbild, Prozessfähigkeit, Ausrüstung und Messgeräte, Personalqualifikation, Kundenanforderungen, Konformität und Rückverfolgbarkeitsumfang.'
+    - step: '04'
+      title: Gemeinsame Prüfung & Freigabe
+      desc: 'Die Freigabe folgt der festen Autorisierungsmatrix — nicht "wer am lautesten spricht". Risikoreiche Änderungen erfordern abteilungsübergreifende Freigabe und, wo erforderlich, schriftliche Kundenfreigabe vor jedem Versuch.'
+    - step: '05'
+      title: Validierungsplan
+      desc: 'Für risikoreiche Änderungen ist vor der Routineanwendung ein freigegebener Validierungsplan erforderlich: repräsentative Musterboards, aktuelle vs. vorgeschlagene Methode, Testmethoden, Abnahmekriterien, Inspektionsstufen, Verantwortliche und Zeitplan.'
+    - step: '06'
+      title: Kontrollierte Piloten & Umsetzung
+      desc: 'Neue Dokumente werden freigegeben und veraltete Versionen entzogen und als OBSOLETE markiert; neue Materialien und Messgeräte werden verifiziert und kalibriert; Operatoren werden geschult und qualifiziert; die erste Charge läuft unter verschärfter Inspektion mit klarer Statuskennzeichnung.'
+    - step: '07'
+      title: Nachprüfung & Effektivitätsprüfung
+      desc: 'Erstdurchgangs-Nacharbeitsrate, Nachprüfungsbestehensrate, Wiederholungsrate und Erscheinungsakzeptanz werden gemessen und geprüft, bevor die Änderung als wirksam angesehen wird — ein repariertes Board wird nie als Prozessvalidierung behandelt.'
+    - step: '08'
+      title: Dokumentenrevision & Schulung
+      desc: 'Arbeitsanweisungen, Inspektionsblätter, NCR-Dispositionsoptionen, Parameterkarten und Schulungsmaterialien werden auf die neue Revision aktualisiert, mit aufgezeichneter praktischer Schulung und Operatorqualifikation.'
+    - step: '09'
+      title: Abschluss & Aufzeichnungsaufbewahrung
+      desc: 'Die Änderung wird erst abgeschlossen, nachdem Validierungsnachweise, Dokumentenaktualisierungen, Schulungsnachweise und Umsetzungseffektivität geprüft und freigegeben wurden. Wird das beabsichtigte Ergebnis nicht erreicht, wird die Änderung überarbeitet, erweitert, ausgesetzt oder zurückgezogen.'
+
+cc_approval:
+  tagline: Freigabematrix
+  title: Abteilungsübergreifende Autorisierungsmatrix
+  subtitle: 'Eine feste Autorisierungstabelle verhindert Ad-hoc-Entscheidungen: jeder Änderungstyp hat seine erforderlichen Genehmiger, von der Dokumentebenen-Präzisierung bis zur Kundenfreigabe.'
+  headers:
+    change: Änderungsinhalt
+    engineering: Konstruktion
+    quality: Qualität
+    production: Produktion
+    procurement: Beschaffung
+    project: Projekt / Vertrieb
+    customer: Kunde
+  rows:
+    - change: 'Klarstellung des Dokumentwortlauts (keine Parameterauswirkung)'
+      engineering: Prüfung
+      quality: 'Freigabe'
+      production: Benachrichtigung
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Anpassung der Nacharbeitsoperationsreihenfolge'
+      engineering: 'Freigabe'
+      quality: 'Freigabe'
+      production: Gegenzeichnung
+      procurement: '—'
+      project: Benachrichtigung
+      customer: Wie erforderlich
+    - change: 'Neue Qualifikation eines Nacharbeitsoperators'
+      engineering: Prüfung
+      quality: 'Freigabe'
+      production: 'Freigabe'
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Änderung von Werkzeug-/Testausrüstung'
+      engineering: 'Freigabe'
+      quality: 'Freigabe'
+      production: Gegenzeichnung
+      procurement: Wie benötigt
+      project: '—'
+      customer: Wie erforderlich
+    - change: 'Ersatz-Nacharbeitsmaterial / -Lieferant'
+      engineering: 'Freigabe'
+      quality: 'Freigabe'
+      production: Gegenzeichnung
+      procurement: Gegenzeichnung
+      project: Benachrichtigung
+      customer: Kann erforderlich sein
+    - change: 'Druck-/Halt-/Aushärtungsparameter-Änderung'
+      engineering: 'Freigabe'
+      quality: 'Freigabe'
+      production: Gegenzeichnung
+      procurement: '—'
+      project: Benachrichtigung
+      customer: Wenn das Projekt es erfordert
+    - change: 'Änderung der Nacharbeitsmethode Rail-/Naht-/Ventilsitz'
+      engineering: 'Freigabe'
+      quality: 'Freigabe'
+      production: Gegenzeichnung
+      procurement: Wie benötigt
+      project: Benachrichtigung
+      customer: In der Regel empfohlen
+    - change: 'Änderung von Kundenspezifikation, Freigabemuster oder Abnahmekriterien'
+      engineering: 'Freigabe'
+      quality: 'Freigabe'
+      production: Gegenzeichnung
+      procurement: '—'
+      project: Gegenzeichnung
+      customer: 'Schriftliche Freigabe verbindlich'
+
+cc_validation:
+  tagline: Engineering-Validierung
+  title: Validierungs- & Abnahmeprotokoll — Nachweise statt Behauptungen
+  body: |
+    Vage Abnahmewortlaut wie *"das reparierte Board muss gut sein"* wird nicht akzeptiert. Der kontrollierte Wortlaut lautet:
+
+    > "Das nachgearbeitete Muster muss dieselben anwendbaren Luftdichtigkeits-, Sichtverarbeitungs-, Ventilfunktions- und projektspezifischen Abnahmekriterien erfüllen wie ein konformes Board, es sei denn, eine kundenfreigegebene Abweichung definiert ausdrücklich ein alternatives Kriterium."
+
+    Validierungsnachweise sind quantitativ, und die technische Baseline für Luftdichtigkeitsnacharbeit umfasst:
+
+    - **Leckbeseitigung & Druckhalt.** Das ursprüngliche Leck wird beseitigt, ohne anhaltende Blasen in der Seifenwasser-Leckerkennung; das Board hält beim Standardtestdruck von 18.0 PSI für 24 Stunden, mit Netto-Druckabfall ΔP ≤ 0.2 PSI nach Temperatur-/Feuchtigkeitskompensation — die strengere Baseline für die Nacharbeitsvalidierung, getrennt von der 0.50-PSI-Auto-Ausschleusungsschwelle, die bei der Endabnahme der Produktionslinie angewendet wird.
+    - **Ventilfunktion.** Das Ventilkern-Drehmoment erfüllt die 15–20 N·m-Spezifikation, ohne Mikro-Leck an der Dichtung unter Hochdruck-Aufblasung und dynamischem Druck.
+    - **Nahtverklebung & Haltbarkeit.** Bindekanten zeigen kein Abheben, keine Weißfärbung und keine Delamination; nach Wärme-/Feuchtigkeitsalterungszyklen zeigt die Klebeschicht keine Erweichung oder spröde Rissbildung.
+    - **Erscheinungsbild & Verarbeitung.** Keine Klebstofflaufspuren, keine EVA-Beschädigung, keine Boardverformung und kein Logo-Versatz oder Kratzer auf der Druckoberfläche.
+
+cc_engineering:
+  tagline: Engineering-Ausführungsmatrix
+  title: Quantifizierte Parameter für die vier Kernnacharbeitsprozesse
+  subtitle: 'Jeder kontrollierte Nacharbeitsprozess trägt definierte Parameter, Methodik und Abnahmekriterien — dieselben Zahlen, denen unsere Operatoren folgen und die Kunden während Audits verifizieren können.'
+  headers:
+    process: Nacharbeitsprozess
+    parameters: Kontrollierte Parameter
+    methodology: Testmethodik
+    acceptance: Abnahmekriterien
+  rows:
+    - process: 'Nadelloch-/Mikroleck-Flickenreparatur'
+      parameters: 'Lösungsmittelreinigung & Trocknen 3–5 min; Heißluftaktivierung 60°C ± 5°C; Pressrolle ≥ 0.4 MPa'
+      methodology: 'Auf 18 PSI aufblasen; vollständiges Eintauchen in Wasser oder Seifenanwendung; 10 Minuten beobachten'
+      acceptance: 'Null Blasenemission; 180°-Kantenabzug ohne Abheben und ohne Klebstofflaufspuren'
+    - process: 'Railband-/Naht-Neuverklebung'
+      parameters: 'Zweikomponenten-Klebstoffverhältnis strikt kontrolliert; Umgebung 22–28°C, ≤ 65 % rel. Feuchte; Vorrichtungsklemme ≥ 4 h'
+      methodology: '22-PSI-Überdrucktest für 2 h; dann 6 h Wärmeofen-Backen bei 50°C und 2 h Raumtemperatur-Ruhe'
+      acceptance: 'Null Trennung, null Rissbildung; Netto-Druckabfall ΔP ≤ 0.1 PSI; Klebeschicht ohne Weißfärbung oder Versprödung'
+    - process: 'Ventilbasis-Lockerung / Mikro-Leck'
+      parameters: 'Dediziertes Schlüsseldrehmoment 18–20 N·m; Dichtungsring flach ohne Verformung; Gewindesauberkeit bestätigt'
+      methodology: 'Auf 15 PSI aufblasen; 20 Aufblas-/Entlüftungszyklen; Beobachtung beim Unterwassertauch'
+      acceptance: 'Null Blasen am Ventilkern und der Basisumgebung; Drehmoment nach Zyklen ≥ 16 N·m'
+    - process: 'Finaler 24h-Druckhalt-Test'
+      parameters: 'Referenzaufblasung 18.0 PSI; digitales Manometer Klasse 1.0 / ±0.5 %; Umgebungstemperatur & -feuchte aufgezeichnet und kompensiert'
+      methodology: 'Digitaler Druckrekorder; kontinuierliche 24h-Druckkurve'
+      acceptance: 'Netto-Druckabfall ΔP ≤ 0.20 PSI / 24 h nach Kompensation; keine Boardwölbung oder Verformung'
+
+cc_photos:
+  tagline: Auf der Fabrikfläche
+  title: Wiederaufbau, Neurtest, Freigabe — in jedem Schritt dokumentiert
+  subtitle: Fotos aus unserer Qingdao-Werkstatt zeigen jeden kontrollierten Nacharbeitsprozess mit seinen kalibrierten Messgeräten, definierten Parametern und Vor-Ort-Aufzeichnungen — dieselben Nachweise, die Inspektoren jederzeit anfordern können.
+  grid: 'sm:grid-cols-2'
+  features:
+    - image: https://assets.supsfactory.com/site/quality/cc-pinhole-repair.avif
+      alt: Techniker repariert ein Nadelloch-Mikroleck an einem aufblasbaren SUP mit Heißluftgerät und Druckrolle
+      title: Nadellochreparatur
+      desc: 'Ein Techniker behandelt ein markiertes Mikroleck mit einem auf die 60°C-Spezifikation eingestellten Heißluftgerät und einer Druckrolle; Seifenwasser bestätigt die Leckposition, und der QC-signierte ECR-Schein auf der Bank zeigt das Änderungskontroll-Gate (Poka-Yoke Nr. 1).'
+    - image: https://assets.supsfactory.com/site/quality/cc-rail-seam-bonding.avif
+      alt: Techniker trägt zweikomponentigen PU-Klebstoff mit präzisem Pinsel unter kontrolliertem Klima auf eine Railnaht auf
+      title: Railnaht-Verklebung
+      desc: 'Zweikomponentiger PU-Klebstoff wird mit einem präzisen Pinsel auf die Railnaht aufgetragen, während das Board in einer Vorrichtungsklemme gehalten wird; das Vor-Ort-Thermometer/Hygrometer zeigt das kontrollierte Fenster von 24°C / 55 % rel. Feuchte.'
+    - image: https://assets.supsfactory.com/site/quality/cc-valve-base-integrity.avif
+      alt: Digitaler Drehmomentschlüssel auf 19 N·m eingestellt, der den Ventilkern gegen das Drop-Stitch-Material sichert
+      title: Ventilbasis-Integrität
+      desc: 'Ein digitaler Drehmomentschlüssel, auf die 19-N·m-Spezifikation eingestellt, macht den finalen Anzug des Ventilkerns und dichtet die Basis gegen das Drop-Stitch-Material ab — das Messgerät trägt das grüne CALIBRATED-Etikett.'
+    - image: https://assets.supsfactory.com/site/quality/cc-pressure-hold-testing.avif
+      alt: Fertige aufblasbare SUP-Boards, die im finalen Druckhalttestbereich an digitale Druckrekorder angeschlossen sind
+      title: Finale Druckhalt-Prüfung
+      desc: 'Fertige Boards werden an hochpräzise digitale Druckrekorder angeschlossen; das Master-Manometer zeigt die 18.00-PSI-Referenz, und alle Testdaten werden automatisch hochgeladen und mit dem Vertragsrückverfolgbarkeitssystem verknüpft.'
+
+cc_pokayoke:
+  tagline: Fehlerverhütungsschutz
+  title: 'Poka-Yoke: harte Blöcke, die unkontrollierte Änderungen stoppen'
+  subtitle: Der Standard wird nicht nur durch Verfahren, sondern durch physische und systemische Blöcke durchgesetzt, die unkontrollierte Änderungen unmöglich machen.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: ECR-Gate für Werkzeugfreischaltung
+      desc: 'Nacharbeitsstationen lesen einen QA-signierten ECR-Barcode, bevor sich pneumatische Aufblasventile und Klebstoffmischer freischalten. Kein freigegebener Änderungskontrollnachweis, keine Versorgung — rückwirkende Signierung ("erst ändern, dann signieren") ist physisch blockiert.'
+    - icon: 2
+      icon_bg: green
+      title: Automatischer Ablauf temporärer Abweichungen
+      desc: 'Temporäre Abweichungen sind im System hart gedeckelt (z. B. maximal 50 Boards oder 7 Kalendertage). Das Erreichen der Obergrenze sperrt die Charge und blockiert den Druck des Versandpass-Tags, bis die Änderung formell bewertet ist.'
+    - icon: 3
+      icon_bg: purple
+      title: Mindestvalidierungsnachweis
+      desc: 'Risikoreiche Änderungen erfordern mindestens 5 repräsentative Musterboards, die die obere und untere Toleranzgrenze abdecken und von 2 unabhängigen QC-Inspektoren vollständig geprüft werden, bevor ein Validierungsbericht ausgestellt werden kann — ein repariertes Board wird nie als Prozessvalidierung behandelt.'
+    - icon: 4
+      icon_bg: orange
+      title: 1-in-1-out Dokumentenkontrolle
+      desc: 'Veraltete Arbeitsstationskarten werden physisch eingesammelt und entwertet (gelocht), bevor die neue Karte mit dem kontrollierten roten Siegel gestempelt ausgegeben wird — alte und neue Versionen teilen sich nie eine Arbeitsstation.'
+
+cc_downloads:
+  tagline: Herunterladbare QMS-Dokumente
+  title: Kontrollierte zweisprachige Dokumente (PDF)
+  subtitle: Offizielle EN/ZH zweisprachige Dokumente der QINGDAO VATRAD GROUP.,LTD. — bereit für Kundenaudits, B2B-Technik-Whitepapers und kontrollierte Shopfloor-Verteilung.
+  features:
+    - icon: S
+      icon_bg: blue
+      title: Nacharbeits-Änderungskontroll-SOP (PDF)
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: Änderungsklassifizierungstabelle, abteilungsübergreifende Autorisierungsmatrix, technische Validierungsparameter, Eindämmungs-Rotlinien und Qualitätssignaturblöcke.'
+      link: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: PDF herunterladen
+    - icon: A
+      icon_bg: green
+      title: Ausführungs-Anhang A (PDF)
+      desc: 'ECR-Datenschema, die quantifizierte technische Ausführungsmatrix für die vier Kernnacharbeitsprozesse, Poka-Yoke-Blocklogik und der dreiparteien Freigabesignaturblock.'
+      link: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: PDF herunterladen
+    - icon: R
+      icon_bg: purple
+      title: Kontrollierte Nacharbeits-Governance (Seite)
+      desc: 'Begleitseite für das Luftdichtigkeitsnacharbeitssystem: Fehlerklassifizierung A–G, freigegebene Methodenkarten MC-RW-01 bis MC-RW-06 und der 7-stufige kontrollierte Nacharbeitsworkflow.'
+      link: '/de/factory/quality-inspection'
+      link_label: Seite ansehen
+    - icon: N
+      icon_bg: orange
+      title: Kontrolle nichtkonformer Produkte (Seite)
+      desc: 'ISO 9001:2015 Abschnitt 8.7 Kontrolle nichtkonformer Ausgangsprodukte: NCR-Erfassung, Quarantäne, schweregradbasierte Dispositionsbefugnis, kontrollierte Nacharbeit unter SRI-Anweisungen, unabhängige Nachprüfung und das begleitete Zerstörungsprotokoll.'
+      link: '/de/factory/non-conforming-control'
+      link_label: Seite ansehen
+
+faqs:
+  tagline: FAQ
+  title: Häufig gestellte Fragen zur Nacharbeits-Änderungskontrolle
+  items:
+    - q: 'Kann die Fabrik Nacharbeitsparameter ändern, ohne uns zu informieren?'
+      a: 'Nein. Jede vorgeschlagene Änderung an freigegebenen Nacharbeitsmaterialien, Prozessbedingungen, Werkzeugen, Testmethoden, Inspektionskriterien oder autorisiertem Personal muss zunächst eine dokumentierte Änderungskontrolle durchlaufen. Änderungen, die kundenfreigegebene Spezifikationen, Muster, BOMs, Grafiken oder Abnahmekriterien betreffen, erfordern die schriftliche Kundenfreigabe.'
+    - q: 'Was gilt als risikoreiche Änderung?'
+      a: 'Änderungen an Nacharbeitsmaterialien oder -lieferanten, Druck-/Halt- oder Aushärtungsbedingungen, Ventil-/Rail-/Nahtnacharbeitsmethoden, Inspektions- oder Abnahmekriterien und die Ausweitung des Fehlerumfangs in strukturelle Zonen werden als risikoreich klassifiziert. Sie erfordern eine abteilungsübergreifende Prüfung, einen freigegebenen Validierungsplan und kontrollierte Pilotumsetzung vor dem Routineeinsatz.'
+    - q: 'Kann eine temporäre Abweichung unbegrenzt verwendet werden?'
+      a: 'Nein. Jede temporäre Abweichung trägt ein definiertes Gültigkeitsfenster, einen Chargenumfang, eine Mengenobergrenze und Validierungsanforderungen mit automatischem Ablauf. Das Erreichen der Obergrenze sperrt die Charge und blockiert den Pass-Tag-Druck, bis die Änderung formell bewertet ist.'
+    - q: 'Wie wird eine geänderte Methode vor dem vollen Einsatz als funktionsfähig nachgewiesen?'
+      a: 'Risikoreiche Änderungen erfordern einen Validierungsplan: mindestens 5 repräsentative Musterboards, die die Toleranzgrenzen abdecken, getestet von 2 unabhängigen QC-Inspektoren gegen quantifizierte Abnahmekriterien (Leckbeseitigung, Druckhalt, Ventilfunktion, Nahthaltbarkeit, Erscheinungsbild). Die Freigabe zur Validierung ist keine Freigabe zur Anwendung.'
+    - q: 'Müssen wir jede Änderung freigeben?'
+      a: 'Nicht jede Änderung, aber jede Änderung, die das Produkt von der kundenfreigegebenen Probe, der technischen Spezifikation, der BOM, der Grafik, der Verpackung oder den Abnahmekriterien wegführt, wird nur mit schriftlicher Kundenfreigabe umgesetzt. Ohne diese werden Boards gemäß der ursprünglichen Anforderung nachgearbeitet, ersetzt oder zurückgewiesen.'
+    - q: 'Was passiert mit alten Dokumenten, wenn eine Änderung freigegeben wird?'
+      a: 'Alte Arbeitsanweisungen, Parameterkarten und Inspektionsblätter werden physisch eingesammelt und entwertet (1-in-1-out), als OBSOLETE markiert und nach der Schulung durch die neue kontrollierte Revision ersetzt. Alte und neue Versionen teilen sich nie eine Arbeitsstation.'
+    - q: 'Wie lange werden Änderungskontrollaufzeichnungen aufbewahrt?'
+      a: 'Abschlussaufzeichnungen — Validierungsnachweise, Dokumentenrevisionen, Schulungsnachweise und Effektivitätsprüfungen — werden gemäß unserer Aufbewahrungsrichtlinie aufbewahrt (mindestens 3 Jahre für Abschlussaufzeichnungen), damit jede Änderung für Audits und Rückverfolgbarkeitsprüfungen nachvollziehbar bleibt.'
+
+cta:
+  title: Benötigen Sie Änderungskontrolldokumente für Ihr Audit?
+  desc: 'Laden Sie die zweisprachige Änderungskontroll-SOP und den Ausführungs-Anhang herunter oder fordern Sie ein anonymisiertes Muster unserer ECR-Vorlage und Ihres Validierungsplans für Ihr OEM/ODM-Projekt an.'
+  actions:
+    - text: Qualitätsprüfung anfordern
+      variant: primary
+      href: /contact
+    - text: Änderungskontroll-SOP herunterladen (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Ausführungs-Anhang A herunterladen (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

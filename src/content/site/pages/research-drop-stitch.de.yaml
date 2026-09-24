@@ -1,0 +1,79 @@
+meta:
+  title: 'Wie Drop Stitch funktioniert — steife Kerne für aufblasbare SUPs'
+  description: 'Wie Drop Stitch flexibles PVC in einen steifen Hochdruck-SUP-Kern (15-20 PSI) verwandelt: Konstruktion, Materialien, Qualitätskennzahlen und Anwendungen.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Zurück zu Research'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Drop-stitch ist ein Stoff, dessen Polyesterfaden-Stege die Ober- und Unterseite aus PVC in einem festen Abstand halten — so macht der Luftdruck das Board steif. Vatrad-Kerne: 1,680 DTEX, 2 Garne pro Quadratzoll, 1.2 mm PVC-Außenlaminat, ausgelegt auf 15 PSI, validiert durch einen 24-Stunden-Haltetest bei 18.0 PSI.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Technologie'
+  title: 'Wie Drop Stitch funktioniert — das Engineering hinter aufblasbaren steifen Kernen'
+  subtitle: '8 Min. Lesezeit'
+
+content_html: |
+  <h2>Was ist Drop Stitch?</h2>
+  <p>Beim Drop-Stitch-Verfahren (auch „Drop-stitch-Gewebe" oder „Drop-stitch-Kern" genannt) verbinden Tausende einzelne Polyestergarne die Ober- und Unterseite einer Gewebehülle. Beim Aufpumpen wirken diese Garne als innere Zugelemente — sie verhindern, dass sich die Ober- und Unterseite zu einer runden Form aufwölben, und halten die Bahn flach und steif.</p>
+  <p>Das Ergebnis ist eine leichte, transportable Struktur, die 15 – 20 PSI Innendruck aushält — vergleichbar mit der Steifigkeit eines Hartschalen-Boards, aber vollständig ablassbar für Lagerung und Transport.</p>
+
+  <h2>Wie es funktioniert: die Physik</h2>
+  <p>In einer herkömmlichen aufblasbaren Struktur (wie einem Ballon oder einer Luftmatratze) drückt der Innendruck gleichmäßig in alle Richtungen. Ohne innere Rückhaltung wird die Struktur zylindrisch oder kugelförmig. Drop Stitch löst das durch zugfeste Verstärkung:</p>
+  <ul>
+    <li>Tausende Garne verbinden die obere und untere Gewebeschicht</li>
+    <li>Beim Aufpumpen versucht der Luftdruck, Ober- und Unterseite auseinanderzudrücken</li>
+    <li>Die Garne widerstehen dieser Trennung und übertragen die Last als Zug entlang der Garnachse</li>
+    <li>Das Ergebnis ist eine flache, steife Bahn, die Biegung widersteht</li>
+  </ul>
+
+  <h2>Herstellungsprozess</h2>
+  <ol>
+    <li><strong>Weben:</strong> Polyestergarne werden gleichzeitig in zwei getrennte Schichten eines Trägergewebes (typisch 1,100 DTEX oder 1,680 DTEX PVC-beschichtetes Polyester) eingewebt. Die Garne werden in einem Winkel von 90&deg; zwischen den Schichten verwebt.</li>
+    <li><strong>Beschichtung:</strong> Das gewebte Trägergewebe wird mit PVC (oder gelegentlich TPU) im Rakel- oder Kalanderverfahren beschichtet. Das versiegelt die Garne und erzeugt die luftdichte Membran.</li>
+    <li><strong>Schichtverklebung:</strong> Der Drop-stitch-Kern wird mit den äußeren Laminatschichten (typisch 0.9 mm oder 1.2 mm PVC) per Heißlaminierung oder Kleber verbunden.</li>
+    <li><strong>Schweißen:</strong> Die Rail-Bänder werden entlang der Kanten per Heißluftschweißen, HF-Schweißen oder Hochfrequenzschweißen verbunden, um die Seitenwände des Boards zu bilden.</li>
+    <li><strong>Ventilmontage:</strong> Boston-Ventile oder Halkey-Roberts-Ventile werden eingebaut, typischerweise mit einem Überdruckventil, um zu starkes Aufpumpen zu verhindern.</li>
+  </ol>
+
+  <h2>Wichtige Qualitätsmerkmale</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parameter</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Einstiegsklasse</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Garndichte</td><td class="p-3 border">1 Garn / sq in</td><td class="p-3 border">2 Garne / sq in</td></tr>
+      <tr><td class="p-3 border">Trägergewebe</td><td class="p-3 border">1,100 DTEX</td><td class="p-3 border">1,680 DTEX</td></tr>
+      <tr><td class="p-3 border">Max. Druck</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">PVC-Dicke</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Rail-Konstruktion</td><td class="p-3 border">Gefaltet &amp; verklebt</td><td class="p-3 border">Geschweißt &amp; fusionsverbunden</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Anwendungen</h2>
+  <ul>
+    <li><strong>SUP-Boards:</strong> 4" – 6" Dicke, 15 – 20 PSI, 1 – 2 Garne/sq in</li>
+    <li><strong>Kajaks:</strong> Drop-stitch-Boden + aufblasbare Seitenkammern, 10 – 15 PSI Boden</li>
+    <li><strong>RIB-Böden:</strong> Drop-stitch-Böden für leichte, faltbare RIB-Dingis, 12 – 18 PSI</li>
+    <li><strong>Bootsfender:</strong> Niederdruck-Drop-Stitch für geformte Fender mit flachen Flächen</li>
+  </ul>
+
+  <h2>Drop Stitch vs. Air Deck (Glasfaser- oder Holzkern)</h2>
+  <p>Hartschalen-Boards verwenden EPS-Schaumkerne mit Glasfaser- oder Holzstringer-Verstärkung. Sie sind leichter, steifer und reaktionsfreudiger — aber sie lassen sich nicht entlüften. Drop Stitch tauscht etwas Steifigkeit gegen vollständige Transportierbarkeit. Für die meisten Freizeitnutzer sind moderne Drop-stitch-SUPs bei 20 PSI in der Steifigkeit von Einstiegs-Hartboards nicht zu unterscheiden.</p>
+
+  <h2>Wie Vatrad Drop Stitch einsetzt</h2>
+  <p>Vatrad verwendet einen Drop-stitch-Kern aus 1,680 DTEX in seiner gesamten SUP-Reihe, mit 2 Garnen pro Quadratzoll und einem 1.2 mm PVC-Außenlaminat. die Boards sind auf 15 PSI ausgelegt und werden vor dem Versand einer 24-stündigen Druckhalteprüfung bei 18.0 PSI unterzogen. Die Rail-Bänder werden im Heißluftverfahren mit Dreischicht-Fusion verschweißt, und Überdruckventile sind serienmäßig in allen Modellen enthalten.</p>
+  <p>Drop Stitch ist das Rückgrat unserer SUP-Produktion — siehe die <a href="/de/technology/drop-stitch-core">Drop-stitch-Kern-Technologieseite</a> und wie der Kern auf der <a href="/de/factory">Fabrik-Produktionslinie</a> verbunden wird.</p>
+
+cta:
+  title: 'Möchten Sie mehr über Drop Stitch erfahren?'
+  subtitle: 'Kontaktieren Sie uns für technische Spezifikationen und OEM-Anfragen.'
+  button_text: 'Vertrieb kontaktieren'
+  button_link: /de/contact

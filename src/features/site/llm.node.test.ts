@@ -1,7 +1,7 @@
 ﻿import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
-import { GUIDES_FR } from '@/features/content/guide-content'
+import { GUIDES_FR, GUIDES_DE } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -77,5 +77,31 @@ test('llms-full.txt French section: product/news/tech/case/guide bodies present'
   expect(fr).toContain('# Guide:')
   for (const g of GUIDES_FR) {
     expect(fr, `llms-full.txt French section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
+  }
+})
+
+test('llms.txt German section: /de absolute links, German homepage note and guides', () => {
+  const section = llmGermanIndex('https://supsfactory.com')
+  expect(section).toContain('## Deutsch')
+  expect(section).toContain('— Startseite')
+  expect(section).toContain('### Deutsch: Produkte')
+  expect(section).toContain('### Deutsch: Guides')
+  expect(section).toContain('### Deutsch: Häufig gestellte Fragen')
+  expect(section).toContain('https://supsfactory.com/de/')
+  for (const g of GUIDES_DE) {
+    expect(section, `llms.txt German section missing guide ${g.slug}`).toContain(`https://supsfactory.com/de/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt German section: product/news/tech/case/guide bodies present', () => {
+  const de = llmsGermanFull()
+  expect(de).toContain('# Deutsch')
+  expect(de).toContain('## Produkt:')
+  expect(de).toContain('## Nachricht:')
+  expect(de).toContain('## Technologie:')
+  expect(de).toContain('## Fallstudie:')
+  expect(de).toContain('# Guide:')
+  for (const g of GUIDES_DE) {
+    expect(de, `llms-full.txt German section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
   }
 })

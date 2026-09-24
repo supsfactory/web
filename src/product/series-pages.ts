@@ -774,6 +774,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+  de: [
+    {
+      slug: 'all-around',
+      navLabel: 'Allround-Plattformen',
+      metaTitle: 'Maßgefertigte Allround-SUP-Boards — Aufblasbarer OEM-Hersteller | SUPsfactory',
+      metaDescription:
+        'Aufblasbare Allround-SUP-Boards in Ihrem Branding — breite, stabile Boards, OEM/ODM ab 90–100+ Stück, Muster in 7–12 Tagen. Direkt ab Werk aus Qingdao, China.',
+      kicker: 'Serie · Allround',
+      h1: 'Maßgefertigte Allround-SUP-Boards — die Standard-Plattform für neue Marken',
+      intro: [
+        'Das Allround-Board ist das Arbeitstier der SUP-Kategorie: breit genug, um sich für Anfänger stabil anzufühlen, agil genug, um Fortgeschrittene bei Laune zu halten, und leicht genug, um es überallhin mitzunehmen. Die meisten neuen Marken und die meisten Verleihflotten starten hier.',
+        'Wir fertigen Allround-Plattformen unter Ihrer Marke ab 90–100+ Stück pro 150-m-Rolle (Menge), mit Pilotproduktionen ab 20–50 Stück. Form, Rails, Layup, Farben, vollflächige Grafiken und Verpackung werden pro Projekt spezifiziert.',
+      ],
+      faqs: [
+        {
+          q: 'Kann ich ein Allround-SUP-Board für meine Marke individualisieren?',
+          a: 'Ja. Jede Allround-Plattform ist eine Fertigungsbasis — Sie legen Maße (üblicherweise 10′6″ bis 11′6″), Breite, Dicke, Layup (ein-/zweilagig oder Fusion), Rail-Konfiguration, EVA-Pad, vollflächige Grafiken und Verpackung fest. Formen mit eigenem Werkzeug starten ab 90–100+ Stück pro Form; die Standard-Mengenproduktion ab 90–100+ Stück pro 150-m-Rolle.',
+        },
+        {
+          q: 'Wie hoch ist das MOQ für Allround-SUP-Boards?',
+          a: 'Standard-Mengenchargen starten bei 90–100+ Stück pro 150-m-Rolle; Pilotproduktionen auf Standardplattformen ab 20–50 Stück; volle Eigenfertigung mit neuem Werkzeug ab 90–100+ Stück pro Form. Muster versenden wir in 7–12 Tagen, die Serienproduktion dauert 25–35 Tage nach bestätigter Bestellung und Anzahlung.',
+        },
+        {
+          q: 'Was umfasst das retailfertige Paket?',
+          a: 'Das Komplettpaket: aufblasbares Board mit Drop-Stitch-Kern, verstellbares Paddel, Handpumpe (oder elektrische Zweistufenpumpe), Reparaturset, Transportrucksack und bedruckter Karton. Zubehör kann je nach Zielmarkt getauscht oder aufgewertet werden.',
+        },
+        {
+          q: 'Welche EVA-Deckhärte fertigen Sie?',
+          a: 'Deck-Traktionspads laufen meist von 45–55 Shore C — mittelweich, griffig unter den Füßen und verhärten auch in der Sonne nicht. Dicke, Rillen, Ausschnitte und Logo-Positionierung werden pro Projekt spezifiziert.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Racing-Plattformen',
+      metaTitle: 'Maßgefertigte Race-SUP-Boards — Aufblasbare Racing-Plattformen OEM | SUPsfactory',
+      metaDescription:
+        'Maßgefertigte aufblasbare Race-SUP-Boards für Clubs, Events und Marken — Drop-Stitch-Racing-Rümpfe, OEM ab 90–100+ Stück, CE-zertifizierte Produktion. Direkt ab Werk.',
+      kicker: 'Serie · Race',
+      h1: 'Maßgefertigte Race-SUP-Boards — Racing-Rümpfe für Ihre Marke gefertigt',
+      intro: [
+        'Race-Boards tauschen Stabilität gegen Geschwindigkeit: längere, schmalere Profile mit fein ausgearbeiteten Bugformen und wenig Rocker, gebaut für das Verdrängungspaddeln. Die aufblasbaren Versionen erreichen die Leistung von Hardboards in einer tragbaren Plattform.',
+        'Wir produzieren Race-Plattformen für Marken, Clubs und Eventveranstalter mit präzisen Drop-Stitch-Kernen, Race-Layups und geschwindigkeitsorientierten Rumpfformen — statistisch getestet in unserem hydrodynamischen Versuchsbecken.',
+      ],
+      faqs: [
+        {
+          q: 'Welche Race-SUP-Maße können Sie fertigen?',
+          a: 'Typische Race-Plattformen reichen von 12′6″ × 28″ für die Klasse 12′6 bis 14′ × 23″–25″ für die Formate Unlimited/Touring Race. Breite, Rocker und Bugprofil werden auf die Ziel-Ridergruppe abgestimmt und an einem physischen Muster verifiziert.',
+        },
+        {
+          q: 'Erfordern Race-Boards einen besonderen Aufbau?',
+          a: 'Ja — Race-Boards nutzen einen leichteren, eng gewebten Drop-Stitch-Kern mit höherem Druck (18–20 PSI) und steiferer Rail-Verstärkung, damit die Rumpfform bei Tempo erhalten bleibt. Die Layup-Wahl (ein- vs. zweilagig) balanciert Gewicht und Steifigkeit aus, was wir mit Ihnen pro Projekt festlegen.',
+        },
+        {
+          q: 'Können Clubs Race-Boards für ihr Team bestellen?',
+          a: 'Ja. Club- und Teamprogramme bestellen ab 90–100+ Stück (Menge) mit Clubgrafiken und können Race- und Trainingsplattformen in einem Auftrag mischen. Für kombinierte Mengen gelten Flottenpreise.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Surf-Plattformen',
+      metaTitle: 'Maßgefertigte Surf-SUP-Boards — Hybride aufblasbare Surf-Plattformen OEM | SUPsfactory',
+      metaDescription:
+        'Maßgefertigte aufblasbare Surf-SUP-Boards — hybride Surfprofile mit abgerundeten Rails und erhöhtem Rocker, unter Ihrer Marke ab 90–100+ Stück in Qingdao, China gefertigt.',
+      kicker: 'Serie · Surf',
+      h1: 'Maßgefertigte Surf-SUP-Boards — hybride Surf-Plattformen zum Wellenreiten',
+      intro: [
+        'Surf-SUP-Boards bringen Wellenperformance in eine tragbare Plattform: kürzere Längen, mehr Rocker, abgerundete Rails und konkave Bugformen, die auf der Wellenflanke die Linie halten. Aufblasbare Surf-Formen sind der zugänglichste Einstieg ins Paddelsurfen.',
+        'Wir fertigen Surf-Plattformen unter Ihrer Marke mit wellenspezifischem Shaping und Konstruktionsdetails — vom Soft-Top-Komplettpaket bis zum Performance-Layup.',
+      ],
+      faqs: [
+        {
+          q: 'Welche Größen sind für Surf-SUP-Boards verfügbar?',
+          a: 'Übliche Surf-Plattformen laufen von 8′6″ bis 10′6″ mit Breiten um 30″–34″. Länge, Rocker und Rail-Profil werden je nach Ridergewicht und Wellentyp spezifiziert und vor der Produktion an einem physischen Muster verifiziert.',
+        },
+        {
+          q: 'Sind aufblasbare Surf-Boards robust genug für die Vermietung?',
+          a: 'Mit verstärkten Rails und UV-beständigem PVC meistern unsere Surf-Plattformen Vermietungs- und Unterrichtsbetrieb in Surfschulen. Verleihflotten kombinieren typischerweise Allround- und Surf-Formen — der Flottenpreis gilt über die gemischte Menge.',
+        },
+        {
+          q: 'Können Sie unsere Markengrafiken auf Surf-Boards umsetzen?',
+          a: 'Ja. Vollflächige Deck-Grafiken, Boden-Artwork, EVA-Traktionspads und Verpackung werden aus Ihren Dateien gefertigt oder von unserem Designteam auf Basis Ihrer Marken-Assets entwickelt.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Touring-Plattformen',
+      metaTitle: 'Maßgefertigte Touring-SUP-Boards — Langstrecken-Plattformen OEM | SUPsfactory',
+      metaDescription:
+        'Aufblasbare Touring-SUP-Boards für Langstrecken — Verdrängungsrümpfe ab 12′6″+, tauglich für Mehrtagestouren, OEM ab 90–100+ Stück, direkt ab Werk.',
+      kicker: 'Serie · Touring',
+      h1: 'Maßgefertigte Touring-SUP-Boards — gebaut für Distanz, Ladung und Strecke',
+      intro: [
+        'Touring-Boards sind lang und effizient: spitze Buge für Gleitfahrt, moderates Volumen für Stabilität auf offenem Wasser und genug Rumpflänge, um Ausrüstung auf Mehrtagestouren mitzunehmen. Sie sind die Plattform der Wahl für Distanz-Paddler und Expeditions-Outfitter.',
+        'Wir produzieren Touring-Plattformen unter Ihrer Marke mit Verdrängungsshaping, Befestigungspunkten und Deckfläche für Ladung sowie mit carbon-kompatiblen Zubehörsystemen (Bungees, D-Ringe, Halterungen).',
+      ],
+      faqs: [
+        {
+          q: 'Welche Touring-SUP-Größen fertigen Sie?',
+          a: 'Touring-Plattformen liegen typischerweise bei 12′6″ bis 14′ mit Breiten von 28″–32″. Längere 14′-Rümpfe priorisieren Gleitfahrt; breitere Versionen bieten mehr Ladestabilität. Die Spezifikationen werden vor der Serienproduktion mit einem physischen Muster bestätigt.',
+        },
+        {
+          q: 'Haben Touring-Boards Lade- und Befestigungsoptionen?',
+          a: 'Ja — Lade-Netzbungees, D-Ring-Raster, Rutenhalter und Zubehörschienen werden pro Projekt spezifiziert. Touring-Pakete kombinieren in der Regel Boards mit Rucksacktaschen und Hochdruckpumpen.',
+        },
+        {
+          q: 'Liefern Sie Touring-Boards an Outfitter und Verleihbetreiber?',
+          a: 'Ja. Outfitter und Betreiber können eigene Touring-Flotten ab 20–50 Stück (Pilot) mit Flottenpreisen, Ersatzteilen und einem definierten saisonalen Erneuerungszyklus betreiben.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Yoga-Plattformen',
+      metaTitle: 'Maßgefertigte Yoga-SUP-Boards — Breite stabile Plattformen OEM | SUPsfactory',
+      metaDescription:
+        'Maßgefertigte aufblasbare Yoga-SUP-Boards — extra breite, stabile Plattformen mit weichen Decks für Studios, Resorts und Instruktoren. OEM ab 90–100+ Stück, direkt ab Werk.',
+      kicker: 'Serie · Yoga',
+      h1: 'Maßgefertigte Yoga-SUP-Boards — extra breite Plattformen für Praxis auf dem Wasser',
+      intro: [
+        'Yoga-Boards sind für Ruhe gebaut: extra Breite und Volumen für eine stabile Plattform, weiche Soft-Tops für Hände und Füße und niedrige Profile, die das Board nah am Wasser halten. Sie bedienen Studios, Resorts und Instruktoren, die Wasser-Yoga-Programme anbieten.',
+        'Wir fertigen Yoga-Plattformen unter Ihrer Marke mit den breitesten stabilen Profilen, Premium-EVA-Deck und Optionen für Studio- und Resort-Flotten.',
+      ],
+      faqs: [
+        {
+          q: 'Was macht ein SUP-Board besonders gut für Yoga?',
+          a: 'Stabilität zuerst: extra Breite (33″–36″) und Volumen halten das Board flach und ruhig. Ein weiches EVA-Deck schützt Hände, Knie und Füße, und ein niedriges Rail-Profil reduziert das Wackeln beim Auf- und Absteigen.',
+        },
+        {
+          q: 'Können Resorts Yoga-Boards als Teil einer Flotte bestellen?',
+          a: 'Ja. Resorts kombinieren Yoga-Plattformen häufig mit Allround-Gäste-Boards. Kombinierte Flottenmengen qualifizieren für Flottenpreise, und die Markengrafik in der Farbwelt des Hauses gilt für den gesamten Auftrag.',
+        },
+        {
+          q: 'Sind Yoga-Boards als Komplettpaket erhältlich?',
+          a: 'Ja — aufblasbares Board, Paddel, Pumpe, Rucksack und Reparaturset oder ein reduziertes Kit für die Lagerung vor Ort (Board + Paddel + elektrische Pumpe), je nach Anforderung Ihres Programms.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Wildwasser-Plattformen',
+      metaTitle: 'Maßgefertigte Wildwasser-SUP-Boards — Fluss- und Schnellgewässer-Plattformen OEM | SUPsfactory',
+      metaDescription:
+        'Maßgefertigte aufblasbare Wildwasser-SUP-Boards für Flüsse und Stromschnellen — kurze wendige Rümpfe mit verstärkter Stoßkonstruktion. OEM ab 90–100+ Stück in Qingdao, China.',
+      kicker: 'Serie · Wildwasser',
+      h1: 'Maßgefertigte Wildwasser-SUP-Boards — Flussrümpfe, gebaut für Stöße',
+      intro: [
+        'Wildwasser-Boards sind kurz, breit und robust: wendige Rümpfe, die auf Zuruf drehen, hohe Stoßfestigkeit für Rail-Aufpralle und eine schwere Bauweise für flache Flussbetten und steinige Einsetzstellen.',
+        'Wir fertigen Wildwasser-Plattformen unter Ihrer Marke mit verstärkten Nähten, Stoß-Rails und flussspezifischen Formen — gebaut für Schulen, Guides und Fluss-Outfitter, die tägliche Kurse und Touren anbieten.',
+      ],
+      faqs: [
+        {
+          q: 'Welche Konstruktion brauchen Wildwasser-Boards?',
+          a: 'Verstärkte Rails und übernahte Konstruktion absorbieren Rail-Aufpralle; dickes PVC und mehrlagige Layups widerstehen Durchstichen von Flussbetten. Doppelkammer-Konstruktionen erhöhen die Auftriebsreserve für abgelegene Flüsse.',
+        },
+        {
+          q: 'Liefern Sie an Fluss-Outfitter und Guideschulen?',
+          a: 'Ja. Outfitter und Guideschulen betreiben Wildwasser-Flotten ab 20–50 Stück (Pilot) mit Flottenpreisen, robusten Reparatursets und Ersatzfinnen/-ventilen — typisch für stark genutzte Flussprogramme.',
+        },
+        {
+          q: 'Können Wildwasser-Boards Markengrafiken tragen?',
+          a: 'Ja — vollflächige Grafiken, Logo-Positionierung und Teamfarben werden aus Ihren Dateien gefertigt. Reißfeste Druckschichten halten das Branding auch bei hartem Einsatz intakt.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Angel-Plattformen',
+      metaTitle: 'Maßgefertigte Angel-SUP-Boards — OEM und Private Label | SUPsfactory',
+      metaDescription:
+        'Maßgefertigte aufblasbare Angel-SUP-Boards mit Stabilität, Tragkraft und Zubehörhalterungen — OEM/Private Label ab 90–100+ Stück, direkt ab Werk aus Qingdao, China.',
+      kicker: 'Serie · Angeln',
+      h1: 'Maßgefertigte Angel-SUP-Boards — im Hinblick auf Angler gebaut',
+      intro: [
+        'Angel-Boards sind stabile Wurfplattformen: breit und voluminös, um Angler plus Ausrüstung zu tragen, mit Halterungssystemen für Rutenhalter, Kühlboxen und Tackle sowie ruhiger Bauweise für lautlose Annäherungen.',
+        'Wir fertigen Angel-Plattformen unter Ihrer Marke mit projektspezifisch festgelegten Funktionen für Angler — vom Wochenendpaket bis zum kompletten Turnier-Setup.',
+      ],
+      faqs: [
+        {
+          q: 'Welche Angel-Funktionen können spezifiziert werden?',
+          a: 'Halterungsraster für Rutenhalter und Zubehör, Ausrüstungsschienen, Kühlbox-Riemen, Ankerpunkte und Hochlast-Boards bis 500 lbs für Angler plus Ausrüstung. Pakete können Paddel, Pumpen und Taschen im Markenlabel umfassen.',
+        },
+        {
+          q: 'Wie hoch ist das MOQ für Angel-SUP-OEM-Aufträge?',
+          a: 'Standard-Mengenchargen starten bei 90–100+ Stück pro 150-m-Rolle; Pilotproduktionen ab 20–50 Stück auf Standardplattformen; Produktion mit eigenem Werkzeug ab 90–100+ Stück pro Form. Muster versenden wir in 7–12 Tagen; die Produktion dauert 25–35 Tage nach bestätigter Bestellung und Anzahlung.',
+        },
+        {
+          q: 'Produzieren Sie Angel-Boards für Verleih- und Guiding-Betriebe?',
+          a: 'Ja. Guide- und Verleihbetriebe betreiben Angel-Flotten mit Flottenpreisen, Ersatzteilen und auf den Tageseinsatz zugeschnittenen Reparatursets.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Kinder-Plattformen',
+      metaTitle: 'Maßgefertigte Kinder-SUP-Boards — Kleine, leichte Plattformen OEM | SUPsfactory',
+      metaDescription:
+        'Maßgefertigte aufblasbare Kinder-SUP-Boards — kürzere, leichtere Plattformen mit kindgerechten Decks, ausgelegt für Sicherheit und Spaß. OEM ab 90–100+ Stück, direkt ab Werk.',
+      kicker: 'Serie · Kinder',
+      h1: 'Maßgefertigte Kinder-SUP-Boards — klein, leicht und gebaut für die ersten Paddelschläge',
+      intro: [
+        'Kinder-Boards sind auf junge Rider zugeschnitten: kürzere Rümpfe, geringeres Gewicht, schmalere Breiten für kleine Körper und weiche Decks, die Stürze verzeihen. Sie sind der Einstieg für Familienmarken, Schulen und Verleihflotten für Kinder.',
+        'Wir fertigen Kinder-Plattformen unter Ihrer Marke in Standard- und Juniorgrößen mit familienfreundlichen Paketoptionen.',
+      ],
+      faqs: [
+        {
+          q: 'In welchen Größen sind Kinder-SUP-Boards erhältlich?',
+          a: 'Typische Kinder-Plattformen reichen von 7′ bis 9′6″ mit Breiten von 26″ bis 30″ und Gewichten um 7–9 kg (15–20 lbs). Die Größe wird auf Alter und Gewicht des Riders abgestimmt und vor der Produktion an einem physischen Muster verifiziert.',
+        },
+        {
+          q: 'Liefern Sie an Schulen und Jugendprogramme?',
+          a: 'Ja — unsere Kinder-Plattformen sind ein häufiger Bestandteil von Schul- und Jugendprogramm-Flotten, bestellt zusammen mit Junior-Paddeln und Einsteigerzubehör zu Programmkonditionen.',
+        },
+        {
+          q: 'Können Kinder-Boards Marken- und Charaktergrafiken tragen?',
+          a: 'Ja. Vollflächige Farbvarianten, Charakter-Artwork und Logo-Positionierung werden aus Ihren Dateien oder Ihrer Markendirektion entwickelt — gedruckt mit denselben reißfesten Schichten wie bei Erwachsenen-Boards.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Mehrpersonen-Plattformen',
+      metaTitle: 'Maßgefertigte Mehrpersonen-SUP-Boards — Tandem & Familie OEM | SUPsfactory',
+      metaDescription:
+        'Aufblasbare Mehrpersonen-SUP-Boards für Familien-Freizeit und Gruppenunterricht — Tandem-, Yard- und Party-Plattformen. OEM ab 90–100+ Stück, direkt ab Werk.',
+      kicker: 'Serie · Mehrpersonen',
+      h1: 'Maßgefertigte Mehrpersonen-SUP-Boards — Tandems, Yard- und Party-Plattformen',
+      intro: [
+        'Mehrpersonen-Boards erschließen das SUP für Gruppen: Tandems mit zusätzlichen Paddelpositionen, Yard-Boards zum Entspannen und Party-Plattformen, die mehrere Rider tragen. Sie stützen die Verleihumsätze in Resorts, an Stränden und in See-Betrieben.',
+        'Wir fertigen Mehrpersonen-Plattformen unter Ihrer Marke mit den Stabilitäts- und Volumenprofilen, die jedes Einsatzszenario verlangt.',
+      ],
+      faqs: [
+        {
+          q: 'Welche Arten von Mehrpersonen-Boards stellen Sie her?',
+          a: 'Tandems (zwei Paddler, ca. 13′–14′), Yard-Boards (kurze, breite Lounge-Plattformen) und Party-Plattformen mit hohem Volumen für 3–6 Rider. Jeder Typ wird nach Kapazität, Gewicht und vorgesehenem Einsatz spezifiziert.',
+        },
+        {
+          q: 'Sind Mehrpersonen-Boards eine gute Verleih-Investition?',
+          a: 'Ja — sie erzielen höhere Stundensätze bei geringeren Ausrüstungskosten pro Rider und halten Gruppen zusammen, statt sie auf einzelne Boards zu verteilen. Verleihbetreiber kombinieren Mehrpersonen-Boards typischerweise mit Allround-Flotten.',
+        },
+        {
+          q: 'Wie hoch ist die Kapazität einer Party-Plattform?',
+          a: 'Die Kapazität hängt von Maßen und Volumen ab: Typische Yard- und Party-Plattformen tragen 400–700 lbs und 3–6 Rider je nach Größe und Konfiguration. Die Spezifikationen werden vor der Serienproduktion an einem physischen Muster bestätigt.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

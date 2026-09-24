@@ -1,0 +1,115 @@
+meta:
+  title: 'Hydrodynamischer Versuchstank — SUP-Board-Performancetesting'
+  description: 'Validieren Sie die Rumpfleistung von SUP-Boards in unserem hydrodynamischen Versuchstank. Schleppversuche an Modellen, Gleitfluganalyse und Widerstandsmessung für Boardformen.'
+  dateModified: '2026-08'
+back_text: 'Zurück zum F&E-Zentrum'
+home_label: 'Startseite'
+
+answer:
+  label: 'Klare Antwort'
+  text: 'Wir testen SUP-Rumpfformen im Versuchstank im Modellmaßstab 1:3 bis 1:5 — Bugprofil, Railradius, Rocker und benetzte Oberfläche — und messen Widerstand, Gleiteffizienz und Stabilität, bevor wir uns auf einen Prototyp in Originalgröße festlegen. Eine Woche im Tank liefert die Performancedaten, die sonst Monate von Versuch und Irrtum in Originalgröße erfordern würden.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Labor 04'
+  title: 'Hydrodynamischer Versuchstank'
+  subtitle: 'Leistungsvalidierung vor dem ersten Prototyp in Originalgröße'
+  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp'
+  image_alt: 'Hydrodynamischer Versuchstank von Vatrad für Performancetests'
+
+intro: 'Es ist eine weit verbreitete Fehlannahme, dass hydrodynamische Tests Schiffen und Rennfahrzeugen vorbehalten sind. Tatsächlich hängt die Leistung eines SUP-Boards — eines Gleitrumpfs von 10 bis 14 Fuß — genauso von seiner Unterwasserform ab wie bei jedem anderen Fahrzeug. Bugprofil, Railradius, Rocker und benetzte Oberfläche haben einen dramatischen Einfluss auf Widerstand, Gleiteffizienz und Stabilität. Bei {SITE.name} betreiben wir einen eigenen hydrodynamischen Versuchstank, der es uns ermöglicht, diese Effekte im Modellmaßstab zu quantifizieren — bevor wir Gewebe und Werkzeuge für einen Prototyp in Originalgröße festlegen.'
+
+content_html: |
+  <h2>Warum ein SUP-Board im Tank testen?</h2>
+  <p>Tests im Modellmaßstab (typischerweise 1:3 bis 1:5) ermöglichen es uns, Boardformen schnell und kostengünstig zu iterieren. Eine Woche im Tank kann dieselben Performancedaten erzeugen, die Monate von Versuch und Irrtum in Originalgröße erfordern würden — und zu einem Bruchteil der Kosten.</p>
+
+  <h2>Anlagen-Spezifikationen</h2>
+  <table>
+    <thead><tr><th>Parameter</th><th>Spezifikation</th></tr></thead>
+    <tbody>
+      <tr><td>Tankmaße</td><td>35 m (L) × 3,5 m (B) × 1,8 m (T)</td></tr>
+      <tr><td>Schleppwagen</td><td>Elektrisch servoverstärkt, Maximalgeschwindigkeit 12 m/s (23 kn), Geschwindigkeitsgenauigkeit ± 0,5 %</td></tr>
+      <tr><td>Wellenerzeuger</td><td>Klappentyp, programmierbare regelmäßige &amp; unregelmäßige Seegänge, Hs bis 0,3 m im Modellmaßstab</td></tr>
+      <tr><td>Messtechnik</td><td>6-Komponenten-Widerstandsmesswaage (Widerstand, Seitenkraft, Giermoment), Beschleunigungssensoren, Neigungsmesser, Wellensonden</td></tr>
+      <tr><td>Datenerfassung</td><td>Abtastrate 1000 Hz pro Kanal, Echtzeit-Anzeige + Nachbearbeitungs-Softwarepaket</td></tr>
+      <tr><td>Modellfertigung</td><td>Hauseigenes CNC-Fräsen und 3D-Druck für Modellrumpfe bis 1,8 m Länge über alles</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Unser Testprogramm</h2>
+  <p>Ein Standard-Boardentwicklungsprogramm in unserem Tank folgt dieser Reihenfolge:</p>
+  <ol>
+    <li><strong>Modellbau</strong> — Ein Modell im Maßstab 1:4 wird aus hochdichtem Schaum CNC-gefräst und zur Versteifung glasfaserverstärkt. Gewicht und Schwerpunkt werden so angepasst, dass der Froude-skalisierte Vollastzustand erreicht wird.</li>
+    <li><strong>Widerstandsläufe</strong> — Das Modell wird bei 6–10 Geschwindigkeiten im Paddelbereich (2–6 kn in Originalgröße) geschleppt. Der Gesamtwiderstand wird gemessen und mit der ITTC-1957-Methode in Reibungs- und Restwiderstand zerlegt.</li>
+    <li><strong>Trimm- &amp; Einsenkungsmessung</strong> — Lauftrimm und Einsenkung werden bei jeder Geschwindigkeit aufgezeichnet. Ziel ist der Trimmwinkel, der die benetzte Oberfläche minimiert und den Bug gleichzeitig klar über der Bugwelle hält.</li>
+    <li><strong>Wellenfelduntersuchung</strong> — Transversale Wellenschnitte werden bei zwei Geschwindigkeiten gemessen, um den Wellenerzeugungswiderstand zu bewerten und Bugform-Wechselwirkungen zu identifizieren, die ein Board durchs Wasser verlangsamen.</li>
+    <li><strong>Seegangslastverhalten (optional)</strong> — Läufe in Gegenwelle mit regelmäßigen Wellen, um den Zusatzwiderstand und die Vertikalbeschleunigung in unruhiger See zu messen — die Daten hinter dem Bugdesign von Touring-Boards.</li>
+    <li><strong>Datenanalyse &amp; Empfehlungen</strong> — Ein vollständiger Bericht wird mit Vergleichsdiagrammen, Widerstand-/Geschwindigkeitskurven und spezifischen Designempfehlungen für das Board in Originalgröße geliefert.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Typische Tanktest-Ergebnisse — Widerstand vs. Geschwindigkeit (11''0-Allround-Board, Maßstab 1:4)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">2 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:18%"></div>
+        </div>
+        <span class="w-16 text-right">11 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">3 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">21 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">4 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:52%"></div>
+        </div>
+        <span class="w-16 text-right">32 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">5 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:68%"></div>
+        </div>
+        <span class="w-16 text-right">42 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">6 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:85%"></div>
+        </div>
+        <span class="w-16 text-right">52 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Modellmaßstäblicher Widerstand (N) bei Froude-skalisierten Geschwindigkeiten. Die Leistungsvorhersage in Originalgröße erfolgt nach der ITTC-1978-Leistungsvorhersagemethode.</p>
+  </div>
+
+  <h2>Expertenteam</h2>
+  <p>Unser Tank wird von einem Hydrodynamiker mit Promotion im Schiffbau und 8 Jahren Erfahrung in einem großen europäischen maritimen Forschungsinstitut betrieben. Ihm steht ein Techniker zur Seite, der alle Modelle und die Messtechnik vorbereitet. Das Team folgt den empfohlenen Verfahren der ITTC (International Towing Tank Conference), um sicherzustellen, dass jeder Test wiederholbar, rückverfolgbar und international verteidigbar ist.</p>
+
+  <h2>Tanktests für die kundenspezifische Boardentwicklung</h2>
+  <p>Unser Tank wird nicht nur für hauseigene Boards verwendet — wir führen regelmäßig Testprogramme für Kunden durch, die eine kundenspezifische Boardform validieren oder ein Leistungsproblem untersuchen möchten:</p>
+  <ul>
+    <li><strong>Formvergleich</strong> — Zwei oder mehr Kandidatenformen werden unter identischen Bedingungen getestet und liefern einen objektiven Widerstands-/Geschwindigkeits-/Stabilitätsvergleich als Entscheidungshilfe für Ihre Designwahl.</li>
+    <li><strong>Rail- &amp; Bugoptimierung</strong> — Variationen von Bugprofil und Railradius können in verschiedenen Konfigurationen getestet werden, um ihren Beitrag zur Widerstandsreduktion zu quantifizieren.</li>
+    <li><strong>Fahrerlaststudie</strong> — Widerstandsdaten werden über den gesamten Fahrergewichtsbereich abgebildet, sodass Sie die richtige Länge und Breite für Ihr Ziel-Paddlersegment spezifizieren können.</li>
+  </ul>
+
+  <h2>Warum bei uns testen?</h2>
+  <p>Wir liefern Ihnen nicht nur eine Reihe von Rohzahlen. Unsere Berichte übersetzen Tankdaten in umsetzbare Engineering-Empfehlungen: „Erhöhen Sie den Bugrocker um 10 mm, um den Bugwellenwiderstand bei Reisegeschwindigkeit zu reduzieren“, „Runden Sie das Rail an der Mittschiffstation ab, um die benetzte Oberfläche zu reduzieren" oder „Verlagern Sie die Stehfläche 50 mm nach vorn für einen besseren Trimm". Sie gehen mit einem klaren Verständnis, was und warum geändert werden sollte.</p>
+  <p>Unser Tank steht auch für unabhängige Tests durch Dritte auf Honorarbasis zur Verfügung. Wenn Sie ein Board entwickeln und eine unvoreingenommen, professionell durchgeführte hydrodynamische Bewertung wünschen, freuen wir uns über Ihre Anfrage.</p>
+
+cta:
+  title: 'Buchen Sie eine Tanktest-Sitzung'
+  subtitle: 'Ob Sie ein vollständiges Entwicklungsprogramm oder einen einzelnen Vergleichstest benötigen — wir können uns Ihrem Zeitplan anpassen.'
+  actions:
+    - variant: primary
+      text: Kontaktieren Sie unser Hydrodynamik-Team
+      href: /contact#project-brief
+    - text: Zurück zum F&E-Zentrum
+      href: /randdcenter

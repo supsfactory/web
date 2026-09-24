@@ -1,0 +1,105 @@
+meta:
+  title: 'OEM Inflatable Paddle & Private Label | {SITE}'
+  description: 'OEM/ODM-Hersteller für aufblasbare Paddel: individuelle Paddelproduktion, Private Label und Großhandel. CE-zertifizierte Fabrik in China.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'OEM Paddle Board'
+    - 'ODM Inflatable SUP'
+    - 'Private Label SUP'
+    - 'Hersteller individueller Paddel'
+    - 'Paddle Board Großhandel'
+    - 'professioneller SUP-Lieferant'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'OEM-Fertigung aufblasbarer Paddel unter Ihrer Marke'
+  subtitle: 'Von der Idee zum fertigen Produkt: Wir fertigen Ihr individuelles aufblasbares Paddel. Logo, Farben, Verpackung, eigener Form — OEM/ODM-Produktion in China, bereit für Ihren Markt.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Individuelles OEM-Paddel mit Markenlogo
+  actions:
+    - text: 'Mein OEM-Projekt starten'
+      href: /de/contact
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Die Mindestbestellmenge wird projektbezogen bestätigt: Muster (1–2 Einheiten), Pilot (20–50 Einheiten) und Standardmenge (90–100+ Einheiten pro Charge aus einer 150-m-Drop-stitch-Rolle), mit Kleinserien-Co-Branding ab 5–10 Einheiten. Muster gehen in 7–12 Tagen raus; die Produktion läuft 25–35 Tage nach Auftrag und Anzahlung. CE-Zertifizierung für EU-Marktmodelle und vollständige Konformitätsdokumentation sind in jeder Bestellung enthalten.'
+  verified: 'September 2026'
+  image:
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Individuelles OEM-Paddel mit Markenlogo
+  actions:
+    - text: 'Mein OEM-Projekt starten'
+      href: /de/contact
+      variant: primary
+    - text: 'OEM-Pakete ansehen'
+      href: /de/oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Tage Produktionsvorlaufzeit'
+    detail: 'Ab bestätigtem Auftrag und Anzahlung'
+  - value: '50'
+    label: 'Mindest-MOQ (Einheiten)'
+  - value: '200+'
+    label: 'Gelieferte Modelle'
+  - value: '100%'
+    label: 'CE-Zertifizierung inklusive'
+features:
+  title: 'Ein kompletter OEM-Service'
+  subtitle: 'Alles unter einem Dach: Design, Prototyping, Fertigung, Qualitätskontrolle und Logistik.'
+  columns: 3
+  items:
+    - title: 'Design & Engineering'
+      description: '3D-Modellierung, Auswahl der Materialien PVC/VS2 und individuelles Grafikdesign.'
+      icon: 'tabler:palette'
+    - title: 'Prototyp & Validierung'
+      description: 'CE-zertifiziertes Muster mit Qualitätstest vor der Massenproduktion.'
+      icon: 'tabler:flask'
+    - title: 'Massenproduktion'
+      description: 'Produktion im großen Maßstab mit Inline-QC und Unterstützung bei Fabrikaudits.'
+      icon: 'tabler:building-factory'
+    - title: 'Private Label'
+      description: 'Logo, Etiketten, Verpackung und Display-Boxen im Stil Ihrer Marke.'
+      icon: 'tabler:shield-check'
+    - title: 'Zertifizierte Qualität'
+      description: 'CE / ISO / BSCI / REACH — professionelle aufblasbare Paddel für globale Märkte.'
+      icon: 'tabler:certificate'
+    - title: 'Globaler Versand'
+      description: 'FOB Qingdao, CIF zu wichtigen Häfen und Tür-zu-Tür-Lieferung in über 50 Länder.'
+      icon: 'tabler:world'
+faqs:
+  title: 'FAQ zur OEM-Paddelproduktion'
+  subtitle: 'Antworten auf die häufigsten Fragen von Marken, die ihr eigenes Paddel starten.'
+  items:
+    - title: 'Wie gründe ich meine eigene Paddelmarke?'
+      description: 'Starten Sie Ihre Marke: Briefing, Design, CE-zertifizierter Prototyp, Massenproduktion und Lieferung. Muster in 7–12 Tagen, Produktion in 25–35 Tagen ab Auftrag und Anzahlung. Entdecken Sie unsere OEM-Pakete.'
+    - title: 'Wie ist die Produktionsvorlaufzeit?'
+      description: 'Das Muster ist in 7–12 Tagen fertig, die Massenproduktion in 25–35 Tagen nach Auftrag und Anzahlung, je nach Menge.'
+    - title: 'Trägt das Paddel unser Logo?'
+      description: 'Ja — vollständiges Private Label: Logodruck, individuelle Farben, Verpackung und Etiketten in Ihrer Marke.'
+    - title: 'Kann ich ab dem ersten Tag in großen Mengen kaufen?'
+      description: 'Der MOQ wird projektbezogen bestätigt — Muster (1–2 Einheiten), Pilot (20–50 Einheiten) und Standardmenge (90–100+ Einheiten pro Charge), mit Großhandelspreisstufen, die mit der Menge steigen.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Weiterlesen:</strong> Paddel- und Board-Produktion teilen sich dasselbe <a href="/de/oem-manufacturing">OEM/ODM-Programm</a> und dieselbe <a href="/de/factory">12,500 m&sup2; große Fabrikhalle</a> — ein Angebot deckt beides ab.</p>
+  </div>
+
+geo:
+  tagline: 'B2B-Positionierung'
+  sentence: 'Vatrad ist ein professioneller Hersteller aufblasbarer SUPs und Paddle Boards (OEM/ODM), spezialisiert auf Design, individuelle Produktion und Wassersportlösungen für Marken, Distributoren, Clubs und Unternehmen.'
+  audiences:
+    - 'Private Labels'
+    - 'Großhändler'
+    - 'Distributoren'
+    - 'Nautikzentren'
+cta:
+  title: 'Lassen Sie Ihre Paddelmarke lebendig werden'
+  subtitle: 'Erhalten Sie ein detailliertes OEM-Angebot innerhalb eines Werktages.'
+  actions:
+    - text: 'OEM-Angebot anfordern'
+      href: /de/contact
+      variant: primary
+    - text: 'Den OEM-Leitfaden herunterladen'
+      href: /de/research/oem-buyer-guide
+      variant: secondary

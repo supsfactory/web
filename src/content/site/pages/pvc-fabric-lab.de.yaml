@@ -1,0 +1,111 @@
+meta:
+  title: 'PVC-Stofflabor — Materialprüfung für SUP-Boards'
+  description: 'Materialprüfung von der Faser bis zum fertigen Board: Zugfestigkeit, UV-Bewitterung, Kälteflexibilität und Abriebfestigkeit für SUP-PVC-Gewebe.'
+back_text: 'Zurück zum F&E-Zentrum'
+home_label: 'Startseite'
+
+hero:
+  tagline: 'Labor 01'
+  title: 'PVC-Stofflabor'
+  subtitle: 'Wissenschaftliche Materialprüfung — von der Faser bis zum fertigen Board'
+  image: 'https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp'
+  image_alt: 'Materialprüflabor für PVC-Gewebe von Vatrad'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Boards werden aus 1,680 DTEX Marine-PVC mit einer Dreischicht-Beschichtung und einem auf 12–15 PSI ausgelegten Drop-stitch-Kern gebaut. Jede eingehende Gewebecharge wird werkseitig unabhängig geprüft — Zugfestigkeit (ISO 1421), UV-Rückhalt nach 2,000 Stunden Xenon-Lampen-Bestrahlung (ISO 4892), Abrieb und Kälteflexibilität — keine Charge geht allein auf Basis der Lieferantendatenblätter in die Produktion.'
+  verified: 'September 2026'
+
+intro: 'Das Board-Gewebe ist das mit Abstand wichtigste Material in einem aufblasbaren SUP. Es muss dauerhafter UV-Bestrahlung, wiederholten Inflationszyklen, Abrieb an Decks und Sandstränden sowie extremen Temperaturschwankungen standhalten — und dabei über Jahre seine strukturelle Integrität bewahren. Bei {SITE.name} ist unser PVC-Stofflabor ausschließlich der Charakterisierung, Validierung und kontinuierlichen Verbesserung der Gewebe gewidmet, die wir in jedem von uns gebauten Board verwenden.'
+
+content_html: |
+  <h2>Das Fundament jedes aufblasbaren SUP</h2>
+  <p>Wir verlassen uns nicht allein auf Lieferantendatenblätter. Jede Charge PVC- und Drop-stitch-Kern-Gewebe, die in unsere Werkstatt kommt, wird intern unabhängig geprüft. Das garantiert, dass die veröffentlichte Materialspezifikation auch die Materialleistung ist, die Sie erhalten — Los für Los, Jahr für Jahr.</p>
+
+  <h2>Standardisierte Prüfausrüstung</h2>
+  <p>Unser Stofflabor ist mit industriellen Prüfgeräten ausgestattet, die den Prüfmethoden ISO, ASTM und EN entsprechen:</p>
+  <table>
+    <thead><tr><th>Ausrüstung</th><th>Gemessene Parameter</th><th>Standard</th></tr></thead>
+    <tbody>
+      <tr><td>Universalzugprüfmaschine (50 kN)</td><td>Bruchkraft, Bruchdehnung, Weiterreißverhalten</td><td>ISO 1421 / ASTM D751</td></tr>
+      <tr><td>Xenon-Lampen-Bewitterungskammer</td><td>UV-Beständigkeit (Farbveränderung, Festigkeitserhalt nach 2000 h)</td><td>ISO 4892 / ASTM G155</td></tr>
+      <tr><td>Kälteflex-Prüfgerät</td><td>Bruchtermpunkt bei -30 °C bis -50 °C</td><td>ISO 4675 / ASTM D2136</td></tr>
+      <tr><td>Taber-Abriebprüfer</td><td>Gewichtsverlust nach 1000 Zyklen (CS-10-Rad)</td><td>ASTM D3389 / ISO 5470-1</td></tr>
+      <tr><td>Dickenmessgerät (digital, 0.001 mm Auflösung)</td><td>Gleichmäßigkeit über die Rollenbreite</td><td>ISO 2286-3</td></tr>
+      <tr><td>Wassersäulen-Prüfgerät</td><td>Wasserdurchdringungswiderstand</td><td>ISO 811</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Alle Geräte werden jährlich von akkreditierten Drittlabors kalibriert.</p>
+
+  <h2>Von Daten zur Entscheidung: ein typischer Prüfablauf</h2>
+  <p>Wenn eine neue Stoffkandidatur eintrifft, durchläuft sie einen standardisierten Sieben-Schritte-Qualifizierungsprozess:</p>
+  <ol>
+    <li><strong>Eingangsprüfung</strong> — Sichtprüfung auf Oberflächenfehler, Nadellöcher und Maßhaltigkeit.</li>
+    <li><strong>Dickenkartierung</strong> — 20-Punkte-Messung über die Rolle; CV &lt; 3 % ist für die Annahme erforderlich.</li>
+    <li><strong>Zugprüfung</strong> — 5 Proben in Kett- und Schussrichtung. Mindestens 3500 N/50 mm für PVC mit 1100 dtex.</li>
+    <li><strong>UV-Konditionierung</strong> — 1000 h Bestrahlung in der Xenon-Lampen-Kammer; mindestens 80 % Festigkeitserhalt erforderlich.</li>
+    <li><strong>Kältebruch</strong> — 4 h bei -35 °C, danach 180°-Biegung über einen 25-mm-Dorn. Keine sichtbaren Risse.</li>
+    <li><strong>Abriebfestigkeit</strong> — 1000 Zyklen, Gewichtsverlust ≤ 0.05 g.</li>
+    <li><strong>Freigabe</strong> — erst nach dem Passieren aller sieben Tore wird das Gewebe für die Produktion freigegeben.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Typisches PVC 1100 dtex — Zugfestigkeitserhalt nach UV-Bestrahlung</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 h 100%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">500 h 95%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">1000 h 88%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
+        <span class="text-xs mt-1">2000 h 82%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
+        <span class="text-xs mt-1">Wettbewerber ~65%</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Unser PVC-Gewebe 1100 dtex behält nach 2000 h Xenon-Lampen-Bestrahlung mehr als 80 % Zugfestigkeit — gegenüber üblichen Industrieklassen, die unter 70 % fallen.</p>
+  </div>
+
+  <h2>Unser Fachteam</h2>
+  <p>Das Labor wird von zwei Vollzeit-Materialingenieuren besetzt, die jeweils einen Abschluss in Polymerwissenschaft oder Textiltechnik mit mindestens sechs Jahren Branchenerfahrung besitzen. Unterstützt werden sie von drei Technikern, die die täglichen Prüfungen und Datenprotokollierung durchführen. Das Team nimmt regelmäßig an den Ringversuchen teil, die von der Internationalen Organisation für Normung (ISO) organisiert werden, um die Genauigkeit unserer Prüfmethoden zu validieren.</p>
+
+  <h2>Ihre schwierigsten Materialherausforderungen lösen</h2>
+  <p>Jede Paddel-Umgebung ist anders. Ein Board in den Tropen ist völlig anderen UV- und Temperaturbedingungen ausgesetzt als eines auf einem nordischen See oder einem Wüstenreservoir. Unser Stofflabor hilft Ihnen, eine Stoff spezifikation auszuwählen — oder zu entwickeln —, die auf Ihr Einsatzprofil optimiert ist.</p>
+  <p>Jüngste Sonderlösungen umfassen:</p>
+  <ul>
+    <li>Eine hochabriebfeste PVC-Mischung für einen Verleihbußpark, dessen Boards regelmäßig Sandstrände und Betonrampen berühren (+40 % Abrieblebensdauer).</li>
+    <li>Eine Tiefkühl-Formulierung für ein kanadisches Winterlager-Händlerprogramm, getestet bis -50 °C ohne Versprödung.</li>
+    <li>Ein farbstabilisiertes Orangefarbenes Deck für einen Rettungs- und Suchtrainings-fuhrpark, das die Sichtbarkeit nach 3 Jahren tropischer Sonneneinstrahlung bewahrt.</li>
+  </ul>
+  <p>Wir verkaufen keine „Standardware"-Gewebe in der Hoffnung, dass sie funktionieren. Wir testen, validieren und empfehlen — oder entwickeln — eine maßgeschneiderte Lösung für Ihr spezifisches Missionsprofil. Das ist der {SITE.name}-Unterschied.</p>
+
+  <h2>Wie wir Ihnen dienen</h2>
+  <p>Wenn Sie mit einer Materialherausforderung zu uns kommen, können Sie Folgendes erwarten:</p>
+  <ol>
+    <li><strong>Beratung</strong> — wir besprechen Ihre Einsatzumgebung, Leistungsziele und Ihr Budget.</li>
+    <li><strong>Angebot</strong> — ein Testplan wird mit klaren Bestanden/Nicht-bestanden-Kriterien und einem Zeitplan erstellt.</li>
+    <li><strong>Durchführung</strong> — unser Labor führt die Tests durch und erstellt einen detaillierten Bericht mit Rohdaten und vergleichender Analyse.</li>
+    <li><strong>Empfehlung</strong> — wir präsentieren eine Stoff spezifikation, einschließlich alternativer Optionen, falls mehrere Materialien Ihre Anforderungen erfüllen.</li>
+    <li><strong>Nachbetreuung</strong> — nach der Lieferung bleiben wir für alle Fragen zum Material im Einsatz verfügbar.</li>
+  </ol>
+  <p>Unser Ziel ist nicht nur, Ihnen ein Board zu verkaufen. Es geht darum, sicherzustellen, dass das Board, das Sie erhalten, unter den Bedingungen zuverlässig funktioniert, in denen Sie es einsetzen — und das beginnt mit dem Gewebe.</p>
+
+cta:
+  title: 'Brauchen Sie eine individuelle Stoff spezifikation?'
+  subtitle: 'Kontaktieren Sie unser Material-Engineering-Team, um Ihre Anforderungen zu besprechen.'
+  actions:
+    - variant: primary
+      text: Unser Laborteam kontaktieren
+      href: /de/contact#project-brief
+    - text: Zurück zum F&E-Zentrum
+      href: /de/randdcenter

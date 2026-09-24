@@ -1,0 +1,219 @@
+meta:
+  title: 'Individuelles SUP-MOQ & Lieferzeit: Vom Muster bis zu Container-Chargen'
+  description: 'Individuelle SUP-MOQ und Lieferzeit-Stufen: Muster in 7–12 Tagen, Pilotbestellungen von 20–50 Boards, Standardvolumen von 90–100+ pro 150-m-Rolle, Produktion in 25–35 Tagen.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'individuelles SUP-MOQ'
+    - 'SUP-Produktionslieferzeit'
+    - 'Mindestbestellmenge aufblasbares SUP'
+    - 'SUP-Pilotbestellung'
+    - 'Lieferzeit individuelles Paddelboard'
+    - 'Lieferzeit OEM-SUP-Fabrik'
+    - 'SUP-Musterbestellung'
+
+hero:
+  tagline: 'Individuelles SUP-MOQ & Lieferzeit'
+  title: 'Vom Muster bis zu Container-Chargen — MOQ und Lieferzeit, verständlich erklärt'
+  subtitle: 'Eine verständliche Aufschlüsselung der Bestellmengen-Stufen und Produktionslieferzeiten für individuelle aufblasbare SUPs: was Sie in jeder Stufe bestellen können, wie lange jede Stufe tatsächlich dauert und wie sich Muster-, Pilot- und Volumenbestellung in ein einziges Projekt fügen. Konstruiert und betrieben von der Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Projektspezifisches MOQ & Lieferzeit-Breakdown anfordern
+      href: /contact#moq-guide
+    - text: Der MOQ- & Flexible-Branding-Leitfaden
+      href: /oem-moq-guide
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'MOQ und Lieferzeit sind projektspezifisch, aber der Rahmen ist festgelegt. Jedes individuelle SUP-Projekt durchläuft dieselben gestaffelten Stufen: Musterentwicklung (1–2 Boards, in 7–12 Tagen fertig), Probebestellungen und Pilotbestellungen (20–50 Boards) sowie Standardvolumen-Läufe (90–100+ Boards pro 150-m-Drop-Stitch-Rolle). Die Produktionslieferzeit beträgt 25–35 Tage ab bestätigter PO und Anzahlung; wenn Ihr Projekt einen individuellen Rumpf erfordert, kommt die Formenentwicklung mit 15–20 Tagen vor Produktionsbeginn hinzu. Ein typisches Erstprojekt sieht also so aus: Muster in etwa 1–2 Wochen, Pilot-Boards in 4–6 Wochen und der erste volle Lauf, der ca. 6–8 Wochen nach Bestellbestätigung versendet wird.'
+  verified: 'September 2026'
+
+moq_lead_table:
+  tagline: 'Der Rahmen'
+  title: 'Die Stufen für individuelles SUP-MOQ & Lieferzeit im Überblick'
+  subtitle: 'Jede Stufe validiert die nächste. Sie springen nie direkt von einer Zeichnung zu einem Container — Sie bestätigen Rumpf, Grafiken und Verpackung in jeder Stufe, bevor Sie sich für weitere Boards festlegen.'
+  headers:
+    stage: 'Bestellstufe'
+    quantity: 'Typische Menge'
+    lead_time: 'Lieferzeit'
+    best_for: 'Am besten geeignet für'
+  rows:
+    - stage: 'Musterentwicklung'
+      quantity: '1–2 Boards'
+      lead_time: '7–12 Tage'
+      best_for: 'Validierung der Rumpfsteifigkeit, der EVA-Traktionpad-Textur, der Grafikgenauigkeit und der Zubehörpassung. Mustergebühren gelten und werden bei Vertragsunterzeichnung mit Ihrer Produktionsbestellung verrechnet.'
+    - stage: 'Probebestellung / Pilotbestellung'
+      quantity: '20–50 Boards'
+      lead_time: '25–35 Tage'
+      best_for: 'Wirtschaftliche Tests vor der Saison, Marktvalidierung und erste Abverkäufe mithilfe bestehender Rumpfplattformen, Lagermaterialien und vereinfachter Verpackung.'
+    - stage: 'Standard-Volumenlauf'
+      quantity: '90–100+ Boards pro 150-m-Rolle'
+      lead_time: '25–35 Tage'
+      best_for: 'Volle Produktionseffizienz auf kompletten 150-m-Geweberollen — kein Gewebespleißen, gleichmäßige Faserspannung und amortisierte Linieneinrichtung. Individuelle Formen laufen auf dieser Stufe.'
+    - stage: 'Großes Programm'
+      quantity: '300+ Boards'
+      lead_time: '25–35 Tage pro Charge, gestaffelte Versendungen'
+      best_for: 'Container-Programme und saisonale Flotten, geplant über mehrere Produktionschargen, damit Ihr Lager und Ihr Cashflow überschaubar bleiben.'
+
+moq_drivers:
+  tagline: 'Was Ihr MOQ bestimmt'
+  title: 'Die sechs Faktoren, die Ihre Mindestmenge entscheiden'
+  subtitle: 'MOQ ist keine willkürliche Zahl, die ein Vertriebsteam wählt. Sie wird aus der vollständigen Produktarchitektur berechnet — diese Komponenten werden vor der Angebotserstellung zusammen bewertet.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Rumpfform & Werkzeugbau'
+      desc: 'Vorhandene Werks-Rockerformen erlauben Pilotbestellungen ab 20 Boards. Ein individueller Rumpf erfordert dedizierte CAD-Schneidwerkzeuge und EVA-Heißpresswerkzeuge, und der Werkzeugbau ergänzt 15–20 Tage zum Zeitplan.'
+    - icon: C
+      icon_bg: green
+      title: 'Farbvarianten & PVC'
+      desc: 'Standard-Lagerfarben laufen in Pilotmengen, während proprietäre, Pantone-gefärbte PVC-Bahnen eigene chemische Färbläufe mit eigenen Rohstoff-Mindestmengen erfordern.'
+    - icon: A
+      icon_bg: purple
+      title: 'Gestaltung & Druckabdeckung'
+      desc: 'Ein Nasenlogo kann in kleinen Läufen siebgedruckt werden, während ganzflächige oder mehrpanelige Gestaltungen Digitaldruck-Plattenaufbau und Deckungstests erfordern, was die praktische Chargengröße erhöht.'
+    - icon: B
+      icon_bg: orange
+      title: 'Gebrandete Verpackung'
+      desc: 'Individuelle 5-schichtige Einzelhandels-Geschenkboxen haben ein eigenes Mindestauflageproblem im Offsetdruck. Bestellen Sie weniger Boxen, lagern wir den Überschuss und geben ihn über Ihre geplanten Versendungen frei.'
+    - icon: G
+      icon_bg: blue
+      title: 'Zubehörpakete'
+      desc: 'Standard-Aluminium- oder Nylonpaddel, Pumpen und Taschen folgen Unterstufen-Lieferchargen. Vollständig gebrandete Carbonpaddel und individuelle Pumpen folgen eigenen Produktionsmindestmengen.'
+    - icon: S
+      icon_bg: green
+      title: 'Saison- & Zahlungsplanung'
+      desc: 'Bestellungen, die im Vor-Saison-Fenster aufgegeben werden, erhalten bestätigte Produktionsslots. Gestaffelte Versandpläne für 300+-Board-Programme werden beim Vertrag bestätigt, nicht nach der Produktion.'
+
+moq_timeline:
+  tagline: 'Ende-zu-Ende-Zeitplan'
+  title: 'Vom Produkt-Briefing zu versendeten Boards: Tag für Tag'
+  subtitle: 'Der vollständige Zeitplan für ein typisches individuelles SUP-Programm. Bestehende Rumpfplattformen komprimieren die linke Seite dieser Zeitleiste; ein individueller Rumpf ergänzt die Formenentwicklungsphase.'
+  steps:
+    - step: 'Tag 0'
+      title: 'Reichen Sie Ihr Produkt-Briefing ein'
+      desc: 'Board-Modell, Zielmenge, Farbvarianten, Gestaltung und Verpackungsanforderungen. Die Engineering-Prüfung wird innerhalb eines Werktags abgeschlossen.'
+    - step: 'Tage 1–2'
+      title: 'Engineering-Prüfung & Machbarkeit'
+      desc: 'Unser Engineering-Team prüft Rumpfgeometrie, Materialien und Konformitätspfad und bestätigt, ob das Projekt zu bestehenden Plattformen passt oder neues Werkzeug benötigt.'
+    - step: 'Tage 3–7'
+      title: 'Spezifikation & aufgeschlüsseltes Angebot'
+      desc: 'Sie erhalten die vollständige Spezifikation mit MOQ-Berechnung, Lieferzeitsegmenten und aufgeschlüsselten Kosten — einschließlich eventueller Formenkosten — vor jeder Festlegung.'
+    - step: 'Tage 7–12'
+      title: 'Musterentwicklung (1–2 Boards)'
+      desc: 'Physisches Muster gebaut und getestet: Rumpfsteifigkeit, EVA-Traktionpad-Textur, Grafikgenauigkeit und Zubehörpassung. Mustergebühren werden bei Freigabe auf die Produktionsbestellung angerechnet.'
+    - step: '+15–20 Tage'
+      title: 'Entwicklung individueller Formen (nur individuelle Rümpfe)'
+      desc: 'Nur für Projekte mit neuer Rumpfform: CNC-Schneidwerkzeuge, EVA-Heißpresswerkzeuge und Formversuche werden abgeschlossen, bevor die Volumenproduktion starten kann.'
+    - step: '25–35 Tage'
+      title: 'Produktion nach bestätigter PO & Anzahlung'
+      desc: 'Vollständige 150-m-Geweberollen, Pantone-Materialien, gebrandete Verpackung und 100-Punkte-Montage. Jedes Board durchläuft 24-stündige Druck- und Luftdichtigkeitsprüfungen.'
+    - step: '300+ Boards'
+      title: 'Planung gestaffelter Versendungen'
+      desc: 'Große Programme werden über geplante Chargen versendet, um saisonalem Abverkauf, Lagerkapazität und Zahlungsmeilensteinen zu entsprechen.'
+    - step: 'Tag 0–90'
+      title: 'Typischer Erstbestellungs-Horizont'
+      desc: 'Vom Briefing bis zum gelieferten ersten Lauf: ca. 6–8 Wochen bei bestehenden Plattformen, 8–12 Wochen inklusive individueller Form. Multi-Rollen- und Container-Programme gehen bewusst darüber hinaus.'
+
+expedite:
+  tagline: 'Zeitplan kurz halten'
+  title: 'Was die Lieferzeit eng hält'
+  subtitle: 'Drei Hebel erlauben es Ihnen, den Zeitplan zu komprimieren, ohne die Grundlagen der Rollenphysik zu verändern.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Muster sind standardmäßig schnell'
+      desc: 'Die Musterentwicklung dauert in jedem Projekt 7–12 Tage. Nutzen Sie die Musterrunde, um Ihre Spezifikation einzufrieren, damit die Produktion nie auf späte Gestaltungsentscheidungen warten muss.'
+    - icon: P
+      icon_bg: green
+      title: 'Produktionsslots werden im Voraus bestätigt'
+      desc: 'Vor-Saison-Bestellungen sichern bestätigte Produktionsslots. Dass mehrere Kunden denselben Slot buchen, ist genau der Grund, warum frühere Anzahlungen frühere Linien bekommen.'
+    - icon: T
+      icon_bg: purple
+      title: 'Transparente Stufen-Gates'
+      desc: 'Jedes Gate — Musterfreigabe, BOM-Einfrieren, Gestaltungseinfrieren, PO und Anzahlung — wird beim Vertrag mit einem Datum vereinbart. Sie wissen immer, an welchem Tag die Uhr neu startet.'
+
+scenarios:
+  tagline: 'Drei realistische Einstiegspunkte'
+  title: 'Welche Route passt zu Ihrem Projekt?'
+  subtitle: 'Dieselbe Fabrik, drei verschiedene Wege hinein. Wählen Sie das Szenario, das Ihrer Situation am nächsten kommt, und nutzen Sie es, wenn Sie uns kontaktieren.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Startup-Marke: Validieren, bevor Sie sich festlegen'
+      desc: 'Bestellen Sie zuerst 1–2 Muster (7–12 Tage), testen Sie Fahrqualität und Fotografie und geben Sie dann eine Probebestellung über 20–50 Boards auf, um den Abverkauf vor jedem vollen Lauf zu testen. Das Gesamtexposure der ersten Saison bleibt unter 50 Boards.'
+    - icon: B
+      icon_bg: blue
+      title: 'Resort oder Verleihbetreiber: Pilotieren, dann skalieren'
+      desc: 'Eine Pilotbestellung von 20–50 Boards mit vereinfachter Verpackung trägt Sie durch die Vor-Saison. Nachdem die Auslastungsdaten vorliegen, skalieren Sie auf Standardläufe mit 90–100+ Boards und gebrandeter Verpackung.'
+    - icon: C
+      icon_bg: green
+      title: 'Etablierte Marke: Volle Container-Programme'
+      desc: 'Bestehende Marken bestellen 90–100+ Boards pro 150-m-Rolle mit individuellen Rümpfen und ganzflächigem Branding. Individuelles Formwerkzeug ergänzt 15–20 Tage; 300+-Board-Programme versenden nach gestaffelten Zeitplänen.'
+
+moq_quality:
+  tagline: 'QC & Konformität'
+  title: 'Dasselbe Qualitätssystem in jeder Bestellgröße'
+  subtitle: 'Ein 1-Board-Muster und ein 300+-Board-Programm laufen durch dieselben Qualitätsgates und dieselbe Konformitätsdokumentation. „Niedriges MOQ" bedeutet nie „niedriger Standard".'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Konformitätsdokumente, jede Größe'
+      desc: 'CE-, ISO-9001-, BSCI-, REACH- und RoHS-Zertifizierungsdokumentation wird mit jeder Bestellung geliefert — einschließlich einzelner Muster — mit Zertifikatsnummern auf Anfrage.'
+    - icon: A
+      icon_bg: green
+      title: '100-Punkte-Montagecheckliste'
+      desc: 'Jedes Board besteht unabhängig von der Chargengröße dieselbe 100-Punkte-Montagecheckliste: Materialien, Schweißnähte, Ventile, Rails, Finnen und Zubehörpassung werden Zeile für Zeile geprüft.'
+    - icon: P
+      icon_bg: purple
+      title: '24-stündige Druck- und Luftdichtigkeitsprüfung'
+      desc: 'Jedes Board wird auf 18.0 PSI aufgepumpt und 24 Stunden gehalten. Ein Druckabfall über 0.50 PSI löst die automatische Aussonderung aus — dasselbe Gate für ein Muster und einen Container.'
+    - icon: R
+      icon_bg: orange
+      title: 'Verifizierung von HF-Schweißung & Rail-Fusion'
+      desc: 'Dreischichtige Rail-Band-Fusion und HF-Schweißnähte werden vor jedem Produktionslauf visuell und maßlich gegen das freigegebene Muster verifiziert.'
+    - icon: B
+      icon_bg: blue
+      title: 'ERP-Chargenrückverfolgbarkeit (10 Jahre)'
+      desc: 'Jedes Board trägt seriennummerierte Produktionsaufzeichnungen — Materialien, Operatoren, Tests und Inspektionsergebnisse — die 10 Jahre aufbewahrt und für Audits bereitgestellt werden.'
+    - icon: I
+      icon_bg: green
+      title: 'Bereit für Drittinspektion'
+      desc: 'Die Chargenproduktion ist zu jedem Zeitpunkt für Drittinspektionen bereit. Die meisten Kunden setzen bei Volumenprogrammen außerdem unser 7-stufiges Inspektionssystem oder eine Vorversandinspektion ein.'
+
+moq_faqs:
+  tagline: 'FAQ'
+  title: 'Häufig gestellte Fragen zu MOQ & Lieferzeit'
+  items:
+    - q: 'Wie hoch ist die Mindestbestellmenge für ein individuelles SUP?'
+      a: 'Das hängt von der Stufe Ihres Projekts ab: Muster sind 1–2 Boards, Co-Branding-Kleinmengen starten bei 5–10 Einheiten, Probebestellungen und Pilotbestellungen laufen mit 20–50 Boards, und die Standardvolumenproduktion läuft mit 90–100+ Boards pro 150-m-Drop-Stitch-Geweberolle. Individuelle Formen laufen auf der Volumenstufe. Wir bestätigen die exakte Berechnung für Ihre Konfiguration vor der Angebotserstellung.'
+    - q: 'Wie lange dauert ein aufblasbares SUP-Muster?'
+      a: 'Die Musterentwicklung dauert 7–12 Tage. Das Muster verifiziert Rumpfsteifigkeit, EVA-Traktionpad-Textur, Grafikgenauigkeit und Zubehörpassung. Mustergebühren gelten und werden bei Vertragsunterzeichnung auf Ihre Produktionsbestellung angerechnet.'
+    - q: 'Wie lange dauert die Produktion, nachdem ich die Bestellung bestätigt habe?'
+      a: 'Die Produktionslieferzeit beträgt 25–35 Tage ab bestätigter PO und Anzahlung. Wenn Ihr Projekt einen individuellen Rumpf umfasst, ergänzt die individuelle Formenentwicklung 15–20 Tage Werkzeugbau vor Produktionsbeginn.'
+    - q: 'Wird das MOQ pro Bestellung, pro Modell oder pro Farbvariante berechnet?'
+      a: 'Das MOQ kann pro Modell, Farbvariante, Gestaltungsversion, Verpackungskonfiguration oder Gesamtbestellung gelten. Da unterschiedliche Drop-Stitch-Dicken und PVC-Farben aus getrennten Rohstoffrollen stammen, erzeugt eine Bestellung von 50 Boards, auf 5 Farben verteilt, 5 getrennte Geweberollen-Anforderungen. Wir bestätigen die Berechnung gegen Ihre SKU-Matrix.'
+    - q: 'Kann ich mit nur 1–2 Boards starten, um den Markt zu testen?'
+      a: 'Ja. Eine Musterbestellung über 1–2 Boards ist die günstigste mögliche Validierung: Rumpfsteifigkeit, Grafiken und Zubehörpassung werden bestätigt, bevor Sie sich finanziell auf einen Lauf festlegen. Von dort steigen Sie für die wirtschaftliche Validierung auf eine Probebestellung über 20–50 Boards auf.'
+    - q: 'Kann ein 300+-Board-Programm in mehreren Chargen versendet werden?'
+      a: 'Ja. Große Programme können als gestaffelte Versendungen über Produktionschargen geplant werden, sodass saisonale Flotten dann eintreffen, wenn sie benötigt werden, und Cashflow sowie Lagerfläche überschaubar bleiben. Zeitpläne werden beim Vertrag bestätigt, nicht nach der Produktion.'
+
+evidence_review:
+  tagline: 'Nachweise & Verifizierung'
+  title: 'VERIFIZIERTE SPEZIFIKATIONEN'
+  body: 'Alle Fertigungsangaben auf dieser Seite werden von unserem Manufacturing Engineering Team im Werk Laixi, Qingdao, verifiziert. Zertifikate, QC-Inspektionsaufzeichnungen, Druck- und Strukturprüfberichte sowie Chargenrückverfolgbarkeitsaufzeichnungen sind auf Anfrage verfügbar. Spezifikationen zuletzt verifiziert im September 2026.'
+
+cta:
+  title: 'Ihr projektspezifisches MOQ & Ihre Lieferzeit erhalten?'
+  subtitle: 'Senden Sie uns Ihr Board-Modell, Ihre Zielmenge für die erste Saison und Ihre Branding-Anforderungen. Unser Engineering-Team bestätigt, ob ein Muster-, Probe- oder Volumenweg passt — mit der exakten MOQ-Berechnung und einem Tag-für-Tag-Zeitplan. Eine Anfrage verpflichtet Sie nicht zu einer Bestellung.'
+  actions:
+    - variant: primary
+      text: MOQ- & Lieferzeit-Breakdown anfordern
+      href: /contact#moq-guide
+    - text: Am Flexible-Branding-Leitfaden messen
+      href: /oem-moq-guide
+    - text: Mit einer Low-MOQ-Probeorder eine neue Marke launchen
+      href: /new-brand-trial-order
+    - text: Fabrik & Qualitätssystem verifizieren
+      href: /oem-trust-assurance

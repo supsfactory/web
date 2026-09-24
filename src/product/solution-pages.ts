@@ -1164,6 +1164,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Parlez de votre programme SUP scolaire',
     },
   ],
+  de: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Individuelle SUP-Fertigung',
+      metaTitle: 'Individuelle SUP-Entwicklung | Lösungen für maßgeschneiderte Paddelboards',
+      metaDescription:
+        'Entwickeln Sie individuelle SUP-Produkte mit SUPsfactory. Wir unterstützen Produktanforderungen, Individualisierung, Prototypen und Fertigung für Unternehmen und Organisationen.',
+      kicker: 'Hersteller individueller SUPs',
+      serviceType: 'Entwicklung individueller SUP-Produkte',
+      answer:
+        'Wir entwickeln aufblasbare SUPs, Hardboards und Zubehör nach Ihren Anforderungen — Form, Grafiken, Materialien und Verpackung — von der Konstruktion über Muster bis zur Produktion. Individuelle Projekte starten ab 90–100+ Stück pro 150-m-Rolle (Menge); Muster versenden wir in 7–12 Tagen, die Produktion dauert 25–35 Tage nach bestätigter Bestellung und Anzahlung.',
+      h1: 'Individuelle SUP-Produkte, die auf Ihre Anforderungen zugeschnitten sind',
+      intro: [
+        'Sie brauchen Paddelboards nach Ihrer Spezifikation — Form, Grafiken, Materialien, Verpackung — ohne selbst eine Fabrik zu betreiben. Wir sind der Fertigungspartner, der Ihre Anforderung aufnimmt und ein lieferbares Produkt zurückgibt.',
+        'Jedes Projekt wird von einem festen Spezialisten betreut, der Design, Muster, Produktion und Lieferung steuert, sodass Sie jederzeit wissen, wo Ihr Auftrag steht.',
+      ],
+      scenario: {
+        title: 'Sie brauchen Boards nach Ihrer Spezifikation',
+        body: 'Eine Produktanforderung — kein Katalogprodukt. Ihre Formpräferenzen, Ihre Grafiken, Ihr Qualitätsniveau, Ihre Verpackung. Wir konstruieren, bemustern und produzieren auf erprobten Plattformen, mit Flexibilität schon ab dem ersten kleinen Los.',
+      },
+      pairs: [
+        {
+          problem: 'Fabrikkataloge bieten nur Standarddesigns, die Sie nicht ändern können.',
+          solution: 'Wir produzieren individuelle Boards mit Ihren Formen, Grafiken und Spezifikationen — vom ersten Muster bis zur vollen Serienproduktion.',
+        },
+        {
+          problem: 'Hohe Mindestmengen binden Sie an Lagerbestände, bevor der Markt validiert ist.',
+          solution: 'Individuelle Mengenproduktion startet ab 90–100+ Stück pro Design, während Pilotproduktionen auf bestehenden Plattformen ab 20–50 Stück möglich sind — erste Lose bleiben klein, der Stückpreis bleibt fair.',
+        },
+        {
+          problem: 'Sie haben kein Design- oder Engineering-Team an Ihrer Seite.',
+          solution: 'Unser hauseigenes Design- und Engineering-Team verwandelt Idee, Skizze oder Referenzboard in produktionsreife Zeichnungen.',
+        },
+        {
+          problem: 'Unbekannte Fabrikqualität und langsame Kommunikation.',
+          solution: 'Ein Projektspezialist betreut Muster, Qualitätskontroll-Meilensteine und Liefertermine vom Anfang bis zum Ende — ein Ansprechpartner, klare Updates.',
+        },
+      ],
+      steps: [
+        { title: 'Projekt einreichen', body: 'Teilen Sie uns Ihre Anforderungen mit oder senden Sie Skizzen und Referenzbilder.' },
+        { title: 'Design und Muster', body: 'Wir entwickeln die Zeichnungen und versenden innerhalb von 7–12 Tagen ein physisches Muster.' },
+        { title: 'Freigabe und Produktion', body: 'Nach Ihrer Freigabe läuft die Produktion 25–35 Tage mit mehrstufiger Qualitätskontrolle.' },
+        { title: 'Lieferung und Nachbestellung', body: 'Weltweiter Export mit professioneller Verpackung, plus Nachbestell-Service bei gleichbleibender Qualität.' },
+      ],
+      caseStudy: {
+        title: 'Sortimentserweiterung einer Outdoor-Marke',
+        body: 'Eine Outdoor-Ausrüstungsmarke stieg mit einem gebrandeten Touring-Board in den Paddelsport ein. Wir entwickelten das Board aus einer groben Skizze, erreichten die Musterfreigabe in 15 Tagen und fertigten die erste Serie in 25–35 Tagen.',
+        tags: ['Board-Entwicklung', 'Gebrandete Grafiken', 'Erste Serienproduktion'],
+      },
+      faqs: [
+        {
+          q: 'Können Sie ein SUP-Produkt aus meiner Idee entwickeln?',
+          a: 'Ja. Wir unterstützen Sie bei der Bewertung Ihrer Anforderungen und entwickeln eine produktionsreife Lösung — vom Konzept und den Zeichnungen bis zum physischen Muster.',
+        },
+        {
+          q: 'Kann ich SUP-Grafiken und Farben individualisieren?',
+          a: 'Ja. Individuelle Grafiken, Farben und Branding-Elemente können je nach Projektanforderung entwickelt werden.',
+        },
+        {
+          q: 'Wie hoch ist die Mindestbestellmenge für individuelle SUP-Fertigung?',
+          a: 'Individuelle Mengenproduktion startet ab 90–100+ Stück pro Design, mit Pilotproduktionen ab 20–50 Stück auf bestehenden Plattformen. Größere Mengen sichern bessere Stückpreise, und Nachbestellungen behalten Ihr Werkzeug und Ihre Designs.',
+        },
+        {
+          q: 'Was kann an einem Board individualisiert werden?',
+          a: 'Form und Maße, Konstruktion und Materialien, Grafiken und Logos, EVA-Pad-Layout, Zubehör (Paddel, Pumpe, Tasche) und Verpackung.',
+        },
+        {
+          q: 'Stellen Sie vor der Produktion Muster bereit?',
+          a: 'Ja — vor jeder Serie wird ein physisches Muster produziert und freigegeben. Die Musterzeit beträgt in der Regel 7–12 Tage.',
+        },
+        {
+          q: 'Können Sie nur mit meinen Marken-Assets arbeiten, ohne ein volles Designteam?',
+          a: 'Ja. Unser Designteam entwickelt produktionsreife Vorlagen aus Ihrem Logo, Ihren Markenfarben oder einem groben Konzept.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Besprechen Sie Ihr individuelles SUP-Projekt',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'Paddleboards unter Privatlabel',
+      metaTitle: 'SUP-Fertigung unter Privatlabel | Individuelle SUP-Produktion',
+      metaDescription:
+        'SUPsfactory unterstützt die SUP-Fertigung unter Privatlabel für bestehende Marken — von der Spezifikation bis zur Produktion individueller SUP-Produkte.',
+      kicker: 'Paddleboards unter Privatlabel',
+      serviceType: 'SUP-Fertigung unter Privatlabel',
+      answer:
+        'Privatlabel bringt Ihre Marke auf erprobte, produktionsreife SUP-Plattformen ohne neues Werkzeug. Wählen Sie ein Basismodell, bringen Sie Logo, Farben, Verpackung und Zubehör an und bestellen Sie ab 90–100+ Stück pro 150-m-Rolle (Menge). Das ist der schnellste und risikoärmste Weg zum Launch; Muster dauern 7–12 Tage, die Produktion 25–35 Tage nach Bestellung.',
+      h1: 'Unterstützung bei der SUP-Fertigung unter Privatlabel für Ihre Marke',
+      intro: [
+        'Die Privatlabel-Produktion ermöglicht es Ihnen, eine Paddelboard-Linie unter eigener Marke zu launchen, ohne in Werkzeug oder eine Fabrik zu investieren. Logo, Farben und Verpackung kommen auf qualitätsgeprüfte Plattformen, mit Mengen, die mit der Nachfrage wachsen.',
+        'Wir übernehmen die Produktseite, damit Sie sich auf die Marke konzentrieren können: Design, Verpackung und Nachbestell-Management liegen bei uns.',
+      ],
+      scenario: {
+        title: 'Sie haben eine Marke — und brauchen ein Produkt darunter',
+        body: 'Eine Markenidentität ohne Lagerbestand. Sie wollen eine verkaufsfähige Paddelboard-Linie mit Ihrem Namen, in einer Menge, die zu Ihrer Phase passt — vom ersten Validierungslos bis zu wiederkehrenden Flotten.',
+      },
+      pairs: [
+        {
+          problem: 'Branding nur auf einem Aufkleber — das Produkt wirkt weiterhin generisch.',
+          solution: 'Volle Markenintegration: Board-Grafiken, Logo, EVA-Pad-Layout, gebrandetes Paddel, Pumpe, Tasche und Verpackung.',
+        },
+        {
+          problem: 'Die ersten Bestellungen zwingen Sie, Hunderte Einheiten zu kaufen, die Sie vielleicht nicht verkaufen.',
+          solution: 'Starten Sie mit einem Pilotlos von 20–50 Einheiten auf einer Standardplattform und skalieren Sie auf eine Standard-Mengenproduktion ab 90–100+ Stück — validieren Sie den Markt vor großen Losen.',
+        },
+        {
+          problem: 'Design- und Verpackungsentwicklung scheint unerreichbar.',
+          solution: 'Ihre Marken-Assets werden von unserem Designteam in produktionsreife Board- und Verpackungsvorlagen überführt.',
+        },
+        {
+          problem: 'Nachbestellungen schwanken in Qualität oder Verfügbarkeit.',
+          solution: 'Werkzeug und Designs bleiben Ihr Eigentum, und Nachbestellungen laufen auf denselben geprüften Plattformen bei gleichbleibender Qualität.',
+        },
+      ],
+      steps: [
+        { title: 'Marke teilen', body: 'Senden Sie Ihr Logo, Ihre Farben und vorhandene Marken-Assets.' },
+        { title: 'Vorlagen entwickeln', body: 'Wir gestalten Board-Grafiken, EVA-Layout und Verpackung rund um Ihre Marke.' },
+        { title: 'Muster freigeben', body: 'Ein physisches Muster bestätigt Farben, Finish und Verpackung.' },
+        { title: 'Produzieren und liefern', body: 'Die Produktion läuft nach Ihrer Menge, mit Qualitätskontrolle und Export komplett aus einer Hand.' },
+      ],
+      caseStudy: {
+        title: 'Neue Marke, erster Produktionsauftrag',
+        body: 'Ein Sport-Händler startete seine Paddelboard-Linie mit nur einem Logo. Wir entwickelten die komplette Board- und Verpackungsvorlage, produzierten eine erste Charge von 50 Stück zum Markttest und skalierten innerhalb einer Saison auf einen vollen Produktionsauftrag.',
+        tags: ['Markenentwicklung', 'Verpackungsdesign', 'Skalierte Produktion'],
+      },
+      faqs: [
+        {
+          q: 'Was ist SUP-Fertigung unter Privatlabel?',
+          a: 'Privatlabel-SUP-Fertigung ermöglicht es Unternehmen, SUP-Produkte unter eigener Marke mit individuellen Spezifikationen und Produktionsunterstützung zu verkaufen.',
+        },
+        {
+          q: 'Können bestehende Marken neue SUP-Produkte entwickeln?',
+          a: 'Ja. SUPsfactory unterstützt Marken beim Einstieg ins SUP-Segment — Produktauswahl, Spezifikationsanpassung, individuelle Grafiken und Fertigung.',
+        },
+        {
+          q: 'Was ist in einem Privatlabel-SUP-Programm enthalten?',
+          a: 'Ihre Marke auf dem Board selbst — Grafiken, Logo, EVA-Pad — plus optional gebrandetes Paddel, Pumpe, Rucksack und Verpackung: ein komplettes verkaufsfähiges Produkt unter Ihrem Namen.',
+        },
+        {
+          q: 'Kann das Design zwischen Bestellungen geändert werden?',
+          a: 'Ja. Sobald die Marken-Assets produktionsreif sind, können Nachbestellungen Grafiken, Farben oder Verpackung jederzeit aktualisieren.',
+        },
+        {
+          q: 'Wir haben nur ein Logo. Können Sie trotzdem helfen?',
+          a: 'Ja. Unser Designteam entwickelt die komplette Board- und Verpackungsvorlage aus Ihrem Logo und Ihren Markenfarben.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Besprechen Sie Ihr Privatlabel-Projekt',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'Paddleboards für Resorts',
+      metaTitle: 'SUP-Ausrüstung für Resorts | Gebrandete Boards',
+      metaDescription:
+        'Erstellen Sie individuelle SUP-Ausrüstung für Resorts und Hotels mit gebrandeten Boards, Zubehör und Produktionsunterstützung von SUPsfactory.',
+      kicker: 'Paddleboards für Resorts',
+      serviceType: 'SUP-Ausrüstung für Resorts und Hotels',
+      answer:
+        'Wir liefern gebrandete aufblasbare SUPs für Resorts und Hotels, ausgelegt für den täglichen Gästeeinsatz: Hochdruck-Drop-Stitch-Konstruktion, verstärkte Nähte und gestaffelte MOQs von 20–50 Piloteinheiten bis 90–100+ für Flotten-Rollouts. Die Boards tragen Ihr Logo und Ihre Farben, und wir beraten zu Lagerung, Wartung und Nachbestell-Zeitplänen.',
+      h1: 'Individuelle SUP-Lösungen für Resorts und Hotels',
+      intro: [
+        'Paddleboard-Flotten in Resorts müssen täglichen Gästeeinsatz überstehen, sich zwischen den Saisons leicht lagern lassen und Ihre Marke tragen. Wir bauen langlebige, gastfreundliche Boards in Ihren Farben und strukturieren das Flottenprogramm um Ihren Betrieb herum.',
+        'Mengen werden aus tatsächlichen Nutzungsmustern abgeleitet, nicht geschätzt — und Nachbestellprogramme halten die Flotte Saison für Saison aktuell.',
+      ],
+      scenario: {
+        title: 'Sie betreiben Wasseraktivitäten für Gäste',
+        body: 'Gäste erwarten ein unvergessliches Wassererlebnis, und die Ausrüstung repräsentiert Ihr Haus. Sie brauchen Boards, die für die tägliche Vermietung robust genug, leicht zu lagern und auf Ihr Resort abgestimmt sind.',
+      },
+      pairs: [
+        {
+          problem: 'Gästeflotten nutzen sich bei täglichem Verleih schnell ab.',
+          solution: 'Verleihtaugliche Konstruktion mit verstärkten Rails und UV-beständigen Materialien, gebaut für wiederholte Einsätze.',
+        },
+        {
+          problem: 'Der Lagerraum außerhalb der Saison ist begrenzt.',
+          solution: 'Lagerfreundliche aufblasbare Optionen, die nach Saisonende in einen Schrank passen.',
+        },
+        {
+          problem: 'Die Ausrüstung wirkt generisch, nicht wie Ihr Haus.',
+          solution: 'Vollflächige Grafiken, Logos und EVA-Branding in Ihren Resortfarben — inklusive gebrandetem Zubehör.',
+        },
+        {
+          problem: 'Austausch und Erneuerung der Flotte erfolgen unkoordiniert.',
+          solution: 'Ein Flotten-Nachbestellprogramm mit gleichbleibender Qualität, Ersatzteil-Support und ehrlicher Mengenberatung.',
+        },
+      ],
+      steps: [
+        { title: 'Betrieb beschreiben', body: 'Gästevolumen, Uferbereich, Lagerung und Saisonlänge.' },
+        { title: 'Flottenplan erhalten', body: 'Wir empfehlen Board-Typen und Mengen auf Basis der Nutzungsmuster.' },
+        { title: 'Gebrandetes Muster freigeben', body: 'Ihre Farben und Ihr Logo auf einem physischen Board bestätigt.' },
+        { title: 'Erhalten und pflegen', body: 'Lieferung, Ersatzteile und ein Nachbestellprogramm für kommende Saisons.' },
+      ],
+      caseStudy: {
+        title: 'Gästeflotte eines Küstenresorts',
+        body: 'Ein Küstenresort stattete sein Strandprogramm mit 40 gebrandeten aufblasbaren Boards in Resortfarben aus, inklusive gebrandeter Paddel und Pumpen. Off-Season passen die Boards in einen einzigen Schrank, und die Flotte wurde nach der zweiten Saison bei gleichbleibender Qualität erneuert.',
+        tags: ['Gebrandete Gästeflotte', 'Lagerung aufblasbarer Boards', 'Saisonale Erneuerung'],
+      },
+      faqs: [
+        {
+          q: 'Können Resorts SUP-Ausrüstung mit ihrem Logo individualisieren?',
+          a: 'Ja. Resorts können Grafiken, Farben und Zubehör nach Projektanforderung individualisieren — vollflächiges Branding in den Farben Ihres Hauses.',
+        },
+        {
+          q: 'Können Sie mehrere SUP-Einheiten für den Resortbetrieb liefern?',
+          a: 'Ja. Produktionslösungen können nach Flottenbedarf entwickelt werden — von der Startflotte bis zu saisonalen Erneuerungsprogrammen.',
+        },
+        {
+          q: 'Wie viele Boards braucht ein Resort?',
+          a: 'Die meisten Resorts starten mit 20–50 Boards und skalieren mit der Nachfrage. Wir empfehlen Mengen anhand von Gästevolumen und Uferbereich, nicht nach Bauchgefühl.',
+        },
+        {
+          q: 'Sind aufblasbare Boards für den Resorteinsatz geeignet?',
+          a: 'Ja. Moderne aufblasbare SUP-Boards sind extrem langlebig und deutlich einfacher zu lagern und zu transportieren — die beliebte Wahl für Resorts mit begrenztem Stauraum.',
+        },
+        {
+          q: 'Kann die Flotte unser Logo und unsere Farben tragen?',
+          a: 'Ja — vollflächige Grafiken, Logodruck, EVA-Pad-Branding und gebrandetes Zubehör gehören zum Resortprogramm.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Resort-SUP-Lösung anfragen',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Individuelle Team-Boards für Clubs',
+      metaTitle: 'SUP-Ausrüstung für Clubs und Teams',
+      metaDescription:
+        'SUPsfactory bietet individuelle SUP-Ausrüstungslösungen für Clubs, Teams und Events — inklusive Grafiken, Spezifikationen und Produktionsunterstützung.',
+      kicker: 'Individuelle Team-Boards für Clubs',
+      serviceType: 'SUP-Ausrüstung für Clubs und Teams',
+      answer:
+        'Clubs und Teams erhalten langlebige, konsistente Flotten in ihren Farben: Logo-Platzierung, individuelle Paddellängen und Zubehörpakete auf einer standardisierten Board-Spezifikation, sodass Reparaturen und Ersatzteile über Nachbestellungen hinweg einfach bleiben. Das MOQ startet bei 90–100+ Stück (Menge); Pilotproduktionen ab 20–50 Einheiten sind verfügbar, um die Spezifikation vorab zu validieren.',
+      h1: 'Individuelle SUP-Ausrüstung für Clubs und Teams',
+      intro: [
+        'Paddelclubs brauchen Boards, die tägliches Training überstehen, wie das Team aussehen und über Nachbestellungen hinweg konsistent bleiben. Wir produzieren individuelle Team-Boards mit Ihrem Clubnamen und Ihren Farben zu flottenfreundlichen Konditionen.',
+        'Clubprogramme umfassen auch die praktische Seite: Ersatzteile, Reparaturhinweise und Nachbestell-Support bei gleicher Qualität.',
+      ],
+      scenario: {
+        title: 'Ihr Club betreibt Training und Team-Sessions',
+        body: 'Die Boards werden täglich von Mitgliedern genutzt und repräsentieren den Club bei Events und Regatten. Sie wollen langlebige Team-Ausrüstung mit Club-Branding, ohne selbst die Fabrikbeziehung managen zu müssen.',
+      },
+      pairs: [
+        {
+          problem: 'Trainings-Boards werden stark und wiederholt genutzt.',
+          solution: 'Verstärkte Konstruktion für den täglichen professionellen Einsatz, mit Reparaturhinweisen und Ersatzteil-Support.',
+        },
+        {
+          problem: 'Flotten wirken zusammengewürfelt und ohne Branding.',
+          solution: 'Clubname, Farben und Logo auf jedem Board für eine einheitliche Team-Flotte.',
+        },
+        {
+          problem: 'Flottenausbau bedeutet die Jagd nach passenden Beständen.',
+          solution: 'Nachbestellungen laufen auf denselben geprüften Plattformen, sodass neue Boards zu bestehenden passen.',
+        },
+        {
+          problem: 'Flottenbudgets sind knapp.',
+          solution: 'Flottenpreise und ein fester Ansprechpartner für Nachbestellungen, Teile und Wartungsfragen.',
+        },
+      ],
+      steps: [
+        { title: 'Über den Club berichten', body: 'Mitgliederzahl, Session-Arten und aktuelle Ausrüstung.' },
+        { title: 'Board-Typen wählen', body: 'Trainings-, Einsteiger- und Team-Formen passend zu Ihrem Programm.' },
+        { title: 'Club-Branding ergänzen', body: 'Name, Farben und Logo auf Boards und Zubehör.' },
+        { title: 'Bestellen und wachsen', body: 'Flottenbelieferung, Ersatzteile und konsistente Nachbestellungen.' },
+      ],
+      caseStudy: {
+        title: 'Flottenerneuerung eines Clubs',
+        body: 'Ein Paddelclub erneuerte mit 25 gebrandeten Trainings-Boards und Ersatzteilen sein Image. Die Mitglieder trainieren auf einheitlicher Ausrüstung, und der Club erweiterte die Flotte in der Folgesaison mit einer identischen Nachbestellung.',
+        tags: ['Club-Branding', 'Flottenerneuerung', 'Ersatzteil-Support'],
+      },
+      faqs: [
+        {
+          q: 'Können SUP-Clubs Team-Boards individualisieren?',
+          a: 'Ja. Clubs können Grafiken, Farben und Produktkonfigurationen individualisieren — Clubname, Farben und Logo auf jedem Board.',
+        },
+        {
+          q: 'Unterstützen Sie eventbasierte SUP-Produktion?',
+          a: 'Ja. Produktionsplanung kann nach Eventanforderungen entwickelt werden, einschließlich Event-Edition-Boards und Zubehör.',
+        },
+        {
+          q: 'Welche Boards eignen sich am besten für das Clubtraining?',
+          a: 'Stabile, langlebige Boards passend zum Niveau Ihrer Mitglieder — breite Einsteigerformen für den Unterricht und Touring-Formen für das Distanztraining.',
+        },
+        {
+          q: 'Bieten Sie Flottenpreise für Clubs?',
+          a: 'Ja — Mengenrabatte gelten für Clubflotten, mit einem festen Ansprechpartner für Nachbestellungen, Teile und Wartungsfragen.',
+        },
+        {
+          q: 'Können beschädigte Boards repariert oder ersetzt werden?',
+          a: 'Wir stellen Ersatzteile, Reparaturhinweise und Nachbestell-Support bereit, damit die Flotte konsistent bleibt.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Besprechen Sie Ihr Club-SUP-Projekt',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'SUP-Programm für Schulen',
+      metaTitle: 'SUP-Ausrüstung für Schulen | Individuelle Paddelboards für den Unterricht',
+      metaDescription:
+        'Sichere und zuverlässige SUP-Ausrüstungslösungen für Schulen, Camps und Organisationen mit individueller Produktionsunterstützung von SUPsfactory.',
+      kicker: 'SUP-Programm für Schulen',
+      serviceType: 'SUP-Ausrüstung für Schulen und Programme',
+      answer:
+        'Für Schulen und Bildungsprogramme liefern wir stabile, anfängergeeignete Boards mit gedruckten Sicherheitshinweisen, gepolsterten Paddeln und Schutzzubehör, abgestimmt auf Ihre Klassengrößen und Lagerung. Die Standard-Mengencharge beträgt 90–100+ Stück pro 150-m-Rolle mit Pilotproduktionen ab 20–50 Einheiten; die Lieferzeiten folgen dem Beschaffungszyklus der Schulen.',
+      h1: 'Sichere und zuverlässige SUP-Lösungen für Schulen und Programme',
+      intro: [
+        'Schulen betreiben Paddelsport anders: große Klassen, gemischte Könnensniveaus, strenge Sicherheitsanforderungen und Bildungsbudgets. Unser Schulprogramm bietet stabile, anfängergeeignete Boards, Paketoptionen passend zur Klassengröße und Beratung aus der Perspektive von Instruktoren.',
+        'Mengenbelieferung und Nachbestell-Support halten die Ausrüstung Jahr für Jahr für neue Schülerjahrgänge verfügbar.',
+      ],
+      scenario: {
+        title: 'Sie unterrichten Paddelsport bei Schülern',
+        body: 'Klassen sind groß, und die Könnensniveaus variieren. Sie brauchen Boards, die für Anfänger stabil und sicher sind, Mengen passend zur Klassengröße und ein Ausrüstungsprogramm, das in Schulbudget und Beschaffungszyklus passt.',
+      },
+      pairs: [
+        {
+          problem: 'Schüler benötigen maximale Stabilität auf dem Wasser.',
+          solution: 'Breite, voluminöse Einsteiger-Boards und Mehrpersonen-Boards, die Anfängern Fehler verzeihen.',
+        },
+        {
+          problem: 'Klassengrößen fordern konsistente Ausrüstung im großen Stil.',
+          solution: 'Programmpreise für Klassenmengen, mit identischer Qualität auf jedem Board.',
+        },
+        {
+          problem: 'Instruktoren managen die Sicherheit mit begrenzter Unterstützung.',
+          solution: 'Die Boards kommen mit klaren Nutzungshinweisen, und wir beraten zu Mengen und Anordnung für Ihre Wasserfläche.',
+        },
+        {
+          problem: 'Die Ausrüstung muss mehrere Schülerjahrgänge überstehen.',
+          solution: 'Verstärkte Konstruktion plus Ersatzteile und Nachbestell-Support für eine lange Programmlaufzeit.',
+        },
+      ],
+      steps: [
+        { title: 'Programm teilen', body: 'Klassengrößen, Wasserfläche, Instruktoren-Setup und Budgetzyklus.' },
+        { title: 'Paket bauen', body: 'Board-Typen und Mengen passend zum Unterricht, nicht nach Schätzung.' },
+        { title: 'Muster freigeben', body: 'Stabilität, Konstruktion und Finish an einem physischen Board prüfen.' },
+        { title: 'Liefern und erneuern', body: 'Mengenbelieferung, Ersatzteile und Nachbestellungen für neue Jahrgänge.' },
+      ],
+      caseStudy: {
+        title: 'Schulisches Wassersportprogramm',
+        body: 'Eine Schule startete ein Paddelsport-Wahlfach mit einer Einsteigerflotte von 15 Boards und Mehrpersonen-Boards für die ersten Stunden. Die Instruktoren meldeten schnellere Fortschritte in der ersten Session dank der stabilen Plattformen, und das Programm erneuerte die Ausrüstung im Folgejahr mit einer identischen Nachbestellung.',
+        tags: ['Einsteigerflotte', 'Programm-Launch', 'Erneuerungsbestellungen'],
+      },
+      faqs: [
+        {
+          q: 'Welche SUP-Ausrüstung eignet sich für Schulen?',
+          a: 'Die Auswahl hängt von Alter, Einsatzumfeld und Programmanforderungen ab — breite, stabile Boards sind die Standardwahl für den Unterricht.',
+        },
+        {
+          q: 'Können Schulen SUP-Ausrüstung individualisieren?',
+          a: 'Ja. Schulen können Grafiken, Farben und Ausrüstungspakete nach ihrem Programm individualisieren.',
+        },
+        {
+          q: 'Welche Boards eignen sich am besten für den Schulunterricht?',
+          a: 'Breite, stabile Einsteiger-Boards und Mehrpersonen-Boards sind ideal — ihr Volumen macht sie anfängertauglich und auch mit mehreren Riders stabil.',
+        },
+        {
+          q: 'Können die Mengen an unsere Klassengrößen angepasst werden?',
+          a: 'Ja — die Programmkonditionen sind auf Klassenmengen ausgelegt, und wir empfehlen Zahlen auf Basis Ihrer Wasserfläche und Rotation.',
+        },
+        {
+          q: 'Arbeiten Sie mit schulischen Beschaffungszeitplänen?',
+          a: 'Ja. Wir planen Muster- und Produktionslaufzeiten rund um Schulbudget- und Saisonzyklen.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Besprechen Sie Ihr Schul-SUP-Programm',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

@@ -1,0 +1,347 @@
+meta:
+  title: 'Fabrik & Fertigung — aufblasbarer SUP-OEM'
+  description: 'Besichtigen Sie die Vatrad-Fabrik: 12,500 m² Anlage mit Zuschnitt, HF-Schweißung, Druck, Montage und Qualitätslabor für die OEM/ODM-Fertigung aufblasbarer SUPs.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup factory china'
+    - 'inflatable paddle board factory'
+    - 'oem sup manufacturer'
+    - 'inflatable sup manufacturing'
+hero:
+  tagline: Fabrik
+  title: Fabrik & Fertigung
+  subtitle: 12,500 m2 SUP-Fabrik in Qingdao, China — maßgeschneiderte SUP-Fertigung vom Roh-PVC bis zum fertigen aufblasbaren Paddelboard
+
+answer:
+  label: 'Klare Antwort'
+  text: 'Zertifizierte aufblasbare SUP-Fabrik in Qingdao, China: ISO 9001, ISO 25649, BSCI, CE, REACH und RoHS. 12,500 m² Anlage in 4 spezialisierten Werkstätten, über 350 Mitarbeiter, über 120,000 Boards pro Jahr produziert (10,000 Boards/Monat auf 4 automatisierten Linien). Jedes Board wird 24 Stunden lang bei 18.0 PSI druckgetestet, besteht eine 100-Punkte-Montagecheckliste und trägt eine 10-jährige Material-Rückverfolgbarkeit.'
+  verified: 'September 2026'
+
+intro:
+  - Als Fertigungssparte der **Qingdao Vatrad Group Co., Ltd.** kontrolliert Vatrad jede Stufe der Fertigung aufblasbarer SUPs — vom Eingang der Roh-PVC-Materialien bis zur finalen Vorversand-Inspektion des fertigen Paddelboards. Unsere Produktionsstätte in der Wirtschaftsentwicklungszone von Qingdao umfasst 12,500 Quadratmeter und beherbergt eigene Werkstätten für PVC-Zuschnitt, Drop-Stitch-Kernverklebung, Digitaldruck von SUPs, Endmontage und Qualitätsprüfung.
+  - Durch die Integration von Design, Konstruktion, Prototyping, Fertigung und Prüfung unter einem Dach eliminieren wir die Ineffizienzen der Auftragsfertigung und behalten die direkte Kontrolle über Bauqualität, Materialauswahl und Liefertermine. Jedes SUP, das unsere Werkstatt verlässt, wird von unseren Leuten, auf unserer Ausrüstung, nach unseren Standards gebaut.
+
+stats:
+  - value: 12,500 m2
+    label: Produktionsfläche
+  - value: 350+
+    label: Fachkräfte
+  - value: 120,000+
+    label: Jährlich produzierte SUPs
+  - value: ISO 9001
+    label: Qualität zertifiziert
+
+intelligence_tagline: Fabrik-Intelligenz
+intelligence_title: Erkunden Sie unsere Fertigungskapazitäten
+
+intelligence_cards:
+  - title: Produktionskapazität
+    icon: C
+    icon_bg: blue
+    desc: '12,500 m² Anlage, die über 120,000 SUPs/Jahr über SUP-Board- und Sicherheitsausrüstungslinien produziert. Über 350 Mitarbeiter, 2 Schichten.'
+    metrics:
+      - label: MOQ
+        value: 'SUP: Muster 1–2 / Pilot 20–50 / Menge 90–100+'
+      - label: Lieferzeit
+        value: '25–35 Tage'
+    link: /factory/capacity
+    link_label: Volle Kapazitätsdetails →
+  - title: Qualitätslabor & Prüfung
+    icon: Q
+    icon_bg: green
+    desc: 'Unabhängiges QC-Labor mit 4 Prüfstufen: Rohmaterialkontrolle (Zugfestigkeit, Reißfestigkeit, UV), 24h-Druckhalt bei 18.0 PSI, Naht-Abziehprüfung und Biegesteifigkeitsverifizierung an jedem Board.'
+    metrics:
+      - label: Laborausrüstung
+        value: 'Zugprüfgerät, Temperaturkammer, Lecktesttank'
+      - label: Standards
+        value: 'QMS: ISO 9001; Markt: CE, AS 1799'
+    link: /factory/quality-lab
+    link_label: 'Laborverfahren & Ausrüstung →'
+  - title: OEM/ODM-Fähigkeit
+    icon: O
+    icon_bg: purple
+    desc: 'Ende-zu-Ende OEM/ODM-Dienste: kundenspezifisches Formendesign, Private-Label-Verpackung, kundenspezifische Boardfarben, Deckgrafiken (Digital- & Siebdruck) und exportfertige Verpackung.'
+    metrics:
+      - label: Zertifizierungen
+        value: 'ISO 9001, BSCI, CE, REACH'
+      - label: Exportmärkte
+        value: '50+ Länder'
+    link: /factory/oem-capability
+    link_label: 'Volle OEM-Dienste →'
+  - title: Qualitätsinspektionsstandards
+    icon: I
+    icon_bg: orange
+    desc: 'Projektspezifische Qualitätsinspektionskriterien über IQC, IPQC, FQC und OQC: Luftdichtigkeitsverifizierung, Sicht- und Maßprüfungen, Zubehörbestätigung, Chargen-Rückverfolgbarkeit und Versandvorfreigabe — plus kontrollierte Luftdichtigkeits-Nichtkonformitäts- und Nacharbeits-Governance.'
+    metrics:
+      - label: Abdeckung
+        value: 'Materialien → Endverpackung'
+      - label: Downloads
+        value: 'QC-Protokoll, PSI-Bericht & Nacharbeitsdokumente (PDF)'
+    link: /factory/quality-inspection
+    link_label: 'Inspektionsstandards & Downloads →'
+  - title: Standard der Nacharbeits-Änderungskontrolle
+    icon: C
+    icon_bg: blue
+    desc: 'Formelle ISO-9001-Änderungskontrolle für Nacharbeitsparameter: ECR, Risikoklassifizierung, abteilungsübergreifende Freigabematrix, 9-stufiger geschlossener Kreislauf, quantifizierte technische Validierung (18.0 PSI, 24 h Halt, ΔP ≤ 0.2 PSI) und Poka-Yoke-Sicherungen — mit zweisprachiger SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+    metrics:
+      - label: Dokument
+        value: 'QMS-SOP-QC-CC-001 Rev 2.0'
+      - label: Downloads
+        value: 'Änderungskontroll-SOP & Ausführungsanhang (PDF)'
+    link: /factory/quality-change-control
+    link_label: 'Standard der Änderungskontrolle & Downloads →'
+  - title: Kontrolle nichtkonformer Produkte
+    icon: N
+    icon_bg: purple
+    desc: 'ISO 9001:2015 Abschnitt 8.7 Kontrolle nichtkonformer Ausgangsprodukte: NCR-Erfassung, Quarantäne und Halt, Disposition nach Schweregrad (Linienabzeichen / QC-Manager + Technischer Ingenieur / MRB), kontrollierte Nacharbeit unter SRI-Anweisungen, unabhängige 100%-Nachprüfung und begleitete Zerstörung — Schrottvideo unter SHA-256 gesichert.'
+    metrics:
+      - label: Standard
+        value: 'ISO 9001:2015 Abschnitt 8.7'
+      - label: Schrottzertifikat
+        value: 'VAT-QA-SCRAP-CERT-2026'
+    link: /factory/non-conforming-control
+    link_label: 'Kontrolle nichtkonformer Produkte & Downloads →'
+  - title: 7-Stufen-Qualitätskontrollfluss
+    icon: Q
+    icon_bg: green
+    desc: 'Der vollständige Projektqualitätskontrollfluss, Gate für Gate: Qualitätsplanung (PPM) → Wareneingangskontrolle → Prozesskontrolle & Erstmuster → Aufblasen & Luftdichtigkeit → Endkontrolle → Verpackung & PSI → Versandfreigabe & Rückverfolgbarkeit. Jedes Gate zeigt, was geprüft wird, wie bewertet wird und welcher zweisprachige Bericht erstellt wird.'
+    metrics:
+      - label: Gates
+        value: '01 → 07'
+      - label: Downloads
+        value: 'Berichtsdossiers pro Gate (PDF)'
+    link: /quality
+    link_label: 'Den 7-Stufen-Ablauf prüfen →'
+
+workshops_section:
+  tagline: Werkstätten
+  title: Fertigungswerkstätten
+  workshops:
+    - title: PVC-Zuschnitt & Materialvorbereitung
+      description: Automatische CNC-Schneidemaschinen verarbeiten PVC-, Hypalon- und Drop-Stitch-Gewebe mit submillimetergenauer Präzision. Computersoptimierte Verschachtelung minimiert Materialabfall und stellt sicher, dass jedes Panel vor dem Schweißen seine Maße spezifikation erfüllt.
+      image: https://assets.supsfactory.com/images/sups/hero/production-dept.webp
+      alt: CNC-PVC-Schneidemaschine bereitet aufblasbare SUP-Gewebepaneele in der Qingdao-Fabrik vor
+    - title: Schlauchschweißen & Heißsiegeln
+      description: Eigene Schweißwerkstatt mit Heißsiegemaschinen und HF-Dielektrikpressen. Heißluftsiegelgeräte verbinden und verschweißen PVC-Schlauchkammern, während HF-Schweißungen hochfeste luftdichte Nähte erzeugen, die die Anforderungen übertreffen.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      alt: HF-Schweißmaschine versiegelt Schlauchkammern von Schlauchbooten in der Qingdao-Fabrik
+    - title: Drop-Stitch-Kernverklebung
+      description: Drop-Stitch-Kerne der SUP-Boards werden mittels Heißlaminierung mit den äußeren PVC-Laminaten verklebt. Tausende interne Polyesterfäden verbinden Ober- und Unterschicht und erzeugen eine steife Struktur bei 12-15 PSI. Railbänder sind für die Kantenfestigkeit dreilagig fusionverklebt.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
+      alt: Fertigungslinie für aufblasbare SUPs mit Drop-Stitch-Kernverklebungsanlage in der Qingdao-Fabrik
+    - title: SUP-Druck & Dekoration
+      description: SUP-Boards werden mittels Digitaldruck für vollfarbige Grafiken und Siebdruck für Logos und sich wiederholende Muster verziert. Digitaldrucker erzeugen fotorealistische Deckdesigns, während der Siebdruck langlebige, kräftige Markenzeichen liefert.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
+      alt: Innenbereich der Produktionsabteilung in der aufblasbaren SUP-Fabrik Qingdao
+    - title: Endmontage & Ausrüstung
+      description: Montagelinie, in der Ventile, D-Ringe, Griffe, Finboxes und Deckpads auf jedem SUP-Board installiert werden. Jedes Board folgt einer 100-Punkte-Montagecheckliste, die vom Teamleiter abgezeichnet wird.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      alt: Produktionsabteilung mit Montagearbeitsplätzen in der Qingdao-Fabrik
+    - title: Qualitätsprüfung & Inspektion
+      description: Jedes fertiggestellte Board durchläuft vor dem Versand eine verbindliche Luftretentionsprüfung, eine Naht-Abziehverifizierung und einen vollständigen Systemcheck. Unser Qualitätslabor arbeitet unabhängig von der Produktion und berichtet direkt an das Management.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
+      alt: Druckprüfung eines aufblasbaren SUPs auf Luftretention vor dem Versand in der Qingdao-Fabrik
+
+equipment_section:
+  tagline: Ausrüstung
+  title: Wichtigste Fertigungsausrüstung
+  view_full: Vollständige Ausrüstungsliste ansehen →
+  view_full_link: /factory/equipment
+  items:
+    - name: Automatische PVC-Schneidemaschine
+      spec: CNC-gesteuert, 0.1 mm Genauigkeit
+    - name: Heißsiegemaschine
+      spec: Heißluft, 200°C–300 °C, für Schlauchverklebung
+    - name: HF-Dielektrik-Schweißpresse
+      spec: 15 kW, luftdichtes Nahtschweißen
+    - name: Drop-Stitch-Kernlaminierpresse
+      spec: SUP-Kerne bis 14 ft
+    - name: Digitaldrucker
+      spec: Vollfarbige SUP-Deckgrafiken
+    - name: Siebdruckmaschine
+      spec: Mehrfarbiger Logodruck
+
+qc_section:
+  tagline: Qualitätskontrolle
+  title: Prüf- & Qualitätssicherungsprozess
+  subtitle: Jedes Board durchläuft vor dem Versand eine verbindliche Prüfung. Unser Qualitätslabor arbeitet unabhängig von der Produktion und berichtet direkt an das Management.
+  steps:
+    - step: '1'
+      title: Rohmaterialkontrolle
+      desc: PVC-, Hypalon- und Drop-Stitch-Gewebe unterziehen sich Zugfestigkeitsprüfungen, Weiterreißtests und UV-Beständigkeitsverifizierung, bevor eine Charge in die Produktion geht.
+    - step: '2'
+      title: 24-Stunden-Luftretentionstest
+      desc: Jede Schlauchkammer wird auf 18.0 PSI aufgeblasen und 24 Stunden gehalten. Ein Druckabfall über 0.50 PSI löst automatische Ablehnung und Nahtwiederprüfung aus.
+    - step: '3'
+      title: Last- & Balanceprüfung
+      desc: Fertige Boards werden auf Nenndruck aufgeblasen und auf symmetrische Füllung, Steifigkeit bei 15 PSI und Stabilität unter Last geprüft. Jedes Board wird vor der Endkontrolle in unserem Testbecken nassgetestet.
+
+oem_section:
+  tagline: OEM-Projekte
+  title: Marken- & OEM-Partnerschaftsfallstudien
+  subtitle: Vom Konzept zur Produktion — so helfen wir globalen Marken, ihre aufblasbaren SUP-Linien zu lancieren und zu skalieren.
+  cases:
+    - challenge: Ein europäischer Outdoor-Einzelhändler brauchte eine Private-Label-SUP-Linie mit einzigartigen Deckgrafiken, umweltfreundlichem PVC und handelsfertiger Verpackung — alles geliefert in 60 Tagen.
+      solution: Entwicklung kundenspezifischer Digitaldruckdateien, Beschaffung REACH-konformen PVCs und Kompression der Musterphase von 3 Runden auf 1 durch die räumliche Ansiedlung des Designteams in unserer Qingdao-Fabrik.
+      result: 25–35 Tage Produktion ab unterzeichneter PO, mit erster Lieferung innerhalb des 60-Tage-Zeitfensters. 2,400 Einheiten über 4 SKUs. Wiederholungsbestellung, bevor die erste Charge vollständig geliefert war.
+      disclaimer: 'Anonymisierte Projektzusammenfassung — Projekttyp und -umfang sind repräsentativ; konkrete Ergebnisse sind nicht unabhängig verifizierbar.'
+    - challenge: Ein US-Wassersport-Startup brauchte ein leistungsstarkes Drop-Stitch-SUP mit kundenspezifischer Form, Co-Branding-Verpackung und BSCI-Zertifizierung für den Einzelhandel.
+      solution: Anpassung einer bestehenden SUP-Form mit modifiziertem Umriss, Entwicklung co-branded Verpackungsgrafiken und Bereitstellung der vollständigen BSCI-Auditdokumentation.
+      result: Erfolgreiche Platzierung bei führenden US-Outdoor-Einzelhändlern, mit starkem Schwung durch über 5,000 verkaufte Einheiten im Jahr 1 und einer Abschlussquote von 98 %.
+      disclaimer: 'Anonymisierte Projektzusammenfassung — Projekttyp und -umfang sind repräsentativ; konkrete Ergebnisse sind nicht unabhängig verifizierbar.'
+    - challenge: Ein australischer Distributor benötigte eine CE-zertifizierte SUP-Serie mit kundenspezifischen Farben und Konformität mit australischen Standards.
+      solution: Produktion von Vorserienmustern mit 4 Farbvarianten und Koordinierung von Drittanbieter-Konformitätstests.
+      result: Lancierung einer 3-Modell-SUP-Serie im AU/NZ-Markt. Gefolgt von einem Regierungsauftragserfolg für 12 Patrouillen-SUPs.
+      disclaimer: 'Anonymisierte Projektzusammenfassung — Projekttyp und -umfang sind repräsentativ; konkrete Ergebnisse sind nicht unabhängig verifizierbar.'
+
+faq_section:
+  tagline: FAQ
+  title: Häufig gestellte Fragen zu B2B & OEM
+  questions:
+    - q: Was ist die Mindestbestellmenge (MOQ) für OEM-aufblasbare SUP-Boards?
+      a: 'MOQ wird per Projektkonfiguration bestätigt und nicht durch eine feste Zahl — Rumpf und Werkzeug, Farbvarianten und PVC, Grafiken, Verpackung und Zubehör. Die Standard-Serienfertigung läuft 90–100+ Einheiten pro Charge aus einer vollen 150-m-Drop-Stitch-Rolle, Co-Branding in kleinen Chargen beginnt bei 5–10 Einheiten, und jedes Projekt durchläuft die Phasen Muster (1–2 Einheiten) und Pilot (20–50 Einheiten). Siehe unseren MOQ- & Flexible-Branding-Leitfaden für die vollständige Berechnungslogik.'
+    - q: Besitzt Vatrad eine BSCI-Zertifizierung?
+      a: Ja. Unsere Fabrik hält eine gültige BSCI-Sozialkonformitätszertifizierung (Auditbericht auf Anfrage erhältlich). Wir halten zudem ISO 9001 für Qualitätsmanagement. Die CE-Zertifizierung gilt für Modelle, die für den EU-Markt bestimmt sind; der Umfang wird je Projekt bestätigt. REACH- und RoHS-Konformitätsdokumentation wird mit jeder OEM-Bestellung bereitgestellt.
+    - q: Wie lang ist die typische Lieferzeit für einen OEM-Auftrag?
+      a: Die Standardlieferzeit beträgt 25–35 Tage ab bestätigter PO und Anzahlung für OEM-Stapelproduktion. Kundenspezifisches Formendesign ergänzt 15–20 Tage für den Werkzeugbau. Express-Produktion ist für eilige Aufträge und saisonale Spitzen verfügbar. Prototypenmuster sind typischerweise innerhalb von 7–12 Tagen fertig.
+    - q: Übernehmen Sie die Exporthandelsdokumentation?
+      a: Ja. Unser Team verwaltet die Exporthandelsdokumentation und Zollabfertigung hausintern, und wir liefern in 50+ Länder in den EU-, US-, AU- und Asienmärkten.
+
+b2b_moq: 'MOQ per Projektkonfiguration bestätigt: Muster 1–2, Pilot 20–50, Menge 90–100+ (pro 150-m-Rolle); Co-Branding in kleinen Chargen ab 5–10 Einheiten.'
+
+production_flow:
+  tagline: Produktionsablauf
+  title: Vom Material zum fertigen Board
+  subtitle: Jedes Board durchläuft 6 Produktionsstufen mit QC-Kontrollpunkten bei jedem Schritt. Keine Abkürzungen, keine übersprungenen Inspektionen.
+  stages:
+    - stage: '01'
+      title: Wareneingang & Wareneingangs-QC
+      description: 'Alle eingehenden Materialien werden in unserem ERP-System nach Charge/Lot-Nummer geloggt. PVC-Geweberollen, Drop-Stitch-Kerne, Ventile, Klebstoffe und Beschläge werden bis zur QC-Freigabe unter Quarantäne gehalten.'
+      qc_check: 'Zugfestigkeit (ASTM D751), Weiterreißfestigkeit (ISO 4674), Dickenmessung, Klebstoffviskosität, Sichtfehlerscan'
+      qc_threshold: '100 % der Chargen getestet. Ablehnung, wenn Zugfestigkeit < 90 % der Spezifikation, Weiterreißfestigkeit < spez. Minimum oder ein Sichtfehler'
+      responsibility: Wareneingangs-QC-Team (3 Inspektoren)
+    - stage: '02'
+      title: CNC-Zuschnitt & Materialvorbereitung
+      description: 'Computersoptimierte Verschachtelung legt Paneele so auf den PVC-Rohstoff, dass Abfall minimiert wird. Automatische CNC-Schneidemaschinen halten 0.1 mm Positionsgenauigkeit.'
+      qc_check: 'Maßprüfung gegen CAD-DXF-Dateien, Kantenqualitätsinspektion, Panelanzahl-Verifizierung'
+      qc_threshold: 'Jedes 20. Panel gemessen. Toleranz ±0.5 mm. Charge ablehnen, wenn >2 % außerhalb der Toleranz'
+      responsibility: Leiter der Zuschnittwerkstatt
+    - stage: '03'
+      title: Schweißen & Drop-Stitch-Verklebung
+      description: 'Drop-Stitch-Kerne werden per Heißlaminierung mit den äußeren PVC-Laminaten verklebt. Schlauchkammern werden HF- oder heißluftgeschweißt. Railbänder werden dreilagig fusionverklebt.'
+      qc_check: 'Abziehprüfung alle 50 Einheiten (ASTM D751), Schweißbreitenmessung, Heißlufttemperatur-Logprüfung, Sichtnahtinspektion unter Gegenlicht'
+      qc_threshold: 'Abziehfestigkeit min. 8 N/cm. Schweißbreitentoleranz ±1 mm. Sichtbare Rinnenbildung = Ablehnung'
+      responsibility: Schweiß-QC (2 Inspektoren pro Schicht)
+    - stage: '04'
+      title: Montage & Ausrüstung
+      description: 'Boards gehen in die Endmontage, wo alle Komponenten zusammenkommen: Deck- und Rumpfpaneele verschweißt, Ventile installiert, D-Ringe, Griffe, Finboxes und Tragetasche gefittet. Jede Einheit folgt einer 100-Punkte-Montagecheckliste.'
+      qc_check: '100-Punkte-Checklisten-Freigabe pro Einheit, Ventilfunktionstest (10 Öffnungs-/Schließzyklen), Beschlagdrehmoment-Verifizierung, Sichtprüfung'
+      qc_threshold: 'Null-Fehler-Politik bei sicherheitskritischen Teilen (Ventile, D-Ringe, Griffe). Kleinere Kosmetik: AQL 2.5 (ISO 2859)'
+      responsibility: Montageteamleiter + Linien-QC
+    - stage: '05'
+      title: Druckprüfung & Qualitätshalt
+      description: 'Jede Kammer wird auf 18.0 PSI aufgeblasen (für ein mit 12–15 PSI bewertetes SUP) und 24 Stunden gehalten. Drucksensoren protokollieren kontinuierlich. Kammern mit einem Druckabfall über 0.50 PSI werden abgelehnt und zur Nahtwiederprüfung geschickt.'
+      qc_check: '24h-Druckhaltlog, Sensor-Kalibrierung täglich verifiziert, temperaturkompensierte Druckmessung, Nahttest nach Reparatur'
+      qc_threshold: 'Max. 0.50 PSI Druckabfall über 24h bei stabiler Temperatur. Jede Kammer, die dies überschreitet = 100 % Neustest der gesamten Produktionscharge'
+      responsibility: Qualitätslabor (unabhängig von der Produktion, berichtet an das Management)
+    - stage: '06'
+      title: Endkontrolle & Verpackung
+      description: 'Finale Sicht- und Funktionskontrolle. Oberflächenfehler, Farbkonsistenz, Etiketten-/BIN-Verifizierung, Verpackungsintegrität und Zubehörvollständigkeit. Einheiten werden vakuumverpackt, in Kartons verpackt und lagenweise für die Containerbeladung palettiert.'
+      qc_check: 'Vollständige Sichtprüfung, Zubehörcheckliste je SKU, Verpackungsfalltest (1 m, Stichprobe), Etiketten-/Barcode-Scanverifizierung'
+      qc_threshold: 'AQL 2.5 für schwere Fehler, AQL 4.0 für leichte. Null-Toleranz bei Sicherheitsfehlern. 100 % der Einheiten sichtgeprüft'
+      responsibility: End-QC-Team (4 Inspektoren) + Packteamsleiter
+
+workforce:
+  tagline: Unsere Leute
+  title: Belegschaft & Fachkompetenz
+  engineers: 25+
+  engineers_detail: 'Ingenieure in F&E, Formendesign, Materiallabor und Produktionskonstruktion. Durchschnittlich 7+ Jahre Erfahrung in der aufblasbaren Fertigung.'
+  shift_pattern: '2 Schichten/Tag (07:00–15:30, 15:30–00:00). Optionale Nachtschicht für eilige Bestellungen.'
+  training: 'Monatliche QC-Schulungen, vierteljährliche Sicherheitsübungen, jährliche Kompetenzbewertung. Neueinstellungen absolvieren eine 40-stündige Einführung, bevor sie an der Produktionslinie arbeiten.'
+  departments:
+    - name: F&E & Konstruktion
+      count: 25+
+      role: Produktdesign, Formenkonstruktion, Materiallabor
+    - name: Zuschnitt & Materialvorbereitung
+      count: 15
+      role: CNC-Zuschnitt, Panelvorbereitung, Materialhandling
+    - name: Schweißen & Laminierung
+      count: 40
+      role: HF-Schweißen, Heißluftschweißen, Drop-Stitch-Verklebung
+    - name: SUP-Kernverklebung
+      count: 30
+      role: Drop-Stitch-Laminierung, Heißverklebung, Railband-Fusion
+    - name: Montage & Ausrüstung
+      count: 35
+      role: Endmontage, Beschlaginstallation, Systemcheck
+    - name: Qualitätskontrolle
+      count: 12
+      role: Wareneingangs-QC, Prozess-QC, Endkontrolle, Labortests
+    - name: Logistik & Verpackung
+      count: 20
+      role: Verpackung, Containerbeladung, Exporthandelsdokumentation
+    - name: Management & Verwaltung
+      count: 15
+      role: Vertrieb, Beschaffung, HR, Finanzen, Compliance
+
+material_traceability:
+  tagline: Rückverfolgbarkeit
+  title: Materialverfolgung & Chargenkontrolle
+  description: Jede Rohmaterial-Charge erhält eine eindeutige Lot-Nummer in unserem ERP-System. Vom Eingang über die Produktion bis zum Endprodukt verlinkt die Stückliste jedes Boards zurück zur ursprünglichen Lieferanten-Charge. Dies ermöglicht vollständige vorgelagerte Rückverfolgbarkeit für jede Qualitäts- oder Compliance-Anfrage.
+  system: Kundenspezifisches ERP (internes System der Qingdao Vatrad Group) + physische Chargenmarkierungen an jedem Arbeitsauftrag
+  coverage: 100 % des Produktionsmaterials — PVC, Hypalon, Drop-Stitch-Gewebe, Klebstoffe, Ventile, Beschläge, Verpackung
+  records_retained: 10 Jahre (gemäß CE 2013/53/EU-Anforderung)
+  suppliers:
+    - material: PVC in Marinequalität
+      source: Chinesische und koreanische Lieferanten
+      certified: ISO 9001, REACH, RoHS
+    - material: Hypalon (CSM)
+      source: Japanischer Lieferant
+      certified: ISO 9001, REACH
+    - material: Drop-Stitch-Gewebe
+      source: Eigenes Weben + externer Partner
+      certified: Interne QC + Lieferant ISO 9001
+    - material: Ventile & Beschläge
+      source: Chinesische OEM-Lieferanten
+      certified: ISO 9001, Materialzertifikate pro Charge
+
+qc_dashboard:
+  tagline: QC in Zahlen
+  title: Qualitätskontroll-Kennzahlen
+  subtitle: Echte Bestehen-/Durchfallen-Daten aus unserer Produktionslinie. Unser Qualitätslabor arbeitet unabhängig von der Produktion und berichtet direkt an das Management.
+  stats:
+    - value: 100%
+      label: Druckgetestete Einheiten
+      detail: Jedes Board, jede Kammer, jede Charge
+    - value: '<5%'
+      label: Max. zulässiger Druckabfall
+      detail: Über 24h bei 18.0 PSI
+    - value: AQL 2.5
+      label: Schwelle für schwere Fehler
+      detail: Gemäß ISO-2859-Stichprobenstandard
+    - value: 24h
+      label: Dauer des Druckhalts
+      detail: Jedes Board, jede Kammer
+    - value: 18 PSI
+      label: Prüfdruck vs. Nennwert
+      detail: Sicherheitsmarge bei jeder Kammer
+    - value: 0%
+      label: Toleranz bei Sicherheitsfehlern
+      detail: Ventile, D-Ringe, Nähte, Auftrieb
+
+process_cta:
+  title: Sehen Sie unseren Fertigungsprozess
+  desc: Verfolgen Sie ein SUP durch jede Stufe der Produktion — vom Rohmaterial zum seefähigen Board.
+  label: Produktionsprozess ansehen →
+  link: /factory/process
+
+evidence_review:
+  tagline: 'Nachweise & Verifizierung'
+  title: 'Fabriknachweise — Verifiziert'
+  body: 'Alle Fertigungsaussagen auf dieser Seite werden von unserem Manufacturing Engineering Team am Standort Laixi, Qingdao, verifiziert. Zertifikate, QC-Inspektionsaufzeichnungen, Druck- und Strukturtestberichte sowie Chargen-Rückverfolgbarkeitsaufzeichnungen sind auf Anfrage erhältlich. Spezifikationen zuletzt verifiziert im September 2026.'
+
+cta:
+  title: 'Unsere Fabrik erkunden'
+  actions:
+    - text: Fabrik-Audit-Checkliste
+      href: /factory-audit-checklist

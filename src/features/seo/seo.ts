@@ -172,6 +172,8 @@ export interface SitemapEntry {
   es?: boolean
   /** Emit the French sibling as an hreflang alternate (must have a real fr variant). */
   fr?: boolean
+  /** Emit the German sibling as an hreflang alternate (must have a real de variant). */
+  de?: boolean
 }
 
 type SingleLocalePath = string | SitemapEntry
@@ -202,7 +204,8 @@ export function buildSitemap(
     const links = [
       ...(entry.es ? [`<xhtml:link rel="alternate" hreflang="${HREFLANG.en}" href="${origin}${entry.loc}"/><xhtml:link rel="alternate" hreflang="${HREFLANG.es}" href="${origin}${localizePath('es', entry.loc)}"/>`] : []),
       ...(entry.fr ? [`<xhtml:link rel="alternate" hreflang="${HREFLANG.fr}" href="${origin}${localizePath('fr', entry.loc)}"/>`] : []),
-      ...(entry.es || entry.fr ? [`<xhtml:link rel="alternate" hreflang="x-default" href="${origin}${entry.loc}"/>`] : []),
+      ...(entry.de ? [`<xhtml:link rel="alternate" hreflang="${HREFLANG.de}" href="${origin}${localizePath('de', entry.loc)}"/>`] : []),
+      ...(entry.es || entry.fr || entry.de ? [`<xhtml:link rel="alternate" hreflang="x-default" href="${origin}${entry.loc}"/>`] : []),
     ]
     return `<url><loc>${origin}${entry.loc}</loc>${lastmod}${links.join('')}</url>`
   })

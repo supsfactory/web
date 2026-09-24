@@ -1,0 +1,128 @@
+meta:
+  title: 'OEM vs. ODM vs. Private-Label-SUP-Fertigung — Vergleichsleitfaden'
+  description: 'OEM vs. ODM vs. Private-Label-SUP-Fertigung verglichen: Definitionen, Eigentum, MOQ-Einstiegspunkte, Lieferzeiten, Werkzeuge, IP-Regeln und Einsatzkriterien.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM vs ODM vs Private Label'
+    - 'SUP-Fertigungsvergleich'
+    - 'Fertigung individueller Paddle Boards'
+    - 'OEM SUP China'
+    - 'ODM SUP-Entwicklung'
+    - 'Private Label SUP'
+
+hero:
+  tagline: 'Wählen Sie Ihren Weg der Zusammenarbeit'
+  title: 'OEM vs. ODM vs. Private Label — welches Modell passt zu Ihrem Projekt?'
+  subtitle: 'Drei Wege der Zusammenarbeit mit einer SUP-Fabrik, jeweils mit unterschiedlichem Eigentum, unterschiedlicher Investition und unterschiedlichen Abwägungen bei der Geschwindigkeit. Dieser Leitfaden erläutert die Unterschiede, damit Sie vor Ihrer ersten Anfrage den richtigen Weg wählen.'
+
+answer:
+  label: 'Schnellvergleich'
+  text: 'OEM: Sie besitzen Design und Spezifikation — wir fertigen nach Ihren Zeichnungen. ODM: Unser Technikteam entwickelt das Board aus Ihrem Briefing — Sie geben vor der Produktion frei. Private Label: Ihre Marke auf einer erprobten bestehenden Plattform ohne strukturelle Änderungen — der schnellste Weg zum Markt. Alle drei Wege laufen durch dieselbe Fabrik, dasselbe QC-System und dasselbe Exportteam in Qingdao, China.'
+  verified: 'September 2026'
+
+comparison_table:
+  tagline: 'Seite an Seite'
+  title: 'OEM / ODM / Private Label im Vergleich'
+  subtitle: 'Wesentliche Unterschiede bei Design-Eigentum, MOQ, Werkzeug, Lieferzeit und geistigem Eigentum.'
+  headers:
+    dimension: Dimension
+    oem: OEM-Fertigung
+    odm: ODM-Entwicklung
+    pl: Private Label
+  rows:
+    - dimension: 'Wer entwirft das Board?'
+      oem: 'Sie liefern Spezifikation, Zeichnungen oder ein Referenz-Board'
+      odm: 'Das Fabrik-Technikteam entwickelt aus Ihrem Briefing'
+      pl: 'Bestehende Fabrikplattform — kein Designaufwand nötig'
+    - dimension: 'Design-Eigentum & IP'
+      oem: 'Sie besitzen alle Designs, Formen und das geistige Eigentum'
+      odm: 'Sie besitzen das final freigegebene Design; die Fabrik hält die IP des Entwicklungsprozesses'
+      pl: 'Die Fabrik besitzt das Plattformdesign; Sie besitzen Ihre Marke und Ihre Grafik'
+    - dimension: 'Form / Werkzeug'
+      oem: 'Eigene Form für neue Formen erforderlich — einmalige Werkzeuggebühr, 15–20 zusätzliche Tage'
+      odm: 'Kann je nach Spezifikation eine eigene Form erfordern — gleicher Werkzeugzeitplan'
+      pl: 'Keine neue Form — Werkzeug der bestehenden Plattform wird genutzt'
+    - dimension: 'Mindestbestellmenge'
+      oem: '90–100+ Einheiten pro freigegebener Konfiguration'
+      odm: '90–100+ Einheiten pro freigegebener Konfiguration; Pilotchargen ab 20–50'
+      pl: '5–10 Einheiten (Co-Branding) oder 20–50 (Pilotcharge auf bestehender Plattform)'
+    - dimension: 'Typische Lieferzeit'
+      oem: '25–35 Tage + 15–20 Tage Werkzeug, falls neue Form'
+      odm: '25–35 Tage + Entwicklungsiteration (variiert mit der Komplexität)'
+      pl: '25–35 Tage (keine Werkzeugverzögerung)'
+    - dimension: 'Individualisierungsgrad'
+      oem: 'Voll — Form, Konstruktion, Materialien, Grafik, Verpackung'
+      odm: 'Voll — die Fabrik schlägt vor, Sie geben jedes Element frei'
+      pl: 'Nur Grafik und Verpackung — keine strukturellen Änderungen'
+    - dimension: 'Musterprozess'
+      oem: '1–2 Prototyp-Muster in 7–12 Tagen nach Spezifikationsfreigabe'
+      odm: '1–2 Prototyp-Muster in 7–12 Tagen nach Designfreigabe'
+      pl: '1–2 Muster in 7–12 Tagen — Plattform bereits validiert'
+    - dimension: 'Am besten geeignet für'
+      oem: 'Käufer mit bestehenden Designs, Referenz-Boards oder detaillierten Spezifikationen'
+      odm: 'Käufer mit Produktideen oder Marktanforderungen, aber ohne detaillierte Spezifikation'
+      pl: 'Käufer, die schnell gebrandete Boards ohne Produktentwicklung brauchen'
+
+scenario_cards:
+  tagline: 'Wann Sie welchen Weg wählen'
+  title: 'Reale Szenarien'
+  subtitle: 'Häufige Käufersituationen und das empfohlene Kooperationsmodell.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Sie haben vollständige Spezifikationen und besitzen das Design'
+      desc: 'Sie haben CAD-Zeichnungen, ein Referenz-Board oder ein detailliertes Spezifikationsblatt mit Maßen, Materialien, Konstruktion und Verpackungsanforderungen. Wählen Sie OEM — wir fertigen exakt nach Ihrer Spezifikation.'
+      link: '/de/factory/oem-capability'
+      link_label: 'OEM-Fertigungsdetails'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Sie haben ein Produktkonzept, aber keine technische Spezifikation'
+      desc: 'Sie kennen Zielmarkt, Preisniveau und Leistungsanforderungen, brauchen aber technische Unterstützung zur Entwicklung des Boards. Wählen Sie ODM — unser Team entwickelt aus Ihrem Briefing, Sie geben vor der Produktion frei.'
+      link: '/de/odm-manufacturing'
+      link_label: 'ODM-Entwicklungsdetails'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Sie brauchen schnell gebrandete Boards, ohne Produktentwicklung'
+      desc: 'Sie sind Distributor, Resort oder Verleiher und möchten Ihr Logo auf Qualitäts-Boards ohne Investition in Produktentwicklung. Wählen Sie Private Label — der schnellste Weg vom Konzept zur Lieferung.'
+      link: '/de/solutions/private-label-sup'
+      link_label: 'Private-Label-Details'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Sie betreiben ein Resort, einen Club oder eine Verleihflotte'
+      desc: 'Sie brauchen langlebige SUP-Pakete für hohe Nutzungsfrequenz mit Chargenkonsistenz, Ersatzteilen und Farbmanagement über Nachbestellungen hinweg. Wählen Sie unser Commercial Fleet Program.'
+      link: '/de/solutions/resort-sup'
+      link_label: 'Commercial-Fleet-Details'
+
+ip_rules:
+  tagline: 'Schutz des geistigen Eigentums'
+  title: 'So schützen wir Ihre Designs und Ihre Marke'
+  subtitle: 'Unabhängig vom Kooperationsmodell bleiben Ihr Artwork, Ihre Formen und Ihre Spezifikationsdateien Ihr Eigentum.'
+  body: |
+    **NDA vor Dateiaustausch.** Wir unterzeichnen eine Geheimhaltungsvereinbarung vor jedem technischen Dateiaustausch — Standardreaktionszeit innerhalb von 4 Geschäftsstunden.
+
+    **Keine Design-Weiterverwendung.** Ihr Artwork, Ihre Formen und Ihre Spezifikationsdateien werden nie an andere Kunden weitergegeben oder verkauft. OEM-Formen gehören exklusiv Ihnen. ODM-Designs werden von Ihnen vor der Produktion freigegeben. Private-Label-Plattformen sind gemeinsame Strukturen, aber Ihre Grafik und Ihr Branding sind exklusiv.
+
+    **Nur B2B.** Wir fertigen ausschließlich unter den Marken unserer Kunden. Wir verkaufen nicht an Endverbraucher und treten in keinem Markt in Konkurrenz zu unseren Kunden.
+
+    **Formeneigentum.** Vom Käufer bezahlte eigene Formen gehören dem Käufer. Wir lagern und pflegen sie, dürfen sie aber ohne schriftliche Genehmigung nicht für andere Kunden verwenden.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Häufige Fragen zu OEM, ODM und Private Label'
+  items:
+    - q: 'Kann ich später von Private Label auf OEM umsteigen?'
+      a: 'Ja. Viele Kunden starten mit einer Private-Label- oder Pilotcharge, um den Markt zu validieren, und investieren dann in eigene Werkzeuge für ein vollständiges OEM-Programm, sobald die Nachfrage bewiesen ist. Dieselbe Fabrik und dasselbe QC-System unterstützen beide Wege.'
+    - q: 'Bedeutet ODM, dass die Fabrik meine Marke besitzt?'
+      a: 'Nein. Bei ODM besitzen Sie Ihre Marke, Ihre Grafik und Ihre Verpackung. Die Fabrik entwickelt die Board-Struktur aus Ihrem Briefing, und Sie geben das Design vor der Produktion frei. Die Fabrik behält IP des Entwicklungsprozesses, aber die freigegebene Produktspezifikation gehört Ihnen.'
+    - q: 'Ist Private Label von geringerer Qualität als OEM?'
+      a: 'Nein. Alle drei Wege laufen durch dieselbe Fabrik, dasselbe QC-System und dasselbe Exportteam. Private-Label-Boards werden auf erprobten, validierten Plattformen gebaut, mit vollem 18-PSI-/24-Stunden-Drucktest und derselben 100-Punkte-Montagecheckliste.'
+    - q: 'Was, wenn ich nicht sicher bin, welches Modell ich wählen soll?'
+      a: 'Kontaktieren Sie uns mit Ihrer Situation — unser Technikteam empfiehlt den praktischsten Weg basierend auf Ihren Produktanforderungen, Ihrem Zeitplan und Ihren Mengenzielen. Vor der Spezifikationsprüfung besteht keine Verpflichtung.'
+    - q: 'Kann ich vor einer Modellentscheidung Muster erhalten?'
+      a: 'Ja. 1–2 Prototyp-Muster gehen in 7–12 Tagen raus. Die Musterkosten werden auf Ihren Massenauftrag angerechnet. So können Sie Konstruktion und Qualität vor jeder Mengenzusage bewerten.'
+
+cta:
+  title: 'Bereit, Ihr SUP-Projekt zu besprechen?'
+  subtitle: 'Erzählen Sie uns von Ihren Produktanforderungen, Ihrem Markt und Ihren Mengenzielen — wir empfehlen den praktischsten Weg der Zusammenarbeit.'
+  button: 'Ihr SUP-Projekt starten'
+  note: 'Antwort innerhalb von 1 Werktag · NDA vor Dateiaustausch verfügbar'

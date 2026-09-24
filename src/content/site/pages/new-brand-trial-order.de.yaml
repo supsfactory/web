@@ -1,0 +1,176 @@
+meta:
+  title: 'SUP-Marke mit einer Probebestellung bei niedriger Mindestmenge starten | SUPsfactory'
+  description: 'Starten Sie eine Inflatable-SUP-Marke mit einer Probebestellung bei niedrigem MOQ: Muster in 7–12 Tagen, Pilotläufe mit 20–50 Boards, Produktion in 25–35 Tagen. Branding und QC inklusive.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'SUP-Marke starten'
+    - 'SUP-Markenlaunch'
+    - 'SUP mit niedrigem MOQ'
+    - 'SUP-Probebestellung'
+    - 'Startup-SUP-Marke'
+    - 'Kleinserien-SUP-Branding'
+    - 'Inflatable SUP Private Label'
+
+hero:
+  tagline: 'Für neue & wachsende SUP-Marken'
+  title: 'SUP-Marke mit einer Probebestellung bei niedrigem MOQ starten'
+  subtitle: 'Sie brauchen keinen Container, um eine SUP-Marke zu starten. Validieren Sie Ihr Board, Ihre Grafik und Ihren Markt mit einem einzelnen Muster und testen Sie den Absatz anschließend mit einer Probebestellung von 20–50 Boards — bevor Sie sich auf volle Produktionsmengen festlegen. Branding, Qualitätskontrolle und Exportlogistik übernimmt die Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Start mit einem Muster
+      href: /de/contact#custom-oem
+    - text: Das komplette MOQ- & Lieferzeit-Konzept ansehen
+      href: /de/sup-oem-moq-lead-time
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Ja — Sie können eine Inflatable-SUP-Marke mit einer Probebestellung bei niedrigem MOQ starten. Der Einstieg ist gestaffelt statt Alles-oder-nichts: Bestellen Sie zuerst 1–2 Muster (verfügbar in 7–12 Tagen), um Rumpf, Grafik und Verpackung festzulegen; danach eine Probebestellung von 20–50 Boards (Produktion in 25–35 Tagen), um den echten Absatz zu testen; schließlich skalieren Sie auf Standard-Chargen von 90–100+ Boards pro 150-m-Rolle Drop-stitch-Gewebe, sobald das Format bewährt ist. Kleinserien-Co-Branding startet ab nur 5–10 Einheiten für Betreiber, die gebrandete Boards ohne jede Entwicklungsphase wollen. Ihr erster Container kommt erst, wenn die Daten es sagen.'
+  verified: 'September 2026'
+
+trial_included:
+  tagline: Was die Probebestellung abdeckt
+  title: 'Alles, was ein Launch braucht — ohne Overhead'
+  subtitle: 'Eine Probebestellung ist keine verkleinerte Rechnung — sie nutzt denselben Fabrikprozess, zugeschnitten auf eine startende Marke. Das umfasst jedes Probeprogramm.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: 'Board-Plattform & Konstruktion'
+      desc: 'Erprobte Touring- und Allround-Rümpfe mit Drop-stitch-Konstruktion, Dreifachlagen-Rail-Band-Fusion und 12–15 PSI Steifigkeit — dieselben Plattformen wie für unsere Mengenkunden, in Standardgrößen von 10 ft bis 11 ft 6 in.'
+    - icon: L
+      icon_bg: green
+      title: 'Ihr Branding, real umgesetzt'
+      desc: 'Ganzflächige Digital- oder Siebdruckgrafik, EVA-Antirutschpad mit Ihrem Logo und sekundäres Branding auf Nose- oder Seitenrails. Kleinserien-Co-Branding nutzt das zentrale SUPsfactory-Branding mit Ihrem Logo auf Nose oder Rails.'
+    - icon: P
+      icon_bg: purple
+      title: 'Verpackungsoptionen, die skalieren'
+      desc: 'Start mit Standardkartons und Barcode-Etiketten, später Upgrade auf ganzfarbige gebrandete 5-lagige Handelsverpackungen. Individuelle Verpackungen haben ein eigenes Druckminimum; Überschusskartons werden gelagert und zeitgerecht freigegeben.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Qualitätskontrolle auf Fabrikniveau'
+      desc: 'Jedes Board durchläuft dieselbe 100-Punkte-Montagecheckliste und einen 24-Stunden-Druck- und Dichtigkeitstest (18,0 PSI Halt, automatische Aussortierung über 0,50 PSI Abfall) — wie bei jedem Auftrag, ob Muster oder Container.'
+    - icon: D
+      icon_bg: blue
+      title: 'Export & Dokumentation'
+      desc: 'CE-, ISO-9001-, BSCI-, REACH- und RoHS-Konformitätsdokumentation, exportgerechte Verpackung und Seefracht-Koordination in über 50 Länder — von einem einzelnen Muster bis zu vollständigen Programmen.'
+    - icon: T
+      icon_bg: green
+      title: 'Kalkulierbarer Zeitplan'
+      desc: 'Muster in 7–12 Tagen, Probeproduktion in 25–35 Tagen nach bestätigtem Auftrag und Anzahlung sowie bestätigte Produktionsslots für Vorsaison-Aufträge — so trifft der Launch die Saison, statt sie zu verpassen.'
+
+trial_steps:
+  tagline: Der Launch-Fahrplan
+  title: 'Von der Idee bis zum ersten Absatz in sechs Toren'
+  subtitle: 'Der typische erste Launch dauert 8–12 Wochen vom Briefing bis zur gelieferten Probebestellung mit bestehenden Plattformen — länger, wenn ein eigener Rumpf den Formenbau erfordert. Jedes Tor hat ein Datum, das Sie vorab vereinbaren.'
+  steps:
+    - step: 'Tor 1'
+      title: 'Produkt-Briefing & technische Prüfung (Tag 0–2)'
+      desc: 'Sie teilen Zielmodell, Bestellmenge, Gestaltung und Verpackungsabsicht. Die technische Prüfung erfolgt innerhalb eines Werktages, mit NDA vor dem Austausch proprietärer Spezifikationen.'
+    - step: 'Tor 2'
+      title: 'Spezifikation, MOQ & Offerte (Tag 3–7)'
+      desc: 'Positionsgenaue Offerte mit exakter MOQ-Berechnung, Musterkosten und Lieferzeitteilen. Musterkosten werden nach Vertragsunterzeichnung auf den Produktionsauftrag angerechnet.'
+    - step: 'Tor 3'
+      title: 'Muster in 7–12 Tagen'
+      desc: '1–2 physische Boards validieren Rumpfsteifigkeit, EVA-Pad-Griffigkeit, Grafikgenauigkeit und Zubehörpassform. Sie fahren das Board, bevor Sie sich auf etwas anderes festlegen.'
+    - step: 'Tor 4'
+      title: 'Probebestellung mit 20–50 Boards (25–35 Tage)'
+      desc: 'Produktion auf bestehenden Rumpfplattformen mit Standardmaterialien und vereinfachter Verpackung — der minimale kommerzielle Test, der reale Lagerbedingungen widerspiegelt.'
+    - step: 'Tor 5'
+      title: 'Absatz- & Feedback-Fenster'
+      desc: 'Das wichtigste Tor liegt in Ihrem Markt, nicht in unserer Fabrik: Verleiher und Kunden bestätigen Board-Format, Grafik und Preisniveau, bevor Sie skalieren.'
+    - step: 'Tor 6'
+      title: 'Skalierung auf Mengenchargen (90–100+ Boards)'
+      desc: 'Sobald das Format bewährt ist, liefern Standard-150-m-Rollen volle Produktionseffizienz, gebrandete Verpackung und Mengenpreise. Ein Containerprogramm ist Ziel, nicht Pflicht.'
+
+trial_budget:
+  tagline: Richtwerte für das Budget
+  title: 'Was ein Launch kostet — Preisreferenzen'
+  subtitle: 'Richtwerte, EXW Qingdao (China), für einen Standard-Touring- oder Allround-Rumpf in Standardgrößen. Die endgültige Offerte hängt von Rumpfform, PVC, Grafikabdeckung, Verpackung, Zubehör und Menge ab — vor jeder Zusage gegen Ihre Konfiguration bestätigt.'
+  headers:
+    stage: Bestellstufe
+    price: Referenzpreis pro Board
+    notes: Anmerkungen
+  rows:
+    - stage: 'Muster (1–2 Boards)'
+      price: 'USD 250–350'
+      notes: 'Physisches Muster mit Ihrer Grafik. Musterkosten werden nach Vertragsunterzeichnung auf den Produktionsauftrag angerechnet.'
+    - stage: 'Probe- / Pilotauftrag (20–50 Boards)'
+      price: 'USD 180–260'
+      notes: 'Bestehende Rumpfplattformen, Standardmaterialien und vereinfachte Verpackung. Der Standardweg für niedrige Mindestmengen.'
+    - stage: 'Standardmenge (90–100+ Boards pro 150-m-Rolle)'
+      price: 'USD 150–220'
+      notes: 'Volle 150-m-Geweberollen, individuelle Pantone-PVC-Optionen, gebrandete Verpackung und Mengenpreise.'
+    - stage: 'Eigener Rumpf & Formen (Zusatzoption)'
+      price: 'Projektabhängig'
+      notes: 'Eine eigene Rumpfform addiert 15–20 Tage Formenbau zum Gesamtzeitplan; Werkzeugkosten werden einmalig positionsgenau angeboten.'
+
+derisk:
+  tagline: Launch ohne Risiko
+  title: 'Vier Wege, wie eine Probebestellung Ihren Launch absichert'
+  subtitle: 'Die meisten Marken-Launches scheitern am Lager, nicht an der Produktqualität. Eine Probebestellung macht die vermeidbaren Fehler unmöglich.'
+  features:
+    - icon: I
+      icon_bg: blue
+      title: 'Keine schwere Lagerbindung'
+      desc: 'Ihr erstes Saison-Risiko bleibt unter 50 Boards. Muss das Format angepasst werden, tun Sie das vor der großen Investition — nicht danach.'
+    - icon: C
+      icon_bg: green
+      title: 'Cashflow bleibt planbar'
+      desc: 'Kleinere Aufträge bedeuten kleinere Anzahlungen, gestaffelte Zahlungen und kein brachliegendes Kapital im Lager. Mengenpreise warten, bis sie tatsächlich verdient sind.'
+    - icon: Q
+      icon_bg: purple
+      title: 'Qualität wird nie heruntergefahren'
+      desc: 'Eine 20-Board-Probebestellung läuft durch dieselbe 100-Punkte-Checkliste und dieselbe Druckprüfung wie ein Containerprogramm — keine „Erst-Test-dann-Qualität"-Kompromisse.'
+    - icon: G
+      icon_bg: orange
+      title: 'Garantierter Weg zur Skalierung'
+      desc: 'Jede Probebestellung trägt einen bestätigten Weg zur Menge: erhaltene Muster-Anrechnungen, eingefrorenes Artwork und BOM sowie reservierte Produktionsslots für Ihren Folgeauftrag.'
+
+scale_path:
+  tagline: Nach der Probebestellung
+  title: 'Was nach einer erfolgreichen Probebestellung kommt'
+  subtitle: 'Die Probebestellung ist bewusst als erster Schritt einer längeren Partnerschaft ausgelegt. Das ist der Weg, den wir vereinbaren, bevor das erste Board verschifft wird.'
+  steps:
+    - step: 'Phase 1'
+      title: 'Probe geliefert & bewertet'
+      desc: '20–50 Boards kommen in der Saison an, Absatzdaten kommen aus Ihrem Kanal zurück — Verleih, Handel oder Direktvertrieb.'
+    - step: 'Phase 2'
+      title: 'Feedback & Verfeinerung'
+      desc: 'Farbvarianten, Grafik, Verpackung und Zubehörmix werden nach der realen Marktreaktion angepasst. Artwork und BOM werden für die Folgebestellung eingefroren.'
+    - step: 'Phase 3'
+      title: 'Mengenlauf (90–100+ Boards)'
+      desc: 'Standard-150-m-Rollen mit voller Produktionseffizienz, gebrandeter Handelsverpackung und Mengenpreisen — Muster-Anrechnungen bereits angewendet.'
+    - step: 'Phase 4'
+      title: 'Container-Programme'
+      desc: 'Programme mit 300+ Boards, gestaffelten Lieferungen, individuellem Pantone-Material und der vollen Entwicklungspipeline — dieselbe Fabrik, jetzt im Volumenmaßstab.'
+
+trial_faqs:
+  tagline: FAQ
+  title: 'Häufige Fragen zum Launch mit einer Probebestellung'
+  items:
+    - q: 'Kann ich wirklich eine SUP-Marke ohne Containerauftrag starten?'
+      a: 'Ja. Der Einstieg ist gestaffelt: 1–2 Muster validieren das Board (verfügbar in 7–12 Tagen), eine Probebestellung von 20–50 Boards validiert den Markt (Produktion in 25–35 Tagen), und Mengenchargen von 90–100+ Boards folgen erst, wenn der Absatz das Format beweist. Kleinserien-Co-Branding startet ab nur 5–10 Einheiten, wenn Sie gebrandete Boards ohne Entwicklungsphase wollen.'
+    - q: 'Wie lange dauert ein kompletter Launch von Anfang bis Ende?'
+      a: 'Mit bestehenden Rumpfplattformen dauert ein typischer erster Launch 8–12 Wochen vom Produkt-Briefing bis zur gelieferten Probebestellung: Muster in 7–12 Tagen, Probeproduktion in 25–35 Tagen nach bestätigtem Auftrag und Anzahlung. Ein eigener Rumpf addiert 15–20 Tage Formenbau.'
+    - q: 'Was ist im Preis enthalten — und was nicht?'
+      a: 'Die Referenzpreise gelten EXW Qingdao für die Boards selbst, inklusive Branding und Standard-QC. Sie sind Richtwerte: Die endgültige Offerte wird gegen Ihre Konfiguration bestätigt — Rumpf, PVC, Grafikabdeckung, Verpackung und Zubehör — bevor irgendetwas verbindlich wird. Fracht, Zölle und Zollabfertigung am Bestimmungsort werden separat angeboten.'
+    - q: 'Muss ich 100 oder 500 Boards kaufen, um mein Logo aufs Board zu bekommen?'
+      a: 'Nein. Kleinserien-Co-Branding bringt Ihr Logo ab nur 5–10 Einheiten auf die Nose- oder Seitenrails, und Probebestellungen von 20–50 Boards unterstützen die volle Grafikapplikation in derselben Qualität wie die Mengenproduktion. Was sich mit der Menge ändert, ist der Stückpreis — nicht die Verfügbarkeit.'
+    - q: 'Was passiert, wenn ich das Design nach der Probe ändern möchte?'
+      a: 'Änderungen zwischen Probe und Menge sind normal und erwünscht — genau dafür ist die Probe da. Farbvarianten, Artwork, Verpackung und Zubehör werden gegen die neue Konfiguration neu kalkuliert und vor dem Mengenlauf mit Artwork- und BOM-Freigabe eingefroren. Formenkosten für den Siebdruck entfallen bei Folgeaufträgen mit derselben Artwork-Abmessung.'
+    - q: 'Unterzeichnen Sie eine NDA, bevor ich meine Designs teile?'
+      a: 'Ja. Eine Geheimhaltungsvereinbarung (NDA) ist verfügbar, bevor Sie proprietäre technische Spezifikationen oder Artwork teilen. Wir fertigen ausschließlich unter den Marken unserer Kunden und treten in keinem Markt in Konkurrenz zu Ihnen — dieselbe Politik gilt für ein Einzelmuster wie für ein Containerprogramm.'
+
+cta:
+  title: 'Bereit für den Start Ihrer SUP-Marke?'
+  subtitle: 'Senden Sie uns Ihr Zielmodell, Ihre Erstmengen und Ihre Branding-Ideen. Wir bestätigen den exakten Muster- und Probeweg mit positionsgenauen Kosten und einem Tagesplan — ohne Verbindlichkeit, bis Sie unterzeichnen.'
+  actions:
+    - variant: primary
+      text: Launch starten
+      href: /de/contact#custom-oem
+    - text: Zuerst MOQ & Lieferzeit verstehen
+      href: /de/sup-oem-moq-lead-time
+    - text: Der flexible Branding- & MOQ-Leitfaden
+      href: /de/oem-moq-guide
+    - text: Fabrik & Qualitätssystem verifizieren
+      href: /de/oem-trust-assurance

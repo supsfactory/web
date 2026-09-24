@@ -391,6 +391,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  de: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Wie maßgefertigte SUP-Boards entwickelt werden',
+      metaTitle: 'Wie maßgefertigte SUP-Boards entwickelt werden | SUPsfactory',
+      metaDescription:
+        'So entsteht ein individuelles SUP von der Idee bis zur Fabrik: Spezifikation, Design, Prototyp, Muster und Produktion — Schritt für Schritt erklärt.',
+      kicker: 'Wissen',
+      h1: 'Wie maßgefertigte SUP-Boards entwickelt werden',
+      intro:
+        'Bevor ein individuelles Paddelboard zu Ihren Kunden ausgeliefert wird, durchläuft es einen klar definierten Entwicklungsprozess. Wer jede Phase kennt, brief die Fabrik richtig, setzt realistische Zeitpläne und vermeidet die klassischen Fehler von Erstkäufern.',
+      sections: [
+        {
+          title: 'Schritt 1: Die Anforderung definieren',
+          body: [
+            'Jedes Entwicklungsprojekt beginnt mit dem Einsatzszenario: Wer fährt das Board, wo und wie häufig? Ein Board für eine Verleihflotte unterscheidet sich von einem Board für einen Marken-Launch oder für eine Schule — Stabilität, Langlebigkeit und Kostenvorgaben hängen direkt von der Antwort ab.',
+            'Halten Sie Menge, Zielpreis und unverzichtbare Eigenschaften fest, bevor Sie eine Fabrik kontaktieren. Klare Anforderungen führen zu besseren ersten Angeboten und weniger Hin und Her.',
+          ],
+        },
+        {
+          title: 'Schritt 2: Die Spezifikation festlegen',
+          body: [
+            'Die Spezifikation überführt die Anforderung in messbare Werte: Länge, Breite, Dicke, Volumen, Materialien (Drop-Stitch-Dichte, Stoffgewicht), Finnen-Konfiguration, Gewichtslimit und Verpackung.',
+            'Das ist das Dokument, auf dessen Basis beide Seiten kalkulieren. Spätere Änderungen sind langsamer und teurer — eine eingefrorene Spezifikation ist das günstigste Mittel, das Sie kontrollieren können.',
+          ],
+        },
+        {
+          title: 'Schritt 3: Design und Grafiken',
+          body: [
+            'Mit festgelegter Spezifikation beginnt die Designarbeit: Formanpassungen, Farbkonzepte, Logo-Platzierung, Deckpad-Grafiken und abgestimmtes Zubehör (Leash, Paddel, Finne, Tasche).',
+            'Hersteller können digitale Mockups erstellen, damit Sie das Aussehen freigeben, bevor ein physisches Muster gefertigt wird — günstiger und schneller als mehrere Hardware-Runden.',
+          ],
+        },
+        {
+          title: 'Schritt 4: Prototyp und Muster',
+          body: [
+            'Das Muster ist der erste physische Nachweis. Bei aufblasbaren Boards bedeutet das ein handgefertigtes Board oder ein Board aus einer Pilot-Produktion, das Sie fahren und gegen die Spezifikation testen können.',
+            'Testen Sie das Muster so, wie es Ihre Endkunden tun würden: Stabilität, Steifigkeit, Kurshaltung, Gewicht und Haltbarkeit der Grafiken. Eine gründliche Musterrunde deckt in der Regel die meisten Probleme vor der Produktion auf.',
+          ],
+        },
+        {
+          title: 'Schritt 5: Produktion und Lieferung',
+          body: [
+            'Nach der Musterfreigabe läuft die Produktion in Chargen mit Qualitätskontroll-Punkten. Eine Werksprüfung vor dem Versand — Fotos, Videos oder eine Prüfung durch Dritte — schützt die Charge, die Sie erhalten.',
+            'Ein guter Projektplan wird von Ihrem Starttermin rückwärts gerechnet und nicht vom Auftrag aus vorwärts.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'Die Konstruktion aufblasbarer SUP-Boards erklärt',
+      metaTitle: 'Konstruktion aufblasbarer SUP-Boards: Materialien und Schichten | SUPsfactory',
+      metaDescription:
+        'Aus welchen Bestandteilen ein aufblasbares SUP besteht — PVC-Schichten, Drop-Stitch-Gewebe, Rails und Qualitätsmerkmale — um für Ihr Projekt bessere Boards zu spezifizieren.',
+      kicker: 'Wissen',
+      h1: 'Die Konstruktion aufblasbarer SUP-Boards erklärt',
+      intro:
+        'Die meisten aktuellen Custom-SUP-Projekte sind aufblasbare Boards. Sie sind leichter, einfacher zu lagern und zu versenden und verzeihen Anfängern mehr Fehler. Dieser Leitfaden erklärt die Konstruktion, damit Sie Qualität mit Sicherheit spezifizieren.',
+      sections: [
+        {
+          title: 'Der Kern: Drop-Stitch-Gewebe',
+          body: [
+            'Ein aufblasbares Board ist um ein Drop-Stitch-Gewebe herum gebaut: Tausende Polyesterfäden verbinden die obere und die untere PVC-Schicht. Wenn das Board aufgepumpt ist, halten diese Fäden es auf einer festen Dicke — so erhält ein iSUP seine Form und Steifigkeit.',
+            'Eine höhere Fadendichte (Stiche pro Quadratzoll) bedeutet bei gleichem Druck ein festeres, stabileres Board. Günstigere Boards verwenden geringere Dichten, Premium-Boards höhere.',
+          ],
+        },
+        {
+          title: 'PVC-Schichten und Rails',
+          body: [
+            'Das Gewebe liegt zwischen PVC-Schichten, die es vor Abrieb, UV-Strahlung und Stößen schützen. Schwereres PVC (mehr Mils oder mm) widersteht Stichen besser, erhöht aber das Gewicht.',
+            'Die Rails — die Kanten des Boards — nehmen im Alltag die meisten Stöße auf. Eine Rail-Konstruktion in zwei oder drei Lagen ist ein starkes Zeichen für Langlebigkeit und Verleihtauglichkeit.',
+          ],
+        },
+        {
+          title: 'Was Gewicht hinzufügt — und was Festigkeit',
+          body: [
+            'Das Gewicht ist ein Kompromiss: Dickeres PVC erhöht Langlebigkeit und Gewicht; leichtere Layups eignen sich für Rider, die ihre Boards weit tragen. Das ist einer der deutlichsten Punkte, an denen eine individuelle Spezifikation auf die Realität des Käufers zugeschnitten wird.',
+            'Qualitätsmerkmale, nach denen Sie fragen sollten: angegebener Fülldruck, Nahtkonstruktion, Ventiltyp und Drop-Stitch-Dichte. Seriöse Fabriken veröffentlichen diese Zahlen.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Wie Organisationen SUP-Ausrüstung auswählen',
+      metaTitle: 'Wie Resorts, Clubs und Schulen SUP-Ausrüstung auswählen',
+      metaDescription:
+        'Wie Resorts, Clubs und Schulen SUP-Ausrüstung auswählen: Flottengröße, Board-Typen, Langlebigkeit, Lagerung und Budget für ein nachhaltiges Programm.',
+      kicker: 'Wissen',
+      h1: 'Wie Organisationen SUP-Ausrüstung auswählen',
+      intro:
+        'Resorts, Clubs und Schulen kaufen anders ein als Konsummarken: Die Ausrüstung muss tägliche Nutzung überstehen, unterschiedliche Könnensstufen abdecken und in ein Programm-Budget passen. Dieser Rahmen behandelt die Entscheidungen, die zählen.',
+      sections: [
+        {
+          title: 'Die Flotte am Einsatzzweck ausrichten',
+          body: [
+            'Zählen Sie, wie viele Rider gleichzeitig auf dem Wasser sind — nicht, wie viele Gäste Sie haben. Ein Resort, das im Rotationsprinzip verleiht, braucht weniger Boards als eine Schule mit parallelen Kursen — und mehr Reserven.',
+            'Eine gute Faustregel: ein Board pro gleichzeitigem Rider plus 10–15 % Reserve für Wartung und Wachstum.',
+          ],
+        },
+        {
+          title: 'Board-Typen an die Könnensstufen anpassen',
+          body: [
+            'Anfänger profitieren von breiteren, voluminöseren Boards, die sich stabil anfühlen; erfahrene Rider bevorzugen schmalere Boards, die schneller paddeln. Eine Mischflotte — überwiegend anfängergeeignet mit einigen Performance-Boards — deckt die meisten Programme ab.',
+            'Mehrpersonen-Boards haben in Schulen und Gruppenangeboten ihren festen Platz: Sie ermöglichen Unterricht durch Instruktoren und können in Kursrotationen mehrere Einzel-Boards ersetzen.',
+          ],
+        },
+        {
+          title: 'Langlebigkeit ist eine Budgetentscheidung',
+          body: [
+            'Eine verleihtaugliche Konstruktion kostet am Anfang mehr und spart über zwei bis drei Saisons Geld. Fragen Sie nach Rail-Verstärkung, PVC-Dicke und der Garantie, die die Fabrik für Flottenaufträge gewährt.',
+            'Planen Sie auch Lagerung und Aufpumpen ein: Kompressoren, Gestelle und Verpackungsroutinen bestimmen den täglichen Arbeitsaufwand des Programms. Flottenorientierte Lieferanten beziehen dies in das Paket ein.',
+          ],
+        },
+        {
+          title: 'Das Programm planen, nicht nur den Auftrag',
+          body: [
+            'Die besten Ausrüstungsaufträge sind Teil eines Programmplans: Instruktorenschulung, Wartungsroutinen und ein Ersatzzyklus für abgenutzte Boards. Organisationen, die das Programm planen, erneuern ihre Ausrüstung planmäßig; die anderen kaufen Notfall-Ersatz zum vollen Preis.',
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -421,5 +545,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       "Guides pratiques sur le développement de produits SUP personnalisés, la construction de planches gonflables et le choix d'un équipement SUP pour les resorts, clubs et écoles.",
     h1: 'Centre de connaissances — développement de produit, expliqué',
+  },
+  de: {
+    metaTitle: 'Wissenszentrum: Leitfäden zur SUP-Produktentwicklung | SUPsfactory',
+    metaDescription:
+      'Praktische Leitfäden zur Entwicklung individueller SUP-Produkte, zur Konstruktion aufblasbarer Boards und zur Auswahl von SUP-Ausrüstung für Resorts, Clubs und Schulen.',
+    h1: 'Wissenszentrum — Produktentwicklung, erklärt',
   },
 }

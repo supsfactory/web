@@ -102,11 +102,13 @@ const handler = {
  */
 async function warmEdgeCache(env: Cloudflare.Env, ctx: ExecutionContext): Promise<void> {
   const paths = [
-    '/', '/es', '/fr',
+    '/', '/es', '/fr', '/de',
     '/solutions', '/solutions/custom-sup', '/solutions/private-label-sup', '/solutions/resort-sup', '/solutions/club-sup', '/solutions/school-sup',
     '/fr/solutions', '/fr/solutions/custom-sup', '/fr/solutions/private-label-sup', '/fr/solutions/resort-sup', '/fr/solutions/club-sup', '/fr/solutions/school-sup',
+    '/de/solutions', '/de/solutions/custom-sup', '/de/solutions/private-label-sup', '/de/solutions/resort-sup', '/de/solutions/club-sup', '/de/solutions/school-sup',
     '/factory', '/quality', '/oem-odm-manufacturer',
     '/fr/factory', '/fr/quality', '/fr/oem-odm-manufacturer',
+    '/de/factory', '/de/quality', '/de/oem-odm-manufacturer',
     '/oem-moq-guide', '/oem-trust-assurance', '/proof-center',
     '/sup-oem-moq-lead-time',
   ]
@@ -114,6 +116,7 @@ async function warmEdgeCache(env: Cloudflare.Env, ctx: ExecutionContext): Promis
     const { getPublicPaths } = await import('@/features/content/loader')
     paths.push(...getPublicPaths().filter((p) => p.startsWith('/products/')))
     paths.push(...getPublicPaths().filter((p) => p.startsWith('/products/')).map((p) => `/fr${p}`))
+    paths.push(...getPublicPaths().filter((p) => p.startsWith('/products/')).map((p) => `/de${p}`))
   } catch (err) {
     console.log('[cron] warm fallback list', err instanceof Error ? err.message : String(err))
   }

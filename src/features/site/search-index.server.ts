@@ -6,7 +6,7 @@
  * loader never enters the client bundle.
  */
 
-import { locales, localizePath, type Locale } from '@/features/i18n/locale'
+import { locales, localizePath, defaultLocale, type Locale } from '@/features/i18n/locale'
 import { buildHubEntries } from '@/product/hub-pages'
 import { pick } from '@/product/content'
 import { solutionPages, solutionPath } from '@/product/solution-pages'
@@ -31,6 +31,14 @@ import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import type { SearchEntry } from './search'
 
 const squeeze = (s: string): string => s.replace(/\s+/g, ' ').trim()
+
+/** Site-wide FAQ page title per locale (indexed under /{locale}/faq). */
+const FAQ_TITLES: Record<string, string> = {
+  en: 'FAQ',
+  es: 'Preguntas frecuentes',
+  fr: 'Questions fréquentes',
+  de: 'Häufig gestellte Fragen',
+}
 
 /** Slug → readable label fallback for pages without an explicit SEO title. */
 const humanize = (s: string): string =>
@@ -118,7 +126,8 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
   for (const p of getContentPages()) {
     if (p.path in EDGE_REDIRECTS) continue
     const seo = p.content.seo as { title?: string; description?: string } | undefined
-    if (locale === 'en') {
+    const localized = locale === defaultLocale ? undefined : isContentPageTranslated(p.path, locale) ? getContentPage(p.path, locale) : undefined
+    if (locale === defaultLocale) {
       entries.push({
         url: p.path,
         title: (seo?.title ?? '').replace(/[|–—-].*$/, '').trim() || humanize(p.label),
@@ -128,38 +137,37 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
         locale: 'en',
       })
     }
-    if (locale === 'es' && isContentPageTranslated(p.path, 'es')) {
-      const es = getContentPage(p.path, 'es')!
-      const esMeta = es.content.meta as { title?: string; description?: string } | undefined
-      const esSeo = es.content.seo as { headline?: string; description?: string } | undefined
-      const esTitle = (esMeta?.title ?? esSeo?.headline ?? '').replace(/[|–—-].*$/, '').trim() || humanize(p.label)
+    if (localized) {
+      const meta = localized.content.meta as { title?: string; description?: string } | undefined
+      const locSeo = localized.content.seo as { headline?: string; description?: string } | undefined
+      const locTitle = (meta?.title ?? locSeo?.headline ?? '').replace(/[|–—-].*$/, '').trim() || humanize(p.label)
       entries.push({
-        url: `/es${p.path}`,
-        title: esTitle,
-        excerpt: esMeta?.description ?? esSeo?.description ?? '',
-        content: squeeze(brandify(pageText(es.content))),
+        url: localizePath(locale, p.path),
+        title: locTitle,
+        excerpt: meta?.description ?? locSeo?.description ?? '',
+        content: squeeze(brandify(pageText(localized.content))),
         type: 'page',
-        locale: 'es',
+        locale: locale as unknown as SearchEntry['locale'],
       })
     }
   }
-  if (locale === 'en') {
+  if (locale === defaultLocale) {
     entries.push({
       url: '/faq',
-      title: 'FAQ',
+      title: FAQ_TITLES.en,
       excerpt: FAQ_EXCERPTS[locale] ?? FAQ_EXCERPTS.en,
       content: squeeze(brandify(getSiteFaqs('en').map((f) => `Q: ${f.q} A: ${f.a}`).join(' '))),
       type: 'page',
       locale: 'en',
     })
-  } else if (isContentPageTranslated('/faq', 'es') && getSiteFaqs('es').length > 0) {
+  } else if (isContentPageTranslated('/faq', locale) && getSiteFaqs(locale).length > 0) {
     entries.push({
-      url: '/es/faq',
-      title: 'Preguntas frecuentes',
-      excerpt: FAQ_EXCERPTS.es,
-      content: squeeze(brandify(getSiteFaqs('es').map((f) => `Q: ${f.q} A: ${f.a}`).join(' '))),
+      url: localizePath(locale, '/faq'),
+      title: FAQ_TITLES[locale] ?? FAQ_TITLES.en,
+      excerpt: FAQ_EXCERPTS[locale] ?? FAQ_EXCERPTS.en,
+      content: squeeze(brandify(getSiteFaqs(locale).map((f) => `Q: ${f.q} A: ${f.a}`).join(' '))),
       type: 'page',
-      locale: 'es',
+      locale: locale as unknown as SearchEntry['locale'],
     })
   }
   return entries

@@ -1,0 +1,134 @@
+meta:
+  title: 'B2B-Kundenlösungs-Matrix | {SITE}'
+  description: 'Vollständige Vatrad-B2B-Kundenlösungs-Matrix für 24 Kundentypen — von Outdoor-Startups bis zu Institutionen für Meeresschutz.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: B2B-Kundenlösungen
+  title: '24 B2B-Lösungen passend zu Ihrem Unternehmen'
+  subtitle: 'Von Start-up-Gründern bis zu globalen Distributoren — finden Sie die exakte Vatrad-Lösung, die für Ihr Geschäftsmodell, Ihre Branche und Ihre Ziele entwickelt wurde.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-building.webp
+    alt: Vatrad-Fabrik und Fertigungsanlage
+
+answer:
+  label: 'Klare Antwort'
+  text: 'Eine Fabrik bedient jede B2B-Route: OEM/ODM-Fertigung mit projektbestätigter MOQ (Muster 1–2 Einheiten, Pilot 20–50, Standardmenge 90–100+ pro 150-m-Rolle; Co-Branding ab 5–10 Einheiten), Private Label auf bewährten Plattformen, Wholesale-Distribution und Flottenprogramme für Resorts, Clubs und Schulen. Jeder Kundentyp wird einer bestimmten Lösungssuche zugeordnet — Muster in 7–12 Tagen, Produktion 25–35 Tage nach PO und Anzahlung.'
+  verified: 'September 2026'
+
+solutions:
+  title: Kundenlösungs-Matrix
+  subtitle: 'Jeder Kundentyp, sein Kernbedarf und die speziell für ihn konzipierte Vatrad-Lösungsseite.'
+  items:
+    - clientType: Outdoor-Startup-Gründer
+      need: Markenaufbau
+      solutionPage: Bauen Sie Ihre SUP-Marke auf
+      link: /solutions/private-label-sup
+    - clientType: Outdoor-Markenmanager
+      need: Ausbau der Outdoor-Marke in den Wassersport
+      solutionPage: Outdoor-Marke in den Wassersport erweitern
+      link: /solutions/private-label-sup
+    - clientType: Inhaber eines Surfshops
+      need: Modernisierung des Surfgeschäfts
+      solutionPage: Aufblasbare Technologie ins Surfgeschäft bringen
+      link: /products/surf
+    - clientType: Amazon-Verkäufer
+      need: E-Commerce-Wachstum
+      solutionPage: Produktdifferenzierung & schnelle Lieferung
+      link: /solutions/private-label-sup
+    - clientType: Marke für Angelausrüstung
+      need: Angel-SUP
+      solutionPage: Ihre Angel-SUP-Marke aufbauen
+      link: /products/fishing
+    - clientType: Yoga- & Wellness-Marke
+      need: Wellness-Wasserprodukte
+      solutionPage: SUP-Yoga-Ausrüstungslösungen
+      link: /products/yoga
+    - clientType: Creator-Marke
+      need: Influencer-Marke
+      solutionPage: Creator-Edition SUP-Startup
+      link: /solutions/private-label-sup
+    - clientType: Gründer eines Paddelclubs
+      need: Clubflotte
+      solutionPage: Kommerzielle SUP-Flotte
+      link: /solutions/club-sup
+    - clientType: Inhaber eines Verleihbetriebs
+      need: Verleihbetrieb
+      solutionPage: Langlebige Verleihflotten-Lösung
+      link: /solutions/rental-operators
+    - clientType: Aktivitätenmanager eines Resorts
+      need: Hotel-Erlebnis
+      solutionPage: Resort-Wasseraktivitäts-Paket
+      link: /solutions/resort-sup
+    - clientType: Wassersport-Akademie
+      need: Training & Ausbildung
+      solutionPage: SUP-Akademie-Ausrüstungsprogramm
+      link: /solutions/school-sup
+    - clientType: Kreuzfahrt- & Yachtunternehmen
+      need: Yacht-Erlebnis
+      solutionPage: Luxus-Portable-SUP-Paket
+      link: /product-development
+    - clientType: Einkäufer im Outdoor-Einzelhandel
+      need: Einzelhandelskanal
+      solutionPage: Private-Label-Programm für den Einzelhandel
+      link: /solutions/retail-partners
+    - clientType: Distributor & Importeur
+      need: Regionale Distribution
+      solutionPage: Regionaler OEM- & Supply-Chain-Partner
+      link: /solutions/distributors
+    - clientType: Käufer für Firmenprojekte
+      need: Firmen-Events
+      solutionPage: Corporate-SUP-Event-Paket
+      link: /contact
+    - clientType: Markenmanager Wassersport
+      need: Ausbau der Wassersportmarke
+      solutionPage: Erweitern Sie Ihr Wassersport-Portfolio
+      link: /solutions/private-label-sup
+    - clientType: Inhaber einer Haustier-Abenteuermarke
+      need: Outdoor für Haustiere
+      solutionPage: Haustierfreundliches Paddle-Board-Programm
+      link: /product-development
+    - clientType: Strandfreizeit-Betreiber
+      need: Strandunterhaltung
+      solutionPage: Komplette Ausrüstungslösungen für Strandaktivitäten
+      link: /solutions/rental-operators
+    - clientType: Entwickler eines Wasserparks
+      need: Themen-Unterhaltung
+      solutionPage: Kommerzielle SUP-Flotte für Wasserparks
+      link: /solutions/resort-sup
+    - clientType: Eigentümer einer Privatinsel & eines Luxusclubs
+      need: Hochwertiger Lebensstil
+      solutionPage: Premium-Kunden-SUP-Kollektion
+      link: /product-development
+    - clientType: Tourismusbehörde & Betreiber öffentlicher Parks
+      need: Öffentliche Tourismusprojekte
+      solutionPage: Destination-Wassersport-Paket
+      link: /solutions/rental-operators
+    - clientType: Betreiber von Kinder-Abenteuer- & Sommercamps
+      need: Jugenderziehung
+      solutionPage: Kinder-Entdecker-SUP-Programm
+      link: /solutions/school-sup
+    - clientType: Organisation für Wasserrettung & Sicherheit
+      need: Professionelle Rettung
+      solutionPage: Professionelles Wasserrettungs-SUP-System
+      link: /product-development
+    - clientType: Institution für Meeresschutz & Forschung
+      need: Umweltforschung
+      solutionPage: Öko-Forschungs- & Monitoring-SUP-Plattform
+      link: /product-development
+
+cta:
+  title: 'Unsicher, welche Lösung zu Ihrem Unternehmen passt?'
+  subtitle: 'Beschreiben Sie Ihr Projekt unserem B2B-Team und wir empfehlen die richtige Konfiguration und Preisgestaltung.'
+  actions:
+    - variant: primary
+      text: Sprechen Sie mit unserem B2B-Team
+      href: /contact?subject=b2b-solutions
+    - variant: secondary
+      text: Katalog herunterladen
+      href: /products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Jede Route dieser Matrix beginnt mit denselben zwei Dingen: unser <a href="/oem-manufacturing">OEM/ODM-Fertigungsprogramm</a> und die <a href="/factory">Fabrik dahinter</a> — eine 12,500 m&sup2; große Anlage, ein Satz Qualitätsstandards, jeder Kanal bedient.</p>
+  </div>

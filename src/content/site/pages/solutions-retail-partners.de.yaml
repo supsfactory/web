@@ -1,0 +1,104 @@
+meta:
+  title: 'Individuelle & Private-Label-SUP-Produktion für Händler | {SITE}'
+  description: 'Individuelle und Private-Label-SUP-Produktion für Handelsmarken: Board-Spezifikationen, Markengrafiken, niedrige Test-MOQ und Fabrik-QC — vom Muster bis zur Serie.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Handelsmarken
+  title: 'Individuelle SUP-Produktion für Handelsmarken'
+  subtitle: 'Handelsmarken launchen ihre eigene Paddelboard-Linie mit unserer Fabrik: Board-Spezifikationen aus Ihren Anforderungen entwickelt, Ihre Marke auf dem Produkt und Produktions-QC durchgängig übernommen.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Vatrad SUP-Boards, produziert für eine Handelsmarke
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Die MOQ wird durch die Projektkonfiguration bestätigt: Handelsmarken starten mit einem Muster (1–2 Einheiten) oder einer Pilotcharge (20–50 Einheiten, Muster in 7–12 Tagen), skalieren auf eine Standard-OEM-Serie von 90–100+ Einheiten pro Design (25–35 Tage nach PO und Anzahlung) oder investieren in eine kundenspezifische Form für vollständig individuelle Linien (Werkzeugbau ergänzt 15–20 Tage). Jedes Board wird vor dem Versand druckgetestet, mit FOB-, CIF- oder DDP-Bedingungen ab Qingdao.'
+  verified: 'September 2026'
+
+margin_section:
+  title: 'Produktionsstufen für Handelsmarken'
+  subtitle: 'Starten Sie mit einem Muster, pilotieren Sie zur Validierung, skalieren Sie auf eine Standard-Serie oder investieren Sie in eine kundenspezifische Form — MOQ und Lieferzeiten werden durch den Produktionsweg bestimmt, nicht durch Raten.'
+  items:
+    - tier: 'Musterstufe'
+      moq: '1–2 Einheiten'
+      margin_note: 'Muster-Lieferzeit 7–12 Tage'
+      features:
+        - 'Grafikentwicklung aus Ihren Marken-Assets'
+        - 'Physisches Muster zur Freigabe'
+        - 'QC auf Standard-Plattform'
+    - tier: 'Pilotstufe'
+      moq: '20–50 Einheiten'
+      margin_note: 'Marktvalidierung auf Bestandsplattformen'
+      features:
+        - 'Vollflächige Board-Grafiken, Logo und EVA-Layout'
+        - 'Nachbestellungen auf denselben freigegebenen Plattformen'
+        - 'Exportdokumentation inklusive'
+    - tier: 'Kundenspezifische Form'
+      moq: 'Durch Projektkonfiguration bestätigt'
+      margin_note: 'Werkzeugbau ergänzt 15–20 Tage'
+      features:
+        - 'Neue Boardform und Formentwicklung'
+        - 'Volle Spezifikationskontrolle'
+        - 'Priorisierte Produktionszuteilung'
+
+product_line:
+  title: Komplettes Produktsortiment
+  subtitle: 'Eine Produktionsplattform für jedes Segment in Ihrem Geschäft.'
+  items:
+    - name: Allround-Serie
+      description: 'Vielseitige Form — die häufigste Startplattform'
+    - name: Touring-Serie
+      description: 'Verdränger-Rumpf für Distanz-Paddling'
+    - name: Yoga-Serie
+      description: 'Breite, stabile Plattform für den Wellness-Bereich'
+    - name: Kinder-Serie
+      description: 'Kurze, leichte Boards für jüngere Paddler'
+    - name: Racing-Serie
+      description: 'Schnelle Rümpfe für das Enthusiasten-Segment'
+    - name: Zubehör
+      description: 'Paddel, Westen, Pumpen und Taschen zur Ergänzung des Sortiments'
+
+catalog:
+  title: Ressourcen für Handelspartner
+  subtitle: 'Spezifikationen, Bestelldetails und Produktdokumentation.'
+  items:
+    - name: 'Produktkatalog 2026'
+      desc: 'Komplettes Sortiment mit Spezifikationen und Bestellinformationen'
+      icon: 'tabler:file-text'
+      link: '/de/products'
+    - name: 'Leitfaden für Handelspartner'
+      desc: 'Spezifikationsleitfaden, Bestellprozess und QC-Standards'
+      icon: 'tabler:book'
+      link: '/de/products'
+    - name: 'Produkt- & Technik-Assets'
+      desc: 'Hochauflösende Produktfotos, Lifestyle-Bilder und technische Dokumentation'
+      icon: 'tabler:photo'
+      link: '/de/products'
+
+support:
+  title: Produktionssupport
+  subtitle: 'Was Ihr Fertigungspartner rund um die Bestellung leistet.'
+  items:
+    - 'Physisches Muster vor der Massenproduktion'
+    - 'Toleranzen und QC: jedes Board vor dem Versand druckgetestet'
+    - 'Spezifikationssupport — Formen, Grafiken, EVA-Layout, Zubehör'
+    - 'Serien-Lieferzeit 25–35 Tage nach bestätigter PO'
+    - 'Ersatzteile und Reparaturanleitung für Ihre Kunden'
+    - 'Export und Dokumentation: FOB/CIF/DDP ab Qingdao'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Weiterlesen:</strong> informieren Sie sich über das vollständige <a href="/oem-manufacturing">OEM/ODM-Fertigungsprogramm</a> — projektbestätigte MOQs über Muster-, Pilot- und Serienstufen, Private-Label-Branding und CE-Konformität — oder lesen Sie den <a href="/oem-moq-guide">MOQ- & Flexible-Branding-Leitfaden</a> oder besichtigen Sie die <a href="/factory">Fabrik</a>, um zu sehen, wie handelsfertiges QC umgesetzt wird.</p>
+  </div>
+
+cta:
+  title: 'Besprechen Sie Ihre Handelsproduktlinie'
+  subtitle: 'Senden Sie Ihre Anforderungen — unser Team antwortet innerhalb eines Werktags.'
+  actions:
+    - text: 'Anforderungen senden'
+      href: '/de/contact'
+      variant: 'primary'
+    - text: 'Produktplattformen ansehen'
+      href: '/de/products'
+      variant: 'secondary'

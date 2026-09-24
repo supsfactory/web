@@ -2020,6 +2020,665 @@ export const projects: Localized<ProjectData[]> = {
       tags: ['Configuration yoga', 'Couverture complète du pont', 'Flotte de programme'],
     },
   ],
+  de: [
+    {
+      slug: 'coastal-rental-fleet',
+      customerType: 'Verleihflotten-Betreiber',
+      region: 'Mittelmeer — Spanien, Italien, Griechenland',
+      productCategory: 'Aufblasbares SUP in Verleihqualität (10′6″ + 11′0″)',
+      projectStage: 'Flottenbewertung → Musterfreigabe → gestaffelte Lieferung in 3 Chargen',
+      manufacturingScope: 'Flottenspezifikation, verstärkte Konstruktion, gestaffelte Produktion, Ersatzteilversorgung',
+      keyRequirements: 'Langlebige Verleihboards, gestaffelte Lieferung an alle Stationen, geringere Quote der Frühausfälle',
+      qualityFocus: 'Verstärkte Konstruktion, Luftdichtheit, Flotten-Design, vollständige Ausstattung',
+      navLabel: 'Küsten-Verleihflotte',
+      metaTitle: 'Küsten-Verleihflotte | 320 Boards in 120 Tagen — SUPsfactory',
+      metaDescription:
+        'Wie ein Verleihbetreiber im Mittelmeerraum eine Küstenflotte mit 320 Boards in Spanien, Italien und Griechenland aufbaute — drei gestaffelte Chargen in 120 Tagen und eine geschätzte Verringerung der Frühausfälle um 20–25 %.',
+      kicker: 'Küstenverleih-Projekt',
+      h1: 'Wie ein Verleihbetreiber im Mittelmeerraum in 120 Tagen eine Küstenflotte mit 320 Boards aufbaute',
+      intro: [
+        'Ein Verleihbetreiber mit Stationen in Spanien, Italien und Griechenland benötigte eine langlebige Flotte für die hochfrequentierte Sommersaison — geliefert in drei Chargen, rechtzeitig zur Eröffnung jeder Station.',
+      ],
+      industry: 'Verleihflotten-Betreiber',
+      requirement: '320 Verleihboards in zwei Größen — 10′6″ und 11′0″ — für Küstenstationen in drei Ländern, geliefert in drei gestaffelten Chargen innerhalb von 120 Tagen.',
+      challenge:
+        'Die tägliche Rotation im Verleih nutzt die Boards schnell ab, und die Frühausfallquote des Betreibers lag bei 20–25 %. Die Stationen eröffneten in drei Ländern an unterschiedlichen Terminen, daher war eine einzelne Lieferung keine Option — und ebenso wenig eine Flotte in nur einer Größe.',
+      solution:
+        'Zwei langlebige Verleihplattformen in den Größen, die die meisten Mieter abdecken, eine verstärkte Konstruktion für die hohe Beanspruchung sowie drei Produktionschargen, die pünktlich zur Eröffnung jeder Station eintreffen — mit Ersatzteilpaketen und Reparaturanleitung je Station.',
+      product: 'Aufblasbares SUP in Verleihqualität — Plattformen in 10′6″ und 11′0″ mit verstärkten Rails und UV-beständigen Materialien, Ausstattung je Station.',
+      process: [
+        { title: 'Flottenbewertung', body: 'Eröffnungstermine und Auslastungsvolumen legten die beiden Größen und die Chargenverteilung fest.' },
+        { title: 'Board-Auswahl', body: 'Verleihplattformen in 10′6″ und 11′0″ gewählt für eine breite Abdeckung der Mieter und Langlebigkeit.' },
+        { title: 'Gestaffelte Produktion', body: 'Drei Chargen abgestimmt auf den Eröffnungstermin jeder Station.' },
+        { title: 'Lieferung & Support', body: 'Flotte je Charge versandt, inklusive Ersatzteilpaketen und Reparaturanleitung je Station.' },
+      ],
+      result:
+        'Alle drei Chargen trafen innerhalb von 120 Tagen ein, abgestimmt auf die Eröffnung jeder Station. Die verstärkten Plattformen sollen die Frühausfallquote voraussichtlich um geschätzte 20–25 % senken; Ersatzteilpakete decken Reparaturen vor Ort zwischen den Saisons ab.',
+      outcome: '320 Boards · 120 Tage · 3 Chargen · ca. −20–25 % Frühausfälle.',
+      metrics: [
+        { value: '320', label: 'Boards in zwei Größen' },
+        { value: '120', label: 'Tage von der Bestellung bis zur letzten Charge' },
+        { value: '3', label: 'gestaffelte Lieferungen, eine je Stationseröffnung' },
+        { value: '−20–25%', label: 'geschätzte Frühausfallquote' },
+      ],
+      takeaways: [
+        'Gestaffelte Chargen bringen die Flotte exakt zur Eröffnung jeder Station vor Ort — kein ungenutztes Inventar, kein verspäteter Start.',
+        'Zwei Größen (10′6″ und 11′0″) deckten die meisten Mieter ab, ohne die Flotte zu zersplittern.',
+        'Für die Senkung der Frühausfallquote ist die verstärkte Konstruktion entscheidend — nicht allein der Preis.',
+        'Ersatzteilpakete je Station hielten die Boards zwischen den Saisons einsatzbereit.',
+      ],
+      customizations: [
+        'Verleihplattformen in 10′6″ und 11′0″ abgestimmt auf die Mieterprofile',
+        'Verstärkte Rails und UV-beständige Materialien für den hochfrequentierten Verleih',
+        'Flotten-Design und Nummerierung je Station',
+        'Produktionsplan in drei Chargen abgestimmt auf die Stationseröffnungen',
+        'Ersatzteilpakete und Reparaturanleitung je Station',
+        'Verpackung für getrennte Standorte und Lieferprüfung je Charge',
+      ],
+      inspectionFocus: [
+        'Prüfung der verstärkten Konstruktion je Board',
+        'Aufpumpen und Luftdichtheit bei jedem Board',
+        'Genauigkeit von Flotten-Design und Stationsnummerierung',
+        'Vollständigkeit von Zubehör und Ersatzteilpaketen je Station',
+        'Verpackungskontrollen für Sendungen an getrennte Standorte in mehreren Chargen',
+      ],
+      confidentiality:
+        'Vereinbarungsgemäß werden der Name des Betreibers und die Standorte der Stationen nicht veröffentlicht. Dieses Projekt wird anonym dargestellt, um die Vertraulichkeit geschäftlicher Informationen zu wahren.',
+      tags: ['Gestaffelte Flottenlieferung', 'Konstruktion in Verleihqualität', 'Geringere Austauschquote'],
+    },
+    {
+      slug: 'eu-distributor-private-label',
+      customerType: 'Distributoren & Großhändler',
+      region: 'Europa',
+      productCategory: 'Aufblasbares SUP im Private Label (2 SKUs)',
+      projectStage: 'Sortimentsplanung → Musterfreigabe → Mengenlieferung in 90 Tagen',
+      manufacturingScope: 'Private-Label-Branding, Einzelhandelsverpackung, Serienproduktion, Support für Nachbestellungen',
+      keyRequirements: 'Zwei markterprobte SKUs unter der eigenen Marke des Distributors, EU-Einzelhandelsverpackung, Abstimmung auf die Saisontermine',
+      qualityFocus: 'Designgenauigkeit, Barcode und Etikett je Markt, vollständige Ausstattung, Luftdichtheit',
+      navLabel: 'Private Label für Distributoren',
+      metaTitle: 'EU-Distributor Private Label | 1,200 Boards in 90 Tagen — SUPsfactory',
+      metaDescription:
+        'Wie ein europäischer Distributor in 90 Tagen eine Private-Label-SUP-Linie mit 1,200 Boards lancierte — zwei SKUs, EU-Einzelhandelsverpackung und im Q4 eine Folgeauftrag zur gleichen fixierten Spezifikation.',
+      kicker: 'Private-Label-Projekt',
+      h1: 'Wie ein europäischer Distributor in 90 Tagen eine Private-Label-SUP-Linie mit 1,200 Boards lancierte',
+      intro: [
+        'Ein europäischer Distributor wollte für die Sommersaison eine eigene SUP-Linie im Regal — zwei markterprobte SKUs, vollständige Einzelhandelsverpackung und ohne eigene Werksbeziehungen.',
+      ],
+      industry: 'Distributoren & Großhändler',
+      requirement: '1,200 gebrandete Boards in zwei SKUs — 10′6″ Allround und 12′6″ Touring — mit EU-Einzelhandelsverpackung, geliefert in 90 Tagen.',
+      challenge:
+        'Das Verkaufsfenster im Sommer steht fest, daher mussten alle 1,200 Boards samt Verpackung pünktlich eintreffen. Die Private-Label-Verpackung — Barcodes, Etiketten, Handbücher — musste den Anforderungen des EU-Einzelhandels entsprechen, und der Distributor konnte auf keine SUP-Fabrikerfahrung zurückgreifen.',
+      solution:
+        'Zwei markterprobte Plattformen für das Einzelhandelssortiment, das komplette Private-Label-Design und die EU-Einzelhandelsverpackung in einem Programm, und eine Produktionsplanung, sodass beide SKUs innerhalb des 90-Tage-Fensters gemeinsam verschifft werden — mit fixierter Spezifikation für eine saubere Nachbestellung.',
+      product: 'Aufblasbares SUP im Private Label — 10′6″ Allround und 12′6″ Touring, mit gebrandetem Paddel, Pumpe, Rucksack und bedruckten Einzelhandelskartons.',
+      process: [
+        { title: 'Sortimentsplanung', body: 'Zwei SKUs ausgewählt — 10′6″ Allround und 12′6″ Touring — für die Abdeckung im Einzelhandel.' },
+        { title: 'Musterfreigabe', body: 'Design, Verpackung und Ausführung an physischen Boards bestätigt.' },
+        { title: 'Produktion in 90 Tagen', body: 'Volumenproduktion so geplant, dass beide SKUs gemeinsam für das Saisonfenster verschifft werden.' },
+        { title: 'Q4-Nachbestellung', body: 'Nachbestellung zur gleichen fixierten Spezifikation aufgegeben.' },
+      ],
+      result:
+        'Alle 1,200 Boards mit kompletter Einzelhandelsverpackung wurden innerhalb von 90 Tagen verschifft — rechtzeitig zum Verkaufsfenster im Sommer. Die Linie verkaufte sich vollständig, und der Distributor kam im Q4 mit einer Nachbestellung zur gleichen fixierten Spezifikation zurück.',
+      outcome: '1,200 Boards · 90 Tage · 2 SKUs · Q4-Nachbestellung.',
+      metrics: [
+        { value: '1,200', label: 'Boards in einem Launch' },
+        { value: '90', label: 'Tage bis zur vollständigen Lieferung' },
+        { value: '2', label: 'Einzelhandels-SKUs, beide rechtzeitig zum Fenster' },
+        { value: 'Q4', label: 'Nachbestellung zur gleichen Spezifikation' },
+      ],
+      takeaways: [
+        'Der Start mit zwei bewährten SKUs hält das Lagerrisiko gering und füllt dennoch das Einzelhandelssortiment.',
+        'Ein einziges Programm für Boards, Zubehör und Verpackung beseitigt eine häufige Fehlerquelle beim Launch.',
+        'Ein fixiertes Saisondatum gibt den Zeitplan vor — die Produktionsplanung muss es als nicht verhandelbar behandeln.',
+        'Die Fixierung der Spezifikation beim Launch macht Nachbestellungen sauber und konsistent.',
+      ],
+      customizations: [
+        'Allround-Plattformen in 10′6″ und Touring-Plattformen in 12′6″ für das Einzelhandelssortiment',
+        'Private-Label-Design für Deck, Unterseite und Verpackung',
+        'Gebrandetes Paddel, Pumpe und Rucksack je SKU',
+        'Bedruckte Einzelhandelskartons, Barcodes, Etiketten und Bedienungsanleitung für den EU-Einzelhandel',
+        'Stückliste und Spezifikation fixiert für konsistente Nachbestellungen',
+        'Gestaffelte Lieferung abgestimmt auf das Launch-Fenster im Einzelhandel',
+      ],
+      inspectionFocus: [
+        'Designgenauigkeit gegenüber den freigegebenen Private-Label-Vorlagen',
+        'Prüfung von Barcode, Etikett und Anleitung je Markt',
+        'Vollständige Ausstattung je SKU über die Serie von 1,200 Boards',
+        'Stichproben der Luftdichtheit während der Produktion',
+        'Prüfung von Karton und Verpackung je SKU',
+      ],
+      confidentiality:
+        'Vereinbarungsgemäß werden der Name des Distributors und seine Einzelhandelskunden nicht veröffentlicht. Dieses Projekt wird anonym dargestellt, um die Vertraulichkeit geschäftlicher Informationen zu wahren.',
+      tags: ['Private Label', '2-SKU-Einzelhandelssortiment', 'Lieferung im Saisonfenster'],
+    },
+    {
+      slug: 'resort-sup-fleet',
+      customerType: 'Resort & Hotellerie',
+      region: 'Europa / Nordamerika',
+      productCategory: 'Aufblasbares Allround-SUP',
+      projectStage: 'Musterfreigabe → Serienproduktion → Flotten-Refresh',
+      manufacturingScope: 'Design, Zubehör, Verpackung und Flottenproduktion',
+      keyRequirements: 'Verleih-Langlebigkeit, kompakte Lagerung, vollständiges Branding der Anlage',
+      qualityFocus: 'Luftdichtheit, Designgenauigkeit, vollständiges Zubehör, Kartonkennzeichnung',
+      navLabel: 'SUP-Flotte für ein Luxusresort',
+      metaTitle: 'SUP-Flotte für ein Luxusresort | 100 gebrandete Boards — SUPsfactory',
+      metaDescription:
+        'Wie ein Luxusresort sein Strandprogramm mit 100 gebrandeten SUP-Boards ausstattete — individuelles Design, Konstruktion in Verleihqualität und saisonales Flottenmanagement.',
+      kicker: 'Resort-Projekt',
+      h1: 'Wie ein Luxusresort eine gebrandete SUP-Flotte mit 100 Boards standardisierte',
+      intro: [
+        'Ein Luxusresort wollte, dass sich sein Strandprogramm wie ein Teil der Anlage anfühlt — gebrandete Boards in den Resortfarben, robust genug für den täglichen Gästeeinsatz und zwischen den Saisons einfach zu lagern.',
+      ],
+      industry: 'Resort & Hotellerie',
+      requirement: '100 gebrandete SUP-Boards für den Gästeverleih in den Farben der Anlage.',
+      challenge:
+        'Der tägliche Verleih nutzt Standardflotten schnell ab, und die Lagerfläche außerhalb der Saison ist begrenzt. Das Resort benötigte Boards, die intensiver Nutzung standhalten, platzsparend lagern und das vollständige Branding der Anlage tragen.',
+      solution:
+        'Aufblasbare Konstruktion in Verleihqualität mit verstärkten Rails und UV-beständigen Materialien, vollflächiges Design in den Resortfarben sowie gebrandete Paddel und Pumpen als Teil des Flottenpakets.',
+      product: 'Individuelles aufblasbares SUP — 11′-Allround-Plattform mit gebrandetem Deck-Design und Zubehör.',
+      process: [
+        { title: 'Flottenberatung', body: 'Gästeaufkommen, Uferbereich und Saisonlänge definierten Flottengröße und Board-Mix.' },
+        { title: 'Gebrandetes Muster', body: 'Farben und Logo vor der Produktion an einem physischen Board freigegeben.' },
+        { title: 'Produktion & Qualitätskontrolle', body: '100 Boards mit mehrstufiger Qualitätskontrolle über die gesamte Serie.' },
+        { title: 'Lieferung & Refresh', body: 'Saisonale Lieferung, Ersatzteile und ein Refresh-Programm für spätere Saisons.' },
+      ],
+      result:
+        'Die Flotte startete pünktlich zur Saison, die Boards lagern außerhalb der Saison in einem einzigen Raum, und das Gästefeedback zum gebrandeten Equipment trieb im Folgejahr eine Flottenerweiterung voran.',
+      outcome: 'Pünktlicher Saisonstart, 100 % gebrandete Flotte, Erweiterung in der Folgesaison.',
+      customizations: [
+        'Plattform, Größe und Konstruktion der Boards für den täglichen Verleih ausgewählt',
+        'Vollflächiges Deck-Design in den Farben der Anlage',
+        'Rail-Branding und Logo-Platzierung an einem physischen Muster freigegeben',
+        'Gebrandetes Paddel, Pumpe und Zubehörset für jedes Board',
+        'Flottennummerierung und Farbcodierung über die gesamte Serie',
+        'Platzsparende Lagerungskonfiguration und Umfang des saisonalen Refresh',
+      ],
+      inspectionFocus: [
+        'Aufpumpen und Luftdichtheit bei jedem Board',
+        'Zustand von Ventil und verstärkten Rails',
+        'Designgenauigkeit und Farbabstimmung gegenüber dem freigegebenen Muster',
+        'Vollständigkeit von Zubehör und Ausstattung je Board',
+        'Kartonkennzeichnung und Flottenetiketten vor Versandfreigabe',
+      ],
+      confidentiality:
+        'Vereinbarungsgemäß werden der Name des Resorts und seine Markenassets nicht veröffentlicht. Dieses Projekt wird anonym dargestellt, um die Vertraulichkeit geschäftlicher Informationen zu wahren.',
+      tags: ['Gebrandete Gästeflotte', 'Konstruktion in Verleihqualität', 'Saisonaler Refresh'],
+    },
+    {
+      slug: 'private-label-launch',
+      customerType: 'Einzelhandels- & Outdoor-Marken',
+      region: 'Europa',
+      productCategory: 'Aufblasbares Allround-SUP (Private Label)',
+      projectStage: 'Musterfreigabe → Validierungsserie → Skalierung',
+      manufacturingScope: 'Produkt- und Verpackungsdesign, Bemusterung, Produktion, Werkzeugverbleib',
+      keyRequirements: 'Verkaufsfähige Linie ohne eigenes SUP-Design oder eigene Fertigung',
+      qualityFocus: 'Versionskontrolle des Designs, Verpackungsgenauigkeit, vollständige Ausstattung',
+      navLabel: 'Private-Label-Markenlaunch',
+      metaTitle: 'Private-Label-SUP-Launch | Markenerweiterung — SUPsfactory',
+      metaDescription:
+        'Wie eine bestehende Outdoor-Marke mit einer Private-Label-Produktlinie ins SUP-Geschäft expandierte — vom Logo bis zum ersten Container, mit skalierbarer MOQ.',
+      kicker: 'Private-Label-Projekt',
+      h1: 'Wie eine Outdoor-Marke eine Private-Label-SUP-Linie vom Logo bis zum ersten Container lancierte',
+      intro: [
+        'Ein Sporteinzelhändler mit etablierter Marke wollte ohne Werksbeziehungen ins Paddelsportgeschäft expandieren — eine verkaufsfähige SUP-Linie unter eigenem Namen.',
+      ],
+      industry: 'Einzelhandels- & Outdoor-Marken',
+      requirement: 'Eine Private-Label-SUP-Linie — Logo, Farben und Verpackung auf bewährten Plattformen, erste Serie mit 50 Stück.',
+      challenge:
+        'Kein eigenes SUP-Designteam, keine Fertigungserfahrung und eine erste Bestellung, die klein genug ist, um den Markt vor der Skalierung zu testen.',
+      solution:
+        'Komplettes Produkt- und Verpackungsdesign auf Basis der Markenassets, eine Validierungsserie mit 50 Stück und anschließend Skalierung auf denselben verifizierten Plattformen — das Werkzeug bleibt bei der Marke.',
+      product: 'Aufblasbares SUP im Private Label — gebrandetes Deck, Paddel, Pumpe, Rucksack und bedruckte Kartons.',
+      process: [
+        { title: 'Marken-Anforderung', body: 'Logo, Farben und Markenrichtlinien in Board- und Verpackungsdesign umgesetzt.' },
+        { title: 'Musterfreigabe', body: 'Das physische Muster bestätigte Ausführung, Farben und Verpackung.' },
+        { title: 'Validierungsserie', body: 'Erste Serie mit 50 Stück vor der Skalierung komplett verkauft.' },
+        { title: 'Skalierung', body: 'Produktion in Container-Bestellmenge bei gleichbleibender Qualität; Designs im Eigentum der Marke.' },
+      ],
+      result:
+        'Die Linie verkaufte ihre Validierungsserie innerhalb einer Saison und skalierte auf Container-Bestellungen — die Marke besitzt alle Designs und Werkzeuge.',
+      outcome: 'In einer Saison validiert, auf Container-Bestellungen skaliert.',
+      customizations: [
+        'Board-Plattformen, Größen und Farben auf die Markenlinie abgestimmt',
+        'Deck-, Unterseiten- und Verpackungsdesign auf Basis der Markenassets',
+        'Gebrandetes Paddel, Pumpe, Rucksack und Zubehörset',
+        'Bedruckte Einzelhandelskartons und Etiketten-Layout',
+        'Barcode- und Bedienungsanleitungsversion für den Zielmarkt',
+        'Werkzeug- und Designeigentum verbleibt bei der Marke',
+      ],
+      inspectionFocus: [
+        'Übereinstimmung der Designversion mit den freigegebenen Vorlagen',
+        'Farb- und Ausführungsgenauigkeit am physischen Muster',
+        'Prüfung von Verpackung, Barcode und Anleitung',
+        'Vollständige Ausstattung über die Validierungsserie',
+        'Stichproben der Luftdichtheit während der Produktion',
+      ],
+      confidentiality:
+        'Vereinbarungsgemäß werden der Markenname und die geschäftlichen Details nicht veröffentlicht. Dieses Projekt wird anonym dargestellt, um die Vertraulichkeit geschäftlicher Informationen zu wahren.',
+      tags: ['Markenerweiterung', 'Verpackungsdesign', 'Skalierbare MOQ'],
+    },
+    {
+      slug: 'club-team-boards',
+      customerType: 'Paddelclubs & Teams',
+      region: 'Nordamerika',
+      productCategory: 'Aufblasbares Trainings-SUP',
+      projectStage: 'Musterfreigabe → Flottenproduktion → Nachbestellung zur Erweiterung',
+      manufacturingScope: 'Club-Branding, Flottenproduktion, Ersatzteil-Support',
+      keyRequirements: 'Einheitlicher Team-Look, knappes Budget, identische künftige Erweiterung',
+      qualityFocus: 'Designgenauigkeit, Luftdichtheit, vollständige Ausstattung, konsistente Nachbestellungen',
+      navLabel: 'Team-Boards für den Club',
+      metaTitle: 'Club Team SUP Boards | Gebrandeter Flotten-Refresh — SUPsfactory',
+      metaDescription:
+        'Wie ein Paddelclub seine Flotte mit 25 gebrandeten Trainings-Boards neu aufstellte und auffrischte — Team-Design, Ersatzteil-Support und konsistente Nachbestellungen.',
+      kicker: 'Club-Projekt',
+      h1: 'Wie ein Paddelclub eine Trainingsflotte mit 25 Boards neu brandete',
+      intro: [
+        'Ein Paddelclub relaunchte seine Marke und benötigte passendes Equipment — eine einheitliche Teamflotte für Training und Regatten, ohne zusammengewürfelte Bestände.',
+      ],
+      industry: 'Paddelclubs & Teams',
+      requirement: '25 gebrandete Trainings-Boards mit Clubname, Farben und Logo sowie Ersatzteilen.',
+      challenge:
+        'Die bestehende Flotte war uneinheitlich und ungebrandet; das Budget war knapp, und für die künftige Erweiterung waren identische, passende Bestände erforderlich.',
+      solution:
+        'Club-Branding auf jedem Board, Flottenkonditionen für die Menge sowie Ersatzteile und Reparaturanleitungen zur Verlängerung der Board-Lebensdauer.',
+      product: 'Individuelles Team-SUP — Trainingsform mit Club-Design sowie Ersatzfinnen und Reparatursets.',
+      process: [
+        { title: 'Club-Anforderung', body: 'Mitgliederzahl, Trainingsarten und aktuelles Equipment geprüft.' },
+        { title: 'Board-Auswahl', body: 'Trainings- und Anfängerformen auf das Clubprogramm abgestimmt.' },
+        { title: 'Branding', body: 'Clubname, Farben und Logo auf der gesamten Flotte aufgebracht.' },
+        { title: 'Lieferung & Wachstum', body: 'Flotte mit Ersatzteilen geliefert; identische Nachbestellung für die Erweiterung.' },
+      ],
+      result:
+        'Die Mitglieder trainieren auf passendem gebrandetem Equipment, und der Club erweiterte die Flotte in der Folgesaison mit einer identischen Nachbestellung in gleicher Qualität.',
+      outcome: 'Einheitliche Flotte, identische Erweiterungs-Nachbestellung.',
+      customizations: [
+        'Trainings- und Anfängerplattformen auf das Clubprogramm abgestimmt',
+        'Clubname, Farben und Logo auf der gesamten Flotte',
+        'Board-Nummerierung und Größenordnung je Trainingsgruppe',
+        'Ersatzfinnen und Reparatursets als Flottenzubehör',
+        'Nachbestellspezifikation fixiert für eine identische künftige Erweiterung',
+      ],
+      inspectionFocus: [
+        'Designgenauigkeit von Clubname, Farben und Logo',
+        'Prüfung von Aufpumpen und Luftdichtheit',
+        'Vollständigkeit von Zubehör und Reparatursets',
+        'Farbkonsistenz über die Serie von 25 Boards',
+      ],
+      confidentiality:
+        'Vereinbarungsgemäß werden der Clubname und der Standort nicht veröffentlicht. Dieses Projekt wird anonym dargestellt, um die Vertraulichkeit geschäftlicher Informationen zu wahren.',
+      tags: ['Club-Branding', 'Flottenkonditionen', 'Ersatzteil-Support'],
+    },
+    {
+      slug: 'school-program-fleet',
+      customerType: 'Bildung & Jugendprogramme',
+      region: 'Europa',
+      productCategory: 'Aufblasbares SUP für Anfänger & Mehrpersonen',
+      projectStage: 'Programmüberprüfung → Musterfreigabe → Flottenlieferung',
+      manufacturingScope: 'Paketdesign, Produktion, Ersatzteile und Support für die Erneuerung',
+      keyRequirements: 'Sicherheitsorientiertes Equipment, Mengen für Klassengrößen, Verwaltung mit begrenztem Personal',
+      qualityFocus: 'Stabilität, Luftdichtheit, vollständiges Zubehör, Nutzeranleitung',
+      navLabel: 'Flotte für Schulprogramme',
+      metaTitle: 'SUP-Programm für Schulen | Anfängerflotte — SUPsfactory',
+      metaDescription:
+        'Wie eine Schule mit einer Anfängerflotte aus 15 Boards und Mehrpersonen-Boards einen Paddelsport-Wahlkurs startete — sicherheitsorientiertes Equipment für den Unterricht.',
+      kicker: 'Schulprojekt',
+      h1: 'Wie eine Schule eine Anfängerflotte mit 15 Boards für den Paddelsportunterricht aufbaute',
+      intro: [
+        'Eine Schule, die einen Paddelsport-Wahlkurs startete, benötigte Equipment, das für Einsteiger stabil und sicher ist, auf Klassen ausgelegt und mit begrenztem Personal leicht zu verwalten.',
+      ],
+      industry: 'Bildung & Jugendprogramme',
+      requirement: 'Eine Anfängerflotte für Klassengrößen, einschließlich Mehrpersonen-Boards für die ersten Unterrichtseinheiten.',
+      challenge:
+        'Gemischte Leistungsniveaus, strenge Sicherheitsanforderungen, schulische Beschaffungszyklen und ein Budget, das auch künftige Jahrgänge abdecken muss.',
+      solution:
+        'Breite, voluminöse Anfänger-Boards und Mehrpersonen-Boards, Programmkonditionen passend zu den Klassengrößen sowie eine klare Nutzeranleitung für die Übungsleiter.',
+      product: 'Anfänger-SUP-Flotte — stabile Plattformen mit verstärkter Konstruktion für eine lange Programmlaufzeit.',
+      process: [
+        { title: 'Programmüberprüfung', body: 'Klassengrößen, Wasserfläche und Übungsleiter-Aufbau definierten das Paket.' },
+        { title: 'Paketaufbau', body: 'Board-Typen und -Mengen auf den Unterricht abgestimmt.' },
+        { title: 'Musterfreigabe', body: 'Stabilität und Konstruktion an einem physischen Board verifiziert.' },
+        { title: 'Lieferung & Erneuerung', body: 'Mengenbelieferung, Ersatzteile und Nachbestellungen für neue Jahrgänge.' },
+      ],
+      result:
+        'Die Übungsleiter meldeten schnellere Fortschritte in der ersten Einheit auf den stabilen Plattformen, und das Programm erneuerte das Equipment im Folgejahr mit einer passenden Nachbestellung.',
+      outcome: 'Schnellere Lernkurve, erneuertes Equipment im Folgejahr.',
+      customizations: [
+        'Breite, voluminöse Anfängerplattformen für die ersten Einheiten',
+        'Mehrpersonen-Boards für den Gruppenunterricht',
+        'Board-Größe und -Menge auf die Klassengrößen abgestimmt',
+        'Klare Nutzeranleitung und Unterrichtsbeschriftungen',
+        'Verstärkte Konstruktion für eine lange Programmlaufzeit',
+        'Spezifikation für Mengenbelieferung und Erneuerungs-Nachbestellungen',
+      ],
+      inspectionFocus: [
+        'Prüfung von Stabilität und Deck-Konfiguration',
+        'Aufpumpen und Luftdichtheit bei jedem Board',
+        'Vollständiges Zubehör je Board und Klassenausstattung',
+        'Genauigkeit von Nutzeranleitung und Beschriftung',
+        'Kartonkennzeichnung und Kontrolle der Klassenausstattung',
+      ],
+      confidentiality:
+        'Vereinbarungsgemäß werden der Schulname und die Region nicht veröffentlicht. Dieses Projekt wird anonym dargestellt, um die Vertraulichkeit geschäftlicher Informationen zu wahren.',
+      tags: ['Anfängerflotte', 'Programmstart', 'Erneuerungsbestellungen'],
+    },
+    {
+      slug: 'distributor-line-expansion',
+      customerType: 'Distributoren & Großhändler',
+      region: 'Zwei Exportregionen',
+      productCategory: 'Aufblasbares Mid-Range-SUP (6 SKUs)',
+      projectStage: 'Sortimentsplanung → Musterfreigabe → Belieferung mehrerer Märkte',
+      manufacturingScope: 'Boards, Zubehör und Einzelhandelsverpackung in einem Programm',
+      keyRequirements: 'Ein Qualitätsverantwortlicher, konsistentes Branding, geringere Lagerbestände pro SKU',
+      qualityFocus: 'Luftdichtheit, Designgenauigkeit, Barcode- und Etikettgenauigkeit, Stücklisten-Abgleich',
+      navLabel: 'Sortimentserweiterung für Distributoren',
+      metaTitle: 'Distributor SUP-Sortimentserweiterung | 6-SKU-Programm — SUPsfactory',
+      metaDescription:
+        'Wie ein Wassersport-Distributor eine vollständige Mid-Market-SUP-Linie mit sechs SKUs aufbaute — eine Fabrik, ein Programm, exportiert in mehrere Märkte.',
+      kicker: 'Distributor-Projekt',
+      h1: 'Wie ein Distributor eine 6-SKU-SUP-Linie in zwei Märkten lancierte',
+      intro: [
+        'Ein Wassersport-Distributor mit Kayaks und Zubehör im Programm wollte eine eigene aufblasbare SUP-Linie — ohne die Versorgung für Boards, Paddel und Pumpen auf mehrere Fabriken aufzuteilen.',
+      ],
+      industry: 'Distributoren & Großhändler',
+      requirement: 'Eine 6-SKU-Mid-Market-SUP-Linie (10′6″ bis 12′6″ plus Zubehörsets) mit Export in zwei Regionen.',
+      challenge:
+        'Getrennte Fabriken für Boards, Paddel und Pumpen bedeuteten inkonsistentes Branding, drei getrennte Versorgungspunkte und keinen einheitlichen Qualitätsverantwortlichen für Garantiefälle.',
+      solution:
+        'Ein Programm für Boards, Zubehör und Einzelhandelsverpackung; gemeinsame Zubehörsets zur Senkung der Lagerbestände pro SKU; und Versorgungsoptionen passend zur Aufstellung jedes Markts.',
+      product: 'Sechs gebrandete Einzelhandels-SKUs — aufblasbare SUP-Plattformen mit vollständigen, in Fächern verpackten Sets in bedruckten Kartons.',
+      process: [
+        { title: 'Sortimentsplanung', body: 'Marktlücken und Preispositionen definierten die sechs SKUs und die Bundle-Inhalte.' },
+        { title: 'Einheitliches Branding', body: 'Ein Designsystem, angewandt auf Boards, Paddel, Pumpen und Kartons.' },
+        { title: 'Programmkonditionen', body: 'Mengenpreise über das gesamte Programm, nicht pro SKU.' },
+        { title: 'Versorgung nach Märkten', body: 'Standard-Exportkonditionen für die Heimatregion, Full-Service-Konditionen für den zweiten Markt.' },
+      ],
+      result:
+        'Die Linie wurde in einer Saison in beiden Märkten eingeführt; gemeinsame Zubehörsets senkten die Lagerbestände, und Garantiefälle wurden über einen einzigen Werkskontakt gelöst.',
+      outcome: 'Multi-Markt-Launch in einer Saison, geringere Lagerbestände, ein Garantie-Ansprechpartner.',
+      customizations: [
+        'Sechs SKUs von 10′6″ bis 12′6″ plus Zubehör-Bundles',
+        'Ein Designsystem für Boards, Paddel, Pumpen und Kartons',
+        'Gemeinsame Zubehörsets zur Senkung der Lagerbestände pro SKU',
+        'Vollständige, in Fächern verpackte Sets in bedruckten Einzelhandelskartons',
+        'Barcode-, Etikett- und Anleitungsversionen je Zielmarkt',
+        'Versorgungskonditionen und Verpackung auf jeden Markt abgestimmt',
+      ],
+      inspectionFocus: [
+        'Stücklisten-Abgleich je SKU-Konfiguration',
+        'Design- und Brandinggenauigkeit über die sechs SKUs',
+        'Barcode- und Etikettgenauigkeit je Markt',
+        'Vollständigkeit der Zubehörsets und Fächerverpackung',
+        'Luftdichtheitsprüfung über die Serie',
+      ],
+      confidentiality:
+        'Vereinbarungsgemäß werden der Name des Distributors und seine Kundenliste nicht veröffentlicht. Dieses Projekt wird anonym dargestellt, um die Vertraulichkeit geschäftlicher Informationen zu wahren.',
+      tags: ['Multi-SKU-Programm', 'Komplette Einzelhandelssets'],
+    },
+    {
+      slug: 'startup-brand-zero-to-one',
+      customerType: 'Startup-SUP-Marken',
+      region: 'Nordamerika',
+      productCategory: 'Aufblasbares ODM-Allround-SUP',
+      projectStage: 'Konzept → Probeproduktion → Launch-Bestellung',
+      manufacturingScope: 'ODM-Entwicklung, Design, Verpackung, Produktion',
+      keyRequirements: 'Erste Serie mit niedriger MOQ, Abstimmung auf den Launch-Zeitpunkt, Werkzeug bleibt bei der Marke',
+      qualityFocus: 'Luftdichtheit, Designgenauigkeit, Verpackungsprüfung',
+      navLabel: 'Startup-Markenlaunch 0→1',
+      metaTitle: 'Startup-SUP-Markenlaunch | Vom Konzept zur ersten Serie — SUPsfactory',
+      metaDescription:
+        'Wie ein SUP-Startup vom Konzept zu einer ausverkauften ersten Serie gelangte — ODM-Entwicklung, eine Probeproduktion mit 10 Stück und anschließend eine gebrandete Launch-Bestellung mit 200 Stück.',
+      kicker: 'Startup-Projekt',
+      h1: 'Vom Konzept zum ausverkauften Launch mit 200 Boards für eine Startup-SUP-Marke',
+      intro: [
+        'Zwei Gründer mit Reichweite, aber ohne Fabrik wollten ihr eigenes SUP verkaufen — ein ODM-Board nach ihrer Spezifikation, mit einer Launch-Bestellung, die sie nicht überfordert.',
+      ],
+      industry: 'Startup-SUP-Marken',
+      requirement: 'ODM-Entwicklung mit niedriger MOQ: Probeproduktion mit 10 Stück zur Validierung, danach 200 Stück für den Launch.',
+      challenge:
+        'Kein Designteam, keine Import-Erfahrung und eine erste Bestellung, die für die meisten Fabriken zu klein ist — dazu ein Launch-Termin, der an die Saison der Nordhalbkugel gebunden ist.',
+      solution:
+        'ODM-Entwicklung auf Basis ihres Konzepts auf einer bewährten Plattform, eine Probeproduktion mit 10 Stück inklusive Muster- und Versorgungsprüfung, dann eine gebrandete Launch-Bestellung mit 200 Stück — das Werkzeug bleibt bei der Marke.',
+      product: 'Gebrandetes aufblasbares ODM-SUP — individuelles Deck-Design, Verpackung und handelsfertige Kartonmaße.',
+      process: [
+        { title: 'Konzeptgespräch', body: 'Zielgruppe, Preisposition und Launch-Termin legten die Basisplattform fest.' },
+        { title: 'Probeproduktion', body: '10 Stück validierten das Produkt und die Verpackung durchgängig.' },
+        { title: 'Launch-Bestellung', body: '200 Stück mit verifiziertem Design und Karton-Spezifikation produziert.' },
+        { title: 'Skalierungspfad', body: 'Werkzeug bleibt bei der Marke; Nachbestellungen zu verbesserten Konditionen.' },
+      ],
+      result:
+        'Die erste Serie war innerhalb weniger Wochen nach Saisonstart ausverkauft; das Feedback aus der Probeproduktion behob ein Verpackungsproblem, bevor die große Bestellung in Produktion ging.',
+      outcome: 'Ausverkaufte Launch-Serie, Verpackung vor der Skalierung behoben, Nachbestellweg etabliert.',
+      customizations: [
+        'ODM-Board auf Basis des Markenkonzepts auf einer bewährten Plattform entwickelt',
+        'Individuelles Deck-Design und Markenverpackung',
+        'Handelsfertige Kartonmaße für die Launch-Bestellung',
+        'Zubehörset und Ausstattung auf die Zielgruppe abgestimmt',
+        'Werkzeug und Design bleiben bei der Marke',
+        'Produktionsplanung abgestimmt auf den Launch-Termin',
+      ],
+      inspectionFocus: [
+        'Designgenauigkeit gegenüber den freigegebenen Vorlagen',
+        'Luftdichtheitsprüfung bei Probeproduktion und Launch-Bestellung',
+        'Verpackungs- und Kartonprüfung — einschließlich des Fix aus der Probeproduktion',
+        'Vollständigkeit von Zubehör und Ausstattung',
+      ],
+      confidentiality:
+        'Vereinbarungsgemäß werden der Markenname und die Launch-Details nicht veröffentlicht. Dieses Projekt wird anonym dargestellt, um die Vertraulichkeit geschäftlicher Informationen zu wahren.',
+      tags: ['ODM-Entwicklung', 'Probeproduktion mit niedriger MOQ', 'Planung nach Saisontermin'],
+    },
+    {
+      slug: 'rental-fleet-multi-site',
+      customerType: 'Verleihflotten-Betreiber',
+      region: 'Nordamerika',
+      productCategory: 'Aufblasbares Allround-SUP in Verleihqualität',
+      projectStage: 'Flottenaudit → Einheitliche Produktion → Saisonaler Refresh',
+      manufacturingScope: 'Flottenspezifikation, Produktion, Ersatzteilpakete, Refresh-Programm',
+      keyRequirements: 'Ein einheitliches Board an allen Standorten, Langlebigkeit bei Verleihbelastung',
+      qualityFocus: 'Prüfung der verstärkten Konstruktion, Luftdichtheit, vollständige Ausstattung',
+      navLabel: 'Verleihflotte für mehrere Standorte',
+      metaTitle: 'Verleihflotten-Erweiterung | 200 Boards, 3 Standorte — SUPsfactory',
+      metaDescription:
+        'Wie ein Verleihbetreiber mit mehreren Standorten gemischte Bestände durch 200 einheitliche Boards an drei Standorten ersetzte — Flottenkonditionen, saisonaler Refresh und Ersatzteilversorgung.',
+      kicker: 'Verleih-Projekt',
+      h1: 'Standardisierung einer Verleihflotte mit 200 Boards an drei Standorten für einen Flottenbetreiber',
+      intro: [
+        'Ein Verleihbetreiber mit drei Wasserstandorten benötigte eine einheitliche Flotte statt gemischter Bestände — dasselbe Board an jedem Standort, bepreist nach Flottenvolumen.',
+      ],
+      industry: 'Verleihflotten-Betreiber',
+      requirement: '200 Boards in Verleihqualität an drei Standorten, mit saisonalem Refresh und vor Ort reparierbaren Ersatzteilen.',
+      challenge:
+        'Gemischte, gealterte Bestände erschwerten Reparaturen und Preisbildung; Verleihbelastung erfordert eine verstärkte Konstruktion, und die Lagerung außerhalb der Saison verteilt sich auf drei Standorte.',
+      solution:
+        'Eine Plattform in Verleihqualität an allen Standorten mit verstärkten Rails und UV-beständigen Materialien, Flottenkonditionen für das Volumen von 200 Boards sowie ein Ersatzteilpaket mit Reparaturanleitung je Standort.',
+      product: 'Aufblasbares SUP in Verleihqualität — 11′-Allround-Plattform mit verstärkter Konstruktion und Reparatursets.',
+      process: [
+        { title: 'Flottenaudit', body: 'Volumen- und Auslastungszahlen pro Standort legten die Verteilung fest.' },
+        { title: 'Einheitliche Spezifikation', body: 'Ein Board überall — einfachere Reparaturen, Preise und Einarbeitung.' },
+        { title: 'Flottenkonditionen', body: 'Mengenrabatt über die kombinierte Bestellung mit 200 Boards.' },
+        { title: 'Ersatzteile & Refresh', body: 'Ersatzteilpakete je Standort plus ein definierter saisonaler Austauschzyklus.' },
+      ],
+      result:
+        'Die einheitliche Flotte beseitigte die Reparatur-Unsicherheit je Standort, kombinierte Bestellungen ermöglichten Flottenkonditionen, und das 200-Boards-Programm wurde zur Basis der saisonalen Erneuerung.',
+      outcome: 'Einheitlicher Betrieb, geringere Stückkosten, wiederholbarer Saisonzyklus.',
+      customizations: [
+        'Eine Plattform in Verleihqualität an allen drei Standorten',
+        'Verstärkte Rails und UV-beständige Materialien für die Verleihbelastung',
+        'Standortverteilung und Flottennummerierung je Standort',
+        'Ersatzteilpakete je Standort mit Reparaturanleitung',
+        'Definierter saisonaler Austauschzyklus',
+      ],
+      inspectionFocus: [
+        'Prüfung der verstärkten Konstruktion je Board',
+        'Aufpumpen und Luftdichtheit bei jedem Board',
+        'Vollständigkeit von Zubehör und Reparatursets je Standort',
+        'Genauigkeit von Flottennummerierung und Standortbeschriftung',
+        'Verpackungskontrollen für Sendungen an mehrere Standorte',
+      ],
+      confidentiality:
+        'Vereinbarungsgemäß werden der Name des Betreibers und die Standorte nicht veröffentlicht. Dieses Projekt wird anonym dargestellt, um die Vertraulichkeit geschäftlicher Informationen zu wahren.',
+      tags: ['Flotte mit mehreren Standorten', 'Konstruktion in Verleihqualität', 'Saisonale Erneuerung'],
+    },
+    {
+      slug: 'touring-sup-range',
+      customerType: 'Outdoor- & Wassersport-Distributoren',
+      region: 'Europa',
+      productCategory: 'Aufblasbares Touring-SUP',
+      projectStage: 'Produktanforderung → Musterfreigabe → Serienproduktion',
+      manufacturingScope: 'Plattform-Review, Design, Zubehörkonfiguration, Einzelhandelsverpackung und Produktion',
+      keyRequirements: 'Touring-Performance, projektspezifisches Design, komplettes Einzelhandelsset',
+      qualityFocus: 'Luftdichtheit, Designgenauigkeit, vollständiges Zubehör, Kartonkennzeichnung',
+      navLabel: 'Touring-SUP-Linie',
+      metaTitle: 'Entwicklung einer Touring-SUP-Linie | Outdoor-Distributor — SUPsfactory',
+      metaDescription:
+        'Wie SUPsfactory eine Touring-SUP-Linie für einen europäischen Outdoor-Distributor unterstützte — Plattform-Review, projektspezifisches Design, Zubehörkonfiguration und Einzelhandelsverpackung.',
+      kicker: 'Touring-Projekt',
+      h1: 'Entwicklung einer Touring-SUP-Linie für einen europäischen Outdoor-Distributor',
+      intro: [
+        'Ein individuelles Projekt für aufblasbare SUPs mit Plattform-Review, projektspezifischem Design, Zubehörkonfiguration, Einzelhandelsverpackung und Qualitätsplanung — von der Musterfreigabe bis zur Versandvorbereitung.',
+      ],
+      industry: 'Distributoren & Großhändler',
+      requirement: 'Eine Touring-SUP-Linie mit projektspezifischem Design, Zubehörkonfiguration und Einzelhandelsverpackung, gesteuert von der Musterfreigabe bis zum Versand.',
+      challenge:
+        'Touring-Paddler erwarten Stabilität bei Tempo und ein vorhersehbares Gleitverhalten, daher mussten Plattform, Maße und Volumen vor der Produktion geprüft werden. Das Design musste Rails, EVA und Ventile berücksichtigen, und jedes Einzelhandelsset musste über die gesamte Linie vollständig ankommen.',
+      solution:
+        'Plattform- und Maßprüfung für die Touring-Performance, projektspezifisches Design abgestimmt auf die Board-Eigenschaften, eine Zubehörkonfiguration mit Paddel, Leash und Tasche, Planung der Einzelhandelsverpackung sowie kontrollierte Serienproduktion mit definierten Qualitätsprüfungen.',
+      product: 'Aufblasbare Touring-SUP-Linie — Performance-Plattform mit individuellem Design, komplettem Zubehörset und handelsfertiger Verpackung.',
+      process: [
+        { title: 'Plattform-Review', body: 'Touring-Maße, Volumen und Rail-Profil auf Zielgruppe und Markt abgestimmt.' },
+        { title: 'Spezifikation & Design', body: 'Technische Spezifikation, Designabstimmung und freigegebene Stückliste vorbereitet.' },
+        { title: 'Musterfreigabe', body: 'Konstruktion, Design und Set an einem physischen Board bestätigt.' },
+        { title: 'Produktion & Prüfung', body: 'Serienproduktion mit Qualitätsprüfungen, Verpackungsprüfung und Versandfreigabe.' },
+      ],
+      result:
+        'Die Linie durchlief von der Musterfreigabe bis zur Versandvorbereitung eine kontrollierte Dokumentation von Produkt, Design, Stückliste und Verpackung — das freigegebene Muster diente als Referenz für Produktion und Endkontrolle.',
+      outcome: 'Kontrollierter Weg vom Muster zur Produktion; Design und Verpackung vor der Produktion fixiert.',
+      customizations: [
+        'Touring-Plattform, Maße und Volumenkonfiguration',
+        'Projektspezifisches Design für Deck, Unterseite und Rails',
+        'EVA-Pad-Layout und Farbkonfiguration',
+        'Finnen-System, Bungee-Layout und Zubehörset',
+        'Gebrandete Tasche, Anleitungsversion und Einzelhandelsverpackung',
+        'Kartonkennzeichnung und Barcode-Anforderungen für den Zielmarkt',
+      ],
+      inspectionFocus: [
+        'Prüfung von Aufpumpen und Luftdichtheit',
+        'Prüfung von Ventil, Rails und Nähten',
+        'Designgenauigkeit gegenüber den freigegebenen Vorlagen',
+        'Vollständigkeit von Zubehör und Ausstattung',
+        'Prüfung von Einzelhandelsverpackung, Barcode und Kartonkennzeichnung',
+      ],
+      confidentiality:
+        'Vereinbarungsgemäß werden der Name des Distributors und seine Kundenliste nicht veröffentlicht. Dieses Projekt wird anonym dargestellt, um die Vertraulichkeit geschäftlicher Informationen zu wahren.',
+      tags: ['Touring-SUP-Linie', 'Individuelles Design', 'Einzelhandelsverpackung'],
+    },
+    {
+      slug: 'fishing-sup-program',
+      customerType: 'Outdoor-Einzelhändler',
+      region: 'Nordamerika',
+      productCategory: 'Aufblasbares Angler-SUP',
+      projectStage: 'Konzeptprüfung → Musterfreigabe → Programmproduktion',
+      manufacturingScope: 'Plattformkonfiguration, Zubehöranordnung, Verpackung und Produktion',
+      keyRequirements: 'Integration von Angelzubehör, stabile Plattform, geordnetes Paket',
+      qualityFocus: 'Luftdichtheit, Verankerung des Zubehörs, Designgenauigkeit, vollständiges Paket',
+      navLabel: 'Angler-SUP-Programm',
+      metaTitle: 'Angler-SUP-Entwicklung | Zubehöranordnung & Paket — SUPsfactory',
+      metaDescription:
+        'Wie SUPsfactory für einen Outdoor-Einzelhändler eine Angler-SUP-Konfiguration entwickelte — Zubehöranordnung, geordnetes Paket und handelsfertige Verpackung in einem kontrollierten Programm.',
+      kicker: 'Angeln-Projekt',
+      h1: 'Entwicklung eines Angler-SUPs für einen Outdoor-Einzelhändler — Zubehöranordnung und Paketkonfiguration',
+      intro: [
+        'Ein angel-spezifisches SUP-Projekt: eine stabile Plattform mit Zonen für Angelzubehör, ein geordnetes Paket und handelsfertige Verpackung — von der Konzeptprüfung bis zur Programmproduktion.',
+      ],
+      industry: 'Einzelhandels- & Outdoor-Marken',
+      requirement: 'Eine Angler-SUP-Konfiguration mit verankertem Zubehör, geordnetem Paket und Einzelhandelsverpackung, von der Konzeptprüfung bis zur Programmproduktion.',
+      challenge:
+        'Angler-Boards brauchen verankertes Zubehör — Rutenhalter, D-Ringe und Kisten-Zonen — ohne Kompromisse bei der Stabilität. Das Paket musste an Bord geordnet bleiben, und die Verpackung musste die Kategorie im Einzelhandel klar präsentieren.',
+      solution:
+        'Eine breite, stabile Plattform mit definierten Zubehörzonen, D-Ringen und Bungee-Positionen für Angelausrüstung, ein geordnetes Paket mit Reparaturset sowie eine in einem einzigen kontrollierten Programm entwickelte Einzelhandelsverpackung.',
+      product: 'Aufblasbares Angler-SUP — stabile Plattform mit Zonen für Angelzubehör, geordnetem Paket und handelsfertiger Verpackung.',
+      process: [
+        { title: 'Konzeptprüfung', body: 'Verwendungszweck, mitgeführtes Equipment und Paketstruktur definierten die Konfiguration.' },
+        { title: 'Zubehöranordnung', body: 'D-Ringe, Bungees und Stauzonen auf dem Deck positioniert.' },
+        { title: 'Musterfreigabe', body: 'Stabilität und Verankerung des Zubehörs an einem physischen Board verifiziert.' },
+        { title: 'Programmproduktion', body: 'Definierte Qualitätsprüfungen, Paketprüfung und Versandfreigabe.' },
+      ],
+      result:
+        'Die Konfiguration wurde am freigegebenen Muster bestätigt — Verankerung des Zubehörs, Paketstruktur und Verpackung vor der Produktion ausgerichtet — und das Programm wurde mit verifizierten Sets versandt.',
+      outcome: 'Zubehöranordnung und Paket im Musterstadium fixiert; verifizierte Sets versandt.',
+      customizations: [
+        'Stabile, breite Plattform mit Zonen für Angelzubehör',
+        'Positionierung von Rutenhalter, D-Ring und Bungee',
+        'Deck-Layout für Kisten und Tackle-Ablage',
+        'Auswahl von Paddel, Finnen und Leash für den Angeleinsatz',
+        'Geordnetes Zubehörpaket und Reparaturset',
+        'Einzelhandelsverpackung für die Angler-SUP-Kategorie',
+        'Barcode und Kartonkennzeichnung für den Zielmarkt',
+      ],
+      inspectionFocus: [
+        'Prüfung der Verankerung des Zubehörs und der D-Ring-Platzierung',
+        'Prüfung von Aufpumpen und Luftdichtheit',
+        'Genauigkeit von Design und Deck-Layout',
+        'Vollständigkeit des Pakets und Zubehörkonfiguration',
+        'Prüfung von Einzelhandelsverpackung und Kartonkennzeichnung',
+      ],
+      confidentiality:
+        'Vereinbarungsgemäß werden der Name des Einzelhändlers und die Vertriebsdetails nicht veröffentlicht. Dieses Projekt wird anonym dargestellt, um die Vertraulichkeit geschäftlicher Informationen zu wahren.',
+      tags: ['Angler-Konfiguration', 'Zubehöranordnung', 'Paketorganisation'],
+    },
+    {
+      slug: 'yoga-sup-program',
+      customerType: 'Wassersportschulen & -programme',
+      region: 'Europa',
+      productCategory: 'Aufblasbares Yoga-SUP',
+      projectStage: 'Programmprüfung → Musterfreigabe → Flottenlieferung',
+      manufacturingScope: 'Konfiguration der stabilen Plattform, Deck-Abdeckung, Produktion und Programmverpackung',
+      keyRequirements: 'Stabilität für Gruppenpraxis, vollständige EVA-Deckabdeckung, konsistente Flotte',
+      qualityFocus: 'Deckabdeckung, Luftdichtheit, Designgenauigkeit, vollständige Ausstattung',
+      navLabel: 'Yoga-SUP-Programm',
+      metaTitle: 'Yoga-SUP-Entwicklung | Trainingsprogramm — SUPsfactory',
+      metaDescription:
+        'Wie SUPsfactory für ein Wassersport-Trainingsprogramm eine stabile Yoga-SUP-Konfiguration entwickelte — vollständige Deckabdeckung und eine konsistente Programmflotte.',
+      kicker: 'Yoga-Projekt',
+      h1: 'Entwicklung einer stabilen Yoga-SUP-Konfiguration für ein Wassersport-Trainingsprogramm',
+      intro: [
+        'Eine Yoga-SUP-Konfiguration für ein Trainingsprogramm: eine breite, voluminöse Plattform mit vollständiger EVA-Deckabdeckung, produziert als konsistente Flotte für die Gruppenpraxis.',
+      ],
+      industry: 'Bildung & Jugendprogramme',
+      requirement: 'Eine stabile Yoga-SUP-Konfiguration mit vollständiger Deckabdeckung für die Gruppenpraxis, in Programm-Mengen.',
+      challenge:
+        'Yoga-Praxis erfordert eine breite, voluminöse Plattform, die im Wasser absolut stabil bleibt. Gruppen brauchen konsistente Boards, und Übungsleiter brauchen klare Anleitungen sowie gut handhabbare Lagerung zwischen den Einheiten.',
+      solution:
+        'Eine breite, voluminöse Plattform mit vollständiger EVA-Deckabdeckung, eine konsistente Flottenkonfiguration über das gesamte Programm sowie Übungsleiter-Anleitung und Programmbeschriftung.',
+      product: 'Aufblasbares Yoga-SUP — stabile Plattform mit vollständiger Deckpad-Abdeckung und konsistenter Programmflotte.',
+      process: [
+        { title: 'Programmprüfung', body: 'Übungsstil, Gruppengröße und Lagerung definierten die Konfiguration.' },
+        { title: 'Konfiguration', body: 'Plattform, Deckabdeckung und Ausführung über die gesamte Flotte festgelegt.' },
+        { title: 'Musterfreigabe', body: 'Stabilität und Deckabdeckung an einem physischen Board verifiziert.' },
+        { title: 'Flottenlieferung', body: 'Programm-Mengen mit Prüfung von Set und Verpackung produziert.' },
+      ],
+      result:
+        'Die Flotte wurde als eine konsistente Konfiguration versandt — jedes Board in Stabilität, Deckabdeckung und Ausführung passend zum freigegebenen Muster — inklusive Anleitung für die Übungsleiter.',
+      outcome: 'Konsistente Flotte passend zum freigegebenen Muster; Programmverpackung verifiziert.',
+      customizations: [
+        'Breite, voluminöse Plattform für Stabilität im Stehen',
+        'Vollständige EVA-Deckabdeckung über die nutzbare Fläche',
+        'Deck-Layout und Riemenpositionierung für die Praxis',
+        'Konsistente Farbe und Ausführung über die gesamte Flotte',
+        'Übungsleiter-Anleitung und Programmbeschriftung',
+        'Konfiguration von Lagerung und Programmverpackung',
+      ],
+      inspectionFocus: [
+        'Prüfung der Deckabdeckung und der EVA-Haftung',
+        'Prüfung von Aufpumpen und Luftdichtheit',
+        'Stabilitätsprüfung am freigegebenen Muster',
+        'Konsistenz von Design und Ausführung über die Serie',
+        'Vollständigkeit der Ausstattung und Prüfung der Programmverpackung',
+      ],
+      confidentiality:
+        'Vereinbarungsgemäß werden der Programmname und der Standort nicht veröffentlicht. Dieses Projekt wird anonym dargestellt, um die Vertraulichkeit geschäftlicher Informationen zu wahren.',
+      tags: ['Yoga-Konfiguration', 'Vollständige Deckabdeckung', 'Programmflotte'],
+    },
+  ],
 }
 
 export function getProject(locale: Locale, slug: string): ProjectData | undefined {
@@ -2050,6 +2709,12 @@ export const projectsMeta: Localized<ProjectsMeta> = {
     metaDescription:
       'De vrais projets de fabrication SUP : comment resorts, marques, clubs et écoles ont transformé des exigences produit en paddleboards finis avec SUPsfactory.',
     h1: 'Projets — comment nous développons des produits SUP avec nos clients',
+  },
+  de: {
+    metaTitle: 'SUP-Entwicklungsprojekte & Fallstudien | SUPsfactory',
+    metaDescription:
+      'Reale SUP-Fertigungsprojekte: Wie Resorts, Marken, Clubs und Schulen mit SUPsfactory aus Produktanforderungen fertige SUP-Boards gemacht haben.',
+    h1: 'Projekte — so entwickeln wir SUP-Produkte mit Kunden',
   },
 }
 

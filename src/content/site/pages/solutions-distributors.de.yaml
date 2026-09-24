@@ -1,0 +1,135 @@
+meta:
+  title: 'Private Label & Großhandelsvertrieb für Distributoren | {SITE}'
+  description: 'Fabrik-direkte Private-Label- und Großhandelsprogramme für Distributoren und Händler: exklusive Territorien, White-Label-SUP-Fertigung und dediziertes Account-Management.'
+  dateModified: '2026-09'
+
+hero:
+  tagline: Distributoren & Private Label
+  title: 'Fabrik-direkte Programme für Distributoren und Marken'
+  subtitle: 'Großhandels- und Private-Label-Programme aus einer Fertigungsstätte für aufblasbare SUPs. Kaufen Sie zu fabrikdirekten Preisen, bauen Sie Ihr Sortiment unter eigener Marke auf und liefern Sie in exklusive Territorien in über 50 Länder.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-building.webp
+    alt: SUPsfactory Fertigungs- und Versandbetrieb
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Distributoren und Marken arbeiten direkt mit der Fabrik zusammen: White-Label-SUP-Boards unter Ihrer Marke, fabrikdirekte Großhandelspreise, exklusives Territorium pro Programm, 3–8 SKUs zum Start und 45–60 Tage Zahlungsziel (alles vorbehaltlich der kommerziellen Vereinbarung), mit 100 % druckgeprüftem Bestand vor dem Versand. Mindest-Eröffnungsmengen und Frachtbedingungen werden pro Territorium vereinbart, versendet FOB Qingdao oder CIF.'
+  verified: 'September 2026'
+
+intro:
+  tagline: Über das Programm
+  title: 'Private-Label-Vertrieb auf Basis eigener Fertigungskapazität'
+  body: |
+    SUPsfactory entwirft, baut und prüft jedes aufblasbare SUP, Kajak und Zubehör in der eigenen Anlage in Laixi, Qingdao. Eine Private-Label-Vereinbarung mit uns bedeutet, dass die Versorgungsquelle in Ihre Marke eingebaut ist: Sie erhalten Boards, die unter Ihrem eigenen Namen von der Fabrik gefertigt werden — nicht nachverkaufter Bestand eines anderen Distributors.
+
+    Da wir die Produktion rund um die Prognosen unserer Kunden planen, können wir große Läufe für den Saisonstart der nördlichen Hemisphäre einplanen, Frachtkosten durch Vorbestellungen stabilisieren und mit transparenten Großhandelsbedingungen und vereinbarten Zahlungsplänen Working Capital freisetzen. Technik, Muster, Qualitätskontrolle und Exportdokumentation werden alle intern abgewickelt — es gibt keinen Makler oder Handelszwischenhändler in der Kette.
+
+    Dieses Programm ist eine von zwei Möglichkeiten, mit der Fabrik zu arbeiten. Wenn Sie eine eigene Großhandelsmarke führen und sie für sich fertigen lassen möchten, ist diese Seite für Sie. Resorts, Schulungszentren und Verleihflotten, die direkt für den eigenen Gebrauch einkaufen, sollten sich stattdessen die OEM/ODM-Fertigung und die Flottenprogramme ansehen.
+
+wholesale_pricing:
+  tagline: Warum teilnehmen
+  title: 'Was Distributoren erhalten'
+  subtitle: 'Alles, was Sie brauchen, um ein Markensortiment in Ihrem Markt zu launchen.'
+  intro: 'Vertriebspartner erhalten dieselbe Fabrikqualität und Technologietiefe, die wir OEM/ODM-Marken liefern, verpackt für den Großhandelskanal unter eigener Marke. Programmbedingungen — Territorialexklusivität, Eröffnungs-SKU-Sortiment und Zahlungsbedingungen — werden pro Programm in der kommerziellen Vereinbarung bestätigt.'
+  stats:
+    - value: '50+'
+      label: 'Länder, in die versendet wird'
+    - value: '1'
+      label: 'Dedizierter Account-Manager'
+    - value: '45–60'
+      label: 'Tage Zahlungsziel'
+    - value: '120,000+'
+      label: 'Boards Jahreskapazität'
+    - value: '3–8'
+      label: 'SKUs zum Programmstart'
+    - value: '100%'
+      label: 'Vor dem Versand fabrikgeprüft'
+
+steps:
+  tagline: So funktioniert es
+  title: 'Vom Antrag zum ersten Container'
+  subtitle: 'Ein klarer, mehrstufiger Onboarding-Prozess, damit Ihr Markenprogramm pünktlich in der ersten Saison versendet.'
+  steps:
+    - step: 1
+      title: Antrag stellen
+      desc: 'Reichen Sie den Distributor-Antrag mit Ihrem Firmenprofil, Ihrem bisherigen Großhandelsumsatz und Ihrem Territorium ein.'
+    - step: 2
+      title: Territoriale Zuordnung
+      desc: 'Wir bestätigen, welche Länder oder Regionen Ihr Markenprogramm abdeckt und ob das Territorium exklusiv ist.'
+    - step: 3
+      title: Sortiments- & Branding-Plan
+      desc: 'Wählen Sie Ihre Basismodelle aus dem Fertigungskatalog, frieren Sie die Spezifikationen ein und finalisieren Sie Ihre Markengrafiken für die Produktion.'
+    - step: 4
+      title: Muster- & Qualitätsfreigabe
+      desc: 'Bestellen Sie Zertifizierungsmuster, um Qualität, Verpackung und Drop-Ship-Abwicklung zu prüfen. Muster werden freigegeben, bevor die Serienfertigung startet.'
+    - step: 5
+      title: Saisonale Nachbestellung
+      desc: 'Ihr Account-Manager plant Produktion und Nachschub rund um Ihre Prognose und den Saisonkalender.'
+
+benefits:
+  title: Was Distributoren erhalten
+  subtitle: 'Alles, was Sie brauchen, um in Ihrem Markt erfolgreich zu sein.'
+  items:
+    - 'Private Label unter eigener Marke (OEM White-Label)'
+    - 'Exklusive Territorialrechte (gemäß kommerzieller Vereinbarung)'
+    - 'Fertigungskatalog: SUP, Zubehör, Teile'
+    - 'Wettbewerbsfähige fabrikdirekte Preise'
+    - 'Marketing- & Verkaufsmaterialien (übersetzt)'
+    - 'Trainingsprogramm (Produkt, Vertrieb, Wartung)'
+    - 'Messebetreuung'
+    - 'Muster- & Vorproduktions-Freigabeprogramm'
+    - 'Drop-Ship-Fähigkeit'
+    - 'Dedizierter Distributor-Account-Manager'
+    - '45-60 Tage Zahlungsziel (vorbehaltlich kommerzieller Vereinbarung)'
+
+coverage:
+  title: Aktueller Vertrieb
+  subtitle: 'SUPsfactory versendet derzeit direkt in diese Märkte.'
+  regions:
+    - name: Europa
+      countries: 'Frankreich, Deutschland, Großbritannien, Spanien, Italien, Niederlande, Schweden, Norwegen, Polen, Griechenland'
+    - name: Asien
+      countries: 'Japan, Südkorea, China, Thailand, Singapur'
+    - name: Naher Osten
+      countries: 'VAE, Saudi-Arabien'
+    - name: Amerika
+      countries: 'USA, Kanada, Brasilien, Mexiko'
+    - name: Ozeanien
+      countries: 'Australien, Neuseeland'
+    - name: Afrika
+      countries: 'Südafrika, Marokko'
+
+faqs:
+  tagline: Distributor-FAQ
+  title: 'Großhandelsvertriebsprogramm — Häufig gestellte Fragen'
+  items:
+    - q: 'Wie hoch ist die Mindestbestellung für einen neuen Distributor?'
+      a: 'Neue Vertriebspartner starten in der Regel mit einer Muster- und Vorproduktions-Freigabebestellung, gefolgt von einem ersten Container, der auf ihre Saison abgestimmt ist. Die genauen Mindestmengen hängen von der Größe des Territoriums und dem gewählten Sortiment ab; Ihr Account-Manager bestätigt die Eröffnungsmenge während der Sortiments- und Branding-Planung.'
+    - q: 'Können wir die Boards unter unserer eigenen Marke verkaufen?'
+      a: 'Ja. Private Label ist hier das Standardmodell: Boards werden unter Ihrer Marke mit Ihren Grafiken, Ihrer Verpackung und Ihren Spezifikationen gefertigt. SUPsfactory fertigt ausschließlich für seine Kunden und konkurriert in keinem Markt mit ihnen.'
+    - q: 'Sind die Territorien exklusiv?'
+      a: 'Ja. Distributor-Programme basieren auf exklusiven Territorien — jeder Großhandelspartner deckt ein definiertes Land oder eine definierte Region ab und erhält Preis- und Programm-Support für diesen Markt, wie in der kommerziellen Vereinbarung festgelegt.'
+    - q: 'Unterstützen Sie Drop-Shipping?'
+      a: 'Die Drop-Ship-Fähigkeit ist im Programm enthalten. Muster, Verpackung und Abwicklung werden in der Musterfreigabephase validiert, sodass Drop-Ship-Bestellungen von Tag eins sauber laufen.'
+    - q: 'Welche Modelle können wir bestellen?'
+      a: 'Der Fertigungskatalog umfasst aufblasbare SUP-Boards in Allround-, Touring- und Surf-Formen, aufblasbare Kajaks, Pumpen, Paddel, Schwimmwesten und Pflegezubehör sowie kundenspezifische Formen, die mit unserem Ingenieurteam entwickelt werden. Die meisten Partner starten mit 4–8 Bestseller-SKUs und erweitern in späteren Saisons.'
+    - q: 'Wie werden Bestellungen versendet?'
+      a: 'Bestellungen verlassen die Fabrik auf geplanten Abfahrten, mit Vorbestellungsmöglichkeit zur Stabilisierung der Frachtkosten. Ihr dedizierter Account-Manager plant Produktion und Versand rund um Ihre Prognose und den Saisonkalender.'
+    - q: 'Wie bewerbe ich mich?'
+      a: 'Nutzen Sie das Antragsformular auf dieser Seite oder kontaktieren Sie uns direkt. Anträge werden vom Vertriebsteam geprüft, und wir antworten innerhalb weniger Werktage mit den nächsten Schritten, einschließlich territorialer Zuordnung und einem Vertragsentwurf.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Weiterlesen:</strong> Vertriebspartner führen Boards, die unter der eigenen Marke für sie gefertigt werden — informieren Sie sich über das <a href="/oem-manufacturing">OEM-/Private-Label-Fertigungsprogramm</a> und den <a href="/factory">Qualitätsprozess der Fabrik</a>, um das Produkt souverän zu positionieren.</p>
+  </div>
+
+cta:
+  title: 'Bereit für den Start Ihres Markensortiments?'
+  subtitle: 'Bewerben Sie sich für das Distributor-Programm oder stöbern Sie im Fertigungskatalog.'
+  actions:
+    - text: 'Für Distributor-Programm bewerben'
+      href: '/de/contact#distributor'
+      variant: 'primary'
+    - text: 'Fertigungskatalog durchstöbern'
+      href: '/de/products'
+      variant: 'secondary'

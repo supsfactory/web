@@ -1,0 +1,125 @@
+meta:
+  title: 'SUP-Fertigungskapazitäten | Fabrik für aufblasbare Paddle Boards'
+  description: 'SUP-Fertigungskapazitäten in Qingdao: hausinterne Rumpftechnik (0,1 mm), Drop-stitch-Verarbeitung, Hochfrequenzschweißen, Druck, Formenbau, 100-Punkte-Qualitätskontrolle und 120.000+ Boards pro Jahr.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'SUP-Fertigungskapazitäten'
+    - 'Kapazitäten der Fabrik für aufblasbare Paddle Boards'
+    - 'hausinterne SUP-Fertigung'
+    - 'Produktionskapazitäten für Paddle Boards'
+    - 'SUP-Fabrik Qingdao'
+
+hero:
+  tagline: Fertigungskapazitäten
+  title: 'SUP-Fertigungskapazitäten'
+  subtitle: 'Jeder Prozess — Rumpftechnik, Drop-stitch-Kernverarbeitung, Hochfrequenzschweißen, Druck, Formenbau, Montage, Prüfung und Verpackung — läuft hausintern in unserem 12,500 m² großen Werk in Qingdao. Ein verantwortliches Team führt Ihr Projekt vom ersten Entwurf bis zum verschifften Container durch.'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Die SUP-Fertigung ist vollständig hausintern in unserem Werk in Qingdao: Rumpfkonstruktion und Maßtechnik mit 0,1 mm CNC-Präzision; Verarbeitung des Drop-stitch-Materials und Hochfrequenzschweißen auf 4 automatisierten Linien; Grafikdruck; EVA-Pad-Stanzen; eigener Formenbau (+15–20 Tage für neue Formen); Montage nach einer 100-Punkte-Checkliste und ein 24-Stunden-Druckhalttest mit 18,0 PSI und automatischer Aussortierung bei einem Druckabfall über 0,50 PSI. Die Jahreskapazität liegt bei 120.000+ Boards (ca. 10.000/Monat) in 4 Spezialwerkstätten mit 350+ Mitarbeitern, geliefert in über 50 Länder unter Ihrer Marke.'
+  verified: 'September 2026'
+
+capabilities:
+  tagline: Hausinterne Kapazitäten
+  title: 'Kapazitätsgruppen — jeweils hausintern umgesetzt'
+  subtitle: 'Jede Fähigkeit wird direkt in der Fabrik ausgeführt: kürzere Lieferzeiten, Qualitätskontrolle in jedem Schritt und Ihre Spezifikation bleibt an einem Ort.'
+  groups:
+    - title: Design & Technik
+      items:
+        - 'Rumpfkonstruktion & Maßtechnik'
+        - '0,1 mm CNC-Präzision'
+        - 'Individueller Formen- & Werkzeugbau'
+        - 'Verpackungs- & Handelsgrafik'
+    - title: Produktion
+      items:
+        - 'Verarbeitung des Drop-stitch-Kerns'
+        - '15-kW-Hochfrequenzschweißen (4 automatisierte Linien)'
+        - 'Grafikdruck & Gestaltung'
+        - 'EVA-Pad-Stanzen'
+        - 'Board-Montage & Veredelung'
+        - 'Zusammenstellung des Zubehörs'
+    - title: Qualität & Konformität
+      items:
+        - '100-Punkte-Montagecheckliste'
+        - '18,0 PSI · 24-Stunden-Druckhalt'
+        - 'Stichprobenprüfung nach ISO 2859-1 Level II'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - 'Rückverfolgbarkeit der Chargen über 10 Jahre'
+    - title: Service & Logistik
+      items:
+        - 'Prototyp-Muster in 7–12 Tagen'
+        - 'Produktion in 25–35 Tagen'
+        - 'Individuelle Formen in +15–20 Tagen'
+        - 'FOB Qingdao · CIF · DDP in über 50 Länder'
+
+table:
+  headers:
+    capability: Kapazität
+    in_house: Hausintern
+    standard: Was der Standard umfasst
+  rows:
+    - capability: 'Rumpfkonstruktion & Maßtechnik'
+      in_house: 'Ja — hausinterne Technikabteilung'
+      standard: 'Vor dem Formenbau konstruiert und validiert; 0,1 mm CNC-Präzision für Formen und Zuschnitt'
+    - capability: 'Verarbeitung des Drop-stitch-Materials'
+      in_house: 'Ja — hausinterne Kernproduktion'
+      standard: '12–15 PSI Drop-stitch-Dichtebereich, Nesting je Board-Größe optimiert'
+    - capability: 'Hochfrequenzschweißen & Nahtkonstruktion'
+      in_house: 'Ja — hausintern'
+      standard: '15 kW Hochfrequenzschweißkapazität auf 4 automatisierten Produktionslinien'
+    - capability: 'Grafikdruck & Gestaltung'
+      in_house: 'Ja — hausinternes Design & Druck'
+      standard: 'Unbegrenzte Paletten, randlose Grafik, Gestaltungsunterstützung durch das Fabrikteam'
+    - capability: 'EVA-Antirutschpad-Stanzen'
+      in_house: 'Ja — hausintern'
+      standard: 'Pad-Spezifikation 45–55 Shore C, individuell geschnittene Decks und Logos'
+    - capability: 'Individuelle Formen & Werkzeuge'
+      in_house: 'Ja — hausinterne Formenwerkstatt'
+      standard: 'Neue Formen benötigen 15–20 Tage; Formen bleiben Eigentum der Fabrik, sofern nichts anderes vereinbart'
+    - capability: 'Board-Montage & Veredelung'
+      in_house: 'Ja — hausintern'
+      standard: '100-Punkte-Montagecheckliste; Griffe, D-Ringe und Zubehör gemäß Spezifikation eingebaut'
+    - capability: 'Druck- & Lastprüfung'
+      in_house: 'Ja — hausinterner Prüfstand'
+      standard: '18,0 PSI 24-Stunden-Druckhalt, automatische Aussortierung bei Abfall über 0,50 PSI'
+    - capability: 'Endprüfung & Rückverfolgbarkeit'
+      in_house: 'Ja — hausinternes Qualitätsteam'
+      standard: 'Stichprobenprüfung nach ISO 2859-1 Level II; 10-jährige ERP-Chargenrückverfolgbarkeit je Seriennummer'
+    - capability: 'Verpackung & Export'
+      in_house: 'Hausinternes Kitting + zertifizierte Logistik'
+      standard: 'Handelsverpackungen, seetüchtige Exportverpackung und Serien-Etiketten unter Ihrer Marke'
+
+faq_section:
+  tagline: FAQ
+  title: Fragen zu den SUP-Fertigungskapazitäten
+  questions:
+    - q: Welche Fertigungsprozesse laufen hausintern?
+      a: 'Alle Kernprozesse laufen hausintern: Rumpftechnik, Drop-stitch-Kernverarbeitung, Hochfrequenzschweißen, Druck, EVA-Stanzen, Montage, Prüfung und Verpackung. Zubehör und einige Rohstoffe stammen von zertifizierten Lieferanten; die Endmontage des Sets erfolgt hausintern für eine vollständige Rückverfolgbarkeit.'
+    - q: Wie hoch ist Ihre Produktionskapazität?
+      a: '120.000+ Boards pro Jahr (ca. 10.000/Monat) auf 4 automatisierten Linien und in 4 Spezialwerkstätten auf 12,500 m² mit über 350 Mitarbeitern.'
+    - q: Welche Mindestbestellmenge gilt für diese Kapazitäten?
+      a: 'Die Standardmenge liegt bei 90–100+ Einheiten pro freigegebener Konfiguration (eine 150-m-Rolle Drop-stitch-Gewebe); Pilotläufe starten bei 20–50 Einheiten auf bestehenden Plattformen; Reine-Logo-Aufträge ab 5–10 Einheiten.'
+    - q: Welche Lieferzeiten sollten wir einplanen?
+      a: 'Prototyp-Muster in 7–12 Tagen; Produktion 25–35 Tage nach bestätigtem Auftrag und Anzahlung; der Formenbau für individuelle Formen addiert 15–20 Tage.'
+    - q: Wie wirken sich die Kapazitäten auf die Qualität aus?
+      a: 'Jeder Prozess speist das 7-stufige Qualitätssystem: 100-Punkte-Montagecheckliste, 18,0 PSI 24-Stunden-Druckhalt mit automatischer Aussortierung über 0,50 PSI Abfall, Stichprobenprüfung nach ISO 2859-1 Level II und 10-jährige ERP-Chargenrückverfolgbarkeit.'
+
+cta:
+  title: 'Prüfen Sie, welche Kapazitäten zu Ihrem Projekt passen'
+  subtitle: 'Senden Sie Ihre Produktanforderung — technische Prüfung und passende Offerte innerhalb eines Werktages.'
+  actions:
+    - variant: primary
+      text: Fertigungsofferte anfordern
+      href: /de/contact#custom-oem
+    - text: Fabrik besichtigen
+      href: /de/factory
+    - text: Produktionsprozess der Fabrik
+      href: /de/factory/process
+    - text: Fabrikkapazität & Lieferzeiten
+      href: /de/factory/capacity
+    - text: Qualität & Prüfungen
+      href: /de/quality
+    - text: Proof Center — Fabrik-Nachweise
+      href: /de/proof-center
+    - text: OEM- & ODM-Fertigung
+      href: /de/oem-manufacturing

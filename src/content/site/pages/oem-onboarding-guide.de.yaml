@@ -1,0 +1,125 @@
+meta:
+  title: 'OEM-Onboarding-Leitfaden — Schritt-für-Schritt vom Erstkontakt bis zur Produktion | SUPsfactory'
+  description: 'OEM-Onboarding-Leitfaden: NDA, Machbarkeitsprüfung, Musterproduktion, Freigabe, Vorproduktionsplanung, Produktions-QC und Versand. Schritt für Schritt mit Zeitplänen.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM-Onboarding-Leitfaden'
+    - 'SUP-Fertigungsprozess'
+    - 'OEM-Käufer-Onboarding'
+    - 'SUP-Fabrikprozess'
+    - 'Schritte individueller SUP-Aufträge'
+    - 'OEM-Musterprozess'
+    - 'SUP-Produktionszeitplan'
+
+hero:
+  tagline: 'OEM-Käufer-Onboarding'
+  title: 'Ihre erste SUP-Bestellung, Schritt für Schritt'
+  subtitle: 'Vom ersten Kontakt bis zu den gelieferten Boards läuft der OEM-Onboarding-Prozess bei SUPsfactory über sieben definierte Tore — jedes mit klarem Zeitplan, dokumentiertem Ergebnis und einem Go/No-Go-Prüfpunkt. Keine Unklarheiten, keine versteckten Schritte, keine Überraschungen nach der Anzahlung.'
+  actions:
+    - variant: primary
+      text: Ihr Projekt-Briefing starten
+      href: /de/contact#project-brief
+    - text: OEM-, ODM- und Private-Label-Wege vergleichen
+      href: /de/oem-odm-private-label-comparison
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Ein typisches OEM-Onboarding dauert 2–4 Wochen bis zur Musterfreigabe und 6–8 Wochen bis zum ersten Produktionslauf ab bestätigtem Auftrag. Sie starten mit einem Projekt-Briefing (Board-Spezifikationen, Menge, Konformitätsanforderungen). Wir antworten innerhalb eines Werktages, bieten vor dem Austausch proprietärer Details eine NDA an und produzieren 1–2 physische Muster in 7–12 Tagen für Ihre Prüfung und Freigabe. Sobald das Muster eingefroren ist, folgen Produktionsplanung und Fertigung mit festen QC-Toren in jeder Stufe. Jeder Schritt ist dokumentiert und rückverfolgbar.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: Die sieben Tore
+  title: 'Onboarding-Ablauf — sieben Tore vom Briefing bis zur Lieferung'
+  subtitle: 'Jedes Tor hat einen definierten Input, einen definierten Output und einen vorab vereinbarten Zeitplan. Sie passieren kein Tor ohne ausdrückliche Freigabe.'
+  steps:
+    - step: 'Tor 1'
+      title: 'Erstanfrage & NDA (Tag 0)'
+      desc: 'Reichen Sie über /contact ein Projekt-Briefing mit Ihren Ziel-Board-Spezifikationen, Bestellmenge, Konformitätsanforderungen und Zeitplan ein. Eine NDA ist sofort verfügbar — bevor Sie proprietäre technische Spezifikationen oder Artwork teilen. Antwort innerhalb eines Werktages.'
+    - step: 'Tor 2'
+      title: 'Machbarkeitsprüfung & Offerte (Tag 1–5)'
+      desc: 'Das Engineering prüft Ihr Briefing gegen Fertigungskapazität, Materialverfügbarkeit und Konformitätsumfang. Sie erhalten eine positionsgenaue Offerte mit MOQ-Berechnung, Musterkosten (auf die Produktion angerechnet) und Lieferzeitteilen — kein grober Bereich, sondern ein Tor-für-Tor-Zeitplan.'
+    - step: 'Tor 3'
+      title: 'Musterproduktion (Tag 6–17)'
+      desc: '1–2 physische Boards nach Ihrer Spezifikation: Rumpfsteifigkeit, EVA-Antirutschpad-Griffigkeit, Grafikgenauigkeit, Zubehörpassform. Sie fahren und bewerten das Board, bevor Sie sich auf etwas Festes einlassen. Musterkosten werden nach Vertragsunterzeichnung auf den Produktionsauftrag angerechnet.'
+    - step: 'Tor 4'
+      title: 'Musterprüfung & Freigabe (Tag 18–21)'
+      desc: 'Sie bewerten das Muster gegen Ihre Spezifikationen — Fahrgefühl, Grafiktreue, Verpackung, Zubehör. Anpassungen werden in ein überarbeitetes BOM und eine Artwork-Freigabe aufgenommen. Die eingefrorene Spezifikation wird zur Produktionsreferenz für alle weiteren Läufe.'
+    - step: 'Tor 5'
+      title: 'Vorproduktionsplanung (Tag 22–28)'
+      desc: 'Materialbeschaffung, Werkzeugaufbau, Verpackungsbestätigung und Reservierung des Produktionsslots. Alle Materialien werden beim Wareneingang gegen das eingefrorene BOM geprüft. Vor Produktionsbeginn wird ein Produktionsplan mit QC-Tor-Terminen ausgegeben.'
+    - step: 'Tor 6'
+      title: 'Produktion & QC-Tore (Tag 29–55)'
+      desc: 'Die Fertigung läuft durch das 7-stufige Prüf-Torsystem: Wareneingangsprüfung, Drop-stitch-Gewebeprüfung, Schweißen & Montage, Druck- & Dichtigkeitstest (18,0 PSI Halt, automatische Aussortierung über 0,50 PSI Abfall), EVA-Pad- & Zubehörmontage, Grafik- & Branding-QC, Endverpackung & Dokumentation. Jedes Tor hat Bestanden/Nicht-bestanden-Kriterien und Rückverfolgungsprotokolle.'
+    - step: 'Tor 7'
+      title: 'Versand & Bewertung nach Lieferung (Tag 56–63)'
+      desc: 'Exportgerechte Verpackung, Konformitätsdokumentation (CE, ISO 9001, BSCI, REACH, RoHS) und Seefracht-Koordination in über 50 Länder. Eine Bewertung nach der Lieferung erfasst Erkenntnisse und Verbesserungen für den nächsten Auftragszyklus.'
+
+collaboration_modes:
+  tagline: 'Wählen Sie Ihren Weg'
+  title: 'Drei Kooperationsmodelle, ein Onboarding-Prozess'
+  subtitle: 'Jeder neue Käufer durchläuft dasselbe Sieben-Tor-Onboarding — was sich ändert, ist der Umfang der Engineering-Beteiligung und wo das IP-Eigentum liegt.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM-Fertigung'
+      desc: 'Sie liefern die vollständige Designspezifikation — Rumpfform, Konstruktion, Grafik, Zubehör. Wir fertigen nach Ihrer Spezifikation. Sie besitzen das gesamte IP. Am besten für Marken mit einer bestehenden Produktlinie und erprobter Board-Geometrie.'
+      link_label: 'So funktioniert OEM'
+      href: /de/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM-Entwicklung'
+      desc: 'Sie liefern das Briefing — Ziel-Fahrergewicht, Einsatzzweck, Preisniveau — und unser Technikteam entwickelt das Board aus Ihren Anforderungen. Adaptierte Plattform mit Ihrem Branding. Am besten für Marken ohne hausinterne Designkapazität, die neu in den Markt kommen.'
+      link_label: 'So funktioniert ODM'
+      href: /de/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Bringen Sie Ihre Marke auf eine felderprobte Plattform — keine Engineering-Stufe erforderlich. Ihr Logo auf Nose- oder Seitenrails ab nur 5–10 Einheiten. Am besten für Betreiber und Distributoren, die gebrandete Boards ohne Entwicklungszyklus wollen.'
+      link_label: 'Private-Label-Optionen'
+      href: /de/solutions/private-label-sup
+
+checklist:
+  heading: 'Was Sie vor Ihrem Projekt-Briefing vorbereiten sollten'
+  body: |
+    Je vollständiger Ihr Briefing, desto schneller und genauer die Offerte. So bereiten Sie sich vor:
+
+    - **Board-Spezifikationen** — Ziellänge, Breite, Dicke, Fahrergewichtsbereich und beabsichtigter Einsatz (Touring, Allround, Surfen, Angeln, Yoga usw.). Wenn Sie Referenz-Maße oder ein Konkurrenzmodell haben, fügen Sie diese hinzu.
+    - **Designdateien** — Vektor-Artwork (AI, SVG oder PDF) für Board-Grafik, EVA-Pad-Logo und sekundäres Branding. Falls das Artwork noch nicht fertig ist, reichen für die erste Machbarkeit eine Mood-Board oder Referenzbilder.
+    - **Bestellmenge & Zeitplan** — Ihre Zielmenge für die erste Bestellung und den Saisonzeitplan, den Sie einhalten müssen. Auch ein grober Bereich („20–50 Boards bis März") reicht zur Bestätigung von Machbarkeit und Slot-Verfügbarkeit.
+    - **Konformitätsanforderungen** — Zielmärkte (EU, Nordamerika, Australien usw.) und spezifische Zertifizierungs- oder Prüfanforderungen über unseren Standardumfang hinaus (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **Budgetrahmen** — Ein indikativer Pro-Board-Budget oder Ziel-Landed-Cost hilft uns, die richtige Plattform und Konstruktionsstufe zu empfehlen. Der exakte Preis wird erst nach der technischen Prüfung bestätigt — nie davor.
+
+    Wenn Sie noch nicht alles haben, reichen Sie ein, was Sie haben. Den Rest führen wir Sie.
+
+evidence_review:
+  tagline: 'Nachweise & Verifizierung'
+  title: 'SPEZIFIKATIONEN VERIFIZIERT'
+  body: 'Alle Fertigungsaussagen auf dieser Seite werden von unserem Manufacturing Engineering Team in der Fabrik Laixi, Qingdao verifiziert. Zertifikate, QC-Prüfprotokolle, Druck- und Strukturtestberichte sowie Chargenrückverfolgungsprotokolle sind auf Anfrage verfügbar. Spezifikationen zuletzt verifiziert: September 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'OEM-Onboarding — häufig gestellte Fragen'
+  items:
+    - q: 'Wie lange dauert der gesamte Onboarding-Prozess?'
+      a: 'Die Musterfreigabe dauert in der Regel 2–4 Wochen (inklusive Musterproduktion in 7–12 Tagen und Ihrer Prüfphase). Der erste Produktionslauf dauert 6–8 Wochen ab bestätigtem Auftrag und Anzahlung. Eine eigene Rumpfform addiert 15–20 Tage Formenbau. Jedes Tor hat einen vorab vereinbarten Zeitplan.'
+    - q: 'Muss ich vor dem Teilen meines Designs eine NDA unterzeichnen?'
+      a: 'Eine NDA ist auf Anfrage sofort verfügbar — bevor Sie proprietäre technische Spezifikationen oder Artwork teilen. Wir fertigen ausschließlich unter den Marken unserer Kunden und treten in keinem Markt in Konkurrenz zu ihnen. Dieselbe Politik gilt für ein Einzelmuster wie für ein Containerprogramm.'
+    - q: 'Wie hoch ist die Mindestbestellung für einen ersten OEM-Lauf?'
+      a: 'Der Einstieg ist gestaffelt: zuerst 1–2 Muster (verfügbar in 7–12 Tagen), dann eine Probe- oder Pilotbestellung von 20–50 Boards (Produktion in 25–35 Tagen), danach Standard-Mengenläufe von 90–100+ Boards pro freigegebener Konfiguration. Kleinserien-Co-Branding startet ab 5–10 Einheiten, wenn keine Entwicklungsstufe nötig ist. Musterkosten werden auf den Produktionsauftrag angerechnet.'
+    - q: 'Wie wird der IP-Schutz während des Onboardings gehandhabt?'
+      a: 'Ihre Designs und Spezifikationen sind durch die vor dem Austausch proprietärer Informationen unterzeichnete NDA geschützt. Alle Artwork-, BOM-Daten und technischen Dateien werden in zugriffskontrollierten Systemen mit Audit-Trails gespeichert. Im OEM-Modus besitzen Sie das gesamte IP. Im ODM-Modus wird die adaptierte Plattform-IP wie vereinbart geteilt. Im Private-Label-Modus bleibt das IP bei SUPsfactory und Sie lizenzieren die Markenanwendung.'
+    - q: 'Welche Qualitätsgarantien gelten für eine erste Bestellung?'
+      a: 'Jedes Board — Muster, Probe oder Menge — durchläuft dasselbe 7-stufige Prüf-Torsystem: Wareneingangsprüfung, Drop-stitch-Gewebeprüfung, Schweißen & Montage, 24-Stunden-Druck- und Dichtigkeitstest (18,0 PSI Halt, automatische Aussortierung über 0,50 PSI Abfall), EVA-Pad- & Zubehörmontage, Grafik- & Branding-QC sowie Endverpackung & Dokumentation. Bei kleineren Bestellungen wird die Qualität nie heruntergefahren.'
+
+cta:
+  title: 'Bereit, Ihr SUP-Projekt zu starten?'
+  subtitle: 'Senden Sie uns Ihre Board-Spezifikationen, Ihre Zielmenge und Ihren Zeitplan. Wir bestätigen die Machbarkeit, produzieren Muster und liefern einen Produktionsplan — Tor für Tor, mit dokumentierter QC in jedem Schritt.'
+  actions:
+    - variant: primary
+      text: Ihr Projekt-Briefing starten
+      href: /de/contact#project-brief
+    - text: OEM, ODM und Private Label vergleichen
+      href: /de/oem-odm-private-label-comparison
+    - text: Fabrik & Qualitätssystem verifizieren
+      href: /de/proof-center

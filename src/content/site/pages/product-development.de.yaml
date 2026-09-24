@@ -1,0 +1,108 @@
+meta:
+  title: 'SUP-Produktentwicklung — Individuelles Design, Prototyp & Produktion'
+  description: 'SUP-Produktentwicklung von der Idee bis zum Container: Spezifikation, Engineering, Prototyping, Tests, Werkzeugbau und Serienfertigung in einer dedizierten SUP-Fabrik.'
+  dateModified: '2026-08-10'
+  keywords:
+    - 'SUP-Produktentwicklung'
+    - 'SUP-Prototypenentwicklung'
+    - 'individuelles SUP-Design'
+    - 'SUP-Produktengineering'
+    - 'Prototyping aufblasbarer SUP'
+
+hero:
+  tagline: Produktentwicklung
+  title: 'Individuelle SUP-Produktentwicklung, von der Idee bis zum Container'
+  subtitle: 'Sechs Stufen verwandeln Ihre Produktidee in produktionsreife SUP-Boards — Spezifikation, Engineering, Prototyping, Tests, Werkzeugbau und Serienfertigung, alles in einer Fabrik mit einem verantwortlichen Qualitätssystem.'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'SUP-Produktentwicklung bei SUPsfactory durchläuft sechs Stufen — Produktspezifikation, Strukturengineering, Prototyp-Bemusterung, Test & Validierung, individueller Werkzeugbau und Serienfertigung. Das erste physische Muster versendet 7–12 Tage nach Spezifikationsfreigabe; die Produktion läuft 25–35 Tage nach bestätigtem Auftrag und Anzahlung; ein neuer Formenbau addiert 15–20 Tage.'
+  verified: 'September 2026'
+
+stages:
+  title: 'Die sechs Stufen der SUP-Produktentwicklung'
+  subtitle: 'Jede Stufe hat ein klares Ergebnis — so wissen Sie stets, wo Ihr Projekt steht — und was als Nächstes kommt.'
+  items:
+    - title: '1. Idee & Produktspezifikation'
+      description: 'Board-Geometrie, Fahrergewichtsbereich, Volumen, Konstruktionsziele und Zubehörpaket. Ein Referenz-Board, eine Skizze oder eine Konkurrenzspezifikation genügt für den Start.'
+      icon: 'tabler:bulb'
+    - title: '2. Engineering & 3D-Design'
+      description: 'Strukturengineering, Drop-stitch-Dicke und PVC-Klassenauswahl sowie eine Fertigbarkeitsprüfung und Offerte — innerhalb eines Werktages zurück.'
+      icon: 'tabler:blueprint'
+    - title: '3. Prototyp-Bemusterung'
+      description: 'Ihr erstes physisches Muster versendet in 7–12 Tagen, dokumentiert mit einem Freigabeblatt für Konstruktion, Druckfarben und Drucktestergebnisse.'
+      icon: 'tabler:tools'
+    - title: '4. Test & Validierung'
+      description: 'Druckhalt, Nahtfestigkeit und Maßprüfungen gegen das freigegebene Muster, mit CE- und REACH-Dokumentation für Ihre Zielmärkte.'
+      icon: 'tabler:test-pipe'
+    - title: '5. Werkzeugbau & Serienfertigung'
+      description: 'Individueller Formenbau in 15–20 Tagen, falls erforderlich; die Produktion läuft 25–35 Tage mit Inline-QC-Prüfpunkten und Chargenrückverfolgbarkeit.'
+      icon: 'tabler:settings'
+    - title: '6. Lieferung & Skalierung'
+      description: 'FOB-, CIF- oder DDP-Logistik in über 50 Länder — danach Folgeaufträge auf Ihrer etablierten Linie mit stabilen Lieferzeiten und hinterlegtem freigegebenem Artwork.'
+      icon: 'tabler:truck-delivery'
+
+why_inhouse:
+  title: 'Warum Entwicklung in einer Fabrik ein vermitteltes Projekt schlägt'
+  subtitle: 'Entwicklungsarbeit direkt im Produktionswerk verändert, was Sie in jeder Stufe erhalten.'
+  items:
+    - title: Keine Übergabelücken im Design
+      description: 'Das Engineering- und Zeichnungsteam arbeitet auf derselben Etage wie die Schweißlinie — eine Zeichnungsänderung geht noch in derselben Woche in die Produktion, nicht nach einer kommerziellen Rückrunde.'
+      icon: 'tabler:handshake'
+    - title: Muster, die der Produktion entsprechen
+      description: 'Musterlauf und Produktionslauf teilen sich dieselben Maschinen, Materialien und QC-Stationen — das freigegebene Muster ist also genau das, was Sie im Containermaßstab erhalten.'
+      icon: 'tabler:stack-2'
+    - title: Engineering, das nichts verkauft
+      description: 'Entscheidungen fallen gegen Zielkosten, Gewicht und Haltbarkeit — nicht gegen Uplift-Margen, denn das hier ist eine Fabrik und Produktion ist die einzige Umsatzquelle.'
+      icon: 'tabler:scale'
+    - title: Vertraulichkeit als Dauerverpflichtung
+      description: 'Eine NDA wird vor jedem Dateiaustausch unterzeichnet, und Ihr Artwork, Ihr Werkzeug und Ihre Spezifikationsdateien bleiben Ihr Eigentum — nie wiederverwendet, weiterverkauft oder einem anderen Kunden gezeigt.'
+      icon: 'tabler:lock'
+
+buyer_guides:
+  tagline: Einkaufsführer
+  title: 'Die komplette Sourcing-Bibliothek'
+  subtitle: 'Jede Stufe eines individuellen SUP-Projekts, erklärt mit unseren echten Lieferzeiten, Konditionen und Dokumenten.'
+  items:
+    - title: 'Private Label: Der komplette Schritt-für-Schritt-Leitfaden'
+      body: 'Von der Fabrikwahl bis zum gelieferten Container — die komplette Sechs-Schritte-Reise für neue Marken.'
+      href: '/de/news/private-label-sup-guide'
+    - title: 'So wählen Sie einen SUP-OEM-Hersteller'
+      body: 'Die Audit-Fragen, die eine echte Fabrik von einem Händler unterscheiden: Zertifizierungen, QC, Muster und Eigentum.'
+      href: '/de/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'SUP-Produktentwicklungs-zeitplan'
+      body: 'Muster in 7–12 Tagen, Produktion in 25–35 Tagen, Werkzeugbau plus 15–20 — der komplette Kalender, Stufe für Stufe.'
+      href: '/de/news/custom-sup-development-timeline'
+    - title: 'Informationen, die Sie vor der Bestellung vorbereiten sollten'
+      body: 'Die fünf Details, mit denen eine Fabrik beim ersten Anlauf korrekt offeriert — und Spezifikations-Nacharbeit vermeidet.'
+      href: '/de/news/info-needed-before-sup-production'
+    - title: 'SUP-OEM-MOQ und Preise'
+      body: 'MOQ-Stufen über Muster (1–2), Pilot (20–50) und Menge (90–100+ pro 150-m-Rolle), die sechs Kostentreiber und fünf Wege, Kosten zu senken ohne Qualität abzubauen.'
+      href: '/de/news/sup-oem-moq-pricing'
+    - title: 'CE-Zertifizierung für aufblasbare SUP'
+      body: 'Was CE wirklich abdeckt, die fünf Dokumente, die Sie einfordern sollten, und wie Sie prüfen, ob ein Zertifikat Ihr Modell benennt.'
+      href: '/de/news/ce-certification-inflatable-sup'
+    - title: 'Versand: FOB vs. CIF vs. DDP'
+      body: 'Was jede Incoterm abdeckt und kostet, die 4–6-wöchige Seefrachtzeit und welche Bedingung zu Ihrem Geschäft passt.'
+      href: '/de/news/private-label-sup-oem-guide'
+
+faq_section:
+  tagline: FAQ
+  title: 'Häufig gestellte Fragen zur SUP-Entwicklung'
+  questions:
+    - q: Können Sie ein SUP-Produkt aus einer Idee entwickeln?
+      a: 'Ja. Wir begleiten den gesamten Weg von der Produktspezifikation und dem Engineering über die Prototypenentwicklung, Individualisierung und Serienfertigung auf Basis Ihrer Anforderungen. Eine Skizze, ein Referenz-Board oder sogar eine Konkurrenzspezifikation genügt für die Engineering-Prüfung.'
+    - q: Was kostet die SUP-Produktentwicklung?
+      a: 'Die Spezifikationsprüfung und die Engineering-Bewertung sind kostenlos und werden innerhalb eines Werktages zurückgeliefert. Das Prototyp-Sampling wird pro Projekt nach Fixierung der Spezifikation kalkuliert; die Produktionspreise hängen von Materialien, Menge und davon ab, ob ein eigener Werkzeugbau erforderlich ist.'
+    - q: Wie lange dauert die SUP-Produktentwicklung?
+      a: 'Das erste Muster versendet 7–12 Tage nach Spezifikationsfreigabe, mit 3–7 Tagen pro Überarbeitungsrunde. Die Produktion läuft 25–35 Tage nach Auftrag und Anzahlung. Ein eigener Formenbau addiert 15–20 Tage vorab, und die Seefracht schlägt bei den meisten Zielen mit 4–6 Wochen zu Buche.'
+    - q: Was kommt zuerst — Muster oder Produktion?
+      a: 'Immer das Muster. Ein physischer Prototyp wird hergestellt, vermessen und gegen die Spezifikation freigegeben, bevor irgendein Produktionslauf startet. Wir produzieren keine Mengen aus nicht freigegebenen Designs.'
+    - q: Unterzeichnen Sie für die Produktentwicklung eine NDA?
+      a: 'Ja. Eine NDA wird vor jedem Dateiaustausch unterzeichnet, und Ihre Designs, Ihr Artwork und Ihr Werkzeug bleiben während der gesamten Entwicklung und Fertigung Ihr Eigentum.'
+    - q: Können Sie mein SUP-Design und meine Spezifikationen schützen?
+      a: 'Kundendesigns, Spezifikationen und Produktkonzepte werden während Entwicklung und Fertigung vertraulich behandelt. Ihre Werkzeugdateien werden nie wiederverwendet, weiterverkauft oder einem anderen Kunden gezeigt.'
+
+cta:
+  title: 'Starte dein SUP-Produktprojekt'
+  subtitle: 'Senden Sie eine Skizze, ein Referenz-Board oder eine Spezifikation — Engineering-Prüfung und Offerte innerhalb eines Werktages.'

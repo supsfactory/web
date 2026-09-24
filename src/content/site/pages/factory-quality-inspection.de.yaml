@@ -1,0 +1,477 @@
+meta:
+  title: 'Qualitätsinspektionsstandards für kundenspezifische SUPs | OEM-Fabrik | SUPsfactory'
+  description: 'OEM-Herstellung aufblasbarer SUPs: Inspektion von Materialien, Produktion, Prüfung, Verpackung und Rückverfolgbarkeit, mit Luftdichtigkeits-Nacharbeitskontrolle nach ISO 9001.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'inflatable sup manufacturer'
+    - 'sup oem factory'
+    - 'custom paddle board manufacturer'
+    - 'sup quality inspection'
+    - 'sup manufacturing process'
+    - 'private label sup manufacturer'
+
+hero:
+  tagline: Qualitätsinspektion & -sicherung
+  title: Qualitätskontrolle für kundenspezifische aufblasbare SUP-Boards
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD. wendet projektspezifische Inspektionskriterien über die gesamte Materialvorbereitung, den Boardaufbau, die abschließende Aufblasprüfung, die Verpackung und die Versandfreigabe an. Die Qualitätsanforderungen werden dynamisch anhand des freigegebenen Musters, der technischen Spezifikation, des Artwork-Proofs, der Stückliste (BOM) und der vereinbarten Verpackungsstandards für jede OEM/ODM-Bestellung verwaltet.'
+  actions:
+    - text: Qualitätssicherungspaket herunterladen
+      variant: primary
+      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+    - text: Beispiel-Qualitätspaket herunterladen (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: OEM-Qualitätsinformationen anfragen
+      href: /contact
+
+answer:
+  label: 'Klare Antwort'
+  text: 'QINGDAO VATRAD GROUP.,LTD. steuert die Qualität aufblasbarer SUPs über ein 4-stufiges Verifikationssystem: Wareneingangskontrolle (IQC), In-Prozess-Qualitätskontrolle (IPQC), finale Boardprüfung und Aufblasverifizierung (FQC) sowie Verpackungs- und Versandvorfreigabe (OQC). Jede Bestellung wird gegen das freigegebene Muster, die technische Spezifikation, den Artwork-Proof, die BOM und die Verpackungsstandards geprüft — einschließlich Luftdichtigkeitsverifizierung, Sicht- und Maßprüfungen, Zubehörbestätigung und Chargenrückverfolgbarkeit. Einheiten, die die Annahmekriterien nicht erfüllen, werden kontrolliert gesperrt oder unter Quarantäne gestellt, ausschließlich nach freigegebenen Anweisungen nachgearbeitet und vor der autorisierten Freigabe erneut geprüft.'
+  verified: 'September 2026'
+
+intro: 'Unser Qualitätssystem ist für OEM/ODM-Projekte aufgebaut: Inspektionskriterien werden pro Bestellung definiert, dokumentiert und vom Produktions- und Qualitätsteam vom Wareneingang bis zur Verpackung befolgt. Dadurch bleibt die Qualitätserwartung zwischen Fabrik und Ihrer Marke vom ersten Muster bis zu vollständigen Containerlieferungen abgestimmt.'
+
+scope_note:
+  tagline: Umfang
+  title: Projektspezifische Inspektionskriterien
+  body: |
+    Die Qualitätsspezifikationen können je nach Boardkonstruktion (z. B. ein-/zweilagig, gewebebasierte Drop-Stitch, verklebtes Rail), vorgesehenem Einsatzweck, Zielmarkt-Vorschriften und kundenfreigegebenen Parametern variieren. Die endgültige Freigabe basiert strikt auf den dokumentierten Inspektionskriterien, die für die Bestellung vereinbart wurden.
+
+stages:
+  tagline: Qualitätsrahmen
+  title: Unser 4-stufiges Qualitätsverifikationssystem
+  subtitle: Ein vollständiger QC-Kreislauf vom Rohmaterialeingang bis zur Versandfreigabe.
+  steps:
+    - title: '1. Wareneingangskontrolle (IQC)'
+      desc: 'Hauptmaterialien und zugekaufte Komponenten werden vor dem Eintritt in die Produktionslinie gegen freigegebene Spezifikationen und Referenzmuster geprüft. Drop-Stitch- und PVC-Material werden auf Materialidentifikation, Lieferantencharge, Gewicht/Dichte, Dicke, Farbabgleich gegen freigegebene Muster sowie Oberflächenfehler verifiziert. EVA-Traktionspads werden auf Muster, Farbe, Dicke, Schnittgenauigkeit und Klebstoffkompatibilität geprüft. Ventile und Beschläge durchlaufen Funktions-, Gewinde-, Dichtungsintegritäts- und Passungstests. Zubehör und Verpackung (Pumpen, Paddel, Finnen, Leinen, Taschen, Kartons) werden nach Menge, Farbe, Branding, Barcode-Genauigkeit und Artwork-Version gegen die freigegebene BOM abgeglichen.'
+    - title: '2. In-Prozess-Qualitätskontrolle (IPQC)'
+      desc: 'Kritische Fertigungsschritte werden inspiziert, um Nichtkonformitäten zu erkennen, bevor Boards zu nachgelagerten Arbeitsstationen gelangen. Zuschnitt und Druck werden auf Panelmaße, Artwork-Layout, Spiegelorientierung und Kantensauberkeit gegen freigegebene technische Zeichnungen verifiziert. Boardmontage und Railverklebung werden auf Rumpfsymmetrie, Nahtüberlappungskontinuität und die Vermeidung von Hohlräumen oder Lufttaschen entlang hochbeanspruchter Bereiche geprüft. Ventil- und Zubehörbefestigung, Grafiken und Branding werden auf Position, Ausrichtung, Klebstoffabdeckung, Logo-Schreibweise und Artwork-Version verifiziert.'
+    - title: '3. Finale Boardprüfung & Aufblasverifizierung (FQC)'
+      desc: 'Fertiggestellte Boards durchlaufen vor der Verpackungsfreigabe verbindliche physische und strukturelle Tests. Die Boards werden auf den projektfreigegebenen Prüfdruck aufgeblasen und gehalten, um strukturelle Steifigkeit und Druckstabilität zu verifizieren. Luftdichtigkeits-Scans decken das Ventilgehäuse, die Railnähte, Bug-/Heckkegel und Spannungsfugen unter Verwendung kalibrierter Leckerkennungsmethoden (Druckabfallüberwachung oder Blasentest) ab. Kosmetische und maßliche Inspektion verifiziert Maße, Rockerprofil und EVA-Pad-Ausrichtung (Toleranz ±2 mm) unter Normallicht-Tageslichtbedingungen.'
+    - title: '4. Verpackung & Versandvorfreigabe (OQC)'
+      desc: 'Umfassende Versandvorverifizierung stellt einen Abgleich von SKU-Konfiguration und Versandkennzeichnungen mit Null Abweichung sicher. Die Kit-Vollständigkeitsprüfung gleicht Board, Finne, Leine, Paddel, Pumpe, Tasche, Reparaturset und Bedienungsanleitung gegen die Bestell-BOM ab. Verpackungs- und Barcode-Prüfungen verifizieren Kartonkennzeichnungen, SKU-Etiketten, Barcode-Lesbarkeit, Sprache der Anleitung und strukturelle Integrität des Kartons. Bestellungen werden erst nach der abschließenden, von autorisiertem Qualitätspersonal unterzeichneten Verpackungsprüfung freigegeben.'
+
+inspection_points:
+  tagline: Inspektionsabdeckung
+  title: Wichtige Inspektions-Kontrollpunkte
+  subtitle: Jeder Kontrollpunkt wird gegen dokumentierte, pro Bestellung vereinbarte Annahmekriterien ausgeführt.
+  features:
+    - icon: A
+      icon_bg: blue
+      title: Luftdichtigkeitsverifizierung
+      desc: 'Fertiggestellte Boards werden auf den freigegebenen Prüfdruck aufgeblasen und auf Druckhaltung, Ventilbasiszustand, Railnähte, Bug- und Heckbereiche sowie hochbeanspruchte Stellen geprüft. Wo es das Inspektionsverfahren vorsieht, werden vermutete Leckagebereiche mit freigegebenen Leckerkennungsmethoden untersucht.'
+    - icon: B
+      icon_bg: green
+      title: Sicht- & Maßkontrolle
+      desc: 'Boards werden unter geeigneter Beleuchtung auf Materialoberflächenzustand, Druckfehler, Farbabweichungen, EVA-Ausrichtung, Falten, Kratzer, Verunreinigungen und Verklebungsoptik geprüft. Schlüsselmaße und Zubehörpositionen werden gegen freigegebene Zeichnungen oder Spezifikationen verifiziert.'
+    - icon: C
+      icon_bg: purple
+      title: Zubehör- & Verpackungsverifizierung
+      desc: 'Vor dem Versand wird die vollständige Produktkonfiguration verifiziert: Boardmodell, Finnen-System, Paddel, Pumpe, Leine, Tragetasche, Reparaturset, Bedienungsanleitung und kundenspezifisches Zubehör — jeweils abgeglichen gegen das freigegebene Muster, die Zeichnungen und die BOM.'
+    - icon: D
+      icon_bg: orange
+      title: Verpackung & Versandfreigabe
+      desc: 'Verpackte Einheiten werden auf SKU-Konfiguration, Zubehörvollständigkeit, Produktetiketten, Barcode-Informationen, Version der Bedienungsanleitung, Kartonkennzeichnung, Verpackungsmenge und Kartonzustand geprüft. Die Versandfreigabe wird nur nach Abschluss aller Inspektions- und Verpackungsanforderungen autorisiert.'
+
+traceability_intro:
+  tagline: Chargenrückverfolgbarkeit
+  title: Projekt- & Chargenrückverfolgbarkeitssystem
+  body: |
+    Jede kundenspezifische SUP-Bestellung wird unter einem einheitlichen Projektcode verwaltet, der technische Spezifikationen, die freigegebene BOM, Artwork-Revisionen, Materiallosenummern, Verpackungsreferenzen und Inspektionsaufzeichnungen verknüpft. Produktions- und Inspektionsaufzeichnungen werden je anwendbarem Projekt und Produktionscharge geführt, und jede Charge kann auf die freigegebene Produktspezifikation, BOM, Artwork und Verpackungsreferenzen zurückgeführt werden.
+
+    Dies unterstützt die effiziente Prüfung von Produktkonfiguration, Inspektionsstatus und betroffenem Umfang, falls ein Qualitätsbedenken festgestellt wird — vom fertigen Produkt zurück zu den Ursprungsaufzeichnungen über die Board- oder Kartonidentifikation.
+
+traceability_chain:
+  tagline: Rückverfolgbarkeitskette
+  title: Vom Projektcode zur Versandfreigabe
+  subtitle: Eine Kette kontrollierter Referenzen von der Auftragsbestätigung bis zum autorisierten Versand.
+  steps:
+    - step: '01'
+      title: Projektcode
+      desc: Einheitliche Projektreferenz, die jedes kontrollierte Dokument mit der Bestellung verknüpft.
+    - step: '02'
+      title: Dokumentrevisionen
+      desc: Aktuelle Revisionsstände von Spezifikation, BOM, Artwork und Verpackung —nur freigegebene Versionen sind für die Produktion gültig.
+    - step: '03'
+      title: Charge & Materialien
+      desc: Material- und Komponentenlose werden gegen die Produktionscharge aufgezeichnet.
+    - step: '04'
+      title: Inspektionsaufzeichnungen
+      desc: IQC-, In-Prozess-, Luftdichtigkeits-, Final- und Verpackungsinspektionsergebnisse je Charge.
+    - step: '05'
+      title: Verpackung & Freigabe
+      desc: Verpackungscharge, NCR-Abschlussstatus und autorisierte Versandfreigabe-Übersicht.
+
+traceability_sample:
+  tagline: Anonymisiertes Beispiel
+  title: Rückverfolgbarkeits-Kontrollaufzeichnung (Demo)
+  body: |
+    Die Demonstrationswerte dienen nur zur Veranschaulichung — Kundenname, Bestellnummern, kundenspezifisches Artwork, Lieferantendaten und kommerzielle Informationen wurden zum Schutz der Vertraulichkeit entfernt.
+
+    - **Hersteller:** QINGDAO VATRAD GROUP, LTD.
+    - **Projektcode:** DEMO-SUP-2026-01
+    - **SKU-Referenz:** DEMO-TR-126
+    - **Produktionscharge:** BATCH-AUG-01
+    - **Spezifikation / BOM / Artwork-Revision:** Rev B / Rev C / Rev B
+    - **Luftdichtigkeitsaufzeichnung:** PASS —je Charge aufbewahrt
+    - **Inspektionsstatus:** PASS
+    - **Versandstatus:** FREIGEGEBEN
+
+quarantine_intro:
+  tagline: Nichtkonformitätskontrolle
+  title: Kontrolle nichtkonformer Produkte & Quarantäne
+  body: |
+    Produkte oder Komponenten, die die definierten Annahmekriterien nicht erfüllen, werden klar gekennzeichnet und kontrolliert gesperrt oder unter Quarantäne gestellt. Sie dürfen erst nach Abschluss einer autorisierten Disposition in die nächste Produktionsstufe, die Verpackung oder den Versand gelangen. Nacharbeit erfolgt nach freigegebenen Anweisungen und wird mit dem zugehörigen Nichtkonformitätsnachweis verknüpft; nachgearbeitete Einheiten werden vor der Qualitätsfreigabe gegen die geltenden Projektanforderungen erneut geprüft.
+
+quarantine_flow:
+  tagline: 7-stufiger Kontrollablauf
+  title: Was passiert, wenn eine Nichtkonformität gefunden wird
+  subtitle: Identifizieren, sperren, korrigieren, verifizieren —dann freigeben oder zurückweisen. Nichtkonforme Produkte fließen niemals ungeprüft in die Produktion oder Verpackung zurück.
+  steps:
+    - step: '01'
+      title: Identifizieren
+      desc: Die Nichtkonformität wird gegen das betroffene Produkt, die SKU, die Charge oder die Prozessstufe erfasst.
+    - step: '02'
+      title: Kennzeichnen
+      desc: Betroffene Einheiten werden klar mit kontrollierten Statuseitiketten gekennzeichnet —HOLD, quarantäniert oder zurückgewiesen.
+    - step: '03'
+      title: Quarantäne
+      desc: Einheiten werden in einem physisch kontrollierten Quarantänebereich oder systemgesteuert separiert, um unbeabsichtigte Verwendung oder Versand zu verhindern.
+    - step: '04'
+      title: Umfang bewerten
+      desc: Der betroffene Umfang wird nach Charge, Prozessstufe, Materiallos und Dokumentrevision geprüft.
+    - step: '05'
+      title: Nacharbeiten / Ersetzen
+      desc: Eine Korrektur ist nur über eine freigegebene Disposition und eine kontrollierte Arbeitsanweisung zulässig.
+    - step: '06'
+      title: Erneut prüfen
+      desc: Korrigierte Einheiten werden vor der Freigabe gegen die geltenden Annahmekriterien erneut geprüft.
+    - step: '07'
+      title: Freigeben oder zurückweisen
+      desc: Nur autorisiertes, konformes Produkt gelangt zur Verpackung oder Versandfreigabe.
+
+quarantine_evidence:
+  tagline: Auf der Fabrikfläche
+  title: Kontrollierte Prüfung & Quarantäne in der Praxis
+  subtitle: Fotos aus unserer Werkstatt in Qingdao zeigen, wie Statuskontrolle und Inspektionsaufzeichnungen vor Ort angewendet werden.
+  features:
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Aufgeblasene aufblasbare SUP-Boards im Luftdichtigkeitstestbereich der Fabrik, überwacht durch ein digitales Druckmessgerät
+      title: Luftdichtigkeitstestbereich
+      desc: 'Aufgeblasene Boards werden im QC-Testbereich unter Industriebeleuchtung gehalten; digitale Druckmessgeräte überwachen den freigegebenen Luftdruckhalt-Test an Ventilbasis, Railnähten, Bug und Heck sowie hochbeanspruchten Stellen. Aufzeichnungen werden je Charge geführt und mit der Endprüfung verknüpft.'
+    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Qualitätskontroll-Prüfblätter und kontrollierte HOLD-Statusetiketten an der Inspektionsstation der Fabrik
+      title: Sperr- & Quarantänestation
+      desc: 'Inspektionsstation mit QC-Prüfblättern und Statuskennzeichnung. Jede Einheit, die die Annahmekriterien nicht erfüllt, wird etikettiert, protokolliert und zur Quarantäne verbracht — sie kann erst nach autorisierter Disposition und verbindlicher erneuter Inspektion zur Verpackung.'
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: QC-Techniker führt kontrollierte Luftdichtigkeitsnacharbeit an einem aufblasbaren SUP an der Nacharbeitsstation der Fabrik durch
+      title: Kontrollierte Nacharbeitsstation
+      desc: 'Luftdichtigkeitsnacharbeit wird an einer eigenen Station nach einer freigegebenen Methodenkarte durchgeführt: Der Fehler wird markiert, das Board bleibt auf HOLD und kehrt nach der erforderlichen Aushärtezeit für die erneute Prüfung gegen die ursprünglichen Annahmekriterien in den Testbereich zurück.'
+    - image: https://assets.supsfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+      alt: Werkstattdemonstration der kontrollierten Quarantäneseparierung in der Qingdao-Fabrik
+      title: Demonstration des Quarantänebereichs
+      desc: 'Demonstrationsfoto aus der Werkstatt, das die Funktionsweise der kontrollierten Quarantäneseparierung vor Ort zeigt: separierte Einheiten bleiben bis zum Abschluss einer autorisierten Disposition unter Statuskontrolle.'
+
+rework_intro:
+  tagline: Nacharbeits-Governance
+  title: Kontrollierte Luftdichtigkeits-Nichtkonformität & Nacharbeits-Governance
+  body: |
+    Bei QINGDAO VATRAD GROUP.,LTD. ist Nacharbeit strikt als Wiederherstellung einer nichtkonformen Einheit zur vollständigen Konformität mit ihrer ursprünglichen technischen Spezifikation definiert — nicht als schnelle Flick-Lösung. Jedes Board mit einer Luftdichtigkeits-Nichtkonformität wird kontrolliert gesperrt und vor jeder weiteren Verarbeitung mit einem Nichtkonformitätsbericht (NCR) verknüpft; die Leckquelle wird mit der freigegebenen Diagnosemethode lokalisiert und aufgezeichnet.
+
+    Nacharbeit darf nur fortgesetzt werden, wenn der Fehler innerhalb des freigegebenen Nacharbeitsumfangs liegt und eine autorisierte Methode verfügbar ist. Die Nacharbeitsanweisung identifiziert Produkt, Charge, Fehlerstelle, freigegebenes Material, Methode, erforderliche Bedingungen und den erneuten Prüfumfang. Nach der erforderlichen Aushärte- oder Stabilisierungsphase wird das Board gegen dieselben geltenden Annahmekriterien wie ein konformes Board erneut geprüft — Nacharbeit senkt den Annahmestandard nie. Scheitert die erneute Prüfung, ist eine erneute Engineering- und Qualitätsdisposition erforderlich; wiederholte Nacharbeit ist ohne dokumentierte Freigabe nicht zulässig.
+
+rework_decision:
+  tagline: Interaktiver Ablauf
+  title: Nacharbeits-Entscheidungsablauf — jeden Knoten anklicken
+  subtitle: Verfolgen Sie, wie eine Luftdichtigkeits-Nichtkonformität von der Erkennung bis zur Freigabe oder Verschrottung behandelt wird. Klicken Sie einen Knoten an, um die Kontrollanforderungen in diesem Schritt zu erweitern.
+  nodes:
+    - id: detect
+      type: start
+      label: Leck erkannt
+      detail: 'Während der Inspektion wird eine Luftdichtigkeits-Nichtkonformität festgestellt — Druckhaltefehler, sichtbare Leckage oder ein verwandter Lufft-Systemfehler.'
+    - id: hold
+      type: step
+      label: Linie stoppen · HOLD-Etikett · NCR
+      detail: 'Die Verarbeitung wird gestoppt. Board-ID, Produktcode, Charge, Arbeitsstation, Datum und Inspektor werden aufgezeichnet; ein HOLD- / Quarantäneetikett wird angebracht und ein NCR gegen die geltende Spezifikationsrevision eröffnet.'
+    - id: locate
+      type: step
+      label: Leckquelle lokalisieren
+      detail: 'Das Board wird auf den projektfreigegebenen Diagnosedruck aufgeblasen und die Quelle mit einer freigegebenen Methode lokalisiert — Druckhaltung, kalibrierter Blasentest, akustisches oder Leckerkennungsgerät.'
+    - id: classify
+      type: step
+      label: Fehler klassifizieren (A–G)
+      detail: 'Der Fehler wird gegen die Freigabematrix klassifiziert: A Ventilschnittstelle, B Ventilbasisnaht, C Oberflächen-Nadelstich, D lokale Railnaht, E großer Railschaden, F wiederkehrende Leckage, G struktureller Schaden.'
+    - id: authorize
+      type: decision
+      label: Nacharbeit autorisiert?
+      yes: rework
+      no: escalate
+      detail: 'QC bestätigt die Fehlerkategorie, und Engineering prüft, ob das Board auf seine ursprüngliche Spezifikation zurückgeführt werden kann. Die Autorisierung dokumentiert Methodenkarte, Materialien, Bedingungen und erneuten Prüfumfang — oder führt zu Ersatz, Rückweisung, Verschrottung oder Kundenkonzession.'
+    - id: rework
+      type: step
+      label: Kontrollierte Nacharbeit
+      detail: 'Wird ausschließlich innerhalb der freigegebenen Fehlergrenze unter Verwendung der freigegebenen Methodenkarte, Materialcharge und Werkzeuge ausgeführt — ohne jemals Maße, Konstruktion, Grafiken, Zubehör oder Verpackungsanforderungen zu verändern.'
+    - id: cure
+      type: step
+      label: Aushärtung & Stabilisierung
+      detail: 'Das Board bleibt während der durch die freigegebene Material- und Prozessanweisung definierten Aushärte- und Stabilisierungsphase auf HOLD und erhält anschließend eine visuelle und verarbeitungsbezogene Vorprüfung.'
+    - id: reinspect
+      type: decision
+      label: Erneute Prüfung bestanden?
+      yes: release
+      no: escalate
+      detail: 'Das Board wird auf den projektfreigegebenen erneuten Prüfdruck aufgeblasen, und der ursprüngliche Fehler sowie alle potenziell betroffenen Merkmale werden erneut verifiziert — Leckstelle, Ventil, Rails, Nähte, hochbeanspruchte Bereiche, Zubehör und Erscheinungsbild. Nacharbeit senkt den Annahmestandard nie.'
+    - id: release
+      type: release
+      label: Qualitätsfreigabe
+      detail: 'Qualität prüft den abgeschlossenen NCR, die Nacharbeitsaufzeichnung und das Ergebnis der erneuten Prüfung und autorisiert die Freigabe. Kein nachgearbeitetes Board wird ohne autorisierte Qualitätsfreigabe verpackt oder versendet.'
+    - id: escalate
+      type: escalate
+      label: Eskalation — ersetzen / verschrotten / Konzession
+      detail: 'Keine wiederholte Nacharbeit ohne dokumentierte Freigabe. Das Board wird ersetzt, zurückgewiesen, verschrottet oder dem Kunden eine schriftliche Konzession angeboten, wenn die ursprüngliche Spezifikation nicht wiederhergestellt werden kann.'
+
+defect_matrix:
+  tagline: Fehlerklassifizierung
+  title: Luftdichtigkeits-Fehlerklassifizierung & Freigabematrix
+  subtitle: Nicht jedes Leck wird nachgearbeitet — jeder Fehler wird klassifiziert und seine Disposition auf der richtigen Ebene freigegeben, vom QC-Inspektor bis zum Werksleiter.
+  headers:
+    category: Fehlerkategorie
+    area: Typischer Bereich
+    eligibility: Nacharbeits-Eignung
+    approval: Erforderliche Freigabe
+  rows:
+    - category: 'Klasse A — Ventilschnittstelle'
+      area: 'Ventilkern, Kappendichtung, Dichtung, Pumpenschnittstelle'
+      eligibility: 'Standardnacharbeit autorisiert'
+      approval: 'QC-Inspektor'
+    - category: 'Klasse B — Ventilbasisnaht'
+      area: 'Mikroleckage entlang des Ventilrands'
+      eligibility: 'Bewertete Nacharbeit nach der freigegebenen Methodenkarte'
+      approval: 'QC + Engineering'
+    - category: 'Klasse C — Oberflächen-Nadelstich'
+      area: 'Lokaler Mikro-Nadelstich auf einer nicht beanspruchten Oberfläche'
+      eligibility: 'Nur autorisiert, wenn konform mit den Kundenspezifikationen'
+      approval: 'QC + Engineering'
+    - category: 'Klasse D — Lokale Railnaht'
+      area: 'Lokale Überlappungsleckage am Railband'
+      eligibility: 'Hohes Risiko; strenge Engineering-Disposition erforderlich'
+      approval: 'Engineering + QA-Leiter'
+    - category: 'Klasse E — Großer Railschaden'
+      area: 'Durchgehender Nahtausfall in hochbeanspruchten Zonen'
+      eligibility: 'Standardnacharbeit nicht autorisiert — Ersatz oder Root-Cause-Prüfung'
+      approval: 'QA-Leiter + Kundenkonzession'
+    - category: 'Klasse F — Wiederkehrende Leckage'
+      area: 'Nicht lokalisierbares Leck oder Fehler im Nachtest'
+      eligibility: 'Keine wiederholte Nacharbeit; Ersatz, Verschrottung oder Engineering-Root-Cause-Analyse'
+      approval: 'Leitender QA / Engineering'
+    - category: 'Klasse G — Struktureller Schaden'
+      area: 'Materialschaden, Delamination, Boardverformung'
+      eligibility: 'Nacharbeitsfreigabe nicht autorisiert — Ersatz, Verschrottung oder schriftliche Kundenkonzession'
+      approval: 'Qualitätsmanager + Kundenfreigabe'
+
+rework_flow:
+  tagline: 7-stufiger geschlossener Kreislauf
+  title: Kontrollierter Nacharbeits-Workflow — von der Erkennung bis zur Freigabe oder Verschrottung
+  subtitle: 'Jede Luftdichtigkeitsnacharbeit folgt demselben kontrollierten Kreislauf: erkennen, in Quarantäne nehmen, diagnostizieren, autorisieren, nacharbeiten, erneut prüfen, freigeben.'
+  steps:
+    - step: '01'
+      title: Erkennung, Linienstopp & Quarantäne
+      desc: 'Die Verarbeitung des betroffenen Boards stoppt sofort. Board-ID, Produktcode, Charge, Arbeitsstation, Datum und Inspektor werden aufgezeichnet, ein HOLD- / Quarantäneetikett wird angebracht und ein NCR gegen die geltende Spezifikationsrevision eröffnet.'
+    - step: '02'
+      title: Systematische Leckdiagnose
+      desc: 'Das Board wird auf den projektfreigegebenen Diagnosedruck aufgeblasen und die Leckquelle mit einer freigegebenen Methode lokalisiert — Druckhaltung, kalibrierter Blasentest, akustisches oder Leckerkennungsgerät. Die vermutete Stelle wird ohne Beschädigung des Boards markiert.'
+    - step: '03'
+      title: Engineering-Disposition & Autorisierung
+      desc: 'QC bestätigt die Fehlerkategorie, und Engineering prüft, ob das Board auf seine ursprüngliche Spezifikation zurückgeführt werden kann. Eine den NCR referenzierende Nacharbeitsautorisierung dokumentiert freigegebene Methode, Materialien, Bedingungen und erneuten Prüfumfang — oder weist Ersatz, Rückweisung, Verschrottung oder Kundenkonzession zu.'
+    - step: '04'
+      title: Kontrollierte Nacharbeitsausführung
+      desc: 'Die Nacharbeit wird ausschließlich innerhalb der freigegebenen Fehlergrenze mit der freigegebenen Methodenkarte, Materialcharge und Werkzeugen ausgeführt. Boardmaße, Konstruktion, Grafiken, Zubehörkonfiguration und Verpackungsanforderungen werden niemals verändert.'
+    - step: '05'
+      title: Aushärtung, Stabilisierung & Vorprüfung
+      desc: 'Das nachgearbeitete Board bleibt während der durch die freigegebene Material- und Prozessanweisung definierten Aushärte- und Stabilisierungsphase im HOLD-Status und erhält vor der erneuten Prüfung eine visuelle und verarbeitungsbezogene Vorprüfung.'
+    - step: '06'
+      title: Erneute Prüfung & Nachweistest
+      desc: 'Das Board wird auf den projektfreigegebenen erneuten Prüfdruck aufgeblasen, und der ursprüngliche Fehler sowie alle potenziell betroffenen Merkmale werden erneut verifiziert: Leckstelle und umgebender Bereich, Ventil, Rails, Nähte, hochbeanspruchte Bereiche, Zubehör und Erscheinungsbild. Nacharbeit senkt den Annahmestandard nie.'
+    - step: '07'
+      title: QA-Freigabe oder endgültige Disposition
+      desc: 'Qualität prüft den abgeschlossenen NCR, die Nacharbeitsaufzeichnung und das Ergebnis der erneuten Prüfung und autorisiert dann die Freigabe — oder eskaliert zu Ersatz, Rückweisung, Verschrottung oder Kundenkonzession. Kein nachgearbeitetes Board wird ohne autorisierte Qualitätsfreigabe verpackt oder versendet.'
+
+quality_safeguards:
+  tagline: Qualitätssicherungen
+  title: Anti-Fehler-Regeln, die Ihre Marke schützen
+  subtitle: Harte Kontrollen, die unkontrollierte Reparaturkreisläufe verhindern —eine dokumentierte Nacharbeit pro Fehler, Chargen-Alarmschwellen, kalibrierte Messtechnik und kontrollierte Testbedingungen.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Eine Nacharbeit pro Fehler
+      desc: 'Eine einzelne Stelle darf unter einer autorisierten Anweisung einmal nachgearbeitet werden. Schlägt die erneute Prüfung weiterhin fehl, wird das Board auf Ersatz, Rückweisung, Verschrottung oder Kundenkonzession eskaliert — wiederholte Nacharbeit ohne dokumentierte Freigabe ist nicht zulässig.'
+    - icon: 2
+      icon_bg: green
+      title: Chargen-Alarm & Linienstopp
+      desc: 'Überschreitet die Nichtkonformität einer Produktionscharge die vom Engineering festgelegte Schwelle, wird die Linie gestoppt und das Engineering untersucht die Ursache — Materiallos, Prozessbedingungen und Aufzeichnungen — bevor die Produktion wieder aufgenommen wird.'
+    - icon: 3
+      icon_bg: purple
+      title: Kalibrierte Messtechnik
+      desc: 'Druckmessgeräte, digitale Manometer und Zeitmesser für Luftdichtigkeitsprüfungen werden von Drittlabors innerhalb ihres Gültigkeitszeitraums kontrolliert und kalibriert; der Kalibrierstatus ist im Inspektionsbereich sichtbar.'
+    - icon: 4
+      icon_bg: orange
+      title: Kontrollierte Testbedingungen
+      desc: 'Luftdichtigkeitstest- und Aushärtebereiche werden in einer kontrollierten Umgebung gehalten, damit Ergebnisse nicht durch Temperaturschwankungen zwischen Tag und Nacht beeinflusst werden.'
+
+rework_boundaries:
+  tagline: Umfang & Grenzen
+  title: Was dieses System nicht abdeckt
+  body: |
+    Das Nacharbeitskontrollsystem gilt für fertiggestellte oder in Arbeit befindliche aufblasbare SUP-Boards, bei denen vor der Versandfreigabe Luftleckage, Druckhaltefehler oder verwandte Luftsystemfehler festgestellt werden. Es autorisiert keine Änderungen an freigegebener Konstruktion, Materialien, Grafiken, Produktkonfiguration oder Kundenanforderungen und deckt Folgendes nicht ab:
+
+    - Bereits versendete oder in Kundensystemen befindliche Produkte.
+    - Strukturelle Schäden oder Boardverformungen, die nicht vom Engineering bewertet wurden.
+    - Weitverbreitete Rail- oder Nahtfehler, Kernmaterialschäden oder Fehler, die die Sicherheit beeinträchtigen können.
+    - Projekte, bei denen Nacharbeit nicht zulässig ist: kundenfreigegebene Muster, Zertifizierungs- oder Testeinheiten.
+    - Projekte mit proprietären Kundenprozessen, Sondermaterialien oder besonderen Reparaturanforderungen.
+    - Wiederkehrende Leckage, die nicht lokalisiert werden kann, oder Boards, die nach der Nacharbeit erneut ausfallen.
+
+    Jede Abweichung von den Kundenspezifikationen erfordert eine dokumentierte Engineering-Prüfung und, wo anwendbar, die schriftliche Kundenfreigabe. Boards, die nicht auf ihre ursprüngliche Spezifikation zurückgeführt werden können, werden nur unter einer ausdrücklichen Kundenkonzession freigegeben — niemals allein durch die Produktion.
+
+method_cards:
+  tagline: Methodenkarten-System
+  title: Index der kontrollierten Nacharbeitsmethodenkarten
+  subtitle: 'Die allgemeine Anweisung steuert den Prozess; Methodenkarten steuern die Ausführung. Die Nacharbeitsanweisung (WI-QC-AT-001) referenziert die Methodenkarten MC-RW-01 bis MC-RW-06 sowie MC-RW-00 für die verbindliche Verschrottung und Rückweisung.'
+  headers:
+    code: Methodenkarte
+    defect: Fehlerklasse
+    scope: Anwendungsumfang
+    controls: Wichtigste Engineering-Kontrollen
+    approval: Zeichnungsbefugnis
+  rows:
+    - code: MC-RW-01
+      defect: Klasse A (Ventilschnittstelle)
+      scope: 'Ventilkernservice, Dichtungsreinigung und Wiederzusammenbau'
+      controls: 'Kalibrierter Drehmomentschlüssel, sauberer Dichtungssitz, keine Beschädigung des Ventilgewindes'
+      approval: 'QC-Inspektor'
+    - code: MC-RW-02
+      defect: Klasse B (Ventilumfang)
+      scope: 'Abdichtung des Ventilbasisflanschs und kontrolliertes Klemmen'
+      controls: 'Kontrollierte Oberflächenvorbereitung, freigegebenes Klebematerial, kreisförmige Druckvorrichtung'
+      approval: 'QC + Engineering'
+    - code: MC-RW-03
+      defect: Klasse C (Oberflächenmikroleck)
+      scope: 'Abdichtung von nicht strukturellen Nadelstichen'
+      controls: 'Freigegebener Zweikomponenten-Klebstoff, kein Überlaufen in Grafiken oder EVA'
+      approval: 'QC + Engineering'
+    - code: MC-RW-04
+      defect: Klasse D (Lokale Railnaht)
+      scope: 'Neue Verklebung lokaler Rail-Überlappungsnähte'
+      controls: 'Temperaturkontrollierte Hitzeaktivierung, Druckrolle, Anti-Aufroll-Vorrichtung'
+      approval: 'Engineering + QA-Leiter'
+    - code: MC-RW-05
+      defect: Klasse B/C (Zubehörrand)
+      scope: 'Finbox-Flicken und Abdichtung der Zubehör-Montagebasis'
+      controls: 'Oberflächen-Haftvermittler, profilierter Klemmblock, definierte Haltezeit'
+      approval: 'QC + Engineering'
+    - code: MC-RW-06
+      defect: Klasse D (Bug-/Hecknaht)
+      scope: 'Intervention an hochbeanspruchten Krümmungsnähten'
+      controls: 'Freigegebenes Hochscher-Klebematerial, verlängerte Aushärtezeit vor dem Nachtest'
+      approval: 'Chefingenieur'
+    - code: MC-RW-00
+      defect: Klasse E/F/G (Kritisch / Bruch)
+      scope: 'Verbindliche Verschrottung und physische Zerstörung'
+      controls: 'Physisches Durchtrennen zur Verhinderung von Vermischung, Verschrottungsprotokoll, abteilungsübergreifende Root-Cause-Prüfung'
+      approval: 'Werksleiter'
+
+inspector_friendly:
+  tagline: Drittprüfung
+  title: Prüferfreundliches Protokoll
+  body: |
+    Wir stellen einen eigenen Prüfbereich mit kalibrierten Druckmessgeräten, standardisierten Leuchttischen für Naht- und Grafikprüfungen sowie vorbefüllten Inspektionskurzbriefen bereit, damit Drittorganisationen (SGS, BV, Intertek, QIMA) ihre Versandvorinspektion effizient durchführen können — das spart Ihnen Inspektions-Overhead.
+
+    Jeder Kurzbrief fasst die geltenden Dokumentrevisionen, die freigegebene Musterreferenz, die kritisch-qualitätsrelevanten Prüfungen, das vereinbarte Stichprobenniveau, Funktionstests sowie die Verpackungs- und Barcodeanforderungen für die PO zusammen. Spezifizierte Mengen, Qualität, Verpackung und grundlegende Sicherheitsaspekte werden gegen die freigegebenen Projektreferenzen verifiziert — kein hektisches Dokumentensuchen vor Ort.
+
+document_pack:
+  tagline: Qualitätsdokumentationspaket
+  title: Beispiel-Qualitätspaket & Protokollvorlagen herunterladen
+  subtitle: 'Standardisierte kontrollierte Vorlagen für OEM/ODM-Projekte — strukturiert als Dokumentationsregister 00–15 (Projektindex, freigegebene Spezifikation, BOM, Artwork- & Verpackungsreferenzen, QIP, Inspektionsaufzeichnungen, NCR, Änderungskontrolle, Drittkurzbrief, Freigabeübersicht).'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: Qualitätsdokumentationspaket (PDF)
+      desc: 'Vollständige kontrollierte Dokumentstruktur 00–15: Projektindex, Spezifikation, BOM, Artwork- und Verpackungsreferenzen, Qualitätsinspektionsplan (QIP), Inspektionsaufzeichnungen, NCR, Änderungskontrolle, Drittkurzbrief und Versandvorfreigabe-Übersicht.'
+      link: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link_label: PDF herunterladen
+    - icon: T
+      icon_bg: green
+      title: Drittprüfungs-Kurzbrief (PDF)
+      desc: 'Einseitiger Kurzbrief für SGS- / BV- / Intertek- / QIMA-Inspektoren: Bestellmenge, AQL-Stichprobenniveau, geltende Revisionen und kritisch-qualitätsrelevante Prüfungen einschließlich Luftdichtigkeits-Aufzeichnungsverifizierung, Druckhalte-Test, Kit-Vollständigkeit, Barcode-Scan und Karton-Falltest.'
+      link: 'https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link_label: PDF herunterladen
+    - icon: C
+      icon_bg: purple
+      title: Änderungskontrollprotokoll (PDF)
+      desc: 'Änderungskontrollprotokoll für Artwork-, kundenfreigegebene BOM- und Kartonkennzeichnungsrevisionen — mit Änderungsübersicht, Grund, Auswirkungsbewertung, Kundenfreigabestatus, wirksamer Charge und Entzug obsoleter Dokumente.'
+      link: 'https://assets.supsfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link_label: PDF herunterladen
+    - icon: R
+      icon_bg: orange
+      title: Versandvorfreigabe-Übersicht (PDF)
+      desc: 'Einseitige Freigabeunterschrift: Qualitätsgate-Verifizierung (IQC, IPQC, Luftdichtigkeit, Endprüfung, Verpackung), offener NCR-Status und die von Qualität und Betrieb unterzeichnete autorisierte Freigabeentscheidung.'
+      link: 'https://assets.supsfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link_label: PDF herunterladen
+    - icon: W
+      icon_bg: blue
+      title: Luftdichtigkeits-Nacharbeitsanweisung (PDF)
+      desc: 'Kontrollierte Arbeitsanweisung WI-QC-AT-001 Rev A: Umfang und Grenzen, Fehlerklassifizierung, NCR- und Nacharbeitsautorisierung, kontrollierte Ausführung, Aushärtung, erneute Prüfung und Freigabe für aufblasbare SUP-Boards.'
+      link: 'https://assets.supsfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link_label: PDF herunterladen
+    - icon: M
+      icon_bg: green
+      title: Methodenkarten-Index (PDF)
+      desc: 'Kontrolliertes Dokument SOP-QC-AT-IDX-001 Rev A: das nummerierte Methodenkarten-System MC-RW-01 bis MC-RW-06 sowie MC-RW-00 für Verschrottung und Rückweisung, verknüpft mit der Luftdichtigkeits-Nacharbeitsanweisung.'
+      link: 'https://assets.supsfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link_label: PDF herunterladen
+    - icon: V
+      icon_bg: orange
+      title: Änderungskontrollstandard für Nacharbeit (Seite)
+      desc: 'Formelle ISO-9001-Änderungskontrolle für Nacharbeitsparameter: ECR, Risikoklassifizierung, abteilungsübergreifende Freigabematrix, 9-stufiger geschlossener Kreislauf, quantifizierte technische Validierung und Poka-Yoke-Sicherungen — mit zweisprachiger SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/de/factory/quality-change-control'
+      link_label: Seite ansehen
+    - icon: N
+      icon_bg: blue
+      title: Kontrolle nichtkonformer Produkte (Seite)
+      desc: 'ISO 9001:2015 Abschnitt 8.7 Kontrolle nichtkonformer Ausgangsprodukte: NCR-Erfassung, Quarantäne, schweregradbasierte Dispositionsbefugnis, kontrollierte Nacharbeit unter SRI, unabhängige erneute Inspektion und bezeugte Zerstörung, gesichert unter SHA-256 — mit zweisprachiger SOP und Verschrottungszertifikat-Downloads.'
+      link: '/de/factory/non-conforming-control'
+      link_label: Seite ansehen'
+
+faqs:
+  tagline: FAQ
+  title: Häufig gestellte Fragen zur SUP-Qualitätskontrolle
+  items:
+    - q: 'Wie steuert QINGDAO VATRAD GROUP.,LTD. die Qualität aufblasbarer SUP-Boards?'
+      a: 'Die Qualität wird über Wareneingangsinspektion, Produktionsprozess-Kontrollpunkte, finale Produktverifizierung, Verpackungsinspektion und Produktionsrückverfolgbarkeit gesteuert — jeweils ausgeführt gegen projektfreigegebene Muster, Spezifikationen und Inspektionskriterien.'
+    - q: 'Welche Qualitätsprüfungen werden während der SUP-Produktion durchgeführt?'
+      a: 'Zu den Inspektionen gehören Materialverifizierung, Zuschnitt- und Druckprüfungen, Boardkonstruktionsinspektion, Ventilinstallationsverifizierung, Zubehörinspektion, Luftdichtigkeitstests, Erscheinungsbildinspektion und Verpackungsverifizierung.'
+    - q: 'Können OEM-Kunden SUP-Inspektionsaufzeichnungen anfordern?'
+      a: 'Ja. Inspektionsaufzeichnungen und Qualitätsdokumentation können gemäß Projektanforderungen und kundenseitigen Qualitätsvereinbarungen bereitgestellt werden, einschließlich Stichproben-Versandvorinspektionsberichten.'
+    - q: 'Wie gewährleistet die Fabrik eine gleichbleibende OEM-Produktionsqualität?'
+      a: 'Die Produktionskonsistenz wird über freigegebene Muster, technische Spezifikationen, Fertigungskontrollpunkte, Inspektionsverfahren und dokumentierte, mit jeder Bestellung verknüpfte Qualitätskontrollprozesse aufrechterhalten.'
+    - q: 'Kann ich eine Drittprüfung durch SGS, BV, Intertek oder QIMA arrangieren?'
+      a: 'Ja. Wir empfangen Dritt-Inspektoren mit einem eigenen Prüfbereich, kalibrierten Druckmessgeräten, vorbefüllten Inspektionskurzbriefen und zugänglichen Aufzeichnungen. Teilen Sie Ihre Spezifikation, Ihr freigegebenes Muster, Artwork, Verpackungsanforderungen und Fehlerkriterien mit — oder verwenden Sie unsere Drittprüfungs-Kurzbrief-Vorlage.'
+    - q: 'Wie werden Artwork-, BOM- oder Verpackungsänderungen während der Produktion behandelt?'
+      a: 'Änderungen werden in unserem Änderungskontrollprotokoll erfasst, einschließlich betroffener Dokumentrevision, Änderungsübersicht, Grund, Auswirkungsbewertung, Kundenfreigabestatus und wirksamer Charge. Veraltete Versionen werden entzogen, sodass Produktion und Inspektion stets die aktuellen freigegebenen Dokumente verwenden.'
+    - q: 'Unterstützt die Fabrik kundenspezifische aufblasbare SUP-Projekte?'
+      a: 'Ja. Kundenspezifische OEM/ODM-Projekte für aufblasbare SUPs werden basierend auf Kundenspezifikationen, Artwork-Anforderungen, Zubehörkonfigurationen und Verpackungsbedürfnissen unterstützt, mit projektspezifischen, vor der Produktion vereinbarten Inspektionskriterien.'
+    - q: 'Kann ein leckendes SUP-Board in der Fabrik nachgearbeitet werden?'
+      a: 'Ja — unter kontrollierten Bedingungen. Das Board wird auf HOLD gestellt und mit einem NCR verknüpft, das Leck wird mit einer freigegebenen Diagnosemethode lokalisiert, und die Nacharbeit erfolgt nur nach QC-/Engineering-Autorisierung und nur innerhalb der für die Nacharbeit freigegebenen Fehlerklassen. Das Board wird dann vor der Freigabe gegen dieselben Annahmekriterien wie ein konformes Board erneut geprüft.'
+    - q: 'Wie oft kann die Fabrik ein Board nacharbeiten?'
+      a: 'Eine einzelne Stelle darf unter einer autorisierten Anweisung einmal nachgearbeitet werden. Schlägt die erneute Prüfung weiterhin fehl, wird das Board auf Ersatz, Rückweisung, Verschrottung oder Kundenkonzession eskaliert — wiederholte Nacharbeit ohne dokumentierte Freigabe ist nicht zulässig.'
+
+cta:
+  title: Benötigen Sie ein vollständiges Projektqualitätspaket-Beispiel?
+  desc: 'Fordern Sie ein anonymisiertes Drittprüfungs-Supportpaket und einen Qualitätsinspektionsplan (QIP) für Ihr OEM/ODM-Projekt an — oder laden Sie die Beispielvorlagen herunter, um die Dokumentationsstruktur zu prüfen, die Sie für Ihre Bestellung erwarten können.'
+  actions:
+    - text: Qualitätsprüfung anfragen
+      variant: primary
+      href: /contact
+    - text: Beispiel-Qualitätspaket herunterladen (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: QC-Protokoll & PSI-Checkliste herunterladen
+      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

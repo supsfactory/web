@@ -1,0 +1,105 @@
+meta:
+  title: 'Fabrik-Audit-Checkliste — Was Sie vor der Wahl eines SUP-Herstellers prüfen sollten | SUPsfactory'
+  description: 'Fabrik-Audit-Checkliste für Käufer aufblasbarer SUPs: Qualitätssystem, Kapazität, Material-Rückverfolgbarkeit, Druckprüfung, soziale Konformität und Dokumentation.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'SUP factory audit checklist'
+    - 'inflatable board manufacturer audit'
+    - 'SUP factory verification'
+    - 'OEM factory inspection'
+    - 'SUP quality audit'
+    - 'SUP manufacturer due diligence'
+    - 'inflatable SUP production audit'
+
+hero:
+  tagline: 'Due Diligence'
+  title: 'Fabrik-Audit-Checkliste'
+  subtitle: 'Bevor Sie sich für einen SUP-Hersteller entscheiden, verifizieren Sie die Grundlagen. Diese Checkliste deckt die acht Bereiche ab, die ein professioneller Käufer auditieren sollte — vom Qualitätsmanagement und der Produktionskapazität bis zur Material-Rückverfolgbarkeit und zur sozialen Konformität. Jeder Punkt dieser Liste ist etwas, das wir mit Aufzeichnungen belegen können, nicht nur mit Behauptungen.'
+
+answer:
+  label: 'Schnellantwort'
+  text: 'Die acht wichtigsten Audit-Bereiche: (1) Qualitätsmanagementsystem — ISO-9001-Zertifizierung und tatsächliche gate-by-gate Inspektionsaufzeichnungen, nicht nur ein Zertifikat an der Wand. (2) Produktionskapazität — echte Ausstoßzahlen, nicht nur Nennkapazität. (3) Material-Rückverfolgbarkeit — Wareneingangs- und Testergebnisse auf Chargenebene. (4) Druck- und Strukturtests — dokumentierte Haltetest-Protokolle. (5) Schweiß- und Montagekontrollen — RF-Schweißparameter und Nahtinspektion. (6) Soziale Konformität — BSCI oder gleichwertiges Audit. (7) Dokumentation und Rückverfolgbarkeit — Chargenaufzeichnungen, Inspektionsprotokolle, Konformitätszertifikate. (8) Support nach Lieferung — Garantieverfahren, Ersatzteile, Kommunikations-Responsiveness.'
+  verified: 'September 2026'
+
+audit_areas:
+  tagline: Acht Audit-Bereiche
+  title: 'Was zu verifizieren ist — die acht Audit-Bereiche'
+  subtitle: 'Jeder Bereich umfasst die zu stellenden Fragen, die anzufordernden Aufzeichnungen und die zu beachtenden Warnsignale.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: Q
+      icon_bg: blue
+      title: '1. Qualitätsmanagementsystem'
+      desc: 'Anfordern: ISO-9001-Zertifikat (akkreditierte Stelle, aktuell), interner Auditplan, CAPA-Protokoll (Korrektur- und Vorbeugemaßnahmen), Gate-Inspektionsverfahren. Warnsignal: Nur Zertifikat, keine Inspektionsaufzeichnungen oder CAPA-Prozess auf Gate-Ebene.'
+    - icon: C
+      icon_bg: green
+      title: '2. Produktionskapazität'
+      desc: 'Anfordern: Monatliche Ausstoßzahlen nach Produkttyp, Produktionsplan mit aktueller Auslastung, Werkzeugkapazität (Anzahl Formen, CNC-Maschinen, RF-Schweißgeräte). Warnsignal: Nur Nennkapazität, keine Auslastungsdaten oder Produktionsplan.'
+    - icon: M
+      icon_bg: purple
+      title: '3. Material-Rückverfolgbarkeit'
+      desc: 'Anfordern: Wareneingangskontrollaufzeichnungen, Lieferantenzertifikate für PVC und Drop-Stitch, Chargen-Rückverfolgbarkeit vom Rohmaterial bis zum fertigen Board, REACH/RoHS-Stoffdeklarationen. Warnsignal: Keine Rückverfolgbarkeit auf Chargeneebene, Materialzertifikate nicht verfügbar.'
+    - icon: P
+      icon_bg: orange
+      title: '4. Druck- und Strukturprüfung'
+      desc: 'Anfordern: Drucktest-Protokoll (PSI, Dauer, Bestehen/Durchfallen-Kriterien), Testprotokolle für aktuelle Produktionschargen, Strukturtestaufzeichnungen (Fall-, Stoß-, Railspannungstests). Warnsignal: "Nur Sichtprüfung" oder kein dokumentiertes Testprotokoll mit quantitativen Bestehen/Durchfallen.'
+    - icon: W
+      icon_bg: blue
+      title: '5. Schweiß- und Montagekontrollen'
+      desc: 'Anfordern: RF-Schweißparameteraufzeichnungen (Temperatur, Druck, Verweilzeit), Nahtinspektionskriterien und Rückweisungsraten, Montagereihenfolge-Dokumentation. Warnsignal: Keine Schweißparameter-Protokolle, hohe Nahtrückweisungsrate ohne CAPA.'
+    - icon: S
+      icon_bg: green
+      title: '6. Soziale Konformität'
+      desc: 'Anfordern: BSCI- oder SMETA-Auditbericht (aktuell, vollständiger Umfang), Arbeitszeiten- und Lohnaufzeichnungen, Arbeitsschutzinspektionsberichte, Umweltkonformitätsdokumentation. Warnsignal: Kein Dritt-Sozialaudit oder Audit mit ungelösten schweren Nichtkonformitäten.'
+    - icon: D
+      icon_bg: purple
+      title: '7. Dokumentation und Rückverfolgbarkeit'
+      desc: 'Anfordern: Chargenproduktionsaufzeichnungen, Inspektionsprotokolle je Gate, Konformitätszertifikate, Packlisten mit Chargenreferenzen, Garantieanspruch-Trackingsystem. Warnsignal: Keine Dokumentation auf Chargenebene, Garantieansprüche nicht getrackt oder ausgewertet.'
+    - icon: A
+      icon_bg: orange
+      title: '8. Support nach Lieferung'
+      desc: 'Anfordern: Garantiebedingungen und Anspruchsverfahren, durchschnittliche Lösungzeit für Ansprüche, Verfügbarkeit von Ersatzteilen, Zusage für Kommunikations-Reaktionszeit, Prozess der Nachbetreuungs-Überprüfung. Warnsignal: Kein dokumentiertes Garantieverfahren, langsame oder inkonsistente Kommunikation nach Lieferung.'
+
+our_position:
+  heading: 'Unsere Position zu jedem Audit-Bereich'
+  body: |
+    Wir behaupten Konformität nicht nur — wir liefern die Aufzeichnungen. Hier ist unsere Position zu jedem der acht Audit-Bereiche:
+
+    - **Qualitätsmanagement**: ISO 9001:2015 zertifiziert, jährlich von einer akkreditierten Drittstelle auditiert. 7-stufiges Inspektionsgatesystem mit dokumentierten Bestehen/Durchfallen-Kriterien an jedem Gate. CAPA-Protokoll gepflegt und vierteljährlich überprüft.
+    - **Produktionskapazität**: Über 120,000 Boards Jahreskapazität, ca. 10,000 Monatsausstoß. Produktionsplan zur Einsicht während des Fabrikbesuchs verfügbar. 4 automatisierte Produktionslinien, CNC-Zuschnitt, RF-Schweißung und ein Druckprüflabor.
+    - **Material-Rückverfolgbarkeit**: Rückverfolgbarkeit auf Chargenebene vom Wareneingang bis zum fertigen Board. Lieferantenzertifikate für PVC und Drop-Stitch in den Akten. REACH- und RoHS-Stoffdeklarationen je Charge verfügbar.
+    - **Druckprüfung**: 18.0 PSI Haltetest mit Auto-Ablehnung über 0.50 PSI Abfall über 24 Stunden. Testprotokolle für jede Produktionscharge verfügbar. Struktur- und Stoßprüfung nach Konstruktionstyp.
+    - **Schweißkontrollen**: RF-Schweißparameter je Produktionslauf protokolliert. Nahtinspektion an Gate 3 mit dokumentierten Rückweisungsraten. CAPA wird bei Überschreiten der Rückweisungsrate eingeleitet.
+    - **Soziale Konformität**: BSCI-auditiert. Arbeitszeiten-, Lohn- und Sicherheitsaufzeichnungen zur Einsicht während des Fabrikbesuchs verfügbar.
+    - **Dokumentation**: Chargenproduktionsaufzeichnungen, Inspektionsprotokolle je Gate, Konformitätszertifikate und Packlisten mit Chargenreferenzen, die mit jeder Bestellung versendet werden. Garantieanspruch-Trackingsystem gepflegt.
+    - **Support nach Lieferung**: Garantiebedingungen je Vertrag dokumentiert. Durchschnittliche Anspruchslösung unter 14 Arbeitstagen. Ersatzteile ab Lager verfügbar. Nachbetreuungs-Überprüfung für jede Erstbestellung angeboten.
+
+evidence_review:
+  tagline: 'Nachweise & Verifizierung'
+  title: 'SPEZIFIKATIONEN VERIFIZIERT'
+  body: 'Alle Fertigungs- und Qualitätsaussagen auf dieser Seite werden von unserem Manufacturing Engineering Team in der Fabrik Laixi, Qingdao, verifiziert. Zertifikate, QC-Inspektionsaufzeichnungen, Druck- und Strukturtestberichte sowie Chargen-Rückverfolgbarkeitsprotokolle sind auf Anfrage erhältlich. Spezifikationen zuletzt verifiziert im September 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Fabrik-Audit — Häufig gestellte Fragen'
+  items:
+    - q: 'Kann ich die Fabrik für ein Vor-Ort-Audit besuchen?'
+      a: 'Ja. Wir begrüßen Fabrikbesuche und können ein strukturiertes Audit arrangieren, das alle acht Bereiche abdeckt. Ein typischer Besuch umfasst einen Rundgang über die Produktionsfläche, QC-Gate-Beobachtung, Materiallager-Inspektion, Dokumentenprüfung und ein Q&A mit dem Qualitätsmanager. Planen Sie einen vollen Tag ein. Kontaktieren Sie uns zur Terminplanung.'
+    - q: 'Stellen Sie Audit-Dokumentation vor einem Besuch bereit?'
+      a: 'Ja. Wir können ISO-9001-Zertifikat, BSCI-Bericht, Produktionskapazitätszusammenfassung, Drucktestprotokoll und Musterinspektionsaufzeichnungen vor Ihrem Besuch teilen — damit Sie gezielte Fragen vorbereiten können. Vollständige Chargenaufzeichnungen sind während des Besuchs vor Ort verfügbar.'
+    - q: 'Welche Drittinspektionen verwenden Sie?'
+      a: 'Wir arbeiten mit SGS, Intertek und TUV für Drittinspektionen und Zertifizierungen zusammen. Eine Dritt-Versandvorinspektion ist auf Anfrage für jede Bestellung verfügbar. Inspektionsumfang und Kosten werden während der Angebotsphase bestätigt.'
+    - q: 'Woher weiß ich, dass Ihr Qualitätssystem tatsächlich durchgesetzt wird und nicht nur dokumentiert ist?'
+      a: 'Jedes Board durchläuft 7 Inspektionsgates mit quantitativen Bestehen/Durchfallen-Kriterien — nicht nur Sichtchecklisten. Drucktestdaten, Schweißparameter und Rückweisungsraten werden je Charge protokolliert und stehen Ihnen zur Prüfung zur Verfügung. CAPA wird automatisch bei außerhalb der Spezifikation liegenden Ergebnissen ausgelöst. Wir ermutigen Sie, den Live-Prozess während eines Fabrikbesuchs zu auditieren.'
+
+cta:
+  title: 'Ein Fabrik-Audit planen'
+  subtitle: 'Audit-Dokumentation anfordern oder einen Vor-Ort-Besuch planen. Wir liefern die Aufzeichnungen — Sie verifizieren den Prozess.'
+  actions:
+    - variant: primary
+      text: Audit-Dokumentation anfordern
+      href: /contact#project-brief
+    - text: Zertifizierungen und Qualitätssystem verifizieren
+      href: /proof-center
+    - text: OEM-Onboarding-Prozess
+      href: /oem-onboarding-guide

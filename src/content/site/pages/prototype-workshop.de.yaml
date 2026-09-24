@@ -1,0 +1,102 @@
+meta:
+  title: 'SUP-Prototypenwerkstatt — Bau von Muster-Boards'
+  description: 'Vom CAD zum getesteten Muster-Board in 7–12 Tagen: Unsere Prototypenwerkstatt baut, testet und validiert individuelle SUP-Muster. Starten Sie heute Ihr Prototypenprojekt.'
+  dateModified: '2026-08'
+back_text: 'Zurück zum F&E-Zentrum'
+home_label: 'Startseite'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Wir verwandeln ein CAD-Modell in ein fahr- und testfähiges Muster-Board in 7–12 Tagen: aufblasbares Prototyping, Testfahrten im Wellengang, Iterationen an Rail und Nose, danach die Entscheidung für das Produktionswerkzeug. Kompletter individueller Formenbau dauert 15–20 Tage zusätzlich zur Standardlieferzeit der Serienproduktion von 25–35 Tagen.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Labor 05'
+  title: 'Prototypenwerkstatt'
+  subtitle: 'Vom CAD-Modell zum getesteten Muster-Board — gebaut, ausgestattet und bewährt'
+  image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'SUP-Board-Fertigung in der Prototypenwerkstatt von Vatrad'
+
+intro: 'Ein CAD-Modell — egal wie detailliert — kann nicht zeigen, wie sich ein Board tatsächlich anfühlt, bevor es aufgepumpt, betreten und gepaddelt wird. Deshalb ist unsere Prototypenwerkstatt darauf ausgelegt, technische Daten so schnell und präzise wie möglich in ein physisches, fahrbares Board zu übersetzen. Jedes neue Modell von {SITE.name} — und jeder bedeutende individuelle Bau — durchläuft diese Werkstatt, bevor das Produktionswerkzeug freigegeben wird.'
+
+content_html: |
+  <h2>Wo Design zur Realität wird</h2>
+  <p>Die Werkstatt ist für die parallele Fertigung von Bahnen, Drop-stitch-Kernen und Rails ausgerüstet. Dieser parallele Arbeitsablauf verkürzt die Prototypen-Lieferzeit auf 7–12 Tage ab technischer Freigabe. Wenn Ihre Anwendung eine spezialisierte Lösung verlangt, können wir vom Konzept zur Wasser-Validierung in unter drei Wochen gelangen.</p>
+
+  <h2>Kapazitäten der Werkstatt</h2>
+  <table>
+    <thead><tr><th>Arbeitsplatz</th><th>Ausrüstung</th><th>Zweck</th></tr></thead>
+    <tbody>
+      <tr><td>Bahnenzuschnitt</td><td>CNC-Stoffschneider, Verschachtelungssoftware, Bahnenschnittmuster-Bibliothek</td><td>Präzises Zuschneiden der Deck-, Rumpf- und Rail-Bahnen für jede Boardgröße</td></tr>
+      <tr><td>Kernmontage</td><td>Laminierungstisch für Drop-stitch-Kerne, Auftragswalzen für Kleber</td><td>Verbindung des Drop-stitch-Kerns zwischen den PVC-Häuten mit gleichmäßiger Klebeabdeckung</td></tr>
+      <tr><td>Schweißen</td><td>HF-Schweißpresse, Heißluft-Heftstation, Aufblastest-Vorrichtung</td><td>Nahtschweißen der Board-Montage in Originalgröße mit Ventilen, Griffen und Fin-Boxen</td></tr>
+      <tr><td>Ausstattung &amp; Finish</td><td>Deckpad-Auftragsvorrichtung, Grafik-Laminierungstisch, Beschlagwerkbank</td><td>Komplette Ausstattung: Deckpads, Logos, Griffhalterung, Leash-Plug, Fin-Boxen</td></tr>
+      <tr><td>Messgeräte-Bucht</td><td>Druckmessgeräte, Datenlogger, Durchbiegungsmessvorrichtung</td><td>Muster-Prüfung: Inflationszyklen, Deck-Durchbiegung, Messung der Luftdichtigkeit</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Der Prototypen-Weg — Schritt für Schritt</h2>
+  <ol>
+    <li><strong>Technische Übergabe</strong> — Das Designpaket (3D-Modell, FEA-Bericht, Stückliste, Bahnenverlegeplan) wird formell vom Werkstattleiter und dem Projektingenieur geprüft. Etwaige Fertigungsbedenken werden vor dem Zuschnitt markiert und gelöst.</li>
+    <li><strong>Bahnenproduktion</strong> — Das Board wird nach der technischen Spezifikation gebaut. Die Bahnen werden CNC-geschnitten, der Drop-stitch-Kern wird zwischen den PVC-Häuten laminiert, und Deck und Rumpf werden mit dem freigegebenen Materialpaket montiert.</li>
+    <li><strong>Schweißen</strong> — Die Bahnen werden per HF-Schweißen zur vollen Boardform verbunden. Die Kammer wird auf Prüfdruck aufgepumpt und 24 Stunden zur Erststabilisierung gehalten.</li>
+    <li><strong>Montage &amp; Finish</strong> — Deckpad, Grafik, Griff, Leash-Plug und Fin-Boxen werden montiert. Alle Beschläge werden eingebaut und gegen die Spezifikation verifiziert.</li>
+    <li><strong>Statische Tests</strong> — Bevor das Board ins Wasser kommt, durchläuft es: Inflationszyklen, Luftdichtigkeits-Haltetest, Messung der Deck-Durchbiegung bei Nenndruck und Drehmomentprüfung der Beschläge.</li>
+    <li><strong>Wasser-Testprogramm</strong> — 10 Stunden Wasser-Prüfung, unten im Detail.</li>
+    <li><strong>Prototypen-Review</strong> — Eine formelle Freigabesitzung mit den Teams von Engineering, Produktion und Qualität. Notwendige Designänderungen werden dokumentiert und in die Produktionsfreigabe aufgenommen.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">10-Stunden-Wasser-Testprogramm — Testplan</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Stabilitätsprüfung — Stehbalance in Ruhe, Seitenlasttoleranz</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Paddelprobe — Gleiten, Geradeauslauf und Wenden bei 3 Geschwindigkeiten; Paddelschlag-Komfort</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Fahrer-Lasttest — Stabilität und Flex bei Fahrern von 60 / 80 / 100 / 120 kg</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Wellengangtest — wiederholte Durchfahrten durch Bootskielwasser; Gischt an der Nose, Rail-Durchbiegung</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Ausdauerlauf — kontinuierliches Paddeln mit regelmäßigen Druckkontrollen; Luftdichtigkeits-Protokollierung</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Abschlussprüfung — Prüfung von Nähten, Beschlägen und Grafik nach dem Test; Befunde dokumentieren</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Individuelles Prototyping für besondere Anwendungen</h2>
+  <p>Die Prototypenwerkstatt ist der Ort, an dem wir Probleme lösen, die Standard-Boards nicht abdecken können. Jüngste Beispiele:</p>
+  <ul>
+    <li>Ein 14''-Touring-Board für eine europäische Ausdauer-Paddelmarke mit versenktem Ladedeck und verstärkter Nose — in unserer Anlage gebaut, ausgestattet und getestet.</li>
+    <li>Ein 10'6''-Yoga-Board mit durchgehendem Trittdeck und extra Dicke für Steifigkeit, validiert über einen 4-wöchigen Verleihsaison-Versuch.</li>
+    <li>Ein White-Label-Flottenboard mit individueller Deckgrafik und Doppelgriffen, bei dem der Prototyp zur Validierung von Farbe, Logo-Platzierung und Verpackung diente, bevor der Kunde sich für einen Container entschied.</li>
+  </ul>
+
+  <h2>Unser Prototyping-Team</h2>
+  <p>Die Werkstatt wird von acht vielseitig ausgebildeten Produktionstechnikern besetzt, die jeweils in mindestens zwei der drei Kernkompetenzen (Zuschnitt, Schweißen, Ausstattung) geschult sind. Der Teamleiter ist ein Meisterhandwerker mit 16 Jahren Erfahrung, von individuellen Einzelanfertigungen bis zu Produktionsserien. Jeder Prototyp erhält einen fest zugewiesenen Projektingenieur, der während des gesamten Bau- und Testprozesses der einzige Ansprechpartner für den Kunden ist.</p>
+
+  <h2>Einbindung des Kunden</h2>
+  <p>Wir ermutigen unsere Kunden ausdrücklich, an den wichtigsten Meilensteinen des Prototypenbaus teilzunehmen — insbesondere an der ersten Ausstattungsüberprüfung und am Wasser-Test. Ihr betriebliches Feedback in diesen Phasen ist von unschätzbarem Wert, um das Board vor der Produktion zu verfeinern. Wir bauen nicht im luftleeren Raum; wir bauen in Partnerschaft mit Ihnen.</p>
+  <p>Das Wasser-Testprogramm ist außerdem eine Gelegenheit für Ihr Team, sich mit Handhabung und Wartungsanforderungen des Boards vertraut zu machen und so einen reibungslosen Übergang zur Produktion sicherzustellen, wenn die endgültigen Boards geliefert werden.</p>
+
+cta:
+  title: 'Starten Sie Ihr Prototypenprojekt'
+  subtitle: 'Erzählen Sie uns von dem Board, das Sie benötigen, und wir schlagen einen Prototypen-Entwicklungsplan vor.'
+  actions:
+    - variant: primary
+      text: Unser Prototyping-Team kontaktieren
+      href: /de/contact#project-brief
+    - text: Zurück zum F&E-Zentrum
+      href: /de/randdcenter

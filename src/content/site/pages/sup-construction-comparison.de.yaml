@@ -1,0 +1,123 @@
+meta:
+  title: 'SUP-Konstruktionsvergleich — Einlagige PVC, Doppellagige PVC und Drop-Stitch | SUPsfactory'
+  description: 'Vergleich der Konstruktionen aufblasbarer SUPs: einlagige PVC, doppellagige PVC und Drop-Stitch-Kern — Steifigkeit, Gewicht, Haltbarkeit, Preis und idealer Einsatzzweck.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'SUP-Konstruktionsvergleich'
+    - 'Konstruktionsarten aufblasbarer SUPs'
+    - 'einlagige vs. doppellagige SUP'
+    - 'Drop-Stitch-SUP-Konstruktion'
+    - 'PVC-SUP-Konstruktion'
+    - 'Steifigkeit SUP-Board'
+    - 'Gewicht SUP-Board'
+
+hero:
+  tagline: 'Konstruktionsleitfaden'
+  title: 'SUP-Konstruktionsvergleich'
+  subtitle: 'Drei Konstruktionsarten, eine Fertigungslinie. Verstehen Sie die Kompromisse zwischen Steifigkeit, Gewicht, Haltbarkeit und Kosten von einlagiger PVC, doppellagiger PVC und Drop-Stitch-Kern — und welche zu Ihrem Zielfahrer und Ihrer Marktposition passt.'
+
+answer:
+  label: 'Kurzer Vergleich'
+  text: 'Einlagige PVC ist am leichtesten und günstigsten — ideal für Gelegenheitsfahrer und preissensible Märkte. Doppellagige PVC ergänzt eine zweite PVC-Haut für Steifigkeit und Haltbarkeit bei moderatem Gewicht — die Branchenstandard-Wahl für Verleihflotten und Modelle im mittleren Preissegment. Drop-Stitch-Kern mit PVC-Hülle bietet die höchste Steifigkeit und Drucktoleranz — bevorzugt für Performance, Surf und schwere Fahrer. Alle drei Konstruktionen werden auf derselben Produktionslinie mit denselben QC-Gates gefertigt; der Unterschied liegt in Materialien und Laminierungsschritten.'
+  verified: 'September 2026'
+
+comparison_table:
+  tagline: Seite an Seite
+  title: 'Konstruktionsarten im Vergleich'
+  headers:
+    - 'Attribut'
+    - 'Einlagige PVC'
+    - 'Doppellagige PVC'
+    - 'Drop-Stitch-Kern + PVC-Hülle'
+  rows:
+    - - 'Steifigkeit (PSI-Nennwert)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Gewicht (11-ft-Board)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Haltbarkeit'
+      - 'Gut — Freizeitnutzung'
+      - 'Sehr gut — Verleih und Gewerbe'
+      - 'Hervorragend — Performance und schwere Fahrer'
+    - - 'Konstruktionsschichten'
+      - '1 PVC-Schicht + Drop-Stitch-Kern'
+      - '2 PVC-Schichten + Drop-Stitch-Kern'
+      - 'Verstärkter Drop-Stitch + PVC-Hülle + Rail-Tape'
+    - - 'Typischer Einsatzzweck'
+      - 'Einstiegs-, Gelegenheits-, preissensible Märkte'
+      - 'Allround, Verleih, Vereine, mittlere Marken'
+      - 'Touren, Surf, schwere Fahrer, Premium-Marken'
+    - - 'Relative Kosten'
+      - 'Am niedrigsten'
+      - 'Mittel'
+      - 'Höher'
+    - - 'Schweißverfahren'
+      - 'HF-geschweißte Nähte'
+      - 'HF-geschweißte Nähte + Laminierung'
+      - 'HF-geschweißte Nähte + verstärkte Rails'
+    - - 'Drucktest-Standard'
+      - '18.0 PSI Halttest'
+      - '18.0 PSI Halttest'
+      - '18.0 PSI Halttest (höher bewertet)'
+
+use_cases:
+  tagline: Welche Konstruktion für welchen Käufer
+  title: 'Konstruktion passend zu Ihrem Zielmarkt'
+  subtitle: 'Die Wahl der Konstruktion ist nicht nur eine Kostenentscheidung — sie definiert das Fahrerlebnis, das Garantierisikoprofil und die Markenpositionierung, die Sie aufrechterhalten können.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Einlagig für Einstieg & Volumen'
+      desc: 'Leichtestes Board zum niedrigsten Preis. Ideal für Marken, die Erstkäufer, Big-Box-Handel und Online-Marktplätze adressieren, wo der Preis das wichtigste Kaufmotiv ist. Ausreichende Steifigkeit für Flachwasser-Paddling bei moderatem PSI. Niedrigere Garantieanspruchsquote bei Nutzung im Nenndruckbereich.'
+      link_label: 'OEM-Einsteiger-Boards ansehen'
+      href: /oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Doppellagig für Verleih & Gewerbe'
+      desc: 'Die Arbeitstier-Konstruktion für Verleihflotten, Vereine, Resorts und Schulprogramme. Die zusätzliche PVC-Schicht widersteht Stößen, UV-Einwirkung und täglicher Handhabung, die einlagige Boards im gewerblichen Einsatz zerstören. Höhere Drucktoleranz bedeutet ein steiferes Fahrgefühl für schwerere Fahrer. Weltweit die meistgenutzte Konstruktionsstufe.'
+      link_label: 'Verleih- & Resort-Lösungen'
+      href: /solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Drop-Stitch-Kern für Performance'
+      desc: 'Maximale Steifigkeit für Touren, Surf, Angeln und schwere Fahrer. Verstärkte Rail-Konstruktion und höherer PSI-Nennwert liefern Hardboard-ähnliche Performance in einem tragbaren Paket. Bevorzugt von Performance-Marken und erfahrenen Paddlern. Höhere Materialkosten, aber stärkere Markenpositionierung und niedrigere Garantiequote pro Einheit.'
+      link_label: 'Performance-Board-Entwicklung'
+      href: /odm-manufacturing
+
+key_factors:
+  heading: 'Wichtige Faktoren über die Konstruktionsart hinaus'
+  body: |
+    Die Konstruktionsart ist eine Variable der Board-Performance. Drei weitere Faktoren sind genauso wichtig oder wichtiger:
+
+    - **Drop-Stitch-Dichte** — Die Fäden pro Zoll bestimmen, wie gleichmäßig das Board unter Druck seine Form hält. Wir verwenden standardmäßig 96 Fäden/Zoll und 140 Fäden/Zoll für Performance-Builds. Höhere Dichte = flacheres Board = besseres Gleiten.
+    - **PVC-Güte und -Dicke** — Nicht jedes PVC ist gleich. Koreanisch importiertes 0.7-mm-PVC hat eine höhere Reißfestigkeit und UV-Beständigkeit als dünnere Alternativen. Wir spezifizieren die Materialgüte pro Projekt.
+    - **Rail-Konstruktion** — Einlagige Rails sind der häufigste Ausfallpunkt bei Billig-Boards. Doppellagige Rails und verstärktes Rail-Tape reduzieren das Risiko von Rail-Durchstichen drastisch. Alle unsere Boards verwenden unabhängig von der Konstruktionsstufe verstärkte Rails.
+
+faqs:
+  tagline: FAQ
+  title: 'SUP-Konstruktion — Häufig gestellte Fragen'
+  items:
+    - q: 'Welche Konstruktionsart sollte ich für meine Marke wählen?'
+      a: 'Das hängt von Ihrem Zielmarkt und Ihrer Preispositionierung ab. Einstieg und Big-Box-Handel: einlagig. Verleihflotten, Vereine und mittlere Marken: doppellagig. Performance, Touren und Premium: Drop-Stitch-Kern. Die meisten Marken starten mit doppellagig als bestem Kompromiss aus Kosten, Haltbarkeit und Fahrerlebnis. Wir empfehlen auf Basis Ihres konkreten Markts während der Machbarkeitsprüfung.'
+    - q: 'Kann ich mehrere Konstruktionsstufen unter einer Marke anbieten?'
+      a: 'Ja — viele Marken bieten zwei oder drei Stufen an. Wir produzieren alle drei Konstruktionen auf derselben Linie mit denselben QC-Gates, sodass Sie Konstruktionsarten innerhalb einer einzelnen Bestellung mischen können. Rumpfform und Grafiken können über alle Stufen identisch sein; nur Konstruktion und Materialien ändern sich.'
+    - q: 'Welcher Drucktest-Standard gilt für alle Konstruktionen?'
+      a: 'Jedes Board besteht unabhängig von der Konstruktionsart einen 18.0-PSI-Halttest mit automatischer Aussonderung bei einem Druckabfall über 0.50 PSI über 24 Stunden. Einlagige Boards sind für 12–15 PSI Fahrdruck ausgelegt, doppellagige für 15–18 PSI und Drop-Stitch-Kern für 18–25 PSI. Der Testdruck übersteigt den Nenndruck aller Arten.'
+    - q: 'Wie wirkt sich die Konstruktion auf Garantieansprüche aus?'
+      a: 'Einlagige Boards haben bei gewerblicher/Verleihnutzung eine geringfügig höhere Garantieanspruchsquote wegen Rail- und Durchstichbelastung. Doppellagige und Drop-Stitch-Kern-Konstruktionen haben deutlich niedrigere Anspruchsquoten. Wir stellen pro Stufe Garantiedaten aus unseren Produktionsaufzeichnungen während der Angebotsphase bereit.'
+
+cta:
+  title: 'Brauchen Sie Hilfe bei der Wahl der richtigen Konstruktion?'
+  subtitle: 'Nennen Sie uns Ihren Zielfahrer, Ihre Preislage und Ihren Markt — wir empfehlen die passende Konstruktionsstufe und stellen Muster-Boards für Ihre Bewertung bereit.'
+  actions:
+    - variant: primary
+      text: Projektbriefing starten
+      href: /contact#project-brief
+    - text: OEM-Fertigungsdetails ansehen
+      href: /oem-manufacturing
+    - text: OEM, ODM und Private Label vergleichen
+      href: /oem-odm-private-label-comparison

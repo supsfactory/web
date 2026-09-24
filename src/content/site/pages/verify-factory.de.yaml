@@ -1,0 +1,81 @@
+meta:
+  title: 'Verifizieren Sie unsere SUP-Fabrik | Besuch, Audit & Inspektion in Qingdao'
+  description: 'Wie Sie die SUP-Fabrik verifizieren, bevor Sie sich festlegen: Fabrikbesuch planen, Drittanbieter-Audit oder -Inspektion durchführen und QC-Aufzeichnungen, Chargenrückverfolgbarkeit und Zertifikate in Qingdao, China, einsehen.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'SUP-Fabrik verifizieren'
+    - 'SUP-Fabrikbesuch Qingdao'
+    - 'SUP-Fabrikaudit'
+    - 'SUP-Inspektion durch Dritte'
+    - 'Verifizierung einer aufblasbaren Paddelboard-Fabrik'
+
+hero:
+  tagline: 'Fabrikverifizierung'
+  title: 'Verifizieren Sie die SUP-Fabrik, bevor Sie sich festlegen'
+  subtitle: 'Sie sollten einer Fabrik nicht blind vertrauen. Planen Sie einen Besuch, führen Sie ein unabhängiges Audit oder eine Inspektion durch und prüfen Sie Zertifikate, QC-Aufzeichnungen und Chargenrückverfolgbarkeit vor Ihrer ersten Bestellung — all das steht ernsthaften Käufern offen.'
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Das SUPsfactory-Werk ist eine 12,500-m²-Anlage in Qingdao, Shandong, China, mit 350+ Mitarbeitern, 4 automatisierten Produktionslinien und 4 spezialisierten Werkstätten. Käufer können sie auf vier Wegen verifizieren: das Werk ganzjährig besuchen, Audits mitveranstalten oder anfordern (BSCI, ISO 9001), eine Drittinspektion durchführen (SGS, TÜV, BV, Intertek; ISO-2859-1-Stichprobenprüfung der Stufe II) oder dokumentierte Nachweise prüfen — Zertifikate, 100-Punkte-Montagechecklisten, 18.0-PSI-Druckhalteberichte über 24 Stunden und eine 10-jährige ERP-Chargenrückverfolgbarkeit pro Serien-Label.'
+  verified: 'September 2026'
+
+features:
+  title: 'Möglichkeiten, die Fabrik zu verifizieren'
+  subtitle: 'Vier Verifizierungswege, jeweils von Ihrem Projektspezialisten organisiert — wählen Sie einen oder kombinieren Sie mehrere.'
+  items:
+    - title: 'Fabrikbesuch planen'
+      description: 'Wir empfangen das ganze Jahr über Käuferbesuche in Qingdao, mit Flughafenabholung und Werksführung, die rund um Ihre Termine organisiert wird. NDA jederzeit willkommen.'
+      icon: 'tabler:map-pin'
+    - title: 'Drittanbieter-Audit'
+      description: 'BSCI- und ISO-9001-Auditberichte sind auf Anfrage verfügbar, und mitveranstaltete Audits sind willkommen, damit Sie gemeinsam mit dem Auditor die Fertigungshalle begehen können.'
+      icon: 'tabler:clipboard-check'
+    - title: 'Unabhängige Inspektion'
+      description: 'Vorversand- oder Produktionsbegleitinspektion mit SGS, TÜV, BV oder Intertek nach ISO-2859-1-Stichprobenverfahren der Stufe II — auf Ihre Kosten, von uns organisiert, direkt an Sie berichtet.'
+      icon: 'tabler:zoom-check'
+    - title: 'Dokumentationsprüfung'
+      description: 'Zertifikatskopien, Wareneingangs-/Prozess-/Endkontrolldatensätze, Druckhalteprüfberichte und Chargenrückverfolgbarkeitsakten werden vor Ihrer Festlegung geteilt.'
+      icon: 'tabler:file-search'
+    - title: 'Live-Video-Werksführung'
+      description: 'Noch nicht reisebereit? Wir gehen per Live-Call durch den Produktionsbereich — Drop-Stitch-Verarbeitung, Schweißen, Druck, Montage, Prüfung und Verpackung — bevor Sie eine Bestellung aufgeben.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: 'Verifizierungsfragen'
+  title: 'Fabrikverifizierung & Inspektion — Fragen und Antworten'
+  questions:
+    - q: 'Wo befindet sich die Fabrik?'
+      a: 'Das Werk befindet sich in Qingdao, Shandong, China — eine 12,500-m²-Anlage mit 350+ Mitarbeitern, 4 automatisierten Linien und 4 spezialisierten Werkstätten. Die Adresse und der Kartenstandort werden verifizierten Käufern bei der Terminplanung eines Besuchs mitgeteilt, und die Abrufadresse erscheint in Verträgen, im BSCI-Audit und in der Exportdokumentation.'
+    - q: 'Was produziert die Fabrik?'
+      a: 'Aufblasbare SUP-Boards — von Rumpf-Engineering und Drop-Stitch-Kernverarbeitung bis zu Grafiken, Montage, Prüfung und Exportverpackung. Alle Kern-SUP-Prozesse laufen unter einem Dach.'
+    - q: 'Welche Prozesse werden im Haus durchgeführt?'
+      a: 'Rumpfdesign, Dimensionstechnik, Drop-Stitch-Kernverarbeitung, HF-Schweißen, Grafikdruck, EVA-Pad-Prägen, Werkzeugbau für individuelle Formen, Montage, Prüfung und Verpackung — alles im Haus. Zubehör und einige Rohstoffe kommen von zertifizierten Lieferanten und werden für die Rückverfolgbarkeit im Haus konfektioniert.'
+    - q: 'Können Käufer die Fabrik besuchen?'
+      a: 'Ja. Käuferbesuche werden das ganze Jahr über in Qingdao empfangen. Die Abholung vom Flughafen Qingdao Jiaodong International Airport und eine vollständige Werksführung werden von Ihrem Projektspezialisten organisiert.'
+    - q: 'Können Käufer eine Drittinspektion arrangieren?'
+      a: 'Ja. SGS-, TÜV-, BV- und Intertek-Inspektionen sind vor oder während der Produktion willkommen. Die Vorversandinspektion verwendet das ISO-2859-1-Stichprobenverfahren der Stufe II, und der Bericht wird von der Inspektionsstelle direkt an Sie gesendet.'
+    - q: 'Können Käufer QC-Dokumentation anfordern?'
+      a: 'Ja. Zertifikatskopien, Wareneingangs-/Prozess-/Endkontrolldatensätze, 18.0-PSI-Druckhalteberichte über 24 Stunden und die 100-Punkte-Montagecheckliste werden pro Charge auf Anfrage herausgegeben.'
+    - q: 'Wie wird die Chargenrückverfolgbarkeit gewährleistet?'
+      a: 'Jedes Board trägt ein Serien-Label. Chargen werden in einem 10-jährigen ERP-Datensatz erfasst, der Stoffrolle, Materialien, Produktionsdatum, Operatoren und Prüfergebnisse mit jeder Seriennummer verknüpft.'
+    - q: 'Wie wird das freigegebene Muster verwendet?'
+      a: 'Das freigegebene Muster dient als Produktionsreferenz. Materialien, Abmessungen, Grafiken, Zubehör und Oberfläche werden an jedem QC-Gate gegen dieses Muster abgeglichen, sodass die Produktion dem entspricht, was Sie freigegeben haben.'
+    - q: 'Wie wird die Produktionsqualität gesteuert?'
+      a: 'Ein 7-stufiges Qualitätssystem (Node 01–07) führt Wareneingangs-, Prozess- und Endkontrollgates durch, mit 18.0-PSI-Druckhaltetests über 24 Stunden (automatische Aussonderung ab einem Druckabfall von 0.50 PSI) und Endfreigabe nach ISO-2859-1-Stichprobenverfahren der Stufe II.'
+
+cta:
+  title: 'Erst verifizieren, dann festlegen'
+  subtitle: 'Buchen Sie eine Werksführung oder fordern Sie Verifizierungsdokumente an — ein Projektspezialist antwortet innerhalb eines Werktags.'
+  actions:
+    - variant: primary
+      text: Verifizierungsgespräch planen
+      href: /contact
+    - text: Nachweiszentrum — Fabrikbelege
+      href: /proof-center
+    - text: Fabrik-Inspektionscheckliste
+      href: /factory-audit-checklist
+    - text: OEM-Vertrauen & Fabrikgrundlagen
+      href: /oem-trust-assurance
+    - text: Qualität & Prüfung
+      href: /quality
+    - text: Fabrik & Produktion
+      href: /factory

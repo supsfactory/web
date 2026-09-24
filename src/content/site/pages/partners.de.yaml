@@ -1,0 +1,83 @@
+meta:
+  title: 'Partner — Vertrieb & Großhandel | {SITE}'
+  description: 'Produktionspartnerschaften mit SUPsfactory: Vertrieb, Großhandelsbelieferung, OEM-/Private-Label-Programme und Spezifikationsunterstützung für SUP-Boards-Anbieter weltweit.'
+  keywords:
+    - 'sup-Vertriebspartner'
+    - 'SUP-Board Großhandel'
+    - 'Vertriebspartner aufblasbarer Sup'
+    - 'sup-Partnerschaft'
+  dateModified: '2026-08'
+hero:
+  tagline: Partner & Vertrieb
+  title: 'Produktionspartnerschaften & Vertrieb'
+  subtitle: "Wir fertigen für Meeresausrüstungs-Distributoren, Händler, Handelsmarken und Organisationen in über 50 Ländern. Sie legen das Produkt fest — wir entwickeln, bemustern und produzieren es unter Ihrer Marke."
+  image:
+    src: https://assets.supsfactory.com/images/sups/team/supsfactory-meeting-overseas.webp
+    alt: Vatrad globales Partner- und Vertriebsnetzwerk
+
+answer:
+  label: 'Kurze Antwort'
+  text: 'Partnerschaftsbedingungen starten mit Muster (1–2 Einheiten) und Pilotchargen (20–50 Einheiten, Muster in 7–12 Tagen), skalieren dann auf Standard-OEM-Mengenläufe von 90–100+ Einheiten pro Charge aus einer vollen 150-m-Drop-stitch-Rolle — oder investieren in eigene Formen für Private-Label-Produkte. Der MOQ wird projektbezogen bestätigt. Vertriebsprogramme beinhalten exklusive Territorien, werksdirekte Großhandelspreise und Zahlungsziele von 45–60 Tagen, versandt FOB Qingdao oder CIF.'
+  verified: 'September 2026'
+content_programs:
+  tagline: Partnerprogramme
+  title: 'Partnerschaftsmodelle auf Basis der Fertigung'
+  subtitle: 'Ob Sie Vertriebspartner, Händler oder Markenpartner sind — das Programm richtet sich nach Ihren Produktanforderungen und Ihrem Produktionsplan aus.'
+  columns: 3
+  items:
+    - title: 'Vertriebsprogramm'
+      description: 'Vertriebsvereinbarungen mit direktem Fabrikzugang, Spezifikationsunterstützung und konstanter Nachbestellqualität über mehrere Territorien. Mindestabnahme abhängig von der Gebietsgröße.'
+      icon: tabler:world
+    - title: 'Händlerprogramm'
+      description: 'Produktspezifikationen, Musterfreigabe, Garantiesupport und zuverlässige Nachbestellungen für Einzelhandels- und Onlineshops.'
+      icon: tabler:building-store
+    - title: 'OEM/ODM-Partnerschaft'
+      description: 'Kompletter OEM- und ODM-Service mit individueller Markenausstattung, Verpackung und Produktspezifikation. Von der Idee bis zum Container.'
+      icon: tabler:certificate
+    - title: 'Markenpartnerschaft'
+      description: 'Private Label und Modellentwicklung für etablierte Marken im Meeres- und Outdoor-Freizeitbereich.'
+      icon: tabler:stars
+    - title: 'Staatlich & institutionell'
+      description: 'Präferierte Lieferantenprogramme für Behörden, Küstenwachen, Militär und humanitäre Organisationen. Ausschreibungsfertige Dokumentation.'
+      icon: tabler:building-community
+    - title: 'Resort- & Verleihpartner'
+      description: 'Flottentarife, konstante Qualität und individuelles Branding für Resorts, Tauchzentren und Verleihbetriebe weltweit.'
+      icon: tabler:sun
+content_benefits:
+  tagline: Warum mit uns zusammenarbeiten
+  title: 'Warum Partner Vatrad wählen'
+  subtitle: 'Unsere Partner arbeiten mit echter Fertigungskapazität, konstanter Qualität und reaktionsschneller Engineering-Unterstützung.'
+  list:
+    - 'Direkter Fabrikzugang: Arbeiten Sie direkt mit unserem Fertigungsteam — keine Zwischenhändler. Schnellere Antworten, volle Einblicke in die Produktion und Engineering-Auskünfte von den Menschen, die die Boards bauen.'
+    - 'Individualisierung bereit: Branden Sie Ihre Produkte mit eigenen Farben, Logos, Verpackungen und Spezifikationen. Der MOQ wird projektbezogen bestätigt — in den Stufen Muster, Pilot und Menge.'
+    - 'Qualität garantiert: ISO-9001-zertifizierte Produktion mit CE-, BSCI- und REACH-Konformität. Jedes Produkt wird vor dem Versand druckgetestet.'
+    - 'Globale Logistik: Versand ab Qingdao, China, mit FOB-, CIF- und DDP-Optionen. US-Lager in Montclair, CA, für die Vertriebsabwicklung in Nordamerika.'
+    - 'Technische Dokumentation: Produktkataloge, Fotografie und technische Unterlagen zur Unterstützung von Spezifikations- und Nachbestellentscheidungen.'
+    - 'Spezifikations- & QC-Support: Bemusterung vor der Massenbestellung, technischer Support für Ihre Kunden und Koordination des Garantieservice.'
+content_process:
+  tagline: So werden Sie Partner
+  title: 'Partnerschaftsprozess'
+  subtitle: 'Ein unkomplizierter Ablauf — von der Bewerbung bis zum ersten Produktionslauf.'
+  items:
+    - title: 'Schritt 1: Bewerbung einreichen'
+      description: 'Füllen Sie unser Partnerbewerbungsformular mit Firmenprofil, Zielmarkt und Produktinteressen aus.'
+    - title: 'Schritt 2: Qualifikationsprüfung'
+      description: 'Unser Team prüft Ihre Bewerbung und kontaktiert Sie innerhalb von 3 Werktagen, um die Anforderungen zu besprechen.'
+    - title: 'Schritt 3: Vereinbarung & Einrichtung'
+      description: 'Unterzeichnen Sie eine Partnerschaftsvereinbarung, richten Sie Ihr Konto ein und erhalten Sie Produktmuster, Spezifikationen und vereinbarte Konditionen.'
+    - title: 'Schritt 4: Bemusterung & Produktion'
+      description: 'Physische Muster freigeben, Spezifikationen und MOQ bestätigen — und die Produktionsläufe starten unter Ihrer Marke.'
+cta:
+  title: 'Partnerschaft besprechen'
+  subtitle: 'Senden Sie Ihre Anforderungen — unser Team antwortet innerhalb von 3 Werktagen.'
+  actions:
+    - variant: primary
+      text: Anforderungen senden
+      href: /de/contact
+    - text: Unsere Produkte ansehen
+      href: /de/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Weiterlesen:</strong> Partnerprogramme teilen einen gemeinsamen <a href="/de/oem-manufacturing">OEM/ODM-Fertigungsmotor</a> — Konditionen, Versuchs-MOQs und Individualisierung sind dort definiert — und alle Produktionsläufe gehen durch die <a href="/de/factory">12,500 m&sup2; große Fabrik</a>.</p>
+  </div>
