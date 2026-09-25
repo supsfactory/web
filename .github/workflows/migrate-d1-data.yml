@@ -64,13 +64,12 @@ jobs:
       - name: Verify counts (source vs target)
         run: |
           set -e
-          sql="SELECT 'user' AS tbl, count(*) AS n FROM user UNION ALL SELECT 'account', count(*) FROM account UNION ALL SELECT 'session', count(*) FROM session UNION ALL SELECT 'verification', count(*) FROM verification UNION ALL SELECT 'rateLimit', count(*) FROM rateLimit UNION ALL SELECT 'waitlist', count(*) FROM waitlist UNION ALL SELECT 'feedback', count(*) FROM feedback UNION ALL SELECT 'inquiry', count(*) FROM inquiry;"
+          sql="SELECT (SELECT count(*) FROM user) AS user, (SELECT count(*) FROM account) AS account, (SELECT count(*) FROM session) AS session, (SELECT count(*) FROM verification) AS verification, (SELECT count(*) FROM rateLimit) AS rateLimit, (SELECT count(*) FROM waitlist) AS waitlist, (SELECT count(*) FROM feedback) AS feedback, (SELECT count(*) FROM inquiry) AS inquiry;"
           count() {
             local db="$1"
-            echo "--- db: $db"
-            local out
-            out=$(npx wrangler d1 execute "$db" --remote --json --command="$sql")
-            echo "$out" | jq -r '.. | objects | select(has("tbl")) | "\(.tbl)\t\(.n)"'
+            echo "=== db: $db"
+            npx wrangler d1 execute "$db" --remote --json --command="$sql" >/tmp/m_stdout.json 2>/tmp/m_stderr.txt || { cat /tmp/m_stdout.json; cat /tmp/m_stderr.txt; return 1; }
+            jq -r '.. | objects | select(has("user")) | "user=\(.user) account=\(.account) session=\(.session) verification=\(.verification) rateLimit=\(.rateLimit) waitlist=\(.waitlist) feedback=\(.feedback) inquiry=\(.inquiry)"' /tmp/m_stdout.json
           }
           count "${{ inputs.old_db }}"
           count "${{ inputs.new_db }}"
