@@ -75,7 +75,7 @@ export const deploymentConfig: DeploymentConfig = {
  * Required variables:
  * - CF_PROD_D1_ID: Cloudflare D1 database ID for production
  * - CF_PROD_KV_ID: Cloudflare KV namespace ID for production
- * - CF_PROD_DOMAIN: Production domain (e.g., supsfactory.com)
+ * - CF_PROD_DOMAIN: Production domain (e.g., isupfactory.com)
  *
  * Optional variables (defaults derived from SITE_ID if not set):
  * - CF_PROD_D1_NAME: D1 database name for migrations (default: ${SITE_ID}-db-prod)

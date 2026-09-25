@@ -14,7 +14,7 @@ hero:
   tagline: 'Labor 04'
   title: 'Hydrodynamischer Versuchstank'
   subtitle: 'Leistungsvalidierung vor dem ersten Prototyp in Originalgröße'
-  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
   image_alt: 'Hydrodynamischer Versuchstank von Vatrad für Performancetests'
 
 intro: 'Es ist eine weit verbreitete Fehlannahme, dass hydrodynamische Tests Schiffen und Rennfahrzeugen vorbehalten sind. Tatsächlich hängt die Leistung eines SUP-Boards — eines Gleitrumpfs von 10 bis 14 Fuß — genauso von seiner Unterwasserform ab wie bei jedem anderen Fahrzeug. Bugprofil, Railradius, Rocker und benetzte Oberfläche haben einen dramatischen Einfluss auf Widerstand, Gleiteffizienz und Stabilität. Bei {SITE.name} betreiben wir einen eigenen hydrodynamischen Versuchstank, der es uns ermöglicht, diese Effekte im Modellmaßstab zu quantifizieren — bevor wir Gewebe und Werkzeuge für einen Prototyp in Originalgröße festlegen.'

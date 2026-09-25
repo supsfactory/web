@@ -25,7 +25,7 @@ function buildCsp(nonce: string): string {
     "default-src 'self'",
     `script-src 'self' 'nonce-${nonce}' https://challenges.cloudflare.com https://static.cloudflareinsights.com https://www.googletagmanager.com`, // Turnstile + Web Analytics beacon + GA4 gtag
     "style-src 'self' 'unsafe-inline'",
-    "img-src 'self' data: blob: https://assets.supsfactory.com", // blob: for client-side avatar preview
+    "img-src 'self' data: blob: https://assets.isupfactory.com", // blob: for client-side avatar preview
     "font-src 'self' data:", // fonts are self-hosted under /fonts
     "connect-src 'self' https://cloudflareinsights.com https://www.google-analytics.com https://analytics.google.com https://api.whatsapp.com", // Web Analytics beacon + GA4 POSTs
     "frame-src https://challenges.cloudflare.com", // Turnstile widget iframe

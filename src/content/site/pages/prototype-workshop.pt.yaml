@@ -14,7 +14,7 @@ hero:
   tagline: 'Laboratório 05'
   title: 'Oficina de protótipos'
   subtitle: 'Do modelo CAD à prancha de amostra testada — construída, montada e ensaiada'
-  image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
   image_alt: 'Produção de pranchas SUP na oficina de protótipos da Vatrad'
 
 intro: 'Um modelo CAD — por muito detalhado que seja — não consegue mostrar como se comporta realmente uma prancha antes de ser insuflada, subida e remada. Por isso a nossa oficina de protótipos foi desenhada para transformar os dados técnicos numa prancha física e navegável o mais rápida e precisamente possível. Cada novo modelo de {SITE.name} — e cada construção personalizada significativa — passa por esta oficina antes de o equipamento de produção ser aprovado.'

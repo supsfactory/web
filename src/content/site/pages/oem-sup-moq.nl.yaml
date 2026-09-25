@@ -12,7 +12,7 @@ sections:
       verifiedDate: "September 2026"
       sourceType: "fabrieksregistratie"
     body: |
-      Het MOQ bij SUPsfactory is getrapt op basis van de mate van aanpassing, het is geen
+      Het MOQ bij iSupfactory is getrapt op basis van de mate van aanpassing, het is geen
       enkel vast getal. Elk niveau komt overeen met een concreet productiescenario:
 
       | Scenario | MOQ | Eenheden | Voorwaarde |

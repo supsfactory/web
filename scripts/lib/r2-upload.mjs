@@ -72,7 +72,7 @@ function signPut({ method, url, body, accessKey, secret, region = 'auto', servic
  * `keyFor(file)` maps an absolute local path to its R2 key.
  */
 export function createUploader({ http = false, cacheControl = 'public, max-age=31536000, immutable' } = {}) {
-  const bucket = process.env.R2_BUCKET ?? `${process.env.SITE_ID ?? 'supsfactory'}-files-prod`
+  const bucket = process.env.R2_BUCKET ?? `${process.env.SITE_ID ?? 'isupfactory'}-files-prod`
   const accountId = process.env[http ? 'CLOUDFLARE_ACCOUNT_ID' : 'R2_ACCOUNT_ID'] ?? ''
   const apiToken = process.env.CLOUDFLARE_API_TOKEN ?? ''
   const accessKey = process.env.R2_ACCESS_KEY_ID ?? ''

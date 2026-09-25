@@ -14,7 +14,7 @@ hero:
   tagline: 'Labor 05'
   title: 'Prototypenwerkstatt'
   subtitle: 'Vom CAD-Modell zum getesteten Muster-Board — gebaut, ausgestattet und bewährt'
-  image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
   image_alt: 'SUP-Board-Fertigung in der Prototypenwerkstatt von Vatrad'
 
 intro: 'Ein CAD-Modell — egal wie detailliert — kann nicht zeigen, wie sich ein Board tatsächlich anfühlt, bevor es aufgepumpt, betreten und gepaddelt wird. Deshalb ist unsere Prototypenwerkstatt darauf ausgelegt, technische Daten so schnell und präzise wie möglich in ein physisches, fahrbares Board zu übersetzen. Jedes neue Modell von {SITE.name} — und jeder bedeutende individuelle Bau — durchläuft diese Werkstatt, bevor das Produktionswerkzeug freigegeben wird.'

@@ -47,7 +47,7 @@ moq_tiers:
     - icon: B
       icon_bg: green
       title: 'Co-branding per piccoli lotti — sotto le 20 unità'
-      desc: 'Una soluzione a bassa soglia, costruita sulle nostre collezioni di prodotto annuali collaudate sul campo per club, centri noleggio e resort — senza pesanti scorte di magazzino. · Scafo e geometria fissi: forme di scafo collaudate sul campo con conformità CE/ISO-25649 · Identificazione primaria: branding ufficiale SUPsfactory nella zona centrale · Branding personale secondario: il tuo logo su nose o rail laterali · Ispezione parziale o totale al 100% con test di pressione e tenuta di 24 ore'
+      desc: 'Una soluzione a bassa soglia, costruita sulle nostre collezioni di prodotto annuali collaudate sul campo per club, centri noleggio e resort — senza pesanti scorte di magazzino. · Scafo e geometria fissi: forme di scafo collaudate sul campo con conformità CE/ISO-25649 · Identificazione primaria: branding ufficiale iSupfactory nella zona centrale · Branding personale secondario: il tuo logo su nose o rail laterali · Ispezione parziale o totale al 100% con test di pressione e tenuta di 24 ore'
       link: '/it/contact#cobranding'
       link_label: 'Avvia il co-branding per piccoli lotti'
 
@@ -116,13 +116,13 @@ moq_downloads:
       icon_bg: blue
       title: 'Guida al branding flessibile e al MOQ (PDF)'
       desc: 'Guida B2B ufficiale (Parte I, DOC-MOQ-EXP-2026-EN, pubblicata il 14 ago 2026): la logica tecnica dietro le rese delle bobine drop-stitch da 150 m (90–100 tavole), il programma di co-branding da 5–10 unità, i costi di serigrafia trasparenti e i tre livelli di produzione.'
-      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Scarica la guida (PDF)'
     - icon: P
       icon_bg: green
       title: 'Policy di branding flessibile e co-branding (PDF)'
       desc: 'Dossier di policy ufficiale (Parte 1, POL-MOQ-2026-V1): regole del co-branding per piccoli lotti, il quadro del MOQ basato sul progetto, i quattro fattori che determinano le quantità minime e la sottoscrizione congiunta di VP vendite, capo ingegnere e direttore QA.'
-      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
       link_label: 'Scarica la policy (PDF)'
 
 moq_faqs:

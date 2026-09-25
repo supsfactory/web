@@ -25,7 +25,7 @@ Hypalon's advantages — exceptional chemical and UV resistance — matter most 
 
 ## Where Hypalon appears in the Vatrad range
 
-Hypalon remains the specified material on the Vatrad RIB models (RIB 330, RIB 450 Patrol), which are designed for professional marine use. SUP boards and kayaks in the SUPsfactory line use marine PVC exclusively, and every PVC batch is independently tested in our PVC Fabric Lab before production.
+Hypalon remains the specified material on the Vatrad RIB models (RIB 330, RIB 450 Patrol), which are designed for professional marine use. SUP boards and kayaks in the iSupfactory line use marine PVC exclusively, and every PVC batch is independently tested in our PVC Fabric Lab before production.
 
 ## The test data
 

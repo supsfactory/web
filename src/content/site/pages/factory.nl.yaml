@@ -119,27 +119,27 @@ workshops_section:
   workshops:
     - title: PVC-snijden & materiaalvoorbereiding
       description: De automatische CNC-snijmachines bewerken PVC-, Hypalon- en drop-stitch weefsels met submillimeternauwkeurigheid. De computergeoptimaliseerde nestindeling minimaliseert materiaalafval en garandeert dat elk paneel vóór het lassen aan zijn specificatieafmetingen voldoet.
-      image: https://assets.supsfactory.com/images/sups/hero/production-dept.webp
+      image: https://assets.isupfactory.com/images/sups/hero/production-dept.webp
       alt: CNC-snijmachine voor PVC die de weefselpanelen van een opblaasbare SUP voorbereidt in de fabriek van Qingdao
     - title: Kamers lassen & thermisch lassen
       description: Speciale lasafdeling met heteluchtslasmachines en hogefrequentie diëlektrische persen. De heteluchtslassers verbinden en lassen de kamers van de opblaasbare boten, terwijl de HF-lassen luchtdichte naden met hoge sterkte creëren die de vereisten overtreffen.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
       alt: HF-lasmachine die de kamers van opblaasbare boten verzegelt in de fabriek van Qingdao
     - title: Lamineren van de drop-stitch kern
       description: De drop-stitch kernen van de SUP-planken worden via heetlamineren aan de externe PVC-lagen verlijmd. Duizenden interne polyesterdraden verbinden de boven- en onderlaag, waardoor een stijve structuur ontstaat bij 12-15 PSI. De railbanden worden verlijmd via drielaagse fusie voor de sterkte van de randen.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
       alt: Productielijn van opblaasbare SUP''s met de laminatie-installatie van de drop-stitch kern in de fabriek van Qingdao
     - title: SUP bedrukken & decoratie
       description: De SUP-planken worden gedecoreerd via digitaal printen voor full-colour graphics en zeefdruk voor logo''s en repeterende patronen. De digitale printers produceren fotorealistische deck-designs, terwijl de zeefdruk duurzame, markante merkaanduidingen biedt.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
       alt: Interieur van de productieafdeling in de fabriek van opblaasbare SUP''s in Qingdao
     - title: Eindassemblage & afmontage
       description: Assemblagelijn waarop ventielen, D-ringen, handvatten, fin boxen en deckpads op elke SUP-plank worden geïnstalleerd. Elke plank volgt een 100-punts assemblagechecklist, ondertekend door de ploegleider.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
       alt: Productieafdeling met assemblageposten in de fabriek van Qingdao
     - title: Kwaliteitscontrole & inspectie
       description: Elke afgewerkte plank doorstaat vóór de verzending een verplichte luchtdichtheidstest, een naadpeelingcontrole en een volledige systeemcontrole. Ons kwaliteitslaboratorium werkt onafhankelijk van de productie en rapporteert rechtstreeks aan de directie.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
       alt: Drukproef van een opblaasbare SUP voor de luchtdichtheid vóór de verzending in de fabriek van Qingdao
 
 equipment_section:

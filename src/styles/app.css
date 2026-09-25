@@ -94,7 +94,7 @@
 @custom-variant dark (&:is(.dark *));
 
 /* ==========================================================================
-   SUPsfactory — "Bright Ocean Studio" design language
+   iSupfactory — "Bright Ocean Studio" design language
    Ocean White #F8FBFA · Ocean Blue #0077B6 · Aqua #35C2C9 · Sunset #FF8A3D ·
    Deep Navy #082032. Display: Manrope · body: Inter · mono: JetBrains Mono ·
    CJK: system fonts.
@@ -331,7 +331,7 @@ input {
 }
 
 /* ==========================================================================
-   SUPsfactory marketing utilities
+   iSupfactory marketing utilities
    ========================================================================== */
 
 /* brand ocean gradient (hero, CTA bands) */

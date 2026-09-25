@@ -23,7 +23,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'how-custom-sup-boards-are-developed',
       navLabel: 'How Custom SUP Boards Are Developed',
-      metaTitle: 'How Custom SUP Boards Are Developed | SUPsfactory',
+      metaTitle: 'How Custom SUP Boards Are Developed | iSupfactory',
       metaDescription:
         'How a custom SUP moves from idea to factory: specification, design, prototyping, sampling and production — explained step by step.',
       kicker: 'Knowledge',
@@ -71,7 +71,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'inflatable-sup-construction-explained',
       navLabel: 'Inflatable SUP Construction Explained',
-      metaTitle: 'Inflatable SUP Construction: Materials & Layers | SUPsfactory',
+      metaTitle: 'Inflatable SUP Construction: Materials & Layers | iSupfactory',
       metaDescription:
         'What an inflatable SUP is made of — PVC layers, drop-stitch fabric, rails and quality indicators — to specify better boards for your project.',
       kicker: 'Knowledge',
@@ -147,7 +147,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'how-custom-sup-boards-are-developed',
       navLabel: 'Cómo se desarrollan las tablas de SUP personalizadas',
-      metaTitle: 'Cómo se desarrollan tablas de SUP personalizadas | SUPsfactory',
+      metaTitle: 'Cómo se desarrollan tablas de SUP personalizadas | iSupfactory',
       metaDescription:
         'Cómo pasa un producto SUP personalizado de la idea a la fábrica: requisitos, especificaciones, diseño, muestras y producción en serie — paso a paso.',
       kicker: 'Centro de conocimiento',
@@ -271,7 +271,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'how-custom-sup-boards-are-developed',
       navLabel: 'Comment les planches de SUP personnalisées sont développées',
-      metaTitle: 'Comment les planches de SUP personnalisées sont développées | SUPsfactory',
+      metaTitle: 'Comment les planches de SUP personnalisées sont développées | iSupfactory',
       metaDescription:
         "Comment un SUP personnalisé passe de l'idée à l'usine : spécifications, design, prototypage, échantillonnage et production — expliqué étape par étape.",
       kicker: 'Connaissances',
@@ -319,7 +319,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'inflatable-sup-construction-explained',
       navLabel: 'La construction des SUP gonflables, expliquée',
-      metaTitle: 'Construction des SUP gonflables : matériaux et couches | SUPsfactory',
+      metaTitle: 'Construction des SUP gonflables : matériaux et couches | iSupfactory',
       metaDescription:
         "De quoi est fait un SUP gonflable — couches de PVC, tissu drop-stitch, boudins et indicateurs de qualité — pour mieux spécifier vos planches de projet.",
       kicker: 'Connaissances',
@@ -395,7 +395,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'how-custom-sup-boards-are-developed',
       navLabel: 'Wie maßgefertigte SUP-Boards entwickelt werden',
-      metaTitle: 'Wie maßgefertigte SUP-Boards entwickelt werden | SUPsfactory',
+      metaTitle: 'Wie maßgefertigte SUP-Boards entwickelt werden | iSupfactory',
       metaDescription:
         'So entsteht ein individuelles SUP von der Idee bis zur Fabrik: Spezifikation, Design, Prototyp, Muster und Produktion — Schritt für Schritt erklärt.',
       kicker: 'Wissen',
@@ -443,7 +443,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'inflatable-sup-construction-explained',
       navLabel: 'Die Konstruktion aufblasbarer SUP-Boards erklärt',
-      metaTitle: 'Konstruktion aufblasbarer SUP-Boards: Materialien und Schichten | SUPsfactory',
+      metaTitle: 'Konstruktion aufblasbarer SUP-Boards: Materialien und Schichten | iSupfactory',
       metaDescription:
         'Aus welchen Bestandteilen ein aufblasbares SUP besteht — PVC-Schichten, Drop-Stitch-Gewebe, Rails und Qualitätsmerkmale — um für Ihr Projekt bessere Boards zu spezifizieren.',
       kicker: 'Wissen',
@@ -519,7 +519,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'how-custom-sup-boards-are-developed',
       navLabel: 'Come vengono sviluppati i SUP personalizzati',
-      metaTitle: 'Come vengono sviluppati i SUP personalizzati | SUPsfactory',
+      metaTitle: 'Come vengono sviluppati i SUP personalizzati | iSupfactory',
       metaDescription:
         "Come un SUP personalizzato passa dall\u2019idea alla fabbrica: specifiche, design, prototipazione, campioni e produzione — spiegato passo dopo passo.",
       kicker: 'Conoscenza',
@@ -567,7 +567,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'inflatable-sup-construction-explained',
       navLabel: 'La costruzione dei SUP gonfiabili, spiegata',
-      metaTitle: 'Costruzione dei SUP gonfiabili: materiali e strati | SUPsfactory',
+      metaTitle: 'Costruzione dei SUP gonfiabili: materiali e strati | iSupfactory',
       metaDescription:
         'Di cosa è fatto un SUP gonfiabile — strati di PVC, tessuto drop-stitch, rails e indicatori di qualità — per specificare tavole migliori per il tuo progetto.',
       kicker: 'Conoscenza',
@@ -643,7 +643,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'how-custom-sup-boards-are-developed',
       navLabel: 'Como são desenvolvidos os SUP personalizados',
-      metaTitle: 'Como são desenvolvidos os SUP personalizados | SUPsfactory',
+      metaTitle: 'Como são desenvolvidos os SUP personalizados | iSupfactory',
       metaDescription:
         'Como um SUP personalizado passa da ideia à fábrica: especificações, design, prototipagem, amostras e produção — explicado passo a passo.',
       kicker: 'Conhecimento',
@@ -691,7 +691,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'inflatable-sup-construction-explained',
       navLabel: 'A construção dos SUP insufláveis, explicada',
-      metaTitle: 'Construção dos SUP insufláveis: materiais e camadas | SUPsfactory',
+      metaTitle: 'Construção dos SUP insufláveis: materiais e camadas | iSupfactory',
       metaDescription:
         'Do que é feito um SUP insuflável — camadas de PVC, tecido drop-stitch, rails e indicadores de qualidade — para especificar melhores pranchas para o teu projeto.',
       kicker: 'Conhecimento',
@@ -767,7 +767,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'how-custom-sup-boards-are-developed',
       navLabel: 'Hoe gepersonaliseerde SUP\'s worden ontwikkeld',
-      metaTitle: 'Hoe gepersonaliseerde SUP\'s worden ontwikkeld | SUPsfactory',
+      metaTitle: 'Hoe gepersonaliseerde SUP\'s worden ontwikkeld | iSupfactory',
       metaDescription:
         'Hoe een gepersonaliseerde SUP van idee naar fabriek gaat: specificaties, ontwerp, prototyping, monsters en productie — stap voor stap uitgelegd.',
       kicker: 'Kennis',
@@ -815,7 +815,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
     {
       slug: 'inflatable-sup-construction-explained',
       navLabel: 'De constructie van opblaasbare SUP\'s, uitgelegd',
-      metaTitle: 'Constructie van opblaasbare SUP\'s: materialen en lagen | SUPsfactory',
+      metaTitle: 'Constructie van opblaasbare SUP\'s: materialen en lagen | iSupfactory',
       metaDescription:
         'Waar een opblaasbare SUP van gemaakt is — PVC-lagen, drop-stitch-weefsel, rails en kwaliteitsindicatoren — om betere planken te specificeren voor jouw project.',
       kicker: 'Kennis',
@@ -901,43 +901,43 @@ export interface KnowledgeMeta {
 
 export const knowledgeMeta: Localized<KnowledgeMeta> = {
   en: {
-    metaTitle: 'Knowledge Center: SUP Product Development Guides | SUPsfactory',
+    metaTitle: 'Knowledge Center: SUP Product Development Guides | iSupfactory',
     metaDescription:
       'Practical guides on custom SUP product development, inflatable board construction, and choosing SUP equipment for resorts, clubs and schools.',
     h1: 'Knowledge Center — Product Development, Explained',
   },
   es: {
-    metaTitle: 'Centro de conocimiento — guías de productos | SUPsfactory',
+    metaTitle: 'Centro de conocimiento — guías de productos | iSupfactory',
     metaDescription:
       'Guías prácticas sobre desarrollo de productos SUP personalizados y construcción de tablas hinchables.',
     h1: 'Centro de conocimiento — desarrollo de producto, explicado',
   },
   fr: {
-    metaTitle: 'Centre de connaissances — guides de développement de produits | SUPsfactory',
+    metaTitle: 'Centre de connaissances — guides de développement de produits | iSupfactory',
     metaDescription:
       "Guides pratiques sur le développement de produits SUP personnalisés, la construction de planches gonflables et le choix d'un équipement SUP pour les resorts, clubs et écoles.",
     h1: 'Centre de connaissances — développement de produit, expliqué',
   },
   de: {
-    metaTitle: 'Wissenszentrum: Leitfäden zur SUP-Produktentwicklung | SUPsfactory',
+    metaTitle: 'Wissenszentrum: Leitfäden zur SUP-Produktentwicklung | iSupfactory',
     metaDescription:
       'Praktische Leitfäden zur Entwicklung individueller SUP-Produkte, zur Konstruktion aufblasbarer Boards und zur Auswahl von SUP-Ausrüstung für Resorts, Clubs und Schulen.',
     h1: 'Wissenszentrum — Produktentwicklung, erklärt',
   },
   it: {
-    metaTitle: 'Centro di conoscenza: guide allo sviluppo di prodotti SUP | SUPsfactory',
+    metaTitle: 'Centro di conoscenza: guide allo sviluppo di prodotti SUP | iSupfactory',
     metaDescription:
       "Guide pratiche sullo sviluppo di prodotti SUP personalizzati, sulla costruzione delle tavole gonfiabili e sulla scelta dell\u2019attrezzatura SUP per resort, club e scuole.",
     h1: 'Centro di conoscenza — sviluppo di prodotto, spiegato',
   },
   pt: {
-    metaTitle: 'Centro de conhecimento: guias de desenvolvimento de produtos SUP | SUPsfactory',
+    metaTitle: 'Centro de conhecimento: guias de desenvolvimento de produtos SUP | iSupfactory',
     metaDescription:
       'Guias práticas sobre o desenvolvimento de produtos SUP personalizados, sobre a construção das pranchas insufláveis e sobre a escolha do equipamento SUP para resorts, clubes e escolas.',
     h1: 'Centro de conhecimento — desenvolvimento de produto, explicado',
   },
   nl: {
-    metaTitle: 'Kennisdatabase: gidsen over SUP-productontwikkeling | SUPsfactory',
+    metaTitle: 'Kennisdatabase: gidsen over SUP-productontwikkeling | iSupfactory',
     metaDescription:
       'Praktische gidsen over maatwerk SUP-productontwikkeling, de constructie van opblaasbare boards en het kiezen van SUP-uitrusting voor resorts, clubs en scholen.',
     h1: 'Kennisdatabase — productontwikkeling, uitgelegd',

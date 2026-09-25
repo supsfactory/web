@@ -14,7 +14,7 @@ hero:
   tagline: 'Laboratorium 04'
   title: 'Hydrodynamische testvijver'
   subtitle: 'Prestatievalidatie vóór het eerste prototype op ware grootte'
-  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
   image_alt: 'Hydrodynamische testvijver van Vatrad voor prestatietesten'
 
 intro: 'Het is een wijdverbreide misvatting dat hydrodynamische tests zijn voorbehouden aan schepen en racewagens. In werkelijkheid hangen de prestaties van een SUP-board — een planerende romp van 10 tot 14 voet — net als elk ander vaartuig af van de onderwatervorm. Boegprofiel, railradius, rocker en nat oppervlak hebben een dramatische impact op weerstand, planeringsrendement en stabiliteit. Bij {SITE.name} beheren wij een dedicated hydrodynamische testvijver waarmee we deze effecten op modelschaal kunnen kwantificeren — vóórdat we stof en tooling vastleggen voor een prototype op ware grootte.'

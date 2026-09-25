@@ -8,8 +8,8 @@ hero:
   title: 'Programmes Directs Usine Pour Distributeurs et Marques'
   subtitle: "Programmes de gros et de marque privée depuis une usine de fabrication de SUP gonflables. Achetez au prix direct usine, développez la gamme sous votre propre marque et expédiez vers des territoires exclusifs dans plus de 50 pays."
   image:
-    src: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-building.webp
-    alt: Opérations de fabrication et d'expédition de SUPsfactory
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: Opérations de fabrication et d'expédition de iSupfactory
 
 answer:
   label: 'Réponse directe'
@@ -20,7 +20,7 @@ intro:
   tagline: À propos du programme
   title: "Distribution de Marque Privée, Construite Sur une Capacité de Fabrication"
   body: |
-    SUPsfactory conçoit, construit et contrôle qualité chaque SUP gonflable, kayak et accessoire dans sa propre usine à Laixi, Qingdao. Un accord de marque privée avec nous signifie que la source d'approvisionnement est intégrée à votre marque : vous recevez des planches fabriquées sous votre propre nom par l'usine, et non du stock revendu par un autre distributeur.
+    iSupfactory conçoit, construit et contrôle qualité chaque SUP gonflable, kayak et accessoire dans sa propre usine à Laixi, Qingdao. Un accord de marque privée avec nous signifie que la source d'approvisionnement est intégrée à votre marque : vous recevez des planches fabriquées sous votre propre nom par l'usine, et non du stock revendu par un autre distributeur.
 
     Parce que nous planifions la production autour des prévisions de nos clients, nous pouvons programmer de grands runs pour le début de saison de l'hémisphère nord, stabiliser les coûts de fret par des commandes anticipées, et libérer du fonds de roulement avec des conditions de gros transparentes et des échéanciers de paiement convenus. Ingénierie, échantillonnage, contrôle qualité et documentation d'exportation : tout est géré en interne — aucun intermédiaire ni agent commercial dans la chaîne.
 
@@ -84,7 +84,7 @@ benefits:
 
 coverage:
   title: Distribution actuelle
-  subtitle: "SUPsfactory expédie actuellement directement vers ces marchés."
+  subtitle: "iSupfactory expédie actuellement directement vers ces marchés."
   regions:
     - name: Europe
       countries: 'France, Allemagne, Royaume-Uni, Espagne, Italie, Pays-Bas, Suède, Norvège, Pologne, Grèce'
@@ -106,7 +106,7 @@ faqs:
     - q: 'Quelle est la commande minimale pour un nouveau distributeur ?'
       a: "Les nouveaux partenaires de distribution ouvrent généralement avec une commande d'échantillons et d'approbation pré-production suivie d'un premier conteneur planifié selon leur saison. Les minimums exacts dépendent de la taille du territoire et de la gamme choisie ; votre responsable de compte confirme le volume d'ouverture lors de la planification de la gamme et de la marque."
     - q: 'Pouvons-nous vendre les planches sous notre propre marque ?'
-      a: "Oui. La marque privée est le modèle standard ici : les planches sont fabriquées sous votre marque avec vos graphismes, votre emballage et vos spécifications. SUPsfactory fabrique exclusivement pour ses clients et ne les concurrence jamais sur aucun marché."
+      a: "Oui. La marque privée est le modèle standard ici : les planches sont fabriquées sous votre marque avec vos graphismes, votre emballage et vos spécifications. iSupfactory fabrique exclusivement pour ses clients et ne les concurrence jamais sur aucun marché."
     - q: 'Les territoires sont-ils exclusifs ?'
       a: "Oui. Les programmes de distribution reposent sur des territoires exclusifs — chaque partenaire de gros couvre un pays ou une région défini et reçoit les prix et le support de programme pour ce marché, tel que défini dans l'accord commercial."
     - q: 'Proposez-vous le drop-shipping ?'

@@ -1,6 +1,6 @@
 meta:
   title: 'Garantía de Fabricación OEM y Aseguramiento de Calidad | {SITE}'
-  description: 'Términos de garantía de fabricación OEM para productos SUP hinchables y marinos fabricados por SUPsfactory: defectos cubiertos, duración, registros de lote documentados y gestión de reclamaciones.'
+  description: 'Términos de garantía de fabricación OEM para productos SUP hinchables y marinos fabricados por iSupfactory: defectos cubiertos, duración, registros de lote documentados y gestión de reclamaciones.'
   keywords:
     - 'garantía OEM'
     - 'garantía de fabricación'
@@ -11,13 +11,13 @@ label: 'Garantía OEM'
 headline: 'Garantía de Fabricación OEM y Aseguramiento de Calidad de Producto'
 subtitle: 'Cada tabla que fabricamos se construye contra una muestra aprobada y registros de lote documentados. Esta garantía define lo que aseguramos en los productos que hacemos bajo tu marca y cómo se resuelven las reclamaciones con esos registros.'
 seo:
-  headline: 'Garantía de Fabricación OEM y Aseguramiento de Calidad | SUPsfactory'
-  description: 'Garantía de fabricación para SUP hinchables y otros productos marinos producidos por SUPsfactory: 5 años de cobertura en tejido principal del tubo, costuras e integridad estructural del núcleo drop-stitch, más válvulas de inflado y accesorios instalados en fábrica.'
+  headline: 'Garantía de Fabricación OEM y Aseguramiento de Calidad | iSupfactory'
+  description: 'Garantía de fabricación para SUP hinchables y otros productos marinos producidos por iSupfactory: 5 años de cobertura en tejido principal del tubo, costuras e integridad estructural del núcleo drop-stitch, más válvulas de inflado y accesorios instalados en fábrica.'
   datePublished: '2024-01-01'
   dateModified: '2026-09-23'
 body: |
   <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
-    Esta Garantía de Fabricación se aplica a las tablas de SUP hinchables, kayaks y productos marinos hinchables fabricados por SUPsfactory — la división de fabricación marina de Qingdao Vatrad Group Co., Ltd. — bajo programas OEM, ODM y de marca privada. La fecha efectiva es la fecha verificable de producción del lote o de envío acordada en la orden de compra. El comprador (propietario de la marca) define la política de garantía para el usuario final en su mercado; esta garantía es el compromiso de la fábrica sobre los productos tal y como se fabrican.
+    Esta Garantía de Fabricación se aplica a las tablas de SUP hinchables, kayaks y productos marinos hinchables fabricados por iSupfactory — la división de fabricación marina de Qingdao Vatrad Group Co., Ltd. — bajo programas OEM, ODM y de marca privada. La fecha efectiva es la fecha verificable de producción del lote o de envío acordada en la orden de compra. El comprador (propietario de la marca) define la política de garantía para el usuario final en su mercado; esta garantía es el compromiso de la fábrica sobre los productos tal y como se fabrican.
   </p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
@@ -97,17 +97,17 @@ body: |
   <p>Si el producto se utiliza con fines comerciales, gubernamentales, sin ánimo de lucro, de chárter, de alquiler, docentes o para cualquier propósito distinto del uso recreativo privado, el periodo de garantía de todos los componentes se reduce a un (1) año desde la fecha efectiva. El uso en competiciones, de velocidad o de resistencia anula la garantía por completo, salvo que se cubra expresamente una configuración específica de competición en el acuerdo de compra.</p>
 
   <h2>Cómo realizar una reclamación de garantía</h2>
-  <p>Contacta con SUPsfactory con la orden de compra o referencia de lote y una descripción detallada del problema, incluidos los números de serie de las tablas cuando estén disponibles. La fábrica revisará la reclamación contra los registros del lote y te indicará los pasos para la inspección y el servicio.</p>
+  <p>Contacta con iSupfactory con la orden de compra o referencia de lote y una descripción detallada del problema, incluidos los números de serie de las tablas cuando estén disponibles. La fábrica revisará la reclamación contra los registros del lote y te indicará los pasos para la inspección y el servicio.</p>
   <p>Para consultas sobre el servicio de garantía, contacta con nosotros a través de nuestra <a href="/es/contact" class="text-sky-600 underline">página de contacto</a> con tu número de pedido y los datos del producto.</p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
     <h2 class="text-xl font-bold mb-3">Respaldado por un sistema de calidad documentado</h2>
-    <p class="text-sm text-gray-600 dark:text-gray-400">Cada tabla se prueba antes del embalaje — <a href="/es/factory/quality-inspection" class="text-sky-600 underline">7 puertas de inspección</a> registran resultados por número de serie y los lotes mantienen trazabilidad ERP de 10 años. Las reclamaciones de garantía se resuelven con estos registros de lote, no con suposiciones. Consulta el <a href="/es/quality" class="text-sky-600 underline">sistema de calidad completo</a> y descarga los <a href="https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">informes de inspección final</a>.</p>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Cada tabla se prueba antes del embalaje — <a href="/es/factory/quality-inspection" class="text-sky-600 underline">7 puertas de inspección</a> registran resultados por número de serie y los lotes mantienen trazabilidad ERP de 10 años. Las reclamaciones de garantía se resuelven con estos registros de lote, no con suposiciones. Consulta el <a href="/es/quality" class="text-sky-600 underline">sistema de calidad completo</a> y descarga los <a href="https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">informes de inspección final</a>.</p>
   </div>
 
   <h2>Artículos de terceros</h2>
   <p>El equipo, los componentes o los sistemas fabricados por terceros (aunque los instale la fábrica) están cubiertos exclusivamente por la garantía que ofrezca su respectivo fabricante. La fábrica renuncia expresamente a cualquier responsabilidad de garantía sobre dichos artículos de terceros.</p>
 
   <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
-    Esta declaración de garantía es un resumen de los términos de garantía de fabricación de la fábrica para programas OEM, ODM y de marca privada. El acuerdo de compra completo rige todos los términos y condiciones. Las especificaciones están sujetas a cambios sin previo aviso. SUPsfactory es la división de fabricación de Qingdao Vatrad Group.
+    Esta declaración de garantía es un resumen de los términos de garantía de fabricación de la fábrica para programas OEM, ODM y de marca privada. El acuerdo de compra completo rige todos los términos y condiciones. Las especificaciones están sujetas a cambios sin previo aviso. iSupfactory es la división de fabricación de Qingdao Vatrad Group.
   </p>

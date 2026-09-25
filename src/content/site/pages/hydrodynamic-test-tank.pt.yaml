@@ -14,7 +14,7 @@ hero:
   tagline: 'Laboratório 04'
   title: 'Vaso de prova hidrodinâmica'
   subtitle: 'Validação do desempenho antes do primeiro protótipo à escala real'
-  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
   image_alt: 'Vaso de prova hidrodinâmica da Vatrad para o teste de desempenho'
 
 intro: 'É uma convicção errada difundida que os testes hidrodinâmicos estejam reservados aos navios e aos veículos de corrida. Na realidade, o desempenho de uma prancha SUP — um casco planador de 10 a 14 pés — depende da sua forma subaquática exatamente como qualquer outro meio. Perfil de proa, raio do rail, rocker e superfície molhada têm um impacto dramático na resistência, na eficiência de planagem e na estabilidade. Na {SITE.name} gerimos um vaso de prova hidrodinâmica dedicado, que nos permite quantificar estes efeitos à escala de modelo — antes de comprometer tecido e tooling para um protótipo à escala real.'

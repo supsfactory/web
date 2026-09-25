@@ -1,5 +1,5 @@
 meta:
-  title: 'Controle van niet-conforme SUP''s & herbewerking | OEM-fabriek | SUPsfactory'
+  title: 'Controle van niet-conforme SUP''s & herbewerking | OEM-fabriek | iSupfactory'
   description: 'Controle van niet-conforme producten (ISO 9001:2015 paragraaf 8.7): NCR-blokkering, gecontroleerde herbewerking volgens SRI, onafhankelijke herverificatie en begeleide vernietiging.'
   dateModified: '2026-08-14'
   keywords:
@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Download de SOP NCP-controle (PDF)
       variant: primary
-      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
     - text: Download het afkeur- & vernietigingscertificaat (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
     - text: Kwaliteitscontrole aanvragen
       href: /contact
 
@@ -99,19 +99,19 @@ nc_photos:
   title: Blokkering, herbewerking & herverificatie in de praktijk
   subtitle: De foto''s uit onze werkplaats in Qingdao laten zien hoe niet-conforme planken fysiek worden gescheiden, onder gecontroleerde instructies worden herbewerkt en opnieuw worden geverifieerd vóór elke vrijgavebeslissing.
   features:
-    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
       alt: Opblaasbare SUP''s opgepompt in het luchtdichtheidstestgebied van de fabriek, bewaakt met digitale manometers
       title: Herverificatiepoort
       desc: 'Na de herbewerking keert elke plank terug naar het QC-testgebied voor de onafhankelijke verificatie: opgepompt en bewaakt met digitale manometers tegen de goedgekeurde projectacceptatiecriteria — nooit een gedeeltelijke verificatie.'
-    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
       alt: Kwaliteitscontrolechecklists en gecontroleerde blokstatusetiketten bij het inspectiestation van de fabriek
       title: Blokkerings- & quarantainestation
       desc: 'Inspectiestation met QC-checklist en statusmarkering. Elk artikel dat niet aan de acceptatiecriteria voldoet, wordt gemarkeerd als HOLD / QUARANTINE, tegen een NCR geregistreerd en fysiek gescheiden — het mag de verpakking pas bereiken na een geautoriseerde beslissing en bindende herverificatie.'
-    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
       alt: Een QC-technicus voert een gecontroleerde luchtdichtheidsherbewerking uit op een opblaasbare SUP bij het herbewerkstation van de fabriek
       title: Gecontroleerd herbewerkstation
       desc: 'De herbewerking vindt plaats op een speciaal station onder een goedgekeurde SRI-instructie: het defect wordt gemarkeerd, de plank blijft op HOLD en keert na de vereiste uithardtijd terug naar het testgebied voor herverificatie tegen de oorspronkelijke acceptatiecriteria.'
-    - image: https://assets.supsfactory.com/site/quality/qc-workshop-inspection-demo.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-inspection-demo.avif
       alt: Demonstratie in de werkplaats van de kwaliteitscontroles in de fabriek van Qingdao
       title: QC-demonstratie in de werkplaats
       desc: 'Demonstratiefoto uit de werkplaats die laat zien hoe de kwaliteitscontroles in de praktijk worden toegepast en de inspectie- en statusovergangsregistraties ondersteunt waarnaar deze pagina doorlopend verwijst.'
@@ -189,13 +189,13 @@ nc_downloads:
       icon_bg: blue
       title: SOP controle van niet-conforme producten (PDF)
       desc: 'Tweetalige SOP gebaseerd op ISO 9001:2015 paragraaf 8.7: controle in een cyclus van 8 fases, beslissingsmatrix voor SUP-defecten, NCR-datastructuur en kwaliteitsverbintenis naar de klant.'
-      link: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
       link_label: PDF downloaden
     - icon: S
       icon_bg: orange
       title: Afkeur- & vernietigingscertificaat (PDF)
       desc: 'VAT-QA-SCRAP-CERT-2026: product- en partij-traceerbaarheid, MRB-conclusie, fysiek vernietigingsprotocol in 4 fases, velden voor getuigenfoto''s en dubbele ondertekeningsruimte.'
-      link: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
       link_label: PDF downloaden
     - icon: R
       icon_bg: green
@@ -237,6 +237,6 @@ cta:
       variant: primary
       href: /contact
     - text: Download de SOP NCP-controle (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
     - text: Download het afkeurcertificaat (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

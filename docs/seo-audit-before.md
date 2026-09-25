@@ -1,7 +1,7 @@
 # SEO / GEO / AEO Audit — Before
 
 Date: 2026-09-23
-Scope: supsfactory.com — SUP OEM/ODM manufacturer positioning per the "0923优化" implementation spec.
+Scope: isupfactory.com — SUP OEM/ODM manufacturer positioning per the "0923优化" implementation spec.
 
 ## 1. Architecture summary
 
@@ -20,7 +20,7 @@ Scope: supsfactory.com — SUP OEM/ODM manufacturer positioning per the "0923优
 Every match falls into one of three non-public categories:
 
 1. Code comments describing the ported prior codebase (e.g. `features/site/llm.ts`, `features/ai/corpus.ts`, `features/content/*`, `sitemap-*.xml.ts`, `rss.xml.ts`).
-2. R2 asset URLs (`https://assets.supsfactory.com/images/sups/**/afarer-*.webp`) referenced from page YAML / product MDX / `asset-map.ts` / `brand-constants.ts`. R2 object names are not renameable without asset ops ("where practical" exemption).
+2. R2 asset URLs (`https://assets.isupfactory.com/images/sups/**/afarer-*.webp`) referenced from page YAML / product MDX / `asset-map.ts` / `brand-constants.ts`. R2 object names are not renameable without asset ops ("where practical" exemption).
 3. Legacy 301 source paths (`navigation.ts` LEGACY_REDIRECTS, `edge-redirects.ts`) that must keep serving inbound equity.
 
 Zero public rendered text, metadata, headings, alt text, JSON-LD, footer or generated llms output contains "Afarer". Product dictionaries / UI dictionaries are clean.
@@ -52,7 +52,7 @@ Other live single-segment routes: about/identity, b2b-solutions-matrix, factory-
 
 ## 4. Metadata inventory
 
-- Home SEO title (en): `Custom Inflatable SUP Manufacturing | OEM/ODM for Brands & Distributors` → target: `Inflatable SUP Manufacturer & OEM/ODM Factory | SUPsfactory`.
+- Home SEO title (en): `Custom Inflatable SUP Manufacturing | OEM/ODM for Brands & Distributors` → target: `Inflatable SUP Manufacturer & OEM/ODM Factory | iSupfactory`.
 - Home H1 (en, hero.titlePre+Accent): `Custom SUP Product Manufacturing for Brands, Distributors & Organizations` → target: `Inflatable SUP Manufacturer & OEM/ODM Factory`.
 - Every indexable page has unique title/description (YAML meta). Canonical + hreflang + OG + Twitter emitted by `localeHead`/`contentSingleRoute`.
 - Breadcrumb + FAQ JSON-LD on homepage; product JSON-LD per product; Organization JSON-LD at `/entity.json`.

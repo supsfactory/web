@@ -1,5 +1,5 @@
 meta:
-  title: 'OEM Onboarding Guide — Step-by-Step Process from First Contact to Production | SUPsfactory'
+  title: 'OEM Onboarding Guide — Step-by-Step Process from First Contact to Production | iSupfactory'
   description: 'OEM onboarding guide: NDA, feasibility review, sample production, approval, pre-production planning, production QC and shipping. Step-by-step with timelines.'
   dateModified: '2026-08-20'
   keywords:
@@ -14,7 +14,7 @@ meta:
 hero:
   tagline: 'OEM Buyer Onboarding'
   title: 'Your First SUP Order, Step by Step'
-  subtitle: 'From first contact to delivered boards, the OEM onboarding process at SUPsfactory runs through seven defined gates — each with a clear timeline, a documented deliverable, and a go/no-go checkpoint. No ambiguity, no hidden steps, no surprises after deposit.'
+  subtitle: 'From first contact to delivered boards, the OEM onboarding process at iSupfactory runs through seven defined gates — each with a clear timeline, a documented deliverable, and a go/no-go checkpoint. No ambiguity, no hidden steps, no surprises after deposit.'
   actions:
     - variant: primary
       text: Start Your Project Brief
@@ -108,7 +108,7 @@ faqs:
     - q: 'What is the minimum order for a first OEM run?'
       a: 'The entry point is tiered: 1–2 samples first (ready in 7–12 days), a trial or pilot order of 20–50 boards (production in 25–35 days), then standard volume runs of 90–100+ boards per approved configuration. Small-batch co-branding starts from 5–10 units when no development stage is needed. Sample fees are credited toward your production order.'
     - q: 'How is IP protection handled during onboarding?'
-      a: 'Your designs and specifications are protected under the NDA signed before any proprietary information is shared. All artwork, BOM data and technical files are stored in access-controlled systems with audit trails. In OEM mode, you own all IP. In ODM mode, the adapted platform IP is shared per agreement. In Private Label mode, IP remains with SUPsfactory and you license the brand application.'
+      a: 'Your designs and specifications are protected under the NDA signed before any proprietary information is shared. All artwork, BOM data and technical files are stored in access-controlled systems with audit trails. In OEM mode, you own all IP. In ODM mode, the adapted platform IP is shared per agreement. In Private Label mode, IP remains with iSupfactory and you license the brand application.'
     - q: 'What quality guarantees apply to a first order?'
       a: 'Every board — sample, trial or volume — passes the same 7-stage inspection gate system: incoming material inspection, drop-stitch fabric inspection, welding & assembly, 24-hour pressure and airtightness testing (18.0 PSI hold, auto-reject above 0.50 PSI drop), EVA pad & accessory installation, graphic & branding QC, and final packaging & documentation. Quality is never downscaled for smaller orders.'
 

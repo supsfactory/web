@@ -27,8 +27,8 @@ jobs:
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
           SITE_ID: ${{ vars.SITE_ID }}
         run: |
-          R2_BUCKET="${CF_PROD_R2_BUCKET:-${SITE_ID:-supsfactory}-files-prod}"
-          CDN_DOMAIN="assets.${CF_PROD_DOMAIN:-${SITE_ID:-supsfactory}.com}"
+          R2_BUCKET="${CF_PROD_R2_BUCKET:-${SITE_ID:-isupfactory}-files-prod}"
+          CDN_DOMAIN="assets.${CF_PROD_DOMAIN:-${SITE_ID:-isupfactory}.com}"
           echo "r2_bucket=$R2_BUCKET" >> "$GITHUB_OUTPUT"
           echo "cdn_domain=$CDN_DOMAIN" >> "$GITHUB_OUTPUT"
 
@@ -137,7 +137,7 @@ jobs:
           CDN_DOMAIN: ${{ steps.config.outputs.cdn_domain }}
         run: |
           echo "--- images/sups/products (sample) ---"
-          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/products/supsfactory-og-default&per_page=20" \
+          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/products/isupfactory-og-default&per_page=20" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             | jq '{success, keys: [.result[].key]}'
           echo "--- site/downloads (compressed PDFs) ---"
@@ -145,7 +145,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             | jq '{success, keys: [.result[].key]}'
           echo "--- CDN reachability (hero responsive variants) ---"
-          for f in supsfactory-og-default.avif supsfactory-og-default-768.avif supsfactory-og-default-480.avif supsfactory-og-default.webp; do
+          for f in isupfactory-og-default.avif isupfactory-og-default-768.avif isupfactory-og-default-480.avif isupfactory-og-default.webp; do
             code=$(curl -s -o /dev/null -w '%{http_code}' --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/sups/products/$f?v=$(date +%s)")
             echo "$code https://$CDN_DOMAIN/images/sups/products/$f"
           done

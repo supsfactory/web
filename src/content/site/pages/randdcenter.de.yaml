@@ -105,27 +105,27 @@ labs_section:
   tagline: Labore
   title: Unsere Labore
   labs:
-    - image: https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
       title: PVC-Stofflabor
       description: Kontinuierliche Forschung und Prüfung von PVC- und Hypalon-Schlauchmaterialien auf Zugfestigkeit, UV-Beständigkeit, Abrieb und Kälteflexibilität, um langfristige Zuverlässigkeit in marinen Umgebungen sicherzustellen.
       href: /de/randdcenter/pvc-fabric-lab
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-2.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
       title: Rumpfengineering-Studio
       description: CAD-gestütztes Design und Finite-Elemente-Analyse von HDPE-, Aluminium- und Glasfaser-Rümpfen. Jeder Rumpf wird vor dem Bau des ersten Prototyps digital auf Spannungsverteilung und Stoßfestigkeit simuliert.
       href: /de/randdcenter/hull-engineering
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing-3.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
       title: HF-Schweißzentrum
       description: Dedizierte Hochfrequenz-Schweißeinrichtung mit präziser Temperatur- und Druckregelung, die hochfeste, luftdichte Nähte nach den Industriestandards für aufblasbare Wasserfahrzeuge erzeugt.
       href: /de/randdcenter/rf-welding
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
       title: Hydrodynamischer Testtank
       description: Modellprüfung in unserem eigenen Testtank zur Optimierung von Rumpfform, Gleitverhalten, Stabilität und Effizienz über eine Reihe von Last- und Seezuständen hinweg.
       href: /de/randdcenter/hydrodynamic-test-tank
-    - image: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
       title: Prototypenwerkstatt
       description: Einrichtung in Originalgröße für Prototyping und Ausrüstung, in der neue Modelle gebaut, ausgestattet und seeerprobt werden. Jeder Prototyp durchläuft vor der Produktionsfreigabe ein Wasser-Testprogramm von mindestens 20 Stunden.
       href: /de/randdcenter/prototype-workshop
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
       title: Qualitäts- & Prüflabor
       description: Dediziertes Qualitätssicherungslabor für Zugprüfungen, Luftdichtigkeit-Zyklen, Nahtschälprüfungen und Materialzertifizierung, um sicherzustellen, dass jedes die Werkstatt verlassende Boot unseren veröffentlichten Spezifikationen entspricht.
       href: /de/randdcenter/quality-inspection-lab

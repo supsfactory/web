@@ -25,7 +25,7 @@ De sterke punten van Hypalon – een buitengewone chemische en UV-bestendigheid 
 
 ## Waar Hypalon in het Vatrad-assortiment opduikt
 
-Hypalon blijft het gespecificeerde materiaal voor de Vatrad-RIB-modellen (RIB 330, RIB 450 Patrol), ontworpen voor professioneel maritiem gebruik. De SUP's en kajaks uit de SUPsfactory-lijn gebruiken uitsluitend PVC van maritieme kwaliteit, en elke PVC-partij wordt vóór de productie onafhankelijk getest in ons PVC-textiellaboratorium.
+Hypalon blijft het gespecificeerde materiaal voor de Vatrad-RIB-modellen (RIB 330, RIB 450 Patrol), ontworpen voor professioneel maritiem gebruik. De SUP's en kajaks uit de iSupfactory-lijn gebruiken uitsluitend PVC van maritieme kwaliteit, en elke PVC-partij wordt vóór de productie onafhankelijk getest in ons PVC-textiellaboratorium.
 
 ## De testresultaten
 

@@ -1,4 +1,4 @@
-﻿import { test, expect } from 'vitest'
+import { test, expect } from 'vitest'
 import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
 import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL } from '@/features/content/guide-content'
@@ -39,9 +39,9 @@ test('llms-full.txt never advertises edge-301 or legacy-shadowed paths', () => {
 })
 
 test('llms.txt index covers every live page and no shadowed paths', () => {
-  const index = llmBrandIndex('https://supsfactory.com')
+  const index = llmBrandIndex('https://isupfactory.com')
   const listed = indexPaths(index)
-  const live = getContentPages().map((p) => `${index.includes('https://supsfactory.com') ? 'https://supsfactory.com' : ''}${p.path}`)
+  const live = getContentPages().map((p) => `${index.includes('https://isupfactory.com') ? 'https://isupfactory.com' : ''}${p.path}`)
 
   // Coverage via the path portion (index links are now absolute URLs).
   const listedPaths = new Set([...listed].map((u) => (u.startsWith('https://') ? new URL(u).pathname : u)))
@@ -55,15 +55,15 @@ test('llms.txt index covers every live page and no shadowed paths', () => {
 })
 
 test('llms.txt French section: /fr absolute links, French homepage note and guides', () => {
-  const section = llmFrenchIndex('https://supsfactory.com')
+  const section = llmFrenchIndex('https://isupfactory.com')
   expect(section).toContain('## Français')
   expect(section).toContain('— accueil')
   expect(section).toContain('### Français: Produits')
   expect(section).toContain('### Français: Guides')
   expect(section).toContain('### Français: Questions fréquentes')
-  expect(section).toContain('https://supsfactory.com/fr/')
+  expect(section).toContain('https://isupfactory.com/fr/')
   for (const g of GUIDES_FR) {
-    expect(section, `llms.txt French section missing guide ${g.slug}`).toContain(`https://supsfactory.com/fr/guides/${g.slug}`)
+    expect(section, `llms.txt French section missing guide ${g.slug}`).toContain(`https://isupfactory.com/fr/guides/${g.slug}`)
   }
 })
 
@@ -81,15 +81,15 @@ test('llms-full.txt French section: product/news/tech/case/guide bodies present'
 })
 
 test('llms.txt German section: /de absolute links, German homepage note and guides', () => {
-  const section = llmGermanIndex('https://supsfactory.com')
+  const section = llmGermanIndex('https://isupfactory.com')
   expect(section).toContain('## Deutsch')
   expect(section).toContain('— Startseite')
   expect(section).toContain('### Deutsch: Produkte')
   expect(section).toContain('### Deutsch: Guides')
   expect(section).toContain('### Deutsch: Häufig gestellte Fragen')
-  expect(section).toContain('https://supsfactory.com/de/')
+  expect(section).toContain('https://isupfactory.com/de/')
   for (const g of GUIDES_DE) {
-    expect(section, `llms.txt German section missing guide ${g.slug}`).toContain(`https://supsfactory.com/de/guides/${g.slug}`)
+    expect(section, `llms.txt German section missing guide ${g.slug}`).toContain(`https://isupfactory.com/de/guides/${g.slug}`)
   }
 })
 
@@ -107,15 +107,15 @@ test('llms-full.txt German section: product/news/tech/case/guide bodies present'
 })
 
 test('llms.txt Italian section: /it absolute links, Italian homepage note and guides', () => {
-  const section = llmItalianIndex('https://supsfactory.com')
+  const section = llmItalianIndex('https://isupfactory.com')
   expect(section).toContain('## Italiano')
   expect(section).toContain('— Homepage')
   expect(section).toContain('### Italiano: Prodotti')
   expect(section).toContain('### Italiano: Guides')
   expect(section).toContain('### Italiano: Domande frequenti')
-  expect(section).toContain('https://supsfactory.com/it/')
+  expect(section).toContain('https://isupfactory.com/it/')
   for (const g of GUIDES_IT) {
-    expect(section, `llms.txt Italian section missing guide ${g.slug}`).toContain(`https://supsfactory.com/it/guides/${g.slug}`)
+    expect(section, `llms.txt Italian section missing guide ${g.slug}`).toContain(`https://isupfactory.com/it/guides/${g.slug}`)
   }
 })
 
@@ -133,15 +133,15 @@ test('llms-full.txt Italian section: product/news/tech/case/guide bodies present
 })
 
 test('llms.txt Portuguese section: /pt absolute links, Portuguese homepage note and guides', () => {
-  const section = llmPortugueseIndex('https://supsfactory.com')
+  const section = llmPortugueseIndex('https://isupfactory.com')
   expect(section).toContain('## Português')
   expect(section).toContain('— Homepage')
   expect(section).toContain('### Português: Produtos')
   expect(section).toContain('### Português: Guides')
   expect(section).toContain('### Português: Perguntas frequentes')
-  expect(section).toContain('https://supsfactory.com/pt/')
+  expect(section).toContain('https://isupfactory.com/pt/')
   for (const g of GUIDES_PT) {
-    expect(section, `llms.txt Portuguese section missing guide ${g.slug}`).toContain(`https://supsfactory.com/pt/guides/${g.slug}`)
+    expect(section, `llms.txt Portuguese section missing guide ${g.slug}`).toContain(`https://isupfactory.com/pt/guides/${g.slug}`)
   }
 })
 
@@ -159,15 +159,15 @@ test('llms-full.txt Portuguese section: product/news/tech/case/guide bodies pres
 })
 
 test('llms.txt Dutch section: /nl absolute links, Dutch homepage note and guides', () => {
-  const section = llmDutchIndex('https://supsfactory.com')
+  const section = llmDutchIndex('https://isupfactory.com')
   expect(section).toContain('## Nederlands')
   expect(section).toContain('— Homepage')
   expect(section).toContain('### Nederlands: Producten')
   expect(section).toContain('### Nederlands: Guides')
   expect(section).toContain('### Nederlands: Veelgestelde vragen')
-  expect(section).toContain('https://supsfactory.com/nl/')
+  expect(section).toContain('https://isupfactory.com/nl/')
   for (const g of GUIDES_NL) {
-    expect(section, `llms.txt Dutch section missing guide ${g.slug}`).toContain(`https://supsfactory.com/nl/guides/${g.slug}`)
+    expect(section, `llms.txt Dutch section missing guide ${g.slug}`).toContain(`https://isupfactory.com/nl/guides/${g.slug}`)
   }
 })
 

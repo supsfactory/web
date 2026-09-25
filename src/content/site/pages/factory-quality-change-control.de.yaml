@@ -1,5 +1,5 @@
 meta:
-  title: 'Änderungskontrolle & Validierung von Nacharbeitsparametern | SUPsfactory'
+  title: 'Änderungskontrolle & Validierung von Nacharbeitsparametern | iSupfactory'
   description: 'Änderungskontrolle von Nacharbeitsparametern unter ISO 9001: ECR, Risikoklassifizierung, Freigabematrix, Validierung und Nachprüfung für die SUP-Produktion.'
   dateModified: '2026-08-14'
   keywords:
@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Änderungskontroll-SOP herunterladen (PDF)
       variant: primary
-      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
     - text: Ausführungs-Anhang A herunterladen (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
     - text: Qualitätsprüfung anfordern
       href: /contact
 
@@ -248,19 +248,19 @@ cc_photos:
   subtitle: Fotos aus unserer Qingdao-Werkstatt zeigen jeden kontrollierten Nacharbeitsprozess mit seinen kalibrierten Messgeräten, definierten Parametern und Vor-Ort-Aufzeichnungen — dieselben Nachweise, die Inspektoren jederzeit anfordern können.
   grid: 'sm:grid-cols-2'
   features:
-    - image: https://assets.supsfactory.com/site/quality/cc-pinhole-repair.avif
+    - image: https://assets.isupfactory.com/site/quality/cc-pinhole-repair.avif
       alt: Techniker repariert ein Nadelloch-Mikroleck an einem aufblasbaren SUP mit Heißluftgerät und Druckrolle
       title: Nadellochreparatur
       desc: 'Ein Techniker behandelt ein markiertes Mikroleck mit einem auf die 60°C-Spezifikation eingestellten Heißluftgerät und einer Druckrolle; Seifenwasser bestätigt die Leckposition, und der QC-signierte ECR-Schein auf der Bank zeigt das Änderungskontroll-Gate (Poka-Yoke Nr. 1).'
-    - image: https://assets.supsfactory.com/site/quality/cc-rail-seam-bonding.avif
+    - image: https://assets.isupfactory.com/site/quality/cc-rail-seam-bonding.avif
       alt: Techniker trägt zweikomponentigen PU-Klebstoff mit präzisem Pinsel unter kontrolliertem Klima auf eine Railnaht auf
       title: Railnaht-Verklebung
       desc: 'Zweikomponentiger PU-Klebstoff wird mit einem präzisen Pinsel auf die Railnaht aufgetragen, während das Board in einer Vorrichtungsklemme gehalten wird; das Vor-Ort-Thermometer/Hygrometer zeigt das kontrollierte Fenster von 24°C / 55 % rel. Feuchte.'
-    - image: https://assets.supsfactory.com/site/quality/cc-valve-base-integrity.avif
+    - image: https://assets.isupfactory.com/site/quality/cc-valve-base-integrity.avif
       alt: Digitaler Drehmomentschlüssel auf 19 N·m eingestellt, der den Ventilkern gegen das Drop-Stitch-Material sichert
       title: Ventilbasis-Integrität
       desc: 'Ein digitaler Drehmomentschlüssel, auf die 19-N·m-Spezifikation eingestellt, macht den finalen Anzug des Ventilkerns und dichtet die Basis gegen das Drop-Stitch-Material ab — das Messgerät trägt das grüne CALIBRATED-Etikett.'
-    - image: https://assets.supsfactory.com/site/quality/cc-pressure-hold-testing.avif
+    - image: https://assets.isupfactory.com/site/quality/cc-pressure-hold-testing.avif
       alt: Fertige aufblasbare SUP-Boards, die im finalen Druckhalttestbereich an digitale Druckrekorder angeschlossen sind
       title: Finale Druckhalt-Prüfung
       desc: 'Fertige Boards werden an hochpräzise digitale Druckrekorder angeschlossen; das Master-Manometer zeigt die 18.00-PSI-Referenz, und alle Testdaten werden automatisch hochgeladen und mit dem Vertragsrückverfolgbarkeitssystem verknüpft.'
@@ -296,13 +296,13 @@ cc_downloads:
       icon_bg: blue
       title: Nacharbeits-Änderungskontroll-SOP (PDF)
       desc: 'QMS-SOP-QC-CC-001 Rev 2.0: Änderungsklassifizierungstabelle, abteilungsübergreifende Autorisierungsmatrix, technische Validierungsparameter, Eindämmungs-Rotlinien und Qualitätssignaturblöcke.'
-      link: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
       link_label: PDF herunterladen
     - icon: A
       icon_bg: green
       title: Ausführungs-Anhang A (PDF)
       desc: 'ECR-Datenschema, die quantifizierte technische Ausführungsmatrix für die vier Kernnacharbeitsprozesse, Poka-Yoke-Blocklogik und der dreiparteien Freigabesignaturblock.'
-      link: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
       link_label: PDF herunterladen
     - icon: R
       icon_bg: purple
@@ -344,6 +344,6 @@ cta:
       variant: primary
       href: /contact
     - text: Änderungskontroll-SOP herunterladen (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
     - text: Ausführungs-Anhang A herunterladen (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

@@ -119,27 +119,27 @@ workshops_section:
   workshops:
     - title: PVC-Zuschnitt & Materialvorbereitung
       description: Automatische CNC-Schneidemaschinen verarbeiten PVC-, Hypalon- und Drop-Stitch-Gewebe mit submillimetergenauer Präzision. Computersoptimierte Verschachtelung minimiert Materialabfall und stellt sicher, dass jedes Panel vor dem Schweißen seine Maße spezifikation erfüllt.
-      image: https://assets.supsfactory.com/images/sups/hero/production-dept.webp
+      image: https://assets.isupfactory.com/images/sups/hero/production-dept.webp
       alt: CNC-PVC-Schneidemaschine bereitet aufblasbare SUP-Gewebepaneele in der Qingdao-Fabrik vor
     - title: Schlauchschweißen & Heißsiegeln
       description: Eigene Schweißwerkstatt mit Heißsiegemaschinen und HF-Dielektrikpressen. Heißluftsiegelgeräte verbinden und verschweißen PVC-Schlauchkammern, während HF-Schweißungen hochfeste luftdichte Nähte erzeugen, die die Anforderungen übertreffen.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
       alt: HF-Schweißmaschine versiegelt Schlauchkammern von Schlauchbooten in der Qingdao-Fabrik
     - title: Drop-Stitch-Kernverklebung
       description: Drop-Stitch-Kerne der SUP-Boards werden mittels Heißlaminierung mit den äußeren PVC-Laminaten verklebt. Tausende interne Polyesterfäden verbinden Ober- und Unterschicht und erzeugen eine steife Struktur bei 12-15 PSI. Railbänder sind für die Kantenfestigkeit dreilagig fusionverklebt.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
       alt: Fertigungslinie für aufblasbare SUPs mit Drop-Stitch-Kernverklebungsanlage in der Qingdao-Fabrik
     - title: SUP-Druck & Dekoration
       description: SUP-Boards werden mittels Digitaldruck für vollfarbige Grafiken und Siebdruck für Logos und sich wiederholende Muster verziert. Digitaldrucker erzeugen fotorealistische Deckdesigns, während der Siebdruck langlebige, kräftige Markenzeichen liefert.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
       alt: Innenbereich der Produktionsabteilung in der aufblasbaren SUP-Fabrik Qingdao
     - title: Endmontage & Ausrüstung
       description: Montagelinie, in der Ventile, D-Ringe, Griffe, Finboxes und Deckpads auf jedem SUP-Board installiert werden. Jedes Board folgt einer 100-Punkte-Montagecheckliste, die vom Teamleiter abgezeichnet wird.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
       alt: Produktionsabteilung mit Montagearbeitsplätzen in der Qingdao-Fabrik
     - title: Qualitätsprüfung & Inspektion
       description: Jedes fertiggestellte Board durchläuft vor dem Versand eine verbindliche Luftretentionsprüfung, eine Naht-Abziehverifizierung und einen vollständigen Systemcheck. Unser Qualitätslabor arbeitet unabhängig von der Produktion und berichtet direkt an das Management.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
       alt: Druckprüfung eines aufblasbaren SUPs auf Luftretention vor dem Versand in der Qingdao-Fabrik
 
 equipment_section:

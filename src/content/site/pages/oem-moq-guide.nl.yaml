@@ -47,7 +47,7 @@ moq_tiers:
     - icon: B
       icon_bg: green
       title: 'Co-branding voor kleine partijen — onder de 20 eenheden'
-      desc: 'Een oplossing met lage drempel, gebouwd op onze in de praktijk bewezen jaarlijkse productcollecties voor clubs, verhuurcentra en resorts — zonder zware magazijnvoorraden. · Vaste romp en geometrie: in de praktijk bewezen rompvormen met CE/ISO-25649-conformiteit · Primaire identificatie: officiële SUPsfactory-branding in de centrale zone · Secundaire persoonlijke branding: jouw logo op neus of zijrails · 100% inspectie per plank of deels met druk- en dichtheidstest van 24 uur'
+      desc: 'Een oplossing met lage drempel, gebouwd op onze in de praktijk bewezen jaarlijkse productcollecties voor clubs, verhuurcentra en resorts — zonder zware magazijnvoorraden. · Vaste romp en geometrie: in de praktijk bewezen rompvormen met CE/ISO-25649-conformiteit · Primaire identificatie: officiële iSupfactory-branding in de centrale zone · Secundaire persoonlijke branding: jouw logo op neus of zijrails · 100% inspectie per plank of deels met druk- en dichtheidstest van 24 uur'
       link: '/nl/contact#cobranding'
       link_label: 'Start co-branding voor kleine partijen'
 
@@ -116,13 +116,13 @@ moq_downloads:
       icon_bg: blue
       title: 'Gids voor flexibele branding en MOQ (PDF)'
       desc: 'Officiële B2B-gids (Deel I, DOC-MOQ-EXP-2026-EN, gepubliceerd op 14 aug 2026): de technische logica achter de opbrengst van 150 m drop-stitch rollen (90–100 planken), het co-brandingprogramma vanaf 5–10 eenheden, transparante zeefdrukkosten en de drie productieniveaus.'
-      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Download de gids (PDF)'
     - icon: P
       icon_bg: green
       title: 'Beleid flexibele branding en co-branding (PDF)'
       desc: 'Officieel beleidsdossier (Deel 1, POL-MOQ-2026-V1): de regels voor co-branding in kleine partijen, het projectgebaseerde MOQ-kader, de vier factoren die minimumhoeveelheden bepalen en de gezamenlijke ondertekening door VP Sales, hoofdingenieur en QA-directeur.'
-      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
       link_label: 'Download de policy (PDF)'
 
 moq_faqs:

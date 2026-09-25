@@ -1,6 +1,6 @@
 meta:
   title: 'OEM-Vertrauen & Fabrik-Sicherheit —Verifizieren Sie unsere Fabrik vor Ihrer Bestellung'
-  description: 'Wie Käufer SUPsfactory vor der Bestellung verifizieren: offizielle Registrierung, Fabrikaudits, Ingenieure unter NDA und Drittprüfungen (SGS/TÜV/BV/Intertek).'
+  description: 'Wie Käufer iSupfactory vor der Bestellung verifizieren: offizielle Registrierung, Fabrikaudits, Ingenieure unter NDA und Drittprüfungen (SGS/TÜV/BV/Intertek).'
   dateModified: '2026-08-14'
   keywords:
     - 'Verifizierung der SUP-OEM-Fabrik'
@@ -65,7 +65,7 @@ trust_steps:
   steps:
     - step: '01'
       title: 'Verifizierung der offiziellen Entität'
-      desc: 'Der Käufer forderte die chinesische Gewerberegistrierung und die Exporthandelslizenz an. Die juristische Person hinter SUPsfactory ist die Qingdao Vatrad Group Co., Ltd., ein seit 2012 in Qingdao, Shandong registrierter Hersteller — über das nationale Register unter NDA verifiziert.'
+      desc: 'Der Käufer forderte die chinesische Gewerberegistrierung und die Exporthandelslizenz an. Die juristische Person hinter iSupfactory ist die Qingdao Vatrad Group Co., Ltd., ein seit 2012 in Qingdao, Shandong registrierter Hersteller — über das nationale Register unter NDA verifiziert.'
     - step: '02'
       title: 'Physische Fabrik & Standortaudit'
       desc: 'Ein Fabrikaudit (persönlich und per Video-Durchgang) bestätigte die 12,500 m² große Anlage: vier Spezialwerkstätten, 350+ Mitarbeiter, vier automatisierte Linien und eine Monatsproduktion von etwa 10.000 Boards. Der Auditbericht wird zu den Vertragsunterlagen abgelegt.'
@@ -89,8 +89,8 @@ trust_faqs:
   tagline: 'FAQ'
   title: 'Die 12 Bedenken, die Käufer vor der Bestellung stellen'
   items:
-    - q: 'Ist SUPsfactory wirklich eine Fabrik oder ein Handelsunternehmen?'
-      a: 'SUPsfactory ist die SUP-Produktentwicklungs- und Fertigungsdivision der Qingdao Vatrad Group Co., Ltd. Wir betreiben die 12,500 m² große Anlage in Qingdao selbst — Design, Zuschnitt, Schweißen, Montage und Prüfung finden in einer Einrichtung statt. Es gibt keine Übergaben über Handelsunternehmen: Die Personen, die Ihre Fragen beantworten, sind die Personen, die Ihre Boards bauen.'
+    - q: 'Ist iSupfactory wirklich eine Fabrik oder ein Handelsunternehmen?'
+      a: 'iSupfactory ist die SUP-Produktentwicklungs- und Fertigungsdivision der Qingdao Vatrad Group Co., Ltd. Wir betreiben die 12,500 m² große Anlage in Qingdao selbst — Design, Zuschnitt, Schweißen, Montage und Prüfung finden in einer Einrichtung statt. Es gibt keine Übergaben über Handelsunternehmen: Die Personen, die Ihre Fragen beantworten, sind die Personen, die Ihre Boards bauen.'
     - q: 'Mit wem werde ich während meines Projekts konkret zu tun haben?'
       a: 'Mit einem benannten Projektingenieur und einem benannten QC-Ansprechpartner sowie den Abteilungsleitern, die Ihre Dokumente unterzeichnen. Sie können direkt mit dem Chefingenieur, dem QA-Direktor oder dem Werksleiter sprechen — vor und nach der Bestellung. Zwischen Ihnen und den ausführenden Personen sitzt keine Account-Manager-Ebene.'
     - q: 'Kann ich die Fabrik besuchen oder auditieren?'
@@ -134,13 +134,13 @@ trust_downloads:
       icon_bg: blue
       title: 'OEM-Käufer-Vertrauen & Fabrik-Sicherheitsleitfaden (PDF)'
       desc: 'Offizieller B2B-Leitfaden (Teil II, DOC-ENG-2026-EN): Fabrikverifizierung Schritt für Schritt — Entitätsregistrierung, physisches Audit, echte Ingenieure, QMS-Unterlagen, Drittprüfung, Vertragsschutz und Governance-Unterzeichnungen.'
-      link: 'https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link: 'https://assets.isupfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
       link_label: 'Leitfaden herunterladen (PDF)'
     - icon: P
       icon_bg: green
       title: 'Flexible Markenbildung & MOQ-Leitfaden (PDF)'
       desc: 'Offizieller B2B-Leitfaden (Teil I, DOC-MOQ-EXP-2026-EN): die technische Logik hinter den 150-m-Drop-stitch-Rollenerträgen (90–100 Boards), Co-Branding ab 5–10 Einheiten, Pilotchargen 20–50 Einheiten und die drei Produktionsstufen.'
-      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'MOQ-Leitfaden herunterladen (PDF)'
     - icon: Q
       icon_bg: orange

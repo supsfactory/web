@@ -1,7 +1,7 @@
 /**
  * Uploads the bundled brand image tree to R2 under `images/sups/`.
  *
- * Source:  scripts/brand-images/   (41 referenced sources, named `supsfactory-*`)
+ * Source:  scripts/brand-images/   (41 referenced sources, named `isupfactory-*`)
  * Target:  R2 bucket, key prefix `images/sups/` so the CDN URLs match the
  *          rewrite in src/features/content/assets.ts.
  *
@@ -48,7 +48,7 @@ const KEY_PREFIX = flagValue('prefix', 'images/sups/')
 const CACHE_CONTROL = flagValue('cache', 'public, max-age=31536000, immutable')
 const CONCURRENCY = 8
 
-const BUCKET = process.env.R2_BUCKET ?? `${process.env.SITE_ID ?? 'supsfactory'}-files-prod`
+const BUCKET = process.env.R2_BUCKET ?? `${process.env.SITE_ID ?? 'isupfactory'}-files-prod`
 const ACCOUNT_ID = process.env[HTTP_MODE ? 'CLOUDFLARE_ACCOUNT_ID' : 'R2_ACCOUNT_ID'] ?? ''
 const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN ?? ''
 const ACCESS_KEY = process.env.R2_ACCESS_KEY_ID ?? ''
@@ -207,10 +207,10 @@ async function run() {
   }
 
   const keys = files.map((f) => `${KEY_PREFIX}${relative(SRC_DIR, f).split(sep).join('/')}`)
-  // Source files are named `supsfactory-*`. Extend each upload with the legacy
+  // Source files are named `isupfactory-*`. Extend each upload with the legacy
   // `afarer-*` key so old hotlinked CDN URLs keep resolving (`.ico` excluded —
   // the legacy favicon object already sits in R2 under its old name).
-  const aliases = keys.map((k) => (k.includes('supsfactory-') && !k.endsWith('.ico') ? k.replace('supsfactory-', 'afarer-') : null))
+  const aliases = keys.map((k) => (k.includes('isupfactory-') && !k.endsWith('.ico') ? k.replace('isupfactory-', 'afarer-') : null))
   const totalBytes = (await Promise.all(files.map((f) => stat(f)))).reduce((n, s) => n + s.size, 0)
 
   if (DRY_RUN) {

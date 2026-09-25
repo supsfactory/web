@@ -14,7 +14,7 @@ hero:
   tagline: 'Laboratorio 04'
   title: 'Vasca di prova idrodinamica'
   subtitle: 'Validazione delle prestazioni prima del primo prototipo a grandezza naturale'
-  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
   image_alt: 'Vasca di prova idrodinamica di Vatrad per il test delle performance'
 
 intro: 'È una convinzione errata diffusa che i test idrodinamici siano riservati alle navi e ai veicoli da corsa. In realtà, le prestazioni di una tavola SUP — uno scafo planante da 10 a 14 piedi — dipendono dalla sua forma subacquea esattamente come qualsiasi altro mezzo. Profilo di prua, raggio del rail, rocker e superficie bagnata hanno un impatto drammatico su resistenza, efficienza di planata e stabilità. Presso {SITE.name} gestiamo una vasca di prova idrodinamica dedicata, che ci consente di quantificare questi effetti a scala di modello — prima di impegnare tessuto e tooling per un prototipo a grandezza naturale.'

@@ -1,5 +1,5 @@
 meta:
-  title: 'OEM-onboardinggids — stap voor stap van eerste contact tot productie | SUPsfactory'
+  title: 'OEM-onboardinggids — stap voor stap van eerste contact tot productie | iSupfactory'
   description: 'OEM-onboardinggids: NDA, haalbaarheidscheck, sampleproductie, goedkeuring, pre-productieplanning, productie-QC en verzending. Stap voor stap met doorlooptijden.'
   dateModified: '2026-08-20'
   keywords:
@@ -14,7 +14,7 @@ meta:
 hero:
   tagline: 'Onboarding OEM-koper'
   title: 'Je eerste SUP-bestelling, stap voor stap'
-  subtitle: 'Van eerste contact tot geleverde planken — het OEM-onboardingproces bij SUPsfactory loopt via zeven gedefinieerde poorten, elk met een duidelijke doorlooptijd, een gedocumenteerd resultaat en een go/no-go-controlepunt. Geen vaagheid, geen verborgen stappen, geen verrassingen na de aanbetaling.'
+  subtitle: 'Van eerste contact tot geleverde planken — het OEM-onboardingproces bij iSupfactory loopt via zeven gedefinieerde poorten, elk met een duidelijke doorlooptijd, een gedocumenteerd resultaat en een go/no-go-controlepunt. Geen vaagheid, geen verborgen stappen, geen verrassingen na de aanbetaling.'
   actions:
     - variant: primary
       text: Start de briefing van je project
@@ -108,7 +108,7 @@ faqs:
     - q: 'Wat is de minimum bestelhoeveelheid voor een eerste OEM-cyclus?'
       a: 'De instap is getrapt: eerst 1–2 samples (beschikbaar in 7–12 dagen), daarna een proef- of pilotorder van 20–50 planken (productie in 25–35 dagen), vervolgens standaardhoeveelheden van 90–100+ planken per goedgekeurde configuratie. Co-branding in kleine partijen start vanaf 5–10 stuks als er geen ontwikkelfase nodig is. De samplekosten worden verrekend met de productiebestelling.'
     - q: 'Hoe wordt de IP-bescherming tijdens de onboarding geregeld?'
-      a: 'Je ontwerpen en specificaties worden beschermd door de NDA die vóór de uitwisseling van eigendomsinformatie is ondertekend. Alle artwork, BOM-gegevens en technische bestanden worden bewaard in systemen met toegangscontrole en audittrail. In de OEM-modus bezit je alle IP. In de ODM-modus is het IP van het aangepaste platform gedeeld zoals overeengekomen. In de Private Label-modus is het IP van SUPsfactory en verkrijg je een licentie voor de merkbepaling.'
+      a: 'Je ontwerpen en specificaties worden beschermd door de NDA die vóór de uitwisseling van eigendomsinformatie is ondertekend. Alle artwork, BOM-gegevens en technische bestanden worden bewaard in systemen met toegangscontrole en audittrail. In de OEM-modus bezit je alle IP. In de ODM-modus is het IP van het aangepaste platform gedeeld zoals overeengekomen. In de Private Label-modus is het IP van iSupfactory en verkrijg je een licentie voor de merkbepaling.'
     - q: 'Welke kwaliteitsgaranties gelden voor een eerste bestelling?'
       a: 'Elke plank — sample, proef- of volumehoeveelheid — doorloopt hetzelfde systeem van 7 inspectiepoorten: binnenkomende controle, controle van het drop-stitch weefsel, lassen & assemblage, druk- en dichtheidstest van 24 uur (18,0 PSI standhouden, automatische afkeur boven 0,50 PSI), montage van EVA-deckpad & accessoires, grafische & branding-QC, eindverpakking & documentatie. De kwaliteit wordt nooit verlaagd voor kleinere bestellingen.'
     - q: 'Wat is de eerste praktische stap?'

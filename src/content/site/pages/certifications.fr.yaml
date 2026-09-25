@@ -1,5 +1,5 @@
 meta:
-  title: 'Contrôle qualité SUP personnalisé : inspection en 7 étapes | SUPsfactory'
+  title: 'Contrôle qualité SUP personnalisé : inspection en 7 étapes | iSupfactory'
   description: 'Comment chaque commande de SUP personnalisé est contrôlée : 7 points d''inspection, de la planification de la pré-production à l''autorisation d''expédition, avec des rapports bilingues téléchargeables.'
   dateModified: '2026-08-15'
   keywords:
@@ -45,35 +45,35 @@ quality_basis:
 tests:
   - title: Tests de pression
     description: Les chambres gonflables sont soumises à des pressions dépassant leurs limites de fonctionnement recommandées sur des périodes prolongées. Cela vérifie l'étanchéité à l'air et l'intégrité structurelle du matériau et des coutures, garantissant que le produit peut supporter l'usage prévu et une éventuelle sur-gonflage sans défaillance ni fuite.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
     alt: Chambre de SUP gonflable soumise à un test de pression pour vérifier l'étanchéité à l'air
   - title: Tests d'impact
     description: Les produits sont soumis à des impacts contrôlés de différentes masses et angles. Cela évalue la résistance du matériau aux perforations, aux déchirures et aux dommages dus aux collisions avec des obstacles dans l'eau, démontrant la durabilité et la longévité.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
     alt: Banc d'essai d'impact évaluant la résistance à la perforation du matériau du bateau gonflable
   - title: Tests de résistance aux UV
     description: Les échantillons de matériau sont exposés à un rayonnement UV accéléré pour vérifier qu'ils ne jaunissent pas, ne fissurent pas et ne perdent pas de résistance au fil du temps. Chaque lot de PVC est contrôlé contre la dégradation solaire avant utilisation en production.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
     alt: Échantillons de matériau PVC sous rayonnement UV accéléré lors d'un test de résistance
   - title: Tests de résistance à l'abrasion
     description: Les échantillons de matériau sont frottés contre des surfaces abrasives pendant un nombre de cycles défini sous une pression contrôlée. Cela mesure la capacité du matériau à résister à l'usure due à une utilisation répétée, au contact avec le sable, les rochers ou d'autres surfaces, garantissant une durabilité à long terme.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pvc-material-testing.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pvc-material-testing.webp
     alt: Machine de test d'abrasion frottant un échantillon de tissu PVC pour mesurer la résistance à l'usure
   - title: Tests de performance à basse température
     description: Les produits sont testés dans des environnements froids pour évaluer leur fonctionnalité et leur durabilité dans diverses conditions de température, évitant la rigidité ou les fissures dans les eaux plus froides. Essentiel pour les bateaux destinés à un usage hivernal ou à haute latitude.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-exterior.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-exterior.webp
     alt: Produit gonflable à l'intérieur d'une chambre froide pour un test de performance à basse température
   - title: Tests de flottabilité et de capacité de charge
     description: Les produits sont testés avec différentes masses pour déterminer leur capacité de charge maximale et garantir qu'ils supportent en toute sécurité les utilisateurs et le matériel. La capacité nominale de chaque modèle est vérifiée avant sa mise sur le marché.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-stock-boat-inventory.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-stock-boat-inventory.webp
     alt: Test de flottabilité et de capacité de charge avec des charges sur une embarcation gonflable
   - title: Tests de manœuvrabilité
     description: Les produits sont testés pour leur réactivité aux commandes de pagaie ou de moteur, en évaluant le rayon de virage et la facilité de maniement. Les essais sur l'eau valident que le comportement réel correspond aux spécifications de conception.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
     alt: Test de manœuvrabilité sur l'eau de coques de SUP gonflable et de bateau
   - title: Tests d'étanchéité à l'eau
     description: Les produits entièrement assemblés sont immergés ou soumis à un jet d'eau pour vérifier toute fuite à travers les coutures, les valves ou les matériaux. Chaque bateau passe un contrôle obligatoire d'étanchéité à l'eau avant expédition.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
     alt: Test d'étanchéité par immersion vérifiant les coutures et les valves contre les fuites
 qc_flow:
   tagline: Le flux d'inspection en 7 étapes
@@ -97,9 +97,9 @@ qc_flow:
       method: 'Réunion de pré-production avec les ventes, l''ingénierie et le contrôle qualité ; validation de l''échantillon maître ; Plan d''Inspection Qualité (QIP) émis pour la commande.'
       criteria: 'Les cinq références approuvées et figées avant le démarrage de la production en série. Tout point non résolu bloque l''autorisation de production.'
       record: 'Compte-rendu QIP + PPM, enregistrements d''échantillons approuvés.'
-      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
       alt: Réunion de pré-production examinant l'échantillon maître et le plan d'inspection qualité pour une commande SUP OEM
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
       link_label: 'Télécharger QIP (PDF)'
     - stage: STADE 02
       title: 'Inspection des matières entrantes (IQC)'
@@ -114,9 +114,9 @@ qc_flow:
       method: 'Contrôles visuels, dimensionnels et de poids ; échantillonnage par lot selon AQL ; certificats de matériaux examinés ; liste de fournisseurs approuvés appliquée.'
       criteria: 'Respecte la spécification et les certificats approuvés. Les lots non conformes sont mis en quarantaine et rejetés avant leur libération sur la chaîne.'
       record: 'Rapports de test IQC avec références de lots et décisions.'
-      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
       alt: Inspection des matières entrantes du tissu PVC et des composants SUP à l'usine
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports IQC (PDF)'
     - stage: STADE 03
       title: 'Contrôle en cours de fabrication et premier article (IPQC / FAI)'
@@ -131,9 +131,9 @@ qc_flow:
       method: 'Inspection du premier article sur la première unité ; contrôles de ronde par quart ; résistance du soudage et alignement des coutures vérifiés en ligne.'
       criteria: 'L''approbation du FAI verrouille en version les graphismes, les dimensions et la BOM. Les écarts sont orientés vers le processus de décision de reprise — jamais de réparation en ligne.'
       record: 'Enregistrement FAI, journaux de ronde par quart, notes de reprise et de décision.'
-      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
       alt: Inspection en cours de fabrication et contrôle du premier article pendant la production de SUP
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports IPQC (PDF)'
     - stage: STADE 04
       title: 'Tests de gonflage et d''étanchéité à l''air'
@@ -148,9 +148,9 @@ qc_flow:
       method: 'Détection de fuite sur toute la couture suivie d''un maintien de pression de 24 heures à 18,0 PSI ; rejet automatique au-delà d''une chute de 0,50 PSI.'
       criteria: 'Zéro point de fuite et chute de pression dans la limite de 0,50 PSI par chambre ; les unités défaillantes sont mises en quarantaine et reprises ou mises au rebut.'
       record: 'Rapports de test d''étanchéité à l''air, un par chambre, liés au lot.'
-      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
       alt: Test de gonflage et d'étanchéité à l'air d'une chambre de SUP gonflable
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports d''étanchéité à l''air (PDF)'
     - stage: STADE 05
       title: 'Inspection finale du produit (FQC)'
@@ -165,9 +165,9 @@ qc_flow:
       method: 'Vérification dimensionnelle par rapport aux tolérances de dessin ; esthétique notée sous lampes D65 ; tests d''ajustement du boîtier d''aileron et de la quincaillerie.'
       criteria: 'Dimensions dans les tolérances (par ex. 3508 × 814 × 150,3 mm), qualité esthétique conforme à l''échantillon approuvé, tous les accessoires présents.'
       record: 'Rapports FQC avec signature de l''inspecteur et décision.'
-      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
       alt: Inspection finale du produit des planches SUP finies avant emballage
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports FQC (PDF)'
     - stage: STADE 06
       title: 'Emballage et inspection avant expédition (PSI)'
@@ -182,9 +182,9 @@ qc_flow:
       method: 'Complétude du kit à 100 % par rapport à la BOM ; scan de code-barres (note ≥ B) ; précision des marquages des cartons ; test de chute ISTA-1A sur les cartons emballés.'
       criteria: 'Correspondance du kit à 100 % avec la BOM, codes-barres lisibles, marquages corrects et emballage résistant à la chute avant chargement.'
       record: 'Listes de contrôle PSI et enregistrements d''emballage par carton.'
-      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
       alt: Inspection avant expédition vérifiant le kit SUP emballé par rapport à la BOM
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports PSI (PDF)'
     - stage: STADE 07
       title: 'Autorisation d''expédition et traçabilité'
@@ -199,9 +199,9 @@ qc_flow:
       method: 'Revue des portes des six enregistrements précédents par la qualité ; dossier de traçabilité du lot assemblé ; enregistrements remis avec l''expédition.'
       criteria: 'Toutes les portes approuvées par la QA ; les dossiers de lot et de traçabilité sont remis à l''acheteur ou conservés sous NDA sur demande.'
       record: 'Autorisation d''expédition et dossier de traçabilité du lot.'
-      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
       alt: Signature d'autorisation d'expédition et remise de l'enregistrement de traçabilité du lot
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Télécharger les rapports de libération (PDF)'
 system_map:
   tagline: Le système qualité
@@ -246,7 +246,7 @@ intelligence_cards:
         - { label: Étape, value: '02 · IQC' }
         - { label: Réf. lot, value: 'LOT-DEMO-DS-0814' }
         - { label: Résultat, value: 'Réussi · Approuvé pour la production' }
-      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
       link_label: 'Voir l''échantillon anonymisé (PDF)'
     - icon: 2
       icon_bg: green
@@ -256,7 +256,7 @@ intelligence_cards:
         - { label: Étape, value: '03 · IPQC' }
         - { label: Code échantillon, value: 'SN-DEMO-FAI-001' }
         - { label: Résultat, value: 'Réussi · FAI approuvé' }
-      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
       link_label: 'Voir l''échantillon anonymisé (PDF)'
     - icon: 3
       icon_bg: purple
@@ -266,7 +266,7 @@ intelligence_cards:
         - { label: Étape, value: '04 · Étanchéité à l''air' }
         - { label: Condition d'essai, value: 'Selon plan projet (18,0 PSI)' }
         - { label: Résultat, value: 'Réussi · Approuvé pour l''inspection finale' }
-      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
       link_label: 'Voir l''échantillon anonymisé (PDF)'
     - icon: 4
       icon_bg: orange
@@ -276,7 +276,7 @@ intelligence_cards:
         - { label: Étape, value: '05 · FQC' }
         - { label: Dimension, value: '3508 × 814 × 150,3 mm' }
         - { label: Résultat, value: 'Réussi · Approuvé pour l''emballage' }
-      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
       link_label: 'Voir l''échantillon anonymisé (PDF)'
     - icon: 5
       icon_bg: green
@@ -286,7 +286,7 @@ intelligence_cards:
         - { label: Étape, value: '06 · PSI' }
         - { label: Kit, value: '100 % correspondance BOM' }
         - { label: Résultat, value: 'Réussi · Approuvé pour l''expédition' }
-      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
       link_label: 'Voir l''échantillon anonymisé (PDF)'
 doc_register:
   tagline: Registre documentaire contrôlé
@@ -296,82 +296,82 @@ doc_register:
     - title: '00 · Plan d''Inspection Qualité du projet (QIP)'
       description: 'Le contrat qualité par commande : portes, périmètre d''inspection, méthodes, critères d''acceptation et enregistrements que vous recevrez.'
       icon: '00'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
       link_label: 'Télécharger QIP (PDF)'
     - title: '01 · Normes d''inspection qualité'
       description: 'La norme complète d''inspection et d''assurance appliquée aux commandes de SUP gonflables personnalisés.'
       icon: '01'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
       link_label: 'Télécharger les normes (PDF)'
     - title: '02 · Pack de documentation qualité'
       description: 'La structure documentaire complète qu''un projet reçoit, dans un pack de vue d''ensemble.'
       icon: '02'
-      link: https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link: https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
       link_label: 'Télécharger le pack (PDF)'
     - title: '03 · Rapports de test IQC'
       description: 'Rapports d''inspection des matières entrantes — tissu, rouleaux de PVC, valves et composants.'
       icon: '03'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports IQC (PDF)'
     - title: '04 · Rapports de test IPQC'
       description: 'Rapports d''inspection en cours de fabrication et du premier article par rapport à la révision verrouillée.'
       icon: '04'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports IPQC (PDF)'
     - title: '05 · Rapports de test d''étanchéité à l''air'
       description: 'Détection de fuite de couture à 100 %, intégrité des valves et enregistrements de maintien de pression.'
       icon: '05'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports d''étanchéité à l''air (PDF)'
     - title: '06 · Rapports de test FQC'
       description: 'Inspection finale de la planche par rapport à l''échantillon approuvé — dimensions, esthétique, boîtier d''aileron.'
       icon: '06'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports FQC (PDF)'
     - title: '07 · Rapports de test PSI'
       description: 'Inspection d''emballage et avant expédition — complétude du kit à 100 %, note de code-barres, sécurité à la chute.'
       icon: '07'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports PSI (PDF)'
     - title: '08 · Rapports d''autorisation d''expédition'
       description: 'Autorisation de libération signée lorsque toutes les portes sont clôturées, avec le dossier du lot.'
       icon: '08'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Télécharger les rapports de libération (PDF)'
     - title: '09 · Dossier de traçabilité et NCR'
       description: 'Traçabilité du lot reliée à la spécification/aux graphismes/à la BOM, plus les enregistrements de contrôle des non-conformités.'
       icon: '09'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
       link_label: 'Télécharger le dossier (PDF)'
     - title: '10 · SOP de contrôle des produits non conformes (ISO 8.7)'
       description: 'La procédure contrôlée pour la mise en quarantaine, la décision, la reprise et la libération des produits non conformes.'
       icon: '10'
-      link: https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link: https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
       link_label: 'Télécharger la SOP (PDF)'
     - title: '11 · SOP de contrôle des modifications de reprise + annexe'
       description: 'La procédure de contrôle des modifications et son annexe d''exécution — confinement, approbation et validation.'
       icon: '11'
-      link: https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
       link_label: 'Télécharger la SOP (PDF)'
     - title: '12 · Résumé de libération avant expédition'
       description: 'Le résumé bilingue de libération que chaque lot embarque, reliant le registre.'
       icon: '12'
-      link: https://assets.supsfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link: https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
       link_label: 'Télécharger le résumé (PDF)'
     - title: '13 · Modèle de note d''inspection tierce'
       description: 'Le modèle de note que les inspecteurs utilisent pour annoncer, planifier et rapporter une inspection avant expédition.'
       icon: '13'
-      link: https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
       link_label: 'Télécharger le modèle (PDF)'
     - title: '14 · Liste de contrôle PSI'
       description: 'La liste de contrôle avant expédition sur le terrain — complétude du kit, note de code-barres, marquages et sécurité à la chute.'
       icon: '14'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
       link_label: 'Télécharger la liste de contrôle (PDF)'
     - title: '15 · Guide de faisabilité et qualité de projet OEM'
       description: 'Comment un projet passe de la demande à l''échantillon maître approuvé — étapes d''ingénierie et de qualité avant la production en série.'
       icon: '15'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
       link_label: 'Télécharger le guide (PDF)'
 traceability:
   tagline: Traçabilité au niveau du lot
@@ -381,22 +381,22 @@ traceability:
     - title: 'Qu''a-t-on produit ?'
       description: 'Le produit, le modèle, la configuration et la révision sont liés au numéro de commande et à la révision de spécification approuvée.'
       icon: '1'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
       link_label: 'Voir le dossier de traçabilité (PDF)'
     - title: 'Quels matériaux ont été utilisés ?'
       description: 'Chaque lot de matériau alimentant le lot est consigné avec son fournisseur, son certificat et sa décision IQC.'
       icon: '2'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
       link_label: 'Voir le dossier de traçabilité (PDF)'
     - title: 'Qui a inspecté, et quand ?'
       description: 'Chaque enregistrement porte le rôle de l''inspecteur, la date, les outils utilisés et le résultat — aucune signature anonyme.'
       icon: '3'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
       link_label: 'Voir le dossier de traçabilité (PDF)'
     - title: 'Comment le lot a-t-il été libéré ?'
       description: 'La libération n''est autorisée par la qualité que lorsque toutes les portes sont clôturées ; la décision est documentée sur l''enregistrement.'
       icon: '4'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
       link_label: 'Voir le dossier de traçabilité (PDF)'
 non_conformance:
   tagline: Contrôle des produits non conformes
@@ -417,12 +417,12 @@ non_conformance:
     - title: 'Contrôle de la mise au rebut'
       description: 'Le matériau mis au rebut est détruit avec un certificat de mise au rebut signé, afin qu''il ne puisse jamais réintégrer le stock ou le marché.'
       icon: tabler:trash
-      link: https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link: https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
       link_label: 'Certificat de mise au rebut et destruction (PDF)'
     - title: 'Retour à la cause racine'
       description: 'Les défauts récurrents déclenchent une action corrective avec le processus ou le fournisseur responsable — en boucle fermée, pas sur le papier.'
       icon: tabler:refresh
-      link: https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
       link_label: 'SOP de contrôle des modifications de reprise (PDF)'
 third_party:
   tagline: Support d'inspection désignée par l'acheteur et indépendante
@@ -437,22 +437,22 @@ third_party:
     - title: 'Modèle de note avant expédition'
       description: 'Le modèle de note que les inspecteurs utilisent pour annoncer, planifier et rapporter une inspection avant expédition dans nos installations.'
       icon: tabler:file-report
-      link: https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
       link_label: 'Télécharger le modèle de note (PDF)'
     - title: 'Liste de contrôle PSI'
       description: 'La liste de contrôle avant expédition utilisée sur le terrain — complétude du kit, note de code-barres, marquages et sécurité à la chute.'
       icon: tabler:clipboard-check
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
       link_label: 'Télécharger la liste de contrôle PSI (PDF)'
     - title: 'Pack complet de documentation qualité'
       description: 'Un dossier couvrant l''ensemble du système documentaire — QIP, enregistrements de portes, traçabilité et contrôle NCR.'
       icon: tabler:books
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
       link_label: 'Télécharger le pack de documentation (PDF)'
     - title: 'Guide de faisabilité et qualité de projet OEM'
       description: 'Comment un projet passe de la demande à l''échantillon maître approuvé — les étapes d''ingénierie et de qualité avant la production en série.'
       icon: tabler:route
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
       link_label: 'Télécharger le guide de projet (PDF)'
 content_certifications:
   tagline: Certifications et normes

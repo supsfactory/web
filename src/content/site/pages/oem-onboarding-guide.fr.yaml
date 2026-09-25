@@ -1,5 +1,5 @@
 meta:
-  title: 'Guide d''intégration OEM — processus étape par étape du premier contact à la production | SUPsfactory'
+  title: 'Guide d''intégration OEM — processus étape par étape du premier contact à la production | iSupfactory'
   description: 'Guide d''intégration OEM : NDA, revue de faisabilité, production d''échantillon, approbation, planification de pré-production, QC de production et expédition. Étape par étape avec calendriers.'
   dateModified: '2026-08-20'
   keywords:
@@ -14,7 +14,7 @@ meta:
 hero:
   tagline: 'Intégration d''acheteur OEM'
   title: 'Votre première commande SUP, étape par étape'
-  subtitle: 'Du premier contact aux planches livrées, le processus d''intégration OEM chez SUPsfactory traverse sept portes définies — chacune avec un calendrier clair, un livrable documenté et un point de contrôle go/no-go. Aucune ambiguïté, aucune étape cachée, aucune surprise après l''acompte.'
+  subtitle: 'Du premier contact aux planches livrées, le processus d''intégration OEM chez iSupfactory traverse sept portes définies — chacune avec un calendrier clair, un livrable documenté et un point de contrôle go/no-go. Aucune ambiguïté, aucune étape cachée, aucune surprise après l''acompte.'
   actions:
     - variant: primary
       text: Démarrez votre brief de projet
@@ -108,7 +108,7 @@ faqs:
     - q: 'Quelle est la commande minimale pour une première série OEM ?'
       a: 'Le point d''entrée est étagé : 1–2 échantillons d''abord (prêts en 7–12 jours), une commande d''essai ou pilote de 20–50 planches (production en 25–35 jours), puis des séries de volume standard de 90–100+ planches par configuration approuvée. Le co-marquage en petits lots commence dès 5–10 unités quand aucune étape de développement n''est nécessaire. Les frais d''échantillon sont crédités sur votre commande de production.'
     - q: 'Comment la protection de la PI est-elle gérée pendant l''intégration ?'
-      a: 'Vos designs et spécifications sont protégés sous la NDA signée avant que toute information propriétaire soit partagée. Tous les graphismes, données BOM et fichiers techniques sont stockés dans des systèmes à accès contrôlé avec pistes d''audit. En mode OEM, vous possédez toute la PI. En mode ODM, la PI de la plateforme adaptée est partagée selon l''accord. En mode Marque privée, la PI reste avec SUPsfactory et vous licencez l''application de la marque.'
+      a: 'Vos designs et spécifications sont protégés sous la NDA signée avant que toute information propriétaire soit partagée. Tous les graphismes, données BOM et fichiers techniques sont stockés dans des systèmes à accès contrôlé avec pistes d''audit. En mode OEM, vous possédez toute la PI. En mode ODM, la PI de la plateforme adaptée est partagée selon l''accord. En mode Marque privée, la PI reste avec iSupfactory et vous licencez l''application de la marque.'
     - q: 'Quelles garanties de qualité s''appliquent à une première commande ?'
       a: 'Chaque planche — échantillon, essai ou volume — passe par le même système de portes d''inspection à 7 étapes : inspection des matériaux entrant, inspection du tissu drop-stitch, soudure et assemblage, test de pression et d''étanchéité à l''air de 24 heures (maintien à 18,0 PSI, rejet automatique au-delà d''une chute de 0,50 PSI), installation du tapis EVA et des accessoires, QC des graphismes et de la marque, et emballage final et documentation. La qualité n''est jamais réduite pour les commandes plus petites.'
 

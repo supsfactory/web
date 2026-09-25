@@ -16,7 +16,7 @@
  *   <file>-480.avif
  *
  * The <name>-768 / <name>-480 convention matches the responsive variant URLs
- * the site references (e.g. `supsfactory-og-default` base filenames from
+ * the site references (e.g. `isupfactory-og-default` base filenames from
  * `PRODUCT_OG_IMAGE_FILENAME` in src/product/brand-constants.ts).
  * Renderers can choose format + width via <picture>/srcset. Only images wider
  * than the target bucket are downscaled; smaller ones are skipped to avoid

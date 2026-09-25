@@ -1,6 +1,6 @@
 meta:
   title: 'OEM Manufacturing Warranty & Product Quality Assurance | {SITE}'
-  description: 'OEM manufacturing warranty terms for inflatable SUP and marine products made by SUPsfactory: covered defects, duration, documented batch records and how claims are handled.'
+  description: 'OEM manufacturing warranty terms for inflatable SUP and marine products made by iSupfactory: covered defects, duration, documented batch records and how claims are handled.'
   keywords:
     - 'OEM warranty'
     - 'manufacturing warranty'
@@ -11,13 +11,13 @@ label: 'OEM Warranty'
 headline: 'OEM Manufacturing Warranty & Product Quality Assurance'
 subtitle: 'Every board we manufacture is built against an approved sample and documented batch records. This warranty defines what we guarantee on the products we make under your brand, and how claims are adjudicated against those records.'
 seo:
-  headline: 'OEM Manufacturing Warranty & Product Quality Assurance | SUPsfactory'
-  description: 'Manufacturing warranty on inflatable SUP boards and other marine products produced by SUPsfactory: 5-year coverage on primary tube fabric, seams and drop-stitch core structural integrity, plus inflation valves and factory-installed accessories.'
+  headline: 'OEM Manufacturing Warranty & Product Quality Assurance | iSupfactory'
+  description: 'Manufacturing warranty on inflatable SUP boards and other marine products produced by iSupfactory: 5-year coverage on primary tube fabric, seams and drop-stitch core structural integrity, plus inflation valves and factory-installed accessories.'
   datePublished: '2024-01-01'
   dateModified: '2026-09-23'
 body: |
   <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
-    This Manufacturing Warranty applies to inflatable SUP boards, kayaks and marine inflatable products manufactured by SUPsfactory — the marine manufacturing division of Qingdao Vatrad Group Co., Ltd. — under OEM, ODM and private-label programs. The effective date is the verifiable batch production or shipment date agreed in the purchase order. The buyer (brand owner) sets the end-user warranty policy for their own market; this warranty is the factory's guarantee on the goods as manufactured.
+    This Manufacturing Warranty applies to inflatable SUP boards, kayaks and marine inflatable products manufactured by iSupfactory — the marine manufacturing division of Qingdao Vatrad Group Co., Ltd. — under OEM, ODM and private-label programs. The effective date is the verifiable batch production or shipment date agreed in the purchase order. The buyer (brand owner) sets the end-user warranty policy for their own market; this warranty is the factory's guarantee on the goods as manufactured.
   </p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
@@ -97,17 +97,17 @@ body: |
   <p>If the product is used for commercial, governmental, non-profit, charter, rental, instructional, or any purpose other than private recreational use, the warranty period for all components is reduced to one (1) year from the effective date. Use in racing, speed or endurance competition voids the warranty entirely, unless a racing-specific configuration is expressly covered in the purchase agreement.</p>
 
   <h2>How to Make a Warranty Claim</h2>
-  <p>Contact SUPsfactory with the purchase order or batch reference and a detailed description of the issue, including board serial numbers where available. The factory will review the claim against the batch records and provide instructions for inspection and service.</p>
+  <p>Contact iSupfactory with the purchase order or batch reference and a detailed description of the issue, including board serial numbers where available. The factory will review the claim against the batch records and provide instructions for inspection and service.</p>
   <p>For warranty service inquiries, contact us through our <a href="/contact" class="text-sky-600 underline">contact page</a> with your order number and product details.</p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
     <h2 class="text-xl font-bold mb-3">Backed by a Documented Quality System</h2>
-    <p class="text-sm text-gray-600 dark:text-gray-400">Every board is tested before packing — <a href="/factory/quality-inspection" class="text-sky-600 underline">7-stage inspection gates</a> record results per serial number, and batches keep 10-year ERP traceability. Warranty claims are adjudicated against these batch records, not guesswork. See the <a href="/quality" class="text-sky-600 underline">full quality system</a> and download the actual <a href="https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">final inspection reports</a>.</p>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Every board is tested before packing — <a href="/factory/quality-inspection" class="text-sky-600 underline">7-stage inspection gates</a> record results per serial number, and batches keep 10-year ERP traceability. Warranty claims are adjudicated against these batch records, not guesswork. See the <a href="/quality" class="text-sky-600 underline">full quality system</a> and download the actual <a href="https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">final inspection reports</a>.</p>
   </div>
 
   <h2>Third-Party Items</h2>
   <p>Equipment, components, or systems manufactured by third parties (even if installed by the factory) are covered exclusively by any warranty offered by their respective manufacturer. The factory expressly disclaims any warranty responsibility for such third-party items.</p>
 
   <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
-    This warranty statement is a summary of the factory's manufacturing warranty terms for OEM, ODM and private-label programs. The full purchase agreement governs all warranty terms and conditions. Specifications subject to change without notice. SUPsfactory is the manufacturing division of Qingdao Vatrad Group.
+    This warranty statement is a summary of the factory's manufacturing warranty terms for OEM, ODM and private-label programs. The full purchase agreement governs all warranty terms and conditions. Specifications subject to change without notice. iSupfactory is the manufacturing division of Qingdao Vatrad Group.
   </p>

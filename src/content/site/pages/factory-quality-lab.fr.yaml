@@ -81,37 +81,37 @@ lab_evidence:
     - title: 'IQC — Rapports des matières entrantes'
       description: 'Vérification du tissu, du rouleau de PVC, des valves et des composants par rapport à la spécification approuvée.'
       icon: tabler:file-certificate
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports IQC (PDF)'
     - title: 'IPQC — Rapports en cours de fabrication et du premier article'
       description: 'Enregistrements du premier article et de l''inspection en cours de fabrication contre la révision verrouillée.'
       icon: tabler:file-check
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports IPQC (PDF)'
     - title: 'Étanchéité à l''air — Enregistrements de pression et de fuite'
       description: 'Détection de fuite de couture à 100 %, intégrité des valves et vérification du maintien de pression de 24 h.'
       icon: tabler:waves
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports d''étanchéité à l''air (PDF)'
     - title: 'FQC — Rapports de test final des planches'
       description: 'Inspection finale contre l''échantillon approuvé — dimensions, cosmétique et boîtier d''aileron.'
       icon: tabler:shield-check
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports FQC (PDF)'
     - title: 'PSI — Rapports de conditionnement et avant expédition'
       description: 'Complétude du kit, note de code-barres, marquages des cartons et enregistrements de sécurité à la chute.'
       icon: tabler:package
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports PSI (PDF)'
     - title: 'Dossier d''autorisation d''expédition et de traçabilité'
       description: 'Autorisation de libération et traçabilité des lots mappée à la spécification, aux graphismes et à la BOM.'
       icon: tabler:history
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Télécharger les rapports de libération (PDF)'
     - title: 'Dossier qualité complet'
       description: 'Un pack couvrant tout le système documentaire — QIP, enregistrements de portes, traçabilité et contrôle NCR.'
       icon: tabler:books
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
       link_label: 'Télécharger le pack de documentation (PDF)'
 
 cta:

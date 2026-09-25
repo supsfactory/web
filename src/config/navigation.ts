@@ -10,7 +10,7 @@
  * The actual route handlers are generated from this structure.
  */
 
-export const ENTITY_PAGE_PATH = '/about/supsfactory-entity' as const
+export const ENTITY_PAGE_PATH = '/about/isupfactory-entity' as const
 
 export const ABOUT_BRAND_PATH = '/about/vatrad' as const
 

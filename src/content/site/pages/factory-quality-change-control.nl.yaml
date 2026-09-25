@@ -1,5 +1,5 @@
 meta:
-  title: 'Wijzigingsbeheer & validatie van herbewerkingsparameters | SUPsfactory'
+  title: 'Wijzigingsbeheer & validatie van herbewerkingsparameters | iSupfactory'
   description: 'Wijzigingsbeheer van herbewerkingsparameters onder ISO 9001: ECR, risicoclassificatie, vrijgavematrix, validatie en herverificatie voor SUP-productie.'
   dateModified: '2026-08-14'
   keywords:
@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Download de SOP wijzigingsbeheer (PDF)
       variant: primary
-      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
     - text: Download bijlage A uitvoering (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
     - text: Kwaliteitscontrole aanvragen
       href: /contact
 
@@ -247,19 +247,19 @@ cc_photos:
   subtitle: De foto''s uit onze werkplaats in Qingdao tonen elk gecontroleerd herbewerkingsproces met zijn gekalibreerde meetinstrumenten, gedefinieerde parameters en registraties ter plaatse — dezelfde bewijzen die inspecteurs op elk moment kunnen opvragen.
   grid: 'sm:grid-cols-2'
   features:
-    - image: https://assets.supsfactory.com/site/quality/cc-pinhole-repair.avif
+    - image: https://assets.isupfactory.com/site/quality/cc-pinhole-repair.avif
       alt: Technicus repareert een speldenprikgaatje-micro-lek op een opblaasbare SUP met een heteluchtpistool en drukrol
       title: Reparatie van speldenprikgaatjes
       desc: 'Een technicus behandelt een gemarkeerd micro-lek met een heteluchtpistool dat is ingesteld op de specificatie van 60°C en een drukrol; het zeepwater bevestigt de positie van het lek en het door QC ondertekende ECR-formulier op het werkblad toont de wijzigingsbeheerpoort (Poka-Yoke nr. 1).'
-    - image: https://assets.supsfactory.com/site/quality/cc-rail-seam-bonding.avif
+    - image: https://assets.isupfactory.com/site/quality/cc-rail-seam-bonding.avif
       alt: Technicus brengt tweecomponenten PU-lijm met een precisiekwast aan op een railnaad onder gecontroleerd klimaat
       title: Verlijming van de railnaad
       desc: 'De tweecomponenten PU-lijm wordt met een precisiekwast op de railnaad aangebracht terwijl de plank in een malklem wordt gehouden; de thermometer/hygrometer ter plaatse toont het gecontroleerde venster van 24°C / 55% relatieve luchtvochtigheid.'
-    - image: https://assets.supsfactory.com/site/quality/cc-valve-base-integrity.avif
+    - image: https://assets.isupfactory.com/site/quality/cc-valve-base-integrity.avif
       alt: Digitale momentsleutel ingesteld op 19 N·m die de ventielkern tegen het drop-stitch materiaal vastzet
       title: Integriteit van de ventielbasis
       desc: 'Een digitale momentsleutel, ingesteld op de specificatie van 19 N·m, voert het definitieve aandraaien van de ventielkern uit en verzegelt de basis tegen het drop-stitch materiaal — het instrument draagt het groene CALIBRATED-etiket.'
-    - image: https://assets.supsfactory.com/site/quality/cc-pressure-hold-testing.avif
+    - image: https://assets.isupfactory.com/site/quality/cc-pressure-hold-testing.avif
       alt: Afgewerkte opblaasbare SUP''s aangesloten op digitale drukrecorders in het definitieve drukbehoudtestgebied
       title: Definitieve drukbehoudverificatie
       desc: 'De afgewerkte planken worden aangesloten op digitale hogeprecisie-drukrecorders; de master-manometer toont de referentie van 18.00 PSI en alle testgegevens worden automatisch geüpload en gekoppeld aan het contracttraceerbaarheidssysteem.'
@@ -295,13 +295,13 @@ cc_downloads:
       icon_bg: blue
       title: SOP wijzigingsbeheer van herbewerking (PDF)
       desc: 'QMS-SOP-QC-CC-001 Rev 2.0: wijzigingsclassificatietabel, interfunctionele autorisatiematrix, technische validatieparameters, insluitingsrode lijnen en kwaliteitshandtekeningblokken.'
-      link: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
       link_label: PDF downloaden
     - icon: A
       icon_bg: green
       title: Uitvoeringsbijlage A (PDF)
       desc: 'ECR-gegevensschema, gekwantificeerde technische uitvoeringsmatrix voor de vier kernherbewerkingsprocessen, logica van de Poka-Yoke-blokkeringen en een drietraps vrijgavehandtekeningblok.'
-      link: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
       link_label: PDF downloaden
     - icon: R
       icon_bg: purple
@@ -343,6 +343,6 @@ cta:
       variant: primary
       href: /contact
     - text: Download de SOP wijzigingsbeheer (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
     - text: Download bijlage A uitvoering (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

@@ -1,6 +1,6 @@
 meta:
   title: 'Proof Center —The Evidence Behind Every Manufacturing Claim'
-  description: 'Proof folder behind SUPsfactory claims: entity relationships, certificates with scope, equipment list, batch traceability and inspection documentation.'
+  description: 'Proof folder behind iSupfactory claims: entity relationships, certificates with scope, equipment list, batch traceability and inspection documentation.'
   dateModified: '2026-08-16'
   keywords:
     - 'SUP factory evidence'
@@ -19,7 +19,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'The claim-to-evidence chain is: every statement on this site is backed by a registration, a certificate, a machine, a document or a test record — and each of those can be reviewed. SUPsfactory is the SUP product development and manufacturing division of Qingdao Vatrad Group Co., Ltd. (registered in Qingdao since 2012). The 12,500 m² plant holds ISO 9001:2015 quality management, ISO 25649 compliance, CE conformity documentation, BSCI social compliance (audit report on request) and REACH/RoHS material documentation per order. Every inflatable chamber is tested at 18.0 PSI for 24 hours with auto-reject above 0.50 PSI drop, and batch records are kept under 10-year ERP traceability. The paper trail is published or shareable, and the factory itself is audit-open.'
+  text: 'The claim-to-evidence chain is: every statement on this site is backed by a registration, a certificate, a machine, a document or a test record — and each of those can be reviewed. iSupfactory is the SUP product development and manufacturing division of Qingdao Vatrad Group Co., Ltd. (registered in Qingdao since 2012). The 12,500 m² plant holds ISO 9001:2015 quality management, ISO 25649 compliance, CE conformity documentation, BSCI social compliance (audit report on request) and REACH/RoHS material documentation per order. Every inflatable chamber is tested at 18.0 PSI for 24 hours with auto-reject above 0.50 PSI drop, and batch records are kept under 10-year ERP traceability. The paper trail is published or shareable, and the factory itself is audit-open.'
   verified: 'September 2026'
 
 entities:
@@ -29,9 +29,9 @@ entities:
   features:
     - icon: S
       icon_bg: blue
-      title: 'SUPsfactory — the public website'
+      title: 'iSupfactory — the public website'
       desc: 'The SUP OEM/ODM and private label product line with its public documentation: catalog, MOQ guide, quality system pages and case studies. The name you negotiate with is the name you inspect.'
-      link: '/about/supsfactory-entity'
+      link: '/about/isupfactory-entity'
       link_label: 'Site entity page'
     - icon: A
       icon_bg: green
@@ -147,7 +147,7 @@ faqs:
     - q: 'Is this page for verification only, and not replacing due diligence?'
       a: 'Correct — this page shows where every claim can be verified: entity registration, certificates, machines, records and an audit-open plant. Your usual due-diligence steps (registration check, audit, third-party inspection) still apply and are welcome.'
     - q: 'Which entity should appear on my order documentation?'
-      a: 'Orders are placed with Qingdao Vatrad Group Co., Ltd., operating as Vatrad (manufacturing division), with SUPsfactory as the SUP product line. Contract documents are signed by the Sales VP, the Chief Engineer and the QA Director.'
+      a: 'Orders are placed with Qingdao Vatrad Group Co., Ltd., operating as Vatrad (manufacturing division), with iSupfactory as the SUP product line. Contract documents are signed by the Sales VP, the Chief Engineer and the QA Director.'
     - q: 'Can I get copies of the certificates before ordering?'
       a: 'Yes — certificate numbers and audit records are supplied on request or during an audit. The list is published, never "available on request only".'
     - q: 'How do I verify batch test records myself?'

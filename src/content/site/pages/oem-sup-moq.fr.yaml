@@ -12,7 +12,7 @@ sections:
       verifiedDate: "September 2026"
       sourceType: "enregistrement-usine"
     body: |
-      Le MOQ chez SUPsfactory est étagé par niveau de personnalisation, pas un seul
+      Le MOQ chez iSupfactory est étagé par niveau de personnalisation, pas un seul
       chiffre plat. Chaque niveau correspond à un scénario de production spécifique :
 
       | Scénario | MOQ | Unité | Condition |

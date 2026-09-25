@@ -20,7 +20,7 @@ const ADMIN = { email: 'admin@example.com', password: 'password12345', name: 'Ad
 const OUT = 'e2e/screenshots/readme'
 
 function d1(command: string) {
-  execSync(`npx wrangler d1 execute supsfactory-db --local --command "${command}"`, {
+  execSync(`npx wrangler d1 execute isupfactory-db --local --command "${command}"`, {
     stdio: 'ignore',
   })
 }

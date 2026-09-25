@@ -25,7 +25,7 @@ Die Vorteile von Hypalon – außergewöhnliche chemische und UV-Beständigkeit 
 
 ## Wo Hypalon im Vatrad-Sortiment vorkommt
 
-Hypalon bleibt das spezifizierte Material für die Vatrad-RIB-Modelle (RIB 330, RIB 450 Patrol), die für den professionellen Marineeinsatz konzipiert sind. SUP-Boards und Kajaks der SUPsfactory-Linie verwenden ausschließlich Marine-PVC, und jede PVC-Charge wird vor der Produktion in unserem PVC-Gewebelabor unabhängig getestet.
+Hypalon bleibt das spezifizierte Material für die Vatrad-RIB-Modelle (RIB 330, RIB 450 Patrol), die für den professionellen Marineeinsatz konzipiert sind. SUP-Boards und Kajaks der iSupfactory-Linie verwenden ausschließlich Marine-PVC, und jede PVC-Charge wird vor der Produktion in unserem PVC-Gewebelabor unabhängig getestet.
 
 ## Die Testergebnisse
 

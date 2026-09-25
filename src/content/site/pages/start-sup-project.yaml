@@ -1,5 +1,5 @@
 meta:
-  title: 'Start Your SUP Project — From Brief to Delivered Boards | SUPsfactory'
+  title: 'Start Your SUP Project — From Brief to Delivered Boards | iSupfactory'
   description: 'Start your custom SUP project: submit a brief, get NDA protection, receive samples in 7–12 days, approve and scale to production. Step-by-step with timelines.'
   dateModified: '2026-08-20'
   keywords:
@@ -50,7 +50,7 @@ process_steps:
 
 collaboration_types:
   tagline: Choose Your Path
-  title: 'Three Ways to Work with SUPsfactory'
+  title: 'Three Ways to Work with iSupfactory'
   subtitle: 'Every project goes through the same process — what changes is the engineering scope and where IP ownership sits.'
   grid: 'sm:grid-cols-2 lg:grid-cols-3'
   features:

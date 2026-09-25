@@ -1,4 +1,4 @@
-﻿import { test, expect } from 'vitest'
+import { test, expect } from 'vitest'
 import { gatePath, EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { getContentPages } from '@/features/content/loader'
@@ -179,7 +179,7 @@ test('410 for removed template pages (P0-2)', () => {
   expect(gatePath('/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/es/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/zh/changelog')).toEqual({ action: 'gone' })
-  // RIB case study removed (SUPsfactory is SUP-only)
+  // RIB case study removed (iSupfactory is SUP-only)
   expect(gatePath('/evidence/case-studies/marine-professional-operations')).toEqual({ action: 'gone' })
   expect(gatePath('/es/evidence/case-studies/marine-professional-operations')).toEqual({ action: 'gone' })
   // '/docs/' is normalised to '/docs' first (301), then 410 on the next hop

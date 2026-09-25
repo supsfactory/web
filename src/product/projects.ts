@@ -57,7 +57,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Durable rental boards, phased delivery across stations, lower early-replacement rate',
       qualityFocus: 'Reinforced construction, air-tightness, fleet artwork, kit completeness',
       navLabel: 'Coastal Rental Fleet',
-      metaTitle: 'Coastal Rental Fleet | 320 Boards in 120 Days — SUPsfactory',
+      metaTitle: 'Coastal Rental Fleet | 320 Boards in 120 Days — iSupfactory',
       metaDescription:
         'How a Mediterranean rental operator built a 320-board coastal fleet across Spain, Italy and Greece — three phased batches in 120 days, with an estimated 20–25% cut in early replacements.',
       kicker: 'Coastal Rental Project',
@@ -122,7 +122,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Two market-proven SKUs under the distributor\'s own brand, EU retail packaging, season-date alignment',
       qualityFocus: 'Artwork accuracy, barcode and label per market, kit completeness, air-tightness',
       navLabel: 'Distributor Private Label',
-      metaTitle: 'EU Distributor Private Label | 1,200 Boards in 90 Days — SUPsfactory',
+      metaTitle: 'EU Distributor Private Label | 1,200 Boards in 90 Days — iSupfactory',
       metaDescription:
         'How a European distributor launched a 1,200-board private-label SUP line in 90 days — two SKUs, EU retail packaging, and a Q4 repeat order on the same locked specification.',
       kicker: 'Private Label Project',
@@ -187,7 +187,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Rental durability, compact storage, full property branding',
       qualityFocus: 'Air-tightness, artwork accuracy, accessory completeness, carton marking',
       navLabel: 'Luxury Resort SUP Fleet',
-      metaTitle: 'Luxury Resort SUP Fleet | 100 Branded Boards — SUPsfactory',
+      metaTitle: 'Luxury Resort SUP Fleet | 100 Branded Boards — iSupfactory',
       metaDescription:
         'How a luxury resort equipped its beach program with 100 branded SUP boards — custom graphics, rental-grade construction and seasonal fleet management.',
       kicker: 'Resort Project',
@@ -240,7 +240,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Sellable line without in-house SUP design or manufacturing',
       qualityFocus: 'Artwork version control, packaging accuracy, kit completeness',
       navLabel: 'Private Label Brand Launch',
-      metaTitle: 'Private Label SUP Launch | Brand Extension — SUPsfactory',
+      metaTitle: 'Private Label SUP Launch | Brand Extension — iSupfactory',
       metaDescription:
         'How an existing outdoor brand extended into SUP with a private label product line — from logo to first container, with scalable MOQ.',
       kicker: 'Private Label Project',
@@ -293,7 +293,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Uniform team look, tight budget, identical future expansion',
       qualityFocus: 'Artwork accuracy, air-tightness, kit completeness, reorder consistency',
       navLabel: 'Club Team Boards',
-      metaTitle: 'Club Team SUP Boards | Branded Fleet Refresh — SUPsfactory',
+      metaTitle: 'Club Team SUP Boards | Branded Fleet Refresh — iSupfactory',
       metaDescription:
         'How a paddling club rebranded and refreshed its fleet with 25 branded training boards — team graphics, parts support and consistent reorders.',
       kicker: 'Club Project',
@@ -344,7 +344,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Safety-first equipment, class-size quantities, limited staff management',
       qualityFocus: 'Stability, air-tightness, accessory completeness, user guidance',
       navLabel: 'School Program Fleet',
-      metaTitle: 'School SUP Program | Beginner Fleet — SUPsfactory',
+      metaTitle: 'School SUP Program | Beginner Fleet — iSupfactory',
       metaDescription:
         'How a school launched a paddle sports elective with a 15-board beginner fleet and multi-person boards — safety-first equipment for instruction.',
       kicker: 'School Project',
@@ -397,7 +397,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'One quality owner, consistent branding, reduced per-SKU inventory',
       qualityFocus: 'Air-tightness, artwork accuracy, barcode and label accuracy, BOM match',
       navLabel: 'Distributor Line Expansion',
-      metaTitle: 'Distributor SUP Line Expansion | 6-SKU Program — SUPsfactory',
+      metaTitle: 'Distributor SUP Line Expansion | 6-SKU Program — iSupfactory',
       metaDescription:
         'How a water-sports distributor added a full mid-market SUP range across six SKUs — one factory, one program, exported to multiple markets.',
       kicker: 'Distributor Project',
@@ -450,7 +450,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Low-MOQ first run, launch-date alignment, tooling retained for the brand',
       qualityFocus: 'Air-tightness, artwork accuracy, packaging verification',
       navLabel: 'Startup Brand 0→1 Launch',
-      metaTitle: 'Startup SUP Brand Launch | Concept to First Batch — SUPsfactory',
+      metaTitle: 'Startup SUP Brand Launch | Concept to First Batch — iSupfactory',
       metaDescription:
         'How a SUP startup went from concept to a sold-out first batch — ODM development, a 10-piece trial run, then a 200-piece branded launch order.',
       kicker: 'Startup Project',
@@ -502,7 +502,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'One uniform board across sites, rental-abuse durability',
       qualityFocus: 'Reinforced construction verification, air-tightness, kit completeness',
       navLabel: 'Multi-Site Rental Fleet',
-      metaTitle: 'Rental Fleet Expansion | 200 Boards, 3 Sites — SUPsfactory',
+      metaTitle: 'Rental Fleet Expansion | 200 Boards, 3 Sites — iSupfactory',
       metaDescription:
         'How a multi-site rental operator replaced mixed stock with 200 uniform boards across three locations — fleet pricing, seasonal refresh and parts supply.',
       kicker: 'Rental Project',
@@ -554,9 +554,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Touring performance, project-specific graphics, complete retail kit',
       qualityFocus: 'Air-tightness, artwork accuracy, accessory completeness, carton marking',
       navLabel: 'Touring SUP Range',
-      metaTitle: 'Touring SUP Range Development | Outdoor Distributor — SUPsfactory',
+      metaTitle: 'Touring SUP Range Development | Outdoor Distributor — iSupfactory',
       metaDescription:
-        'How SUPsfactory supported a touring SUP range for a European outdoor distributor — platform review, project-specific graphics, accessory configuration and retail packaging.',
+        'How iSupfactory supported a touring SUP range for a European outdoor distributor — platform review, project-specific graphics, accessory configuration and retail packaging.',
       kicker: 'Touring Project',
       h1: 'Developing a Touring SUP Range for a European Outdoor Distributor',
       intro: [
@@ -607,9 +607,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Fishing accessory integration, stable platform, organized pack',
       qualityFocus: 'Air-tightness, accessory anchoring, artwork accuracy, pack completeness',
       navLabel: 'Fishing SUP Program',
-      metaTitle: 'Fishing SUP Development | Accessory Layout & Pack — SUPsfactory',
+      metaTitle: 'Fishing SUP Development | Accessory Layout & Pack — iSupfactory',
       metaDescription:
-        'How SUPsfactory developed a fishing SUP configuration for an outdoor retailer — accessory layout, organized pack and retail-ready packing under one controlled program.',
+        'How iSupfactory developed a fishing SUP configuration for an outdoor retailer — accessory layout, organized pack and retail-ready packing under one controlled program.',
       kicker: 'Fishing Project',
       h1: 'Fishing SUP Development for an Outdoor Retailer — Accessory Layout and Pack Configuration',
       intro: [
@@ -661,9 +661,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Stability for group practice, full EVA deck coverage, consistent fleet',
       qualityFocus: 'Deck coverage, air-tightness, artwork accuracy, kit completeness',
       navLabel: 'Yoga SUP Program',
-      metaTitle: 'Yoga SUP Development | Training Program — SUPsfactory',
+      metaTitle: 'Yoga SUP Development | Training Program — iSupfactory',
       metaDescription:
-        'How SUPsfactory developed a stable yoga SUP configuration for a water-sports training program — full deck coverage and a consistent program fleet.',
+        'How iSupfactory developed a stable yoga SUP configuration for a water-sports training program — full deck coverage and a consistent program fleet.',
       kicker: 'Yoga Project',
       h1: 'Developing a Stable Yoga SUP Configuration for a Water-Sports Training Program',
       intro: [
@@ -716,7 +716,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Tablas duraderas para alquiler, entrega por fases, menor tasa de reemplazo temprano',
       qualityFocus: 'Construcción reforzada, estanqueidad, arte de flota, integridad del kit',
       navLabel: 'Flota de alquiler costera',
-      metaTitle: 'Flota de alquiler costera | 320 tablas en 120 días — SUPsfactory',
+      metaTitle: 'Flota de alquiler costera | 320 tablas en 120 días — iSupfactory',
       metaDescription:
         'Cómo un operador de alquiler del Mediterráneo construyó una flota costera de 320 tablas en España, Italia y Grecia — tres fases en 120 días, con una reducción estimada del 20–25 % en reemplazos tempranos.',
       kicker: 'Proyecto de alquiler costero',
@@ -781,7 +781,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Dos SKU probados en el mercado bajo la marca propia, embalaje retail UE, alineación con la temporada',
       qualityFocus: 'Precisión del arte, código de barras y etiquetas por mercado, integridad del kit, estanqueidad',
       navLabel: 'Marca privada para distribuidor',
-      metaTitle: 'Marca privada para distribuidor UE | 1.200 tablas en 90 días — SUPsfactory',
+      metaTitle: 'Marca privada para distribuidor UE | 1.200 tablas en 90 días — iSupfactory',
       metaDescription:
         'Cómo un distribuidor europeo lanzó una línea de SUP de marca privada de 1.200 tablas en 90 días — dos SKU, embalaje retail UE y un reorder en el Q4 con la misma especificación bloqueada.',
       kicker: 'Proyecto de marca privada',
@@ -846,7 +846,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Durabilidad de alquiler, almacenaje compacto, marca completa de la propiedad',
       qualityFocus: 'Estanqueidad al aire, precisión del arte, integridad de accesorios, marcado de cajas',
       navLabel: 'Flota SUP para resort de lujo',
-      metaTitle: 'Flota SUP en resort de lujo | 100 tablas — SUPsfactory',
+      metaTitle: 'Flota SUP en resort de lujo | 100 tablas — iSupfactory',
       metaDescription:
         'Cómo un resort de lujo equipó su programa de playa con 100 tablas SUP de marca: arte personalizado, construcción de grado alquiler y gestión de flota por temporada.',
       kicker: 'Proyecto de resort',
@@ -899,7 +899,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Línea vendible sin diseño ni fabricación SUP propios',
       qualityFocus: 'Control de versión del arte, precisión del embalaje, integridad del kit',
       navLabel: 'Lanzamiento de marca privada',
-      metaTitle: 'Lanzamiento SUP de marca privada | SUPsfactory',
+      metaTitle: 'Lanzamiento SUP de marca privada | iSupfactory',
       metaDescription:
         'Cómo una marca outdoor existente entró en el SUP con una línea de marca privada: del logo al primer pedido, con pedidos mínimos escalables.',
       kicker: 'Proyecto de marca privada',
@@ -951,7 +951,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Imagen de equipo uniforme, presupuesto ajustado, ampliación idéntica',
       qualityFocus: 'Precisión del arte, estanqueidad, integridad del kit, coherencia en reordenes',
       navLabel: 'Tablas de equipo para club',
-      metaTitle: 'Tablas SUP de equipo de club | SUPsfactory',
+      metaTitle: 'Tablas SUP de equipo de club | iSupfactory',
       metaDescription:
         'Cómo un club de remo renovó su flota con 25 tablas de entrenamiento de marca: arte de equipo, soporte de accesorios y reordenes consistentes.',
       kicker: 'Proyecto de club',
@@ -1001,7 +1001,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Equipamiento con prioridad en seguridad, cantidades para clase, gestión con poco personal',
       qualityFocus: 'Estabilidad, estanqueidad, integridad de accesorios, orientación de uso',
       navLabel: 'Flota para programa escolar',
-      metaTitle: 'Programa de SUP escolar | Flota de iniciación — SUPsfactory',
+      metaTitle: 'Programa de SUP escolar | Flota de iniciación — iSupfactory',
       metaDescription:
         'Cómo una escuela lanzó una optativa de remo con 15 tablas de iniciación y multiusuario: un equipamiento priorizado por la seguridad, pensado para la enseñanza.',
       kicker: 'Proyecto escolar',
@@ -1053,7 +1053,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Un único responsable de calidad, branding consistente, menor inventario por SKU',
       qualityFocus: 'Estanqueidad, precisión del arte, precisión de códigos de barras y etiquetas, coincidencia con BOM',
       navLabel: 'Ampliación de línea para distribuidor',
-      metaTitle: 'Ampliación de línea SUP para distribuidor | 6 SKU — SUPsfactory',
+      metaTitle: 'Ampliación de línea SUP para distribuidor | 6 SKU — iSupfactory',
       metaDescription:
         'Cómo un distribuidor de deportes acuáticos añadió una gama completa de SUP de gama media con seis SKU: una sola fábrica, un programa, exportado a varios mercados.',
       kicker: 'Proyecto de distribuidor',
@@ -1106,7 +1106,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Primera tirada con MOQ bajo, alineación con la fecha de lanzamiento, moldes en propiedad',
       qualityFocus: 'Estanqueidad, precisión del arte, verificación del embalaje',
       navLabel: 'Lanzamiento 0→1 de marca startup',
-      metaTitle: 'Lanzamiento de marca SUP startup | Del concepto al primer lote — SUPsfactory',
+      metaTitle: 'Lanzamiento de marca SUP startup | Del concepto al primer lote — iSupfactory',
       metaDescription:
         'Cómo una startup de SUP pasó del concepto a un primer lote agotado: desarrollo ODM, pedido de prueba de 10 unidades y lote de lanzamiento de 200 unidades de marca.',
       kicker: 'Proyecto de startup',
@@ -1158,7 +1158,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Una misma tabla en todos los sitios, durabilidad ante uso de alquiler',
       qualityFocus: 'Verificación de construcción reforzada, estanqueidad, integridad del kit',
       navLabel: 'Flota de alquiler multi-ubicación',
-      metaTitle: 'Expansión de flota de alquiler | 200 tablas, 3 sedes — SUPsfactory',
+      metaTitle: 'Expansión de flota de alquiler | 200 tablas, 3 sedes — iSupfactory',
       metaDescription:
         'Cómo un operador de alquiler multi-ubicación sustituyó stock mixto por 200 tablas uniformes en tres sedes: precio de flota, renovación por temporada y suministro de recambios.',
       kicker: 'Proyecto de alquiler',
@@ -1210,9 +1210,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Rendimiento touring, arte específico del proyecto, kit de retail completo',
       qualityFocus: 'Estanqueidad, precisión del arte, integridad de accesorios, marcado de cajas',
       navLabel: 'Gama de SUP touring',
-      metaTitle: 'Desarrollo de gama SUP touring | Distribuidor outdoor — SUPsfactory',
+      metaTitle: 'Desarrollo de gama SUP touring | Distribuidor outdoor — iSupfactory',
       metaDescription:
-        'Cómo SUPsfactory respaldó una gama de SUP touring para un distribuidor outdoor europeo: revisión de plataforma, arte específico, configuración de accesorios y embalaje de retail.',
+        'Cómo iSupfactory respaldó una gama de SUP touring para un distribuidor outdoor europeo: revisión de plataforma, arte específico, configuración de accesorios y embalaje de retail.',
       kicker: 'Proyecto touring',
       h1: 'Desarrollo de una gama de SUP touring para un distribuidor outdoor europeo',
       intro: [
@@ -1263,9 +1263,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Integración de accesorios de pesca, plataforma estable, pack organizado',
       qualityFocus: 'Estanqueidad, anclaje de accesorios, precisión del arte, integridad del pack',
       navLabel: 'Programa de SUP de pesca',
-      metaTitle: 'Desarrollo de SUP de pesca | Disposición de accesorios — SUPsfactory',
+      metaTitle: 'Desarrollo de SUP de pesca | Disposición de accesorios — iSupfactory',
       metaDescription:
-        'Cómo SUPsfactory desarrolló una configuración de SUP de pesca para un minorista outdoor: disposición de accesorios, pack organizado y embalaje listo para retail bajo un programa controlado.',
+        'Cómo iSupfactory desarrolló una configuración de SUP de pesca para un minorista outdoor: disposición de accesorios, pack organizado y embalaje listo para retail bajo un programa controlado.',
       kicker: 'Proyecto de pesca',
       h1: 'Desarrollo de SUP de pesca para un minorista outdoor — disposición de accesorios y configuración del pack',
       intro: [
@@ -1317,9 +1317,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Estabilidad para práctica en grupo, cobertura total de EVA, flota coherente',
       qualityFocus: 'Cobertura de cubierta, estanqueidad, precisión del arte, integridad del kit',
       navLabel: 'Programa de SUP de yoga',
-      metaTitle: 'Desarrollo de SUP de yoga | Programa de entrenamiento — SUPsfactory',
+      metaTitle: 'Desarrollo de SUP de yoga | Programa de entrenamiento — iSupfactory',
       metaDescription:
-        'Cómo SUPsfactory desarrolló una configuración estable de SUP de yoga para un programa de entrenamiento de deportes acuáticos: cobertura total de cubierta y una flota de programa coherente.',
+        'Cómo iSupfactory desarrolló una configuración estable de SUP de yoga para un programa de entrenamiento de deportes acuáticos: cobertura total de cubierta y una flota de programa coherente.',
       kicker: 'Proyecto de yoga',
       h1: 'Desarrollo de una configuración estable de SUP de yoga para un programa de entrenamiento de deportes acuáticos',
       intro: [
@@ -1372,7 +1372,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Planches durables pour la location, livraison par lots aux stations, réduction du taux de remplacement prématuré',
       qualityFocus: 'Construction renforcée, étanchéité, visuels de flotte, intégralité du kit',
       navLabel: 'Flotte de location côtière',
-      metaTitle: 'Flotte de location côtière | 320 planches en 120 jours — SUPsfactory',
+      metaTitle: 'Flotte de location côtière | 320 planches en 120 jours — iSupfactory',
       metaDescription:
         'Comment un opérateur de location méditerranéen a constitué une flotte côtière de 320 planches en Espagne, en Italie et en Grèce — trois lots échelonnés en 120 jours, avec une réduction estimée de 20 à 25 % des remplacements prématurés.',
       kicker: 'Projet de location côtière',
@@ -1437,7 +1437,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Deux références éprouvées sous la propre marque du distributeur, emballage de détail UE, alignement sur les dates de saison',
       qualityFocus: 'Précision des visuels, code-barres et étiquettes par marché, intégralité du kit, étanchéité',
       navLabel: 'Marque privée pour distributeur',
-      metaTitle: 'Marque privée distributeur UE | 1 200 planches en 90 jours — SUPsfactory',
+      metaTitle: 'Marque privée distributeur UE | 1 200 planches en 90 jours — iSupfactory',
       metaDescription:
         'Comment un distributeur européen a lancé une ligne de SUP de marque privée de 1 200 planches en 90 jours — deux références, emballage de détail UE et une réassort au T4 sur la même spécification figée.',
       kicker: 'Projet de marque privée',
@@ -1502,7 +1502,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Durabilité pour la location, stockage compact, image de marque complète de l\'établissement',
       qualityFocus: 'Étanchéité, précision des visuels, intégralité des accessoires, marquage des cartons',
       navLabel: 'Flotte SUP pour resort de luxe',
-      metaTitle: 'Flotte SUP pour resort de luxe | 100 planches de marque — SUPsfactory',
+      metaTitle: 'Flotte SUP pour resort de luxe | 100 planches de marque — iSupfactory',
       metaDescription:
         'Comment un resort de luxe a équipé son programme de plage avec 100 planches SUP de marque — visuels personnalisés, construction de gamme location et gestion saisonnière de la flotte.',
       kicker: 'Projet resort',
@@ -1555,7 +1555,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Ligne commercialisable sans conception ni fabrication SUP en interne',
       qualityFocus: 'Contrôle de version des visuels, exactitude de l\'emballage, intégralité du kit',
       navLabel: 'Lancement de marque privée',
-      metaTitle: 'Lancement SUP de marque privée | Extension de marque — SUPsfactory',
+      metaTitle: 'Lancement SUP de marque privée | Extension de marque — iSupfactory',
       metaDescription:
         'Comment une marque outdoor établie s\'est étendue au SUP avec une gamme de marque privée — du logo au premier conteneur, avec un MOQ évolutif.',
       kicker: 'Projet de marque privée',
@@ -1608,7 +1608,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Look d\'équipe uniforme, budget serré, extension future identique',
       qualityFocus: 'Précision des visuels, étanchéité, intégralité du kit, cohérence des réassorts',
       navLabel: 'Planches d\'équipe pour club',
-      metaTitle: 'Planches SUP d\'équipe de club | Renouvellement de flotte de marque — SUPsfactory',
+      metaTitle: 'Planches SUP d\'équipe de club | Renouvellement de flotte de marque — iSupfactory',
       metaDescription:
         'Comment un club de paddle a renouvelé sa flotte avec 25 planches d\'entraînement de marque — visuels d\'équipe, support de pièces et réassorts cohérents.',
       kicker: 'Projet club',
@@ -1659,7 +1659,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Équipement axé sur la sécurité, quantités adaptées aux classes, gestion avec un personnel limité',
       qualityFocus: 'Stabilité, étanchéité, intégralité des accessoires, conseils d\'utilisation',
       navLabel: 'Flotte pour programme scolaire',
-      metaTitle: 'Programme de SUP scolaire | Flotte débutant — SUPsfactory',
+      metaTitle: 'Programme de SUP scolaire | Flotte débutant — iSupfactory',
       metaDescription:
         'Comment une école a lancé une option paddle avec une flotte débutant de 15 planches et des planches multi-utilisateurs — un équipement axé sur la sécurité pour l\'enseignement.',
       kicker: 'Projet scolaire',
@@ -1712,7 +1712,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Un seul responsable qualité, image de marque cohérente, réduction du stock par référence',
       qualityFocus: 'Étanchéité, précision des visuels, exactitude des code-barres et étiquettes, conformité à la nomenclature',
       navLabel: 'Extension de gamme pour distributeur',
-      metaTitle: 'Extension de gamme SUP pour distributeur | Programme 6 références — SUPsfactory',
+      metaTitle: 'Extension de gamme SUP pour distributeur | Programme 6 références — iSupfactory',
       metaDescription:
         'Comment un distributeur de sports nautiques a ajouté une gamme complète de SUP de gamme moyenne sur six références — une seule usine, un seul programme, exportée vers plusieurs marchés.',
       kicker: 'Projet distributeur',
@@ -1765,7 +1765,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Première série à MOQ réduit, alignement sur la date de lancement, outillages conservés pour la marque',
       qualityFocus: 'Étanchéité, précision des visuels, vérification de l\'emballage',
       navLabel: 'Lancement 0→1 de marque startup',
-      metaTitle: 'Lancement de marque SUP startup | Du concept au premier lot — SUPsfactory',
+      metaTitle: 'Lancement de marque SUP startup | Du concept au premier lot — iSupfactory',
       metaDescription:
         'Comment une startup de SUP est passée du concept à un premier lot écoulé — développement ODM, lot d\'essai de 10 pièces, puis commande de lancement de 200 pièces de marque.',
       kicker: 'Projet startup',
@@ -1817,7 +1817,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Une seule planche uniforme sur tous les sites, durabilité face à l\'usage intensif de location',
       qualityFocus: 'Vérification de la construction renforcée, étanchéité, intégralité du kit',
       navLabel: 'Flotte de location multi-sites',
-      metaTitle: 'Extension de flotte de location | 200 planches, 3 sites — SUPsfactory',
+      metaTitle: 'Extension de flotte de location | 200 planches, 3 sites — iSupfactory',
       metaDescription:
         'Comment un opérateur de location multi-sites a remplacé un stock hétérogène par 200 planches uniformes sur trois sites — tarif de flotte, renouvellement saisonnier et fourniture de pièces.',
       kicker: 'Projet location',
@@ -1869,9 +1869,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Performance en croisière, graphismes spécifiques au projet, kit de détail complet',
       qualityFocus: 'Étanchéité, précision des visuels, intégralité des accessoires, marquage des cartons',
       navLabel: 'Gamme de SUP touring',
-      metaTitle: 'Développement de gamme de SUP touring | Distributeur outdoor — SUPsfactory',
+      metaTitle: 'Développement de gamme de SUP touring | Distributeur outdoor — iSupfactory',
       metaDescription:
-        'Comment SUPsfactory a accompagné une gamme de SUP touring pour un distributeur outdoor européen — revue de plateforme, graphismes spécifiques, configuration des accessoires et emballage de détail.',
+        'Comment iSupfactory a accompagné une gamme de SUP touring pour un distributeur outdoor européen — revue de plateforme, graphismes spécifiques, configuration des accessoires et emballage de détail.',
       kicker: 'Projet touring',
       h1: 'Développer une gamme de SUP touring pour un distributeur outdoor européen',
       intro: [
@@ -1922,9 +1922,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Intégration des accessoires de pêche, plateforme stable, pack organisé',
       qualityFocus: 'Étanchéité, ancrage des accessoires, précision des visuels, intégralité du pack',
       navLabel: 'Programme de SUP de pêche',
-      metaTitle: 'Développement de SUP de pêche | Disposition des accessoires et pack — SUPsfactory',
+      metaTitle: 'Développement de SUP de pêche | Disposition des accessoires et pack — iSupfactory',
       metaDescription:
-        'Comment SUPsfactory a développé une configuration de SUP de pêche pour un détaillant outdoor — disposition des accessoires, pack organisé et emballage prêt pour le détail sous un programme contrôlé.',
+        'Comment iSupfactory a développé une configuration de SUP de pêche pour un détaillant outdoor — disposition des accessoires, pack organisé et emballage prêt pour le détail sous un programme contrôlé.',
       kicker: 'Projet pêche',
       h1: 'Développement d\'un SUP de pêche pour un détaillant outdoor — disposition des accessoires et configuration du pack',
       intro: [
@@ -1976,9 +1976,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Stabilité pour la pratique en groupe, couverture EVA complète du pont, flotte cohérente',
       qualityFocus: 'Couverture du pont, étanchéité, précision des visuels, intégralité du kit',
       navLabel: 'Programme de SUP de yoga',
-      metaTitle: 'Développement de SUP de yoga | Programme d\'entraînement — SUPsfactory',
+      metaTitle: 'Développement de SUP de yoga | Programme d\'entraînement — iSupfactory',
       metaDescription:
-        'Comment SUPsfactory a développé une configuration stable de SUP de yoga pour un programme d\'entraînement de sports nautiques — couverture complète du pont et flotte de programme cohérente.',
+        'Comment iSupfactory a développé une configuration stable de SUP de yoga pour un programme d\'entraînement de sports nautiques — couverture complète du pont et flotte de programme cohérente.',
       kicker: 'Projet yoga',
       h1: 'Développement d\'une configuration stable de SUP de yoga pour un programme d\'entraînement de sports nautiques',
       intro: [
@@ -2031,7 +2031,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Langlebige Verleihboards, gestaffelte Lieferung an alle Stationen, geringere Quote der Frühausfälle',
       qualityFocus: 'Verstärkte Konstruktion, Luftdichtheit, Flotten-Design, vollständige Ausstattung',
       navLabel: 'Küsten-Verleihflotte',
-      metaTitle: 'Küsten-Verleihflotte | 320 Boards in 120 Tagen — SUPsfactory',
+      metaTitle: 'Küsten-Verleihflotte | 320 Boards in 120 Tagen — iSupfactory',
       metaDescription:
         'Wie ein Verleihbetreiber im Mittelmeerraum eine Küstenflotte mit 320 Boards in Spanien, Italien und Griechenland aufbaute — drei gestaffelte Chargen in 120 Tagen und eine geschätzte Verringerung der Frühausfälle um 20–25 %.',
       kicker: 'Küstenverleih-Projekt',
@@ -2096,7 +2096,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Zwei markterprobte SKUs unter der eigenen Marke des Distributors, EU-Einzelhandelsverpackung, Abstimmung auf die Saisontermine',
       qualityFocus: 'Designgenauigkeit, Barcode und Etikett je Markt, vollständige Ausstattung, Luftdichtheit',
       navLabel: 'Private Label für Distributoren',
-      metaTitle: 'EU-Distributor Private Label | 1,200 Boards in 90 Tagen — SUPsfactory',
+      metaTitle: 'EU-Distributor Private Label | 1,200 Boards in 90 Tagen — iSupfactory',
       metaDescription:
         'Wie ein europäischer Distributor in 90 Tagen eine Private-Label-SUP-Linie mit 1,200 Boards lancierte — zwei SKUs, EU-Einzelhandelsverpackung und im Q4 eine Folgeauftrag zur gleichen fixierten Spezifikation.',
       kicker: 'Private-Label-Projekt',
@@ -2161,7 +2161,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Verleih-Langlebigkeit, kompakte Lagerung, vollständiges Branding der Anlage',
       qualityFocus: 'Luftdichtheit, Designgenauigkeit, vollständiges Zubehör, Kartonkennzeichnung',
       navLabel: 'SUP-Flotte für ein Luxusresort',
-      metaTitle: 'SUP-Flotte für ein Luxusresort | 100 gebrandete Boards — SUPsfactory',
+      metaTitle: 'SUP-Flotte für ein Luxusresort | 100 gebrandete Boards — iSupfactory',
       metaDescription:
         'Wie ein Luxusresort sein Strandprogramm mit 100 gebrandeten SUP-Boards ausstattete — individuelles Design, Konstruktion in Verleihqualität und saisonales Flottenmanagement.',
       kicker: 'Resort-Projekt',
@@ -2214,7 +2214,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Verkaufsfähige Linie ohne eigenes SUP-Design oder eigene Fertigung',
       qualityFocus: 'Versionskontrolle des Designs, Verpackungsgenauigkeit, vollständige Ausstattung',
       navLabel: 'Private-Label-Markenlaunch',
-      metaTitle: 'Private-Label-SUP-Launch | Markenerweiterung — SUPsfactory',
+      metaTitle: 'Private-Label-SUP-Launch | Markenerweiterung — iSupfactory',
       metaDescription:
         'Wie eine bestehende Outdoor-Marke mit einer Private-Label-Produktlinie ins SUP-Geschäft expandierte — vom Logo bis zum ersten Container, mit skalierbarer MOQ.',
       kicker: 'Private-Label-Projekt',
@@ -2267,7 +2267,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Einheitlicher Team-Look, knappes Budget, identische künftige Erweiterung',
       qualityFocus: 'Designgenauigkeit, Luftdichtheit, vollständige Ausstattung, konsistente Nachbestellungen',
       navLabel: 'Team-Boards für den Club',
-      metaTitle: 'Club Team SUP Boards | Gebrandeter Flotten-Refresh — SUPsfactory',
+      metaTitle: 'Club Team SUP Boards | Gebrandeter Flotten-Refresh — iSupfactory',
       metaDescription:
         'Wie ein Paddelclub seine Flotte mit 25 gebrandeten Trainings-Boards neu aufstellte und auffrischte — Team-Design, Ersatzteil-Support und konsistente Nachbestellungen.',
       kicker: 'Club-Projekt',
@@ -2318,7 +2318,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Sicherheitsorientiertes Equipment, Mengen für Klassengrößen, Verwaltung mit begrenztem Personal',
       qualityFocus: 'Stabilität, Luftdichtheit, vollständiges Zubehör, Nutzeranleitung',
       navLabel: 'Flotte für Schulprogramme',
-      metaTitle: 'SUP-Programm für Schulen | Anfängerflotte — SUPsfactory',
+      metaTitle: 'SUP-Programm für Schulen | Anfängerflotte — iSupfactory',
       metaDescription:
         'Wie eine Schule mit einer Anfängerflotte aus 15 Boards und Mehrpersonen-Boards einen Paddelsport-Wahlkurs startete — sicherheitsorientiertes Equipment für den Unterricht.',
       kicker: 'Schulprojekt',
@@ -2371,7 +2371,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Ein Qualitätsverantwortlicher, konsistentes Branding, geringere Lagerbestände pro SKU',
       qualityFocus: 'Luftdichtheit, Designgenauigkeit, Barcode- und Etikettgenauigkeit, Stücklisten-Abgleich',
       navLabel: 'Sortimentserweiterung für Distributoren',
-      metaTitle: 'Distributor SUP-Sortimentserweiterung | 6-SKU-Programm — SUPsfactory',
+      metaTitle: 'Distributor SUP-Sortimentserweiterung | 6-SKU-Programm — iSupfactory',
       metaDescription:
         'Wie ein Wassersport-Distributor eine vollständige Mid-Market-SUP-Linie mit sechs SKUs aufbaute — eine Fabrik, ein Programm, exportiert in mehrere Märkte.',
       kicker: 'Distributor-Projekt',
@@ -2424,7 +2424,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Erste Serie mit niedriger MOQ, Abstimmung auf den Launch-Zeitpunkt, Werkzeug bleibt bei der Marke',
       qualityFocus: 'Luftdichtheit, Designgenauigkeit, Verpackungsprüfung',
       navLabel: 'Startup-Markenlaunch 0→1',
-      metaTitle: 'Startup-SUP-Markenlaunch | Vom Konzept zur ersten Serie — SUPsfactory',
+      metaTitle: 'Startup-SUP-Markenlaunch | Vom Konzept zur ersten Serie — iSupfactory',
       metaDescription:
         'Wie ein SUP-Startup vom Konzept zu einer ausverkauften ersten Serie gelangte — ODM-Entwicklung, eine Probeproduktion mit 10 Stück und anschließend eine gebrandete Launch-Bestellung mit 200 Stück.',
       kicker: 'Startup-Projekt',
@@ -2476,7 +2476,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Ein einheitliches Board an allen Standorten, Langlebigkeit bei Verleihbelastung',
       qualityFocus: 'Prüfung der verstärkten Konstruktion, Luftdichtheit, vollständige Ausstattung',
       navLabel: 'Verleihflotte für mehrere Standorte',
-      metaTitle: 'Verleihflotten-Erweiterung | 200 Boards, 3 Standorte — SUPsfactory',
+      metaTitle: 'Verleihflotten-Erweiterung | 200 Boards, 3 Standorte — iSupfactory',
       metaDescription:
         'Wie ein Verleihbetreiber mit mehreren Standorten gemischte Bestände durch 200 einheitliche Boards an drei Standorten ersetzte — Flottenkonditionen, saisonaler Refresh und Ersatzteilversorgung.',
       kicker: 'Verleih-Projekt',
@@ -2528,9 +2528,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Touring-Performance, projektspezifisches Design, komplettes Einzelhandelsset',
       qualityFocus: 'Luftdichtheit, Designgenauigkeit, vollständiges Zubehör, Kartonkennzeichnung',
       navLabel: 'Touring-SUP-Linie',
-      metaTitle: 'Entwicklung einer Touring-SUP-Linie | Outdoor-Distributor — SUPsfactory',
+      metaTitle: 'Entwicklung einer Touring-SUP-Linie | Outdoor-Distributor — iSupfactory',
       metaDescription:
-        'Wie SUPsfactory eine Touring-SUP-Linie für einen europäischen Outdoor-Distributor unterstützte — Plattform-Review, projektspezifisches Design, Zubehörkonfiguration und Einzelhandelsverpackung.',
+        'Wie iSupfactory eine Touring-SUP-Linie für einen europäischen Outdoor-Distributor unterstützte — Plattform-Review, projektspezifisches Design, Zubehörkonfiguration und Einzelhandelsverpackung.',
       kicker: 'Touring-Projekt',
       h1: 'Entwicklung einer Touring-SUP-Linie für einen europäischen Outdoor-Distributor',
       intro: [
@@ -2581,9 +2581,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Integration von Angelzubehör, stabile Plattform, geordnetes Paket',
       qualityFocus: 'Luftdichtheit, Verankerung des Zubehörs, Designgenauigkeit, vollständiges Paket',
       navLabel: 'Angler-SUP-Programm',
-      metaTitle: 'Angler-SUP-Entwicklung | Zubehöranordnung & Paket — SUPsfactory',
+      metaTitle: 'Angler-SUP-Entwicklung | Zubehöranordnung & Paket — iSupfactory',
       metaDescription:
-        'Wie SUPsfactory für einen Outdoor-Einzelhändler eine Angler-SUP-Konfiguration entwickelte — Zubehöranordnung, geordnetes Paket und handelsfertige Verpackung in einem kontrollierten Programm.',
+        'Wie iSupfactory für einen Outdoor-Einzelhändler eine Angler-SUP-Konfiguration entwickelte — Zubehöranordnung, geordnetes Paket und handelsfertige Verpackung in einem kontrollierten Programm.',
       kicker: 'Angeln-Projekt',
       h1: 'Entwicklung eines Angler-SUPs für einen Outdoor-Einzelhändler — Zubehöranordnung und Paketkonfiguration',
       intro: [
@@ -2635,9 +2635,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Stabilität für Gruppenpraxis, vollständige EVA-Deckabdeckung, konsistente Flotte',
       qualityFocus: 'Deckabdeckung, Luftdichtheit, Designgenauigkeit, vollständige Ausstattung',
       navLabel: 'Yoga-SUP-Programm',
-      metaTitle: 'Yoga-SUP-Entwicklung | Trainingsprogramm — SUPsfactory',
+      metaTitle: 'Yoga-SUP-Entwicklung | Trainingsprogramm — iSupfactory',
       metaDescription:
-        'Wie SUPsfactory für ein Wassersport-Trainingsprogramm eine stabile Yoga-SUP-Konfiguration entwickelte — vollständige Deckabdeckung und eine konsistente Programmflotte.',
+        'Wie iSupfactory für ein Wassersport-Trainingsprogramm eine stabile Yoga-SUP-Konfiguration entwickelte — vollständige Deckabdeckung und eine konsistente Programmflotte.',
       kicker: 'Yoga-Projekt',
       h1: 'Entwicklung einer stabilen Yoga-SUP-Konfiguration für ein Wassersport-Trainingsprogramm',
       intro: [
@@ -2690,7 +2690,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Tavole da noleggio durevoli, consegna scaglionata a tutte le stazioni, minore tasso di sostituzioni anticipate',
       qualityFocus: "Costruzione rinforzata, tenuta all’aria, grafiche di flotta, dotazione completa",
       navLabel: 'Flotta di noleggio costiera',
-      metaTitle: 'Flotta di noleggio costiera | 320 tavole in 120 giorni — SUPsfactory',
+      metaTitle: 'Flotta di noleggio costiera | 320 tavole in 120 giorni — iSupfactory',
       metaDescription:
         'Come un operatore di noleggio nel Mediterraneo ha allestito una flotta costiera di 320 tavole tra Spagna, Italia e Grecia — tre lotti scaglionati in 120 giorni e una riduzione stimata delle sostituzioni anticipate del 20–25 %.',
       kicker: 'Progetto di noleggio costiero',
@@ -2755,7 +2755,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Due SKU collaudate sul mercato sotto il marchio del distributore, imballaggio retail UE, allineamento con le date di stagione',
       qualityFocus: "Accuratezza delle grafiche, codice a barre ed etichetta per mercato, dotazione completa, tenuta all’aria",
       navLabel: 'Marchio privato per distributori',
-      metaTitle: 'Marchio privato per distributore UE | 1,200 tavole in 90 giorni — SUPsfactory',
+      metaTitle: 'Marchio privato per distributore UE | 1,200 tavole in 90 giorni — iSupfactory',
       metaDescription:
         'Come un distributore europeo ha lanciato in 90 giorni una linea SUP a marchio privato con 1,200 tavole — due SKU, imballaggio retail UE e un riordino nel Q4 sulla stessa specifica bloccata.',
       kicker: 'Progetto a marchio privato',
@@ -2820,7 +2820,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Durabilità per il noleggio, stoccaggio compatto, branding completo della struttura',
       qualityFocus: "Tenuta all’aria, accuratezza delle grafiche, accessori completi, marcatura dei cartoni",
       navLabel: 'Flotta SUP per un resort di lusso',
-      metaTitle: 'Flotta SUP per un resort di lusso | 100 tavole brandizzate — SUPsfactory',
+      metaTitle: 'Flotta SUP per un resort di lusso | 100 tavole brandizzate — iSupfactory',
       metaDescription:
         'Come un resort di lusso ha dotato il proprio programma balneare di 100 tavole SUP brandizzate — design personalizzato, costruzione di qualità da noleggio e gestione stagionale della flotta.',
       kicker: 'Progetto resort',
@@ -2873,7 +2873,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Linea vendibile senza design o produzione SUP interni',
       qualityFocus: "Controllo delle versioni delle grafiche, accuratezza dell’imballaggio, dotazione completa",
       navLabel: 'Lancio del marchio private label',
-      metaTitle: 'Lancio SUP private label | Estensione di marca — SUPsfactory',
+      metaTitle: 'Lancio SUP private label | Estensione di marca — iSupfactory',
       metaDescription:
         'Come un marchio outdoor esistente si è espanso nel business SUP con una linea di prodotto a marchio privato — dal logo al primo container, con MOQ scalabile.',
       kicker: 'Progetto private label',
@@ -2926,7 +2926,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Look di squadra uniforme, budget limitato, ampliamento futuro identico',
       qualityFocus: "Accuratezza delle grafiche, tenuta all’aria, dotazione completa, riordini coerenti",
       navLabel: 'Tavole di squadra per il club',
-      metaTitle: 'Tavole SUP di squadra per club | Rinnovamento della flotta brandizzato — SUPsfactory',
+      metaTitle: 'Tavole SUP di squadra per club | Rinnovamento della flotta brandizzato — iSupfactory',
       metaDescription:
         'Come un club di paddle ha rinnovato e aggiornato la propria flotta con 25 tavole da allenamento brandizzate — grafiche di squadra, supporto ricambi e riordini coerenti.',
       kicker: 'Progetto club',
@@ -2977,7 +2977,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Attrezzature orientate alla sicurezza, quantità per dimensioni di classe, gestione con personale limitato',
       qualityFocus: "Stabilità, tenuta all’aria, accessori completi, guida per l’utente",
       navLabel: 'Flotta per programmi scolastici',
-      metaTitle: 'Programma SUP per scuole | Flotta per principianti — SUPsfactory',
+      metaTitle: 'Programma SUP per scuole | Flotta per principianti — iSupfactory',
       metaDescription:
         "Come una scuola ha avviato un corso opzionale di paddle sport con una flotta di 15 tavole per principianti e tavole multi-posto — attrezzature orientate alla sicurezza per l’insegnamento.",
       kicker: 'Progetto scolastico',
@@ -3030,7 +3030,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Un unico responsabile della qualità, branding coerente, scorte ridotte per SKU',
       qualityFocus: "Tenuta all’aria, accuratezza delle grafiche, accuratezza di codici a barre ed etichette, rispondenza con la distinta base",
       navLabel: 'Ampliamento della gamma per distributori',
-      metaTitle: 'Ampliamento della gamma SUP per distributori | Programma da 6 SKU — SUPsfactory',
+      metaTitle: 'Ampliamento della gamma SUP per distributori | Programma da 6 SKU — iSupfactory',
       metaDescription:
         'Come un distributore di sport acquatici ha costruito una linea SUP completa di fascia media con sei SKU — una fabbrica, un programma, esportata in più mercati.',
       kicker: 'Progetto distributore',
@@ -3083,7 +3083,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Prima serie con MOQ bassa, allineamento con la data di lancio, stampi mantenuti dalla marca',
       qualityFocus: "Tenuta all’aria, accuratezza delle grafiche, verifica dell’imballaggio",
       navLabel: 'Lancio startup 0→1',
-      metaTitle: 'Lancio di una marca SUP startup | Dal concept alla prima serie — SUPsfactory',
+      metaTitle: 'Lancio di una marca SUP startup | Dal concept alla prima serie — iSupfactory',
       metaDescription:
         'Come una startup SUP è passata dal concept a una prima serie esaurita — sviluppo ODM, una produzione di prova da 10 pezzi e poi un ordine di lancio brandizzato da 200 pezzi.',
       kicker: 'Progetto startup',
@@ -3135,7 +3135,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Una tavola uniforme in tutte le sedi, durabilità sotto stress da noleggio',
       qualityFocus: "Verifica della costruzione rinforzata, tenuta all’aria, dotazione completa",
       navLabel: 'Flotta di noleggio multi-sede',
-      metaTitle: 'Ampliamento della flotta di noleggio | 200 tavole, 3 sedi — SUPsfactory',
+      metaTitle: 'Ampliamento della flotta di noleggio | 200 tavole, 3 sedi — iSupfactory',
       metaDescription:
         'Come un operatore di noleggio multi-sede ha sostituito stock eterogenei con 200 tavole uniformi in tre sedi — condizioni di flotta, aggiornamento stagionale e fornitura di ricambi.',
       kicker: 'Progetto di noleggio',
@@ -3187,9 +3187,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Prestazioni touring, grafiche specifiche del progetto, kit retail completo',
       qualityFocus: "Tenuta all’aria, accuratezza delle grafiche, accessori completi, marcatura dei cartoni",
       navLabel: 'Linea SUP touring',
-      metaTitle: 'Sviluppo di una linea SUP touring | Distributore outdoor — SUPsfactory',
+      metaTitle: 'Sviluppo di una linea SUP touring | Distributore outdoor — iSupfactory',
       metaDescription:
-        "Come SUPsfactory ha supportato una linea SUP touring per un distributore outdoor europeo — revisione della piattaforma, grafiche specifiche del progetto, configurazione degli accessori e imballaggio retail.",
+        "Come iSupfactory ha supportato una linea SUP touring per un distributore outdoor europeo — revisione della piattaforma, grafiche specifiche del progetto, configurazione degli accessori e imballaggio retail.",
       kicker: 'Progetto touring',
       h1: 'Sviluppo di una linea SUP touring per un distributore outdoor europeo',
       intro: [
@@ -3240,9 +3240,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Integrazione degli accessori da pesca, piattaforma stabile, kit ordinato',
       qualityFocus: "Tenuta all’aria, ancoraggio degli accessori, accuratezza delle grafiche, kit completo",
       navLabel: 'Programma SUP da pesca',
-      metaTitle: 'Sviluppo SUP da pesca | Disposizione degli accessori e kit — SUPsfactory',
+      metaTitle: 'Sviluppo SUP da pesca | Disposizione degli accessori e kit — iSupfactory',
       metaDescription:
-        "Come SUPsfactory ha sviluppato una configurazione SUP da pesca per un rivenditore outdoor — disposizione degli accessori, kit ordinato e imballaggio pronto per il retail in un programma controllato.",
+        "Come iSupfactory ha sviluppato una configurazione SUP da pesca per un rivenditore outdoor — disposizione degli accessori, kit ordinato e imballaggio pronto per il retail in un programma controllato.",
       kicker: 'Progetto pesca',
       h1: 'Sviluppo di un SUP da pesca per un rivenditore outdoor — disposizione degli accessori e configurazione del kit',
       intro: [
@@ -3294,9 +3294,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Stabilità per la pratica di gruppo, copertura completa del deck in EVA, flotta coerente',
       qualityFocus: "Copertura del deck, tenuta all’aria, accuratezza delle grafiche, dotazione completa",
       navLabel: 'Programma SUP yoga',
-      metaTitle: 'Sviluppo SUP yoga | Programma di allenamento — SUPsfactory',
+      metaTitle: 'Sviluppo SUP yoga | Programma di allenamento — iSupfactory',
       metaDescription:
-        "Come SUPsfactory ha sviluppato una configurazione yoga SUP stabile per un programma di allenamento di sport acquatici — copertura completa del deck e una flotta di programma coerente.",
+        "Come iSupfactory ha sviluppato una configurazione yoga SUP stabile per un programma di allenamento di sport acquatici — copertura completa del deck e una flotta di programma coerente.",
       kicker: 'Progetto yoga',
       h1: 'Sviluppo di una configurazione yoga SUP stabile per un programma di allenamento di sport acquatici',
       intro: [
@@ -3349,7 +3349,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Pranchas de aluguer duráveis, entrega faseada em todas as estações, menor taxa de substituições antecipadas',
       qualityFocus: 'Construção reforçada, estanquidade, gráficas de frota, kit completo',
       navLabel: 'Frota de aluguer costeira',
-      metaTitle: 'Frota de aluguer costeira | 320 pranchas em 120 dias — SUPsfactory',
+      metaTitle: 'Frota de aluguer costeira | 320 pranchas em 120 dias — iSupfactory',
       metaDescription:
         'Como um operador de aluguer no Mediterrâneo montou uma frota costeira de 320 pranchas entre Espanha, Itália e Grécia — três lotes faseados em 120 dias e uma redução estimada das substituições antecipadas de 20–25 %.',
       kicker: 'Projeto de aluguer costeiro',
@@ -3414,7 +3414,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Dois SKU comprovados no mercado sob a marca do distribuidor, embalagem de retalho UE, alinhamento com as datas de época',
       qualityFocus: 'Precisão das gráficas, código de barras e etiqueta por mercado, kit completo, estanquidade',
       navLabel: 'Marca própria para distribuidores',
-      metaTitle: 'Marca própria para distribuidor UE | 1,200 pranchas em 90 dias — SUPsfactory',
+      metaTitle: 'Marca própria para distribuidor UE | 1,200 pranchas em 90 dias — iSupfactory',
       metaDescription:
         'Como um distribuidor europeu lançou em 90 dias uma linha SUP de marca própria com 1,200 pranchas — dois SKU, embalagem de retalho UE e uma reencomenda no Q4 com a mesma especificação bloqueada.',
       kicker: 'Projeto de marca própria',
@@ -3479,7 +3479,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Durabilidade para o aluguer, arrumação compacta, marca completa da unidade',
       qualityFocus: 'Estanquidade, precisão das gráficas, acessórios completos, marcação dos cartões',
       navLabel: 'Frota SUP para um resort de luxo',
-      metaTitle: 'Frota SUP para um resort de luxo | 100 pranchas com marca — SUPsfactory',
+      metaTitle: 'Frota SUP para um resort de luxo | 100 pranchas com marca — iSupfactory',
       metaDescription:
         'Como um resort de luxo equipou o seu programa de praia com 100 pranchas SUP com a sua marca — gráficas personalizadas, construção de qualidade para aluguer e gestão sazonal da frota.',
       kicker: 'Projeto resort',
@@ -3532,7 +3532,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Linha vendável sem design ou produção SUP internos',
       qualityFocus: 'Controlo de versões das gráficas, precisão da embalagem, kit completo',
       navLabel: 'Lançamento de marca própria',
-      metaTitle: 'Lançamento SUP de marca própria | Extensão de marca — SUPsfactory',
+      metaTitle: 'Lançamento SUP de marca própria | Extensão de marca — iSupfactory',
       metaDescription:
         'Como uma marca outdoor existente se expandiu no setor SUP com uma linha de produto de marca própria — do logótipo ao primeiro contentor, com MOQ escalável.',
       kicker: 'Projeto de marca própria',
@@ -3585,7 +3585,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Aspecto de equipa uniforme, orçamento limitado, expansão futura idêntica',
       qualityFocus: 'Precisão das gráficas, estanquidade, kit completo, reencomendas coerentes',
       navLabel: 'Pranchas de equipa para o clube',
-      metaTitle: 'Pranchas SUP de equipa para clubes | Renovação da frota com a marca — SUPsfactory',
+      metaTitle: 'Pranchas SUP de equipa para clubes | Renovação da frota com a marca — iSupfactory',
       metaDescription:
         'Como um clube de paddle renovou e atualizou a sua frota com 25 pranchas de treino com a marca — gráficas de equipa, apoio a peças sobresselentes e reencomendas coerentes.',
       kicker: 'Projeto clube',
@@ -3636,7 +3636,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Equipamento orientado para a segurança, quantidades para dimensões de turma, gestão com pouco pessoal',
       qualityFocus: 'Estabilidade, estanquidade, acessórios completos, guia do utilizador',
       navLabel: 'Frota para programas escolares',
-      metaTitle: 'Programa SUP para escolas | Frota para iniciantes — SUPsfactory',
+      metaTitle: 'Programa SUP para escolas | Frota para iniciantes — iSupfactory',
       metaDescription:
         'Como uma escola lançou uma disciplina opcional de desportos de remo com uma frota de 15 pranchas para iniciantes e pranchas multi-lugar — equipamento orientado para a segurança no ensino.',
       kicker: 'Projeto escolar',
@@ -3689,7 +3689,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Um único responsável pela qualidade, marca coerente, stock reduzido por SKU',
       qualityFocus: 'Estanquidade, precisão das gráficas, precisão de códigos de barras e etiquetas, conformidade com a lista de materiais',
       navLabel: 'Expansão da gama para distribuidores',
-      metaTitle: 'Expansão da gama SUP para distribuidores | Programa de 6 SKU — SUPsfactory',
+      metaTitle: 'Expansão da gama SUP para distribuidores | Programa de 6 SKU — iSupfactory',
       metaDescription:
         'Como um distribuidor de desportos aquáticos montou uma linha SUP completa de gama média com seis SKU — uma fábrica, um programa, exportada para vários mercados.',
       kicker: 'Projeto distribuidor',
@@ -3742,7 +3742,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Primeira série com MOQ baixo, alinhamento com a data de lançamento, moldes mantidos pela marca',
       qualityFocus: 'Estanquidade, precisão das gráficas, verificação da embalagem',
       navLabel: 'Lançamento de arranque 0→1',
-      metaTitle: 'Lançamento de uma marca SUP em fase de arranque | Do concept à primeira série — SUPsfactory',
+      metaTitle: 'Lançamento de uma marca SUP em fase de arranque | Do concept à primeira série — iSupfactory',
       metaDescription:
         'Como uma startup SUP passou do concept a uma primeira série esgotada — desenvolvimento ODM, uma produção experimental de 10 peças e depois um pedido de lançamento com marca de 200 peças.',
       kicker: 'Projeto de arranque',
@@ -3794,7 +3794,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Uma prancha uniforme em todos os locais, durabilidade sob o esforço do aluguer',
       qualityFocus: 'Verificação da construção reforçada, estanquidade, kit completo',
       navLabel: 'Frota de aluguer multi-local',
-      metaTitle: 'Expansão da frota de aluguer | 200 pranchas, 3 locais — SUPsfactory',
+      metaTitle: 'Expansão da frota de aluguer | 200 pranchas, 3 locais — iSupfactory',
       metaDescription:
         'Como um operador de aluguer multi-local substituiu stock heterogéneo por 200 pranchas uniformes em três locais — condições de frota, atualização sazonal e fornecimento de peças sobresselentes.',
       kicker: 'Projeto de aluguer',
@@ -3846,9 +3846,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Prestações touring, gráficas específicas do projeto, kit de retalho completo',
       qualityFocus: 'Estanquidade, precisão das gráficas, acessórios completos, marcação dos cartões',
       navLabel: 'Linha SUP touring',
-      metaTitle: 'Desenvolvimento de uma linha SUP touring | Distribuidor outdoor — SUPsfactory',
+      metaTitle: 'Desenvolvimento de uma linha SUP touring | Distribuidor outdoor — iSupfactory',
       metaDescription:
-        'Como a SUPsfactory apoiou uma linha SUP touring para um distribuidor outdoor europeu — revisão da plataforma, gráficas específicas do projeto, configuração de acessórios e embalagem de retalho.',
+        'Como a iSupfactory apoiou uma linha SUP touring para um distribuidor outdoor europeu — revisão da plataforma, gráficas específicas do projeto, configuração de acessórios e embalagem de retalho.',
       kicker: 'Projeto touring',
       h1: 'Desenvolvimento de uma linha SUP touring para um distribuidor outdoor europeu',
       intro: [
@@ -3899,9 +3899,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Integração de acessórios de pesca, plataforma estável, kit organizado',
       qualityFocus: 'Estanquidade, ancoragem dos acessórios, precisão das gráficas, kit completo',
       navLabel: 'Programa SUP de pesca',
-      metaTitle: 'Desenvolvimento SUP de pesca | Disposição dos acessórios e kit — SUPsfactory',
+      metaTitle: 'Desenvolvimento SUP de pesca | Disposição dos acessórios e kit — iSupfactory',
       metaDescription:
-        'Como a SUPsfactory desenvolveu uma configuração SUP de pesca para um retalhista outdoor — disposição dos acessórios, kit organizado e embalagem pronta para o retalho num programa controlado.',
+        'Como a iSupfactory desenvolveu uma configuração SUP de pesca para um retalhista outdoor — disposição dos acessórios, kit organizado e embalagem pronta para o retalho num programa controlado.',
       kicker: 'Projeto pesca',
       h1: 'Desenvolvimento de um SUP de pesca para um retalhista outdoor — disposição dos acessórios e configuração do kit',
       intro: [
@@ -3953,9 +3953,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Estabilidade para a prática em grupo, cobertura completa do deck em EVA, frota coerente',
       qualityFocus: 'Cobertura do deck, estanquidade, precisão das gráficas, kit completo',
       navLabel: 'Programa SUP yoga',
-      metaTitle: 'Desenvolvimento SUP yoga | Programa de treino — SUPsfactory',
+      metaTitle: 'Desenvolvimento SUP yoga | Programa de treino — iSupfactory',
       metaDescription:
-        'Como a SUPsfactory desenvolveu uma configuração de SUP yoga estável para um programa de treino de desportos aquáticos — cobertura completa do deck e uma frota de programa coerente.',
+        'Como a iSupfactory desenvolveu uma configuração de SUP yoga estável para um programa de treino de desportos aquáticos — cobertura completa do deck e uma frota de programa coerente.',
       kicker: 'Projeto yoga',
       h1: 'Desenvolvimento de uma configuração de SUP yoga estável para um programa de treino de desportos aquáticos',
       intro: [
@@ -4008,7 +4008,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Duurzame verhuurborden, gefaseerde levering aan alle stations, lager percentage vroegtijdige vervanging',
       qualityFocus: 'Versterkte constructie, luchtdichtheid, vlootgraphics, complete uitrusting',
       navLabel: 'Kustverhuurvloot',
-      metaTitle: 'Kustverhuurvloot | 320 planken in 120 dagen — SUPsfactory',
+      metaTitle: 'Kustverhuurvloot | 320 planken in 120 dagen — iSupfactory',
       metaDescription:
         'Hoe een verhuurexploitant in de Middellandse Zee een kustvloot van 320 planken opbouwde in Spanje, Italië en Griekenland — drie gefaseerde partijen in 120 dagen en een geschatte vermindering van 20–25 % op vroegtijdige vervanging.',
       kicker: 'Kustverhuurproject',
@@ -4073,7 +4073,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Twee marktbewezen SKU\'s onder het merk van de distributeur, EU-retailverpakking, afstemming op de seizoensdata',
       qualityFocus: 'Nauwkeurigheid van de graphics, barcode en etiket per markt, complete uitrusting, luchtdichtheid',
       navLabel: 'Private label voor distributeurs',
-      metaTitle: 'Private label voor EU-distributeur | 1,200 planken in 90 dagen — SUPsfactory',
+      metaTitle: 'Private label voor EU-distributeur | 1,200 planken in 90 dagen — iSupfactory',
       metaDescription:
         'Hoe een Europese distributeur in 90 dagen een private-label SUP-lijn lanceerde met 1,200 planken — twee SKU\'s, EU-retailverpakking en een herbestelling in Q4 op dezelfde vastgelegde specificatie.',
       kicker: 'Private label project',
@@ -4138,7 +4138,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Duurzaamheid voor verhuur, compacte opslag, volledige branding van de accommodatie',
       qualityFocus: 'Luchtdichtheid, nauwkeurige graphics, complete accessoires, markering van de dozen',
       navLabel: 'SUP-vloot voor een luxe resort',
-      metaTitle: 'SUP-vloot voor een luxe resort | 100 gemerkte planken — SUPsfactory',
+      metaTitle: 'SUP-vloot voor een luxe resort | 100 gemerkte planken — iSupfactory',
       metaDescription:
         'Hoe een luxe resort zijn strandprogramma uitrustte met 100 gemerkte SUP-planken — gepersonaliseerd ontwerp, constructie van verhuurkwaliteit en seizoensmatig vlootbeheer.',
       kicker: 'Resortproject',
@@ -4191,7 +4191,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Verkoopbare lijn zonder intern SUP-ontwerp of -productie',
       qualityFocus: 'Versiebeheer van de graphics, nauwkeurige verpakking, complete uitrusting',
       navLabel: 'Lancering van het private-labelmerk',
-      metaTitle: 'Private-label SUP-lancering | Merkextensie — SUPsfactory',
+      metaTitle: 'Private-label SUP-lancering | Merkextensie — iSupfactory',
       metaDescription:
         'Hoe een bestaand outdoormerk uitbreidde naar SUP met een private-label productlijn — van logo tot eerste container, met schaalbare MOQ.',
       kicker: 'Private label project',
@@ -4244,7 +4244,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Uniforme teamlook, beperkt budget, identieke toekomstige uitbreiding',
       qualityFocus: 'Nauwkeurige graphics, luchtdichtheid, complete uitrusting, consistente herbestellingen',
       navLabel: 'Teamboard voor de club',
-      metaTitle: 'Club-SUP-teamboards | Gemerkte vlootvernieuwing — SUPsfactory',
+      metaTitle: 'Club-SUP-teamboards | Gemerkte vlootvernieuwing — iSupfactory',
       metaDescription:
         'Hoe een paddleclub zijn vloot vernieuwde en actualiseerde met 25 gemerkte trainingsplanken — teamgraphics, ondersteuning bij reserveonderdelen en consistente herbestellingen.',
       kicker: 'Clubproject',
@@ -4295,7 +4295,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Veiligheidsgerichte uitrusting, aantallen voor klassengroottes, beheer met beperkt personeel',
       qualityFocus: 'Stabiliteit, luchtdichtheid, complete accessoires, gebruikershandleiding',
       navLabel: 'Vloot voor schoolprogramma\'s',
-      metaTitle: 'SUP-programma voor scholen | Beginervloot — SUPsfactory',
+      metaTitle: 'SUP-programma voor scholen | Beginervloot — iSupfactory',
       metaDescription:
         'Hoe een school een keuzevak peddelsport startte met een beginervloot van 15 planken en boards voor meerdere personen — veiligheidsgerichte uitrusting voor het onderwijs.',
       kicker: 'Schoolproject',
@@ -4348,7 +4348,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Eén kwaliteitsverantwoordelijke, consistente branding, lagere voorraad per SKU',
       qualityFocus: 'Luchtdichtheid, nauwkeurige graphics, nauwkeurige barcodes en etiketten, conformiteit met de stuklijst',
       navLabel: 'Assortimentsuitbreiding voor distributeurs',
-      metaTitle: 'SUP-assortimentsuitbreiding voor distributeurs | Programma van 6 SKU — SUPsfactory',
+      metaTitle: 'SUP-assortimentsuitbreiding voor distributeurs | Programma van 6 SKU — iSupfactory',
       metaDescription:
         'Hoe een distributeur van watersporten een complete middenklasse SUP-lijn opbouwde met zes SKU\'s — één fabriek, één programma, geëxporteerd naar meerdere markten.',
       kicker: 'Distributeurproject',
@@ -4401,7 +4401,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Eerste serie met lage MOQ, afstemming op de lanceringsdatum, matrijzen behouden door het merk',
       qualityFocus: 'Luchtdichtheid, nauwkeurige graphics, controle van de verpakking',
       navLabel: 'Startup-lancering 0→1',
-      metaTitle: 'Lancering van een startup-SUP-merk | Van concept tot eerste serie — SUPsfactory',
+      metaTitle: 'Lancering van een startup-SUP-merk | Van concept tot eerste serie — iSupfactory',
       metaDescription:
         'Hoe een SUP-startup van concept naar een uitverkochte eerste serie ging — ODM-ontwikkeling, een proefproductie van 10 stuks en vervolgens een gemerkte lanceringbestelling van 200 stuks.',
       kicker: 'Startupproject',
@@ -4453,7 +4453,7 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Eén uniforme plank op alle locaties, duurzaamheid onder verhuurbelasting',
       qualityFocus: 'Controle van de versterkte constructie, luchtdichtheid, complete uitrusting',
       navLabel: 'Verhuurvloot voor meerdere locaties',
-      metaTitle: 'Uitbreiding van de verhuurvloot | 200 planken, 3 locaties — SUPsfactory',
+      metaTitle: 'Uitbreiding van de verhuurvloot | 200 planken, 3 locaties — iSupfactory',
       metaDescription:
         'Hoe een verhuurvloot-exploitant met meerdere locaties gemengde voorraad verving door 200 uniforme planken op drie locaties — vlootvoorwaarden, seizoensvernieuwing en levering van reserveonderdelen.',
       kicker: 'Verhuurproject',
@@ -4505,9 +4505,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Touringprestaties, projectspecifieke graphics, complete retailkit',
       qualityFocus: 'Luchtdichtheid, nauwkeurige graphics, complete accessoires, markering van de dozen',
       navLabel: 'Touring-SUP-lijn',
-      metaTitle: 'Ontwikkeling van een touring-SUP-lijn | Outdoordistributeur — SUPsfactory',
+      metaTitle: 'Ontwikkeling van een touring-SUP-lijn | Outdoordistributeur — iSupfactory',
       metaDescription:
-        'Hoe SUPsfactory een touring-SUP-lijn ondersteunde voor een Europese outdoordistributeur — platformreview, projectspecifieke graphics, configuratie van de accessoires en retailverpakking.',
+        'Hoe iSupfactory een touring-SUP-lijn ondersteunde voor een Europese outdoordistributeur — platformreview, projectspecifieke graphics, configuratie van de accessoires en retailverpakking.',
       kicker: 'Touringproject',
       h1: 'Ontwikkeling van een touring-SUP-lijn voor een Europese outdoordistributeur',
       intro: [
@@ -4558,9 +4558,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Integratie van visaccessoires, stabiel platform, georganiseerde kit',
       qualityFocus: 'Luchtdichtheid, verankering van de accessoires, nauwkeurige graphics, complete kit',
       navLabel: 'Vis-SUP-programma',
-      metaTitle: 'Ontwikkeling van een vis-SUP | Indeling van de accessoires en kit — SUPsfactory',
+      metaTitle: 'Ontwikkeling van een vis-SUP | Indeling van de accessoires en kit — iSupfactory',
       metaDescription:
-        'Hoe SUPsfactory een vis-SUP-configuratie ontwikkelde voor een outdoorretailer — indeling van de accessoires, georganiseerde kit en retailklare verpakking in één gecontroleerd programma.',
+        'Hoe iSupfactory een vis-SUP-configuratie ontwikkelde voor een outdoorretailer — indeling van de accessoires, georganiseerde kit en retailklare verpakking in één gecontroleerd programma.',
       kicker: 'Visproject',
       h1: 'Ontwikkeling van een vis-SUP voor een outdoorretailer — indeling van de accessoires en kitconfiguratie',
       intro: [
@@ -4612,9 +4612,9 @@ export const projects: Localized<ProjectData[]> = {
       keyRequirements: 'Stabiliteit voor groepsbeoefening, volledige EVA-dekbekleding, consistente vloot',
       qualityFocus: 'Dekbekleding, luchtdichtheid, nauwkeurige graphics, complete uitrusting',
       navLabel: 'Yoga-SUP-programma',
-      metaTitle: 'Yoga-SUP-ontwikkeling | Trainingsprogramma — SUPsfactory',
+      metaTitle: 'Yoga-SUP-ontwikkeling | Trainingsprogramma — iSupfactory',
       metaDescription:
-        'Hoe SUPsfactory een stabiele yoga-SUP-configuratie ontwikkelde voor een watersporttrainingsprogramma — volledige dekbekleding en een consistente programmavloot.',
+        'Hoe iSupfactory een stabiele yoga-SUP-configuratie ontwikkelde voor een watersporttrainingsprogramma — volledige dekbekleding en een consistente programmavloot.',
       kicker: 'Yogaproject',
       h1: 'Ontwikkeling van een stabiele yoga-SUP-configuratie voor een watersporttrainingsprogramma',
       intro: [
@@ -4670,45 +4670,45 @@ export interface ProjectsMeta {
 
 export const projectsMeta: Localized<ProjectsMeta> = {
   en: {
-    metaTitle: 'SUP Development Projects & Case Studies | SUPsfactory',
+    metaTitle: 'SUP Development Projects & Case Studies | iSupfactory',
     metaDescription:
-      'Real SUP manufacturing projects: how resorts, brands, clubs and schools turned product requirements into finished paddle boards with SUPsfactory.',
+      'Real SUP manufacturing projects: how resorts, brands, clubs and schools turned product requirements into finished paddle boards with iSupfactory.',
     h1: 'Projects — How We Develop SUP Products With Clients',
   },
   es: {
-    metaTitle: 'Proyectos y casos de desarrollo de producto SUP | SUPsfactory',
+    metaTitle: 'Proyectos y casos de desarrollo de producto SUP | iSupfactory',
     metaDescription:
-      'Proyectos reales de fabricación SUP: cómo resorts, marcas, clubes y escuelas convirtieron requisitos de producto en tablas de remo terminadas con SUPsfactory.',
+      'Proyectos reales de fabricación SUP: cómo resorts, marcas, clubes y escuelas convirtieron requisitos de producto en tablas de remo terminadas con iSupfactory.',
     h1: 'Proyectos — cómo desarrollamos productos SUP con los clientes',
   },
   fr: {
-    metaTitle: 'Projets et études de cas de développement de produits SUP | SUPsfactory',
+    metaTitle: 'Projets et études de cas de développement de produits SUP | iSupfactory',
     metaDescription:
-      'De vrais projets de fabrication SUP : comment resorts, marques, clubs et écoles ont transformé des exigences produit en paddleboards finis avec SUPsfactory.',
+      'De vrais projets de fabrication SUP : comment resorts, marques, clubs et écoles ont transformé des exigences produit en paddleboards finis avec iSupfactory.',
     h1: 'Projets — comment nous développons des produits SUP avec nos clients',
   },
   de: {
-    metaTitle: 'SUP-Entwicklungsprojekte & Fallstudien | SUPsfactory',
+    metaTitle: 'SUP-Entwicklungsprojekte & Fallstudien | iSupfactory',
     metaDescription:
-      'Reale SUP-Fertigungsprojekte: Wie Resorts, Marken, Clubs und Schulen mit SUPsfactory aus Produktanforderungen fertige SUP-Boards gemacht haben.',
+      'Reale SUP-Fertigungsprojekte: Wie Resorts, Marken, Clubs und Schulen mit iSupfactory aus Produktanforderungen fertige SUP-Boards gemacht haben.',
     h1: 'Projekte — so entwickeln wir SUP-Produkte mit Kunden',
   },
   it: {
-    metaTitle: 'Progetti e casi di sviluppo di prodotti SUP | SUPsfactory',
+    metaTitle: 'Progetti e casi di sviluppo di prodotti SUP | iSupfactory',
     metaDescription:
-      'Progetti reali di produzione SUP: come resort, marchi, club e scuole hanno trasformato i requisiti di prodotto in paddle board finite con SUPsfactory.',
+      'Progetti reali di produzione SUP: come resort, marchi, club e scuole hanno trasformato i requisiti di prodotto in paddle board finite con iSupfactory.',
     h1: 'Progetti — come sviluppiamo prodotti SUP con i clienti',
   },
   pt: {
-    metaTitle: 'Projetos e casos de desenvolvimento de produtos SUP | SUPsfactory',
+    metaTitle: 'Projetos e casos de desenvolvimento de produtos SUP | iSupfactory',
     metaDescription:
-      'Projetos reais de produção SUP: como resorts, marcas, clubes e escolas transformaram os requisitos de produto em pranchas acabadas com a SUPsfactory.',
+      'Projetos reais de produção SUP: como resorts, marcas, clubes e escolas transformaram os requisitos de produto em pranchas acabadas com a iSupfactory.',
     h1: 'Projetos — como desenvolvemos produtos SUP com os clientes',
   },
   nl: {
-    metaTitle: 'SUP-ontwikkelprojecten en casestudies | SUPsfactory',
+    metaTitle: 'SUP-ontwikkelprojecten en casestudies | iSupfactory',
     metaDescription:
-      'Echte SUP-productieprojecten: hoe resorts, merken, clubs en scholen met SUPsfactory productvereisten omzetten in afgewerkte paddleboards.',
+      'Echte SUP-productieprojecten: hoe resorts, merken, clubs en scholen met iSupfactory productvereisten omzetten in afgewerkte paddleboards.',
     h1: 'Projecten — hoe we SUP-producten met klanten ontwikkelen',
   },
 }

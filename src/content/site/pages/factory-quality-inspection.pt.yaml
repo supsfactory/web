@@ -1,5 +1,5 @@
 meta:
-  title: 'Padrões de inspeção de qualidade para SUP personalizados | Fábrica OEM | SUPsfactory'
+  title: 'Padrões de inspeção de qualidade para SUP personalizados | Fábrica OEM | iSupfactory'
   description: 'Produção OEM de SUP insufláveis: inspeção de materiais, produção, ensaio, embalagem e rastreabilidade, com controlo do reprocessamento de estanquidade ao ar segundo ISO 9001.'
   dateModified: '2026-08-14'
   keywords:
@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Descarregar o pacote de garantia de qualidade
       variant: primary
-      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
     - text: Descarregar um pacote de qualidade de exemplo (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
     - text: Pedir informações de qualidade OEM
       href: /contact
 
@@ -154,19 +154,19 @@ quarantine_evidence:
   title: Controlo & quarentena na prática
   subtitle: As fotos da nossa oficina de Qingdao mostram como o controlo de estado e os registos de inspeção são aplicados no local.
   features:
-    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
       alt: SUP insufláveis insuflados na área de teste de estanquidade ao ar da fábrica, monitorizados por um instrumento digital de medição de pressão
       title: Área de teste de estanquidade ao ar
       desc: 'As pranchas insufladas são mantidas na área de teste QC sob iluminação industrial; os instrumentos digitais de medição de pressão monitorizam o teste de manutenção de pressão libertado na base da válvula, nas costuras dos rails, na proa e popa e nos pontos altamente solicitados. Os registos são mantidos por lote e ligados ao controlo final.'
-    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
       alt: Folhas de controlo de qualidade e etiquetas de estado HOLD controladas na estação de inspeção da fábrica
       title: Estação de bloqueio & quarentena
       desc: 'Estação de inspeção com folhas de controlo QC e marcação de estado. Cada unidade que não cumpre os critérios de aceitação é etiquetada, protocolada e colocada em quarentena — só pode chegar à embalagem após disposição autorizada e inspeção repetida vinculativa.'
-    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
       alt: Técnico de QC executa um reprocessamento controlado de estanquidade ao ar num SUP insuflável na estação de reprocessamento da fábrica
       title: Estação de reprocessamento controlado
       desc: 'O reprocessamento de estanquidade ao ar é executado numa estação dedicada segundo uma ficha de método libertada: o defeito é marcado, a prancha mantém-se em HOLD e, após o tempo de polimerização exigido, regressa à área de teste para a verificação repetida contra os critérios de aceitação originais.'
-    - image: https://assets.supsfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-quarantine-demo.avif
       alt: Demonstração em oficina da separação controlada em quarentena na fábrica de Qingdao
       title: Demonstração da área de quarentena
       desc: 'Foto demonstrativa da oficina que mostra o funcionamento da separação controlada em quarentena no local: as unidades separadas permanecem sob controlo de estado até à conclusão de uma disposição autorizada.'
@@ -396,37 +396,37 @@ document_pack:
       icon_bg: blue
       title: Pacote de documentação de qualidade (PDF)
       desc: 'Estrutura documental completa e controlada 00–15: índice de projeto, especificação, BOM, referências de arte e embalagem, plano de inspeção de qualidade (QIP), registos de inspeção, NCR, controlo de alterações, brief de terceiros e vista geral de pré-liberação para expedição.'
-      link: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
       link_label: Descarregar PDF
     - icon: T
       icon_bg: green
       title: Brief de inspeção de terceiros (PDF)
       desc: 'Brief de uma página para inspetores SGS / BV / Intertek / QIMA: quantidade de encomenda, nível de amostragem AQL, revisões aplicáveis e controlos de relevância crítica para a qualidade, incluindo a verificação do registo de estanquidade ao ar, teste de manutenção de pressão, completude do kit, leitura do código de barras e teste de queda do cartão.'
-      link: 'https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
       link_label: Descarregar PDF
     - icon: C
       icon_bg: purple
       title: Protocolo de controlo de alterações (PDF)
       desc: 'Protocolo de controlo de alterações para revisões de arte, BOM aprovada pelo cliente e marcações dos cartões — com vista geral da alteração, motivo, avaliação do impacto, estado da libertação do cliente, lote eficaz e retirada dos documentos obsoletos.'
-      link: 'https://assets.supsfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
       link_label: Descarregar PDF
     - icon: R
       icon_bg: orange
       title: Vista geral de pré-liberação para expedição (PDF)
       desc: 'Assinatura de libertação de uma página: verificação dos gates de qualidade (IQC, IPQC, estanquidade ao ar, controlo final, embalagem), estado de NCR aberta e decisão de libertação autorizada assinada pela Qualidade e pelas Operações.'
-      link: 'https://assets.supsfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
       link_label: Descarregar PDF
     - icon: W
       icon_bg: blue
       title: Instrução de reprocessamento de estanquidade ao ar (PDF)
       desc: 'Instrução de trabalho controlada WI-QC-AT-001 Rev A: âmbito e limites, classificação de defeitos, NCR e autorização de reprocessamento, execução controlada, polimerização, verificação repetida e libertação para SUP insufláveis.'
-      link: 'https://assets.supsfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
       link_label: Descarregar PDF
     - icon: M
       icon_bg: green
       title: Índice das fichas de método (PDF)
       desc: 'Documento controlado SOP-QC-AT-IDX-001 Rev A: o sistema numerado de fichas de método MC-RW-01 a MC-RW-06, além de MC-RW-00 para sucatamento e rejeição, ligado à instrução de reprocessamento de estanquidade ao ar.'
-      link: 'https://assets.supsfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
       link_label: Descarregar PDF
     - icon: V
       icon_bg: orange
@@ -472,6 +472,6 @@ cta:
       variant: primary
       href: /contact
     - text: Descarregar o pacote de qualidade de exemplo (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
     - text: Descarregar protocolo QC & checklist PSI
-      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

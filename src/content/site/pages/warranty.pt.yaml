@@ -1,6 +1,6 @@
 meta:
   title: 'Garantia de Fabrico OEM e Garantia da Qualidade | {SITE}'
-  description: 'Condições de garantia de fabrico OEM para os produtos SUP insufláveis e marinhos produzidos pela SUPsfactory: defeitos cobertos, duração, registos de lote documentados e gestão de solicitações.'
+  description: 'Condições de garantia de fabrico OEM para os produtos SUP insufláveis e marinhos produzidos pela iSupfactory: defeitos cobertos, duração, registos de lote documentados e gestão de solicitações.'
   keywords:
     - 'garantia OEM'
     - 'garantia de fabrico'
@@ -11,13 +11,13 @@ label: 'Garantia OEM'
 headline: 'Garantia de Fabrico OEM e Garantia da Qualidade do Produto'
 subtitle: 'Cada prancha que produzimos é construída com base numa amostra aprovada e em registos de lote documentados. Esta garantia define o que garantimos nos produtos que produzimos sob a tua marca e como as solicitações são tratadas com base nesses registos.'
 seo:
-  headline: 'Garantia de Fabrico OEM e Garantia da Qualidade | SUPsfactory'
-  description: 'Garantia de fabrico para SUP insufláveis e outros produtos marinhos produzidos pela SUPsfactory: 5 anos de cobertura no tecido principal da câmara, nas soldaduras e na integridade estrutural do núcleo drop-stitch, além das válvulas de insuflação e dos acessórios instalados em fábrica.'
+  headline: 'Garantia de Fabrico OEM e Garantia da Qualidade | iSupfactory'
+  description: 'Garantia de fabrico para SUP insufláveis e outros produtos marinhos produzidos pela iSupfactory: 5 anos de cobertura no tecido principal da câmara, nas soldaduras e na integridade estrutural do núcleo drop-stitch, além das válvulas de insuflação e dos acessórios instalados em fábrica.'
   datePublished: '2024-01-01'
   dateModified: '2026-09-23'
 body: |
   <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
-    Esta Garantia de Fabrico aplica-se às pranchas SUP insufláveis, aos caiaques e aos produtos marinhos insufláveis produzidos pela SUPsfactory — a divisão de fabricação marítima de Qingdao Vatrad Group Co., Ltd. — no âmbito dos programas OEM, ODM e private label. A data de vigência é a data verificável de produção do lote ou de envio acordada na ordem de compra. O comprador (proprietário da marca) define a política de garantia para o utilizador final no seu mercado; esta garantia é o compromisso da fábrica sobre as mercadorias tal como foram fabricadas.
+    Esta Garantia de Fabrico aplica-se às pranchas SUP insufláveis, aos caiaques e aos produtos marinhos insufláveis produzidos pela iSupfactory — a divisão de fabricação marítima de Qingdao Vatrad Group Co., Ltd. — no âmbito dos programas OEM, ODM e private label. A data de vigência é a data verificável de produção do lote ou de envio acordada na ordem de compra. O comprador (proprietário da marca) define a política de garantia para o utilizador final no seu mercado; esta garantia é o compromisso da fábrica sobre as mercadorias tal como foram fabricadas.
   </p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
@@ -97,17 +97,17 @@ body: |
   <p>Se o produto for utilizado para fins comerciais, governamentais, sem fins lucrativos, em aluguer, em arrendamento, educacionais ou para qualquer fim diferente do lazer privado, o período de garantia de todos os componentes é reduzido a um (1) ano a partir da data de vigência. O uso em competições de velocidade, endurance ou prova anula integralmente a garantia, salvo se uma configuração específica de competição estiver expressamente coberta pelo contrato de compra.</p>
 
   <h2>Como apresentar uma solicitação de garantia</h2>
-  <p>Contacta a SUPsfactory com a ordem de compra ou a referência do lote e uma descrição detalhada do problema, incluindo os números seriais das pranchas quando disponíveis. A fábrica examinará a solicitação com base nos registos do lote e fornecerá instruções para a inspeção e a assistência.</p>
+  <p>Contacta a iSupfactory com a ordem de compra ou a referência do lote e uma descrição detalhada do problema, incluindo os números seriais das pranchas quando disponíveis. A fábrica examinará a solicitação com base nos registos do lote e fornecerá instruções para a inspeção e a assistência.</p>
   <p>Para as solicitações de assistência em garantia, contacta-nos através da nossa <a href="/pt/contact" class="text-sky-600 underline">página de contacto</a> com o número de encomenda e os detalhes do produto.</p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
     <h2 class="text-xl font-bold mb-3">Suportado por um sistema de qualidade documentado</h2>
-    <p class="text-sm text-gray-600 dark:text-gray-400">Cada prancha é testada antes da embalagem — <a href="/pt/factory/quality-inspection" class="text-sky-600 underline">7 gates de inspeção</a> registam os resultados por número serial e os lotes têm uma rastreabilidade ERP de 10 anos. As solicitações de garantia são decididas com base nesses registos de lote, não por conjetura. Consulta o <a href="/pt/quality" class="text-sky-600 underline">sistema de qualidade completo</a> e descarrega os <a href="https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">relatórios de controlo final</a>.</p>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Cada prancha é testada antes da embalagem — <a href="/pt/factory/quality-inspection" class="text-sky-600 underline">7 gates de inspeção</a> registam os resultados por número serial e os lotes têm uma rastreabilidade ERP de 10 anos. As solicitações de garantia são decididas com base nesses registos de lote, não por conjetura. Consulta o <a href="/pt/quality" class="text-sky-600 underline">sistema de qualidade completo</a> e descarrega os <a href="https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">relatórios de controlo final</a>.</p>
   </div>
 
   <h2>Artigos de terceiros</h2>
   <p>Os equipamentos, componentes ou sistemas produzidos por terceiros (mesmo que instalados pela fábrica) são cobertos exclusivamente pela garantia eventualmente oferecida pelo respetivo produtor. A fábrica declina expressamente qualquer responsabilidade de garantia por esses artigos de terceiros.</p>
 
   <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
-    Esta declaração de garantia é um resumo das condições de garantia de fabrico da fábrica para os programas OEM, ODM e private label. O contrato de compra completo rege todos os termos e condições. As especificações podem ser alteradas sem aviso prévio. A SUPsfactory é a divisão de fabricação de Qingdao Vatrad Group.
+    Esta declaração de garantia é um resumo das condições de garantia de fabrico da fábrica para os programas OEM, ODM e private label. O contrato de compra completo rege todos os termos e condições. As especificações podem ser alteradas sem aviso prévio. A iSupfactory é a divisão de fabricação de Qingdao Vatrad Group.
   </p>

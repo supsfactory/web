@@ -1,6 +1,6 @@
 meta:
   title: 'Socios — Distribución y venta al por mayor | {SITE}'
-  description: 'Colaboraciones de fabricación con supsfactory: distribución, suministro al por mayor, programas OEM/de marca privada y asistencia para empresas de paddle surf.'
+  description: 'Colaboraciones de fabricación con isupfactory: distribución, suministro al por mayor, programas OEM/de marca privada y asistencia para empresas de paddle surf.'
   keywords:
     - 'socio de distribución de sup'
     - 'paddle board al por mayor'
@@ -12,7 +12,7 @@ hero:
   title: 'Colaboraciones de fabricación y distribución'
   subtitle: "Fabricamos para distribuidores marinos, concesionarios, marcas detallistas y organizaciones de más de 50 países. Tú especificas el producto — nosotros lo ingeniamos, desarrollamos la muestra y lo producimos bajo tu marca."
   image:
-    src: https://assets.supsfactory.com/images/sups/team/supsfactory-meeting-overseas.webp
+    src: https://assets.isupfactory.com/images/sups/team/isupfactory-meeting-overseas.webp
     alt: red mundial de socios y distribuidores de Vatrad
 
 answer:

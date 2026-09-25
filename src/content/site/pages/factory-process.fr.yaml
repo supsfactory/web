@@ -62,45 +62,45 @@ evidence_gates:
   items:
     - title: 'PPM — Planification qualité du projet'
       description: 'La réunion de pré-production verrouille le périmètre, l''échantillon doré et le Plan d''Inspection Qualité avant le démarrage de la ligne. Les éléments non résolus bloquent l''autorisation de production.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
       link_label: 'Télécharger QIP (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
       alt: Réunion de pré-production examinant l'échantillon doré et le plan d'inspection qualité pour une commande de SUP OEM
     - title: 'IQC — Inspection des matières entrantes'
       description: 'Chaque lot entrant de PVC, de tissu et de quincaillerie est vérifié par rapport à la spécification approuvée. Les lots non conformes sont mis en quarantaine et rejetés avant libération sur la ligne.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports IQC (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
       alt: Inspection des matières entrantes du tissu PVC et des composants SUP à l'usine
     - title: 'IPQC / FAI — Contrôle en cours de fabrication'
       description: 'Le premier article est vérifié par rapport aux références verrouillées et chaque équipe effectue des contrôles de ronde sur la ligne. L''approbation FAI verrouille en version les graphismes, les dimensions et la BOM.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports IPQC (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
       alt: Inspection en cours de fabrication et contrôle du premier article pendant la production de SUP
     - title: 'Tests de gonflage et d''étanchéité à l''air'
       description: '100 % des planches terminées — pas un échantillon — reçoivent un maintien de pression de 24 heures à 18,0 PSI avec rejet automatique au-delà d''une chute de 0,50 PSI. Un enregistrement par chambre.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports d''étanchéité à l''air (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
       alt: Test de gonflage et d'étanchéité à l'air d'une chambre de SUP gonflable
     - title: 'FQC — Inspection finale du produit'
       description: 'Les planches finies sont mesurées par rapport aux tolérances de dessin et notées esthétiquement sous lampes à lumière du jour D65 contre l''échantillon doré approuvé.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports FQC (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
       alt: Inspection finale du produit des planches SUP finies avant conditionnement
     - title: 'PSI — Conditionnement et inspection avant expédition'
       description: 'Le kit emballé est contrôlé à 100 % par rapport à la BOM approuvée par le client — scan de code-barres (note ≥ B), marquages des cartons et test de chute ISTA-1A avant chargement.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports PSI (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
       alt: Inspection avant expédition vérifiant le kit SUP emballé par rapport à la BOM
     - title: 'Autorisation d''expédition et traçabilité'
       description: 'La qualité signe le lot uniquement lorsque les six portes précédentes sont clôturées. Les numéros de série sont mappés au lot et le dossier est remis avec l''expédition.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Télécharger les rapports de libération (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
       alt: Signature d'autorisation d'expédition et remise de l'enregistrement de traçabilité du lot
 cta:
   title: Voir nos équipements et machines

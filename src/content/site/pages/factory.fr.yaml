@@ -119,27 +119,27 @@ workshops_section:
   workshops:
     - title: Découpe de PVC et préparation des matériaux
       description: Les machines de découpe CNC automatiques traitent les tissus PVC, Hypalon et drop-stitch avec une précision sub-millimétrique. Le placement optimisé par ordinateur minimise le gaspillage de matière et garantit que chaque panneau respecte sa spécification dimensionnelle avant le soudage.
-      image: https://assets.supsfactory.com/images/sups/hero/production-dept.webp
+      image: https://assets.isupfactory.com/images/sups/hero/production-dept.webp
       alt: Machine de découpe PVC CNC préparant les panneaux de tissu SUP gonflable à l'usine de Qingdao
     - title: Soudage de tubes et thermoscellage
       description: Atelier de soudage dédié avec machines de thermoscellage et presses diélectriques RF. Les thermosoudeurs à air chaud lient et fusionnent les chambres des tubes PVC, tandis que les soudures RF produisent des coutures étanches à l'air haute résistance qui dépassent les exigences.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
       alt: Machine de soudage RF scellant les chambres des tubes de bateau gonflable à l'usine de Qingdao
     - title: Assemblage du noyau drop-stitch
       description: Les noyaux drop-stitch des SUP sont liés aux laminés PVC extérieurs par lamination thermique. Des milliers de fils polyester internes relient les couches supérieure et inférieure, créant une structure rigide à 12-15 PSI. Les bandes de rail sont fusionnées en triple couche pour la résistance des bords.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
       alt: Ligne de fabrication de SUP gonflables avec équipement d'assemblage de noyau drop-stitch à l'usine de Qingdao
     - title: Impression et décoration de SUP
       description: Les SUP sont décorés par impression numérique pour les graphismes pleine couleur et sérigraphie pour les logos et motifs répétitifs. Les imprimantes numériques produisent des designs de pont de qualité photo, tandis que la sérigraphie offre des marques durables et éclatantes.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
       alt: Intérieur de département de production à l'usine de SUP gonflables de Qingdao
     - title: Assemblage final et équipement
       description: Ligne d'assemblage où les valves, anneaux en D, poignées, boîtiers d'ailerons et tapis de pont sont installés sur chaque SUP. Chaque planche suit une liste de contrôle d'assemblage de 100 points signée par le chef d'équipe.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
       alt: Département de production avec postes d'assemblage à l'usine de Qingdao
     - title: Essais qualité et inspection
       description: Chaque planche terminée subit des essais obligatoires de rétention d'air, une vérification de pelage de couture et un contrôle complet des systèmes avant expédition. Notre laboratoire qualité fonctionne indépendamment de la production et relève directement de la direction.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
       alt: Test de pression d'un SUP gonflable pour la rétention d'air avant expédition à l'usine de Qingdao
 
 equipment_section:

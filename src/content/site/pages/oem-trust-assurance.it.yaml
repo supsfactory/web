@@ -1,6 +1,6 @@
 meta:
   title: 'Fiducia OEM & garanzie di fabbrica — verifica la nostra fabbrica prima del tuo ordine'
-  description: 'Come gli acquirenti verificano SUPsfactory prima dell''ordine: registrazione ufficiale, audit di fabbrica, ingegneri sotto NDA e ispezioni di terze parti (SGS/TÜV/BV/Intertek).'
+  description: 'Come gli acquirenti verificano iSupfactory prima dell''ordine: registrazione ufficiale, audit di fabbrica, ingegneri sotto NDA e ispezioni di terze parti (SGS/TÜV/BV/Intertek).'
   dateModified: '2026-08-14'
   keywords:
     - 'verifica della fabbrica OEM SUP'
@@ -65,7 +65,7 @@ trust_steps:
   steps:
     - step: '01'
       title: 'Verifica dell''entità ufficiale'
-      desc: 'L''acquirente ha richiesto la registrazione commerciale cinese e la licenza di commercio estero. La persona giuridica dietro SUPsfactory è la Qingdao Vatrad Group Co., Ltd., un produttore registrato a Qingdao, Shandong dal 2012 — verificato tramite il registro nazionale sotto NDA.'
+      desc: 'L''acquirente ha richiesto la registrazione commerciale cinese e la licenza di commercio estero. La persona giuridica dietro iSupfactory è la Qingdao Vatrad Group Co., Ltd., un produttore registrato a Qingdao, Shandong dal 2012 — verificato tramite il registro nazionale sotto NDA.'
     - step: '02'
       title: 'Fabbrica fisica & audit dello stabilimento'
       desc: 'Un audit di fabbrica (di persona e tramite video tour) ha confermato l''impianto di 12,500 m²: quattro officine specializzate, 350+ dipendenti, quattro linee automatizzate e una produzione mensile di circa 10.000 tavole. Il rapporto di audit viene archiviato nella documentazione contrattuale.'
@@ -89,8 +89,8 @@ trust_faqs:
   tagline: 'FAQ'
   title: 'Le 12 preoccupazioni che gli acquirenti sollevano prima dell''ordine'
   items:
-    - q: 'SUPsfactory è davvero una fabbrica o una trading company?'
-      a: 'SUPsfactory è la divisione di sviluppo prodotto e produzione SUP della Qingdao Vatrad Group Co., Ltd. Gestiamo direttamente l''impianto di 12,500 m² a Qingdao — design, taglio, saldatura, assemblaggio e collaudo avvengono in un unico stabilimento. Non ci sono passaggi attraverso trading company: le persone che rispondono alle tue domande sono le persone che costruiscono le tue tavole.'
+    - q: 'iSupfactory è davvero una fabbrica o una trading company?'
+      a: 'iSupfactory è la divisione di sviluppo prodotto e produzione SUP della Qingdao Vatrad Group Co., Ltd. Gestiamo direttamente l''impianto di 12,500 m² a Qingdao — design, taglio, saldatura, assemblaggio e collaudo avvengono in un unico stabilimento. Non ci sono passaggi attraverso trading company: le persone che rispondono alle tue domande sono le persone che costruiscono le tue tavole.'
     - q: 'Con chi avrò concretamente a che fare durante il mio progetto?'
       a: 'Con un ingegnere di progetto dedicato e un referente QC dedicato, oltre ai responsabili di reparto che firmano i tuoi documenti. Puoi parlare direttamente con l''ingegnere capo, il Direttore QA o il direttore dello stabilimento — prima e dopo l''ordine. Non c''è un livello di account manager tra te e chi esegue.'
     - q: 'Posso visitare o auditare la fabbrica?'
@@ -134,13 +134,13 @@ trust_downloads:
       icon_bg: blue
       title: 'Guida alla fiducia dell''acquirente OEM e alle garanzie di fabbrica (PDF)'
       desc: 'Guida B2B ufficiale (Parte II, DOC-ENG-2026-EN): verifica della fabbrica passo dopo passo — registrazione dell''entità, audit fisico, ingegneri reali, documentazione QMS, ispezione di terze parti, protezione contrattuale e firme di governance.'
-      link: 'https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link: 'https://assets.isupfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
       link_label: 'Scarica la guida (PDF)'
     - icon: P
       icon_bg: green
       title: 'Guida al branding flessibile e al MOQ (PDF)'
       desc: 'Guida B2B ufficiale (Parte I, DOC-MOQ-EXP-2026-EN): la logica tecnica dietro le rese dei rotoli drop-stitch da 150 m (90–100 tavole), il co-branding da 5–10 unità, i lotti pilota da 20–50 unità e i tre livelli di produzione.'
-      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Scarica la guida MOQ (PDF)'
     - icon: Q
       icon_bg: orange

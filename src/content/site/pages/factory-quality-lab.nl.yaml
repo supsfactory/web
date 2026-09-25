@@ -81,37 +81,37 @@ lab_evidence:
     - title: 'IQC — Rapport ingang goederen'
       description: 'Verificatie van weefsel, PVC-rol, ventielen en componenten tegen de goedgekeurde specificatie.'
       icon: tabler:file-certificate
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Download de IQC-rapporten (PDF)'
     - title: 'IPQC — Rapport proces & eerste artikel'
       description: 'Inspectieregistraties van het eerste artikel en van het proces tegen de vastgelegde revisie.'
       icon: tabler:file-check
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Download de IPQC-rapporten (PDF)'
     - title: 'Luchtdichtheid — Druk- & lekregistraties'
       description: '100% naadlekdetectie, ventielintegriteit en verificatie van het 24-uurs drukbehoud.'
       icon: tabler:waves
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Download de luchtdichtheidsrapporten (PDF)'
     - title: 'FQC — Eindrapporten van de planken'
       description: 'Eindcontrole tegen het goedgekeurde monster — afmetingen, optiek en fin box.'
       icon: tabler:shield-check
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Download de FQC-rapporten (PDF)'
     - title: 'PSI — Rapport pre-verzendingsinspectie van verpakking'
       description: 'Kit-volledigheid, score van de streepjescode, markeringen op de doos en anti-kantelregistraties.'
       icon: tabler:package
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Download de PSI-rapporten (PDF)'
     - title: 'Dossier vrijgave voor verzending & traceerbaarheid'
       description: 'Vrijgaveautorisatie en lot-traceerbaarheid, gekoppeld aan specificatie, graphics en BOM.'
       icon: tabler:history
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Download de vrijgavenrapporten (PDF)'
     - title: 'Compleet kwaliteitsdossier'
       description: 'Een pakket dat het volledige documentsysteem bestrijkt — QIP, poortregistraties, traceerbaarheid en NCR-beheer.'
       icon: tabler:books
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
       link_label: 'Download het documentatiepakket (PDF)'
 
 cta:

@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Réponse directe'
-  text: 'SUPsfactory est un fabricant ODM de SUP à Qingdao, en Chine. Le développement ODM part de votre brief, pas de vos dessins : la conception de la coque (longueur, largeur, rocker, volume), la structure des matériaux et les graphismes sont conçus en interne, validés par des prototypes en 7–12 jours, et produits au MOQ de volume standard de 90–100 unités par lot de rouleau de 150 m (pilote dès 20–50 unités). La production s''exécute en 25–35 jours après bon de commande confirmé et acompte ; l''outillage de moule personnalisé ajoute 15–20 jours. La documentation CE, ISO 9001, BSCI, REACH et RoHS part avec chaque commande.'
+  text: 'iSupfactory est un fabricant ODM de SUP à Qingdao, en Chine. Le développement ODM part de votre brief, pas de vos dessins : la conception de la coque (longueur, largeur, rocker, volume), la structure des matériaux et les graphismes sont conçus en interne, validés par des prototypes en 7–12 jours, et produits au MOQ de volume standard de 90–100 unités par lot de rouleau de 150 m (pilote dès 20–50 unités). La production s''exécute en 25–35 jours après bon de commande confirmé et acompte ; l''outillage de moule personnalisé ajoute 15–20 jours. La documentation CE, ISO 9001, BSCI, REACH et RoHS part avec chaque commande.'
   verified: 'September 2026'
 
 features:
@@ -126,7 +126,7 @@ process:
 geo:
   tagline: Avec qui nous travaillons
   title: Partenaires ODM dans toute l'industrie du SUP
-  sentence: 'ODM chez SUPsfactory associe votre brief à la même équipe d''ingénieurs, de designers et de production qui a lancé des planches pour ces types d''entreprises — voici qui nous servons.'
+  sentence: 'ODM chez iSupfactory associe votre brief à la même équipe d''ingénieurs, de designers et de production qui a lancé des planches pour ces types d''entreprises — voici qui nous servons.'
   audiences:
     - 'Marques de SUP'
     - 'Entreprises de sports de plein air et nautiques'

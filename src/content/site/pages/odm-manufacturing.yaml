@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'SUPsfactory is a SUP ODM manufacturer in Qingdao, China. ODM development starts from your brief, not your drawings: hull design (length, width, rocker, volume), material structure and graphics are engineered in-house, validated by prototype samples in 7–12 days, and produced at standard volume MOQ of 90–100 units per 150 m roll batch (pilot from 20–50 units). Production runs 25–35 days after confirmed PO and deposit; custom mould tooling adds 15–20 days. CE, ISO 9001, BSCI, REACH and RoHS documentation ships with every order.'
+  text: 'iSupfactory is a SUP ODM manufacturer in Qingdao, China. ODM development starts from your brief, not your drawings: hull design (length, width, rocker, volume), material structure and graphics are engineered in-house, validated by prototype samples in 7–12 days, and produced at standard volume MOQ of 90–100 units per 150 m roll batch (pilot from 20–50 units). Production runs 25–35 days after confirmed PO and deposit; custom mould tooling adds 15–20 days. CE, ISO 9001, BSCI, REACH and RoHS documentation ships with every order.'
   verified: 'September 2026'
 
 features:
@@ -126,7 +126,7 @@ process:
 geo:
   tagline: Who We Work With
   title: ODM Partners Across the SUP Industry
-  sentence: 'ODM at SUPsfactory pairs your brief with the same engineers, designers and production team that have launched boards for these business types — here is who we serve.'
+  sentence: 'ODM at iSupfactory pairs your brief with the same engineers, designers and production team that have launched boards for these business types — here is who we serve.'
   audiences:
     - 'SUP Brands'
     - 'Outdoor & Water Sports Companies'

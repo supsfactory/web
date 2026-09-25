@@ -82,7 +82,7 @@ and this project aims to follow [Semantic Versioning](https://semver.org/spec/v2
   admins. The admin detail view renders images inline and offers a download
   link for the rest.
 - **AEO/GEO surfaces brought current** — `entity.json` now serves a
-  SUPsfactory-specific `description` (plant scale, MOQ tiers, lead times) and a
+  iSupfactory-specific `description` (plant scale, MOQ tiers, lead times) and a
   `subjectOf` graph covering the factory evidence, factory, quality, MOQ/lead-time
   and trial-order pages; page titles added for the new registry pages in
   `/llms.txt`; `llms.txt` company card links the entity hub and documents the
@@ -110,7 +110,7 @@ and this project aims to follow [Semantic Versioning](https://semver.org/spec/v2
     (matches entity.json), `en.ts` i18n blurb still said "English/Chinese",
     RSS channel description and `/llms-full.txt` section header still used the
     old "afarer" brand-only framing, case-study hub intro (en/es) named afarer
-    as the seller — all brought to the current SUPsfactory/afarer division
+    as the seller — all brought to the current iSupfactory/afarer division
     framing; removed dead `trackEngage` and the committed `cf-inspect.log`.
   - Docs consistent again: README test count (202 → 239), README now notes
     `/docs`, `/waitlist` and `/changelog` are 410'd in production, wrangler

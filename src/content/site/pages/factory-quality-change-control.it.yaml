@@ -1,5 +1,5 @@
 meta:
-  title: 'Controllo delle modifiche & validazione dei parametri di rilavorazione | SUPsfactory'
+  title: 'Controllo delle modifiche & validazione dei parametri di rilavorazione | iSupfactory'
   description: 'Controllo delle modifiche dei parametri di rilavorazione sotto ISO 9001: ECR, classificazione del rischio, matrice di rilascio, validazione e nuova verifica per la produzione SUP.'
   dateModified: '2026-08-14'
   keywords:
@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Scaricare la SOP di controllo modifiche (PDF)
       variant: primary
-      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
     - text: Scaricare l''allegato di esecuzione A (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
     - text: Richiedere un controllo qualità
       href: /contact
 
@@ -248,19 +248,19 @@ cc_photos:
   subtitle: Le foto della nostra officina di Qingdao mostrano ogni processo di rilavorazione controllato con i suoi strumenti di misura calibrati, i parametri definiti e le registrazioni in loco — le stesse evidenze che gli ispettori possono richiedere in qualsiasi momento.
   grid: 'sm:grid-cols-2'
   features:
-    - image: https://assets.supsfactory.com/site/quality/cc-pinhole-repair.avif
+    - image: https://assets.isupfactory.com/site/quality/cc-pinhole-repair.avif
       alt: Tecnico ripara una micro-perdita da foro di spillo su un SUP gonfiabile con pistola ad aria calda e rullo di pressatura
       title: Riparazione di fori di spillo
       desc: 'Un tecnico tratta una micro-perdita marcata con una pistola ad aria calda impostata sulla specifica di 60°C e un rullo di pressatura; l''acqua saponata conferma la posizione della perdita e il modulo ECR firmato da QC sul bancone mostra il gate di controllo modifiche (Poka-Yoke n. 1).'
-    - image: https://assets.supsfactory.com/site/quality/cc-rail-seam-bonding.avif
+    - image: https://assets.isupfactory.com/site/quality/cc-rail-seam-bonding.avif
       alt: Tecnico applica adesivo PU bicomponente con pennello di precisione su una cucitura del rail sotto clima controllato
       title: Incollaggio cucitura del rail
       desc: 'L''adesivo PU bicomponente viene applicato con un pennello di precisione sulla cucitura del rail mentre la tavola è tenuta in una morsa della dima; il termometro/igrometro in loco mostra la finestra controllata di 24°C / 55% umidità relativa.'
-    - image: https://assets.supsfactory.com/site/quality/cc-valve-base-integrity.avif
+    - image: https://assets.isupfactory.com/site/quality/cc-valve-base-integrity.avif
       alt: Chiave dinamometrica digitale impostata a 19 N·m che serra il nucleo valvola contro il materiale drop-stitch
       title: Integrità della base valvola
       desc: 'Una chiave dinamometrica digitale, impostata sulla specifica di 19 N·m, esegue il serraggio finale del nucleo valvola e sigilla la base contro il materiale drop-stitch — lo strumento porta l''etichetta verde CALIBRATED.'
-    - image: https://assets.supsfactory.com/site/quality/cc-pressure-hold-testing.avif
+    - image: https://assets.isupfactory.com/site/quality/cc-pressure-hold-testing.avif
       alt: SUP gonfiabili finiti collegati a registratori di pressione digitali nell''area di test finale di mantenimento pressione
       title: Verifica finale di mantenimento pressione
       desc: 'Le tavole finite vengono collegate a registratori di pressione digitali ad alta precisione; il manometro master mostra il riferimento di 18.00 PSI e tutti i dati di test vengono caricati automaticamente e collegati al sistema di rintracciabilità contrattuale.'
@@ -296,13 +296,13 @@ cc_downloads:
       icon_bg: blue
       title: SOP di controllo modifiche di rilavorazione (PDF)
       desc: 'QMS-SOP-QC-CC-001 Rev 2.0: tabella di classificazione delle modifiche, matrice di autorizzazione interfunzionale, parametri tecnici di validazione, linee rosse di contenimento e blocchi di firma qualità.'
-      link: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
       link_label: Scaricare PDF
     - icon: A
       icon_bg: green
       title: Allegato di esecuzione A (PDF)
       desc: 'Schema dati ECR, matrice di esecuzione tecnica quantificata per i quattro processi di rilavorazione core, logica dei blocchi Poka-Yoke e blocco firma di rilascio a tre parti.'
-      link: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
       link_label: Scaricare PDF
     - icon: R
       icon_bg: purple
@@ -344,6 +344,6 @@ cta:
       variant: primary
       href: /contact
     - text: Scaricare la SOP di controllo modifiche (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
     - text: Scaricare l''allegato di esecuzione A (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

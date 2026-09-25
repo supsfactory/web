@@ -37,10 +37,10 @@ title: "Storage (R2)"
 </Callout>
 
 ```bash
-# 资源名从 SITE_ID 派生,默认为 supsfactory(见 src/config/deployment.ts)
-wrangler r2 bucket create supsfactory-files            # 默认(top-level)
-wrangler r2 bucket create supsfactory-files-staging    # staging 环境
-wrangler r2 bucket create supsfactory-files-prod       # production 环境
+# 资源名从 SITE_ID 派生,默认为 isupfactory(见 src/config/deployment.ts)
+wrangler r2 bucket create isupfactory-files            # 默认(top-level)
+wrangler r2 bucket create isupfactory-files-staging    # staging 环境
+wrangler r2 bucket create isupfactory-files-prod       # production 环境
 ```
 
 绑定名已在 `wrangler.jsonc` 里接好(top-level + 每个命名环境),无需改动。

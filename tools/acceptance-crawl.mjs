@@ -1,4 +1,4 @@
-// Acceptance sweep for the supsfactory production site.
+// Acceptance sweep for the isupfactory production site.
 //
 // Usage:
 //   node tools/acceptance-crawl.mjs [BASE]
@@ -15,7 +15,7 @@ import { fileURLToPath } from "node:url";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.join(scriptDir, "out");
-const BASE = process.env.BASE || process.argv[2] || "https://supsfactory.com";
+const BASE = process.env.BASE || process.argv[2] || "https://isupfactory.com";
 const CF_UA = "DailyMaintenanceCheck/1.0";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 

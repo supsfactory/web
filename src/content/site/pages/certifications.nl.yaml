@@ -1,5 +1,5 @@
 meta:
-  title: 'Kwaliteitscontrole voor gepersonaliseerde SUP''s: inspectie in 7 fasen | SUPsfactory'
+  title: 'Kwaliteitscontrole voor gepersonaliseerde SUP''s: inspectie in 7 fasen | iSupfactory'
   description: 'Hoe elke gepersonaliseerde SUP-order wordt gecontroleerd: 7 inspectiepunten van productieplanning tot vrijgave voor verzending, met downloadbare tweetalige rapporten.'
   dateModified: '2026-08-15'
   keywords:
@@ -45,35 +45,35 @@ quality_basis:
 tests:
   - title: Druktest
     description: De opblaasbare kamers worden gedurende langere periodes blootgesteld aan drukken hoger dan hun aanbevolen operationele limieten. Dit verifieert de luchtdichtheid en de structurele integriteit van materiaal en naden, en garandeert dat het product bestand is tegen het beoogde gebruik en eventueel overdrukken zonder bezwijken of lekken.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
     alt: Opblaasbare SUP-camera in druktest voor verificatie van de luchtdichtheid
   - title: Impacttest
     description: De producten worden onderworpen aan gecontroleerde impacts met verschillende gewichten en hoeken. Dit beoordeelt de weerstand van het materiaal tegen perforaties, scheuren en botsingsschade door obstakels in het water en toont de duurzaamheid en levensduur aan.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
     alt: Impacttestapparaat dat de perforatieweerstand van het materiaal van de boten controleert
   - title: UV-bestendigheidstest
     description: Materiaalmonsters worden blootgesteld aan versnelde UV-straling om te verifiëren dat ze niet vergelen, scheuren of sterkte verliezen na verloop van tijd. Elke partij PVC wordt vóór de productie getest op zonne-degradatie.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
     alt: PVC-materiaalmonsters blootgesteld aan versnelde UV-straling tijdens de bestendigheidstest
   - title: Slijtvastheidstest
     description: Materiaalmonsters worden gedurende een vast aantal cycli onder gecontroleerde druk over schurende oppervlakken gewreven. Dit meet het vermogen van het materiaal om slijtage door herhaald gebruik en contact met zand, stenen of andere oppervlakken te weerstaan, wat de duurzaamheid op lange termijn garandeert.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pvc-material-testing.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pvc-material-testing.webp
     alt: Slijtagetestmachine die een PVC-stofmonster wrijft om de slijtvastheid te meten
   - title: Prestatietest bij lage temperatuur
     description: De producten worden getest in koude omgevingen om functionaliteit en duurzaamheid onder verschillende temperatuuromstandigheden te beoordelen, en stijfheid of scheuren in kouder water te voorkomen. Essentieel voor boten bedoeld voor wintergebruik of hoge breedtegraden.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-exterior.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-exterior.webp
     alt: Opblaasbaar product in een koelcel tijdens de prestatietest bij lage temperatuur
   - title: Drijf- en draagkrachttest
     description: De producten worden getest met verschillende gewichten om de maximale draagkracht te bepalen en te garanderen dat ze gebruikers en uitrusting veilig dragen. De nominale capaciteit van elk model wordt vóór vrijgave geverifieerd.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-stock-boat-inventory.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-stock-boat-inventory.webp
     alt: Drijf- en draagkrachttest met gewichten op opblaasbare boten
   - title: Wendbaarheidstest
     description: De producten worden getest op hun reactie op peddel- of motorinput, waarbij draaistraal en hanteerbaarheid worden beoordeeld. Vaartesten valideren dat het werkelijke gedrag overeenkomt met de ontwerpspecificaties.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
     alt: Wendbaarheidstest in het water van SUP-rompen en opblaasbare boten
   - title: Dichtheidstest
     description: Volledig gemonteerde producten worden ondergedompeld of blootgesteld aan waterstralen om lekken in naden, ventielen of materialen te controleren. Elke boot doorstaat een verplichte dichtheidstest vóór verzending.
-    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
     alt: Dichtheidstest door onderdompeling die naden en ventielen controleert op lekken
 qc_flow:
   tagline: Het inspectieproces in 7 fasen
@@ -97,9 +97,9 @@ qc_flow:
       method: 'Pre-productievergadering met sales, design en QC; ondertekening van het golden sample; uitgave van het Kwaliteitsinspectieplan (QIP) voor de order.'
       criteria: 'Alle vijf de baselines worden goedgekeurd en bevroren vóór de start van de serieproductie. Onopgeloste punten blokkeren de vrijgave van de productie.'
       record: 'QIP + PPM-notulen, notulen van de monstergoedkeuring.'
-      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
       alt: Pre-productievergadering voor de beoordeling van het golden sample en het kwaliteitsinspectieplan voor een OEM SUP-order
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
       link_label: 'Download het QIP (PDF)'
     - stage: STAGE 02
       title: 'Inkomende goederencontrole (IQC)'
@@ -114,9 +114,9 @@ qc_flow:
       method: 'Visuele, dimensionale en gewichtscontroles; lotsteekproeven volgens AQL; materiaalcertificaten onderzocht; goedgekeurde leverancierslijst toegepast.'
       criteria: 'Voldoet aan de goedgekeurde specificatie en certificaten. Niet-conforme partijen worden geblokkeerd en afgekeurd vóór vrijgave aan de lijn.'
       record: 'IQC-testrapport met lotreferenties en afhandelingsbesluiten.'
-      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
       alt: Inkomende goederencontrole van PVC-stof en SUP-componenten in de fabriek
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Download de IQC-rapporten (PDF)'
     - stage: STAGE 03
       title: 'Procescontrole en first article test (IPQC / FAI)'
@@ -131,9 +131,9 @@ qc_flow:
       method: 'First article test op het eerste stuk; steekproefsgewijze controles per ploeg; lassterkte en naaduitlijning worden aan de lijn geverifieerd.'
       criteria: 'De FAI-vrijgave blokkeert graphics, afmetingen en BOM per versie. Afwijkingen doorlopen het beslissingsproces voor herbewerking — nooit kwaliteitsreparaties aan de lijn.'
       record: 'FAI-registratie, steekproefsgewijze notulen per ploeg, herbewerkingsnotities en afhandelingsbesluit.'
-      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
       alt: Procesinspectie en first article test tijdens de SUP-productie
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Download de IPQC-rapporten (PDF)'
     - stage: STAGE 04
       title: 'Opblaas- en luchtdichtheidstest'
@@ -148,9 +148,9 @@ qc_flow:
       method: 'Volledige lekdetectie op de naden, gevolgd door 24-uurs drukbehoud op 18,0 PSI; automatische uitsluiting bij een drukverlies boven 0,50 PSI.'
       criteria: 'Geen lekkagepunten en drukverlies binnen 0,50 PSI per kamer; defecte eenheden worden geblokkeerd en herbewerkt of afgekeurd.'
       record: 'Luchtdichtheidstestrapport, één per kamer, gekoppeld aan het lot.'
-      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
       alt: Opblaas- en luchtdichtheidstest van een opblaasbare SUP-camera
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Download de luchtdichtheidsrapporten (PDF)'
     - stage: STAGE 05
       title: 'Eindproductinspectie (FQC)'
@@ -165,9 +165,9 @@ qc_flow:
       method: 'Dimensionale verificatie tegen de tekentoleranties; optische beoordeling onder D65 daglichtlampen; montagetest van fin box en hulpstukken.'
       criteria: 'Afmetingen binnen tolerantie (bijv. 3508 × 814 × 150,3 mm), optische beoordeling volgens het goedgekeurde monster, alle accessoires aanwezig.'
       record: 'FQC-rapport met handtekening van de inspecteur en afhandelingsbesluit.'
-      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
       alt: Eindproductinspectie van SUP-boards vóór het verpakken
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Download de FQC-rapporten (PDF)'
     - stage: STAGE 06
       title: 'Pre-shipment verpakkingsinspectie (PSI)'
@@ -182,9 +182,9 @@ qc_flow:
       method: 'Kit-compleetheid 100% vs. BOM; scannen van de barcodes (score ≥ B); nauwkeurigheid van de kartonlabels; drop test ISTA-1A op de verpakte kartons.'
       criteria: 'Kit 100% overeenkomend met de BOM, leesbare barcodes, correcte labels en valbestendige verpakking vóór het laden.'
       record: 'PSI-checklist en verpakkingsnotulen voor elk karton.'
-      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
       alt: Pre-shipment inspectie die het verpakte SUP-kit tegen de BOM verifieert
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Download de PSI-rapporten (PDF)'
     - stage: STAGE 07
       title: 'Vrijgave voor verzending en traceerbaarheid'
@@ -199,9 +199,9 @@ qc_flow:
       method: 'Puntencontrole door Quality op alle zes voorgaande registraties; traceerbaarheidsdossier van het lot samengesteld; registraties overgedragen aan de verzending.'
       criteria: 'Alle punten vrijgegeven door QA; lotregistraties en traceerbaarheidsdossier overgedragen aan de koper of op verzoek onder NDA bewaard.'
       record: 'Autorisatie voor vrijgave voor verzending en traceerbaarheidsdossier van het lot.'
-      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
       alt: Ondertekening van de vrijgave voor verzending en overdracht van het traceerbaarheidsverslag van het lot
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Download de vrijgavrapporten (PDF)'
 system_map:
   tagline: Het kwaliteitssysteem
@@ -246,7 +246,7 @@ intelligence_cards:
         - { label: Fase, value: '02 · IQC' }
         - { label: Lotreferentie, value: 'LOT-DEMO-DS-0814' }
         - { label: Resultaat, value: 'Geslaagd · vrijgegeven voor productie' }
-      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
       link_label: 'Bekijk het geanonimiseerde voorbeeld (PDF)'
     - icon: 2
       icon_bg: green
@@ -256,7 +256,7 @@ intelligence_cards:
         - { label: Fase, value: '03 · IPQC' }
         - { label: Monstercode, value: 'SN-DEMO-FAI-001' }
         - { label: Resultaat, value: 'Geslaagd · FAI vrijgegeven' }
-      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
       link_label: 'Bekijk het geanonimiseerde voorbeeld (PDF)'
     - icon: 3
       icon_bg: purple
@@ -266,7 +266,7 @@ intelligence_cards:
         - { label: Fase, value: '04 · Luchtdichtheid' }
         - { label: Testconditie, value: 'Volgens projectplan (18,0 PSI)' }
         - { label: Resultaat, value: 'Geslaagd · vrijgegeven voor eindcontrole' }
-      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
       link_label: 'Bekijk het geanonimiseerde voorbeeld (PDF)'
     - icon: 4
       icon_bg: orange
@@ -276,7 +276,7 @@ intelligence_cards:
         - { label: Fase, value: '05 · FQC' }
         - { label: Afmetingen, value: '3508 × 814 × 150.3 mm' }
         - { label: Resultaat, value: 'Geslaagd · vrijgegeven voor verpakking' }
-      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
       link_label: 'Bekijk het geanonimiseerde voorbeeld (PDF)'
     - icon: 5
       icon_bg: green
@@ -286,7 +286,7 @@ intelligence_cards:
         - { label: Fase, value: '06 · PSI' }
         - { label: Kit, value: 'BOM-overeenkomst 100%' }
         - { label: Resultaat, value: 'Geslaagd · vrijgegeven voor verzending' }
-      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
       link_label: 'Bekijk het geanonimiseerde voorbeeld (PDF)'
 doc_register:
   tagline: Register van gecontroleerde documenten
@@ -296,82 +296,82 @@ doc_register:
     - title: '00 · Projectkwaliteitsinspectieplan (QIP)'
       description: 'Het kwaliteitscontract voor de order: punten, inspectieomvang, methoden, acceptatiecriteria en de registraties die je ontvangt.'
       icon: '00'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
       link_label: 'Download het QIP (PDF)'
     - title: '01 · Kwaliteitsinspectiestandaard'
       description: 'De volledige inspectie- en garantiestandaard die wordt toegepast op gepersonaliseerde opblaasbare SUP-orders.'
       icon: '01'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
       link_label: 'Download de standaarden (PDF)'
     - title: '02 · Kwaliteitsdocumentatiepakket'
       description: 'De volledige documentstructuur die elk project ontvangt, in één overzichtspakket.'
       icon: '02'
-      link: https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link: https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
       link_label: 'Download het pakket (PDF)'
     - title: '03 · IQC-testrapporten'
       description: 'Rapporten van inkomende goederencontrole — stof, PVC-rollen, ventielen en componenten.'
       icon: '03'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Download de IQC-rapporten (PDF)'
     - title: '04 · IPQC-testrapporten'
       description: 'Rapporten van proces- en first article inspectie tegen de geblokkeerde revisie.'
       icon: '04'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Download de IPQC-rapporten (PDF)'
     - title: '05 · Luchtdichtheidstestrapporten'
       description: '100% lekdetectie op naden, ventielintegriteit en notulen van drukbehoud.'
       icon: '05'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Download de luchtdichtheidsrapporten (PDF)'
     - title: '06 · FQC-testrapporten'
       description: 'Eindcontrole van het board tegen het goedgekeurde monster — afmetingen, uitstraling, fin box.'
       icon: '06'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Download de FQC-rapporten (PDF)'
     - title: '07 · PSI-testrapporten'
       description: 'Verpakkings- en pre-shipment inspectie — 100% kit-compleetheid, barcodescore, valtest.'
       icon: '07'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Download de PSI-rapporten (PDF)'
     - title: '08 · Vrijgavrapporten voor verzending'
       description: 'Vrijgave-autorisatie, ondertekend wanneer alle punten zijn afgesloten, samen met het lotdossier.'
       icon: '08'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Download de vrijgavrapporten (PDF)'
     - title: '09 · Traceerbaarheids- en NCR-dossier'
       description: 'Traceerbaarheid van het lot, gekoppeld aan specificatie/graphics/BOM, plus de registraties van de non-conformiteitencontrole.'
       icon: '09'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
       link_label: 'Download het dossier (PDF)'
     - title: '10 · SOP controle niet-conforme producten (ISO 8.7)'
       description: 'De gecontroleerde procedure voor blokkering, afhandeling, herbewerking en vrijgave van niet-conforme producten.'
       icon: '10'
-      link: https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link: https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
       link_label: 'Download de SOP (PDF)'
     - title: '11 · SOP wijzigingscontrole herbewerking + bijlage'
       description: 'De wijzigingscontroleprocedure en de uitvoeringsbijlage — containment, vrijgave en validatie.'
       icon: '11'
-      link: https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
       link_label: 'Download de SOP (PDF)'
     - title: '12 · Pre-shipment vrijgaveoverzicht'
       description: 'Het tweetalige vrijgaveoverzicht waarmee elk lot wordt verzonden en dat het register bij elkaar houdt.'
       icon: '12'
-      link: https://assets.supsfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link: https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
       link_label: 'Download het overzicht (PDF)'
     - title: '13 · Briefingmodel voor inspecties door derden'
       description: 'Het briefingmodel dat inspecteurs gebruiken om een pre-shipment inspectie aan te kondigen, te plannen en te rapporteren.'
       icon: '13'
-      link: https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
       link_label: 'Download het model (PDF)'
     - title: '14 · PSI-checklist'
       description: 'De pre-shipment inspectiechecklist voor de productie — kit-compleetheid, barcodescore, labels en valtest.'
       icon: '14'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
       link_label: 'Download de checklist (PDF)'
     - title: '15 · OEM-project haalbaarheids- en kwaliteitsgids'
       description: 'Hoe een project van aanvraag naar goedgekeurd golden sample gaat — ontwerp- en kwaliteitsstappen vóór de serieproductie.'
       icon: '15'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
       link_label: 'Download de gids (PDF)'
 traceability:
   tagline: Traceerbaarheid per lot
@@ -381,22 +381,22 @@ traceability:
     - title: 'Wat is er geproduceerd?'
       description: 'Product, model, configuratie en revisie zijn gekoppeld aan het ordernummer en de goedgekeurde specificatierevisie.'
       icon: '1'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
       link_label: 'Bekijk het traceerbaarheidsdossier (PDF)'
     - title: 'Welke materialen zijn gebruikt?'
       description: 'Elke materiaalpartij die in het lot terechtkomt, wordt geregistreerd met zijn leverancier, zijn certificaat en zijn IQC-afhandeling.'
       icon: '2'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
       link_label: 'Bekijk het traceerbaarheidsdossier (PDF)'
     - title: 'Wie heeft geïnspecteerd en wanneer?'
       description: 'Elke registratie vermeldt de rol van de inspecteur, datum, gebruikte instrumenten en resultaat — geen anonieme handtekeningen.'
       icon: '3'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
       link_label: 'Bekijk het traceerbaarheidsdossier (PDF)'
     - title: 'Hoe is het lot vrijgegeven?'
       description: 'De vrijgave wordt door Quality geautoriseerd alleen wanneer alle punten zijn afgesloten; het afhandelingsbesluit wordt in de registratie gedocumenteerd.'
       icon: '4'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
       link_label: 'Bekijk het traceerbaarheidsdossier (PDF)'
 non_conformance:
   tagline: Controle van niet-conforme producten
@@ -417,12 +417,12 @@ non_conformance:
     - title: 'Controle van de vernietiging'
       description: 'Afgekeurd materiaal wordt vernietigd met een ondertekend vernietigingscertificaat, zodat het nooit meer terug kan keren in het magazijn of op de markt.'
       icon: tabler:trash
-      link: https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link: https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
       link_label: 'Vernietigings- en schrootcertificaat (PDF)'
     - title: 'Feedback over de hoofdoorzaak'
       description: 'Terugkerende defecten activeren corrigerende maatregelen bij het verantwoordelijke proces of de leverancier — een gesloten cyclus, geen papieren tijger.'
       icon: tabler:refresh
-      link: https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
       link_label: 'Wijzigingscontrole-SOP voor herbewerking (PDF)'
 third_party:
   tagline: Ondersteuning voor door de koper aangevraagde en onafhankelijke inspecties
@@ -437,22 +437,22 @@ third_party:
     - title: 'Pre-shipment briefingmodel'
       description: 'Het briefingmodel dat inspecteurs gebruiken om een pre-shipment inspectie in onze fabriek aan te kondigen, te plannen en te rapporteren.'
       icon: tabler:file-report
-      link: https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
       link_label: 'Download het briefingmodel (PDF)'
     - title: 'PSI-checklist'
       description: 'De pre-shipment inspectiechecklist voor de productie — kit-compleetheid, barcodescore, labels en valtest.'
       icon: tabler:clipboard-check
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
       link_label: 'Download de PSI-checklist (PDF)'
     - title: 'Volledig kwaliteitsdocumentatiepakket'
       description: 'Een dossier dat het hele documentsysteem dekt — QIP, puntregistraties, traceerbaarheid en NCR-controle.'
       icon: tabler:books
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
       link_label: 'Download het documentatiepakket (PDF)'
     - title: 'OEM-project haalbaarheids- en kwaliteitsgids'
       description: 'Hoe een project van aanvraag naar goedgekeurd golden sample gaat — de ontwerp- en kwaliteitsstappen vóór de serieproductie.'
       icon: tabler:route
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
       link_label: 'Download de projectgids (PDF)'
 content_certifications:
   tagline: Certificeringen en standaarden

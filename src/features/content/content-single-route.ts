@@ -1,4 +1,4 @@
-﻿import { ErrorComponent } from '@tanstack/react-router'
+import { ErrorComponent } from '@tanstack/react-router'
 import { OG_IMAGE } from '@/features/seo/seo'
 import { SITE_NAME } from '@/config/site'
 import { OG_LOCALE } from '@/config/locales'
@@ -52,7 +52,7 @@ export function contentSingleRoute(path: string) {
           { property: 'og:image:type', content: absImage.endsWith('.webp') ? 'image/webp' : 'image/jpeg' },
           { property: 'og:image:alt', content: `${SITE_NAME} — ${title.replace(/\s+\|.*$/, '')}` },
           { name: 'twitter:card', content: 'summary_large_image' },
-          { name: 'twitter:site', content: '@SUPsfactory' },
+          { name: 'twitter:site', content: '@iSupfactory' },
           { name: 'twitter:title', content: title },
           { name: 'twitter:description', content: description },
           { name: 'twitter:image', content: absImage },

@@ -1,4 +1,4 @@
-# Deutsch-Lokalisierung — Übersetzungsleitfaden (SUPsfactory)
+# Deutsch-Lokalisierung — Übersetzungsleitfaden (iSupfactory)
 
 Ziel: die Website vollständig ins **Deutsche** zu übersetzen, als dritte
 lokalisierte Sprache neben Español und Français. Alle neuen Dateien folgen der
@@ -25,7 +25,7 @@ Namenskonvention `<basis>.de.<ext>` im selben Ordner (z. B. `what-is-sup.de.yaml
    Zahlen/Formate **nicht** ins Deutsche umformatieren (Punkt/Komma unverändert).
 5. **UTF-8, echte Umlaute:** `ä ö ü ß` als echte Zeichen, niemals HTML-Entities.
    Datei mit LF-Zeilenenden und abschließendem Newline speichern, kein BOM.
-6. **Nicht übersetzen:** Markennamen (SUPsfactory, Vatrad, Qingdao Vatrad
+6. **Nicht übersetzen:** Markennamen (iSupfactory, Vatrad, Qingdao Vatrad
    Group Co., Ltd.), Produkt-/Modellnamen (z. B. *Cheetah Surge*), Skug-Slugs,
    Dateinamen. Internationale Branchenbegriffe, die im Deutschen ebenfalls
    üblich sind: OEM, ODM, **Private Label**, SUP, PSI, drop-stitch, R&D.

@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Risposta breve'
-  text: 'Lo sviluppo prodotto SUP da SUPsfactory passa attraverso sei fasi — specifica di prodotto, ingegneria strutturale, campionatura del prototipo, test & validazione, costruzione di attrezzature personalizzate e produzione in serie. Il primo campione fisico parte 7–12 giorni dopo l''approvazione della specifica; la produzione prosegue per 25–35 giorni dopo l''ordine confermato e l''acconto; un nuovo stampo aggiunge 15–20 giorni.'
+  text: 'Lo sviluppo prodotto SUP da iSupfactory passa attraverso sei fasi — specifica di prodotto, ingegneria strutturale, campionatura del prototipo, test & validazione, costruzione di attrezzature personalizzate e produzione in serie. Il primo campione fisico parte 7–12 giorni dopo l''approvazione della specifica; la produzione prosegue per 25–35 giorni dopo l''ordine confermato e l''acconto; un nuovo stampo aggiunge 15–20 giorni.'
   verified: 'September 2026'
 
 stages:

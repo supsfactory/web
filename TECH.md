@@ -1,10 +1,10 @@
-# SUPsfactory — Technical Documentation
+# iSupfactory — Technical Documentation
 
 > Last updated: 2026-09-23
-> Project path: `E:\github\supsfactory`
-> Production: https://supsfactory.com (Cloudflare Workers, `supsfactory-production`)
+> Project path: `E:\github\isupfactory`
+> Production: https://isupfactory.com (Cloudflare Workers, `isupfactory-production`)
 > Stack: TanStack Start (React 19) + Cloudflare Workers + D1 (Drizzle ORM) + KV + R2 + better-auth + Resend + Orama (search) + Fumadocs (docs)
-> > Media: All large assets (videos, PDFs, quality photos, product photos) migrated to Cloudflare R2 bucket `supsfactory-files-prod`, served via CDN `assets.supsfactory.com/site/*`; `public/assets/*` directories added to `.gitignore`; upload script `scripts/upload-site-assets.mjs` supports `--prefix <prefix>` for multi-site key isolation.
+> > Media: All large assets (videos, PDFs, quality photos, product photos) migrated to Cloudflare R2 bucket `isupfactory-files-prod`, served via CDN `assets.isupfactory.com/site/*`; `public/assets/*` directories added to `.gitignore`; upload script `scripts/upload-site-assets.mjs` supports `--prefix <prefix>` for multi-site key isolation.
 > > Tests: 300 (Vitest node + workers pools, 46 files); `pnpm typecheck` / `pnpm build` green
 > > Architecture: 5-layer decoupling — Product Layer (`src/product/`) → Site Configuration (`src/config/`) → Website Foundation (`src/features/`) → Cloudflare Platform → Infrastructure. Framework code never imports brand data directly.
 
@@ -23,7 +23,7 @@ Everything runs on the edge — the marketing site, the SaaS app, and all APIs a
 | **Private surfaces never cache** | `/app`, `/admin`, `/api`, `/login`, `/register`, `/sign-in`, `/sign-up`, `/signout`, `/forgot-password`, `/reset-password`, `/auth`, `/oauth`, `/verify` (first path segment) are force-stamped `Cache-Control: private, no-store` + `Vary: Cookie` on **every** method — even if the framework stamped `public` on an SSR response. This makes the worker immune to a CDN misconfiguration caching one user's session page for another. |
 | URL gate (`src/features/seo/edge-gate.ts`) | `EDGE_REDIRECTS` maps every duplicate/legacy URL to its canonical keeper (301, `max-age=3600`); a set of removed template pages 410s (`/docs`, `/waitlist`, `/changelog`); trailing slashes 301 to the slash-less form; retired `/zh/*` URLs 301 to their `/es` mirror. Runs **before** any route handler, so redirects never SSR. |
 | Cron | Two triggers in `wrangler.jsonc`: `0 3 * * *` daily maintenance cleanup (expired `session`/`verification`/stale `rateLimit` rows — `src/features/maintenance/cleanup.ts`, no outbound calls) and `*/5 * * * *` **edge-cache warming** (`warmEdgeCache`: replays `/`, `/es`, `/fr` and all `/products/*` paths through the real handler with a cache-busting query, then overwrites the clean-URL Cache API entry so real visitors get an edge hit instead of a cold worker render). |
-| Assets | Self-hosted fonts, `public/` statics. Product photos served from `assets.supsfactory.com` (the site's own R2 CDN). All site content (`src/content/site/`) is bundled at build time via Vite glob + `?raw` — no filesystem at runtime. Catch-all route `$.tsx` renders content via `ContentCatchAll` component (`src/features/content/catchall.tsx`). |
+| Assets | Self-hosted fonts, `public/` statics. Product photos served from `assets.isupfactory.com` (the site's own R2 CDN). All site content (`src/content/site/`) is bundled at build time via Vite glob + `?raw` — no filesystem at runtime. Catch-all route `$.tsx` renders content via `ContentCatchAll` component (`src/features/content/catchall.tsx`). |
 
 ### 1.2 Locale routing and the two content worlds
 
@@ -197,7 +197,7 @@ When the `ai` and `vectorize` blocks are uncommented in `wrangler.jsonc`, the as
 |-------|-------|
 | Corpus | `corpus.ts` `buildChunks(locale)` — one atomic chunk per piece of info: solution pages (+ their FAQ blocks individually), knowledge hub per-section, projects, product series, guides, brand products/news/technology/case-studies, brand pages (SEO description), and every site FAQ as its own Q/A chunk; en/es/fr, URLs localized via `localizePath` |
 | Embeddings | Workers AI `@cf/baai/bge-m3` (1024-dim, multilingual) in batches of 64 |
-| Index | Vectorize `supsfactory-knowledge` / `-staging` / `-prod` (per env); chunk ids are stable FNV-1a hashes of `(locale, url, part)` so daily re-runs upsert in place |
+| Index | Vectorize `isupfactory-knowledge` / `-staging` / `-prod` (per env); chunk ids are stable FNV-1a hashes of `(locale, url, part)` so daily re-runs upsert in place |
 | Retrieval | top-K=6 cosine, `returnMetadata: 'all'`; metadata carries `text/url/title` so sources render as links |
 | Generation | `@cf/meta/llama-3.2-3b-instruct` via `buildAskPrompt` (pure, in `rag.ts`): system prompt forbids inventing prices/MOQ/lead-times/certifications, demands `[n]` citations, and redirects unknown topics to `/contact`; answers in the buyer's language |
 | Fallback | No AI/Vectorize bindings, empty retrieval, or any failure → Tier 1 (matchFaq + matchCorpus keyword fallback). The widget always works. |
@@ -244,9 +244,9 @@ Spec-derived, non-content changes (routing/intent wiring) still follow their own
 | Tool | What it does | Usage |
 |------|--------------|-------|
 | `tools/batch-edit-pages.ps1` | Generic find/replace across any subset of the content tree — all locales in one pass; UTF-8 no-BOM preserved; reports to `tools/out/batch-edit.json` (git-ignored). Spec mode (recommended) and inline `-Find/-Replace` mode. | `powershell -ExecutionPolicy Bypass -File tools/batch-edit-pages.ps1 -Spec tools/specs/<change>.json [-DryRun] [-Strict] [-V]` |
-| `tools/check-production-content.ps1` | Post-deploy content verifier: fetches live pages and asserts expected substrings (and optional `<title>` contains); relative URLs resolve against `-Base https://supsfactory.com`; exit non-zero on any MISS/ERROR. Spec mode + inline `-Pairs "url|match"` mode. | `powershell -ExecutionPolicy Bypass -File tools/check-production-content.ps1 -Spec tools/specs/production-check.example.json` |
-| `tools/acceptance-crawl.mjs` | Full-site crawl pre/post deploy: non-200 pages, broken images (CDN/R2 404), `afarer` leftovers, duplicate/oversized meta, per-section URL sweep. | `node tools/acceptance-crawl.mjs https://supsfactory.com` (reports to `tools/out/`) |
-| `tools/locale-check.mjs` | en/es/fr coverage: every page/file must ship a real variant, sitemap URLs vs content registry. | `node tools/locale-check.mjs https://supsfactory.com` |
+| `tools/check-production-content.ps1` | Post-deploy content verifier: fetches live pages and asserts expected substrings (and optional `<title>` contains); relative URLs resolve against `-Base https://isupfactory.com`; exit non-zero on any MISS/ERROR. Spec mode + inline `-Pairs "url|match"` mode. | `powershell -ExecutionPolicy Bypass -File tools/check-production-content.ps1 -Spec tools/specs/production-check.example.json` |
+| `tools/acceptance-crawl.mjs` | Full-site crawl pre/post deploy: non-200 pages, broken images (CDN/R2 404), `afarer` leftovers, duplicate/oversized meta, per-section URL sweep. | `node tools/acceptance-crawl.mjs https://isupfactory.com` (reports to `tools/out/`) |
+| `tools/locale-check.mjs` | en/es/fr coverage: every page/file must ship a real variant, sitemap URLs vs content registry. | `node tools/locale-check.mjs https://isupfactory.com` |
 | `tools/specs/verified-dates-2026-09.json` | The historical full-site verified-date unification (2026-08/09 → September 2026) — kept verbatim as the canonical spec example; now idempotent (0 matches) and safe to re-run any time. | via `batch-edit-pages.ps1` |
 | `tools/specs/production-check.example.json` | The production spot-checks used to verify the September-2026 round on the live site (10 URL+substring checks incl. es/fr). | via `check-production-content.ps1` |
 
@@ -279,7 +279,7 @@ git add -A && git commit -m "fix(content): ..."
 git -c http.proxy=http://127.0.0.1:10810 push origin main   # local env; CI deploys ~1-2 min
 # verify (wait for the edge cache to refresh):
 powershell -ExecutionPolicy Bypass -File tools/check-production-content.ps1 -Spec tools/specs/production-check.example.json
-node tools/acceptance-crawl.mjs https://supsfactory.com
+node tools/acceptance-crawl.mjs https://isupfactory.com
 ```
 
 Crawl informational fields (long titles, `158:99` desc lengths, a missing `.avif`/`.webp`) may be **pre-existing**, not caused by your change — check `git log`/working tree before "fixing" to avoid noise.

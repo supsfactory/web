@@ -62,45 +62,45 @@ evidence_gates:
   items:
     - title: 'PPM — Pianificazione qualità di progetto'
       description: 'La riunione di pre-serie fissa l''ambito, il golden sample e il piano di ispezione qualità prima che la linea parta. I punti irrisolti bloccano il rilascio della produzione.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
       link_label: 'Scarica il QIP (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
       alt: Riunione di pre-serie per verificare il golden sample e il piano di ispezione qualità per un ordine SUP OEM
     - title: 'IQC — Controllo ingresso merci'
       description: 'Ogni partita in ingresso di PVC, tessuto e raccordi viene controllata contro la specifica rilasciata. Le partite non conformi vengono bloccate e respinte prima del rilascio alla linea.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Scarica i report IQC (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
       alt: Controllo ingresso merci di tessuto PVC e componenti SUP in fabbrica
     - title: 'IPQC / FAI — Controllo di processo'
       description: 'Il primo campione viene verificato contro le baseline bloccate e ogni turno mantiene i controlli a campione sulla linea. Il rilascio FAI blocca le versioni di grafiche, dimensioni e BOM.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Scarica i report IPQC (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
       alt: Ispezione di processo e verifica del primo campione durante la produzione SUP
     - title: 'Prova di gonfiaggio & tenuta all''aria'
       description: '100% delle tavole finite — non solo un campione — riceve un mantenimento di pressione di 24 ore a 18.0 PSI con esclusione automatica oltre un calo di 0,50 PSI. Un''evidenza per camera.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Scarica i report di tenuta all''aria (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
       alt: Prova di gonfiaggio e tenuta all''aria di una camera di SUP gonfiabile
     - title: 'FQC — Controllo prodotto finale'
       description: 'Le tavole finite vengono misurate contro le tolleranze di disegno e valutate otticamente sotto lampade a luce diurna D65 contro il golden sample rilasciato.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Scarica i report FQC (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
       alt: Controllo del prodotto finale delle tavole SUP finite prima dell''imballaggio
     - title: 'PSI — Ispezione pre-spedizione di imballaggio'
       description: 'Il kit imballato viene verificato al 100% contro la BOM approvata dal cliente — scansione del codice a barre (voto ≥ B), marcature del cartone e test di caduta ISTA-1A prima del carico.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Scarica i report PSI (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
       alt: Ispezione pre-spedizione che verifica il kit SUP imballato contro la BOM
     - title: 'Rilascio in spedizione & rintracciabilità'
       description: 'La Qualità rilascia la partita solo quando tutti i sei gate precedenti sono chiusi. I numeri di serie vengono assegnati alla partita e il dossier viene consegnato con la spedizione.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Scarica i report di rilascio (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
       alt: Firma del rilascio in spedizione e consegna del protocollo di rintracciabilità della partita
 cta:
   title: Guarda le nostre attrezzature e macchine

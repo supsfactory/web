@@ -1,5 +1,5 @@
 meta:
-  title: 'Guía de Onboarding OEM — Proceso Paso a Paso desde el Primer Contacto hasta la Producción | SUPsfactory'
+  title: 'Guía de Onboarding OEM — Proceso Paso a Paso desde el Primer Contacto hasta la Producción | iSupfactory'
   description: 'Guía de onboarding OEM: NDA, factibilidad, muestras, aprobación, preproducción, QC y envío. Proceso paso a paso con cronogramas.'
   dateModified: '2026-08-20'
   keywords:
@@ -14,7 +14,7 @@ meta:
 hero:
   tagline: 'Onboarding de Comprador OEM'
   title: 'Tu Primer Pedido de SUP, Paso a Paso'
-  subtitle: 'Desde el primer contacto hasta las tablas entregadas, el proceso de onboarding OEM en SUPsfactory atraviesa siete puertas definidas — cada una con un cronograma claro, un entregable documentado y un punto de control de aprobación/rechazo. Sin ambigüedad, sin pasos ocultos, sin sorpresas después del depósito.'
+  subtitle: 'Desde el primer contacto hasta las tablas entregadas, el proceso de onboarding OEM en iSupfactory atraviesa siete puertas definidas — cada una con un cronograma claro, un entregable documentado y un punto de control de aprobación/rechazo. Sin ambigüedad, sin pasos ocultos, sin sorpresas después del depósito.'
   actions:
     - variant: primary
       text: Inicia Tu Brief de Proyecto
@@ -108,7 +108,7 @@ faqs:
     - q: '¿Cuál es el pedido mínimo para una primera serie OEM?'
       a: 'El punto de entrada es escalonado: primero 1–2 muestras (listas en 7–12 días), un pedido de prueba o piloto de 20–50 tablas (producción en 25–35 días), y luego series de volumen estándar de 90–100+ tablas por configuración aprobada. El co-branding de lotes pequeños parte desde 5–10 unidades cuando no se necesita etapa de desarrollo. Las tarifas de muestra se acreditan a tu pedido de producción.'
     - q: '¿Cómo se maneja la protección de IP durante el onboarding?'
-      a: 'Tus diseños y especificaciones están protegidos bajo el NDA firmado antes de que se comparta cualquier información de propiedad. Todos los archivos de arte, datos de BOM y archivos técnicos se almacenan en sistemas con control de acceso y trazabilidad de auditoría. En modo OEM, tú posees todo el IP. En modo ODM, el IP de la plataforma adaptada se comparte según acuerdo. En modo Private Label, el IP permanece con SUPsfactory y tú licencias la aplicación de marca.'
+      a: 'Tus diseños y especificaciones están protegidos bajo el NDA firmado antes de que se comparta cualquier información de propiedad. Todos los archivos de arte, datos de BOM y archivos técnicos se almacenan en sistemas con control de acceso y trazabilidad de auditoría. En modo OEM, tú posees todo el IP. En modo ODM, el IP de la plataforma adaptada se comparte según acuerdo. En modo Private Label, el IP permanece con iSupfactory y tú licencias la aplicación de marca.'
     - q: '¿Qué garantías de calidad aplican a un primer pedido?'
       a: 'Cada tabla — muestra, prueba o volumen — pasa por el mismo sistema de inspección de 7 etapas: inspección de material entrante, inspección de tela drop-stitch, soldadura y ensamblaje, pruebas de presión y hermeticidad de 24 horas (sostenimiento a 18.0 PSI, auto-rechazo por caída superior a 0.50 PSI), instalación de almohadilla EVA y accesorios, QC de gráficos y branding, y empaque y documentación final. La calidad nunca se reduce para pedidos más pequeños.'
 

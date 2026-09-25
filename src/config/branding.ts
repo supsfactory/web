@@ -26,7 +26,7 @@ export const BRAND_HERO_IMAGE_WEBP = `https://assets.${SITE_DOMAIN}/images/sups/
 export const BRAND_ASSETS_CDN = `https://assets.${SITE_DOMAIN}` as const
 
 export const BRAND_SOCIAL = {
-  facebook: `https://www.facebook.com/${SITE_NAME.toLowerCase()}`,
+  facebook: 'https://www.facebook.com/theisupfactory',
   linkedin: `https://www.linkedin.com/company/${SITE_NAME.toLowerCase()}`,
   youtube: `https://www.youtube.com/@${SITE_NAME.toLowerCase()}`,
 } as const
@@ -46,5 +46,5 @@ export const BRAND_NOT_ROB = PRODUCT_NOT_ROB as typeof PRODUCT_NOT_ROB
 
 export const BRAND_COMPANY_NAME = 'Qingdao Vatrad Group Co., Ltd.' as const
 export const BRAND_PARENT_BRAND = 'Vatrad' as const
-export const BRAND_PARENT_DOMAIN = 'supsfactory.com' as const
+export const BRAND_PARENT_DOMAIN = 'isupfactory.com' as const
 export const BRAND_PARENT_URL = `https://${BRAND_PARENT_DOMAIN}` as const

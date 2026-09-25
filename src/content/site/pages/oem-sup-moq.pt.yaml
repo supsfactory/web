@@ -12,7 +12,7 @@ sections:
       verifiedDate: "September 2026"
       sourceType: "registo-fábrica"
     body: |
-      O MOQ da SUPsfactory é escalonado conforme o grau de personalização, não é um
+      O MOQ da iSupfactory é escalonado conforme o grau de personalização, não é um
       número único e fixo. Cada nível corresponde a um cenário de produção concreto:
 
       | Cenário | MOQ | Unidades | Condição |

@@ -1,6 +1,6 @@
-﻿meta:
+meta:
   title: 'OEM-Fertigungsgarantie & Produktqualit盲tssicherung | {SITE}'
-  description: 'OEM-Fertigungsgarantiebedingungen f眉r aufblasbare SUP- und Marineprodukte von SUPsfactory: abgedeckte Fehler, Dauer, dokumentierte Chargenaufzeichnungen und Bearbeitung von Anspr眉chen.'
+  description: 'OEM-Fertigungsgarantiebedingungen f眉r aufblasbare SUP- und Marineprodukte von iSupfactory: abgedeckte Fehler, Dauer, dokumentierte Chargenaufzeichnungen und Bearbeitung von Anspr眉chen.'
   keywords:
     - 'OEM-Garantie'
     - 'Fertigungsgarantie'
@@ -13,14 +13,14 @@ headline: 'OEM-Fertigungsgarantie & Produktqualit盲tssicherung'
 subtitle: 'Jedes Board, das wir fertigen, wird gegen ein freigegebenes Muster und dokumentierte Chargenaufzeichnungen gebaut. Diese Garantie definiert, was wir f眉r die Produkte garantieren, die wir unter Ihrer Marke herstellen, und wie Anspr眉che gegen diese Aufzeichnungen gepr眉ft werden.'
 
 seo:
-  headline: 'OEM-Fertigungsgarantie & Produktqualit盲tssicherung | SUPsfactory'
-  description: 'Fertigungsgarantie auf aufblasbare SUP-Boards und andere Marineprodukte von SUPsfactory: 5-j盲hrige Abdeckung von prim盲rer Schlauchgewebefestigkeit, N盲hten und struktureller Integrit盲t des Drop-Stitch-Kerns sowie Aufblasventilen und werkseitig installiertem Zubeh枚r.'
+  headline: 'OEM-Fertigungsgarantie & Produktqualit盲tssicherung | iSupfactory'
+  description: 'Fertigungsgarantie auf aufblasbare SUP-Boards und andere Marineprodukte von iSupfactory: 5-j盲hrige Abdeckung von prim盲rer Schlauchgewebefestigkeit, N盲hten und struktureller Integrit盲t des Drop-Stitch-Kerns sowie Aufblasventilen und werkseitig installiertem Zubeh枚r.'
   datePublished: '2024-01-01'
   dateModified: '2026-09-23'
 
 body: |
   <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
-    Diese Fertigungsgarantie gilt f眉r aufblasbare SUP-Boards, Kajaks und aufblasbare Marineprodukte, die von SUPsfactory hergestellt werden 鈥?der Marinen-Fertigungsdivision der Qingdao Vatrad Group Co., Ltd. 鈥?im Rahmen von OEM-, ODM- und Private-Label-Programmen. Das Wirksamkeitsdatum ist das verifizierbare Chargenproduktions- oder Versanddatum, das im Auftrag vereinbart wurde. Der K盲ufer (Markeninhaber) legt die Endkundengarantiepolitik f眉r seinen eigenen Markt fest; diese Garantie ist die Garantie der Fabrik auf die Waren, wie sie hergestellt wurden.
+    Diese Fertigungsgarantie gilt f眉r aufblasbare SUP-Boards, Kajaks und aufblasbare Marineprodukte, die von iSupfactory hergestellt werden 鈥?der Marinen-Fertigungsdivision der Qingdao Vatrad Group Co., Ltd. 鈥?im Rahmen von OEM-, ODM- und Private-Label-Programmen. Das Wirksamkeitsdatum ist das verifizierbare Chargenproduktions- oder Versanddatum, das im Auftrag vereinbart wurde. Der K盲ufer (Markeninhaber) legt die Endkundengarantiepolitik f眉r seinen eigenen Markt fest; diese Garantie ist die Garantie der Fabrik auf die Waren, wie sie hergestellt wurden.
   </p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
@@ -100,17 +100,17 @@ body: |
   <p>Wenn das Produkt f眉r gewerbliche, beh枚rdliche, gemeinn眉tzige, Charter-, Verleih-, Unterrichtszwecke oder jeden Zweck au脽er der privaten Freizeitnutzung verwendet wird, wird die Garantiezeit f眉r alle Komponenten auf ein (1) Jahr ab dem Wirksamkeitsdatum reduziert. Nutzung bei Renn-, Schnelligkeits- oder Ausdauerwettbewerben erlischt die Garantie vollst盲ndig, es sei denn, eine renn-spezifische Konfiguration ist ausdr眉cklich im Kaufvertrag abgedeckt.</p>
 
   <h2>So stellen Sie einen Garantieanspruch</h2>
-  <p>Kontaktieren Sie SUPsfactory mit dem Auftrag oder Chargenbezug und einer detaillierten Beschreibung des Problems, einschlie脽lich der Seriennummern des Boards, sofern verf眉gbar. Die Fabrik pr眉ft den Anspruch gegen die Chargenaufzeichnungen und stellt Anweisungen f眉r Inspektion und Service bereit.</p>
+  <p>Kontaktieren Sie iSupfactory mit dem Auftrag oder Chargenbezug und einer detaillierten Beschreibung des Problems, einschlie脽lich der Seriennummern des Boards, sofern verf眉gbar. Die Fabrik pr眉ft den Anspruch gegen die Chargenaufzeichnungen und stellt Anweisungen f眉r Inspektion und Service bereit.</p>
   <p>Bei Garantieserviceanfragen kontaktieren Sie uns 眉ber unsere <a href="/contact" class="text-sky-600 underline">Kontaktseite</a> mit Ihrer Bestellnummer und Ihren Produktdetails.</p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
     <h2 class="text-xl font-bold mb-3">Gest眉tzt auf ein dokumentiertes Qualit盲tssystem</h2>
-    <p class="text-sm text-gray-600 dark:text-gray-400">Jedes Board wird vor dem Verpacken gepr眉ft 鈥?<a href="/factory/quality-inspection" class="text-sky-600 underline">7-stufige Inspektionsgates</a> erfassen Ergebnisse pro Seriennummer, und Chargen haben eine 10-j盲hrige ERP-R眉ckverfolgbarkeit. Garantieanspr眉che werden gegen diese Chargenaufzeichnungen entschieden, nicht durch Raten. Sehen Sie sich das <a href="/quality" class="text-sky-600 underline">vollst盲ndige Qualit盲tssystem</a> an und laden Sie die tats盲chlichen <a href="https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">Endkontrollberichte</a> herunter.</p>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Jedes Board wird vor dem Verpacken gepr眉ft 鈥?<a href="/factory/quality-inspection" class="text-sky-600 underline">7-stufige Inspektionsgates</a> erfassen Ergebnisse pro Seriennummer, und Chargen haben eine 10-j盲hrige ERP-R眉ckverfolgbarkeit. Garantieanspr眉che werden gegen diese Chargenaufzeichnungen entschieden, nicht durch Raten. Sehen Sie sich das <a href="/quality" class="text-sky-600 underline">vollst盲ndige Qualit盲tssystem</a> an und laden Sie die tats盲chlichen <a href="https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">Endkontrollberichte</a> herunter.</p>
   </div>
 
   <h2>Drittanbieterartikel</h2>
   <p>Ausr眉stung, Komponenten oder Systeme, die von Drittanbietern hergestellt werden (auch wenn sie von der Fabrik installiert werden), sind ausschlie脽lich durch eine eventuell angebotene Garantie des jeweiligen Herstellers abgedeckt. Die Fabrik lehnt jede Garantieverantwortung f眉r solche Drittanbieterartikel ausdr眉cklich ab.</p>
 
   <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
-    Diese Garantieerkl盲rung ist eine Zusammenfassung der Fertigungsgarantiebedingungen der Fabrik f眉r OEM-, ODM- und Private-Label-Programme. Der vollst盲ndige Kaufvertrag regelt alle Garantiebedingungen. Die Spezifikationen k枚nnen ohne vorherige Ank眉ndigung ge盲ndert werden. SUPsfactory ist die Fertigungsdivision der Qingdao Vatrad Group.
+    Diese Garantieerkl盲rung ist eine Zusammenfassung der Fertigungsgarantiebedingungen der Fabrik f眉r OEM-, ODM- und Private-Label-Programme. Der vollst盲ndige Kaufvertrag regelt alle Garantiebedingungen. Die Spezifikationen k枚nnen ohne vorherige Ank眉ndigung ge盲ndert werden. iSupfactory ist die Fertigungsdivision der Qingdao Vatrad Group.
   </p>

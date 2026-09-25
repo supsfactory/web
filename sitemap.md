@@ -1,4 +1,4 @@
-# SUPsfactory — Sitemap Structure
+# iSupfactory — Sitemap Structure
 
 > **Purpose:** This file documents the `/sitemap.xml` generation, its structural layout, how it interfaces with SEO configuration, and how to extend it for new pages or locales.
 
@@ -25,18 +25,18 @@ seo.ts PUBLIC_PATHS  →  × locales (en, es)  →  hreflang alternates
 
 ```xml
 <url>
-  <loc>https://supsfactory.com/</loc>
+  <loc>https://isupfactory.com/</loc>
   <lastmod>2026-08-15</lastmod>
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
-  <xhtml:link rel="alternate" hreflang="es" href="https://supsfactory.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://isupfactory.com/es/"/>
 </url>
 <url>
-  <loc>https://supsfactory.com/es/</loc>
+  <loc>https://isupfactory.com/es/</loc>
   <lastmod>2026-08-15</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://supsfactory.com/"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://isupfactory.com/"/>
 </url>
 ```
 
@@ -47,7 +47,7 @@ seo.ts PUBLIC_PATHS  →  × locales (en, es)  →  hreflang alternates
 
 ```xml
 <url>
-  <loc>https://supsfactory.com/factory</loc>
+  <loc>https://isupfactory.com/factory</loc>
   <lastmod>2026-06-01</lastmod>
   <changefreq>yearly</changefreq>
   <priority>0.5</priority>
@@ -88,10 +88,10 @@ export const PUBLIC_PATHS = {
 `/robots.txt` (generated from the same `seo.ts`) contains:
 
 ```
-Sitemap: https://supsfactory.com/sitemap.xml
-Sitemap: https://supsfactory.com/llms.txt
-Sitemap: https://supsfactory.com/entity.json
-Sitemap: https://supsfactory.com/rss.xml
+Sitemap: https://isupfactory.com/sitemap.xml
+Sitemap: https://isupfactory.com/llms.txt
+Sitemap: https://isupfactory.com/entity.json
+Sitemap: https://isupfactory.com/rss.xml
 ```
 
 The `/sitemap.xml` URL is listed here so crawlers discover it. No other sitemap‑related directives are needed.

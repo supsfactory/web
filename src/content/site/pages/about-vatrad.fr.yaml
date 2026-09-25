@@ -1,6 +1,6 @@
 meta:
   title: 'À propos de Vatrad — la division de fabrication nautique'
-  description: 'Vatrad est la division de fabrication nautique de Qingdao Vatrad Group, fondée en 2012 à Qingdao, en Chine — l''usine derrière chaque projet personnalisé de SUPsfactory.'
+  description: 'Vatrad est la division de fabrication nautique de Qingdao Vatrad Group, fondée en 2012 à Qingdao, en Chine — l''usine derrière chaque projet personnalisé de iSupfactory.'
   dateModified: '2026-08'
   keywords:
     - 'Vatrad'
@@ -10,7 +10,7 @@ meta:
 hero:
   tagline: À propos de Vatrad
   title: 'Vatrad — la division de fabrication nautique derrière {SITE}'
-  subtitle: 'Fondée en 2012 à Qingdao, en Chine, Vatrad fabrique les embarcations gonflables et les planches de SUP derrière les projets personnalisés de SUPsfactory — une usine de 12 500 m², plus de 350 ouvriers et plus de 120 000 unités de capacité annuelle.'
+  subtitle: 'Fondée en 2012 à Qingdao, en Chine, Vatrad fabrique les embarcations gonflables et les planches de SUP derrière les projets personnalisés de iSupfactory — une usine de 12 500 m², plus de 350 ouvriers et plus de 120 000 unités de capacité annuelle.'
   actions:
     - text: 'Lancer un projet personnalisé'
       href: /fr/contact
@@ -20,7 +20,7 @@ hero:
       variant: secondary
 intro: |
   <p><strong>Vatrad</strong> est la division de fabrication nautique de <strong>Qingdao Vatrad Group Co., Ltd.</strong>, basée dans la zone de développement économique de Laixi, à Qingdao, Shandong, en Chine. Fondée en 2012, l'entreprise a commencé comme un atelier spécialisé d'embarcations dédié au savoir-faire nautique, et est devenue une usine certifiée desservant des clients OEM et ODM dans plus de 50 pays.</p>
-  <p>SUPsfactory est la division B2B de développement personnalisé de l'usine Vatrad. Chaque projet SUPsfactory — d'un premier échantillon ou d'une petite série en co-branding à une ligne de produits complète en marque privée — est fabriqué dans la même installation, par les mêmes équipes et sous le même système qualité décrit ici.</p>
+  <p>iSupfactory est la division B2B de développement personnalisé de l'usine Vatrad. Chaque projet iSupfactory — d'un premier échantillon ou d'une petite série en co-branding à une ligne de produits complète en marque privée — est fabriqué dans la même installation, par les mêmes équipes et sous le même système qualité décrit ici.</p>
   <p>L'usine couvre 12 500 m² avec des ateliers dédiés à la découpe du PVC, à l'assemblage des noyaux drop-stitch, au soudage haute fréquence, à l'assemblage des planches ainsi qu'une zone d'essais pour les contrôles de rétention d'air, de maintien de la pression et de résistance des coutures. La capacité de production dépasse 120 000 unités gonflables par an, et l'installation opère sous un système de management de la qualité ISO 9001, avec une conformité CE, BSCI, REACH et une approbation USCG pour les produits exportés.</p>
   <p>Plus de 350 ouvriers qualifiés et plus de 14 ingénieurs R&D soutiennent les deux lignes de travail qui importent aux marques de SUP : l'ingénierie (conception de coque, sélection des matériaux, prototypage) et la production (application des graphismes, assemblage, inspection, emballage d'exportation). Un centre de R&D interne doté d'un laboratoire de tissus PVC et d'un bassin d'essais traite les moules personnalisés et la validation structurelle avant le début de la production en série.</p>
 stats:
@@ -54,7 +54,7 @@ values_section:
       icon: 'tabler:layers-intersect'
 services_section:
   title: Ce que livre l'usine
-  subtitle: 'Les services de fabrication disponibles pour les clients de SUPsfactory.'
+  subtitle: 'Les services de fabrication disponibles pour les clients de iSupfactory.'
   columns: 2
   items:
     - title: Développement de SUP personnalisé

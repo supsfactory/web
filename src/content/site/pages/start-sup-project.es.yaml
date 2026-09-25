@@ -1,5 +1,5 @@
 meta:
-  title: 'Inicia Tu Proyecto SUP — Desde el Brief hasta las Tablas Entregadas | SUPsfactory'
+  title: 'Inicia Tu Proyecto SUP — Desde el Brief hasta las Tablas Entregadas | iSupfactory'
   description: 'Inicia tu proyecto SUP: envía un brief, obtén NDA, recibe muestras en 7–12 días, aprueba y escala a producción. Proceso paso a paso con cronogramas.'
   dateModified: '2026-08-20'
   keywords:
@@ -50,7 +50,7 @@ process_steps:
 
 collaboration_types:
   tagline: Elige Tu Camino
-  title: 'Tres Formas de Trabajar con SUPsfactory'
+  title: 'Tres Formas de Trabajar con iSupfactory'
   subtitle: 'Cada proyecto pasa por el mismo proceso — lo que cambia es el alcance de ingeniería y dónde queda la propiedad del IP.'
   grid: 'sm:grid-cols-2 lg:grid-cols-3'
   features:

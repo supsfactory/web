@@ -2,9 +2,9 @@ import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND } from '@/config/branding'
 
 export const ENTITY_FACTS: Record<string, { label: string; value: string }[]> = {
   en: [
-    { label: 'Brand', value: `SUPsfactory — the SUP manufacturing division of ${BRAND_PARENT_BRAND}` },
+    { label: 'Brand', value: `iSupfactory — the SUP manufacturing division of ${BRAND_PARENT_BRAND}` },
     { label: 'Legal entity', value: BRAND_COMPANY_NAME },
-    { label: 'Brand relationship', value: `SUPsfactory is the SUP manufacturing division of ${BRAND_PARENT_BRAND}, operated by ${BRAND_COMPANY_NAME}. ${BRAND_PARENT_BRAND} covers RIB boats, inflatable boats, SUP boards and marine solutions; SUPsfactory focuses exclusively on inflatable SUP OEM/ODM manufacturing.` },
+    { label: 'Brand relationship', value: `iSupfactory is the SUP manufacturing division of ${BRAND_PARENT_BRAND}, operated by ${BRAND_COMPANY_NAME}. ${BRAND_PARENT_BRAND} covers RIB boats, inflatable boats, SUP boards and marine solutions; iSupfactory focuses exclusively on inflatable SUP OEM/ODM manufacturing.` },
     { label: 'Product focus', value: 'Inflatable SUP manufacturing — OEM, ODM & private label' },
     { label: 'Factories', value: '12,500 m² in-house plant in Qingdao, China' },
     { label: 'Minimum order', value: 'Tiered: 5–10 co-branding · 20–50 pilot · 90–100+ volume per approved configuration' },
@@ -12,9 +12,9 @@ export const ENTITY_FACTS: Record<string, { label: string; value: string }[]> = 
     { label: 'Business model', value: 'B2B development & manufacturing only — no end-consumer sales' },
   ],
   es: [
-    { label: 'Marca', value: `SUPsfactory — la división de fabricación de SUP de ${BRAND_PARENT_BRAND}` },
+    { label: 'Marca', value: `iSupfactory — la división de fabricación de SUP de ${BRAND_PARENT_BRAND}` },
     { label: 'Entidad legal', value: BRAND_COMPANY_NAME },
-    { label: 'Relación de marca', value: `SUPsfactory es la división de fabricación de SUP de ${BRAND_PARENT_BRAND}, operada por ${BRAND_COMPANY_NAME}. ${BRAND_PARENT_BRAND} cubre botes RIB, botes inflables, tablas de SUP y soluciones marinas; SUPsfactory se enfoca exclusivamente en fabricación OEM/ODM de SUP hinchables.` },
+    { label: 'Relación de marca', value: `iSupfactory es la división de fabricación de SUP de ${BRAND_PARENT_BRAND}, operada por ${BRAND_COMPANY_NAME}. ${BRAND_PARENT_BRAND} cubre botes RIB, botes inflables, tablas de SUP y soluciones marinas; iSupfactory se enfoca exclusivamente en fabricación OEM/ODM de SUP hinchables.` },
     { label: 'Enfoque de producto', value: 'Fabricación de SUP hinchables: OEM, ODM y etiqueta privada' },
     { label: 'Fábricas', value: 'Planta propia de 12.500 m² en Qingdao, China' },
     { label: 'Pedido mínimo', value: 'Escalonado: 5–10 co-branding · 20–50 prueba · 90–100+ volumen por configuración aprobada' },
@@ -22,9 +22,9 @@ export const ENTITY_FACTS: Record<string, { label: string; value: string }[]> = 
     { label: 'Modelo de negocio', value: 'Desarrollo y fabricación B2B — sin venta al consumidor final' },
   ],
   it: [
-    { label: 'Marchio', value: `SUPsfactory — la divisione di produzione SUP di ${BRAND_PARENT_BRAND}` },
+    { label: 'Marchio', value: `iSupfactory — la divisione di produzione SUP di ${BRAND_PARENT_BRAND}` },
     { label: 'Entità legale', value: BRAND_COMPANY_NAME },
-    { label: 'Rapporto tra i marchi', value: `SUPsfactory è la divisione di produzione SUP di ${BRAND_PARENT_BRAND}, gestita da ${BRAND_COMPANY_NAME}. ${BRAND_PARENT_BRAND} copre gommoni RIB, imbarcazioni gonfiabili, tavole SUP e soluzioni marine; SUPsfactory si concentra esclusivamente sulla produzione OEM/ODM di SUP gonfiabili.` },
+    { label: 'Rapporto tra i marchi', value: `iSupfactory è la divisione di produzione SUP di ${BRAND_PARENT_BRAND}, gestita da ${BRAND_COMPANY_NAME}. ${BRAND_PARENT_BRAND} copre gommoni RIB, imbarcazioni gonfiabili, tavole SUP e soluzioni marine; iSupfactory si concentra esclusivamente sulla produzione OEM/ODM di SUP gonfiabili.` },
     { label: 'Focus di prodotto', value: 'Produzione di SUP gonfiabili: OEM, ODM e marchio privato' },
     { label: 'Fabbriche', value: 'Stabilimento di proprietà di 12.500 m² a Qingdao, Cina' },
     { label: 'Ordine minimo', value: 'Scalonato: 5–10 co-branding · 20–50 prova · 90–100+ volume per configurazione approvata' },
@@ -32,9 +32,9 @@ export const ENTITY_FACTS: Record<string, { label: string; value: string }[]> = 
     { label: 'Modello di business', value: 'Sviluppo e produzione B2B — nessuna vendita al consumatore finale' },
   ],
   pt: [
-    { label: 'Marca', value: `SUPsfactory — a divisão de fabrico de SUP de ${BRAND_PARENT_BRAND}` },
+    { label: 'Marca', value: `iSupfactory — a divisão de fabrico de SUP de ${BRAND_PARENT_BRAND}` },
     { label: 'Entidade legal', value: BRAND_COMPANY_NAME },
-    { label: 'Relação de marca', value: `A SUPsfactory é a divisão de fabrico de SUP de ${BRAND_PARENT_BRAND}, operada pela ${BRAND_COMPANY_NAME}. A ${BRAND_PARENT_BRAND} abrange barcos RIB, barcos insufláveis, pranchas de SUP e soluções marítimas; a SUPsfactory concentra-se exclusivamente no fabrico OEM/ODM de SUP insufláveis.` },
+    { label: 'Relação de marca', value: `A iSupfactory é a divisão de fabrico de SUP de ${BRAND_PARENT_BRAND}, operada pela ${BRAND_COMPANY_NAME}. A ${BRAND_PARENT_BRAND} abrange barcos RIB, barcos insufláveis, pranchas de SUP e soluções marítimas; a iSupfactory concentra-se exclusivamente no fabrico OEM/ODM de SUP insufláveis.` },
     { label: 'Foco do produto', value: 'Fabrico de SUP insufláveis: OEM, ODM e marca própria' },
     { label: 'Fábricas', value: 'Fábrica própria de 12.500 m² em Qingdao, China' },
     { label: 'Encomenda mínima', value: 'Por escalões: 5–10 co-branding · 20–50 piloto · 90–100+ volume por configuração aprovada' },
@@ -42,9 +42,9 @@ export const ENTITY_FACTS: Record<string, { label: string; value: string }[]> = 
     { label: 'Modelo de negócio', value: 'Desenvolvimento e fabrico B2B — sem vendas ao consumidor final' },
   ],
   nl: [
-    { label: 'Merk', value: `SUPsfactory — de SUP-productiedivisie van ${BRAND_PARENT_BRAND}` },
+    { label: 'Merk', value: `iSupfactory — de SUP-productiedivisie van ${BRAND_PARENT_BRAND}` },
     { label: 'Rechtspersoon', value: BRAND_COMPANY_NAME },
-    { label: 'Merkrelatie', value: `SUPsfactory is de SUP-productiedivisie van ${BRAND_PARENT_BRAND}, beheerd door ${BRAND_COMPANY_NAME}. ${BRAND_PARENT_BRAND} omvat RIB-boten, opblaasbare boten, SUP-planken en maritieme oplossingen; SUPsfactory richt zich uitsluitend op OEM/ODM-productie van opblaasbare SUPs.` },
+    { label: 'Merkrelatie', value: `iSupfactory is de SUP-productiedivisie van ${BRAND_PARENT_BRAND}, beheerd door ${BRAND_COMPANY_NAME}. ${BRAND_PARENT_BRAND} omvat RIB-boten, opblaasbare boten, SUP-planken en maritieme oplossingen; iSupfactory richt zich uitsluitend op OEM/ODM-productie van opblaasbare SUPs.` },
     { label: 'Productfocus', value: 'Productie van opblaasbare SUPs: OEM, ODM en privaat label' },
     { label: 'Fabrieken', value: 'Eigen fabriek van 12.500 m² in Qingdao, China' },
     { label: 'Minimum bestelling', value: 'Per schaal: 5–10 co-branding · 20–50 pilot · 90–100+ volume per goedgekeurde configuratie' },
@@ -73,7 +73,7 @@ export const ENTITY_KNOWS_ABOUT = [
 ]
 
 export const ENTITY_SUBJECT_OF = [
-  { type: 'WebPage', name: 'Company entity', path: '/about/supsfactory-entity' },
+  { type: 'WebPage', name: 'Company entity', path: '/about/isupfactory-entity' },
   { type: 'WebPage', name: 'Proof Center — factory evidence', path: '/proof-center' },
   { type: 'WebPage', name: 'Factory & manufacturing capability', path: '/factory' },
   { type: 'WebPage', name: 'Quality, testing & certifications', path: '/quality' },

@@ -63,7 +63,7 @@ jobs:
               exit 1
             fi
           }
-          IDX="${CF_VECTORIZE_INDEX:-supsfactory-knowledge}"
+          IDX="${CF_VECTORIZE_INDEX:-isupfactory-knowledge}"
           create_index "$IDX"
           create_index "$IDX-staging"
           create_index "$IDX-prod"
@@ -80,7 +80,7 @@ jobs:
             echo "::notice::REINDEX_TOKEN 未配置，跳过索引重建（每日 03:00 cron 会自动重建）。"
             exit 0
           fi
-          DOMAIN="${CF_PROD_DOMAIN:-supsfactory.com}"
+          DOMAIN="${CF_PROD_DOMAIN:-isupfactory.com}"
           # 边缘/AI-gateway 偶发超时与 503 会让单次调用失败 —— 最多重试 3 次，
           # 每次带固定超时，避免重索引长时间挂起把整个 job 拖红。
           HTTP=""
@@ -106,7 +106,7 @@ jobs:
         env:
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
         run: |
-          DOMAIN="${CF_PROD_DOMAIN:-supsfactory.com}"
+          DOMAIN="${CF_PROD_DOMAIN:-isupfactory.com}"
           HTTP=$(curl -sS -o /tmp/ask.json -w '%{http_code}' -X POST \
             "https://$DOMAIN/api/ask" \
             -H 'content-type: application/json' \

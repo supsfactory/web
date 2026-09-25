@@ -1,29 +1,29 @@
 /**
  * CI helper: generate `wrangler.jsonc` (git-ignored) from the committed
  * `wrangler.example.jsonc` template by:
- *   1. Replacing "supsfactory" resource names with the actual SITE_ID
+ *   1. Replacing "isupfactory" resource names with the actual SITE_ID
  *   2. Injecting the real production resource ids
  *
  * Run in the Deploy workflow before `pnpm build`.
  *
- * wrangler.example.jsonc uses "supsfactory" as the default site ID (it must
+ * wrangler.example.jsonc uses "isupfactory" as the default site ID (it must
  * be a valid Wrangler config at all times). When SITE_ID differs from the
  * default, all resource names are swapped in one pass.
  *
  * Values come from repo Variables (Settings → Secrets and variables → Actions →
  * Variables) — these are identifiers, not secrets:
- *   - SITE_ID           (optional)  site identifier, defaults to "supsfactory"
+ *   - SITE_ID           (optional)  site identifier, defaults to "isupfactory"
  *   - CF_PROD_D1_ID     (required)  production D1 database_id
  *   - CF_PROD_KV_ID     (required)  production KV namespace id
  *   - CF_PROD_R2_BUCKET (optional)  production R2 bucket name (if different from convention)
  *   - CF_PROD_VECTORIZE_INDEX (optional) production Vectorize index name (if different from convention)
- *   - CF_PROD_DOMAIN    (optional)  custom domain, e.g. supsfactory.com
+ *   - CF_PROD_DOMAIN    (optional)  custom domain, e.g. isupfactory.com
  *
  * Only the production env block is patched (this workflow deploys production).
  */
 import { readFileSync, writeFileSync } from 'node:fs'
 
-const DEFAULT_SITE_ID = 'supsfactory'
+const DEFAULT_SITE_ID = 'isupfactory'
 
 const {
   SITE_ID = DEFAULT_SITE_ID,

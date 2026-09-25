@@ -1,6 +1,6 @@
 meta:
   title: 'Confiança OEM & garantias de fábrica — verifica a nossa fábrica antes da tua encomenda'
-  description: 'Como os compradores verificam a SUPsfactory antes da encomenda: registo oficial, audit de fábrica, engenheiros sob NDA e inspeções de terceiros (SGS/TÜV/BV/Intertek).'
+  description: 'Como os compradores verificam a iSupfactory antes da encomenda: registo oficial, audit de fábrica, engenheiros sob NDA e inspeções de terceiros (SGS/TÜV/BV/Intertek).'
   dateModified: '2026-08-14'
   keywords:
     - 'verificação da fábrica OEM SUP'
@@ -65,7 +65,7 @@ trust_steps:
   steps:
     - step: '01'
       title: 'Verificação da entidade oficial'
-      desc: 'O comprador solicitou o registo comercial chinês e a licença de comércio externo. A pessoa coletiva por trás da SUPsfactory é a Qingdao Vatrad Group Co., Ltd., um produtor registado em Qingdao, Shandong desde 2012 — verificado através do registo nacional sob NDA.'
+      desc: 'O comprador solicitou o registo comercial chinês e a licença de comércio externo. A pessoa coletiva por trás da iSupfactory é a Qingdao Vatrad Group Co., Ltd., um produtor registado em Qingdao, Shandong desde 2012 — verificado através do registo nacional sob NDA.'
     - step: '02'
       title: 'Fábrica física & audit da instalação'
       desc: 'Um audit de fábrica (presencial e via video tour) confirmou a instalação de 12.500 m²: quatro oficinas especializadas, 350+ colaboradores, quatro linhas automatizadas e uma produção mensal de cerca de 10.000 pranchas. O relatório do audit é arquivado na documentação contratual.'
@@ -89,8 +89,8 @@ trust_faqs:
   tagline: 'FAQ'
   title: 'As 12 preocupações que os compradores levantam antes da encomenda'
   items:
-    - q: 'A SUPsfactory é mesmo uma fábrica ou uma trading company?'
-      a: 'A SUPsfactory é a divisão de desenvolvimento de produto e produção de SUP da Qingdao Vatrad Group Co., Ltd. Gerimos diretamente a instalação de 12.500 m² em Qingdao — design, corte, soldadura, montagem e ensaio acontecem numa única unidade. Não há passagens por trading companies: as pessoas que respondem às tuas perguntas são as pessoas que constroem as tuas pranchas.'
+    - q: 'A iSupfactory é mesmo uma fábrica ou uma trading company?'
+      a: 'A iSupfactory é a divisão de desenvolvimento de produto e produção de SUP da Qingdao Vatrad Group Co., Ltd. Gerimos diretamente a instalação de 12.500 m² em Qingdao — design, corte, soldadura, montagem e ensaio acontecem numa única unidade. Não há passagens por trading companies: as pessoas que respondem às tuas perguntas são as pessoas que constroem as tuas pranchas.'
     - q: 'Com quem vou tratar concretamente durante o meu projeto?'
       a: 'Com um engenheiro de projeto dedicado e um responsável QC dedicado, além dos responsáveis de departamento que assinam os teus documentos. Podes falar diretamente com o engenheiro-chefe, o Diretor de QA ou o diretor da unidade — antes e depois da encomenda. Não há um nível de gestor de conta entre ti e quem executa.'
     - q: 'Posso visitar ou auditar a fábrica?'
@@ -134,13 +134,13 @@ trust_downloads:
       icon_bg: blue
       title: 'Guia de confiança do comprador OEM e garantias de fábrica (PDF)'
       desc: 'Guia B2B oficial (Parte II, DOC-ENG-2026-EN): verificação da fábrica passo a passo — registo da entidade, audit físico, engenheiros reais, documentação QMS, inspeção de terceiros, proteção contratual e assinaturas de governança.'
-      link: 'https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link: 'https://assets.isupfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
       link_label: 'Descarrega o guia (PDF)'
     - icon: P
       icon_bg: green
       title: 'Guia de branding flexível e MOQ (PDF)'
       desc: 'Guia B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN): a lógica técnica por trás dos rendimentos dos rolos drop-stitch de 150 m (90–100 pranchas), o co-branding de 5–10 unidades, os lotes piloto de 20–50 unidades e os três níveis de produção.'
-      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Descarrega o guia MOQ (PDF)'
     - icon: Q
       icon_bg: orange

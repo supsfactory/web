@@ -1,17 +1,17 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "@id": "https://supsfactory.com/#organization",
-  "name": "SUPsfactory",
+  "@id": "https://isupfactory.com/#organization",
+  "name": "iSupfactory",
   "legalName": "Qingdao Vatrad Group Co., Ltd.",
-  "alternateName": "SUPsfactory — Vatrad SUP Manufacturing",
-  "url": "https://supsfactory.com",
-  "description": "SUPsfactory is the custom inflatable SUP (stand-up paddle board) OEM/ODM manufacturing division of Qingdao Vatrad Group Co., Ltd., a 12,500 m² marine equipment plant in Qingdao, China. Engineering, tooling, sampling, production and export for SUP brands, distributors and sourcing teams worldwide.",
+  "alternateName": "iSupfactory — Vatrad SUP Manufacturing",
+  "url": "https://isupfactory.com",
+  "description": "iSupfactory is the custom inflatable SUP (stand-up paddle board) OEM/ODM manufacturing division of Qingdao Vatrad Group Co., Ltd., a 12,500 m² marine equipment plant in Qingdao, China. Engineering, tooling, sampling, production and export for SUP brands, distributors and sourcing teams worldwide.",
   "industry": "Marine Equipment Manufacturing — SUP Division",
   "foundingDate": "2012",
   "isicV4": "3012",
   "numberOfEmployees": "350+",
-  "logo": "https://supsfactory.com/logo192.png",
+  "logo": "https://isupfactory.com/logo192.png",
   "location": {
     "@type": "Place",
     "name": "Qingdao Manufacturing Facility",
@@ -42,28 +42,28 @@
       "@type": "ContactPoint",
       "telephone": "+86-13305324192",
       "contactType": "sales",
-      "email": "info@supsfactory.com",
+      "email": "info@isupfactory.com",
       "availableLanguage": ["English", "Chinese", "Spanish", "French", "Arabic", "German"]
     },
     {
       "@type": "ContactPoint",
       "telephone": "+86-13305324192",
       "contactType": "customer service",
-      "email": "info@supsfactory.com",
+      "email": "info@isupfactory.com",
       "availableLanguage": ["English", "Chinese"]
     }
   ],
   "sameAs": [
-    "https://www.facebook.com/supsfactory",
-    "https://www.linkedin.com/company/supsfactory",
-    "https://www.youtube.com/@supsfactory"
+    "https://www.facebook.com/theisupfactory",
+    "https://www.linkedin.com/company/isupfactory",
+    "https://www.youtube.com/@isupfactory"
   ],
   "parentOrganization": {
     "@type": "Organization",
-    "@id": "https://supsfactory.com/#organization",
+    "@id": "https://isupfactory.com/#organization",
     "name": "Vatrad",
     "alternateName": "Vatrad Marine",
-    "url": "https://supsfactory.com",
+    "url": "https://isupfactory.com",
     "description": "Vatrad is the marine manufacturing division of Qingdao Vatrad Group Co., Ltd. — RIB boats, inflatable boats, SUP boards and marine solutions built in the same Qingdao plant."
   },
   "isPartOf": {

@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'El desarrollo de productos SUP en SUPsfactory transcurre en seis etapas — especificación del producto, ingeniería estructural, muestreo de prototipo, ensayos y validación, utillaje a medida y producción en masa. La primera muestra física sale en 7–12 días tras la aprobación de la especificación; la producción transcurre en 25–35 días tras el PO y el depósito confirmados; el desarrollo de un molde nuevo añade 15–20 días.'
+  text: 'El desarrollo de productos SUP en iSupfactory transcurre en seis etapas — especificación del producto, ingeniería estructural, muestreo de prototipo, ensayos y validación, utillaje a medida y producción en masa. La primera muestra física sale en 7–12 días tras la aprobación de la especificación; la producción transcurre en 25–35 días tras el PO y el depósito confirmados; el desarrollo de un molde nuevo añade 15–20 días.'
   verified: 'September 2026'
 
 stages:

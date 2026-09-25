@@ -119,27 +119,27 @@ workshops_section:
   workshops:
     - title: Corte de PVC & preparação de materiais
       description: As cortadoras automáticas CNC processam tecidos de PVC, Hypalon e drop-stitch com precisão sub-milimétrica. O aninhamento otimizado por computador minimiza o desperdício de material e garante que cada painel respeite as suas dimensões de especificação antes da soldadura.
-      image: https://assets.supsfactory.com/images/sups/hero/production-dept.webp
+      image: https://assets.isupfactory.com/images/sups/hero/production-dept.webp
       alt: Cortadora CNC de PVC que prepara os painéis de tecido de SUP insuflável na fábrica de Qingdao
     - title: Soldadura de câmaras & termosoldadura
       description: Oficina de soldadura dedicada com soldadoras de ar quente e prensas dielétricas de alta frequência. As soldadoras de ar quente unem e soldam as câmaras dos insufláveis em PVC, enquanto as soldaduras HF criam costuras herméticas de alta resistência que superam os requisitos.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
       alt: Máquina de soldadura HF que sela as câmaras dos insufláveis na fábrica de Qingdao
     - title: Laminação do núcleo drop-stitch
       description: Os núcleos drop-stitch das pranchas SUP são colados aos laminados externos em PVC através de laminação a quente. Milhares de fios internos de poliéster ligam as camadas superior e inferior, criando uma estrutura rígida a 12-15 PSI. As bandas de rail são coladas por fusão de três camadas para a resistência dos bordos.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
       alt: Linha de produção de SUP insufláveis com instalação de laminação do núcleo drop-stitch na fábrica de Qingdao
     - title: Impressão & decoração SUP
       description: As pranchas SUP são decoradas através de impressão digital para gráficas a cores plenas e serigrafia para logótipos e motivos repetidos. As impressoras digitais produzem designs de deck fotorrealistas, enquanto a serigrafia oferece marcas de marca duráveis e marcadas.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
       alt: Interior do departamento de produção na fábrica de SUP insufláveis de Qingdao
     - title: Montagem final & equipamento
       description: Linha de montagem onde válvulas, argolas em D, pegas, fin boxes e deck pads são instalados em cada prancha SUP. Cada prancha segue uma checklist de montagem de 100 pontos assinada pelo chefe de equipa.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
       alt: Departamento de produção com postos de montagem na fábrica de Qingdao
     - title: Controlo de qualidade & inspeção
       description: Cada prancha concluída passa, antes da expedição, num teste obrigatório de retenção de ar, numa verificação de peeling das costuras e num controlo completo do sistema. O nosso laboratório de qualidade opera de forma independente da produção e reporta diretamente à direção.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
       alt: Teste de pressão de um SUP insuflável para retenção de ar antes da expedição na fábrica de Qingdao
 
 equipment_section:

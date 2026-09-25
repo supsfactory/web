@@ -105,27 +105,27 @@ labs_section:
   tagline: Laboratoria
   title: Onze laboratoria
   labs:
-    - image: https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
       title: Laboratorium PVC-stoffen
       description: Doorlopend onderzoek en testen van opblaasbare PVC- en Hypalon-materialen op treksterkte, UV-bestendigheid, slijtage en koudeflexibiliteit, voor betrouwbaarheid op lange termijn in maritieme omgevingen.
       href: /nl/randdcenter/pvc-fabric-lab
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-2.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
       title: Studio romptechniek
       description: CAD-ondersteund ontwerp en eindige-elementenanalyse van rompen in HDPE, aluminium en glasvezel. Elke romp wordt digitaal gesimuleerd op spanningsverdeling en impactsterkte voordat het eerste prototype wordt gebouwd.
       href: /nl/randdcenter/hull-engineering
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing-3.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
       title: HF-lascentrum
       description: Speciale hoogfrequente lasfaciliteit met nauwkeurige controle van temperatuur en druk, die hoogsterke, luchtdichte naden produceert volgens branchenormen voor opblaasbare boten.
       href: /nl/randdcenter/rf-welding
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
       title: Hydrodynamische sleeptank
       description: Modelproeven in onze sleeptank om rompvorm, planeren, stabiliteit en rendement te optimaliseren over een reeks belastings- en golfcondities.
       href: /nl/randdcenter/hydrodynamic-test-tank
-    - image: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
       title: Prototypewerkplaats
       description: Faciliteit op ware grootte voor prototyping en afbouw, waar nieuwe modellen worden gebouwd, afgewerkt en beproefd op het water. Elk prototype doorloopt een watertestprogramma van minimaal 20 uur voordat het voor productie wordt goedgekeurd.
       href: /nl/randdcenter/prototype-workshop
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
       title: Kwaliteits- & testlaboratorium
       description: Toegewijd kwaliteitslaboratorium voor trektests, luchtdichtheidscycli, naadpeeltests en materiaalcertificering, om te garanderen dat elke boot die de werkplaats verlaat voldoet aan onze gepubliceerde specificaties.
       href: /nl/randdcenter/quality-inspection-lab

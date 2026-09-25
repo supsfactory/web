@@ -1,5 +1,5 @@
 meta:
-  title: 'Controllo dei SUP non conformi & rilavorazione | Fabbrica OEM | SUPsfactory'
+  title: 'Controllo dei SUP non conformi & rilavorazione | Fabbrica OEM | iSupfactory'
   description: 'Controllo dei prodotti non conformi (ISO 9001:2015 sezione 8.7): blocco NCR, rilavorazione controllata secondo SRI, nuova verifica indipendente e distruzione accompagnata.'
   dateModified: '2026-08-14'
   keywords:
@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Scaricare la SOP di controllo NCP (PDF)
       variant: primary
-      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
     - text: Scaricare il certificato di scarto & distruzione (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
     - text: Richiedere un controllo qualità
       href: /contact
 
@@ -99,19 +99,19 @@ nc_photos:
   title: Blocco, rilavorazione & nuova verifica in pratica
   subtitle: Le foto della nostra officina di Qingdao mostrano come le tavole non conformi vengono fisicamente separate, rilavorate sotto istruzioni controllate e nuovamente verificate prima di qualsiasi decisione di rilascio.
   features:
-    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
       alt: SUP gonfiabili gonfiati nell''area di test di tenuta all''aria della fabbrica, monitorati da manometri digitali
       title: Gate di nuova verifica
       desc: 'Dopo la rilavorazione, ogni tavola torna all''area di test QC per la verifica indipendente: gonfiata e monitorata con manometri digitali contro i criteri di accettazione rilasciati di progetto — mai una verifica parziale.'
-    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
       alt: Checklist di controllo qualità ed etichette di stato di blocco controllato alla postazione di ispezione della fabbrica
       title: Postazione di blocco & quarantena
       desc: 'Postazione di ispezione con checklist QC e marcatura di stato. Ogni articolo che non soddisfa i criteri di accettazione viene marcato HOLD / QUARANTINE, registrato contro un NCR e fisicamente separato — può procedere all''imballaggio solo dopo disposizione autorizzata e nuova verifica vincolante.'
-    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
       alt: Tecnico QC esegue una rilavorazione controllata di tenuta all''aria su un SUP gonfiabile alla postazione di rilavorazione della fabbrica
       title: Postazione di rilavorazione controllata
       desc: 'La rilavorazione avviene in una postazione dedicata sotto un''istruzione SRI rilasciata: il difetto viene marcato, la tavola resta su HOLD e, dopo il tempo di polimerizzazione richiesto, torna all''area di test per la nuova verifica contro i criteri di accettazione originali.'
-    - image: https://assets.supsfactory.com/site/quality/qc-workshop-inspection-demo.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-inspection-demo.avif
       alt: Dimostrazione in officina dei controlli di qualità nella fabbrica di Qingdao
       title: Dimostrazione QC in officina
       desc: 'Foto dimostrativa dall''officina che mostra i controlli qualità applicati in pratica e sostiene le registrazioni di ispezione e di transizione di stato a cui questa pagina fa riferimento in modo continuo.'
@@ -189,13 +189,13 @@ nc_downloads:
       icon_bg: blue
       title: SOP di controllo dei prodotti non conformi (PDF)
       desc: 'SOP bilingue basata su ISO 9001:2015 sezione 8.7: controllo a ciclo in 8 fasi, matrice di disposizione dei difetti SUP, struttura dati NCR e impegno di qualità verso il cliente.'
-      link: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
       link_label: Scaricare PDF
     - icon: S
       icon_bg: orange
       title: Certificato di scarto & distruzione (PDF)
       desc: 'VAT-QA-SCRAP-CERT-2026: rintracciabilità di prodotto e partita, conclusione del MRB, protocollo di distruzione fisica in 4 fasi, campi per foto testimone e doppio spazio firma.'
-      link: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
       link_label: Scaricare PDF
     - icon: R
       icon_bg: green
@@ -237,6 +237,6 @@ cta:
       variant: primary
       href: /contact
     - text: Scaricare la SOP di controllo NCP (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
     - text: Scaricare il certificato di scarto (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

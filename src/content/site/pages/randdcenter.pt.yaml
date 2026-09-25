@@ -105,27 +105,27 @@ labs_section:
   tagline: Laboratórios
   title: Os nossos laboratórios
   labs:
-    - image: https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
       title: Laboratório de tecidos PVC
       description: Investigação e provas contínuas sobre materiais insufláveis PVC e Hypalon para resistência à tração, resistência UV, abrasão e flexibilidade a frio, para garantir fiabilidade a longo prazo em ambientes marinhos.
       href: /pt/randdcenter/pvc-fabric-lab
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-2.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
       title: Estúdio de engenharia do casco
       description: Design assistido por CAD e análise de elementos finitos de cascos em HDPE, alumínio e fibra de vidro. Cada casco é simulado digitalmente para a distribuição das tensões e a resistência aos impactos antes da construção do primeiro protótipo.
       href: /pt/randdcenter/hull-engineering
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing-3.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
       title: Centro de soldadura HF
       description: Estrutura dedicada de soldadura de alta frequência com controlo preciso de temperatura e pressão, que produz costuras de alta resistência e estanques ao ar segundo os padrões de setor para embarcações insufláveis.
       href: /pt/randdcenter/rf-welding
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
       title: Tanque de prova hidrodinâmica
       description: Provas em modelos no nosso tanque de prova para otimizar a forma do casco, o deslize, a estabilidade e a eficiência numa série de condições de carga e de mar.
       href: /pt/randdcenter/hydrodynamic-test-tank
-    - image: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
       title: Oficina de protótipos
       description: Estrutura em tamanho real para prototipagem e montagem, onde os novos modelos são construídos, montados e ensaiados em mar. Cada protótipo passa por um programa de testes em água de pelo menos 20 horas antes da aprovação de produção.
       href: /pt/randdcenter/prototype-workshop
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
       title: Laboratório de qualidade & ensaios
       description: Laboratório de garantia da qualidade dedicado para provas de tração, ciclos de estanquicidade ao ar, provas de peeling das costuras e certificação dos materiais, para garantir que cada embarcação que sai da oficina corresponde às nossas especificações publicadas.
       href: /pt/randdcenter/quality-inspection-lab

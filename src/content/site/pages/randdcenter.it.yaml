@@ -105,27 +105,27 @@ labs_section:
   tagline: Laboratori
   title: I nostri laboratori
   labs:
-    - image: https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
       title: Laboratorio tessuti PVC
       description: Ricerca e prove continue sui materiali gonfiabili PVC e Hypalon per resistenza alla trazione, resistenza UV, abrasione e flessibilità a freddo, per garantire affidabilità a lungo termine in ambienti marini.
       href: /it/randdcenter/pvc-fabric-lab
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-2.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
       title: Studio di ingegneria dello scafo
       description: Design assistito da CAD e analisi agli elementi finiti di scafi in HDPE, alluminio e fibra di vetro. Ogni scafo viene simulato digitalmente per distribuzione degli sforzi e resistenza agli urti prima della costruzione del primo prototipo.
       href: /it/randdcenter/hull-engineering
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing-3.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
       title: Centro di saldatura HF
       description: Struttura dedicata di saldatura ad alta frequenza con controllo preciso di temperatura e pressione, che produce cuciture ad alta resistenza e a tenuta d'aria secondo gli standard di settore per le imbarcazioni gonfiabili.
       href: /it/randdcenter/rf-welding
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
       title: Vasca di prova idrodinamica
       description: Prove su modelli nella nostra vasca di prova per ottimizzare forma dello scafo, planata, stabilità ed efficienza su una serie di condizioni di carico e di mare.
       href: /it/randdcenter/hydrodynamic-test-tank
-    - image: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
       title: Officina prototipi
       description: Struttura a grandezza naturale per prototipazione e allestimento, in cui i nuovi modelli vengono costruiti, allestiti e collaudati in mare. Ogni prototipo passa attraverso un programma di test in acqua di almeno 20 ore prima dell'approvazione di produzione.
       href: /it/randdcenter/prototype-workshop
-    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
       title: Laboratorio qualità & collaudi
       description: Laboratorio di garanzia qualità dedicato per prove di trazione, cicli di tenuta dell'aria, prove di pelatura delle cuciture e certificazione dei materiali, per garantire che ogni imbarcazione che lascia l'officina corrisponda alle nostre specifiche pubblicate.
       href: /it/randdcenter/quality-inspection-lab

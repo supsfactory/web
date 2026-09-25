@@ -1,5 +1,5 @@
 meta:
-  title: 'Lancez votre projet SUP — Du brief aux planches livrées | SUPsfactory'
+  title: 'Lancez votre projet SUP — Du brief aux planches livrées | iSupfactory'
   description: 'Lancez votre projet SUP personnalisé : soumettez un brief, obtenez une protection NDA, recevez des échantillons en 7–12 jours, approuvez et passez à la production. Étape par étape avec calendriers.'
   dateModified: '2026-08-20'
   keywords:
@@ -50,7 +50,7 @@ process_steps:
 
 collaboration_types:
   tagline: Choisissez votre chemin
-  title: 'Trois façons de travailler avec SUPsfactory'
+  title: 'Trois façons de travailler avec iSupfactory'
   subtitle: 'Chaque projet passe par le même processus — ce qui change est le périmètre d''ingénierie et le détenteur de la propriété intellectuelle.'
   grid: 'sm:grid-cols-2 lg:grid-cols-3'
   features:

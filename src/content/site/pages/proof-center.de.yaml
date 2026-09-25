@@ -1,6 +1,6 @@
 meta:
   title: 'Proof Center —Die Belege hinter jeder Fertigungsaussage'
-  description: 'Beleger-Ordner hinter SUPsfactory-Aussagen: Entitätsbeziehungen, Zertifikate mit Geltungsbereich, Ausrüstungsliste, Chargenrückverfolgbarkeit und Prüfdokumentation.'
+  description: 'Beleger-Ordner hinter iSupfactory-Aussagen: Entitätsbeziehungen, Zertifikate mit Geltungsbereich, Ausrüstungsliste, Chargenrückverfolgbarkeit und Prüfdokumentation.'
   dateModified: '2026-08-16'
   keywords:
     - 'SUP-Fabrikbelege'
@@ -19,7 +19,7 @@ hero:
 
 answer:
   label: 'Kurze Antwort'
-  text: 'Die Kette von Aussage zu Beleg funktioniert so: Jede Aussage dieser Website stützt sich auf eine Registrierung, ein Zertifikat, eine Maschine, ein Dokument oder ein Testprotokoll — und jedes davon kann eingesehen werden. SUPsfactory ist die SUP-Produktentwicklungs- und Fertigungsdivision der Qingdao Vatrad Group Co., Ltd. (seit 2012 in Qingdao registriert). Die 12,500 m² große Anlage verfügt über ISO-9001:2015-Qualitätsmanagement, ISO-25649-Konformität, CE-Konformitätsdokumentation, BSCI-Sozialkonformität (Auditbericht auf Anfrage) und REACH/RoHS-Materialdokumentation pro Auftrag. Jede aufblasbare Kammer wird 24 Stunden bei 18,0 PSI getestet mit automatischer Aussortierung über 0,50 PSI Abfall, und die Chargenaufzeichnungen werden mit 10-jähriger ERP-Rückverfolgbarkeit geführt. Der Papierpfad ist veröffentlicht oder teilbar, und die Fabrik selbst ist audit-offen.'
+  text: 'Die Kette von Aussage zu Beleg funktioniert so: Jede Aussage dieser Website stützt sich auf eine Registrierung, ein Zertifikat, eine Maschine, ein Dokument oder ein Testprotokoll — und jedes davon kann eingesehen werden. iSupfactory ist die SUP-Produktentwicklungs- und Fertigungsdivision der Qingdao Vatrad Group Co., Ltd. (seit 2012 in Qingdao registriert). Die 12,500 m² große Anlage verfügt über ISO-9001:2015-Qualitätsmanagement, ISO-25649-Konformität, CE-Konformitätsdokumentation, BSCI-Sozialkonformität (Auditbericht auf Anfrage) und REACH/RoHS-Materialdokumentation pro Auftrag. Jede aufblasbare Kammer wird 24 Stunden bei 18,0 PSI getestet mit automatischer Aussortierung über 0,50 PSI Abfall, und die Chargenaufzeichnungen werden mit 10-jähriger ERP-Rückverfolgbarkeit geführt. Der Papierpfad ist veröffentlicht oder teilbar, und die Fabrik selbst ist audit-offen.'
   verified: 'September 2026'
 
 entities:
@@ -29,9 +29,9 @@ entities:
   features:
     - icon: S
       icon_bg: blue
-      title: 'SUPsfactory — die öffentliche Website'
+      title: 'iSupfactory — die öffentliche Website'
       desc: 'Die SUP-OEM/ODM- und Private-Label-Produktlinie mit ihrer öffentlichen Dokumentation: Katalog, MOQ-Leitfaden, Qualitätssystemseiten und Fallstudien. Der Name, mit dem Sie verhandeln, ist der Name, den Sie prüfen.'
-      link: '/de/about/supsfactory-entity'
+      link: '/de/about/isupfactory-entity'
       link_label: 'Entitätsseite der Website'
     - icon: A
       icon_bg: green
@@ -147,7 +147,7 @@ faqs:
     - q: 'Dient diese Seite nur der Verifizierung und ersetzt keine Due-Diligence?'
       a: 'Korrekt — diese Seite zeigt, wo jede Aussage verifiziert werden kann: Entitätsregistrierung, Zertifikate, Maschinen, Aufzeichnungen und eine audit-offene Anlage. Ihre üblichen Due-Diligence-Schritte (Registrierungsprüfung, Audit, Drittprüfung) gelten weiterhin und sind willkommen.'
     - q: 'Welche Entität soll auf meiner Auftragsdokumentation erscheinen?'
-      a: 'Aufträge werden mit der Qingdao Vatrad Group Co., Ltd. geschlossen, die als Vatrad (Fertigungsdivision) auftritt, mit SUPsfactory als SUP-Produktlinie. Vertragsdokumente werden vom Vertriebs-VP, dem Chefingenieur und dem QA-Direktor unterzeichnet.'
+      a: 'Aufträge werden mit der Qingdao Vatrad Group Co., Ltd. geschlossen, die als Vatrad (Fertigungsdivision) auftritt, mit iSupfactory als SUP-Produktlinie. Vertragsdokumente werden vom Vertriebs-VP, dem Chefingenieur und dem QA-Direktor unterzeichnet.'
     - q: 'Kann ich vor der Bestellung Kopien der Zertifikate erhalten?'
       a: 'Ja — Zertifikatsnummern und Auditunterlagen werden auf Anfrage oder während eines Audits geliefert. Die Liste ist veröffentlicht, nie „nur auf Anfrage verfügbar".'
     - q: 'Wie kann ich die Chargentestprotokolle selbst verifizieren?'

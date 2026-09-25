@@ -1,6 +1,6 @@
 meta:
   title: 'Confiance OEM et assurance d''usine —Vérifiez notre usine avant de commander'
-  description: 'Comment les acheteurs vérifient SUPsfactory avant de commander : enregistrement officiel, audits d''usine, ingénieurs sous NDA et inspections tierces parties (SGS/TÜV/BV/Intertek).'
+  description: 'Comment les acheteurs vérifient iSupfactory avant de commander : enregistrement officiel, audits d''usine, ingénieurs sous NDA et inspections tierces parties (SGS/TÜV/BV/Intertek).'
   dateModified: '2026-08-14'
   keywords:
     - 'vérification d''usine OEM SUP'
@@ -65,7 +65,7 @@ trust_steps:
   steps:
     - step: '01'
       title: 'Vérification officielle de l''entité'
-      desc: 'L''acheteur a demandé l''enregistrement d''entreprise chinois et la licence de commerce d''export. L''entité légale derrière SUPsfactory est Qingdao Vatrad Group Co., Ltd., un fabricant enregistré depuis 2012 à Qingdao, Shandong —vérifié via le registre national sous NDA.'
+      desc: 'L''acheteur a demandé l''enregistrement d''entreprise chinois et la licence de commerce d''export. L''entité légale derrière iSupfactory est Qingdao Vatrad Group Co., Ltd., un fabricant enregistré depuis 2012 à Qingdao, Shandong —vérifié via le registre national sous NDA.'
     - step: '02'
       title: 'Usine physique et audit de site'
       desc: 'Un audit d''usine (en personne et via une visite vidéo) a confirmé l''usine de 12 500 m² : quatre ateliers spécialisés, 350+ ouvriers, quatre lignes automatisées et une production mensuelle d''environ 10 000 planches. Le rapport d''audit est classé avec les enregistrements du contrat.'
@@ -89,8 +89,8 @@ trust_faqs:
   tagline: 'FAQ'
   title: 'Les 12 préoccupations que les acheteurs expriment avant de commander'
   items:
-    - q: 'SUPsfactory est-il vraiment une usine, ou une société de trading ?'
-      a: 'SUPsfactory est la division de développement produit et de fabrication SUP de Qingdao Vatrad Group Co., Ltd. Nous exploitons nous-mêmes l''usine de 12 500 m² à Qingdao —design, découpe, soudure, assemblage et test se déroulent dans une seule installation. Aucun transfert de société de trading : les personnes qui répondent à vos questions sont celles qui construisent vos planches.'
+    - q: 'iSupfactory est-il vraiment une usine, ou une société de trading ?'
+      a: 'iSupfactory est la division de développement produit et de fabrication SUP de Qingdao Vatrad Group Co., Ltd. Nous exploitons nous-mêmes l''usine de 12 500 m² à Qingdao —design, découpe, soudure, assemblage et test se déroulent dans une seule installation. Aucun transfert de société de trading : les personnes qui répondent à vos questions sont celles qui construisent vos planches.'
     - q: 'Avec qui exactement traiterai-je pendant mon projet ?'
       a: 'Un ingénieur de projet nommé et un contact QC nommé, plus les chefs de département qui signent vos documents. Vous pouvez demander à parler directement à l''ingénieur en chef, au directeur QA ou au directeur d''usine —avant et après la commande. Aucune couche de chef de compte ne s''interpose entre vous et les personnes qui font le travail.'
     - q: 'Puis-je visiter ou auditer l''usine ?'
@@ -134,13 +134,13 @@ trust_downloads:
       icon_bg: blue
       title: 'Guide de confiance acheteur OEM et d''assurance d''usine (PDF)'
       desc: 'Guide B2B officiel (Partie II, DOC-ENG-2026-EN) : vérification d''usine étape par étape —enregistrement de l''entité, audit physique, vrais ingénieurs, documents QMS, inspection tierce partie, protection contractuelle et signatures de gouvernance.'
-      link: 'https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link: 'https://assets.isupfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
       link_label: 'Télécharger le guide (PDF)'
     - icon: P
       icon_bg: green
       title: 'Guide de marque flexible et de MOQ (PDF)'
       desc: 'Guide B2B officiel (Partie I, DOC-MOQ-EXP-2026-EN) : la logique d''ingénierie derrière les rendements des rouleaux de drop-stitch de 150 m (90–100 planches), co-marquage dès 5–10 unités, lots pilotes 20–50 unités et les trois étapes de production.'
-      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Télécharger le guide MOQ (PDF)'
     - icon: Q
       icon_bg: orange

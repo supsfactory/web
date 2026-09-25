@@ -1,9 +1,9 @@
 meta:
-  title: 'About SUPsfactory — Brand Identity, Manufacturing Division of Qingdao Vatrad Group | SUPsfactory'
-  description: 'SUPsfactory brand identity: inflatable SUP and marine inflatable manufacturing division. Factory location, legal entity, certifications and brand positioning.'
+  title: 'About iSupfactory — Brand Identity, Manufacturing Division of Qingdao Vatrad Group | iSupfactory'
+  description: 'iSupfactory brand identity: inflatable SUP and marine inflatable manufacturing division. Factory location, legal entity, certifications and brand positioning.'
   dateModified: '2026-08-21'
   keywords:
-    - 'SUPsfactory identity'
+    - 'iSupfactory identity'
     - 'Qingdao Vatrad Group'
     - 'Vatrad SUP manufacturer'
     - 'SUP factory Laixi Qingdao'
@@ -12,12 +12,12 @@ meta:
 
 hero:
   tagline: 'Brand Identity'
-  title: 'Who Is SUPsfactory?'
-  subtitle: 'SUPsfactory is the buyer-facing manufacturing brand of Vatrad, the marine manufacturing division of Qingdao Vatrad Group Co., Ltd. — an inflatable SUP and marine inflatable products manufacturer in Laixi, Qingdao, China. We manufacture exclusively under the brands of our clients and never compete with them in any market.'
+  title: 'Who Is iSupfactory?'
+  subtitle: 'iSupfactory is the buyer-facing manufacturing brand of Vatrad, the marine manufacturing division of Qingdao Vatrad Group Co., Ltd. — an inflatable SUP and marine inflatable products manufacturer in Laixi, Qingdao, China. We manufacture exclusively under the brands of our clients and never compete with them in any market.'
 
 answer:
   label: 'In brief'
-  text: 'Legal entity: Qingdao Vatrad Group Co., Ltd. Manufacturing division: Vatrad (SUPsfactory brand). Factory: Laixi, Qingdao, Shandong, China. Scope: OEM, ODM and private-label manufacturing of inflatable SUP boards, paddles and marine inflatables. Certifications: ISO 9001:2015, CE (EU-destined models), BSCI, REACH, RoHS. We do not sell under our own brand — every board we produce carries the brand of the buyer.'
+  text: 'Legal entity: Qingdao Vatrad Group Co., Ltd. Manufacturing division: Vatrad (iSupfactory brand). Factory: Laixi, Qingdao, Shandong, China. Scope: OEM, ODM and private-label manufacturing of inflatable SUP boards, paddles and marine inflatables. Certifications: ISO 9001:2015, CE (EU-destined models), BSCI, REACH, RoHS. We do not sell under our own brand — every board we produce carries the brand of the buyer.'
   verified: 'September 2026'
 
 identity_detail:
@@ -33,7 +33,7 @@ identity_detail:
     - icon: M
       icon_bg: green
       title: 'Manufacturing Division'
-      desc: 'Vatrad operates as the marine manufacturing division under Qingdao Vatrad Group. SUPsfactory is the buyer-facing brand used for international OEM, ODM and private-label manufacturing services.'
+      desc: 'Vatrad operates as the marine manufacturing division under Qingdao Vatrad Group. iSupfactory is the buyer-facing brand used for international OEM, ODM and private-label manufacturing services.'
     - icon: F
       icon_bg: purple
       title: 'Factory Location'
@@ -53,7 +53,7 @@ manufacturing_scope:
 brand_positioning:
   heading: 'Brand Positioning'
   body: |
-    SUPsfactory occupies a specific position in the market — we are not a brand, we are a manufacturer. This distinction shapes every aspect of how we operate:
+    iSupfactory occupies a specific position in the market — we are not a brand, we are a manufacturer. This distinction shapes every aspect of how we operate:
 
     - **We never sell under our own brand.** Every board we produce carries the brand of the buyer. We do not compete with our clients in any market, in any channel. This policy is non-negotiable.
     - **We are not a trading company.** We operate the factory. Quality control, engineering, production scheduling and export documentation are all managed in-house. There are no intermediaries between your order and the production floor.
@@ -69,14 +69,14 @@ faqs:
   tagline: FAQ
   title: 'Brand Identity — Frequently Asked Questions'
   items:
-    - q: 'Is SUPsfactory a separate company from Qingdao Vatrad Group?'
-      a: 'No. SUPsfactory is the buyer-facing brand of Vatrad, which is the marine manufacturing division of Qingdao Vatrad Group Co., Ltd. The legal contracting entity for all orders is Qingdao Vatrad Group Co., Ltd. The factory, team and quality system are one operation.'
+    - q: 'Is iSupfactory a separate company from Qingdao Vatrad Group?'
+      a: 'No. iSupfactory is the buyer-facing brand of Vatrad, which is the marine manufacturing division of Qingdao Vatrad Group Co., Ltd. The legal contracting entity for all orders is Qingdao Vatrad Group Co., Ltd. The factory, team and quality system are one operation.'
     - q: 'Do you sell boards under your own brand?'
-      a: 'No. We manufacture exclusively under the brands of our clients and never compete with them in any market. This is a core policy — not a temporary position. If you find a SUPsfactory-branded board on the market, it is not from our factory.'
+      a: 'No. We manufacture exclusively under the brands of our clients and never compete with them in any market. This is a core policy — not a temporary position. If you find a iSupfactory-branded board on the market, it is not from our factory.'
     - q: 'Can I visit the factory?'
       a: 'Yes. We welcome factory visits and can arrange a structured audit covering the full production process, QC gates, material warehouse and documentation review. Contact us to schedule a visit.'
-    - q: 'What is the relationship between Vatrad and SUPsfactory?'
-      a: 'Vatrad is the manufacturing division name within Qingdao Vatrad Group. SUPsfactory is the international buyer-facing brand used for OEM, ODM and private-label manufacturing services. They refer to the same operation — the marine manufacturing division in Laixi, Qingdao.'
+    - q: 'What is the relationship between Vatrad and iSupfactory?'
+      a: 'Vatrad is the manufacturing division name within Qingdao Vatrad Group. iSupfactory is the international buyer-facing brand used for OEM, ODM and private-label manufacturing services. They refer to the same operation — the marine manufacturing division in Laixi, Qingdao.'
 
 cta:
   title: 'Ready to Verify Our Factory?'

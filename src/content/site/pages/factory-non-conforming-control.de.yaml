@@ -1,5 +1,5 @@
 meta:
-  title: 'Kontrolle nichtkonformer SUPs & Nacharbeit | OEM-Fabrik | SUPsfactory'
+  title: 'Kontrolle nichtkonformer SUPs & Nacharbeit | OEM-Fabrik | iSupfactory'
   description: 'Kontrolle nichtkonformer Produkte (ISO 9001:2015 Abschnitt 8.7): NCR-Sperrung, kontrollierte Nacharbeit unter SRI, unabhängige Nachprüfung und begleitete Zerstörung.'
   dateModified: '2026-08-14'
   keywords:
@@ -17,9 +17,9 @@ hero:
   actions:
     - text: NCP-Kontroll-SOP herunterladen (PDF)
       variant: primary
-      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
     - text: Schrott- & Zerstörungszertifikat herunterladen (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
     - text: Qualitätsprüfung anfordern
       href: /contact
 
@@ -99,19 +99,19 @@ nc_photos:
   title: Sperrung, Nacharbeit & Nachprüfung in der Praxis
   subtitle: Fotos aus unserer Werkstatt in Qingdao zeigen, wie nichtkonforme Boards physisch separiert, unter kontrollierten Anweisungen nachgearbeitet und vor jeder Freigabeentscheidung erneut verifiziert werden.
   features:
-    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
       alt: Aufgeblasene aufblasbare SUP-Boards im Luftdichtigkeitstestbereich der Fabrik, überwacht von digitalen Manometern
       title: Nachprüf-Gate
       desc: 'Nach der Nacharbeit kehrt jedes Board zur QC-Testfläche für die unabhängige Verifikation zurück: aufgeblasen und mit digitalen Manometern gegen die projektfreigegebenen Abnahmekriterien überwacht — niemals eine Teilprüfung.'
-    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
       alt: Qualitätskontroll-Checklisten und kontrollierte Haltstatus-Etiketten an der Fabrikinspektionsstation
       title: Halt- & Quarantänestation
       desc: 'Inspektionsstation mit QC-Checklisten und Statuskennzeichnung. Jeder Artikel, der die Abnahmekriterien verfehlt, wird als HOLD / QUARANTINE markiert, gegen eine NCR erfasst und physisch separiert — er kann erst nach autorisierter Disposition und verbindlicher Nachprüfung zum Verpacken weitergehen.'
-    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
       alt: QC-Techniker führt kontrollierte Luftdichtigkeitsnacharbeit an einem aufblasbaren SUP an der Nacharbeitsstation der Fabrik durch
       title: Kontrollierte Nacharbeitsstation
       desc: 'Nacharbeit erfolgt an einer dedizierten Station unter einer freigegebenen SRI-Anweisung: Der Fehler wird markiert, das Board bleibt auf HOLD, und nach der erforderlichen Aushärtezeit kehrt es zur Testfläche für die Nachprüfung gegen die ursprünglichen Abnahmekriterien zurück.'
-    - image: https://assets.supsfactory.com/site/quality/qc-workshop-inspection-demo.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-inspection-demo.avif
       alt: Werkstattdemonstration von Qualitätskontrollprüfungen in der Qingdao-Fabrik
       title: Werkstatt-QC-Demonstration
       desc: 'Demonstrationsfoto aus der Werkstatt, das die in der Praxis angewendeten Qualitätskontrollprüfungen zeigt und die Inspektions- und Statustransfer-Aufzeichnungen stützt, auf die auf dieser Seite durchgehend verwiesen wird.'
@@ -189,13 +189,13 @@ nc_downloads:
       icon_bg: blue
       title: SOP zur Kontrolle nichtkonformer Produkte (PDF)
       desc: 'Auf ISO 9001:2015 Abschnitt 8.7 basierende zweisprachige SOP: 8-stufige Kreislaufkontrolle, die SUP-Fehlerdispositionsmatrix, NCR-Datenstruktur und Kundenqualitätsverpflichtung.'
-      link: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
       link_label: PDF herunterladen
     - icon: S
       icon_bg: orange
       title: Schrott- & Zerstörungszertifikat (PDF)
       desc: 'VAT-QA-SCRAP-CERT-2026: Produkt- und Chargen-Rückverfolgbarkeit, MRB-Schlussfolgerung, das 4-Schritte-Protokoll zur physischen Zerstörung, Zeugenfoto-Felder und doppelte Zeichnungsfläche.'
-      link: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
       link_label: PDF herunterladen
     - icon: R
       icon_bg: green
@@ -237,6 +237,6 @@ cta:
       variant: primary
       href: /contact
     - text: NCP-Kontroll-SOP herunterladen (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
     - text: Schrottzertifikat herunterladen (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

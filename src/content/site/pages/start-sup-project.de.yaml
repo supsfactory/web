@@ -1,5 +1,5 @@
 meta:
-  title: 'Starten Sie Ihr SUP-Projekt — Vom Briefing bis zu gelieferten Boards | SUPsfactory'
+  title: 'Starten Sie Ihr SUP-Projekt — Vom Briefing bis zu gelieferten Boards | iSupfactory'
   description: 'Starten Sie Ihr individuelles SUP-Projekt: Briefing einreichen, NDA-Schutz erhalten, Muster in 7–12 Tagen bekommen, freigeben und zur Produktion skalieren. Schritt für Schritt mit Zeitplänen.'
   dateModified: '2026-08-20'
   keywords:
@@ -50,7 +50,7 @@ process_steps:
 
 collaboration_types:
   tagline: Wählen Sie Ihren Weg
-  title: 'Drei Möglichkeiten der Zusammenarbeit mit SUPsfactory'
+  title: 'Drei Möglichkeiten der Zusammenarbeit mit iSupfactory'
   subtitle: 'Jedes Projekt durchläuft denselben Prozess — was sich ändert, ist der Engineering-Umfang und die IP-Eigentümerschaft.'
   grid: 'sm:grid-cols-2 lg:grid-cols-3'
   features:

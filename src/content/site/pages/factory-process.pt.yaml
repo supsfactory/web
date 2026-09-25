@@ -62,45 +62,45 @@ evidence_gates:
   items:
     - title: 'PPM — Planeamento de qualidade do projeto'
       description: 'A reunião de pré-série fixa o âmbito, o golden sample e o plano de inspeção de qualidade antes de a linha arrancar. Os pontos por resolver bloqueiam a libertação da produção.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
       link_label: 'Descarregar o QIP (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
       alt: Reunião de pré-série para verificar o golden sample e o plano de inspeção de qualidade de uma encomenda SUP OEM
     - title: 'IQC — Controlo de entrada de mercadorias'
       description: 'Cada partida de entrada de PVC, tecido e encaixes é controlada contra a especificação libertada. As partidas não conformes são bloqueadas e rejeitadas antes da libertação para a linha.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Descarregar os relatórios IQC (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
       alt: Controlo de entrada de mercadorias de tecido PVC e componentes SUP na fábrica
     - title: 'IPQC / FAI — Controlo de processo'
       description: 'O primeiro exemplar é verificado contra as baselines bloqueadas e cada turno mantém os controlos por amostragem na linha. A libertação FAI bloqueia as versões de gráficas, dimensões e BOM.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Descarregar os relatórios IPQC (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
       alt: Inspeção de processo e verificação do primeiro exemplar durante a produção SUP
     - title: 'Prova de inflagem & estanquicidade ao ar'
       description: '100% das pranchas acabadas — não apenas uma amostra — recebem uma manutenção de pressão de 24 horas a 18.0 PSI com exclusão automática para além de uma queda de 0,50 PSI. Uma evidência por câmara.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Descarregar os relatórios de estanquicidade ao ar (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
       alt: Prova de inflagem e estanquicidade ao ar de uma câmara de SUP insuflável
     - title: 'FQC — Controlo do produto final'
       description: 'As pranchas acabadas são medidas contra as tolerâncias do desenho e avaliadas visualmente sob lâmpadas de luz diurna D65 contra o golden sample libertado.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Descarregar os relatórios FQC (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
       alt: Controlo do produto final das pranchas SUP acabadas antes da embalagem
     - title: 'PSI — Inspeção pré-envio de embalagem'
       description: 'O kit embalado é verificado a 100% contra a BOM aprovada pelo cliente — leitura do código de barras (nota ≥ B), marcações da caixa e teste de queda ISTA-1A antes da carga.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Descarregar os relatórios PSI (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
       alt: Inspeção pré-envio a verificar o kit SUP embalado contra a BOM
     - title: 'Libertação para envio & rastreabilidade'
       description: 'A Qualidade liberta a partida apenas quando os seis gates anteriores estão fechados. Os números de série são atribuídos à partida e o dossier é entregue com o envio.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Descarregar os relatórios de libertação (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
       alt: Assinatura da libertação para envio e entrega do protocolo de rastreabilidade da partida
 cta:
   title: Vê as nossas ferramentas e máquinas

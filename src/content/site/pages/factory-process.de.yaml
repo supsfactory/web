@@ -62,45 +62,45 @@ evidence_gates:
   items:
     - title: 'PPM — Projektqualitätsplanung'
       description: 'Das Vorserienmeeting fixiert den Umfang, das Golden Sample und den Quality Inspection Plan, bevor die Linie startet. Ungeklärte Punkte blockieren die Produktionsfreigabe.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
       link_label: 'QIP herunterladen (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
       alt: Vorserienmeeting zur Prüfung des Golden Samples und des Qualitätsinspektionsplans für einen OEM-SUP-Auftrag
     - title: 'IQC — Wareneingangskontrolle'
       description: 'Jede eingehende Charge PVC, Gewebe und Beschläge wird gegen die freigegebene Spezifikation geprüft. Nichtkonforme Partien werden vor der Freigabe an die Linie gesperrt und zurückgewiesen.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'IQC-Berichte herunterladen (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
       alt: Wareneingangskontrolle von PVC-Gewebe und SUP-Komponenten in der Fabrik
     - title: 'IPQC / FAI — Prozesskontrolle'
       description: 'Das erste Muster wird gegen die gesperrten Baselines verifiziert, und jede Schicht hält Streifenkontrollen an der Linie. Die FAI-Freigabe versionssperrt Grafiken, Maße und BOM.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'IPQC-Berichte herunterladen (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
       alt: Prozessinspektion und Erstmusterprüfung während der SUP-Produktion
     - title: 'Aufblas- & Luftdichtheitsprüfung'
       description: '100 % der fertigen Boards — nicht nur eine Stichprobe — erhalten einen 24-stündigen Druckhalt bei 18.0 PSI mit automatischer Ausschleusung über einem Abfall von 0,50 PSI. Ein Nachweis pro Kammer.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Luftdichtheitsberichte herunterladen (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
       alt: Aufblas- und Luftdichtheitsprüfung einer aufblasbaren SUP-Kammer
     - title: 'FQC — Endproduktkontrolle'
       description: 'Fertige Boards werden gegen Zeichnungstoleranzen gemessen und unter D65-Tageslichtlampen optisch gegen das freigegebene Golden Sample bewertet.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'FQC-Berichte herunterladen (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
       alt: Endproduktkontrolle fertiger SUP-Boards vor dem Verpacken
     - title: 'PSI — Verpackungs- & Versandvorinspektion'
       description: 'Das verpackte Kit wird 100 % gegen die kundenfreigegebene BOM geprüft — Barcode-Scan (Note ≥ B), Kartonkennzeichnungen und ISTA-1A-Falltest vor dem Laden.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'PSI-Berichte herunterladen (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
       alt: Versandvorinspektion, die das verpackte SUP-Kit gegen die BOM prüft
     - title: 'Versandfreigabe & Rückverfolgbarkeit'
       description: 'Quality gibt die Charge erst frei, wenn alle sechs vorherigen Gates geschlossen sind. Seriennummern werden der Charge zugeordnet und das Dossier wird mit dem Versand übergeben.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Freigabeberichte herunterladen (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
       alt: Versandfreigabe-Unterzeichnung und Übergabe des Chargen-Rückverfolgbarkeitsprotokolls
 cta:
   title: Sehen Sie unsere Ausrüstung und Maschinen

@@ -14,7 +14,7 @@ hero:
   tagline: 'Lab 05'
   title: 'Prototype Workshop'
   subtitle: 'From CAD model to tested sample board — built, fitted, and proven'
-  image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
   image_alt: 'Vatrad prototype workshop SUP board fabrication'
 
 intro: 'A CAD model, no matter how detailed, cannot reveal how a board will actually feel until it is inflated, stood on, and paddled. That is why our Prototype Workshop is designed to translate engineering data into a physical, rideable board as quickly and accurately as possible. Every new {SITE.name} model — and every significant custom build — passes through this workshop before the production tooling is committed.'

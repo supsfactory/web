@@ -1,6 +1,6 @@
 meta:
   title: 'Proof Center — het bewijs achter elke productieclaim'
-  description: 'Verzameling van het bewijs achter de claims van SUPsfactory: bedrijfsrelaties, certificaten met toepassingsgebied, apparatuurlijst, partijtraceerbaarheid en inspectiedocumentatie.'
+  description: 'Verzameling van het bewijs achter de claims van iSupfactory: bedrijfsrelaties, certificaten met toepassingsgebied, apparatuurlijst, partijtraceerbaarheid en inspectiedocumentatie.'
   dateModified: '2026-08-16'
   keywords:
     - 'fabrieksbewijs SUP'
@@ -19,7 +19,7 @@ hero:
 
 answer:
   label: 'Kort antwoord'
-  text: 'De keten van claim naar bewijs werkt zo: elke claim op deze site is gebaseerd op een registratie, een certificaat, een machine, een document of een testprotocol — en elk van die kan worden ingezien. SUPsfactory is de productontwikkelings- en SUP-productiedivisie van de Qingdao Vatrad Group Co., Ltd. (geregistreerd in Qingdao sinds 2012). De fabriek van 12,500 m² beschikt over kwaliteitsbeheer volgens ISO-9001:2015, conformiteit met ISO-25649, CE-conformiteitsdocumentatie, sociale conformiteit BSCI (auditrapport op aanvraag) en REACH/RoHS-materiaaldocumentatie voor elke bestelling. Elke opblaasbare kamer wordt 24 uur getest op 18,0 PSI met automatische afkeur boven 0,50 PSI drukval, en partijregistraties worden bewaard met 10 jaar ERP-traceerbaarheid. De papieren sporen zijn gepubliceerd of deelbaar, en de fabriek zelf staat open voor audits.'
+  text: 'De keten van claim naar bewijs werkt zo: elke claim op deze site is gebaseerd op een registratie, een certificaat, een machine, een document of een testprotocol — en elk van die kan worden ingezien. iSupfactory is de productontwikkelings- en SUP-productiedivisie van de Qingdao Vatrad Group Co., Ltd. (geregistreerd in Qingdao sinds 2012). De fabriek van 12,500 m² beschikt over kwaliteitsbeheer volgens ISO-9001:2015, conformiteit met ISO-25649, CE-conformiteitsdocumentatie, sociale conformiteit BSCI (auditrapport op aanvraag) en REACH/RoHS-materiaaldocumentatie voor elke bestelling. Elke opblaasbare kamer wordt 24 uur getest op 18,0 PSI met automatische afkeur boven 0,50 PSI drukval, en partijregistraties worden bewaard met 10 jaar ERP-traceerbaarheid. De papieren sporen zijn gepubliceerd of deelbaar, en de fabriek zelf staat open voor audits.'
   verified: 'September 2026'
 
 entities:
@@ -29,9 +29,9 @@ entities:
   features:
     - icon: S
       icon_bg: blue
-      title: 'SUPsfactory — de openbare website'
+      title: 'iSupfactory — de openbare website'
       desc: 'De OEM/ODM- en private label SUP-productlijn met zijn openbare documentatie: catalogus, MOQ-gids, kwaliteitssysteempagina''s en case studies. De naam waarmee je handelt, is de naam die je verifieert.'
-      link: '/nl/about/supsfactory-entity'
+      link: '/nl/about/isupfactory-entity'
       link_label: 'Entiteitpagina op de site'
     - icon: A
       icon_bg: green
@@ -147,7 +147,7 @@ faqs:
     - q: 'Is deze pagina alleen voor verificatie en vervangt hij de due diligence niet?'
       a: 'Klopt — deze pagina toont waar elke claim kan worden geverifieerd: entiteitsregistratie, certificaten, machines, registraties en een fabriek die openstaat voor audits. Je gebruikelijke due diligence-stappen (registratiecontrole, audit, inspectie door derden) blijven geldig en zijn welkom.'
     - q: 'Welke entiteit moet op mijn orderdocumentatie verschijnen?'
-      a: 'Bestellingen worden afgesloten met de Qingdao Vatrad Group Co., Ltd., die opereert als Vatrad (productiedivisie), met SUPsfactory als SUP-productlijn. Contractdocumenten worden ondertekend door de VP Sales, de hoofdingenieur en de QA-directeur.'
+      a: 'Bestellingen worden afgesloten met de Qingdao Vatrad Group Co., Ltd., die opereert als Vatrad (productiedivisie), met iSupfactory als SUP-productlijn. Contractdocumenten worden ondertekend door de VP Sales, de hoofdingenieur en de QA-directeur.'
     - q: 'Kan ik vóór de bestelling kopieën van de certificaten ontvangen?'
       a: 'Ja — certificaatnummers en auditeocumenten worden verstrekt op aanvraag of tijdens een audit. De lijst is gepubliceerd, nooit "alleen op aanvraag beschikbaar".'
     - q: 'Hoe kan ik zelf de testprotocollen van partijen verifiëren?'

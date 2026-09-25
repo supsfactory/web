@@ -1,5 +1,5 @@
 meta:
-  title: 'Inicia o teu projeto SUP — Do briefing às pranchas entregues | SUPsfactory'
+  title: 'Inicia o teu projeto SUP — Do briefing às pranchas entregues | iSupfactory'
   description: 'Inicia o teu projeto SUP personalizado: envia o briefing, obtém a proteção NDA, recebe as amostras em 7–12 dias, aprova-as e escala a produção. Passo a passo com tempos definidos.'
   dateModified: '2026-08-20'
   keywords:
@@ -50,7 +50,7 @@ process_steps:
 
 collaboration_types:
   tagline: Escolhe o teu caminho
-  title: 'Três formas de colaborar com a SUPsfactory'
+  title: 'Três formas de colaborar com a iSupfactory'
   subtitle: 'Cada projeto segue o mesmo processo — o que muda é o âmbito de engenharia e a propriedade da PI.'
   grid: 'sm:grid-cols-2 lg:grid-cols-3'
   features:

@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Kort antwoord'
-  text: 'SUPsfactory is een SUP-ODM-fabrikant in Qingdao, China. De ODM-ontwikkeling begint bij jouw briefing, niet bij jouw tekeningen: het rompontwerp (lengte, breedte, rocker, volume), de materiaalstructuur en de graphics worden intern ontworpen, gevalideerd met prototypesamples in 7–12 dagen en geproduceerd in standaardhoeveelheden van 90–100 eenheden per rol van 150 m (piloot van 20–50 eenheden). De productie duurt 25–35 dagen na orderbevestiging en aanbetaling; de matrijzenbouw voor aangepaste vormen voegt 15–20 dagen toe. De documentatie voor CE, ISO-9001, BSCI, REACH en RoHS wordt bij elke bestelling geleverd.'
+  text: 'iSupfactory is een SUP-ODM-fabrikant in Qingdao, China. De ODM-ontwikkeling begint bij jouw briefing, niet bij jouw tekeningen: het rompontwerp (lengte, breedte, rocker, volume), de materiaalstructuur en de graphics worden intern ontworpen, gevalideerd met prototypesamples in 7–12 dagen en geproduceerd in standaardhoeveelheden van 90–100 eenheden per rol van 150 m (piloot van 20–50 eenheden). De productie duurt 25–35 dagen na orderbevestiging en aanbetaling; de matrijzenbouw voor aangepaste vormen voegt 15–20 dagen toe. De documentatie voor CE, ISO-9001, BSCI, REACH en RoHS wordt bij elke bestelling geleverd.'
   verified: 'September 2026'
 
 features:
@@ -126,7 +126,7 @@ process:
 geo:
   tagline: Met wie we werken
   title: ODM-partners in de hele SUP-sector
-  sentence: 'De ODM van SUPsfactory verbindt jouw briefing met dezelfde ingenieurs, designers en productieteams die planken voor deze soorten bedrijven op de markt hebben gebracht — dit zijn de bedrijven die we bedienen.'
+  sentence: 'De ODM van iSupfactory verbindt jouw briefing met dezelfde ingenieurs, designers en productieteams die planken voor deze soorten bedrijven op de markt hebben gebracht — dit zijn de bedrijven die we bedienen.'
   audiences:
     - 'SUP-merken'
     - 'Outdoor- en watersportbedrijven'

@@ -12,7 +12,7 @@ sections:
       verifiedDate: "September 2026"
       sourceType: "werksaufzeichnung"
     body: |
-      Der MOQ bei SUPsfactory ist nach Individualisierungsgrad gestaffelt, nicht eine
+      Der MOQ bei iSupfactory ist nach Individualisierungsgrad gestaffelt, nicht eine
       einzige flache Zahl. Jede Stufe entspricht einem konkreten Produktionsszenario:
 
       | Szenario | MOQ | Einheit | Bedingung |

@@ -1,5 +1,5 @@
 /**
- * Uploads site media to R2 under `site/*` (CDN: https://assets.supsfactory.com/site/*).
+ * Uploads site media to R2 under `site/*` (CDN: https://assets.isupfactory.com/site/*).
  *
  * Mirrors the layout the files used to have under public/, minus the now-migrated
  * public/ prefix, so every URL stays predictable:
@@ -11,7 +11,7 @@
  *
  * The files are intentionally NOT committed to Git anymore (see .gitignore);
  * this script is the only way they reach production. Content that references
- * them uses hardcoded CDN links (https://assets.supsfactory.com/site/...).
+ * them uses hardcoded CDN links (https://assets.isupfactory.com/site/...).
  *
  * Zero dependencies (SigV4 signing via node:crypto + fetch).
  *
@@ -51,7 +51,7 @@ const PREFIX = flagValue('prefix', '') // 自定义 R2 key 前缀，如 'site/vi
 const CACHE_CONTROL = flagValue('cache', 'public, max-age=31536000, immutable')
 const CONCURRENCY = 8
 
-const BUCKET = process.env.R2_BUCKET ?? `${process.env.SITE_ID ?? 'supsfactory'}-files-prod`
+const BUCKET = process.env.R2_BUCKET ?? `${process.env.SITE_ID ?? 'isupfactory'}-files-prod`
 const ACCOUNT_ID = process.env[HTTP_MODE ? 'CLOUDFLARE_ACCOUNT_ID' : 'R2_ACCOUNT_ID'] ?? ''
 const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN ?? ''
 const ACCESS_KEY = process.env.R2_ACCESS_KEY_ID ?? ''

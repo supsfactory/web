@@ -31,7 +31,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'all-around',
       navLabel: 'All-Around Platforms',
-      metaTitle: 'Custom All-Around SUP Boards — Inflatable OEM Manufacturer | SUPsfactory',
+      metaTitle: 'Custom All-Around SUP Boards — Inflatable OEM Manufacturer | iSupfactory',
       metaDescription:
         'Custom all-around inflatable SUP boards manufactured under your brand — wide-body stability, OEM/ODM volume from 90–100+ pcs, samples in 7–12 days. Factory direct from Qingdao, China.',
       kicker: 'Series · All-Around',
@@ -62,7 +62,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'race',
       navLabel: 'Race Platforms',
-      metaTitle: 'Custom Race SUP Boards — Inflatable Racing Platforms OEM | SUPsfactory',
+      metaTitle: 'Custom Race SUP Boards — Inflatable Racing Platforms OEM | iSupfactory',
       metaDescription:
         'Custom inflatable race SUP boards for clubs, events and brands — drop-stitch racing hulls, OEM volume from 90–100+ pcs, CE-certified production. Factory direct.',
       kicker: 'Series · Race',
@@ -89,7 +89,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'surf',
       navLabel: 'Surf Platforms',
-      metaTitle: 'Custom Surf SUP Boards — Inflatable Hybrid Surf Platforms OEM | SUPsfactory',
+      metaTitle: 'Custom Surf SUP Boards — Inflatable Hybrid Surf Platforms OEM | iSupfactory',
       metaDescription:
         'Custom inflatable surf SUP boards — hybrid surf profiles with rounded rails and raised rocker, manufactured under your brand from 90–100+ pcs in Qingdao, China.',
       kicker: 'Series · Surf',
@@ -116,7 +116,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'touring',
       navLabel: 'Touring Platforms',
-      metaTitle: 'Custom Touring SUP Boards — Long-Distance Platforms OEM | SUPsfactory',
+      metaTitle: 'Custom Touring SUP Boards — Long-Distance Platforms OEM | iSupfactory',
       metaDescription:
         'Custom inflatable touring SUP boards for long-distance paddling — 12′6″+ displacement hulls, multi-day trip capability, OEM volume from 90–100+ pcs, factory direct.',
       kicker: 'Series · Touring',
@@ -143,7 +143,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'yoga',
       navLabel: 'Yoga Platforms',
-      metaTitle: 'Custom Yoga SUP Boards — Wide Stable Platforms OEM | SUPsfactory',
+      metaTitle: 'Custom Yoga SUP Boards — Wide Stable Platforms OEM | iSupfactory',
       metaDescription:
         'Custom inflatable yoga SUP boards — extra-wide stable platforms with soft decks for studios, resorts and instructors. OEM volume from 90–100+ pcs, factory direct.',
       kicker: 'Series · Yoga',
@@ -170,7 +170,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'whitewater',
       navLabel: 'Whitewater Platforms',
-      metaTitle: 'Custom Whitewater SUP Boards — River & Rapid Platforms OEM | SUPsfactory',
+      metaTitle: 'Custom Whitewater SUP Boards — River & Rapid Platforms OEM | iSupfactory',
       metaDescription:
         'Custom inflatable whitewater SUP boards for rivers and rapids — short maneuverable hulls with reinforced impact construction. OEM volume from 90–100+ pcs in Qingdao, China.',
       kicker: 'Series · Whitewater',
@@ -197,7 +197,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'fishing',
       navLabel: 'Fishing Platforms',
-      metaTitle: 'Custom Fishing SUP Boards — OEM & Private Label | SUPsfactory',
+      metaTitle: 'Custom Fishing SUP Boards — OEM & Private Label | iSupfactory',
       metaDescription:
         'Custom inflatable fishing SUP boards with stability, weight capacity and accessory mounts — OEM/private label volume from 90–100+ pcs, factory-direct from Qingdao, China.',
       kicker: 'Series · Fishing',
@@ -224,7 +224,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'kids',
       navLabel: 'Kids Platforms',
-      metaTitle: 'Custom Kids SUP Boards — Small Light Platforms OEM | SUPsfactory',
+      metaTitle: 'Custom Kids SUP Boards — Small Light Platforms OEM | iSupfactory',
       metaDescription:
         'Custom kids inflatable SUP boards — shorter, lighter platforms with child-friendly decks designed for safety and fun. OEM volume from 90–100+ pcs, factory direct.',
       kicker: 'Series · Kids',
@@ -251,7 +251,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'multi',
       navLabel: 'Multi-Person Platforms',
-      metaTitle: 'Custom Multi-Person SUP Boards — Tandem & Family OEM | SUPsfactory',
+      metaTitle: 'Custom Multi-Person SUP Boards — Tandem & Family OEM | iSupfactory',
       metaDescription:
         'Custom multi-person inflatable SUP boards for family recreation and group lessons — tandem, yard and party platforms. OEM volume from 90–100+ pcs, factory direct.',
       kicker: 'Series · Multi-Person',
@@ -280,7 +280,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'all-around',
       navLabel: 'Plataformas polivalentes',
-      metaTitle: 'Tablas SUP polivalentes personalizadas — Fabricante OEM inflable | SUPsfactory',
+      metaTitle: 'Tablas SUP polivalentes personalizadas — Fabricante OEM inflable | iSupfactory',
       metaDescription:
         'Tablas SUP hinchables polivalentes personalizadas bajo tu marca: estabilidad de tabla ancha, OEM/ODM en volumen desde 90–100+ uds., muestras en 7–12 días. Directo de fábrica en Qingdao, China.',
       kicker: 'Serie · Polivalente',
@@ -311,7 +311,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'race',
       navLabel: 'Plataformas de competición',
-      metaTitle: 'Tablas SUP de competición personalizadas — Plataformas de carrera OEM | SUPsfactory',
+      metaTitle: 'Tablas SUP de competición personalizadas — Plataformas de carrera OEM | iSupfactory',
       metaDescription:
         'Tablas SUP hinchables de competición personalizadas para clubs, eventos y marcas — cascos de carrera drop-stitch, OEM en volumen desde 90–100+ uds., producción certificada CE. Directo de fábrica.',
       kicker: 'Serie · Competición',
@@ -338,7 +338,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'surf',
       navLabel: 'Plataformas de surf',
-      metaTitle: 'Tablas SUP de surf personalizadas — Plataformas híbridas inflables OEM | SUPsfactory',
+      metaTitle: 'Tablas SUP de surf personalizadas — Plataformas híbridas inflables OEM | iSupfactory',
       metaDescription:
         'Tablas SUP hinchables de surf personalizadas — perfiles de surf híbridos con rails redondeados y rocker elevado, fabricadas bajo tu marca desde 90–100+ uds. en Qingdao, China.',
       kicker: 'Serie · Surf',
@@ -365,7 +365,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'touring',
       navLabel: 'Plataformas de travesía',
-      metaTitle: 'Tablas SUP de travesía personalizadas — Plataformas de larga distancia OEM | SUPsfactory',
+      metaTitle: 'Tablas SUP de travesía personalizadas — Plataformas de larga distancia OEM | iSupfactory',
       metaDescription:
         'Tablas SUP hinchables de travesía personalizadas para pagayadas de larga distancia — cascos de desplazamiento de 12\'6"+, capacidad para equipo, OEM en volumen desde 90–100+ uds.',
       kicker: 'Serie · Travesía',
@@ -392,7 +392,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'yoga',
       navLabel: 'Plataformas de yoga',
-      metaTitle: 'Tablas SUP de yoga personalizadas — Plataformas anchas y estables OEM | SUPsfactory',
+      metaTitle: 'Tablas SUP de yoga personalizadas — Plataformas anchas y estables OEM | iSupfactory',
       metaDescription:
         'Tablas SUP hinchables de yoga personalizadas — plataformas extra anchas con cubiertas blandas para estudios, resorts e instructores. OEM en volumen desde 90–100+ uds.',
       kicker: 'Serie · Yoga',
@@ -419,7 +419,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'whitewater',
       navLabel: 'Plataformas de aguas bravas',
-      metaTitle: 'Tablas SUP de aguas bravas personalizadas — Plataformas de río OEM | SUPsfactory',
+      metaTitle: 'Tablas SUP de aguas bravas personalizadas — Plataformas de río OEM | iSupfactory',
       metaDescription:
         'Tablas SUP hinchables de aguas bravas personalizadas para ríos y rápidos — cascos cortos y maniobrables con construcción de impacto reforzada. OEM en volumen desde 90–100+ uds.',
       kicker: 'Serie · Aguas bravas',
@@ -446,7 +446,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'fishing',
       navLabel: 'Plataformas de pesca',
-      metaTitle: 'Tablas SUP de pesca personalizadas — OEM y marca privada | SUPsfactory',
+      metaTitle: 'Tablas SUP de pesca personalizadas — OEM y marca privada | iSupfactory',
       metaDescription:
         'Tablas SUP hinchables de pesca personalizadas con estabilidad, capacidad de carga y soportes — OEM/marca privada en volumen desde 90–100+ uds., directo de fábrica en Qingdao, China.',
       kicker: 'Serie · Pesca',
@@ -473,7 +473,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'kids',
       navLabel: 'Plataformas infantiles',
-      metaTitle: 'Tablas SUP infantiles personalizadas — Plataformas pequeñas y ligeras OEM | SUPsfactory',
+      metaTitle: 'Tablas SUP infantiles personalizadas — Plataformas pequeñas y ligeras OEM | iSupfactory',
       metaDescription:
         'Tablas SUP hinchables infantiles personalizadas — cascos más cortos y ligeros con cubiertas pensadas para niños, seguridad y diversión. OEM en volumen desde 90–100+ uds.',
       kicker: 'Serie · Infantil',
@@ -500,7 +500,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'multi',
       navLabel: 'Plataformas multipersona',
-      metaTitle: 'Tablas SUP multipersona personalizadas — Tándem y familia OEM | SUPsfactory',
+      metaTitle: 'Tablas SUP multipersona personalizadas — Tándem y familia OEM | iSupfactory',
       metaDescription:
         'Tablas SUP hinchables multipersona personalizadas para recreo familiar y clases en grupo — plataformas tándem, yard y party. OEM en volumen desde 90–100+ uds.',
       kicker: 'Serie · Multipersona',
@@ -529,7 +529,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'all-around',
       navLabel: 'Plateformes polyvalentes',
-      metaTitle: 'Tableaux SUP polyvalents personnalisés — Fabricant OEM gonflable | SUPsfactory',
+      metaTitle: 'Tableaux SUP polyvalents personnalisés — Fabricant OEM gonflable | iSupfactory',
       metaDescription:
         'Tableaux SUP gonflables polyvalents personnalisés sous votre marque — stabilité large, OEM/ODM en volume dès 90–100+ pcs, échantillons en 7–12 jours. Usine directe de Qingdao, Chine.',
       kicker: 'Série · Polyvalent',
@@ -560,7 +560,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'race',
       navLabel: 'Plateformes de course',
-      metaTitle: 'Tableaux SUP de course personnalisés — Plateformes de racing OEM | SUPsfactory',
+      metaTitle: 'Tableaux SUP de course personnalisés — Plateformes de racing OEM | iSupfactory',
       metaDescription:
         'Tableaux SUP gonflables de course personnalisés pour clubs, événements et marques — coques de racing drop-stitch, OEM en volume dès 90–100+ pcs, production certifiée CE. Usine directe.',
       kicker: 'Série · Course',
@@ -587,7 +587,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'surf',
       navLabel: 'Plateformes de surf',
-      metaTitle: 'Tableaux SUP de surf personnalisés — Plateformes hybrides gonflables OEM | SUPsfactory',
+      metaTitle: 'Tableaux SUP de surf personnalisés — Plateformes hybrides gonflables OEM | iSupfactory',
       metaDescription:
         'Tableaux SUP gonflables de surf personnalisés — profils hybrides avec rails arrondis et rocker relevé, fabriqués sous votre marque dès 90–100+ pcs à Qingdao, Chine.',
       kicker: 'Série · Surf',
@@ -614,7 +614,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'touring',
       navLabel: 'Plateformes de randonnée',
-      metaTitle: 'Tableaux SUP de randonnée personnalisés — Plateformes longue distance OEM | SUPsfactory',
+      metaTitle: 'Tableaux SUP de randonnée personnalisés — Plateformes longue distance OEM | iSupfactory',
       metaDescription:
         'Tableaux SUP gonflables de randonnée pour pagayage longue distance — coques de déplacement 12′6″+, capacité multi-jours, OEM en volume dès 90–100+ pcs, usine directe.',
       kicker: 'Série · Randonnée',
@@ -641,7 +641,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'yoga',
       navLabel: 'Plateformes de yoga',
-      metaTitle: 'Tableaux SUP de yoga personnalisés — Plateformes larges et stables OEM | SUPsfactory',
+      metaTitle: 'Tableaux SUP de yoga personnalisés — Plateformes larges et stables OEM | iSupfactory',
       metaDescription:
         'Tableaux SUP gonflables de yoga personnalisés — plateformes extra larges avec ponts moelleux pour studios, resorts et instructeurs. OEM en volume dès 90–100+ pcs, usine directe.',
       kicker: 'Série · Yoga',
@@ -668,7 +668,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'whitewater',
       navLabel: 'Plateformes de eaux vives',
-      metaTitle: 'Tableaux SUP de eaux vives personnalisés — Plateformes de rivière OEM | SUPsfactory',
+      metaTitle: 'Tableaux SUP de eaux vives personnalisés — Plateformes de rivière OEM | iSupfactory',
       metaDescription:
         'Tableaux SUP gonflables de eaux vives pour rivières et rapides — coques courtes et maniables avec construction de choc renforcée. OEM en volume dès 90–100+ pcs, usine directe de Qingdao, Chine.',
       kicker: 'Série · Eaux vives',
@@ -695,7 +695,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'fishing',
       navLabel: 'Plateformes de pêche',
-      metaTitle: 'Tableaux SUP de pêche personnalisés — OEM et marque privée | SUPsfactory',
+      metaTitle: 'Tableaux SUP de pêche personnalisés — OEM et marque privée | iSupfactory',
       metaDescription:
         'Tableaux SUP gonflables de pêche personnalisés avec stabilité, capacité de charge et supports d\'accessoires — OEM/marque privée en volume dès 90–100+ pcs, usine directe de Qingdao, Chine.',
       kicker: 'Série · Pêche',
@@ -722,7 +722,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'kids',
       navLabel: 'Plateformes enfants',
-      metaTitle: 'Tableaux SUP enfants personnalisés — Plateformes légères et compactes OEM | SUPsfactory',
+      metaTitle: 'Tableaux SUP enfants personnalisés — Plateformes légères et compactes OEM | iSupfactory',
       metaDescription:
         'Tableaux SUP gonflables enfants personnalisés — plateformes plus courtes et plus légères avec ponts adaptés aux enfants, conçus pour la sécurité et le plaisir. OEM en volume dès 90–100+ pcs, usine directe.',
       kicker: 'Série · Enfants',
@@ -749,7 +749,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'multi',
       navLabel: 'Plateformes multiplièges',
-      metaTitle: 'Tableaux SUP multiplièges personnalisés — Tandem et famille OEM | SUPsfactory',
+      metaTitle: 'Tableaux SUP multiplièges personnalisés — Tandem et famille OEM | iSupfactory',
       metaDescription:
         'Tableaux SUP gonflables multiplièges pour loisirs familiaux et cours en groupe — plateformes tandem, yard et party. OEM en volume dès 90–100+ pcs, usine directe.',
       kicker: 'Série · Multiplièges',
@@ -778,7 +778,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'all-around',
       navLabel: 'Allround-Plattformen',
-      metaTitle: 'Maßgefertigte Allround-SUP-Boards — Aufblasbarer OEM-Hersteller | SUPsfactory',
+      metaTitle: 'Maßgefertigte Allround-SUP-Boards — Aufblasbarer OEM-Hersteller | iSupfactory',
       metaDescription:
         'Aufblasbare Allround-SUP-Boards in Ihrem Branding — breite, stabile Boards, OEM/ODM ab 90–100+ Stück, Muster in 7–12 Tagen. Direkt ab Werk aus Qingdao, China.',
       kicker: 'Serie · Allround',
@@ -809,7 +809,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'race',
       navLabel: 'Racing-Plattformen',
-      metaTitle: 'Maßgefertigte Race-SUP-Boards — Aufblasbare Racing-Plattformen OEM | SUPsfactory',
+      metaTitle: 'Maßgefertigte Race-SUP-Boards — Aufblasbare Racing-Plattformen OEM | iSupfactory',
       metaDescription:
         'Maßgefertigte aufblasbare Race-SUP-Boards für Clubs, Events und Marken — Drop-Stitch-Racing-Rümpfe, OEM ab 90–100+ Stück, CE-zertifizierte Produktion. Direkt ab Werk.',
       kicker: 'Serie · Race',
@@ -836,7 +836,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'surf',
       navLabel: 'Surf-Plattformen',
-      metaTitle: 'Maßgefertigte Surf-SUP-Boards — Hybride aufblasbare Surf-Plattformen OEM | SUPsfactory',
+      metaTitle: 'Maßgefertigte Surf-SUP-Boards — Hybride aufblasbare Surf-Plattformen OEM | iSupfactory',
       metaDescription:
         'Maßgefertigte aufblasbare Surf-SUP-Boards — hybride Surfprofile mit abgerundeten Rails und erhöhtem Rocker, unter Ihrer Marke ab 90–100+ Stück in Qingdao, China gefertigt.',
       kicker: 'Serie · Surf',
@@ -863,7 +863,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'touring',
       navLabel: 'Touring-Plattformen',
-      metaTitle: 'Maßgefertigte Touring-SUP-Boards — Langstrecken-Plattformen OEM | SUPsfactory',
+      metaTitle: 'Maßgefertigte Touring-SUP-Boards — Langstrecken-Plattformen OEM | iSupfactory',
       metaDescription:
         'Aufblasbare Touring-SUP-Boards für Langstrecken — Verdrängungsrümpfe ab 12′6″+, tauglich für Mehrtagestouren, OEM ab 90–100+ Stück, direkt ab Werk.',
       kicker: 'Serie · Touring',
@@ -890,7 +890,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'yoga',
       navLabel: 'Yoga-Plattformen',
-      metaTitle: 'Maßgefertigte Yoga-SUP-Boards — Breite stabile Plattformen OEM | SUPsfactory',
+      metaTitle: 'Maßgefertigte Yoga-SUP-Boards — Breite stabile Plattformen OEM | iSupfactory',
       metaDescription:
         'Maßgefertigte aufblasbare Yoga-SUP-Boards — extra breite, stabile Plattformen mit weichen Decks für Studios, Resorts und Instruktoren. OEM ab 90–100+ Stück, direkt ab Werk.',
       kicker: 'Serie · Yoga',
@@ -917,7 +917,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'whitewater',
       navLabel: 'Wildwasser-Plattformen',
-      metaTitle: 'Maßgefertigte Wildwasser-SUP-Boards — Fluss- und Schnellgewässer-Plattformen OEM | SUPsfactory',
+      metaTitle: 'Maßgefertigte Wildwasser-SUP-Boards — Fluss- und Schnellgewässer-Plattformen OEM | iSupfactory',
       metaDescription:
         'Maßgefertigte aufblasbare Wildwasser-SUP-Boards für Flüsse und Stromschnellen — kurze wendige Rümpfe mit verstärkter Stoßkonstruktion. OEM ab 90–100+ Stück in Qingdao, China.',
       kicker: 'Serie · Wildwasser',
@@ -944,7 +944,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'fishing',
       navLabel: 'Angel-Plattformen',
-      metaTitle: 'Maßgefertigte Angel-SUP-Boards — OEM und Private Label | SUPsfactory',
+      metaTitle: 'Maßgefertigte Angel-SUP-Boards — OEM und Private Label | iSupfactory',
       metaDescription:
         'Maßgefertigte aufblasbare Angel-SUP-Boards mit Stabilität, Tragkraft und Zubehörhalterungen — OEM/Private Label ab 90–100+ Stück, direkt ab Werk aus Qingdao, China.',
       kicker: 'Serie · Angeln',
@@ -971,7 +971,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'kids',
       navLabel: 'Kinder-Plattformen',
-      metaTitle: 'Maßgefertigte Kinder-SUP-Boards — Kleine, leichte Plattformen OEM | SUPsfactory',
+      metaTitle: 'Maßgefertigte Kinder-SUP-Boards — Kleine, leichte Plattformen OEM | iSupfactory',
       metaDescription:
         'Maßgefertigte aufblasbare Kinder-SUP-Boards — kürzere, leichtere Plattformen mit kindgerechten Decks, ausgelegt für Sicherheit und Spaß. OEM ab 90–100+ Stück, direkt ab Werk.',
       kicker: 'Serie · Kinder',
@@ -998,7 +998,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'multi',
       navLabel: 'Mehrpersonen-Plattformen',
-      metaTitle: 'Maßgefertigte Mehrpersonen-SUP-Boards — Tandem & Familie OEM | SUPsfactory',
+      metaTitle: 'Maßgefertigte Mehrpersonen-SUP-Boards — Tandem & Familie OEM | iSupfactory',
       metaDescription:
         'Aufblasbare Mehrpersonen-SUP-Boards für Familien-Freizeit und Gruppenunterricht — Tandem-, Yard- und Party-Plattformen. OEM ab 90–100+ Stück, direkt ab Werk.',
       kicker: 'Serie · Mehrpersonen',
@@ -1027,7 +1027,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'all-around',
       navLabel: 'Piattaforme all-round',
-      metaTitle: 'Tavole SUP all-round personalizzate — Produttore OEM gonfiabile | SUPsfactory',
+      metaTitle: 'Tavole SUP all-round personalizzate — Produttore OEM gonfiabile | iSupfactory',
       metaDescription:
         'Tavole SUP gonfiabili all-round personalizzate con il vostro branding — tavole larghe e stabili, OEM/ODM da 90–100+ pz, campioni in 7–12 giorni. Direttamente dalla fabbrica di Qingdao, Cina.',
       kicker: 'Serie · All-round',
@@ -1058,7 +1058,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'race',
       navLabel: 'Piattaforme race',
-      metaTitle: 'Tavole SUP race personalizzate — Piattaforme racing gonfiabili OEM | SUPsfactory',
+      metaTitle: 'Tavole SUP race personalizzate — Piattaforme racing gonfiabili OEM | iSupfactory',
       metaDescription:
         'Tavole SUP race gonfiabili personalizzate per club, eventi e brand — scafi racing drop-stitch, OEM da 90–100+ pz, produzione certificata CE. Direttamente dalla fabbrica.',
       kicker: 'Serie · Race',
@@ -1085,7 +1085,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'surf',
       navLabel: 'Piattaforme surf',
-      metaTitle: 'Tavole SUP surf personalizzate — Piattaforme surf ibride gonfiabili OEM | SUPsfactory',
+      metaTitle: 'Tavole SUP surf personalizzate — Piattaforme surf ibride gonfiabili OEM | iSupfactory',
       metaDescription:
         'Tavole SUP surf gonfiabili personalizzate — profili surf ibridi con rail arrotondati e rocker elevato, prodotte con il vostro marchio da 90–100+ pz a Qingdao, Cina.',
       kicker: 'Serie · Surf',
@@ -1112,7 +1112,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'touring',
       navLabel: 'Piattaforme touring',
-      metaTitle: 'Tavole SUP touring personalizzate — Piattaforme per lunghe distanze OEM | SUPsfactory',
+      metaTitle: 'Tavole SUP touring personalizzate — Piattaforme per lunghe distanze OEM | iSupfactory',
       metaDescription:
         'Tavole SUP touring gonfiabili per lunghe distanze — scafi a dislocamento da 12′6″+, adatti a escursioni di più giorni, OEM da 90–100+ pz, direttamente dalla fabbrica.',
       kicker: 'Serie · Touring',
@@ -1139,7 +1139,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'yoga',
       navLabel: 'Piattaforme yoga',
-      metaTitle: 'Tavole SUP yoga personalizzate — Piattaforme larghe e stabili OEM | SUPsfactory',
+      metaTitle: 'Tavole SUP yoga personalizzate — Piattaforme larghe e stabili OEM | iSupfactory',
       metaDescription:
         'Tavole SUP yoga gonfiabili personalizzate — piattaforme extra larghe e stabili con deck morbidi per studi, resort e istruttori. OEM da 90–100+ pz, direttamente dalla fabbrica.',
       kicker: 'Serie · Yoga',
@@ -1166,7 +1166,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'whitewater',
       navLabel: 'Piattaforme whitewater',
-      metaTitle: 'Tavole SUP whitewater personalizzate — Piattaforme per fiumi e rapide OEM | SUPsfactory',
+      metaTitle: 'Tavole SUP whitewater personalizzate — Piattaforme per fiumi e rapide OEM | iSupfactory',
       metaDescription:
         'Tavole SUP whitewater gonfiabili personalizzate per fiumi e rapide — scafi corti e maneggevoli con costruzione rinforzata contro gli impatti. OEM da 90–100+ pz a Qingdao, Cina.',
       kicker: 'Serie · Whitewater',
@@ -1193,7 +1193,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'fishing',
       navLabel: 'Piattaforme fishing',
-      metaTitle: 'Tavole SUP fishing personalizzate — OEM e private label | SUPsfactory',
+      metaTitle: 'Tavole SUP fishing personalizzate — OEM e private label | iSupfactory',
       metaDescription:
         'Tavole SUP fishing gonfiabili personalizzate con stabilità, capacità di carico e supporti per accessori — OEM/private label da 90–100+ pz, direttamente dalla fabbrica di Qingdao, Cina.',
       kicker: 'Serie · Fishing',
@@ -1220,7 +1220,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'kids',
       navLabel: 'Piattaforme kids',
-      metaTitle: 'Tavole SUP kids personalizzate — Piattaforme piccole e leggere OEM | SUPsfactory',
+      metaTitle: 'Tavole SUP kids personalizzate — Piattaforme piccole e leggere OEM | iSupfactory',
       metaDescription:
         'Tavole SUP kids gonfiabili personalizzate — piattaforme più corte e leggere con deck adatti ai bambini, progettate per sicurezza e divertimento. OEM da 90–100+ pz, direttamente dalla fabbrica.',
       kicker: 'Serie · Kids',
@@ -1247,7 +1247,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'multi',
       navLabel: 'Piattaforme multi-posto',
-      metaTitle: 'Tavole SUP multi-posto personalizzate — Tandem e famiglia OEM | SUPsfactory',
+      metaTitle: 'Tavole SUP multi-posto personalizzate — Tandem e famiglia OEM | iSupfactory',
       metaDescription:
         'Tavole SUP multi-posto gonfiabili per il tempo libero in famiglia e le lezioni di gruppo — piattaforme tandem, yard e party. OEM da 90–100+ pz, direttamente dalla fabbrica.',
       kicker: 'Serie · Multi-posto',
@@ -1276,7 +1276,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'all-around',
       navLabel: 'Plataformas all-round',
-      metaTitle: 'Pranchas SUP all-round personalizadas — Fabricante OEM de insufláveis | SUPsfactory',
+      metaTitle: 'Pranchas SUP all-round personalizadas — Fabricante OEM de insufláveis | iSupfactory',
       metaDescription:
         'Pranchas SUP insufláveis all-round personalizadas com a tua marca — pranchas largas e estáveis, OEM/ODM desde 90–100+ peças, amostras em 7–12 dias. Diretamente da fábrica em Qingdao, China.',
       kicker: 'Série · All-round',
@@ -1307,7 +1307,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'race',
       navLabel: 'Plataformas race',
-      metaTitle: 'Pranchas SUP race personalizadas — Plataformas racing insufláveis OEM | SUPsfactory',
+      metaTitle: 'Pranchas SUP race personalizadas — Plataformas racing insufláveis OEM | iSupfactory',
       metaDescription:
         'Pranchas SUP race insufláveis personalizadas para clubes, eventos e marcas — cascos racing drop-stitch, OEM desde 90–100+ peças, produção certificada CE. Diretamente da fábrica.',
       kicker: 'Série · Race',
@@ -1334,7 +1334,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'surf',
       navLabel: 'Plataformas surf',
-      metaTitle: 'Pranchas SUP surf personalizadas — Plataformas surf híbridas insufláveis OEM | SUPsfactory',
+      metaTitle: 'Pranchas SUP surf personalizadas — Plataformas surf híbridas insufláveis OEM | iSupfactory',
       metaDescription:
         'Pranchas SUP surf insufláveis personalizadas — perfis surf híbridos com rails arredondados e rocker elevado, produzidas com a tua marca desde 90–100+ peças em Qingdao, China.',
       kicker: 'Série · Surf',
@@ -1361,7 +1361,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'touring',
       navLabel: 'Plataformas touring',
-      metaTitle: 'Pranchas SUP touring personalizadas — Plataformas de longa distância OEM | SUPsfactory',
+      metaTitle: 'Pranchas SUP touring personalizadas — Plataformas de longa distância OEM | iSupfactory',
       metaDescription:
         'Pranchas SUP touring insufláveis para longas distâncias — cascos de deslocamento desde 12′6″+, adequados a expedições de vários dias, OEM desde 90–100+ peças, diretamente da fábrica.',
       kicker: 'Série · Touring',
@@ -1388,7 +1388,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'yoga',
       navLabel: 'Plataformas yoga',
-      metaTitle: 'Pranchas SUP yoga personalizadas — Plataformas largas e estáveis OEM | SUPsfactory',
+      metaTitle: 'Pranchas SUP yoga personalizadas — Plataformas largas e estáveis OEM | iSupfactory',
       metaDescription:
         'Pranchas SUP yoga insufláveis personalizadas — plataformas extra largas e estáveis com decks macios para estúdios, resorts e instrutores. OEM desde 90–100+ peças, diretamente da fábrica.',
       kicker: 'Série · Yoga',
@@ -1415,7 +1415,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'whitewater',
       navLabel: 'Plataformas whitewater',
-      metaTitle: 'Pranchas SUP whitewater personalizadas — Plataformas para rios e corredeiras OEM | SUPsfactory',
+      metaTitle: 'Pranchas SUP whitewater personalizadas — Plataformas para rios e corredeiras OEM | iSupfactory',
       metaDescription:
         'Pranchas SUP whitewater insufláveis personalizadas para rios e corredeiras — cascos curtos e manobráveis com construção reforçada contra impactos. OEM desde 90–100+ peças em Qingdao, China.',
       kicker: 'Série · Whitewater',
@@ -1442,7 +1442,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'fishing',
       navLabel: 'Plataformas fishing',
-      metaTitle: 'Pranchas SUP fishing personalizadas — OEM e marca própria | SUPsfactory',
+      metaTitle: 'Pranchas SUP fishing personalizadas — OEM e marca própria | iSupfactory',
       metaDescription:
         'Pranchas SUP fishing insufláveis personalizadas com estabilidade, capacidade de carga e suportes para acessórios — OEM/marca própria desde 90–100+ peças, diretamente da fábrica em Qingdao, China.',
       kicker: 'Série · Fishing',
@@ -1469,7 +1469,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'kids',
       navLabel: 'Plataformas kids',
-      metaTitle: 'Pranchas SUP kids personalizadas — Plataformas pequenas e leves OEM | SUPsfactory',
+      metaTitle: 'Pranchas SUP kids personalizadas — Plataformas pequenas e leves OEM | iSupfactory',
       metaDescription:
         'Pranchas SUP kids insufláveis personalizadas — plataformas mais curtas e leves com decks adequados a crianças, concebidas para segurança e diversão. OEM desde 90–100+ peças, diretamente da fábrica.',
       kicker: 'Série · Kids',
@@ -1496,7 +1496,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'multi',
       navLabel: 'Plataformas multi-lugar',
-      metaTitle: 'Pranchas SUP multi-lugar personalizadas — Tandem e família OEM | SUPsfactory',
+      metaTitle: 'Pranchas SUP multi-lugar personalizadas — Tandem e família OEM | iSupfactory',
       metaDescription:
         'Pranchas SUP multi-lugar insufláveis para o lazer em família e as aulas de grupo — plataformas tandem, yard e party. OEM desde 90–100+ peças, diretamente da fábrica.',
       kicker: 'Série · Multi-lugar',
@@ -1525,7 +1525,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'all-around',
       navLabel: 'All-round platforms',
-      metaTitle: 'Op maat gemaakte all-round SUP-planken — OEM-fabrikant van opblaasbare SUPs | SUPsfactory',
+      metaTitle: 'Op maat gemaakte all-round SUP-planken — OEM-fabrikant van opblaasbare SUPs | iSupfactory',
       metaDescription:
         'Op maat gemaakte opblaasbare all-round SUP-planken onder jouw merk — brede en stabiele planken, OEM/ODM vanaf 90–100+ stuks, monsters in 7–12 dagen. Rechtstreeks uit de fabriek in Qingdao, China.',
       kicker: 'Serie · All-round',
@@ -1556,7 +1556,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'race',
       navLabel: 'Raceplatforms',
-      metaTitle: 'Op maat gemaakte race SUP-planken — Opblaasbare racing platforms OEM | SUPsfactory',
+      metaTitle: 'Op maat gemaakte race SUP-planken — Opblaasbare racing platforms OEM | iSupfactory',
       metaDescription:
         'Op maat gemaakte opblaasbare race SUP-planken voor clubs, evenementen en merken — drop-stitch race rompen, OEM vanaf 90–100+ stuks, CE-gecertificeerde productie. Rechtstreeks uit de fabriek.',
       kicker: 'Serie · Race',
@@ -1583,7 +1583,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'surf',
       navLabel: 'Surfplatforms',
-      metaTitle: 'Op maat gemaakte surf SUP-planken — Hybride opblaasbare surf platforms OEM | SUPsfactory',
+      metaTitle: 'Op maat gemaakte surf SUP-planken — Hybride opblaasbare surf platforms OEM | iSupfactory',
       metaDescription:
         'Op maat gemaakte opblaasbare surf SUP-planken — hybride surfprofielen met afgeronde rails en verhoogde rocker, geproduceerd onder jouw merk vanaf 90–100+ stuks in Qingdao, China.',
       kicker: 'Serie · Surf',
@@ -1610,7 +1610,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'touring',
       navLabel: 'Touringplatforms',
-      metaTitle: 'Op maat gemaakte touring SUP-planken — Langeafstandsplatforms OEM | SUPsfactory',
+      metaTitle: 'Op maat gemaakte touring SUP-planken — Langeafstandsplatforms OEM | iSupfactory',
       metaDescription:
         'Opblaasbare touring SUP-planken voor lange afstanden — displacement rompen vanaf 12′6″+, geschikt voor meerdaagse expedities, OEM vanaf 90–100+ stuks, rechtstreeks uit de fabriek.',
       kicker: 'Serie · Touring',
@@ -1637,7 +1637,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'yoga',
       navLabel: 'Yogaplatforms',
-      metaTitle: 'Op maat gemaakte yoga SUP-planken — Brede en stabiele platforms OEM | SUPsfactory',
+      metaTitle: 'Op maat gemaakte yoga SUP-planken — Brede en stabiele platforms OEM | iSupfactory',
       metaDescription:
         'Op maat gemaakte opblaasbare yoga SUP-planken — extra brede en stabiele platforms met zachte decks voor studio\'s, resorts en instructeurs. OEM vanaf 90–100+ stuks, rechtstreeks uit de fabriek.',
       kicker: 'Serie · Yoga',
@@ -1664,7 +1664,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'whitewater',
       navLabel: 'Whitewaterplatforms',
-      metaTitle: 'Op maat gemaakte whitewater SUP-planken — Platforms voor rivieren en stroomversnellingen OEM | SUPsfactory',
+      metaTitle: 'Op maat gemaakte whitewater SUP-planken — Platforms voor rivieren en stroomversnellingen OEM | iSupfactory',
       metaDescription:
         'Op maat gemaakte opblaasbare whitewater SUP-planken voor rivieren en stroomversnellingen — korte en wendbare rompen met impactbestendige constructie. OEM vanaf 90–100+ stuks in Qingdao, China.',
       kicker: 'Serie · Whitewater',
@@ -1691,7 +1691,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'fishing',
       navLabel: 'Fishingplatforms',
-      metaTitle: 'Op maat gemaakte fishing SUP-planken — OEM en privaat label | SUPsfactory',
+      metaTitle: 'Op maat gemaakte fishing SUP-planken — OEM en privaat label | iSupfactory',
       metaDescription:
         'Op maat gemaakte opblaasbare fishing SUP-planken met stabiliteit, laadvermogen en accessoirehouders — OEM/privaat label vanaf 90–100+ stuks, rechtstreeks uit de fabriek in Qingdao, China.',
       kicker: 'Serie · Fishing',
@@ -1718,7 +1718,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'kids',
       navLabel: 'Kidsplatforms',
-      metaTitle: 'Op maat gemaakte kids SUP-planken — Kleine en lichte platforms OEM | SUPsfactory',
+      metaTitle: 'Op maat gemaakte kids SUP-planken — Kleine en lichte platforms OEM | iSupfactory',
       metaDescription:
         'Op maat gemaakte opblaasbare kids SUP-planken — kortere en lichtere platforms met decks geschikt voor kinderen, ontworpen voor veiligheid en plezier. OEM vanaf 90–100+ stuks, rechtstreeks uit de fabriek.',
       kicker: 'Serie · Kids',
@@ -1745,7 +1745,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'multi',
       navLabel: 'Multi-persoonsplatforms',
-      metaTitle: 'Op maat gemaakte multi-persoons SUP-planken — Tandem en familie OEM | SUPsfactory',
+      metaTitle: 'Op maat gemaakte multi-persoons SUP-planken — Tandem en familie OEM | iSupfactory',
       metaDescription:
         'Opblaasbare multi-persoons SUP-planken voor familieplezier en groepslessen — tandem-, yard- en partyplatforms. OEM vanaf 90–100+ stuks, rechtstreeks uit de fabriek.',
       kicker: 'Serie · Multi-persoons',

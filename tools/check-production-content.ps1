@@ -9,12 +9,12 @@
 # INPUT MODES:
 #   A) Spec file (recommended - keeps expected text with accents in UTF-8):
 #     powershell -ExecutionPolicy Bypass -File tools/check-production-content.ps1 `
-#       -Spec tools/specs/production-check.example.json [-Base https://supsfactory.com]
+#       -Spec tools/specs/production-check.example.json [-Base https://isupfactory.com]
 #
 #   Spec JSON:
 #     { "checks": [ { "url": "/path/", "match": "expected substring",
 #                     "title": "optional expected <title> substring" } ] }
-#     Relative urls are resolved against -Base (default https://supsfactory.com).
+#     Relative urls are resolved against -Base (default https://isupfactory.com).
 #
 #   B) Inline pairs:
 #     powershell -ExecutionPolicy Bypass -File tools/check-production-content.ps1 `
@@ -34,7 +34,7 @@ param(
   [string]$Spec,
   [Parameter(ParameterSetName = "Inline")]
   [string[]]$Pairs,
-  [string]$Base = "https://supsfactory.com",
+  [string]$Base = "https://isupfactory.com",
   [switch]$IgnoreCase,
   [int]$TimeoutSec = 30
 )
@@ -71,7 +71,7 @@ foreach ($c in $checks) {
   $url = $c.Url
   if ($url -notmatch "^(https?://)") { $url = $Base.TrimEnd("/") + "/" + $url.TrimStart("/") }
   try {
-    $resp = Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec $TimeoutSec -UserAgent "Mozilla/5.0 (compatible; supsfactory-content-check/1.0)"
+    $resp = Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec $TimeoutSec -UserAgent "Mozilla/5.0 (compatible; isupfactory-content-check/1.0)"
     $ok = $resp.Content.Contains($c.Match)
     $titleOk = $true
     if ($c.Title) {

@@ -81,37 +81,37 @@ lab_evidence:
     - title: 'IQC — Wareneingangsberichte'
       description: 'Verifizierung von Gewebe, PVC-Rolle, Ventilen und Komponenten gegen die freigegebene Spezifikation.'
       icon: tabler:file-certificate
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'IQC-Berichte herunterladen (PDF)'
     - title: 'IPQC — In-Process- & Erstmusterberichte'
       description: 'Erstmuster- und In-Process-Inspektionsaufzeichnungen gegen die gesperrte Revision.'
       icon: tabler:file-check
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'IPQC-Berichte herunterladen (PDF)'
     - title: 'Luftdichtigkeit — Druck- & Leckaufzeichnungen'
       description: '100 % Naht-Leckerkennung, Ventilintegrität und 24-Stunden-Druckhalte-Verifizierung.'
       icon: tabler:waves
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Luftdichtheitsberichte herunterladen (PDF)'
     - title: 'FQC — Endberichte der Boards'
       description: 'Endprüfung gegen das freigegebene Muster — Maße, Optik und Finbox.'
       icon: tabler:shield-check
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'FQC-Berichte herunterladen (PDF)'
     - title: 'PSI — Verpackungs- & Versandvorinspektionsberichte'
       description: 'Kit-Vollständigkeit, Barcode-Note, Kartonkennzeichnungen und Sturzsicherungsaufzeichnungen.'
       icon: tabler:package
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'PSI-Berichte herunterladen (PDF)'
     - title: 'Versandfreigabe- & Rückverfolgbarkeitsdossier'
       description: 'Freigabeautorisierung und Chargenrückverfolgbarkeit, zugeordnet zu Spezifikation, Grafik und BOM.'
       icon: tabler:history
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Freigabeberichte herunterladen (PDF)'
     - title: 'Vollständiges Qualitätsdossier'
       description: 'Ein Paket, das das gesamte Dokumentationssystem abdeckt — QIP, Gate-Aufzeichnungen, Rückverfolgbarkeit und NCR-Kontrolle.'
       icon: tabler:books
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
       link_label: 'Dokumentationspaket herunterladen (PDF)'
 
 cta:

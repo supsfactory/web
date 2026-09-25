@@ -1,5 +1,5 @@
 meta:
-  title: 'OEM-Onboarding-Leitfaden — Schritt-für-Schritt vom Erstkontakt bis zur Produktion | SUPsfactory'
+  title: 'OEM-Onboarding-Leitfaden — Schritt-für-Schritt vom Erstkontakt bis zur Produktion | iSupfactory'
   description: 'OEM-Onboarding-Leitfaden: NDA, Machbarkeitsprüfung, Musterproduktion, Freigabe, Vorproduktionsplanung, Produktions-QC und Versand. Schritt für Schritt mit Zeitplänen.'
   dateModified: '2026-08-20'
   keywords:
@@ -14,7 +14,7 @@ meta:
 hero:
   tagline: 'OEM-Käufer-Onboarding'
   title: 'Ihre erste SUP-Bestellung, Schritt für Schritt'
-  subtitle: 'Vom ersten Kontakt bis zu den gelieferten Boards läuft der OEM-Onboarding-Prozess bei SUPsfactory über sieben definierte Tore — jedes mit klarem Zeitplan, dokumentiertem Ergebnis und einem Go/No-Go-Prüfpunkt. Keine Unklarheiten, keine versteckten Schritte, keine Überraschungen nach der Anzahlung.'
+  subtitle: 'Vom ersten Kontakt bis zu den gelieferten Boards läuft der OEM-Onboarding-Prozess bei iSupfactory über sieben definierte Tore — jedes mit klarem Zeitplan, dokumentiertem Ergebnis und einem Go/No-Go-Prüfpunkt. Keine Unklarheiten, keine versteckten Schritte, keine Überraschungen nach der Anzahlung.'
   actions:
     - variant: primary
       text: Ihr Projekt-Briefing starten
@@ -108,7 +108,7 @@ faqs:
     - q: 'Wie hoch ist die Mindestbestellung für einen ersten OEM-Lauf?'
       a: 'Der Einstieg ist gestaffelt: zuerst 1–2 Muster (verfügbar in 7–12 Tagen), dann eine Probe- oder Pilotbestellung von 20–50 Boards (Produktion in 25–35 Tagen), danach Standard-Mengenläufe von 90–100+ Boards pro freigegebener Konfiguration. Kleinserien-Co-Branding startet ab 5–10 Einheiten, wenn keine Entwicklungsstufe nötig ist. Musterkosten werden auf den Produktionsauftrag angerechnet.'
     - q: 'Wie wird der IP-Schutz während des Onboardings gehandhabt?'
-      a: 'Ihre Designs und Spezifikationen sind durch die vor dem Austausch proprietärer Informationen unterzeichnete NDA geschützt. Alle Artwork-, BOM-Daten und technischen Dateien werden in zugriffskontrollierten Systemen mit Audit-Trails gespeichert. Im OEM-Modus besitzen Sie das gesamte IP. Im ODM-Modus wird die adaptierte Plattform-IP wie vereinbart geteilt. Im Private-Label-Modus bleibt das IP bei SUPsfactory und Sie lizenzieren die Markenanwendung.'
+      a: 'Ihre Designs und Spezifikationen sind durch die vor dem Austausch proprietärer Informationen unterzeichnete NDA geschützt. Alle Artwork-, BOM-Daten und technischen Dateien werden in zugriffskontrollierten Systemen mit Audit-Trails gespeichert. Im OEM-Modus besitzen Sie das gesamte IP. Im ODM-Modus wird die adaptierte Plattform-IP wie vereinbart geteilt. Im Private-Label-Modus bleibt das IP bei iSupfactory und Sie lizenzieren die Markenanwendung.'
     - q: 'Welche Qualitätsgarantien gelten für eine erste Bestellung?'
       a: 'Jedes Board — Muster, Probe oder Menge — durchläuft dasselbe 7-stufige Prüf-Torsystem: Wareneingangsprüfung, Drop-stitch-Gewebeprüfung, Schweißen & Montage, 24-Stunden-Druck- und Dichtigkeitstest (18,0 PSI Halt, automatische Aussortierung über 0,50 PSI Abfall), EVA-Pad- & Zubehörmontage, Grafik- & Branding-QC sowie Endverpackung & Dokumentation. Bei kleineren Bestellungen wird die Qualität nie heruntergefahren.'
 

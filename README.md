@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>SUPsfactory</h1>
+  <h1>iSupfactory</h1>
   <p>Your custom SUP product development & manufacturing partner — 10 manufacturing platforms, real OEM/ODM, trilingual (en/es/fr) marketing site + 5-page solutions system, shipped edge-native on Cloudflare Workers.</p>
   <p>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
@@ -7,7 +7,7 @@
     <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white" alt="TypeScript"></a>
   </p>
   <p>
-    <em>Bright Ocean Studio × SUPsfactory Manufacturing (Qingdao Vatrad Group) — a complete custom SUP manufacturing platform built on the Vectoflare full-stack SaaS starter.</em>
+    <em>Bright Ocean Studio × iSupfactory Manufacturing (Qingdao Vatrad Group) — a complete custom SUP manufacturing platform built on the Vectoflare full-stack SaaS starter.</em>
   </p>
 </div>
 
@@ -125,7 +125,7 @@ wrangler kv namespace create CACHE
 
 #### 6. Update `wrangler.example.jsonc`
 
-Replace all `supsfactory` prefixes with your `SITE_ID`:
+Replace all `isupfactory` prefixes with your `SITE_ID`:
 - `name`: `myproduct`
 - `d1_databases[].database_name`: `myproduct-db` / `-staging` / `-prod`
 - `d1_databases[].database_id`: paste the IDs from step 5
@@ -224,24 +224,24 @@ src/product/
 
 ## 📖 Quick Site Structure Guide (AI & Humans)
 
-This guide maps the **major architectural layers** of SUPsfactory to their source files, so you can jump straight to the code that matters.
+This guide maps the **major architectural layers** of iSupfactory to their source files, so you can jump straight to the code that matters.
 
 | Architectural Layer | Core Concern | Primary File(s) | What It Controls |
 |---------------------|--------------|-----------------|------------------|
-| **Media & CDN** | Videos, PDFs, product/quality images | `public/assets/*` (git-ignored), `scripts/upload-site-assets.mjs` → R2 `supsfactory-files-prod`, CDN `assets.supsfactory.com/site/*` | All large binary assets; `.gitignore` prevents Git bloat; R2 key prefix controllable via `--prefix` |
+| **Media & CDN** | Videos, PDFs, product/quality images | `public/assets/*` (git-ignored), `scripts/upload-site-assets.mjs` → R2 `isupfactory-files-prod`, CDN `assets.isupfactory.com/site/*` | All large binary assets; `.gitignore` prevents Git bloat; R2 key prefix controllable via `--prefix` |
 | **Site Config (Framework Abstract)** | Business facts & hero content as config | `src/features/site/site-config.ts` → reads `SITE_FACTS` from `facts.ts`, `HERO_CONTENT` from `content.ts`; `siteConfig.facts / siteConfig.hero` only-read | Framework派生站点的可配置常量层；原有 `FACTS` / `hero` 导出完全不变 |
 | **Routing & i18n** | Path-based trilingual routing (`{-$locale}`) | `src/routes/{-$locale}/` (file-based), `src/features/i18n/dictionaries/{en,es,fr}.ts`, `src/features/seo/seo.ts` (`PUBLIC_PATHS`/`HREFLANG`/`OG_LOCALE`) | `/` = en, `/es` = es, `/fr` = fr; dictionaries must be structurally identical across languages |
 | **SEO & LLM Discovery** | Sitemap, robots, llms.txt, entity.json, RSS | `src/features/seo/seo.ts` (PUBLIC_PATHS, hreflang), `src/features/site/llm.ts`, `src/features/content/loader.ts` (`getGeoEntity`) | All LLM/SSEO endpoints generated from single source of truth |
 | **Auth & Admin** | better-auth, admin-only gates, roles | `src/features/auth/`, `src/features/admin/assert-admin.server.ts`, `ADMIN_EMAILS` env | Email/password auth, verification, password reset, OAuth; single source of admin truth |
 | **Data Stores** | D1, KV, R2 (+ Vectorize optional) | `src/db/`, `src/lib/cache-headers.ts`, `features/storage/`, `src/features/ai/` | SQLite auth + app tables; per-IP rate limits; blob storage; RAG index (optional) |
-| **AI Sales Assistant** | FAQ+corpus keyword search (free tier) / RAG Q&A (paid) | `src/features/ai/corpus.ts`, `src/features/ai/ai-chat.tsx`, Vectorize `supsfactory-knowledge` | **Deploys on Workers free tier** with keyword-based search (matchFaq + matchCorpus); upgrade to Workers Paid ($5/month) for AI-powered RAG (embeddings + LLM generation). Chat shows "FAQ" or "AI" badge per answer. |
+| **AI Sales Assistant** | FAQ+corpus keyword search (free tier) / RAG Q&A (paid) | `src/features/ai/corpus.ts`, `src/features/ai/ai-chat.tsx`, Vectorize `isupfactory-knowledge` | **Deploys on Workers free tier** with keyword-based search (matchFaq + matchCorpus); upgrade to Workers Paid ($5/month) for AI-powered RAG (embeddings + LLM generation). Chat shows "FAQ" or "AI" badge per answer. |
 | **Testing & CI** | 292 tests (46 files), typecheck, build | `pnpm test`, `pnpm typecheck`, `pnpm build`; CI: `ci.yml`, `deploy.yml` | Full regression test suite; type-safe build; deploy pipeline with CDN purge + edge warm |
 
 --- 
 
 **English**
 
-SUPsfactory is the production-ready web presence for an SUP (stand-up paddleboard) OEM/ODM manufacturer — the marketing site is positioned as a **custom SUP product development & manufacturing partner**, not a "launch your own brand" tool. It pairs a fully designed trilingual (en / es / fr) marketing site with the complete SaaS backend from [Vectoflare](https://github.com/vectoflare/vectoflare): auth, email, an admin console, and more — every feature a real implementation, no mocks or stubs, running on the Cloudflare free-to-cheap stack (Workers + D1 + KV + R2). The full manufacturer brand content (factory, technology, research, news, product pages) is ported in and served from the same Worker in en/es/fr under `/` (`/es` and `/fr` prefixed).
+iSupfactory is the production-ready web presence for an SUP (stand-up paddleboard) OEM/ODM manufacturer — the marketing site is positioned as a **custom SUP product development & manufacturing partner**, not a "launch your own brand" tool. It pairs a fully designed trilingual (en / es / fr) marketing site with the complete SaaS backend from [Vectoflare](https://github.com/vectoflare/vectoflare): auth, email, an admin console, and more — every feature a real implementation, no mocks or stubs, running on the Cloudflare free-to-cheap stack (Workers + D1 + KV + R2). The full manufacturer brand content (factory, technology, research, news, product pages) is ported in and served from the same Worker in en/es/fr under `/` (`/es` and `/fr` prefixed).
 
 ## The marketing site
 
@@ -261,7 +261,7 @@ Custom-built "Bright Ocean Studio" design language: Ocean White / Ocean Blue / A
 | **brand content** | The full ported manufacturer site (en/es/fr): `/factory/*`, `/technology/*`, `/research/*`, `/news/*`, `/products/*`, `/oem-odm-manufacturer`, `/guides`, `/faq` and more — served by a catch-all route from the bundled content |
 | **Gallery / How it works / About / Contact** | Brand stories with real project photos, manufacturing timeline, company story, inquiry form |
 
-**The 10 platform series** (data in `src/product/content.ts`, photos served from `assets.supsfactory.com`, the site's own R2 CDN):
+**The 10 platform series** (data in `src/product/content.ts`, photos served from `assets.isupfactory.com`, the site's own R2 CDN):
 
 | Series | SKU | Price | Position |
 |--------|-----|-------|----------|
@@ -489,7 +489,7 @@ wrangler deploy
 
 The **full first-time walkthrough** — creating D1/KV, setting secrets, and running remote migrations — is in [deploy](src/content/docs/getting-started/deploy.mdx).
 
-> R2 (object storage) is enabled by default in `wrangler.jsonc` and wired into the code (avatar upload reference). Before deploying, create the bucket: `wrangler r2 bucket create supsfactory-files` (see [storage](src/content/docs/features/storage.mdx)).
+> R2 (object storage) is enabled by default in `wrangler.jsonc` and wired into the code (avatar upload reference). Before deploying, create the bucket: `wrangler r2 bucket create isupfactory-files` (see [storage](src/content/docs/features/storage.mdx)).
 
 ## GitHub Actions & deployment configuration
 
@@ -510,9 +510,9 @@ The repo ships six workflows:
 
 | Variable | Required | How to get it |
 |----------|----------|---------------|
-| `CF_PROD_D1_ID` | Yes | Production D1 database id — Cloudflare Dashboard → Workers & Pages → D1 → open database `supsfactory-db-prod` → copy `Database ID`; or `wrangler d1 list` (needs the token's D1 read permission). The deploy **fails** without it |
+| `CF_PROD_D1_ID` | Yes | Production D1 database id — Cloudflare Dashboard → Workers & Pages → D1 → open database `isupfactory-db-prod` → copy `Database ID`; or `wrangler d1 list` (needs the token's D1 read permission). The deploy **fails** without it |
 | `CF_PROD_KV_ID` | Yes | Production KV namespace id — Dashboard → Workers & Pages → KV → open the namespace → copy the id (right side); or `wrangler kv namespace list` |
-| `CF_PROD_DOMAIN` | No | Custom domain, e.g. `supsfactory.com`. When set, the deploy binds it as a custom-domain route on the production Worker (also makes the CDN purge + warm steps meaningful) |
+| `CF_PROD_DOMAIN` | No | Custom domain, e.g. `isupfactory.com`. When set, the deploy binds it as a custom-domain route on the production Worker (also makes the CDN purge + warm steps meaningful) |
 
 **Secrets** (all 17 — set under Settings → Secrets and variables → Actions → New repository secret):
 
@@ -521,9 +521,9 @@ The repo ships six workflows:
 | `CLOUDFLARE_API_TOKEN` | See the **Cloudflare API token permissions** section below | The whole deploy job skips gracefully (no red ✗) |
 | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare Dashboard → right sidebar of the Workers overview → `Account ID` (32-hex). Also shown at the bottom of the API Tokens page | Deploy skipped |
 | `BETTER_AUTH_SECRET` | `openssl rand -base64 32` | **Required** — startup fails fast |
-| `BETTER_AUTH_URL` | Production URL, e.g. `https://supsfactory.com` (also drives canonical/sitemap origin) | **Required** |
+| `BETTER_AUTH_URL` | Production URL, e.g. `https://isupfactory.com` (also drives canonical/sitemap origin) | **Required** |
 | `RESEND_API_KEY` | [resend.com](https://resend.com) → API Keys → create a key | Emails captured to console |
-| `EMAIL_FROM` | e.g. `SUPsfactory <noreply@supsfactory.com>` — **verify your domain in Resend first** (Settings → Domains) | No sender |
+| `EMAIL_FROM` | e.g. `iSupfactory <noreply@isupfactory.com>` — **verify your domain in Resend first** (Settings → Domains) | No sender |
 | `RESEND_AUDIENCE_ID` | Resend → Audiences → select the audience → copy the id from the URL/API | Waitlist audience sync off (signups still saved to D1) |
 | `GOOGLE_CLIENT_ID` | [Google Cloud Console](https://console.cloud.google.com/apis/credentials) → OAuth 2.0 Client ID, callback `https://api.<domain>/api/auth/callback/google` | Google login button hidden |
 | `GOOGLE_CLIENT_SECRET` | Same OAuth client → Client secret | Google login hidden |
@@ -545,7 +545,7 @@ Notes:
 
 ### Cloudflare API token permissions (`CLOUDFLARE_API_TOKEN`)
 
-Create it at [dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens) → **Create Token** → **Create Custom Token**. Give it a name (e.g. `supsfactory-ci`), set the lifetime (≤ 1 year recommended), and tick **both** the Account resources and the Zone resources below. Then create the token **once** and copy it into the `CLOUDFLARE_API_TOKEN` GitHub secret — it is shown only a single time.
+Create it at [dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens) → **Create Token** → **Create Custom Token**. Give it a name (e.g. `isupfactory-ci`), set the lifetime (≤ 1 year recommended), and tick **both** the Account resources and the Zone resources below. Then create the token **once** and copy it into the `CLOUDFLARE_API_TOKEN` GitHub secret — it is shown only a single time.
 
 **Account resources:**
 
@@ -553,16 +553,16 @@ Create it at [dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.co
 |----------|-----------|---------------------------|----------|
 | Workers Scripts | Edit | `wrangler deploy` (the worker itself) | Yes |
 | Workers KV Storage | Edit | deploy binds the KV namespace; `wrangler kv namespace list` (variable lookup) | Yes |
-| D1 | Edit | `d1 migrations apply supsfactory-db-prod --env production --remote` before every deploy; `wrangler d1 list` | Yes |
+| D1 | Edit | `d1 migrations apply isupfactory-db-prod --env production --remote` before every deploy; `wrangler d1 list` | Yes |
 | R2 Storage | Edit | creates buckets + uploads brand images (`scripts/upload-brand-images.mjs`, used by deploy backfill and the manual upload workflow) | Yes |
-| Vectorize | Edit | idempotently creates the 3 knowledge indexes (`supsfactory-knowledge`, `-staging`, `-prod`) before deploy — deploy fails with code 10159 if the bound index is missing | Yes |
+| Vectorize | Edit | idempotently creates the 3 knowledge indexes (`isupfactory-knowledge`, `-staging`, `-prod`) before deploy — deploy fails with code 10159 if the bound index is missing | Yes |
 | Account Settings | Read | wrangler account/plan diagnostics | Recommended |
 
-**Zone resources** (scope to the zone `supsfactory.com`):
+**Zone resources** (scope to the zone `isupfactory.com`):
 
 | Resource | Permission | Why the pipeline needs it | Required |
 |----------|-----------|---------------------------|----------|
-| Zone | Read | `GET /zones?name=supsfactory.com` — resolves the zone id that the purge and R2-custom-domain steps target | Yes (with a custom domain) |
+| Zone | Read | `GET /zones?name=isupfactory.com` — resolves the zone id that the purge and R2-custom-domain steps target | Yes (with a custom domain) |
 | Cache Purge | Edit | `POST /zones/{id}/purge_cache` — the deploy pipeline purges the CDN after every release; without it stale HTML can linger up to an hour | Yes (with a custom domain) |
 | Workers Routes | Edit | binds `CF_PROD_DOMAIN` as a custom-domain route (only when `CF_PROD_DOMAIN` is set) | Only when using `CF_PROD_DOMAIN` |
 | DNS | Edit | only if you manage DNS via the API/wrangler | Optional |

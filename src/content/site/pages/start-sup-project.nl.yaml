@@ -1,5 +1,5 @@
 meta:
-  title: 'Start je SUP-project — Van briefing tot geleverde boards | SUPsfactory'
+  title: 'Start je SUP-project — Van briefing tot geleverde boards | iSupfactory'
   description: 'Start je aangepaste SUP-project: stuur de briefing in, krijg NDA-bescherming, ontvang monsters in 7–12 dagen, keur ze goed en schaal de productie op. Stap voor stap met heldere tijdlijnen.'
   dateModified: '2026-08-20'
   keywords:
@@ -50,7 +50,7 @@ process_steps:
 
 collaboration_types:
   tagline: Kies je weg
-  title: 'Drie manieren om met SUPsfactory samen te werken'
+  title: 'Drie manieren om met iSupfactory samen te werken'
   subtitle: 'Elk project volgt hetzelfde proces — wat verandert, is de engineeringomvang en het intellectueel eigendom (IP).'
   grid: 'sm:grid-cols-2 lg:grid-cols-3'
   features:

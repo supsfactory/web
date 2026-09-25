@@ -2,7 +2,7 @@ import React from 'react'
 
 const ICON_STYLE: React.CSSProperties = { width: 28, height: 28, background: 'var(--ocean-grad)', color: '#fff' }
 
-/** SUPsfactory wordmark — dual-wave mark on an ocean gradient + "SUP" (bold) + "sfactory" (62%). `compact` renders the mark only. */
+/** iSupfactory wordmark — dual-wave mark on an ocean gradient + "SUP" (bold) + "sfactory" (62%). `compact` renders the mark only. */
 function LogoInner({ size = 18, compact = false }: { size?: number; compact?: boolean }) {
   return (
     <span

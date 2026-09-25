@@ -1,5 +1,5 @@
 meta:
-  title: 'Guia de onboarding OEM — passo a passo do primeiro contacto à produção | SUPsfactory'
+  title: 'Guia de onboarding OEM — passo a passo do primeiro contacto à produção | iSupfactory'
   description: 'Guia de onboarding OEM: NDA, verificação de viabilidade, produção de amostras, aprovação, planeamento de pré-produção, QC de produção e envio. Passo a passo com os prazos.'
   dateModified: '2026-08-20'
   keywords:
@@ -14,7 +14,7 @@ meta:
 hero:
   tagline: 'Onboarding de comprador OEM'
   title: 'A tua primeira encomenda SUP, passo a passo'
-  subtitle: 'Do primeiro contacto às pranchas entregues, o processo de onboarding OEM na SUPsfactory passa por sete gates definidos — cada um com um prazo claro, um resultado documentado e um ponto de controlo go/no-go. Sem ambiguidade, sem passos escondidos, sem surpresas após o sinal.'
+  subtitle: 'Do primeiro contacto às pranchas entregues, o processo de onboarding OEM na iSupfactory passa por sete gates definidos — cada um com um prazo claro, um resultado documentado e um ponto de controlo go/no-go. Sem ambiguidade, sem passos escondidos, sem surpresas após o sinal.'
   actions:
     - variant: primary
       text: Inicia o briefing do teu projeto
@@ -108,7 +108,7 @@ faqs:
     - q: 'Qual é a quantidade mínima de encomenda para um primeiro ciclo OEM?'
       a: 'A entrada é escalonada: primeiro 1–2 amostras (disponíveis em 7–12 dias), depois uma encomenda de teste ou piloto de 20–50 pranchas (produção em 25–35 dias) e, em seguida, ciclos de quantidade padrão de 90–100+ pranchas por configuração aprovada. O co-branding em pequenos lotes parte das 5–10 unidades se não for necessária uma fase de desenvolvimento. Os custos das amostras são creditados na encomenda de produção.'
     - q: 'Como é gerida a proteção da PI durante o onboarding?'
-      a: 'Os teus designs e especificações são protegidos pela NDA assinada antes da troca de informações proprietárias. Todos os artworks, dados da BOM e ficheiros técnicos são conservados em sistemas de acesso controlado com auditoria. Em modalidade OEM és dono de toda a PI. Em modalidade ODM a PI da plataforma adaptada é partilhada conforme acordado. Em modalidade Private Label a PI pertence à SUPsfactory e obténs a licença da aplicação da marca.'
+      a: 'Os teus designs e especificações são protegidos pela NDA assinada antes da troca de informações proprietárias. Todos os artworks, dados da BOM e ficheiros técnicos são conservados em sistemas de acesso controlado com auditoria. Em modalidade OEM és dono de toda a PI. Em modalidade ODM a PI da plataforma adaptada é partilhada conforme acordado. Em modalidade Private Label a PI pertence à iSupfactory e obténs a licença da aplicação da marca.'
     - q: 'Que garantias de qualidade valem para uma primeira encomenda?'
       a: 'Cada prancha — amostra, prova ou quantidade — passa pelo mesmo sistema de 7 gates de inspeção: controlo à entrada, controlo do tecido drop-stitch, soldadura & montagem, teste de pressão e estanquicidade de 24 horas (retenção de 18,0 PSI, rejeição automática para além de 0,50 PSI), montagem do pad EVA & acessórios, QC de gráficas & branding, embalagem final & documentação. A qualidade nunca é reduzida para encomendas mais pequenas.'
     - q: 'Qual é o primeiro passo prático?'

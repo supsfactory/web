@@ -2,7 +2,7 @@ import type { Locale } from '@/features/i18n/locale'
 import { FACTS, MOQ_SHORT, COLLABORATION_MODES } from './facts'
 
 /**
- * Marketing content for the SUPsfactory site, localized en/es/fr/de/it.
+ * Marketing content for the iSupfactory site, localized en/es/fr/de/it.
  *
  * Content (headlines, body copy, products, FAQ, landings) lives here rather
  * than in the i18n dictionaries, which stay reserved for structural UI strings
@@ -584,8 +584,8 @@ export const why: Localized<WhyContent> = {
   en: {
     kicker: 'The Manufacturing Brand',
     title: 'Powered by Vatrad',
-    sub: 'SUPsfactory is the SUP product development and manufacturing division of Qingdao Vatrad Group Co., Ltd. Our 12,500 m² plant in Laixi, Qingdao has produced inflatable products since 2012, with 25+ engineers across R&D, mold design, materials lab and production engineering averaging 7+ years in inflatable manufacturing, running two production shifts daily.',
-    image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp',
+    sub: 'iSupfactory is the SUP product development and manufacturing division of Qingdao Vatrad Group Co., Ltd. Our 12,500 m² plant in Laixi, Qingdao has produced inflatable products since 2012, with 25+ engineers across R&D, mold design, materials lab and production engineering averaging 7+ years in inflatable manufacturing, running two production shifts daily.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
     imageCaption: 'Vatrad manufacturing facility, Qingdao, China',
     bullets: [
       {
@@ -609,8 +609,8 @@ export const why: Localized<WhyContent> = {
   es: {
     kicker: 'La marca de fabricación',
     title: 'Con el respaldo de Vatrad',
-    sub: 'SUPsfactory es la división de desarrollo y fabricación de productos SUP de Qingdao Vatrad Group Co., Ltd. Nuestra planta de 12.500 m² en Laixi, Qingdao produce productos inflables desde 2012, con más de 25 ingenieros entre I+D, diseño de moldes, laboratorio de materiales e ingeniería de producción, con una media de más de 7 años en fabricación de inflables y dos turnos de producción diarios.',
-    image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp',
+    sub: 'iSupfactory es la división de desarrollo y fabricación de productos SUP de Qingdao Vatrad Group Co., Ltd. Nuestra planta de 12.500 m² en Laixi, Qingdao produce productos inflables desde 2012, con más de 25 ingenieros entre I+D, diseño de moldes, laboratorio de materiales e ingeniería de producción, con una media de más de 7 años en fabricación de inflables y dos turnos de producción diarios.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
     imageCaption: 'Instalaciones de fabricación de Vatrad, Qingdao, China',
     bullets: [
       {
@@ -634,8 +634,8 @@ export const why: Localized<WhyContent> = {
   fr: {
     kicker: 'La marque de fabrication',
     title: 'Propulsé par Vatrad',
-    sub: 'SUPsfactory est la division développement produit et fabrication de SUP de Qingdao Vatrad Group Co., Ltd. Notre usine de 12 500 m² à Laixi, Qingdao produit des articles gonflables depuis 2012, avec plus de 25 ingénieurs répartis entre la R&D, la conception de moules, le laboratoire des matériaux et l’ingénierie de production, forts d’une moyenne de plus de 7 ans d’expérience dans la fabrication d’articles gonflables, et fonctionne sur deux postes de production quotidiens.',
-    image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp',
+    sub: 'iSupfactory est la division développement produit et fabrication de SUP de Qingdao Vatrad Group Co., Ltd. Notre usine de 12 500 m² à Laixi, Qingdao produit des articles gonflables depuis 2012, avec plus de 25 ingénieurs répartis entre la R&D, la conception de moules, le laboratoire des matériaux et l’ingénierie de production, forts d’une moyenne de plus de 7 ans d’expérience dans la fabrication d’articles gonflables, et fonctionne sur deux postes de production quotidiens.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
     imageCaption: 'Installations de fabrication de Vatrad, Qingdao, Chine',
     bullets: [
       {
@@ -659,8 +659,8 @@ export const why: Localized<WhyContent> = {
   de: {
     kicker: 'Die Fertigungsmarke',
     title: 'Angetrieben von Vatrad',
-    sub: 'SUPsfactory ist die Abteilung für SUP-Produktentwicklung und -Fertigung der Qingdao Vatrad Group Co., Ltd. Unser Werk mit 12,500 m² in Laixi, Qingdao stellt seit 2012 aufblasbare Produkte her; mehr als 25 Ingenieure arbeiten in Forschung & Entwicklung, Formenkonstruktion, Materiallabor und Fertigungsplanung und bringen im Durchschnitt über 7 Jahre Erfahrung in der Fertigung aufblasbarer Produkte mit. Es laufen täglich zwei Produktionsschichten.',
-    image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp',
+    sub: 'iSupfactory ist die Abteilung für SUP-Produktentwicklung und -Fertigung der Qingdao Vatrad Group Co., Ltd. Unser Werk mit 12,500 m² in Laixi, Qingdao stellt seit 2012 aufblasbare Produkte her; mehr als 25 Ingenieure arbeiten in Forschung & Entwicklung, Formenkonstruktion, Materiallabor und Fertigungsplanung und bringen im Durchschnitt über 7 Jahre Erfahrung in der Fertigung aufblasbarer Produkte mit. Es laufen täglich zwei Produktionsschichten.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
     imageCaption: 'Vatrad-Fertigungsstätte, Qingdao, China',
     bullets: [
       {
@@ -684,8 +684,8 @@ export const why: Localized<WhyContent> = {
   it: {
     kicker: 'Il marchio di produzione',
     title: 'Alimentato da Vatrad',
-    sub: "SUPsfactory è la divisione di sviluppo e produzione dei prodotti SUP di Qingdao Vatrad Group Co., Ltd. Il nostro stabilimento di 12,500 m² a Laixi, Qingdao, produce articoli gonfiabili dal 2012; oltre 25 ingegneri lavorano in ricerca e sviluppo, progettazione degli stampi, laboratorio materiali e pianificazione della produzione, con una media di oltre 7 anni di esperienza nella produzione di articoli gonfiabili. Ogni giorno sono attivi due turni di produzione.",
-    image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp',
+    sub: "iSupfactory è la divisione di sviluppo e produzione dei prodotti SUP di Qingdao Vatrad Group Co., Ltd. Il nostro stabilimento di 12,500 m² a Laixi, Qingdao, produce articoli gonfiabili dal 2012; oltre 25 ingegneri lavorano in ricerca e sviluppo, progettazione degli stampi, laboratorio materiali e pianificazione della produzione, con una media di oltre 7 anni di esperienza nella produzione di articoli gonfiabili. Ogni giorno sono attivi due turni di produzione.",
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
     imageCaption: 'Stabilimento di produzione Vatrad, Qingdao, Cina',
     bullets: [
       {
@@ -709,8 +709,8 @@ export const why: Localized<WhyContent> = {
   pt: {
     kicker: 'A marca de produção',
     title: 'Alimentado pela Vatrad',
-    sub: "SUPsfactory é a divisão de desenvolvimento e produção de produtos SUP da Qingdao Vatrad Group Co., Ltd. A nossa fábrica de 12,500 m² em Laixi, Qingdao, produz artigos insufláveis desde 2012; mais de 25 engenheiros trabalham em investigação e desenvolvimento, design de moldes, laboratório de materiais e planeamento de produção, com uma média de mais de 7 anos de experiência na produção de artigos insufláveis. Funcionam dois turnos de produção por dia.",
-    image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp',
+    sub: "iSupfactory é a divisão de desenvolvimento e produção de produtos SUP da Qingdao Vatrad Group Co., Ltd. A nossa fábrica de 12,500 m² em Laixi, Qingdao, produz artigos insufláveis desde 2012; mais de 25 engenheiros trabalham em investigação e desenvolvimento, design de moldes, laboratório de materiais e planeamento de produção, com uma média de mais de 7 anos de experiência na produção de artigos insufláveis. Funcionam dois turnos de produção por dia.",
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
     imageCaption: 'Instalação de produção da Vatrad, Qingdao, China',
     bullets: [
       {
@@ -734,8 +734,8 @@ export const why: Localized<WhyContent> = {
   nl: {
     kicker: 'Het productiemerk',
     title: 'Aangedreven door Vatrad',
-    sub: 'SUPsfactory is de SUP-productontwikkeling- en productiedivisie van Qingdao Vatrad Group Co., Ltd. Onze fabriek van 12,500 m² in Laixi, Qingdao produceert sinds 2012 opblaasbare artikelen; meer dan 25 ingenieurs werken aan R&D, matrijsontwerp, materiaallaboratorium en productieplanning, met gemiddeld meer dan 7 jaar ervaring in de productie van opblaasbare artikelen. Dagelijks draaien er twee productieploegen.',
-    image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp',
+    sub: 'iSupfactory is de SUP-productontwikkeling- en productiedivisie van Qingdao Vatrad Group Co., Ltd. Onze fabriek van 12,500 m² in Laixi, Qingdao produceert sinds 2012 opblaasbare artikelen; meer dan 25 ingenieurs werken aan R&D, matrijsontwerp, materiaallaboratorium en productieplanning, met gemiddeld meer dan 7 jaar ervaring in de productie van opblaasbare artikelen. Dagelijks draaien er twee productieploegen.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
     imageCaption: 'Vatrad-productiefaciliteit, Qingdao, China',
     bullets: [
       {
@@ -2874,7 +2874,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Startups', 'Rental fleets'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
         artwork: 'Military-grade drop-stitch core · reinforced rails · 2+1 fins · complete package',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
         hue: 195,
       },
       {
@@ -2888,7 +2888,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Lifestyle brands', 'Boutique travel'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'UV digital printing + mechanical heat-embossing · coordinated accessories',
-        image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
         hue: 210,
       },
       {
@@ -2902,7 +2902,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Lifestyle brands', 'Social-first brands'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Multi-color EVA block piecing + UV printing · anti-delamination build',
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
         hue: 28,
       },
       {
@@ -2916,7 +2916,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Yoga studios', 'Tropical brands'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Multi-color EVA block piecing + UV printing · handle anchored to PVC hull',
-        image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
         hue: 260,
       },
       {
@@ -2930,7 +2930,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marine brands', 'Resorts'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'CNC-cut EVA color-block splicing + screen-printed rails · PANTONE TPG color matching',
-        image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
         hue: 210,
       },
       {
@@ -2944,7 +2944,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Yoga studios', 'Wellness brands'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Dual-layer laser-engraved EVA + gradient UV printing · dynamic color-blocked fins',
-        image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
         hue: 150,
       },
       {
@@ -2958,7 +2958,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Tropical brands', 'Travel'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Dual-layer laser-engraved EVA + UV printing + screen-printed rails · anti-distortion geometry',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-10.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
         hue: 28,
       },
       {
@@ -2972,7 +2972,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Ocean brands', 'Outdoor brands'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'UV digital printing + mechanical embossing · stretchable PVC inks on bottom logo',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
         hue: 195,
       },
       {
@@ -2986,7 +2986,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Touring brands', 'Outdoor brands'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Multi-color EVA block piecing + UV printing · color-matched backpack, pump & leash',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-12.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
         hue: 170,
       },
       {
@@ -3000,7 +3000,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Travel brands', 'Resorts'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'UV digital printing + die-cut EVA patchwork · illustrated nose landscape',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-17.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
         hue: 330,
       },
       {
@@ -3014,7 +3014,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Race teams', 'Coaching'],
         specs: 'Carbon hybrid matrix · glide rocker · streamlined high-speed profile',
         artwork: 'Carbon hybrid inflatable construction · performance glide rocker',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-11.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
         hue: 195,
       },
       {
@@ -3028,7 +3028,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Fishing brands', 'Guides'],
         specs: 'Double-sided air chamber · 10–80 cm fish ruler · rod holder mounts',
         artwork: 'Reinforced utility hull · multi-point metal D-rings',
-        image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
         hue: 210,
       },
       {
@@ -3042,7 +3042,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Kids brands', 'Resorts'],
         specs: 'Hybrid SUP / surf / bodyboard geometry · short wide hull · puncture-resistant deck',
         artwork: 'Multi-purpose hybrid geometry · heavy-duty deck material',
-        image: 'https://assets.supsfactory.com/site/products/2026/mini/mini-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
         hue: 28,
       },
       {
@@ -3056,7 +3056,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Resorts', 'Rental fleets'],
         specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · 4+1 fins",
         artwork: 'Dual-valve inflation · 8–12 neoprene grab handles · 4+1 fin system',
-        image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
         hue: 195,
       },
       {
@@ -3070,7 +3070,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Fishing brands', 'Anglers'],
         specs: '350 × 120 × 15 cm · 400 kg load · tri-fin · viewing window',
         artwork: 'Central cutout compartment · transparent underwater viewing window · pontoon hull',
-        image: 'https://assets.supsfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
         hue: 170,
       },
     ],
@@ -3091,7 +3091,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas emergentes', 'Flotas de alquiler'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 19 lb (8.6 kg)",
         artwork: 'Núcleo drop-stitch de grado militar · rails reforzados · quillas 2+1 · paquete completo',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
         hue: 195,
       },
       {
@@ -3105,7 +3105,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas lifestyle', 'Turismo boutique'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Impresión UV digital + gofrado térmico mecánico · accesorios coordinados',
-        image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
         hue: 210,
       },
       {
@@ -3119,7 +3119,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas lifestyle', 'Marcas social-first'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Mosaicos EVA multicolor + impresión UV · construcción antidelaminación',
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
         hue: 28,
       },
       {
@@ -3133,7 +3133,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Estudios de yoga', 'Marcas tropicales'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Mosaicos EVA multicolor + impresión UV · asa anclada al casco de PVC',
-        image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
         hue: 260,
       },
       {
@@ -3147,7 +3147,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas marinas', 'Resorts'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Splicado de bloques de color EVA por CNC + rails serigrafiados · ajuste de color PANTONE TPG',
-        image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
         hue: 210,
       },
       {
@@ -3161,7 +3161,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Estudios de yoga', 'Marcas de bienestar'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'EVA grabada con láser de doble capa + impresión UV degradada · quillas dinámicas en bloques de color',
-        image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
         hue: 150,
       },
       {
@@ -3175,7 +3175,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas tropicales', 'Viajes'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'EVA grabada con láser de doble capa + impresión UV + rails serigrafiados · geometría antideformación',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-10.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
         hue: 28,
       },
       {
@@ -3189,7 +3189,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas oceánicas', 'Marcas outdoor'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Impresión UV digital + gofrado mecánico · tintas PVC estirables en el logo inferior',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
         hue: 195,
       },
       {
@@ -3203,7 +3203,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas de travesía', 'Marcas outdoor'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Mosaicos EVA multicolor + impresión UV · mochila, bomba y leash a juego',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-12.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
         hue: 170,
       },
       {
@@ -3217,7 +3217,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas de viajes', 'Resorts'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Impresión UV digital + patchwork EVA troquelado · paisaje ilustrado en la proa',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-17.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
         hue: 330,
       },
       {
@@ -3231,7 +3231,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Equipos de competición', 'Coaching'],
         specs: 'Matriz híbrida de carbono · rocker de deslizamiento · perfil aerodinámico de alta velocidad',
         artwork: 'Construcción hinchable híbrida de carbono · rocker de deslizamiento de alto rendimiento',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-11.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
         hue: 195,
       },
       {
@@ -3245,7 +3245,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas de pesca', 'Guías'],
         specs: 'Cámara de aire doble · regla de peces de 10–80 cm · soportes para cañeros',
         artwork: 'Casco utilitario reforzado · anillos en D metálicos multipunto',
-        image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
         hue: 210,
       },
       {
@@ -3259,7 +3259,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas infantiles', 'Resorts'],
         specs: 'Geometría híbrida SUP / surf / bodyboard · casco corto y ancho · cubierta resistente a la perforación',
         artwork: 'Geometría híbrida multipropósito · material de cubierta de alta resistencia',
-        image: 'https://assets.supsfactory.com/site/products/2026/mini/mini-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
         hue: 28,
       },
       {
@@ -3273,7 +3273,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Resorts', 'Flotas de alquiler'],
         specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · quillas 4+1",
         artwork: 'Inflado de doble válvula · 8–12 asas de neopreno · sistema de quillas 4+1',
-        image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
         hue: 195,
       },
       {
@@ -3287,7 +3287,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas de pesca', 'Pescadores'],
         specs: '350 × 120 × 15 cm · carga de 400 kg · tri-quilla · ventana de observación',
         artwork: 'Compartimento central recortado · ventana transparente de observación subacuática · casco tipo pontón',
-        image: 'https://assets.supsfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
         hue: 170,
       },
     ],
@@ -3308,7 +3308,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Startups', 'Flottes de location'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 19 lb (8.6 kg)",
         artwork: 'Núcleo drop-stitch de grado militar · rails reforzados · quillas 2+1 · paquete completo',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
         hue: 195,
       },
       {
@@ -3322,7 +3322,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marques lifestyle', 'Tourisme haut de gamme'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Impresión UV digital + gofrado térmico mecánico · accesorios coordinados',
-        image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
         hue: 210,
       },
       {
@@ -3336,7 +3336,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marques lifestyle', 'Marques orientées réseaux sociaux'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Mosaicos EVA multicolor + impresión UV · construcción antidelaminación',
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
         hue: 28,
       },
       {
@@ -3350,7 +3350,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Studios de yoga', 'Marques tropicales'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Mosaicos EVA multicolor + impresión UV · asa anclada al casco de PVC',
-        image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
         hue: 260,
       },
       {
@@ -3364,7 +3364,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marques marines', 'Resorts'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Splicado de bloques de color EVA por CNC + rails serigrafiados · ajuste de color PANTONE TPG',
-        image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
         hue: 210,
       },
       {
@@ -3378,7 +3378,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Studios de yoga', 'Marques de bien-être'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'EVA grabada con láser de doble capa + impresión UV degradada · quillas dinámicas en bloques de color',
-        image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
         hue: 150,
       },
       {
@@ -3392,7 +3392,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marques tropicales', 'Voyages'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'EVA grabada con láser de doble capa + impresión UV + rails serigrafiados · geometría antideformación',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-10.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
         hue: 28,
       },
       {
@@ -3406,7 +3406,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marques océaniques', 'Marques outdoor'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Impresión UV digital + gofrado mecánico · tintas PVC estirables en el logo inferior',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
         hue: 195,
       },
       {
@@ -3420,7 +3420,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marques de randonnée', 'Marques outdoor'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Mosaicos EVA multicolor + impresión UV · mochila, bomba y leash a juego',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-12.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
         hue: 170,
       },
       {
@@ -3434,7 +3434,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marques de voyage', 'Resorts'],
         specs: "11'0\" × 32\" × 6\" · PVC drop-stitch · 15 PSI · 20 lb (9.1 kg)",
         artwork: 'Impresión UV digital + patchwork EVA troquelado · paisaje ilustrado en la proa',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-17.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
         hue: 330,
       },
       {
@@ -3448,7 +3448,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Équipes de course', 'Coaching'],
         specs: 'Matriz híbrida de carbono · rocker de deslizamiento · perfil aerodinámico de alta velocidad',
         artwork: 'Construcción hinchable híbrida de carbono · rocker de deslizamiento de alto rendimiento',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-11.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
         hue: 195,
       },
       {
@@ -3462,7 +3462,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marques de pêche', 'Guides'],
         specs: 'Cámara de aire doble · regla de peces de 10–80 cm · soportes para cañeros',
         artwork: 'Casco utilitario reforzado · anillos en D metálicos multipunto',
-        image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
         hue: 210,
       },
       {
@@ -3476,7 +3476,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marques pour enfants', 'Resorts'],
         specs: 'Geometría híbrida SUP / surf / bodyboard · casco corto y ancho · cubierta resistente a la perforación',
         artwork: 'Geometría híbrida multipropósito · material de cubierta de alta resistencia',
-        image: 'https://assets.supsfactory.com/site/products/2026/mini/mini-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
         hue: 28,
       },
       {
@@ -3490,7 +3490,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Resorts', 'Flottes de location'],
         specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · quillas 4+1",
         artwork: 'Inflado de doble válvula · 8–12 asas de neopreno · sistema de quillas 4+1',
-        image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
         hue: 195,
       },
       {
@@ -3504,7 +3504,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marques de pêche', 'Pêcheurs'],
         specs: '350 × 120 × 15 cm · carga de 400 kg · tri-quilla · ventana de observación',
         artwork: 'Compartimento central recortado · ventana transparente de observación subacuática · casco tipo pontón',
-        image: 'https://assets.supsfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
         hue: 170,
       },
     ],
@@ -3525,7 +3525,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Start-ups', 'Verleihflotten'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
         artwork: 'Drop-Stitch-Kern in Militärqualität · verstärkte Rails · 2+1-Finnen · Komplettpaket',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
         hue: 195,
       },
       {
@@ -3539,7 +3539,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Lifestyle-Marken', 'Boutique-Reisen'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'UV-Digitaldruck + mechanisches Heißprägen · abgestimmtes Zubehör',
-        image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
         hue: 210,
       },
       {
@@ -3553,7 +3553,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Lifestyle-Marken', 'Social-First-Marken'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Mehrfarbige EVA-Blockverklebung + UV-Druck · delaminationsresistenter Aufbau',
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
         hue: 28,
       },
       {
@@ -3567,7 +3567,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Yoga-Studios', 'Tropische Marken'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Mehrfarbige EVA-Blockverklebung + UV-Druck · Griff im PVC-Rumpf verankert',
-        image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
         hue: 260,
       },
       {
@@ -3581,7 +3581,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marine-Marken', 'Resorts'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'CNC-geschnittenes EVA-Farbblock-Splicing + siebbedruckte Rails · PANTONE-TPG-Farbabstimmung',
-        image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
         hue: 210,
       },
       {
@@ -3595,7 +3595,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Yoga-Studios', 'Wellness-Marken'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Zweischichtig lasergraviertes EVA + UV-Druck mit Farbverlauf · dynamische Farbblock-Finnen',
-        image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
         hue: 150,
       },
       {
@@ -3609,7 +3609,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Tropische Marken', 'Reise'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Zweischichtig lasergraviertes EVA + UV-Druck + siebbedruckte Rails · verzerrungsfreie Geometrie',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-10.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
         hue: 28,
       },
       {
@@ -3623,7 +3623,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Ozean-Marken', 'Outdoor-Marken'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'UV-Digitaldruck + mechanisches Prägen · dehnbare PVC-Farben im Bodenlogo',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
         hue: 195,
       },
       {
@@ -3637,7 +3637,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Touren-Marken', 'Outdoor-Marken'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Mehrfarbige EVA-Blockverklebung + UV-Druck · farblich abgestimmter Rucksack, Pumpe & Leash',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-12.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
         hue: 170,
       },
       {
@@ -3651,7 +3651,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Reisemarken', 'Resorts'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'UV-Digitaldruck + gestanztes EVA-Patchwork · illustrierte Nasenlandschaft',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-17.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
         hue: 330,
       },
       {
@@ -3665,7 +3665,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Renn-Teams', 'Coaching'],
         specs: 'Carbon-Hybrid-Matrix · Gleitrocker · stromlinienförmiges Hochgeschwindigkeitsprofil',
         artwork: 'Carbon-Hybrid-Aufblaskonstruktion · leistungsstarker Gleitrocker',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-11.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
         hue: 195,
       },
       {
@@ -3679,7 +3679,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Angelmarken', 'Guides'],
         specs: 'Doppelseitige Luftkammer · 10–80-cm-Fischskala · Rutenhalter-Befestigungen',
         artwork: 'Verstärkter Nutzrumpf · mehrpunktige Metall-D-Ringe',
-        image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
         hue: 210,
       },
       {
@@ -3693,7 +3693,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Kindermarken', 'Resorts'],
         specs: 'Hybride SUP-/Surf-/Bodyboard-Geometrie · kurzer breiter Rumpf · stichfestes Deck',
         artwork: 'Multifunktions-Hybridgeometrie · hochbelastbares Deckmaterial',
-        image: 'https://assets.supsfactory.com/site/products/2026/mini/mini-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
         hue: 28,
       },
       {
@@ -3707,7 +3707,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Resorts', 'Verleihflotten'],
         specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · 4+1 fins",
         artwork: 'Zwei-Ventil-Aufpumpsystem · 8–12 Neopren-Tragegriffe · 4+1-Fin-System',
-        image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
         hue: 195,
       },
       {
@@ -3721,7 +3721,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Angelmarken', 'Angler'],
         specs: '350 × 120 × 15 cm · 400-kg-Zuladung · Tri-Fin · Sichtfenster',
         artwork: 'Zentrales Einschnappfach · transparentes Unterwasser-Sichtfenster · Pontonrumpf',
-        image: 'https://assets.supsfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
         hue: 170,
       },
     ],
@@ -3742,7 +3742,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Startup', 'Flotte da noleggio'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
         artwork: 'Nucleo drop-stitch di qualità militare · rail rinforzati · 2+1 pinne · pacchetto completo',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
         hue: 195,
       },
       {
@@ -3756,7 +3756,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marchi lifestyle', 'Viaggi boutique'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Stampa digitale UV + embossing meccanico a caldo · accessori coordinati',
-        image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
         hue: 210,
       },
       {
@@ -3770,7 +3770,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marchi lifestyle', 'Marchi social-first'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Giunzione a blocchi EVA multicolore + stampa UV · costruzione resistente alla delaminazione',
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
         hue: 28,
       },
       {
@@ -3784,7 +3784,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Studi yoga', 'Marchi tropicali'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Giunzione a blocchi EVA multicolore + stampa UV · maniglia ancorata allo scafo in PVC',
-        image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
         hue: 260,
       },
       {
@@ -3798,7 +3798,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marchi marini', 'Resort'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Splicing a blocchi di colore EVA tagliato CNC + rail serigrafati · corrispondenza colore PANTONE-TPG',
-        image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
         hue: 210,
       },
       {
@@ -3812,7 +3812,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Studi yoga', 'Marchi wellness'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'EVA a doppio strato inciso al laser + stampa UV con sfumature di colore · pinne dinamiche a blocchi di colore',
-        image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
         hue: 150,
       },
       {
@@ -3826,7 +3826,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marchi tropicali', 'Viaggio'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'EVA a doppio strato inciso al laser + stampa UV + rail serigrafati · geometria senza distorsioni',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-10.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
         hue: 28,
       },
       {
@@ -3840,7 +3840,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marchi oceanici', 'Marchi outdoor'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Stampa digitale UV + embossing meccanico · colori PVC estensibili nel logo del fondo',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
         hue: 195,
       },
       {
@@ -3854,7 +3854,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marchi touring', 'Marchi outdoor'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Giunzione a blocchi EVA multicolore + stampa UV · zaino, pompa e leash coordinati sui colori',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-12.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
         hue: 170,
       },
       {
@@ -3868,7 +3868,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marchi di viaggio', 'Resort'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Stampa digitale UV + patchwork EVA fustellato · paesaggio del nose illustrato',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-17.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
         hue: 330,
       },
       {
@@ -3882,7 +3882,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Team racing', 'Coaching'],
         specs: 'Matrice ibrida in carbonio · rocker di planata · profilo aerodinamico ad alta velocità',
         artwork: 'Costruzione gonfiabile ibrida in carbonio · rocker di planata ad alte prestazioni',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-11.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
         hue: 195,
       },
       {
@@ -3896,7 +3896,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marchi di pesca', 'Guide'],
         specs: "Camera d’aria a doppio lato · scala pesce da 10–80 cm · attacchi per portacanne",
         artwork: 'Scafo da lavoro rinforzato · anelli a D metallici multipunto',
-        image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
         hue: 210,
       },
       {
@@ -3910,7 +3910,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marchi per bambini', 'Resort'],
         specs: 'Geometria ibrida SUP/surf/bodyboard · scafo corto e largo · deck a prova di foratura',
         artwork: 'Geometria ibrida multifunzionale · materiale del deck ad alta resistenza',
-        image: 'https://assets.supsfactory.com/site/products/2026/mini/mini-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
         hue: 28,
       },
       {
@@ -3924,7 +3924,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Resort', 'Flotte da noleggio'],
         specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · 4+1 fins",
         artwork: 'Sistema di gonfiaggio a due valvole · 8–12 maniglie in neoprene · sistema 4+1 pinne',
-        image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
         hue: 195,
       },
       {
@@ -3938,7 +3938,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marchi di pesca', 'Pescatori'],
         specs: '350 × 120 × 15 cm · portata 400 kg · Tri-Fin · finestra subacquea',
         artwork: 'Vano centrale a scatto · finestra subacquea trasparente · scafo a pontone',
-        image: 'https://assets.supsfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
         hue: 170,
       },
     ],
@@ -3959,7 +3959,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Startups', 'Frotas de aluguer'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
         artwork: 'Núcleo drop-stitch de qualidade militar · rails reforçados · barbatanas 2+1 · pacote completo',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
         hue: 195,
       },
       {
@@ -3973,7 +3973,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas lifestyle', 'Viagens boutique'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Impressão digital UV + embossing mecânico a quente · acessórios coordenados',
-        image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
         hue: 210,
       },
       {
@@ -3987,7 +3987,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas lifestyle', 'Marcas social-first'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Junção de blocos EVA multicolor + impressão UV · construção resistente à delaminação',
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
         hue: 28,
       },
       {
@@ -4001,7 +4001,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Estúdios de ioga', 'Marcas tropicais'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Junção de blocos EVA multicolor + impressão UV · pega ancorada ao casco em PVC',
-        image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
         hue: 260,
       },
       {
@@ -4015,7 +4015,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas marinhas', 'Resorts'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Splicing de blocos de cor EVA cortado a CNC + rails serigrafados · correspondência de cores PANTONE-TPG',
-        image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
         hue: 210,
       },
       {
@@ -4029,7 +4029,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Estúdios de ioga', 'Marcas wellness'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'EVA de dupla camada gravado a laser + impressão UV com gradientes de cor · barbatanas dinâmicas em blocos de cor',
-        image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
         hue: 150,
       },
       {
@@ -4043,7 +4043,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas tropicais', 'Viagem'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'EVA de dupla camada gravado a laser + impressão UV + rails serigrafados · geometria sem distorções',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-10.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
         hue: 28,
       },
       {
@@ -4057,7 +4057,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas oceânicas', 'Marcas outdoor'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Impressão digital UV + embossing mecânico · tintas PVC extensíveis no logótipo do fundo',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
         hue: 195,
       },
       {
@@ -4071,7 +4071,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas touring', 'Marcas outdoor'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Junção de blocos EVA multicolor + impressão UV · mochila, bomba e leash coordenados nas cores',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-12.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
         hue: 170,
       },
       {
@@ -4085,7 +4085,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas de viagem', 'Resorts'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Impressão digital UV + patchwork EVA recortado · paisagem do nose ilustrada',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-17.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
         hue: 330,
       },
       {
@@ -4099,7 +4099,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Equipas de corrida', 'Coaching'],
         specs: 'Matriz híbrida em carbono · rocker de deslize · perfil aerodinâmico de alta velocidade',
         artwork: 'Construção insuflável híbrida em carbono · rocker de deslize de alto desempenho',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-11.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
         hue: 195,
       },
       {
@@ -4113,7 +4113,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas de pesca', 'Guias'],
         specs: 'Câmara de ar de dupla face · escala de peixe de 10–80 cm · acessórios para varões',
         artwork: 'Casco de trabalho reforçado · anéis em D metálicos multiponto',
-        image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
         hue: 210,
       },
       {
@@ -4127,7 +4127,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas para crianças', 'Resorts'],
         specs: 'Geometria híbrida SUP/surf/bodyboard · casco curto e largo · deck à prova de perfuração',
         artwork: 'Geometria híbrida multifuncional · material do deck de alta resistência',
-        image: 'https://assets.supsfactory.com/site/products/2026/mini/mini-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
         hue: 28,
       },
       {
@@ -4141,7 +4141,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Resorts', 'Frotas de aluguer'],
         specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · 4+1 fins",
         artwork: 'Sistema de insuflagem de duas válvulas · 8–12 pegas em neoprene · sistema de 4+1 barbatanas',
-        image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
         hue: 195,
       },
       {
@@ -4155,7 +4155,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas de pesca', 'Pescadores'],
         specs: '350 × 120 × 15 cm · capacidade 400 kg · Tri-Fin · janela subaquática',
         artwork: 'Compartimento central de encaixe · janela subaquática transparente · casco a pontão',
-        image: 'https://assets.supsfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
         hue: 170,
       },
     ],
@@ -4176,7 +4176,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Startups', 'Verhuurvloten'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
         artwork: 'Drop-stitch-kern van militaire kwaliteit · versterkte rails · 2+1 vinnen · compleet pakket',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
         hue: 195,
       },
       {
@@ -4190,7 +4190,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Lifestyle-merken', 'Boutique-reizen'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'UV-digitaal printen + mechanische warmte-embossing · gecoördineerde accessoires',
-        image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
         hue: 210,
       },
       {
@@ -4204,7 +4204,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Lifestyle-merken', 'Social-first-merken'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Meerkleurig EVA-blokwerk + UV-printen · constructie bestand tegen delaminatie',
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
         hue: 28,
       },
       {
@@ -4218,7 +4218,7 @@ export const products: Localized<ProductsContent> = {
         for: ["Yogastudio's", 'Tropische merken'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Meerkleurig EVA-blokwerk + UV-printen · handvat verankerd aan de PVC-romp',
-        image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
         hue: 260,
       },
       {
@@ -4232,7 +4232,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Marine-merken', 'Resorts'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'CNC-gesneden EVA-kleurenblokken + zeefgedrukte rails · PANTONE-TPG-kleurkoppeling',
-        image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
         hue: 210,
       },
       {
@@ -4246,7 +4246,7 @@ export const products: Localized<ProductsContent> = {
         for: ["Yogastudio's", 'Wellness-merken'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Dubbellaags lasergegraveerd EVA + UV-printen met kleurverlopen · dynamische vinnen in kleurblokken',
-        image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
         hue: 150,
       },
       {
@@ -4260,7 +4260,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Tropische merken', 'Reizen'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Dubbellaags lasergegraveerd EVA + UV-printen + zeefgedrukte rails · geometrie zonder vervorming',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-10.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
         hue: 28,
       },
       {
@@ -4274,7 +4274,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Ocean-merken', 'Outdoor-merken'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'UV-digitaal printen + mechanische embossing · rekbare PVC-inkten op het logo aan de onderkant',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
         hue: 195,
       },
       {
@@ -4288,7 +4288,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Touring-merken', 'Outdoor-merken'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'Meerkleurig EVA-blokwerk + UV-printen · rugzak, pomp en leash in bijpassende kleuren',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-12.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
         hue: 170,
       },
       {
@@ -4302,7 +4302,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Reismerken', 'Resorts'],
         specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
         artwork: 'UV-digitaal printen + uitgestanst EVA-lapwerk · geïllustreerd neuslandschap',
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-17.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
         hue: 330,
       },
       {
@@ -4316,7 +4316,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Race-teams', 'Coaching'],
         specs: 'Hybride carbonmatrix · glijrocker · gestroomlijnd profiel voor hoge snelheid',
         artwork: 'Hybride opblaasbare carbonconstructie · glijrocker voor hoge prestaties',
-        image: 'https://assets.supsfactory.com/site/products/2026/race/race-11.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
         hue: 195,
       },
       {
@@ -4330,7 +4330,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Visserijmerken', 'Gidsen'],
         specs: 'Dubbelzijdige luchtkamer · vismaat 10–80 cm · hengeldragers',
         artwork: 'Versterkte werkromp · metalen D-ringen op meerdere punten',
-        image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
         hue: 210,
       },
       {
@@ -4344,7 +4344,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Kindermerken', 'Resorts'],
         specs: 'Hybride SUP/surf/bodyboard-geometrie · korte brede romp · lekbestendig deck',
         artwork: 'Multifunctionele hybride geometrie · zeer sterke deklaag',
-        image: 'https://assets.supsfactory.com/site/products/2026/mini/mini-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
         hue: 28,
       },
       {
@@ -4358,7 +4358,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Resorts', 'Verhuurvloten'],
         specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · 4+1 fins",
         artwork: 'Opblaassysteem met twee ventielen · 8–12 neopreen draaghandvatten · 4+1 vin-systeem',
-        image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
         hue: 195,
       },
       {
@@ -4372,7 +4372,7 @@ export const products: Localized<ProductsContent> = {
         for: ['Visserijmerken', 'Sportvissers'],
         specs: '350 × 120 × 15 cm · draagvermogen 400 kg · Tri-Fin · onderwatervenster',
         artwork: 'Centraal uitsnijvak · transparant onderwatervenster · pontonromp',
-        image: 'https://assets.supsfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
         hue: 170,
       },
     ],
@@ -4869,15 +4869,15 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     sub: 'Every board category is a manufacturing platform — choose your starting point and we customize the shape, graphics and specs to your product.',
     viewLabel: 'View',
     items: [
-      { id: 'all-around', label: 'All-Around', desc: 'Versatile SUP boards for paddlers of all skill levels.', image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
-      { id: 'touring', label: 'Touring SUP', desc: 'Long-distance boards for exploration and adventure.', image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
-      { id: 'race', label: 'Race', desc: 'Performance boards for racing and athletic paddling.', image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
-      { id: 'whitewater', label: 'Whitewater', desc: 'Rugged boards engineered for river rapids and lifestyle.', image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
-      { id: 'yoga', label: 'Yoga', desc: 'Spacious decks designed for yoga and fitness.', image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
-      { id: 'surf', label: 'Surf', desc: 'Agile boards for catching waves and surf riding.', image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
-      { id: 'fishing', label: 'Fishing', desc: 'Stable platforms with rod holders and utility hulls for angling.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
-      { id: 'kids', label: 'Kids SUPs', desc: 'Smaller, lighter boards designed for children.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
-      { id: 'multi', label: 'Multi-Person', desc: 'Large-format team boards for 6–8 riders.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+      { id: 'all-around', label: 'All-Around', desc: 'Versatile SUP boards for paddlers of all skill levels.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring SUP', desc: 'Long-distance boards for exploration and adventure.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Race', desc: 'Performance boards for racing and athletic paddling.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Whitewater', desc: 'Rugged boards engineered for river rapids and lifestyle.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Spacious decks designed for yoga and fitness.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Agile boards for catching waves and surf riding.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Fishing', desc: 'Stable platforms with rod holders and utility hulls for angling.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'Kids SUPs', desc: 'Smaller, lighter boards designed for children.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Multi-Person', desc: 'Large-format team boards for 6–8 riders.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
   es: {
@@ -4886,15 +4886,15 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     sub: 'Cada categoría es una plataforma de fabricación: elige tu punto de partida y adaptamos la forma, los gráficos y las especificaciones a tu producto.',
     viewLabel: 'Ver',
     items: [
-      { id: 'all-around', label: 'Polivalente', desc: 'Tablas SUP versátiles para remeros de todos los niveles.', image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
-      { id: 'touring', label: 'SUP de Travesía', desc: 'Tablas de larga distancia para exploración y aventura.', image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
-      { id: 'race', label: 'Competición', desc: 'Tablas de rendimiento para carreras y remo deportivo.', image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
-      { id: 'whitewater', label: 'Aguas Bravas', desc: 'Tablas resistentes diseñadas para rápidos de río y estilo de vida.', image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
-      { id: 'yoga', label: 'Yoga', desc: 'Cubiertas amplias diseñadas para yoga y fitness.', image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
-      { id: 'surf', label: 'Surf', desc: 'Tablas ágiles para cazar olas y surfear.', image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
-      { id: 'fishing', label: 'Pesca', desc: 'Plataformas estables con portacañas y casco utilitario para la pesca.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
-      { id: 'kids', label: 'SUP Infantil', desc: 'Tablas más pequeñas y ligeras diseñadas para niños.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
-      { id: 'multi', label: 'Multipersona', desc: 'Tablas de equipo de gran formato para 6–8 remeros.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+      { id: 'all-around', label: 'Polivalente', desc: 'Tablas SUP versátiles para remeros de todos los niveles.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'SUP de Travesía', desc: 'Tablas de larga distancia para exploración y aventura.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Competición', desc: 'Tablas de rendimiento para carreras y remo deportivo.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Aguas Bravas', desc: 'Tablas resistentes diseñadas para rápidos de río y estilo de vida.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Cubiertas amplias diseñadas para yoga y fitness.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Tablas ágiles para cazar olas y surfear.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Pesca', desc: 'Plataformas estables con portacañas y casco utilitario para la pesca.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'SUP Infantil', desc: 'Tablas más pequeñas y ligeras diseñadas para niños.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Multipersona', desc: 'Tablas de equipo de gran formato para 6–8 remeros.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
   fr: {
@@ -4903,15 +4903,15 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     sub: 'Chaque catégorie de planches est une plateforme de fabrication : choisissez votre point de départ et nous adaptons la forme, les graphismes et les spécifications à votre produit.',
     viewLabel: 'Voir',
     items: [
-      { id: 'all-around', label: 'Polyvalent', desc: 'Planches de SUP polyvalentes pour tous les niveaux de pagayeurs.', image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
-      { id: 'touring', label: 'SUP de randonnée', desc: 'Planches longue distance pour l\'exploration et l\'aventure.', image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
-      { id: 'race', label: 'Course', desc: 'Planches de performance pour la course et la pratique sportive.', image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
-      { id: 'whitewater', label: 'Eaux vives', desc: 'Planches robustes conçues pour les rapides de rivière et le lifestyle.', image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
-      { id: 'yoga', label: 'Yoga', desc: 'Ponts spacieux conçus pour le yoga et le fitness.', image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
-      { id: 'surf', label: 'Surf', desc: 'Planches agiles pour attraper les vagues et rider le surf.', image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
-      { id: 'fishing', label: 'Pêche', desc: 'Plateformes stables avec porte-cannes et coque utilitaire pour la pêche.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
-      { id: 'kids', label: 'SUP pour enfants', desc: 'Planches plus petites et plus légères, conçues pour les enfants.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
-      { id: 'multi', label: 'Multi-personnes', desc: 'Planches d\'équipe de grand format pour 6–8 pagayeurs.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+      { id: 'all-around', label: 'Polyvalent', desc: 'Planches de SUP polyvalentes pour tous les niveaux de pagayeurs.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'SUP de randonnée', desc: 'Planches longue distance pour l\'exploration et l\'aventure.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Course', desc: 'Planches de performance pour la course et la pratique sportive.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Eaux vives', desc: 'Planches robustes conçues pour les rapides de rivière et le lifestyle.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Ponts spacieux conçus pour le yoga et le fitness.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Planches agiles pour attraper les vagues et rider le surf.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Pêche', desc: 'Plateformes stables avec porte-cannes et coque utilitaire pour la pêche.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'SUP pour enfants', desc: 'Planches plus petites et plus légères, conçues pour les enfants.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Multi-personnes', desc: 'Planches d\'équipe de grand format pour 6–8 pagayeurs.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
   de: {
@@ -4920,15 +4920,15 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     sub: 'Jede Boardkategorie ist eine Fertigungsplattform — wählen Sie Ihren Ausgangspunkt, und wir passen Form, Grafiken und Spezifikationen an Ihr Produkt an.',
     viewLabel: 'Ansehen',
     items: [
-      { id: 'all-around', label: 'Allround', desc: 'Vielseitige SUP-Boards für Paddler aller Könnensstufen.', image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
-      { id: 'touring', label: 'Touring-SUP', desc: 'Langstrecken-Boards für Entdeckungen und Abenteuer.', image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
-      { id: 'race', label: 'Rennen', desc: 'Leistungsboards für Wettkämpfe und sportliches Paddeln.', image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
-      { id: 'whitewater', label: 'Wildwasser', desc: 'Robuste Boards für Fluss-Stromschnellen und Lifestyle.', image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
-      { id: 'yoga', label: 'Yoga', desc: 'Geräumige Decks für Yoga und Fitness.', image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
-      { id: 'surf', label: 'Surf', desc: 'Agile Boards fürs Wellenreiten und Surfen.', image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
-      { id: 'fishing', label: 'Angeln', desc: 'Stabile Plattformen mit Rutenhaltern und Nutzrumpf.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
-      { id: 'kids', label: 'Kinder-SUPs', desc: 'Kleinere, leichtere Boards für Kinder.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
-      { id: 'multi', label: 'Multipersonen', desc: 'Team-Boards im Großformat für 6–8 Personen.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+      { id: 'all-around', label: 'Allround', desc: 'Vielseitige SUP-Boards für Paddler aller Könnensstufen.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring-SUP', desc: 'Langstrecken-Boards für Entdeckungen und Abenteuer.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Rennen', desc: 'Leistungsboards für Wettkämpfe und sportliches Paddeln.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Wildwasser', desc: 'Robuste Boards für Fluss-Stromschnellen und Lifestyle.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Geräumige Decks für Yoga und Fitness.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Agile Boards fürs Wellenreiten und Surfen.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Angeln', desc: 'Stabile Plattformen mit Rutenhaltern und Nutzrumpf.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'Kinder-SUPs', desc: 'Kleinere, leichtere Boards für Kinder.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Multipersonen', desc: 'Team-Boards im Großformat für 6–8 Personen.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
   it: {
@@ -4937,15 +4937,15 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     sub: 'Ogni categoria di tavole è una piattaforma di produzione — scegli il tuo punto di partenza e noi adattiamo forma, grafiche e specifiche al tuo prodotto.',
     viewLabel: 'Vedi',
     items: [
-      { id: 'all-around', label: 'All-round', desc: 'SUP versatili per paddler di tutti i livelli.', image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
-      { id: 'touring', label: 'SUP touring', desc: 'Tavole per lunghe distanze, esplorazione e avventura.', image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
-      { id: 'race', label: 'Gara', desc: 'Tavole ad alte prestazioni per gare e pagaiata sportiva.', image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
-      { id: 'whitewater', label: 'Acque bianche', desc: 'Tavole robuste progettate per rapide di fiume e lifestyle.', image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
-      { id: 'yoga', label: 'Yoga', desc: 'Deck spaziosi progettati per yoga e fitness.', image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
-      { id: 'surf', label: 'Surf', desc: 'Tavole agili per cavalcare le onde.', image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
-      { id: 'fishing', label: 'Pesca', desc: 'Piattaforme stabili con portacanne e scafo da lavoro per la pesca.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
-      { id: 'kids', label: 'SUP per bambini', desc: 'Tavole più piccole e leggere progettate per i bambini.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
-      { id: 'multi', label: 'Multi persona', desc: 'Team board in grande formato per 6–8 persone.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+      { id: 'all-around', label: 'All-round', desc: 'SUP versatili per paddler di tutti i livelli.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'SUP touring', desc: 'Tavole per lunghe distanze, esplorazione e avventura.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Gara', desc: 'Tavole ad alte prestazioni per gare e pagaiata sportiva.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Acque bianche', desc: 'Tavole robuste progettate per rapide di fiume e lifestyle.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Deck spaziosi progettati per yoga e fitness.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Tavole agili per cavalcare le onde.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Pesca', desc: 'Piattaforme stabili con portacanne e scafo da lavoro per la pesca.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'SUP per bambini', desc: 'Tavole più piccole e leggere progettate per i bambini.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Multi persona', desc: 'Team board in grande formato per 6–8 persone.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
   pt: {
@@ -4954,15 +4954,15 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     sub: 'Cada categoria de tábuas é uma plataforma de produção — escolhe o teu ponto de partida e nós personalizamos forma, gráficas e especificações ao teu produto.',
     viewLabel: 'Ver',
     items: [
-      { id: 'all-around', label: 'All-round', desc: 'SUP versáteis para paddlers de todos os níveis.', image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
-      { id: 'touring', label: 'SUP touring', desc: 'Tábuas de longa distância para exploração e aventura.', image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
-      { id: 'race', label: 'Corrida', desc: 'Tábuas de alto desempenho para corridas e pagaiada desportiva.', image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
-      { id: 'whitewater', label: 'Águas bravas', desc: 'Tábuas robustas concebidas para rápidos de rio e lifestyle.', image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
-      { id: 'yoga', label: 'Ioga', desc: 'Decks espaçosos concebidos para ioga e fitness.', image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
-      { id: 'surf', label: 'Surf', desc: 'Tábuas ágeis para apanhar ondas e andar de surf.', image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
-      { id: 'fishing', label: 'Pesca', desc: 'Plataformas estáveis com suportes de varão e casco de trabalho para pescaria.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
-      { id: 'kids', label: 'SUP para crianças', desc: 'Tábuas mais pequenas e leves concebidas para crianças.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
-      { id: 'multi', label: 'Multi pessoa', desc: 'Team boards em grande formato para 6–8 paddlers.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+      { id: 'all-around', label: 'All-round', desc: 'SUP versáteis para paddlers de todos os níveis.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'SUP touring', desc: 'Tábuas de longa distância para exploração e aventura.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Corrida', desc: 'Tábuas de alto desempenho para corridas e pagaiada desportiva.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Águas bravas', desc: 'Tábuas robustas concebidas para rápidos de rio e lifestyle.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Ioga', desc: 'Decks espaçosos concebidos para ioga e fitness.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Tábuas ágeis para apanhar ondas e andar de surf.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Pesca', desc: 'Plataformas estáveis com suportes de varão e casco de trabalho para pescaria.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'SUP para crianças', desc: 'Tábuas mais pequenas e leves concebidas para crianças.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Multi pessoa', desc: 'Team boards em grande formato para 6–8 paddlers.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
   nl: {
@@ -4971,15 +4971,15 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     sub: 'Elke plankencategorie is een productieplatform — kies je startpunt en wij personaliseren vorm, graphics en specificaties aan jouw product.',
     viewLabel: 'Bekijk',
     items: [
-      { id: 'all-around', label: 'Allround', desc: 'Veelzijdige SUP-planken voor peddelaars van alle niveaus.', image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
-      { id: 'touring', label: 'Touring-SUP', desc: 'Planken voor lange afstanden, verkenning en avontuur.', image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
-      { id: 'race', label: 'Wedstrijd', desc: 'High-performance planken voor wedstrijden en sportief peddelen.', image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
-      { id: 'whitewater', label: 'Wildwater', desc: 'Robuuste planken ontworpen voor rivierstroomversnellingen en lifestyle.', image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
-      { id: 'yoga', label: 'Yoga', desc: 'Ruime decks ontworpen voor yoga en fitness.', image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
-      { id: 'surf', label: 'Surf', desc: 'Wendbare planken om golven te pakken en te surfen.', image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
-      { id: 'fishing', label: 'Vissen', desc: 'Stabiele platforms met hengeldragers en een werkromp voor de visserij.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
-      { id: 'kids', label: 'SUP voor kinderen', desc: 'Kleinere, lichtere planken ontworpen voor kinderen.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
-      { id: 'multi', label: 'Meerdere personen', desc: 'Team boards in groot formaat voor 6–8 personen.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+      { id: 'all-around', label: 'Allround', desc: 'Veelzijdige SUP-planken voor peddelaars van alle niveaus.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring-SUP', desc: 'Planken voor lange afstanden, verkenning en avontuur.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Wedstrijd', desc: 'High-performance planken voor wedstrijden en sportief peddelen.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Wildwater', desc: 'Robuuste planken ontworpen voor rivierstroomversnellingen en lifestyle.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Ruime decks ontworpen voor yoga en fitness.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Wendbare planken om golven te pakken en te surfen.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Vissen', desc: 'Stabiele platforms met hengeldragers en een werkromp voor de visserij.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'SUP voor kinderen', desc: 'Kleinere, lichtere planken ontworpen voor kinderen.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Meerdere personen', desc: 'Team boards in groot formaat voor 6–8 personen.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
 }
@@ -5284,14 +5284,14 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Club Team Boards — Race Platform',
         body: 'Race platform with specification adjustments and club graphics locked at the sample stage, tooling reused across two seasons so the expansion reorder matched the original fleet exactly.',
         hue: 28,
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
       },
       {
         tag: 'Brand Line Extension',
         title: 'Brand Line Extension — Inflatable SUP',
         body: 'An established watersports brand added an inflatable SUP line: engineering review, custom mold, three sizes, and a 50 pcs first production run with artwork-match and air-tightness verification before scale-up — designs and tooling owned by the brand.',
         hue: 210,
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
       },
     ],
   },
@@ -5312,14 +5312,14 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Tablas de equipo — plataforma de competición',
         body: 'Plataforma de competición con ajustes de especificación y gráficos del club fijados en la fase de muestra; el utillaje se reutilizó dos temporadas para que la ampliación coincidiera exactamente con la flota original.',
         hue: 28,
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
       },
       {
         tag: 'Extensión de marca',
         title: 'Extensión de línea — SUP hinchable',
         body: 'Una marca de deportes acuáticos consolidada añadió una línea de SUP hinchable: revisión de ingeniería, molde a medida, tres tallas y una primera tirada de 50 unidades verificada en arte y estanqueidad antes del escalado — con diseños y utillaje en propiedad de la marca.',
         hue: 210,
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
       },
     ],
   },
@@ -5340,14 +5340,14 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Planches d\'équipe — plateforme de course',
         body: 'Plateforme de course avec ajustements de spécification et graphismes du club figés au stade de l\'échantillon, outillage réutilisé sur deux saisons afin que la réitération corresponde exactement à la flotte d\'origine.',
         hue: 28,
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
       },
       {
         tag: 'Extension de gamme',
         title: 'Extension de gamme — SUP gonflable',
         body: 'Une marque de sports nautiques établie a ajouté une gamme de SUP gonflables : revue d\'ingénierie, moule sur mesure, trois tailles et une première production de 50 pièces vérifiée en graphisme et en étanchéité avant la montée en série — les designs et l\'outillage restant la propriété de la marque.',
         hue: 210,
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
       },
     ],
   },
@@ -5368,14 +5368,14 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Club-Team-Boards — Rennplattform',
         body: 'Rennplattform mit Spezifikationsanpassungen und Clubgrafik, im Musterstadium festgelegt; das Werkzeug wurde über zwei Saisons wiederverwendet, sodass die Nachbestellung exakt der ursprünglichen Flotte entsprach.',
         hue: 28,
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
       },
       {
         tag: 'Markenlinienerweiterung',
         title: 'Markenlinienerweiterung — aufblasbares SUP',
         body: 'Eine etablierte Wassersportmarke ergänzte eine Linie aufblasbarer SUPs: Engineering-Prüfung, individuelle Form, drei Größen und eine Erstproduktion von 50 Stück mit Grafik- und Dichtheitsprüfung vor dem Hochskalieren — Design und Werkzeug gehören der Marke.',
         hue: 210,
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
       },
     ],
   },
@@ -5396,14 +5396,14 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Team board da club — piattaforma gara',
         body: "Piattaforma da gara con aggiustamenti di specifica e grafica del club fissati in fase di campione; lo stampo è stato riutilizzato per due stagioni, così l’ampliamento corrispondeva esattamente alla flotta originale.",
         hue: 28,
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
       },
       {
         tag: 'Estensione di linea',
         title: 'Estensione di linea — SUP gonfiabile',
         body: 'Un affermato marchio di sport acquatici ha aggiunto una linea di SUP gonfiabili: verifica ingegneristica, forma personalizzata, tre misure e una prima produzione di 50 pezzi con verifica grafica e di tenuta prima di scalare — design e stampo sono di proprietà del marchio.',
         hue: 210,
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
       },
     ],
   },
@@ -5424,14 +5424,14 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Team boards de clube — plataforma de corrida',
         body: "Plataforma de corrida com ajustes de especificação e gráfica do clube fixados na fase de amostra; o molde foi reutilizado durante duas temporadas, para que a ampliação correspondesse exatamente à frota original.",
         hue: 28,
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
       },
       {
         tag: 'Extensão de linha',
         title: 'Extensão de linha — SUP insuflável',
         body: 'Uma marca consolidada de desportos aquáticos adicionou uma linha de SUP insufláveis: verificação de engenharia, forma personalizada, três tamanhos e uma primeira produção de 50 unidades com verificação de gráfica e estanquicidade antes de escalar — design e molde são propriedade da marca.',
         hue: 210,
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
       },
     ],
   },
@@ -5452,14 +5452,14 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Clubteam boards — wedstrijdplatform',
         body: 'Wedstrijdplatform met specificatieaanpassingen en clubgraphics vastgelegd in de monsterfase; de matrijs werd twee seizoenen hergebruikt, zodat de uitbreiding exact overeenkwam met de oorspronkelijke vloot.',
         hue: 28,
-        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
       },
       {
         tag: 'Lijnuitbreiding',
         title: 'Lijnuitbreiding — opblaasbare SUP',
         body: 'Een gevestigd watersportmerk voegde een lijn opblaasbare SUPs toe: engineeringbeoordeling, op maat gemaakte vorm, drie maten en een eerste productie van 50 stuks met controle van graphics en dichtheid vóór het opschalen — design en matrijs blijven eigendom van het merk.',
         hue: 210,
-        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
       },
     ],
   },
@@ -5922,8 +5922,8 @@ export const faq: Localized<FaqContent> = {
     sub: 'Questions buyers ask before placing an order — answered with our actual terms.',
     items: [
       {
-        q: 'What does SUPsfactory manufacture?',
-        a: 'SUPsfactory is a professional SUP manufacturing factory specializing in customized inflatable SUP boards and related water sports products for global brands and businesses — engineered, sampled and produced in our own 12,500 m² plant in Qingdao, China.',
+        q: 'What does iSupfactory manufacture?',
+        a: 'iSupfactory is a professional SUP manufacturing factory specializing in customized inflatable SUP boards and related water sports products for global brands and businesses — engineered, sampled and produced in our own 12,500 m² plant in Qingdao, China.',
       },
       {
         q: 'What is the difference between OEM and ODM?',
@@ -5989,8 +5989,8 @@ export const faq: Localized<FaqContent> = {
     sub: 'Estas son las preguntas que un comprador plantea antes de encargar — respondidas con nuestras condiciones reales.',
     items: [
       {
-        q: '¿Qué fabrica SUPsfactory?',
-        a: 'SUPsfactory es una fábrica profesional de fabricación de SUP especializada en tablas hinchables personalizadas y productos acuáticos relacionados para marcas y empresas globales — diseñadas, muestreadas y producidas en nuestra propia planta de 12,500 m² en Qingdao, China.',
+        q: '¿Qué fabrica iSupfactory?',
+        a: 'iSupfactory es una fábrica profesional de fabricación de SUP especializada en tablas hinchables personalizadas y productos acuáticos relacionados para marcas y empresas globales — diseñadas, muestreadas y producidas en nuestra propia planta de 12,500 m² en Qingdao, China.',
       },
       {
         q: '¿Cuál es la diferencia entre OEM y ODM?',
@@ -6056,8 +6056,8 @@ export const faq: Localized<FaqContent> = {
     sub: 'Les questions que les acheteurs posent avant de passer commande — réponses avec nos conditions réelles.',
     items: [
       {
-        q: 'Que fabrique SUPsfactory ?',
-        a: 'SUPsfactory est une usine professionnelle de fabrication de SUP, spécialisée dans les planches de SUP gonflables personnalisées et les produits de sports nautiques associés pour les marques et entreprises du monde entier — conçues, échantillonnées et produites dans notre propre usine de 12 500 m² à Qingdao, en Chine.',
+        q: 'Que fabrique iSupfactory ?',
+        a: 'iSupfactory est une usine professionnelle de fabrication de SUP, spécialisée dans les planches de SUP gonflables personnalisées et les produits de sports nautiques associés pour les marques et entreprises du monde entier — conçues, échantillonnées et produites dans notre propre usine de 12 500 m² à Qingdao, en Chine.',
       },
       {
         q: 'Quelle est la différence entre OEM et ODM ?',
@@ -6123,8 +6123,8 @@ export const faq: Localized<FaqContent> = {
     sub: 'Fragen, die Käufer vor einer Bestellung stellen — beantwortet mit unseren tatsächlichen Konditionen.',
     items: [
       {
-        q: 'Was stellt SUPsfactory her?',
-        a: 'SUPsfactory ist eine professionelle SUP-Fertigungsfabrik, spezialisiert auf individuelle aufblasbare SUP-Boards und verwandte Wassersportprodukte für globale Marken und Unternehmen — konstruiert, bemustert und produziert in unserem eigenen Werk mit 12,500 m² in Qingdao, China.',
+        q: 'Was stellt iSupfactory her?',
+        a: 'iSupfactory ist eine professionelle SUP-Fertigungsfabrik, spezialisiert auf individuelle aufblasbare SUP-Boards und verwandte Wassersportprodukte für globale Marken und Unternehmen — konstruiert, bemustert und produziert in unserem eigenen Werk mit 12,500 m² in Qingdao, China.',
       },
       {
         q: 'Was ist der Unterschied zwischen OEM und ODM?',
@@ -6190,8 +6190,8 @@ export const faq: Localized<FaqContent> = {
     sub: 'Le domande che gli acquirenti pongono prima di ordinare — risposte con le nostre condizioni reali.',
     items: [
       {
-        q: 'Cosa produce SUPsfactory?',
-        a: "SUPsfactory è una fabbrica professionale specializzata in tavole SUP gonfiabili personalizzate e prodotti per sport acquatici correlati, per marchi e aziende globali — progettate, campionate e prodotte nel nostro stabilimento di 12,500 m² a Qingdao, Cina.",
+        q: 'Cosa produce iSupfactory?',
+        a: "iSupfactory è una fabbrica professionale specializzata in tavole SUP gonfiabili personalizzate e prodotti per sport acquatici correlati, per marchi e aziende globali — progettate, campionate e prodotte nel nostro stabilimento di 12,500 m² a Qingdao, Cina.",
       },
       {
         q: 'Qual è la differenza tra OEM e ODM?',
@@ -6257,8 +6257,8 @@ export const faq: Localized<FaqContent> = {
     sub: 'As perguntas que os compradores fazem antes de encomendar — respondidas com as nossas condições reais.',
     items: [
       {
-        q: 'O que é que a SUPsfactory produz?',
-        a: 'A SUPsfactory é uma fábrica profissional especializada em pranchas SUP insufláveis personalizadas e produtos relacionados com desportos aquáticos, para marcas e empresas globais — concebidas, amostradas e produzidas na nossa fábrica de 12,500 m² em Qingdao, China.',
+        q: 'O que é que a iSupfactory produz?',
+        a: 'A iSupfactory é uma fábrica profissional especializada em pranchas SUP insufláveis personalizadas e produtos relacionados com desportos aquáticos, para marcas e empresas globais — concebidas, amostradas e produzidas na nossa fábrica de 12,500 m² em Qingdao, China.',
       },
       {
         q: 'Qual é a diferença entre OEM e ODM?',
@@ -6324,8 +6324,8 @@ export const faq: Localized<FaqContent> = {
     sub: 'De vragen die kopers stellen vóór een bestelling — beantwoord met onze echte voorwaarden.',
     items: [
       {
-        q: 'Wat produceert SUPsfactory?',
-        a: 'SUPsfactory is een professionele fabriek gespecialiseerd in gepersonaliseerde opblaasbare SUP-planken en gerelateerde watersportproducten, voor wereldwijde merken en bedrijven — ontworpen, bemonsterd en geproduceerd in onze eigen fabriek van 12,500 m² in Qingdao, China.',
+        q: 'Wat produceert iSupfactory?',
+        a: 'iSupfactory is een professionele fabriek gespecialiseerd in gepersonaliseerde opblaasbare SUP-planken en gerelateerde watersportproducten, voor wereldwijde merken en bedrijven — ontworpen, bemonsterd en geproduceerd in onze eigen fabriek van 12,500 m² in Qingdao, China.',
       },
       {
         q: 'Wat is het verschil tussen OEM en ODM?',
@@ -6394,12 +6394,12 @@ export const homeFaq: Localized<FaqContent> = {
     sub: faq.en.sub,
     items: [
       {
-        q: 'Who is SUPsfactory?',
-        a: 'SUPsfactory is a SUP OEM and ODM manufacturer in Qingdao, China, providing product development, prototyping, manufacturing, quality control and export production for brands, distributors and outdoor businesses.',
+        q: 'Who is iSupfactory?',
+        a: 'iSupfactory is a SUP OEM and ODM manufacturer in Qingdao, China, providing product development, prototyping, manufacturing, quality control and export production for brands, distributors and outdoor businesses.',
       },
       {
-        q: 'Is SUPsfactory an OEM manufacturer?',
-        a: 'Yes. SUPsfactory manufactures inflatable SUPs to customer-approved specifications, including dimensions, materials, construction, artwork, accessories and packaging. ODM product development is also available for brands that want to develop a SUP from a brief.',
+        q: 'Is iSupfactory an OEM manufacturer?',
+        a: 'Yes. iSupfactory manufactures inflatable SUPs to customer-approved specifications, including dimensions, materials, construction, artwork, accessories and packaging. ODM product development is also available for brands that want to develop a SUP from a brief.',
       },
       faq.en.items[1],
       faq.en.items[2],
@@ -6417,12 +6417,12 @@ export const homeFaq: Localized<FaqContent> = {
     sub: faq.es.sub,
     items: [
       {
-        q: '¿Quién es SUPsfactory?',
-        a: 'SUPsfactory es un fabricante OEM y ODM de SUP en Qingdao, China, que ofrece desarrollo de producto, prototipado, fabricación, control de calidad y producción para exportación a marcas, distribuidores y empresas de actividades al aire libre.',
+        q: '¿Quién es iSupfactory?',
+        a: 'iSupfactory es un fabricante OEM y ODM de SUP en Qingdao, China, que ofrece desarrollo de producto, prototipado, fabricación, control de calidad y producción para exportación a marcas, distribuidores y empresas de actividades al aire libre.',
       },
       {
-        q: '¿Es SUPsfactory un fabricante OEM?',
-        a: 'Sí. SUPsfactory fabrica SUP hinchables según las especificaciones aprobadas por el cliente: dimensiones, materiales, construcción, arte, accesorios y embalaje. El desarrollo de producto ODM también está disponible para marcas que quieran desarrollar un SUP a partir de un brief.',
+        q: '¿Es iSupfactory un fabricante OEM?',
+        a: 'Sí. iSupfactory fabrica SUP hinchables según las especificaciones aprobadas por el cliente: dimensiones, materiales, construcción, arte, accesorios y embalaje. El desarrollo de producto ODM también está disponible para marcas que quieran desarrollar un SUP a partir de un brief.',
       },
       faq.es.items[1],
       faq.es.items[2],
@@ -6440,12 +6440,12 @@ export const homeFaq: Localized<FaqContent> = {
     sub: faq.fr.sub,
     items: [
       {
-        q: 'Qui est SUPsfactory ?',
-        a: 'SUPsfactory est un fabricant OEM et ODM de SUP à Qingdao, en Chine, qui fournit développement de produit, prototypage, fabrication, contrôle qualité et production destinée à l\'exportation aux marques, distributeurs et entreprises d\'activités de plein air.',
+        q: 'Qui est iSupfactory ?',
+        a: 'iSupfactory est un fabricant OEM et ODM de SUP à Qingdao, en Chine, qui fournit développement de produit, prototypage, fabrication, contrôle qualité et production destinée à l\'exportation aux marques, distributeurs et entreprises d\'activités de plein air.',
       },
       {
-        q: 'SUPsfactory est-il un fabricant OEM ?',
-        a: 'Oui. SUPsfactory fabrique des SUP gonflables selon les spécifications approuvées par le client : dimensions, matériaux, construction, décor, accessoires et emballage. Le développement de produit ODM est également disponible pour les marques qui souhaitent développer un SUP à partir d\'un brief.',
+        q: 'iSupfactory est-il un fabricant OEM ?',
+        a: 'Oui. iSupfactory fabrique des SUP gonflables selon les spécifications approuvées par le client : dimensions, matériaux, construction, décor, accessoires et emballage. Le développement de produit ODM est également disponible pour les marques qui souhaitent développer un SUP à partir d\'un brief.',
       },
       faq.fr.items[1],
       faq.fr.items[2],
@@ -6463,12 +6463,12 @@ export const homeFaq: Localized<FaqContent> = {
     sub: faq.de.sub,
     items: [
       {
-        q: 'Wer ist SUPsfactory?',
-        a: 'SUPsfactory ist ein OEM- und ODM-Hersteller für aufblasbare SUPs in Qingdao, China, der Marken, Distributoren und Outdoor-Unternehmen Produktentwicklung, Prototypenbau, Fertigung, Qualitätskontrolle und Exportproduktion anbietet.',
+        q: 'Wer ist iSupfactory?',
+        a: 'iSupfactory ist ein OEM- und ODM-Hersteller für aufblasbare SUPs in Qingdao, China, der Marken, Distributoren und Outdoor-Unternehmen Produktentwicklung, Prototypenbau, Fertigung, Qualitätskontrolle und Exportproduktion anbietet.',
       },
       {
-        q: 'Ist SUPsfactory ein OEM-Hersteller?',
-        a: 'Ja. SUPsfactory fertigt aufblasbare SUPs nach den vom Kunden freigegebenen Spezifikationen, einschließlich Abmessungen, Materialien, Konstruktion, Grafik, Zubehör und Verpackung. ODM-Produktentwicklung ist ebenfalls für Marken verfügbar, die ein SUP auf Basis eines Briefings entwickeln möchten.',
+        q: 'Ist iSupfactory ein OEM-Hersteller?',
+        a: 'Ja. iSupfactory fertigt aufblasbare SUPs nach den vom Kunden freigegebenen Spezifikationen, einschließlich Abmessungen, Materialien, Konstruktion, Grafik, Zubehör und Verpackung. ODM-Produktentwicklung ist ebenfalls für Marken verfügbar, die ein SUP auf Basis eines Briefings entwickeln möchten.',
       },
       faq.de.items[1],
       faq.de.items[2],
@@ -6486,12 +6486,12 @@ export const homeFaq: Localized<FaqContent> = {
     sub: faq.it.sub,
     items: [
       {
-        q: 'Chi è SUPsfactory?',
-        a: "SUPsfactory è un produttore OEM e ODM di SUP a Qingdao, Cina, che offre sviluppo prodotto, prototipazione, produzione, controllo qualità e produzione per l’export a marchi, distributori e aziende outdoor.",
+        q: 'Chi è iSupfactory?',
+        a: "iSupfactory è un produttore OEM e ODM di SUP a Qingdao, Cina, che offre sviluppo prodotto, prototipazione, produzione, controllo qualità e produzione per l’export a marchi, distributori e aziende outdoor.",
       },
       {
-        q: 'SUPsfactory è un produttore OEM?',
-        a: 'Sì. SUPsfactory produce SUP gonfiabili secondo le specifiche approvate dal cliente, incluse dimensioni, materiali, costruzione, artwork, accessori e imballaggio. Lo sviluppo prodotto ODM è disponibile anche per i marchi che vogliono sviluppare un SUP da un brief.',
+        q: 'iSupfactory è un produttore OEM?',
+        a: 'Sì. iSupfactory produce SUP gonfiabili secondo le specifiche approvate dal cliente, incluse dimensioni, materiali, costruzione, artwork, accessori e imballaggio. Lo sviluppo prodotto ODM è disponibile anche per i marchi che vogliono sviluppare un SUP da un brief.',
       },
       faq.it.items[1],
       faq.it.items[2],
@@ -6509,12 +6509,12 @@ export const homeFaq: Localized<FaqContent> = {
     sub: faq.pt.sub,
     items: [
       {
-        q: 'Quem é a SUPsfactory?',
-        a: 'A SUPsfactory é um fabricante OEM e ODM de SUP em Qingdao, China, que fornece desenvolvimento de produto, prototipagem, produção, controlo de qualidade e produção para exportação a marcas, distribuidores e empresas outdoor.',
+        q: 'Quem é a iSupfactory?',
+        a: 'A iSupfactory é um fabricante OEM e ODM de SUP em Qingdao, China, que fornece desenvolvimento de produto, prototipagem, produção, controlo de qualidade e produção para exportação a marcas, distribuidores e empresas outdoor.',
       },
       {
-        q: 'A SUPsfactory é um fabricante OEM?',
-        a: 'Sim. A SUPsfactory produz SUP insufláveis de acordo com as especificações aprovadas pelo cliente, incluindo dimensões, materiais, construção, artwork, acessórios e embalagem. O desenvolvimento de produto ODM também está disponível para marcas que queiram desenvolver um SUP a partir de um briefing.',
+        q: 'A iSupfactory é um fabricante OEM?',
+        a: 'Sim. A iSupfactory produz SUP insufláveis de acordo com as especificações aprovadas pelo cliente, incluindo dimensões, materiais, construção, artwork, acessórios e embalagem. O desenvolvimento de produto ODM também está disponível para marcas que queiram desenvolver um SUP a partir de um briefing.',
       },
       faq.pt.items[1],
       faq.pt.items[2],
@@ -6532,12 +6532,12 @@ export const homeFaq: Localized<FaqContent> = {
     sub: faq.nl.sub,
     items: [
       {
-        q: 'Wie is SUPsfactory?',
-        a: 'SUPsfactory is een OEM- en ODM-fabrikant van SUP in Qingdao, China, die productontwikkeling, prototyping, productie, kwaliteitscontrole en exportproductie levert aan merken, distributeurs en outdoor-bedrijven.',
+        q: 'Wie is iSupfactory?',
+        a: 'iSupfactory is een OEM- en ODM-fabrikant van SUP in Qingdao, China, die productontwikkeling, prototyping, productie, kwaliteitscontrole en exportproductie levert aan merken, distributeurs en outdoor-bedrijven.',
       },
       {
-        q: 'Is SUPsfactory een OEM-fabrikant?',
-        a: 'Ja. SUPsfactory produceert opblaasbare SUPs volgens de door de klant goedgekeurde specificaties, inclusief afmetingen, materialen, constructie, artwork, accessoires en verpakking. ODM-productontwikkeling is ook beschikbaar voor merken die een SUP willen ontwikkelen op basis van een briefing.',
+        q: 'Is iSupfactory een OEM-fabrikant?',
+        a: 'Ja. iSupfactory produceert opblaasbare SUPs volgens de door de klant goedgekeurde specificaties, inclusief afmetingen, materialen, constructie, artwork, accessoires en verpakking. ODM-productontwikkeling is ook beschikbaar voor merken die een SUP willen ontwikkelen op basis van een briefing.',
       },
       faq.nl.items[1],
       faq.nl.items[2],
@@ -6565,43 +6565,43 @@ export const cta: Localized<CtaContent> = {
     title: 'Ready to Develop Your SUP Product?',
     body: "Whether you already have a complete product specification or are still developing your concept, our team can help you evaluate the next step. Tell us what you want to build — we'll review your requirements and discuss the most practical path from concept to production.",
     button: 'Start Your SUP Project',
-    note: 'Reply within 1 business day · NDA on request before file exchange · info@supsfactory.com · +86-13305324192',
+    note: 'Reply within 1 business day · NDA on request before file exchange · info@isupfactory.com · +86-13305324192',
   },
   es: {
     title: '¿Listo para desarrollar tu producto de SUP?',
     body: 'Ya sea que tengas una especificación de producto completa o estés todavía desarrollando tu concepto, nuestro equipo puede ayudarte a evaluar el siguiente paso. Cuéntanos qué quieres construir — revisaremos tus requisitos y plantearemos la vía más práctica del concepto a la producción.',
     button: 'Inicia tu proyecto de SUP',
-    note: 'Respuesta en 1 día laborable · NDA disponible antes del intercambio de archivos · info@supsfactory.com · +86-13305324192',
+    note: 'Respuesta en 1 día laborable · NDA disponible antes del intercambio de archivos · info@isupfactory.com · +86-13305324192',
   },
   fr: {
     title: 'Prêt à développer votre produit SUP ?',
     body: 'Que vous disposiez déjà d\'une spécification produit complète ou que vous développiez encore votre concept, notre équipe peut vous aider à évaluer la suite. Dites-nous ce que vous souhaitez construire — nous examinerons vos exigences et évoquerons la voie la plus pratique, du concept à la production.',
     button: 'Lancer votre projet de SUP',
-    note: 'Réponse sous 1 jour ouvrable · NDA sur demande avant l\'échange de fichiers · info@supsfactory.com · +86-13305324192',
+    note: 'Réponse sous 1 jour ouvrable · NDA sur demande avant l\'échange de fichiers · info@isupfactory.com · +86-13305324192',
   },
   de: {
     title: 'Bereit, Ihr SUP-Produkt zu entwickeln?',
     body: 'Ob Sie bereits eine vollständige Produktspezifikation haben oder Ihr Konzept noch entwickeln, unser Team kann Ihnen helfen, den nächsten Schritt zu bewerten. Teilen Sie uns mit, was Sie bauen möchten — wir prüfen Ihre Anforderungen und besprechen den praktischsten Weg vom Konzept bis zur Produktion.',
     button: 'Ihr SUP-Projekt starten',
-    note: 'Antwort innerhalb eines Werktags · NDA auf Anfrage vor dem Dateiaustausch · info@supsfactory.com · +86-13305324192',
+    note: 'Antwort innerhalb eines Werktags · NDA auf Anfrage vor dem Dateiaustausch · info@isupfactory.com · +86-13305324192',
   },
   it: {
     title: 'Pronto a sviluppare il tuo prodotto SUP?',
     body: 'Che tu abbia già una specifica di prodotto completa o stia ancora sviluppando il tuo concept, il nostro team può aiutarti a valutare il passo successivo. Dicci cosa vuoi costruire — esamineremo i tuoi requisiti e discuteremo la via più pratica dal concept alla produzione.',
     button: 'Avvia il tuo progetto SUP',
-    note: 'Risposta entro un giorno lavorativo · NDA su richiesta prima dello scambio di file · info@supsfactory.com · +86-13305324192',
+    note: 'Risposta entro un giorno lavorativo · NDA su richiesta prima dello scambio di file · info@isupfactory.com · +86-13305324192',
   },
   pt: {
     title: 'Pronto a desenvolver o teu produto de SUP?',
     body: 'Quer já tenhas uma especificação de produto completa ou estejas ainda a desenvolver o teu conceito, a nossa equipa pode ajudar-te a avaliar o passo seguinte. Diz-nos o que queres construir — vamos analisar os teus requisitos e discutir o caminho mais prático do conceito à produção.',
     button: 'Inicia o teu projeto de SUP',
-    note: 'Resposta num dia útil · NDA mediante pedido antes da partilha de ficheiros · info@supsfactory.com · +86-13305324192',
+    note: 'Resposta num dia útil · NDA mediante pedido antes da partilha de ficheiros · info@isupfactory.com · +86-13305324192',
   },
   nl: {
     title: 'Klaar om jouw SUP-product te ontwikkelen?',
     body: 'Of je nu al een volledige productspecificatie hebt of je concept nog aan het ontwikkelen bent, ons team kan je helpen de volgende stap te evalueren. Vertel ons wat je wilt bouwen — we beoordelen jouw vereisten en bespreken de meest praktische weg van concept tot productie.',
     button: 'Start je SUP-project',
-    note: 'Antwoord binnen 1 werkdag · NDA op verzoek vóór bestandsuitwisseling · info@supsfactory.com · +86-13305324192',
+    note: 'Antwoord binnen 1 werkdag · NDA op verzoek vóór bestandsuitwisseling · info@isupfactory.com · +86-13305324192',
   },
 }
 
@@ -6623,7 +6623,7 @@ export const valueProp: Localized<ValuePropContent> = {
   en: {
     kicker: 'Our Role',
     title: 'More Than a SUP Factory',
-    sub: 'Many manufacturers can produce a standard paddle board. Our role is different. SUPsfactory is a custom SUP product development and manufacturing partner, helping businesses move from an initial idea to a production-ready product.',
+    sub: 'Many manufacturers can produce a standard paddle board. Our role is different. iSupfactory is a custom SUP product development and manufacturing partner, helping businesses move from an initial idea to a production-ready product.',
     cards: [
       {
         title: 'Product Development',
@@ -6654,7 +6654,7 @@ export const valueProp: Localized<ValuePropContent> = {
   es: {
     kicker: 'Nuestro papel',
     title: 'Más que una fábrica de SUP',
-    sub: 'Muchos fabricantes pueden producir una tabla de pádel estándar. Nuestro papel es distinto. SUPsfactory es un socio de desarrollo de productos y fabricación de SUP personalizados que ayuda a las empresas a pasar de la idea inicial a un producto listo para producir.',
+    sub: 'Muchos fabricantes pueden producir una tabla de pádel estándar. Nuestro papel es distinto. iSupfactory es un socio de desarrollo de productos y fabricación de SUP personalizados que ayuda a las empresas a pasar de la idea inicial a un producto listo para producir.',
     cards: [
       {
         title: 'Desarrollo de producto',
@@ -6685,7 +6685,7 @@ export const valueProp: Localized<ValuePropContent> = {
   fr: {
     kicker: 'Notre rôle',
     title: 'Plus qu\'une usine de SUP',
-    sub: 'De nombreux fabricants savent produire une planche de paddle standard. Notre rôle est différent. SUPsfactory est un partenaire de développement produit et de fabrication de SUP sur mesure qui aide les entreprises à passer de l\'idée initiale à un produit prêt pour la production.',
+    sub: 'De nombreux fabricants savent produire une planche de paddle standard. Notre rôle est différent. iSupfactory est un partenaire de développement produit et de fabrication de SUP sur mesure qui aide les entreprises à passer de l\'idée initiale à un produit prêt pour la production.',
     cards: [
       {
         title: 'Développement produit',
@@ -6716,7 +6716,7 @@ export const valueProp: Localized<ValuePropContent> = {
   de: {
     kicker: 'Unsere Rolle',
     title: 'Mehr als eine SUP-Fabrik',
-    sub: 'Viele Hersteller können ein Standard-SUP herstellen. Unsere Rolle ist anders: SUPsfactory ist ein Partner für Produktentwicklung und kundenspezifische Fertigung, der Unternehmen hilft, von der ersten Idee zum produktionsreifen Produkt zu gelangen.',
+    sub: 'Viele Hersteller können ein Standard-SUP herstellen. Unsere Rolle ist anders: iSupfactory ist ein Partner für Produktentwicklung und kundenspezifische Fertigung, der Unternehmen hilft, von der ersten Idee zum produktionsreifen Produkt zu gelangen.',
     cards: [
       {
         title: 'Produktentwicklung',
@@ -6747,7 +6747,7 @@ export const valueProp: Localized<ValuePropContent> = {
   it: {
     kicker: 'Il nostro ruolo',
     title: 'Più di una fabbrica di SUP',
-    sub: "Molti produttori sanno realizzare un SUP standard. Il nostro ruolo è diverso: SUPsfactory è un partner di sviluppo prodotto e produzione personalizzata che aiuta le aziende a passare dall’idea iniziale a un prodotto pronto per la produzione.",
+    sub: "Molti produttori sanno realizzare un SUP standard. Il nostro ruolo è diverso: iSupfactory è un partner di sviluppo prodotto e produzione personalizzata che aiuta le aziende a passare dall’idea iniziale a un prodotto pronto per la produzione.",
     cards: [
       {
         title: 'Sviluppo prodotto',
@@ -6778,7 +6778,7 @@ export const valueProp: Localized<ValuePropContent> = {
   pt: {
     kicker: 'O nosso papel',
     title: 'Mais do que uma fábrica de SUP',
-    sub: 'Muitos fabricantes sabem produzir um SUP padrão. O nosso papel é diferente: a SUPsfactory é uma parceira de desenvolvimento de produto e produção personalizada que ajuda as empresas a passar de uma ideia inicial a um produto pronto para a produção.',
+    sub: 'Muitos fabricantes sabem produzir um SUP padrão. O nosso papel é diferente: a iSupfactory é uma parceira de desenvolvimento de produto e produção personalizada que ajuda as empresas a passar de uma ideia inicial a um produto pronto para a produção.',
     cards: [
       {
         title: 'Desenvolvimento de produto',
@@ -6809,7 +6809,7 @@ export const valueProp: Localized<ValuePropContent> = {
   nl: {
     kicker: 'Onze rol',
     title: 'Meer dan een SUP-fabriek',
-    sub: 'Veel fabrikanten kunnen een standaard SUP produceren. Onze rol is anders: SUPsfactory is een partner voor productontwikkeling en maatwerkproductie die bedrijven helpt om van een eerste idee naar een product dat klaar is voor productie te gaan.',
+    sub: 'Veel fabrikanten kunnen een standaard SUP produceren. Onze rol is anders: iSupfactory is een partner voor productontwikkeling en maatwerkproductie die bedrijven helpt om van een eerste idee naar een product dat klaar is voor productie te gaan.',
     cards: [
       {
         title: 'Productontwikkeling',
@@ -6992,11 +6992,11 @@ export interface AboutContent {
 export const about: Localized<AboutContent> = {
   en: {
     kicker: 'About Us',
-    title: 'About SUPsfactory',
+    title: 'About iSupfactory',
     sub: 'Your Custom SUP Manufacturing Partner',
     story: [
       'We are an inflatable SUP OEM/ODM factory that has spent years building boards for brands, distributors and sourcing teams around the world. Along the way, we kept meeting the same kind of customer — brands and buyers with a clear product vision but no in-house plant to build it.',
-      'So we built SUPsfactory around them. Tiered minimums from 5–10-unit co-branding runs, complete engineering and design support, and a manufacturing team that treats your first order as seriously as your hundredth. You bring the brand; we run the factory.',
+      'So we built iSupfactory around them. Tiered minimums from 5–10-unit co-branding runs, complete engineering and design support, and a manufacturing team that treats your first order as seriously as your hundredth. You bring the brand; we run the factory.',
     ],
     values: [
       {
@@ -7048,18 +7048,18 @@ export const about: Localized<AboutContent> = {
     partnering: {
       title: 'Partnering With Global Businesses',
       body: [
-        'SUPsfactory works with SUP brands, distributors, resorts, schools and outdoor companies that need a reliable inflatable paddle board factory — from a first trial order to container-scale programs.',
+        'iSupfactory works with SUP brands, distributors, resorts, schools and outdoor companies that need a reliable inflatable paddle board factory — from a first trial order to container-scale programs.',
         'Tell us your market and target price, and we respond with a spec sheet, MOQ and lead times for your specific business model.',
       ],
     },
   },
   es: {
     kicker: 'Sobre nosotros',
-    title: 'Sobre SUPsfactory',
+    title: 'Sobre iSupfactory',
     sub: 'Tu socio de fabricación de SUP a medida',
     story: [
       'Somos una fábrica OEM/ODM de SUP hinchables que lleva años fabricando tablas para marcas, distribuidores y equipos de compra de todo el mundo. En el camino, nos encontrábamos una y otra vez con el mismo tipo de cliente: marcas y compradores con un plan de producto claro pero sin planta productiva propia.',
-      'Por eso construimos SUPsfactory a su alrededor. Pedidos mínimos por tramos desde 5–10 unidades de co-branding, soporte de ingeniería y diseño completo, y un equipo de fabricación que trata tu primer pedido con la misma seriedad que el centésimo. Tú traes la marca; nosotros dirigimos la fábrica.',
+      'Por eso construimos iSupfactory a su alrededor. Pedidos mínimos por tramos desde 5–10 unidades de co-branding, soporte de ingeniería y diseño completo, y un equipo de fabricación que trata tu primer pedido con la misma seriedad que el centésimo. Tú traes la marca; nosotros dirigimos la fábrica.',
     ],
     values: [
       {
@@ -7111,18 +7111,18 @@ export const about: Localized<AboutContent> = {
     partnering: {
       title: 'Colaboramos con empresas de todo el mundo',
       body: [
-        'SUPsfactory trabaja con marcas de SUP, distribuidores, resorts, escuelas y empresas de actividades al aire libre que necesitan una fábrica de tablas hinchables fiable — desde el primer pedido de prueba hasta programas de producción por volumen.',
+        'iSupfactory trabaja con marcas de SUP, distribuidores, resorts, escuelas y empresas de actividades al aire libre que necesitan una fábrica de tablas hinchables fiable — desde el primer pedido de prueba hasta programas de producción por volumen.',
         'Cuéntanos tu mercado y tu precio objetivo, y te responderemos con una ficha de especificaciones, MOQ y plazos para tu modelo de negocio.',
       ],
     },
   },
   fr: {
     kicker: 'À propos de nous',
-    title: 'À propos de SUPsfactory',
+    title: 'À propos de iSupfactory',
     sub: 'Votre partenaire de fabrication de SUP sur mesure',
     story: [
       'Nous sommes une usine OEM/ODM de SUP gonflables qui, depuis des années, fabrique des planches pour des marques, des distributeurs et des équipes d\'approvisionnement du monde entier. Chemin faisant, nous rencontrions sans cesse le même type de client : des marques et des acheteurs avec une vision produit claire, mais sans usine en propre pour la réaliser.',
-      'Nous avons donc bâti SUPsfactory autour d\'eux. Des minimums par paliers à partir de séries de co-branding de 5–10 unités, un soutien complet en ingénierie et en design, et une équipe de fabrication qui traite votre première commande avec autant de sérieux que la centième. Vous apportez la marque ; nous faisons tourner l\'usine.',
+      'Nous avons donc bâti iSupfactory autour d\'eux. Des minimums par paliers à partir de séries de co-branding de 5–10 unités, un soutien complet en ingénierie et en design, et une équipe de fabrication qui traite votre première commande avec autant de sérieux que la centième. Vous apportez la marque ; nous faisons tourner l\'usine.',
     ],
     values: [
       {
@@ -7174,18 +7174,18 @@ export const about: Localized<AboutContent> = {
     partnering: {
       title: 'Partenaire d\'entreprises du monde entier',
       body: [
-        'SUPsfactory travaille avec des marques de SUP, des distributeurs, des resorts, des écoles et des entreprises outdoor qui ont besoin d\'une usine de planches de paddle gonflables fiable — de la première commande d\'essai aux programmes à l\'échelle de conteneurs.',
+        'iSupfactory travaille avec des marques de SUP, des distributeurs, des resorts, des écoles et des entreprises outdoor qui ont besoin d\'une usine de planches de paddle gonflables fiable — de la première commande d\'essai aux programmes à l\'échelle de conteneurs.',
         'Dites-nous quel est votre marché et votre prix cible, et nous vous répondrons avec une fiche de spécifications, le MOQ et les délais adaptés à votre modèle économique.',
       ],
     },
   },
   de: {
     kicker: 'Über uns',
-    title: 'Über SUPsfactory',
+    title: 'Über iSupfactory',
     sub: 'Ihr Partner für kundenspezifische SUP-Fertigung',
     story: [
       'Wir sind eine OEM/ODM-Fabrik für aufblasbare SUPs, die seit Jahren Boards für Marken, Händler und Einkaufsteams auf der ganzen Welt herstellt. Dabei begegneten wir immer wieder demselben Kundentyp — Marken und Käufer mit einer klaren Produktvision, aber ohne eigene Produktionsstätte, um sie zu realisieren.',
-      'Also haben wir SUPsfactory um sie herum aufgebaut. Abgestufte Mindestmengen ab Co-Branding-Läufen von 5–10 Einheiten, vollständige Engineering- und Design-Unterstützung und ein Fertigungsteam, das Ihre erste Bestellung so ernst nimmt wie Ihre hundertste. Sie bringen die Marke; wir betreiben die Fabrik.',
+      'Also haben wir iSupfactory um sie herum aufgebaut. Abgestufte Mindestmengen ab Co-Branding-Läufen von 5–10 Einheiten, vollständige Engineering- und Design-Unterstützung und ein Fertigungsteam, das Ihre erste Bestellung so ernst nimmt wie Ihre hundertste. Sie bringen die Marke; wir betreiben die Fabrik.',
     ],
     values: [
       { title: 'Qualität zuerst', body: 'Jede Board durchläuft eine mehrstufige Qualitätskontrolle — Material, Schweißnähte, Druck, Montage und Verpackung werden in jeder Produktionsphase geprüft.' },
@@ -7210,18 +7210,18 @@ export const about: Localized<AboutContent> = {
     partnering: {
       title: 'Zusammenarbeit mit Unternehmen weltweit',
       body: [
-        'SUPsfactory arbeitet mit SUP-Marken, Händlern, Resorts, Schulen und Outdoor-Unternehmen zusammen, die eine zuverlässige Fabrik für aufblasbare SUP-Boards benötigen — vom ersten Musterauftrag bis zu Container-Programmen.',
+        'iSupfactory arbeitet mit SUP-Marken, Händlern, Resorts, Schulen und Outdoor-Unternehmen zusammen, die eine zuverlässige Fabrik für aufblasbare SUP-Boards benötigen — vom ersten Musterauftrag bis zu Container-Programmen.',
         'Teilen Sie uns Ihren Markt und Ihren Zielpreis mit, und wir antworten mit einem Spezifikationsblatt, MOQ und Lieferzeiten passend zu Ihrem Geschäftsmodell.',
       ],
     },
   },
   it: {
     kicker: 'Chi siamo',
-    title: 'Chi è SUPsfactory',
+    title: 'Chi è iSupfactory',
     sub: 'Il tuo partner per la produzione SUP personalizzata',
     story: [
       'Siamo una fabbrica OEM/ODM di SUP gonfiabili che da anni produce tavole per marchi, distributori e team di sourcing in tutto il mondo. Lungo il percorso continuavamo a incontrare lo stesso tipo di cliente — marchi e acquirenti con una visione di prodotto chiara ma senza uno stabilimento proprio per realizzarla.',
-      'Così abbiamo costruito SUPsfactory intorno a loro. Quantità minime a scaglioni a partire da lanci co-branding di 5–10 unità, pieno supporto di ingegneria e design, e un team di produzione che prende il tuo primo ordine seriamente quanto il centesimo. Tu porti il marchio; noi gestiamo la fabbrica.',
+      'Così abbiamo costruito iSupfactory intorno a loro. Quantità minime a scaglioni a partire da lanci co-branding di 5–10 unità, pieno supporto di ingegneria e design, e un team di produzione che prende il tuo primo ordine seriamente quanto il centesimo. Tu porti il marchio; noi gestiamo la fabbrica.',
     ],
     values: [
       { title: 'La qualità al primo posto', body: 'Ogni tavola passa un controllo qualità a più stadi — materiali, saldature, stampa, assemblaggio e imballaggio vengono verificati in ogni fase della produzione.' },
@@ -7246,18 +7246,18 @@ export const about: Localized<AboutContent> = {
     partnering: {
       title: 'Collaborazione con aziende globali',
       body: [
-        'SUPsfactory collabora con marchi SUP, distributori, resort, scuole e aziende outdoor che hanno bisogno di una fabbrica affidabile di tavole SUP gonfiabili — dal primo ordine di prova a programmi su scala container.',
+        'iSupfactory collabora con marchi SUP, distributori, resort, scuole e aziende outdoor che hanno bisogno di una fabbrica affidabile di tavole SUP gonfiabili — dal primo ordine di prova a programmi su scala container.',
         'Comunicaci il tuo mercato e il tuo prezzo target, e risponderemo con una scheda tecnica, MOQ e tempi di consegna adatti al tuo modello di business.',
       ],
     },
   },
   pt: {
     kicker: 'Quem somos',
-    title: 'Quem é a SUPsfactory',
+    title: 'Quem é a iSupfactory',
     sub: 'O teu parceiro para produção de SUP personalizada',
     story: [
       'Somos uma fábrica OEM/ODM de SUP insufláveis que há anos produz pranchas para marcas, distribuidores e equipas de sourcing em todo o mundo. Ao longo do caminho continuámos a encontrar o mesmo tipo de cliente — marcas e compradores com uma visão de produto clara mas sem uma fábrica própria para a concretizar.',
-      'Por isso construímos a SUPsfactory à volta deles. Quantidades mínimas escalonadas a partir de lançamentos de co-branding de 5–10 unidades, apoio completo de engenharia e design, e uma equipa de produção que leva a tua primeira encomenda tão a sério como a centésima. Tu trazes a marca; nós tratamos da fábrica.',
+      'Por isso construímos a iSupfactory à volta deles. Quantidades mínimas escalonadas a partir de lançamentos de co-branding de 5–10 unidades, apoio completo de engenharia e design, e uma equipa de produção que leva a tua primeira encomenda tão a sério como a centésima. Tu trazes a marca; nós tratamos da fábrica.',
     ],
     values: [
       { title: 'Qualidade em primeiro lugar', body: 'Cada prancha passa por um controlo de qualidade em várias fases — materiais, soldaduras, impressão, montagem e embalagem são verificados em cada etapa da produção.' },
@@ -7282,18 +7282,18 @@ export const about: Localized<AboutContent> = {
     partnering: {
       title: 'Colaboração com empresas globais',
       body: [
-        'A SUPsfactory colabora com marcas de SUP, distribuidores, resorts, escolas e empresas outdoor que precisam de uma fábrica fiável de pranchas de SUP insufláveis — desde a primeira encomenda de amostras a programas à escala de contentor.',
+        'A iSupfactory colabora com marcas de SUP, distribuidores, resorts, escolas e empresas outdoor que precisam de uma fábrica fiável de pranchas de SUP insufláveis — desde a primeira encomenda de amostras a programas à escala de contentor.',
         'Diz-nos qual é o teu mercado e o teu preço-alvo, e responderemos com uma ficha técnica, MOQ e prazos de entrega adequados ao teu modelo de negócio.',
       ],
     },
   },
   nl: {
     kicker: 'Wie we zijn',
-    title: 'Wie is SUPsfactory',
+    title: 'Wie is iSupfactory',
     sub: 'Jouw partner voor gepersonaliseerde SUP-productie',
     story: [
       "Wij zijn een OEM/ODM-fabriek van opblaasbare SUP's die al jaren planken produceert voor merken, distributeurs en sourcingteams over de hele wereld. Onderweg bleven we hetzelfde type klant tegenkomen — merken en kopers met een duidelijke productvisie maar zonder eigen fabriek om die te realiseren.",
-      'Daarom hebben we SUPsfactory rond hen opgebouwd. Gedifferentieerde minimale afnames vanaf co-branding-runs van 5–10 stuks, volledige ondersteuning op engineering en design, en een productieteam dat jouw eerste bestelling net zo serieus neemt als je honderdste. Jij brengt het merk; wij runnen de fabriek.',
+      'Daarom hebben we iSupfactory rond hen opgebouwd. Gedifferentieerde minimale afnames vanaf co-branding-runs van 5–10 stuks, volledige ondersteuning op engineering en design, en een productieteam dat jouw eerste bestelling net zo serieus neemt als je honderdste. Jij brengt het merk; wij runnen de fabriek.',
     ],
     values: [
       { title: 'Kwaliteit voorop', body: 'Elke plank doorloopt een kwaliteitscontrole in meerdere fases — materialen, lassen, bedrukking, montage en verpakking worden in elke productiefase gecontroleerd.' },
@@ -7318,7 +7318,7 @@ export const about: Localized<AboutContent> = {
     partnering: {
       title: 'Samenwerking met wereldwijde bedrijven',
       body: [
-        "SUPsfactory werkt samen met SUP-merken, distributeurs, resorts, scholen en outdoor-bedrijven die een betrouwbare fabriek voor opblaasbare paddleboard-planken nodig hebben — van de eerste proefbestelling tot programma's op container-schaal.",
+        "iSupfactory werkt samen met SUP-merken, distributeurs, resorts, scholen en outdoor-bedrijven die een betrouwbare fabriek voor opblaasbare paddleboard-planken nodig hebben — van de eerste proefbestelling tot programma's op container-schaal.",
         'Vertel ons jouw markt en jouw doelprijs, en we antwoorden met een specificatieblad, MOQ en levertijden die passen bij jouw bedrijfsmodel.',
       ],
     },
@@ -7825,14 +7825,14 @@ export const series: Localized<SeriesContent> = {
         title: 'Leviathan Wake Series (The Whale Edition)',
         sku: 'SUP-LW11',
         body: 'A majestic blue whale totem with geometric and tribal patterns, paired with minimalist black-white swell lines. All-around 11 ft hull for lakes, rivers and coastal waters.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
         href: '/products/sup-leviathan-wake',
       },
       {
         title: 'Medusa Glow Series (The Jellyfish Edition)',
         sku: 'SUP-MG11',
         body: 'Vibrant jellyfish, sea stars and coral reefs with zero-fade EVA block piecing in refreshing mint green. All-around 11 ft hull for tropical and coastal adventures.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },
     ],
@@ -7846,14 +7846,14 @@ export const series: Localized<SeriesContent> = {
         title: 'Serie Leviathan Wake (La Edición de la Ballena)',
         sku: 'SUP-LW11',
         body: 'Un majestuoso tótem de ballena azul con patrones geométricos y tribales, junto a líneas minimalistas de oleaje en blanco y negro. Casco polivalente de 11 ft para lagos, ríos y aguas costeras.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
         href: '/products/sup-leviathan-wake',
       },
       {
         title: 'Serie Medusa Glow (La Edición de las Medusas)',
         sku: 'SUP-MG11',
         body: 'Medusas vibrantes, estrellas de mar y arrecifes de coral con bloques de EVA que no se decoloran, en un refrescante verde menta. Casco polivalente de 11 ft para aventuras tropicales y costeras.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },
     ],
@@ -7867,14 +7867,14 @@ export const series: Localized<SeriesContent> = {
         title: 'Série Leviathan Wake (L\'édition Baleine)',
         sku: 'SUP-LW11',
         body: 'Un majestueux totem de baleine bleue aux motifs géométriques et tribaux, associé à des lignes de houle minimalistes noir et blanc. Coque polyvalente de 11 ft pour les lacs, rivières et eaux côtières.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
         href: '/products/sup-leviathan-wake',
       },
       {
         title: 'Série Medusa Glow (L\'édition Méduses)',
         sku: 'SUP-MG11',
         body: 'Des méduses éclatantes, étoiles de mer et récifs coralliens avec un assemblage de blocs EVA résistant à la décoloration, dans un vert menthe rafraîchissant. Coque polyvalente de 11 ft pour les aventures tropicales et côtières.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },
     ],
@@ -7888,14 +7888,14 @@ export const series: Localized<SeriesContent> = {
         title: 'Leviathan-Wake-Serie (Die Wal-Edition)',
         sku: 'SUP-LW11',
         body: 'Ein majestätisches Blauwal-Totem mit geometrischen und tribalen Mustern, kombiniert mit minimalistischen schwarz-weißen Wellenlinien. Allround-Rumpf mit 11 ft für Seen, Flüsse und Küstengewässer.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
         href: '/products/sup-leviathan-wake',
       },
       {
         title: 'Medusa-Glow-Serie (Die Quallen-Edition)',
         sku: 'SUP-MG11',
         body: 'Leuchtende Quallen, Seesterne und Korallenriffe mit farbechten EVA-Blockmotiven in erfrischendem Mintgrün. Allround-Rumpf mit 11 ft für tropische und Küstenabenteuer.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },
     ],
@@ -7909,14 +7909,14 @@ export const series: Localized<SeriesContent> = {
         title: 'Serie Leviathan Wake (L’edizione balena)',
         sku: 'SUP-LW11',
         body: 'Un maestoso totem di balenottera azzurra con motivi geometrici e tribali, abbinato a linee minimaliste di mareggiate in bianco e nero. Scafo all-round da 11 ft per laghi, fiumi e acque costiere.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
         href: '/products/sup-leviathan-wake',
       },
       {
         title: 'Serie Medusa Glow (L’edizione meduse)',
         sku: 'SUP-MG11',
         body: 'Meduse luminose, stelle marine e barriere coralline con motivi EVA a blocchi a prova di scolorimento in un verde menta rinfrescante. Scafo all-round da 11 ft per avventure tropicali e costiere.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },
     ],
@@ -7930,14 +7930,14 @@ export const series: Localized<SeriesContent> = {
         title: 'Série Leviathan Wake (A edição baleia)',
         sku: 'SUP-LW11',
         body: 'Um majestoso totem de baleia-azul com motivos geométricos e tribais, combinado com linhas minimalistas de ondulação em preto e branco. Casco all-round de 11 ft para lagos, rios e águas costeiras.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
         href: '/products/sup-leviathan-wake',
       },
       {
         title: 'Série Medusa Glow (A edição medusas)',
         sku: 'SUP-MG11',
         body: 'Medusas luminosas, estrelas-do-mar e recifes de coral com motivos EVA em blocos à prova de desvanecimento num verde-menta refrescante. Casco all-round de 11 ft para aventuras tropicais e costeiras.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },
     ],
@@ -7951,14 +7951,14 @@ export const series: Localized<SeriesContent> = {
         title: 'Serie Leviathan Wake (De walvizeditie)',
         sku: 'SUP-LW11',
         body: 'Een majestueus totem van een blauwe vinvis met geometrische en tribale motieven, gecombineerd met minimalistische zwart-witte deininglijnen. All-round romp van 11 ft voor meren, rivieren en kustwateren.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
         href: '/products/sup-leviathan-wake',
       },
       {
         title: 'Serie Medusa Glow (De kwalleneditie)',
         sku: 'SUP-MG11',
         body: 'Lichtgevende kwallen, zeesterren en koraalriffen met kleurvaste EVA-blokmotieven in een verfrissend mintgroen. All-round romp van 11 ft voor tropische en kustavonturen.',
-        image: 'https://assets.supsfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },
     ],

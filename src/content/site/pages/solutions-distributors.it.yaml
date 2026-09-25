@@ -8,8 +8,8 @@ hero:
   title: 'Programmi direttamente dalla fabbrica per distributori e marchi'
   subtitle: 'Programmi all''ingrosso e private label da uno stabilimento di produzione di SUP gonfiabili. Acquista a prezzi diretti di fabbrica, costruisci il tuo assortimento a marchio proprio e distribuisci in territori esclusivi in oltre 50 paesi.'
   image:
-    src: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-building.webp
-    alt: Stabilimento di produzione e spedizione SUPsfactory
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: Stabilimento di produzione e spedizione iSupfactory
 
 answer:
   label: 'Risposta breve'
@@ -20,7 +20,7 @@ intro:
   tagline: Il programma
   title: 'Distribuzione private label basata su capacità produttiva propria'
   body: |
-    SUPsfactory progetta, costruisce e testa ogni SUP gonfiabile, kayak e accessorio nel proprio stabilimento di Laixi, Qingdao. Un accordo private label con noi significa che la fonte di approvvigionamento è integrata nel tuo marchio: ricevi tavole prodotte dalla fabbrica a tuo nome — non stock rivenduto di un altro distributore.
+    iSupfactory progetta, costruisce e testa ogni SUP gonfiabile, kayak e accessorio nel proprio stabilimento di Laixi, Qingdao. Un accordo private label con noi significa che la fonte di approvvigionamento è integrata nel tuo marchio: ricevi tavole prodotte dalla fabbrica a tuo nome — non stock rivenduto di un altro distributore.
 
     Poiché pianifichiamo la produzione attorno alle previsioni dei nostri clienti, possiamo programmare grandi volumi per l'avvio della stagione dell'emisfero settentrionale, stabilizzare i costi di trasporto tramite preordini e liberare capitale circolante con condizioni all'ingrosso trasparenti e piani di pagamento concordati. Ingegneria, campioni, controllo qualità e documentazione per l'export sono tutti gestiti internamente — non c'è alcun broker o intermediario commerciale nella filiera.
 
@@ -84,7 +84,7 @@ benefits:
 
 coverage:
   title: Distribuzione attuale
-  subtitle: 'SUPsfactory spedisce attualmente direttamente in questi mercati.'
+  subtitle: 'iSupfactory spedisce attualmente direttamente in questi mercati.'
   regions:
     - name: Europa
       countries: 'Francia, Germania, Regno Unito, Spagna, Italia, Paesi Bassi, Svezia, Norvegia, Polonia, Grecia'
@@ -106,7 +106,7 @@ faqs:
     - q: 'Qual è l''ordine minimo per un nuovo distributore?'
       a: 'I nuovi partner di distribuzione partono in genere con un ordine di approvazione campioni e pre-produzione, seguito da un primo container calibrato sulla loro stagione. I quantitativi minimi esatti dipendono dall''ampiezza del territorio e dall''assortimento scelto; il tuo account manager conferma il quantitativo iniziale durante la pianificazione di assortimento e branding.'
     - q: 'Possiamo vendere le tavole con il nostro marchio?'
-      a: 'Sì. Il private label è il modello standard qui: le tavole vengono prodotte a marchio proprio con le tue grafiche, il tuo imballaggio e le tue specifiche. SUPsfactory produce esclusivamente per i propri clienti e non compete con loro in nessun mercato.'
+      a: 'Sì. Il private label è il modello standard qui: le tavole vengono prodotte a marchio proprio con le tue grafiche, il tuo imballaggio e le tue specifiche. iSupfactory produce esclusivamente per i propri clienti e non compete con loro in nessun mercato.'
     - q: 'I territori sono esclusivi?'
       a: 'Sì. I programmi per distributori si basano su territori esclusivi — ogni partner all''ingrosso copre un paese o una regione definiti e riceve supporto sui prezzi e sul programma per quel mercato, come stabilito nell''accordo commerciale.'
     - q: 'Supportate il drop-shipping?'

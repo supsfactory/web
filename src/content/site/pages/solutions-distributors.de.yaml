@@ -8,8 +8,8 @@ hero:
   title: 'Fabrik-direkte Programme für Distributoren und Marken'
   subtitle: 'Großhandels- und Private-Label-Programme aus einer Fertigungsstätte für aufblasbare SUPs. Kaufen Sie zu fabrikdirekten Preisen, bauen Sie Ihr Sortiment unter eigener Marke auf und liefern Sie in exklusive Territorien in über 50 Länder.'
   image:
-    src: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-building.webp
-    alt: SUPsfactory Fertigungs- und Versandbetrieb
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: iSupfactory Fertigungs- und Versandbetrieb
 
 answer:
   label: 'Kurze Antwort'
@@ -20,7 +20,7 @@ intro:
   tagline: Über das Programm
   title: 'Private-Label-Vertrieb auf Basis eigener Fertigungskapazität'
   body: |
-    SUPsfactory entwirft, baut und prüft jedes aufblasbare SUP, Kajak und Zubehör in der eigenen Anlage in Laixi, Qingdao. Eine Private-Label-Vereinbarung mit uns bedeutet, dass die Versorgungsquelle in Ihre Marke eingebaut ist: Sie erhalten Boards, die unter Ihrem eigenen Namen von der Fabrik gefertigt werden — nicht nachverkaufter Bestand eines anderen Distributors.
+    iSupfactory entwirft, baut und prüft jedes aufblasbare SUP, Kajak und Zubehör in der eigenen Anlage in Laixi, Qingdao. Eine Private-Label-Vereinbarung mit uns bedeutet, dass die Versorgungsquelle in Ihre Marke eingebaut ist: Sie erhalten Boards, die unter Ihrem eigenen Namen von der Fabrik gefertigt werden — nicht nachverkaufter Bestand eines anderen Distributors.
 
     Da wir die Produktion rund um die Prognosen unserer Kunden planen, können wir große Läufe für den Saisonstart der nördlichen Hemisphäre einplanen, Frachtkosten durch Vorbestellungen stabilisieren und mit transparenten Großhandelsbedingungen und vereinbarten Zahlungsplänen Working Capital freisetzen. Technik, Muster, Qualitätskontrolle und Exportdokumentation werden alle intern abgewickelt — es gibt keinen Makler oder Handelszwischenhändler in der Kette.
 
@@ -84,7 +84,7 @@ benefits:
 
 coverage:
   title: Aktueller Vertrieb
-  subtitle: 'SUPsfactory versendet derzeit direkt in diese Märkte.'
+  subtitle: 'iSupfactory versendet derzeit direkt in diese Märkte.'
   regions:
     - name: Europa
       countries: 'Frankreich, Deutschland, Großbritannien, Spanien, Italien, Niederlande, Schweden, Norwegen, Polen, Griechenland'
@@ -106,7 +106,7 @@ faqs:
     - q: 'Wie hoch ist die Mindestbestellung für einen neuen Distributor?'
       a: 'Neue Vertriebspartner starten in der Regel mit einer Muster- und Vorproduktions-Freigabebestellung, gefolgt von einem ersten Container, der auf ihre Saison abgestimmt ist. Die genauen Mindestmengen hängen von der Größe des Territoriums und dem gewählten Sortiment ab; Ihr Account-Manager bestätigt die Eröffnungsmenge während der Sortiments- und Branding-Planung.'
     - q: 'Können wir die Boards unter unserer eigenen Marke verkaufen?'
-      a: 'Ja. Private Label ist hier das Standardmodell: Boards werden unter Ihrer Marke mit Ihren Grafiken, Ihrer Verpackung und Ihren Spezifikationen gefertigt. SUPsfactory fertigt ausschließlich für seine Kunden und konkurriert in keinem Markt mit ihnen.'
+      a: 'Ja. Private Label ist hier das Standardmodell: Boards werden unter Ihrer Marke mit Ihren Grafiken, Ihrer Verpackung und Ihren Spezifikationen gefertigt. iSupfactory fertigt ausschließlich für seine Kunden und konkurriert in keinem Markt mit ihnen.'
     - q: 'Sind die Territorien exklusiv?'
       a: 'Ja. Distributor-Programme basieren auf exklusiven Territorien — jeder Großhandelspartner deckt ein definiertes Land oder eine definierte Region ab und erhält Preis- und Programm-Support für diesen Markt, wie in der kommerziellen Vereinbarung festgelegt.'
     - q: 'Unterstützen Sie Drop-Shipping?'

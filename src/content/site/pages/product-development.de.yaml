@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Kurze Antwort'
-  text: 'SUP-Produktentwicklung bei SUPsfactory durchläuft sechs Stufen — Produktspezifikation, Strukturengineering, Prototyp-Bemusterung, Test & Validierung, individueller Werkzeugbau und Serienfertigung. Das erste physische Muster versendet 7–12 Tage nach Spezifikationsfreigabe; die Produktion läuft 25–35 Tage nach bestätigtem Auftrag und Anzahlung; ein neuer Formenbau addiert 15–20 Tage.'
+  text: 'SUP-Produktentwicklung bei iSupfactory durchläuft sechs Stufen — Produktspezifikation, Strukturengineering, Prototyp-Bemusterung, Test & Validierung, individueller Werkzeugbau und Serienfertigung. Das erste physische Muster versendet 7–12 Tage nach Spezifikationsfreigabe; die Produktion läuft 25–35 Tage nach bestätigtem Auftrag und Anzahlung; ein neuer Formenbau addiert 15–20 Tage.'
   verified: 'September 2026'
 
 stages:

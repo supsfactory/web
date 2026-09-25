@@ -1,6 +1,6 @@
 meta:
   title: 'Proof Center — le prove dietro ogni dichiarazione di produzione'
-  description: 'Raccolta delle prove dietro le dichiarazioni di SUPsfactory: relazioni tra entità, certificati con ambito di applicazione, elenco attrezzature, tracciabilità dei lotti e documentazione di ispezione.'
+  description: 'Raccolta delle prove dietro le dichiarazioni di iSupfactory: relazioni tra entità, certificati con ambito di applicazione, elenco attrezzature, tracciabilità dei lotti e documentazione di ispezione.'
   dateModified: '2026-08-16'
   keywords:
     - 'prove di fabbrica SUP'
@@ -19,7 +19,7 @@ hero:
 
 answer:
   label: 'Risposta breve'
-  text: 'La catena da affermazione a prova funziona così: ogni affermazione di questo sito si basa su una registrazione, un certificato, una macchina, un documento o un protocollo di test — e ognuno di questi può essere consultato. SUPsfactory è la divisione di sviluppo prodotto e produzione SUP della Qingdao Vatrad Group Co., Ltd. (registrata a Qingdao dal 2012). L''impianto di 12,500 m² dispone di gestione qualità ISO-9001:2015, conformità ISO-25649, documentazione di conformità CE, conformità sociale BSCI (rapporto di audit su richiesta) e documentazione materiali REACH/RoHS per ogni ordine. Ogni camera gonfiabile viene testata per 24 ore a 18,0 PSI con scarto automatico oltre 0,50 PSI di caduta e le registrazioni di lotto vengono conservate con tracciabilità ERP di 10 anni. Il percorso cartaceo è pubblicato o condivisibile e la fabbrica stessa è aperta agli audit.'
+  text: 'La catena da affermazione a prova funziona così: ogni affermazione di questo sito si basa su una registrazione, un certificato, una macchina, un documento o un protocollo di test — e ognuno di questi può essere consultato. iSupfactory è la divisione di sviluppo prodotto e produzione SUP della Qingdao Vatrad Group Co., Ltd. (registrata a Qingdao dal 2012). L''impianto di 12,500 m² dispone di gestione qualità ISO-9001:2015, conformità ISO-25649, documentazione di conformità CE, conformità sociale BSCI (rapporto di audit su richiesta) e documentazione materiali REACH/RoHS per ogni ordine. Ogni camera gonfiabile viene testata per 24 ore a 18,0 PSI con scarto automatico oltre 0,50 PSI di caduta e le registrazioni di lotto vengono conservate con tracciabilità ERP di 10 anni. Il percorso cartaceo è pubblicato o condivisibile e la fabbrica stessa è aperta agli audit.'
   verified: 'September 2026'
 
 entities:
@@ -29,9 +29,9 @@ entities:
   features:
     - icon: S
       icon_bg: blue
-      title: 'SUPsfactory — il sito web pubblico'
+      title: 'iSupfactory — il sito web pubblico'
       desc: 'La linea prodotto SUP OEM/ODM e private label con la sua documentazione pubblica: catalogo, guida MOQ, pagine del sistema qualità e casi studio. Il nome con cui tratti è il nome che verifichi.'
-      link: '/it/about/supsfactory-entity'
+      link: '/it/about/isupfactory-entity'
       link_label: 'Pagina dell''entità sul sito'
     - icon: A
       icon_bg: green
@@ -147,7 +147,7 @@ faqs:
     - q: 'Questa pagina serve solo alla verifica e non sostituisce la due diligence?'
       a: 'Esatto — questa pagina mostra dove ogni affermazione può essere verificata: registrazione dell''entità, certificati, macchine, registrazioni e un impianto aperto agli audit. I tuoi consueti passaggi di due diligence (verifica della registrazione, audit, ispezione di terze parti) restano validi e sono benvenuti.'
     - q: 'Quale entità deve comparire sulla mia documentazione d''ordine?'
-      a: 'Gli ordini vengono conclusi con la Qingdao Vatrad Group Co., Ltd., che opera come Vatrad (divisione di produzione), con SUPsfactory come linea prodotto SUP. I documenti contrattuali vengono firmati dal VP Vendite, dall''ingegnere capo e dal Direttore QA.'
+      a: 'Gli ordini vengono conclusi con la Qingdao Vatrad Group Co., Ltd., che opera come Vatrad (divisione di produzione), con iSupfactory come linea prodotto SUP. I documenti contrattuali vengono firmati dal VP Vendite, dall''ingegnere capo e dal Direttore QA.'
     - q: 'Posso ricevere copie dei certificati prima dell''ordine?'
       a: 'Sì — i numeri di certificato e i documenti di audit vengono forniti su richiesta o durante un audit. L''elenco è pubblicato, mai "disponibile solo su richiesta".'
     - q: 'Come posso verificare da solo i protocolli di test dei lotti?'

@@ -1,5 +1,5 @@
 meta:
-  title: 'Kwaliteitsinspectienormen voor op maat gemaakte SUP''s | OEM-fabriek | SUPsfactory'
+  title: 'Kwaliteitsinspectienormen voor op maat gemaakte SUP''s | OEM-fabriek | iSupfactory'
   description: 'OEM-productie van opblaasbare SUP''s: inspectie van materialen, productie, testen, verpakking en traceerbaarheid, met gecontroleerde herbewerking van luchtdichtheid volgens ISO 9001.'
   dateModified: '2026-08-14'
   keywords:
@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Download het kwaliteitsborgingspakket
       variant: primary
-      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
     - text: Download een voorbeeld kwaliteitspakket (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
     - text: Vraag OEM-kwaliteitsinformatie aan
       href: /contact
 
@@ -154,19 +154,19 @@ quarantine_evidence:
   title: Controle & quarantaine in de praktijk
   subtitle: De foto''s uit onze werkplaats in Qingdao laten zien hoe de statuscontrole en de inspectieregistraties ter plaatse worden toegepast.
   features:
-    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
       alt: Opblaasbare SUP''s opgepompt in het luchtdichtheidstestgebied van de fabriek, bewaakt met digitale drukmeetinstrumenten
       title: Luchtdichtheidstestgebied
       desc: 'De opgepompte planken worden in het QC-testgebied bewaard onder industriële verlichting; de digitale drukmeetinstrumenten bewaken de goedgekeurde drukbehoudtest op de ventielbasis, de railnaden, de boeg en achtersteven en de zwaar belaste punten. De registraties worden per lot bewaard en gekoppeld aan de eindcontrole.'
-    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
       alt: Kwaliteitscontrolebladen en gecontroleerde HOLD-statusetiketten bij het inspectiestation van de fabriek
       title: Blokkerings- & quarantainestation
       desc: 'Inspectiestation met QC-controlebladen en statusmarkering. Elke eenheid die niet aan de acceptatiecriteria voldoet, wordt gelabeld, geprotocolleerd en in quarantaine geplaatst — ze mag de verpakking pas bereiken na een geautoriseerde beslissing en bindende herhaalinspectie.'
-    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
       alt: Een QC-technicus voert een gecontroleerde luchtdichtheidsherbewerking uit op een opblaasbare SUP bij het herbewerkstation van de fabriek
       title: Gecontroleerd herbewerkstation
       desc: 'De luchtdichtheidsherbewerking wordt uitgevoerd op een speciaal station volgens een goedgekeurd methodkaart: het defect wordt gemarkeerd, de plank blijft op HOLD en keert na de vereiste uithardtijd terug naar het testgebied voor herhaalde verificatie tegen de oorspronkelijke acceptatiecriteria.'
-    - image: https://assets.supsfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-quarantine-demo.avif
       alt: Demonstratie in de werkplaats van de gecontroleerde scheiding in quarantaine in de fabriek van Qingdao
       title: Demonstratie van het quarantainegebied
       desc: 'Demonstratiefoto uit de werkplaats die de werking van de gecontroleerde scheiding in quarantaine ter plaatse laat zien: de gescheiden eenheden blijven onder statuscontrole totdat een geautoriseerde beslissing is voltooid.'
@@ -396,37 +396,37 @@ document_pack:
       icon_bg: blue
       title: Kwaliteitsdocumentatiepakket (PDF)
       desc: 'Volledige gecontroleerde documentstructuur 00–15: projectindex, specificatie, BOM, artwork- en verpakkingsreferenties, kwaliteitsinspectieplan (QIP), inspectieregistraties, NCR, wijzigingsbeheer, briefing voor derden en overzicht van de pre-release voor verzending.'
-      link: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
       link_label: PDF downloaden
     - icon: T
       icon_bg: green
       title: Inspectiebriefing voor derden (PDF)
       desc: 'Briefing van één pagina voor SGS / BV / Intertek / QIMA-inspecteurs: orderhoeveelheid, AQL-bemonsteringsniveau, toepasselijke revisies en kritieke kwaliteitsrelevante controles, inclusief verificatie van de luchtdichtheidsregistratie, drukbehoudtest, kit-volledigheid, streepjesscan en valtest van de doos.'
-      link: 'https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
       link_label: PDF downloaden
     - icon: C
       icon_bg: purple
       title: Wijzigingsbeheerprotocol (PDF)
       desc: 'Wijzigingsbeheerprotocol voor artwork-revisies, door de klant goedgekeurde BOM en markeringen op dozen — met wijzigingsoverzicht, reden, impactbeoordeling, status van de klantvrijgave, effectief lot en intrekking van verouderde documenten.'
-      link: 'https://assets.supsfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
       link_label: PDF downloaden
     - icon: R
       icon_bg: orange
       title: Overzicht van de pre-release voor verzending (PDF)
       desc: 'Vrijgaveondertekening op één pagina: verificatie van de kwaliteitspoorten (IQC, IPQC, luchtdichtheid, eindcontrole, verpakking), open NCR-status en het geautoriseerde vrijgavebesluit, ondertekend door Kwaliteit en Operaties.'
-      link: 'https://assets.supsfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
       link_label: PDF downloaden
     - icon: W
       icon_bg: blue
       title: Luchtdichtheidsherbewerkingsinstructie (PDF)
       desc: 'Gecontroleerde werkinstructie WI-QC-AT-001 Rev A: scope en grenzen, defectclassificatie, NCR en herbewerkingsautorisatie, gecontroleerde uitvoering, uitharden, herhaalde verificatie en vrijgave voor opblaasbare SUP''s.'
-      link: 'https://assets.supsfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
       link_label: PDF downloaden
     - icon: M
       icon_bg: green
       title: Index van de methodkaarten (PDF)
       desc: 'Gecontroleerd document SOP-QC-AT-IDX-001 Rev A: het genummerde systeem van methodkaarten MC-RW-01 tot en met MC-RW-06, plus MC-RW-00 voor vernietiging en afkeuring, gekoppeld aan de luchtdichtheidsherbewerkingsinstructie.'
-      link: 'https://assets.supsfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link: 'https://assets.isupfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
       link_label: PDF downloaden
     - icon: V
       icon_bg: orange
@@ -472,6 +472,6 @@ cta:
       variant: primary
       href: /contact
     - text: Download het voorbeeldkwaliteitspakket (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
     - text: Download QC-protocol & PSI-checklist
-      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

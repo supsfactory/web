@@ -1,6 +1,6 @@
 meta:
   title: 'Partenaires — Distribution et vente en gros | {SITE}'
-  description: 'Partenariats de fabrication avec SUPsfactory : distribution, approvisionnement en gros, programmes OEM/marque privée et support de spécification pour les entreprises de planches à pagaie du monde entier.'
+  description: 'Partenariats de fabrication avec iSupfactory : distribution, approvisionnement en gros, programmes OEM/marque privée et support de spécification pour les entreprises de planches à pagaie du monde entier.'
   keywords:
     - 'partenaire de distribution sup'
     - 'vente en gros de planches à pagaie'
@@ -12,7 +12,7 @@ hero:
   title: 'Partenariats de fabrication et distribution'
   subtitle: "Nous fabriquons pour des distributeurs marins, des revendeurs, des marques retail et des organisations dans 50+ pays. Vous spécifiez le produit — nous l'ingénierons, l'échantillonnons et le produisons sous votre marque."
   image:
-    src: https://assets.supsfactory.com/images/sups/team/supsfactory-meeting-overseas.webp
+    src: https://assets.isupfactory.com/images/sups/team/isupfactory-meeting-overseas.webp
     alt: Réseau mondial de partenaires et distributeurs Vatrad
 
 answer:

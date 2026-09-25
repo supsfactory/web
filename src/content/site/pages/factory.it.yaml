@@ -119,27 +119,27 @@ workshops_section:
   workshops:
     - title: Taglio PVC & preparazione materiali
       description: Le taglierine automatiche CNC lavorano tessuti in PVC, Hypalon e drop-stitch con precisione submillimetrica. L''annidamento ottimizzato al computer minimizza lo scarto di materiale e garantisce che ogni pannello rispetti le sue dimensioni di specifica prima della saldatura.
-      image: https://assets.supsfactory.com/images/sups/hero/production-dept.webp
+      image: https://assets.isupfactory.com/images/sups/hero/production-dept.webp
       alt: Taglierina CNC per PVC che prepara i pannelli di tessuto SUP gonfiabile nella fabbrica di Qingdao
     - title: Saldatura camere & termosaldatura
       description: Officina di saldatura dedicata con saldatrici ad aria calda e presse dielettriche ad alta frequenza. I saldatori ad aria calda uniscono e saldano le camere dei gommoni in PVC, mentre le saldature HF creano cuciture ermetiche ad alta resistenza che superano i requisiti.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
       alt: Macchina di saldatura HF che sigilla le camere dei gommoni nella fabbrica di Qingdao
     - title: Laminazione nucleo drop-stitch
       description: I nuclei drop-stitch delle tavole SUP vengono incollati ai laminati esterni in PVC tramite laminazione a caldo. Migliaia di fili interni in poliestere collegano gli strati superiore e inferiore, creando una struttura rigida a 12-15 PSI. I rail band vengono incollati per fusione a tre strati per la resistenza dei bordi.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
       alt: Linea di produzione di SUP gonfiabili con impianto di laminazione del nucleo drop-stitch nella fabbrica di Qingdao
     - title: Stampa & decorazione SUP
       description: Le tavole SUP vengono decorate tramite stampa digitale per grafiche a pieni colori e serigrafia per loghi e motivi ripetuti. Le stampanti digitali producono design del deck fotorealistici, mentre la serigrafia offre segni di marca durevoli e decisi.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
       alt: Interno del reparto produttivo nella fabbrica di SUP gonfiabili di Qingdao
     - title: Assemblaggio finale & attrezzatura
       description: Linea di assemblaggio in cui valvole, anelli a D, maniglie, fin box e deck pad vengono installati su ogni tavola SUP. Ogni tavola segue una checklist di assemblaggio a 100 punti firmata dal capo squadra.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
       alt: Reparto produttivo con postazioni di assemblaggio nella fabbrica di Qingdao
     - title: Controllo qualità & ispezione
       description: Ogni tavola completata supera prima della spedizione un test obbligatorio di ritenzione dell''aria, una verifica di peeling delle cuciture e un controllo completo del sistema. Il nostro laboratorio qualità opera in modo indipendente dalla produzione e riporta direttamente alla direzione.
-      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
       alt: Test di pressione di un SUP gonfiabile per la ritenzione dell''aria prima della spedizione nella fabbrica di Qingdao
 
 equipment_section:

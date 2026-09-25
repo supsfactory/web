@@ -25,7 +25,7 @@ Os pontos fortes do Hypalon – uma extraordinária resistência química e aos 
 
 ## Onde o Hypalon aparece no sortido Vatrad
 
-O Hypalon continua a ser o material especificado para os modelos RIB Vatrad (RIB 330, RIB 450 Patrol), projetados para o uso marinho profissional. Os SUP e os caiaques da linha SUPsfactory utilizam exclusivamente PVC marinho, e cada lote de PVC é testado de forma independente no nosso laboratório de tecidos PVC antes da produção.
+O Hypalon continua a ser o material especificado para os modelos RIB Vatrad (RIB 330, RIB 450 Patrol), projetados para o uso marinho profissional. Os SUP e os caiaques da linha iSupfactory utilizam exclusivamente PVC marinho, e cada lote de PVC é testado de forma independente no nosso laboratório de tecidos PVC antes da produção.
 
 ## Os resultados dos testes
 

@@ -291,7 +291,7 @@ export function localeHead(input: {
       content: `${SITE_NAME} — ${SITE_TAGLINE}`,
     },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:site', content: '@SUPsfactory' },
+    { name: 'twitter:site', content: '@iSupfactory' },
     { name: 'twitter:title', content: title },
     { name: 'twitter:description', content: description },
     { name: 'twitter:image', content: image },

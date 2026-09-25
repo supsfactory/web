@@ -62,45 +62,45 @@ evidence_gates:
   items:
     - title: 'PPM — Kwaliteitsplanning project'
       description: 'De pre-serie bijeenkomst stelt de scope, het golden sample en het kwaliteitsinspectieplan vast voordat de lijn start. Onopgeloste punten blokkeren de vrijgave van de productie.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
       link_label: 'Download de QIP (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
       alt: Pre-serie bijeenkomst om het golden sample en het kwaliteitsinspectieplan voor een OEM SUP-order te verifiëren
     - title: 'IQC — Ingangsinspectie goederen'
       description: 'Elke binnenkomende partij PVC, weefsel en onderdelen wordt gecontroleerd tegen de goedgekeurde specificatie. Niet-conforme partijen worden geblokkeerd en afgekeurd vóór de vrijgave aan de lijn.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Download de IQC-rapporten (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
       alt: Ingangsinspectie van goederen van PVC-weefsel en SUP-componenten in de fabriek
     - title: 'IPQC / FAI — Procescontrole'
       description: 'Het eerste monster wordt geverifieerd tegen de vastgelegde baselines en elke ploeg handhaaft steekproefsgewijze controles aan de lijn. De FAI-vrijgave blokkeert de versies van graphics, afmetingen en BOM.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Download de IPQC-rapporten (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
       alt: Procesinspectie en verificatie van het eerste monster tijdens de SUP-productie
     - title: 'Oppomptest & luchtdichtheid'
       description: '100% van de afgewerkte planken — niet alleen een steekproef — ondergaat een 24-uurs drukbehoud bij 18.0 PSI met automatische uitsluiting bij een daling van meer dan 0,50 PSI. Een bewijs per kamer.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
       link_label: 'Download de luchtdichtheidsrapporten (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
       alt: Oppomptest en luchtdichtheidstest van een kamer van een opblaasbare SUP
     - title: 'FQC — Controle eindproduct'
       description: 'De afgewerkte planken worden gemeten tegen de tekeningtoleranties en optisch beoordeeld onder daglichtlampen D65 tegen het goedgekeurde golden sample.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Download de FQC-rapporten (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
       alt: Controle van het eindproduct van afgewerkte SUP-planken vóór het verpakken
     - title: 'PSI — Pre-verzendingsinspectie van verpakking'
       description: 'De verpakte kit wordt 100% geverifieerd tegen de door de klant goedgekeurde BOM — streepjesscan (score ≥ B), markeringen op de doos en ISTA-1A valtest vóór het laden.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Download de PSI-rapporten (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
       alt: Pre-verzendingsinspectie die de verpakte SUP-kit tegen de BOM verifieert
     - title: 'Vrijgave voor verzending & traceerbaarheid'
       description: 'Kwaliteit geeft de partij pas vrij wanneer alle zes eerdere poorten zijn gesloten. Serienummers worden aan de partij toegewezen en het dossier wordt met de zending meegeleverd.'
-      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Download de vrijgavenrapporten (PDF)'
-      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
       alt: Ondertekening van de vrijgave voor verzending en overdracht van het traceerbaarheidsprotocol van de partij
 cta:
   title: Bekijk onze apparatuur en machines

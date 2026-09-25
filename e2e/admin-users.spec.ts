@@ -33,7 +33,7 @@ async function loginAsAdmin(context: BrowserContext, baseURL: string) {
   })
   // Dev shortcut: mark verified in local D1 so sign-in is allowed.
   execSync(
-    `npx wrangler d1 execute supsfactory-db --local --command ` +
+    `npx wrangler d1 execute isupfactory-db --local --command ` +
       `"UPDATE user SET email_verified = 1 WHERE email = '${ADMIN.email}'"`,
     { stdio: 'ignore' },
   )

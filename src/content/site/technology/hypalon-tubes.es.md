@@ -25,7 +25,7 @@ Las ventajas del Hypalon —una resistencia excepcional a los productos químico
 
 ## Dónde aparece el Hypalon en la gama Vatrad
 
-El Hypalon sigue siendo el material especificado en los modelos RIB de Vatrad (RIB 330, RIB 450 Patrol), diseñados para el uso marino profesional. Las tablas de SUP y los kayaks de la línea SUPsfactory utilizan exclusivamente PVC marino, y cada lote de PVC se somete a pruebas independientes en nuestro Laboratorio de Tejido de PVC antes de la producción.
+El Hypalon sigue siendo el material especificado en los modelos RIB de Vatrad (RIB 330, RIB 450 Patrol), diseñados para el uso marino profesional. Las tablas de SUP y los kayaks de la línea iSupfactory utilizan exclusivamente PVC marino, y cada lote de PVC se somete a pruebas independientes en nuestro Laboratorio de Tejido de PVC antes de la producción.
 
 ## Los datos de las pruebas
 
