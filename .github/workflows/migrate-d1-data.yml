@@ -65,10 +65,15 @@ jobs:
         run: |
           set -e
           sql="SELECT 'user' AS tbl, count(*) AS n FROM user UNION ALL SELECT 'account', count(*) FROM account UNION ALL SELECT 'session', count(*) FROM session UNION ALL SELECT 'verification', count(*) FROM verification UNION ALL SELECT 'rateLimit', count(*) FROM rateLimit UNION ALL SELECT 'waitlist', count(*) FROM waitlist UNION ALL SELECT 'feedback', count(*) FROM feedback UNION ALL SELECT 'inquiry', count(*) FROM inquiry;"
-          echo "--- source: ${{ inputs.old_db }}"
-          npx wrangler d1 execute "${{ inputs.old_db }}" --remote --json --command="$sql" | jq -r '.[0].results[] | "\(.tbl)\t\(.n)"'
-          echo "--- target: ${{ inputs.new_db }}"
-          npx wrangler d1 execute "${{ inputs.new_db }}" --remote --json --command="$sql" | jq -r '.[0].results[] | "\(.tbl)\t\(.n)"'
+          count() {
+            local db="$1"
+            echo "--- db: $db"
+            local out
+            out=$(npx wrangler d1 execute "$db" --remote --json --command="$sql")
+            echo "$out" | jq -r '.. | objects | select(has("tbl")) | "\(.tbl)\t\(.n)"'
+          }
+          count "${{ inputs.old_db }}"
+          count "${{ inputs.new_db }}"
       - name: Cleanup
         if: always()
         run: rm -f "$RUNNER_TEMP/data.sql"

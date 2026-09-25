@@ -1,0 +1,49 @@
+name: D1 Data Verification (one-off)
+on:
+  workflow_dispatch:
+    inputs:
+      db:
+        description: 'D1 database name (title) to count rows in'
+        required: true
+        default: 'isupfactory-db-prod'
+      compare_db:
+        description: 'Optional source DB to compare against (blank to skip)'
+        required: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.0.0
+      - uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.4.0
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Install deps
+        run: pnpm install --frozen-lockfile
+      - name: Count rows
+        run: |
+          set -e
+          sql="SELECT 'user' AS tbl, count(*) AS n FROM user UNION ALL SELECT 'account', count(*) FROM account UNION ALL SELECT 'session', count(*) FROM session UNION ALL SELECT 'verification', count(*) FROM verification UNION ALL SELECT 'rateLimit', count(*) FROM rateLimit UNION ALL SELECT 'waitlist', count(*) FROM waitlist UNION ALL SELECT 'feedback', count(*) FROM feedback UNION ALL SELECT 'inquiry', count(*) FROM inquiry;"
+          count() {
+            local db="$1"
+            echo "--- db: $db"
+            local out
+            out=$(npx wrangler d1 execute "$db" --remote --json --command="$sql")
+            echo "$out" | jq -r '.. | objects | select(has("tbl")) | "\(.tbl)\t\(.n)"'
+            if ! echo "$out" | jq -r '.. | objects | select(has("tbl"))' >/dev/null 2>&1; then
+              echo "(jq row-parse failed; raw output above)"
+            fi
+          }
+          count "${{ inputs.db }}"
+          if [ -n "${{ inputs.compare_db }}" ]; then
+            count "${{ inputs.compare_db }}"
+          fi
+      - name: Schema sanity (tables present)
+        run: |
+          set -e
+          npx wrangler d1 execute "${{ inputs.db }}" --remote --command="SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite%' ORDER BY name;"
