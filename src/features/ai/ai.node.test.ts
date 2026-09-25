@@ -6,6 +6,7 @@
 import { describe, expect, test } from 'vitest'
 import { buildAskPrompt, makeChunk, matchFaq, matchCorpus, normalizeQuestion, stableHash } from './rag'
 import { buildChunks } from './corpus'
+import { isQuotaError, rebuildAiIndex, type IngestEnv } from './ingest'
 
 describe('stableHash', () => {
   test('is deterministic and unique per input', () => {
@@ -186,4 +187,28 @@ describe('buildChunks', () => {
     expect(chunks.length).toBeGreaterThan(50)
     for (const c of chunks) expect(c.url.startsWith('/nl/')).toBe(true)
   })
+})
+
+describe('rebuildAiIndex quota handling', () => {
+  test('isQuotaError classifies quota/rate-limit messages', () => {
+    expect(isQuotaError(new Error('429 Too Many Requests'))).toBe(true)
+    expect(isQuotaError(new Error('daily limit for @cf/baai/bge-m3 reached'))).toBe(true)
+    expect(isQuotaError(new Error('Insufficient credits on your account'))).toBe(true)
+    expect(isQuotaError(new Error('embedding vector malformed'))).toBe(false)
+  })
+  test('skips gracefully when the AI gateway reports quota exhaustion', async () => {
+    const env = {
+      AI: { run: async () => { throw new Error('Workers AI: insufficient credits') } },
+      VECTORIZE: { upsert: async () => undefined },
+    } as unknown as IngestEnv
+    const stats = await rebuildAiIndex(env)
+    expect(stats).toEqual([])
+  }, 30000)
+  test('propagates non-quota embedding failures as errors', async () => {
+    const env = {
+      AI: { run: async () => { throw new Error('engine crashed') } },
+      VECTORIZE: { upsert: async () => undefined },
+    } as unknown as IngestEnv
+    await expect(rebuildAiIndex(env)).rejects.toThrow(/embedding batch failed/)
+  }, 30000)
 })

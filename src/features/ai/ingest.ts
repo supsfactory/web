@@ -31,6 +31,23 @@ const EMBED_ATTEMPTS = 4
 
 const sleep = (ms: number): Promise<void> => new Promise((r) => setTimeout(r, ms))
 
+/**
+ * Distinct failure class for quota/rate-limit conditions: they are not true
+ * service errors — the daily Workers-AI allowance may be exhausted when the
+ * corpus grows or after the 03:00 cron rebuild. Such runs should skip
+ * gracefully (next day's cron or a later deploy retries) instead of turning
+ * the CI reindex step red.
+ */
+export class AiQuotaError extends Error {}
+
+const QUOTA_RE =
+  /(429|529|quota|insufficient|no (more )?credits|out of (?:credits|limit)|daily limit|usage limit|too many|overload|throttl|exceed)/i
+
+export function isQuotaError(err: unknown): boolean {
+  const msg = err instanceof Error ? err.message : String(err)
+  return QUOTA_RE.test(msg)
+}
+
 export async function rebuildAiIndex(env: IngestEnv): Promise<{ locale: Locale; chunks: number }[]> {
   if (env.CACHE) {
     const day = new Date().toISOString().slice(0, 10)
@@ -41,6 +58,7 @@ export async function rebuildAiIndex(env: IngestEnv): Promise<{ locale: Locale; 
     }
   }
   const { buildChunks } = await import('./corpus')
+  try {
   const stats: { locale: Locale; chunks: number }[] = []
   for (const locale of locales) {
     const chunks = buildChunks(locale)
@@ -71,6 +89,13 @@ export async function rebuildAiIndex(env: IngestEnv): Promise<{ locale: Locale; 
     stats.push({ locale, chunks: chunks.length })
   }
   return stats
+  } catch (err) {
+    if (err instanceof AiQuotaError) {
+      console.log(`[ingest] skipping reindex — AI gateway quota/limit during embedding (${err.message})`)
+      return []
+    }
+    throw err
+  }
 }
 
 async function embedBatch(env: IngestEnv, batch: AiChunk[]): Promise<number[][]> {
@@ -104,5 +129,6 @@ async function embedBatch(env: IngestEnv, batch: AiChunk[]): Promise<number[][]>
     }
   }
   const msg = lastErr instanceof Error ? lastErr.message : String(lastErr)
+  if (isQuotaError(lastErr)) throw new AiQuotaError(msg)
   throw new Error(`embedding batch failed after ${EMBED_ATTEMPTS} attempts: ${msg}`)
 }
