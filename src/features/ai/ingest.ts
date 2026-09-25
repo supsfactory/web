@@ -41,7 +41,7 @@ const sleep = (ms: number): Promise<void> => new Promise((r) => setTimeout(r, ms
 export class AiQuotaError extends Error {}
 
 const QUOTA_RE =
-  /(429|529|quota|insufficient|no (more )?credits|out of (?:credits|limit)|daily limit|usage limit|too many|overload|throttl|exceed)/i
+  /(429|529|4006|quota|insufficient|no (more )?credits|out of (?:credits|limit)|daily (?:free )?allocation|daily limit|usage limit|used up your daily|free tier|paid plan|too many|overload|throttl|exceed)/i
 
 export function isQuotaError(err: unknown): boolean {
   const msg = err instanceof Error ? err.message : String(err)

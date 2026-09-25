@@ -194,11 +194,32 @@ describe('rebuildAiIndex quota handling', () => {
     expect(isQuotaError(new Error('429 Too Many Requests'))).toBe(true)
     expect(isQuotaError(new Error('daily limit for @cf/baai/bge-m3 reached'))).toBe(true)
     expect(isQuotaError(new Error('Insufficient credits on your account'))).toBe(true)
+    expect(
+      isQuotaError(
+        new Error(
+          "4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage.",
+        ),
+      ),
+    ).toBe(true)
     expect(isQuotaError(new Error('embedding vector malformed'))).toBe(false)
   })
   test('skips gracefully when the AI gateway reports quota exhaustion', async () => {
     const env = {
       AI: { run: async () => { throw new Error('Workers AI: insufficient credits') } },
+      VECTORIZE: { upsert: async () => undefined },
+    } as unknown as IngestEnv
+    const stats = await rebuildAiIndex(env)
+    expect(stats).toEqual([])
+  }, 30000)
+  test('skips gracefully on the Workers AI daily free neuron allocation error', async () => {
+    const env = {
+      AI: {
+        run: async () => {
+          throw new Error(
+            "4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage.",
+          )
+        },
+      },
       VECTORIZE: { upsert: async () => undefined },
     } as unknown as IngestEnv
     const stats = await rebuildAiIndex(env)
