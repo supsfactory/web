@@ -31,22 +31,22 @@ jobs:
       # 注入真实生产资源 ID，否则 wrangler 按名字命中配置里的占位 database_id。
       - name: Generate wrangler.jsonc (real resource ids)
         run: node .github/scripts/gen-wrangler.mjs
-      - name: Count rows (instrumented)
+      - name: Count rows
         run: |
           set +e
-          sql="SELECT 'user' AS tbl, count(*) AS n FROM user UNION ALL SELECT 'account', count(*) FROM account UNION ALL SELECT 'session', count(*) FROM session UNION ALL SELECT 'verification', count(*) FROM verification UNION ALL SELECT 'rateLimit', count(*) FROM rateLimit UNION ALL SELECT 'waitlist', count(*) FROM waitlist UNION ALL SELECT 'feedback', count(*) FROM feedback UNION ALL SELECT 'inquiry', count(*) FROM inquiry;"
+          sql="SELECT (SELECT count(*) FROM user) AS user, (SELECT count(*) FROM account) AS account, (SELECT count(*) FROM session) AS session, (SELECT count(*) FROM verification) AS verification, (SELECT count(*) FROM rateLimit) AS rateLimit, (SELECT count(*) FROM waitlist) AS waitlist, (SELECT count(*) FROM feedback) AS feedback, (SELECT count(*) FROM inquiry) AS inquiry;"
           for db in "${{ inputs.db }}" "${{ inputs.compare_db }}"; do
             [ -n "$db" ] || continue
             echo "=== db: $db"
             npx wrangler d1 execute "$db" --remote --json --command="$sql" >/tmp/v_stdout.json 2>/tmp/v_stderr.txt
-            echo "wrangler exit=$?"
-            echo "--- stdout ($(wc -c < /tmp/v_stdout.json) bytes):"
-            head -c 3000 /tmp/v_stdout.json; echo
-            echo "--- stderr:"
-            cat /tmp/v_stderr.txt
-            echo "--- parsed rows:"
-            jq -r '.. | objects | select(has("tbl")) | "\(.tbl)\t\(.n)"' /tmp/v_stdout.json 2>/dev/null
-            echo ""
+            code=$?
+            echo "wrangler exit=$code"
+            if [ $code -ne 0 ]; then
+              cat /tmp/v_stdout.json
+              cat /tmp/v_stderr.txt
+              continue
+            fi
+            jq -r '.. | objects | select(has("user")) | "user=\(.user) account=\(.account) session=\(.session) verification=\(.verification) rateLimit=\(.rateLimit) waitlist=\(.waitlist) feedback=\(.feedback) inquiry=\(.inquiry)"' /tmp/v_stdout.json 2>/dev/null
           done
       - name: Schema sanity (tables present)
         run: |
