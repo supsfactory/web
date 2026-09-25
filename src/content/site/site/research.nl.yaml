@@ -1,0 +1,49 @@
+badge: Huidig onderzoek
+heading: Kenniscentrum
+description: Diepgaand technisch onderzoek naar materialen, constructie, veiligheidsnormen en productie van SUP's en opblaasbare boten
+topics:
+  - slug: drop-stitch-technology
+    category: Technologie
+    readTime: 8 minuten lezen
+  - slug: pvc-vs-hypalon
+    category: Materialen
+    readTime: 10 minuten lezen
+  - slug: ce-certification-guide
+    category: Conformiteit
+    readTime: 7 minuten lezen
+  - slug: sup-thickness-guide
+    category: Constructie
+    readTime: 6 minuten lezen
+  - slug: oem-buyer-guide
+    category: Inkoop
+    readTime: 12 minuten lezen
+  - slug: sup-manufacturing-process
+    category: Productie
+    readTime: 10 minuten lezen
+  - slug: eva-foam-technology
+    category: Materialen
+    readTime: 7 minuten lezen
+  - slug: uv-printing-vs-eva-block
+    category: Technologie
+    readTime: 6 minuten lezen
+  - slug: fusion-lamination-vs-glue
+    category: Productie
+    readTime: 8 minuten lezen
+  - slug: sup-valve-types
+    category: Constructie
+    readTime: 6 minuten lezen
+  - slug: fin-systems-guide
+    category: Constructie
+    readTime: 7 minuten lezen
+  - slug: board-hull-design
+    category: Constructie
+    readTime: 9 minuten lezen
+  - slug: quality-testing-standards
+    category: Conformiteit
+    readTime: 8 minuten lezen
+  - slug: sup-paddle-technology
+    category: Uitrusting
+    readTime: 7 minuten lezen
+  - slug: military-grade-pvc-specs
+    category: Materialen
+    readTime: 8 minuten lezen

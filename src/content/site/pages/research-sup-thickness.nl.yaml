@@ -1,0 +1,82 @@
+meta:
+  title: 'Zo kies je de dikte van je SUP — Technische analyse'
+  description: 'Hoe opblaasbare SUP-planken van 4", 5" en 6" verschillen in stijfheid, gewicht, stabiliteit en koersvastheid, met aanbevelingen over de dikte.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Terug naar research'
+
+hero:
+  tagline: 'Techniek'
+  title: 'Zo kies je de dikte van je SUP — Technische analyse'
+  subtitle: '6 min leestijd'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'De dikte is een compromis tussen stijfheid en stabiliteit: 4" (10 cm) is het stijfst, lichtst en snelst — ideaal voor tours en wedstrijden; 5" (12.7 cm) is de allround-keuze voor de meeste peddelaars; 6" (15.2 cm) maximaliseert de primaire stabiliteit voor yoga en zwaardere peddelaars (100+ kg). Een dunnere dwarsdoorsnede is structureel stijver, dus een plank van 4" buigt bij 15 PSI minder door dan een plank van 6" bij 25 PSI.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>De drie standaarddiktes</h2>
+
+  <h3>4" (10 cm) – Tour &amp; Prestaties</h3>
+  <ul>
+    <li>Maximale stijfheid – minder doorbuiging onder belasting</li>
+    <li>Lichter – minder materiaal, minder luchtvolume</li>
+    <li>Uitstekende koersvastheid – minder zijwaartse schommeling</li>
+    <li>Sneller – minder weerstand, gemakkelijker planeren</li>
+    <li>Ideaal: tours, wedstrijden, fitnesspaddelen, ervaren peddelaars</li>
+  </ul>
+
+  <h3>5" (12.7 cm) – Allround</h3>
+  <ul>
+    <li>Goede stijfheid – gebalanceerde buiging-stijfheidsverhouding</li>
+    <li>Matig gewicht – standaard materiaalverbruik</li>
+    <li>Goede primaire en secundaire stabiliteit</li>
+    <li>Ideaal: recreatief paddelen, beginners, af en toe gebruik op zee en in rivieren</li>
+  </ul>
+
+  <h3>6" (15.2 cm) – Stabiliteit &amp; Yoga</h3>
+  <ul>
+    <li>Maximale primaire stabiliteit – enorme drijfkracht</li>
+    <li>Zwaarder – meer PVC-materiaal, groter luchtvolume</li>
+    <li>Langzamer – meer weerstand, moeilijker te planeren</li>
+    <li>Ideaal: yoga/fitness, zware peddelaars (100+ kg), zeer ruwe omstandigheden</li>
+  </ul>
+
+  <h2>Technische analyse</h2>
+  <p>De stijfheid van een opblaasbare SUP wordt bepaald door de interne luchtdruk en het traagheidsmoment van de dwarsdoorsnede van de plank. Bij 20 PSI buigt een plank van 4" onder belasting circa 30 % minder door dan een plank van 6" met dezelfde breedte en lengte. De primaire stabiliteit komt voort uit de breedte van de waterlijn en de drijfkracht; de secundaire stabiliteit wordt beïnvloed door de vorm van de rail en de breedte van de plank.</p>
+
+  <h2>Dikte op basis van het gewicht van de peddelaar</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Gewicht peddelaar</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Aanbevolen dikte</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Minder dan 65 kg (143 lbs)</td><td class="p-3 border">4"</td></tr>
+      <tr><td class="p-3 border">65 – 90 kg (143 – 198 lbs)</td><td class="p-3 border">5"</td></tr>
+      <tr><td class="p-3 border">90 – 115 kg (198 – 253 lbs)</td><td class="p-3 border">5" of 6"</td></tr>
+      <tr><td class="p-3 border">Meer dan 115 kg (253 lbs)</td><td class="p-3 border">6"</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Het compromis tussen dikte en PSI</h2>
+  <p>Een veelgemaakte fout is denken dat een hogere PSI-waarde een te grote dikte kan compenseren. Bij 25 PSI buigt een plank van 6" meer door dan een plank van 4" bij 15 PSI, omdat het geometrische traagheidsmoment de stijfheidsvergelijking domineert. Voor prestatiegerichte peddelaars presteert een dunnere plank bij lagere druk daarom beter dan een dikkere plank bij hogere druk.</p>
+
+  <h2>De productlijn van Vatrad</h2>
+  <ul>
+    <li><strong>Planken van 4":</strong> Cheetah Touring-serie – tour-SUP 12' x 30" x 4" voor fitness en afstandspaddelen</li>
+    <li><strong>Planken van 5":</strong> Cheetah Allround-serie – 10'6" x 32" x 5" voor recreatief gebruik</li>
+    <li><strong>Planken van 6":</strong> Cheetah Ultra Stable-serie – 10' x 34" x 6" voor yoga, grote peddelaars en fotografieplatforms</li>
+  </ul>
+  <p>Alle planken gebruiken drop-stitch kernen van 1,680 DTEX met een beoogde druk van 15 PSI en PVC-laminaten van 1.2 mm.</p>
+  <p>Dikte, PSI en stofspecificaties zijn configureerbaar voor maatwerk series — ontdek hoe we <a href="/nl/oem-manufacturing">planken ontwikkelen voor OEM- en private label merken</a> en zie het bouwproces direct <a href="/nl/factory">in de fabriek</a>.</p>
+
+cta:
+  title: 'Weet je niet zeker welke dikte voor jou geschikt is?'
+  subtitle: 'Bekijk onze SUP-productlijn of vraag het aan ons sizing-team.'
+  button_text: 'Bekijk de SUP-planken'
+  button_link: /nl/products

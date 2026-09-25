@@ -6,7 +6,7 @@ export interface FaqEntry {
   a: string
 }
 
-export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt', FaqEntry[]> = {
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl', FaqEntry[]> = {
   en: [
     {
       q: 'What is the minimum order to customize this board?',
@@ -113,6 +113,24 @@ export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt', F
     {
       q: 'Como é controlada a qualidade antes do envio?',
       a: 'Cada prancha passa por uma checklist de montagem de 100 pontos e por um teste de pressão de 18.0 PSI durante 24 horas antes da embalagem; as unidades com queda de pressão superior a 0,50 PSI/24 h são rejeitadas automaticamente.',
+    },
+  ],
+  nl: [
+    {
+      q: 'Wat is de minimum bestelling om deze plank te personaliseren?',
+      a: 'Het MOQ voor volume is 90–100+ stuks per goedgekeurde configuratie, onder voorbehoud van materiaalrol- en verpakkingsvereisten, op één rol van 150 m voor standaardproductie, met pilotreeksen vanaf 20–50 stuks en 90–100+ stuks voor een matrijs op maat.',
+    },
+    {
+      q: 'Hoe lang duren monsters en productie?',
+      a: 'Monsters zijn klaar in 7–12 dagen; de serieproductie is gereed in 25–35 dagen na bevestigde PO en aanbetaling.',
+    },
+    {
+      q: 'Kan ik kleuren, opdruk en logo wijzigen?',
+      a: 'Ja: opdruk, kleuren, EVA, logo, verpakking en accessoires zijn op elk platform aan te passen. Deel je logo en we maken een visueel bewijs vóór de productie.',
+    },
+    {
+      q: 'Hoe wordt de kwaliteit gecontroleerd vóór verzending?',
+      a: 'Elke plank doorloopt een montagechecklist van 100 punten en een druktest van 18.0 PSI gedurende 24 uur vóór het verpakken; units met een drukval van meer dan 0,50 PSI/24 uur worden automatisch afgekeurd.',
     },
   ],
 }

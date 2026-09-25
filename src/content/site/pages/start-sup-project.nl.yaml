@@ -1,0 +1,114 @@
+meta:
+  title: 'Start je SUP-project — Van briefing tot geleverde boards | SUPsfactory'
+  description: 'Start je aangepaste SUP-project: stuur de briefing in, krijg NDA-bescherming, ontvang monsters in 7–12 dagen, keur ze goed en schaal de productie op. Stap voor stap met heldere tijdlijnen.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'een sup project starten'
+    - 'aangepaste sup order'
+    - 'sup project briefing'
+    - 'sup oem project'
+    - 'aangepaste paddleboard order'
+    - 'sup productie project'
+    - 'opblaasbare sup project'
+
+hero:
+  tagline: 'Begin hier'
+  title: 'Start je SUP-project'
+  subtitle: 'Of je nu een nieuw merk wilt lanceren, een productlijn wilt uitbreiden of boards onder jouw merk voor je bedrijf wilt inkopen — elk project begint op dezelfde manier: met een projectbriefing, een NDA, een monster en een duidelijk pad naar de productie. Hier ontdek je wat er gebeurt nadat je op "Start" hebt geklikt.'
+  actions:
+    - variant: primary
+      text: Start de projectbriefing
+      href: /nl/contact#project-brief
+    - text: Zo werkt het proces
+      href: /nl/how-it-works
+
+answer:
+  label: 'Wat er daarna gebeurt'
+  text: 'Na het insturen van een projectbriefing ontvang je binnen één werkdag een reactie. Vóór het delen van vertrouwelijke details is een NDA beschikbaar. Het technisch bureau bekijkt je briefing en levert een gedetailleerde offerte met MOQ, monstervoorrijkosten en een gefaseerd plan — doorgaans 7–12 dagen voor de monsters en 6–8 weken voor de eerste productie vanaf de bevestigde PO. De monstervoorrijkosten worden op je productieorder verrekend. Geen verplichtingen tot de ondertekening.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: Het proces
+  title: 'Van briefing tot geleverde boards — vijf stappen'
+  subtitle: 'Elke stap heeft een vaste tijdsduur, een gedocumenteerd resultaat en een go/no-go-mijlpaal. Ga alleen verder wanneer jij er klaar voor bent.'
+  steps:
+    - step: 'Stap 1'
+      title: 'Stuur je projectbriefing in'
+      desc: 'Vertel ons over je board — doelspecificaties, hoeveelheden, conformiteitsvereisten en tijdlijnen. De briefing kost 5–10 minuten. Als je ergens niet zeker van bent, deel dan wat je hebt en wij begeleiden je door de rest. Een NDA is beschikbaar voordat je vertrouwelijke designs deelt.'
+    - step: 'Stap 2'
+      title: 'NDA & haalbaarheidscheck (1–5 dagen)'
+      desc: 'Op verzoek ondertekenen wij een NDA, daarna controleert het technisch bureau je briefing op productiecapaciteit, beschikbaarheid van materialen en conformiteitsscope. Je ontvangt een gedetailleerde offerte met MOQ-berekening, monstervoorrijkosten en een gefaseerd plan.'
+    - step: 'Stap 3'
+      title: 'Monster & goedkeuring (7–21 dagen)'
+      desc: '1–2 fysieke boards volgens jouw specificatie. Je vaart en beoordeelt — rompstijfheid, grafische precisie, passing van de accessoires. Wijzigingen worden vastgelegd in een herziene BOM. Het goedgekeurde monster wordt de productiereferentie. De monstervoorrijkosten worden op de productie verrekend.'
+    - step: 'Stap 4'
+      title: 'Pre-productieplanning (7 dagen)'
+      desc: 'Materialen inkopen, matrijzen voorbereiden, verpakking bevestigen en het productieslot reserveren. Alle materialen worden bij ontvangst geïnspecteerd tegen de bevroren BOM. Vóór de productiestart wordt een plan met de QC-gatedata uitgebracht.'
+    - step: 'Stap 5'
+      title: 'Productie, QC & verzending (4–6 weken)'
+      desc: 'De productie doorloopt het inspectiesysteem op 7 niveaus met geslaagd/niet-geslaagd-criteria bij elke gate. Exportconforme verpakking, conformiteitsdocumentatie en coördinatie van het zeetransport naar meer dan 50 landen. Een analyse na levering verzamelt verbeterpunten voor de volgende order.'
+
+collaboration_types:
+  tagline: Kies je weg
+  title: 'Drie manieren om met SUPsfactory samen te werken'
+  subtitle: 'Elk project volgt hetzelfde proces — wat verandert, is de engineeringomvang en het intellectueel eigendom (IP).'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM-productie'
+      desc: 'Jij levert het design. Wij produceren volgens jouw specificatie. Jij bezit al het IP. Ideaal voor merken met bewezen boardgeometrieën.'
+      link_label: 'Bekijk de OEM-details'
+      href: /nl/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM-ontwikkeling'
+      desc: 'Jij levert de briefing. Wij ontwikkelen het board. Aangepast platform met jouw branding. Ideaal voor merken die de markt betreden zonder intern design.'
+      link_label: 'Bekijk de ODM-details'
+      href: /nl/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Jouw merk op een bewezen platform. Geen engineeringfase. Al vanaf 5–10 eenheden. Ideaal voor operators en distributeurs.'
+      link_label: 'Bekijk de private label-opties'
+      href: /nl/solutions/private-label-sup
+
+what_we_need:
+  heading: 'Wat je vóór de briefing voorbereidt'
+  body: |
+    Een volledige briefing versnelt het proces. Dit helpt:
+
+    - **Boardspecificaties** — doellengte, -breedte en -dikte, ridergewicht, beoogd gebruik. Referentiemaatvoeringen van boards of concurrentmodellen zijn nuttig.
+    - **Designbestanden** — vector graphics (AI, SVG, PDF) voor graphics en logo's. Als ze nog niet klaar zijn, volstaan moodboards of referentiebeelden voor de eerste haalbaarheidscheck.
+    - **Hoeveelheid & tijdlijn** — doelhoeveelheid en seizoensplan. Een ruwe schatting ("20–50 boards vóór maart") is al genoeg om te starten.
+    - **Conformiteitsvereisten** — doelmarkten en specifieke certificeringsvereisten naast CE, ISO 9001, BSCI, REACH, RoHS.
+    - **Budgetkader** — een indicatief budget per board of een doelbestemmingskost helpt ons het juiste platform aan te bevelen.
+
+    **Nog niet alles klaar?** Stuur wat je hebt. Wij begeleiden je door de rest.
+
+faqs:
+  tagline: FAQ
+  title: 'Een SUP-project starten — Veelgestelde vragen'
+  items:
+    - q: 'Wat is de minimale order om te starten?'
+      a: 'Het instappen is getrapt: eerst 1–2 monsters (7–12 dagen), daarna een proeforder van 20–50 boards (25–35 dagen), vervolgens standaard seriecycli van 90–100+ boards per goedgekeurde configuratie. Private label co-branding start vanaf 5–10 eenheden zonder ontwikkelingsfase.'
+    - q: 'Hoe lang duurt het voordat ik de monsters ontvang?'
+      a: 'De fysieke monsters worden in 7–12 dagen geproduceerd vanaf de bevestiging van de specificatie en de aanbetaling. Met bestaande rompplatforms kost de hele cyclus van briefing tot geleverde proeforder doorgaans 8–12 weken. Een aangepaste romp voegt 15–20 dagen matrijsontwikkeling toe.'
+    - q: 'Is mijn design beschermd?'
+      a: 'Ja. Een NDA is direct beschikbaar — vóórdat je vertrouwelijke informatie deelt. Wij produceren uitsluitend onder het merk van onze klanten en concurreren nooit met hen. Alle technische bestanden worden bewaard in systemen met toegangsbeheer en audittrail.'
+    - q: 'Wat vraagt het projectbriefingformulier?'
+      a: 'De briefing vraagt naar het type activiteit, de bedrijfsnaam, de doelspecificaties van het board, de bandbreedte van de bestelhoeveelheid, de tijdlijn en eventuele conformiteitsvereisten. Het kost circa 5–10 minuten. Je kunt designbestanden bijvoegen (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) tot 10 MB. Als je ergens niet zeker van bent, sla het veld over — wij nemen contact met je op.'
+    - q: 'Wat gebeurt er na het insturen van de briefing?'
+      a: 'Je ontvangt binnen één werkdag een reactie. Het technisch bureau bekijkt je briefing en levert een gedetailleerde offerte met MOQ, monstervoorrijkosten en een gefaseerd plan. Er ontstaat geen enkele verplichting totdat je het contract hebt bekeken en ondertekend. De monstervoorrijkosten worden op je productieorder verrekend.'
+
+cta:
+  title: 'Klaar om te beginnen?'
+  subtitle: 'Stuur je projectbriefing in — boardspecificaties, hoeveelheid en tijdlijn — en wij bevestigen de haalbaarheid, produceren de monsters en leveren een productieplan met gedocumenteerde QC in elke fase.'
+  actions:
+    - variant: primary
+      text: Start de projectbriefing
+      href: /nl/contact#project-brief
+    - text: Lees de complete onboardinggids
+      href: /nl/oem-onboarding-guide
+    - text: Verifieer fabriek en kwaliteitssysteem
+      href: /nl/proof-center

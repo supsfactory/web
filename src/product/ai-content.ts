@@ -37,6 +37,9 @@ export const LLM_ITALIAN_HOMEPAGE_DESCRIPTION =
 export const LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION =
   'Fabricante OEM de pranchas de SUP insufláveis e SUP insufláveis personalizadas, com exportação mundial a partir da China'
 
+export const LLM_DUTCH_HOMEPAGE_DESCRIPTION =
+  'OEM-fabrikant van opblaasbare SUP-planken en gepersonaliseerde opblaasbare SUP\'s, met wereldwijde export vanuit China'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 
@@ -106,6 +109,15 @@ export const CUSTOMIZATION_OPTIONS: Record<string, { title: string; body: string
     { title: 'Aletas e acessórios', body: 'Configurações de aletas, pás, bombas, leashes e bolsas adequadas ao teu pacote.' },
     { title: 'Embalagem e apresentação', body: 'Caixas de retalho, embalagem marítima e expositores para o ponto de venda com a tua marca.' },
   ],
+  nl: [
+    { title: 'Boardafmetingen en -vorm', body: 'Lengte, breedte, dikte en rocker afgestemd op jouw beoogde prestaties en markt.' },
+    { title: 'Materialen en constructie', body: 'PVC-lagen, drop-stitch-dichtheid, verstijvers en versterkingen passend bij jouw budget.' },
+    { title: 'Kleuren en opdruk', body: 'Onbeperkte kleurcombinaties met je eigen opdruk of met ondersteuning van ons designteam.' },
+    { title: 'Logo en branding', body: 'Digitale toepassing of zeefdruk van je logo, met visueel bewijs vóór de productie.' },
+    { title: 'EVA en deck', body: 'Op maat gesneden antislip pads, logo\'s en deckkleuren op elke plank.' },
+    { title: 'Vinnen en accessoires', body: 'Vinconfiguraties, peddels, pompen, leashes en tassen passend bij jouw pakket.' },
+    { title: 'Verpakking en presentatie', body: 'Retaildozen, zeewaardige verzendverpakking en point-of-sale displays onder jouw merk.' },
+  ],
 }
 
 export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]> = {
@@ -150,6 +162,13 @@ export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]>
     { title: 'Retalho e empresas de outdoor', body: 'Programas de reabastecimento sazonal com especificações estáveis, lote após lote.' },
     { title: 'Resorts e operadores de aluguer', body: 'Frotas de elevada utilização com reforços, peças sobresselentes e manutenção padronizada.' },
     { title: 'Clubes, escolas e eventos', body: 'Pranchas com a tua marca para programas, competições e frotas corporativas.' },
+  ],
+  nl: [
+    { title: 'SUP-merken', body: 'Lanceer je eigen lijn met minimale afnames per schaal, vanaf co-branding series van 5–10 stuks.' },
+    { title: 'Distributeurs en wederverkopers', body: 'Volumecatalogi met zeewaardige verpakking en exportmanagement.' },
+    { title: 'Detailhandel en outdoorbedrijven', body: 'Seizoensgebonden aanvulprogramma\'s met stabiele specificaties, batch na batch.' },
+    { title: 'Resorts en verhuurbedrijven', body: 'Robuuste vloten met versterkingen, reserveonderdelen en gestandaardiseerd onderhoud.' },
+    { title: 'Clubs, scholen en evenementen', body: 'Planken met jouw merk voor programma\'s, wedstrijden en bedrijfsvloten.' },
   ],
 }
 
@@ -202,6 +221,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/pt/knowledge', title: '', excerpt: '' },
     { url: '/pt/gallery', title: 'Galeria', excerpt: 'Fábrica e galeria de produtos SUPsfactory: oficinas, laboratórios de qualidade, testes de tecidos e pranchas de SUP em produção.' },
   ],
+  nl: [
+    { url: '/nl', title: 'SUPsfactory — OEM- en ODM-productie van opblaasbare SUPs', excerpt: 'OEM/ODM-fabriek voor opblaasbare SUPs in Qingdao: productontwikkeling, productie op maat, privaat label en kwaliteitscontrole.' },
+    { url: '/nl/products', title: 'Opblaasbare SUP-producten', excerpt: 'Premium opblaasbare SUP-planken: 11 ft series, vis-SUP, mini SUP, gigantische teamborden en meer — voor OEM/ODM-productie op maat.' },
+    { url: '/nl/solutions', title: 'Oplossingen', excerpt: 'OEM/ODM-productieprogramma\'s voor SUP: SUP-ontwikkeling op maat, privaat label, vloten voor resorts en clubs, verhuur en retailpartners.' },
+    { url: '/nl/projects', title: '', excerpt: '' },
+    { url: '/nl/knowledge', title: '', excerpt: '' },
+    { url: '/nl/gallery', title: 'Galerij', excerpt: 'Fabriek en productgalerij van SUPsfactory: werkplaatsen, kwaliteitslaboratoria, stofproeven en SUP-planken in productie.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
@@ -216,6 +243,7 @@ export const FAQ_EXCERPTS: Record<string, string> = {
   de: 'Häufig gestellte Fragen zur OEM/ODM-Fertigung aufblasbarer SUPs — Materialien, Zertifizierungen, Mindestbestellmengen und Großhandelsbelieferung.',
   it: 'Domande frequenti sulla produzione OEM/ODM di SUP gonfiabili — materiali, certificazioni, quantità minime d’ordine e fornitura all’ingrosso.',
   pt: 'Perguntas frequentes sobre a produção OEM/ODM de SUP insufláveis — materiais, certificações, quantidades mínimas de encomenda e fornecimento por grosso.',
+  nl: 'Veelgestelde vragen over OEM/ODM-productie van opblaasbare SUPs — materialen, certificeringen, minimum bestelhoeveelheden en groothandelslevering.',
 }
 
 export const STATIC_PAGE_CORPUS_TEXT =

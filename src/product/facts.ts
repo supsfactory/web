@@ -112,7 +112,7 @@ export interface FactShorthands {
   pressureReject: string
 }
 
-export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt', FactShorthands> = {
+export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl', FactShorthands> = {
   en: {
     moq: {
       existingPlatform: FACTS.moq.existingPlatform,
@@ -196,6 +196,20 @@ export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt', FactS
     assemblyChecklist: '100',
     pressureTest: '18.0 PSI · retenção de 24 h',
     pressureReject: 'queda de pressão >0,50 PSI/24 h (rejeição automática)',
+  },
+  nl: {
+    moq: {
+      existingPlatform: '5–10 stuks (alleen logo op bestaand platform, zelfde materiaalrol)',
+      trialStandard: '20–50 stuks (eigen opdruk of kleine specificatiewijziging, zelfde materiaalrol)',
+      standardRun: '90–100+ stuks per goedgekeurde configuratie, onder voorbehoud van materiaalrol- en verpakkingsvereisten',
+      customMould: '90–100+ stuks (een nieuwe vorm vereist een aparte matrijs; tooling voegt 15–20 dagen toe)',
+    },
+    leadTime: '25–35 dagen',
+    leadTimeDetail: '25–35 dagen vanaf bevestigde PO en aanbetaling; de ontwikkeling van een matrijs op maat voegt 15–20 dagen tooling toe.',
+    sampleTime: '7–12 dagen',
+    assemblyChecklist: '100',
+    pressureTest: '18.0 PSI · 24 uur vasthouden',
+    pressureReject: 'drukval >0,50 PSI/24 uur (automatische afkeur)',
   },
 }
 

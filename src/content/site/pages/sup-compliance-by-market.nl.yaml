@@ -1,0 +1,100 @@
+meta:
+  title: 'SUP-conformiteit per markt — CE-, REACH-, RoHS-, BSCI-, ISO 9001-vereisten | SUPsfactory'
+  description: 'Conformiteitsgids voor opblaasbare SUP-boards per markt: CE (EU), CPSIA (VS), AS/NZS (AU), ISO 9001, BSCI, REACH en RoHS — scope en documenten per markt.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'sup conformiteit per markt'
+    - 'ce certificering sup'
+    - 'regelgeving opblaasbare sup'
+    - 'reach conformiteit sup'
+    - 'rohs conformiteit sup'
+    - 'bsci audit sup fabriek'
+    - 'iso 9001 sup fabrikant'
+
+hero:
+  tagline: 'Conformiteitsgids'
+  title: 'SUP-conformiteit per markt'
+  subtitle: 'Elke doelmarkt heeft zijn eigen certificerings-, markerings- en documentatievereisten. Deze gids brengt het conformiteitlandschap voor opblaasbare SUP-boards in de belangrijkste markten in kaart — EU, Noord-Amerika, Australië en daarbuiten — zodat je bij de offerteaanvraag de juiste scope vaststelt en niet pas na de productie.'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'Voor de EU: de CE-markering is verplicht voor boards die in de Europese Economische Ruimte worden verkocht — wij certificeren de modellen voor de EU-markt, de scope wordt per project bevestigd. Voor de VS: CPSIA- en VOC-regelgeving op staatsniveau. Voor Australië: conformiteit volgens AS/NZS 1586. Voor alle markten geldt: ISO 9001 (fabriek), BSCI (sociale audit), REACH en RoHS (materialen) is standaard in onze hele productie, ongeacht de bestemming. De conformiteitsscope en -kosten worden in jouw offerte gedetailleerd — geen verrassingen na de productie.'
+  verified: 'September 2026'
+
+market_cards:
+  tagline: Vereisten per regio
+  title: 'Conformiteitsvereisten per doelmarkt'
+  subtitle: 'De certificeringsscope wordt per project bevestigd tijdens de haalbaarheidscheck. Hieronder de gebruikelijke vereisten per markt.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Europese Unie'
+      desc: 'Verplichte CE-markering. REACH (chemische veiligheid), RoHS (stoffen die aan beperkingen onderhevig zijn), ISO 9001-fabriekscertificering. Productspecifieke controles volgens de PBM-richtlijn of pleziervaartuigenrichtlijn, waar van toepassing. Markering in de officiële taal van het bestemmingsland. Sociale BSCI-audit beschikbaar.'
+    - icon: US
+      icon_bg: green
+      title: 'Verenigde Staten'
+      desc: 'CPSIA-conformiteit (veiligheid van consumentenproducten). California Prop 65 en VOC-regelgeving op staatsniveau voor emissies van PVC en lijmen. Geen federaal equivalent van CE. ASTM-tests op aanvraag. FTC-etiketteringsvereisten voor land van herkomst en materiaalsamenstelling.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Australië & Nieuw-Zeeland'
+      desc: 'AS/NZS 1586 voor opblaasbare vaartuigen. Garanties onder het Australische consumentenrecht. Importdocumentatie en conformiteitsbeoordeling volgens de vereisten van de Australische grensautoriteit. Chemische veiligheidsdocumentatie gelijkwaardig aan REACH. Sociale BSCI-audit beschikbaar.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Wereldwijd / Multi-markt'
+      desc: 'ISO 9001:2015-fabriekscertificering (jaarlijkse audit). Sociale BSCI-audit. REACH- en RoHS-materiaalconformiteit in de hele productie, ongeacht de bestemming. Lot-traceerbaarheid en testrapporten beschikbaar voor elke markt. De individuele certificeringsscope wordt per project bevestigd.'
+
+certifications_detail:
+  heading: 'Onze certificeringsscope'
+  body: |
+    De volgende certificeringen worden in onze productie onderhouden of zijn beschikbaar. De specifieke certificeringsscope voor jouw project wordt bevestigd tijdens de haalbaarheidscheck en in jouw offerte gedetailleerd.
+
+    - **ISO 9001:2015** — Het kwaliteitsmanagementsysteem van de fabriek, jaarlijks geaudit door een geaccrediteerde derde partij. Bestrijkt het hele productieproces, van de inkomende goederencontrole tot het eindverpakken.
+    - **CE-markering** — toegepast op de modellen voor de EU-markt. Verificatie en documentatie volgens de toepasselijke EU-richtlijn. Scope per project bevestigd — niet alle modellen vereisen dezelfde CE-scope.
+    - **BSCI** — Audit van de Business Social Compliance Initiative. Bestrijkt arbeidsrechten, arbeidsveiligheid, milieuconformiteit en bedrijfsethiek. Beschikbaar voor alle markten.
+    - **REACH** — EU-verordening inzake chemische veiligheid. Alle PVC-materialen, lijmen en coatings zijn REACH-conform. Stoffendocumentatie en testrapporten per lot beschikbaar.
+    - **RoHS** — Beperking van gevaarlijke stoffen. Alle elektronische accessoires (pompen met motor, LED-accessoires) zijn RoHS-conform. De boardmaterialen zijn van nature conform.
+
+compliance_process:
+  tagline: Zo werkt conformiteit in jouw order
+  title: 'Conformiteit in het onboardingproces'
+  subtitle: 'Conformiteit is geen extra — het zit ingebouwd in elke gate van het onboardingproces.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Poort 1: bevestiging van de scope'
+      desc: 'Bij de aanvraag bepaal je de doelmarkten. Wij bevestigen welke certificeringen, tests en documenten van toepassing zijn op jouw specifieke product en bestemming. De conformiteitsscope en eventuele kosten worden in de offerte gedetailleerd.'
+    - icon: 2
+      icon_bg: green
+      title: 'Poort 3: certificering van de monsters'
+      desc: 'De monsters worden geproduceerd volgens de bevestigde conformiteitsscope. Voor laboratoriumtests door derden (CE, CPSIA, AS/NZS) coördineren we de tests via geaccrediteerde laboratoria. De testrapporten worden samen met het monster verstrekt.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Poort 7: documentatiepakket'
+      desc: 'Elke productieorder wordt verzonden met een conformiteitsdocumentatiepakket: conformiteitsverklaringen, testrapporten, lot-traceerbaarheidsregisters, veiligheidsgegevens van materialen en markeringsconformiteit. De documentatie is marktspecifiek.'
+
+faqs:
+  tagline: FAQ
+  title: 'SUP-conformiteit — Veelgestelde vragen'
+  items:
+    - q: 'Vereisen alle SUP-boards de CE-markering?'
+      a: 'De CE-markering is alleen vereist voor boards die in de Europese Economische Ruimte worden verkocht. Wij certificeren de modellen voor de EU-markt met een per project bevestigde scope. Boards bestemd voor markten buiten de EU dragen de CE-markering niet, tenzij je die expliciet aanvraagt.'
+    - q: 'Zijn jouw materialen REACH- en RoHS-conform?'
+      a: 'Ja. Alle PVC-materialen, lijmen en coatings zijn REACH-conform. Alle elektronische accessoires (pompen met motor, LED-accessoires) zijn RoHS-conform. De constructiematerialen van de boards zijn van nature RoHS-conform. De stoffendocumentatie en testrapporten zijn per lot op aanvraag beschikbaar.'
+    - q: 'Kunnen jullie certificeringen regelen voor een markt die hier niet wordt genoemd?'
+      a: 'Ja. Wij hebben naar meer dan 50 landen verzonden en kunnen certificering en documentatie voor de meeste markten coördineren. Geef bij de aanvraag je bestemmingsland door en wij bevestigen de specifieke conformiteitsscope, naast eventuele aanvullende tests of documenten die worden vereist.'
+    - q: 'Hoe worden de conformiteitskosten beheerd?'
+      a: 'De conformiteitsscope en eventuele kosten (laboratoriumtests door derden, certificeringskosten) worden tijdens de haalbaarheidscheck in jouw offerte gedetailleerd. Geen conformiteitskosten na de productie. De standaardcertificeringen (ISO 9001, BSCI) gelden op fabrieksniveau en genereren geen stukskosten.'
+
+cta:
+  title: 'Bepaal je conformiteitsvereisten'
+  subtitle: 'Vertel ons je doelmarkten en wij bevestigen de certificeringsscope, testvereisten en het documentatiepakket — gedetailleerd in jouw offerte.'
+  actions:
+    - variant: primary
+      text: Start de projectbriefing
+      href: /nl/contact#project-brief
+    - text: Verifieer certificeringen en kwaliteitssysteem
+      href: /nl/proof-center
+    - text: OEM-onboardingproces
+      href: /nl/oem-onboarding-guide

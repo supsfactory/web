@@ -1,0 +1,108 @@
+meta:
+  title: 'SUP-productontwikkeling — aangepast ontwerp, prototype & productie'
+  description: 'SUP-productontwikkeling van idee tot container: specificatie, engineering, prototyping, testen, gereedschapsbouw en serieproductie in een speciale SUP-fabriek.'
+  dateModified: '2026-08-10'
+  keywords:
+    - 'SUP-productontwikkeling'
+    - 'SUP-prototypeontwikkeling'
+    - 'aangepast SUP-ontwerp'
+    - 'SUP-productengineering'
+    - 'prototyping van opblaasbare SUP''s'
+
+hero:
+  tagline: Productontwikkeling
+  title: 'Aangepaste SUP-productontwikkeling, van idee tot container'
+  subtitle: 'Zes fasen zetten jouw idee om in productieklaar SUP-planken — specificatie, engineering, prototyping, testen, gereedschapsbouw en serieproductie, allemaal in één fabriek met een verantwoordelijk kwaliteitssysteem.'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'SUP-productontwikkeling bij SUPsfactory doorloopt zes fasen — productspecificatie, structurele engineering, prototypebemonstering, testen & validatie, bouw van maatgereedschap en serieproductie. Het eerste fysieke monster vertrekt 7–12 dagen na de specificatiegoedkeuring; de productie loopt 25–35 dagen na de bevestigde bestelling en aanbetaling; een nieuw malvormstempel voegt 15–20 dagen toe.'
+  verified: 'September 2026'
+
+stages:
+  title: 'De zes fasen van SUP-productontwikkeling'
+  subtitle: 'Elke fase heeft een duidelijk resultaat — zodat je altijd weet waar je project staat — en wat er daarna gebeurt.'
+  items:
+    - title: '1. Idee & productspecificatie'
+      description: 'Plankgeometrie, gewichtsbereik van de gebruiker, volume, constructiedoelstellingen en accessoirepakket. Een referentieplank, een schets of de specificatie van een concurrent is genoeg om te starten.'
+      icon: 'tabler:bulb'
+    - title: '2. Engineering & 3D-ontwerp'
+      description: 'Structurele engineering, drop-stitch dikte en selectie van de PVC-klasse, plus een produceerbaarheidscheck en een offerte — binnen één werkdag.'
+      icon: 'tabler:blueprint'
+    - title: '3. Prototypebemonstering'
+      description: 'Je eerste fysieke monster vertrekt binnen 7–12 dagen, gedocumenteerd met een goedkeuringsformulier voor constructie, printkleuren en drukproefresultaten.'
+      icon: 'tabler:tools'
+    - title: '4. Testen & validatie'
+      description: 'Drukbehoud, lassterkte en maatcontroles ten opzichte van het goedgekeurde monster, met CE- en REACH-documentatie voor jouw doelmarkten.'
+      icon: 'tabler:test-pipe'
+    - title: '5. Gereedschap & serieproductie'
+      description: 'Bouw van maatmatrijzen in 15–20 dagen, indien nodig; de productie loopt 25–35 dagen met inline QC-controlepunten en partijtraceerbaarheid.'
+      icon: 'tabler:settings'
+    - title: '6. Levering & schaalbaarheid'
+      description: 'Logistiek FOB, CIF of DDP naar meer dan 50 landen — daarna herdrukorders op jouw vastgestelde lijn met stabiele levertijden en gearchiveerde goedgekeurde artwork.'
+      icon: 'tabler:truck-delivery'
+
+why_inhouse:
+  title: 'Waarom in-fabriek ontwikkeling een intermediair project verslaat'
+  subtitle: 'Ontwikkeling rechtstreeks in de productiefaciliteit verandert wat je in elke fase krijgt.'
+  items:
+    - title: Geen overdrachtsmomenten in het ontwerp
+      description: 'Het engineering- en tekenteam werkt op dezelfde vloer als de laslijn — een ontwerpaanpassing komt in dezelfde week in de productie, niet na een commerciële heen-en-weer.'
+      icon: 'tabler:handshake'
+    - title: Monsters die overeenkomen met de productie
+      description: 'De bemonsteringsrun en de productierun delen dezelfde machines, materialen en QC-stations — het goedgekeurde monster is dus exact wat je op containerschaal ontvangt.'
+      icon: 'tabler:stack-2'
+    - title: Engineering die niets verkoopt
+      description: 'Beslissingen worden genomen op basis van streefkosten, gewicht en levensduur — niet op winstmarges, want dit is een fabriek en productie is de enige bron van omzet.'
+      icon: 'tabler:scale'
+    - title: Vertrouwelijkheid als blijvende toezegging
+      description: 'Een NDA wordt ondertekend vóór elke bestandsuitwisseling en jouw artwork, gereedschap en specificatiebestanden blijven van jou — nooit hergebruikt, doorverkocht of aan andere klanten getoond.'
+      icon: 'tabler:lock'
+
+buyer_guides:
+  tagline: Inkoopgidsen
+  title: 'De complete inkoopbibliotheek'
+  subtitle: 'Elke fase van een aangepast SUP-project uitgelegd, met onze echte levertijden, voorwaarden en documenten.'
+  items:
+    - title: 'Private label: de complete stappenhandleiding'
+      body: 'Van fabriekskeuze tot geleverde container — het volledige zes-stappen traject voor nieuwe merken.'
+      href: '/nl/news/private-label-sup-guide'
+    - title: 'Hoe kies je een SUP-OEM-fabrikant'
+      body: 'De auditvragen die een echte fabriek onderscheiden van een tussenpersoon: certificeringen, QC, monsters en eigendom.'
+      href: '/nl/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'SUP-productontwikkeling doorlooptijden'
+      body: 'Monsters in 7–12 dagen, productie in 25–35 dagen, gereedschap plus 15–20 — de volledige planning, fase voor fase.'
+      href: '/nl/news/custom-sup-development-timeline'
+    - title: 'Informatie om vóór de bestelling voor te bereiden'
+      body: 'De vijf gegevens waarmee een fabriek in één keer een correcte offerte maakt — en specificatie-herwerk voorkomt.'
+      href: '/nl/news/info-needed-before-sup-production'
+    - title: 'MOQ en prijzen voor SUP-OEM'
+      body: 'MOQ-niveaus over monster (1–2), pilot (20–50) en volume (90–100+ per rol van 150 m), de zes kostendrijvers en vijf manieren om kosten te verlagen zonder kwaliteit op te offeren.'
+      href: '/nl/news/sup-oem-moq-pricing'
+    - title: 'CE-certificering voor opblaasbare SUP''s'
+      body: 'Wat de CE-markering echt dekt, de vijf documenten om te vragen en hoe je controleert of een certificaat jouw model vermeldt.'
+      href: '/nl/news/ce-certification-inflatable-sup'
+    - title: 'Verzending: FOB versus CIF versus DDP'
+      body: 'Wat elke Incoterm dekt en kost, de 4–6 weken zeetransit en welke voorwaarde bij jouw bedrijf past.'
+      href: '/nl/news/private-label-sup-oem-guide'
+
+faq_section:
+  tagline: FAQ
+  title: 'Veelgestelde vragen over SUP-ontwikkeling'
+  questions:
+    - q: Kunnen jullie een SUP-product uit een idee ontwikkelen?
+      a: 'Ja. We begeleiden het hele traject van productspecificatie en engineering, via prototypeontwikkeling, maatwerk en serieproductie op basis van jouw eisen. Een schets, een referentieplank of zelfs de specificatie van een concurrent is genoeg voor de engineeringcheck.'
+    - q: Hoeveel kost SUP-productontwikkeling?
+      a: 'De specificatiecheck en de engineeringbeoordeling zijn gratis en komen binnen één werkdag terug. Prototypebemonstering wordt per project geoffreerd na het bevriezen van de specificatie; productieprijzen hangen af van materialen, hoeveelheid en of eigen gereedschap nodig is.'
+    - q: Hoe lang duurt SUP-productontwikkeling?
+      a: 'Het eerste monster vertrekt 7–12 dagen na de specificatiegoedkeuring, met 3–7 dagen per revisieronde. De productie loopt 25–35 dagen na de bestelling en aanbetaling. Een eigen malvoegt 15–20 dagen van tevoren toe en zeetransport telt voor de meeste bestemmingen 4–6 weken op.'
+    - q: Wat komt er eerst — monster of productie?
+      a: 'Altijd het monster. Een fysiek prototype wordt gemaakt, gemeten en goedgekeurd tegen de specificatie voordat een productierun start. We produceren geen aantallen uit niet-goedgekeurde ontwerpen.'
+    - q: Ondertekenen jullie een NDA voor productontwikkeling?
+      a: 'Ja. Er wordt een NDA ondertekend vóór elke bestandsuitwisseling en jouw ontwerpen, artwork en gereedschap blijven van jou tijdens de hele ontwikkeling en productie.'
+    - q: Kunnen jullie mijn SUP-ontwerp en -specificatie beschermen?
+      a: 'Ontwerpen, specificaties en productconcepten van klanten worden vertrouwelijk behandeld tijdens ontwikkeling en productie. Jouw gereedschapsbestanden worden nooit hergebruikt, doorverkocht of aan andere klanten getoond.'
+
+cta:
+  title: 'Start uw SUP-productproject'
+  subtitle: 'Stuur een schets, een referentieplank of een specificatie — engineeringcheck en offerte binnen één werkdag.'

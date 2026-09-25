@@ -1,0 +1,145 @@
+meta:
+  title: 'Kwaliteits- & testlaboratorium — ISO-conforme SUP-testen'
+  description: 'Onafhankelijke kwaliteitscontrole voor opblaasbare SUP-planken: trektests, luchtdichtheidscycli, naadpeeltests en materiaalcertificering.'
+back_text: 'Terug naar het R&D-centrum'
+home_label: 'Home'
+
+hero:
+  tagline: 'Laboratorium 06'
+  title: 'Kwaliteits- & testlaboratorium'
+  subtitle: 'Onafhankelijke tests — elke test doorstaan voordat wordt geleverd'
+  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp'
+  image_alt: 'UV-test in het kwaliteitscontrolelaboratorium van Vatrad'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'Elke plank wordt vóór verzending getest tegen de gepubliceerde specificaties: 100 % drukhoudtest bij 18.0 PSI gedurende 24 uur (automatische afkeur boven 0.50 PSI drukval), trektests en naadpeeltests volgens ISO 1421 en een 100-punts montagechecklist. Het laboratorium rapporteert rechtstreeks aan de bedrijfsdirectie, niet aan de productie, en kan elke levering stoppen.'
+  verified: 'September 2026'
+
+intro: 'Elke plank die onze werkplaats verlaat, draagt het bewijs dat hij een vastgestelde reeks kwaliteitscontroles en materiaaltests heeft doorstaan. Ons kwaliteits- & testlaboratorium is een onafhankelijke functie binnen de organisatie — het rapporteert rechtstreeks aan de bedrijfsdirectie, niet aan de productie — en garandeert zo dat geen enkele commerciële druk de testpoorten kan ondermijnen. Wanneer een materiaalpartij of een afgewerkte plank niet voldoet aan de gepubliceerde specificatie, heeft het laboratorium de bevoegdheid om de levering op te schorten totdat de non-conformiteit is opgelost.'
+
+content_html: |
+  <h2>Vertrouwen, maar controleer</h2>
+  <p>Het laboratorium werkt binnen een kwaliteitsmanagementsysteem volgens de beginselen van ISO 9001, en onze testmethoden zijn waar mogelijk gebaseerd op ISO-, ASTM- en EN-normen. Wij houden gedetailleerde registraties bij van elke uitgevoerde test, waardoor een volledige traceerbaarheidsketen ontstaat van binnenkomende grondstoffen tot de uiteindelijke levering van de plank.</p>
+
+  <h2>Apparatuur en testcapaciteiten</h2>
+  <table>
+    <thead><tr><th>Apparatuur</th><th>Uitgevoerde tests</th><th>Norm / Methode</th></tr></thead>
+    <tbody>
+      <tr><td>Universele testmachine (50 kN)</td><td>Treksterkte (stof), peelsterkte (naden), scheurpropagatie</td><td>ISO 1421, ISO 4674</td></tr>
+      <tr><td>Programmeerbare luchtdrukbank</td><td>Kwaliteitstest over 1000 ompomp-/leegloopcycli, 30 min drukhoudtest</td><td>Intern (volgens ISO-6185-methode)</td></tr>
+      <tr><td>Naadpeelapparaat (gemotoriseerd 180°)</td><td>Peelsterkte van gelaste en gelijmde naden bij 100 mm/min</td><td>ISO 1421 / ASTM D1876</td></tr>
+      <tr><td>Waterkolomtestapparaat</td><td>Waterbestendigheid van de stof (0–1000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Digitale dikteschroefmaat &amp; micrometer</td><td>Stofdikte, lasdikte, dikte van lijmfilms</td><td>ISO 2286-3</td></tr>
+      <tr><td>Klimaatkamer</td><td>Thermische conditionering (-40 °C tot +80 °C) voor koudscheurtests en thermische veroudering</td><td>ISO 188, ISO 4675</td></tr>
+      <tr><td>Colorimeter-spectrofotometer</td><td>Delta-E kleurmeting na UV-blootstelling</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+    </tbody>
+  </table>
+
+  <h2>De testpoorten — van materiaal tot levering</h2>
+  <p>Elke plank volgt een vastgesteld kwaliteitsplan met bindende testpunten. Geen enkele plank kan een poort overslaan; elke poort moet door een kwaliteitsinspecteur worden medeondertekend voordat de volgende productiefase begint.</p>
+
+  <div class="not-prose my-8">
+    <div class="relative">
+      <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-200 dark:bg-blue-800"></div>
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Poort 1</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Controle van binnenkomende materialen</p>
+            <p class="text-xs text-gray-500 mt-1">Stofpartij, drop-stitch kern, lijmproductie, accessoires — allemaal gecontroleerd tegen de inkomstenspecificatie voordat ze aan de productie worden vrijgegeven.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Poort 2</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">In-proces controle van de lassen</p>
+            <p class="text-xs text-gray-500 mt-1">Eerste lasmonsters getest (peel + visuele inspectie) aan het begin van elke productieploeg.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Poort 3</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Luchttest in de kamer</p>
+            <p class="text-xs text-gray-500 mt-1">Plank op druk gezet op 18.0 PSI (werkdruk 12–15 PSI) en 24 uur gehouden. Een drukval &gt; 0.50 PSI leidt tot automatische afkeur. Gegevens vastgelegd per serienummer.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Poort 4</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Controle vóór verzending</p>
+            <p class="text-xs text-gray-500 mt-1">Volledige plank gecontroleerd: alle accessoires vastgezet, hechting van het deckpad, uitlijning van de graphics, geen esthetische gebreken. 100-punts checklist.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Poort 5</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Eindcertificering</p>
+            <p class="text-xs text-gray-500 mt-1">Testrapporten samengesteld, testprotocols gecontroleerd, conformiteitscertificaat (Certificate of Conformance) afgegeven.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Standaardtests voor elke partij</h2>
+  <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18.0 PSI in de luchttest in de kamer, 24 uur gehouden</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">Een drukval leidt tot automatische afkeur</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">100 %</span>
+      <span class="text-xs text-gray-500">Kamers vóór de assemblage met lucht getest</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
+      <span class="text-xs text-gray-500">Kwaliteitsmanagementsysteem</span>
+    </div>
+  </div>
+
+  <h2>Ons kwaliteitsteam</h2>
+  <p>Het laboratorium wordt bemand door een quality manager (10 jaar ervaring in maritieme kwaliteitsborging, gecertificeerd ASQ-kwaliteitsingenieur), twee kwaliteitsinspecteurs (beide met NDT-niveau 2 certificering voor visuele inspectie) en een materiaaltechnicus die verantwoordelijk is voor alle fysische tests. Het team voert jaarlijkse bekwaamheidstests uit via een onafhankelijke externe leverancier, om te garanderen dat onze testresultaten nauwkeurig en reproduceerbaar blijven.</p>
+
+  <h2>Onafhankelijke tests voor klanten</h2>
+  <p>Ons kwaliteits- & testlaboratorium is beschikbaar voor onafhankelijke testdiensten. Moet je een stofspecificatie controleren, een nieuw lijmsysteem valideren of een testrapport van een derde partij voor een inkoopkwalificatie verkrijgen — wij voeren de tests uit volgens de toepasselijke norm en geven een gecertificeerd testrapport af.</p>
+  <p>Voorbeelden van recente testopdrachten van derden:</p>
+  <ul>
+    <li>Vergelijking van de peelsterkte van vijf concurrerende lijmproducten voor een Europees inkoopprogramma.</li>
+    <li>Versnelde verouderingsstudie (UV + thermische cycli) voor een nieuwe oranje gepigmenteerde PVC-formulering, met regelmatige tussenmetingen om de 500 h.</li>
+    <li>Validatie van de luchtdichtheid van 50 prototype ventielgroepen voor een nieuw hogedrukplankontwerp.</li>
+  </ul>
+
+  <h2>Ons engagement tegenover jou</h2>
+  <p>Wanneer je een plank van {SITE.name} ontvangt, ontvang je ook zijn kwaliteitsdossier — een samengestelde registratie van de testresultaten voor jouw specifieke plank. Certificaat van de stofpartij, naadpeeltests, protocollen van de luchttest in de kamer en de pre-verzending checklist. Elk getal is traceerbaar. Elke inspecteur is geïdentificeerd. Dit is niet zomaar papier — het is onze belofte dat wat we hebben geleverd overeenkomt met wat we hebben gespecificeerd.</p>
+  <p>Heb je ooit een kwaliteitsprobleem, dan kun je rechtstreeks contact opnemen met het laboratorium — de contactgegevens staan op jouw conformiteitscertificaat. Wij nemen elk verzoek serieus en verbinden ons tot een formeel onderzoek binnen 48 uur.</p>
+
+  <h2>Wat gebeurt er als een plank de test niet doorstaat?</h2>
+  <p>Een niet-conforme plank verdwijnt nooit zomaar stilletjes. Het laboratorium volgt een vastgestelde non-conformiteitsprocedure, zodat het probleem wordt ingeperkt, gecorrigeerd en voorkomen:</p>
+  <ul>
+    <li><strong>Isolatie</strong> — de plank wordt gemarkeerd, van de lijn gehaald en geregistreerd in het non-conformiteitenregister met de naam van de inspecteur en de niet-gehaalde criteria.</li>
+    <li><strong>Herbewerking of afkeuring</strong> — repareerbare gebreken (bijv. een ventiel, een raillas of een hoek van het deckpad) worden herbewerkt door een gecertificeerde operator en het gerepareerde gebied wordt opnieuw getest volgens dezelfde norm. Planken die de specificatie niet kunnen halen worden afgekeurd, niet gedegradeerd.</li>
+    <li><strong>Opnieuw testen</strong> — elke herbewerkte plank moet de volledige betreffende poort opnieuw doorstaan voordat hij terug kan naar de verpakkingslijn.</li>
+    <li><strong>Vrijgave</strong> — alleen planken met alle medeondertekende poorten verlaten de fabriek. Het afkeurpercentage, de oorzaak en de corrigerende actie worden samengevat in jouw kwaliteitsrapport van de partij.</li>
+  </ul>
+
+  <h2>De kwaliteitsdocumentatie die je ontvangt</h2>
+  <p>Elke partij wordt verzonden met een documentenpakket dat jouw QC-team kan controleren: het partijcertificaat (partijnummers van stof, lijm en accessoires), de naadpeelprotocollen, de luchttestprotocollen van de kamer per serienummer, de getekende 100-punts pre-verzending checklist, de paklijst en een fotoprotocol van jouw planken vóór het laden.</p>
+
+cta:
+  title: 'Vraag een voorbeeld-QC-checklist aan'
+  subtitle: 'Ontdek de exacte testpoorten, testmethoden en documenten waartegen jouw partij zou worden gecontroleerd — stuur ons het planktype en de hoeveelheid.'
+  actions:
+    - variant: primary
+      text: Vraag de QC-checklist aan
+      href: /nl/contact#quality-inquiry
+    - text: Het 7-stappen testpoortsysteem
+      href: /nl/quality
+    - text: Fabrieks-QC-laboratorium & download van testrapporten
+      href: /nl/factory/quality-lab
+    - text: Normen voor het beheer van non-conforme producten
+      href: /nl/factory/non-conforming-control

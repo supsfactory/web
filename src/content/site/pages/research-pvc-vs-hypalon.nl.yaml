@@ -1,0 +1,81 @@
+meta:
+  title: 'PVC versus Hypalon — Stoffen voor opblaasbare SUP-planken | {SITE}'
+  description: 'PVC versus Hypalon voor de constructie van opblaasbare SUP-planken: UV-bestendigheid, levensduur, repareerbaarheid, gewicht, kosten en welke stof SUP-planken daadwerkelijk gebruiken.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Terug naar research'
+
+hero:
+  tagline: 'Materialen'
+  title: 'PVC versus Hypalon — Materiaalgids voor opblaasbare SUP-planken'
+  subtitle: '10 min leestijd'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'Voor SUP-planken wint PVC op kosten, gewicht, bedrukbaarheid en automatiseerbaar radiofrequentielassen (RF) — een drielaags marine PVC in 1 680 DTEX met UV-stabilisatoren is de industriestandaard. Hypalon/CSM is langer bestand tegen zonlicht en chemicaliën, kost echter circa 3&ndash;5&times; meer, is zwaarder en wordt met de hand verlijmd — daarom wordt het tegenwoordig zelden op SUP''s gebruikt.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Overzicht van de materialen</h2>
+
+  <h3>PVC (polyvinylchloride)</h3>
+  <p>PVC is de standaard stof voor opblaasbare SUP-planken. Voor de constructie wordt het doorgaans versterkt met een polyester weefsel (1 100 – 1 680 DTEX), aan beide zijden gecoat en vervolgens rond een drop-stitch kern gelast. Moderne samenstellingen van marine PVC bevatten UV-stabilisatoren en weekmakers om de flexibiliteit en weersbestendigheid te verbeteren; planken die zo zijn gebouwd weerstaan werkdrukken van 12 – 15 PSI.</p>
+
+  <h3>Hypalon (CSM – chloorsulfonylpolyethyleen)</h3>
+  <p>Hypalon is een synthetische rubberverbinding (tegenwoordig generiek geproduceerd als CSM sinds DuPont het Hypalon-merk heeft opgegeven). Het staat bekend om zijn uitzonderlijke bestendigheid tegen UV en ozon en geldt als de favoriete stof voor tubewanden van professionele en commerciële boten die langdurig aan direct zonlicht worden blootgesteld. Op SUP-planken wordt Hypalon zelden gebruikt — planken vereisen hogedruk- en dimensionaal stabiele decks, die PVC drop-stitch constructies voor een fractie van het gewicht leveren.</p>
+
+  <h2>Directe vergelijking</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Eigenschap</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">PVC</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Hypalon (CSM)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">UV-bestendigheid</td><td class="p-3 border">Goed (met stabilisatoren)</td><td class="p-3 border">Uitstekend (intrinsiek)</td></tr>
+      <tr><td class="p-3 border font-medium">Slijtvastheid</td><td class="p-3 border">Goed</td><td class="p-3 border">Zeer goed</td></tr>
+      <tr><td class="p-3 border font-medium">Treksterkte</td><td class="p-3 border">3 000 – 5 000 N/5cm</td><td class="p-3 border">2 500 – 4 000 N/5cm</td></tr>
+      <tr><td class="p-3 border font-medium">Gewicht (per m&sup2;)</td><td class="p-3 border">850 – 1 200 g</td><td class="p-3 border">1 100 – 1 500 g</td></tr>
+      <tr><td class="p-3 border font-medium">Koudeflexibiliteit (lage temperaturen)</td><td class="p-3 border">-30&deg;C</td><td class="p-3 border">-20&deg;C</td></tr>
+      <tr><td class="p-3 border font-medium">Repareerbaarheid</td><td class="p-3 border">Gemakkelijk (warmtelassen of lijm)</td><td class="p-3 border">Vereist specifieke CSM-lijm</td></tr>
+      <tr><td class="p-3 border font-medium">Verbindingsmethode</td><td class="p-3 border">RF-lassen, heteluchtlassen</td><td class="p-3 border">Handmatig verlijmen (contactlijm)</td></tr>
+      <tr><td class="p-3 border font-medium">Kosten (materiaal)</td><td class="p-3 border">$8 – $15 / m&sup2;</td><td class="p-3 border">$20 – $40 / m&sup2;</td></tr>
+      <tr><td class="p-3 border font-medium">Levensduur (tropische zon)</td><td class="p-3 border">5 – 8 jaar</td><td class="p-3 border">10 – 15 jaar</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Wat kies je?</h2>
+
+  <h3>Kies PVC wanneer:</h3>
+  <ul>
+    <li>Je opblaasbare SUP-planken bouwt (PVC + drop-stitch is de industriestandaard)</li>
+    <li>Het gewicht van de plank telt — PVC is 15 – 25 % lichter</li>
+    <li>Je koudeflexibiliteit nodig hebt onder -20&deg;C</li>
+    <li>Je een breder scala aan kleur- en afwerkingsopties wilt</li>
+    <li>Je een hoge werkdruk (12 – 15 PSI) nodig hebt voor een stijf en stabiel deck</li>
+  </ul>
+
+  <h3>Kies Hypalon wanneer:</h3>
+  <ul>
+    <li>Het product jarenlang in de volle zon voor anker ligt of in opslag is</li>
+    <li>Je in een tropische omgeving of met zware UV werkt zonder opslagmogelijkheden</li>
+    <li>Maximale levensduur zwaarder weegt dan gewicht en kosten</li>
+    <li>Je professionele of commerciële boten bouwt, zoals RIB''s</li>
+    <li>Slijtage door zand, beton of steigers een voornaamste zorg is</li>
+  </ul>
+
+  <h2>Productieverschillen</h2>
+  <p>PVC-planken worden gemaakt via RF-lassen (radiofrequentie) of heteluchtlassen, waardoor een moleculaire verbinding tussen de gecoate stoflagen ontstaat. Dit maakt geautomatiseerde, consistente en rendabele productie mogelijk met nauwkeurige naadsterkte op hogedrukplanken. Hypalon wordt met de hand geassembleerd met contactlijm; elke naad wordt handmatig gerold en aangedrukt, waardoor de productie in Hypalon arbeidsintensiever is en geschikt voor de constructie van lagedruk-RIB''s.</p>
+
+  <h2>Aanbeveling van Vatrad</h2>
+  <p>Voor opblaasbare SUP-planken biedt modern hoogwaardig PVC met UV-stabilisatoren de beste balans tussen kosten, gewicht, prestaties en levensduur. Vatrad bouwt elke SUP met marine PVC in 1 680 DTEX, een drielaagse coating en een drop-stitch kern die is ontworpen voor 15 PSI — waarbij elke stofbatch vóór de productie onafhankelijk wordt getest in ons PVC-stoffenlaboratorium. Hypalon blijft op aanvraag beschikbaar voor commerciële boten en bijzondere toepassingen, afzonderlijk geproduceerd via onze commerciële marinelijn.</p>
+  <p>De materiaalkeuze bepaalt de kosten, het gewicht en de levensduur van jouw assortiment — geef ons je doelmarkt en wij <a href="/nl/oem-manufacturing">specificeren de juiste stof voor jouw OEM-project</a>, getest in ons <a href="/nl/randdcenter/quality-inspection-lab">materiaaltestlaboratorium</a>.</p>
+
+cta:
+  title: 'Hulp nodig bij het kiezen van materialen?'
+  subtitle: 'Ons team kan je adviseren over PVC versus Hypalon voor jouw specifieke toepassing.'
+  button_text: 'Raadpleeg onze experts'
+  button_link: /nl/contact

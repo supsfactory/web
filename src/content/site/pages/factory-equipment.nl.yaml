@@ -1,0 +1,93 @@
+meta:
+  title: 'Fabrieksapparatuur — Snijden, lassen & printen'
+  description: 'Industriële productieapparatuur van Vatrad: PVC-snijden, RF-lassen, digitaal printen, assemblage en testen voor opblaasbare SUP''s.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup productieapparatuur'
+    - 'fabriek opblaasbare sup'
+    - 'rf pvc lassen'
+    - 'paddle board productie'
+hero:
+  tagline: Apparatuur
+  title: Productieapparatuur & machines
+  subtitle: Industriële apparatuur voor snijden, lassen, printen en assembleren
+  back_label: Terug naar de fabriek
+  back_link: /factory
+
+answer:
+  label: 'Helder antwoord'
+  text: 'Onze fabriek van 12.500 m² beheert automatisch CNC-gestuurd snijden (precisie 0.1 mm, minder dan 5% afval), hetelucht-thermolassen bij 200–600 °C naast 15 kW RF-diëlektrisch lassen voor de hoofdnaden, laminaatpersen voor drop-stitch kernen tot 14 ft en een QC-laboratorium dat de drukproef van elke kamer, ASTM D751-trekproeven en de ISO 6185-naadpeeling-controle uitvoert.'
+  verified: 'September 2026'
+
+categories:
+  - title: Snijden & materiaalvoorbereiding
+    items:
+      - name: Automatische PVC-snijmachine
+        spec: CNC-gestuurd, 6.5 m × 2.5 m, precisie 0.1 mm
+        desc: Automatische computergestuurde snijmachine voor PVC-, Hypalon- en drop-stitch weefsels. De nestingssoftware optimaliseert het materiaalgebruik tot minder dan 5% afval.
+      - name: Weefsel-spreidmachine
+        spec: Max. breedte 3 m, voortgang met gecontroleerde spanning
+        desc: Spreidt het weefsel in één of meer lagen met gecontroleerde spanning om vervorming vóór het snijden te voorkomen.
+
+  - title: Kamers lassen & verlijmen
+    items:
+      - name: Thermolasmachine
+        spec: Hetelucht-lassen, variabel 200–600 °C, 0.5–5 m/min
+        desc: Hetelucht-thermolasmachine om de naden van PVC- en Hypalon-kamers te verbinden en te lassen. Gebruikt voor het richten, verzegelen en versmelten van kamers en drijflichamen.
+      - name: RF-diëlektrische pers
+        spec: 15 kW, plaat 2000 × 600 mm
+        desc: Hogefrequentie-laspers voor de belangrijkste longitudinale naden, verbindingsstukken van de balg en de productie van grote kamers.
+      - name: RF-lasmachine, CNC-gestuurd
+        spec: 8 kW, XY-tafel 2500 × 1200 mm
+        desc: Programmeerbaar lassen van gebogen naden voor complexe geometrieën, logo-markering en precisie-reparaties.
+
+  - title: SUP-productie
+    items:
+      - name: Laminaatpers drop-stitch kern
+        spec: Grootformaat pers voor plankkernen tot 14 ft LOA
+        desc: Precisie-lamineren van drop-stitch kernen op de externe PVC-lagen. Elke laag wordt onder druk verlijmd voor constante kwaliteit en sterkte.
+      - name: CNC-freesmachine (5 assen)
+        spec: Werkgebied 3 m × 2 m × 1 m, watergekoelde spil
+        desc: Bewerking van fin boxen, uitsparingen voor handvatten en op maat gemaakte plankcomponenten.
+
+  - title: SUP bedrukken & decoratie
+    items:
+      - name: Digitale printer
+        spec: Hogeresolutie-inkjet, printbreedte tot 2 m
+        desc: Direct digitaal printen op het weefsel voor full-colour SUP deck-graphics. Print op maat gemaakte patronen, overgangen en fotorealistische afbeeldingen met kleurvaste waterbestendige inkten.
+      - name: Zeefdrukmachine
+        spec: Handmatig en semi-automatisch, multikleur-registratie
+        desc: Zeefdruk voor logo''s, merken en repeterende patronen op SUP-planken. Biedt duurzame, dekkende prints met sterke kleurverzadiging.
+
+  - title: Assemblage & afmontage
+    items:
+      - name: Plankassemblagepost
+        spec: Modulair verstelbaar, meerstations-layout
+        desc: Assemblage van fin boxen, handvatten, D-ringen, ventielen en deckpads op de SUP-planken.
+      - name: Montagepers voor ventielen
+        spec: Pneumatisch, verstelbare druk
+        desc: Precisie-installatie en -verzegeling van Halkey-Roberts en Leafield ventielen.
+      - name: Deckpad-laminator
+        spec: 3 m × 1.5 m, op geregelde temperatuur
+        desc: Heetlamineren van EVA-schuim deckpads op de bovenoppervlakken van de SUP-planken met constante hechtkracht.
+
+  - title: Testen & kwaliteitscontrole
+    items:
+      - name: Universele trekproefmachine
+        spec: 50 kN, / ASTM D751
+        desc: Proef van maximale belasting, rek bij breuk en scheurvastheid voor de weefselloten.
+      - name: Luchtdichtheidstestapparaat
+        spec: Programmeerbaar, drukbehoud van 30 minuten
+        desc: Geautomatiseerde drukbehoudtest voor elke kamer vóór de assemblage.
+      - name: Naadpeeling-apparaat
+        spec: Gemotoriseerde 180°-afbuiging bij 100 mm/min
+        desc: Proef van de peelsterkte van de gelaste en verlijmde naden volgens ISO 6185.
+      - name: Verouderingskamer met xenon-boog
+        spec: 2000 u blootstelling
+        desc: UV-bestendigheidsproef voor kleurverschuiving en behoud van sterkte.
+
+cta:
+  title: Interesse in een fabrieksrondleiding?
+  desc: Wij ontvangen bezoekers graag in onze locatie in Qingdao. Bekijk de apparatuur en processen ter plaatse.
+  label: Plan een bezoek →
+  link: /contact

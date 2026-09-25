@@ -3997,6 +3997,665 @@ export const projects: Localized<ProjectData[]> = {
       tags: ['Configuração de yoga', 'Cobertura completa do deck', 'Frota de programa'],
     },
   ],
+  nl: [
+    {
+      slug: 'coastal-rental-fleet',
+      customerType: 'Verhuurvloot-exploitanten',
+      region: 'Middellandse Zee — Spanje, Italië, Griekenland',
+      productCategory: 'Opblaasbare SUP voor verhuur (10′6″ + 11′0″)',
+      projectStage: 'Vlootevaluatie → Goedkeuring van het monster → Gefaseerde levering in 3 partijen',
+      manufacturingScope: 'Vlootspecificatie, versterkte constructie, gefaseerde productie, levering van reserveonderdelen',
+      keyRequirements: 'Duurzame verhuurborden, gefaseerde levering aan alle stations, lager percentage vroegtijdige vervanging',
+      qualityFocus: 'Versterkte constructie, luchtdichtheid, vlootgraphics, complete uitrusting',
+      navLabel: 'Kustverhuurvloot',
+      metaTitle: 'Kustverhuurvloot | 320 planken in 120 dagen — SUPsfactory',
+      metaDescription:
+        'Hoe een verhuurexploitant in de Middellandse Zee een kustvloot van 320 planken opbouwde in Spanje, Italië en Griekenland — drie gefaseerde partijen in 120 dagen en een geschatte vermindering van 20–25 % op vroegtijdige vervanging.',
+      kicker: 'Kustverhuurproject',
+      h1: 'Hoe een verhuurexploitant in de Middellandse Zee een kustvloot van 320 planken opbouwde in 120 dagen',
+      intro: [
+        'Een verhuurexploitant met stations in Spanje, Italië en Griekenland had een duurzame vloot nodig voor de zomer met hoge rotatie — geleverd in drie partijen, op tijd voor de opening van elk station.',
+      ],
+      industry: 'Verhuurvloot-exploitanten',
+      requirement: '320 verhuurborden in twee maten — 10′6″ en 11′0″ — voor kuststations in drie landen, geleverd in drie gefaseerde partijen binnen 120 dagen.',
+      challenge:
+        'De dagelijkse verhuurrotatie slijt de planken snel en het percentage vroegtijdige vervanging van de exploitant lag rond de 20–25 %. De stations openden in drie landen op verschillende data: één enkele levering was geen optie, en een vloot in één maat ook niet.',
+      solution:
+        'Twee duurzame verhuurplatforms in de maten die de meeste verhuur afdekken, een versterkte constructie voor intensief gebruik en drie productiepartijen die op tijd bij de opening van elk station aankomen — met reserveonderdeelkits en een reparatiehandleiding per station.',
+      product: 'Opblaasbare SUP voor verhuur — platforms van 10′6″ en 11′0″ met versterkte rails en UV-bestendige materialen, kits per station.',
+      process: [
+        { title: 'Vlootevaluatie', body: 'De openingsdata en het rotatievolume bepaalden de twee maten en de verdeling over de partijen.' },
+        { title: 'Keuze van de planken', body: 'Verhuurplatforms van 10′6″ en 11′0″ gekozen voor dekkingsgraad van de verhuur en duurzaamheid.' },
+        { title: 'Gefaseerde productie', body: 'Drie partijen afgestemd op de openingsdatum van elk station.' },
+        { title: 'Levering en ondersteuning', body: 'Vloot per partij verzonden met reserveonderdeelkits en reparatiehandleiding per station.' },
+      ],
+      result:
+        'Alle drie de partijen arriveerden binnen 120 dagen, in lijn met de opening van elk station. De versterkte platforms zouden het percentage vroegtijdige vervanging met circa 20–25 % moeten verlagen, en de reserveonderdeelkits dekken reparaties op locatie tussen de seizoenen.',
+      outcome: '320 planken · 120 dagen · 3 partijen · ca. −20–25 % vroegtijdige vervanging.',
+      metrics: [
+        { value: '320', label: 'planken in twee maten' },
+        { value: '120', label: 'dagen van bestelling tot laatste partij' },
+        { value: '3', label: 'gefaseerde leveringen, één per stationsopening' },
+        { value: '−20–25%', label: 'geschat percentage vroegtijdige vervanging' },
+      ],
+      takeaways: [
+        'Gefaseerde partijen brengen de vloot precies op tijd bij de opening van elk station — geen inactieve voorraad, geen late start.',
+        'Twee maten (10′6″ en 11′0″) dekten de meeste verhuur af zonder de vloot te fragmenteren.',
+        'Voor het verlagen van vroegtijdige vervanging is de versterkte constructie doorslaggevend — niet alleen de prijs.',
+        'De reserveonderdeelkits per station hielden de planken tussen de seizoenen operationeel.',
+      ],
+      customizations: [
+        'Verhuurplatforms van 10′6″ en 11′0″ afgestemd op de verhuurprofielen',
+        'Versterkte rails en UV-bestendige materialen voor intensief verhuurgebruik',
+        'Vlootgraphics en nummering per station',
+        'Productieplan in drie partijen afgestemd op de openingsdata van de stations',
+        'Reserveonderdeelkits en reparatiehandleiding per station',
+        'Verpakking voor gescheiden locaties en leveringsverificatie per partij',
+      ],
+      inspectionFocus: [
+        'Controle van de versterkte constructie per plank',
+        'Oppompen en luchtdichtheid van elke plank',
+        'Nauwkeurigheid van vlootgraphics en stationsnummering',
+        'Complete accessoires en reserveonderdeelkits per station',
+        'Verpakkingscontroles voor zendingen naar gescheiden locaties in meerdere partijen',
+      ],
+      confidentiality:
+        'In overleg worden de naam van de exploitant en de stationslocaties niet openbaar gemaakt. Dit project wordt anoniem gepresenteerd om de commerciële vertrouwelijkheid te beschermen.',
+      tags: ['Gefaseerde vlootlevering', 'Constructie van verhuurkwaliteit', 'Lager vervangingspercentage'],
+    },
+    {
+      slug: 'eu-distributor-private-label',
+      customerType: 'Distributeurs en groothandels',
+      region: 'Europa',
+      productCategory: 'Opblaasbare SUP met private label (2 SKU)',
+      projectStage: 'Assortimentsplanning → Goedkeuring van het monster → Volumevering binnen 90 dagen',
+      manufacturingScope: 'Private-label branding, retailverpakking, serieproductie, ondersteuning bij herbestellingen',
+      keyRequirements: 'Twee marktbewezen SKU\'s onder het merk van de distributeur, EU-retailverpakking, afstemming op de seizoensdata',
+      qualityFocus: 'Nauwkeurigheid van de graphics, barcode en etiket per markt, complete uitrusting, luchtdichtheid',
+      navLabel: 'Private label voor distributeurs',
+      metaTitle: 'Private label voor EU-distributeur | 1,200 planken in 90 dagen — SUPsfactory',
+      metaDescription:
+        'Hoe een Europese distributeur in 90 dagen een private-label SUP-lijn lanceerde met 1,200 planken — twee SKU\'s, EU-retailverpakking en een herbestelling in Q4 op dezelfde vastgelegde specificatie.',
+      kicker: 'Private label project',
+      h1: 'Hoe een Europese distributeur een private-label SUP-lijn lanceerde met 1,200 planken in 90 dagen',
+      intro: [
+        'Een Europese distributeur wilde een eigen SUP-lijn in de schappen voor het zomerseizoen — twee marktbewezen SKU\'s, complete retailverpakking en geen directe relaties met fabrikanten.',
+      ],
+      industry: 'Distributeurs en groothandels',
+      requirement: '1,200 planken met eigen merk in twee SKU\'s — 10′6″ Allround en 12′6″ Touring — met EU-retailverpakking, geleverd binnen 90 dagen.',
+      challenge:
+        'Het zomerse verkoopvenster staat vast: alle 1,200 planken met bijbehorende verpakking moesten op tijd aankomen. De private-labelverpakking — barcodes, etiketten, handleidingen — moest voldoen aan de EU-retailvereisten en de distributeur kon niet rekenen op enige ervaring met SUP-fabrieken.',
+      solution:
+        'Twee marktbewezen platforms voor het retailassortiment, het volledige private-labelontwerp en de EU-retailverpakking beheerd in één programma, en een productieplanning die gezamenlijke verzending van beide SKU\'s binnen het venster van 90 dagen mogelijk maakt — met een vastgelegde specificatie voor een nette herbestelling.',
+      product: 'Opblaasbare SUP met private label — 10′6″ Allround en 12′6″ Touring, met gemerkte peddel, pomp, rugzak en bedrukte retaildozen.',
+      process: [
+        { title: 'Assortimentsplanning', body: 'Twee SKU\'s geselecteerd — 10′6″ Allround en 12′6″ Touring — voor de retaildekking.' },
+        { title: 'Goedkeuring van het monster', body: 'Graphics, verpakking en afwerking bevestigd op fysieke planken.' },
+        { title: 'Productie binnen 90 dagen', body: 'Volumeproductie gepland om beide SKU\'s samen te verzenden voor het seizoensvenster.' },
+        { title: 'Herbestelling in Q4', body: 'Herbestelling geplaatst op dezelfde vastgelegde specificatie.' },
+      ],
+      result:
+        'Alle 1,200 planken met complete retailverpakking werden binnen 90 dagen verzonden, op tijd voor het zomerse verkoopvenster. De lijn verkocht volledig uit en de distributeur kwam in Q4 terug met een herbestelling op dezelfde vastgelegde specificatie.',
+      outcome: '1,200 planken · 90 dagen · 2 SKU · herbestelling in Q4.',
+      metrics: [
+        { value: '1,200', label: 'planken in één lancering' },
+        { value: '90', label: 'dagen tot volledige levering' },
+        { value: '2', label: 'retail-SKU\'s, beide op tijd voor het venster' },
+        { value: 'Q4', label: 'herbestelling op dezelfde specificatie' },
+      ],
+      takeaways: [
+        'Starten met twee bewezen SKU\'s houdt het voorraadrisico laag en vult toch het retailassortiment.',
+        'Eén programma voor planken, accessoires en verpakking elimineert een veelvoorkomende oorzaak van mislukte lanceringen.',
+        'Een vaste seizoensdatum bepaalt de planning — de productieplanning moet dit als niet-onderhandelbaar behandelen.',
+        'De specificatie bij de lancering vastleggen maakt herbestellingen netjes en consistent.',
+      ],
+      customizations: [
+        'Allround-platforms van 10′6″ en touring-platforms van 12′6″ voor het retailassortiment',
+        'Private-labelontwerp voor dek, onderkant en verpakking',
+        'Gemerkte peddel, pomp en rugzak per SKU',
+        'Bedrukte retaildozen, barcodes, etiketten en gebruikershandleiding voor de EU-retail',
+        'Stuklijst en specificatie vastgelegd voor consistente herbestellingen',
+        'Gefaseerde levering afgestemd op het lanceringvenster in de retail',
+      ],
+      inspectionFocus: [
+        'Nauwkeurigheid van de graphics ten opzichte van de goedgekeurde private-labelbestanden',
+        'Controle van barcode, etiket en handleiding per markt',
+        'Complete uitrusting per SKU over de hele serie van 1,200 planken',
+        'Steekproefsgewijze controles van de luchtdichtheid tijdens de productie',
+        'Controle van doos en verpakking per SKU',
+      ],
+      confidentiality:
+        'In overleg worden de naam van de distributeur en zijn retailklanten niet openbaar gemaakt. Dit project wordt anoniem gepresenteerd om de commerciële vertrouwelijkheid te beschermen.',
+      tags: ['Private label', 'Retailassortiment van 2 SKU', 'Levering binnen het seizoensvenster'],
+    },
+    {
+      slug: 'resort-sup-fleet',
+      customerType: 'Resorts en horeca',
+      region: 'Europa / Noord-Amerika',
+      productCategory: 'Opblaasbare Allround-SUP',
+      projectStage: 'Goedkeuring van het monster → Serieproductie → Vlootvernieuwing',
+      manufacturingScope: 'Graphics, accessoires, verpakking en vlootproductie',
+      keyRequirements: 'Duurzaamheid voor verhuur, compacte opslag, volledige branding van de accommodatie',
+      qualityFocus: 'Luchtdichtheid, nauwkeurige graphics, complete accessoires, markering van de dozen',
+      navLabel: 'SUP-vloot voor een luxe resort',
+      metaTitle: 'SUP-vloot voor een luxe resort | 100 gemerkte planken — SUPsfactory',
+      metaDescription:
+        'Hoe een luxe resort zijn strandprogramma uitrustte met 100 gemerkte SUP-planken — gepersonaliseerd ontwerp, constructie van verhuurkwaliteit en seizoensmatig vlootbeheer.',
+      kicker: 'Resortproject',
+      h1: 'Hoe een luxe resort een gemerkte SUP-vloot van 100 planken standaardiseerde',
+      intro: [
+        'Een luxe resort wilde dat het strandprogramma naadloos aansloot bij de accommodatie — gemerkte planken in de kleuren van het resort, robuust genoeg voor dagelijks gebruik door gasten en makkelijk op te slaan tussen de seizoenen.',
+      ],
+      industry: 'Resorts en horeca',
+      requirement: '100 gemerkte SUP-planken voor verhuur aan gasten, in de kleuren van de accommodatie.',
+      challenge:
+        'De dagelijkse verhuur slijt standaardvloten snel en de opslagruimte buiten het seizoen is beperkt. Het resort had planken nodig die intensief gebruik aankunnen, compact op te slaan zijn en volledig de branding van de accommodatie dragen.',
+      solution:
+        'Opblaasbare constructie van verhuurkwaliteit met versterkte rails en UV-bestendige materialen, graphics over het volledige oppervlak in de kleuren van het resort en gemerkte peddels en pompen in het vlootpakket.',
+      product: 'Gepersonaliseerde opblaasbare SUP — allroundplatform van 11′ met gemerkt dekontwerp en accessoires.',
+      process: [
+        { title: 'Vlootconsult', body: 'Gastenstromen, kustzone en seizoensduur bepaalden de omvang en samenstelling van de vloot.' },
+        { title: 'Gemerkte monster', body: 'Kleuren en logo goedgekeurd op een fysieke plank vóór de productie.' },
+        { title: 'Productie en kwaliteitscontrole', body: '100 planken geproduceerd met kwaliteitscontrole op meerdere punten over de hele serie.' },
+        { title: 'Levering en vernieuwing', body: 'Seizoenslevering, reserveonderdelen en een vernieuwingsprogramma voor de volgende seizoenen.' },
+      ],
+      result:
+        'De vloot ging op tijd van start voor het seizoen, de planken worden buiten het seizoen in één ruimte opgeslagen en de feedback van gasten over de gemerkte uitrusting leidde het jaar daarop tot uitbreiding van de vloot.',
+      outcome: 'Stipte seizoenstart, 100% gemerkte vloot, uitbreiding in het volgende seizoen.',
+      customizations: [
+        'Plankplatform, maat en constructie geselecteerd voor dagelijks verhuurgebruik',
+        'Ontwerp over het volledige dekoppervlak in de kleuren van de accommodatie',
+        'Branding op de rails en logopositionering goedgekeurd op een fysiek monster',
+        'Gemerkte peddel, pomp en accessoireset voor elke plank',
+        'Vlootnummering en kleurcodering over de hele serie',
+        'Compacte opslagconfiguratie en omvang van de seizoensvernieuwing',
+      ],
+      inspectionFocus: [
+        'Oppompen en luchtdichtheid van elke plank',
+        'Staat van het ventiel en de versterkte rails',
+        'Nauwkeurigheid van de graphics en kleurovereenkomst met het goedgekeurde monster',
+        'Complete accessoires en uitrusting per plank',
+        'Doosmarkering en vlootetiketten vóór vrijgave van de zending',
+      ],
+      confidentiality:
+        'In overleg worden de naam van het resort en de merkassets niet openbaar gemaakt. Dit project wordt anoniem gepresenteerd om de commerciële vertrouwelijkheid te beschermen.',
+      tags: ['Gemerkte gastenvloot', 'Constructie van verhuurkwaliteit', 'Seizoensvernieuwing'],
+    },
+    {
+      slug: 'private-label-launch',
+      customerType: 'Retail- en outdoormerken',
+      region: 'Europa',
+      productCategory: 'Opblaasbare Allround-SUP (private label)',
+      projectStage: 'Goedkeuring van het monster → Validatieserie → Opschaling',
+      manufacturingScope: 'Product- en verpakkingsontwerp, monstername, productie, behoud van de matrijzen',
+      keyRequirements: 'Verkoopbare lijn zonder intern SUP-ontwerp of -productie',
+      qualityFocus: 'Versiebeheer van de graphics, nauwkeurige verpakking, complete uitrusting',
+      navLabel: 'Lancering van het private-labelmerk',
+      metaTitle: 'Private-label SUP-lancering | Merkextensie — SUPsfactory',
+      metaDescription:
+        'Hoe een bestaand outdoormerk uitbreidde naar SUP met een private-label productlijn — van logo tot eerste container, met schaalbare MOQ.',
+      kicker: 'Private label project',
+      h1: 'Hoe een outdoormerk een private-label SUP-lijn lanceerde, van logo tot eerste container',
+      intro: [
+        'Een sportretailer met een gevestigd merk wilde uitbreiden naar peddelsporten zonder directe relaties met fabrikanten — een verkoopbare SUP-lijn onder eigen naam.',
+      ],
+      industry: 'Retail- en outdoormerken',
+      requirement: 'Een private-label SUP-lijn — logo, kleuren en verpakking op beproefde platforms, met een eerste serie van 50 stuks.',
+      challenge:
+        'Geen intern SUP-ontwerpteam, geen productie-ervaring en een eerste bestelling die klein genoeg is om de markt te testen vóór opschaling.',
+      solution:
+        'Volledig product- en verpakkingsontwerp op basis van de merkassets, een validatieserie van 50 stuks en vervolgens opschaling op dezelfde gecontroleerde platforms — de matrijzen blijven van het merk.',
+      product: 'Opblaasbare SUP met private label — gemerkt dek, peddel, pomp, rugzak en bedrukte dozen.',
+      process: [
+        { title: 'Merktopname', body: 'Logo, kleuren en merkrichtlijnen omgezet in board- en verpakkingsontwerp.' },
+        { title: 'Goedkeuring van het monster', body: 'Het fysieke monster bevestigde de afwerking, kleuren en verpakking.' },
+        { title: 'Validatieserie', body: 'Eerste serie van 50 stuks volledig verkocht vóór opschaling.' },
+        { title: 'Opschaling', body: 'Productie in containervolumes met constante kwaliteit; het ontwerp is eigendom van het merk.' },
+      ],
+      result:
+        'De lijn verkocht de validatieserie binnen één seizoen uit en schaalde op naar containervolumes — het merk bezit alle ontwerpen en matrijzen.',
+      outcome: 'Gevalideerd in één seizoen, opgeschaald naar containervolumes.',
+      customizations: [
+        'Platforms, maten en kleuren van de planken afgestemd op de merklijn',
+        'Ontwerp van dek, onderkant en verpakking op basis van de merkassets',
+        'Gemerkte peddel, pomp, rugzak en accessoireset',
+        'Bedrukte retaildozen en etiketlay-out',
+        'Barcode en gebruikershandleiding voor de doelmarkt',
+        'Eigendom van matrijzen en ontwerp blijft bij het merk',
+      ],
+      inspectionFocus: [
+        'Overeenkomst van de graphicsversie met de goedgekeurde bestanden',
+        'Nauwkeurigheid van kleuren en afwerking op het fysieke monster',
+        'Controle van verpakking, barcode en handleiding',
+        'Complete uitrusting over de hele validatieserie',
+        'Steekproefsgewijze controles van de luchtdichtheid tijdens de productie',
+      ],
+      confidentiality:
+        'In overleg worden de merknaam en commerciële details niet openbaar gemaakt. Dit project wordt anoniem gepresenteerd om de commerciële vertrouwelijkheid te beschermen.',
+      tags: ['Merkextensie', 'Verpakkingsontwerp', 'Schaalbare MOQ'],
+    },
+    {
+      slug: 'club-team-boards',
+      customerType: 'Paddleclubs en -teams',
+      region: 'Noord-Amerika',
+      productCategory: 'Opblaasbare SUP voor training',
+      projectStage: 'Goedkeuring van het monster → Vlootproductie → Herbestelling voor uitbreiding',
+      manufacturingScope: 'Clubbranding, vlootproductie, ondersteuning bij reserveonderdelen',
+      keyRequirements: 'Uniforme teamlook, beperkt budget, identieke toekomstige uitbreiding',
+      qualityFocus: 'Nauwkeurige graphics, luchtdichtheid, complete uitrusting, consistente herbestellingen',
+      navLabel: 'Teamboard voor de club',
+      metaTitle: 'Club-SUP-teamboards | Gemerkte vlootvernieuwing — SUPsfactory',
+      metaDescription:
+        'Hoe een paddleclub zijn vloot vernieuwde en actualiseerde met 25 gemerkte trainingsplanken — teamgraphics, ondersteuning bij reserveonderdelen en consistente herbestellingen.',
+      kicker: 'Clubproject',
+      h1: 'Hoe een paddleclub de branding van een trainingsvloot met 25 planken vernieuwde',
+      intro: [
+        'Een paddleclub vernieuwde zijn merk en had behoefte aan consistente uitrusting — een uniforme teamvloot voor trainingen en wedstrijden, zonder gemengde voorraad.',
+      ],
+      industry: 'Paddleclubs en -teams',
+      requirement: '25 gemerkte trainingsplanken met naam, kleuren en logo van de club, plus reserveonderdelen.',
+      challenge:
+        'De bestaande vloot was gemengd en zonder merk; het budget was beperkt en voor toekomstige uitbreiding waren identieke, consistente planken nodig.',
+      solution:
+        'Clubbranding op elke plank, vlootvoorwaarden voor het volume en reserveonderdelen met reparatiehandleidingen om de levensduur van de planken te verlengen.',
+      product: 'Gepersonaliseerde team-SUP — trainingsvorm met clubgraphics, reservevinnen en reparatiekit.',
+      process: [
+        { title: 'Clubscan', body: 'Ledenaantal, trainingstypes en huidige uitrusting gecontroleerd.' },
+        { title: 'Keuze van de planken', body: 'Training- en beginnervormen afgestemd op het programma van de club.' },
+        { title: 'Branding', body: 'Naam, kleuren en logo van de club toegepast op de hele vloot.' },
+        { title: 'Levering en groei', body: 'Vloot geleverd met reserveonderdelen; identieke herbestelling voor uitbreiding.' },
+      ],
+      result:
+        'De leden trainen met consistente gemerkte uitrusting en de club breidde de vloot in het volgende seizoen uit met een identieke herbestelling van dezelfde kwaliteit.',
+      outcome: 'Uniforme vloot, identieke uitbreidingsherbestelling.',
+      customizations: [
+        'Training- en beginnerplatforms afgestemd op het programma van de club',
+        'Naam, kleuren en logo van de club op de hele vloot',
+        'Bordnummering en indeling op maat per trainingsgroep',
+        'Reservevinnen en reparatiekits als vlootaccessoires',
+        'Herbestelspecificatie vastgelegd voor identieke toekomstige uitbreiding',
+      ],
+      inspectionFocus: [
+        'Nauwkeurigheid van de graphics van naam, kleuren en logo van de club',
+        'Controle van oppompen en luchtdichtheid',
+        'Complete accessoires en reparatiekits',
+        'Kleurconsistentie over de hele serie van 25 planken',
+      ],
+      confidentiality:
+        'In overleg worden de clubnaam en locatie niet openbaar gemaakt. Dit project wordt anoniem gepresenteerd om de commerciële vertrouwelijkheid te beschermen.',
+      tags: ['Clubbranding', 'Vlootvoorwaarden', 'Ondersteuning bij reserveonderdelen'],
+    },
+    {
+      slug: 'school-program-fleet',
+      customerType: 'Onderwijs en jeugdprogramma\'s',
+      region: 'Europa',
+      productCategory: 'Opblaasbare SUP voor beginners en voor meerdere personen',
+      projectStage: 'Programmaherziening → Goedkeuring van het monster → Vlootlevering',
+      manufacturingScope: 'Pakketontwerp, productie, reserveonderdelen en ondersteuning bij vernieuwing',
+      keyRequirements: 'Veiligheidsgerichte uitrusting, aantallen voor klassengroottes, beheer met beperkt personeel',
+      qualityFocus: 'Stabiliteit, luchtdichtheid, complete accessoires, gebruikershandleiding',
+      navLabel: 'Vloot voor schoolprogramma\'s',
+      metaTitle: 'SUP-programma voor scholen | Beginervloot — SUPsfactory',
+      metaDescription:
+        'Hoe een school een keuzevak peddelsport startte met een beginervloot van 15 planken en boards voor meerdere personen — veiligheidsgerichte uitrusting voor het onderwijs.',
+      kicker: 'Schoolproject',
+      h1: 'Hoe een school een beginervloot van 15 planken opzette voor het geven van peddelsport',
+      intro: [
+        'Een school die een keuzevak peddelsport startte, had behoefte aan stabiele, veilige uitrusting voor beginners, afgestemd op de klassen en makkelijk te beheren met beperkt personeel.',
+      ],
+      industry: 'Onderwijs en jeugdprogramma\'s',
+      requirement: 'Een beginervloot geschikt voor klassengroottes, inclusief boards voor meerdere personen voor de eerste lessen.',
+      challenge:
+        'Gemengde vaardigheidsniveaus, strenge veiligheidseisen, schoolse inkoopcycli en een budget dat ook toekomstige cohorten moet dekken.',
+      solution:
+        'Brede, hoogvolumineuze beginnerboards en boards voor meerdere personen, programmavoorwaarden afgestemd op de klassengroottes en een duidelijke gebruikershandleiding voor de instructeurs.',
+      product: 'Beginer-SUP-vloot — stabiele platforms met versterkte constructie voor een lange levensduur van het programma.',
+      process: [
+        { title: 'Programmaherziening', body: 'Klassengroottes, watergebied en instructeursopzet bepaalden het pakket.' },
+        { title: 'Samenstellen van het pakket', body: 'Typen en aantallen planken afgestemd op het onderwijs.' },
+        { title: 'Goedkeuring van het monster', body: 'Stabiliteit en constructie gecontroleerd op een fysieke plank.' },
+        { title: 'Levering en vernieuwing', body: 'Bulklevering, reserveonderdelen en herbestellingen voor nieuwe cohorten.' },
+      ],
+      result:
+        'Instructeurs meldden snellere vooruitgang in de eerste lessen op de stabiele platforms en het programma vernieuwde de uitrusting het jaar daarop met een passende herbestelling.',
+      outcome: 'Snellere leercurve, uitrusting vernieuwd het jaar daarop.',
+      customizations: [
+        'Brede, hoogvolumineuze beginnerplatforms voor de eerste lessen',
+        'Boards voor meerdere personen voor groepslessen',
+        'Maat en aantal van de planken afgestemd op de klassengroottes',
+        'Duidelijke gebruikershandleiding en leslabels',
+        'Versterkte constructie voor een lange levensduur van het programma',
+        'Specificatie voor bulklevering en herbestellingen ter vernieuwing',
+      ],
+      inspectionFocus: [
+        'Controle van stabiliteit en dekconfiguratie',
+        'Oppompen en luchtdichtheid van elke plank',
+        'Complete accessoires per plank en klassenset',
+        'Nauwkeurigheid van gebruikershandleiding en labels',
+        'Doosmarkering en controles van de klassenset',
+      ],
+      confidentiality:
+        'In overleg worden de schoolnaam en de regio niet openbaar gemaakt. Dit project wordt anoniem gepresenteerd om de commerciële vertrouwelijkheid te beschermen.',
+      tags: ['Beginervloot', 'Programmastart', 'Herbestellingen'],
+    },
+    {
+      slug: 'distributor-line-expansion',
+      customerType: 'Distributeurs en groothandels',
+      region: 'Twee exportregio\'s',
+      productCategory: 'Opblaasbare SUP uit het middensegment (6 SKU)',
+      projectStage: 'Assortimentsplanning → Goedkeuring van het monster → Levering aan meerdere markten',
+      manufacturingScope: 'Planken, accessoires en retailverpakking in één programma',
+      keyRequirements: 'Eén kwaliteitsverantwoordelijke, consistente branding, lagere voorraad per SKU',
+      qualityFocus: 'Luchtdichtheid, nauwkeurige graphics, nauwkeurige barcodes en etiketten, conformiteit met de stuklijst',
+      navLabel: 'Assortimentsuitbreiding voor distributeurs',
+      metaTitle: 'SUP-assortimentsuitbreiding voor distributeurs | Programma van 6 SKU — SUPsfactory',
+      metaDescription:
+        'Hoe een distributeur van watersporten een complete middenklasse SUP-lijn opbouwde met zes SKU\'s — één fabriek, één programma, geëxporteerd naar meerdere markten.',
+      kicker: 'Distributeurproject',
+      h1: 'Hoe een distributeur een SUP-lijn van 6 SKU lanceerde in twee markten',
+      intro: [
+        'Een distributeur van watersporten met kajaks en accessoires in het assortiment wilde een eigen lijn opblaasbare SUP\'s — zonder de levering van planken, peddels en pompen over meerdere fabrieken te verspreiden.',
+      ],
+      industry: 'Distributeurs en groothandels',
+      requirement: 'Een middenklasse SUP-lijn van 6 SKU (van 10′6″ tot 12′6″ plus accessoiresets) met export naar twee regio\'s.',
+      challenge:
+        'Aparte fabrieken voor planken, peddels en pompen betekenden inconsistente branding, drie afzonderlijke leveringspunten en geen enkele kwaliteitsverantwoordelijke voor garantiegevallen.',
+      solution:
+        'Eén programma voor planken, accessoires en retailverpakking; gedeelde accessoiresets om de voorraad per SKU te verlagen; en leveringsopties afgestemd op de opzet van elke markt.',
+      product: 'Zes gemerkte retail-SKU\'s — opblaasbare SUP-platforms met complete sets, in vakken verpakt in bedrukte dozen.',
+      process: [
+        { title: 'Assortimentsplanning', body: 'Marktgaten en prijspositioneringen bepaalden de zes SKU\'s en de inhoud van de bundels.' },
+        { title: 'Uniforme branding', body: 'Eén ontwerpsysteem toegepast op planken, peddels, pompen en dozen.' },
+        { title: 'Programmavoorwaarden', body: 'Volumeprijzen op het hele programma, niet per afzonderlijke SKU.' },
+        { title: 'Levering per markt', body: 'Standaard exportvoorwaarden voor de thuismarkt, full-service voorwaarden voor de tweede markt.' },
+      ],
+      result:
+        'De lijn werd in één seizoen in beide markten gelanceerd; de gedeelde accessoiresets verlaagden de voorraad en garantiegevallen werden opgelost via één aanspreekpunt in de fabriek.',
+      outcome: 'Multi-markt lancering in één seizoen, lagere voorraad, één aanspreekpunt voor garantie.',
+      customizations: [
+        'Zes SKU\'s van 10′6″ tot 12′6″ plus accessoirebundels',
+        'Eén ontwerpsysteem voor planken, peddels, pompen en dozen',
+        'Gedeelde accessoiresets om de voorraad per SKU te verlagen',
+        'Complete sets in vakken, verpakt in bedrukte retaildozen',
+        'Barcode-, etiket- en handleidingversies voor elke doelmarkt',
+        'Leveringsvoorwaarden en verpakking afgestemd op elke markt',
+      ],
+      inspectionFocus: [
+        'Conformiteit met de stuklijst per SKU-configuratie',
+        'Nauwkeurigheid van ontwerp en branding op de zes SKU\'s',
+        'Nauwkeurigheid van barcodes en etiketten per markt',
+        'Complete accessoiresets en verpakking in vakken',
+        'Controle van de luchtdichtheid over de hele serie',
+      ],
+      confidentiality:
+        'In overleg worden de distributeurnaam en het klantenbestand niet openbaar gemaakt. Dit project wordt anoniem gepresenteerd om de commerciële vertrouwelijkheid te beschermen.',
+      tags: ['Multi-SKU-programma', 'Complete retailsets'],
+    },
+    {
+      slug: 'startup-brand-zero-to-one',
+      customerType: 'Startup-SUP-merken',
+      region: 'Noord-Amerika',
+      productCategory: 'Opblaasbare ODM Allround-SUP',
+      projectStage: 'Concept → Proefproductie → Lanceringbestelling',
+      manufacturingScope: 'ODM-ontwikkeling, graphics, verpakking, productie',
+      keyRequirements: 'Eerste serie met lage MOQ, afstemming op de lanceringsdatum, matrijzen behouden door het merk',
+      qualityFocus: 'Luchtdichtheid, nauwkeurige graphics, controle van de verpakking',
+      navLabel: 'Startup-lancering 0→1',
+      metaTitle: 'Lancering van een startup-SUP-merk | Van concept tot eerste serie — SUPsfactory',
+      metaDescription:
+        'Hoe een SUP-startup van concept naar een uitverkochte eerste serie ging — ODM-ontwikkeling, een proefproductie van 10 stuks en vervolgens een gemerkte lanceringbestelling van 200 stuks.',
+      kicker: 'Startupproject',
+      h1: 'Van concept naar een uitverkochte lancering met 200 planken voor een startup-SUP-merk',
+      intro: [
+        'Twee oprichters met grote zichtbaarheid maar zonder fabriek wilden hun eigen SUP verkopen — een ODM-plank ontwikkeld volgens hun specificatie, met een lanceringbestelling die hen niet in de problemen zou brengen.',
+      ],
+      industry: 'Startup-SUP-merken',
+      requirement: 'ODM-ontwikkeling met lage MOQ: proefproductie van 10 stuks ter validatie, daarna 200 stuks voor de lancering.',
+      challenge:
+        'Geen ontwerpteam, geen importervaring en een eerste bestelling die voor de meeste fabrieken te klein is — plus een lanceringsdatum die gekoppeld is aan het seizoen op het noordelijk halfrond.',
+      solution:
+        'ODM-ontwikkeling op basis van hun concept op een beproefd platform, een proefproductie van 10 stuks die monsters en levering controleerde, en vervolgens een gemerkte lanceringbestelling van 200 stuks — de matrijzen blijven van het merk.',
+      product: 'Gemerkte opblaasbare ODM-SUP — gepersonaliseerd dekontwerp, verpakking en retailklare doosmaten.',
+      process: [
+        { title: 'Conceptgesprek', body: 'De doelgroep van de rider, prijspositionering en lanceringsdatum bepaalden het basisplatform.' },
+        { title: 'Proefproductie', body: '10 stuks valideerden product en verpakking van begin tot einde.' },
+        { title: 'Lanceringbestelling', body: '200 stuks geproduceerd met gecontroleerde graphics en doosspecificatie.' },
+        { title: 'Opschalingspad', body: 'Matrijzen behouden door het merk; herbestellingen tegen betere voorwaarden.' },
+      ],
+      result:
+        'De eerste serie was binnen enkele weken na het begin van het seizoen uitverkocht; de feedback van de proefproductie verholp een verpakkingsprobleem voordat de grote bestelling in productie ging.',
+      outcome: 'Uitverkochte lancering, verpakking gecorrigeerd vóór opschaling, herbestelpad opgebouwd.',
+      customizations: [
+        'ODM-plank ontwikkeld vanuit het merkconcept op een beproefd platform',
+        'Gepersonaliseerd dekontwerp en merkverpakking',
+        'Retailklare doosmaten voor de lanceringbestelling',
+        'Accessoireset en configuratie afgestemd op de doelgroep van de rider',
+        'De matrijzen en het ontwerp blijven van het merk',
+        'Productieplanning afgestemd op de lanceringsdatum',
+      ],
+      inspectionFocus: [
+        'Nauwkeurigheid van de graphics ten opzichte van de goedgekeurde bestanden',
+        'Controle van de luchtdichtheid op proefproductie en lanceringbestelling',
+        'Controle van verpakking en dozen — inclusief de correctie uit de proefproductie',
+        'Complete accessoires en uitrusting',
+      ],
+      confidentiality:
+        'In overleg worden de merknaam en de lanceringsdetails niet openbaar gemaakt. Dit project wordt anoniem gepresenteerd om de commerciële vertrouwelijkheid te beschermen.',
+      tags: ['ODM-ontwikkeling', 'Proefproductie met lage MOQ', 'Planning op basis van de seizoensdatum'],
+    },
+    {
+      slug: 'rental-fleet-multi-site',
+      customerType: 'Verhuurvloot-exploitanten',
+      region: 'Noord-Amerika',
+      productCategory: 'Opblaasbare Allround-SUP van verhuurkwaliteit',
+      projectStage: 'Vlootaudit → Uniforme productie → Seizoensvernieuwing',
+      manufacturingScope: 'Vlootspecificatie, productie, reserveonderdeelkits, vernieuwingsprogramma',
+      keyRequirements: 'Eén uniforme plank op alle locaties, duurzaamheid onder verhuurbelasting',
+      qualityFocus: 'Controle van de versterkte constructie, luchtdichtheid, complete uitrusting',
+      navLabel: 'Verhuurvloot voor meerdere locaties',
+      metaTitle: 'Uitbreiding van de verhuurvloot | 200 planken, 3 locaties — SUPsfactory',
+      metaDescription:
+        'Hoe een verhuurvloot-exploitant met meerdere locaties gemengde voorraad verving door 200 uniforme planken op drie locaties — vlootvoorwaarden, seizoensvernieuwing en levering van reserveonderdelen.',
+      kicker: 'Verhuurproject',
+      h1: 'Standaardiseren van een verhuurvloot van 200 planken op drie locaties voor een vlootexploitant',
+      intro: [
+        'Een verhuurvloot-exploitant met drie waterlocaties had één uniforme vloot nodig in plaats van gemengde voorraad — dezelfde plank op elke locatie, met prijzen op basis van het vlootvolume.',
+      ],
+      industry: 'Verhuurvloot-exploitanten',
+      requirement: '200 planken van verhuurkwaliteit op drie locaties, met seizoensvernieuwing en op locatie te repareren reserveonderdelen.',
+      challenge:
+        'Gemengde, verouderde voorraad bemoeilijkte reparaties en prijzen; verhuurbelasting vereist een versterkte constructie en buiten het seizoen is de opslag verspreid over drie locaties.',
+      solution:
+        'Eén platform van verhuurkwaliteit op alle locaties met versterkte rails en UV-bestendige materialen, vlootvoorwaarden op het volume van 200 planken en een reserveonderdeelkit met reparatiehandleiding per locatie.',
+      product: 'Opblaasbare SUP van verhuurkwaliteit — allroundplatform van 11′ met versterkte constructie en reparatiekit.',
+      process: [
+        { title: 'Vlootaudit', body: 'Volumes en gebruiksprofielen per locatie bepaalden de verdeling over de locaties.' },
+        { title: 'Uniforme specificatie', body: 'Eén plank overal — eenvoudigere reparaties, prijzen en training.' },
+        { title: 'Vlootvoorwaarden', body: 'Volumekorting op de gecombineerde bestelling van 200 planken.' },
+        { title: 'Reserveonderdelen en vernieuwing', body: 'Reserveonderdeelkits per locatie plus een gedefinieerde seizoensgebonden vervangingscyclus.' },
+      ],
+      result:
+        'De uniforme vloot nam de onzekerheid over reparaties per locatie weg, de gecombineerde bestellingen ontgrendelden de vlootvoorwaarden en het programma van 200 planken werd de basis voor de seizoensvernieuwing.',
+      outcome: 'Uniforme werking, lagere eenheidskosten, herhaalbare seizoenscyclus.',
+      customizations: [
+        'Eén platform van verhuurkwaliteit op alle drie de locaties',
+        'Versterkte rails en UV-bestendige materialen voor verhuurbelasting',
+        'Verdeling per locatie en vlootnummering per vestiging',
+        'Reserveonderdeelkits per locatie met reparatiehandleiding',
+        'Gedefinieerde seizoensgebonden vervangingscyclus',
+      ],
+      inspectionFocus: [
+        'Controle van de versterkte constructie per plank',
+        'Oppompen en luchtdichtheid van elke plank',
+        'Complete accessoires en reparatiekits per locatie',
+        'Nauwkeurigheid van vlootnummering en locatielabels',
+        'Verpakkingscontroles voor zendingen naar meerdere locaties',
+      ],
+      confidentiality:
+        'In overleg worden de naam van de exploitant en de locaties niet openbaar gemaakt. Dit project wordt anoniem gepresenteerd om de commerciële vertrouwelijkheid te beschermen.',
+      tags: ['Vloot voor meerdere locaties', 'Constructie van verhuurkwaliteit', 'Seizoensvernieuwing'],
+    },
+    {
+      slug: 'touring-sup-range',
+      customerType: 'Outdoor- en watersportdistributeurs',
+      region: 'Europa',
+      productCategory: 'Opblaasbare touring-SUP',
+      projectStage: 'Productbrief → Goedkeuring van het monster → Serieproductie',
+      manufacturingScope: 'Platformreview, graphics, configuratie van de accessoires, retailverpakking en productie',
+      keyRequirements: 'Touringprestaties, projectspecifieke graphics, complete retailkit',
+      qualityFocus: 'Luchtdichtheid, nauwkeurige graphics, complete accessoires, markering van de dozen',
+      navLabel: 'Touring-SUP-lijn',
+      metaTitle: 'Ontwikkeling van een touring-SUP-lijn | Outdoordistributeur — SUPsfactory',
+      metaDescription:
+        'Hoe SUPsfactory een touring-SUP-lijn ondersteunde voor een Europese outdoordistributeur — platformreview, projectspecifieke graphics, configuratie van de accessoires en retailverpakking.',
+      kicker: 'Touringproject',
+      h1: 'Ontwikkeling van een touring-SUP-lijn voor een Europese outdoordistributeur',
+      intro: [
+        'Een gepersonaliseerd project voor opblaasbare SUP\'s met platformreview, projectspecifieke graphics, configuratie van de accessoires, retailverpakking en kwaliteitsplanning — van de goedkeuring van het monster tot de voorbereiding van de verzending.',
+      ],
+      industry: 'Distributeurs en groothandels',
+      requirement: 'Een touring-SUP-lijn met projectspecifieke graphics, configuratie van de accessoires en retailverpakking, beheerd van de goedkeuring van het monster tot de verzending.',
+      challenge:
+        'Touringpeddelaars verwachten stabiliteit bij hoge snelheid en een voorspelbare glij, dus platform, maten en volume moesten vóór de productie worden gecontroleerd. De graphics moesten rekening houden met rails, EVA en ventielen, en elke retailkit moest volledig aankomen over de hele lijn.',
+      solution:
+        'Controle van platform en maten voor touringprestaties, projectspecifieke graphics afgestemd op de kenmerken van de plank, een accessoireconfiguratie met peddel, leash en tas, planning van de retailverpakking en gecontroleerde serieproductie met gedefinieerde kwaliteitscontrolepunten.',
+      product: 'Touring-lijn van opblaasbare SUP\'s — platform met hoge prestaties met gepersonaliseerd ontwerp, complete accessoirekit en retailklare verpakking.',
+      process: [
+        { title: 'Platformreview', body: 'Touringmaten, volume en railprofiel afgestemd op de doelgroep en de markt.' },
+        { title: 'Specificatie en graphics', body: 'Technische specificatie, afstemming van de graphics en door de klant goedgekeurde stuklijst voorbereid.' },
+        { title: 'Goedkeuring van het monster', body: 'Constructie, graphics en kit bevestigd op een fysieke plank.' },
+        { title: 'Productie en inspectie', body: 'Serieproductie met kwaliteitscontrolepunten, controle van de verpakking en vrijgave van de zending.' },
+      ],
+      result:
+        'De lijn ging van de goedkeuring van het monster naar de voorbereiding van de verzending met gecontroleerde documentatie van product, graphics, stuklijst en verpakking — het goedgekeurde monster diende als referentie voor productie en eindcontrole.',
+      outcome: 'Gecontroleerd pad van monster naar productie; graphics en verpakking vastgelegd vóór de productie.',
+      customizations: [
+        'Touringplatform, maten en volumeconfiguratie',
+        'Projectspecifieke graphics voor dek, onderkant en rails',
+        'Lay-out van het EVA-pad en kleurconfiguratie',
+        'Vinsysteem, bungee-indeling en accessoireset',
+        'Gemerkte tas, handleidingversie en retailverpakking',
+        'Doosmarkering en barcodevereisten voor de doelmarkt',
+      ],
+      inspectionFocus: [
+        'Controle van oppompen en luchtdichtheid',
+        'Inspectie van ventiel, rails en naden',
+        'Nauwkeurigheid van de graphics ten opzichte van de goedgekeurde bestanden',
+        'Complete accessoires en uitrusting',
+        'Controle van retailverpakking, barcode en doosmarkering',
+      ],
+      confidentiality:
+        'In overleg worden de distributeurnaam en het klantenbestand niet openbaar gemaakt. Dit project wordt anoniem gepresenteerd om de commerciële vertrouwelijkheid te beschermen.',
+      tags: ['Touring-SUP-lijn', 'Gepersonaliseerde graphics', 'Retailverpakking'],
+    },
+    {
+      slug: 'fishing-sup-program',
+      customerType: 'Outdoorretailers',
+      region: 'Noord-Amerika',
+      productCategory: 'Opblaasbare vis-SUP',
+      projectStage: 'Conceptherziening → Goedkeuring van het monster → Programmeproductie',
+      manufacturingScope: 'Configuratie van het platform, indeling van de accessoires, verpakking en productie',
+      keyRequirements: 'Integratie van visaccessoires, stabiel platform, georganiseerde kit',
+      qualityFocus: 'Luchtdichtheid, verankering van de accessoires, nauwkeurige graphics, complete kit',
+      navLabel: 'Vis-SUP-programma',
+      metaTitle: 'Ontwikkeling van een vis-SUP | Indeling van de accessoires en kit — SUPsfactory',
+      metaDescription:
+        'Hoe SUPsfactory een vis-SUP-configuratie ontwikkelde voor een outdoorretailer — indeling van de accessoires, georganiseerde kit en retailklare verpakking in één gecontroleerd programma.',
+      kicker: 'Visproject',
+      h1: 'Ontwikkeling van een vis-SUP voor een outdoorretailer — indeling van de accessoires en kitconfiguratie',
+      intro: [
+        'Een project voor een visspecifieke SUP: een stabiel platform met zones voor visaccessoires, een georganiseerde kit en retailklare verpakking — van conceptherziening tot programmeproductie.',
+      ],
+      industry: 'Retail- en outdoormerken',
+      requirement: 'Een vis-SUP-configuratie met verankerde accessoires, georganiseerde kit en retailverpakking, van conceptherziening tot programmeproductie.',
+      challenge:
+        'Visboards vereisen verankerde accessoires — hengelhouders, D-ringen en zones voor kratten — zonder de stabiliteit in gevaar te brengen. De kit moest aan boord georganiseerd blijven en de verpakking moest de categorie in de retail duidelijk presenteren.',
+      solution:
+        'Een breed, stabiel platform met gedefinieerde accessoirezones, D-ringen en bungees gepositioneerd voor visuitrusting, een georganiseerde kit met reparatiekit en een retailverpakking ontwikkeld in één gecontroleerd programma.',
+      product: 'Opblaasbare vis-SUP — stabiel platform met zones voor visaccessoires, georganiseerde kit en retailklare verpakking.',
+      process: [
+        { title: 'Conceptherziening', body: 'Beoogd gebruik, meegevoerde uitrusting en kitstructuur bepaalden de configuratie.' },
+        { title: 'Indeling van de accessoires', body: 'D-ringen, bungees en opbergzones gepositioneerd op het dek.' },
+        { title: 'Goedkeuring van het monster', body: 'Stabiliteit en verankering van de accessoires gecontroleerd op een fysieke plank.' },
+        { title: 'Programmeproductie', body: 'Gedefinieerde kwaliteitscontrolepunten, controle van de kit en vrijgave van de zending.' },
+      ],
+      result:
+        'De configuratie werd bevestigd op het goedgekeurde monster — verankering van de accessoires, kitstructuur en verpakking afgestemd vóór de productie — en het programma werd verzonden met gecontroleerde kits.',
+      outcome: 'Indeling van de accessoires en kit vastgelegd in de monsterfase; gecontroleerde kits verzonden.',
+      customizations: [
+        'Stabiel, breed platform met zones voor visaccessoires',
+        'Positionering van hengelhouders, D-ringen en bungees',
+        'Decklay-out voor kratten en uitrusting',
+        'Selectie van peddel, vinnen en leash voor vissen',
+        'Georganiseerde accessoirekit en reparatiekit',
+        'Retailverpakking voor de categorie vis-SUP',
+        'Barcode en doosmarkering voor de doelmarkt',
+      ],
+      inspectionFocus: [
+        'Controle van de verankering van de accessoires en de positionering van de D-ringen',
+        'Controle van oppompen en luchtdichtheid',
+        'Nauwkeurigheid van graphics en decklay-out',
+        'Complete kit en configuratie van de accessoires',
+        'Controle van retailverpakking en doosmarkering',
+      ],
+      confidentiality:
+        'In overleg worden de naam van de retailer en de kanaaldetails niet openbaar gemaakt. Dit project wordt anoniem gepresenteerd om de commerciële vertrouwelijkheid te beschermen.',
+      tags: ['Visconfiguratie', 'Indeling van de accessoires', 'Georganiseerde kit'],
+    },
+    {
+      slug: 'yoga-sup-program',
+      customerType: 'Watersportscholen en -programma\'s',
+      region: 'Europa',
+      productCategory: 'Opblaasbare yoga-SUP',
+      projectStage: 'Programmaherziening → Goedkeuring van het monster → Vlootlevering',
+      manufacturingScope: 'Configuratie van het stabiele platform, dekbekleding, productie en programmavenpakking',
+      keyRequirements: 'Stabiliteit voor groepsbeoefening, volledige EVA-dekbekleding, consistente vloot',
+      qualityFocus: 'Dekbekleding, luchtdichtheid, nauwkeurige graphics, complete uitrusting',
+      navLabel: 'Yoga-SUP-programma',
+      metaTitle: 'Yoga-SUP-ontwikkeling | Trainingsprogramma — SUPsfactory',
+      metaDescription:
+        'Hoe SUPsfactory een stabiele yoga-SUP-configuratie ontwikkelde voor een watersporttrainingsprogramma — volledige dekbekleding en een consistente programmavloot.',
+      kicker: 'Yogaproject',
+      h1: 'Ontwikkeling van een stabiele yoga-SUP-configuratie voor een watersporttrainingsprogramma',
+      intro: [
+        'Een yoga-SUP-configuratie voor een trainingsprogramma: een breed, hoogvolumineus platform met volledige EVA-dekbekleding, geproduceerd als een consistente vloot voor groepsbeoefening.',
+      ],
+      industry: 'Onderwijs en jeugdprogramma\'s',
+      requirement: 'Een stabiele yoga-SUP-configuratie met volledige dekbekleding voor groepsbeoefening, in programmawantallen.',
+      challenge:
+        'De yogabeoefening vereist een breed, hoogvolumineus platform dat absoluut stabiel blijft in het water. Groepen hebben consistente planken nodig en instructeurs duidelijke instructies en beheersbare opslag tussen de sessies.',
+      solution:
+        'Een breed, hoogvolumineus platform met volledige EVA-dekbekleding, een consistente vlootconfiguratie voor het hele programma en instructies voor de instructeurs plus programmalabels inbegrepen.',
+      product: 'Opblaasbare yoga-SUP — stabiel platform met volledige bedekking van het dekpad en een consistente programmavloot.',
+      process: [
+        { title: 'Programmaherziening', body: 'Praktijkstijl, groepsomvang en opslag bepaalden de configuratie.' },
+        { title: 'Configuratie', body: 'Platform, dekbekleding en afwerking vastgesteld over de hele vloot.' },
+        { title: 'Goedkeuring van het monster', body: 'Stabiliteit en dekbekleding gecontroleerd op een fysieke plank.' },
+        { title: 'Vlootlevering', body: 'Programmawantallen geproduceerd met controle van kit en verpakking.' },
+      ],
+      result:
+        'De vloot werd verzonden als één consistente configuratie — elke plank conform het goedgekeurde monster op het gebied van stabiliteit, dekbekleding en afwerking — met de instructies voor de instructeurs inbegrepen.',
+      outcome: 'Consistente vloot conform het goedgekeurde monster; programmavenpakking gecontroleerd.',
+      customizations: [
+        'Breed, hoogvolumineus platform voor stabiliteit in staande houding',
+        'Volledige EVA-dekbekleding over het gehele bruikbare oppervlak',
+        'Decklay-out en positionering van de banden voor de beoefening',
+        'Consistente kleur en afwerking over de hele vloot',
+        'Instructies voor de instructeurs en programmalabels',
+        'Opslagconfiguratie en programmavenpakking',
+      ],
+      inspectionFocus: [
+        'Inspectie van de dekbekleding en de EVA-hechting',
+        'Controle van oppompen en luchtdichtheid',
+        'Controle van de stabiliteit op het goedgekeurde monster',
+        'Consistentie van graphics en afwerking over de hele serie',
+        'Complete uitrusting en controles van de programmavenpakking',
+      ],
+      confidentiality:
+        'In overleg worden de naam van het programma en de locatie niet openbaar gemaakt. Dit project wordt anoniem gepresenteerd om de commerciële vertrouwelijkheid te beschermen.',
+      tags: ['Yogaconfiguratie', 'Volledige dekbekleding', 'Programmavloot'],
+    },
+  ],
 }
 
 export function getProject(locale: Locale, slug: string): ProjectData | undefined {
@@ -4045,6 +4704,12 @@ export const projectsMeta: Localized<ProjectsMeta> = {
     metaDescription:
       'Projetos reais de produção SUP: como resorts, marcas, clubes e escolas transformaram os requisitos de produto em pranchas acabadas com a SUPsfactory.',
     h1: 'Projetos — como desenvolvemos produtos SUP com os clientes',
+  },
+  nl: {
+    metaTitle: 'SUP-ontwikkelprojecten en casestudies | SUPsfactory',
+    metaDescription:
+      'Echte SUP-productieprojecten: hoe resorts, merken, clubs en scholen met SUPsfactory productvereisten omzetten in afgewerkte paddleboards.',
+    h1: 'Projecten — hoe we SUP-producten met klanten ontwikkelen',
   },
 }
 

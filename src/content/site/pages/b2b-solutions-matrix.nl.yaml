@@ -1,0 +1,134 @@
+meta:
+  title: 'B2B-oplossingenmatrix voor klanten | {SITE}'
+  description: 'Volledige matrix van de B2B-oplossingen van Vatrad voor 24 klantentypen — van outdoor-startups tot instellingen voor mariene conservatie.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: B2B-oplossingen voor klanten
+  title: '24 B2B-oplossingen die passen bij jouw bedrijf'
+  subtitle: 'Van startup-oprichters tot wereldwijde distributeurs: vind de exacte Vatrad-oplossing die is ontwikkeld voor jouw bedrijfsmodel, jouw sector en jouw doelstellingen.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-building.webp
+    alt: Fabriek en productielocatie van Vatrad
+
+answer:
+  label: 'Helder antwoord'
+  text: 'Eén enkele fabriek bedient elk B2B-kanaal: OEM/ODM-productie met per project bevestigde MOQ (monster 1–2 eenheden, pilot 20–50, standaardhoeveelheid 90–100+ per rol van 150 m; co-branding vanaf 5–10 eenheden), private label op bewezen platforms, groothandelsdistributie en vlootprogramma''s voor resorts, clubs en scholen. Elk klantentype wordt gekoppeld aan een specifieke oplossingspagina — monsters in 7–12 dagen, productie in 25–35 dagen na order en aanbetaling.'
+  verified: 'September 2026'
+
+solutions:
+  title: Matrix van de klantoplossingen
+  subtitle: 'Elk klantentype, zijn belangrijkste behoefte en de speciaal ontworpen Vatrad-oplossingspagina.'
+  items:
+    - clientType: Oprichter van een outdoor-startup
+      need: Merkopbouw
+      solutionPage: Bouw jouw SUP-merk
+      link: /solutions/private-label-sup
+    - clientType: Manager van een outdoormerk
+      need: Uitbreiding van een outdoormerk naar watersport
+      solutionPage: Een outdoormerk uitbreiden naar watersport
+      link: /solutions/private-label-sup
+    - clientType: Eigenaar van een surfshop
+      need: Modernisering van de surfactiviteiten
+      solutionPage: Breng opblaasbare technologie in jouw surfshop
+      link: /products/surf
+    - clientType: Amazon-verkoper
+      need: E-commerce groei
+      solutionPage: Productdifferentiatie en snelle levering
+      link: /solutions/private-label-sup
+    - clientType: Merk van visuitrusting
+      need: Vis-SUP''s
+      solutionPage: Bouw jouw merk van vis-SUP''s
+      link: /products/fishing
+    - clientType: Yoga- en wellnessmerk
+      need: Waterproducten voor welzijn
+      solutionPage: Oplossingen voor SUP Yoga-uitrusting
+      link: /products/yoga
+    - clientType: Creatormerk
+      need: Influencer-merk
+      solutionPage: SUP-start in Creator-editie
+      link: /solutions/private-label-sup
+    - clientType: Oprichter van een paddleclub
+      need: Vloot voor de club
+      solutionPage: Commerciële SUP-vloot
+      link: /solutions/club-sup
+    - clientType: Eigenaar van een verhuurcentrum
+      need: Verhuuractiviteiten
+      solutionPage: Oplossing voor duurzame verhuurvloot
+      link: /solutions/rental-operators
+    - clientType: Activiteitenmanager van een resort
+      need: Hotelervaring
+      solutionPage: Pakket watersportactiviteiten voor resorts
+      link: /solutions/resort-sup
+    - clientType: Watersportacademie
+      need: Opleiding en training
+      solutionPage: Programma uitrusting voor SUP-academies
+      link: /solutions/school-sup
+    - clientType: Cruises- en jachtbedrijf
+      need: Jachtervaring
+      solutionPage: Luxe draagbaar SUP-pakket
+      link: /product-development
+    - clientType: Retailbuyer outdoor
+      need: Retailkanaal
+      solutionPage: Private label programma voor de retail
+      link: /solutions/retail-partners
+    - clientType: Distributeur en importeur
+      need: Regionale distributie
+      solutionPage: OEM-partner en regionale toeleveringsketen
+      link: /solutions/distributors
+    - clientType: Buyer voor zakelijke projecten
+      need: Bedrijfsevenementen
+      solutionPage: Corporate SUP-evenementenpakket
+      link: /contact
+    - clientType: Brandmanager watersport
+      need: Uitbreiding van een watersportmerk
+      solutionPage: Breid jouw watersportportfolio uit
+      link: /solutions/private-label-sup
+    - clientType: Eigenaar van een merk voor huisdieravonturen
+      need: Outdoor voor huisdieren
+      solutionPage: Pet-friendly paddle board programma
+      link: /product-development
+    - clientType: Exploitant van strandactiviteiten
+      need: Strandvermaak
+      solutionPage: Complete uitrustingsoplossingen voor strandactiviteiten
+      link: /solutions/rental-operators
+    - clientType: Ontwikkelaar van een waterpark
+      need: Thematisch vermaak
+      solutionPage: Commerciële SUP-vloot voor waterparken
+      link: /solutions/resort-sup
+    - clientType: Eigenaar van een privé-eiland en luxeclub
+      need: High-end lifestyle
+      solutionPage: Premium SUP-collectie voor klanten
+      link: /product-development
+    - clientType: Toerismeautoriteiten en beheerders van openbare parken
+      need: Openbare toeristische projecten
+      solutionPage: Pakket watersport voor bestemmingen
+      link: /solutions/rental-operators
+    - clientType: Exploitant van zomerkampen en kindervakantie-avonturen
+      need: Jeugdeducatie
+      solutionPage: Explorer-SUP-programma voor kinderen
+      link: /solutions/school-sup
+    - clientType: Organisatie voor redding en waterveiligheid
+      need: Professionele redding
+      solutionPage: Professioneel aquatisch reddings-SUP-systeem
+      link: /product-development
+    - clientType: Instelling voor mariene conservatie en onderzoek
+      need: Milieuonderzoek
+      solutionPage: Eco-SUP-platform voor onderzoek en monitoring
+      link: /product-development
+
+cta:
+  title: 'Weet je niet zeker welke oplossing bij jouw bedrijf past?'
+  subtitle: 'Beschrijf je project aan ons B2B-team en wij adviseren de juiste configuratie en prijsstructuur.'
+  actions:
+    - variant: primary
+      text: Praat met ons B2B-team
+      href: /contact?subject=b2b-solutions
+    - variant: secondary
+      text: Download de catalogus
+      href: /products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Elk pad in deze matrix vertrekt vanuit dezelfde twee dingen: ons <a href="/oem-manufacturing">programma voor OEM/ODM-productie</a> en de <a href="/factory">fabriek erachter</a> — een productielocatie van 12.500 m&sup2;, één enkele set kwaliteitsnormen, elk kanaal bediend.</p>
+  </div>

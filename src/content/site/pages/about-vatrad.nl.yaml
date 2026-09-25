@@ -1,0 +1,100 @@
+meta:
+  title: 'Over Vatrad — de nautische productiedivisie'
+  description: 'Vatrad is de nautische productiedivisie van de Qingdao Vatrad Group, opgericht in 2012 in Qingdao, China — de fabriek achter elk gepersonaliseerd SUP-project van SUPsfactory.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Vatrad'
+    - 'sup fabriek china'
+    - 'fabrikant opblaasbare sup'
+    - 'Qingdao Vatrad Group'
+hero:
+  tagline: Over Vatrad
+  title: 'Vatrad — de nautische productiedivisie achter {SITE}'
+  subtitle: 'Opgericht in 2012 in Qingdao, China, bouwt Vatrad de opblaasbare boten en SUP-boards achter de gepersonaliseerde SUP-projecten van SUPsfactory — een fabriek van 12.500 m², meer dan 350 medewerkers en een jaarcapaciteit van meer dan 120.000 eenheden.'
+  actions:
+    - text: 'Een gepersonaliseerd project starten'
+      href: /contact
+      variant: primary
+    - text: 'Bezoek de fabriek'
+      href: /factory
+      variant: secondary
+intro: |
+  <p><strong>Vatrad</strong> is de nautische productiedivisie van <strong>Qingdao Vatrad Group Co., Ltd.</strong>, gevestigd in de economische ontwikkelingszone van Laixi, Qingdao, Shandong, China. Opgericht in 2012, begon het bedrijf als een gespecialiseerde bootwerkplaats gewijd aan nautisch vakmanschap en groeide het uit tot een gecertificeerde fabriek die OEM- en ODM-klanten bedient in meer dan 50 landen.</p>
+  <p>SUPsfactory is de B2B-divisie voor de gepersonaliseerde ontwikkelingen van de Vatrad-fabriek. Elk SUPsfactory-project — van het eerste monster of een kleine co-branding-partij tot een complete private label productlijn — wordt gerealiseerd in dezelfde fabriek, door dezelfde teams en met hetzelfde kwaliteitssysteem als beschreven op deze pagina.</p>
+  <p>De fabriek beslaat 12.500 m² met werkplaatsen voor het snijden van PVC, de assemblage van de drop-stitch kern, hoogfrequent lassen, boardmontage en een testgebied voor luchtretentie, drukbehoud en naadsterktetests. De productiecapaciteit bedraagt meer dan 120.000 opblaasbare eenheden per jaar en de fabriek werkt met een kwaliteitsmanagementsysteem volgens ISO 9001, met CE-, BSCI- en REACH-conformiteit en USCG-goedkeuring voor geëxporteerde producten.</p>
+  <p>Meer dan 350 gekwalificeerde medewerkers en meer dan 14 R&D-ingenieurs ondersteunen de twee werkgebieden die voor SUP-merken belangrijk zijn: ontwerp (rompontwerp, materiaalkeuze, prototyping) en productie (grafische toepassing, assemblage, inspectie, exportverpakking). Een intern R&D-centrum met PVC-stoffenlaboratorium en testvijver verzorgt aangepaste vormen en structurele validatie vóór de start van de serieproductie.</p>
+stats:
+  title: Vatrad in cijfers
+  stats:
+    - title: Oprichteringsjaar
+      amount: 2012
+    - title: Fabriek
+      amount: '12.500 m²'
+    - title: Bediende landen
+      amount: '50+'
+    - title: Jaarcapaciteit
+      amount: '120.000+ eenheden'
+    - title: Medewerkers
+      amount: '350+'
+    - title: R&D-ingenieurs
+      amount: '14+'
+values_section:
+  title: Hoe de fabriek met merken werkt
+  subtitle: 'Drie principes die elk project kenmerken dat door de Vatrad-fabriek wordt gebouwd.'
+  columns: 3
+  items:
+    - title: Ontwerp vóór productie
+      description: 'Elk project begint met vereisten, tekeningen en een fysiek monster — rompvorm, drop-stitch dichtheid, grafische positionering en verpakking worden vóór elke productiecyclus gevalideerd, niet pas aan de lijn ontdekt.'
+      icon: 'tabler:settings'
+    - title: Eén team, één fabriek
+      description: 'Design, snijden, lassen, assemblage en testen gebeuren in één fabriek van 12.500 m². Geen doorverkoop via handelsmaatschappijen: de mensen die jouw vragen beantwoorden, zijn degenen die jouw boards bouwen.'
+      icon: 'tabler:building-factory-2'
+    - title: Kleine eerste partijen
+      description: 'Co-branding in kleine partijen begint vanaf 5–10 eenheden en de standaard serieproductie draait met 90–100+ eenheden per lot (een rol van 150 m drop-stitch) — zo valideert een merk de markt vóór opschaling, met behoud van mallen en graphics voor nabestellingen.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Wat de fabriek biedt
+  subtitle: 'De productiediensten die beschikbaar zijn voor SUPsfactory-klanten.'
+  columns: 2
+  items:
+    - title: Gepersonaliseerde SUP-ontwikkeling
+      description: 'Vereistenanalyse, specificaties, materiaalkeuze, graphics, prototyping, monstergoedkeuring en productie voor op maat gemaakte opblaasbare SUP-producten.'
+      icon: 'tabler:bulb'
+    - title: Private label productie
+      description: 'Jouw logo, kleuren en verpakking op beproefde commerciële platforms: board, deck pad, accessoires en dozen dragen allemaal jouw identiteit, zonder fabrieksbranding.'
+      icon: 'tabler:tag'
+    - title: OEM/ODM-productie
+      description: 'Volledige OEM- en ODM-productie van opblaasbare SUP''s volgens tekeningen van de klant of samen ontwikkelde designs, inclusief aangepaste mallen voor nieuwe boardvormen.'
+      icon: 'tabler:package'
+    - title: Vlootlevering
+      description: 'Vloten van gebrande boards voor resorts, clubs, scholen en verhuurcentra, met gecoördineerde accessoires en productiecycli die op vloten zijn afgestemd.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: Certificering en conformiteit
+  subtitle: 'De fabriek levert aan de EU, de Verenigde Staten en de regio Azië-Pacific binnen een gedocumenteerd conformiteitssysteem.'
+  columns: 2
+  items:
+    - title: CE-certificering
+      description: 'De productlijnen voor opblaasbare SUP''s en boten voldoen aan de EU-veiligheidsrichtlijnen, met documentatie voor elke markt.'
+      icon: 'tabler:certificate'
+    - title: Kwaliteitssysteem ISO 9001
+      description: 'De productiefaciliteit werkt met een ISO 9001-kwaliteitsmanagementsysteem dat de inkomende, proces- en eindcontrole dekt.'
+      icon: 'tabler:badge-check'
+    - title: Sociale conformiteit BSCI
+      description: 'Sociale verantwoordelijkheid wordt geaudit volgens BSCI en dekt de arbeidsomstandigheden en de conformiteit van de fabriek.'
+      icon: 'tabler:shield-check'
+    - title: Materiaalconformiteit REACH
+      description: 'De materialen voldoen aan de EU-verordening REACH voor chemische veiligheid.'
+      icon: 'tabler:flask'
+    - title: USCG-goedkeuring
+      description: 'Productie goedgekeurd door de Amerikaanse kustwacht voor de productlijnen van opblaasbare boten.'
+      icon: 'tabler:anchor'
+    - title: Producttest
+      description: 'Drijfvermogen- en draagkrachttests, naadsterkte, UV-bestendigheid, slijtvastheid en drukbehoud op elke productielijn.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Bouw jouw SUP-project met de Vatrad-fabriek'
+  subtitle: 'Stuur je vereisten — boardtype, afmetingen, hoeveelheid en graphics — en ontvang binnen één werkdag een gedetailleerde offerte.'
+  actions:
+    - text: Merkidentiteit
+      href: /about/identity

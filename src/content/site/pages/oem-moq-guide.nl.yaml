@@ -1,0 +1,170 @@
+meta:
+  title: 'SUP-MOQ-gids: flexibele branding en minimale bestelhoeveelheden'
+  description: 'Zo wordt het MOQ voor opblaasbare SUP''s berekend: drop-stitch rollen van 150 m leveren 90–100 planken, co-branding vanaf 5–10 stuks en transparante matrijkosten.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'MOQ SUP'
+    - 'minimale bestelhoeveelheid opblaasbare SUP''s'
+    - 'SUP co-branding programma'
+    - 'SUP kleine partijen'
+    - 'MOQ aangepaste paddle boards'
+    - 'SUP OEM-fabriek China'
+
+hero:
+  tagline: 'Transparant en projectgebaseerd'
+  title: 'Gids voor flexibele branding en productie-MOQ'
+  subtitle: 'Begrijp de fysica van het ruwe drop-stitch materiaal die de SUP-productieruns beheerst — en hoe ons co-brandingprogramma met lage instapdrempel werkt voor verhuurders, clubs, resorts en opkomende watersportmerken. Ontworpen en beheerd door de Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'Het MOQ is geen one-size-fits-all. Elke MOQ wordt per project bevestigd: rompvorm en apparatuur, kleur- en PVC-varianten, artworkcomplexiteit, verpakking en accessoirologie. De volledige productie in standaardhoeveelheden draait op 90–100 eenheden per partij uit één standaardrol van 150 m drop-stitch weefsel; co-branding voor kleine partijen start vanaf 5–10 eenheden; en elk project verdeelt zich in drie duidelijk gescheiden fasen — sampleontwikkeling (1–2 eenheden), pilotorder (20–50 eenheden) en volumeproductie (90–100+ eenheden). We bevestigen de exacte berekening voor jouw SKU-mix vóór de offerte — geen vage "lage MOQ"-beloften, geen verborgen compromissen.'
+  verified: 'September 2026'
+
+moq_principle:
+  tagline: De technische logica
+  title: 'Waarom het standaard-MOQ 90–100 eenheden is: de fysica van grondstofrollen'
+  subtitle: 'Productiepartijformaten zijn geen willekeurige getallen uit het verkoopkantoor — ze komen voort uit de rollengtes van het ruwe drop-stitch weefsel en de fysica van lijnwisselingen.'
+  body: |
+    **De basislijn van 150 meter ruw weefsel.** Het hoogsterkte drop-stitch weefsel wordt geproduceerd en gecoat op doorlopende moederrollen. De standaard industriële sectielengte voor één partij is 150 meter doorlopend materiaal.
+
+    **De opbrengstberekening (90 tot 100 planken).** Met een standaard SUP Touring- of Allround-romp (van 10 ft 6 in tot 11 ft 6 in) leveren 150 m moederrol circa 90–100 afgewerkte paddle boards op.
+
+    **Geen weefselverbindingen.** Volledige rollen garanderen totale structurele continuïteit — geen risicovolle transversale weefselverbindingen en een gelijkmatige vezelspanning aan boven- en onderzijde van de plank.
+
+    **Thermische en lijmkalibratie.** De geautomatiseerde hoogfrequente warme- en lijmlijnen voor mariene verlijming vereisen 2 uur voorverwarming, temperatuurprofilering en drukkalibratie. Een volledige partij van 90–100 eenheden absorbeert deze vaste instelkosten en levert daarmee de laagst mogelijke kostprijs per eenheid.
+
+moq_tiers:
+  tagline: Twee wegen naar je merk
+  title: 'Volledig aangepaste OEM in volume vs. co-branding voor kleine partijen'
+  subtitle: 'Eén fabriek, twee instappunten: volledig aangepaste massaproductie voor gevestigde lijnen en een co-brandingprogramma met lage drempel voor clubs, verhuurcentra en opkomende merken.'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Volledig aangepaste OEM in volume — 90–100 eenheden per partij'
+      desc: 'Bepaald door de standaard 150 m roollengte van het ruwe drop-stitch weefsel van hoge kwaliteit, voor een optimaal materiaalgebruik en structurele consistentie. · 100% volledige aanpassing: exclusieve rompvorm en aangepaste Pantone-kleurvarianten · Volledige digitale of zeefdrukbedekking · Aangepaste commerciële verpakking met jouw branding, bedrukte dozen en ge-branded accessoires · Maximale kostenefficiëntie en schaalvoordelen'
+      link: '/nl/contact#custom-oem'
+      link_label: 'Vraag OEM in volume aan'
+    - icon: B
+      icon_bg: green
+      title: 'Co-branding voor kleine partijen — onder de 20 eenheden'
+      desc: 'Een oplossing met lage drempel, gebouwd op onze in de praktijk bewezen jaarlijkse productcollecties voor clubs, verhuurcentra en resorts — zonder zware magazijnvoorraden. · Vaste romp en geometrie: in de praktijk bewezen rompvormen met CE/ISO-25649-conformiteit · Primaire identificatie: officiële SUPsfactory-branding in de centrale zone · Secundaire persoonlijke branding: jouw logo op neus of zijrails · 100% inspectie per plank of deels met druk- en dichtheidstest van 24 uur'
+      link: '/nl/contact#cobranding'
+      link_label: 'Start co-branding voor kleine partijen'
+
+moq_fees:
+  tagline: Transparante zeefdrukkosten
+  title: 'Tariefstructuur co-branding — vooraf gedetailleerd'
+  subtitle: 'Duidelijke, gespecificeerde prijzen voor zeefdruk in kleine partijen. De matrijkosten worden eenmalig in rekening gebracht bij de eerste configuratie en vervallen bij herdrukken met hetzelfde artworkformaat.'
+  headers:
+    fee: Tariefpost
+    amount: Bedrag
+    detail: Details
+  rows:
+    - fee: 'Zeefdrukmatrijkosten (eenmalig, logo tot 30 cm)'
+      amount: '$10.00 USD'
+      detail: 'Eenmalig bij de eerste configuratie; vervalt bij herdrukken met hetzelfde artworkformaat.'
+    - fee: 'Zeefdrukmatrijkosten (eenmalig, logo tot 50 cm)'
+      amount: '$15.00 USD'
+      detail: 'Eenmalig bij de eerste configuratie; vervalt bij herdrukken met hetzelfde artworkformaat.'
+    - fee: 'Fabrieksbewerkings- en precisiedruktorief'
+      amount: '$1.00 USD per plank'
+      detail: 'De handmatige coördinatieplaatsing, oplosmiddelvoorbehandeling, kleuroverdracht en thermische uitharding.'
+
+moq_stages:
+  tagline: 'Sample · Piloot · Volume'
+  title: 'Drie duidelijk gescheiden kwantiteitsniveaus'
+  subtitle: 'De productiehoeveelheden voor sample, piloot en volume zijn verschillend. Elk project is verdeeld in drie afzonderlijke fasen, zodat je kunt valideren vóór je je vastlegt.'
+  steps:
+    - step: '01'
+      title: 'Sampleontwikkeling (1–2 eenheden)'
+      desc: 'Fysieke bevestiging van rompstijfheid, hechting van het antislip EVA-deckpad, grafische precisie en pasvorm van de accessoires vóór enige financiële verplichting. De sampletarieven zijn van toepassing en worden na ondertekening van het contract verrekend met de productiebestelling.'
+    - step: '02'
+      title: 'Pilotorder (20–50 eenheden)'
+      desc: 'Pre-seizoen commercialtests en regionale marktvalidatie met bestaande rompplatforms, standaardmaterialen en vereenvoudigde verpakking, om de instelinspanning te minimaliseren.'
+    - step: '03'
+      title: 'Volumeproductie (90–100+ eenheden)'
+      desc: 'Bevestigd na bevroren BOM, afgeronde artwork, aangepaste verpakking en geplande leverdata — volledige 150 m rollen, aangepaste Pantone-weefsels, maatwerkverpakking, volume-korting en volledige partijtraceerbaarheid door de hele toeleveringsketen.'
+
+moq_factors:
+  tagline: Wat je MOQ bepaalt
+  title: 'Waarom het volledig aangepaste MOQ altijd projectspecifiek is'
+  subtitle: 'Voor 100% maatwerkproductie wordt het MOQ berekend uit de volledige productarchitectuur — deze vier componenten worden vóór de offerte samen beoordeeld.'
+  headers:
+    component: Projectcomponent
+    driver: Productieaandrijver
+    impact: Impact op de minimumhoeveelheid
+  rows:
+    - component: 'Rompvorm en apparatuur'
+      driver: 'Bestaande fabrieks-rocker-vormen vs. aangepast CAD-snijgereedschap en EVA-warmpersapparatuur'
+      impact: 'Bestaande platforms: pilotorders vanaf 20 stuks. Eigen rompen: afschrijving van de eigen apparatuur vereist.'
+    - component: 'Kleur- en PVC-varianten'
+      driver: 'Standaard magazijnkleuren vs. eigen Pantone-geverfde PVC-vellen'
+      impact: 'Aangepast Pantone-PVC vereist eigen chemische verfseries met eigen minimumhoeveelheden grondstof.'
+    - component: 'Verpakking met branding'
+      driver: 'Standaarddozen met barcode-etiketten vs. commerciële 5-laags kleurendozen en ge-branded handleidingen'
+      impact: 'Aangepaste kleurendozen hebben een eigen minimumvolume voor offsetdruk (meestal 500+ dozen).'
+    - component: 'Accessoirepakketten'
+      driver: 'Standaard aluminium of nylon peddels vs. op maat afgestemde carbonpeddels en ge-branded pompen'
+      impact: 'Volledig ge-branded accessoires volgen de productiepartijen van de subleveranciers.'
+
+moq_downloads:
+  tagline: Officiële documenten
+  title: 'Tweetalige beleidsbestanden — download en deel'
+  subtitle: 'Officiële documenten van de Qingdao Vatrad Group Co., Ltd., klaar om aan koopaanvragen te hechten. Beide bestanden zijn tweetalig (Engels/Chinees).'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Gids voor flexibele branding en MOQ (PDF)'
+      desc: 'Officiële B2B-gids (Deel I, DOC-MOQ-EXP-2026-EN, gepubliceerd op 14 aug 2026): de technische logica achter de opbrengst van 150 m drop-stitch rollen (90–100 planken), het co-brandingprogramma vanaf 5–10 eenheden, transparante zeefdrukkosten en de drie productieniveaus.'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Download de gids (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Beleid flexibele branding en co-branding (PDF)'
+      desc: 'Officieel beleidsdossier (Deel 1, POL-MOQ-2026-V1): de regels voor co-branding in kleine partijen, het projectgebaseerde MOQ-kader, de vier factoren die minimumhoeveelheden bepalen en de gezamenlijke ondertekening door VP Sales, hoofdingenieur en QA-directeur.'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link_label: 'Download de policy (PDF)'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Veelgestelde vragen over het MOQ'
+  items:
+    - q: 'Wordt het MOQ berekend per order, per model of per kleurvariant?'
+      a: 'Het MOQ kan gelden per model, kleurvariant, artworkversie, verpakkingsconfiguratie of totale order. Omdat verschillende drop-stitch diktes (12 cm vs. 15 cm) en PVC-kleuren uit afzonderlijke grondstofrollen komen, vereist een order van 50 planken verdeeld over 5 kleuren 5 afzonderlijke weefselrollen. We bevestigen de exacte berekening tegen je SKU-matrix vóór de offerte, zodat je je mix kunt plannen.'
+    - q: 'Kan ik een sample bestellen vóór de massaproductie?'
+      a: 'Ja. De sampleontwikkeling (1–2 eenheden) controleert rompstijfheid, hechting van het antislip EVA-deckpad, grafische precisie en pasvorm van de accessoires vóór de goedkeuring voor massaproductie. De sampletarieven zijn van toepassing en worden na ondertekening van het contract verrekend met de productiebestelling.'
+    - q: 'Waarom heeft aangepaste commerciële verpakking een eigen MOQ?'
+      a: 'Aangepaste flexo- of offsetpersen voor de dozen vereisen een minimaal instelvolume van 500+ eenheden. We bieden een hybride verpakkingsopslagoplossing: we produceren de 500 aangepaste bedrukte dozen, bewaren het overschot in ons schone magazijn en leveren het uit volgens de geplande leveringen van je planken — zo kan ook een kleinere plankenorder volledig ge-branded in commerciële kartonverpakking worden verzonden.'
+    - q: 'Waarom is het standaard-MOQ 90–100 eenheden?'
+      a: 'Het standaard-MOQ volgt de grondstof: een moederrol van 150 m hoogsterk drop-stitch weefsel levert circa 90–100 afgewerkte planken op voor een standaard Touring- of Allround-romp. Volledige rollen elimineren weefselverbindingen, houden de vezelspanning gelijkmatig en absorberen de 2-uurskalibratie van de las- en laminatielijnen — tegen de laagst mogelijke kosten per eenheid.'
+    - q: 'Verlaagt een grotere hoeveelheid de prijs per eenheid?'
+      a: 'Bij de meeste projecten ja. Grotere hoeveelheden verbeteren de materiaalopbrengst, spreiden de vaste instelkosten van de productielijnen over meer planken en verlagen de verpakkingskosten per eenheid.'
+    - q: 'Komen de co-branding matrijkosten terug bij herdrukken?'
+      a: 'Nee. De zeefdrukmatrijkosten worden eenmalig in rekening gebracht bij de eerste configuratie en vervallen bij herdrukken met hetzelfde artworkformaat. Je betaalt alleen de fabrieksbewerkings- en druktorief van $1.00 USD per plank.'
+    - q: 'Verplicht een MOQ-adviesaanvraag me tot een bestelling?'
+      a: 'Nee. Een projectgebaseerde MOQ-adviesaanvraag stelt ons technisch team van de Qingdao Vatrad Group Co., Ltd. eenvoudig in staat je technische briefing te beoordelen en het meest economische productietraject te adviseren. Er is een geheimhoudingsovereenkomst (NDA) beschikbaar voordat je eigendoms-technische specificaties of artwork deelt.'
+
+evidence_review:
+  tagline: 'Bewijs & verificatie'
+  title: 'GECONTROLEERDE SPECIFICATIES'
+  body: 'Alle productieclaims op deze pagina zijn geverifieerd door ons Manufacturing Engineering-team in de fabriek in Laixi, Qingdao. Certificaten, QC-testprotocollen, druk- en structuurtestrapporten en partijtraceerbaarheidsprotocollen zijn op aanvraag beschikbaar. Specificaties voor het laatst geverifieerd: september 2026.'
+
+cta:
+  title: 'Heb je een MOQ-advies nodig voor je SUP-project?'
+  subtitle: 'Deel je doelmodel, de geschatte eerste orderhoeveelheid en je brandingvereisten. Wij adviseren of een sample-, piloot- of volumetraject de juiste stap is. Een aanvraag verplicht je niet tot een definitieve orderhoeveelheid — een gesprek onder NDA is mogelijk.'
+  actions:
+    - variant: primary
+      text: Vraag een projectgebaseerd MOQ-advies aan
+      href: /nl/contact#moq-guide
+    - text: Detail aangepaste SUP-MOQ en levertijden
+      href: /nl/sup-oem-moq-lead-time
+    - text: Lanceer een nieuw merk met een proeforder
+      href: /nl/new-brand-trial-order
+    - text: Verifieer de fabriek en het kwaliteitssysteem
+      href: /nl/oem-trust-assurance
+    - text: De 7-staps teststructuur
+      href: /nl/quality
+    - text: Overzicht OEM- en ODM-productie
+      href: /nl/oem-manufacturing
+    - text: SUP-constructievergelijking
+      href: /nl/sup-construction-comparison

@@ -2277,6 +2277,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Fala connosco do teu programa SUP para a escola',
     },
   ],
+  nl: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Aangepaste SUP-productie',
+      metaTitle: 'Aangepaste SUP-ontwikkeling | Oplossingen voor gepersonaliseerde paddle boards',
+      metaDescription:
+        'Ontwikkel aangepaste SUP-producten met SUPsfactory. Wij ondersteunen productvereisten, personalisatie, prototypen en productie voor bedrijven en organisaties.',
+      kicker: 'Producent van aangepaste SUP-producten',
+      serviceType: 'Aangepaste SUP-productontwikkeling',
+      answer:
+        'Wij ontwikkelen opblaasbare SUPs, hardboards en accessoires op basis van jouw eisen — vorm, opdruk, materialen en verpakking — van ontwerp via monstering tot productie. Aangepaste projecten starten bij 90–100+ stuks per rol van 150 m (volume); monsters worden binnen 7–12 dagen verzonden en de productie duurt 25–35 dagen na bevestiging van de PO en de aanbetaling.',
+      h1: 'Aangepaste SUP-producten op basis van jouw eisen',
+      intro: [
+        'Je hebt paddle boards nodig die volgens jouw specificaties zijn gebouwd — vorm, opdruk, materialen, verpakking — zonder zelf een fabriek te runnen. Wij zijn de productiepartner die jouw eisen oppakt en een afgewerkt product oplevert.',
+        'Elk project wordt begeleid door een toegewijde specialist die het ontwerp, de monsters, de productie en de levering beheert, zodat je altijd weet waar jouw bestelling staat.',
+      ],
+      scenario: {
+        title: 'Je hebt planken nodig die volgens jouw specificaties zijn gebouwd',
+        body: 'Een producteis — geen catalogusproduct. Jouw vormvoorkeuren, jouw opdruk, jouw kwaliteitsniveau, jouw verpakking. Wij ontwerpen, monsteren en produceren op bewezen platforms, met flexibiliteit vanaf de eerste kleine batch.',
+      },
+      pairs: [
+        {
+          problem: 'De catalogi van fabrieken bevatten alleen standaardontwerpen die je niet kunt wijzigen.',
+          solution: 'Wij produceren aangepaste planken met jouw vormen, opdruk en specificaties — van het eerste monster tot de volledige serieproductie.',
+        },
+        {
+          problem: 'Hoge minimale afnames dwingen je tot voorraad voordat de markt gevalideerd is.',
+          solution: 'Productie op maat in volume start vanaf 90–100+ stuks per ontwerp, terwijl pilot series op bestaande platforms starten vanaf 20–50 stuks — zo blijven eerste series klein terwijl de stukprijs eerlijk blijft.',
+        },
+        {
+          problem: 'Je hebt geen eigen ontwerp- of engineeringteam.',
+          solution: 'Ons interne ontwerp- en engineeringteam maakt van een idee, schets of referentieplank productieklare tekeningen.',
+        },
+        {
+          problem: 'Onbekende fabriekskwaliteit en trage communicatie.',
+          solution: 'Een projectspecialist begeleidt monsters, kwaliteitscontroles en levertijden van begin tot eind — één aanspreekpunt en duidelijke updates.',
+        },
+      ],
+      steps: [
+        { title: 'Dien je project in', body: 'Vermeld je eisen of stuur schetsen en referentiebeelden.' },
+        { title: 'Ontwerp en monster', body: 'Wij ontwikkelen de tekeningen en sturen binnen 7–12 dagen een fysiek monster.' },
+        { title: 'Goedkeuring en productie', body: 'Na jouw goedkeuring duurt de productie 25–35 dagen met kwaliteitscontrole op meerdere punten.' },
+        { title: 'Levering en nabestelling', body: 'Wereldwijde export met professionele verpakking, plus ondersteuning bij nabestellingen met constante kwaliteit.' },
+      ],
+      caseStudy: {
+        title: 'Productuitbreiding van een outdoormerk',
+        body: 'Een outdoormerk stapte met een touringplank onder de eigen naam de paddlewereld in. Wij ontwikkelden de plank op basis van een ruwe schets, bereikten in 15 dagen goedkeuring van het monster en produceerden de eerste serie in 25–35 dagen.',
+        tags: ['Plankontwikkeling', 'Opdruk met jouw merk', 'Eerste serieproductie'],
+      },
+      faqs: [
+        {
+          q: 'Kunnen jullie een SUP-product ontwikkelen op basis van mijn idee?',
+          a: 'Ja. Wij helpen je bij het beoordelen van je eisen en het ontwikkelen van een productieklaar resultaat — van concept en tekeningen tot een fysiek monster.',
+        },
+        {
+          q: 'Kan ik de opdruk en kleuren van de SUP personaliseren?',
+          a: 'Ja. Aangepaste opdruk, kleuren en branding-elementen kunnen worden ontwikkeld volgens de eisen van het project.',
+        },
+        {
+          q: 'Wat is de minimale afname voor aangepaste SUP-productie?',
+          a: 'Productie op maat in volume start vanaf 90–100+ stuks per ontwerp, met pilot series van 20–50 stuks op bestaande platforms. Grotere hoeveelheden leveren een betere stukprijs op, en nabestellingen behouden jouw matrijzen en ontwerpen.',
+        },
+        {
+          q: 'Wat kan er aan een plank worden gepersonaliseerd?',
+          a: 'Vorm en afmetingen, constructie en materialen, opdruk en logo\'s, de indeling van de EVA-pad, accessoires (peddel, pomp, tas) en verpakking.',
+        },
+        {
+          q: 'Sturen jullie monsters voordat de productie begint?',
+          a: 'Ja: vóór elke serie wordt een fysiek monster geproduceerd en goedgekeurd. De monstertijd is doorgaans 7–12 dagen.',
+        },
+        {
+          q: 'Kunnen jullie alleen met mijn merkassets werken, zonder volledig designteam?',
+          a: 'Ja. Ons designteam ontwikkelt productieklaar artwork op basis van je logo, je merkkeuren of een ruw concept.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Bespreek je aangepaste SUP-project',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'Paddle boards onder privaat label',
+      metaTitle: 'SUP-productie onder privaat label | Aangepaste SUP-productie',
+      metaDescription:
+        'SUPsfactory ondersteunt SUP-productie onder privaat label voor bestaande merken en helpt bij het ontwikkelen van aangepaste SUP-producten, van specificatie tot productie.',
+      kicker: 'Paddle boards onder privaat label',
+      serviceType: 'SUP-productie onder privaat label',
+      answer:
+        'Private label plaatst jouw merk op bewezen, productieklaar SUP-platforms zonder nieuwe matrijzen. Kies een basismodel, breng je logo, kleuren, verpakking en accessoires aan en bestel vanaf 90–100+ stuks per rol van 150 m (volume). Dit is de snelste en minst risicovolle manier om te starten; monsters duren 7–12 dagen en productie 25–35 dagen na de PO.',
+      h1: 'SUP-productie onder privaat label voor jouw merk',
+      intro: [
+        'Private-label productie stelt je in staat een lijn paddle boards onder je eigen merk te lanceren zonder te investeren in matrijzen of een fabriek. Logo, kleuren en verpakking worden toegepast op kwalitatief gecertificeerde platforms, met hoeveelheden die meegroeien met de vraag.',
+        'Wij regelen de productkant, zodat jij je op het merk kunt richten: ontwerp, verpakking en het beheer van nabestellingen nemen wij voor onze rekening.',
+      ],
+      scenario: {
+        title: 'Je hebt een merk — en je hebt een product nodig dat het vertegenwoordigt',
+        body: 'Een merkidentiteit zonder voorraad. Je wilt een verkoopbare lijn paddle boards onder jouw naam, in een hoeveelheid die past bij jouw fase — van de eerste validatiebatch tot terugkerende vloten.',
+      },
+      pairs: [
+        {
+          problem: 'Branding alleen als sticker — het product blijft er generiek uitzien.',
+          solution: 'Volledige merkintegratie: opdruk op de plank, logo, indeling van de EVA-pad, peddel met jouw merk, pomp, tas en verpakking.',
+        },
+        {
+          problem: 'Eerste bestellingen dwingen je om honderden stuks te kopen die je misschien niet verkoopt.',
+          solution: 'Start met een pilotbatch van 20–50 stuks op een standaard platform en schaal daarna op naar standaard productie in volume vanaf 90–100+ stuks — valideer de markt vóór grote bestellingen.',
+        },
+        {
+          problem: 'Het opzetten van ontwerp en verpakking lijkt buiten je bereik.',
+          solution: 'Ons designteam zet jouw merkassets om in productieklaar artwork voor de plank en de verpakking.',
+        },
+        {
+          problem: 'Nabestellingen wisselen in kwaliteit of beschikbaarheid.',
+          solution: 'De matrijzen en ontwerpen blijven van jou, en nabestellingen worden geproduceerd op dezelfde gecertificeerde platforms met constante kwaliteit.',
+        },
+      ],
+      steps: [
+        { title: 'Deel je merk', body: 'Stuur je logo, jouw kleuren en bestaande merkassets.' },
+        { title: 'Ontwikkel de opdruk', body: 'Wij ontwerpen de opdruk van de plank, de EVA-indeling en de verpakking rondom jouw merk.' },
+        { title: 'Goedkeuring van het monster', body: 'Een fysiek monster bevestigt kleuren, afwerking en verpakking.' },
+        { title: 'Productie en levering', body: 'De productie volgt jouw hoeveelheden, met kwaliteitscontrole en export volledig door ons beheerd.' },
+      ],
+      caseStudy: {
+        title: 'Nieuw merk, eerste productiebestelling',
+        body: 'Een sportretailer lanceerde een lijn paddle boards onder eigen naam, uitgaande van alleen een logo. Wij ontwikkelden al het artwork voor plank en verpakking, produceerden een eerste serie van 50 stuks voor de markttest en schaalden binnen één seizoen op naar een volledige productiebestelling.',
+        tags: ['Merkontwikkeling', 'Verpakkingsontwerp', 'Opschaling van productie'],
+      },
+      faqs: [
+        {
+          q: 'Wat is SUP-productie onder privaat label?',
+          a: 'SUP-productie onder privaat label stelt bedrijven in staat SUP-producten onder hun eigen merk te verkopen, met aangepaste specificaties en productieondersteuning.',
+        },
+        {
+          q: 'Kunnen bestaande merken nieuwe SUP-producten ontwikkelen?',
+          a: 'Ja. SUPsfactory ondersteunt merken die het SUP-segment willen betreden — productselectie, aanpassing van specificaties, aangepaste opdruk en productie.',
+        },
+        {
+          q: 'Wat omvat een SUP-private-labelprogramma?',
+          a: 'Jouw merk op de plank zelf — opdruk, logo, EVA-pad — plus optioneel peddel, pomp, rugtas en verpakking met jouw merk: een compleet verkoopbaar product onder jouw naam.',
+        },
+        {
+          q: 'Kan het ontwerp tussen bestellingen worden gewijzigd?',
+          a: 'Ja. Zodra de merkassets productieklaar zijn, kunnen nabestellingen op elk moment de opdruk, kleuren of verpakking bijwerken.',
+        },
+        {
+          q: 'We hebben alleen een logo. Kunnen jullie ons toch helpen?',
+          a: 'Ja. Ons designteam ontwikkelt al het artwork voor plank en verpakking op basis van je logo en je merkkeuren.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Bespreek je private-labelproject',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'Paddle boards voor resorts',
+      metaTitle: 'SUP-materiaal voor resorts | Planken met jouw merk',
+      metaDescription:
+        'Ontwerp aangepast SUP-materiaal voor resorts en hotels met planken onder jouw merk, accessoires en productieondersteuning van SUPsfactory.',
+      kicker: 'Paddle boards voor resorts',
+      serviceType: 'SUP-materiaal voor resorts en hotels',
+      answer:
+        'Wij leveren opblaasbare SUPs met jouw merk voor resorts en hotels, ontworpen voor dagelijks gebruik door gasten: drop-stitch constructie onder hoge druk, versterkte naden en oplopende MOQ\'s van 20–50 pilotstuks tot 90–100+ voor de uitrol van vloten. De planken dragen jouw logo en kleuren, en wij adviseren over opslag, onderhoud en het plannen van nabestellingen.',
+      h1: 'Aangepaste SUP-oplossingen voor resorts en hotels',
+      intro: [
+        'Paddle-boardvloten in een resort moeten dagelijks gastgebruik aankunnen, tussen de seizoenen eenvoudig op te slaan zijn en jouw merk dragen. Wij bouwen duurzame, gastvriendelijke planken in jouw kleuren en structureren het vlootprogramma rondom jouw activiteiten.',
+        'Hoeveelheden worden bepaald op basis van daadwerkelijk gebruik, niet op basis van giswerk — en nabestelprogramma\'s houden de vloot seizoen na seizoen actueel.',
+      ],
+      scenario: {
+        title: 'Je organiseert wateractiviteiten voor gasten',
+        body: 'Gasten verwachten een onvergetelijke waterervaring en het materiaal vertegenwoordigt jouw vestiging. Je hebt planken nodig die robuust genoeg zijn voor dagelijkse verhuur, eenvoudig op te slaan en passend bij de uitstraling van het resort.',
+      },
+      pairs: [
+        {
+          problem: 'Gastenvloten slijten snel bij dagelijkse verhuur.',
+          solution: 'Robuuste constructie voor verhuur met versterkte rails en uv-bestendige materialen, ontworpen voor herhaald gebruik.',
+        },
+        {
+          problem: 'De opslagruimte buiten het seizoen is beperkt.',
+          solution: 'Opslagvriendelijke opblaasbare opties die aan het einde van het seizoen in een kast passen.',
+        },
+        {
+          problem: 'Het materiaal ziet er generiek uit en vertegenwoordigt jouw vestiging niet.',
+          solution: 'Full-deck opdruk, logo\'s en EVA-branding in de kleuren van jouw resort — inclusief accessoires met jouw merk.',
+        },
+        {
+          problem: 'Vervanging en vernieuwing van de vloot verlopen ongecoördineerd.',
+          solution: 'Een nabestelprogramma voor de vloot met constante kwaliteit, ondersteuning voor reserveonderdelen en eerlijk advies over hoeveelheden.',
+        },
+      ],
+      steps: [
+        { title: 'Beschrijf je activiteiten', body: 'Gastenvolume, kuststrook, opslag en duur van het seizoen.' },
+        { title: 'Ontvang een vlootplan', body: 'Wij adviseren over planktypen en hoeveelheden op basis van gebruikspatronen.' },
+        { title: 'Goedkeuring van het brandmonster', body: 'Jouw kleuren en logo bevestigd op een fysieke plank.' },
+        { title: 'Ontvangst en onderhoud', body: 'Levering, reserveonderdelen en een nabestelprogramma voor komende seizoenen.' },
+      ],
+      caseStudy: {
+        title: 'Gastenvloot van een kustresort',
+        body: 'Een kustresort voorzag zijn strandprogramma van 40 opblaasbare planken in resortkleuren, inclusief peddels en pompen met het resortmerk. Buiten het seizoen passen de planken in één kast en na het tweede seizoen werd de vloot vernieuwd met constante kwaliteit.',
+        tags: ['Gastenvloot met jouw merk', 'Opslag van opblaasbare planken', 'Seizoensvernieuwing'],
+      },
+      faqs: [
+        {
+          q: 'Kunnen resorts het SUP-materiaal met hun logo personaliseren?',
+          a: 'Ja. Resorts kunnen opdruk, kleuren en accessoires personaliseren volgens de eisen van het project — full-deck branding in de kleuren van jouw vestiging.',
+        },
+        {
+          q: 'Kunnen jullie meerdere SUP\'s leveren voor de activiteiten van een resort?',
+          a: 'Ja. Wij kunnen productieoplossingen ontwikkelen op basis van de vlootbehoeften — van een startvloot tot seizoensgebonden vernieuwingsprogramma\'s.',
+        },
+        {
+          q: 'Hoeveel planken heeft een resort nodig?',
+          a: 'De meeste resorts starten met 20–50 planken en schalen op naar behoefte. Wij adviseren over hoeveelheden op basis van je gastenvolume en kuststrook, niet op basis van giswerk.',
+        },
+        {
+          q: 'Zijn opblaasbare planken geschikt voor gebruik in een resort?',
+          a: 'Ja. Moderne opblaasbare SUP\'s zijn zeer duurzaam en veel eenvoudiger op te slaan en te vervoeren: de populaire keuze voor resorts met beperkte opslagruimte.',
+        },
+        {
+          q: 'Kan de vloot ons logo en onze kleuren dragen?',
+          a: 'Ja: full-deck opdruk, logoprint, branding van de EVA-pad en accessoires met jouw merk maken allemaal deel uit van het resortprogramma.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Vraag een SUP-oplossing voor je resort aan',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Aangepaste teamplanken voor clubs',
+      metaTitle: 'SUP-materiaal voor clubs en teams',
+      metaDescription:
+        'SUPsfactory biedt aangepaste SUP-materiaaloplossingen voor clubs, teams en evenementen — inclusief opdruk, specificaties en productieondersteuning.',
+      kicker: 'Aangepaste teamplanken voor clubs',
+      serviceType: 'SUP-materiaal voor clubs en teams',
+      answer:
+        'Clubs en teams krijgen duurzame, consistente vloten in hun kleuren: logoplaatsing, aangepaste peddellengtes en accessoirepakketten op één gestandaardiseerde plankspecificatie, zodat reparaties en reserveonderdelen ook bij nabestellingen eenvoudig blijven. De MOQ start bij 90–100+ stuks (volume); pilot series van 20–50 stuks zijn beschikbaar om de specificatie eerst te valideren.',
+      h1: 'Aangepast SUP-materiaal voor clubs en teams',
+      intro: [
+        'Paddleclubs hebben planken nodig die dagelijkse training aankunnen, eruitzien als team en consistent blijven bij nabestellingen. Wij produceren aangepaste teamplanken met de naam en kleuren van jouw club tegen gunstige vlootvoorwaarden.',
+        'Clubprogramma\'s omvatten ook de praktische kant: reserveonderdelen, reparatieadvies en ondersteuning bij nabestellingen met dezelfde kwaliteit.',
+      ],
+      scenario: {
+        title: 'Jouw club organiseert trainingen en teamsessies',
+        body: 'De planken worden dagelijks door leden gebruikt en vertegenwoordigen de club bij evenementen en regatta\'s. Je wilt duurzaam teammateriaal met de club branding, zonder zelf de relatie met een fabriek te beheren.',
+      },
+      pairs: [
+        {
+          problem: 'Trainingsplanken krijgen intensief en herhaald gebruik.',
+          solution: 'Versterkte constructie voor dagelijks professioneel gebruik, met reparatieadvies en ondersteuning voor reserveonderdelen.',
+        },
+        {
+          problem: 'Vloten zien er onsamenhangend uit en zonder branding.',
+          solution: 'Naam, kleuren en logo van de club op elke plank, voor een uniforme teamvloot.',
+        },
+        {
+          problem: 'Bij uitbreiding van de vloot moet je op zoek naar bijpassende voorraad.',
+          solution: 'Nabestellingen worden geproduceerd op dezelfde gecertificeerde platforms, zodat nieuwe planken aansluiten op bestaande.',
+        },
+        {
+          problem: 'De budgetten voor vloten zijn beperkt.',
+          solution: 'Vlootprijzen en een vast aanspreekpunt voor nabestellingen, reserveonderdelen en onderhoudsvragen.',
+        },
+      ],
+      steps: [
+        { title: 'Vertel ons over de club', body: 'Aantal leden, soorten sessies en het huidige materiaal.' },
+        { title: 'Kies de planktypen', body: 'Training-, beginner- en teamvormen die aansluiten bij jouw programma.' },
+        { title: 'Voeg de club branding toe', body: 'Naam, kleuren en logo op planken en accessoires.' },
+        { title: 'Bestel en groei', body: 'Vlootlevering, reserveonderdelen en consistente nabestellingen.' },
+      ],
+      caseStudy: {
+        title: 'Vlootvernieuwing van een club',
+        body: 'Een paddleclub vernieuwde haar uitstraling met 25 branded trainingsplanken en reserveonderdelen. Leden trainen op uniform materiaal en het volgende seizoen breidde de club de vloot uit met een identieke nabestelling.',
+        tags: ['Club branding', 'Vlootvernieuwing', 'Ondersteuning voor reserveonderdelen'],
+      },
+      faqs: [
+        {
+          q: 'Kunnen SUP-clubs teamplanken personaliseren?',
+          a: 'Ja. Clubs kunnen opdruk, kleuren en productconfiguraties personaliseren — naam, kleuren en logo van de club op elke plank.',
+        },
+        {
+          q: 'Ondersteunen jullie SUP-productie rondom evenementen?',
+          a: 'Ja. De productieplanning kan worden ontwikkeld volgens de eisen van het evenement, inclusief event-editieplanken en accessoires.',
+        },
+        {
+          q: 'Welke planken zijn het meest geschikt voor training bij een club?',
+          a: 'Stabiele, duurzame planken die passen bij het niveau van jouw leden — brede beginnervormen voor de lessen en touring-vormen voor duurtraining.',
+        },
+        {
+          q: 'Bieden jullie vlootprijzen voor clubs?',
+          a: 'Ja: volumekortingen voor clubvloten, met een vast aanspreekpunt voor nabestellingen, reserveonderdelen en onderhoudsvragen.',
+        },
+        {
+          q: 'Kunnen beschadigde planken worden gerepareerd of vervangen?',
+          a: 'Wij leveren reserveonderdelen, reparatieadvies en ondersteuning bij nabestellingen, zodat de vloot consistent blijft.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Bespreek je SUP-project voor je club',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'SUP-programma voor scholen',
+      metaTitle: 'SUP-materiaal voor scholen | Aangepaste paddle boards voor het onderwijs',
+      metaDescription:
+        'Veilige en betrouwbare SUP-materiaaloplossingen voor scholen, kampen en organisaties, met aangepaste productieondersteuning van SUPsfactory.',
+      kicker: 'SUP-programma voor scholen',
+      serviceType: 'SUP-materiaal voor scholen en programma\'s',
+      answer:
+        'Voor scholen en onderwijsprogramma\'s leveren wij stabiele, beginnersvriendelijke planken met opgedrukte veiligheidsinstructies, gevoerde peddels en beschermende accessoires, afgestemd op jouw klassenomvang en opslagsituatie. De standaard volume batch is 90–100+ stuks per rol van 150 m, met pilot series van 20–50 stuks; levertijden volgen de inkoopcyclus van scholen.',
+      h1: 'Veilige en betrouwbare SUP-oplossingen voor scholen en programma\'s',
+      intro: [
+        'Scholen pakken paddling anders aan: grote klassen, gemengde niveaus, strikte veiligheidseisen en onderwijsbudgetten. Ons schoolprogramma biedt stabiele, beginnersvriendelijke planken, pakketopties die aansluiten bij de klassenomvang en advies vanuit het perspectief van instructeurs.',
+        'Levering in volume en ondersteuning bij nabestellingen houden het materiaal jaar na jaar beschikbaar voor nieuwe leerlingengroepen.',
+      ],
+      scenario: {
+        title: 'Je geeft paddlingles aan studenten',
+        body: 'De klassen zijn groot en de niveaus lopen uiteen. Je hebt stabiele, veilige planken nodig voor beginners, hoeveelheden die aansluiten bij de klassenomvang en een leveringsprogramma dat past bij het schoolbudget en de inkoopcyclus.',
+      },
+      pairs: [
+        {
+          problem: 'Studenten hebben maximale stabiliteit op het water nodig.',
+          solution: 'Brede, volumineuze beginnersplanken en multi-persoonsplanken, ontworpen om beginners te vergeven.',
+        },
+        {
+          problem: 'De klassenomvang vereist consistent materiaal op schaal.',
+          solution: 'Programmaprijzen voor klasgrootte hoeveelheden, met identieke kwaliteit op elke plank.',
+        },
+        {
+          problem: 'Instructeurs beheren de veiligheid met beperkte ondersteuning.',
+          solution: 'De planken worden geleverd met duidelijke gebruiksaanwijzingen en wij adviseren je over hoeveelheden en opstelling voor jouw vaargebied.',
+        },
+        {
+          problem: 'Het materiaal moet meerdere leerlingengroepen aankunnen.',
+          solution: 'Versterkte constructie, plus reserveonderdelen en ondersteuning bij nabestellingen, voor een lange levensduur van het programma.',
+        },
+      ],
+      steps: [
+        { title: 'Deel je programma', body: 'Klassenomvang, vaargebied, instructeursorganisatie en begrotingscyclus.' },
+        { title: 'Stel het pakket samen', body: 'Planktypen en hoeveelheden afgestemd op het onderwijs, niet op giswerk.' },
+        { title: 'Goedkeuring van het monster', body: 'Controleer stabiliteit, constructie en afwerking op een fysieke plank.' },
+        { title: 'Levering en vernieuwing', body: 'Levering in volume, reserveonderdelen en nabestellingen voor nieuwe groepen.' },
+      ],
+      caseStudy: {
+        title: 'Schoolprogramma voor watersport',
+        body: 'Een school lanceerde een keuzevak paddling met een vloot van 15 beginnersplanken en multi-persoonsplanken voor de eerste lessen. Instructeurs zagen al in de eerste sessie snellere vooruitgang dankzij de stabiele platforms, en het jaar daarop vernieuwde het programma het materiaal met een identieke nabestelling.',
+        tags: ['Beginnervloot', 'Programmastart', 'Vernieuwingsbestellingen'],
+      },
+      faqs: [
+        {
+          q: 'Welk SUP-materiaal is geschikt voor scholen?',
+          a: 'De keuze hangt af van de leeftijd van de gebruikers, de toepassingsomgeving en de programma-eisen — brede, stabiele planken zijn de standaardkeuze voor het onderwijs.',
+        },
+        {
+          q: 'Kunnen scholen het SUP-materiaal personaliseren?',
+          a: 'Ja. Scholen kunnen opdruk, kleuren en materiaalpakketten personaliseren volgens hun programma.',
+        },
+        {
+          q: 'Welke planken zijn het meest geschikt voor SUP-lessen op school?',
+          a: 'Brede, stabiele beginnersplanken en multi-persoonsplanken zijn ideaal: hun volume maakt ze vergevingsgezind voor beginners en stabiel met meerdere paddlers.',
+        },
+        {
+          q: 'Kunnen de hoeveelheden worden afgestemd op onze klassenomvang?',
+          a: 'Ja: de programmavoorwaarden zijn gebouwd op klasgrootte hoeveelheden en wij adviseren over aantallen op basis van je vaargebied en het rooster.',
+        },
+        {
+          q: 'Werken jullie met de inkoopkalenders van scholen?',
+          a: 'Ja. Wij plannen monstering- en productietermijnen rondom de begrotings- en seizoencycli van scholen.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Bespreek je SUP-programma voor je school',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

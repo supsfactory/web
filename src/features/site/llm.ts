@@ -13,13 +13,13 @@ import {
   getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
-import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT } from '@/features/content/guide-content'
+import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL } from '@/features/content/guide-content'
 import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -789,6 +789,96 @@ export function llmsPortugueseFull(): string {
     ...caseBlocks,
     '',
     '# Português: Guides',
+    ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` Dutch section — absolute /nl URLs so LLMs can ingest the mirror directly. */
+export function llmDutchIndex(origin: string): string {
+  const nl = (path: string) => abs(origin, `/nl${path}`)
+  const productLines = getContentProducts('nl').map((p) => `- [${p.title}](${nl(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('nl').map((a) => `- [${a.title}](${nl(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('nl').map((c) => `- [${c.title}](${nl(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_NL.map((g) => `- [${g.title}](${nl(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('nl')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${nl(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('nl')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## Nederlands',
+    '',
+    `- [${SITE_NAME} — Homepage](${nl('/')}): ${LLM_DUTCH_HOMEPAGE_DESCRIPTION}`,
+    '',
+    '### Nederlands: Producten',
+    ...productLines,
+    '',
+    '### Nederlands: Technologie',
+    ...techLines,
+    '',
+    '### Nederlands: Case study',
+    ...caseLines,
+    '',
+    '### Nederlands: Guides',
+    ...guideLines,
+    '',
+    '### Nederlands: Nieuws',
+    ...newsLines,
+    '',
+    '### Nederlands: Veelgestelde vragen',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full Dutch text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsDutchFull(): string {
+  const productBlocks = getContentProducts('nl').map((p) =>
+    [
+      `## Product: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('nl').map((p) =>
+    [`## Nieuws: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('nl').map((a) =>
+    [`## Technologie: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('nl').map((c) => [`## Case study: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_NL.map((g) =>
+    [
+      `# Gids: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## FAQ',
+      ...g.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# Nederlands',
+    ...productBlocks,
+    '',
+    '# Nederlands: Nieuws',
+    ...newsBlocks,
+    '',
+    '# Nederlands: Technologie',
+    ...techBlocks,
+    '',
+    '# Nederlands: Case study',
+    ...caseBlocks,
+    '',
+    '# Nederlands: Guides',
     ...guideBlocks,
     '',
   ].join('\n\n')

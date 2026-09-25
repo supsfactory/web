@@ -1,0 +1,131 @@
+meta:
+  title: 'R&D-centrum — opblaasbare SUP-techniek | {SITE}'
+  description: 'Research & development — testen van PVC-stoffen, romptechniek, HF-lassen, hydrodynamische testen en kwaliteitscontrole. Aangepaste R&D-diensten beschikbaar.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: R&D-centrum
+  title: R & D-centrum
+  subtitle: Focus op vooruitgang
+
+intro:
+  - Het onderzoeks- en ontwikkelingscentrum (R&D) van Vatrad is de drijvende kracht achter onze missie om watersportuitrusting te vernieuwen. Door onvermoeibare innovatie in opblaasbare stand-up paddleboards (SUP) en rubberboten maken we veiligere, comfortabelere en mooiere producten mogelijk voor watersportliefhebbers over de hele wereld. Ons toegewijde team van ingenieurs, ontwerpers en ervaren watersportfanaten geeft vorm aan de toekomst van de sector en verlegt voortdurend de lat op het gebied van kwaliteit, prestaties en duurzaamheid.
+  - Onze R&D-faciliteit brengt materiaalwetenschappers, scheepsarchitecten en productie-ingenieurs onder één dak. Van stofformulering en rompsimulatie tot de ontwikkeling van lasprocessen en grootschalige proefvaarten in het water — elke fase van productontwikkeling wordt gedreven door data en gevalideerd door testen.
+
+mission:
+  tagline: Onze missie
+  title: De toekomst van watersport innoveren
+  pillars:
+    - icon: lightning
+      title: Technologische vooruitgang
+      desc: Pionieren met nieuwe materialen, ontwerpen en productieprocessen voor superieure productprestaties en levensduur.
+    - icon: design
+      title: Gebruikersgericht ontwerp
+      desc: De behoeften van gebruikers grondig begrijpen en overtreffen door ergonomisch en intuïtief ontwerp.
+    - icon: globe
+      title: Duurzame werkwijzen
+      desc: Onze ecologische voetafdruk minimaliseren door milieuvriendelijke materialen en processen.
+    - icon: shield
+      title: Veiligheid zonder compromissen
+      desc: De hoogste veiligheidsnormen garanderen door strenge tests en certificeringen.
+
+pillars:
+  - title: Technologische vooruitgang
+    desc: Pionieren met nieuwe materialen, ontwerpen en productieprocessen voor superieure productprestaties en levensduur.
+    icon: tech
+  - title: Vooruitstrevende materialen
+    desc: Onderzoek naar toonaangevend PVC, Hypalon, composietmaterialen en duurzame alternatieven voor betere producteigenschappen.
+    icon: materials
+  - title: Duurzaamheid
+    desc: 'Een fundamenteel streven: wij bevorderen milieuverantwoordelijkheid door duurzame productie en recyclebare materialen.'
+    icon: sustainability
+
+capabilities:
+  tagline: Capaciteiten
+  title: R&D-capaciteiten
+  subtitle: Vier kerndisciplines geven ons end-to-end controle over productontwikkeling — van grondstofonderzoek tot de eindcertificering.
+  groups:
+    - title: Materiaalwetenschap & stoftechnologie
+      items:
+        - Analyse en optimalisatie van PVC- en Hypalon-formuleringen
+        - Ontwikkeling van UV-stabilisatie, vlamvertragers en antimicrobiële additieven
+        - Meerlaagse stoflaminering en techniek van lijmverbindingen
+        - Versnelde verouderingstests (UV, thermisch, vocht, zoutsproeimist)
+    - title: Romptechniek & hydrodynamica
+      items:
+        - Parametrisch 3D-rompontwerp en CFD-optimalisatie
+        - Eindige-elementenanalyse voor structurele- en impactbelastingen
+        - Sleeptankproeven met modellen en prestatievalidatie
+        - Aangepaste rompontwikkeling voor speciale gebruiksprofielen
+    - title: Lastechnologie & verbindingstechniek
+      items:
+        - Ontwikkeling en optimalisatie van het diëlektrische HF-lasproces
+        - Hetelucht-, warmkegel- en ultrasoon lasprocessen
+        - Kwalificatie van lijmverbindingen en naadtape
+        - Modellering van lassterkte en levensduurvoorspelling
+    - title: Testen, certificering & conformiteit
+      items:
+        - Kwaliteitsbeheer en CE-conformiteitstesten
+        - Ondersteuning voor onafhankelijke partijtesten en -certificering door derden
+        - Ontwikkeling van aangepaste testprotocollen voor inkoopkwalificatie
+        - Veldstoringsanalyse en oorzaakonderzoek
+
+rd_numbers:
+  tagline: Innovatie
+  title: R&D in cijfers
+  stats:
+    - value: '14'
+      label: R&D-ingenieurs & -wetenschappers
+    - value: '8'
+      label: Actieve patenten & aanvragen
+    - value: '6'
+      label: Gespecialiseerde laboratoria
+    - value: 12 yr
+      label: Gemiddelde teamervaring
+
+rd_services:
+  tagline: Aangepaste R&D
+  title: R&D-diensten voor partners
+  services:
+    - title: Aangepaste materiaalontwikkeling
+      desc: Wij ontwikkelen aangepaste stofformuleringen, laminaatopbouw en lijmsystemen, afgestemd op jouw gebruiksomgeving en prestatie-eisen.
+    - title: OEM / ODM productengineering
+      desc: Wij ontwikkelen aangepaste stofformuleringen, laminaatopbouw en lijmsystemen, afgestemd op jouw gebruiksomgeving en prestatie-eisen.
+    - title: Testen door derden & certificering
+      desc: Gebruik onze ISO-conforme testfaciliteiten voor onafhankelijke materiaaltesten, productvalidatie en certificeringsondersteuning.
+  cta: Bespreek jouw R&D-eisen →
+  cta_link: /nl/contact
+
+vision:
+  tagline: Onze visie
+  title: Vorm geven aan de toekomst van watersport
+  body: Vatrad streeft ernaar de sector van rubberboten en SUP's te leiden door continue innovatie, standvastige kwaliteit en een sterk engagement voor veiligheid en duurzaamheid — en zo de ervaringen van watersportliefhebbers over de hele wereld te verrijken. Het R&D-centrum van Vatrad is de plaats waar passie innovatie ontmoet en waar nieuwe referentienormen voor de watersportsector worden vastgesteld.
+
+labs_section:
+  tagline: Laboratoria
+  title: Onze laboratoria
+  labs:
+    - image: https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp
+      title: Laboratorium PVC-stoffen
+      description: Doorlopend onderzoek en testen van opblaasbare PVC- en Hypalon-materialen op treksterkte, UV-bestendigheid, slijtage en koudeflexibiliteit, voor betrouwbaarheid op lange termijn in maritieme omgevingen.
+      href: /nl/randdcenter/pvc-fabric-lab
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-2.webp
+      title: Studio romptechniek
+      description: CAD-ondersteund ontwerp en eindige-elementenanalyse van rompen in HDPE, aluminium en glasvezel. Elke romp wordt digitaal gesimuleerd op spanningsverdeling en impactsterkte voordat het eerste prototype wordt gebouwd.
+      href: /nl/randdcenter/hull-engineering
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing-3.webp
+      title: HF-lascentrum
+      description: Speciale hoogfrequente lasfaciliteit met nauwkeurige controle van temperatuur en druk, die hoogsterke, luchtdichte naden produceert volgens branchenormen voor opblaasbare boten.
+      href: /nl/randdcenter/rf-welding
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp
+      title: Hydrodynamische sleeptank
+      description: Modelproeven in onze sleeptank om rompvorm, planeren, stabiliteit en rendement te optimaliseren over een reeks belastings- en golfcondities.
+      href: /nl/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: Prototypewerkplaats
+      description: Faciliteit op ware grootte voor prototyping en afbouw, waar nieuwe modellen worden gebouwd, afgewerkt en beproefd op het water. Elk prototype doorloopt een watertestprogramma van minimaal 20 uur voordat het voor productie wordt goedgekeurd.
+      href: /nl/randdcenter/prototype-workshop
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
+      title: Kwaliteits- & testlaboratorium
+      description: Toegewijd kwaliteitslaboratorium voor trektests, luchtdichtheidscycli, naadpeeltests en materiaalcertificering, om te garanderen dat elke boot die de werkplaats verlaat voldoet aan onze gepubliceerde specificaties.
+      href: /nl/randdcenter/quality-inspection-lab

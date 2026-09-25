@@ -1,0 +1,102 @@
+meta:
+  title: 'SUP-prototypewerkplaats — bouwen van monsterplanken'
+  description: 'Van CAD tot geteste monsterplank in 7–12 dagen: onze prototypewerkplaats bouwt, test en valideert aangepaste SUP-monsters. Start vandaag je prototypeproject.'
+  dateModified: '2026-08'
+back_text: 'Terug naar het R&D-centrum'
+home_label: 'Home'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'We zetten een CAD-model om in een vaar- en testbare monsterplank in 7–12 dagen: opblaasbare prototyping, watertests met golfslag, iteraties op rail en neus, en daarna de beslissing over het productiegereedschap. De complete bouw van maatmatrijzen kost 15–20 dagen bovenop de standaard productiedoorlooptijd van 25–35 dagen.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorium 05'
+  title: 'Prototypewerkplaats'
+  subtitle: 'Van CAD-model tot geteste monsterplank — gebouwd, afgewerkt en beproefd'
+  image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'Productie van SUP-planken in de prototypewerkplaats van Vatrad'
+
+intro: 'Een CAD-model — hoe gedetailleerd ook — kan niet laten zien hoe een plank zich werkelijk gedraagt voordat hij wordt opgepompt, betreden en bepaddeld. Daarom is onze prototypewerkplaats ontworpen om technische gegevens zo snel en nauwkeurig mogelijk om te zetten in een fysieke, vaarbare plank. Elk nieuw {SITE.name}-model — en elke significante maatconstructie — passeert deze werkplaats voordat het productiegereedschap wordt goedgekeurd.'
+
+content_html: |
+  <h2>Waar ontwerp werkelijkheid wordt</h2>
+  <p>De werkplaats is uitgerust voor parallelle productie van panelen, drop-stitch kernen en rails. Deze parallelle workflow verlaagt de prototype-doorlooptijd tot 7–12 dagen na technische goedkeuring. Vereist jouw toepassing een specialistische oplossing, dan kunnen we van concept naar watervalidatie komen in minder dan drie weken.</p>
+
+  <h2>Capaciteiten van de werkplaats</h2>
+  <table>
+    <thead><tr><th>Station</th><th>Apparatuur</th><th>Doel</th></tr></thead>
+    <tbody>
+      <tr><td>Panelen snijden</td><td>CNC-stofsnijder, nestingssoftware, bibliotheek van snijpatronen</td><td>Precies snijden van deck-, romp- en railpanelen voor elke plankmaat</td></tr>
+      <tr><td>Kernassemblage</td><td>Laminaleertafel voor drop-stitch kernen, lijmrollers</td><td>Verbinden van de drop-stitch kern tussen de PVC-huiden met een gelijkmatige lijmdekking</td></tr>
+      <tr><td>Lassen</td><td>HF-laspers, hetelucht-patchlasstation, opblaastestopstelling</td><td>Lassen van de naden van de plank op ware grootte, met ventielen, handgrepen en fin box</td></tr>
+      <tr><td>Afbouw &amp; afwerking</td><td>Aanbrengaar deckpad, grafisch laminaleertafel, montagebank accessoires</td><td>Volledige afbouw: deckpad, logo''s, handgreepsteun, leash plug, fin box</td></tr>
+      <tr><td>Meetstation</td><td>Manometers, data loggers, doorbuigingsmeter</td><td>Testen van monsters: ompompcycli, deckdoorbuiging, meting van de luchtdichtheid</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Het prototypetraject — stap voor stap</h2>
+  <ol>
+    <li><strong>Technische overdracht</strong> — Het ontwerppakket (3D-model, FEA-rapport, BOM, paneelindelingplan) wordt formeel beoordeeld door het hoofd van de werkplaats en de projectingenieur. Eventuele productieproblemen worden vóór het snijden gesignaleerd en opgelost.</li>
+    <li><strong>Paneelproductie</strong> — De plank wordt gebouwd volgens de technische specificatie. De panelen worden CNC-gesneden, de drop-stitch kern wordt tussen de PVC-huiden gelamineerd en deck en romp worden met het goedgekeurde materiaalpakket gemonteerd.</li>
+    <li><strong>Lassen</strong> — De panelen worden via HF-lassen tot de volledige plankvorm verbonden. De kamer wordt tot testdruk opgepompt en 24 uur gehouden voor de initiële stabilisatie.</li>
+    <li><strong>Assemblage &amp; afwerking</strong> — Deckpad, graphics, handgreep, leash plug en fin box worden gemonteerd. Alle accessoires worden geïnstalleerd en gecontroleerd tegen de specificatie.</li>
+    <li><strong>Statische tests</strong> — Voordat het water wordt opgezocht, doorloopt de plank: ompompcycli, luchtdichtheidstest, meting van de deckdoorbuiging bij nominale druk en koppeltest van de accessoires.</li>
+    <li><strong>Watertestprogramma</strong> — 10 uur watertesten, hieronder gedetailleerd.</li>
+    <li><strong>Prototypereview</strong> — Een formele goedkeuringsvergadering met de teams engineering, productie en kwaliteit. Noodzakelijke ontwerpwijzigingen worden gedocumenteerd en verwerkt in de productiegoedkeuring.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Watertestprogramma van 10 uur — testplan</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Stabiliteitstest — stilstaand evenwicht, tolerantie voor zijwaartse belasting</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Peddelproef — planeren, rechtuit koersen en draaien op 3 snelheden; peddelcomfort</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Belastingtest — stabiliteit en doorbuiging met gebruikers van 60 / 80 / 100 / 120 kg</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Golfslagtest — herhaalde passages door de kielzog van boten; neussproeier, railflex</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Duurproef — continu paddelen met regelmatige drukcontroles; registratie van de luchtdichtheid</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Eindcontrole — controle van naden, accessoires en graphics na de test; documentatie van bevindingen</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Aangepaste prototyping voor bijzondere toepassingen</h2>
+  <p>De prototypewerkplaats is de plek waar we problemen oplossen die standaardplanken niet kunnen dekken. Recente voorbeelden:</p>
+  <ul>
+    <li>Een touringplank van 14' voor een Europees endurance-peddelmerk met verzonken vrachtdeck en verstevigde neus — gebouwd, afgewerkt en getest in onze fabriek.</li>
+    <li>Een yogaplank van 10'6'' met doorlopend antislipdeck en extra dikte voor stijfheid, gevalideerd via een test van 4 weken in een verhuurseizoen.</li>
+    <li>Een white label vlootplank met aangepaste deckgraphics en dubbele handgrepen, waarbij het prototype diende om kleur, logoplaatsing en verpakking te valideren voordat de klant voor een container koos.</li>
+  </ul>
+
+  <h2>Ons prototypeteam</h2>
+  <p>De werkplaats wordt bemand door acht allround productietechnici, elk opgeleid in ten minste twee van de drie kerntechnieken (snijden, lassen, afbouw). Het teamhoofd is een meester-vakman met 16 jaar ervaring, van unieke maatstukken tot productieseries. Elk prototype krijgt een toegewijde projectingenieur als enige contactpersoon voor de klant gedurende het hele bouw- en testproces.</p>
+
+  <h2>Betrokkenheid van de klant</h2>
+  <p>We moedigen klanten uitdrukkelijk aan om deel te nemen aan de belangrijkste mijlpalen van de prototypebouw — in het bijzonder de eerste afbouwcontrole en de watertest. Jouw operationele feedback in deze fasen is van onschatbare waarde om de plank vóór de productie te verfijnen. We bouwen niet in een vacuüm; we bouwen in samenwerking met jou.</p>
+  <p>Het watertestprogramma is bovendien een kans voor jouw team om vertrouwd te raken met het onderhoud en de behandeling van de plank, zodat de overgang naar de productie soepel verloopt wanneer de definitieve planken worden geleverd.</p>
+
+cta:
+  title: 'Start je prototypeproject'
+  subtitle: 'Vertel ons welke plank je nodig hebt en wij stellen een prototypeontwikkelingsplan voor.'
+  actions:
+    - variant: primary
+      text: Neem contact op met ons prototypeteam
+      href: /nl/contact#project-brief
+    - text: Terug naar het R&D-centrum
+      href: /nl/randdcenter

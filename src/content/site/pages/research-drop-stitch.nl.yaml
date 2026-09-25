@@ -1,0 +1,79 @@
+meta:
+  title: 'Hoe Drop Stitch werkt — stijve kernen voor opblaasbare SUP''s'
+  description: 'Hoe Drop Stitch flexibel PVC omzet in een stijve, hogedrukkern (15-20 PSI) voor SUP''s: constructie, materialen, kwaliteitsindicatoren en toepassingen.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Terug naar research'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'Drop-stitch is een stof waarvan polyester draadbrugjes de boven- en onderkant van PVC op een vaste afstand houden — zo maakt de luchtdruk de plank stijf. Vatrad kernen: 1,680 DTEX, 2 draden per vierkante inch, buitenlaminaat in PVC van 1.2 mm, ontworpen voor 15 PSI, gevalideerd met een 24-uurs drukbehoudtest op 18.0 PSI.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Technologie'
+  title: 'Hoe Drop Stitch werkt — de techniek achter stijve opblaasbare kernen'
+  subtitle: '8 min leestijd'
+
+content_html: |
+  <h2>Wat is Drop Stitch?</h2>
+  <p>Bij het drop-stitch proces (ook wel "drop-stitch stof" of "drop-stitch kern" genoemd) verbinden duizenden afzonderlijke polyester draden de boven- en onderkant van een stofconstructie. Tijdens het oppompen fungeren deze draden als interne trekelementen — ze voorkomen dat de boven- en onderkant tot een ronde vorm opblazen en houden het oppervlak vlak en stijf.</p>
+  <p>Het resultaat is een lichtgewicht, transporteerbare constructie die 15 – 20 PSI interne druk weerstaat — vergelijkbaar met de stijfheid van een harde plank, maar volledig leeg te laten lopen voor opslag en transport.</p>
+
+  <h2>Hoe het werkt: de fysica</h2>
+  <p>In een conventionele opblaasbare constructie (zoals een ballon of luchtbed) drukt de interne druk gelijkmatig in alle richtingen. Zonder interne begrenzing wordt de constructie cilindrisch of bolvormig. Drop Stitch lost dit op met een treksterke versteviging:</p>
+  <ul>
+    <li>Duizenden draden verbinden de bovenste en onderste stoflaag</li>
+    <li>Tijdens het oppompen probeert de luchtdruk de boven- en onderkant uit elkaar te duwen</li>
+    <li>De draden weerstaan deze scheiding en dragen de belasting als spanning langs de draadas</li>
+    <li>Het resultaat is een vlak, stijf oppervlak dat weerstand biedt tegen doorbuiging</li>
+  </ul>
+
+  <h2>Productieproces</h2>
+  <ol>
+    <li><strong>Weven:</strong> polyester draden worden gelijktijdig in twee afzonderlijke lagen van een dragerstof geweven (doorgaans met PVC gecoate polyester van 1,100 DTEX of 1,680 DTEX). De draden worden onder een hoek van 90&deg; tussen de lagen geweven.</li>
+    <li><strong>Coating:</strong> de geweven dragerstof wordt met PVC gecoat (of af en toe TPU) via een rakel- of calandreerproces. Dit verzegelt de draden en vormt het luchtdichte membraan.</li>
+    <li><strong>Aanlamineren van de lagen:</strong> de drop-stitch kern wordt met de buitenste laminaatlagen (doorgaans PVC van 0.9 mm of 1.2 mm) verbonden via warm lamineren of verlijmen.</li>
+    <li><strong>Lassen:</strong> de raillijsten worden langs de randen verbonden via heteluchtlassen, HF-lassen of hoogfrequent lassen, om de zijwanden van de plank te vormen.</li>
+    <li><strong>Ventielmontage:</strong> Boston- of Halkey-Roberts ventielen worden gemonteerd, doorgaans met een overdrukventiel om te veel oppompen te voorkomen.</li>
+  </ol>
+
+  <h2>Belangrijkste kwaliteitsindicatoren</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parameter</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Basisklasse</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Draaddichtheid</td><td class="p-3 border">1 draad / sq in</td><td class="p-3 border">2 draden / sq in</td></tr>
+      <tr><td class="p-3 border">Dragerstof</td><td class="p-3 border">1,100 DTEX</td><td class="p-3 border">1,680 DTEX</td></tr>
+      <tr><td class="p-3 border">Max. druk</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">PVC-dikte</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Railconstructie</td><td class="p-3 border">Gevouwen &amp; gelijmd</td><td class="p-3 border">Gelast &amp; versmolten</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Toepassingen</h2>
+  <ul>
+    <li><strong>SUP-planken:</strong> dikte 4" – 6", 15 – 20 PSI, 1 – 2 draden/sq in</li>
+    <li><strong>Kajaks:</strong> drop-stitch bodem + opblaasbare zijvakken, bodem op 10 – 15 PSI</li>
+    <li><strong>RIB-bodems:</strong> drop-stitch bodems voor lichte, opvouwbare RIB-tenders, 12 – 18 PSI</li>
+    <li><strong>Stootwillen:</strong> lagedruk drop-stitch voor gevormde stootwillen met vlakke oppervlakken</li>
+  </ul>
+
+  <h2>Drop Stitch versus Air Deck (glasvezel- of houten kern)</h2>
+  <p>Harde planken gebruiken EPS-schuimkernen met glasvezelversteviging of houten langssparren. Ze zijn lichter, stijver en reactiever — maar kunnen niet leeggelaten worden. Drop Stitch ruilt wat stijfheid in voor volledige transporteerbaarheid. Voor de meeste recreatieve gebruikers zijn moderne drop-stitch SUP''s op 20 PSI qua stijfheid niet te onderscheiden van basisharde planken.</p>
+
+  <h2>Hoe Vatrad Drop Stitch gebruikt</h2>
+  <p>Vatrad gebruikt een drop-stitch kern van 1,680 DTEX in het hele SUP-assortiment, met 2 draden per vierkante inch en een buitenlaminaat in PVC van 1.2 mm. De planken zijn ontworpen voor 15 PSI en ondergaan vóór verzending een 24-uurs drukbehoudtest op 18.0 PSI. De raillijsten worden gelast met het drielaagse heteluchtfusieproces, en overdrukventielen zijn standaard op alle modellen.</p>
+  <p>Drop Stitch is de ruggengraat van onze SUP-productie — zie de <a href="/nl/technology/drop-stitch-core">technologiepagina over de drop-stitch kern</a> en hoe de kern wordt verbonden op de <a href="/nl/factory">productielijn in de fabriek</a>.</p>
+
+cta:
+  title: 'Meer weten over Drop Stitch?'
+  subtitle: 'Neem contact met ons op voor technische specificaties en OEM-verzoeken.'
+  button_text: 'Neem contact op met sales'
+  button_link: /nl/contact

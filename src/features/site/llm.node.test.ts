@@ -1,7 +1,7 @@
 ﻿import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
-import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT } from '@/features/content/guide-content'
+import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -155,5 +155,31 @@ test('llms-full.txt Portuguese section: product/news/tech/case/guide bodies pres
   expect(pt).toContain('# Guide:')
   for (const g of GUIDES_PT) {
     expect(pt, `llms-full.txt Portuguese section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
+  }
+})
+
+test('llms.txt Dutch section: /nl absolute links, Dutch homepage note and guides', () => {
+  const section = llmDutchIndex('https://supsfactory.com')
+  expect(section).toContain('## Nederlands')
+  expect(section).toContain('— Homepage')
+  expect(section).toContain('### Nederlands: Producten')
+  expect(section).toContain('### Nederlands: Guides')
+  expect(section).toContain('### Nederlands: Veelgestelde vragen')
+  expect(section).toContain('https://supsfactory.com/nl/')
+  for (const g of GUIDES_NL) {
+    expect(section, `llms.txt Dutch section missing guide ${g.slug}`).toContain(`https://supsfactory.com/nl/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt Dutch section: product/news/tech/case/guide bodies present', () => {
+  const nl = llmsDutchFull()
+  expect(nl).toContain('# Nederlands')
+  expect(nl).toContain('## Product:')
+  expect(nl).toContain('## Nieuws:')
+  expect(nl).toContain('## Technologie:')
+  expect(nl).toContain('## Case study:')
+  expect(nl).toContain('# Gids:')
+  for (const g of GUIDES_NL) {
+    expect(nl, `llms-full.txt Dutch section missing guide ${g.slug}`).toContain(`# Gids: ${g.title}`)
   }
 })

@@ -1,0 +1,348 @@
+meta:
+  title: 'Wijzigingsbeheer & validatie van herbewerkingsparameters | SUPsfactory'
+  description: 'Wijzigingsbeheer van herbewerkingsparameters onder ISO 9001: ECR, risicoclassificatie, vrijgavematrix, validatie en herverificatie voor SUP-productie.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'sup herbewerkingswijzigingsbeheer'
+    - 'iso 9001 wijzigingsbeheer productie'
+    - 'oem kwaliteitsbeheer opblaasbare sup'
+    - 'ecr engineering change request sup'
+    - 'luchtdichtheidsvalidatienormen'
+    - 'sup fabriek kwaliteitsborging'
+
+hero:
+  tagline: Wijzigingsbeheer van herbewerkingsparameters
+  title: Wijzigingsbeheer- & validatiestandaarden voor herbewerkingsprocesparameters
+  subtitle: 'Bij QINGDAO VATRAD GROUP.,LTD. kan geen enkele operator, ploegleider of individuele afdeling ter plaatse een goedgekeurde herbewerkingsparameter wijzigen. Elke voorgestelde wijziging aan goedgekeurde herbewerkingsmaterialen, procesomstandigheden, apparatuur, testmethoden, inspectiecriteria of geautoriseerd personeel wordt beheerd via een gedocumenteerd wijzigingsbeheer — Engineering Change Request, impact- en risicobeoordeling, interfunctionele vrijgave, validatieplan, gecontroleerde implementatie, herverificatie en effectiviteitsbewijs, daarna sluiting en bewaring van de registraties. Deze pagina presenteert onze gecontroleerde standaard QMS-SOP-QC-CC-001 (Rev 2.0, gebaseerd op ISO 9001:2015) en de technische bewijzen erachter.'
+  actions:
+    - text: Download de SOP wijzigingsbeheer (PDF)
+      variant: primary
+      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Download bijlage A uitvoering (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Kwaliteitscontrole aanvragen
+      href: /contact
+
+answer:
+  label: 'Helder antwoord'
+  text: 'Wijzigingen aan herbewerkingsparameters worden bij QINGDAO VATRAD GROUP.,LTD. nooit mondeling of met terugwerkende kracht besloten. Elke voorgestelde wijziging aan goedgekeurde herbewerkingsmaterialen, procesomstandigheden, apparatuur, testmethoden, inspectiecriteria of geautoriseerd personeel moet vóór de implementatie door een formeel wijzigingsbeheer: een gedocumenteerde Engineering Change Request (ECR), impact- en risicobeoordeling, interfunctionele verificatie van ontwerp, kwaliteit, productie, inkoop en project, vrijgave op het niveau dat is vastgelegd in onze autorisatiematrix, een goedgekeurd validatieplan voor hoog-risicowijzigingen, gecontroleerde pilootimplementatie, herverificatie en effectiviteitsbewijs, en sluiting uitsluitend na documentrevisie en training. Elke wijziging die van invloed is op door de klant goedgekeurde specificaties, monsters, BOM, graphics of acceptatiecriteria vereist bovendien de schriftelijke vrijgave van de klant.'
+  verified: 'September 2026'
+
+stats:
+  tagline: In het kort
+  title: Het wijzigingsbeheer in cijfers
+  stats:
+    - value: '9'
+      label: Fases in de gesloten cyclus van het wijzigingsbeheer
+    - value: '6'
+      label: Wijzigingscategorieën die formeel beheer vereisen
+    - value: '4'
+      label: Kernherbewerkingsprocessen met gekwantificeerde parameters
+    - value: '≥ 5'
+      label: Voorbeeldplanken + 2 onafhankelijke QC voor hoog-risicovalidatie
+
+cc_intro:
+  tagline: Scope & beleid
+  title: Kernprincipes van governance
+  body: |
+    **Document:** QMS-SOP-QC-CC-001 — *Standaard van het wijzigingsbeheer voor herbewerkingsprocesparameters* (Rev 2.0, officiële publicatie). **Producent:** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Normreferentie:** ISO 9001:2015 Kwaliteitsmanagementsystemen.
+
+    - **Geen ongecontroleerde wijzigingen.** Wijzigingen aan herbewerkingsparameters moeten door een formeel wijzigingsbeheer gaan. Operators op de werkvloer, ploegleiders of een individuele afdeling mogen goedgekeurde herbewerkingsparameters nooit wijzigen met een mondelinge overeenkomst of een handgeschreven registratie in een herbewerkingsverslag.
+    - **Volledige elementdekking.** De gecontroleerde scope omvat luchtdichtheid, ventielzittingen, railband, naadverlijming, hetelucht-uitharden en de drukbehoudtest — elke parameter die de afdichting, structurele levensduur, het uiterlijk, de acceptatie door de klant of de traceerbaarheid kan beïnvloeden.
+    - **De vrijgave van de klant als centraal punt.** Elke wijziging die een product verwijdert van het door de klant goedgekeurde monster, de technische specificatie, de BOM, de graphics, de verpakkingsvereiste of de acceptatiecriteria wordt alleen geïmplementeerd met de schriftelijke vrijgave van de klant. Zonder die vrijgave wordt de plank herbewerkt, vervangen of afgekeurd volgens de oorspronkelijke eis — nooit "verzacht" uitsluitend door de fabriek.
+
+cc_scope:
+  tagline: Risicoclassificatie
+  title: Wijzigingsscope & risicoclassificatie
+  subtitle: Elk van de volgende wijzigingen activeert het formele wijzigingsbeheer — nooit afgehandeld met een notitie in het herbewerkingsverslag. Het risiconiveau bepaalt wie vrijgeeft en hoeveel validatie vereist is.
+  headers:
+    category: Wijzigingscategorie
+    examples: Typische voorbeelden
+    risk: Risico
+    requirements: Controle- & vrijgavevereisten
+  rows:
+    - category: 'Herbewerkingsmaterialen'
+      examples: 'Lijm, ontvetter, reparatiemateriaal, ventieldichting, primer of leverancierswissel'
+      risk: 'Hoog'
+      requirements: 'Interfunctionele verificatie + validatie van materiaalcompatibiliteit & drukbehoud + vrijgave van de klant waar toepasselijk'
+    - category: 'Procesomstandigheden'
+      examples: 'Oppervlaktevoorbereiding, temperatuur/vochtigheid van het hetelucht-uitharden, drukdruk, houdduur'
+      risk: 'Hoog'
+      requirements: 'Vrijgave van ontwerp + kwaliteit met gedefinieerde validatie van de temperatuur- & vochtigheidsvensters'
+    - category: 'Apparatuur & meetinstrumenten'
+      examples: 'Manometers, lekdetectoren, hetelucht-thermokoppels, ventielgereedschappen, testsoftware'
+      risk: 'Gemiddeld/Hoog'
+      requirements: 'Verificatie van de kalibratiegeldigheid + beoordeling van de geschiktheid van de apparatuur'
+    - category: 'Defectscope'
+      examples: 'Uitbreiding van het herbewerkingsgebied; oppervlakkige micro-reparatie die uitgroeit naar kritieke rail-, naad- of ventielzittingzones'
+      risk: 'Hoog'
+      requirements: 'Structureel dragende oppervlakken: verplichte stop en herbeoordeling'
+    - category: 'Inspectiemethoden'
+      examples: 'Lekdetectiemethode, testdruk (18.0 PSI), bewaarperiode (24u)'
+      risk: 'Hoog'
+      requirements: 'Kwaliteitsvrijgave + bevestiging van de technische overeenstemming van de klant'
+    - category: 'Documentatie & autorisatie'
+      examples: 'Herbewerkingsinstructie, inspectiebladen, logica van de NCR-beslissing, kwalificatie van operators'
+      risk: 'Gemiddeld'
+      requirements: 'Gecontroleerde documentrevisie (Rev A → Rev B) + trainingsbewijzen'
+
+cc_containment:
+  tagline: Regel van de harde stop
+  title: Onmiddellijke insluiting wanneer de omstandigheden ernstig worden
+  body: |
+    > "De bestaande herbewerkingsmethode moet worden onderworpen aan een verificatie en niet worden toegepast op verdere betrokken producten totdat de wijziging is beoordeeld en geautoriseerd, tenzij een gedocumenteerde tijdelijke afwijking is goedgekeurd door Kwaliteit en Ontwerp."
+
+    De huidige herbewerkingsmethode moet onmiddellijk worden opgeschort wanneer de herverificatie van de herbewerking blijft falen, wanneer het defect structureel dragende zones betreft (ventielbasis, rail, naden, drukzones van boeg/achtersteven), wanneer een vervangend materiaal nog niet is gevalideerd of wanneer de huidige parameters botsen met de door de klant goedgekeurde specificatie.
+
+    Tijdelijke afwijkingen worden nooit blijvende praktijk: elke afwijking draagt een gedefinieerd geldigheidsvenster, een toepasselijke partijscope, een hoeveelheidsplafond, validatievereisten en een mechanisme voor automatische vervaldatum. Een mondelinge uitzondering is geen uitzondering — wordt die niet gedocumenteerd met zijn vervaldatum, dan bestaat hij niet.
+
+cc_flow:
+  tagline: Standaard gesloten cyclus in 9 fases
+  title: Van wijzigingsverzoek tot sluiting en bewaring
+  subtitle: 'Een gedocumenteerde cyclus voor elke parameterwijziging: voorstellen, screenen, beoordelen, vrijgeven, valideren, piloot draaien, verifiëren, reviseren, sluiten.'
+  steps:
+    - step: '01'
+      title: Wijzigingsverzoek (ECR)
+      desc: 'Elke afdeling kan een verzoek indienen, maar Ontwerp, Kwaliteit of de productieleiding sponsort het. De ECR beantwoordt waarom de wijziging nodig is, wat er verandert, wat er is getroffen en hoe het wordt geverifieerd — met een wijzigingsbeheernummer, gekoppelde NCR/CAPA, huidige vs. voorgestelde parameter, betrokken partijen en de classificatie tijdelijke/permanente wijziging.'
+    - step: '02'
+      title: Eerste screening & insluiting
+      desc: 'Het verzoek wordt eerst gescreend op onmiddellijke insluiting: moet de huidige methode nu worden gestopt? Is een tijdelijke afwijking toegestaan, dan wordt die begrensd door een geldigheidsvenster, partijscope, hoeveelheidsplafond en automatische vervaldatum.'
+    - step: '03'
+      title: Impact- & risicobeoordeling
+      desc: 'Ontwerp, Kwaliteit, Productie, Inkoop/leveringsketen en Project beoordelen de productprestaties, acceptatiecriteria, materiaalcompatibiliteit, het uiterlijk, de procescapaciteit, apparatuur en meetinstrumenten, personeelskwalificatie, klantvereisten, conformiteit en de traceerbaarheidsscope.'
+    - step: '04'
+      title: Gezamenlijke verificatie & vrijgave
+      desc: 'De vrijgave volgt de vaste autorisatiematrix — niet "wie het hardst schreeuwt". Hoog-risicowijzigingen vereisen de interfunctionele vrijgave en, waar nodig, de schriftelijke vrijgave van de klant vóór enige poging.'
+    - step: '05'
+      title: Validatieplan
+      desc: 'Voor hoog-risicowijzigingen is een goedgekeurd validatieplan vereist vóór de routinematige toepassing: representatieve voorbeeldplanken, huidige vs. voorgestelde methode, testmethoden, acceptatiecriteria, inspectieniveaus, verantwoordelijken en planning.'
+    - step: '06'
+      title: Gecontroleerde pilots & implementatie
+      desc: 'De nieuwe documenten worden vrijgegeven en de verouderde versies worden ingetrokken en gemarkeerd als OBSOLETE; nieuwe materialen en meetinstrumenten worden geverifieerd en gekalibreerd; de operators worden getraind en gekwalificeerd; de eerste partij draait onder versterkte inspectie met duidelijke statusmarkering.'
+    - step: '07'
+      title: Herverificatie & effectiviteitsbewijs
+      desc: 'Het first-pass percentage van de herbewerking, het slagingspercentage van de herverificatie, het herhalingspercentage en de acceptatie van het uiterlijk worden gemeten en geverifieerd vóórdat de wijziging als effectief wordt beschouwd — een gerepareerde plank wordt nooit behandeld als procesvalidatie.'
+    - step: '08'
+      title: Documentrevisie & training
+      desc: 'Werkinstructies, inspectiebladen, NCR-beslissingsopties, parameterkaarten en trainingsmateriaal worden bijgewerkt naar de nieuwe revisie, met geregistreerde praktische training en kwalificatie van de operator.'
+    - step: '09'
+      title: Sluiting & bewaring van registraties
+      desc: 'De wijziging wordt pas gesloten nadat de validatiebewijzen, documentupdates, trainingsbewijzen en de effectiviteit van de implementatie zijn geverifieerd en vrijgegeven. Wordt het beoogde resultaat niet bereikt, dan wordt de wijziging herzien, uitgebreid, opgeschort of ingetrokken.'
+
+cc_approval:
+  tagline: Vrijgavematrix
+  title: Interfunctionele autorisatiematrix
+  subtitle: 'Een vaste autorisatietabel voorkomt ad-hocbeslissingen: elk wijzigingstype heeft zijn vereiste fiatteurs, van een verduidelijking op documentniveau tot de vrijgave van de klant.'
+  headers:
+    change: Inhoud van de wijziging
+    engineering: Ontwerp
+    quality: Kwaliteit
+    production: Productie
+    procurement: Inkoop
+    project: Project / Verkoop
+    customer: Klant
+  rows:
+    - change: 'Verduidelijking van de documentformulering (geen impact op parameters)'
+      engineering: Controle
+      quality: 'Vrijgave'
+      production: Melding
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Bijstelling van de operationele herbewerkingsvolgorde'
+      engineering: 'Vrijgave'
+      quality: 'Vrijgave'
+      production: Medeondertekening
+      procurement: '—'
+      project: Melding
+      customer: Op verzoek
+    - change: 'Nieuwe kwalificatie van een herbewerkingsoperator'
+      engineering: Controle
+      quality: 'Vrijgave'
+      production: 'Vrijgave'
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Wijziging van apparatuur/testinstrumenten'
+      engineering: 'Vrijgave'
+      quality: 'Vrijgave'
+      production: Medeondertekening
+      procurement: Indien nodig
+      project: '—'
+      customer: Op verzoek
+    - change: 'Vervangend herbewerkingsmateriaal/-leverancier'
+      engineering: 'Vrijgave'
+      quality: 'Vrijgave'
+      production: Medeondertekening
+      procurement: Medeondertekening
+      project: Melding
+      customer: Kan worden gevraagd
+    - change: 'Wijziging van druk-/behoud-/uithardingsparameters'
+      engineering: 'Vrijgave'
+      quality: 'Vrijgave'
+      production: Medeondertekening
+      procurement: '—'
+      project: Melding
+      customer: Als het project het vereist
+    - change: 'Wijziging van de herbewerkingsmethode rail/naad/ventielzitting'
+      engineering: 'Vrijgave'
+      quality: 'Vrijgave'
+      production: Medeondertekening
+      procurement: Indien nodig
+      project: Melding
+      customer: Over het algemeen aanbevolen
+    - change: 'Wijziging van klantspecificatie, vrijgavemonster of acceptatiecriteria'
+      engineering: 'Vrijgave'
+      quality: 'Vrijgave'
+      production: Medeondertekening
+      procurement: '—'
+      project: Medeondertekening
+      customer: 'Schriftelijke vrijgave verplicht'
+
+cc_validation:
+  tagline: Technische validatie
+  title: Validatie- & acceptatieprotocol — bewijzen, geen beweringen
+  body: |
+    Een vage acceptatieformulering als *"de gerepareerde plank moet goed zijn"* wordt niet geaccepteerd. De gecontroleerde formulering luidt:
+
+    > "Het herbewerkte monster moet voldoen aan dezelfde toepasselijke acceptatiecriteria voor luchtdichtheid, visuele afwerking, ventielfunctie en projectspecifieke eisen als een conforme plank, tenzij een door de klant goedgekeurde afwijking uitdrukkelijk een alternatief criterium definieert."
+
+    De validatiebewijzen zijn kwantitatief en de technische baseline voor de luchtdichtheidsherbewerking omvat:
+
+    - **Eliminatie van het lek & drukbehoud.** Het oorspronkelijke lek wordt geëlimineerd zonder aanhoudende bellen in de zeepwater-detectie; de plank houdt de druk bij de standaard testdruk van 18.0 PSI gedurende 24 uur, met een netto drukverlies ΔP ≤ 0.2 PSI na compensatie van temperatuur/vochtigheid — de strengste baseline voor de validatie van herbewerking, gescheiden van de automatische uitsluitingsdrempel van 0.50 PSI die wordt toegepast bij de uiteindelijke acceptatie van de productielijn.
+    - **Ventijlfunctie.** Het aanhaalmoment van de ventielkern voldoet aan de specificatie van 15–20 N·m, zonder micro-lekken aan de afdichting onder hogedruk- en dynamische druk bij het oppompen.
+    - **Naadverlijming & levensduur.** De verlijmingsranden vertonen geen loslating, witverkleuring of delaminatie; na de cycli van thermische/vochtigheid-veroudering vertoont de lijmlaag geen verzachting of brosse scheuren.
+    - **Uiterlijk & afwerking.** Geen lijmuitloop, geen schade aan het EVA, geen vervorming van de plank en geen verschuiving van het logo of krassen op het bedrukte oppervlak.
+
+cc_engineering:
+  tagline: Technische uitvoeringsmatrix
+  title: Gekwantificeerde parameters voor de vier kernherbewerkingsprocessen
+  subtitle: 'Elk gecontroleerd herbewerkingsproces draagt gedefinieerde parameters, methodiek en acceptatiecriteria — dezelfde cijfers die onze operators volgen en die klanten tijdens audits kunnen verifiëren.'
+  headers:
+    process: Herbewerkingsproces
+    parameters: Gecontroleerde parameters
+    methodology: Testmethodiek
+    acceptance: Acceptatiecriteria
+  rows:
+    - process: 'Reparatie van speldenprikgaatjes/micro-lekken'
+      parameters: 'Reinigen met oplosmiddel & drogen 3–5 min; hetelucht-activatie 60°C ± 5°C; drukrol ≥ 0.4 MPa'
+      methodology: 'Oppompen tot 18 PSI; volledige onderdompeling in water of zeepapplicatie; observeren gedurende 10 minuten'
+      acceptance: 'Nul bellenvorming; 180°-randafbuiging zonder loslating en zonder lijmuitloop'
+    - process: 'Opnieuw verlijmen railband/naad'
+      parameters: 'Strikt gecontroleerde verhouding van tweecomponentenlijm; omgeving 22–28°C, ≤ 65% relatieve luchtvochtigheid; klem in de mal ≥ 4 u'
+      methodology: 'Overdruktest bij 22 PSI gedurende 2 u; daarna 6 u uitharden in de oven op 50°C en 2 u rusten op kamertemperatuur'
+      acceptance: 'Nul scheiding, nul scheurvorming; netto drukverlies ΔP ≤ 0.1 PSI; lijmlaag zonder witverkleuring of verbrossing'
+    - process: 'Loskomen van de ventielbasis / micro-lek'
+      parameters: 'Specifiek aanhaalmoment van de sleutel 18–20 N·m; vlakke afdichtring zonder vervorming; bevestigde schroefdraadreiniging'
+      methodology: 'Oppompen tot 15 PSI; 20 cycli van opblazen/afblazen; observatie tijdens onderdompeling onder water'
+      acceptance: 'Nul bellen bij de ventielkern en rond de basis; aanhaalmoment na de cycli ≥ 16 N·m'
+    - process: 'Definitieve 24u-drukbehoudtest'
+      parameters: 'Referentie-oppompdruk 18.0 PSI; digitale manometer klasse 1.0 / ±0.5%; geregistreerde en gecompenseerde omgevingstemperatuur & vochtigheid'
+      methodology: 'Digitale drukrecorder; continue 24u-drukcurve'
+      acceptance: 'Netto drukverlies ΔP ≤ 0.20 PSI / 24 u na compensatie; geen uitstulping of vervorming van de plank'
+
+cc_photos:
+  tagline: In de productiehal
+  title: Reparatie, hertest, vrijgave — bij elke stap gedocumenteerd
+  subtitle: De foto''s uit onze werkplaats in Qingdao tonen elk gecontroleerd herbewerkingsproces met zijn gekalibreerde meetinstrumenten, gedefinieerde parameters en registraties ter plaatse — dezelfde bewijzen die inspecteurs op elk moment kunnen opvragen.
+  grid: 'sm:grid-cols-2'
+  features:
+    - image: https://assets.supsfactory.com/site/quality/cc-pinhole-repair.avif
+      alt: Technicus repareert een speldenprikgaatje-micro-lek op een opblaasbare SUP met een heteluchtpistool en drukrol
+      title: Reparatie van speldenprikgaatjes
+      desc: 'Een technicus behandelt een gemarkeerd micro-lek met een heteluchtpistool dat is ingesteld op de specificatie van 60°C en een drukrol; het zeepwater bevestigt de positie van het lek en het door QC ondertekende ECR-formulier op het werkblad toont de wijzigingsbeheerpoort (Poka-Yoke nr. 1).'
+    - image: https://assets.supsfactory.com/site/quality/cc-rail-seam-bonding.avif
+      alt: Technicus brengt tweecomponenten PU-lijm met een precisiekwast aan op een railnaad onder gecontroleerd klimaat
+      title: Verlijming van de railnaad
+      desc: 'De tweecomponenten PU-lijm wordt met een precisiekwast op de railnaad aangebracht terwijl de plank in een malklem wordt gehouden; de thermometer/hygrometer ter plaatse toont het gecontroleerde venster van 24°C / 55% relatieve luchtvochtigheid.'
+    - image: https://assets.supsfactory.com/site/quality/cc-valve-base-integrity.avif
+      alt: Digitale momentsleutel ingesteld op 19 N·m die de ventielkern tegen het drop-stitch materiaal vastzet
+      title: Integriteit van de ventielbasis
+      desc: 'Een digitale momentsleutel, ingesteld op de specificatie van 19 N·m, voert het definitieve aandraaien van de ventielkern uit en verzegelt de basis tegen het drop-stitch materiaal — het instrument draagt het groene CALIBRATED-etiket.'
+    - image: https://assets.supsfactory.com/site/quality/cc-pressure-hold-testing.avif
+      alt: Afgewerkte opblaasbare SUP''s aangesloten op digitale drukrecorders in het definitieve drukbehoudtestgebied
+      title: Definitieve drukbehoudverificatie
+      desc: 'De afgewerkte planken worden aangesloten op digitale hogeprecisie-drukrecorders; de master-manometer toont de referentie van 18.00 PSI en alle testgegevens worden automatisch geüpload en gekoppeld aan het contracttraceerbaarheidssysteem.'
+
+cc_pokayoke:
+  tagline: Foutpreventie
+  title: 'Poka-Yoke: harde blokkeringen die ongecontroleerde wijzigingen stoppen'
+  subtitle: De standaard wordt niet alleen via procedures toegepast, maar met fysieke en systemische blokkeringen die ongecontroleerde wijzigingen onmogelijk maken.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: ECR-poort voor de activering van het gereedschap
+      desc: 'De herbewerkingsstations lezen een door QA ondertekende ECR-streepjescode vóórdat de pneumatische oppompventielen en de lijmmengers worden geactiveerd. Geen bewijs van een goedgekeurd wijzigingsbeheer, geen stroom — de handtekening met terugwerkende kracht ("eerst wijzigen, dan tekenen") wordt fysiek geblokkeerd.'
+    - icon: 2
+      icon_bg: green
+      title: Automatische vervaldatum van tijdelijke afwijkingen
+      desc: 'Tijdelijke afwijkingen zijn hard-coded als plafond in het systeem (bijv. maximaal 50 planken of 7 kalenderdagen). Het bereiken van het plafond blokkeert de partij en blokkeert het afdrukken van de doorgangstag van de verzending totdat de wijziging formeel is beoordeeld.'
+    - icon: 3
+      icon_bg: purple
+      title: Minimumbewijs van validatie
+      desc: 'Hoog-risicowijzigingen vereisen minimaal 5 representatieve voorbeeldplanken die de bovenste en onderste tolerantielimiet bestrijken, volledig getest door 2 onafhankelijke QC-inspecteurs vóórdat een validatierapport mag worden uitgebracht — een gerepareerde plank wordt nooit behandeld als procesvalidatie.'
+    - icon: 4
+      icon_bg: orange
+      title: 1-in-1-out documentcontrole
+      desc: 'De verouderde werkstationkaarten worden fysiek ingetrokken en ongeldig gemaakt (geperforeerd) vóórdat de nieuwe kaart wordt uitgebracht, gestempeld met het gecontroleerde rode zegel — oude en nieuwe versies delen nooit een werkstation.'
+
+cc_downloads:
+  tagline: Downloadbare QMS-documenten
+  title: Gecontroleerde tweetalige documenten (PDF)
+  subtitle: Officiële tweetalige EN/ZH-documenten van QINGDAO VATRAD GROUP.,LTD. — klaar voor klantaudits, technische B2B-white papers en gecontroleerde distributie op de productieplanning.
+  features:
+    - icon: S
+      icon_bg: blue
+      title: SOP wijzigingsbeheer van herbewerking (PDF)
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: wijzigingsclassificatietabel, interfunctionele autorisatiematrix, technische validatieparameters, insluitingsrode lijnen en kwaliteitshandtekeningblokken.'
+      link: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: PDF downloaden
+    - icon: A
+      icon_bg: green
+      title: Uitvoeringsbijlage A (PDF)
+      desc: 'ECR-gegevensschema, gekwantificeerde technische uitvoeringsmatrix voor de vier kernherbewerkingsprocessen, logica van de Poka-Yoke-blokkeringen en een drietraps vrijgavehandtekeningblok.'
+      link: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: PDF downloaden
+    - icon: R
+      icon_bg: purple
+      title: Governance van gecontroleerde herbewerking (pagina)
+      desc: 'Referentiepagina voor het luchtdichtheidsherbewerkingssysteem: defectclassificatie A–G, goedgekeurde methodkaarten MC-RW-01 tot en met MC-RW-06 en de gecontroleerde herbewerkingsworkflow in 7 fases.'
+      link: '/nl/factory/quality-inspection'
+      link_label: Bekijk de pagina
+    - icon: N
+      icon_bg: orange
+      title: Controle van niet-conforme producten (pagina)
+      desc: 'ISO 9001:2015 paragraaf 8.7 Controle van niet-conforme producten: NCR-registratie, quarantaine, beslissingsautoriteit op basis van ernst, gecontroleerde herbewerking onder SRI-instructies, onafhankelijke herverificatie en begeleid vernietigingsprotocol.'
+      link: '/nl/factory/non-conforming-control'
+      link_label: Bekijk de pagina
+
+faqs:
+  tagline: FAQ
+  title: Veelgestelde vragen over het wijzigingsbeheer van herbewerking
+  items:
+    - q: 'Kan de fabriek herbewerkingsparameters wijzigen zonder ons te informeren?'
+      a: 'Nee. Elke voorgestelde wijziging aan goedgekeurde herbewerkingsmaterialen, procesomstandigheden, apparatuur, testmethoden, inspectiecriteria of geautoriseerd personeel moet eerst door een gedocumenteerd wijzigingsbeheer. Wijzigingen die van invloed zijn op door de klant goedgekeurde specificaties, monsters, BOM, graphics of acceptatiecriteria vereisen de schriftelijke vrijgave van de klant.'
+    - q: 'Wat geldt als een hoog-risicowijziging?'
+      a: 'Wijzigingen aan herbewerkingsmaterialen of -leveranciers, druk-/behoud- of uithardingsomstandigheden, herbewerkingsmethoden van ventiel/rail/naden, inspectie- of acceptatiecriteria en de uitbreiding van de defectscope naar structurele zones worden geclassificeerd als hoog risico. Ze vereisen interfunctionele verificatie, een goedgekeurd validatieplan en een gecontroleerde pilootimplementatie vóór routinematig gebruik.'
+    - q: 'Kan een tijdelijke afwijking onbeperkt worden gebruikt?'
+      a: 'Nee. Elke tijdelijke afwijking draagt een gedefinieerd geldigheidsvenster, een partijscope, een hoeveelheidsplafond en validatievereisten met automatische vervaldatum. Het bereiken van het plafond blokkeert de partij en blokkeert het afdrukken van de doorgangstag totdat de wijziging formeel is beoordeeld.'
+    - q: 'Hoe toont u aan dat een gewijzigde methode werkt vóór volledig gebruik?'
+      a: 'Hoog-risicowijzigingen vereisen een validatieplan: minimaal 5 representatieve voorbeeldplanken die de tolerantielimieten bestrijken, getest door 2 onafhankelijke QC-inspecteurs tegen gekwantificeerde acceptatiecriteria (lekeliminatie, drukbehoud, ventielfunctie, naadlevensduur, uiterlijk). De vrijgave voor validatie is geen vrijgave voor toepassing.'
+    - q: 'Moeten wij elke wijziging vrijgeven?'
+      a: 'Niet elke wijziging, maar elke wijziging die het product verwijdert van het door de klant goedgekeurde monster, de technische specificatie, de BOM, de graphics, de verpakking of de acceptatiecriteria wordt alleen geïmplementeerd met de schriftelijke vrijgave van de klant. Zonder die vrijgave worden de planken herbewerkt, vervangen of afgekeurd volgens de oorspronkelijke eis.'
+    - q: 'Wat gebeurt er met oude documenten wanneer een wijziging wordt vrijgegeven?'
+      a: 'De oude werkinstructies, parameterkaarten en inspectiebladen worden fysiek ingetrokken en ongeldig gemaakt (1-in-1-out), gemarkeerd als OBSOLETE en vervangen door de nieuwe gecontroleerde revisie na de training. Oude en nieuwe versies delen nooit een werkstation.'
+    - q: 'Hoe lang worden de registraties van het wijzigingsbeheer bewaard?'
+      a: 'De sluitingsregistraties — validatiebewijzen, documentrevisies, trainingsbewijzen en effectiviteitsbewijzen — worden bewaard volgens ons bewaarbeleid (minimaal 3 jaar voor sluitingsregistraties), zodat elke wijziging traceerbaar blijft voor audits en verificaties.'
+
+cta:
+  title: Heb je wijzigingsbeheerdocumenten nodig voor jouw audit?
+  desc: 'Download de tweetalige SOP van het wijzigingsbeheer en de uitvoeringsbijlage, of vraag een geanonimiseerd voorbeeld van onze ECR-sjabloon en uw validatieplan voor jouw OEM/ODM-project aan.'
+  actions:
+    - text: Kwaliteitscontrole aanvragen
+      variant: primary
+      href: /contact
+    - text: Download de SOP wijzigingsbeheer (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Download bijlage A uitvoering (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

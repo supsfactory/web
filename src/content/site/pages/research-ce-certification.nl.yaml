@@ -1,0 +1,69 @@
+meta:
+  title: 'Hoe CE-certificering werkt voor opblaasbare SUP-planken'
+  description: 'Hoe CE-certificering werkt voor opblaasbare SUP''s, boten en kajaks: richtlijnen (2013/53/EU RCD, PBM 2016/425), testen, aangemelde instanties en technische documentatie.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Terug naar research'
+
+hero:
+  tagline: 'Conformiteit'
+  title: 'Hoe CE-certificering werkt voor opblaasbare SUP''s & kajaks'
+  subtitle: '7 min leestijd'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'Opblaasbare SUP''s vallen onder de EU-richtlijn pleziervaartuigen 2013/53/EU als hun romplengte groter is dan 2.5 m, of onder de richtlijn algemene productveiligheid als ze kleiner zijn. Voor een eerste product kost certificering circa 13,000&ndash;31,000 EUR en kost het 8&ndash;14 weken: technische documentatie, typeonderzoek bij een aangemelde instantie, fabrieksaudit en vervolgens een conformiteitsverklaring.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Wat is CE-certificering?</h2>
+  <p>De CE-markering (Conformit&eacute; Europ&eacute;enne) geeft aan dat een product voldoet aan de gezondheids-, veiligheids- en milieueisen van de EU. Voor opblaasbare boten hangt het toepasselijke regelgevingskader af van de productcategorie.</p>
+
+  <h2>Toepasselijke richtlijnen</h2>
+
+  <h3>Richtlijn pleziervaartuigen (2013/53/EU)</h3>
+  <p>De belangrijkste richtlijn voor de meeste opblaasbare boten, SUP''s en kajaks. Deze geldt voor sportvaartuigen met een romplengte van 2.5 m tot 24 m, voor gedeeltelijk gebouwde boten (voor OEM-levering) en voor watermotoren.</p>
+
+  <h3>Verordening persoonlijke beschermingsmiddelen (2016/425)</h3>
+  <p>Reddingsvesten, drijfmiddelen en veiligheidsuitrusting die bij boten worden geleverd, moeten voldoen aan de eisen van de PBM-verordening, inclusief typeonderzoek (module B) bij een aangemelde instantie en productiekwaliteitsborging (module D of E).</p>
+
+  <h2>Het certificeringsproces</h2>
+  <ol>
+    <li>Productclassificatie: bepaal de ontwerpcategorie van de boot (A – D volgens ISO 8666)</li>
+    <li>Toepasselijke normen: EN ISO 6185 (delen 1 – 4), EN ISO 10087 (HIN), EN ISO 14945 (fabrieksplaat)</li>
+    <li>Opstellen van de technische documentatie: constructietekeningen, BOM, materiaalcertificaten, risicobeoordeling</li>
+    <li>Typeonderzoek: drijfvermogen, stabiliteit, draagvermogen, materiaaltesten, naadsterkte, luchtdichtheid</li>
+    <li>Productiecontrole in de fabriek: audit van de productieprocessen door een aangemelde instantie</li>
+    <li>Conformiteitsverklaring: de fabrikant ondertekent de DoC en plaatst de CE-markering</li>
+  </ol>
+
+  <h2>Aangemelde instanties voor opblaasbare boten</h2>
+  <p>Veelvoorkomende aangemelde instanties zijn Bureau Veritas (Frankrijk), DNV GL (Duitsland), RINA (Itali&euml;), T&Uuml;V Rheinland / T&Uuml;V S&Uuml;D (Duitsland).</p>
+
+  <h2>Doorlooptijden en kosten</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Fase</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Duur</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Typische kosten (EUR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Opstellen technische documentatie</td><td class="p-3 border">2 – 4 weken</td><td class="p-3 border">2,000 – 5,000</td></tr>
+      <tr><td class="p-3 border">Typeonderzoek</td><td class="p-3 border">4 – 8 weken</td><td class="p-3 border">8,000 – 20,000</td></tr>
+      <tr><td class="p-3 border">Fabrieksaudit</td><td class="p-3 border">1 – 2 dagen (ter plaatse)</td><td class="p-3 border">3,000 – 6,000</td></tr>
+      <tr><td class="p-3 border">Totaal (eerste product)</td><td class="p-3 border">8 – 14 weken</td><td class="p-3 border">13,000 – 31,000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Wat dit betekent voor kopers</h2>
+  <p>Wanneer je CE-gecertificeerde opblaasbare planken koopt, controleer dan altijd dat de CE-markering op de fabrieksplaat staat, dat er een geldige DoC beschikbaar is, dat het nummer van de aangemelde instantie wordt vermeld en dat de gebruikershandleiding de veiligheidswaarschuwingen in jouw taal bevat. Alle Vatrad producten zijn CE-gecertificeerd met volledige traceerbaarheid naar de auditorapporten van de aangemelde instanties.</p>
+  <p>Certificering is onderdeel van elke productiecyclus in onze fabriek in Qingdao — zie de <a href="/nl/factory">fabrieksflow voor kwaliteit &amp; testen</a> en hoe wij <a href="/nl/oem-manufacturing">CE-conformiteit ondersteunen voor OEM/private label partners</a>.</p>
+
+cta:
+  title: 'Ondersteuning nodig bij CE-certificering?'
+  subtitle: 'Wij regelen de certificering voor OEM-partners over de hele wereld.'
+  button_text: 'Start het certificeringsproces'
+  button_link: /nl/contact

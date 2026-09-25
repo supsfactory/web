@@ -1,0 +1,105 @@
+meta:
+  title: 'Fabrieksaudit-checklist — Wat te controleren vóór de keuze van een SUP-producent | SUPsfactory'
+  description: 'Fabrieksaudit-checklist voor kopers van opblaasbare SUP''s: kwaliteitssysteem, capaciteit, materialentraceerbaarheid, drukproeven, sociale conformiteit en documentatie.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'sup fabriek audit checklist'
+    - 'audit producent opblaasbare paddle boards'
+    - 'sup fabriek verificatie'
+    - 'oem fabriek inspectie'
+    - 'sup kwaliteitsaudit'
+    - 'sup leverancier due diligence'
+    - 'audit productie opblaasbare sup'
+
+hero:
+  tagline: 'Due Diligence'
+  title: 'Fabrieksaudit-checklist'
+  subtitle: 'Vóórdat je een SUP-producent kiest, controleer je de fundamenten. Deze checklist bestrijkt de acht gebieden die een professionele koper zou moeten auditen — van het kwaliteitsmanagementsysteem en de productiecapaciteit tot de materialentraceerbaarheid en de sociale conformiteit. Elk punt op deze lijst is iets dat wij kunnen aantonen met registraties, niet alleen met beweringen.'
+
+answer:
+  label: 'Snel antwoord'
+  text: 'De acht belangrijkste auditgebieden: (1) Kwaliteitsmanagementsysteem — ISO 9001-certificering en echte gate-by-gate inspectieregistraties, niet alleen een certificaat aan de muur. (2) Productiecapaciteit — echte productiegegevens, niet alleen nominale capaciteit. (3) Materialentraceerbaarheid — ingangscontroles van goederen en testresultaten op lotniveau. (4) Druk- en structurele proeven — gedocumenteerde protocollen van de drukbehoudtest. (5) Las- en assemblagecontroles — RF-lasparameters en naadinspectie. (6) Sociale conformiteit — BSCI of een equivalent audit. (7) Documentatie en traceerbaarheid — lotregistraties, inspectieprotocollen, conformiteitscertificaten. (8) Ondersteuning na levering — garantieprocedures, reserveonderdelen, reactiesnelheid van de communicatie.'
+  verified: 'September 2026'
+
+audit_areas:
+  tagline: Acht auditgebieden
+  title: 'Wat te controleren — de acht auditgebieden'
+  subtitle: 'Elk gebied omvat de te stellen vragen, de op te vragen registraties en de alarmsignalen om op te letten.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: Q
+      icon_bg: blue
+      title: '1. Kwaliteitsmanagementsysteem'
+      desc: 'Opvragen: ISO 9001-certificaat (geaccrediteerde instantie, actueel), intern auditplan, CAPA-protocol (corrigerende en preventieve maatregelen), inspectieprocedures per poort. Alarmsignaal: alleen een certificaat, geen inspectieregistraties of CAPA-proces op poortniveau.'
+    - icon: C
+      icon_bg: green
+      title: '2. Productiecapaciteit'
+      desc: 'Opvragen: maandelijkse productiegegevens per producttype, productieplan met huidige bezetting, apparatuurcapaciteit (aantal matrijzen, CNC-machines, RF-lasmachines). Alarmsignaal: alleen nominale capaciteit, geen bezettingsgegevens of productieplan.'
+    - icon: M
+      icon_bg: purple
+      title: '3. Materialentraceerbaarheid'
+      desc: 'Opvragen: registraties van de ingangscontrole van goederen, leverancierscertificaten voor PVC en drop-stitch, lot-traceerbaarheid van grondstof tot afgewerkte plank, REACH/RoHS-stofverklaringen. Alarmsignaal: geen traceerbaarheid op lotniveau, materiaalcertificaten niet beschikbaar.'
+    - icon: P
+      icon_bg: orange
+      title: '4. Druk- en structurele proeven'
+      desc: 'Opvragen: drukproefprotocol (PSI, duur, geslaagd/niet-geslaagd criteria), proefprotocollen voor de huidige productieloten, registraties van structurele proeven (val, stoot, trekspanning van de rail). Alarmsignaal: "alleen visuele controle" of geen gedocumenteerd proefprotocol met kwantitatieve geslaagd/niet-geslaagd criteria.'
+    - icon: W
+      icon_bg: blue
+      title: '5. Las- en assemblagecontroles'
+      desc: 'Opvragen: registraties van de RF-lasparameters (temperatuur, druk, houdtijd), naadinspectiecriteria en afvalpercentages, documentatie van de assemblagereeks. Alarmsignaal: geen protocol van de lasparameters, hoog naadafvalpercentage zonder CAPA.'
+    - icon: S
+      icon_bg: green
+      title: '6. Sociale conformiteit'
+      desc: 'Opvragen: BSCI- of SMETA-auditrapport (actueel, volledige scope), registraties van arbeidstijden en lonen, arbeidsveiligheidsinspectierapporten, milieuhandhavingsdocumentatie. Alarmsignaal: geen sociale audit van derden of een audit met ernstige niet-afgehandelde non-conformiteiten.'
+    - icon: D
+      icon_bg: purple
+      title: '7. Documentatie en traceerbaarheid'
+      desc: 'Opvragen: productieregistraties van de loten, inspectieprotocollen per poort, conformiteitscertificaten, packing lists met lotreferenties, trackingsysteem voor garantieklachten. Alarmsignaal: geen documentatie op lotniveau, garantieklachten niet getraceerd of niet beoordeeld.'
+    - icon: A
+      icon_bg: orange
+      title: '8. Ondersteuning na levering'
+      desc: 'Opvragen: garantievoorwaarden en klachtenprocedure, gemiddelde oplostijd van klachten, beschikbaarheid van reserveonderdelen, toezegging over de reactietijd van de communicatie, proces van naverkoop-verificatie. Alarmsignaal: geen gedocumenteerde garantieprocedure, langzame of inconsistente communicatie na de levering.'
+
+our_position:
+  heading: 'Onze positie op elk auditgebied'
+  body: |
+    Wij beperken ons niet tot het verklaren van conformiteit — wij leveren de registraties. Dit is onze positie op elk van de acht auditgebieden:
+
+    - **Kwaliteitsbeheer**: ISO 9001:2015-certificaten, jaarlijks geaudit door een geaccrediteerde derde partij. Inspectiesysteem met 7 poorten met gedocumenteerde geslaagd/niet-geslaagd criteria op elke poort. CAPA-protocol dat wordt onderhouden en per kwartaal geverifieerd.
+    - **Productiecapaciteit**: meer dan 120.000 planken jaarcapaciteit, circa 10.000 maandproductie. Productieplan beschikbaar ter inzage tijdens het fabrieksbezoek. 4 geautomatiseerde productielijnen, CNC-snijden, RF-lassen en een drukproeflaboratorium.
+    - **Materialentraceerbaarheid**: lotniveau-traceerbaarheid van de ingang van goederen tot de afgewerkte plank. Leverancierscertificaten voor PVC en drop-stitch in het archief. REACH- en RoHS-stofverklaringen beschikbaar voor elk lot.
+    - **Drukproeven**: drukbehoudtest bij 18.0 PSI met automatische afkeuring bij meer dan 0.50 PSI daling in 24 uur. Proefprotocollen beschikbaar voor elk productielot. Structurele en stootproeven afhankelijk van het constructietype.
+    - **Lascontroles**: RF-lasparameters geprotocolleerd voor elke productiecyclus. Naadinspectie op poort 3 met gedocumenteerde afvalpercentages. CAPA wordt gestart wanneer het afvalpercentage wordt overschreden.
+    - **Sociale conformiteit**: onderworpen aan een BSCI-audit. Registraties van arbeidstijden, lonen en veiligheid beschikbaar ter inzage tijdens het fabrieksbezoek.
+    - **Documentatie**: productieregistraties van de loten, inspectieprotocollen per poort, conformiteitscertificaten en packing lists met lotreferenties worden met elke order meegestuurd. Trackingsysteem voor garantieklachten wordt onderhouden.
+    - **Ondersteuning na levering**: garantievoorwaarden contractueel gedocumenteerd. Gemiddelde klachtenoplossing onder de 14 werkdagen. Reserveonderdelen op voorraad. Naverkoop-verificatie aangeboden voor elke eerste order.
+
+evidence_review:
+  tagline: 'Bewijzen & verificatie'
+  title: 'GEVERIFIEERDE SPECIFICATIES'
+  body: 'Alle productie- en kwaliteitsverklaringen op deze pagina worden geverifieerd door ons Manufacturing Engineering Team in de fabriek in Laixi, Qingdao. Certificaten, QC-inspectieregistraties, druk- en structurele testrapporten en lot-traceerbaarheidsprotocollen zijn op aanvraag beschikbaar. Specificaties voor het laatst geverifieerd in september 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Fabrieksaudit — Veelgestelde vragen'
+  items:
+    - q: 'Kan ik de fabriek bezoeken voor een audit ter plaatse?'
+      a: 'Ja. Wij ontvangen fabrieksbezoeken graag en kunnen een gestructureerde audit organiseren die alle acht gebieden bestrijkt. Een typisch bezoek omvat een rondgang door het productiegebied, observatie van de QC-poorten, inspectie van het materiaalmagazijn, verificatie van de documenten en een Q&A-sessie met de kwaliteitsmanager. Plan een volledige dag in. Neem contact met ons op om te plannen.'
+    - q: 'Verstrekken jullie de auditdocumentatie vóór een bezoek?'
+      a: 'Ja. Wij kunnen vóór uw bezoek het ISO 9001-certificaat, het BSCI-rapport, de samenvatting van de productiecapaciteit, het drukproefprotocol en voorbeeld-inspectieregistraties delen — zodat u gerichte vragen kunt voorbereiden. De volledige lotregistraties zijn ter plaatse beschikbaar tijdens het bezoek.'
+    - q: 'Welke inspecties van derden gebruiken jullie?'
+      a: 'Wij werken samen met SGS, Intertek en TÜV voor inspecties en certificeringen van derden. Een verzendingsinspectie door een derde partij is op aanvraag voor elke order beschikbaar. De scope van de inspectie en de kosten worden tijdens de offertefase bevestigd.'
+    - q: 'Hoe weet ik dat uw kwaliteitssysteem werkelijk wordt toegepast en niet alleen gedocumenteerd?'
+      a: 'Elke plank doorloopt 7 inspectiepoorten met kwantitatieve geslaagd/niet-geslaagd criteria — niet alleen visuele checklists. De drukproefgegevens, lasparameters en afvalpercentages worden voor elk lot geprotocolleerd en staan tot uw beschikking voor verificatie. CAPA wordt automatisch geactiveerd voor resultaten buiten de specificatie. Wij moedigen u aan het proces live te auditen tijdens een fabrieksbezoek.'
+
+cta:
+  title: 'Plan een fabrieksaudit'
+  subtitle: 'Vraag de auditdocumentatie aan of plan een bezoek ter plaatse. Wij leveren de registraties — u verifieert het proces.'
+  actions:
+    - variant: primary
+      text: Vraag de auditdocumentatie aan
+      href: /contact#project-brief
+    - text: Verifieer certificeringen en kwaliteitssysteem
+      href: /proof-center
+    - text: OEM-onboardingproces
+      href: /oem-onboarding-guide

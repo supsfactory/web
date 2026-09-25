@@ -1,0 +1,82 @@
+meta:
+  title: 'SUP-verhuuruitrusting & vlootoplossingen'
+  description: 'Commerciële SUP-boards voor dagelijks verhuurgebruik: UV-bestendig PVC, versterkte naden en snel drogende materialen voor vloten met een hoge rotatiefrequentie.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Verhuuroperators
+  title: 'SUP-boards ontworpen voor verhuurvloten'
+  subtitle: 'Specificeer een vloot die het dagelijkse verhuurgebruik aankan: boards met een hoge rotatiefrequentie, UV-bestendig PVC, versterkte naden en snel drogende materialen — ontworpen voor 365 dagen gebruik per jaar.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/use-cases/supsfactory-family-use-case.webp
+    alt: SUP-boards klaar voor dagelijks verhuurgebruik
+
+answer:
+  label: 'Kort antwoord'
+  text: 'De boards voor verhuurvloten zijn gebouwd met UV-bestendig marien PVC, met naden die 3× sterker zijn dan standaardconstructies en drop-stitch kernen voor 15 PSI — getest voor meer dan 500 verhuurcycli. De MOQ wordt bevestigd door de projectconfiguratie: monsters (1–2 eenheden), pilot (20–50 eenheden) en standaardvolume (90–100+ eenheden per partij uit een rol van 150 m); de productie kost 25–35 dagen na PO en aanbetaling, met FOB-, CIF- of DDP-voorwaarden.'
+  verified: 'September 2026'
+
+features:
+  title: Gebouwd voor het dagelijkse verhuurleven
+  subtitle: 'Elke board is ontworpen voor meer dan 500 verhuurcycli met minimaal onderhoud.'
+  items:
+    - title: 'Meer dan 500 verhuurcycli'
+      description: 'Getest om dagelijks gebruik in zout water, zon en zand te doorstaan.'
+      icon: 'tabler:shield-check'
+    - title: 'UV-bestendige stof'
+      description: 'Geen verkleuring of aantasting na 1 jaar buitenopslag.'
+      icon: 'tabler:sun'
+    - title: 'Versterkte naden'
+      description: 'Versterkte naadconstructie voor de dagelijkse verhuurrotatie en de herhaalde oppompcycli.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Snel drogende materialen'
+      description: 'De snel drogende materialen houden de boards tussen twee ritten door gebruiksklaar.'
+      icon: 'tabler:droplet'
+    - title: 'Stapelbare opslag'
+      description: 'Ruimtebesparend stapelbaar design — meer boards in hetzelfde opslaggebied.'
+      icon: 'tabler:stack'
+    - title: 'Maatvoeringen met kleurcode'
+      description: 'Het personeel pakt dankzij de maatvoeringen met kleurcode meteen het juiste board.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: Operationele indicatoren
+  stats:
+    - title: Vloeroppervlak van de fabriek
+      amount: '12.500 m²'
+    - title: Drukproef
+      amount: '18 PSI / 24h'
+    - title: Montagechecklist
+      amount: '100 punten'
+    - title: Verzending van onderdelen
+      amount: '48h'
+
+fleet_guide:
+  title: Gids voor vlootomvang
+  subtitle: 'Schat hoeveel boards jouw operator nodig heeft op basis van de dagelijkse verhuurrotatie.'
+  tiers:
+    - label: Kleine kiosk
+      boards: '15-20'
+      note: 'Tot 2–3 boardrotaties per dag in het hoogseizoen'
+    - label: Middelgrote operator
+      boards: '30-50'
+      note: 'Meerdere opstappunten of veel aanloop in het weekend'
+    - label: Grote strandverhuur
+      boards: '50-100'
+      note: 'Full-service verhuurvloten op meerdere strandlocaties'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Verdiep je:</strong> verhuurboards starten vanuit jouw specificatie — ontdek ons <a href="/nl/oem-manufacturing">OEM/ODM-programma</a> voor personalisatie, lage test-MOQ's en vlootprijzen. Elke board doorloopt de 12.500 m&sup2; van de <a href="/nl/factory">productielijn</a> en ondergaat vóór verzending een 100 % drukproef.</p>
+  </div>
+
+cta:
+  title: 'Specificeer je verhuurvloot'
+  subtitle: 'Stuur de vereisten voor je vloot in of vergelijk de boardplatforms voor jouw operator.'
+  actions:
+    - text: 'Stuur de vlootvereisten in'
+      href: '/nl/contact'
+      variant: 'primary'
+    - text: 'Vergelijk de boardplatforms'
+      href: '/nl/inflatable-vs-hardboard'
+      variant: 'secondary'

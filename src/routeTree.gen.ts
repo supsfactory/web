@@ -23,6 +23,7 @@ import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as SitemapPtDotxmlRouteImport } from './routes/sitemap-pt[.]xml'
 import { Route as SitemapProductsDotxmlRouteImport } from './routes/sitemap-products[.]xml'
 import { Route as SitemapPagesDotxmlRouteImport } from './routes/sitemap-pages[.]xml'
+import { Route as SitemapNlDotxmlRouteImport } from './routes/sitemap-nl[.]xml'
 import { Route as SitemapNewsDotxmlRouteImport } from './routes/sitemap-news[.]xml'
 import { Route as SitemapItDotxmlRouteImport } from './routes/sitemap-it[.]xml'
 import { Route as SitemapFrDotxmlRouteImport } from './routes/sitemap-fr[.]xml'
@@ -200,6 +201,11 @@ const SitemapProductsDotxmlRoute = SitemapProductsDotxmlRouteImport.update({
 const SitemapPagesDotxmlRoute = SitemapPagesDotxmlRouteImport.update({
   id: '/sitemap-pages.xml',
   path: '/sitemap-pages.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapNlDotxmlRoute = SitemapNlDotxmlRouteImport.update({
+  id: '/sitemap-nl.xml',
+  path: '/sitemap-nl.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapNewsDotxmlRoute = SitemapNewsDotxmlRouteImport.update({
@@ -799,6 +805,7 @@ export interface FileRoutesByFullPath {
   '/sitemap-fr.xml': typeof SitemapFrDotxmlRoute
   '/sitemap-it.xml': typeof SitemapItDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
+  '/sitemap-nl.xml': typeof SitemapNlDotxmlRoute
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap-pt.xml': typeof SitemapPtDotxmlRoute
@@ -909,6 +916,7 @@ export interface FileRoutesByTo {
   '/sitemap-fr.xml': typeof SitemapFrDotxmlRoute
   '/sitemap-it.xml': typeof SitemapItDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
+  '/sitemap-nl.xml': typeof SitemapNlDotxmlRoute
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap-pt.xml': typeof SitemapPtDotxmlRoute
@@ -1019,6 +1027,7 @@ export interface FileRoutesById {
   '/sitemap-fr.xml': typeof SitemapFrDotxmlRoute
   '/sitemap-it.xml': typeof SitemapItDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
+  '/sitemap-nl.xml': typeof SitemapNlDotxmlRoute
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap-pt.xml': typeof SitemapPtDotxmlRoute
@@ -1132,6 +1141,7 @@ export interface FileRouteTypes {
     | '/sitemap-fr.xml'
     | '/sitemap-it.xml'
     | '/sitemap-news.xml'
+    | '/sitemap-nl.xml'
     | '/sitemap-pages.xml'
     | '/sitemap-products.xml'
     | '/sitemap-pt.xml'
@@ -1242,6 +1252,7 @@ export interface FileRouteTypes {
     | '/sitemap-fr.xml'
     | '/sitemap-it.xml'
     | '/sitemap-news.xml'
+    | '/sitemap-nl.xml'
     | '/sitemap-pages.xml'
     | '/sitemap-products.xml'
     | '/sitemap-pt.xml'
@@ -1351,6 +1362,7 @@ export interface FileRouteTypes {
     | '/sitemap-fr.xml'
     | '/sitemap-it.xml'
     | '/sitemap-news.xml'
+    | '/sitemap-nl.xml'
     | '/sitemap-pages.xml'
     | '/sitemap-products.xml'
     | '/sitemap-pt.xml'
@@ -1463,6 +1475,7 @@ export interface RootRouteChildren {
   SitemapFrDotxmlRoute: typeof SitemapFrDotxmlRoute
   SitemapItDotxmlRoute: typeof SitemapItDotxmlRoute
   SitemapNewsDotxmlRoute: typeof SitemapNewsDotxmlRoute
+  SitemapNlDotxmlRoute: typeof SitemapNlDotxmlRoute
   SitemapPagesDotxmlRoute: typeof SitemapPagesDotxmlRoute
   SitemapProductsDotxmlRoute: typeof SitemapProductsDotxmlRoute
   SitemapPtDotxmlRoute: typeof SitemapPtDotxmlRoute
@@ -1588,6 +1601,13 @@ declare module '@tanstack/react-router' {
       path: '/sitemap-pages.xml'
       fullPath: '/sitemap-pages.xml'
       preLoaderRoute: typeof SitemapPagesDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-nl.xml': {
+      id: '/sitemap-nl.xml'
+      path: '/sitemap-nl.xml'
+      fullPath: '/sitemap-nl.xml'
+      preLoaderRoute: typeof SitemapNlDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap-news.xml': {
@@ -2452,6 +2472,7 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapFrDotxmlRoute: SitemapFrDotxmlRoute,
   SitemapItDotxmlRoute: SitemapItDotxmlRoute,
   SitemapNewsDotxmlRoute: SitemapNewsDotxmlRoute,
+  SitemapNlDotxmlRoute: SitemapNlDotxmlRoute,
   SitemapPagesDotxmlRoute: SitemapPagesDotxmlRoute,
   SitemapProductsDotxmlRoute: SitemapProductsDotxmlRoute,
   SitemapPtDotxmlRoute: SitemapPtDotxmlRoute,

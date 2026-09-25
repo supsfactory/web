@@ -1,0 +1,94 @@
+meta:
+  title: 'Constructie van de SUP-romp — CAD- & FEA-boarddesign'
+  description: 'Boardconstructiestudio voor SUP: CAD-boarddesign, eindige-elementenanalyse (FEA) van drop-stitch structuren en aangepaste rompvormen voor OEM-projecten.'
+back_text: 'Terug naar het R&D-centrum'
+home_label: 'Home'
+
+hero:
+  tagline: 'Laboratorium 02'
+  title: 'Boardconstructiestudio'
+  subtitle: 'Digitale simulatie, structurele intelligentie, gepersonaliseerd boarddesign'
+  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion.webp'
+  image_alt: 'CAD-werkplek voor SUP-boardconstructie bij Vatrad'
+
+answer:
+  label: 'Eenduidig antwoord'
+  text: 'Gepersonaliseerde SUP-boards worden intern ontworpen met 3D-oppervlaktemodellering in SolidWorks, ANSYS-FEA en CFD — elk board wordt vóór de prototypeproductie gesimuleerd op spanningsverdeling en deckstijfheid, met een bindende veiligheidsfactor ≥ 2,5. Een aangepaste vorm vereist 7–12 dagen tot het prototype; de volledige toolingproductie voor een aangepaste vorm verlengt de productie-lead time van 25–35 dagen met nog eens 15–20 dagen, met de MOQ bevestigd door de projectconfiguratie (zie onze MOQ-gids).'
+  verified: 'September 2026'
+
+intro: 'De rompvorm van een SUP-board — de rocker, het railprofiel, het volume van boeg en achtersteven — bepaalt hoe het peddelt, draait en recht blijft. Onze boardconstructiestudio bij {SITE.name} combineert CAD-oppervlaktemodellering, eindige-elementenanalyse (FEA) van drop-stitch structuren en productie-ervaring om boards te leveren die zijn geoptimaliseerd voor hun doel: allround stabiliteit, touring-glijvlucht of surfprestaties. Elk gepersonaliseerd board begint bij jouw specificatie, niet bij een generieke catalogusvorm.'
+
+content_html: |
+  <h2>Waar weerstand en hydrodynamica elkaar ontmoeten</h2>
+  <p>Een opblaasbaar SUP-board is een drop-stitch structuur: duizenden polyesterdraden verbinden de boven- en onderhuid van PVC en houden het deck vlak op 12–15 PSI, terwijl de geometrie van rail en boeg het gedrag van het board in het water bepaalt. Wij ontwerpen de 3D-vorm, simuleren de opgeblazen structuur en valideren het resultaat intern, voordat er ook maar één monster wordt gesneden.</p>
+
+  <h2>Constructietools en standaarden</h2>
+  <p>Onze digitale constructieomgeving omvat:</p>
+  <table>
+    <thead><tr><th>Capaciteit</th><th>Software / tool</th><th>Toepassing</th></tr></thead>
+    <tbody>
+      <tr><td>Parametrische 3D-modellering</td><td>SolidWorks Professional</td><td>Boardoppervlak, rockerlijn, railprofiel, integratie van handvat &amp; vinnen</td></tr>
+      <tr><td>Eindige-elementenanalyse</td><td>ANSYS Mechanical</td><td>Spanningsverdeling van de drop-stitch kern, deckstijfheid onder belasting, versterking van het handvatpunt</td></tr>
+      <tr><td>Computational Fluid Dynamics</td><td>Ansys Fluent</td><td>Voorspelling van de hydrodynamische weerstand, optimalisatie van de planerings-assetto</td></tr>
+      <tr><td>Lamineringstechniek</td><td>ESAComp</td><td>PVC-laag, selectie van het stofgewicht, gewichtsraming</td></tr>
+      <tr><td>Review van tooling-oppervlakken</td><td>Moldex3D</td><td>Verificatie van de geometrie van het las-tooling voor RF-lassen</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Onze constructieworkflow</h2>
+  <p>Elk boarddesign — of het nu een standaardmodel of een volledig gepersonaliseerd project is — volgt een streng vijfstappenproces:</p>
+  <ol>
+    <li><strong>Verzamelen van concept &amp; vereisten</strong> — We bepalen het gewichtsbereik van de paddlers, het gebruiksdoel (allround, touring, surf, yoga, verhuurvloot), de doelstellingen voor lengte, breedte en dikte en de speciale kenmerken (opslagsystemen, deck pad, bevestigingspunten).</li>
+    <li><strong>3D-oppervlaktemodellering &amp; volumeberekening</strong> — De boardvorm wordt in SolidWorks gemodelleerd en gecontroleerd op volumeverdeling, waterverplaatsing en stabiliteit ten opzichte van het doelgewicht van de paddler.</li>
+    <li><strong>Structurele FEA</strong> — Het opgeblazen board wordt geanalyseerd onder staande belasting, zowel statisch (paddler in het midden, 100 kg) als dynamisch (golfimpact op de rail). De spanningscontouren worden gecontroleerd; een veiligheidsfactor ≥ 2,5 is bindend.</li>
+    <li><strong>CFD-weerstandsoptimalisatie</strong> — De romp wordt gesimuleerd bij drie belastingstoestanden en vijf snelheden. Nat oppervlak, assetto-hoek en restweerstand worden iteratief verminderd.</li>
+    <li><strong>Design review &amp; vrijgave</strong> — Het volledige ingenieursdossier (3D-model, FEA-rapport, CFD-rapport, gewichtsraming, paneelindelingsplan) wordt door onze senior engineer beoordeeld vóór de vrijgave aan de prototypewerkplaats.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">FEA-resultaten — allround board 11''0 (32'' breed, 6'' dik)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2,8 : 1</span>
+        <span class="text-gray-500">Veiligheidsfactor bij 120 kg staande belasting</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Deck-doorbuiging op 15 PSI, zonder belasting</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3,2 mm</span>
+        <span class="text-gray-500">Maximale deck-doorbuiging onder een paddler van 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Analysedruk — bedrijfsdruk van het platform</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Personalisatie: jouw board, jouw regels</h2>
+  <p>Er zijn geen twee merken met identieke vereisten. Een verhuurvloot heeft een breed, stabiel allround board met versterkte rails nodig; een touringmerk heeft een langere overlangsromp met vrachtbevestigingen nodig; een op surf gerichte lijn heeft een compacte achtersteven en een rockerprofiel nodig. Wij dwingen jouw productlijn niet in kant-en-klare vormen — wij bouwen vanuit jouw specificatie.</p>
+  <p>Voorbeelden van recente projecten voor gepersonaliseerde boardconstructies:</p>
+  <ul>
+    <li>Een 14'' touring SUP voor een endurance-paddlingmerk, met overlangsromp en verzonken cargo deck (+15% waterlijnlengte voor een betere glijvlucht).</li>
+    <li>Een breed allround board van 10''6 voor een resortvloot, met dubbellaagse zijrails en een nominale capaciteit van 220 lb.</li>
+    <li>Een surf SUP van 9'' met compacte achtersteven en progressieve rocker, ontwikkeld voor een eigen surfschool-lijn.</li>
+  </ul>
+
+  <h2>Onze ingenieurs</h2>
+  <p>De studio wordt geleid door een senior product engineer met 14 jaar ervaring in het design van opblaasbare producten, ondersteund door twee werktuigbouwkundigen die gespecialiseerd zijn in FEA en CFD. Alledrie hebben geavanceerde ingenieursdiploma''s van internationaal erkende universiteiten, en het team werkt direct samen met onze productiehal om te garanderen dat elk design schaalbaar produceerbaar is op containerniveau.</p>
+
+  <h2>Ontwerp je volgende board samen met ons</h2>
+  <p>Van de eerste conceptschets tot het uiteindelijke spanningsrapport is onze boardconstructiestudio jouw partner bij de ontwikkeling van een board dat niet alleen wordt gebouwd, maar is ontworpen. Wij investeren vooraf in simulatietijd, zodat elke las, elke laminaatlaag en elke railcurve een doel heeft.</p>
+  <p>Of je nu een kleine wijziging aan een bestaand model of een volledig herontwerp nodig hebt — we zijn klaar om jouw vereisten te bespreken.</p>
+
+cta:
+  title: 'Start jouw boarddesign-consult'
+  subtitle: 'Vertel ons over jullie doelgroep-paddlers en het gebruiksdoel, en wij stellen een engineeringtraject voor.'
+  actions:
+    - variant: primary
+      text: Neem contact op met ons ingenieursteam
+      href: /contact#project-brief
+    - text: Terug naar het R&D-centrum
+      href: /randdcenter

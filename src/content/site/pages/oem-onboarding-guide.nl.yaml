@@ -1,0 +1,127 @@
+meta:
+  title: 'OEM-onboardinggids — stap voor stap van eerste contact tot productie | SUPsfactory'
+  description: 'OEM-onboardinggids: NDA, haalbaarheidscheck, sampleproductie, goedkeuring, pre-productieplanning, productie-QC en verzending. Stap voor stap met doorlooptijden.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM-onboardinggids'
+    - 'SUP-productieproces'
+    - 'onboarding OEM-koper'
+    - 'SUP-fabrieksproces'
+    - 'fasen van aangepaste SUP-bestellingen'
+    - 'OEM-sampleproces'
+    - 'SUP-productietijden'
+
+hero:
+  tagline: 'Onboarding OEM-koper'
+  title: 'Je eerste SUP-bestelling, stap voor stap'
+  subtitle: 'Van eerste contact tot geleverde planken — het OEM-onboardingproces bij SUPsfactory loopt via zeven gedefinieerde poorten, elk met een duidelijke doorlooptijd, een gedocumenteerd resultaat en een go/no-go-controlepunt. Geen vaagheid, geen verborgen stappen, geen verrassingen na de aanbetaling.'
+  actions:
+    - variant: primary
+      text: Start de briefing van je project
+      href: /nl/contact#project-brief
+    - text: Vergelijk OEM-, ODM- en Private Label-trajecten
+      href: /nl/oem-odm-private-label-comparison
+
+answer:
+  label: 'Kort antwoord'
+  text: 'Een typische OEM-onboarding duurt 2–4 weken voor de samplegoedkeuring en 6–8 weken voor de eerste productiecyclus vanaf de orderbevestiging. Je begint met een projectbriefing (plankspecificaties, hoeveelheid, conformiteitsvereisten). We reageren binnen één werkdag, bieden een NDA aan vóór de uitwisseling van eigendomsgegevens en produceren 1–2 fysieke samples in 7–12 dagen voor jouw beoordeling en goedkeuring. Zodra het sample bevroren is, volgen de productieplanning en de productie met vaste QC-poorten in elke fase. Elke stap is gedocumenteerd en traceerbaar.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: De zeven poorten
+  title: 'Onboardingtraject — zeven poorten van briefing tot levering'
+  subtitle: 'Elke poort heeft een gedefinieerde input, een gedefinieerde output en een vooraf afgesproken doorlooptijd. Je passeert geen enkele poort zonder expliciete goedkeuring.'
+  steps:
+    - step: 'Poort 1'
+      title: 'Eerste aanvraag & NDA (dag 0)'
+      desc: 'Stuur via /contact een projectbriefing met je doelplankspecificaties, de bestelhoeveelheid, de conformiteitsvereisten en het schema. Een NDA is onmiddellijk beschikbaar — vóór het delen van eigendoms-technische specificaties of artwork. Reactie binnen één werkdag.'
+    - step: 'Poort 2'
+      title: 'Haalbaarheidscheck & offerte (dag 1–5)'
+      desc: 'De engineering controleert jouw briefing op productiecapaciteit, materiaalbeschikbaarheid en conformiteitsbereik. Je ontvangt een post-voor-post offerte met MOQ-berekening, samplekosten (verrekend met de productie) en een specificatie van doorlooptijden — geen ruwe intervallen, maar een poort-voor-poort planning.'
+    - step: 'Poort 3'
+      title: 'Sampleproductie (dag 6–17)'
+      desc: '1–2 fysieke planken volgens jouw specificatie: rompstijfheid, hechting van het antislip EVA-deckpad, grafische getrouwheid, pasvorm van de accessoires. Jij test en beoordeelt de plank voordat je je op iets definitiefs vastlegt. De samplekosten worden bij ondertekening van het contract verrekend met de productiebestelling.'
+    - step: 'Poort 4'
+      title: 'Samplereview & goedkeuring (dag 18–21)'
+      desc: 'Je beoordeelt het sample tegen jouw specificatie — vaargevoel, grafische getrouwheid, verpakking, accessoires. Wijzigingen worden verwerkt in een herziene BOM en een artworkgoedkeuring. De bevroren specificatie wordt het productiereferentie voor alle volgende cycli.'
+    - step: 'Poort 5'
+      title: 'Pre-productieplanning (dag 22–28)'
+      desc: 'Materiaalinkoop, instellen van de matrijzen, bevestiging van de verpakking en reservering van het productieslot. Alle materialen worden bij binnenkomst gecontroleerd tegen de bevroren BOM. Vóór de start van de productie wordt een productieplan met de data van de QC-poorten uitgebracht.'
+    - step: 'Poort 6'
+      title: 'Productie & QC-poorten (dag 29–55)'
+      desc: 'De productie doorloopt het systeem van 7 inspectiepoorten: binnenkomende controle, controle van het drop-stitch weefsel, lassen & assemblage, druk- en dichtheidstest (24 uur standhouden op 18,0 PSI, automatische afkeur boven 0,50 PSI), montage van EVA-deckpad & accessoires, grafische & branding-QC, eindverpakking & documentatie. Elke poort heeft geslaagd/niet-geslaagd-criteria en traceerbaarheidsprotocollen.'
+    - step: 'Poort 7'
+      title: 'Verzending & evaluatie na levering (dag 56–63)'
+      desc: 'Exportklare verpakking, conformiteitsdocumentatie (CE, ISO 9001, BSCI, REACH, RoHS) en coördinatie van de zeevracht naar meer dan 50 landen. Een evaluatie na levering vangt de leerpunten en verbeteringen op voor de volgende ordercyclus.'
+
+collaboration_modes:
+  tagline: 'Kies jouw weg'
+  title: 'Drie samenwerkingsvormen, één onboardingproces'
+  subtitle: 'Elke nieuwe koper doorloopt dezelfde onboarding met zeven poorten — wat verschilt is de omvang van de engineeringbetrokkenheid en waar het eigendom van het IP ligt.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM-productie'
+      desc: 'Jij levert de volledige ontwerpspecificatie — rompvorm, constructie, graphics, accessoires. Wij produceren volgens jouw specificatie. Jij bezit alle IP. Ideaal voor merken met een bestaande productlijn en een beproefde plankgeometrie.'
+      link_label: 'Hoe werkt OEM'
+      href: /nl/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM-ontwikkeling'
+      desc: 'Jij levert de briefing — doelgewicht van de gebruiker, beoogd gebruik, prijsklasse — en ons technisch team ontwikkelt de plank vanuit jouw behoeften. Aangepast platform met jouw branding. Ideaal voor merken zonder interne ontwerpcapaciteit die de markt betreden.'
+      link_label: 'Hoe werkt ODM'
+      href: /nl/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Zet jouw merk op een in de praktijk bewezen platform — geen ontwerpfase nodig. Jouw logo op neus of zijrails vanaf slechts 5–10 stuks. Ideaal voor operators en distributeurs die ge-branded planken willen zonder ontwikkelcyclus.'
+      link_label: 'Private Label-opties'
+      href: /nl/solutions/private-label-sup
+
+checklist:
+  heading: 'Wat je moet voorbereiden vóór de briefing van je project'
+  body: |
+    Hoe completer je briefing, hoe sneller en nauwkeuriger de offerte. Zo bereid je je voor:
+
+    - **Plankspecificaties** — doellengte, breedte en dikte, gewichtsbereik van de gebruiker en beoogd gebruik (touring, allround, surf, vissen, yoga enz.). Heb je referentieafmetingen of een model van een concurrent, voeg die dan toe.
+    - **Ontwerpbestanden** — vector-artwork (AI, SVG of PDF) voor de plankgraphics, het logo van het EVA-deckpad en de secundaire branding. Is de artwork nog niet klaar, dan volstaan voor de eerste haalbaarheid een moodboard of referentieafbeeldingen.
+    - **Hoeveelheid & planning** — je doelhoeveelheid voor de eerste bestelling en het seizoenstijdschema dat je moet halen. Ook een ruw bereik (bijv. "20–50 planken tegen maart") helpt om de haalbaarheid en de beschikbaarheid van slots te bevestigen.
+    - **Conformiteitsvereisten** — doelmarkten (EU, Noord-Amerika, Australië enz.) en eventuele certificerings- of testvereisten boven onze standaard (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **Budget** — een indicatief budget per plank of een doelwaarde kost op locatie helpt ons het juiste platform en bouwniveau te adviseren. De exacte prijs wordt pas na de technische controle bevestigd — nooit eerder.
+
+    Heb je nog niet alles, stuur dan wat je hebt. Wij begeleiden de rest.
+
+evidence_review:
+  tagline: 'Bewijs & verificatie'
+  title: 'GECONTROLEERDE SPECIFICATIES'
+  body: 'Alle productieclaims op deze pagina zijn geverifieerd door ons Manufacturing Engineering-team in de fabriek in Laixi, Qingdao. Certificaten, QC-inspectieprotocollen, druk- en structuurtests en partijtraceerbaarheidsregisters zijn op aanvraag beschikbaar. Specificaties voor het laatst geverifieerd: september 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'OEM-onboarding — veelgestelde vragen'
+  items:
+    - q: 'Hoe lang duurt het hele onboardingproces?'
+      a: 'De samplegoedkeuring duurt doorgaans 2–4 weken (inclusief de sampleproductie in 7–12 dagen en jouw reviewfase). De eerste productiecyclus duurt 6–8 weken vanaf de bevestigde bestelling en de aanbetaling. Een nieuwe rompmatrijs voegt 15–20 dagen matrijzenbouw toe. Elke poort heeft een vooraf afgesproken doorlooptijd.'
+    - q: 'Moet ik een NDA ondertekenen voordat ik mijn ontwerp deel?'
+      a: 'Een NDA is direct op aanvraag beschikbaar — vóór het delen van eigendoms-technische specificaties of artwork. We produceren uitsluitend onder de merken van onze klanten en concurreren met hen in geen enkele markt. Hetzelfde beleid geldt voor een enkel sample als voor een containerprogramma.'
+    - q: 'Wat is de minimum bestelhoeveelheid voor een eerste OEM-cyclus?'
+      a: 'De instap is getrapt: eerst 1–2 samples (beschikbaar in 7–12 dagen), daarna een proef- of pilotorder van 20–50 planken (productie in 25–35 dagen), vervolgens standaardhoeveelheden van 90–100+ planken per goedgekeurde configuratie. Co-branding in kleine partijen start vanaf 5–10 stuks als er geen ontwikkelfase nodig is. De samplekosten worden verrekend met de productiebestelling.'
+    - q: 'Hoe wordt de IP-bescherming tijdens de onboarding geregeld?'
+      a: 'Je ontwerpen en specificaties worden beschermd door de NDA die vóór de uitwisseling van eigendomsinformatie is ondertekend. Alle artwork, BOM-gegevens en technische bestanden worden bewaard in systemen met toegangscontrole en audittrail. In de OEM-modus bezit je alle IP. In de ODM-modus is het IP van het aangepaste platform gedeeld zoals overeengekomen. In de Private Label-modus is het IP van SUPsfactory en verkrijg je een licentie voor de merkbepaling.'
+    - q: 'Welke kwaliteitsgaranties gelden voor een eerste bestelling?'
+      a: 'Elke plank — sample, proef- of volumehoeveelheid — doorloopt hetzelfde systeem van 7 inspectiepoorten: binnenkomende controle, controle van het drop-stitch weefsel, lassen & assemblage, druk- en dichtheidstest van 24 uur (18,0 PSI standhouden, automatische afkeur boven 0,50 PSI), montage van EVA-deckpad & accessoires, grafische & branding-QC, eindverpakking & documentatie. De kwaliteit wordt nooit verlaagd voor kleinere bestellingen.'
+    - q: 'Wat is de eerste praktische stap?'
+      a: 'Vul /nl/contact#project-brief in met de planspecificaties, de doelhoeveelheid en de planning. We reageren binnen één werkdag met de haalbaarheidscheck en een post-voor-post offerte. Al het andere in het proces is poort-voor-poort gedocumenteerd, van de NDA tot de levering.'
+
+cta:
+  title: 'Klaar om je SUP-project te starten?'
+  subtitle: 'Stuur ons de specificaties van je plank, de doelhoeveelheid en de planning. We bevestigen de haalbaarheid, produceren samples en leveren een productieplan — poort voor poort, met gedocumenteerde QC in elke fase.'
+  actions:
+    - variant: primary
+      text: Start de briefing van je project
+      href: /nl/contact#project-brief
+    - text: Vergelijk OEM, ODM en Private Label
+      href: /nl/oem-odm-private-label-comparison
+    - text: Verifieer de fabriek en het kwaliteitssysteem
+      href: /nl/proof-center

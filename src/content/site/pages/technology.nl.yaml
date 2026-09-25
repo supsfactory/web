@@ -1,0 +1,46 @@
+meta:
+  title: 'Technologie — Drop-stitch & marien PVC | {SITE}'
+  description: 'De Vatrad-technologieën: drop-stitch constructie, marien PVC, constructies met dubbele laag en hoge druk. Innovatie van een professionele fabrikant van opblaasbare SUP''s.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup technologie'
+    - 'drop-stitch constructie'
+    - 'sup hoge druk'
+    - 'materialen opblaasbare sup'
+
+hero:
+  tagline: 'Technologie'
+  title: 'Gebouwd voor prestaties'
+  subtitle: 'Elke opblaasbare Vatrad-SUP is gemaakt met drop-stitch constructie en marien PVC — materialen en precisieproductiemethoden, getest voor veeleisende maritieme omgevingen.'
+
+sections:
+  - title: 'Drop-stitch kern'
+    description: 'Duizenden interne polyesterdraden verbinden de bovenste en onderste laag en creëren een stijve structuur op 12–15 PSI. Het is dezelfde technologie als bij professionele paddleboards en opblaasbare race-SUP''s.'
+    imageAlt: 'Diagram drop-stitch kern'
+  - title: 'Marien PVC'
+    description: 'Meerlaags gelamineerde PVC-stof, ontworpen voor maritieme omgevingen. Elke laag wordt gelast en niet gelijmd, waardoor delaminatierisico''s worden geëlimineerd. Getest op UV-bestendigheid, corrosie door zout water en slijtage.'
+    imageAlt: 'PVC-laag'
+  - title: 'PVC van militaire kwaliteit'
+    description: 'Het premium PVC dat op alle SUP-modellen wordt gebruikt, biedt superieure weerstand tegen UV-straling en chemicaliën. Het blijft flexibel bij extreme temperaturen en is bestand tegen veroudering.'
+    imageAlt: 'PVC'
+  - title: 'Air-Deck Floor'
+    description: 'Drop-stitch constructie met samengeperste lucht voor uitzonderlijke stijfheid bij staan, vissen en yoga. Vermindert de opbouwtijd, het totale gewicht en het stuwvolume.'
+    imageAlt: 'Air-Deck'
+
+related:
+  title: 'Gerelateerde onderwerpen'
+  links:
+    - text: R&D-centrum
+      url: /nl/randdcenter
+    - text: Kwaliteitscontrole
+      url: /nl/quality
+    - text: Veiligheidsnormen
+      url: /nl/quality
+    - text: Garantie
+      url: /nl/warranty
+    - text: Toerisme & vrije tijd
+      url: /nl/tourism-recreation
+    - text: Gidsen
+      url: /nl/knowledge
+    - text: Producten
+      url: /nl/products

@@ -763,6 +763,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  nl: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Hoe gepersonaliseerde SUP\'s worden ontwikkeld',
+      metaTitle: 'Hoe gepersonaliseerde SUP\'s worden ontwikkeld | SUPsfactory',
+      metaDescription:
+        'Hoe een gepersonaliseerde SUP van idee naar fabriek gaat: specificaties, ontwerp, prototyping, monsters en productie — stap voor stap uitgelegd.',
+      kicker: 'Kennis',
+      h1: 'Hoe gepersonaliseerde SUP\'s worden ontwikkeld',
+      intro:
+        'Voordat een gepersonaliseerd paddleboard naar jouw klanten wordt verzonden, doorloopt het een duidelijk gedefinieerd ontwikkelingspad. Elke fase kennen stelt je in staat om de aanvraag correct bij de fabriek neer te leggen, realistische tijdslijnen vast te stellen en de klassieke fouten van eerste kopers te vermijden.',
+      sections: [
+        {
+          title: 'Fase 1: de behoefte definiëren',
+          body: [
+            'Elk ontwikkelingsproject begint met het gebruiksscenario: wie gebruikt de plank, waar en hoe vaak. Een plank voor een verhuurvloot is anders dan een plank voor een merklancering of voor een school: stabiliteit, levensduur en kosten doelen verschuiven allemaal met het antwoord.',
+            'Noteer aantallen, een doelprijs en onmisbare kenmerken voordat je contact opneemt met een fabriek. Duidelijke vereisten leveren al in de eerste ronde betere offertes op en minder heen-en-weer.',
+          ],
+        },
+        {
+          title: 'Fase 2: de specificaties vastleggen',
+          body: [
+            'De specificaties zetten de vereisten om in meetbare waarden: lengte, breedte, dikte, volume, materialen (drop-stitch-dichtheid, stofgewicht), vinconfiguratie, gewichtslimiet en verpakking.',
+            'Dit is het document op basis waarvan beide partijen de kosten berekenen. Wijzigingen later in het proces zijn trager en duurder: een vastgelegde specificatie is het goedkoopste instrument dat je kunt beheersen.',
+          ],
+        },
+        {
+          title: 'Fase 3: ontwerp en graphics',
+          body: [
+            'Met de specificaties vastgelegd begint het ontwerpwerk: vormaanpassingen, kleurcombinaties, logopositionering, graphics van het dekpad en gecoördineerde accessoires (leash, peddel, vin, tas).',
+            'Fabrikanten kunnen digitale mock-ups maken zodat je het uiterlijk goedkeurt voordat er een fysiek monster wordt geproduceerd: goedkoper en sneller dan itereren op de hardware.',
+          ],
+        },
+        {
+          title: 'Fase 4: prototype en monster',
+          body: [
+            'Het monster is het eerste fysieke bewijs. Voor opblaasbare planken betekent dat een met de hand gemaakte plank of een plank uit een pilotproductie, die je kunt uitproberen en testen tegen de specificaties.',
+            'Test het monster zoals jouw eindgebruiker dat zou doen: stabiliteit, stijfheid, koersstabiliteit, gewicht en het resultaat van de graphics. Een grondige monsternamecyclus vindt normaal gesproken de meeste problemen vóór de productie.',
+          ],
+        },
+        {
+          title: 'Fase 5: productie en levering',
+          body: [
+            'Na de goedkeuring van het monster gaat de productie in partijen verder met kwaliteitscontrolecheckpoints. De fabrieksinspectie vóór de verzending — foto\'s, video of een inspectie door derden — beschermt de partij die je ontvangt.',
+            'Een goed projectplan reken je terug vanaf de lanceringsdatum, niet vooruit vanaf de besteldatum.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'De constructie van opblaasbare SUP\'s, uitgelegd',
+      metaTitle: 'Constructie van opblaasbare SUP\'s: materialen en lagen | SUPsfactory',
+      metaDescription:
+        'Waar een opblaasbare SUP van gemaakt is — PVC-lagen, drop-stitch-weefsel, rails en kwaliteitsindicatoren — om betere planken te specificeren voor jouw project.',
+      kicker: 'Kennis',
+      h1: 'De constructie van opblaasbare SUP\'s, uitgelegd',
+      intro:
+        'De meeste gepersonaliseerde SUP-projecten van vandaag zijn opblaasbare planken. Ze zijn lichter, eenvoudiger op te slaan en te verzenden en vergevingsgezinder voor beginners. Deze gids legt de constructie uit, zodat je de kwaliteit met vertrouwen kunt specificeren.',
+      sections: [
+        {
+          title: 'Het hart: het drop-stitch-weefsel',
+          body: [
+            'Een opblaasbare plank is opgebouwd rond een drop-stitch-weefsel: duizenden polyesterdraden verbinden de bovenste en onderste PVC-laag. Wanneer de plank is opgepompt, houden deze draden de plank op een vaste dikte — dat geeft een iSUP vorm en stijfheid.',
+            'Een hogere draaddichtheid (punten per vierkante inch) betekent een stijvere, stabielere plank bij dezelfde druk. Goedkope planken gebruiken lagere dichtheden; premium planken hogere.',
+          ],
+        },
+        {
+          title: 'PVC-lagen en rails',
+          body: [
+            'Het weefsel zit tussen PVC-lagen, die het beschermen tegen slijtage, uv-straling en stoten. Zwaarder PVC (meer mils of mm) is beter bestand tegen doorboringen, maar verhoogt het gewicht.',
+            'De rails — de randen van de plank — absorberen de meeste stoten bij dagelijks gebruik. Een railconstructie met dubbele of driedubbele laag is een sterke indicator van duurzaamheid en geschiktheid voor verhuur.',
+          ],
+        },
+        {
+          title: 'Wat gewicht toevoegt — en wat sterkte toevoegt',
+          body: [
+            'Gewicht is een compromis: dikker PVC verhoogt de levensduur en het gewicht; lichtere lamineringen passen bij riders die hun planken over lange afstanden dragen. Dit is een van de punten waarop een gepersonaliseerde specificatie wordt afgestemd op de realiteit van de koper.',
+            'Kwaliteitsindicatoren om te eisen: nominale ophlaasdruk, constructie van de naden, type ventiel en drop-stitch-dichtheid. Serieuze fabrieken publiceren deze cijfers.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Hoe organisaties SUP-uitrusting kiezen',
+      metaTitle: 'Hoe resorts, clubs en scholen SUP-uitrusting kiezen',
+      metaDescription:
+        'Hoe resorts, clubs en scholen SUP-uitrusting kiezen: vlootomvang, boardtypen, levensduur, opslag en budget voor een programma dat standhoudt.',
+      kicker: 'Kennis',
+      h1: 'Hoe organisaties SUP-uitrusting kiezen',
+      intro:
+        'Resorts, clubs en scholen kopen anders dan consumentenmerken: de uitrusting moet dagelijks gebruik aankunnen, verschillende vaardigheidsniveaus bedienen en binnen het programmabudget blijven. Dit overzicht behandelt de beslissingen die ertoe doen.',
+      sections: [
+        {
+          title: 'De vlootomvang afstemmen op het gebruik',
+          body: [
+            'Tel hoeveel riders er tegelijkertijd op het water zijn, niet hoeveel gasten je hebt. Een resort dat met rotatie verhuurt heeft minder planken nodig dan een school met gelijktijdige cursussen — en meer reserveonderdelen.',
+            'Een goede vuistregel: één plank per gelijktijdige rider, plus een reserve van 10–15 % voor onderhoud en groei.',
+          ],
+        },
+        {
+          title: 'Boardtypen afstemmen op vaardigheidsniveaus',
+          body: [
+            'Beginners hebben baat bij bredere, volumineuzere planken die stabiel liggen; ervaren riders geven de voorkeur aan smallere planken die sneller peddelen. Een gemengde vloot — voornamelijk geschikt voor beginners met enkele performanceboards — dekt de meeste programma\'s.',
+            'Boards voor meerdere personen hebben hun plek in scholen en bij groepsbelevenissen: ze stellen instructeurs in staat om les te geven en kunnen meerdere individuele boards vervangen in de cursusrotaties.',
+          ],
+        },
+        {
+          title: 'Levensduur is een budgetbeslissing',
+          body: [
+            'Een constructie die geschikt is voor verhuur kost in het begin meer en levert besparingen op over twee of drie seizoenen. Vraag naar de versterking van de rails, de dikte van het PVC en de garantie die de fabriek biedt op vlootbestellingen.',
+            'Reken ook op opslag en oppompen: compressoren, schragen en verpakkingsroutines bepalen de dagelijkse werkbelasting van het programma. Op vloten gerichte leveranciers nemen dit alles in het pakket op.',
+          ],
+        },
+        {
+          title: 'Het programma plannen, niet alleen de bestelling',
+          body: [
+            'De beste uitrustingsbestellingen maken deel uit van een programmaplan: instructeurtraining, onderhoudsroutines en een vervangingscyclus voor versleten planken. Organisaties die het programma plannen, vernieuwen de uitrusting volgens vastgestelde termijnen; de andere kopen noodvervangingen tegen de volle prijs.',
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -811,5 +935,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       'Guias práticas sobre o desenvolvimento de produtos SUP personalizados, sobre a construção das pranchas insufláveis e sobre a escolha do equipamento SUP para resorts, clubes e escolas.',
     h1: 'Centro de conhecimento — desenvolvimento de produto, explicado',
+  },
+  nl: {
+    metaTitle: 'Kennisdatabase: gidsen over SUP-productontwikkeling | SUPsfactory',
+    metaDescription:
+      'Praktische gidsen over maatwerk SUP-productontwikkeling, de constructie van opblaasbare boards en het kiezen van SUP-uitrusting voor resorts, clubs en scholen.',
+    h1: 'Kennisdatabase — productontwikkeling, uitgelegd',
   },
 }

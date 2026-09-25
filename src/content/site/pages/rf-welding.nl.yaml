@@ -1,0 +1,99 @@
+meta:
+  title: 'HF-lascentrum — Diëlektrische naadverbinding voor SUP''s | {SITE}'
+  description: 'Radiofrequentielastechnologie voor luchtdichte en conforme naden van SUP-planken. Peeltests, controle van de luchtdichtheid en aangepaste naadtoleranties.'
+  dateModified: '2026-08'
+back_text: 'Terug naar het R&D-centrum'
+home_label: 'Home'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'We gebruiken diëlektrische HF-persen van 15 kW die PVC-naden moleculair verbinden (gelijkwaardig aan 200–600 °C hete lucht) en we valideren elke las: peeltest volgens ASTM D751, luchtdichtheid bij 18.0 PSI, met per eenheid gedocumenteerde en traceerbare naden.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorium 03'
+  title: 'HF-lascentrum'
+  subtitle: 'Diëlektrische verbindingstechnologie voor naden die onder druk standhouden'
+  image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Vatrad HF-lassen, diëlektrisch verbindingsproces'
+
+intro: 'Een opblaasbare SUP-plank is slechts zo betrouwbaar als zijn naden. Eén zwakke las kan een hele kamer in gevaar brengen — en onder je voeten is een falende kamer geen ergernis, maar een veiligheidsrisico. Bij {SITE.name} hebben we geïnvesteerd in een speciaal radiofrequentie-lascentrum (HF) dat industriële diëlektrische laspersen combineert met strenge procescontrole en tests na het lassen. Elke naad die wij produceren is gedocumenteerd, traceerbaar en gecertificeerd om te voldoen aan of te overtreffen wat de internationale norm voor opblaasbare boten vereist.'
+
+content_html: |
+  <h2>De wetenschap achter de naad</h2>
+  <p>HF-lassen gebruikt hoogfrequente elektromagnetische energie (typisch 27.12 MHz) om de polaire moleculen in de met PVC beklede stof te activeren en warmte precies op het raakvlak van het materiaal op te wekken. Anders dan hete-lucht- of wiglassen creëert HF-lassen een echte moleculaire verbinding: de twee stoflagen versmelten in het lasgebied tot één homogeen materiaal, waardoor een verbinding ontstaat die even sterk is als het uitgangsmateriaal zelf.</p>
+
+  <h2>Lasapparatuur en procesbeheersing</h2>
+  <p>Ons lascentrum is uitgerust met:</p>
+  <table>
+    <thead><tr><th>Machine</th><th>Vermogen / Capaciteit</th><th>Toepassing</th></tr></thead>
+    <tbody>
+      <tr><td>Diëlektrische HF-pers 1</td><td>15 kW, plaat 2000 × 600 mm</td><td>Hoofdnaden van de plank, railband-deck verbindingen</td></tr>
+      <tr><td>Diëlektrische HF-pers 2</td><td>10 kW, plaat 1500 × 500 mm</td><td>Boegkegellassen, handgreep-patches, ventiel-patches</td></tr>
+      <tr><td>CNC-gestuurde HF-lasmachine</td><td>8 kW, XY-tafel 2500 × 1200 mm</td><td>Gebogen railnaden, logo-/paneelreliëf, precisiewerk</td></tr>
+      <tr><td>Automatische heteluchtwiglasmachine</td><td>Variabele temperatuur, max 1.2 m/min</td><td>Reserveproces voor speciale CSM-materialen</td></tr>
+    </tbody>
+  </table>
+  <p>Elke HF-pers beschikt over gesloten temperatuur- en drukbewaking. De lasparameters — vermogen, perstijd, koeltijd en elektrodedruk — worden per materiaalsoort geprogrammeerd en vastgelegd in ons Manufacturing Execution System (MES) voor volledige traceerbaarheid.</p>
+
+  <h2>Lastkwaliteitstesten — elke naad, elke plank</h2>
+  <p>De integriteit van de naad wordt gecontroleerd volgens een verplicht protocol van vier tests:</p>
+  <ol>
+    <li><strong>Visuele inspectie</strong> — 100 % van de naden wordt gecontroleerd op verbranding, scheve uitlijning, vervuiling of onvolledige versmelting. Afkeurgrens: 0.5 % van de strekkende meters.</li>
+    <li><strong>Peeltest</strong> — met elke productiebatch wordt een strip van 25 mm breed uit een gelast monster gesneden. Minimale afpelkracht: 120 N/25 mm voor PVC 1100 dtex.</li>
+    <li><strong>Luchtdichtheidstest</strong> — elke afgewerkte plank wordt opgepompt tot 18.0 PSI en 24 uur op druk gehouden. De drukval mag niet meer dan 0.50 PSI bedragen.</li>
+    <li><strong>Temperatuurcyclustest</strong> — monsters worden blootgesteld aan 50 cycli van -20 °C tot +60 °C en daarna opnieuw aan een peeltest onderworpen. Toegestaan sterkteverlies: &lt; 10 %.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Vergelijking van de peelkracht — HF-lassen versus hete-luchtlassen (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">HF-lassen</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Hete lucht</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Normatief minimum</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">HF-lassen bereikt consequent 90-95 % van de sterkte van het uitgangsmateriaal — ruim boven het minimum.</p>
+  </div>
+
+  <h2>Vakmanschap</h2>
+  <p>Ons lasteam wordt geleid door een senior procesingenieur met 11 jaar ervaring in diëlektrisch lassen van beklede stoffen. Elke operator voltooit een intern certificeringsprogramma van 6 maanden voordat hij aan productienaden mag werken. Her-certificering is jaarlijks vereist, inclusief een praktische lastest die wordt beoordeeld volgens onze interne Grade-A-standaard (peelkracht ≥ 160 N/25 mm).</p>
+
+  <h2>Aangepaste lasoplossingen voor bijzondere eisen</h2>
+  <p>We weten dat één lasspecificatie niet past bij elke toepassing. Ons HF-lascentrum ontwikkelt regelmatig aangepaste naadconfiguraties voor klanten met speciale eisen:</p>
+  <ul>
+    <li><strong>Meerlaagse verstevigingspatches</strong> — voor hoogbelaste gebieden zoals railbanden en boegpunten ontwikkelen we meerlaagse HF-lassen met een slijtvaste buitenlaag, zonder concessies aan de flexibiliteit.</li>
+    <li><strong>Naden voor hogedrukplanken</strong> — voor planken met een nominale druk boven 15 PSI valideren we de lasgeometrie bij hoge werkdruk en documenteren we de grens in het testrapport.</li>
+    <li><strong>Lassen van panelen met kleurwissel</strong> — tweekleurige stofpanelen (bijv. grijs deck + grijze rail) worden gelast met een verborgen overlapping om de esthetiek van het merk te behouden zonder zichtbare naadlijn.</li>
+  </ul>
+
+  <h2>Onze belofte aan jou</h2>
+  <p>Elke plank die wij leveren valt onder onze naadkwaliteitsgarantie: als een naad tijdens de garantieperiode bij normaal gebruik bezwijkt, repareren of vervangen wij de betreffende kamer gratis en wordt er een oorzaakanalyse uitgevoerd om herhaling te voorkomen. Dit is niet zomaar een garantie — het is een toezegging tot continue verbetering op basis van echte operationele data.</p>
+  <p>Wanneer je kiest voor {SITE.name}, kies je voor naden die ontworpen, getest en gedocumenteerd zijn — niet alleen gelast. Het is het verschil tussen een plank die drijft en een plank die werkt.</p>
+
+cta:
+  title: 'Bespreek jouw lasbehoeften'
+  subtitle: 'Aangepaste naadtoleranties, materiaalcompatibiliteit of procesvalidatie.'
+  actions:
+    - variant: primary
+      text: Neem contact op met het lasteam
+      href: /nl/contact#project-brief
+    - text: Terug naar het R&D-centrum
+      href: /nl/randdcenter

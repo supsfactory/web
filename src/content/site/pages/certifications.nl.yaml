@@ -1,0 +1,513 @@
+meta:
+  title: 'Kwaliteitscontrole voor gepersonaliseerde SUP''s: inspectie in 7 fasen | SUPsfactory'
+  description: 'Hoe elke gepersonaliseerde SUP-order wordt gecontroleerd: 7 inspectiepunten van productieplanning tot vrijgave voor verzending, met downloadbare tweetalige rapporten.'
+  dateModified: '2026-08-15'
+  keywords:
+    - 'kwaliteitscontrole sup'
+    - 'fabrieksinspectie sup'
+    - 'kwaliteitsinspectieplan oem'
+    - 'pre-shipment inspectie sup'
+    - 'ce-certificering sup'
+    - 'iso 9001 sup'
+hero:
+  tagline: Kwaliteitscontrole voor gepersonaliseerde projecten
+  title: 'Kwaliteitscontrole voor gepersonaliseerde opblaasbare SUP-projecten'
+  subtitle: 'De kwaliteit wordt geverifieerd tegen het goedgekeurde monster, de technische specificatie, de graphics, de stuklijst en de verpakkingsvereisten van elk project — niet tegen een algemene bewering. Van inkomende controle tot vrijgave voor verzending is ons inspectieproces gestructureerd om productconformiteit te verifiëren in gedefinieerde productiefasen. Beheerd door QINGDAO VATRAD GROUP, de opblaasbare SUP-fabriek van 12.500 m² achter Vatrad.'
+stats:
+  - value: 100%
+    label: Eenheden getest op druk
+  - value: '7'
+    label: Gecontroleerde inspectiepunten
+  - value: 18.0 PSI
+    label: 24-uurs drukbehoud
+  - value: ISO 9001
+    label: Gecertificeerde kwaliteit
+quality_basis:
+  tagline: Kwaliteitsbasis
+  title: 'Wat bepaalt de productacceptatie'
+  subtitle: 'De definitieve acceptatiecriteria worden vastgesteld vóór de vrijgave van de productie. Deze gecontroleerde projectdocumenten definiëren wat er moet worden gemaakt, hoe de belangrijkste details worden geverifieerd en wat er vóór de verzending moet worden gecontroleerd — goedgekeurd door de koper en bevroren in het Kwaliteitsinspectieplan (QIP). Elke wijzigingsaanvraag doorloopt een gedocumenteerde wijzigingscontrole, nooit stilzwijgend aan de lijn.'
+  items:
+    - title: 'Goedgekeurd monster'
+      description: 'Het fysieke referentieboard dat door de koper is goedgekeurd en ondertekend. Elk afgewerkt board wordt ermee vergeleken op afmetingen, profiel, stijfheid en afwerking.'
+      icon: tabler:medal
+    - title: 'Technische specificatie'
+      description: 'Materialen, constructie en bemaatste tekeningen, vastgelegd op een revisienummer. De FAI verifieert het eerste artikel exact tegen deze revisie.'
+      icon: tabler:file-check
+    - title: 'Goedgekeurde graphics'
+      description: 'Graphics, drukimken en positionering goedgekeurd en per versie geblokkeerd vóór het snijden — zo wordt elke deck verzonden met de door het merk goedgekeurde uitstraling.'
+      icon: tabler:palette
+    - title: 'Door de klant goedgekeurde BOM'
+      description: 'Stuklijst — board, peddel, pomp, leash, tas, handleiding — bevestigd door de koper. De PSI verifieert de kit-compleetheid 100% tegen deze BOM.'
+      icon: tabler:list-checks
+    - title: 'Verpakkings- en etiketteringsvereisten'
+      description: 'Doosstructuur, markeringen, barcodes, labelinhoud en verzendmarkeringen schriftelijk vastgelegd. De leesbaarheid van de barcodes en de nauwkeurigheid van de markeringen worden in de PSI geverifieerd.'
+      icon: tabler:package
+tests:
+  - title: Druktest
+    description: De opblaasbare kamers worden gedurende langere periodes blootgesteld aan drukken hoger dan hun aanbevolen operationele limieten. Dit verifieert de luchtdichtheid en de structurele integriteit van materiaal en naden, en garandeert dat het product bestand is tegen het beoogde gebruik en eventueel overdrukken zonder bezwijken of lekken.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
+    alt: Opblaasbare SUP-camera in druktest voor verificatie van de luchtdichtheid
+  - title: Impacttest
+    description: De producten worden onderworpen aan gecontroleerde impacts met verschillende gewichten en hoeken. Dit beoordeelt de weerstand van het materiaal tegen perforaties, scheuren en botsingsschade door obstakels in het water en toont de duurzaamheid en levensduur aan.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+    alt: Impacttestapparaat dat de perforatieweerstand van het materiaal van de boten controleert
+  - title: UV-bestendigheidstest
+    description: Materiaalmonsters worden blootgesteld aan versnelde UV-straling om te verifiëren dat ze niet vergelen, scheuren of sterkte verliezen na verloop van tijd. Elke partij PVC wordt vóór de productie getest op zonne-degradatie.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
+    alt: PVC-materiaalmonsters blootgesteld aan versnelde UV-straling tijdens de bestendigheidstest
+  - title: Slijtvastheidstest
+    description: Materiaalmonsters worden gedurende een vast aantal cycli onder gecontroleerde druk over schurende oppervlakken gewreven. Dit meet het vermogen van het materiaal om slijtage door herhaald gebruik en contact met zand, stenen of andere oppervlakken te weerstaan, wat de duurzaamheid op lange termijn garandeert.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pvc-material-testing.webp
+    alt: Slijtagetestmachine die een PVC-stofmonster wrijft om de slijtvastheid te meten
+  - title: Prestatietest bij lage temperatuur
+    description: De producten worden getest in koude omgevingen om functionaliteit en duurzaamheid onder verschillende temperatuuromstandigheden te beoordelen, en stijfheid of scheuren in kouder water te voorkomen. Essentieel voor boten bedoeld voor wintergebruik of hoge breedtegraden.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-exterior.webp
+    alt: Opblaasbaar product in een koelcel tijdens de prestatietest bij lage temperatuur
+  - title: Drijf- en draagkrachttest
+    description: De producten worden getest met verschillende gewichten om de maximale draagkracht te bepalen en te garanderen dat ze gebruikers en uitrusting veilig dragen. De nominale capaciteit van elk model wordt vóór vrijgave geverifieerd.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-stock-boat-inventory.webp
+    alt: Drijf- en draagkrachttest met gewichten op opblaasbare boten
+  - title: Wendbaarheidstest
+    description: De producten worden getest op hun reactie op peddel- of motorinput, waarbij draaistraal en hanteerbaarheid worden beoordeeld. Vaartesten valideren dat het werkelijke gedrag overeenkomt met de ontwerpspecificaties.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
+    alt: Wendbaarheidstest in het water van SUP-rompen en opblaasbare boten
+  - title: Dichtheidstest
+    description: Volledig gemonteerde producten worden ondergedompeld of blootgesteld aan waterstralen om lekken in naden, ventielen of materialen te controleren. Elke boot doorstaat een verplichte dichtheidstest vóór verzending.
+    image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
+    alt: Dichtheidstest door onderdompeling die naden en ventielen controleert op lekken
+qc_flow:
+  tagline: Het inspectieproces in 7 fasen
+  title: 'Zeven gecontroleerde kwaliteitscontrolepunten, end-to-end'
+  subtitle: 'Elk punt hieronder is gedefinieerd in het projectspecifieke Kwaliteitsinspectieplan (QIP) met het inspectieobject, de methode, de acceptatiecriteria en de documentatie-output. De tweetalige rapporterdossiers zijn echte gecontroleerde registraties — open er één om de daadwerkelijke structuur te zien.'
+  obj_label: Inspectieobject
+  method_label: Inspectiemethode
+  criteria_label: Acceptatiecriteria
+  record_label: Documentatie-output
+  stages:
+    - stage: STAGE 01
+      title: 'Projectkwaliteitsplanning (PPM)'
+      summary: 'De pre-productievergadering legt scope, baseline en inspectieplan vast vóór de start van de lijn.'
+      checks:
+        - 'Productnaam, interne code, klant-SKU, ordernummer en lotdefinitie worden geregistreerd.'
+        - 'Boardtype, drop-stitch kern, materialen, railband, EVA, ventielen en vin-systeem worden gespecificeerd.'
+        - 'Grafische bestandsnaam, versie, kleuren, logopositie en printoppervlak worden geblokkeerd en goedgekeurd.'
+        - 'De BOM — elk artikel per set met hoeveelheid, kleur, onderdeelnummer en vervangingsregels — is door de klant goedgekeurd.'
+        - 'Verpakking, etikettering, barcodes, taal van de handleidingen en afspraken voor inspecties door derden worden schriftelijk vastgelegd.'
+      object: 'Projectscope vs. klantvereisten — materialen, afmetingen, graphics, verpakking, doelmarkt en toepasselijke normen.'
+      method: 'Pre-productievergadering met sales, design en QC; ondertekening van het golden sample; uitgave van het Kwaliteitsinspectieplan (QIP) voor de order.'
+      criteria: 'Alle vijf de baselines worden goedgekeurd en bevroren vóór de start van de serieproductie. Onopgeloste punten blokkeren de vrijgave van de productie.'
+      record: 'QIP + PPM-notulen, notulen van de monstergoedkeuring.'
+      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      alt: Pre-productievergadering voor de beoordeling van het golden sample en het kwaliteitsinspectieplan voor een OEM SUP-order
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Download het QIP (PDF)'
+    - stage: STAGE 02
+      title: 'Inkomende goederencontrole (IQC)'
+      summary: 'De grondstoffen worden geverifieerd tegen de goedgekeurde leveranciersspecificatie voordat ze de productie ingaan.'
+      checks:
+        - 'Drop-stitch stof, PVC-rollen, railmateriaal en EVA deckpad worden gecontroleerd tegen het goedgekeurde monster — kleur, dikte, gewicht en oppervlaktedefecten.'
+        - 'Ventielen, fin box, D-ringen, handgrepen en hulpstukken worden gecontroleerd op type, afmeting, oppervlak, roest en correcte werking.'
+        - 'Pompen, peddels, leashes, tassen en reparatiekits worden geverifieerd op model, kleur en projectconfiguratie.'
+        - 'Leverancierscertificaten (COA), materiaalverklaringen en REACH/RoHS-conformiteitsdocumenten worden voor elke partij onderzocht.'
+        - 'Niet-conforme partijen worden geblokkeerd en afgekeurd voordat het materiaal de lijn bereikt.'
+      object: 'Drop-stitch stof, PVC-rollen, ventielen, vinnen, accessoires en verpakkingsmaterialen tegen de goedgekeurde specificatie en de leverancierskeuringscertificaten.'
+      method: 'Visuele, dimensionale en gewichtscontroles; lotsteekproeven volgens AQL; materiaalcertificaten onderzocht; goedgekeurde leverancierslijst toegepast.'
+      criteria: 'Voldoet aan de goedgekeurde specificatie en certificaten. Niet-conforme partijen worden geblokkeerd en afgekeurd vóór vrijgave aan de lijn.'
+      record: 'IQC-testrapport met lotreferenties en afhandelingsbesluiten.'
+      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      alt: Inkomende goederencontrole van PVC-stof en SUP-componenten in de fabriek
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Download de IQC-rapporten (PDF)'
+    - stage: STAGE 03
+      title: 'Procescontrole en first article test (IPQC / FAI)'
+      summary: 'De constructiemethoden en controlepunten worden gekozen op basis van het goedgekeurde boardplatform en de projectconfiguratie. Het eerste monster wordt geverifieerd tegen de bevroren baselines; elke ploeg houdt steekproefsgewijs controle aan de lijn.'
+      checks:
+        - 'Het eerste artikel wordt geverifieerd tegen het goedgekeurde monster, de technische tekening, de BOM, de graphics en de verpakkingsbestanden vóór de start van de serieproductie.'
+        - 'Boardafmetingen, omtrek en symmetrie worden gemeten; inkt- en logorichting, positie, kleuren en revisie worden bevestigd.'
+        - 'Naden en railcontinuïteit worden aan de lijn gecontroleerd op openingen, delaminatie, kreukels, vervuiling of uitlijning.'
+        - 'De installatie van ventiel, D-ringen, handgrepen en fin box wordt gecontroleerd op positie, aantal en montage tegen de door de klant goedgekeurde BOM.'
+        - 'De FAI-vrijgave blokkeert graphics, afmetingen en BOM per versie; afwijkingen doorlopen het beslissingsproces voor herbewerking — nooit kwaliteitsreparaties aan de lijn.'
+      object: 'Eerste artikel en producten in bewerking — naden, rail, fin box, ventielbasis, grafische positie, aandraaimoment van de hulpstukken.'
+      method: 'First article test op het eerste stuk; steekproefsgewijze controles per ploeg; lassterkte en naaduitlijning worden aan de lijn geverifieerd.'
+      criteria: 'De FAI-vrijgave blokkeert graphics, afmetingen en BOM per versie. Afwijkingen doorlopen het beslissingsproces voor herbewerking — nooit kwaliteitsreparaties aan de lijn.'
+      record: 'FAI-registratie, steekproefsgewijze notulen per ploeg, herbewerkingsnotities en afhandelingsbesluit.'
+      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Procesinspectie en first article test tijdens de SUP-productie
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Download de IPQC-rapporten (PDF)'
+    - stage: STAGE 04
+      title: 'Opblaas- en luchtdichtheidstest'
+      summary: 'Elk afgewerkt board wordt vóór het verpakken onderworpen aan een opblaas- en luchtdichtheidscontrole — 100% van de eenheden, geen steekproef.'
+      checks:
+        - 'Het boardoppervlak, de rails en het ventielgebied worden vóór het oppompen gecontroleerd op gaatjes, scheuren, abnormale kreukels of delaminatie.'
+        - 'De kamers worden opgeblazen tot de testdruk van het project met een gekalibreerde digitale manometer en de beginwaarde wordt vastgelegd.'
+        - 'Ventielkern, ventielbasis en railnaden worden over de hele omtrek gecontroleerd — boeg, achtersteven en gebogen gebieden.'
+        - '24-uurs drukbehoud met continue registratie; automatische uitsluiting bij een drukverlies boven de toegestane waarde.'
+        - 'Defecte boards worden geblokkeerd, herbewerkt volgens instructie en opnieuw volledig getest — niet alleen hercontroleerd op het reparatiepunt.'
+      object: '100% van de opgeblazen kamers — volledige lekdetectie op naden, ventielintegriteit en vermogen om druk vast te houden.'
+      method: 'Volledige lekdetectie op de naden, gevolgd door 24-uurs drukbehoud op 18,0 PSI; automatische uitsluiting bij een drukverlies boven 0,50 PSI.'
+      criteria: 'Geen lekkagepunten en drukverlies binnen 0,50 PSI per kamer; defecte eenheden worden geblokkeerd en herbewerkt of afgekeurd.'
+      record: 'Luchtdichtheidstestrapport, één per kamer, gekoppeld aan het lot.'
+      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      alt: Opblaas- en luchtdichtheidstest van een opblaasbare SUP-camera
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Download de luchtdichtheidsrapporten (PDF)'
+    - stage: STAGE 05
+      title: 'Eindproductinspectie (FQC)'
+      summary: 'Afgewerkte boards worden gemeten en optisch beoordeeld tegen het goedgekeurde golden sample.'
+      checks:
+        - 'De belangrijkste afmetingen — lengte, breedte en dikte — worden bij bedrijfsdruk gemeten tegen de tekentoleranties.'
+        - 'Boardomtrek, rocker en symmetrie worden geverifieerd; geen vervorming, torsie of abnormale golfslag na het oppompen.'
+        - 'Optische beoordeling onder D65 daglichtlampen: krassen, vlekken, lijmresten, bubbels, kreukels, kleurafwijkingen.'
+        - 'Functionele tests: openen/sluiten van het ventiel en plaatsen van de dop, plaatsen en vergrendelen van de vin, D-ringen, handgrepen en werking van de peddel.'
+        - 'De configuratie wordt geverifieerd tegen de door de klant goedgekeurde BOM en SKU — accessoires, labels, barcodes en serienummers.'
+      object: 'Afgewerkt board vs. golden sample — afmetingen, rocker, profiel, uitstraling, montage van de fin box en compleetheid van de accessoires.'
+      method: 'Dimensionale verificatie tegen de tekentoleranties; optische beoordeling onder D65 daglichtlampen; montagetest van fin box en hulpstukken.'
+      criteria: 'Afmetingen binnen tolerantie (bijv. 3508 × 814 × 150,3 mm), optische beoordeling volgens het goedgekeurde monster, alle accessoires aanwezig.'
+      record: 'FQC-rapport met handtekening van de inspecteur en afhandelingsbesluit.'
+      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      alt: Eindproductinspectie van SUP-boards vóór het verpakken
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Download de FQC-rapporten (PDF)'
+    - stage: STAGE 06
+      title: 'Pre-shipment verpakkingsinspectie (PSI)'
+      summary: 'Het verpakte kit wordt gecontroleerd op compleetheid, nauwkeurigheid van de etikettering en gereedheid voor verzending.'
+      checks:
+        - 'Kit-compleetheid 100% vs. BOM: board, peddel, pomp, leash, tas, reparatiekit en handleiding — één set tegelijk.'
+        - 'Kwetsbare onderdelen beschermd (pomp- en bladtasjes), board gevouwen volgens de verpakkings-SOP, accessoires conform model en kleur.'
+        - 'Doosafbeeldingen, merk, waarschuwingen en taalversies worden gecontroleerd tegen de goedgekeurde grafische revisie.'
+        - 'Type, nummer, positie en scanbaarheid van de barcode geverifieerd; verzendmarkeringen, SKU, PO, kartonnummer en hoeveelheid correct.'
+        - 'Doosafmetingen, bruto/netto gewicht en binnenverpakking conform de verpakkingsspecificatie; resultaat van de drop test geregistreerd indien vereist.'
+      object: 'Verpakt kit — board, peddel, pomp, leash, tas, handleiding — tegen de door de klant goedgekeurde BOM en verpakkingsspecificatie.'
+      method: 'Kit-compleetheid 100% vs. BOM; scannen van de barcodes (score ≥ B); nauwkeurigheid van de kartonlabels; drop test ISTA-1A op de verpakte kartons.'
+      criteria: 'Kit 100% overeenkomend met de BOM, leesbare barcodes, correcte labels en valbestendige verpakking vóór het laden.'
+      record: 'PSI-checklist en verpakkingsnotulen voor elk karton.'
+      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      alt: Pre-shipment inspectie die het verpakte SUP-kit tegen de BOM verifieert
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Download de PSI-rapporten (PDF)'
+    - stage: STAGE 07
+      title: 'Vrijgave voor verzending en traceerbaarheid'
+      summary: 'Quality geeft het lot alleen vrij wanneer alle zes voorgaande punten zijn afgesloten en alle registraties compleet zijn.'
+      checks:
+        - 'Productielot, ordernummer, SKU, hoeveelheid en aantal kartons komen overeen met de packing list en de commerciële factuur.'
+        - 'De specificatie-, BOM-, grafische- en verpakkingsbestanden zijn allemaal in de huidige goedgekeurde revisie.'
+        - 'De IQC-, FAI-, proces-, luchtdichtheids-, FQC- en PSI-registraties zijn compleet voor het vrij te geven lot.'
+        - 'Alle non-conformiteiten zijn opgelost, herbewerkt, opnieuw getest en afgesloten — geen openstaande punten bij vrijgave.'
+        - 'Traceerbaarheidsvelden geregistreerd voor elk lot: projectcode, PO, SKU, revisies van graphics/BOM/verpakking, productiedatum, inspecteur en registratienummers.'
+      object: 'Autorisatie voor vrijgave van het lot — alle punten afgesloten, registraties compleet, serienummers van het lot toegewezen.'
+      method: 'Puntencontrole door Quality op alle zes voorgaande registraties; traceerbaarheidsdossier van het lot samengesteld; registraties overgedragen aan de verzending.'
+      criteria: 'Alle punten vrijgegeven door QA; lotregistraties en traceerbaarheidsdossier overgedragen aan de koper of op verzoek onder NDA bewaard.'
+      record: 'Autorisatie voor vrijgave voor verzending en traceerbaarheidsdossier van het lot.'
+      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      alt: Ondertekening van de vrijgave voor verzending en overdracht van het traceerbaarheidsverslag van het lot
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Download de vrijgavrapporten (PDF)'
+system_map:
+  tagline: Het kwaliteitssysteem
+  title: 'Eén systeem, vier gecontroleerde standaarden'
+  subtitle: 'De zeven punten hierboven zijn gebaseerd op vier gedocumenteerde standaarden, elk gepubliceerd als gecontroleerde procedure die je kunt downloaden en laten auditen. Samen vormen ze het QMS achter elke OEM/ODM-order — inspectiecriteria, wijzigingscontrole, non-conformiteiten en laboratoriumtests.'
+  items:
+    - title: 'Inspectie- en vrijgavestandaard'
+      description: 'Het project-QIP stuurt elk punt: inspectieobject, methode, acceptatiecriteria en documentatie-output voor elke order. Het omvat het 4-fasen QC-framework, de traceerbaarheidsketen, de quarantainestroom, de defectenmatrix en het documentregister 00–15.'
+      icon: tabler:clipboard-check
+      link: /factory/quality-inspection
+      link_label: 'Inspectiestandaard en QMS-downloads'
+    - title: 'Wijzigingscontrole van herbewerking'
+      description: 'Geen wijziging van herbewerkingsparameters zonder gedocumenteerde controle: containment, risicoclassificatie, wijzigingscyclus in 9 fasen, vrijgavematrix en validatie. Elke wijziging aan goedgekeurde specificaties, monsters, BOM of acceptatiecriteria vereist de schriftelijke goedkeuring van de klant.'
+      icon: tabler:git-branch
+      link: /factory/quality-change-control
+      link_label: 'Wijzigingscontrolestandaard'
+    - title: 'Controle van niet-conforme producten'
+      description: 'Een gesloten cyclus in 7 fasen volgens ISO 9001:2015 sectie 8.7: identificeren, blokkeren, beschikken via NCR, herbewerken of afkeuren, opnieuw controleren, vrijgeven, corrigeren. Het omvat autoriteit op basis van ernst, de afhandelingsmatrix voor SUP-defecten en gecontroleerde vernietiging.'
+      icon: tabler:alert-triangle
+      link: /factory/non-conforming-control
+      link_label: 'Standaard voor niet-conforme producten'
+    - title: 'Laboratoriumtests en apparatuur'
+      description: 'Het kwaliteitslaboratorium werkt onafhankelijk van de productie: trekmachines, drukverliestests, UV-veroudering, laspeeling, lekdetectie en thermische kamers — met de kalibratie- en testprocedures die ten grondslag liggen aan onze gepubliceerde verklaringen.'
+      icon: tabler:flask
+      link: /factory/quality-lab
+      link_label: 'Kwaliteitslaboratorium en testapparatuur'
+    - title: 'Materiaaltestlaboratorium (R&D)'
+      description: 'Het R&D-centrum voert onafhankelijke materiaaltests uit voor PVC/Hypalon-formuleringen, versnelde veroudering en certificeringsondersteuning, en voedt de door de productie gebruikte standaarden.'
+      icon: tabler:microscope
+      link: /randdcenter/quality-inspection-lab
+      link_label: 'Materiaaltestlaboratorium R&D'
+intelligence_cards:
+  tagline: Documentatie en traceerbaarheid
+  title: 'Kwaliteitsregistraties ter ondersteuning van de projecttraceerbaarheid'
+  subtitle: 'Inspectieregistraties worden per productielot bewaard en gekoppeld aan de toepasselijke projectdocumentatie — specificatierevisie, grafische revisie, BOM en verpakkingsvereisten. Om klantgegevens te beschermen zijn de voorbeelden op deze pagina geanonimiseerd: alleen de structurele velden worden getoond (projectcode, product/SKU, lot, inspectiefase, controlepunt, acceptatiecriteria, resultaat, inspecteur, datum en vrijgavestatus).'
+  cards:
+    - icon: 1
+      icon_bg: blue
+      title: Notulen van inkomende goederencontrole
+      desc: 'Toont aan dat grondstoffen, drop-stitch stof, PVC-rollen en componenten vóór de vrijgave van de productie worden geverifieerd tegen de goedgekeurde specificatie.'
+      metrics:
+        - { label: Fase, value: '02 · IQC' }
+        - { label: Lotreferentie, value: 'LOT-DEMO-DS-0814' }
+        - { label: Resultaat, value: 'Geslaagd · vrijgegeven voor productie' }
+      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link_label: 'Bekijk het geanonimiseerde voorbeeld (PDF)'
+    - icon: 2
+      icon_bg: green
+      title: Notulen van de first article test (FAI)
+      desc: 'Toont de blokkering per versie aan (graphics, afmetingen, BOM-specificaties) vóór de start van de volledige serieproductie.'
+      metrics:
+        - { label: Fase, value: '03 · IPQC' }
+        - { label: Monstercode, value: 'SN-DEMO-FAI-001' }
+        - { label: Resultaat, value: 'Geslaagd · FAI vrijgegeven' }
+      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link_label: 'Bekijk het geanonimiseerde voorbeeld (PDF)'
+    - icon: 3
+      icon_bg: purple
+      title: Notulen van de opblaas- en luchtdichtheidstest
+      desc: 'Verifieert 100% volledige lekdetectie op naden, ventielintegriteit en drukbehoud volgens het projectkwaliteitsplan.'
+      metrics:
+        - { label: Fase, value: '04 · Luchtdichtheid' }
+        - { label: Testconditie, value: 'Volgens projectplan (18,0 PSI)' }
+        - { label: Resultaat, value: 'Geslaagd · vrijgegeven voor eindcontrole' }
+      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link_label: 'Bekijk het geanonimiseerde voorbeeld (PDF)'
+    - icon: 4
+      icon_bg: orange
+      title: Eindproductinspectierapport
+      desc: 'Valideert het afgewerkte board tegen het goedgekeurde monster op afmetingen, rocker, uitstraling (D65-licht) en montage van de fin box.'
+      metrics:
+        - { label: Fase, value: '05 · FQC' }
+        - { label: Afmetingen, value: '3508 × 814 × 150.3 mm' }
+        - { label: Resultaat, value: 'Geslaagd · vrijgegeven voor verpakking' }
+      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link_label: 'Bekijk het geanonimiseerde voorbeeld (PDF)'
+    - icon: 5
+      icon_bg: green
+      title: Verpakkings- en pre-shipment inspectiechecklist
+      desc: 'Garandeert 100% kit-compleetheid, leesbaarheid van de barcodes (score ≥ B), nauwkeurigheid van de kartonlabels en valtest ISTA-1A.'
+      metrics:
+        - { label: Fase, value: '06 · PSI' }
+        - { label: Kit, value: 'BOM-overeenkomst 100%' }
+        - { label: Resultaat, value: 'Geslaagd · vrijgegeven voor verzending' }
+      link: 'https://assets.supsfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link_label: 'Bekijk het geanonimiseerde voorbeeld (PDF)'
+doc_register:
+  tagline: Register van gecontroleerde documenten
+  title: 'Elk document achter een zending, op een rij'
+  subtitle: 'Elke order genereert een gestructureerd documentregister 00–15 — projectindex, goedgekeurde specificatie, BOM, verwijzingen naar graphics en verpakking, QIP, inspectieregistraties, NCR, wijzigingscontrole, briefing voor derden en vrijgaveoverzicht. Download de openbare documenten om de exacte structuur en de criteria te zien waarmee wij controleren.'
+  items:
+    - title: '00 · Projectkwaliteitsinspectieplan (QIP)'
+      description: 'Het kwaliteitscontract voor de order: punten, inspectieomvang, methoden, acceptatiecriteria en de registraties die je ontvangt.'
+      icon: '00'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Download het QIP (PDF)'
+    - title: '01 · Kwaliteitsinspectiestandaard'
+      description: 'De volledige inspectie- en garantiestandaard die wordt toegepast op gepersonaliseerde opblaasbare SUP-orders.'
+      icon: '01'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
+      link_label: 'Download de standaarden (PDF)'
+    - title: '02 · Kwaliteitsdocumentatiepakket'
+      description: 'De volledige documentstructuur die elk project ontvangt, in één overzichtspakket.'
+      icon: '02'
+      link: https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link_label: 'Download het pakket (PDF)'
+    - title: '03 · IQC-testrapporten'
+      description: 'Rapporten van inkomende goederencontrole — stof, PVC-rollen, ventielen en componenten.'
+      icon: '03'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Download de IQC-rapporten (PDF)'
+    - title: '04 · IPQC-testrapporten'
+      description: 'Rapporten van proces- en first article inspectie tegen de geblokkeerde revisie.'
+      icon: '04'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Download de IPQC-rapporten (PDF)'
+    - title: '05 · Luchtdichtheidstestrapporten'
+      description: '100% lekdetectie op naden, ventielintegriteit en notulen van drukbehoud.'
+      icon: '05'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Download de luchtdichtheidsrapporten (PDF)'
+    - title: '06 · FQC-testrapporten'
+      description: 'Eindcontrole van het board tegen het goedgekeurde monster — afmetingen, uitstraling, fin box.'
+      icon: '06'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Download de FQC-rapporten (PDF)'
+    - title: '07 · PSI-testrapporten'
+      description: 'Verpakkings- en pre-shipment inspectie — 100% kit-compleetheid, barcodescore, valtest.'
+      icon: '07'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Download de PSI-rapporten (PDF)'
+    - title: '08 · Vrijgavrapporten voor verzending'
+      description: 'Vrijgave-autorisatie, ondertekend wanneer alle punten zijn afgesloten, samen met het lotdossier.'
+      icon: '08'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Download de vrijgavrapporten (PDF)'
+    - title: '09 · Traceerbaarheids- en NCR-dossier'
+      description: 'Traceerbaarheid van het lot, gekoppeld aan specificatie/graphics/BOM, plus de registraties van de non-conformiteitencontrole.'
+      icon: '09'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Download het dossier (PDF)'
+    - title: '10 · SOP controle niet-conforme producten (ISO 8.7)'
+      description: 'De gecontroleerde procedure voor blokkering, afhandeling, herbewerking en vrijgave van niet-conforme producten.'
+      icon: '10'
+      link: https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link_label: 'Download de SOP (PDF)'
+    - title: '11 · SOP wijzigingscontrole herbewerking + bijlage'
+      description: 'De wijzigingscontroleprocedure en de uitvoeringsbijlage — containment, vrijgave en validatie.'
+      icon: '11'
+      link: https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'Download de SOP (PDF)'
+    - title: '12 · Pre-shipment vrijgaveoverzicht'
+      description: 'Het tweetalige vrijgaveoverzicht waarmee elk lot wordt verzonden en dat het register bij elkaar houdt.'
+      icon: '12'
+      link: https://assets.supsfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link_label: 'Download het overzicht (PDF)'
+    - title: '13 · Briefingmodel voor inspecties door derden'
+      description: 'Het briefingmodel dat inspecteurs gebruiken om een pre-shipment inspectie aan te kondigen, te plannen en te rapporteren.'
+      icon: '13'
+      link: https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Download het model (PDF)'
+    - title: '14 · PSI-checklist'
+      description: 'De pre-shipment inspectiechecklist voor de productie — kit-compleetheid, barcodescore, labels en valtest.'
+      icon: '14'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Download de checklist (PDF)'
+    - title: '15 · OEM-project haalbaarheids- en kwaliteitsgids'
+      description: 'Hoe een project van aanvraag naar goedgekeurd golden sample gaat — ontwerp- en kwaliteitsstappen vóór de serieproductie.'
+      icon: '15'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Download de gids (PDF)'
+traceability:
+  tagline: Traceerbaarheid per lot
+  title: 'Vier vragen die elk lot beantwoordt'
+  subtitle: 'Kwaliteitsregistraties worden per productielot bewaard en gekoppeld aan de toepasselijke productspecificatie, graphics, BOM en verpakkingsvereisten. Dit ondersteunt onderzoek en gecontroleerde actie wanneer een kwaliteitsprobleem wordt geïdentificeerd. In een audit van de koper beantwoordt ons kwaliteitsteam deze vier vragen ter plaatse — elk antwoord verwijst naar een gecontroleerde registratie.'
+  items:
+    - title: 'Wat is er geproduceerd?'
+      description: 'Product, model, configuratie en revisie zijn gekoppeld aan het ordernummer en de goedgekeurde specificatierevisie.'
+      icon: '1'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Bekijk het traceerbaarheidsdossier (PDF)'
+    - title: 'Welke materialen zijn gebruikt?'
+      description: 'Elke materiaalpartij die in het lot terechtkomt, wordt geregistreerd met zijn leverancier, zijn certificaat en zijn IQC-afhandeling.'
+      icon: '2'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Bekijk het traceerbaarheidsdossier (PDF)'
+    - title: 'Wie heeft geïnspecteerd en wanneer?'
+      description: 'Elke registratie vermeldt de rol van de inspecteur, datum, gebruikte instrumenten en resultaat — geen anonieme handtekeningen.'
+      icon: '3'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Bekijk het traceerbaarheidsdossier (PDF)'
+    - title: 'Hoe is het lot vrijgegeven?'
+      description: 'De vrijgave wordt door Quality geautoriseerd alleen wanneer alle punten zijn afgesloten; het afhandelingsbesluit wordt in de registratie gedocumenteerd.'
+      icon: '4'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Bekijk het traceerbaarheidsdossier (PDF)'
+non_conformance:
+  tagline: Controle van niet-conforme producten
+  title: 'Wanneer een defect wordt gedetecteerd: bevatten, beslissen, documenteren'
+  subtitle: 'Producten of componenten die niet voldoen aan de gedefinieerde acceptatiecriteria worden geïdentificeerd en onder controle geplaatst. Herbewerking of vervanging is alleen toegestaan via de toepasselijke kwaliteitsprocedure, gevolgd door een nieuwe verificatie vóór de geautoriseerde vrijgave.'
+  items:
+    - title: 'Detecteren en isoleren'
+      description: 'Defecte eenheden worden rood gelabeld en naar het quarantainestation gebracht — geen verdere behandeling of verpakking tot het afhandelingsbesluit.'
+      icon: tabler:alert-triangle
+    - title: 'Afhandeling via NCR'
+      description: 'Quality stelt een Non-Conformance Report op en stuurt de eenheid volgens de afhandelingsmatrix naar herbewerking, hercontrole, afkeuring of vernietiging.'
+      icon: tabler:git-branch
+      link: /factory/non-conforming-control
+      link_label: 'Standaard voor niet-conforme producten'
+    - title: 'Verifiëren en vrijgeven'
+      description: 'Herbewerkte eenheden worden opnieuw gecontroleerd tegen dezelfde criteria; de NCR wordt alleen afgesloten na het doorstaan van de nieuwe verificatie.'
+      icon: tabler:shield-check
+    - title: 'Controle van de vernietiging'
+      description: 'Afgekeurd materiaal wordt vernietigd met een ondertekend vernietigingscertificaat, zodat het nooit meer terug kan keren in het magazijn of op de markt.'
+      icon: tabler:trash
+      link: https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link_label: 'Vernietigings- en schrootcertificaat (PDF)'
+    - title: 'Feedback over de hoofdoorzaak'
+      description: 'Terugkerende defecten activeren corrigerende maatregelen bij het verantwoordelijke proces of de leverancier — een gesloten cyclus, geen papieren tijger.'
+      icon: tabler:refresh
+      link: https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'Wijzigingscontrole-SOP voor herbewerking (PDF)'
+third_party:
+  tagline: Ondersteuning voor door de koper aangevraagde en onafhankelijke inspecties
+  title: 'Jouw inspecteur is welkom in de fabriek'
+  subtitle: 'Door de koper aangevraagde en onafhankelijke inspecties door derden (SGS, TUV, Bureau Veritas, douanebemiddelaars) kunnen vóór de vrijgave van de productie worden besproken. Inspectieomvang, steekproefomvang, acceptatiecriteria, timing en rapportagevereisten moeten vóór de start van de productie worden bevestigd. Waar van toepassing coördineren we de toegang tot de relevante productie-, eindinspectie- en verpakkingsfasen volgens het overeengekomen inspectieplan.'
+  items:
+    - title: 'Planning van de inspecties'
+      description: 'Interne inspecties of inspecties door derden kunnen op elk van de zeven punten worden georganiseerd, met jouw inspectieplan als acceptatiebasis.'
+      icon: tabler:calendar-clock
+      link: /factory/quality-inspection
+      link_label: 'Inspectiestandaard en QMS-downloads'
+    - title: 'Pre-shipment briefingmodel'
+      description: 'Het briefingmodel dat inspecteurs gebruiken om een pre-shipment inspectie in onze fabriek aan te kondigen, te plannen en te rapporteren.'
+      icon: tabler:file-report
+      link: https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Download het briefingmodel (PDF)'
+    - title: 'PSI-checklist'
+      description: 'De pre-shipment inspectiechecklist voor de productie — kit-compleetheid, barcodescore, labels en valtest.'
+      icon: tabler:clipboard-check
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Download de PSI-checklist (PDF)'
+    - title: 'Volledig kwaliteitsdocumentatiepakket'
+      description: 'Een dossier dat het hele documentsysteem dekt — QIP, puntregistraties, traceerbaarheid en NCR-controle.'
+      icon: tabler:books
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Download het documentatiepakket (PDF)'
+    - title: 'OEM-project haalbaarheids- en kwaliteitsgids'
+      description: 'Hoe een project van aanvraag naar goedgekeurd golden sample gaat — de ontwerp- en kwaliteitsstappen vóór de serieproductie.'
+      icon: tabler:route
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Download de projectgids (PDF)'
+content_certifications:
+  tagline: Certificeringen en standaarden
+  title: 'Gecertificeerde kwaliteit, wereldwijd erkend'
+  subtitle: 'Certificeringen zijn zoveel waard als wat ze dekken. Hieronder vind je de certificeringsscope, de certificaathouder en hoe je de documenten voor jouw project kunt aanvragen of verifiëren.'
+  items:
+    - title: 'CE-markering'
+      description: 'De CE-conformiteitsdocumentatie is beschikbaar voor de configuraties die van toepassing zijn op de EU-markt volgens richtlijn 2013/53/EU (pleziervaartuigen); de scope wordt voor elk project bevestigd. Certificaatnummers en testrapporten op aanvraag beschikbaar.'
+      icon: tabler:certificate
+    - title: 'ISO 9001:2015'
+      description: 'Kwaliteitsmanagementsysteem gecertificeerd volgens ISO 9001:2015, dat ontwikkeling, productie en verkoop van opblaasbare boten en maritieme uitrusting dekt. Certificeringsscope en auditrapporten op aanvraag beschikbaar.'
+      icon: tabler:clipboard-check
+    - title: 'Sociale conformiteit BSCI'
+      description: 'Beoordeeld volgens BSCI (Business Social Compliance Initiative), dat de arbeidsomstandigheden en de conformiteit van de fabriek dekt. Auditrapport op aanvraag beschikbaar.'
+      icon: tabler:heart-handshake
+    - title: 'Materiaalconformiteit REACH'
+      description: 'De materialen voldoen aan de EU-verordening REACH voor chemische veiligheid. De materiaalverklaringen worden bijgeleverd met de productiedocumentatie van elke zending.'
+      icon: tabler:flask
+    - title: 'RoHS-conformiteit'
+      description: 'De beperking van gevaarlijke stoffen wordt gedocumenteerd volgens RoHS voor de toepasselijke componenten en materialen.'
+      icon: tabler:flame
+    - title: 'Materiaaltests'
+      description: 'De stoffen worden getest op treksterkte, scheurweerstand, UV-degradatie en koude-buiggedrag. Elke productiepartij wordt bemonsterd en geverifieerd tegen het gepubliceerde testprotocol.'
+      icon: tabler:test-pipe
+faqs:
+  tagline: FAQ
+  title: Veelgestelde vragen over ons kwaliteitssysteem
+  items:
+    - q: 'Kan ik de echte inspectierapporten downloaden?'
+      a: 'Ja. De zeven tweetalige rapporterdossiers op deze pagina — QIP, IQC, IPQC/FAI, luchtdichtheid, FQC, PSI en vrijgave voor verzending — zijn echte gecontroleerde registraties met de gereserveerde velden verwijderd. Ze tonen de exacte structuur, methoden en acceptatiecriteria die in elke order worden gebruikt.'
+    - q: 'Hoe worden de zeven punten op mijn project toegepast?'
+      a: 'Elk project ontvangt een Kwaliteitsinspectieplan (QIP) dat de punten definieert die van toepassing zijn op jouw product en markt, de inspectieomvang bij elk punt en de registraties die je ontvangt. Download het QIP-voorbeeld op deze pagina om de structuur te zien.'
+    - q: 'Zijn deze inspectievoorbeelden echt?'
+      a: 'Ja. De voorbeelden volgen onze daadwerkelijke gecontroleerde registratiestructuur — documentkop, inspectiechecklist, acceptatiecriteria, methode, resultaten, rol van de inspecteur en vrijgavebesluit. Alle identificerende waarden zijn vervangen door demonstratieve waarden (DEMO-*-codes), zodat er geen klantgegevens, graphics, orders of prijzen worden onthuld.'
+    - q: 'Waarom zijn de voorbeelden geanonimiseerd?'
+      a: 'De vertrouwelijkheid van kopers heeft prioriteit. Klantnamen, graphics, ordergegevens, leveranciersinformatie en prijzen zijn by design beschermd. Door anonimisering kan elke potentiële koper onze registratiestructuur en traceerbaarheid verifiëren zonder de commerciële gegevens van een andere klant te onthullen.'
+    - q: 'Kunnen we de volledige inspectierapporten voor ons project ontvangen?'
+      a: 'Ja. Voor goedgekeurde projecten delen we de kwaliteitsdocumentatie die op jouw order van toepassing is — kwaliteitsinspectieplan, rapporten van inkomende goederen, proces, luchtdichtheid, eindcontrole en verpakking, plus de vrijgave-autorisatie voor verzending — gekoppeld aan de lot-traceerbaarheid. Gevoelige commerciële gegevens blijven zoals overeengekomen onder NDA.'
+    - q: 'Wat bevat een aan het lot gekoppelde inspectieregistratie?'
+      a: 'Elke registratie koppelt het productielot aan de toepasselijke specificatie- of tekeningrevisie, registreert elk controlepunt tegen de acceptatiecriteria met methode en gebruikt instrument, en sluit af met de rol van de inspecteur, de resultaatstatus en het door Quality ondertekende vrijgavebesluit.'
+evidence_review:
+  tagline: 'Bewijzen en verificatie'
+  title: 'GEVERIFIEERDE SPECIFICATIES'
+  body: 'Alle productieverklaringen op deze pagina worden geverifieerd door ons Manufacturing Engineering Team op de locatie in Laixi, Qingdao. Certificaten, QC-inspectieregistraties, druk- en structurele testrapporten en lot-traceerbaarheidsregistraties zijn op aanvraag beschikbaar. Specificaties voor het laatst geverifieerd in september 2026.'
+
+cta:
+  title: 'Kwaliteitsvereisten nodig voor jouw SUP-project?'
+  subtitle: 'Deel je productcategorie, doelmarkt, geschatte hoeveelheid en alle inspectie-, documentatie- of verpakkingsvereisten. Wij verifiëren de toepasselijke projectinputs en adviseren de volgende stap voor monsterontwikkeling of productieplanning. Een NDA-gesprek is mogelijk vóór het delen van niet-openbare specificaties, graphics of kwaliteitsvereisten.'
+  actions:
+    - variant: primary
+      text: Vraag een projectkwaliteitsverificatie aan
+      href: /contact#quality-inquiry
+    - text: Bezoek ons kwaliteitsinspectielaboratorium
+      href: /randdcenter/quality-inspection-lab
+    - text: Inspectiestandaard en QMS-downloads
+      href: /factory/quality-inspection
+    - text: Standaard voor niet-conforme producten
+      href: /factory/non-conforming-control

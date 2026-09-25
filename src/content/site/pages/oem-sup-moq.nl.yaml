@@ -1,0 +1,67 @@
+meta:
+  title: "MOQ opblaasbare SUP — minimale bestelhoeveelheden simpel uitgelegd"
+  description: "Duidelijke MOQ-niveaus voor de productie van aangepaste opblaasbare SUP's: 5–10 co-branding, 20–50 piloot, 90–100+ volume per rol. Beslisboom op basis van de mate van aanpassing."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Direct antwoord"
+    directAnswer:
+      answer: "Pilotruns op bestaande platforms starten vanaf 20–50 stuks; het standaard-MOQ is 90–100+ stuks per rol drop-stitch van 150 m (~180–220 planken)."
+      condition: "Het specifieke MOQ hangt af van de vorm van de plank, de materiaalrol, de print, de verpakking en of er een nieuwe matrijs nodig is."
+      value: "5–10 co-branding · 20–50 piloot · 90–100+ per rol volume"
+      verifiedDate: "September 2026"
+      sourceType: "fabrieksregistratie"
+    body: |
+      Het MOQ bij SUPsfactory is getrapt op basis van de mate van aanpassing, het is geen
+      enkel vast getal. Elk niveau komt overeen met een concreet productiescenario:
+
+      | Scenario | MOQ | Eenheden | Voorwaarde |
+      |----------|-----|----------|------------|
+      | Bestaand platform, alleen logo-overdruk | 5–10 stuks | per ontwerp | Zelfde vorm, zelfde materiaalrol, zelfde kleurvariant |
+      | Aangepaste graphics / EVA / verpakking op bestaand platform | 20–50 stuks | pilotpartij | Zelfde vorm; de nieuwe artwork vereist een visuele proef |
+      | Standaard volumeproductie (elk platform) | 90–100+ stuks | per rol van 150 m (~180–220 planken) | Per materiaalrol; meer SKU''s = aparte rollen |
+      | Nieuwe vorm / eigen vorm | 90–100+ stuks | productierun | De matrijzenbouw voegt 15–20 dagen toe; eenmalige matrijkosten |
+
+  - title: 'Wat telt als een "materiaalrol"?'
+    body: |
+      Eén rol van 150 meter drop-stitch stof levert, afhankelijk van de afmetingen van de plank (meestal
+      10–11 ft), circa 180–220 planken op. Elke eigen SKU — dat wil zeggen een andere combinatie van maat, kleur
+      of materiaal — vereist eigen rollen en dus een eigen MOQ.
+
+      Daarom wordt het MOQ daarom aangegeven "per rol van 150 m" in plaats van "per ontwerp": twee
+      kleurvarianten van dezelfde plankvorm zijn twee rollen, twee MOQ''s.
+
+  - title: "Co-branding versus piloot versus volume"
+    body: |
+      **Co-branding (5–10 stuks)**: jouw logo op een bestaand platform dat al in productie is voor
+      een ander merk. Geen wijziging van de artwork behalve de plaatsing van het logo.
+      De snelste weg naar een ge-branded sample.
+
+      **Pilotpartij (20–50 stuks)**: aangepaste graphics, ontwerp van het antislip EVA-deckpad
+      of verpakking op een bestaande platformvorm. Vereist goedkeuring van de visuele
+      proef vóór de productie. Ideaal om een nieuwe look op de markt te testen.
+
+      **Volumeproductie (90–100+ stuks per rol)**: volledige productierun met elke
+      combinatie van aanpassingen. Dit is het standaard commerciële niveau. Elke
+      materiaalrol levert circa 180–220 planken op.
+
+  - title: "MOQ voor eigen vormen"
+    body: |
+      Als jouw ontwerp een nieuwe plankvorm vereist (niet alleen nieuwe graphics op een
+      bestaande vorm), moet er een eigen matrijs worden gemaakt. Dit gebeurt op volumeniveau
+      (90–100+ stuks), omdat de investering in de matrijs een productierun vereist om
+      te worden terugverdiend. De matrijzenbouw voegt 15–20 dagen toe aan de standaard levertijd.
+
+      Eigendom van de matrijs: de matrijs is van jou. Hij wordt in onze fabriek bewaard en
+      uitsluitend gebruikt voor jouw productieruns.
+
+  - title: "Sample-bestellingen"
+    body: |
+      Pre-productie-samples beschikbaar met 1–2 planken voor bevestiging van pasvorm/afwerking.
+      Ze worden met de hand gemaakt volgens jouw specificatie en vergen doorgaans
+      7–12 dagen. De samplekosten worden verrekend met je eerste volumebestelling.
+
+evidence_review:
+  tagline: 'Bewijs & verificatie'
+  title: 'GECONTROLEERDE SPECIFICATIES'
+  body: 'Alle productieclaims op deze pagina zijn geverifieerd door ons Manufacturing Engineering-team in de fabriek in Laixi, Qingdao. Certificaten, QC-inspectieprotocollen, drukproefrapporten en structuur- en partijtraceerbaarheidsprotocollen zijn op aanvraag beschikbaar. Specificaties voor het laatst geverifieerd: september 2026.'

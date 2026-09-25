@@ -1,0 +1,14 @@
+meta:
+  title: 'Nieuws — SUP-fabrikant & watersportupdates | {SITE}'
+  description: 'Laatste nieuws van Vatrad: fabrieksupdates, nieuwe modellen opblaasbare SUP''s, certificeringen en nieuws uit de watersportsector.'
+  keywords:
+    - 'nieuws sup fabrikant'
+    - 'Vatrad updates'
+    - 'aankondigingen opblaasbare SUP'
+    - 'nieuws watersportsector'
+hero_text:
+  tagline: ''
+  title: Nieuws
+  subtitle: De laatste nieuwtjes van Vatrad — productlanceringen, bedrijfsupdates, gidsen en verhalen van het water
+news_list:
+  limit: 100

@@ -1,0 +1,125 @@
+meta:
+  title: 'SUP-productiecapaciteiten | Fabriek van opblaasbare paddle boards'
+  description: 'SUP-productiecapaciteiten in Qingdao: rompengineering in eigen huis (0,1 mm), drop-stitch verwerking, hoogfrequent lassen, printen, bevestiging, kwaliteitscontrole van 100 punten en 120.000+ planken per jaar.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'SUP-productiecapaciteiten'
+    - 'capaciteit fabriek opblaasbare paddle boards'
+    - 'SUP-productie in eigen huis'
+    - 'productiecapaciteiten paddle boards'
+    - 'SUP-fabriek Qingdao'
+
+hero:
+  tagline: Productiecapaciteiten
+  title: 'SUP-productiecapaciteiten'
+  subtitle: 'Elk proces — rompengineering, verwerking van de drop-stitch kern, hoogfrequent lassen, printen, bevestiging, assemblage, testen en verpakking — gebeurt intern in onze fabriek van 12,500 m² in Qingdao. Eén verantwoordelijk team beheert je project van de eerste tekening tot de verzonden container.'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'De SUP-productie is volledig intern in onze fabriek in Qingdao: rompontwerp en dimensionale engineering met een CNC-precisie van 0,1 mm; verwerking van drop-stitch materiaal en hoogfrequent lassen op 4 geautomatiseerde lijnen; grafische print; EVA-deckpad stansen; interne bevestiging (+15–20 dagen voor nieuwe vormen); assemblage volgens een checklist van 100 punten en een druk- en dichtheidstest van 24 uur op 18,0 PSI met automatische afkeur bij een daling boven 0,50 PSI. De jaarcapaciteit is 120.000+ planken (circa 10.000/maand) in 4 speciale werkplaatsen met 350+ medewerkers, geleverd aan meer dan 50 landen onder jouw merk.'
+  verified: 'September 2026'
+
+capabilities:
+  tagline: Interne capaciteiten
+  title: 'Capaciteitsgroepen — allemaal in eigen huis uitgevoerd'
+  subtitle: 'Elke capaciteit wordt direct in de fabriek uitgevoerd: kortere doorlooptijden, kwaliteitscontrole in elke fase en jouw specificatie blijft op één plek.'
+  groups:
+    - title: Design & Engineering
+      items:
+        - 'Rompontwerp & dimensionale engineering'
+        - 'CNC-precisie van 0,1 mm'
+        - 'Bevestiging & bouw van matrijzen op maat'
+        - 'Graphics voor verpakking en verkoop'
+    - title: Productie
+      items:
+        - 'Verwerking van de drop-stitch kern'
+        - 'Hoogfrequent lassen van 15 kW (4 geautomatiseerde lijnen)'
+        - 'Grafische print & design'
+        - 'Stansen van EVA-deckpads'
+        - 'Assemblage & afwerking van de planken'
+        - 'Samenstelling van de accessoires'
+    - title: Kwaliteit & Conformiteit
+      items:
+        - 'Assemblagechecklist van 100 punten'
+        - '18,0 PSI · drukbehoud 24 uur'
+        - 'Steekproef volgens ISO 2859-1 Niveau II'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - 'Partijtraceerbaarheid gedurende 10 jaar'
+    - title: Service & Logistiek
+      items:
+        - 'Prototypesamples in 7–12 dagen'
+        - 'Productie in 25–35 dagen'
+        - 'Vormen op maat in +15–20 dagen'
+        - 'FOB Qingdao · CIF · DDP naar meer dan 50 landen'
+
+table:
+  headers:
+    capability: Capaciteit
+    in_house: Intern
+    standard: Wat de standaard omvat
+  rows:
+    - capability: 'Rompontwerp & dimensionale engineering'
+      in_house: 'Ja — intern technisch departement'
+      standard: 'Ontworpen en gevalideerd vóór de bevestiging; CNC-precisie van 0,1 mm voor vormen en snijden'
+    - capability: 'Verwerking van drop-stitch materiaal'
+      in_house: 'Ja — interne kernproductie'
+      standard: 'Drop-stitch dichtheidsbereik 12–15 PSI, genest snijden geoptimaliseerd per plankmaat'
+    - capability: 'Hoogfrequent lassen & naadconstructie'
+      in_house: 'Ja — intern'
+      standard: 'Hoogfrequente lascapaciteit van 15 kW op 4 geautomatiseerde productielijnen'
+    - capability: 'Grafische print & design'
+      in_house: 'Ja — intern ontwerp en print'
+      standard: 'Onbeperkte paletten, naadloze graphics, grafische ondersteuning door het fabrieksteam'
+    - capability: 'Stansen van antislip EVA-deckpads'
+      in_house: 'Ja — intern'
+      standard: 'Pad-specificatie 45–55 Shore C, deckpads en logo''s passend gesneden'
+    - capability: 'Vormen en bevestiging op maat'
+      in_house: 'Ja — interne vormwerkplaats'
+      standard: 'Nieuwe vormen vereisen 15–20 dagen; de vormen blijven eigendom van de fabriek tenzij anders overeengekomen'
+    - capability: 'Assemblage & afwerking van de planken'
+      in_house: 'Ja — intern'
+      standard: 'Assemblagechecklist van 100 punten; handgrepen, D-ringen en accessoires volgens specificatie geïnstalleerd'
+    - capability: 'Druk- & belastingtest'
+      in_house: 'Ja — interne testbank'
+      standard: 'Drukbehoud van 18,0 PSI gedurende 24 uur, automatische afkeur bij een daling boven 0,50 PSI'
+    - capability: 'Eindinspectie & traceerbaarheid'
+      in_house: 'Ja — intern kwaliteitsteam'
+      standard: 'Steekproef volgens ISO 2859-1 Niveau II; ERP-partijtraceerbaarheid gedurende 10 jaar per serienummer'
+    - capability: 'Verpakking & export'
+      in_house: 'Interne kitting + gecertificeerde logistiek'
+      standard: 'Commerciële verpakkingen, export-zeeverpakking en serielabels onder jouw merk'
+
+faq_section:
+  tagline: FAQ
+  title: Vragen over de SUP-productiecapaciteiten
+  questions:
+    - q: Welke productieprocessen vinden intern plaats?
+      a: 'Alle kernprocessen zijn intern: rompengineering, verwerking van de drop-stitch kern, hoogfrequent lassen, printen, EVA-stansen, assemblage, testen en verpakking. Accessoires en sommige grondstoffen komen van gecertificeerde leveranciers; de eindsamenstelling van de kit gebeurt intern voor een volledige traceerbaarheid.'
+    - q: Wat is jullie productiecapaciteit?
+      a: '120.000+ planken per jaar (circa 10.000/maand) op 4 geautomatiseerde lijnen en 4 speciale werkplaatsen op 12,500 m² met meer dan 350 medewerkers.'
+    - q: Welke minimum bestelhoeveelheid geldt voor deze capaciteiten?
+      a: 'De standaardhoeveelheid start vanaf 90–100+ eenheden per goedgekeurde configuratie (één rol van 150 m drop-stitch weefsel); pilotpartijen starten vanaf 20–50 eenheden op bestaande platforms; orders met alleen een logo starten vanaf 5–10 eenheden.'
+    - q: Met welke levertijden moeten we rekening houden?
+      a: 'Prototypesamples in 7–12 dagen; productie 25–35 dagen na bevestigde bestelling en aanbetaling; de bevestiging voor vormen op maat voegt 15–20 dagen toe.'
+    - q: Hoe beïnvloeden de capaciteiten de kwaliteit?
+      a: 'Elk proces voedt het kwaliteitssysteem in 7 fasen: assemblagechecklist van 100 punten, drukbehoud van 18,0 PSI gedurende 24 uur met automatische afkeur boven 0,50 PSI daling, steekproeven volgens ISO 2859-1 Niveau II en ERP-partijtraceerbaarheid gedurende 10 jaar.'
+
+cta:
+  title: 'Controleer welke capaciteiten bij jouw project passen'
+  subtitle: 'Stuur je productaanvraag — technische controle en een passende offerte binnen één werkdag.'
+  actions:
+    - variant: primary
+      text: Vraag een productieofferte aan
+      href: /nl/contact#custom-oem
+    - text: Bezoek de fabriek
+      href: /nl/factory
+    - text: Productieproces van de fabriek
+      href: /nl/factory/process
+    - text: Capaciteit van de fabriek & levertijden
+      href: /nl/factory/capacity
+    - text: Kwaliteit & testen
+      href: /nl/quality
+    - text: Proof Center — bewijs van de fabriek
+      href: /nl/proof-center
+    - text: OEM- & ODM-productie
+      href: /nl/oem-manufacturing

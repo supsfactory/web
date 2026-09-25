@@ -1,0 +1,81 @@
+meta:
+  title: 'Verifieer onze SUP-fabriek | Bezoek, audit & inspectie in Qingdao'
+  description: 'Hoe je de SUP-fabriek verifieert voordat je je vastlegt: een fabrieksbezoek plannen, een audit of inspectie door derden laten uitvoeren en QC-registers, lot-traceerbaarheid en certificaten in Qingdao, China, inzien.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'sup fabriek verifiëren'
+    - 'sup fabrieksbezoek Qingdao'
+    - 'sup fabriek audit'
+    - 'sup inspectie derden'
+    - 'verificatie opblaasbare paddleboard fabriek'
+
+hero:
+  tagline: 'Fabriekverificatie'
+  title: 'Verifieer de SUP-fabriek voordat je je vastlegt'
+  subtitle: 'Je moet een fabriek niet blind vertrouwen. Plan een bezoek, laat een audit of onafhankelijke inspectie uitvoeren en verifieer certificaten, QC-registers en lot-traceerbaarheid vóór je eerste order — dit alles staat open voor serieuze kopers.'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'De SUPsfactory-locatie is een fabriek van 12.500 m² in Qingdao, Shandong, China, met meer dan 350 medewerkers, 4 geautomatiseerde productielijnen en 4 gespecialiseerde werkplaatsen. Kopers kunnen het op vier manieren verifiëren: het hele jaar door de fabriek bezoeken, audits organiseren of aanvragen (BSCI, ISO 9001), een inspectie door derden laten uitvoeren (SGS, TÜV, BV, Intertek; bemonstering ISO 2859-1 niveau II) of de gedocumenteerde bewijzen inzien — certificaten, 100-punts montagechecklist, dichtheidsrapporten op 18,0 PSI gedurende 24 uur en een ERP-lot-traceerbaarheid van 10 jaar per serienummerlabel.'
+  verified: 'September 2026'
+
+features:
+  title: 'Manieren om de fabriek te verifiëren'
+  subtitle: 'Vier verificatieroutes, elk georganiseerd door jouw projectspecialist — kies er één of combineer er meerdere.'
+  items:
+    - title: 'Een fabrieksbezoek plannen'
+      description: 'Wij verwelkomen het hele jaar door kopersbezoeken in Qingdao, met ophaalservice op de luchthaven en een fabrieksrondleiding rondom jouw agenda. Een NDA is altijd welkom.'
+      icon: 'tabler:map-pin'
+    - title: 'Audit door derden'
+      description: 'De BSCI- en ISO 9001-auditrapporten zijn op aanvraag beschikbaar en geco-organiseerde audits zijn welkom, zodat je samen met de auditor door de productiehal kunt lopen.'
+      icon: 'tabler:clipboard-check'
+    - title: 'Onafhankelijke inspectie'
+      description: 'Pre-shipment inspectie of inspectie tijdens de productie met SGS, TÜV, BV of Intertek volgens bemonstering ISO 2859-1 niveau II — voor jouw rekening, door ons georganiseerd en rechtstreeks aan jou gerapporteerd.'
+      icon: 'tabler:zoom-check'
+    - title: 'Documentaire verificatie'
+      description: 'Kopieën van certificaten, inkomende/proces/eindcontrole-registers, drukvasthoudingsrapporten en lot-traceerbaarheidsdossiers worden gedeeld vóór jouw eerste order.'
+      icon: 'tabler:file-search'
+    - title: 'Live video-rondleiding door de fabriek'
+      description: 'Nog niet klaar om te reizen? We doorlopen het productiegebied in een live videogesprek — drop-stitch bewerking, lassen, printen, montage, testen en verpakken — voordat je een order plaatst.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: 'Vragen over verificatie'
+  title: 'Fabriekverificatie & inspectie — Vragen en antwoorden'
+  questions:
+    - q: 'Waar ligt de fabriek?'
+      a: 'De locatie ligt in Qingdao, Shandong, China — een fabriek van 12.500 m² met meer dan 350 medewerkers, 4 geautomatiseerde lijnen en 4 gespecialiseerde werkplaatsen. Het adres en de locatie op de kaart worden aan geverifieerde kopers meegedeeld bij het plannen van een bezoek, en het productieadres verschijnt in de contracten, de BSCI-audit en de exportdocumentatie.'
+    - q: 'Wat produceert de fabriek?'
+      a: 'Opblaasbare SUP-boards — van romptechniek en de bewerking van de drop-stitch kern tot graphics, montage, testen en exportverpakking. Alle kernprocessen voor SUP vinden onder één dak plaats.'
+    - q: 'Welke processen worden in-house uitgevoerd?'
+      a: 'Rompontwerp, dimensionale engineering, bewerking van de drop-stitch kern, HF-lassen, grafisch printen, reliëf van EVA-pads, mallenbouw voor aangepaste vormen, montage, testen en verpakken — alles in-house. Accessoires en enkele grondstoffen komen van gecertificeerde leveranciers en worden voor de traceerbaarheid in-house opgemaakt.'
+    - q: 'Kunnen kopers de fabriek bezoeken?'
+      a: 'Ja. Kopersbezoeken worden het hele jaar door in Qingdao verwelkomd. De ophaalservice van de internationale luchthaven Qingdao Jiaodong en een complete fabrieksrondleiding worden door jouw projectspecialist georganiseerd.'
+    - q: 'Kunnen kopers een inspectie door derden organiseren?'
+      a: 'Ja. SGS-, TÜV-, BV- en Intertek-inspecties zijn welkom vóór of tijdens de productie. De pre-shipment inspectie gebruikt bemonstering ISO 2859-1 niveau II en het rapport wordt rechtstreeks door de inspectie-instelling naar jou gestuurd.'
+    - q: 'Kunnen kopers de QC-documentatie aanvragen?'
+      a: 'Ja. Kopieën van certificaten, inkomende/proces/eindcontrole-registers, dichtheidsrapporten op 18,0 PSI gedurende 24 uur en de 100-punts montagechecklist worden per lot op aanvraag verstrekt.'
+    - q: 'Hoe wordt de lot-traceerbaarheid gegarandeerd?'
+      a: 'Elk board draagt een serienummerlabel. De loten worden geregistreerd in een decennium aan ERP-gegevens die stofrol, materialen, productiedatum, operators en testresultaten aan elk serienummer koppelen.'
+    - q: 'Hoe wordt het goedgekeurde monster gebruikt?'
+      a: 'Het goedgekeurde monster fungeert als productiereferentie. Materialen, afmetingen, graphics, accessoires en oppervlak worden bij elke QC-poort met dat monster vergeleken, zodat de productie overeenkomt met wat jij hebt goedgekeurd.'
+    - q: 'Hoe wordt de productiekwaliteit beheerd?'
+      a: 'Een kwaliteitssysteem op 7 niveaus (Node 01–07) voert inkomende, proces- en eindcontrolepoorten uit, met dichtheidstests op 18,0 PSI gedurende 24 uur (automatische afkeur bij een drukverlies vanaf 0,50 PSI) en eindvrijgave volgens bemonstering ISO 2859-1 niveau II.'
+
+cta:
+  title: 'Eerst verifiëren, dan beslissen'
+  subtitle: 'Boek een fabrieksrondleiding of vraag de verificatiedocumenten aan — een projectspecialist reageert binnen één werkdag.'
+  actions:
+    - variant: primary
+      text: Plan een verificatiegesprek
+      href: /nl/contact
+    - text: Bewijscentrum — bewijzen van de fabriek
+      href: /nl/proof-center
+    - text: Inspectiechecklist van de fabriek
+      href: /nl/factory-audit-checklist
+    - text: OEM-vertrouwen & basis van de fabriek
+      href: /nl/oem-trust-assurance
+    - text: Kwaliteit & testen
+      href: /nl/quality
+    - text: Fabriek & productie
+      href: /nl/factory

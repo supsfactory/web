@@ -1521,6 +1521,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+  nl: [
+    {
+      slug: 'all-around',
+      navLabel: 'All-round platforms',
+      metaTitle: 'Op maat gemaakte all-round SUP-planken — OEM-fabrikant van opblaasbare SUPs | SUPsfactory',
+      metaDescription:
+        'Op maat gemaakte opblaasbare all-round SUP-planken onder jouw merk — brede en stabiele planken, OEM/ODM vanaf 90–100+ stuks, monsters in 7–12 dagen. Rechtstreeks uit de fabriek in Qingdao, China.',
+      kicker: 'Serie · All-round',
+      h1: 'Op maat gemaakte all-round SUP-planken — het startplatform voor nieuwe merken',
+      intro: [
+        "De all-round plank is het werkpaard van de SUP-categorie: breed genoeg om stabiel te zijn voor beginners, wendbaar genoeg om ervaren paddelaars bij de les te houden en licht genoeg om overal mee naartoe te nemen. De meeste nieuwe merken en verhuurvloten beginnen hier.",
+        'We produceren all-round platforms onder jouw merk vanaf 90–100+ stuks per rol van 150 m (volume), met proefproducties van 20–50 stuks. Vorm, rails, layup, kleuren, opdruk over het volledige deck en verpakking worden project per project gespecificeerd.',
+      ],
+      faqs: [
+        {
+          q: 'Kan ik een all-round SUP-plank voor mijn merk aanpassen?',
+          a: 'Ja. Elk all-round platform is een productiebasis: jij bepaalt afmetingen (meestal van 10′6″ tot 11′6″), breedte, dikte, layup (enkel/dubbellaags of fusie), railconfiguratie, EVA-pad, opdruk over het volledige deck en verpakking. Vormen met een eigen mal starten vanaf 90–100+ stuks per vorm; standaard volumeproductie vanaf 90–100+ stuks per rol van 150 m.',
+        },
+        {
+          q: 'Wat is de MOQ voor all-round SUP-planken?',
+          a: 'Standaard volumepartijen starten vanaf 90–100+ stuks per rol van 150 m; proefproducties op standaard platforms vanaf 20–50 stuks; volledige productie met eigen mal vanaf 90–100+ stuks per vorm. We versturen monsters in 7–12 dagen en de serieproductie vereist 25–35 dagen na bevestiging van de order en aanbetaling.',
+        },
+        {
+          q: 'Wat omvat het winkelklaar pakket?',
+          a: 'Het complete pakket: opblaasbare plank met drop-stitch kern, verstelbare peddel, handpomp (of elektrische tweestadiumpomp), reparatieset, transportruksak en bedrukte doos. De accessoires kunnen worden vervangen of geüpgraded op basis van jouw doelmarkt.',
+        },
+        {
+          q: 'Welke EVA-deckhardheid produceren jullie?',
+          a: 'De antislip pads voor het deck gaan meestal van 45–55 Shore C — een gemiddeld-lage hardheid, met goede grip onder de voeten en zonder hard te worden in de zon. Dikte, groeven, uitsnijdingen en logopositie worden project per project gespecificeerd.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Raceplatforms',
+      metaTitle: 'Op maat gemaakte race SUP-planken — Opblaasbare racing platforms OEM | SUPsfactory',
+      metaDescription:
+        'Op maat gemaakte opblaasbare race SUP-planken voor clubs, evenementen en merken — drop-stitch race rompen, OEM vanaf 90–100+ stuks, CE-gecertificeerde productie. Rechtstreeks uit de fabriek.',
+      kicker: 'Serie · Race',
+      h1: 'Op maat gemaakte race SUP-planken — race rompen geproduceerd voor jouw merk',
+      intro: [
+        'Raceplanken ruilen stabiliteit in voor snelheid: langere en smallere profielen, met gestroomlijnde boegvormen en beperkte rocker, ontworpen voor het racepeddelwerk. De opblaasbare versies halen de prestaties van harde planken in een transportbaar platform.',
+        'We produceren race platforms voor merken, clubs en evenementorganisatoren met nauwkeurige drop-stitch kernen, race layup en op snelheid gerichte rompvormen — statistisch getest in ons hydrodynamische testbassin.',
+      ],
+      faqs: [
+        {
+          q: 'Welke afmetingen voor race SUP-planken kunnen jullie produceren?',
+          a: 'Typische race platforms gaan van 12′6″ × 28″ voor de 12′6-klasse tot 14′ × 23″–25″ voor de Unlimited/Touring race formats. Breedte, rocker en boegprofiel worden gekalibreerd op de doelgroep van rijsers en geverifieerd op een fysiek monster.',
+        },
+        {
+          q: 'Vereisen raceplanken een speciale constructie?',
+          a: 'Ja: raceplanken gebruiken een lichtere drop-stitch kern met dicht weefsel, een hogere druk (18–20 PSI) en verstijfdere, stijvere rails om de rompvorm op hoge snelheid te behouden. De keuze van de layup (enkel- of dubbellaags) balanceert gewicht en stijfheid, en die bepalen we samen met jou project per project.',
+        },
+        {
+          q: 'Kunnen clubs raceplanken voor hun team bestellen?',
+          a: 'Ja. Programma\'s voor clubs en teams bestellen vanaf 90–100+ stuks (volume) met de clubopdruk en kunnen race- en trainingsplatforms in één order mengen. Voor gecombineerde volumes gelden vlootprijzen.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Surfplatforms',
+      metaTitle: 'Op maat gemaakte surf SUP-planken — Hybride opblaasbare surf platforms OEM | SUPsfactory',
+      metaDescription:
+        'Op maat gemaakte opblaasbare surf SUP-planken — hybride surfprofielen met afgeronde rails en verhoogde rocker, geproduceerd onder jouw merk vanaf 90–100+ stuks in Qingdao, China.',
+      kicker: 'Serie · Surf',
+      h1: 'Op maat gemaakte surf SUP-planken — hybride surf platforms om op de golven te rijden',
+      intro: [
+        'Surf SUP-planken brengen golfperformance naar een transportbaar platform: kortere lengtes, meer rocker, afgeronde rails en concave boegvormen die de lijn op de golfwand vasthouden. Opblaasbare surfvormen zijn de meest toegankelijke manier om met de peddel te gaan surfen.',
+        'We produceren surf platforms onder jouw merk, met shaping en constructiedetails specifiek voor golven — van het complete soft-top pakket tot performance layup.',
+      ],
+      faqs: [
+        {
+          q: 'Welke maten zijn beschikbaar voor surf SUP-planken?',
+          a: 'De meest voorkomende surf platforms gaan van 8′6″ tot 10′6″ met breedtes rond de 30″–34″. Lengte, rocker en railprofiel worden gespecificeerd op basis van het gewicht van de rijsers en het golftype, en geverifieerd op een fysiek monster vóór de productie.',
+        },
+        {
+          q: 'Zijn opblaasbare surfplanken sterk genoeg voor verhuur?',
+          a: 'Met versterkte rails en UV-bestendig PVC houden onze surf platforms stand bij verhuur en lessen in surfschools. Verhuurvloten combineren doorgaans all-round en surfvormen — de vlootprijs geldt voor het gemengde volume.',
+        },
+        {
+          q: 'Kunnen jullie onze merkgraphics op surfplanken aanbrengen?',
+          a: 'Ja. Opdruk over het volledige deck, bodemdesign, EVA antislip pads en verpakking worden gemaakt op basis van jouw bestanden of ontwikkeld door ons designteam aan de hand van de assets van jouw merk.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Touringplatforms',
+      metaTitle: 'Op maat gemaakte touring SUP-planken — Langeafstandsplatforms OEM | SUPsfactory',
+      metaDescription:
+        'Opblaasbare touring SUP-planken voor lange afstanden — displacement rompen vanaf 12′6″+, geschikt voor meerdaagse expedities, OEM vanaf 90–100+ stuks, rechtstreeks uit de fabriek.',
+      kicker: 'Serie · Touring',
+      h1: 'Op maat gemaakte touring SUP-planken — gemaakt voor afstand, lading en navigatie',
+      intro: [
+        'Touringplanken zijn lang en efficiënt: slanke boegen om te glijden, gematigd volume voor stabiliteit in open water en genoeg romplengte om uitrusting mee te nemen op meerdaagse expedities. Het is het platform van keuze voor langeafstandspaddelaars en expeditie-outfitters.',
+        'We produceren touring platforms onder jouw merk, met displacement shaping, bevestigingspunten en deckruimte voor de lading, plus accessoiresystemen die compatibel zijn met de lading (bungees, D-ringen, houders).',
+      ],
+      faqs: [
+        {
+          q: 'Welke touringmaten produceren jullie?',
+          a: 'Touring platforms zijn typisch van 12′6″ tot 14′, met breedtes van 28″–32″. De langere 14′-rompen geven voorrang aan glijden; de bredere versies voegen stabiliteit toe met lading. De specificaties worden bevestigd met een fysiek monster vóór de serieproductie.',
+        },
+        {
+          q: 'Hebben touringplanken laad- en bevestigingsopties?',
+          a: 'Ja: bungeenetten voor de lading, roosters met D-ringen, hengelhouders en accessoiregeleiders worden project per project gespecificeerd. Touringpakketten combineren gewoonlijk de planken met ruksakken en hogedrukpompen.',
+        },
+        {
+          q: 'Leveren jullie touringplanken aan outfitters en verhuurbeheerders?',
+          a: 'Ja. Outfitters en beheerders kunnen dedicated touringvloten van 20–50 stuks (proef) opzetten met vlootprijzen, reserveonderdelen en een vast vervangingsschema per seizoen.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Yogaplatforms',
+      metaTitle: 'Op maat gemaakte yoga SUP-planken — Brede en stabiele platforms OEM | SUPsfactory',
+      metaDescription:
+        'Op maat gemaakte opblaasbare yoga SUP-planken — extra brede en stabiele platforms met zachte decks voor studio\'s, resorts en instructeurs. OEM vanaf 90–100+ stuks, rechtstreeks uit de fabriek.',
+      kicker: 'Serie · Yoga',
+      h1: 'Op maat gemaakte yoga SUP-planken — extra brede platforms voor de beoefening op het water',
+      intro: [
+        'Yogaplanken zijn gemaakt voor rust: extra breedte en volume voor een stabiel platform, zachte soft-tops voor handen en voeten en lage profielen die de plank dicht bij het water houden. Ze dienen studio\'s, resorts en instructeurs die yoga-programma\'s op het water aanbieden.',
+        'We produceren yoga platforms onder jouw merk, met de breedste stabiele profielen, premium EVA-decks en opschalingsopties voor studio- en resortvloten.',
+      ],
+      faqs: [
+        {
+          q: 'Wat maakt een SUP-plank bijzonder geschikt voor yoga?',
+          a: 'Stabiliteit staat voorop: extra breedte (33″–36″) en volume houden de plank vlak en stabiel. Een zacht EVA-deck beschermt handen, knieën en voeten, en een laag railprofiel vermindert het slingeren bij het op- en afstappen.',
+        },
+        {
+          q: 'Kunnen resorts yogaplanken als onderdeel van een vloot bestellen?',
+          a: 'Ja. Resorts combineren vaak yoga platforms met all-round planken voor de gasten. Gecombineerde vlootvolumes geven toegang tot vlootprijzen en de merkgraphics met de kleuren van de accommodatie gelden voor de hele order.',
+        },
+        {
+          q: 'Zijn yogaplanken beschikbaar als compleet pakket?',
+          a: 'Ja: opblaasbare plank, peddel, pomp, ruksak en reparatieset, of een beknopte kit voor opslag ter plaatse (plank + peddel + elektrische pomp), afhankelijk van de behoeften van jouw programma.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Whitewaterplatforms',
+      metaTitle: 'Op maat gemaakte whitewater SUP-planken — Platforms voor rivieren en stroomversnellingen OEM | SUPsfactory',
+      metaDescription:
+        'Op maat gemaakte opblaasbare whitewater SUP-planken voor rivieren en stroomversnellingen — korte en wendbare rompen met impactbestendige constructie. OEM vanaf 90–100+ stuks in Qingdao, China.',
+      kicker: 'Serie · Whitewater',
+      h1: 'Op maat gemaakte whitewater SUP-planken — rivierrompen gebouwd voor impacts',
+      intro: [
+        'Whitewaterplanken zijn kort, breed en robuust: wendbare rompen die op commando draaien, grote impactbestendigheid op de rails en een stevige constructie voor lage rivierbeddingen en rotsachtige afvaarten.',
+        'We produceren whitewater platforms onder jouw merk, met versterkte naden, impactbestendige rails en rivierspecifieke vormen — ontworpen voor scholen, gidsen en rivier-outfitters die dagelijkse cursussen en expedities aanbieden.',
+      ],
+      faqs: [
+        {
+          q: 'Welke constructie is nodig voor whitewaterplanken?',
+          a: 'Versterkte rails en overlappende naden absorberen impacts op de rails; dik PVC en meerlaagse layup weerstaan doorboringen op rivierbeddingen. Constructies met dubbele luchtkamers voegen reserve-drijfvermogen toe voor afgelegen rivieren.',
+        },
+        {
+          q: 'Leveren jullie aan rivier-outfitters en gidsscholen?',
+          a: 'Ja. Outfitters en gidsscholen beheren whitewatervloten van 20–50 stuks (proef) met vlootprijzen, stevige reparatiesets en reservevinnen/-kleppen — typisch voor rivierprogramma\'s met intensief gebruik.',
+        },
+        {
+          q: 'Kunnen whitewaterplanken merkgraphics dragen?',
+          a: 'Ja: opdruk over het volledige deck, logopositie en teamkleuren worden gemaakt op basis van jouw bestanden. De scheurbestendige druklaag houdt de branding intact, zelfs bij intensief gebruik.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Fishingplatforms',
+      metaTitle: 'Op maat gemaakte fishing SUP-planken — OEM en privaat label | SUPsfactory',
+      metaDescription:
+        'Op maat gemaakte opblaasbare fishing SUP-planken met stabiliteit, laadvermogen en accessoirehouders — OEM/privaat label vanaf 90–100+ stuks, rechtstreeks uit de fabriek in Qingdao, China.',
+      kicker: 'Serie · Fishing',
+      h1: 'Op maat gemaakte fishing SUP-planken — gebouwd met vissers in gedachten',
+      intro: [
+        'Fishingplanken zijn stabiele lanceerplatforms: breed en volumineus om de visser plus uitrusting te dragen, met bevestigingssystemen voor hengelhouders, koelboxen en tackle, en een stille constructie voor een discrete nadering.',
+        'We produceren fishing platforms onder jouw merk, met visspecifieke functies die project per project worden bepaald — van het weekendpakket tot een complete toernooisetup.',
+      ],
+      faqs: [
+        {
+          q: 'Welke visfuncties kunnen worden gespecificeerd?',
+          a: 'Bevestigingsroosters voor hengelhouders en accessoires, geleiders voor de uitrusting, riemen voor de koelbox, ankerpunten en planken met hoog draagvermogen tot 500 lbs per visser plus uitrusting. De pakketten kunnen peddels, pompen en tassen met merklabel omvatten.',
+        },
+        {
+          q: 'Wat is de MOQ voor OEM-orders van fishing SUP-planken?',
+          a: 'Standaard volumepartijen starten vanaf 90–100+ stuks per rol van 150 m; proefproducties van 20–50 stuks op standaard platforms; productie met eigen mal vanaf 90–100+ stuks per vorm. We versturen monsters in 7–12 dagen; de productie vereist 25–35 dagen na bevestiging van de order en aanbetaling.',
+        },
+        {
+          q: 'Produceren jullie fishingplanken voor verhuur en begeleide activiteiten?',
+          a: 'Ja. Begeleide activiteiten en verhuur beheren fishingvloten met vlootprijzen, reserveonderdelen en reparatiesets afgestemd op dagelijks gebruik.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Kidsplatforms',
+      metaTitle: 'Op maat gemaakte kids SUP-planken — Kleine en lichte platforms OEM | SUPsfactory',
+      metaDescription:
+        'Op maat gemaakte opblaasbare kids SUP-planken — kortere en lichtere platforms met decks geschikt voor kinderen, ontworpen voor veiligheid en plezier. OEM vanaf 90–100+ stuks, rechtstreeks uit de fabriek.',
+      kicker: 'Serie · Kids',
+      h1: 'Op maat gemaakte kids SUP-planken — klein, licht en gemaakt voor de eerste peddelslagen',
+      intro: [
+        'Kidsplanken zijn geproportioneerd voor de jongste paddelaars: kortere rompen, lager gewicht, smallere breedtes voor kleine lichamen en zachte decks die vallen vergeven. Ze zijn het instapunt voor familiemerken, scholen en verhuurvloten voor kinderen.',
+        'We produceren kids platforms onder jouw merk in standaard- en juniormaten, met pakketopties die geschikt zijn voor gezinnen.',
+      ],
+      faqs: [
+        {
+          q: 'In welke maten zijn kids SUP-planken beschikbaar?',
+          a: 'Typische kids platforms gaan van 7′ tot 9′6″ met breedtes van 26″ tot 30″ en gewichten rond de 7–9 kg (15–20 lbs). De maat wordt gekalibreerd op leeftijd en gewicht van de rijsers en geverifieerd op een fysiek monster vóór de productie.',
+        },
+        {
+          q: 'Leveren jullie aan scholen en jeugdprogramma\'s?',
+          a: 'Ja: onze kids platforms zijn een veelvoorkomend onderdeel van vloten voor scholen en jeugdprogramma\'s, besteld samen met juniorpeddels en startersaccessoires onder programmavoorwaarden.',
+        },
+        {
+          q: 'Kunnen kidsplanken merk- en personageopdruk dragen?',
+          a: 'Ja. Kleurvarianten over het volledige deck, personage-opdruk en logopositie worden ontwikkeld aan de hand van jouw bestanden of merkrichtlijnen — bedrukt met dezelfde scheurbestendige lagen als de planken voor volwassenen.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Multi-persoonsplatforms',
+      metaTitle: 'Op maat gemaakte multi-persoons SUP-planken — Tandem en familie OEM | SUPsfactory',
+      metaDescription:
+        'Opblaasbare multi-persoons SUP-planken voor familieplezier en groepslessen — tandem-, yard- en partyplatforms. OEM vanaf 90–100+ stuks, rechtstreeks uit de fabriek.',
+      kicker: 'Serie · Multi-persoons',
+      h1: 'Op maat gemaakte multi-persoons SUP-planken — tandem-, yard- en partyplatforms',
+      intro: [
+        'Multi-persoonsplanken openen SUP voor groepen: tandems met extra peddelposities, yardplanken om te relaxen en partyplatforms die meerdere paddelaars vervoeren. Ze ondersteunen de verhuurinkomsten in resorts, op stranden en bij activiteiten op meren.',
+        'We produceren multi-persoons platforms onder jouw merk, met de stabiliteits- en volumeprofielen die elk gebruiksscenario vereist.',
+      ],
+      faqs: [
+        {
+          q: 'Welke soorten multi-persoonsplanken produceren jullie?',
+          a: 'Tandems (twee paddelaars, circa 13′–14′), yardplanken (korte, brede loungeplatforms) en partyplatforms met hoog volume voor 3–6 paddelaars. Elk type wordt gespecificeerd op basis van capaciteit, gewicht en beoogd gebruik.',
+        },
+        {
+          q: 'Zijn multi-persoonsplanken een goede investering voor verhuur?',
+          a: 'Ja: ze maken hogere uurtarieven mogelijk met lagere uitrustingskosten per paddelaar en houden groepen bij elkaar in plaats van ze te verdelen over individuele planken. Verhuurbeheerders combineren typisch multi-persoonsplanken met all-round vloten.',
+        },
+        {
+          q: 'Wat is de capaciteit van een partyplatform?',
+          a: 'De capaciteit hangt af van maten en volume: typische yard- en partyplatforms dragen 400–700 lbs en vervoeren 3–6 paddelaars, afhankelijk van afmetingen en configuratie. De specificaties worden bevestigd op een fysiek monster vóór de serieproductie.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

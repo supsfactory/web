@@ -1,0 +1,129 @@
+meta:
+  title: 'Kwaliteitslaboratorium — Testen & kwaliteitsborging | {SITE}'
+  description: 'Onafhankelijk kwaliteitslaboratorium met ISO 9001-processen bij Vatrad: elk afzonderlijk artikel wordt vóór de verzending getest om de kwaliteit van opblaasbare SUP''s te garanderen.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup kwaliteitscontrole'
+    - 'paddle board testlaboratorium'
+    - 'sup iso 9001 fabriek'
+    - 'kwaliteit opblaasbare sup'
+hero:
+  tagline: Laboratorium voor kwaliteitscontrole
+  title: Test- & kwaliteitsborgingslaboratorium
+  subtitle: Onafhankelijk kwaliteitslaboratorium met ISO 9001-processen — elk afzonderlijk artikel wordt vóór de verzending getest
+
+answer:
+  label: 'Helder antwoord'
+  text: '100% van de eenheden ondergaat een druktest van 24 uur bij 18,0 PSI, met automatische uitsluiting vanaf een drukverlies van 0,50 PSI. Partijen ruw weefsel worden geverifieerd volgens ASTM D751 en ISO 4674, en de naadpeelingtests draaien elke 50 eenheden met definitieve acceptatie AQL 2,5 volgens ISO 2859.'
+  verified: 'September 2026'
+
+intro: Vatrad beheert een intern kwaliteitscontrolelaboratorium dat onafhankelijk van de productie opereert. Elke partij ruw materiaal en elke afgewerkte SUP doorlopen gedocumenteerde inspectieprotocollen vóór de vrijgave. Ons QC-team rapporteert rechtstreeks aan de directie, wat onpartijdige kwaliteitsbeslissingen garandeert.
+
+highlights:
+  - value: 100%
+    label: Eenheden getest op druk
+    detail: Elke kamer, elke plank
+  - value: 24 u
+    label: Duur van de luchtdichtheidstest
+    detail: Bij 18,0 PSI nominale druk
+  - value: '&lt;5%'
+    label: Maximaal toegestaan drukverlies
+    detail: Over de volledige 24-uur bewaarperiode
+  - value: AQL 2.5
+    label: Limiet van de belangrijkste ernstige defecten
+    detail: Volgens bemonsteringsprocedure ISO 2859
+
+test_procedures:
+  - title: Controle van ruwe materialen
+    description: Elke binnenkomende partij PVC, Hypalon, drop-stitch weefsel en onderdelen wordt vóór de acceptatie gecontroleerd. Gecontroleerd worden treksterkte (ASTM D751), scheurvastheid (ISO 4674) en UV-bestendigheid. Niet-conforme materialen worden geblokkeerd (quarantaine) en teruggestuurd.
+    standards:
+      - ASTM D751 (Trek)
+      - ISO 4674 (Scheur)
+      - ISO 4892 (UV)
+  - title: QC-controlepunten tijdens het proces
+    description: Het productiepersoneel voert in elke fase een zelfcontrole uit. QC-auditors voeren door de hele ploeg steekproeven uit. Naadpeelingtests worden elke 50 eenheden uitgevoerd. Dimensiecontroles gebeuren om de 20e paneel.
+    standards:
+      - ASTM D751 (Peeling)
+      - Interne 100-punts checklist
+      - Bemonsteringsprocedure ISO 2859
+  - title: 24-uurs luchtdichtheidstest
+    description: Elke kamer wordt opgepompt tot 18,0 PSI en 24 uur behouden. Druksensoren registreren continu met temperatuurcompensatie. Elke kamer die een drukverlies van meer dan 0,50 PSI vertoont, activeert een automatische herhaalde verificatie van de partij.
+    standards:
+      - ISO 6185
+      - CE 2013/53/UE
+  - title: Belasting- & stabiliteitstest
+    description: De afgewerkte planken worden getest op stabiliteit, vrijboord en manoeuvreerbaarheid bij maximale nominale belasting. Elke plank doorloopt een watertest vóórdat hij de vrijgave van de eindinspectie ontvangt.
+    standards:
+      - ISO 12217
+      - CE 2013/53/UE
+
+equipment:
+  - name: Universele testmachine (trek)
+    spec: '5 kN, conform ASTM D751'
+  - name: Drukverlies-testapparaat
+    spec: 'Multichannel, 0–50 psi, datalogger'
+  - name: UV-verouderingskamer
+    spec: 'ISO 4892, cycli van 1.000 u'
+  - name: Diktemeter (digitaal)
+    spec: 'Resolutie 0,01 mm'
+  - name: Peelingtester (naad)
+    spec: 'Gemotoriseerd, capaciteit 50 N'
+  - name: Thermische kamer
+    spec: '-40 °C tot +100 °C'
+  - name: Lekdetectie-bassin
+    spec: '6 m × 2 m, verlicht'
+
+lab_evidence:
+  tagline: Dossiers van de testrapporten
+  title: 'Download de echte laboratoriumrapporten'
+  subtitle: 'Dezelfde gecontroleerde tweetalige registraties waarop ons kwaliteitsteam de dossiers sluit — structuur, methoden, criteria en resultaten, met de vertrouwelijke velden verwijderd. Elk dossier komt overeen met een van de zeven inspectiepoorten.'
+  items:
+    - title: 'IQC — Rapport ingang goederen'
+      description: 'Verificatie van weefsel, PVC-rol, ventielen en componenten tegen de goedgekeurde specificatie.'
+      icon: tabler:file-certificate
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Download de IQC-rapporten (PDF)'
+    - title: 'IPQC — Rapport proces & eerste artikel'
+      description: 'Inspectieregistraties van het eerste artikel en van het proces tegen de vastgelegde revisie.'
+      icon: tabler:file-check
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Download de IPQC-rapporten (PDF)'
+    - title: 'Luchtdichtheid — Druk- & lekregistraties'
+      description: '100% naadlekdetectie, ventielintegriteit en verificatie van het 24-uurs drukbehoud.'
+      icon: tabler:waves
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Download de luchtdichtheidsrapporten (PDF)'
+    - title: 'FQC — Eindrapporten van de planken'
+      description: 'Eindcontrole tegen het goedgekeurde monster — afmetingen, optiek en fin box.'
+      icon: tabler:shield-check
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Download de FQC-rapporten (PDF)'
+    - title: 'PSI — Rapport pre-verzendingsinspectie van verpakking'
+      description: 'Kit-volledigheid, score van de streepjescode, markeringen op de doos en anti-kantelregistraties.'
+      icon: tabler:package
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Download de PSI-rapporten (PDF)'
+    - title: 'Dossier vrijgave voor verzending & traceerbaarheid'
+      description: 'Vrijgaveautorisatie en lot-traceerbaarheid, gekoppeld aan specificatie, graphics en BOM.'
+      icon: tabler:history
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Download de vrijgavenrapporten (PDF)'
+    - title: 'Compleet kwaliteitsdossier'
+      description: 'Een pakket dat het volledige documentsysteem bestrijkt — QIP, poortregistraties, traceerbaarheid en NCR-beheer.'
+      icon: tabler:books
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Download het documentatiepakket (PDF)'
+
+cta:
+  title: 'Auditeer het laboratorium achter jouw order'
+  subtitle: 'Het laboratorium werkt onafhankelijk van de productie en rapporteert rechtstreeks aan de directie. Controleer de testrapporten, raadpleeg de inspectienormen of vraag een live rondleiding door het laboratorium tijdens de productieplanning.'
+  actions:
+    - variant: primary
+      text: Vraag een projectkwaliteitscontrole aan
+      href: /contact#quality-inquiry
+    - text: Het inspectiesysteem in 7 fases
+      href: /quality
+    - text: Inspectienormen & QMS-downloads
+      href: /factory/quality-inspection
+    - text: Bezoek het R&D-materialenlaboratorium
+      href: /randdcenter/quality-inspection-lab

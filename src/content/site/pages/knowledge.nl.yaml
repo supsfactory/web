@@ -1,0 +1,111 @@
+meta:
+  title: 'Kennis — Gidsen voor opblaasbare SUP & OEM | {SITE}'
+  description: 'Kennisbank van Vatrad: gidsen over opblaasbare SUP''s, paddle board materialen, boardkeuze en sectorinzichten voor merken en professionals.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup kennis'
+    - 'gids opblaasbare sup'
+    - 'paddle board materialen'
+    - 'sectorinzichten sup'
+hero:
+  tagline: 'Kenniscentrum'
+  title: 'SUP-kennisbank'
+  subtitle: |
+    Een gestructureerde kennisbank over opblaasbare SUP-technologie, 
+    waterveiligheid, board-engineering en het plannen van avonturen.
+  taglineSection: 'Ontdek. Leer. Ga met het juiste vertrouwen het water op.'
+
+clusters:
+  tagline: 'Kennisdomeinen'
+  title: 'Verken per onderwerp'
+  subtitle: 'Verdiepingen over technologie, veiligheid en vaardigheden achter elk Vatrad-product.'
+  items:
+    - title: 'Gids voor het kopen van een SUP'
+      description: 'Van het kiezen van je eerste board tot geavanceerde touringtechnieken — alles over paddleboarding.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'Hoe kies je je eerste opblaasbare SUP'
+        - 'Gids voor SUP-afmetingen en gewichtsindeling'
+        - 'Beste SUP voor beginners, touring, yoga en wedstrijden'
+        - 'SUP-aankoopfouten om te vermijden'
+        - 'Vergelijking opblaasbaar vs. stijve board'
+    - title: 'SUP-engineering en -technologie'
+      description: 'Technische gidsen over opblaasbare SUP-boards — materialen, constructiemethoden en productieprocessen.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Drop-stitch technologie in detail'
+        - 'PVC-specificaties van militaire kwaliteit'
+        - 'Smeltlaminering vs. verlijming'
+        - 'EVA-schuimtechnologie en grafische processen'
+        - 'SUP-ventieltypen en vinsystemen'
+    - title: 'SUP-veiligheid en -onderhoud'
+      description: 'Essentiële veiligheidskennis voor elke paddler — van de keuze van een reddingsvest tot weersomstandigheden, plus de verzorging en reparatie van boards.'
+      icon: 'tabler:shield'
+      topics:
+        - 'SUP-veiligheidschecklist en vereisten voor reddingsvesten'
+        - 'Multi-chamber veiligheid voor afgelegen wateren'
+        - 'Gids voor SUP-opblaasdruk (PSI)'
+        - 'Opslag en winteronderhoud van boards'
+        - 'Reparatietechnieken voor opblaasbare boards'
+    - title: 'SUP-technieken en -vaardigheden'
+      description: 'Peddeltechnieken, touringvaardigheden en fitnesstraining voor elk niveau.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Peddeltechnieken voor beginners'
+        - 'Geavanceerde peddeltechnieken voor de slag'
+        - 'Planning van tochten en verkenningen'
+        - 'Fitnesstraining en SUP-wedstrijden'
+        - 'Vaardigheden voor wildwater en rivierafdalingen'
+    - title: 'SUP-lifestyle en speciaal gebruik'
+      description: 'Gespecialiseerde SUP-activiteiten — yoga, vissen, honden, gezinnen en reistips.'
+      icon: 'tabler:heart'
+      topics:
+        - 'SUP-yoga en meditatie op het water'
+        - 'Vissen vanaf een opblaasbare SUP'
+        - 'Peddelen met honden en kinderen'
+        - 'Reizen met de SUP: vliegtuig en auto'
+        - 'SUP-accessoires en essentiële uitrusting'
+    - title: 'SUP-vergelijkingen en -referenties'
+      description: 'Directe vergelijkingen die je helpen om weloverwogen beslissingen te nemen.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'SUP vs. kajak — welke past bij jou?'
+        - 'Materiaalvergelijking PVC vs. Hypalon'
+        - 'Veiligheid: enkele kamer vs. multi-chamber'
+        - 'De materialen van SUP-boards uitgelegd'
+        - 'UV-printing vs. EVA-blokdesigns'
+
+featured_guides:
+  tagline: 'Uitgelichte gidsen'
+  title: 'Meest populaire kennisbronnen'
+  items:
+    - title: 'SUP-basis'
+      href: '/nl/knowledge'
+    - title: 'Opblaasbaar vs. stijve board'
+      href: '/nl/inflatable-vs-hardboard'
+    - title: 'Gids voor veiligheid op het water'
+      href: '/nl/guides/safety-tips'
+    - title: 'Materiaalreferentie'
+      href: '/nl/knowledge'
+    - title: 'Gids voor het kopen van een SUP'
+      href: '/nl/guides/how-to-choose-your-sup'
+    - title: 'Gids voor SUP-afmetingen'
+      href: '/nl/size-guide'
+    - title: 'SUP-technologiecentrum'
+      href: '/nl/technology'
+    - title: 'Verzorging van je SUP'
+      href: '/nl/knowledge'
+    - title: 'Touringgids'
+      href: '/nl/products/touring'
+    - title: 'Peddeltechnieken'
+      href: '/nl/knowledge'
+
+cta:
+  title: 'Ontdek nu'
+  subtitle: 'Duik in onze kennisbank en haal alle informatie op voor je volgende avontuur op het water.'
+  actions:
+    - variant: primary
+      text: 'Bekijk alle gidsen'
+      href: '/nl/knowledge'
+    - text: 'Verken de kennisbank'
+      href: '/nl/knowledge'

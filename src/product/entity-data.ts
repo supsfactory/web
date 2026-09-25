@@ -41,6 +41,16 @@ export const ENTITY_FACTS: Record<string, { label: string; value: string }[]> = 
     { label: 'Mercados', value: 'Mundial: Europa, Américas, Ásia, Oceânia' },
     { label: 'Modelo de negócio', value: 'Desenvolvimento e fabrico B2B — sem vendas ao consumidor final' },
   ],
+  nl: [
+    { label: 'Merk', value: `SUPsfactory — de SUP-productiedivisie van ${BRAND_PARENT_BRAND}` },
+    { label: 'Rechtspersoon', value: BRAND_COMPANY_NAME },
+    { label: 'Merkrelatie', value: `SUPsfactory is de SUP-productiedivisie van ${BRAND_PARENT_BRAND}, beheerd door ${BRAND_COMPANY_NAME}. ${BRAND_PARENT_BRAND} omvat RIB-boten, opblaasbare boten, SUP-planken en maritieme oplossingen; SUPsfactory richt zich uitsluitend op OEM/ODM-productie van opblaasbare SUPs.` },
+    { label: 'Productfocus', value: 'Productie van opblaasbare SUPs: OEM, ODM en privaat label' },
+    { label: 'Fabrieken', value: 'Eigen fabriek van 12.500 m² in Qingdao, China' },
+    { label: 'Minimum bestelling', value: 'Per schaal: 5–10 co-branding · 20–50 pilot · 90–100+ volume per goedgekeurde configuratie' },
+    { label: 'Markten', value: 'Wereldwijd: Europa, Amerika, Azië, Oceanië' },
+    { label: 'Bedrijfsmodel', value: 'B2B-ontwikkeling en -productie — geen verkoop aan eindconsumenten' },
+  ],
 }
 
 export const ENTITY_SERVICES = ['custom-sup', 'private-label', 'resort', 'club', 'school']

@@ -1,0 +1,123 @@
+meta:
+  title: 'Vergelijking van SUP-constructies — enkellaags PVC, dubbellaags PVC en drop-stitch | SUPsfactory'
+  description: 'Vergelijking van opblaasbare SUP-constructies: enkellaags PVC, dubbellaags PVC en drop-stitch kern — stijfheid, gewicht, duurzaamheid, prijs en ideaal gebruik.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'vergelijking sup constructies'
+    - 'soorten opblaasbare sup constructies'
+    - 'sup enkellaags vs dubbellaags'
+    - 'drop-stitch sup constructie'
+    - 'pvc sup constructie'
+    - 'sup board stijfheid'
+    - 'sup board gewicht'
+
+hero:
+  tagline: 'Constructiegids'
+  title: 'Vergelijking van SUP-constructies'
+  subtitle: 'Drie constructietypen, één productielijn. Begrijp de afwegingen tussen stijfheid, gewicht, duurzaamheid en kosten van enkellaags PVC, dubbellaags PVC en drop-stitch kern — en welke past bij jouw doelgroep rider en je marktpositionering.'
+
+answer:
+  label: 'Snelle vergelijking'
+  text: 'Enkellaags PVC is het lichtst en het goedkoopst — ideaal voor recreatieve riders en prijsgevoelige markten. Dubbellaags PVC voegt een tweede PVC-huid toe voor stijfheid en duurzaamheid bij een gematigd gewicht — de standaardkeuze van de industrie voor verhuurvloten en modellen in het middensegment. De drop-stitch kern met PVC-afwerking biedt maximale stijfheid en druktolerantie — favoriet voor performance, surf en zware riders. Alle drie de constructies worden op dezelfde lijn geproduceerd met dezelfde QC-gates; het verschil zit in de materialen en de laminatiestappen.'
+  verified: 'September 2026'
+
+comparison_table:
+  tagline: Zij aan zij
+  title: 'Constructietypen vergeleken'
+  headers:
+    - 'Kenmerk'
+    - 'Enkellaags PVC'
+    - 'Dubbellaags PVC'
+    - 'Drop-stitch kern + PVC-afwerking'
+  rows:
+    - - 'Stijfheid (nominale PSI-waarde)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Gewicht (board van 11 ft)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Duurzaamheid'
+      - 'Goed — recreatief gebruik'
+      - 'Zeer goed — verhuur en commercieel gebruik'
+      - 'Uitstekend — performance en zware riders'
+    - - 'Constructielaag'
+      - '1 laag PVC + drop-stitch kern'
+      - '2 lagen PVC + drop-stitch kern'
+      - 'Versterkte drop-stitch + PVC-afwerking + railtape'
+    - - 'Typisch gebruik'
+      - 'Entry-level markten, recreatief en prijsgevoelig'
+      - 'Allround, verhuur, verenigingen, middenmerken'
+      - 'Tour, surf, zware riders, premium merken'
+    - - 'Relatieve kosten'
+      - 'Het laagst'
+      - 'Gemiddeld'
+      - 'Het hoogst'
+    - - 'Lasmethode'
+      - 'HF-gelaste naden'
+      - 'HF-gelaste naden + laminatie'
+      - 'HF-gelaste naden + versterkte rails'
+    - - 'Norm voor de drukproef'
+      - 'Dichtheidstest op 18,0 PSI'
+      - 'Dichtheidstest op 18,0 PSI'
+      - 'Dichtheidstest op 18,0 PSI (hoger beoordeeld)'
+
+use_cases:
+  tagline: Welke constructie voor welke koper
+  title: 'Constructie passend bij jouw doelmarkt'
+  subtitle: 'De constructiekeuze is niet alleen een kostenbeslissing — het bepaalt de rijkwaliteit, het garantierisicoprofiel en de merkpositionering die je kunt waarmaken.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Enkellaags voor entry-level & volumes'
+      desc: 'Het lichtste board tegen de laagste prijs. Ideaal voor merken die zich richten op eerste kopers, grootdistributie en online marktplaatsen, waar prijs de belangrijkste aankoopmotivatie is. Voldoende stijfheid voor paddling op vlak water bij gematigd PSI. Lager garantieclaimpercentage bij gebruik binnen het nominale drukbereik.'
+      link_label: 'Bekijk entry-level OEM-boards'
+      href: /nl/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Dubbellaags voor verhuur & commercieel gebruik'
+      desc: 'De werkpaardconstructie voor verhuurvloten, verenigingen, resorts en schoolprogramma''s. De extra PVC-laag weerstaat stoten, UV-blootstelling en dagelijks gebruik die enkellaags boards in commercieel gebruik verwoesten. De hogere druktolerantie betekent een stijver rijgevoel voor zwaardere riders. Het meest gebruikte constructieniveau ter wereld.'
+      link_label: 'Oplossingen voor verhuur & resort'
+      href: /nl/solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Drop-stitch kern voor performance'
+      desc: 'Maximale stijfheid voor tour, surf, vissen en zware riders. Versterkte railconstructie en een hogere nominale PSI-waarde bieden hardboard-achtige prestaties in een draagbaar pakket. Favoriet bij performancemerken en ervaren paddlers. Hogere materiaalkosten, maar een sterker merk en een lager garantiepercentage per eenheid.'
+      link_label: 'Ontwikkeling van performance boards'
+      href: /nl/odm-manufacturing
+
+key_factors:
+  heading: 'Belangrijke factoren naast het constructietype'
+  body: |
+    Het constructietype is één variabele in de prestaties van het board. Drie andere factoren zijn net zo belangrijk of belangrijker:
+
+    - **Drop-stitch dichtheid** — De draden per inch bepalen hoe gelijkmatig het board onder druk zijn vorm behoudt. Wij gebruiken standaarden van 96 draden/inch en 140 draden/inch voor performance-builds. Hogere dichtheid = platter board = beter glijvermogen.
+    - **Kwaliteit en dikte van het PVC** — Niet al het PVC is gelijk. PVC van 0,7 mm dat uit Korea wordt geïmporteerd, heeft superieure scheurweerstand en UV-bescherming ten opzichte van dunnere alternatieven. Wij specificeren de materiaalkwaliteit per project.
+    - **Railconstructie** — Enkellaagse rails zijn het meest voorkomende breekpunt bij goedkope boards. Dubbellaagse rails en versterkte railtape verkleinen het risico op railbeschadigingen drastisch. Al onze boards gebruiken versterkte rails, ongeacht het constructieniveau.
+
+faqs:
+  tagline: FAQ
+  title: 'SUP-constructie — Veelgestelde vragen'
+  items:
+    - q: 'Welk constructietype moet ik voor mijn merk kiezen?'
+      a: 'Dat hangt af van je doelmarkt en je prijspositionering. Entry-level en grootdistributie: enkellaags. Verhuurvloten, verenigingen en middenmerken: dubbellaags. Performance, tour en premium: drop-stitch kern. De meeste merken starten met dubbellaags als beste compromis tussen kosten, duurzaamheid en rijbeleving. Tijdens de haalbaarheidscheck adviseren wij op basis van jouw specifieke markt.'
+    - q: 'Kan ik meerdere constructieniveaus onder één merk aanbieden?'
+      a: 'Ja — veel merken bieden twee of drie niveaus aan. Wij produceren alle drie de constructies op dezelfde lijn met dezelfde QC-gates, zodat je constructietypen binnen één enkele order kunt mengen. Rompvorm en graphics kunnen op alle niveaus identiek zijn; alleen de constructie en de materialen veranderen.'
+    - q: 'Welke norm voor de drukproef geldt voor alle constructies?'
+      a: 'Elk board, ongeacht het constructietype, slaagt voor een dichtheidstest op 18,0 PSI met automatische afkeur bij een drukverlies van meer dan 0,50 PSI in 24 uur. Enkellaagse boards zijn ontworpen voor 12–15 PSI rijdruk, dubbellaagse voor 15–18 PSI en drop-stitch kern boards voor 18–25 PSI. De testdruk overschrijdt de nominale druk van alle typen.'
+    - q: 'Hoe beïnvloedt de constructie de garantieclaims?'
+      a: 'Enkellaagse boards hebben een iets hoger garantieclaimpercentage bij commercieel/verhuurgebruik vanwege rails en lekken. Dubbellaagse en drop-stitch kern constructies hebben aanzienlijk lagere claimpercentages. Tijdens de offertefase leveren wij garantiegegevens per niveau uit onze productieregisters.'
+
+cta:
+  title: 'Hulp nodig bij het kiezen van de juiste constructie?'
+  subtitle: 'Vertel ons je doelgroep rider, je prijsklasse en je markt — wij adviseren het juiste constructieniveau en leveren voorbeeldboards voor jouw beoordeling.'
+  actions:
+    - variant: primary
+      text: Start de projectbriefing
+      href: /nl/contact#project-brief
+    - text: Bekijk de details van de OEM-productie
+      href: /nl/oem-manufacturing
+    - text: Vergelijk OEM, ODM en private label
+      href: /nl/oem-odm-private-label-comparison

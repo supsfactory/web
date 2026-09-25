@@ -17,6 +17,7 @@ export interface Localized<T> extends Record<string, T> {
   de: T
   it: T
   pt: T
+  nl: T
 }
 
 export function pick<T>(d: Localized<T>, locale: Locale): T {
@@ -191,6 +192,30 @@ export const hero: Localized<HeroContent> = {
     float1: { value: '1–2 units', label: 'Amostra e aprovação (antes de compromissos de volume)' },
     float2: { value: FACTS.leadTime, label: 'Prazo de produção (após PO)' },
   },
+  nl: {
+    kicker: 'Fabrikant van op maat gemaakte SUP OEM / ODM — Qingdao, China',
+    titlePre: 'Fabrikant van opblaasbare SUPs &',
+    titleAccent: 'OEM/ODM-fabriek',
+    titlePost: '',
+    sub: 'Opblaasbare paddle boards op maat, ontworpen, geprototypeerd en geproduceerd in onze fabriek in Qingdao, China.',
+    ctaPrimary: 'Een OEM-offerte aanvragen',
+    ctaSecondary: 'Ontwikkel jouw SUP-product',
+    ctaTertiary: 'Ontdek onze fabriek',
+    ctaQuartiary: '',
+    ctaMicro: 'OEM · ODM · Privaat label · Productontwikkeling · Prototypes · Seriële productie',
+    stats: [
+      { value: '12,500 m²', label: 'Eigen fabriek — Qingdao, China' },
+      { value: '120,000+', label: 'Planken per jaar geproduceerd' },
+      { value: '50+', label: 'Bedien exportlanden' },
+      { value: FACTS.ndaWindow, label: 'NDA-responsvenster' },
+    ],
+    mockupLabel: 'Signature-platform',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Jouw graphics · jouw kleuren · jouw verpakking',
+    heroNote: 'Directe fabrieksproductie · Prototypeontwikkeling · Productie met kwaliteitscontrole · Exportondersteuning',
+    float1: { value: '1–2 units', label: 'Monster en goedkeuring (vóór volumeverplichtingen)' },
+    float2: { value: FACTS.leadTime, label: 'Productielevertijd (na PO)' },
+  },
 }
 
 /* ─────────────────────────── home: manufacturer pledge ─────────────────────────── */
@@ -280,6 +305,18 @@ export const manufacturerPledge: Localized<ManufacturerPledgeContent> = {
       { title: 'A tua marca, nunca a nossa', body: 'Produzimos exclusivamente com as marcas dos nossos clientes e não competimos nunca com eles em nenhum mercado.' },
     ],
     verifyLabel: 'Verifica quem somos',
+    verifyHref: '/about/identity',
+  },
+  nl: {
+    kicker: 'Fabrikant, geen handelsmaatschappij',
+    title: 'Wij zijn eigenaar van de fabriek achter jouw bestelling',
+    sub: 'Een handelsmaatschappij verkoopt de productie van andere fabrieken door. Wij beheren onze eigen fabriek. Er is geen intermediaire marge, geen extern magazijn en geen tussenpersoon tussen jouw bestelling en de productielijn.',
+    items: [
+      { title: 'Geregistreerde rechtspersoon', body: 'Qingdao Vatrad Group Co., Ltd. is de contracterende entiteit bij elke bestelling en ieder exportdocument.' },
+      { title: 'Eén fabriek, één team', body: 'Engineering, kwaliteitscontrole, productieplanning en exportdocumentatie worden volledig intern beheerd in onze fabriek in Laixi, Qingdao.' },
+      { title: 'Jouw merk, nooit het onze', body: 'Wij produceren uitsluitend onder de merken van onze klanten en concurreren nooit met hen op welke markt dan ook.' },
+    ],
+    verifyLabel: 'Verifieer wie wij zijn',
     verifyHref: '/about/identity',
   },
 }
@@ -411,6 +448,24 @@ export const factoryProof: Localized<FactoryProofContent> = {
     ],
     note: "O MOQ é confirmado após a análise das especificações, porque a construção, as dimensões da tábua, a estrutura do PVC, a gráfica, a embalagem e os acessórios influenciam o consumo de material.",
   },
+  nl: {
+    kicker: 'Fabrieksbewijs',
+    title: 'Een echte fabriek, gedocumenteerd',
+    sub: 'Verifieerbare cijfers van onze fabriek in Qingdao, China — elk cijfer verwijst naar de pagina waarop het is gedocumenteerd.',
+    cta: 'Verifieer dit cijfer',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'Eigen productiefaciliteit', href: '/factory' },
+      { value: FACTS.workers, label: 'Fabriekspersoneel, intern', href: '/manufacturing-capabilities' },
+      { value: '120,000+', label: 'Planken per jaar geproduceerd', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'Bedien exportlanden', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'MOQ en levertijd', href: '/sup-oem-moq-lead-time' },
+      { label: 'Kwaliteitscontrole', href: '/quality' },
+      { label: 'Controlelijst fabrieksaudit', href: '/factory-audit-checklist' },
+    ],
+    note: 'De MOQ wordt bevestigd na beoordeling van de specificaties, omdat constructie, bordafmetingen, PVC-opbouw, grafische vormgeving, verpakking en accessoires het materiaalverbruik beïnvloeden.',
+  },
 }
 
 /* ─────────────────────────── home: factory evidence (verification band) ─────────────────────────── */
@@ -494,6 +549,17 @@ export const factoryEvidence: Localized<FactoryEvidenceContent> = {
       { title: 'Centro de provas', body: 'Certificados, relatórios de inspeção por terceiros, registos de auditoria e provas de projetos entregues num único lugar.', href: '/proof-center' },
       { title: 'Verifica a fábrica', body: 'Cruza os nossos registos públicos da empresa, certificações e orientações de verificação antes de te comprometeres.', href: '/verify-factory' },
       { title: 'Checklist de auditoria à fábrica', body: 'Descarrega a checklist que os compradores usam para auditar uma fábrica de SUP insufláveis — instalações, equipamento e processo.', href: '/factory-audit-checklist' },
+    ],
+  },
+  nl: {
+    kicker: 'Verifieer ons voordat je bestelt',
+    title: 'Fabrieksbewijs & verificatie',
+    sub: 'Onafhankelijk bewijs dat onze faciliteiten, apparatuur, kwaliteitssysteem en exportdocumentatie echt zijn — controleer en verifieer vóór enige toezegging.',
+    cta: 'Bekijk het bewijs',
+    items: [
+      { title: 'Bewijscentrum', body: 'Certificaten, inspectierapporten van derden, auditregistraties en bewijs van opgeleverde projecten op één plek.', href: '/proof-center' },
+      { title: 'Verifieer de fabriek', body: 'Controleer onze openbare bedrijfsdocumenten, certificeringen en verificatierichtlijnen voordat je je vastlegt.', href: '/verify-factory' },
+      { title: 'Controlelijst fabrieksaudit', body: 'Download de checklist die kopers gebruiken bij een audit van een fabriek voor opblaasbare SUPs — faciliteiten, uitrusting en proces.', href: '/factory-audit-checklist' },
     ],
   },
 }
@@ -665,6 +731,31 @@ export const why: Localized<WhyContent> = {
       },
     ],
   },
+  nl: {
+    kicker: 'Het productiemerk',
+    title: 'Aangedreven door Vatrad',
+    sub: 'SUPsfactory is de SUP-productontwikkeling- en productiedivisie van Qingdao Vatrad Group Co., Ltd. Onze fabriek van 12,500 m² in Laixi, Qingdao produceert sinds 2012 opblaasbare artikelen; meer dan 25 ingenieurs werken aan R&D, matrijsontwerp, materiaallaboratorium en productieplanning, met gemiddeld meer dan 7 jaar ervaring in de productie van opblaasbare artikelen. Dagelijks draaien er twee productieploegen.',
+    image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp',
+    imageCaption: 'Vatrad-productiefaciliteit, Qingdao, China',
+    bullets: [
+      {
+        title: 'Fabriek van 12,500 m²',
+        body: 'Van ruw PVC tot afgewerkte plank, volledig intern, in Laixi, Qingdao.',
+      },
+      {
+        title: 'In productie sinds 2012',
+        body: 'Twee productieploegen per dag voor SUP en opblaasbare artikelen.',
+      },
+      {
+        title: 'Meer dan 25 ingenieurs',
+        body: 'In R&D, matrijsontwerp, materiaallaboratorium en productieplanning.',
+      },
+      {
+        title: 'Gemiddeld meer dan 7 jaar',
+        body: 'Ervaring in de productie van opblaasbare artikelen per ingenieur.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── capability strip ─────────────────────────── */
@@ -676,6 +767,7 @@ export const strip: Localized<string[]> = {
   de: ['OEM & ODM', 'Private Label', 'Musterservice', 'Design & Artwork', 'QC bei jeder Charge', 'Weltweiter Export'],
   it: ['OEM & ODM', 'Private Label', 'Servizio campioni', 'Design & Artwork', 'QC su ogni partita', 'Esportazione mondiale'],
   pt: ['OEM & ODM', 'Private Label', 'Serviço de amostras', 'Design & Artwork', 'QC em cada remessa', 'Exportação mundial'],
+  nl: ['OEM & ODM', 'Private Label', 'Monsterservice', 'Design & Artwork', 'QC bij elke partij', 'Wereldwijde export'],
 }
 
 /* ─────────────────────────── home: trust bar ─────────────────────────── */
@@ -772,6 +864,20 @@ export const trustBar: Localized<TrustBarContent> = {
       { value: FACTS.exportCountries, label: 'mercados de exportação na UE, EUA, Austrália e Ásia' },
       { value: '18 PSI / 24 h', label: 'teste de insuflagem e estanquicidade a 100% em cada tábua antes da embalagem' },
       { value: 'MSL Fusion', label: 'soldadura por fusão multicamada com construções drop-stitch tecidas' },
+    ],
+  },
+  nl: {
+    stats: [
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'voor serieproductie; pilotseries vanaf 20–50 stuks' },
+      { value: FACTS.sampleTime, label: 'monsters op je bureau na bevestiging van de grafische vormgeving' },
+      { value: FACTS.leadTime, label: 'serieproductie na bevestigde PO en aanbetaling' },
+      { value: FACTS.annualCapacity, label: 'jaarlijkse interne capaciteit in de fabriek in Qingdao' },
+      { value: FACTS.warehouseM2, label: 'eigen fabriek, van ruw PVC tot afgewerkte plank' },
+      { value: FACTS.workers, label: 'fabrieksarbeiders en ingenieurs ter plaatse' },
+      { value: 'ISO 9001 · CE · BSCI', label: 'gecertificeerd; REACH/RoHS-conforme materialen' },
+      { value: FACTS.exportCountries, label: 'exportmarkten in de EU, VS, Australië en Azië' },
+      { value: '18 PSI / 24 h', label: '100% opblaas- en dichtheidstest op elke plank vóór het verpakken' },
+      { value: 'MSL Fusion', label: 'meerlaags fusielassen met geweven drop-stitch-constructies' },
     ],
   },
 }
@@ -933,6 +1039,30 @@ export const solve: Localized<SolveContent> = {
       {
         title: 'Fornecimento em volume — encomendas recorrentes e frotas',
         body: "Produção em grande série para distribuidores, alugueres e grupos hoteleiros, com especificações vinculativas, rastreabilidade dos lotes e construção constante entre reencomendas.",
+      },
+    ],
+  },
+  nl: {
+    kicker: 'OEM & ODM-productie',
+    title: 'Twee manieren om jouw SUP-product te bouwen',
+    sub: 'OEM wanneer jij de specificatie aanlevert, ODM wanneer jij het idee aanlevert — plus private label en volumelevering voor merken die een bewezen platform willen.',
+    cta: 'Een OEM-offerte aanvragen',
+    items: [
+      {
+        title: 'OEM — Productie volgens jouw specificatie',
+        body: 'OEM (productie volgens klantspecificatie): wij produceren volgens jouw goedgekeurde specificatie — jouw tekeningen, afmetingen, materialen, constructie en verpakking. Jij bent eigenaar van het design, de matrijzen en het intellectueel eigendom.',
+      },
+      {
+        title: 'ODM — Ontwikkel de plank met ons engineeringteam',
+        body: 'ODM (productie op basis van origineel design): ons engineeringteam ontwikkelt de structuur, constructie, grafische vormgeving en verpakking van de plank op basis van jouw briefing — of het nu een marktconcept, een prestatiedoel of de aanpassing van een bewezen platform is. De fabriek stelt het design voor; de koper keurt het goed vóór de productie.',
+      },
+      {
+        title: 'Private Label — Jouw merk op een bewezen platform',
+        body: 'Private Label: jouw merk, jouw grafische vormgeving en jouw verpakking op een bestaand gevalideerd platform — zonder matrijsontwikkeling, zonder structurele wijzigingen. De snelste weg van concept tot levering.',
+      },
+      {
+        title: 'Volumelevering — herhalings- en vlootorders',
+        body: 'Productie in grote series voor distributeurs, verhuurbedrijven en resortgroepen, met bindende specificaties, traceerbaarheid van batches en constante constructie bij elke nabestelling.',
       },
     ],
   },
@@ -1139,6 +1269,37 @@ export const capability: Localized<CapabilityContent> = {
       },
     ],
   },
+  nl: {
+    kicker: 'Productiecapaciteiten',
+    title: 'Zes interne productiecapaciteiten',
+    sub: 'Alle volgende processen verlopen intern. Niets kritiek wordt uitbesteed.',
+    items: [
+      {
+        name: 'CNC-snijden',
+        body: 'Automatische CNC-machines snijden PVC, Hypalon en drop-stitch-weefsel met een positioneringsnauwkeurigheid van 0.1 mm en computergeoptimaliseerde nesting om materiaalverspilling te beperken.',
+      },
+      {
+        name: 'RF-diëlektrisch lassen',
+        body: 'Laspersen van 15 kW produceren luchtdichte naden. De raillinten worden in drie lagen gefuseerd voor de sterkte van de randen en tegen stoten.',
+      },
+      {
+        name: 'Lamineren van de drop-stitch-kern',
+        body: 'Duizenden interne polyesterdraden houden de bovenste en onderste laag parallel, waardoor een stijf platform ontstaat bij 12–15 PSI. De kernen worden gelamineerd tot 14 ft.',
+      },
+      {
+        name: 'Graphics van het deck',
+        body: "Vierkleuren digitaal drukwerk en meerkleuren zeefdruk op basis van jouw merkbestanden. EVA-deckpads in jouw kleuren met gepersonaliseerde logo's, uitsnijdingen en texturen.",
+      },
+      {
+        name: 'Montage en rigging',
+        body: 'Elke plank volgt een checklist van 100 punten die wordt afgetekend door de lijnleider — beslag, D-ringen, ventielen, leash-punten en accessoires.',
+      },
+      {
+        name: 'Verpakking voor export',
+        body: 'Vacuüm verpakt, ingedoosd en verzendklaar volgens de exportstandaard, met bedrukte verkoopdozen op verzoek.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: quality control (How Every Board Is Verified) ─────────────────────────── */
@@ -1339,6 +1500,37 @@ export const quality: Localized<QualityContent> = {
       {
         title: 'Rastreabilidade dos lotes',
         body: 'Cada lote de material recebe um número ERP único. A lista de materiais (BOM) de cada tábua remete para o lote do fornecedor original. Os registos são conservados durante dez anos nos termos da CE 2013/53/EU.',
+      },
+    ],
+  },
+  nl: {
+    kicker: 'Kwaliteitscontrole',
+    title: 'Zo wordt elke plank gecontroleerd',
+    sub: 'Kwaliteit is een gedocumenteerd proces, geen belofte. Zo verloopt jouw bestelling vóór de verzending.',
+    steps: [
+      {
+        title: 'Controle bij binnenkomst materialen',
+        body: 'De PVC-rollen, drop-stitch-kernen, ventielen, lijmen en het beslag worden geblokkeerd tot vrijgave door de QC. De stoffen worden vóór de start van elke batch getest op treksterkte, scheurweerstand en UV-bestendigheid.',
+      },
+      {
+        title: 'Controlepunten in de productie',
+        body: 'QC-controlepunten in elke productiefase, met lasmonsters die worden getrokken en getest op pelweerstand ten opzichte van de batchstandaard.',
+      },
+      {
+        title: 'Dichtheidstest',
+        body: 'Elke kamer wordt opgeblazen tot 18.0 PSI en gedurende 24 uur op druk gehouden met continue sensorregistratie. Elke kamer met een drukverlies van meer dan 0.50 PSI in 24 uur wordt afgekeurd en teruggevoerd voor een nieuwe controle van de naden.',
+      },
+      {
+        title: 'Structurele verificatie',
+        body: 'Doorbuiging onder nominale belasting, uittreksterkte van de D-ringen (≥150 kgf per ring), pelweerstand van het deckpad (≥3.5 N/cm) en het sluiten van de ventielen worden vóór de eindcontrole geverifieerd volgens de specificatie.',
+      },
+      {
+        title: 'Eindcontrole',
+        body: 'Checklist van 100 punten per plank, plus controle van afmetingen en gewicht ten opzichte van het goedgekeurde monster.',
+      },
+      {
+        title: 'Traceerbaarheid van batches',
+        body: 'Elke materiaalbatch krijgt een uniek ERP-nummer. De materiaallijst (BOM) van elke plank verwijst naar het oorspronkelijke lot van de leverancier. De registers worden tien jaar bewaard conform CE 2013/53/EU.',
       },
     ],
   },
@@ -1754,6 +1946,70 @@ export const commercial: Localized<CommercialContent> = {
       },
     ],
   },
+  nl: {
+    kicker: 'Commerciële voorwaarden',
+    title: 'Commerciële voorwaarden, vanaf het begin transparant',
+    sub: 'Standaard MOQ, monstername, productie- en leveringsvoorwaarden staan hieronder. Projecten die nieuwe matrijzen, speciale materialen, conformiteitstesten of gepersonaliseerde verpakkingen vereisen, worden apart geoffreerd.',
+    cells: [
+      {
+        label: 'Minimumbestelling',
+        lines: [
+          'Co-branding: vanaf 5–10 stuks op geselecteerde bestaande platforms',
+          'Pilotbatch: 20–50 stuks op bestaande platforms',
+          'Standaardvolume: 90–100+ stuks per goedgekeurde configuratie, afhankelijk van de materiaalrol en de verpakkingsvereisten',
+        ],
+      },
+      {
+        label: 'Levertijd',
+        lines: [
+          '25–35 dagen na bevestigde PO en aanbetaling',
+          'Ontwikkeling van gepersonaliseerde matrijzen: +15–20 dagen voor de productie van de matrijzen',
+          'Expressproductie beschikbaar voor seizoenspieken',
+        ],
+      },
+      {
+        label: 'Monstername',
+        lines: [
+          'Prototypemonsters worden binnen 7–12 dagen verzonden',
+          'De monstercost wordt verrekend met de serieorder',
+        ],
+      },
+      {
+        label: 'Export en documentatie',
+        lines: [
+          'Exportdocumentatie intern afgehandeld',
+          'Standaard exportverpakking; bedrukte verkoopdozen beschikbaar',
+        ],
+      },
+    ],
+    certs: 'ISO 9001 kwaliteitsbeheer · CE-certificering voor modellen bestemd voor de EU-markt (reikwijdte bevestigd per project) · Sociale conformiteit BSCI (auditrapport op verzoek) · REACH- en RoHS-documentatie bij elke bestelling.',
+    moqTiers: [
+      {
+        stage: 'Monster en goedkeuring',
+        quantity: '1–2 stuks ter goedkeuring',
+        purpose: 'Vorm, kleuren, drukwerk en verpakking bevestigen vóór elke productie',
+        note: '7–12 dagen; fysieke plank, geen render',
+      },
+      {
+        stage: 'Co-branding in kleine hoeveelheden',
+        quantity: 'vanaf 5–10 stuks op geselecteerde bestaande platforms',
+        purpose: 'Een design testen op een bewezen platform met logo-overdruk',
+        note: 'De snelste manier om nieuwe graphics te valideren',
+      },
+      {
+        stage: 'Pilotbatch / beginvoorraad',
+        quantity: '20–50 stuks op bestaande platforms',
+        purpose: 'De markt valideren of je store openen met echte voorraad',
+        note: 'Het laagste volume op bestaande platforms',
+      },
+      {
+        stage: 'Standaard serieproductie',
+        quantity: '90–100+ stuks per goedgekeurde configuratie, afhankelijk van de materiaalrol en de verpakkingsvereisten',
+        purpose: 'Regelmatige serieproductie tegen de beste eenheidsprijs',
+        note: '90–100+ stuks; nieuwe matrijzen vereisen een specifieke vorm (+15–20 dagen voor de productie van de matrijzen)',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── who we serve / customer needs ─────────────────────────── */
@@ -2009,6 +2265,45 @@ export const serve: Localized<ServeContent> = {
       },
     ],
   },
+  nl: {
+    kicker: 'Wie wij bedienen',
+    title: 'Ontworpen voor bedrijven die hun eigen SUP-producten ontwikkelen',
+    sub: 'Of je nu een nieuw paddleboard-merk lanceert of een bestaande outdoor-productlijn uitbreidt, onze productieoplossingen passen zich aan jouw bedrijf aan.',
+    segments: [
+      {
+        slug: 'sup-brands',
+        title: 'SUP-merken',
+        body: 'Ontwikkel gepersonaliseerde paddle boards in lijn met jouw merkpositionering, doelmarkt en productstrategie.',
+        points: ['Aangepaste designs', 'Merkgraphics', 'Productontwikkeling', 'Private label'],
+        cta: 'Ontdek de gepersonaliseerde SUP',
+        href: '/product-development',
+      },
+      {
+        slug: 'outdoor-companies',
+        title: 'Outdoor- en watersportbedrijven',
+        body: 'Breid je productportfolio uit met op maat gemaakte SUP-producten voor jouw markt.',
+        points: ['Productpersonalisatie', 'Meerdere modellen', 'OEM-productie'],
+        cta: 'Bekijk de gepersonaliseerde SUP',
+        href: '/solutions/custom-sup',
+      },
+      {
+        slug: 'distributors-retailers',
+        title: 'Distributeurs en retailers',
+        body: 'Creëer gedifferentieerde paddleboard-collecties in plaats van te concurreren op dezelfde standaardproducten.',
+        points: ['Private label', 'Gepersonaliseerde verpakking', 'Winkelklare producten'],
+        cta: 'Meer weten',
+        href: '/solutions/private-label-sup',
+      },
+      {
+        slug: 'resorts-clubs',
+        title: 'Resorts, clubs en organisaties',
+        body: 'Ontwikkel SUP-producten en -uitrusting op maat van jouw operationele omgeving en gebruikers.',
+        points: ['Gepersonaliseerde specificaties', 'Branding', 'Serieproductie'],
+        cta: 'Bekijk de oplossingen',
+        href: '/solutions/resort-sup',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── solutions ─────────────────────────── */
@@ -2186,6 +2481,33 @@ export const solutions: Localized<SolutionsContent> = {
         title: 'Requisitos de produção',
         body: 'Personaliza a forma como o teu projeto é produzido.',
         points: ['Quantidade', 'Especificação', 'Aplicação'],
+      },
+    ],
+  },
+  nl: {
+    kicker: 'Personalisatiecapaciteit',
+    title: 'Gepersonaliseerde SUP-productoplossingen voor jouw bedrijf',
+    sub: "Van OEM/ODM-programma's voor merken tot private label-lijnen voor distributeurs en inkoopteams — elke vereiste wordt een produceerbaar product.",
+    pillars: [
+      {
+        title: 'Design van de plank',
+        body: 'Definieer de plank volgens de vereisten van jouw product.',
+        points: ['Vorm', 'Afmetingen', 'Dikte', 'Constructie'],
+      },
+      {
+        title: 'Graphics en branding',
+        body: 'Breng jouw identiteit aan op elke plank.',
+        points: ['Logo', 'Kleuren', 'Artwork', 'Drukwerk'],
+      },
+      {
+        title: 'Accessoires',
+        body: 'Volledig product met bijpassende onderdelen.',
+        points: ['Peddel', 'Tas', 'Vin', 'Verpakking'],
+      },
+      {
+        title: 'Productievereisten',
+        body: 'Personaliseer hoe jouw project wordt geproduceerd.',
+        points: ['Hoeveelheid', 'Specificatie', 'Toepassing'],
       },
     ],
   },
@@ -2375,6 +2697,34 @@ export const studio: Localized<StudioContent> = {
       },
     ],
   },
+  nl: {
+    kicker: 'Configurator',
+    title: 'Specificatie-builder',
+    sub: 'Doorloop de opbouw — van de vorm van de plank tot de verzenddoos, elk niveau bepaal jij.',
+    scrollHint: 'Scroll om te verkennen',
+    steps: [
+      {
+        title: 'Vorm en afmetingen',
+        body: 'Kies een bewezen platform of definieer een gepersonaliseerde contour — lengte, breedte, dikte, railprofiel en rocker.',
+      },
+      {
+        title: 'Constructie',
+        body: 'Constructie in één laag, dubbele laag of door fusie. Aantal raillinten en verstevigingszones afhankelijk van het gebruik.',
+      },
+      {
+        title: 'Graphics van het deck',
+        body: 'Artwork over het volledige deck in jouw kleuren, gedrukt vanuit jouw merkbestanden. Ons prepress-team zet ruwe concepten om in productieklaar data.',
+      },
+      {
+        title: 'Deckpad',
+        body: "EVA in de kleuren van jouw merk, met gepersonaliseerde logo's, groeven, uitsparingen en texturen.",
+      },
+      {
+        title: 'Accessoires en verpakking',
+        body: 'Peddel, pompen, tassen, vinnen en leashes — gepersonaliseerd en gebundeld. Bedrukte dozen en retailhoezen volgens jouw specificatie.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── products ─────────────────────────── */
@@ -2489,6 +2839,20 @@ export const productFilters: Localized<{ all: string; groups: ProductFilterGroup
       { key: 'fishing', label: 'Pesca' },
       { key: 'kids', label: 'Crianças' },
       { key: 'multi', label: 'Multi pessoa' },
+    ],
+  },
+  nl: {
+    all: 'Alle platforms',
+    groups: [
+      { key: 'all-around', label: 'Allround' },
+      { key: 'race', label: 'Races' },
+      { key: 'surf', label: 'Surf' },
+      { key: 'touring', label: 'Touring' },
+      { key: 'yoga', label: 'Yoga' },
+      { key: 'whitewater', label: 'Wildwater' },
+      { key: 'fishing', label: 'Vissen' },
+      { key: 'kids', label: 'Kinderen' },
+      { key: 'multi', label: 'Meerdere personen' },
     ],
   },
 }
@@ -3796,6 +4160,223 @@ export const products: Localized<ProductsContent> = {
       },
     ],
   },
+  nl: {
+    kicker: 'Productplatforms',
+    title: 'SUP-platforms beschikbaar voor personalisatie',
+    sub: 'Elke serie is een productieplatform — kies een startpunt en wij passen vorm, graphics en specificaties aan jouw product aan.',
+    items: [
+      {
+        slug: 'sup-explorer-11',
+        series: 'all-around',
+        sku: 'SUP-EX11',
+        name: "SUP Explorer 11'",
+        tagline: 'De allround-klassieker',
+        desc: 'Ons populairste allround board — brede opbouw voor de stabiliteit van beginners, wendbaarheid voor gevorderden en draagbaarheid voor elk avontuur. Het standaard startpunt voor de meeste nieuwe merken.',
+        uses: ['Beginner', 'Allround', 'Familie'],
+        for: ['Startups', 'Verhuurvloten'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
+        artwork: 'Drop-stitch-kern van militaire kwaliteit · versterkte rails · 2+1 vinnen · compleet pakket',
+        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-pulse',
+        series: 'whitewater',
+        sku: 'SUP-OP11',
+        name: 'Serie Ocean Pulse',
+        tagline: 'Designer-editie met topografisch golfmotief',
+        desc: 'Oceaangolven omgezet in topografische contouren in Tiffany-blauw, met uiterst precieze mechanische embossing en een accessoirekit in bijpassende kleuren.',
+        uses: ['Lifestyle', 'Kalme wateren', 'Designer'],
+        for: ['Lifestyle-merken', 'Boutique-reizen'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV-digitaal printen + mechanische warmte-embossing · gecoördineerde accessoires',
+        image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-cheetah-surge',
+        series: 'surf',
+        sku: 'SUP-CS11',
+        name: 'Cheetah Surge-editie',
+        tagline: 'Premium-editie geïnspireerd op de wildernis',
+        desc: 'Rauwe wilde kracht ontmoet artistieke elegantie — een cheetah-motief in pastelroze, petrol en koraal, gerealiseerd met verkleurvrij meerkleurig EVA-blokwerk.',
+        uses: ['Lifestyle', 'Kalme wateren', 'Designer'],
+        for: ['Lifestyle-merken', 'Social-first-merken'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Meerkleurig EVA-blokwerk + UV-printen · constructie bestand tegen delaminatie',
+        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-medusa-glow',
+        series: 'yoga',
+        sku: 'SUP-MG11',
+        name: 'Serie Medusa Glow',
+        tagline: 'De kwal-editie',
+        desc: 'Een onderwaterdroomwereld — gloeiende kwallen, zeesterren en koraalriffen in verfrissend muntgroen, met verkleurvrij EVA-artwork en uitzonderlijke zijdelingse stabiliteit voor yoga.',
+        uses: ['Yoga', 'Tropisch', 'Lifestyle'],
+        for: ["Yogastudio's", 'Tropische merken'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Meerkleurig EVA-blokwerk + UV-printen · handvat verankerd aan de PVC-romp',
+        image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        hue: 260,
+      },
+      {
+        slug: 'sup-dolphin-wave',
+        series: 'touring',
+        sku: 'SUP-DW11',
+        name: 'Serie Dolphin Wave',
+        tagline: 'Marine 360°-editie',
+        desc: 'Springende dolfijnen en gelaagd middeleeuws blauw in golfstijl, met CNC-precisie gesneden EVA-blokwerk en over de volle lengte zeefgedrukte railart die het deck 360° omhult.',
+        uses: ['Marine', 'Kalme wateren', 'Designer'],
+        for: ['Marine-merken', 'Resorts'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'CNC-gesneden EVA-kleurenblokken + zeefgedrukte rails · PANTONE-TPG-kleurkoppeling',
+        image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-flowing-lotus',
+        series: 'yoga',
+        sku: 'SUP-FL11',
+        name: 'Serie Flowing Lotus',
+        tagline: 'Wellness-editie met oosterse kunst',
+        desc: 'Traditionele oosterse penseelkunst met lotus-, koi- en libellemotieven — lasergegraveerd in de antislipmat, zodat het nooit verslijt of verkleurt. Ontworpen voor rustig peddelen en yoga.',
+        uses: ['Yoga', 'Meditatie', 'Kalme wateren'],
+        for: ["Yogastudio's", 'Wellness-merken'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Dubbellaags lasergegraveerd EVA + UV-printen met kleurverlopen · dynamische vinnen in kleurblokken',
+        image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif',
+        hue: 150,
+      },
+      {
+        slug: 'sup-jungle-mandala',
+        series: 'all-around',
+        sku: 'SUP-JM11',
+        name: 'Serie Jungle Mandala',
+        tagline: 'Heilige tropische geometrie',
+        desc: 'Tropische vitaliteit en heilige geometrie — hibiscus, kolibries en mandala-totems in Tiffany-blauw en koraaloranje, ontworpen voor een perfecte symmetrie bij volledige druk.',
+        uses: ['Tropisch', 'Kust', 'Designer'],
+        for: ['Tropische merken', 'Reizen'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Dubbellaags lasergegraveerd EVA + UV-printen + zeefgedrukte rails · geometrie zonder vervorming',
+        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-10.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-leviathan-wake',
+        series: 'race',
+        sku: 'SUP-LW11',
+        name: 'Serie Leviathan Wake',
+        tagline: 'De walvis-editie',
+        desc: 'Een majestueuze blauwe vinvis-totem met geometrische tribale motieven en minimalistische zwart-wit-golfijnen — voor peddelaars die zich verbonden voelen met de oceaan.',
+        uses: ['Oceaan', 'Allround', 'Designer'],
+        for: ['Ocean-merken', 'Outdoor-merken'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV-digitaal printen + mechanische embossing · rekbare PVC-inkten op het logo aan de onderkant',
+        image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-voyager',
+        series: 'all-around',
+        sku: 'SUP-OV11',
+        name: 'Serie Ocean Voyager',
+        tagline: 'De zeeschildpad-editie',
+        desc: 'Een eerbetoon aan de grootste reiziger van de oceaan — geometrisch zeeschildpad-artwork in diep petrol, turkoois en koraaloranje, met een accessoirekit in bijpassende kleuren.',
+        uses: ['Touring', 'Oceaan', 'Allround'],
+        for: ['Touring-merken', 'Outdoor-merken'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Meerkleurig EVA-blokwerk + UV-printen · rugzak, pomp en leash in bijpassende kleuren',
+        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-12.avif',
+        hue: 170,
+      },
+      {
+        slug: 'sup-tropical-breeze',
+        series: 'all-around',
+        sku: 'SUP-TB11',
+        name: 'Serie Tropical Breeze',
+        tagline: 'Tropische vakantie-editie',
+        desc: 'Een compleet droom-eilandcanvas — zon, kokospalmen en strandtaferelen die van de fijn geïllustreerde neus overvloeien naar abstract EVA-kleurenblokwerk richting de staart.',
+        uses: ['Vakantie', 'Lifestyle', 'Kust'],
+        for: ['Reismerken', 'Resorts'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV-digitaal printen + uitgestanst EVA-lapwerk · geïllustreerd neuslandschap',
+        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-17.avif',
+        hue: 330,
+      },
+      {
+        slug: 'sup-rheo-race',
+        series: 'race',
+        sku: 'SUP-RHEO01',
+        name: 'Serie RHEO Race',
+        tagline: 'Hybride carbon race-editie',
+        desc: 'Opblaasbaar raceboard van elite-niveau met hybride carbonconstructie en een agressieve glijrocker — gebouwd voor wedstrijden, sprinttrainingen en technische banen waar stijfheid en snelheid de uitslag bepalen.',
+        uses: ['Wedstrijd', 'Snelheid', 'Training'],
+        for: ['Race-teams', 'Coaching'],
+        specs: 'Hybride carbonmatrix · glijrocker · gestroomlijnd profiel voor hoge snelheid',
+        artwork: 'Hybride opblaasbare carbonconstructie · glijrocker voor hoge prestaties',
+        image: 'https://assets.supsfactory.com/site/products/2026/race/race-11.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-fishing',
+        series: 'fishing',
+        sku: 'SUP-FSH01',
+        name: 'Opblaasbare vis-SUP',
+        tagline: 'Vis-editie met catamaranstabiliteit',
+        desc: 'Opblaasbare SUP voor de visserij, met een dubbelzijdige luchtkamer (catamaranstijl) voor uitzonderlijke secundaire stabiliteit, hengeldragers, een vismaat op het deck en een versterkte werkromp.',
+        uses: ['Vissen', 'Stabiliteit', 'Werk'],
+        for: ['Visserijmerken', 'Gidsen'],
+        specs: 'Dubbelzijdige luchtkamer · vismaat 10–80 cm · hengeldragers',
+        artwork: 'Versterkte werkromp · metalen D-ringen op meerdere punten',
+        image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-mini',
+        series: 'kids',
+        sku: 'SUP-MINI01',
+        name: 'Serie Mini SUP',
+        tagline: '3-in-1: kinderen / surf / bodyboard',
+        desc: 'Uiterst draagbaar hybride board dat omschakelt tussen een kind-SUP, een opblaasbare golfplank en een bodyboard — met een kort, breed en zeer stabiel profiel en een lekbestendig deck.',
+        uses: ['Kinderen', 'Surf', 'Reizen'],
+        for: ['Kindermerken', 'Resorts'],
+        specs: 'Hybride SUP/surf/bodyboard-geometrie · korte brede romp · lekbestendig deck',
+        artwork: 'Multifunctionele hybride geometrie · zeer sterke deklaag',
+        image: 'https://assets.supsfactory.com/site/products/2026/mini/mini-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-giant',
+        series: 'multi',
+        sku: 'SUP-GNT01',
+        name: 'Giant SUP — team board voor meerdere personen',
+        tagline: 'Teamplatform voor 6–8 personen',
+        desc: 'Multipersoons-SUP in groot formaat voor 6–8 personen: romp van 16.4–17 ft, breedte 59–60 inch, dikte 8 inch en een opblaassysteem met twee ventielen, met 8–12 draaghandvatten en een 4+1 vin-systeem.',
+        uses: ['Groep', 'Team', 'Vrije tijd'],
+        for: ['Resorts', 'Verhuurvloten'],
+        specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · 4+1 fins",
+        artwork: 'Opblaassysteem met twee ventielen · 8–12 neopreen draaghandvatten · 4+1 vin-systeem',
+        image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-lure-skiff',
+        series: 'fishing',
+        sku: 'SUP-LSK01',
+        name: 'Utility SUP — Lure Skiff',
+        tagline: 'Kunstaasvissen op een extrabreed board van 120 cm',
+        desc: 'Extrabreed board van 120 cm voor kunstaasvissen, met een centraal uitsnijvak en onderwatervenster, een draagvermogen van 400 kg en een pontonachtige romp voor stabiel werpen en zittend vissen.',
+        uses: ['Vissen', 'Werk', 'Stabiliteit'],
+        for: ['Visserijmerken', 'Sportvissers'],
+        specs: '350 × 120 × 15 cm · draagvermogen 400 kg · Tri-Fin · onderwatervenster',
+        artwork: 'Centraal uitsnijvak · transparant onderwatervenster · pontonromp',
+        image: 'https://assets.supsfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        hue: 170,
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── video showcases ─────────────────────────── */
@@ -3963,6 +4544,31 @@ export const videoShowcase: Localized<{
         { t: 'Deck pad antiderrapante' },
         { t: 'Ferragens e cordas elásticas' },
         { t: 'Sgonfar, dobrar e embalar' },
+      ],
+    },
+  },
+  nl: {
+    launch: {
+      badge: 'Merk-lancering',
+      title: 'Droom jij ervan je eigen SUP-merk te lanceren?',
+      sub: "Je hebt geen eigen fabriek nodig om een SUP-merk te lanceren. Wij zijn de productiepartner achter jouw lijn: specificatie, engineering, monstername, kwaliteitscontrole, verpakking en exportklare productie — allemaal onder één contract met één verantwoordelijk team.",
+      points: [
+        { t: 'Volledig OEM/ODM-traject van concept tot productie', d: 'Aangepaste boardgraphics, logo-integratie, deckpads en gepersonaliseerde verpakking.' },
+        { t: 'Flexibele lancering met lagere MOQ', d: 'Ondersteuning voor kleine batches om de markt te testen zonder groot kapitaal vast te leggen.' },
+        { t: 'Complete accessoirebundels', d: 'Hoogwaardige peddels, pompen, leashes en reistassen, klaar om te verzenden.' },
+        { t: 'Kwaliteit en certificering op bedrijfsniveau', d: 'Strenge QA/QC-protocollen, druktests en naleving van de mondiale exportnormen.' },
+      ],
+    },
+    process: {
+      badge: 'In de fabriek',
+      title: 'Hoe een opblaasbare SUP ontstaat',
+      sub: 'Heb je je ooit afgevraagd hoe een zacht board keihard wordt? Vijf stappen in onze fabriek.',
+      points: [
+        { t: 'Precisiesnijden en UV-printen' },
+        { t: '100% luchtdicht warmlassen' },
+        { t: 'Antislip deckpad' },
+        { t: 'Beslag en bungeekoorden' },
+        { t: 'Laten leeglopen, vouwen en verpakken' },
       ],
     },
   },
@@ -4200,6 +4806,42 @@ export const works: Localized<WorksContent> = {
     ],
     note: 'A amostra aprovada é o contrato. Cada tábua do lote é medida em relação a ela.',
   },
+  nl: {
+    kicker: 'SUP-productontwikkeling',
+    title: 'Van briefing tot productiebatch — productontwikkeling in onze fabriek',
+    sub: 'Van het verzamelen van vereisten tot het eindproduct — elke stap in onze eigen fabriek.',
+    steps: [
+      {
+        title: 'Verzamelen van vereisten',
+        body: 'We verzamelen jouw specificatie, jouw doelmarkt, de conformiteitsvereisten en de volumeprognose. Vóór elke bestandsuitwisseling wordt een NDA ondertekend.',
+      },
+      {
+        title: 'Engineeringbeoordeling',
+        body: 'Boardtype, afmetingen, opbouw, materialen en beslag worden beoordeeld op produceerbaarheid. Je ontvangt een schriftelijk rapport met de geïdentificeerde kostendrijvers.',
+      },
+      {
+        title: 'Artwork prepress',
+        body: 'Jouw merkbestanden worden omgezet in productieklaar drukdata. De kleuren worden vóór het drukken gecoördineerd en gecontroleerd.',
+      },
+      {
+        title: 'Prototype',
+        body: 'Een fysiek prototype bevestigt vorm, stijfheid, gewicht en afwerking. Verzending binnen 7–12 dagen.',
+      },
+      {
+        title: 'Goedkeuring van het monster',
+        body: 'Je keurt het fysieke monster goed. Niets gaat in productie totdat het referentiemonster is goedgekeurd en gearchiveerd als batchreferentie.',
+      },
+      {
+        title: 'Serieproductie',
+        body: 'Productie in onze fabriek volgens het hierboven beschreven kwaliteitsproces, met traceerbaarheid van batches tot op het niveau van de materiaalpartij.',
+      },
+      {
+        title: 'Exportklare levering',
+        body: 'Vacuüm verpakt, ingedoosd, gedocumenteerd en afgeleverd, klaar voor export.',
+      },
+    ],
+    note: 'Het goedgekeurde monster is het contract. Elke plank in de batch wordt hiermee vergeleken.',
+  },
 }
 
 /* ─────────────────────────── home: board categories ─────────────────────────── */
@@ -4321,6 +4963,23 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
       { id: 'fishing', label: 'Pesca', desc: 'Plataformas estáveis com suportes de varão e casco de trabalho para pescaria.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
       { id: 'kids', label: 'SUP para crianças', desc: 'Tábuas mais pequenas e leves concebidas para crianças.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
       { id: 'multi', label: 'Multi pessoa', desc: 'Team boards em grande formato para 6–8 paddlers.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+    ],
+  },
+  nl: {
+    kicker: 'Onze planken',
+    title: 'Van productconcept tot productieklaar SUP',
+    sub: 'Elke plankencategorie is een productieplatform — kies je startpunt en wij personaliseren vorm, graphics en specificaties aan jouw product.',
+    viewLabel: 'Bekijk',
+    items: [
+      { id: 'all-around', label: 'Allround', desc: 'Veelzijdige SUP-planken voor peddelaars van alle niveaus.', image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring-SUP', desc: 'Planken voor lange afstanden, verkenning en avontuur.', image: 'https://assets.supsfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Wedstrijd', desc: 'High-performance planken voor wedstrijden en sportief peddelen.', image: 'https://assets.supsfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Wildwater', desc: 'Robuuste planken ontworpen voor rivierstroomversnellingen en lifestyle.', image: 'https://assets.supsfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Ruime decks ontworpen voor yoga en fitness.', image: 'https://assets.supsfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Wendbare planken om golven te pakken en te surfen.', image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Vissen', desc: 'Stabiele platforms met hengeldragers en een werkromp voor de visserij.', image: 'https://assets.supsfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'SUP voor kinderen', desc: 'Kleinere, lichtere planken ontworpen voor kinderen.', image: 'https://assets.supsfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Meerdere personen', desc: 'Team boards in groot formaat voor 6–8 personen.', image: 'https://assets.supsfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
 }
@@ -4553,6 +5212,41 @@ export const platforms: Localized<PlatformsContent> = {
       },
     ],
   },
+  nl: {
+    kicker: 'Productplatforms',
+    title: 'Basisplatforms',
+    sub: 'Basisplatforms, geen catalogusproducten. Elke afmeting, opbouw en graphics wordt per project gespecificeerd.',
+    items: [
+      {
+        title: 'Allround',
+        body: "Klassieke recreatieve platforms voor retail-lijnen, verhuurvloten en outdoor-programma's.",
+        uses: ['Retail-lijnen', 'Verhuurvloten', "Outdoor-programma's"],
+        cta: 'Vraag dit platform aan',
+        href: '/contact',
+      },
+      {
+        title: 'Touring',
+        body: 'Langere waterlijnen ontworpen voor afstand, koersstabiliteit en expedities.',
+        uses: ['Afstand', 'Koers', 'Expedities'],
+        cta: 'Vraag dit platform aan',
+        href: '/contact',
+      },
+      {
+        title: 'Wedstrijd',
+        body: 'High-performance vormen voor clubs, evenementen en wedstrijdteams.',
+        uses: ['Clubs', 'Evenementen', 'Wedstrijdteams'],
+        cta: 'Vraag dit platform aan',
+        href: '/contact',
+      },
+      {
+        title: 'Multifunctioneel',
+        body: 'Duurzame planken met hoge gebruiksfrequentie voor scholen, verhuurbedrijven en institutionele kopers.',
+        uses: ['Scholen', 'Verhuurbedrijven', 'Institutionele kopers'],
+        cta: 'Vraag dit platform aan',
+        href: '/contact',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── gallery ─────────────────────────── */
@@ -4741,6 +5435,34 @@ export const gallery: Localized<GalleryContent> = {
       },
     ],
   },
+  nl: {
+    kicker: 'Productieprojecten',
+    title: 'Recente productie',
+    sub: 'Productieprojecten opgeleverd vanuit onze fabriek — met de cijfers waar kopers écht om vragen.',
+    projects: [
+      {
+        tag: 'Traceerbaarheid van batches',
+        title: 'Vrijgave van de zending en overdracht van traceerbaarheid',
+        body: 'Elke batch vertrekt met de kwaliteitsoverdracht: inspectieregisters, serienummers per plank en het ondertekende vrijgaveprotocol, gearchiveerd in de 10-jarige ERP-traceerbaarheid. De foto toont het echte vrijgave- en traceerbaarheidsregister in de fabriek.',
+        hue: 195,
+        image: '/出货放行与批次追溯记录交接.jpg',
+      },
+      {
+        tag: 'Clubteam',
+        title: 'Clubteam boards — wedstrijdplatform',
+        body: 'Wedstrijdplatform met specificatieaanpassingen en clubgraphics vastgelegd in de monsterfase; de matrijs werd twee seizoenen hergebruikt, zodat de uitbreiding exact overeenkwam met de oorspronkelijke vloot.',
+        hue: 28,
+        image: 'https://assets.supsfactory.com/site/products/2026/surf/surf-01.avif',
+      },
+      {
+        tag: 'Lijnuitbreiding',
+        title: 'Lijnuitbreiding — opblaasbare SUP',
+        body: 'Een gevestigd watersportmerk voegde een lijn opblaasbare SUPs toe: engineeringbeoordeling, op maat gemaakte vorm, drie maten en een eerste productie van 50 stuks met controle van graphics en dichtheid vóór het opschalen — design en matrijs blijven eigendom van het merk.',
+        hue: 210,
+        image: 'https://assets.supsfactory.com/site/products/2026/all-around/all-around-03.avif',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── buyer's guides (home) ─────────────────────────── */
@@ -4887,6 +5609,28 @@ export const guides: Localized<GuidesContent> = {
       {
         title: 'Certificação CE para SUP insufláveis',
         body: 'O que a CE cobre realmente, os cinco documentos a exigir e como verificar que um certificado menciona o teu modelo.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  nl: {
+    kicker: 'Gidsen voor kopers',
+    title: 'Productiegidsen',
+    sub: 'De vragen die elk SUP-merk zich stelt vóór de bestelling — heldere antwoorden, met onze echte voorwaarden.',
+    guides: [
+      {
+        title: 'Private label: de complete stapsgewijze gids',
+        body: 'Van de keuze van de fabriek tot de productie — het volledige traject in zes stappen voor nieuwe merken.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'OEM-MOQ voor SUP en prijzen',
+        body: 'MOQ-niveaus van 1–2 monsters tot series van 90–100+ stuks, de zes kostendrijvers en vijf manieren om kosten te besparen zonder kwaliteitsverlies.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'CE-certificering voor opblaasbare SUPs',
+        body: 'Wat de CE echt dekt, de vijf documenten die je moet opvragen en hoe je controleert dat een certificaat jouw model vermeldt.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -5114,6 +5858,43 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'Certificação CE para SUP insufláveis',
         body: 'O que a CE cobre realmente, os cinco documentos a exigir e como verificar que um certificado menciona o teu modelo.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  nl: {
+    kicker: 'Productiegidsen',
+    title: 'Van fabriek tot eindproduct',
+    sub: 'De volledige sourcing-bibliotheek — elke fase van een op maat gemaakt SUP-project met onze echte levertijden, voorwaarden en documenten.',
+    guides: [
+      {
+        title: 'Hoe kies je een OEM-fabrikant voor SUP',
+        body: 'De auditvragen die een echte fabriek onderscheiden van een tussenpersoon: certificeringen, kwaliteitscontrole, monsters en eigendom.',
+        href: '/news/how-to-choose-sup-oem-manufacturer',
+      },
+      {
+        title: 'Tijdlijn van SUP-productontwikkeling',
+        body: 'Monster binnen 7–12 dagen, productie binnen 25–35 dagen, matrijzen plus 15–20 — de volledige kalender, fase per fase.',
+        href: '/news/custom-sup-development-timeline',
+      },
+      {
+        title: 'Informatie om voor te bereiden vóór de bestelling',
+        body: 'De vijf gegevens waarmee een fabriek bij de eerste poging nauwkeurig kan offreren — en herwerk van de specificatie vermijdt.',
+        href: '/news/info-needed-before-sup-production',
+      },
+      {
+        title: 'Private label: de complete stapsgewijze gids',
+        body: 'Van de keuze van de fabriek tot de productie — het volledige traject in zes stappen voor nieuwe merken.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'OEM-MOQ voor SUP en prijzen',
+        body: 'MOQ-niveaus van 1–2 monsters tot series van 90–100+ stuks, de zes kostendrijvers en vijf manieren om kosten te besparen zonder kwaliteitsverlies.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'CE-certificering voor opblaasbare SUPs',
+        body: 'Wat de CE echt dekt, de vijf documenten die je moet opvragen en hoe je controleert dat een certificaat jouw model vermeldt.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -5537,6 +6318,73 @@ export const faq: Localized<FaqContent> = {
       },
     ],
   },
+  nl: {
+    kicker: 'FAQ',
+    title: 'Veelgestelde vragen over productie',
+    sub: 'De vragen die kopers stellen vóór een bestelling — beantwoord met onze echte voorwaarden.',
+    items: [
+      {
+        q: 'Wat produceert SUPsfactory?',
+        a: 'SUPsfactory is een professionele fabriek gespecialiseerd in gepersonaliseerde opblaasbare SUP-planken en gerelateerde watersportproducten, voor wereldwijde merken en bedrijven — ontworpen, bemonsterd en geproduceerd in onze eigen fabriek van 12,500 m² in Qingdao, China.',
+      },
+      {
+        q: 'Wat is het verschil tussen OEM en ODM?',
+        a: `OEM: we produceren volgens jouw goedgekeurde specificatie — jouw tekeningen, afmetingen, materialen en verpakking. Jij bezit het design en het intellectueel eigendom. ODM: ons team van ingenieurs ontwikkelt de plank op basis van jouw briefing — of het nu een marktconcept, een prestatiedoel of de aanpassing van een bewezen platform is — en jij keurt het goed vóór de productie. Bij private label komt jouw merk op een bestaand gevalideerd platform zonder structurele wijzigingen. Beide trajecten, OEM en ODM, lopen door dezelfde fabriek, hetzelfde kwaliteitssysteem en hetzelfde exportteam; ODM is de snelste weg naar een plank met jouw merk, vanaf ${MOQ_SHORT.standardRun} met monsters binnen ${FACTS.sampleTime}.`,
+      },
+      {
+        q: 'Wat is jullie minimum bestelhoeveelheid?',
+        a: `Co-branding in kleine hoeveelheden start vanaf 5–10 stuks; pilotbatches vanaf 20–50 stuks. De standaard serieproductie start vanaf ${MOQ_SHORT.standardRun}. Vormen met gepersonaliseerde matrijzen worden op het volumeniveau geproduceerd, afhankelijk van de complexiteit.`,
+      },
+      {
+        q: 'Hoe lang duurt de productie?',
+        a: '25–35 dagen na bevestigde PO en aanbetaling. Gepersonaliseerde matrijzen voegen 15–20 dagen toe voor de ontwikkeling van de vorm. Voor dringende seizoensbestellingen is expressproductie beschikbaar.',
+      },
+      {
+        q: 'Hoe snel ontvang ik een monster?',
+        a: 'Prototypemonsters worden doorgaans binnen 7–12 dagen na goedkeuring van artwork en specificatie verzonden.',
+      },
+      {
+        q: 'Welke certificeringen hebben jullie?',
+        a: 'ISO 9001 voor kwaliteitsbeheer, CE-certificering voor modellen bestemd voor de EU-markt (reikwijdte bevestigd per project) en een geldige BSCI-certificering voor sociale conformiteit, met auditrapport op verzoek. De REACH- en RoHS-documentatie wordt bij elke bestelling verstrekt.',
+      },
+      {
+        q: 'Handelen jullie de exportdocumentatie af?',
+        a: 'Ja. De exportdocumentatie en de exportklare verpakking worden intern afgehandeld en wij leveren aan merken in meer dan 50 landen in de EU, VS, Australië en Azië.',
+      },
+      {
+        q: 'Wordt mijn design aan andere klanten getoond?',
+        a: 'Nee. Artwork, matrijzen en specificatiebestanden blijven jouw eigendom. We ondertekenen een NDA vóór elke bestandsuitwisseling en we hergebruiken of verkopen nooit matrijzen of designs van klanten.',
+      },
+      {
+        q: 'Verkopen jullie een eigen SUP-merk?',
+        a: 'Nee. We produceren uitsluitend onder de merken van onze klanten. We verkopen niet aan eindconsumenten en concurreren niet met onze klanten op welke markt dan ook.',
+      },
+      {
+        q: 'Kunnen jullie een plank repliceren die ik al verkoop?',
+        a: 'Ja. Stuur een fysiek monster of een volledige specificatie en ons team van ingenieurs beantwoordt met een produceerbaarheidsrapport met materialen, opbouw, toleranties en kostendrijvers.',
+      },
+      {
+        q: 'Kunnen jullie SUP-planken produceren met ons logo?',
+        a: "Ja. De personalisatie van het merk — logo's, kleuren, graphics en oppervlakte-artwork — wordt volgens de overeengekomen specificaties in het design en de productie geïntegreerd. Alle bestanden van het merk en het artwork zijn van jou.",
+      },
+      {
+        q: 'Kunnen jullie een volledig nieuw SUP-product ontwikkelen?',
+        a: 'De gepersonaliseerde productontwikkeling start bij jouw concept, tekeningen, specificaties of marktvereisten. We werken via beoordeling van de specificatie, structurele engineering, prototypemonster en goedkeuring, vóór de serieproductie.',
+      },
+      {
+        q: 'Welke materialen gebruiken jullie voor opblaasbare SUP-planken?',
+        a: 'Opblaasbare SUPs worden gebouwd in drop-stitch-constructie met selecteerbare PVC-lagen en -dichtheden om de doelstellingen voor gewicht, stijfheid en prijs te halen, met REACH/RoHS-conforme materialen en kwaliteitscertificering (ISO 9001, CE, BSCI).',
+      },
+      {
+        q: 'Werken jullie met nieuwe of startende SUP-merken?',
+        a: `Ja. De OEM/ODM-projecten worden ontwikkeld op basis van jouw productvereisten, je doelmarkt en jouw volume — pilotseries starten vanaf 20–50 stuks en de standaard serieproductie vanaf ${MOQ_SHORT.standardRun}.`,
+      },
+      {
+        q: 'Welke informatie moet ik aanleveren voor een OEM-SUP-aanvraag?',
+        a: 'De meest bruikbare informatie: producttype, doelmarkt, afmetingen of specificaties van de plank, gewenste constructie, brandingvereisten, geschatte hoeveelheid, verpakkingsvereisten en de beoogde lanceringsdatum. Ons team beantwoordt met een technische beoordeling en een offerte binnen één werkdag.',
+      },
+    ],
+  },
 }
 
 export const homeFaq: Localized<FaqContent> = {
@@ -5678,6 +6526,29 @@ export const homeFaq: Localized<FaqContent> = {
       },
     ],
   },
+  nl: {
+    kicker: faq.nl.kicker,
+    title: faq.nl.title,
+    sub: faq.nl.sub,
+    items: [
+      {
+        q: 'Wie is SUPsfactory?',
+        a: 'SUPsfactory is een OEM- en ODM-fabrikant van SUP in Qingdao, China, die productontwikkeling, prototyping, productie, kwaliteitscontrole en exportproductie levert aan merken, distributeurs en outdoor-bedrijven.',
+      },
+      {
+        q: 'Is SUPsfactory een OEM-fabrikant?',
+        a: 'Ja. SUPsfactory produceert opblaasbare SUPs volgens de door de klant goedgekeurde specificaties, inclusief afmetingen, materialen, constructie, artwork, accessoires en verpakking. ODM-productontwikkeling is ook beschikbaar voor merken die een SUP willen ontwikkelen op basis van een briefing.',
+      },
+      faq.nl.items[1],
+      faq.nl.items[2],
+      faq.nl.items[3],
+      faq.nl.items[5],
+      {
+        q: 'Kunnen kopers de fabriek auditen of gebruikmaken van inspectie door derden?',
+        a: 'Ja. We verwelkomen audits van kopers en werken regelmatig samen met SGS, TÜV, BV en Intertek. Inspectie door derden kan in elke productiefase worden ingezet — inkomend materiaal, tijdens de productie of eindinspectie — en de inspectierapporten worden op verzoek verstrekt.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── CTA band ─────────────────────────── */
@@ -5725,6 +6596,12 @@ export const cta: Localized<CtaContent> = {
     body: 'Quer já tenhas uma especificação de produto completa ou estejas ainda a desenvolver o teu conceito, a nossa equipa pode ajudar-te a avaliar o passo seguinte. Diz-nos o que queres construir — vamos analisar os teus requisitos e discutir o caminho mais prático do conceito à produção.',
     button: 'Inicia o teu projeto de SUP',
     note: 'Resposta num dia útil · NDA mediante pedido antes da partilha de ficheiros · info@supsfactory.com · +86-13305324192',
+  },
+  nl: {
+    title: 'Klaar om jouw SUP-product te ontwikkelen?',
+    body: 'Of je nu al een volledige productspecificatie hebt of je concept nog aan het ontwikkelen bent, ons team kan je helpen de volgende stap te evalueren. Vertel ons wat je wilt bouwen — we beoordelen jouw vereisten en bespreken de meest praktische weg van concept tot productie.',
+    button: 'Start je SUP-project',
+    note: 'Antwoord binnen 1 werkdag · NDA op verzoek vóór bestandsuitwisseling · info@supsfactory.com · +86-13305324192',
   },
 }
 
@@ -5929,6 +6806,37 @@ export const valueProp: Localized<ValuePropContent> = {
       },
     ],
   },
+  nl: {
+    kicker: 'Onze rol',
+    title: 'Meer dan een SUP-fabriek',
+    sub: 'Veel fabrikanten kunnen een standaard SUP produceren. Onze rol is anders: SUPsfactory is een partner voor productontwikkeling en maatwerkproductie die bedrijven helpt om van een eerste idee naar een product dat klaar is voor productie te gaan.',
+    cards: [
+      {
+        title: 'Productontwikkeling',
+        body: 'Transformeer jouw concept, tekeningen, specificaties of marktvereisten naar een produceerbaar SUP-product.',
+      },
+      {
+        title: 'Maatwerkproductie',
+        body: 'Personaliseer constructie, afmetingen, graphics, kleuren, accessoires en verpakking op basis van jouw vereisten.',
+      },
+      {
+        title: 'Prototypeontwikkeling',
+        body: 'Evalueer het product vóór de serieproductie via monstermontwikkeling en tests.',
+      },
+      {
+        title: 'Ondersteuning bij productie',
+        body: 'Na goedkeuring van het design beheren wij de overgang van prototype naar herhaalbare serieproductie.',
+      },
+      {
+        title: 'Kwaliteitscontrole',
+        body: 'Kwaliteitscontroles gedurende de hele productie garanderen dat de eindproducten voldoen aan de overeengekomen specificaties.',
+      },
+      {
+        title: 'Wereldwijde levering',
+        body: 'Ondersteuning bij verpakking en exportdocumentatie vereenvoudigt het inkoopproces.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: role boundary (Where We Stop, You Start) ─────────────────────────── */
@@ -6048,6 +6956,22 @@ export const boundary: Localized<BoundaryContent> = {
       { ours: 'Documentação de certificação e embalagem padrão de exportação', theirs: 'Relações com os clientes finais e pós-venda' },
     ],
     footer: 'Os teus ficheiros de artwork, moldes e especificações continuam a ser propriedade tua e nunca são reutilizados, revendidos ou mostrados a outros clientes.',
+  },
+  nl: {
+    kicker: 'Wie we zijn',
+    title: 'Gebouwd door een SUP-fabriek, geen handelsplatform',
+    sub: 'Wij zijn een productiepartner, geen marketplace. Onze rol is om klanten te helpen ideeën, designs en productvereisten om te zetten in produceerbare SUP-producten. Jouw merk blijft van jou. Jouw markt bestuur jij. Wij verzorgen de productie.',
+    oursTitle: 'Wij verzorgen',
+    theirsTitle: 'Blijft bij jou',
+    rows: [
+      { ours: 'Beoordeling van de specificatie en evaluatie van de produceerbaarheid', theirs: 'Naam van het merk, identiteit en positionering' },
+      { ours: 'Constructieve engineering, materiaalkeuze, ontwikkeling van matrijzen', theirs: 'Prijzen, verkoopkanalen en verkopen' },
+      { ours: 'Drukvoorbereiding van het deck-artwork en productie vanuit jouw merkbestanden', theirs: 'Eigendom van alle merk- en artworkbestanden' },
+      { ours: 'Prototyping, bemonstering en documentatie van de monstergoedkeuring', theirs: 'Eindgoedkeuring van elk monster' },
+      { ours: 'Serieproductie, kwaliteitscontrole in productie en eindcontrole', theirs: 'Jouw markt, jouw klanten, jouw gegevens' },
+      { ours: 'Certificeringsdocumentatie en exportklare verpakking', theirs: 'Relaties met eindklanten en after-sales' },
+    ],
+    footer: 'Jouw artwork-, matrijs- en specificatiebestanden blijven jouw eigendom en worden nooit hergebruikt, doorverkocht of getoond aan andere klanten.',
   },
 }
 
@@ -6363,6 +7287,42 @@ export const about: Localized<AboutContent> = {
       ],
     },
   },
+  nl: {
+    kicker: 'Wie we zijn',
+    title: 'Wie is SUPsfactory',
+    sub: 'Jouw partner voor gepersonaliseerde SUP-productie',
+    story: [
+      "Wij zijn een OEM/ODM-fabriek van opblaasbare SUP's die al jaren planken produceert voor merken, distributeurs en sourcingteams over de hele wereld. Onderweg bleven we hetzelfde type klant tegenkomen — merken en kopers met een duidelijke productvisie maar zonder eigen fabriek om die te realiseren.",
+      'Daarom hebben we SUPsfactory rond hen opgebouwd. Gedifferentieerde minimale afnames vanaf co-branding-runs van 5–10 stuks, volledige ondersteuning op engineering en design, en een productieteam dat jouw eerste bestelling net zo serieus neemt als je honderdste. Jij brengt het merk; wij runnen de fabriek.',
+    ],
+    values: [
+      { title: 'Kwaliteit voorop', body: 'Elke plank doorloopt een kwaliteitscontrole in meerdere fases — materialen, lassen, bedrukking, montage en verpakking worden in elke productiefase gecontroleerd.' },
+      { title: 'Producent, geen tussenpersoon', body: 'Design, ontwikkeling van matrijzen, prototype, productie en testen gebeuren allemaal onder één dak — geen handelsniveau tussen jou en de fabriek.' },
+      { title: 'Flexibel door design', body: "Gedifferentieerde MOQ's, modulaire opties en eerlijke levertijden laten merken groeien van proefbestellingen naar seriebatches." },
+    ],
+    capabilities: ['OEM / ODM / private label', 'Gepersonaliseerde matrijzen', 'Monsterservice', 'Design & artwork', 'Kwaliteitscontrole in meerdere fases', 'Exportdocumentatie'],
+    stats: [
+      { value: '90–100+ st.', label: 'Standaard volume-MOQ (per goedgekeurde configuratie)' },
+      { value: '7–12 dagen', label: 'Levertijd monster' },
+      { value: '25–35 dagen', label: 'Productietijd' },
+      { value: '20–50 st.', label: 'MOQ voor pilotorders' },
+    ],
+    strength: [
+      { title: 'Productontwikkeling', body: 'Van conceptschetsen tot productietekeningen — onze ingenieurs verfijnen vorm, rocker, dikte en drop-stitch-constructie om jouw prestatie- en prijsdoelen te halen.' },
+      { title: 'OEM-productie', body: 'Produceer volgens jouw exacte specificatie: materialen, kleuren, logo-plaatsing, accessoires en verpakking, in serievolumes vanaf 90–100+ stuks per goedgekeurde configuratie.' },
+      { title: 'ODM-oplossingen', body: 'Start vanaf onze beproefde interne platforms — all-round, touring, race, yoga en meer — en personaliseer branding, graphics en uitrusting voor een snelle lancering met laag risico.' },
+      { title: 'Engineeringondersteuning', body: 'Matrijsontwikkeling, prototyping en monstervarianten onder één dak, met drukproeven en grafische goedkeuringen bij elke mijlpaal vóór de serieproductie.' },
+      { title: 'Kwaliteitsmanagement', body: 'Multipoint-QC op materialen, lassen, bedrukking, montage en verpakking, plus steekproef- en voorverzendingsinspecties die je als derde partij kunt boeken.' },
+      { title: 'Wereldwijde levering', body: 'Exportdocumentatie, exportklare verpakking en interne documentaire ondersteuning voor merken in meer dan 50 markten.' },
+    ],
+    partnering: {
+      title: 'Samenwerking met wereldwijde bedrijven',
+      body: [
+        "SUPsfactory werkt samen met SUP-merken, distributeurs, resorts, scholen en outdoor-bedrijven die een betrouwbare fabriek voor opblaasbare paddleboard-planken nodig hebben — van de eerste proefbestelling tot programma's op container-schaal.",
+        'Vertel ons jouw markt en jouw doelprijs, en we antwoorden met een specificatieblad, MOQ en levertijden die passen bij jouw bedrijfsmodel.',
+      ],
+    },
+  },
 }
 
 /* ─────────────────────────── customizer page ─────────────────────────── */
@@ -6490,6 +7450,24 @@ export const customizer: Localized<CustomizerContent> = {
     boardLabel: 'A TUA MARCA',
     cta: 'Cria o teu design',
   },
+  nl: {
+    kicker: 'Ontwerp je SUP',
+    title: 'Visualiseer je SUP-concept vóór de productie',
+    sub: 'Bekijk hoe jouw merk eruitziet op een echte plank — kies een kleur, zie de mockup live bijwerken en stuur ons daarna je logo voor een volledig design.',
+    status: 'Interactieve voorvertoning',
+    statusBody: 'Probeer nu het palet en stuur ons daarna je idee — ons team maakt een gratis mockup van jouw volledige design.',
+    steps: [
+      { title: 'Kies het plankenmodel', body: 'Van all-round platforms tot touring- en yogavormen — elk met realistische verhoudingen.' },
+      { title: 'Selecteer kleuren', body: 'Kies je merkpalet en zie de plank direct veranderen.' },
+      { title: 'Upload een logo', body: 'Plaats je logo en artwork op het deck — pas de grootte en positie aan.' },
+      { title: 'Genereer de mockup', body: 'Exporteer een voorvertoning van jouw gepersonaliseerde SUP om te delen met je team.' },
+    ],
+    mockupLabel: 'Live mockup-voorvertoning',
+    mockupBrand: "SUP Explorer 11'",
+    stepLabel: 'Stap',
+    boardLabel: 'JOUW MERK',
+    cta: 'Maak je design',
+  },
 }
 
 /* ─────────────────────────── products page extras ─────────────────────────── */
@@ -6551,6 +7529,14 @@ export const productsPage: Localized<ProductsPageContent> = {
     customTitle: 'Cada produto pode ser personalizado',
     customBody: 'Nada sai da fábrica como produto padrão. Cada prancha é construída para ti com as tuas escolhas em cada nível.',
     customPoints: ['Forma e medidas', 'Cores e grafismos por toda a prancha', 'Design do logo e do pad EVA', 'Acessórios e embalagem'],
+  },
+  nl: {
+    kicker: 'Productplatforms',
+    title: 'SUP-platforms beschikbaar voor personalisatie',
+    sub: 'Elk model hieronder is een productieplatform. Kies er één als startpunt en wij passen vorm, graphics, kleuren en specificaties aan jouw product aan.',
+    customTitle: 'Elk product kan worden gepersonaliseerd',
+    customBody: 'Niets verlaat de fabriek als standaardproduct. Elke plank wordt voor jou gebouwd met jouw keuzes op elk niveau.',
+    customPoints: ['Vorm en afmetingen', 'Kleuren en graphics over de hele plank', 'Design van het logo en EVA-pad', 'Accessoires en verpakking'],
   },
 }
 
@@ -6635,6 +7621,17 @@ export const catalogDownload: Localized<CatalogContent> = {
     successTitle: 'Pedido recebido',
     successBody: 'A nossa equipa comercial vai enviar o catálogo de produtos completo e a folha de MOQ para {email} num dia útil.',
   },
+  nl: {
+    kicker: 'Productcatalogus',
+    title: 'Ontvang de volledige catalogus en het MOQ-blad',
+    body: "Alle tien platforms met specificaties, artworkopties, gedifferentieerde MOQ's, samplingtijden en verpakking — door ons verkoopteam binnen één werkdag naar jouw inbox gestuurd.",
+    emailLabel: 'Zakelijke e-mail',
+    emailPlaceholder: 'jij@jouwbedrijf.com',
+    submit: 'Catalogus aanvragen',
+    secure: 'Geen spam. Alleen de catalogus en antwoorden over jouw project.',
+    successTitle: 'Aanvraag ontvangen',
+    successBody: 'Ons verkoopteam stuurt de volledige productcatalogus en het MOQ-blad binnen één werkdag naar {email}.',
+  },
 }
 
 /* ─────────────────────────── gallery page extras ─────────────────────────── */
@@ -6683,6 +7680,12 @@ export const galleryPage: Localized<GalleryPageContent> = {
     sub: 'Um olhar sobre como os produtos SUP ganham vida — dos requisitos dos clientes às pranchas concluídas.',
     note: 'Queres ver o teu projeto em destaque aqui? Inicia uma conversa e vamos desenhá-lo em conjunto.',
   },
+  nl: {
+    kicker: 'Aangepaste SUP-projecten',
+    title: 'Aangepaste SUP-projecten',
+    sub: 'Een blik op hoe SUP-producten tot leven komen — van de vereisten van de klant tot afgewerkte planken.',
+    note: 'Wil je jouw project hier in de schijnwerpers? Start een gesprek en laten we het samen ontwerpen.',
+  },
 }
 
 /* ─────────────────────────── who-we-serve page extras ─────────────────────────── */
@@ -6723,6 +7726,11 @@ export const servePage: Localized<ServePageContent> = {
     kicker: 'Para quem trabalhamos',
     title: 'Soluções de SUP à medida para a tua empresa',
     sub: 'Quer precises de pranchas com a tua marca para a tua organização ou de produtos de SUP personalizados para a tua empresa, ajudamos-te a transformar requisitos em produtos acabados.',
+  },
+  nl: {
+    kicker: 'Voor wie we werken',
+    title: 'SUP-oplossingen op maat voor jouw bedrijf',
+    sub: 'Of je nu planken onder jouw merk nodig hebt voor je organisatie of gepersonaliseerde SUP-producten voor je bedrijf, wij helpen je om vereisten om te zetten in afgewerkte producten.',
   },
 }
 
@@ -6779,6 +7787,13 @@ export const worksPage: Localized<WorksPageContent> = {
     sub: 'Recolha de requisitos, verificação técnica, amostras, produção e exportação — cada etapa na nossa própria fábrica.',
     consultTitle: 'Começa com uma verificação da especificação',
     consultBody: 'Envia-nos a tua especificação, uma prancha de referência ou desenhos. Recebes uma avaliação de viabilidade e um orçamento — sem qualquer compromisso.',
+  },
+  nl: {
+    kicker: 'Ons ontwikkelingsproces',
+    title: 'Van specificatie naar afgewerkt product',
+    sub: 'Het verzamelen van vereisten, technische controle, monsters, productie en export — elke stap in onze eigen fabriek.',
+    consultTitle: 'Start met een controle van de specificatie',
+    consultBody: 'Stuur ons jouw specificatie, een referentieplank of tekeningen. Je ontvangt een haalbaarheidsbeoordeling en een offerte — geheel vrijblijvend.',
   },
 }
 
@@ -6922,6 +7937,27 @@ export const series: Localized<SeriesContent> = {
         title: 'Série Medusa Glow (A edição medusas)',
         sku: 'SUP-MG11',
         body: 'Medusas luminosas, estrelas-do-mar e recifes de coral com motivos EVA em blocos à prova de desvanecimento num verde-menta refrescante. Casco all-round de 11 ft para aventuras tropicais e costeiras.',
+        image: 'https://assets.supsfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        href: '/products/sup-medusa-glow',
+      },
+    ],
+  },
+  nl: {
+    kicker: 'Signature-serie',
+    title: 'Thema-edities',
+    sub: 'Op de oceaan geïnspireerde thema-edities, klaar voor jouw private label — plug-and-play designs met UV-digitaalprint en mechanische embossing.',
+    items: [
+      {
+        title: 'Serie Leviathan Wake (De walvizeditie)',
+        sku: 'SUP-LW11',
+        body: 'Een majestueus totem van een blauwe vinvis met geometrische en tribale motieven, gecombineerd met minimalistische zwart-witte deininglijnen. All-round romp van 11 ft voor meren, rivieren en kustwateren.',
+        image: 'https://assets.supsfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        href: '/products/sup-leviathan-wake',
+      },
+      {
+        title: 'Serie Medusa Glow (De kwalleneditie)',
+        sku: 'SUP-MG11',
+        body: 'Lichtgevende kwallen, zeesterren en koraalriffen met kleurvaste EVA-blokmotieven in een verfrissend mintgroen. All-round romp van 11 ft voor tropische en kustavonturen.',
         image: 'https://assets.supsfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },

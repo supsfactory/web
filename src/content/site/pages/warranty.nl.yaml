@@ -1,0 +1,113 @@
+meta:
+  title: 'OEM-fabricagegarantie en kwaliteitsborging | {SITE}'
+  description: 'OEM-fabricagegarantievoorwaarden voor opblaasbare SUP- en maritieme producten geproduceerd door SUPsfactory: gedekte defecten, duur, gedocumenteerde lotregisters en afhandeling van claims.'
+  keywords:
+    - 'oem garantie'
+    - 'fabricagegarantie'
+    - 'sup fabriek garantie'
+    - 'productkwaliteitsborging'
+    - 'garantie opblaasbare sup'
+label: 'OEM-garantie'
+headline: 'OEM-fabricagegarantie en productkwaliteitsborging'
+subtitle: 'Elk board dat wij produceren wordt gebouwd op basis van een goedgekeurd monster en gedocumenteerde lotregisters. Deze garantie definieert wat wij garanderen op de producten die wij onder jouw merk produceren en hoe claims op basis van deze registers worden behandeld.'
+seo:
+  headline: 'OEM-fabricagegarantie en kwaliteitsborging | SUPsfactory'
+  description: 'Fabricagegarantie voor opblaasbare SUP''s en andere maritieme producten geproduceerd door SUPsfactory: 5 jaar dekking op het hoofdmateriaal van de kamer, lassen en structurele integriteit van de drop-stitch kern, plus opblaasventielen en in de fabriek geïnstalleerde accessoires.'
+  datePublished: '2024-01-01'
+  dateModified: '2026-09-23'
+body: |
+  <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+    Deze fabricagegarantie is van toepassing op opblaasbare SUP-boards, kajaks en opblaasbare maritieme producten geproduceerd door SUPsfactory — de maritieme fabricagedivisie van Qingdao Vatrad Group Co., Ltd. — binnen OEM-, ODM- en private label programma''s. De ingangsdatum is de verifieerbare productiedatum van het lot of de in de inkooporder overeengekomen verzenddatum. De koper (merkeigenaar) bepaalt het garantiebeleid voor de eindgebruiker op de eigen markt; deze garantie is de verplichting van de fabriek op de goederen zoals gefabriceerd.
+  </p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
+    <h2 class="text-xl font-bold mb-3">Dekking en duur van de fabricagegarantie</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 jaar</h3>
+        <p class="text-sm text-gray-600 mt-1">Integriteit van het hoofdmateriaal van de kamer (CSM/PVC)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 jaar</h3>
+        <p class="text-sm text-gray-600 mt-1">Structurele integriteit van de glasvezelromp (indien van toepassing)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 jaar</h3>
+        <p class="text-sm text-gray-600 mt-1">Waterdichtheid van de lassen van de opblaasbare kamer</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 jaar</h3>
+        <p class="text-sm text-gray-600 mt-1">Werking van het opblaasventiel</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">1 jaar</h3>
+        <p class="text-sm text-gray-600 mt-1">In de fabriek geïnstalleerde accessoires en uitrusting</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-amber-700 dark:text-amber-400">1 jaar*</h3>
+        <p class="text-sm text-gray-600 mt-1">Commercieel gebruik, verhuur of vloot: alle componenten</p>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 mt-4">*Commercieel, overheids-, verhuur-, huur- of educatief gebruik verkort de garantie tot 1 jaar. Gebruik in wedstrijden of competities maakt de garantie volledig ongeldig, tenzij een specifieke raceconfiguratie uitdrukkelijk wordt gedekt door de inkoopovereenkomst.</p>
+  </div>
+
+  <h2>Wat is gedekt</h2>
+  <h3>Hoofdmateriaal van de kamer (5 jaar)</h3>
+  <p>De fabriek garandeert het hoofdmateriaal van de kamer tegen verslechtering door porositeit die het vermogen van het product om de bedrijfsdruk vast te houden aanzienlijk aantast. Dit geldt voor het met CSM (Hypalon) bedekte materiaal en alle andere kamermaterialen die in de productie worden gebruikt.</p>
+
+  <h3>Structurele integriteit van de glasvezelromp (5 jaar)</h3>
+  <p>Voor producten met een glasvezelversterkte kunststof romp (GVK) is de fundamentele composietstructuur gegarandeerd tegen structureel bezwijken als gevolg van materiaal- of fabricagefouten.</p>
+
+  <h3>Waterdichtheid van de lassen van de opblaasbare kamer (5 jaar)</h3>
+  <p>De lassen van de opblaasbare kamers, waar ze tijdens de fabricage worden verbonden, zijn gegarandeerd tegen fabricagefouten die een substantieel luchtverlies door de las veroorzaken. Periodieke inspectie en het handhaven van de juiste opblaasdrukken zijn voorwaarden van de dekking.</p>
+
+  <h3>Werking van het opblaasventiel (5 jaar)</h3>
+  <p>De oorspronkelijk tijdens de productie geïnstalleerde opblaasventielen zijn gegarandeerd tegen materiaal- of fabricagefouten die ervoor zorgen dat het ventiel de lucht niet zoals bedoeld vasthoudt.</p>
+
+  <h3>In de fabriek geïnstalleerde accessoires (1 jaar)</h3>
+  <p>De in de fabriek geïnstalleerde componenten en uitrusting zijn één jaar gegarandeerd tegen materiaal- en fabricagefouten. Artikelen van derden zijn uitgesloten en worden uitsluitend gedekt door de garanties van de betreffende fabrikanten.</p>
+
+  <h2>Wat niet is gedekt</h2>
+  <ul>
+    <li>Cosmetische defecten, waaronder verkleuring, vlekken, vervaging, wit uitslag of elke vorm van verandering van het uiterlijk</li>
+    <li>Perforaties, sneden, scheuren, breuken of andere fysieke schade</li>
+    <li>Microscheurtjes, haarscheuren, schuren, wrijvingsplekken of verslechtering door slijtage of contact</li>
+    <li>Degradatie door blootstelling aan UV-straling, weersinvloeden of atmosferische omstandigheden</li>
+    <li>Schade door contact met brandstoffen, oplosmiddelen, zuren, basen of chemicaliën</li>
+    <li>Schade door nalatigheid, oneigenlijk gebruik, misbruik, ongevallen of normale slijtage</li>
+    <li>Gelcoat- of verfproblemen (blazen, microscheurtjes, verkleuring)</li>
+    <li>Schade door stoten, belasting, onjuiste ondersteuning of vervoer op een trailer</li>
+    <li>Schade door onjuist oppompen/leegblazen of het gebruik van niet-goedgekeurde opblaasapparaten</li>
+    <li>Uitrusting, componenten of systemen van derden (gedekt door de betreffende fabrikanten)</li>
+  </ul>
+
+  <h2>Verplichting en rechtsmiddel van de fabrikant</h2>
+  <p>De enige en uitsluitende verplichting van de fabriek is de reparatie of vervanging, naar keuze van de fabriek, van elk onderdeel dat wordt beoordeeld als defect door materialen of fabricage en dat onder deze garantie valt. Reparaties of vervangingen worden uitgevoerd door de fabriek of het door haar aangewezen geautoriseerde servicecentrum. Gerepareerde of vervangen onderdelen zijn alleen gegarandeerd voor het resterende deel van de oorspronkelijke garantieperiode.</p>
+
+  <h2>Garantievoorwaarden</h2>
+  <ul>
+    <li><strong>Lotreferentie:</strong> claims moeten verwijzen naar de inkooporder, het lotnummer of het serienummerbereik zodat de fabriek de bijbehorende inspectieregisters kan terugvinden.</li>
+    <li><strong>Specificatiebasis:</strong> claims worden beoordeeld op basis van het goedgekeurde monster, de technische specificatie, de graphics en de voor het lot bevroren stuklijst (BOM) — dezelfde referenties die in de productie worden gebruikt.</li>
+    <li><strong>Onderhoud:</strong> het product moet worden onderhouden volgens de gepubliceerde instructies, inclusief periodieke inspectie en het handhaven van de juiste opblaasdrukken.</li>
+    <li><strong>Samenwerking:</strong> de aanvrager moet volledig en tijdig met de fabriek samenwerken in alle zaken met betrekking tot claims, inclusief de inspectie van de betrokken eenheden.</li>
+    <li><strong>Garantiebeleid van de koper:</strong> de koper, als merkeigenaar, stelt het garantieprogramma voor de eindgebruiker op de eigen markt samen. Deze fabricagegarantie is wat de fabriek verschuldigd is voor de goederen zoals gefabriceerd.</li>
+  </ul>
+
+  <h2>Commercieel gebruik</h2>
+  <p>Als het product wordt gebruikt voor commerciële, overheids-, non-profit-, verhuur-, huur-, educatieve doeleinden of voor elk ander doel dan privé vrijetijdsbesteding, wordt de garantieperiode van alle componenten teruggebracht tot één (1) jaar vanaf de ingangsdatum. Gebruik in snelheids-, duur- of racecompetities maakt de garantie volledig ongeldig, tenzij een specifieke raceconfiguratie uitdrukkelijk wordt gedekt door de inkoopovereenkomst.</p>
+
+  <h2>Hoe een garantieclaim indienen</h2>
+  <p>Neem contact op met SUPsfactory met de inkooporder of de lotreferentie en een gedetailleerde beschrijving van het probleem, inclusief de serienummers van de boards indien beschikbaar. De fabriek beoordeelt de claim op basis van de lotregisters en geeft instructies voor inspectie en ondersteuning.</p>
+  <p>Voor garantieondersteuning kun je via onze <a href="/nl/contact" class="text-sky-600 underline">contactpagina</a> contact met ons opnemen met het ordernummer en de productgegevens.</p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
+    <h2 class="text-xl font-bold mb-3">Ondersteund door een gedocumenteerd kwaliteitssysteem</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Elk board wordt vóór het verpakken getest — <a href="/nl/factory/quality-inspection" class="text-sky-600 underline">7 inspectiepoorten</a> registreren de resultaten per serienummer en de loten hebben een ERP-traceerbaarheid van 10 jaar. Garantieclaims worden beslist op basis van deze lotregisters, niet op basis van giswerk. Bekijk het <a href="/nl/quality" class="text-sky-600 underline">volledige kwaliteitssysteem</a> en download de <a href="https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">eindcontrolerapporten</a>.</p>
+  </div>
+
+  <h2>Artikelen van derden</h2>
+  <p>Uitrusting, componenten of systemen geproduceerd door derden (ook indien geïnstalleerd door de fabriek) worden uitsluitend gedekt door de garantie die de betreffende fabrikant eventueel biedt. De fabriek wijst elke garantieaansprakelijkheid voor dergelijke artikelen van derden uitdrukkelijk af.</p>
+
+  <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
+    Deze garantieverklaring is een samenvatting van de fabricagegarantievoorwaarden van de fabriek voor OEM-, ODM- en private label programma''s. De volledige inkoopovereenkomst beheerst alle voorwaarden. Specificaties kunnen zonder voorafgaande kennisgeving worden gewijzigd. SUPsfactory is de fabricagedivisie van Qingdao Vatrad Group.
+  </p>

@@ -1,0 +1,85 @@
+meta:
+  title: 'Productiecapaciteit — Fabriek van 12.500 m² | {SITE}'
+  description: 'Capaciteit van de Vatrad-fabriek: productielocatie van 12.500 m² met een jaarproductie van meer dan 120.000 SUP''s en uitbreidingsmogelijkheden. OEM/ODM-productie van opblaasbare SUP''s in hoog volume.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup productiecapaciteit'
+    - 'fabriek opblaasbare sup'
+    - 'paddle board productie'
+    - 'sup fabriek china'
+hero:
+  tagline: Productiecapaciteit
+  title: Productiecapaciteit & jaarproductie
+  subtitle: Productielocatie van 12.500 m² met een jaarproductie van meer dan 120.000 SUP''s met ruimte voor uitbreiding
+
+answer:
+  label: 'Helder antwoord'
+  text: 'Capaciteit van de fabriek: 12.500 m² in vier gespecialiseerde werkplaatsen, meer dan 120.000 SUP''s per jaar, meer dan 350 medewerkers in twee ploegen, export naar meer dan 50 landen. De MOQ wordt bevestigd op basis van de projectconfiguratie — monster (1–2 eenheden), pilot (20–50 eenheden) en standaardhoeveelheid (90–100+ eenheden per rol van 150 m); raadpleeg onze gids voor flexibele MOQ & branding voor de volledige logica. Levertijd 25–35 dagen, monsters 7–12 dagen.'
+  verified: 'September 2026'
+
+intro: Vatrad beheert een van de grootste productielocaties die zijn toegewijd aan opblaasbare SUP''s in Qingdao, China. Onze fabriek van 12.500 m² is georganiseerd in vier gespecialiseerde werkplaatsen die parallel opereren. De jaarlijkse SUP-capaciteit overtreft de 120.000 opblaasbare SUP''s (circa 10.000 per maand), met meer dan 50.000 reddingsvesten en meer dan 5.000 accessoires die op afzonderlijke productlijnen worden geproduceerd.
+
+highlights:
+  - value: 12.500 m²
+    label: Totaal productieoppervlak
+    detail: Over 4 gespecialiseerde werkplaatsen
+  - value: 120.000+
+    label: Jaarlijkse SUP-capaciteit
+    detail: Opblaasbare SUP''s, circa 10.000/maand
+  - value: 350+
+    label: Professionals
+    detail: Meer dan 25 ingenieurs, 2 ploegen/dag
+  - value: 50+
+    label: Exportlanden
+    detail: EU, VS, AU, Midden-Oosten, Azië
+  - value: 25–35
+    label: Standaard levertijd (dagen)
+    detail: Na bevestigde PO en aanbetaling
+  - value: 10+
+    label: Jaar exportervaring
+    detail: Sinds 2012
+
+workshops:
+  - title: SUP-productie
+    description: '4 geautomatiseerde assemblagelijnen voor opblaasbare SUP''s met een gecombineerde productie van circa 10.000 planken per maand. De digitale print- en zeefdrukposten opereren parallel. Jaarlijkse SUP-capaciteit: meer dan 120.000 planken.'
+    output: '120.000+ SUP''s/jaar'
+  - title: SUP-productie — uitbreidingslijnen
+    description: 'Verdere geautomatiseerde assemblagelijnen voor SUP''s, geactiveerd zodra de volumes groeien. Het verlijmen van de drop-stitch kern, het digitaal printen en de assemblageposten opereren parallel.'
+    output: 'Deel van de jaarlijkse capaciteit van meer dan 120.000 SUP''s'
+  - title: SUP-accessoires & gemengde assemblage
+    description: 'Multi-functionele assemblagelijnen voor SUP-accessoires — peddels, vinnen, leash, tassen en kits. Hetelucht-lasposten, HF-diëlektrische persen en assemblagebanken worden gereconfigureerd op basis van de order-mix. Jaarlijkse accessoirecapaciteit: meer dan 5.000 eenheden.'
+    output: '5.000+ accessoires/jaar'
+  - title: Veiligheidsuitrusting
+    description: 'Aparte cleanroom-productieafdeling voor reddingsvesten en veiligheidsuitrusting. Speciale posten voor naaien, het inbrengen van schuim en het testen. Jaarlijkse capaciteit van reddingsvesten: meer dan 50.000 eenheden.'
+    output: '50.000+ reddingsvesten/jaar'
+
+oem_capacity:
+  moq: 'SUP: monster 1–2 | pilot 20–50 | hoeveelheid 90–100+ (per rol van 150 m)'
+  lead_time: 'Standaard 25–35 dagen. Monsters 7–12 dagen. Express beschikbaar.'
+  payment: 'T/T 30% aanbetaling + 70% saldo. L/C, Western Union geaccepteerd.'
+
+lead_time_explainer:
+  tagline: 'Planning & schedulering'
+  title: 'Hoe de capaciteit jouw levering wordt'
+  subtitle: 'Capaciteit is geen enkel getal — zo worden de levertijden werkelijk toegewezen.'
+  items:
+    - title: 'De capaciteit varieert met jouw specificatie'
+      body: 'De beschikbare slots verschuiven met het planktype, de constructiecomplexiteit, de verpakking en de seizoensvraag. Tijdens de lente-/zomeropbouw draaien de lijnen vrijwel op volle capaciteit en raken de monsterslots het eerst vol.'
+    - title: 'Plan vóór jouw lanceerseizoen'
+      body: 'Stel de monsterbevestiging en de graphics-freeze ruim van tevoren vast. Herhalingsorders worden in jouw overeengekomen herhalingsslot gepland zodra het golden sample is gearchiveerd.'
+    - title: 'Drie schedulingsbanen'
+      body: 'Monsters gaan eerst de prototypelijn in, eerste orders belanden in het volgende vrije assemblagevenster en herhalingsorders draaien in hun herhalingsslot.'
+    - title: 'Bindende levertijden na verificatie'
+      body: 'We bevestigen een bindende levertijd pas nadat specificatie, graphics, verpakking en hoeveelheid zijn geverifieerd — nooit als een vaste belofte op voorhand.'
+
+cta:
+  title: 'Verifieer de productiecapaciteit voor jouw lanceringsdatum'
+  subtitle: 'Stuur planktype, hoeveelheid en beoogde verzenddatum — wij antwoorden met het volgende vrije productievenster en een bindende leveringsschatting.'
+  actions:
+    - variant: primary
+      text: Verifieer de beschikbaarheid
+      href: /contact#production-availability
+    - text: Bekijk het volledige overzicht van de fabriek
+      href: /factory
+    - text: Hoe de planken worden gebouwd
+      href: /factory/process

@@ -1,0 +1,85 @@
+meta:
+  title: 'Maattabel en specificaties SUP — Opblaasbare paddleboards | {SITE}'
+  description: 'Afmetingen, draagkracht en aanbevolen gebruik voor elke Vatrad-plank. Vind de juiste maat opblaasbare SUP voor jouw behoeften.'
+  dateModified: '2026-08'
+  keywords:
+    - 'SUP-maatadvies'
+    - 'Paddleboard afmetingen'
+    - 'Specificaties opblaasbare SUP'
+    - 'SUP-maattabel'
+hero:
+  title: Maattabel en specificaties
+  subtitle: Afmetingen, draagkracht en aanbevolen gebruik voor elk Vatrad-product.
+
+categories:
+  inflatable: Opblaasbare SUP's voor maximale draagbaarheid zonder concessies op het gebied van prestaties. Kies de juiste maat voor jouw gewicht en jouw peddelstijl.
+  sup: Stand-up paddleboards voor tour, yoga, fitness en recreatief varen. Keuze op basis van lengte en gewicht van de gebruiker.
+  accessory: Accessoires en veiligheidsuitrusting om jouw SUP-plank compleet te maken. Universele maten met meerdere opties.
+
+table:
+  headers:
+    product: Product
+    length: Lengte
+    width: Breedte
+    weight: Gewicht
+    max_load: Max. draagkracht
+    best_for: Geschikt voor
+  rows:
+    - product: 'SUP Allround (Explorer 11 ft)'
+      length: '11''0" (335 cm)'
+      width: '32" (81 cm)'
+      weight: 19 lbs (8.6 kg)
+      max_load: 220 lbs (100 kg)
+      best_for: Beginners, vrije tijd, gezinsvaren op rustige meren en rivieren
+    - product: 'SUP Allround (10''6")'
+      length: '10''6" (320 cm)'
+      width: '32" (81 cm)'
+      weight: 18 lbs (8.2 kg)
+      max_load: 200 lbs (90 kg)
+      best_for: Lichtere gebruikers, yoga en algemeen recreatief gebruik
+    - product: 'SUP Touring (12 ft)'
+      length: '12''0" (366 cm)'
+      width: '30" (76 cm)'
+      weight: 23 lbs (10.4 kg)
+      max_load: 260 lbs (118 kg)
+      best_for: Afstandpaddelen, snelheid en kusttours
+    - product: 'SUP Touring (14 ft)'
+      length: '14''0" (427 cm)'
+      width: '28" (71 cm)'
+      weight: 26 lbs (11.8 kg)
+      max_load: 275 lbs (125 kg)
+      best_for: Wedstrijden en langeafstandspaddelen
+    - product: 'SUP Surf (8–10 ft)'
+      length: '8''0"–10''0" (244–305 cm)'
+      width: '30" (76 cm)'
+      weight: 17 lbs (7.7 kg)
+      max_load: 180 lbs (82 kg)
+      best_for: Golven en wendbaar surfen
+    - product: 'SUP Yoga/Fitness (11 ft)'
+      length: '11''0" (335 cm)'
+      width: '34" (86 cm)'
+      weight: 22 lbs (10 kg)
+      max_load: 240 lbs (109 kg)
+      best_for: Yoga, fitness en stabiel recreatief varen
+
+how_to_choose:
+  title: Zo vind je de juiste maat
+  cards:
+    - title: SUP-planken
+      description: Kies de lengte op basis van jouw gewicht en het beoogde gebruik. De bredere planken (32"+ – 81 cm+) bieden meer stabiliteit. De langere planken (11-12 ft) houden beter koers tijdens tours. Zwaardere peddelaars hebben planken met meer volume nodig.
+    - title: Touring-SUP
+      description: De langere planken (11–12 ft) zijn het meest geschikt voor afstandspaddelen en tours. De bredere planken (32"+ – 81 cm+) bieden meer stabiliteit. Controleer de draagkracht voor het totale gewicht inclusief uitrusting.
+    - title: Allround-SUP
+      description: Kies de lengte op basis van het gewicht van de gebruiker en het beoogde gebruik. Allround-planken zijn geschikt voor vrije tijd, fitness en yoga. Kleinere planken zijn wendbaarder.
+
+cta:
+  title: 'Bekijk de planken op maat of praat met een ingenieur'
+  subtitle: 'Vergelijk de Touring-, Allround- en Yoga-modellen uit ons assortiment — of stuur ons de samenstelling van jouw gebruikersgroep en wij adviseren je de juiste maten voor jouw project.'
+  actions:
+    - variant: primary
+      text: Bekijk de SUP-producten
+      href: /nl/products
+    - text: Meer verdieping over paddelen
+      href: /nl/knowledge
+    - text: Hoe de planken worden gebouwd
+      href: /nl/factory/process

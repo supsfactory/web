@@ -1,0 +1,111 @@
+meta:
+  title: 'Laboratorium PVC-stoffen — materiaaltesten voor SUP-planken'
+  description: 'Materiaaltesten van vezel tot afgewerkte plank: treksterkte, UV-veroudering, koudeflexibiliteit en slijtvastheid voor PVC-stoffen van SUP''s.'
+back_text: 'Terug naar het R&D-centrum'
+home_label: 'Home'
+
+hero:
+  tagline: 'Laboratorium 01'
+  title: 'Laboratorium PVC-stoffen'
+  subtitle: 'Wetenschappelijke materiaaltesten — van vezel tot afgewerkte plank'
+  image: 'https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp'
+  image_alt: 'Materiaaltestlaboratorium voor PVC-stoffen van Vatrad'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'Planken worden gebouwd met marine PVC van 1,680 DTEX met een drielaagse coating en een drop-stitch kern die is ontworpen voor 12–15 PSI. Elke binnenkomende stofpartij wordt onafhankelijk in de fabriek getest — treksterkte (ISO 1421), UV-retentie na 2,000 uur xenonlampblootstelling (ISO 4892), slijtage en koudeflexibiliteit — geen enkele partij gaat in productie uitsluitend op basis van het datablad van de leverancier.'
+  verified: 'September 2026'
+
+intro: 'De stof van de plank is verreweg het belangrijkste materiaal in een opblaasbare SUP. Hij moet langdurige UV-blootstelling, herhaalde ompompcycli, slijtage op decks en zandstranden en extreme temperatuurschommelingen weerstaan — en ondertussen jarenlang zijn structurele integriteit behouden. Bij {SITE.name} is ons laboratorium voor PVC-stoffen uitsluitend gewijd aan het karakteriseren, valideren en continu verbeteren van de stoffen die we in elke plank gebruiken die we bouwen.'
+
+content_html: |
+  <h2>De basis van elke opblaasbare SUP</h2>
+  <p>We vertrouwen niet alleen op de databladen van de leverancier. Elke partij PVC-stof en drop-stitch kern die onze werkplaats binnenkomt, wordt intern onafhankelijk getest. Dit garandeert dat de gepubliceerde materiaalspecificatie ook daadwerkelijk de prestatie is van het materiaal dat je ontvangt — partij na partij, jaar na jaar.</p>
+
+  <h2>Gestandaardiseerde testapparatuur</h2>
+  <p>Ons stoffenlaboratorium is uitgerust met industriële testapparatuur conform ISO-, ASTM- en EN-methoden:</p>
+  <table>
+    <thead><tr><th>Apparatuur</th><th>Gemeten parameters</th><th>Norm</th></tr></thead>
+    <tbody>
+      <tr><td>Universele trekbank (50 kN)</td><td>Breekkracht, rek bij breuk, scheurpropagatie</td><td>ISO 1421 / ASTM D751</td></tr>
+      <tr><td>Xenonlamp verouderingskamer</td><td>UV-bestendigheid (kleurverandering, sterkteretentie na 2000 h)</td><td>ISO 4892 / ASTM G155</td></tr>
+      <tr><td>Koudeflexibiliteitsapparaat</td><td>Scheurtemperatuur van -30 °C tot -50 °C</td><td>ISO 4675 / ASTM D2136</td></tr>
+      <tr><td>Taber-slijtagetester</td><td>Gewichtsverlies na 1000 cycli (CS-10 wiel)</td><td>ASTM D3389 / ISO 5470-1</td></tr>
+      <tr><td>Dikteschroefmaat (digitaal, resolutie 0.001 mm)</td><td>Uniformiteit over de rolbreedte</td><td>ISO 2286-3</td></tr>
+      <tr><td>Waterkolomtestapparaat</td><td>Waterbestendigheid</td><td>ISO 811</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Alle instrumenten worden jaarlijks gekalibreerd door geaccrediteerde derde laboratoria.</p>
+
+  <h2>Van gegevens tot beslissing: een typisch testtraject</h2>
+  <p>Wanneer een nieuwe kandidaat-stof aankomt, doorloopt hij een gestandaardiseerd kwalificatieproces in zeven stappen:</p>
+  <ol>
+    <li><strong>Inkomende controle</strong> — visuele inspectie op oppervlaktefouten, naaldgaten en maatconformiteit.</li>
+    <li><strong>Diktemapping</strong> — metingen op 20 punten over de rol; voor acceptatie is CV &lt; 3 % vereist.</li>
+    <li><strong>Trektest</strong> — 5 monsters in ketting- en inslagrichting. Minimaal 3500 N/50 mm voor PVC van 1100 dtex.</li>
+    <li><strong>UV-conditionering</strong> — 1000 h blootstelling in de xenonlampkamer; minimaal 80 % sterkteretentie vereist.</li>
+    <li><strong>Koudscheur</strong> — 4 h bij -35 °C, daarna vouwen over 180° op een doorn van 25 mm. Geen zichtbare scheuren.</li>
+    <li><strong>Slijtvastheid</strong> — 1000 cycli, gewichtsverlies ≤ 0.05 g.</li>
+    <li><strong>Vrijgave</strong> — pas nadat alle zeven poorten zijn doorstaan, wordt de stof voor productie vrijgegeven.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Typisch PVC 1100 dtex — retentie van de treksterkte na UV-blootstelling</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 h 100%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">500 h 95%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">1000 h 88%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
+        <span class="text-xs mt-1">2000 h 82%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
+        <span class="text-xs mt-1">Concurrent ~65%</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Onze PVC-stof van 1100 dtex behoudt ruim 80 % van de treksterkte na 2000 h xenonlampblootstelling — terwijl gangbare industriële klassen onder de 70 % zakken.</p>
+  </div>
+
+  <h2>Ons technisch team</h2>
+  <p>Het laboratorium wordt bemand door twee fulltime materiaalingenieurs, elk met een diploma in polymeerwetenschap of textieltechnologie en minstens zes jaar branche-ervaring. Zij worden ondersteund door drie technici die de dagelijkse controles en gegevensregistratie uitvoeren. Het team neemt regelmatig deel aan de ringvergelijkingen die zijn georganiseerd door de Internationale Organisatie voor Normalisatie (ISO) om de nauwkeurigheid van onze testmethoden te valideren.</p>
+
+  <h2>Jouw moeilijkste materiaaluitdagingen oplossen</h2>
+  <p>Elke paddle-omgeving is anders. Een plank in de tropen wordt blootgesteld aan totaal andere UV- en thermische omstandigheden dan een plank op een noords meer of een woestijnbassin. Ons stoffenlaboratorium helpt je bij het kiezen — of ontwikkelen — van een stofspecificatie die is geoptimaliseerd voor jouw gebruiksprofiel.</p>
+  <p>Recente bijzondere oplossingen omvatten:</p>
+  <ul>
+    <li>Een PVC-mengsel met hoge slijtvastheid voor een verhuurvloot waarvan de planken regelmatig zandstranden en betonnen hellingen raken (+40 % slijtagelevensduur).</li>
+    <li>Een formulering voor extreem lage temperaturen voor een winteropslagprogramma van een dealer in Canada, getest tot -50 °C zonder brosheid.</li>
+    <li>Een kleurvast oranje deck voor een zoek- en reddingstrainingspark dat na 3 jaar tropische zon nog steeds zichtbaar is.</li>
+  </ul>
+  <p>We verkopen geen "standaard" stoffen in de hoop dat ze werken. We testen, valideren en adviseren — of ontwikkelen — een oplossing op maat voor jouw specifieke missieprofiel. Dat is het {SITE.name}-verschil.</p>
+
+  <h2>Hoe we je bedienen</h2>
+  <p>Wanneer je met een materiaaluitdaging bij ons komt, kun je dit verwachten:</p>
+  <ol>
+    <li><strong>Advies</strong> — we bespreken je gebruiksomgeving, prestatie-eisen en budget.</li>
+    <li><strong>Voorstel</strong> — er wordt een testplan opgesteld met duidelijke geslaagd/niet-geslaagd-criteria en een planning.</li>
+    <li><strong>Uitvoering</strong> — ons laboratorium voert de tests uit en produceert een gedetailleerd rapport met ruwe data en vergelijkende analyse.</li>
+    <li><strong>Aanbeveling</strong> — we presenteren een stofspecificatie, inclusief alternatieve opties indien meerdere materialen aan jouw eisen voldoen.</li>
+    <li><strong>Nazorg</strong> — na levering blijven we beschikbaar voor vragen over het materiaal in het veld.</li>
+  </ol>
+  <p>Ons doel is niet alleen om je een plank te verkopen. Het gaat erom dat de plank die je ontvangt betrouwbaar presteert in de omstandigheden waarin je hem gebruikt — en dat begint bij de stof.</p>
+
+cta:
+  title: 'Een aangepaste stofspecificatie nodig?'
+  subtitle: 'Neem contact op met ons team materiaaltechniek om jouw eisen te bespreken.'
+  actions:
+    - variant: primary
+      text: Neem contact op met ons laboratoriumteam
+      href: /nl/contact#project-brief
+    - text: Terug naar het R&D-centrum
+      href: /nl/randdcenter

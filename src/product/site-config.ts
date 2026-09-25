@@ -149,6 +149,30 @@ export const HERO_CONTENT = {
     float1: { value: '1–2 unidades', label: 'Amostra e aprovação (antes do compromisso de volume)' },
     float2: { value: FACTS.leadTime, label: 'Tempo de produção (após o PO)' },
   },
+  nl: {
+    kicker: 'Fabriek in Qingdao, China · OEM / ODM / Privaat label · Van monster tot serieproductie',
+    titlePre: 'Productie van SUP-producten op maat voor',
+    titleAccent: 'merken, distributeurs en organisaties',
+    titlePost: '',
+    sub: 'Opblaasbare SUPs voor OEM, ODM en privaat label — van specificatiereview en monsterontwikkeling tot serieproductie met kwaliteitscontrole in Qingdao, China.',
+    ctaPrimary: 'Start je SUP-project',
+    ctaSecondary: 'Bekijk fabriek, MOQ en kwaliteitsbewijs',
+    ctaTertiary: '',
+    ctaQuartiary: '',
+    ctaMicro: 'Reactie binnen 1 werkdag · NDA beschikbaar vóór het delen van bestanden · MOQ bevestigd na specificatiereview',
+    stats: [
+      { value: '12.500 m²', label: 'Eigen fabriek — Qingdao, China' },
+      { value: '120.000+', label: 'Jaarlijks geproduceerde planken' },
+      { value: '50+', label: 'Exportlanden' },
+      { value: FACTS.ndaWindow, label: 'NDA-responstijd' },
+    ],
+    mockupLabel: 'Vlaggenschipplatform',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Jouw opdruk · jouw kleuren · jouw verpakking',
+    heroNote: "Het MOQ wordt bevestigd na de specificatiereview, omdat constructie, boardmaat, PVC-structuur, opdruk, verpakking en accessoires van invloed zijn op het materiaalgebruik.",
+    float1: { value: '1–2 stuks', label: 'Monster en goedkeuring (vóór volumeverplichting)' },
+    float2: { value: FACTS.leadTime, label: 'Productietijd (na PO)' },
+  },
 }
 
 /** 供 Seo 模块使用的简化映射（仅读，不修改 PUBLIC_PATHS/HREFLANG/OG_*） */

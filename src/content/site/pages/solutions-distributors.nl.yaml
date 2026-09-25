@@ -1,0 +1,135 @@
+meta:
+  title: 'Private label & groothandelsdistributie voor distributeurs | {SITE}'
+  description: 'Private label- en groothandelsprogramma''s rechtstreeks vanuit de fabriek voor distributeurs en retailers: exclusieve territoria, white label SUP-productie en toegewijde accountbegeleiding.'
+  dateModified: '2026-09'
+
+hero:
+  tagline: Distributeurs & Private Label
+  title: 'Programma''s rechtstreeks vanuit de fabriek voor distributeurs en merken'
+  subtitle: 'Groothandels- en private labelprogramma''s vanuit een productiefaciliteit voor opblaasbare SUP''s. Koop tegen directe fabrieksprijzen, bouw je eigen assortiment op onder eigen merk en distribueer in exclusieve territoria in meer dan 50 landen.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-building.webp
+    alt: Productie- en verzendfaciliteit van SUPsfactory
+
+answer:
+  label: 'Kort antwoord'
+  text: 'Distributeurs en merken werken rechtstreeks samen met de fabriek: white label SUP-boards onder eigen merk, directe groothandelsfabrieksprijzen, exclusief territorium per programma, 3–8 SKU''s bij de start en 45–60 dagen betalingsuitstel (alles onder voorbehoud van de commerciële overeenkomst), waarbij 100 % van de voorraad vóór verzending op druk wordt getest. De initiële minimumhoeveelheden en transportvoorwaarden worden per territorium overeengekomen, met verzending FOB Qingdao of CIF.'
+  verified: 'September 2026'
+
+intro:
+  tagline: Het programma
+  title: 'Private label distributie op basis van eigen productiecapaciteit'
+  body: |
+    SUPsfactory ontwerpt, bouwt en test elke opblaasbare SUP, kayak en accessoire in de eigen fabriek in Laixi, Qingdao. Een private labelovereenkomst met ons betekent dat de inkoopbron in jouw merk is geïntegreerd: je ontvangt boards die door de fabriek op jouw naam zijn geproduceerd — geen doorverkochte voorraad van een andere distributeur.
+
+    Omdat wij de productie plannen rondom de prognoses van onze klanten, kunnen we grote volumes voor de start van het noordelijk halfrond-seizoen programmeren, de transportkosten via voorbestellingen stabiliseren en werkend kapitaal vrijmaken met transparante groothandelsvoorwaarden en overeengekomen betalingsplannen. Engineering, monsters, kwaliteitscontrole en exportdocumentatie worden allemaal intern beheerd — er zit geen broker of commerciële tussenpersoon in de keten.
+
+    Dit programma is een van de twee manieren om met de fabriek samen te werken. Als je een eigen groothandelsmerk voert en het voor je wilt laten produceren, is deze pagina voor jou. Resorts, trainingscentra en verhuurvloten die rechtstreeks voor eigen gebruik kopen, moeten daarentegen de OEM/ODM-productie en de vlootprogramma's raadplegen.
+
+wholesale_pricing:
+  tagline: Waarom deelnemen
+  title: 'Wat distributeurs ontvangen'
+  subtitle: 'Alles wat nodig is om een assortiment onder eigen merk in jouw markt te lanceren.'
+  intro: 'Distributiepartners ontvangen dezelfde fabriekskwaliteit en technologische diepgang die wij aan OEM/ODM-merken leveren, verpakt voor het groothandelskanaal onder eigen merk. De programmavoorwaarden — territoriale exclusiviteit, initieel SKU-assortiment en betalingsvoorwaarden — worden voor elk programma in de commerciële overeenkomst bevestigd.'
+  stats:
+    - value: '50+'
+      label: 'Landen waarnaar we verzenden'
+    - value: '1'
+      label: 'Toegewijde accountmanager'
+    - value: '45–60'
+      label: 'Dagen betalingsuitstel'
+    - value: '120.000+'
+      label: 'Boards jaarlijkse capaciteit'
+    - value: '3–8'
+      label: 'SKU''s bij de start van het programma'
+    - value: '100%'
+      label: 'In de fabriek getest vóór verzending'
+
+steps:
+  tagline: Zo werkt het
+  title: 'Van aanmelding tot eerste container'
+  subtitle: 'Een duidelijk en gestructureerd onboardingproces in meerdere fases, zodat jouw programma onder eigen merk op tijd van start gaat in het eerste seizoen.'
+  steps:
+    - step: 1
+      title: Stuur je aanmelding in
+      desc: 'Stuur de distributeursaanmelding in met het profiel van je bedrijf, je eerdere groothandelsomzet en je territorium.'
+    - step: 2
+      title: Toewijzing van het territorium
+      desc: 'Wij bevestigen welke landen of regio''s jouw programma onder eigen merk bestrijkt en of het territorium exclusief is.'
+    - step: 3
+      title: Assortiments- & brandingplan
+      desc: 'Kies je basismodellen uit de productiecatalogus, bevries de specificaties en finaliseer de graphics van jouw merk voor de productie.'
+    - step: 4
+      title: Goedkeuring van monsters & kwaliteit
+      desc: 'Bestel certificeringsmonsters om kwaliteit, verpakking en dropship-afhandeling te controleren. De monsters worden goedgekeurd vóór de start van de serieproductie.'
+    - step: 5
+      title: Seizoensgebonden nabestelling
+      desc: 'Jouw accountmanager plant de productie en de bevoorrading rondom jouw prognoses en de seizoenskalender.'
+
+benefits:
+  title: Wat distributeurs ontvangen
+  subtitle: 'Alles wat nodig is om in jouw markt succesvol te zijn.'
+  items:
+    - 'Private label onder eigen merk (OEM white label)'
+    - 'Exclusieve territoriale rechten (volgens de commerciële overeenkomst)'
+    - 'Productiecatalogus: SUP''s, accessoires, componenten'
+    - 'Concurrerende prijzen rechtstreeks vanuit de fabriek'
+    - 'Marketing- en verkoopmateriaal (vertaald)'
+    - 'Trainingsprogramma (product, verkoop, onderhoud)'
+    - 'Beursondersteuning'
+    - 'Monster- en pre-productiegoedkeuringsprogramma'
+    - 'Dropship-capaciteit'
+    - 'Toegewijde accountmanager voor distributeurs'
+    - '45-60 dagen betalingsuitstel (onder voorbehoud van de commerciële overeenkomst)'
+
+coverage:
+  title: Huidige distributie
+  subtitle: 'SUPsfactory verzendt momenteel rechtstreeks naar deze markten.'
+  regions:
+    - name: Europa
+      countries: 'Frankrijk, Duitsland, Verenigd Koninkrijk, Spanje, Italië, Nederland, Zweden, Noorwegen, Polen, Griekenland'
+    - name: Azië
+      countries: 'Japan, Zuid-Korea, China, Thailand, Singapore'
+    - name: Midden-Oosten
+      countries: 'Verenigde Arabische Emiraten, Saoedi-Arabië'
+    - name: Amerika
+      countries: 'VS, Canada, Brazilië, Mexico'
+    - name: Oceanië
+      countries: 'Australië, Nieuw-Zeeland'
+    - name: Afrika
+      countries: 'Zuid-Afrika, Marokko'
+
+faqs:
+  tagline: FAQ voor distributeurs
+  title: 'Groothandelsdistributieprogramma — Veelgestelde vragen'
+  items:
+    - q: 'Wat is de minimale order voor een nieuwe distributeur?'
+      a: 'Nieuwe distributiepartners starten doorgaans met een monster- en pre-productiegoedkeuringsorder, gevolgd door een eerste container die is afgestemd op hun seizoen. De exacte minimumhoeveelheden hangen af van de omvang van het territorium en het gekozen assortiment; jouw accountmanager bevestigt de initiële hoeveelheid tijdens de assortiments- en brandingplanning.'
+    - q: 'Kunnen we de boards onder ons eigen merk verkopen?'
+      a: 'Ja. Private label is hier het standaardmodel: de boards worden onder eigen merk geproduceerd met jouw graphics, jouw verpakking en jouw specificaties. SUPsfactory produceert uitsluitend voor de eigen klanten en concurreert in geen enkele markt met hen.'
+    - q: 'Zijn de territoria exclusief?'
+      a: 'Ja. De distributeursprogramma''s zijn gebaseerd op exclusieve territoria — elke groothandelspartner bestrijkt een vastgesteld land of een vastgestelde regio en ontvangt prijs- en programmasteun voor die markt, zoals vastgelegd in de commerciële overeenkomst.'
+    - q: 'Ondersteunen jullie dropshipping?'
+      a: 'De dropship-capaciteit is in het programma inbegrepen. Monsters, verpakking en afhandeling worden gevalideerd in de fase van monstergoedkeuring, zodat dropship-orders vanaf dag één zonder problemen werken.'
+    - q: 'Welke modellen kunnen we bestellen?'
+      a: 'De productiecatalogus omvat opblaasbare SUP-boards in Allround-, Touring- en Surf-vormen, opblaasbare kayaks, pompen, peddels, reddingsdrijvers en verzorgingsaccessoires, naast aangepaste vormen die met ons engineeringteam zijn ontwikkeld. De meeste partners starten met 4–8 bestseller-SKU''s en breiden uit in de volgende seizoenen.'
+    - q: 'Hoe worden de orders verzonden?'
+      a: 'De orders verlaten de fabriek met geplande vertrekken, met de mogelijkheid van voorbestelling om de transportkosten te stabiliseren. Jouw toegewijde accountmanager plant productie en verzending rondom jouw prognoses en de seizoenskalender.'
+    - q: 'Hoe meld ik me aan?'
+      a: 'Gebruik het aanmeldformulier op deze pagina of neem rechtstreeks contact met ons op. De aanmeldingen worden door het salesteam beoordeeld en wij reageren binnen enkele werkdagen met de vervolgstappen, inclusief de territoriumtoewijzing en een conceptcontract.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Verdiep je:</strong> distributiepartners verkopen boards die voor hen onder eigen merk worden geproduceerd — ontdek het <a href="/nl/oem-manufacturing">OEM/private label-productieprogramma</a> en het <a href="/nl/factory">kwaliteitsproces van de fabriek</a> om het product met vertrouwen te positioneren.</p>
+  </div>
+
+cta:
+  title: 'Klaar om je assortiment onder eigen merk te lanceren?'
+  subtitle: 'Meld je aan voor het distributeursprogramma of blader door de productiecatalogus.'
+  actions:
+    - text: 'Meld je aan voor het distributeursprogramma'
+      href: '/nl/contact#distributor'
+      variant: 'primary'
+    - text: 'Blader door de productiecatalogus'
+      href: '/nl/products'
+      variant: 'secondary'

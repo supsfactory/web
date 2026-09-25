@@ -1,0 +1,176 @@
+meta:
+  title: 'Lanceer een SUP-merk met een proeforder tegen een laag minimum | SUPsfactory'
+  description: 'Lanceer een merk opblaasbare SUP''s met een proeforder tegen een laag MOQ: samples in 7–12 dagen, pilotproeven met 20–50 planken, productie in 25–35 dagen. Branding en kwaliteitscontrole inbegrepen.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'een SUP-merk lanceren'
+    - 'lancering van een SUP-merk'
+    - 'SUP met laag MOQ'
+    - 'SUP-proeforder'
+    - 'startup SUP-merk'
+    - 'SUP-branding voor kleine partijen'
+    - 'private label opblaasbare SUP''s'
+
+hero:
+  tagline: 'Voor nieuwe en opkomende SUP-merken'
+  title: 'Lanceer een SUP-merk met een proeforder tegen een laag MOQ'
+  subtitle: 'Je hebt geen container nodig om een SUP-merk te lanceren. Valideer je plank, je graphics en je markt met één enkel sample en test de verkoop met een proeforder van 20–50 planken — vóór je je vastlegt op volledige productievolumes. Branding, kwaliteitscontrole en exportlogistiek worden uitgevoerd door de Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Begin met een sample
+      href: /nl/contact#custom-oem
+    - text: Ontdek het complete MOQ- en levertijdenconcept
+      href: /nl/sup-oem-moq-lead-time
+
+answer:
+  label: 'Kort antwoord'
+  text: 'Ja — je kunt een merk opblaasbare SUP''s lanceren met een proeforder tegen een laag MOQ. De instap is getrapt, niet alles-of-niets: eerst bestel je 1–2 samples (beschikbaar in 7–12 dagen) om romp, graphics en verpakking vast te leggen; daarna een proeforder van 20–50 planken (productie in 25–35 dagen) om de echte verkoop te testen; ten slotte kun je opschalen naar standaardpartijen van 90–100+ planken per rol van 150 m drop-stitch weefsel, zodra het formaat zich heeft bewezen. Co-branding voor kleine partijen start vanaf slechts 5–10 eenheden voor operators die ge-branded planken willen zonder enige ontwikkelfase. Je eerste container komt pas als de data het zeggen.'
+  verified: 'September 2026'
+
+trial_included:
+  tagline: Wat de proeforder dekt
+  title: 'Alles wat een lancering nodig heeft — zonder overhead'
+  subtitle: 'Een proeforder is geen kleinere factuur — het gebruikt hetzelfde fabrieksproces, op maat gemaakt voor een merk dat opstart. Dit dekt elk proefprogramma.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: 'Platform en plankconstructie'
+      desc: 'Beproefde Touring- en Allround-rompen met drop-stitch constructie, drie-laags railbandlas en stijfheid van 12–15 PSI — dezelfde platforms die we voor onze grootvolume-klanten gebruiken, in de standaardafmetingen van 10 ft tot 11 ft 6 in.'
+    - icon: L
+      icon_bg: green
+      title: 'Jouw branding, echt uitgevoerd'
+      desc: 'Volledige digitale of zeefdrukgraphics, antislip EVA-deckpad met jouw logo en secundaire branding op neus of zijrails. Co-branding voor kleine partijen gebruikt de primaire SUPsfactory-branding met jouw logo op neus of rails.'
+    - icon: P
+      icon_bg: purple
+      title: 'Verpakkingsopties die meeschalen'
+      desc: 'Je begint met standaarddozen en barcode-etiketten en stapt daarna over op ge-branded commerciële 5-laags kleurendozen. Aangepaste verpakkingen hebben een eigen minimaal drukvolume; overtollige dozen worden opgeslagen en op het juiste moment vrijgegeven.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Kwaliteitscontrole op fabrieksniveau'
+      desc: 'Elke plank doorloopt dezelfde assemblagechecklist van 100 punten en een druk- en dichtheidstest van 24 uur (standhouden op 18,0 PSI, automatische afkeur boven 0,50 PSI drukval) — net als bij elke bestelling, of het nu een sample of een container is.'
+    - icon: D
+      icon_bg: blue
+      title: 'Export en documentatie'
+      desc: 'Conformiteitsdocumentatie voor CE, ISO-9001, BSCI, REACH en RoHS, exportgeschikte verpakking en coördinatie van de zeevracht naar meer dan 50 landen — van een enkel sample tot volledige programma''s.'
+    - icon: T
+      icon_bg: green
+      title: 'Planbare doorlooptijden'
+      desc: 'Samples in 7–12 dagen, proefproductie in 25–35 dagen na orderbevestiging en aanbetaling, plus bevestigde productieslots voor pre-seizoensorders — zodat de lancering in het seizoen valt in plaats van het te missen.'
+
+trial_steps:
+  tagline: De lanceringsroadmap
+  title: 'Van idee naar eerste verkopen in zes poorten'
+  subtitle: 'De eerste typische lancering duurt 8–12 weken van briefing tot levering van de proeforder op bestaande platforms — langer als een eigen romp matrijzenbouw vereist. Elke poort heeft een datum die je vooraf afspreekt.'
+  steps:
+    - step: 'Poort 1'
+      title: 'Productbriefing en technische controle (dag 0–2)'
+      desc: 'Deel doelmodel, orderhoeveelheid, ontwerp en verpakkingsintenties. De technische controle vindt plaats binnen één werkdag, met een NDA vóór de uitwisseling van eigendomspecificaties.'
+    - step: 'Poort 2'
+      title: 'Specificatie, MOQ en offerte (dag 3–7)'
+      desc: 'Post-voor-post offerte met een exacte MOQ-berekening, samplekosten en doorlooptijdposten. De samplekosten worden na ondertekening van het contract verrekend met de productiebestelling.'
+    - step: 'Poort 3'
+      title: 'Samples in 7–12 dagen'
+      desc: '1–2 fysieke planken valideren de rompstijfheid, de hechting van het EVA-deckpad, de grafische precisie en de pasvorm van de accessoires. Je test de plank vóór je je op iets anders vastlegt.'
+    - step: 'Poort 4'
+      title: 'Proeforder met 20–50 planken (25–35 dagen)'
+      desc: 'Productie op bestaande rompplatforms met standaardmaterialen en vereenvoudigde verpakking — de minimale commerciële test die de echte retailomstandigheden weerspiegelt.'
+    - step: 'Poort 5'
+      title: 'Verkoopvenster en feedback'
+      desc: 'De belangrijkste poort ligt in jouw markt, niet in onze fabriek: verhuurders en klanten bevestigen plankformaat, graphics en prijsniveau vóór je op opschalen mikt.'
+    - step: 'Poort 6'
+      title: 'Opschalen naar hoeveelheidsproductie (90–100+ planken)'
+      desc: 'Zodra het formaat zich heeft bewezen, bieden standaardrollen van 150 m volledige productie-efficiëntie, ge-branded verpakking en kwantiteitsprijzen. Een containerprogramma is een doel, geen verplichting.'
+
+trial_budget:
+  tagline: Referentiewaarden voor het budget
+  title: 'Wat een lancering kost — prijsreferenties'
+  subtitle: 'Referentiewaarden, EXW Qingdao (China), voor een standaard Touring- of Allround-romp in de standaardafmetingen. De definitieve offerte hangt af van rompvorm, PVC, grafische dekking, verpakking, accessoires en hoeveelheid — bevestigd op jouw configuratie vóór enige verplichting.'
+  headers:
+    stage: Orderfase
+    price: Referentieprijs per plank
+    notes: Notities
+  rows:
+    - stage: 'Sample (1–2 planken)'
+      price: 'USD 250–350'
+      notes: 'Fysiek sample met jouw graphics. De samplekosten worden na ondertekening van het contract verrekend met de productiebestelling.'
+    - stage: 'Proef- / pilotorder (20–50 planken)'
+      price: 'USD 180–260'
+      notes: 'Bestaande rompplatforms, standaardmaterialen en vereenvoudigde verpakking. Het standaardtraject voor lage minimumhoeveelheden.'
+    - stage: 'Standaardhoeveelheden (90–100+ planken per rol van 150 m)'
+      price: 'USD 150–220'
+      notes: 'Volledige 150 m weefselrollen, aangepaste Pantone-PVC-opties, ge-branded verpakking en kwantiteitsprijzen.'
+    - stage: 'Eigen romp en matrijzen (optioneel extra)'
+      price: 'Op projectbasis'
+      notes: 'Een eigen rompmatrijs voegt 15–20 dagen matrijzenbouw toe aan de totale planning; de apparatuurkosten worden eenmalig post-voor-post geoffreerd.'
+
+derisk:
+  tagline: Lancering zonder risico
+  title: 'Vier manieren waarop een proeforder je lancering veiligstelt'
+  subtitle: 'De meeste merklanceringen mislukken op de voorraad, niet op de productkwaliteit. Een proeforder maakt de vermijdbare fouten onmogelijk.'
+  features:
+    - icon: I
+      icon_bg: blue
+      title: 'Geen zware magazijnverplichting'
+      desc: 'Je eerste seizoensrisico blijft onder de 50 planken. Moet het formaat worden aangepast, dan doe je dat vóór de grote investering — niet erna.'
+    - icon: C
+      icon_bg: green
+      title: 'Cashflow blijft planbaar'
+      desc: 'Kleinere orders betekenen kleinere aanbetalingen, gefaseerde betalingen en geen geblokkeerd kapitaal in de voorraad. Kwantiteitsprijzen wachten tot ze echt zijn verdiend.'
+    - icon: Q
+      icon_bg: purple
+      title: 'Kwaliteit wordt nooit verlaagd'
+      desc: 'Een proeforder van 20 planken doorloopt dezelfde checklist van 100 punten en dezelfde druktest als een containerprogramma — geen compromis van het type "eerst proeven, dan kwaliteit".'
+    - icon: G
+      icon_bg: orange
+      title: 'Gegarandeerd pad naar opschaling'
+      desc: 'Elke proeforder bevat een bevestigd pad naar volumes: verrekeningen op ontvangen samples, bevroren artwork en BOM en gereserveerde productieslots voor je volgende order.'
+
+scale_path:
+  tagline: Na de proeforder
+  title: 'Wat gebeurt er na een succesvolle proeforder'
+  subtitle: 'De proeforder is bewust ontworpen als eerste stap van een langere samenwerking. Dit is het pad dat we afspreken vóór de eerste plank wordt verzonden.'
+  steps:
+    - step: 'Fase 1'
+      title: 'Proeforder geleverd en geëvalueerd'
+      desc: '20–50 planken arriveren in het seizoen en de verkoopgegevens komen terug uit jouw kanaal — verhuur, retail of directe verkoop.'
+    - step: 'Fase 2'
+      title: 'Feedback en verfijning'
+      desc: 'Kleurvarianten, graphics, verpakking en accessoiremix worden aangepast aan de echte marktreactie. Artwork en BOM worden bevroren voor de volgende order.'
+    - step: 'Fase 3'
+      title: 'Hoeveelheidsproductie (90–100+ planken)'
+      desc: 'Standaardrollen van 150 m met volledige productie-efficiëntie, ge-branded commerciële verpakking en kwantiteitsprijzen — met de al toegepaste sampleverrekeningen.'
+    - step: 'Fase 4'
+      title: 'Containerprogramma''s'
+      desc: 'Programma''s met 300+ planken, gefaseerde leveringen, aangepast Pantone-materiaal en de volledige ontwikkelingspijplijn — dezelfde fabriek, nu op volumeschaal.'
+
+trial_faqs:
+  tagline: FAQ
+  title: 'Veelgestelde vragen over lanceren met een proeforder'
+  items:
+    - q: 'Kan ik echt een SUP-merk lanceren zonder containorder?'
+      a: 'Ja. De instap is getrapt: 1–2 samples valideren de plank (beschikbaar in 7–12 dagen), een proeforder van 20–50 planken valideert de markt (productie in 25–35 dagen) en hoeveelheidspartijen van 90–100+ planken volgen pas als de verkopen het formaat bewijzen. Co-branding voor kleine partijen start vanaf slechts 5–10 eenheden als je zonder ontwikkelfase ge-branded planken wilt.'
+    - q: 'Hoe lang duurt een volledige lancering van begin tot eind?'
+      a: 'Met bestaande rompplatforms duurt een eerste typische lancering 8–12 weken van productbriefing tot levering van de proeforder: samples in 7–12 dagen, proefproductie in 25–35 dagen na orderbevestiging en aanbetaling. Een eigen romp voegt 15–20 dagen matrijzenbouw toe.'
+    - q: 'Wat is in de prijs inbegrepen — en wat niet?'
+      a: 'De referentieprijzen gelden EXW Qingdao voor de planken zelf, inclusief branding en standaard-QC. Het zijn indicatieve waarden: de definitieve offerte wordt bevestigd op jouw configuratie — romp, PVC, grafische dekking, verpakking en accessoires — vóór iets bindend wordt. Transport, douanerechten en inklaring op bestemming worden apart geoffreerd.'
+    - q: 'Moet ik 100 of 500 planken kopen om mijn logo op de plank te krijgen?'
+      a: 'Nee. Co-branding voor kleine partijen zet je logo op neus of zijrails vanaf slechts 5–10 eenheden, en proeforders van 20–50 planken ondersteunen volledige grafische toepassing met dezelfde kwaliteit als de grootproductie. Wat met de hoeveelheid verandert is de prijs per eenheid — niet de beschikbaarheid.'
+    - q: 'Wat gebeurt er als ik het ontwerp na de proef wil wijzigen?'
+      a: 'Wijzigingen tussen proef en hoeveelheid zijn normaal en welkom — daar dient de proef precies voor. Kleurvarianten, artwork, verpakking en accessoires worden opnieuw berekend voor de nieuwe configuratie en bevroren vóór de hoeveelheidsrun met goedkeuring van artwork en BOM. De matrijkosten voor de zeefdruk vervallen voor volgende orders met hetzelfde artworkformaat.'
+    - q: 'Ondertekenen jullie een NDA voordat ik mijn ontwerpen deel?'
+      a: 'Ja. Er is een geheimhoudingsovereenkomst (NDA) beschikbaar voordat je eigendoms-technische specificaties of artwork deelt. We produceren uitsluitend onder de merken van onze klanten en concurreren in geen enkele markt met jou — hetzelfde beleid geldt voor een enkel sample als voor een containerprogramma.'
+
+cta:
+  title: 'Klaar om je SUP-merk te lanceren?'
+  subtitle: 'Stuur ons je doelmodel, de starthoeveelheden en je brandingideeën. We bevestigen het exacte sample- en proeftraject met post-voor-post kosten en een dag-voor-dag plan — vrijblijvend, tot je ondertekent.'
+  actions:
+    - variant: primary
+      text: Start de lancering
+      href: /nl/contact#custom-oem
+    - text: Begrijp eerst de MOQ en de levertijden
+      href: /nl/sup-oem-moq-lead-time
+    - text: De flexibele gids voor branding en MOQ
+      href: /nl/oem-moq-guide
+    - text: Verifieer de fabriek en het kwaliteitssysteem
+      href: /nl/oem-trust-assurance

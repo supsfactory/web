@@ -1618,7 +1618,274 @@ export const GUIDES_PT: Guide[] = [
   },
 ]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT }
+export const GUIDES_NL: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'Hoe kies je jouw SUP',
+    intro: [
+      'De keuze van je eerste opblaasbare SUP-plank hangt af van de grootte, de breedte, de constructie en de inhoud van de verpakking. Dit is wat ertoe doet, in eenvoudige woorden.',
+    ],
+    sections: [
+      {
+        title: 'Lengte en volume',
+        body: 'Langere planken (11–12 ft) glijden verder bij elke peddelslag en houden de koers beter vast — ideaal voor tochten en langere peddeltrips. Kortere planken zijn wendbaarder. Voor de meeste gebruikers is een allround-plank van 10\'6"–11\'0" het beste compromis.',
+      },
+      {
+        title: 'Breedte en stabiliteit',
+        body: 'De breedte bepaalt de stabiliteit meer dan welke andere factor dan ook. Een dek van 32 inch is vergevingsgezind voor beginners en stabiel genoeg voor yoga; planken van 30 inch passen bij lichtere of meer ervaren peddelaars die snelheid en wendbaarheid zoeken.',
+      },
+      {
+        title: 'Constructiekwaliteit',
+        body: 'Zoek een drop-stitch kern van militair PVC met een nominale druk van minimaal 15 PSI, een dubbellaagse PVC-laminateerlaag en verstevigde randbanden. Dit zijn de elementen die bepalen hoe stijf de plank is en hoe lang hij meegaat bij dagelijks gebruik.',
+      },
+      {
+        title: 'Wat er in de set zit',
+        body: 'Een complete set bespaart geld en gedoe: plank, verstelbare peddel in 3 delen, dubbelwerkende pomp met manometer, spiraalleash, vinnen, reistas en reparatieset.',
+      },
+    ],
+    faqs: [
+      { q: 'Welke maat moet een SUP-plank hebben?', a: 'De meeste beginners kiezen een allround-plank van ongeveer 11\'0" × 32" × 6" — stabiel, veelzijdig en makkelijk te vervoeren. Zwaardere gebruikers of wie zich richt op afstand, kiest beter een maat groter.' },
+      { q: 'Is een opblaasbare SUP even stijf als een hardboard?', a: 'Een moderne opblaasbare drop-stitch op 15–20 PSI benadert qua stijfheid een instap-hardboard — met als voordeel dat hij in een tas past.' },
+    ],
+    related: [
+      { label: 'Onze SUP-platforms', href: '/products' },
+      { label: 'Opblaasbaar vs. hardboard', href: '/inflatable-vs-hardboard' },
+      { label: 'OEM-productie', href: '/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Peddelgids voor beginners',
+    intro: [
+      'Alles wat je nodig hebt voor je eerste sessies op het water: oppompen, de eerste keer rechtop staan, de basispeddelslag en hoe je veilig blijft terwijl je vertrouwen opbouwt.',
+    ],
+    sections: [
+      {
+        title: 'Pomp tot de opgegeven druk, niet op gevoel',
+        body: 'Pomp tot de voorgeschreven druk (meestal 15 PSI) met de manometer van je pomp. Een plank op 10 PSI lijkt prima op het gras, maar zakt flink door in het water. Controleer de druk op warme dagen — de zon warmt de lucht binnenin op en laat de druk stijgen.',
+      },
+      {
+        title: 'De eerste stappen op de plank',
+        body: 'Begin op het strand of bij een ondiepe instapplaats: eerst op je knieën, daarna rechtop, één been tegelijk, op de hartlijn. Houd je voeten op schouderbreedte, je knieën ontspannen en je blik op de horizon — je plank volgt je ogen.',
+      },
+      {
+        title: 'De basispeddelslag',
+        body: 'Reik de peddel ver naar voren, steek het blad volledig in het water en trek langs de plank terwijl je je romp meedraait. Wissel om de paar slagen van kant om recht vooruit te blijven; om te draaien zijn twee tot drie brede slagen aan één kant genoeg.',
+      },
+      {
+        title: 'Oefen eerst met vallen',
+        body: 'In het water vallen hoort bij het leerproces. Oefen het weer opklimmen in ondiep water: zwem naar het handvat in het midden, duw je benen naar het oppervlak en trek jezelf in één beweging terug op de plank.',
+      },
+    ],
+    faqs: [
+      { q: 'Hoe lang duurt het om SUP te leren?', a: 'De meeste mensen kunnen al in hun eerste sessie van een uur comfortabel peddelen op kalmpjes water. Wendbaarheid, varen in de wind en over afstand verbeteren in de loop van een paar sessies.' },
+      { q: 'Moet ik fit zijn?', a: 'Nee — SUP is goed toegankelijk. Balans, core-kracht en uithoudingsvermogen ontwikkelen zich vanzelf door regelmatig te peddelen.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Opblaasbaar vs. hardboard',
+    intro: [
+      'Beide constructiefamilies winnen elk in andere scenario\'s. Dit is de eerlijke vergelijking voor recreatieve peddelaars, clubs en verhuurders.',
+    ],
+    sections: [
+      {
+        title: 'Draagbaarheid en opslag',
+        body: 'Opblaasbare planken passen opgevouwen in een tas die in de kofferbak, de caravan of de huiskast past — en zijn de standaardkeuze voor op reis. Hardboards vragen dakdragers, opbergruimte en meer zorg.',
+      },
+      {
+        title: 'Stijfheid en prestaties',
+        body: 'Premium hardboards zijn stijver en reageren directer op hoog prestatieniveau. Bij recreatieve snelheid biedt een goed gebouwde opblaasbare drop-stitch op 15–20 PSI vergelijkbare prestaties — tegen een fractie van de opslagkosten.',
+      },
+      {
+        title: 'Duurzaamheid',
+        body: 'Opblaasbare PVC-planken verdragen krassen van steigers en stoten aan de oever waar een hardboard zou breken — een belangrijke reden waarom verhuurvloten en resorts voor opblaasbaar kiezen voor dagelijks gastgebruik.',
+      },
+      {
+        title: 'Totale eigendomskosten',
+        body: 'Opblaasbare planken kosten minder aan verzending, opslag en onderhoud en doorstaan een ruwere behandeling. Voor de meeste gebruikers en vloten is een opblaasbare plank over het geheel de beste prijs-kwaliteitverhouding.',
+      },
+    ],
+    faqs: [
+      { q: 'Welke is het beste voor beginners?', a: 'Opblaasbare planken — stabiel, vergevingsgezind, makkelijk op te bergen en duurzaam genoeg voor de krassen die beginners veroorzaken.' },
+      { q: 'Kan een opblaasbare SUP net zo snel zijn als een hardboard?', a: 'Bij recreatieve snelheid is het verschil minimaal. Hardboards winnen pas duidelijk bij wedstrijden en in high-performance scenario\'s.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Veiligheidstips op het water',
+    intro: [
+      'Een veilige sessie is een leuke sessie. Deze basisregels gelden evenzeer voor meren, rivieren en kustpeddelen.',
+    ],
+    sections: [
+      {
+        title: 'Controleer de wind en de weersverwachting',
+        body: 'Landwind is de klassieke SUP-valkuil: hij drijft je sneller van de oever af dan je kunt terugpeddelen. Controleer de weersverwachting en blijf bij twijfel in beschut water.',
+      },
+      {
+        title: 'Gebruik altijd de leash',
+        body: 'Een spiraalleash houdt je plank binnen handbereik als je eraf valt — de plank is je drijfmiddel. Kies een leash die past bij de omstandigheden: spiraal voor kalmpjes water, recht voor surfen.',
+      },
+      {
+        title: 'Drijfmiddel en persoonlijke veiligheid',
+        body: 'Draag een drijfmiddel wanneer de omstandigheden of de regels dat vereisen. Neem een fluitje mee, laat iemand je route en verwachte terugkomsttijd weten en overweeg een mobiele telefoon in een waterdichte hoes.',
+      },
+      {
+        title: 'Ken je grenzen',
+        body: 'Bouw ervaring op in kalmpjes water voordat je wind of stroming aangaat. Respecteer koud water — het kost je snel kracht. En peddel nooit alleen in afgelegen gebieden of open water zonder plan.',
+      },
+    ],
+    faqs: [
+      { q: 'Moet ik op een SUP een reddingsvest dragen?', a: 'De vereisten verschillen per land en per vaarwater. Zelfs waar het optioneel is, vormen leash plus drijfmiddel de verantwoorde basis, en kinderen dragen altijd een goed passend reddingsvest.' },
+      { q: 'Is het veilig om op een meer te suppen?', a: 'Ja — rustige meren zijn ideaal om te leren. Controleer de windrichting, blijf zichtbaar voor het bootverkeer en vermijd drukke vaarroutes.' },
+    ],
+    related: [
+      { label: 'Veiligheidsuitrusting op onze platforms', href: '/products' },
+      { label: 'Kwaliteitscontrole in de productie', href: '/quality' },
+      { label: 'Kies je eerste plank', href: '/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Zo kies je een OEM-fabriek voor op maat gemaakte SUPs',
+    intro: [
+      'Het kopen van opblaasbare paddleboards onder je eigen merk draait om één beslissing: aan welke fabriek vertrouw je je eerste partij toe? Zo beoordeel je een fabrikant van op maat gemaakte SUPs voordat je een bestelling (PO) plaatst.',
+    ],
+    sections: [
+      {
+        title: 'Begin met een proefbestelling, niet met een discussie over MOQ',
+        body: 'Een fabriek die alleen over minimumhoeveelheden praat, verraadt een verkoopkantoor, geen echte onderneming. Echte fabrieken werken met gefaseerde minima — co-branding vanaf 5–10 stuks, proefpartijen van 20–50 stuks, standaard productievolumes van 90–100+ per rol van 150 m en projecten met een volledig eigen mal op volumeschaal. Begin met een kleine partij: test de communicatie, de discipline rond specificaties en de kwaliteit van de monsters zonder je hele lancering op het spel te zetten.',
+      },
+      {
+        title: 'Controleer wat echt intern gebeurt',
+        body: 'De productie van een drop-stitch SUP omvat vier kernfasen: het lamineren van het materiaal, lassen, printen en de eindmontage. Een echte fabriek voert alles uit onder één dak en laat je de afdeling bezoeken. Als de verkoper je geen productielijn kan laten zien, koop je waarschijnlijk via een tussenhandelaar zonder controle over kwaliteit of levertijden.',
+      },
+      {
+        title: 'Monsters moeten overeenkomen met de serieproductie',
+        body: 'Een met de hand afgewerkt monster is makkelijk; een consistente serieproductie is moeilijk. Vraag hoe de fabriek de herhaalbaarheid bewaakt: protocollen voor materiaalpartijen, lasparameters en een QC-checklist die op elke individuele plank wordt toegepast — niet alleen op degene die jij goedkeurt.',
+      },
+      {
+        title: 'Ken je kosten vóór de PO',
+        body: 'Vraag het volledige kostenoverzicht op schrift: eenheidsprijs per hoeveelheid, tooling- of matrijskosten als je een nieuwe vorm wilt, voorbereiding van het artwork en druk, en de verpakking.',
+      },
+      {
+        title: 'Vraag om een onafhankelijke inspectie',
+        body: 'Betrouwbare SUP-OEM-fabrieken verwelkomen inspecties vóór verzending — veel merken plannen voor elke container een onafhankelijke QC-controle. Bevestig dat de fabriek monster- en productie-inspecties kan regelen en dat afgekeurde exemplaren (bijvoorbeeld planken die meer dan 5% druk verliezen) uit de partij worden gehaald.',
+      },
+      {
+        title: 'Levertijden die kloppen',
+        body: 'Reken voor opblaasbare SUPs op monsters binnen 7–12 dagen en de serieproductie binnen 25–35 dagen na bevestigde PO en aanbetaling, plus de toolingtijd wanneer je een nieuwe mal bestelt. Een fabriek die veel kortere levertijden belooft dan alle anderen, citeert uit een catalogus, niet uit een planning.',
+      },
+    ],
+    faqs: [
+      { q: 'Wat is de minimale bestelhoeveelheid voor op maat gemaakte SUP-planken?', a: 'Gefaseerde minima zijn de norm: 1–2 stuks voor monsters, 5–10 stuks voor co-branding, 20–50 stuks voor een proefpartij en 90–100+ stuks per rol van 150 m voor standaard volumes; projecten met een volledig eigen mal vallen onder volumeschalen.' },
+      { q: 'Kan ik een monster zien vóór de serieproductie?', a: 'Ja — monsters zijn binnen 7–12 dagen klaar. De meeste fabrieken verrekenen de monster- en matrijskosten met je eerste productiebestelling, nadat deze is bevestigd.' },
+      { q: 'Hoe controleer ik of een SUP-fabriek echt is?', a: 'Vraag om een live-videobezoek aan de productieafdeling, controleer het adres van een operationele fabriek in Qingdao of een ander industrieel centrum en vraag om documentatie van eerdere exportbestellingen. Proefbestellingen zijn het definitieve bewijs.' },
+      { q: 'Wat moet een offerte van een SUP-fabriek bevatten?', a: 'Eenheidsprijs per plank, tooling- of matrijskosten, voorbereiding van het artwork, verpakking, voorwaarden rond QC en inspectie en de betalingsvoorwaarden.' },
+    ],
+    related: [
+      { label: 'Onze OEM/ODM-productie', href: '/oem-manufacturing' },
+      { label: 'Het productontwikkelingsproces van SUP', href: '/product-development' },
+      { label: 'Capaciteit en fabriek', href: '/factory' },
+      { label: 'Hoe wij kwaliteit bewaken — 7 inspectiepoorten', href: '/quality' },
+      { label: 'Handleiding MOQ en flexibele branding (PDF)', href: '/oem-moq-guide' },
+      { label: 'Vertrouwen en garantie van de fabriek', href: '/oem-trust-assurance' },
+      { label: 'Start jouw project voor een op maat gemaakte SUP', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'Eigen-merk SUP: wat je echt van een fabriek krijgt',
+    intro: [
+      'Private label is de snelste manier om een SUP-merk te lanceren: je logo op een bewezen platform, zonder de kosten en risico\'s van het ontwerpen van een plank vanaf nul. Dit is wat samenwerken met een fabrikant van op maat gemaakte SUPs echt inhoudt.',
+    ],
+    sections: [
+      {
+        title: 'Private label betekent bewezen platforms',
+        body: 'Je vertrekt van platforms die de fabriek al bouwt en test — allround, touring, yoga, race en meer. De fabriek personaliseert branding, graphics en afwerking, met lage kosten en korte levertijden. De minima zijn gefaseerd: co-branding vanaf 5–10 stuks, proefpartijen van 20–50 stuks en 90–100+ stuks per rol van 150 m voor het standaard private-label-volume.',
+      },
+      {
+        title: 'Branding gaat verder dan het logo',
+        body: 'Private label omvat het printen van je logo (digitaal of zeefdruk), gepersonaliseerde kleurstellingen, op maat gesneden EVA-deckpads met je logo, branding van accessoires (peddel, pomp, leash), het design van de verpakkingsdoos en zelfs displays voor het verkooppunt. Stuur je artwork op en de fabriek maakt vóór de productie een visueel bewijs.',
+      },
+      {
+        title: 'Wat de fabriek voor jou regelt',
+        body: 'Een full-service SUP-fabriek regelt de voorbereiding van het artwork, de inkoop van materialen, de productie van monsters, de montage-QC-checklist met 100 punten, de druktests en de exportdocumentatie (factuur, paklijst, oorsprongscertificaat). Jij controleert de proeven en keurt het monster goed — de fabriek doet al het andere.',
+      },
+      {
+        title: 'Wat van jou is: merk, markt, klant',
+        body: 'Bij een private-label-overeenkomst bouwt de fabriek de planken en is het merk van jou. Betrouwbare fabrikanten verkopen de planken niet onder eigen naam in jouw markt en geven jouw op maat gemaakte design ook niet door aan anderen. Vraag bij je offerte om marktexclusiviteit.',
+      },
+      {
+        title: 'Kosten: monster, mal, voorbereiding van het artwork',
+        body: 'Reken op drie soorten kosten: monsterkosten (7–12 dagen productietijd), toolingkosten wanneer een nieuwe mal nodig is (minimaal op volumeschalen) en de voorbereiding van het artwork voor de druk. De meeste fabrieken verrekenen de monster- en matrijskosten met je eerste productiebestelling.',
+      },
+      {
+        title: 'Van PO tot afgewerkte partij',
+        body: 'Een typisch private-label-traject: een aanbetaling van 30% start de productie, de serieproductie is klaar binnen 25–35 dagen na bevestigde PO en aanbetaling en het saldo wordt betaald tegen de goedgekeurde partij. Neem de volledige partij op in je eerste bestelling.',
+      },
+    ],
+    faqs: [
+      { q: 'Wat is de minimale bestelhoeveelheid voor eigen-merk SUP-planken?', a: 'Co-branding begint bij 5–10 stuks, proefpartijen bij 20–50 stuks en het standaard private-label-volume bij 90–100+ stuks per rol van 150 m; projecten met een volledig eigen mal vallen onder volumeschalen.' },
+      { q: 'Kan ik mijn logo en artwork opsturen?', a: 'Ja — stuur je logo en artwork op; de fabriek maakt vóór de productie een visueel bewijs, zodat je kleuren, plaatsing en afwerking kunt goedkeuren.' },
+      { q: 'Is mijn op maat gemaakte SUP-design exclusief voor mijn merk?', a: 'Ja, onder de standaardvoorwaarden van private label. Vraag om een exclusiviteitsclausule in je inkoopcontract; fabrieken zoals de onze verkopen jouw design niet door met jouw merk.' },
+      { q: 'Hoe lang duurt een eigen-merk SUP-bestelling?', a: 'Monsters worden binnen 7–12 dagen verzonden; de serieproductie is klaar binnen 25–35 dagen na bevestigde PO en aanbetaling. Reken op 8–12 weken voor de eerste volledige partij.' },
+    ],
+    related: [
+      { label: 'Eigen-merk SUP-oplossingen', href: '/solutions/private-label-sup' },
+      { label: 'Bewezen platforms', href: '/products/all-around' },
+      { label: 'OEM/ODM-productie', href: '/oem-manufacturing' },
+      { label: 'Start jouw project voor een op maat gemaakte SUP', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'SUP-vloten kopen voor verhuur, resorts en clubs',
+    intro: [
+      'Wie vloten koopt, heeft andere antwoorden nodig dan eindgebruikers: duurzaamheid per sessie, gestandaardiseerde reserveonderdelen, hoeveelheden op volumeschalen en een leverancier die seizoen na seizoen levert. Dit plan je vóórdat je je eerste vloot bestelt.',
+    ],
+    sections: [
+      {
+        title: 'Standaardiseer op één of twee specificaties',
+        body: 'De vlootbusiness draait om standaardisatie: één plankmaat (meestal 10\'6"–11\'0" × 32") voor het grootste deel van je gasten, een robuuste uitvoering en een set reserveonderdelen. Dat vereenvoudigt reparaties, personeelstraining, opslag en nabestellingen. Weersta de verleiding om tien verschillende modellen te kopen.',
+      },
+      {
+        title: 'Planken voor intensief gebruik zijn een ander product',
+        body: 'Een verhuurplank doorstaat tientallen sessies per seizoen. Specificeer dikkere PVC-lagen, verstevigde randbanden en stevigere accessoires dan bij retailplanken. Vraag de fabriek hoe de vlootspecificatie verschilt van de consumentenversie — echte fabrieken hebben beide.',
+      },
+      {
+        title: 'Stem de aantallen af op de vraag',
+        body: 'Bereken de omvang van je vloot op basis van de dagelijkse omlooptijd en de lengte van het seizoen: 20–30 planken zijn voldoende voor een klein verkooppunt, 100+ voor een druk bezocht resort of club. Vraag de fabriek om een aanbeveling voor het aantal stuks die past bij jouw vraagmodel.',
+      },
+      {
+        title: 'Bestel reserveonderdelen mee met de vloot',
+        body: 'Bestel reserveventielen, reparatiesets, pompen, leashes en peddels mee in dezelfde PO — ze kosten nu weinig per stuk en zijn midden in het seizoen moeilijk te vinden. Vraag de fabriek om een aanbevolen voorraad onderdelen (meestal 5–10% van de vlootomvang voor verbruiksartikelen).',
+      },
+      {
+        title: 'Bestel vóór het seizoen, niet er middenin',
+        body: 'De productie duurt 25–35 dagen na bevestigde PO en aanbetaling. Om de planken in het voorjaar op het strand te hebben, bevestig je de bestellingen aan het einde van de herfst, zodat de productie vóór het seizoen aankomt.',
+      },
+      {
+        title: 'Bemark je vloot voor de restwaarde',
+        body: 'Vlootplanken kunnen je logo, een nummeringssysteem voor de verhuur en een kleurcode per maat dragen. Zeefdruklabels op series van 200+ stuks zijn goedkoop en een bemerkte vloot werkt ook als marketing op het water.',
+      },
+    ],
+    faqs: [
+      { q: 'Wat is de beste SUP voor een verhuurvloot?', a: 'Een allround-plank van 10\'6"–11\'0" × 32" met verstevigde constructie is de industriestandaard — stabiel voor beginners, duurzaam voor dagelijks gebruik en makkelijk te onderhouden.' },
+      { q: 'Hoeveel planken heeft een verhuurbedrijf nodig?', a: 'Reken op 20–30 planken voor een klein verkooppunt, op te schalen met de omlooptijd: 100+ stuks voor druk bezochte resorts en clubs. De reserveonderdelen moeten 5–10% van de vlootomvang bedragen.' },
+      { q: 'Mogen de vlootplanken ons logo dragen?', a: 'Ja — zeefdruklabels, verhuurnummers en decks met kleurcodes zijn standaard personalisaties, die bijzonder voordelig worden vanaf 200 stuks.' },
+      { q: 'Hoe lang duurt een vlootbestelling?', a: 'Monsters binnen 7–12 dagen, productie binnen 25–35 dagen na bevestigde PO en aanbetaling — bestel je vloot daarom ruim vóór het begin van het seizoen.' },
+    ],
+    related: [
+      { label: 'Oplossingen voor resorts en clubs', href: '/solutions/resort-sup' },
+      { label: 'Case study: verhuurvloot op meerdere locaties', href: '/projects/rental-fleet-multi-site' },
+      { label: 'Platforms voor vloten', href: '/products/all-around' },
+      { label: 'Praat met een projectspecialist', href: '/contact' },
+    ],
+  },
+]
+
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -1860,6 +2127,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'Comprar frotas de SUP',
       intro:
         'Planeamento de frotas para aluguer, resorts e clubes: especificação robusta, quantidades por contentor, peças de reposição e sazonalidade.',
+    },
+  ],
+  nl: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'Hoe kies je jouw SUP',
+      intro:
+        'De keuze van je eerste opblaasbare SUP-plank hangt af van de grootte, de breedte, de constructie en de inhoud van de verpakking. Dit is wat ertoe doet, in eenvoudige woorden.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Peddelgids voor beginners',
+      intro:
+        'Alles wat je nodig hebt voor je eerste sessies op het water: oppompen, de eerste keer rechtop staan, de basispeddelslag en hoe je veilig blijft.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Opblaasbaar vs. hardboard',
+      intro:
+        'Beide constructiefamilies winnen elk in andere scenario\'s. Dit is de eerlijke vergelijking voor recreatieve peddelaars, clubs en verhuurders.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Veiligheidstips op het water',
+      intro:
+        'Een veilige sessie is een leuke sessie. Deze basisregels gelden evenzeer voor meren, rivieren en kustpeddelen.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Zo kies je een OEM-fabriek voor op maat gemaakte SUPs',
+      intro:
+        'Hoe je een fabrikant van op maat gemaakte SUPs beoordeelt vóór je bestelt: proefbestelling, eigen productie, monsters, kosten en inspectie.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'Eigen-merk SUP',
+      intro:
+        'Wat een private-label-overeenkomst echt inhoudt: bewezen platforms, complete branding, kosten, exclusiviteit en levertijden.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'SUP-vloten kopen',
+      intro:
+        'Vlootplanning voor verhuur, resorts en clubs: robuuste specificatie, aantallen per container, reserveonderdelen en seizoensgebondenheid.',
     },
   ],
 }

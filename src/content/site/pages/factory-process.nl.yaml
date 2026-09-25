@@ -1,0 +1,109 @@
+meta:
+  title: 'Productieproces — van grondstof tot SUP'
+  description: 'Van grondstof tot waterklare SUP: elke fase van het productieproces van Vatrad onder onze controle — van snijden en lassen tot het testen.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup productieproces'
+    - 'fabriek opblaasbare sup'
+    - 'fases productie paddle board'
+    - 'pvc sup lassen'
+hero:
+  tagline: Proces
+  title: Productieproces
+  subtitle: Van grondstof tot waterklare SUP — elke stap onder onze controle
+  back_label: Terug naar de fabriek
+  back_link: /factory
+
+answer:
+  label: 'Helder antwoord'
+  text: 'De planken doorlopen vijf gecontroleerde fases: materiaalcontrole (1–2 dagen), automatisch CNC-snijden (<5% afval, 2–4 uur per kit), het warmtelassen van de kamers met RF-verstevigde naden (1–2 dagen per plank), het verlijmen van de drop-stitch kern en de eindassemblage met 100% luchtdichtheids- en belastingstests vóór het verpakken.'
+  verified: 'September 2026'
+
+intro: In tegenstelling tot merken die de productie uitbesteden aan fabrieken van derden, bezit en runt Vatrad de volledige productieketen. Deze verticale integratie stelt ons in staat om in elke fase een strikte kwaliteitscontrole te behouden, snel in te spelen op de gepersonaliseerde vereisten van klanten en een constante productkwaliteit te garanderen, partij na partij. Zo wordt een SUP-plank in onze fabriek gebouwd.
+
+steps:
+  - step: '01'
+    title: Ingang materialen & controle
+    description: Elke binnengekomen partij PVC-weefsel, glasvezelmat, hars en onderdelen wordt gecontroleerd tegen de specificatie. Weefselmonsters worden getest op treksterkte, dikte-uniformiteit en UV-bestendigheid vóór de vrijgave aan de productie. Niet-conforme materialen worden geblokkeerd en teruggestuurd.
+    duration: 1–2 dagen
+  - step: '02'
+    title: Automatisch PVC-snijden
+    description: <p>De goedgekeurde weefsels worden op de automatische CNC-snijmachine gelegd en met submillimeternauwkeurigheid gesneden. De computergeoptimaliseerde nestindeling plaatst de panelen om afval te minimaliseren — doorgaans onder de 5%. De gesneden panelen worden gelabeld per SUP-model en kamer, gebundeld en naar de lasafdeling gebracht.</p>
+    duration: 2–4 uur per plank-kit
+  - step: '03'
+    title: Thermisch lassen & kamers lassen
+    description: De panelen worden geregen en verbonden met warmtelasmachines bij gecontroleerde heteluchttemperaturen tussen 200–300 °C. De hoofdnaden worden verstevigd met RF-dielectric lassen voor lucht- en hogesterktenaden. De afgewerkte kamers worden op 18.0 PSI opgepompt voor een 24-uurs vasthoudtest als eerste luchtdichtheidscontrole.
+    duration: 1–2 dagen per SUP
+  - step: '04'
+    title: Drop-stitch kern verlijmen
+    description: De drop-stitch kernen van de SUP-planken worden via heetlamineren aan de externe PVC-lagen verlijmd. Duizenden interne polyesterdraden verbinden de boven- en onderlaag, waardoor een stijve structuur ontstaat bij 12-15 PSI. De railbanden worden verlijmd via drielaagse fusie voor de sterkte van de randen.
+    duration: 1–2 dagen per plank
+  - step: '05'
+    title: SUP bedrukken & decoratie
+    description: De deck-graphics van de SUP-planken worden aangebracht via digitaal printen voor fotorealistische full-colour designs en zeefdruk voor duurzame logo''s en repeterende patronen. De prints worden uitgehard en verzegeld voor UV- en slijtvastheid.
+    duration: 1–2 dagen
+  - step: '06'
+    title: Eindmontage & afmontage
+    description: Ventielen, D-ringen, handvatten, fin boxen en deckpads worden op de montagelijn geïnstalleerd. Elke plank volgt een 100-punts montagechecklist met bindende vrijgave op elke fase.
+    duration: 1–2 dagen
+  - step: '07'
+    title: Kwaliteitscontrole & inspectie
+    description: 'Elke afgewerkte plank doorloopt een bindende kwaliteitspoort: luchtdichtheidstest van de kamer, functionele test van de onderdelen, controle van het aanhaalmoment en esthetische inspectie. Op maat gemaakte constructies en prototypes krijgen bovendien vaartests, die stabiliteit en wendbaarheid dekken.'
+    duration: 1–2 dagen
+  - step: '08'
+    title: Verpakken & verzending
+    description: De planken worden leeggelaten, volgens procedure gevouwen, verpakt in stevige stofzakken of commerciële dozen en klaargemaakt voor verzending. Elk pakket wordt gelabeld met model, serienummer en bestemming. We coördineren met expediteurs het FCL- en LCL-containervervoer over de hele wereld.
+    duration: 1 dag
+
+evidence_gates:
+  tagline: Inspectiebewijzen
+  title: 'Elke fase laat een bewijs achter — foto''s & rapporten'
+  subtitle: 'Hieronder vind je de echte inspectiefoto''s en de dossiers van de testrapporten van onze zeven gecontroleerde kwaliteitspoorten. Elk PDF-bestand is een authentiek tweetalig document dat je kunt downloaden en auditen — dezelfde registraties die elke partij ondersteunen in ons 10-jarig traceerbaarheidsarchief in de ERP. Bekijk de volledige flow in 7 fases op /quality.'
+  items:
+    - title: 'PPM — Kwaliteitsplanning project'
+      description: 'De pre-serie bijeenkomst stelt de scope, het golden sample en het kwaliteitsinspectieplan vast voordat de lijn start. Onopgeloste punten blokkeren de vrijgave van de productie.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Download de QIP (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node01-ppm.avif
+      alt: Pre-serie bijeenkomst om het golden sample en het kwaliteitsinspectieplan voor een OEM SUP-order te verifiëren
+    - title: 'IQC — Ingangsinspectie goederen'
+      description: 'Elke binnenkomende partij PVC, weefsel en onderdelen wordt gecontroleerd tegen de goedgekeurde specificatie. Niet-conforme partijen worden geblokkeerd en afgekeurd vóór de vrijgave aan de lijn.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Download de IQC-rapporten (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node02-iqc.avif
+      alt: Ingangsinspectie van goederen van PVC-weefsel en SUP-componenten in de fabriek
+    - title: 'IPQC / FAI — Procescontrole'
+      description: 'Het eerste monster wordt geverifieerd tegen de vastgelegde baselines en elke ploeg handhaaft steekproefsgewijze controles aan de lijn. De FAI-vrijgave blokkeert de versies van graphics, afmetingen en BOM.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Download de IPQC-rapporten (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Procesinspectie en verificatie van het eerste monster tijdens de SUP-productie
+    - title: 'Oppomptest & luchtdichtheid'
+      description: '100% van de afgewerkte planken — niet alleen een steekproef — ondergaat een 24-uurs drukbehoud bij 18.0 PSI met automatische uitsluiting bij een daling van meer dan 0,50 PSI. Een bewijs per kamer.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Download de luchtdichtheidsrapporten (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node04-airtightness.avif
+      alt: Oppomptest en luchtdichtheidstest van een kamer van een opblaasbare SUP
+    - title: 'FQC — Controle eindproduct'
+      description: 'De afgewerkte planken worden gemeten tegen de tekeningtoleranties en optisch beoordeeld onder daglichtlampen D65 tegen het goedgekeurde golden sample.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Download de FQC-rapporten (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node05-fqc.avif
+      alt: Controle van het eindproduct van afgewerkte SUP-planken vóór het verpakken
+    - title: 'PSI — Pre-verzendingsinspectie van verpakking'
+      description: 'De verpakte kit wordt 100% geverifieerd tegen de door de klant goedgekeurde BOM — streepjesscan (score ≥ B), markeringen op de doos en ISTA-1A valtest vóór het laden.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Download de PSI-rapporten (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node06-psi.avif
+      alt: Pre-verzendingsinspectie die de verpakte SUP-kit tegen de BOM verifieert
+    - title: 'Vrijgave voor verzending & traceerbaarheid'
+      description: 'Kwaliteit geeft de partij pas vrij wanneer alle zes eerdere poorten zijn gesloten. Serienummers worden aan de partij toegewezen en het dossier wordt met de zending meegeleverd.'
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Download de vrijgavenrapporten (PDF)'
+      image: https://assets.supsfactory.com/site/quality/node07-shipment-release.avif
+      alt: Ondertekening van de vrijgave voor verzending en overdracht van het traceerbaarheidsprotocol van de partij
+cta:
+  title: Bekijk onze apparatuur en machines
+  desc: Verken de industriële apparatuur achter elke Vatrad SUP-plank.
+  label: Bekijk de apparatuur →
+  link: /factory/equipment

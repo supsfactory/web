@@ -18,7 +18,8 @@ const handler = async () => {
       llm.llmsFrenchFull() +
       llm.llmsGermanFull() +
       llm.llmsItalianFull() +
-      llm.llmsPortugueseFull(),
+      llm.llmsPortugueseFull() +
+      llm.llmsDutchFull(),
     {
       headers: { 'content-type': 'text/markdown; charset=utf-8' },
     },

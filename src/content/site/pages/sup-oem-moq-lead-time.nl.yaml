@@ -1,0 +1,219 @@
+meta:
+  title: 'Aangepaste SUP-MOQ & levertijden: van monster tot containerladingen'
+  description: 'Aangepaste SUP-MOQ en leveringsniveaus: monsters in 7–12 dagen, pilotorders van 20–50 boards, standaardvolumes van 90–100+ per rol van 150 m, productie in 25–35 dagen.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'aangepaste sup moq'
+    - 'sup productietijden'
+    - 'minimale bestelhoeveelheid opblaasbare sup'
+    - 'sup pilotorder'
+    - 'levertijden aangepast paddleboard'
+    - 'levertijden sup fabriek oem'
+    - 'sup monsterbestelling'
+
+hero:
+  tagline: 'Aangepaste SUP-MOQ & levertijden'
+  title: 'Van monster tot containerladingen — MOQ en levertijden helder uitgelegd'
+  subtitle: 'Een heldere uitsplitsing van de bestelhoeveelheidsniveaus en productietijden voor aangepaste opblaasbare SUP''s: wat je per niveau kunt bestellen, hoe lang elk niveau werkelijk duurt en hoe monster, pilotorder en volume in één enkel project samenvallen. Ontworpen en beheerd door Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Vraag de MOQ- & levertijden-uitsplitsing voor jouw project aan
+      href: /nl/contact#moq-guide
+    - text: De MOQ-gids & flexibele branding
+      href: /nl/oem-moq-guide
+
+answer:
+  label: 'Kort antwoord'
+  text: 'MOQ en levertijden zijn projectspecifiek, maar het kader is vast. Elk aangepast SUP-project doorloopt dezelfde getrapte niveaus: monsterontwikkeling (1–2 boards, klaar in 7–12 dagen), proef- en pilotorders (20–50 boards) en standaardvolumecycli (90–100+ boards per drop-stitch rol van 150 m). De productietijd is 25–35 dagen vanaf de bevestigde PO en aanbetaling; als jouw project om een aangepaste romp vraagt, voegt de matrijsontwikkeling 15–20 dagen toe vóór aanvang van de productie. Een typisch eerste project ziet er dan zo uit: monsters in circa 1–2 weken, pilotboards in 4–6 weken en de eerste volledige cyclus die circa 6–8 weken na bevestiging van de order start.'
+  verified: 'September 2026'
+
+moq_lead_table:
+  tagline: 'Het kader'
+  title: 'De niveaus van aangepaste SUP-MOQ & levertijden in het kort'
+  subtitle: 'Elk niveau valideert het volgende. Je springt nooit direct van een ontwerp naar een container: je bevestigt romp, graphics en verpakking op elk niveau voordat je je voor meer boards vastlegt.'
+  headers:
+    stage: 'Bestelniveau'
+    quantity: 'Typische hoeveelheid'
+    lead_time: 'Levertijd'
+    best_for: 'Ideaal voor'
+  rows:
+    - stage: 'Monsterontwikkeling'
+      quantity: '1–2 boards'
+      lead_time: '7–12 dagen'
+      best_for: 'Validatie van de rompstijfheid, de textuur van het EVA-tractionmat, de grafische precisie en de passing van de accessoires. Er zijn monstervoorrijkosten, die bij ondertekening van het contract op je productieorder worden verrekend.'
+    - stage: 'Proeforder / pilotorder'
+      quantity: '20–50 boards'
+      lead_time: '25–35 dagen'
+      best_for: 'Economische pre-seizoentests, marktvalidatie en eerste verkopen met behulp van bestaande rompplatforms, magazijnmaterialen en vereenvoudigde verpakking.'
+    - stage: 'Standaardvolumecyclus'
+      quantity: '90–100+ boards per rol van 150 m'
+      lead_time: '25–35 dagen'
+      best_for: 'Volledige productie-efficiëntie op complete stofrollen van 150 m — geen stoflassen, gelijkmatige vezelspanning en afgeschreven line-instelling. Aangepaste matrijzen draaien op dit niveau.'
+    - stage: 'Breed programma'
+      quantity: '300+ boards'
+      lead_time: '25–35 dagen per lot, gefaseerde verzendingen'
+      best_for: 'Containerprogramma''s en seizoensvloten, gepland over meerdere productiebatches, zodat jouw magazijn en cashflow beheersbaar blijven.'
+
+moq_drivers:
+  tagline: 'Wat je MOQ bepaalt'
+  title: 'De zes factoren die je minimale hoeveelheid bepalen'
+  subtitle: 'De MOQ is geen willekeurig getal gekozen door een salesteam. Het wordt berekend op basis van de volledige productarchitectuur — deze onderdelen worden samen beoordeeld vóórdat de offerte wordt opgesteld.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Rompvorm & attrezzaggio'
+      desc: 'De bestaande rockervormen van de fabriek maken pilotorders vanaf 20 boards mogelijk. Een aangepaste romp vereist speciaal CAD-snijgereedschap en gereedschap voor het EVA-thermoppen, en het attrezzaggio voegt 15–20 dagen toe aan het programma.'
+    - icon: C
+      icon_bg: green
+      title: 'Kleurvarianten & PVC'
+      desc: 'De standaard magazijnkleuren draaien in pilothoeveelheden, terwijl PVC-rollen die in eigen beheer in Pantone-kleuren worden geverfd, aparte chemische verfcycli vereisen met hun eigen minimale grondstofhoeveelheden.'
+    - icon: A
+      icon_bg: purple
+      title: 'Design & printdekking'
+      desc: 'Een boeglogo kan in kleine cycli zeefdruk worden geprint, terwijl full-surface of meervoudige paneeldesigns de opbouw van digitale printclichés en dekkingstests vereisen, wat de praktische lotgrootte vergroot.'
+    - icon: B
+      icon_bg: orange
+      title: 'Verpakking met jouw merk'
+      desc: 'Aangepaste 5-laags retail geschenkdozen kennen hun eigen probleem van minimale oplage bij offsetdruk. Als je minder dozen bestelt, slaan wij het overschot op en leveren we het vrij langs jouw geplande verzendingen.'
+    - icon: G
+      icon_bg: blue
+      title: 'Accessoirepakketten'
+      desc: 'De standaardpeddels van aluminium of nylon, pompen en tassen volgen lagere inkooplots. Volledig gemerkte koolstofpeddels en aangepaste pompen volgen hun eigen minimale productiehoeveelheden.'
+    - icon: S
+      icon_bg: green
+      title: 'Seizoens- & betalingsplanning'
+      desc: 'Orders binnen het pre-seizoensvenster krijgen bevestigde productieslots. De gefaseerde verzendplannen voor programma''s vanaf 300+ boards worden bij het contract bevestigd, niet na de productie.'
+
+moq_timeline:
+  tagline: 'End-to-end-tijdlijn'
+  title: 'Van productbriefing tot verzonden boards: dag voor dag'
+  subtitle: 'De volledige tijdlijn voor een typisch aangepast SUP-programma. Bestaande rompplatforms drukken de linkerkant van deze tijdlijn samen; een aangepaste romp voegt de fase van matrijsontwikkeling toe.'
+  steps:
+    - step: 'Dag 0'
+      title: 'Stuur je productbriefing'
+      desc: 'Boardmodel, doelhoeveelheid, kleurvarianten, design en verpakkingseisen. De technische verificatie wordt binnen één werkdag afgerond.'
+    - step: 'Dag 1–2'
+      title: 'Technische verificatie & haalbaarheid'
+      desc: 'Ons technische team controleert de rompgeometrie, materialen en het conformiteitstraject en bevestigt of het project op bestaande platforms past of nieuwe matrijzen vereist.'
+    - step: 'Dag 3–7'
+      title: 'Specificatie & gedetailleerde offerte'
+      desc: 'Je ontvangt de volledige specificatie met MOQ-berekening, leveringssegmenten en gedetailleerde kosten — inclusief eventuele matrijskosten — vóór enige toezegging.'
+    - step: 'Dag 7–12'
+      title: 'Monsterontwikkeling (1–2 boards)'
+      desc: 'Fysiek monster gebouwd en getest: rompstijfheid, textuur van het EVA-tractionmat, grafische precisie en de passing van de accessoires. De monstervoorrijkosten worden bij goedkeuring op de productieorder verrekend.'
+    - step: '+15–20 dagen'
+      title: 'Ontwikkeling van aangepaste matrijzen (alleen aangepaste rompen)'
+      desc: 'Alleen voor projecten met een nieuwe rompvorm: CNC-snijgereedschap, gereedschap voor het EVA-thermoppen en matrijstests worden afgerond voordat de productie in volume kan beginnen.'
+    - step: '25–35 dagen'
+      title: 'Productie na bevestigde PO & aanbetaling'
+      desc: 'Complete stofrollen van 150 m, Pantone-materialen, verpakking met jouw merk en 100-punts montage. Elk board ondergaat druk- en luchtvasthoudingstests van 24 uur.'
+    - step: '300+ boards'
+      title: 'Planning van gefaseerde verzendingen'
+      desc: 'Brede programma''s worden verzonden in geplande batches om in te spelen op seizoensverkopen, opslagcapaciteit en betalingsmijlpalen.'
+    - step: 'Dag 0–90'
+      title: 'Typische horizon van de eerste order'
+      desc: 'Van briefing tot eerste geleverde cyclus: circa 6–8 weken met bestaande platforms, 8–12 weken inclusief aangepaste matrijs. Multi-rol- en containerprogramma''s gaan bewust verder.'
+
+expedite:
+  tagline: 'Het programma kort houden'
+  title: 'Wat de levertijden kort houdt'
+  subtitle: 'Drie hefbomen laten je het programma inkorten zonder de fundamenten van de rolfysica te veranderen.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Monsters zijn standaard snel'
+      desc: 'Monsterontwikkeling kost 7–12 dagen in elk project. Gebruik de monsterronde om je specificatie vast te zetten, zodat de productie nooit hoeft te wachten op late designbeslissingen.'
+    - icon: P
+      icon_bg: green
+      title: 'Productieslots worden vooraf bevestigd'
+      desc: 'Pre-seizoensorders garanderen bevestigde productieslots. Dat meerdere klanten hetzelfde slot boeken, is precies de reden waarom vroegere aanbetalingen eerdere productielijnen krijgen.'
+    - icon: T
+      icon_bg: purple
+      title: 'Transparante getrapte gates'
+      desc: 'Elke gate — monstergoedkeuring, BOM-freeze, design-freeze, PO en aanbetaling — wordt bij het contract met een datum afgesproken. Je weet altijd op welke dag de klok opnieuw begint.'
+
+scenarios:
+  tagline: 'Drie realistische instappunten'
+  title: 'Welk traject past bij jouw project?'
+  subtitle: 'Dezelfde fabriek, drie verschillende trajecten om in te stappen. Kies het scenario dat het dichtst bij jouw situatie ligt en gebruik het wanneer je contact opneemt.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Startupmerk: valideren vóór je je vastlegt'
+      desc: 'Bestel eerst 1–2 monsters (7–12 dagen), test rijkwaliteit en fotografie en plaats daarna een proeforder van 20–50 boards om de verkopen te testen vóór enige volledige cyclus. De totale exposure van het eerste seizoen blijft onder de 50 boards.'
+    - icon: B
+      icon_bg: blue
+      title: 'Resort of verhuuroperator: piloten, daarna opschalen'
+      desc: 'Een pilotorder van 20–50 boards met vereenvoudigde verpakking brengt je door de pre-seizoenperiode. Na het verzamelen van gebruikersgegevens stijg je door naar standaardcycli van 90–100+ boards met verpakking op merk.'
+    - icon: C
+      icon_bg: green
+      title: 'Gevestigd merk: volledige containerprogramma''s'
+      desc: 'Bestaande merken bestellen 90–100+ boards per rol van 150 m met aangepaste rompen en full-surface branding. Het aangepaste matrijs-attrezzaggio voegt 15–20 dagen toe; programma''s vanaf 300+ boards verzenden volgens gefaseerde plannen.'
+
+moq_quality:
+  tagline: 'QC & conformiteit'
+  title: 'Hetzelfde kwaliteitssysteem bij elke orderomvang'
+  subtitle: 'Een monster van 1 board en een programma van 300+ boards doorlopen dezelfde kwaliteitsgates en dezelfde conformiteitsdocumentatie. "Lage MOQ" betekent nooit "lage norm".'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Conformiteitsdocumenten, elke omvang'
+      desc: 'De CE-, ISO 9001-, BSCI-, REACH- en RoHS-certificeringsdocumentatie wordt bij elke order meegeleverd — inclusief losse monsters — met certificaatnummers op aanvraag.'
+    - icon: A
+      icon_bg: green
+      title: '100-punts montagechecklist'
+      desc: 'Elk board, ongeacht de lotgrootte, slaagt voor dezelfde 100-punts montagechecklist: materialen, lassen, ventielen, rails, vinnen en de passing van de accessoires worden regel voor regel gecontroleerd.'
+    - icon: P
+      icon_bg: purple
+      title: 'Druk- en luchtdichtheidstest van 24 uur'
+      desc: 'Elk board wordt opgeblazen tot 18,0 PSI en 24 uur vastgehouden. Een drukverlies van meer dan 0,50 PSI leidt tot automatische afkeur — dezelfde gate voor een monster en voor een container.'
+    - icon: R
+      icon_bg: orange
+      title: 'Verificatie van HF-lassen & railfusie'
+      desc: 'De fusie van de drielaagse railband en de HF-lassen worden vóór elke productiecyclus visueel en dimensionaal geverifieerd ten opzichte van het goedgekeurde monster.'
+    - icon: B
+      icon_bg: blue
+      title: 'ERP-lot-traceerbaarheid (10 jaar)'
+      desc: 'Elk board draagt productieregisters met serienummer — materialen, operators, tests en inspectieresultaten — die 10 jaar worden bewaard en voor audits beschikbaar worden gesteld.'
+    - icon: I
+      icon_bg: green
+      title: 'Klaar voor inspectie door derden'
+      desc: 'De batchproductie is op elk moment klaar voor inspecties door derden. De meeste klanten gebruiken daarnaast ons inspectiesysteem op 7 niveaus of een pre-shipment inspectie voor volumeprogramma''s.'
+
+moq_faqs:
+  tagline: 'FAQ'
+  title: 'Veelgestelde vragen over MOQ & levertijden'
+  items:
+    - q: 'Wat is de minimale bestelhoeveelheid voor een aangepaste SUP?'
+      a: 'Dat hangt af van het niveau van je project: monsters zijn 1–2 boards, kleine co-brandinghoeveelheden starten vanaf 5–10 eenheden, proef- en pilotorders draaien met 20–50 boards en de standaard productie in volume draait met 90–100+ boards per drop-stitch stofrol van 150 m. Aangepaste matrijzen draaien op het volumeniveau. Wij bevestigen de exacte berekening voor jouw configuratie vóór het opstellen van de offerte.'
+    - q: 'Hoe lang duurt een monster van een opblaasbare SUP?'
+      a: 'Monsterontwikkeling kost 7–12 dagen. Het monster verifieert rompstijfheid, textuur van het EVA-tractionmat, grafische precisie en de passing van de accessoires. Er zijn monstervoorrijkosten, die bij ondertekening van het contract op je productieorder worden verrekend.'
+    - q: 'Hoe lang duurt de productie na bevestiging van de order?'
+      a: 'De productietijd is 25–35 dagen vanaf de bevestigde PO en aanbetaling. Als je project een aangepaste romp omvat, voegt de ontwikkeling van de aangepaste matrijs 15–20 dagen attrezzaggio toe vóór aanvang van de productie.'
+    - q: 'Wordt de MOQ berekend per order, per model of per kleurvariant?'
+      a: 'De MOQ kan gelden per model, kleurvariant, designversie, verpakkingsconfiguratie of de totale order. Omdat verschillende drop-stitch diktes en PVC-kleuren uit afzonderlijke grondstofrollen komen, genereert een order van 50 boards verdeeld over 5 kleuren 5 aparte aanvragen voor stofrollen. Wij bevestigen de berekening ten opzichte van jouw SKU-matrix.'
+    - q: 'Kan ik met slechts 1–2 boards beginnen om de markt te testen?'
+      a: 'Ja. Een monsterorder van 1–2 boards is de goedkoopst mogelijke validatie: rompstijfheid, graphics en de passing van de accessoires worden bevestigd vóórdat je je financieel vastlegt op een cyclus. Van daaruit stijg je naar een proeforder van 20–50 boards voor de economische validatie.'
+    - q: 'Kan een programma van 300+ boards in meerdere batches worden verzonden?'
+      a: 'Ja. Brede programma''s kunnen als gefaseerde verzendingen over productiebatches worden gepland, zodat seizoensvloten arriveren wanneer ze nodig zijn en cashflow en magazijnruimte beheersbaar blijven. De programma''s worden bij het contract bevestigd, niet na de productie.'
+
+evidence_review:
+  tagline: 'Bewijzen & verificatie'
+  title: 'GEVERIFIEERDE SPECIFICATIES'
+  body: 'Alle productiegegevens op deze pagina worden geverifieerd door ons Manufacturing Engineering Team in de fabriek in Laixi, Qingdao. Certificaten, QC-inspectieregisters, druk- en constructietestrapporten en lot-traceerbaarheidsregisters zijn op aanvraag beschikbaar. Specificaties voor het laatst geverifieerd in september 2026.'
+
+cta:
+  title: 'Wil je MOQ & levertijden specifiek voor jouw project ontvangen?'
+  subtitle: 'Stuur ons je boardmodel, de doelhoeveelheid voor het eerste seizoen en je brandingvereisten. Ons technische team bevestigt of het traject monster, proef of volume het juiste is — met de exacte MOQ-berekening en een plan dag voor dag. Een aanvraag legt je nergens toe.'
+  actions:
+    - variant: primary
+      text: Vraag de MOQ- & levertijden-uitsplitsing aan
+      href: /nl/contact#moq-guide
+    - text: Vergelijk met de gids voor flexibele branding
+      href: /nl/oem-moq-guide
+    - text: Lanceer een nieuw merk met een proeforder bij lage MOQ
+      href: /nl/new-brand-trial-order
+    - text: Verifieer fabriek en kwaliteitssysteem
+      href: /nl/oem-trust-assurance

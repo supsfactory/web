@@ -1,0 +1,53 @@
+meta:
+  title: "Certificering opblaasbare SUP's — Gids voor CE-, REACH-, RoHS-conformiteit"
+  description: "Certificeringsscope voor de productie van opblaasbare SUP's: CE (EU-modellen), BSCI, ISO 9001, REACH, RoHS. Certificaatnummers per project op aanvraag beschikbaar."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Direct antwoord"
+    directAnswer:
+      answer: "SUPsfactory beschikt over de certificeringen BSCI, ISO 9001, ISO 25649, CE, REACH en RoHS. De CE is van toepassing op modellen die bestemd zijn voor EU-markten — niet zonder onderscheid op «alle producten»."
+      condition: "De certificeringsscope varieert afhankelijk van de doelmarkt en de productconfiguratie. Certificaatnummers, geldigheid en uitgevende instanties zijn per project op aanvraag beschikbaar."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "September 2026"
+      sourceType: "certificate"
+    body: |
+      Certificering is een centraal inkoopcriterium en moet nauwkeurig worden verklaard.
+      Generieke beweringen als "CE op alle producten" kunnen vertrouwensproblemen opleveren
+      wanneer de koper later ontdekt dat de scope smaller is dan verwacht.
+
+  - title: "Certificatiedetails"
+    body: |
+      | Certificering | Scope | Instantie | Van toepassing op |
+      |---------------|-------|-----------|------------|
+      | BSCI | Sociale audit | amfori BSCI | Productielocatie |
+      | ISO 9001 | Kwaliteitsmanagementsysteem | Certificeringsinstantie (op aanvraag beschikbaar) | Productielocatie |
+      | ISO 25649 | Veiligheid van opblaasbare boten | ISO | Toepasselijke SUP-modellen per markt |
+      | CE | Conformiteit met de EU-markt (EN ISO 6185 / 10087 / 10240) | Aangemelde EU-instantie | Modellen bestemd voor de EU-markt |
+      | REACH | Chemische veiligheid van de EU | ECHA | Materialen gebruikt in de productie |
+      | RoHS | Beperking van gevaarlijke stoffen | EU-richtlijn | Elektronische accessoires (pompen) |
+
+  - title: "Belangrijke opmerkingen over de scope"
+    body: |
+      - **CE** is van toepassing op modellen die zijn geconfigureerd voor verkoop op de EU-markt. Een plank
+        die is gebouwd voor distributie in de Verenigde Staten of Australië draagt de CE-markering alleen
+        wanneer daar uitdrukkelijk om is gevraagd.
+      - **ISO 9001** dekt het kwaliteitsmanagementsysteem van de locatie, niet de
+        productcertificering van individuele artikelen.
+      - De **REACH**-conformiteit dekt de materialen die in de productie worden gebruikt — de documentatie
+        is beschikbaar voor importeurs die stoffen moeten registreren.
+      - Certificaatnummers, geldigheidsdata en uitgevende instanties zijn per project
+        op aanvraag beschikbaar. Wij publiceren de certificaatnummers om veiligheidsredenen niet openbaar.
+      - Inspectie door derden via SGS, TÜV, BV of Intertek beschikbaar voor elke verzending.
+
+  - title: "Hoe vraag je de certificatiedocumenten aan"
+    body: |
+      Vermeld je doelmarkten tijdens het aanvraagproces en wij bevestigen
+      welke certificeringen van toepassing zijn op jouw specifieke productconfiguratie. Kopieën
+      van de certificaten (met eventuele commerciële gegevens, waar nodig, verduisterd) worden verstrekt
+      als onderdeel van het projectdocumentatiepakket.
+
+evidence_review:
+  tagline: 'Bewijzen & verificatie'
+  title: 'GEVERIFIEERDE SPECIFICATIES'
+  body: 'Alle productieverklaringen op deze pagina worden geverifieerd door ons Manufacturing Engineering Team op de locatie in Laixi, Qingdao. Certificaten, QC-inspectieregistraties, druk- en structurele testrapporten en lot-traceerbaarheidsregistraties zijn op aanvraag beschikbaar. Specificaties voor het laatst geverifieerd in september 2026.'

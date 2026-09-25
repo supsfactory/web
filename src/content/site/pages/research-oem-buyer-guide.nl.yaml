@@ -1,0 +1,103 @@
+meta:
+  title: 'OEM-kopersgids: SUP-planken inkopen bij Azië | SUPsfactory'
+  description: 'Opblaasbare SUP-planken inkopen in Azië: checklist voor fabrieksaudits, kwaliteitscontroleprotocollen, conformiteit, MOQ-onderhandeling, verzendvoorwaarden en valkuilen.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Terug naar research'
+
+hero:
+  tagline: 'Inkoop'
+  title: 'OEM-kopersgids — opblaasbare SUP-planken inkopen in Azië'
+  subtitle: '12 min leestijd'
+
+answer:
+  label: 'Kort antwoord'
+  text: 'De minimum bestelhoeveelheid wordt per project bevestigd, niet vastgelegd als een vast nummer: monstervoorbereiding (1–2 stuks) valideert de constructie, pilotbestellingen (20–50 stuks) testen de markt op bestaande platforms, standaard productie op volume loopt met 90–100+ stuks per partij uit één volledige drop-stitch rol van 150 m, en co-branding in kleine series start vanaf 5–10 stuks. Monsters vertrekken binnen 7–12 dagen; massaproductie volgt 25–35 dagen na bevestigde bestelling en aanbetaling, plus 15–20 dagen indien nieuw gereedschap nodig is.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>1. Pre-kwalificatie: waar je op let bij een fabriek</h2>
+
+  <h3>Conformiteitscertificaten</h3>
+  <ul>
+    <li><strong>ISO 9001:2015</strong> – kwaliteitsmanagementsysteem</li>
+    <li><strong>CE-certificering</strong> – controleer het nummer van de aangemelde instantie</li>
+    <li><strong>BSCI / SMETA / SEDEX</strong> – sociale conformiteitsaudit</li>
+    <li><strong>REACH / RoHS</strong> – materiaalconformiteitsverklaringen</li>
+  </ul>
+
+  <h3>Productiecapaciteiten</h3>
+  <ul>
+    <li>Drop-stitch kernweven in-house versus uitbesteed</li>
+    <li>PVC coating-/lamineerlijn</li>
+    <li>RF- en heteluchtlasapparatuur</li>
+    <li>In-house matrijzenbouw (CNC-bewerking)</li>
+    <li>Testlaboratorium (druktests, UV-veroudering, trektests)</li>
+  </ul>
+
+  <h3>Ervaringscontrole</h3>
+  <ul>
+    <li>Jaren in opblaasbare botenproductie (minimaal 5+ jaar)</li>
+    <li>Aantal ingezette ingenieurs</li>
+    <li>Bestaande OEM/ODM-klanten (vraag referenties)</li>
+    <li>Exportmarkten – verzenden ze al naar jouw doelmarkt?</li>
+  </ul>
+
+  <h2>2. Kwaliteitscontroleprotocollen</h2>
+  <p>Inkomende QC voor materialen: treksterkte (ASTM D751 of ISO 1421), scheursterkte (ASTM D2261 of ISO 4674), hechting van coatings, UV-verouderingsmonsters.</p>
+  <p>Proces-QC: naadsterktebewaking per 50 stuks, koppeltest van ventielen, monsterneming van de drop-stitch draaddichtheid, maatcontroles ten opzichte van CAD-tekeningen.</p>
+  <p>Eindinspectie: drukhoudtest op 100 % (24 uur, max. drukval 0.50 PSI), visuele inspectie, werkingstest van ventielen, willekeurige bemonstering (AQL 2.5 of 4.0 volgens ISO 2859).</p>
+
+  <h2>3. Checklist voor conformiteitsdocumentatie</h2>
+  <ul>
+    <li>Conformiteitsverklaring (DoC) die naar de juiste EU-richtlijn verwijst</li>
+    <li>CE-certificaat van een aangemelde instantie</li>
+    <li>Testrapport van een geaccrediteerd laboratorium</li>
+    <li>Veiligheidsbladen (MSDS) van de materialen</li>
+    <li>REACH-conformiteitsverklaring</li>
+    <li>BOM met traceerbaarheid van leveranciers</li>
+    <li>Fabrieksinspectierapport</li>
+  </ul>
+
+  <h2>4. MOQ-onderhandeling</h2>
+  <p>De MOQ voor opblaasbare SUP-planken wordt bepaald door het productietraject en de projectconfiguratie, niet door schattingen. Alle Vatrad OEM/ODM-projecten volgen drie duidelijke kwantiteitsniveaus — monster, pilot en volume — en de volledige berekeningslogica wordt uitgelegd in onze <a href="/nl/oem-moq-guide">MOQ-gids &amp; flexibele branding</a>:</p>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Productietraject</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">MOQ</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Planning</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Monstervoorbereiding (per ontwerp)</td><td class="p-3 border">1 – 2 stuks</td><td class="p-3 border">Monsters binnen 7 – 12 dagen</td></tr>
+      <tr><td class="p-3 border font-medium">Pilotbestelling (bestaande platforms)</td><td class="p-3 border">20 – 50 stuks</td><td class="p-3 border">Marktvalidatie met bestaande materialen</td></tr>
+      <tr><td class="p-3 border font-medium">Standaard volume partij (per ontwerp)</td><td class="p-3 border">90 – 100+ stuks</td><td class="p-3 border">25 – 35 dagen na bestelling en aanbetaling</td></tr>
+      <tr><td class="p-3 border font-medium">Eigen vormen / Private Label</td><td class="p-3 border">Bevestigd per project</td><td class="p-3 border">Plus 15 – 20 dagen voor gereedschap</td></tr>
+    </tbody>
+  </table>
+  <p>De hoeveelheden voor monsters, pilot en series verschillen: monstervoorbereiding (1–2 stuks) valideert de constructie, pilotbestellingen (20–50 stuks) testen de markt op bestaande platforms, en standaard productie op volume loopt met 90–100+ stuks per partij uit één volledige drop-stitch rol van 150 m — met prijsstaffels die oplopen met de orderomvang. Laat de berekening van de MOQ, de levertijden en de betaalvoorwaarden voor jouw specifieke plank schriftelijk geven voordat je je aan een leverancier verbindt.</p>
+
+  <h2>5. Logistiek en verzending</h2>
+  <p>Veelvoorkomende Incoterms: <strong>FOB</strong> (de fabriek levert tot aan de vertrekhaven — het meest gebruikelijk), <strong>EXW</strong> (de koper regelt de hele verzending vanaf de fabriek), <strong>CIF</strong> (de fabriek betaalt vracht en verzekering tot aan de bestemmingshaven).</p>
+  <p>Opblaasbare producten zijn licht maar volumineus — het volumegewicht (DIM) bepaalt vaak de verzendkosten. Vraag vacuüm verpakking om het volume met 50–60 % te verlagen. Zeevracht van China naar de EU duurt doorgaans 25–35 dagen en 7–12 dagen naar de westkust van de VS — bovenop de productiedoorlooptijd van 25–35 dagen.</p>
+
+  <h2>6. Veelvoorkomende valkuilen</h2>
+  <ul>
+    <li><strong>Geen fabrieksaudit:</strong> voer altijd een audit uit of laat een inspectie door derden doen (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Alleen mondelinge specificaties:</strong> gedetailleerd technisch specificatieblad, door beide partijen ondertekend</li>
+    <li><strong>Monstergoedkeuring overslaan:</strong> schriftelijke monstergoedkeuring vóór de massaproductie</li>
+    <li><strong>Geen kwaliteitscontrole tijdens de productie:</strong> inspectie door derden tijdens de productie (DUPRO) en vóór verzending (PSI)</li>
+    <li><strong>Conformiteit negeren:</strong> controleer de CE-markering (Richtlijn 2013/53/EU) en marktspecifieke documentatie vóór de productie</li>
+  </ul>
+
+  <h2>7. Waarom Vatrad</h2>
+  <p>Vatrad produceert opblaasbare SUP-planken voor OEM/ODM sinds 2012. Met een ISO 9001-gecertificeerde fabriek van 12,500 m&sup2;, 25+ ingenieurs en CE-certificering voor modellen bedoeld voor EU-markten (reikwijdte per project bevestigd), voldoen wij aan elk criterium in deze gids. We bieden probeer-MOQ''s voor nieuwe partners en complete pakketten conformiteitsdocumentatie.</p>
+  <p>Bekijk onze <a href="/nl/oem-manufacturing">OEM/ODM-productiediensten voor opblaasbare SUP''s</a> of bezoek de <a href="/nl/factory">fabriek van 12,500 m&sup2;</a> om de apparatuur en QC-processen achter elke stap hierboven te zien.</p>
+
+cta:
+  title: 'Klaar om te beginnen met inkopen?'
+  subtitle: 'Neem contact op met ons OEM-team om de eisen van jouw project te bespreken.'
+  button_text: 'Vraag een offerte aan'
+  button_link: /nl/contact

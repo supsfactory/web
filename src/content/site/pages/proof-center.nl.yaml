@@ -1,0 +1,169 @@
+meta:
+  title: 'Proof Center — het bewijs achter elke productieclaim'
+  description: 'Verzameling van het bewijs achter de claims van SUPsfactory: bedrijfsrelaties, certificaten met toepassingsgebied, apparatuurlijst, partijtraceerbaarheid en inspectiedocumentatie.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'fabrieksbewijs SUP'
+    - 'overzicht fabriekscertificaten'
+    - 'partijtraceerbaarheid SUP'
+    - 'SUP-fabriekverificatie'
+    - 'productiebewijs China'
+
+hero:
+  tagline: 'Hub voor fabrieksbewijs'
+  title: 'Proof Center — alles wat we beweren, is hier gearchiveerd'
+  subtitle: 'Eén pagina die elke claim van deze site koppelt aan het bewijs: de geregistreerde entiteit achter de fabriek, certificaten met toepassingsgebied, de machines die het werk doen en de partijregistraties die elke productierun overleven.'
+  actions:
+    - { variant: primary, text: 'Vraag het verificatiepakket aan', href: '/nl/contact#trust-verification' }
+    - { variant: ghost, text: 'Verken het kwaliteitssysteem', href: '/nl/quality' }
+
+answer:
+  label: 'Kort antwoord'
+  text: 'De keten van claim naar bewijs werkt zo: elke claim op deze site is gebaseerd op een registratie, een certificaat, een machine, een document of een testprotocol — en elk van die kan worden ingezien. SUPsfactory is de productontwikkelings- en SUP-productiedivisie van de Qingdao Vatrad Group Co., Ltd. (geregistreerd in Qingdao sinds 2012). De fabriek van 12,500 m² beschikt over kwaliteitsbeheer volgens ISO-9001:2015, conformiteit met ISO-25649, CE-conformiteitsdocumentatie, sociale conformiteit BSCI (auditrapport op aanvraag) en REACH/RoHS-materiaaldocumentatie voor elke bestelling. Elke opblaasbare kamer wordt 24 uur getest op 18,0 PSI met automatische afkeur boven 0,50 PSI drukval, en partijregistraties worden bewaard met 10 jaar ERP-traceerbaarheid. De papieren sporen zijn gepubliceerd of deelbaar, en de fabriek zelf staat open voor audits.'
+  verified: 'September 2026'
+
+entities:
+  tagline: 'Wie er achter de fabriek zit'
+  title: 'Eén productiebedrijf, één rechtspersoon'
+  subtitle: 'De commerciële kant, de productiedivisie en de rechtspersoon voeren allemaal terug naar één bedrijf dat je van de site tot het bedrijfsregister kunt verifiëren.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'SUPsfactory — de openbare website'
+      desc: 'De OEM/ODM- en private label SUP-productlijn met zijn openbare documentatie: catalogus, MOQ-gids, kwaliteitssysteempagina''s en case studies. De naam waarmee je handelt, is de naam die je verifieert.'
+      link: '/nl/about/supsfactory-entity'
+      link_label: 'Entiteitpagina op de site'
+    - icon: A
+      icon_bg: green
+      title: 'Vatrad — de productiedivisie'
+      desc: 'De maritieme productiedivisie achter de fabriek: SUP-planken, rubberboten en RIB''s worden in dezelfde fabriek in Qingdao geproduceerd. Product- en kwaliteitsdocumentatie wordt onder deze naam afgegeven.'
+      link: '/nl/factory'
+      link_label: 'Verken de fabriek'
+    - icon: V
+      icon_bg: orange
+      title: 'Qingdao Vatrad Group Co., Ltd. — de rechtspersoon'
+      desc: 'De geregistreerde producent (sinds 2012) die de fabriek van 12,500 m² in de Economic Development Zone van Laixi, Qingdao, beheert. Registratiegegevens, de handelslicentie voor het buitenland en auditedocumenten worden gedeeld onder NDA of tijdens een audit.'
+      link: '/nl/oem-trust-assurance'
+      link_label: 'Bekijk de verificatie-case'
+
+proof_stats:
+  - value: '12,500 m²'
+    label: 'Eén productielocatie'
+    detail: '4 gespecialiseerde werkplaatsen, open voor audits'
+  - value: '350+'
+    label: 'Medewerkers aanwezig'
+    detail: '25+ ingenieurs in R&D, materialen en QC'
+  - value: '120,000+'
+    label: 'Planken per jaar'
+    detail: '~10.000 planken/maand op 4 geautomatiseerde lijnen'
+  - value: '50+'
+    label: 'Bedienende landen'
+    detail: 'Europa, Amerika, APAC, Midden-Oosten'
+  - value: '7 niveaus'
+    label: 'Testpoortsysteem'
+    detail: 'Knooppunt 01–07, geregistreerd per serienummer'
+  - value: '10 jaar'
+    label: 'ERP-partijtraceerbaarheid'
+    detail: 'Partijregistraties bewaard en gekoppeld per partij'
+
+certifications:
+  tagline: 'Certificaten & toepassingsgebied'
+  title: 'Wat we bezitten, wat het dekt, hoe het wordt geverifieerd'
+  subtitle: 'De gepubliceerde lijst — nooit "alleen op aanvraag beschikbaar". Certificaatnummers en auditeocumenten worden verstrekt op aanvraag of tijdens een audit.'
+  headers:
+    certificate: 'Certificaat / Norm'
+    scope: 'Dekking'
+    verify: 'Hoe te verifiëren'
+  rows:
+    - certificate: 'ISO 9001:2015'
+      scope: 'Kwaliteitsbeheer voor ontwerp en productie van SUP''s'
+      verify: 'Certificaatnummer en auditeocumenten op aanvraag of tijdens een audit'
+    - certificate: 'ISO 25649'
+      scope: 'Veiligheid en structurele conformiteit van opblaasbare boten (Europa)'
+      verify: 'Conformiteitsdocumentatie per productfamilie'
+    - certificate: 'CE'
+      scope: 'EU-conformiteit voor opblaasbare SUP-producten'
+      verify: 'CE-documentatie vergezelt de bestellingen'
+    - certificate: 'BSCI'
+      scope: 'Sociale conformiteit voor fabriek en personeel'
+      verify: 'Auditrapport beschikbaar op aanvraag'
+    - certificate: 'REACH & RoHS'
+      scope: 'Beperkte stoffen en materiaaldocumentatie'
+      verify: 'Materiaaldocumentatie bij elke bestelling'
+    - certificate: 'Inspectie door derden (optioneel)'
+      scope: 'Pre-verzending inspectie SGS, TÜV, BV of Intertek'
+      verify: 'ISO 2859-1 Niveau II, gepland naar jouw keuze'
+
+evidence_gates:
+  tagline: 'Waar het bewijs leeft'
+  title: 'Bewijsverzamelingen — open voor inzage'
+  subtitle: 'Elke verzameling is een live pagina die je nu kunt inzien, plus de bestanden die bij jouw bestelling worden geleverd.'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'Apparatuur- & machinelijst'
+      desc: 'Snijden, lassen, lamineren, printen en assembleren, plus het QC-laboratorium — machines met naam, specificatie en functie. Vraag een live rondleiding aan.'
+      link: '/nl/factory/equipment'
+      link_label: 'Open de apparatuurlijst'
+    - icon: P
+      icon_bg: green
+      title: 'Foto''s van testpoorten & rapporten'
+      desc: 'Zeven testpoorten met foto''s van de productielocatie en links naar tweetalige rapporten — wat wordt gecontroleerd, met welke methode, tegen welk criterium, waar het wordt gedocumenteerd.'
+      link: '/nl/factory/process'
+      link_label: 'Open de testpoorten'
+    - icon: Q
+      icon_bg: orange
+      title: 'QC-laboratorium & testprocedures'
+      desc: 'Universele trekbank (ASTM D751), laspeeltester (ISO 6185), luchtdrukbanken en xenon-verouderingskamer — de machines die stoffen en kamers verifiëren.'
+      link: '/nl/factory/quality-lab'
+      link_label: 'Open het laboratorium'
+    - icon: T
+      icon_bg: purple
+      title: 'Traceerbaarheids- & quarantainemodellen'
+      desc: 'De letterlijke keten van grondstofrol tot verzonden plank, het 7-niveau quarantaineproces voor niet-conforme goederen en de defectenmatrix die de classificaties regelt.'
+      link: '/nl/factory/quality-inspection'
+      link_label: 'Open het traceerbaarheidsdossier'
+
+traceability:
+  tagline: 'Eén partij, getraceerd van rol tot plank'
+  title: 'Hoe traceerbaarheid er echt uitziet'
+  body: |
+    Aan elke partij wordt een **10-jaar ERP-partijcode** toegekend. De keten die onder een partij wordt geregistreerd:
+
+    - **Binnenkomende rol** — materiaalcertificaat, rolnummer, gecontroleerde stofpartij (trek, snede, las)
+    - **Snijden** — CNC-nestingopdracht tegenover het ontwerpbestand, geregistreerd afvalpercentage
+    - **Lassen & lamineren** — lijn, operator, machineparameters per kamer
+    - **Assemblage** — serienummer van de plank, ventieltype, partij van het deckpad
+    - **Test** — 18,0 PSI × 24 h drukbehoud per kamer, automatische afkeur boven 0,50 PSI drukval
+    - **Vrijgave** — 100-punts checklist per plank, vrijgave door de QA-directeur per partij
+    - **Verder** — conformiteitscertificaat (Certificate of Conformance) bij levering; auditrecht contractueel voorbehouden
+
+    Vraag het voorbeeld-QC-protocol aan vóór je eerste order — het heeft hetzelfde format als wat je bij de levering ontvangt.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Vragen over het bewijs die kopers stellen'
+  items:
+    - q: 'Is deze pagina alleen voor verificatie en vervangt hij de due diligence niet?'
+      a: 'Klopt — deze pagina toont waar elke claim kan worden geverifieerd: entiteitsregistratie, certificaten, machines, registraties en een fabriek die openstaat voor audits. Je gebruikelijke due diligence-stappen (registratiecontrole, audit, inspectie door derden) blijven geldig en zijn welkom.'
+    - q: 'Welke entiteit moet op mijn orderdocumentatie verschijnen?'
+      a: 'Bestellingen worden afgesloten met de Qingdao Vatrad Group Co., Ltd., die opereert als Vatrad (productiedivisie), met SUPsfactory als SUP-productlijn. Contractdocumenten worden ondertekend door de VP Sales, de hoofdingenieur en de QA-directeur.'
+    - q: 'Kan ik vóór de bestelling kopieën van de certificaten ontvangen?'
+      a: 'Ja — certificaatnummers en auditeocumenten worden verstrekt op aanvraag of tijdens een audit. De lijst is gepubliceerd, nooit "alleen op aanvraag beschikbaar".'
+    - q: 'Hoe kan ik zelf de testprotocollen van partijen verifiëren?'
+      a: 'Elke kamer wordt 24 uur getest op 18,0 PSI met automatische afkeur boven 0,50 PSI drukval; de testprotocollen zijn gekoppeld aan de serienummers en reizen mee met het conformiteitscertificaat van elke partij. Een pre-verzending inspectie door SGS, TÜV, BV of Intertek volgens ISO 2859-1 Niveau II kan naar jouw keuze worden gepland.'
+    - q: 'Dekken de certificaten ook de accessoires?'
+      a: 'De REACH/RoHS-materiaaldocumentatie geldt voor planken en accessoires van dezelfde bestelling en de QC-checklists dekken het volledige pakket — plank, peddel, pomp, leash en tas.'
+    - q: 'Wat gebeurt er met het bewijs na de bestelling?'
+      a: 'De ERP-partijtraceerbaarheid wordt 10 jaar bewaard. De QMS-SOP''s en testnormen blijven downloadbaar en de koper behoudt contractueel een auditrecht tijdens de productie.'
+
+cta:
+  title: 'Eerst verifiëren — daarna praten we over specificaties'
+  subtitle: 'Vraag het registratiepakket, certificaatkopieën of een audit aan. Eerst verificatie; daarna de orderdiscussie. Een aanvraag schept geen orderverplichting.'
+  button_text: 'Vraag het verificatiepakket aan'
+  button_link: '/nl/contact#trust-verification'
+  actions:
+    - text: Merkidentiteit
+      href: /nl/about/identity
+    - text: Checklist fabrieksaudit
+      href: /nl/factory-audit-checklist

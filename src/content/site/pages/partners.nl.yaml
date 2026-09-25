@@ -1,0 +1,83 @@
+meta:
+  title: 'Partners — Distributie & groothandel | {SITE}'
+  description: 'Productiepartnerschappen met SUPsfactory: distributie, groothandel, OEM/private label-programma''s en specificatieondersteuning voor paddleboard-leveranciers over de hele wereld.'
+  keywords:
+    - 'SUP-distributiepartner'
+    - 'paddleboard groothandel'
+    - 'opblaasbare SUP-distributiepartner'
+    - 'SUP-partnerschap'
+  dateModified: '2026-08'
+hero:
+  tagline: Partners & distributie
+  title: 'Productie- & distributiepartnerschappen'
+  subtitle: "We produceren voor distributeurs van maritieme uitrusting, retailers, merkmerken en organisaties in meer dan 50 landen. Jij bepaalt het product — wij ontwikkelen, bemonsteren en produceren het onder jouw merk."
+  image:
+    src: https://assets.supsfactory.com/images/sups/team/supsfactory-meeting-overseas.webp
+    alt: Wereldwijd partner- en distributienetwerk van Vatrad
+
+answer:
+  label: 'Kort antwoord'
+  text: 'Partnercondities starten met het monster (1–2 stuks) en pilotpartijen (20–50 stuks, monsters in 7–12 dagen), en schalen daarna op naar standaard OEM-volumeruns van 90–100+ stuks per partij uit één volledige drop-stitch rol van 150 m — of naar een investering in eigen matrijzen voor private label producten. De MOQ wordt per project bevestigd. Distributieprogramma''s omvatten exclusieve gebieden, directe fabrieksgroothandelprijzen en betaaltermijnen van 45–60 dagen, verzonden FOB Qingdao of CIF.'
+  verified: 'September 2026'
+content_programs:
+  tagline: Partnerprogramma's
+  title: 'Productiegebaseerde samenwerkingsmodellen'
+  subtitle: 'Of je nu distributiepartner, retailer of merkpartner bent — het programma sluit aan op jouw producteisen en productieplan.'
+  columns: 3
+  items:
+    - title: 'Distributieprogramma'
+      description: 'Distributieovereenkomsten met directe fabriekstoegang, specificatieondersteuning en consistente herbestedingskwaliteit in meerdere gebieden. Minimumhoeveelheid op basis van de omvang van het gebied.'
+      icon: tabler:world
+    - title: 'Retailprogramma'
+      description: 'Productspecificaties, monstergoedkeuring, garantieondersteuning en betrouwbare herdrukken voor winkels en online winkels.'
+      icon: tabler:building-store
+    - title: 'OEM/ODM-partnerschap'
+      description: 'Volledige OEM- en ODM-service met aangepaste branding, verpakking en productspecificatie. Van idee tot container.'
+      icon: tabler:certificate
+    - title: 'Merkpartnerschap'
+      description: 'Private label en modelontwikkeling voor gevestigde merken in de maritieme en outdoor vrijetijdssector.'
+      icon: tabler:stars
+    - title: 'Institutioneel & publiek'
+      description: 'Voorkeursleveranciersprogramma''s voor autoriteiten, kustwachten, strijdkrachten en humanitaire organisaties. Aanbestedingsgereed documentatiepakket.'
+      icon: tabler:building-community
+    - title: 'Resort- & verhuurpartner'
+      description: 'Vloottarieven, consistente kwaliteit en aangepaste branding voor resorts, duikcentra en verhuuroperators wereldwijd.'
+      icon: tabler:sun
+content_benefits:
+  tagline: Waarom met ons samenwerken
+  title: 'Waarom partners voor Vatrad kiezen'
+  subtitle: 'Onze partners werken met echte productiecapaciteit, consistente kwaliteit en responsieve engineeringondersteuning.'
+  list:
+    - 'Directe fabriekstoegang: je werkt rechtstreeks met ons productieteam — geen tussenpersonen. Snellere antwoorden, volledige productiezichtbaarheid en technisch advies van de mensen die de planken bouwen.'
+    - 'Klaar-voor-gebruik maatwerk: brand jouw producten met eigen kleuren, logo''s, verpakkingen en specificaties. De MOQ wordt per project bevestigd — op monster-, pilot- en volumeniveau.'
+    - 'Gegarandeerde kwaliteit: ISO-9001 gecertificeerde productie met CE-, BSCI- en REACH-conformiteit. Elk product ondergaat vóór verzending een druktest.'
+    - 'Wereldwijde logistiek: verzending vanuit Qingdao, China, met FOB-, CIF- en DDP-opties. US-magazijn in Montclair, CA, voor distributie in Noord-Amerika.'
+    - 'Technische documentatie: productcatalogi, fotografie en technische materialen ter ondersteuning van specificatie- en herdrukbeslissingen.'
+    - 'Specificatie- & QC-ondersteuning: bemonstering vóór de massabestelling, technische ondersteuning voor jouw klanten en coördinatie van de garantieregeling.'
+content_process:
+  tagline: Zo word je partner
+  title: 'Partnerproces'
+  subtitle: 'Een eenvoudig traject — van aanvraag tot eerste productierun.'
+  items:
+    - title: 'Stap 1: stuur de aanvraag'
+      description: 'Vul ons partneraanvraagformulier in met bedrijfsprofiel, doelmarkt en productinteresses.'
+    - title: 'Stap 2: kwalificatiecheck'
+      description: 'Ons team beoordeelt jouw aanvraag en neemt binnen 3 werkdagen contact op om de eisen te bespreken.'
+    - title: 'Stap 3: overeenkomst & activering'
+      description: 'Onderteken een partnerovereenkomst, activeer je account en ontvang productmonsters, specificaties en overeengekomen voorwaarden.'
+    - title: 'Stap 4: bemonstering & productie'
+      description: 'Keurt fysieke monsters goed, bevestig specificaties en MOQ — en de productieruns starten onder jouw merk.'
+cta:
+  title: 'Bespreek een partnerschap'
+  subtitle: 'Stuur je eisen — ons team reageert binnen 3 werkdagen.'
+  actions:
+    - variant: primary
+      text: Stuur je eisen
+      href: /nl/contact
+    - text: Bekijk onze producten
+      href: /nl/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Verdieping:</strong> de partnerprogramma''s delen dezelfde <a href="/nl/oem-manufacturing">OEM/ODM-productiemotor</a> — voorwaarden, probeer-MOQ''s en maatwerk worden daar gedefinieerd — en alle productieruns gaan door de <a href="/nl/factory">fabriek van 12,500 m&sup2;</a>.</p>
+  </div>

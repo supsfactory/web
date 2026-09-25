@@ -1,0 +1,242 @@
+meta:
+  title: 'Controle van niet-conforme SUP''s & herbewerking | OEM-fabriek | SUPsfactory'
+  description: 'Controle van niet-conforme producten (ISO 9001:2015 paragraaf 8.7): NCR-blokkering, gecontroleerde herbewerking volgens SRI, onafhankelijke herverificatie en begeleide vernietiging.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'controle niet-conforme producten'
+    - 'sup herbewerking herinspectieproces'
+    - 'niet-conforme outputs iso 9001'
+    - 'ncr productiecontrole'
+    - 'sup vernietigingscertificaat afval'
+    - 'oem kwaliteitscontrole opblaasbare sup'
+
+hero:
+  tagline: Controle van niet-conforme producten
+  title: Scheidings-, herbewerkings- & herverificatieproces van niet-conforme producten
+  subtitle: 'Bij QINGDAO VATRAD GROUP.,LTD. wordt een niet-conforme plank nooit doorgeleid. Elk product of component dat de gedefinieerde acceptatiecriteria mist, wordt geïdentificeerd, geregistreerd tegen een non-conformiteitsrapport (NCR), gemarkeerd en gescheiden, beoordeeld op de betrokken scope en afgehandeld op het juiste autoriteitsniveau. Toegestane herbewerking volgt gecontroleerde instructies, de gecorrigeerde artikelen worden opnieuw geverifieerd tegen de oorspronkelijke acceptatiecriteria — inclusief een volledige hertest waar vereist — en het product wordt pas verzonden na geautoriseerde kwaliteitsvrijgave. Deze pagina presenteert onze gecontroleerde norm onder ISO 9001:2015 paragraaf 8.7 en de traceerbaarheidsbewijzen erachter.'
+  actions:
+    - text: Download de SOP NCP-controle (PDF)
+      variant: primary
+      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Download het afkeur- & vernietigingscertificaat (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: Kwaliteitscontrole aanvragen
+      href: /contact
+
+answer:
+  label: 'Helder antwoord'
+  text: 'Niet-conforme producten worden bij QINGDAO VATRAD GROUP.,LTD. nooit verborgen, informeel herbewerkt of zonder verificatie vrijgegeven. Elke geïdentificeerde non-conformiteit wordt geregistreerd tegen het betrokken product, de partij of het component en gekoppeld aan een NCR. Het artikel wordt gemarkeerd (HOLD / QUARANTINE / REJECTED), fysiek gescheiden en de betrokken scope wordt beoordeeld per partij, materiaallot, procesfase en documentrevisie. De beslissing wordt genomen op het autoriteitsniveau dat overeenkomt met de ernst van het defect: lichte problemen worden op lijniveau ondertekend, ernstige problemen vereisen een beslissing van de QC Manager + technisch ingenieur met een gecontroleerde herbewerkingsinstructie en een onafhankelijke herverificatie van 100%, en kritieke problemen vereisen een besluit van de Material Review Board met schriftelijke instemming van de klant waar vereist — anders verplichte begeleide vernietiging. Herwerkte artikelen worden opnieuw geverifieerd tegen de oorspronkelijke acceptatiecriteria, luchtdichtsreparaties krijgen een volledige nieuwe drukproefcyclus en de vrijgave voor verzending vindt alleen plaats na geautoriseerde kwalificatie. Terugkerende of systemische problemen activeren oorzaakanalyse en corrigerende maatregelen (CAPA).'
+  verified: 'September 2026'
+
+stats:
+  tagline: In het kort
+  title: Het non-conformiteitsbeheer in cijfers
+  stats:
+    - value: '7'
+      label: Fases van identificatie tot corrigerende maatregel
+    - value: '100%'
+      label: Herverificatie van elke herwerkte plank door onafhankelijke QA
+    - value: '24u'
+      label: Volledige nieuwe drukproef voor luchtdichtsreparaties
+    - value: '≥ 5 yr'
+      label: Bewaring van de begeleide afkeur-bewijzen (SHA-256-vault)
+
+nc_intro:
+  tagline: Controle van niet-conforme producten
+  title: Wat er gebeurt wanneer een product niet aan de criteria voldoet
+  body: |
+    Producten of componenten die niet aan de gedefinieerde acceptatiecriteria voldoen, worden geïdentificeerd en gecontroleerd om onbedoeld gebruik, verdere bewerking of verzending te voorkomen. De toepasselijke acceptatiecriteria zijn gebaseerd op het goedgekeurde monster, de technische specificatie, de graphics, de stuklijst, de verpakkingsvereisten en het projectinspectieplan.
+
+    Niet-conforme artikelen worden beoordeeld om de betrokken scope en de juiste afhandeling te bepalen. Afhankelijk van het probleem kan het artikel worden vastgehouden, onder gecontroleerde instructies herbewerkt, vervangen, afgekeurd of via een goedgekeurd proces worden beheerd. Herwerkte of gecorrigeerde artikelen worden vóór de vrijgave opnieuw geïnspecteerd. De vrijgave voor verzending is alleen toegestaan na voltooiing van de relevante kwaliteitsregistraties en de conformiteit van het product met de toepasselijke acceptatiecriteria.
+
+nc_flow:
+  tagline: Standaard gesloten cyclus in 7 fases
+  title: Van identificatie tot corrigerende maatregel
+  subtitle: 'Een gecontroleerde cyclus voor elke non-conformiteit: identificeren, blokkeren, verifiëren, herbewerken of vervangen, hercontroleren, vrijgeven of afkeuren, verbeteren.'
+  steps:
+    - step: '01'
+      title: Identificeren
+      desc: 'Elke geïdentificeerde non-conformiteit wordt geregistreerd tegen het betrokken product, de partij of het component en beoordeeld tegen de toepasselijke projectvereisten. De detectie kan plaatsvinden bij de ingang van goederen, de procescontrole, de eindinspectie, de verpakking of de inspectie door de klant/derden.'
+    - step: '02'
+      title: Blokkeren
+      desc: 'De artikelen worden duidelijk geïdentificeerd en onder een gecontroleerde blok- of quarantainestatus geplaatst om onbedoeld gebruik, verdere bewerking of verzending te voorkomen. De HOLD / QUARANTINE / REJECTED-etiketten dragen het NCR-nummer, de SKU, de partij, de hoeveelheid, de defectbeschrijving en de datum.'
+    - step: '03'
+      title: Verifiëren
+      desc: 'De betrokken scope en de juiste afhandeling worden beoordeeld: een enkele eenheid, een ploegpartij, een volledige partij of meerdere partijen — via gemeenschappelijke materiaalloten, graphics-revisies, procesfases en documentrevisies. Indien nodig worden verdere insluiting of versterkte inspectie toegepast.'
+    - step: '04'
+      title: Herbewerken of vervangen
+      desc: 'Toegestane herbewerking volgt goedgekeurde instructies die het betrokken artikel, de methode, de materialen, de inspectiepunten en de herverificatievereisten identificeren. Niet-geautoriseerde wijzigingen aan de productspecificatie, graphics, accessoireconfiguratie of verpakking zijn nooit toegestaan. Vervangende artikelen vallen onder de toepasselijke inspectiepoorten.'
+    - step: '05'
+      title: Hercontroleren
+      desc: 'Herwerkte of gecorrigeerde artikelen worden opnieuw geïnspecteerd tegen de toepasselijke acceptatiecriteria. Het oorspronkelijk niet geslaagde defect en alle bijbehorende kenmerken die mogelijk door de herbewerking zijn beïnvloed, worden vóór de vrijgave geverifieerd — door onafhankelijke QC en, voor luchtdichtsreparaties, met een volledige 24u-drukhertestcyclus.'
+    - step: '06'
+      title: Vrijgeven of afkeuren
+      desc: 'Het product wordt pas vrijgegeven na voltooiing van de vereiste herverificatie, wanneer geautoriseerd kwaliteitspersoneel de conformiteit met de toepasselijke projectvereisten bevestigt. Artikelen die niet tot conformiteit kunnen worden gebracht, worden afgekeurd, vervangen, teruggestuurd of onder gecontroleerde procedures afgehandeld — inclusief begeleide fysieke vernietiging.'
+    - step: '07'
+      title: Corrigerende maatregel
+      desc: 'Terugkerende, significante of systemische non-conformiteiten worden op oorzaak en corrigerende maatregel (CAPA) onderzocht. Verbeteringen kunnen updates van werkinstructies, materiaalcontroles, inspectiepunten, training, leveranciersbeheer of documentbeheer omvatten.'
+
+nc_pillars:
+  tagline: Pijlers van het kopersvertrouwen
+  title: Drie controles die jouw merk beschermen
+  subtitle: 'Het proces is gebouwd rond de vragen die buitenlandse kopers echt stellen: worden problemen verborgen, ontsnapt de herbewerking aan controle en worden gerepareerde planken opnieuw geverifieerd.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Alleen gecontroleerde instructies
+      desc: 'De herbewerking wordt strikt gereguleerd door geautoriseerde Standard Rework Instructions (SRI). Niet-goedgekeurde wijzigingen op de werkvloer, specificatievariaties of graphics-wijzigingen zonder schriftelijke autorisatie zijn ten strengste verboden.'
+    - icon: 2
+      icon_bg: green
+      title: Onafhankelijke herverificatie
+      desc: 'Herwerkte planken worden voor 100% opnieuw geverifieerd door QA-inspecteurs tegen de oorspronkelijke acceptatiecriteria. Luchtdichtsreparaties vereisen een volledige 24u-drukhertestcyclus — nooit een gedeeltelijke verificatie.'
+    - icon: 3
+      icon_bg: purple
+      title: Geautoriseerde vrijgave & traceerbaarheid
+      desc: 'De vrijgave voor verzending is uitsluitend toegestaan na volledige NCR-documentatie en QC-autorisatie, waarbij de partijstatus overgaat van HOLD naar RELEASED. Systemische of terugkerende afwijkingen activeren automatisch de CAPA-workflows voor oorzaakanalyse.'
+
+nc_photos:
+  tagline: In de productiehal
+  title: Blokkering, herbewerking & herverificatie in de praktijk
+  subtitle: De foto''s uit onze werkplaats in Qingdao laten zien hoe niet-conforme planken fysiek worden gescheiden, onder gecontroleerde instructies worden herbewerkt en opnieuw worden geverifieerd vóór elke vrijgavebeslissing.
+  features:
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Opblaasbare SUP''s opgepompt in het luchtdichtheidstestgebied van de fabriek, bewaakt met digitale manometers
+      title: Herverificatiepoort
+      desc: 'Na de herbewerking keert elke plank terug naar het QC-testgebied voor de onafhankelijke verificatie: opgepompt en bewaakt met digitale manometers tegen de goedgekeurde projectacceptatiecriteria — nooit een gedeeltelijke verificatie.'
+    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Kwaliteitscontrolechecklists en gecontroleerde blokstatusetiketten bij het inspectiestation van de fabriek
+      title: Blokkerings- & quarantainestation
+      desc: 'Inspectiestation met QC-checklist en statusmarkering. Elk artikel dat niet aan de acceptatiecriteria voldoet, wordt gemarkeerd als HOLD / QUARANTINE, tegen een NCR geregistreerd en fysiek gescheiden — het mag de verpakking pas bereiken na een geautoriseerde beslissing en bindende herverificatie.'
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Een QC-technicus voert een gecontroleerde luchtdichtheidsherbewerking uit op een opblaasbare SUP bij het herbewerkstation van de fabriek
+      title: Gecontroleerd herbewerkstation
+      desc: 'De herbewerking vindt plaats op een speciaal station onder een goedgekeurde SRI-instructie: het defect wordt gemarkeerd, de plank blijft op HOLD en keert na de vereiste uithardtijd terug naar het testgebied voor herverificatie tegen de oorspronkelijke acceptatiecriteria.'
+    - image: https://assets.supsfactory.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: Demonstratie in de werkplaats van de kwaliteitscontroles in de fabriek van Qingdao
+      title: QC-demonstratie in de werkplaats
+      desc: 'Demonstratiefoto uit de werkplaats die laat zien hoe de kwaliteitscontroles in de praktijk worden toegepast en de inspectie- en statusovergangsregistraties ondersteunt waarnaar deze pagina doorlopend verwijst.'
+
+nc_severity:
+  tagline: Ernst van het defect & autoriteit
+  title: Classificatie van de ernst & afhandelingsautoriteit
+  subtitle: Niet elke non-conformiteit wordt op hetzelfde niveau afgehandeld — de afhandelingsautoriteit schaalt met de ernst van het defect, van vrijgave op lijnniveau tot de Material Review Board met instemming van de klant.
+  headers:
+    severity: Ernst
+    examples: Typische voorbeelden
+    authority: Afhandelings- & controleautoriteit
+    control: Vrijgavevoorwaarde
+  rows:
+    - severity: 'Licht'
+      examples: 'Afgesneden hoek van de doos, lichte uitlijning van een niet-kritiek accessoire'
+      authority: 'Vrijgave ter plaatse door het sectie-QC-hoofd + lijnsupervisor, met vervanging of vrijgave'
+      control: 'Geregistreerd in de NCR; geen impact op de productfunctie of de vereisten van de klant'
+    - severity: 'Ernstig'
+      examples: 'Langzaam lek van het ventiel, EVA-uitlijning buiten tolerantie (>2 mm), ontbrekend accessoire'
+      authority: 'De QC Manager + technisch ingenieur geven een gecontroleerde herbewerkingsinstructie (SRI) uit'
+      control: 'Onafhankelijke 100% hertest van de oorspronkelijk niet geslaagde defecten en de beïnvloede kenmerken vóór de vrijgave'
+    - severity: 'Kritiek'
+      examples: 'Schade aan de drop-stitch kamer, railbel of hogedruk-scheur, foutief gedrukt klantlogo of kleurafwijking'
+      authority: 'Besluit van de Material Review Board (MRB); schriftelijke instemming van de klant waar vereist'
+      control: 'Geen vrijgave zonder geautoriseerde instemming; anders verplichte begeleide fysieke vernietiging'
+
+nc_matrix:
+  tagline: Matrix van de engineeringprotocollen
+  title: Beslissingsmatrix voor SUP-defecten & herverificatie
+  subtitle: Standaard engineeringprotocollen die worden toegepast op de meest voorkomende productieafwijkingen — dezelfde gekwantificeerde parameters die klanten tijdens audits kunnen verifiëren.
+  headers:
+    defect: Defectcategorie
+    protocol: Gecontroleerd afhandelingsprotocol
+    validation: Onafhankelijke herverificatie & validatie
+  rows:
+    - defect: 'Langzaam lek van het ventiel'
+      protocol: 'De plank isoleren. De ventielkern met gekalibreerd momentsgereedschap (25 N·m) demonteren, de binnendraad reinigen, de siliconen O-ring vervangen en opnieuw vastzetten.'
+      validation: 'Onderdompelen in zeepoplossing; op 18 PSI oppompen en een volledige hertest van 24u-drukverlies uitvoeren (ΔP ≤ 0.05 PSI).'
+    - defect: 'Luchtbellen in de railnaad'
+      protocol: 'De ploegpartij blokkeren. Het belgebied met een warmteondersteunde nozzle delamineren, het oppervlak met oplosmiddel reinigen, tweecomponenten PU-lijm onder een druk van 5 bar aanbrengen.'
+      validation: '100% visuele en tactiele controle van de naad; structurele verificatie-drukproef (18.0 PSI) naast het 24u-luchtdichtheidsbehoud.'
+    - defect: 'Uitlijning van de EVA-pad'
+      protocol: 'Warmteondersteunde verwijdering met een gereedschap op geregelde temperatuur (80°C). Nieuwe uitlijning met een precisie-acryl positioneringsmal.'
+      validation: 'Verificatie van de speling-tolerantie bij de fabricage (≤ ±1.5 mm), verificatie van de symmetrie van het ruitpatroon, 100% hechtingstest van de randen.'
+    - defect: 'Fout in branding/logo'
+      protocol: 'Onmiddellijke stop van de printlijn. Alle bedrukte panelen blokkeren. De vectorrevisie met de klant verifiëren; nul niet-geautoriseerde wijzigingen.'
+      validation: 'Kleurverificatie met een spectrofotometer (ΔE ≤ 1.5); 100% visuele inspectie van de tekstuitlijning tegen het door de klant ondertekende master vector-PDF.'
+    - defect: 'Verpakkingsafwijking / ontbrekende SKU'
+      protocol: 'De exportpallet blokkeren. Openen en een 100% positiecontrole volgens de BOM uitvoeren (pomp, vin, leash, peddel, reparatiestaaf).'
+      validation: 'Validatie met geïntegreerde elektronische dynamische controleschalen (±30 g variatie); verificatie met optische scanners van 2D-streepjescodes.'
+
+nc_scrap:
+  tagline: Nul uitstroom naar de markt
+  title: Afkeuren & begeleide vernietiging — anti-diversieprotocol met nuldefecten
+  body: |
+    Buitenlandse merkpartners hebben de zekerheid nodig dat defecte planken nooit in secundaire retailkanalen, grijze markten of e-commerce belanden. Planken die niet tot conformiteit kunnen worden gebracht, worden vernietigd onder een begeleid en geregistreerd protocol:
+
+    **1. Doorsnijden van onderdelen & accessoires.** Onder toezicht van de QA Director verwijdert een hydraulische schaar alle roestvrijstalen 316 D-ringen, transporthendel-bandjes en bagagesluitingen. De oppompventielgroep en de fin box-basis (US-box / klikvin) worden tot aan de plankenwortel verwijderd, waardoor alle herbruikbare componenten worden geëlimineerd.
+
+    **2. Inkerven van de drop-stitch & doorsnijden van de rail.** De interne drop-stitch kern wordt met diepe kruisdoorsneden door plank en deck gesneden (≥ 50 cm per snede), en de versterkte zijkanten van de rail worden in ten minste 4 segmenten doorgesneden — waardoor afdichtings- en drijfvermogen permanent worden vernietigd.
+
+    **3. Video- & fotovault.** De vernietiging wordt geregistreerd als een ononderbroken 1080p-video met close-ups van de seriële streepjescode, de snede, de inkerving van de kern en de gewogen eindafvalhoop. De video wordt gehasht (SHA-256) en minimaal 5 jaar op een gecontroleerde server opgeslagen.
+
+    **4. Gecertificeerde afvalverwerking.** Alle PVC- en drop-stitch fragmenten worden gewogen, in het uitgangsregister geregistreerd en uitsluitend door gekwalificeerde polymeerrecycling-partners vervoerd — geen residumateriaal verlaat de locatie via andere kanalen.
+
+    > **Merkenbeschermingsgarantie:** QINGDAO VATRAD GROUP CO., LTD. garandeert de 100%-vernietiging van niet-herwerkbare en buiten-specificatie boten. Geen enkele tweede keus of gecompromitteerde plank zal ooit in secundaire retailkanalen, grijze markten of e-commerce belanden. Het afkeur- & vernietigingscertificaat (VAT-QA-SCRAP-CERT-2026) documenteert het product, de partij, de MRB-conclusie, getuigenfoto''s en de dubbele ondertekening van QA Director en fabrieksmanager.
+
+nc_downloads:
+  tagline: Downloadbare QMS-documenten
+  title: Gecontroleerde tweetalige documenten (PDF)
+  subtitle: Officiële tweetalige EN/ZH-documenten van QINGDAO VATRAD GROUP.,LTD. — gestructureerd onder ISO 9001:2015 paragraaf 8.7 en klaar voor klantaudits, technische B2B-white papers en gecontroleerde distributie op de productieplanning.
+  features:
+    - icon: N
+      icon_bg: blue
+      title: SOP controle van niet-conforme producten (PDF)
+      desc: 'Tweetalige SOP gebaseerd op ISO 9001:2015 paragraaf 8.7: controle in een cyclus van 8 fases, beslissingsmatrix voor SUP-defecten, NCR-datastructuur en kwaliteitsverbintenis naar de klant.'
+      link: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link_label: PDF downloaden
+    - icon: S
+      icon_bg: orange
+      title: Afkeur- & vernietigingscertificaat (PDF)
+      desc: 'VAT-QA-SCRAP-CERT-2026: product- en partij-traceerbaarheid, MRB-conclusie, fysiek vernietigingsprotocol in 4 fases, velden voor getuigenfoto''s en dubbele ondertekeningsruimte.'
+      link: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link_label: PDF downloaden
+    - icon: R
+      icon_bg: green
+      title: Governance van gecontroleerde herbewerking (pagina)
+      desc: 'Referentiepagina voor de goedgekeurde luchtdichtheidsherbewerkingsmethoden MC-RW-01 tot en met MC-RW-06 en de gecontroleerde herbewerkingsworkflow in 7 fases.'
+      link: '/nl/factory/quality-inspection'
+      link_label: Bekijk de pagina
+    - icon: C
+      icon_bg: purple
+      title: Wijzigingsbeheernormen voor herbewerking (pagina)
+      desc: 'Formeel ISO 9001-wijzigingsbeheer voor herbewerkingsparameters: ECR, risicoclassificatie, vrijgavematrix, validatieplan en Poka-Yoke-beveiligingen — QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/nl/factory/quality-change-control'
+      link_label: Bekijk de pagina
+
+faqs:
+  tagline: FAQ
+  title: FAQ over kwaliteit & defectbeheer voor wereldwijde kopers
+  items:
+    - q: 'Hoe garanderen jullie dat herwerkte planken aan de volledige veiligheidsnormen voldoen?'
+      a: 'Elke herwerkte plank wordt behandeld als een nieuwe eenheid en moet dezelfde volledige testcyclus vanaf nul doorlopen — voor luchtdichtsreparaties een volledige 24u-drukproef. Het zijn de onafhankelijke QC-inspecteurs, niet de herbewerkingsoperators, die de vrijgavevalidatie uitvoeren.'
+    - q: 'Zal de fabriek planken met lichte esthetische afwijkingen verzenden zonder ons te informeren?'
+      a: 'Nooit. Elke afwijking die van invloed is op door de klant goedgekeurde golden samples, logographics, kleurvarianten of verpakking vereist een formele schriftelijke concessie-overeenkomst, ondertekend door de klant, vóór de vrijgave voor verzending.'
+    - q: 'Wat gebeurt er als een herwerkte plank de herverificatie niet doorstaat?'
+      a: 'De plank wordt niet vrijgegeven. Hij keert terug naar een nieuwe afhandelingsbeoordeling en wordt, als hij niet tot conformiteit kan worden gebracht, vervangen, afgekeurd of onder het begeleide afkeurprotocol vernietigd. Het herhaaldelijk niet slagen van dezelfde defectklasse activeert een CAPA voor oorzaakanalyse.'
+    - q: 'Kunnen defecte planken als tweede keus of via andere kanalen worden verkocht?'
+      a: 'Nee. Niet-herwerkbare en buiten-specificatie planken worden fysiek vernietigd onder het begeleide afkeurprotocol — onderdelen doorgesneden, kern en rail doorgesneden, video geregistreerd, gehasht met SHA-256 en minimaal 5 jaar opgeslagen. Het afkeur- & vernietigingscertificaat wordt ondertekend door de QA Director en de fabrieksmanager.'
+    - q: 'Hoe wordt de betrokken scope beoordeeld wanneer een defect wordt gevonden?'
+      a: 'De scope wordt onderzocht op productidentificatie, productiepartij, materiaal- of componentlot, procesfase en toepasselijke documentrevisie. Is hetzelfde materiaallot, dezelfde graphics-revisie of hetzelfde werkstation betrokken, dan worden de betreffende producten meegenomen en dienovereenkomstig geïnspecteerd.'
+    - q: 'Is jullie toestemming nodig vóórdat een concessie wordt verleend?'
+      a: 'Ja. Elke gedocumenteerde concessie-acceptatie die van invloed is op de vereisten van de klant — goedgekeurde monsters, specificatie, graphics, verpakking of acceptatiecriteria — vereist de schriftelijke vrijgave van de klant vóór de vrijgave. Zonder die vrijgave wordt het product herbewerkt, vervangen of afgekeurd volgens de oorspronkelijke eis.'
+    - q: 'Welke documentatie ontvangen jullie voor een non-conformiteit?'
+      a: 'Het NCR-dossier omvat het NCR-nummer, de detectiefase, het product/de SKU, de partij, de toepasselijke documentrevisies, de defectbeschrijving, de insluiting, de afhandeling, de referentie van de herbewerkingsinstructie, het resultaat van de herverificatie en de definitieve vrijgave of sluiting — beschikbaar volgens uw projectkwaliteitsafspraak.'
+
+cta:
+  title: Kwaliteitsproblemen worden via een gecontroleerd proces afgehandeld
+  desc: 'Deel samen met je aanvraag uw projectspecifieke kwaliteits-, inspectie- of documentatievereisten — wij kunnen de toepasselijke controlepunten vóór de monstervoortgang of de productieplanning verifiëren.'
+  actions:
+    - text: Bespreek je kwaliteitsvereisten
+      variant: primary
+      href: /contact
+    - text: Download de SOP NCP-controle (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Download het afkeurcertificaat (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

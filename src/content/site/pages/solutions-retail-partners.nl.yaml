@@ -1,0 +1,104 @@
+meta:
+  title: 'Aangepaste SUP-productie & private label voor retailers | {SITE}'
+  description: 'Aangepaste SUP-productie en private label voor commerciële merken: boardspecificaties, merk graphics, lage test-MOQ''s en fabrieks-QC — van monster tot serie.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Commerciële merken
+  title: 'Aangepaste SUP-productie voor commerciële merken'
+  subtitle: 'Commerciële merken lanceren hun paddleboardlijn met onze fabriek: boardspecificaties ontwikkeld vanuit jouw vereisten, jouw merk op het product en productie-QC die doorlopend wordt gedragen.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Vatrad SUP-boards, geproduceerd voor een commercieel merk
+
+answer:
+  label: 'Kort antwoord'
+  text: 'De MOQ wordt bevestigd door de projectconfiguratie: commerciële merken starten met een monster (1–2 eenheden) of een kleine pilotserie (20–50 eenheden, monsters in 7–12 dagen), schalen op naar een standaard OEM-serie van 90–100+ eenheden per design (25–35 dagen na PO en aanbetaling) of investeren in een aangepaste vorm voor volledig individuele lijnen (attrezzaggio voegt 15–20 dagen toe). Elk board wordt vóór verzending op druk getest, met FOB-, CIF- of DDP-voorwaarden vanuit Qingdao.'
+  verified: 'September 2026'
+
+margin_section:
+  title: 'Productieniveaus voor commerciële merken'
+  subtitle: 'Start met een monster, valideer met een pilotserie, schaal op naar een standaardserie of investeer in een aangepaste vorm — MOQ en levertijden worden bepaald door het productietraject, niet door afspraken over aantallen.'
+  items:
+    - tier: 'Monsterniveau'
+      moq: '1–2 eenheden'
+      margin_note: 'Monsterlevering in 7–12 dagen'
+      features:
+        - 'Grafische ontwikkeling op basis van de middelen van jouw merk'
+        - 'Fysiek monster ter goedkeuring'
+        - 'QC op een standaard platform'
+    - tier: 'Pilotniveau'
+      moq: '20–50 eenheden'
+      margin_note: 'Marktvalidatie op bestaande platforms'
+      features:
+        - 'Full-surface graphics, logo en EVA-layout'
+        - 'Nabestellingen op dezelfde goedgekeurde platforms'
+        - 'Exportdocumentatie inbegrepen'
+    - tier: 'Aangepaste vorm'
+      moq: 'Bevestigd door de projectconfiguratie'
+      margin_note: 'Attrezzaggio voegt 15–20 dagen toe'
+      features:
+        - 'Nieuwe boardvorm en matrijsontwikkeling'
+        - 'Volledige controle over de specificaties'
+        - 'Prioritaire productietoewijzing'
+
+product_line:
+  title: Volledig assortiment
+  subtitle: 'Eén productieplatform voor elk segment van jouw bedrijf.'
+  items:
+    - name: Allround-serie
+      description: 'Veelzijdige vorm — het meest gebruikte startplatform'
+    - name: Touring-serie
+      description: 'Verplaatsingsromp voor afstandspaddling'
+    - name: Yoga-serie
+      description: 'Breed en stabiel platform voor de wellnesssector'
+    - name: Kinder-serie
+      description: 'Korte en lichte boards voor de jongste paddlers'
+    - name: Racing-serie
+      description: 'Snelle rompen voor het segment van de liefhebbers'
+    - name: Accessoires
+      description: 'Peddels, drijvers, pompen en tassen om het assortiment compleet te maken'
+
+catalog:
+  title: Middelen voor commerciële partners
+  subtitle: 'Specificaties, besteldetails en productdocumentatie.'
+  items:
+    - name: 'Productcatalogus 2026'
+      desc: 'Volledig assortiment met specificaties en bestelinformatie'
+      icon: 'tabler:file-text'
+      link: '/nl/products'
+    - name: 'Gids voor commerciële partners'
+      desc: 'Gids over specificaties, het bestelproces en QC-normen'
+      icon: 'tabler:book'
+      link: '/nl/products'
+    - name: 'Product- & technische assets'
+      desc: 'Productfoto''s in hoge resolutie, lifestylebeelden en technische documentatie'
+      icon: 'tabler:photo'
+      link: '/nl/products'
+
+support:
+  title: Productieondersteuning
+  subtitle: 'Wat je productiepartner rondom de order doet.'
+  items:
+    - 'Fysiek monster vóór de serieproductie'
+    - 'Toleranties en QC: elk board vóór verzending op druk getest'
+    - 'Specificatieondersteuning — vormen, graphics, EVA-layout, accessoires'
+    - 'Serielevering in 25–35 dagen na bevestigde PO'
+    - 'Reserveonderdelen en reparatie-instructies voor jouw klanten'
+    - 'Export en documentatie: FOB/CIF/DDP vanuit Qingdao'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Verdiep je:</strong> ontdek het <a href="/nl/oem-manufacturing">volledige OEM/ODM-productieprogramma</a> — MOQ's die per project worden bevestigd via de niveaus monster, pilot en serie, private label branding en CE-conformiteit — of lees de <a href="/nl/oem-moq-guide">gids MOQ & flexibele branding</a> of bezoek de <a href="/nl/factory">fabriek</a> om te zien hoe de handelsgereed-gebrachte QC wordt geïmplementeerd.</p>
+  </div>
+
+cta:
+  title: 'Bespreek je commerciële productlijn'
+  subtitle: 'Stuur je vereisten in — ons team reageert binnen één werkdag.'
+  actions:
+    - text: 'Stuur je vereisten in'
+      href: '/nl/contact'
+      variant: 'primary'
+    - text: 'Bekijk de productplatforms'
+      href: '/nl/products'
+      variant: 'secondary'

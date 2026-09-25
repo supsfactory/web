@@ -1,0 +1,128 @@
+meta:
+  title: 'SUP-productie OEM vs. ODM vs. Private Label — vergelijkingsgids'
+  description: 'SUP-productie OEM vs. ODM vs. Private Label vergeleken: definities, eigendom, MOQ-instappunten, levertijden, apparatuur, IP-regels en keuzecriteria.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM vs ODM vs Private Label'
+    - 'SUP-productievergelijking'
+    - 'productie van aangepaste paddle boards'
+    - 'OEM SUP China'
+    - 'ODM SUP-ontwikkeling'
+    - 'Private Label SUP'
+
+hero:
+  tagline: 'Kies je samenwerkingsmodel'
+  title: 'OEM vs. ODM vs. Private Label — welk model past bij jouw project?'
+  subtitle: 'Drie manieren om samen te werken met een SUP-fabriek, elk met een ander eigendom, andere investeringen en een andere snelheidsafweging. Deze gids legt de verschillen uit, zodat je het juiste traject kiest vóór je eerste aanvraag.'
+
+answer:
+  label: 'Snelle vergelijking'
+  text: 'OEM: jij bezit ontwerp en specificatie — wij produceren volgens jouw tekeningen. ODM: ons technisch team ontwikkelt de plank uit jouw briefing — jij keurt vóór de productie goed. Private Label: jouw merk op een bestaand, beproefd platform zonder structurele wijzigingen — de snelste weg naar de markt. Alle drie de trajecten lopen door dezelfde fabriek, hetzelfde QC-systeem en hetzelfde exportteam in Qingdao, China.'
+  verified: 'September 2026'
+
+comparison_table:
+  tagline: 'Naast elkaar'
+  title: 'OEM / ODM / Private Label vergeleken'
+  subtitle: 'Essentiële verschillen in ontwerpeigendom, MOQ, apparatuur, levertijden en intellectuele eigendom.'
+  headers:
+    dimension: Dimensie
+    oem: OEM-productie
+    odm: ODM-ontwikkeling
+    pl: Private Label
+  rows:
+    - dimension: 'Wie ontwerpt de plank?'
+      oem: 'Jij levert specificatie, tekeningen of een referentieplank'
+      odm: 'Het technisch team van de fabriek ontwikkelt uit jouw briefing'
+      pl: 'Bestaand fabrieksplatform — geen ontwerpinspanning'
+    - dimension: 'Eigendom van ontwerp en IP'
+      oem: 'Jij bezit alle ontwerpen, matrijzen en intellectuele eigendom'
+      odm: 'Jij bezit het goedgekeurde eindontwerp; de fabriek houdt het IP van het ontwikkelproces'
+      pl: 'De fabriek bezit het platformontwerp; jij bezit merk en graphics'
+    - dimension: 'Matrijs / apparatuur'
+      oem: 'Eigen matrijs nodig voor nieuwe vormen — eenmalige apparatuurkosten, 15–20 dagen extra'
+      odm: 'Kan een eigen matrijs vereisen afhankelijk van de specificatie — zelfde apparatuurplanning'
+      pl: 'Geen nieuwe matrijs — er wordt gebruikgemaakt van de apparatuur van het bestaande platform'
+    - dimension: 'Minimum bestelhoeveelheid'
+      oem: '90–100+ eenheden per goedgekeurde configuratie'
+      odm: '90–100+ eenheden per goedgekeurde configuratie; pilotpartijen van 20–50'
+      pl: '5–10 eenheden (co-branding) of 20–50 (pilotpartij op bestaand platform)'
+    - dimension: 'Typische levertijd'
+      oem: '25–35 dagen + 15–20 dagen apparatuur bij een nieuwe matrijs'
+      odm: '25–35 dagen + ontwikkeliteratie (varieert met de complexiteit)'
+      pl: '25–35 dagen (geen apparatuurvertraging)'
+    - dimension: 'Mate van aanpassing'
+      oem: 'Totaal — vorm, constructie, materialen, graphics, verpakking'
+      odm: 'Totaal — de fabriek stelt voor, jij keurt elk element goed'
+      pl: 'Alleen graphics en verpakking — geen structurele wijzigingen'
+    - dimension: 'Sampleproces'
+      oem: '1–2 prototypesamples in 7–12 dagen na specificatiegoedkeuring'
+      odm: '1–2 prototypesamples in 7–12 dagen na ontwerpgoedkeuring'
+      pl: '1–2 samples in 7–12 dagen — platform al gevalideerd'
+    - dimension: 'Ideaal voor'
+      oem: 'Kopers met bestaande ontwerpen, referentieplanken of gedetailleerde specificaties'
+      odm: 'Kopers met productideeën of marktvereisten, maar zonder gedetailleerde specificatie'
+      pl: 'Kopers die snel ge-branded planken willen zonder productontwikkeling'
+
+scenario_cards:
+  tagline: 'Wanneer kies je welk traject'
+  title: 'Echte scenario''s'
+  subtitle: 'Veelvoorkomende situaties van kopers en het aanbevolen samenwerkingsmodel.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Je hebt volledige specificaties en bezit het ontwerp'
+      desc: 'Je hebt CAD-tekeningen, een referentieplank of een gedetailleerd specificatieblad met afmetingen, materialen, constructie en verpakkingsvereisten. Kies OEM — wij produceren exact volgens jouw specificatie.'
+      link: '/nl/factory/oem-capability'
+      link_label: 'Details OEM-productie'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Je hebt een productconcept, maar geen technische specificatie'
+      desc: 'Je kent de doelmarkt, de prijsklasse en de prestatievereisten, maar hebt technische ondersteuning nodig om de plank te ontwikkelen. Kies ODM — ons team ontwikkelt uit jouw briefing en jij keurt vóór de productie goed.'
+      link: '/nl/odm-manufacturing'
+      link_label: 'Details ODM-ontwikkeling'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Je hebt snel ge-branded planken nodig, zonder productontwikkeling'
+      desc: 'Je bent distributeur, resort of verhuurder en wilt je logo op kwaliteitsplanken zonder te investeren in productontwikkeling. Kies Private Label — de snelste weg van concept naar levering.'
+      link: '/nl/solutions/private-label-sup'
+      link_label: 'Details Private Label'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Je beheert een resort, club of verhuurvloot'
+      desc: 'Je hebt duurzame SUP-pakketten nodig voor intensief gebruik, met partijconsistentie, reserveonderdelen en kleurbeheer bij herdrukken. Kies ons Commercial Fleet Program.'
+      link: '/nl/solutions/resort-sup'
+      link_label: 'Details Commercial Fleet'
+
+ip_rules:
+  tagline: 'Bescherming van intellectuele eigendom'
+  title: 'Hoe we je ontwerpen en merk beschermen'
+  subtitle: 'Ongeacht het samenwerkingsmodel blijven je artwork, matrijzen en specificatiebestanden van jou.'
+  body: |
+    **NDA vóór de bestandsuitwisseling.** We ondertekenen een geheimhoudingsovereenkomst vóór elke uitwisseling van technische bestanden — standaardreactietijd binnen 4 werkuren.
+
+    **Geen hergebruik van ontwerpen.** Je artwork, matrijzen en specificatiebestanden worden nooit gedeeld of verkocht aan andere klanten. OEM-matrijzen zijn exclusief van jou. ODM-ontwerpen worden door jou goedgekeurd vóór de productie. Private Label-platforms zijn gedeelde structuren, maar jouw graphics en branding zijn exclusief.
+
+    **Alleen B2B.** We produceren uitsluitend onder de merken van onze klanten. We verkopen niet aan eindconsumenten en concurreren in geen enkele markt met onze klanten.
+
+    **Eigendom van matrijzen.** Eigen matrijzen die door de koper zijn betaald, zijn van de koper. We bewaren en onderhouden ze, maar mogen ze zonder schriftelijke toestemming niet voor andere klanten gebruiken.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Veelgestelde vragen over OEM, ODM en Private Label'
+  items:
+    - q: 'Kan ik later overstappen van Private Label naar OEM?'
+      a: 'Ja. Veel klanten starten met Private Label-productie of een pilot om de markt te valideren en investeren daarna in eigen apparatuur voor een volledig OEM-programma zodra de vraag is bewezen. Dezelfde fabriek en hetzelfde QC-systeem ondersteunen beide trajecten.'
+    - q: 'Betekent ODM dat de fabriek mijn merk bezit?'
+      a: 'Nee. Bij ODM bezit je je merk, je graphics en je verpakking. De fabriek ontwikkelt de plankstructuur uit jouw briefing en jij keurt het ontwerp vóór de productie goed. De fabriek houdt het IP van het ontwikkelproces, maar de goedgekeurde productspecificatie is van jou.'
+    - q: 'Is Private Label van lagere kwaliteit dan OEM?'
+      a: 'Nee. Alle drie de trajecten lopen door dezelfde fabriek, hetzelfde QC-systeem en hetzelfde exportteam. Private Label-planken worden gebouwd op beproefde, gevalideerde platforms, met de volledige 18-PSI/24-uurs druktest en dezelfde assemblagechecklist van 100 punten.'
+    - q: 'Wat als ik niet zeker weet welk model ik moet kiezen?'
+      a: 'Neem contact met ons op over jouw situatie — ons technisch team adviseert het meest praktische traject op basis van je productvereisten, je planning en je kwantiteitsdoelen. Er is geen enkele verplichting vóór de specificatiecontrole.'
+    - q: 'Kan ik samples ontvangen voordat ik het model kies?'
+      a: 'Ja. 1–2 prototypesamples vertrekken in 7–12 dagen. De samplekosten worden verrekend met je massabestelling. Zo kun je constructie en kwaliteit beoordelen vóór enige kwantiteitsverplichting.'
+
+cta:
+  title: 'Klaar om je SUP-project te bespreken?'
+  subtitle: 'Vertel ons je productvereisten, je markt en je kwantiteitsdoelen — wij adviseren het meest praktische samenwerkingstraject.'
+  button: 'Start je SUP-project'
+  note: 'Reactie binnen 1 werkdag · NDA beschikbaar vóór de bestandsuitwisseling'
