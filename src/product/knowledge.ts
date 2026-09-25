@@ -639,6 +639,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  pt: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Como são desenvolvidos os SUP personalizados',
+      metaTitle: 'Como são desenvolvidos os SUP personalizados | SUPsfactory',
+      metaDescription:
+        'Como um SUP personalizado passa da ideia à fábrica: especificações, design, prototipagem, amostras e produção — explicado passo a passo.',
+      kicker: 'Conhecimento',
+      h1: 'Como são desenvolvidos os SUP personalizados',
+      intro:
+        'Antes de uma prancha personalizada ser enviada aos teus clientes, percorre um caminho de desenvolvimento bem definido. Conhecer cada fase permite-te enquadrar corretamente o pedido à fábrica, definir prazos realistas e evitar os erros clássicos de quem compra pela primeira vez.',
+      sections: [
+        {
+          title: 'Fase 1: definir a necessidade',
+          body: [
+            'Cada projeto de desenvolvimento começa pelo caso de utilização: quem usa a prancha, onde e com que frequência. Uma prancha para uma frota de aluguer é diferente de uma prancha para um lançamento de marca ou para uma escola: estabilidade, durabilidade e objetivos de custo mudam todos consoante a resposta.',
+            'Anota quantidades, preço-alvo e características indispensáveis antes de contactares uma fábrica. Requisitos claros produzem melhores orçamentos logo na primeira ronda e menos idas e vindas.',
+          ],
+        },
+        {
+          title: 'Fase 2: fixar as especificações',
+          body: [
+            'As especificações transformam os requisitos em valores mensuráveis: comprimento, largura, espessura, volume, materiais (densidade do drop-stitch, gramagem do tecido), configuração das aletas, limite de peso e embalagem.',
+            'É o documento com base no qual ambas as partes calculam os custos. As alterações posteriores são mais lentas e mais caras: uma especificação congelada é a ferramenta mais económica que tens à tua disposição.',
+          ],
+        },
+        {
+          title: 'Fase 3: design e gráficas',
+          body: [
+            'Com as especificações definidas, começa o trabalho de design: ajustes de forma, combinações de cores, posicionamento do logótipo, gráficas do pad do deck e acessórios coordenados (leash, pá, aleta, bolsa).',
+            'Os fabricantes podem criar mockups digitais para aprovares o aspeto antes de produzir qualquer amostra física: mais económico e mais rápido do que iterar sobre o hardware.',
+          ],
+        },
+        {
+          title: 'Fase 4: protótipo e amostra',
+          body: [
+            'A amostra é a primeira prova física. Para pranchas insufláveis significa uma prancha feita à mão ou proveniente de uma produção piloto, que podes experimentar e testar face às especificações.',
+            'Testa a amostra como faria o teu utilizador final: estabilidade, rigidez, alinhamento, peso e resultado das gráficas. Um ciclo de amostragem aprofundado normalmente deteta a maioria dos problemas antes da produção.',
+          ],
+        },
+        {
+          title: 'Fase 5: produção e entrega',
+          body: [
+            'Após a aprovação da amostra, a produção avança em lotes com pontos de verificação de controlo de qualidade. A inspeção em fábrica antes do envio — fotos, vídeo ou inspeção por terceiros — protege o lote que recebes.',
+            'Um bom plano de projeto calcula-se a partir da data de lançamento para trás, não para a frente a partir da data do pedido.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'A construção dos SUP insufláveis, explicada',
+      metaTitle: 'Construção dos SUP insufláveis: materiais e camadas | SUPsfactory',
+      metaDescription:
+        'Do que é feito um SUP insuflável — camadas de PVC, tecido drop-stitch, rails e indicadores de qualidade — para especificar melhores pranchas para o teu projeto.',
+      kicker: 'Conhecimento',
+      h1: 'A construção dos SUP insufláveis, explicada',
+      intro:
+        'A maioria dos projetos SUP personalizados de hoje são pranchas insufláveis. São mais leves, mais fáceis de arrumar e enviar e mais tolerantes para iniciantes. Este guia explica a construção, para que possas especificar a qualidade com confiança.',
+      sections: [
+        {
+          title: 'O coração: o tecido drop-stitch',
+          body: [
+            'Uma prancha insuflável é construída em torno de um tecido drop-stitch: milhares de fios de poliéster ligam a camada de PVC superior e a inferior. Quando insuflada, esses fios mantêm a prancha a uma espessura fixa — é isso que dá a um iSUP forma e rigidez.',
+            'Uma densidade de fios mais elevada (pontos por polegada quadrada) significa uma prancha mais rígida e estável à mesma pressão. As pranchas económicas usam densidades inferiores; as premium, densidades superiores.',
+          ],
+        },
+        {
+          title: 'Camadas de PVC e rails',
+          body: [
+            'O tecido é interposto entre camadas de PVC, que o protegem de abrasões, raios UV e impactos. Um PVC mais pesado (mais mils ou mm) resiste melhor a perfurações mas aumenta o peso.',
+            'Os rails — os bordos da prancha — absorvem a maioria dos impactos no uso diário. Uma construção dos rails de dupla ou tripla camada é um forte indicador de durabilidade e de aptidão para o aluguer.',
+          ],
+        },
+        {
+          title: 'O que acrescenta peso — e o que acrescenta resistência',
+          body: [
+            'O peso é um compromisso: um PVC mais espesso aumenta durabilidade e peso; as laminações mais leves adequam-se a praticantes que transportam as pranchas por longas distâncias. É um dos pontos em que uma especificação personalizada se calibra com a realidade do comprador.',
+            'Indicadores de qualidade a exigir: pressão de insuflação nominal, construção das costuras, tipo de válvula e densidade do drop-stitch. As fábricas sérias publicam estes números.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Como as organizações escolhem o equipamento SUP',
+      metaTitle: 'Como resorts, clubes e escolas escolhem o equipamento SUP',
+      metaDescription:
+        'Como resorts, clubes e escolas escolhem o equipamento SUP: dimensionamento da frota, tipos de prancha, durabilidade, arrumação e orçamento para um programa que dure no tempo.',
+      kicker: 'Conhecimento',
+      h1: 'Como as organizações escolhem o equipamento SUP',
+      intro:
+        'Resorts, clubes e escolas compram de forma diferente das marcas de consumo: o equipamento tem de aguentar o uso diário, servir vários níveis de aptidão e caber no orçamento do programa. Este panorama cobre as decisões que contam.',
+      sections: [
+        {
+          title: 'Dimensionar a frota em função da utilização',
+          body: [
+            'Conta quantos praticantes estarão na água ao mesmo tempo, não quantos hóspedes tens. Um resort com aluguer por rotação precisa de menos pranchas do que uma escola com cursos simultâneos — e de mais peças sobresselentes.',
+            'Uma boa regra prática: uma prancha por praticante simultâneo, mais uma reserva de 10–15 % para manutenção e crescimento.',
+          ],
+        },
+        {
+          title: 'Adequar os tipos de prancha aos níveis de aptidão',
+          body: [
+            'Os iniciantes beneficiam de pranchas mais largas e volumosas, que se revelam estáveis; os praticantes experientes preferem pranchas mais estreitas que remam mais depressa. Uma frota mista — maioritariamente adequada a iniciantes com algumas pranchas de performance — cobre a maioria dos programas.',
+            'As pranchas multi-lugar têm o seu lugar nas escolas e nas experiências de grupo: permitem aos instrutores ensinar e podem substituir várias pranchas individuais nas rotações dos cursos.',
+          ],
+        },
+        {
+          title: 'A durabilidade é uma decisão de orçamento',
+          body: [
+            'Uma construção adequada ao aluguer custa mais no início e faz poupar ao longo de duas ou três épocas. Pede informações sobre o reforço dos rails, a espessura do PVC e a garantia que a fábrica oferece nos pedidos de frota.',
+            'Prevê também arrumação e insuflação: compressores, cavaletes e rotinas de embalagem determinam a carga de trabalho diária do programa. Os fornecedores orientados para frotas incluem tudo isto no pacote.',
+          ],
+        },
+        {
+          title: 'Planear o programa, não apenas o pedido',
+          body: [
+            'Os melhores pedidos de equipamento fazem parte de um plano de programa: formação dos instrutores, rotinas de manutenção e um ciclo de substituição para as pranchas desgastadas. As organizações que planeiam o programa renovam o equipamento segundo prazos pré-definidos; as outras compram substituições de emergência a preço inteiro.',
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -681,5 +805,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       "Guide pratiche sullo sviluppo di prodotti SUP personalizzati, sulla costruzione delle tavole gonfiabili e sulla scelta dell\u2019attrezzatura SUP per resort, club e scuole.",
     h1: 'Centro di conoscenza — sviluppo di prodotto, spiegato',
+  },
+  pt: {
+    metaTitle: 'Centro de conhecimento: guias de desenvolvimento de produtos SUP | SUPsfactory',
+    metaDescription:
+      'Guias práticas sobre o desenvolvimento de produtos SUP personalizados, sobre a construção das pranchas insufláveis e sobre a escolha do equipamento SUP para resorts, clubes e escolas.',
+    h1: 'Centro de conhecimento — desenvolvimento de produto, explicado',
   },
 }

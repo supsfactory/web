@@ -1,0 +1,242 @@
+meta:
+  title: 'Controlo de SUP não conformes & retrabalho | Fábrica OEM | SUPsfactory'
+  description: 'Controlo de produtos não conformes (ISO 9001:2015 secção 8.7): bloqueio NCR, retrabalho controlado segundo SRI, nova verificação independente e destruição assistida.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'controlo produtos não conformes'
+    - 'processo retrabalho re-inspeção sup'
+    - 'output não conformes iso 9001'
+    - 'controlo ncr produção'
+    - 'certificado destruição refugos sup'
+    - 'controlo qualidade oem sup insufláveis'
+
+hero:
+  tagline: Controlo de produtos não conformes
+  title: Processo de separação, retrabalho & nova verificação de produtos não conformes
+  subtitle: 'Na QINGDAO VATRAD GROUP.,LTD. uma prancha não conforme nunca avança. Cada produto ou componente que falha os critérios de aceitação definidos é identificado, registado contra um Non-Conformance Report (NCR), marcado e separado, avaliado quanto ao âmbito afetado e disposto ao nível de autoridade correto. O retrabalho permitido segue instruções controladas, os artigos corrigidos são verificados de novo contra os critérios de aceitação originais — incluindo um novo teste completo quando exigido — e o produto só é expedido após a libertação de qualidade autorizada. Esta página apresenta o nosso padrão controlado sob a ISO 9001:2015, secção 8.7, e as evidências de rastreabilidade na sua base.'
+  actions:
+    - text: Descarregar a SOP de controlo NCP (PDF)
+      variant: primary
+      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Descarregar o certificado de refugo & destruição (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: Solicitar um controlo de qualidade
+      href: /contact
+
+answer:
+  label: 'Resposta clara'
+  text: 'Os produtos não conformes nunca são escondidos, retrabalhados informalmente ou libertados sem verificação na QINGDAO VATRAD GROUP.,LTD. Cada não conformidade identificada é registada contra o produto, a partida ou o componente afetado e ligada a um NCR. O artigo é marcado (HOLD / QUARANTINE / REJECTED), fisicamente separado e o âmbito afetado é avaliado por partida, lote de material, fase de processo e revisão documental. A disposição é decidida ao nível de autoridade correspondente à gravidade do defeito: os problemas ligeiros são assinados ao nível da linha, os problemas graves exigem uma disposição de QC Manager + Engenheiro técnico com instrução de retrabalho controlado e nova verificação independente a 100%, e os problemas críticos exigem uma decisão do Material Review Board com consentimento escrito do cliente quando exigido — caso contrário, destruição assistida obrigatória. Os artigos retrabalhados são verificados de novo contra os critérios de aceitação originais, as reparações de estanquicidade ao ar recebem um ciclo completo de novo teste de pressão e a libertação para envio só acontece após a qualificação de qualidade autorizada. Os problemas recorrentes ou sistémicos ativam a análise de causas e as ações corretivas (CAPA).'
+  verified: 'September 2026'
+
+stats:
+  tagline: Em síntese
+  title: O controlo de não conformidades em números
+  stats:
+    - value: '7'
+      label: Fases da identificação à ação corretiva
+    - value: '100%'
+      label: Nova verificação de cada prancha retrabalhada pela QA independente
+    - value: '24h'
+      label: Novo teste de pressão completo para as reparações de estanquicidade ao ar
+    - value: '≥ 5 yr'
+      label: Conservação das evidências de refugo assistido (SHA-256-vault)
+
+nc_intro:
+  tagline: Controlo de produtos não conformes
+  title: O que acontece quando um produto não cumpre os critérios
+  body: |
+    Os produtos ou componentes que não cumprem os critérios de aceitação definidos são identificados e controlados para prevenir a utilização involuntária, o processamento adicional ou o envio. Os critérios de aceitação aplicáveis baseiam-se na amostra libertada, na especificação técnica, nas gráficas, na lista de materiais, nos requisitos de embalagem e no plano de inspeção do projeto.
+
+    Os artigos não conformes são avaliados para determinar o âmbito afetado e a disposição apropriada. Consoante o problema, o artigo pode ser retido, retrabalhado sob instruções controladas, substituído, rejeitado ou gerido através de um processo libertado. Os artigos retrabalhados ou corrigidos são inspecionados de novo antes da libertação. A libertação para envio só é permitida após a conclusão dos registos de qualidade pertinentes e a conformidade do produto com os critérios de aceitação aplicáveis.
+
+nc_flow:
+  tagline: Ciclo fechado padrão em 7 fases
+  title: Da identificação à ação corretiva
+  subtitle: 'Um ciclo controlado para cada não conformidade: identificar, bloquear, verificar, retrabalhar ou substituir, voltar a verificar, libertar ou rejeitar, melhorar.'
+  steps:
+    - step: '01'
+      title: Identificar
+      desc: 'Cada não conformidade identificada é registada contra o produto, a partida ou o componente afetado e avaliada contra os requisitos aplicáveis do projeto. A deteção pode ocorrer na entrada de mercadorias, no controlo de processo, na inspeção final, na embalagem ou na inspeção do cliente/de terceiros.'
+    - step: '02'
+      title: Bloquear
+      desc: 'Os artigos são claramente identificados e colocados sob estado de bloqueio ou quarentena controlada para prevenir a utilização, o processamento adicional ou o envio involuntários. As etiquetas HOLD / QUARANTINE / REJECTED trazem número NCR, SKU, partida, quantidade, descrição do defeito e data.'
+    - step: '03'
+      title: Verificar
+      desc: 'São avaliados o âmbito afetado e a disposição apropriada: unidade única, partida de turno, partida completa ou várias partidas — através de lotes de material comuns, revisões gráficas, fases de processo e revisões documentais. Se necessário, aplicam-se contenção adicional ou inspeção reforçada.'
+    - step: '04'
+      title: Retrabalho ou substituição
+      desc: 'O retrabalho permitido segue instruções libertadas que identificam o artigo afetado, o método, os materiais, os pontos de inspeção e os requisitos de nova verificação. Nunca são permitidas alterações não autorizadas à especificação do produto, às gráficas, à configuração de acessórios ou à embalagem. Os artigos substitutos reentram nos gates de inspeção aplicáveis.'
+    - step: '05'
+      title: Voltar a verificar
+      desc: 'Os artigos retrabalhados ou corrigidos são inspecionados de novo contra os critérios de aceitação aplicáveis. O defeito originalmente reprovado e todas as características associadas potencialmente afetadas pelo retrabalho são verificadas antes da libertação — pela QC independente e, para as reparações de estanquicidade ao ar, com um ciclo completo de novo teste de pressão de 24h.'
+    - step: '06'
+      title: Libertar ou rejeitar
+      desc: 'O produto é libertado apenas após a conclusão da nova verificação exigida, quando o pessoal de qualidade autorizado confirma a conformidade com os requisitos aplicáveis do projeto. Os artigos que não podem ser levados à conformidade são rejeitados, substituídos, reenviados ou dispostos sob procedimentos controlados — incluindo a destruição física assistida.'
+    - step: '07'
+      title: Ação corretiva
+      desc: 'As não conformidades recorrentes, significativas ou sistémicas são investigadas quanto à causa e à ação corretiva (CAPA). As melhorias podem incluir atualizações de instruções de trabalho, controlos de materiais, pontos de inspeção, formação, gestão de fornecedores ou controlo documental.'
+
+nc_pillars:
+  tagline: Pilares da confiança do comprador
+  title: Três controlos que protegem a tua marca
+  subtitle: 'O processo é construído em torno das perguntas que os compradores internacionais fazem realmente: os problemas são escondidos, o retrabalho foge ao controlo e as pranchas reparadas são verificadas de novo.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Apenas instruções controladas
+      desc: 'O retrabalho é rigorosamente regulado por Standard Rework Instructions (SRI) autorizadas. As alterações no terreno não aprovadas, as variações de especificação ou as alterações gráficas sem autorização escrita são severamente proibidas.'
+    - icon: 2
+      icon_bg: green
+      title: Nova verificação independente
+      desc: 'As pranchas retrabalhadas são sujeitas a nova verificação a 100% pelos inspetores QA contra os critérios de aceitação originais. As reparações de estanquicidade ao ar exigem um ciclo completo de novo teste de pressão de 24h — nunca uma verificação parcial.'
+    - icon: 3
+      icon_bg: purple
+      title: Libertação autorizada & rastreabilidade
+      desc: 'A libertação para envio é permitida exclusivamente após documentação NCR completa e autorização QC, com o estado da partida a passar de HOLD para RELEASED. Os desvios sistémicos ou recorrentes ativam automaticamente os workflows CAPA para a análise de causas.'
+
+nc_photos:
+  tagline: Na área produtiva
+  title: Bloqueio, retrabalho & nova verificação na prática
+  subtitle: As fotos da nossa oficina de Qingdao mostram como as pranchas não conformes são fisicamente separadas, retrabalhadas sob instruções controladas e verificadas de novo antes de qualquer decisão de libertação.
+  features:
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: SUP insufláveis inflados na área de teste de estanquicidade ao ar da fábrica, monitorizados por manómetros digitais
+      title: Gate de nova verificação
+      desc: 'Após o retrabalho, cada prancha volta à área de teste QC para a verificação independente: inflada e monitorizada com manómetros digitais contra os critérios de aceitação libertados do projeto — nunca uma verificação parcial.'
+    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Checklist de controlo de qualidade e etiquetas de estado de bloqueio controlado na estação de inspeção da fábrica
+      title: Estação de bloqueio & quarentena
+      desc: 'Estação de inspeção com checklist QC e marcação de estado. Cada artigo que não cumpre os critérios de aceitação é marcado HOLD / QUARANTINE, registado contra um NCR e fisicamente separado — só pode avançar para a embalagem após disposição autorizada e nova verificação vinculativa.'
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Técnico QC executa um retrabalho controlado de estanquicidade ao ar num SUP insuflável na estação de retrabalho da fábrica
+      title: Estação de retrabalho controlado
+      desc: 'O retrabalho acontece numa estação dedicada sob uma instrução SRI libertada: o defeito é marcado, a prancha permanece em HOLD e, após o tempo de cura exigido, volta à área de teste para a nova verificação contra os critérios de aceitação originais.'
+    - image: https://assets.supsfactory.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: Demonstração em oficina dos controlos de qualidade na fábrica de Qingdao
+      title: Demonstração QC em oficina
+      desc: 'Foto demonstrativa da oficina que mostra os controlos de qualidade aplicados na prática e suporta os registos de inspeção e de transição de estado a que esta página faz referência de forma contínua.'
+
+nc_severity:
+  tagline: Gravidade do defeito & autoridade
+  title: Classificação da gravidade & autoridade de disposição
+  subtitle: Nem toda a não conformidade é gerida ao mesmo nível — a autoridade de disposição escala com a gravidade do defeito, da libertação ao nível da linha ao Material Review Board com consentimento do cliente.
+  headers:
+    severity: Gravidade
+    examples: Exemplos típicos
+    authority: Autoridade de disposição & controlo
+    control: Condição de libertação
+  rows:
+    - severity: 'Ligeiro'
+      examples: 'Acabamento do canto da caixa, ligeiro desalinhamento de um acessório não crítico'
+      authority: 'Libertação no local pelo chefe QC de secção + supervisor de linha, com substituição ou libertação'
+      control: 'Registado no NCR; sem impacto na função do produto ou nos requisitos do cliente'
+    - severity: 'Grave'
+      examples: 'Fuga lenta da válvula, desalinhamento EVA fora de tolerância (>2 mm), acessório em falta'
+      authority: 'O QC Manager + Engenheiro técnico emitem uma instrução de retrabalho controlado (SRI)'
+      control: 'Novo teste de conformidade independente a 100% dos defeitos originalmente reprovados e das características afetadas antes da libertação'
+    - severity: 'Crítico'
+      examples: 'Dano na câmara drop-stitch, bolha no rail ou laceração a alta pressão, impressão errada do logótipo do cliente ou desvio cromático'
+      authority: 'Decisão do Material Review Board (MRB); consentimento escrito do cliente quando exigido'
+      control: 'Sem libertação sem consentimento autorizado; caso contrário, destruição física assistida obrigatória'
+
+nc_matrix:
+  tagline: Matriz de protocolos de engenharia
+  title: Matriz de disposição de defeitos & nova verificação SUP
+  subtitle: Protocolos de engenharia padrão aplicados aos desvios de produção mais comuns — os mesmos parâmetros quantificados que os clientes podem verificar durante as auditorias.
+  headers:
+    defect: Categoria de defeito
+    protocol: Protocolo de disposição controlada
+    validation: Nova verificação & validação independente
+  rows:
+    - defect: 'Fuga lenta da válvula'
+      protocol: 'Isolar a prancha. Desmontar o núcleo da válvula com ferramenta de aperto calibrada (25 N·m), limpar a rosca interna, substituir o anel O de silicone e apertar de novo.'
+      validation: 'Imersão em solução saponosa; inflar a 18 PSI e executar um novo teste completo de queda de pressão de 24h (ΔP ≤ 0.05 PSI).'
+    - defect: 'Bolhas de ar na costura do rail'
+      protocol: 'Bloquear a partida de turno. Delaminar a área da bolha com bocal de calor assistido, limpar a superfície com solvente, aplicar adesivo PU bicomponente sob pressão de 5 bar.'
+      validation: 'Inspeção visual e tátil da costura a 100%; prova estrutural de pressão de verificação (18.0 PSI) além da manutenção de estanquicidade ao ar de 24h.'
+    - defect: 'Desalinhamento do pad EVA'
+      protocol: 'Remoção a quente assistida com ferramenta a temperatura regulada (80°C). Novo alinhamento com gabarito de posicionamento acrílico de precisão.'
+      validation: 'Verificação da tolerância de fabrico das folgas (≤ ±1.5 mm), verificação da simetria do padrão losangular, teste de adesão dos bordos a 100%.'
+    - defect: 'Erro de branding/logótipo'
+      protocol: 'Paragem imediata da linha de impressão. Bloquear todos os painéis impressos. Verificar a revisão vetorial com o cliente; zero alterações não autorizadas.'
+      validation: 'Verificação de cor com espectrofotómetro (ΔE ≤ 1.5); inspeção visual a 100% do alinhamento do texto contra o PDF master vetorial assinado pelo cliente.'
+    - defect: 'Desvio de embalagem / SKU em falta'
+      protocol: 'Bloquear a palete de exportação. Abrir e executar uma verificação de posição a 100% segundo a BOM (bomba, aleta, leash, pá, tubo de reparação).'
+      validation: 'Validação com balanças de controlo dinâmicas eletrónicas integradas (±30 g de variância); verificação com leitores óticos de códigos de barras 2D.'
+
+nc_scrap:
+  tagline: Zero fuga para o mercado
+  title: Sucata & destruição assistida — protocolo anti-desvio a zero defeitos
+  body: |
+    Os parceiros de marca internacionais precisam da certeza de que as pranchas defeituosas nunca chegam aos canais de retalho secundário, mercados cinzentos ou e-commerce. As pranchas que não podem ser levadas à conformidade são destruídas sob um protocolo assistido e registado:
+
+    **1. Corte de encaixes & acessórios.** Sob a supervisão do QA Director, uma cisalha hidráulica remove todos os anéis em D em aço inoxidável 316, as correias das pegas de transporte e as fivelas das bagagens. O grupo de válvula de inflagem e a base da fin box (US-box / aleta de encaixe) são removidos à raiz da prancha, eliminando assim todos os componentes reutilizáveis.
+
+    **2. Incisão do drop-stitch & secionamento do rail.** O núcleo drop-stitch interno é cortado através da prancha e do deck com cortes cruzados profundos (≥ 50 cm por corte), e os rails laterais reforçados são secionados em pelo menos 4 segmentos — destruindo permanentemente a capacidade de selagem e flutuação.
+
+    **3. Video- & fotovault.** A destruição é registada como um vídeo 1080p não cortado com primeiros planos do código de barras de série, do corte, da incisão do núcleo e do monte de sucata final pesado. O vídeo é submetido a hash (SHA-256) e arquivado por ≥ 5 anos num servidor controlado.
+
+    **4. Eliminação de resíduos certificada.** Todos os fragmentos em PVC e drop-stitch são pesados, registados no registo de saída e transportados apenas por parceiros qualificados de reciclagem de polímeros — nenhum material residual sai das instalações por outros canais.
+
+    > **Garantia de proteção da marca:** QINGDAO VATRAD GROUP CO., LTD. garante a destruição a 100% das embarcações não reparáveis e fora de especificação. Nenhum artigo de segunda escolha ou prancha comprometida chegará jamais aos canais de retalho secundário, mercados cinzentos ou e-commerce. O certificado de refugo & destruição (VAT-QA-SCRAP-CERT-2026) documenta o produto, a partida, a conclusão do MRB, as fotos de testemunho e a dupla assinatura do QA Director e do chefe de fábrica.
+
+nc_downloads:
+  tagline: Documentos QMS para download
+  title: Documentos bilingues controlados (PDF)
+  subtitle: Documentos oficiais bilingues EN/ZH da QINGDAO VATRAD GROUP.,LTD. — estruturados sob a ISO 9001:2015, secção 8.7, e prontos para auditorias de clientes, white papers técnicos B2B e distribuição controlada no plano de produção.
+  features:
+    - icon: N
+      icon_bg: blue
+      title: SOP de controlo de produtos não conformes (PDF)
+      desc: 'SOP bilingue baseada na ISO 9001:2015, secção 8.7: controlo em ciclo de 8 fases, matriz de disposição de defeitos SUP, estrutura de dados NCR e compromisso de qualidade para com o cliente.'
+      link: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link_label: Descarregar PDF
+    - icon: S
+      icon_bg: orange
+      title: Certificado de refugo & destruição (PDF)
+      desc: 'VAT-QA-SCRAP-CERT-2026: rastreabilidade de produto e partida, conclusão do MRB, protocolo de destruição física em 4 fases, campos para fotos de testemunho e espaço para dupla assinatura.'
+      link: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link_label: Descarregar PDF
+    - icon: R
+      icon_bg: green
+      title: Governança do retrabalho controlado (página)
+      desc: 'Página de referência para os métodos de retrabalho de estanquicidade ao ar libertados MC-RW-01 a MC-RW-06 e o workflow de retrabalho controlado em 7 fases.'
+      link: '/pt/factory/quality-inspection'
+      link_label: Ver página
+    - icon: C
+      icon_bg: purple
+      title: Padrão de controlo de alterações de retrabalho (página)
+      desc: 'Controlo formal de alterações ISO 9001 para os parâmetros de retrabalho: ECR, classificação de risco, matriz de libertação, plano de validação e proteções Poka-Yoke — QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/pt/factory/quality-change-control'
+      link_label: Ver página
+
+faqs:
+  tagline: FAQ
+  title: FAQ sobre qualidade & controlo de defeitos para compradores globais
+  items:
+    - q: 'Como garantem que as pranchas retrabalhadas cumprem os padrões de segurança completos?'
+      a: 'Cada prancha retrabalhada é tratada como uma nova unidade e deve percorrer o mesmo ciclo de teste completo do zero — para as reparações de estanquicidade ao ar, um teste de pressão completo de 24h. São os inspetores QC independentes, não os operadores de retrabalho, que conduzem a validação de libertação.'
+    - q: 'A fábrica vai expedir pranchas com ligeiros desvios estéticos sem nos informar?'
+      a: 'Nunca. Cada desvio que afeta golden samples aprovados pelo cliente, gráficas de logótipo, variantes de cor ou embalagem exige um acordo formal de concessão escrito, assinado pelo cliente, antes da libertação para envio.'
+    - q: 'O que acontece se uma prancha retrabalhada não passar na nova verificação?'
+      a: 'A prancha não é libertada. Volta a uma nova avaliação de disposição e, se não puder ser levada à conformidade, é substituída, rejeitada ou destruída sob o protocolo de refugo assistido. A reprovação repetida da mesma classe de defeito ativa uma CAPA para a análise de causas.'
+    - q: 'As pranchas defeituosas podem ser vendidas como artigos de segunda escolha ou através de outros canais?'
+      a: 'Não. As pranchas não reparáveis e fora de especificação são destruídas fisicamente sob o protocolo de refugo assistido — encaixes cortados, núcleo e rails secionados, vídeo registado com hash SHA-256 e arquivado durante pelo menos 5 anos. O certificado de refugo & destruição é assinado pelo QA Director e pelo chefe de fábrica.'
+    - q: 'Como é avaliado o âmbito afetado quando é encontrado um defeito?'
+      a: 'O âmbito é examinado quanto à identificação do produto, partida de produção, partida de material ou componente, fase de processo e revisão documental aplicável. Se o mesmo lote de material, a mesma revisão gráfica ou a mesma estação de trabalho estiver envolvido, os produtos afetados são incluídos e inspecionados em conformidade.'
+    - q: 'O vosso consentimento é necessário antes de conceder uma concessão?'
+      a: 'Sim. Cada aceitação sob concessão documentada que afeta os requisitos do cliente — amostras libertadas, especificação, gráficas, embalagem ou critérios de aceitação — exige a libertação escrita do cliente antes da liberação. Sem ela, o produto é retrabalhado, substituído ou rejeitado segundo o requisito original.'
+    - q: 'Que documentação recebemos para uma não conformidade?'
+      a: 'O registo NCR inclui o número NCR, a fase de deteção, o produto/SKU, a partida, as revisões documentais aplicáveis, a descrição do defeito, a contenção, a disposição, a referência da instrução de retrabalho, o resultado da nova verificação e a libertação ou encerramento final — disponível segundo o teu acordo de qualidade do projeto.'
+
+cta:
+  title: Os problemas de qualidade são geridos através de um processo controlado
+  desc: 'Partilha os teus requisitos de qualidade, inspeção ou documentação específicos do projeto durante o pedido — podemos verificar os pontos de controlo aplicáveis antes do desenvolvimento da amostra ou do planeamento da produção.'
+  actions:
+    - text: Discutir os requisitos de qualidade
+      variant: primary
+      href: /contact
+    - text: Descarregar a SOP de controlo NCP (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Descarregar o certificado de refugo (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

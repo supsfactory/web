@@ -1,0 +1,477 @@
+meta:
+  title: 'Padrões de inspeção de qualidade para SUP personalizados | Fábrica OEM | SUPsfactory'
+  description: 'Produção OEM de SUP insufláveis: inspeção de materiais, produção, ensaio, embalagem e rastreabilidade, com controlo do reprocessamento de estanquidade ao ar segundo ISO 9001.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'fabricante sup insufláveis'
+    - 'fábrica sup oem'
+    - 'fabricante de pranchas de paddle personalizadas'
+    - 'inspeção de qualidade sup'
+    - 'processo de produção sup'
+    - 'fabricante sup marca própria'
+
+hero:
+  tagline: Inspeção & garantia de qualidade
+  title: Controlo de qualidade para SUP insufláveis personalizados
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD. aplica critérios de inspeção específicos por projeto em toda a preparação de materiais, construção da prancha, prova final de insuflagem, embalagem e libertação para expedição. Os requisitos de qualidade são geridos dinamicamente com base na amostra libertada, na especificação técnica, na prova de arte, na lista de materiais (BOM) e nos padrões de embalagem acordados para cada encomenda OEM/ODM.'
+  actions:
+    - text: Descarregar o pacote de garantia de qualidade
+      variant: primary
+      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+    - text: Descarregar um pacote de qualidade de exemplo (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Pedir informações de qualidade OEM
+      href: /contact
+
+answer:
+  label: 'Resposta clara'
+  text: 'QINGDAO VATRAD GROUP.,LTD. controla a qualidade dos SUP insufláveis através de um sistema de verificação em 4 fases: controlo de entrada de mercadorias (IQC), controlo de qualidade de processo (IPQC), verificação final da prancha e de insuflagem (FQC) e pré-liberação de embalagem e expedição (OQC). Cada encomenda é verificada contra a amostra libertada, a especificação técnica, a prova de arte, a BOM e os padrões de embalagem — incluindo a verificação de estanquidade ao ar, os controlos visuais e dimensionais, a confirmação dos acessórios e a rastreabilidade dos lotes. As unidades que não cumprem os critérios de aceitação são bloqueadas ou colocadas em quarentena de forma controlada, reprocessadas exclusivamente segundo instruções libertadas e novamente verificadas antes da libertação autorizada.'
+  verified: 'September 2026'
+
+intro: 'O nosso sistema de qualidade é construído para projetos OEM/ODM: os critérios de inspeção são definidos, documentados e seguidos por encomenda pela equipa de produção e qualidade, desde a entrada de mercadorias até à embalagem. Assim, a expectativa de qualidade mantém-se alinhada entre a fábrica e a vossa marca, desde a primeira amostra até às entregas completas em contentor.'
+
+scope_note:
+  tagline: Âmbito
+  title: Critérios de inspeção específicos por projeto
+  body: |
+    As especificações de qualidade podem variar consoante a construção da prancha (ex. de uma/duas camadas, drop-stitch em tecido, rail colado), o uso previsto, as normas do mercado de destino e os parâmetros aprovados pelo cliente. A libertação final baseia-se rigorosamente nos critérios de inspeção documentados acordados para a encomenda.
+
+stages:
+  tagline: Quadro de qualidade
+  title: O nosso sistema de verificação de qualidade em 4 fases
+  subtitle: Um ciclo QC completo desde a entrada das matérias-primas até à libertação para expedição.
+  steps:
+    - title: '1. Controlo de entrada de mercadorias (IQC)'
+      desc: 'Os materiais principais e os componentes comprados são verificados contra as especificações libertadas e as amostras de referência antes de entrarem na linha de produção. O material drop-stitch e o PVC são verificados quanto à identificação do material, lote do fornecedor, peso/densidade, espessura, correspondência de cor contra as amostras libertadas e defeitos de superfície. Os pads de tração de EVA são controlados quanto ao motivo, cor, espessura, precisão de corte e compatibilidade do adesivo. Válvulas e acessórios passam em testes funcionais, de rosca, de integridade do vedante e de encaixe. Acessórios e embalagem (bombas, pás, aletas, leashes, bolsas, cartões) são comparados quanto a quantidade, cor, marca, precisão do código de barras e versão da arte contra a BOM libertada.'
+    - title: '2. Controlo de qualidade de processo (IPQC)'
+      desc: 'As fases críticas de produção são inspecionadas para identificar não conformidades antes de as pranchas chegarem às estações a jusante. O corte e a impressão são verificados quanto às dimensões dos painéis, layout da arte, orientação em espelho e limpeza das bordas contra os desenhos técnicos libertados. A montagem da prancha e a colagem do rail são controladas quanto à simetria do casco, continuidade da sobreposição das costuras e ausência de vazios ou bolhas de ar nas áreas altamente solicitadas. A fixação de válvulas e acessórios, as gráficas e a marca são verificadas quanto a posição, orientação, cobertura do adesivo, grafismo do logótipo e versão da arte.'
+    - title: '3. Verificação final da prancha & de insuflagem (FQC)'
+      desc: 'As pranchas concluídas passam por testes físicos e estruturais vinculativos antes da libertação para embalagem. As pranchas são insufladas e mantidas à pressão de prova libertada para o projeto a fim de verificar a rigidez estrutural e a estabilidade da pressão. As verificações de estanquidade ao ar cobrem o alojamento da válvula, as costuras dos rails, os cones de proa/popa e as juntas de tensão através de métodos calibrados de deteção de fugas (monitorização da queda de pressão ou teste de bolhas). A inspeção estética e dimensional verifica as dimensões, o perfil rocker e o alinhamento do pad de EVA (tolerância ±2 mm) em condições de luz diurna padrão.'
+    - title: '4. Embalagem & pré-liberação de expedição (OQC)'
+      desc: 'A pré-verificação de expedição completa garante uma correspondência de configuração SKU e marcações de expedição com zero desvios. O controlo de completude do kit compara prancha, aleta, leash, pá, bomba, bolsa, kit de reparação e manual de instruções contra a BOM da encomenda. Os controlos de embalagem e código de barras verificam as marcações do cartão, as etiquetas SKU, a legibilidade do código de barras, o idioma do manual e a integridade estrutural do cartão. As encomendas só são libertadas após o controlo de embalagem final assinado pelo pessoal de qualidade autorizado.'
+
+inspection_points:
+  tagline: Cobertura da inspeção
+  title: Pontos de controlo de inspeção principais
+  subtitle: Cada ponto de controlo é executado contra critérios de aceitação documentados e acordados por encomenda.
+  features:
+    - icon: A
+      icon_bg: blue
+      title: Verificação de estanquidade ao ar
+      desc: 'As pranchas concluídas são insufladas à pressão de prova libertada e controladas quanto à manutenção da pressão, estado da base da válvula, costuras dos rails, zonas de proa e popa e pontos altamente solicitados. Onde a procedimento de inspeção o previr, as áreas de suspeita de fuga são examinadas com os métodos de deteção libertados.'
+    - icon: B
+      icon_bg: green
+      title: Controlo visual & dimensional
+      desc: 'As pranchas são controladas com iluminação adequada quanto ao estado da superfície do material, erros de impressão, diferenças cromáticas, alinhamento do EVA, dobras, riscos, impurezas e aspeto da colagem. As dimensões-chave e as posições dos acessórios são verificadas contra os desenhos ou as especificações libertadas.'
+    - icon: C
+      icon_bg: purple
+      title: Verificação de acessórios & embalagem
+      desc: 'Antes da expedição é verificada a configuração completa do produto: modelo de prancha, sistema de aletas, pá, bomba, leash, bolsa de transporte, kit de reparação, manual de instruções e acessórios personalizados — cada um comparado contra a amostra libertada, os desenhos e a BOM.'
+    - icon: D
+      icon_bg: orange
+      title: Embalagem & libertação para expedição
+      desc: 'As unidades embaladas são controladas quanto à configuração SKU, completude dos acessórios, etiquetas de produto, informações do código de barras, versão do manual de instruções, marcação do cartão, quantidade de embalagem e estado do cartão. A libertação para expedição é autorizada apenas após o cumprimento de todos os requisitos de inspeção e embalagem.'
+
+traceability_intro:
+  tagline: Rastreabilidade de lotes
+  title: Sistema de rastreabilidade de projeto & lotes
+  body: |
+    Cada encomenda de SUP personalizado é gerida sob um código de projeto unificado que liga especificações técnicas, BOM libertada, revisões de arte, números de lote de material, referências de embalagem e registos de inspeção. Os registos de produção e inspeção são mantidos por projeto e lote de produção aplicáveis, e cada lote pode ser reconduzido à especificação de produto libertada, BOM, arte e referências de embalagem.
+
+    Isto apoia a verificação eficiente da configuração do produto, do estado de inspeção e do âmbito afetado caso seja levantada uma preocupação de qualidade — do produto acabado aos registos de origem através da identificação da prancha ou do cartão.
+
+traceability_chain:
+  tagline: Cadeia de rastreabilidade
+  title: Do código de projeto à libertação para expedição
+  subtitle: Uma cadeia de referências controladas desde a confirmação da encomenda até à expedição autorizada.
+  steps:
+    - step: '01'
+      title: Código de projeto
+      desc: Referência de projeto unificada que liga cada documento controlado à encomenda.
+    - step: '02'
+      title: Revisões documentais
+      desc: Níveis de revisão correntes da especificação, BOM, arte e embalagem — apenas as versões libertadas são válidas para a produção.
+    - step: '03'
+      title: Lote & materiais
+      desc: Os lotes de material e componentes são registados contra o lote de produção.
+    - step: '04'
+      title: Registos de inspeção
+      desc: Resultados de inspeção IQC, de processo, de estanquidade ao ar, finais e de embalagem por lote.
+    - step: '05'
+      title: Embalagem & libertação
+      desc: Lote de embalagem, estado de fecho da NCR e vista geral da libertação para expedição autorizada.
+
+traceability_sample:
+  tagline: Exemplo anonimizado
+  title: Registo de controlo da rastreabilidade (Demo)
+  body: |
+    Os valores demonstrativos servem apenas para ilustração — o nome do cliente, os números de encomenda, a arte personalizada, os dados do fornecedor e as informações comerciais foram removidos para salvaguarda da confidencialidade.
+
+    - **Fabricante:** QINGDAO VATRAD GROUP, LTD.
+    - **Código de projeto:** DEMO-SUP-2026-01
+    - **Referência SKU:** DEMO-TR-126
+    - **Lote de produção:** BATCH-AUG-01
+    - **Especificação / BOM / Revisão de arte:** Rev B / Rev C / Rev B
+    - **Registo de estanquidade ao ar:** PASS —conservado por lote
+    - **Estado de inspeção:** PASS
+    - **Estado de expedição:** LIBERTADO
+
+quarantine_intro:
+  tagline: Controlo de não conformidade
+  title: Controlo de produtos não conformes & quarentena
+  body: |
+    Os produtos ou componentes que não cumprem os critérios de aceitação definidos são claramente marcados e bloqueados ou colocados em quarentena de forma controlada. Podem avançar para a fase de produção seguinte, para a embalagem ou para a expedição apenas após a conclusão de uma disposição autorizada. O reprocessamento ocorre segundo instruções libertadas e está ligado ao respetivo relatório de não conformidade; as unidades reprocessadas são novamente verificadas contra os requisitos de projeto aplicáveis antes da libertação de qualidade.
+
+quarantine_flow:
+  tagline: Fluxo de controlo em 7 fases
+  title: O que acontece quando é encontrada uma não conformidade
+  subtitle: Identificar, bloquear, corrigir, verificar — depois libertar ou rejeitar. Os produtos não conformes nunca voltam à produção ou à embalagem sem verificação.
+  steps:
+    - step: '01'
+      title: Identificar
+      desc: A não conformidade é registada contra o produto, a SKU, o lote ou a fase de processo afetados.
+    - step: '02'
+      title: Marcar
+      desc: As unidades afetadas são claramente marcadas com etiquetas de estado controlado —HOLD, em quarentena ou rejeitadas.
+    - step: '03'
+      title: Quarentena
+      desc: As unidades são separadas numa área de quarentena fisicamente controlada ou gerida pelo sistema, para prevenir uso ou expedição involuntários.
+    - step: '04'
+      title: Avaliar o âmbito
+      desc: O âmbito afetado é examinado por lote, fase de processo, lote de material e revisão documental.
+    - step: '05'
+      title: Reprocessar / Substituir
+      desc: Uma correção é permitida apenas através de disposição libertada e instrução de trabalho controlada.
+    - step: '06'
+      title: Verificar novamente
+      desc: As unidades corrigidas são novamente verificadas contra os critérios de aceitação aplicáveis antes da libertação.
+    - step: '07'
+      title: Libertar ou rejeitar
+      desc: Apenas o produto autorizado e conforme chega à embalagem ou à libertação para expedição.
+
+quarantine_evidence:
+  tagline: Na área produtiva
+  title: Controlo & quarentena na prática
+  subtitle: As fotos da nossa oficina de Qingdao mostram como o controlo de estado e os registos de inspeção são aplicados no local.
+  features:
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: SUP insufláveis insuflados na área de teste de estanquidade ao ar da fábrica, monitorizados por um instrumento digital de medição de pressão
+      title: Área de teste de estanquidade ao ar
+      desc: 'As pranchas insufladas são mantidas na área de teste QC sob iluminação industrial; os instrumentos digitais de medição de pressão monitorizam o teste de manutenção de pressão libertado na base da válvula, nas costuras dos rails, na proa e popa e nos pontos altamente solicitados. Os registos são mantidos por lote e ligados ao controlo final.'
+    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Folhas de controlo de qualidade e etiquetas de estado HOLD controladas na estação de inspeção da fábrica
+      title: Estação de bloqueio & quarentena
+      desc: 'Estação de inspeção com folhas de controlo QC e marcação de estado. Cada unidade que não cumpre os critérios de aceitação é etiquetada, protocolada e colocada em quarentena — só pode chegar à embalagem após disposição autorizada e inspeção repetida vinculativa.'
+    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Técnico de QC executa um reprocessamento controlado de estanquidade ao ar num SUP insuflável na estação de reprocessamento da fábrica
+      title: Estação de reprocessamento controlado
+      desc: 'O reprocessamento de estanquidade ao ar é executado numa estação dedicada segundo uma ficha de método libertada: o defeito é marcado, a prancha mantém-se em HOLD e, após o tempo de polimerização exigido, regressa à área de teste para a verificação repetida contra os critérios de aceitação originais.'
+    - image: https://assets.supsfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+      alt: Demonstração em oficina da separação controlada em quarentena na fábrica de Qingdao
+      title: Demonstração da área de quarentena
+      desc: 'Foto demonstrativa da oficina que mostra o funcionamento da separação controlada em quarentena no local: as unidades separadas permanecem sob controlo de estado até à conclusão de uma disposição autorizada.'
+
+rework_intro:
+  tagline: Governação do reprocessamento
+  title: Não conformidade de estanquidade ao ar controlada & governação do reprocessamento
+  body: |
+    Na QINGDAO VATRAD GROUP.,LTD. o reprocessamento é estritamente definido como o restabelecimento de uma unidade não conforme para a plena conformidade com a sua especificação técnica original — não como um remendo rápido. Cada prancha com uma não conformidade de estanquidade ao ar é bloqueada de forma controlada e ligada a um relatório de não conformidade (NCR) antes de qualquer processamento adicional; a fonte da fuga é localizada e registada com o método de diagnóstico libertado.
+
+    O reprocessamento só pode avançar se o defeito estiver dentro do âmbito de reprocessamento libertado e se estiver disponível um método autorizado. A instrução de reprocessamento identifica produto, lote, posição do defeito, material libertado, método, condições exigidas e âmbito da verificação repetida. Após a fase de polimerização ou estabilização exigida, a prancha é novamente verificada contra os mesmos critérios de aceitação aplicáveis de uma prancha conforme — o reprocessamento nunca baixa o padrão de aceitação. Se a verificação repetida falhar, é exigida uma nova disposição de engenharia e qualidade; o reprocessamento repetido não é permitido sem libertação documentada.
+
+rework_decision:
+  tagline: Fluxo interativo
+  title: Fluxo de decisão do reprocessamento — clica em cada nó
+  subtitle: Segue como uma não conformidade de estanquidade ao ar é gerida da deteção à libertação ou ao sucatamento. Clica num nó para expandir os requisitos de controlo nesse passo.
+  nodes:
+    - id: detect
+      type: start
+      label: Fuga detetada
+      detail: 'Durante a inspeção é encontrada uma não conformidade de estanquidade ao ar — erro de manutenção de pressão, fuga visível ou um erro relacionado do sistema de ar.'
+    - id: hold
+      type: step
+      label: Parar a linha · etiqueta HOLD · NCR
+      detail: 'O processamento é parado. ID da prancha, código do produto, lote, estação de trabalho, data e inspetor são registados; é aplicada uma etiqueta HOLD / quarentena e é aberta uma NCR contra a revisão de especificação aplicável.'
+    - id: locate
+      type: step
+      label: Localizar a fonte da fuga
+      detail: 'A prancha é insuflada à pressão de diagnóstico libertada para o projeto e a fonte é localizada com um método libertado — manutenção de pressão, teste de bolhas calibrado, dispositivo acústico ou de deteção de fugas.'
+    - id: classify
+      type: step
+      label: Classificar o defeito (A–G)
+      detail: 'O defeito é classificado contra a matriz de libertação: A interface da válvula, B costura da base da válvula, C furo de agulha superficial, D costura local do rail, E dano extenso no rail, F fuga recorrente, G dano estrutural.'
+    - id: authorize
+      type: decision
+      label: Reprocessamento autorizado?
+      yes: rework
+      no: escalate
+      detail: 'O QC confirma a categoria do defeito e a engenharia verifica se a prancha pode ser devolvida à sua especificação original. A autorização documenta ficha de método, materiais, condições e âmbito da verificação repetida — ou leva a substituição, rejeição, sucatamento ou concessão ao cliente.'
+    - id: rework
+      type: step
+      label: Reprocessamento controlado
+      detail: 'Executado exclusivamente dentro do limite de defeito libertado usando a ficha de método, o lote de material e as ferramentas libertadas — sem nunca alterar dimensões, construção, gráficas, acessórios ou requisitos de embalagem.'
+    - id: cure
+      type: step
+      label: Polimerização & estabilização
+      detail: 'A prancha permanece em HOLD durante a fase de polimerização e estabilização definida pela instrução de material e processo libertada e, em seguida, recebe uma pré-verificação visual e de acabamento.'
+    - id: reinspect
+      type: decision
+      label: Verificação repetida superada?
+      yes: release
+      no: escalate
+      detail: 'A prancha é insuflada à pressão de verificação repetida libertada para o projeto e o defeito original juntamente com todas as características potencialmente afetadas são novamente verificados — ponto de fuga, válvula, rail, costuras, áreas altamente solicitadas, acessórios e aspeto. O reprocessamento nunca baixa o padrão de aceitação.'
+    - id: release
+      type: release
+      label: Libertação de qualidade
+      detail: 'A Qualidade verifica a NCR fechada, o registo de reprocessamento e o resultado da verificação repetida e autoriza a libertação. Nenhuma prancha reprocessada é embalada ou expedida sem libertação de qualidade autorizada.'
+    - id: escalate
+      type: escalate
+      label: Escalada — substituir / sucatar / concessão
+      detail: 'Sem reprocessamento repetido sem libertação documentada. A prancha é substituída, rejeitada, sucatada ou é oferecida ao cliente uma concessão escrita se a especificação original não puder ser restabelecida.'
+
+defect_matrix:
+  tagline: Classificação de defeitos
+  title: Classificação de defeitos de estanquidade ao ar & matriz de libertação
+  subtitle: Nem toda a fuga é reprocessada — cada defeito é classificado e a sua disposição é libertada ao nível certo, do inspetor QC ao diretor da fábrica.
+  headers:
+    category: Categoria de defeito
+    area: Área típica
+    eligibility: Idoneidade para reprocessamento
+    approval: Libertação exigida
+  rows:
+    - category: 'Classe A — Interface da válvula'
+      area: 'Núcleo da válvula, vedante da tampa, estanquidade, interface da bomba'
+      eligibility: 'Reprocessamento padrão autorizado'
+      approval: 'Inspetor QC'
+    - category: 'Classe B — Costura da base da válvula'
+      area: 'Micro-fuga ao longo da borda da válvula'
+      eligibility: 'Reprocessamento avaliado segundo a ficha de método libertada'
+      approval: 'QC + Engenharia'
+    - category: 'Classe C — Furo de agulha superficial'
+      area: 'Micro furo de agulha local numa superfície não solicitada'
+      eligibility: 'Autorizado apenas se conforme as especificações do cliente'
+      approval: 'QC + Engenharia'
+    - category: 'Classe D — Costura local do rail'
+      area: 'Fuga local de sobreposição na banda do rail'
+      eligibility: 'Risco elevado; disposição de engenharia rigorosa exigida'
+      approval: 'Engenharia + Chefe de QA'
+    - category: 'Classe E — Dano extenso no rail'
+      area: 'Falha contínua da costura em zonas altamente solicitadas'
+      eligibility: 'Reprocessamento padrão não autorizado — substituição ou verificação da causa raiz'
+      approval: 'Chefe de QA + concessão do cliente'
+    - category: 'Classe F — Fuga recorrente'
+      area: 'Fuga não localizável ou erro no novo teste'
+      eligibility: 'Sem reprocessamento repetido; substituição, sucatamento ou análise de engenharia da causa raiz'
+      approval: 'QA / Engenharia sénior'
+    - category: 'Classe G — Dano estrutural'
+      area: 'Dano no material, deslaminação, deformação da prancha'
+      eligibility: 'Libertação de reprocessamento não autorizada — substituição, sucatamento ou concessão escrita do cliente'
+      approval: 'Quality Manager + libertação do cliente'
+
+rework_flow:
+  tagline: Ciclo fechado em 7 fases
+  title: Workflow de reprocessamento controlado — da deteção à libertação ou ao sucatamento
+  subtitle: 'Cada reprocessamento de estanquidade ao ar segue o mesmo ciclo controlado: detetar, colocar em quarentena, diagnosticar, autorizar, reprocessar, verificar novamente, libertar.'
+  steps:
+    - step: '01'
+      title: Deteção, paragem de linha & quarentena
+      desc: 'O processamento da prancha afetada para imediatamente. ID da prancha, código do produto, lote, estação de trabalho, data e inspetor são registados, é aplicada uma etiqueta HOLD / quarentena e é aberta uma NCR contra a revisão de especificação aplicável.'
+    - step: '02'
+      title: Diagnóstico sistemático da fuga
+      desc: 'A prancha é insuflada à pressão de diagnóstico libertada para o projeto e a fonte da fuga é localizada com um método libertado — manutenção de pressão, teste de bolhas calibrado, dispositivo acústico ou de deteção de fugas. O ponto suspeito é marcado sem danificar a prancha.'
+    - step: '03'
+      title: Disposição de engenharia & autorização
+      desc: 'O QC confirma a categoria do defeito e a engenharia verifica se a prancha pode ser devolvida à sua especificação original. Uma autorização de reprocessamento que referencia a NCR documenta método libertado, materiais, condições e âmbito da verificação repetida — ou atribui substituição, rejeição, sucatamento ou concessão ao cliente.'
+    - step: '04'
+      title: Execução controlada do reprocessamento
+      desc: 'O reprocessamento é executado exclusivamente dentro do limite de defeito libertado com a ficha de método, o lote de material e as ferramentas libertadas. Dimensões da prancha, construção, gráficas, configuração de acessórios e requisitos de embalagem nunca são alterados.'
+    - step: '05'
+      title: Polimerização, estabilização & pré-verificação
+      desc: 'A prancha reprocessada permanece em estado HOLD durante a fase de polimerização e estabilização definida pela instrução de material e processo libertada e recebe uma pré-verificação visual e de acabamento antes da verificação repetida.'
+    - step: '06'
+      title: Verificação repetida & teste de prova
+      desc: 'A prancha é insuflada à pressão de verificação repetida libertada para o projeto e o defeito original juntamente com todas as características potencialmente afetadas são novamente verificados: ponto de fuga e zona circundante, válvula, rail, costuras, áreas altamente solicitadas, acessórios e aspeto. O reprocessamento nunca baixa o padrão de aceitação.'
+    - step: '07'
+      title: Libertação de QA ou disposição final
+      desc: 'A Qualidade verifica a NCR fechada, o registo de reprocessamento e o resultado da verificação repetida e, em seguida, autoriza a libertação — ou escala para substituição, rejeição, sucatamento ou concessão ao cliente. Nenhuma prancha reprocessada é embalada ou expedida sem libertação de qualidade autorizada.'
+
+quality_safeguards:
+  tagline: Garantias de qualidade
+  title: Regras anti-erro que protegem a vossa marca
+  subtitle: Controlos rígidos que previnem ciclos de reparação não controlados — um reprocessamento documentado por defeito, limiares de alarme nos lotes, instrumentos de medição calibrados e condições de teste controladas.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Um reprocessamento por defeito
+      desc: 'Um único ponto pode ser reprocessado uma vez sob uma instrução autorizada. Se a verificação repetida continuar a falhar, a prancha é escalada para substituição, rejeição, sucatamento ou concessão ao cliente — o reprocessamento repetido sem libertação documentada não é permitido.'
+    - icon: 2
+      icon_bg: green
+      title: Alarme de lote & paragem de linha
+      desc: 'Se a não conformidade de um lote de produção exceder o limiar fixado pela engenharia, a linha é parada e a engenharia investiga a causa — lote de material, condições de processo e registos — antes de retomar a produção.'
+    - icon: 3
+      icon_bg: purple
+      title: Instrumentos de medição calibrados
+      desc: 'Os instrumentos de medição de pressão, os manómetros digitais e os cronómetros para as provas de estanquidade ao ar são verificados e calibrados por laboratórios terceiros dentro do seu período de validade; o estado de calibração é visível na área de inspeção.'
+    - icon: 4
+      icon_bg: orange
+      title: Condições de teste controladas
+      desc: 'As áreas de teste de estanquidade ao ar e de polimerização são mantidas num ambiente controlado, para que os resultados não sejam influenciados pelas flutuações de temperatura entre o dia e a noite.'
+
+rework_boundaries:
+  tagline: Âmbito & limites
+  title: O que este sistema não cobre
+  body: |
+    O sistema de controlo do reprocessamento aplica-se aos SUP insufláveis acabados ou em produção em que sejam detetadas fugas de ar, erros de manutenção de pressão ou erros relacionados do sistema de ar antes da libertação para expedição. Não autoriza alterações à construção libertada, materiais, gráficas, configuração de produto ou requisitos do cliente e não cobre:
+
+    - Produtos já expedidos ou presentes nos sistemas dos clientes.
+    - Danos estruturais ou deformações da prancha não avaliados pela engenharia.
+    - Defeitos extensos de rail ou costuras, danos no material do núcleo ou defeitos que possam comprometer a segurança.
+    - Projetos em que o reprocessamento não é permitido: amostras aprovadas pelo cliente, unidades de certificação ou teste.
+    - Projetos com processos proprietários do cliente, materiais especiais ou requisitos de reparação particulares.
+    - Fugas recorrentes que não podem ser localizadas, ou pranchas que falham novamente após o reprocessamento.
+
+    Cada desvio das especificações do cliente exige uma verificação de engenharia documentada e, quando aplicável, a libertação escrita do cliente. As pranchas que não podem ser devolvidas à sua especificação original são libertadas apenas sob uma concessão expressa do cliente — nunca apenas pela produção.
+
+method_cards:
+  tagline: Sistema de fichas de método
+  title: Índice das fichas de método de reprocessamento controladas
+  subtitle: 'A instrução geral controla o processo; as fichas de método controlam a execução. A instrução de reprocessamento (WI-QC-AT-001) referencia as fichas de método MC-RW-01 a MC-RW-06, além de MC-RW-00 para o sucatamento e a rejeição vinculativos.'
+  headers:
+    code: Ficha de método
+    defect: Classe de defeito
+    scope: Âmbito de aplicação
+    controls: Controlos de engenharia principais
+    approval: Autoridade de assinatura
+  rows:
+    - code: MC-RW-01
+      defect: Classe A (interface da válvula)
+      scope: 'Manutenção do núcleo da válvula, limpeza do vedante e remontagem'
+      controls: 'Chave dinamométrica calibrada, sede do vedante limpa, sem danos na rosca da válvula'
+      approval: 'Inspetor QC'
+    - code: MC-RW-02
+      defect: Classe B (circunferência da válvula)
+      scope: 'Selagem da flange da base da válvula e aperto controlado'
+      controls: 'Preparação superficial controlada, material adesivo libertado, dispositivo de pressão circular'
+      approval: 'QC + Engenharia'
+    - code: MC-RW-03
+      defect: Classe C (micro-fuga superficial)
+      scope: 'Selagem de furos de agulha não estruturais'
+      controls: 'Adesivo bicomponente libertado, sem transbordo sobre gráficas ou EVA'
+      approval: 'QC + Engenharia'
+    - code: MC-RW-04
+      defect: Classe D (costura local do rail)
+      scope: 'Recolagem de costuras locais de sobreposição do rail'
+      controls: 'Ativação a quente a temperatura controlada, rolo de pressão, dispositivo anti-encrespamento'
+      approval: 'Engenharia + Chefe de QA'
+    - code: MC-RW-05
+      defect: Classe B/C (borda de acessórios)
+      scope: 'Reparação da fin box e selagem da base de montagem de acessórios'
+      controls: 'Primer de adesão superficial, bloco de aperto moldado, tempo de manutenção definido'
+      approval: 'QC + Engenharia'
+    - code: MC-RW-06
+      defect: Classe D (costura de proa/popa)
+      scope: 'Intervenção nas costuras curvas altamente solicitadas'
+      controls: 'Material adesivo de alta resistência ao corte libertado, tempo de polimerização prolongado antes do novo teste'
+      approval: 'Engenheiro-chefe'
+    - code: MC-RW-00
+      defect: Classe E/F/G (crítico / rutura)
+      scope: 'Sucatamento e destruição física vinculativos'
+      controls: 'Corte físico para prevenir a mistura, protocolo de sucatamento, verificação interfuncional da causa raiz'
+      approval: 'Diretor da fábrica'
+
+inspector_friendly:
+  tagline: Inspeção de terceiros
+  title: Protocolo à medida do inspetor
+  body: |
+    Fornecemos uma área de inspeção dedicada com instrumentos de medição de pressão calibrados, mesas de luz padronizadas para a verificação de costuras e gráficas e briefs de inspeção pré-preenchidos, para que as organizações terceiras (SGS, BV, Intertek, QIMA) possam executar a sua inspeção pré-embarque de forma eficiente — isto poupa-vos overhead de inspeção.
+
+    Cada brief resume as revisões documentais aplicáveis, a referência da amostra libertada, os controlos de relevância crítica para a qualidade, o nível de amostragem acordado, os testes funcionais e os requisitos de embalagem e código de barras para a PO. Quantidades especificadas, qualidade, embalagem e aspetos de segurança fundamentais são verificados contra as referências de projeto libertadas — sem procuras desesperadas de documentos no local.
+
+document_pack:
+  tagline: Pacote de documentação de qualidade
+  title: Descarregar o pacote de qualidade de exemplo & os templates de protocolo
+  subtitle: 'Templates padronizadas e controladas para projetos OEM/ODM — estruturadas como registo documental 00–15 (índice de projeto, especificação libertada, BOM, referências de arte & embalagem, QIP, registos de inspeção, NCR, controlo de alterações, brief de terceiros, vista geral de libertação).'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: Pacote de documentação de qualidade (PDF)
+      desc: 'Estrutura documental completa e controlada 00–15: índice de projeto, especificação, BOM, referências de arte e embalagem, plano de inspeção de qualidade (QIP), registos de inspeção, NCR, controlo de alterações, brief de terceiros e vista geral de pré-liberação para expedição.'
+      link: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link_label: Descarregar PDF
+    - icon: T
+      icon_bg: green
+      title: Brief de inspeção de terceiros (PDF)
+      desc: 'Brief de uma página para inspetores SGS / BV / Intertek / QIMA: quantidade de encomenda, nível de amostragem AQL, revisões aplicáveis e controlos de relevância crítica para a qualidade, incluindo a verificação do registo de estanquidade ao ar, teste de manutenção de pressão, completude do kit, leitura do código de barras e teste de queda do cartão.'
+      link: 'https://assets.supsfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link_label: Descarregar PDF
+    - icon: C
+      icon_bg: purple
+      title: Protocolo de controlo de alterações (PDF)
+      desc: 'Protocolo de controlo de alterações para revisões de arte, BOM aprovada pelo cliente e marcações dos cartões — com vista geral da alteração, motivo, avaliação do impacto, estado da libertação do cliente, lote eficaz e retirada dos documentos obsoletos.'
+      link: 'https://assets.supsfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link_label: Descarregar PDF
+    - icon: R
+      icon_bg: orange
+      title: Vista geral de pré-liberação para expedição (PDF)
+      desc: 'Assinatura de libertação de uma página: verificação dos gates de qualidade (IQC, IPQC, estanquidade ao ar, controlo final, embalagem), estado de NCR aberta e decisão de libertação autorizada assinada pela Qualidade e pelas Operações.'
+      link: 'https://assets.supsfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link_label: Descarregar PDF
+    - icon: W
+      icon_bg: blue
+      title: Instrução de reprocessamento de estanquidade ao ar (PDF)
+      desc: 'Instrução de trabalho controlada WI-QC-AT-001 Rev A: âmbito e limites, classificação de defeitos, NCR e autorização de reprocessamento, execução controlada, polimerização, verificação repetida e libertação para SUP insufláveis.'
+      link: 'https://assets.supsfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link_label: Descarregar PDF
+    - icon: M
+      icon_bg: green
+      title: Índice das fichas de método (PDF)
+      desc: 'Documento controlado SOP-QC-AT-IDX-001 Rev A: o sistema numerado de fichas de método MC-RW-01 a MC-RW-06, além de MC-RW-00 para sucatamento e rejeição, ligado à instrução de reprocessamento de estanquidade ao ar.'
+      link: 'https://assets.supsfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link_label: Descarregar PDF
+    - icon: V
+      icon_bg: orange
+      title: Padrão de controlo de alterações para reprocessamento (página)
+      desc: 'Controlo formal de alterações ISO 9001 para os parâmetros de reprocessamento: ECR, classificação de risco, matriz de libertação interfuncional, ciclo fechado em 9 fases, validação técnica quantificada e proteções Poka-Yoke — com SOP bilingue QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/pt/factory/quality-change-control'
+      link_label: Ver página
+    - icon: N
+      icon_bg: blue
+      title: Controlo de produtos não conformes (página)
+      desc: 'ISO 9001:2015 secção 8.7 Controlo de produtos não conformes: registo de NCR, quarentena, autoridade de disposição com base na gravidade, reprocessamento controlado sob SRI, inspeção repetida independente e destruição atestada, protegida com SHA-256 — com download da SOP bilingue e do certificado de sucatamento.'
+      link: '/pt/factory/non-conforming-control'
+      link_label: Ver página
+
+faqs:
+  tagline: FAQ
+  title: Perguntas frequentes sobre o controlo de qualidade SUP
+  items:
+    - q: 'Como controla a QINGDAO VATRAD GROUP.,LTD. a qualidade dos SUP insufláveis?'
+      a: 'A qualidade é controlada através de inspeção de entrada de mercadorias, pontos de controlo do processo de produção, verificação final do produto, inspeção da embalagem e rastreabilidade da produção — cada uma executada contra amostras, especificações e critérios de inspeção libertados para o projeto.'
+    - q: 'Que controlos de qualidade são executados durante a produção SUP?'
+      a: 'As inspeções incluem verificação dos materiais, controlos de corte e impressão, inspeção da construção das pranchas, verificação da instalação das válvulas, inspeção dos acessórios, teste de estanquidade ao ar, inspeção do aspeto e verificação da embalagem.'
+    - q: 'Os clientes OEM podem pedir os registos de inspeção SUP?'
+      a: 'Sim. Registos de inspeção e documentação de qualidade podem ser fornecidos com base nos requisitos do projeto e nos acordos de qualidade com o cliente, incluindo os relatórios das inspeções pré-embarque por amostragem.'
+    - q: 'Como garante a fábrica uma qualidade de produção OEM consistente?'
+      a: 'A consistência da produção é mantida através de amostras libertadas, especificações técnicas, pontos de controlo de fabrico, procedimentos de inspeção e processos de controlo de qualidade documentados, ligados a cada encomenda.'
+    - q: 'Posso organizar uma inspeção de terceiros com SGS, BV, Intertek ou QIMA?'
+      a: 'Sim. Acolhemos os inspetores de terceiros com uma área de inspeção dedicada, instrumentos de medição de pressão calibrados, briefs de inspeção pré-preenchidos e registos acessíveis. Partilhem a vossa especificação, a amostra libertada, a arte, os requisitos de embalagem e os critérios de defeito — ou usem o nosso template de brief de inspeção de terceiros.'
+    - q: 'Como são geridas as alterações de arte, BOM ou embalagem durante a produção?'
+      a: 'As alterações são registadas no nosso protocolo de controlo de alterações, incluindo a revisão documental afetada, a vista geral da alteração, o motivo, a avaliação do impacto, o estado da libertação do cliente e o lote eficaz. As versões obsoletas são retiradas, para que a produção e a inspeção usem sempre os documentos libertados correntes.'
+    - q: 'A fábrica apoia projetos de SUP insufláveis personalizados?'
+      a: 'Sim. Os projetos OEM/ODM personalizados de SUP insufláveis são apoiados com base nas especificações do cliente, nos requisitos de arte, nas configurações de acessórios e nas necessidades de embalagem, com critérios de inspeção específicos por projeto acordados antes da produção.'
+    - q: 'Um SUP com fugas pode ser reprocessado em fábrica?'
+      a: 'Sim — em condições controladas. A prancha é colocada em HOLD e ligada a uma NCR, a fuga é localizada com um método de diagnóstico libertado e o reprocessamento acontece apenas após autorização de QC/Engenharia e exclusivamente dentro das classes de defeito libertadas para reprocessamento. A prancha é depois novamente verificada contra os mesmos critérios de aceitação de uma prancha conforme antes da libertação.'
+    - q: 'Quantas vezes pode a fábrica reprocessar uma prancha?'
+      a: 'Um único ponto pode ser reprocessado uma vez sob uma instrução autorizada. Se a verificação repetida continuar a falhar, a prancha é escalada para substituição, rejeição, sucatamento ou concessão ao cliente — o reprocessamento repetido sem libertação documentada não é permitido.'
+
+cta:
+  title: Precisam de um exemplo completo de pacote de qualidade de projeto?
+  desc: 'Peçam um pacote de apoio a inspeções de terceiros anonimizado e um plano de inspeção de qualidade (QIP) para o vosso projeto OEM/ODM — ou descarreguem os templates de exemplo para verificarem a estrutura documental que podem esperar para a vossa encomenda.'
+  actions:
+    - text: Pedir um controlo de qualidade
+      variant: primary
+      href: /contact
+    - text: Descarregar o pacote de qualidade de exemplo (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Descarregar protocolo QC & checklist PSI
+      href: 'https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

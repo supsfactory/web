@@ -1,0 +1,53 @@
+meta:
+  title: "Certificação de SUP insufláveis — Guia de conformidade CE, REACH, RoHS"
+  description: "Âmbito de certificação para a produção de SUP insufláveis: CE (modelos UE), BSCI, ISO 9001, REACH, RoHS. Números de certificado disponíveis por projeto a pedido."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Resposta direta"
+    directAnswer:
+      answer: "A SUPsfactory possui as certificações BSCI, ISO 9001, ISO 25649, CE, REACH e RoHS. A CE aplica-se aos modelos destinados aos mercados UE — não indiscriminadamente a «todos os produtos»."
+      condition: "O âmbito de certificação varia consoante o mercado de destino e a configuração do produto. Números de certificado, validade e entidades emissoras estão disponíveis por projeto a pedido."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "September 2026"
+      sourceType: "certificate"
+    body: |
+      A certificação é um critério central de aprovisionamento e deve ser declarada com precisão.
+      Afirmações genéricas como "CE em todos os produtos" podem gerar problemas de confiança
+      se o comprador descobrir mais tarde que o âmbito é mais restrito do que o previsto.
+
+  - title: "Detalhes de certificação"
+    body: |
+      | Certificação | Âmbito | Entidade | Aplicável a |
+      |---------------|-------|-----------|------------|
+      | BSCI | Auditoria social | amfori BSCI | Estabelecimento de produção |
+      | ISO 9001 | Sistema de gestão da qualidade | Entidade de certificação (disponível a pedido) | Estabelecimento de produção |
+      | ISO 25649 | Segurança das embarcações insufláveis | ISO | Modelos SUP aplicáveis por mercado |
+      | CE | Conformidade com o mercado UE (EN ISO 6185 / 10087 / 10240) | Organismo notificado UE | Modelos destinados ao mercado UE |
+      | REACH | Segurança química UE | ECHA | Materiais utilizados na produção |
+      | RoHS | Restrição de substâncias perigosas | Diretiva UE | Acessórios eletrónicos (bombas) |
+
+  - title: "Notas importantes sobre o âmbito"
+    body: |
+      - **CE** aplica-se aos modelos configurados para venda no mercado UE. Uma prancha
+        construída para distribuição nos Estados Unidos ou na Austrália apresenta a marcação CE apenas
+        se expressamente solicitada.
+      - **ISO 9001** cobre o sistema de gestão da qualidade do estabelecimento, não a
+        certificação de produto dos artigos individuais.
+      - A conformidade **REACH** cobre os materiais utilizados na produção — a documentação
+        está disponível para os importadores que tenham de registar as substâncias.
+      - Números de certificado, datas de validade e entidades emissoras estão disponíveis por projeto
+        a pedido. Não publicamos os números de certificado publicamente por razões de segurança.
+      - Inspeção de terceiros via SGS, TÜV, BV ou Intertek disponível para cada expedição.
+
+  - title: "Como solicitar os documentos de certificação"
+    body: |
+      Indiquem os vossos mercados de destino durante o processo de solicitação e confirmaremos
+      quais as certificações que se aplicam à vossa configuração específica de produto. Cópias
+      dos certificados (com eventuais dados comerciais ocultados onde necessário) são fornecidas
+      como parte do pacote de documentação do projeto.
+
+evidence_review:
+  tagline: 'Provas & verificação'
+  title: 'ESPECIFICAÇÕES VERIFICADAS'
+  body: 'Todas as declarações de produção desta página são verificadas pela nossa equipa de Manufacturing Engineering no estabelecimento de Laixi, Qingdao. Certificados, registos de inspeção QC, relatórios de prova de pressão e estrutura e registos de rastreabilidade dos lotes estão disponíveis a pedido. Especificações verificadas pela última vez em setembro de 2026.'

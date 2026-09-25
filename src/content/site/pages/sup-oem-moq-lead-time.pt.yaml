@@ -1,0 +1,219 @@
+meta:
+  title: 'MOQ SUP personalizado & prazos de entrega: da amostra aos lotes por contentor'
+  description: 'MOQ SUP personalizado e níveis de entrega: amostras em 7–12 dias, encomendas piloto de 20–50 pranchas, volumes padrão de 90–100+ por rolo de 150 m, produção em 25–35 dias.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'MOQ SUP personalizado'
+    - 'Prazos de produção SUP'
+    - 'Quantidade mínima de encomenda SUP insuflável'
+    - 'Encomenda piloto SUP'
+    - 'Prazos de entrega paddleboard personalizado'
+    - 'Prazos de entrega fábrica SUP OEM'
+    - 'Encomenda de amostras SUP'
+
+hero:
+  tagline: 'MOQ SUP personalizado & prazos de entrega'
+  title: 'Da amostra aos lotes por contentor — MOQ e prazos de entrega explicados de forma clara'
+  subtitle: 'Uma repartição clara dos níveis de quantidade de encomenda e dos prazos de produção para os SUP insufláveis personalizados: o que podes encomendar em cada nível, quanto dura realmente cada nível e como amostra, encomenda piloto e volume se integram num único projeto. Projetado e operado por Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Pede o breakdown do MOQ & prazos de entrega do teu projeto
+      href: /pt/contact#moq-guide
+    - text: O guia MOQ & branding flexível
+      href: /pt/oem-moq-guide
+
+answer:
+  label: 'Resposta breve'
+  text: 'MOQ e prazos de entrega são específicos por projeto, mas o quadro é fixo. Cada projeto SUP personalizado passa pelos mesmos níveis escalonados: desenvolvimento de amostras (1–2 pranchas, prontas em 7–12 dias), encomendas de prova e encomendas piloto (20–50 pranchas) e ciclos de volume padrão (90–100+ pranchas por rolo drop-stitch de 150 m). O tempo de produção é de 25–35 dias a partir da PO confirmada e do sinal; se o teu projeto exigir um casco personalizado, o desenvolvimento do molde acrescenta 15–20 dias antes do início da produção. Um típico primeiro projeto apresenta-se assim: amostras em cerca de 1–2 semanas, pranchas piloto em 4–6 semanas e o primeiro ciclo completo a partir de aproximadamente 6–8 semanas após a confirmação da encomenda.'
+  verified: 'September 2026'
+
+moq_lead_table:
+  tagline: 'O quadro'
+  title: 'Os níveis de MOQ SUP personalizado & prazos de entrega em resumo'
+  subtitle: 'Cada nível valida o seguinte. Nunca se salta diretamente de um design para um contentor: confirmas casco, gráficas e embalagem em cada nível antes de te comprometeres com mais pranchas.'
+  headers:
+    stage: 'Nível de encomenda'
+    quantity: 'Quantidade típica'
+    lead_time: 'Prazo de entrega'
+    best_for: 'Ideal para'
+  rows:
+    - stage: 'Desenvolvimento de amostras'
+      quantity: '1–2 pranchas'
+      lead_time: '7–12 dias'
+      best_for: 'Validação da rigidez do casco, da textura do tapete de tração EVA, da precisão gráfica e do ajuste dos acessórios. Estão previstas despesas de amostras, creditadas na tua encomenda de produção na assinatura do contrato.'
+    - stage: 'Encomenda de prova / encomenda piloto'
+      quantity: '20–50 pranchas'
+      lead_time: '25–35 dias'
+      best_for: 'Testes económicos pré-época, validação de mercado e primeiras vendas utilizando plataformas de casco existentes, materiais de armazém e embalagem simplificada.'
+    - stage: 'Ciclo de volume padrão'
+      quantity: '90–100+ pranchas por rolo de 150 m'
+      lead_time: '25–35 dias'
+      best_for: 'Plena eficiência produtiva em rolos de tecido completos de 150 m — sem emendas de tecido, tensão uniforme das fibras e setup de linha amortizado. Os moldes personalizados rodam neste nível.'
+    - stage: 'Programa alargado'
+      quantity: '300+ pranchas'
+      lead_time: '25–35 dias por lote, envios escalonados'
+      best_for: 'Programas por contentor e frotas sazonais, planificados em vários lotes de produção, para que o teu armazém e o teu cash flow permaneçam geríveis.'
+
+moq_drivers:
+  tagline: 'O que determina a tua MOQ'
+  title: 'Os seis fatores que determinam a tua quantidade mínima'
+  subtitle: 'A MOQ não é um número arbitrário escolhido por uma equipa de vendas. É calculada a partir de toda a arquitetura de produto — estes componentes são avaliados em conjunto antes de preparar a proposta.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Forma do casco & equipamento'
+      desc: 'As formas rocker existentes da fábrica permitem encomendas piloto de 20 pranchas. Um casco personalizado exige ferramentas de corte CAD dedicadas e ferramentas para a prensagem a quente EVA, e o equipamento acrescenta 15–20 dias ao programa.'
+    - icon: C
+      icon_bg: green
+      title: 'Variantes de cor & PVC'
+      desc: 'As cores padrão de armazém rodam em quantidade piloto, enquanto os rolos em PVC tingido em própria produção com cores Pantone exigem ciclos de tingimento químico dedicados com quantidades mínimas de matéria-prima próprias.'
+    - icon: A
+      icon_bg: purple
+      title: 'Design & cobertura de impressão'
+      desc: 'Um logótipo de proa pode ser impresso em serigrafia em pequenos ciclos, enquanto os designs a toda a superfície ou de vários painéis exigem a construção dos clichés de impressão digital e testes de cobertura, aumentando a dimensão prática do lote.'
+    - icon: B
+      icon_bg: orange
+      title: 'Embalagem com a tua marca'
+      desc: 'As caixas-garrafa retail personalizadas de 5 camadas têm o seu próprio problema de tiragem mínima em impressão offset. Se encomendares menos caixas, armazenamos o excedente e libertamo-lo ao longo dos teus envios planificados.'
+    - icon: G
+      icon_bg: blue
+      title: 'Pacotes de acessórios'
+      desc: 'As pás padrão em alumínio ou nylon, as bombas e as bolsas seguem lotes de fornecimento a níveis inferiores. As pás em carbono totalmente com marca e as bombas personalizadas seguem quantidades mínimas de produção próprias.'
+    - icon: S
+      icon_bg: green
+      title: 'Planeamento sazonal & de pagamentos'
+      desc: 'As encomendas inseridas na janela pré-época recebem slots de produção confirmados. Os planos de envio escalonados para programas de 300+ pranchas são confirmados no contrato, não após a produção.'
+
+moq_timeline:
+  tagline: 'Timeline end-to-end'
+  title: 'Do briefing de produto às pranchas enviadas: dia a dia'
+  subtitle: 'A timeline completa para um típico programa SUP personalizado. As plataformas de casco existentes comprimem o lado esquerdo desta timeline; um casco personalizado acrescenta a fase de desenvolvimento do molde.'
+  steps:
+    - step: 'Dia 0'
+      title: 'Envia o teu briefing de produto'
+      desc: 'Modelo da prancha, quantidade-objetivo, variantes de cor, design e requisitos de embalagem. A verificação técnica é concluída num dia útil.'
+    - step: 'Dias 1–2'
+      title: 'Verificação técnica & viabilidade'
+      desc: 'A nossa equipa técnica verifica geometria do casco, materiais e percurso de conformidade e confirma se o projeto se adapta às plataformas existentes ou exige novos moldes.'
+    - step: 'Dias 3–7'
+      title: 'Especificação & proposta detalhada'
+      desc: 'Recebes a especificação completa com cálculo da MOQ, segmentos de entrega e custos detalhados — incluindo eventuais custos do molde — antes de qualquer compromisso.'
+    - step: 'Dias 7–12'
+      title: 'Desenvolvimento de amostras (1–2 pranchas)'
+      desc: 'Amostra física construída e testada: rigidez do casco, textura do tapete de tração EVA, precisão gráfica e ajuste dos acessórios. As despesas de amostras são creditadas na encomenda de produção na aprovação.'
+    - step: '+15–20 dias'
+      title: 'Desenvolvimento de moldes personalizados (apenas cascos personalizados)'
+      desc: 'Apenas para projetos com nova forma de casco: ferramentas de corte CNC, ferramentas para a prensagem a quente EVA e provas do molde são concluídos antes de poder começar a produção em volume.'
+    - step: '25–35 dias'
+      title: 'Produção após PO confirmada & sinal'
+      desc: 'Rolos de tecido completos de 150 m, materiais Pantone, embalagem com a tua marca e montagem a 100 pontos. Cada prancha é submetida a provas de pressão e estanquicidade ao ar de 24 horas.'
+    - step: '300+ pranchas'
+      title: 'Planeamento dos envios escalonados'
+      desc: 'Os programas alargados são enviados em lotes planificados para responder às vendas sazonais, à capacidade de armazenamento e às milestones de pagamento.'
+    - step: 'Dia 0–90'
+      title: 'Horizonte típico da primeira encomenda'
+      desc: 'Do briefing ao primeiro ciclo entregue: cerca de 6–8 semanas com plataformas existentes, 8–12 semanas incluindo o molde personalizado. Os programas multi-rolo e por contentor vão conscientemente além.'
+
+expedite:
+  tagline: 'Manter curto o programa'
+  title: 'O que mantém curtos os prazos de entrega'
+  subtitle: 'Três alavancas permitem-te comprimir o programa sem mudar os fundamentos da física dos rolos.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'As amostras são rápidas para o padrão'
+      desc: 'O desenvolvimento de amostras exige 7–12 dias em cada projeto. Usa a ronda de amostras para congelar a tua especificação, para que a produção nunca tenha de esperar por decisões de design tardias.'
+    - icon: P
+      icon_bg: green
+      title: 'Os slots de produção são confirmados antecipadamente'
+      desc: 'As encomendas pré-época garantem slots de produção confirmados. O facto de vários clientes reservarem o mesmo slot é exatamente o motivo pelo qual sinais mais antecipados obtêm linhas mais antecipadas.'
+    - icon: T
+      icon_bg: purple
+      title: 'Gates em níveis transparentes'
+      desc: 'Cada gate — aprovação das amostras, congelamento BOM, congelamento do design, PO e sinal — é acordado com uma data no contrato. Sabes sempre em que dia o relógio recomeça.'
+
+scenarios:
+  tagline: 'Três pontos de entrada realistas'
+  title: 'Qual percurso se adapta ao teu projeto?'
+  subtitle: 'A mesma fábrica, três percursos diferentes para entrar. Escolhe o cenário mais próximo da tua situação e usa-o quando nos contactares.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Marca startup: validar antes de te comprometeres'
+      desc: 'Encomenda primeiro 1–2 amostras (7–12 dias), testa qualidade de condução e fotografia e depois coloca uma encomenda de prova de 20–50 pranchas para testar as vendas antes de qualquer ciclo completo. A exposição global da primeira época fica abaixo das 50 pranchas.'
+    - icon: B
+      icon_bg: blue
+      title: 'Resort ou operador de aluguer: pilotar, depois escalar'
+      desc: 'Uma encomenda piloto de 20–50 pranchas com embalagem simplificada leva-te pela pré-época. Depois de recolheres os dados de utilização, sobe a ciclos padrão de 90–100+ pranchas com embalagem de marca.'
+    - icon: C
+      icon_bg: green
+      title: 'Marca estabelecida: programas completos por contentor'
+      desc: 'As marcas existentes encomendam 90–100+ pranchas por rolo de 150 m com cascos personalizados e branding a toda a superfície. O equipamento do molde personalizado acrescenta 15–20 dias; os programas de 300+ pranchas enviam segundo planos escalonados.'
+
+moq_quality:
+  tagline: 'QC & conformidade'
+  title: 'O mesmo sistema de qualidade em qualquer dimensão de encomenda'
+  subtitle: 'Uma amostra de 1 prancha e um programa de 300+ pranchas passam pelos mesmos gates de qualidade e pela mesma documentação de conformidade. "MOQ baixa" nunca significa "padrão baixo".'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Documentos de conformidade, em qualquer dimensão'
+      desc: 'A documentação de certificação CE, ISO 9001, BSCI, REACH e RoHS é fornecida com cada encomenda — incluindo as amostras individuais — com números de certificado mediante pedido.'
+    - icon: A
+      icon_bg: green
+      title: 'Checklist de montagem a 100 pontos'
+      desc: 'Cada prancha, independentemente da dimensão do lote, ultrapassa a mesma checklist de montagem a 100 pontos: materiais, soldaduras, válvulas, rails, quilhas e ajuste dos acessórios são verificados linha a linha.'
+    - icon: P
+      icon_bg: purple
+      title: 'Prova de pressão e estanquicidade ao ar de 24 horas'
+      desc: 'Cada prancha é insuflada a 18.0 PSI e mantida durante 24 horas. Uma queda de pressão superior a 0.50 PSI ativa a rejeição automática — o mesmo gate para uma amostra e para um contentor.'
+    - icon: R
+      icon_bg: orange
+      title: 'Verificação da soldadura HF & fusão das rails'
+      desc: 'A fusão do nastro rail de três camadas e as soldaduras HF são verificadas visual e dimensionalmente em relação à amostra aprovada antes de cada ciclo de produção.'
+    - icon: B
+      icon_bg: blue
+      title: 'Rastreabilidade dos lotes ERP (10 anos)'
+      desc: 'Cada prancha transporta registos de produção com número de série — materiais, operadores, testes e resultados das inspeções — conservados durante 10 anos e disponibilizados para os audits.'
+    - icon: I
+      icon_bg: green
+      title: 'Pronta para a inspeção de terceiros'
+      desc: 'A produção em lotes está pronta para inspeções de terceiros a qualquer momento. A maioria dos clientes utiliza também o nosso sistema de inspeção de 7 níveis ou uma inspeção pré-envio para os programas em volume.'
+
+moq_faqs:
+  tagline: 'FAQ'
+  title: 'Perguntas frequentes sobre MOQ & prazos de entrega'
+  items:
+    - q: 'Qual é a quantidade mínima de encomenda para um SUP personalizado?'
+      a: 'Depende do nível do teu projeto: as amostras são 1–2 pranchas, as pequenas quantidades de co-branding partem de 5–10 unidades, as encomendas de prova e piloto rodam com 20–50 pranchas e a produção de volume padrão roda com 90–100+ pranchas por rolo de tecido drop-stitch de 150 m. Os moldes personalizados rodam no nível de volume. Confirmamos o cálculo exato para a tua configuração antes de preparar a proposta.'
+    - q: 'Quanto dura uma amostra de SUP insuflável?'
+      a: 'O desenvolvimento de amostras exige 7–12 dias. A amostra verifica rigidez do casco, textura do tapete de tração EVA, precisão gráfica e ajuste dos acessórios. Estão previstas despesas de amostras, creditadas na tua encomenda de produção na assinatura do contrato.'
+    - q: 'Quanto dura a produção após a confirmação da encomenda?'
+      a: 'O tempo de produção é de 25–35 dias a partir da PO confirmada e do sinal. Se o teu projeto incluir um casco personalizado, o desenvolvimento do molde personalizado acrescenta 15–20 dias de equipamento antes do início da produção.'
+    - q: 'A MOQ é calculada por encomenda, por modelo ou por variante de cor?'
+      a: 'A MOQ pode valer por modelo, variante de cor, versão de design, configuração de embalagem ou encomenda global. Como diferentes espessuras de drop-stitch e cores de PVC provêm de rolos de matéria-prima separados, uma encomenda de 50 pranchas distribuídas por 5 cores gera 5 pedidos distintos de rolos de tecido. Confirmamos o cálculo em relação à tua matriz SKU.'
+    - q: 'Posso começar com apenas 1–2 pranchas para testar o mercado?'
+      a: 'Sim. Uma encomenda de amostras de 1–2 pranchas é a validação mais económica possível: rigidez do casco, gráficas e ajuste dos acessórios são confirmados antes de te comprometeres financeiramente num ciclo. A partir daí sobes a uma encomenda de prova de 20–50 pranchas para a validação económica.'
+    - q: 'Um programa de 300+ pranchas pode ser enviado em vários lotes?'
+      a: 'Sim. Os programas alargados podem ser planificados como envios escalonados em lotes de produção, para que as frotas sazonais cheguem quando são precisas e cash flow e espaço de armazém permaneçam geríveis. Os programas são confirmados no contrato, não após a produção.'
+
+evidence_review:
+  tagline: 'Evidências & verificação'
+  title: 'ESPECIFICAÇÕES VERIFICADAS'
+  body: 'Todos os dados de produção nesta página são verificados pela nossa Manufacturing Engineering Team na fábrica de Laixi, Qingdao. Certificados, registos de inspeção QC, relatórios de prova de pressão e estruturais e registos de rastreabilidade dos lotes estão disponíveis mediante pedido. Especificações verificadas pela última vez em setembro de 2026.'
+
+cta:
+  title: 'Queres receber MOQ & prazos de entrega específicos para o teu projeto?'
+  subtitle: 'Envia-nos o teu modelo de prancha, a quantidade-objetivo para a primeira época e os teus requisitos de branding. A nossa equipa técnica confirma se o percurso amostra, prova ou volume é o certo — com o cálculo exato da MOQ e um plano dia a dia. Uma solicitação não te compromete com nenhuma encomenda.'
+  actions:
+    - variant: primary
+      text: Pede o breakdown MOQ & prazos de entrega
+      href: /pt/contact#moq-guide
+    - text: Compara com o guia de branding flexível
+      href: /pt/oem-moq-guide
+    - text: Lança uma nova marca com uma encomenda de prova a MOQ baixa
+      href: /pt/new-brand-trial-order
+    - text: Verifica fábrica e sistema de qualidade
+      href: /pt/oem-trust-assurance

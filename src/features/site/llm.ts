@@ -13,13 +13,13 @@ import {
   getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
-import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT } from '@/features/content/guide-content'
+import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT } from '@/features/content/guide-content'
 import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -699,6 +699,96 @@ export function llmsItalianFull(): string {
     ...caseBlocks,
     '',
     '# Italiano: Guide',
+    ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` Portuguese section — absolute /pt URLs so LLMs can ingest the mirror directly. */
+export function llmPortugueseIndex(origin: string): string {
+  const pt = (path: string) => abs(origin, `/pt${path}`)
+  const productLines = getContentProducts('pt').map((p) => `- [${p.title}](${pt(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('pt').map((a) => `- [${a.title}](${pt(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('pt').map((c) => `- [${c.title}](${pt(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_PT.map((g) => `- [${g.title}](${pt(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('pt')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${pt(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('pt')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## Português',
+    '',
+    `- [${SITE_NAME} — Homepage](${pt('/')}): ${LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION}`,
+    '',
+    '### Português: Produtos',
+    ...productLines,
+    '',
+    '### Português: Tecnologia',
+    ...techLines,
+    '',
+    '### Português: Case study',
+    ...caseLines,
+    '',
+    '### Português: Guides',
+    ...guideLines,
+    '',
+    '### Português: Novidades',
+    ...newsLines,
+    '',
+    '### Português: Perguntas frequentes',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full Portuguese text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsPortugueseFull(): string {
+  const productBlocks = getContentProducts('pt').map((p) =>
+    [
+      `## Produto: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('pt').map((p) =>
+    [`## Notícia: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('pt').map((a) =>
+    [`## Tecnologia: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('pt').map((c) => [`## Caso de estudo: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_PT.map((g) =>
+    [
+      `# Guide: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## FAQ',
+      ...g.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# Português',
+    ...productBlocks,
+    '',
+    '# Português: Novidades',
+    ...newsBlocks,
+    '',
+    '# Português: Tecnologia',
+    ...techBlocks,
+    '',
+    '# Português: Case study',
+    ...caseBlocks,
+    '',
+    '# Português: Guides',
     ...guideBlocks,
     '',
   ].join('\n\n')

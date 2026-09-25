@@ -1272,6 +1272,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+  pt: [
+    {
+      slug: 'all-around',
+      navLabel: 'Plataformas all-round',
+      metaTitle: 'Pranchas SUP all-round personalizadas — Fabricante OEM de insufláveis | SUPsfactory',
+      metaDescription:
+        'Pranchas SUP insufláveis all-round personalizadas com a tua marca — pranchas largas e estáveis, OEM/ODM desde 90–100+ peças, amostras em 7–12 dias. Diretamente da fábrica em Qingdao, China.',
+      kicker: 'Série · All-round',
+      h1: 'Pranchas SUP all-round personalizadas — a plataforma de arranque para novas marcas',
+      intro: [
+        'A prancha all-round é o cavalo de batalha da categoria SUP: suficientemente larga para ser estável para iniciantes, suficientemente ágil para manter interessados os mais experientes e suficientemente leve para a levares para qualquer lado. A maioria das novas marcas e das frotas de aluguer começa aqui.',
+        'Produzimos plataformas all-round com a tua marca desde 90–100+ peças por rolo de 150 m (volume), com produções piloto de 20–50 peças. Forma, rails, layup, cores, gráficas de toda a cobertura e embalagem são especificados projeto a projeto.',
+      ],
+      faqs: [
+        {
+          q: 'Posso personalizar uma prancha SUP all-round para a minha marca?',
+          a: 'Sim. Cada plataforma all-round é uma base de produção: defines dimensões (normalmente de 10′6″ a 11′6″), largura, espessura, layup (mono/dupla camada ou fusão), configuração dos rails, pad EVA, gráficas de toda a cobertura e embalagem. As formas com molde dedicado começam em 90–100+ peças por forma; a produção padrão em volume desde 90–100+ peças por rolo de 150 m.',
+        },
+        {
+          q: 'Qual é o MOQ para pranchas SUP all-round?',
+          a: 'As partidas padrão em volume começam em 90–100+ peças por rolo de 150 m; as produções piloto em plataformas padrão desde 20–50 peças; a produção completa com molde dedicado desde 90–100+ peças por forma. Enviamos as amostras em 7–12 dias e a produção em série requer 25–35 dias após confirmação do pedido e do depósito.',
+        },
+        {
+          q: 'O que inclui o pacote pronto para a venda a retalho?',
+          a: 'O pacote completo: prancha insuflável com alma drop-stitch, pá ajustável, bomba manual (ou bomba elétrica de duplo estágio), kit de reparação, mochila de transporte e cartão impresso. Os acessórios podem ser substituídos ou atualizados em função do teu mercado-alvo.',
+        },
+        {
+          q: 'Que dureza de deck EVA produzem?',
+          a: 'Os pads de tração para o deck vão normalmente de 45–55 Shore C — uma dureza médio-baixa, com boa aderência sob os pés e sem endurecer ao sol. Espessura, ranhuras, recortes e posicionamento do logótipo são especificados projeto a projeto.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Plataformas race',
+      metaTitle: 'Pranchas SUP race personalizadas — Plataformas racing insufláveis OEM | SUPsfactory',
+      metaDescription:
+        'Pranchas SUP race insufláveis personalizadas para clubes, eventos e marcas — cascos racing drop-stitch, OEM desde 90–100+ peças, produção certificada CE. Diretamente da fábrica.',
+      kicker: 'Série · Race',
+      h1: 'Pranchas SUP race personalizadas — cascos racing produzidos para a tua marca',
+      intro: [
+        'As pranchas race trocam a estabilidade pela velocidade: perfis mais longos e estreitos, com formas de proa afinadas e rocker contido, desenhados para a remada em corrida. As versões insufláveis alcançam as prestações das pranchas rígidas numa plataforma transportável.',
+        'Produzimos plataformas race para marcas, clubes e organizadores de eventos com almas drop-stitch de precisão, layup race e formas de casco orientadas para a velocidade — testadas estatisticamente no nosso tanque de teste hidrodinâmico.',
+      ],
+      faqs: [
+        {
+          q: 'Que dimensões para SUP race podem produzir?',
+          a: 'As plataformas race típicas vão de 12′6″ × 28″ para a classe 12′6 a 14′ × 23″–25″ para os formatos Unlimited/Touring race. Largura, rocker e perfil de proa são calibrados para o grupo de praticantes-alvo e verificados numa amostra física.',
+        },
+        {
+          q: 'As pranchas race requerem uma construção especial?',
+          a: 'Sim: as pranchas race usam uma alma drop-stitch mais leve e de trama densa, com pressão mais alta (18–20 PSI) e rails reforçados mais rígidos para manter a forma do casco a alta velocidade. A escolha do layup (mono ou dupla camada) equilibra peso e rigidez, e definemo-la contigo projeto a projeto.',
+        },
+        {
+          q: 'Os clubes podem encomendar pranchas race para a sua equipa?',
+          a: 'Sim. Os programas para clubes e equipas encomendam desde 90–100+ peças (volume) com as gráficas do clube e podem misturar plataformas race e de treino num único pedido. Aplicam-se preços de frota para volumes combinados.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Plataformas surf',
+      metaTitle: 'Pranchas SUP surf personalizadas — Plataformas surf híbridas insufláveis OEM | SUPsfactory',
+      metaDescription:
+        'Pranchas SUP surf insufláveis personalizadas — perfis surf híbridos com rails arredondados e rocker elevado, produzidas com a tua marca desde 90–100+ peças em Qingdao, China.',
+      kicker: 'Série · Surf',
+      h1: 'Pranchas SUP surf personalizadas — plataformas surf híbridas para cavalgar as ondas',
+      intro: [
+        'As pranchas SUP surf trazem a performance de onda para uma plataforma transportável: comprimentos mais curtos, mais rocker, rails arredondados e formas de proa côncavas que seguram a linha na face da onda. As formas surf insufláveis são a forma mais acessível de entrar no surf com a pá.',
+        'Produzimos plataformas surf com a tua marca, com shaping e detalhes construtivos específicos para ondas — do pacote completo soft-top ao layup performance.',
+      ],
+      faqs: [
+        {
+          q: 'Que tamanhos estão disponíveis para pranchas SUP surf?',
+          a: 'As plataformas surf mais comuns vão de 8′6″ a 10′6″ com larguras à volta dos 30″–34″. Comprimento, rocker e perfil dos rails são especificados em função do peso do praticante e do tipo de onda, e verificados numa amostra física antes da produção.',
+        },
+        {
+          q: 'As pranchas surf insufláveis são suficientemente resistentes para o aluguer?',
+          a: 'Com rails reforçados e PVC resistente aos raios UV, as nossas plataformas surf aguentam o uso de aluguer e de aulas nas surf schools. As frotas de aluguer combinam tipicamente formas all-round e surf — o preço de frota aplica-se ao volume misto.',
+        },
+        {
+          q: 'Podem aplicar as nossas gráficas de marca nas pranchas surf?',
+          a: 'Sim. Gráficas de toda a cobertura, arte do fundo, pads de tração EVA e embalagem são realizados a partir dos teus ficheiros ou desenvolvidos pela nossa equipa de design com base nos ativos da tua marca.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Plataformas touring',
+      metaTitle: 'Pranchas SUP touring personalizadas — Plataformas de longa distância OEM | SUPsfactory',
+      metaDescription:
+        'Pranchas SUP touring insufláveis para longas distâncias — cascos de deslocamento desde 12′6″+, adequados a expedições de vários dias, OEM desde 90–100+ peças, diretamente da fábrica.',
+      kicker: 'Série · Touring',
+      h1: 'Pranchas SUP touring personalizadas — feitas para a distância, a carga e a navegação',
+      intro: [
+        'As pranchas touring são longas e eficientes: proas afiladas para deslizar, volume moderado para estabilidade em águas abertas e comprimento de casco suficiente para transportar o equipamento em expedições de vários dias. É a plataforma escolhida por quem faz longas distâncias e pelos outfitters de expedições.',
+        'Produzimos plataformas touring com a tua marca, com shaping de deslocamento, pontos de fixação e espaço no deck para a carga, além de sistemas de acessórios compatíveis com carga (bungees, anéis em D, suportes).',
+      ],
+      faqs: [
+        {
+          q: 'Que medidas de SUP touring produzem?',
+          a: 'As plataformas touring são tipicamente de 12′6″ a 14′, com larguras de 28″–32″. Os cascos de 14′ mais longos privilegiam o deslize; as versões mais largas acrescentam estabilidade com carga. As especificações são confirmadas com uma amostra física antes da produção em série.',
+        },
+        {
+          q: 'As pranchas touring têm opções de carga e fixação?',
+          a: 'Sim: redes bungee para a carga, grelhas de anéis em D, suportes para canas de pesca e guias para acessórios são especificadas projeto a projeto. Os pacotes touring combinam normalmente as pranchas com mochilas e bombas de alta pressão.',
+        },
+        {
+          q: 'Fornecem pranchas touring a outfitters e gestores de aluguer?',
+          a: 'Sim. Outfitters e gestores podem montar frotas touring dedicadas de 20–50 peças (piloto) com preços de frota, peças sobresselentes e um ciclo definido de renovação sazonal.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Plataformas yoga',
+      metaTitle: 'Pranchas SUP yoga personalizadas — Plataformas largas e estáveis OEM | SUPsfactory',
+      metaDescription:
+        'Pranchas SUP yoga insufláveis personalizadas — plataformas extra largas e estáveis com decks macios para estúdios, resorts e instrutores. OEM desde 90–100+ peças, diretamente da fábrica.',
+      kicker: 'Série · Yoga',
+      h1: 'Pranchas SUP yoga personalizadas — plataformas extra largas para a prática na água',
+      intro: [
+        'As pranchas yoga são feitas para a calma: largura e volume extra para uma plataforma estável, soft-tops macios para mãos e pés e perfis baixos que mantêm a prancha junto à água. Servem estúdios, resorts e instrutores que propõem programas de yoga na água.',
+        'Produzimos plataformas yoga com a tua marca, com os perfis estáveis mais largos, decks EVA premium e opções à escala para frotas de estúdios e resorts.',
+      ],
+      faqs: [
+        {
+          q: 'O que torna uma prancha SUP particularmente adequada ao yoga?',
+          a: 'A estabilidade antes de tudo: largura extra (33″–36″) e volume mantêm a prancha plana e firme. Um deck EVA macio protege mãos, joelhos e pés, e um perfil de rail baixo reduz as oscilações ao subir e descer.',
+        },
+        {
+          q: 'Os resorts podem encomendar pranchas yoga como parte de uma frota?',
+          a: 'Sim. Os resorts combinam frequentemente plataformas yoga com pranchas all-round para os hóspedes. Os volumes de frota combinados dão acesso a preços de frota e a gráfica de marca com as cores da unidade aplica-se a todo o pedido.',
+        },
+        {
+          q: 'As pranchas yoga estão disponíveis como pacote completo?',
+          a: 'Sim: prancha insuflável, pá, bomba, mochila e kit de reparação, ou um kit reduzido para arrumação no local (prancha + pá + bomba elétrica), consoante as necessidades do teu programa.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Plataformas whitewater',
+      metaTitle: 'Pranchas SUP whitewater personalizadas — Plataformas para rios e corredeiras OEM | SUPsfactory',
+      metaDescription:
+        'Pranchas SUP whitewater insufláveis personalizadas para rios e corredeiras — cascos curtos e manobráveis com construção reforçada contra impactos. OEM desde 90–100+ peças em Qingdao, China.',
+      kicker: 'Série · Whitewater',
+      h1: 'Pranchas SUP whitewater personalizadas — cascos de rio construídos para impactos',
+      intro: [
+        'As pranchas whitewater são curtas, largas e robustas: cascos manobráveis que viram ao comando, elevada resistência a impactos nos rails e uma construção robusta para leitos de rio baixos e pontos de descida rochosos.',
+        'Produzimos plataformas whitewater com a tua marca, com costuras reforçadas, rails anti-impacto e formas específicas para rios — concebidas para escolas, guias e outfitters fluviais que oferecem cursos e expedições diários.',
+      ],
+      faqs: [
+        {
+          q: 'Que construção é necessária para as pranchas whitewater?',
+          a: 'Rails reforçados e costuras sobrepostas absorvem os impactos nos rails; PVC grosso e layup de várias camadas resistem às perfurações dos leitos de rio. As construções de dupla câmara acrescentam reserva de flutuabilidade para rios remotos.',
+        },
+        {
+          q: 'Fornecem outfitters fluviais e escolas de guias?',
+          a: 'Sim. Outfitters e escolas de guias gerem frotas whitewater de 20–50 peças (piloto) com preços de frota, kits de reparação robustos e aletas/válvulas de substituição — típicos para programas fluviais de elevado uso.',
+        },
+        {
+          q: 'As pranchas whitewater podem levar gráficas de marca?',
+          a: 'Sim: gráficas de toda a cobertura, posicionamento do logótipo e cores de equipa são realizados a partir dos teus ficheiros. As camadas de impressão anti-rotura mantêm a marca intacta mesmo com uso intenso.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Plataformas fishing',
+      metaTitle: 'Pranchas SUP fishing personalizadas — OEM e marca própria | SUPsfactory',
+      metaDescription:
+        'Pranchas SUP fishing insufláveis personalizadas com estabilidade, capacidade de carga e suportes para acessórios — OEM/marca própria desde 90–100+ peças, diretamente da fábrica em Qingdao, China.',
+      kicker: 'Série · Fishing',
+      h1: 'Pranchas SUP fishing personalizadas — construídas a pensar nos pescadores',
+      intro: [
+        'As pranchas fishing são plataformas de lançamento estáveis: largas e volumosas para transportar o pescador mais o equipamento, com sistemas de fixação para suportes de canas, bolsas térmicas e tackle, e uma construção silenciosa para aproximações discretas.',
+        'Produzimos plataformas fishing com a tua marca, com funcionalidades para pescadores definidas projeto a projeto — do pacote de fim de semana ao setup completo de torneio.',
+      ],
+      faqs: [
+        {
+          q: 'Que funcionalidades de pesca podem ser especificadas?',
+          a: 'Grelhas de fixação para suportes de canas e acessórios, guias para o equipamento, correias para a bolsa térmica, pontos de ancoragem e pranchas de alta capacidade até 500 lbs por pescador mais equipamento. Os pacotes podem incluir pás, bombas e bolsas com etiqueta da marca.',
+        },
+        {
+          q: 'Qual é o MOQ para pedidos OEM de SUP fishing?',
+          a: 'As partidas padrão em volume começam em 90–100+ peças por rolo de 150 m; as produções piloto de 20–50 peças em plataformas padrão; a produção com molde dedicado desde 90–100+ peças por forma. Enviamos as amostras em 7–12 dias; a produção requer 25–35 dias após confirmação do pedido e do depósito.',
+        },
+        {
+          q: 'Produzem pranchas fishing para aluguer e atividades com guia?',
+          a: 'Sim. As atividades com guia e os alugueres gerem frotas fishing com preços de frota, peças sobresselentes e kits de reparação calibrados para o uso diário.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Plataformas kids',
+      metaTitle: 'Pranchas SUP kids personalizadas — Plataformas pequenas e leves OEM | SUPsfactory',
+      metaDescription:
+        'Pranchas SUP kids insufláveis personalizadas — plataformas mais curtas e leves com decks adequados a crianças, concebidas para segurança e diversão. OEM desde 90–100+ peças, diretamente da fábrica.',
+      kicker: 'Série · Kids',
+      h1: 'Pranchas SUP kids personalizadas — pequenas, leves e feitas para as primeiras remadas',
+      intro: [
+        'As pranchas kids são proporcionadas para os praticantes mais jovens: cascos mais curtos, peso inferior, larguras reduzidas para corpos pequenos e decks macios que perdoam as quedas. São o ponto de entrada para marcas familiares, escolas e frotas de aluguer para crianças.',
+        'Produzimos plataformas kids com a tua marca em medidas padrão e junior, com opções de pacote adequadas a famílias.',
+      ],
+      faqs: [
+        {
+          q: 'Em que medidas estão disponíveis as pranchas SUP kids?',
+          a: 'As plataformas kids típicas vão de 7′ a 9′6″ com larguras de 26″ a 30″ e pesos à volta dos 7–9 kg (15–20 lbs). A medida é calibrada para a idade e o peso do praticante e verificada numa amostra física antes da produção.',
+        },
+        {
+          q: 'Fornecem escolas e programas juvenis?',
+          a: 'Sim: as nossas plataformas kids são um componente frequente das frotas para escolas e programas juvenis, encomendadas juntamente com pás júnior e acessórios para iniciantes em condições de programa.',
+        },
+        {
+          q: 'As pranchas kids podem levar gráficas de marca e de personagens?',
+          a: 'Sim. Variantes de cor de toda a cobertura, arte de personagens e posicionamento do logótipo são desenvolvidos a partir dos teus ficheiros ou das indicações da marca — impressos com as mesmas camadas anti-rotura das pranchas para adultos.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Plataformas multi-lugar',
+      metaTitle: 'Pranchas SUP multi-lugar personalizadas — Tandem e família OEM | SUPsfactory',
+      metaDescription:
+        'Pranchas SUP multi-lugar insufláveis para o lazer em família e as aulas de grupo — plataformas tandem, yard e party. OEM desde 90–100+ peças, diretamente da fábrica.',
+      kicker: 'Série · Multi-lugar',
+      h1: 'Pranchas SUP multi-lugar personalizadas — tandem, plataformas yard e party',
+      intro: [
+        'As pranchas multi-lugar abrem o SUP aos grupos: tandem com postos de remada adicionais, pranchas yard para relaxar e plataformas party que transportam vários praticantes. Sustentam as receitas do aluguer em resorts, praias e atividades lacustres.',
+        'Produzimos plataformas multi-lugar com a tua marca, com os perfis de estabilidade e volume exigidos por cada cenário de utilização.',
+      ],
+      faqs: [
+        {
+          q: 'Que tipos de pranchas multi-lugar produzem?',
+          a: 'Tandem (dois remadores, cerca de 13′–14′), pranchas yard (plataformas lounge curtas e largas) e plataformas party de alto volume para 3–6 praticantes. Cada tipo é especificado em função da capacidade, do peso e da utilização prevista.',
+        },
+        {
+          q: 'As pranchas multi-lugar são um bom investimento para o aluguer?',
+          a: 'Sim: permitem tarifas horárias mais altas com custos de equipamento inferiores por praticante e mantêm os grupos unidos em vez de os dividir por pranchas individuais. Os gestores de aluguer combinam tipicamente pranchas multi-lugar com frotas all-round.',
+        },
+        {
+          q: 'Qual é a capacidade de uma plataforma party?',
+          a: 'A capacidade depende das medidas e do volume: as plataformas yard e party típicas suportam 400–700 lbs e transportam 3–6 praticantes consoante dimensões e configuração. As especificações são confirmadas numa amostra física antes da produção em série.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

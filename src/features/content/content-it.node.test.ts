@@ -145,7 +145,7 @@ test('every en content file has a .it counterpart (except locale-agnostic site/p
   const dirs = ['pages', 'news', 'products', 'technology', 'case-use', 'site']
   for (const dir of dirs) {
     for (const name of readdirSync(resolve(contentRoot, dir))) {
-      if (name.includes('.it.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.de.')) continue
+      if (name.includes('.it.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.de.') || name.includes('.pt.')) continue
       if (dir === 'site' && name === 'pages.yaml') continue
       const itName = name.replace(/(\.(yaml|mdx|md))$/, '.it$1')
       if (!existsSync(resolve(contentRoot, `${dir}/${itName}`))) {

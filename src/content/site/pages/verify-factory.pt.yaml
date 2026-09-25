@@ -1,0 +1,81 @@
+meta:
+  title: 'Verifica a nossa fábrica SUP | Visita, audit & inspeção em Qingdao'
+  description: 'Como verificar a fábrica de SUP antes de te comprometeres: planear uma visita à fábrica, realizar um audit ou uma inspeção de terceiros e consultar registos QC, rastreabilidade dos lotes e certificados em Qingdao, na China.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'Verificar a fábrica de SUP'
+    - 'Visita à fábrica de SUP Qingdao'
+    - 'Audit da fábrica de SUP'
+    - 'Inspeção SUP de terceiros'
+    - 'Verificação de uma fábrica de paddleboards insufláveis'
+
+hero:
+  tagline: 'Verificação da fábrica'
+  title: 'Verifica a fábrica de SUP antes de te comprometeres'
+  subtitle: 'Não deves confiar numa fábrica às cegas. Planeia uma visita, realiza um audit ou uma inspeção independente e verifica certificados, registos QC e rastreabilidade dos lotes antes da tua primeira encomenda — tudo isto está aberto a compradores sérios.'
+
+answer:
+  label: 'Resposta breve'
+  text: 'A fábrica SUPsfactory é uma unidade de 12,500 m² em Qingdao, Shandong, na China, com mais de 350 funcionários, 4 linhas de produção automatizadas e 4 oficinas especializadas. Os compradores podem verificá-la de quatro formas: visitar a fábrica todo o ano, organizar ou solicitar audits (BSCI, ISO 9001), realizar uma inspeção de terceiros (SGS, TÜV, BV, Intertek; amostragem ISO 2859-1 nível II) ou examinar as evidências documentadas — certificados, checklists de montagem a 100 pontos, relatórios de estanquicidade a 18.0 PSI por 24 horas e uma rastreabilidade dos lotes ERP de 10 anos por etiqueta serial.'
+  verified: 'September 2026'
+
+features:
+  title: 'Formas de verificar a fábrica'
+  subtitle: 'Quatro percursos de verificação, cada um organizado pelo teu especialista de projeto — escolhe um ou combina vários.'
+  items:
+    - title: 'Planear uma visita à fábrica'
+      description: 'Acolhemos visitas de compradores em Qingdao todo o ano, com recolha no aeroporto e tour da fábrica organizado em torno dos teus compromissos. Uma NDA é sempre bem-vinda.'
+      icon: 'tabler:map-pin'
+    - title: 'Audits de terceiros'
+      description: 'Os relatórios de audit BSCI e ISO 9001 estão disponíveis mediante pedido e são bem-vindos os audits co-organizados, para que possas percorrer a sala de produção juntamente com o auditor.'
+      icon: 'tabler:clipboard-check'
+    - title: 'Inspeção independente'
+      description: 'Inspeção pré-envio ou durante a produção com SGS, TÜV, BV ou Intertek segundo a amostragem ISO 2859-1 nível II — a teu cargo, organizada por nós, reportada diretamente a ti.'
+      icon: 'tabler:zoom-check'
+    - title: 'Verificação documental'
+      description: 'Cópias dos certificados, registos de controlo à entrada/processo/final, relatórios de estanquicidade de pressão e dossiês de rastreabilidade dos lotes são partilhados antes do teu compromisso.'
+      icon: 'tabler:file-search'
+    - title: 'Tour da fábrica em vídeo ao vivo'
+      description: 'Ainda não estás pronto a viajar? Percorremos a área de produção numa videochamada ao vivo — processamento drop-stitch, soldadura, impressão, montagem, prova e embalagem — antes de fazeres uma encomenda.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: 'Perguntas sobre a verificação'
+  title: 'Verificação da fábrica & inspeção — Perguntas e respostas'
+  questions:
+    - q: 'Onde fica a fábrica?'
+      a: 'A fábrica fica em Qingdao, Shandong, na China — uma unidade de 12,500 m² com mais de 350 funcionários, 4 linhas automatizadas e 4 oficinas especializadas. O morada e a localização no mapa são comunicados aos compradores verificados no momento do agendamento de uma visita, e a morada de produção aparece nos contratos, no audit BSCI e na documentação de exportação.'
+    - q: 'O que produz a fábrica?'
+      a: 'Pranchas SUP insufláveis — desde a engenharia do casco e o processamento do núcleo drop-stitch até às gráficas, montagem, prova e embalagem para exportação. Todos os processos SUP core acontecem sob o mesmo teto.'
+    - q: 'Que processos são realizados in house?'
+      a: 'Design do casco, engenharia dimensional, processamento do núcleo drop-stitch, soldadura HF, impressão gráfica, gofragem dos pads EVA, equipamento para formas personalizadas, montagem, prova e embalagem — tudo in house. Os acessórios e algumas matérias-primas provêm de fornecedores certificados e são acondicionados in house para a rastreabilidade.'
+    - q: 'Os compradores podem visitar a fábrica?'
+      a: 'Sim. As visitas dos compradores são acolhidas em Qingdao todo o ano. A recolha no aeroporto internacional de Qingdao Jiaodong e um tour completo da fábrica são organizados pelo teu especialista de projeto.'
+    - q: 'Os compradores podem organizar uma inspeção de terceiros?'
+      a: 'Sim. As inspeções SGS, TÜV, BV e Intertek são bem-vindas antes ou durante a produção. A inspeção pré-envio utiliza a amostragem ISO 2859-1 nível II e o relatório é enviado diretamente a ti pela entidade de inspeção.'
+    - q: 'Os compradores podem solicitar a documentação QC?'
+      a: 'Sim. Cópias dos certificados, registos de controlo à entrada/processo/final, relatórios de estanquicidade a 18.0 PSI por 24 horas e a checklist de montagem a 100 pontos são emitidos por lote mediante pedido.'
+    - q: 'Como é garantida a rastreabilidade dos lotes?'
+      a: 'Cada prancha transporta uma etiqueta serial. Os lotes são registados num dado ERP de dez anos que liga rolo de tecido, materiais, data de produção, operadores e resultados dos testes a cada número de série.'
+    - q: 'Como é utilizada a amostra aprovada?'
+      a: 'A amostra aprovada serve de referência de produção. Materiais, dimensões, gráficas, acessórios e superfície são comparados com essa amostra em cada gate QC, para que a produção corresponda àquilo que aprovaste.'
+    - q: 'Como é gerida a qualidade de produção?'
+      a: 'Um sistema de qualidade de 7 níveis (Node 01–07) executa gates de controlo à entrada, de processo e final, com testes de estanquicidade a 18.0 PSI por 24 horas (rejeição automática numa queda de pressão de 0.50 PSI) e libertação final segundo a amostragem ISO 2859-1 nível II.'
+
+cta:
+  title: 'Primeiro verifica, depois decide'
+  subtitle: 'Reserva um tour da fábrica ou solicita os documentos de verificação — um especialista de projeto responde num dia útil.'
+  actions:
+    - variant: primary
+      text: Planeia uma conversa de verificação
+      href: /pt/contact
+    - text: Centro de provas — evidências da fábrica
+      href: /pt/proof-center
+    - text: Checklist de inspeção da fábrica
+      href: /pt/factory-audit-checklist
+    - text: Confiança OEM & bases da fábrica
+      href: /pt/oem-trust-assurance
+    - text: Qualidade & prova
+      href: /pt/quality
+    - text: Fábrica & produção
+      href: /pt/factory

@@ -34,6 +34,9 @@ export const LLM_GERMAN_HOMEPAGE_DESCRIPTION =
 export const LLM_ITALIAN_HOMEPAGE_DESCRIPTION =
   'Produttore OEM di SUP gonfiabili e SUP gonfiabili personalizzate, con esportazione mondiale dalla Cina'
 
+export const LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION =
+  'Fabricante OEM de pranchas de SUP insufláveis e SUP insufláveis personalizadas, com exportação mundial a partir da China'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 
@@ -94,6 +97,15 @@ export const CUSTOMIZATION_OPTIONS: Record<string, { title: string; body: string
     { title: 'Alette e accessori', body: 'Configurazioni di alette, pagaie, pompe, leash e borse in linea con il tuo pacchetto.' },
     { title: 'Imballaggio e display', body: 'Scatole retail, imballaggio marittimo e display per il punto vendita con il tuo marchio.' },
   ],
+  pt: [
+    { title: 'Dimensão e forma da prancha', body: 'Comprimento, largura, espessura e rocker ajustados ao teu desempenho-alvo e ao teu mercado.' },
+    { title: 'Materiais e construção', body: 'Camadas de PVC, densidade drop-stitch, rigidificadores e reforços de acordo com o teu orçamento.' },
+    { title: 'Cores e arte', body: 'Combinações de cores ilimitadas com a tua própria arte ou com o apoio da nossa equipa de design.' },
+    { title: 'Logótipo e marca', body: 'Aplicação digital ou serigrafia do logótipo, com prova visual antes da produção.' },
+    { title: 'EVA e deck', body: 'Tapetes de tração cortados à medida, logótipos e cores do deck em cada prancha.' },
+    { title: 'Aletas e acessórios', body: 'Configurações de aletas, pás, bombas, leashes e bolsas adequadas ao teu pacote.' },
+    { title: 'Embalagem e apresentação', body: 'Caixas de retalho, embalagem marítima e expositores para o ponto de venda com a tua marca.' },
+  ],
 }
 
 export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]> = {
@@ -131,6 +143,13 @@ export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]>
     { title: 'Retail e aziende outdoor', body: 'Programmi di riassortimento stagionale con specifiche stabili, lotto dopo lotto.' },
     { title: 'Resort e operatori di noleggio', body: 'Flotte ad alto utilizzo con rinforzi, ricambi e manutenzione standardizzata.' },
     { title: 'Club, scuole ed eventi', body: 'Tavole con marchio per programmi, competizioni e flotte aziendali.' },
+  ],
+  pt: [
+    { title: 'Marcas de SUP', body: 'Lança a tua própria linha com mínimos por escalões a partir de séries de co-branding de 5–10 unidades.' },
+    { title: 'Distribuidores e revendedores', body: 'Catálogos de volume com embalagem marítima e gestão de exportação.' },
+    { title: 'Retalho e empresas de outdoor', body: 'Programas de reabastecimento sazonal com especificações estáveis, lote após lote.' },
+    { title: 'Resorts e operadores de aluguer', body: 'Frotas de elevada utilização com reforços, peças sobresselentes e manutenção padronizada.' },
+    { title: 'Clubes, escolas e eventos', body: 'Pranchas com a tua marca para programas, competições e frotas corporativas.' },
   ],
 }
 
@@ -175,6 +194,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/it/knowledge', title: '', excerpt: '' },
     { url: '/it/gallery', title: 'Galleria', excerpt: 'Fabbrica e galleria prodotti SUPsfactory: officine, laboratori di qualità, test dei tessuti e tavole SUP in produzione.' },
   ],
+  pt: [
+    { url: '/pt', title: 'SUPsfactory — Produção OEM e ODM de SUP insufláveis', excerpt: 'Fábrica OEM/ODM de SUP insufláveis em Qingdao: desenvolvimento de produto, produção à medida, marca própria e controlo de qualidade.' },
+    { url: '/pt/products', title: 'Produtos de SUP insufláveis', excerpt: 'SUP insufláveis premium: séries de 11 ft, SUP de pesca, mini SUP, pranchas gigantes para equipas e mais — produção OEM/ODM à medida.' },
+    { url: '/pt/solutions', title: 'Soluções', excerpt: 'Programas de produção OEM/ODM de SUP: desenvolvimento de SUP à medida, marca própria, frotas para resorts e clubes, aluguer e parceiros de retalho.' },
+    { url: '/pt/projects', title: '', excerpt: '' },
+    { url: '/pt/knowledge', title: '', excerpt: '' },
+    { url: '/pt/gallery', title: 'Galeria', excerpt: 'Fábrica e galeria de produtos SUPsfactory: oficinas, laboratórios de qualidade, testes de tecidos e pranchas de SUP em produção.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
@@ -188,6 +215,7 @@ export const FAQ_EXCERPTS: Record<string, string> = {
   fr: 'Questions fréquentes sur la fabrication OEM/ODM de SUP gonflables — matériaux, certifications, quantités minimales de commande et approvisionnement en gros.',
   de: 'Häufig gestellte Fragen zur OEM/ODM-Fertigung aufblasbarer SUPs — Materialien, Zertifizierungen, Mindestbestellmengen und Großhandelsbelieferung.',
   it: 'Domande frequenti sulla produzione OEM/ODM di SUP gonfiabili — materiali, certificazioni, quantità minime d’ordine e fornitura all’ingrosso.',
+  pt: 'Perguntas frequentes sobre a produção OEM/ODM de SUP insufláveis — materiais, certificações, quantidades mínimas de encomenda e fornecimento por grosso.',
 }
 
 export const STATIC_PAGE_CORPUS_TEXT =

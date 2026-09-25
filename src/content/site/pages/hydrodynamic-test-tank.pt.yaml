@@ -1,0 +1,115 @@
+meta:
+  title: 'Vaso de prova hidrodinâmica — teste de desempenho das pranchas SUP'
+  description: 'Valide o desempenho do casco das pranchas SUP no nosso vaso de prova hidrodinâmica. Provas de reboque em modelos, análise da planagem e medição da resistência para as formas das pranchas.'
+  dateModified: '2026-08'
+back_text: 'Voltar ao centro de I&D'
+home_label: 'Início'
+
+answer:
+  label: 'Resposta clara'
+  text: 'Testamos as formas dos cascos SUP no vaso de prova à escala de modelo 1:3 até 1:5 — perfil de proa, raio do rail, rocker e superfície molhada — e medimos resistência, eficiência de planagem e estabilidade, antes de nos comprometermos com um protótipo à escala real. Uma semana no vaso fornece os dados de desempenho que de outra forma exigiriam meses de tentativa e erro à escala real.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratório 04'
+  title: 'Vaso de prova hidrodinâmica'
+  subtitle: 'Validação do desempenho antes do primeiro protótipo à escala real'
+  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp'
+  image_alt: 'Vaso de prova hidrodinâmica da Vatrad para o teste de desempenho'
+
+intro: 'É uma convicção errada difundida que os testes hidrodinâmicos estejam reservados aos navios e aos veículos de corrida. Na realidade, o desempenho de uma prancha SUP — um casco planador de 10 a 14 pés — depende da sua forma subaquática exatamente como qualquer outro meio. Perfil de proa, raio do rail, rocker e superfície molhada têm um impacto dramático na resistência, na eficiência de planagem e na estabilidade. Na {SITE.name} gerimos um vaso de prova hidrodinâmica dedicado, que nos permite quantificar estes efeitos à escala de modelo — antes de comprometer tecido e tooling para um protótipo à escala real.'
+
+content_html: |
+  <h2>Porque testar uma prancha SUP no vaso?</h2>
+  <p>Os testes à escala de modelo (tipicamente 1:3 até 1:5) permitem-nos iterar rapidamente e a baixo custo as formas das pranchas. Uma semana no vaso pode produzir os mesmos dados de desempenho que exigiriam meses de tentativa e erro à escala real — a uma fração dos custos.</p>
+
+  <h2>Especificações da instalação</h2>
+  <table>
+    <thead><tr><th>Parâmetro</th><th>Especificação</th></tr></thead>
+    <tbody>
+      <tr><td>Dimensões do vaso</td><td>35 m (C) × 3,5 m (L) × 1,8 m (P)</td></tr>
+      <tr><td>Carro de reboque</td><td>Servoamplificado elétrico, velocidade máxima 12 m/s (23 kn), exatidão da velocidade ± 0,5 %</td></tr>
+      <tr><td>Gerador de ondas</td><td>Tipo flap, estados de mar programáveis regulares &amp; irregulares, Hs até 0,3 m à escala de modelo</td></tr>
+      <tr><td>Instrumentação</td><td>Balança de medição da resistência a 6 componentes (resistência, força lateral, momento de guinada), acelerómetros, inclinómetros, sondas de onda</td></tr>
+      <tr><td>Aquisição de dados</td><td>Frequência de amostragem 1000 Hz por canal, visualização em tempo real + pacote de software de pós-processamento</td></tr>
+      <tr><td>Produção de modelos</td><td>Fresagem CNC e impressão 3D in-house para cascos de modelo até 1,8 m de comprimento fora a fora</td></tr>
+    </tbody>
+  </table>
+
+  <h2>O nosso programa de teste</h2>
+  <p>Um programa padrão de desenvolvimento de uma prancha no nosso vaso segue esta sequência:</p>
+  <ol>
+    <li><strong>Construção do modelo</strong> — Um modelo à escala 1:4 é fresado a CNC em espuma de alta densidade e reforçado em fibra de vidro para rigidez. Peso e centro de gravidade são ajustados para alcançar a condição de plena carga escalada segundo Froude.</li>
+    <li><strong>Corridas de resistência</strong> — O modelo é rebocado a 6–10 velocidades no intervalo de pagaiada (2–6 kn à escala real). É medida a resistência total e decomposta em resistência de atrito e residual com o método ITTC-1957.</li>
+    <li><strong>Medição de trim &amp; imersão</strong> — Trim de corrida e imersão são registados a cada velocidade. O objetivo é o ângulo de trim que minimiza a superfície molhada mantendo ao mesmo tempo a proa claramente acima da onda de proa.</li>
+    <li><strong>Investigação do campo de onda</strong> — As secções de onda transversais são medidas a duas velocidades para avaliar a resistência de geração da onda e identificar as interações da forma de proa que atrasam uma prancha na água.</li>
+    <li><strong>Comportamento em carga de mar (opcional)</strong> — Corridas em onda contrária com ondas regulares para medir a resistência adicional e a aceleração vertical em mar agitado — os dados por detrás do design das proas das pranchas de touring.</li>
+    <li><strong>Análise de dados &amp; recomendações</strong> — É entregue um relatório completo com gráficos comparativos, curvas resistência/velocidade e recomendações concretas de design para a prancha à escala real.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Resultados típicos do teste no vaso — Resistência vs. velocidade (prancha allround 11''0, escala 1:4)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">2 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:18%"></div>
+        </div>
+        <span class="w-16 text-right">11 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">3 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">21 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">4 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:52%"></div>
+        </div>
+        <span class="w-16 text-right">32 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">5 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:68%"></div>
+        </div>
+        <span class="w-16 text-right">42 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">6 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:85%"></div>
+        </div>
+        <span class="w-16 text-right">52 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Resistência à escala de modelo (N) a velocidades escaladas segundo Froude. A previsão do desempenho à escala real segue o método de previsão de desempenho ITTC-1978.</p>
+  </div>
+
+  <h2>Equipa de especialistas</h2>
+  <p>O nosso vaso é gerido por um hidrodinamicista com doutoramento em arquitetura naval e 8 anos de experiência num importante instituto de investigação marítima europeu. É acompanhado por um técnico que prepara todos os modelos e a instrumentação. A equipa segue os procedimentos recomendados da ITTC (International Towing Tank Conference) para garantir que cada teste seja repetível, rastreável e defensável a nível internacional.</p>
+
+  <h2>Testes no vaso para o desenvolvimento de pranchas personalizadas</h2>
+  <p>O nosso vaso não é usado apenas para as pranchas in-house — executamos regularmente programas de teste para clientes que querem validar uma forma de prancha personalizada ou investigar um problema de desempenho:</p>
+  <ul>
+    <li><strong>Comparação de formas</strong> — Duas ou mais formas candidatas são testadas em condições idênticas e fornecem uma comparação objetiva resistência/velocidade/estabilidade como apoio à decisão para a vossa escolha de design.</li>
+    <li><strong>Otimização de rail &amp; proa</strong> — As variantes de perfil de proa e raio do rail podem ser testadas em configurações diferentes para quantificar a sua contribuição para a redução da resistência.</li>
+    <li><strong>Estudo da carga do paddler</strong> — Os dados de resistência são mapeados em todo o intervalo de peso dos paddlers, para que possam especificar o comprimento e a largura certos para o vosso segmento de paddlers alvo.</li>
+  </ul>
+
+  <h2>Porque testar connosco?</h2>
+  <p>Não fornecemos apenas um conjunto de números em bruto. Os nossos relatórios traduzem os dados do vaso em recomendações de engenharia acionáveis: "Aumentem o rocker de proa em 10 mm para reduzir a resistência da onda de proa em velocidade de cruzeiro", "Embacem o rail à secção mestra para reduzir a superfície molhada" ou então "Desloquem a área de posição em pé 50 mm para a frente para um melhor trim". Saem com uma compreensão clara do que e porquê deve ser alterado.</p>
+  <p>O nosso vaso está também disponível para testes independentes por terceiros a título honorário. Se estão a desenvolver uma prancha e desejam uma avaliação hidrodinâmica imparcial executada profissionalmente, teremos todo o gosto em receber o vosso pedido.</p>
+
+cta:
+  title: 'Reserva uma sessão de teste no vaso'
+  subtitle: 'Quer precisem de um programa de desenvolvimento completo ou de um único teste comparativo — podemos adaptar-nos ao vosso calendário.'
+  actions:
+    - variant: primary
+      text: Contacta a nossa equipa de hidrodinâmica
+      href: /contact#project-brief
+    - text: Voltar ao centro de I&D
+      href: /randdcenter

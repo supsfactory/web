@@ -1,0 +1,347 @@
+meta:
+  title: 'Fábrica e produção — OEM de SUP insufláveis'
+  description: 'Visita a fábrica Vatrad: instalação de 12,500 m² com corte, soldadura de alta frequência, pressão, montagem e laboratório de qualidade para produção OEM/ODM de SUP insufláveis.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'fábrica SUP China'
+    - 'fábrica de pranchas de paddle insufláveis'
+    - 'fabricante OEM SUP'
+    - 'produção SUP insufláveis'
+hero:
+  tagline: Fábrica
+  title: Fábrica & produção
+  subtitle: 'Fábrica de SUP de 12,500 m2 em Qingdao, China — produção de SUP à medida, da matéria-prima PVC à prancha de paddle insuflável acabada'
+
+answer:
+  label: 'Resposta clara'
+  text: 'Fábrica certificada de SUP insufláveis em Qingdao, China: ISO 9001, ISO 25649, BSCI, CE, REACH e RoHS. Instalação de 12,500 m² em 4 oficinas especializadas, mais de 350 colaboradores, mais de 120,000 pranchas produzidas por ano (10,000 pranchas/mês em 4 linhas automatizadas). Cada prancha é testada em pressão durante 24 horas a 18.0 PSI, passa numa checklist de montagem de 100 pontos e tem uma rastreabilidade de materiais de 10 anos.'
+  verified: 'September 2026'
+
+intro:
+  - 'Como divisão de produção da **Qingdao Vatrad Group Co., Ltd.**, a Vatrad controla cada fase da produção de SUP insufláveis — desde a entrada das matérias-primas em PVC até à inspeção final pré-embarque da prancha de paddle acabada. As nossas instalações de produção na zona de desenvolvimento económico de Qingdao cobrem 12,500 metros quadrados e albergam oficinas dedicadas ao corte do PVC, à laminação do núcleo drop-stitch, à impressão digital dos SUP, à montagem final e ao controlo de qualidade.'
+  - 'Ao integrar design, engenharia, prototipagem, produção e teste sob o mesmo teto, eliminamos as ineficiências da produção por encomenda e mantemos o controlo direto sobre a qualidade de construção, a seleção de materiais e os prazos de entrega. Cada SUP que sai das nossas instalações é construído pelas nossas pessoas, com o nosso equipamento, de acordo com os nossos padrões.'
+
+stats:
+  - value: 12,500 m2
+    label: Superfície produtiva
+  - value: 350+
+    label: Profissionais
+  - value: 120,000+
+    label: SUP produzidos por ano
+  - value: ISO 9001
+    label: Qualidade certificada
+
+intelligence_tagline: Inteligência de fábrica
+intelligence_title: Descobre as nossas capacidades produtivas
+
+intelligence_cards:
+  - title: Capacidade produtiva
+    icon: C
+    icon_bg: blue
+    desc: 'Instalação de 12,500 m² que produz mais de 120,000 SUP/ano em linhas para pranchas SUP e equipamento de segurança. Mais de 350 colaboradores, 2 turnos.'
+    metrics:
+      - label: MOQ
+        value: 'SUP: amostra 1–2 / piloto 20–50 / quantidade 90–100+'
+      - label: Prazos de entrega
+        value: '25–35 dias'
+    link: /factory/capacity
+    link_label: Detalhes completos sobre a capacidade →
+  - title: Laboratório de qualidade & teste
+    icon: Q
+    icon_bg: green
+    desc: 'Laboratório QC independente com 4 níveis de teste: controlo de matérias-primas (resistência à tração, ao rasgamento, UV), manutenção de pressão 24h a 18.0 PSI, teste de peeling das costuras e verificação da rigidez à flexão em cada prancha.'
+    metrics:
+      - label: Equipamento de laboratório
+        value: 'Máquina de tração, câmara térmica, vaso de deteção de fugas'
+      - label: Padrões
+        value: 'QMS: ISO 9001; Mercado: CE, AS 1799'
+    link: /factory/quality-lab
+    link_label: 'Procedimentos de laboratório e equipamento →'
+  - title: Capacidade OEM/ODM
+    icon: O
+    icon_bg: purple
+    desc: 'Serviços OEM/ODM end-to-end: design de moldes personalizados, embalagem de marca própria, cores personalizadas das pranchas, gráficas do deck (impressão digital e serigrafia) e embalagem pronta para exportação.'
+    metrics:
+      - label: Certificações
+        value: 'ISO 9001, BSCI, CE, REACH'
+      - label: Mercados de exportação
+        value: '50+ países'
+    link: /factory/oem-capability
+    link_label: 'Serviços OEM completos →'
+  - title: Padrões de inspeção da qualidade
+    icon: I
+    icon_bg: orange
+    desc: 'Critérios de inspeção de qualidade específicos por projeto em IQC, IPQC, FQC e OQC: verificação de estanquidade ao ar, controlos visuais e dimensionais, confirmação dos acessórios, rastreabilidade dos lotes e libertação pré-embarque — além de uma governação controlada de não conformidade e reprocessamento da estanquidade ao ar.'
+    metrics:
+      - label: Cobertura
+        value: 'Materiais → embalagem final'
+      - label: Downloads
+        value: 'Relatório QC, relatórios PSI e documentos de reprocessamento (PDF)'
+    link: /factory/quality-inspection
+    link_label: 'Padrões de inspeção e downloads →'
+  - title: Padrões de controlo de alterações de reprocessamento
+    icon: C
+    icon_bg: blue
+    desc: 'Controlo formal de alterações ISO 9001 para parâmetros de reprocessamento: ECR, classificação do risco, matriz de libertação interfuncional, ciclo fechado em 9 fases, validação técnica quantificada (18.0 PSI, 24 h de manutenção, ΔP ≤ 0.2 PSI) e proteções Poka-Yoke — com SOP bilingue QMS-SOP-QC-CC-001 Rev 2.0.'
+    metrics:
+      - label: Documento
+        value: 'QMS-SOP-QC-CC-001 Rev 2.0'
+      - label: Downloads
+        value: 'SOP de controlo de alterações e anexo de execução (PDF)'
+    link: /factory/quality-change-control
+    link_label: 'Padrões de controlo de alterações e downloads →'
+  - title: Controlo de produtos não conformes
+    icon: N
+    icon_bg: purple
+    desc: 'ISO 9001:2015 secção 8.7 Controlo de saídas não conformes: registo NCR, quarentena e bloqueio, disposição com base na gravidade (chefe de linha / QC Manager + Engenheiro técnico / MRB), reprocessamento controlado segundo instruções SRI, novo controlo independente a 100% e destruição assistida — vídeo de sucatamento protegido com SHA-256.'
+    metrics:
+      - label: Padrões
+        value: 'ISO 9001:2015 secção 8.7'
+      - label: Certificado de sucatamento
+        value: 'VAT-QA-SCRAP-CERT-2026'
+    link: /factory/non-conforming-control
+    link_label: 'Controlo de produtos não conformes e downloads →'
+  - title: Fluxo de controlo de qualidade em 7 fases
+    icon: Q
+    icon_bg: green
+    desc: 'Todo o fluxo de controlo de qualidade de projeto, ponto por ponto: planeamento de qualidade (PPM) → controlo de entrada de mercadorias → controlo de processo e primeiro artigo → insuflagem e estanquidade ao ar → controlo final → embalagem e PSI → libertação para expedição e rastreabilidade. Cada ponto mostra o que é controlado, como é avaliado e qual o relatório bilingue gerado.'
+    metrics:
+      - label: Pontos
+        value: '01 → 07'
+      - label: Downloads
+        value: 'Dossiês de relatórios por ponto (PDF)'
+    link: /quality
+    link_label: 'Consulta o fluxo em 7 fases →'
+
+workshops_section:
+  tagline: Oficinas
+  title: Oficinas de produção
+  workshops:
+    - title: Corte de PVC & preparação de materiais
+      description: As cortadoras automáticas CNC processam tecidos de PVC, Hypalon e drop-stitch com precisão sub-milimétrica. O aninhamento otimizado por computador minimiza o desperdício de material e garante que cada painel respeite as suas dimensões de especificação antes da soldadura.
+      image: https://assets.supsfactory.com/images/sups/hero/production-dept.webp
+      alt: Cortadora CNC de PVC que prepara os painéis de tecido de SUP insuflável na fábrica de Qingdao
+    - title: Soldadura de câmaras & termosoldadura
+      description: Oficina de soldadura dedicada com soldadoras de ar quente e prensas dielétricas de alta frequência. As soldadoras de ar quente unem e soldam as câmaras dos insufláveis em PVC, enquanto as soldaduras HF criam costuras herméticas de alta resistência que superam os requisitos.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      alt: Máquina de soldadura HF que sela as câmaras dos insufláveis na fábrica de Qingdao
+    - title: Laminação do núcleo drop-stitch
+      description: Os núcleos drop-stitch das pranchas SUP são colados aos laminados externos em PVC através de laminação a quente. Milhares de fios internos de poliéster ligam as camadas superior e inferior, criando uma estrutura rígida a 12-15 PSI. As bandas de rail são coladas por fusão de três camadas para a resistência dos bordos.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing.webp
+      alt: Linha de produção de SUP insufláveis com instalação de laminação do núcleo drop-stitch na fábrica de Qingdao
+    - title: Impressão & decoração SUP
+      description: As pranchas SUP são decoradas através de impressão digital para gráficas a cores plenas e serigrafia para logótipos e motivos repetidos. As impressoras digitais produzem designs de deck fotorrealistas, enquanto a serigrafia oferece marcas de marca duráveis e marcadas.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department-2.webp
+      alt: Interior do departamento de produção na fábrica de SUP insufláveis de Qingdao
+    - title: Montagem final & equipamento
+      description: Linha de montagem onde válvulas, argolas em D, pegas, fin boxes e deck pads são instalados em cada prancha SUP. Cada prancha segue uma checklist de montagem de 100 pontos assinada pelo chefe de equipa.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-production-department.webp
+      alt: Departamento de produção com postos de montagem na fábrica de Qingdao
+    - title: Controlo de qualidade & inspeção
+      description: Cada prancha concluída passa, antes da expedição, num teste obrigatório de retenção de ar, numa verificação de peeling das costuras e num controlo completo do sistema. O nosso laboratório de qualidade opera de forma independente da produção e reporta diretamente à direção.
+      image: https://assets.supsfactory.com/images/sups/factory/supsfactory-pressure-testing.webp
+      alt: Teste de pressão de um SUP insuflável para retenção de ar antes da expedição na fábrica de Qingdao
+
+equipment_section:
+  tagline: Equipamento
+  title: Principal equipamento de produção
+  view_full: Ver a lista completa de equipamento →
+  view_full_link: /factory/equipment
+  items:
+    - name: Cortadora automática de PVC
+      spec: Controlada por CNC, precisão 0.1 mm
+    - name: Soldadora de ar quente
+      spec: Ar quente, 200°C–300 °C, para colagem de câmaras
+    - name: Prensa de soldadura dielétrica HF
+      spec: 15 kW, soldadura de costuras herméticas
+    - name: Prensa de laminação de núcleo drop-stitch
+      spec: Núcleos SUP até 14 ft
+    - name: Impressora digital
+      spec: Gráficas de deck SUP a cores plenas
+    - name: Máquina de serigrafia
+      spec: Impressão de logótipos multicolor
+
+qc_section:
+  tagline: Controlo de qualidade
+  title: Processo de teste e garantia de qualidade
+  subtitle: Cada prancha passa, antes da expedição, num teste obrigatório. O nosso laboratório de qualidade opera de forma independente da produção e reporta diretamente à direção.
+  steps:
+    - step: '1'
+      title: Controlo de matérias-primas
+      desc: Os tecidos de PVC, Hypalon e drop-stitch são submetidos a provas de resistência à tração, teste de rasgamento e verificação da resistência aos raios UV antes de um lote entrar na produção.
+    - step: '2'
+      title: Teste de retenção de ar de 24 horas
+      desc: Cada câmara é insuflada a 18.0 PSI e mantida durante 24 horas. Uma queda de pressão superior a 0.50 PSI ativa a rejeição automática e o re-controlo das costuras.
+    - step: '3'
+      title: Teste de carga e balanceamento
+      desc: As pranchas acabadas são insufladas à pressão nominal e controladas quanto a enchimento simétrico, rigidez a 15 PSI e estabilidade sob carga. Cada prancha é testada em água no nosso vaso de prova antes do controlo final.
+
+oem_section:
+  tagline: Projetos OEM
+  title: Casos de estudo de parcerias com marcas & OEM
+  subtitle: Do conceito à produção — como ajudamos marcas globais a lançar e escalar as suas linhas de SUP insufláveis.
+  cases:
+    - challenge: Um retalhista outdoor europeu precisava de uma linha de SUP de marca própria com gráficas de deck únicas, PVC eco-friendly e embalagem pronta para o retalho — tudo entregue em 60 dias.
+      solution: Desenvolvimento de ficheiros de impressão digital personalizados, fornecimento de PVC conforme REACH e compressão da fase de amostra de 3 rounds para 1 graças à equipa de design alojada na nossa fábrica de Qingdao.
+      result: 'Produção em 25–35 dias a partir da encomenda assinada, com a primeira entrega dentro da janela dos 60 dias. 2,400 unidades em 4 SKU. Encomenda repetida antes de o primeiro lote estar totalmente entregue.'
+      disclaimer: 'Resumo de projeto anonimizado — o tipo e o âmbito do projeto são representativos; os resultados concretos não são verificáveis de forma independente.'
+    - challenge: Uma startup americana de desportos aquáticos precisava de um SUP drop-stitch de alto desempenho com forma personalizada, embalagem em co-branding e certificação BSCI para o retalho.
+      solution: Adaptação de uma forma SUP existente com contorno modificado, desenvolvimento de gráficas de embalagem em co-branding e fornecimento da documentação completa de auditoria BSCI.
+      result: 'Posicionamento bem-sucedido junto dos principais retalhistas outdoor dos EUA, com forte impulso graças a mais de 5,000 unidades vendidas no primeiro ano e uma taxa de conclusão de 98%.'
+      disclaimer: 'Resumo de projeto anonimizado — o tipo e o âmbito do projeto são representativos; os resultados concretos não são verificáveis de forma independente.'
+    - challenge: Um distribuidor australiano precisava de uma série SUP certificada CE com cores personalizadas e conformidade com os padrões australianos.
+      solution: Produção de amostras de pré-série com 4 variantes de cor e coordenação dos testes de conformidade de terceiros.
+      result: 'Lançamento de uma série SUP de 3 modelos no mercado AU/NZ. Seguido de um sucesso em contrato governamental para 12 SUP de patrulha.'
+      disclaimer: 'Resumo de projeto anonimizado — o tipo e o âmbito do projeto são representativos; os resultados concretos não são verificáveis de forma independente.'
+
+faq_section:
+  tagline: FAQ
+  title: Perguntas frequentes sobre B2B & OEM
+  questions:
+    - q: Qual é a quantidade mínima de encomenda (MOQ) para pranchas SUP insufláveis OEM?
+      a: 'O MOQ é confirmado com base na configuração do projeto e não num número fixo — casco e equipamento, variantes de cor e PVC, gráficas, embalagem e acessórios. A produção padrão em série roda com 90–100+ unidades por lote a partir de uma bobina completa de drop-stitch de 150 m, o co-branding em pequenos lotes começa em 5–10 unidades e cada projeto passa pelas fases de amostra (1–2 unidades) e piloto (20–50 unidades). Consulta o nosso guia MOQ & branding flexível para a lógica completa de cálculo.'
+    - q: A Vatrad possui certificação BSCI?
+      a: 'Sim. A nossa fábrica detém uma certificação de conformidade social BSCI válida (relatório de auditoria disponível a pedido). Mantemos também ISO 9001 para a gestão da qualidade. A certificação CE aplica-se aos modelos destinados ao mercado da UE; o âmbito é confirmado para cada projeto. A documentação de conformidade REACH e RoHS é fornecida com cada encomenda OEM.'
+    - q: Qual é o prazo de entrega típico para uma encomenda OEM?
+      a: 'O prazo de entrega padrão é de 25–35 dias a partir da PO e do sinal confirmados para a produção OEM em volume. O design de formas personalizadas acrescenta 15–20 dias para a criação do molde. A produção expressa está disponível para encomendas urgentes e picos sazonais. As amostras de protótipo ficam normalmente prontas em 7–12 dias.'
+    - q: Gerem a documentação comercial de exportação?
+      a: 'Sim. A nossa equipa gere internamente a documentação comercial de exportação e o desalfandegamento, e expedimos para mais de 50 países nos mercados da UE, EUA, AU e asiáticos.'
+
+b2b_moq: 'MOQ confirmado com base na configuração do projeto: amostra 1–2, piloto 20–50, quantidade 90–100+ (por bobina de 150 m); co-branding em pequenos lotes a partir de 5–10 unidades.'
+
+production_flow:
+  tagline: Fluxo de produção
+  title: Do material à prancha acabada
+  subtitle: Cada prancha passa por 6 fases de produção com pontos de controlo QC em cada passo. Sem atalhos, sem inspeções saltadas.
+  stages:
+    - stage: '01'
+      title: Entrada de mercadorias & QC de entrada
+      description: 'Todos os materiais de entrada são registados no nosso sistema ERP com número de lote. As bobinas de tecido PVC, os núcleos drop-stitch, as válvulas, os adesivos e os acessórios são mantidos em quarentena até à libertação QC.'
+      qc_check: 'Resistência à tração (ASTM D751), resistência ao rasgamento (ISO 4674), medição de espessura, viscosidade dos adesivos, leitura de defeitos visuais'
+      qc_threshold: '100% dos lotes testados. Rejeição se resistência à tração < 90% da especificação, resistência ao rasgamento < mínimo de spec. ou presença de um defeito visual'
+      responsibility: Equipa QC de entrada (3 inspetores)
+    - stage: '02'
+      title: Corte CNC & preparação de materiais
+      description: 'O aninhamento otimizado por computador dispõe os painéis sobre a matéria-prima PVC para minimizar os desperdícios. As cortadoras automáticas CNC mantêm uma precisão de posicionamento de 0.1 mm.'
+      qc_check: 'Verificação dimensional contra os ficheiros CAD-DXF, inspeção da qualidade dos bordos, verificação do número de painéis'
+      qc_threshold: 'Medido a cada 20.º painel. Tolerância ±0.5 mm. Rejeitar o lote se >2% fora de tolerância'
+      responsibility: Chefe da oficina de corte
+    - stage: '03'
+      title: Soldadura & colagem drop-stitch
+      description: 'Os núcleos drop-stitch são colados aos laminados externos em PVC através de laminação a quente. As câmaras são soldadas com HF ou ar quente. As bandas de rail são coladas por fusão de três camadas.'
+      qc_check: 'Teste de peeling a cada 50 unidades (ASTM D751), medição da largura da soldadura, verificação do log de temperatura do ar quente, inspeção visual das costuras à contraluz'
+      qc_threshold: 'Resistência ao peeling mín. 8 N/cm. Tolerância da largura da soldadura ±1 mm. Ranhura visível = rejeição'
+      responsibility: QC de soldadura (2 inspetores por turno)
+    - stage: '04'
+      title: Montagem & equipamento
+      description: 'As pranchas entram na montagem final onde convergem todos os componentes: painéis de deck e casco soldados, válvulas instaladas, argolas em D, pegas, fin boxes e bolsa de transporte montados. Cada unidade segue uma checklist de montagem de 100 pontos.'
+      qc_check: 'Libertação da checklist de 100 pontos por unidade, teste funcional da válvula (10 ciclos abertura/fecho), verificação do torque dos acessórios, inspeção visual'
+      qc_threshold: 'Política de zero defeitos nos componentes críticos para a segurança (válvulas, argolas em D, pegas). Cosmética menor: AQL 2.5 (ISO 2859)'
+      responsibility: Chefe de equipa de montagem + QC de linha
+    - stage: '05'
+      title: Teste de pressão & bloqueio de qualidade
+      description: 'Cada câmara é insuflada a 18.0 PSI (para um SUP com rating de 12–15 PSI) e mantida durante 24 horas. Os sensores de pressão registam em modo contínuo. As câmaras com uma queda de pressão superior a 0.50 PSI são rejeitadas e enviadas ao re-controlo das costuras.'
+      qc_check: 'Registo da manutenção de pressão 24h, calibração dos sensores verificada diariamente, medição de pressão compensada em temperatura, teste das costuras após reparação'
+      qc_threshold: 'Máx. 0.50 PSI de queda de pressão em 24h a temperatura estável. Cada câmara que exceda isto = novo teste a 100% de todo o lote de produção'
+      responsibility: Laboratório de qualidade (independente da produção, reporta à direção)
+    - stage: '06'
+      title: Controlo final & embalagem
+      description: 'Controlo visual e funcional final. Defeitos superficiais, coerência da cor, verificação de etiquetas/BIN, integridade da embalagem e completude dos acessórios. As unidades são embaladas a vácuo, colocadas em cartões e paletizadas em camadas para o carregamento em contentor.'
+      qc_check: 'Inspeção visual completa, checklist de acessórios por SKU, drop test de embalagem (1 m, amostra), verificação da leitura de etiquetas/códigos de barras'
+      qc_threshold: 'AQL 2.5 para defeitos graves, AQL 4.0 para defeitos ligeiros. Tolerância zero para defeitos de segurança. 100% das unidades inspecionadas visualmente'
+      responsibility: Equipa QC final (4 inspetores) + chefe de equipa de embalagem
+
+workforce:
+  tagline: As nossas pessoas
+  title: Força de trabalho & competências
+  engineers: 25+
+  engineers_detail: 'Engenheiros em I&D, design de moldes, laboratório de materiais e engenharia de produção. Em média mais de 7 anos de experiência na produção de insufláveis.'
+  shift_pattern: '2 turnos/dia (07:00–15:30, 15:30–00:00). Turno noturno opcional para encomendas urgentes.'
+  training: 'Formação QC mensal, exercícios de segurança trimestrais, avaliação anual de competências. As novas contratações completam uma introdução de 40 horas antes de trabalhar na linha de produção.'
+  departments:
+    - name: I&D & engenharia
+      count: 25+
+      role: Design de produto, engenharia de moldes, laboratório de materiais
+    - name: Corte & preparação de materiais
+      count: 15
+      role: Corte CNC, preparação de painéis, movimentação de materiais
+    - name: Soldadura & laminação
+      count: 40
+      role: Soldadura HF, soldadura de ar quente, colagem drop-stitch
+    - name: Laminação de núcleos SUP
+      count: 30
+      role: Laminação drop-stitch, colagem a quente, fusão de banda de rail
+    - name: Montagem & equipamento
+      count: 35
+      role: Montagem final, instalação de acessórios, controlo de sistema
+    - name: Controlo de qualidade
+      count: 12
+      role: QC de entrada, QC de processo, controlo final, teste de laboratório
+    - name: Logística & embalagem
+      count: 20
+      role: Embalagem, carregamento de contentores, documentação comercial de exportação
+    - name: Gestão & administração
+      count: 15
+      role: Vendas, compras, RH, finanças, conformidade
+
+material_traceability:
+  tagline: Rastreabilidade
+  title: Rastreamento de materiais & controlo de lotes
+  description: Cada lote de matéria-prima recebe um número de lote único no nosso sistema ERP. Da entrada até à produção e ao produto final, a lista de materiais de cada prancha remete para o lote original do fornecedor. Isto permite uma rastreabilidade total a montante para qualquer pedido de qualidade ou conformidade.
+  system: ERP personalizado (sistema interno do Qingdao Vatrad Group) + marcações físicas dos lotes em cada ordem de trabalho
+  coverage: '100% do material de produção — PVC, Hypalon, tecido drop-stitch, adesivos, válvulas, acessórios, embalagem'
+  records_retained: 10 anos (segundo requisito CE 2013/53/UE)
+  suppliers:
+    - material: PVC de qualidade marítima
+      source: Fornecedores chineses e coreanos
+      certified: ISO 9001, REACH, RoHS
+    - material: 'Hypalon (CSM)'
+      source: Fornecedor japonês
+      certified: ISO 9001, REACH
+    - material: Tecido drop-stitch
+      source: Tecedeira própria + parceiro externo
+      certified: QC interno + fornecedor ISO 9001
+    - material: Válvulas & acessórios
+      source: Fornecedores OEM chineses
+      certified: ISO 9001, certificados de materiais por lote
+
+qc_dashboard:
+  tagline: QC em números
+  title: Métricas de controlo de qualidade
+  subtitle: Dados reais de passou/não passou da nossa linha de produção. O nosso laboratório de qualidade opera de forma independente da produção e reporta diretamente à direção.
+  stats:
+    - value: 100%
+      label: Unidades testadas em pressão
+      detail: Cada prancha, cada câmara, cada lote
+    - value: '<5%'
+      label: Máx. queda de pressão permitida
+      detail: Em 24h a 18.0 PSI
+    - value: AQL 2.5
+      label: Limiar para defeitos graves
+      detail: Segundo padrão de amostragem ISO-2859
+    - value: 24h
+      label: Duração da manutenção de pressão
+      detail: Cada prancha, cada câmara
+    - value: 18 PSI
+      label: Pressão de teste vs. nominal
+      detail: Margem de segurança em cada câmara
+    - value: 0%
+      label: Tolerância em defeitos de segurança
+      detail: Válvulas, argolas em D, costuras, flutuabilidade
+
+process_cta:
+  title: Vê o nosso processo de produção
+  desc: Segue um SUP em cada fase da produção — da matéria-prima à prancha pronta para a água.
+  label: Ver o processo de produção →
+  link: /factory/process
+
+evidence_review:
+  tagline: 'Provas & verificação'
+  title: 'Provas de fábrica — Verificadas'
+  body: 'Todas as declarações de produção nesta página são verificadas pela nossa Manufacturing Engineering Team no site de Laixi, Qingdao. Certificados, registos de inspeção QC, relatórios de testes de pressão e estruturais e registos de rastreabilidade dos lotes estão disponíveis a pedido. Especificações verificadas pela última vez em setembro de 2026.'
+
+cta:
+  title: 'Explora a nossa fábrica'
+  actions:
+    - text: Checklist de auditoria da fábrica
+      href: /factory-audit-checklist

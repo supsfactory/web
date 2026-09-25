@@ -1,0 +1,349 @@
+meta:
+  title: 'Controlo de alterações & validação dos parâmetros de retrabalho | SUPsfactory'
+  description: 'Controlo de alterações dos parâmetros de retrabalho sob ISO 9001: ECR, classificação de risco, matriz de libertação, validação e nova verificação para a produção SUP.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'controlo alterações retrabalho sup'
+    - 'controlo alterações iso 9001 produção'
+    - 'gestão qualidade oem sup insufláveis'
+    - 'ecr engineering change request sup'
+    - 'padrão validação estanquicidade ao ar'
+    - 'garantia qualidade fábrica sup'
+
+hero:
+  tagline: Controlo de alterações dos parâmetros de retrabalho
+  title: Padrão de controlo & validação das alterações dos parâmetros de processo de retrabalho
+  subtitle: 'Na QINGDAO VATRAD GROUP.,LTD. nenhum operador, chefe de turno ou departamento individual pode modificar no terreno um parâmetro de retrabalho libertado. Cada alteração proposta a materiais de retrabalho libertados, condições de processo, equipamento, métodos de ensaio, critérios de inspeção ou pessoal autorizado é gerida através de um controlo de alterações documentado — Engineering Change Request, avaliação de impacto e risco, libertação interfuncional, plano de validação, implementação controlada, nova verificação e prova de eficácia, e depois encerramento e conservação dos registos. Esta página apresenta o nosso padrão controlado QMS-SOP-QC-CC-001 (Rev 2.0, baseado na ISO 9001:2015) e as evidências técnicas na sua base.'
+  actions:
+    - text: Descarregar a SOP de controlo de alterações (PDF)
+      variant: primary
+      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Descarregar o anexo de execução A (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Solicitar um controlo de qualidade
+      href: /contact
+
+answer:
+  label: 'Resposta clara'
+  text: 'As alterações aos parâmetros de retrabalho nunca são decididas oralmente ou retroativamente na QINGDAO VATRAD GROUP.,LTD. Cada alteração proposta a materiais de retrabalho libertados, condições de processo, equipamento, métodos de ensaio, critérios de inspeção ou pessoal autorizado deve passar por um controlo formal de alterações antes da implementação: um Engineering Change Request (ECR) documentado, avaliação de impacto e risco, verificação interfuncional de design, qualidade, produção, aprovisionamento e projeto, libertação ao nível definido pela nossa matriz de autorização, um plano de validação libertado para as alterações de alto risco, implementação piloto controlada, nova verificação e prova de eficácia, bem como encerramento apenas após revisão documental e formação. Cada alteração que afeta especificações aprovadas pelo cliente, amostras, BOM, gráficas ou critérios de aceitação exige ainda a libertação escrita do cliente.'
+  verified: 'September 2026'
+
+stats:
+  tagline: Em síntese
+  title: O controlo de alterações em números
+  stats:
+    - value: '9'
+      label: Fases no ciclo fechado de controlo de alterações
+    - value: '6'
+      label: Categorias de alteração que exigem controlo formal
+    - value: '4'
+      label: Processos de retrabalho core com parâmetros quantificados
+    - value: '≥ 5'
+      label: Pranchas amostra + 2 QC independentes para a validação de alto risco
+
+
+cc_intro:
+  tagline: Âmbito & política
+  title: Princípios de governança core
+  body: |
+    **Documento:** QMS-SOP-QC-CC-001 — *Padrão de controlo de alterações para os parâmetros de processo de retrabalho* (Rev 2.0, publicação oficial). **Produtor:** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Referência de padrão:** ISO 9001:2015 Sistemas de gestão da qualidade.
+
+    - **Sem alterações não controladas.** As alterações aos parâmetros de retrabalho devem passar por um controlo formal de alterações. Os operadores no terreno, os chefes de turno ou um departamento individual nunca devem modificar os parâmetros de retrabalho libertados com um acordo verbal ou um registo escrito à mão num relatório de retrabalho.
+    - **Cobertura completa dos elementos.** O âmbito controlado inclui estanquicidade ao ar, sedes das válvulas, rail bands, colagem das costuras, cura a ar quente e testes de manutenção da pressão — cada parâmetro que pode influenciar a selagem, a durabilidade estrutural, o aspeto, a aceitação do cliente ou a rastreabilidade.
+    - **A libertação do cliente como ponto central.** Cada alteração que afasta um produto da amostra aprovada pelo cliente, da especificação técnica, da BOM, das gráficas, do requisito de embalagem ou dos critérios de aceitação é implementada apenas com a libertação escrita do cliente. Sem ela, a prancha é retrabalhada, substituída ou rejeitada segundo o requisito original — nunca "afrouxada" apenas pela fábrica.
+
+cc_scope:
+  tagline: Classificação de risco
+  title: Âmbito das alterações & classificação de risco
+  subtitle: Cada uma das seguintes alterações ativa o controlo formal de alterações — nunca é gerida com uma nota no relatório de retrabalho. O nível de risco determina quem liberta e quanta validação é exigida.
+  headers:
+    category: Categoria de alteração
+    examples: Exemplos típicos
+    risk: Risco
+    requirements: Requisitos de controlo & libertação
+  rows:
+    - category: 'Materiais de retrabalho'
+      examples: 'Adesivo, desengordurante, material de reparação, junta da válvula, primário ou mudança de fornecedor'
+      risk: 'Alto'
+      requirements: 'Verificação interfuncional + validação de compatibilidade de materiais & manutenção de pressão + libertação do cliente quando aplicável'
+    - category: 'Condições de processo'
+      examples: 'Preparação da superfície, temperatura/humidade de cura a ar quente, pressão de prensagem, duração da manutenção'
+      risk: 'Alto'
+      requirements: 'Libertação de design + qualidade com validação definida das janelas de temperatura & humidade'
+    - category: 'Equipamento & instrumentos de medição'
+      examples: 'Manómetros, detetores de fugas, termoelementos de ar quente, ferramentas para válvulas, software de ensaio'
+      risk: 'Médio/Alto'
+      requirements: 'Verificação de validade da calibração + avaliação da adequação do equipamento'
+    - category: 'Âmbito do defeito'
+      examples: 'Extensão da área de retrabalho; micro-reparação superficial que cresce para zonas críticas de rail, costura ou sede de válvula'
+      risk: 'Alto'
+      requirements: 'Superfícies estruturalmente portantes: paragem obrigatória e nova avaliação'
+    - category: 'Métodos de inspeção'
+      examples: 'Método de deteção de fugas, pressão de ensaio (18.0 PSI), duração da manutenção (24h)'
+      risk: 'Alto'
+      requirements: 'Libertação de qualidade + confirmação do acordo técnico do cliente'
+    - category: 'Documentação & autorização'
+      examples: 'Instrução de retrabalho, folhas de inspeção, lógica de disposição NCR, qualificação de operadores'
+      risk: 'Médio'
+      requirements: 'Revisão documental controlada (Rev A → Rev B) + evidências de formação'
+
+cc_containment:
+  tagline: Regra da paragem rígida
+  title: Contenção imediata quando as condições ficam sérias
+  body: |
+    > "O método de retrabalho existente deve ser submetido a verificação e não aplicado a mais produtos afetados até a alteração ser avaliada e autorizada, a menos que um desvio temporário documentado tenha sido aprovado pela Qualidade e pelo Design."
+
+    O método de retrabalho em vigor deve ser suspenso imediatamente se a nova verificação do retrabalho continuar a falhar, se o defeito afetar zonas estruturalmente portantes (base da válvula, rail, costuras, áreas de pressão de proa/proa-popa), se um material de substituição ainda não estiver validado ou se os parâmetros atuais colidirem com a especificação aprovada pelo cliente.
+
+    Os desvios temporários nunca se tornam prática permanente: cada um traz uma janela de validade definida, um âmbito de partida aplicável, um teto de quantidade, requisitos de validação e um mecanismo de expiração automática. Uma exceção verbal não é uma exceção — se não estiver documentada com a sua expiração, não existe.
+
+cc_flow:
+  tagline: Ciclo fechado padrão em 9 fases
+  title: Do pedido de alteração ao encerramento e à conservação
+  subtitle: 'Um ciclo documentado para cada alteração de parâmetros: propor, filtrar, avaliar, libertar, validar, pilotar, verificar, rever, encerrar.'
+  steps:
+    - step: '01'
+      title: Pedido de alteração (ECR)
+      desc: 'Qualquer departamento pode apresentar um pedido, mas é patrocinado pelo Design, pela Qualidade ou pela direção de produção. O ECR responde ao porquê da alteração, ao que muda, ao que é afetado e a como será verificado — com número de controlo de alterações, NCR/CAPA ligado, parâmetro atual vs. proposto, partidas afetadas e classificação de alteração temporária/permanente.'
+    - step: '02'
+      title: Filtragem inicial & contenção
+      desc: 'O pedido é primeiro filtrado para a contenção imediata: o método atual deve ser parado agora? Se for permitido um desvio temporário, é limitado por janela de validade, âmbito de partida, teto de quantidade e expiração automática.'
+    - step: '03'
+      title: Avaliação de impacto & risco
+      desc: 'Design, Qualidade, Produção, Aprovisionamento/cadeia de abastecimento e Projeto avaliam o desempenho do produto, os critérios de aceitação, a compatibilidade dos materiais, o aspeto, a capacidade de processo, o equipamento e os instrumentos de medição, a qualificação do pessoal, os requisitos do cliente, a conformidade e o âmbito da rastreabilidade.'
+    - step: '04'
+      title: Verificação conjunta & libertação
+      desc: 'A libertação segue a matriz de autorização fixa — não "quem fala mais alto". As alterações de alto risco exigem a libertação interfuncional e, quando necessário, a libertação escrita do cliente antes de qualquer tentativa.'
+    - step: '05'
+      title: Plano de validação
+      desc: 'Para as alterações de alto risco é exigido um plano de validação libertado antes da aplicação de rotina: pranchas amostra representativas, método atual vs. proposto, métodos de ensaio, critérios de aceitação, níveis de inspeção, responsáveis e cronograma.'
+    - step: '06'
+      title: Pilotos controlados & implementação
+      desc: 'Os novos documentos são libertados e as versões obsoletas retiradas e marcadas OBSOLETE; os novos materiais e instrumentos de medição são verificados e calibrados; os operadores são formados e qualificados; a primeira partida corre sob inspeção reforçada com marcação clara de estado.'
+    - step: '07'
+      title: Nova verificação & prova de eficácia
+      desc: 'A taxa de primeiro passe da retrabalhagem, a taxa de aprovação da nova verificação, a taxa de repetição e a aceitação do aspeto são medidas e verificadas antes de a alteração ser considerada eficaz — uma prancha reparada nunca é tratada como validação de processo.'
+    - step: '08'
+      title: Revisão documental & formação
+      desc: 'Instruções de trabalho, folhas de inspeção, opções de disposição NCR, fichas de parâmetros e materiais de formação são atualizados para a nova revisão, com formação prática registada e qualificação do operador.'
+    - step: '09'
+      title: Encerramento & conservação dos registos
+      desc: 'A alteração é encerrada apenas depois de as evidências de validação, as atualizações documentais, as evidências de formação e a eficácia da implementação serem verificadas e libertadas. Se o resultado previsto não for alcançado, a alteração é revista, alargada, suspensa ou retirada.'
+
+cc_approval:
+  tagline: Matriz de libertação
+  title: Matriz de autorização interfuncional
+  subtitle: 'Uma tabela de autorização fixa previne as decisões ad hoc: cada tipo de alteração tem os seus aprovadores exigidos, da precisão ao nível documental até à libertação do cliente.'
+  headers:
+    change: Conteúdo da alteração
+    engineering: Design
+    quality: Qualidade
+    production: Produção
+    procurement: Aprovisionamento
+    project: Projeto / Vendas
+    customer: Cliente
+  rows:
+    - change: 'Clarificação da formulação documental (sem impacto nos parâmetros)'
+      engineering: Verificação
+      quality: 'Libertação'
+      production: Notificação
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Ajuste da sequência operativa de retrabalho'
+      engineering: 'Libertação'
+      quality: 'Libertação'
+      production: Contrafirmação
+      procurement: '—'
+      project: Notificação
+      customer: Conforme exigido
+    - change: 'Nova qualificação de um operador de retrabalho'
+      engineering: Verificação
+      quality: 'Libertação'
+      production: 'Libertação'
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Mudança de equipamento/instrumentos de ensaio'
+      engineering: 'Libertação'
+      quality: 'Libertação'
+      production: Contrafirmação
+      procurement: Conforme necessário
+      project: '—'
+      customer: Conforme exigido
+    - change: 'Material/fornecedor de retrabalho de substituição'
+      engineering: 'Libertação'
+      quality: 'Libertação'
+      production: Contrafirmação
+      procurement: Contrafirmação
+      project: Notificação
+      customer: Pode ser exigido
+    - change: 'Alteração dos parâmetros de pressão/manutenção/cura'
+      engineering: 'Libertação'
+      quality: 'Libertação'
+      production: Contrafirmação
+      procurement: '—'
+      project: Notificação
+      customer: Se o projeto o exigir
+    - change: 'Alteração do método de retrabalho de rail/costura/sede de válvula'
+      engineering: 'Libertação'
+      quality: 'Libertação'
+      production: Contrafirmação
+      procurement: Conforme necessário
+      project: Notificação
+      customer: Geralmente recomendado
+    - change: 'Alteração de especificação do cliente, amostra de libertação ou critérios de aceitação'
+      engineering: 'Libertação'
+      quality: 'Libertação'
+      production: Contrafirmação
+      procurement: '—'
+      project: Contrafirmação
+      customer: 'Libertação escrita obrigatória'
+
+cc_validation:
+  tagline: Validação de engenharia
+  title: Protocolo de validação & aceitação — evidências, não afirmações
+  body: |
+    Uma formulação de aceitação vaga como *"a prancha reparada deve estar boa"* não é aceite. A formulação controlada é:
+
+    > "O exemplar retrabalhado deve cumprir os mesmos critérios de aceitação aplicáveis de estanquicidade ao ar, acabamento visual, função da válvula e específicos do projeto de uma prancha conforme, a menos que um desvio aprovado pelo cliente defina expressamente um critério alternativo."
+
+    As evidências de validação são quantitativas e a baseline técnica para o retrabalho de estanquicidade ao ar inclui:
+
+    - **Eliminação da fuga & manutenção da pressão.** A fuga original é eliminada sem bolhas persistentes na deteção com água saponosa; a prancha mantém a pressão à pressão de ensaio padrão de 18.0 PSI durante 24 horas, com queda de pressão líquida ΔP ≤ 0.2 PSI após compensação de temperatura/humidade — a baseline mais rigorosa para a validação do retrabalho, separada do limiar de exclusão automática de 0.50 PSI aplicado à aceitação final da linha de produção.
+    - **Função da válvula.** O aperto do núcleo da válvula cumpre a especificação de 15–20 N·m, sem micro-fugas na junta sob inflagem a alta pressão e pressão dinâmica.
+    - **Colagem das costuras & durabilidade.** Os bordos de colagem não mostram levantamentos, branqueamentos ou delaminação; após os ciclos de envelhecimento térmico/humidade, a camada adesiva não mostra amolecimento ou fissuras frágeis.
+    - **Aspeto & acabamento.** Sem excesso de adesivo, sem danos no EVA, sem deformação da prancha e sem deslocamento do logótipo ou riscos na superfície impressa.
+
+cc_engineering:
+  tagline: Matriz de execução de engenharia
+  title: Parâmetros quantificados para os quatro processos de retrabalho core
+  subtitle: 'Cada processo de retrabalho controlado traz parâmetros definidos, metodologia e critérios de aceitação — os mesmos números que os nossos operadores seguem e que os clientes podem verificar durante as auditorias.'
+  headers:
+    process: Processo de retrabalho
+    parameters: Parâmetros controlados
+    methodology: Metodologia de ensaio
+    acceptance: Critérios de aceitação
+  rows:
+    - process: 'Reparação de furos de alfinete/micro-fugas'
+      parameters: 'Limpeza com solvente & secagem 3–5 min; ativação a ar quente 60°C ± 5°C; rolo de prensagem ≥ 0.4 MPa'
+      methodology: 'Inflar a 18 PSI; imersão completa em água ou aplicação de sabão; observar durante 10 minutos'
+      acceptance: 'Emissão de bolhas igual a zero; abdução do bordo a 180° sem levantamentos e sem excesso de adesivo'
+    - process: 'Re-colagem de rail band/costura'
+      parameters: 'Rácio de adesivo bicomponente estritamente controlado; ambiente 22–28°C, ≤ 65% humidade relativa; prensa do gabarito ≥ 4 h'
+      methodology: 'Teste de sobrepressão a 22 PSI durante 2 h; depois 6 h de cura em forno a quente a 50°C e 2 h de repouso à temperatura ambiente'
+      acceptance: 'Separação igual a zero, fissuras igual a zero; queda de pressão líquida ΔP ≤ 0.1 PSI; camada adesiva sem branqueamentos ou fragilização'
+    - process: 'Afolgamento da base da válvula / micro-fuga'
+      parameters: 'Aperto dedicado da chave 18–20 N·m; anel de vedação plano sem deformações; limpeza da rosca confirmada'
+      methodology: 'Inflar a 15 PSI; 20 ciclos de inflagem/descompressão; observação durante a imersão em água'
+      acceptance: 'Bolhas iguais a zero no núcleo da válvula e em redor da base; aperto após os ciclos ≥ 16 N·m'
+    - process: 'Teste final de manutenção de pressão de 24h'
+      parameters: 'Inflagem de referência 18.0 PSI; manómetro digital classe 1.0 / ±0.5%; temperatura & humidade ambiente registadas e compensadas'
+      methodology: 'Registador de pressão digital; curva de pressão contínua de 24h'
+      acceptance: 'Queda de pressão líquida ΔP ≤ 0.20 PSI / 24 h após compensação; nenhuma abaulagem ou deformação da prancha'
+
+cc_photos:
+  tagline: Na área produtiva
+  title: Reparação, reteste, libertação — documentados em cada passo
+  subtitle: As fotos da nossa oficina de Qingdao mostram cada processo de retrabalho controlado com os seus instrumentos de medição calibrados, os parâmetros definidos e os registos no local — as mesmas evidências que os inspetores podem solicitar a qualquer momento.
+  grid: 'sm:grid-cols-2'
+  features:
+    - image: https://assets.supsfactory.com/site/quality/cc-pinhole-repair.avif
+      alt: Técnico repara uma micro-fuga por furo de alfinete num SUP insuflável com pistola de ar quente e rolo de prensagem
+      title: Reparação de furos de alfinete
+      desc: 'Um técnico trata uma micro-fuga marcada com uma pistola de ar quente configurada para a especificação de 60°C e um rolo de prensagem; a água saponosa confirma a posição da fuga e o formulário ECR assinado pela QC no banco mostra o gate de controlo de alterações (Poka-Yoke n.º 1).'
+    - image: https://assets.supsfactory.com/site/quality/cc-rail-seam-bonding.avif
+      alt: Técnico aplica adesivo PU bicomponente com pincel de precisão numa costura do rail sob clima controlado
+      title: Colagem da costura do rail
+      desc: 'O adesivo PU bicomponente é aplicado com um pincel de precisão na costura do rail enquanto a prancha é mantida numa prensa do gabarito; o termómetro/higrómetro no local mostra a janela controlada de 24°C / 55% humidade relativa.'
+    - image: https://assets.supsfactory.com/site/quality/cc-valve-base-integrity.avif
+      alt: Chave dinamométrica digital configurada a 19 N·m a apertar o núcleo da válvula contra o material drop-stitch
+      title: Integridade da base da válvula
+      desc: 'Uma chave dinamométrica digital, configurada para a especificação de 19 N·m, executa o aperto final do núcleo da válvula e sela a base contra o material drop-stitch — o instrumento traz a etiqueta verde CALIBRATED.'
+    - image: https://assets.supsfactory.com/site/quality/cc-pressure-hold-testing.avif
+      alt: SUP insufláveis acabados ligados a registadores de pressão digitais na área de teste final de manutenção de pressão
+      title: Verificação final de manutenção de pressão
+      desc: 'As pranchas acabadas são ligadas a registadores de pressão digitais de alta precisão; o manómetro master mostra a referência de 18.00 PSI e todos os dados de ensaio são carregados automaticamente e ligados ao sistema de rastreabilidade do contrato.'
+
+cc_pokayoke:
+  tagline: Proteção à prova de erro
+  title: 'Poka-Yoke: bloqueios rígidos que param as alterações não controladas'
+  subtitle: O padrão é aplicado não apenas através de procedimentos, mas com bloqueios físicos e sistémicos que tornam impossíveis as alterações não controladas.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Gate ECR para a ativação das ferramentas
+      desc: 'As estações de retrabalho leem um código de barras ECR assinado pela QA antes de as válvulas de inflagem pneumáticas e os misturadores de adesivo se ativarem. Sem evidência de controlo de alterações libertado, sem alimentação — a assinatura retroativa ("primeiro muda, depois assina") é fisicamente bloqueada.'
+    - icon: 2
+      icon_bg: green
+      title: Expiração automática dos desvios temporários
+      desc: 'Os desvios temporários têm um teto hard-coded no sistema (ex. máximo de 50 pranchas ou 7 dias de calendário). Atingir o teto bloqueia a partida e bloqueia a impressão da etiqueta de passagem de envio até a alteração ser formalmente avaliada.'
+    - icon: 3
+      icon_bg: purple
+      title: Evidência mínima de validação
+      desc: 'As alterações de alto risco exigem pelo menos 5 pranchas amostra representativas que cobrem o limite de tolerância superior e inferior, totalmente testadas por 2 inspetores QC independentes antes de poder ser emitido um relatório de validação — uma prancha reparada nunca é tratada como validação de processo.'
+    - icon: 4
+      icon_bg: orange
+      title: Controlo documental 1-in-1-out
+      desc: 'As fichas obsoletas das estações de trabalho são fisicamente retiradas e invalidadas (perfuradas) antes de a nova ficha ser emitida carimbada com o selo vermelho controlado — as versões antigas e novas nunca partilham uma estação de trabalho.'
+
+cc_downloads:
+  tagline: Documentos QMS para download
+  title: Documentos bilingues controlados (PDF)
+  subtitle: Documentos oficiais bilingues EN/ZH da QINGDAO VATRAD GROUP.,LTD. — prontos para auditorias de clientes, white papers técnicos B2B e distribuição controlada no plano de produção.
+  features:
+    - icon: S
+      icon_bg: blue
+      title: SOP de controlo de alterações de retrabalho (PDF)
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: tabela de classificação de alterações, matriz de autorização interfuncional, parâmetros técnicos de validação, linhas vermelhas de contenção e blocos de assinatura de qualidade.'
+      link: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: Descarregar PDF
+    - icon: A
+      icon_bg: green
+      title: Anexo de execução A (PDF)
+      desc: 'Esquema de dados ECR, matriz de execução técnica quantificada para os quatro processos de retrabalho core, lógica dos bloqueios Poka-Yoke e bloco de assinatura de libertação em três partes.'
+      link: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: Descarregar PDF
+    - icon: R
+      icon_bg: purple
+      title: Governança do retrabalho controlado (página)
+      desc: 'Página de referência para o sistema de retrabalho de estanquicidade ao ar: classificação de defeitos A–G, fichas de método libertadas MC-RW-01 a MC-RW-06 e o workflow de retrabalho controlado em 7 fases.'
+      link: '/pt/factory/quality-inspection'
+      link_label: Ver página
+    - icon: N
+      icon_bg: orange
+      title: Controlo de produtos não conformes (página)
+      desc: 'ISO 9001:2015, secção 8.7 Controlo de produtos não conformes: registo NCR, quarentena, autoridade de disposição com base na gravidade, retrabalho controlado sob instruções SRI, nova verificação independente e protocolo de destruição assistida.'
+      link: '/pt/factory/non-conforming-control'
+      link_label: Ver página
+
+faqs:
+  tagline: FAQ
+  title: Perguntas frequentes sobre o controlo de alterações de retrabalho
+  items:
+    - q: 'A fábrica pode modificar os parâmetros de retrabalho sem nos informar?'
+      a: 'Não. Cada alteração proposta a materiais de retrabalho libertados, condições de processo, equipamento, métodos de ensaio, critérios de inspeção ou pessoal autorizado deve primeiro passar por um controlo de alterações documentado. As alterações que afetam especificações aprovadas pelo cliente, amostras, BOM, gráficas ou critérios de aceitação exigem a libertação escrita do cliente.'
+    - q: 'O que conta como alteração de alto risco?'
+      a: 'As alterações a materiais ou fornecedores de retrabalho, condições de pressão/manutenção ou cura, métodos de retrabalho de válvulas/rail/costuras, critérios de inspeção ou aceitação e a extensão do âmbito do defeito para zonas estruturais são classificadas como de alto risco. Exigem verificação interfuncional, um plano de validação libertado e implementação piloto controlada antes da utilização de rotina.'
+    - q: 'Um desvio temporário pode ser usado sem limites?'
+      a: 'Não. Cada desvio temporário traz uma janela de validade definida, um âmbito de partida, um teto de quantidade e requisitos de validação com expiração automática. Atingir o teto bloqueia a partida e bloqueia a impressão da etiqueta de passagem até a alteração ser formalmente avaliada.'
+    - q: 'Como se demonstra que um método alterado funciona antes da utilização plena?'
+      a: 'As alterações de alto risco exigem um plano de validação: pelo menos 5 pranchas amostra representativas que cobrem os limites de tolerância, testadas por 2 inspetores QC independentes contra critérios de aceitação quantificados (eliminação de fugas, manutenção de pressão, função da válvula, durabilidade das costuras, aspeto). A libertação para a validação não é uma libertação para a aplicação.'
+    - q: 'Precisamos de libertar cada alteração?'
+      a: 'Não é cada alteração, mas cada alteração que afasta o produto da amostra aprovada pelo cliente, da especificação técnica, da BOM, das gráficas, da embalagem ou dos critérios de aceitação é implementada apenas com a libertação escrita do cliente. Sem ela, as pranchas são retrabalhadas, substituídas ou rejeitadas segundo o requisito original.'
+    - q: 'O que acontece aos documentos antigos quando uma alteração é libertada?'
+      a: 'As antigas instruções de trabalho, as fichas de parâmetros e as folhas de inspeção são fisicamente retiradas e invalidadas (1-in-1-out), marcadas OBSOLETE e substituídas pela nova revisão controlada após a formação. As versões antigas e novas nunca partilham uma estação de trabalho.'
+    - q: 'Durante quanto tempo são conservados os registos do controlo de alterações?'
+      a: 'Os registos de encerramento — evidências de validação, revisões documentais, evidências de formação e provas de eficácia — são conservados segundo a nossa política de conservação (pelo menos 3 anos para os registos de encerramento), para que cada alteração permaneça reconstruível para auditorias e verificações de rastreabilidade.'
+
+cta:
+  title: 'Precisas de documentos de controlo de alterações para a tua auditoria?'
+  desc: 'Descarrega a SOP bilingue de controlo de alterações e o anexo de execução, ou solicita um exemplar anonimizado do nosso modelo ECR e do teu plano de validação para o teu projeto OEM/ODM.'
+  actions:
+    - text: Solicitar um controlo de qualidade
+      variant: primary
+      href: /contact
+    - text: Descarregar a SOP de controlo de alterações (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Descarregar o anexo de execução A (PDF)
+      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

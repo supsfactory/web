@@ -6,7 +6,7 @@ export interface FaqEntry {
   a: string
 }
 
-export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it', FaqEntry[]> = {
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt', FaqEntry[]> = {
   en: [
     {
       q: 'What is the minimum order to customize this board?',
@@ -95,6 +95,24 @@ export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it', FaqEntry
     {
       q: 'Come viene controllata la qualità prima della spedizione?',
       a: 'Ogni tavola supera una checklist di assemblaggio a 100 punti e un test di pressione di 18.0 PSI per 24 ore prima dell’imballaggio; le unità con calo di pressione superiore a 0,50 PSI/24 h vengono scartate automaticamente.',
+    },
+  ],
+  pt: [
+    {
+      q: 'Qual é a encomenda mínima para personalizar esta prancha?',
+      a: 'O MOQ de volume é de 90–100+ unidades por configuração aprovada, sujeito aos requisitos de rolo de material e embalagem, num rolo de 150 m para a produção padrão, com lotes piloto desde 20–50 unidades e 90–100+ unidades para um molde à medida.',
+    },
+    {
+      q: 'Quanto tempo demoram as amostras e a produção?',
+      a: 'As amostras estão prontas em 7–12 dias; a produção em série fica concluída em 25–35 dias após PO confirmado e depósito.',
+    },
+    {
+      q: 'Posso alterar cores, arte e logótipo?',
+      a: 'Sim: gráficas, cores, EVA, logótipo, embalagem e acessórios são personalizáveis em todas as plataformas. Partilha o teu logótipo e faremos uma prova visual antes da produção.',
+    },
+    {
+      q: 'Como é controlada a qualidade antes do envio?',
+      a: 'Cada prancha passa por uma checklist de montagem de 100 pontos e por um teste de pressão de 18.0 PSI durante 24 horas antes da embalagem; as unidades com queda de pressão superior a 0,50 PSI/24 h são rejeitadas automaticamente.',
     },
   ],
 }

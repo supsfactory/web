@@ -1,0 +1,104 @@
+meta:
+  title: 'Produção SUP personalizada & private label para retalhistas | {SITE}'
+  description: 'Produção SUP personalizada e private label para marcas comerciais: especificações das pranchas, gráficas da marca, MOQs de teste baixos e QC de fábrica — da amostra à série.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Marcas comerciais
+  title: 'Produção SUP personalizada para marcas comerciais'
+  subtitle: 'As marcas comerciais lançam a sua linha de paddle boards com a nossa fábrica: especificações das pranchas desenvolvidas a partir dos teus requisitos, a tua marca no produto e QC de produção assumido de forma contínua.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Pranchas SUP Vatrad, produzidas para uma marca comercial
+
+answer:
+  label: 'Resposta breve'
+  text: 'A MOQ é confirmada pela configuração do projeto: as marcas comerciais começam com uma amostra (1–2 unidades) ou uma pequena série piloto (20–50 unidades, amostras em 7–12 dias), escalam para uma série OEM padrão de 90–100+ unidades por design (25–35 dias após a PO e o sinal) ou investem numa forma personalizada para linhas completamente individuais (o equipamento acrescenta 15–20 dias). Cada prancha é testada em pressão antes do envio, com condições FOB, CIF ou DDP de Qingdao.'
+  verified: 'September 2026'
+
+margin_section:
+  title: 'Níveis de produção para marcas comerciais'
+  subtitle: 'Começa com uma amostra, valida com uma série piloto, escala para uma série padrão ou investe numa forma personalizada — MOQ e tempos de entrega são determinados pelo percurso produtivo, não por cotas.'
+  items:
+    - tier: 'Nível de amostra'
+      moq: '1–2 unidades'
+      margin_note: 'Entrega de amostras em 7–12 dias'
+      features:
+        - 'Desenvolvimento gráfico a partir dos recursos da tua marca'
+        - 'Amostra física para a aprovação'
+        - 'QC em plataforma padrão'
+    - tier: 'Nível piloto'
+      moq: '20–50 unidades'
+      margin_note: 'Validação de mercado em plataformas existentes'
+      features:
+        - 'Gráficas a toda a superfície, logótipo e layout EVA'
+        - 'Reencomendas nas mesmas plataformas aprovadas'
+        - 'Documentação de exportação incluída'
+    - tier: 'Forma personalizada'
+      moq: 'Confirmado pela configuração do projeto'
+      margin_note: 'O equipamento acrescenta 15–20 dias'
+      features:
+        - 'Nova forma da prancha e desenvolvimento do molde'
+        - 'Controlo total das especificações'
+        - 'Atribuição produtiva prioritária'
+
+product_line:
+  title: Sortido completo
+  subtitle: 'Uma plataforma de produção para cada segmento do teu negócio.'
+  items:
+    - name: Série Allround
+      description: 'Forma versátil — a plataforma de partida mais comum'
+    - name: Série Touring
+      description: 'Casco de deslocamento para o paddling de distância'
+    - name: Série Yoga
+      description: 'Plataforma larga e estável para o setor do bem-estar'
+    - name: Série Infantil
+      description: 'Pranchas curtas e leves para os paddlers mais jovens'
+    - name: Série Racing
+      description: 'Cascos rápidos para o segmento dos entusiastas'
+    - name: Acessórios
+      description: 'Pás, coletes, bombas e bolsas para completar o sortido'
+
+catalog:
+  title: Recursos para os parceiros comerciais
+  subtitle: 'Especificações, detalhes de encomenda e documentação de produto.'
+  items:
+    - name: 'Catálogo de produtos 2026'
+      desc: 'Sortido completo com especificações e informações de encomenda'
+      icon: 'tabler:file-text'
+      link: '/pt/products'
+    - name: 'Guia para os parceiros comerciais'
+      desc: 'Guia para as especificações, o processo de encomenda e os padrões QC'
+      icon: 'tabler:book'
+      link: '/pt/products'
+    - name: 'Recursos de produto & técnicos'
+      desc: 'Fotos de produto em alta resolução, imagens lifestyle e documentação técnica'
+      icon: 'tabler:photo'
+      link: '/pt/products'
+
+support:
+  title: Apoio à produção
+  subtitle: 'O que o teu parceiro de produção faz à volta da encomenda.'
+  items:
+    - 'Amostra física antes da produção em série'
+    - 'Tolerâncias e QC: cada prancha testada em pressão antes do envio'
+    - 'Apoio às especificações — formas, gráficas, layouts EVA, acessórios'
+    - 'Entrega da série em 25–35 dias após a PO confirmada'
+    - 'Peças sobressalentes e instruções de reparação para os teus clientes'
+    - 'Exportação e documentação: FOB/CIF/DDP de Qingdao'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Aprofunda:</strong> descobre o <a href="/pt/oem-manufacturing">programa de produção OEM/ODM completo</a> — MOQs confirmados por projeto através dos níveis amostra, piloto e série, branding private label e conformidade CE — ou lê o <a href="/pt/oem-moq-guide">guia MOQ & branding flexível</a> ou visita a <a href="/pt/factory">fábrica</a> para ver como é implementado o QC pronto para o comércio.</p>
+  </div>
+
+cta:
+  title: 'Discute a tua linha de produtos comercial'
+  subtitle: 'Envia os teus requisitos — a nossa equipa responde num dia útil.'
+  actions:
+    - text: 'Envia os requisitos'
+      href: '/pt/contact'
+      variant: 'primary'
+    - text: 'Vê as plataformas de produto'
+      href: '/pt/products'
+      variant: 'secondary'

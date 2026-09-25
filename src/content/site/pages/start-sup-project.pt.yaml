@@ -1,0 +1,114 @@
+meta:
+  title: 'Inicia o teu projeto SUP — Do briefing às pranchas entregues | SUPsfactory'
+  description: 'Inicia o teu projeto SUP personalizado: envia o briefing, obtém a proteção NDA, recebe as amostras em 7–12 dias, aprova-as e escala a produção. Passo a passo com tempos definidos.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'Iniciar um projeto SUP'
+    - 'Encomenda SUP personalizada'
+    - 'Briefing de projeto SUP'
+    - 'Projeto SUP OEM'
+    - 'Encomenda de paddle board personalizada'
+    - 'Projeto de produção SUP'
+    - 'Projeto SUP insuflável'
+
+hero:
+  tagline: 'Começa aqui'
+  title: 'Inicia o teu projeto SUP'
+  subtitle: 'Quer queiras lançar uma nova marca, ampliar uma linha de produtos ou aprovisionar pranchas com a tua marca para o teu negócio — cada projeto começa da mesma forma: com um briefing de projeto, uma NDA, uma amostra e um percurso claro para a produção. Aqui descobres o que acontece depois de clicares em "Iniciar".'
+  actions:
+    - variant: primary
+      text: Inicia o briefing de projeto
+      href: /pt/contact#project-brief
+    - text: Como funciona o processo
+      href: /pt/how-it-works
+
+answer:
+  label: 'O que acontece depois'
+  text: 'Depois de enviar um briefing de projeto, recebes uma resposta num dia útil. Antes de partilhar detalhes confidenciais está disponível uma NDA. O gabinete técnico examina o teu briefing e fornece uma proposta detalhada com MOQ, custos das amostras e um plano por etapas — em geral 7–12 dias para as amostras e 6–8 semanas para a primeira produção a partir da PO confirmada. Os custos das amostras são creditados na tua encomenda de produção. Nenhum compromisso até à assinatura.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: O processo
+  title: 'Do briefing às pranchas entregues — cinco passos'
+  subtitle: 'Cada passo tem um tempo definido, um resultado documentado e uma milestone go/no-go. Avanças apenas quando estás pronto.'
+  steps:
+    - step: 'Passo 1'
+      title: 'Envia o teu briefing de projeto'
+      desc: 'Conta-nos sobre a tua prancha — especificações-objetivo, quantidade, requisitos de conformidade e prazos. O briefing leva 5–10 minutos. Se não tens a certeza de algum detalhe, partilha o que tens e nós guiamos-te no resto. Uma NDA está disponível antes de partilhares designs confidenciais.'
+    - step: 'Passo 2'
+      title: 'NDA & verificação de viabilidade (1–5 dias)'
+      desc: 'Mediante pedido assinamos uma NDA, depois o gabinete técnico verifica o teu briefing face à capacidade produtiva, à disponibilidade de materiais e ao âmbito de conformidade. Recebes uma proposta detalhada com o cálculo da MOQ, os custos das amostras e um plano por etapas.'
+    - step: 'Passo 3'
+      title: 'Amostras & aprovação (7–21 dias)'
+      desc: '1–2 pranchas físicas segundo a tua especificação. Remas e avalias — rigidez do casco, precisão gráfica, ajuste dos acessórios. As alterações são registadas numa BOM revista. A amostra aprovada torna-se a referência de produção. Os custos das amostras são creditados na produção.'
+    - step: 'Passo 4'
+      title: 'Planeamento de pré-produção (7 dias)'
+      desc: 'Aprovisionamento dos materiais, preparação dos moldes, confirmação da embalagem e reserva do slot de produção. Todos os materiais são inspecionados à entrada face à BOM congelada. Antes do arranque da produção é emitido um plano com as datas dos gates QC.'
+    - step: 'Passo 5'
+      title: 'Produção, QC & envio (4–6 semanas)'
+      desc: 'A produção passa pelo sistema de gates de inspeção de 7 níveis, com critérios aprovado/reprovado em cada gate. Embalagem conforme à exportação, documentação de conformidade e coordenação do transporte marítimo para mais de 50 países. Uma análise pós-entrega recolhe as melhorias para a encomenda seguinte.'
+
+collaboration_types:
+  tagline: Escolhe o teu caminho
+  title: 'Três formas de colaborar com a SUPsfactory'
+  subtitle: 'Cada projeto segue o mesmo processo — o que muda é o âmbito de engenharia e a propriedade da PI.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Produção OEM'
+      desc: 'Forneces tu o design. Nós produzimos segundo a tua especificação. És dono de toda a PI. Ideal para marcas com geometrias de prancha testadas.'
+      link_label: 'Vê os detalhes OEM'
+      href: /pt/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Desenvolvimento ODM'
+      desc: 'Forneces tu o briefing. Nós desenvolvemos a prancha. Plataforma adaptada com o teu branding. Ideal para marcas que entram no mercado sem design interno.'
+      link_label: 'Vê os detalhes ODM'
+      href: /pt/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'A tua marca numa plataforma testada. Nenhuma fase de engenharia. Já a partir de 5–10 unidades. Ideal para operadores e distribuidores.'
+      link_label: 'Vê as opções private label'
+      href: /pt/solutions/private-label-sup
+
+what_we_need:
+  heading: 'O que preparar antes do briefing'
+  body: |
+    Um briefing completo acelera o processo. Eis o que ajuda:
+
+    - **Especificações da prancha** — comprimento, largura e espessura-objetivo, peso do rider, uso previsto. As medidas de referência de pranchas ou modelos da concorrência são úteis.
+    - **Ficheiros de design** — gráficas vetoriais (AI, SVG, PDF) para gráficas e logótipos. Se ainda não estão prontos, para a primeira viabilidade bastam moodboards ou imagens de referência.
+    - **Quantidade & prazos** — quantidade-objetivo e plano de época. Basta já uma estimativa aproximada ("20–50 pranchas até março") para começar.
+    - **Requisitos de conformidade** — mercados-alvo e requisitos de certificação específicos além de CE, ISO 9001, BSCI, REACH, RoHS.
+    - **Quadro de orçamento** — um orçamento indicativo por prancha ou um custo de destino-objetivo ajuda-nos a aconselhar a plataforma certa.
+
+    **Ainda não está tudo pronto?** Envia o que tens. Nós guiamos-te pelo resto.
+
+faqs:
+  tagline: FAQ
+  title: 'Iniciar um projeto SUP — Perguntas frequentes'
+  items:
+    - q: 'Qual é a encomenda mínima para começar?'
+      a: 'A entrada é escalonada: primeiro 1–2 amostras (7–12 dias), depois uma encomenda de prova de 20–50 pranchas (25–35 dias) e, em seguida, ciclos de série padrão de 90–100+ pranchas por configuração aprovada. O co-branding private label parte das 5–10 unidades sem fase de desenvolvimento.'
+    - q: 'Quanto tempo é necessário para receber as amostras?'
+      a: 'As amostras físicas são produzidas em 7–12 dias a partir da confirmação da especificação e do sinal. Com plataformas de casco existentes, todo o ciclo do briefing à encomenda de prova entregue exige normalmente 8–12 semanas. Um casco personalizado acrescenta 15–20 dias de desenvolvimento do molde.'
+    - q: 'O meu design está protegido?'
+      a: 'Sim. Uma NDA está disponível imediatamente — antes de partilhares informações confidenciais. Produzimos exclusivamente com a marca dos nossos clientes e nunca competimos com eles. Todos os ficheiros técnicos são conservados em sistemas com controlo de acessos e auditoria.'
+    - q: 'O que pede o formulário de briefing de projeto?'
+      a: 'O briefing pede o tipo de atividade, o nome da empresa, as especificações-objetivo da prancha, a faixa de quantidade de encomenda, os prazos e eventuais requisitos de conformidade. Leva cerca de 5–10 minutos. Podes anexar ficheiros de design (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) até 10 MB. Se não tens a certeza de um campo, salta-o — nós voltamos a contactar-te.'
+    - q: 'O que acontece depois do envio do briefing?'
+      a: 'Recebes uma resposta num dia útil. O gabinete técnico examina o teu briefing e fornece uma proposta detalhada com MOQ, custos das amostras e um plano por etapas. Não surge nenhum compromisso até examinares e assinares o contrato. Os custos das amostras são creditados na tua encomenda de produção.'
+
+cta:
+  title: 'Pronto a começar?'
+  subtitle: 'Envia o teu briefing de projeto — especificações da prancha, quantidade e prazos — e nós confirmaremos a viabilidade, produziremos as amostras e forneceremos um plano de produção com QC documentada em cada fase.'
+  actions:
+    - variant: primary
+      text: Inicia o briefing de projeto
+      href: /pt/contact#project-brief
+    - text: Lê o guia completo de onboarding
+      href: /pt/oem-onboarding-guide
+    - text: Verifica fábrica e sistema de qualidade
+      href: /pt/proof-center

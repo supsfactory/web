@@ -1,0 +1,128 @@
+meta:
+  title: 'Produção SUP OEM vs. ODM vs. Private Label — guia de comparação'
+  description: 'Produção SUP OEM vs. ODM vs. Private Label em comparação: definições, propriedade, pontos de entrada do MOQ, prazos de entrega, ferramental, regras de PI e critérios de escolha.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM vs ODM vs Private Label'
+    - 'Comparação produção SUP'
+    - 'Produção de paddle boards personalizadas'
+    - 'OEM SUP China'
+    - 'Desenvolvimento SUP ODM'
+    - 'Private Label SUP'
+
+hero:
+  tagline: 'Escolhe o teu modelo de colaboração'
+  title: 'OEM vs. ODM vs. Private Label — qual o modelo adequado ao teu projeto?'
+  subtitle: 'Três formas de colaborar com uma fábrica de SUP, cada uma com propriedade, investimentos e compromissos de velocidade diferentes. Este guia explica as diferenças, para escolheres o percurso certo antes do teu primeiro pedido.'
+
+answer:
+  label: 'Comparação rápida'
+  text: 'OEM: és dono do design e da especificação — produzimos segundo os teus desenhos. ODM: a nossa equipa técnica desenvolve a prancha a partir do teu briefing — aprovas antes da produção. Private Label: a tua marca numa plataforma existente testada sem alterações estruturais — o percurso mais rápido para o mercado. Os três percursos passam pela mesma fábrica, o mesmo sistema QC e a mesma equipa de exportação em Qingdao, China.'
+  verified: 'September 2026'
+
+comparison_table:
+  tagline: 'Lado a lado'
+  title: 'OEM / ODM / Private Label em comparação'
+  subtitle: 'Diferenças essenciais na propriedade do design, MOQ, ferramental, prazos de entrega e propriedade intelectual.'
+  headers:
+    dimension: Dimensão
+    oem: Produção OEM
+    odm: Desenvolvimento ODM
+    pl: Private Label
+  rows:
+    - dimension: 'Quem projeta a prancha?'
+      oem: 'Forneces a especificação, os desenhos ou uma prancha de referência'
+      odm: 'A equipa técnica da fábrica desenvolve a partir do teu briefing'
+      pl: 'Plataforma de fábrica existente — nenhum esforço de design'
+    - dimension: 'Propriedade do design e PI'
+      oem: 'És dono de todos os designs, moldes e propriedade intelectual'
+      odm: 'És dono do design final aprovado; a fábrica detém a PI do processo de desenvolvimento'
+      pl: 'A fábrica possui o design da plataforma; tu possuis a marca e as gráficas'
+    - dimension: 'Molde / ferramental'
+      oem: 'Molde dedicado necessário para novas formas — taxa única de ferramental, 15–20 dias adicionais'
+      odm: 'Pode exigir um molde dedicado consoante a especificação — mesmo planeamento de ferramental'
+      pl: 'Nenhum molde novo — utiliza-se o ferramental da plataforma existente'
+    - dimension: 'Quantidade mínima de encomenda'
+      oem: '90–100+ unidades por configuração aprovada'
+      odm: '90–100+ unidades por configuração aprovada; lotes piloto de 20–50'
+      pl: '5–10 unidades (co-branding) ou 20–50 (lote piloto em plataforma existente)'
+    - dimension: 'Prazo de entrega típico'
+      oem: '25–35 dias + 15–20 dias de ferramental se for novo molde'
+      odm: '25–35 dias + iteração de desenvolvimento (varia com a complexidade)'
+      pl: '25–35 dias (sem atrasos de ferramental)'
+    - dimension: 'Grau de personalização'
+      oem: 'Total — forma, construção, materiais, gráficas, embalagem'
+      odm: 'Total — a fábrica propõe, tu aprovas cada elemento'
+      pl: 'Apenas gráficas e embalagem — nenhuma alteração estrutural'
+    - dimension: 'Processo de amostra'
+      oem: '1–2 amostras protótipo em 7–12 dias após a aprovação da especificação'
+      odm: '1–2 amostras protótipo em 7–12 dias após a aprovação do design'
+      pl: '1–2 amostras em 7–12 dias — plataforma já validada'
+    - dimension: 'Ideal para'
+      oem: 'Compradores com designs existentes, pranchas de referência ou especificações detalhadas'
+      odm: 'Compradores com ideias de produto ou requisitos de mercado, mas sem especificação detalhada'
+      pl: 'Compradores que querem pranchas com marca rapidamente sem desenvolvimento de produto'
+
+scenario_cards:
+  tagline: 'Quando escolher cada percurso'
+  title: 'Cenários reais'
+  subtitle: 'Situações comuns de compradores e o modelo de colaboração recomendado.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Tens especificações completas e és dono do design'
+      desc: 'Tens desenhos CAD, uma prancha de referência ou uma folha de especificação detalhada com medidas, materiais, construção e requisitos de embalagem. Escolhe OEM — produzimos exatamente segundo a tua especificação.'
+      link: '/pt/factory/oem-capability'
+      link_label: 'Detalhes da produção OEM'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Tens um conceito de produto, mas nenhuma especificação técnica'
+      desc: 'Conheces o mercado de referência, a faixa de preço e os requisitos de desempenho, mas precisas de apoio técnico para desenvolver a prancha. Escolhe ODM — a nossa equipa desenvolve a partir do teu briefing e tu aprovas antes da produção.'
+      link: '/pt/odm-manufacturing'
+      link_label: 'Detalhes do desenvolvimento ODM'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Precisas de pranchas com marca rapidamente, sem desenvolvimento de produto'
+      desc: 'És distribuidor, resort ou operador de aluguer e queres o teu logótipo em pranchas de qualidade sem investir no desenvolvimento de produto. Escolhe Private Label — o percurso mais rápido do conceito à entrega.'
+      link: '/pt/solutions/private-label-sup'
+      link_label: 'Detalhes do Private Label'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Geris um resort, um clube ou uma frota de aluguer'
+      desc: 'Precisas de pacotes SUP duráveis para uso de alta frequência, com coerência dos lotes, peças sobressalentes e gestão de cores entre reencomendas. Escolhe o nosso Commercial Fleet Program.'
+      link: '/pt/solutions/resort-sup'
+      link_label: 'Detalhes do Commercial Fleet'
+
+ip_rules:
+  tagline: 'Proteção da propriedade intelectual'
+  title: 'Como protegemos os teus designs e a tua marca'
+  subtitle: 'Independentemente do modelo de colaboração, o teu artwork, os teus moldes e os teus ficheiros de especificação continuam a ser teus.'
+  body: |
+    **NDA antes da troca de ficheiros.** Assinamos um acordo de não divulgação antes de qualquer troca de ficheiros técnicos — tempo de resposta padrão dentro de 4 horas úteis.
+
+    **Nenhum reutilizar dos designs.** O teu artwork, os teus moldes e os teus ficheiros de especificação nunca são partilhados ou vendidos a outros clientes. Os moldes OEM pertencem exclusivamente a ti. Os designs ODM são por ti aprovados antes da produção. As plataformas Private Label são estruturas partilhadas, mas as tuas gráficas e o teu branding são exclusivos.
+
+    **Apenas B2B.** Produzimos exclusivamente sob as marcas dos nossos clientes. Não vendemos a consumidores finais e não entramos em concorrência com os nossos clientes em nenhum mercado.
+
+    **Propriedade dos moldes.** Os moldes dedicados pagos pelo comprador pertencem ao comprador. Armazenamo-los e mantemo-los, mas não podemos usá-los para outros clientes sem autorização escrita.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Perguntas frequentes sobre OEM, ODM e Private Label'
+  items:
+    - q: 'Posso passar do Private Label para o OEM mais tarde?'
+      a: 'Sim. Muitos clientes começam com uma produção Private Label ou piloto para validar o mercado, e depois investem em ferramental dedicado para um programa OEM completo uma vez demonstrada a procura. A mesma fábrica e o mesmo sistema QC suportam ambos os percursos.'
+    - q: 'ODM significa que a fábrica possui a minha marca?'
+      a: 'Não. Com o ODM és dono da tua marca, das tuas gráficas e da tua embalagem. A fábrica desenvolve a estrutura da prancha a partir do teu briefing e tu aprovas o design antes da produção. A fábrica mantém a PI do processo de desenvolvimento, mas a especificação de produto aprovada é tua.'
+    - q: 'O Private Label é de qualidade inferior ao OEM?'
+      a: 'Não. Os três percursos passam pela mesma fábrica, o mesmo sistema QC e a mesma equipa de exportação. As pranchas Private Label são construídas em plataformas testadas e validadas, com o teste completo de pressão de 18-PSI/24 horas e a mesma checklist de montagem de 100 pontos.'
+    - q: 'E se não tiver a certeza de qual modelo escolher?'
+      a: 'Contacta-nos com a tua situação — a nossa equipa técnica aconselha o percurso mais prático com base nos teus requisitos de produto, no teu calendário e nos teus objetivos de quantidade. Não há qualquer obrigação antes da verificação da especificação.'
+    - q: 'Posso receber amostras antes de decidir o modelo?'
+      a: 'Sim. 1–2 amostras protótipo partem em 7–12 dias. Os custos das amostras são creditados na tua encomenda de massa. Assim podes avaliar a construção e a qualidade antes de qualquer compromisso de quantidade.'
+
+cta:
+  title: 'Pronto a discutir o teu projeto SUP?'
+  subtitle: 'Conta-nos os teus requisitos de produto, o teu mercado e os teus objetivos de quantidade — aconselhamos-te o percurso de colaboração mais prático.'
+  button: 'Inicia o teu projeto SUP'
+  note: 'Resposta dentro de 1 dia útil · NDA disponível antes da troca de ficheiros'

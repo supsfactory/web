@@ -1,0 +1,166 @@
+meta:
+  title: 'Confiança OEM & garantias de fábrica — verifica a nossa fábrica antes da tua encomenda'
+  description: 'Como os compradores verificam a SUPsfactory antes da encomenda: registo oficial, audit de fábrica, engenheiros sob NDA e inspeções de terceiros (SGS/TÜV/BV/Intertek).'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'verificação da fábrica OEM SUP'
+    - 'verificar o produtor SUP'
+    - 'audit de fábrica SUP China'
+    - 'fábrica de SUP insufláveis Qingdao'
+    - 'garantia de confiança OEM'
+    - 'referências do produtor SUP'
+
+hero:
+  tagline: 'Produção que podes verificar'
+  title: 'Confiança OEM & garantias de fábrica'
+  subtitle: 'Cada afirmação deste site é verificável: registo empresarial oficial, uma fábrica física de 12.500 m² que podes visitar ou auditar, engenheiros reais sob NDA, documentos QMS descarregáveis e dados de teste registados por número de série. Projetada e gerida pela Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Resposta breve'
+  text: 'A confiança não é uma promessa: é documentação. Somos uma empresa industrial chinesa registada (Qingdao Vatrad Group Co., Ltd.) com uma instalação física de 12.500 m² em Qingdao, 350+ colaboradores e uma capacidade anual de 120.000+ pranchas. Podes verificar o registo, auditar a fábrica, examinar as SOP QMS, descarregar exemplos de registos de qualidade, programar inspeções de terceiros (SGS, TÜV, BV ou Intertek) e obter uma NDA assinada em 4 horas úteis. Cada prancha é testada em pressão durante 24 horas a 18,0 PSI, com rejeição automática para além de uma queda de 0,50 PSI, e cada lote mantém uma rastreabilidade ERP de 10 anos. Se uma afirmação não for documentável, não a fazemos.'
+  verified: 'September 2026'
+
+trust_stats:
+  - value: '12.500 m²'
+    label: Superfície da instalação
+    detail: 4 oficinas especializadas, abertas a audits
+  - value: '350+'
+    label: Colaboradores no local
+    detail: 25+ engenheiros em I&D, materiais e QC
+  - value: '120.000+'
+    label: Pranchas produzidas por ano
+    detail: 10.000 pranchas/mês em 4 linhas automatizadas
+  - value: '4 horas'
+    label: Tempo de processamento da NDA
+    detail: NDA padrão assinada em 4 horas úteis
+  - value: '7 níveis'
+    label: Sistema de gates de qualidade
+    detail: Nodo 01–7, registado por número de série
+  - value: '18.0 PSI'
+    label: Teste de pressão 100%
+    detail: Retenção de 24 horas, rejeição automática para além de uma queda de 0,50 PSI
+
+role_boundary:
+  tagline: 'O que somos — e o que não somos'
+  title: 'Uma fábrica que podes verificar, nunca uma afirmação para acreditar por fé'
+  subtitle: 'A diferença de verificabilidade entre uma fábrica e um escritório comercial é simples: por trás de cada afirmação há um documento, uma pessoa ou uma máquina.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: 'O que somos — um produtor verificável'
+      desc: '· Uma pessoa coletiva registada: Qingdao Vatrad Group Co., Ltd. — os detalhes do registo são partilhados sob NDA ou durante o audit · Uma fábrica física: 12.500 m² na Economic Development Zone de Laixi, Qingdao, com 4 oficinas especializadas, 350+ colaboradores e 4 linhas automatizadas · Uma equipa de produção: as pessoas que respondem às tuas perguntas são as pessoas que constroem as tuas pranchas · Documentos reais: SOP QMS, normas de teste e registos de qualidade anonimizados para descarregar · Verificação independente bem-vinda: inspeções SGS, TÜV, BV ou Intertek à tua escolha, segundo a ISO 2859-1 Nível II'
+      link: '/pt/factory'
+      link_label: 'Visita a página da fábrica'
+    - icon: B
+      icon_bg: green
+      title: 'O que não somos — o perfil de escritório comercial'
+      desc: '· Nenhuma trading company: não reencaminhamos a tua encomenda para uma fábrica terceira nem cobramos comissões de intermediário · Nenhuma marca própria nas tuas pranchas: és dono da marca, do mercado e do cliente · Nenhuma quantidade mínima vaga: o MOQ é calculado a partir da física dos rolos de matéria-prima e confirmado com base no projeto · Nenhum certificado "apenas mediante pedido": a lista é publicada e os registos de audit são consultáveis · Nenhuma afirmação puramente verbal: pressão de teste, limiares e rastreabilidade dos lotes são documentados por número de série'
+      link: '/pt/oem-moq-guide'
+      link_label: 'Vê o guia MOQ transparente'
+
+trust_steps:
+  tagline: 'Um estudo de caso real'
+  title: 'Como uma frota de aluguer do Norte da Europa nos verificou antes da encomenda'
+  subtitle: 'Sete passos de verificação executados por um operador de aluguer comercial antes de uma encomenda de frota de 90–100+ unidades — a mesma checklist está disponível para ti.'
+  steps:
+    - step: '01'
+      title: 'Verificação da entidade oficial'
+      desc: 'O comprador solicitou o registo comercial chinês e a licença de comércio externo. A pessoa coletiva por trás da SUPsfactory é a Qingdao Vatrad Group Co., Ltd., um produtor registado em Qingdao, Shandong desde 2012 — verificado através do registo nacional sob NDA.'
+    - step: '02'
+      title: 'Fábrica física & audit da instalação'
+      desc: 'Um audit de fábrica (presencial e via video tour) confirmou a instalação de 12.500 m²: quatro oficinas especializadas, 350+ colaboradores, quatro linhas automatizadas e uma produção mensal de cerca de 10.000 pranchas. O relatório do audit é arquivado na documentação contratual.'
+    - step: '03'
+      title: 'Pessoas: engenheiros reais, não guiões comerciais'
+      desc: 'O comprador falou diretamente com a equipa técnica — design do casco, laboratório de materiais e QC. A especificação do projeto e a NDA foram trocadas em 4 horas úteis e uma verificação técnica chegou num dia útil.'
+    - step: '04'
+      title: 'Papel: QMS, certificados & inspeção de terceiros'
+      desc: 'A documentação de conformidade ISO-9001:2015, ISO-25649 e CE, os registos BSCI/REACH/RoHS e as SOP QMS foram examinados. O comprador programou uma inspeção SGS pré-envio segundo a ISO 2859-1 Nível II para a primeira encomenda em quantidade — e recebeu para cada lote um certificado de conformidade (Certificate of Conformance).'
+    - step: '05'
+      title: 'Dados: registos de teste por número de série'
+      desc: 'O comprador examinou registos de teste reais: cada câmara testada durante 24 horas a 18,0 PSI com rejeição automática para além de uma queda de pressão de 0,50 PSI, checklist de montagem de 100 pontos e rastreabilidade ERP dos lotes de 10 anos. Exemplos de registos QC foram fornecidos antes da encomenda.'
+    - step: '06'
+      title: 'Proteção contratual'
+      desc: 'O contrato de encomenda cobria a licença da marca, uma duração acordada de exclusividade territorial, a propriedade do molde e as condições de entrega, bem como os dados e registos a transferir juntamente com o equipamento. O comprador aprovou o molde em fábrica antes da produção.'
+    - step: '07'
+      title: 'Governança contínua'
+      desc: 'Reuniões comerciais trimestrais com o VP de Vendas e o engenheiro-chefe, um direito de audit reservado durante a produção e um percurso de escalada para o Diretor de QA nas disputas de qualidade. O acordo foi assinado conjuntamente pelo VP de Vendas, pelo engenheiro-chefe e pelo Diretor de QA.'
+
+trust_faqs:
+  tagline: 'FAQ'
+  title: 'As 12 preocupações que os compradores levantam antes da encomenda'
+  items:
+    - q: 'A SUPsfactory é mesmo uma fábrica ou uma trading company?'
+      a: 'A SUPsfactory é a divisão de desenvolvimento de produto e produção de SUP da Qingdao Vatrad Group Co., Ltd. Gerimos diretamente a instalação de 12.500 m² em Qingdao — design, corte, soldadura, montagem e ensaio acontecem numa única unidade. Não há passagens por trading companies: as pessoas que respondem às tuas perguntas são as pessoas que constroem as tuas pranchas.'
+    - q: 'Com quem vou tratar concretamente durante o meu projeto?'
+      a: 'Com um engenheiro de projeto dedicado e um responsável QC dedicado, além dos responsáveis de departamento que assinam os teus documentos. Podes falar diretamente com o engenheiro-chefe, o Diretor de QA ou o diretor da unidade — antes e depois da encomenda. Não há um nível de gestor de conta entre ti e quem executa.'
+    - q: 'Posso visitar ou auditar a fábrica?'
+      a: 'Sim. Acolhemos visitas à fábrica na Economic Development Zone de Laixi, Qingdao e apoiamos audits remotos com video tours em direto. Os audits podem ser organizados de forma independente (pelo teu inspetor ou por um terceiro como SGS, TÜV, BV ou Intertek) e o plano de audit pode ser incluído no contrato.'
+    - q: 'Assinam uma NDA antes de partilhar o meu design?'
+      a: 'Sim. A nossa NDA padrão é assinada em 4 horas úteis após o teu pedido, antes de partilhar qualquer especificação proprietária, artwork ou ficheiro técnico. Estão disponíveis versões bilingues (inglês/chinês) e o documento é assinado pelo diretor da unidade.'
+    - q: 'Como sei que as vossas declarações de qualidade são reais?'
+      a: 'Por trás de cada afirmação deste site há um documento: as SOP QMS e as normas de teste são descarregáveis, exemplos de registos de qualidade anonimizados são publicados e os dados de teste são registados por número de série com rastreabilidade ERP dos lotes de 10 anos. Podes também programar uma inspeção pré-envio de terceiros à tua escolha.'
+    - q: 'O que acontece se as minhas pranchas chegarem com defeitos?'
+      a: 'Cada prancha é inspecionada antes da embalagem e os registos de lote permitem a análise de causas por número de série. O contrato define as obrigações de inspeção, substituição e retrabalho e o Diretor de QA assina a libertação do lote. As pranchas retrabalhadas são completamente retestadas — nunca apenas parcialmente verificadas.'
+    - q: 'Conseguem mesmo testar 100% das pranchas antes do envio?'
+      a: 'Sim — e os registos demonstram-no. Cada câmara é insuflada a 18,0 PSI e mantida durante 24 horas com registo contínuo dos sensores; cada câmara com uma queda de pressão superior a 0,50 PSI em 24 horas é automaticamente rejeitada e reverificada. Os protocolos de teste estão ligados a cada número de série e fazem parte da documentação do lote.'
+    - q: 'Que certificações possuem efetivamente?'
+      a: 'ISO 9001:2015 gestão da qualidade, conformidade ISO 25649 e CE para os produtos SUP insufláveis, bem como conformidade BSCI, REACH e RoHS para a instalação e os materiais. Os números de certificado e os registos de audit são fornecidos mediante pedido ou durante um audit — a lista é publicada, não "disponível apenas mediante pedido".'
+    - q: 'A minha marca está segura — design, moldes e mercado?'
+      a: 'Sim. A tua marca, os teus designs e o teu equipamento são protegidos por NDA, condições de licença da marca e cláusulas de propriedade ou entrega dos moldes no contrato. O equipamento é guardado para a marca e é transferível. As condições territoriais e de exclusividade são acordadas por escrito antes do início da produção.'
+    - q: 'Qual é o vosso MOQ efetivo?'
+      a: 'O MOQ depende do projeto e está explicado no nosso guia MOQ: amostras 1–2 unidades, pequena série em co-branding 5–10 unidades, lotes piloto 20–50 unidades e quantidades padrão 90–100+ unidades por rolo de 150 m (cerca de 180–220 pranchas). Os moldes para formas próprias rodam ao nível de volume. O cálculo é confirmado antes da proposta — sem vagos números de "MOQ baixo".'
+    - q: 'O que acontece se a produção estiver atrasada?'
+      a: 'O tempo de entrega é confirmado após a verificação de especificação, artwork e embalagem — nunca prometido antecipadamente. O contrato regula o planeamento, a comunicação dos atrasos e a via de solução, e a reunião comercial trimestral monitoriza o desempenho de entrega face ao calendário acordado.'
+    - q: 'Quem assina do outro lado os documentos contratuais?'
+      a: 'Encomendas e acordos são assinados conjuntamente pelo VP de Vendas, o engenheiro-chefe e o Diretor de QA — as três pessoas responsáveis respetivamente pela política comercial, pela realização técnica e pela libertação de qualidade. Recebes os documentos assinados com a documentação contratual.'
+
+governance:
+  tagline: 'Estrutura de responsabilidade'
+  title: 'Firmantes designados & direitos reservados'
+  subtitle: 'Cada compromisso está ligado a um papel designado — não a um departamento de vendas.'
+  body: |
+    **Assinatura conjunta.** Encomendas, planos de qualidade e resoluções de disputas são assinados por três papéis: o VP de Vendas (política comercial), o engenheiro-chefe (realização técnica) e o Diretor de QA (libertação de qualidade). As SOP bilingues estão sob controlo de versão e seguem a mesma estrutura de assinaturas.
+
+    **Direitos reservados.** O comprador mantém o direito de auditar a produção, examinar os registos de teste e reter a libertação dos lotes até à aprovação da inspeção. O retrabalho acontece apenas sob um protocolo de alteração aprovado e a libertação é validada por um controlo de qualidade independente — nunca pelos operadores que retrabalharam.
+
+    **Registos entregues.** Os protocolos de teste de lote, os certificados de conformidade e os relatórios de inspeção acompanham cada entrega e a rastreabilidade ERP dos lotes é conservada durante 10 anos. Os registos do equipamento e os desenhos dos moldes passam juntamente com o equipamento se previsto no contrato.
+
+trust_downloads:
+  tagline: 'Documentos oficiais'
+  title: 'Documentos de verificação — descarrega & partilha'
+  subtitle: 'Documentos oficiais da Qingdao Vatrad Group Co., Ltd., prontos para anexar ao teu dossier de due diligence de fornecedores.'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Guia de confiança do comprador OEM e garantias de fábrica (PDF)'
+      desc: 'Guia B2B oficial (Parte II, DOC-ENG-2026-EN): verificação da fábrica passo a passo — registo da entidade, audit físico, engenheiros reais, documentação QMS, inspeção de terceiros, proteção contratual e assinaturas de governança.'
+      link: 'https://assets.supsfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link_label: 'Descarrega o guia (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Guia de branding flexível e MOQ (PDF)'
+      desc: 'Guia B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN): a lógica técnica por trás dos rendimentos dos rolos drop-stitch de 150 m (90–100 pranchas), o co-branding de 5–10 unidades, os lotes piloto de 20–50 unidades e os três níveis de produção.'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Descarrega o guia MOQ (PDF)'
+    - icon: Q
+      icon_bg: orange
+      title: 'O sistema de qualidade por trás destas afirmações'
+      desc: 'Uma página que liga tudo: o sistema de 7 gates de ensaio, as quatro normas que o regulam e o registo de documentos 00–15 com todas as SOP e relatórios descarregáveis — QIP, normas de teste, dossiers de rastreabilidade, SOP NCP e de retrabalho.'
+      link: '/pt/quality'
+      link_label: 'Explora o sistema de qualidade'
+
+evidence_review:
+  tagline: 'Provas & verificação'
+  title: 'ESPECIFICAÇÕES VERIFICADAS'
+  body: 'Todas as declarações de produção desta página são verificadas pela nossa equipa de Manufacturing Engineering na unidade de Laixi, Qingdao. Certificados, protocolos de inspeção QC, relatórios de teste de pressão e estrutura e protocolos de rastreabilidade dos lotes estão disponíveis mediante pedido. Especificações verificadas pela última vez: setembro 2026.'
+
+cta:
+  title: 'Começa pela verificação — depois falamos de especificações'
+  subtitle: 'Envia o teu pedido de NDA, solicita o pacote de registo ou reserva um audit. Primeiro a verificação; depois segue a discussão da encomenda. Um pedido não acarreta qualquer obrigação de encomenda.'
+  button_text: 'Solicita o pacote de verificação'
+  button_link: '/pt/contact#trust-verification'
+  actions:
+    - text: Checklist de audit de fábrica
+      href: /pt/factory-audit-checklist
+    - text: Identidade da marca
+      href: /pt/about/identity

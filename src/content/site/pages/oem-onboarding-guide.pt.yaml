@@ -1,0 +1,127 @@
+meta:
+  title: 'Guia de onboarding OEM — passo a passo do primeiro contacto à produção | SUPsfactory'
+  description: 'Guia de onboarding OEM: NDA, verificação de viabilidade, produção de amostras, aprovação, planeamento de pré-produção, QC de produção e envio. Passo a passo com os prazos.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'Guia de onboarding OEM'
+    - 'Processo de produção SUP'
+    - 'Onboarding de comprador OEM'
+    - 'Processo de fábrica SUP'
+    - 'Fases das encomendas SUP personalizadas'
+    - 'Processo de amostras OEM'
+    - 'Tempos de produção SUP'
+
+hero:
+  tagline: 'Onboarding de comprador OEM'
+  title: 'A tua primeira encomenda SUP, passo a passo'
+  subtitle: 'Do primeiro contacto às pranchas entregues, o processo de onboarding OEM na SUPsfactory passa por sete gates definidos — cada um com um prazo claro, um resultado documentado e um ponto de controlo go/no-go. Sem ambiguidade, sem passos escondidos, sem surpresas após o sinal.'
+  actions:
+    - variant: primary
+      text: Inicia o briefing do teu projeto
+      href: /pt/contact#project-brief
+    - text: Compara os percursos OEM, ODM e Private Label
+      href: /pt/oem-odm-private-label-comparison
+
+answer:
+  label: 'Resposta breve'
+  text: 'Um onboarding OEM típico exige 2–4 semanas para a aprovação da amostra e 6–8 semanas para o primeiro ciclo de produção a partir da confirmação da encomenda. Começas com um briefing de projeto (especificações da prancha, quantidade, requisitos de conformidade). Respondemos num dia útil, oferecemos uma NDA antes da troca de detalhes proprietários e produzimos 1–2 amostras físicas em 7–12 dias para a tua avaliação e aprovação. Uma vez congelada a amostra, seguem o planeamento da produção e a produção com gates de QC fixos em cada fase. Cada passo é documentado e rastreável.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: Os sete gates
+  title: 'Percursos de onboarding — sete gates do briefing à entrega'
+  subtitle: 'Cada gate tem um input definido, um output definido e um prazo acordado antecipadamente. Não passas nenhum gate sem uma aprovação explícita.'
+  steps:
+    - step: 'Gate 1'
+      title: 'Primeiro pedido & NDA (Dia 0)'
+      desc: 'Envia através de /contact um briefing de projeto com as tuas especificações-objetivo da prancha, a quantidade da encomenda, os requisitos de conformidade e o calendário. Uma NDA está disponível imediatamente — antes de partilhares especificações técnicas proprietárias ou artwork. Resposta num dia útil.'
+    - step: 'Gate 2'
+      title: 'Verificação de viabilidade & proposta (Dia 1–5)'
+      desc: 'A engenharia verifica o teu briefing face à capacidade produtiva, à disponibilidade de materiais e ao âmbito de conformidade. Recebes uma proposta item por item com o cálculo do MOQ, os custos das amostras (creditados na produção) e o desdobramento dos prazos de entrega — sem intervalos aproximados, mas um programa gate por gate.'
+    - step: 'Gate 3'
+      title: 'Produção das amostras (Dia 6–17)'
+      desc: '1–2 pranchas físicas segundo a tua especificação: rigidez do casco, aderência do pad antiderrapante em EVA, fidelidade gráfica, ajuste dos acessórios. Tu experimentas e avalias a prancha antes de te comprometeres com qualquer coisa definitiva. Os custos das amostras são creditados na encomenda de produção na assinatura do contrato.'
+    - step: 'Gate 4'
+      title: 'Revisão da amostra & aprovação (Dia 18–21)'
+      desc: 'Avalias a amostra face à tua especificação — sensação de condução, fidelidade gráfica, embalagem, acessórios. As alterações são incorporadas numa BOM revista e numa aprovação do artwork. A especificação congelada torna-se a referência de produção para todos os ciclos subsequentes.'
+    - step: 'Gate 5'
+      title: 'Planeamento da pré-produção (Dia 22–28)'
+      desc: 'Aprovisionamento dos materiais, configuração dos moldes, confirmação da embalagem e reserva do slot de produção. Todos os materiais são controlados à entrada face à BOM congelada. Antes do início da produção é emitido um plano de produção com as datas dos gates de QC.'
+    - step: 'Gate 6'
+      title: 'Produção & gates de QC (Dia 29–55)'
+      desc: 'A produção passa pelo sistema de 7 gates de inspeção: controlo à entrada, controlo do tecido drop-stitch, soldadura & montagem, teste de pressão e estanquicidade (retenção de 18,0 PSI, rejeição automática para além de 0,50 PSI), montagem do pad EVA & acessórios, QC de gráficas & branding, embalagem final & documentação. Cada gate tem critérios aprovado/reprovado e protocolos de rastreabilidade.'
+    - step: 'Gate 7'
+      title: 'Envio & avaliação pós-entrega (Dia 56–63)'
+      desc: 'Embalagem pronta para a exportação, documentação de conformidade (CE, ISO 9001, BSCI, REACH, RoHS) e coordenação do transporte marítimo para mais de 50 países. Uma avaliação pós-entrega captura os ensinamentos e as melhorias para o ciclo de encomenda seguinte.'
+
+collaboration_modes:
+  tagline: 'Escolhe o teu caminho'
+  title: 'Três modalidades de colaboração, um processo de onboarding'
+  subtitle: 'Cada novo comprador passa pelo mesmo onboarding de sete gates — o que muda é a extensão do envolvimento de engenharia e onde reside a propriedade da PI.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Produção OEM'
+      desc: 'Forneces a especificação de design completa — forma do casco, construção, gráficas, acessórios. Produzimos segundo a tua especificação. És dono de toda a PI. Ideal para marcas com uma linha de produto existente e uma geometria de prancha testada.'
+      link_label: 'Como funciona o OEM'
+      href: /pt/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Desenvolvimento ODM'
+      desc: 'Forneces o briefing — peso-alvo do rider, uso previsto, faixa de preço — e a nossa equipa técnica desenvolve a prancha a partir das tuas necessidades. Plataforma adaptada com o teu branding. Ideal para marcas sem capacidade de design interna que entram no mercado.'
+      link_label: 'Como funciona o ODM'
+      href: /pt/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Colocas a tua marca numa plataforma comprovada em campo — nenhuma fase de engenharia necessária. O teu logótipo no nose ou nos rails laterais a partir de apenas 5–10 unidades. Ideal para operadores e distribuidores que querem pranchas com marca sem ciclo de desenvolvimento.'
+      link_label: 'Opções Private Label'
+      href: /pt/solutions/private-label-sup
+
+checklist:
+  heading: 'O que preparar antes do briefing do teu projeto'
+  body: |
+    Quanto mais completo for o teu briefing, mais rápida e precisa será a proposta. Eis como te preparar:
+
+    - **Especificações da prancha** — comprimento, largura e espessura-alvo, intervalo de peso do rider e uso previsto (touring, allround, surf, pesca, yoga etc.). Se tens medidas de referência ou um modelo da concorrência, inclui-as.
+    - **Ficheiros de design** — artwork vetorial (AI, SVG ou PDF) para as gráficas da prancha, o logótipo do pad EVA e o branding secundário. Se o artwork ainda não estiver pronto, para a primeira viabilidade bastam uma mood-board ou imagens de referência.
+    - **Quantidade & prazos** — a tua quantidade-alvo para a primeira encomenda e o calendário de época a respeitar. Mesmo um intervalo aproximado („20–50 pranchas até março") serve para confirmar a viabilidade e a disponibilidade de slots.
+    - **Requisitos de conformidade** — mercados-alvo (UE, América do Norte, Austrália etc.) e eventuais requisitos de certificação ou teste além do nosso padrão (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **Orçamento** — um orçamento indicativo por prancha ou um custo aterrado objetivo ajuda-nos a aconselhar a plataforma e o nível de construção corretos. O preço exato é confirmado apenas após a verificação técnica — nunca antes.
+
+    Se ainda não tens tudo, envia o que tens. Nós guiamos-te no resto.
+
+evidence_review:
+  tagline: 'Provas & verificação'
+  title: 'ESPECIFICAÇÕES VERIFICADAS'
+  body: 'Todas as declarações de produção nesta página são verificadas pela nossa Manufacturing Engineering Team na unidade de Laixi, Qingdao. Certificados, protocolos de inspeção QC, testes de pressão e estruturais e registos de rastreabilidade dos lotes estão disponíveis mediante pedido. Especificações verificadas pela última vez: setembro 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Onboarding OEM — perguntas frequentes'
+  items:
+    - q: 'Quanto dura todo o processo de onboarding?'
+      a: 'A aprovação da amostra exige normalmente 2–4 semanas (incluindo a produção da amostra em 7–12 dias e a tua fase de revisão). O primeiro ciclo de produção exige 6–8 semanas a partir da encomenda confirmada e do sinal. Um novo molde de casco acrescenta 15–20 dias de construção do molde. Cada gate tem um prazo acordado antecipadamente.'
+    - q: 'Preciso de assinar uma NDA antes de partilhar o meu design?'
+      a: 'Uma NDA está disponível imediatamente mediante pedido — antes de partilhares especificações técnicas proprietárias ou artwork. Produzimos exclusivamente com as marcas dos nossos clientes e não competimos com eles em nenhum mercado. A mesma política vale para uma única amostra ou para um programa a contentor.'
+    - q: 'Qual é a quantidade mínima de encomenda para um primeiro ciclo OEM?'
+      a: 'A entrada é escalonada: primeiro 1–2 amostras (disponíveis em 7–12 dias), depois uma encomenda de teste ou piloto de 20–50 pranchas (produção em 25–35 dias) e, em seguida, ciclos de quantidade padrão de 90–100+ pranchas por configuração aprovada. O co-branding em pequenos lotes parte das 5–10 unidades se não for necessária uma fase de desenvolvimento. Os custos das amostras são creditados na encomenda de produção.'
+    - q: 'Como é gerida a proteção da PI durante o onboarding?'
+      a: 'Os teus designs e especificações são protegidos pela NDA assinada antes da troca de informações proprietárias. Todos os artworks, dados da BOM e ficheiros técnicos são conservados em sistemas de acesso controlado com auditoria. Em modalidade OEM és dono de toda a PI. Em modalidade ODM a PI da plataforma adaptada é partilhada conforme acordado. Em modalidade Private Label a PI pertence à SUPsfactory e obténs a licença da aplicação da marca.'
+    - q: 'Que garantias de qualidade valem para uma primeira encomenda?'
+      a: 'Cada prancha — amostra, prova ou quantidade — passa pelo mesmo sistema de 7 gates de inspeção: controlo à entrada, controlo do tecido drop-stitch, soldadura & montagem, teste de pressão e estanquicidade de 24 horas (retenção de 18,0 PSI, rejeição automática para além de 0,50 PSI), montagem do pad EVA & acessórios, QC de gráficas & branding, embalagem final & documentação. A qualidade nunca é reduzida para encomendas mais pequenas.'
+    - q: 'Qual é o primeiro passo prático?'
+      a: 'Preenche /pt/contact#project-brief com as especificações da prancha, a quantidade-alvo e os prazos. Respondemos num dia útil com a verificação de viabilidade e uma proposta item por item. Todo o resto do processo é documentado gate por gate, da NDA à entrega.'
+
+cta:
+  title: 'Pronto a iniciar o teu projeto SUP?'
+  subtitle: 'Envia-nos as especificações da tua prancha, a quantidade-alvo e o calendário. Confirmamos a viabilidade, produzimos amostras e fornecemos um plano de produção — gate por gate, com QC documentada em cada fase.'
+  actions:
+    - variant: primary
+      text: Inicia o briefing do teu projeto
+      href: /pt/contact#project-brief
+    - text: Compara OEM, ODM e Private Label
+      href: /pt/oem-odm-private-label-comparison
+    - text: Verifica a fábrica e o sistema de qualidade
+      href: /pt/proof-center

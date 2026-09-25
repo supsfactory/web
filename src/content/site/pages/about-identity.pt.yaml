@@ -1,0 +1,91 @@
+meta:
+  title: 'Sobre a SUPsfactory — Identidade da marca, divisão de produção do Qingdao Vatrad Group | SUPsfactory'
+  description: 'Identidade da marca SUPsfactory: produção de SUP insufláveis e produtos náuticos insufláveis. Sede da fábrica, entidade jurídica, certificações e posicionamento da marca.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'identidade SUPsfactory'
+    - 'Qingdao Vatrad Group'
+    - 'produtor SUP Vatrad'
+    - 'fábrica SUP Laixi Qingdao'
+    - 'produtor SUP insufláveis China'
+    - 'identidade fábrica OEM SUP'
+
+hero:
+  tagline: 'Identidade da marca'
+  title: 'Quem é a SUPsfactory?'
+  subtitle: 'A SUPsfactory é a marca produtiva orientada para o cliente da Vatrad, a divisão náutica de produção do Qingdao Vatrad Group Co., Ltd. — um produtor de SUP insufláveis e produtos náuticos insufláveis com sede em Laixi, Qingdao, China. Produzimos exclusivamente com as marcas dos nossos clientes e não competimos com eles em nenhum mercado.'
+
+answer:
+  label: 'Em resumo'
+  text: 'Entidade jurídica: Qingdao Vatrad Group Co., Ltd. Divisão de produção: Vatrad (marca SUPsfactory). Fábrica: Laixi, Qingdao, Shandong, China. Âmbito: produção OEM, ODM e marca própria de pranchas de paddle insufláveis, pás e produtos náuticos insufláveis. Certificações: ISO 9001:2015, CE (modelos destinados ao mercado da UE), BSCI, REACH, RoHS. Não vendemos com uma marca própria — cada prancha que produzimos leva a marca do comprador.'
+  verified: 'September 2026'
+
+identity_detail:
+  tagline: Direito e organização
+  title: 'Entidade jurídica e estrutura'
+  subtitle: 'Total transparência sobre a estrutura empresarial, o âmbito de produção e as certificações.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: L
+      icon_bg: blue
+      title: 'Entidade jurídica'
+      desc: 'Qingdao Vatrad Group Co., Ltd. — a parte contratante em todos os acordos de produção, ordens de compra e documentos comerciais de exportação. Registada em Qingdao, Shandong, China.'
+    - icon: M
+      icon_bg: green
+      title: 'Divisão de produção'
+      desc: 'A Vatrad opera como divisão náutica de produção do Qingdao Vatrad Group. A SUPsfactory é a marca orientada para o cliente dos serviços internacionais de produção OEM, ODM e marca própria.'
+    - icon: F
+      icon_bg: purple
+      title: 'Sede da fábrica'
+      desc: 'Laixi, Qingdao, Shandong, China. 12,500 m² de superfície produtiva total, dos quais mais de 10,000 m² de área de produção, com 4 linhas de produção, corte CNC, soldadura de alta frequência, laboratório de testes de pressão e armazém de materiais. A 120 km do porto de Qingdao.'
+
+manufacturing_scope:
+  heading: 'Âmbito de produção'
+  body: |
+    O nosso âmbito de produção cobre toda a cadeia de fabrico dos produtos SUP insufláveis e náuticos — desde o controlo de entrada das matérias-primas até à embalagem final e à documentação comercial de exportação.
+
+    - **Categorias de produto**: pranchas de paddle insufláveis (Allround, Touring, Surf, Fishing, Yoga, Racing), caiaques insufláveis, botes, pás, bombas e acessórios.
+    - **Tipos de construção**: PVC de camada única, PVC de camada dupla, núcleo drop-stitch com revestimento em PVC. Especificações de construção personalizadas para cada projeto.
+    - **Modelos de colaboração**: OEM (design exclusivo do cliente), ODM (desenvolvido em fábrica com base no briefing do cliente), marca própria/co-branding (marca em plataformas testadas).
+    - **Certificações**: ISO 9001:2015 (gestão da qualidade em fábrica), CE (modelos destinados ao mercado da UE, âmbito por projeto), BSCI (conformidade social), REACH (segurança química), RoHS (substâncias sujeitas a restrição).
+    - **Capacidade produtiva**: 120.000+ pranchas por ano, cerca de 10,000 unidades de produção mensal em 4 linhas automatizadas. Possibilidade de ampliar a escala mediante planeamento do programa.
+
+brand_positioning:
+  heading: 'Posicionamento da marca'
+  body: |
+    A SUPsfactory ocupa uma posição específica no mercado — não somos uma marca, somos um produtor. Esta distinção determina todos os aspetos do nosso modo de trabalhar:
+
+    - **Nunca vendemos com uma marca própria.** Cada prancha que produzimos leva a marca do comprador. Não competimos com os nossos clientes em nenhum mercado nem em nenhum canal. Esta política é inegociável.
+    - **Não somos uma empresa comercial.** Gerimos a fábrica. Controlo de qualidade, design, planeamento da produção e documentação comercial de exportação são todos geridos internamente. Não há intermediários entre a tua encomenda e o departamento de produção.
+    - **Somos especializados em produtos insufláveis.** Não é uma atividade secundária nem uma categoria de produto entre muitas outras. Os produtos náuticos e SUP insufláveis são a nossa competência fundamental. Cada máquina, cada processo, cada ponto de controlo de qualidade é otimizado para esta categoria de produto.
+    - **Servimos compradores profissionais.** Os nossos clientes são marcas, distribuidores, gestores de resorts, clubes e escolas — não consumidores finais. A nossa estrutura de preços, o MOQ, a documentação e a comunicação são pensados para relações B2B.
+
+evidence_review:
+  tagline: 'Provas e verificação'
+  title: 'ESPECIFICAÇÕES VERIFICADAS'
+  body: 'Todas as declarações organizacionais e produtivas desta página são verificáveis. O certificado ISO 9001, o relatório BSCI, a licença comercial e os documentos de registo da fábrica estão disponíveis mediante pedido. As visitas à fábrica são bem-vindas. Especificações verificadas pela última vez em setembro de 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Identidade da marca — Perguntas frequentes'
+  items:
+    - q: 'A SUPsfactory é uma empresa separada do Qingdao Vatrad Group?'
+      a: 'Não. A SUPsfactory é a marca orientada para o cliente da Vatrad, a divisão náutica de produção do Qingdao Vatrad Group Co., Ltd. A parte contratante em todas as encomendas é o Qingdao Vatrad Group Co., Ltd. A fábrica, a equipa e o sistema de qualidade constituem uma única operação.'
+    - q: 'Vendem pranchas com uma marca própria?'
+      a: 'Não. Produzimos exclusivamente com as marcas dos nossos clientes e não competimos com eles em nenhum mercado. É uma política fundamental — não uma posição provisória. Se encontrares no mercado uma prancha com a marca SUPsfactory, não vem da nossa fábrica.'
+    - q: 'Posso visitar a fábrica?'
+      a: 'Sim. Recebemos com prazer as visitas à fábrica e podemos organizar uma auditoria estruturada que cobre todo o processo produtivo, os pontos de controlo de qualidade, o armazém de materiais e a análise de documentos. Contacta-nos para agendar uma visita.'
+    - q: 'Qual é a relação entre a Vatrad e a SUPsfactory?'
+      a: 'A Vatrad é o nome da divisão de produção dentro do Qingdao Vatrad Group. A SUPsfactory é a marca internacional orientada para o cliente dos serviços de produção OEM, ODM e marca própria. Ambas se referem à mesma operação — a divisão náutica de produção em Laixi, Qingdao.'
+
+cta:
+  title: 'Prontos para verificar a nossa fábrica?'
+  subtitle: 'Requer a documentação, planeia uma visita à fábrica ou inicia o briefing do teu projeto. Total transparência, sem exceções.'
+  actions:
+    - variant: primary
+      text: Requerer a documentação
+      href: /contact#project-brief
+    - text: Verificar certificações e sistema de qualidade
+      href: /proof-center
+    - text: Processo de onboarding OEM
+      href: /oem-onboarding-guide

@@ -1,0 +1,79 @@
+meta:
+  title: 'Como funciona o Drop Stitch — núcleos rígidos para SUP insufláveis'
+  description: 'Como o Drop Stitch transforma o PVC flexível num núcleo rígido de alta pressão (15-20 PSI) para os SUP: construção, materiais, índices de qualidade e aplicações.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Voltar a Research'
+
+answer:
+  label: 'Resposta breve'
+  text: 'O drop-stitch é um tecido cujos pontes em fio de poliéster mantêm o lado superior e o lado inferior em PVC a uma distância fixa — assim a pressão do ar torna a prancha rígida. Núcleos Vatrad: 1.680 DTEX, 2 fios por polegada quadrada, laminado externo em PVC de 1.2 mm, projetados para 15 PSI, validados com um teste de estanquicidade de 24 horas a 18.0 PSI.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Tecnologia'
+  title: 'Como funciona o Drop Stitch — a engenharia por trás dos núcleos rígidos insufláveis'
+  subtitle: '8 min de leitura'
+
+content_html: |
+  <h2>O que é o Drop Stitch?</h2>
+  <p>No processo drop-stitch (também chamado "tecido drop-stitch" ou "núcleo drop-stitch"), milhares de fios individuais de poliéster ligam o lado superior e o lado inferior de uma estrutura de tecido. Durante a insuflação, estes fios atuam como elementos de tração internos — impedem que o lado superior e o lado inferior se insuflem numa forma redonda e mantêm a superfície plana e rígida.</p>
+  <p>O resultado é uma estrutura leve e transportável que suporta 15 – 20 PSI de pressão interna — comparável à rigidez de uma prancha rígida, mas completamente desinsuflável para armazenamento e transporte.</p>
+
+  <h2>Como funciona: a física</h2>
+  <p>Numa estrutura insuflável convencional (como um balão ou um colchão) a pressão interna empurra uniformemente em todas as direções. Sem contenção interna, a estrutura torna-se cilíndrica ou esférica. O Drop Stitch resolve o problema com um reforço resistente à tração:</p>
+  <ul>
+    <li>Milhares de fios ligam a camada de tecido superior e inferior</li>
+    <li>Durante a insuflação, a pressão do ar tenta empurrar o lado superior e o inferior em direções opostas</li>
+    <li>Os fios resistem a esta separação e transmitem a carga como tração ao longo do eixo do fio</li>
+    <li>O resultado é uma superfície plana e rígida que resiste à flexão</li>
+  </ul>
+
+  <h2>Processo de produção</h2>
+  <ol>
+    <li><strong>Tecedeira:</strong> os fios de poliéster são tecidos simultaneamente em duas camadas separadas de um tecido de suporte (tipicamente poliéster revestido PVC de 1.100 DTEX ou 1.680 DTEX). Os fios são tecidos entre as camadas com um ângulo de 90&deg;.</li>
+    <li><strong>Revestimento:</strong> o tecido de suporte tecido é revestido com PVC (ou ocasionalmente TPU) através de um processo de racla ou calandragem. Isto sela os fios e cria a membrana estanque ao ar.</li>
+    <li><strong>Colagem das camadas:</strong> o núcleo drop-stitch é unido às camadas de laminado externas (tipicamente PVC de 0.9 mm ou 1.2 mm) através de laminação a quente ou cola.</li>
+    <li><strong>Soldadura:</strong> as fitas dos rails são unidas ao longo dos bordos através de soldadura a ar quente, soldadura HF ou soldadura de alta frequência, para formar as paredes laterais da prancha.</li>
+    <li><strong>Montagem da válvula:</strong> são instaladas válvulas Boston ou válvulas Halkey-Roberts, tipicamente com uma válvula de sobrepressão para prevenir a insuflação excessiva.</li>
+  </ol>
+
+  <h2>Índices de qualidade principais</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parâmetro</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Classe base</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Densidade dos fios</td><td class="p-3 border">1 fio / sq in</td><td class="p-3 border">2 fios / sq in</td></tr>
+      <tr><td class="p-3 border">Tecido de suporte</td><td class="p-3 border">1.100 DTEX</td><td class="p-3 border">1.680 DTEX</td></tr>
+      <tr><td class="p-3 border">Pressão máx.</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">Espessura PVC</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Construção do rail</td><td class="p-3 border">Dobrada &amp; colada</td><td class="p-3 border">Soldada &amp; fundida</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Aplicações</h2>
+  <ul>
+    <li><strong>Pranchas SUP:</strong> espessura 4" – 6", 15 – 20 PSI, 1 – 2 fios/sq in</li>
+    <li><strong>Caiaques:</strong> fundo drop-stitch + câmaras laterais insufláveis, fundo a 10 – 15 PSI</li>
+    <li><strong>Fundos RIB:</strong> fundos drop-stitch para tenders RIB leves e dobráveis, 12 – 18 PSI</li>
+    <li><strong>Defensas:</strong> drop-stitch de baixa pressão para defensas moldadas com superfícies planas</li>
+  </ul>
+
+  <h2>Drop Stitch vs. Air Deck (núcleo em fibra de vidro ou madeira)</h2>
+  <p>As pranchas rígidas usam núcleos em espuma EPS com reforços em fibra de vidro ou longarinas de madeira. São mais leves, mais rígidas e mais reativas — mas não podem ser desinsufladas. O Drop Stitch troca um pouco de rigidez por transportabilidade total. Para a maioria dos utilizadores recreativos, os SUP modernos em drop-stitch a 20 PSI são indistinguíveis na rigidez das pranchas rígidas base.</p>
+
+  <h2>Como a Vatrad usa o Drop Stitch</h2>
+  <p>A Vatrad usa um núcleo drop-stitch em 1.680 DTEX em toda a sua gama SUP, com 2 fios por polegada quadrada e um laminado externo em PVC de 1.2 mm. As pranchas são projetadas para 15 PSI e são submetidas antes do envio a um teste de estanquicidade da pressão de 24 horas a 18.0 PSI. As fitas dos rails são soldadas com o processo de ar quente com fusão de três camadas, e as válvulas de sobrepressão são de série em todos os modelos.</p>
+  <p>O Drop Stitch é a espinha dorsal da nossa produção SUP — consulta a <a href="/pt/technology/drop-stitch-core">página tecnológica do núcleo drop-stitch</a> e como o núcleo é unido na <a href="/pt/factory">linha de produção de fábrica</a>.</p>
+
+cta:
+  title: 'Queres saber mais sobre o Drop Stitch?'
+  subtitle: 'Contacta-nos para especificações técnicas e pedidos OEM.'
+  button_text: 'Contacta as vendas'
+  button_link: /pt/contact

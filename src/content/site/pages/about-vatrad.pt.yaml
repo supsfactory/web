@@ -1,0 +1,100 @@
+meta:
+  title: 'Sobre a Vatrad — a divisão náutica de produção'
+  description: 'A Vatrad é a divisão náutica de produção do Qingdao Vatrad Group, fundada em 2012 em Qingdao, China — a fábrica por trás de cada projeto SUP personalizado da SUPsfactory.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Vatrad'
+    - 'fábrica SUP China'
+    - 'produtor SUP insufláveis'
+    - 'Qingdao Vatrad Group'
+hero:
+  tagline: Sobre a Vatrad
+  title: 'Vatrad — a divisão náutica de produção por trás da {SITE}'
+  subtitle: 'Fundada em 2012 em Qingdao, China, a Vatrad fabrica as embarcações insufláveis e as pranchas de paddle por trás dos projetos SUP personalizados da SUPsfactory — uma fábrica de 12,500 m², mais de 350 colaboradores e uma capacidade anual de mais de 120.000 unidades.'
+  actions:
+    - text: 'Iniciar um projeto personalizado'
+      href: /contact
+      variant: primary
+    - text: 'Visitar a fábrica'
+      href: /factory
+      variant: secondary
+intro: |
+  <p><strong>Vatrad</strong> é a divisão náutica de produção do <strong>Qingdao Vatrad Group Co., Ltd.</strong> com sede na zona de desenvolvimento económico de Laixi, Qingdao, Shandong, China. Fundada em 2012, a empresa nasceu como uma oficina especializada em embarcações dedicada ao artesanato náutico e cresceu até se tornar uma fábrica certificada que serve clientes OEM e ODM em mais de 50 países.</p>
+  <p>A SUPsfactory é a divisão B2B para os desenvolvimentos personalizados da fábrica Vatrad. Cada projeto SUPsfactory — desde a primeira amostra ou um pequeno lote em co-branding até a uma linha de produtos completa em marca própria — é realizado nas mesmas instalações, pelas mesmas equipas e com o mesmo sistema de qualidade descrito nesta página.</p>
+  <p>A fábrica ocupa 12,500 m² com oficinas dedicadas ao corte do PVC, à montagem do núcleo drop-stitch, à soldadura de alta frequência, à montagem das pranchas e a uma área de testes para a retenção de ar, a manutenção da pressão e as provas de resistência das costuras. A capacidade produtiva ultrapassa as 120.000 unidades insufláveis por ano e a instalação opera com uma gestão da qualidade segundo a ISO 9001, com conformidade CE, BSCI, REACH e aprovação USCG para os produtos exportados.</p>
+  <p>Mais de 350 colaboradores qualificados e mais de 14 engenheiros de I&D apoiam as duas áreas de trabalho que contam para as marcas de SUP: design (forma do casco, seleção de materiais, prototipagem) e produção (aplicação de gráficas, montagem, inspeção, embalagem para exportação). Um centro de I&D interno com laboratório de tecidos em PVC e tanque de testes gere formas personalizadas e a validação estrutural antes do início da produção em série.</p>
+stats:
+  title: A Vatrad em números
+  stats:
+    - title: Ano de fundação
+      amount: 2012
+    - title: Instalações
+      amount: '12,500 m²'
+    - title: Países servidos
+      amount: '50+'
+    - title: Capacidade anual
+      amount: '120,000+ unidades'
+    - title: Colaboradores
+      amount: '350+'
+    - title: Engenheiros de I&D
+      amount: '14+'
+values_section:
+  title: Como a fábrica trabalha com as marcas
+  subtitle: 'Três princípios que caracterizam cada projeto construído pela fábrica Vatrad.'
+  columns: 3
+  items:
+    - title: Design antes da produção
+      description: 'Cada projeto começa com requisitos, desenhos e uma amostra física — a forma do casco, os graus do drop-stitch, o posicionamento das gráficas e a embalagem são validados antes de cada ciclo produtivo, não descobertos apenas em linha.'
+      icon: 'tabler:settings'
+    - title: Uma equipa, uma instalação
+      description: 'Design, corte, soldadura, montagem e ensaios acontecem numa única instalação de 12,500 m². Nenhum passo intermédio por empresas comerciais: as pessoas que respondem às tuas perguntas são as que constroem as tuas pranchas.'
+      icon: 'tabler:building-factory-2'
+    - title: Pequenos primeiros lotes
+      description: 'O co-branding em pequenos lotes começa nas 5–10 unidades e a produção padrão em série corre com 90–100+ unidades por lote (uma bobina de drop-stitch de 150 m) — assim as marcas validam o mercado antes de escalar, mantendo moldes e gráficas para reencomendas.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: O que a fábrica oferece
+  subtitle: 'Os serviços de produção disponíveis para os clientes SUPsfactory.'
+  columns: 2
+  items:
+    - title: Desenvolvimento SUP personalizado
+      description: 'Avaliação de requisitos, especificações, seleção de materiais, gráficas, prototipagem, aprovação da amostra e produção de produtos SUP insufláveis à medida.'
+      icon: 'tabler:bulb'
+    - title: Produção em marca própria
+      description: 'O teu logótipo, as tuas cores e a tua embalagem em plataformas comerciais testadas: prancha, deck pad, acessórios e caixas levam todos a tua identidade, sem branding de fábrica.'
+      icon: 'tabler:tag'
+    - title: Produção OEM/ODM
+      description: 'Produção OEM e ODM completa de SUP insufláveis segundo os desenhos do cliente ou designs desenvolvidos em conjunto, incluindo moldes personalizados para novas formas de prancha.'
+      icon: 'tabler:package'
+    - title: Fornecimento de frotas
+      description: 'Frotas de pranchas com marca para resorts, clubes, escolas e centros de aluguer, com acessórios coordenados e ciclos produtivos pensados para frotas.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: Certificação e conformidade
+  subtitle: 'A fábrica fornece a UE, os Estados Unidos e a região Ásia-Pacífico no âmbito de um sistema de conformidade documentado.'
+  columns: 2
+  items:
+    - title: Certificação CE
+      description: 'As linhas de produto de SUP insufláveis e embarcações cumprem as diretivas de segurança da UE, com documentação para cada mercado.'
+      icon: 'tabler:certificate'
+    - title: Sistema de qualidade ISO 9001
+      description: 'A instalação produtiva opera com um sistema de gestão da qualidade ISO 9001 que cobre o controlo de entrada, de processo e final.'
+      icon: 'tabler:badge-check'
+    - title: Conformidade social BSCI
+      description: 'A responsabilidade social é sujeita a auditoria segundo a BSCI e cobre as condições de trabalho e a conformidade da fábrica.'
+      icon: 'tabler:shield-check'
+    - title: Conformidade de materiais REACH
+      description: 'Os materiais cumprem o regulamento REACH da UE sobre segurança química.'
+      icon: 'tabler:flask'
+    - title: Aprovação USCG
+      description: 'Produção aprovada pela Guarda Costeira dos EUA para as linhas de produto de embarcações insufláveis.'
+      icon: 'tabler:anchor'
+    - title: Ensaio do produto
+      description: 'Testes de flutuabilidade, capacidade de carga, resistência das costuras, resistência aos raios UV, resistência à abrasão e manutenção da pressão em cada linha de produção.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Constrói o teu projeto SUP com a fábrica Vatrad'
+  subtitle: 'Envia os teus requisitos — tipo de prancha, dimensões, quantidade e gráficas — e recebe um orçamento detalhado num dia útil.'
+  actions:
+    - text: Identidade da marca
+      href: /about/identity

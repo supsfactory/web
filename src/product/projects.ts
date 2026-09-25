@@ -3338,6 +3338,665 @@ export const projects: Localized<ProjectData[]> = {
       tags: ['Configurazione yoga', 'Copertura completa del deck', 'Flotta di programma'],
     },
   ],
+  pt: [
+    {
+      slug: 'coastal-rental-fleet',
+      customerType: 'Operadores de frotas de aluguer',
+      region: 'Mediterrâneo — Espanha, Itália, Grécia',
+      productCategory: 'SUP insuflável para aluguer (10′6″ + 11′0″)',
+      projectStage: 'Avaliação da frota → Aprovação da amostra → Entrega faseada em 3 lotes',
+      manufacturingScope: 'Especificação da frota, construção reforçada, produção faseada, fornecimento de peças sobresselentes',
+      keyRequirements: 'Pranchas de aluguer duráveis, entrega faseada em todas as estações, menor taxa de substituições antecipadas',
+      qualityFocus: 'Construção reforçada, estanquidade, gráficas de frota, kit completo',
+      navLabel: 'Frota de aluguer costeira',
+      metaTitle: 'Frota de aluguer costeira | 320 pranchas em 120 dias — SUPsfactory',
+      metaDescription:
+        'Como um operador de aluguer no Mediterrâneo montou uma frota costeira de 320 pranchas entre Espanha, Itália e Grécia — três lotes faseados em 120 dias e uma redução estimada das substituições antecipadas de 20–25 %.',
+      kicker: 'Projeto de aluguer costeiro',
+      h1: 'Como um operador de aluguer no Mediterrâneo montou uma frota costeira de 320 pranchas em 120 dias',
+      intro: [
+        'Um operador de aluguer com estações em Espanha, Itália e Grécia precisava de uma frota durável para o verão de elevada rotação — entregue em três lotes, a tempo da abertura de cada estação.',
+      ],
+      industry: 'Operadores de frotas de aluguer',
+      requirement: '320 pranchas de aluguer em dois tamanhos — 10′6″ e 11′0″ — para estações costeiras em três países, entregues em três lotes faseados no prazo de 120 dias.',
+      challenge:
+        'A rotação diária do aluguer desgasta rapidamente as pranchas e a taxa de substituições antecipadas do operador rondava os 20–25 %. As estações abriam em três países em datas diferentes: uma única entrega não era opção, nem uma frota de um único tamanho.',
+      solution:
+        'Duas plataformas de aluguer duráveis nos tamanhos que cobrem a maioria dos alugueres, construção reforçada para o uso intensivo e três lotes de produção programados a tempo da abertura de cada estação — com kits de peças sobresselentes e guia de reparação por estação.',
+      product: 'SUP insuflável para aluguer — plataformas de 10′6″ e 11′0″ com rails reforçados e materiais resistentes aos raios UV, kits por estação.',
+      process: [
+        { title: 'Avaliação da frota', body: 'As datas de abertura e os volumes de rotação definiram os dois tamanhos e a repartição dos lotes.' },
+        { title: 'Seleção das pranchas', body: 'Plataformas de aluguer de 10′6″ e 11′0″ escolhidas pela cobertura dos alugueres e pela durabilidade.' },
+        { title: 'Produção faseada', body: 'Três lotes sincronizados com a data de abertura de cada estação.' },
+        { title: 'Entrega e apoio', body: 'Frota enviada por lote com kits de peças sobresselentes e guia de reparação por estação.' },
+      ],
+      result:
+        'Os três lotes chegaram dentro de 120 dias, em sincronia com a abertura de cada estação. As plataformas reforçadas deverão reduzir a taxa de substituições antecipadas em cerca de 20–25 %, e os kits de peças sobresselentes cobrem as reparações no terreno entre temporadas.',
+      outcome: '320 pranchas · 120 dias · 3 lotes · ca. −20–25 % de substituições antecipadas.',
+      metrics: [
+        { value: '320', label: 'pranchas em dois tamanhos' },
+        { value: '120', label: 'dias da encomenda ao último lote' },
+        { value: '3', label: 'entregas faseadas, uma por abertura de estação' },
+        { value: '−20–25%', label: 'taxa de substituições antecipadas estimada' },
+      ],
+      takeaways: [
+        'Os lotes faseados levam a frota exatamente à abertura de cada estação — sem inventário parado, sem arranques tardios.',
+        'Dois tamanhos (10′6″ e 11′0″) cobriram a maioria dos alugueres sem fragmentar a frota.',
+        'Para baixar a taxa de substituições antecipadas é decisiva a construção reforçada — não apenas o preço.',
+        'Os kits de peças sobresselentes por estação mantiveram as pranchas operacionais entre temporadas.',
+      ],
+      customizations: [
+        'Plataformas de aluguer de 10′6″ e 11′0″ calibradas para os perfis dos alugueres',
+        'Rails reforçados e materiais resistentes aos raios UV para o uso intensivo do aluguer',
+        'Gráficas de frota e numeração por estação',
+        'Plano de produção em três lotes sincronizado com as aberturas das estações',
+        'Kits de peças sobresselentes e guia de reparação por estação',
+        'Embalagem para locais separados e verificação da entrega por lote',
+      ],
+      inspectionFocus: [
+        'Verificação da construção reforçada por prancha',
+        'Insuflação e estanquidade em cada prancha',
+        'Precisão das gráficas de frota e da numeração das estações',
+        'Completude de acessórios e kits de peças sobresselentes por estação',
+        'Controlos da embalagem para envios a locais separados em vários lotes',
+      ],
+      confidentiality:
+        'Por acordo, o nome do operador e as localizações das estações não são divulgados. Este projeto é apresentado de forma anónima para proteger a confidencialidade comercial.',
+      tags: ['Entrega faseada da frota', 'Construção de qualidade para aluguer', 'Taxa de substituição reduzida'],
+    },
+    {
+      slug: 'eu-distributor-private-label',
+      customerType: 'Distribuidores e grossistas',
+      region: 'Europa',
+      productCategory: 'SUP insuflável de marca própria (2 SKU)',
+      projectStage: 'Planeamento da gama → Aprovação da amostra → Entrega em volume em 90 dias',
+      manufacturingScope: 'Marca própria, embalagem de retalho, produção em série, apoio a reencomendas',
+      keyRequirements: 'Dois SKU comprovados no mercado sob a marca do distribuidor, embalagem de retalho UE, alinhamento com as datas de época',
+      qualityFocus: 'Precisão das gráficas, código de barras e etiqueta por mercado, kit completo, estanquidade',
+      navLabel: 'Marca própria para distribuidores',
+      metaTitle: 'Marca própria para distribuidor UE | 1,200 pranchas em 90 dias — SUPsfactory',
+      metaDescription:
+        'Como um distribuidor europeu lançou em 90 dias uma linha SUP de marca própria com 1,200 pranchas — dois SKU, embalagem de retalho UE e uma reencomenda no Q4 com a mesma especificação bloqueada.',
+      kicker: 'Projeto de marca própria',
+      h1: 'Como um distribuidor europeu lançou uma linha SUP de marca própria com 1,200 pranchas em 90 dias',
+      intro: [
+        'Um distribuidor europeu queria uma linha SUP própria nas prateleiras para a época de verão — dois SKU comprovados no mercado, embalagem de retalho completa e nenhuma relação direta com fabricantes.',
+      ],
+      industry: 'Distribuidores e grossistas',
+      requirement: '1,200 pranchas com a própria marca em dois SKU — 10′6″ All-round e 12′6″ Touring — com embalagem de retalho UE, entregues em 90 dias.',
+      challenge:
+        'A janela de venda de verão é fixa: todas as 1,200 pranchas com a respetiva embalagem tinham de chegar a tempo. A embalagem de marca própria — códigos de barras, etiquetas, manuais — tinha de cumprir os requisitos do retalho UE e o distribuidor não tinha qualquer experiência com fábricas de SUP.',
+      solution:
+        'Duas plataformas comprovadas no mercado para a gama de retalho, todo o design de marca própria e a embalagem de retalho UE geridos num único programa e um planeamento de produção que permita o envio conjunto de ambos os SKU dentro da janela de 90 dias — com especificação bloqueada para uma reencomenda limpa.',
+      product: 'SUP insuflável de marca própria — 10′6″ All-round e 12′6″ Touring, com pá, bomba, mochila e cartões de retalho impressos com a marca.',
+      process: [
+        { title: 'Planeamento da gama', body: 'Selecionados dois SKU — 10′6″ All-round e 12′6″ Touring — para a cobertura no retalho.' },
+        { title: 'Aprovação da amostra', body: 'Gráficas, embalagem e acabamentos confirmados em pranchas físicas.' },
+        { title: 'Produção em 90 dias', body: 'Produção em volume planeada para enviar conjuntamente ambos os SKU para a janela de época.' },
+        { title: 'Reencomenda no Q4', body: 'Reencomenda efetuada com a mesma especificação bloqueada.' },
+      ],
+      result:
+        'Todas as 1,200 pranchas com embalagem de retalho completa foram enviadas dentro de 90 dias, a tempo da janela de venda de verão. A linha vendeu todo o stock e o distribuidor voltou no Q4 com uma reencomenda com a mesma especificação bloqueada.',
+      outcome: '1,200 pranchas · 90 dias · 2 SKU · reencomenda no Q4.',
+      metrics: [
+        { value: '1,200', label: 'pranchas num único lançamento' },
+        { value: '90', label: 'dias até à entrega completa' },
+        { value: '2', label: 'SKU de retalho, ambos a tempo da janela' },
+        { value: 'Q4', label: 'reencomenda com a mesma especificação' },
+      ],
+      takeaways: [
+        'Começar com dois SKU comprovados mantém o risco de stock baixo e preenche igualmente a gama de retalho.',
+        'Um único programa para pranchas, acessórios e embalagem elimina uma causa frequente de erros nos lançamentos.',
+        'Uma data de época fixa determina o calendário — o planeamento da produção deve tratá-la como não negociável.',
+        'Bloquear a especificação no lançamento torna as reencomendas limpas e coerentes.',
+      ],
+      customizations: [
+        'Plataformas All-round de 10′6″ e plataformas Touring de 12′6″ para a gama de retalho',
+        'Design de marca própria para deck, fundo e embalagem',
+        'Pá, bomba e mochila com a marca por SKU',
+        'Cartões de retalho impressos, códigos de barras, etiquetas e manual de utilização para o retalho UE',
+        'Lista de materiais (BOM) e especificação bloqueadas para reencomendas coerentes',
+        'Entrega faseada sincronizada com a janela de lançamento no retalho',
+      ],
+      inspectionFocus: [
+        'Precisão das gráficas face aos ficheiros de marca própria aprovados',
+        'Verificação de código de barras, etiqueta e manual por mercado',
+        'Kit completo por SKU em toda a série de 1,200 pranchas',
+        'Verificações de amostragem da estanquidade durante a produção',
+        'Verificação de cartão e embalagem por SKU',
+      ],
+      confidentiality:
+        'Por acordo, o nome do distribuidor e os seus clientes de retalho não são divulgados. Este projeto é apresentado de forma anónima para proteger a confidencialidade comercial.',
+      tags: ['Marca própria', 'Gama de retalho de 2 SKU', 'Entrega na janela de época'],
+    },
+    {
+      slug: 'resort-sup-fleet',
+      customerType: 'Resort e unidades hoteleiras',
+      region: 'Europa / América do Norte',
+      productCategory: 'SUP insuflável All-round',
+      projectStage: 'Aprovação da amostra → Produção em série → Atualização da frota',
+      manufacturingScope: 'Gráficas, acessórios, embalagem e produção da frota',
+      keyRequirements: 'Durabilidade para o aluguer, arrumação compacta, marca completa da unidade',
+      qualityFocus: 'Estanquidade, precisão das gráficas, acessórios completos, marcação dos cartões',
+      navLabel: 'Frota SUP para um resort de luxo',
+      metaTitle: 'Frota SUP para um resort de luxo | 100 pranchas com marca — SUPsfactory',
+      metaDescription:
+        'Como um resort de luxo equipou o seu programa de praia com 100 pranchas SUP com a sua marca — gráficas personalizadas, construção de qualidade para aluguer e gestão sazonal da frota.',
+      kicker: 'Projeto resort',
+      h1: 'Como um resort de luxo padronizou uma frota SUP com marca de 100 pranchas',
+      intro: [
+        'Um resort de luxo queria que o seu programa de praia se integrasse com a propriedade — pranchas com a marca nas cores do resort, suficientemente robustas para o uso diário dos hóspedes e fáceis de arrumar entre temporadas.',
+      ],
+      industry: 'Resort e unidades hoteleiras',
+      requirement: '100 pranchas SUP com a marca para aluguer aos hóspedes, nas cores da unidade.',
+      challenge:
+        'O aluguer diário desgasta rapidamente as frotas genéricas e o espaço de arrumação fora de época é limitado. O resort precisava de pranchas que resistam ao uso intensivo, que se arrumem de forma compacta e que tenham a marca completa da unidade.',
+      solution:
+        'Construção insuflável de qualidade para aluguer com rails reforçados e materiais resistentes aos raios UV, gráficas de toda a superfície nas cores do resort e pás e bombas com a marca incluídas no pacote da frota.',
+      product: 'SUP insuflável personalizado — plataforma All-round de 11′ com design de deck com a marca e acessórios.',
+      process: [
+        { title: 'Consulta sobre a frota', body: 'Afluência de hóspedes, zona costeira e duração da época definiram a dimensão e o mix da frota.' },
+        { title: 'Amostra com a marca', body: 'Cores e logótipo aprovados numa prancha física antes da produção.' },
+        { title: 'Produção e controlo de qualidade', body: '100 pranchas produzidas com controlo de qualidade em múltiplos pontos em toda a série.' },
+        { title: 'Entrega e atualização', body: 'Entrega sazonal, peças sobresselentes e um programa de atualização para as épocas seguintes.' },
+      ],
+      result:
+        'A frota arrancou a tempo da época, as pranchas arrumam-se fora de época numa única sala e o feedback dos hóspedes sobre o equipamento com a marca levou a uma expansão da frota no ano seguinte.',
+      outcome: 'Arranque de época pontual, frota 100% com a marca, expansão na época seguinte.',
+      customizations: [
+        'Plataforma, medida e construção das pranchas selecionadas para o aluguer diário',
+        'Design de toda a superfície do deck nas cores da unidade',
+        'Marca nos rails e posicionamento do logótipo aprovados numa amostra física',
+        'Pá, bomba e conjunto de acessórios com a marca para cada prancha',
+        'Numeração da frota e codificação por cores em toda a série',
+        'Configuração de arrumação compacta e âmbito da atualização sazonal',
+      ],
+      inspectionFocus: [
+        'Insuflação e estanquidade em cada prancha',
+        'Estado da válvula e dos rails reforçados',
+        'Precisão das gráficas e correspondência de cores face à amostra aprovada',
+        'Completude de acessórios e kit por prancha',
+        'Marcação dos cartões e etiquetas de frota antes do lançamento do envio',
+      ],
+      confidentiality:
+        'Por acordo, o nome do resort e os seus ativos de marca não são divulgados. Este projeto é apresentado de forma anónima para proteger a confidencialidade comercial.',
+      tags: ['Frota com a marca para os hóspedes', 'Construção de qualidade para aluguer', 'Atualização sazonal'],
+    },
+    {
+      slug: 'private-label-launch',
+      customerType: 'Marcas de retalho e outdoor',
+      region: 'Europa',
+      productCategory: 'SUP insuflável All-round (marca própria)',
+      projectStage: 'Aprovação da amostra → Série de validação → Escalabilidade',
+      manufacturingScope: 'Design de produto e embalagem, amostragem, produção, manutenção dos moldes',
+      keyRequirements: 'Linha vendável sem design ou produção SUP internos',
+      qualityFocus: 'Controlo de versões das gráficas, precisão da embalagem, kit completo',
+      navLabel: 'Lançamento de marca própria',
+      metaTitle: 'Lançamento SUP de marca própria | Extensão de marca — SUPsfactory',
+      metaDescription:
+        'Como uma marca outdoor existente se expandiu no setor SUP com uma linha de produto de marca própria — do logótipo ao primeiro contentor, com MOQ escalável.',
+      kicker: 'Projeto de marca própria',
+      h1: 'Como uma marca outdoor lançou uma linha SUP de marca própria, do logótipo ao primeiro contentor',
+      intro: [
+        'Um retalhista desportivo com uma marca estabelecida queria expandir-se para os desportos de remo sem criar relações com fábricas — uma linha SUP vendável com o seu próprio nome.',
+      ],
+      industry: 'Marcas de retalho e outdoor',
+      requirement: 'Uma linha SUP de marca própria — logótipo, cores e embalagem em plataformas comprovadas, com uma primeira série de 50 peças.',
+      challenge:
+        'Sem equipa interna de design SUP, sem experiência de produção e um primeiro pedido suficientemente pequeno para testar o mercado antes de escalar.',
+      solution:
+        'Design completo de produto e embalagem baseado nos ativos da marca, uma série de validação de 50 peças e depois escalabilidade nas mesmas plataformas verificadas — os moldes ficam para a marca.',
+      product: 'SUP insuflável de marca própria — deck com a marca, pá, bomba, mochila e cartões impressos.',
+      process: [
+        { title: 'Aquisição da marca', body: 'Logótipo, cores e diretrizes da marca transformados em design de pranchas e embalagem.' },
+        { title: 'Aprovação da amostra', body: 'A amostra física confirmou acabamentos, cores e embalagem.' },
+        { title: 'Série de validação', body: 'Primeira série de 50 peças totalmente vendida antes da escalabilidade.' },
+        { title: 'Escalabilidade', body: 'Produção em quantidades de contentor com qualidade constante; design propriedade da marca.' },
+      ],
+      result:
+        'A linha vendeu a sua série de validação dentro de uma época e escalou para pedidos de contentor — a marca é proprietária de todos os designs e moldes.',
+      outcome: 'Validada numa época, escalada para pedidos de contentor.',
+      customizations: [
+        'Plataformas, medidas e cores das pranchas alinhadas com a linha da marca',
+        'Design de deck, fundo e embalagem baseados nos ativos da marca',
+        'Pá, bomba, mochila e conjunto de acessórios com a marca',
+        'Cartões de retalho impressos e paginação das etiquetas',
+        'Código de barras e versão do manual de utilização para o mercado-alvo',
+        'Propriedade de moldes e design mantida pela marca',
+      ],
+      inspectionFocus: [
+        'Correspondência da versão das gráficas com os ficheiros aprovados',
+        'Precisão de cores e acabamentos na amostra física',
+        'Verificação de embalagem, código de barras e manual',
+        'Kit completo em toda a série de validação',
+        'Verificações de amostragem da estanquidade durante a produção',
+      ],
+      confidentiality:
+        'Por acordo, o nome da marca e os detalhes comerciais não são divulgados. Este projeto é apresentado de forma anónima para proteger a confidencialidade comercial.',
+      tags: ['Extensão de marca', 'Design da embalagem', 'MOQ escalável'],
+    },
+    {
+      slug: 'club-team-boards',
+      customerType: 'Clubes e equipas de paddle',
+      region: 'América do Norte',
+      productCategory: 'SUP insuflável de treino',
+      projectStage: 'Aprovação da amostra → Produção da frota → Reencomenda para expansão',
+      manufacturingScope: 'Marca do clube, produção da frota, apoio a peças sobresselentes',
+      keyRequirements: 'Aspecto de equipa uniforme, orçamento limitado, expansão futura idêntica',
+      qualityFocus: 'Precisão das gráficas, estanquidade, kit completo, reencomendas coerentes',
+      navLabel: 'Pranchas de equipa para o clube',
+      metaTitle: 'Pranchas SUP de equipa para clubes | Renovação da frota com a marca — SUPsfactory',
+      metaDescription:
+        'Como um clube de paddle renovou e atualizou a sua frota com 25 pranchas de treino com a marca — gráficas de equipa, apoio a peças sobresselentes e reencomendas coerentes.',
+      kicker: 'Projeto clube',
+      h1: 'Como um clube de paddle renovou a marca de uma frota de treino com 25 pranchas',
+      intro: [
+        'Um clube de paddle relançou a sua marca e precisava de equipamento coerente — uma frota de equipa uniforme para treinos e regatas, sem stock heterogéneo.',
+      ],
+      industry: 'Clubes e equipas de paddle',
+      requirement: '25 pranchas de treino com a marca, com nome, cores e logótipo do clube, além de peças sobresselentes.',
+      challenge:
+        'A frota existente era heterogénea e sem marca; o orçamento era limitado e para a expansão futura era preciso stock idêntico e coerente.',
+      solution:
+        'Marca do clube em cada prancha, condições de frota para o volume e peças sobresselentes com guias de reparação para prolongar a vida das pranchas.',
+      product: 'SUP de equipa personalizado — forma de treino com gráficas do clube, aletas de substituição e kits de reparação.',
+      process: [
+        { title: 'Aquisição do clube', body: 'Número de membros, tipos de treino e equipamento atual verificados.' },
+        { title: 'Seleção das pranchas', body: 'Formas de treino e de iniciação calibradas para o programa do clube.' },
+        { title: 'Marca', body: 'Nome, cores e logótipo do clube aplicados em toda a frota.' },
+        { title: 'Entrega e crescimento', body: 'Frota entregue com as peças sobresselentes; reencomenda idêntica para a expansão.' },
+      ],
+      result:
+        'Os membros treinam com equipamento com a marca e coerente, e o clube expandiu a frota na época seguinte com uma reencomenda idêntica e da mesma qualidade.',
+      outcome: 'Frota uniforme, reencomenda de expansão idêntica.',
+      customizations: [
+        'Plataformas de treino e de iniciação calibradas para o programa do clube',
+        'Nome, cores e logótipo do clube em toda a frota',
+        'Numeração das pranchas e agrupamento por medida conforme o grupo de treino',
+        'Aletas de substituição e kits de reparação como acessórios de frota',
+        'Especificação de reencomenda bloqueada para uma expansão futura idêntica',
+      ],
+      inspectionFocus: [
+        'Precisão das gráficas de nome, cores e logótipo do clube',
+        'Verificação de insuflação e estanquidade',
+        'Completude de acessórios e kits de reparação',
+        'Coerência cromática em toda a série de 25 pranchas',
+      ],
+      confidentiality:
+        'Por acordo, o nome do clube e a sua localização não são divulgados. Este projeto é apresentado de forma anónima para proteger a confidencialidade comercial.',
+      tags: ['Marca do clube', 'Condições de frota', 'Apoio a peças sobresselentes'],
+    },
+    {
+      slug: 'school-program-fleet',
+      customerType: 'Educação e programas juvenis',
+      region: 'Europa',
+      productCategory: 'SUP insuflável para iniciantes e multi-lugar',
+      projectStage: 'Revisão do programa → Aprovação da amostra → Entrega da frota',
+      manufacturingScope: 'Design do pacote, produção, peças sobresselentes e apoio à renovação',
+      keyRequirements: 'Equipamento orientado para a segurança, quantidades para dimensões de turma, gestão com pouco pessoal',
+      qualityFocus: 'Estabilidade, estanquidade, acessórios completos, guia do utilizador',
+      navLabel: 'Frota para programas escolares',
+      metaTitle: 'Programa SUP para escolas | Frota para iniciantes — SUPsfactory',
+      metaDescription:
+        'Como uma escola lançou uma disciplina opcional de desportos de remo com uma frota de 15 pranchas para iniciantes e pranchas multi-lugar — equipamento orientado para a segurança no ensino.',
+      kicker: 'Projeto escolar',
+      h1: 'Como uma escola montou uma frota para iniciantes com 15 pranchas para o ensino de desportos de remo',
+      intro: [
+        'Uma escola que lançava uma disciplina opcional de desportos de remo precisava de equipamento estável e seguro para iniciantes, dimensionado para as turmas e fácil de gerir com pouco pessoal.',
+      ],
+      industry: 'Educação e programas juvenis',
+      requirement: 'Uma frota para iniciantes adequada às dimensões das turmas, incluindo pranchas multi-lugar para as primeiras aulas.',
+      challenge:
+        'Níveis de aptidão mistos, requisitos de segurança rigorosos, ciclos de compra escolares e um orçamento que tem de cobrir também as futuras turmas.',
+      solution:
+        'Pranchas para iniciantes largas e de grande volume e pranchas multi-lugar, condições de programa alinhadas com as dimensões das turmas e uma guia do utilizador clara para os instrutores.',
+      product: 'Frota de SUP para iniciantes — plataformas estáveis com construção reforçada para uma longa vida útil do programa.',
+      process: [
+        { title: 'Revisão do programa', body: 'Dimensões das turmas, área aquática e organização dos instrutores definiram o pacote.' },
+        { title: 'Construção do pacote', body: 'Tipos e quantidades de pranchas calibrados para o ensino.' },
+        { title: 'Aprovação da amostra', body: 'Estabilidade e construção verificadas numa prancha física.' },
+        { title: 'Entrega e renovação', body: 'Fornecimento em volume, peças sobresselentes e reencomendas para as novas turmas.' },
+      ],
+      result:
+        'Os instrutores reportaram progressos mais rápidos na primeira aula nas plataformas estáveis, e o programa renovou o equipamento no ano seguinte com uma reencomenda correspondente.',
+      outcome: 'Curva de aprendizagem mais rápida, equipamento renovado no ano seguinte.',
+      customizations: [
+        'Plataformas para iniciantes largas e de grande volume para as primeiras aulas',
+        'Pranchas multi-lugar para aulas de grupo',
+        'Medida e quantidade das pranchas calibradas para as dimensões das turmas',
+        'Guia do utilizador clara e etiquetas didáticas',
+        'Construção reforçada para uma longa vida útil do programa',
+        'Especificação para o fornecimento em volume e as reencomendas de renovação',
+      ],
+      inspectionFocus: [
+        'Verificação de estabilidade e configuração do deck',
+        'Insuflação e estanquidade em cada prancha',
+        'Acessórios completos por prancha e kit de turma',
+        'Precisão da guia do utilizador e das etiquetas',
+        'Marcação dos cartões e controlos do kit de turma',
+      ],
+      confidentiality:
+        'Por acordo, o nome da escola e a região não são divulgados. Este projeto é apresentado de forma anónima para proteger a confidencialidade comercial.',
+      tags: ['Frota para iniciantes', 'Arranque do programa', 'Pedidos de renovação'],
+    },
+    {
+      slug: 'distributor-line-expansion',
+      customerType: 'Distribuidores e grossistas',
+      region: 'Duas regiões de exportação',
+      productCategory: 'SUP insuflável de gama média (6 SKU)',
+      projectStage: 'Planeamento da gama → Aprovação da amostra → Fornecimento a vários mercados',
+      manufacturingScope: 'Pranchas, acessórios e embalagem de retalho num único programa',
+      keyRequirements: 'Um único responsável pela qualidade, marca coerente, stock reduzido por SKU',
+      qualityFocus: 'Estanquidade, precisão das gráficas, precisão de códigos de barras e etiquetas, conformidade com a lista de materiais',
+      navLabel: 'Expansão da gama para distribuidores',
+      metaTitle: 'Expansão da gama SUP para distribuidores | Programa de 6 SKU — SUPsfactory',
+      metaDescription:
+        'Como um distribuidor de desportos aquáticos montou uma linha SUP completa de gama média com seis SKU — uma fábrica, um programa, exportada para vários mercados.',
+      kicker: 'Projeto distribuidor',
+      h1: 'Como um distribuidor lançou uma linha SUP de 6 SKU em dois mercados',
+      intro: [
+        'Um distribuidor de desportos aquáticos com caiaques e acessórios no catálogo queria uma linha própria de SUP insufláveis — sem fragmentar o fornecimento de pranchas, pás e bombas por várias fábricas.',
+      ],
+      industry: 'Distribuidores e grossistas',
+      requirement: 'Uma linha SUP de gama média de 6 SKU (de 10′6″ a 12′6″ mais conjuntos de acessórios), com exportação para duas regiões.',
+      challenge:
+        'Fábricas separadas para pranchas, pás e bombas significavam marca incoerente, três pontos de fornecimento distintos e nenhum responsável único pela qualidade nos casos de garantia.',
+      solution:
+        'Um único programa para pranchas, acessórios e embalagem de retalho; conjuntos de acessórios partilhados para reduzir o stock por SKU; e opções de fornecimento calibradas para a estrutura de cada mercado.',
+      product: 'Seis SKU de retalho com marca — plataformas SUP insufláveis com kits completos, embalados com divisórias, em cartões impressos.',
+      process: [
+        { title: 'Planeamento da gama', body: 'Lacunas de mercado e posicionamentos de preço definiram os seis SKU e os conteúdos dos pacotes.' },
+        { title: 'Marca unificada', body: 'Um único sistema de design aplicado a pranchas, pás, bombas e cartões.' },
+        { title: 'Condições de programa', body: 'Preços em volume em todo o programa, não por SKU individual.' },
+        { title: 'Fornecimento por mercados', body: 'Condições de exportação padrão para a região principal, condições de serviço completo para o segundo mercado.' },
+      ],
+      result:
+        'A linha foi lançada em ambos os mercados numa única época; os conjuntos de acessórios partilhados reduziram o stock e os casos de garantia foram resolvidos através de um único interlocutor na fábrica.',
+      outcome: 'Lançamento multimercado numa época, stock reduzido, um único interlocutor para a garantia.',
+      customizations: [
+        'Seis SKU de 10′6″ a 12′6″ mais pacotes de acessórios',
+        'Um único sistema de design para pranchas, pás, bombas e cartões',
+        'Conjuntos de acessórios partilhados para reduzir o stock por SKU',
+        'Kits completos com divisórias em cartões de retalho impressos',
+        'Versões de código de barras, etiqueta e manual por mercado-alvo',
+        'Condições de fornecimento e embalagem calibradas para cada mercado',
+      ],
+      inspectionFocus: [
+        'Conformidade com a lista de materiais por configuração de SKU',
+        'Precisão de design e marca nos seis SKU',
+        'Precisão de códigos de barras e etiquetas por mercado',
+        'Completude dos conjuntos de acessórios e da embalagem com divisórias',
+        'Verificação da estanquidade em toda a série',
+      ],
+      confidentiality:
+        'Por acordo, o nome do distribuidor e a sua lista de clientes não são divulgados. Este projeto é apresentado de forma anónima para proteger a confidencialidade comercial.',
+      tags: ['Programa multi-SKU', 'Kits de retalho completos'],
+    },
+    {
+      slug: 'startup-brand-zero-to-one',
+      customerType: 'Marcas SUP em fase de arranque',
+      region: 'América do Norte',
+      productCategory: 'SUP insuflável ODM All-round',
+      projectStage: 'Concept → Produção experimental → Pedido de lançamento',
+      manufacturingScope: 'Desenvolvimento ODM, gráficas, embalagem, produção',
+      keyRequirements: 'Primeira série com MOQ baixo, alinhamento com a data de lançamento, moldes mantidos pela marca',
+      qualityFocus: 'Estanquidade, precisão das gráficas, verificação da embalagem',
+      navLabel: 'Lançamento de arranque 0→1',
+      metaTitle: 'Lançamento de uma marca SUP em fase de arranque | Do concept à primeira série — SUPsfactory',
+      metaDescription:
+        'Como uma startup SUP passou do concept a uma primeira série esgotada — desenvolvimento ODM, uma produção experimental de 10 peças e depois um pedido de lançamento com marca de 200 peças.',
+      kicker: 'Projeto de arranque',
+      h1: 'Do concept a um lançamento esgotado com 200 pranchas para uma marca SUP em fase de arranque',
+      intro: [
+        'Dois fundadores com grande visibilidade mas sem fábrica queriam vender o seu próprio SUP — uma prancha ODM desenvolvida segundo a sua especificação, com um pedido de lançamento que não os pusesse em risco.',
+      ],
+      industry: 'Marcas SUP em fase de arranque',
+      requirement: 'Desenvolvimento ODM com MOQ baixo: produção experimental de 10 peças para validação, depois 200 peças para o lançamento.',
+      challenge:
+        'Sem equipa de design, sem experiência de importação e um primeiro pedido demasiado pequeno para a maioria das fábricas — além de uma data de lançamento ligada à época do hemisfério norte.',
+      solution:
+        'Desenvolvimento ODM baseado no seu concept numa plataforma comprovada, uma produção experimental de 10 peças que cobriu a verificação de amostras e fornecimento, depois um pedido de lançamento com marca de 200 peças — os moldes ficam para a marca.',
+      product: 'SUP ODM insuflável com marca — design do deck personalizado, embalagem e medidas de cartão prontas para o retalho.',
+      process: [
+        { title: 'Conversa sobre o concept', body: 'Público-alvo, posicionamento de preço e data de lançamento definiram a plataforma base.' },
+        { title: 'Produção experimental', body: '10 peças validaram produto e embalagem de ponta a ponta.' },
+        { title: 'Pedido de lançamento', body: '200 peças produzidas com gráficas e especificação de cartões verificadas.' },
+        { title: 'Caminho de escala', body: 'Moldes mantidos pela marca; reencomendas em melhores condições.' },
+      ],
+      result:
+        'A primeira série esgotou em poucas semanas após o início da época; o feedback da produção experimental corrigiu um problema de embalagem antes de o grande pedido entrar em produção.',
+      outcome: 'Série de lançamento esgotada, embalagem corrigida antes da escala, caminho de reencomenda consolidado.',
+      customizations: [
+        'Prancha ODM desenvolvida a partir do concept da marca numa plataforma comprovada',
+        'Design do deck personalizado e embalagem com a marca',
+        'Medidas de cartão prontas para o retalho para o pedido de lançamento',
+        'Conjunto de acessórios e configuração calibrados para o público-alvo',
+        'Os moldes e o design permanecem com a marca',
+        'Planeamento da produção alinhado com a data de lançamento',
+      ],
+      inspectionFocus: [
+        'Precisão das gráficas face aos ficheiros aprovados',
+        'Verificação da estanquidade na produção experimental e no pedido de lançamento',
+        'Verificação de embalagem e cartões — incluindo a correção detetada na produção experimental',
+        'Completude de acessórios e kit',
+      ],
+      confidentiality:
+        'Por acordo, o nome da marca e os detalhes do lançamento não são divulgados. Este projeto é apresentado de forma anónima para proteger a confidencialidade comercial.',
+      tags: ['Desenvolvimento ODM', 'Produção experimental com MOQ baixo', 'Planeamento consoante a data de época'],
+    },
+    {
+      slug: 'rental-fleet-multi-site',
+      customerType: 'Operadores de frotas de aluguer',
+      region: 'América do Norte',
+      productCategory: 'SUP insuflável All-round de qualidade para aluguer',
+      projectStage: 'Auditoria da frota → Produção uniforme → Atualização sazonal',
+      manufacturingScope: 'Especificação da frota, produção, kits de peças sobresselentes, programa de atualização',
+      keyRequirements: 'Uma prancha uniforme em todos os locais, durabilidade sob o esforço do aluguer',
+      qualityFocus: 'Verificação da construção reforçada, estanquidade, kit completo',
+      navLabel: 'Frota de aluguer multi-local',
+      metaTitle: 'Expansão da frota de aluguer | 200 pranchas, 3 locais — SUPsfactory',
+      metaDescription:
+        'Como um operador de aluguer multi-local substituiu stock heterogéneo por 200 pranchas uniformes em três locais — condições de frota, atualização sazonal e fornecimento de peças sobresselentes.',
+      kicker: 'Projeto de aluguer',
+      h1: 'Padronização de uma frota de aluguer de 200 pranchas em três locais para um operador de frotas',
+      intro: [
+        'Um operador de aluguer com três locais junto à água precisava de uma frota uniforme em vez de stock heterogéneo — a mesma prancha em cada local, com preço em função do volume da frota.',
+      ],
+      industry: 'Operadores de frotas de aluguer',
+      requirement: '200 pranchas de qualidade para aluguer em três locais, com atualização sazonal e peças sobresselentes reparáveis no terreno.',
+      challenge:
+        'Stock heterogéneo e envelhecido complicava reparações e preços; o esforço do aluguer exige construção reforçada e a arrumação fora de época está distribuída por três locais.',
+      solution:
+        'Uma única plataforma de qualidade para aluguer em todos os locais com rails reforçados e materiais resistentes aos raios UV, condições de frota no volume de 200 pranchas e um kit de peças sobresselentes com guia de reparação por local.',
+      product: 'SUP insuflável de qualidade para aluguer — plataforma All-round de 11′ com construção reforçada e kits de reparação.',
+      process: [
+        { title: 'Auditoria da frota', body: 'Volumes e curvas de utilização por local definiram a distribuição entre os locais.' },
+        { title: 'Especificação uniforme', body: 'Uma prancha em todo o lado — reparações, preços e formação mais simples.' },
+        { title: 'Condições de frota', body: 'Desconto em volume no pedido combinado de 200 pranchas.' },
+        { title: 'Peças e atualização', body: 'Kits de peças sobresselentes por local, além de um ciclo de substituição sazonal definido.' },
+      ],
+      result:
+        'A frota uniforme eliminou a incerteza das reparações por local, os pedidos combinados desbloquearam as condições de frota e o programa de 200 pranchas tornou-se a base da renovação sazonal.',
+      outcome: 'Operação uniforme, custo unitário mais baixo, ciclo sazonal repetível.',
+      customizations: [
+        'Uma única plataforma de qualidade para aluguer nos três locais',
+        'Rails reforçados e materiais resistentes aos raios UV para o esforço do aluguer',
+        'Repartição por local e numeração da frota por localização',
+        'Kits de peças sobresselentes por local com guia de reparação',
+        'Ciclo de substituição sazonal definido',
+      ],
+      inspectionFocus: [
+        'Verificação da construção reforçada por prancha',
+        'Insuflação e estanquidade em cada prancha',
+        'Completude de acessórios e kits de reparação por local',
+        'Precisão da numeração da frota e das etiquetas dos locais',
+        'Controlos da embalagem para envios a vários locais',
+      ],
+      confidentiality:
+        'Por acordo, o nome do operador e as localizações não são divulgados. Este projeto é apresentado de forma anónima para proteger a confidencialidade comercial.',
+      tags: ['Frota multi-local', 'Construção de qualidade para aluguer', 'Renovação sazonal'],
+    },
+    {
+      slug: 'touring-sup-range',
+      customerType: 'Distribuidores outdoor e de desportos aquáticos',
+      region: 'Europa',
+      productCategory: 'SUP insuflável touring',
+      projectStage: 'Briefing de produto → Aprovação da amostra → Produção em série',
+      manufacturingScope: 'Revisão da plataforma, gráficas, configuração de acessórios, embalagem de retalho e produção',
+      keyRequirements: 'Prestações touring, gráficas específicas do projeto, kit de retalho completo',
+      qualityFocus: 'Estanquidade, precisão das gráficas, acessórios completos, marcação dos cartões',
+      navLabel: 'Linha SUP touring',
+      metaTitle: 'Desenvolvimento de uma linha SUP touring | Distribuidor outdoor — SUPsfactory',
+      metaDescription:
+        'Como a SUPsfactory apoiou uma linha SUP touring para um distribuidor outdoor europeu — revisão da plataforma, gráficas específicas do projeto, configuração de acessórios e embalagem de retalho.',
+      kicker: 'Projeto touring',
+      h1: 'Desenvolvimento de uma linha SUP touring para um distribuidor outdoor europeu',
+      intro: [
+        'Um projeto personalizado de SUP insufláveis com revisão da plataforma, gráficas específicas do projeto, configuração de acessórios, embalagem de retalho e planeamento da qualidade — da aprovação da amostra à preparação do envio.',
+      ],
+      industry: 'Distribuidores e grossistas',
+      requirement: 'Uma linha SUP touring com gráficas específicas do projeto, configuração de acessórios e embalagem de retalho, gerida da aprovação da amostra ao envio.',
+      challenge:
+        'Os praticantes de touring esperam estabilidade a alta velocidade e um deslize previsível, pelo que plataforma, medidas e volume tinham de ser verificados antes da produção. As gráficas tinham de ter em conta rails, EVA e válvulas, e cada kit de retalho tinha de chegar completo em toda a linha.',
+      solution:
+        'Verificação de plataforma e medidas para as prestações touring, gráficas específicas do projeto alinhadas com as características da prancha, uma configuração de acessórios com pá, leash e bolsa, planeamento da embalagem de retalho e produção em série controlada com pontos de controlo de qualidade definidos.',
+      product: 'Linha de SUP insufláveis touring — plataforma de alta prestação com design personalizado, kit de acessórios completo e embalagem pronta para o retalho.',
+      process: [
+        { title: 'Revisão da plataforma', body: 'Medidas touring, volume e perfil dos rails calibrados para o público-alvo e o mercado.' },
+        { title: 'Especificação e gráficas', body: 'Preparados especificação técnica, alinhamento das gráficas e lista de materiais aprovada pelo cliente.' },
+        { title: 'Aprovação da amostra', body: 'Construção, gráficas e kit confirmados numa prancha física.' },
+        { title: 'Produção e inspeção', body: 'Produção em série com pontos de controlo de qualidade, verificação da embalagem e lançamento do envio.' },
+      ],
+      result:
+        'A linha avançou da aprovação da amostra à preparação do envio com documentação controlada de produto, gráficas, lista de materiais e embalagem — a amostra aprovada serviu de referência para a produção e o controlo final.',
+      outcome: 'Percurso controlado da amostra à produção; gráficas e embalagem bloqueadas antes da produção.',
+      customizations: [
+        'Plataforma touring, medidas e configuração de volume',
+        'Gráficas específicas do projeto para deck, fundo e rails',
+        'Layout do pad EVA e configuração de cores',
+        'Sistema de aletas, disposição dos bungees e conjunto de acessórios',
+        'Bolsa com a marca, versão do manual e embalagem de retalho',
+        'Marcação dos cartões e requisitos de código de barras para o mercado-alvo',
+      ],
+      inspectionFocus: [
+        'Verificação de insuflação e estanquidade',
+        'Inspeção de válvula, rails e costuras',
+        'Precisão das gráficas face aos ficheiros aprovados',
+        'Completude de acessórios e kit',
+        'Verificação de embalagem de retalho, código de barras e marcação dos cartões',
+      ],
+      confidentiality:
+        'Por acordo, o nome do distribuidor e a sua lista de clientes não são divulgados. Este projeto é apresentado de forma anónima para proteger a confidencialidade comercial.',
+      tags: ['Linha SUP touring', 'Gráficas personalizadas', 'Embalagem de retalho'],
+    },
+    {
+      slug: 'fishing-sup-program',
+      customerType: 'Retalhistas outdoor',
+      region: 'América do Norte',
+      productCategory: 'SUP insuflável de pesca',
+      projectStage: 'Revisão do concept → Aprovação da amostra → Produção do programa',
+      manufacturingScope: 'Configuração da plataforma, disposição dos acessórios, embalagem e produção',
+      keyRequirements: 'Integração de acessórios de pesca, plataforma estável, kit organizado',
+      qualityFocus: 'Estanquidade, ancoragem dos acessórios, precisão das gráficas, kit completo',
+      navLabel: 'Programa SUP de pesca',
+      metaTitle: 'Desenvolvimento SUP de pesca | Disposição dos acessórios e kit — SUPsfactory',
+      metaDescription:
+        'Como a SUPsfactory desenvolveu uma configuração SUP de pesca para um retalhista outdoor — disposição dos acessórios, kit organizado e embalagem pronta para o retalho num programa controlado.',
+      kicker: 'Projeto pesca',
+      h1: 'Desenvolvimento de um SUP de pesca para um retalhista outdoor — disposição dos acessórios e configuração do kit',
+      intro: [
+        'Um projeto SUP específico para a pesca: uma plataforma estável com zonas para acessórios de pesca, um kit organizado e uma embalagem pronta para o retalho — da revisão do concept à produção do programa.',
+      ],
+      industry: 'Marcas de retalho e outdoor',
+      requirement: 'Uma configuração SUP de pesca com acessórios ancorados, kit organizado e embalagem de retalho, da revisão do concept à produção do programa.',
+      challenge:
+        'As pranchas de pesca exigem acessórios ancorados — suportes para canas de pesca, anéis em D e zonas para caixas — sem comprometer a estabilidade. O kit tinha de permanecer organizado a bordo e a embalagem tinha de apresentar claramente a categoria no retalho.',
+      solution:
+        'Uma plataforma larga e estável com zonas de acessórios definidas, anéis em D e bungees posicionados para o equipamento de pesca, um kit organizado com kit de reparação e uma embalagem de retalho desenvolvida num único programa controlado.',
+      product: 'SUP insuflável de pesca — plataforma estável com zonas para acessórios de pesca, kit organizado e embalagem pronta para o retalho.',
+      process: [
+        { title: 'Revisão do concept', body: 'Utilização prevista, equipamento transportado e estrutura do kit definiram a configuração.' },
+        { title: 'Disposição dos acessórios', body: 'Anéis em D, bungees e zonas de armazenamento posicionados no deck.' },
+        { title: 'Aprovação da amostra', body: 'Estabilidade e ancoragem dos acessórios verificadas numa prancha física.' },
+        { title: 'Produção do programa', body: 'Pontos de controlo de qualidade definidos, verificação do kit e lançamento do envio.' },
+      ],
+      result:
+        'A configuração foi confirmada na amostra aprovada — ancoragem dos acessórios, estrutura do kit e embalagem alinhadas antes da produção — e o programa foi enviado com kits verificados.',
+      outcome: 'Disposição dos acessórios e kit bloqueados na fase de amostra; kits verificados enviados.',
+      customizations: [
+        'Plataforma estável e larga com zonas para acessórios de pesca',
+        'Posicionamento de suportes para canas, anéis em D e bungees',
+        'Layout do deck para caixas e equipamento',
+        'Seleção de pá, aletas e leash para o uso na pesca',
+        'Kit de acessórios organizado e kit de reparação',
+        'Embalagem de retalho para a categoria de SUP de pesca',
+        'Código de barras e marcação dos cartões para o mercado-alvo',
+      ],
+      inspectionFocus: [
+        'Verificação da ancoragem dos acessórios e do posicionamento dos anéis em D',
+        'Verificação de insuflação e estanquidade',
+        'Precisão de gráficas e layout do deck',
+        'Completude do kit e configuração dos acessórios',
+        'Verificação de embalagem de retalho e marcação dos cartões',
+      ],
+      confidentiality:
+        'Por acordo, o nome do retalhista e os detalhes do canal não são divulgados. Este projeto é apresentado de forma anónima para proteger a confidencialidade comercial.',
+      tags: ['Configuração de pesca', 'Disposição dos acessórios', 'Organização do kit'],
+    },
+    {
+      slug: 'yoga-sup-program',
+      customerType: 'Escolas e programas de desportos aquáticos',
+      region: 'Europa',
+      productCategory: 'SUP insuflável de yoga',
+      projectStage: 'Revisão do programa → Aprovação da amostra → Entrega da frota',
+      manufacturingScope: 'Configuração da plataforma estável, cobertura do deck, produção e embalagem do programa',
+      keyRequirements: 'Estabilidade para a prática em grupo, cobertura completa do deck em EVA, frota coerente',
+      qualityFocus: 'Cobertura do deck, estanquidade, precisão das gráficas, kit completo',
+      navLabel: 'Programa SUP yoga',
+      metaTitle: 'Desenvolvimento SUP yoga | Programa de treino — SUPsfactory',
+      metaDescription:
+        'Como a SUPsfactory desenvolveu uma configuração de SUP yoga estável para um programa de treino de desportos aquáticos — cobertura completa do deck e uma frota de programa coerente.',
+      kicker: 'Projeto yoga',
+      h1: 'Desenvolvimento de uma configuração de SUP yoga estável para um programa de treino de desportos aquáticos',
+      intro: [
+        'Uma configuração de SUP yoga para um programa de treino: uma plataforma larga e de grande volume com cobertura completa do deck em EVA, produzida como frota coerente para a prática em grupo.',
+      ],
+      industry: 'Educação e programas juvenis',
+      requirement: 'Uma configuração de SUP yoga estável com cobertura completa do deck para a prática em grupo, em quantidades de programa.',
+      challenge:
+        'A prática de yoga exige uma plataforma larga e de grande volume que permaneça absolutamente estável na água. Os grupos precisam de pranchas coerentes e os instrutores de instruções claras e de uma arrumação gerível entre sessões.',
+      solution:
+        'Uma plataforma larga e de grande volume com cobertura completa do deck em EVA, uma configuração de frota coerente em todo o programa e instruções para os instrutores e etiquetas do programa incluídas.',
+      product: 'SUP insuflável de yoga — plataforma estável com cobertura completa do pad do deck e frota de programa coerente.',
+      process: [
+        { title: 'Revisão do programa', body: 'Estilo de prática, dimensão do grupo e arrumação definiram a configuração.' },
+        { title: 'Configuração', body: 'Plataforma, cobertura do deck e acabamentos definidos em toda a frota.' },
+        { title: 'Aprovação da amostra', body: 'Estabilidade e cobertura do deck verificadas numa prancha física.' },
+        { title: 'Entrega da frota', body: 'Quantidades de programa produzidas com verificação de kit e embalagem.' },
+      ],
+      result:
+        'A frota foi enviada como uma única configuração coerente — cada prancha conforme a amostra aprovada em estabilidade, cobertura do deck e acabamentos — com as instruções incluídas para os instrutores.',
+      outcome: 'Frota coerente conforme a amostra aprovada; embalagem do programa verificada.',
+      customizations: [
+        'Plataforma larga e de grande volume para estabilidade em pé',
+        'Cobertura completa do deck em EVA em toda a área utilizável',
+        'Layout do deck e posicionamento das correias para a prática',
+        'Cor e acabamentos coerentes em toda a frota',
+        'Instruções para os instrutores e etiquetas do programa',
+        'Configuração de arrumação e embalagem do programa',
+      ],
+      inspectionFocus: [
+        'Inspeção da cobertura do deck e da adesão do EVA',
+        'Verificação de insuflação e estanquidade',
+        'Verificação da estabilidade na amostra aprovada',
+        'Coerência de gráficas e acabamentos em toda a série',
+        'Completude do kit e controlos da embalagem do programa',
+      ],
+      confidentiality:
+        'Por acordo, o nome do programa e a sua localização não são divulgados. Este projeto é apresentado de forma anónima para proteger a confidencialidade comercial.',
+      tags: ['Configuração de yoga', 'Cobertura completa do deck', 'Frota de programa'],
+    },
+  ],
 }
 
 export function getProject(locale: Locale, slug: string): ProjectData | undefined {
@@ -3380,6 +4039,12 @@ export const projectsMeta: Localized<ProjectsMeta> = {
     metaDescription:
       'Progetti reali di produzione SUP: come resort, marchi, club e scuole hanno trasformato i requisiti di prodotto in paddle board finite con SUPsfactory.',
     h1: 'Progetti — come sviluppiamo prodotti SUP con i clienti',
+  },
+  pt: {
+    metaTitle: 'Projetos e casos de desenvolvimento de produtos SUP | SUPsfactory',
+    metaDescription:
+      'Projetos reais de produção SUP: como resorts, marcas, clubes e escolas transformaram os requisitos de produto em pranchas acabadas com a SUPsfactory.',
+    h1: 'Projetos — como desenvolvemos produtos SUP com os clientes',
   },
 }
 

@@ -1,0 +1,99 @@
+meta:
+  title: 'Centro de soldadura HF — Junção dielétrica das costuras para SUP | {SITE}'
+  description: 'Tecnologia de soldadura por radiofrequência para costuras de pranchas SUP estanques e conformes. Testes de peeling, verificação de estanquicidade ao ar e tolerâncias de costura personalizadas.'
+  dateModified: '2026-08'
+back_text: 'Voltar ao centro de I&D'
+home_label: 'Início'
+
+answer:
+  label: 'Resposta breve'
+  text: 'Utilizamos prensas HF dielétricas de 15 kW que unem molecularmente as costuras em PVC (equivalente a 200–600 °C de ar quente) e validamos cada soldadura: teste de peeling segundo a ASTM D751, estanquicidade ao ar a 18.0 PSI, com costuras documentadas e rastreáveis por unidade.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratório 03'
+  title: 'Centro de soldadura HF'
+  subtitle: 'Tecnologia de junção dielétrica para costuras que seguram sob pressão'
+  image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Soldadura HF Vatrad, processo de junção dielétrica'
+
+intro: 'Uma prancha SUP insuflável é tão fiável quanto as suas costuras. Uma única soldadura fraca pode pôr em risco uma câmara inteira — e sob os pés, um cedência da câmara não é um incómodo, mas um risco de segurança. Na {SITE.name} investimos num centro de soldadura por radiofrequência (HF) dedicado, que combina prensas industriais de soldadura dielétrica com um rigoroso controlo de processo e provas após a soldadura. Cada costura que produzimos é documentada, rastreável e certificada para satisfazer ou superar os requisitos da norma internacional para embarcações insufláveis.'
+
+content_html: |
+  <h2>A ciência por trás da costura</h2>
+  <p>A soldadura HF utiliza energia eletromagnética de alta frequência (tipicamente 27.12 MHz) para excitar as moléculas polares no tecido revestido em PVC e gerar calor com precisão na interface do material. Ao contrário da soldadura a ar quente ou a cunha, a soldadura HF cria uma verdadeira ligação molecular: as duas camadas de tecido fundem-se num único material homogéneo na zona de soldadura, formando assim uma conexão tão forte quanto o próprio material de partida.</p>
+
+  <h2>Equipamento de soldadura e controlo de processo</h2>
+  <p>O nosso centro de soldadura está dotado de:</p>
+  <table>
+    <thead><tr><th>Máquina</th><th>Potência / Capacidade</th><th>Aplicação</th></tr></thead>
+    <tbody>
+      <tr><td>Prensa HF dielétrica 1</td><td>15 kW, placa 2000 × 600 mm</td><td>Costuras principais da prancha, junções railband-deck</td></tr>
+      <tr><td>Prensa HF dielétrica 2</td><td>10 kW, placa 1500 × 500 mm</td><td>Soldaduras do cone de proa, patches para pega, patches para válvula</td></tr>
+      <tr><td>Soldadora HF de controlo CNC</td><td>8 kW, mesa XY 2500 × 1200 mm</td><td>Costuras de rail curvas, gofragens de logótipo/painéis, intervenções de precisão</td></tr>
+      <tr><td>Soldadora automática de cunha quente</td><td>Temperatura variável, máx. 1.2 m/min</td><td>Processo de reserva para materiais CSM especiais</td></tr>
+    </tbody>
+  </table>
+  <p>Cada prensa HF dispõe de monitorização fechada de temperatura e pressão. Os parâmetros de soldadura — potência, tempo de prensagem, tempo de arrefecimento, pressão dos elétrodos — são programados para cada tipo de material e registados no nosso Manufacturing Execution System (MES) para uma rastreabilidade completa.</p>
+
+  <h2>Teste de qualidade da soldadura — cada costura, cada prancha</h2>
+  <p>A integridade da costura é verificada através de um protocolo obrigatório de quatro testes:</p>
+  <ol>
+    <li><strong>Inspeção visual</strong> — 100 % das costuras são verificadas quanto a queimaduras, desalinhamentos, contaminações ou fusão incompleta. Limite de rejeição: 0.5 % dos metros lineares.</li>
+    <li><strong>Teste de peeling</strong> — uma tira de 25 mm de largura é cortada de uma amostra soldada com cada lote de produção. Força de descolagem mínima: 120 N/25 mm para PVC 1100 dtex.</li>
+    <li><strong>Teste de estanquicidade ao ar</strong> — cada prancha acabada é insuflada a 18.0 PSI e mantida durante 24 horas. A queda de pressão não pode ultrapassar 0.50 PSI.</li>
+    <li><strong>Teste de oscilação térmica</strong> — as amostras são expostas a 50 ciclos de -20 °C a +60 °C e depois submetidas novamente a peeling. Perda de resistência permitida: &lt; 10 %.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Comparação da força de peeling — soldadura HF vs. a ar quente (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Soldadura HF</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Ar quente</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Mínimo normativo</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">A soldadura HF atinge constantemente 90-95 % da resistência do material de partida — claramente acima do mínimo.</p>
+  </div>
+
+  <h2>Competência profissional</h2>
+  <p>A nossa equipa de soldadura é liderada por um engenheiro de processo sénior com 11 anos de experiência em soldadura dielétrica de tecidos revestidos. Cada operador completa um programa interno de certificação de 6 meses antes de poder trabalhar em costuras de produção. A recertificação é exigida anualmente, incluindo um teste prático de soldadura avaliado segundo o nosso padrão interno Grade-A (força de peeling ≥ 160 N/25 mm).</p>
+
+  <h2>Soluções de soldadura personalizadas para requisitos especiais</h2>
+  <p>Sabemos que uma especificação de soldadura não se adapta a cada aplicação. O nosso centro de soldadura HF desenvolve regularmente configurações de costura personalizadas para clientes com requisitos especiais:</p>
+  <ul>
+    <li><strong>Patches de reforço multicamada</strong> — para as áreas de alta solicitação como as railbands e as pontas de proa desenvolvemos soldaduras HF multicamada que integram uma camada externa resistente ao desgaste, sem comprometer a flexibilidade.</li>
+    <li><strong>Costuras para pranchas de alta pressão</strong> — para pranchas com pressão nominal superior a 15 PSI validamos a geometria de soldadura a pressão de serviço elevada e documentamos o limite no relatório de prova.</li>
+    <li><strong>Soldadura de painéis com mudança de cor</strong> — os painéis de tecido bicolor (ex. deck cinzento + rail cinzento) são soldados com sobreposição escondida para preservar a estética da marca sem uma linha de costura visível.</li>
+  </ul>
+
+  <h2>A nossa promessa a vocês</h2>
+  <p>Cada prancha que entregamos está coberta pela nossa garantia de qualidade da costura: se uma costura falhar durante o período de garantia com uso normal, repararemos ou substituiremos gratuitamente a câmara em causa e será conduzida uma análise de causa para prevenir a repetição. Não é simplesmente uma garantia — é um compromisso de melhoria contínua baseado em dados operacionais reais.</p>
+  <p>Quando escolhem a {SITE.name}, escolhem costuras projetadas, testadas e documentadas — não apenas soldadas. É a diferença entre uma prancha que flutua e uma prancha que funciona.</p>
+
+cta:
+  title: 'Discute as tuas necessidades de soldadura'
+  subtitle: 'Tolerâncias de costura personalizadas, compatibilidade de materiais ou validação de processo.'
+  actions:
+    - variant: primary
+      text: Contacta a equipa de soldadura
+      href: /pt/contact#project-brief
+    - text: Voltar ao centro de I&D
+      href: /pt/randdcenter

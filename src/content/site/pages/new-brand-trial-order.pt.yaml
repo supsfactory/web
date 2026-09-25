@@ -1,0 +1,176 @@
+meta:
+  title: 'Lança uma marca de SUP com uma encomenda de teste de quantidade mínima baixa | SUPsfactory'
+  description: 'Lança uma marca de SUP insufláveis com uma encomenda de teste de MOQ baixo: amostras em 7–12 dias, provas piloto com 20–50 pranchas, produção em 25–35 dias. Branding e controlo de qualidade incluídos.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'Lançar uma marca de SUP'
+    - 'Lançamento de uma marca de SUP'
+    - 'SUP com MOQ baixo'
+    - 'Encomenda de teste SUP'
+    - 'Marca SUP startup'
+    - 'Branding SUP para pequenos lotes'
+    - 'Marca própria SUP insufláveis'
+
+hero:
+  tagline: 'Para marcas de SUP novas e em crescimento'
+  title: 'Lança uma marca de SUP com uma encomenda de teste de MOQ baixo'
+  subtitle: 'Não precisas de um contentor para lançar uma marca de SUP. Valida a tua prancha, a tua gráfica e o teu mercado com uma única amostra e testa as vendas com uma encomenda de teste de 20–50 pranchas — antes de te comprometeres com volumes de produção inteiros. Branding, controlo de qualidade e logística de exportação são geridos pela Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Começa com uma amostra
+      href: /pt/contact#custom-oem
+    - text: Descobre o conceito completo de MOQ e prazos
+      href: /pt/sup-oem-moq-lead-time
+
+answer:
+  label: 'Resposta breve'
+  text: 'Sim — podes lançar uma marca de SUP insufláveis com uma encomenda de teste de MOQ baixo. A entrada é escalonada, não tudo-ou-nada: primeiro encomendas 1–2 amostras (disponíveis em 7–12 dias) para definir casco, gráfica e embalagem; depois uma encomenda de teste de 20–50 pranchas (produção em 25–35 dias) para testares as vendas reais; por fim podes escalar para lotes padrão de 90–100+ pranchas por bobina de 150 m de tecido drop-stitch, uma vez que o formato se tenha demonstrado. O co-branding para pequenos lotes começa em apenas 5–10 unidades para os operadores que querem pranchas com marca sem qualquer fase de desenvolvimento. O teu primeiro contentor chega apenas quando os dados o justificam.'
+  verified: 'Setembro 2026'
+
+trial_included:
+  tagline: O que cobre a encomenda de teste
+  title: 'Tudo o que é preciso para um lançamento — sem overhead'
+  subtitle: 'Uma encomenda de teste não é uma fatura reduzida — usa o mesmo processo de fábrica, à medida para uma marca que está a começar. Isto cobre cada programa de teste.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: 'Plataforma e construção da prancha'
+      desc: 'Cascos Touring e Allround comprovados com construção drop-stitch, fusão de três camadas da fita de rail e rigidez 12–15 PSI — as mesmas plataformas usadas para os nossos clientes de grandes volumes, nas medidas padrão de 10 ft a 11 ft 6 in.'
+    - icon: L
+      icon_bg: green
+      title: 'O teu branding, realmente concretizado'
+      desc: 'Gráfica digital ou serigráfica de superfície total, tapete antiderrapante em EVA com o teu logótipo e branding secundário na proa ou nos rails laterais. O co-branding para pequenos lotes usa o branding principal SUPsfactory com o teu logótipo na proa ou no rail.'
+    - icon: P
+      icon_bg: purple
+      title: 'Opções de embalagem que escalam'
+      desc: 'Começa-se com caixas padrão e etiquetas com código de barras, depois passa-se a embalagens comerciais com marca a 5 camadas a cores. As embalagens personalizadas têm um mínimo de impressão dedicado; as caixas em excesso são armazenadas e libertadas no momento certo.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Controlo de qualidade ao nível de fábrica'
+      desc: 'Cada prancha passa pela mesma checklist de montagem de 100 pontos e por um teste de pressão e retenção de 24 horas (retenção a 18,0 PSI, rejeição automática acima de 0,50 PSI de queda) — como em qualquer encomenda, seja uma amostra ou um contentor.'
+    - icon: D
+      icon_bg: blue
+      title: 'Exportação e documentação'
+      desc: 'Documentação de conformidade CE, ISO-9001, BSCI, REACH e RoHS, embalagem adequada à exportação e coordenação do transporte marítimo para mais de 50 países — de uma única amostra a programas completos.'
+    - icon: T
+      icon_bg: green
+      title: 'Prazos planeáveis'
+      desc: 'Amostras em 7–12 dias, produção de teste em 25–35 dias após confirmação da encomenda e sinal, além de slots de produção confirmados para encomendas de pré-época — para que o lançamento chegue na época, em vez de a falhar.'
+
+trial_steps:
+  tagline: O roadmap do lançamento
+  title: 'Da ideia às primeiras vendas em seis gates'
+  subtitle: 'O primeiro lançamento típico dura 8–12 semanas do briefing à entrega da encomenda de teste com plataformas existentes — mais se um casco dedicado exigir a construção do molde. Cada gate tem uma data que acordas antecipadamente.'
+  steps:
+    - step: 'Gate 1'
+      title: 'Briefing do produto e verificação técnica (Dia 0–2)'
+      desc: 'Partilha o modelo objetivo, a quantidade de encomenda, o design e as intenções de embalagem. A verificação técnica ocorre num dia útil, com NDA antes de trocar especificações proprietárias.'
+    - step: 'Gate 2'
+      title: 'Especificação, MOQ e proposta (Dia 3–7)'
+      desc: 'Proposta item por item com cálculo exato do MOQ, custos das amostras e rubricas de prazos. Os custos das amostras são creditados na encomenda de produção após a assinatura do contrato.'
+    - step: 'Gate 3'
+      title: 'Amostras em 7–12 dias'
+      desc: '1–2 pranchas físicas validam a rigidez do casco, a aderência do pad de EVA, a precisão da gráfica e a conformidade dos acessórios. Testas a prancha antes de te comprometeres com qualquer outra coisa.'
+    - step: 'Gate 4'
+      title: 'Encomenda de teste com 20–50 pranchas (25–35 dias)'
+      desc: 'Produção em plataformas de casco existentes com materiais padrão e embalagem simplificada — o teste comercial mínimo que espelha as condições reais de venda ao retalho.'
+    - step: 'Gate 5'
+      title: 'Janela de vendas e feedback'
+      desc: 'O gate mais importante está no teu mercado, não na nossa fábrica: operadores de aluguer e clientes confirmam formato da prancha, gráfica e nível de preço antes de apontares para escalar.'
+    - step: 'Gate 6'
+      title: 'Escalada para lotes de quantidade (90–100+ pranchas)'
+      desc: 'Uma vez que o formato se tenha demonstrado, as bobinas padrão de 150 m oferecem plena eficiência produtiva, embalagem com marca e preços por quantidade. Um programa de contentor é um objetivo, não uma obrigação.'
+
+trial_budget:
+  tagline: Valores de referência para o orçamento
+  title: 'Quanto custa um lançamento — referências de preço'
+  subtitle: 'Valores de referência, EXW Qingdao (China), para um casco Touring ou Allround padrão nas medidas padrão. A proposta final depende da forma do casco, PVC, cobertura da gráfica, embalagem, acessórios e quantidade — confirmada na tua configuração antes de qualquer compromisso.'
+  headers:
+    stage: Fase da encomenda
+    price: Preço de referência por prancha
+    notes: Notas
+  rows:
+    - stage: 'Amostra (1–2 pranchas)'
+      price: 'USD 250–350'
+      notes: 'Amostra física com a tua gráfica. Os custos das amostras são creditados na encomenda de produção após a assinatura do contrato.'
+    - stage: 'Encomenda de teste / piloto (20–50 pranchas)'
+      price: 'USD 180–260'
+      notes: 'Plataformas de casco existentes, materiais padrão e embalagem simplificada. O percurso padrão para quantidades mínimas baixas.'
+    - stage: 'Quantidade padrão (90–100+ pranchas por bobina de 150 m)'
+      price: 'USD 150–220'
+      notes: 'Bobinas completas de tecido de 150 m, opções de PVC Pantone personalizadas, embalagem com marca e preços por quantidade.'
+    - stage: 'Casco e moldes dedicados (opção adicional)'
+      price: 'Conforme o projeto'
+      notes: 'Um molde de casco dedicado acrescenta 15–20 dias de construção de molde ao cronograma global; os custos do equipamento são cotados uma vez, item por item.'
+
+derisk:
+  tagline: Lançamento sem riscos
+  title: 'Quatro formas de uma encomenda de teste proteger o teu lançamento'
+  subtitle: 'A maioria dos lançamentos de marcas falha nos armazéns, não na qualidade do produto. Uma encomenda de teste torna impossíveis os erros evitáveis.'
+  features:
+    - icon: I
+      icon_bg: blue
+      title: 'Sem compromisso pesado de armazém'
+      desc: 'O teu primeiro risco de época fica abaixo das 50 pranchas. Se o formato tiver de ser adaptado, fazes-no antes do grande investimento — não depois.'
+    - icon: C
+      icon_bg: green
+      title: 'O cashflow mantém-se planeável'
+      desc: 'Encomendas mais pequenas significam sinais mais pequenos, pagamentos escalonados e sem capital parado em armazém. Os preços por quantidade esperam até que sejam realmente merecidos.'
+    - icon: Q
+      icon_bg: purple
+      title: 'A qualidade nunca é reduzida'
+      desc: 'Uma encomenda de teste de 20 pranchas passa pela mesma checklist de 100 pontos e pelo mesmo teste de pressão de um programa de contentor — nenhum compromisso do tipo "primeiro testa, depois qualidade".'
+    - icon: G
+      icon_bg: orange
+      title: 'Percurso garantido para a escalada'
+      desc: 'Cada encomenda de teste inclui um percurso confirmado para os volumes: créditos nas amostras recebidas, artwork e BOM congelados e slots de produção reservados para a tua encomenda seguinte.'
+
+scale_path:
+  tagline: Depois da encomenda de teste
+  title: 'O que acontece depois de uma encomenda de teste bem-sucedida'
+  subtitle: 'A encomenda de teste é desenhada de propósito como primeiro passo de uma parceria mais longa. Este é o percurso que acordamos antes de a primeira prancha ser expedida.'
+  steps:
+    - step: 'Phase 1'
+      title: 'Prova entregue e avaliada'
+      desc: '20–50 pranchas chegam em época e os dados de vendas voltam do teu canal — aluguer, comércio ou venda direta.'
+    - step: 'Phase 2'
+      title: 'Feedback e aperfeiçoamento'
+      desc: 'Variantes de cor, gráfica, embalagem e mix de acessórios são adaptados à reação real do mercado. Artwork e BOM são congelados para a encomenda seguinte.'
+    - step: 'Phase 3'
+      title: 'Run de quantidade (90–100+ pranchas)'
+      desc: 'Bobinas padrão de 150 m com plena eficiência produtiva, embalagem comercial com marca e preços por quantidade — com os créditos das amostras já aplicados.'
+    - step: 'Phase 4'
+      title: 'Programas de contentor'
+      desc: 'Programas com 300+ pranchas, entregas escalonadas, material Pantone personalizado e a pipeline completa de desenvolvimento — a mesma fábrica, agora à escala de volumes.'
+
+trial_faqs:
+  tagline: FAQ
+  title: 'Perguntas frequentes sobre o lançamento com uma encomenda de teste'
+  items:
+    - q: 'Posso realmente lançar uma marca de SUP sem uma encomenda de contentor?'
+      a: 'Sim. A entrada é escalonada: 1–2 amostras validam a prancha (disponíveis em 7–12 dias), uma encomenda de teste de 20–50 pranchas valida o mercado (produção em 25–35 dias) e os lotes de quantidade de 90–100+ pranchas chegam apenas quando as vendas demonstram o formato. O co-branding para pequenos lotes começa em apenas 5–10 unidades se quiseres pranchas com marca sem fase de desenvolvimento.'
+    - q: 'Quanto dura um lançamento completo do início ao fim?'
+      a: 'Com plataformas de casco existentes, um primeiro lançamento típico dura 8–12 semanas do briefing do produto à entrega da encomenda de teste: amostras em 7–12 dias, produção de teste em 25–35 dias após confirmação da encomenda e sinal. Um casco dedicado acrescenta 15–20 dias de construção de molde.'
+    - q: 'O que está incluído no preço — e o que não está?'
+      a: 'Os preços de referência valem EXW Qingdao para as próprias pranchas, com branding e QC padrão incluídos. São valores indicativos: a proposta final é confirmada na tua configuração — casco, PVC, cobertura da gráfica, embalagem e acessórios — antes de qualquer coisa se tornar vinculativa. Transporte, direitos alfandegários e desalfandegamento no destino são cotados em separado.'
+    - q: 'Tenho de comprar 100 ou 500 pranchas para ter o meu logótipo na prancha?'
+      a: 'Não. O co-branding para pequenos lotes coloca o teu logótipo na proa ou nos rails laterais a partir de apenas 5–10 unidades, e as encomendas de teste de 20–50 pranchas suportam a aplicação gráfica completa com a mesma qualidade da produção em grande escala. O que muda com a quantidade é o preço unitário — não a disponibilidade.'
+    - q: 'O que acontece se quiser alterar o design depois da prova?'
+      a: 'As alterações entre a prova e a quantidade são normais e bem-vindas — é exatamente para isso que serve a prova. Variantes de cor, artwork, embalagem e acessórios são recalculadas na nova configuração e congeladas antes do run de quantidade com aprovação de artwork e BOM. Os custos dos moldes para serigrafia caducam para encomendas seguintes com o mesmo formato de artwork.'
+    - q: 'Assinam uma NDA antes de eu partilhar os meus designs?'
+      a: 'Sim. Está disponível um acordo de não divulgação (NDA) antes de partilhares especificações técnicas proprietárias ou artwork. Produzimos exclusivamente sob as marcas dos nossos clientes e não entramos em concorrência contigo em nenhum mercado — a mesma política vale para uma única amostra como para um programa de contentor.'
+
+cta:
+  title: 'Pronto para lançar a tua marca de SUP?'
+  subtitle: 'Envia-nos o teu modelo objetivo, as quantidades iniciais e as tuas ideias de branding. Confirmamos o percurso exato de amostra e prova com custos item por item e um plano dia a dia — sem compromisso, até assinares.'
+  actions:
+    - variant: primary
+      text: Inicia o lançamento
+      href: /pt/contact#custom-oem
+    - text: Primeiro percebe MOQ e prazos
+      href: /pt/sup-oem-moq-lead-time
+    - text: O guia flexível de branding e MOQ
+      href: /pt/oem-moq-guide
+    - text: Verifica fábrica e sistema de qualidade
+      href: /pt/oem-trust-assurance

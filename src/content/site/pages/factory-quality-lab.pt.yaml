@@ -1,0 +1,129 @@
+meta:
+  title: 'Laboratório de qualidade — Ensaio & garantia de qualidade | {SITE}'
+  description: 'Laboratório de qualidade independente com processos ISO 9001 na Vatrad: cada artigo individual é ensaiado antes da expedição para garantir a qualidade dos SUP insufláveis.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'controlo de qualidade sup'
+    - 'laboratório de testes de pranchas de paddle'
+    - 'fábrica sup iso 9001'
+    - 'qualidade sup insufláveis'
+hero:
+  tagline: Laboratório de controlo de qualidade
+  title: Laboratório de ensaio & garantia de qualidade
+  subtitle: Laboratório de qualidade independente com processos ISO 9001 — cada artigo individual é ensaiado antes da expedição
+
+answer:
+  label: 'Resposta clara'
+  text: '100% das unidades é submetido a teste de pressão durante 24 horas a 18,0 PSI, com exclusão automática a partir de uma queda de pressão de 0,50 PSI. Os lotes de tecido cru são verificados segundo ASTM D751 e ISO 4674, e os testes de peeling das costuras correm a cada 50 unidades com aceitação final AQL 2,5 segundo ISO 2859.'
+  verified: 'September 2026'
+
+intro: A Vatrad gere um laboratório de controlo de qualidade interno que opera de forma independente da produção. Cada lote de material cru e cada SUP acabado passam por protocolos de inspeção documentados antes da libertação. A nossa equipa QC reporta diretamente à direção, garantindo assim decisões de qualidade imparciais.
+
+highlights:
+  - value: 100%
+    label: Unidades ensaiadas em pressão
+    detail: Cada câmara, cada prancha
+  - value: 24 h
+    label: Duração do teste de retenção de ar
+    detail: A 18,0 PSI de pressão nominal
+  - value: '&lt;5%'
+    label: Queda de pressão máxima permitida
+    detail: Sobre todo o período de manutenção de 24 horas
+  - value: AQL 2.5
+    label: Limite de defeitos graves principais
+    detail: Segundo procedimento de amostragem ISO 2859
+
+test_procedures:
+  - title: Controlo de materiais crus
+    description: Cada partida de entrada de PVC, Hypalon, tecido drop-stitch e acessórios é controlada antes da aceitação. São verificadas a resistência à tração (ASTM D751), a resistência ao rasgamento (ISO 4674) e a resistência aos raios UV. Os materiais não conformes são bloqueados (quarentena) e devolvidos.
+    standards:
+      - ASTM D751 (Tração)
+      - ISO 4674 (Rasgamento)
+      - ISO 4892 (UV)
+  - title: Pontos de controlo QC de processo
+    description: O pessoal de produção executa um auto-controlo em cada fase. Os auditores QC fazem amostragens ao longo de todo o turno. Os testes de peeling das costuras são executados a cada 50 unidades. Os controlos dimensionais ocorrem a cada 20.º painel.
+    standards:
+      - ASTM D751 (Peeling)
+      - Checklist interna de 100 pontos
+      - Procedimento de amostragem ISO 2859
+  - title: Teste de retenção de ar de 24 horas
+    description: Cada câmara é insuflada a 18,0 PSI e mantida durante 24 horas. Os sensores de pressão registam em contínuo com compensação da temperatura. Cada câmara que mostre uma queda de pressão superior a 0,50 PSI ativa uma verificação repetida automática da partida.
+    standards:
+      - ISO 6185
+      - CE 2013/53/UE
+  - title: Teste de carga & estabilidade
+    description: As pranchas acabadas são testadas quanto a estabilidade, bordo livre e manobrabilidade à carga nominal máxima. Cada prancha passa por um teste em água antes de receber a libertação da inspeção final.
+    standards:
+      - ISO 12217
+      - CE 2013/53/UE
+
+equipment:
+  - name: Máquina universal de ensaio (tração)
+    spec: '5 kN, conforme ASTM D751'
+  - name: Dispositivo de ensaio de queda de pressão
+    spec: 'Multicanal, 0–50 psi, data logger'
+  - name: Câmara de envelhecimento UV
+    spec: 'ISO 4892, ciclos de 1.000 h'
+  - name: Medidor de espessura (digital)
+    spec: 'Resolução 0,01 mm'
+  - name: Testador de peeling (costura)
+    spec: 'Motorizado, capacidade 50 N'
+  - name: Câmara térmica
+    spec: '-40 °C até +100 °C'
+  - name: Vaso de deteção de fugas
+    spec: '6 m × 2 m, iluminada'
+
+lab_evidence:
+  tagline: Dossiês dos relatórios de teste
+  title: 'Descarregar os relatórios de laboratório reais'
+  subtitle: 'Os mesmos registos bilingues controlados nos quais a nossa equipa de qualidade fecha os processos — estrutura, métodos, critérios e resultados, com os campos reservados removidos. Cada dossiê corresponde a um dos sete gates de inspeção.'
+  items:
+    - title: 'IQC — Relatório de entrada de mercadorias'
+      description: 'Verificação de tecido, bobina de PVC, válvulas e componentes contra a especificação libertada.'
+      icon: tabler:file-certificate
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Descarregar os relatórios IQC (PDF)'
+    - title: 'IPQC — Relatório de processo & primeiro artigo'
+      description: 'Registos de inspeção do primeiro artigo e de processo contra a revisão bloqueada.'
+      icon: tabler:file-check
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Descarregar os relatórios IPQC (PDF)'
+    - title: 'Estanquidade ao ar — Registos de pressão & fugas'
+      description: 'Deteção de fugas das costuras a 100%, integridade da válvula e verificação da manutenção de pressão de 24 horas.'
+      icon: tabler:waves
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Descarregar os relatórios de estanquidade ao ar (PDF)'
+    - title: 'FQC — Relatórios finais das pranchas'
+      description: 'Controlo final contra a amostra libertada — dimensões, ótica e fin box.'
+      icon: tabler:shield-check
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Descarregar os relatórios FQC (PDF)'
+    - title: 'PSI — Relatório de inspeção pré-embarque de embalagem'
+      description: 'Completude do kit, leitura do código de barras, marcações do cartão e registos anti-tombamento.'
+      icon: tabler:package
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Descarregar os relatórios PSI (PDF)'
+    - title: 'Dossiê de libertação para expedição & rastreabilidade'
+      description: 'Autorização de libertação e rastreabilidade dos lotes, associada a especificação, gráfica e BOM.'
+      icon: tabler:history
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Descarregar os relatórios de libertação (PDF)'
+    - title: 'Dossiê de qualidade completo'
+      description: 'Um pacote que cobre todo o sistema documental — QIP, registos dos gates, rastreabilidade e controlo NCR.'
+      icon: tabler:books
+      link: https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Descarregar o pacote documental (PDF)'
+
+cta:
+  title: 'Audita o laboratório por detrás da tua encomenda'
+  subtitle: 'O laboratório opera independentemente da produção e reporta diretamente à direção. Consulta os relatórios de teste, os padrões de inspeção ou pede um tour em direto do laboratório durante o planeamento da produção.'
+  actions:
+    - variant: primary
+      text: Pede um controlo de qualidade de projeto
+      href: /contact#quality-inquiry
+    - text: O sistema de inspeção em 7 fases
+      href: /quality
+    - text: Padrões de inspeção & downloads QMS
+      href: /factory/quality-inspection
+    - text: Visita o laboratório de materiais de I&D
+      href: /randdcenter/quality-inspection-lab

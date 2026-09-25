@@ -1,0 +1,67 @@
+meta:
+  title: "MOQ SUP insuflável — as quantidades mínimas de encomenda explicadas simplesmente"
+  description: "Níveis de MOQ claros para a produção de SUP insufláveis personalizados: 5–10 co-branding, 20–50 piloto, 90–100+ volume por rolo. Árvore de decisão conforme o grau de personalização."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Resposta direta"
+    directAnswer:
+      answer: "Os runs piloto em plataformas existentes partem das 20–50 peças; o MOQ padrão é de 90–100+ peças por rolo de drop-stitch de 150 m (~180–220 pranchas)."
+      condition: "O MOQ específico depende da forma da prancha, do rolo de material, da impressão, da embalagem e de ser ou não necessário um novo molde."
+      value: "5–10 co-branding · 20–50 piloto · 90–100+ por rolo volume"
+      verifiedDate: "September 2026"
+      sourceType: "registo-fábrica"
+    body: |
+      O MOQ da SUPsfactory é escalonado conforme o grau de personalização, não é um
+      número único e fixo. Cada nível corresponde a um cenário de produção concreto:
+
+      | Cenário | MOQ | Unidades | Condição |
+      |----------|-----|-------|-----------|
+      | Plataforma existente, apenas sobreimpressão do logótipo | 5–10 peças | por design | Mesma forma, mesmo rolo de material, mesma variante de cor |
+      | Gráfica / EVA / embalagem personalizados em plataforma existente | 20–50 peças | lote piloto | Mesma forma; o novo artwork requer uma prova visual |
+      | Produção em volume padrão (qualquer plataforma) | 90–100+ peças | por rolo de 150 m (~180–220 pranchas) | Por rolo de material; mais SKUs = rolos separados |
+      | Nova forma / forma própria | 90–100+ peças | run de produção | A construção do molde acrescenta 15–20 dias; custos de molde únicos |
+
+  - title: 'O que conta como "rolo de material"?'
+    body: |
+      Um rolo de 150 metros de tecido drop-stitch produz, consoante as medidas da prancha (em geral
+      10–11 ft), cerca de 180–220 pranchas. Cada SKU próprio — ou seja, uma combinação diferente de medida, cor
+      ou material — exige o seu próprio rolo e, portanto, o seu próprio MOQ.
+
+      Por isso o MOQ é indicado "por rolo de 150 m" em vez de "por design": duas
+      variantes de cor da mesma forma de prancha são dois rolos, dois MOQs.
+
+  - title: "Co-branding vs. piloto vs. volume"
+    body: |
+      **Co-branding (5–10 peças)**: o teu logótipo numa plataforma existente já em produção para
+      outra marca. Nenhuma alteração do artwork além da colocação do logótipo.
+      O percurso mais rápido para uma amostra com marca.
+
+      **Lote piloto (20–50 peças)**: gráfica personalizada, design do tapete antiderrapante em EVA
+      ou embalagem numa forma de plataforma existente. Exige a aprovação da prova
+      visual antes da produção. Ideal para testar um novo look no mercado.
+
+      **Produção em volume (90–100+ peças por rolo)**: run de produção completo com qualquer
+      combinação de personalizações. É o nível comercial padrão. Cada
+      rolo de material produz cerca de 180–220 pranchas.
+
+  - title: "MOQ para formas próprias"
+    body: |
+      Se o teu design exigir uma nova forma de prancha (não apenas nova gráfica numa
+      forma existente), é necessário criar um molde próprio. Isto acontece ao nível de volume
+      (90–100+ peças), porque o investimento no molde exige um run de produção para
+      ser amortizado. A construção do molde acrescenta 15–20 dias ao lead time padrão.
+
+      Propriedade do molde: o molde é teu. É guardado na nossa unidade e
+      utilizado exclusivamente nos teus runs de produção.
+
+  - title: "Encomendas de amostras"
+    body: |
+      Amostras de pré-produção disponíveis com 1–2 pranchas para a confirmação de ajuste/acabamento.
+      São feitas à mão segundo a tua especificação e exigem em geral
+      7–12 dias. O custo das amostras é creditado na tua primeira encomenda de volume.
+
+evidence_review:
+  tagline: 'Provas & verificação'
+  title: 'ESPECIFICAÇÕES VERIFICADAS'
+  body: 'Todas as declarações de produção desta página são verificadas pela nossa equipa de Manufacturing Engineering na unidade de Laixi, Qingdao. Certificados, protocolos de inspeção QC, relatórios de teste de pressão e estrutura e protocolos de rastreabilidade dos lotes estão disponíveis mediante pedido. Especificações verificadas pela última vez: setembro 2026.'

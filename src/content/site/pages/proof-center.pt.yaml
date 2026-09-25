@@ -1,0 +1,169 @@
+meta:
+  title: 'Proof Center — as provas por trás de cada declaração de produção'
+  description: 'Coleção das provas por trás das declarações da SUPsfactory: relações entre entidades, certificados com âmbito de aplicação, lista de equipamento, rastreabilidade dos lotes e documentação de inspeção.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'provas de fábrica SUP'
+    - 'lista das certificações de fábrica'
+    - 'rastreabilidade dos lotes SUP'
+    - 'verificação da fábrica SUP'
+    - 'provas de produção China'
+
+hero:
+  tagline: 'Hub de provas de fábrica'
+  title: 'Proof Center — tudo o que afirmamos está arquivado aqui'
+  subtitle: 'Uma página que associa cada afirmação deste site à sua prova: a entidade registada por trás da fábrica, os certificados com âmbito de aplicação, as máquinas que fazem o trabalho e os registos de lote que sobrevivem a cada run de produção.'
+  actions:
+    - { variant: primary, text: 'Solicita o pacote de verificação', href: '/pt/contact#trust-verification' }
+    - { variant: ghost, text: 'Explora o sistema de qualidade', href: '/pt/quality' }
+
+answer:
+  label: 'Resposta breve'
+  text: 'A cadeia de afirmação a prova funciona assim: cada afirmação deste site assenta num registo, um certificado, uma máquina, um documento ou um protocolo de teste — e cada um deles pode ser consultado. A SUPsfactory é a divisão de desenvolvimento de produto e produção de SUP da Qingdao Vatrad Group Co., Ltd. (registada em Qingdao desde 2012). A instalação de 12.500 m² dispõe de gestão de qualidade ISO-9001:2015, conformidade ISO-25649, documentação de conformidade CE, conformidade social BSCI (relatório de audit mediante pedido) e documentação de materiais REACH/RoHS para cada encomenda. Cada câmara insuflável é testada durante 24 horas a 18,0 PSI com rejeição automática para além de uma queda de 0,50 PSI e os registos de lote são conservados com rastreabilidade ERP de 10 anos. O percurso em papel é publicado ou partilhável e a fábrica em si está aberta a audits.'
+  verified: 'September 2026'
+
+entities:
+  tagline: 'Quem está por trás da fábrica'
+  title: 'Uma empresa de produção, uma pessoa coletiva'
+  subtitle: 'O lado comercial, a divisão de produção e a pessoa coletiva reconduzem todos a uma empresa que podes verificar do site ao registo comercial.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'SUPsfactory — o site público'
+      desc: 'A linha de produto SUP OEM/ODM e private label com a sua documentação pública: catálogo, guia MOQ, páginas do sistema de qualidade e estudos de caso. O nome com que tratas é o nome que verificas.'
+      link: '/pt/about/supsfactory-entity'
+      link_label: 'Página da entidade no site'
+    - icon: A
+      icon_bg: green
+      title: 'Vatrad — a divisão de produção'
+      desc: 'A divisão industrial marítima por trás da instalação: pranchas SUP, gomões e RIB são produzidos na mesma unidade de Qingdao. A documentação de produto e qualidade é emitida sob este nome.'
+      link: '/pt/factory'
+      link_label: 'Explora a fábrica'
+    - icon: V
+      icon_bg: orange
+      title: 'Qingdao Vatrad Group Co., Ltd. — a pessoa coletiva'
+      desc: 'O produtor registado (desde 2012) que gere a instalação de 12.500 m² na Economic Development Zone de Laixi, Qingdao. Os detalhes de registo, a licença de comércio externo e os documentos de audit são partilhados sob NDA ou durante um audit.'
+      link: '/pt/oem-trust-assurance'
+      link_label: 'Vê o estudo de caso de verificação'
+
+proof_stats:
+  - value: '12.500 m²'
+    label: 'Um único local produtivo'
+    detail: '4 oficinas especializadas, abertas a audits'
+  - value: '350+'
+    label: 'Colaboradores no local'
+    detail: '25+ engenheiros em I&D, materiais e QC'
+  - value: '120.000+'
+    label: 'Pranchas por ano'
+    detail: '~10.000 pranchas/mês em 4 linhas automatizadas'
+  - value: '50+'
+    label: 'Países servidos'
+    detail: 'Europa, Américas, APAC, Médio Oriente'
+  - value: '7 níveis'
+    label: 'Sistema de gates de ensaio'
+    detail: 'Nodo 01–07, registado por número de série'
+  - value: '10 anos'
+    label: 'Rastreabilidade ERP dos lotes'
+    detail: 'Registos de lote conservados e ligados por lote'
+
+certifications:
+  tagline: 'Certificados & âmbito de aplicação'
+  title: 'O que possuímos, o que cobre, como é verificado'
+  subtitle: 'A lista publicada — nunca "disponível apenas mediante pedido". Os números de certificado e os documentos de audit são fornecidos mediante pedido ou durante um audit.'
+  headers:
+    certificate: 'Certificado / Norma'
+    scope: 'Cobertura'
+    verify: 'Como verificar'
+  rows:
+    - certificate: 'ISO 9001:2015'
+      scope: 'Gestão da qualidade para design e produção SUP'
+      verify: 'Número de certificado e documentos de audit mediante pedido ou durante um audit'
+    - certificate: 'ISO 25649'
+      scope: 'Segurança e conformidade estrutural das embarcações insufláveis (Europa)'
+      verify: 'Documentação de conformidade por família de produto'
+    - certificate: 'CE'
+      scope: 'Conformidade UE para os produtos SUP insufláveis'
+      verify: 'A documentação CE acompanha as encomendas'
+    - certificate: 'BSCI'
+      scope: 'Conformidade social para instalação e quadro'
+      verify: 'Relatório de audit disponível mediante pedido'
+    - certificate: 'REACH & RoHS'
+      scope: 'Substâncias sujeitas a restrição e documentação de materiais'
+      verify: 'Documentação de materiais com cada encomenda'
+    - certificate: 'Inspeção de terceiros (opcional)'
+      scope: 'Inspeção pré-envio SGS, TÜV, BV ou Intertek'
+      verify: 'ISO 2859-1 Nível II, programada à tua escolha'
+
+evidence_gates:
+  tagline: 'Onde vivem as provas'
+  title: 'Coleções de provas — abertas à consulta'
+  subtitle: 'Cada coleção é uma página em direto que podes consultar agora, além dos ficheiros que acompanham a tua encomenda.'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'Lista de equipamento & máquinas'
+      desc: 'Corte, soldadura, laminação, impressão e montagem, além do laboratório QC — máquinas com nome, especificações e função. Pede um tour ao vivo.'
+      link: '/pt/factory/equipment'
+      link_label: 'Abre a lista de equipamento'
+    - icon: P
+      icon_bg: green
+      title: 'Fotos dos gates de ensaio & relatórios'
+      desc: 'Sete gates de ensaio com fotos do local produtivo e links para os relatórios bilingues — o que é verificado, com que método, contra que critério, onde é documentado.'
+      link: '/pt/factory/process'
+      link_label: 'Abre os gates de ensaio'
+    - icon: Q
+      icon_bg: orange
+      title: 'Laboratório QC & procedimentos de teste'
+      desc: 'Máquina universal de ensaio de tração (ASTM D751), testador de peeling das soldaduras (ISO 6185), bancos de teste de estanquicidade ao ar e câmara de envelhecimento por xénon — as máquinas que verificam tecidos e câmaras.'
+      link: '/pt/factory/quality-lab'
+      link_label: 'Abre o laboratório'
+    - icon: T
+      icon_bg: purple
+      title: 'Modelos de rastreabilidade & quarentena'
+      desc: 'A cadeia literal do rolo de matéria-prima à prancha enviada, o processo de quarentena de 7 níveis para a mercadoria não conforme e a matriz de defeitos que regula as classificações.'
+      link: '/pt/factory/quality-inspection'
+      link_label: 'Abre o ficheiro de rastreabilidade'
+
+traceability:
+  tagline: 'Um lote, rastreado do rolo à prancha'
+  title: 'Como se parece realmente a rastreabilidade'
+  body: |
+    A cada lote é atribuído um **código de lote ERP de 10 anos**. A cadeia registada sob um lote:
+
+    - **Rolo à entrada** — certificado do material, número do rolo, partida de tecido verificada (tração, corte, soldadura)
+    - **Corte** — ordem de nesting CNC relativamente ao ficheiro de design, percentagem de desperdício registada
+    - **Soldadura & laminação** — linha, operador, parâmetros da máquina por câmara
+    - **Montagem** — número de série da prancha, tipo de válvula, lote do deck pad
+    - **Teste** — 18,0 PSI × 24 h de retenção por câmara, rejeição automática para além de uma queda de 0,50 PSI
+    - **Libertação** — checklist de 100 pontos por prancha, libertação do Diretor de QA por lote
+    - **Em diante** — certificado de conformidade (Certificate of Conformance) com a entrega; direito de audit reservado contratualmente
+
+    Solicita o protocolo QC de exemplo antes da tua primeira encomenda — tem o mesmo formato que receberás com a entrega.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Perguntas sobre as provas que os compradores fazem'
+  items:
+    - q: 'Esta página serve apenas para a verificação e não substitui a due diligence?'
+      a: 'Exato — esta página mostra onde cada afirmação pode ser verificada: registo da entidade, certificados, máquinas, registos e uma instalação aberta a audits. Os teus habituais passos de due diligence (verificação do registo, audit, inspeção de terceiros) continuam válidos e são bem-vindos.'
+    - q: 'Qual entidade deve constar na minha documentação de encomenda?'
+      a: 'As encomendas são celebradas com a Qingdao Vatrad Group Co., Ltd., que opera como Vatrad (divisão de produção), com a SUPsfactory como linha de produto SUP. Os documentos contratuais são assinados pelo VP de Vendas, pelo engenheiro-chefe e pelo Diretor de QA.'
+    - q: 'Posso receber cópias dos certificados antes da encomenda?'
+      a: 'Sim — os números de certificado e os documentos de audit são fornecidos mediante pedido ou durante um audit. A lista é publicada, nunca "disponível apenas mediante pedido".'
+    - q: 'Como posso verificar eu próprio os protocolos de teste dos lotes?'
+      a: 'Cada câmara é testada durante 24 horas a 18,0 PSI com rejeição automática para além de uma queda de 0,50 PSI; os protocolos de teste estão ligados aos números de série e viajam com o certificado de conformidade de cada lote. Uma inspeção pré-envio SGS, TÜV, BV ou Intertek segundo a ISO 2859-1 Nível II pode ser programada à tua escolha.'
+    - q: 'Os certificados cobrem também os acessórios?'
+      a: 'A documentação de materiais REACH/RoHS vale para pranchas e acessórios da mesma encomenda e as checklists QC cobrem o kit completo — prancha, pá, bomba, leash e bolsa.'
+    - q: 'O que acontece às provas depois da encomenda?'
+      a: 'A rastreabilidade ERP dos lotes é conservada durante 10 anos. As SOP QMS e as normas de teste continuam descarregáveis e o comprador mantém contratualmente um direito de audit durante a produção.'
+
+cta:
+  title: 'Primeiro a verificação — depois falamos de especificações'
+  subtitle: 'Solicita o pacote de registo, cópias dos certificados ou um audit. Primeiro a verificação; depois a discussão da encomenda. Um pedido não acarreta qualquer obrigação de encomenda.'
+  button_text: 'Solicita o pacote de verificação'
+  button_link: '/pt/contact#trust-verification'
+  actions:
+    - text: Identidade da marca
+      href: /pt/about/identity
+    - text: Checklist de audit de fábrica
+      href: /pt/factory-audit-checklist

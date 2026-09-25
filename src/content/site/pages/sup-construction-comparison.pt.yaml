@@ -1,0 +1,123 @@
+meta:
+  title: 'Comparação das construções SUP — PVC monofolha, PVC de dupla camada e drop-stitch | SUPsfactory'
+  description: 'Comparação das construções dos SUP insufláveis: PVC monofolha, PVC de dupla camada e núcleo drop-stitch — rigidez, peso, durabilidade, preço e uso ideal.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'Comparação de construções SUP'
+    - 'Tipos de construção dos SUP insufláveis'
+    - 'SUP monofolha vs dupla camada'
+    - 'Construção SUP drop-stitch'
+    - 'Construção SUP em PVC'
+    - 'Rigidez de prancha SUP'
+    - 'Peso de prancha SUP'
+
+hero:
+  tagline: 'Guia de construção'
+  title: 'Comparação das construções SUP'
+  subtitle: 'Três tipos de construção, uma única linha de produção. Compreende os compromissos entre rigidez, peso, durabilidade e custos do PVC monofolha, do PVC de dupla camada e do núcleo drop-stitch — e qual se adapta ao teu rider-alvo e ao teu posicionamento de mercado.'
+
+answer:
+  label: 'Comparação rápida'
+  text: 'O PVC monofolha é o mais leve e económico — ideal para riders ocasionais e mercados sensíveis ao preço. O PVC de dupla camada acrescenta uma segunda película em PVC para rigidez e durabilidade a peso moderado — a escolha padrão do setor para frotas de aluguer e modelos de gama média. O núcleo drop-stitch com revestimento em PVC oferece a máxima rigidez e tolerância à pressão — preferido para performance, surf e riders pesados. Todas as três construções são produzidas na mesma linha com os mesmos gates QC; a diferença está nos materiais e nos passos de laminação.'
+  verified: 'September 2026'
+
+comparison_table:
+  tagline: Lado a lado
+  title: 'Tipos de construção em comparação'
+  headers:
+    - 'Atributo'
+    - 'PVC monofolha'
+    - 'PVC de dupla camada'
+    - 'Núcleo drop-stitch + revestimento em PVC'
+  rows:
+    - - 'Rigidez (valor nominal PSI)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Peso (prancha de 11 ft)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Durabilidade'
+      - 'Boa — uso recreativo'
+      - 'Muito boa — aluguer e uso comercial'
+      - 'Excelente — performance e riders pesados'
+    - - 'Camada de construção'
+      - '1 camada em PVC + núcleo drop-stitch'
+      - '2 camadas em PVC + núcleo drop-stitch'
+      - 'Drop-stitch reforçado + revestimento em PVC + rail tape'
+    - - 'Uso típico'
+      - 'Mercados entry-level, ocasionais, sensíveis ao preço'
+      - 'Allround, aluguer, associações, marcas médias'
+      - 'Tour, surf, riders pesados, marcas premium'
+    - - 'Custos relativos'
+      - 'Os mais baixos'
+      - 'Médios'
+      - 'Mais altos'
+    - - 'Método de soldadura'
+      - 'Costuras soldadas HF'
+      - 'Costuras soldadas HF + laminação'
+      - 'Costuras soldadas HF + rails reforçadas'
+    - - 'Padrão do teste de pressão'
+      - 'Teste de estanquicidade a 18.0 PSI'
+      - 'Teste de estanquicidade a 18.0 PSI'
+      - 'Teste de estanquicidade a 18.0 PSI (avaliado mais alto)'
+
+use_cases:
+  tagline: Qual construção para qual comprador
+  title: 'Construção adequada ao teu mercado-alvo'
+  subtitle: 'A escolha da construção não é apenas uma decisão de custo — define a experiência de condução, o perfil de risco na garantia e o posicionamento de marca que podes manter.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Monofolha para entry-level & volume'
+      desc: 'A prancha mais leve ao preço mais baixo. Ideal para marcas que se dirigem a primeiros compradores, grande distribuição e marketplaces online, onde o preço é a principal motivação de compra. Rigidez suficiente para o paddling em águas planas a PSI moderado. Taxa de pedidos de garantia inferior se usada no intervalo de pressão nominal.'
+      link_label: 'Vê as pranchas OEM entry-level'
+      href: /pt/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Dupla camada para aluguer & uso comercial'
+      desc: 'A construção cavalo de batalha para frotas de aluguer, associações, resorts e programas escolares. A camada adicional em PVC resiste a impactos, exposição UV e manipulação diária que destroem as pranchas monofolha no uso comercial. A maior tolerância à pressão significa uma sensação de condução mais rígida para os riders mais pesados. O nível de construção mais utilizado no mundo.'
+      link_label: 'Soluções para aluguer & resorts'
+      href: /pt/solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Núcleo drop-stitch para a performance'
+      desc: 'Máxima rigidez para tour, surf, pesca e riders pesados. Construção de rails reforçadas e valor nominal PSI mais alto oferecem prestações semelhantes a uma hardboard num pacote portátil. Preferido por marcas de performance e paddlers experientes. Custos de materiais mais altos, mas posicionamento de marca mais forte e taxa de garantia por unidade mais baixa.'
+      link_label: 'Desenvolvimento de pranchas performance'
+      href: /pt/odm-manufacturing
+
+key_factors:
+  heading: 'Fatores importantes além do tipo de construção'
+  body: |
+    O tipo de construção é uma variável da prestação da prancha. Outros três fatores são igualmente importantes ou mais:
+
+    - **Densidade do drop-stitch** — Os fios por polegada determinam o quão uniformemente a prancha mantém a sua forma sob pressão. Usamos padrões de 96 fios/polegada e 140 fios/polegada para as builds performance. Densidade maior = prancha mais plana = melhor deslize.
+    - **Qualidade e espessura do PVC** — Nem todo o PVC é igual. O PVC de 0.7 mm importado da Coreia tem uma resistência ao rasgamento e uma proteção UV superiores às alternativas mais finas. Especificamos a qualidade do material por projeto.
+    - **Construção das rails** — As rails monofolha são o ponto de rotura mais comum nas pranchas económicas. As rails de dupla camada e o rail tape reforçado reduzem drasticamente o risco de perfurações das rails. Todas as nossas pranchas usam rails reforçadas independentemente do nível de construção.
+
+faqs:
+  tagline: FAQ
+  title: 'Construção SUP — Perguntas frequentes'
+  items:
+    - q: 'Qual tipo de construção devo escolher para a minha marca?'
+      a: 'Depende do teu mercado-alvo e do posicionamento de preço. Entry-level e grande distribuição: monofolha. Frotas de aluguer, associações e marcas médias: dupla camada. Performance, tour e premium: núcleo drop-stitch. A maioria das marcas começa pela dupla camada como melhor compromisso entre custo, durabilidade e experiência de condução. Aconselhamos com base no teu mercado específico durante a verificação de viabilidade.'
+    - q: 'Posso oferecer vários níveis de construção sob uma única marca?'
+      a: 'Sim — muitas marcas oferecem dois ou três níveis. Produzimos todas as três construções na mesma linha com os mesmos gates QC, para que possas misturar os tipos de construção dentro de uma única encomenda. A forma do casco e as gráficas podem ser idênticas em todos os níveis; mudam apenas construção e materiais.'
+    - q: 'Qual padrão de teste de pressão vale para todas as construções?'
+      a: 'Cada prancha, independentemente do tipo de construção, ultrapassa um teste de estanquicidade a 18.0 PSI com rejeição automática numa queda de pressão superior a 0.50 PSI em 24 horas. As pranchas monofolha são projetadas para 12–15 PSI de pressão de condução, as de dupla camada para 15–18 PSI e as de núcleo drop-stitch para 18–25 PSI. A pressão de teste ultrapassa a pressão nominal de todos os tipos.'
+    - q: 'De que forma a construção incide nos pedidos de garantia?'
+      a: 'As pranchas monofolha têm uma taxa de pedidos de garantia ligeiramente mais alta no uso comercial/de aluguer devido a rails e perfurações. As construções de dupla camada e de núcleo drop-stitch têm taxas de pedidos claramente inferiores. Fornecemos dados de garantia por nível extraídos dos nossos registos de produção durante a fase de proposta.'
+
+cta:
+  title: 'Precisas de ajuda para escolher a construção certa?'
+  subtitle: 'Comunica-nos o teu rider-alvo, a faixa de preço e o teu mercado — aconselharemos o nível de construção adequado e forneceremos pranchas de amostra para a tua avaliação.'
+  actions:
+    - variant: primary
+      text: Inicia o briefing de projeto
+      href: /pt/contact#project-brief
+    - text: Vê os detalhes da produção OEM
+      href: /pt/oem-manufacturing
+    - text: Compara OEM, ODM e private label
+      href: /pt/oem-odm-private-label-comparison

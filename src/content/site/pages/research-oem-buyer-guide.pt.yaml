@@ -1,0 +1,103 @@
+meta:
+  title: 'Guia do comprador OEM: aprovisionamento de pranchas SUP da Ásia | SUPsfactory'
+  description: 'Aprovisionamento de pranchas SUP insufláveis da Ásia: checklist para o audit de fábrica, protocolos de controlo de qualidade, conformidade, negociação do MOQ, condições de envio e armadilhas.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Voltar à Pesquisa'
+
+hero:
+  tagline: 'Aprovisionamento'
+  title: 'Guia do comprador OEM — aprovisionamento de pranchas SUP insufláveis da Ásia'
+  subtitle: '12 min de leitura'
+
+answer:
+  label: 'Resposta breve'
+  text: 'A quantidade mínima de encomenda é confirmada com base no projeto, não como número fixo: o desenvolvimento de amostras (1–2 unidades) valida a construção, as encomendas piloto (20–50 unidades) testam o mercado em plataformas existentes, a produção padrão em volume acontece com 90–100+ unidades por lote de um rolo drop-stitch completo de 150 m, e o co-branding em pequenas séries parte das 5–10 unidades. As amostras partem em 7–12 dias; a produção em massa acontece 25–35 dias após a encomenda confirmada e o sinal, mais 15–20 dias se for necessário novo equipamento.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>1. Pré-qualificação: o que procurar numa fábrica</h2>
+
+  <h3>Certificados de conformidade</h3>
+  <ul>
+    <li><strong>ISO 9001:2015</strong> – sistema de gestão da qualidade</li>
+    <li><strong>Certificação CE</strong> – verificar o número do organismo notificado</li>
+    <li><strong>BSCI / SMETA / SEDEX</strong> – audit de conformidade social</li>
+    <li><strong>REACH / RoHS</strong> – declarações de conformidade dos materiais</li>
+  </ul>
+
+  <h3>Capacidades produtivas</h3>
+  <ul>
+    <li>Tecelagem do núcleo drop-stitch in-house vs. externalizada</li>
+    <li>Linha de espalmação / laminação PVC</li>
+    <li>Equipamento de soldadura RF e a ar quente</li>
+    <li>Construção de moldes in-house (maquinação CNC)</li>
+    <li>Laboratório de prova (teste de pressão, envelhecimento UV, teste de tração)</li>
+  </ul>
+
+  <h3>Verificação da experiência</h3>
+  <ul>
+    <li>Anos na produção de embarcações insufláveis (pelo menos 5+ anos)</li>
+    <li>Número de engenheiros empregados</li>
+    <li>Clientes OEM/ODM existentes (pedir referências)</li>
+    <li>Mercados de exportação — já exportam para o teu mercado de destino?</li>
+  </ul>
+
+  <h2>2. Protocolos de controlo de qualidade</h2>
+  <p>QC à entrada dos materiais: resistência à tração (ASTM D751 ou ISO 1421), resistência ao rasgo (ASTM D2261 ou ISO 4674), adesão dos revestimentos, amostras de envelhecimento UV.</p>
+  <p>QC de processo: monitorização da resistência das costuras a cada 50 unidades, teste do binário das válvulas, amostragem da densidade do fio drop-stitch, controlos dimensionais face aos desenhos CAD.</p>
+  <p>Inspeção final: teste de estanquicidade da pressão a 100 % (24 horas, queda máxima 0.50 PSI), inspeção visual, teste de funcionamento das válvulas, amostras aleatórias (AQL 2.5 ou 4.0 segundo a ISO 2859).</p>
+
+  <h2>3. Checklist para a documentação de conformidade</h2>
+  <ul>
+    <li>Declaração de conformidade (DoC) que refere a diretiva UE correta</li>
+    <li>Certificado CE de um organismo notificado</li>
+    <li>Relatório de prova de um laboratório acreditado</li>
+    <li>Fichas de segurança (MSDS) dos materiais</li>
+    <li>Declaração de conformidade REACH</li>
+    <li>Distinta base com rastreabilidade dos fornecedores</li>
+    <li>Relatório de inspeção da fábrica</li>
+  </ul>
+
+  <h2>4. Negociação do MOQ</h2>
+  <p>Os MOQs para as pranchas SUP insufláveis são determinados pelo percurso produtivo e pela configuração do projeto, não por estimativas. Todos os projetos OEM/ODM Vatrad seguem três claras faixas de quantidade — amostras, piloto e volume — e a lógica de cálculo completa está explicada no nosso <a href="/pt/oem-moq-guide">Guia MOQ &amp; branding flexível</a>:</p>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Percurso produtivo</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">MOQ</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Tempos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Desenvolvimento de amostras (por design)</td><td class="p-3 border">1 – 2 unidades</td><td class="p-3 border">Amostras em 7 – 12 dias</td></tr>
+      <tr><td class="p-3 border font-medium">Encomenda piloto (plataformas existentes)</td><td class="p-3 border">20 – 50 unidades</td><td class="p-3 border">Validação do mercado com materiais existentes</td></tr>
+      <tr><td class="p-3 border font-medium">Lote de volume padrão (por design)</td><td class="p-3 border">90 – 100+ unidades</td><td class="p-3 border">25 – 35 dias após a encomenda e o sinal</td></tr>
+      <tr><td class="p-3 border font-medium">Formas próprias completas / Private Label</td><td class="p-3 border">Confirmado com base no projeto</td><td class="p-3 border">Acrescenta 15 – 20 dias pelo equipamento</td></tr>
+    </tbody>
+  </table>
+  <p>As quantidades de amostras, piloto e série diferem: o desenvolvimento de amostras (1–2 unidades) valida a construção, as encomendas piloto (20–50 unidades) testam o mercado em plataformas existentes, e a produção padrão em volume acontece com 90–100+ unidades por lote de um rolo drop-stitch completo de 150 m — com faixas de preço por quantidade que sobem com a dimensão da encomenda. Pede por escrito o cálculo do MOQ, os tempos de entrega e as condições de pagamento para a tua prancha específica antes de te comprometeres com um fornecedor.</p>
+
+  <h2>5. Logística e envio</h2>
+  <p>Incoterms comuns: <strong>FOB</strong> (a fábrica entrega até ao porto de partida — o mais comum), <strong>EXW</strong> (o comprador organiza todo o envio da unidade), <strong>CIF</strong> (a fábrica paga o frete e o seguro até ao porto de destino).</p>
+  <p>Os produtos insufláveis são leves mas volumosos — o peso volumétrico (DIM) determina muitas vezes os custos de envio. Pede embalagens a vácuo para reduzir o volume em 50–60 %. O transporte marítimo da China para a UE demora normalmente 25–35 dias e 7–12 dias para a costa ocidental dos Estados Unidos — em adição ao lead time de produção de 25–35 dias.</p>
+
+  <h2>6. Armadilhas comuns</h2>
+  <ul>
+    <li><strong>Nenhum audit de fábrica:</strong> executa sempre um audit ou encomenda uma inspeção de terceiros (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Apenas especificações verbais:</strong> ficha de especificações técnicas detalhada, assinada por ambas as partes</li>
+    <li><strong>Saltar a aprovação das amostras:</strong> aprovação escrita das amostras antes da produção em massa</li>
+    <li><strong>Nenhum controlo de qualidade durante a produção:</strong> inspeção de terceiros durante a produção (DUPRO) e antes do envio (PSI)</li>
+    <li><strong>Ignorar a conformidade:</strong> verificar a marcação CE (Diretiva 2013/53/UE) e a documentação específica do mercado antes da produção</li>
+  </ul>
+
+  <h2>7. Porquê a Vatrad</h2>
+  <p>A Vatrad produz pranchas SUP insufláveis OEM/ODM desde 2012. Com uma instalação certificada ISO 9001 de 12.500 m&sup2;, 25+ engenheiros e certificação CE para os modelos destinados aos mercados da UE (âmbito confirmado para cada projeto), satisfazemos todos os critérios deste guia. Oferecemos MOQs de teste para novos parceiros e pacotes completos de documentação de conformidade.</p>
+  <p>Consulta os nossos <a href="/pt/oem-manufacturing">serviços de produção OEM/ODM para SUP insufláveis</a> ou visita a <a href="/pt/factory">instalação de 12.500 m&sup2;</a> para ver o equipamento e os processos QC por trás de cada passo acima.</p>
+
+cta:
+  title: 'Pronto a iniciar o aprovisionamento?'
+  subtitle: 'Contacta a nossa equipa OEM para discutir os requisitos do teu projeto.'
+  button_text: 'Solicita um orçamento'
+  button_link: /pt/contact

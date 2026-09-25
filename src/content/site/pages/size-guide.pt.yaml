@@ -1,0 +1,85 @@
+meta:
+  title: 'Guia de medidas e especificações SUP — Paddle boards insufláveis | {SITE}'
+  description: 'Dimensões, capacidades e usos recomendados para cada prancha Vatrad. Encontra a medida de SUP insuflável certa para as tuas necessidades.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Conselheiro de medidas SUP'
+    - 'Dimensões de paddle boards'
+    - 'Especificações SUP insufláveis'
+    - 'Tabela de medidas SUP'
+hero:
+  title: Guia de medidas e especificações
+  subtitle: Dimensões, capacidades e usos recomendados para cada produto Vatrad.
+
+categories:
+  inflatable: SUP insufláveis para a máxima portabilidade sem renúncias em termos de desempenho. Escolhe a medida certa para o teu peso e o teu estilo de remada.
+  sup: Stand-up paddle boards para tour, yoga, fitness e paddling recreativo. Escolha com base no comprimento e no peso do rider.
+  accessory: Acessórios e equipamento de segurança para completar a tua prancha SUP. Medidas universais com várias opções.
+
+table:
+  headers:
+    product: Produto
+    length: Comprimento
+    width: Largura
+    weight: Peso
+    max_load: Carga máx.
+    best_for: Adequado para
+  rows:
+    - product: 'SUP Allround (Explorer 11 ft)'
+      length: '11''0" (335 cm)'
+      width: '32" (81 cm)'
+      weight: 19 lbs (8.6 kg)
+      max_load: 220 lbs (100 kg)
+      best_for: Principiantes, tempo livre, paddling em família em lagos e rios tranquilos
+    - product: 'SUP Allround (10''6")'
+      length: '10''6" (320 cm)'
+      width: '32" (81 cm)'
+      weight: 18 lbs (8.2 kg)
+      max_load: 200 lbs (90 kg)
+      best_for: Riders mais leves, yoga e utilização recreativa geral
+    - product: 'SUP Touring (12 ft)'
+      length: '12''0" (366 cm)'
+      width: '30" (76 cm)'
+      weight: 23 lbs (10.4 kg)
+      max_load: 260 lbs (118 kg)
+      best_for: Paddling de distância, velocidade e tours costeiros
+    - product: 'SUP Touring (14 ft)'
+      length: '14''0" (427 cm)'
+      width: '28" (71 cm)'
+      weight: 26 lbs (11.8 kg)
+      max_load: 275 lbs (125 kg)
+      best_for: Competições e paddling de longa distância
+    - product: 'SUP Surf (8–10 ft)'
+      length: '8''0"–10''0" (244–305 cm)'
+      width: '30" (76 cm)'
+      weight: 17 lbs (7.7 kg)
+      max_load: 180 lbs (82 kg)
+      best_for: Ondas e surf manobrável
+    - product: 'SUP Yoga/Fitness (11 ft)'
+      length: '11''0" (335 cm)'
+      width: '34" (86 cm)'
+      weight: 22 lbs (10 kg)
+      max_load: 240 lbs (109 kg)
+      best_for: Yoga, fitness e paddling recreativo estável
+
+how_to_choose:
+  title: Como encontrar a medida certa
+  cards:
+    - title: Pranchas SUP
+      description: Escolhe o comprimento com base no teu peso e no uso previsto. As pranchas mais largas (32"+ — 81 cm+) oferecem mais estabilidade. As pranchas mais compridas (11-12 ft) mantêm melhor o rumo nos tours. Os paddlers mais pesados necessitam de pranchas com maior volume.
+    - title: SUP Touring
+      description: As pranchas mais compridas (11–12 ft) são as mais adequadas ao paddling de distância e aos tours. As pranchas mais largas (32"+ — 81 cm+) oferecem mais estabilidade. Verifica a capacidade de peso para o peso total incluindo o equipamento.
+    - title: SUP Allround
+      description: Escolhe o comprimento com base no peso do rider e no uso previsto. As pranchas Allround são adequadas para tempo livre, fitness e yoga. As pranchas mais pequenas são mais manobráveis.
+
+cta:
+  title: 'Explora as pranchas por medida ou fala com um engenheiro'
+  subtitle: 'Compara os modelos Touring, Allround e Yoga do nosso sortido — ou envia-nos a composição dos teus riders e aconselhar-te-emos as medidas adequadas ao teu projeto.'
+  actions:
+    - variant: primary
+      text: Explora os produtos SUP
+      href: /pt/products
+    - text: Outros aprofundamentos sobre paddling
+      href: /pt/knowledge
+    - text: Como são construídas as pranchas
+      href: /pt/factory/process

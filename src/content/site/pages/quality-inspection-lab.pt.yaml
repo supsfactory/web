@@ -1,0 +1,145 @@
+meta:
+  title: 'Laboratório de qualidade & ensaios — ensaio SUP conforme ISO'
+  description: 'Controlo de qualidade independente para pranchas SUP insufláveis: provas de tração, ciclos de estanquicidade ao ar, provas de peeling das costuras e certificação dos materiais.'
+back_text: 'Voltar ao centro de I&D'
+home_label: 'Início'
+
+hero:
+  tagline: 'Laboratório 06'
+  title: 'Laboratório de qualidade & ensaios'
+  subtitle: 'Ensaios independentes — cada teste ultrapassado antes da entrega'
+  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp'
+  image_alt: 'Prova UV no laboratório de controlo de qualidade da Vatrad'
+
+answer:
+  label: 'Resposta breve'
+  text: 'Cada prancha é ensaiada antes do envio face às especificações publicadas: controlo de estanquicidade da pressão a 100 % a 18.0 PSI durante 24 horas (rejeição automática para além de 0.50 PSI de queda de pressão), provas de tração e de peeling das costuras segundo a ISO 1421 e uma checklist de montagem de 100 pontos. O laboratório reporta diretamente à direção da empresa, não à produção, e pode parar qualquer entrega.'
+  verified: 'September 2026'
+
+intro: 'Cada prancha que sai da nossa oficina traz a confirmação de ter superado uma série definida de controlos de qualidade e provas de materiais. O nosso laboratório de qualidade & ensaios é uma função independente dentro da organização — reporta diretamente à direção da empresa, não à produção — garantindo assim que nenhuma pressão comercial possa comprometer os gates de ensaio. Quando um lote de material ou uma prancha acabada não é conforme à especificação publicada, o laboratório tem a autoridade de suspender a entrega até a não conformidade ser resolvida.'
+
+content_html: |
+  <h2>Confiança, mas verificação</h2>
+  <p>O laboratório opera no âmbito de um sistema de gestão da qualidade segundo os princípios da ISO 9001, e os nossos métodos de prova baseiam-se, sempre que possível, nas normas ISO, ASTM e EN. Mantemos registos detalhados de cada teste executado, criando assim uma cadeia de rastreabilidade completa da entrada das matérias-primas à entrega final da prancha.</p>
+
+  <h2>Equipamento e capacidade de ensaio</h2>
+  <table>
+    <thead><tr><th>Equipamento</th><th>Testes executados</th><th>Norma / Método</th></tr></thead>
+    <tbody>
+      <tr><td>Máquina de prova universal (50 kN)</td><td>Resistência à tração (tecido), resistência ao peeling (costuras), comportamento na propagação do corte</td><td>ISO 1421, ISO 4674</td></tr>
+      <tr><td>Banco de prova de estanquicidade ao ar (programável)</td><td>Prova de resistência a 1000 ciclos de insuflação/desinsuflação, prova de estanquicidade da pressão de 30 min</td><td>Interno (segundo o método ISO-6185)</td></tr>
+      <tr><td>Dispositivo de peeling das costuras (peeling motorizado a 180°)</td><td>Resistência ao peeling das costuras soldadas e coladas a 100 mm/min</td><td>ISO 1421 / ASTM D1876</td></tr>
+      <tr><td>Aparelho de prova de coluna de água</td><td>Resistência à penetração da água do tecido (0–1000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Calibrador de espessura digital &amp; micrómetro</td><td>Espessura do tecido, espessura das soldaduras, espessura dos filmes adesivos</td><td>ISO 2286-3</td></tr>
+      <tr><td>Câmara climática</td><td>Condicionamento térmico (-40 °C a +80 °C) para testes de rutura a frio e envelhecimento térmico</td><td>ISO 188, ISO 4675</td></tr>
+      <tr><td>Espectrofotómetro colorimétrico</td><td>Medição da cor Delta-E após exposição UV</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Os gates de ensaio — do material à entrega</h2>
+  <p>Cada prancha segue um plano de qualidade definido com pontos de ensaio vinculativos. Nenhuma prancha pode saltar um gate; cada gate deve ser rubricado por um inspetor de qualidade antes de começar a fase produtiva seguinte.</p>
+
+  <div class="not-prose my-8">
+    <div class="relative">
+      <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-200 dark:bg-blue-800"></div>
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 1</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Controlo dos materiais à entrada</p>
+            <p class="text-xs text-gray-500 mt-1">Lote de tecido, núcleo drop-stitch, produção de cola, acessórios — todos verificados face à especificação de entrada antes de serem libertados para a produção.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 2</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Controlo das soldaduras em processo</p>
+            <p class="text-xs text-gray-500 mt-1">Amostras de soldadura iniciais testadas (peeling + inspeção visual) no início de cada turno de produção.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 3</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Teste de ar em câmara</p>
+            <p class="text-xs text-gray-500 mt-1">Prancha pressurizada a 18.0 PSI (pressão de serviço 12–15 PSI) e mantida durante 24 h. Uma queda de pressão &gt; 0.50 PSI implica a rejeição automática. Dados registados para cada número de série.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 4</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Controlo antes do envio</p>
+            <p class="text-xs text-gray-500 mt-1">Prancha completa controlada: todos os acessórios apertados, adesão do deck pad, alinhamento da gráfica, nenhum defeito estético. Checklist de 100 pontos.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 5</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Certificação final</p>
+            <p class="text-xs text-gray-500 mt-1">Relatórios de prova preenchidos, protocolos de ensaio verificados, emitido o certificado de conformidade (Certificate of Conformance).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Ensaios padrão para cada lote</h2>
+  <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18.0 PSI no teste de ar em câmara, mantidos durante 24 h</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">Uma queda de pressão implica a rejeição automática</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">100 %</span>
+      <span class="text-xs text-gray-500">Câmaras testadas com ar antes da montagem</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
+      <span class="text-xs text-gray-500">Sistema de gestão da qualidade</span>
+    </div>
+  </div>
+
+  <h2>A nossa equipa de qualidade</h2>
+  <p>O laboratório é presidido por um quality manager (10 anos de experiência em garantia da qualidade marítima, engenheiro de qualidade certificado ASQ), dois inspetores de qualidade (ambos com certificação NDT nível 2 para a inspeção visual) e um técnico de materiais responsável por todas as provas físicas. A equipa realiza verificações de competência anuais através de um fornecedor terceiro independente, para garantir que os nossos resultados de prova permanecem exatos e reprodutíveis.</p>
+
+  <h2>Ensaios independentes para clientes</h2>
+  <p>O nosso laboratório de qualidade &amp; ensaios está à disposição para serviços de ensaio independentes. Se precisares de verificar uma especificação de tecido, validar um novo sistema adesivo ou obter um relatório de prova de terceiros para uma qualificação de aprovisionamento, executamos as provas segundo a norma aplicável e emitimos um relatório de prova certificado.</p>
+  <p>Exemplos de trabalhos recentes de ensaio de terceiros:</p>
+  <ul>
+    <li>Comparação da resistência ao peeling de cinco produtos adesivos concorrentes para um programa de aprovisionamento europeu.</li>
+    <li>Estudo de envelhecimento acelerado (UV + ciclos térmicos) para uma nova formulação PVC pigmentada laranja, com medições intermédias regulares a intervalos de 500 h.</li>
+    <li>Validação da estanquicidade ao ar de 50 conjuntos de válvula protótipo para um novo design de prancha de alta pressão.</li>
+  </ul>
+
+  <h2>O nosso compromisso para contigo</h2>
+  <p>Quando recebes uma prancha {SITE.name}, recebes também o seu dossiê de qualidade — um registo preenchido dos resultados de prova relativos à tua especificação de prancha. Certificado do lote de tecido, provas de peeling das costuras, protocolos do teste de ar em câmara e checklist de ensaio pré-envio. Cada número é rastreável. Cada inspetor é identificado. Não é só papel — é a nossa promessa de que o que entregámos corresponde ao que especificámos.</p>
+  <p>Se tiveres algum dia um problema de qualidade, podes contactar diretamente o laboratório — os dados de contacto estão no teu certificado de conformidade. Levamos a sério cada pedido e comprometemo-nos a uma investigação formal em 48 horas.</p>
+
+  <h2>O que acontece quando uma prancha não passa no ensaio?</h2>
+  <p>Uma prancha não conforme nunca desaparece em silêncio. O laboratório segue um procedimento de não conformidade definido, de modo a que o problema seja contido, corrigido e a sua recorrência prevenida:</p>
+  <ul>
+    <li><strong>Isolamento</strong> — a prancha é marcada, retirada da linha e registada no registo de não conformidades com o nome do inspetor e os critérios não ultrapassados.</li>
+    <li><strong>Retrabalho ou sucateamento</strong> — os defeitos reparáveis (p. ex. uma válvula, uma soldadura do rail ou um canto do deck pad) são retrabalhados por um operador certificado e a área reparada volta a ser testada segundo a mesma norma. As pranchas que não conseguem atingir a especificação são sucateadas, não rebaixadas.</li>
+    <li><strong>Novo ensaio</strong> — cada prancha retrabalhada deve voltar a passar na totalidade do gate em causa antes de poder regressar à linha de embalagem.</li>
+    <li><strong>Libertação</strong> — apenas as pranchas com todos os gates rubricados saem da unidade. A taxa de sucata, a causa e a ação corretiva são resumidas no teu relatório de qualidade do lote.</li>
+  </ul>
+
+  <h2>A documentação de qualidade que recebes</h2>
+  <p>Cada lote é enviado com um pacote documental que a tua equipa de QC pode verificar: o certificado do lote (números de lote de tecido, cola e acessórios), os protocolos de peeling das costuras, os protocolos do teste de ar em câmara para cada número de série, a checklist pré-envio de 100 pontos assinada, a packing list e um protocolo fotográfico das tuas pranchas antes do carregamento.</p>
+
+cta:
+  title: 'Solicita uma checklist QC de exemplo'
+  subtitle: 'Descobre os exatos gates de ensaio, os métodos de prova e os documentos face aos quais o teu lote seria verificado — envia-nos o tipo de prancha e a quantidade.'
+  actions:
+    - variant: primary
+      text: Solicita a checklist QC
+      href: /pt/contact#quality-inquiry
+    - text: O sistema de gates de ensaio em 7 fases
+      href: /pt/quality
+    - text: Laboratório QC de fábrica & descarga de relatórios de prova
+      href: /pt/factory/quality-lab
+    - text: Norma para a gestão dos produtos não conformes
+      href: /pt/factory/non-conforming-control

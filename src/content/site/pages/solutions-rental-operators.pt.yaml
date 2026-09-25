@@ -1,0 +1,82 @@
+meta:
+  title: 'Equipamento para aluguer SUP & soluções para frotas'
+  description: 'Pranchas SUP comerciais para o aluguer diário: PVC resistente aos raios UV, costuras reforçadas e materiais de secagem rápida para frotas de rotação de alta frequência.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Operadores de aluguer
+  title: 'Pranchas SUP projetadas para frotas de aluguer'
+  subtitle: 'Especifica uma frota que aguente o aluguer diário: pranchas de rotação de alta frequência com PVC resistente aos raios UV, costuras reforçadas e materiais de secagem rápida — projetadas para 365 dias de utilização por ano.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/use-cases/supsfactory-family-use-case.webp
+    alt: Pranchas SUP prontas para o aluguer diário
+
+answer:
+  label: 'Resposta breve'
+  text: 'As pranchas para frotas de aluguer são construídas com PVC marinho resistente aos raios UV, com costuras 3× mais resistentes face às construções padrão e núcleos drop-stitch para 15 PSI — testadas para mais de 500 ciclos de aluguer. A MOQ é confirmada pela configuração do projeto: amostras (1–2 unidades), piloto (20–50 unidades) e volume padrão (90–100+ unidades por lote de um rolo de 150 m); a produção exige 25–35 dias após a PO e o sinal, com condições FOB, CIF ou DDP.'
+  verified: 'September 2026'
+
+features:
+  title: Construídas para o quotidiano do aluguer
+  subtitle: 'Cada prancha é projetada para mais de 500 ciclos de aluguer com manutenção mínima.'
+  items:
+    - title: 'Mais de 500 ciclos de aluguer'
+      description: 'Testadas para resistir ao uso diário em água salgada, sol e areia.'
+      icon: 'tabler:shield-check'
+    - title: 'Tecido resistente aos raios UV'
+      description: 'Nenhum desbotamento ou deterioração após 1 ano de armazenamento ao ar livre.'
+      icon: 'tabler:sun'
+    - title: 'Costuras reforçadas'
+      description: 'Construção de costura reforçada para a rotação de aluguer diária e os ciclos de insuflação repetidos.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Materiais de secagem rápida'
+      description: 'Os materiais de secagem rápida mantêm as pranchas prontas a usar entre utilizações.'
+      icon: 'tabler:droplet'
+    - title: 'Armazenamento empilhável'
+      description: 'Design empilhável que poupa espaço — mais pranchas na mesma área de armazenamento.'
+      icon: 'tabler:stack'
+    - title: 'Medidas com código de cores'
+      description: 'O pessoal apanha logo a prancha certa graças às medidas com código de cores.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: Indicadores operacionais
+  stats:
+    - title: Superfície da unidade
+      amount: '12,500 m²'
+    - title: Teste de pressão
+      amount: '18 PSI / 24h'
+    - title: Checklist de montagem
+      amount: '100 pontos'
+    - title: Envio de peças sobressalentes
+      amount: '48h'
+
+fleet_guide:
+  title: Guia para as dimensões da frota
+  subtitle: 'Estima quantas pranchas o teu operador precisa com base na rotação diária de aluguer.'
+  tiers:
+    - label: Pequeno quiosque
+      boards: '15-20'
+      note: 'Até 2–3 rotações de pranchas por dia em alta época'
+    - label: Operador de dimensões médias
+      boards: '30-50'
+      note: 'Vários pontos de partida ou grande afluência ao fim de semana'
+    - label: Grande aluguer de praia
+      boards: '50-100'
+      note: 'Frotas de aluguer full-service em várias estações balneares'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Aprofunda:</strong> as pranchas de aluguer partem da tua especificação — descobre o nosso <a href="/pt/oem-manufacturing">programa OEM/ODM</a> para personalização, MOQs de teste baixos e preços de frota. Cada prancha passa pelos 12,500 m&sup2; da <a href="/pt/factory">linha de produção</a> e antes do envio é submetida a 100 % a um teste de pressão.</p>
+  </div>
+
+cta:
+  title: 'Especifica a tua frota de aluguer'
+  subtitle: 'Envia os requisitos da tua frota ou compara as plataformas de pranchas para o teu operador.'
+  actions:
+    - text: 'Envia os requisitos da frota'
+      href: '/pt/contact'
+      variant: 'primary'
+    - text: 'Compara as plataformas de pranchas'
+      href: '/pt/inflatable-vs-hardboard'
+      variant: 'secondary'

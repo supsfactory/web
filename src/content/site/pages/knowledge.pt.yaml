@@ -1,0 +1,111 @@
+meta:
+  title: 'Conhecimento — Guias de SUP insufláveis & OEM | {SITE}'
+  description: 'Knowledge base da Vatrad: guias sobre SUP insufláveis, materiais de pranchas de paddle, escolha da prancha e insights de setor para marcas e profissionais.'
+  dateModified: '2026-08'
+  keywords:
+    - 'conhecimento sup'
+    - 'guia sup insuflável'
+    - 'materiais prancha de paddle'
+    - 'insights setor sup'
+hero:
+  tagline: 'Centro do saber'
+  title: 'Knowledge base SUP'
+  subtitle: |
+    Uma knowledge base estruturada sobre a tecnologia dos SUP insufláveis,
+    a segurança na água, a engenharia das pranchas e o planeamento das aventuras.
+  taglineSection: 'Descobre. Aprende. Vai para a água com a confiança certa.'
+
+clusters:
+  tagline: 'Clusters de conhecimento'
+  title: 'Explora por tópico'
+  subtitle: 'Aprofundamentos sobre tecnologia, segurança e competências por detrás de cada produto Vatrad.'
+  items:
+    - title: 'Guia de compra de um SUP'
+      description: 'Da escolha da tua primeira prancha às técnicas de touring avançadas — tudo sobre paddleboarding.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'Como escolher o teu primeiro SUP insuflável'
+        - 'Guia de medidas SUP e classificação por peso'
+        - 'Melhor SUP para principiantes, touring, yoga e competições'
+        - 'Erros de compra SUP a evitar'
+        - 'Comparação insuflável vs. prancha rígida'
+    - title: 'Engenharia e tecnologia SUP'
+      description: 'Guias técnicos sobre pranchas SUP insufláveis — materiais, métodos de construção e processos de produção.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Tecnologia drop-stitch em detalhe'
+        - 'Especificações de PVC de qualidade militar'
+        - 'Laminação por fusão vs. colagem'
+        - 'Tecnologia do EVA e processos de gráficas'
+        - 'Tipos de válvulas SUP e sistemas de aletas'
+    - title: 'Segurança e manutenção SUP'
+      description: 'Conhecimentos de segurança essenciais para cada paddler — da escolha do colete salva-vidas à meteorologia, além do cuidado e da reparação das pranchas.'
+      icon: 'tabler:shield'
+      topics:
+        - 'Checklist de segurança SUP e requisitos dos coletes salva-vidas'
+        - 'Segurança multi-câmara para águas remotas'
+        - 'Guia da pressão de insuflagem SUP (PSI)'
+        - 'Armazenamento e cuidado invernal das pranchas'
+        - 'Técnicas de reparação para pranchas insufláveis'
+    - title: 'Técnicas e habilidades SUP'
+      description: 'Técnicas de pagaiada, capacidades de touring e treino fitness para todos os níveis de habilidade.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Técnicas de pagaiada para principiantes'
+        - 'Técnicas de pagaiada avançadas para a stroke'
+        - 'Planeamento de tours e explorações'
+        - 'Treino fitness e competição SUP'
+        - 'Habilidades para águas brancas e descidas fluviais'
+    - title: 'Estilo de vida SUP e utilizações especiais'
+      description: 'Atividades SUP especializadas — yoga, pesca, cães, famílias e conselhos de viagem.'
+      icon: 'tabler:heart'
+      topics:
+        - 'Yoga SUP e meditação na água'
+        - 'Pesca a partir de um SUP insuflável'
+        - 'Pagaiar com cães e crianças'
+        - 'Viajar com o SUP: avião e carro'
+        - 'Acessórios SUP e equipamento essencial'
+    - title: 'Comparações e referências SUP'
+      description: 'Comparações diretas que te ajudam a tomar decisões informadas.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'SUP vs. caiaque — qual é o certo para ti?'
+        - 'Comparação de materiais PVC vs. Hypalon'
+        - 'Segurança: câmara única vs. multi-câmara'
+        - 'Os materiais das pranchas SUP explicados'
+        - 'Impressão UV vs. design em blocos de EVA'
+
+featured_guides:
+  tagline: 'Guias em destaque'
+  title: 'Recursos de conhecimento mais populares'
+  items:
+    - title: 'Bases do SUP'
+      href: '/pt/knowledge'
+    - title: 'Insuflável vs. prancha rígida'
+      href: '/pt/inflatable-vs-hardboard'
+    - title: 'Guia de segurança na água'
+      href: '/pt/guides/safety-tips'
+    - title: 'Referência de materiais'
+      href: '/pt/knowledge'
+    - title: 'Guia de compra de um SUP'
+      href: '/pt/guides/how-to-choose-your-sup'
+    - title: 'Guia de medidas SUP'
+      href: '/pt/size-guide'
+    - title: 'Centro de tecnologias SUP'
+      href: '/pt/technology'
+    - title: 'Cuidado do SUP'
+      href: '/pt/knowledge'
+    - title: 'Guia de touring'
+      href: '/pt/products/touring'
+    - title: 'Técnicas de pagaiada'
+      href: '/pt/knowledge'
+
+cta:
+  title: 'Explora agora'
+  subtitle: 'Mergulha na nossa knowledge base e recupera todas as informações para a tua próxima aventura na água.'
+  actions:
+    - variant: primary
+      text: 'Ver todos os guias'
+      href: '/pt/knowledge'
+    - text: 'Explora a knowledge base'
+      href: '/pt/knowledge'

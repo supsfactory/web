@@ -125,6 +125,30 @@ export const HERO_CONTENT = {
     float1: { value: '1–2 unità', label: "Campione e approvazione (prima dell’impegno di volume)" },
     float2: { value: FACTS.leadTime, label: 'Tempo di produzione (dopo il PO)' },
   },
+  pt: {
+    kicker: 'Fábrica em Qingdao, China · OEM / ODM / Marca própria · Das amostras à produção em série',
+    titlePre: 'Fabrico de produtos SUP à medida para',
+    titleAccent: 'marcas, distribuidores e organizações',
+    titlePost: '',
+    sub: 'SUP insufláveis OEM, ODM e de marca própria — desde a revisão de especificações e o desenvolvimento de amostras até à produção em série com controlo de qualidade em Qingdao, China.',
+    ctaPrimary: 'Inicia o teu projeto SUP',
+    ctaSecondary: 'Ver fábrica, MOQ e evidências de qualidade',
+    ctaTertiary: '',
+    ctaQuartiary: '',
+    ctaMicro: 'Resposta em 1 dia útil · NDA disponível antes da troca de ficheiros · MOQ confirmado após a revisão da especificação',
+    stats: [
+      { value: '12.500 m²', label: 'Fábrica própria — Qingdao, China' },
+      { value: '120.000+', label: 'Pranchas produzidas anualmente' },
+      { value: '50+', label: 'Países de exportação' },
+      { value: FACTS.ndaWindow, label: 'Janela de resposta NDA' },
+    ],
+    mockupLabel: 'Plataforma de referência',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'As tuas gráficas · as tuas cores · a tua embalagem',
+    heroNote: "O MOQ é confirmado após a revisão da especificação, porque a construção, o tamanho da prancha, a estrutura de PVC, as gráficas, a embalagem e os acessórios afetam o uso do material.",
+    float1: { value: '1–2 unidades', label: 'Amostra e aprovação (antes do compromisso de volume)' },
+    float2: { value: FACTS.leadTime, label: 'Tempo de produção (após o PO)' },
+  },
 }
 
 /** 供 Seo 模块使用的简化映射（仅读，不修改 PUBLIC_PATHS/HREFLANG/OG_*） */

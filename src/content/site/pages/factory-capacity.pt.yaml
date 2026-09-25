@@ -1,0 +1,85 @@
+meta:
+  title: 'Capacidade produtiva — Fábrica de 12,500 m² | {SITE}'
+  description: 'Capacidade da fábrica Vatrad: instalação de 12,500 m² com uma produção anual de mais de 120,000 SUP e possibilidade de expansão. Produção OEM/ODM de SUP insufláveis de alto volume.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'capacidade produtiva sup'
+    - 'fábrica sup insufláveis'
+    - 'produção paddle board'
+    - 'fábrica sup china'
+hero:
+  tagline: Capacidade produtiva
+  title: Capacidade produtiva & produção anual
+  subtitle: Instalação de 12,500 m² com uma produção anual de mais de 120,000 SUP com espaço para expansão
+
+answer:
+  label: 'Resposta clara'
+  text: 'Capacidade da fábrica: 12,500 m² em quatro oficinas especializadas, mais de 120,000 SUP por ano, mais de 350 colaboradores em dois turnos, exportação para mais de 50 países. O MOQ é confirmado com base na configuração do projeto — amostra (1–2 unidades), piloto (20–50 unidades) e quantidade padrão (90–100+ unidades por bobina de 150 m); consulta o nosso guia MOQ & branding flexível para a lógica completa. Prazo de entrega 25–35 dias, amostras 7–12 dias.'
+  verified: 'September 2026'
+
+intro: A Vatrad gere uma das maiores instalações de produção dedicadas aos SUP insufláveis de Qingdao, China. A nossa fábrica de 12,500 m² está organizada em quatro oficinas especializadas que operam em paralelo. A capacidade SUP anual ultrapassa os 120,000 SUP insufláveis (cerca de 10,000 por mês), com mais de 50,000 coletes salva-vidas e mais de 5,000 acessórios produzidos em linhas de produto separadas.
+
+highlights:
+  - value: 12,500 m²
+    label: Superfície produtiva total
+    detail: Mais de 4 oficinas especializadas
+  - value: 120,000+
+    label: Capacidade SUP anual
+    detail: SUP insufláveis, cerca de 10,000/mês
+  - value: 350+
+    label: Profissionais
+    detail: Mais de 25 engenheiros, 2 turnos/dia
+  - value: 50+
+    label: Países de exportação
+    detail: UE, EUA, AU, Médio Oriente, Ásia
+  - value: 25–35
+    label: Prazo de entrega padrão (dias)
+    detail: Após PO e sinal confirmados
+  - value: 10+
+    label: Anos de experiência em exportação
+    detail: Desde 2012
+
+workshops:
+  - title: Produção SUP
+    description: '4 linhas de montagem automatizadas para SUP insufláveis com uma produção combinada de cerca de 10,000 pranchas por mês. As estações de impressão digital e serigrafia operam em paralelo. Capacidade SUP anual: mais de 120,000 pranchas.'
+    output: '120,000+ SUP/ano'
+  - title: Produção SUP — linhas de expansão
+    description: 'Linhas de montagem automatizadas adicionais para SUP, ativadas assim que os volumes crescem. A colagem do núcleo drop-stitch, a impressão digital e as estações de montagem operam em paralelo.'
+    output: 'Parte da capacidade anual de mais de 120,000 SUP'
+  - title: Acessórios SUP & montagem mista
+    description: 'Linhas de montagem multifuncionais para acessórios SUP — pás, aletas, leashes, bolsas e kits. As estações de soldadura a ar quente, as prensas dieletricas HF e os bancos de montagem são reconfigurados consoante o mix de encomendas. Capacidade anual de acessórios: mais de 5,000 unidades.'
+    output: '5,000+ acessórios/ano'
+  - title: Equipamento de segurança
+    description: 'Área de produção separada em sala limpa para coletes salva-vidas e equipamento de segurança. Estações dedicadas de costura, inserção de espuma e ensaio. Capacidade anual de coletes salva-vidas: mais de 50,000 unidades.'
+    output: '50,000+ coletes salva-vidas/ano'
+
+oem_capacity:
+  moq: 'SUP: amostra 1–2 | piloto 20–50 | quantidade 90–100+ (por bobina de 150 m)'
+  lead_time: 'Padrão 25–35 dias. Amostras 7–12 dias. Expresso disponível.'
+  payment: 'T/T 30% sinal + 70% saldo. L/C, Western Union aceites.'
+
+lead_time_explainer:
+  tagline: 'Planeamento & programação'
+  title: 'Como a capacidade se traduz na tua entrega'
+  subtitle: 'A capacidade não é um número único — eis como os prazos de entrega são realmente atribuídos.'
+  items:
+    - title: 'A capacidade varia com a tua especificação'
+      body: 'Os slots disponíveis mudam com o tipo de prancha, a complexidade da construção, a embalagem e a procura sazonal. Durante o build-up de primavera/verão as linhas correm quase a plena capacidade e os slots para amostras esgotam-se em primeiro lugar.'
+    - title: 'Planeia antes da tua estação de lançamento'
+      body: 'Define antecipadamente a confirmação da amostra e o freeze gráfico. As encomendas de repetição são programadas no teu slot de repetição acordado assim que o golden sample é arquivado.'
+    - title: 'Três vias de programação'
+      body: 'As amostras entram primeiro na linha de protótipos, as encomendas iniciais caem na próxima janela de montagem livre e as encomendas de repetição correm no seu slot de repetição.'
+    - title: 'Prazos de entrega vinculativos após verificação'
+      body: 'Confirmamos um prazo de entrega vinculativo apenas depois de a especificação, as gráficas, a embalagem e a quantidade serem verificadas — nunca como promessa fixa antecipada.'
+
+cta:
+  title: 'Verifica a disponibilidade produtiva para a tua data de lançamento'
+  subtitle: 'Envia o tipo de prancha, a quantidade e a data de envio alvo — respondemos com a próxima janela produtiva livre e uma estimativa de entrega vinculativa.'
+  actions:
+    - variant: primary
+      text: Verifica a disponibilidade
+      href: /contact#production-availability
+    - text: Ver a panorâmica completa da fábrica
+      href: /factory
+    - text: Como são construídas as pranchas
+      href: /factory/process

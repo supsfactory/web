@@ -1906,6 +1906,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Parliamo del vostro programma SUP per la scuola',
     },
   ],
+  pt: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Produção SUP personalizada',
+      metaTitle: 'Desenvolvimento SUP personalizado | Soluções para paddle boards personalizadas',
+      metaDescription:
+        'Desenvolva produtos SUP personalizados com a SUPsfactory. Apoiamos requisitos de produto, personalização, protótipos e produção para empresas e organizações.',
+      kicker: 'Fabricante de SUP personalizado',
+      serviceType: 'Desenvolvimento de produtos SUP personalizados',
+      answer:
+        'Desenvolvemos SUP insufláveis, pranchas rígidas e acessórios de acordo com os teus requisitos — forma, gráficas, materiais e embalagem — desde o design até às amostras e à produção. Os projetos personalizados partem de 90–100+ peças por rolo de 150 m (volume); enviamos as amostras em 7–12 dias e a produção requer 25–35 dias após confirmação do pedido e do depósito.',
+      h1: 'Produtos SUP personalizados de acordo com os teus requisitos',
+      intro: [
+        'Precisas de paddle boards construídas segundo as tuas especificações — forma, gráficas, materiais, embalagem — sem ter de gerir uma fábrica. Somos o parceiro de produção que recebe a tua necessidade e te entrega um produto pronto.',
+        'Cada projeto é acompanhado por um especialista dedicado que gere o design, as amostras, a produção e a entrega, para saberes sempre em que ponto está o teu pedido.',
+      ],
+      scenario: {
+        title: 'Precisas de pranchas segundo as tuas especificações',
+        body: 'Um requisito de produto — não um produto de catálogo. As tuas preferências de forma, as tuas gráficas, o teu nível de qualidade, a tua embalagem. Projetamos, produzimos as amostras e fabricamos em plataformas comprovadas, com flexibilidade desde o primeiro lote pequeno.',
+      },
+      pairs: [
+        {
+          problem: 'Os catálogos das fábricas oferecem apenas designs padrão que não podes alterar.',
+          solution: 'Produzimos pranchas personalizadas com as tuas formas, gráficas e especificações — desde a primeira amostra até à produção em série completa.',
+        },
+        {
+          problem: 'Ordens mínimas altas obrigam-te a ter stock antes de o mercado estar validado.',
+          solution: 'A produção personalizada em volume parte de 90–100+ peças por design, enquanto as produções piloto em plataformas existentes partem de 20–50 peças — os primeiros lotes continuam pequenos e o preço unitário continua justo.',
+        },
+        {
+          problem: 'Não tens uma equipa de design ou engenharia ao teu lado.',
+          solution: 'A nossa equipa interna de design e engenharia transforma uma ideia, um esboço ou uma prancha de referência em desenhos prontos para produção.',
+        },
+        {
+          problem: 'Qualidade de fábrica desconhecida e comunicação lenta.',
+          solution: 'Um especialista do projeto acompanha as amostras, as etapas de controlo de qualidade e os prazos de entrega do início ao fim — um único interlocutor e atualizações claras.',
+        },
+      ],
+      steps: [
+        { title: 'Envia o projeto', body: 'Comunica os teus requisitos ou envia esboços e imagens de referência.' },
+        { title: 'Design e amostra', body: 'Desenvolvemos os desenhos e enviamos uma amostra física em 7–12 dias.' },
+        { title: 'Aprovação e produção', body: 'Após a tua aprovação, a produção requer 25–35 dias com controlo de qualidade em vários pontos.' },
+        { title: 'Entrega e reencomenda', body: 'Exportação mundial com embalagem profissional, além de apoio nas reencomendas com qualidade constante.' },
+      ],
+      caseStudy: {
+        title: 'Extensão de gama de uma marca outdoor',
+        body: 'Uma marca de equipamento outdoor entrou no mundo do paddling com uma prancha touring com a marca. Desenvolvemos a prancha a partir de um esboço aproximado, obtivemos a aprovação da amostra em 15 dias e produzimos a primeira série em 25–35 dias.',
+        tags: ['Desenvolvimento da prancha', 'Gráficas com a marca', 'Primeira produção em série'],
+      },
+      faqs: [
+        {
+          q: 'Podem desenvolver um produto SUP a partir da minha ideia?',
+          a: 'Sim. Ajudamos-te a avaliar os teus requisitos e a desenvolver uma solução pronta para produção — desde o conceito e os desenhos até à amostra física.',
+        },
+        {
+          q: 'Posso personalizar as gráficas e as cores do SUP?',
+          a: 'Sim. Gráficas, cores e elementos de branding personalizados podem ser desenvolvidos de acordo com os requisitos do projeto.',
+        },
+        {
+          q: 'Qual é a quantidade mínima de encomenda para a produção SUP personalizada?',
+          a: 'A produção personalizada em volume parte de 90–100+ peças por design, com produções piloto de 20–50 peças em plataformas existentes. Quantidades maiores garantem melhores preços unitários e as reencomendas mantêm os teus moldes e designs.',
+        },
+        {
+          q: 'O que se pode personalizar numa prancha?',
+          a: 'Forma e dimensões, construção e materiais, gráficas e logótipos, layout do pad EVA, acessórios (pá, bomba, bolsa) e embalagem.',
+        },
+        {
+          q: 'Fornecem amostras antes da produção?',
+          a: 'Sim: antes de cada série é produzida e aprovada uma amostra física. O tempo de amostragem é normalmente de 7–12 dias.',
+        },
+        {
+          q: 'Podem trabalhar apenas com os meus ativos de marca, sem uma equipa de design completa?',
+          a: 'Sim. A nossa equipa de design desenvolve gráficas prontas para produção a partir do teu logótipo, das cores da marca ou de um conceito aproximado.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Fala connosco do teu projeto SUP personalizado',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'Paddle boards private label',
+      metaTitle: 'Produção SUP private label | Produção SUP personalizada',
+      metaDescription:
+        'A SUPsfactory apoia a produção SUP private label para marcas existentes, ajudando a desenvolver produtos SUP personalizados das especificações até à produção.',
+      kicker: 'Paddle boards private label',
+      serviceType: 'Produção SUP private label',
+      answer:
+        'O private label coloca a tua marca em plataformas SUP comprovadas e prontas para produção, sem novos moldes. Escolhe um modelo base, aplica o logótipo, as cores, a embalagem e os acessórios e encomenda a partir de 90–100+ peças por rolo de 150 m (volume). É a forma mais rápida e de menor risco para arrancar; as amostras requerem 7–12 dias e a produção 25–35 dias após o pedido.',
+      h1: 'Produção SUP private label para a tua marca',
+      intro: [
+        'A produção private label permite-te lançar uma linha de paddle boards com a tua marca sem investir em moldes ou numa fábrica. Logótipo, cores e embalagem são aplicados em plataformas certificadas pela qualidade, com quantidades que crescem com a procura.',
+        'Nós tratamos do lado do produto, para te focares na marca: design, embalagem e gestão das reencomendas ficam a nosso cargo.',
+      ],
+      scenario: {
+        title: 'Tens uma marca — e precisas de um produto que a represente',
+        body: 'Uma identidade de marca sem armazém. Queres uma linha de paddle boards vendável em teu nome, numa quantidade adequada à tua fase — do primeiro lote de validação até às frotas recorrentes.',
+      },
+      pairs: [
+        {
+          problem: 'O branding só num autocolante — o produto continua a parecer genérico.',
+          solution: 'Integração completa da marca: gráficas na prancha, logótipo, layout do pad EVA, pá com a marca, bomba, bolsa e embalagem.',
+        },
+        {
+          problem: 'As primeiras encomendas obrigam-te a comprar centenas de unidades que talvez não vendas.',
+          solution: 'Começa com um lote piloto de 20–50 unidades numa plataforma padrão e depois escala para a produção padrão em volume a partir de 90–100+ peças — valida o mercado antes de encomendas grandes.',
+        },
+        {
+          problem: 'A criação de design e embalagem parece fora do teu alcance.',
+          solution: 'Os teus ativos de marca são transformados pela nossa equipa de design em gráficas para a prancha e embalagem prontas para produção.',
+        },
+        {
+          problem: 'As reencomendas variam em qualidade ou disponibilidade.',
+          solution: 'Os moldes e os designs continuam a ser teus, e as reencomendas são produzidas nas mesmas plataformas certificadas com qualidade constante.',
+        },
+      ],
+      steps: [
+        { title: 'Partilha a marca', body: 'Envia o teu logótipo, as cores e os ativos de marca existentes.' },
+        { title: 'Desenvolvimento das gráficas', body: 'Projetamos as gráficas da prancha, o layout EVA e a embalagem em torno da tua marca.' },
+        { title: 'Aprovação da amostra', body: 'Uma amostra física confirma as cores, o acabamento e a embalagem.' },
+        { title: 'Produção e entrega', body: 'A produção segue as tuas quantidades, com controlo de qualidade e exportação totalmente geridos por nós.' },
+      ],
+      caseStudy: {
+        title: 'Nova marca, primeira encomenda de produção',
+        body: 'Um retalhista de desporto lançou a sua linha de paddle boards partindo apenas de um logótipo. Desenvolvemos todas as gráficas da prancha e da embalagem, produzimos uma primeira partida de 50 peças para o teste de mercado e escalámos até a uma encomenda de produção completa dentro de uma época.',
+        tags: ['Desenvolvimento da marca', 'Design da embalagem', 'Produção escalada'],
+      },
+      faqs: [
+        {
+          q: 'O que é a produção SUP private label?',
+          a: 'A produção SUP private label permite às empresas vender produtos SUP com a sua própria marca, com especificações personalizadas e apoio à produção.',
+        },
+        {
+          q: 'As marcas existentes podem desenvolver novos produtos SUP?',
+          a: 'Sim. A SUPsfactory apoia marcas que querem entrar no segmento SUP — seleção do produto, adequação das especificações, gráficas personalizadas e produção.',
+        },
+        {
+          q: 'O que inclui um programa SUP private label?',
+          a: 'A tua marca na própria prancha — gráficas, logótipo, pad EVA — mais pá, bomba, mochila e embalagem com a marca, tudo opcional: um produto completo e vendável em teu nome.',
+        },
+        {
+          q: 'O design pode ser alterado entre encomendas?',
+          a: 'Sim. Assim que os ativos de marca estão prontos para produção, as reencomendas podem atualizar gráficas, cores ou embalagem em qualquer altura.',
+        },
+        {
+          q: 'Temos apenas um logótipo. Podem ajudar-nos à mesma?',
+          a: 'Sim. A nossa equipa de design desenvolve todas as gráficas da prancha e da embalagem a partir do teu logótipo e das cores da marca.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Fala connosco do teu projeto private label',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'Paddle boards para resorts',
+      metaTitle: 'Equipamento SUP para resorts | Pranchas com a marca',
+      metaDescription:
+        'Cria equipamento SUP personalizado para resorts e hotéis com pranchas com a marca, acessórios e apoio à produção da SUPsfactory.',
+      kicker: 'Paddle boards para resorts',
+      serviceType: 'Equipamento SUP para resorts e hotéis',
+      answer:
+        'Fornecemos SUP insufláveis com a marca para resorts e hotéis, concebidos para o uso diário dos hóspedes: construção drop-stitch de alta pressão, costuras reforçadas e MOQ escalonados de 20–50 unidades piloto até 90–100+ para o lançamento das frotas. As pranchas levam o teu logótipo e as tuas cores, e aconselhamos sobre armazenamento, manutenção e planeamento das reencomendas.',
+      h1: 'Soluções SUP personalizadas para resorts e hotéis',
+      intro: [
+        'As frotas de paddle boards num resort têm de aguentar o uso diário dos hóspedes, ser fáceis de armazenar entre épocas e levar a tua marca. Construímos pranchas robustas e adequadas aos hóspedes nas tuas cores e estruturamos o programa de frota em função da tua atividade.',
+        'As quantidades são definidas com base nos padrões reais de utilização, não por estimativa — e os programas de reencomenda mantêm a frota atualizada época após época.',
+      ],
+      scenario: {
+        title: 'Geris atividades aquáticas para os hóspedes',
+        body: 'Os hóspedes esperam uma experiência inesquecível na água e o equipamento representa o teu espaço. Precisas de pranchas suficientemente robustas para o aluguer diário, fáceis de armazenar e em sintonia com a imagem do resort.',
+      },
+      pairs: [
+        {
+          problem: 'As frotas para os hóspedes desgastam-se depressa com o aluguer diário.',
+          solution: 'Construção adequada ao aluguer, com rails reforçados e materiais resistentes aos raios UV, concebida para o uso repetido.',
+        },
+        {
+          problem: 'O espaço de armazenamento fora de época é limitado.',
+          solution: 'Opções insufláveis fáceis de guardar, que no fim da época cabem num armário.',
+        },
+        {
+          problem: 'O equipamento parece genérico, não representa o teu espaço.',
+          solution: 'Gráficas de toda a cobertura, logótipos e branding EVA nas cores do teu resort — incluindo acessórios com a marca.',
+        },
+        {
+          problem: 'A substituição e a renovação da frota acontecem sem coordenação.',
+          solution: 'Um programa de reencomenda da frota com qualidade constante, apoio nas peças sobresselentes e aconselhamento honesto sobre as quantidades.',
+        },
+      ],
+      steps: [
+        { title: 'Descreve a tua atividade', body: 'Volume de hóspedes, zona costeira, armazenamento e duração da época.' },
+        { title: 'Recebe um plano de frota', body: 'Aconselhamos sobre tipos de prancha e quantidades com base nos padrões de utilização.' },
+        { title: 'Aprovação da amostra com a marca', body: 'As tuas cores e o teu logótipo confirmados numa prancha física.' },
+        { title: 'Receção e manutenção', body: 'Entrega, peças sobresselentes e um programa de reencomenda para as épocas futuras.' },
+      ],
+      caseStudy: {
+        title: 'Frota para hóspedes de um resort costeiro',
+        body: 'Um resort costeiro equipou o seu programa de praia com 40 pranchas insufláveis com a marca e as cores do resort, incluindo pás e bombas com a marca. Fora de época, as pranchas cabem num único armário e a frota foi renovada após a segunda época com qualidade constante.',
+        tags: ['Frota com a marca para os hóspedes', 'Armazenamento de pranchas insufláveis', 'Renovação sazonal'],
+      },
+      faqs: [
+        {
+          q: 'Os resorts podem personalizar o equipamento SUP com o seu logótipo?',
+          a: 'Sim. Os resorts podem personalizar gráficas, cores e acessórios de acordo com os requisitos do projeto — branding de toda a cobertura nas cores do teu espaço.',
+        },
+        {
+          q: 'Podem fornecer várias unidades SUP para a atividade de um resort?',
+          a: 'Sim. Podemos desenvolver soluções de produção de acordo com as necessidades da frota — desde a frota inicial até aos programas de renovação sazonal.',
+        },
+        {
+          q: 'De quantas pranchas precisa um resort?',
+          a: 'A maioria dos resorts começa com 20–50 pranchas e escala com base na procura. Aconselhamos as quantidades com base no volume de hóspedes e na zona costeira, não em sensações.',
+        },
+        {
+          q: 'As pranchas insufláveis são adequadas ao uso num resort?',
+          a: 'Sim. Os SUP insufláveis modernos são extremamente duráveis e muito mais fáceis de armazenar e transportar: a escolha mais comum para resorts com espaço de armazenamento limitado.',
+        },
+        {
+          q: 'A frota pode levar o nosso logótipo e as nossas cores?',
+          a: 'Sim: gráficas de toda a cobertura, impressão do logótipo, branding do pad EVA e acessórios com a marca fazem parte do programa de resort.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Pede uma solução SUP para o teu resort',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Pranchas de equipa personalizadas para clubes',
+      metaTitle: 'Equipamento SUP para clubes e equipas',
+      metaDescription:
+        'A SUPsfactory oferece soluções de equipamento SUP personalizado para clubes, equipas e eventos — incluindo gráficas, especificações e apoio à produção.',
+      kicker: 'Pranchas de equipa personalizadas para clubes',
+      serviceType: 'Equipamento SUP para clubes e equipas',
+      answer:
+        'Os clubes e as equipas obtêm frotas duradouras e coerentes nas suas cores: posicionamento do logótipo, comprimentos de pá personalizados e pacotes de acessórios sobre uma especificação de prancha padronizada, para que as reparações e as peças sobresselentes continuem simples também nas reencomendas. O MOQ parte de 90–100+ peças (volume); estão disponíveis produções piloto de 20–50 unidades para validar primeiro a especificação.',
+      h1: 'Equipamento SUP personalizado para clubes e equipas',
+      intro: [
+        'Os clubes de paddling precisam de pranchas que aguentem o treino diário, tenham o aspeto da equipa e continuem coerentes entre reencomendas. Produzimos pranchas de equipa personalizadas com o nome e as cores do teu clube em condições vantajosas para as frotas.',
+        'Os programas para clubes incluem também o lado prático: peças sobresselentes, indicações para as reparações e apoio nas reencomendas com a mesma qualidade.',
+      ],
+      scenario: {
+        title: 'O teu clube organiza treinos e sessões de equipa',
+        body: 'As pranchas são usadas todos os dias pelos sócios e representam o clube em eventos e regatas. Queres equipamento de equipa duradouro com o branding do clube, sem ter de gerir tu próprio a relação com a fábrica.',
+      },
+      pairs: [
+        {
+          problem: 'As pranchas de treino são usadas muito e repetidamente.',
+          solution: 'Construção reforçada para o uso profissional diário, com indicações para as reparações e apoio nas peças sobresselentes.',
+        },
+        {
+          problem: 'As frotas parecem díspares e sem branding.',
+          solution: 'Nome do clube, cores e logótipo em cada prancha para uma frota de equipa uniforme.',
+        },
+        {
+          problem: 'Expandir a frota significa procurar stock compatível.',
+          solution: 'As reencomendas são produzidas nas mesmas plataformas certificadas, para que as novas pranchas correspondam às existentes.',
+        },
+        {
+          problem: 'Os orçamentos para as frotas são limitados.',
+          solution: 'Preços de frota e um interlocutor dedicado para reencomendas, peças sobresselentes e questões de manutenção.',
+        },
+      ],
+      steps: [
+        { title: 'Fala-nos do clube', body: 'Número de sócios, tipos de sessões e equipamento atual.' },
+        { title: 'Escolhe os tipos de prancha', body: 'Formas de treino, para principiantes e de equipa, em sintonia com o teu programa.' },
+        { title: 'Adiciona o branding do clube', body: 'Nome, cores e logótipo nas pranchas e nos acessórios.' },
+        { title: 'Encomenda e cresce', body: 'Fornecimento da frota, peças sobresselentes e reencomendas coerentes.' },
+      ],
+      caseStudy: {
+        title: 'Renovação da frota de um clube',
+        body: 'Um clube de paddling renovou a sua imagem com 25 pranchas de treino com a marca e peças sobresselentes. Os sócios treinam em equipamento uniforme e o clube expandiu a frota na época seguinte com uma reencomenda idêntica.',
+        tags: ['Branding do clube', 'Renovação da frota', 'Apoio em peças sobresselentes'],
+      },
+      faqs: [
+        {
+          q: 'Os clubes de SUP podem personalizar as pranchas de equipa?',
+          a: 'Sim. Os clubes podem personalizar gráficas, cores e configurações do produto — nome do clube, cores e logótipo em cada prancha.',
+        },
+        {
+          q: 'Apoiam a produção SUP ligada a eventos?',
+          a: 'Sim. O planeamento da produção pode ser desenvolvido de acordo com as necessidades do evento, incluindo pranchas de edição do evento e acessórios.',
+        },
+        {
+          q: 'Que pranchas são mais adequadas ao treino de um clube?',
+          a: 'Pranchas estáveis e duradouras, adequadas ao nível dos teus sócios — formas largas para principiantes nas aulas e formas touring para o treino de distância.',
+        },
+        {
+          q: 'Oferecem preços de frota para clubes?',
+          a: 'Sim: descontos de volume para as frotas dos clubes, com um interlocutor dedicado para reencomendas, peças sobresselentes e questões de manutenção.',
+        },
+        {
+          q: 'As pranchas danificadas podem ser reparadas ou substituídas?',
+          a: 'Fornecemos peças sobresselentes, indicações para as reparações e apoio nas reencomendas, para que a frota se mantenha coerente.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Fala connosco do teu projeto SUP para clube',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'Programa SUP para escolas',
+      metaTitle: 'Equipamento SUP para escolas | Paddle boards personalizadas para o ensino',
+      metaDescription:
+        'Soluções de equipamento SUP seguras e fiáveis para escolas, campos e organizações, com apoio à produção personalizada da SUPsfactory.',
+      kicker: 'Programa SUP para escolas',
+      serviceType: 'Equipamento SUP para escolas e programas',
+      answer:
+        'Para escolas e programas educativos fornecemos pranchas estáveis e adequadas a principiantes, com indicações de segurança impressas, pás almofadadas e acessórios de proteção, calibradas para as dimensões das tuas turmas e para o armazenamento. A partida padrão em volume é de 90–100+ peças por rolo de 150 m, com produções piloto de 20–50 unidades; os prazos seguem o ciclo de aquisição das escolas.',
+      h1: 'Soluções SUP seguras e fiáveis para escolas e programas',
+      intro: [
+        'As escolas abordam o paddling de forma diferente: turmas numerosas, níveis de aptidão mistos, requisitos de segurança rigorosos e orçamentos do ensino. O nosso programa escolar oferece pranchas estáveis e adequadas a principiantes, opções de pacote em linha com a dimensão das turmas e aconselhamento com a perspetiva dos instrutores.',
+        'O fornecimento em volume e o apoio nas reencomendas mantêm o equipamento disponível ano após ano para as novas turmas de estudantes.',
+      ],
+      scenario: {
+        title: 'Ensinas paddling aos estudantes',
+        body: 'As turmas são numerosas e os níveis de aptidão variam. Precisas de pranchas estáveis e seguras para principiantes, quantidades em linha com a dimensão das turmas e um programa de fornecimento adequado ao orçamento escolar e ao ciclo de aquisição.',
+      },
+      pairs: [
+        {
+          problem: 'Os estudantes precisam do máximo de estabilidade na água.',
+          solution: 'Pranchas de principiante largas e volumosas e pranchas multi-lugar, concebidas para serem tolerantes com os principiantes.',
+        },
+        {
+          problem: 'A dimensão das turmas exige equipamento coerente em grandes quantidades.',
+          solution: 'Preços de programa para as quantidades das turmas, com qualidade idêntica em cada prancha.',
+        },
+        {
+          problem: 'Os instrutores gerem a segurança com apoio limitado.',
+          solution: 'As pranchas são fornecidas com instruções de utilização claras e aconselhamos-te sobre quantidades e disposição para a tua zona aquática.',
+        },
+        {
+          problem: 'O equipamento tem de aguentar várias turmas de estudantes.',
+          solution: 'Construção reforçada, além de peças sobresselentes e apoio nas reencomendas, para uma longa duração do programa.',
+        },
+      ],
+      steps: [
+        { title: 'Partilha o programa', body: 'Dimensões das turmas, zona aquática, organização dos instrutores e ciclo de orçamento.' },
+        { title: 'Constrói o pacote', body: 'Tipos de prancha e quantidades escolhidos para o ensino, não por estimativa.' },
+        { title: 'Aprovação da amostra', body: 'Verifica a estabilidade, a construção e o acabamento numa prancha física.' },
+        { title: 'Entrega e renovação', body: 'Fornecimento em volume, peças sobresselentes e reencomendas para as novas turmas.' },
+      ],
+      caseStudy: {
+        title: 'Programa escolar de desportos aquáticos',
+        body: 'Uma escola lançou um curso opcional de paddling com uma frota de 15 pranchas para principiantes e pranchas multi-lugar para as primeiras aulas. Os instrutores registaram progressos mais rápidos logo na primeira sessão graças às plataformas estáveis, e o programa renovou o equipamento no ano seguinte com uma reencomenda idêntica.',
+        tags: ['Frota para principiantes', 'Arranque do programa', 'Encomendas de renovação'],
+      },
+      faqs: [
+        {
+          q: 'Qual é o equipamento SUP adequado às escolas?',
+          a: 'A escolha depende da idade dos utilizadores, do ambiente de utilização e dos requisitos do programa — as pranchas largas e estáveis são a escolha padrão para o ensino.',
+        },
+        {
+          q: 'As escolas podem personalizar o equipamento SUP?',
+          a: 'Sim. As escolas podem personalizar gráficas, cores e pacotes de equipamento de acordo com o seu programa.',
+        },
+        {
+          q: 'Que pranchas são mais adequadas às aulas de SUP escolares?',
+          a: 'As pranchas largas e estáveis para principiantes e as pranchas multi-lugar são ideais: o volume torna-as adequadas aos principiantes e estáveis mesmo com vários riders.',
+        },
+        {
+          q: 'As quantidades podem ser adaptadas às dimensões das nossas turmas?',
+          a: 'Sim: as condições do programa são construídas sobre as quantidades das turmas e aconselhamos os números com base na tua zona aquática e na rotação.',
+        },
+        {
+          q: 'Trabalham com os calendários de aquisição das escolas?',
+          a: 'Sim. Planeamos os tempos de amostragem e de produção em torno dos ciclos de orçamento e de época das escolas.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Fala connosco do teu programa SUP para a escola',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

@@ -1,0 +1,74 @@
+meta:
+  title: 'Produção OEM & marca própria | {SITE}'
+  description: 'Do conceito à produção: personaliza cada detalhe da tua linha de SUP insufláveis. Serviço OEM/ODM completo para marcas de paddle board private label.'
+  dateModified: '2026-08'
+  keywords:
+    - 'produção sup oem'
+    - 'paddle board private label'
+    - 'sup insuflável oem'
+    - 'fábrica sup personalizada'
+hero:
+  tagline: Produção OEM/ODM
+  title: Produção OEM & marca própria
+  subtitle: Do conceito à produção — personaliza cada detalhe da tua linha de SUP insufláveis
+
+answer:
+  label: 'Resposta clara'
+  text: 'O MOQ é confirmado com base na configuração do projeto e não com um número fixo: cada projeto passa pelas fases de amostra (1–2 unidades) e piloto (20–50 unidades), enquanto a produção padrão em série inclui 90–100+ unidades por partida de uma bobina drop-stitch inteira de 150 m. As amostras estão prontas em 7–12 dias; a produção padrão corre em 25–35 dias após PO e sinal confirmados.'
+  verified: 'September 2026'
+
+intro: A Vatrad oferece serviços OEM e ODM completos a marcas, distribuidores e instituições em todo o mundo. Com mais de 10 anos de experiência em exportação e uma fábrica de 12,500 m² certificada ISO 9001 e BSCI, tratamos de tudo — do design do produto e o desenvolvimento de moldes até à produção em larga escala, à embalagem e à gestão da exportação.
+
+highlight:
+  - value: 10+
+    label: Anos de experiência OEM
+    detail: Desde 2012
+  - value: 50+
+    label: Países de exportação
+    detail: Cobertura global
+  - value: 200+
+    label: Projetos personalizados entregues
+    detail: Em todas as linhas de produto
+  - value: 25–35
+    label: Prazo de entrega padrão (dias)
+    detail: Após PO e sinal confirmados
+
+services:
+  - title: Design de produto & construção
+    description: A nossa equipa de I&D interna trabalha no teu conceito ou especificação para desenvolver desenhos CAD, modelos 3D e protótipos. Oferecemos design de moldes, otimização da forma do casco e consultoria na escolha de materiais.
+  - title: Branding & gráficas personalizadas
+    description: Impressão digital a cores plenas, serigrafia, gofragem e opções de etiquetas. Desenvolvemos gráficas de deck específicas da marca, branding das câmaras e embalagem pronta para o retalho.
+  - title: Personalização de materiais & especificações
+    description: Escolhe entre PVC (padrão, eco-friendly, ignífugo), Hypalon/CSM, drop-stitch e construções híbridas. Cores de câmaras personalizadas, gramagens de tecido e opções de reforço.
+  - title: Embalagem & logística
+    description: Embalagem comercial personalizada, cartões private label, embalagem a vácuo, paletização e estiva pronta para a exportação preparados internamente.
+
+moq_table:
+  - product: SUP insufláveis
+    standard_moq: 'Amostra 1–2 | Piloto 20–50'
+    custom_moq: 'Quantidade 90–100+ (por bobina de 150 m)'
+    lead_time: 25–35 dias
+
+why_us:
+  - title: Integração vertical
+    description: Somos donos da nossa fábrica, dos nossos moldes e da nossa cadeia de abastecimento — sem intermediários, sem subcontratados. Isto dá-nos o controlo sobre a qualidade, os custos e a entrega.
+  - title: Dupla certificação
+    description: Gestão da qualidade ISO 9001 e certificação de conformidade social BSCI. Relatórios de auditoria da fábrica disponíveis mediante pedido.
+  - title: Conformidade CE
+    description: A certificação CE aplica-se aos modelos destinados aos mercados da UE (âmbito confirmado por projeto). Os modelos personalizados podem ser certificados CE através do nosso processo consolidado.
+  - title: MOQ específico por projeto
+    description: 'O MOQ é confirmado pela tua configuração de projeto — o co-branding em pequenos lotes começa nas 5–10 unidades, a produção padrão em série corre com 90–100+ unidades por partida. Ajudamos as novas marcas a começar sem excesso de stock.'
+
+cta:
+  title: 'Coloca a tua marca numa prancha testada'
+  subtitle: 'Da verificação da especificação ao contentor expedido — envia hoje o teu briefing e receberás uma proposta OEM detalhada num dia útil. Verifica a fábrica e o seu sistema de qualidade antes de te comprometeres.'
+  actions:
+    - variant: primary
+      text: Solicitar uma proposta OEM
+      href: /contact#custom-oem
+    - text: Verificar fábrica & sistema de qualidade
+      href: /oem-trust-assurance
+    - text: O sistema de inspeção em 7 fases
+      href: /quality
+    - text: Ver a linha de produção
+      href: /factory/process

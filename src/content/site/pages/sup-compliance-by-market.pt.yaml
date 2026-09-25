@@ -1,0 +1,100 @@
+meta:
+  title: 'Conformidade SUP por mercado — Requisitos CE, REACH, RoHS, BSCI, ISO 9001 | SUPsfactory'
+  description: 'Guia de conformidade para pranchas SUP insufláveis por mercado: CE (UE), CPSIA (EUA), AS/NZS (AU), ISO 9001, BSCI, REACH e RoHS — âmbito e documentos para cada mercado.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'Conformidade SUP por mercado'
+    - 'Certificação CE SUP'
+    - 'Regulamentos para SUP insufláveis'
+    - 'Conformidade REACH SUP'
+    - 'Conformidade RoHS SUP'
+    - 'Audit BSCI de fábrica SUP'
+    - 'Produtor SUP ISO 9001'
+
+hero:
+  tagline: 'Guia de conformidade'
+  title: 'Conformidade SUP por mercado'
+  subtitle: 'Cada mercado-alvo tem os seus próprios requisitos de certificação, marcação e documentação. Este guia mapeia o panorama da conformidade para as pranchas SUP insufláveis nos principais mercados — UE, América do Norte, Austrália e além — para que possas definir o âmbito correto no momento do pedido de proposta e não apenas após a produção.'
+
+answer:
+  label: 'Resposta breve'
+  text: 'Para a UE: a marcação CE é obrigatória para as pranchas vendidas no Espaço Económico Europeu — certificamos os modelos para o mercado UE, o âmbito é confirmado por projeto. Para os EUA: regulamentos CPSIA e VOC a nível estadual. Para a Austrália: conformidade segundo a AS/NZS 1586. Para todos os mercados valem: ISO 9001 (fábrica), BSCI (audit social), REACH e RoHS (materiais) padrão em toda a nossa produção, independentemente do destino. Âmbito e custos de conformidade são detalhados na tua proposta — nenhuma surpresa após a produção.'
+  verified: 'September 2026'
+
+market_cards:
+  tagline: Requisitos por região
+  title: 'Requisitos de conformidade por mercado-alvo'
+  subtitle: 'O âmbito de certificação é confirmado por projeto durante a verificação de viabilidade. Em seguida, os requisitos típicos por mercado.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'União Europeia'
+      desc: 'Marcação CE obrigatória. REACH (segurança química), RoHS (substâncias sujeitas a restrições), certificação de fábrica ISO 9001. Verificações específicas do produto segundo a diretiva EPI ou embarcações de recreio, sempre que aplicável. Marcação na língua oficial do país de destino. Audit social BSCI disponível.'
+    - icon: US
+      icon_bg: green
+      title: 'Estados Unidos'
+      desc: 'Conformidade CPSIA (segurança dos produtos de consumo). Prop 65 da Califórnia e regulamentos VOC a nível estadual para as emissões de PVC e adesivos. Nenhum equivalente federal da CE. Provas ASTM mediante pedido. Requisitos de rotulagem FTC para país de origem e composição dos materiais.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Austrália & Nova Zelândia'
+      desc: 'AS/NZS 1586 para embarcações insufláveis. Garantias nos termos do direito australiano do consumidor. Documentação de importação e avaliação de conformidade segundo os requisitos da autoridade de fronteira australiana. Documentação sobre segurança química equivalente a REACH. Audit social BSCI disponível.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Global / Multi-mercado'
+      desc: 'Certificação de fábrica ISO 9001:2015 (audit anual). Audit social BSCI. Conformidade dos materiais REACH e RoHS em toda a produção, independentemente do destino. Rastreabilidade dos lotes e relatórios de prova disponíveis para cada mercado. Âmbito de certificação individual confirmado por projeto.'
+
+certifications_detail:
+  heading: 'O nosso âmbito de certificação'
+  body: |
+    As seguintes certificações são mantidas na nossa produção ou estão disponíveis. O âmbito de certificação específico para o teu projeto será confirmado durante a verificação de viabilidade e detalhado na tua proposta.
+
+    - **ISO 9001:2015** — Sistema de gestão da qualidade da fábrica, audit anual por uma terceira parte acreditada. Cobre todo o processo produtivo, da verificação à entrada das mercadorias ao acondicionamento final.
+    - **Marcação CE** — aplicada aos modelos para o mercado UE. Verificação e documentação segundo a diretiva UE aplicável. Âmbito confirmado por projeto — nem todos os modelos exigem o mesmo âmbito CE.
+    - **BSCI** — Audit da Business Social Compliance Initiative. Cobre os direitos dos trabalhadores, a segurança no trabalho, a conformidade ambiental e a ética empresarial. Disponível para todos os mercados.
+    - **REACH** — Regulamento UE de segurança química. Todos os materiais em PVC, adesivos e revestimentos são conformes a REACH. Documentação das substâncias e relatórios de prova por lote disponíveis.
+    - **RoHS** — Restrição de substâncias perigosas. Todos os acessórios eletrónicos (bombas com motor, acessórios LED) são conformes a RoHS. Os materiais das pranchas são conformes por natureza.
+
+compliance_process:
+  tagline: Como funciona a conformidade na tua encomenda
+  title: 'A conformidade no processo de onboarding'
+  subtitle: 'A conformidade não é um extra — está integrada em cada gate do processo de onboarding.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Gate 1: confirmação do âmbito'
+      desc: 'No momento do pedido defines os mercados-alvo. Confirmamos quais certificações, provas e documentos se aplicam ao teu produto específico e ao teu destino. Âmbito de conformidade e eventuais custos são detalhados na proposta.'
+    - icon: 2
+      icon_bg: green
+      title: 'Gate 3: certificação das amostras'
+      desc: 'As amostras são produzidas segundo o âmbito de conformidade confirmado. Para os testes de laboratório de terceiros (CE, CPSIA, AS/NZS) coordenamos as provas através de laboratórios acreditados. Os relatórios de prova são fornecidos juntamente com a amostra.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Gate 7: pacote documental'
+      desc: 'Cada encomenda de produção é enviada com um pacote documental de conformidade: atestados de conformidade, relatórios de prova, registos de rastreabilidade dos lotes, dados de segurança dos materiais e conformidade da marcação. A documentação é específica por mercado.'
+
+faqs:
+  tagline: FAQ
+  title: 'Conformidade SUP — Perguntas frequentes'
+  items:
+    - q: 'Todas as pranchas SUP exigem a marcação CE?'
+      a: 'A marcação CE é exigida apenas para as pranchas vendidas no Espaço Económico Europeu. Certificamos os modelos para o mercado UE com âmbito confirmado por projeto. As pranchas destinadas a mercados extra-UE não transportam a marcação CE, a menos que a solicites explicitamente.'
+    - q: 'Os vossos materiais são conformes a REACH e RoHS?'
+      a: 'Sim. Todos os materiais em PVC, adesivos e revestimentos são conformes a REACH. Todos os acessórios eletrónicos (bombas com motor, acessórios LED) são conformes a RoHS. Os materiais de construção das pranchas são conformes a RoHS por natureza. A documentação das substâncias e os relatórios de prova estão disponíveis por lote mediante pedido.'
+    - q: 'Conseguem gerir as certificações para um mercado não listado aqui?'
+      a: 'Sim. Já enviámos para mais de 50 países e podemos coordenar certificação e documentação para a maioria dos mercados. Comunica-nos o teu país de destino no momento do pedido e confirmaremos o âmbito de conformidade específico, além das eventuais provas ou documentos adicionais exigidos.'
+    - q: 'Como são geridos os custos de conformidade?'
+      a: 'Âmbito de conformidade e eventuais custos (testes de laboratório de terceiros, custos de certificação) são detalhados na tua proposta durante a verificação de viabilidade. Nenhum custo de conformidade após a produção. As certificações padrão (ISO 9001, BSCI) valem ao nível da fábrica e não geram custos unitários.'
+
+cta:
+  title: 'Define os teus requisitos de conformidade'
+  subtitle: 'Comunica-nos os teus mercados-alvo e confirmaremos o âmbito de certificação, os requisitos de prova e o pacote documental — detalhados na tua proposta.'
+  actions:
+    - variant: primary
+      text: Inicia o briefing de projeto
+      href: /pt/contact#project-brief
+    - text: Verifica certificações e sistema de qualidade
+      href: /pt/proof-center
+    - text: Processo de onboarding OEM
+      href: /pt/oem-onboarding-guide

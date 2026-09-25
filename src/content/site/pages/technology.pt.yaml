@@ -1,0 +1,46 @@
+meta:
+  title: 'Tecnologia — Drop-stitch & PVC marinho | {SITE}'
+  description: 'As tecnologias Vatrad: construção drop-stitch, PVC marinho, construções de dupla camada e alta pressão. Inovação de um produtor profissional de SUP insufláveis.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Tecnologia SUP'
+    - 'Construção drop-stitch'
+    - 'SUP de alta pressão'
+    - 'Materiais SUP insufláveis'
+
+hero:
+  tagline: 'Tecnologia'
+  title: 'Construída para as prestações'
+  subtitle: 'Cada SUP insuflável Vatrad é fabricado com construção drop-stitch e PVC marinho — materiais e métodos de produção de precisão, testados para ambientes marinhos exigentes.'
+
+sections:
+  - title: 'Núcleo drop-stitch'
+    description: 'Milhares de fios internos em poliéster ligam a camada superior e inferior, criando uma estrutura rígida a 12–15 PSI. É a mesma tecnologia utilizada nos paddleboards profissionais e nos SUP racing insufláveis.'
+    imageAlt: 'Diagrama do núcleo drop-stitch'
+  - title: 'PVC marinho'
+    description: 'Tecido em PVC laminado multicamada, projetado para ambientes marinhos. Cada camada é soldada e não colada, eliminando os riscos de delaminação. Testado para resistência aos raios UV, corrosão da água salgada e abrasão.'
+    imageAlt: 'Camada em PVC'
+  - title: 'PVC de qualidade militar'
+    description: 'O PVC premium utilizado em todos os modelos SUP oferece uma resistência superior aos raios UV e aos agentes químicos. Permanece flexível a temperaturas extremas e resiste ao envelhecimento.'
+    imageAlt: 'PVC'
+  - title: 'Air-Deck Floor'
+    description: 'Construção drop-stitch de ar comprimido para uma rigidez excecional em pé, na pesca e no yoga. Reduz os tempos de montagem, o peso global e o volume de arrumação.'
+    imageAlt: 'Air-Deck'
+
+related:
+  title: 'Tópicos relacionados'
+  links:
+    - text: Centro de I&D
+      url: /pt/randdcenter
+    - text: Controlo de qualidade
+      url: /pt/quality
+    - text: Padrões de segurança
+      url: /pt/quality
+    - text: Garantia
+      url: /pt/warranty
+    - text: Turismo & lazer
+      url: /pt/tourism-recreation
+    - text: Guias
+      url: /pt/knowledge
+    - text: Produtos
+      url: /pt/products

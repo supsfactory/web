@@ -145,7 +145,7 @@ test('every en content file has a .de counterpart (except locale-agnostic site/p
   const dirs = ['pages', 'news', 'products', 'technology', 'case-use', 'site']
   for (const dir of dirs) {
     for (const name of readdirSync(resolve(contentRoot, dir))) {
-      if (name.includes('.de.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.it.')) continue
+      if (name.includes('.de.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.it.') || name.includes('.pt.')) continue
       if (dir === 'site' && name === 'pages.yaml') continue
       const deName = name.replace(/(\.(yaml|mdx|md))$/, '.de$1')
       if (!existsSync(resolve(contentRoot, `${dir}/${deName}`))) {
@@ -287,7 +287,7 @@ test('de procurement MOQ/lead-time rows embed German facts (no English fragments
 
 test('localized facts (FACTS_LOCALE) provide German shorthands for all locales', () => {
   const locales = Object.keys(FACTS_LOCALE).sort() as (keyof typeof FACTS_LOCALE)[]
-  expect(locales).toEqual(['de', 'en', 'es', 'fr', 'it'])
+  expect(locales).toEqual(['de', 'en', 'es', 'fr', 'it', 'pt'])
   const enKeys = Object.keys(FACTS_LOCALE.en)
   for (const l of locales) {
     expect(Object.keys(FACTS_LOCALE[l]).sort()).toEqual([...enKeys].sort())

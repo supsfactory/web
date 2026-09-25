@@ -1,0 +1,81 @@
+meta:
+  title: 'PVC vs Hypalon — Tecidos para pranchas SUP insufláveis | {SITE}'
+  description: 'PVC vs Hypalon para a construção de pranchas SUP insufláveis: resistência UV, durabilidade, reparabilidade, peso, custos e qual o tecido que as pranchas SUP realmente usam.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Voltar à Pesquisa'
+
+hero:
+  tagline: 'Materiais'
+  title: 'PVC vs Hypalon — Guia de materiais para pranchas SUP insufláveis'
+  subtitle: 'Leitura de 10 min'
+
+answer:
+  label: 'Resposta breve'
+  text: 'Para as pranchas SUP vence o PVC por custos, peso, capacidade de impressão e automação soldável por radiofrequência (RF) — um PVC marinho de tripla camada em 1 680 DTEX com estabilizadores UV é o padrão do setor. O Hypalon/CSM resiste mais tempo à luz solar e a agentes químicos, mas custa cerca de 3&ndash;5&times; mais, é mais pesado e é colado à mão, razão pela qual hoje é usado raramente nos SUP.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Panorâmica dos materiais</h2>
+
+  <h3>PVC (policloreto de vinilo)</h3>
+  <p>O PVC é o tecido padrão para as pranchas SUP insufláveis. Para a construção das pranchas é normalmente reforçado com uma trama em poliéster (1 100 – 1 680 DTEX), revestido em ambos os lados e depois soldado à volta de um núcleo drop-stitch. As formulações modernas de PVC marinho incluem estabilizadores UV e plastificantes para melhorar a flexibilidade e a resistência aos agentes atmosféricos; as pranchas assim construídas suportam pressões de serviço de 12 – 15 PSI.</p>
+
+  <h3>Hypalon (CSM – polietileno clorossulfonado)</h3>
+  <p>O Hypalon é um composto de borracha sintética (hoje produzido genericamente como CSM desde que a DuPont abandonou a marca Hypalon). É conhecido pela sua excecional resistência a UV e ozono e é considerado o tecido preferido para os tubulares de embarcações profissionais e comerciais expostos durante muito tempo à luz solar direta. Nas pranchas SUP o Hypalon é usado raramente — as pranchas exigem decks de alta pressão e dimensionalmente estáveis, que as construções em PVC drop-stitch oferecem a uma fração do peso.</p>
+
+  <h2>Comparação direta</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Propriedade</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">PVC</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Hypalon (CSM)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Resistência UV</td><td class="p-3 border">Boa (com estabilizadores)</td><td class="p-3 border">Excelente (intrínseca)</td></tr>
+      <tr><td class="p-3 border font-medium">Resistência à abrasão</td><td class="p-3 border">Boa</td><td class="p-3 border">Muito boa</td></tr>
+      <tr><td class="p-3 border font-medium">Resistência à tração</td><td class="p-3 border">3 000 – 5 000 N/5cm</td><td class="p-3 border">2 500 – 4 000 N/5cm</td></tr>
+      <tr><td class="p-3 border font-medium">Peso (por m&sup2;)</td><td class="p-3 border">850 – 1 200 g</td><td class="p-3 border">1 100 – 1 500 g</td></tr>
+      <tr><td class="p-3 border font-medium">Flexibilidade a frio (baixas temperaturas)</td><td class="p-3 border">-30&deg;C</td><td class="p-3 border">-20&deg;C</td></tr>
+      <tr><td class="p-3 border font-medium">Reparabilidade</td><td class="p-3 border">Fácil (termosoldadura ou cola)</td><td class="p-3 border">Exige adesivo CSM específico</td></tr>
+      <tr><td class="p-3 border font-medium">Método de união</td><td class="p-3 border">Soldadura RF, soldadura a ar quente</td><td class="p-3 border">Colagem à mão (adesivo de contacto)</td></tr>
+      <tr><td class="p-3 border font-medium">Custo (material)</td><td class="p-3 border">$8 – $15 / m&sup2;</td><td class="p-3 border">$20 – $40 / m&sup2;</td></tr>
+      <tr><td class="p-3 border font-medium">Duração de vida (sol tropical)</td><td class="p-3 border">5 – 8 anos</td><td class="p-3 border">10 – 15 anos</td></tr>
+    </tbody>
+  </table>
+
+  <h2>O que escolher?</h2>
+
+  <h3>Escolher o PVC quando:</h3>
+  <ul>
+    <li>Construís pranchas SUP insufláveis (PVC + drop-stitch é o padrão do setor)</li>
+    <li>O peso da prancha importa — o PVC é mais leve em 15 – 25 %</li>
+    <li>Precisas de flexibilidade a frio abaixo dos -20&deg;C</li>
+    <li>Desejas uma gama mais ampla de opções de cor e acabamento</li>
+    <li>É necessária uma alta pressão de serviço (12 – 15 PSI) para um deck rígido e estável</li>
+  </ul>
+
+  <h3>Escolher o Hypalon quando:</h3>
+  <ul>
+    <li>O produto fica à âncora ou em depósito a pleno sol durante anos</li>
+    <li>Estás num ambiente tropical ou com UV forte sem possibilidade de depósito</li>
+    <li>Duração e longevidade máximas importam mais do que peso e custo</li>
+    <li>Construís embarcações profissionais ou comerciais como os tubulares</li>
+    <li>A abrasão de areia, cimento ou pontões é uma preocupação principal</li>
+  </ul>
+
+  <h2>Diferenças de produção</h2>
+  <p>As pranchas em PVC são realizadas mediante soldadura RF (radiofrequência) ou a ar quente, criando uma ligação molecular entre as camadas de tecido revestido. Isto permite uma produção automatizada, coerente e de alto rendimento, com uma resistência precisa das costuras nas pranchas de alta pressão. O Hypalon é montado através de colagem à mão com adesivo de contacto; cada costura é rolada e pressionada manualmente, tornando a produção em Hypalon mais intensiva em mão de obra e adequada à construção de tubulares de baixa pressão.</p>
+
+  <h2>Recomendação da Vatrad</h2>
+  <p>Para as pranchas SUP insufláveis, o PVC moderno de alta qualidade com estabilizadores UV oferece o melhor equilíbrio entre custos, peso, desempenho e durabilidade. A Vatrad constrói cada SUP com PVC marinho em 1 680 DTEX, revestimento de tripla camada e núcleo drop-stitch dimensionado para 15 PSI — com cada lote de tecido testado de forma independente no nosso laboratório de tecidos PVC antes da produção. O Hypalon continua disponível mediante pedido para embarcações comerciais e aplicações especiais, produzido separadamente através da nossa linha marítima comercial.</p>
+  <p>A escolha do material determina custos, peso e durabilidade da vossa gama — indica-nos o teu mercado de referência e <a href="/pt/oem-manufacturing">especificaremos o tecido certo para o teu projeto OEM</a>, testado no nosso <a href="/pt/randdcenter/quality-inspection-lab">laboratório de prova de materiais</a>.</p>
+
+cta:
+  title: 'Precisas de ajuda na escolha dos materiais?'
+  subtitle: 'A nossa equipa pode aconselhar-vos sobre PVC vs Hypalon para a vossa aplicação específica.'
+  button_text: 'Consulta os nossos especialistas'
+  button_link: /pt/contact

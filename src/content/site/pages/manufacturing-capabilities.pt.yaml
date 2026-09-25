@@ -1,0 +1,125 @@
+meta:
+  title: 'Capacidades de produção SUP | Fábrica de pranchas de paddle insufláveis'
+  description: 'Capacidades de produção SUP em Qingdao: engenharia do casco interna (0,1 mm), processamento drop-stitch, soldadura de alta frequência, impressão, equipamento, controlo de qualidade de 100 pontos e 120.000+ pranchas por ano.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'capacidades de produção SUP'
+    - 'capacidades da fábrica de pranchas de paddle insufláveis'
+    - 'produção SUP interna'
+    - 'capacidades produtivas prancha de paddle'
+    - 'fábrica SUP Qingdao'
+
+hero:
+  tagline: Capacidades de produção
+  title: 'Capacidades de produção SUP'
+  subtitle: 'Cada processo — engenharia do casco, processamento do núcleo drop-stitch, soldadura de alta frequência, impressão, equipamento, montagem, ensaio e embalagem — acontece internamente nas nossas instalações de 12,500 m² em Qingdao. Uma única equipa responsável gere o teu projeto desde o primeiro desenho até ao contentor expedido.'
+
+answer:
+  label: 'Resposta breve'
+  text: 'A produção SUP é totalmente interna nas nossas instalações de Qingdao: conceção do casco e engenharia dimensional com precisão CNC de 0,1 mm; processamento do material drop-stitch e soldadura de alta frequência em 4 linhas automatizadas; impressão gráfica; corte dos pads de EVA; equipamento interno (+15–20 dias para novas formas); montagem segundo uma checklist de 100 pontos e um teste de retenção de pressão de 24 horas a 18,0 PSI com rejeição automática em caso de queda superior a 0,50 PSI. A capacidade anual é de 120.000+ pranchas (cerca de 10.000/mês) em 4 oficinas especializadas com 350+ colaboradores, entregues em mais de 50 países com a tua marca.'
+  verified: 'September 2026'
+
+capabilities:
+  tagline: Capacidades internas
+  title: 'Grupos de capacidades — tudo realizado internamente'
+  subtitle: 'Cada capacidade é executada diretamente em fábrica: prazos mais curtos, controlo de qualidade em cada fase e a tua especificação fica num único lugar.'
+  groups:
+    - title: Design & Engenharia
+      items:
+        - 'Conceção do casco & engenharia dimensional'
+        - 'Precisão CNC de 0,1 mm'
+        - 'Equipamento & criação de moldes à medida'
+        - 'Gráficas para embalagem e venda'
+    - title: Produção
+      items:
+        - 'Processamento do núcleo drop-stitch'
+        - 'Soldadura de alta frequência de 15 kW (4 linhas automatizadas)'
+        - 'Impressão gráfica & design'
+        - 'Corte dos pads de EVA'
+        - 'Montagem & acabamento das pranchas'
+        - 'Composição dos acessórios'
+    - title: Qualidade & Conformidade
+      items:
+        - 'Checklist de montagem de 100 pontos'
+        - '18,0 PSI · retenção de pressão 24 horas'
+        - 'Amostragem segundo ISO 2859-1 Nível II'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - 'Rastreabilidade dos lotes por 10 anos'
+    - title: Serviço & Logística
+      items:
+        - 'Amostras de protótipo em 7–12 dias'
+        - 'Produção em 25–35 dias'
+        - 'Formas à medida em +15–20 dias'
+        - 'FOB Qingdao · CIF · DDP em mais de 50 países'
+
+table:
+  headers:
+    capability: Capacidade
+    in_house: Interna
+    standard: O que inclui o padrão
+  rows:
+    - capability: 'Conceção do casco & engenharia dimensional'
+      in_house: 'Sim — departamento técnico interno'
+      standard: 'Concebida e validada antes do equipamento; precisão CNC de 0,1 mm para formas e corte'
+    - capability: 'Processamento do material drop-stitch'
+      in_house: 'Sim — produção do núcleo interna'
+      standard: 'Intervalo de densidade drop-stitch 12–15 PSI, nesting otimizado para cada medida de prancha'
+    - capability: 'Soldadura de alta frequência & construção das costuras'
+      in_house: 'Sim — interna'
+      standard: 'Capacidade de soldadura de alta frequência de 15 kW em 4 linhas de produção automatizadas'
+    - capability: 'Impressão gráfica & design'
+      in_house: 'Sim — design e impressão internos'
+      standard: 'Paletas ilimitadas, gráficas sem limites, apoio gráfico da equipa de fábrica'
+    - capability: 'Corte dos tapetes antiderrapantes em EVA'
+      in_house: 'Sim — interna'
+      standard: 'Especificação do pad 45–55 Shore C, decks e logótipos cortados à medida'
+    - capability: 'Formas e equipamento à medida'
+      in_house: 'Sim — oficina de formas interna'
+      standard: 'As novas formas exigem 15–20 dias; as formas permanecem propriedade da fábrica salvo acordo em contrário'
+    - capability: 'Montagem & acabamento das pranchas'
+      in_house: 'Sim — interno'
+      standard: 'Checklist de montagem de 100 pontos; pegas, D-rings e acessórios instalados segundo especificação'
+    - capability: 'Prova de pressão & carga'
+      in_house: 'Sim — banco de prova interno'
+      standard: 'Retenção de pressão 18,0 PSI por 24 horas, rejeição automática em caso de queda superior a 0,50 PSI'
+    - capability: 'Inspeção final & rastreabilidade'
+      in_house: 'Sim — equipa de qualidade interna'
+      standard: 'Amostragem segundo ISO 2859-1 Nível II; rastreabilidade dos lotes ERP por 10 anos por número de série'
+    - capability: 'Embalagem & exportação'
+      in_house: 'Kitting interno + logística certificada'
+      standard: 'Embalagens comerciais, embalagem de exportação marítima e etiquetas de série com a tua marca'
+
+faq_section:
+  tagline: FAQ
+  title: Perguntas sobre as capacidades de produção SUP
+  questions:
+    - q: Que processos de produção acontecem internamente?
+      a: 'Todos os processos-chave são internos: engenharia do casco, processamento do núcleo drop-stitch, soldadura de alta frequência, impressão, corte de EVA, montagem, ensaio e embalagem. Acessórios e algumas matérias-primas vêm de fornecedores certificados; a composição final do kit acontece internamente para uma rastreabilidade completa.'
+    - q: Qual é a vossa capacidade produtiva?
+      a: '120.000+ pranchas por ano (cerca de 10.000/mês) em 4 linhas automatizadas e 4 oficinas especializadas em 12,500 m² com mais de 350 colaboradores.'
+    - q: Qual é a quantidade mínima de encomenda aplicável a estas capacidades?
+      a: 'A quantidade padrão começa em 90–100+ unidades por configuração aprovada (um rolo de 150 m de tecido drop-stitch); os lotes piloto começam em 20–50 unidades em plataformas existentes; as encomendas só-logo começam em 5–10 unidades.'
+    - q: Que prazos devemos ter em conta?
+      a: 'Amostras de protótipo em 7–12 dias; produção 25–35 dias após encomenda confirmada e sinal; o equipamento para formas à medida acrescenta 15–20 dias.'
+    - q: De que forma as capacidades influenciam a qualidade?
+      a: 'Cada processo alimenta o sistema de qualidade em 7 fases: checklist de montagem de 100 pontos, retenção de pressão 18,0 PSI por 24 horas com rejeição automática acima de 0,50 PSI de queda, amostragem segundo ISO 2859-1 Nível II e rastreabilidade dos lotes ERP por 10 anos.'
+
+cta:
+  title: 'Verifica quais capacidades se adaptam ao teu projeto'
+  subtitle: 'Envia o teu pedido de produto — verificação técnica e proposta adequada num dia útil.'
+  actions:
+    - variant: primary
+      text: Pede um orçamento de produção
+      href: /pt/contact#custom-oem
+    - text: Visita a fábrica
+      href: /pt/factory
+    - text: Processo produtivo da fábrica
+      href: /pt/factory/process
+    - text: Capacidades da fábrica & prazos
+      href: /pt/factory/capacity
+    - text: Qualidade & ensaios
+      href: /pt/quality
+    - text: Proof Center — provas da fábrica
+      href: /pt/proof-center
+    - text: Produção OEM & ODM
+      href: /pt/oem-manufacturing

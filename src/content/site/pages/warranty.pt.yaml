@@ -1,0 +1,113 @@
+meta:
+  title: 'Garantia de Fabrico OEM e Garantia da Qualidade | {SITE}'
+  description: 'Condições de garantia de fabrico OEM para os produtos SUP insufláveis e marinhos produzidos pela SUPsfactory: defeitos cobertos, duração, registos de lote documentados e gestão de solicitações.'
+  keywords:
+    - 'garantia OEM'
+    - 'garantia de fabrico'
+    - 'garantia de fábrica de SUP'
+    - 'garantia da qualidade do produto'
+    - 'garantia SUP insuflável'
+label: 'Garantia OEM'
+headline: 'Garantia de Fabrico OEM e Garantia da Qualidade do Produto'
+subtitle: 'Cada prancha que produzimos é construída com base numa amostra aprovada e em registos de lote documentados. Esta garantia define o que garantimos nos produtos que produzimos sob a tua marca e como as solicitações são tratadas com base nesses registos.'
+seo:
+  headline: 'Garantia de Fabrico OEM e Garantia da Qualidade | SUPsfactory'
+  description: 'Garantia de fabrico para SUP insufláveis e outros produtos marinhos produzidos pela SUPsfactory: 5 anos de cobertura no tecido principal da câmara, nas soldaduras e na integridade estrutural do núcleo drop-stitch, além das válvulas de insuflação e dos acessórios instalados em fábrica.'
+  datePublished: '2024-01-01'
+  dateModified: '2026-09-23'
+body: |
+  <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+    Esta Garantia de Fabrico aplica-se às pranchas SUP insufláveis, aos caiaques e aos produtos marinhos insufláveis produzidos pela SUPsfactory — a divisão de fabricação marítima de Qingdao Vatrad Group Co., Ltd. — no âmbito dos programas OEM, ODM e private label. A data de vigência é a data verificável de produção do lote ou de envio acordada na ordem de compra. O comprador (proprietário da marca) define a política de garantia para o utilizador final no seu mercado; esta garantia é o compromisso da fábrica sobre as mercadorias tal como foram fabricadas.
+  </p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
+    <h2 class="text-xl font-bold mb-3">Cobertura e duração da garantia de fabrico</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 anos</h3>
+        <p class="text-sm text-gray-600 mt-1">Integridade do tecido principal da câmara (CSM/PVC)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 anos</h3>
+        <p class="text-sm text-gray-600 mt-1">Integridade estrutural do casco em fibra de vidro (se aplicável)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 anos</h3>
+        <p class="text-sm text-gray-600 mt-1">Estanquicidade das soldaduras da câmara insuflável</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 anos</h3>
+        <p class="text-sm text-gray-600 mt-1">Funcionamento da válvula de insuflação</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">1 ano</h3>
+        <p class="text-sm text-gray-600 mt-1">Acessórios e equipamentos instalados em fábrica</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-amber-700 dark:text-amber-400">1 ano*</h3>
+        <p class="text-sm text-gray-600 mt-1">Uso comercial, aluguer ou frota: todos os componentes</p>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 mt-4">*O uso comercial, governamental, em aluguer, em arrendamento ou educacional reduz a garantia a 1 ano. O uso em prova ou competição anula integralmente a garantia, salvo se uma configuração específica de competição estiver expressamente coberta pelo contrato de compra.</p>
+  </div>
+
+  <h2>O que está coberto</h2>
+  <h3>Tecido principal da câmara (5 anos)</h3>
+  <p>A fábrica garante o tecido principal da câmara contra a deterioração por porosidade que comprometa substancialmente a capacidade do produto de manter a pressão de funcionamento. Isto aplica-se ao tecido revestido em CSM (Hypalon) e a todos os outros materiais da câmara utilizados na produção.</p>
+
+  <h3>Integridade estrutural do casco em fibra de vidro (5 anos)</h3>
+  <p>Para os produtos com casco em plástico reforçado com fibra de vidro (PRFV), a estrutura compósita fundamental é garantida contra o colapso estrutural devido a defeitos de material ou de fabrico.</p>
+
+  <h3>Estanquicidade das soldaduras da câmara insuflável (5 anos)</h3>
+  <p>As soldaduras das câmaras insufláveis, onde são unidas em fábrica, são garantidas contra os defeitos de fabrico que causam uma perda de ar substancial através da soldadura. A inspeção periódica e a manutenção de pressões de insuflação adequadas são condições da cobertura.</p>
+
+  <h3>Funcionamento da válvula de insuflação (5 anos)</h3>
+  <p>As válvulas de insuflação instaladas originalmente durante a produção são garantidas contra os defeitos de material ou de fabrico que impeçam a válvula de reter o ar como previsto.</p>
+
+  <h3>Acessórios instalados em fábrica (1 ano)</h3>
+  <p>Os componentes e equipamentos instalados em fábrica são garantidos contra os defeitos de material e de fabrico durante um ano. Ficam excluídos os artigos de terceiros, cobertos exclusivamente pelas garantias dos respetivos produtores.</p>
+
+  <h2>O que não está coberto</h2>
+  <ul>
+    <li>Defeitos estéticos, incluindo descoloração, manchas, desbotamento, efeito de giz ou qualquer alteração do aspeto</li>
+    <li>Perfurações, cortes, rasgões, roturas ou outros danos físicos</li>
+    <li>Microfissuras, fissuras, abrasões, fricções ou deterioração por atrito ou contacto</li>
+    <li>Degradação por exposição aos raios UV, intempéries ou condições atmosféricas</li>
+    <li>Danos por contacto com combustíveis, solventes, ácidos, álcalis ou produtos químicos</li>
+    <li>Danos por negligência, uso indevido, abuso, acidente ou desgaste normal</li>
+    <li>Problemas de gelcoat ou de pintura (bolhas, microfissuras, descoloração)</li>
+    <li>Danos por impacto, esforço, suporte inadequado ou reboque</li>
+    <li>Danos por insuflação/desinsuflação inadequada ou utilização de dispositivos de insuflação não aprovados</li>
+    <li>Equipamentos, componentes ou sistemas de terceiros (cobertos pelos respetivos produtores)</li>
+  </ul>
+
+  <h2>Obrigação e recurso do produtor</h2>
+  <p>A obrigação única e exclusiva da fábrica é a reparação ou a substituição, à sua escolha, de qualquer componente considerado defeituoso por materiais ou fabrico e coberto por esta garantia. As reparações ou substituições são efetuadas pela fábrica ou pelo seu centro de assistência autorizado designado. Os componentes reparados ou substituídos são garantidos apenas pela parte remanescente do período de garantia original.</p>
+
+  <h2>Condições da garantia</h2>
+  <ul>
+    <li><strong>Referência ao lote:</strong> as solicitações devem referir a ordem de compra, o número de lote ou o intervalo de números seriais para que a fábrica possa recuperar os correspondentes registos de inspeção.</li>
+    <li><strong>Base da especificação:</strong> as solicitações são avaliadas com base na amostra aprovada, na especificação técnica, nas gráficas e na lista de materiais (BOM) congeladas para o lote — as mesmas referências utilizadas na produção.</li>
+    <li><strong>Manutenção:</strong> o produto deve ser mantido segundo as instruções publicadas, incluindo a inspeção periódica e a manutenção de pressões de insuflação adequadas.</li>
+    <li><strong>Cooperação:</strong> o requerente deve cooperar plena e atempadamente com a fábrica em todas as questões relativas às solicitações, incluindo a inspeção das unidades afetadas.</li>
+    <li><strong>Política de garantia do comprador:</strong> o comprador, enquanto proprietário da marca, define o programa de garantia para o utilizador final no seu mercado. Esta garantia de fabrico é o que a fábrica deve pelas mercadorias tal como foram fabricadas.</li>
+  </ul>
+
+  <h2>Uso comercial</h2>
+  <p>Se o produto for utilizado para fins comerciais, governamentais, sem fins lucrativos, em aluguer, em arrendamento, educacionais ou para qualquer fim diferente do lazer privado, o período de garantia de todos os componentes é reduzido a um (1) ano a partir da data de vigência. O uso em competições de velocidade, endurance ou prova anula integralmente a garantia, salvo se uma configuração específica de competição estiver expressamente coberta pelo contrato de compra.</p>
+
+  <h2>Como apresentar uma solicitação de garantia</h2>
+  <p>Contacta a SUPsfactory com a ordem de compra ou a referência do lote e uma descrição detalhada do problema, incluindo os números seriais das pranchas quando disponíveis. A fábrica examinará a solicitação com base nos registos do lote e fornecerá instruções para a inspeção e a assistência.</p>
+  <p>Para as solicitações de assistência em garantia, contacta-nos através da nossa <a href="/pt/contact" class="text-sky-600 underline">página de contacto</a> com o número de encomenda e os detalhes do produto.</p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
+    <h2 class="text-xl font-bold mb-3">Suportado por um sistema de qualidade documentado</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Cada prancha é testada antes da embalagem — <a href="/pt/factory/quality-inspection" class="text-sky-600 underline">7 gates de inspeção</a> registam os resultados por número serial e os lotes têm uma rastreabilidade ERP de 10 anos. As solicitações de garantia são decididas com base nesses registos de lote, não por conjetura. Consulta o <a href="/pt/quality" class="text-sky-600 underline">sistema de qualidade completo</a> e descarrega os <a href="https://assets.supsfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">relatórios de controlo final</a>.</p>
+  </div>
+
+  <h2>Artigos de terceiros</h2>
+  <p>Os equipamentos, componentes ou sistemas produzidos por terceiros (mesmo que instalados pela fábrica) são cobertos exclusivamente pela garantia eventualmente oferecida pelo respetivo produtor. A fábrica declina expressamente qualquer responsabilidade de garantia por esses artigos de terceiros.</p>
+
+  <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
+    Esta declaração de garantia é um resumo das condições de garantia de fabrico da fábrica para os programas OEM, ODM e private label. O contrato de compra completo rege todos os termos e condições. As especificações podem ser alteradas sem aviso prévio. A SUPsfactory é a divisão de fabricação de Qingdao Vatrad Group.
+  </p>

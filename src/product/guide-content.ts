@@ -1350,7 +1350,275 @@ export const GUIDES_IT: Guide[] = [
   },
 ]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT }
+/** Portuguese variants of the guides (same slugs, translated copy). */
+export const GUIDES_PT: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'Como escolher o teu SUP',
+    intro: [
+      'A escolha da tua primeira prancha de SUP insuflável depende do tamanho, da largura, da construção e do conteúdo da embalagem. Eis o que importa, em palavras simples.',
+    ],
+    sections: [
+      {
+        title: 'Comprimento e volume',
+        body: 'As pranchas mais compridas (11–12 ft) deslizam mais em cada pagaiada e mantêm melhor o rumo — ideais para passeios e pagaiadas de longa distância. As pranchas mais curtas viram com mais facilidade. Para a maioria dos praticantes, uma prancha all-round de 10\'6"–11\'0" é o melhor compromisso.',
+      },
+      {
+        title: 'Largura e estabilidade',
+        body: 'A largura determina a estabilidade mais do que qualquer outro fator. Um deck de 32 polegadas é tolerante para principiantes e suficientemente estável para ioga; as pranchas de 30 polegadas ajustam-se a pagaiadores mais leves ou mais experientes que procuram velocidade e agilidade.',
+      },
+      {
+        title: 'Qualidade de construção',
+        body: 'Procura um núcleo drop-stitch de PVC de grau militar com uma pressão nominal de pelo menos 15 PSI, uma laminação de PVC de dupla camada e fitas de borda reforçadas. São estes os elementos que determinam o quão rígida é a prancha e quanto dura com o uso diário.',
+      },
+      {
+        title: 'O que deve estar incluído',
+        body: 'Um pacote completo poupa dinheiro e chatices: prancha, pagaia ajustável em 3 peças, bomba de dupla ação com manómetro, leash em espiral, barbatanas, mochila de viagem e kit de reparação.',
+      },
+    ],
+    faqs: [
+      { q: 'De que tamanho deve ser uma prancha de SUP?', a: 'A maioria dos principiantes escolhe uma prancha all-round de cerca de 11\'0" × 32" × 6" — estável, versátil e fácil de transportar. Praticantes mais pesados ou quem aposta nas distâncias deve optar por um tamanho acima.' },
+      { q: 'Um SUP insuflável é tão rígido como uma prancha rígida?', a: 'Um drop-stitch insuflável moderno a 15–20 PSI aproxima-se de uma prancha rígida de entrada em termos de rigidez — com a vantagem de caber numa mochila.' },
+    ],
+    related: [
+      { label: 'As nossas plataformas de SUP', href: '/products' },
+      { label: 'Insuflável vs prancha rígida', href: '/inflatable-vs-hardboard' },
+      { label: 'Produção OEM', href: '/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Guia de pagaiada para principiantes',
+    intro: [
+      'Tudo o que precisas para as tuas primeiras sessões na água: insuflar, o primeiro passo em pé, a pagaiada básica e como manteres-te em segurança enquanto ganhas confiança.',
+    ],
+    sections: [
+      {
+        title: 'Insuflar até ao valor nominal, não por sensação',
+        body: 'Enche até à pressão indicada (normalmente 15 PSI) usando o manómetro da tua bomba. Uma prancha a 10 PSI parece bem na relva, mas deforma-se bastante na água. Verifica a pressão em dias quentes — o sol aquece o ar no interior e faz subir a pressão.',
+      },
+      {
+        title: 'Os primeiros passos na prancha',
+        body: 'Começa na praia ou num acesso de água pouco profunda: primeiro de joelhos, depois em pé, um pé de cada vez, sobre a linha central. Mantém os pés à largura dos ombros, os joelhos soltos e o olhar no horizonte — a tua prancha segue os teus olhos.',
+      },
+      {
+        title: 'A pagaiada básica',
+        body: 'Estica a pagaia bem para a frente, mergulha a lâmina por completo e puxa ao longo da prancha rodando o tronco. Muda de lado a cada poucas pagaiadas para seguires em frente; para virar bastam duas ou três pagaiadas largas de um lado.',
+      },
+      {
+        title: 'Pratica primeiro a cair',
+        body: 'Cair à água faz parte da aprendizagem. Pratica a subida em águas baixas: nada até à pega central, empurra as pernas para a superfície e puxa-te para cima da prancha num único movimento.',
+      },
+    ],
+    faqs: [
+      { q: 'Quanto tempo demora a aprender SUP?', a: 'A maioria das pessoas consegue pagaiar confortavelmente em águas calmas já na primeira sessão de uma hora. A segurança nas viragens, com vento e nas distâncias cresce ao longo de algumas sessões.' },
+      { q: 'Preciso de estar em forma?', a: 'Não — o SUP é bastante acessível. O equilíbrio, a força do core e a resistência desenvolvem-se de forma natural com a pagaiada regular.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Insuflável vs prancha rígida',
+    intro: [
+      'As duas famílias de construção ganham cada uma em cenários diferentes. Eis a comparação honesta para pagaiadores recreativos, clubes e operadores de aluguer.',
+    ],
+    sections: [
+      {
+        title: 'Portabilidade e armazenamento',
+        body: 'As pranchas insufláveis dobram-se numa mochila que cabe na bagageira, na autocaravana ou no armário de casa — e são a escolha padrão para viagens. As pranchas rígidas exigem suportes de tejadilho, espaço de armazenamento e um cuidado maior.',
+      },
+      {
+        title: 'Rigidez e desempenho',
+        body: 'As pranchas rígidas premium são mais rígidas e reagem de forma mais direta em níveis de desempenho elevados. A velocidades recreativas, um drop-stitch insuflável bem construído a 15–20 PSI oferece um desempenho comparável — a uma fração dos custos de armazenamento.',
+      },
+      {
+        title: 'Durabilidade',
+        body: 'As pranchas insufláveis de PVC aguentam arranhões de pontão e impactos na margem que partiriam um casco rígido — uma razão central para as frotas de aluguer e os resorts escolherem insufláveis para o uso diário dos hóspedes.',
+      },
+      {
+        title: 'Custo total de propriedade',
+        body: 'As pranchas insufláveis custam menos em envio, armazenamento e manutenção e sobrevivem a um tratamento mais rude. Para a maioria dos utilizadores e frotas, uma prancha insuflável é a melhor relação qualidade-preço global.',
+      },
+    ],
+    faqs: [
+      { q: 'Qual é a melhor para principiantes?', a: 'As pranchas insufláveis — estáveis, tolerantes, fáceis de armazenar e suficientemente duráveis para os arranhões que os principiantes causam.' },
+      { q: 'Um SUP insuflável pode ser tão rápido como uma prancha rígida?', a: 'A velocidades recreativas a diferença é mínima. As pranchas rígidas ganham claramente apenas em competição e em cenários de alto desempenho.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Conselhos de segurança na água',
+    intro: [
+      'Uma sessão segura é uma sessão agradável. Estas bases valem igualmente para lagos, rios e pagaiada costeira.',
+    ],
+    sections: [
+      {
+        title: 'Verifica o vento e a previsão',
+        body: 'O vento de terra é a armadilha clássica do SUP: empurra-te para longe da margem mais depressa do que consegues pagaiar para voltar. Verifica a previsão e, em caso de dúvida, fica em águas abrigadas.',
+      },
+      {
+        title: 'Usa sempre o leash',
+        body: 'Um leash em espiral mantém a tua prancha ao alcance da mão em caso de queda — a prancha é o teu dispositivo de flutuação. Escolhe um leash adequado às tuas condições: em espiral para águas calmas, reto para o surf.',
+      },
+      {
+        title: 'PFD e segurança pessoal',
+        body: 'Usa um dispositivo de flutuação quando as condições o exigirem ou as normas o impuserem. Leva um apito, comunica a alguém o teu percurso e a hora prevista de regresso e considera levar um telemóvel numa capa estanque.',
+      },
+      {
+        title: 'Conhece os teus limites',
+        body: 'Ganha experiência em águas calmas antes de enfrentar o vento ou a corrente. Respeita a água fria — rouba forças rapidamente. E nunca pagaias sozinho em zonas remotas ou em águas abertas sem um plano.',
+      },
+    ],
+    faqs: [
+      { q: 'Preciso de usar um colete salva-vidas num SUP?', a: 'Os requisitos variam de país para país e de via navegável para via navegável. Mesmo onde é opcional, o leash mais um dispositivo de flutuação são a base responsável, e as crianças devem usar sempre um colete salva-vidas bem ajustado.' },
+      { q: 'É seguro praticar SUP num lago?', a: 'Sim — os lagos calmos são ideais para aprender. Verifica a direção do vento, mantém-te visível para o tráfego de barcos e evita rotas de navegação muito movimentadas.' },
+    ],
+    related: [
+      { label: 'Equipamento de segurança nas nossas plataformas', href: '/products' },
+      { label: 'Controlo de qualidade na produção', href: '/quality' },
+      { label: 'Escolhe a tua primeira prancha', href: '/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Como escolher uma fábrica OEM de SUP personalizados',
+    intro: [
+      'Comprar paddleboards insufláveis com a tua própria marca resume-se a uma decisão: a qual fábrica confiar o teu primeiro lote. Eis como avaliar um fabricante de SUP personalizados antes de emitir uma encomenda (PO).',
+    ],
+    sections: [
+      {
+        title: 'Começa com uma encomenda de teste, não com uma discussão sobre MOQ',
+        body: 'Uma fábrica que só fala de quantidades mínimas é sinal de uma secretária comercial, não de uma verdadeira empresa. As verdadeiras fábricas oferecem mínimos escalonados — co-branding de 5–10 unidades, lotes piloto de 20–50 unidades, produção padrão de volume de 90–100+ por rolo de 150 m e projetos com molde totalmente personalizado no escalão de volume. Encomenda primeiro um lote pequeno: testa a comunicação, a disciplina das especificações e a qualidade das amostras sem arriscar todo o teu lançamento.',
+      },
+      {
+        title: 'Verifica o que é verdadeiramente interno',
+        body: 'A produção de um SUP drop-stitch compreende quatro fases centrais: laminação do material, soldadura, impressão e montagem. Uma verdadeira fábrica executa-as todas debaixo do mesmo teto e permite-te visitar o departamento. Se o vendedor não consegue mostrar-te uma linha de produção, provavelmente estás a comprar através de um intermediário sem controlo sobre a qualidade ou os prazos.',
+      },
+      {
+        title: 'As amostras devem corresponder à produção em série',
+        body: 'Uma amostra acabada à mão é fácil; uma produção em série consistente é difícil. Pergunta como a fábrica controla a repetibilidade: protocolos dos lotes de material, parâmetros de soldadura e uma checklist de QC aplicada a cada prancha individual — não apenas àquela que aprovas.',
+      },
+      {
+        title: 'Conhece os teus custos antes do PO',
+        body: 'Obtém por escrito o quadro completo de custos: preço unitário por quantidade, custos de afinação ou molde se quiseres uma nova forma, preparação de artwork e impressão, e embalagem.',
+      },
+      {
+        title: 'Pede uma inspeção de terceiros',
+        body: 'As fábricas OEM de SUP fiáveis acolhem bem as inspeções pré-envio — muitas marcas reservam uma visita de QC independente para cada contentor. Confirma que a fábrica pode organizar inspeções de amostras e de produções e que as unidades rejeitadas (por exemplo pranchas que perdem mais de 5% de pressão) sejam excluídas do lote.',
+      },
+      {
+        title: 'Prazos que se cumprem',
+        body: 'Para SUP insufláveis, conta com amostras em 7–12 dias e produção em série em 25–35 dias após PO confirmada e sinal, mais o tempo de afinação quando encomendares um molde novo. Uma fábrica que anuncia prazos bem mais curtos do que todos os outros cita de um catálogo, não de um planeamento.',
+      },
+    ],
+    faqs: [
+      { q: 'Qual é a quantidade mínima de encomenda para pranchas de SUP personalizadas?', a: 'Os mínimos escalonados são o padrão: 1–2 unidades para amostras, 5–10 unidades para co-branding, 20–50 unidades para um lote piloto e 90–100+ unidades por rolo de 150 m para volume padrão; os projetos com molde totalmente personalizado estão no escalão de volume.' },
+      { q: 'Posso ver uma amostra antes da produção em série?', a: 'Sim — as amostras ficam prontas em 7–12 dias. A maioria das fábricas credita os custos de amostra e molde na tua primeira encomenda de produção, depois de confirmada.' },
+      { q: 'Como verifico que uma fábrica de SUP é real?', a: 'Pede uma visita por vídeo em direto ao departamento de produção, verifica o endereço de uma fábrica operacional em Qingdao ou noutro polo industrial e pede documentação de encomendas de exportação anteriores. As encomendas de teste são a prova definitiva.' },
+      { q: 'O que deve incluir um orçamento de uma fábrica de SUP?', a: 'Preço unitário por prancha, custos de afinação ou molde, preparação do artwork, embalagem, condições de QC e inspeção e condições de pagamento.' },
+    ],
+    related: [
+      { label: 'A nossa produção OEM / ODM', href: '/oem-manufacturing' },
+      { label: 'Processo de desenvolvimento de produto de SUP', href: '/product-development' },
+      { label: 'Capacidade e fábrica', href: '/factory' },
+      { label: 'Como controlamos a qualidade — 7 portões de inspeção', href: '/quality' },
+      { label: 'Guia de MOQ e branding flexível (PDF)', href: '/oem-moq-guide' },
+      { label: 'Confiança e garantia da fábrica', href: '/oem-trust-assurance' },
+      { label: 'Inicia o teu projeto de SUP personalizado', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'SUP de marca própria: o que recebes realmente de uma fábrica',
+    intro: [
+      'O private label é a forma mais rápida de lançar uma marca de SUP: o teu logo numa plataforma comprovada, sem os custos e riscos de desenhar uma prancha de raiz. Eis o que inclui realmente a colaboração com um fabricante de SUP personalizados.',
+    ],
+    sections: [
+      {
+        title: 'Private label significa plataformas comprovadas',
+        body: 'Parte-se de plataformas que a fábrica já constrói e testa — all-round, touring, ioga, corrida e outras. A fábrica personaliza branding, grafismos e acabamentos, mantendo os custos baixos e os prazos curtos. Os mínimos são escalonados: co-branding de 5–10 unidades, lotes piloto de 20–50 unidades e 90–100+ unidades por rolo de 150 m para o volume padrão de private label.',
+      },
+      {
+        title: 'O branding vai além do logo',
+        body: 'O private label inclui a impressão do teu logo (digital ou serigrafia), esquemas de cor personalizados, deck pads de EVA cortados à medida com o teu logo, branding dos acessórios (pagaia, bomba, leash), design da caixa de retalho e até expositores de ponto de venda. Envia as tuas gráficas e a fábrica prepara uma prova visual antes da produção.',
+      },
+      {
+        title: 'O que a fábrica trata por ti',
+        body: 'Uma fábrica de SUP full-service trata da preparação do artwork, da obtenção de materiais, da produção de amostras, da checklist de QC de montagem com 100 pontos, dos testes de pressão e da documentação de exportação (fatura, packing list, certificado de origem). Tu verificas as provas e aprovas a amostra — a fábrica faz todo o resto.',
+      },
+      {
+        title: 'O que é teu: marca, mercado, cliente',
+        body: 'Num acordo de private label a fábrica constrói as pranchas e a marca é tua. Os fabricantes fiáveis não vendem as tábuas com o próprio nome no teu mercado nem cedem o teu design personalizado a outros. Pede exclusividade de mercado no teu orçamento.',
+      },
+      {
+        title: 'Custos: amostra, molde, preparação do artwork',
+        body: 'Conta com três tipos de custos: despesas de amostra (7–12 dias de produção), custos de afinação quando for preciso um molde novo (mínimo no escalão de volume) e preparação do artwork para impressão. A maioria das fábricas credita os custos de amostra e molde na tua primeira encomenda de produção.',
+      },
+      {
+        title: 'Da PO ao lote acabado',
+        body: 'Uma produção típica de private label: um sinal de 30% começa a produção, a produção em série fica pronta em 25–35 dias após PO confirmada e sinal e o saldo é compensado com o lote aprovado. Inclui o lote completo na tua primeira encomenda.',
+      },
+    ],
+    faqs: [
+      { q: 'Qual é a quantidade mínima de encomenda para pranchas de SUP de marca própria?', a: 'O co-branding começa nas 5–10 unidades, os lotes piloto nas 20–50 unidades e o volume padrão de private label nas 90–100+ unidades por rolo de 150 m; os projetos com molde totalmente personalizado estão no escalão de volume.' },
+      { q: 'Posso enviar o meu logo e as minhas gráficas?', a: 'Sim — envia o teu logo e as tuas gráficas; a fábrica prepara uma prova visual antes da produção, para aprovares cores, posicionamento e acabamento.' },
+      { q: 'O meu design de SUP personalizado é exclusivo da minha marca?', a: 'Sim, nas condições padrão de private label. Pede uma cláusula de exclusividade no teu contrato de compra; fábricas como a nossa não revendem o teu design com a tua marca.' },
+      { q: 'Quanto tempo demora uma encomenda de SUP de marca própria?', a: 'As amostras são enviadas em 7–12 dias; a produção em série fica pronta em 25–35 dias após PO confirmada e sinal. Conta com 8–12 semanas para o primeiro lote completo.' },
+    ],
+    related: [
+      { label: 'Soluções de SUP de marca própria', href: '/solutions/private-label-sup' },
+      { label: 'Plataformas comprovadas', href: '/products/all-around' },
+      { label: 'Produção OEM / ODM', href: '/oem-manufacturing' },
+      { label: 'Inicia o teu projeto de SUP personalizado', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'Comprar frotas de SUP para aluguer, resorts e clubes',
+    intro: [
+      'Quem compra frotas precisa de respostas diferentes dos utilizadores finais: durabilidade por sessão, peças de reposição padronizadas, quantidades ao nível do volume e um fornecedor que entregue temporada após temporada. Eis o que planear antes de encomendar a tua primeira frota.',
+    ],
+    sections: [
+      {
+        title: 'Padroniza numa ou duas especificações',
+        body: 'O negócio das frotas assenta na padronização: um tamanho de prancha (normalmente 10\'6"–11\'0" × 32") para a maioria dos hóspedes, um pacote robusto, um kit de peças de reposição. Simplifica reparações, formação do pessoal, armazenamento e reencomendas. Resiste à tentação de comprar dez modelos diferentes.',
+      },
+      {
+        title: 'As pranchas de alto uso são um produto diferente',
+        body: 'Uma prancha de aluguer aguenta dezenas de sessões por temporada. Especifica camadas de PVC mais grossas, fitas de borda reforçadas e acessórios mais robustos do que as pranchas de retalho. Pergunta à fábrica como a especificação de frota difere da versão de consumo — as verdadeiras fábricas têm ambas.',
+      },
+      {
+        title: 'Adequa as quantidades à procura',
+        body: 'Calcula o tamanho da tua frota com base na rotação diária e na duração da temporada: 20–30 pranchas servem um pequeno ponto de venda, 100+ um resort ou clube muito frequentado. Pede à fábrica uma recomendação de quantidades adequada ao teu modelo de procura.',
+      },
+      {
+        title: 'Encomenda as peças de reposição com a frota',
+        body: 'Encomenda válvulas sobresselentes, kits de reparação, bombas, leashes e pagaias na mesma PO — custam pouco por unidade agora e são difíceis de encontrar a meio da temporada. Pede à fábrica uma quota de peças recomendada (normalmente 5–10% do tamanho da frota para consumíveis).',
+      },
+      {
+        title: 'Encomenda para a temporada, não durante',
+        body: 'A produção demora 25–35 dias após PO confirmada e sinal. Para teres as pranchas na praia na primavera, confirma as encomendas no fim do outono, para que a produção chegue antes da temporada.',
+      },
+      {
+        title: 'Marca a frota para o valor de revenda',
+        body: 'As pranchas de frota podem levar o teu logo, um sistema de numeração de aluguer e um código de cor por tamanho. Os logos em serigrafia em produções de 200+ unidades são económicos, e uma frota com marca funciona também como marketing na água.',
+      },
+    ],
+    faqs: [
+      { q: 'Qual é o melhor SUP para uma frota de aluguer?', a: 'Uma prancha all-round de 10\'6"–11\'0" × 32" com construção reforçada é o padrão do setor — estável para principiantes, durável para o uso diário e fácil de manter.' },
+      { q: 'De quantas pranchas precisa um negócio de aluguer?', a: 'Conta com 20–30 pranchas para um pequeno ponto de venda, escalando com a rotação: 100+ unidades para resorts e clubes muito frequentados. As peças de reposição devem corresponder a 5–10% do tamanho da frota.' },
+      { q: 'As pranchas da frota podem ter o nosso logo?', a: 'Sim — logos em serigrafia, numeração de aluguer e decks com códigos de cor são personalizações padrão, particularmente económicas a partir de 200 unidades.' },
+      { q: 'Quanto tempo demora uma encomenda de frota?', a: 'Amostras em 7–12 dias, produção em 25–35 dias após PO confirmada e sinal — por isso encomenda as frotas bem antes do início da temporada.' },
+    ],
+    related: [
+      { label: 'Soluções para resorts e clubes', href: '/solutions/resort-sup' },
+      { label: 'Estudo de caso: frota de aluguer em vários locais', href: '/projects/rental-fleet-multi-site' },
+      { label: 'Plataformas para frotas', href: '/products/all-around' },
+      { label: 'Fala com um especialista de projeto', href: '/contact' },
+    ],
+  },
+]
+
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -1548,6 +1816,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'Acquistare flotte SUP',
       intro:
         'Pianificazione di flotte per noleggio, resort e club: specifica robusta, quantità per container, ricambi e stagionalità.',
+    },
+  ],
+  pt: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'Como escolher o teu SUP',
+      intro:
+        'A escolha da tua primeira prancha de SUP insuflável depende do tamanho, da largura, da construção e do conteúdo da embalagem. Eis o que importa, em palavras simples.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Guia de pagaiada para principiantes',
+      intro:
+        'Tudo o que precisas para as tuas primeiras sessões na água: insuflar, o primeiro passo em pé, a pagaiada básica e como manteres-te em segurança.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Insuflável vs prancha rígida',
+      intro:
+        'As duas famílias de construção ganham cada uma em cenários diferentes. Eis a comparação honesta para pagaiadores recreativos, clubes e operadores de aluguer.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Conselhos de segurança na água',
+      intro:
+        'Uma sessão segura é uma sessão agradável. Estas bases valem igualmente para lagos, rios e pagaiada costeira.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Como escolher uma fábrica OEM de SUP personalizados',
+      intro:
+        'Como avaliar um fabricante de SUP personalizados antes de emitir uma encomenda: encomenda de teste, produção interna, amostras, custos e inspeção.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'SUP de marca própria',
+      intro:
+        'O que inclui realmente um acordo de private label: plataformas comprovadas, branding completo, custos, exclusividade e prazos.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'Comprar frotas de SUP',
+      intro:
+        'Planeamento de frotas para aluguer, resorts e clubes: especificação robusta, quantidades por contentor, peças de reposição e sazonalidade.',
     },
   ],
 }

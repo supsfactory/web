@@ -1,0 +1,131 @@
+meta:
+  title: 'Centro de I&D — engenharia de SUP insufláveis | {SITE}'
+  description: 'Investigação & desenvolvimento — provas de tecidos PVC, engenharia do casco, soldadura HF, provas hidrodinâmicas e controlo de qualidade. Serviços de I&D personalizados disponíveis.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Centro de I&D
+  title: Centro de I & D
+  subtitle: 'Foco no progresso'
+
+intro:
+  - O centro de investigação e desenvolvimento (I&D) da Vatrad é a força motriz da nossa missão de revolucionar o equipamento de desportos aquáticos. Através de uma inovação incansável nas pranchas stand-up paddle (SUP) insufláveis e nos gomões, tornamos possíveis produtos mais seguros, mais confortáveis e mais bonitos para os entusiastas de desportos aquáticos em todo o mundo. A nossa equipa dedicada de engenheiros, designers e apaixonados experientes do setor molda o futuro da indústria, elevando constantemente o nível de qualidade, desempenho e sustentabilidade.
+  - A nossa estrutura de I&D reúne sob o mesmo teto cientistas de materiais, arquitetos navais e engenheiros de produção. Da formulação dos tecidos e a simulação do casco ao desenvolvimento dos processos de soldadura até às provas em mar em grande escala, cada fase do desenvolvimento de produto é orientada por dados e validada por ensaios.
+
+mission:
+  tagline: A nossa missão
+  title: Inovar o futuro dos desportos aquáticos
+  pillars:
+    - icon: lightning
+      title: Progresso tecnológico
+      desc: Ser pioneiros de novos materiais, designs e processos produtivos para um desempenho e durabilidade superiores do produto.
+    - icon: design
+      title: Design centrado no utilizador
+      desc: Compreender a fundo e superar as necessidades dos utilizadores através de um design ergonómico e intuitivo.
+    - icon: globe
+      title: Práticas sustentáveis
+      desc: Reduzir ao mínimo a nossa pegada ecológica graças a materiais e processos respeitadores do ambiente.
+    - icon: shield
+      title: Segurança sem compromissos
+      desc: Garantir os mais elevados padrões de segurança através de ensaios e certificações rigorosos.
+
+pillars:
+  - title: Progresso tecnológico
+    desc: Ser pioneiros de novos materiais, designs e processos produtivos para um desempenho e durabilidade superiores do produto.
+    icon: tech
+  - title: Materiais de vanguarda
+    desc: Estudo de PVC, Hypalon, materiais compósitos e alternativas sustentáveis de vanguarda para propriedades de produto melhoradas.
+    icon: materials
+  - title: Sustentabilidade
+    desc: 'Um compromisso fundamental: promovemos a responsabilidade ambiental através de uma produção sustentável e materiais recicláveis.'
+    icon: sustainability
+
+capabilities:
+  tagline: Capacidades
+  title: Capacidades de I&D
+  subtitle: Quatro disciplinas-chave dão-nos o controlo end-to-end sobre o desenvolvimento de produto — da investigação das matérias-primas à certificação final.
+  groups:
+    - title: Ciência dos materiais & tecnologia dos tecidos
+      items:
+        - Análise e otimização das formulações PVC e Hypalon
+        - Desenvolvimento de estabilização UV, retardadores de chama e aditivos antimicrobianos
+        - Laminação de tecidos multicamada e engenharia das ligações adesivas
+        - Provas de envelhecimento acelerado (UV, térmico, humidade, nevoeiro salino)
+    - title: Engenharia do casco & hidrodinâmica
+      items:
+        - Design paramétrico 3D do casco e otimização CFD
+        - Análise de elementos finitos para cargas estruturais e de impacto
+        - Provas em tanque de reboque com modelos e validação do desempenho
+        - Desenvolvimento personalizado do casco para perfis de utilização especiais
+    - title: Tecnologia de soldadura & junção
+      items:
+        - Desenvolvimento e otimização do processo de soldadura dielétrica HF
+        - Processos de soldadura a ar quente, cunha térmica e ultrassons
+        - Qualificação das ligações adesivas e dos fitas de costura
+        - Modelação da resistência da soldadura e previsão da duração
+    - title: Ensaios, certificação & conformidade
+      items:
+        - Gestão da qualidade e ensaios de conformidade CE
+        - Apoio para ensaios e certificações de terceiros independentes
+        - Desenvolvimento de protocolos de prova personalizados para a qualificação de aprovisionamento
+        - Análise de falhas em campo e investigação de causas
+
+rd_numbers:
+  tagline: Inovação
+  title: I&D em números
+  stats:
+    - value: '14'
+      label: Engenheiros & cientistas de I&D
+    - value: '8'
+      label: Patentes & pedidos ativos
+    - value: '6'
+      label: Laboratórios especializados
+    - value: 12 yr
+      label: Experiência média da equipa
+
+rd_services:
+  tagline: I&D personalizada
+  title: Serviços de I&D para parceiros
+  services:
+    - title: Desenvolvimento de materiais personalizado
+      desc: Desenvolvemos formulações de tecido, stacks de laminado e sistemas adesivos personalizados, à medida do teu ambiente de utilização e dos teus objetivos de desempenho.
+    - title: Engenharia de produto OEM / ODM
+      desc: Desenvolvemos formulações de tecido, stacks de laminado e sistemas adesivos personalizados, à medida do teu ambiente de utilização e dos teus objetivos de desempenho.
+    - title: Ensaios de terceiros & certificação
+      desc: Utiliza as nossas estruturas de ensaio conformes ISO para provas de materiais independentes, validação de produto e apoio à certificação.
+  cta: Discute os teus requisitos de I&D →
+  cta_link: /pt/contact
+
+vision:
+  tagline: A nossa visão
+  title: Dar forma ao futuro dos desportos aquáticos
+  body: A Vatrad visa liderar o setor dos gomões e dos SUP através de inovação contínua, qualidade inabalável e um firme compromisso com a segurança e a sustentabilidade — enriquecendo assim as experiências dos entusiastas de desportos aquáticos em todo o mundo. O centro de I&D da Vatrad é o lugar onde a paixão encontra a inovação e se fixam novos parâmetros de referência para o setor dos desportos aquáticos.
+
+labs_section:
+  tagline: Laboratórios
+  title: Os nossos laboratórios
+  labs:
+    - image: https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp
+      title: Laboratório de tecidos PVC
+      description: Investigação e provas contínuas sobre materiais insufláveis PVC e Hypalon para resistência à tração, resistência UV, abrasão e flexibilidade a frio, para garantir fiabilidade a longo prazo em ambientes marinhos.
+      href: /pt/randdcenter/pvc-fabric-lab
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-2.webp
+      title: Estúdio de engenharia do casco
+      description: Design assistido por CAD e análise de elementos finitos de cascos em HDPE, alumínio e fibra de vidro. Cada casco é simulado digitalmente para a distribuição das tensões e a resistência aos impactos antes da construção do primeiro protótipo.
+      href: /pt/randdcenter/hull-engineering
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-sup-manufacturing-3.webp
+      title: Centro de soldadura HF
+      description: Estrutura dedicada de soldadura de alta frequência com controlo preciso de temperatura e pressão, que produz costuras de alta resistência e estanques ao ar segundo os padrões de setor para embarcações insufláveis.
+      href: /pt/randdcenter/rf-welding
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion-original.webp
+      title: Tanque de prova hidrodinâmica
+      description: Provas em modelos no nosso tanque de prova para otimizar a forma do casco, o deslize, a estabilidade e a eficiência numa série de condições de carga e de mar.
+      href: /pt/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: Oficina de protótipos
+      description: Estrutura em tamanho real para prototipagem e montagem, onde os novos modelos são construídos, montados e ensaiados em mar. Cada protótipo passa por um programa de testes em água de pelo menos 20 horas antes da aprovação de produção.
+      href: /pt/randdcenter/prototype-workshop
+    - image: https://assets.supsfactory.com/images/sups/factory/supsfactory-uv-resistance-testing.webp
+      title: Laboratório de qualidade & ensaios
+      description: Laboratório de garantia da qualidade dedicado para provas de tração, ciclos de estanquicidade ao ar, provas de peeling das costuras e certificação dos materiais, para garantir que cada embarcação que sai da oficina corresponde às nossas especificações publicadas.
+      href: /pt/randdcenter/quality-inspection-lab

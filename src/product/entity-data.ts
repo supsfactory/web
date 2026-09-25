@@ -31,6 +31,16 @@ export const ENTITY_FACTS: Record<string, { label: string; value: string }[]> = 
     { label: 'Mercati', value: 'Mondiale: Europa, Americhe, Asia, Oceania' },
     { label: 'Modello di business', value: 'Sviluppo e produzione B2B — nessuna vendita al consumatore finale' },
   ],
+  pt: [
+    { label: 'Marca', value: `SUPsfactory — a divisão de fabrico de SUP de ${BRAND_PARENT_BRAND}` },
+    { label: 'Entidade legal', value: BRAND_COMPANY_NAME },
+    { label: 'Relação de marca', value: `A SUPsfactory é a divisão de fabrico de SUP de ${BRAND_PARENT_BRAND}, operada pela ${BRAND_COMPANY_NAME}. A ${BRAND_PARENT_BRAND} abrange barcos RIB, barcos insufláveis, pranchas de SUP e soluções marítimas; a SUPsfactory concentra-se exclusivamente no fabrico OEM/ODM de SUP insufláveis.` },
+    { label: 'Foco do produto', value: 'Fabrico de SUP insufláveis: OEM, ODM e marca própria' },
+    { label: 'Fábricas', value: 'Fábrica própria de 12.500 m² em Qingdao, China' },
+    { label: 'Encomenda mínima', value: 'Por escalões: 5–10 co-branding · 20–50 piloto · 90–100+ volume por configuração aprovada' },
+    { label: 'Mercados', value: 'Mundial: Europa, Américas, Ásia, Oceânia' },
+    { label: 'Modelo de negócio', value: 'Desenvolvimento e fabrico B2B — sem vendas ao consumidor final' },
+  ],
 }
 
 export const ENTITY_SERVICES = ['custom-sup', 'private-label', 'resort', 'club', 'school']

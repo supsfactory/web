@@ -1,0 +1,105 @@
+meta:
+  title: 'Paddle insuflável OEM & Private Label | {SITE}'
+  description: 'Produtor OEM/ODM de paddles insufláveis: produção de pás personalizadas, private label e venda por grosso. Fábrica certificada CE na China.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'OEM Paddle Board'
+    - 'ODM Inflatable SUP'
+    - 'Private Label SUP'
+    - 'fabricante de pás personalizadas'
+    - 'venda por grosso de paddle boards'
+    - 'fornecedor SUP profissional'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'Produção OEM de paddles insufláveis sob a tua marca'
+  subtitle: 'Da ideia ao produto acabado: produzimos a tua paddle insuflável personalizada. Logótipo, cores, embalagem, molde próprio — produção OEM/ODM na China, pronta para o teu mercado.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Paddle OEM personalizada com o logótipo da marca
+  actions:
+    - text: 'Inicia o meu projeto OEM'
+      href: /pt/contact
+
+answer:
+  label: 'Resposta breve'
+  text: 'A quantidade mínima de encomenda é confirmada com base no projeto: amostra (1–2 unidades), piloto (20–50 unidades) e volume padrão (90–100+ unidades por lote de um rolo de drop-stitch de 150 m), com co-branding para pequenos lotes a partir de 5–10 unidades. As amostras partem em 7–12 dias; a produção em série continua por 25–35 dias após a encomenda e o sinal. A certificação CE para os modelos destinados ao mercado da UE e a documentação de conformidade completa estão incluídas em cada encomenda.'
+  verified: 'September 2026'
+  image:
+    src: https://assets.supsfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Paddle OEM personalizada com o logótipo da marca
+  actions:
+    - text: 'Inicia o meu projeto OEM'
+      href: /pt/contact
+      variant: primary
+    - text: 'Vê os pacotes OEM'
+      href: /pt/oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Dias de lead time de produção'
+    detail: 'Desde a encomenda confirmada e o sinal'
+  - value: '50'
+    label: 'MOQ mínimo (unidades)'
+  - value: '200+'
+    label: 'Modelos entregues'
+  - value: '100%'
+    label: 'Certificação CE incluída'
+features:
+  title: 'Um serviço OEM completo'
+  subtitle: 'Tudo sob o mesmo teto: design, prototipagem, produção, controlo de qualidade e logística.'
+  columns: 3
+  items:
+    - title: 'Design & engenharia'
+      description: 'Modelação 3D, seleção de materiais PVC/VS2 e design gráfico personalizado.'
+      icon: 'tabler:palette'
+    - title: 'Protótipo & validação'
+      description: 'Amostra certificada CE com teste de qualidade antes da produção em massa.'
+      icon: 'tabler:flask'
+    - title: 'Produção em massa'
+      description: 'Produção em grande escala com QC em linha e apoio para os audits de fábrica.'
+      icon: 'tabler:building-factory'
+    - title: 'Private Label'
+      description: 'Logótipo, etiquetas, embalagem e display box no estilo da tua marca.'
+      icon: 'tabler:shield-check'
+    - title: 'Qualidade certificada'
+      description: 'CE / ISO / BSCI / REACH — paddles insufláveis profissionais para os mercados globais.'
+      icon: 'tabler:certificate'
+    - title: 'Envio global'
+      description: 'FOB Qingdao, CIF para os principais portos e entrega porta a porta em mais de 50 países.'
+      icon: 'tabler:world'
+faqs:
+  title: 'FAQ sobre a produção de paddles OEM'
+  subtitle: 'Respostas às perguntas mais frequentes das marcas que lançam a sua própria paddle.'
+  items:
+    - title: 'Como crio a minha marca de paddles?'
+      description: 'Lança a tua marca: briefing, design, protótipo certificado CE, produção em massa e entrega. Amostras em 7–12 dias, produção em 25–35 dias desde a encomenda e o sinal. Descobre os nossos pacotes OEM.'
+    - title: 'Qual é o lead time de produção?'
+      description: 'A amostra está pronta em 7–12 dias, a produção em massa em 25–35 dias após a encomenda e o sinal, consoante a quantidade.'
+    - title: 'A paddle leva o nosso logótipo?'
+      description: 'Sim — private label completo: impressão do logótipo, cores personalizadas, embalagem e etiquetas com a marca.'
+    - title: 'Posso comprar grandes quantidades desde o primeiro dia?'
+      description: 'O MOQ é confirmado com base no projeto — amostra (1–2 unidades), piloto (20–50 unidades) e volume padrão (90–100+ unidades por lote), com escalões de preço por grosso que crescem com a quantidade.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Aprofunda:</strong> a produção de paddles e pranchas partilha o mesmo <a href="/pt/oem-manufacturing">programa OEM/ODM</a> e o mesmo <a href="/pt/factory">armazém de fábrica de 12.500 m&sup2;</a> — uma única oferta cobre ambos.</p>
+  </div>
+
+geo:
+  tagline: 'Posicionamento B2B'
+  sentence: 'A Vatrad é um produtor profissional de SUP insufláveis e paddle boards (OEM/ODM), especializado em design, produção personalizada e soluções para os desportos aquáticos para marcas, distribuidores, clubes e empresas.'
+  audiences:
+    - 'Private Label'
+    - 'Grossistas'
+    - 'Distribuidores'
+    - 'Centros náuticos'
+cta:
+  title: 'Dá vida à tua marca de paddles'
+  subtitle: 'Recebe uma proposta OEM detalhada num dia útil.'
+  actions:
+    - text: 'Solicita uma proposta OEM'
+      href: /pt/contact
+      variant: primary
+    - text: 'Descarrega o guia OEM'
+      href: /pt/research/oem-buyer-guide
+      variant: secondary

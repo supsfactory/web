@@ -1,0 +1,135 @@
+meta:
+  title: 'Private label & distribuição por grosso para distribuidores | {SITE}'
+  description: 'Programas private label e por grosso diretamente da fábrica para distribuidores e retalhistas: territórios exclusivos, produção SUP white label e gestão de conta dedicada.'
+  dateModified: '2026-09'
+
+hero:
+  tagline: Distribuidores & Private Label
+  title: 'Programas diretamente da fábrica para distribuidores e marcas'
+  subtitle: 'Programas por grosso e private label de uma unidade de produção de SUP insufláveis. Compra a preços diretos de fábrica, constrói o teu sortido com marca própria e distribui em territórios exclusivos em mais de 50 países.'
+  image:
+    src: https://assets.supsfactory.com/images/sups/factory/supsfactory-factory-building.webp
+    alt: Unidade de produção e envio SUPsfactory
+
+answer:
+  label: 'Resposta breve'
+  text: 'Distribuidores e marcas colaboram diretamente com a fábrica: pranchas SUP white label com marca própria, preços por grosso diretos de fábrica, território exclusivo por programa, 3–8 SKUs no arranque e 45–60 dias de dilação de pagamento (tudo sujeito ao acordo comercial), com 100 % do stock testado em pressão antes do envio. Quantitativos mínimos iniciais e condições de transporte são acordados por território, com envio FOB Qingdao ou CIF.'
+  verified: 'September 2026'
+
+intro:
+  tagline: O programa
+  title: 'Distribuição private label baseada em capacidade produtiva própria'
+  body: |
+    A SUPsfactory projeta, constrói e testa cada SUP insuflável, caiaque e acessório na sua própria unidade de Laixi, Qingdao. Um acordo private label connosco significa que a fonte de aprovisionamento está integrada na tua marca: recebes pranchas produzidas pela fábrica em teu nome — não stock revendido de outro distribuidor.
+
+    Como planeamos a produção em torno das previsões dos nossos clientes, podemos programar grandes volumes para o arranque da época do hemisfério norte, estabilizar os custos de transporte através de pré-encomendas e libertar capital circulante com condições por grosso transparentes e planos de pagamento acordados. Engenharia, amostras, controlo de qualidade e documentação para a exportação são todos geridos internamente — não há qualquer broker ou intermediário comercial na cadeia.
+
+    Este programa é uma das duas modalidades de colaboração com a fábrica. Se geres a tua própria marca por grosso e queres fazê-la produzir para ti, esta página é para ti. Os resorts, os centros de formação e as frotas de aluguer que compram diretamente para uso próprio devem antes consultar a produção OEM/ODM e os programas para frotas.
+
+wholesale_pricing:
+  tagline: Porquê participar
+  title: 'O que recebem os distribuidores'
+  subtitle: 'Tudo o que é necessário para lançar um sortido com marca própria no teu mercado.'
+  intro: 'Os parceiros de distribuição recebem a mesma qualidade de fábrica e a mesma profundidade tecnológica que fornecemos às marcas OEM/ODM, embaladas para o canal por grosso com marca própria. As condições do programa — exclusividade territorial, sortido de SKUs inicial e condições de pagamento — são confirmadas para cada programa no acordo comercial.'
+  stats:
+    - value: '50+'
+      label: 'Países para onde enviamos'
+    - value: '1'
+      label: 'Gestor de conta dedicado'
+    - value: '45–60'
+      label: 'Dias de dilação de pagamento'
+    - value: '120,000+'
+      label: 'Pranchas de capacidade anual'
+    - value: '3–8'
+      label: 'SKUs no arranque do programa'
+    - value: '100%'
+      label: 'Testado em fábrica antes do envio'
+
+steps:
+  tagline: Como funciona
+  title: 'Da candidatura ao primeiro contentor'
+  subtitle: 'Um processo de onboarding claro e estruturado em várias fases, para o teu programa com marca própria arrancar pontualmente na primeira época.'
+  steps:
+    - step: 1
+      title: Envia a candidatura
+      desc: 'Envia a candidatura de distribuidor com o perfil da tua empresa, o teu volume de negócios por grosso prévio e o teu território.'
+    - step: 2
+      title: Atribuição do território
+      desc: 'Confirmamos quais os países ou regiões que o teu programa com marca própria cobre e se o território é exclusivo.'
+    - step: 3
+      title: Plano de sortido & branding
+      desc: 'Escolhe os teus modelos base do catálogo de produção, congela as especificações e finaliza as gráficas da tua marca para a produção.'
+    - step: 4
+      title: Aprovação de amostras & qualidade
+      desc: 'Encomenda amostras de certificação para verificar qualidade, embalagem e gestão drop-ship. As amostras são aprovadas antes do arranque da produção em série.'
+    - step: 5
+      title: Reencomenda sazonal
+      desc: 'O teu gestor de conta planeia a produção e os reabastecimentos em torno das tuas previsões e do calendário sazonal.'
+
+benefits:
+  title: O que recebem os distribuidores
+  subtitle: 'Tudo o que é necessário para ter sucesso no teu mercado.'
+  items:
+    - 'Private label com marca própria (OEM white label)'
+    - 'Direitos territoriais exclusivos (segundo o acordo comercial)'
+    - 'Catálogo de produção: SUP, acessórios, componentes'
+    - 'Preços competitivos diretamente da fábrica'
+    - 'Materiais de marketing e venda (traduzidos)'
+    - 'Programa de formação (produto, vendas, manutenção)'
+    - 'Apoio em feiras'
+    - 'Programa de aprovação de amostras e pré-produção'
+    - 'Capacidade drop-ship'
+    - 'Gestor de conta dedicado aos distribuidores'
+    - '45-60 dias de dilação de pagamento (sujeito ao acordo comercial)'
+
+coverage:
+  title: Distribuição atual
+  subtitle: 'A SUPsfactory envia atualmente diretamente para estes mercados.'
+  regions:
+    - name: Europa
+      countries: 'França, Alemanha, Reino Unido, Espanha, Itália, Países Baixos, Suécia, Noruega, Polónia, Grécia'
+    - name: Ásia
+      countries: 'Japão, Coreia do Sul, China, Tailândia, Singapura'
+    - name: Médio Oriente
+      countries: 'Emirados Árabes Unidos, Arábia Saudita'
+    - name: Américas
+      countries: 'EUA, Canadá, Brasil, México'
+    - name: Oceânia
+      countries: 'Austrália, Nova Zelândia'
+    - name: África
+      countries: 'África do Sul, Marrocos'
+
+faqs:
+  tagline: FAQ para distribuidores
+  title: 'Programa de distribuição por grosso — Perguntas frequentes'
+  items:
+    - q: 'Qual é a encomenda mínima para um novo distribuidor?'
+      a: 'Os novos parceiros de distribuição começam normalmente com uma encomenda de aprovação de amostras e pré-produção, seguida de um primeiro contentor calibrado para a sua época. Os quantitativos mínimos exatos dependem da amplitude do território e do sortido escolhido; o teu gestor de conta confirma o quantitativo inicial durante o planeamento de sortido e branding.'
+    - q: 'Podemos vender as pranchas com a nossa marca?'
+      a: 'Sim. O private label é o modelo padrão aqui: as pranchas são produzidas com marca própria, com as tuas gráficas, a tua embalagem e as tuas especificações. A SUPsfactory produz exclusivamente para os seus clientes e não compete com eles em nenhum mercado.'
+    - q: 'Os territórios são exclusivos?'
+      a: 'Sim. Os programas para distribuidores baseiam-se em territórios exclusivos — cada parceiro por grosso cobre um país ou região definidos e recebe apoio de preços e de programa para esse mercado, conforme estabelecido no acordo comercial.'
+    - q: 'Apoiam o drop-shipping?'
+      a: 'A capacidade drop-ship está incluída no programa. Amostras, embalagem e gestão são validadas na fase de aprovação de amostras, para que as encomendas drop-ship funcionem sem problemas desde o primeiro dia.'
+    - q: 'Que modelos podemos encomendar?'
+      a: 'O catálogo de produção inclui pranchas SUP insufláveis em formas Allround, Touring e Surf, caiaques insufláveis, bombas, pás, coletes salva-vidas e acessórios de manutenção, além de formas personalizadas desenvolvidas com a nossa equipa de engenheiros. A maioria dos parceiros começa com 4–8 SKUs bestseller e expande nas épocas seguintes.'
+    - q: 'Como são enviadas as encomendas?'
+      a: 'As encomendas saem da fábrica com partidas planeadas, com possibilidade de pré-encomenda para estabilizar os custos de transporte. O teu gestor de conta dedicado planeia a produção e o envio em torno das tuas previsões e do calendário sazonal.'
+    - q: 'Como me candidato?'
+      a: 'Usa o formulário de candidatura presente nesta página ou contacta-nos diretamente. As candidaturas são examinadas pela equipa de vendas e respondemos em poucos dias úteis com os passos seguintes, incluindo a atribuição do território e um esboço de contrato.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Aprofunda:</strong> os parceiros de distribuição comercializam pranchas produzidas para eles com marca própria — descobre o <a href="/pt/oem-manufacturing">programa de produção OEM/private label</a> e o <a href="/pt/factory">processo de qualidade da fábrica</a> para posicionar o produto com confiança.</p>
+  </div>
+
+cta:
+  title: 'Pronto a lançar o teu sortido com marca própria?'
+  subtitle: 'Candidata-te ao programa para distribuidores ou explora o catálogo de produção.'
+  actions:
+    - text: 'Candidata-te ao programa para distribuidores'
+      href: '/pt/contact#distributor'
+      variant: 'primary'
+    - text: 'Explora o catálogo de produção'
+      href: '/pt/products'
+      variant: 'secondary'

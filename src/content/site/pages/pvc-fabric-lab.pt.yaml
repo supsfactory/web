@@ -1,0 +1,111 @@
+meta:
+  title: 'Laboratório de tecidos PVC — provas de materiais para pranchas SUP'
+  description: 'Provas de materiais da fibra à prancha acabada: resistência à tração, envelhecimento UV, flexibilidade a frio e resistência à abrasão para os tecidos PVC dos SUP.'
+back_text: 'Voltar ao centro de I&D'
+home_label: 'Início'
+
+hero:
+  tagline: 'Laboratório 01'
+  title: 'Laboratório de tecidos PVC'
+  subtitle: 'Provas científicas de materiais — da fibra à prancha acabada'
+  image: 'https://assets.supsfactory.com/images/sups/randd/supsfactory-pvc-material-lab.webp'
+  image_alt: 'Laboratório de provas de materiais para tecidos PVC da Vatrad'
+
+answer:
+  label: 'Resposta breve'
+  text: 'As pranchas são construídas com PVC marinho de 1.680 DTEX com um revestimento de três camadas e um núcleo drop-stitch projetado para 12–15 PSI. Cada lote de tecido à entrada é testado de forma independente em fábrica — resistência à tração (ISO 1421), retenção UV após 2.000 horas de exposição à lâmpada de xénon (ISO 4892), abrasão e flexibilidade a frio — nenhum lote entra em produção apenas com base nas fichas técnicas do fornecedor.'
+  verified: 'September 2026'
+
+intro: 'O tecido da prancha é de longe o material mais importante num SUP insuflável. Tem de resistir a uma exposição UV prolongada, a ciclos de insuflação repetidos, à abrasão no deck e em praias arenosas e a variações de temperatura extremas — mantendo entretanto a sua integridade estrutural durante anos. Na {SITE.name}, o nosso laboratório de tecidos PVC é dedicado exclusivamente à caracterização, à validação e à melhoria contínua dos tecidos que usamos em cada prancha que construímos.'
+
+content_html: |
+  <h2>A base de cada SUP insuflável</h2>
+  <p>Não nos apoiamos apenas nas fichas técnicas do fornecedor. Cada lote de tecido PVC e de núcleo drop-stitch que entra na nossa oficina é testado de forma independente internamente. Isto garante que a especificação de material publicada seja também a prestação do material que recebes — lote após lote, ano após ano.</p>
+
+  <h2>Equipamento de prova padronizado</h2>
+  <p>O nosso laboratório de tecidos está dotado de aparelhos industriais de prova conformes aos métodos ISO, ASTM e EN:</p>
+  <table>
+    <thead><tr><th>Equipamento</th><th>Parâmetros medidos</th><th>Norma</th></tr></thead>
+    <tbody>
+      <tr><td>Máquina universal de prova de tração (50 kN)</td><td>Força de rutura, alongamento na rutura, comportamento na propagação do corte</td><td>ISO 1421 / ASTM D751</td></tr>
+      <tr><td>Câmara de envelhecimento com lâmpada de xénon</td><td>Resistência UV (variação de cor, conservação da resistência após 2000 h)</td><td>ISO 4892 / ASTM G155</td></tr>
+      <tr><td>Aparelho de flexibilidade a frio</td><td>Temperatura de rutura de -30 °C a -50 °C</td><td>ISO 4675 / ASTM D2136</td></tr>
+      <tr><td>Aparelho de abrasão Taber</td><td>Perda de peso após 1000 ciclos (roda CS-10)</td><td>ASTM D3389 / ISO 5470-1</td></tr>
+      <tr><td>Calibrador de espessura (digital, resolução 0.001 mm)</td><td>Uniformidade na largura do rolo</td><td>ISO 2286-3</td></tr>
+      <tr><td>Aparelho de prova de coluna de água</td><td>Resistência à penetração da água</td><td>ISO 811</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Todos os instrumentos são calibrados anualmente por laboratórios terceiros acreditados.</p>
+
+  <h2>Dos dados à decisão: um percurso típico de prova</h2>
+  <p>Quando chega um novo tecido candidato, passa por um processo de qualificação padronizado em sete fases:</p>
+  <ol>
+    <li><strong>Controlo à entrada</strong> — inspeção visual de defeitos de superfície, furos de agulha e conformidade dimensional.</li>
+    <li><strong>Mapeamento da espessura</strong> — medição em 20 pontos ao longo do rolo; para a aceitação é exigido CV &lt; 3 %.</li>
+    <li><strong>Prova de tração</strong> — 5 amostras em direção de urdume e trama. Pelo menos 3500 N/50 mm para PVC de 1100 dtex.</li>
+    <li><strong>Condicionamento UV</strong> — 1000 h de exposição na câmara de lâmpada de xénon; exigida uma conservação da resistência de pelo menos 80 %.</li>
+    <li><strong>Rutura a frio</strong> — 4 h a -35 °C, depois dobragem a 180° num mandril de 25 mm. Nenhuma fissura visível.</li>
+    <li><strong>Resistência à abrasão</strong> — 1000 ciclos, perda de peso ≤ 0.05 g.</li>
+    <li><strong>Libertação</strong> — apenas após ultrapassar todos os sete gates é que o tecido é libertado para a produção.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">PVC típico 1100 dtex — conservação da resistência à tração após exposição UV</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 h 100%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">500 h 95%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">1000 h 88%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
+        <span class="text-xs mt-1">2000 h 82%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
+        <span class="text-xs mt-1">Concorrente ~65%</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">O nosso tecido PVC 1100 dtex conserva mais de 80 % da resistência à tração após 2000 h de exposição à lâmpada de xénon — face a classes industriais comuns que descem abaixo dos 70 %.</p>
+  </div>
+
+  <h2>A nossa equipa técnica</h2>
+  <p>O laboratório é presidido por dois engenheiros de materiais a tempo inteiro, cada um com uma licenciatura em ciência dos polímeros ou tecnologia têxtil e pelo menos seis anos de experiência no setor. Apoiados por três técnicos que executam os controlos diários e o registo de dados. A equipa participa regularmente nos circuitos de intercomparação organizados pela Organização Internacional de Normalização (ISO) para validar a exatidão dos nossos métodos de prova.</p>
+
+  <h2>Resolver os teus desafios de materiais mais difíceis</h2>
+  <p>Cada ambiente de remada é diferente. Uma prancha nos trópicos está exposta a condições UV e térmicas completamente diferentes das de um lago nórdico ou de uma bacia desértica. O nosso laboratório de tecidos ajuda-te a escolher — ou a desenvolver — uma especificação de tecido otimizada para o teu perfil de utilização.</p>
+  <p>As soluções especiais recentes incluem:</p>
+  <ul>
+    <li>Um composto PVC de alta resistência à abrasão para um parque de frota de aluguer cujas pranchas tocam regularmente praias arenosas e rampas de cimento (+40 % de duração à abrasão).</li>
+    <li>Uma formulação para temperaturas muito baixas para um programa de retalhistas de armazenamento de inverno no Canadá, testada até -50 °C sem fragilização.</li>
+    <li>Um deck laranja estabilizado na cor para um parque de treino de salvamento e busca que preserva a visibilidade após 3 anos de exposição ao sol tropical.</li>
+  </ul>
+  <p>Não vendemos tecidos "padrão" na esperança de que funcionem. Testamos, validamos e aconselhamos — ou desenvolvemos — uma solução à medida do teu perfil de missão específico. Essa é a diferença {SITE.name}.</p>
+
+  <h2>Como te servimos</h2>
+  <p>Quando vens ter connosco com um desafio de material, eis o que podes esperar:</p>
+  <ol>
+    <li><strong>Consulta</strong> — discutimos o teu ambiente de utilização, os objetivos de prestação e o teu orçamento.</li>
+    <li><strong>Proposta</strong> — é criado um plano de teste com critérios aprovado/reprovado claros e um calendário.</li>
+    <li><strong>Execução</strong> — o nosso laboratório executa os testes e produz um relatório detalhado com dados brutos e análise comparativa.</li>
+    <li><strong>Recomendação</strong> — apresentamos uma especificação de tecido, incluindo opções alternativas se vários materiais satisfazem os teus requisitos.</li>
+    <li><strong>Apoio pós-venda</strong> — após a entrega continuamos disponíveis para qualquer questão sobre o material em campo.</li>
+  </ol>
+  <p>O nosso objetivo não é apenas vender-te uma prancha. Trata-se de garantir que a prancha que recebes funciona de forma fiável nas condições em que a usas — e isso começa no tecido.</p>
+
+cta:
+  title: 'Precisas de uma especificação de tecido personalizada?'
+  subtitle: 'Contacta a nossa equipa de engenharia de materiais para discutir os teus requisitos.'
+  actions:
+    - variant: primary
+      text: Contacta a nossa equipa de laboratório
+      href: /pt/contact#project-brief
+    - text: Voltar ao centro de I&D
+      href: /pt/randdcenter

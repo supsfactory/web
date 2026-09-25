@@ -20,6 +20,7 @@ import { Route as SupComplianceByMarketRouteImport } from './routes/sup-complian
 import { Route as StartSupProjectRouteImport } from './routes/start-sup-project'
 import { Route as SizeGuideRouteImport } from './routes/size-guide'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as SitemapPtDotxmlRouteImport } from './routes/sitemap-pt[.]xml'
 import { Route as SitemapProductsDotxmlRouteImport } from './routes/sitemap-products[.]xml'
 import { Route as SitemapPagesDotxmlRouteImport } from './routes/sitemap-pages[.]xml'
 import { Route as SitemapNewsDotxmlRouteImport } from './routes/sitemap-news[.]xml'
@@ -184,6 +185,11 @@ const SizeGuideRoute = SizeGuideRouteImport.update({
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapPtDotxmlRoute = SitemapPtDotxmlRouteImport.update({
+  id: '/sitemap-pt.xml',
+  path: '/sitemap-pt.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapProductsDotxmlRoute = SitemapProductsDotxmlRouteImport.update({
@@ -795,6 +801,7 @@ export interface FileRoutesByFullPath {
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
+  '/sitemap-pt.xml': typeof SitemapPtDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
   '/start-sup-project': typeof StartSupProjectRoute
@@ -904,6 +911,7 @@ export interface FileRoutesByTo {
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
+  '/sitemap-pt.xml': typeof SitemapPtDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
   '/start-sup-project': typeof StartSupProjectRoute
@@ -1013,6 +1021,7 @@ export interface FileRoutesById {
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
+  '/sitemap-pt.xml': typeof SitemapPtDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
   '/start-sup-project': typeof StartSupProjectRoute
@@ -1125,6 +1134,7 @@ export interface FileRouteTypes {
     | '/sitemap-news.xml'
     | '/sitemap-pages.xml'
     | '/sitemap-products.xml'
+    | '/sitemap-pt.xml'
     | '/sitemap.xml'
     | '/size-guide'
     | '/start-sup-project'
@@ -1234,6 +1244,7 @@ export interface FileRouteTypes {
     | '/sitemap-news.xml'
     | '/sitemap-pages.xml'
     | '/sitemap-products.xml'
+    | '/sitemap-pt.xml'
     | '/sitemap.xml'
     | '/size-guide'
     | '/start-sup-project'
@@ -1342,6 +1353,7 @@ export interface FileRouteTypes {
     | '/sitemap-news.xml'
     | '/sitemap-pages.xml'
     | '/sitemap-products.xml'
+    | '/sitemap-pt.xml'
     | '/sitemap.xml'
     | '/size-guide'
     | '/start-sup-project'
@@ -1453,6 +1465,7 @@ export interface RootRouteChildren {
   SitemapNewsDotxmlRoute: typeof SitemapNewsDotxmlRoute
   SitemapPagesDotxmlRoute: typeof SitemapPagesDotxmlRoute
   SitemapProductsDotxmlRoute: typeof SitemapProductsDotxmlRoute
+  SitemapPtDotxmlRoute: typeof SitemapPtDotxmlRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   SizeGuideRoute: typeof SizeGuideRoute
   StartSupProjectRoute: typeof StartSupProjectRoute
@@ -1554,6 +1567,13 @@ declare module '@tanstack/react-router' {
       path: '/sitemap.xml'
       fullPath: '/sitemap.xml'
       preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-pt.xml': {
+      id: '/sitemap-pt.xml'
+      path: '/sitemap-pt.xml'
+      fullPath: '/sitemap-pt.xml'
+      preLoaderRoute: typeof SitemapPtDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap-products.xml': {
@@ -2434,6 +2454,7 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapNewsDotxmlRoute: SitemapNewsDotxmlRoute,
   SitemapPagesDotxmlRoute: SitemapPagesDotxmlRoute,
   SitemapProductsDotxmlRoute: SitemapProductsDotxmlRoute,
+  SitemapPtDotxmlRoute: SitemapPtDotxmlRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   SizeGuideRoute: SizeGuideRoute,
   StartSupProjectRoute: StartSupProjectRoute,

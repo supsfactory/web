@@ -1,0 +1,93 @@
+meta:
+  title: 'Equipamento da fábrica — Corte, soldadura & impressão'
+  description: 'Equipamento de produção industrial Vatrad: corte de PVC, soldadura RF, impressão digital, montagem e ensaio para SUP insufláveis.'
+  dateModified: '2026-08'
+  keywords:
+    - 'equipamento produção sup'
+    - 'fábrica sup insufláveis'
+    - 'soldadura rf pvc'
+    - 'produção paddle board'
+hero:
+  tagline: Equipamento
+  title: Equipamento de produção & maquinaria
+  subtitle: Equipamento industrial para corte, soldadura, impressão e montagem
+  back_label: Voltar à fábrica
+  back_link: /factory
+
+answer:
+  label: 'Resposta clara'
+  text: 'A nossa fábrica de 12,500 m² gere corte automático com controlo CNC (precisão 0.1 mm, menos de 5% de refugo), termosoldadura a ar quente a 200–600 °C além de soldadura dieletrica RF de 15 kW para as costuras principais, prensas de laminação do núcleo drop-stitch até 14 ft e um laboratório QC que executa o teste de pressão de cada câmara, provas de tração ASTM D751 e a verificação de peeling das costuras ISO 6185.'
+  verified: 'September 2026'
+
+categories:
+  - title: Corte & preparação de materiais
+    items:
+      - name: Cortadeira automática de PVC
+        spec: Com controlo CNC, 6.5 m × 2.5 m, precisão 0.1 mm
+        desc: Cortadeira automática com controlo computadorizado para tecidos em PVC, Hypalon e drop-stitch. O software de aninhamento otimiza a utilização do material até menos de 5% de refugo.
+      - name: Espandideira para tecidos
+        spec: Largura máx. 3 m, avanço com tensão controlada
+        desc: Estende o tecido em uma ou mais camadas com tensão controlada para prevenir deformações antes do corte.
+
+  - title: Soldadura de câmaras & colagem
+    items:
+      - name: Termosoldadora
+        spec: Soldadura a ar quente, variável 200–600 °C, 0.5–5 m/min
+        desc: Termosoldadora a ar quente para colar e soldar as costuras das câmaras em PVC e Hypalon. Utilizada para alinhavar, selar e fundir câmaras e juntas de flutuação.
+      - name: Prensa dieletrica RF
+        spec: 15 kW, prato 2000 × 600 mm
+        desc: Prensa de soldadura de alta frequência para costuras longitudinais principais, junções dos tubulares e produção de câmaras de grandes dimensões.
+      - name: Soldadora RF com controlo CNC
+        spec: 8 kW, mesa XY 2500 × 1200 mm
+        desc: Soldadura programável de costuras curvas para geometrias complexas, marcação de logótipos e reparações de precisão.
+
+  - title: Produção SUP
+    items:
+      - name: Prensa de laminação do núcleo drop-stitch
+        spec: Prensa de grande formato para núcleos de pranchas até 14 ft LOA
+        desc: Laminação de precisão dos núcleos drop-stitch sobre os laminados exteriores em PVC. Cada camada é colada a pressão para uma qualidade e uma resistência constantes.
+      - name: Fresadora CNC (5 eixos)
+        spec: Área de trabalho 3 m × 2 m × 1 m, fuso refrigerado a água
+        desc: Maquinação de fin box, recortes para pegas e componentes personalizados das pranchas.
+
+  - title: Impressão & decoração SUP
+    items:
+      - name: Impressora digital
+        spec: Inkjet de alta resolução, largura de impressão até 2 m
+        desc: Impressão digital direta no tecido para gráficas do deck SUP a cores plenas. Imprime padrões personalizados, degradés e imagens fotorrealistas com tintas à base de água resistentes aos raios UV.
+      - name: Máquina de serigrafia
+        spec: Manual e semiautomática, registo multicolor
+        desc: Serigrafia para logótipos, marcas e padrões repetidos nas pranchas SUP. Oferece impressões duráveis e de cobertura total com forte saturação cromática.
+
+  - title: Montagem & equipamento
+    items:
+      - name: Estação de montagem de pranchas
+        spec: Ajustável de forma modular, layout de várias estações
+        desc: Montagem de fin box, pegas, anéis em D, válvulas e deck pads nas pranchas SUP.
+      - name: Prensa de instalação de válvulas
+        spec: Pneumática, pressão ajustável
+        desc: Instalação e selagem de precisão das válvulas Halkey-Roberts e Leafield.
+      - name: Laminador de deck pad
+        spec: 3 m × 1.5 m, a temperatura controlada
+        desc: Laminação a quente dos deck pads em espuma EVA sobre as superfícies superiores das pranchas SUP com força de adesão constante.
+
+  - title: Ensaio & controlo de qualidade
+    items:
+      - name: Máquina universal de ensaio de tração
+        spec: 50 kN, / ASTM D751
+        desc: Prova de carga máxima, alongamento à rotura e resistência ao rasgão para os lotes de tecido.
+      - name: Dispositivo de teste de retenção de ar
+        spec: Programável, manutenção de pressão de 30 minutos
+        desc: Teste automatizado de manutenção de pressão para cada câmara antes da montagem.
+      - name: Dispositivo de peeling de costuras
+        spec: Abdução motorizada a 180° a 100 mm/min
+        desc: Prova da força de peeling das costuras soldadas e coladas segundo a ISO 6185.
+      - name: Câmara de envelhecimento com arco de xénon
+        spec: 2000 h de exposição
+        desc: Prova de resistência aos raios UV para variação cromática e manutenção da resistência.
+
+cta:
+  title: Interessado num tour pela fábrica?
+  desc: Recebemos com prazer os visitantes nas nossas instalações de Qingdao. Vê de perto o equipamento e os processos.
+  label: Planeia uma visita →
+  link: /contact

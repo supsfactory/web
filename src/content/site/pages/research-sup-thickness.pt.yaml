@@ -1,0 +1,82 @@
+meta:
+  title: 'Como escolher a espessura do SUP — Análise técnica'
+  description: 'Como as pranchas SUP insufláveis de 4", 5" e 6" se diferenciam em rigidez, peso, estabilidade e rumo, com recomendações sobre a espessura.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Voltar à pesquisa'
+
+hero:
+  tagline: 'Técnica'
+  title: 'Como escolher a espessura do SUP — Análise técnica'
+  subtitle: '6 min de leitura'
+
+answer:
+  label: 'Resposta breve'
+  text: 'A espessura é um compromisso entre rigidez e estabilidade: 4" (10 cm) é a mais rígida, mais leve e mais rápida — ideal para tour e competição; 5" (12.7 cm) é a escolha all-round para a maioria dos paddlers; 6" (15.2 cm) maximiza a estabilidade primária para o yoga e os paddlers mais pesados (100+ kg). Uma secção transversal mais fina é estruturalmente mais rígida, portanto uma prancha de 4" flete a 15 PSI menos do que uma de 6" a 25 PSI.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>As três espessuras padrão</h2>
+
+  <h3>4" (10 cm) – Tour &amp; Performance</h3>
+  <ul>
+    <li>Máxima rigidez – menos flexão sob carga</li>
+    <li>Mais leve – menos material, menos volume de ar</li>
+    <li>Excelente rumo – oscilação lateral reduzida</li>
+    <li>Mais rápida – menos resistência, deslize mais fácil</li>
+    <li>Ideal para: tour, competição, fitness paddling, paddlers experientes</li>
+  </ul>
+
+  <h3>5" (12.7 cm) – Allround</h3>
+  <ul>
+    <li>Boa rigidez – relação flexão-rigidez equilibrada</li>
+    <li>Peso moderado – uso padrão de material</li>
+    <li>Boa estabilidade primária e secundária</li>
+    <li>Ideal para: paddling recreativo, principiantes, uso ocasional em mar e rio</li>
+  </ul>
+
+  <h3>6" (15.2 cm) – Estabilidade &amp; Yoga</h3>
+  <ul>
+    <li>Máxima estabilidade primária – enorme impulso de flutuabilidade</li>
+    <li>Mais pesada – mais material em PVC, maior volume de ar</li>
+    <li>Mais lenta – mais resistência, mais difícil de fazer deslizar</li>
+    <li>Ideal para: yoga/fitness, paddlers pesados (100+ kg), condições muito agitadas</li>
+  </ul>
+
+  <h2>Análise técnica</h2>
+  <p>A rigidez de um SUP insuflável é determinada pela pressão do ar interna e pelo momento de inércia da secção transversal da prancha. A 20 PSI, uma prancha de 4" mostra sob carga cerca de 30 % menos de flexão do que uma de 6" de igual largura e comprimento. A estabilidade primária deriva da largura da linha de flutuação e do impulso de flutuabilidade; a estabilidade secundária é influenciada pela forma do rail e pela largura da prancha.</p>
+
+  <h2>Espessura em função do peso do paddler</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Peso do paddler</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Espessura recomendada</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Menos de 65 kg (143 lbs)</td><td class="p-3 border">4"</td></tr>
+      <tr><td class="p-3 border">65 – 90 kg (143 – 198 lbs)</td><td class="p-3 border">5"</td></tr>
+      <tr><td class="p-3 border">90 – 115 kg (198 – 253 lbs)</td><td class="p-3 border">5" ou 6"</td></tr>
+      <tr><td class="p-3 border">Mais de 115 kg (253 lbs)</td><td class="p-3 border">6"</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Compromisso entre espessura e PSI</h2>
+  <p>Um erro comum é pensar que um valor de PSI mais alto pode compensar uma espessura excessiva. A 25 PSI uma prancha de 6" flete mais do que uma de 4" a 15 PSI, porque o momento de inércia geométrico domina a equação da rigidez. Para os paddlers orientados para o desempenho, portanto, uma prancha mais fina a pressão mais baixa comporta-se melhor do que uma mais espessa a pressão mais alta.</p>
+
+  <h2>A linha de produtos Vatrad</h2>
+  <ul>
+    <li><strong>Pranchas de 4":</strong> série Cheetah Touring – SUP de tour 12' x 30" x 4" para fitness e paddling de distância</li>
+    <li><strong>Pranchas de 5":</strong> série Cheetah Allround – 10'6" x 32" x 5" para o uso recreativo</li>
+    <li><strong>Pranchas de 6":</strong> série Cheetah Ultra Stable – 10' x 34" x 6" para yoga, paddlers grandes e plataformas fotográficas</li>
+  </ul>
+  <p>Todas as pranchas utilizam núcleos drop-stitch de 1.680 DTEX com uma pressão prevista de 15 PSI e laminados em PVC de 1.2 mm.</p>
+  <p>Espessura, PSI e especificações do tecido são configuráveis para linhas personalizadas — descobre como <a href="/pt/oem-manufacturing">desenvolvemos pranchas para marcas OEM e private label</a> e observa o processo de construção diretamente <a href="/pt/factory">em fábrica</a>.</p>
+
+cta:
+  title: 'Não tens a certeza de qual espessura é a certa para ti?'
+  subtitle: 'Explora a nossa linha de produtos SUP ou pergunta à nossa equipa de sizing.'
+  button_text: 'Vê as pranchas SUP'
+  button_link: /pt/products

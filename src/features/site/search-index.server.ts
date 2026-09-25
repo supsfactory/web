@@ -38,6 +38,8 @@ const FAQ_TITLES: Record<string, string> = {
   es: 'Preguntas frecuentes',
   fr: 'Questions fréquentes',
   de: 'Häufig gestellte Fragen',
+  it: 'Domande frequenti',
+  pt: 'Perguntas frequentes',
 }
 
 /** Slug → readable label fallback for pages without an explicit SEO title. */

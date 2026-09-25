@@ -1,0 +1,170 @@
+meta:
+  title: 'Guia do MOQ SUP: branding flexível e quantidades mínimas de encomenda'
+  description: 'Eis como se calcula o MOQ para SUP insufláveis: as bobinas drop-stitch de 150 m produzem 90–100 pranchas, co-branding de 5–10 unidades e custos de molde transparentes.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'MOQ SUP'
+    - 'Quantidade mínima de encomenda SUP insufláveis'
+    - 'Programa de co-branding SUP'
+    - 'SUP para pequenos lotes'
+    - 'MOQ para paddle boards personalizadas'
+    - 'Fábrica SUP OEM China'
+
+hero:
+  tagline: 'Transparente e baseado no projeto'
+  title: 'Guia do branding flexível e do MOQ de produção'
+  subtitle: 'Compreende a física da matéria-prima drop-stitch que rege os runs de produção SUP — e como funciona o nosso programa de co-branding de baixo limiar de entrada para operadores de aluguer, clubes, resorts e marcas de desportos aquáticos em crescimento. Projetado e gerido pela Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Resposta breve'
+  text: 'O MOQ não é uma medida única. Cada MOQ é confirmado com base no projeto: forma do casco e ferramental, variantes de cor e PVC, complexidade do artwork, embalagem e mix de acessórios. A produção completa em quantidades padrão corre com 90–100 unidades por lote de uma bobina padrão de tecido drop-stitch de 150 m; o co-branding para pequenos lotes parte das 5–10 unidades; e cada projeto estrutura-se em três fases bem distintas — desenvolvimento da amostra (1–2 unidades), encomenda piloto (20–50 unidades) e produção em quantidade (90–100+ unidades). Confirmamos o cálculo exato para o teu mix de SKUs antes da proposta — sem vagas promessas de "MOQ baixo", sem compromissos escondidos.'
+  verified: 'September 2026'
+
+moq_principle:
+  tagline: A lógica técnica
+  title: 'Porque é que o MOQ padrão é de 90–100 unidades: a física das bobinas de matéria-prima'
+  subtitle: 'As dimensões dos lotes de produção não são números arbitrários inventados pelo departamento de vendas — derivam dos comprimentos das bobinas do tecido bruto drop-stitch e da física das mudanças de linha.'
+  body: |
+    **A baseline da matéria-prima de 150 metros.** O tecido drop-stitch entrançado de alta resistência é produzido e revestido em bobinas-mãe contínuas. O comprimento padrão do segmento industrial para um único lote é de 150 metros de material contínuo.
+
+    **O cálculo do rendimento (de 90 a 100 pranchas).** Com um casco SUP Touring ou Allround padrão (de 10 ft 6 in a 11 ft 6 in), 150 m de bobina-mãe produzem cerca de 90-100 paddle boards acabadas.
+
+    **Zero junções de tecido.** As bobinas completas garantem uma continuidade estrutural total — nenhuma junção transversal arriscada do tecido e tensão uniforme das fibras nas partes superior e inferior da prancha.
+
+    **Calibração térmica e dos adesivos.** As linhas automatizadas de soldadura a ar quente de alta frequência e de laminação com adesivos marítimos exigem 2 horas de pré-aquecimento, perfilagem da temperatura e calibração da pressão. Um lote completo de 90–100 unidades amortiza estes custos fixos de preparação e alcança assim o custo unitário mais baixo possível.
+
+moq_tiers:
+  tagline: Dois percursos para a tua marca
+  title: 'OEM em volume totalmente personalizado vs. co-branding para pequenos lotes'
+  subtitle: 'Uma fábrica, dois pontos de entrada: produção em massa totalmente personalizada para linhas estabelecidas e um programa de co-branding de baixo limiar para clubes, centros de aluguer e marcas em crescimento.'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'OEM em volume totalmente personalizado — 90–100 unidades por lote'
+      desc: 'Determinada pelo comprimento padrão de 150 m da bobina de tecido bruto drop-stitch de alta qualidade, para uma utilização ótima do material e coerência estrutural. · Personalização total a 100%: forma de casco exclusiva e variantes de cor Pantone personalizadas · Cobertura digital ou serigráfica em toda a superfície · Embalagem comercial com marca personalizada, caixas impressas e acessórios com marca · Máxima eficiência de custo e economias de escala'
+      link: '/pt/contact#custom-oem'
+      link_label: 'Solicitar um OEM em volume'
+    - icon: B
+      icon_bg: green
+      title: 'Co-branding para pequenos lotes — abaixo das 20 unidades'
+      desc: 'Uma solução de baixo limiar, construída sobre as nossas coleções de produto anuais testadas em campo para clubes, centros de aluguer e resorts — sem stocks pesados em armazém. · Casco e geometria fixos: formas de casco testadas em campo com conformidade CE/ISO-25649 · Identificação primária: branding oficial SUPsfactory na zona central · Branding pessoal secundário: o teu logótipo no nose ou nos rails laterais · Inspeção parcial ou total a 100% com teste de pressão e estanquicidade de 24 horas'
+      link: '/pt/contact#cobranding'
+      link_label: 'Inicia o co-branding para pequenos lotes'
+
+moq_fees:
+  tagline: Custos de serigrafia transparentes
+  title: 'Estrutura das taxas de co-branding — detalhada antecipadamente'
+  subtitle: 'Preços claros e detalhados para a serigrafia de pequenos lotes. Os custos dos moldes são cobrados uma única vez na primeira configuração e são anulados nas reencomendas com o mesmo formato de artwork.'
+  headers:
+    fee: Rubrica de taxa
+    amount: Valor
+    detail: Detalhes
+  rows:
+    - fee: 'Custos do molde de serigrafia (única vez, logótipo até 30 cm)'
+      amount: '$10.00 USD'
+      detail: 'Uma única vez na primeira configuração; anulados nas reencomendas com o mesmo formato de artwork.'
+    - fee: 'Custos do molde de serigrafia (única vez, logótipo até 50 cm)'
+      amount: '$15.00 USD'
+      detail: 'Uma única vez na primeira configuração; anulados nas reencomendas com o mesmo formato de artwork.'
+    - fee: 'Taxa de processamento em fábrica e impressão de precisão'
+      amount: '$1.00 USD por prancha'
+      detail: 'Cobre o posicionamento manual das coordenadas, o pré-tratamento com solvente, a transferência da cor e a cura térmica.'
+
+moq_stages:
+  tagline: 'Amostra · Piloto · Volume'
+  title: 'Três níveis de quantidade bem distintos'
+  subtitle: 'As quantidades de produção para amostra, piloto e volume são diferentes. Cada projeto é dividido em três fases separadas, para que possas validar antes de te comprometeres.'
+  steps:
+    - step: '01'
+      title: 'Desenvolvimento da amostra (1–2 unidades)'
+      desc: 'Confirmação física da rigidez do casco, aderência do tapete antiderrapante EVA, precisão das gráficas e ajuste dos acessórios antes de qualquer compromisso financeiro. As taxas de amostras aplicam-se e são creditadas na encomenda de produção após a assinatura do contrato.'
+    - step: '02'
+      title: 'Encomenda piloto (20–50 unidades)'
+      desc: 'Testes comerciais pré-época e validação do mercado regional com plataformas de casco existentes, materiais padrão e embalagem simplificada, para minimizar os esforços de ferramental.'
+    - step: '03'
+      title: 'Produção em quantidade (90–100+ unidades)'
+      desc: 'Confirmada após BOM congelado, artwork finalizado, embalagem personalizada e datas de entrega planeadas — bobinas completas de 150 m, tecidos Pantone personalizados, embalagem à medida, descontos de volume e rastreabilidade completa dos lotes ao longo de toda a cadeia.'
+
+moq_factors:
+  tagline: O que determina o teu MOQ
+  title: 'Porque é que o MOQ totalmente personalizado é sempre específico do projeto'
+  subtitle: 'Para a produção 100% à medida, o MOQ é calculado a partir de toda a arquitetura de produto — estes quatro componentes são avaliados em conjunto antes da proposta.'
+  headers:
+    component: Componente do projeto
+    driver: Motor de produção
+    impact: Impacto na quantidade mínima
+  rows:
+    - component: 'Forma do casco e ferramental'
+      driver: 'Formas rocker de fábrica existentes vs. ferramentas de corte CAD personalizadas e equipamento de prensa a quente EVA'
+      impact: 'Plataformas existentes: encomendas piloto de 20 peças. Cascos dedicados: necessária a amortização do ferramental dedicado.'
+    - component: 'Variantes de cor e PVC'
+      driver: 'Cores padrão únicas de armazém vs. lonas PVC tingidas Pantone proprietárias'
+      impact: 'O PVC Pantone personalizado exige runs de tingimento químico dedicados com as próprias quantidades mínimas de matéria-prima.'
+    - component: 'Embalagem com marca'
+      driver: 'Caixas padrão com autocolantes de código de barras vs. caixas de presente comerciais de 5 camadas a cores e manuais com marca'
+      impact: 'As caixas personalizadas a cores têm o seu próprio volume mínimo de impressão offset (normalmente 500+ caixas).'
+    - component: 'Pacotes de acessórios'
+      driver: 'Pás de alumínio ou nylon padrão vs. pás de carbono combinadas à medida e bombas com marca'
+      impact: 'Os acessórios totalmente personalizados seguem os lotes de produção dos sub-fornecedores.'
+
+moq_downloads:
+  tagline: Documentos oficiais
+  title: 'Ficheiros de política bilingues — descarrega e partilha'
+  subtitle: 'Documentos oficiais da Qingdao Vatrad Group Co., Ltd., prontos para anexar aos pedidos dos compradores. Ambos os ficheiros são bilingues (inglês / chinês).'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Guia do branding flexível e do MOQ (PDF)'
+      desc: 'Guia B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN, publicado a 14 ago 2026): a lógica técnica por trás dos rendimentos das bobinas drop-stitch de 150 m (90–100 pranchas), o programa de co-branding de 5–10 unidades, os custos de serigrafia transparentes e os três níveis de produção.'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Descarregar o guia (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Política de branding flexível e co-branding (PDF)'
+      desc: 'Dossier de política oficial (Parte 1, POL-MOQ-2026-V1): regras do co-branding para pequenos lotes, o enquadramento do MOQ baseado no projeto, os quatro fatores que determinam as quantidades mínimas e a subscrição conjunta do VP de vendas, do engenheiro-chefe e do diretor QA.'
+      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link_label: 'Descarregar a política (PDF)'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Perguntas frequentes sobre o MOQ'
+  items:
+    - q: 'O MOQ é calculado por encomenda, por modelo ou por variante de cor?'
+      a: 'O MOQ pode valer por modelo, variante de cor, versão do artwork, configuração da embalagem ou encomenda global. Como diferentes espessuras de drop-stitch (12 cm vs. 15 cm) e cores PVC vêm de bobinas de matéria-prima separadas, uma encomenda de 50 pranchas distribuída por 5 cores exige 5 bobinas de tecido separadas. Confirmamos o cálculo exato contra a tua matriz de SKUs antes da proposta, para que possas planear o teu mix.'
+    - q: 'Posso encomendar uma amostra antes da produção em massa?'
+      a: 'Sim. O desenvolvimento da amostra (1–2 unidades) verifica a rigidez do casco, a aderência do tapete antiderrapante EVA, a precisão das gráficas e o ajuste dos acessórios antes da aprovação para a produção em massa. As taxas de amostras aplicam-se e são creditadas na encomenda de produção após a assinatura do contrato.'
+    - q: 'Porque é que a embalagem comercial personalizada tem o seu próprio MOQ?'
+      a: 'As prensas flexográficas ou offset personalizadas para as caixas exigem um volume mínimo de preparação de 500+ unidades. Oferecemos uma solução de armazenamento híbrido da embalagem: produzimos as 500 caixas impressas personalizadas, armazenamos o excedente no nosso armazém limpo e libertamo-lo conforme os envios programados das tuas pranchas — assim até uma encomenda de pranchas mais pequena pode ser enviada totalmente com marca no cartão comercial.'
+    - q: 'Porque é que o MOQ padrão é de 90–100 unidades?'
+      a: 'O MOQ padrão segue a matéria-prima: uma bobina-mãe de 150 m de tecido drop-stitch de alta qualidade produz cerca de 90–100 pranchas acabadas para um casco Touring ou Allround padrão. As bobinas completas eliminam as junções de tecido, mantêm uniforme a tensão das fibras e amortizam a calibração de 2 horas das linhas de soldadura e laminação — aos custos unitários mais baixos possíveis.'
+    - q: 'Uma quantidade maior baixa o preço unitário?'
+      a: 'Na maioria dos projetos sim. Quantidades maiores melhoram o rendimento dos materiais, distribuem os custos fixos de preparação das linhas de produção por mais pranchas e reduzem os custos de embalagem por unidade.'
+    - q: 'Os custos dos moldes de co-branding recaem nas reencomendas?'
+      a: 'Não. Os custos dos moldes de serigrafia são cobrados uma única vez na primeira configuração e anulados nas reencomendas com o mesmo formato de artwork. Pagas apenas a taxa de processamento e impressão em fábrica de $1.00 USD por prancha.'
+    - q: 'Um pedido de consultoria sobre o MOQ obriga-me a uma encomenda?'
+      a: 'Não. Um pedido de consultoria sobre o MOQ baseado no projeto permite simplesmente que a nossa equipa técnica da Qingdao Vatrad Group Co., Ltd. examine o teu briefing técnico e aconselhe o percurso de produção mais económico. Está disponível um acordo de não divulgação (NDA) antes de partilhares especificações técnicas proprietárias ou artwork.'
+
+evidence_review:
+  tagline: 'Provas e verificação'
+  title: 'ESPECIFICAÇÕES VERIFICADAS'
+  body: 'Todas as declarações de produção desta página são verificadas pela nossa Manufacturing Engineering Team na unidade de Laixi, Qingdao. Certificados, protocolos de ensaio QC, relatórios de testes de pressão e estrutura e protocolos de rastreabilidade dos lotes estão disponíveis mediante pedido. Especificações verificadas pela última vez: setembro 2026.'
+
+cta:
+  title: 'Precisas de uma consultoria sobre o MOQ para o teu projeto SUP?'
+  subtitle: 'Partilha o teu modelo-objetivo, a quantidade estimada da primeira encomenda e os teus requisitos de branding. Aconselhamos-te se o percurso de amostra, piloto ou volume é o passo certo. Um pedido não te compromete com uma quantidade de encomenda definitiva — é possível um encontro sob NDA.'
+  actions:
+    - variant: primary
+      text: Solicitar uma consultoria sobre o MOQ baseada no projeto
+      href: /pt/contact#moq-guide
+    - text: Detalhe de MOQ SUP personalizado e prazos de entrega
+      href: /pt/sup-oem-moq-lead-time
+    - text: Lança uma nova marca com uma encomenda de teste
+      href: /pt/new-brand-trial-order
+    - text: Verifica a fábrica e o sistema de qualidade
+      href: /pt/oem-trust-assurance
+    - text: O sistema de ensaio em 7 fases
+      href: /pt/quality
+    - text: Panorâmica da produção OEM e ODM
+      href: /pt/oem-manufacturing
+    - text: Comparação de construções SUP
+      href: /pt/sup-construction-comparison

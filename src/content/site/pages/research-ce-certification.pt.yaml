@@ -1,0 +1,69 @@
+meta:
+  title: 'Como funciona a certificação CE para pranchas SUP insufláveis'
+  description: 'Como funciona a certificação CE para SUP, embarcações e caiaques insufláveis: diretivas (2013/53/UE RCD, EPI 2016/425), provas, organismos notificados e documentação técnica.'
+  author: 'SUPsfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Voltar a Research'
+
+hero:
+  tagline: 'Conformidade'
+  title: 'Como funciona a certificação CE para SUP & caiaques insufláveis'
+  subtitle: '7 min de leitura'
+
+answer:
+  label: 'Resposta breve'
+  text: 'Os SUP insufláveis enquadram-se na diretiva UE sobre embarcações de recreio 2013/53/UE se tiverem um comprimento de casco superior a 2.5 m, ou na diretiva sobre a segurança geral dos produtos se forem mais pequenos. Para um primeiro produto, a certificação custa cerca de 13.000&ndash;31.000 EUR e exige 8&ndash;14 semanas: documentação técnica, exame de tipo num organismo notificado, audit de fábrica e, posteriormente, uma declaração de conformidade.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>O que é a certificação CE?</h2>
+  <p>A marcação CE (Conformit&eacute; Europ&eacute;enne) indica que um produto satisfaz os requisitos de saúde, segurança e ambiente da UE. Para as embarcações insufláveis, o quadro regulamentar aplicável depende da categoria de produto.</p>
+
+  <h2>Diretivas aplicáveis</h2>
+
+  <h3>Diretiva sobre embarcações de recreio (2013/53/UE)</h3>
+  <p>A diretiva mais importante para a maioria das embarcações insufláveis, SUP e caiaques. Aplica-se aos meios desportivos com comprimento de casco de 2.5 m a 24 m, às embarcações em construção incompleta (para o fornecimento OEM) e às motos de água.</p>
+
+  <h3>Regulamento sobre equipamentos de proteção individual (2016/425)</h3>
+  <p>Os coletes salva-vidas, os dispositivos de flutuação e o equipamento de segurança fornecido com as embarcações devem satisfazer os requisitos do regulamento EPI, incluindo o exame de tipo (módulo B) num organismo notificado e a garantia de qualidade da produção (módulo D ou E).</p>
+
+  <h2>O processo de certificação</h2>
+  <ol>
+    <li>Classificação do produto: determinar a categoria de design da embarcação (A – D segundo a ISO 8666)</li>
+    <li>Normas aplicáveis: EN ISO 6185 (partes 1 – 4), EN ISO 10087 (HIN), EN ISO 14945 (placa do construtor)</li>
+    <li>Elaboração da documentação técnica: desenhos de construção, distinta base, certificados dos materiais, avaliação de riscos</li>
+    <li>Exame de tipo: flutuabilidade, estabilidade, capacidade de carga, provas de materiais, resistência das costuras, estanquicidade ao ar</li>
+    <li>Controlo de produção em fábrica: audit dos processos produtivos por um organismo notificado</li>
+    <li>Declaração de conformidade: o produtor assina a DoC e apõe a marcação CE</li>
+  </ol>
+
+  <h2>Organismos notificados para embarcações insufláveis</h2>
+  <p>Os organismos notificados comuns são Bureau Veritas (França), DNV GL (Alemanha), RINA (Itália), T&Uuml;V Rheinland / T&Uuml;V S&Uuml;D (Alemanha).</p>
+
+  <h2>Tempos e custos</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Fase</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Duração</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Custos típicos (EUR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Elaboração da documentação técnica</td><td class="p-3 border">2 – 4 semanas</td><td class="p-3 border">2.000 – 5.000</td></tr>
+      <tr><td class="p-3 border">Exame de tipo</td><td class="p-3 border">4 – 8 semanas</td><td class="p-3 border">8.000 – 20.000</td></tr>
+      <tr><td class="p-3 border">Audit de fábrica</td><td class="p-3 border">1 – 2 dias (no local)</td><td class="p-3 border">3.000 – 6.000</td></tr>
+      <tr><td class="p-3 border">Total (primeiro produto)</td><td class="p-3 border">8 – 14 semanas</td><td class="p-3 border">13.000 – 31.000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>O que significa para os compradores</h2>
+  <p>Quando compras pranchas insufláveis certificadas CE, verifica sempre que a marcação CE está presente na placa do construtor, que existe uma DoC válida, que está indicado o número do organismo notificado e que o manual de utilização contém os avisos de segurança na tua língua. Todos os produtos Vatrad são certificados CE com rastreabilidade total face aos relatórios de audit dos organismos notificados.</p>
+  <p>A certificação faz parte de cada ciclo produtivo na nossa unidade de Qingdao — consulta o <a href="/pt/factory">fluxo de fábrica para qualidade &amp; ensaios</a> e como apoiamos <a href="/pt/oem-manufacturing">a conformidade CE para os parceiros OEM/private label</a>.</p>
+
+cta:
+  title: 'Precisas de apoio para a certificação CE?'
+  subtitle: 'Gerimos a certificação para os parceiros OEM em todo o mundo.'
+  button_text: 'Inicia o processo de certificação'
+  button_link: /pt/contact

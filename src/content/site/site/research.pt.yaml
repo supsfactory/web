@@ -1,0 +1,49 @@
+badge: Pesquisas atuais
+heading: Centro de conhecimento
+description: Pesquisa técnica aprofundada sobre materiais, construção, normas de segurança e produção de SUP e embarcações insufláveis
+topics:
+  - slug: drop-stitch-technology
+    category: Tecnologia
+    readTime: 8 min de leitura
+  - slug: pvc-vs-hypalon
+    category: Materiais
+    readTime: 10 min de leitura
+  - slug: ce-certification-guide
+    category: Conformidade
+    readTime: 7 min de leitura
+  - slug: sup-thickness-guide
+    category: Construção
+    readTime: 6 min de leitura
+  - slug: oem-buyer-guide
+    category: Aprovisionamento
+    readTime: 12 min de leitura
+  - slug: sup-manufacturing-process
+    category: Produção
+    readTime: 10 min de leitura
+  - slug: eva-foam-technology
+    category: Materiais
+    readTime: 7 min de leitura
+  - slug: uv-printing-vs-eva-block
+    category: Tecnologia
+    readTime: 6 min de leitura
+  - slug: fusion-lamination-vs-glue
+    category: Produção
+    readTime: 8 min de leitura
+  - slug: sup-valve-types
+    category: Construção
+    readTime: 6 min de leitura
+  - slug: fin-systems-guide
+    category: Construção
+    readTime: 7 min de leitura
+  - slug: board-hull-design
+    category: Construção
+    readTime: 9 min de leitura
+  - slug: quality-testing-standards
+    category: Conformidade
+    readTime: 8 min de leitura
+  - slug: sup-paddle-technology
+    category: Equipamento
+    readTime: 7 min de leitura
+  - slug: military-grade-pvc-specs
+    category: Materiais
+    readTime: 8 min de leitura

@@ -1,5 +1,5 @@
 import { test, expect } from 'vitest'
-import { enUi, esUi, frUi, deUi, itUi, enProduct, esProduct, frProduct, deProduct, itProduct } from '@/product/dictionary'
+import { enUi, esUi, frUi, deUi, itUi, ptUi, enProduct, esProduct, frProduct, deProduct, itProduct, ptProduct } from '@/product/dictionary'
 
 function flatKeys(value: unknown, prefix = ''): string[] {
   if (value === null || typeof value !== 'object') return [prefix]
@@ -21,16 +21,18 @@ function keyParity(en: Record<string, unknown>, other: Record<string, unknown>, 
   expect(extra, `${label}: keys added that en does not have`).toEqual([])
 }
 
-test('ui dictionaries: es/fr/de/it keep exact key parity with en', () => {
+test('ui dictionaries: es/fr/de/it/pt keep exact key parity with en', () => {
   keyParity(enUi, esUi, 'esUi')
   keyParity(enUi, frUi, 'frUi')
   keyParity(enUi, deUi, 'deUi')
   keyParity(enUi, itUi, 'itUi')
+  keyParity(enUi, ptUi, 'ptUi')
 })
 
-test('product dictionaries: es/fr/de/it keep exact key parity with en', () => {
+test('product dictionaries: es/fr/de/it/pt keep exact key parity with en', () => {
   keyParity(enProduct, esProduct, 'esProduct')
   keyParity(enProduct, frProduct, 'frProduct')
   keyParity(enProduct, deProduct, 'deProduct')
   keyParity(enProduct, itProduct, 'itProduct')
+  keyParity(enProduct, ptProduct, 'ptProduct')
 })

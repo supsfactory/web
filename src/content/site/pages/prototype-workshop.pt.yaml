@@ -1,0 +1,102 @@
+meta:
+  title: 'Oficina de protótipos SUP — construção de pranchas de amostra'
+  description: 'Do CAD à prancha de amostra testada em 7–12 dias: a nossa oficina de protótipos constrói, testa e valida amostras SUP personalizadas. Inicia hoje o teu projeto de protótipo.'
+  dateModified: '2026-08'
+back_text: 'Voltar ao centro de I&D'
+home_label: 'Início'
+
+answer:
+  label: 'Resposta breve'
+  text: 'Transformamos um modelo CAD numa prancha de amostra navegável e testável em 7–12 dias: prototipagem insuflável, provas em água com ondas, iterações em rail e nose, depois a decisão sobre o equipamento de produção. A construção completa de moldes personalizados exige 15–20 dias, além do lead time padrão da produção em série de 25–35 dias.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratório 05'
+  title: 'Oficina de protótipos'
+  subtitle: 'Do modelo CAD à prancha de amostra testada — construída, montada e ensaiada'
+  image: 'https://assets.supsfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'Produção de pranchas SUP na oficina de protótipos da Vatrad'
+
+intro: 'Um modelo CAD — por muito detalhado que seja — não consegue mostrar como se comporta realmente uma prancha antes de ser insuflada, subida e remada. Por isso a nossa oficina de protótipos foi desenhada para transformar os dados técnicos numa prancha física e navegável o mais rápida e precisamente possível. Cada novo modelo de {SITE.name} — e cada construção personalizada significativa — passa por esta oficina antes de o equipamento de produção ser aprovado.'
+
+content_html: |
+  <h2>Onde o design se torna realidade</h2>
+  <p>A oficina está equipada para a produção paralela de painéis, núcleos drop-stitch e rails. Este fluxo de trabalho paralelo reduz o lead time dos protótipos para 7–12 dias desde a aprovação técnica. Se a tua aplicação exigir uma solução especializada, podemos passar do conceito à validação em água em menos de três semanas.</p>
+
+  <h2>Capacidade da oficina</h2>
+  <table>
+    <thead><tr><th>Posto de trabalho</th><th>Equipamento</th><th>Finalidade</th></tr></thead>
+    <tbody>
+      <tr><td>Corte de painéis</td><td>Máquina de corte de tecido CNC, software de nesting, biblioteca de modelos de corte de painéis</td><td>Corte preciso dos painéis de deck, casco e rail para cada medida de prancha</td></tr>
+      <tr><td>Montagem do núcleo</td><td>Mesa de laminação para núcleos drop-stitch, rolos aplicadores de cola</td><td>União do núcleo drop-stitch entre as películas PVC com cobertura uniforme da cola</td></tr>
+      <tr><td>Soldadura</td><td>Prensa de soldadura HF, estação de soldadura de reparação a ar quente, dispositivo de teste de insuflação</td><td>Soldadura das costuras da montagem da prancha em tamanho real com válvulas, pegas e fin box</td></tr>
+      <tr><td>Montagem &amp; acabamento</td><td>Dispositivo de aplicação do deck pad, mesa de laminação gráfica, banco de montagem de acessórios</td><td>Montagem completa: deck pad, logótipos, apoio de pega, leash plug, fin box</td></tr>
+      <tr><td>Posto de instrumentos de medição</td><td>Manómetros, data loggers, dispositivo de medição da flexão</td><td>Ensaio das amostras: ciclos de insuflação, flexão do deck, medição da estanquicidade ao ar</td></tr>
+    </tbody>
+  </table>
+
+  <h2>O percurso do protótipo — passo a passo</h2>
+  <ol>
+    <li><strong>Entrega técnica</strong> — O pacote de design (modelo 3D, relatório FEA, distinta base, plano de posicionamento dos painéis) é examinado formalmente pelo chefe da oficina e pelo engenheiro de projeto. Eventuais pontos críticos de produção são assinalados e resolvidos antes do corte.</li>
+    <li><strong>Produção dos painéis</strong> — A prancha é construída segundo a especificação técnica. Os painéis são cortados no CNC, o núcleo drop-stitch é laminado entre as películas PVC e deck e casco são montados com o pacote de materiais aprovado.</li>
+    <li><strong>Soldadura</strong> — Os painéis são unidos através de soldadura HF na forma completa da prancha. A câmara é insuflada à pressão de teste e mantida durante 24 horas para a estabilização inicial.</li>
+    <li><strong>Montagem &amp; acabamento</strong> — São montados deck pad, gráfica, pega, leash plug e fin box. Todos os acessórios são instalados e verificados face à especificação.</li>
+    <li><strong>Testes estáticos</strong> — Antes de ir para a água, a prancha passa por: ciclos de insuflação, teste de estanquicidade ao ar, medição da flexão do deck à pressão nominal e prova de torque dos acessórios.</li>
+    <li><strong>Programa de testes em água</strong> — 10 horas de prova em água, detalhadas abaixo.</li>
+    <li><strong>Revisão do protótipo</strong> — Uma reunião formal de aprovação com as equipas de engenharia, produção e qualidade. As alterações de design necessárias são documentadas e incorporadas na aprovação de produção.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Programa de testes em água de 10 horas — plano de teste</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Prova de estabilidade — equilíbrio em pé em repouso, tolerância à carga lateral</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Prova de remada — deslize, rumo reto e curvas a 3 velocidades; conforto da remada</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Teste de carga do rider — estabilidade e flexão com rider de 60 / 80 / 100 / 120 kg</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Teste de ondas — passagens repetidas pela esteira da carenagem das embarcações; spray no nose, flexão dos rails</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Corrida de resistência — remada contínua com controlos de pressão regulares; registo da estanquicidade ao ar</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Ensaio final — verificação de costuras, acessórios e gráfica após o teste; documentação dos resultados</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Prototipagem personalizada para aplicações especiais</h2>
+  <p>A oficina de protótipos é o lugar onde resolvemos problemas que as pranchas padrão não conseguem cobrir. Exemplos recentes:</p>
+  <ul>
+    <li>Uma prancha de touring 14'' para uma marca europeia de endurance paddling com deck de carga embutido e nose reforçada — construída, montada e testada na nossa instalação.</li>
+    <li>Uma prancha de yoga 10'6'' com deck antiderrapante contínuo e espessura extra para a rigidez, validada através de um teste de 4 semanas de época de aluguer.</li>
+    <li>Uma prancha de frota white label com gráfica de deck personalizada e pegas duplas, em que o protótipo serviu para validar a cor, a colocação do logótipo e a embalagem antes de o cliente escolher um contentor.</li>
+  </ul>
+
+  <h2>A nossa equipa de prototipagem</h2>
+  <p>A oficina é presidida por oito técnicos de produção polivalentes, cada um formado em pelo menos duas das três competências-chave (corte, soldadura, montagem). O chefe de equipa é um mestre artesão com 16 anos de experiência, da produção de peças únicas personalizadas às séries de produção. Cada protótipo recebe um engenheiro de projeto dedicado, ponto de contacto único para o cliente durante todo o processo de construção e teste.</p>
+
+  <h2>Envolvimento do cliente</h2>
+  <p>Encorajamos explicitamente os nossos clientes a participar nas etapas mais importantes da construção do protótipo — em particular na primeira verificação de montagem e no teste em água. O vosso feedback operacional nessas fases é de valor inestimável para afinar a prancha antes da produção. Não construímos no vazio; construímos em parceria convosco.</p>
+  <p>O programa de testes em água é também uma ocasião para a tua equipa se familiarizar com a gestão e as necessidades de manutenção da prancha, assegurando assim uma transição fluida à produção quando forem entregues as pranchas definitivas.</p>
+
+cta:
+  title: 'Inicia o teu projeto de protótipo'
+  subtitle: 'Conta-nos a prancha de que precisas e propor-te-emos um plano de desenvolvimento do protótipo.'
+  actions:
+    - variant: primary
+      text: Contacta a nossa equipa de prototipagem
+      href: /pt/contact#project-brief
+    - text: Voltar ao centro de I&D
+      href: /pt/randdcenter

@@ -1,0 +1,83 @@
+meta:
+  title: 'Parceiros — Distribuição & venda por grosso | {SITE}'
+  description: 'Parcerias de produção com a SUPsfactory: distribuição, fornecimento por grosso, programas OEM/private label e apoio à especificação para fornecedores de paddle boards em todo o mundo.'
+  keywords:
+    - 'parceiro de distribuição SUP'
+    - 'venda por grosso de paddle boards'
+    - 'parceiro de distribuição de SUP insufláveis'
+    - 'parceria SUP'
+  dateModified: '2026-08'
+hero:
+  tagline: Parceiros & distribuição
+  title: 'Parcerias de produção & distribuição'
+  subtitle: "Produzimos para distribuidores de equipamento marítimo, retalhistas, marcas comerciais e organizações em mais de 50 países. Tu defines o produto — nós desenvolvêmo-lo, amostrámo-lo e produzimo-lo sob a tua marca."
+  image:
+    src: https://assets.supsfactory.com/images/sups/team/supsfactory-meeting-overseas.webp
+    alt: Rede global de parceiros e distribuição da Vatrad
+
+answer:
+  label: 'Resposta breve'
+  text: 'As condições de parceria começam com a amostra (1–2 unidades) e os lotes piloto (20–50 unidades, amostras em 7–12 dias), para depois escalar para runs de volume OEM padrão de 90–100+ unidades por lote de um rolo completo de drop-stitch de 150 m — ou investir em moldes próprios para produtos private label. O MOQ é confirmado com base no projeto. Os programas de distribuição incluem territórios exclusivos, preços por grosso diretos de fábrica e condições de pagamento de 45–60 dias, enviados FOB Qingdao ou CIF.'
+  verified: 'September 2026'
+content_programs:
+  tagline: Programas de parceiros
+  title: 'Modelos de parceria baseados na produção'
+  subtitle: 'Sejas um parceiro de distribuição, um retalhista ou um parceiro de marca — o programa alinha-se aos teus requisitos de produto e ao teu plano de produção.'
+  columns: 3
+  items:
+    - title: 'Programa de distribuição'
+      description: 'Acordos de distribuição com acesso direto à fábrica, apoio à especificação e qualidade constante das reencomendas em vários territórios. Quantitativo mínimo consoante a dimensão do território.'
+      icon: tabler:world
+    - title: 'Programa de retalhistas'
+      description: 'Especificações de produto, aprovação de amostras, apoio de garantia e reencomendas fiáveis para lojas físicas e online.'
+      icon: tabler:building-store
+    - title: 'Parceria OEM/ODM'
+      description: 'Serviço OEM e ODM completo com branding personalizado, embalagem e especificação de produto. Da ideia ao contentor.'
+      icon: tabler:certificate
+    - title: 'Parceria de marca'
+      description: 'Private label e desenvolvimento de modelos para marcas estabelecidas no setor marítimo e do lazer outdoor.'
+      icon: tabler:stars
+    - title: 'Institucional & público'
+      description: 'Programas de fornecedor preferencial para autoridades, guardas costeiras, forças armadas e organizações humanitárias. Documentação pronta para concursos públicos.'
+      icon: tabler:building-community
+    - title: 'Parceiro de resorts & aluguer'
+      description: 'Tarifas de frota, qualidade constante e branding personalizado para resorts, centros de mergulho e operadores de aluguer em todo o mundo.'
+      icon: tabler:sun
+content_benefits:
+  tagline: Porque colaborar connosco
+  title: 'Porque escolhem os parceiros a Vatrad'
+  subtitle: 'Os nossos parceiros trabalham com capacidade produtiva real, qualidade constante e apoio de engenharia reativo.'
+  list:
+    - 'Acesso direto à fábrica: trabalhas diretamente com a nossa equipa de produção — sem intermediários. Respostas mais rápidas, visibilidade total da produção e pareceres de engenharia das pessoas que constroem as pranchas.'
+    - 'Personalização pronta: dá marca aos teus produtos com cores, logótipos, embalagens e especificações próprios. O MOQ é confirmado com base no projeto — aos níveis amostra, piloto e volume.'
+    - 'Qualidade garantida: produção certificada ISO-9001 com conformidade CE, BSCI e REACH. Cada produto é submetido a teste de pressão antes do envio.'
+    - 'Logística global: envio de Qingdao, China, com opções FOB, CIF e DDP. Armazém nos EUA em Montclair, CA, para a distribuição na América do Norte.'
+    - 'Documentação técnica: catálogos de produto, fotografia e materiais técnicos de apoio às decisões de especificação e reencomenda.'
+    - 'Apoio de especificação & QC: amostragem antes da encomenda em massa, apoio técnico para os teus clientes e coordenação do serviço de garantia.'
+content_process:
+  tagline: Como tornar-se parceiro
+  title: 'Processo de parceria'
+  subtitle: 'Um percurso simples — da candidatura ao primeiro run de produção.'
+  items:
+    - title: 'Passo 1: envia a candidatura'
+      description: 'Preenche o nosso formulário de candidatura de parceiro com o perfil da empresa, o mercado de destino e os interesses de produto.'
+    - title: 'Passo 2: verificação da qualificação'
+      description: 'A nossa equipa examina a tua candidatura e contacta-te em 3 dias úteis para discutir os requisitos.'
+    - title: 'Passo 3: acordo & ativação'
+      description: 'Assina um acordo de parceria, ativa a tua conta e recebe amostras de produto, especificações e condições acordadas.'
+    - title: 'Passo 4: amostragem & produção'
+      description: 'Aprova as amostras físicas, confirma especificações e MOQ — e os runs de produção arrancam sob a tua marca.'
+cta:
+  title: 'Discute uma parceria'
+  subtitle: 'Envia os teus requisitos — a nossa equipa responde em 3 dias úteis.'
+  actions:
+    - variant: primary
+      text: Envia os requisitos
+      href: /pt/contact
+    - text: Vê os nossos produtos
+      href: /pt/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Aprofunda:</strong> os programas de parceiros partilham o mesmo <a href="/pt/oem-manufacturing">motor produtivo OEM/ODM</a> — condições, MOQ de teste e personalização estão definidos lá — e todos os runs de produção passam pela <a href="/pt/factory">fábrica de 12.500 m&sup2;</a>.</p>
+  </div>

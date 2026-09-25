@@ -1,0 +1,14 @@
+meta:
+  title: 'News — Produtor SUP & atualizações náuticas | {SITE}'
+  description: 'Últimas novidades da Vatrad: atualizações de fábrica, novos modelos de SUP insuflável, certificações e notícias do setor náutico.'
+  keywords:
+    - 'produtor sup news'
+    - 'Vatrad updates'
+    - 'anúncios sup insuflável'
+    - 'setor náutico news'
+hero_text:
+  tagline: ''
+  title: News
+  subtitle: As últimas novidades da Vatrad —lançamentos de produto, atualizações da empresa, guias e histórias da água
+news_list:
+  limit: 100

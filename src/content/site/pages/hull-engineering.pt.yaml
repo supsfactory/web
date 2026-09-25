@@ -1,0 +1,94 @@
+meta:
+  title: 'Construção do casco SUP — Design de board CAD & FEA'
+  description: 'Estúdio de construção de pranchas SUP: design de board CAD, análise de elementos finitos (FEA) de estruturas drop-stitch e formas de casco personalizadas para projetos OEM.'
+back_text: 'Voltar ao centro de I&D'
+home_label: 'Início'
+
+hero:
+  tagline: 'Laboratório 02'
+  title: 'Estúdio de construção de pranchas'
+  subtitle: 'Simulação digital, inteligência estrutural, design de board personalizado'
+  image: 'https://assets.supsfactory.com/images/sups/factory/supsfactory-design-discussion.webp'
+  image_alt: 'Estação CAD para a construção de pranchas SUP na Vatrad'
+
+answer:
+  label: 'Resposta clara'
+  text: 'As pranchas SUP personalizadas são projetadas internamente com modelação de superfícies 3D SolidWorks, FEA ANSYS e CFD — cada prancha é simulada quanto à distribuição de tensões e à rigidez do deck antes da produção do protótipo, com um fator de segurança vinculativo ≥ 2,5. Uma forma personalizada exige 7–12 dias até ao protótipo; a produção completa do tooling para uma forma personalizada estende o prazo de produção de 25–35 dias em mais 15–20 dias, com o MOQ confirmado pela configuração do projeto (ver o nosso guia MOQ).'
+  verified: 'September 2026'
+
+intro: 'A forma do casco de uma prancha SUP — o seu rocker, o perfil do rail, o volume de proa e popa — determina como pagaia, vira e mantém o rumo. O nosso estúdio de construção de pranchas na {SITE.name} combina modelação de superfícies CAD, análise de elementos finitos (FEA) de estruturas drop-stitch e experiência de produção para entregar pranchas otimizadas para o seu propósito: estabilidade allround, planagem touring ou desempenho surf. Cada prancha personalizada começa na vossa especificação, não numa forma genérica de catálogo.'
+
+content_html: |
+  <h2>Onde a resistência encontra a hidrodinâmica</h2>
+  <p>Uma prancha SUP insuflável é uma estrutura drop-stitch: milhares de fios em poliéster ligam as peles superior e inferior em PVC e mantêm o deck plano a 12–15 PSI, enquanto a geometria do rail e da proa determina o comportamento da prancha na água. Projetamos a forma 3D, simulamos a estrutura insuflada e validamos o resultado internamente, antes mesmo de qualquer amostra ser cortada.</p>
+
+  <h2>Ferramentas e padrões de construção</h2>
+  <p>O nosso ambiente de construção digital compreende:</p>
+  <table>
+    <thead><tr><th>Capacidade</th><th>Software / ferramenta</th><th>Aplicação</th></tr></thead>
+    <tbody>
+      <tr><td>Modelação paramétrica 3D</td><td>SolidWorks Professional</td><td>Superfície da prancha, linha do rocker, perfil do rail, integração de pega &amp; aletas</td></tr>
+      <tr><td>Análise de elementos finitos</td><td>ANSYS Mechanical</td><td>Distribuição das tensões do núcleo drop-stitch, rigidez do deck sob carga, reforço do ponto de pega</td></tr>
+      <tr><td>Computational Fluid Dynamics</td><td>Ansys Fluent</td><td>Previsão da resistência hidrodinâmica, otimização do trim de planagem</td></tr>
+      <tr><td>Engenharia da laminação</td><td>ESAComp</td><td>Camada de PVC, seleção do peso do tecido, estimativa do peso</td></tr>
+      <tr><td>Review das superfícies de tooling</td><td>Moldex3D</td><td>Verificação da geometria do tooling de soldadura para a soldadura RF</td></tr>
+    </tbody>
+  </table>
+
+  <h2>O nosso workflow de construção</h2>
+  <p>Cada design de prancha, seja um modelo padrão ou um projeto completamente personalizado, segue um rigoroso processo em cinco fases:</p>
+  <ol>
+    <li><strong>Aquisição de conceito &amp; requisitos</strong> — Definimos o intervalo de peso dos paddlers, o propósito de uso (allround, touring, surf, yoga, frota de aluguer), os objetivos de comprimento, largura e espessura e as características especiais (sistemas de arrumação, deck pad, pontos de fixação).</li>
+    <li><strong>Modelação de superfícies 3D &amp; cálculo do volume</strong> — A forma da prancha é modelada em SolidWorks e verificada quanto à distribuição do volume, deslocamento e estabilidade face ao peso alvo do paddler.</li>
+    <li><strong>FEA estrutural</strong> — A prancha insuflada é analisada sob carga em pé, tanto estática (paddler ao centro, 100 kg) como dinâmica (impacto das ondas no rail). São verificados os contornos de tensão; um fator de segurança ≥ 2,5 é vinculativo.</li>
+    <li><strong>Otimização da resistência CFD</strong> — O casco é simulado em três estados de carga e cinco velocidades. Superfície molhada, ângulo de trim e resistência residual são reduzidos de forma iterativa.</li>
+    <li><strong>Design review &amp; libertação</strong> — O pacote de engenharia completo (modelo 3D, relatório FEA, relatório CFD, estimativa de peso, plano de posicionamento dos painéis) é examinado pelo nosso engenheiro sénior antes da libertação para a oficina de protótipos.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Resultados FEA — prancha allround 11''0 (32'' larga, 6'' espessa)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2,8 : 1</span>
+        <span class="text-gray-500">Fator de segurança a 120 kg de carga em pé</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Deflexão do deck a 15 PSI, sem carga</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3,2 mm</span>
+        <span class="text-gray-500">Deflexão máxima do deck sob paddler de 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Pressão de análise — pressão operacional da plataforma</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Personalização: a vossa prancha, as vossas regras</h2>
+  <p>Não existem duas marcas com requisitos idênticos. Uma frota de aluguer precisa de uma prancha allround larga e estável com rails reforçados; uma marca touring precisa de uma proa de deslocamento mais longa com fixações para carga; uma linha orientada ao surf precisa de uma popa recolhida e de um perfil rocker. Não forçamos a vossa linha de produto em formas pré-fabricadas — construímos a partir da vossa especificação.</p>
+  <p>Exemplos de projetos recentes de construção de pranchas personalizadas:</p>
+  <ul>
+    <li>Um SUP touring de 14'' para uma marca de endurance paddling, com proa de deslocamento e cargo deck embutido (+15% de comprimento da linha de água para uma melhor planagem).</li>
+    <li>Uma prancha allround larga de 10'6'' para uma frota de resort, com rails laterais de dupla camada e capacidade nominal de 220 lb.</li>
+    <li>Um SUP surf de 9'' com popa recolhida e rocker progressivo, desenvolvido para uma linha própria de surf school.</li>
+  </ul>
+
+  <h2>Os nossos engenheiros</h2>
+  <p>O estúdio é liderado por um senior product engineer com 14 anos de experiência em design de produtos insufláveis, apoiado por dois engenheiros mecânicos especialistas em FEA e CFD. Todos os três possuem licenciaturas avançadas em engenharia de universidades internacionalmente reconhecidas, e a equipa trabalha diretamente com o nosso pavilhão de produção para garantir que cada design é produzível à escala de contentor.</p>
+
+  <h2>Projetem connosco a vossa próxima prancha</h2>
+  <p>Do primeiro esboço de conceito ao relatório final de tensões, o nosso estúdio de construção de pranchas é o vosso parceiro no desenvolvimento de uma prancha que não é apenas construída, mas projetada. Investimos o tempo de simulação antecipadamente, para que cada soldadura, cada camada de laminado e cada curva do rail tenha um propósito.</p>
+  <p>Quer precisem de uma modificação menor a um modelo existente ou de uma reprojeção completa — estamos prontos para discutir os vossos requisitos.</p>
+
+cta:
+  title: 'Inicia a tua consultoria de design de board'
+  subtitle: 'Comuniquem-nos os vossos paddlers alvo e o propósito de uso, e propor-vos-emos um caminho de engenharia.'
+  actions:
+    - variant: primary
+      text: Contacta a nossa equipa de engenharia
+      href: /contact#project-brief
+    - text: Voltar ao centro de I&D
+      href: /randdcenter
