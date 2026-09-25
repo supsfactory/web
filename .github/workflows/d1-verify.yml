@@ -16,6 +16,9 @@ jobs:
     env:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CF_PROD_D1_ID: ${{ vars.CF_PROD_D1_ID }}
+      CF_PROD_KV_ID: ${{ vars.CF_PROD_KV_ID }}
+      CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.0.0
       - uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
@@ -25,6 +28,9 @@ jobs:
           cache: pnpm
       - name: Install deps
         run: pnpm install --frozen-lockfile
+      # 注入真实生产资源 ID，否则 wrangler 按名字命中配置里的占位 database_id。
+      - name: Generate wrangler.jsonc (real resource ids)
+        run: node .github/scripts/gen-wrangler.mjs
       - name: Count rows
         run: |
           set -e
