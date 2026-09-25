@@ -81,15 +81,25 @@ jobs:
             exit 0
           fi
           DOMAIN="${CF_PROD_DOMAIN:-supsfactory.com}"
-          HTTP=$(curl -sS -o /tmp/reindex.json -w '%{http_code}' -X POST \
-            "https://$DOMAIN/api/reindex" \
-            -H "Authorization: Bearer $REINDEX_TOKEN")
+          # 边缘/AI-gateway 偶发超时与 503 会让单次调用失败 —— 最多重试 3 次，
+          # 每次带固定超时，避免重索引长时间挂起把整个 job 拖红。
+          HTTP=""
+          for attempt in 1 2 3; do
+            HTTP=$(curl -sS --max-time 120 -o /tmp/reindex.json -w '%{http_code}' -X POST \
+              "https://$DOMAIN/api/reindex" \
+              -H "Authorization: Bearer $REINDEX_TOKEN") || HTTP="TRANSFER:$?"
+            echo "reindex attempt $attempt: HTTP $HTTP"
+            if [ "$HTTP" = "200" ]; then break; fi
+            if [ "$attempt" -lt 3 ]; then sleep 5; fi
+          done
           if [ "$HTTP" != "200" ]; then
-            echo "::error::reindex failed (HTTP $HTTP): $(cat /tmp/reindex.json)"
+            echo "::error::reindex failed (HTTP $HTTP): $(cat /tmp/reindex.json 2>/dev/null)"
             exit 1
           fi
           echo "reindex stats: $(cat /tmp/reindex.json)"
-          jq -e '.ok == true and (.stats | type == "array" and length > 0)' /tmp/reindex.json
+          # stats 为空数组 = 神经元日预算保护主动跳过（合法降级），视为成功；
+          # 真实失败仍会以非 200 或 ok=false 呈现并报错。
+          jq -e '.ok == true' /tmp/reindex.json
       # 端到端冒烟：公开端点无论走 AI 还是 FAQ 降级都应返回 ok=true。
       - if: steps.guard.outputs.enabled == 'true'
         name: Smoke-test the assistant endpoint

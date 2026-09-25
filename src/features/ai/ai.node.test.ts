@@ -176,4 +176,14 @@ describe('buildChunks', () => {
     expect(buildChunks('en').length).toBeGreaterThan(300)
     expect(buildChunks('es').length).toBeGreaterThan(100)
   })
+  test('pt corpus exists and urls are locale-prefixed', () => {
+    const chunks = buildChunks('pt')
+    expect(chunks.length).toBeGreaterThan(50)
+    for (const c of chunks) expect(c.url.startsWith('/pt/')).toBe(true)
+  })
+  test('nl corpus exists and urls are locale-prefixed', () => {
+    const chunks = buildChunks('nl')
+    expect(chunks.length).toBeGreaterThan(50)
+    for (const c of chunks) expect(c.url.startsWith('/nl/')).toBe(true)
+  })
 })
