@@ -1,0 +1,60 @@
+name: D1 Data Migration (one-off)
+on:
+  workflow_dispatch:
+    inputs:
+      old_db:
+        description: 'Source D1 database name (title) to export FROM'
+        required: true
+        default: 'supsfactory-db-prod'
+      new_db:
+        description: 'Target D1 database name (title) to import INTO (must be empty)'
+        required: true
+        default: 'isupfactory-db-prod'
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.0.0
+      - uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.4.0
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Install deps
+        run: pnpm install --frozen-lockfile
+      - name: Guard — target DB must be empty (fail fast if it already has data)
+        run: |
+          set -e
+          total=$(npx wrangler d1 execute "${{ inputs.new_db }}" --remote --json \
+            --command="SELECT (SELECT count(*) FROM user) + (SELECT count(*) FROM waitlist) + (SELECT count(*) FROM feedback) + (SELECT count(*) FROM inquiry) AS total" \
+            | jq -r '.[0].results[0].total // 0')
+          echo "target ${{ inputs.new_db }} row-total=$total"
+          if [ "$total" != "0" ]; then
+            echo "::error::Target DB ${{ inputs.new_db }} is NOT empty — aborting to avoid clobbering existing data."
+            exit 1
+          fi
+      - name: 'Export source DB (full snapshot: schema + data + drizzle meta)'
+        run: |
+          set -e
+          npx wrangler d1 export "${{ inputs.old_db }}" --remote --output="$RUNNER_TEMP/dump.sql" --skip-confirmation
+          ls -lh "$RUNNER_TEMP/dump.sql"
+      - name: Import into target DB
+        run: |
+          set -e
+          npx wrangler d1 execute "${{ inputs.new_db }}" --remote --file="$RUNNER_TEMP/dump.sql" --yes
+          echo "import finished"
+      - name: Verify counts (source vs target)
+        run: |
+          set -e
+          sql="SELECT 'user' AS tbl, count(*) AS n FROM user UNION ALL SELECT 'account', count(*) FROM account UNION ALL SELECT 'session', count(*) FROM session UNION ALL SELECT 'verification', count(*) FROM verification UNION ALL SELECT 'rateLimit', count(*) FROM rateLimit UNION ALL SELECT 'waitlist', count(*) FROM waitlist UNION ALL SELECT 'feedback', count(*) FROM feedback UNION ALL SELECT 'inquiry', count(*) FROM inquiry;"
+          echo "--- source: ${{ inputs.old_db }}"
+          npx wrangler d1 execute "${{ inputs.old_db }}" --remote --json --command="$sql" | jq -r '.[0].results[] | "\(.tbl)\t\(.n)"'
+          echo "--- target: ${{ inputs.new_db }}"
+          npx wrangler d1 execute "${{ inputs.new_db }}" --remote --json --command="$sql" | jq -r '.[0].results[] | "\(.tbl)\t\(.n)"'
+      - name: Cleanup
+        if: always()
+        run: rm -f "$RUNNER_TEMP/dump.sql"
