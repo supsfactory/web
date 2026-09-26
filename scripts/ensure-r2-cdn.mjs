@@ -29,9 +29,13 @@ async function cf(path, init = {}) {
 }
 
 async function zoneId(host) {
-  const { res, data } = await cf(`/zones?name=${encodeURIComponent(host)}&per_page=1`)
-  if (!res.ok || !data.success) throw new Error(`zone lookup ${host} -> ${res.status}`)
-  return data.result?.[0]?.id ?? ''
+  const labels = host.split('.')
+  for (let start = Math.max(0, labels.length - 3); start < labels.length; start++) {
+    const candidate = labels.slice(start).join('.')
+    const { res, data } = await cf(`/zones?name=${encodeURIComponent(candidate)}&per_page=1`)
+    if (res.ok && data.success && data.result?.[0]?.id) return data.result[0].id
+  }
+  return ''
 }
 
 async function existingDomains() {
