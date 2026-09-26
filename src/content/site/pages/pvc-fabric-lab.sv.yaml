@@ -1,0 +1,111 @@
+meta:
+  title: 'Laboratorium för PVC-tyger — materialtester för SUP-brädor'
+  description: 'Materialtester från fiber till färdig bräda: draghållfasthet, UV-åldring, köldflexibilitet och slitagehållfasthet för PVC-tyger i SUP.'
+back_text: 'Tillbaka till R&D-centrum'
+home_label: 'Start'
+
+hero:
+  tagline: 'Laboratorium 01'
+  title: 'Laboratorium för PVC-tyger'
+  subtitle: 'Vetenskapliga materialtester — från fiber till färdig bräda'
+  image: 'https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp'
+  image_alt: 'Materialtestlaboratorium för Vatrads PVC-tyger'
+
+answer:
+  label: 'Kort svar'
+  text: 'Brädorna byggs med marint PVC på 1680 DTEX med trelagerbeläggning och en drop-stitch-kärna som är utformad för 12–15 PSI. Varje ingående tygparti testas oberoende i fabriken — draghållfasthet (ISO 1421), UV-retention efter 2 000 timmars exponering i xenonlampa (ISO 4892), slitage och köldflexibilitet — inget parti går till produktion enbart utifrån leverantörens datablad.'
+  verified: 'September 2026'
+
+intro: 'Brädans tyg är vida det viktigaste materialet i en uppblåsbar SUP. Det måste motstå långvarig UV-exponering, upprepade pumpcykler, slitage på däck och sandstränder och extrema temperaturväxlingar — och samtidigt behålla sin strukturella integritet i åratal. På {SITE.name} är vårt laboratorium för PVC-tyger helt ägnat åt att karakterisera, validera och ständigt förbättra de tyger vi använder i varje bräda vi bygger.'
+
+content_html: |
+  <h2>Grunden i varje uppblåsbar SUP</h2>
+  <p>Vi förlitar oss inte bara på leverantörernas datablad. Varje parti PVC-tyg och drop-stitch-kärna som kommer in till vår verkstad testas internt och oberoende. Det garanterar att den publicerade materialspecifikationen verkligen är materialets prestanda i det du får — parti för parti, år för år.</p>
+
+  <h2>Standardiserad testutrustning</h2>
+  <p>Vårt tyglaboratorium är utrustat med industriell testutrustning enligt ISO-, ASTM- och EN-metoder:</p>
+  <table>
+    <thead><tr><th>Utrustning</th><th>Mätta parametrar</th><th>Standard</th></tr></thead>
+    <tbody>
+      <tr><td>Universell draghållprovningsmaskin (50 kN)</td><td>Brottkraft, töjning vid brott, sprickpropagering</td><td>ISO 1421 / ASTM D751</td></tr>
+      <tr><td>Xenonlampa-åldringskammare</td><td>UV-beständighet (färgförändring, styrkeretention efter 2000 h)</td><td>ISO 4892 / ASTM G155</td></tr>
+      <tr><td>Köldflexibilitetsapparat</td><td>Spricktemperatur från -30 °C till -50 °C</td><td>ISO 4675 / ASTM D2136</td></tr>
+      <tr><td>Taber-slitageprovare</td><td>Viktförlust efter 1000 cykler (CS-10-hjul)</td><td>ASTM D3389 / ISO 5470-1</td></tr>
+      <tr><td>Digital tjockleksmätare (upplösning 0.001 mm)</td><td>Jämnhet över rullbredden</td><td>ISO 2286-3</td></tr>
+      <tr><td>Vattenkolumnsapparat</td><td>Vattenbeständighet</td><td>ISO 811</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Alla instrument kalibreras årligen av ackrediterade tredjepartslaboratorier.</p>
+
+  <h2>Från data till beslut: ett typiskt testförlopp</h2>
+  <p>När ett nytt kandidatmaterial kommer in genomgår det ett standardiserat kvalificeringsförfarande i sju steg:</p>
+  <ol>
+    <li><strong>Ingående kontroll</strong> — visuell inspektion av ytfel, nålhål och måttkonformitet.</li>
+    <li><strong>Tjocklekskartläggning</strong> — mätningar på 20 punkter över rullen; för godkännande krävs CV &lt; 3 %.</li>
+    <li><strong>Dragprovning</strong> — 5 prov i varje riktning (varp och inslag). Minst 3500 N/50 mm för PVC på 1100 dtex.</li>
+    <li><strong>UV-konditionering</strong> — 1000 h exponering i xenonlampkammaren; minst 80 % styrkeretention krävs.</li>
+    <li><strong>Kallsprickning</strong> — 4 h vid -35 °C, därefter vikning 180° över en 25 mm nål. Inga synliga sprickor.</li>
+    <li><strong>Slitagehållfasthet</strong> — 1000 cykler, viktförlust ≤ 0.05 g.</li>
+    <li><strong>Släpp</strong> — först när alla sju gränser har klarats släpps tyget för produktion.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Typiskt PVC 1100 dtex — retention av draghållfastheten efter UV-exponering</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 h 100%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">500 h 95%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">1000 h 88%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
+        <span class="text-xs mt-1">2000 h 82%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
+        <span class="text-xs mt-1">Konkurrent ~65%</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Vårt PVC-tyg på 1100 dtex behåller långt över 80 % av draghållfastheten efter 2000 h exponering i xenonlampa — medan vanliga industriella klasser faller under 70 %.</p>
+  </div>
+
+  <h2>Vårt tekniska team</h2>
+  <p>Laboratoriet bemannas av två heltidsanställda materialingenjörer, vardera med examen i polymervetenskap eller textilteknik och minst sex års branscherfarenhet. De stöds av tre tekniker som sköter de dagliga kontrollerna och dataregistreringen. Teamet deltar regelbundet i de ringprovningar som organiseras av Internationella standardiseringsorganisationen (ISO) för att validera våra testmetoders noggrannhet.</p>
+
+  <h2>Vi löser dina svåraste materialutmaningar</h2>
+  <p>Varje paddelmiljö är annorlunda. En bräda i tropikerna utsätts för helt andra UV- och termiska förhållanden än en bräda på en nordisk sjö eller i en ökenbassäng. Vårt tyglaboratorium hjälper dig att välja — eller utveckla — en tygspecifikation som är optimerad för din användningsprofil.</p>
+  <p>Nyliga speciallösningar omfattar:</p>
+  <ul>
+    <li>En PVC-blandning med hög slitagehållfasthet för en uthyrningsflottas brädor som regelbundet nuddar sandstränder och betongslutningar (+40 % slitagehållfasthetsnivå).</li>
+    <li>En formulering för extremt låga temperaturer för en återförsäljares vinterlagringsprogram i Kanada, testad ned till -50 °C utan sprödhet.</li>
+    <li>Ett färgbeständigt orangefärgat däck för ett söknings- och räddningsträningspark som fortfarande är synligt efter 3 år i tropisk sol.</li>
+  </ul>
+  <p>Vi säljer inga "standard"tyger i hopp om att de ska fungera. Vi testar, validerar och rekommenderar — eller utvecklar — en skräddarsydd lösning för ditt specifika användningsprofil. Det är skillnaden för {SITE.name}.</p>
+
+  <h2>Så arbetar vi med dig</h2>
+  <p>När du kommer till oss med en materialutmaning kan du förvänta dig detta:</p>
+  <ol>
+    <li><strong>Rådgivning</strong> — vi diskuterar din användningsmiljö, prestandakrav och budget.</li>
+    <li><strong>Förslag</strong> — en testplan tas fram med tydliga kriterier för godkänt/underkänt och en tidplan.</li>
+    <li><strong>Utförande</strong> — vårt laboratorium utför testerna och producerar en detaljerad rapport med rådata och jämförande analys.</li>
+    <li><strong>Rekommendation</strong> — vi presenterar en tygspecifikation, inklusive alternativ om flera material uppfyller dina krav.</li>
+    <li><strong>Uppföljning</strong> — efter leveransen finns vi kvar tillgängliga för frågor om materialet i fält.</li>
+  </ol>
+  <p>Vårt mål är inte bara att sälja dig en bräda. Det handlar om att brädan du får presterar tillförlitligt under de förhållanden du använder den i — och det börjar med tyget.</p>
+
+cta:
+  title: 'Behöver du en anpassad tygspecifikation?'
+  subtitle: 'Kontakta vårt materialteknikerteam för att diskutera dina krav.'
+  actions:
+    - variant: primary
+      text: Kontakta vårt laboratorietekam
+      href: /sv/contact#project-brief
+    - text: Tillbaka till R&D-centrum
+      href: /sv/randdcenter

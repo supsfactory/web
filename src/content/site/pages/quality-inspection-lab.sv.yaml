@@ -1,0 +1,145 @@
+meta:
+  title: 'Kvalitets- & testlaboratorium — ISO-konforma SUP-tester'
+  description: 'Oberoende kvalitetskontroll av uppblåsbara SUP-brädor: dragprovning, lufttäthetscykler, svetsfogsprovning och materialcertifiering.'
+back_text: 'Tillbaka till R&D-centrum'
+home_label: 'Start'
+
+hero:
+  tagline: 'Laboratorium 06'
+  title: 'Kvalitets- & testlaboratorium'
+  subtitle: 'Oberoende tester — varje test godkänt innan leverans'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp'
+  image_alt: 'UV-test i Vatrads kvalitetskontrollaboratorium'
+
+answer:
+  label: 'Kort svar'
+  text: 'Varje bräda testas före leverans mot de publicerade specifikationerna: 100 % tryckhållningstest vid 18.0 PSI i 24 timmar (automatiskt underkännande över 0.50 PSI tryckfall), dragprovning och svetsfogsprovning enligt ISO 1421 samt en 100-punktars montagechecklista. Laboratoriet rapporterar direkt till företagsledningen, inte till produktionen, och kan stoppa varje leverans.'
+  verified: 'September 2026'
+
+intro: 'Varje bräda som lämnar vår verkstad bär bevis på att den har klarat en fastställd serie kvalitetskontroller och materialtester. Vårt kvalitets- & testlaboratorium är en oberoende funktion inom organisationen — det rapporterar direkt till företagsledningen, inte till produktionen — och garanterar därmed att ingen kommersiell press kan undergräva testgrindserna. När ett materialparti eller en färdig bräda inte uppfyller den publicerade specifikationen har laboratoriet befogenhet att skjuta upp leveransen tills avvikelsen har hanterats.'
+
+content_html: |
+  <h2>Förtroende, men kontrollera</h2>
+  <p>Laboratoriet arbetar inom ett kvalitetsledningssystem enligt ISO 9001:s principer, och våra testmetoder bygger på ISO-, ASTM- och EN-standarder där det är möjligt. Vi för detaljerade registreringar av varje utfört test, vilket skapar en fullständig spårbarhetskedja från ingående råvaror till den slutliga leveransen av brädan.</p>
+
+  <h2>Utrustning och testkapacitet</h2>
+  <table>
+    <thead><tr><th>Utrustning</th><th>Utförda tester</th><th>Standard / Metod</th></tr></thead>
+    <tbody>
+      <tr><td>Universell testmaskin (50 kN)</td><td>Draghållfasthet (tyg), skalstyrka (sömmar), sprickpropagering</td><td>ISO 1421, ISO 4674</td></tr>
+      <tr><td>Programmerbar lufttrycksbänk</td><td>Kvalitetstest över 1000 pump-/tömcykler, 30 min tryckhållningstest</td><td>Intern (enligt ISO 6185-metoden)</td></tr>
+      <tr><td>Svetsfogsprovare (motoriserad 180°)</td><td>Skalstyrka hos svetsade och limmade sömmar vid 100 mm/min</td><td>ISO 1421 / ASTM D1876</td></tr>
+      <tr><td>Vattenkolumnsapparat</td><td>Tygens vattenbeständighet (0–1000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Digital tjockleksmätare &amp; mikrometer</td><td>Tygtjocklek, svetsfogstjocklek, tjocklek på limfilm</td><td>ISO 2286-3</td></tr>
+      <tr><td>Klimatkammare</td><td>Termisk konditionering (-40 °C till +80 °C) för kallsprickningstester och termisk åldring</td><td>ISO 188, ISO 4675</td></tr>
+      <tr><td>Colorimeter-spektrofotometer</td><td>Delta-E färgmätning efter UV-exponering</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Testgrindserna — från material till leverans</h2>
+  <p>Varje bräda följer en fastställd kvalitetsplan med bindande testpunkter. Ingen bräda kan hoppa över en grind; varje grind måste medundertecknas av en kvalitetsinspektör innan nästa produktionsfas börjar.</p>
+
+  <div class="not-prose my-8">
+    <div class="relative">
+      <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-200 dark:bg-blue-800"></div>
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Grind 1</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Kontroll av ingående material</p>
+            <p class="text-xs text-gray-500 mt-1">Tygparti, drop-stitch-kärna, limproduktion, tillbehör — allt kontrollerat mot inköpsspecifikationen innan det släpps till produktionen.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Grind 2</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Förprocesskontroll av svetsarna</p>
+            <p class="text-xs text-gray-500 mt-1">Första svetsproverna testas (skalprovning + visuell inspektion) i början av varje produktionsskift.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Grind 3</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Lufttestning av luftkammaren</p>
+            <p class="text-xs text-gray-500 mt-1">Brädan sätts under tryck till 18.0 PSI (arbetstryck 12–15 PSI) och hålls i 24 timmar. Ett tryckfall &gt; 0.50 PSI leder till automatiskt underkännande. Data registreras per serienummer.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Grind 4</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Kontroll före leverans</p>
+            <p class="text-xs text-gray-500 mt-1">Hela brädan kontrollerad: alla tillbehör fästa, däckstoppets vidhäftning, grafikens inpassning, inga kosmetiska brister. 100-punktarschecklista.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Grind 5</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Slutlig certifiering</p>
+            <p class="text-xs text-gray-500 mt-1">Testrapporter sammanställda, testprotokoll kontrollerade, konformitetsintyg (Certificate of Conformance) utfärdat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Standardtester för varje parti</h2>
+  <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18.0 PSI i lufttestet av luftkammaren, hålls i 24 timmar</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">Ett tryckfall leder till automatiskt underkännande</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">100 %</span>
+      <span class="text-xs text-gray-500">Luftkamrar testade med luft före monteringen</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
+      <span class="text-xs text-gray-500">Kvalitetsledningssystem</span>
+    </div>
+  </div>
+
+  <h2>Vårt kvalitetsteam</h2>
+  <p>Laboratoriet bemannas av en kvalitetschef (10 års erfarenhet av kvalitetssäkring inom marin industri, certifierad ASQ-kvalitetsingenjör), två kvalitetsinspektörer (båda med NDT-nivå 2-certifiering för visuell inspektion) och en materialtekniker som ansvarar för alla fysiska tester. Teamet genomför årliga kompetensprov via en oberoende extern leverantör, för att säkerställa att våra testresultat förblir exakta och reproducerbara.</p>
+
+  <h2>Oberoende tester åt kunder</h2>
+  <p>Vårt kvalitets- & testlaboratorium är tillgängligt för oberoende testtjänster. Behöver du kontrollera en tygspecifikation, validera ett nytt limsystem eller få in en testrapport från tredje part för en inköpskvalificering — vi utför testerna enligt tillämplig standard och utfärdar ett certifierat testprotokoll.</p>
+  <p>Exempel på nyliga testuppdrag från tredje part:</p>
+  <ul>
+    <li>Jämförelse av skalstyrka hos fem konkurrerande limprodukter för ett europeiskt inköpsprogram.</li>
+    <li>Accelererad åldringsstudie (UV + termiska cykler) för en ny orange pigmenterad PVC-formulering, med återkommande mätningar var 500:e timme.</li>
+    <li>Validering av lufttäthet hos 50 prototypventilgrupper för en ny brädkonstruktion för högre tryck.</li>
+  </ul>
+
+  <h2>Vårt åtagande mot dig</h2>
+  <p>När du tar emot en bräda från {SITE.name} får du även dess kvalitetspärm — en sammanställd registrering av testresultaten för just din bräda. Materialpartiets intyg, svetsfogsprovningar, protokoll för luftkammarens lufttest och checklistan före leverans. Varje siffra är spårbar. Varje inspektör är identifierad. Det här är inte bara papper — det är vårt löfte att det vi har levererat stämmer med det vi har specificerat.</p>
+  <p>Har du någonsin haft ett kvalitetsproblem kan du kontakta laboratoriet direkt — kontaktuppgifterna står på ditt konformitetsintyg. Vi tar varje förfrågan på allvar och inleder en formell utredning inom 48 timmar.</p>
+
+  <h2>Vad händer om en bräda inte klarar testet?</h2>
+  <p>En icke-konform bräda försvinner aldrig i smyg. Laboratoriet följer en fastställd avvikelsehanteringsrutin, så att problemet begränsas, rättas och förebyggs:</p>
+  <ul>
+    <li><strong>Isolering</strong> — brädan märks, tas bort från linjen och registreras i avvikelseregistret med inspektörens namn och de kriterier som inte uppfylldes.</li>
+    <li><strong>Omtillverkning eller underkännande</strong> — reparerbara brister (t.ex. en ventil, en railfog eller en däckstoppshörn) omtillverkas av en certifierad operatör och det reparerade området testas om enligt samma standard. Brädor som inte kan nå specifikationen underkänns, de nedgraderas inte.</li>
+    <li><strong>Omtestning</strong> — varje omtillverkad bräda måste klara hela den berörda grinden på nytt innan den får återgå till förpackningslinjen.</li>
+    <li><strong>Släpp</strong> — endast brädor med samtliga medundertecknade grindar lämnar fabriken. Underkännandefrekvens, orsak och korrigerande åtgärd sammanfattas i kvalitetsrapporten för ditt parti.</li>
+  </ul>
+
+  <h2>Den kvalitetsdokumentation du får</h2>
+  <p>Varje parti skickas med ett dokumentpaket som ditt QC-team kan granska: partiintyget (partinummer för tyg, lim och tillbehör), svetsfogsprotokollen, luftkammarens lufttestprotokoll per serienummer, den undertecknade 100-punktarschecklistan före leverans, packlistan och ett fotoprotokoll av dina brädor före lastningen.</p>
+
+cta:
+  title: 'Beställ en exempelchecklista för QC'
+  subtitle: 'Ta del av de exakta testgrinderna, testmetoderna och dokumenten som ditt parti skulle kontrolleras mot — skicka oss brädtypen och antalet.'
+  actions:
+    - variant: primary
+      text: Beställ QC-checklistan
+      href: /sv/contact#quality-inquiry
+    - text: Testgrindsystemet med 7 steg
+      href: /sv/quality
+    - text: Fabriks-QC-laboratorium & nedladdning av testrapporter
+      href: /sv/factory/quality-lab
+    - text: Standarder för hantering av icke-konforma produkter
+      href: /sv/factory/non-conforming-control

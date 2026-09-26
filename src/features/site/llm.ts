@@ -13,13 +13,13 @@ import {
   getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
-import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL } from '@/features/content/guide-content'
+import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV } from '@/features/content/guide-content'
 import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -879,6 +879,96 @@ export function llmsDutchFull(): string {
     ...caseBlocks,
     '',
     '# Nederlands: Guides',
+    ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` Swedish section — absolute /sv URLs so LLMs can ingest the mirror directly. */
+export function llmSwedishIndex(origin: string): string {
+  const sv = (path: string) => abs(origin, `/sv${path}`)
+  const productLines = getContentProducts('sv').map((p) => `- [${p.title}](${sv(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('sv').map((a) => `- [${a.title}](${sv(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('sv').map((c) => `- [${c.title}](${sv(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_SV.map((g) => `- [${g.title}](${sv(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('sv')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${sv(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('sv')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## Svenska',
+    '',
+    `- [${SITE_NAME} — Homepage](${sv('/')}): ${LLM_SWEDISH_HOMEPAGE_DESCRIPTION}`,
+    '',
+    '### Svenska: Produkter',
+    ...productLines,
+    '',
+    '### Svenska: Teknologi',
+    ...techLines,
+    '',
+    '### Svenska: Fallstudie',
+    ...caseLines,
+    '',
+    '### Svenska: Guider',
+    ...guideLines,
+    '',
+    '### Svenska: Nyheter',
+    ...newsLines,
+    '',
+    '### Svenska: Vanliga frågor',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full Swedish text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsSwedishFull(): string {
+  const productBlocks = getContentProducts('sv').map((p) =>
+    [
+      `## Produkt: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('sv').map((p) =>
+    [`## Nyhet: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('sv').map((a) =>
+    [`## Teknologi: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('sv').map((c) => [`## Fallstudie: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_SV.map((g) =>
+    [
+      `# Guide: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## FAQ',
+      ...g.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# Svenska',
+    ...productBlocks,
+    '',
+    '# Svenska: Nyheter',
+    ...newsBlocks,
+    '',
+    '# Svenska: Teknologi',
+    ...techBlocks,
+    '',
+    '# Svenska: Fallstudie',
+    ...caseBlocks,
+    '',
+    '# Svenska: Guider',
     ...guideBlocks,
     '',
   ].join('\n\n')

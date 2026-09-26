@@ -887,6 +887,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  sv: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Så utvecklas skräddarsydda SUP-brädor',
+      metaTitle: 'Så utvecklas skräddarsydda SUP-brädor | iSupfactory',
+      metaDescription:
+        'Hur en skräddarsydd SUP går från idé till fabrik: specifikation, design, prototyp, prov och produktion — förklarat steg för steg.',
+      kicker: 'Kunskap',
+      h1: 'Så utvecklas skräddarsydda SUP-brädor',
+      intro:
+        'Innan en skräddarsydd SUP-bräda skickas till dina kunder genomgår den en tydlig utvecklingsprocess. Att känna till varje steg hjälper dig att briefa fabriken rätt, sätta realistiska tidsplaner och undvika de klassiska felen som förstagångsköpare gör.',
+      sections: [
+        {
+          title: 'Steg 1: Definiera behovet',
+          body: [
+            'Varje utvecklingsprojekt börjar med användningsscenariot: vem rider brädan, var och hur ofta. En bräda för en uthyrningsflotta skiljer sig från en bräda för en varumärkeslansering eller en skolbräda — stabilitet, hållbarhet och kostnadsmål skiftar alla med svaret.',
+            'Skriv ner kvantitet, målpris och oumbärliga funktioner innan du kontaktar en fabrik. Tydliga krav ger bättre första offerter och mindre fram och tillbaka.',
+          ],
+        },
+        {
+          title: 'Steg 2: Lås specifikationen',
+          body: [
+            'Specifikationen förvandlar behovet till mätbara värden: längd, bredd, tjocklek, volym, material (drop-stitch-densitet, tygvikt), fenuppsättning, viktgräns och förpackning.',
+            'Detta är dokumentet som båda parter räknar offerter mot. Ändringar senare i processen är långsammare och dyrare — en fryst spec är det billigaste du kan styra över.',
+          ],
+        },
+        {
+          title: 'Steg 3: Design och grafik',
+          body: [
+            'Med specen låst börjar designarbetet: formjusteringar, färgscheman, logoplacering, däckpad-grafik och matchande tillbehör (leash, paddel, fena, väska).',
+            'Tillverkare kan ta fram digitala mockups så att du godkänner utseendet innan något fysiskt prov görs — billigare och snabbare än att iterera på hårdvara.',
+          ],
+        },
+        {
+          title: 'Steg 4: Prototyp och prov',
+          body: [
+            'Provet är det första fysiska beviset. För uppblåsbara brädor innebär det en handbyggd bräda eller en bräda från en pilotproduktion som du kan rida och testa mot specifikationen.',
+            'Testa provet som din slutkund skulle: stabilitet, styvhet, kursstabilitet, vikt och hur grafiken håller. En ordentlig provomgång hittar oftast de flesta problemen före produktion.',
+          ],
+        },
+        {
+          title: 'Steg 5: Produktion och leverans',
+          body: [
+            'Efter provgodkännande drivs produktionen i batcher med QC-kontrollpunkter. Fabriksinspektion före leverans — foton, videor eller tredjepartsinspektion — skyddar den batch du tar emot.',
+            'En bra projekttidsplan räknas bakåt från ditt lanseringsdatum, inte framåt från beställningen.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'Uppblåsbar SUP-konstruktion, förklarad',
+      metaTitle: 'Konstruktion av uppblåsbara SUP-brädor: material och lager | iSupfactory',
+      metaDescription:
+        'Vad en uppblåsbar SUP är gjord av — PVC-lager, drop-stitch-tyg, rails och kvalitetsindikatorer — för att specificera bättre brädor för ditt projekt.',
+      kicker: 'Kunskap',
+      h1: 'Uppblåsbar SUP-konstruktion, förklarad',
+      intro:
+        'De flesta skräddarsydda SUP-projekt idag är uppblåsbara brädor. De är lättare, lättare att lagra och frakta, och mer förlåtande för nybörjare. Den här guiden förklarar konstruktionen så att du kan specificera kvalitet med tillförsikt.',
+      sections: [
+        {
+          title: 'Kärnan: drop-stitch-tyget',
+          body: [
+            'En uppblåsbar bräda är byggd kring drop-stitch-tyg: tusentals polyestertrådar förbinder topp- och bottenlagren av PVC. När brädan är uppblåst håller dessa trådar brädan på en fast tjocklek — det är det som ger en iSUP form och styvhet.',
+            'Högre trådtäthet (stygn per kvadrattum) innebär en fastare, stabilare bräda vid samma tryck. Budgetbrädor använder lägre täthet; premiumbrädor högre.',
+          ],
+        },
+        {
+          title: 'PVC-lager och rails',
+          body: [
+            'Tyget är inbäddat mellan PVC-lager som skyddar mot nötning, UV och stötar. Tyngre PVC (fler mils eller mm) tål punkteringar bättre men väger mer.',
+            'Railen — brädans kanter — tar emot mest stötar i daglig användning. Railkonstruktion i dubbel eller trippel lager är en stark indikator på hållbarhet och lämplighet för uthyrning.',
+          ],
+        },
+        {
+          title: 'Vad som tillför vikt vs. vad som tillför styrka',
+          body: [
+            'Vikt är en avvägning: tjockare PVC ökar hållbarheten och vikten; lättare uppbyggnad passar ridare som bär brädan långt. Detta är ett av de tydligaste sätten en skräddarsydd spec anpassas till köparens verklighet.',
+            'Kvalitetsindikatorer att fråga efter: nominellt lufttryck, sömskonstruktion, typ av ventil och drop-stitch-densitet. Seriösa fabriker publicerar dessa siffror.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Hur organisationer väljer SUP-utrustning',
+      metaTitle: 'Så väljer resorter, klubbar och skolor SUP-utrustning',
+      metaDescription:
+        'Så väljer resorter, klubbar och skolor SUP-utrustning: flottstorlek, brädtyper, hållbarhet, förvaring och budget för ett program som håller.',
+      kicker: 'Kunskap',
+      h1: 'Hur organisationer väljer SUP-utrustning',
+      intro:
+        'Resorter, klubbar och skolor köper annorlunda än konsumentmärken: utrustningen måste tåla daglig användning, passa blandade färdighetsnivåer och rymmas inom en programbudget. Den här ramen täcker de beslut som spelar roll.',
+      sections: [
+        {
+          title: 'Anpassa flottstorleken till användningen',
+          body: [
+            'Räkna hur många ridare som är på vattnet samtidigt, inte hur många gäster du har. En resort som hyr ut i rotation behöver färre brädor än en skola med parallella kurser — och fler reservdelar.',
+            'En bra tumregel: en bräda per samtidig ridare, plus 10–15 % reservkapacitet för underhåll och tillväxt.',
+          ],
+        },
+        {
+          title: 'Matcha brädtyper mot färdighetsnivåer',
+          body: [
+            'Nybörjare gynnas av bredare, voluminösare brädor som känns stabila; erfarna ridare föredrar smalare brädor som paddlar snabbare. En blandad flotta — mestadels nybörjarvänlig med några prestationsbrädor — tjänar de flesta program.',
+            'Flersitsbrädor förtjänar sin plats i skolor och gruppupplevelser: de låter instruktörer undervisa och kan ersätta flera enskilda brädor i klassrotationer.',
+          ],
+        },
+        {
+          title: 'Hållbarhet är ett budgetbeslut',
+          body: [
+            'Konstruktion i uthyrningsklass kostar mer i förväg och sparar pengar över två till tre säsonger. Fråga om railförstärkning, PVC-tjocklek och vilken garanti fabriken ger på flottbeställningar.',
+            'Planera även förvaring och uppblåsning: kompressorer, ställ och packningsrutiner avgör programmets dagliga arbete. Flottorienterade leverantörer inkluderar detta i paketet.',
+          ],
+        },
+        {
+          title: 'Planera programmet, inte bara beställningen',
+          body: [
+            'De bästa utrustningsbeställningarna är en del av en programplan: instruktörsutbildning, underhållsrutiner och en ersättningscykel för slitna brädor. Organisationer som planerar programmet förnyar utrustning enligt schema; de som inte gör det köper akutersättningar till fullpris.',
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -941,5 +1065,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       'Praktische gidsen over maatwerk SUP-productontwikkeling, de constructie van opblaasbare boards en het kiezen van SUP-uitrusting voor resorts, clubs en scholen.',
     h1: 'Kennisdatabase — productontwikkeling, uitgelegd',
+  },
+  sv: {
+    metaTitle: 'Kunskapscenter: guider för SUP-produktutveckling | iSupfactory',
+    metaDescription:
+      'Praktiska guider om skräddarsydd SUP-produktutveckling, konstruktion av uppblåsbara brädor och val av SUP-utrustning för resorter, klubbar och skolor.',
+    h1: 'Kunskapscenter — produktutveckling, förklarad',
   },
 }

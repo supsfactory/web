@@ -1,0 +1,83 @@
+meta:
+  title: 'Partners — distribution & grossist | {SITE}'
+  description: 'Tillverkningspartnerskap med iSupfactory: distribution, grossist, OEM/private label-program och specifikationsstöd för paddelbrädesleverantörer över hela världen.'
+  keywords:
+    - 'SUP-distributionspartner'
+    - 'paddelbräde grossist'
+    - 'uppblåsbar SUP-distributionspartner'
+    - 'SUP-partnerskap'
+  dateModified: '2026-08'
+hero:
+  tagline: Partners & distribution
+  title: 'Tillverknings- & distributionspartnerskap'
+  subtitle: "Vi tillverkar för distributörer av maritima utrustning, återförsäljare, varumärken och organisationer i över 50 länder. Du bestämmer produkten — vi utvecklar, provtar och tillverkar den under ditt varumärke."
+  image:
+    src: https://assets.isupfactory.com/images/sups/team/isupfactory-meeting-overseas.webp
+    alt: Vatrads globala partner- och distributionsnätverk
+
+answer:
+  label: 'Kort svar'
+  text: 'Partnervillkor börjar med provet (1–2 st) och pilotpartier (20–50 st, prover inom 7–12 dagar), och skalar sedan upp till standard-OEM-volymkörningar på 90–100+ st per parti ur en hel drop-stitch-rulle på 150 m — eller till en investering i egna former för private label-produkter. MOQ bekräftas per projekt. Distributionsprogram omfattar exklusiva områden, direkta fabrikens grossistpriser och betalningstider på 45–60 dagar, skickat FOB Qingdao eller CIF.'
+  verified: 'September 2026'
+content_programs:
+  tagline: Partnerprogram
+  title: 'Tillverkningsbaserade samarbetsmodeller'
+  subtitle: 'Oavsett om du är distributionspartner, återförsäljare eller varumärkespartner — programmet anpassas till dina produktkrav och din produktionsplan.'
+  columns: 3
+  items:
+    - title: 'Distributionsprogram'
+      description: 'Distributionsavtal med direkt fabrikstillgång, specifikationsstöd och konsekvent återbeställningskvalitet i flera områden. Minstvolym baserad på områdets storlek.'
+      icon: tabler:world
+    - title: 'Återförsäljarprogram'
+      description: 'Produktspecifikationer, provgodkännande, garantisupport och pålitliga tryck om för butiker och webbutiker.'
+      icon: tabler:building-store
+    - title: 'OEM/ODM-partnerskap'
+      description: 'Komplett OEM- och ODM-service med anpassad branding, förpackning och produktspecifikation. Från idé till container.'
+      icon: tabler:certificate
+    - title: 'Varumärkespartnerskap'
+      description: 'Private label och modellutveckling för etablerade varumärken inom marin och outdoor fritid.'
+      icon: tabler:stars
+    - title: 'Institutionellt & offentligt'
+      description: 'Leverantörsprogram med företräde för myndigheter, kustbevakning, försvarsmakt och humanitära organisationer. Dokumentpaket redo för upphandling.'
+      icon: tabler:building-community
+    - title: 'Resort- & uthyrningspartner'
+      description: 'Flottpriser, konsekvent kvalitet och anpassad branding för resorts, dykcenter och uthyrare världen över.'
+      icon: tabler:sun
+content_benefits:
+  tagline: Varför samarbeta med oss
+  title: 'Varför partner väljer Vatrad'
+  subtitle: 'Våra partner arbetar med verklig tillverkningskapacitet, konsekvent kvalitet och responsivt ingenjörsstöd.'
+  list:
+    - 'Direkt fabrikstillgång: du arbetar direkt med vårt produktionsteam — inga mellanhänder. Snabbare svar, full insyn i produktionen och teknisk rådgivning från personerna som bygger brädorna.'
+    - 'Klar att använda anpassning: sätt ditt varumärke på produkterna med egna färger, logotyper, förpackningar och specifikationer. MOQ bekräftas per projekt — på prov-, pilot- och volymnivå.'
+    - 'Garanterad kvalitet: ISO 9001-certifierad tillverkning med konformitet enligt CE, BSCI och REACH. Varje produkt genomgår ett trycktest före leverans.'
+    - 'Global logistik: frakt från Qingdao, Kina, med FOB-, CIF- och DDP-alternativ. Lager i USA i Montclair, CA, för distribution i Nordamerika.'
+    - 'Teknisk dokumentation: produktkataloger, fotografi och tekniska material som stöd vid specifikations- och återtrycksbeslut.'
+    - 'Specifikations- & QC-stöd: provtagning före massbeställningen, tekniskt stöd för dina kunder och samordning av garantibestämmelserna.'
+content_process:
+  tagline: Så blir du partner
+  title: 'Partnerprocess'
+  subtitle: 'En enkel bana — från ansökan till första produktionskörningen.'
+  items:
+    - title: 'Steg 1: skicka ansökan'
+      description: 'Fyll i vårt partneransökningsformulär med företagsprofil, målmarknad och produktintressen.'
+    - title: 'Steg 2: kvalificeringskontroll'
+      description: 'Vårt team bedömer din ansökan och kontaktar dig inom 3 arbetsdagar för att diskutera kraven.'
+    - title: 'Steg 3: avtal & aktivering'
+      description: 'Underteckna ett partneravtal, aktivera ditt konto och ta emot produktprov, specifikationer och överenskomna villkor.'
+    - title: 'Steg 4: provtagning & produktion'
+      description: 'Godkänn fysiska prover, bekräfta specifikationer och MOQ — och produktionskörningarna startas under ditt varumärke.'
+cta:
+  title: 'Diskutera ett partnerskap'
+  subtitle: 'Skicka dina krav — vårt team svarar inom 3 arbetsdagar.'
+  actions:
+    - variant: primary
+      text: Skicka dina krav
+      href: /sv/contact
+    - text: Se våra produkter
+      href: /sv/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Fördjupning:</strong> partnerprogrammen delar samma <a href="/sv/oem-manufacturing">OEM/ODM-tillverkningsmotor</a> — villkor, prov-MQ och anpassning definieras där — och alla produktionskörningar går genom <a href="/sv/factory">fabriken på 12 500 m&sup2;</a>.</p>
+  </div>

@@ -1,0 +1,127 @@
+meta:
+  title: 'OEM-onboardingguide — steg för steg från första kontakt till produktion | iSupfactory'
+  description: 'OEM-onboardingguide: NDA, genomförbarhetskontroll, provproduktion, godkännande, planering före produktion, produktions-QC och leverans. Steg för steg med genomlöpningstider.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM-onboardingguide'
+    - 'SUP-produktionsprocess'
+    - 'onboarding av OEM-köpare'
+    - 'SUP-fabriksprocess'
+    - 'faser i anpassade SUP-beställningar'
+    - 'OEM-provprocess'
+    - 'SUP-produktionstider'
+
+hero:
+  tagline: 'Onboarding av OEM-köpare'
+  title: 'Din första SUP-beställning, steg för steg'
+  subtitle: 'Från första kontakt till levererade brädor — OEM-onboardingprocessen hos iSupfactory går via sju definierade portar, vardera med tydlig genomlöpningstid, dokumenterat resultat och en go/no-go-kontrollpunkt. Ingen oklarhet, inga dolda steg, inga överraskningar efter handpengen.'
+  actions:
+    - variant: primary
+      text: Starta briefingen av ert projekt
+      href: /sv/contact#project-brief
+    - text: Jämför spåren OEM, ODM och Private Label
+      href: /sv/oem-odm-private-label-comparison
+
+answer:
+  label: 'Kort svar'
+  text: 'En typisk OEM-onboarding tar 2–4 veckor till provgodkännandet och 6–8 veckor för den första produktionscykeln räknat från orderbekräftelsen. Du börjar med en projektbriefing (brädspecifikationer, antal, överensstämmelsekrav). Vi svarar inom en arbetsdag, erbjuder ett NDA före utbytet av egna data och tillverkar 1–2 fysiska prover på 7–12 dagar för din bedömning och ditt godkännande. När provet är fryst följer produktionsplaneringen och produktionen med fasta QC-portar i varje fas. Varje steg är dokumenterat och spårbart.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: 'De sju portarna'
+  title: 'Onboardingförlopp — sju portar från briefing till leverans'
+  subtitle: 'Varje port har en definierad input, en definierad output och en i förväg avtalad genomlöpningstid. Du passerar ingen port utan uttryckligt godkännande.'
+  steps:
+    - step: 'Port 1'
+      title: 'Första förfrågan & NDA (dag 0)'
+      desc: 'Skicka via /contact en projektbriefing med dina målbrädspecifikationer, beställningsmängden, överensstämmelsekraven och tidplanen. Ett NDA finns omedelbart tillgängligt — före delning av egna tekniska specifikationer eller artwork. Svar inom en arbetsdag.'
+    - step: 'Port 2'
+      title: 'Genomförbarhetskontroll & offert (dag 1–5)'
+      desc: 'Konstruktionsavdelningen kontrollerar din briefing avseende produktionskapacitet, materialtillgänglighet och överensstämmelseomfattning. Du får ett offertförslag post för post med MOQ-beräkning, provkostnader (som räknas av mot produktionen) och en specifikation av genomlöpningstider — inga grova intervall utan en planering port för port.'
+    - step: 'Port 3'
+      title: 'Provproduktion (dag 6–17)'
+      desc: '1–2 fysiska brädor enligt din specifikation: skalpens styvhet, det halksäkra EVA-deckpadets vidhäftning, grafikens trogenhet, tillbehörens passform. Du testar och bedömer brädan innan du binder dig till något slutgiltigt. Provkostnaderna räknas av mot produktionsbeställningen vid undertecknad kontrakt.'
+    - step: 'Port 4'
+      title: 'Provgranskning & godkännande (dag 18–21)'
+      desc: 'Du bedömer provet mot din specifikation — känslan, grafikens trogenhet, förpackning, tillbehör. Ändringar tas in i en reviderad BOM och ett godkännande av artwork. Den frysta specifikationen blir produktionsreferensen för alla efterföljande cykler.'
+    - step: 'Port 5'
+      title: 'Planering före produktion (dag 22–28)'
+      desc: 'Materialinköp, installation av formverktyg, bekräftelse av förpackningen och reservation av produktionsplatsen. Alla material kontrolleras vid mottagning mot den frysta BOM:en. Före produktionsstart utfärdas en produktionsplan med QC-portarnas datum.'
+    - step: 'Port 6'
+      title: 'Produktion & QC-portar (dag 29–55)'
+      desc: 'Produktionen går igenom systemet med 7 inspektionsportar: varumottagningskontroll, kontroll av drop-stitch-tyget, svetsning & montering, tryck- och lufttätningstest (24 timmars hållning vid 18.0 PSI, automatisk kassering över 0.50 PSI), montage av EVA-deckpad & tillbehör, grafik- & varumärkes-QC, slutförpackning & dokumentation. Varje port har godkänd/underkänd-kriterier och spårbarhetsprotokoll.'
+    - step: 'Port 7'
+      title: 'Leverans & uppföljning (dag 56–63)'
+      desc: 'Exportklar förpackning, överensstämmelsedokumentation (CE, ISO 9001, BSCI, REACH, RoHS) och koordinering av sjöfrakt till över 50 länder. En uppföljning efter leverans fångar upp lärdomar och förbättringar för nästa ordercykel.'
+
+collaboration_modes:
+  tagline: 'Välj din väg'
+  title: 'Tre samarbetsformer, en onboardingprocess'
+  subtitle: 'Varje ny köpare går igenom samma onboarding med sju portar — det som skiljer sig är omfattningen av konstruktionsinvolvering och var den immateriella äganderätten ligger.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM-produktion'
+      desc: 'Du levererar den fullständiga designspecifikationen — skalpform, konstruktion, grafik, tillbehör. Vi tillverkar enligt din specifikation. Du äger all IP. Ideal för varumärken med befintlig produktserie och bevisad brädgeometri.'
+      link_label: 'Så fungerar OEM'
+      href: /sv/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM-utveckling'
+      desc: 'Du levererar briefingen — användarens målvikt, tänkt användning, prisnivå — och vårt tekniska team utvecklar brädan utifrån dina behov. Anpassad plattform med din varumärkessättning. Ideal för varumärken utan egen designkapacitet som går in på marknaden.'
+      link_label: 'Så fungerar ODM'
+      href: /sv/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Sätt ditt varumärke på en i praktiken bevisad plattform — ingen designfas behövs. Din logotyp på nos eller sidorails från endast 5–10 stycken. Ideal för aktörer och distributörer som vill ha märkta brädor utan utvecklingscykel.'
+      link_label: 'Private Label-alternativ'
+      href: /sv/solutions/private-label-sup
+
+checklist:
+  heading: 'Vad du bör förbereda före projektbriefingen'
+  body: |
+    Ju mer komplett din briefing är, desto snabbare och mer exakt blir offerten. Så förbereder du dig:
+
+    - **Brädspecifikationer** — mållängd, bredd och tjocklek, användarens viktintervall och tänkt användning (touring, allround, surf, fiske, yoga etc.). Har du referensmått eller en modell från en konkurrent, lägg till dem.
+    - **Designfiler** — vektorgrafik (AI, SVG eller PDF) för brädgrafiken, logotypen på EVA-deckpadsen och den sekundära varumärkessättningen. Är grafiken inte klar räcker ett moodboard eller referensbilder för den första genomförbarhetskontrollen.
+    - **Antal & planering** — din målmängd för den första beställningen och den säsongstidplan du måste hålla. Även ett grovt intervall (t.ex. ”20–50 brädor före mars”) hjälper oss att bekräfta genomförbarheten och tillgången till produktionsplatser.
+    - **Överensstämmelsekrav** — målmarknader (EU, Nordamerika, Australien etc.) och eventuella certifierings- eller testkrav utöver våra standarder (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **Budget** — en indikativ budget per bräda eller ett målvärde på platsen hjälper oss att rekommendera rätt plattform och nivå. Det exakta priset bekräftas först efter den tekniska granskningen — aldrig tidigare.
+
+    Har du inte allt, skicka det du har. Vi vägleder dig genom resten.
+
+evidence_review:
+  tagline: 'Bevis & verifiering'
+  title: 'KONTROLLERADE SPECIFIKATIONER'
+  body: 'Alla produktionspåståenden på denna sida har verifierats av vårt Manufacturing Engineering-team i fabriken i Laixi, Qingdao. Certifikat, QC-inspektionsprotokoll, tryck- och strukturtester och register över partispårbarhet finns tillgängliga på begäran. Specifikationerna verifierades senast i september 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'OEM-onboarding — vanliga frågor'
+  items:
+    - q: 'Hur länge tar hela onboardingprocessen?'
+      a: 'Provgodkännandet tar normalt 2–4 veckor (inklusive provproduktion på 7–12 dagar och din granskningsfas). Den första produktionscykeln tar 6–8 veckor från bekräftad beställning och handpengar. En ny skalpform lägger till 15–20 dagars formbygge. Varje port har en i förväg avtalad genomlöpningstid.'
+    - q: 'Måste jag underteckna ett NDA innan jag delar min design?'
+      a: 'Ett NDA finns direkt på begäran — före delning av egna tekniska specifikationer eller artwork. Vi tillverkar uteslutande under våra kunders varumärken och konkurrerar inte med dem på någon marknad. Samma policy gäller för ett enda prov som för ett containerprogram.'
+    - q: 'Vilken är minsta beställningsmängd för en första OEM-cykel?'
+      a: 'Starten är trappstegsvis: först 1–2 prover (tillgängliga inom 7–12 dagar), därefter en prov- eller pilotorder på 20–50 brädor (produktion på 25–35 dagar), sedan standardmängder på 90–100+ brädor per godkänd konfiguration. Co-branding i små partier startar från 5–10 stycken om ingen utvecklingsfas behövs. Provkostnaderna räknas av mot produktionsbeställningen.'
+    - q: 'Hur regleras skyddet av den immateriella äganderätten under onboarding?'
+      a: 'Dina designer och specifikationer skyddas av det NDA som undertecknas före utbytet av egna uppgifter. All artwork, BOM-data och tekniska filer förvaras i system med åtkomstkontroll och spårbar granskningslogg. I OEM-läge äger du all IP. I ODM-läge är den anpassade plattformens IP delad såsom avtalats. I Private Label-läge är IP:t iSupfactory:s och du får en licens för varumärkessättningen.'
+    - q: 'Vilka kvalitetsgarantier gäller för en första beställning?'
+      a: 'Varje bräda — prov, provmängd eller volym — går igenom samma system med 7 inspektionsportar: varumottagningskontroll, kontroll av drop-stitch-tyget, svetsning & montering, 24-timmars tryck- och lufttätningstest (18.0 PSI hållning, automatisk kassering över 0.50 PSI), montage av EVA-deckpad & tillbehör, grafik- & varumärkes-QC, slutförpackning & dokumentation. Kvaliteten sänks aldrig för mindre beställningar.'
+    - q: 'Vad är det första praktiska steget?'
+      a: 'Fyll i /sv/contact#project-brief med planerade specifikationer, målmängd och planering. Vi svarar inom en arbetsdag med genomförbarhetskontrollen och ett offertförslag post för post. Allt annat i processen är dokumenterat port för port, från NDA till leverans.'
+
+cta:
+  title: 'Redo att starta ert SUP-projekt?'
+  subtitle: 'Skicka oss er brädspecifikation, er målmängd och er planering. Vi bekräftar genomförbarheten, tillverkar prover och levererar en produktionsplan — port för port, med dokumenterad QC i varje fas.'
+  actions:
+    - variant: primary
+      text: Starta briefingen av ert projekt
+      href: /sv/contact#project-brief
+    - text: Jämför OEM, ODM och Private Label
+      href: /sv/oem-odm-private-label-comparison
+    - text: Verifiera fabriken och kvalitetssystemet
+      href: /sv/proof-center

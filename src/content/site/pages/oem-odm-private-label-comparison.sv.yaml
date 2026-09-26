@@ -1,0 +1,128 @@
+meta:
+  title: 'SUP-produktion OEM vs. ODM vs. Private Label — jämförelseguide'
+  description: 'SUP-produktion OEM vs. ODM vs. Private Label jämförda: definitioner, ägande, MOQ-trösklar, leveranstider, formverktyg, IP-regler och valkriterier.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM vs ODM vs Private Label'
+    - 'SUP-produktionsjämförelse'
+    - 'produktion av anpassade paddelbrädor'
+    - 'OEM SUP Kina'
+    - 'ODM SUP-utveckling'
+    - 'Private Label SUP'
+
+hero:
+  tagline: 'Välj er samarbetsmodell'
+  title: 'OEM vs. ODM vs. Private Label — vilken modell passar ert projekt?'
+  subtitle: 'Tre sätt att samarbeta med en SUP-fabrik, vart och ett med annan ägande, andra investeringar och en annan avvägning mellan fart och kontroll. Den här guiden förklarar skillnaderna, så att ni väljer rätt spår före er första förfrågan.'
+
+answer:
+  label: 'Snabb jämförelse'
+  text: 'OEM: ni äger design och specifikation — vi tillverkar enligt era ritningar. ODM: vårt tekniska team utvecklar brädan utifrån er briefing — ni godkänner före produktionen. Private Label: ert varumärke på en befintlig, bevisad plattform utan strukturella ändringar — snabbaste vägen till marknaden. Alla tre spår går genom samma fabrik, samma QC-system och samma exportteam i Qingdao, Kina.'
+  verified: 'September 2026'
+
+comparison_table:
+  tagline: 'Bredvid varandra'
+  title: 'OEM / ODM / Private Label jämförda'
+  subtitle: 'Väsentliga skillnader i designägande, MOQ, formverktyg, leveranstider och immateriella äganderätt.'
+  headers:
+    dimension: Dimension
+    oem: OEM-produktion
+    odm: ODM-utveckling
+    pl: Private Label
+  rows:
+    - dimension: ' vem designar brädan?'
+      oem: 'Ni levererar specifikation, ritningar eller en referensbräda'
+      odm: 'Fabrikens tekniska team utvecklar utifrån er briefing'
+      pl: 'Befintlig fabriksplattform — ingen designinsats'
+    - dimension: 'Ägande av design och IP'
+      oem: 'Ni äger alla designer, formverktyg och den immateriella äganderätten'
+      odm: 'Ni äger den godkända slutdesignen; fabriken behåller utvecklingsprocessens IP'
+      pl: 'Fabriken äger plattformsdesignen; ni äger varumärke och grafik'
+    - dimension: 'Formverktyg / utrustning'
+      oem: 'Eget formverktyg behövs för nya former — engångskostnad för utrustning, +15–20 dagar'
+      odm: 'Kan kräva eget formverktyg beroende på specifikation — samma utrustningsplanering'
+      pl: 'Inget nytt formverktyg — befintlig plattforms utrustning används'
+    - dimension: 'Minsta beställningsmängd'
+      oem: '90–100+ enheter per godkänd konfiguration'
+      odm: '90–100+ enheter per godkänd konfiguration; pilotpartier på 20–50'
+      pl: '5–10 enheter (co-branding) eller 20–50 (pilotparti på befintlig plattform)'
+    - dimension: 'Typisk leveranstid'
+      oem: '25–35 dagar + 15–20 dagar för utrustning vid nytt formverktyg'
+      odm: '25–35 dagar + utvecklingsiteration (varierar med komplexiteten)'
+      pl: '25–35 dagar (ingen fördröjning från formverktyg)'
+    - dimension: 'Anpassningsnivå'
+      oem: 'Total — form, konstruktion, material, grafik, förpackning'
+      odm: 'Total — fabriken föreslår, ni godkänner varje element'
+      pl: 'Endast grafik och förpackning — inga strukturella ändringar'
+    - dimension: 'Provprocess'
+      oem: '1–2 prototyprover på 7–12 dagar efter specifikationsgodkännande'
+      odm: '1–2 prototyprover på 7–12 dagar efter designgodkännande'
+      pl: '1–2 prover på 7–12 dagar — plattformen är redan validerad'
+    - dimension: 'Ideal för'
+      oem: 'Köpare med befintliga designer, referensbrädor eller detaljerade specifikationer'
+      odm: 'Köpare med produktidéer eller marknadskrav men utan detaljerad specifikation'
+      pl: 'Köpare som snabbt vill ha märkta brädor utan produktutveckling'
+
+scenario_cards:
+  tagline: 'När du väljer vilket spår'
+  title: 'Verkliga scenarier'
+  subtitle: 'Vanliga situationer hos köpare och det rekommenderade samarbetsmodellen.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Ni har fullständiga specifikationer och äger designen'
+      desc: 'Ni har CAD-ritningar, en referensbräda eller ett detaljerat specifikationsblad med mått, material, konstruktion och förpackningskrav. Välj OEM — vi tillverkar exakt enligt er specifikation.'
+      link: '/sv/factory/oem-capability'
+      link_label: 'Detaljer om OEM-produktion'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Ni har en produktidé men ingen teknisk specifikation'
+      desc: 'Ni känner till målmarknaden, prisnivån och prestandakraven, men behöver tekniskt stöd för att utveckla brädan. Välj ODM — vårt team utvecklar utifrån er briefing och ni godkänner före produktionen.'
+      link: '/sv/odm-manufacturing'
+      link_label: 'Detaljer om ODM-utveckling'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Ni behöver snabbt märkta brädor utan produktutveckling'
+      desc: 'Ni är distributör, resort eller uthyrare och vill sätta er logotyp på kvalitetsbrädor utan att investera i produktutveckling. Välj Private Label — snabbaste vägen från idé till leverans.'
+      link: '/sv/solutions/private-label-sup'
+      link_label: 'Detaljer om Private Label'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Ni driver ett resort, klubb eller uthyrningsflotta'
+      desc: 'Ni behöver hållbara SUP-paket för intensivt bruk, med partikonsistens, reservdelar och färgstyrning vid återtryck. Välj vårt Commercial Fleet Program.'
+      link: '/sv/solutions/resort-sup'
+      link_label: 'Detaljer om Commercial Fleet'
+
+ip_rules:
+  tagline: 'Skydd av immateriella äganderätt'
+  title: 'Så skyddar vi er design och ert varumärke'
+  subtitle: 'Oavsett samarbetsmodell förblir ert artwork, era formverktyg och era specifikationsfiler era egna.'
+  body: |
+    **NDA före filutbytet.** Vi undertecknar en sekretessessavtal före varje utbyte av tekniska filer — standard svarstid inom 4 arbets timmar.
+
+    **Ingen återanvändning av designer.** Ert artwork, era formverktyg och era specifikationsfiler delas eller säljs aldrig till andra kunder. OEM-formverktyg är exklusivt era. ODM-designer godkänns av er före produktionen. Private Label-plattformar är delade strukturer, men er grafik och varumärkessättning är exklusiv.
+
+    **Endast B2B.** Vi tillverkar uteslutande under våra kunders varumärken. Vi säljer inte till slutanvändare och konkurrerar inte med våra kunder på någon marknad.
+
+    **Ägande av formverktyg.** Egna formverktyg som betalats av köparen tillhör köparen. Vi förvarar och underhåller dem, men får inte använda dem för andra kunder utan skriftligt tillstånd.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Vanliga frågor om OEM, ODM och Private Label'
+  items:
+    - q: 'Kan jag senare byta från Private Label till OEM?'
+      a: 'Ja. Många kunder börjar med Private Label-produktion eller en pilot för att validera marknaden och investerar sedan i egen utrustning för ett fullständigt OEM-program när efterfrågan är bevisad. Samma fabrik och samma QC-system stöder båda spåren.'
+    - q: 'Innebär ODM att fabriken äger mitt varumärke?'
+      a: 'Nej. Vid ODM äger ni ert varumärke, er grafik och er förpackning. Fabriken utvecklar brädans struktur utifrån er briefing och ni godkänner designen före produktionen. Fabriken behåller utvecklingsprocessens IP, men den godkända produktspecifikationen är er.'
+    - q: 'Är Private Label av sämre kvalitet än OEM?'
+      a: 'Nej. Alla tre spår går genom samma fabrik, samma QC-system och samma exportteam. Private Label-brädor byggs på bevisade, validerade plattformar, med hela trycktestet på 18 PSI/24 timmar och samma 100-punkts montagelista.'
+    - q: 'Vad gör jag om jag inte är säker på vilken modell jag ska välja?'
+      a: 'Kontakta oss om er situation — vårt tekniska team rådgör om det mest praktiska spåret utifrån era produktkrav, er planering och era antalsmål. Det finns ingen som helst förpliktelse före specifikationsgranskningen.'
+    - q: 'Kan jag få prover innan jag väljer modell?'
+      a: 'Ja. 1–2 prototyprover skickas inom 7–12 dagar. Provkostnaderna räknas av mot er storbeställning. Så kan ni bedöma konstruktion och kvalitet före någon volymförpliktelse.'
+
+cta:
+  title: 'Redo att diskutera ert SUP-projekt?'
+  subtitle: 'Berätta om era produktkrav, er marknad och era antalsmål — vi rådgör om det mest praktiska samarbetsspåret.'
+  button: 'Starta ert SUP-projekt'
+  note: 'Svar inom 1 arbetsdag · NDA finns tillgängligt före filutbytet'

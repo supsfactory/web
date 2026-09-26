@@ -1,0 +1,94 @@
+meta:
+  title: 'Konstruktion av SUP-skalp — CAD- & FEA-brädedesign'
+  description: 'Designstudio för SUP-brädor: CAD-brädedesign, finita elementanalys (FEA) av drop-stitch-konstruktioner och anpassade skalpformer för OEM-projekt.'
+back_text: 'Tillbaka till F&U-centrumet'
+home_label: 'Hem'
+
+hero:
+  tagline: 'Laboratorium 02'
+  title: 'Brädedesignstudio'
+  subtitle: 'Digital simulering, strukturell intelligens, personifierat brädedesign'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion.webp'
+  image_alt: 'CAD-arbetsplats för design av SUP-brädor hos Vatrad'
+
+answer:
+  label: 'Entydigt svar'
+  text: 'Personifierade SUP-brädor designas internt med 3D-ytmodellering i SolidWorks, ANSYS-FEA och CFD — varje bräda simuleras med avseende på spänningsfördelning och deckstyvhet före prototyptillverkningen, med en bindande säkerhetsfaktor ≥ 2.5. En anpassad form kräver 7–12 dagar till prototypen; fullständig formtillverkning för en anpassad form förlänger produktionstiden 25–35 dagar med ytterligare 15–20 dagar, där MOQ fastställs av projektkonfigurationen (se vår MOQ-guide).'
+  verified: 'September 2026'
+
+intro: 'Skalpformen på en SUP-bräda — rocker, railprofil, volymen i båt och akter — avgör hur den paddlar, vänder och ligger rak. Vårt brädedesignstudio på {SITE.name} kombinerar CAD-ytmodellering, finita elementanalys (FEA) av drop-stitch-konstruktioner och produktionserfarenhet för att leverera brädor optimerade för sitt ändamål: allround-stabilitet, touringens glidduglighet eller surfprestanda. Varje personifierad bräda utgår från dina krav, inte från en generisk katalogform.'
+
+content_html: |
+  <h2>När motstånd och hydrodynamik möts</h2>
+  <p>En uppblåsbar SUP-bräda är en drop-stitch-konstruktion: tusentals polyestertrådar förbinder över- och underskinnet i PVC och håller decket platt vid 12–15 PSI, medan geometrin för rail och båt avgör brädans beteende i vattnet. Vi designar 3D-formen, simulerar den uppblåsta konstruktionen och validerar resultatet internt, innan en enda prov skärs.</p>
+
+  <h2>Designverktyg och standarder</h2>
+  <p>Vår digitala designmiljö omfattar:</p>
+  <table>
+    <thead><tr><th>Kapacitet</th><th>Programvara / verktyg</th><th>Tillämpning</th></tr></thead>
+    <tbody>
+      <tr><td>Parametrisk 3D-modellering</td><td>SolidWorks Professional</td><td>Brädets yta, rockerlinje, railprofil, integration av handtag &amp; fenor</td></tr>
+      <tr><td>Finita elementanalys</td><td>ANSYS Mechanical</td><td>Spänningsfördelning i drop-stitch-kärnan, deckstyvhet under belastning, förstärkning av handtagspunkten</td></tr>
+      <tr><td>Computational Fluid Dynamics</td><td>Ansys Fluent</td><td>Prediktion av hydrodynamiskt motstånd, optimering av glidläget</td></tr>
+      <tr><td>Laminationsteknik</td><td>ESAComp</td><td>PVC-lager, val av tygvikt, viktkalkyl</td></tr>
+      <tr><td>Granskning av formytor</td><td>Moldex3D</td><td>Verifiering av geometrin för svetsformar vid RF-svetsning</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Vår designarbetsflöde</h2>
+  <p>Varje brädedesign — vare sig det är en standardmodell eller ett fullständigt personifierat projekt — följer en strikt process i fem steg:</p>
+  <ol>
+    <li><strong>Insamling av koncept &amp; krav</strong> — Vi fastställer paddlarnas viktintervall, användningssyfte (allround, touring, surf, yoga, uthyrningsflotta), målen för längd, bredd och tjocklek samt särskilda funktioner (förvaringssystem, deckpad, fästpunkter).</li>
+    <li><strong>3D-ytmodellering &amp; volymberäkning</strong> — Brädets form modelleras i SolidWorks och kontrolleras avseende volymfördelning, vattenförträngning och stabilitet i förhållande till paddlarens målvikt.</li>
+    <li><strong>Strukturell FEA</strong> — Den uppblåsta brädan analyseras under stående belastning, både statiskt (paddlare i mitten, 100 kg) och dynamiskt (vågslag mot railen). Spänningskonterna kontrolleras; en säkerhetsfaktor ≥ 2.5 är bindande.</li>
+    <li><strong>CFD-optimering av motstånd</strong> — Skalpen simuleras vid tre belastningstillstånd och fem hastigheter. Våt yta, glidvinkel och kvarvarande motstånd minskas iterativt.</li>
+    <li><strong>Designgranskning &amp; frigörning</strong> — Hela konstruktionsdokumentationen (3D-modell, FEA-rapport, CFD-rapport, viktkalkyl, planritning över panelläggning) granskas av vår senioringenjör innan den frisläpps till prototypverkstaden.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">FEA-resultat — allround-bräda 11''0 (32'' bred, 6'' tjock)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2.8 : 1</span>
+        <span class="text-gray-500">Säkerhetsfaktor vid 120 kg stående belastning</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Deckgenböjning vid 15 PSI, utan belastning</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3.2 mm</span>
+        <span class="text-gray-500">Maximal deckgenböjning under en paddlare på 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Analystryck — plattformens driftstryck</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Personalisering: din bräda, dina regler</h2>
+  <p>Inga två varumärken har identiska krav. En uthyrningsflotta behöver en bred, stabil allround-bräda med förstärkta rails; ett touringvarumärke behöver en längre längsgående skalp med lastsfästen; en surfinriktad serie behöver en kompakt akter och en rockerprofil. Vi tvingar inte in din produktserie i färdiga former — vi bygger utifrån dina krav.</p>
+  <p>Exempel på nyliga projekt med personifierad brädekonstruktion:</p>
+  <ul>
+    <li>En 14'' touring-SUP för ett varumärke inom uthållighetspaddling, med längsgående skalp och infällt lastdäck (+15 % vattenlinjelängd för bättre glidduglighet).</li>
+    <li>En bred allround-bräda på 10''6 för en resortflotta, med tvålagers sidorails och en nominell kapacitet på 220 lb.</li>
+    <li>En surf-SUP på 9'' med kompakt akter och progressiv rocker, utvecklad för en egen surfskolserie.</li>
+  </ul>
+
+  <h2>Våra ingenjörer</h2>
+  <p>Studio leds av en senior produktingenjör med 14 års erfarenhet av design av uppblåsbara produkter, understödd av två maskiningenjörer som är specialiserade på FEA och CFD. Alla tre har högre ingenjörsexamina från internationellt erkända universitet, och teamet arbetar direkt tillsammans med vår produktionshall för att säkerställa att varje design är produktionsbar på containernivå.</p>
+
+  <h2>Designa din nästa bräda med oss</h2>
+  <p>Från den första konceptskissen till det slutliga spänningsrapportet är vårt brädedesignstudio din partner i utvecklingen av en bräda som inte bara är byggd, utan är designad. Vi investerar i simuleringstid i förväg, så att varje svets, varje laminatlager och varje railkurva har ett syfte.</p>
+  <p>Oavsett om du behöver en liten ändring av en befintlig modell eller ett fullständigt omdesign — vi är redo att diskutera dina krav.</p>
+
+cta:
+  title: 'Starta er brädedesignkonsultation'
+  subtitle: 'Berätta om era målpaddlare och användningssyftet, så föreslår vi en konstruktionsinsats.'
+  actions:
+    - variant: primary
+      text: Kontakta vårt ingenjörsteam
+      href: /contact#project-brief
+    - text: Tillbaka till F&U-centrumet
+      href: /randdcenter

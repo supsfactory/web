@@ -1,0 +1,219 @@
+meta:
+  title: 'Anpassade SUP-MOQ & leveranstider: från prov till containerlast'
+  description: 'Anpassade SUP-MOQ per leveransnivå: prover inom 7–12 dagar, pilotorder på 20–50 brädor, standardvolymer på 90–100+ per rulle på 150 m, tillverkning på 25–35 dagar.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'anpassad sup moq'
+    - 'sup tillverkningstid'
+    - 'minsta beställningsmängd uppblåsbara sup'
+    - 'sup pilotorder'
+    - 'leveranstid anpassad paddleboard'
+    - 'leveranstid sup fabrik oem'
+    - 'sup provbeställning'
+
+hero:
+  tagline: 'Anpassade SUP-MOQ & leveranstider'
+  title: 'Från prov till containerlast — MOQ och leveranstid tydligt förklarade'
+  subtitle: 'En tydlig uppdelning av beställningsnivåer och tillverkningstider för anpassade uppblåsbara SUP: vad du kan beställa per nivå, hur länge varje nivå faktiskt tar och hur prov, pilotorder och volym faller in i ett och samma projekt. Utformad och hanterad av Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Begär MOQ- och leveranstidsuppdelningen för ditt projekt
+      href: /sv/contact#moq-guide
+    - text: MOQ-guiden & flexibel varumärkning
+      href: /sv/oem-moq-guide
+
+answer:
+  label: 'Kort svar'
+  text: 'MOQ och leveranstid är projektspecifika, men ramverket är fast. Varje anpassat SUP-projekt går igenom samma trappa: provutveckling (1–2 brädor, klart på 7–12 dagar), prov- och pilotorder (20–50 brädor) samt standardvolymcykler (90–100+ brädor per drop-stitch-rulle på 150 m). Tillverkningstiden är 25–35 dagar från bekräftad PO och deposition; om ditt projekt kräver en anpassad stomme lägger tillverkningen av formen till 15–20 dagar innan produktionen börjar. Ett typiskt första projekt ser då ut så här: prover inom cirka 1–2 veckor, pilotbrädor inom 4–6 veckor och den första fulla cykeln som startar cirka 6–8 veckor efter att ordern bekräftats.'
+  verified: 'September 2026'
+
+moq_lead_table:
+  tagline: 'Ramverket'
+  title: 'Nivåerna för anpassade SUP-MOQ & leveranstider i korthet'
+  subtitle: 'Varje nivå validerar nästa. Du hoppar aldrig direkt från en design till en container: du bekräftar stomme, grafik och förpackning på varje nivå innan du binder dig till fler brädor.'
+  headers:
+    stage: 'Beställningsnivå'
+    quantity: 'Typisk kvantitet'
+    lead_time: 'Leveranstid'
+    best_for: 'Idealt för'
+  rows:
+    - stage: 'Provutveckling'
+      quantity: '1–2 brädor'
+      lead_time: '7–12 dagar'
+      best_for: 'Validering av stommens styvhet, EVA-tractionmatts textur, grafisk precision och tillbehörens passform. Det finns provkostnader som räknas av mot din produktionsorder när kontraktet undertecknas.'
+    - stage: 'Provorder / pilotorder'
+      quantity: '20–50 brädor'
+      lead_time: '25–35 dagar'
+      best_for: 'Ekonomiska försäsongstester, marknadsvalidering och de första försäljningen med befintliga stomplattformar, lagermaterial och förenklad förpackning.'
+    - stage: 'Standardvolymcykel'
+      quantity: '90–100+ brädor per rulle på 150 m'
+      lead_time: '25–35 dagar'
+      best_for: 'Full produktionseffektivitet på hela tygrullar på 150 m — inga tygsektorer, jämna fiberspänning och avskriven linjedragning. Anpassade former körs på denna nivå.'
+    - stage: 'Brett program'
+      quantity: '300+ brädor'
+      lead_time: '25–35 dagar per parti, fasade leveranser'
+      best_for: 'Containerprogram och säsongsflottor, planerade över flera produktionsbatcher, så att ditt lager och din kassaflöde förblir hanterbara.'
+
+moq_drivers:
+  tagline: 'Vad som avgör din MOQ'
+  title: 'De sex faktorer som bestämmer din minsta kvantitet'
+  subtitle: 'MOQ är inget godtyckligt tal som säljteamet väljer. Det beräknas utifrån hela produktarkitekturen — de här delarna bedöms tillsammans innan offerten tas fram.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Stommets form & formbyggnad'
+      desc: 'Fabrikens befintliga rockerformer gör pilotorder från 20 brädor möjliga. En anpassad stomme kräver speciellt CAD-skärverktyg och form för EVA-termoformning, och formbyggnaden lägger till 15–20 dagar på programmet.'
+    - icon: C
+      icon_bg: green
+      title: 'Färgvarianter & PVC'
+      desc: 'Standardlagervärden går i pilotkvantiteter, medan PVC-rullar som målas i Pantone-färger i egen regi kräver separata kemiska målningscykler med egna minimimängder av råmaterial.'
+    - icon: A
+      icon_bg: purple
+      title: 'Design & trycktäckning'
+      desc: 'En logotyp i skarnen kan tryckas i små cykler, medan heltäckande eller flerpanelsdesign kräver uppbyggnad av digitala tryckklichéer och täckningstester, vilket ökar den praktiska partistorleken.'
+    - icon: B
+      icon_bg: orange
+      title: 'Förpackning med ditt varumärke'
+      desc: 'Anpassade 5-lagers retailpresentationskartonger har en egen minimupplaggsfråga vid offsettryck. Beställer du färre kartonger lagrar vi överskottet och levererar det fritt längs dina planerade leveranser.'
+    - icon: G
+      icon_bg: blue
+      title: 'Tillbehörspaket'
+      desc: 'Standardpaddlar i aluminium eller nylon, pump och väskor följer mindre inköpspartier. Helt märkta kolfiberspaddlar och anpassade pumpar har sina egna minimiproduktionsmängder.'
+    - icon: S
+      icon_bg: green
+      title: 'Säsongs- & betalningsplanering'
+      desc: 'Order inom försäsongsfönstret får bekräftade produktionsslotar. De fasade leveransplanerna för program från 300+ brädor bekräftas i kontraktet, inte efter produktionen.'
+
+moq_timeline:
+  tagline: 'Tidslinje från start till mål'
+  title: 'Från produktbriefing till skickade brädor: dag för dag'
+  subtitle: 'Hela tidslinjen för ett typiskt anpassat SUP-program. Befintliga stomplattformar komprimerar den vänstra sidan av tidslinjen; en anpassad stomme lägger till fasen med formutveckling.'
+  steps:
+    - step: 'Dag 0'
+      title: 'Skicka din produktbriefing'
+      desc: 'Brädmodell, målkvantitet, färgvarianter, design och förpackningskrav. Den tekniska verifieringen slutförs inom en arbetsdag.'
+    - step: 'Dag 1–2'
+      title: 'Teknisk verifiering & genomförbarhet'
+      desc: 'Vårt tekniska team granskar stommens geometri, materialen och konformitetsspåret och bekräftar om projektet passar befintliga plattformar eller kräver nya former.'
+    - step: 'Dag 3–7'
+      title: 'Specifikation & detaljerad offert'
+      desc: 'Du får hela specifikationen med MOQ-beräkning, leveranssegment och detaljerade kostnader — inklusive eventuella formkostnader — innan några åtaganden görs.'
+    - step: 'Dag 7–12'
+      title: 'Provutveckling (1–2 brädor)'
+      desc: 'Fysiskt prov byggt och testat: stommens styvhet, EVA-tractionmatts textur, grafisk precision och tillbehörens passform. Provkostnaderna räknas av mot produktionsordern vid godkännande.'
+    - step: '+15–20 dagar'
+      title: 'Utveckling av anpassade former (endast anpassade stommor)'
+      desc: 'Endast för projekt med ny stomform: CNC-skärverktyg, form för EVA-termoformning och formtester slutförs innan volymproduktionen kan börja.'
+    - step: '25–35 dagar'
+      title: 'Tillverkning efter bekräftad PO & deposition'
+      desc: 'Hela tygrullar på 150 m, Pantone-material, förpackning med ditt varumärke och 100-punktsmontering. Varje bräda genomgår tryck- och lufttätningstester på 24 timmar.'
+    - step: '300+ brädor'
+      title: 'Planering av fasade leveranser'
+      desc: 'Breda program skickas i planerade batchar för att matcha säsongsförsäljning, lagerkapacitet och betalningsmilstolpar.'
+    - step: 'Dag 0–90'
+      title: 'Typisk horisont för första ordern'
+      desc: 'Från briefing till första levererade cykel: cirka 6–8 veckor med befintliga plattformar, 8–12 veckor inklusive anpassad form. Multi- och containerprogram löper medvetet längre.'
+
+expedite:
+  tagline: 'Korta leveranstiderna'
+  title: 'Vad som håller leveranstiderna korta'
+  subtitle: 'Tre hävarmar låter dig korta programmet utan att ändra grunden i rullfysiken.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Prover är snabbt som standard'
+      desc: 'Provutveckling tar 7–12 dagar i varje projekt. Använd provomgången för att låsa specifikationen, så att tillverkningen aldrig behöver vänta på sena designbeslut.'
+    - icon: P
+      icon_bg: green
+      title: 'Produktionsslotar bekräftas i förväg'
+      desc: 'Försäsongsorder garanterar bekräftade produktionsslotar. Att flera kunder bokar samma slot är precis skälet till att tidigare depositioner får tidigare produktionslinjer.'
+    - icon: T
+      icon_bg: purple
+      title: 'Transparenta trappstegsgrindar'
+      desc: 'Varje grind — provgodkännande, BOM-frysning, designfrysning, PO och deposition — avtalas med datum i kontraktet. Du vet alltid vilken dag klockan börjar om.'
+
+scenarios:
+  tagline: 'Tre realistiska startpunkter'
+  title: 'Vilket spår passar ditt projekt?'
+  subtitle: 'Samma fabrik, tre olika spår att komma in på. Välj det scenario som ligger närmast din situation och använd det när du kontaktar oss.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Startup-varumärke: validera innan du binder dig'
+      desc: 'Beställ först 1–2 prover (7–12 dagar), testa kvalitet och fotografi och lägg sedan en pilotorder på 20–50 brädor för att testa försäljningen innan någon full cykel. Den totala exponeringen under första säsongen hålls under 50 brädor.'
+    - icon: B
+      icon_bg: blue
+      title: 'Resort eller uthyrningsoperatör: pilota, sedan skala upp'
+      desc: 'En pilotorder på 20–50 brädor med förenklad förpackning tar dig genom försäsongsperioden. Efter att ha samlat användardata stegar du upp till standardcykler på 90–100+ brädor med varumärkest förpackning.'
+    - icon: C
+      icon_bg: green
+      title: 'Etablerat varumärke: fullständiga containerprogram'
+      desc: 'Etablerade varumärken beställer 90–100+ brädor per rulle på 150 m med anpassade stommor och heltäckande varumärkning. Anpassad formbyggnad lägger till 15–20 dagar; program från 300+ brädor skickas enligt fasede planer.'
+
+moq_quality:
+  tagline: 'QC & konformitet'
+  title: 'Samma kvalitetssystem vid varje orderstorlek'
+  subtitle: 'Ett prov på 1 bräda och ett program på 300+ brädor går igenom samma kvalitetsgrindar och samma konformitetsdokumentation. "Låg MOQ" betyder aldrig "låg standard".'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Konformitetsdokument, oavsett storlek'
+      desc: 'CE-, ISO 9001-, BSCI-, REACH- och RoHS-certifieringsdokumentation ingår i varje order — även enskilda prover — med certifikatnummer på begäran.'
+    - icon: A
+      icon_bg: green
+      title: '100-punkts montagechecklista'
+      desc: 'Varje bräda, oavsett partistorlek, klarar samma 100-punkts montagechecklista: material, svetsar, ventiler, rails, viktar och tillbehörens passform kontrolleras rad för rad.'
+    - icon: P
+      icon_bg: purple
+      title: 'Tryck- och lufttätningstest på 24 timmar'
+      desc: 'Varje bräda pumpas till 18.0 PSI och hålls i 24 timmar. Ett tryckfall på mer än 0.50 PSI leder till automatisk kassering — samma grind för ett prov och för en container.'
+    - icon: R
+      icon_bg: orange
+      title: 'Verifiering av HF-svetsar & railfusion'
+      desc: 'Fusionen av railbandets tre lager och HF-svetsarna verifieras visuellt och dimensionellt mot det godkända provet före varje produktionscykel.'
+    - icon: B
+      icon_bg: blue
+      title: 'ERP-partspårbarhet (10 år)'
+      desc: 'Varje bräda bär produktionsregister med serienummer — material, operatörer, tester och inspektionsresultat — som förvaras i 10 år och ställs till förfogande för revisioner.'
+    - icon: I
+      icon_bg: green
+      title: 'Redo för tredjepartsinspektion'
+      desc: 'Batchproduktionen är redo för tredjepartsinspektion när som helst. De flesta kunder använder dessutom vårt inspektionssystem på sju nivåer eller en pre-shipment-inspektion för volymprogram.'
+
+moq_faqs:
+  tagline: Vanliga frågor
+  title: 'Vanliga frågor om MOQ & leveranstid'
+  items:
+    - q: 'Vad är minsta beställningsmängd för en anpassad SUP?'
+      a: 'Det beror på projektets nivå: prover är 1–2 brädor, små co-brandingmängder börjar på 5–10 enheter, prov- och pilotorder går med 20–50 brädor och standardvolymproduktion går med 90–100+ brädor per drop-stitch-tygrulle på 150 m. Anpassade former körs på volymnivån. Vi bekräftar den exakta beräkningen för din konfiguration innan offerten tas fram.'
+    - q: 'Hur lång tid tar ett prov av en uppblåsbar SUP?'
+      a: 'Provutveckling tar 7–12 dagar. Provet verifierar stommens styvhet, EVA-tractionmatts textur, grafisk precision och tillbehörens passform. Det finns provkostnader som räknas av mot din produktionsorder när kontraktet undertecknas.'
+    - q: 'Hur lång tid tar tillverkningen efter att ordern bekräftats?'
+      a: 'Tillverkningstiden är 25–35 dagar från bekräftad PO och deposition. Om ditt projekt omfattar en anpassad stomme lägger utvecklingen av den anpassade formen till 15–20 dagars formbyggnad innan produktionen börjar.'
+    - q: 'Beräknas MOQ per order, per modell eller per färgvariant?'
+      a: 'MOQ kan gälla per modell, färgvariant, designversion, förpackningskonfiguration eller den totala ordern. Eftersom olika drop-stitch-tjocklekar och PVC-färger kommer från separata råmaterialrullar genererar en order på 50 brädor fördelat på 5 färger 5 separata beställningar på tygrullar. Vi bekräftar beräkningen mot din SKU-matris.'
+    - q: 'Kan jag börja med endast 1–2 brädor för att testa marknaden?'
+      a: 'Ja. En provorder på 1–2 brädor är den billigaste möjliga valideringen: stommens styvhet, grafiken och tillbehörens passform bekräftas innan du binder dig ekonomiskt till en cykel. Därifrån stegar du till en pilotorder på 20–50 brädor för den ekonomiska valideringen.'
+    - q: 'Kan ett program på 300+ brädor skickas i flera batchar?'
+      a: 'Ja. Breda program kan planeras som fasade leveranser över produktionsbatcher, så att säsongsflottor kommer när de behövs och kassaflöde och lagerutrymme förblir hanterbara. Programmen bekräftas i kontraktet, inte efter produktionen.'
+
+evidence_review:
+  tagline: 'Bevis & verifiering'
+  title: 'VERIFIERADE SPECIFIKATIONER'
+  body: 'Alla produktionsuppgifter på den här sidan verifieras av vårt Manufacturing Engineering Team i fabriken i Laixi, Qingdao. Certifikat, QC-inspektionsregister, tryck- och konstruktionstestrapporter samt register för partspårbarhet finns tillgängliga på begäran. Specifikationerna verifierades senast i september 2026.'
+
+cta:
+  title: 'Vill du ha MOQ & leveranstid specifikt för ditt projekt?'
+  subtitle: 'Skicka oss din brädmodell, målkvantiteten för första säsongen och dina varumärskrav. Vårt tekniska team bekräftar om spåret prov, pilot eller volym är rätt — med exakt MOQ-beräkning och en plan dag för dag. En förfrågan binder dig inte till något.'
+  actions:
+    - variant: primary
+      text: Begär MOQ- och leveranstidsuppdelningen
+      href: /sv/contact#moq-guide
+    - text: Jämför med guiden för flexibel varumärkning
+      href: /sv/oem-moq-guide
+    - text: Starta ett nytt varumärke med en pilotorder vid låg MOQ
+      href: /sv/new-brand-trial-order
+    - text: Verifiera fabrik och kvalitetssystem
+      href: /sv/oem-trust-assurance

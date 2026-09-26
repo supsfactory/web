@@ -24,22 +24,23 @@ const handler = async () => {
   const itPaths = new Set(loader.getLocalePaths('it'))
   const ptPaths = new Set(loader.getLocalePaths('pt'))
   const nlPaths = new Set(loader.getLocalePaths('nl'))
+  const svPaths = new Set(loader.getLocalePaths('sv'))
   const livePages = loader
     .getContentPages()
     .filter((p: { path: string }) => !(p.path in EDGE_REDIRECTS))
     .map((p: { path: string; content: { seo?: { dateModified?: string } }; meta?: { dateModified?: string } }) => {
       const seo = p.content.seo as { dateModified?: string } | undefined
-      return { loc: p.path, lastmod: p.meta?.dateModified ?? seo?.dateModified ?? '2026-06-01', es: esPaths.has(p.path), fr: frPaths.has(p.path), it: itPaths.has(p.path), pt: ptPaths.has(p.path), nl: nlPaths.has(p.path) }
+      return { loc: p.path, lastmod: p.meta?.dateModified ?? seo?.dateModified ?? '2026-06-01', es: esPaths.has(p.path), fr: frPaths.has(p.path), it: itPaths.has(p.path), pt: ptPaths.has(p.path), nl: nlPaths.has(p.path), sv: svPaths.has(p.path) }
     })
   const staticPages = [
-    ...GUIDES.map((g: { slug: string }) => ({ loc: `/guides/${g.slug}`, lastmod: '2026-06-01', es: true, fr: true, it: true, pt: true, nl: true })),
+    ...GUIDES.map((g: { slug: string }) => ({ loc: `/guides/${g.slug}`, lastmod: '2026-06-01', es: true, fr: true, it: true, pt: true, nl: true, sv: true })),
     ...projects.en.map((p: { slug: string }) => ({ loc: `/projects/${p.slug}`, lastmod: '2026-08-15' })),
     ...knowledge.en.map((a: { slug: string }) => ({ loc: `/knowledge/${a.slug}`, lastmod: '2026-08-07' })),
-    ...seriesPages.en.map((s: { slug: string }) => ({ loc: `/products/${s.slug}`, lastmod: '2026-08-15', es: true, fr: true, it: true, pt: true, nl: true })),
-    { loc: '/evidence/case-studies', lastmod: '2026-06-01', es: true, fr: true, it: true, pt: true, nl: true },
-    { loc: '/faq', lastmod: '2026-06-01', es: true, fr: true, it: true, pt: true, nl: true },
-    { loc: '/terms', lastmod: '2026-08-15', es: true, fr: true, it: true, pt: true, nl: true },
-    { loc: '/privacy', lastmod: '2026-08-15', es: true, fr: true, it: true, pt: true, nl: true },
+    ...seriesPages.en.map((s: { slug: string }) => ({ loc: `/products/${s.slug}`, lastmod: '2026-08-15', es: true, fr: true, it: true, pt: true, nl: true, sv: true })),
+    { loc: '/evidence/case-studies', lastmod: '2026-06-01', es: true, fr: true, it: true, pt: true, nl: true, sv: true },
+    { loc: '/faq', lastmod: '2026-06-01', es: true, fr: true, it: true, pt: true, nl: true, sv: true },
+    { loc: '/terms', lastmod: '2026-08-15', es: true, fr: true, it: true, pt: true, nl: true, sv: true },
+    { loc: '/privacy', lastmod: '2026-08-15', es: true, fr: true, it: true, pt: true, nl: true, sv: true },
   ]
   return new Response(buildSitemap(origin, [...livePages, ...staticPages], { locale: 'en' }), {
     headers: { 'content-type': 'application/xml; charset=utf-8', 'cache-control': 'public, max-age=3600' },

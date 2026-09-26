@@ -2648,6 +2648,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Bespreek je SUP-programma voor je school',
     },
   ],
+  sv: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Skräddarsydd SUP-tillverkning',
+      metaTitle: 'Utveckling av skräddarsydda SUP-produkter | Anpassade lösningar för SUP-brädor',
+      metaDescription:
+        'Utveckla skräddarsydda SUP-produkter med iSupfactory. Vi stödjer produktkrav, anpassning, prototyper och tillverkning för företag och organisationer.',
+      kicker: 'Tillverkare av skräddarsydda SUP',
+      serviceType: 'Utveckling av skräddarsydda SUP-produkter',
+      answer:
+        'Vi utvecklar skräddarsydda uppblåsbara SUPar, hårda brädor och tillbehör från dina krav — form, grafik, material och förpackning — genom konstruktion, prover och produktion. Skräddarsydda projekt startar vid 90–100+ st per 150 m rulle (volym); prover skickas inom 7–12 dagar och produktionen tar 25–35 dagar efter bekräftad order och deposition.',
+      h1: 'Skräddarsydda SUP-produkter byggda kring dina krav',
+      intro: [
+        'Du behöver SUP-brädor byggda enligt din specifikation — form, grafik, material, förpackning — utan att själv driva en fabrik. Vi är tillverkningspartnern som tar dina krav och levererar en färdig produkt.',
+        'Varje projekt hanteras av en dedikerad specialist som sköter design, prover, produktion och leverans, så att du alltid vet var din order står.',
+      ],
+      scenario: {
+        title: 'Du behöver brädor byggda enligt din specifikation',
+        body: 'Ett produktkrav — inte ett katalogval. Dina formpreferenser, din grafik, din kvalitetsnivå, din förpackning. Vi konstruerar, provar och producerar på beprövade plattformar, med flexibilitet från den första lilla serien.',
+      },
+      pairs: [
+        {
+          problem: 'Fabrikens kataloger erbjuder bara standarddesigns som du inte kan ändra.',
+          solution: 'Vi producerar skräddarsydda brädor med dina former, din grafik och dina specifikationer — från första prov till full produktionsserie.',
+        },
+        {
+          problem: 'Stora minimikvantiteter låser in dig i lager innan marknaden är validerad.',
+          solution: 'Skräddarsydd volymproduktion startar från 90–100+ st per design, medan pilotserier på befintliga plattformar startar från 20–50 st — första serierna hålls små samtidigt som enhetspriset förblir rimligt.',
+        },
+        {
+          problem: 'Du har inget design- eller konstruktionsteam på din sida.',
+          solution: 'Vårt interna design- och konstruktionsteam förvandlar en idé, skiss eller referensbräda till produktionsfärdiga ritningar.',
+        },
+        {
+          problem: 'Okänd fabrikskvalitet och långsam kommunikation.',
+          solution: 'En projektspecialist ansvarar för prover, kvalitetskontrollmilstolpar och leveranstider från början till slut — en kontaktpunkt, tydliga uppdateringar.',
+        },
+      ],
+      steps: [
+        { title: 'Skicka in ditt projekt', body: 'Berätta om dina krav, eller dela skisser och referensbilder.' },
+        { title: 'Design & prov', body: 'Vi tar fram ritningar och skickar ett fysiskt prov inom 7–12 dagar.' },
+        { title: 'Godkänn & producera', body: 'Efter ditt godkännande tar produktionen 25–35 dagar med kvalitetskontroll på flera punkter.' },
+        { title: 'Leverera & beställ om', body: 'Världsomspännande export med professionell packning, plus ombeställningsstöd med jämn kvalitet.' },
+      ],
+      caseStudy: {
+        title: 'Varumärkesutvidgning för outdoor-varumärke',
+        body: 'Ett outdoor-varumärke satsade på paddelsport med en märkt touringbräda. Vi utvecklade brädan från en grov skiss, nådde provgodkännande på 15 dagar och producerade den första serien på 25–35 dagar.',
+        tags: ['Brädutveckling', 'Varumärkesgrafik', 'Första produktionsserien'],
+      },
+      faqs: [
+        {
+          q: 'Kan ni utveckla en SUP-produkt från min idé?',
+          a: 'Ja. Vi hjälper dig utvärdera kraven och utveckla en produktionsfärdig lösning — från koncept och ritningar till ett fysiskt prov.',
+        },
+        {
+          q: 'Kan jag anpassa SUP-grafik och färger?',
+          a: 'Ja. Anpassad grafik, färger och varumärkeselement kan utvecklas enligt projektets krav.',
+        },
+        {
+          q: 'Vad är minimikvantiteten för skräddarsydd SUP-tillverkning?',
+          a: 'Skräddarsydd volymproduktion startar från 90–100+ st per design, med pilotserier från 20–50 st på befintliga plattformar. Större kvantiteter ger bättre enhetspris, och ombeställningar behåller dina verktyg och designer.',
+        },
+        {
+          q: 'Vad kan anpassas på en bräda?',
+          a: 'Form och mått, konstruktion och material, grafik och logotyper, EVA-padlayout, tillbehör (paddel, pump, väska) och förpackning.',
+        },
+        {
+          q: 'Tillhandahåller ni prover före produktion?',
+          a: 'Ja — ett fysiskt prov tas fram och godkänns före varje produktionsserie. Provtiden är vanligtvis 7–12 dagar.',
+        },
+        {
+          q: 'Kan ni hantera bara mina varumärkestillgångar, utan ett komplett designteam?',
+          a: 'Ja. Vårt designteam utvecklar produktionsfärdig grafik från din logotyp, dina varumärkesfärger eller en grov konceptidé.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Diskutera ditt skräddarsydda SUP-projekt',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'Privatmärkta SUP-brädor',
+      metaTitle: 'Private label-tillverkning av SUP | Skräddarsydd SUP-produktion',
+      metaDescription:
+        'iSupfactory erbjuder stöd för private label-tillverkning av SUP för befintliga varumärken och hjälper till att utveckla skräddarsydda SUP-produkter från specifikation till produktion.',
+      kicker: 'Privatmärkta SUP-brädor',
+      serviceType: 'Private label-tillverkning av SUP',
+      answer:
+        'Private label sätter ditt varumärke på beprövade, produktionsfärdiga SUP-plattformar utan nya verktyg. Välj en basmodell, lägg på din logotyp, dina färger, förpackning och tillbehör och beställ från 90–100+ st per 150 m rulle (volym). Det är det snabbaste och säkraste sättet att lansera; prover tar 7–12 dagar och produktionen 25–35 dagar efter order.',
+      h1: 'Private label-tillverkningsstöd för SUP åt ditt varumärke',
+      intro: [
+        'Private label-produktion låter dig lansera en SUP-brädlinje under ditt eget varumärke utan att investera i verktyg eller en fabrik. Din logotyp, dina färger och din förpackning läggs på kvalitetskontrollerade plattformar, med kvantiteter som växer med efterfrågan.',
+        'Vi sköter produktsidan så att du kan fokusera på varumärkessidan: design, förpackning och ombeställningshantering sköts av oss.',
+      ],
+      scenario: {
+        title: 'Du har ett varumärke — och behöver en produkt under det',
+        body: 'En varumärkesidentitet utan lager. Du vill ha en säljbar SUP-brädlinje med ditt namn, i en kvantitet som matchar din fas — från en första valideringssats till återkommande flottor.',
+      },
+      pairs: [
+        {
+          problem: 'Varumärket lever bara på en etikett — produkten ser fortfarande generisk ut.',
+          solution: 'Full varumärkesintegrering: brädgrafik, logotyp, EVA-padlayout, märkt paddel, pump, väska och förpackning.',
+        },
+        {
+          problem: 'Första ordern tvingar dig att köpa hundratals enheter du kanske inte säljer.',
+          solution: 'Börja med en pilotsats på 20–50 enheter på en standardplattform och skala sedan upp till en standardvolymserie från 90–100+ st — validera marknaden före stora satser.',
+        },
+        {
+          problem: 'Utveckling av design och förpackning känns ouppnåelig.',
+          solution: 'Dina varumärkestillgångar förvandlas till produktionsfärdig bräd- och förpackningsgrafik av vårt designteam.',
+        },
+        {
+          problem: 'Ombeställningar tappar i kvalitet eller tillgänglighet.',
+          solution: 'Verktyg och designer förblir dina, och ombeställningar körs på samma verifierade plattformar med jämn kvalitet.',
+        },
+      ],
+      steps: [
+        { title: 'Dela ditt varumärke', body: 'Skicka din logotyp, dina färger och eventuella befintliga varumärkestillgångar.' },
+        { title: 'Utveckla grafiken', body: 'Vi designar brädgrafik, EVA-layout och förpackning kring ditt varumärke.' },
+        { title: 'Godkänn provet', body: 'Ett fysiskt prov bekräftar färger, finish och förpackning.' },
+        { title: 'Producera & leverera', body: 'Produktionen körs i din kvantitet, med kvalitetskontroll och export skött från början till slut.' },
+      ],
+      caseStudy: {
+        title: 'Nytt varumärke, första produktionsorder',
+        body: 'En sportåterförsäljare lanserade sin egen SUP-brädlinje utifrån bara en logotyp. Vi utvecklade hela bräd- och förpackningsgrafiken, producerade en första serie på 50 st för marknadstest och skalerade sedan upp till en full produktionsorder inom en säsong.',
+        tags: ['Varumärkesutveckling', 'Förpackningsdesign', 'Skalad produktion'],
+      },
+      faqs: [
+        {
+          q: 'Vad är private label-tillverkning av SUP?',
+          a: 'Private label-tillverkning av SUP gör det möjligt för företag att sälja SUP-produkter under eget varumärke med anpassade specifikationer och produktionsstöd.',
+        },
+        {
+          q: 'Kan befintliga varumärken utveckla nya SUP-produkter?',
+          a: 'Ja. iSupfactory stödjer varumärken som vill expandera till SUP-produkter — produktval, specifikationsjustering, anpassad grafik och tillverkning.',
+        },
+        {
+          q: 'Vad ingår i ett private label SUP-program?',
+          a: 'Ditt varumärke på själva brädan — grafik, logotyp, EVA-pad — plus valfria märkta paddel, pump, ryggsäck och förpackning: en komplett säljbar produkt under ditt namn.',
+        },
+        {
+          q: 'Kan designen ändras mellan beställningar?',
+          a: 'Ja. När varumärkestillgångarna är produktionsfärdiga kan ombeställningar uppdatera grafik, färger eller förpackning när som helst.',
+        },
+        {
+          q: 'Vi har bara en logotyp. Kan ni ändå hjälpa oss?',
+          a: 'Ja. Vårt designteam utvecklar hela bräd- och förpackningsgrafiken utifrån din logotyp och dina varumärkesfärger.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Diskutera ditt private label-projekt',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'Resort SUP-brädor',
+      metaTitle: 'Anpassad SUP-utrustning för resorter | Märkta brädor',
+      metaDescription:
+        'Skapa anpassad SUP-utrustning för resorter och hotell med märkta brädor, tillbehör och produktionsstöd från iSupfactory.',
+      kicker: 'Resort SUP-brädor',
+      serviceType: 'SUP-utrustning för resorter och hotell',
+      answer:
+        'Vi levererar märkta uppblåsbara SUPar till resorter och hotell, byggda för daglig gästanvändning: högtryckskonstruktion i drop-stitch, förstärkta sömmar och stegade minimikvantiteter från 20–50 pilotenheter upp till 90–100+ för flottutrullning. Brädorna bär din logotyp och dina färger, och vi ger råd om förvaring, underhåll och ombeställningsplaner.',
+      h1: 'Anpassade SUP-utrustningslösningar för resorter och hotell',
+      intro: [
+        'Resortflottor av SUP-brädor måste klara daglig gästanvändning, förvaras enkelt mellan säsongerna och bära ditt varumärke. Vi bygger hållbara, gästvänliga brädor i dina färger och utformar flottprogrammet kring din verksamhet.',
+        'Kvantiteter rekommenderas utifrån användningsmönster, inte gissningar — och ombeställningsprogram håller flottan fräsch säsong efter säsong.',
+      ],
+      scenario: {
+        title: 'Du driver vattenaktiviteter för gäster',
+        body: 'Gäster förväntar sig en minnesvärd vattenupplevelse, och utrustningen representerar din anläggning. Du behöver brädor som är hållbara nog för daglig uthyrning, lätta att förvara och märkta så att de matchar resorten.',
+      },
+      pairs: [
+        {
+          problem: 'Gästflottor slits snabbt vid daglig uthyrning.',
+          solution: 'Konstruktion i uthyrningsklass med förstärkta fat och UV-beständiga material byggda för upprepade pass.',
+        },
+        {
+          problem: 'Förvaringsutrymmet är begränsat utanför säsongen.',
+          solution: 'Uppblåsbara alternativ som är lätta att förvara och som packas i ett skåp när säsongen är slut.',
+        },
+        {
+          problem: 'Utrustningen ser generisk ut, inte som din anläggning.',
+          solution: 'Helbrädesgrafik, logotyper och EVA-märkning i dina resortfärger — inklusive märkta tillbehör.',
+        },
+        {
+          problem: 'Att byta ut och fräscha upp flottan är okoordinerat.',
+          solution: 'Ett ombeställningsprogram för flottan med jämn kvalitet, reservdelsstöd och ärlig kvantitetsvägledning.',
+        },
+      ],
+      steps: [
+        { title: 'Beskriv din verksamhet', body: 'Gästvolym, strandlinje, förvaring och säsongslängd.' },
+        { title: 'Få en flottplan', body: 'Vi rekommenderar brädtyper och kvantiteter utifrån användningsmönster.' },
+        { title: 'Godkänn märkt prov', body: 'Dina färger och din logotyp bekräftade på en fysisk bräda.' },
+        { title: 'Ta emot och underhåll', body: 'Leverans, reservdelar och ett ombeställningsprogram för kommande säsonger.' },
+      ],
+      caseStudy: {
+        title: 'Gästflotta på kustresort',
+        body: 'En kustresort utrustade sitt strandprogram med 40 märkta uppblåsbara brädor i resortfärger, inklusive märkta paddlar och pumpar. Brädorna förvaras i ett enda skåp utanför säsongen, och flottan fräschades upp efter andra säsongen med jämn kvalitet.',
+        tags: ['Märkt gästflotta', 'Uppblåsbar förvaring', 'Säsongsförnyelse'],
+      },
+      faqs: [
+        {
+          q: 'Kan resorter anpassa SUP-utrustning med sin logotyp?',
+          a: 'Ja. Resorter kan anpassa grafik, färger och tillbehör enligt projektkraven — märkning på hela brädan i anläggningens färger.',
+        },
+        {
+          q: 'Kan ni leverera flera SUP-enheter för resortverksamhet?',
+          a: 'Ja. Produktionslösningar kan utvecklas utifrån flottbehov, från en startflotta till säsongsvisa förnyelseprogram.',
+        },
+        {
+          q: 'Hur många brädor behöver en resort?',
+          a: 'De flesta resorter börjar med 20–50 brädor och skalerar med efterfrågan. Vi rekommenderar kvantiteter utifrån din gästvolym och strandlinje, inte gissningar.',
+        },
+        {
+          q: 'Är uppblåsbara brädor lämpliga för resortanvändning?',
+          a: 'Ja. Moderna uppblåsbara SUP-brädor är extremt hållbara och mycket lättare att förvara och transportera — det populära valet för resorter med begränsat förvaringsutrymme.',
+        },
+        {
+          q: 'Kan flottan bära vår logotyp och våra färger?',
+          a: 'Ja — helbrädesgrafik, logotypstryck, EVA-padmärkning och märkta tillbehör ingår alla i resortprogrammet.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Begär en SUP-lösning för din resort',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Anpassade SUP-teambrädor',
+      metaTitle: 'Anpassad SUP-utrustning för klubbar och lag',
+      metaDescription:
+        'iSupfactory erbjuder anpassade SUP-utrustningslösningar för klubbar, lag och evenemang, inklusive grafik, specifikationer och produktionsstöd.',
+      kicker: 'Anpassade SUP-teambrädor',
+      serviceType: 'SUP-utrustning för klubbar och lag',
+      answer:
+        'Klubbar och lag får hållbara, enhetliga flottor i sina färger: logoplacering, anpassade paddellängder och tillbehörspaket på en standardiserad brädspecifikation, så att reparationer och reservdelar förblir enkla över ombeställningar. Minimikvantiteten startar vid 90–100+ st (volym); pilotserier från 20–50 enheter finns för att först validera specifikationen.',
+      h1: 'Anpassad SUP-utrustning för klubbar och lag',
+      intro: [
+        'Paddlingsklubbar behöver brädor som klarar daglig träning, ser ut som laget och håller jämn kvalitet över ombeställningar. Vi producerar anpassade lagbrädor med ditt klubbnamn och dina färger, till förmånliga flottpriser.',
+        'Klubbprogrammen inkluderar också den praktiska sidan: reservdelar, reparationsvägledning och ombeställningsstöd med samma kvalitet.',
+      ],
+      scenario: {
+        title: 'Din klubb driver träning och lagsessioner',
+        body: 'Brädorna används av medlemmarna dagligen och representerar klubben vid evenemang och regattor. Du vill ha hållbar lagutrustning med klubbmärkning, utan att själv hantera fabriksrelationer.',
+      },
+      pairs: [
+        {
+          problem: 'Träningsbrädor utsätts för tungt, upprepat bruk.',
+          solution: 'Förstärkt konstruktion byggd för daglig professionell användning, med reparationsvägledning och reservdelsstöd.',
+        },
+        {
+          problem: 'Flottor ser oenhetliga ut och saknar märkning.',
+          solution: 'Klubbnamn, färger och logotyp tryckta på varje bräda för en enhetlig lagflotta.',
+        },
+        {
+          problem: 'Att växa flottan innebär att leta efter matchande lager.',
+          solution: 'Ombeställningar körs på samma verifierade plattformar, så nya brädor matchar de befintliga.',
+        },
+        {
+          problem: 'Flottbudgetarna är strama.',
+          solution: 'Flottpriser och en dedikerad kontakt för ombeställningar, delar och underhållsfrågor.',
+        },
+      ],
+      steps: [
+        { title: 'Berätta om klubben', body: 'Antal medlemmar, sessionstyper och nuvarande utrustning.' },
+        { title: 'Välj brädtyper', body: 'Tränings-, nybörjar- och lagformer matchade till ditt program.' },
+        { title: 'Lägg till klubbmärkning', body: 'Ditt namn, dina färger och din logotyp på brädor och tillbehör.' },
+        { title: 'Beställ & väx', body: 'Flottleverans, reservdelar och jämna ombeställningar.' },
+      ],
+      caseStudy: {
+        title: 'Klubbflotta förnyad',
+        body: 'En paddlingsklubb lanserade en ny profil och fräschade upp sin flotta med 25 märkta träningsbrädor och reservdelar. Medlemmarna tränar på matchande utrustning, och klubben utökade flottan nästa säsong med en identisk ombeställning.',
+        tags: ['Klubbmärkning', 'Flottförnyelse', 'Reservdelsstöd'],
+      },
+      faqs: [
+        {
+          q: 'Kan SUP-klubbar anpassa lagbrädor?',
+          a: 'Ja. Klubbar kan anpassa grafik, färger och produktkonfigurationer — klubbnamn, färger och logotyp på varje bräda.',
+        },
+        {
+          q: 'Kan ni stödja evenemangsbaserad SUP-produktion?',
+          a: 'Ja. Produktionsplanering kan utvecklas enligt evenemangets krav, inklusive evenemangsupplagor av brädor och tillbehör.',
+        },
+        {
+          q: 'Vilka brädor är bäst för klubbträning?',
+          a: 'Stabila, hållbara brädor anpassade till dina medlemmars nivå — breda nybörjarformer för lektioner, touringformer för distansträning.',
+        },
+        {
+          q: 'Erbjuder ni flottpriser för klubbar?',
+          a: 'Ja — volympriser gäller för klubbflottor, med en dedikerad kontakt för ombeställningar, delar och underhållsfrågor.',
+        },
+        {
+          q: 'Kan skadade brädor repareras eller ersättas?',
+          a: 'Vi tillhandahåller reservdelar, reparationsvägledning och ombeställningsstöd så att flottan håller sig enhetlig.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Diskutera ditt klubb-SUP-projekt',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'Skolprogram för SUP-brädor',
+      metaTitle: 'SUP-utrustning för skolor | Anpassade SUP-brädor för utbildning',
+      metaDescription:
+        'Tillhandahåll säkra och tillförlitliga SUP-utrustningslösningar för skolor, läger och organisationer med anpassat produktionsstöd från iSupfactory.',
+      kicker: 'Skolprogram för SUP-brädor',
+      serviceType: 'SUP-utrustning för skolor och program',
+      answer:
+        'För skolor och utbildningsprogram levererar vi stabila, nybörjarvänliga brädor med tryckt säkerhetsvägledning, vadderade paddlar och skyddande tillbehör, anpassade till ditt klassantal och din förvaringslösning. Standardvolymsats är 90–100+ st per 150 m rulle med pilotserier från 20–50 enheter; leveranstiderna stödjer skolans upphandlingscykel.',
+      h1: 'Säkra och tillförlitliga SUP-lösningar för skolor och program',
+      intro: [
+        'Skolorna bedriver paddelsport på ett annat sätt: stora klasser, blandade nivåer, strikta säkerhetskrav och utbildningsbudgetar. Vårt skolprogram erbjuder stabila, nybörjarvänliga brädor, paketalternativ som passar klassstorlekarna och vägledning ur ett instruktörsperspektiv.',
+        'Bulkleverans och ombeställningsstöd håller utrustningen tillgänglig år efter år för nya elevkullar.',
+      ],
+      scenario: {
+        title: 'Du undervisar i paddelsport för studenter',
+        body: 'Klasserna är stora och nivåerna varierar. Du behöver brädor som är stabila och säkra för nybörjare, kvantiteter som matchar klassstorlekarna och ett utrustningsprogram som passar en skolas budget och upphandlingscykel.',
+      },
+      pairs: [
+        {
+          problem: 'Eleverna behöver maximal stabilitet på vattnet.',
+          solution: 'Breda, högvolymiga nybörjarbrädor och flerpersonsbrädor utformade för att vara förlåtande för nybörjare.',
+        },
+        {
+          problem: 'Klassstorlekar kräver enhetlig utrustning i stor skala.',
+          solution: 'Bulkprogramspriser för klasskvantiteter, med samma kvalitet på varje bräda.',
+        },
+        {
+          problem: 'Instruktörer hanterar säkerhet med begränsad hjälp.',
+          solution: 'Brädorna levereras med tydlig användarvägledning, och vi rådger om kvantiteter och upplägg för ditt vattenområde.',
+        },
+        {
+          problem: 'Utrustningen måste klara många elevkullar.',
+          solution: 'Förstärkt konstruktion plus reservdelar och ombeställningsstöd för lång programlivslängd.',
+        },
+      ],
+      steps: [
+        { title: 'Dela ditt program', body: 'Klassstorlekar, vattenområde, instruktörsupplägg och budgetcykel.' },
+        { title: 'Bygg paketet', body: 'Brädtyper och kvantiteter matchade till undervisningen, inte gissningar.' },
+        { title: 'Godkänn provet', body: 'Verifiera stabilitet, konstruktion och finish på en fysisk bräda.' },
+        { title: 'Leverera & förnya', body: 'Bulkleverans, reservdelar och ombeställningar för nya kullar.' },
+      ],
+      caseStudy: {
+        title: 'Skolidrottsprogram för vattensporter',
+        body: 'En skola lanserade en paddelsportvalbar kurs med en nybörjarflotta på 15 brädor och flerpersonsbrädor för första lektionerna. Instruktörerna rapporterade snabbare framsteg under första passet på de stabila plattformarna, och programmet förnyade utrustningen med en matchande ombeställning året därpå.',
+        tags: ['Nybörjarflotta', 'Programlansering', 'Förnyelseombeställningar'],
+      },
+      faqs: [
+        {
+          q: 'Vilken SUP-utrustning är lämplig för skolor?',
+          a: 'Valet av SUP-utrustning beror på användarnas ålder, användningsmiljö och programkrav — breda, stabila brädor är standardvalet för undervisning.',
+        },
+        {
+          q: 'Kan skolor anpassa SUP-utrustning?',
+          a: 'Ja. Skolor kan anpassa grafik, färger och utrustningspaket enligt sitt program.',
+        },
+        {
+          q: 'Vilka brädor är bäst för skolSUP-lektioner?',
+          a: 'Breda, stabila nybörjarbrädor och flerpersonsbrädor är idealiska — deras volym gör dem förlåtande för nybörjare och stabila med flera paddlare.',
+        },
+        {
+          q: 'Kan kvantiteterna matcha våra klassstorlekar?',
+          a: 'Ja — programpriser byggs kring klasskvantiteter, och vi rekommenderar antal utifrån ditt vattenområde och rotationsschema.',
+        },
+        {
+          q: 'Arbetar ni med skolors upphandlingstider?',
+          a: 'Ja. Vi planerar prov- och produktionstider kring skolans budget- och säsongscykler.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Diskutera ditt skolSUP-program',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

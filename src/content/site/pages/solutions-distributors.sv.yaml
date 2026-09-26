@@ -1,0 +1,135 @@
+meta:
+  title: 'Private label & grossistdistribution för distributörer | {SITE}'
+  description: 'Private label- och grossistprogram direkt från fabriken för distributörer och återförsäljare: exklusiva territorier, white label-SUP-tillverkning och tilldedlad kontohandledning.'
+  dateModified: '2026-09'
+
+hero:
+  tagline: Distributörer & Private Label
+  title: 'Program direkt från fabriken för distributörer och varumärken'
+  subtitle: 'Grossist- och private label-program från en produktionsanläggning för uppblåsbara SUP. Köp till direkta fabrikpriser, bygg ditt eget sortiment under eget varumärke och distribuera i exklusiva territorier i över 50 länder.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: iSupfactorys produktions- och fraktanläggning
+
+answer:
+  label: 'Kort svar'
+  text: 'Distributörer och varumärken samarbetar direkt med fabriken: white label-SUP-brädor under eget varumärke, direkta grossistfabrikspriser, exklusivt territorium per program, 3–8 SKU:er i starten och 45–60 dagars anstånd med betalningen (allt enligt det kommersiella avtalet), där 100 % av lagret trycktestas före leverans. De initiala minimimängderna och transportvillkoren avtalas per territorium, med frakt FOB Qingdao eller CIF.'
+  verified: 'September 2026'
+
+intro:
+  tagline: Programmet
+  title: 'Private label-distribution baserad på egen tillverkningskapacitet'
+  body: |
+    iSupfactory designar, bygger och testar varje uppblåsbar SUP, kajak och tillbehör i den egna fabriken i Laixi, Qingdao. Ett private label-avtal med oss innebär att inköpskällan i ditt varumärke är integrerad: du får brädor som fabriken producerat med ditt namn — ingen vidareförsåld lager från en annan distributör.
+
+    Eftersom vi planerar tillverkningen kring våra kunders prognoser kan vi programmera stora volymer inför säsongen på norra halvklotet, stabilisera transportkostnaderna med förbeställningar och frigöra rörelsekapital med transparenta grossistvillkor och avtalade betalningsplaner. Konstruktion, prover, kvalitetskontroll och exportdokumentation hanteras alla internt — det finns ingen mäklare eller kommersiell mellanhand i kedjan.
+
+    Det här programmet är ett av de två sätten att arbeta med fabriken. Om du driver ett eget grossistvarumärke och vill ha det tillverkat är den här sidan för dig. Resorts, träningscenter och uthyrningsflottor som köper direkt för eget bruk bör däremot se OEM/ODM-tillverkningen och flottprogrammen.
+
+wholesale_pricing:
+  tagline: Varför delta
+  title: 'Vad distributörer får'
+  subtitle: 'Allt som behövs för att lansera ett sortiment under eget varumärke på din marknad.'
+  intro: 'Distributionspartner får samma fabrikskvalitet och tekniska djup som vi levererar till OEM/ODM-varumärken, förpackat för grossistkanalen under eget varumärke. Programvillkoren — territoriell exklusivitet, initialt SKU-sortiment och betalningsvillkor — bekräftas i det kommersiella avtalet för varje program.'
+  stats:
+    - value: '50+'
+      label: 'Länder vi skickar till'
+    - value: '1'
+      label: 'Tilldedlad kontoshantagare'
+    - value: '45–60'
+      label: 'Dagar betalningsanstånd'
+    - value: '120 000+'
+      label: 'Brädors årskapacitet'
+    - value: '3–8'
+      label: 'SKU:er i programstarten'
+    - value: '100%'
+      label: 'Testad i fabriken före leverans'
+
+steps:
+  tagline: Så fungerar det
+  title: 'Från anmälan till första container'
+  subtitle: 'En tydlig och strukturerad onboardingprocess i flera faser, så att ditt program under eget varumärke startar i tid inför första säsongen.'
+  steps:
+    - step: 1
+      title: Skicka din anmälan
+      desc: 'Skicka distributörsanmälan med ditt företagsprofil, din tidigare grossistomsättning och ditt territorium.'
+    - step: 2
+      title: Tilldelning av territorium
+      desc: 'Vi bekräftar vilka länder eller regioner ditt program under eget varumärke omfattar och om territoriet är exklusivt.'
+    - step: 3
+      title: Sortiments- & brandingplan
+      desc: 'Välj dina basmodeller ur produktionskatalogen, lås specifikationerna och färdigställ grafiken för ditt varumärke inför produktionen.'
+    - step: 4
+      title: Godkännande av prover & kvalitet
+      desc: 'Beställ certifieringsprover för att kontrollera kvalitet, förpackning och dropship-hantering. Proverna godkänns innan serietillverkningen startar.'
+    - step: 5
+      title: Säsongsbunden efterbeställning
+      desc: 'Din kontoshantagare planerar tillverkning och lager utifrån dina prognoser och säsongskalendern.'
+
+benefits:
+  title: Vad distributörer får
+  subtitle: 'Allt som behövs för att lyckas på din marknad.'
+  items:
+    - 'Private label under eget varumärke (OEM white label)'
+    - 'Exklusiva territoriella rättigheter (enligt det kommersiella avtalet)'
+    - 'Produktionskatalog: SUP:er, tillbehör, komponenter'
+    - 'Konkurrenskraftiga priser direkt från fabriken'
+    - 'Marknadsförings- och försäljningsmaterial (översatt)'
+    - 'Utbildningsprogram (produkt, försäljning, underhåll)'
+    - 'Mässstöd'
+    - 'Program för prov- och förproduktionsgodkännande'
+    - 'Dropship-kapacitet'
+    - 'Tilldedlad kontoshantagare för distributörer'
+    - '45-60 dagars betalningsanstånd (enligt det kommersiella avtalet)'
+
+coverage:
+  title: Aktuell distribution
+  subtitle: 'iSupfactory skickar för närvarande direkt till dessa marknader.'
+  regions:
+    - name: Europa
+      countries: 'Frankrike, Tyskland, Storbritannien, Spanien, Italien, Nederländerna, Sverige, Norge, Polen, Grekland'
+    - name: Asien
+      countries: 'Japan, Sydkorea, Kina, Thailand, Singapore'
+    - name: Mellanöstern
+      countries: 'Förenade Arabiska Emiraten, Saudi-Arabien'
+    - name: Amerika
+      countries: 'USA, Kanada, Brasilien, Mexiko'
+    - name: Oceanien
+      countries: 'Australien, Nya Zeeland'
+    - name: Afrika
+      countries: 'Sydafrika, Marocko'
+
+faqs:
+  tagline: Vanliga frågor för distributörer
+  title: 'Grossistdistributionsprogram — vanliga frågor'
+  items:
+    - q: 'Vad är minsta order för en ny distributör?'
+      a: 'Nya distributionspartner börjar vanligtvis med en prov- och förproduktionsorder, följt av en första container som anpassats till deras säsong. De exakta minimimängderna beror på territoriets omfattning och det valda sortimentet; din kontoshantagare bekräftar den initiala mängden under sortiments- och brandingplaneringen.'
+    - q: 'Kan vi sälja brädorna under vårt eget varumärke?'
+      a: 'Ja. Private label är standardmodellen här: brädorna tillverkas under eget varumärke med din grafik, din förpackning och dina specifikationer. iSupfactory tillverkar enbart för sina egna kunder och konkurrerar inte med dem på någon marknad.'
+    - q: 'Är territorierna exklusiva?'
+      a: 'Ja. Distributorprogrammen bygger på exklusiva territorier — varje grossistpartner täcker ett fastställt land eller en fastställd region och får pris- och programstöd för den marknaden, enligt det kommersiella avtalet.'
+    - q: 'Stöder ni dropshipping?'
+      a: 'Dropship-kapaciteten ingår i programmet. Prover, förpackning och hantering valideras i fasen för provgodkännande, så att dropship-orders fungerar utan problem från dag ett.'
+    - q: 'Vilka modeller kan vi beställa?'
+      a: 'Produktionskatalogen omfattar uppblåsbara SUP-brädor i Allround-, Touring- och Surf-utförande, uppblåsbara kajaker, pumpaer, paddlar, flytbojar och vårdtillbehör, plus anpassade format som utvecklats tillsammans med vårt konstruktionsteam. De flesta partner börjar med 4–8 bästsäljande SKU:er och utökar under kommande säsonger.'
+    - q: 'Hur skickas orderna?'
+      a: 'Orderna lämnar fabriken med planerade avgångar, med möjlighet till förbeställning för att stabilisera transportkostnaderna. Din tilldedlade kontoshantagare planerar tillverkning och frakt utifrån dina prognoser och säsongskalendern.'
+    - q: 'Hur registrerar jag mig?'
+      a: 'Använd anmälningsformuläret på den här sidan eller kontakta oss direkt. Anmälningarna bedöms av säljteamet, och vi svarar inom några arbetsdagar med nästa steg, inklusive territoriestilldelning och ett avtalsutkast.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Fördjupning:</strong> distributionspartner säljer brädor som produceras för dem under eget varumärke — utforska <a href="/sv/oem-manufacturing">OEM/private label-produktionsprogrammet</a> och fabriken <a href="/sv/factory">kvalitetsprocess</a> för att positionera produkten med tilltro.</p>
+  </div>
+
+cta:
+  title: 'Redo att lansera ditt sortiment under eget varumärke?'
+  subtitle: 'Anmäl dig till distributörsprogrammet eller bläddra i produktionskatalogen.'
+  actions:
+    - text: 'Anmäl dig till distributörsprogrammet'
+      href: '/sv/contact#distributor'
+      variant: 'primary'
+    - text: 'Bläddra i produktionskatalogen'
+      href: '/sv/products'
+      variant: 'secondary'

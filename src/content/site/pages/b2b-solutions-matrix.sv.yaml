@@ -1,0 +1,134 @@
+meta:
+  title: 'B2B-lösningsmatris för kunder | {SITE}'
+  description: 'Fullständig matris över Vatrads B2B-lösningar för 24 kundtyper — från outdoor-startups till institutioner för havsforskning.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: B2B-lösningar för kunder
+  title: '24 B2B-lösningar som passar ditt företag'
+  subtitle: 'Från startup-grundare till världsomspännande distributörer: hitta exakt den Vatrad-lösning som utvecklats för din affärsmodell, din bransch och dina mål.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: Vatrads fabrik och produktionslokation
+
+answer:
+  label: 'Tydligt svar'
+  text: 'En enda fabrik betjänar alla B2B-kanaler: OEM/ODM-produktion med MOQ bekräftat per projekt (prov 1–2 enheter, pilotparti 20–50, standardantal 90–100+ per rulle på 150 m; co-branding från 5–10 enheter), private label på bevisade plattformar, grossistdistribution och flottprogram för resorts, klubbar och skolor. Varje kundtyp kopplas till en specifik lösningssida — prov på 7–12 dagar, produktion på 25–35 dagar efter order och handpenning.'
+  verified: 'September 2026'
+
+solutions:
+  title: Matris över kundlösningar
+  subtitle: 'Varje kundtyp, dess främsta behov och den speciellt utvecklade Vatrad-lösningssidan.'
+  items:
+    - clientType: Grundare av ett outdoor-startup
+      need: Bygga varumärke
+      solutionPage: Bygg ditt SUP-varumärke
+      link: /solutions/private-label-sup
+    - clientType: Chef för ett outdoor-varumärke
+      need: Utbyggnad av ett outdoor-varumärke till vattensport
+      solutionPage: Bygg ut ett outdoor-varumärke till vattensport
+      link: /solutions/private-label-sup
+    - clientType: Ägare till en surfbutik
+      need: Modernisera surfverksamheten
+      solutionPage: Ta in uppblåsbar teknik i din surfbutik
+      link: /products/surf
+    - clientType: Amazon-försäljare
+      need: E-handelstillväxt
+      solutionPage: Produktdifferentiering och snabb leverans
+      link: /solutions/private-label-sup
+    - clientType: Varumärke för fiskeutrustning
+      need: Fiske-SUP
+      solutionPage: Bygg ditt varumärke för fiske-SUP
+      link: /products/fishing
+    - clientType: Yoga- och wellnessvarumärke
+      need: Vattenprodukter för välbefinnande
+      solutionPage: Lösningar för SUP-yogautrustning
+      link: /products/yoga
+    - clientType: kreatörsvarumärke
+      need: Influencer-varumärke
+      solutionPage: SUP-start i kreatörsutförande
+      link: /solutions/private-label-sup
+    - clientType: Grundare av en paddelklubb
+      need: Flotta åt klubben
+      solutionPage: Kommersiell SUP-flotta
+      link: /solutions/club-sup
+    - clientType: Ägare till ett uthyrningscenter
+      need: Uthyrningsverksamhet
+      solutionPage: Lösning för en hållbar uthyrningsflotta
+      link: /solutions/rental-operators
+    - clientType: Aktivitetschef på ett resort
+      need: Hotellupplevelse
+      solutionPage: Paket med vattensportsaktiviteter för resorts
+      link: /solutions/resort-sup
+    - clientType: Vattensportsakademi
+      need: Utbildning och träning
+      solutionPage: Utrustningsprogram för SUP-akademier
+      link: /solutions/school-sup
+    - clientType: Kryssnings- och yachtföretag
+      need: Yachtupplevelse
+      solutionPage: Lyxigt bärbart SUP-paket
+      link: /product-development
+    - clientType: Inköpare inom outdoor
+      need: Detaljhandelskanal
+      solutionPage: Private label-program för detaljhandeln
+      link: /solutions/retail-partners
+    - clientType: Distributör och importör
+      need: Regional distribution
+      solutionPage: OEM-partner och regional leveranskedja
+      link: /solutions/distributors
+    - clientType: Inköpare för företagsprojekt
+      need: Företagsevenemang
+      solutionPage: SUP-paket för företagsevenemang
+      link: /contact
+    - clientType: Varumärkeschef för vattensport
+      need: Utbyggnad av ett vattensportsvarumärke
+      solutionPage: Bygg ut din vattensportsportfölj
+      link: /solutions/private-label-sup
+    - clientType: Ägare till ett varumärke för husdjursäventyr
+      need: Outdoor för husdjur
+      solutionPage: Husdjursvänligt paddelbrädesprogram
+      link: /product-development
+    - clientType: Operatör av strandaktiviteter
+      need: Strännöjs
+      solutionPage: Kompletta utrustningslösningar för strandaktiviteter
+      link: /solutions/rental-operators
+    - clientType: Utvecklare av vattenpark
+      need: Tematisk underhållning
+      solutionPage: Kommersiell SUP-flotta för vattenparker
+      link: /solutions/resort-sup
+    - clientType: Ägare till en privat ö och lyxklubb
+      need: High-end livsstil
+      solutionPage: Premium SUP-kollektion för kunder
+      link: /product-development
+    - clientType: Turistmyndigheter och förvaltare av allmänna parker
+      need: Offentliga turistprojekt
+      solutionPage: Vattensportspaket för destinationer
+      link: /solutions/rental-operators
+    - clientType: Operatör av sommarkolonier och barnfritidsäventyr
+      need: Barn- och ungdomsfostran
+      solutionPage: Explorer-SUP-program för barn
+      link: /solutions/school-sup
+    - clientType: Organisation för räddning och vattensäkerhet
+      need: Professionell livräddning
+      solutionPage: Professionellt system för livräddning på vatten med SUP
+      link: /product-development
+    - clientType: Institution för havsforskning
+      need: Miljöforskning
+      solutionPage: Eco-SUP-plattform för forskning och övervakning
+      link: /product-development
+
+cta:
+  title: 'Osäker på vilken lösning som passar ditt företag?'
+  subtitle: 'Beskriv ditt projekt för vårt B2B-team så rådgiver vi rätt konfiguration och prisstruktur.'
+  actions:
+    - variant: primary
+      text: Prata med vårt B2B-team
+      href: /contact?subject=b2b-solutions
+    - variant: secondary
+      text: Ladda ner katalogen
+      href: /products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Varje spår i den här matrisen utgår från samma två saker: vårt <a href="/oem-manufacturing">program för OEM/ODM-produktion</a> och <a href="/factory">fabriken bakom</a> — en produktionslokation på 12 500 m&sup2;, en enda uppsättning kvalitetsnormer, alla kanaler betjänade.</p>
+  </div>

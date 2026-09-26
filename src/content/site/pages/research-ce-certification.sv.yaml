@@ -1,0 +1,69 @@
+meta:
+  title: 'Så fungerar CE-certifiering för uppblåsbara SUP-brädor'
+  description: 'Så fungerar CE-certifiering för uppblåsbara SUP, båtar och kajaker: direktiven (2013/53/EU RCD, PBM 2016/425), tester, anmälda organ och teknisk dokumentation.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Tillbaka till forskning'
+
+hero:
+  tagline: 'Konformitet'
+  title: 'Så fungerar CE-certifiering för uppblåsbara SUP & kajaker'
+  subtitle: '7 min läsning'
+
+answer:
+  label: 'Kort svar'
+  text: 'Uppblåsbara SUP omfattas av EU-direktivet om nöjdesfartyg 2013/53/EU om deras skeppslängd överstiger 2.5 m, eller av direktivet om allmän produktsäkerhet om de är mindre. För en första produkt kostar certifieringen cirka 13 000&ndash;31 000 EUR och tar 8&ndash;14 veckor: teknisk dokumentation, typprovning hos ett anmält organ, fabriksrevision och därefter en försäkran om överensstämmelse.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Vad är CE-certifiering?</h2>
+  <p>CE-märkningen (Conformit&eacute; Europ&eacute;enne) visar att en produkt uppfyller EU:s krav på hälsa, säkerhet och miljö. För uppblåsbara båtar beror det tillämpliga regelverket på produktkategorin.</p>
+
+  <h2>Tillämpliga direktiv</h2>
+
+  <h3>Direktivet om nöjdesfartyg (2013/53/EU)</h3>
+  <p>Det viktigaste direktivet för de flesta uppblåsbara båtar, SUP och kajaker. Det gäller för sportfartyg med en skeppslängd på 2.5 m till 24 m, för delvis byggda båtar (för OEM-leverans) och för vattenmotorer.</p>
+
+  <h3>Förordningen om personlig skyddsutrustning (2016/425)</h3>
+  <p>Flytbudar, livbojer och säkerhetsutrustning som levereras till båtar måste uppfylla kraven i PBM-förordningen, inklusive typprovning (modul B) hos ett anmält organ och produktionskvalitetssäkring (modul D eller E).</p>
+
+  <h2>Certifieringsprocessen</h2>
+  <ol>
+    <li>Produktklassificering: fastställ båtens designkategori (A – D enligt ISO 8666)</li>
+    <li>Tillämpliga standarder: EN ISO 6185 (delar 1 – 4), EN ISO 10087 (HIN), EN ISO 14945 (fabriksskylt)</li>
+    <li>Sammanställning av teknisk dokumentation: konstruktionsritningar, BOM, materialcertifikat, riskbedömning</li>
+    <li>Typprovning: flytförmåga, stabilitet, bärkraft, materialtester, fogstyrka, lufttäthet</li>
+    <li>Produktionskontroll i fabriken: revision av produktionsprocesserna av ett anmält organ</li>
+    <li>Försäkran om överensstämmelse: tillverkaren undertecknar DoC och sätter CE-märkningen</li>
+  </ol>
+
+  <h2>Anmälda organ för uppblåsbara båtar</h2>
+  <p>Vanliga anmälda organ är Bureau Veritas (Frankrike), DNV GL (Tyskland), RINA (Italien), T&Uuml;V Rheinland / T&Uuml;V S&Uuml;D (Tyskland).</p>
+
+  <h2>Genomloppstider och kostnader</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Fas</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Varaktighet</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Typiska kostnader (EUR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Sammanställning av teknisk dokumentation</td><td class="p-3 border">2 – 4 veckor</td><td class="p-3 border">2 000 – 5 000</td></tr>
+      <tr><td class="p-3 border">Typprovning</td><td class="p-3 border">4 – 8 veckor</td><td class="p-3 border">8 000 – 20 000</td></tr>
+      <tr><td class="p-3 border">Fabriksrevision</td><td class="p-3 border">1 – 2 dagar (på plats)</td><td class="p-3 border">3 000 – 6 000</td></tr>
+      <tr><td class="p-3 border">Totalt (första produkten)</td><td class="p-3 border">8 – 14 veckor</td><td class="p-3 border">13 000 – 31 000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Vad det betyder för köpare</h2>
+  <p>När du köper CE-certifierade uppblåsbara brädor ska du alltid kontrollera att CE-märkningen sitter på fabriksskylten, att en giltig DoC finns tillgänglig, att numret för det anmälda organet anges och att användarhandboken innehåller säkerhetsvarningar på ditt språk. Alla Vatrad-produkter är CE-certifierade med fullständig spårbarhet till de anmälda organens revisionsrapporter.</p>
+  <p>Certifieringen är en del av varje produktionscykel i vår fabrik i Qingdao — se <a href="/sv/factory">fabriksflödet för kvalitet &amp; test</a> och hur vi <a href="/sv/oem-manufacturing">stöder CE-konformitet för OEM/private label-partnerskap</a>.</p>
+
+cta:
+  title: 'Behöver du hjälp med CE-certifiering?'
+  subtitle: 'Vi ordnar certifieringen för OEM-partners runt om i världen.'
+  button_text: 'Starta certifieringsprocessen'
+  button_link: /sv/contact

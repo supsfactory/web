@@ -173,6 +173,30 @@ export const HERO_CONTENT = {
     float1: { value: '1–2 stuks', label: 'Monster en goedkeuring (vóór volumeverplichting)' },
     float2: { value: FACTS.leadTime, label: 'Productietijd (na PO)' },
   },
+  sv: {
+    kicker: 'Fabrik i Qingdao, Kina · OEM / ODM / Eget märke · Från prov till serieproduktion',
+    titlePre: 'Tillverkning av skräddarsydda SUP-produkter för',
+    titleAccent: 'märken, distributörer och organisationer',
+    titlePost: '',
+    sub: 'Uppblåsbara SUPar för OEM, ODM och eget märke — från specifikationsgranskning och provutveckling till serieproduktion med kvalitetskontroll i Qingdao, Kina.',
+    ctaPrimary: 'Starta ditt SUP-projekt',
+    ctaSecondary: 'Se fabriken, MOQ och kvalitetsbevis',
+    ctaTertiary: '',
+    ctaQuartiary: '',
+    ctaMicro: 'Svar inom 1 arbetsdag · NDA tillgängligt innan filutbyte · MOQ bekräftas efter specifikationsgranskning',
+    stats: [
+      { value: '12.500 m²', label: 'Egen fabrik — Qingdao, Kina' },
+      { value: '120.000+', label: 'Brädor producerade årligen' },
+      { value: '50+', label: 'Exportländer' },
+      { value: FACTS.ndaWindow, label: 'Svarstid för NDA' },
+    ],
+    mockupLabel: 'Flaggskeppsplattform',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Din grafik · dina färger · din förpackning',
+    heroNote: "MOQ:n bekräftas efter specifikationsgranskning, eftersom konstruktion, brädstorlek, PVC-struktur, grafik, förpackning och tillbehör påverkar materialanvändningen.",
+    float1: { value: '1–2 st', label: 'Prov och godkännande (innan volymåtagande)' },
+    float2: { value: FACTS.leadTime, label: 'Produktionstid (efter PO)' },
+  },
 }
 
 /** 供 Seo 模块使用的简化映射（仅读，不修改 PUBLIC_PATHS/HREFLANG/OG_*） */

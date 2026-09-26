@@ -1,0 +1,79 @@
+meta:
+  title: 'Så fungerar drop-stitch — styva kärnor för uppblåsbara SUP'
+  description: 'Så omvandlar drop-stitch flexibelt PVC till en styv högtryckskärna (15–20 PSI) för SUP: konstruktion, material, kvalitetsindikatorer och tillämpningar.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Tillbaka till forskning'
+
+answer:
+  label: 'Kort svar'
+  text: 'Drop-stitch är ett tyg där polyestertrådsbroar håller PVC:ets över- och undersida på ett bestämt avstånd — lufttrycket gör sedan brädan styv. Vatrads kärnor: 1 680 DTEX, 2 trådar per kvadrattum, ytlaminat av PVC på 1.2 mm, utformade för 15 PSI och validerade med 24 timmars tryckhållningstest vid 18.0 PSI.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Teknik'
+  title: 'Så fungerar drop-stitch — tekniken bakom styva uppblåsbara kärnor'
+  subtitle: '8 min läsning'
+
+content_html: |
+  <h2>Vad är drop-stitch?</h2>
+  <p>I drop-stitch-processen (även kallad "drop-stitch-tyg" eller "drop-stitch-kärna") förbinder tusentals enskilda polyestertrådar över- och undersidan av en tygkonstruktion. Vid uppblåsningen fungerar dessa trådar som interna dragelement — de hindrar att över- och undersidan blåses upp till en rund form och håller ytan platt och styv.</p>
+  <p>Resultatet är en lätt, transportabel konstruktion som motstår 15 – 20 PSI internt tryck — jämförbar med styvheten hos en hård bräda, men helt tömbar för lagring och transport.</p>
+
+  <h2>Så fungerar det: fysiken</h2>
+  <p>I en konventionell uppblåsbar konstruktion (som en ballong eller madrass) trycker det interna trycket lika riktningar. Utan någon inre avgränsning blir konstruktionen cylindrisk eller sfärisk. Drop-stitch löser detta med en draghållsförstärkning:</p>
+  <ul>
+    <li>Tusentals trådar förbinder det övre och det undre tyglagret</li>
+    <li>Vid uppblåsningen försöker lufttrycket pressa isär över- och undersidan</li>
+    <li>Trådarna motstår denna uppdelning och bär lasten som dragspänning längs trådaxeln</li>
+    <li>Resultatet är en platt, styv yta som motstår nedböjning</li>
+  </ul>
+
+  <h2>Tillverkningsprocess</h2>
+  <ol>
+    <li><strong>Vävning:</strong> polyestertrådar vävs samtidigt in i två skilda lager av ett bärartyg (vanligtvis PVC-belagd polyester på 1 100 DTEX eller 1 680 DTEX). Trådarna vävs i 90&deg; vinkel mellan lagren.</li>
+    <li><strong>Beläggning:</strong> det vävda bärartyget beläggs med PVC (eller ibland TPU) genom en skrapanordning eller kalandrering. Detta förseglar trådarna och bildar det lufttäta membranet.</li>
+    <li><strong>Laminering av lagren:</strong> drop-stitch-kärnan sammanfogas med de yttre laminatlagren (vanligtvis PVC på 0.9 mm eller 1.2 mm) genom varmlaminering eller limning.</li>
+    <li><strong>Svetsning:</strong> railbanden fägs längs kanterna genom varmluftssvetsning, HF-svetsning eller högfrekvenssvetsning för att bilda brädans sidor.</li>
+    <li><strong>Ventilmontering:</strong> Boston- eller Halkey-Roberts-ventiler monteras, vanligtvis med övertrycksventil för att förhindra att man blåser för hårt.</li>
+  </ol>
+
+  <h2>Viktigaste kvalitetsindikatorer</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parameter</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Grundklass</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Trådtäthet</td><td class="p-3 border">1 tråd / sq in</td><td class="p-3 border">2 trådar / sq in</td></tr>
+      <tr><td class="p-3 border">Bärartyg</td><td class="p-3 border">1 100 DTEX</td><td class="p-3 border">1 680 DTEX</td></tr>
+      <tr><td class="p-3 border">Max. tryck</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">PVC-tjocklek</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Railkonstruktion</td><td class="p-3 border">Vikt &amp; limmad</td><td class="p-3 border">Svetsad &amp; smältsvetsad</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Tillämpningar</h2>
+  <ul>
+    <li><strong>SUP-brädor:</strong> tjocklek 4" – 6", 15 – 20 PSI, 1 – 2 trådar/sq in</li>
+    <li><strong>Kajaker:</strong> drop-stitch-botten + uppblåsbara sidosfickor, botten på 10 – 15 PSI</li>
+    <li><strong>RIB-bottnar:</strong> drop-stitch-bottnar för lätta, hopfällda RIB-tenderbåtar, 12 – 18 PSI</li>
+    <li><strong>Stötvulster:</strong> lågtrycks-drop-stitch för formgjutna stötvulster med plana ytor</li>
+  </ul>
+
+  <h2>Drop-stitch kontra air deck (glasfiber- eller träkärna)</h2>
+  <p>Hårda brädor använder EPS-skumkärnor med glasfiberförstärkning eller träets längsgående spjälk. De är lättare, styvare och mer responsiva — men kan inte tömmas. Drop-stitch byter mot sig viss styvhet för fullständig transportbarhet. För de flesta rekreationsanvändare är moderna drop-stitch-SUP på 20 PSI inte att skilja från bas-hårda brädor vad gäller styvhet.</p>
+
+  <h2>Så använder Vatrad drop-stitch</h2>
+  <p>Vatrad använder drop-stitch-kärnor på 1 680 DTEX i hela SUP-sortimentet, med 2 trådar per kvadrattum och ett ytlaminat av PVC på 1.2 mm. Brädorna är utformade för 15 PSI och genomgår ett 24-timmarstest av tryckhållningen vid 18.0 PSI före leverans. Railbanden svetsas med den treskikade varmluftssmältprocessen, och övertrycksventiler är standard på alla modeller.</p>
+  <p>Drop-stitch är ryggraden i vår SUP-tillverkning — se <a href="/sv/technology/drop-stitch-core">teknologisidan om drop-stitch-kärnan</a> och hur kärnan fogas ihop på <a href="/sv/factory">produktionslinjen i fabriken</a>.</p>
+
+cta:
+  title: 'Vill du veta mer om drop-stitch?'
+  subtitle: 'Kontakta oss för tekniska specifikationer och OEM-förfrågningar.'
+  button_text: 'Kontakta försäljningen'
+  button_link: /sv/contact

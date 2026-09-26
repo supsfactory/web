@@ -1,0 +1,123 @@
+meta:
+  title: 'Jämförelse av SUP-konstruktioner — enkellagerigt PVC, dubbellagerigt PVC och drop-stitch | iSupfactory'
+  description: 'Jämförelse av uppblåsbara SUP-konstruktioner: enkellagerigt PVC, dubbellagerigt PVC och drop-stitch-kärna — styvhet, vikt, hållbarhet, pris och idealiskt bruk.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'jämförelse sup konstruktioner'
+    - 'typer av uppblåsbara sup konstruktioner'
+    - 'sup enkellagerigt vs dubbellagerigt'
+    - 'drop-stitch sup konstruktion'
+    - 'pvc sup konstruktion'
+    - 'sup brädans styvhet'
+    - 'sup brädans vikt'
+
+hero:
+  tagline: 'Konstruktionsguide'
+  title: 'Jämförelse av SUP-konstruktioner'
+  subtitle: 'Tre konstruktionstyper, en produktionslinje. Förstå avvägningarna mellan styvhet, vikt, hållbarhet och kostnad för enkellagerigt PVC, dubbellagerigt PVC och drop-stitch-kärna — och vilket som passar din målgrupp och din marknadspositionering.'
+
+answer:
+  label: 'Snabb jämförelse'
+  text: 'Enkellagerigt PVC är lättast och billigast — idealiskt för rekreationspaddlare och priskänsliga marknader. Dubbellagerigt PVC tillför ett andra PVC-lager för styvhet och hållbarhet med måttlig vikt — branschens standardval för uthyrningsflottor och modeller i mittsegmentet. Drop-stitch-kärnan med PVC-finish ger maximal styvhet och trycktålighet — favoriten för prestanda, surf och tunga paddlare. Alla tre konstruktioner tillverkas på samma linje med samma QC-gränser; skillnaden ligger i materialen och lamineringstegen.'
+  verified: 'September 2026'
+
+comparison_table:
+  tagline: Sida vid sida
+  title: 'Konstruktionstyper jämförda'
+  headers:
+    - 'Egenskaper'
+    - 'Enkellagerigt PVC'
+    - 'Dubbellagerigt PVC'
+    - 'Drop-stitch-kärna + PVC-finish'
+  rows:
+    - - 'Styvhet (nominellt PSI-värde)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Vikt (11 ft bräda)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Hållbarhet'
+      - 'God — rekreativt bruk'
+      - 'Mycket god — uthyrning och kommersiellt bruk'
+      - 'Utmärkt — prestanda och tunga paddlare'
+    - - 'Konstruktionslager'
+      - '1 lager PVC + drop-stitch-kärna'
+      - '2 lager PVC + drop-stitch-kärna'
+      - 'Förstärkt drop-stitch + PVC-finish + railband'
+    - - 'Typiskt bruk'
+      - 'Entry-level-marknader, rekreativt och priskänsligt'
+      - 'Allround, uthyrning, föreningar, märken i mittsegmentet'
+      - 'Tour, surf, tunga paddlare, premiumvarumärken'
+    - - 'Relativ kostnad'
+      - 'Lägst'
+      - 'Medel'
+      - 'Högst'
+    - - 'Svetsmetod'
+      - 'HF-svetsade sömmar'
+      - 'HF-svetsade sömmar + laminering'
+      - 'HF-svetsade sömmar + förstärkta rails'
+    - - 'Standard för tryckprovning'
+      - 'Täthetstest vid 18.0 PSI'
+      - 'Täthetstest vid 18.0 PSI'
+      - 'Täthetstest vid 18.0 PSI (högre värderat)'
+
+use_cases:
+  tagline: Vilken konstruktion för vilken köpare
+  title: 'Konstruktion som passar din målmarknad'
+  subtitle: 'Valet av konstruktion är inte bara en kostnadsfråga — det bestämmer riktningskvaliteten, garantiriskprofilen och den varumärkespositionering du kan uppnå.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Enkellagerigt för entry-level & volym'
+      desc: 'Den lättaste brädan till lägst pris. Idealiskt för varumärken som riktar sig till förstagångsköpare, stordistribution och onlinemarknadsplatser, där priset är den viktigaste köpmotivationen. Tillräcklig styvhet för paddling på lugnt vatten vid måttligt PSI. Lägre andel garantianspråk vid bruk inom det nominella tryckområdet.'
+      link_label: 'Se entry-level OEM-brädor'
+      href: /sv/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Dubbellagerigt för uthyrning & kommersiellt bruk'
+      desc: 'Arbetshästen för uthyrningsflottor, föreningar, resorts och skolprogram. Det extra PVC-lagret motstår stötar, UV-exponering och den dagliga hantering som gör enkellageriga brädor oanvändbara i kommersiell drift. Den högre trycktåligheten ger en styvare paddlingskänsla för tyngre åkare. Den mest använda konstruktionsnivån i världen.'
+      link_label: 'Lösningar för uthyrning & resort'
+      href: /sv/solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Drop-stitch-kärna för prestanda'
+      desc: 'Maximal styvhet för tour, surf, fiske och tunga paddlare. Förstärkt railkonstruktion och ett högre nominellt PSI-värde ger hårdbrädliknande prestanda i ett portabelt paket. Favorit bland prestandavarumärken och erfarna paddlare. Högre materialkostnad, men ett starkare varumärke och lägre garantianandel per enhet.'
+      link_label: 'Utveckling av prestandabrädor'
+      href: /sv/odm-manufacturing
+
+key_factors:
+  heading: 'Viktiga faktorer utöver konstruktionstypen'
+  body: |
+    Konstruktionstypen är en variabel av flera när det gäller brädans prestanda. Tre andra faktorer är lika viktiga eller viktigare:
+
+    - **Drop-stitch-täthet** — Trådarna per tum avgör hur jämnt brädan behåller sin form under tryck. Vi använder standarder på 96 trådar/tum och 140 trådar/tum för prestandebyggen. Högre täthet = plattare bräda = bättre glidförmåga.
+    - **PVC:ns kvalitet och tjocklek** — Allt PVC är inte lika. PVC på 0,7 mm som importeras från Sydkorea har överlägsen sprickhållfasthet och UV-skydd jämfört med tunnare alternativ. Vi specificerar materialkvaliteten per projekt.
+    - **Railkonstruktion** — Enkellageriga rails är den vanligaste brutna punkten på billiga brädor. Dubbellageriga rails och förstärkt railband minskar risken för railskador drastiskt. Alla våra brädor använder förstärkta rails, oavsett konstruktionsnivå.
+
+faqs:
+  tagline: Vanliga frågor
+  title: 'SUP-konstruktion — vanliga frågor'
+  items:
+    - q: 'Vilken konstruktionstyp ska jag välja för mitt varumärke?'
+      a: 'Det beror på din målmarknad och din prispositionering. Entry-level och stordistribution: enkellagerigt. Uthyrningsflottor, föreningar och märken i mittsegmentet: dubbellagerigt. Prestanda, tour och premium: drop-stitch-kärna. De flesta varumärken börjar med dubbellagerigt som bästa kompromiss mellan kostnad, hållbarhet och paddlingsupplevelse. Under genomförbarhetskontrollen rådgör vi utifrån din specifika marknad.'
+    - q: 'Kan jag erbjuda flera konstruktionsnivåer under ett varumärke?'
+      a: 'Ja — många varumärken erbjuder två eller tre nivåer. Vi tillverkar alla tre konstruktioner på samma linje med samma QC-gränser, så att du kan blanda konstruktionstyper inom en enda order. Skeppsform och grafik kan vara identiska på alla nivåer; endast konstruktionen och materialen skiljer sig åt.'
+    - q: 'Vilken standard för tryckprovning gäller för alla konstruktioner?'
+      a: 'Varje bräda, oavsett konstruktionstyp, klarar ett täthetstest vid 18.0 PSI med automatiskt underkännande vid ett tryckfall på mer än 0.50 PSI under 24 timmar. Enkellageriga brädor är utformade för 12–15 PSI i bruk, dubbellageriga för 15–18 PSI och drop-stitch-kärnebrädor för 18–25 PSI. Testtrycket överstiger alla typernas nominella tryck.'
+    - q: 'Hur påverkar konstruktionen garantianspråken?'
+      a: 'Enkellageriga brädor har något högre andel garantianspråk vid kommersiell/uthyrningsbruk på grund av rails och läckage. Dubbellageriga och drop-stitch-kärnekonstruktioner har betydligt lägre andel anspråk. Under offertfasen levererar vi garantidata per nivå ur våra produktionsregister.'
+
+cta:
+  title: 'Behöver du hjälp att välja rätt konstruktion?'
+  subtitle: 'Berätta om din målgrupp, din prisklass och din marknad — vi rekommenderar rätt konstruktionsnivå och levererar exempelbrädor för din bedömning.'
+  actions:
+    - variant: primary
+      text: Starta projektbriefen
+      href: /sv/contact#project-brief
+    - text: Se detaljerna om OEM-tillverkning
+      href: /sv/oem-manufacturing
+    - text: Jämför OEM, ODM och private label
+      href: /sv/oem-odm-private-label-comparison

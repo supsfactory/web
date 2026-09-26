@@ -1,0 +1,46 @@
+meta:
+  title: 'Teknik — drop-stitch & marint PVC | {SITE}'
+  description: 'Vatrads tekniker: drop-stitch-konstruktion, marint PVC, konstruktioner med dubbla lager och högt tryck. Innovation från en professionell tillverkare av uppblåsbara SUP.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup teknik'
+    - 'drop-stitch konstruktion'
+    - 'sup högt tryck'
+    - 'material uppblåsbara sup'
+
+hero:
+  tagline: 'Teknik'
+  title: 'Byggd för prestanda'
+  subtitle: 'Varje uppblåsbar Vatrad-SUP är tillverkad med drop-stitch-konstruktion och marint PVC — material och precisionsmetoder, testade för krävande marina miljöer.'
+
+sections:
+  - title: 'Drop-stitch-kärna'
+    description: 'Tusentals interna polyestertrådar förbinder det övre och undre lagret och skapar en styv konstruktion vid 12–15 PSI. Det är samma teknik som på professionella paddleboards och uppblåsbara race-SUP.'
+    imageAlt: 'Diagram över drop-stitch-kärna'
+  - title: 'Marint PVC'
+    description: 'Flerskiktslaminerat PVC-tyg, utformat för marina miljöer. Varje lager svetsas och limmas inte, vilket eliminerar risken för delaminering. Testat för UV-beständighet, korrosion från saltvatten och slitage.'
+    imageAlt: 'PVC-lager'
+  - title: 'PVC av militär kvalitet'
+    description: 'Det premium-PVC som används på alla SUP-modeller erbjuder överlägsen motståndskraft mot UV-strålning och kemikalier. Det förblir flexibelt vid extrema temperaturer och står emot åldrande.'
+    imageAlt: 'PVC'
+  - title: 'Air-Deck Floor'
+    description: 'Drop-stitch-konstruktion med komprimerad luft för exceptionell styvhet vid stående, fiske och yoga. Minskar uppställningstiden, den totala vikten och deplaceringsvolymen.'
+    imageAlt: 'Air-Deck'
+
+related:
+  title: 'Relaterade ämnen'
+  links:
+    - text: R&D-centrum
+      url: /sv/randdcenter
+    - text: Kvalitetskontroll
+      url: /sv/quality
+    - text: Säkerhetsnormer
+      url: /sv/quality
+    - text: Garanti
+      url: /sv/warranty
+    - text: Turism & fritid
+      url: /sv/tourism-recreation
+    - text: guider
+      url: /sv/knowledge
+    - text: Produkter
+      url: /sv/products

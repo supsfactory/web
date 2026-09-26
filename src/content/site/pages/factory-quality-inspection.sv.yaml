@@ -1,0 +1,477 @@
+meta:
+  title: 'Kvalitetsinspektionsstandarder för skräddarsydda SUP-brädor | OEM-fabrik | iSupfactory'
+  description: 'OEM-produktion av uppblåsbara SUP-brädor: inspektion av material, produktion, testning, förpackning och spårbarhet, med kontrollerad lufttätningsreparation enligt ISO 9001.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'tillverkare uppblåsbara sup'
+    - 'sup oem fabrik'
+    - 'tillverkare skräddarsydda paddle boards'
+    - 'sup kvalitetsinspektion'
+    - 'sup produktionsprocess'
+    - 'sup private label tillverkare'
+
+hero:
+  tagline: Inspektion & kvalitetssäkring
+  title: Kvalitetskontroll för skräddarsydda uppblåsbara SUP-brädor
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD. tillämpar projektspecifika inspektionskriterier på all materialberedning, brädkonstruktion, slutlig uppumpningstest, förpackning och frigörning inför leverans. Kvalitetskraven hanteras dynamiskt utifrån det godkända provet, den tekniska specifikationen, konstprovaret, stycklistan (BOM) och de förpackningsnormer som överenskommits för varje OEM/ODM-order.'
+  actions:
+    - text: Ladda ner kvalitetssäkringspaketet
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+    - text: Ladda ner ett exempel på kvalitetspaketet (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Begär OEM-kvalitetsinformation
+      href: /contact
+
+answer:
+  label: 'Tydligt svar'
+  text: 'QINGDAO VATRAD GROUP.,LTD. kontrollerar kvaliteten på uppblåsbara SUP-brädor via ett verifieringssystem i fyra faser: inkommande varukontroll (IQC), kvalitetskontroll under processen (IPQC), slutkontroll av brädan och uppumpningstest (FQC) samt avsändningskontroll av förpackning och leverans (OQC). Varje order verifieras mot det godkända provet, den tekniska specifikationen, konstprovaret, BOM och förpackningsnormerna — inklusive lufttätningskontroll, visuella och måttkontroller, bekräftelse av tillbehör och spårbarhet per parti. Enheter som inte uppfyller acceptanskriterierna blockeras eller sätts i karantän på kontrollerat sätt, omtillverkas endast enligt godkända instruktioner och omverifieras före den auktoriserade frigörningen.'
+  verified: 'September 2026'
+
+intro: 'Vårt kvalitetssystem är byggt för OEM/ODM-projekt: inspektionskriterierna definieras, dokumenteras och följs av produktions- och kvalitetsteamet per order, från varans ingång till förpackningen. Så förblir kvalitetsförväntningen i linje mellan fabrik och ditt varumärke, från det första provet till fullständiga containerleveranser.'
+
+scope_note:
+  tagline: Omfång
+  title: Projektspecifika inspektionskriterier
+  body: |
+    Kvalitetsspecifikationer kan variera beroende på brädans konstruktion (t.ex. ett/t två lager, drop-stitch-tyg, limmad kant), det avsedda användningsområdet, målmarknadens regelverk och de kundgodkända parametrarna. Den slutliga frigörningen baseras strikt på de dokumenterade inspektionskriterier som överenskommits för ordern.
+
+stages:
+  tagline: Kvalitetsram
+  title: Vårt kvalitetsverifieringssystem i fyra faser
+  subtitle: En komplett QC-cykel från råvarans ingång till frigörning inför leverans.
+  steps:
+    - title: '1. Inkommande varukontroll (IQC)'
+      desc: 'Kärnmaterialen och de inköpta komponenterna verifieras mot de godkända specifikationerna och referensproven innan de tillåts på produktionslinjen. Drop-stitch-material och PVC kontrolleras avseende materialidentifiering, leverantörsparti, vikt/densitet, tjocklek, färgöverensstämmelse med de godkända proven och ytfel. EVA-tractionpads kontrolleras avseende mönster, färg, tjocklek, skärnoggrannhet och limkompatibilitet. Ventiler och kopplingar genomgår funktions-, gäng-, packningsintegritets- och kopplingstester. Tillbehör och förpackning (pumpar, paddlar, fenor, leashar, väskor, kartonger) jämförs avseende antal, färg, branding, streckkodsnoggrannhet och konstversion mot den godkända BOM.'
+    - title: '2. Kvalitetskontroll under processen (IPQC)'
+      desc: 'De kritiska produktionsfaserna inspekteras för att hitta avvikelser innan brädorna når stationerna längre ned i flödet. Skärning och tryck verifieras avseende panelmått, konstlayout, spegelvänd orientering och kantrenhet mot de godkända tekniska ritningarna. Brädmonteringen och limningen av kanten kontrolleras avseende skrovsymmetri, kontinuitet i söms överlappningen och frånvaron av håligheter eller luftbubblor längs de tungt belastade zonerna. Fästningen av ventiler och tillbehör, grafiken och branding verifieras avseende placering, orientering, limtäckning, logotypens konturer och konstversion.'
+    - title: '3. Slutkontroll av brädan & uppumpningstest (FQC)'
+      desc: 'De färdiga brädorna genomgår bindande fysiska och strukturella tester före frigörning till förpackning. Brädorna pumpas upp och hålls vid det projektegodkända testtrycket för att verifiera strukturell styvhet och tryckstabilitet. Lufttätningskontrollerna täcker ventilhuset, kantsömmarna, bog- och akterkeglarna och spänningsfogarna med kalibrerade läckagedetekteringsmetoder (tryckförlustövervakning eller bubbelprov). Den estetiska kontrollen och måttkontrollen verifierar mått, rockerprofil och EVA-padens inriktning (tolerans ±2 mm) under standardbelysning.'
+    - title: '4. Förpackning & avsändningskontroll (OQC)'
+      desc: 'Den fullständiga kontrollen före leverans säkerställer en SKU-konfiguration och leveransmärkning som stämmer exakt, utan avvikelser. Kontrollen av satsens fullständighet jämför bräda, fena, leash, paddel, pump, väska, reparsats och manual mot orderns BOM. Förpacknings- och streckkodskontrollerna verifierar märkningarna på kartongen, SKU-etiketterna, streckkodens läsbarhet, manualens språk och kartongens strukturella integritet. Ordern frigörs först efter den slutliga förpackningskontrollen, undertecknad av auktoriserad kvalitetspersonal.'
+
+inspection_points:
+  tagline: Inspektionsäckfall
+  title: Viktigaste inspektionskontrollpunkter
+  subtitle: Varje kontrollpunkt utförs mot dokumenterade, per order överenskomna acceptanskriterier.
+  features:
+    - icon: A
+      icon_bg: blue
+      title: Lufttätningskontroll
+      desc: 'De färdiga brädorna pumpas upp till det godkända testtrycket och kontrolleras avseende tryckhållning, ventilbasens kondition, kantsömmarna, bog- och akterzonerna samt de tungt belastade punkterna. Där inspektionsproceduren föreskriver det undersöks misstänkta läckagezoner med godkända detekteringsmetoder.'
+    - icon: B
+      icon_bg: green
+      title: Visuell & måttkontroll
+      desc: 'Brädorna kontrolleras under adekvat belysning avseende materialytans kondition, tryckfel, färgavvikelser, EVA-inriktning, veck, repor, föroreningar och staplingsoptik. Huvudmåtten och tillbehörens placering verifieras mot de godkända ritningarna eller specifikationerna.'
+    - icon: C
+      icon_bg: purple
+      title: Kontroll av tillbehör & förpackning
+      desc: 'Före leveransen verifieras den fullständiga produktkonfigurationen: brädmodell, fenasystem, paddel, pump, leash, transportväska, reparsats, manual och skräddarsydda tillbehör — varje del jämförd mot det godkända provet, ritningarna och BOM.'
+    - icon: D
+      icon_bg: orange
+      title: Förpackning & frigörning inför leverans
+      desc: 'De förpackade enheterna kontrolleras avseende SKU-konfiguration, tillbehörens fullständighet, produktetiketter, streckkodsinformation, manualversion, kartongmärkning, förpackningsantal och kartongens kondition. Frigörning inför leverans auktoriseras först när alla inspektions- och förpackningskrav är uppfyllda.'
+
+traceability_intro:
+  tagline: Spårbarhet per parti
+  title: Projekt- och partsspårbarhetssystem
+  body: |
+    Varje skräddarsydd SUP-order hanteras under en enhetlig projektkod som sammanbinder de tekniska specifikationerna, den godkända BOM, konstrevisionerna, materialpartinumren, förpackningsreferenserna och inspektionsregistren. Produktions- och inspektionsregistren förvaras per projekt och tillämpligt produktionsparti, och varje parti kan spåras tillbaka till den godkända produktspecifikationen, BOM, konst och förpackningsreferenser.
+
+    Detta stöder en effektiv verifiering av produktkonfiguration, inspektionsstatus och berörd omfattning när ett kvalitetsärende rapporteras — från den färdiga produkten tillbaka till originalregistren via brädans eller kartongens identifiering.
+
+traceability_chain:
+  tagline: Spårbarhetskedjan
+  title: Från projektkod till frigörning inför leverans
+  subtitle: En kedja av kontrollerade referenser från orderbekräftelsen till den auktoriserade leveransen.
+  steps:
+    - step: '01'
+      title: Projektkod
+      desc: Enhetlig projektreferens som kopplar varje kontrollerat dokument till ordern.
+    - step: '02'
+      title: Dokumentrevisioner
+      desc: Aktuella revisionsnivåer för specifikation, BOM, konst och förpackning — endast godkända versioner är giltiga för produktion.
+    - step: '03'
+      title: Parti & material
+      desc: Material- och komponentpartierna registreras mot produktionspartiet.
+    - step: '04'
+      title: Inspektionsregister
+      desc: Resultat av IQC-, process-, lufttätnings-, slut- och förpackningsinspektion per parti.
+    - step: '05'
+      title: Förpackning & frigörning
+      desc: Förpackningsparti, NCR-stängningsstatus och översikt över den auktoriserade frigörningen inför leverans.
+
+traceability_sample:
+  tagline: Anonymiserat exempel
+  title: Spårbarhetskontrollregister (demo)
+  body: |
+    Demonstrationsvärdena är enbart illustrativa — kundnamn, ordernummer, skräddarsydd konst, leverantörsuppgifter och kommersiell information har tagits bort för att skydda konfidentialiteten.
+
+    - **Tillverkare:** QINGDAO VATRAD GROUP, LTD.
+    - **Projektkod:** DEMO-SUP-2026-01
+    - **SKU-referens:** DEMO-TR-126
+    - **Produktionsparti:** BATCH-AUG-01
+    - **Specifikation / BOM / Konstrevision:** Rev B / Rev C / Rev B
+    - **Lufttätningsregister:** GODKÄNT — förvaras per parti
+    - **Inspektionsstatus:** GODKÄNT
+    - **Leveransstatus:** FRIGJORT
+
+quarantine_intro:
+  tagline: Avvikelsekontroll
+  title: Kontroll av icke-konformiga produkter & karantän
+  body: |
+    Produkter eller komponenter som inte uppfyller de definierade acceptanskriterierna märks tydligt och blockeras eller sätts i karantän på kontrollerat sätt. De får inte gå vidare till nästa produktionsfas, förpackningen eller leveransen förrän ett auktoriserat beslut är fattat. Omtillverkning sker enligt godkända instruktioner och är kopplad till den aktuella avvikelserapporten; omtillverkade enheter omverifieras mot de tillämpliga projektkraven före kvalitetsfrigörningen.
+
+quarantine_flow:
+  tagline: Kontrollflöde i sju faser
+  title: Vad som händer när en avvikelse upptäcks
+  subtitle: Identifiera, blockera, korrigera, verifiera — sedan frigöra eller kassera. Icke-konformiga produkter går aldrig tillbaka till produktion eller förpackning utan verifiering.
+  steps:
+    - step: '01'
+      title: Identifiera
+      desc: Avvikelsen registreras mot den berörda produkten, SKU, partiet eller processfasen.
+    - step: '02'
+      title: Märka
+      desc: De berörda enheterna märks tydligt med kontrollerade statusetiketter — HOLD, i karantän eller kasserade.
+    - step: '03'
+      title: Karantän
+      desc: Enheterna separeras i ett fysiskt kontrollerat eller systemhanterat karantänområde för att förhindra oavsiktlig användning eller leverans.
+    - step: '04'
+      title: Bedöma omfattning
+      desc: Den berörda omfattningen undersöks per parti, processfas, materialparti och dokumentrevision.
+    - step: '05'
+      title: Omtillverka / Byta ut
+      desc: En korrigering är endast tillåten via ett godkänt beslut och en kontrollerad arbetsinstruktion.
+    - step: '06'
+      title: Verifiera om
+      desc: De korrigerade enheterna omverifieras mot de tillämpliga acceptanskriterierna före frigörningen.
+    - step: '07'
+      title: Frigöra eller kassera
+      desc: Endast auktoriserade och konformiga produkter når förpackningen eller frigörningen inför leverans.
+
+quarantine_evidence:
+  tagline: I produktionshallen
+  title: Kontroll & karantän i praktiken
+  subtitle: Bilderna från vår verkstad i Qingdao visar hur statuskontrollen och inspektionsregistren tillämpas på plats.
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Uppblåsbara SUP-brädor uppumpade i fabrikens lufttätningstestområde, övervakade med digitala tryckinstrument
+      title: Lufttätningstestområde
+      desc: 'De uppumpade brädorna förvaras i QC-testområdet under industriell belysning; de digitala tryckinstrumenten övervakar det godkända tryckhållningstestet på ventilbasen, kantsömmarna, bog och akter samt de tungt belastade punkterna. Registren förvaras per parti och kopplas till slutkontrollen.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Kvalitetskontrollblanketter och kontrollerade HOLD-statusetiketter vid fabrikens inspektionsstation
+      title: Blockerings- och karantänstation
+      desc: 'Inspektionsstation med QC-kontrollblanketter och statusmärkning. Varje enhet som inte uppfyller acceptanskriterierna märks, protokollförs och sätts i karantän — den får nå förpackningen först efter ett auktoriserat beslut och en bindande upprepad inspektion.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: En QC-tekniker utför kontrollerad lufttätningsreparation på en uppblåsbar SUP vid fabrikens reparationsstation
+      title: Kontrollerad reparationsstation
+      desc: 'Lufttätningsreparationen utförs på en särskild station enligt ett godkänt metodkort: felet märks, brädan förblir i HOLD och återvänder efter erforderlig härdningstid till testområdet för upprepad verifiering mot de ursprungliga acceptanskriterierna.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+      alt: Demonstration i verkstaden av kontrollerad karantänseparation i fabriken i Qingdao
+      title: Demonstration av karantänområdet
+      desc: 'Demonstrationsbild från verkstaden som visar hur den kontrollerade karantänseparationen fungerar på plats: de separerade enheterna står kvar under statuskontroll tills ett auktoriserat beslut är fattat.'
+
+rework_intro:
+  tagline: Styrning av omtillverkning
+  title: Kontrollerad hantering av lufttätningsavvikelser och omtillverkning
+  body: |
+    Hos QINGDAO VATRAD GROUP.,LTD. definieras omtillverkning strikt som återställandet av en icke-konform enhet till fullständig överensstämmelse med den ursprungliga tekniska specifikationen — inte som en snabb lösning. Varje bräda med en lufttätningsavvikelse blockeras på kontrollerat sätt och kopplas till en avvikelserapport (NCR) innan någon vidare bearbetning; läckans källa lokaliseras och registreras med den godkända diagnostiska metoden.
+
+    Omtillverkning får endast ske om felet ryms inom det godkända omtillverkningsomfånget och en auktoriserad metod finns tillgänglig. Omtillverkningsinstruktionen identifierar produkten, partiet, felets placering, det godkända materialet, metoden, de erforderliga förhållandena och omfånget för den upprepade verifieringen. Efter den erforderliga härdnings- eller stabiliseringsfasen omverifieras brädan mot samma tillämpliga acceptanskriterier som en konform bräda — omtillverkning sänker aldrig acceptansnivån. Misslyckas den upprepade verifieringen krävs ett nytt konstruktions- och kvalitetsbeslut; upprepad omtillverkning är inte tillåten utan dokumenterad frigörning.
+
+rework_decision:
+  tagline: Interaktivt flöde
+  title: Beslutsflöde för omtillverkning — klicka på varje nod
+  subtitle: Följ hur en lufttätningsavvikelse hanteras från detektering till frigörning eller destruktion. Klicka på en nod för att unfolds kontrollkraven i det steget.
+  nodes:
+    - id: detect
+      type: start
+      label: Läckage upptäckt
+      detail: 'Under inspektionen konstateras en lufttätningsavvikelse — ett fel i tryckhållningen, ett synligt läckage eller ett relaterat fel i luftsystemet.'
+    - id: hold
+      type: step
+      label: Stoppa linjen · HOLD-etikett · NCR
+      detail: 'Bearbetningen stoppas. Bräd-ID, produktkod, parti, arbetsstation, datum och inspektör registreras; en HOLD-/karantänetikett sätts på och ett NCR öppnas mot den tillämpliga specifikationsrevisionen.'
+    - id: locate
+      type: step
+      label: Lokalisera läckans källa
+      detail: 'Brädan pumpas upp till det projektegodkända diagnostiska trycket och källan lokaliseras med en godkänd metod — tryckhållning, kalibrerat bubbelprov, akustiskt eller läckagedetekteringsapparat.'
+    - id: classify
+      type: step
+      label: Klassificera felet (A–G)
+      detail: 'Felet klassificeras mot frigöringsmatrisen: A ventilgränssnitt, B ventilsätes-söm, C ytligt nålstygningshål, D lokal kantsöm, E utbredd kantskada, F återkommande läckage, G strukturell skada.'
+    - id: authorize
+      type: decision
+      label: Omtillverkning auktoriserad?
+      yes: rework
+      no: escalate
+      detail: 'QC bekräftar defektkategorin och konstruktion kontrollerar om brädan kan återföras till ursprungsspecifikationen. Auktoriseringen dokumenterar metodkortet, materialen, förhållandena och omfånget för den upprepade verifieringen — eller leder till utbyte, kassering, destruktion eller en koncession till kunden.'
+    - id: rework
+      type: step
+      label: Kontrollerad omtillverkning
+      detail: 'Utförs endast inom den godkända defektgränsen med det godkända metodkortet, materialpartiet och de godkända verktygen — aldrig genom att ändra mått, konstruktion, grafik, tillbehör eller förpackningskrav.'
+    - id: cure
+      type: step
+      label: Härdning & stabilisering
+      detail: 'Brädan förblir i HOLD under härdnings- och stabiliseringsfasen som definieras av den godkända material- och processinstruktionen och får därefter en visuell och bearbetningskontroll före omtillverkning.'
+    - id: reinspect
+      type: decision
+      label: Upprepad verifiering godkänd?
+      yes: release
+      no: escalate
+      detail: 'Brädan pumpas upp till det projektegodkända omverifieringstrycket och det ursprungliga felet tillsammans med alla potentiellt påverkade egenskaper verifieras om — läckpunkt, ventil, kant, sömar, tungt belastade zoner, tillbehör och utseende. Omtillverkning sänker aldrig acceptansnivån.'
+    - id: release
+      type: release
+      label: Kvalitetsfrigörning
+      detail: 'Kvalitet kontrollerar det stängda NCR, omtillverkningsregistret och resultatet av den upprepade verifieringen och auktoriserar frigörningen. Ingen omtillverkad bräda förpackas eller skickas utan auktoriserad kvalitetsfrigörning.'
+    - id: escalate
+      type: escalate
+      label: Eskalering — byta ut / förstöra / koncession
+      detail: 'Ingen upprepad omtillverkning utan dokumenterad frigörning. Brädan byts ut, kasseras, förstörs eller kunden erbjuds en skriftlig koncession när ursprungsspecifikationen inte kan återställas.'
+
+defect_matrix:
+  tagline: Defektklassning
+  title: Klassificering av lufttätningsdefekter & frigöringsmatris
+  subtitle: 'Inte alla läckage omtillverkas — varje fel klassificeras och beslutet frigörs på rätt nivå, från QC-inspektören till fabrikschefen.'
+  headers:
+    category: Defektkategori
+    area: Typiskt område
+    eligibility: Lämplighet för omtillverkning
+    approval: Erforderlig frigörning
+  rows:
+    - category: 'Klass A — Ventilgränssnitt'
+      area: 'Ventilkärna, korkförslutning, försegling, pumpgränssnitt'
+      eligibility: 'Standardomtillverkning auktoriserad'
+      approval: 'QC-inspektör'
+    - category: 'Klass B — Ventilbasens söm'
+      area: 'Mikroläckage längs ventilens kant'
+      eligibility: 'Omtillverkning bedöms enligt det godkända metodkortet'
+      approval: 'QC + Konstruktion'
+    - category: 'Klass C — Ytligt nålstygningshål'
+      area: 'Lokalt mikronålstygningshål på en obelastad yta'
+      eligibility: 'Endast auktoriserat om det uppfyller kundens specifikationer'
+      approval: 'QC + Konstruktion'
+    - category: 'Klass D — Lokal kantsöm'
+      area: 'Lokalt läckage i överlappningen på kantbandet'
+      eligibility: 'Hög risk; kräver ett strikt konstruktionsbeslut'
+      approval: 'Konstruktion + QA-chef'
+    - category: 'Klass E — Utebradd kantskada'
+      area: 'Kontinuerlig sömfel i tungt belastade zoner'
+      eligibility: 'Standardomtillverkning inte auktoriserad — utbyte eller rotorsaksanalys'
+      approval: 'QA-chef + koncession från kunden'
+    - category: 'Klass F — Återkommande läckage'
+      area: 'Läckage som inte kan lokaliseras eller återfaller vid omtest'
+      eligibility: 'Ingen upprepad omtillverkning; utbyte, destruktion eller teknisk rotorsaksanalys'
+      approval: 'Senior QA / Konstruktion'
+    - category: 'Klass G — Strukturell skada'
+      area: 'Materialskada, delaminering, deformation av brädan'
+      eligibility: 'Omtillverkningsfrigörning inte auktoriserad — utbyte, destruktion eller skriftlig koncession från kunden'
+      approval: 'Kvalitetschef + kundens frigörning'
+
+rework_flow:
+  tagline: Sluten cykel i sju faser
+  title: Kontrollerat omtillverkningsflöde — från detektering till frigörning eller destruktion
+  subtitle: 'Varje lufttätningsreparation följer samma kontrollerade cykel: upptäcka, sätta i karantän, diagnostisera, auktorisera, omtillverka, verifiera om, frigöra.'
+  steps:
+    - step: '01'
+      title: Detektering, linjestopp & karantän
+      desc: 'Bearbetningen av den berörda brädan stoppas omedelbart. Bräd-ID, produktkod, parti, arbetsstation, datum och inspektör registreras, en HOLD-/karantänetikett sätts på och ett NCR öppnas mot den tillämpliga specifikationsrevisionen.'
+    - step: '02'
+      title: Systematisk läckagediagnostik
+      desc: 'Brädan pumpas upp till det projektegodkända diagnostiska trycket och läckans källa lokaliseras med en godkänd metod — tryckhållning, kalibrerat bubbelprov, akustiskt eller läckagedetekteringsapparat. Den misstänkta punkten märks utan att skada brädan.'
+    - step: '03'
+      title: Konstruktionsbeslut & auktorisering
+      desc: 'QC bekräftar defektkategorin och konstruktion kontrollerar om brädan kan återföras till ursprungsspecifikationen. En omtillverkningsauktorisering som hänvisar till NCR dokumenterar den godkända metoden, materialen, förhållandena och omfånget för den upprepade verifieringen — eller föreskriver utbyte, kassering, destruktion eller koncession till kunden.'
+    - step: '04'
+      title: Kontrollerat utförande av omtillverkningen
+      desc: 'Omtillverkningen utförs endast inom den godkända defektgränsen med det godkända metodkortet, materialpartiet och de godkända verktygen. Brädans mått, konstruktion, grafik, tillbehörskonfiguration och förpackningskrav ändras aldrig.'
+    - step: '05'
+      title: Härdning, stabilisering & förkontroll
+      desc: 'Den omtillverkade brädan förblir i HOLD under härdnings- och stabiliseringsfasen som definieras av den godkända material- och processinstruktionen och får en visuell och bearbetningskontroll före den upprepade verifieringen.'
+    - step: '06'
+      title: Upprepad verifiering & testprov
+      desc: 'Brädan pumpas upp till det projektegodkända omverifieringstrycket och det ursprungliga felet tillsammans med alla potentiellt påverkade egenskaper verifieras om: läckpunkten och omgivningen, ventilen, kanten, sömarna, de tungt belastade zonerna, tillbehören och utseendet. Omtillverkning sänker aldrig acceptansnivån.'
+    - step: '07'
+      title: QA-frigörning eller slutbeslut
+      desc: 'Kvalitet kontrollerar det stängda NCR, omtillverkningsregistret och resultatet av den upprepade verifieringen och auktoriserar sedan frigörningen — eller eskalerar till utbyte, kassering, destruktion eller koncession till kunden. Ingen omtillverkad bräda förpackas eller skickas utan auktoriserad kvalitetsfrigörning.'
+
+quality_safeguards:
+  tagline: Kvalitetssäkringar
+  title: Felpreventiva regler som skyddar ditt varumärke
+  subtitle: 'Strikta kontroller som förhindrar okontrollerade reparationscykler — en dokumenterad omtillverkning per fel, larmgränser per parti, kalibrerade mätinstrument och kontrollerade testförhållanden.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: En omtillverkning per fel
+      desc: 'En enskild punkt får omtillverkas en gång under en auktoriserad instruktion. Misslyckas den upprepade verifieringen eskaleras brädan till utbyte, kassering, destruktion eller koncession till kunden — upprepad omtillverkning utan dokumenterad frigörning är inte tillåten.'
+    - icon: 2
+      icon_bg: green
+      title: Partilarm & linjestopp
+      desc: 'När ett produktionsparts avvikelse överstiger den tröskel som konstruktion fastställt stoppas linjen och konstruktion undersöker orsaken — materialparti, processförhållanden och register — innan produktionen återupptas.'
+    - icon: 3
+      icon_bg: purple
+      title: Kalibrerade mätinstrument
+      desc: 'Tryckinstrumenten, de digitala manometrarna och tidtagarna för lufttätningstesterna verifieras och kalibreras av externa laboratorier inom sin giltighetstid; kalibreringsstatus syns i inspektionsområdet.'
+    - icon: 4
+      icon_bg: orange
+      title: Kontrollerade testförhållanden
+      desc: 'Lufttätnings- och härdningsområdena förvaras i kontrollerad miljö så att resultaten inte påverkas av temperatursvängningar mellan dag och natt.'
+
+rework_boundaries:
+  tagline: Omfång & gränser
+  title: Vad det här systemet inte täcker
+  body: |
+    Omtillverkningskontrollsystemet tillämpas på färdiga eller under bearbetning pågående uppblåsbara SUP-brädor där luftläckage, fel i tryckhållningen eller relaterade fel i luftsystemet upptäcks före frigörning inför leverans. Det auktoriserar inga ändringar av den godkända konstruktionen, materialen, grafiken, produktkonfigurationen eller kundkraven och täcker inte:
+
+    - Produkter som redan skickats eller som befinner sig i kundernas system.
+    - Strukturell skada eller deformation av brädan som inte bedömts av konstruktion.
+    - Utbredda kant- eller sömdefekter, skador på kärnmaterialet eller defekter som kan äventyra säkerheten.
+    - Projekt där omtillverkning inte är tillåten: kundgodkända prov, certifierings- eller testenheter.
+    - Projekt med kundens egna processer, speciella material eller särskilda reparationskrav.
+    - Återkommande läckage som inte kan lokaliseras, eller brädor som återfaller efter omtillverkning.
+
+    Varje avvikelse från kundens specifikationer kräver en dokumenterad teknisk verifiering och, där det tillämpligt, kundens skriftliga frigörning. Brädor som inte kan återföras till sin ursprungsspecifikation frigörs endast under en uttrycklig koncession från kunden — aldrig enbart av produktionen.
+
+method_cards:
+  tagline: Metodkortssystem
+  title: Index över kontrollerade omtillverkningsmetodkort
+  subtitle: 'Den allmänna instruktionen styr processen; metodkorten styr utförandet. Omtillverkningsinstruktionen (WI-QC-AT-001) hänvisar till metodkorten MC-RW-01 till MC-RW-06, plus MC-RW-00 för den bindande destruktionen och kasseringen.'
+  headers:
+    code: Metodkort
+    defect: Defektklass
+    scope: Tillämpningsområde
+    controls: Viktigaste konstruktionskontroller
+    approval: Underteckningsbehörighet
+  rows:
+    - code: MC-RW-01
+      defect: Klass A (ventilgränssnitt)
+      scope: 'Underhåll av ventilkärnan, rengöring av förseglingen och återmontering'
+      controls: 'Kalibrerad momentnyckel, ren förseglingsyta, ingen skada på ventilgängorna'
+      approval: 'QC-inspektör'
+    - code: MC-RW-02
+      defect: Klass B (ventilomkrets)
+      scope: 'Försegling av ventilens bottenplatta och kontrollerad åtdragning'
+      controls: 'Kontrollerad ytberedning, godkänt limmaterial, cirkulärt tryckverktyg'
+      approval: 'QC + Konstruktion'
+    - code: MC-RW-03
+      defect: Klass C (ytligt mikroläckage)
+      scope: 'Försegling av icke-strukturella nålstygningshål'
+      controls: 'Godkänt tvåkomponentlim, inget utslag på grafik eller EVA'
+      approval: 'QC + Konstruktion'
+    - code: MC-RW-04
+      defect: Klass D (lokal kantsöm)
+      scope: 'Omlimning av lokala överlappningssömar i kanten'
+      controls: 'Temperaturkontrollerad värmeaktivering, tryckvals, anti-krulverktyg'
+      approval: 'Konstruktion + QA-chef'
+    - code: MC-RW-05
+      defect: Klass B/C (tillbehörskant)
+      scope: 'Reparation av fin box och försegling av tillbehörens monteringsbas'
+      controls: 'Ytprimer för vidhäftning, formgjutet klämblock, definierad hålltid'
+      approval: 'QC + Konstruktion'
+    - code: MC-RW-06
+      defect: Klass D (bog-/aktersöm)
+      scope: 'Åtgärd på tungt belastade böjda sömar'
+      controls: 'Godkänt limmaterial med hög skjuvhållfasthet, förlängd härdningstid före omtest'
+      approval: 'Chefingenjör'
+    - code: MC-RW-00
+      defect: Klass E/F/G (kritisk / brott)
+      scope: 'Bindande destruktion och fysiskt förstörande'
+      controls: 'Fysisk kapning för att förhindra blandning, destruktionsprotokoll, tvärfunktionell rotorsaksanalys'
+      approval: 'Fabrikschef'
+
+inspector_friendly:
+  tagline: Inspektion av tredjepart
+  title: Inspektörsvänligt protokoll
+  body: |
+    Vi erbjuder ett särskilt inspektionsområde med kalibrerade tryckinstrument, standardiserade ljusbord för verifiering av sömar och grafik och ifyllda inspektionsbriefingar, så att externa organisationer (SGS, BV, Intertek, QIMA) effektivt kan utföra sin inspektion före leverans — det sparar din inspektionsoverhead.
+
+    Varje briefing sammanfattar de tillämpliga dokumentrevisionerna, referensen till det godkända provet, de kritiska kvalitetsrelevanta kontrollerna, den överenskomna provnivån, funktionstesterna samt förpacknings- och streckkodskraven för PO:t. Specificerade antal, kvalitet, förpackning och väsentliga säkerhetsaspekter verifieras mot de godkända projektreferenserna — inget hastigt dokumentsökande på plats.
+
+document_pack:
+  tagline: Kvalitetsdokumentationspaket
+  title: Ladda ner exempelkvalitetspaketet & protokollmallar
+  subtitle: 'Standardiserade och kontrollerade mallar för OEM/ODM-projekt — strukturerade som dokumentregister 00–15 (projektindex, godkänd specifikation, BOM, konst- och förpackningsreferenser, QIP, inspektionsregister, NCR, ändringskontroll, briefing för tredjepart, frigöringsöversikt).'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: Kvalitetsdokumentationspaket (PDF)
+      desc: 'Fullständig kontrollerad dokumentstruktur 00–15: projektindex, specifikation, BOM, konst- och förpackningsreferenser, kvalitetsinspektionsplan (QIP), inspektionsregister, NCR, ändringskontroll, briefing för tredjepart och översikt över avsändningskontrollen.'
+      link: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link_label: Ladda ner PDF
+    - icon: T
+      icon_bg: green
+      title: Inspektionsbriefing för tredjepart (PDF)
+      desc: 'Briefing på en sida för SGS / BV / Intertek / QIMA-inspektörer: orderantal, AQL-provnivå, tillämpliga revisioner och kritiska kvalitetsrelevanta kontroller, inklusive verifiering av lufttätningsregistret, tryckhållningstest, satsens fullständighet, streckkodsskanning och falltest av kartongen.'
+      link: 'https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link_label: Ladda ner PDF
+    - icon: C
+      icon_bg: purple
+      title: Ändringskontrollprotokoll (PDF)
+      desc: 'Ändringskontrollprotokoll för konstrevisioner, kundgodkänd BOM och märkningar på kartonger — med ändringsöversikt, skäl, konsekvensbedömning, status för kundens frigörning, effektivt parti och återkallelse av föråldrade dokument.'
+      link: 'https://assets.isupfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link_label: Ladda ner PDF
+    - icon: R
+      icon_bg: orange
+      title: Översikt över avsändningskontroll (PDF)
+      desc: 'Frigöringssignatur på en sida: verifiering av kvalitetsportarna (IQC, IPQC, lufttätning, slutkontroll, förpackning), öppen NCR-status och det auktoriserade frigöringsbeslutet, undertecknat av Kvalitet och Drift.'
+      link: 'https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link_label: Ladda ner PDF
+    - icon: W
+      icon_bg: blue
+      title: Lufttätningsreparationsinstruktion (PDF)
+      desc: 'Kontrollerad arbetsinstruktion WI-QC-AT-001 Rev A: omfång och gränser, defektklassning, NCR och omtillverkningsauktorisering, kontrollerat utförande, härdning, upprepad verifiering och frigörning för uppblåsbara SUP-brädor.'
+      link: 'https://assets.isupfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link_label: Ladda ner PDF
+    - icon: M
+      icon_bg: green
+      title: Index över metodkorten (PDF)
+      desc: 'Kontrollerat dokument SOP-QC-AT-IDX-001 Rev A: det numrerade systemet med metodkorten MC-RW-01 till MC-RW-06, plus MC-RW-00 för destruktion och kassering, kopplat till lufttätningsreparationsinstruktionen.'
+      link: 'https://assets.isupfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link_label: Ladda ner PDF
+    - icon: V
+      icon_bg: orange
+      title: Ändringskontrollstandarder för omtillverkning (sida)
+      desc: 'Formell ISO 9001-ändringskontroll för omtillverkningsparametrar: ECR, riskklassning, tvärfunktionell frigöringsmatris, sluten cykel i nio faser, kvantifierad teknisk validering och Poka-Yoke-skydd — med tvåspråkig SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/sv/factory/quality-change-control'
+      link_label: Visa sidan
+    - icon: N
+      icon_bg: blue
+      title: Kontroll av icke-konformiga produkter (sida)
+      desc: 'ISO 9001:2015 punkt 8.7 Kontroll av icke-konformiga produkter: NCR-registrering, karantän, beslutsbefogenhet baserad på allvarlighetsgrad, kontrollerad omtillverkning enligt SRI, oberoende upprepad inspektion och intygad destruktion, skyddad med SHA-256 — med nedladdning av den tvåspråkiga SOP:en och destruktionsintyget.'
+      link: '/sv/factory/non-conforming-control'
+      link_label: Visa sidan
+
+faqs:
+  tagline: FAQ
+  title: Vanliga frågor om SUP-kvalitetskontroll
+  items:
+    - q: 'Hur kontrollerar QINGDAO VATRAD GROUP.,LTD. kvaliteten på uppblåsbara SUP-brädor?'
+      a: 'Kvaliteten kontrolleras via inkommande varukontroll, kontrollpunkter i produktionsprocessen, verifiering av slutprodukten, förpackningsinspektion och produktionsspårbarhet — varje del utförd mot de projektgodkända proven, specifikationerna och inspektionskriterierna.'
+    - q: 'Vilka kvalitetskontroller utförs under SUP-produktionen?'
+      a: 'Inspektionerna omfattar materialverifiering, skär- och tryckkontroller, inspektion av brädkonstruktionen, verifiering av ventilinstallationen, inspektion av tillbehören, lufttätningstest, utseendekontroll och förpackningsverifiering.'
+    - q: 'Kan OEM-kunder begära SUP-inspektionsregistren?'
+      a: 'Ja. Inspektionsregister och kvalitetsdokumentation kan lämnas ut utifrån projektkraven och de kvalitetsavtal som finns med kunden, inklusive rapporter från stickprovsinspektioner före leverans.'
+    - q: 'Hur säkerställer fabriken en konstant OEM-produktionskvalitet?'
+      a: 'Produktionskonsekvensen upprätthålls via godkända prov, tekniska specifikationer, tillverkningskontrollpunkter, inspektionsprocedurer och dokumenterade kvalitetskontrollprocesser som är kopplade till varje order.'
+    - q: 'Kan jag ordna en inspektion av tredjepart med SGS, BV, Intertek eller QIMA?'
+      a: 'Ja. Vi tar emot externa inspektörer med ett särskilt inspektionsområde, kalibrerade tryckinstrument, ifylllda inspektionsbriefingar och tillgängliga register. Dela er specifikation, det godkända provet, konsten, förpackningskraven och defektkriterierna — eller använd vår mall för inspektionsbriefing till tredjepart.'
+    - q: 'Hur hanteras ändringar i konst, BOM eller förpackning under produktionen?'
+      a: 'Ändringar registreras i vårt ändringskontrollprotokoll, inklusive berörd dokumentrevision, ändringsöversikt, skäl, konsekvensbedömning, status för kundens frigörning och effektivt parti. Föråldrade versioner återkallas, så att produktion och inspektion alltid använder de aktuella godkända dokumenten.'
+    - q: 'Stöder fabriken skräddarsydda uppblåsbara SUP-projekt?'
+      a: 'Ja. Skräddarsydda OEM/ODM-projekt för uppblåsbara SUP-brädor stöds utifrån kundens specifikationer, grafikkrav, tillbehörskonfigurationer och förpackningsbehov, med projektspecifika överenskomna inspektionskriterier före produktionen.'
+    - q: 'Kan en SUP med ett läckage omtillverkas i fabriken?'
+      a: 'Ja — under kontrollerade förhållanden. Brädan sätts i HOLD och kopplas till ett NCR, läckan lokaliseras med en godkänd diagnostisk metod och omtillverkningen sker endast efter QC/Konstruktionsauktorisering och enbart inom de godkända defektklasserna för omtillverkning. Brädan omverifieras sedan mot samma acceptanskriterier som en konform bräda före frigörningen.'
+    - q: 'Hur många gånger kan fabriken omtillverka en bräda?'
+      a: 'En enskild punkt får omtillverkas en gång under en auktoriserad instruktion. Misslyckas den upprepade verifieringen eskaleras brädan till utbyte, kassering, destruktion eller koncession till kunden — upprepad omtillverkning utan dokumenterad frigörning är inte tillåten.'
+
+cta:
+  title: Behöver du ett komplett exempel på ett projektkvalitetspaket?
+  desc: 'Begär ett anonymiserat supportpaket för inspektioner av tredjepart och en kvalitetsinspektionsplan (QIP) för ditt OEM/ODM-projekt — eller ladda ner exempelmallarna för att verifiera den dokumentstruktur du kan förvänta dig för din order.'
+  actions:
+    - text: Begär kvalitetskontroll
+      variant: primary
+      href: /contact
+    - text: Ladda ner exempelkvalitetspaketet (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Ladda ner QC-protokoll & PSI-checklista
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

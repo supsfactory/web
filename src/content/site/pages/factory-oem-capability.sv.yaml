@@ -1,0 +1,74 @@
+meta:
+  title: 'OEM & private label-produktion | {SITE}'
+  description: 'Från koncept till produktion: anpassa varje detalj i din serie uppblåsbara SUP-brädor. Fullständig OEM/ODM-service för private label-paddle board-varumärken.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup oem produktion'
+    - 'paddle board private label'
+    - 'uppblåsbar sup oem'
+    - 'skräddarsydd sup fabrik'
+hero:
+  tagline: OEM/ODM-produktion
+  title: OEM & private label-produktion
+  subtitle: Från koncept till produktion — anpassa varje detalj i din serie uppblåsbara SUP-brädor
+
+answer:
+  label: 'Tydligt svar'
+  text: 'MOQ bekräftas utifrån projektkonfigurationen och inte med en fast siffra: varje projekt går igenom faserna prov (1–2 enheter) och pilotparti (20–50 enheter), medan standardserieproduktionen omfattar 90–100+ enheter per parti utgående från en hel drop-stitch-rulle på 150 m. Prov är klara på 7–12 dagar; standardproduktionen går på 25–35 dagar efter bekräftad PO och handpenning.'
+  verified: 'September 2026'
+
+intro: Vatrad erbjuder fullständiga OEM- och ODM-tjänster till varumärken, distributörer och institutioner världen över. Med mer än 10 års exporterfarenhet och en fabrik på 12 500 m², certifierad enligt ISO 9001 och BSCI, hanterar vi allt — från produktdesign och formutveckling till storskalig produktion, förpackning och exportledning.
+
+highlight:
+  - value: 10+
+    label: År av OEM-erfarenhet
+    detail: Sedan 2012
+  - value: 50+
+    label: Exportländer
+    detail: Global täckning
+  - value: 200+
+    label: Levererade skräddarsydda projekt
+    detail: Inom alla produktlinjer
+  - value: 25–35
+    label: Standardgenomströmningstid (dagar)
+    detail: Efter bekräftad PO och handpenning
+
+services:
+  - title: Produktdesign & konstruktion
+    description: Vårt interna FoU-team arbetar med din idé eller specifikation för att utveckla CAD-ritningar, 3D-modeller och prototyper. Vi erbjuder formdesign, optimering av skrovformen och rådgivning om materialval.
+  - title: Branding & anpassad grafik
+    description: Digital fullfärgstryck, silkescreen, präglning och etikettalternativ. Vi utvecklar varumärkesspecifik däckgrafik, branding av kammare och detaljhandelsklara förpackningar.
+  - title: Anpassning av material & specifikationer
+    description: Välj mellan PVC (standard, miljövänlig, flamskyddad), Hypalon/CSM, drop-stitch och hybridkonstruktioner. Anpassade kammarfärger, tygvikter och förstärkningsalternativ.
+  - title: Förpackning & logistik
+    description: Skräddarsydda kommersiella förpackningar, private label-kartonger, vakuumförpackning, palletering och exportklara staplingar, förberedda på plats.
+
+moq_table:
+  - product: Uppblåsbara SUP-brädor
+    standard_moq: 'Prov 1–2 | Pilotparti 20–50'
+    custom_moq: 'Antal 90–100+ (per rulle på 150 m)'
+    lead_time: 25–35 dagar
+
+why_us:
+  - title: Vertikal integration
+    description: Vi äger vår fabrik, våra formverktyg och vår leveranskedja — inga mellanhänder, inga underleverantörer. Det ger oss kontroll över kvalitet, kostnad och leverans.
+  - title: Dubbel certifiering
+    description: Kvalitetsledning enligt ISO 9001 och BSCI-certifiering för social överensstämmelse. Fabriksrevisionsrapporter finns på begäran.
+  - title: CE-överensstämmelse
+    description: CE-certifieringen gäller modeller avsedda för EU-marknader (omfång bekräftat per projekt). Skräddarsydda modeller kan CE-certifieras via vår etablerade process.
+  - title: Projektspecifik MOQ
+    description: 'MOQ bekräftas av din projektkonfiguration — co-branding i små partier startar på 5–10 enheter, standardserieproduktionen går med 90–100+ enheter per parti. Vi hjälper nya varumärken att komma igång utan övermätta lageråtaganden.'
+
+cta:
+  title: 'Sätt ditt varumärke på en bevisad bräda'
+  subtitle: 'Från specifikationsverifiering till den skickade containern — skicka din briefing i dag och få en detaljerad OEM-offert inom en arbetsdag. Verifiera fabriken och dess kvalitetssystem innan du binder dig.'
+  actions:
+    - variant: primary
+      text: Begär en OEM-offert
+      href: /contact#custom-oem
+    - text: Verifiera fabriken & kvalitetssystemet
+      href: /oem-trust-assurance
+    - text: Inspektionssystemet i sju faser
+      href: /quality
+    - text: Se produktionslinjen
+      href: /factory/process

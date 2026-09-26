@@ -1,0 +1,108 @@
+meta:
+  title: 'SUP-produktutveckling — anpassad design, prototyp & tillverkning'
+  description: 'SUP-produktutveckling från idé till container: specifikation, konstruktion, prototyper, tester, verktygsbyggnad och serietillverkning i en specialiserad SUP-fabrik.'
+  dateModified: '2026-08-10'
+  keywords:
+    - 'SUP-produktutveckling'
+    - 'SUP-prototyputveckling'
+    - 'anpassad SUP-design'
+    - 'SUP-produktkonstruktion'
+    - 'prototypframställning av uppblåsbara SUP'
+
+hero:
+  tagline: Produktutveckling
+  title: 'Anpassad SUP-produktutveckling, från idé till container'
+  subtitle: 'Sex faser gör om din idé till produktionsklara SUP-brädor — specifikation, konstruktion, prototyper, tester, verktygsbyggnad och serietillverkning, allt i en enda fabrik med ett ansvarligt kvalitetssystem.'
+
+answer:
+  label: 'Kort svar'
+  text: 'SUP-produktutveckling hos iSupfactory genomgår sex faser — produktspecifikation, strukturell konstruktion, provtagning av prototyper, test & validering, byggnad av anpassade verktyg och serietillverkning. Det första fysiska provet skickas 7–12 dagar efter att specifikationen godkänts; tillverkningen löper 25–35 dagar efter bekräftad order och deposition; en ny formstämpel innebär ytterligare 15–20 dagar.'
+  verified: 'September 2026'
+
+stages:
+  title: 'De sex faserna av SUP-produktutveckling'
+  subtitle: 'Varje fas har ett tydligt resultat — så att du alltid vet var ditt projekt står — och vad som händer sedan.'
+  items:
+    - title: '1. Idé & produktspecifikation'
+      description: 'Brädgeometri, användarens viktklass, volym, konstruktionsmål och tillbehörspaket. En referensbräda, en skiss eller en konkurrents specifikation räcker för att komma igång.'
+      icon: 'tabler:bulb'
+    - title: '2. Konstruktion & 3D-design'
+      description: 'Strukturell konstruktion, drop-stitch-tjocklek och val av PVC-klass, plus en tillverkningsbarhetskontroll och en offert — inom en arbetsdag.'
+      icon: 'tabler:blueprint'
+    - title: '3. Provtagning av prototyper'
+      description: 'Ditt första fysiska prov skickas inom 7–12 dagar, dokumenterat med ett godkännandeformulär för konstruktion, tryckfärger och tryckprovningsresultat.'
+      icon: 'tabler:tools'
+    - title: '4. Test & validering'
+      description: 'Tryckhållning, svetsstyrka och måttkontroll mot det godkända provet, med CE- och REACH-dokumentation för dina målmarknader.'
+      icon: 'tabler:test-pipe'
+    - title: '5. Verktyg & serietillverkning'
+      description: 'Byggnad av anpassade formverktyg på 15–20 dagar vid behov; tillverkningen löper 25–35 dagar med QC-kontrollpunkter i flödet och spårbarhet per parti.'
+      icon: 'tabler:settings'
+    - title: '6. Leverans & skalbarhet'
+      description: 'Logistik FOB, CIF eller DDP till över 50 länder — därefter återbeställningar på din etablerade linje med stabila leveranstider och arkiverad, godkänd artwork.'
+      icon: 'tabler:truck-delivery'
+
+why_inhouse:
+  title: 'Varför utveckling i fabrik slår ett mellanled'
+  subtitle: 'Utveckling direkt i produktionsanläggningen förändrar vad du får i varje fas.'
+  items:
+    - title: Inga överlämningspunkter i designen
+      description: 'Konstruktions- och ritningsteamet arbetar på samma plan som svetslinjen — en designändring når produktionen samma vecka, inte efter en kommersiell tur och retur.'
+      icon: 'tabler:handshake'
+    - title: Prover som matchar produktionen
+      description: 'Provkörningen och produktionskörningen delar samma maskiner, material och QC-stationer — det godkända provet är alltså exakt vad du får i containerformat.'
+      icon: 'tabler:stack-2'
+    - title: Konstruktion som inte säljer
+      description: 'Beslut fattas utifrån målkostnad, vikt och livslängd — inte utifrån vinstmarginal, eftersom detta är en fabrik och produktionen är den enda intäktskällan.'
+      icon: 'tabler:scale'
+    - title: Ansvarsskyldighet som bestående åtagande'
+      description: 'Ett NDA undertecknas före varje filutbyte och din artwork, dina verktyg och dina specifikationsfiler förblir dina — de återanvänds aldrig, säljs vidare eller visas för andra kunder.'
+      icon: 'tabler:lock'
+
+buyer_guides:
+  tagline: Inköpsguider
+  title: 'Det kompletta inköpsbiblioteket'
+  subtitle: 'Varje fas i ett anpassat SUP-projekt förklarad, med våra verkliga leveranstider, villkor och dokument.'
+  items:
+    - title: 'Private label: den kompletta steg-för-steg-guiden'
+      body: 'Från val av fabrik till levererad container — hela sexstegsresan för nya varumärken.'
+      href: '/sv/news/private-label-sup-guide'
+    - title: 'Hur du väljer en SUP-OEM-tillverkare'
+      body: 'Revisionsfrågorna som skiljer en riktig fabrik från en mellanhand: certifieringar, QC, prover och ägande.'
+      href: '/sv/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'Genomloppstider för SUP-produktutveckling'
+      body: 'Prover på 7–12 dagar, tillverkning på 25–35 dagar, verktyg plus 15–20 — hela planeringen, fas för fas.'
+      href: '/sv/news/custom-sup-development-timeline'
+    - title: 'Information att förbereda före beställningen'
+      body: 'De fem uppgifterna som gör att en fabrik kan lämna en korrekt offert på en gång — och som undviker omarbetning av specifikationen.'
+      href: '/sv/news/info-needed-before-sup-production'
+    - title: 'MOQ och priser för SUP-OEM'
+      body: 'MOQ-nivåer över prov (1–2), pilot (20–50) och volym (90–100+ per rulle på 150 m), de sex kostnadsdrivarna och fem sätt att sänka kostnaderna utan att ge upp kvaliteten.'
+      href: '/sv/news/sup-oem-moq-pricing'
+    - title: 'CE-certifiering för uppblåsbara SUP'
+      body: 'Vad CE-märkningen faktiskt täcker, de fem dokumenten du ska begära och hur du kontrollerar att ett certifikat nämner din modell.'
+      href: '/sv/news/ce-certification-inflatable-sup'
+    - title: 'Frakt: FOB kontra CIF kontra DDP'
+      body: 'Vad varje Incoterm täcker och kostar, sjöfärden på 4–6 veckor och vilket villkor som passar ditt företag.'
+      href: '/sv/news/private-label-sup-oem-guide'
+
+faq_section:
+  tagline: Vanliga frågor
+  title: 'Vanliga frågor om SUP-utveckling'
+  questions:
+    - q: Kan ni utveckla en SUP-produkt från en idé?
+      a: 'Ja. Vi följer hela vägen från produktspecifikation och konstruktion, via prototyputveckling och anpassning, till serietillverkning utifrån dina krav. En skiss, en referensbräda eller till och med en konkurrents specifikation räcker för konstruktionskontrollen.'
+    - q: Vad kostar SUP-produktutveckling?
+      a: 'Specifikationskontrollen och konstruktionsbedömningen är gratis och kommer tillbaka inom en arbetsdag. Provtagning av prototyper offereras per projekt när specifikationen är låst; tillverkningspriser beror på material, antal och om egna verktyg behövs.'
+    - q: Hur lång tid tar SUP-produktutveckling?
+      a: 'Det första provet skickas 7–12 dagar efter att specifikationen godkänts, med 3–7 dagar per revisionsomgång. Tillverkningen löper 25–35 dagar efter order och deposition. En egen form innebär 15–20 dagar extra i förväg, och sjötransport tar för de flesta destinationer ytterligare 4–6 veckor.'
+    - q: Vad kommer först — prov eller tillverkning?
+      a: 'Alltid provet. En fysisk prototyp tillverkas, mäts och godkänns mot specifikationen innan en produktionskörning startar. Vi tillverkar inga antal baserat på ej godkända designer.'
+    - q: Undertecknar ni ett NDA för produktutveckling?
+      a: 'Ja. Ett NDA undertecknas före varje filutbyte och dina designer, din artwork och dina verktyg förblir dina genom hela utvecklingen och tillverkningen.'
+    - q: Kan ni skydda min SUP-design och min specifikation?
+      a: 'Kunders designer, specifikationer och produktidéer hanteras konfidentiellt under utveckling och tillverkning. Dina verktygsfiler återanvänds aldrig, säljs vidare eller visas för andra kunder.'
+
+cta:
+  title: 'Starta ert SUP-produktprojekt'
+  subtitle: 'Skicka en skiss, en referensbräda eller en specifikation — konstruktionskontroll och offert inom en arbetsdag.'

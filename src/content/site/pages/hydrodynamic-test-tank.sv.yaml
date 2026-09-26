@@ -1,0 +1,115 @@
+meta:
+  title: 'Hydrodynamisk testdamm — prestandatest av SUP-brädor'
+  description: 'Validera SUP-brädornas skalpprestanda i vår hydrodynamiska testdamm. Släptest i modellskala, glidanalys och motståndsmätning för brädformer.'
+  dateModified: '2026-08'
+back_text: 'Tillbaka till F&U-centrumet'
+home_label: 'Hem'
+
+answer:
+  label: 'Entydigt svar'
+  text: 'Vi testar SUP-skalpformer i testdammen i modellskala 1:3 till 1:5 — båtprofil, railradie, rocker och våt yta — och mäter motstånd, glideffektivitet och stabilitet, innan vi låser oss vid en prototyp i full storlek. En vecka i dammen ger de prestandadata som annars skulle kräva månader av försök och misslyckanden i full storlek.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorium 04'
+  title: 'Hydrodynamisk testdamm'
+  subtitle: 'Prestandavalidering före den första prototypen i full storlek'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
+  image_alt: 'Vatrad hydrodynamisk testdamm för prestandatest'
+
+intro: 'Det är en utbredd missuppfattning att hydrodynamiska tester är reserverade för fartyg och racingbilar. I verkligheten beror en SUP-brädas prestanda — en glidande skalp på 10 till 14 fot — precis som för varje annat fartyg på undervattensformen. Båtprofil, railradie, rocker och våt yta påverkar motstånd, glideffektivitet och stabilitet på ett dramatiskt sätt. På {SITE.name} driver vi en egen hydrodynamisk testdamm som låter oss kvantifiera dessa effekter i modellskala — innan vi låser fast tyg och formverktyg för en prototyp i full storlek.'
+
+content_html: |
+  <h2>Varför testa en SUP-bräda i en damm?</h2>
+  <p>Tester i modellskala (typiskt 1:3 till 1:5) låter oss iterera snabbt och till låg kostnad över brädformer. En vecka i dammen kan ge samma prestandadata som månader av försök och misslyckanden i full storlek — till en bråkdel av kostnaden.</p>
+
+  <h2>Specifikationer för anläggningen</h2>
+  <table>
+    <thead><tr><th>Parameter</th><th>Specifikation</th></tr></thead>
+    <tbody>
+      <tr><td>Dammens mått</td><td>35 m (L) × 3.5 m (B) × 1.8 m (D)</td></tr>
+      <tr><td>Släpvagn</td><td>Elektriskt servodriven, maxhastighet 12 m/s (23 kn), hastighetsnoggrannhet ± 0.5 %</td></tr>
+      <tr><td>Våggenerator</td><td>Flaptyp, programmerbara regelbundna &amp; oregelbundna sjögångar, Hs upp till 0.3 m i modellskala</td></tr>
+      <tr><td>Instrumentering</td><td>6-komponents motståndsmätvåg (motstånd, sidkraft, gingkraft), accelerometrar, lutningsmätare, vågsonder</td></tr>
+      <tr><td>Datainsamling</td><td>Samplingfrekvens 1000 Hz per kanal, visualisering i realtid + programvarupaket för efterbearbetning</td></tr>
+      <tr><td>Modelltillverkning</td><td>CNC-fräsning och 3D-printning internt för modellskalper upp till 1.8 m längd totalt</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Vårt testprogram</h2>
+  <p>Ett standardprogram för brädeutveckling i vår damm följer denna ordning:</p>
+  <ol>
+    <li><strong>Modellbyggnation</strong> — En modell i skala 1:4 fräses i CNC av skum med hög densitet och förstärks med glasfiber för styvhet. Vikt och tyngdpunkt ställs in för att uppnå lastförhållandet, skalat enligt Froude.</li>
+    <li><strong>Motståndsprovning</strong> — Modellen släps vid 6–10 hastigheter i paddelområdet (2–6 kn i full storlek). Totalmotståndet mäts och delas upp i friktionsmotstånd och kvarvarande motstånd med ITTC-1957-metoden.</li>
+    <li><strong>Mätning av glidläge &amp; djup</strong> — Glidläge och djup under färden registreras vid varje hastighet. Målet är den glidvinkel som minimerar den våta ytan samtidigt som båten tydligt ligger ovanför båtvågen.</li>
+    <li><strong>Undersökning av vågfält</strong> — Det tvärgående vågprofilen mäts vid två hastigheter för att bedöma vågmotståndet och identifiera interaktioner med båtformen som bromsar en bräda i vattnet.</li>
+    <li><strong>Beteende i sjögång (valfritt)</strong> — Prov i vågkamare med regelbundna vågor för att mäta extra motstånd och vertikal acceleration i vågorna — data bakom båtformen för touringbrädor.</li>
+    <li><strong>Dataanalys &amp; rekommendationer</strong> — Ett fullständigt rapport levereras med jämförande diagram, motstånds-/hastighetskurvor och specifika designrekommendationer för brädan i full storlek.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Typiska dammresultat — Motstånd vs. hastighet (allround-bräda 11''0, skala 1:4)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">2 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:18%"></div>
+        </div>
+        <span class="w-16 text-right">11 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">3 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">21 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">4 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:52%"></div>
+        </div>
+        <span class="w-16 text-right">32 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">5 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:68%"></div>
+        </div>
+        <span class="w-16 text-right">42 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">6 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:85%"></div>
+        </div>
+        <span class="w-16 text-right">52 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Motstånd i modellskala (N) vid hastigheter skalade enligt Froude. Prestandaberäkning i full storlek följer ITTC-1978-metoden.</p>
+  </div>
+
+  <h2>Experteam</h2>
+  <p>Vår damm drivs av en hydrodynamisk ingenjör med doktorsgrad i fartygsarkitektur och 8 års erfarenhet från ett ledande europeiskt maritimt forskningsinstitut. Han bistås av en tekniker som förbereder alla modeller och instrumentering. Teamet följer ITTC:s (International Towing Tank Conference) rekommenderade procedurer för att säkerställa att varje test är reproducerbart, spårbart och internationellt försvarbart.</p>
+
+  <h2>Dammtester för utveckling av anpassade brädor</h2>
+  <p>Vår damm används inte bara för egna brädor — vi genomför regelbundet testprogram för kunder som vill validera en anpassad brädform eller undersöka ett prestandaproblem:</p>
+  <ul>
+    <li><strong>Formjämförelse</strong> — Två eller flera kandidatformer testas under identiska förhållanden och ger en objektiv jämförelse av motstånd, hastighet och stabilitet som underlag för er designval.</li>
+    <li><strong>Optimering av rail &amp; båt</strong> — Varianter av båtprofil och railradie kan testas i olika konfigurationer för att kvantifiera deras bidrag till minskat motstånd.</li>
+    <li><strong>Studie av paddlarens last</strong> — Motståndsdata kartläggs över hela paddlarnas viktintervall, så att ni kan specificera rätt längd och bredd för er målgrupp.</li>
+  </ul>
+
+  <h2>Varför testa hos oss?</h2>
+  <p>Vi ger er inte bara en rad råsiffror. Våra rapporter översätter dammdata till genomförbara konstruktionsrekommendationer: ”Öka båtens rocker med 10 mm för att minska båtvågsmotståndet vid cruisinghastighet”, ”Avfas railen vid mittsektionen för att minska den våta ytan” eller ”Flytta det stående fotpartiet 50 mm framåt för bättre glidläge”. Ni går hem med en tydlig bild av vad som bör anpassas och varför.</p>
+  <p>Vår damm är även tillgänglig för oberoende tester av tredje part mot arvode. Om ni utvecklar en bräda och vill ha en opartisk, professionellt genomförd hydrodynamisk bedömning tar vi gärna emot er förfrågan.</p>
+
+cta:
+  title: 'Boka en testsession i dammen'
+  subtitle: 'Oavsett om ni behöver ett komplett utvecklingsprogram eller en enda jämförande test — vi anpassar oss efter er tidsplan.'
+  actions:
+    - variant: primary
+      text: Kontakta vårt hydrodynamiska team
+      href: /contact#project-brief
+    - text: Tillbaka till F&U-centrumet
+      href: /randdcenter

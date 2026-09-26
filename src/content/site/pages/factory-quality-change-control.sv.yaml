@@ -1,0 +1,348 @@
+meta:
+  title: 'Ändringskontroll & validering av omtillverkningsparametrar | iSupfactory'
+  description: 'Ändringskontroll av omtillverkningsparametrar enligt ISO 9001: ECR, riskklassning, frigöringsmatris, validering och omverifiering för SUP-produktion.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'sup omtillverkningsändringskontroll'
+    - 'iso 9001 ändringskontroll produktion'
+    - 'oem kvalitetskontroll uppblåsbar sup'
+    - 'ecr engineering change request sup'
+    - 'lufttätningsvalideringsstandarder'
+    - 'sup fabrik kvalitetssäkring'
+
+hero:
+  tagline: Ändringskontroll av omtillverkningsparametrar
+  title: Ändringskontrolls- och valideringsstandarder för omtillverkningsprocessparametrar
+  subtitle: 'Hos QINGDAO VATRAD GROUP.,LTD. kan ingen operatör, skiftledare eller enskild avdelning på plats ändra en godkänd omtillverkningsparameter. Varje föreslagen ändring av godkända omtillverkningsmaterial, processförhållanden, utrustning, testmetoder, inspektionskriterier eller auktoriserad personal hanteras via en dokumenterad ändringskontroll — Engineering Change Request, konsekvens- och riskbedömning, tvärfunktionell frigörning, valideringsplan, kontrollerad införande, omverifiering och effektivitetsbevis, därefter stängning och förvaring av registren. Den här sidan presenterar vår kontrollerade standard QMS-SOP-QC-CC-001 (Rev 2.0, baserad på ISO 9001:2015) och de tekniska bevisen bakom den.'
+  actions:
+    - text: Ladda ner SOP för ändringskontroll (PDF)
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Ladda ner bilaga A för utförande (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Begär kvalitetskontroll
+      href: /contact
+
+answer:
+  label: 'Tydligt svar'
+  text: 'Ändringar av omtillverkningsparametrar beslutas aldrig muntligen eller med retroaktiv verkan hos QINGDAO VATRAD GROUP.,LTD. Varje föreslagen ändring av godkända omtillverkningsmaterial, processförhållanden, utrustning, testmetoder, inspektionskriterier eller auktoriserad personal måste gå igenom en formell ändringskontroll före införandet: en dokumenterad Engineering Change Request (ECR), konsekvens- och riskbedömning, tvärfunktionell verifiering av konstruktion, kvalitet, produktion, inköp och projekt, frigörning på den nivå som fastställs i vår auktoriseringsmatris, ett godkänt valideringsplan för högrisksändringar, kontrollerad pilotinförande, omverifiering och effektivitetsbevis samt stängning enbart efter dokumentrevision och utbildning. Varje ändring som påverkar kundgodkända specifikationer, prov, BOM, grafik eller acceptanskriterier kräver dessutom kundens skriftliga frigörning.'
+  verified: 'September 2026'
+
+stats:
+  tagline: Kortfattat
+  title: Ändringskontrollen i siffror
+  stats:
+    - value: '9'
+      label: Faser i ändringskontrollens slutna cykel
+    - value: '6'
+      label: Ändringskategorier som kräver formell hantering
+    - value: '4'
+      label: Kärnomtillverkningsprocesser med kvantifierade parametrar
+    - value: '≥ 5'
+      label: Exempelbrädor + 2 oberoende QC för högriskvalidering
+
+cc_intro:
+  tagline: Omfång & policy
+  title: Kärnprinciper för styrning
+  body: |
+    **Dokument:** QMS-SOP-QC-CC-001 — *Standard för ändringskontroll av omtillverkningsprocessparametrar* (Rev 2.0, officiell publicering). **Tillverkare:** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Normreferens:** ISO 9001:2015 Kvalitetsledningssystem.
+
+    - **Inga okontrollerade ändringar.** Ändringar av omtillverkningsparametrar måste gå igenom en formell ändringskontroll. Operatörer i verkstaden, skiftledare eller en enskild avdelning får aldrig ändra godkända omtillverkningsparametrar genom ett muntligt avtal eller en handskriven notering i ett omtillverkningsprotokoll.
+    - **Fullständig elementtäckning.** Det kontrollerade omfånget täcker lufttätning, ventilsäten, kantband, sömlimning, varmluftshärdning och tryckhållningstestet — varje parameter som kan påverka försegling, strukturell livslängd, utseende, kundens acceptans eller spårbarhet.
+    - **Kundens frigörning som central punkt.** Varje ändring som flyttar en produkt bort från det kundgodkända provet, den tekniska specifikationen, BOM, grafiken, förpackningskravet eller acceptanskriterierna implementeras endast med kundens skriftliga frigörning. Utan den frigörningen omtillverkas, byts ut eller kasseras brädan enligt det ursprungliga kravet — aldrig "mildrat" enbart av fabriken.
+
+cc_scope:
+  tagline: Riskklassning
+  title: Ändringsomfång & riskklassning
+  subtitle: Varje av följande ändringar aktiverar den formella ändringskontrollen — hanteras aldrig med en notering i omtillverkningsprotokollet. Risknivån avgör vem som frigör och hur mycket validering som krävs.
+  headers:
+    category: Ändringskategori
+    examples: Typiska exempel
+    risk: Risk
+    requirements: Kontroll- och frigöringskrav
+  rows:
+    - category: 'Omtillverkningsmaterial'
+      examples: 'Lim, avfettare, reparationsmaterial, ventiltätning, grundmassa eller byte av leverantör'
+      risk: 'Hög'
+      requirements: 'Tvärfunktionell verifiering + validering av materialkompatibilitet & tryckhållning + kundens frigörning där det tillämpligt'
+    - category: 'Processförhållanden'
+      examples: 'Ytbearbetning, temperatur/fuktighet vid varmluftshärdning, presstryck, hålltid'
+      risk: 'Hög'
+      requirements: 'Konstruktions- och kvalitetsfrigörning med definierad validering av temperatur- och fuktfönster'
+    - category: 'Utrustning & mätinstrument'
+      examples: 'Manometrar, läckagedetektorer, varmluftstermopar, ventilverktyg, testprogramvara'
+      risk: 'Medel/Hög'
+      requirements: 'Verifiering av kalibreringens giltighet + bedömning av utrustningens lämplighet'
+    - category: 'Defektomfång'
+      examples: 'Utvidgning av omtillverkningsområdet; ytlig mikro-reparation som växer ut till kritiska zoner för kant, söm eller ventilsäte'
+      risk: 'Hög'
+      requirements: 'Strukturellt bärande ytor: obligatoriskt stopp och ombedömning'
+    - category: 'Inspektionsmetoder'
+      examples: 'Metod för läckagedetektering, testtryck (18.0 PSI), lagringstid (24u)'
+      risk: 'Hög'
+      requirements: 'Kvalitetsfrigörning + bekräftelse av kundens tekniska överensstämmelse'
+    - category: 'Dokumentation & auktorisering'
+      examples: 'Omtillverkningsinstruktion, inspektionsblanketter, logik för NCR-beslut, operatörskvalificering'
+      risk: 'Medel'
+      requirements: 'Kontrollerad dokumentrevision (Rev A → Rev B) + utbildningsbevis'
+
+cc_containment:
+  tagline: Regeln om hårstopp
+  title: Omedelbar inneslutning när förhållandena blir allvarliga
+  body: |
+    > "Den befintliga omtillverkningsmetoden ska underkastas en verifiering och inte tillämpas på ytterligare berörda produkter förrän ändringen har bedömts och auktoriserats, om inte en dokumenterad tillfällig avvikelse har godkänts av Kvalitet och Konstruktion."
+
+    Den pågående omtillverkningsmetoden ska omedelbart sättas i paus när omverifieringen av omtillverkningen fortsätter att underkännas, när felet rör strukturellt bärande zoner (ventilbas, kant, sömar, tryckzoner i bog och akter), när ett ersättningsmaterial ännu inte är validerat eller när de pågående parametrarna krockar med den kundgodkända specifikationen.
+
+    Tillfälliga avvikelser blir aldrig beständig praktik: varje avvikelse bär ett definierat giltighetsfönster, ett tillämpligt partiomfång, en antalsgräns, valideringskrav och en mekanism för automatisk utgångsdatum. Ett muntligt undantag är inget undantag — dokumenteras det inte med sitt utgångsdatum, så existerar det inte.
+
+cc_flow:
+  tagline: Kontrollerad sluten cykel i nio faser
+  title: Från ändringsbegäran till stängning och förvaring
+  subtitle: 'En dokumenterad cykel för varje parameterändring: föreslå, screena, bedöma, frigöra, validera, pilotera, verifiera, revidera, stänga.'
+  steps:
+    - step: '01'
+      title: Ändringsbegäran (ECR)
+      desc: 'Varje avdelning kan lämna in en begäran, men Konstruktion, Kvalitet eller produktionsledningen är sponsor. ECR besvarar varför ändringen behövs, vad som förändras, vad som berörs och hur det ska verifieras — med ett ändringskontrollnummer, kopplade NCR/CAPA, nuvarande mot föreslagen parameter, berörda partier och klassningen tillfällig/permanent ändring.'
+    - step: '02'
+      title: Första screening & inneslutning
+      desc: 'Begäran screenas först avseende omedelbar inneslutning: ska den pågående metoden stoppas nu? Om en tillfällig avvikelse tillåts begränsas den av ett giltighetsfönster, partiomfång, antalsgräns och automatiskt utgångsdatum.'
+    - step: '03'
+      title: Konsekvens- & riskbedömning
+      desc: 'Konstruktion, Kvalitet, Produktion, Inköp/leveranskedja och Projekt bedömer produktprestanda, acceptanskriterier, materialkompatibilitet, utseende, processkapacitet, utrustning och mätinstrument, personalkvalificering, kundkrav, överensstämmelse och spårbarhetsomfång.'
+    - step: '04'
+      title: Gemensam verifiering & frigörning
+      desc: 'Frigörningen följer den fasta auktoriseringsmatrisen — inte "vem som skriwer högst". Högrisksändringar kräver tvärfunktionell frigörning och, där det behövs, kundens skriftliga frigörning före varje försök.'
+    - step: '05'
+      title: Valideringsplan
+      desc: 'För högrisksändringar krävs ett godkänt valideringsplan före rutinmässig tillämpning: representativa exempelbrädor, nuvarande mot föreslagen metod, testmetoder, acceptanskriterier, inspektionsnivåer, ansvariga och planering.'
+    - step: '06'
+      title: Kontrollerade piloter & införande
+      desc: 'De nya dokumenten frigörs och de föråldrade versionerna återkallas och märks OBSOLETE; nya material och mätinstrument verifieras och kalibreras; operatörerna utbildas och kvalificeras; det första partiet körs under förstärkt inspektion med tydlig statusmärkning.'
+    - step: '07'
+      title: Omverifiering & effektivitetsbevis
+      desc: 'Förstågångsprocenten för omtillverkningen, omverifieringens godkännandeandel, återkommandegraden och acceptansen av utseendet mäts och verifieras innan ändringen bedöms vara effektiv — en reparerad bräda behandlas aldrig som processvalidering.'
+    - step: '08'
+      title: Dokumentrevision & utbildning
+      desc: 'Arbetsinstruktioner, inspektionsblanketter, NCR-beslutsalternativ, parameterkort och utbildningsmaterial uppdateras till den nya revisionen, med registrerad praktisk utbildning och kvalificering av operatören.'
+    - step: '09'
+      title: Stängning & förvaring av registren
+      desc: 'Ändringen stängs först när valideringsbevisen, dokumentuppdateringarna, utbildningsbevisen och effektiviteten av införandet har verifierats och frigjorts. Uppnås inte det avsedda resultatet revideras, utvidgas, pausas eller återkallas ändringen.'
+
+cc_approval:
+  tagline: Frigöringsmatris
+  title: Tvärfunktionell auktoriseringsmatris
+  subtitle: 'En fast auktoriseringstabell förhindrar ad hoc-beslut: varje ändringstyp har sina erforderliga godkännare, från en förtydligan på dokumentnivå till kundens frigörning.'
+  headers:
+    change: Ändringens innehåll
+    engineering: Konstruktion
+    quality: Kvalitet
+    production: Produktion
+    procurement: Inköp
+    project: Projekt / Försäljning
+    customer: Kund
+  rows:
+    - change: 'Förtydligan av dokumentformuleringen (ingen påverkan på parametrar)'
+      engineering: Kontroll
+      quality: 'Frigörning'
+      production: Information
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Justering av den operativa omtillverkningsordningen'
+      engineering: 'Frigörning'
+      quality: 'Frigörning'
+      production: Medundertecknande
+      procurement: '—'
+      project: Information
+      customer: På begäran
+    - change: 'Ny kvalificering av en omtillverkningsoperatör'
+      engineering: Kontroll
+      quality: 'Frigörning'
+      production: 'Frigörning'
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Ändring av utrustning/testinstrument'
+      engineering: 'Frigörning'
+      quality: 'Frigörning'
+      production: Medundertecknande
+      procurement: Vid behov
+      project: '—'
+      customer: På begäran
+    - change: 'Ersättande omtillverkningsmaterial/-leverantör'
+      engineering: 'Frigörning'
+      quality: 'Frigörning'
+      production: Medundertecknande
+      procurement: Medundertecknande
+      project: Information
+      customer: Kan begäras
+    - change: 'Ändring av tryck-/håll-/härdningsparametrar'
+      engineering: 'Frigörning'
+      quality: 'Frigörning'
+      production: Medundertecknande
+      procurement: '—'
+      project: Information
+      customer: Om projektet kräver det
+    - change: 'Ändring av omtillverkningsmetod för kant/söm/ventilsäte'
+      engineering: 'Frigörning'
+      quality: 'Frigörning'
+      production: Medundertecknande
+      procurement: Vid behov
+      project: Information
+      customer: Generellt rekommenderat
+    - change: 'Ändring av kundspecifikation, frigörningsprov eller acceptanskriterier'
+      engineering: 'Frigörning'
+      quality: 'Frigörning'
+      production: Medundertecknande
+      procurement: '—'
+      project: Medundertecknande
+      customer: 'Skriftlig frigörning obligatorisk'
+
+cc_validation:
+  tagline: Teknisk validering
+  title: Validerings- och acceptansprotokoll — bevis, inte påståenden
+  body: |
+    En vag acceptansformulering som *"den reparerade brädan ska vara bra"* accepteras inte. Den kontrollerade formuleringen lyder:
+
+    > "Det omtillverkade provet ska uppfylla samma tillämpliga acceptanskriterier för lufttätning, visuell finish, ventilfunktion och projektspecifika krav som en konform bräda, om inte en kundgodkänd avvikelse uttryckligen anger ett alternativt kriterium."
+
+    Valideringsbevisen är kvantitativa och den tekniska baslinjen för lufttätningsreparation omfattar:
+
+    - **Eliminering av läckan & tryckhållning.** Ursprungsläckan elimineras utan bestående bubblor i tvållösningen; brädan håller trycket vid standardtesttrycket 18.0 PSI under 24 timmar, med en netto tryckförlust ΔP ≤ 0.2 PSI efter kompensation för temperatur/fuktighet — den strängaste baslinjen för omtillverkningsvalidering, skild från den automatiska uteslutningströskeln på 0.50 PSI som tillämpas vid slutacceptans på produktionslinjen.
+    - **Ventilfunktion.** Åtdragningsmomentet för ventilkärnan uppfyller specifikationen 15–20 N·m, utan mikroläckage vid förseglingen under högtrycks- och dynamiskt tryck vid uppumpningen.
+    - **Sömlimning & livslängd.** Limfogarna uppvisar ingen lossning, vitgulning eller delaminering; efter cyklerna av termisk/fuktighetsåldring visar limlagret ingen mjukgörande eller borstade revor.
+    - **Utseende & finish.** Inget limutslag, ingen skada på EVA, ingen deformation av brädan och ingen förskjutning av logotypen eller repor på den tryckta ytan.
+
+cc_engineering:
+  tagline: Teknisk utförandematris
+  title: Kvantifierade parametrar för de fyra kärnomtillverkningsprocesserna
+  subtitle: 'Varje kontrollerad omtillverkningsprocess bär definierade parametrar, metodik och acceptanskriterier — samma siffror som våra operatörer följer och som kunder kan verifiera under revisioner.'
+  headers:
+    process: Omtillverkningsprocess
+    parameters: Kontrollerade parametrar
+    methodology: Testmetodik
+    acceptance: Acceptanskriterier
+  rows:
+    - process: 'Reparation av nålstygningshål/mikroläckage'
+      parameters: 'Rengöring med lösningsmedel & torkning 3–5 min; varmluftsaktivering 60°C ± 5°C; tryckvals ≥ 0.4 MPa'
+      methodology: 'Pumpning till 18 PSI; fullständig nedsänkning i vatten eller tvålapplication; observation under 10 minuter'
+      acceptance: 'Noll bubbl bildning; 180°-kantböjning utan lossning och utan limutslag'
+    - process: 'Omlimning av kantband/söm'
+      parameters: 'Strikt kontrollerad blandningsförhållande för tvåkomponentlim; omgivning 22–28 °C, ≤ 65 % relativ luftfuktighet; klammer i form ≥ 4 tim'
+      methodology: 'Övertryckstest vid 22 PSI i 2 tim; därefter 6 tim härdning i ugn vid 50°C och 2 tim vila i rumstemperatur'
+      acceptance: 'Noll separation, noll revbildning; netto tryckförlust ΔP ≤ 0.1 PSI; limlager utan vitgulning eller sprödhet'
+    - process: 'Lossnande ventilbas / mikroläckage'
+      parameters: 'Specifikt åtdragningsmoment 18–20 N·m; plan försegelingsring utan deformation; kontrollerad gängjarning'
+      methodology: 'Pumpning till 15 PSI; 20 cykler uppblåsning/avblåsning; observation vid nedsänkning under vatten'
+      acceptance: 'Noll bubblor vid ventilkärnan och runt basen; åtdragningsmoment efter cyklerna ≥ 16 N·m'
+    - process: 'Slutligt 24-timmars tryckhållningstest'
+      parameters: 'Referensuppumpningstryck 18.0 PSI; digital manometer klass 1.0 / ±0.5 %; registrerad och kompenserad omgivningstemperatur & fuktighet'
+      methodology: 'Digital tryckregistrator; kontinuerlig 24-timmars tryckkurva'
+      acceptance: 'Netto tryckförlust ΔP ≤ 0.20 PSI / 24 tim efter kompensation; ingen utbukning eller deformation av brädan'
+
+cc_photos:
+  tagline: I produktionshallen
+  title: Reparation, omtest, frigörning — dokumenterat i varje steg
+  subtitle: Bilderna från vår verkstad i Qingdao visar varje kontrollerad omtillverkningsprocess med sina kalibrerade mätinstrument, definierade parametrar och register på plats — samma bevis som inspektörer kan begära in när som helst.
+  grid: 'sm:grid-cols-2'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/cc-pinhole-repair.avif
+      alt: Tekniker reparerar ett mikroläckage från nålstygningshål på en uppblåsbar SUP med varmluftpistol och tryckvals
+      title: Reparation av nålstygningshål
+      desc: 'En tekniker behandlar ett markerat mikroläckage med en varmluftpistol inställd på specifikationen 60°C och en tryckvals; tvållösningen bekräftar läckans läge och det QC-undertecknade ECR-formuläret på arbetsbänken visar ändringskontrollens grind (Poka-Yoke nr 1).'
+    - image: https://assets.isupfactory.com/site/quality/cc-rail-seam-bonding.avif
+      alt: Tekniker applicerar tvåkomponent PU-lim med en precisionborste på en kantsöm under kontrollerat klimat
+      title: Limning av kantsömen
+      desc: 'Tvåkomponent PU-lim appliceras med en precisionborste på kantsömen medan brädan hålls i en formklammer; termometern/hygrometern på plats visar det kontrollerade fönstret 24 °C / 55 % relativ luftfuktighet.'
+    - image: https://assets.isupfactory.com/site/quality/cc-valve-base-integrity.avif
+      alt: Digital momentnyckel inställd på 19 N·m som fäster ventilkärnan mot drop-stitch-materialet
+      title: Ventilbasens integritet
+      desc: 'En digital momentnyckel, inställd på specifikationen 19 N·m, utför den slutliga åtdragningen av ventilkärnan och förseglar basen mot drop-stitch-materialet — instrumentet bär den gröna CALIBRATED-etiketten.'
+    - image: https://assets.isupfactory.com/site/quality/cc-pressure-hold-testing.avif
+      alt: Färdiga uppblåsbara SUP-brädor anslutna till digitala tryckregistratorer i det slutliga tryckhållningsområdet
+      title: Slutlig tryckhållningsverifiering
+      desc: 'De färdiga brädorna ansluts till digitala högprecisions-tryckregistratorer; huvudmanometern visar referensen 18.00 PSI och alla testdata laddas upp automatiskt och kopplas till spårbarhetssystemet.'
+
+cc_pokayoke:
+  tagline: Fel Prevention
+  title: 'Poka-Yoke: hårda blockeringar som stoppar okontrollerade ändringar'
+  subtitle: Standarden tillämpas inte bara genom procedurer, utan med fysiska och systemiska blockeringar som gör okontrollerade ändringar omöjliga.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: ECR-grind för aktivering av verktyget
+      desc: 'Omtillverkningsstationerna läser av en QC-undertecknad ECR-streckkod innan de pneumatiska uppumpningsventilerna och limblandarna aktiveras. Inget bevis på godkänd ändringskontroll, ingen ström — en retroaktiv signatur ("ändra först, underteckna senare") blockeras fysiskt.'
+    - icon: 2
+      icon_bg: green
+      title: Automatiskt utgångsdatum för tillfälliga avvikelser
+      desc: 'Tillfälliga avvikelser är hårdkodade som gräns i systemet (t.ex. högst 50 brädor eller 7 kalenderdagar). När gränsen nås blockeras partiet och blockeras avtrycket av avsändningens genomfartstag tills ändringen har bedömts formellt.'
+    - icon: 3
+      icon_bg: purple
+      title: Minimibevis för validering
+      desc: 'Högrisksändringar kräver minst 5 representativa exempelbrädor som täcker den övre och undre toleransgränsen, fullständigt testade av 2 oberoende QC-inspektörer innan en valideringsrapport får lämnas ut — en reparerad bräda behandlas aldrig som processvalidering.'
+    - icon: 4
+      icon_bg: orange
+      title: Dokumentkontroll 1-in-1-out
+      desc: 'De föråldrade arbetsstationskorten återkallas fysiskt ogiltigförklaras (perforeras) innan det nya kortet utfärdas, stämplat med det kontrollerade röda sigillet — gamla och nya versioner delar aldrig en arbetsstation.'
+
+cc_downloads:
+  tagline: Nedladdningsbara QMS-dokument
+  title: Kontrollerade tvåspråkiga dokument (PDF)
+  subtitle: Officiella tvåspråkiga EN/ZH-dokument från QINGDAO VATRAD GROUP.,LTD. — redo för kundrevisioner, tekniska B2B-white papers och kontrollerad distribution i produktionsplaneringen.
+  features:
+    - icon: S
+      icon_bg: blue
+      title: SOP för ändringskontroll av omtillverkning (PDF)
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: ändringsklassningstabell, tvärfunktionell auktoriseringsmatris, tekniska valideringsparametrar, inneslutningens röda linjer och kvalitetssignaturblock.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: Ladda ner PDF
+    - icon: A
+      icon_bg: green
+      title: Bilaga A för utförande (PDF)
+      desc: 'ECR-datamodell, kvantifierad teknisk utförandematris för de fyra kärnomtillverkningsprocesserna, logiken bakom Poka-Yoke-blockeringarna och ett signaturblock i tre steg.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: Ladda ner PDF
+    - icon: R
+      icon_bg: purple
+      title: Styrning av kontrollerad omtillverkning (sida)
+      desc: 'Referenssida för lufttätningsreparationssystemet: defektklassning A–G, godkända metodkort MC-RW-01 till MC-RW-06 och det kontrollerade omtillverkningsflödet i sju faser.'
+      link: '/sv/factory/quality-inspection'
+      link_label: Visa sidan
+    - icon: N
+      icon_bg: orange
+      title: Kontroll av icke-konformiga produkter (sida)
+      desc: 'ISO 9001:2015 punkt 8.7 Kontroll av icke-konformiga produkter: NCR-registrering, karantän, beslutsbefogenhet baserad på allvarlighetsgrad, kontrollerad omtillverkning enligt SRI-instruktioner, oberoende omverifiering och övervakad destruktion.'
+      link: '/sv/factory/non-conforming-control'
+      link_label: Visa sidan
+
+faqs:
+  tagline: FAQ
+  title: Vanliga frågor om ändringskontroll av omtillverkning
+  items:
+    - q: 'Kan fabriken ändra omtillverkningsparametrar utan att informera oss?'
+      a: 'Nej. Varje föreslagen ändring av godkända omtillverkningsmaterial, processförhållanden, utrustning, testmetoder, inspektionskriterier eller auktoriserad personal måste först gå igenom en dokumenterad ändringskontroll. Ändringar som påverkar kundgodkända specifikationer, prov, BOM, grafik eller acceptanskriterier kräver kundens skriftliga frigörning.'
+    - q: 'Vad räknas som en högrisksändring?'
+      a: 'Ändringar av omtillverkningsmaterial eller -leverantör, tryck-/håll- eller härdningsförhållanden, omtillverkningsmetoder för ventil/kant/sömar, inspektions- eller acceptanskriterier och utvidgning av defektomfånget till strukturella zoner klassas som hög risk. De kräver tvärfunktionell verifiering, ett godkänt valideringsplan och kontrollerat pilotinförande före rutinmässig användning.'
+    - q: 'Kan en tillfällig avvikelse användas utan begränsning?'
+      a: 'Nej. Varje tillfällig avvikelse bär ett definierat giltighetsfönster, ett partiomfång, en antalsgräns och valideringskrav med automatiskt utgångsdatum. När gränsen nås blockeras partiet och blockeras avtrycket av genomfartstag tills ändringen har bedömts formellt.'
+    - q: 'Hur visar ni att en ändrad metod fungerar före fullständig användning?'
+      a: 'Högrisksändringar kräver ett valideringsplan: minst 5 representativa exempelbrädor som täcker toleransgränserna, testade av 2 oberoende QC-inspektörer mot kvantifierade acceptanskriterier (läckeliminering, tryckhållning, ventilfunktion, sömlivslängd, utseende). Frigörning för validering är inte frigörning för tillämpning.'
+    - q: 'Måste vi frigöra varje ändring?'
+      a: 'Inte varje ändring, men varje ändring som flyttar produkten bort från det kundgodkända provet, den tekniska specifikationen, BOM, grafiken, förpackningen eller acceptanskriterierna implementeras endast med kundens skriftliga frigörning. Utan den frigörningen omtillverkas, byts ut eller kasseras brädorna enligt det ursprungliga kravet.'
+    - q: 'Vad händer med gamla dokument när en ändring frigörs?'
+      a: 'De gamla arbetsinstruktionerna, parameterkorten och inspektionsblanketterna återkallas fysiskt och ogiltigförklaras (1-in-1-out), märks OBSOLETE och ersätts av den nya kontrollerade revisionen efter utbildningen. Gamla och nya versioner delar aldrig en arbetsstation.'
+    - q: 'Hur länge förvaras ändringskontrollens register?'
+      a: 'Stängningsregistren — valideringsbevis, dokumentrevisioner, utbildningsbevis och effektivitetsbevis — förvaras enligt vår förvaringspolicy (minst 3 år för stängningsregister), så att varje ändring förblir spårbar för revisioner och verifieringar.'
+
+cta:
+  title: Behöver du ändringskontroldokument för din revision?
+  desc: 'Ladda ner den tvåspråkiga SOP:en för ändringskontroll och utförandebilagan, eller begär ett anonymiserat exempel på vår ECR-mall och ett valideringsplan för ditt OEM/ODM-projekt.'
+  actions:
+    - text: Begär kvalitetskontroll
+      variant: primary
+      href: /contact
+    - text: Ladda ner SOP för ändringskontroll (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Ladda ner bilaga A för utförande (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

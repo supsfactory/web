@@ -1,0 +1,49 @@
+badge: Aktuell forskning
+heading: Kunskapscenter
+description: Fördjupad teknisk forskning om material, konstruktion, säkerhetsnormer och tillverkning av SUP-brädor och uppblåsbara båtar
+topics:
+  - slug: drop-stitch-technology
+    category: Teknik
+    readTime: 8 min läsning
+  - slug: pvc-vs-hypalon
+    category: Material
+    readTime: 10 min läsning
+  - slug: ce-certification-guide
+    category: Regelefterlevnad
+    readTime: 7 min läsning
+  - slug: sup-thickness-guide
+    category: Konstruktion
+    readTime: 6 min läsning
+  - slug: oem-buyer-guide
+    category: Inköp
+    readTime: 12 min läsning
+  - slug: sup-manufacturing-process
+    category: Tillverkning
+    readTime: 10 min läsning
+  - slug: eva-foam-technology
+    category: Material
+    readTime: 7 min läsning
+  - slug: uv-printing-vs-eva-block
+    category: Teknik
+    readTime: 6 min läsning
+  - slug: fusion-lamination-vs-glue
+    category: Tillverkning
+    readTime: 8 min läsning
+  - slug: sup-valve-types
+    category: Konstruktion
+    readTime: 6 min läsning
+  - slug: fin-systems-guide
+    category: Konstruktion
+    readTime: 7 min läsning
+  - slug: board-hull-design
+    category: Konstruktion
+    readTime: 9 min läsning
+  - slug: quality-testing-standards
+    category: Regelefterlevnad
+    readTime: 8 min läsning
+  - slug: sup-paddle-technology
+    category: Utrustning
+    readTime: 7 min läsning
+  - slug: military-grade-pvc-specs
+    category: Material
+    readTime: 8 min läsning

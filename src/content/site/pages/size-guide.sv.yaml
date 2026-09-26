@@ -1,0 +1,85 @@
+meta:
+  title: 'Måtttabell och specifikationer för SUP — uppblåsbara paddleboards | {SITE}'
+  description: 'Mått, bärkraft och rekommenderat bruk för varje Vatrad-bräda. Hitta rätt storlek uppblåsbar SUP för dina behov.'
+  dateModified: '2026-08'
+  keywords:
+    - 'SUP-storleksrekommendation'
+    - 'Paddleboard-mått'
+    - 'Specifikationer för uppblåsbara SUP'
+    - 'SUP-måtttabell'
+hero:
+  title: Måtttabell och specifikationer
+  subtitle: Mått, bärkraft och rekommenderat bruk för varje Vatrad-produkt.
+
+categories:
+  inflatable: Uppblåsbara SUP för maximal portabilitet utan kompromisser om prestanda. Välj rätt storlek för din vikt och din paddelstil.
+  sup: Stand up paddleboards för tur, yoga, fitness och rekreationspaddling. Val baserat på användarens längd och vikt.
+  accessory: Tillbehör och säkerhetsutrustning som kompletterar din SUP-bräda. Universella storlekar med flera alternativ.
+
+table:
+  headers:
+    product: Produkt
+    length: Längd
+    width: Bredd
+    weight: Vikt
+    max_load: Max. bärkraft
+    best_for: Lämplig för
+  rows:
+    - product: 'SUP Allround (Explorer 11 ft)'
+      length: '11''0" (335 cm)'
+      width: '32" (81 cm)'
+      weight: 19 lbs (8.6 kg)
+      max_load: 220 lbs (100 kg)
+      best_for: Nybörjare, fritid, familjepaddling på lugna sjöar och åar
+    - product: 'SUP Allround (10''6")'
+      length: '10''6" (320 cm)'
+      width: '32" (81 cm)'
+      weight: 18 lbs (8.2 kg)
+      max_load: 200 lbs (90 kg)
+      best_for: Lättare användare, yoga och allmänt rekreativt bruk
+    - product: 'SUP Touring (12 ft)'
+      length: '12''0" (366 cm)'
+      width: '30" (76 cm)'
+      weight: 23 lbs (10.4 kg)
+      max_load: 260 lbs (118 kg)
+      best_for: Distanspaddling, fart och kustturer
+    - product: 'SUP Touring (14 ft)'
+      length: '14''0" (427 cm)'
+      width: '28" (71 cm)'
+      weight: 26 lbs (11.8 kg)
+      max_load: 275 lbs (125 kg)
+      best_for: Tävlingar och långdistanspaddling
+    - product: 'SUP Surf (8–10 ft)'
+      length: '8''0"–10''0" (244–305 cm)'
+      width: '30" (76 cm)'
+      weight: 17 lbs (7.7 kg)
+      max_load: 180 lbs (82 kg)
+      best_for: Vågor och smidig surf
+    - product: 'SUP Yoga/Fitness (11 ft)'
+      length: '11''0" (335 cm)'
+      width: '34" (86 cm)'
+      weight: 22 lbs (10 kg)
+      max_load: 240 lbs (109 kg)
+      best_for: Yoga, fitness och stabil rekreationspaddling
+
+how_to_choose:
+  title: Så hittar du rätt storlek
+  cards:
+    - title: SUP-brädor
+      description: Välj längd utifrån din vikt och det avsedda bruket. De bredare brädorna (32"+ – 81 cm+) ger mer stabilitet. De längre brädorna (11–12 ft) håller bättre spår under turer. Tyngre paddlare behöver brädor med större volym.
+    - title: Touring-SUP
+      description: De längre brädorna (11–12 ft) passar bäst för distanspaddling och turer. De bredare brädorna (32"+ – 81 cm+) ger mer stabilitet. Kontrollera bärkraften för den totala vikten inklusive utrustning.
+    - title: Allround-SUP
+      description: Välj längd utifrån användarens vikt och det avsedda bruket. Allround-brädor passar för fritid, fitness och yoga. Mindre brädor är lättare att manövrera.
+
+cta:
+  title: 'Se brädorna i rätt storlek eller prata med en ingenjör'
+  subtitle: 'Jämför Touring-, Allround- och Yoga-modellerna i vårt sortiment — eller skicka oss sammansättningen av din målgrupp, så rådgör vi om rätt storlekar för ditt projekt.'
+  actions:
+    - variant: primary
+      text: Se SUP-produkterna
+      href: /sv/products
+    - text: Fördjupning om paddling
+      href: /sv/knowledge
+    - text: Så byggs brädorna
+      href: /sv/factory/process

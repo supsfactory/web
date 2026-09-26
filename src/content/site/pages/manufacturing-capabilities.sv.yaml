@@ -1,0 +1,125 @@
+meta:
+  title: 'SUP-produktionskapacitet | Fabrik för uppblåsbara paddelbrädor'
+  description: 'SUP-produktionskapacitet i Qingdao: egen skalpkonstruktion (0.1 mm), bearbetning av drop-stitch, högfrekvenssvetsning, tryckning, fästen, 100-punkts kvalitetskontroll och 120 000+ brädor per år.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'SUP-produktionskapacitet'
+    - 'kapacitet fabrik uppblåsbara paddelbrädor'
+    - 'SUP-produktion i egen regi'
+    - 'produktionskapacitet paddelbrädor'
+    - 'SUP-fabrik Qingdao'
+
+hero:
+  tagline: Produktionskapacitet
+  title: 'SUP-produktionskapacitet'
+  subtitle: 'Varje process — skalpkonstruktion, bearbetning av drop-stitch-kärnan, högfrekvenssvetsning, tryckning, fästen, montering, testning och förpackning — sker internt i vår fabrik på 12 500 m² i Qingdao. Ett ansvarigt team leder ditt projekt från den första ritningen till den lastade containern.'
+
+answer:
+  label: 'Kort svar'
+  text: 'SUP-produktionen sker helt internt i vår fabrik i Qingdao: skalpdesign och dimensionell konstruktion med CNC-noggrannhet på 0.1 mm; bearbetning av drop-stitch-material och högfrekvenssvetsning på 4 automatiserade linjer; grafisk tryckning; stansning av EVA-deckpads; interna fästen (+15–20 dagar för nya former); montering enligt en 100-punktslista samt 24-timmars tryck- och lufttätningstest vid 18.0 PSI med automatisk kassering vid sjunk över 0.50 PSI. Årskapaciteten är 120 000+ brädor (cirka 10 000/månad) i 4 specialverkstäder med 350+ medarbetare, levererade till över 50 länder under ert varumärke.'
+  verified: 'September 2026'
+
+capabilities:
+  tagline: Interna kapaciteter
+  title: 'Kapacitetsgrupper — allt utfört i egen regi'
+  subtitle: 'Varje kapacitet utförs direkt i fabriken: kortare genomlöpningstider, kvalitetskontroll i varje fas och er specifikation ligger på ett enda ställe.'
+  groups:
+    - title: Design & konstruktion
+      items:
+        - 'Skalpdesign & dimensionell konstruktion'
+        - 'CNC-noggrannhet på 0.1 mm'
+        - 'Fästen & byggande av anpassade formverktyg'
+        - 'Grafik för förpackning och försäljning'
+    - title: Produktion
+      items:
+        - 'Bearbetning av drop-stitch-kärnan'
+        - 'Högfrekvenssvetsning med 15 kW (4 automatiserade linjer)'
+        - 'Grafisk tryckning & design'
+        - 'Stansning av EVA-deckpads'
+        - 'Montering & färdigställande av brädorna'
+        - 'Sammanställning av tillbehören'
+    - title: Kvalitet & överensstämmelse
+      items:
+        - '100-punkts montagelista'
+        - '18.0 PSI · 24-timmars tryckhållning'
+        - 'Stickprov enligt ISO 2859-1 Nivå II'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - 'Partispårbarhet under 10 år'
+    - title: Service & logistik
+      items:
+        - 'Prototyprover på 7–12 dagar'
+        - 'Produktion på 25–35 dagar'
+        - 'Anpassade former +15–20 dagar'
+        - 'FOB Qingdao · CIF · DDP till över 50 länder'
+
+table:
+  headers:
+    capability: Kapacitet
+    in_house: Intern
+    standard: Vad standarden omfattar
+  rows:
+    - capability: 'Skalpdesign & dimensionell konstruktion'
+      in_house: 'Ja — intern teknisk avdelning'
+      standard: 'Designad och validerad före fastställandet; CNC-noggrannhet på 0.1 mm för former och skärning'
+    - capability: 'Bearbetning av drop-stitch-material'
+      in_house: 'Ja — intern kärnproduktion'
+      standard: 'Drop-stitch densitetsområde 12–15 PSI, nesting optimerad per brädmått'
+    - capability: 'Högfrekvenssvetsning & sömkonstruktion'
+      in_house: 'Ja — internt'
+      standard: 'Högfrekvenssvetskapacitet på 15 kW på 4 automatiserade produktionslinjer'
+    - capability: 'Grafisk tryckning & design'
+      in_house: 'Ja — intern design och tryckning'
+      standard: 'Obegränsat antal färger, sömlös grafik, grafiskt stöd från fabriksteamet'
+    - capability: 'Stansning av halksäkra EVA-deckpads'
+      in_house: 'Ja — internt'
+      standard: 'Padspecifikation 45–55 Shore C, deckpads och logotyper formskurna'
+    - capability: 'Anpassade former och fästen'
+      in_house: 'Ja — intern formverkstad'
+      standard: 'Nya former kräver 15–20 dagar; formerna förblir fabrikens egendom om inget annat avtalas'
+    - capability: 'Montering & färdigställande av brädorna'
+      in_house: 'Ja — internt'
+      standard: '100-punkts montagelista; handtag, D-ringar och tillbehör monterade enligt specifikation'
+    - capability: 'Tryck- & belastningstest'
+      in_house: 'Ja — intern testbänk'
+      standard: '18.0 PSI tryckhållning under 24 timmar, automatisk kassering vid sjunk över 0.50 PSI'
+    - capability: 'Slutinspektion & spårbarhet'
+      in_house: 'Ja — internt kvalitetsteam'
+      standard: 'Stickprov enligt ISO 2859-1 Nivå II; ERP-partispårbarhet under 10 år per serienummer'
+    - capability: 'Förpackning & export'
+      in_house: 'Intern montering + certifierad logistik'
+      standard: 'Kommersiella förpackningar, export-sjöemballage och serienummeretiketter under ert varumärke'
+
+faq_section:
+  tagline: FAQ
+  title: Frågor om SUP-produktionskapaciteten
+  questions:
+    - q: Vilka produktionsprocesser sker internt?
+      a: 'Alla kärnprocesser sker internt: skalpkonstruktion, bearbetning av drop-stitch-kärnan, högfrekvenssvetsning, tryckning, EVA-stansning, montering, testning och förpackning. Tillbehör och vissa råvaror kommer från certifierade leverantörer; den slutliga sammansättningen av kitet sker internt för fullständig spårbarhet.'
+    - q: Vad är er produktionskapacitet?
+      a: '120 000+ brädor per år (cirka 10 000/månad) på 4 automatiserade linjer och 4 specialverkstäder på 12 500 m² med över 350 medarbetare.'
+    - q: Vilken minsta beställningsmängd gäller för dessa kapaciteter?
+      a: 'Standardvolymen startar från 90–100+ enheter per godkänd konfiguration (en rulle drop-stitch-tyg på 150 m); pilotpartier startar från 20–50 enheter på befintliga plattformar; beställningar med enbart logotyp startar från 5–10 enheter.'
+    - q: Vilka leveranstider ska vi räkna med?
+      a: 'Prototyprover på 7–12 dagar; produktion 25–35 dagar efter bekräftad beställning och handpengar; fastställandet av anpassade former lägger till 15–20 dagar.'
+    - q: Hur påverkar kapaciteterna kvaliteten?
+      a: 'Varje process matar kvalitetssystemets 7 faser: 100-punkts montagelista, 18.0 PSI tryckhållning under 24 timmar med automatisk kassering över 0.50 PSI sjunk, stickprov enligt ISO 2859-1 Nivå II och ERP-partispårbarhet under 10 år.'
+
+cta:
+  title: 'Kontrollera vilka kapaciteter som passar ditt projekt'
+  subtitle: 'Skicka din produktförfrågan — teknisk granskning och ett passande offertförslag inom en arbetsdag.'
+  actions:
+    - variant: primary
+      text: Begär en produktionsoffert
+      href: /sv/contact#custom-oem
+    - text: Besök fabriken
+      href: /sv/factory
+    - text: Fabrikens produktionsprocess
+      href: /sv/factory/process
+    - text: Fabrikens kapacitet & leveranstider
+      href: /sv/factory/capacity
+    - text: Kvalitet & testning
+      href: /sv/quality
+    - text: Proof Center — bevis från fabriken
+      href: /sv/proof-center
+    - text: OEM- & ODM-produktion
+      href: /sv/oem-manufacturing

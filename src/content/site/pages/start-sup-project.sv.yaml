@@ -1,0 +1,114 @@
+meta:
+  title: 'Starta ditt SUP-projekt — från brief till levererade brädor | iSupfactory'
+  description: 'Starta ditt anpassade SUP-projekt: skicka in briefen, få NDA-skydd, ta emot prover inom 7–12 dagar, godkänn dem och skala upp tillverkningen. Steg för steg med tydliga tidsplaner.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'starta ett sup projekt'
+    - 'anpassad sup beställning'
+    - 'sup projektbrief'
+    - 'sup oem projekt'
+    - 'anpassad paddleboard beställning'
+    - 'sup tillverkningsprojekt'
+    - 'uppblåsbar sup projekt'
+
+hero:
+  tagline: 'Börja här'
+  title: 'Starta ditt SUP-projekt'
+  subtitle: 'Oavsett om du vill lansera ett nytt varumärke, utvidga en produktserie eller köpa brädor under ditt varumärke för ditt företag — varje projekt börjar på samma sätt: med en projektbrief, ett NDA, ett prov och en tydlig väg till tillverkning. Här får du veta vad som händer efter att du klickat på "Starta".'
+  actions:
+    - variant: primary
+      text: Starta projektbriefen
+      href: /sv/contact#project-brief
+    - text: Så fungerar processen
+      href: /sv/how-it-works
+
+answer:
+  label: 'Vad som händer sedan'
+  text: 'När du skickat in en projektbrief får du svar inom en arbetsdag. Ett NDA finns tillgängligt innan du delar konfidentiella uppgifter. Vårt tekniska kontor granskar din brief och levererar en detaljerad offert med MOQ, provkostnader och en stegvis plan — normalt 7–12 dagar för proverna och 6–8 veckor för den första tillverkningen från bekräftad PO. Provkostnaderna räknas av mot din produktionsorder. Inga förpliktelser förrän du undertecknar.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: Processen
+  title: 'Från brief till levererade brädor — fem steg'
+  subtitle: 'Varje steg har en fast tidslängd, ett dokumenterat resultat och en go/no-go-milstolpe. Gå vidare först när du är redo.'
+  steps:
+    - step: 'Steg 1'
+      title: 'Skicka in din projektbrief'
+      desc: 'Berätta om din bräda — målspecifikationer, antal, konformitetskrav och tidsplaner. Briefen tar 5–10 minuter. Om du är osäker på något, dela det du har så guidar vi dig genom resten. Ett NDA finns tillgängligt innan du delar konfidentiella designer.'
+    - step: 'Steg 2'
+      title: 'NDA & genomförbarhetskontroll (1–5 dagar)'
+      desc: 'På begäran undertecknar vi ett NDA, därefter kontrollerar vårt tekniska kontor din brief avseende tillverkningskapacitet, materialtillgänglighet och konformitetsomfång. Du får en detaljerad offert med MOQ-beräkning, provkostnader och en stegvis plan.'
+    - step: 'Steg 3'
+      title: 'Prov & godkännande (7–21 dagar)'
+      desc: '1–2 fysiska brädor enligt din specifikation. Du paddlar och bedömer — skeppsstyvhet, grafisk precision, passform för tillbehören. Ändringar registreras i en reviderad BOM. Det godkända provet blir produktionsreferensen. Provkostnaderna räknas av mot tillverkningen.'
+    - step: 'Steg 4'
+      title: 'Förproduktionsplanering (7 dagar)'
+      desc: 'Materialinköp, förberedelse av formverktyg, bekräftelse av förpackningen och reservering av produktionsplatsen. Alla material inspekteras vid mottagandet mot den låsta BOM:en. Före produktionsstart lämnas en plan med QC-grinddata ut.'
+    - step: 'Steg 5'
+      title: 'Tillverkning, QC & frakt (4–6 veckor)'
+      desc: 'Tillverkningen går genom inspektionssystemets sju nivåer med kriterier för godkänt/underkänt vid varje grind. Exportkonform förpackning, konformitetsdokumentation och koordinering av sjötransport till över 50 länder. En analys efter leveransen samlar förbättringspunkter för nästa order.'
+
+collaboration_types:
+  tagline: Välj din väg
+  title: 'Tre sätt att samarbeta med iSupfactory'
+  subtitle: 'Varje projekt följer samma process — det som skiljer är konstruktionens omfattning och den immateriella egendomen (IP).'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM-tillverkning'
+      desc: 'Du tillhandahåller designen. Vi tillverkar enligt din specifikation. Du äger all IP. Idealiskt för varumärken med bevisad brädgeometri.'
+      link_label: 'Se OEM-detaljerna'
+      href: /sv/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM-utveckling'
+      desc: 'Du tillhandahåller briefen. Vi utvecklar brädan. Anpassad plattform med din branding. Idealiskt för varumärken som går in på marknaden utan egen design.'
+      link_label: 'Se ODM-detaljerna'
+      href: /sv/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Ditt varumärke på en bevisad plattform. Ingen konstruktionsfas. Från 5–10 enheter. Idealiskt för verksamhetsutövare och distributörer.'
+      link_label: 'Se private label-alternativen'
+      href: /sv/solutions/private-label-sup
+
+what_we_need:
+  heading: 'Vad du förbereder före briefen'
+  body: |
+    En komplett brief snabbar på processen. Det här hjälper:
+
+    - **Brädspecifikationer** — mållängd, -bredd och -tjocklek, paddlarens vikt, avsett bruk. Referensmått på brädor eller konkurrentmodeller är användbara.
+    - **Designfiler** — vektorgrafik (AI, SVG, PDF) för grafik och logotyper. Om de ännu inte är klara räcker moodboards eller referensbilder för den första genomförbarhetskontrollen.
+    - **Antal & tidsplan** — målantal och säsongsplan. En grov uppskattning ("20–50 brädor före mars") räcker för att komma igång.
+    - **Konformitetskrav** — målmarknader och specifika certifieringskrav utöver CE, ISO 9001, BSCI, REACH, RoHS.
+    - **Budgetram** — en indikativ budget per bräda eller en målkostnad hjälper oss att rekommendera rätt plattform.
+
+    **Inte allt klart ännu?** Skicka det du har. Vi guidar dig genom resten.
+
+faqs:
+  tagline: Vanliga frågor
+  title: 'Starta ett SUP-projekt — vanliga frågor'
+  items:
+    - q: 'Vad är minsta order för att komma igång?'
+      a: 'Nivåerna är trappstegsformade: först 1–2 prov (7–12 dagar), sedan en provorder på 20–50 brädor (25–35 dagar), därefter standardseriekörningar på 90–100+ brädor per godkänd konfiguration. Private label co-branding startar från 5–10 enheter utan utvecklingsfas.'
+    - q: 'Hur lång tid tar det innan jag får proverna?'
+      a: 'De fysiska proverna tillverkas på 7–12 dagar från bekräftelse av specifikation och deposition. Med befintliga skeppsplattformar tar hela cykeln från brief till levererad provorder normalt 8–12 veckor. En anpassad formform ger 15–20 dagars extra formutveckling.'
+    - q: 'Är min design skyddad?'
+      a: 'Ja. Ett NDA finns tillgängligt direkt — innan du delar konfidentiell information. Vi tillverkar enbart under våra kunders varumärken och konkurrerar aldrig med dem. Alla tekniska filer lagras i system med åtkomstkontroll och revisionsspår.'
+    - q: 'Vad frågar projektbriefen efter?'
+      a: 'Briefen frågar efter aktivitetstyp, företagsnamn, brädans målspecifikationer, spannet för beställningsantal, tidsplan och eventuella konformitetskrav. Det tar cirka 5–10 minuter. Du kan bifoga designfiler (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) upp till 10 MB. Om du är osäker på något fält, hoppa över det — vi kontaktar dig.'
+    - q: 'Vad händer efter att jag skickat in briefen?'
+      a: 'Du får svar inom en arbetsdag. Vårt tekniska kontor granskar din brief och levererar en detaljerad offert med MOQ, provkostnader och en stegvis plan. Ingen förpliktelse uppstår förrän du har läst och undertecknat kontraktet. Provkostnaderna räknas av mot din produktionsorder.'
+
+cta:
+  title: 'Redo att börja?'
+  subtitle: 'Skicka in din projektbrief — brädspecifikationer, antal och tidsplan — så bekräftar vi genomförbarheten, tillverkar proverna och levererar en produktionsplan med dokumenterad QC i varje fas.'
+  actions:
+    - variant: primary
+      text: Starta projektbriefen
+      href: /sv/contact#project-brief
+    - text: Läs hela onboarding-guiden
+      href: /sv/oem-onboarding-guide
+    - text: Verifiera fabrik och kvalitetssystem
+      href: /sv/proof-center

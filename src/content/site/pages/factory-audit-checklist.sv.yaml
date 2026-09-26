@@ -1,0 +1,105 @@
+meta:
+  title: 'Fabriksaudit-checklista — vad du ska kontrollera innan du väljer en SUP-tillverkare | iSupfactory'
+  description: 'Fabriksaudit-checklista för köpare av uppblåsbara SUP-brädor: kvalitetssystem, kapacitet, materialspårbarhet, tryckprov, social överensstämmelse och dokumentation.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'sup fabrik audit checklista'
+    - 'audit tillverkare uppblåsbara paddle boards'
+    - 'sup fabrik verifiering'
+    - 'oem fabrik inspektion'
+    - 'sup kvalitetsaudit'
+    - 'sup leverantör due diligence'
+    - 'audit produktion uppblåsbar sup'
+
+hero:
+  tagline: 'Due Diligence'
+  title: 'Fabriksaudit-checklista'
+  subtitle: 'Innan du väljer en SUP-tillverkare granskar du grunderna. Den här checklistan täcker de åtta områden som en professionell köpare borde revisionsgranska — från kvalitetsledningssystemet och produktionskapaciteten till materialspårbarheten och den sociala överensstämmelsen. Varje punkt på den här listan är något vi kan styrka med register, inte bara med påståenden.'
+
+answer:
+  label: 'Snabbt svar'
+  text: 'De åtta viktigaste auditområdena: (1) Kvalitetsledningssystem — ISO 9001-certifiering och verkliga inspektionsregister för varje port, inte bara ett certifikat på väggen. (2) Produktionskapacitet — verkliga produktionssiffror, inte bara nominell kapacitet. (3) Materialspårbarhet — inkommande varukontroll och testresultat på partinivå. (4) Tryck- och strukturprov — dokumenterade protokoll för tryckhållningstestet. (5) Svets- och montagekontroller — RF-svetsparametrar och söminspektion. (6) Social överensstämmelse — BSCI eller en likvärdig revision. (7) Dokumentation och spårbarhet — partiregister, inspektionsprotokoll, överensstämmelseintyg. (8) Support efter leverans — garantiprocedurer, reservdelar, kommunikationens reaktionstid.'
+  verified: 'September 2026'
+
+audit_areas:
+  tagline: Åtta auditområden
+  title: 'Vad du ska kontrollera — de åtta auditområdena'
+  subtitle: 'Varje område omfattar frågorna du ska ställa, de register du ska begära ut och de varningssignaler du ska hålla utkik efter.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: Q
+      icon_bg: blue
+      title: '1. Kvalitetsledningssystem'
+      desc: 'Begär: ISO 9001-certifikat (ackrediterat organ, aktuellt), intern revisionsplan, CAPA-protokoll (korrigerande och förebyggande åtgärder), inspektionsprocedurer per port. Varningssignal: bara ett certifikat, inga inspektionsregister eller CAPA-process på portnivå.'
+    - icon: C
+      icon_bg: green
+      title: '2. Produktionskapacitet'
+      desc: 'Begär: månatliga produktionssiffror per produkttyp, produktionsplan med aktuell beläggning, utrustningskapacitet (antal formverktyg, CNC-maskiner, RF-svetsmaskiner). Varningssignal: bara nominell kapacitet, inga beläggningssiffror eller produktionsplan.'
+    - icon: M
+      icon_bg: purple
+      title: '3. Materialspårbarhet'
+      desc: 'Begär: register över inkommande varukontroll, leverantörscertifikat för PVC och drop-stitch, spårbarhet per parti från råvara till färdig bräda, REACH/RoHS-ämnesdeklarationer. Varningssignal: ingen spårbarhet på partinivå, materialcertifikat inte tillgängliga.'
+    - icon: P
+      icon_bg: orange
+      title: '4. Tryck- och strukturprov'
+      desc: 'Begär: tryckprovsprotokoll (PSI, varaktighet, kriterier för godkänd/underkänd), provprotokoll för de aktuella produktionspartierna, register över strukturprov (fall, stöt, dragspänning i kant). Varningssignal: "endast visuell kontroll" eller inget dokumenterat provprotokoll med kvantitativa godkänd/underkänd-kriterier.'
+    - icon: W
+      icon_bg: blue
+      title: '5. Svets- och montagekontroller'
+      desc: 'Begär: register över RF-svetsparametrarna (temperatur, tryck, hålltid), kriterier för söminspektion och avkastningsprocent, dokumentation för monteringsserien. Varningssignal: inget protokoll för svetsparametrar, hög avkastning i sömmarna utan CAPA.'
+    - icon: S
+      icon_bg: green
+      title: '6. Social överensstämmelse'
+      desc: 'Begär: BSCI- eller SMETA-revisionsrapport (aktuell, fullständigt omfång), register över arbetstider och löner, rapporter från arbetsmiljöinspektioner, dokumentation för miljötillsyn. Varningssignal: ingen social revision av tredjepart eller en revision med allvarliga, ej åtgärdade avvikelser.'
+    - icon: D
+      icon_bg: purple
+      title: '7. Dokumentation och spårbarhet'
+      desc: 'Begär: produktionsregister för partierna, inspektionsprotokoll per port, överensstämmelseintyg, packningslistor med partireferenser, spårningssystem för garantiaklagomål. Varningssignal: ingen dokumentation på partinivå, garantiaklagomål inte spårda eller inte bedömda.'
+    - icon: A
+      icon_bg: orange
+      title: '8. Support efter leverans'
+      desc: 'Begär: garantivillkor och klagomålsprocedur, genomsnittlig åtgärdstid för klagomål, tillgänglighet för reservdelar, åtagande om kommunikationens svarstid, process för verifiering efter försäljning. Varningssignal: ingen dokumenterad garantiprocedur, långsam eller inkonsekvent kommunikation efter leveransen.'
+
+our_position:
+  heading: 'Vår position i varje auditområde'
+  body: |
+    Vi nöjer oss inte med att förklara överensstämmelse — vi levererar registren. Så här är vår position i varje av de åtta auditområdena:
+
+    - **Kvalitetsledning**: ISO 9001:2015-certifikat, revideras årligen av ett ackrediterat tredjepartorgan. Inspektionssystem med 7 portar och dokumenterade godkänd/underkänd-kriterier i varje port. CAPA-protokoll som underhålls och verifieras varje kvartal.
+    - **Produktionskapacitet**: mer än 120 000 brädors årskapacitet, cirka 10 000 i månadsproduktion. Produktionsplan finns att ta del av under fabriksbesöket. 4 automatiserade produktionslinjer, CNC-skärning, RF-svetsning och ett tryckprovslaboratorium.
+    - **Materialspårbarhet**: spårbarhet på partinivå från varans ingång till den färdiga brädan. Leverantörscertifikat för PVC och drop-stitch i arkivet. REACH- och RoHS-ämnesdeklarationer finns för varje parti.
+    - **Tryckprov**: tryckhållningstest vid 18.0 PSI med automatisk kassering vid mer än 0.50 PSI sänkning under 24 timmar. Provprotokoll finns för varje produktionsparti. Struktur- och stötprov beroende på konstruktionstyp.
+    - **Svetskontroller**: RF-svetsparametrar protokollförs för varje produktionscykel. Söminspektion vid port 3 med dokumenterad avkastningsprocent. CAPA startas när avkastningsgränsen överskrids.
+    - **Social överensstämmelse**: omfattas av en BSCI-revision. Register över arbetstider, löner och säkerhet finns att ta del av under fabriksbesöket.
+    - **Dokumentation**: produktionsregister för partierna, inspektionsprotokoll per port, överensstämmelseintyg och packningslistor med partireferenser skickas med varje order. Spårningssystem för garantiaklagomål underhålls.
+    - **Support efter leverans**: garantivillkor dokumenterade i kontraktet. Genomsnittlig klagomålslösning under 14 arbetsdagar. Reservdelar i lager. Verifiering efter försäljning erbjuds för varje första order.
+
+evidence_review:
+  tagline: 'Bevis och verifiering'
+  title: 'VERIFIERADE SPECIFIKATIONER'
+  body: 'Alla produktions- och kvalitetspåståenden på den här sidan verifieras av vårt tillverkningsingenjörsteam i fabriken i Laixi, Qingdao. Certifikat, QC-inspektionsregister, tryck- och strukturella testrapporter och spårbarhetsprotokoll per parti finns på begäran. Specifikationerna verifierades senast i september 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Fabriksaudit — vanliga frågor'
+  items:
+    - q: 'Kan jag besöka fabriken för en revision på plats?'
+      a: 'Ja. Vi tar gärna emot fabriksbesök och kan ordna en strukturerad revision som täcker alla åtta områden. Ett typiskt besök omfattar en rundtur i produktionsområdet, observation av QC-portarna, inspekion av materiallagret, granskning av dokumenten och en fråge-och-svar-session med kvalitetschefen. Avsätt en heldag. Kontakta oss för att planera.'
+    - q: 'Tillhandahåller ni auditdokumentationen före ett besök?'
+      a: 'Ja. Före ert besök kan vi dela ISO 9001-certifikatet, BSCI-rapporten, sammanfattningen av produktionskapaciteten, tryckprovsprotokollet och exempel på inspektionsregister — så att ni kan förbereda riktade frågor. De fullständiga partiregistren finns på plats under besöket.'
+    - q: 'Vilka tredjepartsinspektioner använder ni?'
+      a: 'Vi samarbetar med SGS, Intertek och TÜV för inspektioner och certifieringar av tredjepart. En avsändningsinspektion av tredjepart finns tillgänglig på begäran för varje order. Inspektionsomfånget och kostnaderna bekräftas under offertfasen.'
+    - q: 'Hur vet jag att ert kvalitetssystem faktiskt tillämpas och inte bara är dokumenterat?'
+      a: 'Varje bräda går igenom 7 inspektionsportar med kvantitativa godkänd/underkänd-kriterier — inte bara visuella checklistor. Data från tryckprov, svetsparametrar och avkastningsprocent protokollförs för varje parti och finns tillgängliga för er verifiering. CAPA aktiveras automatiskt för resultat utanför specifikation. Vi uppmuntrar er att revisionsgranska processen live under ett fabriksbesök.'
+
+cta:
+  title: 'Planera en fabriksaudit'
+  subtitle: 'Begär auditdokumentationen eller planera ett besök på plats. Vi levererar registren — ni verifierar processen.'
+  actions:
+    - variant: primary
+      text: Begär auditdokumentationen
+      href: /contact#project-brief
+    - text: Verifiera certifieringar och kvalitetssystem
+      href: /proof-center
+    - text: OEM-onboardingprocess
+      href: /oem-onboarding-guide

@@ -1,0 +1,82 @@
+meta:
+  title: 'SUP-uthyrningsutrustning & flottlösningar'
+  description: 'Kommersiella SUP-brädor för daglig uthyrning: UV-beständigt PVC, förstärkta sömmar och snabbtorkande material för flottor med hög omsättning.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Uthyrare
+  title: 'SUP-brädor utformade för uthyrningsflottor'
+  subtitle: 'Specificera en flotta som klarar daglig uthyrning: brädor med hög omsättning, UV-beständigt PVC, förstärkta sömmar och snabbtorkande material — utformade för 365 dagars bruk per år.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/use-cases/isupfactory-family-use-case.webp
+    alt: SUP-brädor redo för daglig uthyrning
+
+answer:
+  label: 'Kort svar'
+  text: 'Brädorna för uthyrningsflottor är byggda med UV-beständigt marint PVC, med sömmar som är 3× starkare än standardkonstruktioner och drop-stitch-kärnor för 15 PSI — testade för mer än 500 uthyrningscykler. MOQ bekräftas av projektkonfigurationen: prov (1–2 enheter), pilot (20–50 enheter) och standardvolym (90–100+ enheter per parti ur en rulle på 150 m); tillverkningen tar 25–35 dagar efter PO och deposition, med FOB-, CIF- eller DDP-villkor.'
+  verified: 'September 2026'
+
+features:
+  title: Byggd för uthyrningsvardagen
+  subtitle: 'Varje bräda är utformad för mer än 500 uthyrningscykler med minimalt underhåll.'
+  items:
+    - title: 'Mer än 500 uthyrningscykler'
+      description: 'Testad för att klara daglig användning i saltvatten, sol och sand.'
+      icon: 'tabler:shield-check'
+    - title: 'UV-beständigt tyg'
+      description: 'Ingen missfärgning eller nedbrytning efter 1 år utomhusförvaring.'
+      icon: 'tabler:sun'
+    - title: 'Förstärkta sömmar'
+      description: 'Förstärkt fogkonstruktion för den dagliga uthyrningsomsättningen och de upprepade pumpcyklerna.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Snabbtorkande material'
+      description: 'De snabbtorkande materialen håller brädorna användningsklara mellan två turer.'
+      icon: 'tabler:droplet'
+    - title: 'Staplingsbart lager'
+      description: 'Platsbesparande stapelbart utförande — fler brädor på samma lageryta.'
+      icon: 'tabler:stack'
+    - title: 'Färgkodade måttmarkeringar'
+      description: 'Personalen tar tack vare de färgkodade måttmarkeringarna direkt rätt bräda.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: Operativa nyckeltal
+  stats:
+    - title: Fabrikens golvyta
+      amount: '12 500 m²'
+    - title: Tryckprovning
+      amount: '18 PSI / 24h'
+    - title: Montagechecklista
+      amount: '100 poäng'
+    - title: Frakt av reservdelar
+      amount: '48h'
+
+fleet_guide:
+  title: Guide till flottstorlek
+  subtitle: 'Uppskatta hur många brädor din verksamhet behöver utifrån den dagliga uthyrningsomsättningen.'
+  tiers:
+    - label: Liten kiosk
+      boards: '15-20'
+      note: 'Upp till 2–3 brädbyten per dag i högsäsong'
+    - label: Medelstor verksamhet
+      boards: '30-50'
+      note: 'Flera startpunkter eller mycket besökare på helgerna'
+    - label: Stor stranduthyrning
+      boards: '50-100'
+      note: 'Fullservice-uthyrningsflottor på flera strandplatser'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Fördjupning:</strong> uthyrningsbrädor utgår från din specifikation — utforska vårt <a href="/sv/oem-manufacturing">OEM/ODM-program</a> för anpassning, låga prov-MOQ:er och flottpriser. Varje bräda går genom <a href="/sv/factory">produktionslinjens</a> 12 500 m&sup2; och genomgår 100 % tryckprovning före leverans.</p>
+  </div>
+
+cta:
+  title: 'Specificera din uthyrningsflotta'
+  subtitle: 'Skicka in kraven för din flotta eller jämför brädplattformarna för din verksamhet.'
+  actions:
+    - text: 'Skicka in flottkraven'
+      href: '/sv/contact'
+      variant: 'primary'
+    - text: 'Jämför brädplattformarna'
+      href: '/sv/inflatable-vs-hardboard'
+      variant: 'secondary'

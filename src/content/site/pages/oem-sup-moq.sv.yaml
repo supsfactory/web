@@ -1,0 +1,67 @@
+meta:
+  title: "MOQ uppblåsbara SUP — minsta beställningsmängden enkelt förklarad"
+  description: "Tydliga MOQ-nivåer för tillverkning av anpassade uppblåsbara SUP'er's: 5–10 co-branding, 20–50 pilot, 90–100+ volym per rulle. Beslutsdiagram baserat på anpassningsnivå."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Direkt svar"
+    directAnswer:
+      answer: "Pilotkörningar på befintliga plattformar startar från 20–50 stycken; standard-MOQ är 90–100+ stycken per rulle drop-stitch på 150 m (~180–220 brädor)."
+      condition: "Det specifika MOQ:t beror på brädans form, materialrullen, trycket, förpackningen och om ett nytt formverktyg behövs."
+      value: "5–10 co-branding · 20–50 pilot · 90–100+ per rulle volym"
+      verifiedDate: "September 2026"
+      sourceType: "fabriksregistrering"
+    body: |
+      MOQ:t hos iSupfactory är trappstegsvis baserat på anpassningsnivån, det är inte
+      en enda fast siffra. Varje nivå motsvarar ett konkret produktionsscenario:
+
+      | Scenario | MOQ | Enheter | Villkor |
+      |----------|-----|----------|------------|
+      | Befintlig plattform, endast logotyptryck | 5–10 stycken | per design | Samma form, samma materialrulle, samma färgvariant |
+      | Anpassad grafik / EVA / förpackning på befintlig plattform | 20–50 stycken | pilotparti | Samma form; det nya artworket kräver en visuell provkörning |
+      | Standardvolymproduktion (valfri plattform) | 90–100+ stycken | per rull på 150 m (~180–220 brädor) | Per materialrull; fler SKU:er = separata rullar |
+      | Ny form / egen form | 90–100+ stycken | produktionskörning | Formbygget lägger till 15–20 dagar; engångskostnad för formverktyg |
+
+  - title: 'Vad räknas som en "materialrulle"?'
+    body: |
+      En rull på 150 meter drop-stitch-tyg ger, beroende på brädans mått (vanligtvis
+      10–11 ft), cirka 180–220 brädor. Varje egen SKU — alltså en annan kombination av mått, färg
+      eller material — kräver egna rullar och därmed ett eget MOQ.
+
+      Därför anges MOQ:t "per rull på 150 m" i stället för "per design": två
+      färgvarianter av samma brädform är två rullar, två MOQ:n.
+
+  - title: "Co-branding kontra pilot kontra volym"
+    body: |
+      **Co-branding (5–10 stycken)**: din logotyp på en befintlig plattform som redan
+      produceras för ett annat varumärke. Ingen ändring av artworket utöver logotypens placering.
+      Snabbaste vägen till ett märkt prov.
+
+      **Pilotparti (20–50 stycken)**: anpassad grafik, design av det halksäkra EVA-deckpadsen
+      eller förpackning på en befintlig plattformsform. Kräver godkännande av den visuella
+      provkörningen före produktionen. Ideal för att testa en ny look på marknaden.
+
+      **Volymproduktion (90–100+ stycken per rull)**: fullständig produktionskörning med varje
+      kombination av anpassningar. Detta är den kommersiella standardnivån. Varje
+      materialrull ger cirka 180–220 brädor.
+
+  - title: "MOQ för egna former"
+    body: |
+      Om din design kräver en ny brädform (inte bara ny grafik på en
+      befintlig form) måste ett eget formverktyg tas fram. Detta sker på volymnivå
+      (90–100+ stycken), eftersom investeringen i formverktyget kräver en produktionskörning
+      för att tjäna in sig. Formbygget lägger till 15–20 dagar i standardleveranstiden.
+
+      Ägande av formverktyget: formverktyget är ditt. Det förvaras i vår fabrik och
+      används uteslutande för dina produktionskörningar.
+
+  - title: "Provbeställningar"
+    body: |
+      Prover före produktion finns tillgängliga med 1–2 brädor för bekräftelse av passform och ytbehandling.
+      De tillverkas för hand enligt din specifikation och tar normalt
+      7–12 dagar. Provkostnaderna räknas av mot din första volymorder.
+
+evidence_review:
+  tagline: 'Bevis & verifiering'
+  title: 'KONTROLLERADE SPECIFIKATIONER'
+  body: 'Alla produktionspåståenden på denna sida har verifierats av vårt Manufacturing Engineering-team i fabriken i Laixi, Qingdao. Certifikat, QC-inspektionsprotokoll, tryckprovningsrapporter och register för struktur- och partispårbarhet finns tillgängliga på begäran. Specifikationerna verifierades senast i september 2026.'

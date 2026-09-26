@@ -1,0 +1,81 @@
+meta:
+  title: 'Verifiera vår SUP-fabrik | Besök, revision & inspektion i Qingdao'
+  description: 'Så verifierar du SUP-fabriken innan du binder dig: planera ett fabriksbesök, låta en revision eller inspektion av tredje part genomföras och ta del av QC-register, partspårbarhet och certifikat i Qingdao, Kina.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'verifiera sup fabrik'
+    - 'fabriksbesök i Qingdao sup'
+    - 'revision av sup fabrik'
+    - 'inspektion av tredje part sup'
+    - 'verifiering av uppblåsbara paddleboard-fabrik'
+
+hero:
+  tagline: 'Fabriksverifiering'
+  title: 'Verifiera SUP-fabriken innan du binder dig'
+  subtitle: 'Du ska inte lita blint på en fabrik. Planera ett besök, låt genomföra en revision eller oberoende inspektion och verifiera certifikat, QC-register och partspårbarhet före din första order — allt detta står öppet för seriösa köpare.'
+
+answer:
+  label: 'Kort svar'
+  text: 'iSupfactory-anläggningen är en fabrik på 12 500 m² i Qingdao, Shandong, Kina, med över 350 medarbetare, 4 automatiserade produktionslinjer och 4 specialiserade verkstäder. Köpare kan verifiera den på fyra sätt: besöka fabriken året runt, organisera eller begära revisioner (BSCI, ISO 9001), låta en tredje part utföra inspektion (SGS, TÜV, BV, Intertek; provtagning enligt ISO 2859-1 nivå II) eller ta del av de dokumenterade bevisen — certifikat, 100-punkts montagechecklista, täthetsrapporter på 18.0 PSI i 24 timmar och ERP-spårbarhet per parti i 10 år för varje serienummeretikett.'
+  verified: 'September 2026'
+
+features:
+  title: 'Sätt att verifiera fabriken'
+  subtitle: 'Fyra verifieringsvägar, alla organiserade av din projektspecialist — välj en eller kombinera flera.'
+  items:
+    - title: 'Planera ett fabriksbesök'
+      description: 'Vi välkomnar köparbesök i Qingdao året runt, med hämtning på flygplatsen och en fabriksrundtur anpassad efter din kalender. Ett NDA är alltid välkommet.'
+      icon: 'tabler:map-pin'
+    - title: 'Revision av tredje part'
+      description: 'BSCI- och ISO 9001-revisionsrapporter finns tillgängliga på begäran, och medarrangerade revisioner är välkomna, så att du kan gå genom produktionshallen tillsammans med revisorn.'
+      icon: 'tabler:clipboard-check'
+    - title: 'Oberoende inspektion'
+      description: 'Pre-shipment-inspektion eller inspektion under produktion med SGS, TÜV, BV eller Intertek enligt provtagning ISO 2859-1 nivå II — på din bekostnad, organiserad av oss och rapporterad direkt till dig.'
+      icon: 'tabler:zoom-check'
+    - title: 'Dokumentär verifiering'
+      description: 'Kopior av certifikat, register för inkommande kontroll/process/slutinsektion, tryckhållningsrapporter och dossier för partspårbarhet delas före din första order.'
+      icon: 'tabler:file-search'
+    - title: 'Live-videorundtur i fabriken'
+      description: 'Inte redo att resa? Vi går igenom produktionsområdet i ett live-videosamtal — drop-stitch-bearbetning, svetsning, tryck, montering, testning och förpackning — innan du lägger en order.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: 'Frågor om verifiering'
+  title: 'Fabriksverifiering & inspektion — frågor och svar'
+  questions:
+    - q: 'Var ligger fabriken?'
+      a: 'Anläggningen ligger i Qingdao, Shandong, Kina — en fabrik på 12 500 m² med över 350 medarbetare, 4 automatiserade linjer och 4 specialiserade verkstäder. Adressen och kartpositionen delas med verifierade köpare när ett besök planeras, och produktionsadressen finns i kontrakten, i BSCI-revisionen och i exportdokumentationen.'
+    - q: 'Vad tillverkar fabriken?'
+      a: 'Uppblåsbara SUP-brädor — från stomtechnique och bearbetning av drop-stitch-kärnan till grafik, montering, testning och exportförpackning. Alla kärnprocesser för SUP sker under ett tak.'
+    - q: 'Vilka processer utförs internt?'
+      a: 'Stomdesign, dimensionell konstruktion, bearbetning av drop-stitch-kärnan, HF-svetsar, grafiskt tryck, reliefformning av EVA-dynor, formbyggnad för anpassade former, montering, testning och förpackning — allt internt. Tillbehör och vissa råmaterial kommer från certifierade leverantörer och monteras internt för spårbarhetens skull.'
+    - q: 'Kan köpare besöka fabriken?'
+      a: 'Ja. Köparbesök i Qingdao välkomnas året runt. Hämtning vid Qingdao Jiaodongs internationella flygplats och en fullständig fabriksrundtur organiseras av din projektspecialist.'
+    - q: 'Kan köpare organisera en inspektion av tredje part?'
+      a: 'Ja. Inspektioner av SGS, TÜV, BV och Intertek är välkomna före eller under produktionen. Pre-shipment-inspektionen använder provtagning enligt ISO 2859-1 nivå II, och rapporten skickas direkt från inspektionsorganet till dig.'
+    - q: 'Kan köpare begära QC-dokumentationen?'
+      a: 'Ja. Kopior av certifikat, register för inkommande kontroll/process/slutinsektion, täthetsrapporter på 18.0 PSI i 24 timmar och 100-punkts montagechecklistan lämnas per parti på begäran.'
+    - q: 'Hur garanterar ni partspårbarheten?'
+      a: 'Varje bräda bär en serienummeretikett. Partierna registreras i ett decennium av ERP-data som kopplar tygrulle, material, produktionsdatum, operatörer och testresultat till varje serienummer.'
+    - q: 'Hur används det godkända provet?'
+      a: 'Det godkända provet fungerar som produktionsreferens. Material, mått, grafik, tillbehör och yta jämförs vid varje QC-grind med det provet, så att produktionen överensstämmer med det du har godkänt.'
+    - q: 'Hur styrs produktionskvaliteten?'
+      a: 'Ett kvalitetssystem på sju nivåer (nod 01–07) utför inkommande kontroll, processkontroll och slutgranskning, med täthetstester på 18.0 PSI i 24 timmar (automatisk kassering vid tryckfall från 0.50 PSI) och slutfrigivning enligt provtagning ISO 2859-1 nivå II.'
+
+cta:
+  title: 'Verifiera först, bestäm sedan'
+  subtitle: 'Boka en fabriksrundtur eller begär verifieringsdokumenten — en projektspecialist svarar inom en arbetsdag.'
+  actions:
+    - variant: primary
+      text: Boka ett verifieringssamtal
+      href: /sv/contact
+    - text: Beviscenter — bevis från fabriken
+      href: /sv/proof-center
+    - text: Fabriksinspektionschecklista
+      href: /sv/factory-audit-checklist
+    - text: OEM-förtroende & fabriksbas
+      href: /sv/oem-trust-assurance
+    - text: Kvalitet & testning
+      href: /sv/quality
+    - text: Fabrik & tillverkning
+      href: /sv/factory

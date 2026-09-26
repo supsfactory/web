@@ -1,0 +1,513 @@
+meta:
+  title: 'Kvalitetskontroll för anpassade SUP-brädor: inspektion i 7 faser | iSupfactory'
+  description: 'Så kontrolleras varje anpassad SUP-order: 7 inspektionspunkter från produktionsplanering till frigörning inför leverans, med nedladdningsbara tvåspråkiga rapporter.'
+  dateModified: '2026-08-15'
+  keywords:
+    - 'kvalitetskontroll sup'
+    - 'fabriksinspektion sup'
+    - 'kvalitetsinspektionsplan oem'
+    - 'inspektion före leverans sup'
+    - 'ce-certifiering sup'
+    - 'iso 9001 sup'
+hero:
+  tagline: Kvalitetskontroll för anpassade projekt
+  title: 'Kvalitetskontroll för anpassade uppblåsbara SUP-projekt'
+  subtitle: 'Kvaliteten verifieras mot det godkända provet, den tekniska specifikationen, grafiken, stycklistan och förpackningskraven för varje projekt — inte mot en allmän påstående. Från inkommande kontroll till frigörning inför leverans är vår inspektionsprocess strukturerad för att verifiera produktöverensstämmelse i definierade produktionsfaser. Hanterad av QINGDAO VATRAD GROUP, den uppblåsbara SUP-fabriken på 12 500 m² bakom Vatrad.'
+stats:
+  - value: 100%
+    label: Enheter som trycktestas
+  - value: '7'
+    label: Kontrollerade inspektionspunkter
+  - value: 18.0 PSI
+    label: 24-timmars tryckhållning
+  - value: ISO 9001
+    label: Certifierad kvalitet
+quality_basis:
+  tagline: Kvalitetsgrund
+  title: 'Vad som avgör produktacceptansen'
+  subtitle: 'De slutliga acceptanskriterierna fastställs före produktionen frigörs. De kontrollerade projektdokumenten definierar vad som ska tillverkas, hur detaljerna verifieras och vad som ska kontrolleras före leverans — godkänt av köparen och låst i kvalitetsinspektionsplanen (QIP). Varje ändringsansökan går en dokumenterad ändringskontroll igenom, aldrig tyst vid linjen.'
+  items:
+    - title: 'Godkänt prov'
+      description: 'Den fysiska referensbräda som köparen godkänt och undertecknat. Varje färdig bräda jämförs med den avseende mått, profil, styvhet och finish.'
+      icon: tabler:medal
+    - title: 'Teknisk specifikation'
+      description: 'Material, konstruktion och måttsatta ritningar, låsta till ett revisionsnummer. FAI verifierar den första artikeln exakt mot denna revision.'
+      icon: tabler:file-check
+    - title: 'Godkänd grafik'
+      description: 'Grafik, tryckoriginal och placering godkända och låsta per version före skärningen — så att varje däck levereras med det utseende varumärket godkänt.'
+      icon: tabler:palette
+    - title: 'Kundgodkänd BOM'
+      description: 'Stycklista — bräda, paddel, pump, leash, väska, manual — bekräftad av köparen. PSI verifierar att satsen är 100 % komplett mot denna BOM.'
+      icon: tabler:list-checks
+    - title: 'Krav på förpackning och märkning'
+      description: 'Kartongstruktur, märkningar, streckkoder, etikettinnehåll och leveransmärkning dokumenterades skriftligt. Streckkodernas läsbarhet och märkningarnas noggrannhet verifieras i PSI.'
+      icon: tabler:package
+tests:
+  - title: Trycktest
+    description: De uppblåsbara kammarna utsätts under längre perioder för tryck som överstiger deras rekommenderade driftgränser. Detta verifierar lufttätheten och den strukturella integriteten hos material och sömar och garanterar att produkten tål avsedd användning och eventuell övertryck utan att brista eller läcka.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+    alt: Uppblåsbar SUP-kammare under trycktest som verifierar lufttätheten
+  - title: Slagtest
+    description: Produkterna utsätts för kontrollerade slag med olika vikter och vinklar. Detta bedömer materialets motstånd mot perforation, revor och kollisionsskador från hinder i vattnet och visar hållbarhet och livslängd.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+    alt: Slagtestutrustning som kontrollerar båtarnas materialmotstånd mot perforation
+  - title: UV-beständighetstest
+    description: Materialprover utsätts för accelererad UV-strålning för att verifiera att de inte gulnar, spricker eller tappar styrka med tiden. Varje PVC-parti testas för solnedbrytning före produktionen.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+    alt: PVC-materialprover utsatta för accelererad UV-strålning under beständighetstestet
+  - title: Slitstyrketest
+    description: Materialprover gnids under kontrollerat tryck över slipande ytor under ett fast antal cykler. Detta mäter materialets förmåga att motstå slitage från upprepad användning och kontakt med sand, sten eller andra ytor, vilket garanterar långsiktig hållbarhet.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pvc-material-testing.webp
+    alt: Slitstyrkemaskin som gnider ett prov av PVC-tyg för att mäta slitstyrkan
+  - title: Prestandatest i låg temperatur
+    description: Produkterna testas i kalla miljöer för att bedöma funktionalitet och hållbarhet under varierande temperaturförhållanden och förhindra mjukning eller revor i kallare vatten. Avgörande för båtar avsedda för vinterbruk eller höga latituder.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-exterior.webp
+    alt: Uppblåsbar produkt i ett kylrum under prestandatest i låg temperatur
+  - title: Flyt- och bärkraftstest
+    description: Produkterna testas med olika vikter för att fastställa maximal bärkraft och säkerställa att de bär användare och utrustning på ett säkert sätt. Modellernas nominella kapacitet verifieras före frigörning.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-stock-boat-inventory.webp
+    alt: Flyt- och bärkraftstest med vikter på uppblåsbara båtar
+  - title: Vändsvärtest
+    description: Produkterna testas på sin reaktion på paddel- eller motorinput, där vändradie och hanterbarhet bedöms. Sjöprov validerar att det verkliga beteendet stämmer överens med designspecifikationerna.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+    alt: Vändsvärtest i vattnet av SUP-skov och uppblåsbara båtar
+  - title: Tätningstest
+    description: Helt monterade produkter sänks ner eller utsätts för vattenstrålar för att kontrollera läckage i sömar, ventiler eller material. Varje båt genomgår ett obligatoriskt tätningstest före leverans.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+    alt: Tätningstest genom nedsänkning som kontrollerar sömar och ventiler för läckage
+qc_flow:
+  tagline: Inspektionsprocessen i 7 faser
+  title: 'Sju kontrollerade kvalitetskontrollpunkter, från början till slut'
+  subtitle: 'Varje punkt nedan definieras i det projektspecifika kvalitetsinspektionsplanen (QIP) med inspektionsobjekt, metod, acceptanskriterier och dokumentationsoutput. De tvåspråkiga rapporthäftena är verkliga kontrollerade register — öppna ett för att se den faktiska strukturen.'
+  obj_label: Inspektionsobjekt
+  method_label: Inspektionsmetod
+  criteria_label: Acceptanskriterier
+  record_label: Dokumentationsoutput
+  stages:
+    - stage: STAGE 01
+      title: 'Projektkvalitetsplanering (PPM)'
+      summary: 'Mötet före produktionen fastställer omfattning, baslinje och inspektionsplan före starten på linjen.'
+      checks:
+        - 'Produktnamn, intern kod, kund-SKU, ordernummer och parti-definition registreras.'
+        - 'Brädtyp, drop-stitch-kärna, material, kantband, EVA, ventiler och finsystem specificeras.'
+        - 'Grafikfilens namn, version, färger, logotypens placering och tryckyta låsas och godkänns.'
+        - 'BOM — varje artikel per sats med antal, färg, artikelnummer och ersättningsregler — är godkänd av kunden.'
+        - 'Förpackning, märkning, streckkoder, manualernas språk och villkor för tredjepartsinspektion fastställs skriftligt.'
+      object: 'Projektomfång mot kundkrav — material, mått, grafik, förpackning, målmarknad och tillämpliga normer.'
+      method: 'Möte före produktion med försäljning, konstruktion och QC; undertecknande av golden sample; utfärdande av kvalitetsinspektionsplanen (QIP) för ordern.'
+      criteria: 'Alla fem baslinjerna godkänns och låses före start av serieproduktionen. Olösta punkter blockerar produktionsfrigörningen.'
+      record: 'QIP + PPM-protokoll, protokoll från provgodkännandet.'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Möte före produktion med bedömning av golden sample och kvalitetsinspektionsplan för en OEM SUP-order
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Ladda ner QIP (PDF)'
+    - stage: STAGE 02
+      title: 'Inkommande varukontroll (IQC)'
+      summary: 'Råvarorna verifieras mot den godkända leverantörsspecifikationen innan de går in i produktionen.'
+      checks:
+        - 'Drop-stitch-tyg, PVC-rullar, kantmaterial och EVA deckpad kontrolleras mot det godkända provet — färg, tjocklek, vikt och ytfel.'
+        - 'Ventiler, fin box, D-ringar, handtag och tillbehör kontrolleras på typ, mått, yta, rost och korrekt funktion.'
+        - 'Pumpar, paddlar, leashar, väskor och reparsatseter verifieras på modell, färg och projektkonfiguration.'
+        - 'Leverantörscertifikat (COA), materialdeklarationer och REACH/RoHS-dokumentation undersöks för varje parti.'
+        - 'Icke-konformiga partier blockeras och kasseras innan materialet når linjen.'
+      object: 'Drop-stitch-tyg, PVC-rullar, ventiler, fenor, tillbehör och förpackningsmaterial mot den godkända specifikationen och leverantörernas kvalitetsintyg.'
+      method: 'Visuella kontroller, måttkontroller och viktkontroller; stickprov enligt AQL; materialcertifikat granskade; godkänd leverantörslista tillämpad.'
+      criteria: 'Uppfyller den godkända specifikationen och certifikaten. Icke-konformiga partier blockeras och kasseras före frigörning till linjen.'
+      record: 'IQC-testrapport med partireferenser och beslut om åtgärd.'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: Inkommande varukontroll av PVC-tyg och SUP-komponenter i fabriken
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Ladda ner IQC-rapporterna (PDF)'
+    - stage: STAGE 03
+      title: 'Processkontroll och first article test (IPQC / FAI)'
+      summary: 'Konstruktionsmetoder och kontrollpunkter väljs utifrån den godkända brädplattformen och projektkonfigurationen. Det första provet verifieras mot de låsta baslinjerna; varje skift utför stickprovskontroller vid linjen.'
+      checks:
+        - 'Den första artikeln verifieras mot det godkända provet, teknikritningen, BOM, grafiken och förpackningsfilerna före start av serieproduktionen.'
+        - 'Bräddimensioner, omkrets och symmetri mäts; tryck- och logotypriktning, placering, färger och revision bekräftas.'
+        - 'Sömar och kantlinjens kontinuitet kontrolleras vid linjen på öppningar, delaminering, veck, föroreningar eller felinriktning.'
+        - 'Installationen av ventil, D-ringar, handtag och fin box kontrolleras på placering, antal och montage mot den kundgodkända BOM.'
+        - 'FAI-frigörningen låser grafik, mått och BOM per version; avvikelser går igenom beslutsprocessen för omtillverkning — aldrig kvalitetsreparationer vid linjen.'
+      object: 'Första artikeln och artiklar under tillverkning — sömar, kant, fin box, ventilbas, grafisk placering, åtdragningsmoment för tillbehör.'
+      method: 'First article test på den första enheten; stickprovskontroller per skift; svetsstyrka och söminriktning verifieras vid linjen.'
+      criteria: 'FAI-frigörningen låser grafik, mått och BOM per version. Avvikelser går igenom beslutsprocessen för omtillverkning — aldrig kvalitetsreparationer vid linjen.'
+      record: 'FAI-register, stickprovsprotokoll per skift, omtillverkningsanteckningar och beslut om åtgärd.'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Processinspektion och first article test under SUP-produktionen
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Ladda ner IPQC-rapporterna (PDF)'
+    - stage: STAGE 04
+      title: 'Uppblåsning- och lufttätningstest'
+      summary: 'Varje färdig bräda utsätts före förpackningen för en uppblåsnings- och lufttätningskontroll — 100 % av enheterna, inga stickprov.'
+      checks:
+        - 'Brädans yta, kantlinjer och ventilområde kontrolleras före uppblåsningen på hål, revor, onormala veck eller delaminering.'
+        - 'Kammarna blåses upp till projektets testtryck med en kalibrerad digital manometer och startvärdet registreras.'
+        - 'Ventilkärna, ventilbas och sömslutningar kontrolleras runt hela omkretsen — bog, akter och böjda områden.'
+        - '24-timmars tryckhållning med kontinuerlig registrering; automatisk uteslutning vid tryckförlust över det tillåtna värdet.'
+        - 'Defekta brädor blockeras, omtillverkas enligt instruktion och testas om fullständigt — inte bara kontrolleras på reparationsplatsen.'
+      object: '100 % av de uppblåsta kammarna — fullständig läckagedetektering i sömar, ventilintegritet och förmåga att hålla trycket.'
+      method: 'Fullständig läckagedetektering i sömmarna, följt av 24-timmars tryckhållning vid 18.0 PSI; automatisk uteslutning vid tryckförlust över 0.50 PSI.'
+      criteria: 'Inga läckagepunkter och tryckförlust inom 0.50 PSI per kammer; defekta enheter blockeras och omtillverkas eller kasseras.'
+      record: 'Rapport över lufttätningstest, en per kammer, kopplad till partiet.'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Uppblåsnings- och lufttätningstest av en uppblåsbar SUP-kammare
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Ladda ner lufttätningsrapporterna (PDF)'
+    - stage: STAGE 05
+      title: 'Slutproduktinspektion (FQC)'
+      summary: 'Färdiga brädor mäts och bedöms optiskt mot det godkända golden sample.'
+      checks:
+        - 'Huvudmåtten — längd, bredd och tjocklek — mäts vid arbetstryck mot ritningens toleranser.'
+        - 'Brädans omkrets, rocker och symmetri verifieras; ingen deformation, vridning eller onormal våguppbyggnad efter uppblåsningen.'
+        - 'Optisk bedömning under D65-dagsljuslampor: repor, fläckar, limrester, blåsor, veck, färgavvikelser.'
+        - 'Funktionstester: öppna/stänga ventilen och sätta på korken, placera och låsa fenan, D-ringar, handtag och paddelns funktion.'
+        - 'Konfigurationen verifieras mot den kundgodkända BOM och SKU — tillbehör, etiketter, streckkoder och serienummer.'
+      object: 'Färdig bräda mot golden sample — mått, rocker, profil, utseende, montage av fin box och tillbehörens fullständighet.'
+      method: 'Dimensionell verifiering mot ritningens toleranser; optisk bedömning under D65-dagsljuslampor; montagetest av fin box och tillbehör.'
+      criteria: 'Mått inom tolerans (t.ex. 3508 × 814 × 150.3 mm), optisk bedömning enligt det godkända provet, alla tillbehör närvarande.'
+      record: 'FQC-rapport med inspektörens signatur och beslut om åtgärd.'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Slutproduktinspektion av SUP-brädor före förpackning
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Ladda ner FQC-rapporterna (PDF)'
+    - stage: STAGE 06
+      title: 'Förpackningsinspektion före leverans (PSI)'
+      summary: 'Den förpackade satsen kontrolleras avseende fullständighet, märkningsnoggrannhet och leveransberedskap.'
+      checks:
+        - 'Satsens fullständighet 100 % mot BOM: bräda, paddel, pump, leash, väska, reparsats och manual — en sats i taget.'
+        - 'Känsliga delar skyddade (pump- och bladfickor), brädan vikt enligt förpacknings-SOP, tillbehör enligt modell och färg.'
+        - 'Kartongbilder, varumärke, varningar och språkversioner kontrolleras mot den godkända grafikrevisionen.'
+        - 'Streckkodens typ, nummer, placering och läsbarhet verifieras; leveransmärkningar, SKU, PO, kartongnummer och antal korrekta.'
+        - 'Kartongmått, brutto-/nettovikt och innerförpackning enligt förpackningsspecifikationen; resultatet av falltestet registreras vid krav.'
+      object: 'Förpackad sats — bräda, paddel, pump, leash, väska, manual — mot den kundgodkända BOM och förpackningsspecifikationen.'
+      method: 'Satsens fullständighet 100 % mot BOM; skanning av streckkoder (poäng ≥ B); noggrannhet i kartongetiketter; falltest ISTA-1A på de förpackade kartongerna.'
+      criteria: 'Satsen 100 % i enlighet med BOM, läsbara streckkoder, korrekta etiketter och fallbeständig förpackning före lastning.'
+      record: 'PSI-checklista och förpackningsprotokoll för varje kartong.'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Inspektion före leverans som verifierar den förpackade SUP-satsen mot BOM
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Ladda ner PSI-rapporterna (PDF)'
+    - stage: STAGE 07
+      title: 'Frigörning inför leverans och spårbarhet'
+      summary: 'Kvalitet frigör partiet endast när alla sex föregående punkter är avslutade och alla register är kompletta.'
+      checks:
+        - 'Produktionsparti, ordernummer, SKU, antal och antal kartonger stämmer med packningslistan och den kommersiella fakturan.'
+        - 'Filerna för specifikation, BOM, grafik och förpackning finns alla i aktuell godkänd revision.'
+        - 'Registreringarna för IQC, FAI, process, lufttätning, FQC och PSI är kompletta för det parti som ska frigöras.'
+        - 'Alla avvikelser är lösta, omtillverkade, omtestade och avslutade — inga öppna punkter vid frigörning.'
+        - 'Spårbarhetsfält registrerade för varje parti: projektkod, PO, SKU, revisioner för grafik/BOM/förpackning, produktionsdatum, inspektör och registreringsnummer.'
+      object: 'Behörighet att frigöra partiet — alla punkter avslutade, register kompletta, serienummer för partiet tilldelade.'
+      method: 'Punktkontroll av Quality på alla sex föregående register; spårbarhetsdossier för partiet sammanställt; register överlämnade till leveransen.'
+      criteria: 'Alla punkter frigjorda av QA; partiregister och spårbarhetsdossier överlämnade till köparen eller förvaras på begäran under NDA.'
+      record: 'Frigöringsgodkännande inför leverans och spårbarhetsdossier för partiet.'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Undertecknande av frigöringsgodkännandet inför leverans och överlämnande av spårbarhetsrapporten för partiet
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Ladda ner frigöringsrapporterna (PDF)'
+system_map:
+  tagline: Kvalitetssystemet
+  title: 'Ett system, fyra kontrollerade standarder'
+  subtitle: 'De sju punkterna ovan vilar på fyra dokumenterade standarder, var och en publicerad som en kontrollerad procedur som du kan ladda ner och låta revideras. Tillsammans utgör de QMS bakom varje OEM/ODM-order — inspektionskriterier, ändringskontroll, avvikelser och laboratorietester.'
+  items:
+    - title: 'Inspektions- och frigöringsstandard'
+      description: 'Projektets QIP styr varje punkt: inspektionsobjekt, metod, acceptanskriterier och dokumentationsoutput för varje order. Den omfattar QC-ramverket i fyra faser, spårbarhetskedjan, karantänflödet, defektmatrisen och dokumentregistret 00–15.'
+      icon: tabler:clipboard-check
+      link: /factory/quality-inspection
+      link_label: 'Inspektionsstandard och QMS-nedladdningar'
+    - title: 'Ändringskontroll av omtillverkning'
+      description: 'Ingen ändring av omtillverkningsparametrar utan dokumenterad kontroll: åtgärdande, riskklassning, ändringscykel i nio faser, frigöringsmatris och validering. Varje ändring av godkända specifikationer, prov, BOM eller acceptanskriterier kräver köparens skriftliga godkännande.'
+      icon: tabler:git-branch
+      link: /factory/quality-change-control
+      link_label: 'Standard för ändringskontroll'
+    - title: 'Kontroll av icke-konformiga produkter'
+      description: 'En sluten cykel i sju faser enligt ISO 9001:2015 avsnitt 8.7: identifiera, blockera, hantera via NCR, omtillverka eller kassera, kontrollera om, frigöra, korrigera. Den omfattar befogenhet baserad på allvarlighetsgrad, åtgärdsmatrisen för SUP-defekter och kontrollerad destruktion.'
+      icon: tabler:alert-triangle
+      link: /factory/non-conforming-control
+      link_label: 'Standard för icke-konformiga produkter'
+    - title: 'Laboratorietester och utrustning'
+      description: 'Kvalitetslaboratoriet arbetar oberoende av produktionen: dragprovmaskiner, tryckförlusttester, UV-åldring, svetsdelaminering, läckagedetektering och termiska kamrar — med de kalibrerings- och testprocedurer som ligger till grund för våra publicerade påståenden.'
+      icon: tabler:flask
+      link: /factory/quality-lab
+      link_label: 'Kvalitetslaboratorium och testutrustning'
+    - title: 'Materialtestlaboratorium (FoU)'
+      description: 'FoU-centrumet utför oberoende materialtester av PVC/Hypalonformuleringar, accelererad åldring och certifieringsstöd och matar de standarder som produktionen använder.'
+      icon: tabler:microscope
+      link: /randdcenter/quality-inspection-lab
+      link_label: 'Materialtestlaboratorium FoU'
+intelligence_cards:
+  tagline: Dokumentation och spårbarhet
+  title: 'Kvalitetsregister som stöder projektets spårbarhet'
+  subtitle: 'Inspektionsregister förvaras per produktionsparti och kopplas till den tillämpliga projektdokumentationen — specifikationsrevision, grafikrevision, BOM och förpackningskrav. För att skydda kunduppgifter är exemplen på den här sidan anonymiserade: endast strukturella fält visas (projektkod, produkt/SKU, parti, inspektionsfas, kontrollpunkt, acceptanskriterier, resultat, inspektör, datum och frigöringsstatus).'
+  cards:
+    - icon: 1
+      icon_bg: blue
+      title: Protokoll från inkommande varukontroll
+      desc: 'Visar att råvaror, drop-stitch-tyg, PVC-rullar och komponenter verifieras mot den godkända specifikationen före produktionen frigörs.'
+      metrics:
+        - { label: Fas, value: '02 · IQC' }
+        - { label: Partireferens, value: 'LOT-DEMO-DS-0814' }
+        - { label: Resultat, value: 'Godkänt · frigjort för produktion' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link_label: 'Visa det anonymiserade exemplet (PDF)'
+    - icon: 2
+      icon_bg: green
+      title: Protokoll från first article test (FAI)
+      desc: 'Visar låsningen per version (grafik, mått, BOM-specifikationer) före start av full serieproduktion.'
+      metrics:
+        - { label: Fas, value: '03 · IPQC' }
+        - { label: Provkod, value: 'SN-DEMO-FAI-001' }
+        - { label: Resultat, value: 'Godkänt · FAI frigjort' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link_label: 'Visa det anonymiserade exemplet (PDF)'
+    - icon: 3
+      icon_bg: purple
+      title: Protokoll från uppblåsnings- och lufttätningstestet
+      desc: 'Verifierar 100 % fullständig läckagedetektering i sömar, ventilintegritet och tryckhållning enligt projektets kvalitetsplan.'
+      metrics:
+        - { label: Fas, value: '04 · Lufttätning' }
+        - { label: Testvillkor, value: 'Enligt projektplan (18.0 PSI)' }
+        - { label: Resultat, value: 'Godkänt · frigjort för slutkontroll' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link_label: 'Visa det anonymiserade exemplet (PDF)'
+    - icon: 4
+      icon_bg: orange
+      title: Slutproduktinspektionsrapport
+      desc: 'Validerar den färdiga brädan mot det godkända provet avseende mått, rocker, utseende (D65-ljus) och montage av fin box.'
+      metrics:
+        - { label: Fas, value: '05 · FQC' }
+        - { label: Mått, value: '3508 × 814 × 150.3 mm' }
+        - { label: Resultat, value: 'Godkänt · frigjort för förpackning' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link_label: 'Visa det anonymiserade exemplet (PDF)'
+    - icon: 5
+      icon_bg: green
+      title: Checklista för förpacknings- och avsändningsinspektion
+      desc: 'Garanterar 100 % fullständighet av satsen, streckkodernas läsbarhet (poäng ≥ B), noggrannhet i kartongetiketter och falltest ISTA-1A.'
+      metrics:
+        - { label: Fas, value: '06 · PSI' }
+        - { label: Sats, value: 'BOM-överensstämmelse 100 %' }
+        - { label: Resultat, value: 'Godkänt · frigjort för leverans' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link_label: 'Visa det anonymiserade exemplet (PDF)'
+doc_register:
+  tagline: Register över kontrollerade dokument
+  title: 'Varje dokument bakom en leverans, samlat'
+  subtitle: 'Varje order genererar ett strukturerat dokumentregister 00–15 — projektindex, godkänd specifikation, BOM, referenser till grafik och förpackning, QIP, inspektionsregister, NCR, ändringskontroll, briefing för tredjepart och frigöringsöversikt. Ladda ner de offentliga dokumenten för att se den exakta strukturen och kriterierna som vi kontrollerar mot.'
+  items:
+    - title: '00 · Projektkvalitetsinspektionsplan (QIP)'
+      description: 'Kvalitetsavtalet för ordern: punkter, inspektionsomfång, metoder, acceptanskriterier och de register du får.'
+      icon: '00'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Ladda ner QIP (PDF)'
+    - title: '01 · Kvalitetsinspektionsstandard'
+      description: 'Den fullständiga inspektions- och garantistandarden som tillämpas på anpassade uppblåsbara SUP-order.'
+      icon: '01'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
+      link_label: 'Ladda ner standarderna (PDF)'
+    - title: '02 · Kvalitetsdokumentationspaket'
+      description: 'Den fullständiga dokumentstrukturen som varje projekt får, i ett översiktspaket.'
+      icon: '02'
+      link: https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link_label: 'Ladda ner paketet (PDF)'
+    - title: '03 · IQC-testrapporter'
+      description: 'Rapporter från inkommande varukontroll — tyg, PVC-rullar, ventiler och komponenter.'
+      icon: '03'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Ladda ner IQC-rapporterna (PDF)'
+    - title: '04 · IPQC-testrapporter'
+      description: 'Rapporter från process- och first article-inspektion mot den låsta revisionen.'
+      icon: '04'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Ladda ner IPQC-rapporterna (PDF)'
+    - title: '05 · Lufttätningstestrapporter'
+      description: '100 % läckagedetektering i sömar, ventilintegritet och protokoll för tryckhållning.'
+      icon: '05'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Ladda ner lufttätningsrapporterna (PDF)'
+    - title: '06 · FQC-testrapporter'
+      description: 'Slutkontroll av brädan mot det godkända provet — mått, utseende, fin box.'
+      icon: '06'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Ladda ner FQC-rapporterna (PDF)'
+    - title: '07 · PSI-testrapporter'
+      description: 'Förpacknings- och avsändningsinspektion — 100 % fullständighet av satsen, streckkodspoäng, falltest.'
+      icon: '07'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Ladda ner PSI-rapporterna (PDF)'
+    - title: '08 · Frigöringsrapporter inför leverans'
+      description: 'Frigöringsgodkännande, undertecknat när alla punkter är avslutade, tillsammans med partidossieret.'
+      icon: '08'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Ladda ner frigöringsrapporterna (PDF)'
+    - title: '09 · Spårbarhets- och NCR-dossier'
+      description: 'Spårbarhet för partiet, kopplat till specifikation/grafik/BOM, plus registreringarna från kontrollen av icke-konformiga produkter.'
+      icon: '09'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Ladda ner dossieret (PDF)'
+    - title: '10 · SOP för kontroll av icke-konformiga produkter (ISO 8.7)'
+      description: 'Den kontrollerade proceduren för blockering, åtgärd, omtillverkning och frigörning av icke-konformiga produkter.'
+      icon: '10'
+      link: https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link_label: 'Ladda ner SOP (PDF)'
+    - title: '11 · SOP för ändringskontroll av omtillverkning + bilaga'
+      description: 'Proceduren för ändringskontroll och utförandebilagan — åtgärdande, frigörning och validering.'
+      icon: '11'
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'Ladda ner SOP (PDF)'
+    - title: '12 · Översikt över frigörning före leverans'
+      description: 'Den tvåspråkiga frigöringsöversikt som varje parti skickas med och som håller registret samlat.'
+      icon: '12'
+      link: https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link_label: 'Ladda ner översikten (PDF)'
+    - title: '13 · Briefingmall för tredjepartsinspektion'
+      description: 'Den briefingmall som inspektörer använder för att kondtionera, planera och rapportera en inspektion före leverans.'
+      icon: '13'
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Ladda ner mallen (PDF)'
+    - title: '14 · PSI-checklista'
+      description: 'Checklistan för inspektion före leverans för produktionen — satsens fullständighet, streckkodspoäng, etiketter och falltest.'
+      icon: '14'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Ladda ner checklistan (PDF)'
+    - title: '15 · OEM-projektets lönsamhets- och kvalitetsguide'
+      description: 'Hur ett projekt går från förfrågan till godkänt golden sample — konstruktions- och kvalitetsstegen före serieproduktionen.'
+      icon: '15'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Ladda ner guiden (PDF)'
+traceability:
+  tagline: Spårbarhet per parti
+  title: 'Fyra frågor som varje parti besvarar'
+  subtitle: 'Kvalitetsregister förvaras per produktionsparti och kopplas till den tillämpliga produktspecifikationen, grafiken, BOM och förpackningskraven. Detta understödjer utredning och kontrollerad åtgärd när ett kvalitetsproblem identifieras. Vid en köparevision besvarar vårt kvalitetsteam de här fyra frågorna på plats — varje svar hänvisar till ett kontrollerat register.'
+  items:
+    - title: 'Vad har tillverkats?'
+      description: 'Produkt, modell, konfiguration och revision är kopplade till ordernumret och den godkända specifikationsrevisionen.'
+      icon: '1'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Visa spårbarhetsdossieret (PDF)'
+    - title: 'Vilka material har använts?'
+      description: 'Varje materialparti som ingår i partiet registreras med sin leverantör, sitt intyg och sin IQC-åtgärd.'
+      icon: '2'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Visa spårbarhetsdossieret (PDF)'
+    - title: 'Vem har inspekterat och när?'
+      description: 'Varje register anger inspektörens roll, datum, vilka instrument som använts och resultatet — inga anonyma signaturer.'
+      icon: '3'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Visa spårbarhetsdossieret (PDF)'
+    - title: 'Hur frigjordes partiet?'
+      description: 'Frigörningen godkänns av Quality endast när alla punkter är avslutade; beslutet om åtgärd dokumenteras i registret.'
+      icon: '4'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Visa spårbarhetsdossieret (PDF)'
+non_conformance:
+  tagline: Kontroll av icke-konformiga produkter
+  title: 'När ett fel upptäcks: innesluta, besluta, dokumentera'
+  subtitle: 'Produkter eller komponenter som inte uppfyller de definierade acceptanskriterierna identifieras och sätts under kontroll. Omtillverkning eller ersättning är endast tillåten via den tillämpliga kvalitetsproceduren, följt av en ny verifiering före den auktoriserade frigörningen.'
+  items:
+    - title: 'Identifiera och isolera'
+      description: 'Defekta enheter märks i rött och förs till karantänstationen — ingen fortsatt hantering eller förpackning före beslut om åtgärd.'
+      icon: tabler:alert-triangle
+    - title: 'Åtgärd via NCR'
+      description: 'Quality upprättar en Non-Conformance Report och skickar enheten enligt åtgärdsmatrisen till omtillverkning, omkontroll, kassering eller destruktion.'
+      icon: tabler:git-branch
+      link: /factory/non-conforming-control
+      link_label: 'Standard för icke-konformiga produkter'
+    - title: 'Verifiera och frigöra'
+      description: 'Omtillverkade enheter kontrolleras om mot samma kriterier; NCR stängs först efter att den nya verifieringen är godkänd.'
+      icon: tabler:shield-check
+    - title: 'Kontroll av destruktionen'
+      description: 'Kasserat material destrueras med ett undertecknat destruktionsintyg, så att det aldrig kan återvända till lagret eller marknaden.'
+      icon: tabler:trash
+      link: https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link_label: 'Destruktions- och skrotintyg (PDF)'
+    - title: 'Återkoppling till grundorsaken'
+      description: 'Återkommande fel aktiverar korrigerande åtgärder i den ansvariga processen eller hos leverantören — en sluten cykel, inte en pappersTiger.'
+      icon: tabler:refresh
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'SOP för ändringskontroll av omtillverkning (PDF)'
+third_party:
+  tagline: Stöd för köparbeställda och oberoende inspektioner
+  title: 'Din inspektör är välkommen i fabriken'
+  subtitle: 'Köparbeställda och oberoende inspektioner av tredjepart (SGS, TUV, Bureau Veritas, tullförmedlare) kan diskuteras före produktionen frigörs. Inspektionsomfång, stickprovsstorlek, acceptanskriterier, tidplan och rapporteringskrav måste bekräftas före produktionsstart. Där det är tillämpligt samordnar vi tillgång till relevanta produktions-, slutinspektions- och förpackningsfaser enligt den överenskomna inspektionsplanen.'
+  items:
+    - title: 'Planering av inspektionerna'
+      description: 'Interna inspektioner eller inspektioner av tredjepart kan arrangeras vid någon av de sju punkterna, med din inspektionsplan som acceptansgrund.'
+      icon: tabler:calendar-clock
+      link: /factory/quality-inspection
+      link_label: 'Inspektionsstandard och QMS-nedladdningar'
+    - title: 'Briefingmall före leverans'
+      description: 'Den briefingmall som inspektörer använder för att kondtionera, planera och rapportera en inspektion före leverans i vår fabrik.'
+      icon: tabler:file-report
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Ladda ner briefingmallen (PDF)'
+    - title: 'PSI-checklista'
+      description: 'Checklistan för inspektion före leverans för produktionen — satsens fullständighet, streckkodspoäng, etiketter och falltest.'
+      icon: tabler:clipboard-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Ladda ner PSI-checklistan (PDF)'
+    - title: 'Fullständigt kvalitetsdokumentationspaket'
+      description: 'Ett dossier som täcker hela dokumentationssystemet — QIP, punktregister, spårbarhet och NCR-kontroll.'
+      icon: tabler:books
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Ladda ner dokumentationspaketet (PDF)'
+    - title: 'OEM-projektets lönsamhets- och kvalitetsguide'
+      description: 'Hur ett projekt går från förfrågan till godkänt golden sample — konstruktions- och kvalitetsstegen före serieproduktionen.'
+      icon: tabler:route
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Ladda ner projektguiden (PDF)'
+content_certifications:
+  tagline: Certifieringar och standarder
+  title: 'Certifierad kvalitet, erkänd världen över'
+  subtitle: 'En certifiering är värd så mycket som det den omfattar. Nedan hittar du certifieringsomfånget, certifikatinnehavaren och hur du kan begära eller verifiera dokumenten för ditt projekt.'
+  items:
+    - title: 'CE-märkning'
+      description: 'CE-dokumentationen för överensstämmelse finns för de konfigurationer som är tillämpliga på EU-marknaden enligt direktiv 2013/53/EU (fritidsbåtar); omfattningen bekräftas för varje projekt. Certifikatnummer och testrapporter finns på begäran.'
+      icon: tabler:certificate
+    - title: 'ISO 9001:2015'
+      description: 'Kvalitetsledningssystem certifierat enligt ISO 9001:2015, vilket täcker utveckling, produktion och försäljning av uppblåsbara båtar och maritutrustning. Certifieringsomfång och revisionsrapporter finns på begäran.'
+      icon: tabler:clipboard-check
+    - title: 'Social överensstämmelse BSCI'
+      description: 'Bedömt enligt BSCI (Business Social Compliance Initiative), som täcker arbetsförhållandena och fabrikens överensstämmelse. Revisionsrapport finns på begäran.'
+      icon: tabler:heart-handshake
+    - title: 'Materialöverensstämmelse REACH'
+      description: 'Materialen uppfyller EU-förordningen REACH för kemisk säkerhet. Materialdeklarationerna levereras med produktionsdokumentationen för varje leverans.'
+      icon: tabler:flask
+    - title: 'RoHS-överensstämmelse'
+      description: 'Begränsningen av farliga ämnen dokumenteras enligt RoHS för de tillämpliga komponenterna och materialen.'
+      icon: tabler:flame
+    - title: 'Materialtester'
+      description: 'Tyget testas avseende dragstyrka, rivmotstånd, UV-nedbrytning och kallböjningsbeteende. Varje produktionsparti provtas och verifieras mot det publicerade testprotokollet.'
+      icon: tabler:test-pipe
+faqs:
+  tagline: FAQ
+  title: Vanliga frågor om vårt kvalitetssystem
+  items:
+    - q: 'Kan jag ladda ner de verkliga inspektionsrapporterna?'
+      a: 'Ja. De sju tvåspråkiga rapporthäftena på den här sidan — QIP, IQC, IPQC/FAI, lufttätning, FQC, PSI och frigörning inför leverans — är verkliga kontrollerade register med de reserverade fälten borttagna. De visar exakt vilken struktur, metoder och acceptanskriterier som används i varje order.'
+    - q: 'Hur tillämpas de sju punkterna på mitt projekt?'
+      a: 'Varje projekt får en kvalitetsinspektionsplan (QIP) som definierar vilka punkter som är tillämpliga på din produkt och marknad, inspektionsomfånget vid varje punkt och de register du får. Ladda ner QIP-exemplet på den här sidan för att se strukturen.'
+    - q: 'Är de här inspektionsexemplen verkliga?'
+      a: 'Ja. Exemplen följer vår faktiska kontrollerade registerstruktur — dokumenthuvud, inspektionschecklista, acceptanskriterier, metod, resultat, inspektörens roll och frigöringsbeslut. Alla identifierande värden har ersatts med demonstrationsvärden (DEMO-*-koder), så att inga kunduppgifter, grafik, order eller priser avslöjas.'
+    - q: 'Varför är exemplen anonymiserade?'
+      a: 'Köparnas konfidentialitet har företräde. Kundnamn, grafik, orderuppgifter, leverantörsinformation och priser skyddas genom design. Med anonymisering kan varje potentiell köpare verifiera vår registerstruktur och spårbarhet utan att avslöja en annan kunds kommersiella uppgifter.'
+    - q: 'Kan vi få de fullständiga inspektionsrapporterna för vårt projekt?'
+      a: 'Ja. För godkända projekt delar vi den kvalitetsdokumentation som gäller din order — kvalitetsinspektionsplan, rapporter från inkommande varor, process, lufttätning, slutkontroll och förpackning, plus frigöringsgodkännandet inför leverans — kopplad till spårbarheten för partiet. Känsliga kommersiella uppgifter förblir under NDA enligt överenskommelse.'
+    - q: 'Vad innehåller ett inspektionsregister kopplat till ett parti?'
+      a: 'Varje register kopplar produktionspartiet till den tillämpliga specifikations- eller ritningsrevisionen, registrerar varje kontrollpunkt mot acceptanskriterierna med metod och använt instrument och avslutas med inspektörens roll, resultatstatus och det av Quality undertecknade frigöringsbeslutet.'
+evidence_review:
+  tagline: 'Bevis och verifiering'
+  title: 'VERIFIERADE SPECIFIKATIONER'
+  body: 'Alla produktpåståenden på den här sidan verifieras av vårt tillverkningsingenjörsteam på anläggningen i Laixi, Qingdao. Certifikat, QC-inspektionsregister, tryck- och strukturella testrapporter och spårbarhetsregister per parti finns på begäran. Specifikationerna verifierades senast i september 2026.'
+
+cta:
+  title: 'Behöver du kvalitetskrav för ditt SUP-projekt?'
+  subtitle: 'Dela din produktkategori, målmarknad, uppskattade antal och alla inspektions-, dokumentations- eller förpackningskrav. Vi verifierar de tillämpliga projektunderlagen och rekommenderar nästa steg för provutveckling eller produktionsplanering. Ett NDA-samtal är möjligt innan icke-offentliga specifikationer, grafik eller kvalitetskrav delas.'
+  actions:
+    - variant: primary
+      text: Begär en projektkvalitetsverifiering
+      href: /contact#quality-inquiry
+    - text: Besök vårt kvalitetsinspektionslaboratorium
+      href: /randdcenter/quality-inspection-lab
+    - text: Inspektionsstandard och QMS-nedladdningar
+      href: /factory/quality-inspection
+    - text: Standard för icke-konformiga produkter
+      href: /factory/non-conforming-control

@@ -1,0 +1,103 @@
+meta:
+  title: 'OEM-köparguide: köpa SUP-brädor i Asien | iSupfactory'
+  description: 'Köpa uppblåsbara SUP-brädor i Asien: checklista för fabriksrevisioner, kvalitetskontrollprotokoll, konformitet, MOQ-förhandling, fraktvillkor och fallgropar.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Tillbaka till forskning'
+
+hero:
+  tagline: 'Inköp'
+  title: 'OEM-köparguide — köpa uppblåsbara SUP-brädor i Asien'
+  subtitle: '12 min läsning'
+
+answer:
+  label: 'Kort svar'
+  text: 'Minsta beställningskvantitet bekräftas per projekt, inte låst som en fast siffra: provförberedelse (1–2 st) validerar konstruktionen, pilotbeställningar (20–50 st) testar marknaden på befintliga plattformar, standardvolymtillverkning går med 90–100+ st per parti ur en hel drop-stitch-rulle på 150 m, och co-branding i små volymer startar från 5–10 st. Prover skickas inom 7–12 dagar; massproduktion följer 25–35 dagar efter bekräftad order och deposition, plus 15–20 dagar om nya verktyg behövs.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>1. Förkvalificering: vad du ska titta på hos en fabrik</h2>
+
+  <h3>Konformitetscertifikat</h3>
+  <ul>
+    <li><strong>ISO 9001:2015</strong> – kvalitetsledningssystem</li>
+    <li><strong>CE-certifiering</strong> – kontrollera numret för det anmälda organet</li>
+    <li><strong>BSCI / SMETA / SEDEX</strong> – revision av social konformitet</li>
+    <li><strong>REACH / RoHS</strong> – materialkonformitetsförsäkringar</li>
+  </ul>
+
+  <h3>Tillverkningskapacitet</h3>
+  <ul>
+    <li>Vävning av drop-stitch-kärna internt eller på uppdrag</li>
+    <li>PVC-beläggnings-/lamineringslinje</li>
+    <li>RF- och varmluftssvetsutrustning</li>
+    <li>Formbygge internt (CNC-bearbetning)</li>
+    <li>Testlaboratorium (tryckprovning, UV-åldring, dragprovning)</li>
+  </ul>
+
+  <h3>Erfarenhetskontroll</h3>
+  <ul>
+    <li>År i produktion av uppblåsbara båtar (minst 5+ år)</li>
+    <li>Antal anställda ingenjörer</li>
+    <li>Befintliga OEM/ODM-kunder (fråga efter referenser)</li>
+    <li>Exportmarknader – skickar de redan till din målmarknad?</li>
+  </ul>
+
+  <h2>2. Kvalitetskontrollprotokoll</h2>
+  <p>Ingående QC för material: draghållfasthet (ASTM D751 eller ISO 1421), sprickhållfasthet (ASTM D2261 eller ISO 4674), beläggningens vidhäftning, UV-åldringsprover.</p>
+  <p>Process-QC: fogstyrkekontroll var 50:e enhet, kopplingstest av ventiler, provtagning av drop-stitch-trådtätheten, måttkontroller mot CAD-ritningarna.</p>
+  <p>Slutinspektion: tryckhållningstest på 100 % (24 timmar, max. tryckfall 0.50 PSI), visuell inspektion, funktionstest av ventiler, slumpmässig provtagning (AQL 2.5 eller 4.0 enligt ISO 2859).</p>
+
+  <h2>3. Checklista för konformitetsdokumentation</h2>
+  <ul>
+    <li>Försäkran om överensstämmelse (DoC) som hänvisar till rätt EU-direktiv</li>
+    <li>CE-certifikat från ett anmält organ</li>
+    <li>Testrapport från ett ackrediterat laboratorium</li>
+    <li>Säkerhetsdatablad (MSDS) för materialen</li>
+    <li>REACH-konformitetsförsäkring</li>
+    <li>BOM med leverantörers spårbarhet</li>
+    <li>Fabriksinspektionsrapport</li>
+  </ul>
+
+  <h2>4. MOQ-förhandling</h2>
+  <p>MOQ för uppblåsbara SUP-brädor bestäms av produktionsspåret och projektkonfigurationen, inte av gissningar. Alla Vatrads OEM/ODM-projekt följer tre tydliga kvantitetsnivåer — prov, pilot och volym — och hela beräkningslogiken förklaras i vår <a href="/sv/oem-moq-guide">MOQ-guide &amp; flexibel branding</a>:</p>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Produktionsspår</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">MOQ</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Tidplan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Provförberedelse (per design)</td><td class="p-3 border">1 – 2 st</td><td class="p-3 border">Prover inom 7 – 12 dagar</td></tr>
+      <tr><td class="p-3 border font-medium">Pilotbeställning (befintliga plattformar)</td><td class="p-3 border">20 – 50 st</td><td class="p-3 border">Marktvalidering med befintliga material</td></tr>
+      <tr><td class="p-3 border font-medium">Standardvolymparti (per design)</td><td class="p-3 border">90 – 100+ st</td><td class="p-3 border">25 – 35 dagar efter order och deposition</td></tr>
+      <tr><td class="p-3 border font-medium">Egna former / Private Label</td><td class="p-3 border">Bekräftas per projekt</td><td class="p-3 border">Plus 15 – 20 dagar för verktygen</td></tr>
+    </tbody>
+  </table>
+  <p>Antalen för prov, pilot och serier skiljer sig åt: provförberedelse (1–2 st) validerar konstruktionen, pilotbeställningar (20–50 st) testar marknaden på befintliga plattformar, och standardvolymtillverkning går med 90–100+ st per parti ur en hel drop-stitch-rulle på 150 m — med prisnivåer som stiger med ordervolymen. Låt MOQ-beräkningen, leveranstiderna och betalningsvillkoren för din specifika bräda lämnas skriftligt innan du binder dig till en leverantör.</p>
+
+  <h2>5. Logistik och frakt</h2>
+  <p>Vanliga Incoterms: <strong>FOB</strong> (fabriken levererar till avgångshamnen — vanligast), <strong>EXW</strong> (köparen hanterar hela frakten från fabriken), <strong>CIF</strong> (fabriken betalar frakt och försäkring till destinationshamnen).</p>
+  <p>Uppblåsbara produkter är lätta men volymtunga — volymvikten (DIM) avgör ofta fraktkostnaden. Be om vakuumförpackning för att minska volymen med 50–60 %. Sjöfrakt från Kina till EU tar normalt 25–35 dagar och 7–12 dagar till USA:s västkust — utöver produktionstiden på 25–35 dagar.</p>
+
+  <h2>6. Vanliga fallgropar</h2>
+  <ul>
+    <li><strong>Ingen fabriksrevision:</strong> genomför alltid en revision eller låt en tredje part inspektera (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Endast muntliga specifikationer:</strong> detaljerat tekniskt datablad, undertecknat av båda parter</li>
+    <li><strong>Att hoppa över provgodkännandet:</strong> skriftligt provgodkännande före massproduktionen</li>
+    <li><strong>Ingen kvalitetskontroll under tillverkningen:</strong> inspektion av tredje part under tillverkningen (DUPRO) och före leverans (PSI)</li>
+    <li><strong>Att ignorera konformitet:</strong> kontrollera CE-märkningen (direktiv 2013/53/EU) och marknadsspecifik dokumentation före produktionen</li>
+  </ul>
+
+  <h2>7. Varför Vatrad</h2>
+  <p>Vatrad tillverkar uppblåsbara SUP-brädor för OEM/ODM sedan 2012. Med en ISO 9001-certifierad fabrik på 12 500 m&sup2;, 25+ ingenjörer och CE-certifiering för modeller avsedda för EU-marknader (omfattning bekräftas per projekt) uppfyller vi varje kriterium i den här guiden. Vi erbjuder prov-MOQ för nya partner och kompletta paket med konformitetsdokumentation.</p>
+  <p>Se våra <a href="/sv/oem-manufacturing">OEM/ODM-tillverkningstjänster för uppblåsbara SUP</a> eller besök <a href="/sv/factory">fabriken på 12 500 m&sup2;</a> för att se utrustningen och QC-processerna bakom varje steg ovan.</p>
+
+cta:
+  title: 'Redo att börja köpa?'
+  subtitle: 'Kontakta vårt OEM-team för att diskutera kraven för ditt projekt.'
+  button_text: 'Begär en offert'
+  button_link: /sv/contact

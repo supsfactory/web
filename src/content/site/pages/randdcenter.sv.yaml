@@ -1,0 +1,131 @@
+meta:
+  title: 'R&D-centrum — uppblåsbar SUP-teknik | {SITE}'
+  description: 'Research & development — testning av PVC-tyger, skeppsbyggnadsteknik, HF-svetsning, hydrodynamiska tester och kvalitetskontroll. Anpassade R&D-tjänster finns.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: R&D-centrum
+  title: R & D-centrum
+  subtitle: Fokus på framsteg
+
+intro:
+  - Vatrads forsknings- och utvecklingscentrum (R&D) är drivkraften bakom vår mission att förnya vattensportutrustning. Med outtröttlig innovation inom uppblåsbara stand up paddleboards (SUP) och gummibåtar möjliggör vi säkrare, bekvämare och vackrare produkter för vattensportsentusiaster över hela världen. Vårt dedikerade team av ingenjörer, designers och erfarna vattensportsfascinerade format framtiden för branschen och höjer ständigt ribban inom kvalitet, prestanda och hållbarhet.
+  - Vår R&D-anläggning samlar materialforskare, sjöingenjörer och tillverkningsingenjörer under ett tak. Från tygformulering och skeppssimulering till utveckling av svetsprocesser och storskaliga vattenprov — varje fas av produktutvecklingen drivs av data och valideras genom tester.
+
+mission:
+  tagline: Vår mission
+  title: Innovera vattensportens framtid
+  pillars:
+    - icon: lightning
+      title: Teknologiska framsteg
+      desc: Banbrytande med nya material, designer och tillverkningsprocesser för överlägsen produktprestanda och livslängd.
+    - icon: design
+      title: Användarorienterad design
+      desc: Genomtänkta användarbehov och en design som uppfyller dem med ergonomiskt och intuitivt formspråk.
+    - icon: globe
+      title: Hållbara arbetssätt
+      desc: Minimerar vår miljöpåverkan genom miljövänliga material och processer.
+    - icon: shield
+      title: Säkerhet utan kompromisser
+      desc: Garanterar högsta säkerhetsnormer genom stränga tester och certifieringar.
+
+pillars:
+  - title: Teknologiska framsteg
+    desc: Banbrytande med nya material, designer och tillverkningsprocesser för överlägsen produktprestanda och livslängd.
+    icon: tech
+  - title: Framstegsorienterade material
+    desc: Forskning kring banbrytande PVC, Hypalon, kompositmaterial och hållbara alternativ för bättre produktegenskaper.
+    icon: materials
+  - title: Hållbarhet
+    desc: 'En grundläggande strävan: vi främjar miljöansvar genom hållbar tillverkning och återvinningsbara material.'
+    icon: sustainability
+
+capabilities:
+  tagline: Kapacitet
+  title: R&D-kapacitet
+  subtitle: Fyra kärndiscipliner ger oss full kontroll över produktutvecklingen från början till slut — från råvaruforskning till slutlig certifiering.
+  groups:
+    - title: Materialvetenskap & tygteknik
+      items:
+        - Analys och optimering av PVC- och Hypalon-formuleringar
+        - Utveckling av UV-stabilisering, flamskydd och antimikrobiella tillsatser
+        - Flerskiktslaminering av tyger och teknik för limfogar
+        - Accelererade åldringstester (UV, termisk, fukt, saltspray)
+    - title: Skeppsbyggnadsteknik & hydrodynamik
+      items:
+        - Parametrisk 3D-skeppsdesign och CFD-optimering
+        - Finita elementanalys för strukturella och stötbelastningar
+        - Släpptankarprov med modeller och prestandavalidering
+        - Anpassad skeppsutveckling för speciella användningsprofiler
+    - title: Svetssteknik & förbandsteknik
+      items:
+        - Utveckling och optimering av det dielektriska HF-svetsprocessen
+        - Varmlufts-, varmklisters- och ultraljudssvetsprocesser
+        - Kvalificering av limfogar och fogband
+        - Modellering av svetsstyrka och livslängdsprognos
+    - title: Testning, certifiering & konformitet
+      items:
+        - Kvalitetsledning och CE-konformitetstester
+        - Stöd för oberoende partitester och certifiering av tredje part
+        - Utveckling av anpassade testprotokoll för inköpskvalificering
+        - Analys av fältfel och orsaksutredning
+
+rd_numbers:
+  tagline: Innovation
+  title: R&D i siffror
+  stats:
+    - value: '14'
+      label: R&D-ingenjörer & forskare
+    - value: '8'
+      label: Aktiva patent & patentansökningar
+    - value: '6'
+      label: Specialiserade laboratorium
+    - value: 12 yr
+      label: Genomsnittlig teamerfarenhet
+
+rd_services:
+  tagline: Anpassad R&D
+  title: R&D-tjänster för partner
+  services:
+    - title: Anpassad materialutveckling
+      desc: Vi utvecklar anpassade tygformuleringar, laminatuppbyggnader och limsystem, anpassade till din användningsmiljö och dina prestandakrav.
+    - title: OEM / ODM produktkonstruktion
+      desc: Vi utvecklar anpassade tygformuleringar, laminatuppbyggnader och limsystem, anpassade till din användningsmiljö och dina prestandakrav.
+    - title: Tester & certifiering av tredje part
+      desc: Använd våra ISO-konforma testanläggningar för oberoende materialtester, produktvalidering och certifieringsstöd.
+  cta: Diskutera dina R&D-krav →
+  cta_link: /sv/contact
+
+vision:
+  tagline: Vår vision
+  title: Formge vattensportens framtid
+  body: Vatrad strävar efter att leda branschen för gummibåtar och SUP genom kontinuerlig innovation, konsekvent kvalitet och ett starkt engagemang för säkerhet och hållbarhet — och därmed berika vattensportsentusiastens upplevelser över hela världen. Vatrads R&D-centrum är platsen där passion möter innovation och där nya riktmärken för vattensportsbranschen sätts.
+
+labs_section:
+  tagline: Laboratorier
+  title: Våra laboratorium
+  labs:
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
+      title: Laboratorium för PVC-tyger
+      description: Kontinuerlig forskning och testning av uppblåsbara PVC- och Hypalon-material vad gäller draghållfasthet, UV-beständighet, slitage och köldflexibilitet, för långsiktig tillförlitlighet i marina miljöer.
+      href: /sv/randdcenter/pvc-fabric-lab
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
+      title: Studio för skeppsbyggnadsteknik
+      description: CAD-stödd design och finita elementanalys av skepp i HDPE, aluminium och glasfiber. Varje skepp simuleras digitalt för spänningsfördelning och slaghållfasthet innan den första prototypen byggs.
+      href: /sv/randdcenter/hull-engineering
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
+      title: HF-svetscenter
+      description: Specialiserad högfrekvenssvetsanläggning med noggrann kontroll av temperatur och tryck, som producerar extremt starka, lufttäta sömmar enligt branschstandarder för uppblåsbara båtar.
+      href: /sv/randdcenter/rf-welding
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
+      title: Hydrodynamisk släpptank
+      description: Modellprov i vår släpptank för att optimera skeppsform, planering, stabilitet och effektivitet över ett intervall av last- och vågförhållanden.
+      href: /sv/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: Prototypverkstad
+      description: Anläggning i full storlek för prototyper och färdigställande, där nya modeller byggs, färdigställs och provas på vattnet. Varje prototyp genomgår ett vattentestprogram på minst 20 timmar innan den godkänns för produktion.
+      href: /sv/randdcenter/prototype-workshop
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+      title: Kvalitets- & testlaboratorium
+      description: Dedikerat kvalitetslaboratorium för dragprovning, lufttäthetscykler, svetsfogsprovning och materialcertifiering, för att säkerställa att varje bräda som lämnar verkstaden uppfyller våra publicerade specifikationer.
+      href: /sv/randdcenter/quality-inspection-lab

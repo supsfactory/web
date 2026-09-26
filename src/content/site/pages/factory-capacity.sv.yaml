@@ -1,0 +1,85 @@
+meta:
+  title: 'Produktionskapacitet — Fabrik på 12 500 m² | {SITE}'
+  description: 'Kapaciteten i Vatrad-fabriken: produktionslokation på 12 500 m² med en årskapacitet på över 120 000 SUP-brädor och utrymme för utbyggnad. OEM/ODM-produktion av uppblåsbara SUP-brädor i stora volymer.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup produktionskapacitet'
+    - 'fabrik uppblåsbara sup'
+    - 'paddle board produktion'
+    - 'sup fabrik kina'
+hero:
+  tagline: Produktionskapacitet
+  title: Produktionskapacitet & årsproduktion
+  subtitle: Produktionslokation på 12 500 m² med en årskapacitet på över 120 000 SUP-brädor och utrymme för utbyggnad
+
+answer:
+  label: 'Tydligt svar'
+  text: 'Fabrikens kapacitet: 12 500 m² i fyra specialiserade verkstäder, över 120 000 SUP-brädor per år, över 350 medarbetare i två skift, export till mer än 50 länder. MOQ bekräftas utifrån projektkonfigurationen — prov (1–2 enheter), pilotparti (20–50 enheter) och standardantal (90–100+ enheter per rulle på 150 m); se vår guide om flexibel MOQ och branding för hela logiken. Leveranstid 25–35 dagar, prov på 7–12 dagar.'
+  verified: 'September 2026'
+
+intro: Vatrad driver en av de största produktionslokationerna som är inriktade på uppblåsbara SUP-brädor i Qingdao, Kina. Vår fabrik på 12 500 m² är organiserad i fyra specialiserade verkstäder som arbetar parallellt. Årskapaciteten för SUP överstiger 120 000 uppblåsbara SUP-brädor (cirka 10 000 per månad), med mer än 50 000 räddningsvästar och mer än 5 000 tillbehör tillverkade på separata produktionslinjer.
+
+highlights:
+  - value: 12 500 m²
+    label: Total produktionsyta
+    detail: Fördelat på 4 specialiserade verkstäder
+  - value: 120 000+
+    label: Årskapacitet för SUP
+    detail: Uppblåsbara SUP-brädor, cirka 10 000/mån
+  - value: 350+
+    label: Specialister
+    detail: Mer än 25 ingenjörer, 2 skift/dag
+  - value: 50+
+    label: Exportländer
+    detail: EU, USA, AU, Mellanöstern, Asien
+  - value: 25–35
+    label: Standardleveranstid (dagar)
+    detail: Efter bekräftad PO och handpenning
+  - value: 10+
+    label: År av exporterfarenhet
+    detail: Sedan 2012
+
+workshops:
+  - title: SUP-produktion
+    description: '4 automatiserade monteringslinjer för uppblåsbara SUP-brädor med en sammanslagd produktion på cirka 10 000 brädor per månad. De digitala tryck- och silkescreenstationerna arbetar parallellt. Årskapacitet för SUP: över 120 000 brädor.'
+    output: '120 000+ SUP-brädor/år'
+  - title: SUP-produktion — utbyggnadslinjer
+    description: 'Fler automatiserade monteringslinjer för SUP-brädor, aktiverade när volymerna växer. Limning av drop-stitch-kärnan, digitaltryck och monteringsstationerna arbetar parallellt.'
+    output: 'Del av årskapaciteten på över 120 000 SUP-brädor'
+  - title: SUP-tillbehör & blandad montering
+    description: 'Multifunktionella monteringslinjer för SUP-tillbehör — paddlar, fenor, leashar, väskor och kit. Varmlufts-svetsstationer, HF-dielektriska pressar och monteringsbänkar omkonfigureras utifrån ordersammansättningen. Årskapacitet för tillbehör: över 5 000 enheter.'
+    output: '5 000+ tillbehör/år'
+  - title: Säkerhetsutrustning
+    description: 'Separata renrumsavdelning för räddningsvästar och säkerhetsutrustning. Särskilda stationer för sömnad, skumifyllning och testning. Årskapacitet för räddningsvästar: över 50 000 enheter.'
+    output: '50 000+ räddningsvästar/år'
+
+oem_capacity:
+  moq: 'SUP: prov 1–2 | pilotparti 20–50 | antal 90–100+ (per rulle på 150 m)'
+  lead_time: 'Standard 25–35 dagar. Prov 7–12 dagar. Express tillgängligt.'
+  payment: 'T/T 30% handpenning + 70% saldo. L/C, Western Union accepteras.'
+
+lead_time_explainer:
+  tagline: 'Planering & schemaläggning'
+  title: 'Så blir kapaciteten din leverans'
+  subtitle: 'Kapacitet är inte en enda siffra — så tilldelas leveranstiderna egentligen.'
+  items:
+    - title: 'Kapaciteten varierar med din specifikation'
+      body: 'De tillgängliga platserna flyttas med brädtyp, konstruktionskomplexitet, förpackning och säsongsefterfrågan. Under uppbyggnaden vår–sommar går linjerna nästan full kapacitet och provplatserna tar fullt först.'
+    - title: 'Planera före din lanseringssäsong'
+      body: 'Fastställ provgodkännandet och grafiklåsningen långt i förväg. Återbeställningar schemaläggs i ditt överenskomna återbeställningsfönster så snart golden sample är arkiverat.'
+    - title: 'Tre spår för schemaläggning'
+      body: 'Prover går först in på prototyplinjen, första order hamnar i nästa lediga monteringsfönster och återbeställningar körs i sitt återbeställningsfönster.'
+    - title: 'Bindande leveranstider efter verifiering'
+      body: 'Vi bekräftar en bindande leveranstid först när specifikation, grafik, förpackning och antal är verifierade — aldrig som en fast förhoppning i förväg.'
+
+cta:
+  title: 'Verifiera produktionskapaciteten för ditt lanseringsdatum'
+  subtitle: 'Skicka brädtyp, antal och planerad leveransdatum — vi svarar med nästa lediga produktionsfönster och en bindande leveransbedömning.'
+  actions:
+    - variant: primary
+      text: Verifiera tillgängligheten
+      href: /contact#production-availability
+    - text: Se hela översikten över fabriken
+      href: /factory
+    - text: Så byggs brädorna
+      href: /factory/process

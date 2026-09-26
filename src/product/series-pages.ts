@@ -1770,6 +1770,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+  sv: [
+    {
+      slug: 'all-around',
+      navLabel: 'Allround',
+      metaTitle: 'Skräddarsydda allround-SUP-brädor — tillverkare av uppblåsbara OEM | iSupfactory',
+      metaDescription:
+        'Skräddarsydda uppblåsbara allround-SUP-brädor tillverkade under ditt varumärke — bred kroppsstabilitet, OEM/ODM-volymer från 90–100+ st, prover på 7–12 dagar. Direkt från fabriken i Qingdao, Kina.',
+      kicker: 'Serie · Allround',
+      h1: 'Skräddarsydda allround-SUP-brädor — standardplattformen för nya varumärken',
+      intro: [
+        'Allroundbrädan är SUP-kategorins arbetshäst: tillräckligt bred för att kännas stabil för nybörjare, tillräckligt kvick för att hålla medelnivån intresserad och tillräckligt lätt att bära med sig överallt. De flesta nya varumärken och de flesta uthyrningsflottor börjar här.',
+        'Vi tillverkar allroundplattformar under ditt varumärke från 90–100+ st per 150 m rulle (volym), med pilotserier från 20–50 st. Form, fat, uppbyggnad, färger, helbrädagrafik och förpackning specificeras per projekt.',
+      ],
+      faqs: [
+        {
+          q: 'Kan jag skräddarsy en allround-SUP-bräda för mitt varumärke?',
+          a: 'Ja. Varje allroundplattform är en tillverkningsbas — du specificerar mått (vanligen 10′6″ till 11′6″), bredd, tjocklek, uppbyggnad (enkel/dubbel lager eller fusion), fatkonfiguration, EVA-pad, helbrädagrafik och förpackning. Former med specialformade formar startar vid 90–100+ st per form; standardvolymproduktion från 90–100+ st per 150 m rulle.',
+        },
+        {
+          q: 'Vad är minimikvantiteten (MOQ) för allround-SUP-brädor?',
+          a: 'Standardvolympartier startar vid 90–100+ st per 150 m rulle; pilotserier på standardplattformar startar vid 20–50 st; helt specialgjorda formar kräver från 90–100+ st per form. Prover skickas inom 7–12 dagar och serieproduktionen tar 25–35 dagar efter bekräftad order och deposition.',
+        },
+        {
+          q: 'Vad ingår i det butiksredo paketet?',
+          a: 'Hela paketet: uppblåsbar bräda med drop-stitch-kärna, justerbar paddel, handpump (eller elektrisk tvåstegs), reparationskit, ryggsäck och tryckt kartong. Tillbehör kan bytas eller uppgraderas efter din målgrupp.',
+        },
+        {
+          q: 'Vilken hårdhet på EVA-däck tillverkar ni?',
+          a: 'Däckens greppmattor går i 45–55 Shore C — medelhårt, greppvänligt under fötterna utan att hårdna i solen. Tjocklek, spår, utskärningar och logoplacering specificeras per projekt.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Racing',
+      metaTitle: 'Skräddarsydda tävlings-SUP-brädor — uppblåsbara racingsplattformar OEM | iSupfactory',
+      metaDescription:
+        'Skräddarsydda uppblåsbara tävlings-SUP-brädor för klubbar, evenemang och varumärken — drop-stitch-racingskrov, OEM-volymer från 90–100+ st, CE-certifierad produktion. Direkt från fabriken.',
+      kicker: 'Serie · Racing',
+      h1: 'Skräddarsydda tävlings-SUP-brädor — racingskrov tillverkade för ditt varumärke',
+      intro: [
+        'Tävlingsbrädor byter stabilitet mot fart: längre, smalare profiler med raffinerade bogformer och låg rocker, byggda för displacement-paddling. De uppblåsbara versionerna matchar hårda tävlingsbrädors prestanda inom en portabel plattform.',
+        'Vi producerar tävlingsplattformar för varumärken, klubbar och arrangörer med precisionskärnor i drop-stitch, tävlingsspecifika uppbyggnader och farthungriga skrovformer — testade i vår hydrodynamiska testtank.',
+      ],
+      faqs: [
+        {
+          q: 'Vilka tävlings-SUP-mått kan ni tillverka?',
+          a: 'Typiska tävlingsplattformar går från 12′6″ × 28″ för 12′6-klasser till 14′ × 23″–25″ för unlimited/touring-format. Bredd, rocker och bogprofiler specificeras för målgruppen och verifieras på ett fysiskt prov.',
+        },
+        {
+          q: 'Kräver tävlingsbrädor särskild konstruktion?',
+          a: 'Ja — tävlingsbrädor använder en lättare, tätt vävd drop-stitch-kärna med högre psi (18–20 PSI) och styvare fatförstärkning för att hålla skrovformen i fart. Valet av uppbyggnad (enkel eller dubbel lager) väger vikt mot styvhet, vilket vi specificerar tillsammans med dig per projekt.',
+        },
+        {
+          q: 'Kan klubbar beställa tävlingsbrädor till sitt lag?',
+          a: 'Ja. Klubb- och lagprogram beställer från 90–100+ st (volym) med klubbgrafik och kan blanda tävlings- och träningsplattformar i samma order. Flottpris gäller för kombinerade volymer.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Surf',
+      metaTitle: 'Skräddarsydda surf-SUP-brädor — uppblåsbara hybrid-surfplattformar OEM | iSupfactory',
+      metaDescription:
+        'Skräddarsydda uppblåsbara surf-SUP-brädor — hybrid-surfprofiler med rundade fat och höjd rocker, tillverkade under ditt varumärke från 90–100+ st i Qingdao, Kina.',
+      kicker: 'Serie · Surf',
+      h1: 'Skräddarsydda surf-SUP-brädor — hybrid-surfplattformar för vågsurfing',
+      intro: [
+        'Surf-SUP-brädor ger vågprestanda i en portabel plattform: kortare längder, högre rocker, rundade fat och konkava bogar som håller linjen på vågens framsida. Uppblåsbara surfformer är den mest förlåtande vägen in i surfpaddling.',
+        'Vi tillverkar surfplattformar under ditt varumärke med vågspecifika former och konstruktionsdetaljer — från soft-top-komplettpaket till prestandauppbyggnader.',
+      ],
+      faqs: [
+        {
+          q: 'Vilka storlekar finns tillgängliga för surf-SUP-brädor?',
+          a: 'Vanliga surfplattformar går från 8′6″ till 10′6″ med bredder runt 30″–34″. Längd, rocker och fatprofil specificeras utifrån paddlarens vikt och vågtyp och verifieras på ett fysiskt prov före produktion.',
+        },
+        {
+          q: 'Är uppblåsbara surfbrädor hållbara nog för uthyrning?',
+          a: 'Med förstärkta fat och UV-beständig PVC klarar våra surfplattformar uthyrning och undervisning på surfläskolor. Uthyrningsflottor kombinerar typiskt allround- och surfformer — flottpris gäller för den blandade volymen.',
+        },
+        {
+          q: 'Kan ni matcha vår varumärkesgrafik på surfbrädor?',
+          a: 'Ja. Helbrädesgrafik, bottenkonst, EVA-greppmattor och förpackning produceras från ditt konstverk eller utvecklas från dina varumärkestillgångar av vår designteam.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Touring',
+      metaTitle: 'Skräddarsydda touring-SUP-brädor — långdistansplattformar OEM | iSupfactory',
+      metaDescription:
+        'Skräddarsydda uppblåsbara touring-SUP-brädor för långdistanspaddling — displacement-skrov från 12′6″, kapacitet för flerdagsturer, OEM-volymer från 90–100+ st, direkt från fabriken.',
+      kicker: 'Serie · Touring',
+      h1: 'Skräddarsydda touring-SUP-brädor — byggda för avstånd, last och långa sträckor',
+      intro: [
+        'Touringbrädor är långa och effektiva: spetsiga bogar för glid, måttlig volym för stabilitet på öppet vatten och tillräckligt med skrovlängd för att bära utrustning på flerdagsturer. De är den självklara plattformen för distanspaddlare och expeditionsutrustare.',
+        'Vi producerar touringplattformar under ditt varumärke med displacement-formgivning, fästpunkter och däckyta för last samt tillbehörssystem kompatibla med kol (bungees, D-ringar, fästen).',
+      ],
+      faqs: [
+        {
+          q: 'Vilka touring-SUP-storlekar tillverkar ni?',
+          a: 'Touringplattformar går typiskt från 12′6″ till 14′ med bredder på 28″–32″. Längre 14′-skrov prioriterar glid; bredare versioner ger laststabilitet. Specifikationerna bekräftas med ett fysiskt prov före serieproduktion.',
+        },
+        {
+          q: 'Kommer touringbrädor med last- och fästalternativ?',
+          a: 'Ja — bungee-lastnät, D-ringsgrids, spöhållare och tillbehörsskenor specificeras per projekt. Touringpaket kombinerar vanligen brädorna med ryggsäcksväskor och högtryckspumpar.',
+        },
+        {
+          q: 'Levererar ni touringbrädor till outfitters och uthyrningsoperatörer?',
+          a: 'Ja. Outfitters och operatörer kan driva dedikerade touringflottor från 20–50 st (pilot) med flottpris, reservdelar och en definierad säsongscykel för förnyelse.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Yoga',
+      metaTitle: 'Skräddarsydda yoga-SUP-brädor — breda stabila plattformar OEM | iSupfactory',
+      metaDescription:
+        'Skräddarsydda uppblåsbara yoga-SUP-brädor — extra breda stabila plattformar med mjuka däck för studior, resorter och instruktörer. OEM-volymer från 90–100+ st, direkt från fabriken.',
+      kicker: 'Serie · Yoga',
+      h1: 'Skräddarsydda yoga-SUP-brädor — extra breda plattformar för utövande på vattnet',
+      intro: [
+        'Yogabrädor är byggda för stillhet: extra bredd och volym för en stabil plattform, mjuka toppar för händer och fötter och låga profiler som håller brädan nära vattnet. De tjänar studior, resorter och instruktörer som driver vattenyogaprogram.',
+        'Vi tillverkar yogaplattformar under ditt varumärke med de bredaste stabila profilerna, premium-EVA-däck och alternativ i programskala för studior och resortflottor.',
+      ],
+      faqs: [
+        {
+          q: 'Vad gör en SUP-bräda bra för yoga?',
+          a: 'Stabilitet först: extra bredd (33″–36″) och volym håller brädan platt och stadig. Ett mjukt EVA-däck skyddar händer, knän och fötter, och ett lågprofilfat minskar vingligheten när man stiger på och av.',
+        },
+        {
+          q: 'Kan resorter beställa yogabrädor som en del av en flotta?',
+          a: 'Ja. Resorter blandar vanligen yogaplattformar med allround-brädor för gäster. Kombinerade flottvolymer kvalificerar för flottpris, och varumärkesgrafik i anläggningens färgpalett gäller för hela ordern.',
+        },
+        {
+          q: 'Ingår kompletta paket i yogabrädorna?',
+          a: 'Ja — uppblåsbar bräda, paddel, pump, ryggsäck och reparationskit, eller ett reducerat kit för förvaring på plats (bräda + paddel + elektrisk pump), beroende på vad ditt program kräver.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Vitt vatten',
+      metaTitle: 'Skräddarsydda vildvatten-SUP-brädor — plattformar för älv och fors OEM | iSupfactory',
+      metaDescription:
+        'Skräddarsydda uppblåsbara vildvatten-SUP-brädor för älvar och forsar — korta manövrerbara skrov med förstärkt slagkonstruktion. OEM-volymer från 90–100+ st i Qingdao, Kina.',
+      kicker: 'Serie · Vitt vatten',
+      h1: 'Skräddarsydda vildvatten-SUP-brädor — älvskrov byggda för att tåla smällar',
+      intro: [
+        'Vildvattenbrädor är korta, breda och tåliga: manövrerbara skrov som vänder på kommando, hög slagstyrka för fat-träffar och robust konstruktion för grunda älvbottnar och steniga ihopp.',
+        'Vi tillverkar vildvattenplattformar under ditt varumärke med förstärkta sömmar, slagfat och älvspecifika former — byggda för skolor, guider och älvoutfitters som kör dagliga lektioner och turer.',
+      ],
+      faqs: [
+        {
+          q: 'Vilken konstruktion behöver vildvattenbrädor?',
+          a: 'Förstärkta fat och dubbelsömmad konstruktion absorberar slag mot faten; tjock PVC och flerlagersuppbyggnad står emot punkteringar från älvbottnar. Dubbelkammardesign ger extra flytreserv för avlägsna älvar.',
+        },
+        {
+          q: 'Levererar ni till älvoutfitters och guideskolor?',
+          a: 'Ja. Outfitters och guideskolor driver vildvattenflottor från 20–50 st (pilot) med flottpris, robusta reparationskit och reservfena/ventilkomponenter — typiskt för älvprogram med hög användning.',
+        },
+        {
+          q: 'Kan vildvattenbrädor bära varumärkesgrafik?',
+          a: 'Ja — helbrädesgrafik, logoplacering och lagfärger produceras från ditt konstverk. Rivtåliga trycklager håller varumärket intakt vid hård användning.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Fiske',
+      metaTitle: 'Skräddarsydda fiske-SUP-brädor — OEM & privat märkning | iSupfactory',
+      metaDescription:
+        'Skräddarsydda uppblåsbara fiske-SUP-brädor med stabilitet, viktkapacitet och tillbehörsfästen — OEM/privata märkesvolymer från 90–100+ st, direkt från fabriken i Qingdao, Kina.',
+      kicker: 'Serie · Fiske',
+      h1: 'Skräddarsydda fiske-SUP-brädor — byggda med fiskare i åtanke',
+      intro: [
+        'Fiskebrädor är stabila kastplattformar: breda och med hög volym för att bära fiskaren plus utrustning, med fästsystem för spöhållare, kylboxar och tackel samt tyst konstruktion för diskret inflygning.',
+        'Vi tillverkar fiskeplattformar under ditt varumärke med fiskarspecifika funktioner specificerade per projekt — från helgpaket till fullständiga tävlingsuppsättningar.',
+      ],
+      faqs: [
+        {
+          q: 'Vilka fiske-SUP-funktioner kan specificeras?',
+          a: 'Fästgrids för spöhållare och tillbehör, utrustningsskenor, kylväskerepar, förankringspunkter och högkapacitetsbrädor upp till 500 lbs för fiskare plus utrustning. Paketen kan inkludera paddlar, pumpar och väskor med ditt märke.',
+        },
+        {
+          q: 'Vad är minimikvantiteten (MOQ) för OEM-beställningar av fiske-SUP?',
+          a: 'Standardvolympartier startar vid 90–100+ st per 150 m rulle; pilotserier från 20–50 st på standardplattformar; specialverktyg från 90–100+ st per form. Prover skickas inom 7–12 dagar; produktionen tar 25–35 dagar efter bekräftad order och deposition.',
+        },
+        {
+          q: 'Producerar ni fiskebrädor för uthyrning och guideverksamhet?',
+          a: 'Ja. Guide- och uthyrningsverksamheter driver fiskeflottor med flottpris, reservdelar och reparationskit anpassade till dagliga program.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Barn',
+      metaTitle: 'Skräddarsydda barn-SUP-brädor — små lätta plattformar OEM | iSupfactory',
+      metaDescription:
+        'Skräddarsydda uppblåsbara barn-SUP-brädor — kortare, lättare plattformar med barnvänliga däck utformade för säkerhet och kul. OEM-volymer från 90–100+ st, direkt från fabriken.',
+      kicker: 'Serie · Barn',
+      h1: 'Skräddarsydda barn-SUP-brädor — små, lätta och byggda för de första paddeltaken',
+      intro: [
+        'Barnbrädor är proportionerade för unga paddlare: kortare skrov, lättare vikt, smalare bredder anpassade till små kroppar och mjuka däck som förlåter fall. De är ingångspunkten för familjevarumärken, skolor och uthyrningsflottor som vänder sig till barn.',
+        'Vi tillverkar barnplattformar under ditt varumärke i standard- och juniorstorlekar, med familjevänliga paketalternativ.',
+      ],
+      faqs: [
+        {
+          q: 'Vilka storlekar finns barn-SUP-brädor i?',
+          a: 'Typiska barnplattformar går från 7′ till 9′6″ med bredder från 26″ till 30″ och vikter runt 7–9 kg (15–20 lbs). Storleken matchas mot paddlarens ålder och vikt och verifieras på ett fysiskt prov före produktion.',
+        },
+        {
+          q: 'Levererar ni till skolor och ungdomsprogram?',
+          a: 'Ja — våra barnplattformar är en vanlig komponent i skol- och ungdomsprogramflottor, beställda tillsammans med juniorpaddlar och nybörjartillbehör med programpris.',
+        },
+        {
+          q: 'Kan barnbrädor bära varumärkes- och karaktärsgrafik?',
+          a: 'Ja. Helbrädesfärgsättningar, karaktärskonst och logoplacering utvecklas från ditt konstverk eller varumärkesriktning — tryckta med samma rivtåliga lager som vuxenbrädorna.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Flerpersoners',
+      metaTitle: 'Skräddarsydda multiperson-SUP-brädor — tandem & familj OEM | iSupfactory',
+      metaDescription:
+        'Skräddarsydda uppblåsbara multiperson-SUP-brädor för familjerekreation och grupplektioner — tandem-, yard- och partyplattformar. OEM-volymer från 90–100+ st, direkt från fabriken.',
+      kicker: 'Serie · Flerpersoners',
+      h1: 'Skräddarsydda multiperson-SUP-brädor — tandems, yards och partyplattformar',
+      intro: [
+        'Multipersonbrädor öppnar SUP för grupper: tandems med extra paddelpositioner, yardbrädor för avkoppling och partyplattformar som bär flera paddlare. De förankrar uthyrningsintäkterna på resorter, stränder och sjöanläggningar.',
+        'Vi tillverkar multipersonplattformar under ditt varumärke med de stabilitets- och volymprofiler som varje användningsfall kräver.',
+      ],
+      faqs: [
+        {
+          q: 'Vilka typer av multipersonbrädor gör ni?',
+          a: 'Tandems (två paddlare, ~13′–14′), yardbrädor (korta, breda avkopplingsplattformar) och partyplattformar med hög volym för 3–6 paddlare. Varje typ specificeras efter kapacitet, vikt och tänkt användning.',
+        },
+        {
+          q: 'Är multipersonbrädor en bra uthyrningsinvestering?',
+          a: 'Ja — de ger premiumtimpriser med lägre utrustningskostnad per paddlare och håller grupperna samlade istället för att splittra dem på enskilda brädor. Uthyrningsoperatörer kombinerar typiskt multipersonbrädor med allroundflottor.',
+        },
+        {
+          q: 'Vad är kapaciteten hos en partyplattform?',
+          a: 'Kapaciteten beror på mått och volym: typiska yard- och partyplattformar klarar 400–700 lbs och bär 3–6 paddlare beroende på storlek och konfiguration. Specifikationerna bekräftas på ett fysiskt prov före serieproduktion.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

@@ -51,6 +51,7 @@ const LIVE_DE = new Set([...LIVE].map((p) => (p === '/' ? '/de' : `/de${p}`)))
 const LIVE_IT = new Set([...LIVE].map((p) => (p === '/' ? '/it' : `/it${p}`)))
 const LIVE_PT = new Set([...LIVE].map((p) => (p === '/' ? '/pt' : `/pt${p}`)))
 const LIVE_NL = new Set([...LIVE].map((p) => (p === '/' ? '/nl' : `/nl${p}`)))
+const LIVE_SV = new Set([...LIVE].map((p) => (p === '/' ? '/sv' : `/sv${p}`)))
 
 /* ───────────────────────── link extraction ───────────────────────── */
 
@@ -111,7 +112,8 @@ for (const file of walk(contentRoot)) {
     const it = path.startsWith('/it')
     const pt = path.startsWith('/pt')
     const nl = path.startsWith('/nl')
-    if (es ? LIVE_ES.has(path) : fr ? LIVE_FR.has(path) : de ? LIVE_DE.has(path) : it ? LIVE_IT.has(path) : pt ? LIVE_PT.has(path) : nl ? LIVE_NL.has(path) : LIVE.has(path)) continue
+    const sv = path.startsWith('/sv')
+    if (es ? LIVE_ES.has(path) : fr ? LIVE_FR.has(path) : de ? LIVE_DE.has(path) : it ? LIVE_IT.has(path) : pt ? LIVE_PT.has(path) : nl ? LIVE_NL.has(path) : sv ? LIVE_SV.has(path) : LIVE.has(path)) continue
     const gate = gatePath(path)
     broken.push({
       file,

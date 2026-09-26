@@ -1885,7 +1885,275 @@ export const GUIDES_NL: Guide[] = [
   },
 ]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL }
+/** Swedish variants of the guides (same slugs, translated copy). */
+export const GUIDES_SV: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'Så väljer du din SUP',
+    intro: [
+      'Ditt val av första uppblåsbara SUP handlar om brädans storlek, bredd, konstruktion och vad som ingår i paketet. Här är vad som spelar roll, i klartext.',
+    ],
+    sections: [
+      {
+        title: 'Längd och volym',
+        body: 'Längre brädor (11–12 ft) glider längre per paddeltag och håller kursen bättre — idealiska för turer och långdistanspaddling. Kortare brädor svänger lättare. För de flesta förare är en allroundbräda på 10\'6"–11\'0" den bästa balansen.',
+      },
+      {
+        title: 'Bredd och stabilitet',
+        body: 'Bredden bestämmer stabiliteten mer än något annat. Ett 32-tums däck är förlåtande för nybörjare och stabilt nog för yoga; 30-tums brädor passar lättare eller mer erfarna paddlare som vill ha fart och smidighet.',
+      },
+      {
+        title: 'Konstruktionskvalitet',
+        body: 'Titta efter en drop-stitch-kärna i militärklassad PVC med ett nominellt tryck på minst 15 PSI, dubbelskiktad PVC-laminering och förstärkta railband. Det avgör hur styv brädan känns och hur länge den håller vid daglig användning.',
+      },
+      {
+        title: 'Vad som bör ingå i paketet',
+        body: 'Ett komplett paket sparar pengar och besvär: bräda, justerbar 3-delad paddel, dubbelverkande pump med manometer, spiralformad leash, fena/fenor, resebackpack och reparationssats.',
+      },
+    ],
+    faqs: [
+      { q: 'Vilken storlek på SUP-bräda behöver jag?', a: 'De flesta nybörjare väljer en allroundbräda på ungefär 11\'0" × 32" × 6" — stabil, mångsidig och lätt att transportera. Tyngre förare eller de som paddlar längre sträckor bör välja en storlek upp.' },
+      { q: 'Är en uppblåsbar SUP lika styv som en hård bräda?', a: 'En modern uppblåsbar drop-stitch-bräda på 15–20 PSI närmar sig en hård nybörjarbräda i styvhet — med fördelen att den får plats i en ryggsäck.' },
+    ],
+    related: [
+      { label: 'Utforska våra SUP-plattformar', href: '/products' },
+      { label: 'Uppblåsbar vs. hård bräda', href: '/inflatable-vs-hardboard' },
+      { label: 'OEM-tillverkning', href: '/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Paddelguide för nybörjare',
+    intro: [
+      'Allt du behöver för dina första pass på vattnet: uppblåsning, första gången i stående, grundpaddeltaget och hur du håller dig trygg medan du bygger upp vana.',
+    ],
+    sections: [
+      {
+        title: 'Pumpa till angivet tryck, inte på känn',
+        body: 'Pumpa till det angivna trycket (vanligtvis 15 PSI) med pumpens manometer. En bräda på 10 PSI känns bra på gräset men viker sig rejält på vattnet. Kontrollera trycket på varma dagar — solen värmer luften inuti och trycket stiger.',
+      },
+      {
+        title: 'Första stegen på brädan',
+        body: 'Lägg i från stranden eller vid ett grunt insteg: knästå först, ställ dig sedan upp en fot i taget över mittlinjen. Håll fötterna axelbrett, knäna mjuka och blicken mot horisonten — brädan följer din blick.',
+      },
+      {
+        title: 'Grundpaddeltaget',
+        body: 'Sträck dig framåt med paddeln, fäll ner bladet helt och dra det längs brädans sida samtidigt som du roterar bålen. Växla sida med några tag mellanrum för att paddla rakt; några breda tag på ena sidan svänger brädan.',
+      },
+      {
+        title: 'Öva på att ramla i först',
+        body: 'Att ramla i är en del av inlärningen. Öva på att komma upp igen på grunt vatten: simma till handtaget i mitten, sparka benen mot ytan och dra dig upp på brädan i en enda rörelse.',
+      },
+    ],
+    faqs: [
+      { q: 'Hur lång tid tar det att lära sig SUP?', a: 'De flesta kan paddla bekvämt på lugnt vatten redan under sitt första pass på en timme. Säkerhet i svängar, vind och distans byggs upp över några pass.' },
+      { q: 'Behöver jag vara vältränad?', a: 'Nej — SUP är mycket tillgängligt. Balans, bålstyrka och flås byggs naturligt av regelbunden paddling.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Uppblåsbar vs. hård bräda',
+    intro: [
+      'De två konstruktionsfamiljerna vinner i olika scenarier. Här är den ärliga jämförelsen för fritidspaddlare, klubbar och uthyrningsverksamheter.',
+    ],
+    sections: [
+      {
+        title: 'Bärbarhet och förvaring',
+        body: 'Uppblåsbara brädor viks ihop till en ryggsäck som får plats i bilbagaget, husvagnen eller garderoben — och är standardvalet för resor. Hårda brädor kräver takräcken, förvaringsutrymme och varsammare hantering.',
+      },
+      {
+        title: 'Styvhet och prestanda',
+        body: 'Premium-hårda brädor är styvare och svarar bättre på hög prestandanivå. Vid fritidstempo presterar en välbyggd uppblåsbar drop-stitch-bräda på 15–20 PSI jämförbart — för en bråkdel av förvaringskostnaden.',
+      },
+      {
+        title: 'Hållbarhet',
+        body: 'Uppblåsbara PVC-brädor tål skrap mot bryggor och stötar mot stranden som skulle knäcka ett hårt skal — en viktig anledning till att uthyrningsflottor och resorter väljer uppblåsbart för daglig gästanvändning.',
+      },
+      {
+        title: 'Total ägandekostnad',
+        body: 'Uppblåsbara brädor kostar mindre att frakta, förvara och underhålla, och klarar rufsigare hantering. För de flesta användare och flottor är en uppblåsbar bräda det bättre helhetspaketet.',
+      },
+    ],
+    faqs: [
+      { q: 'Vilken är bäst för nybörjare?', a: 'Uppblåsbara brädor — stabila, förlåtande, lätta att förvara och hållbara nog för de repor nybörjare orsakar.' },
+      { q: 'Kan en uppblåsbar SUP vara lika snabb som en hård bräda?', a: 'Vid fritidstempo är skillnaden liten. Hårda brädor vinner bara tydligt i tävling och högprestandascenarier.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Säkerhetstips på vattnet',
+    intro: [
+      'En säker session är en rolig session. Dessa grunder gäller lika för sjöar, floder och kustpaddling.',
+    ],
+    sections: [
+      {
+        title: 'Kolla vind och väderprognos',
+        body: 'Landvind är den klassiska SUP-fällan: den för dig bort från stranden snabbare än du kan paddla tillbaka. Kolla prognosen och håll dig, vid tveksamhet, i skyddat vatten.',
+      },
+      {
+        title: 'Ha alltid leash på',
+        body: 'En spiralformad leash håller brädan inom räckhåll om du ramlar i — brädan är din flytutrustning. Välj en leash efter förhållandena: spiral för lugnt vatten, rak för surf.',
+      },
+      {
+        title: 'Flytväst och personlig säkerhet',
+        body: 'Använd en flythjälpsanordning när omständigheterna kräver det, eller när reglerna kräver det. Ha med dig en visselpipa, berätta för någon om din rutt och beräknade återkomsttid, och överväg en telefon i vattentätt fodral.',
+      },
+      {
+        title: 'Känn dina gränser',
+        body: 'Skaffa erfarenhet på lugnt vatten innan du ger dig på vind eller ström. Respektera kallt vatten — det tär snabbt på krafterna. Och paddla aldrig ensam på avlägsna platser eller i öppet vatten utan en plan.',
+      },
+    ],
+    faqs: [
+      { q: 'Behöver jag en flytväst på en SUP?', a: 'Reglerna varierar mellan länder och vattenområden. Även där det är frivilligt är leash plus flythjälpsanordning den ansvarsfulla grunden, och barn ska alltid ha en rätt passande flytväst.' },
+      { q: 'Är det säkert att paddla SUP på en sjö?', a: 'Ja — lugna sjöar är idealiska för inlärning. Kolla vindriktningen, håll dig synlig för båttrafiken och undvik hårt trafikerade farleder.' },
+    ],
+    related: [
+      { label: 'Säkerhetsutrustning på våra plattformar', href: '/products' },
+      { label: 'Kvalitetskontroll i produktionen', href: '/quality' },
+      { label: 'Välj din första bräda', href: '/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Så väljer du en OEM-fabrik för skräddarsydda SUPar',
+    intro: [
+      'Att köpa uppblåsbara paddleboards under eget varumärke handlar om ett beslut: vilken fabrik du litar på med din första batch. Så här utvärderar du en tillverkare av skräddarsydda SUPar innan du lägger en beställning (PO).',
+    ],
+    sections: [
+      {
+        title: 'Börja med en provbeställning, inte en MOQ-diskussion',
+        body: 'En fabrik som bara pratar om minimikvantiteter är tecknet på ett handelskontor, inte en äkta tillverkare. Riktiga tillverkare erbjuder stegvisa minimum — co-branding från 5–10 enheter, pilotpartier från 20–50 enheter, standardproduktion från 90–100+ per rulle på 150 m och projekt med helt egen form på volymnivån. Beställ en liten batch först: den testar kommunikation, specdisciplin och provkvalitet utan att sätta hela lanseringen på spel.',
+      },
+      {
+        title: 'Kolla vad som faktiskt sker internt',
+        body: 'Produktionen av en drop-stitch-SUP omfattar fyra kärnsteg: materiallaminering, svetsning, tryck och montering. En äkta fabrik gör allt under samma tak och låter dig granska lokalerna. Om säljaren inte kan visa en produktionslinje köper du troligen genom en mellanhand utan kontroll över kvalitet eller ledtider.',
+      },
+      {
+        title: 'Prov måste matcha serieproduktionen',
+        body: 'Ett handfärdigt prov är lätt; en konsekvent serieproduktion är svår. Fråga hur fabriken säkrar repeterbarheten: journaler för materialpartier, svetsparametrar och en QC-checklista som tillämpas på varje enskild bräda — inte bara den du godkänner.',
+      },
+      {
+        title: 'Känn dina kostnader innan PO',
+        body: 'Få hela kostnadsbilden skriftligen: enhetspris per kvantitet, verktygs- eller formkostnader om du vill ha en ny form, artwork- och tryckuppsättning samt förpackning.',
+      },
+      {
+        title: 'Begär inspektion av tredje part',
+        body: 'Seriösa OEM-SUP-fabriker välkomnar inspektioner före leverans — många varumärken bokar ett oberoende QC-besök per container. Bekräfta att fabriken kan ordna inspektioner av prov- och produktionsserier, och att avvisade enheter (till exempel brädor som tappar mer än 5 % tryck) tas bort från partiet.',
+      },
+      {
+        title: 'Ledtider som håller',
+        body: 'För uppblåsbara SUPar: räkna med prov inom 7–12 dagar och serieproduktion inom 25–35 dagar efter bekräftad PO och handpenning, plus verktygstid om du beställer en ny form. En fabrik som anger betydligt kortare tider än alla andra citerar från en broschyr, inte från en plan.',
+      },
+    ],
+    faqs: [
+      { q: 'Vilken är minimibeställningen för skräddarsydda SUP-brädor?', a: 'Stegvisa minimum är standard: 1–2 enheter för prov, 5–10 enheter för co-branding, 20–50 enheter för ett pilotparti och 90–100+ enheter per rulle på 150 m för standardvolym; projekt med helt egen form ligger på volymnivån.' },
+      { q: 'Kan jag se ett prov före serieproduktionen?', a: 'Ja — prov är klara inom 7–12 dagar. De flesta fabriker kvittar prov- och formkostnader mot din första produktionsbeställning när den är bekräftad.' },
+      { q: 'Hur verifierar jag att en SUP-fabrik är äkta?', a: 'Be om en live-videovisning av produktionslokalen, kontrollera fabrikens aktiva adress i Qingdao eller ett annat tillverkningscentrum och begär dokumentation av tidigare exportordrar. Provbeställningar är det slutgiltiga beviset.' },
+      { q: 'Vad ska en offert från en SUP-fabrik innehålla?', a: 'Enhetspris per bräda, verktygs- eller formkostnader, artwork-uppsättning, förpackning, villkor för QC och inspektion samt betalningsvillkor.' },
+    ],
+    related: [
+      { label: 'Vår OEM/ODM-tillverkning', href: '/oem-manufacturing' },
+      { label: 'SUP-produktutvecklingsprocess', href: '/product-development' },
+      { label: 'Fabrikskapacitet och anläggning', href: '/factory' },
+      { label: 'Så kontrollerar vi kvalitet — 7 inspektionsgrindar', href: '/quality' },
+      { label: 'Guide för MOQ och flexibel branding (PDF)', href: '/oem-moq-guide' },
+      { label: 'Förtroende och fabriksgaranti', href: '/oem-trust-assurance' },
+      { label: 'Starta ditt skräddarsydda SUP-projekt', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'Privat etikett SUP: vad du faktiskt får från en fabrik',
+    intro: [
+      'Privat etikett är den snabbaste vägen att lansera ett SUP-märke: din logotyp på en beprövad plattform, utan kostnader och risk för att designa en bräda från grunden. Så här ser samarbetet med en tillverkare av skräddarsydda SUPar faktiskt ut.',
+    ],
+    sections: [
+      {
+        title: 'Privat etikett innebär beprövade plattformar',
+        body: 'Du utgår från plattformar som fabriken redan bygger och testar — allround, touring, yoga, race och mer. Fabriken anpassar branding, grafik och utrustning, vilket håller kostnaderna nere och ledtiderna korta. Minimum är stegvisa: co-branding från 5–10 enheter, pilotpartier från 20–50 enheter och 90–100+ enheter per rulle på 150 m för standardvolym i privat etikett.',
+      },
+      {
+        title: 'Branding går utöver logotypen',
+        body: 'Privat etikett omfattar tryck av din logotyp (digital eller screentryck), anpassade färgscheman, EVA-däckpad skurna med din logotyp, branding av tillbehör (paddel, pump, leash), design av försäljningslåda och till och med butiksdisplays. Skicka ditt artwork och fabriken tar fram ett visuellt underlag före produktion.',
+      },
+      {
+        title: 'Vad fabriken sköter åt dig',
+        body: 'En full-service SUP-fabrik sköter artwork-uppsättning, materialinköp, provproduktion, en montage-QC-checklista med 100 punkter, trycktest och exportdokumentation (faktura, packlista, ursprungsintyg). Du granskar underlagen och godkänner provet — fabriken sköter allt annat.',
+      },
+      {
+        title: 'Det du äger: varumärke, marknad, kund',
+        body: 'I ett privat etikett-avtal bygger fabriken brädorna och du äger varumärket. Seriösa tillverkare säljer inte sina egna brädor på din marknad och delar heller inte din skräddarsydda design med andra. Fråga efter marknadsexklusivitet i din offert.',
+      },
+      {
+        title: 'Kostnader: prov, form, artwork-uppsättning',
+        body: 'Räkna med tre typer av avgifter: provavgifter (7–12 dagar), verktygskostnader när en ny form krävs (minimum på volymnivån) och artwork-uppsättning för tryck. De flesta fabriker kvittar prov- och formkostnader mot din första produktionsbeställning.',
+      },
+      {
+        title: 'Från PO till färdig batch',
+        body: 'Ett typiskt privat etikett-förlopp: en handpenning på 30 % startar produktionen, serieproduktionen är klar inom 25–35 dagar efter bekräftad PO och handpenning, och saldot regleras mot den godkända batchen. Räkna med hela partiet redan i din första beställning.',
+      },
+    ],
+    faqs: [
+      { q: 'Vilken är minimibeställningen för SUP-brädor i privat etikett?', a: 'Co-branding börjar vid 5–10 enheter, pilotpartier vid 20–50 enheter och standardvolym i privat etikett vid 90–100+ enheter per rulle på 150 m; projekt med helt egen form ligger på volymnivån.' },
+      { q: 'Kan jag skicka min egen logotyp och mitt artwork?', a: 'Ja — skicka din logotyp och ditt artwork; fabriken tar fram ett visuellt underlag före produktion så att du godkänner färger, placering och ytbehandling.' },
+      { q: 'Är min skräddarsydda SUP-design exklusiv för mitt varumärke?', a: 'Ja, enligt standardvillkoren för privat etikett. Begär en exklusivitetsklausul i ditt köpeavtal; fabriker som vår säljer inte vidare din design med ditt varumärke.' },
+      { q: 'Hur lång tid tar en privat etikett-beställning?', a: 'Prov skickas inom 7–12 dagar; serieproduktionen är klar inom 25–35 dagar efter bekräftad PO och handpenning. Räkna med 8–12 veckor för det första fulla partiet.' },
+    ],
+    related: [
+      { label: 'Lösningar för privat etikett', href: '/solutions/private-label-sup' },
+      { label: 'Beprövade plattformar', href: '/products/all-around' },
+      { label: 'OEM/ODM-tillverkning', href: '/oem-manufacturing' },
+      { label: 'Starta ditt skräddarsydda SUP-projekt', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'Att köpa SUP-flottor för uthyrning, resorter och klubbar',
+    intro: [
+      'Flottköpare behöver andra svar än slutkunder: hållbarhet per pass, standardiserade reservdelar, kvantiteter på volymnivå och en leverantör som levererar säsong efter säsong. Så här planerar du innan du beställer din första flotta.',
+    ],
+    sections: [
+      {
+        title: 'Standardisera på en eller två specifikationer',
+        body: 'Flottverksamhet bygger på standardisering: en brädstorlek (vanligtvis 10\'6"–11\'0" × 32") för de flesta gäster, ett tåligt paket och en reservdelsats. Det förenklar reparationer, personalutbildning, förvaring och återbeställningar. Motstå frestelsen att köpa tio olika modeller.',
+      },
+      {
+        title: 'Högt belastade brädor är en annan produkt',
+        body: 'En uthyrningsbräda tål dussintals pass per säsong. Specificera tjockare PVC-lager, förstärkta railband och kraftigare tillbehör än för konsumentversionen. Fråga fabriken hur flottspecifikationen skiljer sig från konsumentversionen — äkta anläggningar har båda.',
+      },
+      {
+        title: 'Anpassa kvantiteterna till efterfrågan',
+        body: 'Beräkna flottstorleken mot daglig rotation och säsongslängd: 20–30 brädor räcker för en liten verksamhet, 100+ för en välbesökt resort eller klubb. Be fabriken om kvantitetsrekommendationer som matchar ditt efterfrågemönster.',
+      },
+      {
+        title: 'Beställ reservdelar tillsammans med flottan',
+        body: 'Beställ reservventiler, reparationssatser, pumpar, leashes och paddlar i samma PO — de kostar lite per enhet nu och är svåra att få tag på mitt under säsongen. Be fabriken om en rekommenderad reservdelsandel (vanligtvis 5–10 % av flottstorleken för förbrukningsartiklar).',
+      },
+      {
+        title: 'Beställ inför säsongen, inte under',
+        body: 'Produktionen tar 25–35 dagar efter bekräftad PO och handpenning. För att ha brädor på stranden i vår, bekräfta beställningarna sent på hösten så att produktionen landar före säsongen.',
+      },
+      {
+        title: 'Branda flottan för andrahandsvärde',
+        body: 'Flottbrädor kan bära din logotyp, ett numreringssystem för uthyrningen och färgkodning per storlek. Screentryckta logotyper på serier om 200+ enheter är kostnadseffektiva, och en brandad flotta fungerar även som marknadsföring på vattnet.',
+      },
+    ],
+    faqs: [
+      { q: 'Vilken är den bästa SUP-brädan för en uthyrningsflotta?', a: 'En allroundbräda på 10\'6"–11\'0" × 32" med förstärkt konstruktion är industristandarden — stabil för nybörjare, hållbar för dagligt bruk och lätt att sköta.' },
+      { q: 'Hur många brädor behöver en uthyrningsverksamhet?', a: 'Räkna med 20–30 brädor för en liten verksamhet, skalat efter rotation: 100+ enheter för välbesökta resorter och klubbar. Reservdelar bör vara 5–10 % av flottstorleken.' },
+      { q: 'Kan flottbrädorna bära vår logotyp?', a: 'Ja — screentryckta logotyper, uthyrningsnummer och färgkodade däck är standardanpassningar, särskilt kostnadseffektiva från 200 enheter.' },
+      { q: 'Hur lång tid tar en flottbeställning?', a: 'Prov inom 7–12 dagar, produktion inom 25–35 dagar efter bekräftad PO och handpenning — beställ därför flottan i god tid före säsongsstarten.' },
+    ],
+    related: [
+      { label: 'Lösningar för resorter och klubbar', href: '/solutions/resort-sup' },
+      { label: 'Fallstudie: uthyrningsflotta på flera platser', href: '/projects/rental-fleet-multi-site' },
+      { label: 'Plattformar för flottor', href: '/products/all-around' },
+      { label: 'Prata med en projektspecialist', href: '/contact' },
+    ],
+  },
+]
+
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -2171,6 +2439,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'SUP-vloten kopen',
       intro:
         'Vlootplanning voor verhuur, resorts en clubs: robuuste specificatie, aantallen per container, reserveonderdelen en seizoensgebondenheid.',
+    },
+  ],
+  sv: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'Så väljer du din SUP',
+      intro:
+        'Ditt val av första uppblåsbara SUP handlar om brädans storlek, bredd, konstruktion och vad som ingår i paketet. Här är vad som spelar roll, i klartext.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Paddelguide för nybörjare',
+      intro:
+        'Allt du behöver för dina första pass på vattnet: uppblåsning, första gången i stående, grundpaddeltaget och hur du håller dig trygg.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Uppblåsbar vs. hård bräda',
+      intro:
+        'De två konstruktionsfamiljerna vinner i olika scenarier. Här är den ärliga jämförelsen för fritidspaddlare, klubbar och uthyrningsverksamheter.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Säkerhetstips på vattnet',
+      intro:
+        'En säker session är en rolig session. Dessa grunder gäller lika för sjöar, floder och kustpaddling.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Så väljer du en OEM-fabrik för skräddarsydda SUPar',
+      intro:
+        'Så här utvärderar du en tillverkare av skräddarsydda SUPar innan du lägger en beställning: provbeställning, egen produktion, prov, kostnader och inspektion.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'Privat etikett SUP',
+      intro:
+        'Vad ett privat etikett-avtal faktiskt innebär: beprövade plattformar, komplett branding, kostnader, exklusivitet och ledtider.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'Att köpa SUP-flottor',
+      intro:
+        'Flottplanering för uthyrning, resorter och klubbar: robust specifikation, kvantiteter per container, reservdelar och säsongsvariation.',
     },
   ],
 }

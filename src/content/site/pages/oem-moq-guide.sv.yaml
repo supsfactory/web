@@ -1,0 +1,170 @@
+meta:
+  title: 'SUP-MOQ-guide: flexibel varumärkessättning och minsta beställningsmängder'
+  description: 'Så beräknas MOQ för uppblåsbara SUP''er: drop-stitch-rullar på 150 m ger 90–100 brädor, co-branding från 5–10 stycken och transparenta formkostnader.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'MOQ SUP'
+    - 'minsta beställningsmängd uppblåsbara SUP''er'
+    - 'SUP co-branding-program'
+    - 'SUP små partier'
+    - 'MOQ anpassade paddelbrädor'
+    - 'SUP OEM-fabrik Kina'
+
+hero:
+  tagline: 'Transparent och projektrelaterat'
+  title: 'Guide till flexibel varumärkessättning och produktions-MOQ'
+  subtitle: 'Förstå grundfysiken i råmaterialet drop-stitch som styr SUP-produktionskörningarna — och hur vårt co-brandingprogram med låg tröskel fungerar för uthyrare, klubbar, resorter och växande vattensportsvarumärken. Utformad och hanterad av Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Kort svar'
+  text: 'MOQ är inte en storlek som passar alla. Varje MOQ fastställs per projekt: skalpform och utrustning, färg- och PVC-varianter, artworkens komplexitet, förpackning och tillbehörens omfattning. Fullständig produktion i standardmängder sker med 90–100 enheter per parti från en standardrull med 150 m drop-stitch-tyg; co-branding för små partier startar från 5–10 enheter; och varje projekt delas in i tre tydligt åtskilda faser — provutveckling (1–2 enheter), pilotorder (20–50 enheter) och volymproduktion (90–100+ enheter). Vi bekräftar den exakta beräkningen för er SKU-mix före offerten — inga suddiga ”låg MOQ”-löften, inga dolda kompromisser.'
+  verified: 'September 2026'
+
+moq_principle:
+  tagline: Den tekniska logiken
+  title: 'Varför standard-MOQ är 90–100 enheter: grundfysiken i råmaterialrullar'
+  subtitle: 'Produktionspartens storlek är inga slumpmässiga siffror från sälj kontoret — de följer av rullängden på rå drop-stitch-tyg och fysiken i byte av rull på linjen.'
+  body: |
+    **Baslinjen på 150 meter rått tyg.** Drop-stitch-tyg med hög hållfasthet produceras och beläggs på löpande moderullar. Den industriella standardlängden för ett parti är 150 meter kontinuerligt material.
+
+    **Avkastningsberäkningen (90 till 100 brädor).** Med en standard SUP Touring- eller Allround-skalp (från 10 ft 6 in till 11 ft 6 in) ger en moderull på 150 m cirka 90–100 färdiga paddelbrädor.
+
+    **Inga tygfogar.** Hela rullar garanterar fullständig strukturell kontinuitet — inga riskfyllda tvärgående tygfogar och jämn fibrspänning på brädans över- och undersida.
+
+    **Termisk och limkalibrering.** Våra automatiserade högfrekvenslinjer för varmlimning kräver 2 timmars förvärmning, temperaturprofilering och tryckkalibrering. Ett fullständigt parti på 90–100 enheter absorberar dessa fasta inställningskostnader och ger därmed lägst möjliga kostnad per enhet.
+
+moq_tiers:
+  tagline: Två vägar till ditt varumärke
+  title: 'Helt anpassad OEM i volym vs. co-branding för små partier'
+  subtitle: 'En fabrik, två ingångspunkter: helt anpassad massproduktion för etablerade serier och ett co-brandingprogram med låg tröskel för klubbar, uthyrdingscenter och växande varumärken.'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Helt anpassad OEM i volym — 90–100 enheter per parti'
+      desc: 'Styrt av standardrullens längd på 150 m rått drop-stitch-tyg av hög kvalitet, för optimal materialanvändning och strukturell enhetlighet. · 100 % helt anpassad: exklusiv skalpform och anpassade Pantone-färgvarianter · Fullständig digital tryckning eller silkeskärmstryck · Anpassad kommersiell förpackning med din varumärkessättning, tryckta kartonger och märkta tillbehör · Maximal kostnadseffektivitet och skalfördelar'
+      link: '/sv/contact#custom-oem'
+      link_label: 'Begär OEM i volym'
+    - icon: B
+      icon_bg: green
+      title: 'Co-branding för små partier — under 20 enheter'
+      desc: 'En lösning med låg tröskel, byggd på våra i praktiken bevisade årliga produktkollektioner för klubbar, uthyrdingscenter och resorter — utan tunga lagerreserver. · Fast skalp och geometri: i praktiken bevisade skalpformer med CE/ISO 25649-överensstämmelse · Primär identifiering: officiell iSupfactory-varumärkessättning i den centrala zonen · Sekundär personlig varumärkessättning: din logotyp på nos eller sidorails · 100 % kontroll per bräda eller delvis med 24-timmars tryck- och lufttätningstest'
+      link: '/sv/contact#cobranding'
+      link_label: 'Starta co-branding för små partier'
+
+moq_fees:
+  tagline: Transparenta silkeskärmskostnader
+  title: 'Prisstruktur för co-branding — detaljerad i förväg'
+  subtitle: 'Tydliga, specificerade priser för silkeskärmstryck i små partier. Formkostnaderna debiteras en gång vid den första konfigurationen och faller bort vid återtryck med samma artworkformat.'
+  headers:
+    fee: Avgiftspost
+    amount: Belopp
+    detail: Detaljer
+  rows:
+    - fee: 'Formkostnad för silkeskärmstryck (engångs, logotyp upp till 30 cm)'
+      amount: '$10.00 USD'
+      detail: 'En gång vid den första konfigurationen; faller bort vid återtryck med samma artworkformat.'
+    - fee: 'Formkostnad för silkeskärmstryck (engångs, logotyp upp till 50 cm)'
+      amount: '$15.00 USD'
+      detail: 'En gång vid den första konfigurationen; faller bort vid återtryck med samma artworkformat.'
+    - fee: 'Fabrikens bearbetnings- och precisionstryckavgift'
+      amount: '$1.00 USD per bräda'
+      detail: 'Den manuella koordineringen av placeringen, lösningsmedelsförbehandling, färgöverföring och termisk härdning.'
+
+moq_stages:
+  tagline: 'Prov · Pilot · Volym'
+  title: 'Tre tydligt åtskilda kvantitetsnivåer'
+  subtitle: 'Produktionsmängderna för prov, pilot och volym skiljer sig åt. Varje projekt delas in i tre separata faser, så att du kan validera innan du binder dig.'
+  steps:
+    - step: '01'
+      title: 'Provutveckling (1–2 enheter)'
+      desc: 'Fysisk bekräftelse av skalpens styvhet, det halksäkra EVA-deckpadets vidhäftning, grafikens precision och tillbehörens passform före någon finansiell förpliktelse. Provpriserna gäller och räknas av mot produktionsbeställningen efter undertecknad kontrakt.'
+    - step: '02'
+      title: 'Pilotorder (20–50 enheter)'
+      desc: 'Kommersiella tester före säsong och regional marknadsvalidering med befintliga skalpplattformar, standardmaterial och förenklad förpackning, för att minimera inställningsarbetet.'
+    - step: '03'
+      title: 'Volymproduktion (90–100+ enheter)'
+      desc: 'Bekräftas efter fryst BOM, färdig artwork, anpassad förpackning och planerade leveransdatum — hela rullar på 150 m, anpassade Pantone-tyger, skräddarsydd förpackning, volymrabatt och fullständig partispårbarhet genom hela leveranskedjan.'
+
+moq_factors:
+  tagline: Vad som avgör din MOQ
+  title: 'Varför den helt anpassade MOQ alltid är projektspecifik'
+  subtitle: 'För 100 % skräddarsydd produktion beräknas MOQ ur hela produktionsarkitekturen — dessa fyra komponenter bedöms tillsammans före offerten.'
+  headers:
+    component: Projektkomponent
+    driver: Produktionsdrivande faktor
+    impact: Påverkan på minsta mängd
+  rows:
+    - component: 'Skalpform och utrustning'
+      driver: 'Befintliga fabrikens rocker-former vs. anpassad CAD-skärverktyg och EVA-varmpressutrustning'
+      impact: 'Befintliga plattformar: pilotorder från 20 stycken. Egna skalper: avskrivning av egen utrustning krävs.'
+    - component: 'Färg- och PVC-varianter'
+      driver: 'Standardlagretiketter vs. egna Pantonefärgade PVC-blad'
+      impact: 'Anpassat Pantone-PVC kräver egna kemiska färgserier med egna minimimängder av råmaterial.'
+    - component: 'Förpackning med varumärkessättning'
+      driver: 'Standardkartonger med streckkodsetiketter vs. kommersiella 5-lagers färgkartonger och märkta bruksanvisningar'
+      impact: 'Anpassade färgkartonger har ett eget minimivolym för offsettryck (vanligtvis 500+ kartonger).'
+    - component: 'Tillbehörspaket'
+      driver: 'Standardpaddlar i aluminium eller nylon vs. skräddarsydda karbonpaddlar och märkta pumpar'
+      impact: 'Helt märkta tillbehör följer produktionspartierna hos underleverantörerna.'
+
+moq_downloads:
+  tagline: ' officiella dokument'
+  title: 'Tvåspråkiga policydokument — ladda ner och dela'
+  subtitle: 'Officiella dokument från Qingdao Vatrad Group Co., Ltd., redo att bifogas inköpsförfrågningar. Båda dokumenten är tvåspråkiga (engelska/kinesiska).'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Guide till flexibel varumärkessättning och MOQ (PDF)'
+      desc: 'Officiell B2B-guide (Del I, DOC-MOQ-EXP-2026-EN, publicerad 14 aug 2026): den tekniska logiken bakom avkastningen från drop-stitch-rullar på 150 m (90–100 brädor), co-brandingprogrammet från 5–10 enheter, transparenta silkeskärmskostnader och de tre produktionsnivåerna.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Ladda ner guiden (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Policy för flexibel varumärkessättning och co-branding (PDF)'
+      desc: 'Officiellt policydossier (Del 1, POL-MOQ-2026-V1): reglerna för co-branding i små partier, det projektrelaterade MOQ-ramverket, de fyra faktorer som avgör minimimängder och det gemensamma undertecknandet av VP Sales, chefingenjören och QA-direktören.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link_label: 'Ladda ner policyn (PDF)'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Vanliga frågor om MOQ'
+  items:
+    - q: 'Beräknas MOQ per order, per modell eller per färgvariant?'
+      a: 'MOQ kan gälla per modell, färgvariant, artworkversion, förpackningskonfiguration eller total order. Eftersom olika drop-stitch-tjocklekar (12 cm mot 15 cm) och PVC-färger kommer från separata råmaterialrullar kräver en order på 50 brädor fördelade på 5 färger 5 separata tygrullar. Vi bekräftar den exakta beräkningen mot er SKU-matris före offerten, så att ni kan planera er mix.'
+    - q: 'Kan jag beställa ett prov före massproduktionen?'
+      a: 'Ja. Provutvecklingen (1–2 enheter) kontrollerar skalpens styvhet, det halksäkra EVA-deckpadets vidhäftning, grafikens precision och tillbehörens passform före godkännandet för massproduktion. Provpriserna gäller och räknas av mot produktionsbeställningen efter undertecknad kontrakt.'
+    - q: 'Varför har anpassad kommersiell förpackning en egen MOQ?'
+      a: 'Anpassade flexo- eller offsetpressar för kartongerna kräver en minsta inställningsvolym på 500+ enheter. Vi erbjuder en hybridlösning med förpackningslager: vi tillverkar de 500 anpassade tryckta kartongerna, lagrar överskottet i vårt rena lager och levererar ut det enligt dina planerade brädleveranser — så även en mindre brädorder kan skickas helt märkt i kommersiell kartongförpackning.'
+    - q: 'Varför är standard-MOQ 90–100 enheter?'
+      a: 'Standard-MOQ följer råmaterialet: en moderull på 150 m drop-stitch-tyg med hög hållfasthet ger cirka 90–100 färdiga brädor för en standard Touring- eller Allround-skalp. Hela rullar eliminerar tygfogar, håller fibrspänningen jämn och absorberar svets- och laminatlinjernas 2-timmars kalibrering — till lägst möjliga kostnad per enhet.'
+    - q: 'Sänker en större mängd priset per enhet?'
+      a: 'I de flesta projekt, ja. Större mängder förbättrar materialavkastningen, sprider produktionslinjernas fasta inställningskostnader över fler brädor och sänker förpackningskostnaden per enhet.'
+    - q: 'Kommer co-brandingens formkostnader tillbaka vid återtryck?'
+      a: 'Nej. Formkostnaderna för silkeskärmstryck debiteras en gång vid den första konfigurationen och faller bort vid återtryck med samma artworkformat. Du betalar endast fabrikens bearbetnings- och tryckavgift på $1.00 USD per bräda.'
+    - q: 'Binder en MOQ-rådgivningsförfrågan mig till en beställning?'
+      a: 'Nej. En projektrelaterad MOQ-rådgivningsförfrågan ger Qingdao Vatrad Group Co., Ltd:s tekniska team enbart möjlighet att bedöma din tekniska briefing och rådgöra om det mest ekonomiska produktionsspåret. En sekretessessavtal (NDA) finns tillgängligt innan ni delar egna tekniska specifikationer eller artwork.'
+
+evidence_review:
+  tagline: 'Bevis & verifiering'
+  title: 'KONTROLLERADE SPECIFIKATIONER'
+  body: 'Alla produktionspåståenden på denna sida har verifierats av vårt Manufacturing Engineering-team i fabriken i Laixi, Qingdao. Certifikat, QC-testprotokoll, tryck- och strukturtestrapporter och register över partispårbarhet finns tillgängliga på begäran. Specifikationerna verifierades senast i september 2026.'
+
+cta:
+  title: 'Behöver du MOQ-rådgivning för ditt SUP-projekt?'
+  subtitle: 'Dela er målmodell, den uppskattade första ordermängden och era krav på varumärkessättning. Vi rådgör om prov-, pilot- eller volymspåret är rätt steg. En förfrågan innebär ingen skyldighet till en definitiv ordermängd — ett samtal under NDA är möjligt.'
+  actions:
+    - variant: primary
+      text: Begär projektrelaterad MOQ-rådgivning
+      href: /sv/contact#moq-guide
+    - text: Detaljer om anpassad SUP-MOQ och leveranstider
+      href: /sv/sup-oem-moq-lead-time
+    - text: Lansera ett nytt varumärke med en provorder
+      href: /sv/new-brand-trial-order
+    - text: Verifiera fabriken och kvalitetssystemet
+      href: /sv/oem-trust-assurance
+    - text: Teststrukturen i 7 steg
+      href: /sv/quality'
+    - text: Översikt över OEM- och ODM-produktion
+      href: /sv/oem-manufacturing'
+    - text: Jämförelse av SUP-konstruktioner
+      href: /sv/sup-construction-comparison

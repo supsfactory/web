@@ -1,0 +1,242 @@
+meta:
+  title: 'Kontroll av icke-konformiga SUP-brädor & omtillverkning | OEM-fabrik | iSupfactory'
+  description: 'Kontroll av icke-konformiga produkter (ISO 9001:2015 punkt 8.7): NCR-blockering, kontrollerad omtillverkning enligt SRI, oberoende omverifiering och övervakad destruktion.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'kontroll icke-konformiga produkter'
+    - 'sup omtillverkning reinspektionsprocess'
+    - 'icke-konformiga resultat iso 9001'
+    - 'ncr produktionskontroll'
+    - 'sup destruktionsintyg avfall'
+    - 'oem kvalitetskontroll uppblåsbar sup'
+
+hero:
+  tagline: Kontroll av icke-konformiga produkter
+  title: Separations-, omtillverknings- och omverifieringsprocess för icke-konformiga produkter
+  subtitle: 'Hos QINGDAO VATRAD GROUP.,LTD. släpps en icke-konformig bräda aldrig igenom. Varje produkt eller komponent som missar de definierade acceptanskriterierna identifieras, registreras mot en avvikelserapport (NCR), märks och separeras, bedöms avseende berörd omfattning och hanteras på rätt befogenhetsnivå. Tillåten omtillverkning sker enligt kontrollerade instruktioner, de korrigerade artiklarna omverifieras mot de ursprungliga acceptanskriterierna — inklusive ett fullständigt omtest där det krävs — och produkten skickas först efter auktoriserad kvalitetsfrigörning. Den här sidan presenterar vår kontrollerade standard enligt ISO 9001:2015 punkt 8.7 och spårbarhetsbevisen bakom den.'
+  actions:
+    - text: Ladda ner SOP för NCP-kontroll (PDF)
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Ladda ner kassations- och destruktionsintyget (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: Begär kvalitetskontroll
+      href: /contact
+
+answer:
+  label: 'Tydligt svar'
+  text: 'Icke-konformiga produkter döljs aldrig, omtillverkas informellt eller frigörs utan verifiering hos QINGDAO VATRAD GROUP.,LTD. Varje identifierad avvikelse registreras mot den berörda produkten, partiet eller komponenten och kopplas till ett NCR. Artikeln märks (HOLD / QUARANTINE / REJECTED), separeras fysiskt och den berörda omfattningen bedöms per parti, materialparti, processfas och dokumentrevision. Beslutet fattas på den befogenhetsnivå som motsvarar felets allvarlighetsgrad: mindre problem signeras på linjenivå, allvarliga problem kräver ett beslut av QC-chefen + teknisk ingenjör med kontrollerad omtillverkningsinstruktion och oberoende omverifiering på 100 %, och kritiska problem kräver ett beslut av Material Review Board med kundens skriftliga samtycke där det krävs — annars obligatorisk övervakad destruktion. Omtillverkade artiklar omverifieras mot de ursprungliga acceptanskriterierna, lufttätningsreparationer får en fullständig ny tryckprovscykel och frigörning inför leverans sker endast efter auktoriserad kvalificering. Återkommande eller systematiska problem aktiverar rotorsaksanalys och korrigerande åtgärder (CAPA).'
+  verified: 'September 2026'
+
+stats:
+  tagline: Kortfattat
+  title: Avvikelsehanteringen i siffror
+  stats:
+    - value: '7'
+      label: Faser från identifiering till korrigerande åtgärd
+    - value: '100%'
+      label: Omverifiering av varje omtillverkad bräda av oberoende QA
+    - value: '24u'
+      label: Helt nytt tryckprov för lufttätningsreparationer
+    - value: '≥ 5 år'
+      label: Förvaring av bevisen för övervakad kassation (SHA-256-lager)
+
+nc_intro:
+  tagline: Kontroll av icke-konformiga produkter
+  title: Vad som händer när en produkt inte uppfyller kriterierna
+  body: |
+    Produkter eller komponenter som inte uppfyller de definierade acceptanskriterierna identifieras och sätts under kontroll för att förhindra oavsiktlig användning, fortsatt bearbetning eller leverans. De tillämpliga acceptanskriterierna baseras på det godkända provet, den tekniska specifikationen, grafiken, stycklistan, förpackningskraven och projektets inspektionsplan.
+
+    Icke-konformiga artiklar bedöms för att fastställa den berörda omfattningen och rätt åtgärd. Beroende på problemet kan artikeln hållas kvar, omtillverkas enligt kontrollerade instruktioner, bytas ut, kasseras eller hanteras enligt en godkänd process. Omtillverkade eller korrigerade artiklar inspekteras om före frigörningen. Frigörning inför leverans är endast tillåten när de relevanta kvalitetsregistren är kompletta och produkten överensstämmer med de tillämpliga acceptanskriterierna.
+
+nc_flow:
+  tagline: Kontrollerad sluten cykel i sju faser
+  title: Från identifiering till korrigerande åtgärd
+  subtitle: 'En kontrollerad cykel för varje avvikelse: identifiera, blockera, verifiera, omtillverka eller byta ut, kontrollera om, frigöra eller kassera, förbättra.'
+  steps:
+    - step: '01'
+      title: Identifiera
+      desc: 'Varje identifierad avvikelse registreras mot den berörda produkten, partiet eller komponenten och bedöms mot de tillämpliga projektkraven. Detekteringen kan ske vid varuingången, vid processkontrollen, vid slutinspektionen, vid förpackningen eller vid kundens eller tredjeparts inspektion.'
+    - step: '02'
+      title: Blockera
+      desc: 'Artiklarna identifieras tydligt och förs under kontrollerad blockerings- eller karantänstatus för att förhindra oavsiktlig användning, fortsatt bearbetning eller leverans. Etiketterna HOLD / QUARANTINE / REJECTED bär NCR-numret, SKU, parti, antal, felbeskrivning och datum.'
+    - step: '03'
+      title: Verifiera
+      desc: 'Den berörda omfattningen och rätt åtgärd bedöms: en enskild enhet, ett skiftparti, ett helt parti eller flera partier — via gemensamma materialpartier, grafikrevisioner, processfaser och dokumentrevisioner. Vid behov tillämpas ytterligare inneslutning eller förstärkt inspektion.'
+    - step: '04'
+      title: Omtillverka eller byta ut
+      desc: 'Tillåten omtillverkning sker enligt godkända instruktioner som identifierar den berörda artikeln, metoden, materialen, kontrollpunkterna och kraven på omverifiering. Oauktoriserade ändringar av produktspecifikation, grafik, tillbehörskonfiguration eller förpackning är aldrig tillåtna. Ersättningsartiklar omfattas av de tillämpliga inspektionsportarna.'
+    - step: '05'
+      title: Kontrollera om
+      desc: 'Omtillverkade eller korrigerade artiklar inspekteras om mot de tillämpliga acceptanskriterierna. Det ursprungliga felet och alla tillhörande egenskaper som kan ha påverkats av omtillverkningen verifieras före frigörningen — av oberoende QC och, för lufttätningsreparationer, med en fullständig 24-timmars tryckprovscykel.'
+    - step: '06'
+      title: Frigöra eller kassera
+      desc: 'Produkten frigörs först när den krävda omverifieringen är klar och auktoriserad kvalitetspersonal bekräftar överensstämmelse med de tillämpliga projektkraven. Artiklar som inte kan bringas till överensstämmelse kasseras, byts ut, returneras eller hanteras enligt kontrollerade procedurer — inklusive övervakad fysisk destruktion.'
+    - step: '07'
+      title: Korrigerande åtgärd
+      desc: 'Återkommande, betydande eller systematiska avvikelser undersöks avseende orsak och korrigerande åtgärd (CAPA). Förbättringar kan omfatta uppdateringar av arbetsinstruktioner, materialkontroller, kontrollpunkter, utbildning, leverantörshantering eller dokumenthantering.'
+
+nc_pillars:
+  tagline: Hörnstenar i köparens förtroende
+  title: Tre kontroller som skyddar ditt varumärke
+  subtitle: 'Processen är byggd kring de frågor som utländska köpare faktiskt ställer: döljs problem, unkommer omtillverkningen kontrollen och omverifieras reparerade brädor.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Endast kontrollerade instruktioner
+      desc: 'Omtillverkningen regleras strikt av auktoriserade Standard Rework Instructions (SRI). Ej godkända ändringar i verkstaden, variations i specifikation eller ändringar i grafik utan skriftligt tillstånd är absolut förbjudna.'
+    - icon: 2
+      icon_bg: green
+      title: Oberoende omverifiering
+      desc: 'Omtillverkade brädor omverifieras på 100 % av QA-inspektörer mot de ursprungliga acceptanskriterierna. Lufttätningsreparationer kräver en fullständig 24-timmars tryckprovscykel — aldrig en delvis verifiering.'
+    - icon: 3
+      icon_bg: purple
+      title: Auktoriserad frigörning & spårbarhet
+      desc: 'Frigörning inför leverans är endast tillåten efter fullständig NCR-dokumentation och QC-auktorisering, där statusen går från HOLD till RELEASED. Systematiska eller återkommande avvikelser aktiverar automatiskt CAPA-arbetsflöden för rotorsaksanalys.'
+
+nc_photos:
+  tagline: I produktionshallen
+  title: Blockering, omtillverkning & omverifiering i praktiken
+  subtitle: Bilderna från vår verkstad i Qingdao visar hur icke-konformiga brädor fysiskt separeras, omtillverkas enligt kontrollerade instruktioner och omverifieras före varje frigöringsbeslut.
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Uppblåsbara SUP-brädor uppumpade i fabrikens lufttätningstestområde, övervakade med digitala manometrar
+      title: Omverifieringsport
+      desc: 'Efter omtillverkningen återvänder varje bräda till QC-testområdet för den oberoende verifieringen: uppumpad och övervakad med digitala manometrar mot projektets godkända acceptanskriterier — aldrig en delvis verifiering.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Kvalitetskontrollchecklistor och kontrollerade statusetiketter vid fabrikens inspektionsstation
+      title: Blockerings- och karantänstation
+      desc: 'Inspektionsstation med QC-checklista och statusmärkning. Varje artikel som inte uppfyller acceptanskriterierna märks HOLD / QUARANTINE, registreras mot ett NCR och separeras fysiskt — den får nå förpackningen först efter ett auktoriserat beslut och bindande omverifiering.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: En QC-tekniker utför kontrollerad lufttätningsreparation på en uppblåsbar SUP vid fabrikens omtillverkningsstation
+      title: Kontrollerad omtillverkningsstation
+      desc: 'Omtillverkningen sker på en särskild station enligt en godkänd SRI-instruktion: felet märks, brädan förblir i HOLD och återvänder efter erforderlig härdningstid till testområdet för omverifiering mot de ursprungliga acceptanskriterierna.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: Demonstration i verkstaden av kvalitetskontrollerna i fabriken i Qingdao
+      title: QC-demonstration i verkstaden
+      desc: 'Demonstrationsbild från verkstaden som visar hur kvalitetskontrollerna tillämpas i praktiken och vilka register för inspektion och statusövergångar som den här sidan löpande hänvisar till.'
+
+nc_severity:
+  tagline: Felets allvarlighetsgrad & befogenhet
+  title: Klassificering av allvarlighetsgrad & åtgärdsbefogenhet
+  subtitle: 'Inte alla avvikelser hanteras på samma nivå — åtgärdsbefogenheten skalar med felets allvarlighetsgrad, från frigörning på linjenivå till Material Review Board med kundens samtycke.'
+  headers:
+    severity: Allvarlighetsgrad
+    examples: Typiska exempel
+    authority: Åtgärds- och kontrollbefogenhet
+    control: Villkor för frigörning
+  rows:
+    - severity: 'Mindre'
+      examples: 'Beskuren kartonghörn, lätt felinriktning av ett icke-kritiskt tillbehör'
+      authority: 'Frigöring på plats av sektions-QC-chefen + linjesupervisor, med utbyte eller frigörning'
+      control: 'Registrerat i NCR; ingen påverkan på produktens funktion eller kundens krav'
+    - severity: 'Allvarlig'
+      examples: 'Långsam läcka från ventilen, EVA-felinriktning utanför tolerans (>2 mm), saknat tillbehör'
+      authority: 'QC-chefen + teknisk ingenjör utfärdar en kontrollerad omtillverkningsinstruktion (SRI)'
+      control: 'Oberoende omtest på 100 % av de ursprungliga felen och de påverkade egenskaperna före frigörningen'
+    - severity: 'Kritisk'
+      examples: 'Skada på drop-stitch-kammaren, kantrem eller högtrycksrev, felaktigt tryckt kundlogotyp eller färgavvikelse'
+      authority: 'Beslut av Material Review Board (MRB); kundens skriftliga samtycke där det krävs'
+      control: 'Ingen frigörning utan auktoriserat samtycke; annars obligatorisk övervakad fysisk destruktion'
+
+nc_matrix:
+  tagline: Matrix över ingenjörsprotokollen
+  title: Beslutsmatrix för SUP-defekter & omverifiering
+  subtitle: Standardiserade ingenjörsprotokoll som tillämpas på de vanligaste produktionsavvikelserna — samma kvantifierade parametrar som kunder kan verifiera under revisioner.
+  headers:
+    defect: Defektkategori
+    protocol: Kontrollerat åtgärdsprotokoll
+    validation: Oberoende omverifiering & validering
+  rows:
+    - defect: 'Långsam läcka från ventilen'
+      protocol: 'Isolera brädan. Demontera ventilkärnan med kalibrerat momentverktyg (25 N·m), rengör innergängorna, byt ut silikonens O-ring och dra åt igen.'
+      validation: 'Dyk ner i tvållösning; pump upp till 18 PSI och genomför ett fullständigt omtest av 24-timmars tryckförlust (ΔP ≤ 0.05 PSI).'
+    - defect: 'Luftbubblor i kantsömen'
+      protocol: 'Blockera skiftpartiet. Delaminera bälgregionen med värmestödd munstycke, rengör ytan med lösningsmedel och applicera tvåkomponents PU-lim under 5 bar tryck.'
+      validation: '100 % visuell och taktil kontroll av sömen; strukturell verifieringstryckprov (18.0 PSI) utöver 24-timmars lufttätning.'
+    - defect: 'Felinriktning av EVA-pad'
+      protocol: 'Värmestödd borttagning med verktyg i reglerad temperatur (80°C). Ny inriktning med en precisionstillbehörsform för positionering.'
+      validation: 'Verifiering av spelstoleransen vid tillverkningen (≤ ±1.5 mm), verifiering av rutnätets symmetri, 100 % vidhäftningstest av kanterna.'
+    - defect: 'Fel i branding/logotyp'
+      protocol: 'Omedelbart stopp av trycklinjen. Blockera alla tryckta paneler. Verifiera vektorrevisionen med kunden; noll oauktoriserade ändringar.'
+      validation: 'Färgverifiering med spektrofotometer (ΔE ≤ 1.5); 100 % visuell inspektion av textens inriktning mot kundens undertecknade master-vektor-PDF.'
+    - defect: 'Förpackningsavvikelse / saknad SKU'
+      protocol: 'Blockera exportpalleten. Öppna och utför en 100 % positionskontroll enligt BOM (pump, fena, leash, paddel, reparationsstav).'
+      validation: 'Validering med integrerade elektroniska dynamiska kontrollvågar (±30 g variation); verifiering med optiska skannrar för 2D-streckkoder.'
+
+nc_scrap:
+  tagline: Noll utflöde till marknaden
+  title: Kassation & övervakad destruktion — anti-divideringsprotokoll med nolldefekter
+  body: |
+    Utländska varumärkespartners behöver förvissning om att defekta brädor aldrig hamnar i sekundära detaljhandelskanaler, grå marknader eller e-handel. Brädor som inte kan bringas till överensstämmelse destrueras enligt ett övervakat och registrerat protokoll:
+
+    **1. Kapning av delar och tillbehör.** Under uppsikt av QA-chefen kapar en hydraulisk sax bort alla D-ringar i rostfritt stål 316, transporthandtagens band och bagageförslutningar. Ventilgruppen och fin box-basen (US-box / klickfena) tas bort ända ned till brädans fot, vilket eliminerar alla återanvändbara komponenter.
+
+    **2. Risning av drop-stitch & kapning av kanten.** Den interna drop-stitch-kärnan skärs med djupa korssnitt genom bräda och däck (≥ 50 cm per snitt), och kantens förstärkta sidor kapas i minst 4 segment — så att förseglingsegenskaper och flytförmåga permanent förstörs.
+
+    **3. Video- och fotovault.** Destruktionen registreras som en oavbruten 1080p-video med närbilder av den seriella streckkoden, snittet, risningen av kärnan och det invägda slutavfallet. Videon hashades (SHA-256) och lagras i minst 5 år på en kontrollerad server.
+
+    **4. Certifierad avfallshantering.** Alla PVC- och drop-stitch-fragment vägs, registreras i utgångsregistret och transporteras endast av kvalificerade partners för polymeråtervinning — inget restmaterial lämnar anläggningen via andra kanaler.
+
+    > **Varumärkesskyddsgaranti:** QINGDAO VATRAD GROUP CO., LTD. garanterar 100 % destruktion av icke-omtillverkbara och utanför-specifikation-båtar. Ingen andraklassad eller komprometterad bräda kommer någonsin att hamna i sekundära detaljhandelskanaler, grå marknader eller e-handel. Kassations- och destruktionsintyget (VAT-QA-SCRAP-CERT-2026) dokumenterar produkten, partiet, MRB-slutsatsen, vittnesfoton och den dubbla underteckningen av QA-chefen och fabrikschefen.
+
+nc_downloads:
+  tagline: Nedladdningsbara QMS-dokument
+  title: Kontrollerade tvåspråkiga dokument (PDF)
+  subtitle: 'Officiella tvåspråkiga EN/ZH-dokument från QINGDAO VATRAD GROUP.,LTD. — strukturerade enligt ISO 9001:2015 punkt 8.7 och redo för kundrevisioner, tekniska B2B-white papers och kontrollerad distribution i produktionsplaneringen.'
+  features:
+    - icon: N
+      icon_bg: blue
+      title: SOP för kontroll av icke-konformiga produkter (PDF)
+      desc: 'Tvåspråkig SOP baserad på ISO 9001:2015 punkt 8.7: kontroll i en cykel med åtta faser, beslutsmatrix för SUP-defekter, NCR-datastruktur och kvalitetslöfte till kunden.'
+      link: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link_label: Ladda ner PDF
+    - icon: S
+      icon_bg: orange
+      title: Kassations- och destruktionsintyg (PDF)
+      desc: 'VAT-QA-SCRAP-CERT-2026: produkt- och partsspårbarhet, MRB-slutsats, fysiskt destruktionsprotokoll i fyra faser, fält för vittnesfoton och dubbel underteckningsyta.'
+      link: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link_label: Ladda ner PDF
+    - icon: R
+      icon_bg: green
+      title: Styrning av kontrollerad omtillverkning (sida)
+      desc: 'Referenssida för de godkända lufttätningsreparationsmetoderna MC-RW-01 till MC-RW-06 och det kontrollerade omtillverkningsflödet i sju faser.'
+      link: '/sv/factory/quality-inspection'
+      link_label: Visa sidan
+    - icon: C
+      icon_bg: purple
+      title: Ändringskontrollstandarder för omtillverkning (sida)
+      desc: 'Formell ISO 9001-ändringskontroll för omtillverkningsparametrar: ECR, riskklassning, frigöringsmatris, valideringsplan och Poka-Yoke-skydd — QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/sv/factory/quality-change-control'
+      link_label: Visa sidan
+
+faqs:
+  tagline: FAQ
+  title: FAQ om kvalitet och felhantering för köpare världen över
+  items:
+    - q: 'Hur säkerställer ni att omtillverkade brädor uppfyller hela säkerhetsstandarden?'
+      a: 'Varje omtillverkad bräda behandlas som en ny enhet och måste genomgå samma fullständiga testcykel från början — för lufttätningsreparationer ett fullständigt 24-timmars tryckprov. Det är de oberoende QC-inspektörerna, inte omtillverkningsoperatörerna, som utför frigöringsvalideringen.'
+    - q: 'Skickar fabriken brädor med mindre kosmetiska avvikelser utan att informera oss?'
+      a: 'Aldrig. Varje avvikelse som påverkar kundgodkända golden samples, logografik, färgvarianter eller förpackning kräver ett formellt skriftligt koncessionsavtal, undertecknat av kunden, före frigörning inför leverans.'
+    - q: 'Vad händer om en omtillverkad bräda inte klarar omverifieringen?'
+      a: 'Brädan frigörs inte. Den går tillbaka till en ny åtgärdsbedömning och ersätts, kasseras eller destrueras enligt det övervakade kassationsprotokollet om den inte kan bringas till överensstämmelse. Återkommande fel i samma defektklass aktiverar en CAPA för rotorsaksanalys.'
+    - q: 'Kan defekta brädor säljas som andraklass eller via andra kanaler?'
+      a: 'Nej. Icke-omtillverkbara och utanför-specifikation-brädor destrueras fysiskt enligt det övervakade kassationsprotokollet — delar kapas, kärna och kant kapas, video registreras, hashas med SHA-256 och lagras i minst 5 år. Kassations- och destruktionsintyget undertecknas av QA-chefen och fabrikschefen.'
+    - q: 'Hur bedöms den berörda omfattningen när ett fel upptäcks?'
+      a: 'Omfattningen undersöks utifrån produktidentifiering, produktionsparti, material- eller komponentparti, processfas och tillämplig dokumentrevision. Om samma materialparti, samma grafikrevision eller samma arbetsstation berörs tas de aktuella produkterna med och inspekteras i enlighet därmed.'
+    - q: 'Krävs ert tillstånd innan en koncession beviljas?'
+      a: 'Ja. Varje dokumenterad koncession som påverkar kundens krav — godkända prov, specifikation, grafik, förpackning eller acceptanskriterier — kräver kundens skriftliga frigörning före frigörningen. Utan den frigörningen omtillverkas, byts ut eller kasseras produkten enligt det ursprungliga kravet.'
+    - q: 'Vilken dokumentation får ni för en avvikelse?'
+      a: 'NCR-dossieret omfattar NCR-numret, detekteringsfasen, produkten/ SKU, partiet, de tillämpliga dokumentrevisionerna, felbeskrivningen, inneslutningen, åtgärden, referensen till omtillverkningsinstruktionen, resultatet av omverifieringen och den slutliga frigörningen eller stängningen — tillgängligt enligt er projektkvalitetsavtal.'
+
+cta:
+  title: Kvalitetsproblem hanteras genom en kontrollerad process
+  desc: 'Dela era projektspecifika kvalitets-, inspektions- eller dokumentationskrav tillsammans med er förfrågan — vi kan verifiera de tillämpliga kontrollpunkterna före provutvecklingen eller produktionsplaneringen.'
+  actions:
+    - text: Diskutera era kvalitetskrav
+      variant: primary
+      href: /contact
+    - text: Ladda ner SOP för NCP-kontroll (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Ladda ner kassationsintyget (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

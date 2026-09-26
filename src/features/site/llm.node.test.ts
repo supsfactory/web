@@ -1,7 +1,7 @@
 import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
-import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL } from '@/features/content/guide-content'
+import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -181,5 +181,31 @@ test('llms-full.txt Dutch section: product/news/tech/case/guide bodies present',
   expect(nl).toContain('# Gids:')
   for (const g of GUIDES_NL) {
     expect(nl, `llms-full.txt Dutch section missing guide ${g.slug}`).toContain(`# Gids: ${g.title}`)
+  }
+})
+
+test('llms.txt Swedish section: /sv absolute links, Swedish homepage note and guides', () => {
+  const section = llmSwedishIndex('https://isupfactory.com')
+  expect(section).toContain('## Svenska')
+  expect(section).toContain('— Homepage')
+  expect(section).toContain('### Svenska: Produkter')
+  expect(section).toContain('### Svenska: Guider')
+  expect(section).toContain('### Svenska: Vanliga frågor')
+  expect(section).toContain('https://isupfactory.com/sv/')
+  for (const g of GUIDES_SV) {
+    expect(section, `llms.txt Swedish section missing guide ${g.slug}`).toContain(`https://isupfactory.com/sv/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt Swedish section: product/news/tech/case/guide bodies present', () => {
+  const sv = llmsSwedishFull()
+  expect(sv).toContain('# Svenska')
+  expect(sv).toContain('## Produkt:')
+  expect(sv).toContain('## Nyhet:')
+  expect(sv).toContain('## Teknologi:')
+  expect(sv).toContain('## Fallstudie:')
+  expect(sv).toContain('# Guide:')
+  for (const g of GUIDES_SV) {
+    expect(sv, `llms-full.txt Swedish section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
   }
 })

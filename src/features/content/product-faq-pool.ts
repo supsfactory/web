@@ -6,7 +6,7 @@ export interface FaqEntry {
   a: string
 }
 
-export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl', FaqEntry[]> = {
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv', FaqEntry[]> = {
   en: [
     {
       q: 'What is the minimum order to customize this board?',
@@ -131,6 +131,24 @@ export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 
     {
       q: 'Hoe wordt de kwaliteit gecontroleerd vóór verzending?',
       a: 'Elke plank doorloopt een montagechecklist van 100 punten en een druktest van 18.0 PSI gedurende 24 uur vóór het verpakken; units met een drukval van meer dan 0,50 PSI/24 uur worden automatisch afgekeurd.',
+    },
+  ],
+  sv: [
+    {
+      q: 'Vad är minsta beställningskvantitet för att anpassa den här brädan?',
+      a: 'Volym-MOQ:n är 90–100+ st per godkänd konfiguration, med förbehåll för krav på materialrulle och förpackning, på en rulle á 150 m för standardproduktion, med pilotpartier från 20–50 st och 90–100+ st för specialform.',
+    },
+    {
+      q: 'Hur lång tid tar prov och produktion?',
+      a: 'Prov är klara inom 7–12 dagar; serieproduktionen är klar inom 25–35 dagar efter bekräftad PO och handpenning.',
+    },
+    {
+      q: 'Kan jag ändra färger, tryck och logotyp?',
+      a: 'Ja: grafik, färger, EVA, logotyp, förpackning och tillbehör kan anpassas på alla plattformar. Dela din logotyp så tar vi fram ett visuellt bevis före produktion.',
+    },
+    {
+      q: 'Hur kontrolleras kvaliteten före leverans?',
+      a: 'Varje bräda genomgår en monteringschecklista på 100 punkter och ett trycktålighetstest på 18.0 PSI under 24 timmar före packning; enheter med tryckfall över 0,50 PSI/24 h avvisas automatiskt.',
     },
   ],
 }

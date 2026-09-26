@@ -1,0 +1,102 @@
+meta:
+  title: 'SUP-prototypverkstad — byggande av provbrädor'
+  description: 'Från CAD till testad provbräda på 7–12 dagar: vår prototypverkstad bygger, testar och validerar anpassade SUP-prover. Starta ditt prototypprojekt idag.'
+  dateModified: '2026-08'
+back_text: 'Tillbaka till R&D-centrum'
+home_label: 'Start'
+
+answer:
+  label: 'Kort svar'
+  text: 'Vi gör om en CAD-modell till en provbräda som går att paddla och testa på 7–12 dagar: uppblåsbar prototypframställning, vattentester med dyning, iterationer på rails och nos, och därefter beslutet om produktionsverktyg. Att bygga anpassade formverktyg tar 15–20 dagar utöver den standardiserade produktionstiden på 25–35 dagar.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorium 05'
+  title: 'Prototypverkstad'
+  subtitle: 'Från CAD-modell till testad provbräda — byggd, färdig och provad'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'Tillverkning av SUP-brädor i Vatrads prototypverkstad'
+
+intro: 'En CAD-modell — hur detaljerad den än är — kan inte visa hur en bräda faktiskt beter sig innan den pumpas upp, bärs och paddlas. Därför är vår prototypverkstad utformad för att omvandla tekniska data till en fysisk, paddelbar bräda så snabbt och exakt som möjligt. Varje ny {SITE.name}-modell — och varje betydande storlekskonstruktion — passerar den här verkstaden innan produktionsverktyget godkänns.'
+
+content_html: |
+  <h2>Där design blir verklighet</h2>
+  <p>Verkstaden är utrustad för parallell tillverkning av paneler, drop-stitch-kärnor och rails. Det parallella arbetsflödet sänker prototypens genomloppstid till 7–12 dagar efter tekniskt godkännande. Kräver din tillämpning en specialiserad lösning kan vi gå från koncept till vattenvalidering på mindre än tre veckor.</p>
+
+  <h2>Verkstadens kapacitet</h2>
+  <table>
+    <thead><tr><th>Station</th><th>Utrustning</th><th>Syfte</th></tr></thead>
+    <tbody>
+      <tr><td>Panelskärning</td><td>CNC-stoffskärare, nestningsprogramvara, bibliotek med skärmönster</td><td>Exakt skärning av däck-, skepps- och railpaneler för varje brädstorlek</td></tr>
+      <tr><td>Kärnmontering</td><td>Lamineringstabell för drop-stitch-kärnor, limvalsar</td><td>Förena drop-stitch-kärnan mellan PVC-skiktena med jämn limbeläggning</td></tr>
+      <tr><td>Svetsning</td><td>HF-svetsmaskiner, varmluft-lappsvetsstation, uppblåsningstestställ</td><td>Svetsa brädans sömmar i full storlek, med ventiler, handtag och fin box</td></tr>
+      <tr><td>Färdigställande &amp; finish</td><td>Applicator för däckstopp, grafiklamineringstabell, bänk för tillbehör</td><td>Komplett färdigställande: däckstopp, logotyper, handtagsstöd, leash plug, fin box</td></tr>
+      <tr><td>Mätstation</td><td>Manometrar, dataloggrar, nedböjningsmätare</td><td>Testa prover: pumpcykler, däcknedböjning, mätning av lufttätheten</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Prototypens färdväg — steg för steg</h2>
+  <ol>
+    <li><strong>Teknisk överlämning</strong> — Designpaketet (3D-modell, FEA-rapport, BOM, panelindelningsplan) granskas formellt av verkstadschefen och projektingenjören. Eventuella tillverkningsproblem upptäcks och löses före skärningen.</li>
+    <li><strong>Paneltillverkning</strong> — Brädan byggs enligt den tekniska specifikationen. Panelerna skärs med CNC, drop-stitch-kärnan lamineras mellan PVC-skikten och däck och skropp monteras med det godkända materialpaketet.</li>
+    <li><strong>Svetsning</strong> — Panelerna förs samman till brädans fulla form genom HF-svetsning. Luftkammaren pumpas upp till testtryck och hålls i 24 timmar för initial stabilisering.</li>
+    <li><strong>Montering &amp; finish</strong> — Däckstopp, grafik, handtag, leash plug och fin box monteras. Alla tillbehör installeras och kontrolleras mot specifikationen.</li>
+    <li><strong>Statiska tester</strong> — Innan vattnet nås genomgår brädan: pumpcykler, lufttäthetstest, mätning av däcknedböjning vid nominellt tryck och kopplingstest av tillbehören.</li>
+    <li><strong>Vattentestprogram</strong> — 10 timmars vattentester, närmare beskrivet nedan.</li>
+    <li><strong>Prototypgenomgång</strong> — Ett formellt godkänningsmöte med konstruktions-, produktions- och kvalitetsteamen. Nödvändiga designändringar dokumenteras och hanteras i produktionsgodkännandet.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">10-timmars vattentestprogram — testplan</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Stabilitetstest — stationärt jämviktsläge, tolerans för sidobelastning</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Paddelprov — planering, rak färd och vridning i 3 hastigheter; paddelkomfort</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Belastningstest — stabilitet och nedböjning med användare på 60 / 80 / 100 / 120 kg</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Dyningstest — upprepade passager genom båtarnas kölslinga; nossprutning, railflex</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Uthållighetstest — kontinuerlig paddling med regelbundna tryckkontroller; registrering av lufttätheten</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Slutkontroll — kontroll av sömmar, tillbehör och grafik efter testet; dokumentation av iakttagelser</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Anpassad prototypframställning för speciella tillämpningar</h2>
+  <p>Prototypverkstaden är platsen där vi löser problem som standardbrädor inte täcker. Nyliga exempel:</p>
+  <ul>
+    <li>En 14' touringbräda för ett europeiskt uthyrarvarumärke för endurancepaddling med nedsänkt lastdäck och förstärkt nos — byggd, färdig och testad i vår fabrik.</li>
+    <li>En 10'6'' yogabräda med genomgående halksäkert däck och extra tjocklek för styvhet, validerad via ett fyra veckor långt test under en uthyrningssäsong.</li>
+    <li>En white label-flottenbräda med anpassad däckgrafik och dubbla handtag, där prototypen användes för att validera färg, logotypplacering och förpackning innan kunden valde att beställa en container.</li>
+  </ul>
+
+  <h2>Vårt prototypteam</h2>
+  <p>Verkstaden bemannas av åtta allround tillverkningstekniker, var och en utbildad i minst två av de tre kärnteknikerna (skärning, svetsning, färdigställande). Teamledaren är en mästare med 16 års erfarenhet, från unika mått till produktionsserier. Varje prototyp får en tilldedikerad projektingenjör som enda kontaktperson för kunden under hela bygg- och testprocessen.</p>
+
+  <h2>Kundens medverkan</h2>
+  <p>Vi uppmuntrar kunder att aktivt delta i prototypbyggandets viktigaste milstolpar — i synnerhet den första färdigställandekontrollen och vattentestet. Din operativa återkoppling i de här fasen är ovärderlig för att finputsa brädan före produktionen. Vi bygger inte i ett vakuum; vi bygger i samarbete med dig.</p>
+  <p>Vattentestprogrammet är dessutom ett tillfälle för ditt team att bekanta sig med brädans underhåll och hantering, så att övergången till produktion går smidigt när de slutliga brädorna levereras.</p>
+
+cta:
+  title: 'Starta ditt prototypprojekt'
+  subtitle: 'Berätta vilken bräda du behöver, så föreslår vi en plan för prototyputveckling.'
+  actions:
+    - variant: primary
+      text: Kontakta vårt prototypteam
+      href: /sv/contact#project-brief
+    - text: Tillbaka till R&D-centrum
+      href: /sv/randdcenter

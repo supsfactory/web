@@ -1,0 +1,53 @@
+meta:
+  title: "Certifiering av uppblåsbara SUP'er's — guide till CE-, REACH- och RoHS-överensstämmelse"
+  description: "Certifieringsomfattning för tillverkning av uppblåsbara SUP'er's: CE (EU-modeller), BSCI, ISO 9001, REACH, RoHS. Certifikatnummer per projekt finns tillgängliga på begäran."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Direkt svar"
+    directAnswer:
+      answer: "iSupfactory har certifieringarna BSCI, ISO 9001, ISO 25649, CE, REACH och RoHS. CE gäller modeller som är avsedda för EU-marknader — inte utan undantag för »alla produkter«."
+      condition: "Certifieringsomfattningen varierar beroende på målmarknad och produktkonfiguration. Certifikatnummer, giltighet och utfärdande organ finns tillgängliga per projekt på begäran."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "September 2026"
+      sourceType: "certificate"
+    body: |
+      Certifiering är ett centralt inköpskriterium och måste förklaras noggrant.
+      Generiska påståenden som "CE på alla produkter" kan orsaka förtroendeproblem
+      när köparen senare upptäcker att omfattningen är mindre änväntat.
+
+  - title: "Certifikatdetaljer"
+    body: |
+      | Certifiering | Omfattning | Organ | Gäller för |
+      |---------------|-----------|-----------|------------|
+      | BSCI | Social revision | amfori BSCI | Produktionsanläggning |
+      | ISO 9001 | Kvalitetsledningssystem | Certifieringsorgan (tillgängligt på begäran) | Produktionsanläggning |
+      | ISO 25649 | Säkerhet för uppblåsbara båtar | ISO | Tillämpliga SUP-modeller per marknad |
+      | CE | Överensstämmelse med EU-marknaden (EN ISO 6185 / 10087 / 10240) | Anmäld EU-institution | Modeller avsedda för EU-marknaden |
+      | REACH | Kemisk säkerhet inom EU | ECHA | Material som används i produktionen |
+      | RoHS | Begränsning av farliga ämnen | EU-direktiv | Elektroniska tillbehör (pumpar) |
+
+  - title: "Viktiga anmärkningar om omfattningen"
+    body: |
+      - **CE** gäller modeller som konfigurerats för försäljning på EU-marknaden. En bräda
+        som byggs för distribution i USA eller Australien bär CE-märkning endast
+        när det uttryckligen har begärts.
+      - **ISO 9001** omfattar anläggningens kvalitetsledningssystem, inte
+        produktcertifiering av enskilda artiklar.
+      - **REACH**-överensstämmelsen omfattar de material som används i produktionen — dokumentationen
+        finns tillgänglig för importörer som måste registrera ämnen.
+      - Certifikatnummer, giltighetsdatum och utfärdande organ finns tillgängliga per projekt
+        på begäran. Vi publicerar inte certifikatnummer offentligt av säkerhetsskäl.
+      - Inspektion av tredje part via SGS, TÜV, BV eller Intertek finns tillgänglig för varje leverans.
+
+  - title: "Så beställer du intygst handlingarna"
+    body: |
+      Ange era målmarknader under ansökningsprocessen, så bekräftar vi
+      vilka certifieringar som gäller för er specifika produktkonfiguration. Kopior
+      av certifikaten (med eventuella kommersiella uppgifter utmaskade vid behov) lämnas
+      som en del av projektens dokumentationspaket.
+
+evidence_review:
+  tagline: 'Bevis & verifiering'
+  title: 'VERIFIERADE SPECIFIKATIONER'
+  body: 'Alla produktdeklarationer på denna sida verifieras av vårt Manufacturing Engineering Team på anläggningen i Laixi, Qingdao. Certifikat, QC-inspektionsregister, tryck- och strukturtestrapporter och register över partispårbarhet finns tillgängliga på begäran. Specifikationerna verifierades senast i september 2026.'

@@ -1,0 +1,100 @@
+meta:
+  title: 'SUP-konformitet per marknad — CE-, REACH-, RoHS-, BSCI-, ISO 9001-krav | iSupfactory'
+  description: 'Konformitetsguide för uppblåsbara SUP-brädor per marknad: CE (EU), CPSIA (USA), AS/NZS (AU), ISO 9001, BSCI, REACH och RoHS — omfattning och dokument per marknad.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'sup konformitet per marknad'
+    - 'ce certifiering sup'
+    - 'reglering uppblåsbara sup'
+    - 'reach konformitet sup'
+    - 'rohs konformitet sup'
+    - 'bsci revision sup fabrik'
+    - 'iso 9001 sup tillverkare'
+
+hero:
+  tagline: 'Konformitetsguide'
+  title: 'SUP-konformitet per marknad'
+  subtitle: 'Varje målmarknad har sina egna krav på certifiering, märkning och dokumentation. Den här guiden kartlägger konformitetsläget för uppblåsbara SUP-brädor på de viktigaste marknaderna — EU, Nordamerika, Australien och därefter — så att du fastställer rätt omfattning redan vid offertförfrågan och inte först efter produktionen.'
+
+answer:
+  label: 'Kort svar'
+  text: 'För EU: CE-märkning är obligatorisk för brädor som säljs inom Europeiska ekonomiskaområdet — vi certifierar modellerna för EU-marknaden, omfattningen bekräftas per projekt. För USA: CPSIA- och VOC-reglering på delstatsnivå. För Australien: konformitet enligt AS/NZS 1586. För alla marknader gäller: ISO 9001 (fabrik), BSCI (social revision), REACH och RoHS (material) är standard i hela vår tillverkning, oavsett destination. Konformitetsomfattningen och kostnaderna specificeras i din offert — inga överraskningar efter produktionen.'
+  verified: 'September 2026'
+
+market_cards:
+  tagline: Krav per region
+  title: 'Konformitetskrav per målmarknad'
+  subtitle: 'Certifieringsomfattningen bekräftas per projekt under genomförbarhetskontrollen. Nedan de vanligaste kraven per marknad.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Europeiska unionen'
+      desc: 'Obligatorisk CE-märkning. REACH (kemikaliesäkerhet), RoHS (begränsade ämnen), ISO 9001-fabrikscertifiering. Produktspecifika kontroller enligt PBM-direktivet eller direktivet om nöjdesfartyg, där det är tillämpligt. Märkning på destinationslandets officiella språk. Social BSCI-revision finns tillgänglig.'
+    - icon: US
+      icon_bg: green
+      title: 'USA'
+      desc: 'CPSIA-konformitet (konsumentproduktsäkerhet). Kaliforniens Prop 65 och VOC-reglering på delstatsnivå för emissioner från PVC och lim. Inget federalt motsvarighet till CE. ASTM-tester på begäran. FTC-krav på märkning av ursprungsland och materialsammansättning.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Australien & Nya Zeeland'
+      desc: 'AS/NZS 1586 för uppblåsbara fartyg. Garantier enligt australisk konsumenträtt. Importdokumentation och konformitetsbedömning enligt den australiska gränsmyndighetens krav. Kemikaliesäkerhetsdokumentation motsvarande REACH. Social BSCI-revision finns tillgänglig.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Globalt / Flera marknader'
+      desc: 'ISO 9001:2015-fabrikscertifiering (årlig revision). Social BSCI-revision. REACH- och RoHS-materialkonformitet i hela tillverkningen, oavsett destination. Partspårbarhet och testrapporter tillgängliga för varje marknad. Den enskilda certifieringsomfattningen bekräftas per projekt.'
+
+certifications_detail:
+  heading: 'Vår certifieringsomfattning'
+  body: |
+    Följande certifieringar underhålls i vår tillverkning eller finns tillgängliga. Den specifika certifieringsomfattningen för ditt projekt bekräftas under genomförbarhetskontrollen och specificeras i din offert.
+
+    - **ISO 9001:2015** — Fabrikens kvalitetsledningssystem, revideras årligen av en ackrediterad tredje part. Omfattar hela produktionsprocessen, från inkommande varukontroll till slutlig förpackning.
+    - **CE-märkning** — tillämpas på modellerna för EU-marknaden. Verifiering och dokumentation enligt tillämpligt EU-direktiv. Omfattning bekräftas per projekt — alla modeller kräver inte samma CE-omfattning.
+    - **BSCI** — Revision enligt Business Social Compliance Initiative. Omfattar arbetstagarrättigheter, arbetsmiljö, miljökonformitet och företagsetik. Tillgänglig för alla marknader.
+    - **REACH** — EU-förordning om kemikaliesäkerhet. Alla PVC-material, lim och beläggningar är REACH-konformera. Substansdokumentation och testrapporter per parti finns tillgängliga.
+    - **RoHS** — Begränsning av farliga ämnen. Alla elektriska tillbehör (motordrivna pumpaer, LED-tillbehör) är RoHS-konformera. Brädornas material är av natur RoHS-konformera.
+
+compliance_process:
+  tagline: Så fungerar konformitet i din order
+  title: 'Konformitet i onboardingprocessen'
+  subtitle: 'Konformitet är inget extra — det är inbyggt i varje grind i onboardingprocessen.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Grind 1: bekräftelse av omfattningen'
+      desc: 'Vid förfrågan anger du målmarknaderna. Vi bekräftar vilka certifieringar, tester och dokument som gäller för din specifika produkt och destination. Konformitetsomfattningen och eventuella kostnader specificeras i offerten.'
+    - icon: 2
+      icon_bg: green
+      title: 'Grind 3: certifiering av proverna'
+      desc: 'Proverna tillverkas enligt den bekräftade konformitetsomfattningen. För laboratorietester av tredje part (CE, CPSIA, AS/NZS) koordinerar vi testerna via ackrediterade laboratorier. Testrapporterna lämnas tillsammans med provet.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Grind 7: dokumentationspaket'
+      desc: 'Varje produktionsorder skickas med ett konformitetsdokumentationspaket: försäkringar om överensstämmelse, testrapporter, spårbarhetsregister per parti, materialsäkerhetsdatablad och märkningskonformitet. Dokumentationen är marknadsspecifik.'
+
+faqs:
+  tagline: Vanliga frågor
+  title: 'SUP-konformitet — vanliga frågor'
+  items:
+    - q: 'Kräver alla SUP-brädor CE-märkning?'
+      a: 'CE-märkning krävs endast för brädor som säljs inom Europeiska ekonomiskaområdet. Vi certifierar modellerna för EU-marknaden med en omfattning som bekräftas per projekt. Brädor avsedda för marknader utanför EU bär inte CE-märkningen, om du inte uttryckligen begär det.'
+    - q: 'Är era material REACH- och RoHS-konformera?'
+      a: 'Ja. Alla PVC-material, lim och beläggningar är REACH-konformera. Alla elektriska tillbehör (motordrivna pumpaer, LED-tillbehör) är RoHS-konformera. Brädornas konstruktionsmaterial är av natur RoHS-konformera. Substansdokumentation och testrapporter finns tillgängliga per parti på begäran.'
+    - q: 'Kan ni ordna certifieringar för en marknad som inte nämns här?'
+      a: 'Ja. Vi har skickat till över 50 länder och kan koordinera certifiering och dokumentation för de flesta marknader. Ange ditt destinationsland vid förfrågan, så bekräftar vi den specifika konformitetsomfattningen, tillsammans med eventuella extra tester eller dokument som krävs.'
+    - q: 'Hur hanteras konformitetskostnaderna?'
+      a: 'Konformitetsomfattningen och eventuella kostnader (laboratorietester av tredje part, certifieringsavgifter) specificeras i din offert under genomförbarhetskontrollen. Inga konformitetskostnader efter produktionen. Standardcertifieringarna (ISO 9001, BSCI) gäller på fabriksnivå och genererar inga styckkostnader.'
+
+cta:
+  title: 'Bestämma dina konformitetskrav'
+  subtitle: 'Berätta vilka målmarknader du har, så bekräftar vi certifieringsomfattningen, testkraven och dokumentationspaketet — specificerat i din offert.'
+  actions:
+    - variant: primary
+      text: Starta projektbriefen
+      href: /sv/contact#project-brief
+    - text: Verifiera certifieringar och kvalitetssystem
+      href: /sv/proof-center
+    - text: OEM-onboardingprocessen
+      href: /sv/oem-onboarding-guide

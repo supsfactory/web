@@ -1,0 +1,111 @@
+meta:
+  title: 'Kunskap — guider för uppblåsbara SUP & OEM | {SITE}'
+  description: 'Vatrad kunskapsbank: guider om uppblåsbara SUP''er, paddelbrädets material, brädval och branschinsikter för varumärken och yrkesmässiga användare.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup kunskap'
+    - 'guide uppblåsbar sup'
+    - 'paddle board material'
+    - 'branschinsikter sup'
+hero:
+  tagline: 'Kunskapscenter'
+  title: 'SUP-kunskapsbank'
+  subtitle: |
+    En strukturerad kunskapsbank om uppblåsbar SUP-teknik,
+    vattensäkerhet, brädkonstruktion och planering av äventyr.
+  taglineSection: 'Upptäck. Lär dig. Ta dig till vattnet med rätt förtroende.'
+
+clusters:
+  tagline: 'Kunskapsområden'
+  title: 'Utforska per ämne'
+  subtitle: 'Fördjupningar om teknik, säkerhet och färdigheter bakom varje Vatrad-produkt.'
+  items:
+    - title: 'Guide till att köpa en SUP'
+      description: 'Från val av din första bräda till avancerad touringteknik — allt om paddelbolling.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'Hur du väljer din första uppblåsbara SUP'
+        - 'Guide till SUP-mått och viktfördelning'
+        - 'Bästa SUP för nybörjare, touring, yoga och tävlingar'
+        - 'Vanliga SUP-köpmistag att undvika'
+        - 'Jämförelse uppblåsbar vs. styv bräda'
+    - title: 'SUP-konstruktion och -teknik'
+      description: 'Tekniska guider om uppblåsbara SUP-brädor — material, konstruktionsmetoder och produktionsprocesser.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Drop-stitch-teknik i detaljer'
+        - 'Specifikationer för PVC av militärkvalitet'
+        - 'Smältlaminering kontra limning'
+        - 'EVA-skumsteknik och tryckprocesser'
+        - 'SUP-ventiltyper och fensystem'
+    - title: 'SUP-säkerhet och -underhåll'
+      description: 'Grundläggande säkerhetskunskap för varje paddlare — från val av flytbåge till väderförhållanden, plus skötsel och reparation av brädor.'
+      icon: 'tabler:shield'
+      topics:
+        - 'SUP-säkerhetschecklista och krav på flytbågar'
+        - 'Säkerhet med flera kammare för avlägsna vatten'
+        - 'Guide till uppblåsningstryck för SUP (PSI)'
+        - 'Förvaring och vinterunderhåll av brädor'
+        - 'Reparationstekniker för uppblåsbara brädor'
+    - title: 'SUP-tekniker och -färdigheter'
+      description: 'Paddelteknik, touringfärdigheter och fysisk träning för alla nivåer.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Paddelteknik för nybörjare'
+        - 'Avancerad paddelteknik för drag'
+        - 'Planering av turer och utfärder'
+        - 'Fysisk träning och SUP-tävlingar'
+        - 'Färdigheter för vildvatten och flodraft'
+    - title: 'SUP-livsstil och särskild användning'
+      description: 'Specialiserade SUP-aktiviteter — yoga, fiske, hundar, familjer och resetips.'
+      icon: 'tabler:heart'
+      topics:
+        - 'SUP-yoga och meditation på vattnet'
+        - 'Fiske från uppblåsbar SUP'
+        - 'Paddling med hundar och barn'
+        - 'Resa med SUP: flyg och bil'
+        - 'SUP-tillbehör och nödvändig utrustning'
+    - title: 'SUP-jämförelser och -referenser'
+      description: 'Direkta jämförelser som hjälper dig att fatta välgrundade beslut.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'SUP vs. kajak — vad passar dig?'
+        - 'Materialjämförelse PVC vs. Hypalon'
+        - 'Säkerhet: en kammer vs. flera kammare'
+        - 'SUP-bräders material förklarade'
+        - 'UV-tryck vs. EVA-mönsterdesign'
+
+featured_guides:
+  tagline: 'Utvalda guider'
+  title: 'Mest populära kunskapskällor'
+  items:
+    - title: 'SUP-grunder'
+      href: '/sv/knowledge'
+    - title: 'Uppblåsbar vs. styv bräda'
+      href: '/sv/inflatable-vs-hardboard'
+    - title: 'Guide till säkerhet på vattnet'
+      href: '/sv/guides/safety-tips'
+    - title: 'Materialreferens'
+      href: '/sv/knowledge'
+    - title: 'Guide till att köpa en SUP'
+      href: '/sv/guides/how-to-choose-your-sup'
+    - title: 'Guide till SUP-mått'
+      href: '/sv/size-guide'
+    - title: 'SUP-teknikcenter'
+      href: '/sv/technology'
+    - title: 'Skötsel av din SUP'
+      href: '/sv/knowledge'
+    - title: 'Touringguide'
+      href: '/sv/products/touring'
+    - title: 'Paddelteknik'
+      href: '/sv/knowledge'
+
+cta:
+  title: 'Upptäck nu'
+  subtitle: 'Dyk ner i vår kunskapsbank och hämta all information inför ditt nästa äventyr på vattnet.'
+  actions:
+    - variant: primary
+      text: 'Se alla guider'
+      href: '/sv/knowledge'
+    - text: 'Utforska kunskapsbanken'
+      href: '/sv/knowledge'

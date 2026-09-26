@@ -1,0 +1,164 @@
+meta:
+  title: 'OEM-tillverkare av uppblåsbara SUP''er | Anpassad produktion av paddelbrädor'
+  description: 'OEM-fabrik för uppblåsbara SUP''er: tillverkning av din befintliga design — teknisk granskning, prover på 7–12 dagar, produktion på 25–35 dagar, CE/ISO/BSCI-överensstämmelse.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'OEM-tillverkare SUP'
+    - 'OEM uppblåsbar SUP'
+    - 'anpassad SUP-produktion'
+    - 'SUP-fabrik i Kina'
+    - 'fabrik för anpassade paddelbrädor'
+
+hero:
+  tagline: OEM-produktion
+  title: 'Anpassad SUP-OEM-produktion — din specifikation, vår fabrik'
+  subtitle: 'Du tar med en design, en ritning eller ett bevisat plattformkoncept — vi producerar i containerskala. Teknisk granskning inom en arbetsdag, prover på 7–12 dagar, produktion 25–35 dagar efter orderbekräftelse och handpengar, levererat under ditt varumärke.'
+
+answer:
+  label: 'Kort svar'
+  text: 'OEM-produktionen sker enligt din specifikation. MOQ fastställs per projekt, inte som en fast siffra: produktion i standardmängder sker med 90–100 enheter per parti från en rulle med 150 m drop-stitch-tyg, pilotkörningar startar från 20–50 enheter på befintliga plattformar och varje projekt går först igenom ett prov (1–2 enheter) före volymen. Prover skickas inom 7–12 dagar; produktionen tar 25–35 dagar efter orderbekräftelse och handpengar, plus 15–20 dagar om ny utrustning behövs.'
+  verified: 'September 2026'
+
+features:
+  title: OEM-kapaciteter
+  subtitle: 'Allt som behövs för att omvandla din specifikation, din ritning eller din befintliga plattform till en levererad container.'
+  items:
+    - title: Produktion enligt din specifikation
+      description: 'Dina ritningar, mått, materialkvaliteter och grafik tillverkas som de levereras — våra ingenjörer kontrollerar specifikationens produktionsbarhet före offerten.'
+      icon: 'tabler:file-check'
+    - title: Plattformsanpassning
+      description: 'Bevisade produktionsplattformar kan anpassas med dina formändringar, railspecifikation, ventilplacering och dina tillbehör — utan fullständigt formbygge.'
+      icon: 'tabler:arrows-diff'
+    - title: Anpassat formverktyg
+      description: 'Nya brädformer utifrån dina ritningar eller CAD-data — formbygge och konstruktion i egen regi. Utrustningen lägger till 15–20 dagar i leveranstiden.'
+      icon: 'tabler:shapes'
+    - title: Prototyp och prov
+      description: 'Före varje volymkörning tillverkas och godkänns ett fysiskt prov — normalt inom 7–12 dagar, med vattentest för nya former.'
+      icon: 'tabler:tools'
+    - title: Produktion i containerskala
+      description: 'Standardmängder på 90–100 enheter per design (en hel rull med 150 m tyg), pilotkörningar på 20–50 stycken, leverans på 25–35 dagar efter orderbekräftelse.'
+      icon: 'tabler:package'
+    - title: CE- och marknadskrav
+      description: 'CE-överensstämmelsedokumentation för de konfigurationer som omfattas av EU-marknaden — omfattning bekräftas per projekt. ISO 9001-, BSCI-, REACH- och RoHS-dokumentation för varje marknad du levererar till.'
+      icon: 'tabler:certificate'
+    - title: Test och spårbarhet
+      description: 'Trycktest vid 18.0 PSI under 24 timmar med automatisk kassering över 0.50 PSI tryckfall, 100-punkts montagelista och ERP-partispårbarhet under 10 år.'
+      icon: 'tabler:shield-check'
+    - title: Global logistik
+      description: 'FOB Qingdao, CIF och DDP till över 50 länder, med exportförpackning och införsel hanterat av vårt logistikteam.'
+      icon: 'tabler:world'
+
+customization:
+  tagline: 'Byggd enligt din specifikation'
+  title: 'Specifikationspunkter i OEM'
+  subtitle: 'Dessa specifikationspunkter styr du i ett OEM-projekt — ditt specifikationsdokument är produktionskontraktet:'
+  items:
+    - 'Brädmått — längd, bredd, tjocklek, rocker och volym enligt dina ritningar eller referensanvändare'
+    - 'Materialstruktur — antal och kvalitet på PVC-lagren, drop-stitch-densitet, förstärkningar och railförstärkningar'
+    - 'Grafik och färger — ditt artwork med obegränsat antal färger eller stöd från vårt designteam'
+    - 'Halksäkert EVA-deckpad — formskurna deckpads, logotyper och deckfärger på varje bräda'
+    - 'Handtag och D-ringar — placering, antal och specifikation av beslag för din användning'
+    - 'Fensystem — enkel, dubbel eller trippel fena och fin box enligt din specifikation'
+    - 'Paddlar, pumpar, leashar och tillbehör — ditt paket, din varumärkessättning'
+    - 'Kommersiell förpackning & POS-material — kommersiella förpackningar, sjöfraktförpackning och point-of-sale-displayer under ditt varumärke'
+    - 'Etiketter och överensstämmelsemärkning — serienummeretiketter, logotyper och marknadsspecifik dokumentation för din exportregion'
+
+faq_section:
+  tagline: FAQ
+  title: Frågor om OEM-produktion
+  questions:
+    - q: Hur startar jag ett OEM-projekt med min design?
+      a: 'Skicka dina ritningar, en referensbräda eller en skriftlig specifikation. Vår tekniska granskning bekräftar produktionsbarheten och ger ett offertförslag inom en arbetsdag — det är vårt standardlöfte, och vid behov undertecknar vi ett NDA före varje filutbyte.'
+    - q: Vad är MOQ för OEM av uppblåsbara SUP''er?
+      a: 'MOQ fastställs per projekt — skalp och utrustning, färg- och PVC-varianter, artwork, förpackning och tillbehör. Produktion i standardmängder sker med 90–100 enheter per parti (en drop-stitch-rull på 150 m), medan pilotkörningar startar från 20–50 enheter på befintliga plattformar. Hela beräkningslogiken finns i vår guide om MOQ och flexibel varumärkessättning.'
+    - q: Vad är den typiska leveranstiden för en OEM-beställning?
+      a: 'Produktionen tar 25–35 dagar från bekräftad beställning och handpengar. Formbygget lägger till 15–20 dagar. Prototyprover skickas normalt inom 7–12 dagar.'
+    - q: Kan ni tillverka utifrån mina befintliga ritningar?
+      a: 'Ja. OEM bygger direkt enligt din specifikation — designen är din. Våra ingenjörer kontrollerar ritningarnas produktionsbarhet, rapporterar konflikter före formbygget eller skärningen och det godkända provet blir produktionsreferensen.'
+    - q: Levererar ni prover före produktionen?
+      a: 'Ja. Före varje produktionskörning tillverkas och godkänns ett fysiskt prov — normalt inom 7–12 dagar — och det fungerar som referens för alla efterföljande QC-kontroller.'
+    - q: Vilka certifieringar har fabriken?
+      a: 'ISO 9001:2015 kvalitetsledning (på fabriksnivå), BSCI social efterlevnad (amfori-fabriksrevision), CE-överensstämmelsedokumentation för de konfigurationer som omfattas av EU-marknaden (omfattning bekräftas per projekt), REACH (material) och RoHS (elektroniska tillbehör). Fullständig överensstämmelsedokumentation lämnas vid varje OEM-leverans för dina målmarknader.'
+    - q: Hur kontrolleras kvaliteten i en OEM-körning?
+      a: 'Produktionen bedrivs under flernivåkontroll — varumottagning, processkontroller och sluttest — med trycktest vid 18.0 PSI under 24 timmar (automatisk kassering över 0.50 PSI tryckfall), 100-punkts montagelista och ERP-partispårbarhet under 10 år per serienummer.'
+    - q: Vad är era leveransvillkor?
+      a: 'FOB Qingdao, CIF till världens viktigaste hamner eller DDP för godkända partners. Vi levererar till över 50 länder på EU-, USA-, AU- och Asienmarknaderna.'
+
+process:
+  title: 'OEM-processen — från specifikation till levererad container'
+  subtitle: 'Sju faser, styrda av ett fabriksteam, så att varje steg från din första specifikation till den packade containern förblir dokumenterat och i tid.'
+  steps:
+    - phase: '01'
+      title: Specifikationsgranskning och offert
+      period: 1 arbetsdag
+      items:
+        - 'Dela dina ritningar, din specifikation eller referensbrädor — våra ingenjörer kontrollerar produktionsbarheten.'
+        - 'Få ett detaljerat offertförslag och en projektplan inom en arbetsdag.'
+    - phase: '02'
+      title: Teknisk bekräftelse
+      period: Vecka 1
+      items:
+        - 'Hjälpmedel, drop-stitch-kvalitet, PVC-specifikationer och railkonstruktion bekräftas mot ditt dokument.'
+        - 'Beslutet om formverktyg eller plattform fastställs — vid behov startar bygget av egna formverktyg här.'
+    - phase: '03'
+      title: Prototyp och prov
+      period: 7–12 dagar
+      items:
+        - 'Ett fysiskt prov tillverkas och skickas till din bedömning — inklusive vattentest för nya former.'
+        - 'Provet (1–2 enheter) validerar din specifikation före någon volymförpliktelse.'
+    - phase: '04'
+      title: Test och validering
+      period: Parallellt
+      items:
+        - 'Lufttätning, tryckhållning, svetsstyrka, belastnings- och UV-tester för varje produktionslinje.'
+        - 'CE-, ISO 9001-, BSCI-, REACH- och RoHS-dokumentation tas fram för dina exportmarknader.'
+    - phase: '05'
+      title: Godkännande och bekräftelse
+      period: Efter godkänt prov
+      items:
+        - 'Du godkänner prov och artwork; beställningen och handpengen reserverar produktionsplatsen.'
+        - 'En plan före produktion bekräftar datum, antal, förpackning och lastningshamn.'
+    - phase: '06'
+      title: Produktion
+      period: 25–35 dagar
+      items:
+        - 'Produktion under flernivåkontroll — varumottagning, processkontroller och sluttest.'
+        - 'Från pilotorder (20–50 enheter) på befintliga plattformar till hela rullar på 150 m (90–100+ enheter) i standardvolymproduktionen.'
+    - phase: '07'
+      title: Förpackning och leverans
+      period: 1 dag + transport
+      items:
+        - 'Exportförpackning med serienummeretiketter för modellen, därefter FOB Qingdao, CIF eller DDP till över 50 länder.'
+        - 'Tull dokumentation, spårning och stöd vid återtryck ingår i varje fas.'
+
+geo:
+  tagline: 'Vilka vi arbetar med'
+  title: 'OEM-partners i hela SUP-sektorn'
+  sentence: 'Varje OEM-projekt hos iSupfactory tilldelas ett team som redan byggt brädor för samma typ av företag — detta är de företag vi betjänar.'
+  audiences:
+    - 'SUP-varumärken'
+    - 'Frilufts- och vattensportsföretag'
+    - 'Distributörer och återförsäljare'
+    - 'Resorter, klubbar och organisationer'
+
+cta:
+  title: 'Redo att lansera din SUP-serie?'
+  subtitle: 'Få ett detaljerat OEM-offertförslag inom en arbetsdag — skicka din specifikation eller dina ritningar.'
+  actions:
+    - variant: primary
+      text: Begär ett OEM-offertförslag
+      href: /sv/contact#custom-oem
+    - text: Verifiera fabriken och kvalitetssystemet
+      href: /sv/oem-trust-assurance
+    - text: Teststrukturen i 7 steg
+      href: /sv/quality
+    - text: Guide till MOQ och flexibel varumärkessättning
+      href: /sv/oem-moq-guide
+    - text: Detaljer om anpassad SUP-MOQ och leveranstider
+      href: /sv/sup-oem-moq-lead-time
+    - text: Lansera ett nytt varumärke med en provorder
+      href: /sv/new-brand-trial-order
+    - text: Jämförelse av SUP-konstruktioner
+      href: /sv/sup-construction-comparison
+    - text: SUP-överensstämmelse per marknad
+      href: /sv/sup-compliance-by-market

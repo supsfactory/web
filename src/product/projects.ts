@@ -4656,6 +4656,665 @@ export const projects: Localized<ProjectData[]> = {
       tags: ['Yogaconfiguratie', 'Volledige dekbekleding', 'Programmavloot'],
     },
   ],
+  sv: [
+    {
+      slug: 'coastal-rental-fleet',
+      customerType: 'Uthyrningsflottoperatörer',
+      region: 'Medelhavet — Spanien, Italien, Grekland',
+      productCategory: 'Uthyrningsklass uppblåsbart SUP (10′6″ + 11′0″)',
+      projectStage: 'Flottutvärdering → Provgodkännande → Fasad leverans i 3 partier',
+      manufacturingScope: 'Flottspecifikation, förstärkt konstruktion, fasad produktion, reservdelsförsörjning',
+      keyRequirements: 'Hållbara uthyrningsbrädor, fasad leverans till stationerna, lägre tidig utbytesfrekvens',
+      qualityFocus: 'Förstärkt konstruktion, lufttäthet, flottgrafik, komplett kit',
+      navLabel: 'Kustuthyrningsflotta',
+      metaTitle: 'Kustuthyrningsflotta | 320 brädor på 120 dagar — iSupfactory',
+      metaDescription:
+        'Hur en medelhavsuthyrningsoperatör byggde en kustflotta på 320 brädor i Spanien, Italien och Grekland — tre faserade partier på 120 dagar, med en beräknad minskning av tidiga utbyten på 20–25 %.',
+      kicker: 'Kustuthyrningsprojekt',
+      h1: 'Så byggde en medelhavsuthyrningsoperatör en kustflotta på 320 brädor på 120 dagar',
+      intro: [
+        'En kustuthyrningsoperatör med stationer i Spanien, Italien och Grekland behövde en hållbar flotta för högsäsongen på sommaren — levererad i tre partier, i tid för varje stations öppning.',
+      ],
+      industry: 'Uthyrningsflottoperatörer',
+      requirement: '320 uthyrningsbrädor i två storlekar — 10′6″ och 11′0″ — till kuststationer i tre länder, levererade i tre faserade partier inom 120 dagar.',
+      challenge:
+        'Daglig uthyrningsrotation sliter snabbt på brädorna, och operatörens tidiga utbytesfrekvens låg på 20–25 %. Stationerna öppnade på olika datum i tre länder, så en enda leverans funkade inte — och inte heller en flotta i en enda storlek.',
+      solution:
+        'Två hållbara uthyrningsplattformar i storlekar som täcker de flesta hyresgäster, förstärkt konstruktion för hög rotationspåfrestning och tre produktionspartier schemalagda att anlända vid varje stations öppning — med reservdelspaket och reparationsvägledning per station.',
+      product: 'Uthyrningsklass uppblåsbart SUP — 10′6″- och 11′0″-plattformar med förstärkta fat och UV-stabila material, kit per station.',
+      process: [
+        { title: 'Flottutvärdering', body: 'Stationernas öppningar och rotationsvolymer bestämde de två storlekarna och partifördelningen.' },
+        { title: 'Brädval', body: '10′6″- och 11′0″-uthyrningsplattformar valda för täckning och hållbarhet.' },
+        { title: 'Fasad produktion', body: 'Tre partier schemalagda mot varje stations öppningsdatum.' },
+        { title: 'Leverans & support', body: 'Flottan skickades per parti med reservdelspaket och reparationsvägledning per station.' },
+      ],
+      result:
+        'Alla tre partier anlände inom 120 dagar, tajmade mot varje stations öppning. De förstärkta plattformarna förväntas minska den tidiga utbytesfrekvensen med beräknat 20–25 %, med reservdelspaket som täcker fältreparationer mellan säsongerna.',
+      outcome: '320 brädor · 120 dagar · 3 partier · beräknat −20–25 % tidiga utbyten.',
+      metrics: [
+        { value: '320', label: 'brädor i två storlekar' },
+        { value: '120', label: 'dagar från order till sista parti' },
+        { value: '3', label: 'faserade leveranser, en per stationsöppning' },
+        { value: '−20–25%', label: 'beräknad tidig utbytesfrekvens' },
+      ],
+      takeaways: [
+        'Faserade partier låter en flotta anlända exakt när varje station öppnar — inget outnyttjat lager, ingen sen start.',
+        'Två storlekar (10′6″ och 11′0″) täckte de flesta hyresgäster utan att fragmentera flottan.',
+        'Det är den förstärkta konstruktionen som påverkar tidigt utbyte, inte bara priset.',
+        'Reservdelspaket per station höll brädorna i drift mellan hela säsonger.',
+      ],
+      customizations: [
+        '10′6″- och 11′0″-uthyrningsplattformar anpassade till hyresgästprofiler',
+        'Förstärkta fat och UV-stabila material för hög rotationsanvändning',
+        'Flottgrafik och numrering per station',
+        'Produktionsschema i tre partier anpassat till stationsöppningar',
+        'Reservdelspaket och reparationsvägledning per station',
+        'Paketering vid flera anläggningar och leveransverifiering per parti',
+      ],
+      inspectionFocus: [
+        'Verifiering av förstärkt konstruktion per bräda',
+        'Uppblåsning och lufttäthet på varje bräda',
+        'Flottgrafik och korrekt stationsnumrering',
+        'Kompletta tillbehör och reservdelspaket per station',
+        'Paketeringskontroller för fleranläggnings- och flerpartileverans',
+      ],
+      confidentiality:
+        'Efter överenskommelse offentliggörs inte operatörens namn och stationernas lägen. Detta projekt presenteras anonymt för att skydda kommersiell sekretess.',
+      tags: ['Fasad flottleverans', 'Uthyrningsklass konstruktion', 'Lägre utbytesfrekvens'],
+    },
+    {
+      slug: 'eu-distributor-private-label',
+      customerType: 'Distributörer & grossister',
+      region: 'Europa',
+      productCategory: 'Private label uppblåsbart SUP (2 SKU)',
+      projectStage: 'Sortimentsplanering → Provgodkännande → Volymleverans på 90 dagar',
+      manufacturingScope: 'Private label-märkning, detaljhandelsförpackning, volymproduktion, ombeställningsstöd',
+      keyRequirements: 'Två marknadsbeprövade SKU under distributörens eget varumärke, EU-detaljhandelsförpackning, anpassning till säsongsdatum',
+      qualityFocus: 'Grafisk precision, streckkod och etikett per marknad, komplett kit, lufttäthet',
+      navLabel: 'Distributör private label',
+      metaTitle: 'EU-distributör private label | 1 200 brädor på 90 dagar — iSupfactory',
+      metaDescription:
+        'Hur en europeisk distributör lanserade en private label-SUP-linje på 1 200 brädor på 90 dagar — två SKU, EU-detaljhandelsförpackning och en upprepad Q4-order på samma låsta specifikation.',
+      kicker: 'Private label-projekt',
+      h1: 'Så lanserade en europeisk distributör en private label-SUP-linje på 1 200 brädor på 90 dagar',
+      intro: [
+        'En europeisk distributör ville ha en egen märkt SUP-linje i butikshyllan till sommarsäsongen — två marknadsbeprövade SKU, komplett detaljhandelsförpackning och inga egna fabriksrelationer.',
+      ],
+      industry: 'Distributörer & grossister',
+      requirement: '1 200 märkta brädor i två SKU — 10′6″ allround och 12′6″ touring — med EU-detaljhandelsförpackning, levererade på 90 dagar.',
+      challenge:
+        'Sommarsäsongens butiksfönster är fast, så alla 1 200 brädor och deras förpackningar måste anlända tillsammans i tid. Private label-förpackningar — streckkoder, etiketter, manualer — måste matcha EU:s detaljhandelskrav, och distributören hade ingen erfarenhet av SUP-fabriker att luta sig mot.',
+      solution:
+        'Två marknadsbeprövade plattformar valda för sortimentet, komplett private label-grafik och EU-detaljhandelsförpackning hanterade i ett program, och produktionen schemalagd så att båda SKU levererades tillsammans inom 90-dagarsfönstret — med specifikationen låst för en snygg upprepad order.',
+      product: 'Private label uppblåsbart SUP — 10′6″ allround och 12′6″ touring, med märkt paddel, pump, ryggsäck och tryckta detaljhandelskartonger.',
+      process: [
+        { title: 'Sortimentsplanering', body: 'Två SKU valda — 10′6″ allround och 12′6″ touring — för detaljhandelstäckning.' },
+        { title: 'Provgodkännande', body: 'Grafik, förpackning och finish bekräftade på fysiska brädor.' },
+        { title: 'Produktion på 90 dagar', body: 'Volymen schemalagd så att båda SKU levererades tillsammans för säsongsfönstret.' },
+        { title: 'Q4-ombeställning', body: 'Upprepad order lagd på samma låsta specifikation.' },
+      ],
+      result:
+        'Alla 1 200 brädor med komplett detaljhandelsförpackning levererades inom 90 dagar, i tid för sommarens butiksfönster. Linjen sålde slut och distributören återkom i Q4 med en upprepad order på samma låsta specifikation.',
+      outcome: '1 200 brädor · 90 dagar · 2 SKU · upprepad Q4-order.',
+      metrics: [
+        { value: '1,200', label: 'brädor i en lansering' },
+        { value: '90', label: 'dagar till full leverans' },
+        { value: '2', label: 'detaljhandels-SKU, båda i tid för fönstret' },
+        { value: 'Q4', label: 'upprepad order på samma spec' },
+      ],
+      takeaways: [
+        'Att börja med två beprövade SKU håller lagerrisken låg samtidigt som sortimentet fyller hyllan.',
+        'Ett program som täcker brädor, tillbehör och förpackning eliminerar en vanlig lanseringsfälla.',
+        'Ett fast säsongsdatum styr schemat — produktionsplaneringen måste behandla det som icke förhandlingsbart.',
+        'Att låsa specifikationen vid lansering gör upprepade ordrar rena och konsekventa.',
+      ],
+      customizations: [
+        '10′6″ allround- och 12′6″ touringplattformar för sortimentet',
+        'Private label-grafik för däck, botten och förpackning',
+        'Märkt paddel, pump och ryggsäck per SKU',
+        'Tryckta detaljhandelskartonger, streckkoder, etiketter och bruksanvisning för EU-detaljhandel',
+        'BOM och specifikation låsta för konsekventa upprepade ordrar',
+        'Batchleverans anpassad till lanseringsfönstret',
+      ],
+      inspectionFocus: [
+        'Grafisk precision mot godkända private label-filer',
+        'Streckkods-, etikett- och manualverifiering per marknad',
+        'Komplett kit per SKU genom hela 1 200-brädserieserien',
+        'Stickprovskontroller av lufttäthet under produktionen',
+        'Kartong- och paketeringsverifiering per SKU',
+      ],
+      confidentiality:
+        'Efter överenskommelse offentliggörs inte distributörens namn och detaljhandelskunder. Detta projekt presenteras anonymt för att skydda kommersiell sekretess.',
+      tags: ['Private label', 'Sortiment med 2 SKU', 'Leverans inom säsongsfönstret'],
+    },
+    {
+      slug: 'resort-sup-fleet',
+      customerType: 'Resort & hotellverksamhet',
+      region: 'Europa / Nordamerika',
+      productCategory: 'Allround uppblåsbart SUP',
+      projectStage: 'Provgodkännande → Volymproduktion → Flottuppfräschning',
+      manufacturingScope: 'Grafik, tillbehör, paketering och flottproduktion',
+      keyRequirements: 'Uthyrningshållbarhet, kompakt förvaring, full märkning av anläggningen',
+      qualityFocus: 'Lufttäthet, grafisk precision, kompletta tillbehör, kartongmärkning',
+      navLabel: 'SUP-flotta för lyxresort',
+      metaTitle: 'SUP-flotta för lyxresort | 100 märkta brädor — iSupfactory',
+      metaDescription:
+        'Hur en lyxresort utrustade sitt strandprogram med 100 märkta SUP-brädor — anpassad grafik, uthyrningsklass konstruktion och säsongsbaserad flotthantering.',
+      kicker: 'Resortprojekt',
+      h1: 'Så standardiserade en lyxresort en märkt SUP-flotta på 100 brädor',
+      intro: [
+        'En lyxresort ville att strandprogrammet skulle kännas som en del av anläggningen — märkta brädor i resortens färgpalett, hållbara nog för daglig gästanvändning och lätta att förvara mellan säsongerna.',
+      ],
+      industry: 'Resort & hotellverksamhet',
+      requirement: '100 märkta SUP-brädor för gästuthyrning, i anläggningens färgpalett.',
+      challenge:
+        'Daglig uthyrning sliter snabbt på generiska flottor, och förvaringsutrymmet utanför säsongen är begränsat. Resorten behövde brädor som klarar hård användning, förvaras kompakt och bär full märkning av anläggningen.',
+      solution:
+        'Uppblåsbar konstruktion i uthyrningsklass med förstärkta fat och UV-beständiga material, helbrädesgrafik i resortens färger samt märkta paddlar och pumpar som en del av flottpaketet.',
+      product: 'Anpassat uppblåsbart SUP — 11′ allroundplattform, märkt däckgrafik och tillbehör.',
+      process: [
+        { title: 'Flottkonsultation', body: 'Gästvolym, strandlinje och säsongslängd bestämde flottstorlek och brädblandning.' },
+        { title: 'Märkt prov', body: 'Färger och logotyp godkända på en fysisk bräda före produktion.' },
+        { title: 'Produktion & kvalitetskontroll', body: '100 brädor producerade med kvalitetskontroll på flera punkter genom hela serien.' },
+        { title: 'Leverans & uppfräschning', body: 'Säsongsleverans, reservdelar och ett uppfräschningsprogram för kommande säsonger.' },
+      ],
+      result:
+        'Flottan lanserades i tid för säsongen, brädorna förvaras i ett enda rum utanför säsongen, och gästernas feedback på den märkta utrustningen ledde till en flottutökning året därpå.',
+      outcome: 'Lansering i tid, 100 % märkt flotta, utökning nästa säsong.',
+      customizations: [
+        'Bräpplattform, storlek och konstruktion valda för daglig uthyrning',
+        'Helbrädesgrafik i anläggningens färgpalett',
+        'Fat-märkning och logoplacering godkända på ett fysiskt prov',
+        'Märkt paddel, pump och tillbehörsset till varje bräda',
+        'Flottnumrering och färgkodning genom hela serien',
+        'Kompakt förvaringskonfiguration och säsongsvis uppfräschning',
+      ],
+      inspectionFocus: [
+        'Uppblåsning och lufttäthet på varje bräda',
+        'Ventil- och förstärkt fat-skick',
+        'Grafisk precision och färgmatchning mot godkänt prov',
+        'Kompletta tillbehör och kit per bräda',
+        'Kartongmärkning och flottetiketter före leveransgodkännande',
+      ],
+      confidentiality:
+        'Efter överenskommelse offentliggörs inte resortens namn och varumärkestillgångar. Detta projekt presenteras anonymt för att skydda kommersiell sekretess.',
+      tags: ['Märkt gästflotta', 'Uthyrningsklass konstruktion', 'Säsongsvis uppfräschning'],
+    },
+    {
+      slug: 'private-label-launch',
+      customerType: 'Detaljhandel- & outdoorvarumärken',
+      region: 'Europa',
+      productCategory: 'Allround uppblåsbart SUP (private label)',
+      projectStage: 'Provgodkännande → Valideringsserie → Skalning',
+      manufacturingScope: 'Produkt- och förpackningsgrafik, provning, produktion, verktygsbevarande',
+      keyRequirements: 'Säljbar linje utan egen SUP-design eller tillverkning',
+      qualityFocus: 'Versionskontroll av grafik, förpackningsprecision, komplett kit',
+      navLabel: 'Private label-varumärkeslansering',
+      metaTitle: 'Private label-SUP-lansering | Varumärkesutvidgning — iSupfactory',
+      metaDescription:
+        'Hur ett befintligt outdoorvarumärke utvidgade till SUP med en private label-produktlinje — från logotyp till första container, med skalbart MOQ.',
+      kicker: 'Private label-projekt',
+      h1: 'Så lanserade ett outdoorvarumärke en private label-SUP-linje från logotyp till första container',
+      intro: [
+        'En sportåterförsäljare med ett etablerat varumärke ville utvidga till paddelsport utan att bygga fabriksrelationer — en säljbar SUP-linje under eget namn.',
+      ],
+      industry: 'Detaljhandel- & outdoorvarumärken',
+      requirement: 'En private label-SUP-linje — logotyp, färger och förpackning på beprövade plattformar, första serie på 50 st.',
+      challenge:
+        'Inget internt SUP-designteam, ingen tillverkningserfarenhet och en första order tillräckligt liten för att testa marknaden innan skalning.',
+      solution:
+        'Komplett produkt- och förpackningsgrafik utvecklad från varumärkets tillgångar, en valideringsserie på 50 st och sedan skalning på samma verifierade plattformar med verktyg bevarade för varumärket.',
+      product: 'Private label uppblåsbart SUP — märkt däck, paddel, pump, ryggsäck och tryckta kartonger.',
+      process: [
+        { title: 'Varumärkesinläsning', body: 'Logotyp, färger och varumärkesriktlinjer förvandlades till bräd- och förpackningsgrafik.' },
+        { title: 'Provgodkännande', body: 'Fysiskt prov bekräftade finish, färger och förpackning.' },
+        { title: 'Valideringsserie', body: 'Första serie på 50 st såldes slut innan skalning.' },
+        { title: 'Skalning', body: 'Produktion i containerorder med jämn kvalitet, designer ägda av varumärket.' },
+      ],
+      result:
+        'Linjen sålde slut genom sin valideringsserie inom en säsong och skalerade till en containerorder — med varumärket som ägare av alla designer och verktyg.',
+      outcome: 'Validerad på en säsong, skalad till containerordrar.',
+      customizations: [
+        'Bräpplattformar, storlekar och färger kartlagda mot varumärkeslinjen',
+        'Däck-, botten- och förpackningsgrafik byggd från varumärkestillgångar',
+        'Märkt paddel, pump, ryggsäck och tillbehörskit',
+        'Tryckta detaljhandelskartonger och etikettlayout',
+        'Streckkods- och bruksanvisningsversion för målmarknaden',
+        'Verktygs- och grafikägande bevarat för varumärket',
+      ],
+      inspectionFocus: [
+        'Grafikversion matchar de godkända filerna',
+        'Färg- och finishprecision på det fysiska provet',
+        'Förpacknings-, streckkods- och manualverifiering',
+        'Komplett kit genom hela valideringsserien',
+        'Stickprovskontroller av lufttäthet under produktionen',
+      ],
+      confidentiality:
+        'Efter överenskommelse offentliggörs inte varumärkesnamnet och kommersiella detaljer. Detta projekt presenteras anonymt för att skydda kommersiell sekretess.',
+      tags: ['Varumärkesutvidgning', 'Förpackningsdesign', 'Skalbart MOQ'],
+    },
+    {
+      slug: 'club-team-boards',
+      customerType: 'Paddlingsklubbar & lag',
+      region: 'Nordamerika',
+      productCategory: 'Tränings-uppblåsbart SUP',
+      projectStage: 'Provgodkännande → Flottproduktion → Utökningsombeställning',
+      manufacturingScope: 'Klubbmärkning, flottproduktion, reservdelsstöd',
+      keyRequirements: 'Enhetlig lagprofil, stram budget, identisk framtida utökning',
+      qualityFocus: 'Grafisk precision, lufttäthet, komplett kit, ombeställningskonsistens',
+      navLabel: 'Klubblagets brädor',
+      metaTitle: 'Klubblagets SUP-brädor | Uppfräschning av märkt flotta — iSupfactory',
+      metaDescription:
+        'Hur en paddlingsklubb lanserade ny profil och fräschade upp sin flotta med 25 märkta träningsbrädor — laggrafik, reservdelsstöd och jämna ombeställningar.',
+      kicker: 'Klubbprojekt',
+      h1: 'Så lanserade en paddlingsklubb ny profil för en träningsflotta på 25 brädor',
+      intro: [
+        'En paddlingsklubb lanserade en ny profil och behövde utrustning som matchade — en enhetlig lagflotta för träning och regattor, utan oenhetligt lager.',
+      ],
+      industry: 'Paddlingsklubbar & lag',
+      requirement: '25 märkta träningsbrädor med klubbnamn, färger och logotyp, plus reservdelar.',
+      challenge:
+        'Den befintliga flottan var oenhetlig och omärkt; budgetarna var strama och framtida utökning krävde identiskt matchande lager.',
+      solution:
+        'Klubbmärkning på varje bräda, flottpris för volymen samt reservdelar + reparationsvägledning för att förlänga brädornas livslängd.',
+      product: 'Anpassat lag-SUP — träningsform med klubbgrafik, plus reservfenor och reparationskit.',
+      process: [
+        { title: 'Klubbinläsning', body: 'Medlemskap, sessionstyper och nuvarande utrustning granskade.' },
+        { title: 'Brädval', body: 'Tränings- och nybörjarformer matchade mot klubbprogrammet.' },
+        { title: 'Märkning', body: 'Klubbnamn, färger och logotyp tryckta på hela flottan.' },
+        { title: 'Leverans & tillväxt', body: 'Flotta levererad med delar; identisk ombeställning för utökning.' },
+      ],
+      result:
+        'Medlemmarna tränar på matchande märkt utrustning, och klubben utökade flottan nästa säsong med en identisk ombeställning i samma kvalitet.',
+      outcome: 'Enhetlig flotta, identisk utökningsombeställning.',
+      customizations: [
+        'Tränings- och nybörjarplattformar matchade mot klubbprogrammet',
+        'Klubbnamn, färger och logotyp tryckta på hela flottan',
+        'Brädnumrering och storleksgruppering per träningsgrupp',
+        'Reservfenor och reparationskit som flotttillbehör',
+        'Ombeställningsspecifikation låst för identisk framtida utökning',
+      ],
+      inspectionFocus: [
+        'Grafisk precision för klubbnamn, färger och logotyp',
+        'Verifiering av uppblåsning och lufttäthet',
+        'Kompletta tillbehör och reparationskit',
+        'Färgkonsistens genom hela 25-brädserieserien',
+      ],
+      confidentiality:
+        'Efter överenskommelse offentliggörs inte klubbens namn och läge. Detta projekt presenteras anonymt för att skydda kommersiell sekretess.',
+      tags: ['Klubbmärkning', 'Flottpris', 'Reservdelsstöd'],
+    },
+    {
+      slug: 'school-program-fleet',
+      customerType: 'Utbildning & ungdomsprogram',
+      region: 'Europa',
+      productCategory: 'Nybörjar- & flerpersons-uppblåsbart SUP',
+      projectStage: 'Programgranskning → Provgodkännande → Flottleverans',
+      manufacturingScope: 'Paketdesign, produktion, reservdelar och förnyelsestöd',
+      keyRequirements: 'Säkerhetsfokuserad utrustning, kvantiteter för klassstorlekar, begränsad personalhantering',
+      qualityFocus: 'Stabilitet, lufttäthet, kompletta tillbehör, användarvägledning',
+      navLabel: 'Skolprogramflotta',
+      metaTitle: 'SkolSUP-program | Nybörjarflotta — iSupfactory',
+      metaDescription:
+        'Hur en skola lanserade en paddelsportvalbar kurs med en nybörjarflotta på 15 brädor och flerpersonsbrädor — säkerhetsfokuserad utrustning för undervisning.',
+      kicker: 'Skolprojekt',
+      h1: 'Så lanserade en skola en nybörjarflotta på 15 brädor för paddelsportsundervisning',
+      intro: [
+        'En skola som lanserade en paddelsportvalbar kurs behövde utrustning som är stabil och säker för nybörjare, anpassad till klassernas storlek och lätt att hantera med begränsad personal.',
+      ],
+      industry: 'Utbildning & ungdomsprogram',
+      requirement: 'En nybörjarflotta för klassstorlekar, inklusive flerpersonsbrädor för första lektionerna.',
+      challenge:
+        'Blandade nivåer, strikta säkerhetskrav, skolans upphandlingscykler och en budget som måste täcka framtida kullar.',
+      solution:
+        'Breda högvolymiga nybörjarbrädor och flerpersonsbrädor, programpriser matchade mot klasskvantiteterna och tydlig användarvägledning för instruktörer.',
+      product: 'Nybörjar-SUP-flotta — stabila plattformar med förstärkt konstruktion för lång programlivslängd.',
+      process: [
+        { title: 'Programgranskning', body: 'Klassstorlekar, vattenområde och instruktörsupplägg bestämde paketet.' },
+        { title: 'Paketbyggnad', body: 'Brädtyper och kvantiteter anpassade till undervisningen.' },
+        { title: 'Provgodkännande', body: 'Stabilitet och konstruktion verifierade på en fysisk bräda.' },
+        { title: 'Leverera & förnya', body: 'Bulkleverans, reservdelar och ombeställningar för nya kullar.' },
+      ],
+      result:
+        'Instruktörerna rapporterade snabbare framsteg under första passet på de stabila plattformarna, och programmet förnyade utrustningen med en matchande ombeställning året därpå.',
+      outcome: 'Snabbare inlärningskurva, förnyad utrustning året därpå.',
+      customizations: [
+        'Breda, högvolymiga nybörjarplattformar för första passen',
+        'Flerpersonsbrädor inkluderade för grupplektioner',
+        'Brädstorlek och kvantitet anpassade till klassstorlekarna',
+        'Tydlig användarvägledning och instruktionsetiketter',
+        'Förstärkt konstruktion för lång programlivslängd',
+        'Bulkleverans- och förnyelseombeställningsspecifikation',
+      ],
+      inspectionFocus: [
+        'Verifiering av stabilitet och däckkonfiguration',
+        'Uppblåsning och lufttäthet på varje bräda',
+        'Kompletta tillbehör per bräda och klasskit',
+        'Användarvägledning och korrekt märkning',
+        'Kartongmärkning och paketeringskontroller av klasskit',
+      ],
+      confidentiality:
+        'Efter överenskommelse offentliggörs inte skolans namn och region. Detta projekt presenteras anonymt för att skydda kommersiell sekretess.',
+      tags: ['Nybörjarflotta', 'Programlansering', 'Förnyelseordrar'],
+    },
+    {
+      slug: 'distributor-line-expansion',
+      customerType: 'Distributörer & grossister',
+      region: 'Två exportregioner',
+      productCategory: 'Mellanklass uppblåsbart SUP (6 SKU)',
+      projectStage: 'Sortimentsplanering → Provgodkännande → Leverans till flera marknader',
+      manufacturingScope: 'Brädor, tillbehör och detaljhandelsförpackning i ett program',
+      keyRequirements: 'En kvalitetsägare, konsekvent märkning, minskat lager per SKU',
+      qualityFocus: 'Lufttäthet, grafisk precision, streckkods- och etikettprecision, BOM-matchning',
+      navLabel: 'Distributörens linjeutökning',
+      metaTitle: 'Distributörens SUP-linjeutökning | 6-SKU-program — iSupfactory',
+      metaDescription:
+        'Hur en vattensportdistributör lade till ett komplett mellanklass-SUP-sortiment i sex SKU — en fabrik, ett program, exporterat till flera marknader.',
+      kicker: 'Distributörsprojekt',
+      h1: 'Så lanserade en distributör ett 6-SKU-SUP-sortiment på två marknader',
+      intro: [
+        'En vattensportdistributör som förde kajaker och tillbehör ville ha ett eget uppblåsbart SUP-sortiment — utan att fragmentera leveransen över flera fabriker för brädor, paddlar och pumpar.',
+      ],
+      industry: 'Distributörer & grossister',
+      requirement: 'Ett mellanklass-SUP-sortiment i sex SKU (10′6″ till 12′6″ plus tillbehörskit), med export till två regioner.',
+      challenge:
+        'Separerade fabriker för brädor, paddlar och pumpar innebar oenhetlig märkning, tre separata leveranspunkter och ingen enskild kvalitetsägare för garantiärenden.',
+      solution:
+        'Ett program som täcker brädor, tillbehör och detaljhandelsförpackning; delade tillbehörskit för att minska lagret per SKU; och leveransalternativ anpassade till varje marknads upplägg.',
+      product: 'Sex märkta detaljhandels-SKU — uppblåsbara SUP-plattformar med kompletta kit i fackpaketerade tryckta kartonger.',
+      process: [
+        { title: 'Sortimentsplanering', body: 'Marknadsluckor och prispunkter bestämde de sex SKU och paketens innehåll.' },
+        { title: 'Enhetlig märkning', body: 'Ett designsystem tillämpat på brädor, paddlar, pumpar och kartonger.' },
+        { title: 'Programpris', body: 'Volympris över hela programmet, inte per SKU.' },
+        { title: 'Leverans till flera marknader', body: 'Standardexportvillkor för hemregionen, fullservicevillkor för den andra marknaden.' },
+      ],
+      result:
+        'Sortimentet lanserades på båda marknaderna på en säsong; delade tillbehörskit minskade anlänt lager, och garantiärenden löstes genom en enda fabrikskontakt.',
+      outcome: 'Flermarknadslansering på en säsong, lägre anlänt lager, en enda garantipunkt.',
+      customizations: [
+        'Sex SKU från 10′6″ till 12′6″ plus tillbehörskitpaket',
+        'Ett designsystem tillämpat på brädor, paddlar, pumpar och kartonger',
+        'Delade tillbehörskit för att minska lagret per SKU',
+        'Kompletta kit i fackpaketerade tryckta detaljhandelskartonger',
+        'Streckkods-, etikett- och manualversioner per målmarknad',
+        'Leveransvillkor och förpackningsupplägg anpassade till varje marknad',
+      ],
+      inspectionFocus: [
+        'BOM-matchning per SKU-konfiguration',
+        'Grafisk och märkningsprecision över de sex SKU',
+        'Streckkods- och etikettprecision per marknad',
+        'Kompletta tillbehörskit och fackpaketering',
+        'Lufttäthetsverifiering genom hela serien',
+      ],
+      confidentiality:
+        'Efter överenskommelse offentliggörs inte distributörens namn och kundlista. Detta projekt presenteras anonymt för att skydda kommersiell sekretess.',
+      tags: ['FlersKU-program', 'Kompletta detaljhandelskit'],
+    },
+    {
+      slug: 'startup-brand-zero-to-one',
+      customerType: 'Startup-SUP-varumärken',
+      region: 'Nordamerika',
+      productCategory: 'ODM allround uppblåsbart SUP',
+      projectStage: 'Koncept → Provserie → Lanseringorder',
+      manufacturingScope: 'ODM-utveckling, grafik, förpackning, produktion',
+      keyRequirements: 'Första serie med lågt MOQ, anpassning till lanseringsdatum, verktyg bevarade för varumärket',
+      qualityFocus: 'Lufttäthet, grafisk precision, förpackningsverifiering',
+      navLabel: 'Startup-varumärke 0→1 lansering',
+      metaTitle: 'Lansering av startup-SUP-varumärke | Från koncept till första sats — iSupfactory',
+      metaDescription:
+        'Hur ett SUP-startup gick från koncept till en utsåld första sats — ODM-utveckling, en provserie på 10 brädor och sedan en märkt lanseringorder på 200 brädor.',
+      kicker: 'Startupprojekt',
+      h1: 'Från koncept till en utsåld lansering på 200 brädor för ett startup-SUP-varumärke',
+      intro: [
+        'Två grundare med en publik men ingen fabrik ville sälja ett eget SUP — en ODM-bräda utvecklad efter deras specifikation, med en lanseringsorder som inte skulle sänka dem.',
+      ],
+      industry: 'Startup-SUP-varumärken',
+      requirement: 'ODM-utveckling med lågt MOQ: en provserie på 10 st för validering, sedan 200 st för lansering.',
+      challenge:
+        'Inget designteam, ingen importerfarenhet och en första order för liten för de flesta fabriker — plus ett lanseringsdatum kopplat till säsongen på norra halvklotet.',
+      solution:
+        'ODM-utveckling från deras koncept på en beprövad plattform, en provserie på 10 st som täcker prover och leveransverifiering, och sedan en märkt lanseringorder på 200 st med verktyg bevarade för varumärket.',
+      product: 'Märkt ODM-uppblåsbart SUP — anpassad däckgrafik, förpackning och butiksredo kartongstorlekar.',
+      process: [
+        { title: 'Konceptsamtal', body: 'Målpaddlaren, prispunkten och lanseringsdatumet bestämde basplattformen.' },
+        { title: 'Provserie', body: '10 st bevisade produkt och förpackning från början till slut.' },
+        { title: 'Lanseringorder', body: '200 st producerade med verifierad grafik och kartongspec.' },
+        { title: 'Skalningsväg', body: 'Verktyg bevarade för varumärket; ombeställningar till förbättrade priser.' },
+      ],
+      result:
+        'Den första satsen sålde slut inom några veckor efter säsongstarten; feedback från provserien åtgärdade ett förpackningsproblem innan den stora ordern gick i produktion.',
+      outcome: 'Utsåld lanseringssats, förpackning åtgärdad före skalning, ombeställningsväg på plats.',
+      customizations: [
+        'ODM-bräda utvecklad från varumärkeskonceptet på en beprövad plattform',
+        'Anpassad däckgrafik och varumärkesförpackning',
+        'Butiksredo kartongstorlekar för lanseringordern',
+        'Tillbehörsset och kitkonfiguration anpassade till målpaddlaren',
+        'Verktyg och grafik bevarade för varumärket',
+        'Produktionsschema anpassat till lanseringsdatumet',
+      ],
+      inspectionFocus: [
+        'Grafisk precision mot de godkända filerna',
+        'Lufttäthetsverifiering på provserien och lanseringordern',
+        'Förpacknings- och kartongverifiering — inklusive åtgärden från provserien',
+        'Kompletta tillbehör och kit',
+      ],
+      confidentiality:
+        'Efter överenskommelse offentliggörs inte varumärkesnamnet och lanseringsdetaljerna. Detta projekt presenteras anonymt för att skydda kommersiell sekretess.',
+      tags: ['ODM-utveckling', 'Provserie med lågt MOQ', 'Säsongsdatumplanering'],
+    },
+    {
+      slug: 'rental-fleet-multi-site',
+      customerType: 'Uthyrningsflottoperatörer',
+      region: 'Nordamerika',
+      productCategory: 'Uthyrningsklass allround uppblåsbart SUP',
+      projectStage: 'Flottgranskning → Enhetlig produktion → Säsongsvis uppfräschning',
+      manufacturingScope: 'Flottspecifikation, produktion, reservdelspaket, uppfräschningsprogram',
+      keyRequirements: 'En enhetlig bräda på alla anläggningar, hållbarhet för uthyrningsslitage',
+      qualityFocus: 'Verifiering av förstärkt konstruktion, lufttäthet, komplett kit',
+      navLabel: 'Uthyrningsflotta på flera anläggningar',
+      metaTitle: 'Utökning av uthyrningsflotta | 200 brädor, 3 anläggningar — iSupfactory',
+      metaDescription:
+        'Hur en fleranläggningsuthyrningsoperatör ersatte oenhetligt lager med 200 enhetliga brädor på tre platser — flottpris, säsongsvis uppfräschning och reservdelsförsörjning.',
+      kicker: 'Uthyrningsprojekt',
+      h1: 'Standardisering av en uthyrningsflotta på 200 brädor över tre anläggningar för en flottoperatör',
+      intro: [
+        'En uthyrningsoperatör som driver tre vattennära platser behövde en enhetlig flotta istället för oenhetligt lager — samma bräda på alla anläggningar, prissatt för flottvolym.',
+      ],
+      industry: 'Uthyrningsflottoperatörer',
+      requirement: '200 uthyrningsbrädor i klass på tre anläggningar, med säsongsvis uppfräschning och fältreparerbara delar.',
+      challenge:
+        'Oenhetligt åldrande lager komplicerade reparationer och prissättning; uthyrningsslitage kräver förstärkt konstruktion, och förvaringen utanför säsongen är uppdelad på tre anläggningar.',
+      solution:
+        'En uthyrningsklassplattform på alla anläggningar med förstärkta fat och UV-stabila material, flottpris på 200-brädvolymen och ett reservdelspaket med reparationsvägledning per anläggning.',
+      product: 'Uthyrningsklass uppblåsbart SUP — 11′ allroundplattform med förstärkt konstruktion och reparationskit.',
+      process: [
+        { title: 'Flottgranskning', body: 'Platsvolym och utnyttjandediagram bestämde fördelningen mellan platserna.' },
+        { title: 'Enhetlig spec', body: 'En bräda överallt — enklare reparationer, prissättning och utbildning.' },
+        { title: 'Flottpris', body: 'Volymrabatt över den kombinerade 200-brädordern.' },
+        { title: 'Delar & uppfräschning', body: 'Reservdelspaket per anläggning, plus en definierad säsongscykel för utbyte.' },
+      ],
+      result:
+        'Den enhetliga flottan minskade reparationsförvirringen per anläggning, kombinerad beställning låste upp flottpriset, och 200-brädprogrammet blev baslinjen för säsongsvis förnyelse.',
+      outcome: 'Enhetlig drift, lägre kostnad per enhet, repeterbar säsongscykel.',
+      customizations: [
+        'En uthyrningsklassplattform på alla tre anläggningarna',
+        'Förstärkta fat och UV-stabila material för uthyrningsslitage',
+        'Platsfördelning och flottnumrering per plats',
+        'Reservdelspaket per anläggning med reparationsvägledning',
+        'Definierad säsongscykel för utbyte',
+      ],
+      inspectionFocus: [
+        'Verifiering av förstärkt konstruktion per bräda',
+        'Uppblåsning och lufttäthet på varje bräda',
+        'Kompletta tillbehör och reparationskit per anläggning',
+        'Flottnumrering och korrekt märkning per anläggning',
+        'Paketeringskontroller för leverans till flera anläggningar',
+      ],
+      confidentiality:
+        'Efter överenskommelse offentliggörs inte operatörens namn och platser. Detta projekt presenteras anonymt för att skydda kommersiell sekretess.',
+      tags: ['Flotta på flera anläggningar', 'Uthyrningsklass konstruktion', 'Säsongsvis förnyelse'],
+    },
+    {
+      slug: 'touring-sup-range',
+      customerType: 'Outdoor- & vattensportdistributörer',
+      region: 'Europa',
+      productCategory: 'Touring uppblåsbart SUP',
+      projectStage: 'Produktbrief → Provgodkännande → Volymproduktion',
+      manufacturingScope: 'Plattformsgranskning, grafik, tillbehörskonfiguration, detaljhandelsförpackning och produktion',
+      keyRequirements: 'Touringprestanda, projektspecifik grafik, komplett detaljhandelskit',
+      qualityFocus: 'Lufttäthet, grafisk precision, kompletta tillbehör, kartongmärkning',
+      navLabel: 'Touring-SUP-sortiment',
+      metaTitle: 'Utveckling av touring-SUP-sortiment | Outdoor-distributör — iSupfactory',
+      metaDescription:
+        'Hur iSupfactory stödde ett touring-SUP-sortiment för en europeisk outdoor-distributör — plattformsgranskning, projektspecifik grafik, tillbehörskonfiguration och detaljhandelsförpackning.',
+      kicker: 'Touringprojekt',
+      h1: 'Utveckling av ett touring-SUP-sortiment för en europeisk outdoor-distributör',
+      intro: [
+        'Ett skräddarsytt uppblåsbart SUP-projekt som täcker plattformsgranskning, projektspecifik grafik, tillbehörskonfiguration, detaljhandelsförpackning och kvalitetsplanering — från provgodkännande till leveransförberedelse.',
+      ],
+      industry: 'Distributörer & grossister',
+      requirement: 'Ett touring-SUP-sortiment med projektspecifik grafik, tillbehörskonfiguration och detaljhandelsförpackning, kontrollerat från provgodkännande till leverans.',
+      challenge:
+        'Touringpaddlare förväntar sig stabilitet i fart och förutsägbar glid, så plattformen, måtten och volymen måste granskas före produktion. Grafiken måste anpassas kring fat, EVA och ventiler, och varje detaljhandelskit måste komma komplett genom hela sortimentet.',
+      solution:
+        'Plattforms- och måttgranskning för touringprestanda, projektspecifik grafik anpassad till brädans funktioner, en tillbehörskonfiguration som täcker paddel, lina och väska, planering av detaljhandelsförpackning och kontrollerad volymproduktion med definierade kvalitetskontrollpunkter.',
+      product: 'Touring-SUP-sortiment — prestandaplattform med anpassad grafik, komplett tillbehörskit och butiksredo förpackning.',
+      process: [
+        { title: 'Plattformsgranskning', body: 'Touringmått, volym och fatprofil matchade mot målpaddlaren och marknaden.' },
+        { title: 'Specifikation & grafik', body: 'Teknisk spec, grafikanpassning och kundgodkänd BOM förberedda.' },
+        { title: 'Provgodkännande', body: 'Konstruktion, grafik och kit bekräftade på en fysisk bräda.' },
+        { title: 'Produktion & inspektion', body: 'Volymproduktion med kvalitetskontrollpunkter, paketeringsverifiering och leveransgodkännande.' },
+      ],
+      result:
+        'Sortimentet gick från provgodkännande till leveransförberedelse under kontrollerad produkt-, grafik-, BOM- och paketeringsdokumentation — det godkända provet tjänade som referens för produktion och slutinspektion.',
+      outcome: 'Kontrollerad väg från prov till produktion; grafik och paketering låsta före produktion.',
+      customizations: [
+        'Touringplattform, mått och volymkonfiguration',
+        'Projektspecifik topp-, botten- och fatgrafik',
+        'EVA-padlayout och färgkonfiguration',
+        'Fensystem, bungeelayout och tillbehörsset',
+        'Märkt väska, bruksanvisningsversion och detaljhandelsförpackning',
+        'Kartongmärkning och streckkodskrav för målmarknaden',
+      ],
+      inspectionFocus: [
+        'Verifiering av uppblåsning och lufttäthet',
+        'Inspektion av ventil, fat och sömmar',
+        'Grafisk precision mot de godkända filerna',
+        'Kompletta tillbehör och kit',
+        'Verifiering av detaljhandelsförpackning, streckkod och kartongmärkning',
+      ],
+      confidentiality:
+        'Efter överenskommelse offentliggörs inte distributörens namn och kundlista. Detta projekt presenteras anonymt för att skydda kommersiell sekretess.',
+      tags: ['Touring-SUP-sortiment', 'Anpassad grafik', 'Detaljhandelsförpackning'],
+    },
+    {
+      slug: 'fishing-sup-program',
+      customerType: 'Outdoor-återförsäljare',
+      region: 'Nordamerika',
+      productCategory: 'Fiske uppblåsbart SUP',
+      projectStage: 'Konceptgranskning → Provgodkännande → Programproduktion',
+      manufacturingScope: 'Plattformskonfiguration, tillbehörslayout, förpackning och produktion',
+      keyRequirements: 'Integrering av fisketillbehör, stabil plattform, organiserat paket',
+      qualityFocus: 'Lufttäthet, förankring av tillbehör, grafisk precision, komplett paket',
+      navLabel: 'Fiske-SUP-program',
+      metaTitle: 'Fiske-SUP-utveckling | Tillbehörslayout & paket — iSupfactory',
+      metaDescription:
+        'Hur iSupfactory utvecklade en fiske-SUP-konfiguration för en outdoor-återförsäljare — tillbehörslayout, organiserat paket och butiksredo packning i ett kontrollerat program.',
+      kicker: 'Fiskeprojekt',
+      h1: 'Fiske-SUP-utveckling för en outdoor-återförsäljare — tillbehörslayout och paketkonfiguration',
+      intro: [
+        'Ett fiskeinriktat SUP-projekt: en stabil plattform konfigurerad med zoner för fisketillbehör, ett organiserat paket och butiksredo packning — från konceptgranskning till programproduktion.',
+      ],
+      industry: 'Detaljhandel- & outdoorvarumärken',
+      requirement: 'En fiske-SUP-konfiguration med förankring av tillbehör, organiserat paket och detaljhandelsförpackning, från konceptgranskning till programproduktion.',
+      challenge:
+        'Fiskebrädor behöver förankring för tillbehör — spöhållare, D-ringar och lådzoner — utan att äventyra stabiliteten. Paketet behövde hålla sig organiserat på brädan, och förpackningen måste presentera kategorin tydligt i detaljhandeln.',
+      solution:
+        'En bred, stabil plattform med definierade tillbehörszoner, D-ring- och bungeeplacering för fiskeutrustning, ett organiserat paket med reparationskit och detaljhandelsförpackning utvecklad i ett enda kontrollerat program.',
+      product: 'Fiske uppblåsbart SUP — stabil plattform med zoner för fisketillbehör, organiserat paket och butiksredo förpackning.',
+      process: [
+        { title: 'Konceptgranskning', body: 'Målanvändning, utrustning som bärs och paketstruktur bestämde konfigurationen.' },
+        { title: 'Tillbehörslayout', body: 'D-ringar, bungees och förvaringszoner placerade på däcket.' },
+        { title: 'Provgodkännande', body: 'Stabilitet och förankring av tillbehör verifierade på en fysisk bräda.' },
+        { title: 'Programproduktion', body: 'Definierade kvalitetskontrollpunkter, paketverifiering och leveransgodkännande.' },
+      ],
+      result:
+        'Konfigurationen bekräftades på det godkända provet — förankring av tillbehör, paketstruktur och förpackning alla anpassade före produktion — och programmet levererades med verifierade kit.',
+      outcome: 'Tillbehörslayout och paket låsta vid provstadiet; verifierade kit levererade.',
+      customizations: [
+        'Stabil bred plattform med zoner för fisketillbehör',
+        'Spöhållare, D-ring- och bungeeplacering',
+        'Däcklayout för lådor och tackelplacering',
+        'Val av paddel, fena och lina för fiskeanvändning',
+        'Organiserat tillbehörspaket och reparationskit',
+        'Detaljhandelsförpackning för fiskekategorin',
+        'Streckkod och kartongmärkning för målmarknaden',
+      ],
+      inspectionFocus: [
+        'Verifiering av förankring av tillbehör och D-ringplacering',
+        'Verifiering av uppblåsning och lufttäthet',
+        'Grafisk precision och korrekt däcklayout',
+        'Komplett paket och tillbehörskonfiguration',
+        'Verifiering av detaljhandelsförpackning och kartongmärkning',
+      ],
+      confidentiality:
+        'Efter överenskommelse offentliggörs inte återförsäljarens namn och kanaldetaljer. Detta projekt presenteras anonymt för att skydda kommersiell sekretess.',
+      tags: ['Fiskekonfiguration', 'Tillbehörslayout', 'Paketorganisering'],
+    },
+    {
+      slug: 'yoga-sup-program',
+      customerType: 'Vattensportskolor & -program',
+      region: 'Europa',
+      productCategory: 'Yoga uppblåsbart SUP',
+      projectStage: 'Programgranskning → Provgodkännande → Flottleverans',
+      manufacturingScope: 'Konfiguration av stabil plattform, däcktäckning, produktion och programförpackning',
+      keyRequirements: 'Stabilitet för gruppövning, full EVA-däcktäckning, enhetlig flotta',
+      qualityFocus: 'Däcktäckning, lufttäthet, grafisk precision, komplett kit',
+      navLabel: 'Yoga-SUP-program',
+      metaTitle: 'Yoga-SUP-utveckling | Träningsprogram — iSupfactory',
+      metaDescription:
+        'Hur iSupfactory utvecklade en stabil yoga-SUP-konfiguration för ett vattensportsträningsprogram — full däcktäckning och en enhetlig programflotta.',
+      kicker: 'Yogaprojekt',
+      h1: 'Utveckling av en stabil yoga-SUP-konfiguration för ett vattensportsträningsprogram',
+      intro: [
+        'En yoga-SUP-konfiguration för ett träningsprogram: en bred, högvolymig plattform med full EVA-däcktäckning, producerad som en enhetlig flotta för gruppövning.',
+      ],
+      industry: 'Utbildning & ungdomsprogram',
+      requirement: 'En stabil yoga-SUP-konfiguration med full däcktäckning för gruppövning, i programkvantiteter.',
+      challenge:
+        'Yogautövning kräver en bred, högvolymig plattform som förblir klippfast i vattnet. Grupper behöver enhetliga brädor, och instruktörer behöver tydlig vägledning och hanterbar förvaring mellan passen.',
+      solution:
+        'En bred, högvolymig plattform med full EVA-däcktäckning, en enhetlig flottkonfiguration genom hela programmet samt instruktörsvägledning och programetiketter inkluderade.',
+      product: 'Yoga uppblåsbart SUP — stabil plattform med full däckpadstäckning och en enhetlig programflotta.',
+      process: [
+        { title: 'Programgranskning', body: 'Övningsstil, gruppstorlek och förvaring bestämde konfigurationen.' },
+        { title: 'Konfiguration', body: 'Plattform, däcktäckning och finish satta på hela flottan.' },
+        { title: 'Provgodkännande', body: 'Stabilitet och däcktäckning verifierade på en fysisk bräda.' },
+        { title: 'Flottleverans', body: 'Programkvantiteter producerade med kit- och förpackningsverifiering.' },
+      ],
+      result:
+        'Flottan levererades som en enhetlig konfiguration — varje bräda matchade det godkända provet i stabilitet, däcktäckning och finish — med vägledning inkluderad för instruktörer.',
+      outcome: 'Enhetlig flotta matchad mot det godkända provet; programförpackning verifierad.',
+      customizations: [
+        'Bred, högvolymig plattform för stabilitet stående',
+        'Full EVA-däcktäckning över det användbara området',
+        'Däcklayout och remplacering för övning',
+        'Konsekvent färg och finish på hela flottan',
+        'Instruktörsvägledning och programetiketter',
+        'Förvarings- och programförpackningskonfiguration',
+      ],
+      inspectionFocus: [
+        'Inspektion av däcktäckning och EVA-fäste',
+        'Verifiering av uppblåsning och lufttäthet',
+        'Stabilitetsverifiering på det godkända provet',
+        'Grafisk och finishmässig konsistens genom hela serien',
+        'Komplett kit och kontroller av programförpackning',
+      ],
+      confidentiality:
+        'Efter överenskommelse offentliggörs inte programmets namn och läge. Detta projekt presenteras anonymt för att skydda kommersiell sekretess.',
+      tags: ['Yogakonfiguration', 'Full däcktäckning', 'Programflotta'],
+    },
+  ],
 }
 
 export function getProject(locale: Locale, slug: string): ProjectData | undefined {
@@ -4710,6 +5369,12 @@ export const projectsMeta: Localized<ProjectsMeta> = {
     metaDescription:
       'Echte SUP-productieprojecten: hoe resorts, merken, clubs en scholen met iSupfactory productvereisten omzetten in afgewerkte paddleboards.',
     h1: 'Projecten — hoe we SUP-producten met klanten ontwikkelen',
+  },
+  sv: {
+    metaTitle: 'Våra SUP-utvecklingsprojekt & fallstudier | iSupfactory',
+    metaDescription:
+      'Riktiga SUP-tillverkningsprojekt: hur resorter, varumärken, klubbar och skolor med iSupfactory förvandlade produktkrav till färdiga SUP-brädor.',
+    h1: 'Projekt — så utvecklar vi SUP-produkter tillsammans med kunder',
   },
 }
 

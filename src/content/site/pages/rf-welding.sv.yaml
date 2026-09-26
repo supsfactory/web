@@ -1,0 +1,99 @@
+meta:
+  title: 'HF-svetscenter — dielektrisk fogbindning för SUP | {SITE}'
+  description: 'Radiofrekvenssvetsteknik för lufttäta och konforma sömmar i SUP-brädor. Skalprovning, kontroll av lufttätheten och anpassade fogtoleranser.'
+  dateModified: '2026-08'
+back_text: 'Tillbaka till R&D-centrum'
+home_label: 'Start'
+
+answer:
+  label: 'Kort svar'
+  text: 'Vi använder dielektriska HF-pressar på 15 kW som binder samman PVC-sömmar molekylärt (motsvarande 200–600 °C varmluft) och vi validerar varje svets: skalprovning enligt ASTM D751, lufttäthet vid 18.0 PSI, med sömmar som är dokumenterade och spårbara per enhet.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorium 03'
+  title: 'HF-svetscenter'
+  subtitle: 'Dielektrisk förbandsteknik för sömmar som håller under tryck'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Vatrads HF-svetsning, dielektrisk förbandsprocess'
+
+intro: 'En uppblåsbar SUP-bräda är bara så tillförlitlig som sina sömmar. En svag svets kan äventyra en hel luftkammare — och under fötterna är en kammare som brister inte en irritation utan en säkerhetsrisk. På {SITE.name} har vi investerat i ett särskilt radiofrekvenssvetscenter (HF) som kombinerar industriella dielektriska svetspressar med strikt processkontroll och tester efter svetsningen. Varje fog vi producerar är dokumenterad, spårbar och certifierad för att uppfylla eller överträffa vad den internationella standarden för uppblåsbara båtar kräver.'
+
+content_html: |
+  <h2>Vetenskapen bakom fogen</h2>
+  <p>HF-svetsning använder elektromagnetisk energi med hög frekvens (typiskt 27.12 MHz) för att aktivera de polära molekylerna i det PVC-belagda tyget och alstra värme exakt i materialets gränsyta. Till skillnad från varmlufts- eller kilformad svetsning skapar HF-svetsning en verklig molekylär bindning: de båda tyglagren smälter samman i svetsområdet till ett homogent material, vilket ger en förbindelse som är lika stark som utgångsmaterialet självt.</p>
+
+  <h2>Svetsutrustning och processstyrning</h2>
+  <p>Vårt svetscenter är utrustat med:</p>
+  <table>
+    <thead><tr><th>Maskin</th><th>Effekt / Kapacitet</th><th>Tillämpning</th></tr></thead>
+    <tbody>
+      <tr><td>Dielektrisk HF-press 1</td><td>15 kW, platta 2000 × 600 mm</td><td>Brädans huvudfogar, railband-däck-förband</td></tr>
+      <tr><td>Dielektrisk HF-press 2</td><td>10 kW, platta 1500 × 500 mm</td><td>Bow-kilformig svetsning, handtagspatchar, ventilpatchar</td></tr>
+      <tr><td>CNC-styrd HF-svetsmaskin</td><td>8 kW, XY-bord 2500 × 1200 mm</td><td>Böjda railfogar, logotyp-/panelrelief, precisionsarbete</td></tr>
+      <tr><td>Automatisk varmluftskilformad svetsmaskin</td><td>Variabel temperatur, max 1.2 m/min</td><td>Reservprocess för speciella CSM-material</td></tr>
+    </tbody>
+  </table>
+  <p>Varje HF-press är utrustad med sluten temperatur- och tryckövervakning. Svetsparametrarna — effekt, pressningstid, kyltid och elektrodtryck — programmeras per materialtyp och registreras i vårt Manufacturing Execution System (MES) för fullständig spårbarhet.</p>
+
+  <h2>Kvalitetstester av fogen — varje fog, varje bräda</h2>
+  <p>Fogens integritet kontrolleras enligt ett obligatoriskt protokoll med fyra tester:</p>
+  <ol>
+    <li><strong>Visuell inspektion</strong> — 100 % av fogarna kontrolleras för bränning, sned inpassning, kontaminering eller ofullständig smältning. Gräns för underkännande: 0.5 % av fogens löpmeter.</li>
+    <li><strong>Skalprovning</strong> — med varje produktionsparti skärs en 25 mm bred rem ur ett svetsprov. Minsta skalkraft: 120 N/25 mm för PVC 1100 dtex.</li>
+    <li><strong>Lufttäthetstest</strong> — varje färdig bräda pumpas upp till 18.0 PSI och hålls under tryck i 24 timmar. Tryckfallet får inte överstiga 0.50 PSI.</li>
+    <li><strong>Temperaturcykeltest</strong> — prover utsätts för 50 cykler från -20 °C till +60 °C och genomgår därefter en ny skalprovning. Tillåten styrkeförlust: &lt; 10 %.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Jämförelse av skalkraft — HF-svetsning kontra varmluftssvetsning (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">HF-svetsning</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Varmluft</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Normativt minimum</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">HF-svetsning uppnår konsekvent 90-95 % av utgångsmaterialets styrka — långt över minimum.</p>
+  </div>
+
+  <h2>Yrkesmässighet</h2>
+  <p>Vårt svetsteam leds av en senior processingenjör med 11 års erfarenhet av dielektrisk svetsning av belagda tyger. Varje operatör fullbordar ett internt certifieringsprogram på 6 månader innan de får arbeta med produktionsfogar. Återcertifiering krävs varje år och omfattar ett praktiskt dragprov som bedöms enligt vår interna Grade A-standard (skalkraft ≥ 160 N/25 mm).</p>
+
+  <h2>Anpassade svetslösningar för särskilda krav</h2>
+  <p>Vi vet att en enda svetsspecifikation inte passar alla tillämpningar. Vårt HF-svetscenter utvecklar regelbundet anpassade fogkonfigurationer för kunder med särskilda krav:</p>
+  <ul>
+    <li><strong>Flerskiktsförstärkningspatchar</strong> — för hårt belastade områden som railband och båtspits utvecklar vi flerskikts-HF-svetsningar med ett slitagehållbart ytlager, utan kompromisser om flexibiliteten.</li>
+    <li><strong>Fogar för högtrycksbrädor</strong> — för brädor med ett nominellt tryck över 15 PSI validerar vi foggeometrin vid högt arbetstryck och dokumenterar gränsen i testrapporten.</li>
+    <li><strong>Svetsning av paneler med färgbyte</strong> — tvåfärgade tygpaneler (t.ex. grått däck + grå rail) svetsas med en dold överlappning för att bevara varumärkets estetik utan synlig foglinje.</li>
+  </ul>
+
+  <h2>Vårt löfte till dig</h2>
+  <p>Varje bräda vi levererar omfattas av vår fogkvalitetsgaranti: om en fog brister under garantiperioden vid normalt bruk reparerar eller byter vi ut den aktuella luftkammaren gratis och utför en orsaksanalys för att förhindra att det händer igen. Det här är inte bara en garanti — det är ett åtagande om ständig förbättring baserat på verkliga driftdata.</p>
+  <p>När du väljer {SITE.name} väljer du sömmar som är utformade, testade och dokumenterade — inte bara svetsade. Det är skillnaden mellan en bräda som flyter och en bräda som fungerar.</p>
+
+cta:
+  title: 'Diskutera dina svetsbehov'
+  subtitle: 'Anpassade fogtoleranser, materialkompatibilitet eller procesvalidering.'
+  actions:
+    - variant: primary
+      text: Kontakta vårt svetsteam
+      href: /sv/contact#project-brief
+    - text: Tillbaka till R&D-centrum
+      href: /sv/randdcenter

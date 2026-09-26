@@ -1,0 +1,104 @@
+meta:
+  title: 'Anpassad SUP-tillverkning & private label för återförsäljare | {SITE}'
+  description: 'Anpassad SUP-tillverkning och private label för kommersiella varumärken: brädspecifikationer, varumärkesgrafik, låga prov-MOQ:er och fabriks-QC — från prov till serie.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Kommersiella varumärken
+  title: 'Anpassad SUP-tillverkning för kommersiella varumärken'
+  subtitle: 'Kommersiella varumärken lanserar sin paddelbrädesserie med vår fabrik: brädspecifikationer utvecklade utifrån dina krav, ditt varumärke på produkten och produktions-QC som tillämpas kontinuerligt.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Vatrad SUP-brädor, tillverkade för ett kommersiellt varumärke
+
+answer:
+  label: 'Kort svar'
+  text: 'MOQ bekräftas av projektkonfigurationen: kommersiella varumärken börjar med ett prov (1–2 enheter) eller en liten pilotserie (20–50 enheter, prover inom 7–12 dagar), skalar upp till en standard-OEM-serie på 90–100+ enheter per design (25–35 dagar efter PO och deposition) eller investerar i en anpassad form för helt egna serier (verktygsbyggnad tar 15–20 dagar till). Varje bräda trycktestas före leverans, med FOB-, CIF- eller DDP-villkor från Qingdao.'
+  verified: 'September 2026'
+
+margin_section:
+  title: 'Produktionsnivåer för kommersiella varumärken'
+  subtitle: 'Börja med ett prov, validera med en pilotserie, skala upp till en standardserie eller investera i en anpassad form — MOQ och leveranstider bestäms av produktionsspåret, inte av överenskommelser om antal.'
+  items:
+    - tier: 'Provnivå'
+      moq: '1–2 enheter'
+      margin_note: 'Provleverans på 7–12 dagar'
+      features:
+        - 'Grafisk utveckling baserad på ditt varumärkes tillgångar'
+        - 'Fysiskt prov för godkännande'
+        - 'QC på en standardplattform'
+    - tier: 'Pilotnivå'
+      moq: '20–50 enheter'
+      margin_note: 'Marktvalidering på befintliga plattformar'
+      features:
+        - 'Ytgrafik, logotyp och EVA-layout över hela ytan'
+        - 'Återbeställningar på samma godkända plattformar'
+        - 'Exportdokumentation ingår'
+    - tier: 'Anpassad form'
+      moq: 'Bekräftas av projektkonfigurationen'
+      margin_note: 'Verktygsbyggnad tar 15–20 dagar till'
+      features:
+        - 'Ny brädform och utveckling av formverktyg'
+        - 'Fullständig kontroll över specifikationerna'
+        - 'Prioriterad tilldelning av tillverkningskapacitet'
+
+product_line:
+  title: Komplett sortiment
+  subtitle: 'En produktionsplattform för varje segment av ditt företag.'
+  items:
+    - name: Allround-serien
+      description: 'Mångsidig form — den mest använda startplattformen'
+    - name: Touring-serien
+      description: 'Förflyttningsskropp för distanspaddling'
+    - name: Yoga-serien
+      description: 'Bred och stabil plattform för wellnesssektorn'
+    - name: Barnserien
+      description: 'Korta och lätta brädor för de yngsta paddlarna'
+    - name: Racing-serien
+      description: 'Snabba skepp för det mest passionerade segmentet'
+    - name: Tillbehör
+      description: 'Paddlar, flytbojar, pumpaer och väskor för att komplettera sortimentet'
+
+catalog:
+  title: Resurser för kommersiella partner
+  subtitle: 'Specifikationer, beställningsdetaljer och produktdokumentation.'
+  items:
+    - name: 'Produktkatalog 2026'
+      desc: 'Komplett sortiment med specifikationer och beställningsinformation'
+      icon: 'tabler:file-text'
+      link: '/sv/products'
+    - name: 'Guide för kommersiella partner'
+      desc: 'Guide om specifikationer, beställningsprocessen och QC-normer'
+      icon: 'tabler:book'
+      link: '/sv/products'
+    - name: 'Produkt- & tekniska tillgångar'
+      desc: 'Produktfoton i hög upplösning, livsstilsbilder och teknisk dokumentation'
+      icon: 'tabler:photo'
+      link: '/sv/products'
+
+support:
+  title: Tillverkningsstöd
+  subtitle: 'Vad din tillverkningspartner gör runt omkring ordern.'
+  items:
+    - 'Fysiskt prov före serietillverkningen'
+    - 'Toleranser och QC: varje bräda trycktestas före leverans'
+    - 'Specifikationsstöd — former, grafik, EVA-layout, tillbehör'
+    - 'Serieleverans på 25–35 dagar efter bekräftad PO'
+    - 'Reservdelar och reparationsinstruktioner för dina kunder'
+    - 'Export och dokumentation: FOB/CIF/DDP från Qingdao'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Fördjupning:</strong> utforska det <a href="/sv/oem-manufacturing">kompletta OEM/ODM-produktionsprogrammet</a> — MOQ:er som bekräftas per projekt via nivåerna prov, pilot och serie, private label-branding och CE-konformitet — eller läs <a href="/sv/oem-moq-guide">guiden om MOQ &amp; flexibel branding</a> eller besök <a href="/sv/factory">fabriken</a> för att se hur den handelsklara QC:n implementeras.</p>
+  </div>
+
+cta:
+  title: 'Diskutera din kommersiella produktserie'
+  subtitle: 'Skicka in dina krav — vårt team svarar inom en arbetsdag.'
+  actions:
+    - text: 'Skicka in dina krav'
+      href: '/sv/contact'
+      variant: 'primary'
+    - text: 'Se produktplattformarna'
+      href: '/sv/products'
+      variant: 'secondary'

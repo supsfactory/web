@@ -1,0 +1,93 @@
+meta:
+  title: 'Fabriksutrustning — Skärning, svetsning & tryck'
+  description: 'Vatrads industriella produktionsutrustning: PVC-skärning, RF-svetsning, digitaltryck, montering och testning för uppblåsbara SUP-brädor.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup produktionsutrustning'
+    - 'fabrik uppblåsbara sup'
+    - 'rf pvc svetsning'
+    - 'paddle board produktion'
+hero:
+  tagline: Utrustning
+  title: Produktionsutrustning & maskiner
+  subtitle: Industriell utrustning för skärning, svetsning, tryck och montering
+  back_label: Tillbaka till fabriken
+  back_link: /factory
+
+answer:
+  label: 'Tydligt svar'
+  text: 'Vår fabrik på 12 500 m² driver CNC-styrd skärning automatiskt (precision 0.1 mm, mindre än 5 % avkastning), varmluftstermosvetsning vid 200–600 °C tillsammans med 15 kW RF-dielektrisk svetsning för huvud sömar, laminatpressar för drop-stitch-kärnor upp till 14 fot och ett QC-laboratorium som utför tryckprov på varje kammer, dragprov enligt ASTM D751 och kontroll av sömdelaminering enligt ISO 6185.'
+  verified: 'September 2026'
+
+categories:
+  - title: Skärning & materialberedning
+    items:
+      - name: Automatisk PVC-skärmaskin
+        spec: CNC-styrd, 6.5 m × 2.5 m, precision 0.1 mm
+        desc: Automatisk datorstyrd skärmaskin för PVC-, Hypalon- och drop-stitch-tyger. Nestingprogrammet optimerar materialanvändningen till mindre än 5 % avkastning.
+      - name: Vevmaskin för tyg
+        spec: Maxbredd 3 m, framdrift med kontrollerad spänning
+        desc: Sprider tyget i ett eller flera lager med kontrollerad spänning för att undvika deformation före skärningen.
+
+  - title: Svetsning & limning av kammare
+    items:
+      - name: Termosvetsmaskin
+        spec: Varmluftssvetsning, variabel 200–600 °C, 0.5–5 m/min
+        desc: Varmluftstermosvetsmaskin för att foga och svetsa sömar i PVC- och Hypalon-kammare. Används för riktning, försegling och sammansmältning av kammare och flytelement.
+      - name: RF-dielektrisk press
+        spec: 15 kW, platta 2000 × 600 mm
+        desc: Högfrekvenspressar för de viktigaste längsgående sömarna, förbindelser i bälgarna och tillverkning av stora kammare.
+      - name: CNC-styrd RF-svetsmaskin
+        spec: 8 kW, XY-bord 2500 × 1200 mm
+        desc: Programmerbar svetsning av böjda sömar för komplex geometri, logomärkning och precisionsreparationer.
+
+  - title: SUP-produktion
+    items:
+      - name: Laminatpress för drop-stitch-kärna
+        spec: Storlekspress för bräd kärnor upp till 14 fot LÖA
+        desc: Precisionslaminering av drop-stitch-kärnor på de yttre PVC-lagren. Varje lager limmas under tryck för jämn kvalitet och styrka.
+      - name: CNC-fräsmaskin (5 axlar)
+        spec: Arbetsområde 3 m × 2 m × 1 m, vattenkyld spindel
+        desc: Bearbetning av fin boxar, urtag för handtag och måttanpassade brädkomponenter.
+
+  - title: Tryck & dekoration av SUP
+    items:
+      - name: Digitalprinter
+        spec: Högupplösningsbläckstråle, tryckbredd upp till 2 m
+        desc: Direkt digitaltryck på tyget för SUP-däckgrafik i fullfärg. Tryck av mål anpassade mönster, tonövergångar och fotorealistiska bilder med färgbeständiga vattenbeständiga bläck.
+      - name: Silkescreenmaskin
+        spec: Manuell och halvautomatisk, registrering i flera färger
+        desc: Silkescreen för logotyper, varumärken och återkommande mönster på SUP-brädor. Ger hållbara, täckande tryck med stark färgmättnad.
+
+  - title: Montering & färdigställande
+    items:
+      - name: Brädmonteringsstation
+        spec: Modulärt justerbar, flerstationslayout
+        desc: Montering av fin boxar, handtag, D-ringar, ventiler och deckpads på SUP-brädorna.
+      - name: Montagepress för ventiler
+        spec: Pneumatisk, justerbart tryck
+        desc: Precis installation och försegling av Halkey-Roberts- och Leafield-ventiler.
+      - name: Deckpad-laminator
+        spec: 3 m × 1.5 m, temperaturreglerad
+        desc: Varmlaminering av EVA-skumdeckpads på SUP-brädornas övre ytor med konstant vidhäftningsförmåga.
+
+  - title: Testning & kvalitetskontroll
+    items:
+      - name: Universell dragprovningsmaskin
+        spec: 50 kN, / ASTM D751
+        desc: Provning av maximal belastning, töjning vid brott och rivhållfasthet för tygpartierna.
+      - name: Lufttätningstestutrustning
+        spec: Programmerbar, 30 minuters tryckhållning
+        desc: Automatiserat tryckhållningstest för varje kammer före monteringen.
+      - name: Sömdelamineringsutrustning
+        spec: Motoriserad 180°-böjning vid 100 mm/min
+        desc: Provning av skjuvhållfastheten i svetsade och limmade sömar enligt ISO 6185.
+      - name: Xenonbågåldringskammare
+        spec: 2 000 timmars exponering
+        desc: UV-beständighetsprov för färgförskjutning och bibehållen styrka.
+
+cta:
+  title: 'Intresserad av en fabrikstur?'
+  desc: Vi tar gärna emot besökare på vår anläggning i Qingdao. Se utrustningen och processerna på plats.'
+  label: Planera ett besök →
+  link: /contact
