@@ -1,0 +1,91 @@
+name: R2 CDN ensure & sync
+on:
+  workflow_dispatch:
+    inputs:
+      legacy_bucket:
+        description: Source bucket holding the pre-rebrand site assets
+        required: false
+        default: supsfactory-files-prod
+      dry_run:
+        description: List what would be copied without copying
+        required: false
+        type: boolean
+        default: false
+jobs:
+  r2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for Cloudflare credentials
+        id: guard
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::CLOUDFLARE_API_TOKEN 未配置，跳过。"
+          fi
+      - if: steps.guard.outputs.enabled == 'true'
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.0.0
+      - if: steps.guard.outputs.enabled == 'true'
+        uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
+      - if: steps.guard.outputs.enabled == 'true'
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.4.0
+        with:
+          node-version: 22
+          cache: pnpm
+      - if: steps.guard.outputs.enabled == 'true'
+        run: pnpm install --frozen-lockfile
+      - name: Ensure production R2 bucket exists
+        if: steps.guard.outputs.enabled == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SITE_ID: ${{ vars.SITE_ID }}
+        run: |
+          BUCKET="${SITE_ID:-isupfactory}-files-prod"
+          if npx wrangler r2 bucket create "$BUCKET" > /tmp/r2b.log 2>&1; then
+            echo "bucket $BUCKET created"
+          elif grep -qiE 'already exists' /tmp/r2b.log; then
+            echo "bucket $BUCKET exists (skip)"
+          else
+            cat /tmp/r2b.log
+            exit 1
+          fi
+      - name: Attach assets.<domain> custom domain
+        if: steps.guard.outputs.enabled == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
+          SITE_ID: ${{ vars.SITE_ID }}
+        run: node scripts/ensure-r2-cdn.mjs --bucket "${SITE_ID:-isupfactory}-files-prod"
+      - name: Sync legacy bucket objects (missing only)
+        if: steps.guard.outputs.enabled == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SITE_ID: ${{ vars.SITE_ID }}
+        run: |
+          TARGET="${SITE_ID:-isupfactory}-files-prod"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            node scripts/sync-r2-bucket.mjs --http --dry-run --from "${{ inputs.legacy_bucket }}" --to "$TARGET"
+          else
+            node scripts/sync-r2-bucket.mjs --http --from "${{ inputs.legacy_bucket }}" --to "$TARGET"
+          fi
+      - name: Verify CDN assets resolve
+        if: steps.guard.outputs.enabled == 'true'
+        env:
+          CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
+        run: |
+          set +e
+          DOMAIN="${CF_PROD_DOMAIN:-isupfactory.com}"
+          ok=0
+          for i in 1 2 3 4 5 6; do
+            code=$(curl -sS --max-time 20 -o /dev/null -w '%{http_code}' "https://assets.$DOMAIN/site/products/2026/race/race-01.avif")
+            echo "verify attempt $i: HTTP $code"
+            if [ "$code" = "200" ]; then ok=1; break; fi
+            sleep 10
+          done
+          [ "$ok" = "1" ]
