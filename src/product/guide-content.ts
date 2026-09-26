@@ -2153,7 +2153,274 @@ export const GUIDES_SV: Guide[] = [
   },
 ]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV }
+export const GUIDES_NO: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'Hvordan velge din SUP',
+    intro: [
+      'Valget av din første oppblåsbare SUP handler om brettets størrelse, bredde, konstruksjon og hva som følger med i esken. Her er det som betyr noe, i klartekst.',
+    ],
+    sections: [
+      {
+        title: 'Lengde og volum',
+        body: 'Lengre brett (11–12 ft) glir lengre per padletak og holder kursen bedre — ideelle for turer og langdistanspadling. Kortere brett svinger lettere. For de fleste padlere er et allroundbrett på 10\'6"–11\'0" den beste balansen.',
+      },
+      {
+        title: 'Bredde og stabilitet',
+        body: 'Bredden avgjør stabiliteten mer enn noe annet. Et 32-tommers dek er tilgivende for nybegynnere og stabilt nok til yoga; 30-tommers brett passer lettere eller mer erfarne padlere som vil ha fart og smidighet.',
+      },
+      {
+        title: 'Konstruksjonskvalitet',
+        body: 'Se etter en drop-stitch-kjerne i PVC av militærkvalitet med et nominelt trykk på minst 15 PSI, tosidig PVC-laminering og forsterkede railbånd. Det avgjør hvor stivt brettet føles og hvor lenge det holder ved daglig bruk.',
+      },
+      {
+        title: 'Hva som bør være med i pakken',
+        body: 'En komplett pakke sparer penger og boks: brett, justerbar 3-delt paddle, dobbelvirkende pumpe med manometer, spiralformet leash, finne/finner, reiseveske og reparasjonssett.',
+      },
+    ],
+    faqs: [
+      { q: 'Hvilken størrelse på SUP-brett trenger jeg?', a: 'De fleste nybegynnere velger et allroundbrett på rundt 11\'0" × 32" × 6" — stabilt, allsidig og lett å transportere. Tyngre padlere eller dem som padler lengre distanser bør velge en størrelse opp.' },
+      { q: 'Er en oppblåsbar SUP like stiv som et hardt brett?', a: 'En moderne oppblåsbar drop-stitch på 15–20 PSI er nesten like stiv som et hardt nybegynnerbrett — med fordelen at den får plass i en ryggsekk.' },
+    ],
+    related: [
+      { label: 'Utforsk våre SUP-plattformer', href: '/products' },
+      { label: 'Oppblåsbar vs. hardt brett', href: '/inflatable-vs-hardboard' },
+      { label: 'OEM-produksjon', href: '/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Padleguide for nybegynnere',
+    intro: [
+      'Alt du trenger for de første turene på vannet: oppblåsing, din første stående tur, grunnslaget i padling og hvordan du holder deg trygg mens du bygger opp ferdigheter.',
+    ],
+    sections: [
+      {
+        title: 'Pump til angitt trykk, ikke på følelse',
+        body: 'Pump til angitt trykk (vanligvis 15 PSI) ved hjelp av pumpens manometer. Et brett på 10 PSI føles bra på gresset men bøyer seg kraftig på vannet. Kontroller trykket på varme dager — solen varmer luften inni, og trykket stiger.',
+      },
+      {
+        title: 'De første stegene på brettet',
+        body: 'Legg ut fra stranden eller ved et grunt inngang: knærstå først, og reis deg så én fot i gang på tvers av midtlinjen. Hold føttene skulderbrede, knærne myke og blikket mot horisonten — brettet følger blikket ditt.',
+      },
+      {
+        title: 'Grunntaket i padling',
+        body: 'Stikk deg fremover med padlen, senk bladet helt ned og dra det langs brettets side mens du roterer overkroppen. Bytt side etter noen tak for å padle rett; noen brede tak på én side svinger brettet.',
+      },
+      {
+        title: 'Øv på å falle i først',
+        body: 'Å falle i er en del av læringen. Øv på å komme opp igjen på grunt vann: svøm til håndtaket midt på brettet, spark bena mot overflaten og dra deg opp i én bevegelse.',
+      },
+    ],
+    faqs: [
+      { q: 'Hvor lang tid tar det å lære SUP?', a: 'De fleste kan padle behagelig på rolig vann allerede på den første turen, etter en time. Trygghet i svinger, vind og distanse bygges opp over noen turer.' },
+      { q: 'Må jeg være i god form?', a: 'Nei — SUP er svært tilgjengelig. Balanse, styrke i kroppssjakten og pust bygges naturlig opp av regelmessig padling.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Oppblåsbar vs. hardt brett',
+    intro: [
+      'De to konstruksjonsfamiliene vinner i ulike scenarier. Her er den ærlige sammenligningen for fritidspadlere, klubber og utleievirksomheter.',
+    ],
+    sections: [
+      {
+        title: 'Bærbarhet og oppbevaring',
+        body: 'Oppblåsbare brett folder sammen til en ryggsekk som får plass i bagasjen, campingvogna eller garderoben — og er standardvalet for reiser. Harde brett krever takstativ, lagerplass og mer varsom håndtering.',
+      },
+      {
+        title: 'Stivhet og ytelse',
+        body: 'Premium-harde brett er stivere og reagerer bedre på høy ytelse. I fritidstempo presterer en godt bygd oppblåsbar drop-stitch på 15–20 PSI sammenlignbart — til en brøkdel av lagringskostnaden.',
+      },
+      {
+        title: 'Holdbarhet',
+        body: 'Oppblåsbare PVC-brett tåler skrap mot brygger og støt mot stranden som ville knekket et hardt skall — en viktig grunn til at utleieflåter og resorts velger oppblåsbart til daglig gjesteutleie.',
+      },
+      {
+        title: 'Totale eierskapskostnader',
+        body: 'Oppblåsbare brett koster mindre å frakte, lagre og vedlikeholde, og tåler mer slitasje. For de fleste brukere og flåter er et oppblåsbart brett det bedre totalpakket.',
+      },
+    ],
+    faqs: [
+      { q: 'Hvilken er best for nybegynnere?', a: 'Oppblåsbare brett — stabile, tilgivende, enkle å lagre og holdbare nok for skadene nybegynnere påfører.' },
+      { q: 'Kan en oppblåsbar SUP være like rask som et hardt brett?', a: 'I fritidstempo er forskjellen liten. Harde brett vinner bare tydelig i konkurranse og høyytelsesscenarier.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Sikkerhetstips på vannet',
+    intro: [
+      'En trygg tur er en morsom tur. Disse grunnpillene gjelder like godt for innsjøer, elver og kystpadling.',
+    ],
+    sections: [
+      {
+        title: 'Sjekk vind og værvarsel',
+        body: 'Landvind er den klassiske SUP-fellen: den frakter deg raskere bort fra stranden enn du kan padle tilbake. Sjekk varselet, og hold deg i beskyttet vann når du er i tvil.',
+      },
+      {
+        title: 'Bruk alltid leash',
+        body: 'Et spiralformet leash holder brettet innen rekkevidde hvis du faller i — brettet er flyteutstyret ditt. Velg leash etter forholdene: spiral for rolig vann, rett for surf.',
+      },
+      {
+        title: 'Redningsvest og personlig sikkerhet',
+        body: 'Bruk en redningsanordning når forholdene krever det, eller når reglene krever det. Ha med deg en fløyte, fortell noen om ruten din og beregnet tidspunkt for retur, og vurder en telefon i vanntett etui.',
+      },
+      {
+        title: 'Kjenn grensene dine',
+        body: 'Skaff deg erfaring på rolig vann før du gir deg i gang med vind eller strøm. Respekter kaldt vann — det tærer raskt på kreftene. Og padle aldri alene på avsides steder eller i åpent vann uten en plan.',
+      },
+    ],
+    faqs: [
+      { q: 'Trenger jeg redningsvest på en SUP?', a: 'Reglene varierer mellom land og vannområder. Selv der det er frivillig, er leash pluss redningsanordning det ansvarlige grunnlaget, og barn skal alltid ha en redningsvest som passer.' },
+      { q: 'Er det trygt å padle SUP på en innsjø?', a: 'Ja — rolige innsjøer er ideelle for læring. Sjekk vindretningen, hold deg synlig for båttrafikken og unngå tungt trafikkerte leder.' },
+    ],
+    related: [
+      { label: 'Sikkerhetsutstyr på plattformene våre', href: '/products' },
+      { label: 'Kvalitetskontroll i produksjonen', href: '/quality' },
+      { label: 'Velg ditt første brett', href: '/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Hvordan velge en OEM-fabrikk for skreddersydde SUPar',
+    intro: [
+      'Å kjøpe oppblåsbare paddleboards under eget merkenavn handler om én beslutning: hvilken fabrikk du stoler på med din første batch. Slik vurderer du en produsent av skreddersydde SUPar før du legger inn en bestilling (PO).',
+    ],
+    sections: [
+      {
+        title: 'Start med en prøvebestilling, ikke en MOQ-diskusjon',
+        body: 'En fabrikk som bare snakker om minimumskvantum, er tegnet på et handelskontor, ikke en ekte produsent. Ekte produsenter tilbyr trinnvise minimum — co-branding fra 5–10 enheter, pilotpartier fra 20–50 enheter, standardproduksjon fra 90–100+ per rulle på 150 m og prosjekter med helt egen form på volumnivå. Bestill en liten batch først: den tester kommunikasjon, spesifikasjonsdisiplin og prøvekvalitet uten å sette hele lanseringen på spill.',
+      },
+      {
+        title: 'Sjekk hva som faktisk skjer internt',
+        body: 'Produksjonen av en drop-stitch-SUP består av fire kjernetopp: laminering av material, sveising, trykk og montering. En ekte fabrikk gjør alt under samme tak og lar deg inspisere lokalene. Hvis selgeren ikke kan vise en produksjonslinje, kjøper du trolig gjennom et mellomledd uten kontroll over kvalitet eller ledetider.',
+      },
+      {
+        title: 'Prøver må matche serieproduksjonen',
+        body: 'En håndlaget prøve er lett; en konsistent serieproduksjon er vanskelig. Spør hvordan fabrikken sikrer repeterbarhet: logger for materialpartier, sveiseparametere og en QC-sjekkliste som brukes på hvert enkelt brett — ikke bare det du godkjenner.',
+      },
+      {
+        title: 'Kjenn kostnadene før PO',
+        body: 'Få helheten i kostnadene skriftlig: enhetspris per kvantitet, verktøy- eller formkostnader dersom du vil ha en ny form, artwork- og trykkoppsett samt emballasje.',
+      },
+      {
+        title: 'Be om inspeksjon fra tredjepart',
+        body: 'Seriøse OEM-SUP-fabrikker ønsker inspeksjoner før levering velkommen — mange merker bestiller et uavhengig QC-besøk per container. Bekreft at fabrikken kan ordne inspeksjoner av prøve- og produksjonsserier, og at avviste enheter (for eksempel brett som mister mer enn 5 % trykk) fjernes fra partiet.',
+      },
+      {
+        title: 'Ledetider som holder',
+        body: 'For oppblåsbare SUPar: regn med prøver innen 7–12 dager og serieproduksjon innen 25–35 dager etter bekreftet PO og depositum, pluss verktøytid dersom du bestiller en ny form. En fabrikk som oppgir langt kortere tider enn alle andre siterer fra en brosjyre, ikke fra en plan.',
+      },
+    ],
+    faqs: [
+      { q: 'Hva er minste bestilling for skreddersydde SUP-brett?', a: 'Trinnvise minimum er standard: 1–2 enheter for prøver, 5–10 enheter for co-branding, 20–50 enheter for et pilotparti og 90–100+ enheter per rulle på 150 m for standardvolum; prosjekter med helt egen form ligger på volumnivå.' },
+      { q: 'Kan jeg se et prøve før serieproduksjonen?', a: 'Ja — prøver er klare innen 7–12 dager. De fleste fabrikker trekker prøve- og formkostnader fra din første produksjonsbestilling når den er bekreftet.' },
+      { q: 'Hvordan verifiserer jeg at en SUP-fabrikk er ekte?', a: 'Be om en direkte videovisning av produksjonslokalet, sjekk fabrikkens aktive adresse i Qingdao eller et annet produksjonssenter, og be om dokumentasjon på tidligere eksportordrer. Prøvebestillinger er det endelige beviset.' },
+      { q: 'Hva bør et tilbud fra en SUP-fabrikk inneholde?', a: 'Enhetspris per brett, verktøy- eller formkostnader, artwork-oppsett, emballasje, vilkår for QC og inspeksjon samt betalingsvilkår.' },
+    ],
+    related: [
+      { label: 'Vår OEM/ODM-produksjon', href: '/oem-manufacturing' },
+      { label: 'Prosessen for produktutvikling av SUP', href: '/product-development' },
+      { label: 'Fabrikkkapasitet og anlegg', href: '/factory' },
+      { label: 'Slik kontrollerer vi kvalitet — 7 inspeksjonsporter', href: '/quality' },
+      { label: 'Guide til MOQ og fleksibel branding (PDF)', href: '/oem-moq-guide' },
+      { label: 'Tillit og fabrikkgaranti', href: '/oem-trust-assurance' },
+      { label: 'Start ditt skreddersydde SUP-prosjekt', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'Private label SUP: hva du faktisk får fra en fabrikk',
+    intro: [
+      'Private label er den raskeste veien til å lansere et SUP-merke: din logo på en utprøvd plattform, uten kostnader og risiko for å designe et brett fra bunnen av. Slik ser samarbeidet med en produsent av skreddersydde SUPar faktisk ut.',
+    ],
+    sections: [
+      {
+        title: 'Private label innebærer utprøvde plattformer',
+        body: 'Du tar utgangspunkt i plattformer som fabrikken allerede bygger og tester — allround, touring, yoga, race og mer. Fabrikken tilpasser branding, grafikk og utstyr, noe som holder kostnadene nede og ledetidene korte. Minimum er trinnvis: co-branding fra 5–10 enheter, pilotpartier fra 20–50 enheter og 90–100+ enheter per rulle på 150 m for standardvolum i private label.',
+      },
+      {
+        title: 'Branding går utover logoen',
+        body: 'Private label omfatter trykk av logoen din (digitalt eller silketrykk), tilpassede fargeskjemaer, EVA-dekkputer skåret med logoen din, branding av tilbehør (paddle, pumpe, leash), design av salgsbokser og til og med butikkdisplayer. Send inn artworket ditt, og fabrikken lager et visuelt underlag før produksjonen.',
+      },
+      {
+        title: 'Hva fabrikken tar seg av for deg',
+        body: 'En fullservice-SUP-fabrikk tar seg av artwork-oppsett, materialinnkjøp, prøveproduksjon, en monterings-QC-sjekkliste med 100 punkter, trykktesting og eksportdokumentasjon (faktura, pakkeliste, opprinnelseserklæring). Du vurderer underlagene og godkjenner prøven — fabrikken tar seg av alt annet.',
+      },
+      {
+        title: 'Det du eier: merke, marked, kunde',
+        body: 'I en private label-avtale bygger fabrikken brettene, og du eier merkenavnet. Seriøse produsenter selger ikke sine egne brett i ditt marked og deler heller ikke den skreddersydde designen din med andre. Be om markedseksklusivitet i tilbudet ditt.',
+      },
+      {
+        title: 'Kostnader: prøver, form, artwork-oppsett',
+        body: 'Regn med tre typer gebyrer: prøvegebyrer (7–12 dager), verktøykostnader når en ny form kreves (minimum på volumnivå) og artwork-oppsett for trykk. De fleste fabrikker trekker prøve- og formkostnader fra din første produksjonsbestilling.',
+      },
+      {
+        title: 'Fra PO til ferdig batch',
+        body: 'Et typisk private label-forløp: et depositum på 30 % starter produksjonen, serieproduksjonen er ferdig innen 25–35 dager etter bekreftet PO og depositum, og restbeløpet avregnes mot den godkjente batchen. Regn med hele partiet allerede i din første bestilling.',
+      },
+    ],
+    faqs: [
+      { q: 'Hva er minste bestilling for private label SUP-brett?', a: 'Co-branding starter ved 5–10 enheter, pilotpartier ved 20–50 enheter og standardvolum i private label ved 90–100+ enheter per rulle på 150 m; prosjekter med helt egen form ligger på volumnivå.' },
+      { q: 'Kan jeg sende inn min egen logo og mitt artwork?', a: 'Ja — send inn logoen og artworket ditt; fabrikken lager et visuelt underlag før produksjonen, slik at du godkjenner farger, plassering og overflatebehandling.' },
+      { q: 'Er den skreddersydde SUP-designen min eksklusiv for mitt merke?', a: 'Ja, i henhold til standardvilkårene for private label. Be om en eksklusivitetsklausul i kjøpsavtalen; fabrikker som vår selger ikke videre designen din med ditt merkenavn.' },
+      { q: 'Hvor lang tid tar en private label-bestilling?', a: 'Prøver sendes innen 7–12 dager; serieproduksjonen er ferdig innen 25–35 dager etter bekreftet PO og depositum. Regn med 8–12 uker for det første fulle partiet.' },
+    ],
+    related: [
+      { label: 'Løsninger for private label', href: '/solutions/private-label-sup' },
+      { label: 'Utprøvde plattformer', href: '/products/all-around' },
+      { label: 'OEM/ODM-produksjon', href: '/oem-manufacturing' },
+      { label: 'Start ditt skreddersydde SUP-prosjekt', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'Å kjøpe SUP-flåter for utleie, resorts og klubber',
+    intro: [
+      'Flåtekjøpere trenger andre svar enn sluttkunder: holdbarhet per tur, standardiserte reservedeler, kvantiteter på volumnivå og en leverandør som leverer sesong etter sesong. Slik planlegger du før du bestiller din første flåte.',
+    ],
+    sections: [
+      {
+        title: 'Standardiser på én eller to spesifikasjoner',
+        body: 'Utleievirksomhet bygger på standardisering: én brettstørrelse (vanligvis 10\'6"–11\'0" × 32") for de fleste gjester, en holdbar pakke og et reservedelssett. Det forenkler reparasjoner, opplæring av personale, lagring og gjenbestillinger. Motstå fristelsen til å kjøpe ti ulike modeller.',
+      },
+      {
+        title: 'Brett med høy belastning er et annet produkt',
+        body: 'Et utleiebrett tåler dusinvis av turer per sesong. Spesifiser tykkere PVC-lag, forsterkede railbånd og kraftigere tilbehør enn for forbrukermodellen. Spør fabrikken hvordan flåtespesifikasjonen skiller seg fra forbrukermodellen — ekte anlegg har begge deler.',
+      },
+      {
+        title: 'Tilpass kvantitetene til etterspørselen',
+        body: 'Beregn flåtestørrelsen ut fra daglig rotasjon og sesonglengde: 20–30 brett holder for en liten virksomhet, 100+ for et godt besøkt resort eller klubb. Be fabrikken om kvantitetsanbefalinger som passer etterspørselmønsteret ditt.',
+      },
+      {
+        title: 'Bestill reservedeler sammen med flåten',
+        body: 'Bestill reserveventiler, reparasjonssett, pumper, leashes og padler i samme PO — de koster lite per enhet nå, og er vanskelige å få tak på i løpet av sesongen. Be fabrikken om en anbefalt andel reservedeler (vanligvis 5–10 % av flåtestørrelsen for forbruksvarer).',
+      },
+      {
+        title: 'Bestill før sesongen, ikke under',
+        body: 'Produksjonen tar 25–35 dager etter bekreftet PO og depositum. For å ha brett på stranden til våren, bekreft bestillingene sent på høsten, slik at produksjonen er ferdig før sesongen.',
+      },
+      {
+        title: 'Brand flåten for merverdi ved videresalg',
+        body: 'Flåtebrett kan bære logoen din, et nummereringssystem for utleien og fargekoding per størrelse. Silketrykkede logoer på serier på 200+ enheter er kostnadseffektive, og en brandet flåte fungerer også som markedsføring på vannet.',
+      },
+    ],
+    faqs: [
+      { q: 'Hvilket er det beste SUP-brettet for en utleieflåte?', a: 'Et allroundbrett på 10\'6"–11\'0" × 32" med forsterket konstruksjon er bransjestandarden — stabilt for nybegynnere, holdbart til daglig bruk og lett å stelle.' },
+      { q: 'Hvor mange brett trenger en utleievirksomhet?', a: 'Regn med 20–30 brett for en liten virksomhet, skalert etter rotasjon: 100+ enheter for godt besøkte resorts og klubber. Reservedeler bør være 5–10 % av flåtestørrelsen.' },
+      { q: 'Kan flåtebrettene bære logoen vår?', a: 'Ja — silketrykkede logoer, utleienummer og fargekodedekk er standardtilpasninger, spesielt kostnadseffektive fra 200 enheter.' },
+      { q: 'Hvor lang tid tar en flåtebestilling?', a: 'Prøver innen 7–12 dager, produksjon innen 25–35 dager etter bekreftet PO og depositum — bestill derfor flåten i god tid før sesongen starter.' },
+    ],
+    related: [
+      { label: 'Løsninger for resorts og klubber', href: '/solutions/resort-sup' },
+      { label: 'Case study: utleieflåte på flere steder', href: '/projects/rental-fleet-multi-site' },
+      { label: 'Plattformer for flåter', href: '/products/all-around' },
+      { label: 'Snakk med en prosjektspesialist', href: '/contact' },
+    ],
+  },
+]
+
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -2483,6 +2750,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'Att köpa SUP-flottor',
       intro:
         'Flottplanering för uthyrning, resorter och klubbar: robust specifikation, kvantiteter per container, reservdelar och säsongsvariation.',
+    },
+  ],
+  no: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'Så velger du din SUP',
+      intro:
+        'Valget av din første oppblåsbare SUP handler om brettets størrelse, bredde, konstruksjon og hva som følger med i esken. Her er det som betyr noe, i klartekst.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Padleguide for nybegynnere',
+      intro:
+        'Alt du trenger for de første turene på vannet: oppblåsing, din første stående tur, grunnslaget i padling og hvordan du holder deg trygg.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Oppblåsbar vs. hardt brett',
+      intro:
+        'De to konstruksjonsfamiliene vinner i ulike scenarier. Her er den ærlige sammenligningen for fritidspadlere, klubber og utleievirksomheter.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Sikkerhetstips på vannet',
+      intro:
+        'En trygg tur er en morsom tur. Disse grunnpillene gjelder like godt for innsjøer, elver og kystpadling.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Så velger du en OEM-fabrikk for skreddersydde SUPar',
+      intro:
+        'Så vurderer du en produsent av skreddersydde SUPar før du legger inn en bestilling: prøvebestilling, egen produksjon, prøver, kostnader og inspeksjon.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'Private label SUP',
+      intro:
+        'Hva et private label-samarbeid faktisk innebærer: utprøvde plattformer, komplett branding, kostnader, eksklusivitet og leveringstider.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'Å kjøpe SUP-flåter',
+      intro:
+        'Flåteplanlegging for utleie, resorts og klubber: robust spesifikasjon, kvantiteter per container, reservedeler og sesongvariasjon.',
     },
   ],
 }

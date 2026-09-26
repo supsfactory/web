@@ -1,0 +1,94 @@
+meta:
+  title: 'Konstruksjon av SUP-skrog — CAD- og FEA-brettdesign'
+  description: 'Designstudio for SUP-brett: CAD-brettdesign, finite elementanalyse (FEA) av drop-stitch-konstruksjoner og tilpassede skrogformer for OEM-prosjekter.'
+back_text: 'Tilbake til FoU-senteret'
+home_label: 'Hjem'
+
+hero:
+  tagline: 'Laboratorium 02'
+  title: 'Brettdesignstudio'
+  subtitle: 'Digital simulering, strukturell intelligens, personifisert brettdesign'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion.webp'
+  image_alt: 'CAD-arbeidsplass for design av SUP-brett hos Vatrad'
+
+answer:
+  label: 'Entydig svar'
+  text: 'Personifiserte SUP-brett designes internt med 3D-overflatemodellering i SolidWorks, ANSYS-FEA og CFD — hvert brett simuleres med hensyn på spenningsfordeling og deck-stivhet før prototyping, med en bindende sikkerhetsfaktor ≥ 2.5. En tilpasset form krever 7–12 dager til prototypen; full formproduksjon for en tilpasset form forlenger produksjonstiden på 25–35 dager med ytterligere 15–20 dager, der MOQ fastsettes av prosjektkonfigurasjonen (se MOQ-guiden vår).'
+  verified: 'September 2026'
+
+intro: 'Skrogformen på et SUP-brett — rocker, railprofil, volumet i båten og akterenden — avgjør hvordan det padler, svinger og ligger rett. Brettdesignstudioet vårt på {SITE.name} kombinerer CAD-overflatemodellering, finite elementanalyse (FEA) av drop-stitch-konstruksjoner og produksjonserfaring for å levere brett optimalisert for sitt formål: allround-stabilitet, touringens glid eller surfytelse. Hvert personifisert brett tar utgangspunkt i kravene dine, ikke i en generisk katalogform.'
+
+content_html: |
+  <h2>Når motstand og hydrodynamikk møtes</h2>
+  <p>Et oppblåsbart SUP-brett er en drop-stitch-konstruksjon: tusenvis av polyestertråder forbinder over- og undersiden i PVC og holder decket flatt ved 12–15 PSI, mens geometrien for rail og båt avgjør brettets oppførsel i vannet. Vi designer 3D-formen, simulerer den oppblåste konstruksjonen og validerer resultatet internt, før et eneste prøveeksemplar kappes.</p>
+
+  <h2>Designverktøy og standarder</h2>
+  <p>Det digitale designmiljøet vårt omfatter:</p>
+  <table>
+    <thead><tr><th>Kapasitet</th><th>Programvare / verktøy</th><th>Anvendelse</th></tr></thead>
+    <tbody>
+      <tr><td>Parametrisk 3D-modellering</td><td>SolidWorks Professional</td><td>Brettets overflate, rockerlinje, railprofil, integrasjon av håndtak &amp; finner</td></tr>
+      <tr><td>Finite elementanalyse</td><td>ANSYS Mechanical</td><td>Spenningsfordeling i drop-stitch-kjernen, deck-stivhet under belastning, forsterkning av håndtakspunktet</td></tr>
+      <tr><td>Computational Fluid Dynamics</td><td>Ansys Fluent</td><td>Prediksjon av hydrodynamisk motstand, optimalisering av glideforholdene</td></tr>
+      <tr><td>Lamineringsteknikk</td><td>ESAComp</td><td>PVC-lag, valg av stoffvekt, vektberegning</td></tr>
+      <tr><td>Kontroll av formoverflater</td><td>Moldex3D</td><td>Verifisering av geometrien for sveiseformer ved RF-sveising</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Vårt designarbeidsflyt</h2>
+  <p>Hvert brettdesign — enten det er en standardmodell eller et fullstendig personifisert prosjekt — følger en streng prosess i fem trinn:</p>
+  <ol>
+    <li><strong>Innsamling av konsept &amp; krav</strong> — Vi fastlegger padlernes vektintervall, bruksformål (allround, touring, surf, yoga, utleieflåte), mål for lengde, bredde og tykkelse samt spesielle funksjoner (oppbevaringssystem, deckpad, festepunkter).</li>
+    <li><strong>3D-overflatemodellering &amp; volumberegning</strong> — Brettets form modelleres i SolidWorks og kontrolleres med hensyn på volumfordeling, vannfortrengning og stabilitet i forhold til padlerens målvekt.</li>
+    <li><strong>Strukturell FEA</strong> — Det oppblåste brettet analyseres under stående belastning, både statisk (padler i midten, 100 kg) og dynamisk (bølge mot railen). Spenningskonsentrasjonene kontrolleres; en sikkerhetsfaktor ≥ 2.5 er bindende.</li>
+    <li><strong>CFD-optimalisering av motstand</strong> — Skroget simuleres ved tre belastningstilstander og fem hastigheter. Våt overflate, glidevinkel og gjenværende motstand reduseres iterativt.</li>
+    <li><strong>Designkontroll &amp; frigjøring</strong> — Hele konstruksjonsdokumentasjonen (3D-modell, FEA-rapport, CFD-rapport, vektberegning, plan over panelplassering) kontrolleres av senioringeniøren vår før den frigjøres til prototypverkstedet.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">FEA-resultater — allround-brett 11''0 (32'' bredde, 6'' tykkelse)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2.8 : 1</span>
+        <span class="text-gray-500">Sikkerhetsfaktor ved 120 kg stående belastning</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Deckgjennombøyning ved 15 PSI, uten belastning</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3.2 mm</span>
+        <span class="text-gray-500">Maksimal deckgjennombøyning under én padler på 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Analysetrykk — plattformens driftstrykk</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Personifisering: ditt brett, dine regler</h2>
+  <p>Ingen to merker har identiske krav. En utleieflåte trenger et bredt, stabilt allround-brett med forsterkede rails; et touringmerke trenger et lengre langsgående skrog med lastfester; en serie med surfprofil trenger en kompakt akterende og en rockerprofil. Vi tvinger ikke produktlinjen din inn i ferdige former — vi bygger ut fra kravene dine.</p>
+  <p>Eksempler på nylige prosjekter med personifisert brettkonstruksjon:</p>
+  <ul>
+    <li>En 14'' touring-SUP for et merke innen utholdenhetspadling, med langsgående skrog og innfelt lastdek (+15 % vannlinjelengde for bedre glid).</li>
+    <li>Et bredt allround-brett på 10''6 for en resortflåte, med todels sidedrails og en nominell kapasitet på 220 lb.</li>
+    <li>En surf-SUP på 9'' med kompakt akterende og progressiv rocker, utviklet for en egen surfskole-serie.</li>
+  </ul>
+
+  <h2>Ingeniørene våre</h2>
+  <p>Studioet ledes av en senior produktingeniør med 14 års erfaring fra design av oppblåsbare produkter, støttet av to maskinteknikere som er spesialisert på FEA og CFD. Alle tre har høyere gradsutdanning fra internasjonalt anerkjente universiteter, og teamet arbeider direkte sammen med produksjonshallen vår for å sikre at hvert design er produksjonsklart på containernivå.</p>
+
+  <h2>Design neste brett med oss</h2>
+  <p>Fra det første konseptskissen til den endelige spenningsrapporten er brettdesignstudioet vårt din partner i utviklingen av et brett som ikke bare er bygd, men er designet. Vi investerer i simuleringstid på forhånd, slik at hver sveising, hvert laminatlag og hver railkurve har et formål.</p>
+  <p>Enten du trenger en liten endring av en eksisterende modell eller en komplett redesign — vi er klare til å diskutere kravene dine.</p>
+
+cta:
+  title: 'Start brettdesignkonsultasjonen din'
+  subtitle: 'Fortell oss om målpadlerne og bruksformålet, så foreslår vi en konstruksjonsinnsats.'
+  actions:
+    - variant: primary
+      text: Kontakt ingeniørteamet vårt
+      href: /contact#project-brief
+    - text: Tilbake til FoU-senteret
+      href: /randdcenter

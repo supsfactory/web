@@ -1,0 +1,123 @@
+meta:
+  title: 'Sammenligning av SUP-konstruksjoner — ettlag PVC, tolag PVC og drop-stitch | iSupfactory'
+  description: 'Sammenligning av oppblåsbare SUP-konstruksjoner: ettlag PVC, tolag PVC og drop-stitch-kjerne — stivhet, vekt, holdbarhet, pris og ideell bruk.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'sammenligning sup konstruksjoner'
+    - 'typer oppblåsbare sup konstruksjoner'
+    - 'sup ettlag vs tolag'
+    - 'drop-stitch sup konstruksjon'
+    - 'pvc sup konstruksjon'
+    - 'sup brett stivhet'
+    - 'sup brett vekt'
+
+hero:
+  tagline: 'Konstruksjonsguide'
+  title: 'Sammenligning av SUP-konstruksjoner'
+  subtitle: 'Tre konstruksjonstyper, én produksjonslinje. Forstå avveiningene mellom stivhet, vekt, holdbarhet og kostnad for ettlag PVC, tolag PVC og drop-stitch-kjerne — og hvilken som passer målgruppen din og markedsposisjoneringen din.'
+
+answer:
+  label: 'Hurtig sammenligning'
+  text: 'Ettlag PVC er lettest og billigst — ideelt for rekreasjonspadlere og prissensitive markeder. Tolag PVC tilfører et annet PVC-lag for stivhet og holdbarhet med moderat vekt — bransjens standardvalg for utleieflåter og modeller i mellomsegmentet. Drop-stitch-kjernen med PVC-finish gir maksimal stivhet og trykkfasthet — favoritten for prestasjon, surf og tunge padlere. Alle tre konstruksjoner produseres på samme linje med samme QC-kontroller; forskjellen ligger i materialene og lamineringstrinnene.'
+  verified: 'September 2026'
+
+comparison_table:
+  tagline: Side om side
+  title: 'Konstruksjonstyper sammenlignet'
+  headers:
+    - 'Egenskaper'
+    - 'Ettlag PVC'
+    - 'Tolag PVC'
+    - 'Drop-stitch-kjerne + PVC-finish'
+  rows:
+    - - 'Stivhet (nominell PSI-verdi)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Vekt (11 ft brett)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Holdbarhet'
+      - 'God — rekreasjonsbruk'
+      - 'Svært god — utleie og kommersiell bruk'
+      - 'Utmerket — prestasjon og tunge padlere'
+    - - 'Konstruksjonslag'
+      - '1 lag PVC + drop-stitch-kjerne'
+      - '2 lag PVC + drop-stitch-kjerne'
+      - 'Forsterket drop-stitch + PVC-finish + railbånd'
+    - - 'Typisk bruk'
+      - 'Inngangsmarkeder, rekreasjon og prissensitivt'
+      - 'Allround, utleie, foreninger, merker i mellomsegmentet'
+      - 'Tour, surf, tunge padlere, premiummerker'
+    - - 'Relativ kostnad'
+      - 'Lavest'
+      - 'Middels'
+      - 'Høyest'
+    - - 'Sveisemetode'
+      - 'HF-sveisede sømmer'
+      - 'HF-sveisede sømmer + laminering'
+      - 'HF-sveisede sømmer + forsterkede rails'
+    - - 'Standard for trykktesting'
+      - 'Tetthetstest ved 18.0 PSI'
+      - 'Tetthetstest ved 18.0 PSI'
+      - 'Tetthetstest ved 18.0 PSI (høyere verdi)'
+
+use_cases:
+  tagline: Hvilken konstruksjon for hvilken kjøper
+  title: 'Konstruksjon som passer markedet ditt'
+  subtitle: 'Valet av konstruksjon er ikke bare et kostnadsspørsmål — det bestemmer retningskvaliteten, garantiprofilen og varemerkeposisjoneringen du kan oppnå.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Ettlag for inngangssegment og volum'
+      desc: 'Det letteste brettet til lavest pris. Ideelt for merker som retter seg mot førstegangs-/nybegynnerkjøpere, stord distribusjon og netthandelsmarkedsplasser, der prisen er den viktigste kjøpsmotivasjonen. Tilstrekkelig stivhet for padling i rolig vann ved moderat PSI. Lavere andel garantikrav ved bruk innenfor det nominelle trykkområdet.'
+      link_label: 'Se entry-level OEM-brett'
+      href: /no/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Tolag for utleie & kommersiell bruk'
+      desc: 'Arbeidshesten for utleieflåter, foreninger, resorts og skoleprogrammer. Det ekstra PVC-laget tåler støt, UV-eksponering og den daglige håndteringen som gjør ettlagsbrett ubrukelige i kommersiell drift. Den høyere trykkfastheten gir en stivere padlefølelse for tyngre utøvere. Den mest brukte konstruksjonsnivået i verden.'
+      link_label: 'Løsninger for utleie & resort'
+      href: /no/solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Drop-stitch-kjerne for prestasjon'
+      desc: 'Maksimal stivhet for tour, surf, fiske og tunge padlere. Forsterket railkonstruksjon og høyere nominell PSI-verdi gir hardbrettlignende prestasjon i en portabel pakke. Favoritt blant prestasjonsmerker og erfarne padlere. Høyere materialkostnad, men et sterkere varemerke og lavere garantandel per enhet.'
+      link_label: 'Utvikling av prestasjonsbrett'
+      href: /no/odm-manufacturing
+
+key_factors:
+  heading: 'Viktige faktorer utover konstruksjonstypen'
+  body: |
+    Konstruksjonstypen er én av flere variabler når det gjelder brettets ytelse. Tre andre faktorer er like viktige eller viktigere:
+
+    - **Drop-stitch-tetthet** — Trådene per tomme avgjør hvor jevnt brettet beholder formen under trykk. Vi bruker standarder på 96 tråd/tomme og 140 tråd/tomme for prestasjonsbygg. Høyere tetthet = flatere brett = bedre glidning.
+    - **PVC-kvalitet og -tykkelse** — Ikke all PVC er lik. PVC på 0,7 mm importert fra Sør-Korea har overlegen spreholdfasthet og UV-beskyttelse sammenlignet med tynnere alternativer. Vi spesifiserer materialkvaliteten per prosjekt.
+    - **Railkonstruksjon** — Enlags-rails er den vanligste bruddpunktet på billige brett. Tolags-rails og forsterkede railbånd reduserer risikoen for railskader drastisk. Alle brettene våre bruker forsterkede rails, uansett konstruksjonsnivå.
+
+faqs:
+  tagline: Vanlige spørsmål
+  title: 'SUP-konstruksjon — vanlige spørsmål'
+  items:
+    - q: 'Hvilken konstruksjonstype bør jeg velge for varemerket mitt?'
+      a: 'Det avhenger av målmarkedet og prisposisjoneringen din. Inngangssegment og stord distribusjon: ettlag. Utleieflåter, foreninger og merker i mellomsegmentet: tolag. Prestasjon, tour og premium: drop-stitch-kjerne. De fleste merker starter med tolag som beste kompromiss mellom kostnad, holdbarhet og padleopplevelse. Under gjennomførbarhetskontrollen rådgir vi ut fra det spesifikke markedet ditt.'
+    - q: 'Kan jeg tilby flere konstruksjonsnivåer under ett varemerke?'
+      a: 'Ja — mange merker tilbyr to eller tre nivåer. Vi produserer alle tre konstruksjonene på samme linje med samme QC-kontroller, slik at du kan blande konstruksjonstyper innenfor én enkelt ordre. Skrogform og grafikk kan være identiske på alle nivåer; kun konstruksjonen og materialene skiller seg.'
+    - q: 'Hvilken standard for trykktesting gjelder for alle konstruksjoner?'
+      a: 'Hvert brett, uansett konstruksjonstype, består en tetthetstest ved 18.0 PSI med automatisk avvisning ved trykktap på mer enn 0.50 PSI i løpet av 24 timer. Ettlagsbrett er dimensjonert for 12–15 PSI i bruk, tolagsbrett for 15–18 PSI og drop-stitch-kjernebrett for 18–25 PSI. Testtrykket overstiger alle typenes nominelle trykk.'
+    - q: 'Hvordan påvirker konstruksjonen garantikravene?'
+      a: 'Ettlagsbrett har noe høyere andel garantikrav ved kommersiell/utleiebruk på grunn av rails og lekkasjer. Tolags- og drop-stitch-kjernekonstruksjoner har betydelig lavere andel krav. Under tilbudsfasen leverer vi garantidata per nivå fra produksjonsregistrene våre.'
+
+cta:
+  title: 'Trenger du hjelp til å velge riktig konstruksjon?'
+  subtitle: 'Fortell om målgruppen din, prisklassen din og markedet ditt — vi anbefaler riktig konstruksjonsnivå og leverer eksempelbrett for din vurdering.'
+  actions:
+    - variant: primary
+      text: Start prosjektbriefen
+      href: /no/contact#project-brief
+    - text: Se detaljene om OEM-produksjon
+      href: /no/oem-manufacturing
+    - text: Sammenlign OEM, ODM og private label
+      href: /no/oem-odm-private-label-comparison

@@ -1,0 +1,145 @@
+meta:
+  title: 'Kvalitets- og testlaboratorium — ISO-samsvarende SUP-tester'
+  description: 'Uavhengig kvalitetskontroll av oppblåsbare SUP-brett: strekkprøving, lufttetthetssykluser, sveisesømprøving og materialsertifisering.'
+back_text: 'Tilbake til F&U-senteret'
+home_label: 'Start'
+
+hero:
+  tagline: 'Laboratorium 06'
+  title: 'Kvalitets- og testlaboratorium'
+  subtitle: 'Uavhengige tester — hver test godkjent før levering'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp'
+  image_alt: 'UV-test i Vatrads kvalitetskontrolllaboratorium'
+
+answer:
+  label: 'Kort svar'
+  text: 'Hvert brett testes før levering mot de publiserte spesifikasjonene: 100 % trykkholdetest ved 18.0 PSI i 24 timer (automatisk avvisning over 0.50 PSI trykktap), strekkprøving og sveisesømprøving iht. ISO 1421 samt en kontrolliste med 100 punkter for montering. Laboratoriet rapporterer direkte til ledelsen i selskapet, ikke til produksjonen, og kan stoppe enhver levering.'
+  verified: 'September 2026'
+
+intro: 'Hvert brett som forlater verkstedet vårt, bærer bevis på at det har bestått en fastsatt serie kvalitetskontroller og materialtester. Kvalitets- og testlaboratoriet vårt er en uavhengig funksjon i organisasjonen — det rapporterer direkte til ledelsen i selskapet, ikke til produksjonen — og garanterer dermed at intet kommersielt press kan undergrave testkontrollene. Når et materialparti eller et ferdig brett ikke oppfyller den publiserte spesifikasjonen, har laboratoriet fullmakt til å utsette leveransen til avviket er håndtert.'
+
+content_html: |
+  <h2>Tillit, men kontroller</h2>
+  <p>Laboratoriet arbeider innenfor et kvalitetsledelsessystem etter ISO 9001s prinsipper, og testmetodene våre bygger på ISO-, ASTM- og EN-standarder der det er mulig. Vi fører detaljerte registreringer av hver utført test, noe som skaper en fullstendig sporbarhetskjede fra innkommende råvarer til den endelige leveransen av brettet.</p>
+
+  <h2>Utstyr og testkapasitet</h2>
+  <table>
+    <thead><tr><th>Utstyr</th><th>Utførte tester</th><th>Standard / Metode</th></tr></thead>
+    <tbody>
+      <tr><td>Universell testmaskin (50 kN)</td><td>Strekkstyrke (stoff), skaleringsstyrke (sømmer), sprepropagering</td><td>ISO 1421, ISO 4674</td></tr>
+      <tr><td>Programmerbar lufttrykkbenk</td><td>Kvalitetstest over 1000 pumpe-/tømmesykluser, 30 min trykkholdetest</td><td>Intern (iht. ISO 6185-metoden)</td></tr>
+      <tr><td>Sveisesømprøver (motorisert 180°)</td><td>Skaleringsstyrke i sveiste og limte sømmer ved 100 mm/min</td><td>ISO 1421 / ASTM D1876</td></tr>
+      <tr><td>Vannsøyleapparat</td><td>stoffets vannbestandighet (0–1000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Digital tykkelsesmåler &amp; mikrometer</td><td>Stofftykkelse, tykkelse på sveisesøm, tykkelse på limfilm</td><td>ISO 2286-3</td></tr>
+      <tr><td>Klimakammer</td><td>Termisk kondisjonering (-40 °C til +80 °C) for kuldesprekkingstester og termisk aldring</td><td>ISO 188, ISO 4675</td></tr>
+      <tr><td>Kolorimeter-spektrofotometer</td><td>Delta-E fargemåling etter UV-eksponering</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Testkontrollene — fra materiale til levering</h2>
+  <p>Hvert brett følger en fastsatt kvalitetsplan med bindende testpunkter. Intet brett kan hoppe over en kontroll; hver kontroll må medsigneres av en kvalitetsinspektør før neste produksjonsfase begynner.</p>
+
+  <div class="not-prose my-8">
+    <div class="relative">
+      <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-200 dark:bg-blue-800"></div>
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Kontroll 1</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Kontroll av innkommende materiale</p>
+            <p class="text-xs text-gray-500 mt-1">Stoffparti, drop-stitch-kjerne, limproduksjon, tilbehør — alt kontrollert mot innkjøpsspesifikasjonen før det frigis til produksjonen.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Kontroll 2</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Førprosesskontroll av sømmene</p>
+            <p class="text-xs text-gray-500 mt-1">De første sømprøvene testes (skaleringsprøving + visuell inspeksjon) ved starten av hvert produksjonsskift.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Kontroll 3</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Luf-testing av luftkammeret</p>
+            <p class="text-xs text-gray-500 mt-1">Brettet settes under trykk til 18.0 PSI (arbeidstrykk 12–15 PSI) og holdes i 24 timer. Et trykktap &gt; 0.50 PSI fører til automatisk avvisning. Data registreres per serienummer.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Kontroll 4</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Kontroll før levering</p>
+            <p class="text-xs text-gray-500 mt-1">Hele brettet kontrollert: alt tilbehør festet, dekklistens hefts, grafikkens plassering, ingen kosmetiske mangler. Kontrolliste med 100 punkter.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Kontroll 5</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Sluttelig sertifisering</p>
+            <p class="text-xs text-gray-500 mt-1">Testrapporter satt sammen, testprotokoller kontrollert, samsvarsbevis (Certificate of Conformance) utstedt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Standardtester for hvert parti</h2>
+  <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18.0 PSI i lufttesten av luftkammeret, holdes i 24 timer</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">Et trykktap fører til automatisk avvisning</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">100 %</span>
+      <span class="text-xs text-gray-500">Luftkamre testet med luft før montering</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
+      <span class="text-xs text-gray-500">Kvalitetsledelsessystem</span>
+    </div>
+  </div>
+
+  <h2>Kvalitetsteamet vårt</h2>
+  <p>Laboratoriet bemannes av en kvalitetssjef (10 års erfaring med kvalitetssikring i marin industri, sertifisert ASQ-kvalitetsingeniør), to kvalitetsinspektører (begge med NDT-nivå 2-sertifisering for visuell inspeksjon) og en materialtekniker som er ansvarlig for alle fysiske tester. Teamet gjennomfører årlige kompetanseprøver via en uavhengig ekstern leverandør, for å sikre at testresultatene våre forblir nøyaktige og reproduserbare.</p>
+
+  <h2>Uavhengige tester for kunder</h2>
+  <p>Kvalitets- og testlaboratoriet vårt er tilgjengelig for uavhengige testtjenester. Trenger du å kontrollere en stoffspesifikasjon, validere et nytt limesystem eller få inn en testrapport fra tredjepart for en innkjøpskvalifisering — vi utfører testene iht. gjeldende standard og utsteder et sertifisert testprotokoll.</p>
+  <p>Eksempler på nylige testoppdrag fra tredjepart:</p>
+  <ul>
+    <li>Sammenligning av skaleringsstyrke i fem konkurrerende limprodukter for et europeisk innkjøpsprogram.</li>
+    <li>Akselerert aldringsstudie (UV + termiske sykluser) for en ny oransje pigmentert PVC-formulering, med gjentatte målinger hvert 500. time.</li>
+    <li>Validering av lufttetthet i 50 prototype ventilgrupper for en ny brettkonstruksjon for høyere trykk.</li>
+  </ul>
+
+  <h2>Vårt løfte til deg</h2>
+  <p>Når du mottar et brett fra {SITE.name}, får du også kvalitetspermen — en satt sammen registrering av testresultatene for akkurat ditt brett. Materialpartiets bevis, sveisesømprøvinger, protokoller for lufttest av luftkammeret og kontrollisten før levering. Hvert tall er sporbart. Hver inspektør er identifisert. Dette er ikke bare papir — det er løftet vårt om at det vi har levert, stemmer med det vi har spesifisert.</p>
+  <p>Har du noen gang hatt et kvalitetsproblem, kan du kontakte laboratoriet direkte — kontaktopplysningene står på samsvarsbeviset ditt. Vi tar enhver henvendelse på alvor og innleder en formell undersøkelse innen 48 timer.</p>
+
+  <h2>Hva skjer hvis et brett ikke består testen?</h2>
+  <p>Et brett som ikke er i samsvar forsvinner aldri i det stille. Laboratoriet følger en fastsatt rutine for avvikshåndtering, slik at problemet begrenses, rettes og forebygges:</p>
+  <ul>
+    <li><strong>Isolering</strong> — brettet merkes, fjernes fra linjen og registreres i avviksregisteret med inspektørens navn og kriteriene som ikke ble oppfylt.</li>
+    <li><strong>Nyproduksjon eller avvisning</strong> — reparerbare mangler (f.eks. en ventil, en railsøm eller en hjørnekant på dekklisten) nyproduseres av en sertifisert operatør, og det reparerte området testes på nytt etter samme standard. Brett som ikke kan nå spesifikasjonen, avvises — de nedgraderes ikke.</li>
+    <li><strong>Nytesting</strong> — hvert nyprodusert brett må bestå hele den berørte kontrollen på nytt før det får gå tilbake til pakkelinjen.</li>
+    <li><strong>Frigivelse</strong> — kun brett med samtlige medsignerte kontroller forlater fabrikken. Avvisningsfrekvens, årsak og korrigerende tiltak oppsummeres i kvalitetsrapporten for partiet ditt.</li>
+  </ul>
+
+  <h2>Kvalitetsdokumentasjonen du får</h2>
+  <p>Hvert parti sendes med en dokumentpakke som QC-teamet ditt kan gjennomgå: partibeviset (partinummer for stoff, lim og tilbehør), sveiseprotokollene, lufttestprotokollen for luftkammeret per serienummer, den signerte kontrollisten med 100 punkter før levering, pakkelisten og en fotoprotokoll av brettene dine før lasting.</p>
+
+cta:
+  title: 'Bestill en eksempel-sjekkliste for QC'
+  subtitle: 'Ta del av de eksakte testkontrollene, testmetodene og dokumentene som partiet ditt ville blitt kontrollert mot — send oss bretttypen og antallet.'
+  actions:
+    - variant: primary
+      text: Bestill QC-sjekklisten
+      href: /no/contact#quality-inquiry
+    - text: Testkontrollsystemet med 7 trinn
+      href: /no/quality
+    - text: Fabrikkens QC-laboratorium & nedlasting av testrapporter
+      href: /no/factory/quality-lab
+    - text: Standarder for håndtering av ikke-samsvarende produkter
+      href: /no/factory/non-conforming-control

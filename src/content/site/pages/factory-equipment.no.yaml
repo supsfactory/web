@@ -1,0 +1,93 @@
+meta:
+  title: 'Fabrikkutstyr — Kapping, sveising og trykking'
+  description: 'Vatrads industrielle produksjonsutstyr: PVC-kapping, RF-sveising, digital trykking, montering og testing for oppblåsbare SUP-brett.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup produksjonsutstyr'
+    - 'fabrikk oppblåsbare sup'
+    - 'rf pvc sveising'
+    - 'paddle board produksjon'
+hero:
+  tagline: Utstyr
+  title: Produksjonsutstyr og maskiner
+  subtitle: Industrielt utstyr for kapping, sveising, trykking og montering
+  back_label: Tilbake til fabrikken
+  back_link: /factory
+
+answer:
+  label: 'Tydelig svar'
+  text: 'Fabrikken vår på 12 500 m² driver CNC-styrt kapping automatisk (presisjon 0.1 mm, mindre enn 5 % avkast), varmluftstermisk sveising ved 200–600 °C sammen med 15 kW RF-dielektrisk sveising for hovedsømmene, laminatpresser for drop-stitch-kjerner opptil 14 fot og et QC-laboratorium som utfører trykktesting av hvert kammer, strekkprøving i henhold til ASTM D751 og kontroll av sømdelaminering i henhold til ISO 6185.'
+  verified: 'September 2026'
+
+categories:
+  - title: Kapping og materialberedning
+    items:
+      - name: Automatisk PVC-skjæremaskin
+        spec: CNC-styrt, 6.5 m × 2.5 m, presisjon 0.1 mm
+        desc: Automatisk datamaskinstyrt skjæremaskin for PVC-, Hypalon- og drop-stitch-stoffer. Nesting-programmet optimaliserer materialbruken til mindre enn 5 % avkast.
+      - name: Dukrull for stoff
+        spec: Maks bredde 3 m, fremdrift med kontrollert spenning
+        desc: Legger stoffet i ett eller flere lag med kontrollert spenning for å unngå deformasjon før kapping.
+
+  - title: Sveising og liming av kammer
+    items:
+      - name: Termisk sveiemaskin
+        spec: Varmluftssveising, variabel 200–600 °C, 0.5–5 m/min
+        desc: Varmluftstermisk sveiemaskin for å føye og sveie sømmer i PVC- og Hypalon-kamre. Brukes for retting, forsegling og sammensmelting av kamre og flyteelementer.
+      - name: RF-dielektrisk press
+        spec: 15 kW, plate 2000 × 600 mm
+        desc: Høyfrekvenspresser for de viktigste langsgående sømmene, forbindelser i belgene og produksjon av store kamre.
+      - name: CNC-styrt RF-sveiemaskin
+        spec: 8 kW, XY-bord 2500 × 1200 mm
+        desc: Programmerbar sveising av bøyde sømmer for kompleks geometri, logomerking og presisjonsreparasjoner.
+
+  - title: SUP-produksjon
+    items:
+      - name: Laminatpress for drop-stitch-kjerne
+        spec: Størrelsespress for brettkjerner opptil 14 fot LØA
+        desc: Presisjonslaminering av drop-stitch-kjerner på de ytre PVC-lagene. Hvert lag limes under trykk for jevn kvalitet og styrke.
+      - name: CNC-fresemaskin (5 akser)
+        spec: Arbeidsområde 3 m × 2 m × 1 m, vannkjølt spindel
+        desc: Bearbeiding av finnebokser, utspon for håndtak og måltilpassede brettkomponenter.
+
+  - title: Trykking og dekorasjon av SUP
+    items:
+      - name: Digital skriver
+        spec: Høyoppløsnings blekkskriver, trykkbredde opptil 2 m
+        desc: Direkte digital trykking på stoffet for SUP-deck-grafikk i full farge. Trykking av måltilpassede mønstre, fargeovertoninger og fotorealistiske bilder med fargestabile vannbestandige blekker.
+      - name: Silkeskjermmaskin
+        spec: Manuell og halvautomatisk, registrering i flere farger
+        desc: Silkeskjermtrykk for logoer, varemerker og gjentakende mønstre på SUP-brett. Gir holdbart, dekkende trykk med sterk fargemetning.
+
+  - title: Montering og ferdigstilling
+    items:
+      - name: Brettmontasjestasjon
+        spec: Modulært justerbar, flerstasjonsoppsett
+        desc: Montering av finnebokser, håndtak, D-ringer, ventiler og deckpads på SUP-brettene.
+      - name: Montasjepress for ventiler
+        spec: Pneumatisk, justerbart trykk
+        desc: Presis montering og forsegling av Halkey-Roberts- og Leafield-ventiler.
+      - name: Deckpad-laminator
+        spec: 3 m × 1.5 m, temperaturregulert
+        desc: Varmlaminering av EVA-skumdeckpads på overflaten av SUP-brettene med konstant vedheft.
+
+  - title: Testing og kvalitetskontroll
+    items:
+      - name: Universell strekkprøvingsmaskin
+        spec: 50 kN, / ASTM D751
+        desc: Prøving av maksimal belastning, forlengelse ved brudd og riveholdfasthet for stoffpartiene.
+      - name: Lufttetthetstestutstyr
+        spec: Programmerbart, 30 minutters trykkholding
+        desc: Automatisert trykkholdingstest for hvert kammer før monteringen.
+      - name: Sømdelamineringsutstyr
+        spec: Motorisert 180°-bøying ved 100 mm/min
+        desc: Prøving av skjærholdfastheten i sveiste og limte sømmer i henhold til ISO 6185.
+      - name: Xenonbue-aldringskammer
+        spec: 2 000 timers eksponering
+        desc: Prøving av UV-bestandighet for fargeforskyvning og beholdt styrke.
+
+cta:
+  title: 'Interessert i en fabrikkomvisning?'
+  desc: Vi tar gjerne imot besøkende på anlegget vårt i Qingdao. Se utstyret og prosessene på stedet.
+  label: Planlegg et besøk →
+  link: /contact

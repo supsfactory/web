@@ -1,7 +1,7 @@
 import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
-import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV } from '@/features/content/guide-content'
+import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -207,5 +207,31 @@ test('llms-full.txt Swedish section: product/news/tech/case/guide bodies present
   expect(sv).toContain('# Guide:')
   for (const g of GUIDES_SV) {
     expect(sv, `llms-full.txt Swedish section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
+  }
+})
+
+test('llms.txt Norwegian section: /no absolute links, Norwegian homepage note and guides', () => {
+  const section = llmNorwegianIndex('https://isupfactory.com')
+  expect(section).toContain('## Norsk')
+  expect(section).toContain('— Homepage')
+  expect(section).toContain('### Norsk: Produkter')
+  expect(section).toContain('### Norsk: Guider')
+  expect(section).toContain('### Norsk: Ofte stilte spørsmål')
+  expect(section).toContain('https://isupfactory.com/no/')
+  for (const g of GUIDES_NO) {
+    expect(section, `llms.txt Norwegian section missing guide ${g.slug}`).toContain(`https://isupfactory.com/no/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt Norwegian section: product/news/tech/case/guide bodies present', () => {
+  const no = llmsNorwegianFull()
+  expect(no).toContain('# Norsk')
+  expect(no).toContain('## Produkt:')
+  expect(no).toContain('## Nyhet:')
+  expect(no).toContain('## Teknologi:')
+  expect(no).toContain('## Case study:')
+  expect(no).toContain('# Guide:')
+  for (const g of GUIDES_NO) {
+    expect(no, `llms-full.txt Norwegian section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
   }
 })

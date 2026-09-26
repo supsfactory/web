@@ -1,0 +1,46 @@
+meta:
+  title: 'Teknologi — drop-stitch & marint PVC | {SITE}'
+  description: 'Vatrads teknologi: drop-stitch-konstruksjon, marint PVC, konstruksjoner med doble lag og høyt trykk. Innovasjon fra en profesjonell produsent av oppblåsbare SUP.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup teknologi'
+    - 'drop-stitch konstruksjon'
+    - 'sup høyt trykk'
+    - 'materiale oppblåsbare sup'
+
+hero:
+  tagline: 'Teknologi'
+  title: 'Bygget for ytelse'
+  subtitle: 'Hver oppblåsbar Vatrad-SUP er produsert med drop-stitch-konstruksjon og marint PVC — materialer og presisjonsmetoder, testet for krevende maritime miljøer.'
+
+sections:
+  - title: 'Drop-stitch-kjerne'
+    description: 'Tusenvis av interne polyestertråder forbinder det øvre og nedre laget og skaper en stiv konstruksjon ved 12–15 PSI. Det er samme teknologi som på profesjonelle paddleboards og oppblåsbare race-SUP.'
+    imageAlt: 'Diagram over drop-stitch-kjernen'
+  - title: 'Marint PVC'
+    description: 'Flerlagslaminert PVC-stoff, utviklet for maritime miljøer. Hvert lag sveises og limes ikke, noe som eliminerer risikoen for delaminering. Testet for UV-bestandighet, korrosjon fra saltvann og slitasje.'
+    imageAlt: 'PVC-lag'
+  - title: 'PVC av militær kvalitet'
+    description: 'Premium-PVC som brukes på alle SUP-modeller gir overlegen motstandskraft mot UV-stråling og kjemikalier. Det forblir fleksibelt ved ekstreme temperaturer og tåler aldring.'
+    imageAlt: 'PVC'
+  - title: 'Air-Deck Floor'
+    description: 'Drop-stitch-konstruksjon med komprimert luft for eksepsjonell stivhet ved stående padling, fiske og yoga. Reduserer oppsettstiden, den totale vekten og fortrengningsvolumet.'
+    imageAlt: 'Air-Deck'
+
+related:
+  title: 'Relaterte emner'
+  links:
+    - text: F&U-senter
+      url: /no/randdcenter
+    - text: Kvalitetskontroll
+      url: /no/quality
+    - text: Sikkerhetsstandarder
+      url: /no/quality
+    - text: Garanti
+      url: /no/warranty
+    - text: Turisme & fritid
+      url: /no/tourism-recreation
+    - text: guider
+      url: /no/knowledge
+    - text: Produkter
+      url: /no/products

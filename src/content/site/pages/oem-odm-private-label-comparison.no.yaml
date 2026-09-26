@@ -1,0 +1,128 @@
+meta:
+  title: 'SUP-produksjon OEM vs. ODM vs. Private Label — sammenligningsguide'
+  description: 'SUP-produksjon OEM vs. ODM vs. Private Label sammenlignet: definisjoner, eierskap, MOQ-terskler, leveringstider, formverktøy, IP-regler og valgkriterier.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM vs ODM vs Private Label'
+    - 'SUP-produksjonssammenligning'
+    - 'produksjon av tilpassede paddle boards'
+    - 'OEM SUP Kina'
+    - 'ODM SUP-utvikling'
+    - 'Private Label SUP'
+
+hero:
+  tagline: 'Velg samarbeidsmodellen din'
+  title: 'OEM vs. ODM vs. Private Label — hvilken modell passer prosjektet ditt?'
+  subtitle: 'Tre måter å samarbeide med en SUP-fabrikk på, hver med ulikt eierskap, ulike investeringer og en annen avveining mellom fart og kontroll. Denne guiden forklarer forskjellene, slik at du velger riktig spor før den første forespørselen.'
+
+answer:
+  label: 'Hurtig sammenligning'
+  text: 'OEM: du eier design og spesifikasjon — vi produserer i henhold til tegningene dine. ODM: det tekniske teamet vårt utvikler brettet ut fra briefingen din — du godkjenner før produksjonen. Private Label: merket ditt på en eksisterende, dokumentert plattform uten strukturelle endringer — raskeste vei til markedet. Alle tre sporene går gjennom samme fabrikk, samme QC-system og samme eksportteam i Qingdao, Kina.'
+  verified: 'September 2026'
+
+comparison_table:
+  tagline: 'Side om side'
+  title: 'OEM / ODM / Private Label sammenlignet'
+  subtitle: ' Vesentlige forskjeller i designeierskap, MOQ, formverktøy, leveringstider og immateriell eiendomsrett.'
+  headers:
+    dimension: Dimensjon
+    oem: OEM-produksjon
+    odm: ODM-utvikling
+    pl: Private Label
+  rows:
+    - dimension: ' Hvem designer brettet?'
+      oem: 'Du leverer spesifikasjon, tegninger eller et referansebrett'
+      odm: 'Fabrikkens tekniske team utvikler ut fra briefingen din'
+      pl: 'Eksisterende fabrikkplattform — ingen designinnsats'
+    - dimension: 'Eierskap til design og IP'
+      oem: 'Du eier all design, formverktøy og den immaterielle eiendomsretten'
+      odm: 'Du eier den godkjente sluttdesignen; fabrikken beholder IP-en i utviklingsprosessen'
+      pl: 'Fabrikken eier plattformdesignen; du eier merke og grafikk'
+    - dimension: 'Formverktøy / utstyr'
+      oem: 'Eget formverktøy kreves for nye former — engangskostnad for utstyr, +15–20 dager'
+      odm: 'Kan kreve eget formverktøy avhengig av spesifikasjon — samme utstyrsplanlegging'
+      pl: 'Ingen nytt formverktøy — eksisterende plattformutstyr brukes'
+    - dimension: 'Minste bestillingsmengde'
+      oem: '90–100+ enheter per godkjent konfigurasjon'
+      odm: '90–100+ enheter per godkjent konfigurasjon; pilotpartier på 20–50'
+      pl: '5–10 enheter (co-branding) eller 20–50 (pilotparti på eksisterende plattform)'
+    - dimension: 'Vanlig leveringstid'
+      oem: '25–35 dager + 15–20 dager for utstyr ved nytt formverktøy'
+      odm: '25–35 dager + utviklingsiterasjon (varierer med kompleksiteten)'
+      pl: '25–35 dager (ingen forsinkelse fra formverktøy)'
+    - dimension: 'Tilpasningsnivå'
+      oem: 'Totalt — form, konstruksjon, materiale, grafikk, emballasje'
+      odm: 'Totalt — fabrikken foreslår, du godkjenner hvert element'
+      pl: 'Bare grafikk og emballasje — ingen strukturelle endringer'
+    - dimension: 'Prøveprosess'
+      oem: '1–2 prototypeprøver på 7–12 dager etter spesifikasjonsgodkjenning'
+      odm: '1–2 prototypeprøver på 7–12 dager etter designgodkjenning'
+      pl: '1–2 prøveeksemplarer på 7–12 dager — plattformen er allerede validert'
+    - dimension: 'Ideelt for'
+      oem: 'Kjøpere med eksisterende design, referansebrett eller detaljerte spesifikasjoner'
+      odm: 'Kjøpere med produktidéer eller markedskrav, men uten detaljert spesifikasjon'
+      pl: 'Kjøpere som raskt vil ha merkede brett uten produktutvikling'
+
+scenario_cards:
+  tagline: 'Når du velger hvilket spor'
+  title: 'Reelle scenarier'
+  subtitle: 'Vanlige situasjoner hos kjøpere og anbefalt samarbeidsmodell.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Du har fullstendige spesifikasjoner og eier designen'
+      desc: 'Du har CAD-tegninger, et referansebrett eller et detaljert spesifikasjonsark med mål, materiale, konstruksjon og emballasjekrav. Velg OEM — vi produserer nøyaktig i henhold til spesifikasjonen din.'
+      link: '/no/factory/oem-capability'
+      link_label: 'Detaljer om OEM-produksjon'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Du har en produktidé, men ingen teknisk spesifikasjon'
+      desc: 'Du kjenner til målmarkedet, prisnivået og ytelseskravene, men trenger teknisk støtte for å utvikle brettet. Velg ODM — teamet vårt utvikler ut fra briefingen din, og du godkjenner før produksjonen.'
+      link: '/no/odm-manufacturing'
+      link_label: 'Detaljer om ODM-utvikling'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Du trenger raskt merkede brett uten produktutvikling'
+      desc: 'Du er distributør, resort eller utleier og vil sette logoen din på kvalitetsbrett uten å investere i produktutvikling. Velg Private Label — raskeste vei fra idé til levering.'
+      link: '/no/solutions/private-label-sup'
+      link_label: 'Detaljer om Private Label'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Du driver et resort, klubb eller utleieflåte'
+      desc: 'Du trenger robuste SUP-pakker for intensiv bruk, med partisammenheng, reservedeler og fargestyring ved nytrykk. Velg vårt Commercial Fleet Program.'
+      link: '/no/solutions/resort-sup'
+      link_label: 'Detaljer om Commercial Fleet'
+
+ip_rules:
+  tagline: 'Beskyttelse av immateriell eiendomsrett'
+  title: 'Slik beskytter vi designen og merket ditt'
+  subtitle: 'Uansatt samarbeidsmodell forblir artworket, formverktøyene og spesifikasjonsfilene dine egne.'
+  body: |
+    **NDA før filutvekslingen.** Vi signerer en hemmelighetsavtale før enhver utveksling av tekniske filer — standard svartid innen 4 arbeidstimer.
+
+    **Ingen gjenbruk av design.** Artworket, formverktøyene og spesifikasjonsfilene dine deles eller selges aldri til andre kunder. OEM-formverktøy er eksklusivt ditt. ODM-design godkjennes av deg før produksjonen. Private Label-plattformer er delte strukturer, men grafikken og merkesettingen din er eksklusiv.
+
+    **Kun B2B.** Vi produserer utelukkende under kundenes merker. Vi selger ikke til sluttbrukere og konkurrerer ikke med kundene våre i noe marked.
+
+    **Eierskap til formverktøy.** Egne formverktøy som er betalt av kjøperen tilhører kjøperen. Vi oppbevarer og vedlikeholder dem, men får ikke bruke dem for andre kunder uten skriftlig tillatelse.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Vanlige spørsmål om OEM, ODM og Private Label'
+  items:
+    - q: 'Kan jeg senere bytte fra Private Label til OEM?'
+      a: 'Ja. Mange kunder starter med Private Label-produksjon eller en pilot for å validere markedet og investerer deretter i eget utstyr for et fullstendig OEM-program når etterspørselen er dokumentert. Samme fabrikk og samme QC-system støtter begge sporene.'
+    - q: 'Betyr ODM at fabrikken eier merket mitt?'
+      a: 'Nei. Ved ODM eier du merket, grafikken og emballasjen. Fabrikken utvikler brettets struktur ut fra briefingen din, og du godkjenner designen før produksjonen. Fabrikken beholder IP-en i utviklingsprosessen, men den godkjente produktspesifikasjonen er din.'
+    - q: 'Er Private Label av dårligere kvalitet enn OEM?'
+      a: 'Nei. Alle tre sporene går gjennom samme fabrikk, samme QC-system og samme eksportteam. Private Label-brett bygges på dokumenterte, validerte plattformer, med hele trykktesten på 18 PSI/24 timer og samme 100-punkts montasjeliste.'
+    - q: 'Hva gjør jeg hvis jeg ikke er sikker på hvilken modell jeg skal velge?'
+      a: 'Kontakt oss om situasjonen din — det tekniske teamet vårt rådgir om det mest praktiske sporet ut fra produktenes krav, planleggingen din og antallsmålene dine. Det er ingen forpliktelse før spesifikasjonsgjennomgangen.'
+    - q: 'Kan jeg få prøveeksemplarer før jeg velger modell?'
+      a: 'Ja. 1–2 prototypeprøver sendes innen 7–12 dager. Prøvekostnadene trekkes fra storbestillingen din. Slik kan du vurdere konstruksjon og kvalitet før enhver volumforpliktelse.'
+
+cta:
+  title: 'Klar til å diskutere SUP-prosjektet ditt?'
+  subtitle: 'Fortell oss om produktkravene, markedet og antallsmålene dine — vi rådgir om det mest praktiske samarbeidssporet.'
+  button: 'Start SUP-prosjektet ditt'
+  note: 'Svar innen 1 arbeidsdag · NDA tilgjengelig før filutvekslingen'

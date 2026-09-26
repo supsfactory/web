@@ -1,0 +1,219 @@
+meta:
+  title: 'Tilpassede SUP-MOQ & leveringstider: fra prøve til containerlast'
+  description: 'Tilpassede SUP-MOQ per leveransenivå: prøver innen 7–12 dager, pilotordrer på 20–50 brett, standardvolumer på 90–100+ per rull på 150 m, produksjon på 25–35 dager.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'tilpasset sup moq'
+    - 'sup produksjonstid'
+    - 'minste bestillingsmengde oppblåsbare sup'
+    - 'sup pilotordre'
+    - 'leveringstid tilpasset paddleboard'
+    - 'leveringstid sup fabrikk oem'
+    - 'sup prøvebestilling'
+
+hero:
+  tagline: 'Tilpassede SUP-MOQ & leveringstider'
+  title: 'Fra prøve til containerlast — MOQ og leveringstid forklart tydelig'
+  subtitle: 'En tydelig inndeling av bestillingsnivåer og produksjonstider for tilpassede oppblåsbare SUP: hva du kan bestille per nivå, hvor lang tid hver nivå faktisk tar, og hvordan prøve, pilotordre og volum inngår i ett og samme prosjekt. Utviklet og drevet av Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Be om MOQ- og leveringstidsinndelingen for prosjektet ditt
+      href: /no/contact#moq-guide
+    - text: MOQ-guiden og fleksibel branding
+      href: /no/oem-moq-guide
+
+answer:
+  label: 'Kort svar'
+  text: 'MOQ og leveringstid er prosjektspesifikke, men rammeverket er fast. Hvert tilpasset SUP-prosjekt går gjennom samme trapp: prøveutvikling (1–2 brett, klart på 7–12 dager), prøve- og pilotordrer (20–50 brett), samt standardvolumsykluser (90–100+ brett per drop-stitch-rull på 150 m). Produksjonstiden er 25–35 dager fra bekreftet PO og depositum; krever prosjektet ditt en tilpasset ramme, legger formproduksjonen til 15–20 dager før produksjonen begynner. Et typisk første prosjekt ser da slik ut: prøver innen ca. 1–2 uker, pilotbrett innen 4–6 uker og den første fullstørrelsessyklusen starter rundt 6–8 uker etter at ordren er bekreftet.'
+  verified: 'September 2026'
+
+moq_lead_table:
+  tagline: 'Rammeverket'
+  title: 'Nivåene for tilpassede SUP-MOQ og leveringstider i korthet'
+  subtitle: 'Hver nivå validerer den neste. Du hopper aldri direkte fra en design til en container: du bekrefter ramme, grafikk og emballasje på hvert nivå før du binder deg til flere brett.'
+  headers:
+    stage: 'Bestillingsnivå'
+    quantity: 'Typisk mengde'
+    lead_time: 'Leveringstid'
+    best_for: 'Ideelt for'
+  rows:
+    - stage: 'Prøveutvikling'
+      quantity: '1–2 brett'
+      lead_time: '7–12 dager'
+      best_for: 'Validering av rammens stivhet, EVA-tractionmattenes tekstur, grafisk presisjon og tilbehørets passform. Det er prøvekostnader som trekkes fra produksjonsordren din når kontrakten signeres.'
+    - stage: 'Prøveordre / pilotordre'
+      quantity: '20–50 brett'
+      lead_time: '25–35 dager'
+      best_for: 'Økonomiske forsesongstester, markedsvalidering og de første salgene med eksisterende rammeplattformer, lagermateriale og forenklet emballasje.'
+    - stage: 'Standardvolumsyklus'
+      quantity: '90–100+ brett per rull på 150 m'
+      lead_time: '25–35 dager'
+      best_for: 'Full produksjonseffektivitet på hele stoffruller på 150 m — ingen stoffsektorer, jevn fiberspenning og avskrevet linjetrekk. Tilpassede former kjøres på dette nivået.'
+    - stage: 'Brettprogram'
+      quantity: '300+ brett'
+      lead_time: '25–35 dager per parti, faset levering'
+      best_for: 'Containerprogrammer og sesongflåter, planlagt over flere produksjonsbatcher, slik at lageret og kontantstrømmen din forblir håndterbare.'
+
+moq_drivers:
+  tagline: 'Hva som avgør MOQ-en din'
+  title: 'De seks faktorene som bestemmer minstemengden din'
+  subtitle: 'MOQ er ikke et vilkårlig tall som salgsteamet velger. Det beregnes ut fra hele produktarkitekturen — disse delene vurderes sammen før tilbudet utarbeides.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Rammens form & formbygging'
+      desc: 'Fabrikkens eksisterende rockerformer gjør pilotordrer fra 20 brett mulige. En tilpasset ramme krever spesielt CAD-kjøretrykk og form for EVA-termoforming, og formbyggingen legger til 15–20 dager på programmet.'
+    - icon: C
+      icon_bg: green
+      title: 'Fargevarianter & PVC'
+      desc: 'Standard lagfarger går i pilotmengder, mens PVC-ruller som males i Pantone-farger på eget initiativ krever separate kjemiske malingssykluser med egne minimimengder råmateriale.'
+    - icon: A
+      icon_bg: purple
+      title: 'Design & trykkdekning'
+      desc: 'En logo i ruten kan trykkes i små opplag, mens heldekkende eller flerpanelsdesign krever oppsett av digitale trykkklisheer og dekkningstester, noe som øker den praktiske partisstørrelsen.'
+    - icon: B
+      icon_bg: orange
+      title: 'Emballasje med varemerket ditt'
+      desc: 'Tilpassede 5-lags retailutstillingeskartonger har en egen minimumsopplaggsutfordring ved offsettrykk. Bestiller du færre kartonger, lagrer vi overskuddet og leverer det gratis langs de planlagte leveransene dine.'
+    - icon: G
+      icon_bg: blue
+      title: 'Tilbehørspakke'
+      desc: 'Standardåre i aluminium eller nylon, pumpe og bæreposer følger mindre innkjøpspartier. Helt merkede karbonfiberårer og tilpassede pumper har egne minsteproduksjonsmengder.'
+    - icon: S
+      icon_bg: green
+      title: 'Sesong- og betalingsplanlegging'
+      desc: 'Bestillinger innenfor forsesongvinduet får bekreftede produksjonsplasser. De fasete leveranseplanene for programmer fra 300+ brett bekreftes i kontrakten, ikke etter produksjonen.'
+
+moq_timeline:
+  tagline: 'Tidslinje fra start til mål'
+  title: 'Fra produktbriefing til sendte brett: dag for dag'
+  subtitle: 'Hele tidslinjen for et typisk tilpasset SUP-program. Eksisterende rammeplattformer korter ned venstre side av tidslinjen; en tilpasset ramme legger til fasen med formutvikling.'
+  steps:
+    - step: 'Dag 0'
+      title: 'Send produktbriefingen din'
+      desc: 'Brettmodell, målmengde, fargevarianter, design og emballasjekrav. Den tekniske verifiseringen fullføres innen én arbeidsdag.'
+    - step: 'Dag 1–2'
+      title: 'Teknisk verifisering & gjennomførbarhet'
+      desc: 'Det tekniske teamet vårt gjennomgår rammens geometri, materialene og samsvarssporet og bekrefter om prosjektet passer eksisterende plattformer eller krever nye former.'
+    - step: 'Dag 3–7'
+      title: 'Spesifikasjon & detaljert tilbud'
+      desc: 'Du får hele spesifikasjonen med MOQ-beregning, leveransesegmenter og detaljerte kostnader — inkludert eventuelle formkostnader — før noen forpliktelser inngås.'
+    - step: 'Dag 7–12'
+      title: 'Prøveutvikling (1–2 brett)'
+      desc: 'Fysisk prøve bygd og testet: rammens stivhet, EVA-tractionmattenes tekstur, grafisk presisjon og tilbehørets passform. Prøvekostnadene trekkes fra produksjonsordren ved godkjenning.'
+    - step: '+15–20 dager'
+      title: 'Utvikling av tilpassede former (kun tilpassede rammer)'
+      desc: 'Kun for prosjekter med ny rammeform: CNC-kjøretrykk, form for EVA-termoforming og formtesting fullføres før volumproduksjonen kan begynne.'
+    - step: '25–35 dager'
+      title: 'Produksjon etter bekreftet PO & depositum'
+      desc: 'Hele stoffruller på 150 m, Pantone-materiale, emballasje med varemerket ditt og 100-punktsmontering. Hvert brett gjennomgår trykk- og lufttetthetstester på 24 timer.'
+    - step: '300+ brett'
+      title: 'Planlegging av faset levering'
+      desc: 'Store programmer sendes i planlagte batcher for å matche sesongsalg, lagerkapasitet og betalingsmilepåler.'
+    - step: 'Dag 0–90'
+      title: 'Typisk horisont for første ordre'
+      desc: 'Fra briefing til første leverte syklus: ca. 6–8 uker med eksisterende plattformer, 8–12 uker inkludert tilpasset form. Multi- og containerprogrammer går bevisst lenger.'
+
+expedite:
+  tagline: 'Kortere leveringstider'
+  title: 'Hva som holder leveringstidene korte'
+  subtitle: 'Tre håndtak lar deg korte programmet uten å endre grunnleggende rullfysikk.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Prøver er like raske som standard'
+      desc: 'Prøveutvikling tar 7–12 dager i hvert prosjekt. Bruk prøverunden til å låse spesifikasjonen, slik at produksjonen aldri trenger å vente på sene designvalg.'
+    - icon: P
+      icon_bg: green
+      title: 'Produksjonsplasser bekreftes i forveien'
+      desc: 'Forsesongbestillinger garanterer bekreftede produksjonsplasser. At flere kunder bestiller samme plass, er nettopp grunnen til at tidligere depositum får tidligere produksjonslinjer.'
+    - icon: T
+      icon_bg: purple
+      title: 'Transparente trinnvise kontroller'
+      desc: 'Hver kontroll — prøvegodkjenning, BOM-frysing, designfrysing, PO og depositum — avtales med dato i kontrakten. Du vet alltid hvilken dag klokken begynner.'
+
+scenarios:
+  tagline: 'Tre realistiske startpunkter'
+  title: 'Hvilket spor passer prosjektet ditt?'
+  subtitle: 'Samme fabrikk, tre ulike spor inn. Velg scenarioet som ligger nærmest situasjonen din, og bruk det når du kontakter oss.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Startup-merke: valider før du binder deg'
+      desc: 'Bestill først 1–2 prøver (7–12 dager), test kvalitet og fotografi, og legg deretter inn en pilotordre på 20–50 brett for å teste salget før noen full syklus. Den totale eksponeringen i første sesong holdes under 50 brett.'
+    - icon: B
+      icon_bg: blue
+      title: 'Resort eller utleieoperatør: piloter, så skaler opp'
+      desc: 'En pilotordre på 20–50 brett med forenklet emballasje bærer deg gjennom forsesongen. Etter å ha samlet brukerdata skalerer du opp til standardsykluser på 90–100+ brett med varemerket merke på emballasjen.'
+    - icon: C
+      icon_bg: green
+      title: 'Etablert merke: komplette containerprogrammer'
+      desc: 'Etablerte merker bestiller 90–100+ brett per rull på 150 m med tilpassede rammer og heldekkende branding. Tilpasset formbygging legger til 15–20 dager; programmer fra 300+ brett sendes etter fasede planer.'
+
+moq_quality:
+  tagline: 'QC & samsvar'
+  title: 'Samme kvalitetssystem ved enhver ordrestørrelse'
+  subtitle: 'En prøve på 1 brett og et program på 300+ brett går gjennom samme kvalitetskontroller og samme samsvarsdokumentasjon. «Lav MOQ» betyr aldri «lav standard».'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Samsvarsdokumenter, uansett størrelse'
+      desc: 'CE-, ISO 9001-, BSCI-, REACH- og RoHS-sertifiseringsdokumentasjon inngår i hver ordre — også enkelte prøver — med sertifikatnumre på forespørsel.'
+    - icon: A
+      icon_bg: green
+      title: 'Kontrolliste med 100 punkter for montering'
+      desc: 'Hvert brett, uansett partisstørrelse, består samme kontrolliste med 100 punkter for montering: materiale, sveisinger, ventiler, rails, vekter og tilbehørets passform kontrolleres linje for linje.'
+    - icon: P
+      icon_bg: purple
+      title: 'Trykk- og lufttetthetstest på 24 timer'
+      desc: 'Hvert brett pumpes til 18.0 PSI og holdes i 24 timer. Et trykktap på mer enn 0.50 PSI fører til automatisk kassering — samme kontroll for en prøve og for en container.'
+    - icon: R
+      icon_bg: orange
+      title: 'Verifisering av HF-sveisinger & railfusjon'
+      desc: 'Fusjonen av railbåndets tre lag og HF-sveisingene verifiseres visuelt og dimensjonalt mot den godkjente prøven før hver produksjonssyklus.'
+    - icon: B
+      icon_bg: blue
+      title: 'ERP-sporbarhet per parti (10 år)'
+      desc: 'Hvert brett bærer produksjonsregister med serienummer — materiale, operatører, tester og inspeksjonsresultater — som lagres i 10 år og stilles til disposisjon for revisjoner.'
+    - icon: I
+      icon_bg: green
+      title: 'Klar for inspeksjon av tredjepart'
+      desc: 'Batchproduksjonen er klar for inspeksjon av tredjepart når som helst. De fleste kunder bruker dessuten inspeksjonssystemet vårt på sju nivåer, eller en pre-shipment-inspeksjon for volumprogrammer.'
+
+moq_faqs:
+  tagline: Vanlige spørsmål
+  title: 'Vanlige spørsmål om MOQ og leveringstid'
+  items:
+    - q: 'Hva er minste bestillingsmengde for en tilpasset SUP?'
+      a: 'Det avhenger av prosjektnivået: prøver er 1–2 brett, små co-brandingmengder starter på 5–10 enheter, prøve- og pilotordrer går med 20–50 brett, og standardvolumproduksjon går med 90–100+ brett per drop-stitch-stoffrull på 150 m. Tilpassede former kjøres på volumnivået. Vi bekrefter den eksakte beregningen for konfigurasjonen din før tilbudet utarbeides.'
+    - q: 'Hvor lang tid tar en prøve av en oppblåsbar SUP?'
+      a: 'Prøveutvikling tar 7–12 dager. Prøven verifiserer rammens stivhet, EVA-tractionmattenes tekstur, grafisk presisjon og tilbehørets passform. Det er prøvekostnader som trekkes fra produksjonsordren din når kontrakten signeres.'
+    - q: 'Hvor lang tid tar produksjonen etter at ordren er bekreftet?'
+      a: 'Produksjonstiden er 25–35 dager fra bekreftet PO og depositum. Omfatter prosjektet ditt en tilpasset ramme, legger utviklingen av den tilpassede formen til 15–20 dagers formbygging før produksjonen begynner.'
+    - q: 'Beregnes MOQ per ordre, per modell eller per fargevariant?'
+      a: 'MOQ kan gjelde per modell, fargevariant, designversjon, emballasjekonfigurasjon eller den totale ordren. Siden ulike drop-stitch-tykkelser og PVC-farger kommer fra separate råmaterialruller, gir en ordre på 50 brett fordelt på 5 farger 5 separate bestillinger på stoffruller. Vi bekrefter beregningen mot SKU-matrisen din.'
+    - q: 'Kan jeg starte med bare 1–2 brett for å teste markedet?'
+      a: 'Ja. En prøveordre på 1–2 brett er den billigste mulige valideringen: rammens stivhet, grafikken og tilbehørets passform bekreftes før du binder deg økonomisk til en syklus. Derfra skalerer du til en pilotordre på 20–50 brett for den økonomiske valideringen.'
+    - q: 'Kan et program på 300+ brett sendes i flere batcher?'
+      a: 'Ja. Store programmer kan planlegges som faset levering over produksjonsbatcher, slik at sesongflåter kommer når det trengs, og kontantstrøm og lagerplass forblir håndterbare. Programmene bekreftes i kontrakten, ikke etter produksjonen.'
+
+evidence_review:
+  tagline: 'Bevis & verifisering'
+  title: 'VERIFISERTE SPESIFIKASJONER'
+  body: 'Alle produksjonsopplysningene på denne siden verifiseres av vårt Manufacturing Engineering Team i fabrikken i Laixi, Qingdao. Sertifikater, QC-inspeksjonsregister, trykk- og konstruksjonstestrapper samt register for partisporbarhet er tilgjengelige på forespørsel. Spesifikasjonene ble sist verifisert i september 2026.'
+
+cta:
+  title: 'Vil du ha MOQ og leveringstid spesifikt for prosjektet ditt?'
+  subtitle: 'Send oss brettmodellen din, målmengden for første sesong og kravene dine til varemerket. Vårt tekniske team bekrefter om sporet prøve, pilot eller volum er riktig — med eksakt MOQ-beregning og en plan dag for dag. En forespørsel binder deg ikke til noe.'
+  actions:
+    - variant: primary
+      text: Be om MOQ- og leveringstidsinndelingen
+      href: /no/contact#moq-guide
+    - text: Sammenlign med guiden for fleksibel branding
+      href: /no/oem-moq-guide
+    - text: Start et nytt merke med en pilotordre med lav MOQ
+      href: /no/new-brand-trial-order
+    - text: Verifiser fabrikk og kvalitetssystem
+      href: /no/oem-trust-assurance

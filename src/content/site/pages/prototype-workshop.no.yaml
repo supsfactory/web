@@ -1,0 +1,102 @@
+meta:
+  title: 'SUP-prototypeverksted — bygging av prøvebrett'
+  description: 'Fra CAD til testet prøvebrett på 7–12 dager: prototypeverkstedet vårt bygger, tester og validerer tilpassede SUP-prøver. Start prototypeprosjektet ditt i dag.'
+  dateModified: '2026-08'
+back_text: 'Tilbake til F&U-senteret'
+home_label: 'Start'
+
+answer:
+  label: 'Kort svar'
+  text: 'Vi gjør en CAD-modell om til et prøvebrett som kan padles og testes på 7–12 dager: produksjon av oppblåsbar prototype, vanntesting med bølger, iterasjoner på rails og baug, og deretter beslutningen om produksjonsverktøy. Å bygge tilpassede formverktøy tar 15–20 dager utover den standardiserte produksjonstiden på 25–35 dager.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorium 05'
+  title: 'Prototypeverksted'
+  subtitle: 'Fra CAD-modell til testet prøvebrett — bygd, ferdig og prøvd'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'Produksjon av SUP-brett i Vatrads prototypeverksted'
+
+intro: 'En CAD-modell — uansett hvor detaljert den er — kan ikke vise hvordan et brett faktisk oppfører seg før det pumpes opp, bæres og padles. Derfor er prototypeverkstedet vårt utformet for å omsette tekniske data til et fysisk, padlbart brett så raskt og nøyaktig som mulig. Hver ny {SITE.name}-modell — og hver betydelig størrelsesdesign — går gjennom dette verkstedet før produksjonsverktøyet godkjennes.'
+
+content_html: |
+  <h2>Der design blir virkelighet</h2>
+  <p>Verkstedet er utstyrt for parallell produksjon av paneler, drop-stitch-kjerner og rails. Det parallelle arbeidsflytet reduserer prototypens gjennomkjøringstid til 7–12 dager etter teknisk godkjenning. Krever bruken din en spesialisert løsning, kan vi gå fra konsept til vannvalidering på under tre uker.</p>
+
+  <h2>Verkstedets kapasitet</h2>
+  <table>
+    <thead><tr><th>Stasjon</th><th>Utstyr</th><th>Formål</th></tr></thead>
+    <tbody>
+      <tr><td>Panelkutting</td><td>CNC-stoffkjemper, nestingsprogramvare, bibliotek med skjermønstre</td><td>Nøyaktig kutting av dekk-, skrog- og railpanelene for hver brettstørrelse</td></tr>
+      <tr><td>Kjernemontering</td><td>Lamineringsbord for drop-stitch-kjerner, limvalser</td><td>Forene drop-stitch-kjernen mellom PVC-lagene med jevn limbelegg</td></tr>
+      <tr><td>Sveising</td><td>HF-sveiemaskiner, varmlufts-lappsveiestasjon, oppblåsingstestbenk</td><td>Sveie brettets sømmer i full størrelse, med ventiler, håndtak og fin box</td></tr>
+      <tr><td>Ferdigstillelse &amp; finish</td><td>Påfører for dekklist, grafikklabberingsbord, benk for tilbehør</td><td>Komplett ferdigstillelse: dekklist, logoer, håndtakstøtter, leash plug, fin box</td></tr>
+      <tr><td>Målestasjon</td><td>Manometre, dataloggere, bøyningsmålere</td><td>Teste prøver: pumpesykluser, dekkbøyning, måling av lufttetthet</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Prototypens vei — steg for steg</h2>
+  <ol>
+    <li><strong>Teknisk overlevering</strong> — Designpakken (3D-modell, FEA-rapport, BOM, paneloppdelingsplan) gjennomgås formelt av verkstedssjefen og prosjektingeniøren. Eventuelle produksjonsproblemer oppdages og løses før kuttet.</li>
+    <li><strong>Panelproduksjon</strong> — Brettet bygges etter den tekniske spesifikasjonen. Panelene kuttes med CNC, drop-stitch-kjernen lamineres mellom PVC-lagene, og dekk og skrog monteres med det godkjente materialsettet.</li>
+    <li><strong>Sveising</strong> — Panelene settes sammen til brettets fulle form gjennom HF-sveising. Luftkammeret pumpes opp til testtrykk og holdes i 24 timer for initial stabilisering.</li>
+    <li><strong>Montering &amp; finish</strong> — Dekklist, grafikk, håndtak, leash plug og fin box monteres. Alt tilbehør installeres og kontrolleres mot spesifikasjonen.</li>
+    <li><strong>Statiske tester</strong> — Før vannet nås gjennomgår brettet: pumpesykluser, lufttetthetstest, måling av dekkbøyning ved nominelt trykk og koblingstest av tilbehøret.</li>
+    <li><strong>Vanntestprogram</strong> — 10 timers vanntester, nærmere beskrevet nedenfor.</li>
+    <li><strong>Prototypegjennomgang</strong> — Et formelt godkjenningsmøte med konstruksjons-, produksjons- og kvalitetsteamene. Nødvendige designendringer dokumenteres og håndteres i produksjonsgodkjenningen.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">10-timers vanntestprogram — testplan</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 t</span>
+        <span class="flex-1">Stabilitetstest — stasjonær likevekt, toleranse for sidebelastning</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 t</span>
+        <span class="flex-1">Padleprøve — utrulling, rett linje og sving i 3 hastigheter; padlekomfort</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 t</span>
+        <span class="flex-1">Belastningstest — stabilitet og bøyning med bruker på 60 / 80 / 100 / 120 kg</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 t</span>
+        <span class="flex-1">Bølgetest — gjentatte passasjer gjennom båtenes kjølsluke; baugsprutning, railflex</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 t</span>
+        <span class="flex-1">Utholdenhetstest — kontinuerlig padling med regelmessige trykksjekker; registrering av lufttettheten</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 t</span>
+        <span class="flex-1">Sluttkontroll — kontroll av sømmer, tilbehør og grafikk etter testen; dokumentasjon av observasjoner</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Tilpasset prototypeproduksjon for spesielle bruksområder</h2>
+  <p>Prototypeverkstedet er stedet der vi løser problemer som standardbrett ikke dekker. Nylige eksempler:</p>
+  <ul>
+    <li>Et 14' touringbrett for et europeisk utleiermerke for endurancepadling med nedsenket lastdekk og forsterket baug — bygd, ferdig og testet i fabrikken vår.</li>
+    <li>Et 10'6'' yogabrett med gjennomgående sklisikkert dekk og ekstra tykkelse for stivhet, validert via en fire uker lang test gjennom en utleiesesong.</li>
+    <li>Et white label-flåtebrett med tilpasset dekkgrafikk og doble håndtak, der prototypen ble brukt til å validere farge, logoplassering og emballasje før kunden valgte å bestille en container.</li>
+  </ul>
+
+  <h2>Prototypeteamet vårt</h2>
+  <p>Verkstedet bemannes av åtte allround produksjonsteknikere, hver utdannet i minst to av de tre kjerneteknikkene (kutting, sveising, ferdigstillelse). Teamlederen er en mester med 16 års erfaring, fra unike mål til produksjonsserier. Hver prototype får en dedikert prosjektingeniør som eneste kontaktperson for kunden gjennom hele bygge- og testprosessen.</p>
+
+  <h2>Kundens medvirkning</h2>
+  <p>Vi oppfordrer kunder til å delta aktivt i de viktigste milesteinene i prototypebyggingen — særlig den første ferdigstillelseskontrollen og vanntesten. Din operative tilbakemelding i disse fasene er uvurderlig for å finjustere brettet før produksjonen. Vi bygger ikke i et vakuum; vi bygger i samarbeid med deg.</p>
+  <p>Vanntestprogrammet er i tillegg en anledning for laget ditt til å bli kjent med vedlikeholdet og håndteringen av brettet, slik at overgangen til produksjon går smidig når de endelige brettene leveres.</p>
+
+cta:
+  title: 'Start prototypeprosjektet ditt'
+  subtitle: 'Fortell hvilket brett du trenger, så foreslår vi en plan for prototypeutvikling.'
+  actions:
+    - variant: primary
+      text: Kontakt prototypeteamet vårt
+      href: /no/contact#project-brief
+    - text: Tilbake til F&U-senteret
+      href: /no/randdcenter

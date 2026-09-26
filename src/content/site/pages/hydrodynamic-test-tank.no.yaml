@@ -1,0 +1,115 @@
+meta:
+  title: 'Hydrodynamisk testdamm — ytelsestesting av SUP-brett'
+  description: 'Valider ytelsen til SUP-brettenes skrog i den hydrodynamiske testdammen vår. Sleptesting i modelskala, glideanalyse og motstandsmåling for brettformer.'
+  dateModified: '2026-08'
+back_text: 'Tilbake til FoU-senteret'
+home_label: 'Hjem'
+
+answer:
+  label: 'Entydig svar'
+  text: 'Vi tester SUP-skrogformer i testdammen i modelskala 1:3 til 1:5 — båtprofil, railradius, rocker og våt overflate — og måler motstand, glideeffektivitet og stabilitet, før vi låser oss på en prototype i full størrelse. En uke i dammen gir de ytelsesdataene som ellers ville krevd måneder med forsøk og nederlag i full størrelse.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorium 04'
+  title: 'Hydrodynamisk testdamm'
+  subtitle: 'Ytelsevalidering før den første prototypen i full størrelse'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
+  image_alt: 'Vatrads hydrodynamiske testdamm for ytelsestesting'
+
+intro: 'Det er en utbredt misforståelse at hydrodynamiske tester er reservert for skip og racingbiler. I virkeligheten avhenger ytelsen til et SUP-brett — et glidende skrog på 10 til 14 fot — akkurat som for ethvert annat skip, av undervannsformen. Båtprofil, railradius, rocker og våt overflate påvirker motstand, glideeffektivitet og stabilitet på en dramatisk måte. På {SITE.name} driver vi en egen hydrodynamisk testdamm som lar oss kvantifisere disse effektene i modelskala — før vi låser fast stoff og formverktøy for en prototype i full størrelse.'
+
+content_html: |
+  <h2>Hvorfor teste et SUP-brett i en damm?</h2>
+  <p>Tester i modelskala (typisk 1:3 til 1:5) lar oss iterere raskt og til lav kostnad gjennom brettformer. En uke i dammen kan gi de samme ytelsesdataene som måneder med forsøk og nederlag i full størrelse — til en brøkdel av kostnaden.</p>
+
+  <h2>Spesifikasjoner for anlegget</h2>
+  <table>
+    <thead><tr><th>Parameter</th><th>Spesifikasjon</th></tr></thead>
+    <tbody>
+      <tr><td>Dammens mål</td><td>35 m (L) × 3.5 m (B) × 1.8 m (D)</td></tr>
+      <tr><td>Slepvogn</td><td>Elektrisk servodrevet, maksfart 12 m/s (23 kn), fartsnøyaktighet ± 0.5 %</td></tr>
+      <tr><td>Bølgegenerator</td><td>Flaptype, programmerbare regelmessige &amp; uregelmessige sjøtilstander, Hs opp til 0.3 m i modelskala</td></tr>
+      <tr><td>Instrumentering</td><td>6-komponents motningsmålevekt (motstand, sidekraft, hekkraft), aksellerometre, hellingsmålere, bølgesonder</td></tr>
+      <tr><td>Datainnsamling</td><td>Samplingfrekvens 1000 Hz per kanal, visualisering i sanntid + programvarepakke for etterbehandling</td></tr>
+      <tr><td>Modellproduksjon</td><td>CNC-fresing og 3D-printing internt for modelskala-skrog opp til 1.8 m lengde totalt</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Testprogrammet vårt</h2>
+  <p>Et standardprogram for brettutvikling i dammen vår følger denne rekkefølgen:</p>
+  <ol>
+    <li><strong>Modellbygging</strong> — En modell i skala 1:4 freses i CNC av skum med høy tetthet og forsterkes med glassfiber for stivhet. Vekt og tyngdepunkt stilles inn for å oppnå lastforholdet, skalert i henhold til Froude.</li>
+    <li><strong>Motstandsprøving</strong> — Modellen slepes ved 6–10 hastigheter i padleområdet (2–6 kn i full størrelse). Totalmotstanden måles og deles opp i friksjonsmotstand og gjenværende motstand med ITTC-1957-metoden.</li>
+    <li><strong>Måling av glideforhold &amp; dybde</strong> — Glideforhold og dybde under seilasen registreres ved hver hastighet. Målet er den glidevinkelen som minimerer den våte overflaten samtidig som skroget tydelig ligger over bølgetoppene.</li>
+    <li><strong>Undersøkelse av bølgefelt</strong> — Det tverrgående bølgeprofilet måles ved to hastigheter for å vurdere bølgemotstandet og identifisere interaksjoner med skrogformen som bremser et brett i vannet.</li>
+    <li><strong>Oppførsel i sjø (valgfritt)</strong> — Prøver i bølgekammer med regelmessige bølger for å måle ekstra motstand og vertikal akselerasjon i bølgene — data bak skrogformen for touringbrett.</li>
+    <li><strong>Dataanalyse &amp; anbefalinger</strong> — En fullstendig rapport leveres med sammenligningsdiagrammer, motstands-/hastighetskurver og spesifikke designanbefalinger for brettet i full størrelse.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Typiske dammresultater — Motstand mot hastighet (allround-brett 11''0, skala 1:4)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">2 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:18%"></div>
+        </div>
+        <span class="w-16 text-right">11 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">3 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">21 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">4 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:52%"></div>
+        </div>
+        <span class="w-16 text-right">32 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">5 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:68%"></div>
+        </div>
+        <span class="w-16 text-right">42 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">6 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:85%"></div>
+        </div>
+        <span class="w-16 text-right">52 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Motstand i modelskala (N) ved hastigheter skalert i henhold til Froude. Ytelsesberegning i full størrelse følger ITTC-1978-metoden.</p>
+  </div>
+
+  <h2>Expertene</h2>
+  <p>Dammen vår drives av en hydrodynamisk ingeniør med doktorgrad i skipsarkitektur og 8 års erfaring fra et ledende europeisk maritimt forskningsinstitutt. Han bistås av en tekniker som klargjør alle modeller og instrumentering. Teamet følger ITTC (International Towing Tank Conference) sine anbefalte prosedyrer for å sikre at hver test er reproduserbar, sporbar og internasjonalt forsvarlig.</p>
+
+  <h2>Dammtesting for utvikling av tilpassede brett</h2>
+  <p>Dammen vår brukes ikke bare på egne brett — vi gjennomfører regelmessig testprogrammer for kunder som ønsker å validere en tilpasset brettform eller undersøke et ytelsesproblem:</p>
+  <ul>
+    <li><strong>Formsammenligning</strong> — To eller flere kandidatformer testes under identiske forhold og gir en objektiv sammenligning av motstand, fart og stabilitet som underlag for designvalget deres.</li>
+    <li><strong>Optimalisering av rail &amp; båt</strong> — Varianter av båtprofil og railradius kan testes i ulike konfigurasjoner for å kvantifisere bidraget deres til redusert motstand.</li>
+    <li><strong>Studie av padlerens last</strong> — Motstandsdata kartlegges over hele padlernes vektintervall, slik at dere kan spesifisere riktig lengde og bredde for målgruppen deres.</li>
+  </ul>
+
+  <h2>Hvorfor teste hos oss?</h2>
+  <p>Vi gir dere ikke bare en rad med råtall. Rapportene våre oversetter dammdata til gjennomførbare designanbefalinger: «Øk rockeren i båten med 10 mm for å redusere bølgemotstandet ved cruisefart», «Avskjær railen ved midstasjonen for å redusere den våte overflaten» eller «Flytt det stående fotpartiet 50 mm fremover for bedre glideforhold». Dere går hjem med et tydelig bilde av hva som bør justeres og hvorfor.</p>
+  <p>Dammen vår er også tilgjengelig for uavhengige tester tredjeparter mot betaling. Hvis dere utvikler et brett og ønsker en upartisk, profesjonelt gjennomført hydrodynamisk vurdering, tar vi gjerne imot forespørselen deres.</p>
+
+cta:
+  title: 'Bestill en testsesjon i dammen'
+  subtitle: 'Enten dere trenger et komplett utviklingsprogram eller en enkelt sammenligningstest — vi tilpasser oss tidsplanen deres.'
+  actions:
+    - variant: primary
+      text: Kontakt det hydrodynamiske teamet vårt
+      href: /contact#project-brief
+    - text: Tilbake til FoU-senteret
+      href: /randdcenter

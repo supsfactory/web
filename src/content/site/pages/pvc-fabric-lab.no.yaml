@@ -1,0 +1,111 @@
+meta:
+  title: 'Laboratorium for PVC-stoffer — materialtesting for SUP-brett'
+  description: 'Materialtesting fra fiber til ferdig brett: strekkstyrke, UV-aldring, kuldefleksibilitet og slitasjestyrke for PVC-stoffer i SUP.'
+back_text: 'Tilbake til F&U-senteret'
+home_label: 'Start'
+
+hero:
+  tagline: 'Laboratorium 01'
+  title: 'Laboratorium for PVC-stoffer'
+  subtitle: 'Vitenskapelig materialtesting — fra fiber til ferdig brett'
+  image: 'https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp'
+  image_alt: 'Materialtestlaboratorium for Vatrads PVC-stoffer'
+
+answer:
+  label: 'Kort svar'
+  text: 'Brettene bygges med marint PVC på 1680 DTEX med trek lagsbelegg og en drop-stitch-kjerne som er dimensjonert for 12–15 PSI. Hvert innkommende stoffparti testes uavhengig i fabrikken — strekkstyrke (ISO 1421), UV-retensjon etter 2 000 timers eksponering i xenonlampe (ISO 4892), slitasje og kuldefleksibilitet — intet parti går til produksjon utelukkende på grunnlag av leverandørens datablak.'
+  verified: 'September 2026'
+
+intro: 'Stoffet i brettet er utvetydig det viktigste materialet i en oppblåsbar SUP. Det må tåle langvarig UV-eksponering, gjentatte pumpesykluser, slitasje på dekk og sandstrender og ekstreme temperaturvariasjoner — og samtidig beholde den strukturelle integriteten i årevis. På {SITE.name} er stofflaboratoriet vårt fullt ut dedikert til å karakterisere, validere og stadig forbedre stoffene vi bruker i hvert brett vi bygger.'
+
+content_html: |
+  <h2>Grunnlaget i hver oppblåsbar SUP</h2>
+  <p>Vi stoler ikke bare på leverandørenes datablak. Hvert parti PVC-stoff og drop-stitch-kjerne som kommer inn til verkstedet vårt, testes internt og uavhengig. Det garanterer at den publiserte materialspesifikasjonen virkelig er materialets ytelse i det du får — parti for parti, år for år.</p>
+
+  <h2>Standardisert testutstyr</h2>
+  <p>Stofflaboratoriet vårt er utstyrt med industriell testutstyr iht. ISO-, ASTM- og EN-metoder:</p>
+  <table>
+    <thead><tr><th>Utstyr</th><th>Målte parametere</th><th>Standard</th></tr></thead>
+    <tbody>
+      <tr><td>Universell strekkprøvemaskin (50 kN)</td><td>Bruddkraft, forlengelse ved brudd, sprepropagering</td><td>ISO 1421 / ASTM D751</td></tr>
+      <tr><td>Xenonlampe-aldringskammer</td><td>UV-bestandighet (fargeendring, styrkeretensjon etter 2000 t)</td><td>ISO 4892 / ASTM G155</td></tr>
+      <tr><td>Kuldefleksibilitetsapparat</td><td>Spunktemperatur fra -30 °C til -50 °C</td><td>ISO 4675 / ASTM D2136</td></tr>
+      <tr><td>Taber-slitasjeprøver</td><td>Vekttap etter 1000 sykluser (CS-10-hjul)</td><td>ASTM D3389 / ISO 5470-1</td></tr>
+      <tr><td>Digital tykkelsesmåler (oppløsning 0.001 mm)</td><td>Jevnhet over rullbredden</td><td>ISO 2286-3</td></tr>
+      <tr><td>Vannsøyleapparat</td><td>Vannbestandighet</td><td>ISO 811</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Alle instrumenter kalibreres årlig av akkrediterte tredjepartslaboratorier.</p>
+
+  <h2>Fra data til beslut: et typisk testforløp</h2>
+  <p>Når et nytt kandidatmateriale kommer inn, gjennomgår det et standardisert kvalifiseringsprosedyr i sju trinn:</p>
+  <ol>
+    <li><strong>Innkommende kontroll</strong> — visuell inspeksjon av overflatefeil, nålehull og målsamsvar.</li>
+    <li><strong>Tykkelseskartlegging</strong> — målinger på 20 punkter over rullen; for godkjenning kreves CV &lt; 3 %.</li>
+    <li><strong>Strekkprøving</strong> — 5 prøver i hver retning (varp og innslag). Minst 3500 N/50 mm for PVC på 1100 dtex.</li>
+    <li><strong>UV-konditionering</strong> — 1000 t eksponering i xenonlampekammer; minst 80 % styrkeretensjon kreves.</li>
+    <li><strong>Kuldesprekking</strong> — 4 t ved -35 °C, deretter folding 180° over en 25 mm nål. Ingen synlige sprekker.</li>
+    <li><strong>Slitasjestyrke</strong> — 1000 sykluser, vekttap ≤ 0.05 g.</li>
+    <li><strong>Frigivelse</strong> — først når alle sju grensene er bestått, frigis stoffet for produksjon.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Typisk PVC 1100 dtex — retensjon av strekkstyrken etter UV-eksponering</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 t 100%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">500 t 95%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">1000 t 88%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
+        <span class="text-xs mt-1">2000 t 82%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
+        <span class="text-xs mt-1">Konkurrent ~65%</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">PVC-stoffet vårt på 1100 dtex beholder langt over 80 % av strekkstyrken etter 2000 t eksponering i xenonlampe — mens vanlige industrielle klasser faller under 70 %.</p>
+  </div>
+
+  <h2>Det tekniske teamet vårt</h2>
+  <p>Laboratoriet bemannes av to materialingeniører på heltid, begge med utdanning i polymervitenskap eller tekstilteknologi og minst seks års bransjeerfaring. De støttes av tre teknikere som håndterer de daglige kontrollene og dataregistreringen. Teamet deltar jevnlig i ringprøvene som arrangeres av Den internasjonale standardiseringsorganisasjon (ISO) for å validere nøyaktigheten i testmetodene våre.</p>
+
+  <h2>Vi løser dine vanskeligste materialutfordringer</h2>
+  <p>Hvert padlemiljø er forskjellig. Et brett i tropikene utsettes for helt andre UV- og termiske forhold enn et brett på en nordisk sjø eller i et basseng. Stofflaboratoriet vårt hjelper deg med å velge — eller utvikle — en stoffspesifikasjon som er optimal for din bruksprofil.</p>
+  <p>Nylige spesialtilpasninger omfatter:</p>
+  <ul>
+    <li>En PVC-blanding med høy slitasjestyrke for brettene i en utleieflåte som regelmessig berører sandstrender og betongkaier (+40 % slitasjestyrkenivå).</li>
+    <li>En formulering for ekstremt lave temperaturer for en forhandlers vinterlagringsprogram i Canada, testet ned til -50 °C uten sprøhet.</li>
+    <li>Et fargebestendig oransje dekk for et søk- og redningsopplæringspark som fortsatt er synlig etter 3 år i tropisk sol.</li>
+  </ul>
+  <p>Vi selger ingen «standard»stoffer i håp om at de skal fungere. Vi tester, validerer og anbefaler — eller utvikler — en skreddersydd løsning for din spesifikke bruksprofil. Det er forskjellen for {SITE.name}.</p>
+
+  <h2>Så jobber vi med deg</h2>
+  <p>Når du kommer til oss med en materialutfordring, kan du forvente følgende:</p>
+  <ol>
+    <li><strong>Rådgivning</strong> — vi diskuterer bruksmiljøet, ytelseskravene og budsjettet ditt.</li>
+    <li><strong>Forslag</strong> — en testplan utarbeides med tydlige kriterier for godkjent/avvist og en tidsplan.</li>
+    <li><strong>Utførelse</strong> — laboratoriet vårt utfører testene og produserer en detaljert rapport med rådata og sammenlignende analyse.</li>
+    <li><strong>Anbefaling</strong> — vi presenterer en stoffspesifikasjon, inkludert alternativer dersom flere materialer møter kravene dine.</li>
+    <li><strong>Oppfølging</strong> — etter leveransen er vi fortsatt tilgjengelige for spørsmål om materialet i felt.</li>
+  </ol>
+  <p>Målet vårt er ikke bare å selge deg et brett. Det handler om at brettet du får yter pålitelig under forholdene du bruker det i — og det begynner med stoffet.</p>
+
+cta:
+  title: 'Trenger du en tilpasset stoffspesifikasjon?'
+  subtitle: 'Kontakt materialingeniørteamet vårt for å diskutere kravene dine.'
+  actions:
+    - variant: primary
+      text: Kontakt laboratoriet vårt
+      href: '/no/contact#project-brief'
+    - text: Tilbake til F&U-senteret
+      href: /no/randdcenter

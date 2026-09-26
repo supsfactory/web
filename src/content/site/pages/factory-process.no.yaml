@@ -1,0 +1,109 @@
+meta:
+  title: 'Produksjonsprosess — fra råvare til SUP'
+  description: 'Fra råvare til vannklart SUP: hver fase i Vatrads produksjonsprosess under vår kontroll — fra kapping og sveising til testing.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup produksjonsprosess'
+    - 'fabrikk oppblåsbare sup'
+    - 'faser produksjon paddle board'
+    - 'pvc sup sveising'
+hero:
+  tagline: Prosess
+  title: Produksjonsprosess
+  subtitle: Fra råvare til vannklart SUP — hvert trinn under vår kontroll
+  back_label: Tilbake til fabrikken
+  back_link: /factory
+
+answer:
+  label: 'Tydelig svar'
+  text: 'Brettene går gjennom fem kontrollerte faser: materialkontroll (1–2 dager), automatisk CNC-kapping (<5 % avkast, 2–4 timer per sett), termisk sveising av kamrene med RF-forsterkede sømmer (1–2 dager per brett), liming av drop-stitch-kjernen og sluttmontering med 100 % lufttetthets- og belastningstester før emballasjen.'
+  verified: 'September 2026'
+
+intro: I motsetning til merker som outsourcer produksjonen til tredjepartsfabriker, eier og driver Vatrad hele produksjonskjeden. Denne vertikale integrasjonen lar oss opprettholde streng kvalitetskontroll i hver fase, raskt tilpasse oss kundenes tilpassede krav og garantere jevn produktkvalitet, parti for parti. Slik bygges et SUP-brett i fabrikken vår.
+
+steps:
+  - step: '01'
+    title: Materialmottak og kontroll
+    description: Hvert innkommende parti med PVC-stoff, glassfiberform, harpiks og deler kontrolleres mot spesifikasjonen. Stoffprøver testes med hensyn på strekkstyrke, jevnhet i tykkelse og UV-bestandighet før frigjøring til produksjonen. Ikke-konformt materiale sperres og returneres.
+    duration: 1–2 dager
+  - step: '02'
+    title: Automatisk PVC-kapping
+    description: <p>De godkjente stoffene plasseres på den automatiske CNC-skjæremaskinen og skjæres med submillimeternøyaktighet. Datamaskinoptimalisert nesting plasserer panelene for å minimere avkastet — vanligvis under 5 %. De kappede panelene merkes per SUP-modell og kammer, samles i bunter og bringes til sveieavdelingen.</p>
+    duration: 2–4 timer per brettsett
+  - step: '03'
+    title: Termisk sveising og sveising av kammer
+    description: Panelene plasseres og føyes sammen med termiske sveiemaskiner ved kontrollerte varmluftstemperaturer mellom 200–300 °C. Hovedsømmene forsterkes med RF-dielektrisk sveising for luft- og trykkholdige sømmer. De ferdige kamrene pumpes opp til 18.0 PSI for et 24-timers holdetest som første lufttetthetskontroll.
+    duration: 1–2 dager per SUP
+  - step: '04'
+    title: Liming av drop-stitch-kjerne
+    description: <p>Drop-stitch-kjernen i SUP-brettene limes til de ytre PVC-lagene gjennom varmlaminering. Tusenvis av interne polyestertråder forbinder over- og underlaget og skaper en stiv konstruksjon ved 12-15 PSI. Kantlistene limes via tresjiktsfusjon for å gi kantene styrke.</p>
+    duration: 1–2 dager per brett
+  - step: '05'
+    title: Trykking og dekorasjon av SUP
+    description: Deck-grafikken på SUP-brettene påføres via digital trykking for fotorealistiske design i full farge og via silkeskjermtrykk for holdbare logoer og gjentakende mønstre. Trykket herdes og forsegles for UV- og slitestyrke.
+    duration: 1–2 dager
+  - step: '06'
+    title: Sluttmontering og ferdigstilling
+    description: Ventiler, D-ringer, håndtak, finnebokser og deckpads monteres på montasjelinjen. Hvert brett følger en 100-punkts montasjesjekkliste med bindende frigjøring i hver fase.
+    duration: 1–2 dager
+  - step: '07'
+    title: Kvalitetskontroll og inspeksjon
+    description: 'Hvert ferdig brett går gjennom en bindende kvalitetsport: lufttetthetstest av kammeret, funksjonstest av delene, kontroll av tiltrekkingsmoment og estetisk inspeksjon. Skreddersydde konstruksjoner og prototyper får i tillegg sjøprøve som dekker stabilitet og kahyret.'
+    duration: 1–2 dager
+  - step: '08'
+    title: Emballasje og levering
+    description: Brettene tømmes, foldes etter prosedyren, pakkes i robuste stoffvesker eller kommersielle kartonger og gjøres leveringsklare. Hver pakke merkes med modell, serienummer og destinasjon. Vi koordinerer FCL- og LCL-containertransport worldwide med speditører.
+    duration: 1 dag
+
+evidence_gates:
+  tagline: Inspeksjonsbevis
+  title: 'Hver fase etterlater et bevis — bilder og rapporter'
+  subtitle: 'Nedenfor finner du de faktiske inspeksjonsbildene og mappen med testrapporter fra de sju kontrollerte kvalitetsportene våre. Hver PDF-fil er et autentisk tospråklig dokument du kan laste ned og revidere — samme registre som støtter hvert parti i 10-årig sporbarkehetsarkiv i ERP. Se hele flyten i sju faser på /quality.'
+  items:
+    - title: 'PPM — Prosjektkvalitetsplanlegging'
+      description: 'Møtet før serieproduksjonen fastlegger omfang, golden sample og kvalitetsinspeksjonsplanen før linjen starter. Uløste punkter blokkerer produksjonsfrigjøringen.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Last ned QIP (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Møte før serieproduksjonen for å verifisere golden sample og kvalitetsinspeksjonsplanen for en OEM SUP-bestilling
+    - title: 'IQC — Innkommende varekontroll'
+      description: 'Hvert innkommende parti med PVC, stoff og deler kontrolleres mot den godkjente spesifikasjonen. Ikke-konforme partier sperres og kasseres før frigjøring til linjen.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Last ned IQC-rapportene (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: Innkommende varekontroll av PVC-stoff og SUP-komponenter i fabrikken
+    - title: 'IPQC / FAI — Prosesskontroll'
+      description: 'Det første prøveeksemplaret verifiseres mot de låste basalinjene, og hvert skift opprettholder stikkprøvekontroller ved linjen. FAI-frigjøringen låser versjonene av grafikk, mål og BOM.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Last ned IPQC-rapportene (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Prosessinspeksjon og verifisering av første prøveeksemplar under SUP-produksjonen
+    - title: 'Oppblåsingstest og lufttetthet'
+      description: '100 % av de ferdige brettene — ikke bare et stikkprøve — gjennomgår et 24-timers trykkholdetest ved 18.0 PSI med automatisk utelukkelse ved et fall på mer enn 0.50 PSI. Et bevis per kammer.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Last ned lufttetthetsrapportene (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Oppblåsingstest og lufttetthetstest av et kammer i en oppblåsbar SUP
+    - title: 'FQC — Kontroll av sluttprodukt'
+      description: 'De ferdige brettene måles mot tegningens toleranser og vurderes optisk under D65-dagslyslamper mot det godkjente golden sample.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Last ned FQC-rapportene (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Kontroll av sluttproduktet på ferdige SUP-brett før emballasjen
+    - title: 'PSI — Emballasjeinspeksjon før levering'
+      description: 'Den emballerte enheten verifiseres 100 % mot den kundegodkjente BOM-en — strekkodeskanning (poeng ≥ B), kartongmarkering og falltest ISTA-1A før lasting.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Last ned PSI-rapportene (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Inspeksjon før levering som verifiserer den emballerte SUP-enheten mot BOM
+    - title: 'Frigjøring før levering og sporbarhet'
+      description: 'Kvalitet frigjør partiet først når alle seks tidligere porter er lukket. Serienummer tildeles partiet, og mappen sendes med leveransen.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Last ned frigjøringsrapportene (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Undertegning av frigjøringsgodkjenningen før levering og overlevering av sporbarhetsprotokollen for partiet
+cta:
+  title: Se utstyret og maskinene våre
+  desc: Utforsk det industrielle utstyret bak hvert Vatrad SUP-brett.
+  label: Se utstyret →
+  link: /factory/equipment

@@ -157,7 +157,7 @@ test('every en content file has a .pt counterpart (except locale-agnostic site/p
   const dirs = ['pages', 'news', 'products', 'technology', 'case-use', 'site']
   for (const dir of dirs) {
     for (const name of readdirSync(resolve(contentRoot, dir))) {
-      if (name.includes('.de.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.it.') || name.includes('.pt.') || name.includes('.nl.') || name.includes('.sv.')) continue
+      if (name.includes('.de.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.it.') || name.includes('.pt.') || name.includes('.nl.') || name.includes('.sv.') || name.includes('.no.')) continue
       if (dir === 'site' && name === 'pages.yaml') continue
       const ptName = name.replace(/(\.(yaml|mdx|md))$/, '.pt$1')
       if (!existsSync(resolve(contentRoot, `${dir}/${ptName}`))) {
@@ -346,7 +346,7 @@ test('pt product FAQ pool is Portuguese (not Spanish/en fallback)', () => {
 
 test('localized facts (FACTS_LOCALE) provide Portuguese shorthands for all locales', () => {
   const locales = Object.keys(FACTS_LOCALE).sort() as (keyof typeof FACTS_LOCALE)[]
-  expect(locales).toEqual(['de', 'en', 'es', 'fr', 'it', 'nl', 'pt', 'sv'])
+  expect(locales).toEqual(['de', 'en', 'es', 'fr', 'it', 'nl', 'no', 'pt', 'sv'])
   const enKeys = Object.keys(FACTS_LOCALE.en)
   for (const l of locales) {
     expect(Object.keys(FACTS_LOCALE[l]).sort()).toEqual([...enKeys].sort())

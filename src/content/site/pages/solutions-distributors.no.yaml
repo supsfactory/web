@@ -1,0 +1,135 @@
+meta:
+  title: 'Private label & engrosdistribusjon for distributører | {SITE}'
+  description: 'Private label- og engrosprogrammer direkte fra fabrikken for distributører og forhandlere: eksklusive territorier, white label-SUP-produksjon og dedikert kontostyring.'
+  dateModified: '2026-09'
+
+hero:
+  tagline: Distributører & Private Label
+  title: 'Programmer direkte fra fabrikken for distributører og merker'
+  subtitle: 'Engros- og private label-programmer fra et produksjonsanlegg for oppblåsbare SUP. Kjøp til direkte fabrikkpriser, bygg ditt eget sortiment under eget varemerke og distribuer i eksklusive territorier i over 50 land.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: iSupfactorys produksjons- og fraktanlegg
+
+answer:
+  label: 'Kort svar'
+  text: 'Distributører og merker samarbeider direkte med fabrikken: white label-SUP-brett under eget varemerke, direkte engrosfabrikkpriser, eksklusivt territorium per program, 3–8 SKU-er i oppstarten og 45–60 dagers betalingsutsett (alt iht. den kommersielle avtalen), der 100 % av lageret trykktestes før levering. De innledende minimumsmengdene og transportvilkårene avtales per territorium, med frakt FOB Qingdao eller CIF.'
+  verified: 'September 2026'
+
+intro:
+  tagline: Programmet
+  title: 'Private label-distribusjon basert på egen produksjonskapasitet'
+  body: |
+    iSupfactory designer, bygger og tester hver oppblåsbar SUP, kajakk og tilbehør i den egen fabrikken i Laixi, Qingdao. En private label-avtale med oss betyr at innkjøpskilden til varemerket ditt er integrert: du får brett som fabrikken har produsert med ditt navn — ingen videresalg av lager fra en annen distributør.
+
+    Siden vi planlegger produksjonen rundt kundenes prognoser, kan vi programmere store volumer før sesongen på nordhalvøya, stabilisere transportkostnadene med forhåndsbestillinger og frigjøre arbeidskapital med transparente engrosvilkår og avtalte betalingsplaner. Konstruksjon, prøver, kvalitetskontroll og eksportdokumentasjon håndteres alle internt — det finnes ingen megler eller kommersiell mellomledd i kjeden.
+
+    Dette programmet er en av de to måtene å jobbe med fabrikken på. Hvis du driver et eget engrosmerke og vil ha det produsert, er denne siden for deg. Resorts, treningssentre og utleieflåter som kjøper direkte til eget bruk, bør derimot se på OEM/ODM-produksjonen og flåteprogrammene.
+
+wholesale_pricing:
+  tagline: Hvorfor engasjere seg
+  title: 'Hva distributører får'
+  subtitle: 'Alt som trengs for å lansere et sortiment under eget varemerke i markedet ditt.'
+  intro: 'Distribusjonspartnere får samme fabrikkkvalitet og tekniske dybde som vi leverer til OEM/ODM-merker, pakket for engroskanalen under eget varemerke. Programvilkårene — territoriell eksklusivitet, innledende SKU-sortiment og betalingsvilkår — bekreftes i den kommersielle avtalen for hvert program.'
+  stats:
+    - value: '50+'
+      label: 'Land vi sender til'
+    - value: '1'
+      label: 'Dedikert kontaktperson'
+    - value: '45–60'
+      label: 'Dager betalingsutsett'
+    - value: '120 000+'
+      label: 'Årskapasitet i brett'
+    - value: '3–8'
+      label: 'SKU-er i programoppstarten'
+    - value: '100%'
+      label: 'Testet i fabrikken før levering'
+
+steps:
+  tagline: Slik fungerer det
+  title: 'Fra søknad til første container'
+  subtitle: 'En tydelig og strukturert innkjøpsprosess i flere faser, slik at programmet ditt under eget varemerke starter i tide før første sesong.'
+  steps:
+    - step: 1
+      title: Send søknaden din
+      desc: 'Send distributørsøknaden med bedriftsprofilen din, tidligere engrosomsetning og territoriet ditt.'
+    - step: 2
+      title: Tildeling av territorium
+      desc: 'Vi bekrefter hvilke land eller regioner programmet ditt under eget varemerke omfatter, og om territoriet er eksklusivt.'
+    - step: 3
+      title: Sortiments- og brandingplan
+      desc: 'Velg basemodellene dine fra produksjonskatalogen, lås spesifikasjonene og ferdigstill grafikken for varemerket ditt før produksjonen.'
+    - step: 4
+      title: Godkjenning av prøver & kvalitet
+      desc: 'Bestill sertifiseringsprøver for å kontrollere kvalitet, emballasje og dropship-håndtering. Prøvene godkjennes før serieproduksjonen starter.'
+    - step: 5
+      title: Sesongbundet gjenbestilling
+      desc: 'Kontaktpersonen din planlegger produksjon og lager ut fra prognosene dine og sesongkalenderen.'
+
+benefits:
+  title: Hva distributører får
+  subtitle: 'Alt som trengs for å lykkes i markedet ditt.'
+  items:
+    - 'Private label under eget varemerke (OEM white label)'
+    - 'Eksklusive territorielle rettigheter (iht. den kommersielle avtalen)'
+    - 'Produksjonskatalog: SUP-er, tilbehør, komponenter'
+    - 'Konkurransedyktige priser direkte fra fabrikken'
+    - 'Markedsførings- og salgsmateriell (oversatt)'
+    - 'Opplæringsprogrammer (produkt, salg, vedlikehold)'
+    - 'Messe-støtte'
+    - 'Program for prøve- og forproduksjonsgodkjenning'
+    - 'Dropship-kapacitet'
+    - 'Dedikert kontaktperson for distributører'
+    - '45-60 dagers betalingsutsett (iht. den kommersielle avtalen)'
+
+coverage:
+  title: Nåværende distribusjon
+  subtitle: 'iSupfactory sender for tiden direkte til disse markedene.'
+  regions:
+    - name: Europa
+      countries: 'Frankrike, Tyskland, Storbritannia, Spania, Italia, Nederland, Sverige, Norge, Polen, Hellas'
+    - name: Asia
+      countries: 'Japan, Sør-Korea, Kina, Thailand, Singapore'
+    - name: Midtøsten
+      countries: 'De forente arabiske emirater, Saudi-Arabia'
+    - name: Amerika
+      countries: 'USA, Canada, Brasil, Mexico'
+    - name: Oseania
+      countries: 'Australia, New Zealand'
+    - name: Afrika
+      countries: 'Sør-Afrika, Marokko'
+
+faqs:
+  tagline: Vanlige spørsmål for distributører
+  title: 'Engrosdistribusjonsprogrammer — vanlige spørsmål'
+  items:
+    - q: 'Hva er minste ordre for en ny distributør?'
+      a: 'Nye distribusjonspartnere starter vanligvis med en prøve- og forproduksjonsordre, etterfulgt av en første container tilpasset sesongen deres. De eksakte minimumsmengdene avhenger av territoriets omfang og det valgte sortimentet; kontaktpersonen din bekrefter den innledende mengden under sortiments- og brandingplanleggingen.'
+    - q: 'Kan vi selge brettene under vårt eget varemerke?'
+      a: 'Ja. Private label er standardmodellen her: brettene produseres under eget varemerke med din grafikk, din emballasje og dine spesifikasjoner. iSupfactory produserer utelukkende for sine egne kunder og konkurrerer ikke med dem i noe marked.'
+    - q: 'Er territoriene eksklusive?'
+      a: 'Ja. Distribusjonsprogrammene bygger på eksklusive territorier — hver engrospartner dekker et fastslått land eller en fastslått region og får pris- og programstøtte for det markedet, iht. den kommersielle avtalen.'
+    - q: 'Støtter dere dropshipping?'
+      a: 'Dropship-kapasiteten inngår i programmet. Prøver, emballasje og håndtering valideres i fasen for prøvegodkjenning, slik at dropship-ordrer fungerer problemfritt fra dag én.'
+    - q: 'Hvilke modeller kan vi bestille?'
+      a: 'Produksjonskatalogen omfatter oppblåsbare SUP-brett i Allround-, Touring- og Surf-utførelse, oppblåsbare kajakker, pumpestyrker, årer, flyteputer og vedlikeholdstilbehør, pluss tilpassede formater utviklet sammen med konstruksjonsteamet vårt. De fleste partnere starter med 4–8 bestselgende SKU-er og utvider i kommende sesonger.'
+    - q: 'Hvordan sendes ordrene?'
+      a: 'Ordrene forlater fabrikken med planlagte avganger, med mulighet for forhåndsbestilling for å stabilisere transportkostnadene. Den dedikerte kontaktpersonen din planlegger produksjon og frakt ut fra prognosene dine og sesongkalenderen.'
+    - q: 'Hvordan registrerer jeg meg?'
+      a: 'Bruk søknadsskjemaet på denne siden, eller kontakt oss direkte. Søknadene vurderes av salgsteamet, og vi svarer innen noen arbeidsdager med neste steg, inkludert territorietildeling og et avtaleutkast.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Dybde:</strong> distribusjonspartnere selger brett som produseres for dem under eget varemerke — utforsk <a href="/no/oem-manufacturing">programmet for OEM/private label-produksjon</a> og fabrikkens <a href="/no/factory">kvalitetsprosess</a> for å posisjonere produktet med tillit.</p>
+  </div>
+
+cta:
+  title: 'Klar til å lansere sortimentet ditt under eget varemerke?'
+  subtitle: 'Meld deg til distributørprogrammet, eller utforsk produksjonskatalogen.'
+  actions:
+    - text: 'Meld deg til distributørprogrammet'
+      href: '/no/contact#distributor'
+      variant: 'primary'
+    - text: 'Utforsk produksjonskatalogen'
+      href: '/no/products'
+      variant: 'secondary'

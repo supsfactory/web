@@ -1,0 +1,100 @@
+meta:
+  title: 'SUP-samsvar per marked — CE-, REACH-, RoHS-, BSCI-, ISO 9001-krav | iSupfactory'
+  description: 'Samsvarsguide for oppblåsbare SUP-brett per marked: CE (EU), CPSIA (USA), AS/NZS (AU), ISO 9001, BSCI, REACH og RoHS — omfang og dokumenter per marked.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'sup samsvar per marked'
+    - 'ce sertifisering sup'
+    - 'regulering oppblåsbare sup'
+    - 'reach samsvar sup'
+    - 'rohs samsvar sup'
+    - 'bsci revisjon sup fabrikk'
+    - 'iso 9001 sup produsent'
+
+hero:
+  tagline: 'Samsvarsguide'
+  title: 'SUP-samsvar per marked'
+  subtitle: 'Hvert målmarked har sine egne krav til sertifisering, merking og dokumentasjon. Denne guiden kartlegger samsvarsstatus for oppblåsbare SUP-brett i de viktigste markedene — EU, Nord-Amerika, Australia og utover — slik at du fastsetter riktig omfang allerede ved tilbudsforespørselen, og ikke først etter produksjonen.'
+
+answer:
+  label: 'Kort svar'
+  text: 'For EU: CE-merking er obligatorisk for brett som selges innenfor Det europeiske økonomiske samarbeidsområde — vi sertifiserer modellene for EU-markedet, og omfanget bekreftes per prosjekt. For USA: CPSIA- og VOC-regulering på delstatsnivå. For Australia: samsvar iht. AS/NZS 1586. For alle markeder gjelder: ISO 9001 (fabrikk), BSCI (sosial revisjon), REACH og RoHS (materiale) er standard i hele produksjonen vår, uansett destinasjon. Samsvarsomfanget og kostnadene spesifiseres i tilbudet ditt — ingen overraskelser etter produksjonen.'
+  verified: 'September 2026'
+
+market_cards:
+  tagline: Krav per region
+  title: 'Samsvarskrav per målmarked'
+  subtitle: 'Sertifiseringsomfanget bekreftes per prosjekt under gjennomførbarhetskontrollen. Nedenfor de vanligste kravene per marked.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Den europeiske unionen'
+      desc: 'Obligatorisk CE-merking. REACH (kjemikalisikkerhet), RoHS (begrensede stoffer), ISO 9001-fabrikksertifisering. Produktspesifikke kontroller iht. PBM-direktivet eller fritidsbåtsdirektivet, der dette er aktuelt. Merking på destinasjonslandets offisielle språk. Sosial BSCI-revisjon er tilgjengelig.'
+    - icon: US
+      icon_bg: green
+      title: 'USA'
+      desc: 'CPSIA-samsvar (forbrukerproduktsikkerhet). Californias Prop 65 og VOC-regulering på delstatsnivå for utslipp fra PVC og lim. Ingen føderalt motstykke til CE. ASTM-tester på forespørsel. FTC-krav til merking av opprinnelsesland og materialsammensetning.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Australia & New Zealand'
+      desc: 'AS/NZS 1586 for oppblåsbare fartøy. Garantier iht. australsk forbrukerrett. Importdokumentasjon og samsvarsvurdering iht. kravene fra den australske grensemyndigheten. Kjemikalisikkerhetsdokumentasjon tilsvarende REACH. Sosial BSCI-revisjon er tilgjengelig.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Globalt / Flere markeder'
+      desc: 'ISO 9001:2015-fabrikksertifisering (årlig revisjon). Sosial BSCI-revisjon. REACH- og RoHS-materialsamsvar i hele produksjonen, uansett destinasjon. Partisporbarhet og testrapporter tilgjengelige for hvert marked. Det enkelte sertifiseringsomfanget bekreftes per prosjekt.'
+
+certifications_detail:
+  heading: 'Vårt sertifiseringsomfang'
+  body: |
+    Følgende sertifiseringer vedlikeholdes i produksjonen vår, eller er tilgjengelige. Det spesifikke sertifiseringsomfanget for prosjektet ditt bekreftes under gjennomførbarhetskontrollen og spesifiseres i tilbudet ditt.
+
+    - **ISO 9001:2015** — Fabrikken kvalitetsledelsessystem, revidert årlig av en akskreditert tredjepart. Omfatter hele produksjonsprosessen, fra innkommende varekontroll til endelig pakking.
+    - **CE-merking** — anvendes på modellene for EU-markedet. Verifisering og dokumentasjon iht. gjeldende EU-direktiv. Omfanget bekreftes per prosjekt — ikke alle modeller krever samme CE-omfang.
+    - **BSCI** — Revisjon iht. Business Social Compliance Initiative. Omfatter arbeiderrettigheter, arbeidsmiljø, miljøsamsvar og forretningsetikk. Tilgjengelig for alle markeder.
+    - **REACH** — EU-forordning om kjemikalisikkerhet. Alle PVC-materialer, lim og belegg er REATH-samsvarende. Stoffdokumentasjon og testrapporter per parti er tilgjengelige.
+    - **RoHS** — Begrensning av farlige stoffer. Alt elektrisk tilbehør (motoriserte pumpestyrker, LED-tilbehør) er RoHS-samsvarende. Brettmaterialene er i natur RoHS-samsvarende.
+
+compliance_process:
+  tagline: Slik fungerer samsvar i ordren din
+  title: 'Samsvar i innkjøpsprosessen'
+  subtitle: 'Samsvar er ikke noe ekstra — det er bygget inn i hver kontroll i innkjøpsprosessen.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Kontroll 1: bekreftelse av omfanget'
+      desc: 'Ved forespørsel oppgir du målmarkedene. Vi bekrefter hvilke sertifiseringer, tester og dokumenter som gjelder for produktet og destinasjonen din. Samsvarsomfanget og eventuelle kostnader spesifiseres i tilbudet.'
+    - icon: 2
+      icon_bg: green
+      title: 'Kontroll 3: sertifisering av prøvene'
+      desc: 'Prøvene produseres iht. det bekreftede samsvarsomfanget. For laboratorietester av tredjepart (CE, CPSIA, AS/NZS) koordinerer vi testene via akskrediterte laboratorier. Testrapportene leveres sammen med prøven.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Kontroll 7: dokumentasjonspakke'
+      desc: 'Hver produksjonsordre sendes med en samsvarsdokumentasjonspakke: samsvarserklæringer, testrapporter, sporbarhetsregister per parti, materialsikkerhetsdatablad og merkningssamsvar. Dokumentasjonen er markedspesifikk.'
+
+faqs:
+  tagline: Vanlige spørsmål
+  title: 'SUP-samsvar — vanlige spørsmål'
+  items:
+    - q: 'Krever alle SUP-brett CE-merking?'
+      a: 'CE-merking kreves bare for brett som selges innenfor Det europeiske økonomiske samarbeidsområde. Vi sertifiserer modellene for EU-markedet med et omfang som bekreftes per prosjekt. Brett beregnet på markeder utenfor EU bærer ikke CE-merking, med mindre du uttrykkelig ber om det.'
+    - q: 'Er materialene deres REACH- og RoHS-samsvarende?'
+      a: 'Ja. Alle PVC-materialer, lim og belegg er REATH-samsvarende. Alt elektrisk tilbehør (motoriserte pumpestyrker, LED-tilbehør) er RoHS-samsvarende. Brettmaterialenes konstruksjonsmaterialer er i natur RoHS-samsvarende. Stoffdokumentasjon og testrapporter er tilgjengelige per parti på forespørsel.'
+    - q: 'Kan dere ordne sertifiseringer for et marked som ikke er nevnt her?'
+      a: 'Ja. Vi har sendt til over 50 land og kan koordinere sertifisering og dokumentasjon for de fleste markeder. Oppgi destinasjonslandet ved forespørselen, så bekrefter vi det spesifikke samsvarsomfanget, sammen med eventuelle ekstra tester eller dokumenter som kreves.'
+    - q: 'Hvordan håndteres samsvarskostnadene?'
+      a: 'Samsvarsomfanget og eventuelle kostnader (laboratorietester av tredjepart, sertifiseringsavgifter) spesifiseres i tilbudet ditt under gjennomførbarhetskontrollen. Ingen samsvarskostnader etter produksjonen. Standardlisensene (ISO 9001, BSCI) gjelder på fabrikknivå og gir ingen enhetskostnader.'
+
+cta:
+  title: 'Fastsett samsvarskravene dine'
+  subtitle: 'Fortell hvilke målmarkeder du har, så bekrefter vi sertifiseringsomfanget, testkravene og dokumentasjonspakken — spesifisert i tilbudet ditt.'
+  actions:
+    - variant: primary
+      text: Start prosjektbriefen
+      href: /no/contact#project-brief
+    - text: Verifiser sertifiseringer og kvalitetssystem
+      href: /no/proof-center
+    - text: OEM-innkjøpsprosessen
+      href: /no/oem-onboarding-guide

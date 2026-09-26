@@ -1,0 +1,108 @@
+meta:
+  title: 'SUP-produktutvikling — tilpasset design, prototyp & produksjon'
+  description: 'SUP-produktutvikling fra idé til container: spesifikasjon, konstruksjon, prototyper, testing, verktøybygging og serieproduksjon i en spesialiseret SUP-fabrikk.'
+  dateModified: '2026-08-10'
+  keywords:
+    - 'SUP-produktutvikling'
+    - 'SUP-prototyputvikling'
+    - 'tilpasset SUP-design'
+    - 'SUP-produktkonstruksjon'
+    - 'prototypeproduksjon av oppblåsbare SUP'
+
+hero:
+  tagline: Produktutvikling
+  title: 'Tilpasset SUP-produktutvikling, fra idé til container'
+  subtitle: 'Seks faser gjør ideen din til produksjonsklare SUP-brett — spesifikasjon, konstruksjon, prototyper, testing, verktøybygging og serieproduksjon, alt i én enkelt fabrikk med ett ansvarlig kvalitetssystem.'
+
+answer:
+  label: 'Kort svar'
+  text: 'SUP-produktutvikling hos iSupfactory gjennomgår seks faser — produktspesifikasjon, strukturell konstruksjon, prøvetaking av prototyper, testing & validering, bygging av tilpassede verktøy og serieproduksjon. Den første fysiske prøven sendes 7–12 dager etter at spesifikasjonen er godkjent; produksjonen går 25–35 dager etter bekreftet ordre og depositum; en ny formstøpel betyr ytterligere 15–20 dager.'
+  verified: 'September 2026'
+
+stages:
+  title: 'De seks fasene i SUP-produktutviklingen'
+  subtitle: 'Hver fase har et tydelig resultat — slik at du alltid vet hvor prosjektet står — og hva som skjer videre.'
+  items:
+    - title: '1. Idé & produktspesifikasjon'
+      description: ' Brettgeometri, brukerens vektklasse, volum, konstruksjonsmål og tilbehørssett. Et referansebrett, en skisse eller en konkurrentens spesifikasjon er nok for å komme i gang.'
+      icon: 'tabler:bulb'
+    - title: '2. Konstruksjon & 3D-design'
+      description: 'Strukturell konstruksjon, drop-stitch-tykkelse og valg av PVC-klasse, pluss en produksjonbarhetskontroll og et tilbud — innen én arbeidsdag.'
+      icon: 'tabler:blueprint'
+    - title: '3. Prøvetaking av prototyper'
+      description: 'Din første fysiske prøve sendes innen 7–12 dager, dokumentert med en godkjenningsblankett for konstruksjon, trykkfarger og resultater av trykktesting.'
+      icon: 'tabler:tools'
+    - title: '4. Testing & validering'
+      description: 'Trykkholdetid, sveisestyrke og målekontroll mot den godkjente prøven, med CE- og REACH-dokumentasjon for markedene dine.'
+      icon: 'tabler:test-pipe'
+    - title: '5. Verktøy & serieproduksjon'
+      description: 'Bygging av tilpassede formverktøy på 15–20 dager ved behov; produksjonen går 25–35 dager med QC-kontrollpunkter i prosessen og sporbarhet per parti.'
+      icon: 'tabler:settings'
+    - title: '6. Levering & skalering'
+      description: 'Logistikk FOB, CIF eller DDP til over 50 land — deretter gjenbestillinger på din etablerte linje med stabile leveringstider og arkivert, godkjent artwork.'
+      icon: 'tabler:truck-delivery'
+
+why_inhouse:
+  title: 'Hvorfor utvikling i fabrikken slår et mellomledd'
+  subtitle: 'Utvikling direkte i produksjonsanlegget endrer hva du får i hver fase.'
+  items:
+    - title: 'Ingen overleveringspunkter i designen'
+      description: 'Konstruksjons- og tegningsteamet arbeider på samme plan som sveisingen — en designendring når produksjonen samme uke, ikke etter en kommersiell tur og retur.'
+      icon: 'tabler:handshake'
+    - title: 'Prøver som matcher produksjonen'
+      description: 'Prøvekjøringen og produksjonskjøringen deler samme maskiner, materialer og QC-stasjoner — den godkjente prøven er altså nøyaktig det du får i containerformat.'
+      icon: 'tabler:stack-2'
+    - title: 'Konstruksjon som ikke selger'
+      description: 'Beslutninger tas ut fra målkostnad, vekt og levetid — ikke ut fra fortjenestmargin, ettersom dette er en fabrikk og produksjonen er den eneste inntektskilden.'
+      icon: 'tabler:scale'
+    - title: 'Ansvarsplikt som varig forpliktelse'
+      description: 'En NDA signeres før hver filutveksling, og artworken, verktøyene og spesifikasjonsfilene dine forblir dine — de gjenbrukes aldri, videreselges aldri eller vises aldri for andre kunder.'
+      icon: 'tabler:lock'
+
+buyer_guides:
+  tagline: Innkjøpsguider
+  title: 'Det komplette innkjøpsbiblioteket'
+  subtitle: 'Hver fase i et tilpasset SUP-prosjekt forklart, med våre faktiske leveringstider, vilkår og dokumenter.'
+  items:
+    - title: 'Private label: den komplette steg-for-steg-guiden'
+      body: 'Fra valg av fabrikk til levert container — hele seksstegsreisen for nye merker.'
+      href: '/no/news/private-label-sup-guide'
+    - title: 'Hvordan du velger en SUP-OEM-produsent'
+      body: 'Revisjonsspørsmålene som skiller en ekte fabrikk fra en mellomhand: sertifiseringer, QC, prøver og eierskap.'
+      href: '/no/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'Gjennomkjøringstider for SUP-produktutvikling'
+      body: 'Prøver på 7–12 dager, produksjon på 25–35 dager, verktøy pluss 15–20 — hele planleggingen, fase for fase.'
+      href: '/no/news/custom-sup-development-timeline'
+    - title: 'Informasjon å forberede før bestillingen'
+      body: 'De fem opplysningene som gjør at en fabrikk kan gi et korrekt tilbud på én gang — og som unngår omarbeiding av spesifikasjonen.'
+      href: '/no/news/info-needed-before-sup-production'
+    - title: 'MOQ og priser for SUP-OEM'
+      body: 'MOQ-nivåer over prøve (1–2), pilot (20–50) og volum (90–100+ per rull på 150 m), de seks kostnadsdriverne og fem måter å senke kostnadene uten å gi opp kvaliteten.'
+      href: '/no/news/sup-oem-moq-pricing'
+    - title: 'CE-sertifisering for oppblåsbare SUP'
+      body: 'Hva CE-merkingen faktisk dekker, de fem dokumentene du skal be om og hvordan du kontrollerer at et sertifikat nevner din modell.'
+      href: '/no/news/ce-certification-inflatable-sup'
+    - title: 'Frakt: FOB kontra CIF kontra DDP'
+      body: 'Hva hver Incoterm dekker og koster, sjøtransporten på 4–6 uker og hvilket vilkår som passer bedriften din.'
+      href: '/no/news/private-label-sup-oem-guide'
+
+faq_section:
+  tagline: Vanlige spørsmål
+  title: 'Vanlige spørsmål om SUP-utvikling'
+  questions:
+    - q: Kan dere utvikle et SUP-produkt fra en idé?
+      a: 'Ja. Vi følger hele veien fra produktspesifikasjon og konstruksjon, via prototyputvikling og tilpasning, til serieproduksjon ut fra dine krav. En skisse, et referansebrett eller til og med en konkurrentens spesifikasjon er nok for konstruksjonskontrollen.'
+    - q: Hva koster SUP-produktutvikling?
+      a: 'Spesifikasjonskontrollen og konstruksjonsvurderingen er gratis og kommer tilbake innen én arbeidsdag. Prøvetaking av prototyper tilbys prosjektvis når spesifikasjonen er låst; produksjonspriser avhenger av materiale, antall og om egne verktøy er nødvendige.'
+    - q: Hvor lang tid tar SUP-produktutvikling?
+      a: 'Den første prøven sendes 7–12 dager etter at spesifikasjonen er godkjent, med 3–7 dager per revisjonsrunde. Produksjonen går 25–35 dager etter ordre og depositum. En egen form betyr 15–20 dager ekstra i forkant, og sjøtransport tar for de fleste destinasjoner ytterligere 4–6 uker.'
+    - q: Hva kommer først — prøve eller produksjon?
+      a: 'Alltid prøven. En fysisk prototype produseres, måles og godkjennes mot spesifikasjonen før en produksjonskjøring starter. Vi produserer ingen antall basert på design som ikke er godkjent.'
+    - q: Signerer dere en NDA for produktutvikling?
+      a: 'Ja. En NDA signeres før hver filutveksling, og designene, artworken og verktøyene dine forblir dine gjennom hele utviklingen og produksjonen.'
+    - q: Kan dere beskytte SUP-designen og spesifikasjonen min?
+      a: 'Kundenes design, spesifikasjoner og produktidéer behandles konfidensielt under utvikling og produksjon. Verktøyfilene dine gjenbrukes aldri, videreselges aldri eller vises aldri for andre kunder.'
+
+cta:
+  title: 'Start SUP-produktprosjektet ditt'
+  subtitle: 'Send en skisse, et referansebrett eller en spesifikasjon — konstruksjonskontroll og tilbud innen én arbeidsdag.'

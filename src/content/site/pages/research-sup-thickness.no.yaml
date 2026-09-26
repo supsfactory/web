@@ -1,0 +1,82 @@
+meta:
+  title: 'Så velger du tykkelse på SUP-en din — teknisk analyse'
+  description: 'Hvordan oppblåsbare SUP-brett på 4", 5" og 6" skiller seg fra hverandre i stivhet, vekt, stabilitet og spårstabilitet, med anbefalinger per tykkelse.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Tilbake til forskning'
+
+hero:
+  tagline: 'Teknologi'
+  title: 'Så velger du tykkelse på SUP-en din — teknisk analyse'
+  subtitle: '6 min lesing'
+
+answer:
+  label: 'Kort svar'
+  text: 'Tykkelsen er et kompromiss mellom stivhet og stabilitet: 4" (10 cm) er stivest, lettest og raskest — ideelt for turer og konkurranser; 5" (12.7 cm) er allroundvalget for de fleste padlere; 6" (15.2 cm) maksimerer den primære stabiliteten for yoga og tyngre padlere (100+ kg). En tynnere tverrsnitt er strukturelt stivere, så et 4"-brett bøyer mindre ved 15 PSI enn et 6"-brett gjør ved 25 PSI.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>De tre standardtykkelsene</h2>
+
+  <h3>4" (10 cm) – Tur &amp; prestasjon</h3>
+  <ul>
+    <li>Maksimal stivhet – mindre bøyning under last</li>
+    <li>Lettere – mindre materiale, mindre luftvolum</li>
+    <li>Utmerket spårstabilitet – mindre svingning i sidelengs retning</li>
+    <li>Raskere – mindre motstand, lettere å rette ut</li>
+    <li>Ideelt: turer, konkurranser, treningspadling, erfarne padlere</li>
+  </ul>
+
+  <h3>5" (12.7 cm) – Allround</h3>
+  <ul>
+    <li>God stivhet – balansert forhold mellom bøyelighet og stivhet</li>
+    <li>Moderat vekt – standard materialforbruk</li>
+    <li>God primær og sekundær stabilitet</li>
+    <li>Ideelt: rekreasjonspadling, nybegynnere, sporadisk hav- og elvepadling</li>
+  </ul>
+
+  <h3>6" (15.2 cm) – Stabilitet &amp; yoga</h3>
+  <ul>
+    <li>Maksimal primær stabilitet – enorm bæreevne</li>
+    <li>Tyngre – mer PVC-materiale, større luftvolum</li>
+    <li>Langsommere – mer motstand, vanskeligere å rette ut</li>
+    <li>Ideelt: yoga/trening, tunge padlere (100+ kg), svært uroete forhold</li>
+  </ul>
+
+  <h2>Teknisk analyse</h2>
+  <p>Stivheten i en oppblåsbar SUP bestemmes av det interne lufttrykket og brettets tverrsnittsmoment. Ved 20 PSI bøyer et 4"-brett rundt 30 % mindre under last enn et 6"-brett med samme bredde og lengde. Den primære stabiliteten kommer fra vannlinjens bredde og bæreevnen; den sekundære stabiliteten påvirkes av railens form og brettets bredde.</p>
+
+  <h2>Tykkelse basert på padlerens vekt</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Padlerens vekt</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Anbefalt tykkelse</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Mindre enn 65 kg (143 lbs)</td><td class="p-3 border">4"</td></tr>
+      <tr><td class="p-3 border">65 – 90 kg (143 – 198 lbs)</td><td class="p-3 border">5"</td></tr>
+      <tr><td class="p-3 border">90 – 115 kg (198 – 253 lbs)</td><td class="p-3 border">5" eller 6"</td></tr>
+      <tr><td class="p-3 border">Mer enn 115 kg (253 lbs)</td><td class="p-3 border">6"</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Kompromissen mellom tykkelse og PSI</h2>
+  <p>En vanlig feiltakelse er å anta at en høyere PSI-verdi kan kompensere for et for tykt brett. Ved 25 PSI bøyer et 6"-brett mer enn et 4"-brett gjør ved 15 PSI, fordi det geometriske tverrsnittsmomentet dominerer sammenligningen av stivhet. For prestasjonsorienterte padlere presterer derfor et tynnere brett ved lavere trykk bedre enn et tykkere brett ved høyere trykk.</p>
+
+  <h2>Produktsortimentet vårt</h2>
+  <ul>
+    <li><strong>Brett på 4":</strong> Cheetah Touring-serien – tur-SUP 12' x 30" x 4" for trening og distansepadling</li>
+    <li><strong>Brett på 5":</strong> Cheetah Allround-serien – 10'6" x 32" x 5" for rekreasjonsbruk</li>
+    <li><strong>Brett på 6":</strong> Cheetah Ultra Stable-serien – 10' x 34" x 6" for yoga, store padlere og fotoplattformer</li>
+  </ul>
+  <p>Alle brett bruker drop-stitch-kjerner på 1 680 DTEX med et tiltenkt trykk på 15 PSI og PVC-laminat på 1.2 mm.</p>
+  <p>Tykkelse, PSI og stoffspesifikasjoner kan konfigureres for skreddersydde serier — se hvordan vi <a href="/no/oem-manufacturing">utvikler brett for OEM- og private label-merker</a> og byggeprosessen direkte <a href="/no/factory">i fabrikken</a>.</p>
+
+cta:
+  title: 'Usikker på hvilken tykkelse som passer deg?'
+  subtitle: 'Se SUP-sortimentet vårt, eller spør sizeringslaget vårt.'
+  button_text: 'Se SUP-brettene'
+  button_link: /no/products

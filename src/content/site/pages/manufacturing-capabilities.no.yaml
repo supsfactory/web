@@ -1,0 +1,125 @@
+meta:
+  title: 'SUP-produksjonskapasitet | Fabrikk for oppblåsbare paddle boards'
+  description: 'SUP-produksjonskapasitet i Qingdao: egen skrogkonstruksjon (0.1 mm), bearbeiding av drop-stitch, høyfrekvenssveising, trykking, festemidler, 100-punkts kvalitetskontroll og 120 000+ brett per år.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'SUP-produksjonskapasitet'
+    - 'kapasitet fabrikk oppblåsbare paddle boards'
+    - 'SUP-produksjon på egen hånd'
+    - 'produksjonskapasitet paddle boards'
+    - 'SUP-fabrikk Qingdao'
+
+hero:
+  tagline: Produksjonskapasitet
+  title: 'SUP-produksjonskapasitet'
+  subtitle: 'Hver prosess — skrogkonstruksjon, bearbeiding av drop-stitch-kjernen, høyfrekvenssveising, trykking, festemidler, montering, testing og emballasje — skjer internt i fabrikken vår på 12 500 m² i Qingdao. Et ansvarlig team leder prosjektet ditt fra den første tegningen til den lastede containeren.'
+
+answer:
+  label: 'Kort svar'
+  text: 'SUP-produksjonen skjer helt internt i fabrikken vår i Qingdao: skrogdesign og dimensjonell konstruksjon med CNC-nøyaktighet på 0.1 mm; bearbeiding av drop-stitch-materiale og høyfrekvenssveising på 4 automatiserte linjer; grafisk trykking; stansing av EVA-deckpads; interne festemidler (+15–20 dager for nye former); montering etter en 100-punktsliste samt 24-timers trykk- og lufttetthetstesting ved 18.0 PSI med automatisk kassering ved fall over 0.50 PSI. Årskapasiteten er 120 000+ brett (rundt 10 000/måned) i 4 spesialverksteder med 350+ medarbeidere, levert til over 50 land under merket ditt.'
+  verified: 'September 2026'
+
+capabilities:
+  tagline: Interne kapasiteter
+  title: 'Kapasitetsgrupper — alt utført på egen hånd'
+  subtitle: 'Hver kapasitet utføres direkte i fabrikken: kortere gjennomstrømningstider, kvalitetskontroll i hver fase og spesifikasjonen deres på ett sted.'
+  groups:
+    - title: Design og konstruksjon
+      items:
+        - 'Skrogdesign og dimensjonell konstruksjon'
+        - 'CNC-nøyaktighet på 0.1 mm'
+        - 'Festemidler og bygging av tilpassede formverktøy'
+        - 'Grafikk for emballasje og salg'
+    - title: Produksjon
+      items:
+        - 'Bearbeiding av drop-stitch-kjernen'
+        - 'Høyfrekvenssveising med 15 kW (4 automatiserte linjer)'
+        - 'Grafisk trykking og design'
+        - 'Stansing av EVA-deckpads'
+        - 'Montering og ferdigstilling av brettene'
+        - 'Sammenstilling av tilbehøret'
+    - title: Kvalitet og samsvar
+      items:
+        - '100-punkts montasjeliste'
+        - '18.0 PSI · 24-timers trykkholding'
+        - 'Stikkprøve i henhold til ISO 2859-1 Nivå II'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - 'Partisporbarhet i 10 år'
+    - title: Service og logistikk
+      items:
+        - 'Prototypeprøver på 7–12 dager'
+        - 'Produksjon på 25–35 dager'
+        - 'Tilpassede former +15–20 dager'
+        - 'FOB Qingdao · CIF · DDP til over 50 land'
+
+table:
+  headers:
+    capability: Kapasitet
+    in_house: Intern
+    standard: Hva standarden omfatter
+  rows:
+    - capability: 'Skrogdesign og dimensjonell konstruksjon'
+      in_house: 'Ja — intern teknisk avdeling'
+      standard: 'Designet og validert før fastsettelse; CNC-nøyaktighet på 0.1 mm for former og kapping'
+    - capability: 'Bearbeiding av drop-stitch-materiale'
+      in_house: 'Ja — intern kjerneproduksjon'
+      standard: 'Drop-stitch-tetthetsområde 12–15 PSI, nesting optimalisert per brettmål'
+    - capability: 'Høyfrekvenssveising og sømkonstruksjon'
+      in_house: 'Ja — internt'
+      standard: 'Høyfrekvenssveisekapasitet på 15 kW på 4 automatiserte produksjonslinjer'
+    - capability: 'Grafisk trykking og design'
+      in_house: 'Ja — intern design og trykking'
+      standard: 'Ubegrenset antall farger, sømløs grafikk, grafisk støtte fra fabrikkteamet'
+    - capability: 'Stansing av sklisikre EVA-deckpads'
+      in_house: 'Ja — internt'
+      standard: 'Padspecifisjon 45–55 Shore C, deckpads og logoer formtilpasset'
+    - capability: 'Tilpassede former og festemidler'
+      in_house: 'Ja — intern formverksted'
+      standard: 'Nye former krever 15–20 dager; formene forblir fabrikkens eiendom med mindre annet avtales'
+    - capability: 'Montering og ferdigstilling av brettene'
+      in_house: 'Ja — internt'
+      standard: '100-punkts montasjeliste; håndtak, D-ringer og tilbehør montert i henhold til spesifikasjonen'
+    - capability: 'Trykk- og belastningstesting'
+      in_house: 'Ja — intern testbenk'
+      standard: '18.0 PSI trykkholding i 24 timer, automatisk kassering ved fall over 0.50 PSI'
+    - capability: 'Sluttinspeksjon og sporbarhet'
+      in_house: 'Ja — internt kvalitetsteam'
+      standard: 'Stikkprøve i henhold til ISO 2859-1 Nivå II; ERP-partisporbarhet i 10 år per serienummer'
+    - capability: 'Emballasje og eksport'
+      in_house: 'Intern montering + sertifisert logistikk'
+      standard: 'Kommersielle emballasjer, eksport-sjøemballasje og serienummeretiketter under merket ditt'
+
+faq_section:
+  tagline: FAQ
+  title: Spørsmål om SUP-produksjonskapasiteten
+  questions:
+    - q: Hvilke produksjonsprosesser skjer internt?
+      a: 'Alle kjerneprosesser skjer internt: skrogkonstruksjon, bearbeiding av drop-stitch-kjernen, høyfrekvenssveising, trykking, EVA-stansing, montering, testing og emballasje. Tilbehør og enkelte råvarer kommer fra sertifiserte leverandører; den endelige sammensetningen av settet skjer internt for fullstendig sporbarhet.'
+    - q: Hva er produksjonskapasiteten deres?
+      a: '120 000+ brett per år (rundt 10 000/måned) på 4 automatiserte linjer og 4 spesialverksteder på 12 500 m² med over 350 medarbeidere.'
+    - q: Hvilken minste bestillingsmengde gjelder for disse kapasitetene?
+      a: 'Standardvolumet starter fra 90–100+ enheter per godkjent konfigurasjon (en drop-stitch-rull på 150 m); pilotpartier starter fra 20–50 enheter på eksisterende plattformer; bestillinger med kun logo starter fra 5–10 enheter.'
+    - q: Hvilke leveringstider bør vi regne med?
+      a: 'Prototypeprøver på 7–12 dager; produksjon 25–35 dager etter bekreftet bestilling og depositum; fastsettelse av tilpassede former legger til 15–20 dager.'
+    - q: Hvordan påvirker kapasitetene kvaliteten?
+      a: 'Hver prosess mater kvalitetssystemets 7 faser: 100-punkts montasjeliste, 18.0 PSI trykkholding i 24 timer med automatisk kassering ved fall over 0.50 PSI, stikkprøve i henhold til ISO 2859-1 Nivå II og ERP-partisporbarhet i 10 år.'
+
+cta:
+  title: 'Sjekk hvilke kapasiteter som passer prosjektet ditt'
+  subtitle: 'Send produktforespørselen din — teknisk gjennomgang og et passende tilbud innen én arbeidsdag.'
+  actions:
+    - variant: primary
+      text: Be om et produksjonstilbud
+      href: /no/contact#custom-oem
+    - text: Besøk fabrikken
+      href: /no/factory
+    - text: Fabrikkens produksjonsprosess
+      href: /no/factory/process
+    - text: Fabrikkens kapasitet og leveringstider
+      href: /no/factory/capacity
+    - text: Kvalitet og testing
+      href: /no/quality
+    - text: Proof Center — bevis fra fabrikken
+      href: /no/proof-center
+    - text: OEM- og ODM-produksjon
+      href: /no/oem-manufacturing

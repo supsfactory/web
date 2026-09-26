@@ -1,0 +1,477 @@
+meta:
+  title: 'Kvalitetsinspeksjonsstandarder for skreddersydde SUP-brett | OEM-fabrikk | iSupfactory'
+  description: 'OEM-produksjon av oppblåsbare SUP-brett: inspeksjon av materiale, produksjon, testing, emballasje og sporbarhet, med kontrollert lufttetthetsreparasjon etter ISO 9001.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'produsent oppblåsbare sup'
+    - 'sup oem fabrikk'
+    - 'produsent skreddersydde paddle boards'
+    - 'sup kvalitetsinspeksjon'
+    - 'sup produksjonsprosess'
+    - 'sup private label produsent'
+
+hero:
+  tagline: Inspeksjon og kvalitetssikring
+  title: Kvalitetskontroll for skreddersydde oppblåsbare SUP-brett
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD. anvender prosjektspesifikke inspeksjonskriterier på all materialbearbeiding, brettkonstruksjon, sluttoppumpingsstest, emballasje og frigjøring før levering. Kvalitetskravene håndteres dynamisk ut fra det godkjente prøveeksemplaret, den tekniske spesifikasjonen, grafikkprøven, stykklista (BOM) og de emballasjestandardene som er avtalt for hver OEM/ODM-bestilling.'
+  actions:
+    - text: Last ned kvalitetssikringspakken
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+    - text: Last ned et eksempel på kvalitetspakken (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Be om OEM-kvalitetsinformasjon
+      href: /contact
+
+answer:
+  label: 'Tydelig svar'
+  text: 'QINGDAO VATRAD GROUP.,LTD. kontrollerer kvaliteten på oppblåsbare SUP-brett via et verifiseringssystem i fire faser: inngående varekontroll (IQC), kvalitetskontroll under prosessen (IPQC), sluttkontroll av brettet og oppumpingsstest (FQC) samt avsendelseskontroll av emballasje og levering (OQC). Hver bestilling verifiseres mot det godkjente prøveeksemplaret, den tekniske spesifikasjonen, grafikkprøven, BOM og emballasjestandardene — inkludert lufttetthetskontroll, visuelle og målekontroller, bekreftelse av tilbehør og sporbarhet per parti. Enheter som ikke oppfyller akseptkriteriene, sperres eller settes i karantene på kontrollert vis, omtillverkes bare etter godkjente instruksjoner og reverifiseres før den autoriserte frigjøringen.'
+  verified: 'September 2026'
+
+intro: 'Kvalitetssystemet vårt er bygget for OEM/ODM-prosjekter: inspeksjonskriteriene defineres, dokumenteres og følges opp av produksjons- og kvalitetsteamet per bestilling, fra varens inngang til emballasjen. Slik forblir kvalitetsforventningen i tråd mellom fabrikk og merket ditt, fra det første prøveeksemplaret til fulle containerleveranser.'
+
+scope_note:
+  tagline: Omfang
+  title: Prosjektspesifikke inspeksjonskriterier
+  body: |
+    Kvalitetsspesifikasjoner kan variere avhengig av brettets konstruksjon (f.eks. ett/to lag, drop-stitch-stoff, limt kant), det tiltenkte bruksområdet, regelverket i målmarkedet og de kundengodkjente parameterne. Den endelige frigjøringen bygger strengt på de dokumenterte inspeksjonskriteriene som er avtalt for bestillingen.
+
+stages:
+  tagline: Kvalitetsramme
+  title: Verifiseringssystemet vårt i fire faser
+  subtitle: En komplett QC-syklus fra råvarens inngang til frigjøring før levering.
+  steps:
+    - title: '1. Inngående varekontroll (IQC)'
+      desc: 'Kjernematerialet og de innkjøpte komponentene verifiseres mot de godkjente spesifikasjonene og referanseprøvene før de tillates på produksjonslinjen. Drop-stitch-materiale og PVC kontrolleres for materialidentifisering, leverandørparti, vekt/tetthet, tykkelse, fargeoverensstemmelse med de godkjente prøvene og overflatefeil. EVA-gripeputer kontrolleres for mønster, farge, tykkelse, skjærnøyaktighet og limkompatibilitet. Ventiler og koblinger går gjennom funksjons-, gjenge-, tetningsintegritets- og koblingstester. Tilbehør og emballasje (pumper, årer, finner, leaser, vesker, kartonger) sammenlignes for antall, farge, merking, strekkodenøyaktighet og grafikkversjon mot den godkjente BOM-en.'
+    - title: '2. Kvalitetskontroll under prosessen (IPQC)'
+      desc: 'De kritiske produksjonsfasene inspiseres for å finne avvik før brettene når stasjonene lenger ned i flyten. Kapping og trykk verifiseres for panelmål, grafikkplassering, speilvendt orientering og kantenhet mot de godkjente tekniske tegningene. Brettmontering og liming av kanten kontrolleres for skrogsymmetri, kontinuitet i sømoverlappen og fravær av hulrommer eller luftbobler langs de tungt belastede sonene. Festing av ventiler og tilbehør, grafikken og merkingen verifiseres for plassering, orientering, limdekning, logoens konturer og grafikkversjon.'
+    - title: '3. Sluttkontroll av brett og oppumpingsstest (FQC)'
+      desc: 'De ferdige brettene gjennomgår bindende fysiske og strukturelle tester før frigjøring til emballasje. Brettene pumpes opp og holdes ved det prosjektgodkjente testtrykket for å verifisere strukturell stivhet og trykkstabilitet. Lufttetthetskontrollene dekker ventilhuset, kantsømmene, baug- og hekksømmene og spenningssømmene med kalibrerte lekkasjedeteksjonsmetoder (trykktapsovervåking eller bobletest). Den estetiske kontrollen og målekontrollen verifiserer mål, rockerprofil og justeringen av EVA-puten (toleranse ±2 mm) under standardbelysning.'
+    - title: '4. Emballasje og avsendelseskontroll (OQC)'
+      desc: 'Den komplette kontrollen før levering sikrer en nøyaktig SKU-konfigurasjon og leveransemerking uten avvik. Kontrollen av settets fullstendighet sammenligner brett, finne, leash, åre, pumpe, veske, reparasjonssett og brukerhåndbok mot bestillingens BOM. Emballasje- og strekkodekontrollene verifiserer merkingen på kartongen, SKU-etikettene, strekkodens lesbarhet, brukerhåndbokens språk og kartongens strukturelle integritet. Bestillingen frigjøres først etter den endelige emballasjekontrollen, signert av autorisert kvalitetspersonell.'
+
+inspection_points:
+  tagline: Inspeksjonspunkter
+  title: Viktigste inspeksjonskontrollpunkter
+  subtitle: Hvert kontrollpunkt utføres mot dokumenterte, per bestilling avtalte akseptkriterier.
+  features:
+    - icon: A
+      icon_bg: blue
+      title: Lufttetthetskontroll
+      desc: 'De ferdige brettene pumpes opp til det godkjente testtrykket og kontrolleres for trykkholding, ventilbasens tilstand, kantsømmene, baug- og hekksonene samt de tungt belastede punktene. Der inspeksjonsprosedyren foreskriver det, undersøkes mistenkte lekkasjesoner med godkjente deteksjonsmetoder.'
+    - icon: B
+      icon_bg: green
+      title: Visuell og målekontroll
+      desc: 'Brettene kontrolleres under egnet lys for materialoverflatens tilstand, trykkfeil, fargeavvik, EVA-justering, folder, riper, forurensninger og stableopptak. Hovedmålene og plasseringen av tilbehøret verifiseres mot de godkjente tegningene eller spesifikasjonene.'
+    - icon: C
+      icon_bg: purple
+      title: Kontroll av tilbehør og emballasje
+      desc: 'Før leveringen verifiseres den komplette produktkonfigurasjonen: brettmodell, finnesystem, åre, pumpe, leash, transportveske, reparasjonssett, brukerhåndbok og skreddersydd tilbehør — hver del sammenlignet mot det godkjente prøveeksemplaret, tegningene og BOM-en.'
+    - icon: D
+      icon_bg: orange
+      title: Emballasje og frigjøring før levering
+      desc: 'De emballerte enhetene kontrolleres for SKU-konfigurasjon, tilbehørens fullstendighet, produktetiketter, strekkodeinformasjon, brukerhåndbokversjon, kartongmerking, emballasjeantall og kartongens tilstand. Frigjøring før levering autoriseres først når alle inspeksjons- og emballasjekrav er oppfylt.'
+
+traceability_intro:
+  tagline: Sporbarhet per parti
+  title: Prosjekt- og partssporbarhetssystem
+  body: |
+    Hver skreddersydd SUP-bestilling håndteres under en enhetlig prosjektkode som binder sammen de tekniske spesifikasjonene, den godkjente BOM-en, grafikkrevisjonene, materialpartinummerene, emballasjereferansene og inspeksjonsregistrene. Produksjons- og inspeksjonsregistrene oppbevares per prosjekt og gjeldende produksjonsparti, og hvert parti kan spores tilbake til den godkjente produktspesifikasjonen, BOM-en, grafikken og emballasjereferansene.
+
+    Dette støtter en effektiv verifisering av produktkonfigurasjon, inspeksjonsstatus og berørt omfang når et kvalitetsspørsmål rapporteres — fra det ferdige produktet tilbake til originalregistrene via brettets eller kartongens identifisering.
+
+traceability_chain:
+  tagline: Sporbarhetskjeden
+  title: Fra prosjektkode til frigjøring før levering
+  subtitle: En kjede av kontrollerte referanser fra ordrebekreftelsen til den autoriserte leveransen.
+  steps:
+    - step: '01'
+      title: Prosjektkode
+      desc: Enhetlig prosjektreferanse som kobler hvert kontrollert dokument til bestillingen.
+    - step: '02'
+      title: Dokumentrevisjoner
+      desc: Gjeldende revisjonsnivåer for spesifikasjon, BOM, grafikk og emballasje — bare godkjente versjoner er gyldige for produksjon.
+    - step: '03'
+      title: Parti og materiale
+      desc: Material- og komponentpartiene registreres mot produksjonspartiet.
+    - step: '04'
+      title: Inspeksjonsregistre
+      desc: Resultater fra IQC-, prosess-, lufttetthets-, slutt- og emballasjeinspeksjon per parti.
+    - step: '05'
+      title: Emballasje og frigjøring
+      desc: Emballasjeparti, NCR-lukningsstatus og oversikt over den autoriserte frigjøringen før levering.
+
+traceability_sample:
+  tagline: Anonymisert eksempel
+  title: Sporbarhetskontrollregister (demo)
+  body: |
+    Demoverdiene er utelukkende illustrative — kundenavn, ordrenummer, skreddersydd grafikk, leverandørdata og kommersiell informasjon er fjernet for å beskytte konfidensialiteten.
+
+    - **Produsent:** QINGDAO VATRAD GROUP, LTD.
+    - **Prosjektkode:** DEMO-SUP-2026-01
+    - **SKU-referanse:** DEMO-TR-126
+    - **Produksjonsparti:** BATCH-AUG-01
+    - **Spesifikasjon / BOM / Grafikkrevisjon:** Rev B / Rev C / Rev B
+    - **Lufttetthetsregister:** GODKJENT — oppbevares per parti
+    - **Inspeksjonsstatus:** GODKJENT
+    - **Leveransestatus:** FRIGJORT
+
+quarantine_intro:
+  tagline: Avvikelseskontroll
+  title: Kontroll av ikke-samsvarlende produkter og karantene
+  body: |
+    Produkter eller komponenter som ikke oppfyller de definerte akseptkriteriene, merkes tydelig og sperres eller settes i karantene på kontrollert vis. De får ikke gå videre til neste produksjonsfase, emballasje eller levering før et autorisert vedtak er fattet. Omtillverkning skjer etter godkjente instruksjoner og er koblet til den aktuelle avvikelsesrapporten; omtillverkede enheter reverifiseres mot de gjeldende prosjektkravene før kvalitetsfrigjøringen.
+
+quarantine_flow:
+  tagline: Kontrollflyt i sju faser
+  title: Hva som skjer når et avvik oppdages
+  subtitle: Identifiser, sperr, korriger, verifiser — og frigjør eller kasser. Ikke-samsvarlende produkter går aldri tilbake til produksjon eller emballasje uten verifisering.
+  steps:
+    - step: '01'
+      title: Identifiser
+      desc: Avvikelsen registreres mot den berørte produktet, SKU-en, partiet eller prosessfasen.
+    - step: '02'
+      title: Merk
+      desc: De berørte enhetene merkes tydelig med kontrollerte statusetiketter — HOLD, i karantene eller kassert.
+    - step: '03'
+      title: Karantene
+      desc: Enhetene skilles ut i et fysisk kontrollert eller systemhåndtert karanteneområde for å hindre utilsiktet bruk eller levering.
+    - step: '04'
+      title: Vurder omfang
+      desc: Det berørte omfanget undersøkes per parti, prosessfase, materialparti og dokumentrevisjon.
+    - step: '05'
+      title: Omtillverk / bytt ut
+      desc: En korrigering er bare tillatt via et godkjent vedtak og en kontrollert arbeidsinstruksjon.
+    - step: '06'
+      title: Verifiser på nytt
+      desc: De korrigerte enhetene reverifiseres mot de gjeldende akseptkriteriene før frigjøringen.
+    - step: '07'
+      title: Frigjør eller kasser
+      desc: Bare autoriserte og samsvarende produkter når emballasjen eller frigjøringen før levering.
+
+quarantine_evidence:
+  tagline: I produksjonshallen
+  title: Kontroll og karantene i praksis
+  subtitle: Bildene fra verkstedet vårt i Qingdao viser hvordan statuskontrollen og inspeksjonsregistrene anvendes på stedet.
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Oppblåsbare SUP-brett pumpet opp i fabrikkens lufttetthetstestområde, overvåkt med digitale trykkinstrumenter
+      title: Lufttetthetstestområde
+      desc: 'De oppumpede brettene oppbevares i QC-testområdet under industriell belysning; de digitale trykkinstrumentene overvåker det godkjente trykkholdingstesten på ventilbasen, kantsømmene, baug og hekk samt de tungt belastede punktene. Registrene oppbevares per parti og kobles til sluttkontrollen.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Kvalitetskontrollskjemaer og kontrollerte HOLD-statusetiketter ved fabrikkens inspeksjonsstasjon
+      title: Sperre- og karantenestasjon
+      desc: 'Inspeksjonsstasjon med QC-kontrollskjemaer og statusmerking. Hver enhet som ikke oppfyller akseptkriteriene, merkes, protokollføres og settes i karantene — den får ikke nå emballasjen før et autorisert vedtak og en bindende gjentakelsesinspeksjon.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: En QC-tekniker utfører kontrollert lufttetthetsreparasjon på en oppblåsbar SUP ved fabrikkens reparasjonsstasjon
+      title: Kontrollert reparasjonsstasjon
+      desc: 'Lufttetthetsreparasjonen utføres på en egen stasjon etter et godkjent metodekort: feilen merkes, brettet forblir i HOLD og returnerer etter nødvendig herdetid til testområdet for gjentatt verifisering mot de opprinnelige akseptkriteriene.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+      alt: Demonstrasjon i verkstedet av kontrollert karanteneseparering i fabrikken i Qingdao
+      title: Demonstrasjon av karanteneområdet
+      desc: 'Demonstrasjonsbilde fra verkstedet som viser hvordan den kontrollerte karanteneseparasjonen fungerer på stedet: de skilte enhetene står værende under statuskontroll til et autorisert vedtak er fattet.'
+
+rework_intro:
+  tagline: Styring av omtillverkning
+  title: Kontrollert håndtering av lufttetthetsavvik og omtillverkning
+  body: |
+    Hos QINGDAO VATRAD GROUP.,LTD. defineres omtillverkning strengt som gjenopprettelse av en ikke-samsvarende enhet til full samsvar med den opprinnelige tekniske spesifikasjonen — ikke som en rask løsning. Hvert brett med et lufttetthetsavvik sperres på kontrollert vis og kobles til en avvikelsesrapport (NCR) før eventuell videre bearbeiding; lekkasjens kilde lokaliseres og registreres med den godkjente diagnostiske metoden.
+
+    Omtillverkning kan bare skje hvis feilen er innenfor det godkjente omtillverkningsomfanget, og en autorisert metode er tilgjengelig. Omtillverkningsinstruksjonen identifiserer produktet, partiet, feilens plassering, det godkjente materialet, metoden, de nødvendige forholdene og omfanget av den gjentatte verifiseringen. Etter den nødvendige herde- eller stabiliseringsfasen reverifiseres brettet mot de samme gjeldende akseptkriteriene som et samsvarende brett — omtillverkning senker aldri akseptnivået. Feiler den gjentatte verifiseringen, kreves et nytt konstruksjons- og kvalitetsvedtak; gjentatt omtillverkning er ikke tillatt uten dokumentert frigjøring.
+
+rework_decision:
+  tagline: Interaktivt flyt
+  title: Beslutningsflyt for omtillverkning — klikk på hver node
+  subtitle: Følg hvordan et lufttetthetsavvik håndteres fra deteksjon til frigjøring eller destruksjon. Klikk på en node for å utfolde kontrollkravene i det trinnet.
+  nodes:
+    - id: detect
+      type: start
+      label: Lekkasje oppdaget
+      detail: 'Under inspeksjonen konorteres et lufttetthetsavvik — en feil i trykkholdingen, en synlig lekkasje eller en relatert feil i luftsystemet.'
+    - id: hold
+      type: step
+      label: Stopp linjen · HOLD-etikett · NCR
+      detail: 'Bearbeidingen stoppes. Brett-ID, produktkode, parti, arbeidsstasjon, dato og inspektør registreres; en HOLD-/karanteneetikett settes på, og et NCR åpnes mot den gjeldende spesifikasjonsrevisjonen.'
+    - id: locate
+      type: step
+      label: Lokaliser lekkasjens kilde
+      detail: 'Brettet pumpes opp til det prosjektgodkjente diagnostiske trykket, og kilden lokaliseres med en godkjent metode — trykkholding, kalibrert bobletest, akustisk eller lekkasjedeteksjonsapparat.'
+    - id: classify
+      type: step
+      label: Klassifiser feilen (A–G)'
+      detail: 'Feilen klassifiseres mot frigjøringsmatrisen: A ventilgrensesnitt, B ventilsetesøm, C overflatisk stinghull, D lokal kantsøm, E utbredt kant skade, F gjentakende lekkasje, G strukturell skade.'
+    - id: authorize
+      type: decision
+      label: Omtillverkning autorisert?
+      yes: rework
+      no: escalate
+      detail: 'QC bekrefter feilkategorien, og konstruksjon kontrollerer om brettet kan føres tilbake til originalspesifikasjonen. Autorisasjonen dokumenterer metodekortet, materialet, forholdene og omfanget av den gjentatte verifiseringen — eller fører til utskifting, kassering, destruksjon eller en avvikstillatelse til kunden.'
+    - id: rework
+      type: step
+      label: Kontrollert omtillverkning
+      detail: 'Utføres bare innenfor den godkjente feilgrensen med det godkjente metodekortet, materialpartiet og de godkjente verktøyene — aldri ved å endre mål, konstruksjon, grafikk, tilbehør eller emballasjekrav.'
+    - id: cure
+      type: step
+      label: Herding og stabilisering
+      detail: 'Brettet forblir i HOLD under herde- og stabiliseringsfasen som defineres av den godkjente material- og prosessinstruksjonen, og får deretter en visuell og bearbeidingskontroll før omtillverkningen.'
+    - id: reinspect
+      type: decision
+      label: Gjentatt verifisering godkjent?
+      yes: release
+      no: escalate
+      detail: 'Brettet pumpes opp til det prosjektgodkjente reverifiseringstrykket, og den opprinnelige feilen sammen med alle potensielt påvirkede egenskaper verifiseres på nytt — lekkasjepunkt, ventil, kant, sømmer, tungt belastede soner, tilbehør og utseende. Omtillverkning senker aldri akseptnivået.'
+    - id: release
+      type: release
+      label: Kvalitetsfrigjøring
+      detail: 'Kvalitet kontrollerer det lukkede NCR-et, omtillverkningsregistret og resultatet av den gjentatte verifiseringen og autoriserer frigjøringen. Ingen omtillverket brett pakkes eller sendes uten autorisert kvalitetsfrigjøring.'
+    - id: escalate
+      type: escalate
+      label: Eskalering — bytt ut / ødelegg / avvikstillatelse
+      detail: 'Ingen gjentatt omtillverkning uten dokumentert frigjøring. Brettet byttes ut, kasseres, ødelegges, eller kunden tilbys en skriftlig avvikstillatelse når originalspesifikasjonen ikke kan gjenopprettes.'
+
+defect_matrix:
+  tagline: Feilklassifisering
+  title: Klassifisering av lufttetthetsfeil og frigjøringsmatrise
+  subtitle: 'Ikke alle lekkasjer omtillverkes — hver feil klassifiseres, og vedtaket frigjøres på riktig nivå, fra QC-inspektøren til fabrikksjefen.'
+  headers:
+    category: Feilkategori
+    area: Typisk område
+    eligibility: Egnethet for omtillverkning
+    approval: Nødvendig frigjøring
+  rows:
+    - category: 'Klasse A — Ventilgrensesnitt'
+      area: 'Ventilkjerne, korklukking, forsegling, pumpegrensesnitt'
+      eligibility: 'Standard omtillverkning autorisert'
+      approval: 'QC-inspektør'
+    - category: 'Klasse B — Ventilbasens søm'
+      area: 'Mikrolekkasje langs ventilens kant'
+      eligibility: 'Omtillverkning vurderes etter det godkjente metodekortet'
+      approval: 'QC + Konstruksjon'
+    - category: 'Klasse C — Overflatisk stinghull'
+      area: 'Lokalt mikrostinghull på en ubelastet flate'
+      eligibility: 'Bare autorisert dersom det oppfyller kundens spesifikasjoner'
+      approval: 'QC + Konstruksjon'
+    - category: 'Klasse D — Lokal kantsøm'
+      area: 'Lokal lekkasje i overlappen på kantbåndet'
+      eligibility: 'Høy risiko; krever et strengt konstruksjonsvedtak'
+      approval: 'Konstruksjon + QA-sjef'
+    - category: 'Klasse E — Utbredt kantskade'
+      area: 'Kontinuerlig sømfeil i tungt belastede soner'
+      eligibility: 'Standard omtillverkning ikke autorisert — utskifting eller rotorsaksanalyse'
+      approval: 'QA-sjef + avvikstillatelse fra kunden'
+    - category: 'Klasse F — Gjentakende lekkasje'
+      area: 'Lekkasje som ikke kan lokaliseres eller gjentas ved ny prøve'
+      eligibility: 'Ingen gjentatt omtillverkning; utskifting, destruksjon eller teknisk rotorsaksanalyse'
+      approval: 'Senior QA / Konstruksjon'
+    - category: 'Klasse G — Strukturell skade'
+      area: 'Materialskade, delaminering, deformering av brettet'
+      eligibility: 'Frigjøring for omtillverkning ikke autorisert — utskifting, destruksjon eller skriftlig avvikstillatelse fra kunden'
+      approval: 'Kvalitetssjef + kundens frigjøring'
+
+rework_flow:
+  tagline: Lukket syklus i sju faser
+  title: Kontrollert omtillverkningsflyt — fra deteksjon til frigjøring eller destruksjon
+  subtitle: 'Hver lufttetthetsreparasjon følger den samme kontrollerte syklusen: oppdag, sett i karantene, diagnostiser, autoriser, omtillverk, verifiser på nytt, frigjør.'
+  steps:
+    - step: '01'
+      title: Deteksjon, linjestopp og karantene
+      desc: 'Bearbeidingen av det berørte brettet stoppes umiddelbart. Brett-ID, produktkode, parti, arbeidsstasjon, dato og inspektør registreres, en HOLD-/karanteneetikett settes på, og et NCR åpnes mot den gjeldende spesifikasjonsrevisjonen.'
+    - step: '02'
+      title: Systematisk lekkasjediagnostikk
+      desc: 'Brettet pumpes opp til det prosjektgodkjente diagnostiske trykket, og lekkasjens kilde lokaliseres med en godkjent metode — trykkholding, kalibrert bobletest, akustisk eller lekkasjedeteksjonsapparat. Den mistenkte punkten merkes uten å skade brettet.'
+    - step: '03'
+      title: Konstruksjonsvedtak og autorisasjon
+      desc: 'QC bekrefter feilkategorien, og konstruksjon kontrollerer om brettet kan føres tilbake til originalspesifikasjonen. En omtillverkningsautorisasjon med henvisning til NCR dokumenterer den godkjente metoden, materialet, forholdene og omfanget av den gjentatte verifiseringen — eller foreskriver utskifting, kassering, destruksjon eller avvikstillatelse til kunden.'
+    - step: '04'
+      title: Kontrollert utførelse av omtillverkningen
+      desc: 'Omtillverkningen utføres bare innenfor den godkjente feilgrensen med det godkjente metodekortet, materialpartiet og de godkjente verktøyene. Brettets mål, konstruksjon, grafikk, tilbehørskonfigurasjon og emballasjekrav endres aldri.'
+    - step: '05'
+      title: Herding, stabilisering og forkontroll
+      desc: 'Det omtillverkede brettet forblir i HOLD under herde- og stabiliseringsfasen som defineres av den godkjente material- og prosessinstruksjonen, og får en visuell og bearbeidingskontroll før den gjentatte verifiseringen.'
+    - step: '06'
+      title: Gjentatt verifisering og prøvetaking
+      desc: 'Brettet pumpes opp til det prosjektgodkjente reverifiseringstrykket, og den opprinnelige feilen sammen med alle potensielt påvirkede egenskaper verifiseres på nytt: lekkasjepunktet og omgivelsene, ventilen, kanten, sømmene, de tungt belastede sonene, tilbehøret og utseendet. Omtillverkning senker aldri akseptnivået.'
+    - step: '07'
+      title: QA-frigjøring eller sluttvedtak
+      desc: 'Kvalitet kontrollerer det lukkede NCR-et, omtillverkningsregistret og resultatet av den gjentatte verifiseringen og autoriserer deretter frigjøringen — eller eskalerer til utskifting, kassering, destruksjon eller avvikstillatelse til kunden. Ingen omtillverket brett pakkes eller sendes uten autorisert kvalitetsfrigjøring.'
+
+quality_safeguards:
+  tagline: Kvalitetssikringer
+  title: Feilforebyggende regler som beskytter merket ditt
+  subtitle: 'Strenge kontroller som hindrer ukontrollerte reparasjonssykluser — én dokumentert omtillverkning per feil, alarmgrenser per parti, kalibrerte måleinstrumenter og kontrollerte testforhold.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Én omtillverkning per feil
+      desc: 'En enkelt punkt kan omtillverkes én gang under en autorisert instruksjon. Feiler den gjentatte verifiseringen, eskaleres brettet til utskifting, kassering, destruksjon eller avvikstillatelse til kunden — gjentatt omtillverkning uten dokumentert frigjøring er ikke tillatt.'
+    - icon: 2
+      icon_bg: green
+      title: Partyalarm og linjestopp
+      desc: 'Når avviket i et produksjonsparti overstiger terskelen som konstruksjonen har fastsatt, stoppes linjen, og konstruksjonen undersøker årsaken — materialparti, prosessforhold og registre — før produksjonen gjenopptas.'
+    - icon: 3
+      icon_bg: purple
+      title: Kalibrerte måleinstrumenter
+      desc: 'Trykkinstrumentene, de digitale manometrene og tidtakerne for lufttetthetstestene verifiseres og kalibreres av eksterne laboratorier innen gyldighetstiden; kalibreringsstatus er synlig i inspeksjonsområdet.'
+    - icon: 4
+      icon_bg: orange
+      title: Kontrollerte testforhold
+      desc: 'Lufttetthets- og herdeområdene oppbevares i kontrollert miljø slik at resultatene ikke påvirkes av temperatursvingninger mellom dag og natt.'
+
+rework_boundaries:
+  tagline: Omfang og grenser
+  title: Hva dette systemet ikke dekker
+  body: |
+    Omtillverkningskontrollsystemet anvendes på ferdige eller under bearbeiding pågående oppblåsbare SUP-brett der luftlekkasje, feil i trykkholdingen eller relaterte feil i luftsystemet oppdages før frigjøring før levering. Det autoriserer ingen endringer i den godkjente konstruksjonen, materialet, grafikken, produktkonfigurasjonen eller kundekravene og dekker ikke:
+
+    - Produkter som allerede er sendt, eller som befinner seg i kundenes systemer.
+    - Strukturell skade eller deformering av brettet som ikke er vurdert av konstruksjonen.
+    - Utbredde kant- eller sømfeil, skader på kjernematerialet eller feil som kan true sikkerheten.
+    - Prosjekter der omtillverkning ikke er tillatt: kundengodkjente prøver, sertifiserings- eller testenheter.
+    - Prosjekter med kundens egne prosesser, spesielle materialer eller særskilte reparasjonskrav.
+    - Gjentakende lekkasjer som ikke kan lokaliseres, eller brett som gjentas etter omtillverkning.
+
+    Ethvert avvik fra kundens spesifikasjoner krever en dokumentert teknisk verifisering og, der dette gjelder, kundens skriftlige frigjøring. Brett som ikke kan føres tilbake til sin originalspesifikasjon, frigjøres bare under en uttrykkelig avvikstillatelse fra kunden — aldri av produksjonen alene.
+
+method_cards:
+  tagline: Metodekortsystem
+  title: Indeks over kontrollerte omtillverkningsmetodekort
+  subtitle: 'Den generelle instruksjonen styrer prosessen; metodekortene styrer utførelsen. Omtillverkningsinstruksjonen (WI-QC-AT-001) viser til metodekortene MC-RW-01 til MC-RW-06, samt MC-RW-00 for den bindende destruksjonen og kasseringen.'
+  headers:
+    code: Metodekort
+    defect: Feilklasse
+    scope: Anvendelsesområde
+    controls: Viktigste konstruksjonskontroller
+    approval: Signaturmyndighet
+  rows:
+    - code: MC-RW-01
+      defect: Klasse A (ventilgrensesnitt)
+      scope: 'Vedlikehold av ventilkjernen, rengjøring av forseglingen og remontasje'
+      controls: 'Kalibrert momentnøkkel, ren forseglingsflate, ingen skade på ventilgjengene'
+      approval: 'QC-inspektør'
+    - code: MC-RW-02
+      defect: Klasse B (ventilkrets)
+      scope: 'Forsegling av ventilens bunnplate og kontrollert tiltrekking'
+      controls: 'Kontrollert overflatebehandling, godkjent limmateriale, sirkulært trykkverktøy'
+      approval: 'QC + Konstruksjon'
+    - code: MC-RW-03
+      defect: Klasse C (overflatisk mikrolekkasje)
+      scope: 'Forsegling av ikke-strukturelle stinghull'
+      controls: 'Godkjent tokomponentlim, ingen utslag på grafikk eller EVA'
+      approval: 'QC + Konstruksjon'
+    - code: MC-RW-04
+      defect: Klasse D (lokal kantsøm)
+      scope: 'Omliming av lokale overlappssømmer i kanten'
+      controls: 'Temperaturkontrollert varmeaktivering, trykkvalg, anti-krøllverktøy'
+      approval: 'Konstruksjon + QA-sjef'
+    - code: MC-RW-05
+      defect: Klasse B/C (tilbehørskant)
+      scope: 'Reparasjon av finneboks og forsegling av tilbehørens monteringsbase'
+      controls: 'Overflateprimer for vedheft, formstøpt klemblokk, definert holdetid'
+      approval: 'QC + Konstruksjon'
+    - code: MC-RW-06
+      defect: Klasse D (baug-/hekksøm)
+      scope: 'Tiltak på tungt belastede bøyde sømmer'
+      controls: 'Godkjent limmateriale med høy skjærholdfasthet, forlenget herdetid før ny prøve'
+      approval: 'Sjefingeniør'
+    - code: MC-RW-00
+      defect: Klasse E/F/G (kritisk / brudd)
+      scope: 'Bindende destruksjon og fysisk ødeleggelse'
+      controls: 'Fysisk kapping for å hindre videre omsetning, destruksjonsprotokoll, tverrfunksjonell rotorsaksanalyse'
+      approval: 'Fabrikkdirektør'
+
+inspector_friendly:
+  tagline: Tredjepartsinspeksjon
+  title: Inspektørvennlig protokoll
+  body: |
+    Vi tilbyr et eget inspeksjonsområde med kalibrerte trykkinstrumenter, standardiserte lysbord for verifisering av sømmer og grafikk og utfylte inspeksjonsbriefinger, slik at eksterne organisasjoner (SGS, BV, Intertek, QIMA) effektivt kan utføre inspeksjonen før levering — det sparer inspeksjonskostnadene dine.
+
+    Hver briefing oppsummerer de gjeldende dokumentrevisjonene, referansen til det godkjente prøveeksemplaret, de kritiske kvalitetsrelevante kontrollene, den avtalte prøvenivåen, funksjonstestene samt emballasje- og strekkodekravene for PO-en. Spesifiserte antall, kvalitet, emballasje og vesentlige sikkerhetsaspekter verifiseres mot de godkjente prosjektreferansene — intet hastig dokumentsøk på stedet.
+
+document_pack:
+  tagline: Kvalitetsdokumentasjonspakke
+  title: Last ned eksempel på kvalitetspakke og protokollmaler
+  subtitle: 'Standardiserte og kontrollerte maler for OEM/ODM-prosjekter — strukturert som dokumentregister 00–15 (prosjektindeks, godkjent spesifikasjon, BOM, grafikk- og emballasjereferanser, QIP, inspeksjonsregistre, NCR, endringskontroll, briefing for tredjepart, frigjøringsoversikt).'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: Kvalitetsdokumentasjonspakke (PDF)
+      desc: 'Fullstendig kontrollert dokumentstruktur 00–15: prosjektindeks, spesifikasjon, BOM, grafikk- og emballasjereferanser, kvalitetsinspeksjonsplan (QIP), inspeksjonsregistre, NCR, endringskontroll, briefing for tredjepart og oversikt over avsendelseskontrollen.'
+      link: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link_label: Last ned PDF
+    - icon: T
+      icon_bg: green
+      title: Inspektjonsbriefing for tredjepart (PDF)
+      desc: 'Briefing på én side for SGS / BV / Intertek / QIMA-inspektører: ordreantall, AQL-prøvenivå, gjeldende revisjoner og kritiske kvalitetsrelevante kontroller, inkludert verifisering av lufttetthetsregisteret, trykktesten, settets fullstendighet, strekkodeskanning og falltest av kartongen.'
+      link: 'https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link_label: Last ned PDF
+    - icon: C
+      icon_bg: purple
+      title: Endringskontrollprotokoll (PDF)
+      desc: 'Endringskontrollprotokoll for grafikkrevisjoner, kundengodkjent BOM og merking på kartonger — med endringsoversikt, begrunnelse, konsekvensvurdering, status for kundens frigjøring, effektivt parti og tilbakekalling av foreldete dokumenter.'
+      link: 'https://assets.isupfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link_label: Last ned PDF
+    - icon: R
+      icon_bg: orange
+      title: Oversikt over avsendelseskontroll (PDF)
+      desc: 'Frigjøringssignatur på én side: verifisering av kvalitetsportene (IQC, IPQC, lufttetthet, sluttkontroll, emballasje), åpen NCR-status og det autoriserte frigjøringsvedtaket, signert av Kvalitet og Drift.'
+      link: 'https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link_label: Last ned PDF
+    - icon: W
+      icon_bg: blue
+      title: Lufttetthetsreparasjonsinstruksjon (PDF)
+      desc: 'Kontrollert arbeidsinstruksjon WI-QC-AT-001 Rev A: omfang og grenser, feilklassifisering, NCR og omtillverkningsautorisasjon, kontrollert utførelse, herding, gjentatt verifisering og frigjøring for oppblåsbare SUP-brett.'
+      link: 'https://assets.isupfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link_label: Last ned PDF
+    - icon: M
+      icon_bg: green
+      title: Indeks over metodekortene (PDF)
+      desc: 'Kontrollert dokument SOP-QC-AT-IDX-001 Rev A: det nummererte systemet med metodekortene MC-RW-01 til MC-RW-06, samt MC-RW-00 for destruksjon og kassering, koblet til lufttetthetsreparasjonsinstruksjonen.'
+      link: 'https://assets.isupfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link_label: Last ned PDF
+    - icon: V
+      icon_bg: orange
+      title: Endringskontrollstandarder for omtillverkning (side)
+      desc: 'Formell ISO 9001-endringskontroll for omtillverkningsparametere: ECR, risikoklassifisering, tverrfunksjonell frigjøringsmatrise, lukket syklus i ni faser, kvantifisert teknisk validering og Poka-Yoke-beskyttelse — med tospråkig SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/no/factory/quality-change-control'
+      link_label: Vis siden
+    - icon: N
+      icon_bg: blue
+      title: Kontroll av ikke-samsvarlende produkter (side)'
+      desc: 'ISO 9001:2015 punkt 8.7 Kontroll av ikke-samsvarlende produkter: NCR-registrering, karantene, beslutningsmyndighet basert på alvorlighetsgrad, kontrollert omtillverkning etter SRI, uavhengig gjentatt inspeksjon og attestert destruksjon, beskyttet med SHA-256 — med nedlasting av den tospråkige SOP-en og destruksjonssertifikatet.'
+      link: '/no/factory/non-conforming-control'
+      link_label: Vis siden
+
+faqs:
+  tagline: FAQ
+  title: Vanlige spørsmål om SUP-kvalitetskontroll
+  items:
+    - q: 'Hvordan kontrollerer QINGDAO VATRAD GROUP.,LTD. kvaliteten på oppblåsbare SUP-brett?'
+      a: 'Kvaliteten kontrolleres via inngående varekontroll, kontrollpunkter i produksjonsprosessen, verifisering av sluttproduktet, emballasjeinspeksjon og produksjonssporbarhet — hver del utført mot de prosjektgodkjente prøvene, spesifikasjonene og inspeksjonskriteriene.'
+    - q: 'Hvilke kvalitetskontroller utføres under SUP-produksjonen?'
+      a: 'Inspeksjonene omfatter materialverifisering, kappe- og trykkkontroller, inspeksjon av brettkonstruksjonen, verifisering av ventilmonteringen, inspeksjon av tilbehøret, lufttetthetstester, utseendekontroll og emballasjeverifisering.'
+    - q: 'Kan OEM-kunder be om SUP-inspeksjonsregistrene?'
+      a: 'Ja. Inspeksjonsregistre og kvalitetsdokumentasjon kan leveres ut fra prosjektkravene og kvalitetsavtalene som gjelder for kunden, inkludert rapporter fra stikkprøveinspeksjoner før levering.'
+    - q: 'Hvordan sikrer fabrikken en konstant OEM-produksjonskvalitet?'
+      a: 'Produksjonskonsistensen opprettholdes via godkjente prøver, tekniske spesifikasjoner, produksjonskontrollpunkter, inspeksjonsprosedyrer og dokumenterte kvalitetskontrollprosesser som er koblet til hver bestilling.'
+    - q: 'Kan jeg arrangere en inspeksjon fra tredjepart med SGS, BV, Intertek eller QIMA?'
+      a: 'Ja. Vi tar imot eksterne inspektører med et eget inspeksjonsområde, kalibrerte trykkinstrumenter, utfylte inspeksjonsbriefinger og tilgjengelige registre. Del spesifikasjonen, det godkjente prøveeksemplaret, grafikken, emballasjekravene og feilkriteriene — eller bruk malen vår for inspeksjonsbriefing til tredjepart.'
+    - q: 'Hvordan håndteres endringer i grafikk, BOM eller emballasje under produksjonen?'
+      a: 'Endringer registreres i endringskontrollprotokollen vår, inkludert berørt dokumentrevisjon, endringsoversikt, begrunnelse, konsekvensvurdering, status for kundens frigjøring og effektivt parti. Foreldete versjoner tilbakekalles, slik at produksjon og inspeksjon alltid bruker de gjeldende godkjente dokumentene.'
+    - q: 'Støtter fabrikken skreddersydde oppblåsbare SUP-prosjekter?'
+      a: 'Ja. Skreddersydde OEM/ODM-prosjekter for oppblåsbare SUP-brett støttes ut fra kundens spesifikasjoner, grafikkkrav, tilbehørskonfigurasjoner og emballasjebehov, med prosjektspesifikke avtalte inspeksjonskriterier før produksjonen.'
+    - q: 'Kan et SUP-brett med en lekkasje omtillverkes i fabrikken?'
+      a: 'Ja — under kontrollerte forhold. Brettet settes i HOLD og kobles til et NCR, lekkasjen lokaliseres med en godkjent diagnostisk metode, og omtillverkningen skjer først etter autorisasjon fra QC/Konstruksjon og bare innenfor de godkjente feilklassene for omtillverkning. Brettet reverifiseres deretter mot de samme akseptkriteriene som et samsvarende brett før frigjøringen.'
+    - q: 'Hvor mange ganger kan fabrikken omtillverke et brett?'
+      a: 'En enkelt punkt kan omtillverkes én gang under en autorisert instruksjon. Feiler den gjentatte verifiseringen, eskaleres brettet til utskifting, kassering, destruksjon eller avvikstillatelse til kunden — gjentatt omtillverkning uten dokumentert frigjøring er ikke tillatt.'
+
+cta:
+  title: Trenger du et komplett eksempel på et prosjektkvalitetspakke?
+  desc: 'Be om et anonymisert støttepakke for tredjepartsinspeksjoner og en kvalitetsinspeksjonsplan (QIP) for OEM/ODM-prosjektet ditt — eller last ned eksempelmalene for å verifisere dokumentstrukturen du kan forvente deg for bestillingen din.'
+  actions:
+    - text: Be om kvalitetskontroll
+      variant: primary
+      href: /contact
+    - text: Last ned eksempel på kvalitetspakke (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Last ned QC-protokoll og PSI-sjekkliste
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

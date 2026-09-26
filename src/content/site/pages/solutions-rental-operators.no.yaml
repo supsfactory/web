@@ -1,0 +1,82 @@
+meta:
+  title: 'SUP-utleieutstyr & flåteløsninger'
+  description: 'Kommersielle SUP-brett for daglig utleie: UV-bestandig PVC, forsterkede sømmer og hurtigtørkende materialer for flåter med høy omsetning.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Utleiere
+  title: 'SUP-brett utformet for utleieflåter'
+  subtitle: 'Spesifiser en flåte som tåler daglig utleie: brett med høy omsetning, UV-bestandig PVC, forsterkede sømmer og hurtigtørkende materialer — utformet for 365 dagers bruk per år.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/use-cases/isupfactory-family-use-case.webp
+    alt: SUP-brett klare for daglig utleie
+
+answer:
+  label: 'Kort svar'
+  text: 'Brett for utleieflåter er bygd med UV-bestandig marint PVC, med sømmer som er 3× sterkere enn standardkonstruksjoner og drop-stitch-kjerner for 15 PSI — testet for mer enn 500 utleiesykluser. MOQ bekreftes av prosjektkonfigurasjonen: prøve (1–2 enheter), pilot (20–50 enheter) og standardvolum (90–100+ enheter per parti fra en rull på 150 m); produksjonen tar 25–35 dager etter PO og depositum, med FOB-, CIF- eller DDP-vilkår.'
+  verified: 'September 2026'
+
+features:
+  title: Bygd for utleiehverdagen
+  subtitle: 'Hvert brett er utformet for mer enn 500 utleiesykluser med minimalt vedlikehold.'
+  items:
+    - title: 'Mer enn 500 utleiesykluser'
+      description: 'Testet for å tåle daglig bruk i saltvann, sol og sand.'
+      icon: 'tabler:shield-check'
+    - title: 'UV-bestandig stoff'
+      description: 'Ingen misfarging eller nedbrytning etter 1 år utendørs lagring.'
+      icon: 'tabler:sun'
+    - title: 'Forsterkede sømmer'
+      description: 'Forsterket forbindelseskonstruksjon for den daglige utleieomsetningen og de gjentatte pumpesyklusene.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Hurtigtørkende materialer'
+      description: 'De hurtigtørkende materialene holder brettene bruksklare mellom to turer.'
+      icon: 'tabler:droplet'
+    - title: 'Stabelbart lager'
+      description: 'Plassbesparende stabelbart utførelse — flere brett på samme lagerflate.'
+      icon: 'tabler:stack'
+    - title: 'Fargekodede målmarkeringer'
+      description: 'Personalet tar takket være de fargekodede målmarkeringene rett brett.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: Driftsmessige nøkkeltall
+  stats:
+    - title: Fabrikkens gulvflate
+      amount: '12 500 m²'
+    - title: Trykktesting
+      amount: '18 PSI / 24t'
+    - title: Monteringssjekkliste
+      amount: '100 poeng'
+    - title: Frakt av reservedeler
+      amount: '48t'
+
+fleet_guide:
+  title: Guide til flåtestørrelse
+  subtitle: 'Beregn hvor mange brett virksomheten din trenger, ut fra den daglige utleieomsetningen.'
+  tiers:
+    - label: Liten kiosk
+      boards: '15-20'
+      note: 'Opptil 2–3 brettbytter per dag i høysesongen'
+    - label: Mellomstor virksomhet
+      boards: '30-50'
+      note: 'Flere utgangspunkter eller svært mange besøkende i helgene'
+    - label: Stor strandutleie
+      boards: '50-100'
+      note: 'Fullservice-utleieflåter på flere strandsteder'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Dybde:</strong> utleiebrett tar utgangspunkt i spesifikasjonen din — utforsk <a href="/no/oem-manufacturing">OEM/ODM-programmet</a> vårt for tilpasning, lave prøve-MOQ-er og flåtepriser. Hvert brett går gjennom <a href="/no/factory">produksjonslinjen</a> på 12 500 m&sup2; og gjennomgår 100 % trykktesting før levering.</p>
+  </div>
+
+cta:
+  title: 'Spesifiser utleieflåten din'
+  subtitle: 'Send inn kravene for flåten, eller sammenlign brettplattformene for virksomheten din.'
+  actions:
+    - text: 'Send inn flåtekravene'
+      href: '/no/contact'
+      variant: 'primary'
+    - text: 'Sammenlign brettplattformene'
+      href: '/no/inflatable-vs-hardboard'
+      variant: 'secondary'

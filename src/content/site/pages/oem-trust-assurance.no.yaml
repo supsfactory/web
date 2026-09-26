@@ -1,0 +1,166 @@
+meta:
+  title: 'OEM-tillit & fabrikgarantier — verifiser fabrikken vår før du bestiller'
+  description: 'Hvordan kjøpere verifiserer iSupfactory før bestilling: offisiell registrering, fabrikkaudit, ingeniører under NDA og inspeksjon av tredjepart (SGS/TÜV/BV/Intertek).'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'SUP-OEM fabrikkverifisering'
+    - 'verifisere SUP-produsent'
+    - 'SUP fabrikkaudit Kina'
+    - 'fabrikk oppblåsbare SUP Qingdao'
+    - 'garanti OEM-tillit'
+    - 'referanser SUP-produsent'
+
+hero:
+  tagline: 'Produksjon du kan verifisere'
+  title: 'OEM-tillit & fabrikgarantier'
+  subtitle: 'Hvert påstand på denne nettsiden er verifiserbart: offisiell bedriftsregistrering, en fysisk fabrik på 12 500 m² som du kan besøke eller auditere, ekte ingeniører under NDA, nedlastbare QMS-dokumenter og testdata registrert per serienummer. Utviklet og drevet av Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Kort svar'
+  text: 'Tillit er ikke et løfte: det er dokumentasjon. Vi er et registrert kinesisk produksjonsforetak (Qingdao Vatrad Group Co., Ltd.) med en fysisk fabrik på 12 500 m² i Qingdao, 350+ ansatte og en årskapasitet på 120 000+ brett. Du kan verifisere registreringen, auditere fabrikken, ta del av QMS-SOP-ene, laste ned eksempler på kvalitetsregistreringer, bestille inspeksjon av tredjepart (SGS, TÜV, BV eller Intertek) og få en signert NDA innen 4 arbeidstimer. Hvert brett testes i 24 timer ved 18.0 PSI med automatisk avvisning over 0.50 PSI trykktap, og hvert parti har 10 års ERP-sporbarhet. Hvis et påstand ikke kan dokumenteres, gjør vi det ikke.'
+  verified: 'September 2026'
+
+trust_stats:
+  - value: '12 500 m²'
+    label: Fabrikkareal
+    detail: 4 spesialiserte verksteder, åpne for revisjoner
+  - value: '350+'
+    label: Ansatte på stedet
+    detail: 25+ ingeniører innen F&U, materialer og QC
+  - value: '120 000+'
+    label: Brett per år
+    detail: 10 000 brett/måned på 4 automatiserte linjer
+  - value: '4 timer'
+    label: NDA-behandlingstid
+    detail: Standard-NDA signert innen 4 arbeidstimer
+  - value: '7 nivåer'
+    label: Kvalitetsportsystem
+    detail: Kontrollpunkt 01–7, registrert per serienummer
+  - value: '18.0 PSI'
+    label: 100 % trykktest
+    detail: 24 timers holdetid, automatisk avvisning over 0.50 PSI trykktap
+
+role_boundary:
+  tagline: 'Hva vi er — og hva vi ikke er'
+  title: 'En fabrikk du kan verifisere, aldri et påstand du må stole på'
+  subtitle: 'Forskjellen i verifiserbarhet mellom en fabrikk og et handelskontor er enkel: bak hvert påstand ligger et dokument, en person eller en maskin.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: 'Hva vi er — en verifiserbar produsent'
+      desc: '· Et registrert juridisk selskap: Qingdao Vatrad Group Co., Ltd. — registreringsopplysningene deles under NDA eller i forbindelse med en revisjon · En fysisk fabrikk: 12 500 m² i Laixis økonomiske utviklingssone i Qingdao, med 4 spesialiserte verksteder, 350+ ansatte og 4 automatiserte linjer · Et produksjonsteam: personene som svarer på spørsmålene dine er de som bygger brettene dine · Ekte dokumenter: QMS-SOP-er, teststandarder og anonymiserte kvalitetsregistreringer som kan lastes ned · Uavhengig verifisering er velkommen: SGS-, TÜV-, BV- eller Intertek-inspeksjoner etter eget valg, iht. ISO 2859-1 Nivå II'
+      link: '/no/factory'
+      link_label: 'Se fabrikksiden'
+    - icon: B
+      icon_bg: green
+      title: 'Hva vi ikke er — handelskontorprofilen'
+      desc: '· Ikke et trading company: vi viderer ikke bestillingen din til en ekstern fabrikk og tar ikke ut noen mellomprovision · Ikke vårt eget varemerke på brettene dine: du eier merken, markedet og kunden · Ikke uklart minimum: MOQ beregnes ut fra råvarerullenes fysikk og bekreftes per prosjekt · Ikke «kun på forespørsel»-sertifikater: listen er publisert og revisjonsprotokollene kan tas i bruk · Ingen rene muntlige påstand: testtrykk, grenseverdier og sporbarhet per parti dokumenteres per serienummer'
+      link: '/no/oem-moq-guide'
+      link_label: 'Se den transparente MOQ-guiden'
+
+trust_steps:
+  tagline: 'En virkelig referansecase'
+  title: 'Hvordan en nordisk utleieflåte verifiserte oss før bestillingen'
+  subtitle: 'Sju verifiseringstrinn gjennomført av en kommersiell utleier før en bestilling på 90–100+ enheter — samme sjekkliste er tilgjengelig for deg.'
+  steps:
+    - step: '01'
+      title: 'Verifisering av den offisielle enheten'
+      desc: 'Kjøperen ba om kinesisk bedriftsregister og utenrikshandelsstillatelse. Det juridiske selskapet bak iSupfactory er Qingdao Vatrad Group Co., Ltd., en produsent registrert i Qingdao, Shandong, siden 2012 — verifisert via det nasjonale registeret under NDA.'
+    - step: '02'
+      title: 'Fysisk fabrikk & stedsrevisjon'
+      desc: 'En fabrikkrevisjon (på sted og via videoomvisning) bekreftet anlegget på 12 500 m²: fire spesialiserte verksteder, 350+ ansatte, fire automatiserte linjer og en månedlig produksjon på rundt 10 000 brett. Revisjonsrapporten arkiveres i kontraktsdokumentasjonen.'
+    - step: '03'
+      title: 'Mennesker: ekte ingeniører, ingen kommersielle manus'
+      desc: 'Kjøperen snakket direkte med det tekniske teamet — skipsbygging, materiallaboratorium og QC. Prosjektspesifikasjon og NDA ble utvekslet innen 4 arbeidstimer, og en teknisk gjennomgang forelå innen én arbeidsdag.'
+    - step: '04'
+      title: 'Papirarbeid: QMS, sertifikater & inspeksjon av tredjepart'
+      desc: 'Samsvarsdokumentasjonen for ISO 9001:2015, ISO 25649 og CE, BSCI/REACH/RoHS-registreringene og QMS-SOP-ene ble gjennomgått. Kjøperen planla en SGS-inspeksjon før levering iht. ISO 2859-1 Nivå II for den første seriebestillingen — og fikk for hvert parti et samsvarsbevis (Certificate of Conformance).'
+    - step: '05'
+      title: 'Data: testregistreringer per serienummer'
+      desc: 'Kjøperen gjennomgikk ekte testregistreringer: hver luftkammer testet i 24 timer ved 18.0 PSI med automatisk avvisning over 0.50 PSI trykktap, en kontrolliste med 100 punkter for montering og 10 års ERP-sporbarhet per parti. Eksempler på QC-registreringer ble gjort tilgjengelige før bestillingen.'
+    - step: '06'
+      title: 'Kontraktuell beskyttelse'
+      desc: 'Ordrekontrakten omfattet varemerkelisensen, en avtalt periode med territoriell eksklusivitet, eierskap til formen og leveringsvilkårene, samt opplysningene og registreringene som følger med utstyret. Kjøperen godkjente formen i fabrikken før produksjonen.'
+    - step: '07'
+      title: 'Løpende styring'
+      desc: 'Kvartalsmøter med VP Sales og sjefingeniøren, en forbeholdt revisjonsrett under produksjonen og en eskaleringsvei til QA-sjefen for kvalitetstvister. Avtalen ble signert samlet av VP Sales, sjefingeniøren og QA-sjefen.'
+
+trust_faqs:
+  tagline: 'Vanlige spørsmål'
+  title: 'De 12 spørsmålene kjøpere stiller før bestillingen'
+  items:
+    - q: 'Er iSupfactory en ekte fabrikk eller et trading company?'
+      a: 'iSupfactory er produktutviklings- og SUP-produksjonsdivisjonen i Qingdao Vatrad Group Co., Ltd. Vi driver fabrikken på 12 500 m² i Qingdao direkte — design, kutt, sveising, montering og testing skjer på ett og samme anlegg. Det finnes ingen omveis via trading companies: personene som svarer på spørsmålene dine er de som bygger brettene dine.'
+    - q: 'Hvem samarbeider jeg konkret med i prosjektet mitt?'
+      a: 'Med en dedikert prosjektingeniør og en dedikert QC-kontakt, i tillegg til avdelingssjefene som signerer dokumentene dine. Du kan snakke direkte med sjefingeniøren, QA-sjefen eller fabrikksjefen — før og etter bestillingen. Det ligger intet account manager-lag mellom deg og dem som utfører jobben.'
+    - q: 'Kan jeg besøke eller auditere fabrikken?'
+      a: 'Ja. Vi ønsker velkommen til fabrikkbesøk i Laixis økonomiske utviklingssone i Qingdao og støtter eksterne revisjoner med direkte videoomvisning. Revisjoner kan arrangeres uavhengig (av din egen inspektør eller en tredjepart som SGS, TÜV, BV eller Intertek), og revisjonsplanen kan tas inn i kontrakten.'
+    - q: 'Signerer dere en NDA før jeg deler designen min?'
+      a: 'Ja. Vår standard-NDA signeres innen 4 arbeidstimer etter forespørselen din, før noe eierskap, spesifikasjon, artwork eller teknisk fil deles. Tospråkige versjoner (engelsk/kinesisk) er tilgjengelige, og dokumentet signeres samlet av fabrikksjefen.'
+    - q: 'Hvordan vet jeg at kvalitetspåstandene deres er ekte?'
+      a: 'Bak hvert påstand på denne nettsiden ligger et dokument: QMS-SOP-ene og teststandardene er nedlastbare, eksempler på anonymiserte kvalitetsregistreringer er publisert, og testdata registreres per serienummer med 10 års ERP-sporbarhet per parti. Du kan også bestille inspeksjon før levering av tredjepart etter eget valg.'
+    - q: 'Hva skjer hvis brettene mine kommer med mangler?'
+      a: 'Hvert brett inspiseres før pakking, og partiregistreringene muliggjør årsaksanalyse per serienummer. Kontrakten definerer forpliktelser rundt inspeksjon, erstatning og nyproduksjon, og QA-sjefen frigir partiet. Nyproduserte brett testes på nytt fra bunnen av — aldri bare stikkprøve kontrollert.'
+    - q: 'Kan dere virkelig teste 100 % av brettene før levering?'
+      a: 'Ja — og registreringene beviser det. Hver luftkammer pumpes til 18.0 PSI og holdes i 24 timer med kontinuerlig sensorregistrering; hver kammer med et trykktap på mer enn 0.50 PSI i løpet av 24 timene avvises automatisk og kontrolleres på nytt. Testprotokollene er koblet til hvert serienummer og inngår i partiets dokumentasjon.'
+    - q: 'Hvilke sertifiseringer har dere faktisk?'
+      a: 'Kvalitetsledelse iht. ISO 9001:2015, samsvar iht. ISO 25649 og CE for oppblåsbare SUP-produkter, samt samsvar iht. BSCI, REACH og RoHS for fabrikk og materialer. Sertifikatnumre og revisjonsprotokoller gjøres tilgjengelige på forespørsel eller i forbindelse med en revisjon — listen er publisert, ikke «kun tilgjengelig på forespørsel».'
+    - q: 'Er varemerket mitt beskyttet — design, former og marked?'
+      a: 'Ja. Varemerket ditt, designene dine og utstyret ditt beskyttes via NDA-en, vilkårene for varemerkelisensen og klausuler om eierskap eller overføring av formene i kontrakten. Utstyret oppbevares for varemerket og kan overføres. Territorielle vilkår og eksklusivitet avtales skriftlig før produksjonsstart.'
+    - q: 'Hva er deres faktiske MOQ?'
+      a: 'MOQ avhenger av prosjektet og forklares i MOQ-guiden vår: prøve 1–2 enheter, co-branding i små volumer 5–10 enheter, pilotpartier 20–50 enheter og standardvolumer 90–100+ enheter per rull på 150 m (ca. 180–220 brett). Egne former går på volumnivå. Beregningen bekreftes før tilbudet — ingen uklare «lav MOQ»-tall.'
+    - q: 'Hva skjer hvis produksjonen forsinkes?'
+      a: 'Leveringstiden bekreftes etter gjennomgang av spesifikasjon, artwork og emballasje — aldri lovet på forhånd. Kontrakten regulerer planleggingen, rapporteringen av forsinkelser og løsningsveien, og kvartalsmøtet følger leveranseprestasjonen mot den avtalte kalenderen.'
+    - q: 'Hvem signerer kontraktsdokumentene på deres side?'
+      a: 'Bestillinger og avtaler signeres samlet av VP Sales, sjefingeniøren og QA-sjefen — de tre personene som er ansvarlige for henholdsvis kommersiell policy, teknisk utførelse og kvalitetsfrigivelse. Du får de signerte dokumentene sammen med kontraktsdokumentasjonen.'
+
+governance:
+  tagline: 'Ansvarsstruktur'
+  title: 'Utpekte signatarer & forbeholdte rettigheter'
+  subtitle: 'Hvert forpliktelse er knyttet til en utpektet rolle — ikke til en salgsavdeling.'
+  body: |
+    **Felles signering.** Bestillinger, kvalitetsplaner og tvisteløsning signeres av tre roller: VP Sales (kommersiell policy), sjefingeniøren (teknisk utførelse) og QA-sjefen (kvalitetsfrigivelse). De tospråkige SOP-ene er under versjonskontroll og har samme signeringsstruktur.
+
+    **Forbeholdte rettigheter.** Kjøperen beholder retten til å revidere produksjonen, ta del av testregistreringene og holde tilbake partifrigivelse til inspeksjonen er godkjent. Nyproduksjon skjer kun under et godkjent endringsprotokoll, og frigivelsen valideres av en uavhengig kvalitetskontroll — aldri av operatørene som utførte nyproduksjonen.
+
+    **Overførte registreringer.** Partiets testprotokoller, samsvarsbevis og inspeksjonsrapporter følger med hver levering, og ERP-sporbarheten per parti lagres i 10 år. Registreringer for utstyret og formtegninger følger med utstyret dersom kontrakten sier det.
+
+trust_downloads:
+  tagline: 'Offisielle dokumenter'
+  title: 'Verifiseringsdokumenter — last ned & del'
+  subtitle: 'Offisielle dokumenter fra Qingdao Vatrad Group Co., Ltd., klare til å legge ved i leverandørens due diligence-peri.'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Guide for OEM-kjøpertillit og fabrikgarantier (PDF)'
+      desc: 'Offisiell B2B-guide (Del II, DOC-ENG-2026-NL): fabrikkverifisering steg for steg — enhetsregistrering, fysisk revisjon, ekte ingeniører, QMS-dokumentasjon, inspeksjon av tredjepart, kontraktsmessig beskyttelse og signeringsstrukturen i styringen.'
+      link: 'https://assets.isupfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link_label: 'Last ned guiden (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Guide for fleksibel branding og MOQ (PDF)'
+      desc: 'Offisiell B2B-guide (Del I, DOC-MOQ-EXP-2026-NL): den tekniske logikken bak oppsigelsen av 150 m drop-stitch-ruller (90–100 brett), co-branding fra 5–10 enheter, pilotpartier på 20–50 enheter og de tre produksjonsnivåene.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Last ned MOQ-guiden (PDF)'
+    - icon: Q
+      icon_bg: orange
+      title: 'Kvalitetssystemet bak disse påstandene'
+      desc: 'En side som binder sammen alt: systemet med 7 testgrenser, de fire standardene som styrer det og dokumentregisteret 00–15 med alle nedlastbare SOP-er og rapporter — QIP, teststandarder, sporbarhetsperm, NCP- og nyproduksjons-SOP.'
+      link: '/no/quality'
+      link_label: 'Utforsk kvalitetssystemet'
+
+evidence_review:
+  tagline: 'Bevis & verifisering'
+  title: 'KONTROLLERTE SPESIFIKASJONER'
+  body: 'Alle produksjonspåstand på denne siden er verifisert av vårt Manufacturing Engineering-team i fabrikken i Laixi, Qingdao. Sertifikater, QC-inspeksjonsprotokoller, trykktestrapporter og protokoller for struktur og sporbarhet er tilgjengelige på forespørsel. Spesifikasjonene ble sist verifisert: september 2026.'
+
+cta:
+  title: 'Start med verifisering — så snakker vi om spesifikasjoner'
+  subtitle: 'Send din NDA-forespørsel, bestill registreringspakken eller avtal en revisjon. Først verifisering, så ordrediskusjonen. En forespørsel skaper ingen ordrebinding.'
+  button_text: 'Bestill verifiseringspakken'
+  button_link: '/no/contact#trust-verification'
+  actions:
+    - text: Sjekkliste fabrikkrevisjon
+      href: /no/factory-audit-checklist
+    - text: Varemerkeidentitet
+      href: /no/about/identity

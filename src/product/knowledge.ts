@@ -1011,6 +1011,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  no: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Så utvikles skreddersydde SUP-brett',
+      metaTitle: 'Så utvikles skreddersydde SUP-brett | iSupfactory',
+      metaDescription:
+        'Hvordan et skreddersydt SUP-brett går fra idé til fabrikk: spesifikasjon, design, prototyp, prøver og produksjon — forklart steg for steg.',
+      kicker: 'Kunnskap',
+      h1: 'Så utvikles skreddersydde SUP-brett',
+      intro:
+        'Før et skreddersydt paddleboard sendes til kundene dine, gjennomgår det en definert utviklingsvei. Å kjenne hvert trinn hjelper deg med å briefe fabrikken riktig, sette realistiske tidsplaner og unngå de klassiske feilene førstegangsbestillere gjør.',
+      sections: [
+        {
+          title: 'Trinn 1: Definer behovet',
+          body: [
+            'Hvert utviklingsprosjekt starter med brukssituasjonen: hvem skal bruke brettet, hvor og hvor ofte. Et brett til en utleieflåte skiller seg fra et brett til en merkelansering eller et skolebrett — stabilitet, holdbarhet og kostnadsmål flytter seg alle med svaret.',
+            'Skriv ned kvantum, målpris og påkrevde funksjoner før du kontakterer en fabrikk. Tydelige krav gir bedre første tilbud og mindre frem og tilbake.',
+          ],
+        },
+        {
+          title: 'Trinn 2: Lås spesifikasjonen',
+          body: [
+            'Spesifikasjonen gjør behovet om til målbare verdier: lengde, bredde, tykkelse, volum, materialer (drop-stitch-tetthet, stoffvekt), finneoppsett, vektgrense og emballasje.',
+            'Dette er dokumentet begge parter oppgir tilbud mot. Endringer senere i prosessen går langsommere og koster mer — en frosset spesifikasjon er det billigste du kan styre.',
+          ],
+        },
+        {
+          title: 'Trinn 3: Design og grafikk',
+          body: [
+            'Med spesifikasjonen låst starter designarbeidet: formjusteringer, fargeskjemaer, logoplassering, dekksputegrafikk og matchende tilbehør (leash, paddle, finne, sekk).',
+            'Produsenter kan lage digitale mockups slik at du godkjenner utseendet før noe fysisk lages — billigere og raskere enn å iterere på maskinvare.',
+          ],
+        },
+        {
+          title: 'Trinn 4: Prototyp og prøve',
+          body: [
+            'Prøven er det første fysiske beviset. For oppblåsbare brett betyr det et håndbygd brett eller et brett fra en pilotproduksjon som du kan padle på og teste mot spesifikasjonen.',
+            'Test prøven som sluttkunden din ville gjort: stabilitet, stivhet, kursstabilitet, vekt og hvordan grafikken holder. En ordentlig prøverunde finner vanligvis de fleste problemene før produksjon.',
+          ],
+        },
+        {
+          title: 'Trinn 5: Produksjon og levering',
+          body: [
+            'Etter prøvegodkjenning drives produksjonen i batcher med kvalitetskontrollpunkter. Fabrikkinspeksjon før levering — bilder, videoer eller tredjepartsinspeksjon — beskytter batchen du mottar.',
+            'En god prosjekttidsplan regnes bakover fra lanseringsdatoen din, ikke framover fra bestillingen.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'Oppblåsbar SUP-konstruksjon, forklart',
+      metaTitle: 'Konstruksjon av oppblåsbare SUP-brett: materialer og lag | iSupfactory',
+      metaDescription:
+        'Hva et oppblåsbart SUP-brett er laget av — PVC-lag, drop-stitch-stoff, kanter og kvalitetsindikatorer — slik at du kan spesifisere bedre brett for prosjektet ditt.',
+      kicker: 'Kunnskap',
+      h1: 'Oppblåsbar SUP-konstruksjon, forklart',
+      intro:
+        'De fleste skreddersydde SUP-prosjektene i dag er oppblåsbare brett. De er lettere, enklere å lagre og frakte, og mer tilgivende for nybegynnere. Denne guiden forklarer konstruksjonen slik at du kan spesifisere kvalitet med omhu.',
+      sections: [
+        {
+          title: 'Kjernen: drop-stitch-stoffet',
+          body: [
+            'Et oppblåsbart brett er bygget rundt drop-stitch-stoff: tusenvis av polyestertråder forbinder topp- og bunnlagene av PVC. Når brettet er blåst opp, holder disse trådene brettet på en fast tykkelse — det er det som gir en SUP form og stivhet.',
+            'Høyere trådtetthet (sømmer per kvadrattomme) gir et stivere og mer stabilt brett ved samme trykk. Budsjettbrett bruker lavere tetthet; premiumbrett høyere.',
+          ],
+        },
+        {
+          title: 'PVC-lag og kanter',
+          body: [
+            'Stoffet er innlemmet mellom PVC-lag som beskytter mot slitasje, UV og støt. Tykkere PVC (flere mils eller mm) tåler punkteringer bedre, men veier mer.',
+            'Kanten — brettets sidekanter — tar opp de fleste støyene i daglig bruk. Kantkonstruksjon i dobbelt eller trippelt lag er en sterk indikator på holdbarhet og egnethet for utleie.',
+          ],
+        },
+        {
+          title: 'Hva som gir vekt vs. hva som gir styrke',
+          body: [
+            'Vekt er en avveining: tykkere PVC øker både holdbarheten og vekten; lettere oppbygging passer padlere som bærer brettet langt. Dette er ett av de tydeligste eksemplene på hvordan en skreddersydd spesifikasjon tilpasses kjøperens virkelighet.',
+            'Kvalitetsindikatorer du bør be om: nominelt lufttrykk, sømkonstruksjon, ventiltype og drop-stitch-tetthet. Seriøse fabrikker offentliggjør disse tallene.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Hvordan organisasjoner velger SUP-utstyr',
+      metaTitle: 'Så velger resorts, klubber og skoler SUP-utstyr',
+      metaDescription:
+        'Så velger resorts, klubber og skoler SUP-utstyr: flåtestørrelse, bretttyper, holdbarhet, oppbevaring og budsjett for et program som varer.',
+      kicker: 'Kunnskap',
+      h1: 'Hvordan organisasjoner velger SUP-utstyr',
+      intro:
+        'Resorts, klubber og skoler kjøper annerledes enn forbrukermerker: utstyret må tåle daglig bruk, passe blandde nivåer og rommes innenfor et programbudsjett. Denne rammen dekker beslutningene som betyr noe.',
+      sections: [
+        {
+          title: 'Tilpass flåtestørrelsen til bruken',
+          body: [
+            'Regn ut hvor mange padlere som er på vannet samtidig, ikke hvor mange gjester du har. Et resort som utleier på rotasjon trenger færre brett enn en skole med parallelle kurs — og flere reservedeler.',
+            'En god tommelfingerregel: ett brett per samtidig padler, pluss 10–15 % reserstekapasitet for vedlikehold og vekst.',
+          ],
+        },
+        {
+          title: 'Match bretttypene til ferdighetsnivåene',
+          body: [
+            'Nybegynnere har nytte av bredere brett med mer volum som føles stabile; erfarne padlere foretrekker smalere brett som padler raskere. En blandet flåte — hovedsakelig nybegynnervennlig med noen ytelsesbrett — passer de fleste programmer.',
+            'Flerpersonbrett fortjener sin plass i skoler og gruppeopplevelser: de lar instruktører undervise og kan erstatte flere enkelte brett i klasserotasjoner.',
+          ],
+        },
+        {
+          title: 'Holdbarhet er et budsjettvalg',
+          body: [
+            'Konstruksjon i utleieklasse koster mer på forhånd og sparer penger over to til tre sesonger. Spør om kantforsterkning, PVC-tykkelse og hvilken garanti fabrikken gir på flåtebestillinger.',
+            'Planlegg også oppbevaring og oppblåsing: kompressorer, stativ og pakkerutiner avgjør programmets daglige arbeid. Flåteorienterte leverandører inkluderer dette i pakken.',
+          ],
+        },
+        {
+          title: 'Planlegg programmet, ikke bare bestillingen',
+          body: [
+            'De beste utstyrsbestillingene er en del av en programplan: instruktørtrening, vedlikeholdsrutiner og en erstatningssyklus for slitte brett. Organisasjoner som planlegger programmet, fornyer utstyret etter fastsatte frister; de andre kjøper nødreservedeler til full pris.',
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -1067,9 +1191,15 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     h1: 'Kennisdatabase — productontwikkeling, uitgelegd',
   },
   sv: {
-    metaTitle: 'Kunskapscenter: guider för SUP-produktutveckling | iSupfactory',
+    metaTitle: 'Kunskapsenter: guider för SUP-produktutveckling | iSupfactory',
     metaDescription:
       'Praktiska guider om skräddarsydd SUP-produktutveckling, konstruktion av uppblåsbara brädor och val av SUP-utrustning för resorter, klubbar och skolor.',
     h1: 'Kunskapscenter — produktutveckling, förklarad',
+  },
+  no: {
+    metaTitle: 'Kunnskapssenter: guider for SUP-produktutvikling | iSupfactory',
+    metaDescription:
+      'Praktiske guider om skreddersydd SUP-produktutvikling, konstruksjon av oppblåsbare brett og val av SUP-utstyr for resorts, klubber og skoler.',
+    h1: 'Kunnskapssenter — produktutvikling, forklart',
   },
 }

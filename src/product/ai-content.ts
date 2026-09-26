@@ -43,6 +43,9 @@ export const LLM_DUTCH_HOMEPAGE_DESCRIPTION =
 export const LLM_SWEDISH_HOMEPAGE_DESCRIPTION =
   'OEM-tillverkare av uppblåsbara SUPar och anpassade uppblåsbara SUP-brädor, med världsomfattande export från Kina'
 
+export const LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION =
+  'OEM-produsent av oppblåsbare SUP-brett og skreddersydde oppblåsbare SUP-er, med verdensomspennende eksport fra Kina'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 
@@ -130,6 +133,15 @@ export const CUSTOMIZATION_OPTIONS: Record<string, { title: string; body: string
     { title: 'Fenor och tillbehör', body: 'Fenkonfigurationer, paddlar, pumpar, leashes och väskor anpassade efter ditt paket.' },
     { title: 'Förpackning och presentation', body: 'Butikslådor, sjövärdig fraktförpackning och butiksexponeringar under ditt varumärke.' },
   ],
+  no: [
+    { title: 'Størrelse og form på brettet', body: 'Lengde, bredde, tykkelse og rocker tilpasset målprestasjonen din og markedet ditt.' },
+    { title: 'Materialer og konstruksjon', body: 'PVC-lag, drop-stitch-tetthet, forsterkninger og avstivninger valgt etter prisnivået ditt.' },
+    { title: 'Farger og grafikk', body: 'Ubegrensede fargekombinasjoner med eget artwork eller støtte fra designteamet vårt.' },
+    { title: 'Logo og branding', body: 'Digital eller silketrykt logo, med visuelt underlag før produksjonen.' },
+    { title: 'EVA og dekkside', body: 'Tilskårede greppmatter, logoer og dekkfarger på hvert brett.' },
+    { title: 'Finnen og tilbehør', body: 'Finnekonfigurasjoner, padler, pumper, leashes og sekker tilpasset pakken din.' },
+    { title: 'Emballasje og presentasjon', body: 'Butikksbokser, sjøsikker fraktemballasje og butikkdisplay under ditt merkenavn.' },
+  ],
 }
 
 export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]> = {
@@ -188,6 +200,13 @@ export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]>
     { title: 'Detaljhandel och outdoor-företag', body: 'Säsongsbaserade återfyllnadsprogram med stabila specifikationer, batch efter batch.' },
     { title: 'Resorter och uthyrningsoperatörer', body: 'Slitstarka flottor med förstärkningar, reservdelar och standardiserat underhåll.' },
     { title: 'Klubbar, skolor och evenemang', body: 'Brandade brädor för program, tävlingar och företagsflottor.' },
+  ],
+  no: [
+    { title: 'SUP-merker', body: 'Lanser din egen serie med trinnvise minimum fra co-branding-serier på 5–10 enheter.' },
+    { title: 'Distributører og forhandlere', body: 'Volumkataloger med sjøsikker emballasje og eksportstyring.' },
+    { title: 'Detaljhandel og friluftsbedrifter', body: 'Sesongbaserte påfyllingsprogrammer med stabile spesifikasjoner, batch etter batch.' },
+    { title: 'Resorts og utleieoperatører', body: 'Flåter for tunge bruk med forsterkninger, reservedeler og standardisert vedlikehold.' },
+    { title: 'Klubber, skoler og arrangementer', body: 'Merkede brett for programmer, konkurranser og bedriftsflåter.' },
   ],
 }
 
@@ -256,6 +275,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/sv/knowledge', title: '', excerpt: '' },
     { url: '/sv/gallery', title: 'Galleri', excerpt: 'iSupfactorys fabriks- och produktgalleri: verkstäder, kvalitetslaboratorier, tygprovningar och SUP-brädor i produktion.' },
   ],
+  no: [
+    { url: '/no', title: 'iSupfactory — OEM- og ODM-produksjon av oppblåsbare SUP-brett', excerpt: 'OEM/ODM-fabrikk for oppblåsbare SUP-brett i Qingdao: produktutvikling, skreddersydd produksjon, private label og kvalitetskontroll for SUP-merker.' },
+    { url: '/no/products', title: 'Oppblåsbare SUP-produkter', excerpt: 'Premium oppblåsbare SUP-brett: 11 ft-serien, fiske-SUP, mini-SUP, gigantiske lagebrett og mer — bygget for OEM/ODM-tilpasning.' },
+    { url: '/no/solutions', title: 'Løsninger', excerpt: 'OEM/ODM-produksjonsprogrammer for SUP: skreddersydd SUP-utvikling, private label, flåter for resorts og klubber, utleie og detaljhandelspartnere.' },
+    { url: '/no/projects', title: '', excerpt: '' },
+    { url: '/no/knowledge', title: '', excerpt: '' },
+    { url: '/no/gallery', title: 'Galleri', excerpt: 'Fabrikk- og produktgalleri fra iSupfactory: verksteder, kvalitetslaboratorier, stoffprøvinger og SUP-brett i produksjon.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
@@ -272,6 +299,7 @@ export const FAQ_EXCERPTS: Record<string, string> = {
   pt: 'Perguntas frequentes sobre a produção OEM/ODM de SUP insufláveis — materiais, certificações, quantidades mínimas de encomenda e fornecimento por grosso.',
   nl: 'Veelgestelde vragen over OEM/ODM-productie van opblaasbare SUPs — materialen, certificeringen, minimum bestelhoeveelheden en groothandelslevering.',
   sv: 'Vanliga frågor om OEM/ODM-tillverkning av uppblåsbara SUPar — material, certifieringar, minsta beställningskvantitet och partihandel.',
+  no: 'Ofte stilte spørsmål om OEM/ODM-produksjon av oppblåsbare SUP-brett — materialer, sertifiseringer, minste bestillingskvantum og engros.',
 }
 
 export const STATIC_PAGE_CORPUS_TEXT =

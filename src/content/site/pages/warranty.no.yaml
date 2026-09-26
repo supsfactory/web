@@ -1,0 +1,113 @@
+meta:
+  title: 'OEM-produksjonsgaranti og kvalitetssikring | {SITE}'
+  description: 'Vilkår for OEM-produksjonsgaranti for oppblåsbare SUP- og maritime produkter produsert av iSupfactory: dekede feil, varighet, dokumenterte partiregistre og håndtering av krav.'
+  keywords:
+    - 'oem garanti'
+    - 'produksjonsgaranti'
+    - 'sup fabrikk garanti'
+    - 'produktkvalitetssikring'
+    - 'garanti oppblåsbare sup'
+label: 'OEM-garanti'
+headline: 'OEM-produksjonsgaranti og produktkvalitetssikring'
+subtitle: 'Hvert brett vi produserer bygges ut fra en godkjent prøve og dokumenterte partiregistre. Denne garantien definerer hva vi garanterer på produktene vi produserer under varemerket ditt, og hvordan krav basert på disse registrene håndteres.'
+seo:
+  headline: 'OEM-produksjonsgaranti og kvalitetssikring | iSupfactory'
+  description: 'Produksjonsgaranti for oppblåsbare SUP og andre maritime produkter produsert av iSupfactory: 5 års dekning av kammerets hovedmateriale, sveisinger og drop-stitch-kjernens strukturelle integritet, pluss oppblåsningsventiler og fabrikkmonterte tilbehør.'
+  datePublished: '2024-01-01'
+  dateModified: '2026-09-23'
+body: |
+  <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+    Denne produksjonsgarantien gjelder oppblåsbare SUP-brett, kajakker og andre oppblåsbare maritime produkter produsert av iSupfactory — Qingdao Vatrad Group Co., Ltd:s maritime produksjonsdivisjon — innenfor OEM-, ODM- og private label-programmer. Startdatoen er den verifiserbare produksjonsdatoen for partiet eller den avtalte leveringsdatoen i innkjøpsordren. Kjøperen (varemerkeiereren) fastlegger selv garantipolitikken for sluttbrukeren på sitt eget marked; denne garantien er fabrikkens forpliktelse for varene i produsert tilstand.
+  </p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
+    <h2 class="text-xl font-bold mb-3">Dekning og varighet for produksjonsgarantien</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 år</h3>
+        <p class="text-sm text-gray-600 mt-1">Kammerets hovedmateriale (CSM/PVC)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 år</h3>
+        <p class="text-sm text-gray-600 mt-1">Glassfibrerammens strukturelle integritet (der det er aktuelt)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 år</h3>
+        <p class="text-sm text-gray-600 mt-1">Vanntettheten i det oppblåsbare kammerets sveisinger</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 år</h3>
+        <p class="text-sm text-gray-600 mt-1">Oppblåsningsventilens funksjon</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">1 år</h3>
+        <p class="text-sm text-gray-600 mt-1">Fabrikkmonterte tilbehør og utstyr</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-amber-700 dark:text-amber-400">1 år*</h3>
+        <p class="text-sm text-gray-600 mt-1">Kommersiell bruk, utleie eller flåte: alle komponenter</p>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 mt-4">*Kommersiell, offentlig, utleie-, leie- eller undervisningsbruk forkorter garantien til 1 år. Bruk i konkurranse eller oppdrag gjør garantien helt ugyldig, med mindre en spesifikk konkurransekonfigurasjon uttrykkelig er dekket av innkjøpsavtalen.</p>
+  </div>
+
+  <h2>Hva som er dekket</h2>
+  <h3>Kammerets hovedmateriale (5 år)</h3>
+  <p>Fabrikken garanterer kammerets hovedmateriale mot forringelse som følge av porøsitet som påvirker produktets evne til å holde driftstrykk vesentlig. Det gjelder materialet som dekkes med CSM (Hypalon), og alle andre kammeraterialer som brukes i produksjonen.</p>
+
+  <h3>Glassfibrerammens strukturelle integritet (5 år)</h3>
+  <p>For produkter med glassfiberforsterket ramme i kompositt (GVK) garanteres den grunnleggende komposittstrukturen mot strukturelt brudd som følge av material- eller produksjonsfeil.</p>
+
+  <h3>Vanntettheten i det oppblåsbare kammerets sveisinger (5 år)</h3>
+  <p>Sveisingene som settes sammen under produksjonen av det oppblåsbare kammeret garanteres mot produksjonsfeil som forårsaker betydelig luftlekkasje gjennom sveisingen. Periodisk inspeksjon og at riktig oppblåsningstrykk opprettholdes er vilkår for dekningen.</p>
+
+  <h3>Oppblåsningsventilens funksjon (5 år)</h3>
+  <p>Oppblåsningsventilene som er montert originalt under produksjonen garanteres mot material- eller produksjonsfeil som gjør at ventilen ikke holder luft som tiltenkt.</p>
+
+  <h3>Fabrikkmonterte tilbehør (1 år)</h3>
+  <p>Komponenter og utstyr som er installert i fabrikken garanteres i ett år mot material- og produksjonsfeil. Varer fra tredjepart inngår ikke og dekkes kun av produsentens egne garantier.</p>
+
+  <h2>Hva som ikke er dekket</h2>
+  <ul>
+    <li>Kosmetiske feil, inkludert misfarging, flekker, bleking, hvite belegg eller enhver form for endring av utseendet</li>
+    <li>Hull, rifler, skraper, brudd eller annen fysisk skade</li>
+    <li>Mikrosprekker, hårsprekker, slitespor, friksjonsmerker eller forringelse som følge av slitasje eller kontakt</li>
+    <li>Nedbrytning som følge av eksponering for UV-stråling, vær eller atmosfæriske forhold</li>
+    <li>Skade fra kontakt med drivstoff, løsemidler, syrer, baser eller kjemikalier</li>
+    <li>Skade som følge av uforsiktighet, feil bruk, misbruk, ulykker eller normalt slitasje</li>
+    <li>Gelcoat- eller lakkproblemer (bobler, mikrosprekker, misfarging)</li>
+    <li>Skade fra støt, belastning, feil støtte eller transport på tilhenger</li>
+    <li>Skade fra feilaktig oppblåsing/tømming eller bruk av uegnede oppblåsningsapparater</li>
+    <li>Utstyr, komponenter eller systemer fra tredjepart (dekkes av den respektive produsenten)</li>
+  </ul>
+
+  <h2>Produsentens forpliktelse og rettsmidler</h2>
+  <p>Fabrikkens eneste og eksklusive forpliktelse er å reparere eller bytte ut, etter fabrikkens valg, enhver komponent som vurderes å være defekt på grunn av materiale eller produksjon og som omfattes av denne garantien. Repareringer eller bytter utføres av fabrikken eller dens utpekte autoriserte servicesentre. Reparerte eller utskiftede deler garanteres bare i resten av den opprinnelige garantiperioden.</p>
+
+  <h2>Garantivilkår</h2>
+  <ul>
+    <li><strong>Partireferanse:</strong> krav må henvise til innkjøpsordren, partisnummeret eller serienummerintervallet, slik at fabrikken kan finne tilsvarende inspeksjonsregister.</li>
+    <li><strong>Spesifikasjonsgrunnlag:</strong> krav vurderes ut fra den godkjente prøven, den tekniske spesifikasjonen, grafikken og den for partiet fryste stykklisten (BOM) — de samme referansene som brukes i produksjonen.</li>
+    <li><strong>Vedlikehold:</strong> produktet må vedlikeholdes i tråd med publiserte instruksjoner, inkludert periodisk inspeksjon og at riktig oppblåsningstrykk opprettholdes.</li>
+    <li><strong>Samarbeid:</strong> den som fremsetter kravet må samarbeide fullt ut og i tide med fabrikken i alle spørsmål som gjelder krav, inkludert inspeksjon av de berørte enhetene.</li>
+    <li><strong>Kjøperens garantipolitikk:</strong> kjøperen, som varemerkeierer, utarbeider garantiprogrammet for sluttbrukeren på sitt eget marked. Denne produksjonsgarantien er det fabrikken skylder for varene i produsert tilstand.</li>
+  </ul>
+
+  <h2>Kommersiell bruk</h2>
+  <p>Brukes produktet til kommersielle, offentlige, ideelle, utleie-, leie- eller undervisningsformål, eller til noe annet enn privat fritidsbruk, reduseres garantiperioden for alle komponenter til ett (1) år fra startdatoen. Bruk i hastighets-, utholdnings- eller konkurransemomenter gjør garantien helt ugyldig, med mindre en spesifikk konkurransekonfigurasjon uttrykkelig er dekket av innkjøpsavtalen.</p>
+
+  <h2>Slik sender du inn et garantikrav</h2>
+  <p>Kontakt iSupfactory med innkjøpsordren eller partireferansen og en detaljert beskrivelse av problemet, inkludert brettenes serienumre dersom slike finnes. Fabrikken vurderer kravet ut fra partiregistrene og gir instruksjoner om inspeksjon og støtte.</p>
+  <p>For garantistøtte kan du nå oss via vår <a href="/no/contact" class="text-sky-600 underline">kontaktside</a> med ordrenummer og produktdetaljer.</p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
+    <h2 class="text-xl font-bold mb-3">Forankret i et dokumentert kvalitetssystem</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Hvert brett testes før emballasjen — <a href="/no/factory/quality-inspection" class="text-sky-600 underline">7 inspeksjonsnivåer</a> registrerer resultatene per serienummer, og partiene har ERP-sporbarhet i 10 år. Garantikrav avgjøres ut fra disse partiregistrene, ikke på grunnlag av gjjetninger. Les mer om <a href="/no/quality" class="text-sky-600 underline">det fullstendige kvalitetssystemet</a>, og last ned <a href="https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">sluttinspeksjonsrapportene</a>.</p>
+  </div>
+
+  <h2>Varer fra tredjepart</h2>
+  <p>Utstyr, komponenter eller systemer produsert av tredjepart (selv om de er installert av fabrikken) dekkes kun av garantien den respektive produsenten eventuelt tilbyr. Fabrikken fraskriver seg uttrykkelig alt garantiansvar for slike varer fra tredjepart.</p>
+
+  <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
+    Denne garantierklæringen er et sammendrag av fabrikkens vilkår for produksjonsgaranti innenfor OEM-, ODM- og private label-programmer. Hele innkjøpsavtalet regulerer alle vilkår. Spesifikasjoner kan endres uten forutgående varsel. iSupfactory er Qingdao Vatrad Groups produksjonsdivisjon.
+  </p>

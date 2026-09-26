@@ -1,0 +1,104 @@
+meta:
+  title: 'Tilpasset SUP-produksjon & private label for forhandlere | {SITE}'
+  description: 'Tilpasset SUP-produksjon og private label for kommersielle merker: brettspesifikasjoner, varemerkegrafikk, lave prøve-MOQ-er og fabrikk-QC — fra prøve til serie.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Kommersielle merker
+  title: 'Tilpasset SUP-produksjon for kommersielle merker'
+  subtitle: 'Kommersielle merker lanserer padlebrettserien sin med fabrikken vår: brettspesifikasjoner utviklet ut fra kravene dine, varemerket ditt på produktet og produksjons-QC som håndheves kontinuerlig.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Vatrad SUP-brett, produsert for et kommersielt merke
+
+answer:
+  label: 'Kort svar'
+  text: 'MOQ bekreftes av prosjektkonfigurasjonen: kommersielle merker starter med en prøve (1–2 enheter) eller en liten pilotserie (20–50 enheter, prøver innen 7–12 dager), skalerer opp til en standard-OEM-serie på 90–100+ enheter per design (25–35 dager etter PO og depositum), eller investerer i en tilpasset form for helt egne serier (verktøybygging tar 15–20 dager ekstra). Hvert brett trykktestes før levering, med FOB-, CIF- eller DDP-vilkår fra Qingdao.'
+  verified: 'September 2026'
+
+margin_section:
+  title: 'Produksjonsnivåer for kommersielle merker'
+  subtitle: 'Start med en prøve, valider med en pilotserie, skaler opp til en standardserie, eller invester i en tilpasset form — MOQ og leveringstider bestemmes av produksjonssporet, ikke av avtaler om antall.'
+  items:
+    - tier: 'Prøvenivå'
+      moq: '1–2 enheter'
+      margin_note: 'Prøvelevering på 7–12 dager'
+      features:
+        - 'Grafisk utvikling basert på varemerket ditt'
+        - 'Fysisk prøve til godkjenning'
+        - 'QC på en standardplattform'
+    - tier: 'Pilotnivå'
+      moq: '20–50 enheter'
+      margin_note: 'Markedsvalidering på eksisterende plattformer'
+      features:
+        - 'Overflategrafikk, logo og EVA-oppsett over hele overflaten'
+        - 'Gjenbestillinger på de samme godkjente plattformene'
+        - 'Eksportdokumentasjon inkludert'
+    - tier: 'Tilpasset form'
+      moq: 'Bekreftes av prosjektkonfigurasjonen'
+      margin_note: 'Verktøybygging tar 15–20 dager ekstra'
+      features:
+        - 'Ny brettform og utvikling av formverktøy'
+        - 'Full kontroll over spesifikasjonene'
+        - 'Prioritert tildeling av produksjonskapasitet'
+
+product_line:
+  title: Komplett sortiment
+  subtitle: 'En produksjonsplattform for hvert segment av virksomheten din.'
+  items:
+    - name: Allround-serien
+      description: 'Mangfoldig form — den mest brukte startplattformen'
+    - name: Touring-serien
+      description: 'Fremdriftsskrog for distansepadling'
+    - name: Yoga-serien
+      description: 'Bred og stabil plattform for wellnesssektoren'
+    - name: Barneserien
+      description: 'Korte og lette brett for de yngste padlerne'
+    - name: Racing-serien
+      description: 'Faste skrog for det mest lidenskapelige segmentet'
+    - name: Tilbehør
+      description: 'Årer, flyteputer, pumpestyrker og bæreposer for å komplettere sortimentet'
+
+catalog:
+  title: Ressurser for kommersielle partnere
+  subtitle: 'Spesifikasjoner, ordredetaljer og produktdokumentasjon.'
+  items:
+    - name: 'Produktkatalog 2026'
+      desc: 'Komplett sortiment med spesifikasjoner og ordreinformasjon'
+      icon: 'tabler:file-text'
+      link: '/no/products'
+    - name: 'Guide for kommersielle partnere'
+      desc: 'Guide om spesifikasjoner, ordreprosessen og QC-standarder'
+      icon: 'tabler:book'
+      link: '/no/products'
+    - name: 'Produkt- og tekniske ressurser'
+      desc: 'Produktbilder i høy oppløsning, livsstilsbilder og teknisk dokumentasjon'
+      icon: 'tabler:photo'
+      link: '/no/products'
+
+support:
+  title: Produksjonsstøtte
+  subtitle: 'Hva produksjonspartneren din gjør rundt ordren.'
+  items:
+    - 'Fysisk prøve før serieproduksjonen'
+    - 'Toleranser og QC: hvert brett trykktestes før levering'
+    - 'Spesifikasjonsstøtte — former, grafikk, EVA-oppsett, tilbehør'
+    - 'Serielevering på 25–35 dager etter bekreftet PO'
+    - 'Reservedeler og reparasjonsinstruksjoner for kundene dine'
+    - 'Eksport og dokumentasjon: FOB/CIF/DDP fra Qingdao'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Dybde:</strong> utforsk det <a href="/no/oem-manufacturing">komplette OEM/ODM-produksjonsprogrammet</a> — MOQ-er som bekreftes per prosjekt via nivåene prøve, pilot og serie, private label-branding og CE-samsvar — eller les <a href="/no/oem-moq-guide">guiden om MOQ og fleksibel branding</a>, eller besøk <a href="/no/factory">fabrikken</a> for å se hvordan den handelsklare QC-en settes i praksis.</p>
+  </div>
+
+cta:
+  title: 'Diskuter den kommersielle produktserien din'
+  subtitle: 'Send inn kravene dine — teamet vårt svarer innen én arbeidsdag.'
+  actions:
+    - text: 'Send inn kravene dine'
+      href: '/no/contact'
+      variant: 'primary'
+    - text: 'Se produktplattformene'
+      href: '/no/products'
+      variant: 'secondary'

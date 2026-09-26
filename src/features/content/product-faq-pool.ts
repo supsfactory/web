@@ -6,7 +6,7 @@ export interface FaqEntry {
   a: string
 }
 
-export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv', FaqEntry[]> = {
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no', FaqEntry[]> = {
   en: [
     {
       q: 'What is the minimum order to customize this board?',
@@ -149,6 +149,24 @@ export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 
     {
       q: 'Hur kontrolleras kvaliteten före leverans?',
       a: 'Varje bräda genomgår en monteringschecklista på 100 punkter och ett trycktålighetstest på 18.0 PSI under 24 timmar före packning; enheter med tryckfall över 0,50 PSI/24 h avvisas automatiskt.',
+    },
+  ],
+  no: [
+    {
+      q: 'Hva er minste bestillingskvantum for a tilpasse dette brettet?',
+      a: 'Volum-MOQ-en er 90–100+ stk per godkjent konfigurasjon, avhengig av krav til materialrulle og emballasje, p\u00e5 en rulle p\u00e5 150 m for standardproduksjon, med pilotpartier fra 20–50 stk og 90–100+ stk for en egen form.',
+    },
+    {
+      q: 'Hvor lang tid tar pr\u00f8ve- og produksjon?',
+      a: 'Pr\u00f8ver er klare innen 7–12 dager; serieproduksjonen er ferdig innen 25–35 dager etter bekreftet PO og depositum.',
+    },
+    {
+      q: 'Kan jeg endre farger, trykk og logo?',
+      a: 'Ja: grafikk, farger, EVA, logo, emballasje og tilbeh\u00f8r kan tilpasses p\u00e5 alle plattformer. Del logoen din s\u00e5 lager vi en visuell korrektur f\u00f8r produksjonen.',
+    },
+    {
+      q: 'Hvordan kontrolleres kvaliteten f\u00f8r levering?',
+      a: 'Hvert brett g\u00e5r gjennom en monteringssjekkliste p\u00e5 100 punkter og en trykkpr\u00f8ving p\u00e5 18.0 PSI i 24 timer f\u00f8r pakking; enheter med trykkfall p\u00e5 over 0,50 PSI/24 h avvises automatisk.',
     },
   ],
 }

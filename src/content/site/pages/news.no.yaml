@@ -1,0 +1,14 @@
+meta:
+  title: 'Nyheter — SUP-produsent & vannsportsoppdateringer | {SITE}'
+  description: 'Siste nytt fra Vatrad: fabrikkoppdateringer, nye modeller av oppblåsbare SUP-er, sertifiseringer og nyheter fra vannsportssektoren.'
+  keywords:
+    - 'nyheter sup produsent'
+    - 'Vatrad oppdateringer'
+    - 'lanseringer oppblåsbare SUP'
+    - 'nyheter vannsportssektoren'
+hero_text:
+  tagline: ''
+  title: Nyheter
+  subtitle: 'Siste nytt fra Vatrad — produktlanseringer, bedriftsoppdateringer, guider og historier fra vannet'
+news_list:
+  limit: 100

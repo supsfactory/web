@@ -146,7 +146,7 @@ test('every en content file has a .sv counterpart (except locale-agnostic site/p
   const dirs = ['pages', 'news', 'products', 'technology', 'case-use', 'site']
   for (const dir of dirs) {
     for (const name of readdirSync(resolve(contentRoot, dir))) {
-      if (name.includes('.de.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.it.') || name.includes('.pt.') || name.includes('.nl.') || name.includes('.sv.')) continue
+      if (name.includes('.de.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.it.') || name.includes('.pt.') || name.includes('.nl.') || name.includes('.sv.') || name.includes('.no.')) continue
       if (dir === 'site' && name === 'pages.yaml') continue
       const svName = name.replace(/(\.(yaml|mdx|md))$/, '.sv$1')
       if (!existsSync(resolve(contentRoot, `${dir}/${svName}`))) {

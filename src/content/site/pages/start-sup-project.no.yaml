@@ -1,0 +1,114 @@
+meta:
+  title: 'Start SUP-prosjektet ditt — fra brief til levererte brett | iSupfactory'
+  description: 'Start det tilpassede SUP-prosjektet ditt: send inn briefen, få NDA-beskyttelse, motta prøver innen 7–12 dager, godkjenn dem og skaler opp produksjonen. Steg for steg med tydelige tidsplaner.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'starte et sup prosjekt'
+    - 'tilpasset sup bestilling'
+    - 'sup prosjektbrief'
+    - 'sup oem prosjekt'
+    - 'tilpasset paddleboard bestilling'
+    - 'sup produksjonsprosjekt'
+    - 'oppblåsbar sup prosjekt'
+
+hero:
+  tagline: 'Start her'
+  title: 'Start SUP-prosjektet ditt'
+  subtitle: 'Enten du vil lansere et nytt varemerke, utvide en produktserie eller kjøpe brett under varemerket ditt for virksomheten din — ethvert prosjekt starter på samme måte: med en prosjektbrief, en NDA, en prøve og en tydelig vei til produksjon. Her får du vite hva som skjer etter at du har klikket «Start».'
+  actions:
+    - variant: primary
+      text: Start prosjektbriefen
+      href: /no/contact#project-brief
+    - text: Slik fungerer prosessen
+      href: /no/how-it-works
+
+answer:
+  label: 'Hva som skjer deretter'
+  text: 'Når du har sendt inn en prosjektbrief får du svar innen én arbeidsdag. En NDA er tilgjengelig før du deler fortrolige opplysninger. Vårt tekniske kontor gjennomgår briefen din og leverer et detaljert tilbud med MOQ, prøvekostnader og en trinnvis plan — normalt 7–12 dager for prøvene og 6–8 uker for den første produksjonen fra bekreftet PO. Prøvekostnadene trekkes fra produksjonsordren. Ingen forpliktelser før du signerer.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: Prosessen
+  title: 'Fra brief til levererte brett — fem trinn'
+  subtitle: 'Hvert trinn har en fast lengde, et dokumentert resultat og en go/no-go-milepæl. Gå videre først når du er klar.'
+  steps:
+    - step: 'Trinn 1'
+      title: 'Send inn prosjektbriefen din'
+      desc: 'Fortell om brettet ditt — målspesifikasjoner, antall, samsvarskrav og tidsplaner. Briefen tar 5–10 minutter. Er du usikker på noe, del det du har, så veileder vi deg gjennom resten. En NDA er tilgjengelig før du deler fortrolige design.'
+    - step: 'Trinn 2'
+      title: 'NDA & gjennomførbarhetskontroll (1–5 dager)'
+      desc: 'På forespørsel signerer vi en NDA, deretter kontrollerer vårt tekniske kontor briefen din med hensyn til produksjonskapasitet, materialtilgjengelighet og samsvarsomfang. Du får et detaljert tilbud med MOQ-beregning, prøvekostnader og en trinnvis plan.'
+    - step: 'Trinn 3'
+      title: 'Prøve & godkjenning (7–21 dager)'
+      desc: '1–2 fysiske brett iht. spesifikasjonen din. Du padler og vurderer — skrogstivhet, grafisk presisjon, passform for tilbehøret. Endringer registreres i en revidert BOM. Den godkjente prøven blir produksjonsreferansen. Prøvekostnadene trekkes fra produksjonen.'
+    - step: 'Trinn 4'
+      title: 'Forproduksjonsplanlegging (7 dager)'
+      desc: 'Materialinnkjøp, forberedelse av formverktøy, bekreftelse av emballasjen og reservasjon av produksjonsplass. Alle materialer inspiseres ved mottak mot den låste BOM-en. Før produksjonsstart levereres en plan med QC-kontrolldata.'
+    - step: 'Trinn 5'
+      title: 'Produksjon, QC & frakt (4–6 uker)'
+      desc: 'Produksjonen går gjennom inspeksjonssystemets sju nivåer, med kriterier for godkjenning/avvisning ved hver kontroll. Eksportklare emballasjer, samsvarsdokumentasjon og koordinering av sjøtransport til over 50 land. En analyse etter leveransen samler forbedringspunkter til neste ordre.'
+
+collaboration_types:
+  tagline: Velg veien din
+  title: 'Tre måter å samarbeide med iSupfactory på'
+  subtitle: 'Hvert prosjekt følger samme prosess — det som skiller er omfanget av konstruksjonen og den immaterielle eiendommen (IP).'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM-produksjon'
+      desc: 'Du leverer designen. Vi produserer iht. spesifikasjonen din. Du eier all IP. Ideelt for merker med dokumentert brettgeometri.'
+      link_label: 'Se detaljene om OEM'
+      href: /no/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM-utvikling'
+      desc: 'Du leverer briefen. Vi utvikler brettet. Tilpasset plattform med din branding. Ideelt for merker som går inn i markedet uten eget design.'
+      link_label: 'Se detaljene om ODM'
+      href: /no/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Varemerket ditt på en dokumentert plattform. Ingen konstruksjonsfase. Fra 5–10 enheter. Ideelt for virksomhetsdrivere og distributører.'
+      link_label: 'Se alternativene for private label'
+      href: /no/solutions/private-label-sup
+
+what_we_need:
+  heading: 'Hva du forbereder før briefen'
+  body: |
+    En komplett brief fremskynder prosessen. Dette hjelper:
+
+    - **Brettspesifikasjoner** — mållengde, -bredde og -tykkelse, padlerens vekt, tiltenkt bruk. Referansemål på brett eller konkurrentmodeller er nyttige.
+    - **Designfiler** — vektorgrafikk (AI, SVG, PDF) for grafikk og logoer. Er de ikke klare ennå, holder moodboards eller referansebilder for den første gjennomførbarhetskontrollen.
+    - **Antall & tidsplan** — måltall og sesongplan. En grov anslag («20–50 brett før mars») er nok for å komme i gang.
+    - **Samsvarskrav** — målmarkeder og spesifikke sertifiseringskrav utover CE, ISO 9001, BSCI, REACH, RoHS.
+    - **Budsjettrammer** — en indikativ budsjett per brett eller en målkostnad hjelper oss med å anbefale riktig plattform.
+
+    **Ikke alt klart ennå?** Send det du har. Vi veileder deg gjennom resten.
+
+faqs:
+  tagline: Vanlige spørsmål
+  title: 'Starte et SUP-prosjekt — vanlige spørsmål'
+  items:
+    - q: 'Hva er minste ordre for å komme i gang?'
+      a: 'Nivåene er trinnvise: først 1–2 prøver (7–12 dager), deretter en prøveordre på 20–50 brett (25–35 dager), og så standardseriekjøringer på 90–100+ brett per godkjent konfigurasjon. Private label co-branding starter fra 5–10 enheter uten utviklingsfase.'
+    - q: 'Hvor lang tid tar det før jeg får prøvene?'
+      a: 'De fysiske prøvene produseres 7–12 dager fra bekreftelse av spesifikasjon og depositum. Med eksisterende skrogplattformer tar hele syklusen fra brief til levert prøveordre normalt 8–12 uker. En tilpasset brettform gir 15–20 dager ekstra formutvikling.'
+    - q: 'Er designen min beskyttet?'
+      a: 'Ja. En NDA er tilgjengelig umiddelbart — før du deler fortrolig informasjon. Vi produserer utelukkende under kundenes varemerker og konkurrerer aldri med dem. Alle tekniske filer lagres i systemer med tilgangskontroll og revisjonsspor.'
+    - q: 'Hva spør prosjektbriefen om?'
+      a: 'Briefen spør om aktivitetstype, bedriftsnavn, målspesifikasjoner for brettet, spennet for ordreantall, tidsplan og eventuelle samsvarskrav. Det tar omtrent 5–10 minutter. Du kan legge ved designfiler (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) opptil 10 MB. Er du usikker på noe felt, hopp over det — vi tar kontakt.'
+    - q: 'Hva skjer etter at jeg har sendt inn briefen?'
+      a: 'Du får svar innen én arbeidsdag. Vårt tekniske kontor gjennomgår briefen din og leverer et detaljert tilbud med MOQ, prøvekostnader og en trinnvis plan. Ingen forpliktelse oppstår før du har lest og signert kontrakten. Prøvekostnadene trekkes fra produksjonsordren.'
+
+cta:
+  title: 'Klar til å begynne?'
+  subtitle: 'Send inn prosjektbriefen din — brettspesifikasjoner, antall og tidsplan — så bekrefter vi gjennomførbarheten, produserer prøvene og leverer en produksjonsplan med dokumentert QC i hver fase.'
+  actions:
+    - variant: primary
+      text: Start prosjektbriefen
+      href: /no/contact#project-brief
+    - text: Les hele onboarding-guiden
+      href: /no/oem-onboarding-guide
+    - text: Verifiser fabrikk og kvalitetssystem
+      href: /no/proof-center

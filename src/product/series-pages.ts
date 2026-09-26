@@ -2019,6 +2019,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+  no: [
+    {
+      slug: 'all-around',
+      navLabel: 'Allround',
+      metaTitle: 'Skreddersydde allround-SUP-brett — produsent av oppblåsbare OEM-brett | iSupfactory',
+      metaDescription:
+        'Skreddersydde oppblåsbare allround-SUP-brett produsert under ditt merkenavn — bred stabilitet, OEM/ODM-volumer fra 90–100+ stk, prøver på 7–12 dager. Direkte fra fabrikken i Qingdao, Kina.',
+      kicker: 'Serie · Allround',
+      h1: 'Skreddersydde allround-SUP-brett — standardplattformen for nye merker',
+      intro: [
+        'Allroundbrettet er SUP-kategoriens arbeidshest: bredt nok til å føles stabilt for nybegynnere, smidig nok til å holde interesserte padlere engasjert og lett nok til å bære overalt. De fleste nye merker og de fleste utleieflåter starter her.',
+        'Vi produserer allround-plattformer under ditt merkenavn fra 90–100+ stk per 150 m rulle (volum), med pilotpartier fra 20–50 stk. Form, finner, oppbygging, farger, helt dektrykk og emballasje spesifiseres per prosjekt.',
+      ],
+      faqs: [
+        {
+          q: 'Kan jeg få en allround-SUP skreddersydd til mitt merke?',
+          a: 'Ja. Hver allround-plattform er en produksjonsbase — du spesifiserer mål (vanligvis 10′6″ til 11′6″), bredde, tykkelse, oppbygging (ettlag eller tolag, eller fusion), finnekonfigurasjon, EVA-pute, helt dektrykk og emballasje. Former med egen form starter på 90–100+ stk per form; standardvolumproduksjon fra 90–100+ stk per 150 m rulle.',
+        },
+        {
+          q: 'Hva er minste bestillingskvantum (MOQ) for allround-SUP-brett?',
+          a: 'Standardvolumpartier starter på 90–100+ stk per 150 m rulle; pilotserier på standardplattformer starter på 20–50 stk; helt egne former krever fra 90–100+ stk per form. Prøver sendes innen 7–12 dager, og serieproduksjonen tar 25–35 dager etter bekreftet bestilling og depositum.',
+        },
+        {
+          q: 'Hva inngår i butikkklart-pakken?',
+          a: 'Hele pakken: oppblåsbart brett med drop-stitch-kjerne, justerbar paddle, håndpumpe (eller elektrisk totrinns), reparasjonssett, ryggsekk og trykt boks. Tilbehør kan byttes eller oppgraderes etter målgruppen din.',
+        },
+        {
+          q: 'Hvilken hardhet på EVA-dekk produserer dere?',
+          a: 'Dekkenes greppmatter ligger på 45–55 Shore C — middels hardt, greppsikkert under føttene uten å bli hardt i solen. Tykkelse, spor, utskjæringer og logoplassering spesifiseres per prosjekt.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Racing',
+      metaTitle: 'Skreddersydde racing-SUP-brett — oppblåsbare racingplattformer, OEM | iSupfactory',
+      metaDescription:
+        'Skreddersydde oppblåsbare racing-SUP-brett for klubber, arrangementer og merker — drop-stitch-racing-skrog, OEM-volumer fra 90–100+ stk, CE-sertifisert produksjon. Direkte fra fabrikken.',
+      kicker: 'Serie · Racing',
+      h1: 'Skreddersydde racing-SUP-brett — racing-skrog bygget for ditt merke',
+      intro: [
+        'Racingbrett bytter stabilitet mot fart: lengre og smalere profiler med avanserte bueformer og lav rocker, bygget for forskyvningspadling. De oppblåsbare versjonene matcher harde racingbrett på ytelse, i en portabel plattform.',
+        'Vi produserer racing-plattformer for merker, klubber og arrangører med presisjonskjerner i drop-stitch, racing-spesifikk oppbygging og fartshungrige skrogformer — testet i vår hydrodynamiske testtank.',
+      ],
+      faqs: [
+        {
+          q: 'Hvilke racing-SUP-mål kan dere produsere?',
+          a: 'Typiske racing-plattformer går fra 12′6″ × 28″ for 12′6-klasser til 14′ × 23″–25″ for unlimited/touring-formater. Bredde, rocker og bueprofiler spesifiseres for målgruppen og verifiseres på en fysisk prøve.',
+        },
+        {
+          q: 'Krever racingbrett en spesiell konstruksjon?',
+          a: 'Ja — racingbrett bruker en lettere, tettvevd drop-stitch-kjerne med høyere psi (18–20 PSI) og stivere forsterkning langs kantene for å holde skrogformen i fart. Valg av oppbygging (ettlag eller tolag) avveier vekt mot stivhet, og vi spesifiserer dette sammen med deg per prosjekt.',
+        },
+        {
+          q: 'Kan klubber bestille racingbrett til laget sitt?',
+          a: 'Ja. Klubb- og lagprogram bestiller fra 90–100+ stk (volum) med klubbgrafikk og kan kombinere racing- og treningsplattformer i samme bestilling. Flåtepriser gjelder for kombinerte volumer.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Surf',
+      metaTitle: 'Skreddersydde surf-SUP-brett — oppblåsbare hybrid-surfplattformer, OEM | iSupfactory',
+      metaDescription:
+        'Skreddersydde oppblåsbare surf-SUP-brett — hybrid-surfprofiler med avrundede finner og høy rocker, produsert under ditt merkenavn fra 90–100+ stk i Qingdao, Kina.',
+      kicker: 'Serie · Surf',
+      h1: 'Skreddersydde surf-SUP-brett — hybrid-surfplattformer for bøllesurfing',
+      intro: [
+        'Surf-SUP-brett gir bølleytelse i en portabel plattform: kortere lengder, høyere rocker, avrundede finner og konkave buer som holder linjen på bølgens front. Oppblåsbare surfformer er den mest tilgivende veien inn i surfpadling.',
+        'Vi produserer surfplattformer under ditt merkenavn med bøllespesifikke former og konstruksjonsdetaljer — fra komplette soft-top-pakker til ytelseskonsepter.',
+      ],
+      faqs: [
+        {
+          q: 'Hvilke størrelser finnes for surf-SUP-brett?',
+          a: 'Vanlige surfplattformer går fra 8′6″ til 10′6″ med bredder rundt 30″–34″. Lengde, rocker og finneprofil spesifiseres ut fra padlerens vekt og bølletype og verifiseres på en fysisk prøve før produksjon.',
+        },
+        {
+          q: 'Er oppblåsbare surfbrett holdbare nok for utleie?',
+          a: 'Med forsterkede finner og UV-bestandig PVC tåler våre surfplattformer utleie og undervisning på surfskoler. Utleieflåter kombinerer vanligvis allround- og surfformer — flåtepriser gjelder for det kombinerte volumet.',
+        },
+        {
+          q: 'Kan dere matche vår merkegrafikk på surfbrett?',
+          a: 'Ja. Heldekksgrafikk, bunnkunst, EVA-greppmatter og emballasje produseres fra ditt artwork eller utvikles av vårt designteam ut fra merkevarets dine ressurser.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Touring',
+      metaTitle: 'Skreddersydde touring-SUP-brett — langdistsplattformer, OEM | iSupfactory',
+      metaDescription:
+        'Skreddersydde oppblåsbare touring-SUP-brett for langdistspadling — forskyvningsskrog fra 12′6″, kapasitet for flerdagsturer, OEM-volumer fra 90–100+ stk, direkte fra fabrikken.',
+      kicker: 'Serie · Touring',
+      h1: 'Skreddersydde touring-SUP-brett — bygget for avstand, last og lange strekninger',
+      intro: [
+        'Touringbrett er lange og effektive: spisse buer for glid, moderat volum for stabilitet på åpent vann og nok skroglengde til å bære utstyr på flerdagsturer. De er den naturlige plattformen for distansepadlere og ekspedisjonsutstyr.',
+        'Vi produserer touringplattformer under ditt merkenavn med forskyvningsform, festepunkter og dekksflate for last samt tilbehørssystemer kompatible med karbon (bungees, D-ringer, fester).',
+      ],
+      faqs: [
+        {
+          q: 'Hvilke touring-SUP-størrelser produserer dere?',
+          a: 'Touringplattformer går vanligvis fra 12′6″ til 14′ med bredder på 28″–32″. Lengre 14′-skrog prioriterer glid; bredere versjoner gir laststabilitet. Spesifikasjonene bekreftes med en fysisk prøve før serieproduksjon.',
+        },
+        {
+          q: 'Leverer touringbrett med last- og festemuligheter?',
+          a: 'Ja — bungee-lastnett, D-ringnett, stangholdere og tilbehørsskinner spesifiseres per prosjekt. Touringpakker kombinerer vanligvis brettene med ryggsekker og høytrykkspumper.',
+        },
+        {
+          q: 'Leverer dere touringbrett til utfittere og utleieoperatører?',
+          a: 'Ja. Utfittere og operatører kan drive dedikerte touringflåter fra 20–50 stk (pilot) med flåtepriser, reservedeler og en definert sesongsyklus for fornying.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Yoga',
+      metaTitle: 'Skreddersydde yoga-SUP-brett — brede, stabile plattformer, OEM | iSupfactory',
+      metaDescription:
+        'Skreddersydde oppblåsbare yoga-SUP-brett — ekstra brede, stabile plattformer med mykt dek for studios, resorts og instruktører. OEM-volumer fra 90–100+ stk, direkte fra fabrikken.',
+      kicker: 'Serie · Yoga',
+      h1: 'Skreddersydde yoga-SUP-brett — ekstra brede plattformer for utøvere på vannet',
+      intro: [
+        'Yogabrett er bygget for ro: ekstra bredde og volum for en stabil plattform, myk topp for hender og føtter og lave profiler som holder brettet nær vannet. De tjener studios, resorts og instruktører som driver vann-yogaprogrammer.',
+        'Vi produserer yogaplattformer under ditt merkenavn med de bredeste stabile profilene, premium-EVA-dekk og alternativ i programmeringsskala for studio- og resortflåter.',
+      ],
+      faqs: [
+        {
+          q: 'Hva gjør et SUP-brett godt for yoga?',
+          a: 'Stabilitet først: ekstra bredde (33″–36″) og volum holder brettet flatt og stødig. Et mykt EVA-dekk beskytter hender, knær og føtter, og en lavprofilkant reduserer vagging når man går av og på.',
+        },
+        {
+          q: 'Kan resorts bestille yogabrett som en del av en flåte?',
+          a: 'Ja. Resorts kombinerer vanligvis yogaplattformer med allround-brett for gjester. Kombinerte flåtevolumer kvalifiserer til flåtepriser, og merkegrafikk i anleggets fargepalett gjelder for hele bestillingen.',
+        },
+        {
+          q: 'Inngår komplette pakker i yogabrettene?',
+          a: 'Ja — oppblåsbart brett, paddle, pumpe, ryggsekk og reparasjonssett, eller en redusert sett for oppbevaring på stedet (brett + paddle + elektrisk pumpe), avhengig av hva programmet krever.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Hvitevann',
+      metaTitle: 'Skreddersydde hvitevann-SUP-brett — plattformer for elv og stryk, OEM | iSupfactory',
+      metaDescription:
+        'Skreddersydde oppblåsbare hvitevann-SUP-brett for elver og stryk — korte, manøvrerbare skrog med forsterket slåkonstruksjon. OEM-volumer fra 90–100+ stk i Qingdao, Kina.',
+      kicker: 'Serie · Hvitevann',
+      h1: 'Skreddersydde hvitevann-SUP-brett — elveskrog bygget for å tåle støt',
+      intro: [
+        'Hvitevannsbrett er korte, brede og tålige: manøvrerbare skrog som svinger på kommando, høy slåstyrke for treff mot kantene og robust konstruksjon for grunne elvebunn og steinsamlinger.',
+        'Vi produserer hvitevannsplattformer under ditt merkenavn med forsterkede sømmer, slåfinner og elvespesifikke former — bygget for skoler, guider og elveutfittere som kjører daglige leksjoner og turer.',
+      ],
+      faqs: [
+        {
+          q: 'Hvilken konstruksjon trenger hvitevannsbrett?',
+          a: 'Forsterkede finner og dobbeltsydd konstruksjon absorberer slag mot kantene; tykk PVC og flerlagsoppbygging motstår punkteringer fra elvebunn. Dobbeltkammerdesign gir ekstra flytereserve på avsides elver.',
+        },
+        {
+          q: 'Leverer dere til elveutfittere og guideskoler?',
+          a: 'Ja. Utfittere og guideskoler driver hvitevannsflåter fra 20–50 stk (pilot) med flåtepriser, robuste reparasjonssett og reservedelskomponenter til finner og ventiler — typisk for elveprogrammer med høy bruksintensitet.',
+        },
+        {
+          q: 'Kan hvitevannsbrett bære merkegrafikk?',
+          a: 'Ja — heldekksgrafikk, logoplassering og lagfarger produseres fra ditt artwork. Rivbestandige trykklag holder merket intakt ved hard bruk.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Fiske',
+      metaTitle: 'Skreddersydde fiskes-SUP-brett — OEM og private label | iSupfactory',
+      metaDescription:
+        'Skreddersydde oppblåsbare fiskes-SUP-brett med stabilitet, vektkapasitet og tilbehørsfester — OEM/private label-volumer fra 90–100+ stk, direkte fra fabrikken i Qingdao, Kina.',
+      kicker: 'Serie · Fiske',
+      h1: 'Skreddersydde fiskes-SUP-brett — bygget med fiskere i tankene',
+      intro: [
+        'Fiskebrett er stabile kastplattformer: brede og med høyt volum for å bære fiskeren pluss utstyr, med festesystemer for stangholdere, kjølebokser og terminaler samt stille konstruksjon for diskret innslag.',
+        'Vi produserer fiskeplattformer under ditt merkenavn med fiskerespesifikke funksjoner spesifisert per prosjekt — fra helgepakker til komplette konkurranseoppsett.',
+      ],
+      faqs: [
+        {
+          q: 'Hvilke fiskes-SUP-funksjoner kan spesifiseres?',
+          a: 'Festnett for stangholdere og tilbehør, utstyrsskinner, kjølebokslommer, forankringspunkter og brett med høy kapasitet opptil 500 lbs for fisker pluss utstyr. Pakkene kan inkludere padler, pumper og vesker med ditt merke.',
+        },
+        {
+          q: 'Hva er minste bestillingskvantum (MOQ) for OEM-bestillinger av fiskes-SUP?',
+          a: 'Standardvolumpartier starter på 90–100+ stk per 150 m rulle; pilotserier fra 20–50 stk på standardplattformer; egne former fra 90–100+ stk per form. Prøver sendes innen 7–12 dager; produksjonen tar 25–35 dager etter bekreftet bestilling og depositum.',
+        },
+        {
+          q: 'Produserer dere fiskebrett for utleie og guidet virksomhet?',
+          a: 'Ja. Guide- og utleievirksomheter driver fiskeflåter med flåtepriser, reservedeler og reparasjonssett tilpasset daglige programmer.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Barn',
+      metaTitle: 'Skreddersydde barne-SUP-brett — små, lette plattformer, OEM | iSupfactory',
+      metaDescription:
+        'Skreddersydde oppblåsbare barne-SUP-brett — kortere, lettere plattformer med barnevennlige dekk utformet for sikkerhet og moro. OEM-volumer fra 90–100+ stk, direkte fra fabrikken.',
+      kicker: 'Serie · Barn',
+      h1: 'Skreddersydde barne-SUP-brett — små, lette og bygget for de første paddletakkene',
+      intro: [
+        'Barnebrett er proporsjonert for unge padlere: kortere skrog, lavere vekt, smalere bredder tilpasset små kropper og myke dekk som tilgir fall. De er inngangsporten for familiemerker, skoler og utleieflåter som retter seg mot barn.',
+        'Vi produserer barneplattformer under ditt merkenavn i standard- og juniorstørrelser, med familjevennlige pakkealternativer.',
+      ],
+      faqs: [
+        {
+          q: 'Hvilke størrelser finnes barne-SUP-brett i?',
+          a: 'Typiske barneplattformer går fra 7′ til 9′6″ med bredder fra 26″ til 30″ og vekter rundt 7–9 kg (15–20 lbs). Størrelsen matches mot padlerens alder og vekt og verifiseres på en fysisk prøve før produksjon.',
+        },
+        {
+          q: 'Leverer dere til skoler og ungdomsprogrammer?',
+          a: 'Ja — våre barneplattformer er en vanlig del av skole- og ungdomsflåter, bestilt sammen med juniorpadler og nybeginnertilbehør med programpriser.',
+        },
+        {
+          q: 'Kan barnebrett bære merke- og tegneseriegrafikk?',
+          a: 'Ja. Heldekksfargesett, tegneseriekunst og logoplassering utvikles fra ditt artwork eller merkretningen — trykt med de samme rivbestandige lagene som voksne brett.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Flerperson',
+      metaTitle: 'Skreddersydde flerperson-SUP-brett — tandem og familie, OEM | iSupfactory',
+      metaDescription:
+        'Skreddersydde oppblåsbare flerperson-SUP-brett for familierekreasjon og gruppeleksjoner — tandem-, yard- og partyplattformer. OEM-volumer fra 90–100+ stk, direkte fra fabrikken.',
+      kicker: 'Serie · Flerperson',
+      h1: 'Skreddersydde flerperson-SUP-brett — tandem-, yard- og partyplattformer',
+      intro: [
+        'Flerpersonbrett åpner SUP for grupper: tandem med ekstra padleplasser, yardbrett for avslapning og partyplattformer som bærer flere padlere. De forankrer utleieinntektene på resorts, strender og sjøanlegg.',
+        'Vi produserer flerpersonplattformer under ditt merkenavn med de stabilitets- og volumprofilene hvert brukstilfelle krever.',
+      ],
+      faqs: [
+        {
+          q: 'Hvilke typer flerpersonbrett lager dere?',
+          a: 'Tandem (to padlere, ~13′–14′), yardbrett (korte, brede avslapningsplattformer) og partyplattformer med høyt volum for 3–6 padlere. Hver type spesifiseres etter kapasitet, vekt og tiltenkt bruk.',
+        },
+        {
+          q: 'Er flerpersonbrett en god utleieinvestering?',
+          a: 'Ja — de gir premiumtimepriser med lavere utstyrskostnad per padler og holder grupper samlet i stedet for å spre dem på enkelte brett. Utleieoperatører kombinerer vanligvis flerpersonbrett med allroundflåter.',
+        },
+        {
+          q: 'Hva er kapasiteten til en partyplattform?',
+          a: 'Kapasiteten avhenger av mål og volum: typiske yard- og partyplattformer tåler 400–700 lbs og bærer 3–6 padlere, avhengig av størrelse og konfigurasjon. Spesifikasjonene bekreftes på en fysisk prøve før serieproduksjon.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

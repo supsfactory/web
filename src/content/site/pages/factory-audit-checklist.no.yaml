@@ -1,0 +1,105 @@
+meta:
+  title: 'Fabrikkaudit-sjekkliste — hva du bør kontrollere før du velger en SUP-produsent | iSupfactory'
+  description: 'Fabrikkaudit-sjekkliste for kjøpere av oppblåsbare SUP-brett: kvalitetssystem, kapasitet, materialsporbarhet, trykktesting, sosialt samsvar og dokumentasjon.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'sup fabrikk audit sjekkliste'
+    - 'audit produsent oppblåsbare paddle boards'
+    - 'sup fabrikk verifisering'
+    - 'oem fabrikk inspeksjon'
+    - 'sup kvalitetsaudit'
+    - 'sup leverandør due diligence'
+    - 'audit produksjon oppblåsbar sup'
+
+hero:
+  tagline: 'Due Diligence'
+  title: 'Fabrikkaudit-sjekkliste'
+  subtitle: 'Før du velger en SUP-produsent gransker du grunnlaget. Denne sjekklisten dekker de åtte områdene en profesjonell kjøper bør revidere — fra kvalitetsledningssystemet og produksjonskapasiteten til materialsporbarheten og det sosiale samsvaret. Hvert punkt på denne listen kan vi dokumentere med registre, ikke bare med påstander.'
+
+answer:
+  label: 'Kort svar'
+  text: 'De åtte viktigste auditområdene: (1) Kvalitetsledningssystem — ISO 9001-sertifisering og faktiske inspeksjonsregistre for hver port, ikke bare et sertifikat på veggen. (2) Produksjonskapasitet — faktiske produksjonstall, ikke bare nominell kapasitet. (3) Materialsporbarhet — inngående varekontroll og testresultater på partinivå. (4) Trykk- og strukturprøving — dokumenterte protokoller for trykkholdingstesten. (5) Sveise- og montasjekontroller — RF-sveiseparametere og søminspeksjon. (6) Sosialt samsvar — BSCI eller en tilsvarende revisjon. (7) Dokumentasjon og sporbarhet — partiregistre, inspeksjonsprotokoller, samsvarssertifikater. (8) Support etter levering — garantiprosedyrer, reservedeler, kommunikasjonens responstid.'
+  verified: 'September 2026'
+
+audit_areas:
+  tagline: Åtte auditområder
+  title: 'Hva du bør kontrollere — de åtte auditområdene'
+  subtitle: 'Hvert område omfatter spørsmålene du bør stille, registre du bør be om, og advarselssignaler du bør se etter.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: Q
+      icon_bg: blue
+      title: '1. Kvalitetsledningssystem'
+      desc: 'Be om: ISO 9001-sertifikat (akkreditert organ, gjeldende), intern revisjonsplan, CAPA-protokoller (korrigerende og forebyggende tiltak), inspeksjonsprosedyrer per port. Advarselssignal: bare et sertifikat, ingen inspeksjonsregistre eller CAPA-prosess på portnivå.'
+    - icon: C
+      icon_bg: green
+      title: '2. Produksjonskapasitet'
+      desc: 'Be om: månedlige produksjonstall per produkttype, produksjonsplan med gjeldende belegg, utstyrets kapasitet (antall formverktøy, CNC-maskiner, RF-sveiemaskiner). Advarselssignal: bare nominell kapasitet, ingen beleggstall eller produksjonsplan.'
+    - icon: M
+      icon_bg: purple
+      title: '3. Materialsporbarhet'
+      desc: 'Be om: registre over inngående varekontroll, leverandørsertifikater for PVC og drop-stitch, sporbarhet per parti fra råstoff til ferdig brett, REACH/RoHS-stoffdeklarasjoner. Advarselssignal: ingen sporbarhet på partinivå, materialsertifikater ikke tilgjengelige.'
+    - icon: P
+      icon_bg: orange
+      title: '4. Trykk- og strukturprøver'
+      desc: 'Be om: trykktestprotokoller (PSI, varighet, kriterier for godkjent/underkjent), prøveprotokoller for de aktuelle produksjonspartiene, registre over strukturprøver (fall, støt, strekkprøving i kant). Advarselssignal: «kun visuell kontroll» eller manglende dokumentert prøveprotokoll med kvantitative godkjent/underkjent-kriterier.'
+    - icon: W
+      icon_bg: blue
+      title: '5. Sveise- og montasjekontroller'
+      desc: 'Be om: registre over RF-sveiseparametere (temperatur, trykk, holdetid), kriterier for søminspeksjon og avkastningsprosent, dokumentasjon for montasjeserien. Advarselssignal: ingen protokoll for sveiseparametere, høy avkastning i sømmene uten CAPA.'
+    - icon: S
+      icon_bg: green
+      title: '6. Sosialt samsvar'
+      desc: 'Be om: BSCI- eller SMETA-revisjonsrapport (gjeldende, fullstendig omfang), registre over arbeidstider og lønninger, rapporter fra arbeidsmiljøinspeksjoner, dokumentasjon for miljøtilsyn. Advarselssignal: ingen sosial revisjon fra tredjepart, eller en revisjon med alvorlige, ikke utbedrede avvik.'
+    - icon: D
+      icon_bg: purple
+      title: '7. Dokumentasjon og sporbarhet'
+      desc: 'Be om: produksjonsregistre for partiene, inspeksjonsprotokoller per port, samsvarssertifikater, pakningslister med partireferanser, sporingssystem for garantikrav. Advarselssignal: ingen dokumentasjon på partinivå, garantikrav ikke sporet eller ikke vurdert.'
+    - icon: A
+      icon_bg: orange
+      title: '8. Support etter levering'
+      desc: 'Be om: garantivilkår og klageprosedyre, gjennomsnittlig behandlingstid for klager, tilgjengelighet for reservedeler, forpliktelse om kommunikasjonens svartid, prosess for verifisering etter salg. Advarselssignal: ingen dokumentert garantiprosedyre, treg eller inkonsekvent kommunikasjon etter leveransen.'
+
+our_position:
+  heading: 'Vår posisjon i hvert auditområde'
+  body: |
+    Vi nøyer oss ikke med å erklære samsvar — vi leverer registrene. Slik er vår posisjon i hvert av de åtte auditområdene:
+
+    - **Kvalitetsledelse**: ISO 9001:2015-sertifikat, revidert årlig av et akkreditert tredjepartsorgan. Inspeksjonssystem med 7 porter og dokumenterte godkjent/underkjent-kriterier i hver port. CAPA-protokoller som vedlikeholdes og verifiseres hvert kvartal.
+    - **Produksjonskapasitet**: mer enn 120 000 brett i årskapasitet, rundt 10 000 i månedsproduksjon. Produksjonsplan er tilgjengelig for innsyn under fabrikkbesøket. 4 automatiserte produksjonslinjer, CNC-kapping, RF-sveising og et trykktestlaboratorium.
+    - **Materialsporbarhet**: sporbarhet på partinivå fra varens inngang til det ferdige brettet. Leverandørsertifikater for PVC og drop-stitch i arkivet. REACH- og RoHS-stoffdeklarasjoner finnes for hvert parti.
+    - **Trykktesting**: trykkholdingstest ved 18.0 PSI med automatisk kassering ved mer enn 0.50 PSI trykktap i løpet av 24 timer. Prøveprotokoller finnes for hvert produksjonsparti. Struktur- og støtprøving avhengig av konstruksjonstype.
+    - **Sveisekontroller**: RF-sveiseparametere protokollføres for hver produksjonssyklus. Søminspeksjon ved port 3 med dokumentert avkastningsprosent. CAPA startes når avkastningsgrensen overskrides.
+    - **Sosialt samsvar**: omfattes av en BSCI-revisjon. Registre over arbeidstider, lønninger og sikkerhet er tilgjengelige for innsyn under fabrikkbesøket.
+    - **Dokumentasjon**: produksjonsregistre for partiene, inspeksjonsprotokoller per port, samsvarssertifikater og pakningslister med partireferanser sendes med hver bestilling. Sporingssystem for garantikrav vedlikeholdes.
+    - **Support etter levering**: garantivilkår dokumentert i kontrakten. Gjennomsnittlig klageløsning under 14 arbeidsdager. Reservedeler på lager. Verifisering etter salg tilbys for hver første bestilling.
+
+evidence_review:
+  tagline: 'Bevis og verifisering'
+  title: 'VERIFISERTE SPESIFIKASJONER'
+  body: 'Alle produksjons- og kvalitetspåstander på denne siden verifiseres av Manufacturing Engineering-teamet vårt i fabrikken i Laixi, Qingdao. Sertifikater, QC-inspeksjonsregistre, trykk- og strukturrapporter og sporbarhetsprotokoller per parti finnes på forespørsel. Spesifikasjonene ble sist verifisert i september 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Fabrikkaudit — vanlige spørsmål'
+  items:
+    - q: 'Kan jeg besøke fabrikken for en revisjon på stedet?'
+      a: 'Ja. Vi tar gjerne imot fabrikkbesøk og kan ordne en strukturert revisjon som dekker alle åtte områdene. Et typisk besøk omfatter en omvisning i produksjonsområdet, observasjon av QC-portene, inspeksjon av materialageret, gjennomgang av dokumentene og en spørsmål-og-svar-økt med kvalitetssjefen. Avsett en hel dag. Kontakt oss for å planlegge.'
+    - q: 'Tilbyr dere auditdokumentasjonen før et besøk?'
+      a: 'Ja. Før besøket kan vi dele ISO 9001-sertifikatet, BSCI-rapporten, sammendraget av produksjonskapasiteten, trykktestprotokollen og eksempler på inspeksjonsregistre — slik at dere kan forberede målrettede spørsmål. De fullstendige partiregistrene finnes på stedet under besøket.'
+    - q: 'Hvilke tredjepartsinspeksjoner bruker dere?'
+      a: 'Vi samarbeider med SGS, Intertek og TÜV for tredjepartsinspeksjoner og -sertifiseringer. En tredjepartsinspeksjon før avsending er tilgjengelig på forespørsel for hver bestilling. Inspeksjonsomfang og kostnader bekreftes i tilbudsfasen.'
+    - q: 'Hvordan vet jeg at kvalitetssystemet faktisk anvendes, og ikke bare er dokumentert?'
+      a: 'Hvert brett går gjennom 7 inspeksjonsporter med kvantitative godkjent/underkjent-kriterier — ikke bare visuelle sjekklister. Data fra trykktesting, sveiseparametere og avkastningsprosent protokollføres for hvert parti og er tilgjengelig for deres verifisering. CAPA utløses automatisk for resultater utenfor spesifikasjon. Vi oppfordrer dere til å revidere prosessen direkte under et fabrikkbesøk.'
+
+cta:
+  title: 'Planlegg en fabrikkaudit'
+  subtitle: 'Be om auditdokumentasjonen eller planlegg et besøk på stedet. Vi leverer registrene — dere verifiserer prosessen.'
+  actions:
+    - variant: primary
+      text: Be om auditdokumentasjonen
+      href: /contact#project-brief
+    - text: Verifiser sertifiseringer og kvalitetssystem
+      href: /proof-center
+    - text: OEM-onboardingprosess
+      href: /oem-onboarding-guide

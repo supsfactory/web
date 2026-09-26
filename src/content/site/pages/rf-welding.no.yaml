@@ -1,0 +1,99 @@
+meta:
+  title: 'HF-sveisingssenter — dielektrisk forbindelse for SUP | {SITE}'
+  description: 'Høyfrekvenssveiseteknologi for lufttette og samsvarende sømmer i SUP-brett. Skaleringsprøving, lufttetthetskontroll og tilpassede fugsetoleranser.'
+  dateModified: '2026-08'
+back_text: 'Tilbake til F&U-senteret'
+home_label: 'Start'
+
+answer:
+  label: 'Kort svar'
+  text: 'Vi bruker dielektriske HF-presser på 15 kW som binder sammen PVC-sømmer molekylært (tilsvarende 200–600 °C varmluft), og vi validerer hver sveis: skaleringsprøving iht. ASTM D751, lufttetthet ved 18.0 PSI, med sømmer som er dokumentert og sporbare per enhet.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorium 03'
+  title: 'HF-sveisingssenter'
+  subtitle: 'Dielektrisk forbindelsesteknologi for sømmer som holder under trykk'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Vatrads HF-sveising, dielektrisk forbindelsesprosess'
+
+intro: 'En oppblåsbar SUP er bare så pålitelig som sømmene sine. En svak sveis kan sette hele luftkammeret i fare — og under føttene er et kammer som sprekker ikke en ubehagelighet, men en sikkerhetsrisiko. På {SITE.name} har vi investert i et eget høyfrekvenssveisingssenter (HF) som kombinerer industrielle dielektriske sveispresser med streng prosesskontroll og testing etter sveisingen. Hver forbindelse vi produserer, er dokumentert, sporbart og sertifisert for å oppfylle eller overgå det den internasjonale standarden for oppblåsbare båter krever.'
+
+content_html: |
+  <h2>Vitenskapen bak forbindelsen</h2>
+  <p>HF-sveising bruker elektromagnetisk energi med høy frekvens (typisk 27.12 MHz) for å aktivere de polare molekylene i det PVC-belagte stoffet og skape varme nøyaktig i materialets grenseflate. I motsetning til varmlufts- eller kilformet sveising skaper HF-sveising en ekte molekylær binding: de to stofflagene smelter sammen i sveisområdet til ett homogent materiale, noe som gir en forbindelse like sterk som utgangsmaterialet selv.</p>
+
+  <h2>Sveiseutstyr og prosessstyring</h2>
+  <p>Sveisingssenteret vårt er utstyrt med:</p>
+  <table>
+    <thead><tr><th>Maskin</th><th>Effekt / Kapasitet</th><th>Bruksområde</th></tr></thead>
+    <tbody>
+      <tr><td>Dielektrisk HF-press 1</td><td>15 kW, plate 2000 × 600 mm</td><td>Brettets hovedfuger, railbånd-dekk-forbindelser</td></tr>
+      <tr><td>Dielektrisk HF-press 2</td><td>10 kW, plate 1500 × 500 mm</td><td>Kilformet baugsveising, håndtakspatcher, ventilpatcher</td></tr>
+      <tr><td>CNC-styrt HF-sveisemaskin</td><td>8 kW, XY-bord 2500 × 1200 mm</td><td>Bøyde railfuger, logo-/panelrelieff, presisjonsarbeid</td></tr>
+      <tr><td>Automatisk varmluftskilformet sveisemaskin</td><td>Variabel temperatur, maks 1.2 m/min</td><td>Reservprosess for spesielle CSM-materialer</td></tr>
+    </tbody>
+  </table>
+  <p>Hver HF-press er utstyrt med lukket temperatur- og trykkovervåking. Sveiseparameterne — effekt, pressetid, kjøletid og elektrodetrykk — programmeres per materialtype og registreres i vårt Manufacturing Execution System (MES) for fullstendig sporbarhet.</p>
+
+  <h2>Kvalitetstester av forbindelsen — hver fugse, hvert brett</h2>
+  <p>Forbindelsens integritet kontrolleres etter et obligatorisk protokoll med fire tester:</p>
+  <ol>
+    <li><strong>Visuell inspeksjon</strong> — 100 % av fugsene kontrolleres for brennskader, skjev montering, forurensning eller ufullstendig smelting. Terskel for avvisning: 0.5 % av fugsens løpemeter.</li>
+    <li><strong>Skaleringsprøving</strong> — med hvert produksjonsparti kuttet en 25 mm bred rem ut av et sveisprøve. Minste skaleringskraft: 120 N/25 mm for PVC 1100 dtex.</li>
+    <li><strong>Lufttetthetstest</strong> — hvert ferdig brett pumpes opp til 18.0 PSI og holdes under trykk i 24 timer. Trykktapet må ikke overstige 0.50 PSI.</li>
+    <li><strong>Temperatursyklustest</strong> — prøvene utsettes for 50 sykluser fra -20 °C til +60 °C og gjennomgår deretter en ny skaleringsprøving. Tillatt styrketap: &lt; 10 %.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Sammenligning av skaleringskraft — HF-sveising kontra varmluftssveising (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">HF-sveising</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Varmluft</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Normativt minimum</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">HF-sveising oppnår konsistent 90-95 % av utgangsmaterialets styrke — langt over minimum.</p>
+  </div>
+
+  <h2>Faglig kompetanse</h2>
+  <p>Sveiseteamet vårt ledes av en senior prosessingeniør med 11 års erfaring med dielektrisk sveising av belagte stoffer. Hver operatør fullfører et internt sertifiseringsprogram på 6 måneder før de får arbeide med produksjonsfuger. Resertifisering krepes hvert år og omfatter en praktisk strekkprøving som vurderes etter vår interne Grade A-standard (skaleringskraft ≥ 160 N/25 mm).</p>
+
+  <h2>Tilpassede sveiseløsninger for særskilte krav</h2>
+  <p>Vi vet at én sveis spesifikasjon ikke passer alle bruksområder. HF-sveisingssenteret vårt utvikler jevnlig tilpassede forbindelseskonfigurasjoner for kunder med særskilte krav:</p>
+  <ul>
+    <li><strong>Flerlags forsterkningspatcher</strong> — for hardt belastede områder som railbånd og båtspiss utvikler vi flerlags-HF-sveisinger med et slitasjesterkt ytterlag, uten kompromiss på fleksibiliteten.</li>
+    <li><strong>Fuger for høytrykksbrett</strong> — for brett med en nominell trykk over 15 PSI validerer vi fugsegeometrien ved høyt arbeidstrykk og dokumenterer grensen i testrapporten.</li>
+    <li><strong>Sveising av paneler med fargeskift</strong> — tofargede stoffpaneler (f.eks. grått dekk + grå rail) sveises med et skjult overlapp for å bevare varemerket estetisk uten synlig sømmlinje.</li>
+  </ul>
+
+  <h2>Løftet vårt til deg</h2>
+  <p>Hvert brett vi leverer omfattes av vår forbindelseskvalitetsgaranti: hvis en fugse sveller i garantiperioden ved normal bruk, reparerer eller bytter vi ut det aktuelle luftkammeret gratis og utfører en årsaksanalyse for å hindre at det skjer igjen. Dette er ikke bare en garanti — det er et løfte om stadig forbedring basert på reelle driftsdata.</p>
+  <p>Når du velger {SITE.name}, velger du sømmer som er utformet, testet og dokumentert — ikke bare sveiset. Det er forskjellen mellom et brett som flyter og et brett som fungerer.</p>
+
+cta:
+  title: 'Diskuter sveisbehovene dine'
+  subtitle: 'Tilpassede fugsetoleranser, materialkompatibilitet eller prosessvalidering.'
+  actions:
+    - variant: primary
+      text: Kontakt sveiseteamet vårt
+      href: /no/contact#project-brief
+    - text: Tilbake til F&U-senteret
+      href: /no/randdcenter

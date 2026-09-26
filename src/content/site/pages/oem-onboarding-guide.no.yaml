@@ -1,0 +1,127 @@
+meta:
+  title: 'OEM-onboardingguide — steg for steg fra første kontakt til produksjon | iSupfactory'
+  description: 'OEM-onboardingguide: NDA, gjennomførbarhetskontroll, prøveproduksjon, godkjenning, planlegging før produksjon, produksjons-QC og levering. Steg for steg med gjennomgangstider.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM-onboardingguide'
+    - 'SUP-produksjonsprosess'
+    - 'onboarding av OEM-kjøpere'
+    - 'SUP-fabrikkprosess'
+    - 'faser i tilpassede SUP-bestillinger'
+    - 'OEM-prøveprosess'
+    - 'SUP-produksjonstider'
+
+hero:
+  tagline: 'Onboarding av OEM-kjøpere'
+  title: 'Din første SUP-bestilling, steg for steg'
+  subtitle: 'Fra første kontakt til levererte brett — OEM-onboardingprosessen hos iSupfactory går gjennom sju definerte porter, hver med tydelig gjennomgangstid, dokumentert resultat og en go/no-go-kontrollpunkt. Ingen uklarhet, ingen skjulte trinn, ingen overraskelser etter depositumet.'
+  actions:
+    - variant: primary
+      text: Start briefingen av prosjektet ditt
+      href: /no/contact#project-brief
+    - text: Sammenlign sporene OEM, ODM og Private Label
+      href: /no/oem-odm-private-label-comparison
+
+answer:
+  label: 'Kort svar'
+  text: 'En typisk OEM-onboarding tar 2–4 uker til prøvegodkjenning og 6–8 uker for den første produksjonssyklusen, regnet fra ordrebekreftelsen. Du begynner med en prosjektbriefing (brettspesifikasjoner, antall, samsvarskrav). Vi svarer innen én arbeidsdag, tilbyr en NDA før utveksling av egne data og produserer 1–2 fysiske prøver på 7–12 dager til din vurdering og godkjenning. Når prøven er frossen, følger produksjonsplanleggingen og produksjonen med faste QC-porter i hver fase. Hvert trinn er dokumentert og sporbart.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: 'De sju portene'
+  title: 'Onboardingforløp — sju porter fra briefing til levering'
+  subtitle: 'Hver port har en definert input, en definert output og en på forhånd avtalt gjennomgangstid. Du passerer ingen port uten uttrykkelig godkjenning.'
+  steps:
+    - step: 'Port 1'
+      title: 'Første forespørsel og NDA (dag 0)'
+      desc: 'Send via /contact en prosjektbriefing med målbrettspesifikasjonene dine, bestillingsantallet, samsvarskravene og tidsplanen. En NDA er umiddelbart tilgjengelig — før deling av egne tekniske spesifikasjoner eller artwork. Svar innen én arbeidsdag.'
+    - step: 'Port 2'
+      title: 'Gjennomførbarhetskontroll og tilbud (dag 1–5)'
+      desc: 'Konstruksjonsavdelingen kontrollerer briefingen din med hensyn til produksjonskapasitet, materialtilgjengelighet og samsvarsomfang. Du får et tilbudsforslag post for post med MOQ-beregning, prøvekostnader (som trekkes fra produksjonen) og en spesifikasjon av gjennomgangstider — ingen grove intervaller, men en planlegging port for port.'
+    - step: 'Port 3'
+      title: 'Prøveproduksjon (dag 6–17)'
+      desc: '1–2 fysiske brett i henhold til spesifikasjonen din: skrogets stivhet, det sklisikre EVA-deckpadets vedheft, grafikkens trofasthet, tilbehørets passform. Du tester og vurderer brettet før du binder deg til noe endelig. Prøvekostnadene trekkes fra produksjonsbestillingen ved signert kontrakt.'
+    - step: 'Port 4'
+      title: 'Prøvegjennomgang og godkjenning (dag 18–21)'
+      desc: 'Du vurderer prøven mot spesifikasjonen din — følelsen, grafikkens trofasthet, emballasje, tilbehør. Endringer tas inn i en revidert BOM og en godkjenning av artwork. Den frosne spesifikasjonen blir produksjonsreferansen for alle etterfølgende sykluser.'
+    - step: 'Port 5'
+      title: 'Planlegging før produksjon (dag 22–28)'
+      desc: 'Materialinnkjøp, installasjon av formverktøy, bekreftelse av emballasjen og reservasjon av produksjonsplassen. Alle materialer kontrolleres ved mottak mot den frosne BOM-en. Før produksjonsstart utstedes en produksjonsplan med datoene for QC-portene.'
+    - step: 'Port 6'
+      title: 'Produksjon og QC-porter (dag 29–55)'
+      desc: 'Produksjonen går gjennom systemet med 7 inspeksjonsporter: varemottakskontroll, kontroll av drop-stitch-stoffet, sveising og montering, trykk- og lufttetthetstest (24 timers holding ved 18.0 PSI, automatisk kassering over 0.50 PSI), montering av EVA-deckpad og tilbehør, grafikk- og merke-QC, sluttemballasje og dokumentasjon. Hver port har godkjent/underkjent-kriterier og sporbarhetsprotokoll.'
+    - step: 'Port 7'
+      title: 'Levering og oppfølging (dag 56–63)'
+      desc: 'Eksportklare emballasje, samsvarsdokumentasjon (CE, ISO 9001, BSCI, REACH, RoHS) og koordinering av sjøfrakt til over 50 land. En oppfølging etter levering henter inn lærdom og forbedringer til neste ordresyklus.'
+
+collaboration_modes:
+  tagline: 'Velg veien din'
+  title: 'Tre samarbeidsformer, én onboardingprosess'
+  subtitle: 'Hver ny kjøper går gjennom samme onboarding med sju porter — det som skiller er omfanget av konstruksjonsinvolvering og hvor den immaterielle eiendomsretten ligger.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM-produksjon'
+      desc: 'Du leverer den fullstendige designspesifikasjonen — skrogform, konstruksjon, grafikk, tilbehør. Vi produserer i henhold til spesifikasjonen din. Du eier all IP. Ideelt for merker med eksisterende produktserie og dokumentert brettgeometri.'
+      link_label: 'Slik fungerer OEM'
+      href: /no/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM-utvikling'
+      desc: 'Du leverer briefingen — brukerens målvekt, tiltenkt bruk, prisnivå — og vårt tekniske team utvikler brettet ut fra behovene dine. Tilpasset plattform med din merkesetting. Ideelt for merker uten egen designkapasitet som går inn i markedet.'
+      link_label: 'Slik fungerer ODM'
+      href: /no/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Sett merket ditt på en i praksis dokumentert plattform — ingen designfase nødvendig. Din logo på nose eller siderails fra kun 5–10 stykker. Ideelt for aktører og distributører som vil ha merkede brett uten utviklingssyklus.'
+      link_label: 'Private Label-alternativ'
+      href: /no/solutions/private-label-sup
+
+checklist:
+  heading: 'Hva du bør forberede før prosjektbriefingen'
+  body: |
+    Jo mer komplett briefingen din er, desto raskere og mer presist blir tilbudet. Slik forbereder du deg:
+
+    - **Brettspesifikasjoner** — mållengde, bredde og tykkelse, brukerens vektintervall og tiltenkt bruk (touring, allround, surf, fiske, yoga osv.). Har du referansemål eller en modell fra en konkurrent, legg dem ved.
+    - **Designfiler** — vektorgrafikk (AI, SVG eller PDF) for brettgrafikken, logoen på EVA-deckpadene og den sekundære merkesettingen. Er grafikken ikke klar, holder et moodboard eller referansebilder for den første gjennomførbarhetskontrollen.
+    - **Antall og planlegging** — din målmengde for den første bestillingen og sesongplanen du må holde. Selv et grovt intervall (f.eks. «20–50 brett før mars») hjelper oss med å bekrefte gjennomførbarheten og tilgangen til produksjonsplasser.
+    - **Samsvarskrav** — målmarkeder (EU, Nord-Amerika, Australia osv.) og eventuelle sertifiserings- eller testkrav utover standardene våre (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **Budsjett** — et veiledende budsjett per brett eller en målverdi på stedet hjelper oss med å anbefale riktig plattform og nivå. Eksakt pris bekreftes først etter den tekniske gjennomgangen — aldri tidligere.
+
+    Har du ikke alt, send det du har. Vi veileder deg gjennom resten.
+
+evidence_review:
+  tagline: 'Bevis og verifisering'
+  title: 'KONTROLLERTE SPESIFIKASJONER'
+  body: 'Alle produksjonspåstander på denne siden er verifisert av Manufacturing Engineering-teamet vårt i fabrikken i Laixi, Qingdao. Sertifikater, QC-inspeksjonsprotokoller, trykk- og strukturtester og registre over partisporbarhet er tilgjengelige på forespørsel. Spesifikasjonene ble sist verifisert i september 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'OEM-onboarding — vanlige spørsmål'
+  items:
+    - q: 'Hvor lang tid tar hele onboardingprosessen?'
+      a: 'Prøvegodkjenningen tar normalt 2–4 uker (inkludert prøveproduksjon på 7–12 dager og din gjennomgangs fase). Den første produksjonssyklusen tar 6–8 uker fra bekreftet bestilling og depositum. En ny skrogform legger til 15–20 dagers formbygging. Hver port har en på forhånd avtalt gjennomgangstid.'
+    - q: 'Må jeg signere en NDA før jeg deler designen min?'
+      a: 'En NDA er tilgjengelig direkte på forespørsel — før deling av egne tekniske spesifikasjoner eller artwork. Vi produserer utelukkende under kundenes merker og konkurrerer ikke med dem i noe marked. Samme policy gjelder for en enkelt prøve som for et containerprogram.'
+    - q: 'Hva er minste bestillingsmengde for en første OEM-syklus?'
+      a: 'Oppstarten er trinnvis: først 1–2 prøver (tilgjengelig innen 7–12 dager), deretter en prøve- eller pilotbestilling på 20–50 brett (produksjon på 25–35 dager), og så standardmengder på 90–100+ brett per godkjent konfigurasjon. Co-branding i små partier starter fra 5–10 stykker hvis det ikke trengs en utviklingsfase. Prøvekostnadene trekkes fra produksjonsbestillingen.'
+    - q: 'Hvordan er beskyttelsen av den immaterielle eiendomsretten regulert under onboarding?'
+      a: 'Designene og spesifikasjonene dine er beskyttet av NDA-en som signeres før utveksling av egne opplysninger. Alt artwork, BOM-data og tekniske filer oppbevares i systemer med tilgangskontroll og sporbart revisjonslogg. I OEM-modus eier du all IP. I ODM-modus er IP-en til den tilpassede plattformen delt slik det er avtalt. I Private Label-modus tilhører IP-en iSupfactory, og du får en lisens til merkesettingen.'
+    - q: 'Hvilke kvalitetsgarantier gjelder for en første bestilling?'
+      a: 'Hvert brett — prøve, prøveparti eller volum — går gjennom samme system med 7 inspeksjonsporter: varemottakskontroll, kontroll av drop-stitch-stoffet, sveising og montering, 24-timers trykk- og lufttetthetstest (18.0 PSI holding, automatisk kassering over 0.50 PSI), montering av EVA-deckpad og tilbehør, grafikk- og merke-QC, sluttemballasje og dokumentasjon. Kvaliteten senkes aldri for mindre bestillinger.'
+    - q: 'Hva er det første praktiske trinnet?'
+      a: 'Fyll ut /no/contact#project-brief med planlagte spesifikasjoner, målmengde og planlegging. Vi svarer innen én arbeidsdag med gjennomførbarhetskontrollen og et tilbudsforslag post for post. Alt annet i prosessen er dokumentert port for port, fra NDA til levering.'
+
+cta:
+  title: 'Klar til å starte SUP-prosjektet ditt?'
+  subtitle: 'Send oss brettspesifikasjonen din, målmengden din og planleggingen din. Vi bekrefter gjennomførbarheten, produserer prøver og leverer en produksjonsplan — port for port, med dokumentert QC i hver fase.'
+  actions:
+    - variant: primary
+      text: Start briefingen av prosjektet ditt
+      href: /no/contact#project-brief
+    - text: Sammenlign OEM, ODM og Private Label
+      href: /no/oem-odm-private-label-comparison
+    - text: Verifiser fabrikken og kvalitetssystemet
+      href: /no/proof-center

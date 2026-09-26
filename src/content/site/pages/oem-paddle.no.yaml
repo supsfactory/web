@@ -1,0 +1,105 @@
+meta:
+  title: 'OEM og private label oppblåsbar padle | {SITE}'
+  description: 'OEM/ODM-produsent av oppblåsbare padler: produksjon av tilpassede padler, private label og engros. CE-sertifisert fabrikk i Kina.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'OEM paddle board'
+    - 'ODM oppblåsbar SUP'
+    - 'Private Label SUP'
+    - 'produsent av tilpassede padler'
+    - 'engros paddle board'
+    - 'profesjonell SUP-leverandør'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'OEM-produksjon av oppblåsbare padler under merket ditt'
+  subtitle: 'Fra idé til ferdig produkt: vi lager din egen oppblåsbare padle. Logo, farger, emballasje, eget formverktøy — OEM/ODM-produksjon i Kina, klar for markedet ditt.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Tilpasset OEM-padle med merkelogo
+  actions:
+    - text: 'Start OEM-prosjektet mitt'
+      href: /no/contact
+
+answer:
+  label: 'Kort svar'
+  text: 'Minste bestillingsmengde fastsettes per prosjekt: prøve (1–2 enheter), pilot (20–50 enheter) og standardvolum (90–100+ enheter per parti fra en drop-stitch-rull på 150 m), med co-branding for små partier fra 5–10 enheter. Prøver sendes innen 7–12 dager; serieproduksjonen tar 25–35 dager etter bestilling og depositum. CE-sertifiseringen for modeller beregnet for EU-markedet og fullstendig samsvarsdokumentasjon inngår i hver bestilling.'
+  verified: 'September 2026'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Tilpasset OEM-padle med merkelogo
+  actions:
+    - text: 'Start OEM-prosjektet mitt'
+      href: /no/contact
+      variant: primary
+    - text: 'Se OEM-pakkene'
+      href: /no/oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Dager produksjonstid'
+    detail: 'Fra bekreftet bestilling og depositum'
+  - value: '50'
+    label: 'Minste MOQ (enheter)'
+  - value: '200+'
+    label: 'Leverte modeller'
+  - value: '100%'
+    label: 'CE-sertifisering inkludert'
+features:
+  title: 'En komplett OEM-service'
+  subtitle: 'Alt under ett tak: design, prototyper, produksjon, kvalitetskontroll og logistikk.'
+  columns: 3
+  items:
+    - title: 'Design og konstruksjon'
+      description: '3D-modellering, materialvalg PVC/VS2 og tilpasset grafisk design.'
+      icon: 'tabler:palette'
+    - title: 'Prototype og validering'
+      description: 'CE-sertifisert prøve med kvalitetstesting før masseproduksjonen.'
+      icon: 'tabler:flask'
+    - title: 'Masseproduksjon'
+      description: 'Produksjon i stor skala med inline-QC og støtte for fabrikkrevisjoner.'
+      icon: 'tabler:building-factory'
+    - title: 'Private Label'
+      description: 'Logo, etiketter, emballasje og displaykartong i stil med merket ditt.'
+      icon: 'tabler:shield-check'
+    - title: 'Sertifisert kvalitet'
+      description: 'CE / ISO / BSCI / REACH — profesjonelle oppblåsbare padler for verdensmarkedet.'
+      icon: 'tabler:certificate'
+    - title: 'Global levering'
+      description: 'FOB Qingdao, CIF til verdens viktigste havner og levering fra dør til dør til over 50 land.'
+      icon: 'tabler:world'
+faqs:
+  title: 'FAQ om produksjon av OEM-padler'
+  subtitle: 'Svar på de vanligste spørsmålene fra merker som lanserer sin egen padle.'
+  items:
+    - title: 'Hvordan starter jeg mitt eget padlemerke?'
+      description: 'Lanser merket ditt: briefing, design, CE-sertifisert prototype, masseproduksjon og levering. Prøver på 7–12 dager, produksjon på 25–35 dager etter bestilling og depositum. Utforsk OEM-pakkene våre.'
+    - title: 'Hva er produksjonstiden?'
+      description: 'Prøven er klar på 7–12 dager og masseproduksjonen på 25–35 dager etter bestilling og depositum, avhengig av antall.'
+    - title: 'Bærer padlen logoen vår?'
+      description: 'Ja — fullstendig private label: logotrykk, tilpassede farger, emballasje og etiketter under merket ditt.'
+    - title: 'Kan jeg kjøpe store antall fra dag én?'
+      description: 'MOQ fastsettes per prosjekt — prøve (1–2 enheter), pilot (20–50 enheter) og standardvolum (90–100+ enheter per parti), med engrospriser som øker med antallet.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Fordypning:</strong> produksjonen av padler og brett deler det samme <a href="/no/oem-manufacturing">OEM/ODM-programmet</a> og det samme <a href="/no/factory">fabrikkområdet på 12 500 m&sup2;</a> — ett tilbud dekker begge deler.</p>
+  </div>
+
+geo:
+  tagline: 'B2B-posisjonering'
+  sentence: 'Vatrad er en profesjonell produsent av oppblåsbare SUP-er og paddle boards (OEM/ODM), spesialisert på design, tilpasset produksjon og vannsportsløsninger for merker, distributører, klubber og bedrifter.'
+  audiences:
+    - 'Private Label'
+    - 'Engros'
+    - 'Distributører'
+    - 'Vannsportssenter'
+cta:
+  title: 'Gi liv til padlemerket ditt'
+  subtitle: 'Få et detaljert OEM-tilbud innen én arbeidsdag.'
+  actions:
+    - text: 'Be om et OEM-tilbud'
+      href: /no/contact
+      variant: primary
+    - text: 'Last ned OEM-guiden'
+      href: /no/research/oem-buyer-guide
+      variant: secondary

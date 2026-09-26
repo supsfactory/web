@@ -1,0 +1,85 @@
+meta:
+  title: 'Produksjonskapasitet — Fabrikk på 12 500 m² | {SITE}'
+  description: 'Kapasiteten i Vatrad-fabrikken: produksjonslokasjon på 12 500 m² med en årskapasitet på over 120 000 SUP-brett og rom for utvidelse. OEM/ODM-produksjon av oppblåsbare SUP-brett i stort volum.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup produksjonskapasitet'
+    - 'fabrikk oppblåsbare sup'
+    - 'paddle board produksjon'
+    - 'sup fabrikk kina'
+hero:
+  tagline: Produksjonskapasitet
+  title: Produksjonskapasitet og årsproduksjon
+  subtitle: Produksjonslokasjon på 12 500 m² med en årskapasitet på over 120 000 SUP-brett og rom for utvidelse
+
+answer:
+  label: 'Tydelig svar'
+  text: 'Fabrikkens kapasitet: 12 500 m² i fire spesialiserte verksteder, over 120 000 SUP-brett per år, over 350 medarbeidere i to skift, eksport til mer enn 50 land. MOQ bekreftes ut fra prosjektkonfigurasjonen — prøve (1–2 enheter), pilotparti (20–50 enheter) og standardantall (90–100+ enheter per rull på 150 m); se guiden vår om fleksibel MOQ og branding for hele logikken. Leveringstid 25–35 dager, prøve på 7–12 dager.'
+  verified: 'September 2026'
+
+intro: Vatrad driver en av de største produksjonslokasjonene som er spesialisert på oppblåsbare SUP-brett i Qingdao, Kina. Fabrikken vår på 12 500 m² er organisert i fire spesialiserte verksteder som arbeider parallelt. Årskapasiteten for SUP overstiger 120 000 oppblåsbare SUP-brett (omtrent 10 000 per måned), med over 50 000 redningsvester og over 5 000 tilbehør produsert på egne produksjonslinjer.
+
+highlights:
+  - value: 12 500 m²
+    label: Totalt produksjonsareal
+    detail: Fordelt på 4 spesialiserte verksteder
+  - value: 120 000+
+    label: Årskapasitet for SUP
+    detail: Oppblåsbare SUP-brett, ca. 10 000/måned
+  - value: 350+
+    label: Spesialister
+    detail: Mer enn 25 ingeniører, 2 skift/dag
+  - value: 50+
+    label: Eksportland
+    detail: EU, USA, AU, Midtøsten, Asia
+  - value: 25–35
+    label: Standardleveringstid (dager)
+    detail: Etter bekreftet PO og depositum
+  - value: 10+
+    label: År med eksporterfaring
+    detail: Siden 2012
+
+workshops:
+  - title: SUP-produksjon
+    description: '4 automatiserte montasjelinjer for oppblåsbare SUP-brett med en samlet produksjon på rundt 10 000 brett per måned. Stasjonene for digital trykking og silkeskjermtrykk arbeider parallelt. Årskapasitet for SUP: over 120 000 brett.'
+    output: '120 000+ SUP-brett/år'
+  - title: SUP-produksjon — utvidelseslinjer
+    description: 'Flere automatiserte montasjelinjer for SUP-brett, aktivert når volumene vokser. Liming av drop-stitch-kjernen, digital trykking og montasjestasjonene arbeider parallelt.'
+    output: 'Del av årskapasiteten på over 120 000 SUP-brett'
+  - title: SUP-tilbehør og blandet montering
+    description: 'Multifunksjonelle montasjelinjer for SUP-tilbehør — padler, finner, leash-er, vesker og sett. Varmluftssveiestasjoner, HF-dielektriske presser og montasjebord omkonfigureres ut fra ordersammensetningen. Årskapasitet for tilbehør: over 5 000 enheter.'
+    output: '5 000+ tilbehør/år'
+  - title: Sikkerhetsutstyr
+    description: 'Separat renrumsavdeling for redningsvester og sikkerhetsutstyr. Egne stasjoner for sømsetting, skumfylling og testing. Årskapasitet for redningsvester: over 50 000 enheter.'
+    output: '50 000+ redningsvester/år'
+
+oem_capacity:
+  moq: 'SUP: prøve 1–2 | pilotparti 20–50 | antall 90–100+ (per rull på 150 m)'
+  lead_time: 'Standard 25–35 dager. Prøve 7–12 dager. Ekspress tilgjengelig.'
+  payment: 'T/T 30% depositum + 70% restbetaling. L/C, Western Union godtas.'
+
+lead_time_explainer:
+  tagline: 'Planlegging og timeplan'
+  title: 'Slik blir kapasiteten din til en leveranse'
+  subtitle: 'Kapasitet er ikke ett enkelt tall — slik tildeles leveringstidene egentlig.'
+  items:
+    - title: 'Kapasiteten varierer med spesifikasjonen din'
+      body: 'De tilgjengelige plassene flyttes etter brettype, konstruksjonskompleksitet, emballasje og sesongetterspørsel. I oppbyggingsfasen vår–sommer går linjene nesten på full kapasitet, og prøveplassene fylles først.'
+    - title: 'Planlegg før lanseringssesongen din'
+      body: 'Fastsett prøvegodkjenning og låsing av grafikk langt i forveien. Bestillinger planlegges i ditt avtalte bestillingsvindu så snart golden sample er arkivert.'
+    - title: 'Tre spor for planlegging'
+      body: 'Prøver går først inn på prototypelinjen, den første bestillingen havner i neste ledige montasjevindu, og bestillinger kjøres i sitt eget bestillingsvindu.'
+    - title: 'Bindende leveringstider etter verifisering'
+      body: 'Vi bekrefter en bindende leveringstid først når spesifikasjon, grafikk, emballasje og antall er verifisert — aldri som et fast løfte på forhånd.'
+
+cta:
+  title: 'Verifiser produksjonskapasiteten for lanseringsdatoen din'
+  subtitle: 'Send brettype, antall og planlagt leveringsdato — vi svarer med neste ledige produksjonsvindu og en bindende leveransevurdering.'
+  actions:
+    - variant: primary
+      text: Verifiser tilgjengeligheten
+      href: /contact#production-availability
+    - text: Se hele fabrikkoversikten
+      href: /factory
+    - text: Slik bygges brettene
+      href: /factory/process

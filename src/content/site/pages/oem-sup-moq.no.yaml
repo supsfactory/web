@@ -1,0 +1,67 @@
+meta:
+  title: "MOQ for oppblåsbare SUP-er — minste bestillingsmengde forklart på en enkel måte"
+  description: "Tydlige MOQ-nivåer for produksjon av tilpassede oppblåsbare SUP-er: 5–10 co-branding, 20–50 pilot, 90–100+ volum per rull. Beslutningsdiagram basert på tilpasningsnivå."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Direkte svar"
+    directAnswer:
+      answer: "Pilotkjøringer på eksisterende plattformer starter fra 20–50 stykker; standard-MOQ er 90–100+ stykker per drop-stitch-rull på 150 m (~180–220 brett)."
+      condition: "Det spesifikke MOQ-et avhenger av brettets form, materialrullen, trykken, emballasjen og om det trengs et nytt formverktøy."
+      value: "5–10 co-branding · 20–50 pilot · 90–100+ per rull volum"
+      verifiedDate: "September 2026"
+      sourceType: "fabrikksregistrering"
+    body: |
+      MOQ-et hos iSupfactory er trinnvis basert på tilpasningsnivået, det er ikke
+      ett enkelt fast tall. Hvert nivå tilsvarer et konkret produksjonsscenario:
+
+      | Scenario | MOQ | Enheter | Betingelser |
+      |----------|-----|----------|------------|
+      | Eksisterende plattform, kun logotrykk | 5–10 stykker | per design | Samme form, samme materialrull, samme fargevariant |
+      | Tilpasset grafikk / EVA / emballasje på eksisterende plattform | 20–50 stykker | pilotparti | Samme form; det nye artworket krever en visuell prøvekjøring |
+      | Standardvolumproduksjon (valgfri plattform) | 90–100+ stykker | per rull på 150 m (~180–220 brett) | Per materialrull; flere SKU-er = separate ruller |
+      | Ny form / egen form | 90–100+ stykker | produksjonskjøring | Formbyggingen legger til 15–20 dager; engangskostnad for formverktøy |
+
+  - title: 'Hva regnes som en "materialrull"?'
+    body: |
+      En rull på 150 meter drop-stitch-stoff gir, avhengig av brettets mål (vanligvis
+      10–11 ft), rundt 180–220 brett. Hver egen SKU — altså en annen kombinasjon av mål, farge
+      eller materiale — krever egne ruller og dermed et eget MOQ.
+
+      Derfor oppgis MOQ-et "per rull på 150 m" i stedet for "per design": to
+      fargevarianter av samme brettform er to ruller, to MOQ-er.
+
+  - title: "Co-branding kontra pilot kontra volum"
+    body: |
+      **Co-branding (5–10 stykker)**: din logo på en eksisterende plattform som allerede
+      produseres for et annet merke. Ingen endring av artworket utover plasseringen av logoen.
+      Raskeste vei til en merket prøve.
+
+      **Pilotparti (20–50 stykker)**: tilpasset grafikk, design av det sklisikre EVA-deckpadet
+      eller emballasje på en eksisterende plattformform. Krever godkjenning av den visuelle
+      prøvekjøringen før produksjonen. Ideelt for å teste et nytt uttrykk i markedet.
+
+      **Volumproduksjon (90–100+ stykker per rull)**: fullstendig produksjonskjøring med hver
+      kombinasjon av tilpasninger. Dette er det kommersielle standardnivået. Hver
+      materialrull gir rundt 180–220 brett.
+
+  - title: "MOQ for egne former"
+    body: |
+      Hvis designen din krever en ny brettform (ikke bare ny grafikk på en
+      eksisterende form), må et eget formverktøy utvikles. Dette gjøres på volumnivå
+      (90–100+ stykker), fordi investeringen i formverktøyet krever en produksjonskjøring
+      for å tjene seg inn. Formbyggingen legger til 15–20 dager i standardleveringstiden.
+
+      Eierskap til formverktøyet: formverktøyet er ditt. Det oppbevares i fabrikken vår og
+      brukes utelukkende til produksjonskjøringene dine.
+
+  - title: "Prøvebestillinger"
+    body: |
+      Prøver før produksjon er tilgjengelige med 1–2 brett for bekreftelse av passform og
+      overflatebehandling. De lages for hånd etter spesifikasjonen din og tar normalt
+      7–12 dager. Prøvekostnadene trekkes fra den første volumbestillingen din.
+
+evidence_review:
+  tagline: 'Bevis og verifisering'
+  title: 'KONTROLLERTE SPESIFIKASJONER'
+  body: 'Alle produksjonspåstander på denne siden er verifisert av produksjonsingeniørteamet vårt i fabrikken i Laixi, Qingdao. Sertifikater, QC-inspeksjonsprotokoller, trykktestingsrapporter og registre for struktur- og partisporbarhet er tilgjengelige på forespørsel. Spesifikasjonene ble sist verifisert i september 2026.'

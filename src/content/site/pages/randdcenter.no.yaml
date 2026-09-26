@@ -1,0 +1,131 @@
+meta:
+  title: 'F&U-senter — oppblåsbar SUP-teknologi | {SITE}'
+  description: 'Research & development — testing av PVC-stoffer, skrogbyggingsteknologi, HF-sveising, hydrodynamiske tester og kvalitetskontroll. Tilpassede F&U-tjenester finnes.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: F&U-senter
+  title: F & U-senter
+  subtitle: Fokus på fremskritt
+
+intro:
+  - Vatrads forsknings- og utviklingssenter (F&U) er drivkraften bakter vårt oppdrag om å fornye vannsportsutstyr. Med utrettelig innovasjon innen oppblåsbare stand up paddleboards (SUP) og gummibåter muliggjør vi tryggere, mer behagelige og vakrere produkter for vannsportsentusiaster over hele verden. Det dedikerte teamet vårt av ingeniører, designere og erfarne vannsportsentusiaster former bransjens framtid og hever stadig standarden for kvalitet, ytelse og holdbarhet.
+  - Vårt F&U-anlegg samler materialforskere, marineingeniører og produksjonsingeniører under ett tak. Fra stoffformulering og skipsimulering til utvikling av sveiseprosesser og storskala vannprøving — hver fase av produktutviklingen styres av data og valideres gjennom testing.
+
+mission:
+  tagline: Vårt oppdrag
+  title: Innovere vannsportens framtid
+  pillars:
+    - icon: lightning
+      title: Teknologisk fremdrift
+      desc: Banebrytende med nye materialer, design og produksjonsprosesser for overlegen produktytelse og levetid.
+    - icon: design
+      title: Brukerorientert design
+      desc: Gjennomtenkte brukerbehov og et design som innfrir dem med ergonomisk og intuitivt formspråk.
+    - icon: globe
+      title: Bærekraftige arbeidsmåter
+      desc: Minimerer miljøpåvirkningen vår med miljøvennlige materialer og prosesser.
+    - icon: shield
+      title: Sikkerhet uten kompromisser
+      desc: Garanterer høyeste sikkerhetsstandarder gjennom strenge tester og sertifiseringer.
+
+pillars:
+  - title: Teknologisk fremdrift
+    desc: Banebrytende med nye materialer, design og produksjonsprosesser for overlegen produktytelse og levetid.
+    icon: tech
+  - title: Fremskraftsorienterte materialer
+    desc: Forskning på banebrytende PVC, Hypalon, komposittmaterialer og bærekraftige alternativer for bedre produktegenskaper.
+    icon: materials
+  - title: Bærekraft
+    desc: 'Et grunnleggende strev: vi fremmer miljøansvar gjennom bærekraftig produksjon og resirkulerbare materialer.'
+    icon: sustainability
+
+capabilities:
+  tagline: Kapasitet
+  title: F&U-kapasitet
+  subtitle: Fire kjernedisipliner gir oss full kontroll over produktutviklingen fra start til slutt — fra råvareforskning til endelig sertifisering.
+  groups:
+    - title: Materialvitenskap & stoffteknologi
+      items:
+        - Analyse og optimalisering av PVC- og Hypalon-formuleringer
+        - Utvikling av UV-stabilisering, flammehemming og antimikrobielle tilsetninger
+        - Flerlagslaminering av stoffer og teknikker for limfuger
+        - Akselererte aldrings tester (UV, termisk, fukt, saltspray)
+    - title: Skrogbyggingsteknologi & hydrodynamikk
+      items:
+        - Parametrisk 3D-skrogdesign og CFD-optimalisering
+        - Elementanalyse for strukturelle og støtbelastninger
+        - Slippprøver i tank med modeller og ytelsesvalidering
+        - Tilpasset skrogutvikling for spesielle bruksområder
+    - title: Sveiseteknologi & forbandsteknologi
+      items:
+        - Utvikling og optimalisering av den dielektriske HF-sveiseprosessen
+        - Varmlufts-, varmlims- og ultralydsveiseprosesser
+        - Kvalifisering av limfuger og fugesoner
+        - Modellering av sveisestyrke og levetidsprognose
+    - title: Testing, sertifisering & samsvar
+      items:
+        - Kvalitetsledelse og CE-samvarstester
+        - Støtte til uavhengige partitester og sertifisering av tredjepart
+        - Utvikling av tilpassede testprotokoller for innkjøpskvalifisering
+        - Analyse av feltfeil og årsaksundersøkelse
+
+rd_numbers:
+  tagline: Innovasjon
+  title: F&U i tall
+  stats:
+    - value: '14'
+      label: F&U-ingeniører & forskere
+    - value: '8'
+      label: Aktive patenter & patentsøknader
+    - value: '6'
+      label: Spesialiserte laboratorier
+    - value: 12 år
+      label: Gjennomsnittlig teamerfaring
+
+rd_services:
+  tagline: Tilpasset F&U
+  title: F&U-tjenester for partnere
+  services:
+    - title: Tilpasset materialutvikling
+      desc: Vi utvikler tilpassede stoffformuleringer, laminatoppbygg og limesystemer, tilpasset bruksmiljøet og ytelseskravene dine.
+    - title: OEM / ODM produktdesign
+      desc: Vi utvikler tilpassede stoffformuleringer, laminatoppbygg og limesystemer, tilpasset bruksmiljøet og ytelseskravene dine.
+    - title: Tester & sertifisering av tredjepart
+      desc: Bruk våre ISO-samsvarende testanlegg for uavhengige materialtester, produktvalidering og sertifiseringsstøtte.
+  cta: Diskuter F&U-kravene dine →
+  cta_link: /no/contact
+
+vision:
+  tagline: Vår visjon
+  title: Forme vannsportens framtid
+  body: Vatrad streber etter å lede bransjen for gummibåter og SUP gjennom kontinuerlig innovasjon, konsekvent kvalitet og et sterkt engasjement for sikkerhet og bærekraft — og dermed berike vannsportsentusiastens opplevelser over hele verden. Vatrads F&U-senter er stedet der lidenskap møter innovasjon, og der nye målestokker settes for vannsportsbransjen.
+
+labs_section:
+  tagline: Laboratorier
+  title: Laboratoriene våre
+  labs:
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
+      title: Laboratorium for PVC-stoffer
+      description: Kontinuerlig forskning og testing av oppblåsbare PVC- og Hypalon-materialer med hensyn til strekkstyrke, UV-bestandighet, slitasje og kuldefleksibilitet, for langsiktig pålitelighet i maritime miljøer.
+      href: /no/randdcenter/pvc-fabric-lab
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
+      title: Studio for skrogbyggingsteknologi
+      description: CAD-støttet design og elementanalyse av skrog i HDPE, aluminium og glassfiber. Hvert skrog simuleres digitalt for spenningsfordeling og slaghållfasthet før den første prototypen bygges.
+      href: /no/randdcenter/hull-engineering
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
+      title: HF-sveisingssenter
+      description: Spesialisert høyfrekvenssveiseanlegg med nøyaktig kontroll av temperatur og trykk, som produserer ekstremt sterke, lufttette sømmer iht. bransjestandarder for oppblåsbare båter.
+      href: /no/randdcenter/rf-welding
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
+      title: Hydrodynamisk slippbælter
+      description: Modellprøving i slippbælten vår for å optimalisere skrogform, utrulling, stabilitet og effektivitet over et intervall av last- og bølgeforhold.
+      href: /no/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: Prototypeverksted
+      description: Anlegg i full størrelse for prototyper og ferdigstillelse, der nye modeller bygges, ferdigstilles og prøves på vannet. Hver prototype gjennomgår et vanntestprogram på minst 20 timer før den godkjennes for produksjon.
+      href: /no/randdcenter/prototype-workshop
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+      title: Kvalitets- og testlaboratorium
+      description: Dedikert kvalitetslaboratorium for strekkprøving, lufttetthetssykluser, sveisesømprøving og materialsertifisering, for å sikre at hvert brett som forlater verkstedet oppfyller de publiserte spesifikasjonene våre.
+      href: /no/randdcenter/quality-inspection-lab
