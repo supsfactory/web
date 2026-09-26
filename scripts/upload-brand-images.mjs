@@ -207,10 +207,17 @@ async function run() {
   }
 
   const keys = files.map((f) => `${KEY_PREFIX}${relative(SRC_DIR, f).split(sep).join('/')}`)
-  // Source files are named `isupfactory-*`. Extend each upload with the legacy
-  // `afarer-*` key so old hotlinked CDN URLs keep resolving (`.ico` excluded —
-  // the legacy favicon object already sits in R2 under its old name).
-  const aliases = keys.map((k) => (k.includes('isupfactory-') && !k.endsWith('.ico') ? k.replace('isupfactory-', 'afarer-') : null))
+  // Local source files carry `supsfactory-*` names (kept from the pre-rebrand
+  // tree). Extend each such upload with the `isupfactory-*` key the current
+  // code actually references. Files already named `isupfactory-*` also get a
+  // legacy `afarer-*` alias so old hotlinked CDN URLs keep resolving (`.ico`
+  // excluded — the legacy favicon object already sits in R2 under its old name).
+  const aliases = keys.map((k) => {
+    if (k.endsWith('.ico')) return null
+    if (k.includes('isupfactory-')) return k.replace('isupfactory-', 'afarer-')
+    if (k.includes('supsfactory-')) return k.replace('supsfactory-', 'isupfactory-')
+    return null
+  })
   const totalBytes = (await Promise.all(files.map((f) => stat(f)))).reduce((n, s) => n + s.size, 0)
 
   if (DRY_RUN) {
